@@ -165,7 +165,7 @@ def main():
                 ev = find_detail(league, eid, c["startDate"], cache)
                 if ev:
                     bouts = ordered_bouts(ev)[:12]
-                    when = start.strftime("%a %d %b %Y, %H:%M UTC")
+                    _ts = int(start.timestamp()); when = "<t:%d:F>  (<t:%d:R>)" % (_ts, _ts)
                     body = "\U0001F4C5 **" + when + "**\n\n" + "\n".join(matchup_line(b) for b in bouts)
                     ok, _ = post_forum(cfg["upcoming_forum_id"], "\U0001F94A " + label, body, cfg.get("alerts_role_id"))
                     if ok: up_done.add(eid); posted += 1; print("posted upcoming:", label); time.sleep(1)
