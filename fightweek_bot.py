@@ -85,7 +85,7 @@ def main():
         cache = {e["id"]: e for e in sb.get("events", [])}
         for c in lg[0].get("calendar", []):
             eid = event_id((c.get("event") or {}).get("$ref"))
-            if not eid or eid in done:
+            if not eid:
                 continue
             start = common.parse_iso(c.get("startDate"))
             if not start or not (now < start <= now + datetime.timedelta(days=FIGHT_WEEK_DAYS)):
@@ -107,6 +107,15 @@ def main():
             body = ("🗓️ **Fight Week: %s**\n%s  (%s)\n\n**Main card**\n%s\n\nWho you got? Vote below \U0001F447"
                     % (label, common.dts(ts, "F"), common.dts(ts, "R"), "\n".join(lines)))
 
+            rec = done.get(eid)
+            if rec:                                  # already hubbed -> self-heal if the card changed
+                if rec.get("body") != body and rec.get("thread_id"):
+                    tid = rec["thread_id"]
+                    c2, _ = common.discord("PATCH", "/channels/%s/messages/%s" % (tid, tid), {"content": body[:1990]})
+                    if c2 in (200, 201):
+                        rec["body"] = body; made += 1; print("hub updated:", label)
+                continue
+
             code, resp = common.create_forum_thread(forum, "🗓️ " + label + " — Fight Week", body)
             if code in (200, 201) and isinstance(resp, dict) and resp.get("id"):
                 tid = resp["id"]
@@ -117,7 +126,7 @@ def main():
                                  "answers": [{"poll_media": {"text": main_a[:55]}},
                                              {"poll_media": {"text": main_b[:55]}}],
                                  "duration": hours, "allow_multiselect": False}})
-                done[eid] = {"thread_id": tid, "created": common.now_utc().isoformat()}
+                done[eid] = {"thread_id": tid, "body": body, "created": common.now_utc().isoformat()}
                 made += 1
                 print("hub created:", label)
             else:
