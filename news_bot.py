@@ -16,6 +16,7 @@ FEEDS = [
     ("Sherdog",      "https://www.sherdog.com/rss/news.xml"),
 ]
 MAX_PER_RUN  = 8       # cap bursts; leftovers post next run (every ~15 min)
+SEED_POST    = 5       # on the very first run, post this many latest (not silent)
 MAX_SEEN     = 1200    # cap state size
 STATE_FILE   = "state_news.json"
 
@@ -86,7 +87,7 @@ def main():
         print("No mma_news channel in config - run bots_setup.py."); return
     state = common.load_json(common.state_path(STATE_FILE), {})
     seen = set(state.get("seen", []))
-    first_run = not state.get("initialized")
+    first_run = (not state.get("initialized")) or state.get("v") != 2
 
     fresh = []
     for source, url in FEEDS:
@@ -108,12 +109,17 @@ def main():
     fresh = sorted(uniq.values(), key=lambda x: x["when"])
 
     if first_run:
-        for it in fresh:
+        newest = sorted(fresh, key=lambda x: x["when"], reverse=True)[:SEED_POST]
+        for it in sorted(newest, key=lambda x: x["when"]):
+            msg = "**%s** · %s\n%s" % (it["source"], common.truncate(it["title"], 230), it["link"])
+            common.post_message(chan, msg)
+        for it in fresh:                       # mark the rest seen so we don't back-dump later
             seen.add(it["guid"])
         state["seen"] = sorted(seen)[-MAX_SEEN:]
         state["initialized"] = True
+        state["v"] = 2
         common.save_json(common.state_path(STATE_FILE), state)
-        print("First run: seeded %d items silently (no back-dump)." % len(fresh))
+        print("First run: posted %d latest article(s), seeded %d." % (len(newest), len(fresh)))
         return
 
     posted = 0
@@ -134,6 +140,7 @@ def main():
             seen.add(it["guid"])
     state["seen"] = sorted(seen)[-MAX_SEEN:]
     state["initialized"] = True
+    state["v"] = 2
     common.save_json(common.state_path(STATE_FILE), state)
     print("Done. posted=%d (cap %d)" % (posted, MAX_PER_RUN))
 
