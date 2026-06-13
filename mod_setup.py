@@ -43,19 +43,31 @@ def me_id():
 
 
 def reset_rules(rules_ch):
-    """Delete existing messages in the rules channel, then post the fresh ruleset."""
+    """Keep exactly ONE rules message: edit the bot's existing one in place (so it
+    isn't re-posted/re-pinged every deploy), delete any duplicate rule posts from
+    earlier deploys, or post fresh if none exists."""
+    bot_id = me_id()
     code, msgs = common.discord("GET", "/channels/%s/messages?limit=50" % rules_ch)
-    deleted = 0
-    if isinstance(msgs, list):
-        for m in msgs:
-            mid = m.get("id")
-            if not mid:
-                continue
-            c, _ = common.discord("DELETE", "/channels/%s/messages/%s" % (rules_ch, mid))
+    bot_msgs = [m for m in (msgs if isinstance(msgs, list) else [])
+                if (m.get("author") or {}).get("id") == bot_id]
+    if bot_msgs:
+        keep = bot_msgs[0]                       # API returns newest first
+        if keep.get("content") != RULES_TEXT:
+            common.discord("PATCH", "/channels/%s/messages/%s" % (rules_ch, keep["id"]),
+                           {"content": RULES_TEXT})
+            print("  rules: edited the existing message in place")
+        else:
+            print("  rules: already current (no change)")
+        dupes = 0
+        for m in bot_msgs[1:]:                    # remove leftover duplicate rule posts
+            c, _ = common.discord("DELETE", "/channels/%s/messages/%s" % (rules_ch, m["id"]))
             if c in (200, 204):
-                deleted += 1
-    code, _ = common.post_message(rules_ch, RULES_TEXT)
-    print("  rules: cleared %d old message(s), posted fresh ruleset (HTTP %s)" % (deleted, code))
+                dupes += 1
+        if dupes:
+            print("  rules: removed %d duplicate rule post(s)" % dupes)
+    else:
+        code, _ = common.post_message(rules_ch, RULES_TEXT)
+        print("  rules: posted fresh ruleset (HTTP %s)" % code)
 
 
 # ---- AutoMod ---------------------------------------------------------------
