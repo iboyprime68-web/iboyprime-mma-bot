@@ -142,6 +142,32 @@ def load_json(path, default):
     except Exception:
         return default
 
+def forum_threads(guild_id, forum_id):
+    """Map {thread_name: thread_id} for active + archived threads in a forum."""
+    names = {}
+    for path in ("/guilds/%s/threads/active" % guild_id,
+                 "/channels/%s/threads/archived/public?limit=100" % forum_id):
+        try:
+            _, data = discord("GET", path)
+            for t in (data.get("threads", []) if isinstance(data, dict) else []):
+                if "parent_id" in t and str(t.get("parent_id")) != str(forum_id):
+                    continue
+                names[t.get("name", "")] = t.get("id")
+        except Exception:
+            pass
+    return names
+
+def starter_content(thread_id):
+    try:
+        _, msg = discord("GET", "/channels/%s/messages/%s" % (thread_id, thread_id))
+        return msg.get("content", "") if isinstance(msg, dict) else ""
+    except Exception:
+        return ""
+
+def edit_message(thread_id, content):
+    return discord("PATCH", "/channels/%s/messages/%s" % (thread_id, thread_id),
+                   {"content": content[:1990]})
+
 def main():
     cfg = load_json(CONFIG, None)
     if not cfg:
@@ -149,6 +175,7 @@ def main():
     state = load_json(STATE, {"upcoming": [], "results": []})
     up_done = set(state.get("upcoming", [])); res_done = set(state.get("results", []))
     now = datetime.datetime.now(datetime.timezone.utc); posted = 0
+    up_threads = forum_threads(cfg["guild_id"], cfg["upcoming_forum_id"])  # title -> id (self-heal)
     for league in LEAGUES:
         sb = espn(league + "/scoreboard")
         lg = sb.get("leagues") or []
@@ -161,14 +188,25 @@ def main():
             try: start = parse_dt(c["startDate"])
             except Exception: continue
             label = c.get("label", "MMA Event")
-            if now < start <= now + datetime.timedelta(days=UPCOMING_DAYS) and eid not in up_done:
+            if now < start <= now + datetime.timedelta(days=UPCOMING_DAYS):
                 ev = find_detail(league, eid, c["startDate"], cache)
                 if ev:
                     bouts = ordered_bouts(ev)[:12]
                     _ts = int(start.timestamp()); when = "<t:%d:F>  (<t:%d:R>)" % (_ts, _ts)
                     body = "\U0001F4C5 **" + when + "**\n\n" + "\n".join(matchup_line(b) for b in bouts)
-                    ok, _ = post_forum(cfg["upcoming_forum_id"], "\U0001F94A " + label, body, cfg.get("alerts_role_id"))
-                    if ok: up_done.add(eid); posted += 1; print("posted upcoming:", label); time.sleep(1)
+                    role = cfg.get("alerts_role_id")
+                    title = ("\U0001F94A " + label)[:95]
+                    tid = up_threads.get(title)
+                    if tid:
+                        if "<t:" not in starter_content(tid):     # old UTC-only post -> refresh in place
+                            edit_message(tid, ("<@&%s>\n" % role if role else "") + body)
+                            posted += 1; print("refreshed upcoming:", label); time.sleep(0.5)
+                    else:
+                        ok, resp = post_forum(cfg["upcoming_forum_id"], "\U0001F94A " + label, body, role)
+                        if ok:
+                            posted += 1; print("posted upcoming:", label)
+                            if isinstance(resp, dict) and resp.get("id"): up_threads[title] = resp["id"]
+                            time.sleep(1)
             if now - datetime.timedelta(days=RESULTS_LOOKBACK) <= start <= now and eid not in res_done:
                 ev = find_detail(league, eid, c["startDate"], cache)
                 if ev and event_done(ev):
