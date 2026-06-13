@@ -1,0 +1,30 @@
+name: Fight-Week Hub
+on:
+  schedule:
+    - cron: '45 11,23 * * *'   # twice a day
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bot-fightweek
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Open fight-week hubs
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: python fightweek_bot.py
+      - name: Save state
+        run: |
+          git config user.name "iboyprime-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add state_fightweek.json 2>/dev/null || true
+          git commit -m "fightweek state [skip ci]" || echo "no changes"
+          git push || true
