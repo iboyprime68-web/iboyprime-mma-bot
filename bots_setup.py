@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - one-time setup for the NEW cron bots (std-lib only, safe to re-run).
+"""iBoyPrime HQ - setup for the cron bots (std-lib only, safe to re-run).
 
-Creates a '📰 MMA FEEDS' category with read-only channels (news, rankings,
-on-this-day, reddit) plus a 🗓️ fight-week forum, finds the existing
-channels/roles the bots reuse (live-now, server-updates, Live Pings...),
-merges the MMA bot's forum/role IDs, and writes bots_config.json.
+Consolidates everything into the single '🥊 MMA & COMBAT SPORTS' category:
+  * ensures the feed channels (mma-news, rankings, on-this-day) + fight-week
+    forum exist INSIDE that category (moving them there if an older deploy put
+    them under a separate 'MMA FEEDS' category),
+  * deletes the now-obsolete 'MMA FEEDS' category, the reddit-mma channel, the
+    odds-movers channel, and the redundant fight-schedule channel,
+  * references existing channels/roles the bots reuse (memes, live-now, rules,
+    mod-log, staff roles, patrol channels),
+  * writes bots_config.json.
 
-The bot itself has Administrator, so read-only overwrites that deny @everyone
-SEND do not stop the bot from posting.
+The bot has Administrator, so read-only overwrites don't stop it posting.
 """
 import os, json, time, urllib.request, urllib.error
 
@@ -29,19 +33,23 @@ READ   = P["VIEW_CHANNEL"] | P["READ_HISTORY"] | P["ADD_REACTIONS"] | P["SEND_IN
 NO_NEW = P["CREATE_PUB_THREAD"] | P["CREATE_PRIV_THREAD"]
 NO_SEND = P["SEND_MESSAGES"] | NO_NEW
 
-CATEGORY = "📰 MMA FEEDS"
-# channel key -> (discord name, type, topic)   type 0 = text, 15 = forum
+MMA_CATEGORY = "🥊 MMA & COMBAT SPORTS"      # everything consolidates here
+OLD_CATEGORY = "📰 MMA FEEDS"                # to be removed
+
+# feed channels that must live in the MMA category. key -> (name, type, topic)
 FEED_CHANNELS = [
-    ("mma_news",     "🥊-mma-news",      0, "Latest MMA headlines - auto-posted from the major outlets."),
-    ("rankings",     "📊-rankings",      0, "UFC ranking movements - auto-posted when fighters move."),
-    ("on_this_day",  "📅-on-this-day",   0, "On this day in MMA history + daily trivia."),
-    ("reddit_mma",   "👽-reddit-mma",    0, "Top r/MMA posts of the day."),
+    ("mma_news",    "🥊-mma-news",    0, "Latest MMA headlines - auto-posted from the major outlets."),
+    ("rankings",    "📊-rankings",    0, "Live UFC rankings board + movement alerts."),
+    ("on_this_day", "📅-on-this-day", 0, "On this day in MMA history + daily trivia."),
 ]
 FORUMS = [
-    ("fight_week",   "🗓️-fight-week",    "Per-card hubs: full card & a prediction poll. Opens fight week."),
+    ("fight_week",  "🗓️-fight-week",  "Per-card hubs: full card & a prediction poll. Opens fight week."),
 ]
-# existing channels the bots reuse (by name)
+# obsolete channels/category to delete if present
+DELETE_CHANNELS = ["👽-reddit-mma", "📈-odds-movers", "📅-fight-schedule"]
+
 EXISTING_CHANNELS = {
+    "memes":          "😂-memes",
     "live_now":       "🔴-live-now",
     "server_updates": "🎉-server-updates",
     "announcements":  "📣-announcements",
@@ -50,17 +58,17 @@ EXISTING_CHANNELS = {
     "rules":          "📜-rules",
     "mod_log":        "🗒️-mod-log",
 }
-# existing roles the bots may reference (by name)
 EXISTING_ROLES = {
-    "live_pings":     "🔴 Live Pings",
-    "youtube_pings":  "📹 YouTube Pings",
-    "announce_role":  "📣 Announcements",
-    "events_role":    "🎉 Events",
-    "fight_alerts":   "🥊 Fight Alerts",
-    "owner":          "👑 Owner",
-    "admin":          "🛡️ Admin",
-    "mod":            "🔨 Moderator",
+    "live_pings":    "🔴 Live Pings",
+    "youtube_pings": "📹 YouTube Pings",
+    "announce_role": "📣 Announcements",
+    "events_role":   "🎉 Events",
+    "fight_alerts":  "🥊 Fight Alerts",
+    "owner":         "👑 Owner",
+    "admin":         "🛡️ Admin",
+    "mod":           "🔨 Moderator",
 }
+PATROL_NAMES = ["💬-general", "🎮-gaming-chat", "🥊-mma-chat", "🎲-off-topic", "😂-memes", "👋-introductions"]
 
 
 def api(method, path, body=None, tries=6):
@@ -92,38 +100,60 @@ def main():
     _, guild = api("GET", "/guilds/" + GUILD_ID)
     roles = {r["name"]: r["id"] for r in guild.get("roles", [])}
     print("Server:", guild.get("name"))
-
     staff_ids = [roles[n] for n in ("👑 Owner", "🛡️ Admin", "🔨 Moderator") if n in roles]
+
     _, chan_list = api("GET", "/guilds/" + GUILD_ID + "/channels")
     chans = {c["name"]: c for c in chan_list}
 
-    # category
-    cat_id = None
-    for c in chan_list:
-        if c["type"] == 4 and c["name"] == CATEGORY:
-            cat_id = c["id"]; print("  - category exists:", CATEGORY); break
-    if not cat_id:
-        _, c = api("POST", "/guilds/" + GUILD_ID + "/channels", {"name": CATEGORY, "type": 4})
-        cat_id = c["id"]; print("  + category:", CATEGORY); time.sleep(0.4)
+    mma_cat = next((c["id"] for c in chan_list if c["type"] == 4 and c["name"] == MMA_CATEGORY), None)
+    if not mma_cat:
+        _, c = api("POST", "/guilds/" + GUILD_ID + "/channels", {"name": MMA_CATEGORY, "type": 4})
+        mma_cat = c["id"]; print("  + category:", MMA_CATEGORY); time.sleep(0.4)
 
     read_only_ow = [ow(everyone, allow=READ, deny=NO_SEND)] + [ow(s, allow=READ | P["SEND_MESSAGES"]) for s in staff_ids]
     forum_ow     = [ow(everyone, allow=READ, deny=NO_NEW)]
-
     out_channels = {}
 
-    def ensure_channel(name, ctype, topic, overwrites):
-        if name in chans:
-            print("  - exists:", name); return chans[name]["id"]
+    def ensure(name, ctype, topic, overwrites):
+        c = chans.get(name)
+        if c:
+            if str(c.get("parent_id")) != str(mma_cat):
+                api("PATCH", "/channels/" + c["id"], {"parent_id": mma_cat})
+                print("  ~ moved into MMA category:", name); time.sleep(0.35)
+            return c["id"]
         body = {"name": name, "type": ctype, "topic": topic,
-                "parent_id": cat_id, "permission_overwrites": overwrites}
+                "parent_id": mma_cat, "permission_overwrites": overwrites}
         _, c = api("POST", "/guilds/" + GUILD_ID + "/channels", body)
         chans[name] = c; print("  + channel:", name); time.sleep(0.45)
         return c["id"]
 
     for key, name, ctype, topic in FEED_CHANNELS:
-        out_channels[key] = ensure_channel(name, ctype, topic, read_only_ow)
+        out_channels[key] = ensure(name, ctype, topic, read_only_ow)
     for key, name, topic in FORUMS:
-        out_channels[key] = ensure_channel(name, 15, topic, forum_ow)
+        out_channels[key] = ensure(name, 15, topic, forum_ow)
+
+    # delete obsolete channels
+    for name in DELETE_CHANNELS:
+        c = chans.get(name)
+        if c:
+            try:
+                api("DELETE", "/channels/" + c["id"]); print("  - deleted channel:", name); time.sleep(0.35)
+                chans.pop(name, None)
+            except Exception as e:
+                print("  ! could not delete", name, e)
+
+    # delete the obsolete MMA FEEDS category (children already moved out)
+    old_cat = next((c for c in chan_list if c["type"] == 4 and c["name"] == OLD_CATEGORY), None)
+    if old_cat:
+        _, fresh = api("GET", "/guilds/" + GUILD_ID + "/channels")
+        kids = [c for c in fresh if str(c.get("parent_id")) == str(old_cat["id"])]
+        if not kids:
+            try:
+                api("DELETE", "/channels/" + old_cat["id"]); print("  - deleted category:", OLD_CATEGORY)
+            except Exception as e:
+                print("  ! could not delete category", e)
+        else:
+            print("  ! MMA FEEDS still has channels, left in place:", [k["name"] for k in kids])
 
     for key, name in EXISTING_CHANNELS.items():
         if name in chans:
@@ -138,10 +168,8 @@ def main():
         else:
             print("  ! role not found (skipped):", name)
 
-    patrol_names = ["💬-general", "🎮-gaming-chat", "🥊-mma-chat", "🎲-off-topic", "😂-memes", "👋-introductions"]
-    patrol = [chans[n]["id"] for n in patrol_names if n in chans]
+    patrol = [chans[n]["id"] for n in PATROL_NAMES if n in chans]
 
-    # merge MMA bot config if present (forum + role IDs the fight-week bot reuses)
     mma = {}
     for mp in (os.path.join(HERE, "mma_config.json"),
                os.path.join(os.path.dirname(HERE), "mma_config.json")):
@@ -162,7 +190,6 @@ def main():
             "alerts_role_id":    mma.get("alerts_role_id"),
             "results_role_id":   mma.get("results_role_id"),
         },
-        # creator handles (used by milestone / live / stream bots)
         "creator": {
             "twitch_login": os.environ.get("TWITCH_LOGIN", "iboyprime"),
             "kick_slug":    os.environ.get("KICK_SLUG", "iboyprime"),
@@ -174,8 +201,8 @@ def main():
     with open(os.path.join(HERE, "bots_config.json"), "w", encoding="utf-8") as f:
         json.dump(cfg, f, indent=2, ensure_ascii=False)
     print("\nWrote bots_config.json")
-    print("Channels:", ", ".join(sorted(out_channels)))
-    print("DONE. New feed channels + fight-week forum ready.")
+    print("MMA category now holds:", ", ".join(sorted(out_channels)))
+    print("DONE.")
 
 
 if __name__ == "__main__":
