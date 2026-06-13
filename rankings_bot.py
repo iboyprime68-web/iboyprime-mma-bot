@@ -1,90 +1,114 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - Bot #3: UFC rankings tracker.
+"""iBoyPrime HQ - Bot #3: UFC rankings (board + movement alerts).
 
-Polls the free octagon-api UFC rankings (no key), diffs against the committed
-snapshot, and posts movement to #rankings:
-  * 👑 new champion
-  * 🆕 new entrant to a division's top 15
-  * 📈/📉 climbs or drops of >= 2 places (single-spot shifts are cascade noise
-    from someone else moving, so they're suppressed)
-First run seeds silently. Defensive parsing - if the source shape changes or is
-down, it skips without false posts. Std-lib only.
+Source: free octagon-api (no key). IMPORTANT: that API gives fighters in ranked
+order with NO rank field - rank = list position (index 0 = #1).
+
+Two outputs in #rankings, both idempotent (re-running never duplicates):
+  * BOARD - one message per division showing the current Top 15 (+ champion).
+            Edited in place each run; posted on the very first run so the channel
+            is populated immediately on deploy.
+  * ALERTS - when something changes: 👑 new champion, 🆕 new entrant,
+             ❌ dropped out, 📈/📉 moved >= 2 places (single-spot cascade noise
+             is suppressed).
+Std-lib only.
 """
 import common
 
-SOURCE       = "https://api.octagon-api.com/rankings"
-MOVE_MIN     = 2          # report moves of >= this many places
-MAX_RANK     = 15
-STATE_FILE   = "state_rankings.json"
+SOURCE     = "https://api.octagon-api.com/rankings"
+MOVE_MIN   = 2
+MAX_RANK   = 15
+STATE_FILE = "state_rankings.json"
+
+
+def is_p4p(div_id, name):
+    s = (div_id or "") + " " + (name or "")
+    return "pound-for-pound" in s.lower()
 
 
 def normalize(raw):
-    """raw (dict keyed by division) -> {division: {'champion': name|None, 'ranks': {int: name}}}"""
+    """list -> {division: {p4p, champion|None, ranks{int:name}}}, preserving order."""
     out = {}
-    if not isinstance(raw, dict):
-        return out
-    for key, val in raw.items():
-        if not isinstance(val, dict):
+    order = []
+    if not isinstance(raw, list):
+        return out, order
+    for d in raw:
+        if not isinstance(d, dict):
             continue
-        div = val.get("categoryName") or key
+        div = d.get("categoryName") or d.get("id")
+        if not div:
+            continue
+        p4p = is_p4p(d.get("id"), div)
         champ = None
-        co = val.get("champion")
-        if isinstance(co, dict):
-            champ = co.get("fighterName") or co.get("championName") or co.get("name")
-        elif isinstance(co, str):
-            champ = co or None
+        if not p4p:
+            co = d.get("champion")
+            if isinstance(co, dict):
+                champ = co.get("championName") or co.get("name") or co.get("fighterName")
+            elif isinstance(co, str):
+                champ = co or None
         ranks = {}
-        for f in val.get("fighters", []) or []:
-            if not isinstance(f, dict):
-                continue
-            name = f.get("fighterName") or f.get("name")
-            r = str(f.get("rank", "")).strip()
-            if not name:
-                continue
-            if r.isdigit():
-                ranks[int(r)] = name
-            elif r.lower() in ("c", "champ", "champion") and not champ:
-                champ = name
+        for i, f in enumerate(d.get("fighters", []) or []):
+            nm = f.get("name") or f.get("fighterName") if isinstance(f, dict) else None
+            if nm:
+                ranks[i + 1] = nm
         if champ or ranks:
-            out[div] = {"champion": champ, "ranks": ranks}
-    return out
+            out[div] = {"p4p": p4p, "champion": champ, "ranks": ranks}
+            order.append(div)
+    return out, order
 
 
-def snapshot_for_state(norm):
-    return {d: {"champion": v["champion"],
-                "ranks": {str(k): n for k, n in v["ranks"].items()}}
-            for d, v in norm.items()}
+def board_text(div, data):
+    head = ("**🥇 %s**" % div) if data["p4p"] else (
+        "**🥊 %s**%s" % (div, ("  ·  👑 %s" % data["champion"]) if data["champion"] else ""))
+    lines = ["%d. %s" % (r, data["ranks"][r]) for r in sorted(data["ranks"])]
+    return (head + "\n" + "\n".join(lines))[:1990]
+
+
+def division_state(data):
+    return {"p4p": data["p4p"], "champion": data["champion"],
+            "ranks": {str(k): v for k, v in data["ranks"].items()}}
 
 
 def diff_division(div, old, new):
     lines = []
-    old_champ = old.get("champion")
-    new_champ = new.get("champion")
-    if new_champ and new_champ != old_champ:
-        lines.append("👑 **New champion — %s!**" % new_champ)
+    if not new["p4p"] and new["champion"] and new["champion"] != old.get("champion"):
+        lines.append("👑 **%s** — new champion: **%s**" % (div, new["champion"]))
     old_ranks = {int(k): v for k, v in old.get("ranks", {}).items()}
-    new_ranks = new.get("ranks", {})
+    new_ranks = new["ranks"]
     old_by_name = {n: r for r, n in old_ranks.items()}
+    new_names = set(new_ranks.values())
     for rank in sorted(new_ranks):
         name = new_ranks[rank]
         if name in old_by_name:
-            delta = old_by_name[name] - rank      # +ve = climbed
+            delta = old_by_name[name] - rank
             if delta >= MOVE_MIN:
-                lines.append("📈 **%s** climbed to #%d (from #%d)" % (name, rank, old_by_name[name]))
+                lines.append("📈 **%s** climbed to #%d in %s (from #%d)" % (name, rank, div, old_by_name[name]))
             elif delta <= -MOVE_MIN:
-                lines.append("📉 **%s** slipped to #%d (from #%d)" % (name, rank, old_by_name[name]))
-        elif name != old_champ and rank <= MAX_RANK:
-            lines.append("🆕 **%s** entered the rankings at #%d" % (name, rank))
+                lines.append("📉 **%s** slipped to #%d in %s (from #%d)" % (name, rank, div, old_by_name[name]))
+        elif name != old.get("champion") and rank <= MAX_RANK:
+            lines.append("🆕 **%s** entered the %s rankings at #%d" % (name, div, rank))
+    for name in old_by_name:
+        if name not in new_names and name != new["champion"]:
+            lines.append("❌ **%s** dropped out of the %s top 15" % (name, div))
     return lines
 
 
-def chunk_and_post(chan, header, blocks):
+def post_or_edit(chan, msg_id, text):
+    """Edit if msg_id exists; else post. Returns the (maybe new) message id."""
+    if msg_id:
+        code, _ = common.discord("PATCH", "/channels/%s/messages/%s" % (chan, msg_id), {"content": text})
+        if code in (200, 201):
+            return msg_id
+    code, resp = common.post_message(chan, text)
+    return resp.get("id") if (code in (200, 201) and isinstance(resp, dict)) else msg_id
+
+
+def chunk_post(chan, header, blocks):
     msg = header
-    for block in blocks:
-        add = "\n\n" + block
+    for b in blocks:
+        add = "\n" + b
         if len(msg) + len(add) > 1900:
-            common.post_message(chan, msg)
-            msg = block
+            common.post_message(chan, msg); msg = b
         else:
             msg += add
     if msg.strip():
@@ -97,35 +121,53 @@ def main():
     if not chan:
         print("No rankings channel in config."); return
     code, raw = common.get_json(SOURCE)
-    norm = normalize(raw)
-    if code != 200 or not norm:
+    new, order = normalize(raw)
+    if code != 200 or not new:
         print("Rankings fetch failed/empty (HTTP %s) - skipping." % code); return
 
     state = common.load_json(common.state_path(STATE_FILE), {})
-    old = state.get("snapshot")
-    new_state = snapshot_for_state(norm)
+    old_snap = state.get("snapshot") or {}
+    board = state.get("board") or {}
+    first = (not old_snap) or state.get("v") != 2   # re-seed cleanly if old/broken state
 
-    if not old:
-        state["snapshot"] = new_state
-        common.save_json(common.state_path(STATE_FILE), state)
-        print("First run: seeded %d divisions silently." % len(new_state)); return
+    # change alerts (only when we have a prior snapshot)
+    alerts = []
+    if not first:
+        for div in order:
+            if div in old_snap:
+                alerts.append(("__%s__" % div, diff_division(div, old_snap[div], new[div])))
+    flat = []
+    for _h, lines in alerts:
+        flat.extend(lines)
+    if flat:
+        chunk_post(chan, "📊 **UFC Rankings Update**\n", flat)
+        print("posted %d ranking changes" % len(flat))
 
-    blocks = []
-    for div in norm:
-        if div not in old:           # newly-tracked division -> seed, don't dump
+    # board reconcile (edit in place; post on first run / when changed)
+    new_snap = {}
+    edits = posts = 0
+    for div in order:
+        new_snap[div] = division_state(new[div])
+        changed = (old_snap.get(div) != new_snap[div])
+        if div in board and not changed:
             continue
-        lines = diff_division(div, old[div], norm[div])
-        if lines:
-            blocks.append("__%s__\n%s" % (div, "\n".join(lines)))
+        text = board_text(div, new[div])
+        mid = post_or_edit(chan, board.get(div), text)
+        if mid:
+            if board.get(div):
+                edits += 1
+            else:
+                posts += 1
+            board[div] = mid
 
-    if blocks:
-        chunk_and_post(chan, "📊 **UFC Rankings Update**", blocks)
-        print("Posted %d division updates." % len(blocks))
-    else:
-        print("No notable movement.")
-
-    state["snapshot"] = new_state
+    state["snapshot"] = new_snap
+    state["board"] = board
+    state["v"] = 2
     common.save_json(common.state_path(STATE_FILE), state)
+    if first:
+        print("First run: posted rankings board (%d divisions)." % posts)
+    else:
+        print("Done. board posts=%d edits=%d alerts=%d" % (posts, edits, len(flat)))
 
 
 if __name__ == "__main__":
