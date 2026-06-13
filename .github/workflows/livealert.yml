@@ -1,0 +1,32 @@
+name: Live Alert + Stream Recap
+on:
+  schedule:
+    - cron: '*/5 * * * *'   # every 5 minutes (catches go-live + stream-end promptly)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bot-live
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check live status / post go-live + recap
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+        run: python livealert_bot.py
+      - name: Save state
+        run: |
+          git config user.name "iboyprime-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add state_live.json 2>/dev/null || true
+          git commit -m "live state [skip ci]" || echo "no changes"
+          git push || true
