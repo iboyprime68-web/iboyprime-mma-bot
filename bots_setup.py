@@ -57,6 +57,7 @@ EXISTING_CHANNELS = {
     "fight_night":    "🔥-fight-night",
     "rules":          "📜-rules",
     "mod_log":        "🗒️-mod-log",
+    "bot_commands":   "🤖-bot-commands",
 }
 EXISTING_ROLES = {
     "live_pings":    "🔴 Live Pings",
