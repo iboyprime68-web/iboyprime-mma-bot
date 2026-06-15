@@ -10,7 +10,7 @@ Every bot in this repo imports this module. It centralises:
 
 No third-party packages: this runs on a bare GitHub Actions runner.
 """
-import os, re, json, time, datetime, urllib.request, urllib.error
+import os, re, json, time, datetime, subprocess, urllib.request, urllib.error
 
 HERE     = os.path.dirname(os.path.abspath(__file__))
 DISCORD  = "https://discord.com/api/v10"
@@ -127,6 +127,59 @@ def load_config():
     if not cfg:
         raise SystemExit("No bots_config.json - run bots_setup.py first.")
     return cfg
+
+
+# ---- near-real-time loop + durable state ----------------------------------
+def in_ci():
+    """True when running inside a GitHub Actions job."""
+    return os.environ.get("GITHUB_ACTIONS") == "true"
+
+
+def run_loop(poll_once, duration=255, interval=60):
+    """Run poll_once() repeatedly inside ONE job so latency is ~`interval`s
+    instead of the 5-min GitHub-cron floor. Fires once now, then every
+    `interval`s until ~`duration`s have elapsed (kept under 5 min so the next
+    cron tick doesn't pile up - the workflows already serialise via a
+    `concurrency` group). Each call is guarded so one failed poll just logs and
+    the loop continues. OUTSIDE Actions (local runs / tests) it does a single
+    pass, so `python <bot>.py` still behaves like before. Returns the count."""
+    single = not in_ci()
+    start = time.time()
+    n = 0
+    while True:
+        n += 1
+        try:
+            poll_once()
+        except Exception as e:
+            print("  loop iteration error:", e)
+        if single or (time.time() - start + interval) >= duration:
+            break
+        time.sleep(interval)
+    return n
+
+
+def persist_state(filename, message=None):
+    """Commit + push ONE state file immediately (mid-loop), so a long-running
+    job that posts at minute 1 doesn't re-post if it dies before minute 5.
+    No-op unless in Actions (local/test runs never touch git). Every git step is
+    guarded - a failure here must never break posting; the workflow's end-of-job
+    'Save state' step is the backstop. Mirrors that step (pull --rebase handles
+    pushes from other bot workflows)."""
+    if not in_ci():
+        return
+    msg = message or ("%s [skip ci]" % filename)
+    for cmd in (
+        ["git", "config", "user.name", "iboyprime-bot"],
+        ["git", "config", "user.email", "bot@users.noreply.github.com"],
+        ["git", "add", filename],
+        ["git", "commit", "-m", msg],
+        ["git", "pull", "--rebase", "--autostash"],
+        ["git", "push"],
+    ):
+        try:
+            subprocess.run(cmd, cwd=HERE, capture_output=True, timeout=90)
+        except Exception as e:
+            print("  persist_state(%s): %s -> %s" % (filename, " ".join(cmd[:2]), e))
 
 
 # ---- time / text helpers ---------------------------------------------------
