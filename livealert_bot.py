@@ -14,7 +14,9 @@ whether iBoyPrime is live, and:
 Sources:
   * Twitch - app token (TWITCH_CLIENT_ID + TWITCH_CLIENT_SECRET); streams + VOD
              read fine with an app token (no creator OAuth needed here).
-  * Kick   - unofficial endpoint, best-effort (often blocked from cloud IPs).
+  * Kick   - OFFICIAL public API app token (KICK_CLIENT_ID + KICK_CLIENT_SECRET);
+             reliable, unlike the old unofficial endpoint that cloud IPs got blocked
+             from. Stays idle if the Kick keys aren't set.
 These two behaviours share one live-session state file, so they live in one bot
 to avoid races. Std-lib only.
 """
@@ -77,20 +79,44 @@ def twitch_vod(info):
         return ""
 
 
-# ---- Kick (best effort) ----------------------------------------------------
+# ---- Kick (official public API) --------------------------------------------
+def kick_token():
+    """App access token via OAuth2 client_credentials (no user login). None if no keys."""
+    cid = os.environ.get("KICK_CLIENT_ID", "")
+    sec = os.environ.get("KICK_CLIENT_SECRET", "")
+    if not (cid and sec):
+        return None
+    body = ("grant_type=client_credentials&client_id=%s&client_secret=%s" % (cid, sec)).encode()
+    code, data = common.http("https://id.kick.com/oauth/token", method="POST", raw_body=body,
+                             headers={"Content-Type": "application/x-www-form-urlencoded"})
+    try:
+        import json
+        return json.loads(data).get("access_token")
+    except Exception:
+        return None
+
+
 def kick_status(cfg):
     slug = (cfg.get("creator", {}).get("kick_slug") or "").strip()
-    if not slug:
-        return None
-    code, data = common.get_json("https://kick.com/api/v2/channels/" + slug)
+    tok = kick_token()
+    if not (slug and tok):
+        return None                                # Kick disabled / no keys -> skipped
+    h = {"Authorization": "Bearer " + tok}
+    code, data = common.get_json("https://api.kick.com/public/v1/channels?slug=" + slug, headers=h)
     if code != 200 or not isinstance(data, dict):
         return None
-    ls = data.get("livestream")
-    if not ls:
+    arr = data.get("data") or []
+    if not arr:
         return {"live": False, "login": slug}
-    return {"live": True, "id": str(ls.get("id")), "title": ls.get("session_title", ""),
-            "game": "", "viewers": int(ls.get("viewer_count", 0) or 0),
-            "started": ls.get("created_at", ""), "url": "https://kick.com/" + slug, "login": slug}
+    ch = arr[0]
+    st = ch.get("stream") or {}
+    if not st.get("is_live"):
+        return {"live": False, "login": slug}
+    # the public API exposes no stream id; start_time is unique per session, so use it as the key
+    sid = str(st.get("start_time") or slug)
+    return {"live": True, "id": sid, "title": ch.get("stream_title", ""),
+            "game": "", "viewers": int(st.get("viewer_count", 0) or 0),
+            "started": st.get("start_time", ""), "url": "https://kick.com/" + slug, "login": slug}
 
 
 PLATFORMS = {
