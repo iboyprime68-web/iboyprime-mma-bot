@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """iBoyPrime HQ - Bots #8 + #7: Live alert+ and Stream recap (one poller).
 
-Every few minutes it checks whether iBoyPrime is live, and:
+On GitHub Actions it checks every ~1 min (common.run_loop polls inside one job)
+instead of waiting for the 5-min cron floor, so the go-live alert lands close to
+when the stream actually starts. Each alert/recap is posted exactly once (state is
+committed the moment it posts, so a mid-run crash can't double-ping). It checks
+whether iBoyPrime is live, and:
   GO-LIVE  -> posts a go-live alert to #live-now (pings the 🔴 Live Pings role),
               opens a discussion thread, and starts tracking the session.
   WHILE LIVE -> keeps the peak viewer count up to date.
@@ -163,14 +167,20 @@ def main():
         print("No live_now channel in config."); return
     role_id = cfg.get("roles", {}).get("live_pings")
     state = common.load_json(common.state_path(STATE_FILE), {})
-    acted = 0
-    for pkey in PLATFORMS:
-        try:
-            acted += process(pkey, cfg, state, chan, role_id)
-        except Exception as e:
-            print("  %s error: %s" % (pkey, e))
-    common.save_json(common.state_path(STATE_FILE), state)
-    print("Done. actions=%d" % acted)
+
+    def poll_once():
+        acted = 0
+        for pkey in PLATFORMS:
+            try:
+                acted += process(pkey, cfg, state, chan, role_id)
+            except Exception as e:
+                print("  %s error: %s" % (pkey, e))
+        common.save_json(common.state_path(STATE_FILE), state)
+        if acted:                              # a go-live/recap fired: commit now so we never re-ping
+            common.persist_state(STATE_FILE)
+        print("cycle done. actions=%d" % acted)
+
+    common.run_loop(poll_once)
 
 
 if __name__ == "__main__":
