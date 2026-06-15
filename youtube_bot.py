@@ -93,7 +93,7 @@ def main():
     cfg = common.load_config()
     chans = cfg.get("channels", {})
     roles = cfg.get("roles", {})
-    up_chan = chans.get("announcements") or chans.get("server_updates")
+    up_chan = chans.get("youtube_uploads") or chans.get("announcements") or chans.get("server_updates")
     live_chan = chans.get("live_now")
     yt_role = roles.get("youtube_pings")
     live_role = roles.get("live_pings")
