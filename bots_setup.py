@@ -45,12 +45,15 @@ FEED_CHANNELS = [
 FORUMS = [
     ("fight_week",  "🗓️-fight-week",  "Per-card hubs: full card & a prediction poll. Opens fight week."),
 ]
-# obsolete channels/category to delete if present
-DELETE_CHANNELS = ["👽-reddit-mma", "📈-odds-movers", "📅-fight-schedule"]
+# obsolete channels/category to delete if present (TikTok dropped: no free auto-notify API)
+DELETE_CHANNELS = ["👽-reddit-mma", "📈-odds-movers", "📅-fight-schedule", "🎬-tiktok-posts"]
+# obsolete roles to delete if present
+DELETE_ROLES = ["🎬 TikTok Pings"]
 
 EXISTING_CHANNELS = {
     "memes":          "😂-memes",
     "live_now":       "🔴-live-now",
+    "youtube_uploads":"📹-youtube-uploads",
     "server_updates": "🎉-server-updates",
     "announcements":  "📣-announcements",
     "predictions":    "🎯-predictions",
@@ -142,6 +145,16 @@ def main():
                 chans.pop(name, None)
             except Exception as e:
                 print("  ! could not delete", name, e)
+
+    # delete obsolete roles (TikTok pings - dropped, no free auto-notify API)
+    for rname in DELETE_ROLES:
+        if rname in roles:
+            try:
+                api("DELETE", "/guilds/" + GUILD_ID + "/roles/" + str(roles[rname]))
+                print("  - deleted role:", rname); time.sleep(0.3)
+                roles.pop(rname, None)
+            except Exception as e:
+                print("  ! could not delete role", rname, e)
 
     # delete the obsolete MMA FEEDS category (children already moved out)
     old_cat = next((c for c in chan_list if c["type"] == 4 and c["name"] == OLD_CATEGORY), None)
