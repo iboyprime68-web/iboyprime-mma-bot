@@ -1,33 +1,34 @@
 #!/usr/bin/env python3
 """iBoyPrime HQ - onboarding + opt-in channel visibility (run once / re-runnable).
 
-WHY: new members were joining instantly into everything, because
-  (a) Discord Onboarding never actually turned on - the old default-channel list
-      had only 3 channels @everyone can post in, but Discord requires >=5, so the
-      enable call silently failed and onboarding stayed off; and
-  (b) every category was visible to all, so opting in/out of interests revealed
-      nothing.
+WHY: members should fully control what they see and get pinged for, with one hard
+rule from the owner: if you turn a notification OFF, the channel disappears too -
+nobody should be pinged for a channel they can't even see.
 
 WHAT this does (idempotent, safe to re-run; the bot is Admin so it is NEVER locked
 out, and the owner is Admin so they are unaffected):
 
-  1. OPT-IN-TO-REVEAL visibility:
-       BASELINE - always visible to @everyone, so nobody can land in an empty
-         server: 🌟 START HERE, 💬 COMMUNITY, 📺 CONTENT & STREAMS, 🔊 VOICE
-         CHANNELS. (Content stays visible - its *pings* are the opt-in, via roles.)
-       HIDDEN until chosen in onboarding:
-         🎮 GAMING               -> revealed by the 🎮 Gamer role
-         🥊 MMA & COMBAT SPORTS  -> revealed by the 🥊 MMA Fan role
-       STAFF stays hidden (untouched).
+  1. Ensures the view-only roles exist (👁️ Live Viewer, 👁️ Videos Viewer).
 
-  2. Enables Onboarding (PUT /guilds/{id}/onboarding, mode=ADVANCED) with a VALID
-     default-channel set (>=7 channels, >=5 writable by @everyone - the COMMUNITY
-     block alone provides 6 writable) and three interest/notification prompts whose
-     options grant the roles above. It CHECKS the response and, if Discord rejects
-     it, prints the exact manual fallback instead of silently swallowing the error.
+  2. OPT-IN-TO-REVEAL visibility - a channel is hidden from @everyone and shown only
+     to the roles that opted in. Crucially the PING role itself grants VIEW, so
+     "you got pinged" ALWAYS implies "you can see it":
+       Gated CATEGORIES:
+         🎮 GAMING               -> 🎮 Gamer
+         🥊 MMA & COMBAT SPORTS  -> 🥊 MMA Fan
+       Gated CHANNELS (notifications + visibility, the new bit):
+         🔴-live-now        -> 🔴 Live Pings (ping+see)  +  👁️ Live Viewer (see only)
+         📹-youtube-uploads -> 📹 YouTube Pings (ping+see) + 👁️ Videos Viewer (see only)
+       Always visible (baseline, never gated): 🌟 START HERE, 💬 COMMUNITY, the rest
+         of 📺 CONTENT & STREAMS (✂️ clips, 🔔 notify-setup), 🔊 VOICE. STAFF stays hidden.
 
-Onboarding shows on JOIN / REJOIN. Members already in the server can pick anytime
-via Channels & Roles (see 🎭-get-roles). Std-lib only (imports common.py).
+  3. Enables Onboarding (PUT /guilds/{id}/onboarding, mode=ADVANCED) with a VALID
+     default-channel set (>=7 channels, >=5 writable) and 4 prompts. The LIVE and
+     VIDEOS prompts are single-select: "🔔 ping + show" / "👁️ just show" / skip
+     (=stays hidden). It CHECKS the response and prints a manual fallback on failure.
+
+Onboarding shows on JOIN / REJOIN. Members already in the server can change picks
+anytime via Channels & Roles (see 🎭-get-roles). Std-lib only (imports common.py).
 """
 import sys, time
 import common
@@ -41,25 +42,56 @@ except Exception:
 
 VIEW = 1 << 10                       # VIEW_CHANNEL permission bit
 
-# Categories revealed only when the member opts in (category name -> opt-in role).
-GATED = {
+# View-only roles this script creates (name -> color). They grant channel VISIBILITY
+# without ever being a ping target, so a member can "see but not be pinged".
+VIEWER_ROLES = {
+    "👁️ Live Viewer":   0x99AAB5,
+    "👁️ Videos Viewer": 0x99AAB5,
+}
+
+# Whole categories revealed only when the member opts in (category name -> opt-in role).
+GATED_CATEGORIES = {
     "🎮 GAMING":              "🎮 Gamer",
     "🥊 MMA & COMBAT SPORTS": "🥊 MMA Fan",
 }
-# Roles that must keep VIEW on the gated categories: staff moderate everything and
-# bots post there. (Owner/Admin usually bypass via Administrator, but granting VIEW
-# explicitly is harmless and covers staff roles that are NOT administrators.)
+
+# Individual channels revealed only when opted in (channel name -> roles that can see it).
+# The PING role is FIRST in each list - that is what guarantees "pinged => can see it".
+GATED_CHANNELS = {
+    "🔴-live-now":        ["🔴 Live Pings",   "👁️ Live Viewer"],
+    "📹-youtube-uploads": ["📹 YouTube Pings", "👁️ Videos Viewer"],
+}
+
+# Roles that must keep VIEW on every gated thing: staff moderate everything and bots
+# post there. (Owner/Admin usually bypass via Administrator; granting VIEW explicitly
+# is harmless and covers staff roles that are NOT administrators.)
 ALWAYS_VIEW_ROLES = ["👑 Owner", "🛡️ Admin", "🔨 Moderator", "🤖 Bots"]
 
-# The onboarding "default channels" - what EVERY member lands in regardless of their
-# choices. Discord needs >=7 of these with >=5 writable by @everyone; the COMMUNITY
-# channels alone give 6 writable, clearing the bar the old config failed. Missing
-# names are skipped (matched against the live server by name).
+# The onboarding "default channels" - what EVERY member lands in regardless of choices.
+# Discord needs >=7 of these with >=5 writable by @everyone (the COMMUNITY block gives
+# 6 writable + clips = 7). The gated live/video channels are intentionally NOT here
+# (default channels must be @everyone-viewable). Missing names are skipped.
 DEFAULT_CHANNELS = [
     "👋-welcome", "📜-rules", "📣-announcements", "🎉-server-updates", "🎭-get-roles",
     "💬-general", "👋-introductions", "🖼️-media", "😂-memes", "🎲-off-topic", "🤖-bot-commands",
-    "🔴-live-now", "📹-youtube-uploads", "🎬-tiktok-posts", "✂️-clips-n-highlights", "🔔-notify-setup",
+    "✂️-clips-n-highlights", "🔔-notify-setup",
 ]
+
+
+def ensure_role(gid, name, color, role_by_name):
+    """Create a hidden, non-mentionable, no-permission role if it's missing. Idempotent."""
+    if name in role_by_name:
+        return role_by_name[name]
+    code, r = common.discord("POST", "/guilds/%s/roles" % gid,
+                             {"name": name, "color": color, "hoist": False,
+                              "mentionable": False, "permissions": "0"})
+    if code in (200, 201) and isinstance(r, dict) and r.get("id"):
+        role_by_name[name] = r["id"]
+        print("  + role:", name)
+        time.sleep(0.3)
+        return r["id"]
+    print("  ! could not create role %s (HTTP %s)" % (name, code))
+    return None
 
 
 def gate_overwrites(existing, everyone_id, allow_role_ids):
@@ -72,7 +104,7 @@ def gate_overwrites(existing, everyone_id, allow_role_ids):
     e = by_id.setdefault(str(everyone_id), {"id": str(everyone_id), "type": 0, "allow": 0, "deny": 0})
     e["allow"] &= ~VIEW                   # @everyone can no longer see it...
     e["deny"]  |= VIEW
-    for rid in allow_role_ids:            # ...but the opt-in role (and staff/bots) can
+    for rid in allow_role_ids:            # ...but the opt-in role(s) (and staff/bots) can
         r = by_id.setdefault(str(rid), {"id": str(rid), "type": 0, "allow": 0, "deny": 0})
         r["allow"] |= VIEW
         r["deny"]  &= ~VIEW
@@ -80,25 +112,38 @@ def gate_overwrites(existing, everyone_id, allow_role_ids):
             for o in by_id.values()]
 
 
-def apply_visibility(gid, cat_by_name, children, role_by_name):
+def apply_visibility(gid, cat_by_name, chan_by_name, children, role_by_name):
     always_view = [role_by_name[n] for n in ALWAYS_VIEW_ROLES if n in role_by_name]
-    for cat_name, role_name in GATED.items():
+
+    def gate(ch, role_names, label):
+        allow_ids = [role_by_name[n] for n in role_names if n in role_by_name] + always_view
+        ow = gate_overwrites(ch.get("permission_overwrites"), gid, allow_ids)
+        code, resp = common.discord("PATCH", "/channels/%s" % ch["id"], {"permission_overwrites": ow})
+        if code in (200, 204):
+            print("  gated (%s): %s" % (label, ch.get("name", ch["id"])))
+        else:
+            print("  ! gate failed (HTTP %s) for %s: %s" % (code, ch.get("name"), str(resp)[:120]))
+        time.sleep(0.3)
+
+    # 1. Gated CATEGORIES (category + every child channel)
+    for cat_name, role_name in GATED_CATEGORIES.items():
         cat = cat_by_name.get(cat_name)
         if not cat:
             print("  ! category not found, skipped:", cat_name); continue
-        opt_role = role_by_name.get(role_name)
-        if not opt_role:
-            print("  ! opt-in role '%s' not found - leaving '%s' visible to all." % (role_name, cat_name)); continue
-        allow_ids = [opt_role] + always_view
-        targets = [cat] + children.get(str(cat["id"]), [])
-        for ch in targets:
-            ow = gate_overwrites(ch.get("permission_overwrites"), gid, allow_ids)
-            code, resp = common.discord("PATCH", "/channels/%s" % ch["id"], {"permission_overwrites": ow})
-            if code in (200, 204):
-                print("  gated (%s only): %s" % (role_name, ch.get("name", ch["id"])))
-            else:
-                print("  ! gate failed (HTTP %s) for %s: %s" % (code, ch.get("name"), str(resp)[:120]))
-            time.sleep(0.3)
+        if role_name not in role_by_name:
+            print("  ! opt-in role '%s' not found - leaving '%s' visible." % (role_name, cat_name)); continue
+        for ch in [cat] + children.get(str(cat["id"]), []):
+            gate(ch, [role_name], role_name)
+
+    # 2. Gated individual CHANNELS (live-now, youtube-uploads): ping role + viewer role
+    for chan_name, role_names in GATED_CHANNELS.items():
+        ch = chan_by_name.get(chan_name)
+        if not ch:
+            print("  ! channel not found, skipped:", chan_name); continue
+        present = [n for n in role_names if n in role_by_name]
+        if not present:
+            print("  ! no opt-in roles found for %s - leaving it visible." % chan_name); continue
+        gate(ch, role_names, " / ".join(present))
 
 
 def build_onboarding(chan_by_name, role_by_name):
@@ -114,23 +159,29 @@ def build_onboarding(chan_by_name, role_by_name):
                 "channel_ids": [cid(n) for n in chan_names if cid(n)]}
 
     prompts = [
+        # P1 - interests gate the Gaming / MMA categories (multi-select).
         {"id": "900000000000000100", "type": 0, "single_select": False, "required": False, "in_onboarding": True,
          "title": "What are you into?", "options": [
-            opt(1, "Gaming", "Squad up & game nights", "🎮", ["🎮 Gamer"]),
-            opt(2, "MMA & Combat Sports", "Fight nights, picks & debates", "🥊", ["🥊 MMA Fan"]),
-            opt(3, "Content & Streams", "Here for the videos & lives", "📺", [], ["📹-youtube-uploads", "🔴-live-now", "🎬-tiktok-posts"]),
-            opt(4, "Just here to vibe", "All of it / just hanging", "💬", [], ["💬-general"])]},
-        {"id": "900000000000000200", "type": 0, "single_select": False, "required": False, "in_onboarding": True,
-         "title": "Want a ping when iBoyPrime is active?", "options": [
-            opt(11, "When I go LIVE", "Twitch & Kick go-live alerts", "🔴", ["🔴 Live Pings"]),
-            opt(12, "New YouTube videos", "Fresh uploads", "📹", ["📹 YouTube Pings"]),
-            opt(13, "New TikToks", "Short-form drops", "🎬", ["🎬 TikTok Pings"]),
-            opt(14, "Server announcements", "Important news", "📣", ["📣 Announcements"]),
-            opt(15, "Events & game nights", "Community events", "🎉", ["🎉 Events"])]},
-        {"id": "900000000000000300", "type": 0, "single_select": False, "required": False, "in_onboarding": True,
-         "title": "MMA fight updates? (optional)", "options": [
-            opt(21, "🥊 Upcoming fight alerts", "Get pinged with upcoming UFC/MMA cards.", "🥊", ["🥊 Fight Alerts"]),
-            opt(22, "🚨 Fight RESULTS - spoiler warning",
+            opt(1, "Gaming", "Squad up & game nights - unlocks the Gaming channels", "🎮", ["🎮 Gamer"]),
+            opt(2, "MMA & Combat Sports", "Fight nights, picks & debates - unlocks the MMA channels", "🥊", ["🥊 MMA Fan"])]},
+        # P2 - LIVE: single-select so picking a ping also reveals the channel (never pinged-but-blind).
+        {"id": "900000000000000200", "type": 0, "single_select": True, "required": False, "in_onboarding": True,
+         "title": "When iBoyPrime goes LIVE (Twitch · Kick · YouTube)", "options": [
+            opt(11, "🔔 Ping me + show #live-now", "A ping every time the stream starts.", "🔔", ["🔴 Live Pings"]),
+            opt(12, "👁️ Just show me #live-now (no pings)", "See the channel, never get pinged.", "👁️", ["👁️ Live Viewer"])]},
+        # P3 - VIDEOS: same single-select pattern.
+        {"id": "900000000000000300", "type": 0, "single_select": True, "required": False, "in_onboarding": True,
+         "title": "New YouTube videos", "options": [
+            opt(21, "🔔 Ping me + show #youtube-uploads", "A ping on every new upload.", "🔔", ["📹 YouTube Pings"]),
+            opt(22, "👁️ Just show me #youtube-uploads (no pings)", "See the channel, never get pinged.", "👁️", ["👁️ Videos Viewer"])]},
+        # P4 - the rest of the pings (multi-select). Folds in the old announcements/events + MMA-updates
+        # prompts so we stay within Discord's 4-prompt limit.
+        {"id": "900000000000000400", "type": 0, "single_select": False, "required": False, "in_onboarding": True,
+         "title": "More pings (optional)", "options": [
+            opt(31, "Server announcements", "Important server news", "📣", ["📣 Announcements"]),
+            opt(32, "Events & game nights", "Community events", "🎉", ["🎉 Events"]),
+            opt(33, "🥊 Upcoming fight alerts", "Get pinged with upcoming UFC/MMA cards.", "🥊", ["🥊 Fight Alerts"]),
+            opt(34, "🚨 Fight RESULTS - spoiler warning",
                 "Turning this ON unlocks the results forum and pings you with finished-fight results. "
                 "You WILL see spoilers. Leave OFF to avoid them.", "🚨", ["🚨 Fight Results"])]},
     ]
@@ -164,10 +215,14 @@ def main():
 
     print("Guild:", gid, "| channels:", len(channels), "| roles:", len(roles))
 
-    print("[1/2] Applying opt-in-to-reveal visibility (Gaming + MMA hidden until chosen)...")
-    apply_visibility(gid, cat_by_name, children, role_by_name)
+    print("[1/3] Ensuring view-only roles exist...")
+    for name, color in VIEWER_ROLES.items():
+        ensure_role(gid, name, color, role_by_name)
 
-    print("[2/2] Enabling onboarding...")
+    print("[2/3] Applying opt-in-to-reveal visibility (Gaming/MMA + live/videos hidden until chosen)...")
+    apply_visibility(gid, cat_by_name, chan_by_name, children, role_by_name)
+
+    print("[3/3] Enabling onboarding...")
     default_ch, prompts = build_onboarding(chan_by_name, role_by_name)
     writable_hint = sum(1 for n in ("💬-general", "👋-introductions", "🖼️-media", "😂-memes",
                                     "🎲-off-topic", "🤖-bot-commands", "✂️-clips-n-highlights")
