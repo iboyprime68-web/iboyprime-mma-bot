@@ -1,0 +1,40 @@
+name: NSFW Image Scan
+on:
+  schedule:
+    - cron: '*/5 * * * *'   # every 5 min, then polls ~1/min internally (run_loop)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bot-image-scan
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Cache model + pip wheels
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.NudeNet
+            ~/.cache/opennsfw_standalone
+          key: nsfw-onnx-${{ runner.os }}-v1
+      - name: Install the free ONNX NSFW classifier (no API key)
+        run: pip install --quiet opennsfw-standalone nudenet
+      - name: Scan recent images in nsfw-flagged channels
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: python image_scan.py
+      - name: Save state
+        run: |
+          git config user.name "iboyprime-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add state_image.json 2>/dev/null || true
+          git commit -m "image-scan state [skip ci]" || echo "no changes"
+          git push || true
