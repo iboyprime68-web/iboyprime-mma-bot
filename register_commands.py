@@ -8,11 +8,15 @@ Std-lib only (uses common.py).
 """
 import common
 
-STRING, USER = 3, 6
+SUB, SUB_GROUP, STRING, INTEGER, USER, CHANNEL = 1, 2, 3, 4, 6, 7
+USER_CTX, MSG_CTX = 2, 3                      # context-menu command types
 DIVISIONS = ["Flyweight", "Bantamweight", "Featherweight", "Lightweight", "Welterweight",
              "Middleweight", "Light Heavyweight", "Heavyweight", "Men's Pound-for-Pound",
              "Women's Strawweight", "Women's Flyweight", "Women's Bantamweight",
              "Women's Pound-for-Pound"]
+MOD_CATS = ["slurs", "nsfw_text", "profanity", "sensitive", "ads", "scam"]
+MEDIA = ["allow", "no_links", "no_attachments", "sfw_only", "text_only"]
+PROFILES = ["anything_goes", "standard", "sfw_strict"]
 
 
 def cmd(name, desc, options=None):
@@ -20,6 +24,14 @@ def cmd(name, desc, options=None):
     if options:
         c["options"] = options
     return c
+
+
+def ctx(name, ctype):
+    return {"name": name, "type": ctype}      # context menu: no description / options
+
+
+def choices(values):
+    return [{"name": v, "value": v} for v in values]
 
 
 COMMANDS = [
@@ -52,6 +64,60 @@ COMMANDS = [
     cmd("serverinfo", "Info about this server"),
     cmd("youtube", "Search YouTube", [
         {"type": STRING, "name": "query", "description": "What to search", "required": True}]),
+
+    # ----- moderation (staff) -----
+    {"name": "mod", "description": "Per-channel moderation config (staff)", "type": 1, "options": [
+        {"type": SUB_GROUP, "name": "channel", "description": "Channel profile", "options": [
+            {"type": SUB, "name": "set-profile", "description": "Point a channel at a profile", "options": [
+                {"type": CHANNEL, "name": "channel", "description": "Channel", "required": True},
+                {"type": STRING, "name": "profile", "description": "Profile", "required": True, "choices": choices(PROFILES)}]}]},
+        {"type": SUB_GROUP, "name": "category", "description": "Toggle a filter in a channel", "options": [
+            {"type": SUB, "name": "enable", "description": "Enable a filter in a channel", "options": [
+                {"type": CHANNEL, "name": "channel", "description": "Channel", "required": True},
+                {"type": STRING, "name": "category", "description": "Filter", "required": True, "choices": choices(MOD_CATS)}]},
+            {"type": SUB, "name": "disable", "description": "Disable a filter in a channel", "options": [
+                {"type": CHANNEL, "name": "channel", "description": "Channel", "required": True},
+                {"type": STRING, "name": "category", "description": "Filter", "required": True, "choices": choices(MOD_CATS)}]}]},
+        {"type": SUB_GROUP, "name": "media", "description": "Channel media/link policy", "options": [
+            {"type": SUB, "name": "policy", "description": "Set the media/link policy", "options": [
+                {"type": CHANNEL, "name": "channel", "description": "Channel", "required": True},
+                {"type": STRING, "name": "policy", "description": "Policy", "required": True, "choices": choices(MEDIA)}]}]},
+        {"type": SUB_GROUP, "name": "word", "description": "Edit a filter's word list", "options": [
+            {"type": SUB, "name": "add", "description": "Add a banned word/phrase", "options": [
+                {"type": STRING, "name": "category", "description": "Filter", "required": True, "choices": choices(MOD_CATS)},
+                {"type": STRING, "name": "word", "description": "Word or phrase (wildcards ok)", "required": True}]},
+            {"type": SUB, "name": "remove", "description": "Remove a banned word/phrase", "options": [
+                {"type": STRING, "name": "category", "description": "Filter", "required": True, "choices": choices(MOD_CATS)},
+                {"type": STRING, "name": "word", "description": "Word or phrase", "required": True}]}]},
+        {"type": SUB_GROUP, "name": "raid", "description": "Raid protection", "options": [
+            {"type": SUB, "name": "on", "description": "Enable raid protection"},
+            {"type": SUB, "name": "off", "description": "Disable raid protection"}]},
+        {"type": SUB, "name": "status", "description": "Show the current moderation setup"},
+        {"type": SUB, "name": "view", "description": "Show a channel's effective rules", "options": [
+            {"type": CHANNEL, "name": "channel", "description": "Channel", "required": True}]},
+    ]},
+    cmd("warn", "Warn a member (staff)", [
+        {"type": USER, "name": "user", "description": "Member", "required": True},
+        {"type": STRING, "name": "reason", "description": "Reason", "required": False}]),
+    cmd("timeout", "Timeout a member (staff)", [
+        {"type": USER, "name": "user", "description": "Member", "required": True},
+        {"type": INTEGER, "name": "minutes", "description": "Minutes (default 10)", "required": False},
+        {"type": STRING, "name": "reason", "description": "Reason", "required": False}]),
+    cmd("ban", "Ban a member (staff)", [
+        {"type": USER, "name": "user", "description": "Member", "required": True},
+        {"type": STRING, "name": "reason", "description": "Reason", "required": False}]),
+    cmd("unban", "Unban a user by ID (staff)", [
+        {"type": STRING, "name": "user_id", "description": "User ID", "required": True}]),
+    cmd("clear", "Bulk-delete recent messages in this channel (staff)", [
+        {"type": INTEGER, "name": "count", "description": "How many (1-100)", "required": True}]),
+    cmd("modlogs", "Show a member's warnings (staff)", [
+        {"type": USER, "name": "user", "description": "Member", "required": True}]),
+
+    # ----- right-click context menus -----
+    ctx("Timeout 10m", USER_CTX),
+    ctx("Warn", USER_CTX),
+    ctx("Mod record", USER_CTX),
+    ctx("Delete & warn author", MSG_CTX),
 ]
 
 
