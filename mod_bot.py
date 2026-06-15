@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
 """iBoyPrime HQ - Moderation patrol (cron second layer behind native AutoMod).
 
-Every few minutes it sweeps recent messages in the main chat channels and acts
-on what AutoMod's real-time rules don't catch:
-  * FLOOD  - one user firing many messages in a few seconds,
-  * DUPES  - the same message posted over and over (incl. across the batch).
+Runs ~once a minute (common.run_loop) and sweeps the configured channels for what
+AutoMod's real-time rules don't catch, using each channel's profile from
+modconfig.json:
+  * FLOOD  - one user firing many messages in a few seconds (per-channel threshold),
+  * DUPES  - the same message posted over and over (per-channel threshold),
+  * MEDIA / LINK POLICY - images, attachments or links that the channel's policy
+    forbids (allow / no_links / no_attachments / sfw_only / text_only).
 It deletes the offending messages, calls it out in the mod-log, tracks a warning
 count per user, and escalates to a timeout on repeat offenders.
 
-Staff and bots are always skipped. Conservative thresholds to avoid touching
-normal chat. Std-lib only.
+Staff and bots are always skipped. Std-lib only.
 """
-import datetime, common
+import datetime, re, common, modconfig
 
+# Fallback thresholds (used only if a channel resolves to no profile values).
 FLOOD_COUNT  = 6      # messages...
 FLOOD_WINDOW = 12     # ...within this many seconds = flood
 DUP_COUNT    = 4      # same message repeated this many times = spam
@@ -20,6 +23,8 @@ RECENT_MIN   = 12     # only look at messages from the last N minutes
 TIMEOUT_AT   = 3      # warnings before a timeout
 TIMEOUT_MIN  = 10     # timeout length (minutes)
 STATE_FILE   = "state_mod.json"
+
+IMG_EXT = (".png", ".jpg", ".jpeg", ".gif", ".webp", ".bmp", ".tiff", ".heic", ".heif", ".avif")
 
 
 def norm(s):
@@ -33,11 +38,47 @@ def is_staff(msg, staff):
     return any(r in staff for r in member.get("roles", []))
 
 
-def scan_channel(ch, staff, seen, now):
-    """Return {uid: {"name":.., "ids":set(msg_ids)}} of offenders in this channel."""
+def is_url(text):
+    return bool(re.search(r"https?://|www\.", text or "", re.I))
+
+
+def is_image_att(att):
+    ct = (att.get("content_type") or "").lower()
+    if ct.startswith("image/"):
+        return True
+    return (att.get("filename") or "").lower().endswith(IMG_EXT)
+
+
+def media_reason(msg, policy):
+    """Return a reason string if this message breaks the channel's media/link policy."""
+    if policy in (None, "allow"):
+        return None
+    atts = msg.get("attachments") or []
+    has_link = is_url(msg.get("content"))
+    has_img = any(is_image_att(a) for a in atts)
+    has_att = len(atts) > 0
+    if policy == "no_links" and has_link:
+        return "link not allowed here"
+    if policy == "no_attachments" and has_att:
+        return "attachment not allowed here"
+    if policy == "sfw_only" and has_img:
+        return "image not allowed here"
+    if policy == "text_only" and (has_att or has_link):
+        return "text-only channel"
+    return None
+
+
+def scan_channel(ch, staff, seen, now, policy):
+    """Return {uid: {"name":.., "ids":set, "reasons":set}} of offenders in this
+    channel, using the channel's resolved per-profile thresholds + media policy."""
     code, data = common.discord("GET", "/channels/%s/messages?limit=80" % ch)
     if not isinstance(data, list):
         return {}
+    fc = policy.get("flood_count", FLOOD_COUNT)
+    fw = policy.get("flood_window", FLOOD_WINDOW)
+    dc = policy.get("dup_count", DUP_COUNT)
+    media_policy = policy.get("media_policy", "allow")
+
     msgs = []
     for m in data:
         ts = common.parse_iso(m.get("timestamp"))
@@ -58,11 +99,11 @@ def scan_channel(ch, staff, seen, now):
     offenders = {}
     for uid, items in by_user.items():
         ids, reasons = set(), set()
-        # flood: sliding window of FLOOD_COUNT within FLOOD_WINDOW seconds
+        # flood: sliding window of fc messages within fw seconds
         times = [t for t, _ in items]
         for i in range(len(times)):
-            j = i + FLOOD_COUNT - 1
-            if j < len(times) and (times[j] - times[i]).total_seconds() <= FLOOD_WINDOW:
+            j = i + fc - 1
+            if j < len(times) and (times[j] - times[i]).total_seconds() <= fw:
                 for k in range(i, j + 1):
                     ids.add(items[k][1]["id"])
                 reasons.add("flood")
@@ -73,8 +114,13 @@ def scan_channel(ch, staff, seen, now):
             if c:
                 buckets.setdefault(c, []).append(m["id"])
         for c, mids in buckets.items():
-            if len(mids) >= DUP_COUNT:
+            if len(mids) >= dc:
                 ids.update(mids); reasons.add("repeat spam")
+        # media / link policy (per message)
+        for t, m in items:
+            mr = media_reason(m, media_policy)
+            if mr:
+                ids.add(m["id"]); reasons.add(mr)
         if ids:
             name = (items[0][1].get("author") or {}).get("username", "user")
             offenders[uid] = {"name": name, "ids": ids, "reasons": reasons}
@@ -102,15 +148,17 @@ def timeout_member(guild, uid, minutes):
     return c in (200, 204)
 
 
-def main():
+def poll_once():
     cfg = common.load_config()
     guild = cfg["guild_id"]
     mod_log = cfg.get("channels", {}).get("mod_log")
-    patrol = cfg.get("patrol_channels", [])
     roles = cfg.get("roles", {})
     staff = {roles[k] for k in ("owner", "admin", "mod") if roles.get(k)}
-    if not patrol:
-        print("No patrol_channels in config - nothing to sweep."); return
+    modcfg = modconfig.load()
+    # patrol the union of bots_config patrol_channels and any channel given a profile.
+    channels = list({*(cfg.get("patrol_channels") or []), *modconfig.configured_channels(modcfg)})
+    if not channels:
+        print("No channels to patrol."); return
 
     state = common.load_json(common.state_path(STATE_FILE), {})
     users = state.get("users", {})
@@ -118,8 +166,9 @@ def main():
     now = common.now_utc()
     actions = 0
 
-    for ch in patrol:
-        offenders = scan_channel(ch, staff, seen, now)
+    for ch in channels:
+        policy = modconfig.resolve_channel(modcfg, ch)
+        offenders = scan_channel(ch, staff, seen, now, policy)
         for uid, info in offenders.items():
             removed = delete_messages(ch, info["ids"])
             seen.update(info["ids"])
@@ -136,12 +185,18 @@ def main():
             if mod_log:
                 common.post_message(mod_log, line, allowed_mentions={"parse": []})
             actions += 1
-            print("acted:", info["name"], uid, info["reasons"], "removed", removed)
+            print("acted:", info["name"], uid, sorted(info["reasons"]), "removed", removed)
 
     state["users"] = users
     state["seen"] = sorted(seen)[-2000:]
     common.save_json(common.state_path(STATE_FILE), state)
-    print("Patrol done. offenders acted on=%d" % actions)
+    if actions:                          # commit mid-loop so a crash can't re-act
+        common.persist_state(STATE_FILE)
+    print("Patrol cycle done. offenders acted on=%d" % actions)
+
+
+def main():
+    common.run_loop(poll_once)
 
 
 if __name__ == "__main__":
