@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "defaults": {
+    "profile": "standard"
+  },
+  "profiles": {
+    "anything_goes": {
+      "label": "Anything goes",
+      "categories": [],
+      "media_policy": "allow",
+      "nsfw_images": false,
+      "flood_count": 10,
+      "flood_window": 8,
+      "dup_count": 6
+    },
+    "standard": {
+      "label": "Standard chat",
+      "categories": [
+        "slurs",
+        "scam",
+        "ads"
+      ],
+      "media_policy": "allow",
+      "nsfw_images": false,
+      "flood_count": 6,
+      "flood_window": 12,
+      "dup_count": 4
+    },
+    "sfw_strict": {
+      "label": "SFW-only · no slurs/links",
+      "categories": [
+        "slurs",
+        "nsfw_text",
+        "profanity",
+        "sensitive",
+        "scam",
+        "ads"
+      ],
+      "media_policy": "no_links",
+      "nsfw_images": true,
+      "flood_count": 5,
+      "flood_window": 12,
+      "dup_count": 3
+    }
+  },
+  "channels": {
+    "1515436383647432885": "standard",
+    "1515436402156765375": "standard",
+    "1515436418346778776": "standard",
+    "1515436393818489056": "standard",
+    "1515436391457357946": "standard",
+    "1515436386143178902": "standard"
+  },
+  "categories": {
+    "slurs": {
+      "rule_name": "iBP · Slurs & hate",
+      "block_msg": "That word isn't allowed here.",
+      "words": [],
+      "regex": []
+    },
+    "nsfw_text": {
+      "rule_name": "iBP · NSFW text",
+      "block_msg": "Keep it clean in this channel.",
+      "words": [],
+      "regex": []
+    },
+    "profanity": {
+      "rule_name": "iBP · Profanity",
+      "block_msg": "Mind the language in this channel.",
+      "words": [],
+      "regex": []
+    },
+    "sensitive": {
+      "rule_name": "iBP · Sensitive topics",
+      "block_msg": "Let's not go there in this channel.",
+      "words": [],
+      "regex": []
+    },
+    "ads": {
+      "rule_name": "iBP · Ads & invites",
+      "block_msg": "Server invites/ads aren't allowed here.",
+      "words": [],
+      "regex": [
+        "discord\\.gg/[A-Za-z0-9]+",
+        "discord(app)?\\.com/invite/[A-Za-z0-9]+",
+        "\\.gg/[A-Za-z0-9]{2,}"
+      ]
+    },
+    "scam": {
+      "rule_name": "iBP · Scam filter",
+      "block_msg": "That looked like a scam and was blocked.",
+      "words": [
+        "free nitro",
+        "nitro for free",
+        "*steamcommunity*",
+        "*free-nitro*",
+        "crypto giveaway",
+        "claim your prize",
+        "*t.me/*",
+        "*airdrop*",
+        "*-gift.*"
+      ],
+      "regex": []
+    }
+  },
+  "global_rules": {
+    "preset_safety": {
+      "enabled": true,
+      "presets": [
+        2,
+        3
+      ]
+    },
+    "spam": {
+      "enabled": true
+    },
+    "mention_spam": {
+      "enabled": true,
+      "limit": 6
+    },
+    "member_profile": {
+      "enabled": false,
+      "words": []
+    }
+  },
+  "raid": {
+    "enabled": true,
+    "join_burst": 8,
+    "join_window_sec": 120,
+    "action": "alert",
+    "auto_clear_min": 15
+  },
+  "image_scan": {
+    "classifier": "opennsfw",
+    "threshold": 0.85,
+    "max_per_run": 40,
+    "delete": true,
+    "warn": true
+  },
+  "_note": "IDs + words only. NEVER paste a bot token, GitHub token, or any config.txt value here - it's uploaded to the public repo."
+}
