@@ -195,7 +195,8 @@ def main():
             "twitch_login": os.environ.get("TWITCH_LOGIN", "iboyprime"),
             "kick_slug":    os.environ.get("KICK_SLUG", "iboyprime"),
             "youtube_handle": os.environ.get("YOUTUBE_HANDLE", "iboyprime_official"),
-            "youtube_channel_id": os.environ.get("YOUTUBE_CHANNEL_ID", ""),
+            "youtube_channel_id": ("" if "PASTE" in os.environ.get("YOUTUBE_CHANNEL_ID", "").upper()
+                                   else os.environ.get("YOUTUBE_CHANNEL_ID", "")),
             "tiktok_handle": os.environ.get("TIKTOK_HANDLE", "iboyprime"),
         },
     }
