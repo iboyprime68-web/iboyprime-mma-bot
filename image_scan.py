@@ -5,9 +5,10 @@ AutoMod can only read TEXT, never image pixels - so this is the free way to catc
 NSFW *images*. It runs in its own GitHub Actions job (public repo = unlimited free
 minutes) using an open-source ONNX classifier - NO API key, NO signup, nothing for
 the owner to set up:
-  * "opennsfw" (default) -> opennsfw-standalone: one NSFW probability per image.
-  * "nudenet"            -> NudeNet v3: per-part detection; we score the EXPOSED
+  * "nudenet" (default)  -> NudeNet v3: per-part detection; we score the EXPOSED
                             classes.
+  * "opennsfw"           -> opennsfw-standalone: one NSFW probability per image
+                            (opt-in; abandoned upstream, not installed by default).
 For every channel whose profile has `nsfw_images: true`, it checks new image
 attachments and, over the configured threshold, deletes + logs them.
 
@@ -36,31 +37,36 @@ _SCORER = None                       # cached callable(bytes)->float; tests inje
 
 
 def _load_scorer(name):
-    """Build the real classifier (deps imported lazily). Returns bytes -> float[0,1]."""
-    if name == "nudenet":
-        from nudenet import NudeDetector
-        det = NudeDetector()
+    """Build the real classifier (deps imported lazily). Returns bytes -> float[0,1].
+    nudenet is the default; opennsfw is opt-in and falls back to nudenet if its
+    (abandoned, Py-3.12-incompatible) package isn't installed."""
+    if name == "opennsfw":
+        try:
+            from opennsfw_standalone import OpenNSFWInferenceRunner
+            runner = OpenNSFWInferenceRunner.load()
 
-        def score(b):
-            try:
-                dets = det.detect(b) or []
-            except Exception as e:
-                print("  nudenet error:", e); return 0.0
-            best = 0.0
-            for d in dets:
-                if d.get("class") in NUDENET_EXPLICIT:
-                    best = max(best, float(d.get("score", 0) or 0))
-            return best
-        return score
+            def score(b):
+                try:
+                    return float(runner.infer(b))
+                except Exception as e:
+                    print("  opennsfw error:", e); return 0.0
+            return score
+        except Exception as e:
+            print("  opennsfw unavailable (%s) - falling back to nudenet" % e)
 
-    from opennsfw_standalone import OpenNSFWInferenceRunner   # default: opennsfw
-    runner = OpenNSFWInferenceRunner.load()
+    from nudenet import NudeDetector          # default: nudenet
+    det = NudeDetector()
 
     def score(b):
         try:
-            return float(runner.infer(b))
+            dets = det.detect(b) or []
         except Exception as e:
-            print("  opennsfw error:", e); return 0.0
+            print("  nudenet error:", e); return 0.0
+        best = 0.0
+        for d in dets:
+            if d.get("class") in NUDENET_EXPLICIT:
+                best = max(best, float(d.get("score", 0) or 0))
+        return best
     return score
 
 
@@ -101,6 +107,15 @@ def image_attachments(msg):
     return out
 
 
+def needs_scan():
+    """True iff at least one configured channel resolves to nsfw_images=True.
+    Offline (no Discord token, no network) so the workflow can gate the heavy ONNX
+    install/scan on it cheaply - if nothing needs scanning the job is a no-op."""
+    modcfg = modconfig.load()
+    return any(modconfig.resolve_channel(modcfg, c).get("nsfw_images")
+               for c in modconfig.configured_channels(modcfg))
+
+
 def poll_once():
     cfg = common.load_config()
     mod_log = cfg.get("channels", {}).get("mod_log")
@@ -112,7 +127,7 @@ def poll_once():
     max_per_run = int(img.get("max_per_run", 40))
     do_delete = img.get("delete", True)
     do_warn = img.get("warn", True)
-    classifier = img.get("classifier", "opennsfw")
+    classifier = img.get("classifier", "nudenet")
 
     channels = [c for c in modconfig.configured_channels(modcfg)
                 if modconfig.resolve_channel(modcfg, c)["nsfw_images"]]
