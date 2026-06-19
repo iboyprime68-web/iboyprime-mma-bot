@@ -131,7 +131,7 @@
     "auto_clear_min": 15
   },
   "image_scan": {
-    "classifier": "opennsfw",
+    "classifier": "nudenet",
     "threshold": 0.85,
     "max_per_run": 40,
     "delete": true,
