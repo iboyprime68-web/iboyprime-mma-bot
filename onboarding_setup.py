@@ -153,7 +153,9 @@ def build_onboarding(chan_by_name, role_by_name):
     default_ch = [cid(n) for n in DEFAULT_CHANNELS if cid(n)]
 
     def opt(i, title, desc, emoji, role_names, chan_names=()):
-        return {"id": str(900000000000000000 + i), "title": title, "description": desc,
+        # Discord caps option title at 50 and description at 100 chars; truncate as a
+        # backstop so an over-length string can never 400 the whole onboarding PUT.
+        return {"id": str(900000000000000000 + i), "title": title[:50], "description": desc[:100],
                 "emoji": {"name": emoji} if emoji else None,
                 "role_ids": [rid(n) for n in role_names if rid(n)],
                 "channel_ids": [cid(n) for n in chan_names if cid(n)]}
@@ -182,8 +184,8 @@ def build_onboarding(chan_by_name, role_by_name):
             opt(32, "Events & game nights", "Community events", "🎉", ["🎉 Events"]),
             opt(33, "🥊 Upcoming fight alerts", "Get pinged with upcoming UFC/MMA cards.", "🥊", ["🥊 Fight Alerts"]),
             opt(34, "🚨 Fight RESULTS - spoiler warning",
-                "Turning this ON unlocks the results forum and pings you with finished-fight results. "
-                "You WILL see spoilers. Leave OFF to avoid them.", "🚨", ["🚨 Fight Results"])]},
+                "Unlocks the fight-results forum and pings results. You WILL see spoilers - leave OFF to avoid them.",
+                "🚨", ["🚨 Fight Results"])]},
     ]
     # Discord 400s on an option with no role/channel and on a prompt with no options.
     for p in prompts:
