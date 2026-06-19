@@ -67,7 +67,7 @@ DEFAULT_GLOBAL = {
 }
 DEFAULT_RAID = {"enabled": True, "join_burst": 8, "join_window_sec": 120,
                 "action": "alert", "auto_clear_min": 15}
-DEFAULT_IMAGE = {"classifier": "opennsfw", "threshold": 0.85, "max_per_run": 40,
+DEFAULT_IMAGE = {"classifier": "nudenet", "threshold": 0.85, "max_per_run": 40,
                  "delete": True, "warn": True}
 
 
