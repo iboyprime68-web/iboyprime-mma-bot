@@ -17,6 +17,10 @@ DIVISIONS = ["Flyweight", "Bantamweight", "Featherweight", "Lightweight", "Welte
 MOD_CATS = ["slurs", "nsfw_text", "profanity", "sensitive", "ads", "scam"]
 MEDIA = ["allow", "no_links", "no_attachments", "sfw_only", "text_only"]
 PROFILES = ["anything_goes", "standard", "sfw_strict"]
+NEWS_MODES = ["realtime", "hybrid", "digest"]
+NEWS_SOURCES = ["mma_fighting", "mma_junkie", "bloody_elbow", "sherdog", "bad_left_hook", "boxing_scene"]
+NEWS_CATS = ["ufc", "mma_other", "boxing"]
+NEWS_PINGS = ["breaking", "digest"]
 
 
 def cmd(name, desc, options=None):
@@ -64,6 +68,31 @@ COMMANDS = [
     cmd("serverinfo", "Info about this server"),
     cmd("youtube", "Search YouTube", [
         {"type": STRING, "name": "query", "description": "What to search", "required": True}]),
+
+    # ----- news feed -----
+    {"name": "news", "description": "News wire: follow pings, or tune it (staff)", "type": 1, "options": [
+        {"type": SUB, "name": "status", "description": "How the news wire is tuned + your ping subscriptions"},
+        {"type": SUB, "name": "follow", "description": "Opt INTO news pings (breaking or the daily digest)", "options": [
+            {"type": STRING, "name": "what", "description": "Which pings", "required": True, "choices": choices(NEWS_PINGS)}]},
+        {"type": SUB, "name": "unfollow", "description": "Opt OUT of news pings", "options": [
+            {"type": STRING, "name": "what", "description": "Which pings", "required": True, "choices": choices(NEWS_PINGS)}]},
+        {"type": SUB, "name": "mode", "description": "Delivery mode (staff)", "options": [
+            {"type": STRING, "name": "value", "description": "realtime = every story loud · hybrid = silent + breaking/digest · digest = digest only",
+             "required": True, "choices": choices(NEWS_MODES)}]},
+        {"type": SUB, "name": "source", "description": "Turn a news outlet on/off (staff)", "options": [
+            {"type": STRING, "name": "name", "description": "Outlet", "required": True, "choices": choices(NEWS_SOURCES)},
+            {"type": STRING, "name": "state", "description": "on / off", "required": True, "choices": choices(["on", "off"])}]},
+        {"type": SUB, "name": "category", "description": "Turn a news topic on/off (staff)", "options": [
+            {"type": STRING, "name": "name", "description": "Topic", "required": True, "choices": choices(NEWS_CATS)},
+            {"type": STRING, "name": "state", "description": "on / off", "required": True, "choices": choices(["on", "off"])}]},
+        {"type": SUB_GROUP, "name": "keyword", "description": "Edit the breaking/exclude keyword lists (staff)", "options": [
+            {"type": SUB, "name": "add", "description": "Add a keyword", "options": [
+                {"type": STRING, "name": "list", "description": "Which list", "required": True, "choices": choices(["breaking", "exclude"])},
+                {"type": STRING, "name": "word", "description": "Keyword or phrase", "required": True}]},
+            {"type": SUB, "name": "remove", "description": "Remove a keyword", "options": [
+                {"type": STRING, "name": "list", "description": "Which list", "required": True, "choices": choices(["breaking", "exclude"])},
+                {"type": STRING, "name": "word", "description": "Keyword or phrase", "required": True}]}]},
+    ]},
 
     # ----- moderation (staff) -----
     {"name": "mod", "description": "Per-channel moderation config (staff)", "type": 1, "options": [
