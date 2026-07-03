@@ -89,8 +89,17 @@ def main():
     for m in fresh:
         if posted >= MEMES_PER_RUN:
             break
-        msg = "😂 **%s**\n%s\n*via r/%s*" % (common.truncate(m["title"], 200), m["url"], m["sub"])
-        code, _ = common.post_message(chan, msg)
+        # SILENT post (memes never buzz anyone) with the image in a proper embed;
+        # plain-text fallback if the URL somehow can't be embedded.
+        title = common.truncate(common.strip_markdown(m["title"]), 200)
+        if (m["url"] or "").lower().startswith("http"):
+            embed = {"title": common.truncate(m["title"], 256),
+                     "image": {"url": m["url"]}, "color": 0xF1C40F,
+                     "footer": {"text": "via r/%s" % m["sub"]}}
+            code, _ = common.post_message(chan, "😂 %s" % title, embeds=[embed], silent=True)
+        else:
+            msg = "😂 %s\n%s\nvia r/%s" % (title, m["url"], m["sub"])
+            code, _ = common.post_message(chan, msg, silent=True)
         if code in (200, 201):
             seen.add(m["id"]); posted += 1
             print("posted meme:", m["sub"], "-", m["title"][:60])
