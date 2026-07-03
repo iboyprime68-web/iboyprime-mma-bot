@@ -22,16 +22,26 @@ betting/odds content always excluded (server rule), category filtering (owner
 is UFC-focused; stories explicitly about other orgs/boxing are dropped unless
 re-enabled). De-dupes by GUID in committed state; state is committed right
 after each post so a mid-run crash never re-posts. Std-lib only.
+
+NEAR-INSTANT (July 2026): on Actions the job now polls every ~POLL_SECONDS for a
+~55-minute window (the */5 cron just re-queues the next window via the concurrency
+group, so coverage is continuous) - a story posts within ~20s of hitting the feed.
+The loop also git-pulls the checkout ~once a minute so newsconfig.json edits made
+while the job runs (panel Save & Deploy, /news) apply almost immediately. Free
+because the repo is public. Run locally it is still a single pass.
 """
 import datetime, email.utils, xml.etree.ElementTree as ET
 import common, newsconfig
 
-PACE_PER_CYCLE = 1     # at most ONE realtime post per ~1-min cycle - never a burst
+PACE_PER_CYCLE = 1     # at most ONE realtime post per cycle - never a burst
 SEED_POST      = 5     # on the very first run, post this many latest
 MAX_SEEN       = 1200  # cap state size
 MAX_RECENT     = 120   # cap the similarity window size
 MAX_DIGEST     = 60    # cap the digest queue
 STATE_FILE     = "state_news.json"
+POLL_SECONDS   = 20    # feed check cadence inside one job ("pretty much instant")
+WINDOW_SECONDS = 3300  # ~55 min per job; cron re-queues so coverage is continuous
+REFRESH_EVERY  = 3     # git-pull the checkout every N cycles (~1/min) for config edits
 
 
 def _local(tag):
@@ -258,7 +268,12 @@ def main():
         state["recent"] = [r for r in state.get("recent", [])
                            if (common.parse_iso(r.get("ts")) or now) >= horizon]
 
+    cycle = [0]
+
     def poll_once():
+        cycle[0] += 1
+        if cycle[0] % REFRESH_EVERY == 1:      # ~1/min: pick up config edits mid-run
+            common.refresh_checkout()
         cfg = newsconfig.load()
         mode = cfg.get("mode", "hybrid")
         now = common.now_utc()
@@ -343,7 +358,7 @@ def main():
         print("cycle done. posted=%d queued=%d skipped=%d backlog~%d"
               % (posted, queued, skipped, max(0, len(fresh) - posted - queued - skipped)))
 
-    common.run_loop(poll_once)
+    common.run_loop(poll_once, duration=WINDOW_SECONDS, interval=POLL_SECONDS)
 
 
 if __name__ == "__main__":
