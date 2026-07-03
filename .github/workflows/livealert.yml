@@ -1,7 +1,8 @@
 name: Live Alert + Stream Recap
 on:
   schedule:
-    - cron: '*/5 * * * *'   # every 5 minutes (catches go-live + stream-end promptly)
+    - cron: '*/5 * * * *'   # re-queues the next ~55-min window; inside it the bot checks
+                            # every ~30s so go-live/stream-end land near-instantly
   workflow_dispatch:
 permissions:
   contents: write
