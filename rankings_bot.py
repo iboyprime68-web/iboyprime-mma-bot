@@ -103,16 +103,18 @@ def post_or_edit(chan, msg_id, text):
     return resp.get("id") if (code in (200, 201) and isinstance(resp, dict)) else msg_id
 
 
-def chunk_post(chan, header, blocks):
-    msg = header
-    for b in blocks:
-        add = "\n" + b
-        if len(msg) + len(add) > 1900:
-            common.post_message(chan, msg); msg = b
-        else:
-            msg += add
-    if msg.strip():
-        common.post_message(chan, msg)
+def alert_post(chan, lines):
+    """Movement alerts as ONE silent embed: no push noise (unread badge only),
+    plain-text content for the preview, the detail lines inside the embed."""
+    desc = "\n".join(lines)
+    if len(desc) > 3900:                        # embed description cap is 4096
+        kept = desc[:3900]
+        cut = kept.rfind("\n")
+        dropped = desc[cut:].count("\n")
+        desc = kept[:cut] + "\n*…and %d more change(s)*" % dropped
+    embed = {"title": "📊 UFC Rankings Update", "description": desc, "color": 0x3498DB}
+    content = "UFC Rankings Update — %d change(s)" % len(lines)
+    common.post_message(chan, content, embeds=[embed], silent=True)
 
 
 def main():
@@ -140,7 +142,7 @@ def main():
     for _h, lines in alerts:
         flat.extend(lines)
     if flat:
-        chunk_post(chan, "📊 **UFC Rankings Update**\n", flat)
+        alert_post(chan, flat)
         print("posted %d ranking changes" % len(flat))
 
     # board reconcile (edit in place; post on first run / when changed)
