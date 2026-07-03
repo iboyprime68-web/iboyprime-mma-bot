@@ -172,6 +172,19 @@ def run_loop(poll_once, duration=255, interval=60):
     return n
 
 
+def refresh_checkout():
+    """git-pull the repo checkout (CI only, guarded). Long-running loops call this
+    periodically so config files pushed mid-run (newsconfig.json edits from the
+    panel or /news) apply within ~a minute instead of waiting for the next job."""
+    if not in_ci():
+        return
+    try:
+        subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=HERE,
+                       capture_output=True, timeout=60)
+    except Exception as e:
+        print("  refresh_checkout:", e)
+
+
 def persist_state(filename, message=None):
     """Commit + push ONE state file immediately (mid-loop), so a long-running
     job that posts at minute 1 doesn't re-post if it dies before minute 5.
