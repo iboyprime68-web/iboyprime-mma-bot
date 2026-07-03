@@ -45,8 +45,10 @@ FEED_CHANNELS = [
 FORUMS = [
     ("fight_week",  "🗓️-fight-week",  "Per-card hubs: full card & a prediction poll. Opens fight week."),
 ]
-# obsolete channels/category to delete if present (TikTok dropped: no free auto-notify API)
-DELETE_CHANNELS = ["👽-reddit-mma", "📈-odds-movers", "📅-fight-schedule", "🎬-tiktok-posts"]
+# obsolete channels/category to delete if present (TikTok dropped: no free auto-notify
+# API; notify-setup replaced by the roles-&-pings guide in 🎭-get-roles)
+DELETE_CHANNELS = ["👽-reddit-mma", "📈-odds-movers", "📅-fight-schedule", "🎬-tiktok-posts",
+                   "🔔-notify-setup"]
 # obsolete roles to delete if present
 DELETE_ROLES = ["🎬 TikTok Pings"]
 
@@ -71,6 +73,12 @@ EXISTING_ROLES = {
     "owner":         "👑 Owner",
     "admin":         "🛡️ Admin",
     "mod":           "🔨 Moderator",
+}
+# opt-in news ping roles the setup ensure-creates (key -> (name, color)).
+# 📰 News Pings = breaking-news alerts only; 🗞️ Digest Ping = one daily digest ping.
+NEW_ROLES = {
+    "news_pings":  ("📰 News Pings", 0xE67E22),
+    "digest_ping": ("🗞️ Digest Ping", 0x99AAB5),
 }
 PATROL_NAMES = ["💬-general", "🎮-gaming-chat", "🥊-mma-chat", "🎲-off-topic", "😂-memes", "👋-introductions"]
 
@@ -175,12 +183,26 @@ def main():
         else:
             print("  ! existing channel not found (skipped):", name)
 
+    # ensure the opt-in news ping roles exist (idempotent by name)
+    for key, (rname, color) in NEW_ROLES.items():
+        if rname not in roles:
+            try:
+                _, r = api("POST", "/guilds/" + GUILD_ID + "/roles",
+                           {"name": rname, "color": color, "hoist": False,
+                            "mentionable": False, "permissions": "0"})
+                roles[rname] = r["id"]; print("  + role:", rname); time.sleep(0.3)
+            except Exception as e:
+                print("  ! could not create role", rname, e)
+
     out_roles = {}
     for key, name in EXISTING_ROLES.items():
         if name in roles:
             out_roles[key] = roles[name]
         else:
             print("  ! role not found (skipped):", name)
+    for key, (rname, _color) in NEW_ROLES.items():
+        if rname in roles:
+            out_roles[key] = roles[rname]
 
     patrol = [chans[n]["id"] for n in PATROL_NAMES if n in chans]
 
@@ -216,6 +238,15 @@ def main():
     with open(os.path.join(HERE, "bots_config.json"), "w", encoding="utf-8") as f:
         json.dump(cfg, f, indent=2, ensure_ascii=False)
     print("\nWrote bots_config.json")
+
+    # materialize newsconfig.json (defaults deep-merged with any owner edits) so
+    # the deploy always uploads a complete, current file
+    try:
+        import newsconfig
+        newsconfig.save(newsconfig.load())
+        print("Wrote newsconfig.json")
+    except Exception as e:
+        print("  ! newsconfig materialize failed:", e)
     print("MMA category now holds:", ", ".join(sorted(out_channels)))
     print("DONE.")
 
