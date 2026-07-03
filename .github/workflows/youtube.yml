@@ -1,7 +1,8 @@
 name: YouTube notifier (uploads + go-live)
 on:
   schedule:
-    - cron: '*/5 * * * *'    # every 5 min (GitHub's floor); the job then polls ~1/min internally
+    - cron: '*/5 * * * *'    # re-queues the next ~55-min window; inside it the bot checks
+                             # every ~30s so new uploads land near-instantly
   workflow_dispatch:
 permissions:
   contents: write
