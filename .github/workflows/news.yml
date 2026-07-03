@@ -1,7 +1,8 @@
 name: MMA News Wire
 on:
   schedule:
-    - cron: '*/5 * * * *'    # every 5 min (GitHub's floor); the job then polls ~1/min internally
+    - cron: '*/5 * * * *'    # re-queues the next ~55-min window (concurrency group serialises);
+                             # inside a window the bot checks feeds every ~20s -> near-instant posts
   workflow_dispatch:
 permissions:
   contents: write
