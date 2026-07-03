@@ -23,6 +23,8 @@ to avoid races. Std-lib only.
 import os, datetime, common
 
 STATE_FILE = "state_live.json"
+POLL_SECONDS   = 30    # go-live lands within ~30s of the stream starting
+WINDOW_SECONDS = 3300  # ~55 min per job; the */5 cron re-queues -> continuous coverage
 
 
 def fmt_duration(secs):
@@ -219,7 +221,7 @@ def main():
             common.persist_state(STATE_FILE)
         print("cycle done. actions=%d" % acted)
 
-    common.run_loop(poll_once)
+    common.run_loop(poll_once, duration=WINDOW_SECONDS, interval=POLL_SECONDS)
 
 
 if __name__ == "__main__":
