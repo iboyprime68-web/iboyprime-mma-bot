@@ -85,14 +85,28 @@ def discord(method, path, body=None):
 
 # ---- posting helpers -------------------------------------------------------
 NO_PINGS = {"parse": []}  # allowed_mentions that suppresses every ping
+SILENT_FLAG = 4096        # SUPPRESS_NOTIFICATIONS: no push/sound, unread badge only.
+                          # NEVER combine with a role ping - the flag mutes the mention too.
 
 
-def post_message(channel_id, content, allowed_mentions=None, embeds=None):
+def post_message(channel_id, content, allowed_mentions=None, embeds=None, silent=False):
     body = {"content": content[:1990],
             "allowed_mentions": allowed_mentions if allowed_mentions is not None else NO_PINGS}
     if embeds:
         body["embeds"] = embeds
+    if silent:
+        body["flags"] = SILENT_FLAG
     return discord("POST", "/channels/%s/messages" % channel_id, body)
+
+
+def edit_message(channel_id, message_id, content=None, embeds=None):
+    """PATCH a message - only the fields passed are touched. Edits never notify."""
+    body = {}
+    if content is not None:
+        body["content"] = content[:1990]
+    if embeds is not None:
+        body["embeds"] = embeds
+    return discord("PATCH", "/channels/%s/messages/%s" % (channel_id, message_id), body)
 
 
 def create_forum_thread(forum_id, title, content, allowed_mentions=None, applied_tags=None):
@@ -229,3 +243,13 @@ def clean(s):
 def truncate(s, n):
     s = s or ""
     return s if len(s) <= n else s[:n - 1].rstrip() + "…"
+
+
+def strip_markdown(s):
+    """Make a string safe/clean for a push-notification preview: drop Discord
+    markdown symbols and collapse [text](url) links to just the text. The result
+    is what a phone lock-screen shows, so it must read like a plain sentence."""
+    s = s or ""
+    s = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", s)   # [text](url) -> text
+    s = re.sub(r"[*_~`|#]+", "", s)                  # bold/italic/spoiler/code/heading marks
+    return re.sub(r"\s+", " ", s).strip()
