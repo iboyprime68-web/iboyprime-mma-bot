@@ -45,7 +45,9 @@ def main():
         t = trivia[idx]
         msg += "\n\n🧠 **Trivia of the Day**\n%s\nAnswer: ||%s||" % (t.get("q", ""), t.get("a", ""))
 
-    code, resp = common.post_message(chan, msg)
+    # SILENT: the daily history post never buzzes anyone (spoilered trivia answer
+    # must stay in the CONTENT - spoiler tags don't render inside embeds).
+    code, resp = common.post_message(chan, msg, silent=True)
     if code in (200, 201):
         state["last_date"] = today
         common.save_json(common.state_path(STATE_FILE), state)
