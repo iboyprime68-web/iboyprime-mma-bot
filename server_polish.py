@@ -27,13 +27,14 @@ except Exception:
 GUILD_DESCRIPTION = "Gaming, MMA fight nights and live streams with iBoyPrime — pick your vibe and jump in."
 
 WELCOME_DESCRIPTION = "Gaming, MMA fight nights and live streams with iBoyPrime. Pick your vibe and jump in. 👊"
-# channel name -> (short blurb <=50 chars, emoji)
+# channel name -> (short blurb <=50 chars, emoji). ONLY @everyone-visible channels are
+# allowed here - Discord 400s on gated ones (MMA/Gaming/live are opt-in-to-reveal).
 WELCOME_CHANNELS = [
-    ("👋-welcome",      "Start here",                 "👋"),
-    ("💬-general",      "Hang out with the Prime fam", "💬"),
-    ("🥊-mma-chat",     "Fight talk & hot takes",      "🥊"),
-    ("🎮-gaming-chat",  "Game with us",                "🎮"),
-    ("🔴-live-now",     "Watch iBoyPrime live",        "🔴"),
+    ("👋-welcome",           "Start here",                  "👋"),
+    ("💬-general",           "Hang out with the Prime fam", "💬"),
+    ("👋-introductions",     "Introduce yourself",          "🤝"),
+    ("😂-memes",             "Fresh memes daily",           "😂"),
+    ("✂️-clips-n-highlights", "Best clips & highlights",     "🎬"),
 ]
 
 # Channel topics. The four bot feed channels (mma-news / rankings / on-this-day /
@@ -89,9 +90,11 @@ def patch_guild(gid, guild, chan_by_name):
     want = {}
     if (guild.get("description") or "") != GUILD_DESCRIPTION:
         want["description"] = GUILD_DESCRIPTION
-    welcome = chan_by_name.get("👋-welcome")
-    if welcome and str(guild.get("system_channel_id")) != str(welcome["id"]):
-        want["system_channel_id"] = welcome["id"]
+    # join messages need a REGULAR text channel (Discord silently drops an
+    # announcement channel like 👋-welcome) -> use 💬-general
+    sysch = chan_by_name.get("💬-general")
+    if sysch and sysch.get("type") == 0 and str(guild.get("system_channel_id")) != str(sysch["id"]):
+        want["system_channel_id"] = sysch["id"]
     if not want:
         print("  guild settings: already current"); return
     code, resp = common.discord("PATCH", "/guilds/%s" % gid, want)
