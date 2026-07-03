@@ -119,14 +119,22 @@ def main():
             code, resp = common.create_forum_thread(forum, "🗓️ " + label + " — Fight Week", body)
             if code in (200, 201) and isinstance(resp, dict) and resp.get("id"):
                 tid = resp["id"]
+                poll_rec = None
                 if main_a and main_b:
                     hours = max(1, min(168, int((start - now).total_seconds() // 3600) + 1))
-                    common.discord("POST", "/channels/%s/messages" % tid, {
+                    pcode, presp = common.discord("POST", "/channels/%s/messages" % tid, {
                         "poll": {"question": {"text": "Main event: who wins? %s vs %s" % (main_a, main_b)},
                                  "answers": [{"poll_media": {"text": main_a[:55]}},
                                              {"poll_media": {"text": main_b[:55]}}],
                                  "duration": hours, "allow_multiselect": False}})
+                    # keep the poll's ids so a future pick'em/leaderboard bot can read votes
+                    if pcode in (200, 201) and isinstance(presp, dict) and presp.get("id"):
+                        poll_rec = {"channel_id": tid, "message_id": presp["id"],
+                                    "answers": {"1": main_a[:55], "2": main_b[:55]},
+                                    "league": league, "start": start.isoformat()}
                 done[eid] = {"thread_id": tid, "body": body, "created": common.now_utc().isoformat()}
+                if poll_rec:
+                    done[eid]["poll"] = poll_rec
                 made += 1
                 print("hub created:", label)
             else:
