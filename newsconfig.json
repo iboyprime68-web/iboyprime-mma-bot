@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "mode": "hybrid",
+  "sources": {
+    "mma_fighting": {
+      "label": "MMA Fighting",
+      "url": "https://www.mmafighting.com/rss/current.xml",
+      "enabled": true
+    },
+    "mma_junkie": {
+      "label": "MMA Junkie",
+      "url": "https://mmajunkie.usatoday.com/feed",
+      "enabled": true
+    },
+    "bloody_elbow": {
+      "label": "Bloody Elbow",
+      "url": "https://www.bloodyelbow.com/feed/",
+      "enabled": true
+    },
+    "sherdog": {
+      "label": "Sherdog",
+      "url": "https://www.sherdog.com/rss/news.xml",
+      "enabled": true
+    },
+    "bad_left_hook": {
+      "label": "Bad Left Hook",
+      "url": "https://www.badlefthook.com/rss/current.xml",
+      "enabled": false
+    },
+    "boxing_scene": {
+      "label": "BoxingScene",
+      "url": "https://www.boxingscene.com/rss/news.xml",
+      "enabled": false
+    }
+  },
+  "categories": {
+    "boxing": {
+      "label": "Boxing",
+      "enabled": false,
+      "color": 16766720,
+      "keywords": [
+        "boxing",
+        "boxer",
+        "wbc ",
+        "wba ",
+        " ibf",
+        " wbo",
+        "canelo",
+        "tyson fury",
+        "usyk",
+        "anthony joshua"
+      ]
+    },
+    "mma_other": {
+      "label": "MMA",
+      "enabled": false,
+      "color": 15105570,
+      "keywords": [
+        "bellator",
+        "pfl",
+        "one championship",
+        "one fc",
+        "bkfc",
+        "rizin",
+        "cage warriors",
+        "invicta",
+        "karate combat",
+        "glory kickboxing"
+      ]
+    },
+    "ufc": {
+      "label": "UFC",
+      "enabled": true,
+      "color": 13765130,
+      "keywords": [
+        "ufc",
+        "dana white",
+        "contender series",
+        "tuf ",
+        "octagon"
+      ]
+    }
+  },
+  "default_category": "ufc",
+  "breaking_keywords": [
+    "breaking",
+    "dies",
+    "dead at",
+    "passes away",
+    "retires",
+    "retirement",
+    "arrested",
+    "stripped of",
+    "pulls out",
+    "withdraws",
+    "out of ufc",
+    "off the card",
+    "officially announced",
+    "signs with the ufc",
+    "new champion"
+  ],
+  "breaking_ignores_filters": true,
+  "exclude_keywords": [
+    "betting",
+    "odds",
+    "parlay",
+    "dfs",
+    "sportsbook",
+    "gambling"
+  ],
+  "digest": {
+    "times_utc": [
+      "21:30"
+    ],
+    "min_items": 3,
+    "ping": true
+  },
+  "max_per_hour": 6,
+  "dedupe_similar": true,
+  "similar_threshold": 0.6,
+  "recent_hours": 48,
+  "_note": "Words, numbers and public URLs only. NEVER paste a bot token, GitHub token, or any config.txt value here - it's uploaded to the public repo."
+}
