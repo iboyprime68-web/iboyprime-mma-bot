@@ -125,7 +125,8 @@ def main():
         crossed = milestones_between(old, n)
         if crossed:
             top = crossed[-1]
-            msg = ("🎉 **iBoyPrime just hit %s %s!** %s\n"
+            # plain text (push previews show it verbatim); rare + celebratory so it stays loud
+            msg = ("🎉 iBoyPrime just hit %s %s! %s\n"
                    "Huge milestone, Prime fam — let's keep it rolling. 🔥"
                    % (humanize(top), label, emoji))
             code, _ = common.post_message(chan, msg)
