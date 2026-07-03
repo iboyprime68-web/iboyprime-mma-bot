@@ -20,7 +20,7 @@ out, and the owner is Admin so they are unaffected):
          🔴-live-now        -> 🔴 Live Pings (ping+see)  +  👁️ Live Viewer (see only)
          📹-youtube-uploads -> 📹 YouTube Pings (ping+see) + 👁️ Videos Viewer (see only)
        Always visible (baseline, never gated): 🌟 START HERE, 💬 COMMUNITY, the rest
-         of 📺 CONTENT & STREAMS (✂️ clips, 🔔 notify-setup), 🔊 VOICE. STAFF stays hidden.
+         of 📺 CONTENT & STREAMS (✂️ clips), 🔊 VOICE. STAFF stays hidden.
 
   3. Enables Onboarding (PUT /guilds/{id}/onboarding, mode=ADVANCED) with a VALID
      default-channel set (>=7 channels, >=5 writable) and 4 prompts. The LIVE and
@@ -74,7 +74,7 @@ ALWAYS_VIEW_ROLES = ["👑 Owner", "🛡️ Admin", "🔨 Moderator", "🤖 Bots
 DEFAULT_CHANNELS = [
     "👋-welcome", "📜-rules", "📣-announcements", "🎉-server-updates", "🎭-get-roles",
     "💬-general", "👋-introductions", "🖼️-media", "😂-memes", "🎲-off-topic", "🤖-bot-commands",
-    "✂️-clips-n-highlights", "🔔-notify-setup",
+    "✂️-clips-n-highlights",
 ]
 
 
@@ -185,7 +185,9 @@ def build_onboarding(chan_by_name, role_by_name):
             opt(33, "🥊 Upcoming fight alerts", "Get pinged with upcoming UFC/MMA cards.", "🥊", ["🥊 Fight Alerts"]),
             opt(34, "🚨 Fight RESULTS - spoiler warning",
                 "Unlocks the fight-results forum and pings results. You WILL see spoilers - leave OFF to avoid them.",
-                "🚨", ["🚨 Fight Results"])]},
+                "🚨", ["🚨 Fight Results"]),
+            opt(35, "📰 Breaking MMA news", "A ping only for major breaking news (rare).", "📰", ["📰 News Pings"]),
+            opt(36, "🗞️ Daily news digest", "One ping a day with the day's top headlines.", "🗞️", ["🗞️ Digest Ping"])]},
     ]
     # Discord 400s on an option with no role/channel and on a prompt with no options.
     for p in prompts:
