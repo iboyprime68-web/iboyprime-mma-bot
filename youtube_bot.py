@@ -134,19 +134,24 @@ def main():
             if st == "upcoming":
                 print("skip (scheduled/premiere, will catch when it airs):", e["id"])
                 continue                           # leave unseen; revisit next cycle
+            title = common.truncate(common.strip_markdown(e["title"]), 180)
             if st == "live" and live_chan:
+                # content = the push preview: plain text, no markdown, no URL
                 ping = ("<@&%s> " % live_role) if live_role else ""
-                msg = ("%s🔴 **iBoyPrime is LIVE on YouTube!**\n**%s**\n%s"
-                       % (ping, common.truncate(e["title"], 200), e["link"]))
+                msg = "%s🔴 iBoyPrime is LIVE on YouTube — %s" % (ping, title)
+                embed = {"title": common.truncate(e["title"], 256), "url": e["link"],
+                         "color": 0xFF0000, "footer": {"text": "YouTube · live now"}}
                 am = {"parse": [], "roles": [str(live_role)] if live_role else []}
-                c, _ = common.post_message(live_chan, msg, allowed_mentions=am)
+                c, _ = common.post_message(live_chan, msg, allowed_mentions=am, embeds=[embed])
             else:
                 ping = ("<@&%s> " % yt_role) if yt_role else ""
-                head = "📺 **New YouTube video!**" if st == "none" else "📺 **New on YouTube**"
-                msg = ("%s%s\n**%s**\n%s"
-                       % (ping, head, common.truncate(e["title"], 200), e["link"]))
+                msg = "%s📺 New video: %s" % (ping, title)
+                embed = {"title": common.truncate(e["title"], 256), "url": e["link"],
+                         "color": 0xFF0000,
+                         "image": {"url": "https://i.ytimg.com/vi/%s/hqdefault.jpg" % e["id"]},
+                         "footer": {"text": "YouTube · @iboyprime_official"}}
                 am = {"parse": [], "roles": [str(yt_role)] if yt_role else []}
-                c, _ = common.post_message(up_chan, msg, allowed_mentions=am)
+                c, _ = common.post_message(up_chan, msg, allowed_mentions=am, embeds=[embed])
             if c in (200, 201):
                 seen.add(e["id"]); posted += 1
                 print("posted (%s):" % (st or "no-key"), e["id"], "-", e["title"][:60])
