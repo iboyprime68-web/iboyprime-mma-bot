@@ -67,23 +67,52 @@ TOPICS = {
 }
 
 ROLES_GUIDE = (
-    "# 🎭 Roles & Pings\n\n"
-    "Control what you **see** and what **pings** you. Set it once, change it anytime:\n"
-    "**tap the server name (top-left) → Channels & Roles**\n\n"
+    "# 🎭 Roles & Pings — you control everything\n\n"
+    "**Change anything, anytime — it takes 10 seconds:**\n"
+    "> 1️⃣ Tap the server name **iBoyPrime HQ** at the very top of the channel list\n"
+    "> 2️⃣ Tap **Channels & Roles**\n"
+    "> 3️⃣ Tick or untick whatever you want — it applies instantly\n"
+    "*(Same steps on phone and PC. New members get asked these when they join; "
+    "everyone can change their answers here whenever.)*\n\n"
+    "**What the picks do:**\n\n"
+    "**🧭 Interests** — unlock whole sections:\n"
+    "🎮 **Gamer** reveals the GAMING channels · 🥊 **MMA Fan** reveals the MMA channels\n\n"
     "**🔔 Ping roles** — you're only ever pinged for what you opt into:\n"
-    "🔴 **Live Pings** — the moment iBoyPrime goes live (also reveals the channel)\n"
-    "📹 **YouTube Pings** — every new video (also reveals the channel)\n"
+    "🔴 **Live Pings** — the moment iBoyPrime goes live (also shows the channel)\n"
+    "📹 **YouTube Pings** — every new video (also shows the channel)\n"
     "📣 **Announcements** — big server news\n"
     "🎉 **Events** — game nights & community events\n"
     "🥊 **Fight Alerts** — upcoming UFC/MMA cards\n"
     "🚨 **Fight Results** — instant results (⚠️ spoilers!)\n"
     "📰 **News Pings** — major BREAKING MMA news only (rare)\n"
     "🗞️ **Digest Ping** — one daily roundup of the day's headlines\n\n"
-    "**👁️ Viewer roles** — see 🔴-live-now / 📹-youtube-uploads without ever being pinged.\n\n"
-    "**🧭 Interests** — 🎮 Gamer and 🥊 MMA Fan reveal those whole sections.\n\n"
-    "_The news feed itself is quiet by design: stories post silently so you catch up "
-    "when YOU want — only breaking news and the daily digest ever ping their opt-in roles._"
+    "**👁️ Viewer roles** — see the live/video channels without ever being pinged.\n\n"
+    "_The news feed is quiet by design: stories post silently in the news channel so you "
+    "catch up when YOU want — only breaking news and the daily digest ever ping, and only "
+    "the people who opted in._"
 )
+
+
+def welcome_guide(chan_by_name):
+    """The 30-second orientation message for 👋-welcome (edit-in-place)."""
+    def ref(name):
+        ch = chan_by_name.get(name)
+        return "<#%s>" % ch["id"] if ch else name
+    return (
+        "# 👋 Welcome to iBoyPrime HQ\n"
+        "Gaming · MMA fight nights · live streams. The 30-second tour:\n\n"
+        "🧭 **Pick your vibe** — the 🎮 Gaming and 🥊 MMA sections only appear once you "
+        "choose them (new members get asked on the way in).\n"
+        "🔔 **Pings are 100%% opt-in** — live streams, new videos, fight alerts, breaking "
+        "news, the daily digest… you only get pinged for what you tick.\n"
+        "📰 **News is quiet by design** — stories post silently, so you check them when "
+        "you want, not when your phone decides.\n\n"
+        "**Want to change what you see or what pings you?**\n"
+        "> Tap the server name **iBoyPrime HQ** at the top → **Channels & Roles** → "
+        "update your picks. Done.\n\n"
+        "Full breakdown of every role: %s · Say hi: %s · Bot commands: %s"
+        % (ref("🎭-get-roles"), ref("💬-general"), ref("🤖-bot-commands"))
+    )
 
 
 def patch_guild(gid, guild, chan_by_name):
@@ -148,28 +177,35 @@ def patch_topics(chan_by_name):
     print("  topics: %d set, %d already current" % (changed, skipped))
 
 
-def post_roles_guide(chan_by_name):
-    ch = chan_by_name.get("🎭-get-roles")
+def upsert_guide(chan_by_name, channel_name, content, label, bot_id):
+    """Keep exactly ONE bot-authored guide message in a channel: edit the newest in
+    place when stale, delete strays, post if missing. Same pattern as commands_guide."""
+    ch = chan_by_name.get(channel_name)
     if not ch:
-        print("  ! 🎭-get-roles not found, guide skipped"); return
-    _, me = common.discord("GET", "/users/@me")
-    bot_id = me.get("id") if isinstance(me, dict) else None
+        print("  ! %s not found, %s skipped" % (channel_name, label)); return
     _, msgs = common.discord("GET", "/channels/%s/messages?limit=50" % ch["id"])
     mine = [m for m in (msgs if isinstance(msgs, list) else [])
             if (m.get("author") or {}).get("id") == bot_id]
     if mine:
         keep = mine[0]
-        if keep.get("content") != ROLES_GUIDE:
+        if keep.get("content") != content:
             common.discord("PATCH", "/channels/%s/messages/%s" % (ch["id"], keep["id"]),
-                           {"content": ROLES_GUIDE})
-            print("  roles guide: edited in place")
+                           {"content": content})
+            print("  %s: edited in place" % label)
         else:
-            print("  roles guide: already current")
+            print("  %s: already current" % label)
         for m in mine[1:]:
             common.discord("DELETE", "/channels/%s/messages/%s" % (ch["id"], m["id"]))
     else:
-        code, _ = common.post_message(ch["id"], ROLES_GUIDE)
-        print("  roles guide: posted (HTTP %s)" % code)
+        code, _ = common.post_message(ch["id"], content)
+        print("  %s: posted (HTTP %s)" % (label, code))
+
+
+def post_guides(chan_by_name):
+    _, me = common.discord("GET", "/users/@me")
+    bot_id = me.get("id") if isinstance(me, dict) else None
+    upsert_guide(chan_by_name, "🎭-get-roles", ROLES_GUIDE, "roles guide", bot_id)
+    upsert_guide(chan_by_name, "👋-welcome", welcome_guide(chan_by_name), "welcome guide", bot_id)
 
 
 def main():
@@ -191,8 +227,8 @@ def main():
     patch_welcome_screen(gid, chan_by_name)
     print("[3/4] Channel topics...")
     patch_topics(chan_by_name)
-    print("[4/4] Roles & pings guide...")
-    post_roles_guide(chan_by_name)
+    print("[4/4] Roles & welcome guides...")
+    post_guides(chan_by_name)
     print("DONE.")
 
 
