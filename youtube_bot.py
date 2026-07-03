@@ -26,9 +26,11 @@ STATE_FILE = "state_youtube.json"
 # iBoyPrime's public channel id - NOT a secret. Overridden by config if set.
 DEFAULT_CHANNEL_ID = "UCPx5FFZkK2N5yQ-jiTcS3mg"
 RSS = "https://www.youtube.com/feeds/videos.xml?channel_id=%s"
-PACE_PER_CYCLE = 1       # one item per ~1-min cycle: prompt, never a burst
+PACE_PER_CYCLE = 1       # one item per cycle: prompt, never a burst
 MAX_SEEN = 400
 STATE_V = 2
+POLL_SECONDS   = 30      # uploads/go-live noticed within ~30s of the feed updating
+WINDOW_SECONDS = 3300    # ~55 min per job; the */5 cron re-queues -> continuous coverage
 
 
 def _local(tag):
@@ -161,7 +163,7 @@ def main():
             save()
         print("cycle done. posted=%d" % posted)
 
-    common.run_loop(poll_once)
+    common.run_loop(poll_once, duration=WINDOW_SECONDS, interval=POLL_SECONDS)
 
 
 if __name__ == "__main__":
