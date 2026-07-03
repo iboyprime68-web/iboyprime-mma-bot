@@ -120,13 +120,13 @@ def kick_status(cfg):
 
 
 PLATFORMS = {
-    "twitch": ("Twitch", "🟣", twitch_status, twitch_vod),
-    "kick":   ("Kick",   "🟢", kick_status,   lambda info: info.get("url", "") + "/videos"),
+    "twitch": ("Twitch", 0x9146FF, twitch_status, twitch_vod),
+    "kick":   ("Kick",   0x53FC18, kick_status,   lambda info: info.get("url", "") + "/videos"),
 }
 
 
 def process(pkey, cfg, state, chan, role_id):
-    label, emoji, fetch, vodfn = PLATFORMS[pkey]
+    label, color, fetch, vodfn = PLATFORMS[pkey]
     info = fetch(cfg)
     if info is None:
         print("  %s: disabled/unavailable" % pkey); return 0
@@ -140,14 +140,21 @@ def process(pkey, cfg, state, chan, role_id):
                 sess["peak"] = info["viewers"]
                 print("  %s: live, new peak %d" % (pkey, sess["peak"]))
         else:
-            # new go-live
+            # new go-live: content = the push preview (plain text, no markdown/URL),
+            # link + details live in the embed
             ping = ("<@&%s> " % role_id) if role_id else ""
-            game = (" · " + info["game"]) if info.get("game") else ""
-            msg = ("%s🔴 **iBoyPrime is LIVE on %s!**\n**%s**%s\n👀 %d watching\n%s"
-                   % (ping, label, common.truncate(info.get("title", "Live now"), 200),
-                      game, info["viewers"], info["url"]))
+            title = common.truncate(common.strip_markdown(info.get("title", "Live now")), 180)
+            msg = "%s🔴 iBoyPrime is LIVE on %s — %s" % (ping, label, title)
+            desc = []
+            if info.get("game"):
+                desc.append("🎮 %s" % info["game"])
+            desc.append("👀 %d watching" % info["viewers"])
+            embed = {"title": common.truncate(info.get("title", "Live now"), 256),
+                     "url": info["url"], "color": color,
+                     "description": "\n".join(desc),
+                     "footer": {"text": "%s · live now" % label}}
             am = {"parse": [], "roles": [str(role_id)] if role_id else []}
-            code, resp = common.post_message(chan, msg, allowed_mentions=am)
+            code, resp = common.post_message(chan, msg, allowed_mentions=am, embeds=[embed])
             thread_id = ""
             if code in (200, 201) and isinstance(resp, dict) and resp.get("id"):
                 mid = resp["id"]
@@ -172,12 +179,18 @@ def process(pkey, cfg, state, chan, role_id):
                 vod = vodfn(info) if pkey == "twitch" else (sess.get("url", "") + "/videos")
             except Exception:
                 vod = sess.get("url", "")
-            recap = ("📊 **Stream recap — %s**\n%s\n⏱️ Streamed **%s**   ·   👀 Peak **%d** viewers%s"
-                     % (label, common.truncate(sess.get("title", ""), 200),
-                        fmt_duration(dur), sess.get("peak", 0),
-                        ("\n📺 VOD: " + vod) if vod else ""))
+            # recap is a quiet wrap-up: SILENT post (no push), details in an embed
+            recap = "📊 Stream recap — %s: %s" % (
+                label, common.truncate(common.strip_markdown(sess.get("title", "")), 150))
+            fields = [{"name": "⏱️ Streamed", "value": fmt_duration(dur), "inline": True},
+                      {"name": "👀 Peak viewers", "value": str(sess.get("peak", 0)), "inline": True}]
+            if vod:
+                fields.append({"name": "📺 VOD", "value": vod, "inline": False})
+            embed = {"title": common.truncate(sess.get("title", "Stream recap"), 256),
+                     "color": color, "fields": fields,
+                     "footer": {"text": "%s · stream ended" % label}}
             target = sess.get("thread_id") or chan
-            common.post_message(target, recap)
+            common.post_message(target, recap, embeds=[embed], silent=True)
             state.pop(pkey, None)
             acted = 1
             print("  %s: recap posted, session closed" % pkey)
