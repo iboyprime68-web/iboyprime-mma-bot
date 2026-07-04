@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - server polish (run at every deploy / manual dispatch; idempotent).
+"""Prime Arena - server polish (run at every deploy / manual dispatch; idempotent).
 
 Small quality touches that make the server feel finished, all compare-before-PATCH
 so re-runs are no-ops and rate limits are never hammered:
@@ -69,7 +69,7 @@ TOPICS = {
 ROLES_GUIDE = (
     "# 🎭 Roles & Pings — you control everything\n\n"
     "**Change anything, anytime — it takes 10 seconds:**\n"
-    "> 1️⃣ Tap the server name **iBoyPrime HQ** at the very top of the channel list\n"
+    "> 1️⃣ Tap the server name **Prime Arena** at the very top of the channel list\n"
     "> 2️⃣ Tap **Channels & Roles**\n"
     "> 3️⃣ Tick or untick whatever you want — it applies instantly\n"
     "*(Same steps on phone and PC. New members get asked these when they join; "
@@ -99,7 +99,7 @@ def welcome_guide(chan_by_name):
         ch = chan_by_name.get(name)
         return "<#%s>" % ch["id"] if ch else name
     return (
-        "# 👋 Welcome to iBoyPrime HQ\n"
+        "# 👋 Welcome to Prime Arena\n"
         "Gaming · MMA fight nights · live streams. The 30-second tour:\n\n"
         "🧭 **Pick your vibe** — the 🎮 Gaming and 🥊 MMA sections only appear once you "
         "choose them (new members get asked on the way in).\n"
@@ -108,7 +108,7 @@ def welcome_guide(chan_by_name):
         "📰 **News is quiet by design** — stories post silently, so you check them when "
         "you want, not when your phone decides.\n\n"
         "**Want to change what you see or what pings you?**\n"
-        "> Tap the server name **iBoyPrime HQ** at the top → **Channels & Roles** → "
+        "> Tap the server name **Prime Arena** at the top → **Channels & Roles** → "
         "update your picks. Done.\n\n"
         "Full breakdown of every role: %s · Say hi: %s · Bot commands: %s"
         % (ref("🎭-get-roles"), ref("💬-general"), ref("🤖-bot-commands"))
