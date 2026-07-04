@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - shared helpers for all cron bots (standard library only).
+"""Prime Arena - shared helpers for all cron bots (standard library only).
 
 Every bot in this repo imports this module. It centralises:
   * resilient HTTP (text + JSON) with 429 rate-limit handling,
