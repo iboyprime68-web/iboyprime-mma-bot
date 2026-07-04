@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - Bot #2: MMA news wire (v3 - quiet by default).
+"""Prime Arena - Bot #2: MMA news wire (v3 - quiet by default).
 
 Polls the outlets configured in newsconfig.json and posts to #mma-news with a
 CLEAN, notification-friendly format: the message text is just
@@ -169,7 +169,7 @@ def build_digest(items, cfg, ping_role_id):
     day = now.strftime("%B %d").replace(" 0", " ")   # "July 03" -> "July 3" (portable)
     embed = {"title": "🗞️ Daily Digest — %s" % day,
              "color": 0xD20A0A, "fields": fields,
-             "footer": {"text": "iBoyPrime HQ news wire"}}
+             "footer": {"text": "Prime Arena news wire"}}
     return content, [embed], mentions
 
 
