@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - per-channel moderation config (the single source of truth).
+"""Prime Arena - per-channel moderation config (the single source of truth).
 
 `modconfig.json` decides, for every channel, WHICH of the 6 filter categories
 apply, the media/link policy, the spam thresholds, plus the raid + image-scan
