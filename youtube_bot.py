@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - Bot #9: YouTube notifier (new uploads + go-live).
+"""Prime Arena - Bot #9: YouTube notifier (new uploads + go-live).
 
 NEW UPLOAD (free, NO key): polls the channel's public RSS feed and posts brand-new
 videos to #announcements, pinging the 📹 YouTube Pings role. The first run seeds
