@@ -16,6 +16,13 @@ GUIDE = (
     "**📰 News**\n"
     "`/news status` how the wire is tuned · `/news follow breaking` or `digest` to opt into pings\n"
     "`/news unfollow …` to opt back out — that's all it takes\n\n"
+    "**🏆 Community games** (no commands needed — just show up)\n"
+    "**Pick'em**: vote on the fight-week poll in <#%(fight_week)s> — correct main-event picks score\n"
+    "**Quiz night**: Fridays in <#%(mma_chat)s> — 5 timed questions, points for right answers\n"
+    "Both feed ONE **Fight IQ leaderboard** in <#%(predictions)s>; top score each month wins the "
+    "🏆 **Fight Prophet** role\n"
+    "**Debate Monday** + **Fighter Spotlight Wednesday** in <#%(mma_chat)s>\n"
+    "**Clip War**: weekly thread in <#%(plays_n_clips)s> — most reactions takes 🎬 **Clip Champ**\n\n"
     "**🔗 Links**\n"
     "`/youtube` search · `/links` all of iBoyPrime's channels\n\n"
     "**🎵 Music** — powered by **Jockie Music**:\n"
@@ -29,25 +36,34 @@ def me_id():
     return me.get("id") if isinstance(me, dict) else None
 
 
+def render_guide(cfg):
+    """Fill the channel links; unknown keys fall back to a readable '#0' link."""
+    chans = cfg.get("channels", {}) or {}
+    ids = {k: chans.get(k) or "0"
+           for k in ("fight_week", "mma_chat", "predictions", "plays_n_clips")}
+    return GUIDE % ids
+
+
 def main():
     cfg = common.load_config()
     chan = cfg.get("channels", {}).get("bot_commands")
     if not chan:
         print("No bot_commands channel in config."); return
+    guide = render_guide(cfg)
     bot_id = me_id()
     _, msgs = common.discord("GET", "/channels/%s/messages?limit=50" % chan)
     mine = [m for m in (msgs if isinstance(msgs, list) else []) if (m.get("author") or {}).get("id") == bot_id]
     if mine:
         keep = mine[0]
-        if keep.get("content") != GUIDE:
-            common.discord("PATCH", "/channels/%s/messages/%s" % (chan, keep["id"]), {"content": GUIDE})
+        if keep.get("content") != guide:
+            common.discord("PATCH", "/channels/%s/messages/%s" % (chan, keep["id"]), {"content": guide})
             print("bot-commands guide: edited in place")
         else:
             print("bot-commands guide: already current")
         for m in mine[1:]:
             common.discord("DELETE", "/channels/%s/messages/%s" % (chan, m["id"]))
     else:
-        code, _ = common.post_message(chan, GUIDE)
+        code, _ = common.post_message(chan, guide)
         print("bot-commands guide: posted (HTTP %s)" % code)
 
 
