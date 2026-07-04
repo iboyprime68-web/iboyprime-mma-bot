@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - Bot #1: Auto Discord Scheduled Events.
+"""Prime Arena - Bot #1: Auto Discord Scheduled Events.
 
 For every upcoming UFC / PFL / Bellator card (ESPN free API) this creates a
 native Discord Scheduled Event so members get built-in reminders + can RSVP.
