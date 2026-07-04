@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - register the slash commands with Discord (run once / on change).
+"""Prime Arena - register the slash commands with Discord (run once / on change).
 
 Derives the application id from the bot token, then BULK-overwrites the guild's
 command set (idempotent - re-running just syncs the exact list, never duplicates).
@@ -39,7 +39,7 @@ def choices(values):
 
 
 COMMANDS = [
-    cmd("help", "List all iBoyPrime HQ commands"),
+    cmd("help", "List all Prime Arena commands"),
     cmd("links", "All of iBoyPrime's channels"),
     cmd("rankings", "Current UFC rankings for a division", [
         {"type": STRING, "name": "division", "description": "Weight class", "required": True,
