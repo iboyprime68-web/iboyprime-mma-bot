@@ -7,20 +7,20 @@
       "url": "https://www.mmafighting.com/rss/current.xml",
       "enabled": true
     },
-    "mma_junkie": {
-      "label": "MMA Junkie",
-      "url": "https://mmajunkie.usatoday.com/feed",
-      "enabled": true
-    },
     "bloody_elbow": {
       "label": "Bloody Elbow",
       "url": "https://www.bloodyelbow.com/feed/",
       "enabled": true
     },
+    "mma_mania": {
+      "label": "MMA Mania",
+      "url": "https://www.mmamania.com/rss/current.xml",
+      "enabled": true
+    },
     "sherdog": {
       "label": "Sherdog",
       "url": "https://www.sherdog.com/rss/news.xml",
-      "enabled": true
+      "enabled": false
     },
     "bad_left_hook": {
       "label": "Bad Left Hook",
