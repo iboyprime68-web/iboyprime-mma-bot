@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - post/refresh the #bot-commands menu (idempotent edit-in-place).
+"""Prime Arena - post/refresh the #bot-commands menu (idempotent edit-in-place).
 Std-lib only (uses common.py)."""
 import common
 
