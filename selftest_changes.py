@@ -99,9 +99,12 @@ import newsconfig
 
 NCFG = newsconfig.base_defaults()
 check("default mode is hybrid", NCFG["mode"] == "hybrid")
-check("4 MMA sources enabled, boxing feeds disabled",
-      len(newsconfig.enabled_sources(NCFG)) == 4 and
-      not NCFG["sources"]["bad_left_hook"]["enabled"] and not NCFG["sources"]["boxing_scene"]["enabled"])
+check("3 MMA sources enabled; boxing + dead feeds disabled",
+      len(newsconfig.enabled_sources(NCFG)) == 3 and
+      not NCFG["sources"]["bad_left_hook"]["enabled"] and not NCFG["sources"]["boxing_scene"]["enabled"] and
+      not NCFG["sources"]["sherdog"]["enabled"])
+check("MMA Junkie removed (archived), MMA Mania added",
+      "mma_junkie" not in NCFG["sources"] and NCFG["sources"]["mma_mania"]["enabled"])
 check("UFC on, other orgs + boxing off (owner's pick)",
       newsconfig.category_enabled("ufc", NCFG) and
       not newsconfig.category_enabled("mma_other", NCFG) and
@@ -132,7 +135,7 @@ check("embedded config.txt secret refused",
 _merged = newsconfig.load.__module__ and newsconfig.deep_merge(newsconfig.base_defaults(),
                                                                {"mode": "digest", "max_per_hour": 3})
 check("owner edits survive deep-merge over defaults",
-      _merged["mode"] == "digest" and _merged["max_per_hour"] == 3 and _merged["sources"]["sherdog"]["enabled"])
+      _merged["mode"] == "digest" and _merged["max_per_hour"] == 3 and _merged["sources"]["mma_fighting"]["enabled"])
 
 # ───────────────────────── 3. news_bot v3 ──────────────────────────────────
 print("\n[news_bot v3]")
@@ -933,7 +936,7 @@ if mod_panel:
           _out["digest"]["times_utc"] == ["09:00", "21:30"] and _out["digest"]["min_items"] == 2 and
           _out["digest"]["ping"] is False and _out["max_per_hour"] == 4)
     check("news tab: source dict untouched otherwise",
-          _out["sources"]["mma_junkie"]["enabled"] is True and _newscfg["mode"] == "hybrid")
+          _out["sources"]["mma_mania"]["enabled"] is True and _newscfg["mode"] == "hybrid")
     check("news tab result validates clean", newsconfig.validate_newsconfig(_out) == [])
 
     # nickname-filter form helper
@@ -1553,25 +1556,65 @@ check("real drift (topic change) re-writes the snapshot",
 # ───────────────────────── 21. health_bot (weekly staff report) ────────────
 print("\n[health_bot]")
 import health_bot
-_hc, _he = health_bot.render(
-    wf=[("News", "success", 1.0), ("Quiz", "failure", 30.0)],
-    feeds=[("MMA Fighting", 3.0), ("Sherdog", None)],
-    rules_n=6, sizes=[("state_news.json", 2048)], trend=(150, 5))
-check("render counts issues (1 bad workflow + 1 dead feed)", "2 thing(s)" in _hc)
+# freeze a known "now" so feed ages are deterministic
+_HNOW = common.datetime.datetime(2026, 7, 4, 12, 0, tzinfo=common.datetime.timezone.utc)
+common.now_utc = lambda: _HNOW
+
+# ---- render(): honest workflow classification (the core fix) --------------
+# The report used to paint every non-"success" row red. Now only genuine
+# problems are ❌; setup workflows (manual), brand-new cron bots (awaiting) and
+# the watch-window bots that are legitimately mid-run (running) are not.
+_wf = [("Auto Events",   "ok",       "",                                       1.0),
+       ("MMA News Wire", "running",  "running now · last completed ✅",         0.2),
+       ("Quiz Night",    "awaiting", "awaiting first scheduled run",           None),
+       ("Clip of Week",  "awaiting", "awaiting first scheduled run",           None),
+       ("Bots Setup",    "manual",   "manual-only — deploy runs this locally", None),
+       ("Fight Pick'em", "issue",    "failure (30h ago)",                      30.0)]
+_feeds = [("MMA Fighting", 3.0, None), ("MMA Mania", 5.0, None), ("Sherdog", None, "HTTP 403")]
+_hc, _he = health_bot.render(_wf, _feeds, rules_n=6, sizes=[("state_news.json", 2048)], trend=(150, 5))
 _fields = {f["name"]: f["value"] for f in _he["fields"]}
-check("failed workflow named in the report", "❌ Quiz — failure" in _fields["⚙️ Workflows"])
-check("dead feed flagged, live feed aged", "❓ Sherdog" in _fields["📰 Feeds"]
-      and "MMA Fighting — newest 3h ago" in _fields["📰 Feeds"])
+_wfv = _fields["⚙️ Workflows"]
+check("only real issues counted (1 failing wf + 1 dead feed = 2)", "2 thing(s)" in _hc)
+check("summary counts break down and sum to the total",
+      "6 workflows" in _wfv and "1 ✅" in _wfv and "1 🔄 running" in _wfv
+      and "2 ⏳ awaiting first run" in _wfv and "1 🖱️ manual" in _wfv and "1 ❌" in _wfv)
+check("a real failure is named as ❌", "❌ Fight Pick'em — failure (30h ago)" in _wfv)
+check("manual + running + awaiting bots are NOT flagged ❌",
+      "❌ Bots Setup" not in _wfv and "❌ MMA News Wire" not in _wfv and "❌ Quiz Night" not in _wfv)
+check("awaiting-first-run bots listed compactly (not as failures)",
+      "⏳ first run pending: Quiz Night, Clip of Week" in _wfv)
+check("blocked feed shows its HTTP code, not a vague 'unreachable'",
+      "⛔ Sherdog — HTTP 403" in _fields["📰 Feeds"])
+check("live feeds aged correctly",
+      "✅ MMA Fighting — newest 3h ago" in _fields["📰 Feeds"]
+      and "✅ MMA Mania — newest 5h ago" in _fields["📰 Feeds"])
 check("automod count + member trend rendered",
       "6 active rules" in _fields["🛡️ AutoMod"] and "150 (+5 this week)" in _fields["👥 Members"])
-_hc2, _ = health_bot.render(wf=[("News", "success", 1.0)], feeds=[("F", 1.0)],
-                            rules_n=1, sizes=[], trend=None)
-check("all-green report says nominal", "nominal" in _hc2)
 
+# zero real issues -> green + "nominal" even with manual/awaiting rows present
+_hc2, _he2 = health_bot.render(
+    wf=[("News", "ok", "", 1.0), ("Setup", "manual", "", None), ("Quiz", "awaiting", "", None)],
+    feeds=[("F", 1.0, None)], rules_n=1, sizes=[], trend=None)
+check("no-issue report is green + nominal", "nominal" in _hc2 and _he2["color"] == 0x2ECC71)
+_hc3, _ = health_bot.render(wf=None, feeds=[("F", 1.0, None)], rules_n=1, sizes=[], trend=None)
+check("GitHub API down degrades gracefully (no false alarm)", "nominal" in _hc3)
+
+# ---- feed_ages(): parses BOTH RSS <pubDate> and Atom <updated> ------------
+STORE.pop("newsconfig.json", None)   # clean defaults -> mma_fighting/bloody_elbow/mma_mania
+common.get_text = lambda url, headers=None, tries=4: \
+    (200, "<feed><updated>2026-07-04T00:00:00+00:00</updated></feed>")
+_fa = health_bot.feed_ages()
+check("Atom <updated> feed is parsed (was wrongly 'unreachable' before)",
+      len(_fa) >= 1 and all(age is not None for _n, age, _note in _fa))
+common.get_text = lambda url, headers=None, tries=4: (403, "")
+_fa2 = health_bot.feed_ages()
+check("a 403-blocked feed reports its code, not silence",
+      all(age is None and "403" in (note or "") for _n, age, note in _fa2))
+
+# ---- main(): silent staff post + graceful no-token path -------------------
 common.load_config = lambda: {"guild_id": "G1", "channels": {"staff_chat": "SC"}}
 os.environ.pop("GH_API_TOKEN", None)
-_pub = "Fri, 03 Jul 2026 10:00:00 GMT"
-common.get_text = lambda url, headers=None, tries=4: (200, "<rss><pubDate>%s</pubDate></rss>" % _pub)
+common.get_text = lambda url, headers=None, tries=4: (200, "<rss><pubDate>Fri, 04 Jul 2026 10:00:00 GMT</pubDate></rss>")
 common.discord = lambda m, p, b=None: (200, [{"name": "r"}] * 6)
 STORE["state_snapshot.json"] = {"v": 1, "history": {"2026-06-25": 140, "2026-07-04": 150}}
 POSTS_FULL.clear()
