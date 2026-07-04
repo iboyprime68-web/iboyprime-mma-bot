@@ -954,7 +954,7 @@ POSTS.clear(); POSTS_FULL.clear()
 server_polish.post_guides(sp_chans)
 check("both guides posted when missing (roles + welcome)", len(POSTS) == 2)
 _roles_g = next(c for _, c in POSTS if "Roles & Pings" in c)
-_welc_g = next(c for _, c in POSTS if "Welcome to iBoyPrime HQ" in c)
+_welc_g = next(c for _, c in POSTS if "Welcome to Prime Arena" in c)
 check("roles guide: 3-step how-to + all news ping roles",
       "Channels & Roles" in _roles_g and "1️⃣" in _roles_g and
       "News Pings" in _roles_g and "Digest Ping" in _roles_g)
