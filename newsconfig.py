@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - news feed config (the single source of truth for #mma-news).
+"""Prime Arena - news feed config (the single source of truth for #mma-news).
 
 `newsconfig.json` decides HOW news is delivered (mode: realtime / hybrid /
 digest), WHICH sources and categories are on, what counts as breaking, what is
