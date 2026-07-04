@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - Bots #8 + #7: Live alert+ and Stream recap (one poller).
+"""Prime Arena - Bots #8 + #7: Live alert+ and Stream recap (one poller).
 
 On GitHub Actions it checks every ~1 min (common.run_loop polls inside one job)
 instead of waiting for the 5-min cron floor, so the go-live alert lands close to
