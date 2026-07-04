@@ -44,12 +44,58 @@
     }
   },
   "channels": {
-    "1515436383647432885": "standard",
-    "1515436402156765375": "standard",
-    "1515436418346778776": "standard",
-    "1515436393818489056": "standard",
-    "1515436391457357946": "standard",
-    "1515436386143178902": "standard"
+    "1515436383647432885": {
+      "profile": "standard",
+      "nsfw_images": true
+    },
+    "1515436402156765375": {
+      "profile": "standard",
+      "nsfw_images": true
+    },
+    "1515436418346778776": {
+      "profile": "standard",
+      "nsfw_images": true
+    },
+    "1515436393818489056": {
+      "profile": "standard",
+      "nsfw_images": true
+    },
+    "1515436391457357946": {
+      "profile": "standard",
+      "nsfw_images": true
+    },
+    "1515436386143178902": {
+      "profile": "standard",
+      "nsfw_images": true
+    },
+    "1515436388835922070": {
+      "profile": "standard",
+      "nsfw_images": true
+    },
+    "1515436375938433088": {
+      "profile": "standard",
+      "nsfw_images": true
+    },
+    "1515436409425629254": {
+      "profile": "standard",
+      "nsfw_images": true
+    },
+    "1515436426064429150": {
+      "profile": "standard",
+      "nsfw_images": true
+    },
+    "1515436423254376549": {
+      "profile": "standard",
+      "nsfw_images": true
+    },
+    "1515436412286271541": {
+      "profile": "standard",
+      "nsfw_images": true
+    },
+    "1515436404774273127": {
+      "profile": "standard",
+      "nsfw_images": true
+    }
   },
   "categories": {
     "slurs": {
