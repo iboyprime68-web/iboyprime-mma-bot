@@ -206,7 +206,9 @@
     "threshold": 0.85,
     "max_per_run": 40,
     "delete": true,
-    "warn": true
+    "warn": true,
+    "gore_enabled": true,
+    "gore_threshold": 0.85
   },
   "_note": "IDs + words only. NEVER paste a bot token, GitHub token, or any config.txt value here - it's uploaded to the public repo."
 }
