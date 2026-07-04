@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - Moderation patrol (cron second layer behind native AutoMod).
+"""Prime Arena - Moderation patrol (cron second layer behind native AutoMod).
 
 Runs ~once a minute (common.run_loop) and sweeps the configured channels for what
 AutoMod's real-time rules don't catch, using each channel's profile from
