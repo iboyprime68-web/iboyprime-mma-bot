@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - Moderation setup (run once / re-runnable).
+"""Prime Arena - Moderation setup (run once / re-runnable).
 
 Two jobs, both via the Discord REST API (no bot needs to stay online):
   1. RULES - keeps ONE clean, conduct-focused ruleset in the rules channel.
@@ -17,7 +17,7 @@ import common
 import modconfig
 
 RULES_TEXT = (
-    "# 📜 iBoyPrime HQ — Server Rules\n\n"
+    "# 📜 Prime Arena — Server Rules\n\n"
     "We keep this a place people actually want to hang out. Banter and trash talk are "
     "welcome — crossing the lines below isn't.\n\n"
     "**1. Respect everyone.** No harassment, hate, bullying, or personal attacks. "
