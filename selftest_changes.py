@@ -783,6 +783,47 @@ check("needs_scan True when a channel enables nsfw_images", image_scan.needs_sca
 STORE["modconfig.json"] = {"channels": {"CH1": "standard", "CH2": "standard"}}
 check("needs_scan False when no channel enables nsfw_images", image_scan.needs_scan() is False)
 
+# ─────────────── 10b. gore watch - the ALERT-ONLY invariant ─────────────────
+print("\n[gore watch]")
+GORE_SCORES = {b"gore.jpg": 0.99, b"fight.jpg": 0.12, b"porn.jpg": 0.99}
+image_scan._GORE = lambda b: GORE_SCORES.get(b, 0.0)
+image_scan._SCORER = lambda b: {b"porn.jpg": 0.99}.get(b, 0.0)
+MSGS_G = [IM("g1", "U5", "gore.jpg", 1), IM("f1", "U6", "fight.jpg", 2),
+          IM("gp", "U7", "porn.jpg", 3)]
+GORE_CALLS = []
+def gore_discord(method, path, body=None):
+    GORE_CALLS.append((method, path))
+    if method == "GET" and "/channels/CH1/messages" in path:
+        return 200, MSGS_G
+    if method == "GET" and "/messages" in path:
+        return 200, []
+    return 204, {}
+STORE.clear(); POSTS.clear(); PERSISTS.clear(); LOOP_N[0] = 1
+STORE["modconfig.json"] = {"channels": {"CH1": "sfw_strict"},
+                           "image_scan": {"threshold": 0.85, "max_per_run": 40,
+                                          "delete": True, "warn": True, "classifier": "nudenet",
+                                          "gore_enabled": True, "gore_threshold": 0.85}}
+common.load_config = lambda: {"guild_id": "G1", "channels": {"mod_log": "LOG"},
+                              "roles": {"owner": "O"}}
+common.discord = gore_discord
+image_scan.main()
+common.discord = _img_real
+g_deletes = [p for m, p in GORE_CALLS if m == "DELETE"]
+_alerts = [c for _, c in POSTS if "🚨" in c]
+check("gore image NEVER deleted - even with delete:true set",
+      not any("g1" in d for d in g_deletes))
+check("gore alert posted with message link + explicit no-delete note",
+      len(_alerts) == 1 and "/channels/G1/CH1/g1" in _alerts[0] and
+      "Nothing was auto-deleted" in _alerts[0])
+check("bloody-fight image (gore 0.12) stays silent", not any("f1" in a for a in _alerts))
+check("porn goes through the NSFW delete path, no redundant gore alert",
+      any("gp" in d for d in g_deletes) and not any("gp" in a for a in _alerts))
+check("gore watch ships enabled at the calibrated 0.85 threshold",
+      modconfig.base_defaults()["image_scan"]["gore_enabled"] is True and
+      modconfig.base_defaults()["image_scan"]["gore_threshold"] == 0.85)
+image_scan._GORE = None
+STORE["modconfig.json"] = {"channels": {"CH1": "standard", "CH2": "standard"}}
+
 # ───────────────────────── 11. raid_bot ────────────────────────────────────
 print("\n[raid]")
 import raid_bot
@@ -1448,6 +1489,92 @@ check("no reactions -> previous champ keeps the role",
       not any(c[0] in ("PUT", "DELETE") and "/roles/" in c[1] for c in CLIP_CALLS))
 check("quiet no-champ notice is silent",
       POSTS_FULL and POSTS_FULL[-1]["silent"] and "belt stays put" in POSTS_FULL[-1]["content"])
+common.now_utc = _real_now
+
+# ───────────────────────── 20. snapshot_bot (no-churn snapshot) ────────────
+print("\n[snapshot_bot]")
+import snapshot_bot
+common.now_utc = lambda: common.datetime.datetime(2026, 7, 4, 4, 23,
+                                                  tzinfo=common.datetime.timezone.utc)
+common.load_config = lambda: {"guild_id": "G1"}
+_snap_topic = ["old topic"]
+def snap_discord(method, path, body=None):
+    if path.startswith("/guilds/G1?"):
+        return 200, {"id": "G1", "name": "Prime Arena", "description": "d",
+                     "verification_level": 2, "system_channel_id": "GEN",
+                     "premium_tier": 0, "icon": "abc", "approximate_member_count": 150}
+    if path.endswith("/channels"):
+        return 200, [{"id": "2", "name": "beta", "type": 0, "parent_id": None, "position": 1,
+                      "topic": _snap_topic[0], "last_message_id": "999999",
+                      "permission_overwrites": [{"id": "9", "type": 0, "allow": "1", "deny": "0"},
+                                                 {"id": "1", "type": 0, "allow": "0", "deny": "2048"}]},
+                     {"id": "1", "name": "alpha", "type": 4, "position": 0}]
+    if path.endswith("/roles"):
+        return 200, [{"id": "5", "name": "Mod", "color": 1, "hoist": False,
+                      "mentionable": False, "permissions": "8", "position": 2}]
+    if path.endswith("/auto-moderation/rules"):
+        return 200, [{"name": "iBP · Slurs & hate", "trigger_type": 1, "event_type": 1,
+                      "enabled": True, "trigger_metadata": {"keyword_filter": ["slurx", "slury"]},
+                      "exempt_roles": ["5"], "exempt_channels": [],
+                      "actions": [{"type": 1}, {"type": 2}]}]
+    return 200, {}
+common.discord = snap_discord
+STORE.pop("snapshot_config.json", None); STORE.pop("state_snapshot.json", None)
+PERSISTS.clear()
+snapshot_bot.main()
+_snap = STORE["snapshot_config.json"]
+_blob = __import__("json").dumps(_snap)
+check("snapshot written on first run with sorted channels",
+      [c["id"] for c in _snap["channels"]] == ["1", "2"])
+check("overwrites sorted + volatile last_message_id stripped",
+      [o["id"] for o in _snap["channels"][1]["overwrites"]] == ["1", "9"] and
+      "last_message_id" not in _blob and "approximate" not in _blob)
+check("automod summarized as COUNTS - keyword contents never in the snapshot",
+      _snap["automod"][0]["keyword_count"] == 2 and "slurx" not in _blob)
+check("member count recorded in daily history",
+      STORE["state_snapshot.json"]["history"] == {"2026-07-04": 150})
+_persists_snap = PERSISTS.count("snapshot_config.json")
+snapshot_bot.main()
+check("second identical run writes NOTHING (no-churn)",
+      PERSISTS.count("snapshot_config.json") == _persists_snap)
+_snap_topic[0] = "new topic"
+snapshot_bot.main()
+check("real drift (topic change) re-writes the snapshot",
+      PERSISTS.count("snapshot_config.json") == _persists_snap + 1 and
+      STORE["snapshot_config.json"]["channels"][1]["topic"] == "new topic")
+
+# ───────────────────────── 21. health_bot (weekly staff report) ────────────
+print("\n[health_bot]")
+import health_bot
+_hc, _he = health_bot.render(
+    wf=[("News", "success", 1.0), ("Quiz", "failure", 30.0)],
+    feeds=[("MMA Fighting", 3.0), ("Sherdog", None)],
+    rules_n=6, sizes=[("state_news.json", 2048)], trend=(150, 5))
+check("render counts issues (1 bad workflow + 1 dead feed)", "2 thing(s)" in _hc)
+_fields = {f["name"]: f["value"] for f in _he["fields"]}
+check("failed workflow named in the report", "❌ Quiz — failure" in _fields["⚙️ Workflows"])
+check("dead feed flagged, live feed aged", "❓ Sherdog" in _fields["📰 Feeds"]
+      and "MMA Fighting — newest 3h ago" in _fields["📰 Feeds"])
+check("automod count + member trend rendered",
+      "6 active rules" in _fields["🛡️ AutoMod"] and "150 (+5 this week)" in _fields["👥 Members"])
+_hc2, _ = health_bot.render(wf=[("News", "success", 1.0)], feeds=[("F", 1.0)],
+                            rules_n=1, sizes=[], trend=None)
+check("all-green report says nominal", "nominal" in _hc2)
+
+common.load_config = lambda: {"guild_id": "G1", "channels": {"staff_chat": "SC"}}
+os.environ.pop("GH_API_TOKEN", None)
+_pub = "Fri, 03 Jul 2026 10:00:00 GMT"
+common.get_text = lambda url, headers=None, tries=4: (200, "<rss><pubDate>%s</pubDate></rss>" % _pub)
+common.discord = lambda m, p, b=None: (200, [{"name": "r"}] * 6)
+STORE["state_snapshot.json"] = {"v": 1, "history": {"2026-06-25": 140, "2026-07-04": 150}}
+POSTS_FULL.clear()
+health_bot.main()
+_hp = POSTS_FULL[-1]
+check("health report posts SILENT to staff chat",
+      _hp["chan"] == "SC" and _hp["silent"] is True and _hp["embeds"])
+check("degrades gracefully without the GitHub token",
+      "GitHub API unavailable" in str(_hp["embeds"][0]["fields"]))
+check("member trend read from snapshot history", "150" in str(_hp["embeds"][0]["fields"]))
 common.now_utc = _real_now
 
 # ───────────────────────── summary ─────────────────────────────────────────
