@@ -1,0 +1,30 @@
+name: Fight Night Mode
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # cheap no-op off card days; reminder + slowmode on them
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bot-fightnight
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Card-day reminder, thread and slowmode
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: python fightnight_bot.py
+      - name: Save state
+        run: |
+          git config user.name "iboyprime-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add state_fightnight.json 2>/dev/null || true
+          git commit -m "fightnight state [skip ci]" || echo "no changes"
+          git push || true
