@@ -27,9 +27,16 @@ MODES = ["realtime", "hybrid", "digest"]
 
 _DEFAULT_SOURCES = {
     "mma_fighting":  {"label": "MMA Fighting", "url": "https://www.mmafighting.com/rss/current.xml", "enabled": True},
-    "mma_junkie":    {"label": "MMA Junkie",   "url": "https://mmajunkie.usatoday.com/feed",         "enabled": True},
     "bloody_elbow":  {"label": "Bloody Elbow", "url": "https://www.bloodyelbow.com/feed/",           "enabled": True},
-    "sherdog":       {"label": "Sherdog",      "url": "https://www.sherdog.com/rss/news.xml",        "enabled": True},
+    # MMA Mania (SBNation, same feed shape as MMA Fighting) replaced MMA Junkie in
+    # July 2026 - the Junkie publication left Gannett and archived its site, so
+    # mmajunkie.usatoday.com now 404s and mmajunkie.com 307-redirects everything
+    # to archive.mmajunkie.com. Verified live: mmamania /rss/current.xml = 200.
+    "mma_mania":     {"label": "MMA Mania",    "url": "https://www.mmamania.com/rss/current.xml",    "enabled": True},
+    # Sherdog is KEPT as a toggle but ships DISABLED: its CDN hard-blocks bot
+    # traffic with HTTP 403 (any User-Agent, from GitHub runners and elsewhere) as
+    # of July 2026. Re-enable only if that block is ever lifted.
+    "sherdog":       {"label": "Sherdog",      "url": "https://www.sherdog.com/rss/news.xml",        "enabled": False},
     # Boxing feeds ship DISABLED (owner is UFC-focused). Bad Left Hook is a Vox
     # feed (same shape as MMA Fighting). Verify boxingscene's feed shape before
     # ever enabling it.
