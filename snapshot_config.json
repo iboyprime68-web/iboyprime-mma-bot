@@ -1,0 +1,1744 @@
+{
+  "_format": 1,
+  "guild": {
+    "id": "1502831752702464113",
+    "name": "Prime Arena",
+    "description": "Gaming, MMA fight nights and live streams with iBoyPrime — pick your vibe and jump in.",
+    "verification_level": 1,
+    "system_channel_id": "1515436383647432885",
+    "premium_tier": 0,
+    "icon": "5ae1c3dc88455fcd10aeb0be960273cd"
+  },
+  "channels": [
+    {
+      "id": "1515427310944125064",
+      "name": "🌟 START HERE",
+      "type": 4,
+      "parent_id": null,
+      "position": 0,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436349916971070",
+      "name": "👋-welcome",
+      "type": 5,
+      "parent_id": "1515427310944125064",
+      "position": 1,
+      "topic": "Start here — what this server is and where to go first.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "66560",
+          "deny": "34359740416"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436353091801199",
+      "name": "📜-rules",
+      "type": 0,
+      "parent_id": "1515427310944125064",
+      "position": 2,
+      "topic": "The server rules. Read once, vibe forever.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "66560",
+          "deny": "34359740416"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436355847716874",
+      "name": "📣-announcements",
+      "type": 5,
+      "parent_id": "1515427310944125064",
+      "position": 3,
+      "topic": "Official announcements from iBoyPrime and the team.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "66560",
+          "deny": "34359740416"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436359375126718",
+      "name": "🎉-server-updates",
+      "type": 0,
+      "parent_id": "1515427310944125064",
+      "position": 4,
+      "topic": "New features, creator milestones and server news.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "66560",
+          "deny": "34359740416"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436363275702422",
+      "name": "🎭-get-roles",
+      "type": 0,
+      "parent_id": "1515427310944125064",
+      "position": 5,
+      "topic": "Pick your roles & pings — control what you see and what pings you.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "66560",
+          "deny": "34359740416"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436365758726418",
+      "name": "📺 CONTENT & STREAMS",
+      "type": 4,
+      "parent_id": null,
+      "position": 5,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436367608418357",
+      "name": "🔴-live-now",
+      "type": 0,
+      "parent_id": "1515436365758726418",
+      "position": 25,
+      "topic": "iBoyPrime is LIVE — alerts land here the second a stream starts.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "65536",
+          "deny": "34359741440"
+        },
+        {
+          "id": "1515427289070829682",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1516157043269173409",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436370707873903",
+      "name": "📹-youtube-uploads",
+      "type": 0,
+      "parent_id": "1515436365758726418",
+      "position": 26,
+      "topic": "Every new iBoyPrime video, hot off the upload.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "65536",
+          "deny": "34359741440"
+        },
+        {
+          "id": "1515427286914957462",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1516157046418833629",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436375938433088",
+      "name": "✂️-clips-n-highlights",
+      "type": 0,
+      "parent_id": "1515436365758726418",
+      "position": 28,
+      "topic": "Drop your best clips and stream highlights.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436381382643882",
+      "name": "💬 COMMUNITY",
+      "type": 4,
+      "parent_id": null,
+      "position": 1,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436383647432885",
+      "name": "💬-general",
+      "type": 0,
+      "parent_id": "1515436381382643882",
+      "position": 6,
+      "topic": "The main hangout — talk about anything.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436386143178902",
+      "name": "👋-introductions",
+      "type": 0,
+      "parent_id": "1515436381382643882",
+      "position": 7,
+      "topic": "New here? Introduce yourself and say what you're into.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436388835922070",
+      "name": "🖼️-media",
+      "type": 0,
+      "parent_id": "1515436381382643882",
+      "position": 8,
+      "topic": "Photos, art, wallpapers, screenshots — show us something cool.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436391457357946",
+      "name": "😂-memes",
+      "type": 0,
+      "parent_id": "1515436381382643882",
+      "position": 9,
+      "topic": "Fresh memes daily, auto-delivered. Post your own too.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436393818489056",
+      "name": "🎲-off-topic",
+      "type": 0,
+      "parent_id": "1515436381382643882",
+      "position": 10,
+      "topic": "Everything that doesn't fit anywhere else.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436396087869526",
+      "name": "🤖-bot-commands",
+      "type": 0,
+      "parent_id": "1515436381382643882",
+      "position": 11,
+      "topic": "Talk to the bots here — type / to see every command.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436399246049334",
+      "name": "🎮 GAMING",
+      "type": 4,
+      "parent_id": null,
+      "position": 4,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427294070444202",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436402156765375",
+      "name": "🎮-gaming-chat",
+      "type": 0,
+      "parent_id": "1515436399246049334",
+      "position": 21,
+      "topic": "Gaming talk — what are you playing right now?",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427294070444202",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436404774273127",
+      "name": "🔎-looking-for-group",
+      "type": 0,
+      "parent_id": "1515436399246049334",
+      "position": 22,
+      "topic": "Find a squad — post your game + platform + vibe.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427294070444202",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436409425629254",
+      "name": "🏆-plays-n-clips",
+      "type": 0,
+      "parent_id": "1515436399246049334",
+      "position": 23,
+      "topic": "Your best plays. Clip it or it didn't happen.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427294070444202",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436412286271541",
+      "name": "📅-game-nights",
+      "type": 0,
+      "parent_id": "1515436399246049334",
+      "position": 24,
+      "topic": "Community game nights — schedules and sign-ups.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427294070444202",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436415435931762",
+      "name": "🥊 MMA & COMBAT SPORTS",
+      "type": 4,
+      "parent_id": null,
+      "position": 3,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427291780485140",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436418346778776",
+      "name": "🥊-mma-chat",
+      "type": 0,
+      "parent_id": "1515436415435931762",
+      "position": 12,
+      "topic": "Fight talk — debates, takes and predictions welcome.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427291780485140",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436423254376549",
+      "name": "🎯-predictions",
+      "type": 0,
+      "parent_id": "1515436415435931762",
+      "position": 20,
+      "topic": "Call your shots before the cage door closes.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427291780485140",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436426064429150",
+      "name": "🔥-fight-night",
+      "type": 0,
+      "parent_id": "1515436415435931762",
+      "position": 17,
+      "topic": "LIVE fight-night reactions — spoilers guaranteed in here.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427291780485140",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436428920885430",
+      "name": "🔊 VOICE CHANNELS",
+      "type": 4,
+      "parent_id": null,
+      "position": 2,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436432217473155",
+      "name": "🔊 General",
+      "type": 2,
+      "parent_id": "1515436428920885430",
+      "position": 0,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436434583195849",
+      "name": "🎮 Gaming",
+      "type": 2,
+      "parent_id": "1515436428920885430",
+      "position": 1,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436437493776439",
+      "name": "🥊 Fight Night",
+      "type": 2,
+      "parent_id": "1515436428920885430",
+      "position": 2,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436443110211614",
+      "name": "🎥 Stream Room",
+      "type": 2,
+      "parent_id": "1515436428920885430",
+      "position": 3,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436445790244966",
+      "name": "💤 AFK",
+      "type": 2,
+      "parent_id": "1515436428920885430",
+      "position": 4,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
+    },
+    {
+      "id": "1515436448592040099",
+      "name": "🛠️ STAFF",
+      "type": 4,
+      "parent_id": null,
+      "position": 6,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436451335242030",
+      "name": "📋-staff-chat",
+      "type": 0,
+      "parent_id": "1515436448592040099",
+      "position": 30,
+      "topic": "Staff coordination.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436454023790704",
+      "name": "🗒️-mod-log",
+      "type": 0,
+      "parent_id": "1515436448592040099",
+      "position": 31,
+      "topic": "AutoMod + patrol reports land here automatically.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436456460681389",
+      "name": "🎟️-tickets",
+      "type": 0,
+      "parent_id": "1515436448592040099",
+      "position": 32,
+      "topic": "Member reports and staff follow-ups.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515436459488837732",
+      "name": "🔒 Staff VC",
+      "type": 2,
+      "parent_id": "1515436448592040099",
+      "position": 5,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "3214336",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515448197290524763",
+      "name": "🥊-upcoming-fights",
+      "type": 15,
+      "parent_id": "1515436415435931762",
+      "position": 13,
+      "topic": "Upcoming UFC/MMA cards - auto-posted.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "274877972544",
+          "deny": "103079216128"
+        },
+        {
+          "id": "1515427291780485140",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515448200318947341",
+      "name": "🏆-fight-results",
+      "type": 15,
+      "parent_id": "1515436415435931762",
+      "position": 14,
+      "topic": "Fight results - opt in via onboarding. SPOILERS.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1515427291780485140",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "274877973568",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "274877973568",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "274877973568",
+          "deny": "0"
+        },
+        {
+          "id": "1515448193565851750",
+          "type": 0,
+          "allow": "274877973568",
+          "deny": "103079215104"
+        }
+      ]
+    },
+    {
+      "id": "1515475772200976535",
+      "name": "🥊-mma-news",
+      "type": 0,
+      "parent_id": "1515436415435931762",
+      "position": 16,
+      "topic": "Latest MMA headlines - auto-posted from the major outlets.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "274877972544",
+          "deny": "103079218176"
+        },
+        {
+          "id": "1515427291780485140",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "274877975616",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "274877975616",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "274877975616",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515475775384457267",
+      "name": "📊-rankings",
+      "type": 0,
+      "parent_id": "1515436415435931762",
+      "position": 18,
+      "topic": "UFC ranking movements - auto-posted when fighters move.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "274877972544",
+          "deny": "103079218176"
+        },
+        {
+          "id": "1515427291780485140",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "274877975616",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "274877975616",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "274877975616",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515475778953806096",
+      "name": "📅-on-this-day",
+      "type": 0,
+      "parent_id": "1515436415435931762",
+      "position": 19,
+      "topic": "On this day in MMA history + daily trivia.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "274877972544",
+          "deny": "103079218176"
+        },
+        {
+          "id": "1515427291780485140",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "274877975616",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "274877975616",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "274877975616",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1515475785983594547",
+      "name": "🗓️-fight-week",
+      "type": 15,
+      "parent_id": "1515436415435931762",
+      "position": 15,
+      "topic": "Per-card hubs: full card & a prediction poll. Opens fight week.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "274877972544",
+          "deny": "103079216128"
+        },
+        {
+          "id": "1515427291780485140",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427296247287918",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "1502831752702464113",
+      "name": "@everyone",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "2222085186637377",
+      "position": 0
+    },
+    {
+      "id": "1515427211518279853",
+      "name": "iBoyPrime HQ",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "8",
+      "position": 1
+    },
+    {
+      "id": "1515427279524597890",
+      "name": "🎉 Events",
+      "color": 5793266,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1515427281970008275",
+      "name": "📣 Announcements",
+      "color": 16426522,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1515427286914957462",
+      "name": "📹 YouTube Pings",
+      "color": 16711680,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1515427289070829682",
+      "name": "🔴 Live Pings",
+      "color": 15548997,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1515427291780485140",
+      "name": "🥊 MMA Fan",
+      "color": 15105570,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1515427294070444202",
+      "name": "🎮 Gamer",
+      "color": 3066993,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1515427296247287918",
+      "name": "🤖 Bots",
+      "color": 6323595,
+      "hoist": true,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1515427298617200700",
+      "name": "🤝 Member",
+      "color": 9807270,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1515427300857086033",
+      "name": "⭐ VIP",
+      "color": 10181046,
+      "hoist": true,
+      "mentionable": true,
+      "permissions": "2248473465835073",
+      "position": 1
+    },
+    {
+      "id": "1515427303419678860",
+      "name": "🔨 Moderator",
+      "color": 3447003,
+      "hoist": true,
+      "mentionable": true,
+      "permissions": "1116855083138",
+      "position": 1
+    },
+    {
+      "id": "1515427305164378143",
+      "name": "🛡️ Admin",
+      "color": 15158332,
+      "hoist": true,
+      "mentionable": true,
+      "permissions": "1127324065943",
+      "position": 1
+    },
+    {
+      "id": "1515427307626692631",
+      "name": "👑 Owner",
+      "color": 15844367,
+      "hoist": true,
+      "mentionable": false,
+      "permissions": "1127324065943",
+      "position": 1
+    },
+    {
+      "id": "1515448190969577552",
+      "name": "🥊 Fight Alerts",
+      "color": 15105570,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1515448193565851750",
+      "name": "🚨 Fight Results",
+      "color": 12597547,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1516157043269173409",
+      "name": "👁️ Live Viewer",
+      "color": 10070709,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1516157046418833629",
+      "name": "👁️ Videos Viewer",
+      "color": 10070709,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1522655081907093584",
+      "name": "📰 News Pings",
+      "color": 15105570,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1522655084645974106",
+      "name": "🗞️ Digest Ping",
+      "color": 10070709,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1522857619277222019",
+      "name": "🏆 Fight Prophet",
+      "color": 15844367,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1522859680433438861",
+      "name": "🎬 Clip Champ",
+      "color": 10181046,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    }
+  ],
+  "automod": [
+    {
+      "name": "iBP · Ads & invites",
+      "trigger_type": 1,
+      "event_type": 1,
+      "enabled": true,
+      "keyword_count": 0,
+      "regex_count": 3,
+      "allow_count": 0,
+      "presets": [],
+      "exempt_role_count": 3,
+      "exempt_channel_count": 0,
+      "action_types": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "iBP · Hate & adult (preset)",
+      "trigger_type": 4,
+      "event_type": 1,
+      "enabled": true,
+      "keyword_count": 0,
+      "regex_count": 0,
+      "allow_count": 0,
+      "presets": [
+        2,
+        3
+      ],
+      "exempt_role_count": 3,
+      "exempt_channel_count": 0,
+      "action_types": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "iBP · Mention spam",
+      "trigger_type": 5,
+      "event_type": 1,
+      "enabled": true,
+      "keyword_count": 0,
+      "regex_count": 0,
+      "allow_count": 0,
+      "presets": [],
+      "exempt_role_count": 3,
+      "exempt_channel_count": 0,
+      "action_types": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "iBP · Profile filter",
+      "trigger_type": 6,
+      "event_type": 2,
+      "enabled": true,
+      "keyword_count": 24,
+      "regex_count": 0,
+      "allow_count": 0,
+      "presets": [],
+      "exempt_role_count": 3,
+      "exempt_channel_count": 0,
+      "action_types": [
+        4
+      ]
+    },
+    {
+      "name": "iBP · Scam filter",
+      "trigger_type": 1,
+      "event_type": 1,
+      "enabled": true,
+      "keyword_count": 9,
+      "regex_count": 0,
+      "allow_count": 0,
+      "presets": [],
+      "exempt_role_count": 3,
+      "exempt_channel_count": 0,
+      "action_types": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "iBP · Spam",
+      "trigger_type": 3,
+      "event_type": 1,
+      "enabled": true,
+      "keyword_count": 0,
+      "regex_count": 0,
+      "allow_count": 0,
+      "presets": [],
+      "exempt_role_count": 3,
+      "exempt_channel_count": 0,
+      "action_types": [
+        1,
+        2
+      ]
+    }
+  ]
+}
