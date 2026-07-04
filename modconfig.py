@@ -68,7 +68,12 @@ DEFAULT_GLOBAL = {
 DEFAULT_RAID = {"enabled": True, "join_burst": 8, "join_window_sec": 120,
                 "action": "alert", "auto_clear_min": 15}
 DEFAULT_IMAGE = {"classifier": "nudenet", "threshold": 0.85, "max_per_run": 40,
-                 "delete": True, "warn": True}
+                 "delete": True, "warn": True,
+                 # gore watch (CLIP zero-shot, alert-only BY DESIGN - it has no
+                 # delete path: violence models false-positive on exactly the
+                 # bloody MMA content this server keeps. Calibrated July 2026:
+                 # 0/27 MMA+benign false positives at threshold 0.85).
+                 "gore_enabled": True, "gore_threshold": 0.85}
 
 
 def base_defaults():
