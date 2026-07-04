@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - raid watch (zero-setup, no privileged gateway needed).
+"""Prime Arena - raid watch (zero-setup, no privileged gateway needed).
 
 Samples the guild's member count (GET /guilds/{id}?with_counts=true) ~once a minute
 via common.run_loop and, if it jumps by `join_burst` within `join_window_sec`, treats
