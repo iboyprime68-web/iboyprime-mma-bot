@@ -63,6 +63,9 @@ EXISTING_CHANNELS = {
     "rules":          "📜-rules",
     "mod_log":        "🗒️-mod-log",
     "bot_commands":   "🤖-bot-commands",
+    "mma_chat":       "🥊-mma-chat",
+    "plays_n_clips":  "🏆-plays-n-clips",
+    "staff_chat":     "📋-staff-chat",
 }
 EXISTING_ROLES = {
     "live_pings":    "🔴 Live Pings",
@@ -74,11 +77,14 @@ EXISTING_ROLES = {
     "admin":         "🛡️ Admin",
     "mod":           "🔨 Moderator",
 }
-# opt-in news ping roles the setup ensure-creates (key -> (name, color)).
+# roles the setup ensure-creates (key -> (name, color)).
 # 📰 News Pings = breaking-news alerts only; 🗞️ Digest Ping = one daily digest ping.
+# 🏆 Fight Prophet = monthly Fight IQ champion; 🎬 Clip Champ = weekly clip winner.
 NEW_ROLES = {
-    "news_pings":  ("📰 News Pings", 0xE67E22),
-    "digest_ping": ("🗞️ Digest Ping", 0x99AAB5),
+    "news_pings":   ("📰 News Pings", 0xE67E22),
+    "digest_ping":  ("🗞️ Digest Ping", 0x99AAB5),
+    "fight_prophet":("🏆 Fight Prophet", 0xF1C40F),
+    "clip_champ":   ("🎬 Clip Champ", 0x9B59B6),
 }
 PATROL_NAMES = ["💬-general", "🎮-gaming-chat", "🥊-mma-chat", "🎲-off-topic", "😂-memes", "👋-introductions"]
 
