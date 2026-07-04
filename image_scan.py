@@ -34,6 +34,91 @@ NUDENET_EXPLICIT = {
 }
 
 _SCORER = None                       # cached callable(bytes)->float; tests inject a stub here
+_GORE = None                         # cached gore scorer, False = unavailable; tests inject
+
+# ── gore watch (ALERT-ONLY, forever) ────────────────────────────────────────
+# CLIP zero-shot with competing labels: MMA/boxing photos land on the sport
+# labels, so bloody fight pics score ~0 gore (calibrated: 0/27 MMA+benign false
+# positives at 0.85; blatant casualty imagery scores 0.93+). There is NO delete
+# call anywhere in the gore flow - it only posts a review alert to mod-log.
+GORE_MODEL_URL = ("https://huggingface.co/Xenova/clip-vit-base-patch32/"
+                  "resolve/main/onnx/vision_model_quantized.onnx")
+GORE_LABELS_FILE = "gore_labels.json"
+CLIP_MEAN = (0.48145466, 0.4578275, 0.40821073)
+CLIP_STD = (0.26862954, 0.26130258, 0.27577711)
+
+
+def _load_gore():
+    """Build the CLIP gore scorer (deps shared with nudenet: onnxruntime/PIL/
+    numpy). Returns bytes -> gore-probability float, or None when unavailable
+    (missing labels file, download failure) - the scan then just runs NSFW-only."""
+    import io, os
+    try:
+        import numpy as np
+        import onnxruntime as ort
+        from PIL import Image
+    except Exception as e:
+        print("  gore scorer deps unavailable (%s) - gore watch off" % e)
+        return None
+    labels = common.load_json(common.state_path(GORE_LABELS_FILE), None)
+    if not labels or not labels.get("embeds"):
+        print("  gore_labels.json missing - gore watch off")
+        return None
+    cache = os.path.join(os.path.expanduser("~"), ".cache", "prime_gore")
+    os.makedirs(cache, exist_ok=True)
+    mp = os.path.join(cache, "clip_vision_q.onnx")
+    if not os.path.exists(mp) or os.path.getsize(mp) < 1_000_000:
+        print("  downloading the CLIP vision model (~88 MB, cached across runs)...")
+        try:
+            req = urllib.request.Request(GORE_MODEL_URL, headers={"User-Agent": common.BROWSER_UA})
+            with urllib.request.urlopen(req, timeout=600) as r:
+                data = r.read()
+            with open(mp, "wb") as f:
+                f.write(data)
+        except Exception as e:
+            print("  gore model download failed (%s) - gore watch off" % e)
+            return None
+    try:
+        sess = ort.InferenceSession(mp, providers=["CPUExecutionProvider"])
+    except Exception as e:
+        print("  gore model load failed (%s) - gore watch off" % e)
+        return None
+    T = np.asarray(labels["embeds"], dtype=np.float32)
+    T = T / np.linalg.norm(T, axis=-1, keepdims=True)
+    owners = labels.get("owners") or []
+    mean = np.asarray(CLIP_MEAN, dtype=np.float32)
+    std = np.asarray(CLIP_STD, dtype=np.float32)
+    iname = sess.get_inputs()[0].name
+
+    def score(b):
+        try:
+            img = Image.open(io.BytesIO(b)).convert("RGB")
+            w, h = img.size
+            s = 224.0 / min(w, h)
+            img = img.resize((max(1, round(w * s)), max(1, round(h * s))), Image.BICUBIC)
+            w, h = img.size
+            left, top = (w - 224) // 2, (h - 224) // 2
+            img = img.crop((left, top, left + 224, top + 224))
+            x = (np.asarray(img, dtype=np.float32) / 255.0 - mean) / std
+            x = x.transpose(2, 0, 1)[None, ...]
+            v = sess.run(None, {iname: x})[0][0]
+            v = v / (np.linalg.norm(v) or 1.0)
+            logits = 100.0 * (T @ v)
+            e = np.exp(logits - logits.max())
+            p = e / e.sum()
+            return float(sum(pi for pi, g in zip(p, owners) if g == "gore"))
+        except Exception as e:
+            print("  gore scoring error:", e)
+            return 0.0
+    return score
+
+
+def get_gore_scorer():
+    """Load-and-cache the gore scorer; None when it can't run (never fatal)."""
+    global _GORE
+    if _GORE is None:
+        _GORE = _load_gore() or False
+    return _GORE or None
 
 
 def _load_scorer(name):
@@ -128,6 +213,8 @@ def poll_once():
     do_delete = img.get("delete", True)
     do_warn = img.get("warn", True)
     classifier = img.get("classifier", "nudenet")
+    gore_on = bool(img.get("gore_enabled", False))
+    gore_threshold = float(img.get("gore_threshold", 0.85))
 
     channels = [c for c in modconfig.configured_channels(modcfg)
                 if modconfig.resolve_channel(modcfg, c)["nsfw_images"]]
@@ -162,26 +249,45 @@ def poll_once():
                 continue
             if scorer is None:                       # load model only once, only when needed
                 scorer = get_scorer(classifier)
-            worst = 0.0
+            worst, blobs = 0.0, []
             for a in atts:
                 b = fetch_bytes(a.get("url") or a.get("proxy_url"))
                 if not b:
                     continue
                 checked += 1
+                blobs.append(b)
                 worst = max(worst, scorer(b))
             seen.add(mid)
+            uid = (m.get("author") or {}).get("id")
+            deleted = False
             if worst >= threshold:
-                uid = (m.get("author") or {}).get("id")
                 if do_delete:
                     c, _ = common.discord("DELETE", "/channels/%s/messages/%s" % (ch, mid))
                     if c in (200, 204):
                         removed += 1
+                        deleted = True
                 if do_warn and mod_log:
                     common.post_message(
                         mod_log,
                         "🔞 Removed a likely-NSFW image from <@%s> in <#%s> (confidence %.0f%%)."
                         % (uid, ch, worst * 100), allowed_mentions={"parse": []})
                 print("nsfw image removed:", mid, "score", round(worst, 3))
+            # gore watch: ALERT-ONLY. Never deletes, never touches the message -
+            # bloody MMA photos are wanted content; a human decides, always.
+            if gore_on and blobs and not deleted and mod_log:
+                gscore = get_gore_scorer()
+                if gscore:
+                    gworst = max((gscore(b) for b in blobs), default=0.0)
+                    if gworst >= gore_threshold:
+                        link = "https://discord.com/channels/%s/%s/%s" % (
+                            cfg.get("guild_id"), ch, mid)
+                        common.post_message(
+                            mod_log,
+                            "🚨 Possible graphic-gore image in <#%s> from <@%s> — needs a "
+                            "human look: %s (confidence %.0f%%). Nothing was auto-deleted."
+                            % (ch, uid, link, gworst * 100),
+                            allowed_mentions={"parse": []})
+                        print("gore alert:", mid, "score", round(gworst, 3))
 
     state["seen"] = sorted(seen)[-3000:]
     common.save_json(common.state_path(STATE_FILE), state)
