@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - Bot #3: UFC rankings (board + movement alerts).
+"""Prime Arena - Bot #3: UFC rankings (board + movement alerts).
 
 Source: free octagon-api (no key). IMPORTANT: that API gives fighters in ranked
 order with NO rank field - rank = list position (index 0 = #1).
