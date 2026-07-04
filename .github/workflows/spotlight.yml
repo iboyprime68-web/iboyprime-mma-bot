@@ -1,0 +1,30 @@
+name: Fighter Spotlight
+on:
+  schedule:
+    - cron: '0 16 * * 3'   # Wednesday 16:00 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bot-spotlight
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Post the weekly fighter spotlight
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: python spotlight_bot.py
+      - name: Save state
+        run: |
+          git config user.name "iboyprime-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add state_spotlight.json 2>/dev/null || true
+          git commit -m "spotlight state [skip ci]" || echo "no changes"
+          git push || true
