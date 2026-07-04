@@ -1,5 +1,5 @@
 /**
- * iBoyPrime HQ — custom slash-command bot (Cloudflare Worker).
+ * Prime Arena — custom slash-command bot (Cloudflare Worker).
  * Always-on, free, ad-free. Handles Discord HTTP interactions.
  *
  * Secrets (set via `wrangler secret put` or the dashboard):
@@ -347,7 +347,7 @@ async function requireStaff(i, env) {
 // ---------- command table ----------
 const COMMANDS = {
   help: () => ({ data: embed({
-    title: "🤖 iBoyPrime HQ — Commands",
+    title: "🤖 Prime Arena — Commands",
     description: [
       "**MMA**",
       "`/rankings` UFC division rankings · `/nextevent` next card + countdown",
@@ -572,7 +572,7 @@ const CONTEXT = {
 
 export default {
   async fetch(request, env, ctx) {
-    if (request.method !== "POST") return new Response("iBoyPrime HQ commands — online.");
+    if (request.method !== "POST") return new Response("Prime Arena commands — online.");
     const body = await request.text();
     if (!await verify(request, body, env.DISCORD_PUBLIC_KEY)) return new Response("bad signature", { status: 401 });
     const interaction = JSON.parse(body);
