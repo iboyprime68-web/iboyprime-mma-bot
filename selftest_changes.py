@@ -1208,6 +1208,206 @@ fightnight_bot.main()
 check("old event records pruned", "700" not in STORE["state_fightnight.json"]["events"])
 common.now_utc = _real_now
 
+# ───────────────────────── 16. quiz_bot (Friday quiz night) ────────────────
+print("\n[quiz_bot]")
+import quiz_bot
+quiz_bot.QUESTION_SECONDS = 0
+quiz_bot.BETWEEN_SECONDS = 0
+common.now_utc = lambda: common.datetime.datetime(2026, 7, 10, 19, 0,
+                                                  tzinfo=common.datetime.timezone.utc)  # a Friday
+common.load_config = lambda: {"guild_id": "G1",
+                              "channels": {"mma_chat": "MC", "predictions": "P"},
+                              "roles": {}}
+STORE["quiz_data.json"] = [
+    {"q": "Q one",   "answers": ["a", "b", "c", "d"], "correct": 0},
+    {"q": "Q two",   "answers": ["a", "b", "c", "d"], "correct": 1},
+    {"q": "Q three", "answers": ["a", "b", "c", "d"], "correct": 2},
+    {"q": "Q four",  "answers": ["a", "b", "c", "d"], "correct": 0},
+    {"q": "Q five",  "answers": ["a", "b", "c", "d"], "correct": 3},
+    {"q": "Q six",   "answers": ["a", "b", "c", "d"], "correct": 1},
+]
+STORE.pop("state_quiz.json", None)
+QUIZ_POLLS, QUIZ_EXPIRES = [], []
+def quiz_discord(method, path, body=None):
+    if method == "POST" and path == "/channels/MC/messages" and body and "poll" in body:
+        QUIZ_POLLS.append(body)
+        n = len(QUIZ_POLLS)
+        return 200, {"id": "QM%d" % n,
+                     "poll": {"answers": [{"answer_id": j + 1, "poll_media": a["poll_media"]}
+                                          for j, a in enumerate(body["poll"]["answers"])]}}
+    if method == "POST" and "/expire" in path:
+        QUIZ_EXPIRES.append(path); return 200, {}
+    if method == "GET" and "/polls/" in path:
+        mid = path.split("/polls/")[1].split("/")[0]
+        return 200, {"users": ([{"id": "U1"}, {"id": "U2"}] if mid in ("QM1", "QM2")
+                               else [{"id": "U1"}])}
+    return 200, {}
+common.discord = quiz_discord
+POSTS.clear(); POSTS_FULL.clear(); PERSISTS.clear(); _EDITS_BEFORE = len(EDITS)
+quiz_bot.main()
+_qs = STORE["state_quiz.json"]
+check("5 questions posted as SILENT polls",
+      len(QUIZ_POLLS) == 5 and all(b.get("flags") == 4096 for b in QUIZ_POLLS))
+check("every question expired early", len(QUIZ_EXPIRES) == 5)
+check("scores tallied per correct voter", _qs["months"]["2026-07"] == {"U1": 5, "U2": 2}
+      and _qs["alltime"] == {"U1": 5, "U2": 2})
+check("bank cursor advances with wrap math", _qs["cursor"] == 5 and _qs["last_run"] == "2026-07-10")
+check("cursor persisted BEFORE questions (crash-safe)", PERSISTS and PERSISTS[0] == "state_quiz.json")
+check("intro + results are silent (calm-mode)",
+      all(p["silent"] for p in POSTS_FULL if "Quiz" in p["content"] or "results" in p["content"]))
+check("results embed lists tonight's top", any(p["embeds"] and "sharpest" in p["embeds"][0]["description"]
+                                               for p in POSTS_FULL if p["embeds"]))
+check("shared board edited, never created by quiz_bot",
+      len(EDITS) > _EDITS_BEFORE and EDITS[-1][1] == "msg1" and
+      not any(predictions_bot.LEADER_TITLE in p["content"] for p in POSTS_FULL))
+check("board shows both point columns", "🥊 1 · 🧠 5" in EDITS[-1][2])
+_n_polls = len(QUIZ_POLLS)
+quiz_bot.main()
+check("same-day re-run is a no-op (double-dispatch guard)", len(QUIZ_POLLS) == _n_polls)
+
+# ───────────────────────── 17. debate_bot ──────────────────────────────────
+print("\n[debate_bot]")
+import debate_bot
+common.now_utc = lambda: common.datetime.datetime(2026, 7, 6, 17, 0,
+                                                  tzinfo=common.datetime.timezone.utc)  # a Monday
+common.load_config = lambda: {"channels": {"mma_chat": "MC"}}
+STORE["debates_data.json"] = [{"q": "Debate 1", "answers": ["x", "y"]},
+                              {"q": "Debate 2", "answers": ["x", "y", "z"]},
+                              {"q": "Debate 3", "answers": ["x", "y"]}]
+STORE.pop("state_debate.json", None)
+DEBATE_POLLS = []
+def debate_discord(method, path, body=None):
+    if method == "POST" and body and "poll" in body:
+        DEBATE_POLLS.append(body); return 200, {"id": "DM%d" % len(DEBATE_POLLS)}
+    return 200, {}
+common.discord = debate_discord
+debate_bot.main()
+_ds = STORE["state_debate.json"]
+check("debate posted as a SILENT poll with a plain content line",
+      len(DEBATE_POLLS) == 1 and DEBATE_POLLS[0]["flags"] == 4096 and
+      DEBATE_POLLS[0]["content"].startswith("🗣️") and
+      DEBATE_POLLS[0]["poll"]["question"]["text"] == "Debate 1")
+check("3-day duration, single choice",
+      DEBATE_POLLS[0]["poll"]["duration"] == 72 and
+      DEBATE_POLLS[0]["poll"]["allow_multiselect"] is False)
+check("cursor advances", _ds["cursor"] == 1 and _ds["last_posted"] == "2026-07-06")
+debate_bot.main()
+check("same-day re-run is a no-op", len(DEBATE_POLLS) == 1)
+_ds["cursor"] = 2; _ds["last_posted"] = "2026-06-29"; STORE["state_debate.json"] = _ds
+debate_bot.main()
+check("rotation wraps around the bank", STORE["state_debate.json"]["cursor"] == 0 and
+      DEBATE_POLLS[-1]["poll"]["question"]["text"] == "Debate 3")
+
+# ───────────────────────── 18. spotlight_bot ───────────────────────────────
+print("\n[spotlight_bot]")
+import spotlight_bot
+common.load_config = lambda: {"channels": {"mma_chat": "MC"}}
+_spot_ranks = [
+    {"categoryName": "Pound-for-Pound", "fighters": [{"id": "px", "name": "PX"}]},
+    {"categoryName": "Lightweight",
+     "fighters": [{"id": "alpha-man", "name": "Alpha Man"}, {"id": "beta-guy", "name": "Beta Guy"}]},
+    {"categoryName": "Heavyweight",
+     "fighters": [{"id": "big-dog", "name": "Big Dog"}]},
+]
+def spot_get_json(url, headers=None, tries=4):
+    if url.endswith("/rankings"):
+        return 200, copy.deepcopy(_spot_ranks)
+    if "/fighter/" in url:
+        return 200, {"name": "Alpha Man", "nickname": "The Test", "wins": "20", "losses": "1",
+                     "draws": "0", "placeOfBirth": "Testville", "trainsAt": "Test Gym", "age": "29"}
+    return 200, {}
+common.get_json = spot_get_json
+STORE.pop("state_spotlight.json", None)
+common.now_utc = lambda: common.datetime.datetime(2026, 7, 8, 16, 0,
+                                                  tzinfo=common.datetime.timezone.utc)  # a Wednesday
+POSTS_FULL.clear()
+spotlight_bot.main()
+_sp = STORE["state_spotlight.json"]
+_spost = POSTS_FULL[-1]
+check("spotlight posted SILENT with a rich embed",
+      _spost["silent"] and _spost["embeds"] and "Spotlight" in _spost["embeds"][0]["title"])
+check("plain-text preview line (calm push format)",
+      _spost["content"].startswith("Fighter Spotlight: Alpha Man"))
+check("P4P skipped; first real division used", "#1 at Lightweight" in _spost["embeds"][0]["description"])
+check("division cursor rotates", _sp["div_cursor"] == 1 and _sp["last_posted"] == "2026-07-08")
+spotlight_bot.main()
+check("same-day guard holds", len([p for p in POSTS_FULL if "Spotlight" in p["content"]]) == 1)
+_sp["last_posted"] = "2026-07-01"; STORE["state_spotlight.json"] = _sp
+spotlight_bot.main()
+check("next week -> next division, lap bumps ranks",
+      STORE["state_spotlight.json"]["div_cursor"] == 0 and
+      STORE["state_spotlight.json"]["per_div_rank"].get("Lightweight") == 1)
+
+# ───────────────────────── 19. clip_bot (Clip War) ─────────────────────────
+print("\n[clip_bot]")
+import clip_bot
+common.load_config = lambda: {"guild_id": "G1",
+                              "channels": {"plays_n_clips": "PC"},
+                              "roles": {"clip_champ": "RC"}}
+CLIP_CALLS, CLIP_MSGS = [], []
+def clip_discord(method, path, body=None):
+    CLIP_CALLS.append((method, path))
+    if method == "POST" and path == "/channels/PC/threads":
+        return 201, {"id": "CT1"}
+    if method == "GET" and path.startswith("/channels/CT1/messages"):
+        return 200, list(CLIP_MSGS)
+    return 200, {}
+common.discord = clip_discord
+STORE.pop("state_clip.json", None)
+common.now_utc = lambda: common.datetime.datetime(2026, 7, 6, 15, 0,
+                                                  tzinfo=common.datetime.timezone.utc)  # Monday
+POSTS_FULL.clear()
+clip_bot.main()
+_cs = STORE["state_clip.json"]
+check("Monday opens the Clip War thread", _cs["thread_id"] == "CT1" and _cs["week"])
+check("seed message is silent and in the thread",
+      POSTS_FULL and POSTS_FULL[0]["chan"] == "CT1" and POSTS_FULL[0]["silent"])
+_n_calls = len([c for c in CLIP_CALLS if c[0] == "POST"])
+clip_bot.main()
+check("Monday re-run doesn't open a second thread",
+      len([c for c in CLIP_CALLS if c[0] == "POST" and c[1].endswith("/threads")]) == 1)
+
+_cs = STORE["state_clip.json"]; _cs["prev_champ"] = "OLD"; _cs["seed_msg_id"] = "SEED"
+STORE["state_clip.json"] = _cs
+CLIP_MSGS[:] = [   # newest-first, as Discord returns
+    {"id": "300", "author": {"id": "BOTX", "bot": True}, "reactions": [{"count": 99}]},
+    {"id": "200", "author": {"id": "B"}, "reactions": [{"count": 5}]},
+    {"id": "100", "author": {"id": "C"}, "reactions": [{"count": 3}, {"count": 2}]},
+    {"id": "50",  "author": {"id": "A"}, "reactions": [{"count": 3}]},
+    {"id": "SEED", "author": {"id": "BOTX"}, "reactions": []},
+]
+common.now_utc = lambda: common.datetime.datetime(2026, 7, 12, 20, 0,
+                                                  tzinfo=common.datetime.timezone.utc)  # Sunday
+POSTS_FULL.clear(); CLIP_CALLS.clear()
+clip_bot.main()
+_cs = STORE["state_clip.json"]
+check("Sunday crowns the top-reaction author (ties -> earliest)", _cs["prev_champ"] == "C")
+check("Clip Champ role moved old -> new",
+      ("DELETE", "/guilds/G1/members/OLD/roles/RC") in CLIP_CALLS and
+      ("PUT", "/guilds/G1/members/C/roles/RC") in CLIP_CALLS)
+_win = next((p for p in POSTS_FULL if "Clip Champ" in p["content"]), None)
+check("winner announce mentions ONLY the winner",
+      _win and _win["mentions"] == {"users": ["C"]} and _win["silent"] is False)
+check("week marked closed", _cs["closed_week"] == _cs["week"])
+POSTS_FULL.clear()
+clip_bot.main()
+check("Sunday re-run is a no-op", not POSTS_FULL)
+
+common.now_utc = lambda: common.datetime.datetime(2026, 7, 13, 15, 0,
+                                                  tzinfo=common.datetime.timezone.utc)  # next Monday
+clip_bot.main()
+CLIP_MSGS[:] = [{"id": "400", "author": {"id": "D"}, "reactions": []}]
+common.now_utc = lambda: common.datetime.datetime(2026, 7, 19, 20, 0,
+                                                  tzinfo=common.datetime.timezone.utc)  # next Sunday
+POSTS_FULL.clear(); CLIP_CALLS.clear()
+clip_bot.main()
+check("no reactions -> previous champ keeps the role",
+      STORE["state_clip.json"]["prev_champ"] == "C" and
+      not any(c[0] in ("PUT", "DELETE") and "/roles/" in c[1] for c in CLIP_CALLS))
+check("quiet no-champ notice is silent",
+      POSTS_FULL and POSTS_FULL[-1]["silent"] and "belt stays put" in POSTS_FULL[-1]["content"])
+common.now_utc = _real_now
+
 # ───────────────────────── summary ─────────────────────────────────────────
 print("\n==== %d passed, %d failed ====" % (PASS, FAIL))
 sys.exit(1 if FAIL else 0)
