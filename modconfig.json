@@ -165,8 +165,33 @@
       "limit": 6
     },
     "member_profile": {
-      "enabled": false,
-      "words": []
+      "enabled": true,
+      "words": [
+        "nigger*",
+        "n1gger*",
+        "nigga*",
+        "n1gga*",
+        "faggot*",
+        "f4ggot*",
+        "fag",
+        "fags",
+        "kike*",
+        "spic",
+        "spics",
+        "chink*",
+        "gook",
+        "gooks",
+        "wetback*",
+        "beaner*",
+        "tranny*",
+        "coon",
+        "coons",
+        "raghead*",
+        "towelhead*",
+        "jigaboo*",
+        "zipperhead*",
+        "porch monkey"
+      ]
     }
   },
   "raid": {
