@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - Bot #6: On This Day in MMA + Trivia of the Day.
+"""Prime Arena - Bot #6: On This Day in MMA + Trivia of the Day.
 
 Daily post to #on-this-day:
   * every iconic MMA event that happened on today's calendar date, and
