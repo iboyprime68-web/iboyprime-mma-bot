@@ -1,0 +1,8 @@
+{
+  "name": "iboyprime-commands",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node worker.test.js"
+  }
+}
