@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - onboarding + opt-in channel visibility (run once / re-runnable).
+"""Prime Arena - onboarding + opt-in channel visibility (run once / re-runnable).
 
 WHY: members should fully control what they see and get pinged for, with one hard
 rule from the owner: if you turn a notification OFF, the channel disappears too -
