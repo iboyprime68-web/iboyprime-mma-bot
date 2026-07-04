@@ -1,0 +1,39 @@
+name: Selftests
+on:
+  push:
+    paths:
+      - '**.py'
+      - 'commands_worker/**'
+      - 'quiz_data.json'
+      - 'debates_data.json'
+      - 'onthisday_data.json'
+      - 'modconfig.json'
+      - 'newsconfig.json'
+      - 'bots_config.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: selftest
+  cancel-in-progress: true
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run mocked selftests
+        run: python selftest_changes.py
+  worker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Worker syntax + unit tests
+        run: |
+          node --check commands_worker/worker.js
+          cd commands_worker && node worker.test.js
