@@ -18,7 +18,7 @@ MOD_CATS = ["slurs", "nsfw_text", "profanity", "sensitive", "ads", "scam"]
 MEDIA = ["allow", "no_links", "no_attachments", "sfw_only", "text_only"]
 PROFILES = ["anything_goes", "standard", "sfw_strict"]
 NEWS_MODES = ["realtime", "hybrid", "digest"]
-NEWS_SOURCES = ["mma_fighting", "mma_junkie", "bloody_elbow", "sherdog", "bad_left_hook", "boxing_scene"]
+NEWS_SOURCES = ["mma_fighting", "bloody_elbow", "mma_mania", "sherdog", "bad_left_hook", "boxing_scene"]
 NEWS_CATS = ["ufc", "mma_other", "boxing"]
 NEWS_PINGS = ["breaking", "digest"]
 
