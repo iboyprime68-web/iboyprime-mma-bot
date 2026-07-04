@@ -1,0 +1,30 @@
+name: Weekly Debate
+on:
+  schedule:
+    - cron: '0 17 * * 1'   # Monday 17:00 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bot-debate
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Post the weekly debate poll
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: python debate_bot.py
+      - name: Save state
+        run: |
+          git config user.name "iboyprime-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add state_debate.json 2>/dev/null || true
+          git commit -m "debate state [skip ci]" || echo "no changes"
+          git push || true
