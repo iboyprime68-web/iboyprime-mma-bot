@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - free NSFW image scan (isolated from the std-lib-only bots).
+"""Prime Arena - free NSFW image scan (isolated from the std-lib-only bots).
 
 AutoMod can only read TEXT, never image pixels - so this is the free way to catch
 NSFW *images*. It runs in its own GitHub Actions job (public repo = unlimited free
