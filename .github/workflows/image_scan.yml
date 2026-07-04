@@ -27,14 +27,15 @@ jobs:
             echo "need=0" >> "$GITHUB_OUTPUT"
             echo "No channel has nsfw_images enabled - skipping the heavy scan."
           fi
-      - name: Cache model + pip wheels
+      - name: Cache models + pip wheels
         if: steps.precheck.outputs.need == '1'
         uses: actions/cache@v4
         with:
           path: |
             ~/.cache/pip
             ~/.NudeNet
-          key: nsfw-onnx-${{ runner.os }}-v2
+            ~/.cache/prime_gore
+          key: nsfw-onnx-${{ runner.os }}-v3
       - name: Install the free ONNX NSFW classifier (no API key)
         if: steps.precheck.outputs.need == '1'
         run: pip install --quiet nudenet
