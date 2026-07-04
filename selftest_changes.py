@@ -895,6 +895,13 @@ if mod_panel:
           _out["sources"]["mma_junkie"]["enabled"] is True and _newscfg["mode"] == "hybrid")
     check("news tab result validates clean", newsconfig.validate_newsconfig(_out) == [])
 
+    # nickname-filter form helper
+    _mp = mod_panel.collect_member_profile(True, "SlurOne*\n  slurtwo \n\n")
+    check("nickname helper normalizes + lowercases words",
+          _mp == {"enabled": True, "words": ["slurone*", "slurtwo"]})
+    check("nickname helper never enables an empty rule",
+          mod_panel.collect_member_profile(True, "  \n") == {"enabled": False, "words": []})
+
 # ───────────────────────── 12b. server_polish ──────────────────────────────
 print("\n[server_polish]")
 import server_polish
@@ -1207,6 +1214,41 @@ _fn_now[0] = _fn_start + common.datetime.timedelta(days=fightnight_bot.KEEP_DAYS
 fightnight_bot.main()
 check("old event records pruned", "700" not in STORE["state_fightnight.json"]["events"])
 common.now_utc = _real_now
+
+# ───────────────────────── 15b. nickname filter (member_profile) ───────────
+print("\n[nickname filter]")
+import json as _json2
+_mc_live = _json2.load(open(os.path.join(_BOTS if os.path.isdir(_BOTS) else _HERE,
+                                         "modconfig.json"), encoding="utf-8"))
+_mp_live = (_mc_live.get("global_rules") or {}).get("member_profile") or {}
+check("modconfig ships the nickname filter ENABLED",
+      _mp_live.get("enabled") is True and len(_mp_live.get("words") or []) >= 15)
+check("nickname list is lowercase, deduped, Discord-legal",
+      all(w == w.lower() and 1 <= len(w) <= 60 for w in _mp_live["words"]) and
+      len(set(_mp_live["words"])) == len(_mp_live["words"]))
+check("no benign-word wildcard traps (exact-match words stay exact)",
+      "coon" in _mp_live["words"] and "*coon*" not in _mp_live["words"] and
+      "fag" in _mp_live["words"] and "*fag*" not in _mp_live["words"])
+
+mc_nick = modconfig.base_defaults()
+mc_nick["global_rules"]["member_profile"] = {"enabled": True, "words": ["slurx*", "slury"]}
+_nick_rules = mod_setup.build_rules(mc_nick, ["A"], "LOG", ["OWNER"])
+_prof = next((r for r in _nick_rules if r["name"] == "iBP · Profile filter"), None)
+check("mod_setup builds the MEMBER_PROFILE rule when enabled+words",
+      _prof is not None and _prof["trigger_type"] == 6 and
+      _prof["trigger_metadata"].get("keyword_filter") == ["slurx*", "slury"])
+check("profile rule is enabled and staff-exempt",
+      _prof["enabled"] is True and "OWNER" in _prof.get("exempt_roles", []))
+mc_nick2 = modconfig.base_defaults()
+mc_nick2["global_rules"]["member_profile"] = {"enabled": False, "words": ["slurx"]}
+check("disabled flag -> no profile rule",
+      not any(r["name"] == "iBP · Profile filter"
+              for r in mod_setup.build_rules(mc_nick2, ["A"], None, [])))
+mc_nick3 = modconfig.base_defaults()
+mc_nick3["global_rules"]["member_profile"] = {"enabled": True, "words": []}
+check("enabled but empty words -> no profile rule (silent-no-op guard)",
+      not any(r["name"] == "iBP · Profile filter"
+              for r in mod_setup.build_rules(mc_nick3, ["A"], None, [])))
 
 # ───────────────────────── 16. quiz_bot (Friday quiz night) ────────────────
 print("\n[quiz_bot]")
