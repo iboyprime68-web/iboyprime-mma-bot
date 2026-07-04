@@ -1001,8 +1001,10 @@ check("topics: second run is a full no-op (rate-limit safe)",
 POSTS.clear(); POSTS_FULL.clear()
 server_polish.post_guides(sp_chans)
 check("both guides posted when missing (roles + welcome)", len(POSTS) == 2)
-_roles_g = next(c for _, c in POSTS if "Roles & Pings" in c)
-_welc_g = next(c for _, c in POSTS if "Welcome to Prime Arena" in c)
+# next(..., "") so a text mismatch prints a FAIL below instead of aborting the
+# whole suite with StopIteration (that abort is what emailed the owner once)
+_roles_g = next((c for _, c in POSTS if "Roles & Pings" in c), "")
+_welc_g = next((c for _, c in POSTS if "Welcome to Prime Arena" in c), "")
 check("roles guide: 3-step how-to + all news ping roles",
       "Channels & Roles" in _roles_g and "1️⃣" in _roles_g and
       "News Pings" in _roles_g and "Digest Ping" in _roles_g)
@@ -1062,6 +1064,11 @@ if deploy_bots:
           all(w not in deploy_bots.DISPATCH for w in ("quiz.yml", "debate.yml", "spotlight.yml", "clip.yml")))
     check("predictions + fightnight dispatch on deploy (safe no-ops)",
           "predictions.yml" in deploy_bots.DISPATCH and "fightnight.yml" in deploy_bots.DISPATCH)
+    check("uploads are CI-quiet + ONE selftest dispatched on the final tree "
+          "(mid-deploy old-test/new-code races caused run 972892a)",
+          "selftest.yml" in deploy_bots.DISPATCH and
+          "[skip ci]" in open(os.path.join(_HERE, "deploy_bots.py"), encoding="utf-8").read()
+          .split('body = {"message": "add " + repo_path')[1][:40])
 
 # ───────────────────────── 14. predictions_bot (pick'em) ───────────────────
 print("\n[predictions_bot]")
