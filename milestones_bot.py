@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - Bot #5: Creator milestone bot.
+"""Prime Arena - Bot #5: Creator milestone bot.
 
 Polls iBoyPrime's follower/subscriber counts and celebrates when a round
 milestone is crossed (1K, 5K, 10K, 25K, 100K...), posting to #server-updates.
