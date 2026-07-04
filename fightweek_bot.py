@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - Bot #4: Fight-week hub.
+"""Prime Arena - Bot #4: Fight-week hub.
 
 A few days before each UFC/PFL/Bellator card it opens a thread in the
 🗓️-fight-week forum with:
