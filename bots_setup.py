@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - setup for the cron bots (std-lib only, safe to re-run).
+"""Prime Arena - setup for the cron bots (std-lib only, safe to re-run).
 
 Consolidates everything into the single '🥊 MMA & COMBAT SPORTS' category:
   * ensures the feed channels (mma-news, rankings, on-this-day) + fight-week
