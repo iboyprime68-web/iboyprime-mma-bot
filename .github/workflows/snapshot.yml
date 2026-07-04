@@ -1,0 +1,30 @@
+name: Config Snapshot
+on:
+  schedule:
+    - cron: '23 4 * * *'   # nightly; commits only on real config drift
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bot-snapshot
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Capture the nightly config snapshot + member count
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: python snapshot_bot.py
+      - name: Save state
+        run: |
+          git config user.name "iboyprime-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add snapshot_config.json state_snapshot.json 2>/dev/null || true
+          git commit -m "config snapshot [skip ci]" || echo "no changes"
+          git push || true
