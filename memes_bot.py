@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - Meme bot: a couple of funny memes a day in #memes.
+"""Prime Arena - Meme bot: a couple of funny memes a day in #memes.
 
 Pulls top image memes of the day from a curated set of funny/dark-internet-humor
 subreddits and posts a few to the memes channel. Fully automated.
