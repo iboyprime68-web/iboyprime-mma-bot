@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=316575",
     "https://bloodyelbow.com/?p=316580",
     "https://bloodyelbow.com/?p=316582",
     "https://bloodyelbow.com/?p=316596",
@@ -833,6 +832,7 @@
     "https://www.mmafighting.com/?p=498305",
     "https://www.mmafighting.com/?p=498323",
     "https://www.mmafighting.com/?p=498329",
+    "https://www.mmafighting.com/?p=498335",
     "https://www.mmafighting.com/?p=498337",
     "https://www.mmafighting.com/?p=498362",
     "https://www.mmafighting.com/?p=498378",
@@ -1555,6 +1555,10 @@
     {
       "t": "Conor McGregor makes Max Holloway wait for intense final face-off ahead of UFC 329",
       "ts": "2026-07-11T02:30:14+00:00"
+    },
+    {
+      "t": "UFC 329 Results: McGregor vs. Holloway 2",
+      "ts": "2026-07-11T02:31:19+00:00"
     }
   ],
   "digest_items": [
@@ -1627,11 +1631,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-11T02:30:14+00:00"
+    },
+    {
+      "title": "UFC 329 Results: McGregor vs. Holloway 2",
+      "url": "https://www.mmafighting.com/ufc/498335/ufc-329-results-mcgregor-vs-holloway-2",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-11T02:31:19+00:00"
     }
   ],
   "digest_last": "2026-07-10 21:30",
   "hour": [
     "2026-07-11T04",
-    1
+    2
   ]
 }
