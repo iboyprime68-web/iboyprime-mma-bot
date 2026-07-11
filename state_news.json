@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=316548",
     "https://bloodyelbow.com/?p=316555",
     "https://bloodyelbow.com/?p=316565",
     "https://bloodyelbow.com/?p=316575",
@@ -840,6 +839,7 @@
     "https://www.mmafighting.com/?p=498378",
     "https://www.mmafighting.com/?p=498394",
     "https://www.mmafighting.com/?p=498424",
+    "https://www.mmafighting.com/?p=498478",
     "https://www.mmamania.com/454268/ufc-328s-best-betting-props-parlays-and-picks-khamzat-vs-strickland",
     "https://www.mmamania.com/454674/mania-mailbag-prates-or-prochazka-at-ufc-1",
     "https://www.mmamania.com/454899/open-thread-july-3-2026",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Conor McGregor is ‘abstaining from physical touch’ before UFC comeback fight",
-      "ts": "2026-07-09T02:00:00+00:00"
-    },
     {
       "t": "UFC 329’s Gable Steveson vows to beat Elisha Ellison ‘in the worst way possible’ &#8211; ‘I don’t want him to fight again’",
       "ts": "2026-07-09T02:32:41+00:00"
@@ -1575,6 +1571,10 @@
     {
       "t": "Paddy Pimblett ranks 14th in strength of schedule list for all UFC 329 fighters",
       "ts": "2026-07-11T01:00:00+00:00"
+    },
+    {
+      "t": "Max Holloway delivers message to Conor McGregor after final UFC 329 faceoff: ‘If this guy’s a missile, I’m a f*cking nuke’",
+      "ts": "2026-07-11T01:59:52+00:00"
     }
   ],
   "digest_items": [
@@ -1626,11 +1626,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-11T01:00:00+00:00"
+    },
+    {
+      "title": "Max Holloway delivers message to Conor McGregor after final UFC 329 faceoff: ‘If this guy’s a missile, I’m a fcking nuke’",
+      "url": "https://www.mmafighting.com/ufc/498478/max-holloway-delivers-message-to-conor-mcgregor-after-final-ufc-329-faceoff-if-this-guys-a-missile-im-a-fcking-nuke",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-11T01:59:52+00:00"
     }
   ],
   "digest_last": "2026-07-10 21:30",
   "hour": [
-    "2026-07-11T01",
+    "2026-07-11T02",
     1
   ]
 }
