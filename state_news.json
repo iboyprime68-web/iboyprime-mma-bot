@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317742",
     "https://bloodyelbow.com/?p=317745",
     "https://bloodyelbow.com/?p=317751",
     "https://bloodyelbow.com/?p=317756",
@@ -796,6 +795,7 @@
     "https://www.mmafighting.com/?p=499065",
     "https://www.mmafighting.com/?p=499071",
     "https://www.mmafighting.com/?p=499094",
+    "https://www.mmafighting.com/?p=499122",
     "https://www.mmafighting.com/?p=499125",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC 329 Results: McGregor vs. Holloway 2",
-      "ts": "2026-07-11T02:31:19+00:00"
-    },
     {
       "t": "What happened in Benoit Saint-Denis’ UFC debut left legendary referee ‘screaming at the TV’",
       "ts": "2026-07-11T03:00:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC 329 results: Biggest winners, loser from ‘McGregor vs. Holloway 2’ last night",
       "ts": "2026-07-12T06:12:26+00:00"
+    },
+    {
+      "t": "Jake Paul mocks Conor McGregor after injury ends his comeback at UFC 329",
+      "ts": "2026-07-12T07:48:42+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Highlights! Adrian Yanez dispatches former champ Cody Garbrandt in vicious flurry of punches &124; UFC 329",
-      "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456415/highlights-adrian-yanez-dispatches-former-champ-cody-garbrandt-in-vicious-flurry-of-punches-ufc-329",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-07-11T23:56:49+00:00"
-    },
     {
       "title": "UFC 329 video: Adrian Yanez batters Cody Garbrandt for brutal 1st-round knockout",
       "url": "https://www.mmafighting.com/ufc/498693/ufc-329-video-adrian-yanez-batters-cody-garbrandt-for-brutal-1st-round-knockout",
@@ -2105,11 +2098,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-07-12T06:12:26+00:00"
+    },
+    {
+      "title": "Jake Paul mocks Conor McGregor after injury ends his comeback at UFC 329",
+      "url": "https://www.mmafighting.com/ufc/499122/jake-paul-mocks-conor-mcgregor-after-injury-ends-his-comeback-at-ufc-329",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-12T07:48:42+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T11",
-    2
+    3
   ]
 }
