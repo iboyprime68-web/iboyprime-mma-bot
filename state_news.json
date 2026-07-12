@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317833",
     "https://bloodyelbow.com/?p=317846",
     "https://bloodyelbow.com/?p=317851",
     "https://bloodyelbow.com/?p=317854",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=456741",
     "https://www.mmamania.com/?p=456772",
     "https://www.mmamania.com/?p=456778",
+    "https://www.mmamania.com/?p=456787",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC 329’s Conor McGregor advises ‘unlucky’ Alex Pereira to move on from Ciryl Gane loss: ‘Back of the head’",
-      "ts": "2026-07-11T13:00:21+00:00"
-    },
     {
       "t": "Open Thread, July 11, 2026: Are we pumped for The Odyssey?",
       "ts": "2026-07-11T12:37:40+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Paddy Pimblett told his coach he would retire if he couldn’t beat Benoit Saint-Denis at UFC 329",
       "ts": "2026-07-12T16:45:00+00:00"
+    },
+    {
+      "t": "Victorious Paddy Pimblett ready to submit Charles Oliveira for a title shot: 'He's on his way out'",
+      "ts": "2026-07-12T15:40:45+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 329 live blog: Benoit Saint Denis vs. Paddy Pimblett",
-      "url": "https://www.mmafighting.com/ufc/498568/ufc-329-live-blog-benoit-saint-denis-vs-paddy-pimblett",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-07-12T03:25:01+00:00"
-    },
     {
       "title": "UFC 329 video: Paddy Pimblett puts Benoit Saint Denis to sleep with D’arce choke in just 52 seconds",
       "url": "https://www.mmafighting.com/ufc/498865/ufc-329-video-paddy-pimblett-puts-benoit-saint-denis-to-sleep-with-darce-choke-in-just-52-seconds",
@@ -2105,11 +2098,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-12T16:45:00+00:00"
+    },
+    {
+      "title": "Victorious Paddy Pimblett ready to submit Charles Oliveira for a title shot: 'He's on his way out'",
+      "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456787/victorious-paddy-pimblett-ready-to-submit-charles-oliveira-for-a-title-shot-hes-on-his-way-out",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-12T15:40:45+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
-    "2026-07-12T16",
-    4
+    "2026-07-12T17",
+    1
   ]
 }
