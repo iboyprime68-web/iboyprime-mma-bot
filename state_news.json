@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317932",
     "https://bloodyelbow.com/?p=317937",
     "https://bloodyelbow.com/?p=317940",
     "https://bloodyelbow.com/?p=317947",
@@ -946,6 +945,7 @@
     "https://www.mmamania.com/?p=456778",
     "https://www.mmamania.com/?p=456787",
     "https://www.mmamania.com/?p=456796",
+    "https://www.mmamania.com/?p=456798",
     "https://www.mmamania.com/?p=456824",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Conor McGregor’s April 2027 fight date was included in new deal to stop UFC ‘gamesmanship’",
-      "ts": "2026-07-11T18:30:00+00:00"
-    },
     {
       "t": "Robert Whittaker may anger Dana White as he rejects ever fighting friend Carlos Ulberg after UFC 329",
       "ts": "2026-07-11T19:00:00+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "UFC BJJ champ Mikey Musumeci moves up in weight to face Bryce Mitchell in September",
       "ts": "2026-07-12T16:02:15+00:00"
+    },
+    {
+      "t": "UFC 329 results: Matches to make for ‘McGregor vs. Holloway 2’ main card winners",
+      "ts": "2026-07-12T21:14:55+00:00"
     }
   ],
   "digest_items": [
@@ -1720,11 +1720,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-12T16:02:15+00:00"
+    },
+    {
+      "title": "UFC 329 results: Matches to make for ‘McGregor vs. Holloway 2’ main card winners",
+      "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456798/ufc-329-results-matches-to-make-for-mcgregor-vs-holloway-2-main-card-winners",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-12T21:14:55+00:00"
     }
   ],
   "digest_last": "2026-07-12 21:30",
   "hour": [
     "2026-07-12T23",
-    3
+    4
   ]
 }
