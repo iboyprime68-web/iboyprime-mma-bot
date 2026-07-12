@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317819",
     "https://bloodyelbow.com/?p=317825",
     "https://bloodyelbow.com/?p=317828",
     "https://bloodyelbow.com/?p=317833",
@@ -788,6 +787,7 @@
     "https://www.mmafighting.com/?p=499065",
     "https://www.mmafighting.com/?p=499071",
     "https://www.mmafighting.com/?p=499086",
+    "https://www.mmafighting.com/?p=499088",
     "https://www.mmafighting.com/?p=499094",
     "https://www.mmafighting.com/?p=499110",
     "https://www.mmafighting.com/?p=499122",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Nate Diaz chimes in on Conor McGregor’s return to face Max Holloway after he rejected trilogy",
-      "ts": "2026-07-11T12:30:00+00:00"
-    },
     {
       "t": "Umar Nurmagomedov speaks out after his supporters clash with Merab Dvalishvili in Georgia",
       "ts": "2026-07-11T13:00:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Max Holloway showed restraint against Conor McGregor at UFC 329 because his kids were in the crowd",
       "ts": "2026-07-12T16:00:00+00:00"
+    },
+    {
+      "t": "Dana White rips UFC production team after misidentifying celebrity during broadcast: ‘We’re the worst ever to f*cking do it’",
+      "ts": "2026-07-12T15:56:32+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 329 results: Mario Bautista badly damages Cory Sandhagen’s leg, gets his revenge with unanimous decision win",
-      "url": "https://www.mmafighting.com/ufc/498837/ufc-329-results-mario-bautista-badly-damages-cory-sandhagens-leg-gets-his-revenge-with-unanimous-decision-win",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-07-12T02:58:19+00:00"
-    },
     {
       "title": "Paddy Pimblett vs Benoit Saint-Denis UFC 329 result: ‘The Baddy’ chokes rival unconscious inside a minute",
       "url": "https://bloodyelbow.com/2026/07/11/paddy-pimblett-vs-benoit-saint-denis-ufc-329-result-the-baddy-wins-stunning-comeback-in-less-than-a-minute/",
@@ -2105,11 +2098,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-12T16:00:00+00:00"
+    },
+    {
+      "title": "Dana White rips UFC production team after misidentifying celebrity during broadcast: ‘We’re the worst ever to fcking do it’",
+      "url": "https://www.mmafighting.com/ufc/499088/dana-white-rips-ufc-production-team-after-misidentifying-celebrity-during-broadcast-were-the-worst-ever-to-fcking-do-it",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-12T15:56:32+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T16",
-    1
+    2
   ]
 }
