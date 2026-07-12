@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317665",
     "https://bloodyelbow.com/?p=317682",
     "https://bloodyelbow.com/?p=317696",
     "https://bloodyelbow.com/?p=317710",
@@ -800,6 +799,7 @@
     "https://www.mmafighting.com/?p=499065",
     "https://www.mmafighting.com/?p=499071",
     "https://www.mmafighting.com/?p=499094",
+    "https://www.mmafighting.com/?p=499125",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/454268/ufc-328s-best-betting-props-parlays-and-picks-khamzat-vs-strickland",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Video: UFC 329: Conor McGregor vs. Max Holloway 2 cold open",
-      "ts": "2026-07-10T20:07:49+00:00"
-    },
     {
       "t": "Drake curse alert! Canadian rapper drops $1 million bet on outcome of Conor McGregor vs. Max Holloway at UFC 329",
       "ts": "2026-07-10T22:28:53+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Conor McGregor’s coach John Kavanagh details the moment UFC 329 injury happened",
       "ts": "2026-07-12T08:02:06+00:00"
+    },
+    {
+      "t": "UFC 329 post-fight show: Reaction to Conor McGregor’s disastrous injury, Holloway and Pimblett wins",
+      "ts": "2026-07-12T08:17:11+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 329 video: Ryan Gandra crushes Zach Reese for 75-second knockout",
-      "url": "https://www.mmafighting.com/ufc/498620/ufc-329-video-ryan-gandra-crushes-zach-reese-for-75-second-knockout",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-07-11T21:39:35+00:00"
-    },
     {
       "title": "Highlights! Damian Pinas starches Cesar Almeida in incredible one-punch KO&124; UFC 329",
       "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456414/highlights-damian-pinas-starches-cesar-almeida-in-incredible-one-punch-ko-ufc-329",
@@ -2105,11 +2098,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-12T08:02:06+00:00"
+    },
+    {
+      "title": "UFC 329 post-fight show: Reaction to Conor McGregor’s disastrous injury, Holloway and Pimblett wins",
+      "url": "https://www.mmafighting.com/ufc/499125/ufc-329-post-fight-show-reaction-to-conor-mcgregors-disastrous-injury-holloway-and-pimblett-wins",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-12T08:17:11+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
-    "2026-07-12T08",
-    2
+    "2026-07-12T09",
+    1
   ]
 }
