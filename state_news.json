@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317244",
     "https://bloodyelbow.com/?p=317247",
     "https://bloodyelbow.com/?p=317251",
     "https://bloodyelbow.com/?p=317254",
@@ -504,6 +503,7 @@
     "https://www.mmafighting.com/497715/dnp-morning-report-template-dnp",
     "https://www.mmafighting.com/497960/dnp-morning-report-template-dnp",
     "https://www.mmafighting.com/498083/dnp-morning-report-template-dnp",
+    "https://www.mmafighting.com/498554/ufc-328-live-blog-king-green-vs-jeremy-stephens",
     "https://www.mmafighting.com/498557/ufc-329-live-blog-king-green-vs-terrance-mckinney",
     "https://www.mmafighting.com/498561/ufc-329-live-blog",
     "https://www.mmafighting.com/?p=474919",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Conor McGregor slams Max Holloway’s glasses to ground in intense UFC 329 staredown",
-      "ts": "2026-07-10T02:50:44+00:00"
-    },
-    {
       "t": "Conor McGregor and Max Holloway dragged apart in fiery first face-off after 13 years before UFC 329",
       "ts": "2026-07-10T02:52:40+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "UFC 329 video: Gable Steveson lays waste to Elisha Ellison with brutal first-round knockout in octagon debut",
       "ts": "2026-07-12T00:27:27+00:00"
+    },
+    {
+      "t": "UFC 329 live blog: King Green vs. Terrance McKinney",
+      "ts": "2026-07-12T00:56:17+00:00"
     }
   ],
   "digest_items": [
@@ -1790,11 +1790,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-12T00:27:27+00:00"
+    },
+    {
+      "title": "UFC 329 live blog: King Green vs. Terrance McKinney",
+      "url": "https://www.mmafighting.com/ufc/498554/ufc-329-live-blog-king-green-vs-terrance-mckinney",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-12T00:56:17+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T01",
-    1
+    2
   ]
 }
