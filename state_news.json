@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317804",
     "https://bloodyelbow.com/?p=317810",
     "https://bloodyelbow.com/?p=317815",
     "https://bloodyelbow.com/?p=317819",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=456740",
     "https://www.mmamania.com/?p=456741",
     "https://www.mmamania.com/?p=456772",
+    "https://www.mmamania.com/?p=456778",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Fans split 60:40 in final prediction for Conor McGregor vs Max Holloway 2 at UFC 329",
-      "ts": "2026-07-11T11:00:00+00:00"
-    },
     {
       "t": "Jon Jones tells Alex Pereira that Dana White was ‘trying to take everything’ from him before UFC Freedom 250",
       "ts": "2026-07-11T12:00:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Paddy Pimblett perfectly predicted how Benoit Saint Denis fight would go the day before UFC 329",
       "ts": "2026-07-12T15:00:00+00:00"
+    },
+    {
+      "t": "Conor McGregor's coach makes statement following 'devastating' UFC 329 loss: 'Doesn't get worse than this'",
+      "ts": "2026-07-12T14:36:02+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 329 video: King Green survives early onslaught, rallies back to finish Terrance McKinney in first round",
-      "url": "https://www.mmafighting.com/ufc/498770/ufc-329-video-king-green-survives-early-onslaught-rallies-back-to-finish-terrance-mckinney-in-first-round",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-07-12T01:42:45+00:00"
-    },
     {
       "title": "‘As a singer’… Noel Gallagher reacts to Conor McGregor’s Wonderwall rendition at UFC 329",
       "url": "https://bloodyelbow.com/2026/07/11/as-a-singer-noel-gallagher-reacts-to-conor-mcgregors-wonderwall-rendition-at-ufc-329/",
@@ -2105,11 +2098,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-12T15:00:00+00:00"
+    },
+    {
+      "title": "Conor McGregor's coach makes statement following 'devastating' UFC 329 loss: 'Doesn't get worse than this'",
+      "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456778/conor-mcgregors-coach-makes-statement-following-devastating-ufc-329-loss-doesnt-get-worse-than-this",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-12T14:36:02+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T15",
-    2
+    3
   ]
 }
