@@ -1,7 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317542",
-    "https://bloodyelbow.com/?p=317545",
     "https://bloodyelbow.com/?p=317557",
     "https://bloodyelbow.com/?p=317563",
     "https://bloodyelbow.com/?p=317572",
@@ -483,6 +481,7 @@
     "https://www.mmafighting.com/498557/ufc-329-live-blog-king-green-vs-terrance-mckinney",
     "https://www.mmafighting.com/498561/ufc-329-live-blog",
     "https://www.mmafighting.com/498563/ufc-329-live-blog",
+    "https://www.mmafighting.com/498565/ufc-329-live-blog",
     "https://www.mmafighting.com/498568/ufc-329-live-blog",
     "https://www.mmafighting.com/498570/ufc-329-live-blog",
     "https://www.mmafighting.com/?p=474919",
@@ -799,6 +798,7 @@
     "https://www.mmafighting.com/?p=498698",
     "https://www.mmafighting.com/?p=498740",
     "https://www.mmafighting.com/?p=498770",
+    "https://www.mmafighting.com/?p=498803",
     "https://www.mmafighting.com/?p=498807",
     "https://www.mmafighting.com/?p=498812",
     "https://www.mmafighting.com/?p=498837",
@@ -1204,14 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Gable Steveson outweighs UFC 329 opponent despite being over 20 pounds under the heavyweight limit",
-      "ts": "2026-07-10T16:45:26+00:00"
-    },
-    {
-      "t": "UFC 329 weigh-in results: Conor McGregor makes weight for 1st fight since 2021",
-      "ts": "2026-07-10T16:57:19+00:00"
-    },
     {
       "t": "Paddy Pimblett’s UFC title hopes doubted by almost 50% of fans after how he lost to Justin Gaethje",
       "ts": "2026-07-10T17:00:00+00:00"
@@ -1683,6 +1675,14 @@
     {
       "t": "Pre-existing injury? Video captures Conor McGregor stumbling prior to fight-ruining knee injury at UFC 329",
       "ts": "2026-07-12T04:36:58+00:00"
+    },
+    {
+      "t": "UFC 329 video: Brandon Royval taps Lone’er Kavanagh with rear-naked choke after wild back-and-forth fight",
+      "ts": "2026-07-12T02:22:30+00:00"
+    },
+    {
+      "t": "UFC 329 live blog: Cory Sandhagen vs. Mario Bautista 2",
+      "ts": "2026-07-12T02:47:04+00:00"
     }
   ],
   "digest_items": [
@@ -1993,6 +1993,20 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-07-12T04:36:58+00:00"
+    },
+    {
+      "title": "UFC 329 video: Brandon Royval taps Lone’er Kavanagh with rear-naked choke after wild back-and-forth fight",
+      "url": "https://www.mmafighting.com/ufc/498803/ufc-329-video-brandon-royval-taps-loneer-kavanagh-with-rear-naked-choke-after-wild-back-and-forth-fight",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-12T02:22:30+00:00"
+    },
+    {
+      "title": "UFC 329 live blog: Cory Sandhagen vs. Mario Bautista 2",
+      "url": "https://www.mmafighting.com/ufc/498565/ufc-329-live-blog-cory-sandhagen-vs-mario-bautista-2",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-12T02:47:04+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
