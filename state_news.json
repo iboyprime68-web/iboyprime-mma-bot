@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317861",
     "https://bloodyelbow.com/?p=317866",
     "https://bloodyelbow.com/?p=317871",
     "https://bloodyelbow.com/?p=317876",
@@ -789,6 +788,7 @@
     "https://www.mmafighting.com/?p=499088",
     "https://www.mmafighting.com/?p=499094",
     "https://www.mmafighting.com/?p=499110",
+    "https://www.mmafighting.com/?p=499111",
     "https://www.mmafighting.com/?p=499122",
     "https://www.mmafighting.com/?p=499125",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Security intervene as shirtless UFC 329 fan clashes with legends Daniel Cormier and Chris Weidman",
-      "ts": "2026-07-11T14:30:00+00:00"
-    },
     {
       "t": "Dana White says UFC 329 win would be Conor McGregor’s greatest achievement: ‘Nobody’s ever done it’",
       "ts": "2026-07-11T15:00:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Sean Strickland shares theory on Conor McGregor’s injury cause: ‘It does weaken everything…’",
       "ts": "2026-07-12T18:00:00+00:00"
+    },
+    {
+      "t": "How Fever star Sophie Cunningham became an octagon girl at UFC 329",
+      "ts": "2026-07-12T06:30:31+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Conor McGregor vs Max Holloway UFC 329 result: Notorious’ comeback ends in disaster as leg injured again",
-      "url": "https://bloodyelbow.com/2026/07/11/conor-mcgregor-vs-max-holloway-ufc-329-result-notorious-comeback-ends-in-disaster-as-leg-injured-again/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-07-12T03:42:01+00:00"
-    },
     {
       "title": "Highlights! Conor McGregor immediately destroys his knee after five years on the sidelines &124; UFC 329",
       "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456541/highlights-conor-mcgregor-immediately-destroys-his-knee-after-five-years-on-the-sidelines-ufc-329",
@@ -2105,11 +2098,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-12T18:00:00+00:00"
+    },
+    {
+      "title": "How Fever star Sophie Cunningham became an octagon girl at UFC 329",
+      "url": "https://www.mmafighting.com/ufc/499111/how-fever-star-sophie-cunningham-became-an-octagon-girl-at-ufc-329",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-12T06:30:31+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T18",
-    1
+    2
   ]
 }
