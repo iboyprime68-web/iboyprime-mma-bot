@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317330",
     "https://bloodyelbow.com/?p=317335",
     "https://bloodyelbow.com/?p=317338",
     "https://bloodyelbow.com/?p=317348",
@@ -852,6 +851,7 @@
     "https://www.mmamania.com/456462/highlights-open-ufc-329",
     "https://www.mmamania.com/456465/time-check-official-ilia-topuria-vs-max-holloway-main-event-start-time-ufc-308",
     "https://www.mmamania.com/456537/highlights-open-ufc-329",
+    "https://www.mmamania.com/456539/highlights-open-ufc-329",
     "https://www.mmamania.com/?p=405991",
     "https://www.mmamania.com/?p=444863",
     "https://www.mmamania.com/?p=454646",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Dana White reveals he has ‘five scenarios in his head’ for Conor McGregor after UFC 329",
-      "ts": "2026-07-10T07:10:33+00:00"
-    },
     {
       "t": "Paddy Pimblett vs. Benoit Saint-Denis: Bloody Elbow staff predict the UFC 329 co-main event",
       "ts": "2026-07-10T08:00:00+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Paddy Pimblett vs Benoit Saint-Denis UFC 329 result: ‘The Baddy’ chokes rival unconscious inside a minute",
       "ts": "2026-07-12T03:11:59+00:00"
+    },
+    {
+      "t": "Highlights! Paddy Pimblett immediately sleeps Benoit Saint-Denis with super slick strangle &#124; UFC 329",
+      "ts": "2026-07-12T03:20:06+00:00"
     }
   ],
   "digest_items": [
@@ -1867,11 +1867,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-12T03:11:59+00:00"
+    },
+    {
+      "title": "Highlights! Paddy Pimblett immediately sleeps Benoit Saint-Denis with super slick strangle &124; UFC 329",
+      "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456539/highlights-paddy-pimblett-immediately-sleeps-benoit-saint-denis-with-super-slick-strangle-ufc-329",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-12T03:20:06+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T04",
-    4
+    5
   ]
 }
