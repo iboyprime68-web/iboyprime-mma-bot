@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317251",
     "https://bloodyelbow.com/?p=317254",
     "https://bloodyelbow.com/?p=317265",
     "https://bloodyelbow.com/?p=317267",
@@ -817,6 +816,7 @@
     "https://www.mmafighting.com/?p=498666",
     "https://www.mmafighting.com/?p=498693",
     "https://www.mmafighting.com/?p=498698",
+    "https://www.mmafighting.com/?p=498740",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/454268/ufc-328s-best-betting-props-parlays-and-picks-khamzat-vs-strickland",
     "https://www.mmamania.com/454269/ufc-328-live-results-highlights-play-by-play-khamzat-vs-strickland",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Conor McGregor was compared to ‘young Muhammad Ali’ by MMA GOAT just 3 fights into his UFC career",
-      "ts": "2026-07-10T03:00:00+00:00"
-    },
     {
       "t": "Paddy Pimblett and Benoit Saint-Denis keep it civil in head-to-head at UFC 329 press conference",
       "ts": "2026-07-10T03:04:09+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Highlights! Robert Whittaker cracks Nikita Krylov’s jaw in successful 205-pound debut &#124; UFC 329",
       "ts": "2026-07-12T01:01:48+00:00"
+    },
+    {
+      "t": "UFC 329 video: Robert Whittaker potentially breaks Nikita Krylov’s jaw in light heavyweight debut",
+      "ts": "2026-07-12T01:03:05+00:00"
     }
   ],
   "digest_items": [
@@ -1804,11 +1804,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-07-12T01:01:48+00:00"
+    },
+    {
+      "title": "UFC 329 video: Robert Whittaker potentially breaks Nikita Krylov’s jaw in light heavyweight debut",
+      "url": "https://www.mmafighting.com/ufc/498740/ufc-329-video-robert-whittaker-potentially-breaks-nikita-krylovs-jaw-in-light-heavyweight-debut",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-12T01:03:05+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T01",
-    3
+    4
   ]
 }
