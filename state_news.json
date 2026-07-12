@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317557",
     "https://bloodyelbow.com/?p=317563",
     "https://bloodyelbow.com/?p=317572",
     "https://bloodyelbow.com/?p=317575",
@@ -946,6 +945,7 @@
     "https://www.mmamania.com/?p=456365",
     "https://www.mmamania.com/?p=456512",
     "https://www.mmamania.com/?p=456554",
+    "https://www.mmamania.com/?p=456651",
     "https://www.mmamania.com/?p=456673",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Paddy Pimblett’s UFC title hopes doubted by almost 50% of fans after how he lost to Justin Gaethje",
-      "ts": "2026-07-10T17:00:00+00:00"
-    },
     {
       "t": "Conor McGregor before and after pics: Here’s what his five-year absence looked like at UFC 329 weigh ins",
       "ts": "2026-07-10T17:39:09+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "UFC 329 live blog: Cory Sandhagen vs. Mario Bautista 2",
       "ts": "2026-07-12T02:47:04+00:00"
+    },
+    {
+      "t": "Conor McGregor injuring himself at UFC 329 was the ‘biggest disappointment in combat sports history’",
+      "ts": "2026-07-12T05:05:34+00:00"
     }
   ],
   "digest_items": [
@@ -2007,11 +2007,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-12T02:47:04+00:00"
+    },
+    {
+      "title": "Conor McGregor injuring himself at UFC 329 was the ‘biggest disappointment in combat sports history’",
+      "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456651/conor-mcgregor-injuring-himself-at-ufc-329-was-the-biggest-disappointment-in-combat-sports-history",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-12T05:05:34+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
-    "2026-07-12T04",
-    6
+    "2026-07-12T05",
+    1
   ]
 }
