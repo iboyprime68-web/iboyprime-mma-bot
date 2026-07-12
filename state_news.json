@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317871",
     "https://bloodyelbow.com/?p=317876",
     "https://bloodyelbow.com/?p=317880",
     "https://bloodyelbow.com/?p=317882",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=456772",
     "https://www.mmamania.com/?p=456778",
     "https://www.mmamania.com/?p=456787",
+    "https://www.mmamania.com/?p=456796",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Highlights! Former WWE champ Jake Hager brutally KO’d in Power Slap",
-      "ts": "2026-07-11T15:20:50+00:00"
-    },
     {
       "t": "Max Holloway will move above 5 legends in race for UFC record as soon as round 1 starts at UFC 329",
       "ts": "2026-07-11T16:00:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White confirms but refuses to elaborate on UFC wellness program following Dustin Poirier arrest",
       "ts": "2026-07-12T19:00:00+00:00"
+    },
+    {
+      "t": "Gable Steveson reflects on his successful UFC 329 debut: 'No takedowns necessary for that win'",
+      "ts": "2026-07-12T19:10:26+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Again?!?! Conor McGregor blows out knee on first kick, Max Holloway wins rematch &124; UFC 329",
-      "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456512/conor-mcgregor-vs-max-holloway-2-live-fight-updates-ufc-329",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-07-12T04:01:18+00:00"
-    },
     {
       "title": "Slow-motion footage shows moment Conor McGregor’s knee blew out in 69-second loss at UFC 329",
       "url": "https://bloodyelbow.com/2026/07/12/slow-motion-footage-shows-moment-conor-mcgregors-knee-blew-out-in-69-second-loss-at-ufc-329/",
@@ -2105,11 +2098,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-12T19:00:00+00:00"
+    },
+    {
+      "title": "Gable Steveson reflects on his successful UFC 329 debut: 'No takedowns necessary for that win'",
+      "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456796/gable-steveson-reflects-on-his-successful-ufc-329-debut-no-takedowns-necessary-for-that-win",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-12T19:10:26+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T19",
-    1
+    2
   ]
 }
