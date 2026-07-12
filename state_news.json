@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317917",
     "https://bloodyelbow.com/?p=317925",
     "https://bloodyelbow.com/?p=317932",
     "https://bloodyelbow.com/?p=317937",
@@ -927,6 +926,7 @@
     "https://www.mmamania.com/?p=456329",
     "https://www.mmamania.com/?p=456346",
     "https://www.mmamania.com/?p=456365",
+    "https://www.mmamania.com/?p=456440",
     "https://www.mmamania.com/?p=456512",
     "https://www.mmamania.com/?p=456527",
     "https://www.mmamania.com/?p=456554",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "RAF Georgia crowd boos and chants Ilia Topuria’s name as Arman Tsarukyan ragdolls another opponent",
-      "ts": "2026-07-11T17:45:00+00:00"
-    },
     {
       "t": "New footage reveals Merab Dvalishvili threw the first punch in RAF brawl",
       "ts": "2026-07-11T16:48:47+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Machine Gun Kelly mocks Conor McGregor after his brutal UFC 329 injury as he continues historic feud",
       "ts": "2026-07-12T23:00:00+00:00"
+    },
+    {
+      "t": "Rookie Report Card: Grading all Octagon newcomers UFC 329 post-mortem",
+      "ts": "2026-07-12T10:21:38+00:00"
     }
   ],
   "digest_items": [
@@ -1706,11 +1706,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-12T23:00:00+00:00"
+    },
+    {
+      "title": "Rookie Report Card: Grading all Octagon newcomers UFC 329 post-mortem",
+      "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456440/rookie-report-card-grading-all-octagon-newcomers-ufc-329-post-mortem",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-12T10:21:38+00:00"
     }
   ],
   "digest_last": "2026-07-12 21:30",
   "hour": [
     "2026-07-12T23",
-    1
+    2
   ]
 }
