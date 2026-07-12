@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317602",
     "https://bloodyelbow.com/?p=317618",
     "https://bloodyelbow.com/?p=317622",
     "https://bloodyelbow.com/?p=317630",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=456651",
     "https://www.mmamania.com/?p=456673",
     "https://www.mmamania.com/?p=456708",
+    "https://www.mmamania.com/?p=456714",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC 329 gate hits record-breaking $25 million behind return of Conor McGregor",
-      "ts": "2026-07-10T19:25:19+00:00"
-    },
     {
       "t": "Jon Jones admits Gable Steveson ‘makes him miss fighting’ as pair train for UFC 329",
       "ts": "2026-07-10T19:30:00+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Conor McGregor breaks silence after devastating UFC 329 injury derails comeback: ‘I can only describe it as hell’",
       "ts": "2026-07-12T05:53:56+00:00"
+    },
+    {
+      "t": "This is ‘hell’ &#8211; Conor McGregor breaks silence on UFC 329 loss, claims no pre-fight injury",
+      "ts": "2026-07-12T06:19:10+00:00"
     }
   ],
   "digest_items": [
@@ -2056,11 +2056,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-12T05:53:56+00:00"
+    },
+    {
+      "title": "This is ‘hell’ &8211; Conor McGregor breaks silence on UFC 329 loss, claims no pre-fight injury",
+      "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456714/this-is-hell-conor-mcgregor-breaks-silence-on-ufc-329-loss-claims-no-pre-fight-injury",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-12T06:19:10+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T07",
-    3
+    4
   ]
 }
