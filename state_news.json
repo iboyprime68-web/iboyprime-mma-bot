@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317909",
     "https://bloodyelbow.com/?p=317914",
     "https://bloodyelbow.com/?p=317917",
     "https://bloodyelbow.com/?p=317925",
@@ -788,6 +787,7 @@
     "https://www.mmafighting.com/?p=499122",
     "https://www.mmafighting.com/?p=499125",
     "https://www.mmafighting.com/?p=499155",
+    "https://www.mmafighting.com/?p=499225",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/454268/ufc-328s-best-betting-props-parlays-and-picks-khamzat-vs-strickland",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "RAF Georgia live stream results, discussion and video highlights &#124; Merab vs. Cejudo",
-      "ts": "2026-07-11T17:04:50+00:00"
-    },
     {
       "t": "New footage shows the moment Merab Dvalishvili slapped Umar Nurmagomedov’s wrestling champion friend",
       "ts": "2026-07-11T17:30:00+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Brandon Royval gained insight into UFC 329 opponent Lone’er Kavanagh by signing up to his email list",
       "ts": "2026-07-12T22:00:00+00:00"
+    },
+    {
+      "t": "Brandon Moreno vs. Joseph Morales set for Noche UFC 4",
+      "ts": "2026-07-12T21:38:25+00:00"
     }
   ],
   "digest_items": [
@@ -1692,11 +1692,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-12T22:00:00+00:00"
+    },
+    {
+      "title": "Brandon Moreno vs. Joseph Morales set for Noche UFC 4",
+      "url": "https://www.mmafighting.com/ufc/499225/brandon-moreno-vs-joseph-morales-set-for-noche-ufc-4",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-12T21:38:25+00:00"
     }
   ],
   "digest_last": "2026-07-12 21:30",
   "hour": [
     "2026-07-12T22",
-    1
+    2
   ]
 }
