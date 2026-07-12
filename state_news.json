@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317652",
     "https://bloodyelbow.com/?p=317660",
     "https://bloodyelbow.com/?p=317665",
     "https://bloodyelbow.com/?p=317682",
@@ -940,6 +939,7 @@
     "https://www.mmamania.com/?p=456346",
     "https://www.mmamania.com/?p=456365",
     "https://www.mmamania.com/?p=456512",
+    "https://www.mmamania.com/?p=456527",
     "https://www.mmamania.com/?p=456554",
     "https://www.mmamania.com/?p=456651",
     "https://www.mmamania.com/?p=456663",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Tracy Cortez ‘honored’ to be on Conor McGregor’s return card following lack of showcase women’s bouts",
-      "ts": "2026-07-10T22:00:00+00:00"
-    },
     {
       "t": "UFC 329’s Terrance McKinney ‘died’ twice while experiencing ‘excited delirium’ one year before MMA debut",
       "ts": "2026-07-10T23:00:00+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Dana White pushes back on Conor McGregor injury speculation, releases UFC 329 warm up videos",
       "ts": "2026-07-12T07:53:45+00:00"
+    },
+    {
+      "t": "Just one fighter transported to hospital following violent UFC 329",
+      "ts": "2026-07-12T06:55:29+00:00"
     }
   ],
   "digest_items": [
@@ -2098,11 +2098,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-07-12T07:53:45+00:00"
+    },
+    {
+      "title": "Just one fighter transported to hospital following violent UFC 329",
+      "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456527/just-one-fighter-transported-to-hospital-following-violent-ufc-329",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-12T06:55:29+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
-    "2026-07-12T07",
-    6
+    "2026-07-12T08",
+    1
   ]
 }
