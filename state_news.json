@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317247",
     "https://bloodyelbow.com/?p=317251",
     "https://bloodyelbow.com/?p=317254",
     "https://bloodyelbow.com/?p=317265",
@@ -851,6 +850,7 @@
     "https://www.mmamania.com/456414/highlights-open-ufc-329",
     "https://www.mmamania.com/456415/highlights-open-ufc-329",
     "https://www.mmamania.com/456460/highlights-open-ufc-329",
+    "https://www.mmamania.com/456461/highlights-open-ufc-329",
     "https://www.mmamania.com/456465/time-check-official-ilia-topuria-vs-max-holloway-main-event-start-time-ufc-308",
     "https://www.mmamania.com/?p=405991",
     "https://www.mmamania.com/?p=444863",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Conor McGregor and Max Holloway dragged apart in fiery first face-off after 13 years before UFC 329",
-      "ts": "2026-07-10T02:52:40+00:00"
-    },
     {
       "t": "Conor McGregor was compared to ‘young Muhammad Ali’ by MMA GOAT just 3 fights into his UFC career",
       "ts": "2026-07-10T03:00:00+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "UFC 329 live blog: King Green vs. Terrance McKinney",
       "ts": "2026-07-12T00:56:17+00:00"
+    },
+    {
+      "t": "Highlights! Robert Whittaker cracks Nikita Krylov’s jaw in successful 205-pound debut &#124; UFC 329",
+      "ts": "2026-07-12T01:01:48+00:00"
     }
   ],
   "digest_items": [
@@ -1797,11 +1797,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-12T00:56:17+00:00"
+    },
+    {
+      "title": "Highlights! Robert Whittaker cracks Nikita Krylov’s jaw in successful 205-pound debut &124; UFC 329",
+      "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456461/highlights-robert-whittaker-cracks-nikita-krylovs-jaw-in-successful-205-pound-debut-ufc-329",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-12T01:01:48+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T01",
-    2
+    3
   ]
 }
