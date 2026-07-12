@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317212",
     "https://bloodyelbow.com/?p=317230",
     "https://bloodyelbow.com/?p=317241",
     "https://bloodyelbow.com/?p=317244",
@@ -508,6 +507,7 @@
     "https://www.mmafighting.com/497960/dnp-morning-report-template-dnp",
     "https://www.mmafighting.com/498083/dnp-morning-report-template-dnp",
     "https://www.mmafighting.com/498557/ufc-329-live-blog-king-green-vs-terrance-mckinney",
+    "https://www.mmafighting.com/498561/ufc-329-live-blog",
     "https://www.mmafighting.com/?p=474919",
     "https://www.mmafighting.com/?p=482774",
     "https://www.mmafighting.com/?p=486598",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Conor McGregor reacts to rival Dustin Poirier’s drunken arrest &#8211; ‘Take accountability, my man’",
-      "ts": "2026-07-10T00:17:04+00:00"
-    },
-    {
       "t": "Staredowns! UFC 329 press conference face offs featuring McGregor-Holloway and Pimbett-BSD",
       "ts": "2026-07-10T02:43:08+00:00"
     },
@@ -1679,6 +1675,10 @@
     {
       "t": "Gable Steveson vs Elisha Ellison UFC 329 result: Jon Jones guides Olympic gold medalist to first round KO in UFC debut",
       "ts": "2026-07-12T00:15:07+00:00"
+    },
+    {
+      "t": "UFC 329 live blog: Robert Whittaker vs. Nikita Krylov",
+      "ts": "2026-07-12T00:17:34+00:00"
     }
   ],
   "digest_items": [
@@ -1765,11 +1765,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-12T00:15:07+00:00"
+    },
+    {
+      "title": "UFC 329 live blog: Robert Whittaker vs. Nikita Krylov",
+      "url": "https://www.mmafighting.com/ufc/498561/ufc-329-live-blog-robert-whittaker-vs-nikita-krylov",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-12T00:17:34+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T00",
-    3
+    4
   ]
 }
