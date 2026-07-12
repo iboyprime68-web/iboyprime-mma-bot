@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317563",
     "https://bloodyelbow.com/?p=317572",
     "https://bloodyelbow.com/?p=317575",
     "https://bloodyelbow.com/?p=317589",
@@ -806,6 +805,7 @@
     "https://www.mmafighting.com/?p=498902",
     "https://www.mmafighting.com/?p=498964",
     "https://www.mmafighting.com/?p=499065",
+    "https://www.mmafighting.com/?p=499071",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/454268/ufc-328s-best-betting-props-parlays-and-picks-khamzat-vs-strickland",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Conor McGregor before and after pics: Here’s what his five-year absence looked like at UFC 329 weigh ins",
-      "ts": "2026-07-10T17:39:09+00:00"
-    },
     {
       "t": "Dana White announces UFC 329: McGregor vs. Holloway 2 broke gate record with massive number",
       "ts": "2026-07-10T17:49:35+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Conor McGregor injuring himself at UFC 329 was the ‘biggest disappointment in combat sports history’",
       "ts": "2026-07-12T05:05:34+00:00"
+    },
+    {
+      "t": "Dana White reveals Conor McGregor injury update after painful UFC 329 loss; McGregor refused crutches",
+      "ts": "2026-07-12T05:09:40+00:00"
     }
   ],
   "digest_items": [
@@ -2014,11 +2014,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-07-12T05:05:34+00:00"
+    },
+    {
+      "title": "Dana White reveals Conor McGregor injury update after painful UFC 329 loss; McGregor refused crutches",
+      "url": "https://www.mmafighting.com/ufc/499071/dana-white-reveals-conor-mcgregor-injury-update-after-painful-ufc-329-loss-mcgregor-refused-crutches",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-12T05:09:40+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T05",
-    1
+    2
   ]
 }
