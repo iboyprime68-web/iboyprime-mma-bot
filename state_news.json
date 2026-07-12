@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317572",
     "https://bloodyelbow.com/?p=317575",
     "https://bloodyelbow.com/?p=317589",
     "https://bloodyelbow.com/?p=317593",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=456554",
     "https://www.mmamania.com/?p=456651",
     "https://www.mmamania.com/?p=456673",
+    "https://www.mmamania.com/?p=456708",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Dana White announces UFC 329: McGregor vs. Holloway 2 broke gate record with massive number",
-      "ts": "2026-07-10T17:49:35+00:00"
-    },
     {
       "t": "UFC 329 fighter Tracy Cortez already prepared for opponent’s signature ‘Joker’ face-off antics",
       "ts": "2026-07-10T18:00:00+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Dana White reveals Conor McGregor injury update after painful UFC 329 loss; McGregor refused crutches",
       "ts": "2026-07-12T05:09:40+00:00"
+    },
+    {
+      "t": "Max Holloway reveals Conor McGregor didn't want UFC 329 bout to end: He was like, ‘Fight! Fight!’",
+      "ts": "2026-07-12T05:18:09+00:00"
     }
   ],
   "digest_items": [
@@ -2021,11 +2021,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-12T05:09:40+00:00"
+    },
+    {
+      "title": "Max Holloway reveals Conor McGregor didn't want UFC 329 bout to end: He was like, ‘Fight! Fight!’",
+      "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456708/max-holloway-reveals-conor-mcgregor-didnt-want-ufc-329-bout-to-end-he-was-like-fight-fight",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-12T05:18:09+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T05",
-    2
+    3
   ]
 }
