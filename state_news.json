@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317925",
     "https://bloodyelbow.com/?p=317932",
     "https://bloodyelbow.com/?p=317937",
     "https://bloodyelbow.com/?p=317940",
@@ -786,6 +785,7 @@
     "https://www.mmafighting.com/?p=499122",
     "https://www.mmafighting.com/?p=499125",
     "https://www.mmafighting.com/?p=499155",
+    "https://www.mmafighting.com/?p=499161",
     "https://www.mmafighting.com/?p=499225",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "New footage reveals Merab Dvalishvili threw the first punch in RAF brawl",
-      "ts": "2026-07-11T16:48:47+00:00"
-    },
     {
       "t": "Conor McGregor’s April 2027 fight date was included in new deal to stop UFC ‘gamesmanship’",
       "ts": "2026-07-11T18:30:00+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Rookie Report Card: Grading all Octagon newcomers UFC 329 post-mortem",
       "ts": "2026-07-12T10:21:38+00:00"
+    },
+    {
+      "t": "UFC BJJ champ Mikey Musumeci moves up in weight to face Bryce Mitchell in September",
+      "ts": "2026-07-12T16:02:15+00:00"
     }
   ],
   "digest_items": [
@@ -1713,11 +1713,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-07-12T10:21:38+00:00"
+    },
+    {
+      "title": "UFC BJJ champ Mikey Musumeci moves up in weight to face Bryce Mitchell in September",
+      "url": "https://www.mmafighting.com/ufc/499161/ufc-bjj-champ-mikey-musumeci-moves-up-in-weight-to-face-bryce-mitchell-in-september",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-12T16:02:15+00:00"
     }
   ],
   "digest_last": "2026-07-12 21:30",
   "hour": [
     "2026-07-12T23",
-    2
+    3
   ]
 }
