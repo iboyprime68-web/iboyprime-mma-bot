@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317596",
     "https://bloodyelbow.com/?p=317602",
     "https://bloodyelbow.com/?p=317618",
     "https://bloodyelbow.com/?p=317622",
@@ -804,6 +803,7 @@
     "https://www.mmafighting.com/?p=498964",
     "https://www.mmafighting.com/?p=499065",
     "https://www.mmafighting.com/?p=499071",
+    "https://www.mmafighting.com/?p=499094",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/454268/ufc-328s-best-betting-props-parlays-and-picks-khamzat-vs-strickland",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Max Holloway still had to cut weight despite 15lb move up to fight Conor McGregor confirms dietitian",
-      "ts": "2026-07-10T19:00:00+00:00"
-    },
     {
       "t": "UFC 329 gate hits record-breaking $25 million behind return of Conor McGregor",
       "ts": "2026-07-10T19:25:19+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Conor McGregor breaks his silence after instant injury at UFC 329: ‘This came out of nowhere’",
       "ts": "2026-07-12T05:45:52+00:00"
+    },
+    {
+      "t": "Conor McGregor breaks silence after devastating UFC 329 injury derails comeback: ‘I can only describe it as hell’",
+      "ts": "2026-07-12T05:53:56+00:00"
     }
   ],
   "digest_items": [
@@ -2049,11 +2049,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-12T05:45:52+00:00"
+    },
+    {
+      "title": "Conor McGregor breaks silence after devastating UFC 329 injury derails comeback: ‘I can only describe it as hell’",
+      "url": "https://www.mmafighting.com/ufc/499094/conor-mcgregor-breaks-silence-after-devastating-ufc-329-injury-derails-comeback-i-can-only-describe-it-as-hell",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-12T05:53:56+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T07",
-    2
+    3
   ]
 }
