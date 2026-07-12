@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317308",
     "https://bloodyelbow.com/?p=317320",
     "https://bloodyelbow.com/?p=317330",
     "https://bloodyelbow.com/?p=317335",
@@ -814,6 +813,7 @@
     "https://www.mmafighting.com/?p=498698",
     "https://www.mmafighting.com/?p=498740",
     "https://www.mmafighting.com/?p=498770",
+    "https://www.mmafighting.com/?p=498837",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/454268/ufc-328s-best-betting-props-parlays-and-picks-khamzat-vs-strickland",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Floyd Mayweather and Mike Tyson given new fight date and venue in new legal filings",
-      "ts": "2026-07-10T06:06:30+00:00"
-    },
     {
       "t": "Ilia Topuria beats up ‘goofy’ Paddy Pimblett 97 times out of 100, per Justin Gaethje &#124; UFC 329",
       "ts": "2026-07-10T06:23:14+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Highlights! Brandon Royval chokes out Lone’er Kavanagh after bloody brawl &#124; UFC 329",
       "ts": "2026-07-12T02:21:56+00:00"
+    },
+    {
+      "t": "UFC 329 results: Mario Bautista badly damages Cory Sandhagen’s leg, gets his revenge with unanimous decision win",
+      "ts": "2026-07-12T02:58:19+00:00"
     }
   ],
   "digest_items": [
@@ -1853,11 +1853,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-07-12T02:21:56+00:00"
+    },
+    {
+      "title": "UFC 329 results: Mario Bautista badly damages Cory Sandhagen’s leg, gets his revenge with unanimous decision win",
+      "url": "https://www.mmafighting.com/ufc/498837/ufc-329-results-mario-bautista-badly-damages-cory-sandhagens-leg-gets-his-revenge-with-unanimous-decision-win",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-12T02:58:19+00:00"
     }
   ],
   "digest_last": "2026-07-11 21:30",
   "hour": [
     "2026-07-12T04",
-    2
+    3
   ]
 }
