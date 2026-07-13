@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=318241",
     "https://bloodyelbow.com/?p=318258",
     "https://bloodyelbow.com/?p=318285",
     "https://bloodyelbow.com/?p=318298",
@@ -776,6 +775,7 @@
     "https://www.mmafighting.com/?p=499302",
     "https://www.mmafighting.com/?p=499303",
     "https://www.mmafighting.com/?p=499327",
+    "https://www.mmafighting.com/?p=499342",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/454268/ufc-328s-best-betting-props-parlays-and-picks-khamzat-vs-strickland",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Paddy Pimblett vs Benoit Saint-Denis UFC 329 result: ‘The Baddy’ chokes rival unconscious inside a minute",
-      "ts": "2026-07-12T03:11:59+00:00"
-    },
     {
       "t": "Highlights! Paddy Pimblett immediately sleeps Benoit Saint-Denis with super slick strangle &#124; UFC 329",
       "ts": "2026-07-12T03:20:06+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Dustin Poirier calls for fourth fight with Conor McGregor following UFC 329: ‘I’ll whip you again’",
       "ts": "2026-07-13T21:00:00+00:00"
+    },
+    {
+      "t": "Cory Sandhagen shows off gnarly injury after submission attempt likely tore hamstring at UFC 329",
+      "ts": "2026-07-13T20:14:02+00:00"
     }
   ],
   "digest_items": [
@@ -1986,11 +1986,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-13T21:00:00+00:00"
+    },
+    {
+      "title": "Cory Sandhagen shows off gnarly injury after submission attempt likely tore hamstring at UFC 329",
+      "url": "https://www.mmafighting.com/ufc/499342/cory-sandhagen-shows-off-gnarly-injury-after-submission-attempt-likely-tore-hamstring-at-ufc-329",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-13T20:14:02+00:00"
     }
   ],
   "digest_last": "2026-07-12 21:30",
   "hour": [
     "2026-07-13T21",
-    1
+    2
   ]
 }
