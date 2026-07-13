@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=318200",
     "https://bloodyelbow.com/?p=318209",
     "https://bloodyelbow.com/?p=318221",
     "https://bloodyelbow.com/?p=318239",
@@ -777,6 +776,7 @@
     "https://www.mmafighting.com/?p=499286",
     "https://www.mmafighting.com/?p=499302",
     "https://www.mmafighting.com/?p=499303",
+    "https://www.mmafighting.com/?p=499327",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/454268/ufc-328s-best-betting-props-parlays-and-picks-khamzat-vs-strickland",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC 329 video: King Green survives early onslaught, rallies back to finish Terrance McKinney in first round",
-      "ts": "2026-07-12T01:42:45+00:00"
-    },
     {
       "t": "‘As a singer’… Noel Gallagher reacts to Conor McGregor’s Wonderwall rendition at UFC 329",
       "ts": "2026-07-12T02:08:12+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Magomed Ankalaev gets new return opponent as Khalil Rountree Jr. withdraws less than two weeks out",
       "ts": "2026-07-13T20:12:56+00:00"
+    },
+    {
+      "t": "Magomed Ankalaev fights Bogdan Guskov in new UFC Abu Dhabi main event with Khalil Rountree out",
+      "ts": "2026-07-13T20:02:33+00:00"
     }
   ],
   "digest_items": [
@@ -1958,11 +1958,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-13T18:19:39+00:00"
+    },
+    {
+      "title": "Magomed Ankalaev fights Bogdan Guskov in new UFC Abu Dhabi main event with Khalil Rountree out",
+      "url": "https://www.mmafighting.com/ufc/499327/magomed-ankalaev-fights-bogdan-guskov-in-new-ufc-abu-dhabi-main-event-with-khalil-rountree-out",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-13T20:02:33+00:00"
     }
   ],
   "digest_last": "2026-07-12 21:30",
   "hour": [
     "2026-07-13T20",
-    2
+    3
   ]
 }
