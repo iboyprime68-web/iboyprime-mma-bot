@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=318020",
     "https://bloodyelbow.com/?p=318027",
     "https://bloodyelbow.com/?p=318032",
     "https://bloodyelbow.com/?p=318034",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=456824",
     "https://www.mmamania.com/?p=456829",
     "https://www.mmamania.com/?p=456920",
+    "https://www.mmamania.com/?p=456923",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC 329 video: Ryan Gandra crushes Zach Reese for 75-second knockout",
-      "ts": "2026-07-11T21:39:35+00:00"
-    },
     {
       "t": "Highlights! Damian Pinas starches Cesar Almeida in incredible one-punch KO&#124; UFC 329",
       "ts": "2026-07-11T22:30:25+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Open Thread, July 13, 2026: RIP Dr. Grant",
       "ts": "2026-07-13T09:55:59+00:00"
+    },
+    {
+      "t": "Dan Hooker wants UFC to let Conor McGregor box: 'His body can't hold up in MMA'",
+      "ts": "2026-07-13T12:42:14+00:00"
     }
   ],
   "digest_items": [
@@ -1818,11 +1818,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-07-13T09:55:59+00:00"
+    },
+    {
+      "title": "Dan Hooker wants UFC to let Conor McGregor box: 'His body can't hold up in MMA'",
+      "url": "https://www.mmamania.com/zuffa-boxing-news/456923/dan-hooker-wants-ufc-to-let-conor-mcgregor-box-his-body-cant-hold-up-in-mma",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-13T12:42:14+00:00"
     }
   ],
   "digest_last": "2026-07-12 21:30",
   "hour": [
     "2026-07-13T13",
-    3
+    4
   ]
 }
