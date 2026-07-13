@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=318049",
     "https://bloodyelbow.com/?p=318059",
     "https://bloodyelbow.com/?p=318063",
     "https://bloodyelbow.com/?p=318075",
@@ -779,6 +778,7 @@
     "https://www.mmafighting.com/?p=499125",
     "https://www.mmafighting.com/?p=499155",
     "https://www.mmafighting.com/?p=499161",
+    "https://www.mmafighting.com/?p=499206",
     "https://www.mmafighting.com/?p=499225",
     "https://www.mmafighting.com/?p=499268",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Paddy Pimblett’s 14-0 teammate scores quick KO as Joe Rogan rants about referee at UFC 329",
-      "ts": "2026-07-11T23:42:38+00:00"
-    },
     {
       "t": "UFC 329 live blog: Gable Steveson vs. Elisha Ellison",
       "ts": "2026-07-11T23:47:31+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Conor McGregor releases statement announcing surgery, UFC future",
       "ts": "2026-07-13T13:52:29+00:00"
+    },
+    {
+      "t": "Paddy Pimblett breaks down incredible UFC 329 submission: ‘I’ve never done that before’",
+      "ts": "2026-07-13T13:14:17+00:00"
     }
   ],
   "digest_items": [
@@ -1853,11 +1853,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-13T13:52:29+00:00"
+    },
+    {
+      "title": "Paddy Pimblett breaks down incredible UFC 329 submission: ‘I’ve never done that before’",
+      "url": "https://www.mmafighting.com/ufc/499206/paddy-pimblett-breaks-down-incredible-ufc-329-submission-ive-never-done-that-before",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-13T13:14:17+00:00"
     }
   ],
   "digest_last": "2026-07-12 21:30",
   "hour": [
-    "2026-07-13T14",
-    2
+    "2026-07-13T16",
+    1
   ]
 }
