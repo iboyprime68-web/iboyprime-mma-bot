@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=318132",
     "https://bloodyelbow.com/?p=318140",
     "https://bloodyelbow.com/?p=318154",
     "https://bloodyelbow.com/?p=318170",
@@ -778,6 +777,7 @@
     "https://www.mmafighting.com/?p=499225",
     "https://www.mmafighting.com/?p=499268",
     "https://www.mmafighting.com/?p=499286",
+    "https://www.mmafighting.com/?p=499302",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/454268/ufc-328s-best-betting-props-parlays-and-picks-khamzat-vs-strickland",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC 329 video: Gable Steveson lays waste to Elisha Ellison with brutal first-round knockout in octagon debut",
-      "ts": "2026-07-12T00:27:27+00:00"
-    },
     {
       "t": "UFC 329 live blog: King Green vs. Terrance McKinney",
       "ts": "2026-07-12T00:56:17+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Dustin Poirier criticizes Conor McGregor’s game plan that led to UFC 329 injury: ‘It’s crazy to me’",
       "ts": "2026-07-13T18:00:00+00:00"
+    },
+    {
+      "t": "Dustin Poirier reacts to ‘dirtbag’ Conor McGregor suffering injury at UFC 329",
+      "ts": "2026-07-13T17:36:57+00:00"
     }
   ],
   "digest_items": [
@@ -1916,11 +1916,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-13T18:00:00+00:00"
+    },
+    {
+      "title": "Dustin Poirier reacts to ‘dirtbag’ Conor McGregor suffering injury at UFC 329",
+      "url": "https://www.mmafighting.com/ufc/499302/dustin-poirier-reacts-to-dirtbag-conor-mcgregor-suffering-injury-at-ufc-329",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-13T17:36:57+00:00"
     }
   ],
   "digest_last": "2026-07-12 21:30",
   "hour": [
     "2026-07-13T18",
-    1
+    2
   ]
 }
