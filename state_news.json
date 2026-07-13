@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=317940",
     "https://bloodyelbow.com/?p=317947",
     "https://bloodyelbow.com/?p=317955",
     "https://bloodyelbow.com/?p=317965",
@@ -408,6 +407,7 @@
     "https://bloodyelbow.com/?p=321140",
     "https://bloodyelbow.com/?p=321156",
     "https://bloodyelbow.com/?p=321159",
+    "https://bloodyelbow.com/?p=321173",
     "https://bloodyelbow.com/?p=321180",
     "https://bloodyelbow.com/?p=321184",
     "https://bloodyelbow.com/?p=321195",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Kyle Snyder scores pinfall victory over Abdulrashid Sadulaev in showdown between Olympic champions at RAF Georgia",
-      "ts": "2026-07-11T19:00:28+00:00"
-    },
-    {
       "t": "Merab Dvalishvili storms back to stun Olympic champion Henry Cejudo in RAF Georgia main event",
       "ts": "2026-07-11T19:25:43+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Josh Hokit calls Paddy Pimblett ‘two faced’ for his reaction to Conor McGregor’s UFC 329 injury",
       "ts": "2026-07-13T00:00:00+00:00"
+    },
+    {
+      "t": "Conor McGregor left UFC 329 with unwanted first-time stat after landing 0 significant strikes",
+      "ts": "2026-07-13T01:00:00+00:00"
     }
   ],
   "digest_items": [
@@ -1734,11 +1734,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-13T00:00:00+00:00"
+    },
+    {
+      "title": "Conor McGregor left UFC 329 with unwanted first-time stat after landing 0 significant strikes",
+      "url": "https://bloodyelbow.com/2026/07/12/conor-mcgregor-left-ufc-329-with-unwanted-first-time-stat-after-landing-0-significant-strikes/",
+      "source": "Bloody Elbow",
+      "cat": "ufc",
+      "ts": "2026-07-13T01:00:00+00:00"
     }
   ],
   "digest_last": "2026-07-12 21:30",
   "hour": [
-    "2026-07-13T00",
+    "2026-07-13T01",
     1
   ]
 }
