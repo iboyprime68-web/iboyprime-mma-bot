@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=318009",
     "https://bloodyelbow.com/?p=318017",
     "https://bloodyelbow.com/?p=318020",
     "https://bloodyelbow.com/?p=318027",
@@ -946,6 +945,7 @@
     "https://www.mmamania.com/?p=456796",
     "https://www.mmamania.com/?p=456798",
     "https://www.mmamania.com/?p=456824",
+    "https://www.mmamania.com/?p=456829",
     "https://www.mmamania.com/?p=456920",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Highlights! Alessandro Costa kicks off card with short-notice strangle of bloodied Cody Durden &#124; UFC 329",
-      "ts": "2026-07-11T21:22:21+00:00"
-    },
     {
       "t": "Highlights! Ryan Gandra smokes Zach Reese early with leaping left hook &#124; UFC 329",
       "ts": "2026-07-11T21:31:57+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Machine Gun Kelly responds to backlash with new Conor McGregor rant: ‘That’s how beef works’",
       "ts": "2026-07-13T13:00:00+00:00"
+    },
+    {
+      "t": "Monday Morning Hangover: Will Conor McGregor fulfill final fight on UFC contract following brutal UFC 329 injury?",
+      "ts": "2026-07-12T21:05:42+00:00"
     }
   ],
   "digest_items": [
@@ -1804,11 +1804,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-13T13:00:00+00:00"
+    },
+    {
+      "title": "Monday Morning Hangover: Will Conor McGregor fulfill final fight on UFC contract following brutal UFC 329 injury?",
+      "url": "https://www.mmamania.com/ufc-329-mcgregor-vs-holloway-2/456829/monday-morning-hangover-will-conor-mcgregor-fulfill-final-fight-on-contract-after-brutal-ufc-329-injury",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-12T21:05:42+00:00"
     }
   ],
   "digest_last": "2026-07-12 21:30",
   "hour": [
     "2026-07-13T13",
-    1
+    2
   ]
 }
