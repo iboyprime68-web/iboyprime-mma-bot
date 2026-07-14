@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=318711",
     "https://bloodyelbow.com/?p=318716",
     "https://bloodyelbow.com/?p=318722",
     "https://bloodyelbow.com/?p=318726",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=457162",
     "https://www.mmamania.com/?p=457171",
     "https://www.mmamania.com/?p=457176",
+    "https://www.mmamania.com/?p=457182",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC heavyweight champ Tom Aspinall ready to fight Ciryl Gane: 'We're just waiting for dates'",
-      "ts": "2026-07-12T20:17:34+00:00"
-    },
     {
       "t": "‘Ready to go’… Tom Aspinall shares update on negotiations for UFC comeback fight after eye surgery",
       "ts": "2026-07-12T20:30:00+00:00"
@@ -1559,6 +1555,10 @@
     {
       "t": "Dana White’s Contender Series season 10 debuts in August",
       "ts": "2026-07-14T18:56:07+00:00"
+    },
+    {
+      "t": "UFC parts ways with Michel Pereira following Shara Bullet loss in Baku",
+      "ts": "2026-07-14T20:23:27+00:00"
     }
   ],
   "digest_items": [
@@ -1862,11 +1862,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-14T18:56:07+00:00"
+    },
+    {
+      "title": "UFC parts ways with Michel Pereira following Shara Bullet loss in Baku",
+      "url": "https://www.mmamania.com/ufc-news/457182/ufc-parts-ways-michel-pereira-shara-bullet-loss-baku",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-14T20:23:27+00:00"
     }
   ],
   "digest_last": "2026-07-13 21:30",
   "hour": [
     "2026-07-14T20",
-    2
+    3
   ]
 }
