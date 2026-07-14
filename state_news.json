@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=318494",
     "https://bloodyelbow.com/?p=318497",
     "https://bloodyelbow.com/?p=318500",
     "https://bloodyelbow.com/?p=318502",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=457070",
     "https://www.mmamania.com/?p=457116",
     "https://www.mmamania.com/?p=457125",
+    "https://www.mmamania.com/?p=457162",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,18 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Watch Max Holloway’s son taunt Conor McGregor from ringside after 1-minute loss at UFC 329",
-      "ts": "2026-07-12T14:30:00+00:00"
-    },
-    {
-      "t": "Paddy Pimblett perfectly predicted how Benoit Saint Denis fight would go the day before UFC 329",
-      "ts": "2026-07-12T15:00:00+00:00"
-    },
-    {
-      "t": "Conor McGregor's coach makes statement following 'devastating' UFC 329 loss: 'Doesn't get worse than this'",
-      "ts": "2026-07-12T14:36:02+00:00"
-    },
     {
       "t": "Dana White comes back on stage to defend Conor McGregor after leaving UFC 329 post-fight presser",
       "ts": "2026-07-12T15:30:00+00:00"
@@ -1555,6 +1543,10 @@
     {
       "t": "Dricus du Plessis advises the UFC against booking ‘ridiculous’ fight for Khamzat Chimaev’s comeback",
       "ts": "2026-07-14T14:00:00+00:00"
+    },
+    {
+      "t": "Colby Covington gets (another) title shot, battles Arman for ‘Crossover Championship’ at RAF 11",
+      "ts": "2026-07-14T14:05:52+00:00"
     }
   ],
   "digest_items": [
@@ -1725,11 +1717,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-14T14:00:00+00:00"
+    },
+    {
+      "title": "Colby Covington gets (another) title shot, battles Arman for ‘Crossover Championship’ at RAF 11",
+      "url": "https://www.mmamania.com/raf-wrestling-schedule-cards-live-results/457162/colby-covington-another-title-shot-battles-arman-crossover-championship-raf-11",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-14T14:05:52+00:00"
     }
   ],
   "digest_last": "2026-07-13 21:30",
   "hour": [
-    "2026-07-14T14",
+    "2026-07-14T15",
     1
   ]
 }
