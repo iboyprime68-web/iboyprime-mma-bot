@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=318582",
     "https://bloodyelbow.com/?p=318584",
     "https://bloodyelbow.com/?p=318608",
     "https://bloodyelbow.com/?p=318622",
@@ -763,6 +762,7 @@
     "https://www.mmafighting.com/?p=499342",
     "https://www.mmafighting.com/?p=499348",
     "https://www.mmafighting.com/?p=499403",
+    "https://www.mmafighting.com/?p=499434",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Sean Strickland shares theory on Conor McGregor’s injury cause: ‘It does weaken everything…’",
-      "ts": "2026-07-12T18:00:00+00:00"
-    },
-    {
       "t": "Dana White confirms but refuses to elaborate on UFC wellness program following Dustin Poirier arrest",
       "ts": "2026-07-12T19:00:00+00:00"
     },
@@ -1543,6 +1539,10 @@
     {
       "t": "Former headliner removed from UFC roster weeks on from criticizing Herb Dean after co-main event loss",
       "ts": "2026-07-14T17:58:01+00:00"
+    },
+    {
+      "t": "Michel Pereira removed from UFC roster after loss to Shara Bullet in Baku",
+      "ts": "2026-07-14T18:01:00+00:00"
     }
   ],
   "digest_items": [
@@ -1790,11 +1790,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-14T17:58:01+00:00"
+    },
+    {
+      "title": "Michel Pereira removed from UFC roster after loss to Shara Bullet in Baku",
+      "url": "https://www.mmafighting.com/ufc/499434/michel-pereira-removed-from-ufc-roster-after-loss-to-shara-bullet-in-baku",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-14T18:01:00+00:00"
     }
   ],
   "digest_last": "2026-07-13 21:30",
   "hour": [
-    "2026-07-14T17",
-    3
+    "2026-07-14T18",
+    1
   ]
 }
