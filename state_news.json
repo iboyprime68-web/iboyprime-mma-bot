@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=318799",
     "https://bloodyelbow.com/?p=318801",
     "https://bloodyelbow.com/?p=318806",
     "https://bloodyelbow.com/?p=318850",
@@ -758,6 +757,7 @@
     "https://www.mmafighting.com/?p=499427",
     "https://www.mmafighting.com/?p=499434",
     "https://www.mmafighting.com/?p=499447",
+    "https://www.mmafighting.com/?p=499476",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1563,6 +1563,10 @@
     {
       "t": "Paddy Pimblett reveals final goal for the end of the year after stealing the show at UFC 329",
       "ts": "2026-07-15T00:00:00+00:00"
+    },
+    {
+      "t": "UFC Oklahoma City: Undefeated newcomers finalize Dricus du Plessis vs. Kamaru Usman fight card",
+      "ts": "2026-07-14T22:31:55+00:00"
     }
   ],
   "digest_items": [
@@ -1607,11 +1611,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-15T00:00:00+00:00"
+    },
+    {
+      "title": "UFC Oklahoma City: Undefeated newcomers finalize Dricus du Plessis vs. Kamaru Usman fight card",
+      "url": "https://www.mmafighting.com/latest-news/499476/ufc-oklahoma-city-undefeated-newcomers-finalize-dricus-du-plessis-vs-kamaru-usman-fight-card",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-14T22:31:55+00:00"
     }
   ],
   "digest_last": "2026-07-14 21:30",
   "hour": [
     "2026-07-15T00",
-    1
+    2
   ]
 }
