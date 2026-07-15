@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=319042",
     "https://bloodyelbow.com/?p=319050",
     "https://bloodyelbow.com/?p=319056",
     "https://bloodyelbow.com/?p=319075",
@@ -747,6 +746,7 @@
     "https://www.mmafighting.com/?p=499482",
     "https://www.mmafighting.com/?p=499544",
     "https://www.mmafighting.com/?p=499552",
+    "https://www.mmafighting.com/?p=499593",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1579,6 +1579,10 @@
     {
       "t": "Victor Ortiz recalls Mike Tyson’s advice for Floyd Mayweather bout ahead of bare-knuckle return",
       "ts": "2026-07-15T17:00:00+00:00"
+    },
+    {
+      "t": "Ryan Garcia vs. Conor Benn official for September fight in Las Vegas",
+      "ts": "2026-07-15T17:23:32+00:00"
     }
   ],
   "digest_items": [
@@ -1812,11 +1816,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-15T17:00:00+00:00"
+    },
+    {
+      "title": "Ryan Garcia vs. Conor Benn official for September fight in Las Vegas",
+      "url": "https://www.mmafighting.com/boxing/499593/ryan-garcia-vs-conor-benn-official-for-september-fight-in-las-vegas",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-15T17:23:32+00:00"
     }
   ],
   "digest_last": "2026-07-14 21:30",
   "hour": [
     "2026-07-15T17",
-    1
+    2
   ]
 }
