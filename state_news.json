@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=319026",
     "https://bloodyelbow.com/?p=319031",
     "https://bloodyelbow.com/?p=319037",
     "https://bloodyelbow.com/?p=319042",
@@ -746,6 +745,7 @@
     "https://www.mmafighting.com/?p=499447",
     "https://www.mmafighting.com/?p=499473",
     "https://www.mmafighting.com/?p=499476",
+    "https://www.mmafighting.com/?p=499482",
     "https://www.mmafighting.com/?p=499544",
     "https://www.mmafighting.com/?p=499552",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
@@ -1579,6 +1579,10 @@
     {
       "t": "Khabib Nurmagomedov shut down question about Conor McGregor’s UFC 329 return with 7-word answer",
       "ts": "2026-07-15T16:00:00+00:00"
+    },
+    {
+      "t": "Sedriques Dumas removed from UFC roster, sentenced in case following 2025 arrest",
+      "ts": "2026-07-15T14:02:01+00:00"
     }
   ],
   "digest_items": [
@@ -1791,11 +1795,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-15T16:00:00+00:00"
+    },
+    {
+      "title": "Sedriques Dumas removed from UFC roster, sentenced in case following 2025 arrest",
+      "url": "https://www.mmafighting.com/ufc/499482/sedriques-dumas-removed-from-ufc-roster-sentenced-in-case-following-2025-arrest",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-15T14:02:01+00:00"
     }
   ],
   "digest_last": "2026-07-14 21:30",
   "hour": [
     "2026-07-15T16",
-    1
+    2
   ]
 }
