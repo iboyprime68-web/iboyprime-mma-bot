@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=319279",
     "https://bloodyelbow.com/?p=319286",
     "https://bloodyelbow.com/?p=319292",
     "https://bloodyelbow.com/?p=319294",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=457481",
     "https://www.mmamania.com/?p=457521",
     "https://www.mmamania.com/?p=457525",
+    "https://www.mmamania.com/?p=457577",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Latest UFC Abu Dhabi fight card, Paramount+ start time, date and location &#124; Ankalaev vs. Guskov",
-      "ts": "2026-07-14T14:37:34+00:00"
-    },
     {
       "t": "Chael Sonnen admits Ben Askren’s wrestling return at RAF 11 ‘makes me uncomfortable’",
       "ts": "2026-07-14T14:53:07+00:00"
@@ -1563,6 +1559,10 @@
     {
       "t": "Justin Gaethje’s loss to Terence Crawford at ESPY Awards slammed by UFC star’s manager: ‘It’s crazy’",
       "ts": "2026-07-16T14:00:00+00:00"
+    },
+    {
+      "t": "ESPY winners 2026: Terence Crawford scores ‘mind blowing’ upset, wins ‘Best Fighter’ over UFC’s Justin Gaethje",
+      "ts": "2026-07-16T14:45:05+00:00"
     }
   ],
   "digest_items": [
@@ -1740,11 +1740,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-16T14:00:00+00:00"
+    },
+    {
+      "title": "ESPY winners 2026: Terence Crawford scores ‘mind blowing’ upset, wins ‘Best Fighter’ over UFC’s Justin Gaethje",
+      "url": "https://www.mmamania.com/ufc-news/457577/terence-crawford-mind-blowing-upset-wins-best-fighter-over-ufc-justin-gaethje-2026-espys",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-16T14:45:05+00:00"
     }
   ],
   "digest_last": "2026-07-15 21:30",
   "hour": [
     "2026-07-16T14",
-    2
+    3
   ]
 }
