@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=319348",
     "https://bloodyelbow.com/?p=319353",
     "https://bloodyelbow.com/?p=319358",
     "https://bloodyelbow.com/?p=319362",
@@ -731,6 +730,7 @@
     "https://www.mmafighting.com/?p=499630",
     "https://www.mmafighting.com/?p=499658",
     "https://www.mmafighting.com/?p=499681",
+    "https://www.mmafighting.com/?p=499695",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1539,6 +1539,10 @@
     {
       "t": "Khamzat Chimaev tells the UFC ‘I’m ready’ in latest plea for Sean Strickland rematch",
       "ts": "2026-07-16T19:00:00+00:00"
+    },
+    {
+      "t": "UFC 329 draws nearly 16 million viewers for the return of Conor McGregor",
+      "ts": "2026-07-16T18:26:28+00:00"
     }
   ],
   "digest_items": [
@@ -1786,11 +1790,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-16T19:00:00+00:00"
+    },
+    {
+      "title": "UFC 329 draws nearly 16 million viewers for the return of Conor McGregor",
+      "url": "https://www.mmafighting.com/latest-news/499695/ufc-329-draws-nearly-16-million-viewers-for-the-return-of-conor-mcgregor",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-16T18:26:28+00:00"
     }
   ],
   "digest_last": "2026-07-15 21:30",
   "hour": [
     "2026-07-16T19",
-    1
+    2
   ]
 }
