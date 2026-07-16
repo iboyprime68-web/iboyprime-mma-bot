@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=319237",
     "https://bloodyelbow.com/?p=319240",
     "https://bloodyelbow.com/?p=319245",
     "https://bloodyelbow.com/?p=319250",
@@ -357,6 +356,7 @@
     "https://www.mmafighting.com/497570/mma-fightings-2026-fighter-of-the-midyear-justin-gaethje",
     "https://www.mmafighting.com/497598/the-ultimate-insider-behind-the-scenes-of-tuf-34-michael-bisping-meltdown",
     "https://www.mmafighting.com/497715/dnp-morning-report-template-dnp",
+    "https://www.mmafighting.com/497900/dnp-morning-report-template-dnp",
     "https://www.mmafighting.com/497960/dnp-morning-report-template-dnp",
     "https://www.mmafighting.com/498083/dnp-morning-report-template-dnp",
     "https://www.mmafighting.com/498374/the-ultimate-insider-behind-the-scenes-of-tuf-34-cast-member-nearly-lost-in-mountains",
@@ -1575,6 +1575,10 @@
     {
       "t": "Fans worry for Kamaru Usman as first face-off with Dricus du Plessis shows drastic size difference",
       "ts": "2026-07-16T12:00:00+00:00"
+    },
+    {
+      "t": "Morning Report &#124; Conor McGregor calls for loss to Max Holloway to be a no-contest",
+      "ts": "2026-07-16T03:12:25+00:00"
     }
   ],
   "digest_items": [
@@ -1717,11 +1721,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-16T12:00:00+00:00"
+    },
+    {
+      "title": "Morning Report &124; Conor McGregor calls for loss to Max Holloway to be a no-contest",
+      "url": "https://www.mmafighting.com/latest-news/497900/morning-report-conor-mcgregor-calls-for-loss-to-max-holloway-to-be-a-no-contest",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-16T03:12:25+00:00"
     }
   ],
   "digest_last": "2026-07-15 21:30",
   "hour": [
     "2026-07-16T12",
-    1
+    2
   ]
 }
