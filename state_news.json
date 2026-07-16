@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=319292",
     "https://bloodyelbow.com/?p=319294",
     "https://bloodyelbow.com/?p=319300",
     "https://bloodyelbow.com/?p=319304",
@@ -733,6 +732,7 @@
     "https://www.mmafighting.com/?p=499616",
     "https://www.mmafighting.com/?p=499619",
     "https://www.mmafighting.com/?p=499630",
+    "https://www.mmafighting.com/?p=499658",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1559,6 +1559,10 @@
     {
       "t": "Shakur Stevenson wants UFC staff fired over broadcast error at UFC 329: ‘Dana is right’",
       "ts": "2026-07-16T15:00:00+00:00"
+    },
+    {
+      "t": "Between the Links: Conor McGregor’s disastrous return, UFC 329 fallout, busy weekend ahead",
+      "ts": "2026-07-16T12:03:48+00:00"
     }
   ],
   "digest_items": [
@@ -1750,11 +1754,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-16T15:00:00+00:00"
+    },
+    {
+      "title": "Between the Links: Conor McGregor’s disastrous return, UFC 329 fallout, busy weekend ahead",
+      "url": "https://www.mmafighting.com/ufc/499658/between-the-links-conor-mcgregors-disastrous-return-ufc-329-fallout-busy-weekend-ahead",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-16T12:03:48+00:00"
     }
   ],
   "digest_last": "2026-07-15 21:30",
   "hour": [
     "2026-07-16T15",
-    1
+    2
   ]
 }
