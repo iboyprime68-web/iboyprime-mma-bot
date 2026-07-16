@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=319353",
     "https://bloodyelbow.com/?p=319358",
     "https://bloodyelbow.com/?p=319362",
     "https://bloodyelbow.com/?p=319371",
@@ -946,6 +945,7 @@
     "https://www.mmamania.com/?p=457525",
     "https://www.mmamania.com/?p=457577",
     "https://www.mmamania.com/?p=457597",
+    "https://www.mmamania.com/?p=457600",
     "https://www.mmamania.com/?p=457603",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Paddy Pimblett disputed Joe Rogan’s claim that teammates UFC 329 KO win was an early stoppage",
-      "ts": "2026-07-14T19:30:00+00:00"
-    },
     {
       "t": "Jon Jones squashes latest Dana White beef with UFC 329 selfie: ‘Always a homie’",
       "ts": "2026-07-14T20:00:00+00:00"
@@ -1543,6 +1539,10 @@
     {
       "t": "UFC 329 draws nearly 16 million viewers for the return of Conor McGregor",
       "ts": "2026-07-16T18:26:28+00:00"
+    },
+    {
+      "t": "Paramount+ releases viewership for Conor McGregor’s UFC 329 return, here’s how it stacks up against UFC White House",
+      "ts": "2026-07-16T19:48:15+00:00"
     }
   ],
   "digest_items": [
@@ -1797,11 +1797,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-16T18:26:28+00:00"
+    },
+    {
+      "title": "Paramount+ releases viewership for Conor McGregor’s UFC 329 return, here’s how it stacks up against UFC White House",
+      "url": "https://www.mmamania.com/ufc-paramount-plus-news-hub-fight-cards-schedule/457600/paramount-viewership-numbers-conor-mcgregor-ufc-329-return-how-it-stacks-up-ufc-white-house",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-16T19:48:15+00:00"
     }
   ],
   "digest_last": "2026-07-15 21:30",
   "hour": [
     "2026-07-16T19",
-    2
+    3
   ]
 }
