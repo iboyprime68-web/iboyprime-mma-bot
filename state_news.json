@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=319581",
     "https://bloodyelbow.com/?p=319590",
     "https://bloodyelbow.com/?p=319592",
     "https://bloodyelbow.com/?p=319598",
@@ -717,6 +716,7 @@
     "https://www.mmafighting.com/?p=499677",
     "https://www.mmafighting.com/?p=499681",
     "https://www.mmafighting.com/?p=499695",
+    "https://www.mmafighting.com/?p=499716",
     "https://www.mmafighting.com/?p=499775",
     "https://www.mmafighting.com/?p=499780",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC fighter who previously withdrew due to ankle monitor seemingly disputes that he’s been released",
-      "ts": "2026-07-15T15:00:00+00:00"
-    },
-    {
       "t": "Khabib Nurmagomedov shut down question about Conor McGregor’s UFC 329 return with 7-word answer",
       "ts": "2026-07-15T16:00:00+00:00"
     },
@@ -1527,6 +1523,10 @@
     {
       "t": "UFC Oklahoma early weigh ins results, live updates &#124; Du Plessis vs. Usman",
       "ts": "2026-07-17T14:46:39+00:00"
+    },
+    {
+      "t": "Missed Fists: Fighter actually pulls off jumping switch kick, knocks out opponent instead of injuring himself",
+      "ts": "2026-07-17T13:38:28+00:00"
     }
   ],
   "digest_items": [
@@ -1718,11 +1718,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-07-17T14:46:39+00:00"
+    },
+    {
+      "title": "Missed Fists: Fighter actually pulls off jumping switch kick, knocks out opponent instead of injuring himself",
+      "url": "https://www.mmafighting.com/latest-news/499716/missed-fists-fighter-actually-pulls-off-jumping-switch-kick-knocks-out-opponent-instead-of-injuring-himself",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-17T13:38:28+00:00"
     }
   ],
   "digest_last": "2026-07-16 21:30",
   "hour": [
-    "2026-07-17T14",
-    5
+    "2026-07-17T15",
+    1
   ]
 }
