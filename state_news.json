@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=319730",
     "https://bloodyelbow.com/?p=319736",
     "https://bloodyelbow.com/?p=319754",
     "https://bloodyelbow.com/?p=319764",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=457786",
     "https://www.mmamania.com/?p=457797",
     "https://www.mmamania.com/?p=457837",
+    "https://www.mmamania.com/?p=457871",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC told 1 Paddy Pimblett fight ‘sells itself’ as fans pick between Topuria, Tsarukyan and Oliveira",
-      "ts": "2026-07-15T23:00:00+00:00"
-    },
     {
       "t": "Flyweight contender Alex Perez’s ‘softball’ nuts are okay now, but they weren’t for a while &#124; Video",
       "ts": "2026-07-15T23:39:11+00:00"
@@ -1535,6 +1531,10 @@
     {
       "t": "Dana White addresses the Conor McGregor vs. Floyd Mayweather rematch rumors that followed UFC 329",
       "ts": "2026-07-17T22:57:45+00:00"
+    },
+    {
+      "t": "BKB 56 final press conference video, ‘Ortiz vs. Salcido’ weigh ins results",
+      "ts": "2026-07-17T23:18:50+00:00"
     }
   ],
   "digest_items": [
@@ -1565,11 +1565,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-17T22:57:45+00:00"
+    },
+    {
+      "title": "BKB 56 final press conference video, ‘Ortiz vs. Salcido’ weigh ins results",
+      "url": "https://www.mmamania.com/bare-knuckle-boxing-results-rules-ppv/457871/bkb-56-final-press-conference-video-ortiz-vs-salcido-weigh-ins-results",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-17T23:18:50+00:00"
     }
   ],
   "digest_last": "2026-07-17 21:30",
   "hour": [
-    "2026-07-17T22",
-    3
+    "2026-07-17T23",
+    1
   ]
 }
