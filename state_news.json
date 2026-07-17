@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=319606",
     "https://bloodyelbow.com/?p=319617",
     "https://bloodyelbow.com/?p=319629",
     "https://bloodyelbow.com/?p=319637",
@@ -718,6 +717,7 @@
     "https://www.mmafighting.com/?p=499716",
     "https://www.mmafighting.com/?p=499775",
     "https://www.mmafighting.com/?p=499780",
+    "https://www.mmafighting.com/?p=499810",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1539,6 +1539,10 @@
     {
       "t": "UFC Oklahoma City: Two fighters miss weight for Dricus du Plessis vs Kamaru Usman card",
       "ts": "2026-07-17T15:23:56+00:00"
+    },
+    {
+      "t": "UFC Oklahoma City weigh-in results: Chase Hooper, another misses weight",
+      "ts": "2026-07-17T15:40:51+00:00"
     }
   ],
   "digest_items": [
@@ -1758,11 +1762,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-17T15:23:56+00:00"
+    },
+    {
+      "title": "UFC Oklahoma City weigh-in results: Chase Hooper, another misses weight",
+      "url": "https://www.mmafighting.com/latest-news/499810/ufc-oklahoma-city-weigh-in-results-chase-hooper-another-misses-weight",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-17T15:40:51+00:00"
     }
   ],
   "digest_last": "2026-07-16 21:30",
   "hour": [
     "2026-07-17T15",
-    4
+    5
   ]
 }
