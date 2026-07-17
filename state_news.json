@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=319526",
     "https://bloodyelbow.com/?p=319533",
     "https://bloodyelbow.com/?p=319537",
     "https://bloodyelbow.com/?p=319540",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=457645",
     "https://www.mmamania.com/?p=457649",
     "https://www.mmamania.com/?p=457703",
+    "https://www.mmamania.com/?p=457715",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "8 fights announced for UFC Paris including Michael 'Venom' Page vs. Nursulton Ruziboev",
-      "ts": "2026-07-15T12:09:47+00:00"
-    },
     {
       "t": "Cody Garbrandt appears to backtrack on retirement decision in first statement since UFC 329 KO loss",
       "ts": "2026-07-15T13:00:00+00:00"
@@ -1527,6 +1523,10 @@
     {
       "t": "UFC Oklahoma City’s Jared Cannonier speaks out on fighter pay: ‘I should have million dollar contracts’",
       "ts": "2026-07-17T12:00:00+00:00"
+    },
+    {
+      "t": "Jared Cannonier says 'Fighters get the s—t end of the stick' when it comes to UFC pay",
+      "ts": "2026-07-17T12:41:34+00:00"
     }
   ],
   "digest_items": [
@@ -1648,11 +1648,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-17T12:00:00+00:00"
+    },
+    {
+      "title": "Jared Cannonier says 'Fighters get the s—t end of the stick' when it comes to UFC pay",
+      "url": "https://www.mmamania.com/ufc-news/457715/jared-cannonier-says-fighters-get-the-s-t-end-of-the-stick-when-it-comes-to-ufc-pay",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-17T12:41:34+00:00"
     }
   ],
   "digest_last": "2026-07-16 21:30",
   "hour": [
     "2026-07-17T12",
-    1
+    2
   ]
 }
