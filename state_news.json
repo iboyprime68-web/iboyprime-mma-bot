@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=319688",
     "https://bloodyelbow.com/?p=319690",
     "https://bloodyelbow.com/?p=319697",
     "https://bloodyelbow.com/?p=319707",
@@ -716,6 +715,7 @@
     "https://www.mmafighting.com/?p=499810",
     "https://www.mmafighting.com/?p=499850",
     "https://www.mmafighting.com/?p=499871",
+    "https://www.mmafighting.com/?p=499907",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1527,6 +1527,10 @@
     {
       "t": "Conor McGregor makes concerning drug admission when shutting down UFC 329 fan theories",
       "ts": "2026-07-17T18:30:00+00:00"
+    },
+    {
+      "t": "One-time UFC title challenger Irene Aldana removed from UFC roster",
+      "ts": "2026-07-17T19:52:24+00:00"
     }
   ],
   "digest_items": [
@@ -1816,11 +1820,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-17T18:30:00+00:00"
+    },
+    {
+      "title": "One-time UFC title challenger Irene Aldana removed from UFC roster",
+      "url": "https://www.mmafighting.com/ufc/499907/one-time-ufc-title-challenger-irene-aldana-removed-from-ufc-roster",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-17T19:52:24+00:00"
     }
   ],
   "digest_last": "2026-07-16 21:30",
   "hour": [
     "2026-07-17T20",
-    0
+    1
   ]
 }
