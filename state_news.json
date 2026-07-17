@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=319570",
     "https://bloodyelbow.com/?p=319578",
     "https://bloodyelbow.com/?p=319581",
     "https://bloodyelbow.com/?p=319590",
@@ -720,6 +719,7 @@
     "https://www.mmafighting.com/?p=499681",
     "https://www.mmafighting.com/?p=499695",
     "https://www.mmafighting.com/?p=499775",
+    "https://www.mmafighting.com/?p=499780",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1519,6 +1519,10 @@
     {
       "t": "Dricus Du Plessis completes 45lb weight cut as he successfully makes weight for UFC Oklahoma City",
       "ts": "2026-07-17T14:25:31+00:00"
+    },
+    {
+      "t": "UFC Oklahoma City weigh-in video: Du Plessis vs. Usman",
+      "ts": "2026-07-17T14:50:45+00:00"
     }
   ],
   "digest_items": [
@@ -1696,11 +1700,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-17T14:25:31+00:00"
+    },
+    {
+      "title": "UFC Oklahoma City weigh-in video: Du Plessis vs. Usman",
+      "url": "https://www.mmafighting.com/ufc/499780/ufc-oklahoma-city-weigh-in-video-du-plessis-vs-usman",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-17T14:50:45+00:00"
     }
   ],
   "digest_last": "2026-07-16 21:30",
   "hour": [
     "2026-07-17T14",
-    3
+    4
   ]
 }
