@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=319813",
     "https://bloodyelbow.com/?p=319818",
     "https://bloodyelbow.com/?p=319826",
     "https://bloodyelbow.com/?p=319828",
@@ -708,6 +707,7 @@
     "https://www.mmafighting.com/?p=499810",
     "https://www.mmafighting.com/?p=499850",
     "https://www.mmafighting.com/?p=499871",
+    "https://www.mmafighting.com/?p=499882",
     "https://www.mmafighting.com/?p=499907",
     "https://www.mmafighting.com/?p=499936",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
@@ -1523,6 +1523,10 @@
     {
       "t": "RAF 11 preview: Start time, full card, how to watch Tsarukyan vs Covington and Ben Askren’s return",
       "ts": "2026-07-18T02:00:00+00:00"
+    },
+    {
+      "t": "RAF 11 Results: Tsarukyan vs. Covington",
+      "ts": "2026-07-18T01:53:42+00:00"
     }
   ],
   "digest_items": [
@@ -1602,11 +1606,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-18T02:00:00+00:00"
+    },
+    {
+      "title": "RAF 11 Results: Tsarukyan vs. Covington",
+      "url": "https://www.mmafighting.com/raf-wrestling/499882/raf-11-results-tsarukyan-vs-covington",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-18T01:53:42+00:00"
     }
   ],
   "digest_last": "2026-07-17 21:30",
   "hour": [
     "2026-07-18T04",
-    1
+    2
   ]
 }
