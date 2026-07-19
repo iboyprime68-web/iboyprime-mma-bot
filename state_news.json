@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=320597",
     "https://bloodyelbow.com/?p=320600",
     "https://bloodyelbow.com/?p=320603",
     "https://bloodyelbow.com/?p=320606",
@@ -673,6 +672,7 @@
     "https://www.mmafighting.com/?p=500214",
     "https://www.mmafighting.com/?p=500233",
     "https://www.mmafighting.com/?p=500242",
+    "https://www.mmafighting.com/?p=500248",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1599,6 +1599,10 @@
     {
       "t": "Nassourdine Imavov shuts down talk of Dricus du Plessis stealing his UFC title shot with one word",
       "ts": "2026-07-19T20:00:00+00:00"
+    },
+    {
+      "t": "Kamaru Usman was compromised early against Dricus du Plessis after a punch to the eye: ‘That kind of blurred the vision a bit’",
+      "ts": "2026-07-19T16:29:33+00:00"
     }
   ],
   "digest_items": [
@@ -2000,11 +2004,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-19T20:00:00+00:00"
+    },
+    {
+      "title": "Kamaru Usman was compromised early against Dricus du Plessis after a punch to the eye: ‘That kind of blurred the vision a bit’",
+      "url": "https://www.mmafighting.com/latest-news/500248/kamaru-usman-was-compromised-early-against-dricus-du-plessis-after-a-punch-to-the-eye-that-kind-of-blurred-the-vision-a-bit",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-19T16:29:33+00:00"
     }
   ],
   "digest_last": "2026-07-18 21:30",
   "hour": [
     "2026-07-19T20",
-    1
+    2
   ]
 }
