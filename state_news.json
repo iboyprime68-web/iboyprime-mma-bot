@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=320537",
     "https://bloodyelbow.com/?p=320543",
     "https://bloodyelbow.com/?p=320548",
     "https://bloodyelbow.com/?p=320550",
@@ -942,6 +941,7 @@
     "https://www.mmamania.com/?p=458461",
     "https://www.mmamania.com/?p=458473",
     "https://www.mmamania.com/?p=458496",
+    "https://www.mmamania.com/?p=458532",
     "https://www.mmamania.com/?p=458575",
     "https://www.mmamania.com/?p=458593",
     "https://www.mmamania.com/?p=458597",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Conor McGregor ‘awaiting surgery’ for UFC 329 injury, suggests victory would have resurrected drug ‘cycle’",
-      "ts": "2026-07-17T16:09:50+00:00"
-    },
     {
       "t": "Conor McGregor rejects calls to fight Michael Chandler for his last UFC fight: ‘Has to be Holloway’",
       "ts": "2026-07-17T16:30:00+00:00"
@@ -1615,6 +1611,10 @@
     {
       "t": "Conor McGregor provides update on extent of his knee injury, gives timeline for UFC return",
       "ts": "2026-07-19T15:31:38+00:00"
+    },
+    {
+      "t": "UFC Oklahoma City, The Morning After: Dricus du Plessis levels up, but can he close the Khazmat gap?",
+      "ts": "2026-07-19T15:08:15+00:00"
     }
   ],
   "digest_items": [
@@ -1946,11 +1946,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-19T15:31:38+00:00"
+    },
+    {
+      "title": "UFC Oklahoma City, The Morning After: Dricus du Plessis levels up, but can he close the Khazmat gap?",
+      "url": "https://www.mmamania.com/ufc-results/458532/ufc-oklahoma-city-the-morning-after-dricus-du-plessis-levels-up-but-can-he-close-the-khazmat-gap",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-19T15:08:15+00:00"
     }
   ],
   "digest_last": "2026-07-18 21:30",
   "hour": [
     "2026-07-19T16",
-    1
+    2
   ]
 }
