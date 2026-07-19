@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=320460",
     "https://bloodyelbow.com/?p=320464",
     "https://bloodyelbow.com/?p=320468",
     "https://bloodyelbow.com/?p=320474",
@@ -679,6 +678,7 @@
     "https://www.mmafighting.com/?p=500186",
     "https://www.mmafighting.com/?p=500199",
     "https://www.mmafighting.com/?p=500204",
+    "https://www.mmafighting.com/?p=500214",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1619,6 +1619,10 @@
     {
       "t": "‘I’m no sorry loser’… Kamaru Usman complains about judges and phantom eye poke after Dricus du Plessis defeat",
       "ts": "2026-07-19T14:00:00+00:00"
+    },
+    {
+      "t": "Dana White reveals Conor McGregor’s injury details from UFC 329: ‘His knee is f*cked up’",
+      "ts": "2026-07-19T05:27:34+00:00"
     }
   ],
   "digest_items": [
@@ -1908,11 +1912,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-19T14:00:00+00:00"
+    },
+    {
+      "title": "Dana White reveals Conor McGregor’s injury details from UFC 329: ‘His knee is fcked up’",
+      "url": "https://www.mmafighting.com/latest-news/500214/dana-white-reveals-conor-mcgregors-injury-details-from-ufc-329-his-knee-is-fcked-up",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-19T05:27:34+00:00"
     }
   ],
   "digest_last": "2026-07-18 21:30",
   "hour": [
     "2026-07-19T14",
-    1
+    2
   ]
 }
