@@ -14,7 +14,8 @@
       "start": "2026-07-19T00:00:00+00:00",
       "label": "UFC Fight Night: Du Plessis vs. Usman",
       "thread_id": "1528177068368593131",
-      "reminded": true
+      "reminded": true,
+      "done": true
     },
     "600059549": {
       "league": "pfl",
@@ -24,9 +25,5 @@
       "reminded": true
     }
   },
-  "slowmode": {
-    "active_eid": "600059599",
-    "channel_id": "1515436426064429150",
-    "prev": 0
-  }
+  "slowmode": {}
 }
