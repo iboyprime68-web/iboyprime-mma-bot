@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=320378",
     "https://bloodyelbow.com/?p=320387",
     "https://bloodyelbow.com/?p=320395",
     "https://bloodyelbow.com/?p=320408",
@@ -944,6 +943,7 @@
     "https://www.mmamania.com/?p=458156",
     "https://www.mmamania.com/?p=458368",
     "https://www.mmamania.com/?p=458461",
+    "https://www.mmamania.com/?p=458473",
     "https://www.mmamania.com/?p=458496",
     "https://www.mmamania.com/?p=458575",
     "https://www.mmamania.com/?p=458593",
@@ -1623,6 +1623,10 @@
     {
       "t": "Dana White shuts down calls for Kamaru Usman to retire following UFC Oklahoma City loss",
       "ts": "2026-07-19T11:00:00+00:00"
+    },
+    {
+      "t": "UFC Oklahoma City results: Biggest winners, losers from ‘Du Plessis vs. Usman’ last night",
+      "ts": "2026-07-19T06:15:08+00:00"
     }
   ],
   "digest_items": [
@@ -1863,11 +1867,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-19T11:00:00+00:00"
+    },
+    {
+      "title": "UFC Oklahoma City results: Biggest winners, losers from ‘Du Plessis vs. Usman’ last night",
+      "url": "https://www.mmamania.com/latest-news/458473/ufc-oklahoma-city-results-biggest-winners-loser-from-du-plessis-vs-usman-last-night",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-19T06:15:08+00:00"
     }
   ],
   "digest_last": "2026-07-18 21:30",
   "hour": [
     "2026-07-19T11",
-    1
+    2
   ]
 }
