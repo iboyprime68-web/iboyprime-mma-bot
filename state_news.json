@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=320569",
     "https://bloodyelbow.com/?p=320579",
     "https://bloodyelbow.com/?p=320584",
     "https://bloodyelbow.com/?p=320590",
@@ -671,6 +670,7 @@
     "https://www.mmafighting.com/?p=500186",
     "https://www.mmafighting.com/?p=500199",
     "https://www.mmafighting.com/?p=500204",
+    "https://www.mmafighting.com/?p=500207",
     "https://www.mmafighting.com/?p=500214",
     "https://www.mmafighting.com/?p=500233",
     "https://www.mmafighting.com/?p=500242",
@@ -1615,6 +1615,10 @@
     {
       "t": "Fans want UFC move or Francis Ngannou fight for ex-heavyweight world champ who is now a free agent",
       "ts": "2026-07-19T18:00:00+00:00"
+    },
+    {
+      "t": "6 fights announced for UFC Noche",
+      "ts": "2026-07-19T04:54:21+00:00"
     }
   ],
   "digest_items": [
@@ -1981,11 +1985,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-19T18:00:00+00:00"
+    },
+    {
+      "title": "6 fights announced for UFC Noche",
+      "url": "https://www.mmafighting.com/ufc/500207/6-fights-announced-for-ufc-noche",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-19T04:54:21+00:00"
     }
   ],
   "digest_last": "2026-07-18 21:30",
   "hour": [
     "2026-07-19T18",
-    1
+    2
   ]
 }
