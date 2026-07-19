@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=320213",
     "https://bloodyelbow.com/?p=320215",
     "https://bloodyelbow.com/?p=320226",
     "https://bloodyelbow.com/?p=320233",
@@ -691,6 +690,7 @@
     "https://www.mmafighting.com/?p=499989",
     "https://www.mmafighting.com/?p=500040",
     "https://www.mmafighting.com/?p=500079",
+    "https://www.mmafighting.com/?p=500111",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1567,6 +1567,10 @@
     {
       "t": "RAF 11 live blog: Ben Askren vs. Belal Muhammad",
       "ts": "2026-07-19T03:05:07+00:00"
+    },
+    {
+      "t": "RAF 11 Results: Belal Muhammad outworks Ben Askren in Askren’s final match",
+      "ts": "2026-07-19T03:10:03+00:00"
     }
   ],
   "digest_items": [
@@ -1674,11 +1678,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-19T03:05:07+00:00"
+    },
+    {
+      "title": "RAF 11 Results: Belal Muhammad outworks Ben Askren in Askren’s final match",
+      "url": "https://www.mmafighting.com/latest-news/500111/raf-11-results-belal-muhammad-outworks-ben-askren-in-askrens-final-match",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-19T03:10:03+00:00"
     }
   ],
   "digest_last": "2026-07-18 21:30",
   "hour": [
     "2026-07-19T04",
-    4
+    5
   ]
 }
