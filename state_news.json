@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=320961",
     "https://bloodyelbow.com/?p=320970",
     "https://bloodyelbow.com/?p=320976",
     "https://bloodyelbow.com/?p=320980",
@@ -663,6 +662,7 @@
     "https://www.mmafighting.com/?p=500259",
     "https://www.mmafighting.com/?p=500275",
     "https://www.mmafighting.com/?p=500309",
+    "https://www.mmafighting.com/?p=500315",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Justin Gaethje told to vacate the lightweight title to set up Paddy Pimblett vacant title fight",
-      "ts": "2026-07-18T17:00:00+00:00"
-    },
-    {
       "t": "‘I’m getting too old for this sh-t’ — Dana White jumps into action after Ryan Garcia and Conor Benn start fighting on stage &#124; Video",
       "ts": "2026-07-18T18:15:07+00:00"
     },
@@ -1571,6 +1567,10 @@
     {
       "t": "Paddy Pimblett spends $14,000 to troll Ilia Topuria by owning a piece of his first UFC loss",
       "ts": "2026-07-20T16:59:24+00:00"
+    },
+    {
+      "t": "Dana White sounds off on World Cup production after final match: ‘You guys absolutely f*cking suck’",
+      "ts": "2026-07-20T14:43:41+00:00"
     }
   ],
   "digest_items": [
@@ -1748,11 +1748,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-20T16:59:24+00:00"
+    },
+    {
+      "title": "Dana White sounds off on World Cup production after final match: ‘You guys absolutely fcking suck’",
+      "url": "https://www.mmafighting.com/ufc/500315/dana-white-sounds-off-on-world-cup-production-after-final-match-you-guys-absolutely-fcking-suck",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-20T14:43:41+00:00"
     }
   ],
   "digest_last": "2026-07-19 21:30",
   "hour": [
-    "2026-07-20T16",
-    3
+    "2026-07-20T17",
+    1
   ]
 }
