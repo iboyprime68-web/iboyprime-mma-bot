@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=321362",
     "https://bloodyelbow.com/?p=321365",
     "https://bloodyelbow.com/?p=321369",
     "https://bloodyelbow.com/?p=321376",
@@ -646,6 +645,7 @@
     "https://www.mmafighting.com/?p=500369",
     "https://www.mmafighting.com/?p=500440",
     "https://www.mmafighting.com/?p=500464",
+    "https://www.mmafighting.com/?p=500500",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1467,6 +1467,10 @@
     {
       "t": "UFC’s record-setting submission ace vows to beat Gable Steveson, spit in Jon Jones’ face",
       "ts": "2026-07-21T20:18:02+00:00"
+    },
+    {
+      "t": "Dustin Poirier reveals Bud Light ‘terminated my contract immediately’ after arrest for public drunkenness",
+      "ts": "2026-07-21T21:00:46+00:00"
     }
   ],
   "digest_items": [
@@ -1721,11 +1725,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-07-21T20:18:02+00:00"
+    },
+    {
+      "title": "Dustin Poirier reveals Bud Light ‘terminated my contract immediately’ after arrest for public drunkenness",
+      "url": "https://www.mmafighting.com/ufc/500500/dustin-poirier-reveals-bud-light-terminated-my-contract-immediately-after-arrest-for-public-drunkenness",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-21T21:00:46+00:00"
     }
   ],
   "digest_last": "2026-07-20 21:30",
   "hour": [
     "2026-07-21T21",
-    0
+    1
   ]
 }
