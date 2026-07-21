@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=321339",
     "https://bloodyelbow.com/?p=321346",
     "https://bloodyelbow.com/?p=321353",
     "https://bloodyelbow.com/?p=321357",
@@ -647,6 +646,7 @@
     "https://www.mmafighting.com/?p=500365",
     "https://www.mmafighting.com/?p=500369",
     "https://www.mmafighting.com/?p=500440",
+    "https://www.mmafighting.com/?p=500464",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1467,6 +1467,10 @@
     {
       "t": "Paddy Pimblett explains what makes him the self proclaimed ‘GOAT of weight cutting’",
       "ts": "2026-07-21T19:00:00+00:00"
+    },
+    {
+      "t": "RAF exec gives update on Colby Covington vs. Belal Muhammad match after RAF 11 post-event melee",
+      "ts": "2026-07-21T17:55:47+00:00"
     }
   ],
   "digest_items": [
@@ -1700,11 +1704,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-21T19:00:00+00:00"
+    },
+    {
+      "title": "RAF exec gives update on Colby Covington vs. Belal Muhammad match after RAF 11 post-event melee",
+      "url": "https://www.mmafighting.com/raf-wrestling/500464/raf-exec-gives-update-on-colby-covington-vs-belal-muhammad-match-after-raf-11-post-event-melee",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-21T17:55:47+00:00"
     }
   ],
   "digest_last": "2026-07-20 21:30",
   "hour": [
     "2026-07-21T19",
-    1
+    2
   ]
 }
