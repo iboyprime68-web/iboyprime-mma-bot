@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=321217",
     "https://bloodyelbow.com/?p=321226",
     "https://bloodyelbow.com/?p=321236",
     "https://bloodyelbow.com/?p=321242",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=458828",
     "https://www.mmamania.com/?p=458850",
     "https://www.mmamania.com/?p=458880",
+    "https://www.mmamania.com/?p=458891",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Greg Hardy defends heavyweight title with TKO win over former UFC fighter",
-      "ts": "2026-07-19T12:00:00+00:00"
-    },
     {
       "t": "Conor McGregor injury update: Irish sports star suffered two tears in his knee",
       "ts": "2026-07-19T12:45:40+00:00"
@@ -1487,6 +1483,10 @@
     {
       "t": "Paddy Pimblett called out for lying by fan who really purchased $14,000 Ilia Topuria collector’s item",
       "ts": "2026-07-21T11:35:13+00:00"
+    },
+    {
+      "t": "Fake! Ilia Topuria super fan bought UFC White House stool to stop Paddy Pimblett from 'using it against him'",
+      "ts": "2026-07-21T11:35:16+00:00"
     }
   ],
   "digest_items": [
@@ -1601,11 +1601,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-21T11:35:13+00:00"
+    },
+    {
+      "title": "Fake! Ilia Topuria super fan bought UFC White House stool to stop Paddy Pimblett from 'using it against him'",
+      "url": "https://www.mmamania.com/ufc-news/458891/fake-ilia-topuria-super-fan-bought-ufc-white-house-stool-to-stop-paddy-pimblett-from-using-it-against-him",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-21T11:35:16+00:00"
     }
   ],
   "digest_last": "2026-07-20 21:30",
   "hour": [
-    "2026-07-21T11",
-    2
+    "2026-07-21T12",
+    1
   ]
 }
