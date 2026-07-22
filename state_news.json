@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=321599",
     "https://bloodyelbow.com/?p=321601",
     "https://bloodyelbow.com/?p=321612",
     "https://bloodyelbow.com/?p=321627",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=458951",
     "https://www.mmamania.com/?p=458980",
     "https://www.mmamania.com/?p=458988",
+    "https://www.mmamania.com/?p=459012",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Can’t-win Conor McGregor coughs up $100k in failed World Cup bet, praises Jesus anyway",
-      "ts": "2026-07-20T13:40:58+00:00"
-    },
     {
       "t": "Israel Adesanya finds positives in reaction to Dricus du Plessis beating Kamaru Usman: ‘Good for us’",
       "ts": "2026-07-20T14:00:00+00:00"
@@ -1515,6 +1511,10 @@
     {
       "t": "Dustin Poirier’s telling prediction for Conor McGregor now after injury setback against Max Holloway at UFC 329",
       "ts": "2026-07-22T13:00:00+00:00"
+    },
+    {
+      "t": "CSAC quiets crybabies (like Alex Pereira) calling for UFC referee change — ‘Herb Dean has my full confidence’",
+      "ts": "2026-07-22T13:44:08+00:00"
     }
   ],
   "digest_items": [
@@ -1699,11 +1699,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-22T13:00:00+00:00"
+    },
+    {
+      "title": "CSAC quiets crybabies (like Alex Pereira) calling for UFC referee change — ‘Herb Dean has my full confidence’",
+      "url": "https://www.mmamania.com/ufc-news/459012/csac-quiets-crybabies-like-alex-pereira-calling-ufc-referee-change-herb-dean-has-my-full-confidence",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-22T13:44:08+00:00"
     }
   ],
   "digest_last": "2026-07-21 21:30",
   "hour": [
     "2026-07-22T13",
-    4
+    5
   ]
 }
