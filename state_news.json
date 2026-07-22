@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=321766",
     "https://bloodyelbow.com/?p=321779",
     "https://bloodyelbow.com/?p=321788",
     "https://bloodyelbow.com/?p=321800",
@@ -630,6 +629,7 @@
     "https://www.mmafighting.com/?p=500525",
     "https://www.mmafighting.com/?p=500547",
     "https://www.mmafighting.com/?p=500549",
+    "https://www.mmafighting.com/?p=500576",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1531,6 +1531,10 @@
     {
       "t": "Valter Walker reveals goal of earning UFC title shot by replicating Ronda Rousey’s submission run",
       "ts": "2026-07-22T21:00:00+00:00"
+    },
+    {
+      "t": "UFC fighter Jessica Andrade delivering food to make money while sidelined with injury: ‘I'm not afraid of hard work’",
+      "ts": "2026-07-22T19:33:39+00:00"
     }
   ],
   "digest_items": [
@@ -1841,11 +1845,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-22T21:00:00+00:00"
+    },
+    {
+      "title": "UFC fighter Jessica Andrade delivering food to make money while sidelined with injury: ‘I'm not afraid of hard work’",
+      "url": "https://www.mmafighting.com/ufc/500576/ufc-fighter-jessica-andrade-delivering-food-to-make-money-while-sidelined-with-injury-im-not-afraid-of-hard-work",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-22T19:33:39+00:00"
     }
   ],
   "digest_last": "2026-07-21 21:30",
   "hour": [
     "2026-07-22T21",
-    1
+    2
   ]
 }
