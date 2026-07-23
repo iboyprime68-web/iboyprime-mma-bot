@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=322058",
     "https://bloodyelbow.com/?p=322067",
     "https://bloodyelbow.com/?p=322071",
     "https://bloodyelbow.com/?p=322079",
@@ -616,6 +615,7 @@
     "https://www.mmafighting.com/?p=500576",
     "https://www.mmafighting.com/?p=500587",
     "https://www.mmafighting.com/?p=500695",
+    "https://www.mmafighting.com/?p=500772",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Vegas 120 fight card, start time, date and location &#124; Gamrot vs. Salkilld",
-      "ts": "2026-07-21T16:42:48+00:00"
-    },
-    {
       "t": "Valter Walker not scared of ‘small’ Josh Hokit, unimpressed by Gable Steveson’s UFC debut: ‘I’ll take all of them’",
       "ts": "2026-07-21T16:54:23+00:00"
     },
@@ -1575,6 +1571,10 @@
     {
       "t": "Joshua vs. Prenga press conference video, LIVE stream interviews &#124; The Comeback",
       "ts": "2026-07-23T16:01:26+00:00"
+    },
+    {
+      "t": "UFC 330: Islam Makhachev vs. Ian Machado Garry loses flyweight contender bout",
+      "ts": "2026-07-23T16:49:45+00:00"
     }
   ],
   "digest_items": [
@@ -1808,11 +1808,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-07-23T16:01:26+00:00"
+    },
+    {
+      "title": "UFC 330: Islam Makhachev vs. Ian Machado Garry loses flyweight contender bout",
+      "url": "https://www.mmafighting.com/ufc/500772/ufc-330-islam-makhachev-vs-ian-machado-garry-loses-flyweight-contender-bout",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-23T16:49:45+00:00"
     }
   ],
   "digest_last": "2026-07-22 21:30",
   "hour": [
     "2026-07-23T16",
-    2
+    3
   ]
 }
