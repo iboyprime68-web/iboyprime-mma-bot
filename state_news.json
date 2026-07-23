@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=322237",
     "https://bloodyelbow.com/?p=322269",
     "https://bloodyelbow.com/?p=322276",
     "https://bloodyelbow.com/?p=322279",
@@ -610,6 +609,7 @@
     "https://www.mmafighting.com/?p=500708",
     "https://www.mmafighting.com/?p=500761",
     "https://www.mmafighting.com/?p=500772",
+    "https://www.mmafighting.com/?p=500816",
     "https://www.mmafighting.com/?p=500820",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Jon Jones claims all of his major MMA ‘setbacks’ circle back on one critical mistake he made",
-      "ts": "2026-07-21T23:00:00+00:00"
-    },
-    {
       "t": "Top-ranked Flyweight contender reveals UFC uses social media followers to book main events &#8211; ‘I was pissed’",
       "ts": "2026-07-21T23:13:29+00:00"
     },
@@ -1575,6 +1571,10 @@
     {
       "t": "Damage! Darren Elkins returns, added to UFC Vegas 120 against Cuban prospect",
       "ts": "2026-07-23T22:06:39+00:00"
+    },
+    {
+      "t": "UFC Vegas 120 adds new bouts including 30-fight octagon veteran",
+      "ts": "2026-07-23T21:28:20+00:00"
     }
   ],
   "digest_items": [
@@ -1591,11 +1591,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-07-23T22:06:39+00:00"
+    },
+    {
+      "title": "UFC Vegas 120 adds new bouts including 30-fight octagon veteran",
+      "url": "https://www.mmafighting.com/ufc/500816/ufc-vegas-120-adds-new-bouts-including-30-fight-octagon-veteran",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-23T21:28:20+00:00"
     }
   ],
   "digest_last": "2026-07-23 21:30",
   "hour": [
-    "2026-07-23T22",
-    2
+    "2026-07-23T23",
+    1
   ]
 }
