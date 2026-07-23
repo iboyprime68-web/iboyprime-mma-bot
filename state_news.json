@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=322175",
     "https://bloodyelbow.com/?p=322178",
     "https://bloodyelbow.com/?p=322208",
     "https://bloodyelbow.com/?p=322211",
@@ -611,6 +610,7 @@
     "https://www.mmafighting.com/?p=500576",
     "https://www.mmafighting.com/?p=500587",
     "https://www.mmafighting.com/?p=500695",
+    "https://www.mmafighting.com/?p=500708",
     "https://www.mmafighting.com/?p=500761",
     "https://www.mmafighting.com/?p=500772",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dustin Poirier reveals Bud Light ‘terminated my contract immediately’ after arrest for public drunkenness",
-      "ts": "2026-07-21T21:00:46+00:00"
-    },
-    {
       "t": "Dustin Poirier details conversations with the UFC having immediately lost sponsor after viral arrest",
       "ts": "2026-07-21T21:30:00+00:00"
     },
@@ -1579,6 +1575,10 @@
     {
       "t": "Ian Machado Garry embraces his ‘feminine side’ ahead of UFC 330: ‘I cry watching Disney films’",
       "ts": "2026-07-23T21:00:00+00:00"
+    },
+    {
+      "t": "Ismael Bonfim ‘finally got serious’ with diet after collapsing on scale before UFC fight",
+      "ts": "2026-07-23T16:22:24+00:00"
     }
   ],
   "digest_items": [
@@ -1896,11 +1896,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-23T21:00:00+00:00"
+    },
+    {
+      "title": "Ismael Bonfim ‘finally got serious’ with diet after collapsing on scale before UFC fight",
+      "url": "https://www.mmafighting.com/ufc/500708/ismael-bonfim-finally-got-serious-with-diet-after-collapsing-on-scale-before-ufc-fight",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-23T16:22:24+00:00"
     }
   ],
   "digest_last": "2026-07-22 21:30",
   "hour": [
     "2026-07-23T21",
-    1
+    2
   ]
 }
