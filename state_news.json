@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=322637",
     "https://bloodyelbow.com/?p=322644",
     "https://bloodyelbow.com/?p=322648",
     "https://bloodyelbow.com/?p=322653",
@@ -946,6 +945,7 @@
     "https://www.mmamania.com/?p=459348",
     "https://www.mmamania.com/?p=459408",
     "https://www.mmamania.com/?p=459453",
+    "https://www.mmamania.com/?p=459482",
     "https://www.mmamania.com/?p=459483",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1563,6 +1563,10 @@
     {
       "t": "UFC Abu Dhabi Preview Show: Are Magomed Ankalaev and Bogdan Guskov in a title eliminator?",
       "ts": "2026-07-24T19:05:50+00:00"
+    },
+    {
+      "t": "‘King of Violence’ returns! Mike Perry vs. Dillon Danis MMA fight announced for Aug. 29 in Orlando",
+      "ts": "2026-07-24T19:10:39+00:00"
     }
   ],
   "digest_items": [
@@ -1838,11 +1842,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-24T19:05:50+00:00"
+    },
+    {
+      "title": "‘King of Violence’ returns! Mike Perry vs. Dillon Danis MMA fight announced for Aug. 29 in Orlando",
+      "url": "https://www.mmamania.com/latest-news/459482/king-of-violence-returns-mike-perry-vs-dillon-danis-mma-fight-announced-for-aug-29-in-orlando",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-24T19:10:39+00:00"
     }
   ],
   "digest_last": "2026-07-23 21:30",
   "hour": [
     "2026-07-24T20",
-    3
+    4
   ]
 }
