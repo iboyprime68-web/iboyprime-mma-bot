@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=322480",
     "https://bloodyelbow.com/?p=322492",
     "https://bloodyelbow.com/?p=322501",
     "https://bloodyelbow.com/?p=322507",
@@ -601,6 +600,7 @@
     "https://www.mmafighting.com/?p=500772",
     "https://www.mmafighting.com/?p=500816",
     "https://www.mmafighting.com/?p=500820",
+    "https://www.mmafighting.com/?p=500920",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "CSAC quiets crybabies (like Alex Pereira) calling for UFC referee change — ‘Herb Dean has my full confidence’",
-      "ts": "2026-07-22T13:44:08+00:00"
-    },
-    {
-      "t": "Herb Dean set to referee upcoming UFC title fight after receiving ‘full confidence’ from commission",
-      "ts": "2026-07-22T14:00:00+00:00"
-    },
-    {
       "t": "Kamaru Usman addresses future in first post since Dricus du Plessis loss following retirement calls",
       "ts": "2026-07-22T15:00:00+00:00"
     },
@@ -1575,6 +1567,10 @@
     {
       "t": "UFC re-sign 6ft 7in star who was set to face Francis Ngannou after KO on Ronda Rousey’s Netflix card",
       "ts": "2026-07-24T13:37:53+00:00"
+    },
+    {
+      "t": "UFC Abu Dhabi weigh-in results: Magomed Ankalaev vs. Bogdan Guskov set",
+      "ts": "2026-07-24T13:05:42+00:00"
     }
   ],
   "digest_items": [
@@ -1724,11 +1720,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-24T13:37:53+00:00"
+    },
+    {
+      "title": "UFC Abu Dhabi weigh-in results: Magomed Ankalaev vs. Bogdan Guskov set",
+      "url": "https://www.mmafighting.com/ufc/500920/ufc-abu-dhabi-weigh-in-results-magomed-ankalaev-vs-bogdan-guskov-set",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-24T13:05:42+00:00"
     }
   ],
   "digest_last": "2026-07-23 21:30",
   "hour": [
-    "2026-07-24T13",
-    5
+    "2026-07-24T14",
+    1
   ]
 }
