@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=322668",
     "https://bloodyelbow.com/?p=322672",
     "https://bloodyelbow.com/?p=322686",
     "https://bloodyelbow.com/?p=322690",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=459453",
     "https://www.mmamania.com/?p=459482",
     "https://www.mmamania.com/?p=459483",
+    "https://www.mmamania.com/?p=459522",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Josh Hokit takes credit for Ryan Clark’s ESPN firing with ‘curse’ after Dana White podcast question",
-      "ts": "2026-07-22T22:30:00+00:00"
-    },
     {
       "t": "Jon Jones thinks UFC’s ‘perfect athlete’ is a ‘lot like me’ and can reach ‘very high level’ in his career",
       "ts": "2026-07-22T23:00:00+00:00"
@@ -1563,6 +1559,10 @@
     {
       "t": "Renato Moicano vs. Brian Ortega rematch targeted for UFC 331",
       "ts": "2026-07-24T21:52:15+00:00"
+    },
+    {
+      "t": "Report: Top MMA free agent Salahdine Parnasse signs with UFC, draws UFC Paris main event opposite Dan Hooker",
+      "ts": "2026-07-24T22:40:42+00:00"
     }
   ],
   "digest_items": [
@@ -1579,11 +1579,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-24T21:52:15+00:00"
+    },
+    {
+      "title": "Report: Top MMA free agent Salahdine Parnasse signs with UFC, draws UFC Paris main event opposite Dan Hooker",
+      "url": "https://www.mmamania.com/latest-news/459522/report-top-mma-free-agent-salahdine-parnasse-signs-with-ufc-draws-ufc-paris-main-event-opposite-dan-hooker",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-24T22:40:42+00:00"
     }
   ],
   "digest_last": "2026-07-24 21:30",
   "hour": [
     "2026-07-24T22",
-    2
+    3
   ]
 }
