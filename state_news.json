@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=322335",
     "https://bloodyelbow.com/?p=322345",
     "https://bloodyelbow.com/?p=322363",
     "https://bloodyelbow.com/?p=322370",
@@ -156,6 +155,7 @@
     "https://www.mmafighting.com/499736/dnp-morning-report-template-dnp",
     "https://www.mmafighting.com/500282/dnp-morning-report-template-dnp",
     "https://www.mmafighting.com/500372/dnp-morning-report-template-dnp",
+    "https://www.mmafighting.com/500668/ufc-baku-weigh-in-video-fiziev-vs-torres",
     "https://www.mmafighting.com/?p=474919",
     "https://www.mmafighting.com/?p=482774",
     "https://www.mmafighting.com/?p=486598",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Jorge Masvidal throws out ‘crazy’ next fight pick for Khamzat Chimaev, Dustin Poirier immediately reacts",
-      "ts": "2026-07-22T04:00:00+00:00"
-    },
-    {
       "t": "Ex-title challenger Brandon Royval was told by UFC he didn’t have enough followers to headline event",
       "ts": "2026-07-22T05:00:00+00:00"
     },
@@ -1571,6 +1567,10 @@
     {
       "t": "Justin Gaethje laughs off Ilia Topuria rematch request: ‘Arman deserves it way more’",
       "ts": "2026-07-24T02:10:41+00:00"
+    },
+    {
+      "t": "UFC Abu Dhabi weigh-in video: Ankalaev vs. Guskov",
+      "ts": "2026-07-24T00:59:55+00:00"
     }
   ],
   "digest_items": [
@@ -1636,11 +1636,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-07-24T02:10:41+00:00"
+    },
+    {
+      "title": "UFC Abu Dhabi weigh-in video: Ankalaev vs. Guskov",
+      "url": "https://www.mmafighting.com/ufc/500668/ufc-abu-dhabi-weigh-in-video-ankalaev-vs-guskov",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-24T00:59:55+00:00"
     }
   ],
   "digest_last": "2026-07-23 21:30",
   "hour": [
-    "2026-07-24T03",
-    3
+    "2026-07-24T04",
+    1
   ]
 }
