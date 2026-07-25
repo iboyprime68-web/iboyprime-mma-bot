@@ -22,12 +22,9 @@
       "start": "2026-07-25T16:00:00+00:00",
       "label": "UFC Fight Night: Ankalaev vs. Guskov",
       "thread_id": "1530587603353604329",
-      "reminded": true
+      "reminded": true,
+      "done": true
     }
   },
-  "slowmode": {
-    "active_eid": "600059667",
-    "channel_id": "1515436426064429150",
-    "prev": 0
-  }
+  "slowmode": {}
 }
