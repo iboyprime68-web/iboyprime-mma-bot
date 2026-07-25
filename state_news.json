@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=322702",
     "https://bloodyelbow.com/?p=322711",
     "https://bloodyelbow.com/?p=322716",
     "https://bloodyelbow.com/?p=322720",
@@ -942,6 +941,7 @@
     "https://www.mmamania.com/?p=459329",
     "https://www.mmamania.com/?p=459335",
     "https://www.mmamania.com/?p=459348",
+    "https://www.mmamania.com/?p=459392",
     "https://www.mmamania.com/?p=459408",
     "https://www.mmamania.com/?p=459453",
     "https://www.mmamania.com/?p=459482",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Dustin Poirier asked his documentary director how he was going to sabotage himself before arrest",
-      "ts": "2026-07-23T00:30:00+00:00"
-    },
     {
       "t": "Tom Aspinall claims UFC fans ‘confused’ two things about his obsession to face Jon Jones in super-fight",
       "ts": "2026-07-23T01:00:00+00:00"
@@ -1567,6 +1563,10 @@
     {
       "t": "Patricio Pitbull vs. Doo Ho Choi added to UFC 331 in Los Angeles",
       "ts": "2026-07-25T00:16:42+00:00"
+    },
+    {
+      "t": "‘I thought your knee was cooked?’ — Fans react to Conor McGregor’s suspicious leg workout just two weeks after tearing ACL at UFC 329 &#124; Video",
+      "ts": "2026-07-24T21:28:27+00:00"
     }
   ],
   "digest_items": [
@@ -1618,11 +1618,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-25T00:16:42+00:00"
+    },
+    {
+      "title": "‘I thought your knee was cooked?’ — Fans react to Conor McGregor’s suspicious leg workout just two weeks after tearing ACL at UFC 329 &124; Video",
+      "url": "https://www.mmamania.com/latest-news/459392/fans-react-to-conor-mcgregors-leg-workout-just-two-weeks-after-tearing-acl-at-ufc-329-video",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-24T21:28:27+00:00"
     }
   ],
   "digest_last": "2026-07-24 21:30",
   "hour": [
     "2026-07-25T00",
-    2
+    3
   ]
 }
