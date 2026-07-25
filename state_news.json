@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=322987",
     "https://bloodyelbow.com/?p=322995",
     "https://bloodyelbow.com/?p=322998",
     "https://bloodyelbow.com/?p=323010",
@@ -50,6 +49,7 @@
     "https://bloodyelbow.com/?p=323461",
     "https://bloodyelbow.com/?p=323483",
     "https://bloodyelbow.com/?p=323494",
+    "https://bloodyelbow.com/?p=323498",
     "https://www.mmafighting.com/493072/dnp-morning-report-template-dnp",
     "https://www.mmafighting.com/493371/dnp-anything-but-fighting-mauricio-ruffy-loves-one-piece-monkey-d-luffy",
     "https://www.mmafighting.com/493793/ufc-328-weigh-in-video-chimaev-vs-strickland",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev’s UFC 330 undercard loses fight featuring top 5 contender due to injury",
-      "ts": "2026-07-23T17:30:50+00:00"
-    },
-    {
       "t": "‘I guess this is it’… KSI describes recent elevator standoff with Dillon Danis",
       "ts": "2026-07-23T18:00:00+00:00"
     },
@@ -1567,6 +1563,10 @@
     {
       "t": "Khamzat Chimaev stuns Daniel Cormier by playing an unlikely role at UFC Abu Dhabi",
       "ts": "2026-07-25T17:15:25+00:00"
+    },
+    {
+      "t": "‘John Pork’ wins UFC debut: Magomed Zaynukov scores gruesome win over Damian Rzepecki at UFC Abu Dhabi",
+      "ts": "2026-07-25T17:42:14+00:00"
     }
   ],
   "digest_items": [
@@ -1842,11 +1842,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-25T17:15:25+00:00"
+    },
+    {
+      "title": "‘John Pork’ wins UFC debut: Magomed Zaynukov scores gruesome win over Damian Rzepecki at UFC Abu Dhabi",
+      "url": "https://bloodyelbow.com/2026/07/25/john-pork-wins-ufc-debut-magomed-zaynukov-scores-gruesome-win-over-damian-rzepecki-at-ufc-abu-dhabi/",
+      "source": "Bloody Elbow",
+      "cat": "ufc",
+      "ts": "2026-07-25T17:42:14+00:00"
     }
   ],
   "digest_last": "2026-07-24 21:30",
   "hour": [
     "2026-07-25T17",
-    1
+    2
   ]
 }
