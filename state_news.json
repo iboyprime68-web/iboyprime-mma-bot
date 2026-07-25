@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=322995",
     "https://bloodyelbow.com/?p=322998",
     "https://bloodyelbow.com/?p=323010",
     "https://bloodyelbow.com/?p=323023",
@@ -576,6 +575,7 @@
     "https://www.mmafighting.com/?p=501218",
     "https://www.mmafighting.com/?p=501232",
     "https://www.mmafighting.com/?p=501233",
+    "https://www.mmafighting.com/?p=501286",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1567,6 +1567,10 @@
     {
       "t": "‘John Pork’ wins UFC debut: Magomed Zaynukov scores gruesome win over Damian Rzepecki at UFC Abu Dhabi",
       "ts": "2026-07-25T17:42:14+00:00"
+    },
+    {
+      "t": "UFC Abu Dhabi results: Magomed Zaynukov stays undefeated in impressive UFC debut",
+      "ts": "2026-07-25T17:53:05+00:00"
     }
   ],
   "digest_items": [
@@ -1849,11 +1853,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-25T17:42:14+00:00"
+    },
+    {
+      "title": "UFC Abu Dhabi results: Magomed Zaynukov stays undefeated in impressive UFC debut",
+      "url": "https://www.mmafighting.com/ufc/501286/ufc-abu-dhabi-results-magomed-zaynukov-stays-undefeated-in-impressive-ufc-debut",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-25T17:53:05+00:00"
     }
   ],
   "digest_last": "2026-07-24 21:30",
   "hour": [
     "2026-07-25T17",
-    2
+    3
   ]
 }
