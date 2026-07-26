@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=323554",
     "https://bloodyelbow.com/?p=323566",
     "https://bloodyelbow.com/?p=323581",
     "https://bloodyelbow.com/?p=323583",
@@ -544,6 +543,7 @@
     "https://www.mmafighting.com/?p=501232",
     "https://www.mmafighting.com/?p=501233",
     "https://www.mmafighting.com/?p=501286",
+    "https://www.mmafighting.com/?p=501292",
     "https://www.mmafighting.com/?p=501312",
     "https://www.mmafighting.com/?p=501317",
     "https://www.mmafighting.com/?p=501325",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Josh Hokit promises the UFC record-breaking activity if he becomes heavyweight champion",
-      "ts": "2026-07-24T21:00:00+00:00"
-    },
-    {
       "t": "12-1 UFC Abu Dhabi star would refuse to fight Islam Makhachev due to ‘politics’",
       "ts": "2026-07-24T22:00:00+00:00"
     },
@@ -1547,6 +1543,10 @@
     {
       "t": "UFC Abu Dhabi loser backtracks after calling for opponent’s release: ‘Severely disappointed in myself’",
       "ts": "2026-07-26T20:00:00+00:00"
+    },
+    {
+      "t": "2 new fights added to Noche UFC, including Dan Ige’s bantamweight debut",
+      "ts": "2026-07-25T23:16:37+00:00"
     }
   ],
   "digest_items": [
@@ -1759,11 +1759,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-26T20:00:00+00:00"
+    },
+    {
+      "title": "2 new fights added to Noche UFC, including Dan Ige’s bantamweight debut",
+      "url": "https://www.mmafighting.com/ufc/501292/2-new-fights-added-to-noche-ufc-including-dan-iges-bantamweight-debut",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-25T23:16:37+00:00"
     }
   ],
   "digest_last": "2026-07-25 21:30",
   "hour": [
-    "2026-07-26T20",
+    "2026-07-26T21",
     1
   ]
 }
