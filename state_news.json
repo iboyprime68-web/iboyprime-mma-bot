@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=323531",
     "https://bloodyelbow.com/?p=323535",
     "https://bloodyelbow.com/?p=323544",
     "https://bloodyelbow.com/?p=323549",
@@ -555,6 +554,7 @@
     "https://www.mmafighting.com/?p=501390",
     "https://www.mmafighting.com/?p=501402",
     "https://www.mmafighting.com/?p=501404",
+    "https://www.mmafighting.com/?p=501432",
     "https://www.mmafighting.com/?p=501483",
     "https://www.mmafighting.com/?p=501524",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
@@ -1261,10 +1261,6 @@
       "ts": "2026-07-24T21:28:27+00:00"
     },
     {
-      "t": "Santiago Ponzinibbio takes lessons from Argentina’s World Cup run ahead of UFC Abu Dhabi",
-      "ts": "2026-07-24T19:00:26+00:00"
-    },
-    {
       "t": "Justin Gaethje predicted to retire due to ‘maternal pressure’ after title win by UFC commentator",
       "ts": "2026-07-25T01:00:00+00:00"
     },
@@ -1559,6 +1555,10 @@
     {
       "t": "New MMA champion crowned after scary head kick KO in promotion Alex Pereira and Jose Aldo fought in",
       "ts": "2026-07-26T19:00:00+00:00"
+    },
+    {
+      "t": "Video: Fighter gets kicked out of the ring by opponent, returns and scores vicious knockout",
+      "ts": "2026-07-25T23:14:09+00:00"
     }
   ],
   "digest_items": [
@@ -1750,11 +1750,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-26T19:00:00+00:00"
+    },
+    {
+      "title": "Video: Fighter gets kicked out of the ring by opponent, returns and scores vicious knockout",
+      "url": "https://www.mmafighting.com/latest-news/501432/video-fighter-gets-kicked-out-of-the-ring-by-opponent-returns-and-scores-vicious-knockout",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-25T23:14:09+00:00"
     }
   ],
   "digest_last": "2026-07-25 21:30",
   "hour": [
     "2026-07-26T19",
-    1
+    2
   ]
 }
