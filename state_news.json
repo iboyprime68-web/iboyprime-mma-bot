@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=323413",
     "https://bloodyelbow.com/?p=323432",
     "https://bloodyelbow.com/?p=323434",
     "https://bloodyelbow.com/?p=323452",
@@ -941,6 +940,7 @@
     "https://www.mmamania.com/?p=459759",
     "https://www.mmamania.com/?p=459961",
     "https://www.mmamania.com/?p=459978",
+    "https://www.mmamania.com/?p=460080",
     "https://www.mmamania.com/?p=460106",
     "https://www.mmamania.com/?p=460198",
     "https://www.mmamania.com/?p=460253",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC re-signs Olympian Robelis Despaigne, probably to screw Francis Ngannou and MVP",
-      "ts": "2026-07-24T14:07:16+00:00"
-    },
     {
       "t": "Video: Conor McGregor shows off leg workout following UFC 329 injury",
       "ts": "2026-07-24T14:33:25+00:00"
@@ -1571,6 +1567,10 @@
     {
       "t": "Salahdine Parnasse headlines UFC Paris in octagon debut vs. Dan Hooker",
       "ts": "2026-07-26T12:47:55+00:00"
+    },
+    {
+      "t": "UFC Abu Dhabi, The Morning After: Underwhelming Magomed Ankalaev continues to leave food on the table",
+      "ts": "2026-07-26T00:12:00+00:00"
     }
   ],
   "digest_items": [
@@ -1699,11 +1699,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-26T12:47:55+00:00"
+    },
+    {
+      "title": "UFC Abu Dhabi, The Morning After: Underwhelming Magomed Ankalaev continues to leave food on the table",
+      "url": "https://www.mmamania.com/ufc-results/460080/ufc-abu-dhabi-the-morning-after-underwhelming-magomed-ankalaev-continues-to-leave-food-on-the-table",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-26T00:12:00+00:00"
     }
   ],
   "digest_last": "2026-07-25 21:30",
   "hour": [
     "2026-07-26T14",
-    1
+    2
   ]
 }
