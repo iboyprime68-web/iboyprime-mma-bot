@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://bloodyelbow.com/?p=323709",
     "https://bloodyelbow.com/?p=323715",
     "https://bloodyelbow.com/?p=323719",
     "https://bloodyelbow.com/?p=323723",
@@ -58,6 +57,7 @@
     "https://www.mmafighting.com/500680/dnp-morning-report-template-dnp",
     "https://www.mmafighting.com/500767/ufc-baku-predictions",
     "https://www.mmafighting.com/501147/ufc-baku-live-blog-rafael-fiziev-vs-manuel-torres",
+    "https://www.mmafighting.com/501536/dnp-morning-report-template-dnp",
     "https://www.mmafighting.com/?p=474919",
     "https://www.mmafighting.com/?p=482774",
     "https://www.mmafighting.com/?p=486598",
@@ -1535,6 +1535,10 @@
     {
       "t": "Shavkat Rakhmonov’s physician provides positive update on undefeated star’s return timeline",
       "ts": "2026-07-27T12:00:00+00:00"
+    },
+    {
+      "t": "Morning Report: Chael Sonnen claims security guard asked him to arrange Dana White meeting, UFC fight",
+      "ts": "2026-07-27T04:00:21+00:00"
     }
   ],
   "digest_items": [
@@ -1607,11 +1611,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-27T12:00:00+00:00"
+    },
+    {
+      "title": "Morning Report: Chael Sonnen claims security guard asked him to arrange Dana White meeting, UFC fight",
+      "url": "https://www.mmafighting.com/ufc/501536/morning-report-chael-sonnen-claims-security-guard-asked-him-to-arrange-dana-white-meeting-ufc-fight",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-27T04:00:21+00:00"
     }
   ],
   "digest_last": "2026-07-26 21:30",
   "hour": [
     "2026-07-27T12",
-    1
+    2
   ]
 }
