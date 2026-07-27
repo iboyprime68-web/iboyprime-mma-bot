@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/495469/mma-divisional-rankings-ufc-327-star-josh-hokit-is-the-heavyweight-man-of-the-hour",
     "https://www.mmafighting.com/495517/ufc-vegas-118-results-muhammad-vs-bonfim",
     "https://www.mmafighting.com/495819/dnp-morning-report-template-dnp",
     "https://www.mmafighting.com/496070/dnp-morning-report-template-dnp",
@@ -540,6 +539,7 @@
     "https://www.mmafighting.com/?p=501668",
     "https://www.mmafighting.com/?p=501720",
     "https://www.mmafighting.com/?p=501729",
+    "https://www.mmafighting.com/?p=501757",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1217,10 +1217,6 @@
       "ts": "2026-07-25T21:00:00+00:00"
     },
     {
-      "t": "Video: UFC Abu Dhabi sore loser, Mike Davis, throws post-fight temper tantrum &#8211; ‘I thought UFC were cutting wrestlers!’",
-      "ts": "2026-07-25T20:21:36+00:00"
-    },
-    {
       "t": "MMA fighter pulls joint out of shorts and lights up after win",
       "ts": "2026-07-25T22:21:01+00:00"
     },
@@ -1487,6 +1483,10 @@
     {
       "t": "Conor McGregor confirms his UFC ‘last dance’ with date announcement after UFC 329 injury",
       "ts": "2026-07-27T20:10:44+00:00"
+    },
+    {
+      "t": "Conor McGregor teases ‘last dance’ in UFC, reveals ideal event for possible final UFC fight",
+      "ts": "2026-07-27T20:22:50+00:00"
     }
   ],
   "digest_items": [
@@ -1706,11 +1706,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-27T20:10:44+00:00"
+    },
+    {
+      "title": "Conor McGregor teases ‘last dance’ in UFC, reveals ideal event for possible final UFC fight",
+      "url": "https://www.mmafighting.com/ufc/501757/conor-mcgregor-teases-last-dance-in-ufc-reveals-ideal-event-for-possible-final-ufc-fight",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-27T20:22:50+00:00"
     }
   ],
   "digest_last": "2026-07-26 21:30",
   "hour": [
     "2026-07-27T20",
-    3
+    4
   ]
 }
