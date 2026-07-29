@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=491797",
     "https://www.mmafighting.com/?p=492114",
     "https://www.mmafighting.com/?p=492324",
     "https://www.mmafighting.com/?p=492665",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=460830",
     "https://www.mmamania.com/?p=460835",
     "https://www.mmamania.com/?p=460893",
+    "https://www.mmamania.com/?p=460921",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Conor McGregor confirms his UFC ‘last dance’ with date announcement after UFC 329 injury",
-      "ts": "2026-07-27T20:10:44+00:00"
-    },
     {
       "t": "Conor McGregor teases ‘last dance’ in UFC, reveals ideal event for possible final UFC fight",
       "ts": "2026-07-27T20:22:50+00:00"
@@ -1511,6 +1507,10 @@
     {
       "t": "Islam Makhachev reacts to Conor McGregor blowing out his knee at UFC 329: ‘I feel bad’",
       "ts": "2026-07-29T18:45:00+00:00"
+    },
+    {
+      "t": "UFC Paris fight card, start time, date and location &#124; Hooker vs. Parnasse",
+      "ts": "2026-07-29T20:11:58+00:00"
     }
   ],
   "digest_items": [
@@ -1751,11 +1751,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-29T18:45:00+00:00"
+    },
+    {
+      "title": "UFC Paris fight card, start time, date and location &124; Hooker vs. Parnasse",
+      "url": "https://www.mmamania.com/ufc-fight-cards/460921/ufc-paris-fight-card-start-time-date-and-location-hooker-vs-parnasse",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-07-29T20:11:58+00:00"
     }
   ],
   "digest_last": "2026-07-28 21:30",
   "hour": [
     "2026-07-29T20",
-    2
+    3
   ]
 }
