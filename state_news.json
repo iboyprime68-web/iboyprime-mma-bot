@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=494119",
     "https://www.mmafighting.com/?p=494128",
     "https://www.mmafighting.com/?p=494132",
     "https://www.mmafighting.com/?p=494157",
@@ -488,6 +487,7 @@
     "https://www.mmafighting.com/?p=502169",
     "https://www.mmafighting.com/?p=502172",
     "https://www.mmafighting.com/?p=502216",
+    "https://www.mmafighting.com/?p=502278",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1483,6 +1483,10 @@
     {
       "t": "Justin Gaethje and Khabib Nurmagomedov cross paths ahead of coaching clash between the ex-UFC rivals",
       "ts": "2026-07-31T12:00:00+00:00"
+    },
+    {
+      "t": "UFC Belgrade weigh-in results: All fighters on point for historic Serbia event",
+      "ts": "2026-07-31T11:45:43+00:00"
     }
   ],
   "digest_items": [
@@ -1618,11 +1622,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-07-31T12:00:00+00:00"
+    },
+    {
+      "title": "UFC Belgrade weigh-in results: All fighters on point for historic Serbia event",
+      "url": "https://www.mmafighting.com/ufc/502278/ufc-belgrade-weigh-in-results-all-fighters-on-point-for-historic-serbia-event",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-31T11:45:43+00:00"
     }
   ],
   "digest_last": "2026-07-30 21:30",
   "hour": [
     "2026-07-31T12",
-    3
+    4
   ]
 }
