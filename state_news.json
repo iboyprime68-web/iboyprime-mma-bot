@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=494728",
     "https://www.mmafighting.com/?p=494731",
     "https://www.mmafighting.com/?p=494740",
     "https://www.mmafighting.com/?p=494758",
@@ -477,6 +476,7 @@
     "https://www.mmafighting.com/?p=502210",
     "https://www.mmafighting.com/?p=502216",
     "https://www.mmafighting.com/?p=502278",
+    "https://www.mmafighting.com/?p=502342",
     "https://www.mmafighting.com/?p=502371",
     "https://www.mmafighting.com/?p=502383",
     "https://www.mmafighting.com/?p=502396",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Recently cut UFC star looks to appeal latest loss: ‘Refereeing errors changed the outcome of my career’",
-      "ts": "2026-07-29T20:00:00+00:00"
-    },
-    {
       "t": "UFC Paris fight card, start time, date and location &#124; Hooker vs. Parnasse",
       "ts": "2026-07-29T20:11:58+00:00"
     },
@@ -1491,6 +1487,10 @@
     {
       "t": "UFC Belgrade predictions",
       "ts": "2026-07-31T15:28:49+00:00"
+    },
+    {
+      "t": "Michael Oliveira expects warm reception at UFC Belgrade with support of Serbian footballer Dejan Petkovic",
+      "ts": "2026-07-31T13:48:23+00:00"
     }
   ],
   "digest_items": [
@@ -1731,11 +1731,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-07-31T15:28:49+00:00"
+    },
+    {
+      "title": "Michael Oliveira expects warm reception at UFC Belgrade with support of Serbian footballer Dejan Petkovic",
+      "url": "https://www.mmafighting.com/ufc/502342/michael-oliveira-expects-warm-reception-at-ufc-belgrade-with-support-of-serbian-footballer-dejan-petkovic",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-07-31T13:48:23+00:00"
     }
   ],
   "digest_last": "2026-07-30 21:30",
   "hour": [
-    "2026-07-31T19",
+    "2026-07-31T20",
     1
   ]
 }
