@@ -28,12 +28,9 @@
       "start": "2026-08-01T17:00:00+00:00",
       "label": "UFC Fight Night: Medić vs. Rodriguez",
       "thread_id": "1533149189427560508",
-      "reminded": true
+      "reminded": true,
+      "done": true
     }
   },
-  "slowmode": {
-    "active_eid": "600059339",
-    "channel_id": "1515436426064429150",
-    "prev": 0
-  }
+  "slowmode": {}
 }
