@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=495789",
     "https://www.mmafighting.com/?p=495796",
     "https://www.mmafighting.com/?p=495802",
     "https://www.mmafighting.com/?p=495825",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=462047",
     "https://www.mmamania.com/?p=462053",
     "https://www.mmamania.com/?p=462059",
+    "https://www.mmamania.com/?p=462098",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1503,6 +1503,10 @@
     {
       "t": "‘I don’t want to see that’… Dana White raises one issue after record-breaking night at UFC Belgrade",
       "ts": "2026-08-02T21:00:00+00:00"
+    },
+    {
+      "t": "Khamzat Chimaev ‘was set to face Jiri Prochazka at 205’ before 185 pound Strickland swerve",
+      "ts": "2026-08-02T21:16:11+00:00"
     }
   ],
   "digest_items": [
@@ -1701,11 +1705,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-08-02T20:01:49+00:00"
+    },
+    {
+      "title": "Khamzat Chimaev ‘was set to face Jiri Prochazka at 205’ before 185 pound Strickland swerve",
+      "url": "https://www.mmamania.com/ufc-news/462098/khamzat-chimaev-was-set-to-face-jiri-prochazka-at-205-before-185-pound-strickland-swerve",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-02T21:16:11+00:00"
     }
   ],
   "digest_last": "2026-08-01 21:30",
   "hour": [
     "2026-08-02T21",
-    2
+    3
   ]
 }
