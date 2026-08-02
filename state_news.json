@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=495796",
     "https://www.mmafighting.com/?p=495802",
     "https://www.mmafighting.com/?p=495825",
     "https://www.mmafighting.com/?p=495837",
@@ -349,6 +348,7 @@
     "https://www.mmafighting.com/?p=501074",
     "https://www.mmafighting.com/?p=501089",
     "https://www.mmafighting.com/?p=501125",
+    "https://www.mmafighting.com/?p=501185",
     "https://www.mmafighting.com/?p=501218",
     "https://www.mmafighting.com/?p=501232",
     "https://www.mmafighting.com/?p=501233",
@@ -1511,6 +1511,10 @@
     {
       "t": "UFC Belgrade star claims ‘the fight was taken’ from him as controversial loss could lead to axing",
       "ts": "2026-08-02T22:00:00+00:00"
+    },
+    {
+      "t": "UFC 331: Flyweight tilt booked for promotion’s return to L.A.",
+      "ts": "2026-08-02T17:54:45+00:00"
     }
   ],
   "digest_items": [
@@ -1520,11 +1524,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-02T22:00:00+00:00"
+    },
+    {
+      "title": "UFC 331: Flyweight tilt booked for promotion’s return to L.A.",
+      "url": "https://www.mmafighting.com/ufc/501185/ufc-331-flyweight-tilt-booked-for-promotions-return-to-l-a",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-02T17:54:45+00:00"
     }
   ],
   "digest_last": "2026-08-02 21:30",
   "hour": [
     "2026-08-02T22",
-    1
+    2
   ]
 }
