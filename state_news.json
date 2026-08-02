@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=495825",
     "https://www.mmafighting.com/?p=495837",
     "https://www.mmafighting.com/?p=495854",
     "https://www.mmafighting.com/?p=495861",
@@ -934,6 +933,7 @@
     "https://www.mmamania.com/?p=461486",
     "https://www.mmamania.com/?p=461522",
     "https://www.mmamania.com/?p=461571",
+    "https://www.mmamania.com/?p=461591",
     "https://www.mmamania.com/?p=461683",
     "https://www.mmamania.com/?p=461909",
     "https://www.mmamania.com/?p=461924",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Craig Jones, journalist? BJJ coach Melqui Galvao threatening victims from jail, has ties to shootings",
-      "ts": "2026-07-31T22:12:17+00:00"
-    },
     {
       "t": "Philadelphia fan favorite explains why he isn’t fighting on controversial UFC 330 card",
       "ts": "2026-07-31T23:00:00+00:00"
@@ -1519,6 +1515,10 @@
     {
       "t": "UFC Belgrade results: Matches to make for ‘Medic vs. Rodriguez’ main card winners",
       "ts": "2026-08-02T21:21:56+00:00"
+    },
+    {
+      "t": "Rookie Report Card: Grading all Octagon newcomers UFC Belgrade post-mortem",
+      "ts": "2026-08-02T10:36:27+00:00"
     }
   ],
   "digest_items": [
@@ -1542,11 +1542,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-02T21:21:56+00:00"
+    },
+    {
+      "title": "Rookie Report Card: Grading all Octagon newcomers UFC Belgrade post-mortem",
+      "url": "https://www.mmamania.com/latest-news/461591/rookie-report-card-grading-all-octagon-newcomers-ufc-belgrade-post-mortem",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-02T10:36:27+00:00"
     }
   ],
   "digest_last": "2026-08-02 21:30",
   "hour": [
     "2026-08-02T22",
-    3
+    4
   ]
 }
