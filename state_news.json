@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=495642",
     "https://www.mmafighting.com/?p=495649",
     "https://www.mmafighting.com/?p=495685",
     "https://www.mmafighting.com/?p=495688",
@@ -946,6 +945,7 @@
     "https://www.mmamania.com/?p=461683",
     "https://www.mmamania.com/?p=461909",
     "https://www.mmamania.com/?p=461924",
+    "https://www.mmamania.com/?p=461938",
     "https://www.mmamania.com/?p=462015",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,14 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Khamzat Chimaev changes Sean Strickland’s mind about immediate rematch after ‘running his mouth’",
-      "ts": "2026-07-31T11:00:00+00:00"
-    },
-    {
-      "t": "Dana White stumped when asked to name one fight on UFC Belgrade card that he's excited for",
-      "ts": "2026-07-31T11:04:49+00:00"
-    },
     {
       "t": "Doctor says Conor McGregor knee injury 'doesn't seem to add up 100%'",
       "ts": "2026-07-31T11:40:11+00:00"
@@ -1543,6 +1535,10 @@
     {
       "t": "Daniel Rodriguez releases statement following UFC Belgrade knockout loss &#8211; ‘Beat me to the punch’",
       "ts": "2026-08-02T07:46:38+00:00"
+    },
+    {
+      "t": "UFC Belgrade results: Biggest winners, loser from ‘Medic vs. Rodriguez’ in Serbia",
+      "ts": "2026-08-02T06:15:23+00:00"
     }
   ],
   "digest_items": [
@@ -1615,11 +1611,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-02T07:46:38+00:00"
+    },
+    {
+      "title": "UFC Belgrade results: Biggest winners, loser from ‘Medic vs. Rodriguez’ in Serbia",
+      "url": "https://www.mmamania.com/ufc-results/461938/ufc-belgrade-results-biggest-winners-loser-from-medic-vs-rodriguez-last-night",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-02T06:15:23+00:00"
     }
   ],
   "digest_last": "2026-08-01 21:30",
   "hour": [
-    "2026-08-02T10",
+    "2026-08-02T11",
     1
   ]
 }
