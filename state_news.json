@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=495878",
     "https://www.mmafighting.com/?p=495882",
     "https://www.mmafighting.com/?p=495893",
     "https://www.mmafighting.com/?p=495921",
@@ -298,6 +297,7 @@
     "https://www.mmafighting.com/?p=500338",
     "https://www.mmafighting.com/?p=500365",
     "https://www.mmafighting.com/?p=500369",
+    "https://www.mmafighting.com/?p=500406",
     "https://www.mmafighting.com/?p=500421",
     "https://www.mmafighting.com/?p=500425",
     "https://www.mmafighting.com/?p=500440",
@@ -1487,6 +1487,10 @@
     {
       "t": "UFC Belgrade fighter retires after suffering fourth loss in a row",
       "ts": "2026-08-03T12:00:00+00:00"
+    },
+    {
+      "t": "Charles Oliveira: Ian Machado Garry has ‘very good chance’ of beating Islam Makhachev at UFC 330",
+      "ts": "2026-08-03T12:29:01+00:00"
     }
   ],
   "digest_items": [
@@ -1573,11 +1577,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-03T11:00:00+00:00"
+    },
+    {
+      "title": "Charles Oliveira: Ian Machado Garry has ‘very good chance’ of beating Islam Makhachev at UFC 330",
+      "url": "https://www.mmafighting.com/ufc/500406/charles-oliveira-ian-machado-garry-has-a-very-good-chance-of-beating-islam-makhachev-at-ufc-330",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-03T12:29:01+00:00"
     }
   ],
   "digest_last": "2026-08-02 21:30",
   "hour": [
     "2026-08-03T13",
-    1
+    2
   ]
 }
