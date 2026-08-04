@@ -3,7 +3,7 @@
 
 Polls the outlets configured in newsconfig.json and posts to #mma-news with a
 CLEAN, notification-friendly format: the message text is just
-    Headline — Source
+    Headline (Source)
 (what a phone lock-screen shows - no markdown junk, no URL) and the link,
 summary, category colour and timestamp live in an embed.
 
@@ -108,10 +108,10 @@ def parse_feed(text):
 # ---- pure builders (unit-tested) --------------------------------------------
 def build_message(it, cfg, breaking, ping_role_id):
     """(content, embeds, allowed_mentions, category). Content is the push preview:
-    plain 'Headline — Source', no markdown, no URL."""
+    plain 'Headline (Source)', no markdown, no URL."""
     cat = newsconfig.classify(it["title"], cfg)
     head = common.truncate(common.strip_markdown(it["title"]), 150)
-    content = "%s — %s" % (head, it["source"])
+    content = "%s (%s)" % (head, it["source"])
     mentions = None                       # None -> common.NO_PINGS default
     if breaking:
         content = "🚨 " + content
@@ -133,10 +133,10 @@ def build_message(it, cfg, breaking, ping_role_id):
 
 def build_digest(items, cfg, ping_role_id):
     """(content, embeds, allowed_mentions) for the daily digest - one embed with a
-    field per category, lines '[Title](url) — Source'. Respects Discord's embed
+    field per category, lines '[Title](url), Source'. Respects Discord's embed
     limits (field value 1024, total ~6000 -> capped at 5500)."""
     now = common.now_utc()
-    content = "🗞️ Today's combat-sports digest — %d stories" % len(items)
+    content = "Today's combat sports digest: %d stories" % len(items)
     mentions = None
     if (cfg.get("digest", {}) or {}).get("ping", True) and ping_role_id:
         content = "<@&%s> %s" % (ping_role_id, content)
@@ -151,10 +151,10 @@ def build_digest(items, cfg, ping_role_id):
         if not group:
             continue
         label = (cats.get(key) or {}).get("label", key)
-        name = "%s — %d" % (label, len(group))
+        name = "%s (%d)" % (label, len(group))
         lines, used, more = [], 0, 0
         for it in group:
-            line = "[%s](%s) — %s" % (common.truncate(it["title"], 80), it["url"], it["source"])
+            line = "[%s](%s), %s" % (common.truncate(it["title"], 80), it["url"], it["source"])
             if used + len(line) + 1 > 1000 or total + used > 5200:
                 more += 1
                 continue
@@ -167,7 +167,7 @@ def build_digest(items, cfg, ping_role_id):
             break
         fields.append({"name": name, "value": value})
     day = now.strftime("%B %d").replace(" 0", " ")   # "July 03" -> "July 3" (portable)
-    embed = {"title": "🗞️ Daily Digest — %s" % day,
+    embed = {"title": "Daily Digest: %s" % day,
              "color": 0xD20A0A, "fields": fields,
              "footer": {"text": "%s news wire" % layout.SERVER_NAME}}
     return content, [embed], mentions
