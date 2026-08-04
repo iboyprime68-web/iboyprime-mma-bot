@@ -31,7 +31,7 @@ while the job runs (panel Save & Deploy, /news) apply almost immediately. Free
 because the repo is public. Run locally it is still a single pass.
 """
 import datetime, email.utils, xml.etree.ElementTree as ET
-import common, newsconfig
+import common, layout, newsconfig
 
 PACE_PER_CYCLE = 1     # at most ONE realtime post per cycle - never a burst
 SEED_POST      = 5     # on the very first run, post this many latest
@@ -169,7 +169,7 @@ def build_digest(items, cfg, ping_role_id):
     day = now.strftime("%B %d").replace(" 0", " ")   # "July 03" -> "July 3" (portable)
     embed = {"title": "🗞️ Daily Digest — %s" % day,
              "color": 0xD20A0A, "fields": fields,
-             "footer": {"text": "Prime Arena news wire"}}
+             "footer": {"text": "%s news wire" % layout.SERVER_NAME}}
     return content, [embed], mentions
 
 
@@ -325,7 +325,11 @@ def main():
                 break                                          # realtime: drain next hour
             content, embeds, mentions, cat = build_message(it, cfg, breaking,
                                                            news_rid if breaking else None)
-            silent = (mode == "hybrid" and not breaking)
+            # A post is only worth being "loud" if it actually pings someone. The
+            # 📰 News Pings / 🗞️ Digest Ping roles were deleted in the Aug 2026
+            # declutter, so news_rid is None and even breaking stories post silently -
+            # a loud message with no mention is just an unread badge anyway.
+            silent = (mode == "hybrid" and not (breaking and news_rid))
             code, _ = common.post_message(chan, content, allowed_mentions=mentions,
                                           embeds=embeds, silent=silent)
             if code in (200, 201):
@@ -348,7 +352,7 @@ def main():
                 if len(items) >= int(dcfg.get("min_items", 3)):
                     content, embeds, mentions = build_digest(items, cfg, digest_rid)
                     code, _ = common.post_message(chan, content, allowed_mentions=mentions,
-                                                  embeds=embeds)
+                                                  embeds=embeds, silent=not digest_rid)
                     print("digest posted (%d stories): HTTP %s" % (len(items), code))
                 else:
                     print("digest window %s: only %d item(s), skipping." % (stamp, len(items)))
