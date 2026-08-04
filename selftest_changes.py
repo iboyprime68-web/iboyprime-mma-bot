@@ -140,8 +140,9 @@ check("owner edits survive deep-merge over defaults",
 # ───────────────────────── 3. news_bot v3 ──────────────────────────────────
 print("\n[news_bot v3]")
 import news_bot
-common.load_config = lambda: {"channels": {"mma_news": "C"},
-                              "roles": {"news_pings": "NR", "digest_ping": "DR"}}
+# No ping roles exist any more (deleted in the Aug 2026 declutter), so bots_config
+# carries no news role keys. news_bot must degrade to silent, unpinged posts.
+common.load_config = lambda: {"channels": {"mma_news": "C"}, "roles": {}}
 # freeze the clock at 12:00 UTC (before the 21:30 digest) for the general tests
 _real_now = common.now_utc
 _NOON = common.datetime.datetime(2024, 1, 2, 12, 0, tzinfo=common.datetime.timezone.utc)
@@ -214,10 +215,18 @@ reset_news({"seen": [], "initialized": True, "v": 3, "recent": [],
             "digest_items": [], "digest_last": "", "hour": ["", 0]})
 news_feed([("Champion retires after shock loss", "http://brk", "gb", "Mon, 01 Jan 2024 10:00:00 GMT")])
 news_bot.main()
-check("breaking post is LOUD (not silent)", len(POSTS_FULL) == 1 and not POSTS_FULL[0]["silent"])
-check("breaking pings the news role only",
-      POSTS_FULL[0]["content"].startswith("<@&NR> 🚨") and
-      POSTS_FULL[0]["mentions"] == {"parse": [], "roles": ["NR"]})
+check("breaking story still posts", len(POSTS_FULL) == 1)
+check("breaking is SILENT and pings nobody now the ping roles are gone "
+      "(a loud message with no mention is just an unread badge)",
+      POSTS_FULL[0]["silent"] and POSTS_FULL[0]["mentions"] is None and
+      POSTS_FULL[0]["content"].startswith("🚨") and
+      "<@&" not in POSTS_FULL[0]["content"])
+# ...but the ping path itself still works, so re-adding a role later needs no code change
+_bc, _be, _bm, _cat = news_bot.build_message(
+    {"title": "Champion retires", "link": "http://b", "source": "MMA Fighting",
+     "when": _NOON, "desc": ""}, newsconfig.base_defaults(), True, "NR")
+check("build_message still supports a ping role if one is ever re-added",
+      _bc.startswith("<@&NR> ") and _bm == {"parse": [], "roles": ["NR"]})
 
 # filters: betting content excluded (hard rule); disabled category dropped
 reset_news({"seen": [], "initialized": True, "v": 3, "recent": [],
@@ -258,8 +267,8 @@ reset_news({"seen": [], "initialized": True, "v": 3, "recent": [],
 news_feed([])
 news_bot.main()
 check("digest posts after 21:30 UTC", len(POSTS) == 1)
-check("digest is loud and pings the digest role",
-      not POSTS_FULL[0]["silent"] and POSTS_FULL[0]["mentions"] == {"parse": [], "roles": ["DR"]})
+check("digest is SILENT and pings nobody (calm mode, no ping roles left)",
+      POSTS_FULL[0]["silent"] and POSTS_FULL[0]["mentions"] is None)
 check("digest embed groups stories into fields",
       POSTS_FULL[0]["embeds"][0]["fields"] and "Story 0" in POSTS_FULL[0]["embeds"][0]["fields"][0]["value"])
 check("digest queue cleared + stamped",
@@ -294,88 +303,15 @@ check("build_message content has no markdown", _bm_c == "Huge news link here —
 # near-instant delivery: tight poll cadence across a long, cron-requeued window
 check("news polls every ~20s across a ~55-min window",
       news_bot.POLL_SECONDS <= 30 and news_bot.WINDOW_SECONDS >= 1800)
-import livealert_bot as _la, youtube_bot as _yt
-check("live + youtube also run tight continuous windows",
-      _la.POLL_SECONDS <= 60 and _la.WINDOW_SECONDS >= 1800 and
-      _yt.POLL_SECONDS <= 60 and _yt.WINDOW_SECONDS >= 1800)
 
 common.now_utc = _real_now
 
-# ───────────────────────── 4. youtube_bot ──────────────────────────────────
-print("\n[youtube_bot]")
-import youtube_bot
-os.environ.pop("YOUTUBE_API_KEY", None)
-common.load_config = lambda: {"channels": {"announcements": "A", "live_now": "L"},
-                              "roles": {"youtube_pings": "Y", "live_pings": "R"},
-                              "creator": {"youtube_channel_id": "UCtest"}}
-def yt_feed(entries):
-    body = "".join("<entry><videoId>%s</videoId><title>%s</title>"
-                   "<link rel='alternate' href='%s'/><published>%s</published></entry>" % e
-                   for e in entries)
-    common.get_text = lambda url, headers=None, tries=4: (200, "<feed>%s</feed>" % body)
-
-STORE.clear(); POSTS.clear(); PERSISTS.clear(); LOOP_N[0] = 1
-yt_feed([("v1", "T1", "http://y/1", "2024-01-01T10:00:00+00:00"),
-         ("v2", "T2", "http://y/2", "2024-01-01T11:00:00+00:00")])
-youtube_bot.main()
-check("first run seeds silently (0 posts)", len(POSTS) == 0)
-check("first run marks videos seen", set(STORE["state_youtube.json"]["seen"]) == {"v1", "v2"})
-
-POSTS.clear(); PERSISTS.clear(); LOOP_N[0] = 1
-yt_feed([("v1", "T1", "http://y/1", "2024-01-01T10:00:00+00:00"),
-         ("v2", "T2", "http://y/2", "2024-01-01T11:00:00+00:00"),
-         ("v3", "T3", "http://y/3", "2024-01-01T12:00:00+00:00")])
-youtube_bot.main()
-check("steady state posts the one new upload", len(POSTS) == 1 and POSTS[0][0] == "A")
-check("upload pings the YouTube role", "<@&Y>" in POSTS[0][1])
-check("persisted after posting", PERSISTS == ["state_youtube.json"])
-check("upload content is plain text (no markdown, no URL)",
-      POSTS_FULL[-1]["content"] == "<@&Y> 📺 New video: T3")
-check("upload embed carries link + thumbnail",
-      POSTS_FULL[-1]["embeds"][0]["url"] == "http://y/3" and
-      "v3" in POSTS_FULL[-1]["embeds"][0]["image"]["url"])
-check("upload stays loud (opt-in ping role)", not POSTS_FULL[-1]["silent"])
-
-# ───────────────────────── 5. livealert_bot ────────────────────────────────
-print("\n[livealert_bot]")
-import livealert_bot
-common.load_config = lambda: {"channels": {"live_now": "L"}, "roles": {"live_pings": "R"}}
-common.discord = lambda method, path, body=None: (200, {"id": "thr"})   # thread creation
-LIVE = {"live": True, "id": "s1", "title": "T", "game": "G", "viewers": 5,
-        "started": "2024-01-01T10:00:00+00:00", "url": "http://t", "user_id": "u", "_h": {}}
-holder = {"info": LIVE}
-livealert_bot.PLATFORMS = {"twitch": ("Twitch", 0x9146FF, lambda cfg: holder["info"], lambda i: "http://vod")}
-
-STORE.clear(); POSTS.clear(); PERSISTS.clear(); LOOP_N[0] = 1
-livealert_bot.main()
-check("go-live posts exactly one alert", len(POSTS) == 1 and "LIVE" in POSTS[0][1])
-check("go-live pings the live role", "<@&R>" in POSTS[0][1])
-check("session stored", "twitch" in STORE["state_live.json"])
-check("persisted on go-live", PERSISTS == ["state_live.json"])
-check("go-live content is plain text (no markdown, no URL)",
-      POSTS_FULL[-1]["content"] == "<@&R> 🔴 iBoyPrime is LIVE on Twitch — T")
-check("go-live embed carries link + viewers",
-      POSTS_FULL[-1]["embeds"][0]["url"] == "http://t" and
-      "5 watching" in POSTS_FULL[-1]["embeds"][0]["description"])
-check("go-live stays loud", not POSTS_FULL[-1]["silent"])
-
-POSTS.clear(); PERSISTS.clear()                 # same session, new job -> must NOT re-ping
-livealert_bot.main()
-check("same session does not re-post", len(POSTS) == 0)
-
-POSTS.clear(); PERSISTS.clear()                 # stream ends -> one recap
-holder["info"] = {"live": False, "login": "x"}
-livealert_bot.main()
-check("stream end posts exactly one recap", len(POSTS) == 1 and "recap" in POSTS[0][1].lower())
-check("session cleared after recap", "twitch" not in STORE["state_live.json"])
-check("recap is SILENT with duration/peak fields",
-      POSTS_FULL[-1]["silent"] and len(POSTS_FULL[-1]["embeds"][0]["fields"]) >= 2)
-
-# ─────────────── 5b. calm-mode formats: memes / rankings / on-this-day ──────
+# ───────────────────────── 4. calm-mode post formats ──────────────────────
 print("\n[calm formats]")
-import memes_bot, rankings_bot, onthisday_bot
+import memes_bot
 
-# memes: silent, image in an embed
+# memes: silent, image in an embed. (The rankings + on-this-day blocks went with
+# their bots in the Aug 2026 declutter.)
 common.load_config = lambda: {"channels": {"memes": "M"}}
 _meme = {"data": {"children": [{"data": {
     "id": "m1", "title": "Certified hood classic", "post_hint": "image",
@@ -390,198 +326,148 @@ check("meme image lives in the embed",
       "r/dankmemes" in POSTS_FULL[0]["embeds"][0]["footer"]["text"])
 check("meme content is plain text", POSTS_FULL[0]["content"] == "😂 Certified hood classic")
 
-# rankings movement alerts: one silent embed
-POSTS.clear(); POSTS_FULL.clear()
-rankings_bot.alert_post("C", ["👑 **Heavyweight** — new champion: **Jon Jones**",
-                              "📈 **Aspinall** climbed to #1"])
-check("rankings alert is ONE silent embed post",
-      len(POSTS_FULL) == 1 and POSTS_FULL[0]["silent"] and
-      "Jon Jones" in POSTS_FULL[0]["embeds"][0]["description"])
-check("rankings alert content is plain + counts changes",
-      POSTS_FULL[0]["content"] == "UFC Rankings Update — 2 change(s)")
-_long = ["line %d with some padding text here" % i for i in range(200)]
-POSTS_FULL.clear()
-rankings_bot.alert_post("C", _long)
-check("oversized alert list truncates inside the 4096 cap",
-      len(POSTS_FULL[0]["embeds"][0]["description"]) <= 4096 and
-      "more change" in POSTS_FULL[0]["embeds"][0]["description"])
+print("\n[layout]")
+import layout
 
-# on-this-day: silent, spoiler stays in content (data file read goes through the
-# mocked load_json, so preload a trivia entry)
-common.load_config = lambda: {"channels": {"on_this_day": "O"}}
-STORE.clear(); POSTS.clear(); POSTS_FULL.clear()
-STORE["onthisday_data.json"] = {"trivia": [{"q": "Who?", "a": "Him"}], "on_this_day": {}}
-onthisday_bot.main()
-check("on-this-day post is SILENT", POSTS_FULL and POSTS_FULL[-1]["silent"])
-check("trivia spoiler stays in content", "||" in POSTS_FULL[-1]["content"])
+check("layout validates (names unique, no dashes, ┊ present, staff category kept)",
+      layout.validate() is True)
 
-# ─────────────── 5c. fightweek stores the poll ids (pick'em-ready) ──────────
-print("\n[fightweek poll]")
-import fightweek_bot
-common.load_config = lambda: {"channels": {"fight_week": "F"}}
-_start = (common.now_utc() + common.datetime.timedelta(days=2)).strftime("%Y-%m-%dT%H:%M:%SZ")
-_sb = {"leagues": [{"calendar": [{"event": {"$ref": "http://e/events/601"},
-                                  "startDate": _start}]}],
-       "events": [{"id": "601", "date": _start, "name": "UFC 999",
-                   "competitions": [
-                       {"competitors": [{"order": 1, "athlete": {"displayName": "Alpha Man"}},
-                                        {"order": 2, "athlete": {"displayName": "Beta Guy"}}],
-                        "type": {"abbreviation": "HW"}}]}]}
-common.get_json = lambda url, headers=None, tries=4: \
-    (200, copy.deepcopy(_sb)) if "ufc/scoreboard" in url else (200, {})
-common.create_forum_thread = lambda forum, title, content, allowed_mentions=None, applied_tags=None: \
-    (201, {"id": "T1"})
-_poll_posts = []
-def fw_discord(method, path, body=None):
-    if method == "POST" and "/messages" in path and body and "poll" in body:
-        _poll_posts.append((path, body)); return 200, {"id": "PM1"}
-    return 200, {}
-common.discord = fw_discord
-STORE.clear()
-fightweek_bot.main()
-_hub = STORE["state_fightweek.json"]["hubs"]["601"]
-check("hub created with a poll", len(_poll_posts) == 1)
-check("poll ids captured for future pick'em",
-      _hub.get("poll", {}).get("message_id") == "PM1" and
-      _hub["poll"]["channel_id"] == "T1" and
-      _hub["poll"]["answers"] == {"1": "Alpha Man", "2": "Beta Guy"})
+_names = set(layout.all_names())
+_cats = set(layout.all_category_names())
 
-# ───────────────────────── 6. onboarding_setup ─────────────────────────────
-print("\n[onboarding_setup]")
+# The naming rule the owner asked for: <emoji>┊<one word>, no dashes anywhere.
+import re as _re
+_TEXT_RX = _re.compile(r"^[^\w\s]{1,3}┊[a-z0-9]+$")
+_VOICE_RX = _re.compile(r"^[^\w\s]{1,3}┊[A-Za-z0-9]+$")
+_bad = [c.name for c in layout.all_channels()
+        if not (_VOICE_RX if c.is_voice else _TEXT_RX).match(c.name)]
+check("every channel is <emoji>┊<word> (offenders: %s)" % _bad[:3], not _bad)
+check("no channel name contains a dash", not any("-" in n for n in _names))
+check("the separator is U+250A, not a look-alike",
+      all("┊" in n and "|" not in n and "\uFF5C" not in n and "\u2502" not in n
+          for n in _names))
+
+# Anti-drift: this is the check that would have caught the original bug, where a
+# rename in one file and not another made bots_setup CREATE a duplicate channel.
+check("DELETE_CHANNELS never targets a live channel",
+      not (set(layout.DELETE_CHANNELS) & _names))
+check("DELETE_CATEGORIES never targets a live category",
+      not (set(layout.DELETE_CATEGORIES) & _cats))
+_olds = set()
+for _c in layout.all_channels():
+    _olds.update(_c.old_names)
+check("no name is both an old_name and a delete target (rename would race delete)",
+      not (_olds & set(layout.DELETE_CHANNELS)))
+check("the rules channel is RENAMED into the welcome channel, not deleted",
+      layout.rename_map().get("📜-rules") == "👋┊welcome")
+check("the merged welcome channel also answers to the 'rules' key "
+      "(Community mode's rules_channel_id + mod_setup both need it)",
+      "rules" in layout.by_key() and layout.by_key()["rules"] is layout.by_key()["welcome"])
+
+# Roles: nothing may resurrect the deleted ones.
+_dead = set(layout.ROLES_DELETE)
+_kept = set(n for n, _c, _h, _m in layout.ROLES_KEEP)
+check("staff + bots roles survive",
+      {"👑 Owner", "🛡️ Admin", "🔨 Moderator",
+       "🤖 Bots"} <= _kept)
+check("no role is both kept and deleted", not (_dead & _kept))
+check("the ping/award/interest roles are all queued for deletion",
+      {"📰 News Pings", "🗞️ Digest Ping", "🔴 Live Pings",
+       "📹 YouTube Pings", "🏆 Fight Prophet", "🎬 Clip Champ",
+       "🎮 Gamer", "🥊 MMA Fan"} <= _dead)
+check("ROLE_KEYS only reference kept roles", set(layout.ROLE_KEYS.values()) <= _kept)
+
+# Derived views the rest of the deploy depends on.
+check("patrol watches the member-postable channels (empty would silently disable it)",
+      set(layout.patrol_keys()) == {"general", "memes", "bot_commands", "lfg", "mma_chat"})
+check("read-only feeds are NOT patrolled or image-scanned",
+      "mma_news" not in layout.patrol_keys() and "welcome" not in layout.patrol_keys())
+check("staff channels are excluded from the public set",
+      not any(c.key == "staff_chat" for c in layout.public_channels()))
+check("every text/news channel has a topic",
+      all(c.topic for c in layout.all_channels() if c.ctype in (layout.TEXT, layout.NEWS)))
+check("required_config_keys covers what the surviving bots read",
+      {"mma_news", "memes", "mod_log", "staff_chat", "mma_chat", "bot_commands",
+       "announcements", "upcoming"} <= set(layout.required_config_keys()))
+
+
+# ───────── 6b. access & visibility (the bug this restructure exists to fix) ─────
+print("\n[access & visibility]")
 import onboarding_setup
 
-existing = [{"id": "E", "type": 0, "allow": str(VIEW | READ_HIST), "deny": str(SEND)}]
-ow = {o["id"]: o for o in onboarding_setup.gate_overwrites(existing, "E", ["ROLE"])}
-check("@everyone VIEW now denied", int(ow["E"]["deny"]) & VIEW)
-check("@everyone VIEW removed from allow", not (int(ow["E"]["allow"]) & VIEW))
-check("existing READ_HISTORY allow preserved", int(ow["E"]["allow"]) & READ_HIST)
-check("existing SEND deny preserved (stays read-only)", int(ow["E"]["deny"]) & SEND)
-check("opt-in role gets VIEW", int(ow["ROLE"]["allow"]) & VIEW)
+CONNECT = 1 << 20; SPEAK = 1 << 21
 
-chan_by_name = {n: {"id": "c%d" % i} for i, n in enumerate(onboarding_setup.DEFAULT_CHANNELS)}
-role_by_name = {"🎮 Gamer": "r1", "🥊 MMA Fan": "r2", "🔴 Live Pings": "r3",
-                "📹 YouTube Pings": "r4", "🎬 TikTok Pings": "r5", "📣 Announcements": "r6",
-                "🎉 Events": "r7", "🥊 Fight Alerts": "r8", "🚨 Fight Results": "r9"}
-default_ch, prompts = onboarding_setup.build_onboarding(chan_by_name, role_by_name)
-check("default channels >= 7 (Discord min)", len(default_ch) >= 7)
-writable = sum(1 for n in ("💬-general", "👋-introductions", "🖼️-media", "😂-memes",
-                           "🎲-off-topic", "🤖-bot-commands", "✂️-clips-n-highlights")
-               if n in chan_by_name)
-check("default set has >= 5 writable channels", writable >= 5)
-check("every option grants a role or channel", all(o["role_ids"] or o["channel_ids"]
-                                                    for p in prompts for o in p["options"]))
-check("no empty prompts", all(p["options"] for p in prompts))
-check("Gaming option -> Gamer role (reveals Gaming)",
-      any("r1" in o["role_ids"] for p in prompts for o in p["options"]))
-check("MMA option -> MMA Fan role (reveals MMA)",
-      any("r2" in o["role_ids"] for p in prompts for o in p["options"]))
+# Nothing may be gated behind a role ever again. The old opt-in-to-reveal model is
+# what buried whole categories - and every voice channel - behind "Browse Channels".
+check("no category is gated", onboarding_setup.GATED_CATEGORIES == {})
+check("no individual channel is gated", onboarding_setup.GATED_CHANNELS == {})
+check("no view-only roles are created", onboarding_setup.VIEWER_ROLES == {})
 
-# missing roles get filtered out, never producing an invalid (empty) option
-d2, p2 = onboarding_setup.build_onboarding(chan_by_name, {"🎮 Gamer": "r1"})
-check("missing roles filtered, options still valid",
-      all(o["role_ids"] or o["channel_ids"] for p in p2 for o in p["options"]))
+# ungate_overwrites is the inverse the old code never had: deleting the GATED_*
+# constants alone would have left the deny bits written on the live guild forever.
+_gated = [{"id": "E", "type": 0, "allow": "0", "deny": str(VIEW | SEND)}]
+_ow = onboarding_setup.ungate_overwrites(_gated, "E")
+_e = next((o for o in _ow if o["id"] == "E"), None)
+check("ungate restores @everyone VIEW", bool(_e) and bool(int(_e["allow"]) & VIEW))
+check("ungate clears the VIEW deny", bool(_e) and not (int(_e["deny"]) & VIEW))
+check("ungate PRESERVES the SEND deny (read-only feeds stay read-only)",
+      bool(_e) and bool(int(_e["deny"]) & SEND))
 
-# ──────────────────── 6b. onboarding Part 2: notify + visibility ────────────
-print("\n[onboarding part2]")
-roles_full = {"🎮 Gamer": "r1", "🥊 MMA Fan": "r2", "🔴 Live Pings": "r3",
-              "📹 YouTube Pings": "r4", "📣 Announcements": "r6", "🎉 Events": "r7",
-              "🥊 Fight Alerts": "r8", "🚨 Fight Results": "r9",
-              "👁️ Live Viewer": "v1", "👁️ Videos Viewer": "v2"}
-chans_full = {n: {"id": "c%d" % i} for i, n in enumerate(onboarding_setup.DEFAULT_CHANNELS)}
-dch, pr = onboarding_setup.build_onboarding(chans_full, roles_full)
-check("exactly 4 prompts (Discord's cap)", len(pr) == 4)
-live_p = next(p for p in pr if "LIVE" in p["title"])
-vids_p = next(p for p in pr if "YouTube videos" in p["title"])
-check("LIVE prompt is single-select", live_p["single_select"] is True)
-check("VIDEOS prompt is single-select", vids_p["single_select"] is True)
-live_roles = [o["role_ids"] for o in live_p["options"]]
-vids_roles = [o["role_ids"] for o in vids_p["options"]]
-check("LIVE = ping(Live Pings) + view-only(Live Viewer)", ["r3"] in live_roles and ["v1"] in live_roles)
-check("VIDEOS = ping(YouTube Pings) + view-only(Videos Viewer)", ["r4"] in vids_roles and ["v2"] in vids_roles)
-check("no TikTok anywhere in prompts",
-      not any("tiktok" in (o["title"] + " " + o.get("description", "")).lower()
-              for p in pr for o in p["options"]))
-check("gated live/video channels are NOT onboarding defaults",
-      all(n not in onboarding_setup.DEFAULT_CHANNELS
-          for n in ("🔴-live-now", "📹-youtube-uploads", "🎬-tiktok-posts")))
+_vow = onboarding_setup.ungate_overwrites(
+    [{"id": "E", "type": 0, "allow": "0", "deny": str(VIEW | CONNECT | SPEAK)}],
+    "E", is_voice=True)
+_ve = next((o for o in _vow if o["id"] == "E"), None)
+check("voice un-gate restores VIEW + CONNECT + SPEAK (the old gate only ever granted "
+      "VIEW, which is why voice stayed unusable even when visible)",
+      bool(_ve) and (int(_ve["allow"]) & (VIEW | CONNECT | SPEAK)) == (VIEW | CONNECT | SPEAK)
+      and not (int(_ve["deny"]) & (VIEW | CONNECT | SPEAK)))
 
-# news ping opt-ins (P4) - added with the v3 news system
-roles_news = dict(roles_full, **{"📰 News Pings": "np", "🗞️ Digest Ping": "dp"})
-dch3, pr3 = onboarding_setup.build_onboarding(chans_full, roles_news)
-more_p = next(p for p in pr3 if p["title"] == "More pings (optional)")
-check("P4 gains the two news options (6 total)", len(more_p["options"]) == 6)
-check("breaking-news option grants 📰 News Pings",
-      any(o["role_ids"] == ["np"] for o in more_p["options"]))
-check("digest option grants 🗞️ Digest Ping",
-      any(o["role_ids"] == ["dp"] for o in more_p["options"]))
-check("still exactly 4 prompts with the news options", len(pr3) == 4)
-check("🔔-notify-setup dropped from onboarding defaults",
-      "🔔-notify-setup" not in onboarding_setup.DEFAULT_CHANNELS)
-os.environ.setdefault("DISCORD_BOT_TOKEN", "dummy-token-for-import-only")
-import bots_setup as _bs
-check("bots_setup deletes 🔔-notify-setup", "🔔-notify-setup" in _bs.DELETE_CHANNELS)
-check("bots_setup ensure-creates the news + award roles",
-      set(_bs.NEW_ROLES) == {"news_pings", "digest_ping", "fight_prophet", "clip_champ"} and
-      _bs.NEW_ROLES["news_pings"][0] == "📰 News Pings" and
-      _bs.NEW_ROLES["fight_prophet"][0] == "🏆 Fight Prophet" and
-      _bs.NEW_ROLES["clip_champ"][0] == "🎬 Clip Champ")
-check("new community channels resolved into bots_config",
-      _bs.EXISTING_CHANNELS.get("mma_chat") == "🥊-mma-chat" and
-      _bs.EXISTING_CHANNELS.get("plays_n_clips") == "🏆-plays-n-clips" and
-      _bs.EXISTING_CHANNELS.get("staff_chat") == "📋-staff-chat")
+_dead_ow = onboarding_setup.ungate_overwrites(
+    [{"id": "DEADROLE", "type": 0, "allow": str(VIEW), "deny": "0"}],
+    "E", dead_role_ids=["DEADROLE"])
+check("overwrites belonging to deleted roles are dropped",
+      not any(o["id"] == "DEADROLE" for o in _dead_ow))
 
-# ping role listed FIRST in each gated channel - that's the "pinged => can see it" guarantee
-glc = onboarding_setup.GATED_CHANNELS
-check("live-now: ping role first + viewer role present",
-      glc["🔴-live-now"][0] == "🔴 Live Pings" and "👁️ Live Viewer" in glc["🔴-live-now"])
-check("youtube-uploads: ping role first + viewer role present",
-      glc["📹-youtube-uploads"][0] == "📹 YouTube Pings" and "👁️ Videos Viewer" in glc["📹-youtube-uploads"])
-gow = {o["id"]: o for o in onboarding_setup.gate_overwrites([], "EV", ["r3", "v1"])}
-check("gated channel: @everyone denied VIEW", int(gow["EV"]["deny"]) & VIEW)
-check("gated channel: PING role can see it (pinged => visible)", int(gow["r3"]["allow"]) & VIEW)
-check("gated channel: view-only role can see it", int(gow["v1"]["allow"]) & VIEW)
+check("a channel already open needs no PATCH (re-runs cost zero API calls)",
+      not onboarding_setup.needs_ungate(
+          {"permission_overwrites": [{"id": "E", "allow": str(VIEW), "deny": "0"}]},
+          "E", False, []))
+check("a channel with a VIEW deny is flagged for repair",
+      onboarding_setup.needs_ungate(
+          {"permission_overwrites": [{"id": "E", "allow": "0", "deny": str(VIEW)}]},
+          "E", False, []))
 
-created = []
-def fake_discord_role(method, path, body=None):
-    if method == "POST" and path.endswith("/roles"):
-        created.append(body["name"]); return 200, {"id": "newrole"}
-    return 200, {}
-_rd = common.discord; common.discord = fake_discord_role
-check("ensure_role creates a missing role", onboarding_setup.ensure_role("G", "👁️ Live Viewer", 1, {}) == "newrole" and created)
-check("ensure_role idempotent (no duplicate create)",
-      onboarding_setup.ensure_role("G", "👁️ Live Viewer", 1, {"👁️ Live Viewer": "had"}) == "had")
+# The staff category is the ONE thing that stays hidden.
+_patched = []
+_rd = common.discord
+common.discord = lambda m, path, body=None: (_patched.append((m, path, body)), (200, {}))[1]
+_chans = [
+    {"id": "SC", "name": layout.STAFF_CATEGORY, "type": 4, "permission_overwrites": []},
+    {"id": "S1", "name": "📋┊staff", "type": 0, "parent_id": "SC",
+     "permission_overwrites": []},
+    {"id": "P1", "name": "💬┊chat", "type": 0,
+     "permission_overwrites": [{"id": "G1", "allow": "0", "deny": str(VIEW)}]},
+    {"id": "V1", "name": "🔊┊General", "type": 2, "permission_overwrites": []},
+]
+onboarding_setup.unhide_everything("G1", _chans, [])
+_touched = set(path.split("/")[-1] for m, path, _b in _patched if m == "PATCH")
+check("the staff category and its children stay hidden",
+      "SC" not in _touched and "S1" not in _touched)
+check("a gated public channel is opened up", "P1" in _touched)
+check("voice channels get an explicit @everyone allow", "V1" in _touched)
+
+# Onboarding must go out DISABLED with EMPTY lists - clearing default_channel_ids is
+# what releases Discord's "onboarding channels must be readable by everyone" pin
+# (error 350003), which outlives a plain disable.
+_patched[:] = []
+onboarding_setup.disable_onboarding("G1")
+_put = [b for m, path, b in _patched if m == "PUT" and path.endswith("/onboarding")]
+check("onboarding is disabled with empty prompts AND an empty default-channel list",
+      bool(_put) and _put[0]["enabled"] is False and _put[0]["prompts"] == []
+      and _put[0]["default_channel_ids"] == [])
 common.discord = _rd
 
 # ──────────────────── 6c. YouTube routing + official Kick API ───────────────
-print("\n[youtube routing + kick]")
-common.load_config = lambda: {"channels": {"youtube_uploads": "YU", "announcements": "A", "live_now": "L"},
-                              "roles": {"youtube_pings": "Y", "live_pings": "R"},
-                              "creator": {"youtube_channel_id": "UCtest"}}
-STORE.clear(); POSTS.clear(); LOOP_N[0] = 1
-yt_feed([("v1", "T1", "http://y/1", "2024-01-01T10:00:00+00:00")])
-youtube_bot.main()                                  # first run seeds silently
-POSTS.clear(); LOOP_N[0] = 1
-yt_feed([("v1", "T1", "http://y/1", "2024-01-01T10:00:00+00:00"),
-         ("v2", "T2", "http://y/2", "2024-01-01T11:00:00+00:00")])
-youtube_bot.main()
-check("uploads route to #youtube-uploads (not announcements)", len(POSTS) == 1 and POSTS[0][0] == "YU")
-
-os.environ["KICK_CLIENT_ID"] = "x"; os.environ["KICK_CLIENT_SECRET"] = "y"
-_h = common.http;  common.http = lambda *a, **k: (200, '{"access_token": "tok"}')
-_gj = common.get_json
-common.get_json = lambda url, headers=None, tries=4: (200, {"data": [
-    {"slug": "iboyprime", "stream_title": "Live!",
-     "stream": {"is_live": True, "viewer_count": 42, "start_time": "2024-01-01T10:00:00Z"}}]})
-ks = livealert_bot.kick_status({"creator": {"kick_slug": "iboyprime"}})
-check("kick_status parses official is_live=true", bool(ks) and ks["live"] and ks["viewers"] == 42 and ks["title"] == "Live!")
-common.get_json = lambda url, headers=None, tries=4: (200, {"data": [{"slug": "iboyprime", "stream": {"is_live": False}}]})
-ks2 = livealert_bot.kick_status({"creator": {"kick_slug": "iboyprime"}})
-check("kick_status parses official is_live=false", bool(ks2) and ks2["live"] is False)
-common.http = _h; common.get_json = _gj
-os.environ.pop("KICK_CLIENT_ID", None); os.environ.pop("KICK_CLIENT_SECRET", None)
-check("kick_status disabled (None) without keys", livealert_bot.kick_status({"creator": {"kick_slug": "iboyprime"}}) is None)
-
-# ───────────────────────── 7. modconfig resolver ───────────────────────────
 print("\n[modconfig]")
 import modconfig
 
@@ -946,90 +832,6 @@ if mod_panel:
     check("nickname helper never enables an empty rule",
           mod_panel.collect_member_profile(True, "  \n") == {"enabled": False, "words": []})
 
-# ───────────────────────── 12b. server_polish ──────────────────────────────
-print("\n[server_polish]")
-import server_polish
-server_polish.time = types.SimpleNamespace(sleep=lambda s: None)
-SP_CALLS = []
-def sp_discord(method, path, body=None):
-    SP_CALLS.append((method, path, body))
-    if method == "GET" and path.endswith("/welcome-screen"):
-        return 404, {}
-    if method == "GET" and path.endswith("/users/@me"):
-        return 200, {"id": "BOT"}
-    if method == "GET" and "/messages" in path:
-        return 200, []
-    return 200, {}
-common.discord = sp_discord
-common.post_message = fake_post
-
-sp_chans = {
-    "👋-welcome":   {"id": "W", "type": 5, "topic": ""},
-    "💬-general":   {"id": "G", "type": 0, "topic": server_polish.TOPICS["💬-general"]},
-    "😂-memes":     {"id": "M", "type": 0, "topic": "old topic"},
-    "🎭-get-roles": {"id": "R", "type": 0, "topic": ""},
-}
-SP_CALLS.clear()
-server_polish.patch_guild("G1", {"description": None, "system_channel_id": None}, sp_chans)
-check("guild PATCH sets description + join-message channel (regular text, not announcement)",
-      any(m == "PATCH" and p == "/guilds/G1" and "description" in b and b.get("system_channel_id") == "G"
-          for m, p, b in SP_CALLS))
-SP_CALLS.clear()
-server_polish.patch_guild("G1", {"description": server_polish.GUILD_DESCRIPTION,
-                                 "system_channel_id": "G"}, sp_chans)
-check("guild PATCH is a no-op when already current", not any(m == "PATCH" for m, p, b in SP_CALLS))
-
-SP_CALLS.clear()
-server_polish.patch_welcome_screen("G1", sp_chans)
-_ws = [b for m, p, b in SP_CALLS if m == "PATCH" and p.endswith("/welcome-screen")]
-check("welcome screen enabled with the known featured channels",
-      _ws and _ws[0]["enabled"] is True and len(_ws[0]["welcome_channels"]) == 3 and
-      len(_ws[0]["description"]) <= 140)
-check("welcome screen only features always-visible channels (gated ones 400)",
-      all(n in ("👋-welcome", "💬-general", "👋-introductions", "😂-memes", "✂️-clips-n-highlights")
-          for n, _, _ in server_polish.WELCOME_CHANNELS))
-
-SP_CALLS.clear()
-server_polish.patch_topics(sp_chans)
-_tp = [(p, b) for m, p, b in SP_CALLS if m == "PATCH" and p.startswith("/channels/")]
-check("topics PATCH only the channels whose topic differs",
-      len(_tp) == 3 and all("topic" in b for _, b in _tp))
-for _n in ("👋-welcome", "😂-memes", "🎭-get-roles"):
-    sp_chans[_n]["topic"] = server_polish.TOPICS[_n]
-SP_CALLS.clear()
-server_polish.patch_topics(sp_chans)
-check("topics: second run is a full no-op (rate-limit safe)",
-      not any(m == "PATCH" for m, p, b in SP_CALLS))
-
-POSTS.clear(); POSTS_FULL.clear()
-server_polish.post_guides(sp_chans)
-check("both guides posted when missing (roles + welcome)", len(POSTS) == 2)
-# next(..., "") so a text mismatch prints a FAIL below instead of aborting the
-# whole suite with StopIteration (that abort is what emailed the owner once)
-_roles_g = next((c for _, c in POSTS if "Roles & Pings" in c), "")
-_welc_g = next((c for _, c in POSTS if "Welcome to Prime Arena" in c), "")
-check("roles guide: 3-step how-to + all news ping roles",
-      "Channels & Roles" in _roles_g and "1️⃣" in _roles_g and
-      "News Pings" in _roles_g and "Digest Ping" in _roles_g)
-check("welcome guide: change-your-picks steps + clickable channel links",
-      "Channels & Roles" in _welc_g and "<#R>" in _welc_g and "<#G>" in _welc_g)
-check("guides fit in one message", all(len(c) <= 1990 for _, c in POSTS))
-
-def sp_discord2(method, path, body=None):
-    SP_CALLS.append((method, path, body))
-    if method == "GET" and path.endswith("/users/@me"):
-        return 200, {"id": "BOT"}
-    if method == "GET" and "/messages" in path:
-        return 200, [{"id": "OLD", "author": {"id": "BOT"}, "content": "stale"}]
-    return 200, {}
-common.discord = sp_discord2
-SP_CALLS.clear(); POSTS.clear()
-server_polish.post_guides(sp_chans)
-check("guides edit in place when stale (never duplicate)",
-      sum(1 for m, p, b in SP_CALLS if m == "PATCH" and "/messages/OLD" in p) == 2
-      and len(POSTS) == 0)
-
-# ───────────────────────── 13. deploy secret-scan ──────────────────────────
 print("\n[secret-safety]")
 try:
     import deploy_bots
@@ -1051,222 +853,83 @@ if deploy_bots:
           not any("mod_panel" in r for r, _ in deploy_bots.UPLOADS))
     newsclean = _json.dumps(newsconfig.base_defaults()).encode()
     check("newsconfig defaults pass the pre-upload secret scanner", deploy_bots.scan_for_secrets(newsclean, []) is None)
-    check("newsconfig.py + newsconfig.json + server_polish are in the upload set",
+    check("newsconfig + the layout module are in the upload set",
           ("newsconfig.py", "newsconfig.py") in deploy_bots.UPLOADS and
           ("newsconfig.json", "newsconfig.json") in deploy_bots.UPLOADS and
-          ("server_polish.py", "server_polish.py") in deploy_bots.UPLOADS)
+          ("layout.py", "layout.py") in deploy_bots.UPLOADS)
     check("logo tooling is NOT uploaded (local-only)",
           not any(("make_logo" in r or "set_icon" in r) for r, _ in deploy_bots.UPLOADS))
-    check("new bots + CI files are in the upload set",
-          ("predictions_bot.py", "predictions_bot.py") in deploy_bots.UPLOADS and
-          ("fightnight_bot.py", "fightnight_bot.py") in deploy_bots.UPLOADS and
+    check("surviving bots + CI files are in the upload set",
+          ("news_bot.py", "news_bot.py") in deploy_bots.UPLOADS and
           ("selftest_changes.py", "../selftest_changes.py") in deploy_bots.UPLOADS and
           ("commands_worker/worker.js", "../commands_worker/worker.js") in deploy_bots.UPLOADS and
           (".github/workflows/selftest.yml", ".github/workflows/selftest.yml") in deploy_bots.UPLOADS)
-    check("quiz/debate/spotlight/clip are NEVER auto-dispatched (would post at deploy)",
-          all(w not in deploy_bots.DISPATCH for w in ("quiz.yml", "debate.yml", "spotlight.yml", "clip.yml")))
-    check("predictions + fightnight dispatch on deploy (safe no-ops)",
-          "predictions.yml" in deploy_bots.DISPATCH and "fightnight.yml" in deploy_bots.DISPATCH)
+    check("the MMA forum poller ships with the normal deploy (one config lane, no "
+          "--server rebuild needed to patch it)",
+          ("mma_bot.py", "../mma_github/mma_bot.py") in deploy_bots.UPLOADS and
+          ("mma_config.json", "mma_config.json") in deploy_bots.UPLOADS and
+          (".github/workflows/poll.yml", "../mma_github/.github/workflows/poll.yml")
+          in deploy_bots.UPLOADS)
+
+    # Retired files: the deploy only ever UPLOADS, so a leftover workflow keeps firing
+    # on cron forever - and one whose script is gone exits non-zero, i.e. a GitHub
+    # failure email every 5 minutes. gh_delete is the only supported removal path.
+    _RETIRED_BOTS = ("rankings_bot.py", "onthisday_bot.py", "predictions_bot.py",
+                     "fightweek_bot.py", "fightnight_bot.py", "clip_bot.py",
+                     "livealert_bot.py", "youtube_bot.py", "milestones_bot.py",
+                     "quiz_bot.py", "debate_bot.py", "spotlight_bot.py",
+                     "server_polish.py", "mma_setup.py")
+    _RETIRED_WF = tuple(".github/workflows/%s" % w for w in
+                        ("rankings.yml", "onthisday.yml", "predictions.yml", "fightweek.yml",
+                         "fightnight.yml", "clip.yml", "livealert.yml", "youtube.yml",
+                         "milestones.yml", "quiz.yml", "debate.yml", "spotlight.yml",
+                         "server_polish.yml", "setup.yml"))
+    check("every retired bot + workflow is gh_deleted from the public repo",
+          set(_RETIRED_BOTS) <= set(deploy_bots.RETIRED) and
+          set(_RETIRED_WF) <= set(deploy_bots.RETIRED))
+    check("retired workflows are deleted BEFORE their scripts (no cron tick can fire "
+          "against a missing file mid-deploy)",
+          max(deploy_bots.RETIRED.index(w) for w in _RETIRED_WF) <
+          min(deploy_bots.RETIRED.index(b) for b in _RETIRED_BOTS))
+    # gh_delete used to return True whenever the file merely EXISTED, discarding the
+    # DELETE result - so a read-only token printed "removed:" for all 46 retired paths
+    # while the repo was untouched. True must mean "actually deleted".
+    _ghcalls = []
+    _realgh = deploy_bots.gh
+
+    def _fake_gh(codes):
+        def f(m, p, b=None):
+            _ghcalls.append((m, p))
+            return codes.get(m, 200), ({"sha": "s1"} if m == "GET" else {"message": "nope"})
+        return f
+
+    deploy_bots.gh = _fake_gh({"GET": 200, "DELETE": 204})
+    check("gh_delete returns True when the DELETE really succeeds",
+          deploy_bots.gh_delete("o", "r", "x.py") is True)
+    deploy_bots.gh = _fake_gh({"GET": 200, "DELETE": 403})
+    check("gh_delete does NOT claim success when the DELETE is refused",
+          deploy_bots.gh_delete("o", "r", "x.py") is None)
+    deploy_bots.gh = lambda m, p, b=None: (404, {})
+    check("gh_delete returns False for an already-absent file",
+          deploy_bots.gh_delete("o", "r", "x.py") is False)
+    deploy_bots.gh = _realgh
+
+    check("nothing retired is still uploaded",
+          not (set(_RETIRED_BOTS) & set(r for r, _ in deploy_bots.UPLOADS)))
+    check("no retired workflow is dispatched",
+          not any(w.split("/")[-1] in deploy_bots.DISPATCH for w in _RETIRED_WF))
+    check("no dispatched workflow posts member-visible content at deploy time",
+          all(w not in deploy_bots.DISPATCH for w in
+              ("quiz.yml", "debate.yml", "spotlight.yml", "clip.yml")))
     check("uploads are CI-quiet + ONE selftest dispatched on the final tree "
           "(mid-deploy old-test/new-code races caused run 972892a)",
           "selftest.yml" in deploy_bots.DISPATCH and
-          "[skip ci]" in open(os.path.join(_HERE, "deploy_bots.py"), encoding="utf-8").read()
-          .split('body = {"message": "add " + repo_path')[1][:40])
+          "[skip ci]" in (lambda t, i: t[i:i + 120] if i >= 0 else "")(
+              open(os.path.join(_HERE, "deploy_bots.py"), encoding="utf-8").read(),
+              open(os.path.join(_HERE, "deploy_bots.py"), encoding="utf-8").read()
+              .find('body = {"message": "add " + repo_path')))
 
 # ───────────────────────── 14. predictions_bot (pick'em) ───────────────────
-print("\n[predictions_bot]")
-import predictions_bot
-os.environ.pop("GITHUB_ACTIONS", None)
-_real_now = common.now_utc
-_FROZEN = common.datetime.datetime(2026, 7, 15, 12, 0, tzinfo=common.datetime.timezone.utc)
-common.now_utc = lambda: _FROZEN
-_ev_start = _FROZEN - common.datetime.timedelta(days=1)          # mid-month: no accidental crown
-_mk = predictions_bot.month_key(_ev_start)
-
-common.load_config = lambda: {"guild_id": "G1", "channels": {"predictions": "P"},
-                              "roles": {"fight_prophet": "RP"}}
-STORE.clear()
-STORE["state_fightweek.json"] = {"hubs": {
-    "601": {"thread_id": "T1", "poll": {"channel_id": "T1", "message_id": "PM1",
-            "answers": {"1": "Alpha Man", "2": "Beta Guy"}, "league": "ufc",
-            "start": _ev_start.isoformat()}},
-    "602": {"thread_id": "T2", "poll": {"channel_id": "T2", "message_id": "PM2",
-            "answers": {"1": "Alpha Man", "2": "Gamma Dude"}, "league": "ufc",
-            "start": _ev_start.isoformat()}},
-    "603": {"thread_id": "T3", "poll": {"channel_id": "T3", "message_id": "PM3",
-            "answers": {"1": "Draw A", "2": "Draw B"}, "league": "ufc",
-            "start": _ev_start.isoformat()}},
-    "604": {"thread_id": "T4", "poll": {"channel_id": "T4", "message_id": "PM4",
-            "answers": {"1": "Late A", "2": "Late B"}, "league": "ufc",
-            "start": _ev_start.isoformat()}},
-    "605": {"thread_id": "T5", "poll": {"channel_id": "T5", "message_id": "PM5",
-            "answers": {"1": "Ghost A", "2": "Ghost B"}, "league": "ufc",
-            "start": (_FROZEN - common.datetime.timedelta(days=10)).isoformat()}},
-    "606": {"thread_id": "T6"},
-}}
-STORE["state_quiz.json"] = {"v": 1, "months": {_mk: {"U9": 2}}, "alltime": {"U9": 2}}
-
-def _comp(names, winner=None, completed=True):
-    return {"competitors": [dict({"athlete": {"displayName": n}},
-                                 **({"winner": True} if n == winner else {})) for n in names],
-            "status": {"type": {"completed": completed}}}
-_pred_sb = {"events": [
-    {"id": "601", "competitions": [_comp(["Alpha Man", "Beta Guy"], "Alpha Man")]},
-    {"id": "602", "competitions": [_comp(["Alpha Man", "Delta X"], "Delta X")]},   # card changed
-    {"id": "603", "competitions": [_comp(["Draw A", "Draw B"], None)]},            # draw/NC
-    {"id": "604", "competitions": [_comp(["Late A", "Late B"], None, False)]},     # not finished
-]}
-common.get_json = lambda url, headers=None, tries=4: \
-    (200, copy.deepcopy(_pred_sb)) if "scoreboard?dates=" in url else (200, {})
-
-PRED_CALLS, EDITS = [], []
-def pred_discord(method, path, body=None):
-    PRED_CALLS.append((method, path))
-    if method == "GET" and path.endswith("/messages/PM1"):
-        return 200, {"poll": {"answers": [{"answer_id": 1, "poll_media": {"text": "Alpha Man"}},
-                                          {"answer_id": 2, "poll_media": {"text": "Beta Guy"}}]}}
-    if method == "GET" and path.endswith("/messages/PM2"):
-        return 200, {"poll": {"answers": [{"answer_id": 1, "poll_media": {"text": "Alpha Man"}},
-                                          {"answer_id": 2, "poll_media": {"text": "Gamma Dude"}}]}}
-    if method == "GET" and "/polls/PM1/answers/1" in path:
-        return 200, {"users": [{"id": "U1"}, {"id": "U2"}]}
-    if method == "GET" and "/polls/" in path:
-        return 200, {"users": []}
-    if method == "GET" and "/channels/P/messages" in path:
-        return 200, []
-    return 200, {}
-common.discord = pred_discord
-common.edit_message = lambda ch, mid, content=None, embeds=None: (EDITS.append((ch, mid, content)), (200, {}))[1]
-
-POSTS.clear(); POSTS_FULL.clear(); PERSISTS.clear()
-predictions_bot.main()
-_ps = STORE["state_predictions.json"]
-check("finished event scored", _ps["processed"].get("601") == "scored")
-check("+1 to each correct main-event voter (month + all-time)",
-      _ps["months"][_mk] == {"U1": 1, "U2": 1} and _ps["alltime"] == {"U1": 1, "U2": 1})
-check("changed main event -> skip-with-log, no points", _ps["processed"].get("602") == "card_changed")
-check("draw/NC -> no_winner, no points", _ps["processed"].get("603") == "no_winner")
-check("unfinished event left pending for the next run", "604" not in _ps["processed"])
-check("vanished event gives up after 7 days", _ps["processed"].get("605") == "expired")
-check("hub without a poll -> no_poll", _ps["processed"].get("606") == "no_poll")
-_board = next((p for p in POSTS_FULL if predictions_bot.LEADER_TITLE in p["content"]), None)
-check("leaderboard created SILENT with no pings",
-      _board and _board["silent"] is True and _board["mentions"] is None)
-check("board id stored for edit-in-place", _ps["leaderboard"].get("message_id"))
-check("board combines pick'em + quiz points (quiz-only player shown)", "U9" in _board["content"])
-check("state persisted after scoring", "state_predictions.json" in PERSISTS)
-
-POSTS_FULL.clear()
-predictions_bot.main()
-_ps = STORE["state_predictions.json"]
-check("re-run never double-scores", _ps["alltime"] == {"U1": 1, "U2": 1})
-check("board edited in place on re-run (no new post)",
-      EDITS and not any(predictions_bot.LEADER_TITLE in p["content"] for p in POSTS_FULL))
-
-# monthly crown: previous month has scores, champion still on the month before
-_ps["months"]["2026-06"] = {"U1": 3}
-_qz = STORE["state_quiz.json"]; _qz["months"]["2026-06"] = {"U9": 5}
-_ps["champion"] = {"uid": "UOLD", "month": "2026-05"}
-STORE["state_predictions.json"] = _ps; STORE["state_quiz.json"] = _qz
-_SEQ = []
-common.persist_state = lambda fn, message=None: (PERSISTS.append(fn), _SEQ.append("persist"))
-_prev_fake_post = common.post_message
-def _seq_post(chan, content, allowed_mentions=None, embeds=None, silent=False):
-    _SEQ.append("post")
-    return _prev_fake_post(chan, content, allowed_mentions=allowed_mentions, embeds=embeds, silent=silent)
-common.post_message = _seq_post
-POSTS_FULL.clear(); PRED_CALLS.clear(); _SEQ.clear()
-predictions_bot.main()
-_ps = STORE["state_predictions.json"]
-check("crown: combined pick'em+quiz winner takes it", _ps["champion"] == {"uid": "U9", "month": "2026-06"})
-check("crown: role moved from previous holder to winner",
-      ("DELETE", "/guilds/G1/members/UOLD/roles/RP") in PRED_CALLS and
-      ("PUT", "/guilds/G1/members/U9/roles/RP") in PRED_CALLS)
-_cong = next((p for p in POSTS_FULL if "Fight Prophet" in p["content"] and p["mentions"]), None)
-check("crown: congrats pings ONLY the winner (never silent+mention)",
-      _cong and _cong["mentions"] == {"users": ["U9"]} and _cong["silent"] is False)
-check("crown: congrats posted AFTER state persist (crash-safe)",
-      "persist" in _SEQ and "post" in _SEQ and _SEQ.index("persist") < _SEQ.index("post"))
-POSTS_FULL.clear()
-predictions_bot.main()
-check("crown happens exactly once per month",
-      STORE["state_predictions.json"]["champion"] == {"uid": "U9", "month": "2026-06"} and
-      not any("Congrats" in p["content"] for p in POSTS_FULL))
-common.post_message = _prev_fake_post
-common.persist_state = lambda fn, message=None: PERSISTS.append(fn)
-
-# ───────────────────────── 15. fightnight_bot ──────────────────────────────
-print("\n[fightnight_bot]")
-import fightnight_bot
-common.load_config = lambda: {"guild_id": "G1", "channels": {"fight_night": "FN"},
-                              "roles": {"fight_alerts": "RA"}}
-_fn_now = [common.datetime.datetime(2026, 7, 18, 20, 0, tzinfo=common.datetime.timezone.utc)]
-common.now_utc = lambda: _fn_now[0]
-_fn_start = _fn_now[0] + common.datetime.timedelta(minutes=30)
-_FN_DONE = [False]
-def fn_get_json(url, headers=None, tries=4):
-    if "ufc/scoreboard?dates=" in url:
-        return 200, {"events": [{"id": "700", "competitions": [
-            {"status": {"type": {"completed": _FN_DONE[0]}}}]}]}
-    if "ufc/scoreboard" in url:
-        return 200, {"leagues": [{"calendar": [
-            {"event": {"$ref": "http://e/events/700"},
-             "startDate": _fn_start.strftime("%Y-%m-%dT%H:%MZ"),
-             "label": "UFC 999: Alpha vs Beta"}]}]}
-    return 200, {"leagues": []}
-common.get_json = fn_get_json
-FN_PATCHES = []
-def fn_discord(method, path, body=None):
-    if method == "GET" and path == "/channels/FN":
-        return 200, {"rate_limit_per_user": 5}
-    if method == "PATCH" and path == "/channels/FN":
-        FN_PATCHES.append(body); return 200, {}
-    if method == "POST" and "/threads" in path:
-        return 201, {"id": "TH1"}
-    return 200, {}
-common.discord = fn_discord
-
-STORE.pop("state_fightnight.json", None)
-POSTS.clear(); POSTS_FULL.clear(); PERSISTS.clear()
-fightnight_bot.main()
-_fs = STORE["state_fightnight.json"]
-_rem = next((p for p in POSTS_FULL if "Fight night" in p["content"]), None)
-check("reminder inside T-75 is LOUD and pings only 🥊 Fight Alerts",
-      _rem and _rem["silent"] is False and _rem["mentions"] == {"roles": ["RA"]} and
-      _rem["content"].startswith("<@&RA>"))
-check("reminder uses localized <t:..> times", "<t:" in _rem["content"] and ":R>" in _rem["content"])
-check("discussion thread opened on the reminder", _fs["events"]["700"].get("thread_id") == "TH1")
-check("no slowmode before the card starts", not FN_PATCHES and not _fs.get("slowmode"))
-check("fightnight state persisted", "state_fightnight.json" in PERSISTS)
-
-POSTS_FULL.clear()
-fightnight_bot.main()
-check("reminder is single-shot (no dupe on the next tick)",
-      not any("Fight night" in p["content"] for p in POSTS_FULL))
-
-_fn_now[0] = _fn_start + common.datetime.timedelta(minutes=5)      # card underway
-fightnight_bot.main()
-_fs = STORE["state_fightnight.json"]
-check("slowmode raised at start with the real previous value stored",
-      FN_PATCHES and FN_PATCHES[-1] == {"rate_limit_per_user": fightnight_bot.SLOWMODE_SECONDS} and
-      _fs["slowmode"] == {"active_eid": "700", "channel_id": "FN", "prev": 5})
-_n_patches = len(FN_PATCHES)
-fightnight_bot.main()
-check("slowmode raised only once while active", len(FN_PATCHES) == _n_patches)
-
-_FN_DONE[0] = True                                                  # ESPN marks it finished
-fightnight_bot.main()
-_fs = STORE["state_fightnight.json"]
-check("slowmode restored to the exact previous value when the card ends",
-      FN_PATCHES[-1] == {"rate_limit_per_user": 5} and not _fs.get("slowmode"))
-check("event marked done (no re-raise)", _fs["events"]["700"].get("done") is True)
-
-_fn_now[0] = _fn_start + common.datetime.timedelta(days=fightnight_bot.KEEP_DAYS + 1)
-fightnight_bot.main()
-check("old event records pruned", "700" not in STORE["state_fightnight.json"]["events"])
-common.now_utc = _real_now
-
-# ───────────────────────── 15b. nickname filter (member_profile) ───────────
 print("\n[nickname filter]")
 import json as _json2
 _mc_live = _json2.load(open(os.path.join(_BOTS if os.path.isdir(_BOTS) else _HERE,
@@ -1302,206 +965,6 @@ check("enabled but empty words -> no profile rule (silent-no-op guard)",
               for r in mod_setup.build_rules(mc_nick3, ["A"], None, [])))
 
 # ───────────────────────── 16. quiz_bot (Friday quiz night) ────────────────
-print("\n[quiz_bot]")
-import quiz_bot
-quiz_bot.QUESTION_SECONDS = 0
-quiz_bot.BETWEEN_SECONDS = 0
-common.now_utc = lambda: common.datetime.datetime(2026, 7, 10, 19, 0,
-                                                  tzinfo=common.datetime.timezone.utc)  # a Friday
-common.load_config = lambda: {"guild_id": "G1",
-                              "channels": {"mma_chat": "MC", "predictions": "P"},
-                              "roles": {}}
-STORE["quiz_data.json"] = [
-    {"q": "Q one",   "answers": ["a", "b", "c", "d"], "correct": 0},
-    {"q": "Q two",   "answers": ["a", "b", "c", "d"], "correct": 1},
-    {"q": "Q three", "answers": ["a", "b", "c", "d"], "correct": 2},
-    {"q": "Q four",  "answers": ["a", "b", "c", "d"], "correct": 0},
-    {"q": "Q five",  "answers": ["a", "b", "c", "d"], "correct": 3},
-    {"q": "Q six",   "answers": ["a", "b", "c", "d"], "correct": 1},
-]
-STORE.pop("state_quiz.json", None)
-QUIZ_POLLS, QUIZ_EXPIRES = [], []
-def quiz_discord(method, path, body=None):
-    if method == "POST" and path == "/channels/MC/messages" and body and "poll" in body:
-        QUIZ_POLLS.append(body)
-        n = len(QUIZ_POLLS)
-        return 200, {"id": "QM%d" % n,
-                     "poll": {"answers": [{"answer_id": j + 1, "poll_media": a["poll_media"]}
-                                          for j, a in enumerate(body["poll"]["answers"])]}}
-    if method == "POST" and "/expire" in path:
-        QUIZ_EXPIRES.append(path); return 200, {}
-    if method == "GET" and "/polls/" in path:
-        mid = path.split("/polls/")[1].split("/")[0]
-        return 200, {"users": ([{"id": "U1"}, {"id": "U2"}] if mid in ("QM1", "QM2")
-                               else [{"id": "U1"}])}
-    return 200, {}
-common.discord = quiz_discord
-POSTS.clear(); POSTS_FULL.clear(); PERSISTS.clear(); _EDITS_BEFORE = len(EDITS)
-quiz_bot.main()
-_qs = STORE["state_quiz.json"]
-check("5 questions posted as SILENT polls",
-      len(QUIZ_POLLS) == 5 and all(b.get("flags") == 4096 for b in QUIZ_POLLS))
-check("every question expired early", len(QUIZ_EXPIRES) == 5)
-check("scores tallied per correct voter", _qs["months"]["2026-07"] == {"U1": 5, "U2": 2}
-      and _qs["alltime"] == {"U1": 5, "U2": 2})
-check("bank cursor advances with wrap math", _qs["cursor"] == 5 and _qs["last_run"] == "2026-07-10")
-check("cursor persisted BEFORE questions (crash-safe)", PERSISTS and PERSISTS[0] == "state_quiz.json")
-check("intro + results are silent (calm-mode)",
-      all(p["silent"] for p in POSTS_FULL if "Quiz" in p["content"] or "results" in p["content"]))
-check("results embed lists tonight's top", any(p["embeds"] and "sharpest" in p["embeds"][0]["description"]
-                                               for p in POSTS_FULL if p["embeds"]))
-check("shared board edited, never created by quiz_bot",
-      len(EDITS) > _EDITS_BEFORE and EDITS[-1][1] == "msg1" and
-      not any(predictions_bot.LEADER_TITLE in p["content"] for p in POSTS_FULL))
-check("board shows both point columns", "🥊 1 · 🧠 5" in EDITS[-1][2])
-_n_polls = len(QUIZ_POLLS)
-quiz_bot.main()
-check("same-day re-run is a no-op (double-dispatch guard)", len(QUIZ_POLLS) == _n_polls)
-
-# ───────────────────────── 17. debate_bot ──────────────────────────────────
-print("\n[debate_bot]")
-import debate_bot
-common.now_utc = lambda: common.datetime.datetime(2026, 7, 6, 17, 0,
-                                                  tzinfo=common.datetime.timezone.utc)  # a Monday
-common.load_config = lambda: {"channels": {"mma_chat": "MC"}}
-STORE["debates_data.json"] = [{"q": "Debate 1", "answers": ["x", "y"]},
-                              {"q": "Debate 2", "answers": ["x", "y", "z"]},
-                              {"q": "Debate 3", "answers": ["x", "y"]}]
-STORE.pop("state_debate.json", None)
-DEBATE_POLLS = []
-def debate_discord(method, path, body=None):
-    if method == "POST" and body and "poll" in body:
-        DEBATE_POLLS.append(body); return 200, {"id": "DM%d" % len(DEBATE_POLLS)}
-    return 200, {}
-common.discord = debate_discord
-debate_bot.main()
-_ds = STORE["state_debate.json"]
-check("debate posted as a SILENT poll with a plain content line",
-      len(DEBATE_POLLS) == 1 and DEBATE_POLLS[0]["flags"] == 4096 and
-      DEBATE_POLLS[0]["content"].startswith("🗣️") and
-      DEBATE_POLLS[0]["poll"]["question"]["text"] == "Debate 1")
-check("3-day duration, single choice",
-      DEBATE_POLLS[0]["poll"]["duration"] == 72 and
-      DEBATE_POLLS[0]["poll"]["allow_multiselect"] is False)
-check("cursor advances", _ds["cursor"] == 1 and _ds["last_posted"] == "2026-07-06")
-debate_bot.main()
-check("same-day re-run is a no-op", len(DEBATE_POLLS) == 1)
-_ds["cursor"] = 2; _ds["last_posted"] = "2026-06-29"; STORE["state_debate.json"] = _ds
-debate_bot.main()
-check("rotation wraps around the bank", STORE["state_debate.json"]["cursor"] == 0 and
-      DEBATE_POLLS[-1]["poll"]["question"]["text"] == "Debate 3")
-
-# ───────────────────────── 18. spotlight_bot ───────────────────────────────
-print("\n[spotlight_bot]")
-import spotlight_bot
-common.load_config = lambda: {"channels": {"mma_chat": "MC"}}
-_spot_ranks = [
-    {"categoryName": "Pound-for-Pound", "fighters": [{"id": "px", "name": "PX"}]},
-    {"categoryName": "Lightweight",
-     "fighters": [{"id": "alpha-man", "name": "Alpha Man"}, {"id": "beta-guy", "name": "Beta Guy"}]},
-    {"categoryName": "Heavyweight",
-     "fighters": [{"id": "big-dog", "name": "Big Dog"}]},
-]
-def spot_get_json(url, headers=None, tries=4):
-    if url.endswith("/rankings"):
-        return 200, copy.deepcopy(_spot_ranks)
-    if "/fighter/" in url:
-        return 200, {"name": "Alpha Man", "nickname": "The Test", "wins": "20", "losses": "1",
-                     "draws": "0", "placeOfBirth": "Testville", "trainsAt": "Test Gym", "age": "29"}
-    return 200, {}
-common.get_json = spot_get_json
-STORE.pop("state_spotlight.json", None)
-common.now_utc = lambda: common.datetime.datetime(2026, 7, 8, 16, 0,
-                                                  tzinfo=common.datetime.timezone.utc)  # a Wednesday
-POSTS_FULL.clear()
-spotlight_bot.main()
-_sp = STORE["state_spotlight.json"]
-_spost = POSTS_FULL[-1]
-check("spotlight posted SILENT with a rich embed",
-      _spost["silent"] and _spost["embeds"] and "Spotlight" in _spost["embeds"][0]["title"])
-check("plain-text preview line (calm push format)",
-      _spost["content"].startswith("Fighter Spotlight: Alpha Man"))
-check("P4P skipped; first real division used", "#1 at Lightweight" in _spost["embeds"][0]["description"])
-check("division cursor rotates", _sp["div_cursor"] == 1 and _sp["last_posted"] == "2026-07-08")
-spotlight_bot.main()
-check("same-day guard holds", len([p for p in POSTS_FULL if "Spotlight" in p["content"]]) == 1)
-_sp["last_posted"] = "2026-07-01"; STORE["state_spotlight.json"] = _sp
-spotlight_bot.main()
-check("next week -> next division, lap bumps ranks",
-      STORE["state_spotlight.json"]["div_cursor"] == 0 and
-      STORE["state_spotlight.json"]["per_div_rank"].get("Lightweight") == 1)
-
-# ───────────────────────── 19. clip_bot (Clip War) ─────────────────────────
-print("\n[clip_bot]")
-import clip_bot
-common.load_config = lambda: {"guild_id": "G1",
-                              "channels": {"plays_n_clips": "PC"},
-                              "roles": {"clip_champ": "RC"}}
-CLIP_CALLS, CLIP_MSGS = [], []
-def clip_discord(method, path, body=None):
-    CLIP_CALLS.append((method, path))
-    if method == "POST" and path == "/channels/PC/threads":
-        return 201, {"id": "CT1"}
-    if method == "GET" and path.startswith("/channels/CT1/messages"):
-        return 200, list(CLIP_MSGS)
-    return 200, {}
-common.discord = clip_discord
-STORE.pop("state_clip.json", None)
-common.now_utc = lambda: common.datetime.datetime(2026, 7, 6, 15, 0,
-                                                  tzinfo=common.datetime.timezone.utc)  # Monday
-POSTS_FULL.clear()
-clip_bot.main()
-_cs = STORE["state_clip.json"]
-check("Monday opens the Clip War thread", _cs["thread_id"] == "CT1" and _cs["week"])
-check("seed message is silent and in the thread",
-      POSTS_FULL and POSTS_FULL[0]["chan"] == "CT1" and POSTS_FULL[0]["silent"])
-_n_calls = len([c for c in CLIP_CALLS if c[0] == "POST"])
-clip_bot.main()
-check("Monday re-run doesn't open a second thread",
-      len([c for c in CLIP_CALLS if c[0] == "POST" and c[1].endswith("/threads")]) == 1)
-
-_cs = STORE["state_clip.json"]; _cs["prev_champ"] = "OLD"; _cs["seed_msg_id"] = "SEED"
-STORE["state_clip.json"] = _cs
-CLIP_MSGS[:] = [   # newest-first, as Discord returns
-    {"id": "300", "author": {"id": "BOTX", "bot": True}, "reactions": [{"count": 99}]},
-    {"id": "200", "author": {"id": "B"}, "reactions": [{"count": 5}]},
-    {"id": "100", "author": {"id": "C"}, "reactions": [{"count": 3}, {"count": 2}]},
-    {"id": "50",  "author": {"id": "A"}, "reactions": [{"count": 3}]},
-    {"id": "SEED", "author": {"id": "BOTX"}, "reactions": []},
-]
-common.now_utc = lambda: common.datetime.datetime(2026, 7, 12, 20, 0,
-                                                  tzinfo=common.datetime.timezone.utc)  # Sunday
-POSTS_FULL.clear(); CLIP_CALLS.clear()
-clip_bot.main()
-_cs = STORE["state_clip.json"]
-check("Sunday crowns the top-reaction author (ties -> earliest)", _cs["prev_champ"] == "C")
-check("Clip Champ role moved old -> new",
-      ("DELETE", "/guilds/G1/members/OLD/roles/RC") in CLIP_CALLS and
-      ("PUT", "/guilds/G1/members/C/roles/RC") in CLIP_CALLS)
-_win = next((p for p in POSTS_FULL if "Clip Champ" in p["content"]), None)
-check("winner announce mentions ONLY the winner",
-      _win and _win["mentions"] == {"users": ["C"]} and _win["silent"] is False)
-check("week marked closed", _cs["closed_week"] == _cs["week"])
-POSTS_FULL.clear()
-clip_bot.main()
-check("Sunday re-run is a no-op", not POSTS_FULL)
-
-common.now_utc = lambda: common.datetime.datetime(2026, 7, 13, 15, 0,
-                                                  tzinfo=common.datetime.timezone.utc)  # next Monday
-clip_bot.main()
-CLIP_MSGS[:] = [{"id": "400", "author": {"id": "D"}, "reactions": []}]
-common.now_utc = lambda: common.datetime.datetime(2026, 7, 19, 20, 0,
-                                                  tzinfo=common.datetime.timezone.utc)  # next Sunday
-POSTS_FULL.clear(); CLIP_CALLS.clear()
-clip_bot.main()
-check("no reactions -> previous champ keeps the role",
-      STORE["state_clip.json"]["prev_champ"] == "C" and
-      not any(c[0] in ("PUT", "DELETE") and "/roles/" in c[1] for c in CLIP_CALLS))
-check("quiet no-champ notice is silent",
-      POSTS_FULL and POSTS_FULL[-1]["silent"] and "belt stays put" in POSTS_FULL[-1]["content"])
-common.now_utc = _real_now
-
-# ───────────────────────── 20. snapshot_bot (no-churn snapshot) ────────────
 print("\n[snapshot_bot]")
 import snapshot_bot
 common.now_utc = lambda: common.datetime.datetime(2026, 7, 4, 4, 23,
@@ -1566,10 +1029,10 @@ common.now_utc = lambda: _HNOW
 # the watch-window bots that are legitimately mid-run (running) are not.
 _wf = [("Auto Events",   "ok",       "",                                       1.0),
        ("MMA News Wire", "running",  "running now · last completed ✅",         0.2),
-       ("Quiz Night",    "awaiting", "awaiting first scheduled run",           None),
-       ("Clip of Week",  "awaiting", "awaiting first scheduled run",           None),
+       ("Config Snapshot", "awaiting", "awaiting first scheduled run",         None),
+       ("Weekly Health", "awaiting", "awaiting first scheduled run",           None),
        ("Bots Setup",    "manual",   "manual-only — deploy runs this locally", None),
-       ("Fight Pick'em", "issue",    "failure (30h ago)",                      30.0)]
+       ("Moderation Patrol", "issue", "failure (30h ago)",                     30.0)]
 _feeds = [("MMA Fighting", 3.0, None), ("MMA Mania", 5.0, None), ("Sherdog", None, "HTTP 403")]
 _hc, _he = health_bot.render(_wf, _feeds, rules_n=6, sizes=[("state_news.json", 2048)], trend=(150, 5))
 _fields = {f["name"]: f["value"] for f in _he["fields"]}
@@ -1578,11 +1041,11 @@ check("only real issues counted (1 failing wf + 1 dead feed = 2)", "2 thing(s)" 
 check("summary counts break down and sum to the total",
       "6 workflows" in _wfv and "1 ✅" in _wfv and "1 🔄 running" in _wfv
       and "2 ⏳ awaiting first run" in _wfv and "1 🖱️ manual" in _wfv and "1 ❌" in _wfv)
-check("a real failure is named as ❌", "❌ Fight Pick'em — failure (30h ago)" in _wfv)
+check("a real failure is named as ❌", "❌ Moderation Patrol — failure (30h ago)" in _wfv)
 check("manual + running + awaiting bots are NOT flagged ❌",
-      "❌ Bots Setup" not in _wfv and "❌ MMA News Wire" not in _wfv and "❌ Quiz Night" not in _wfv)
+      "❌ Bots Setup" not in _wfv and "❌ MMA News Wire" not in _wfv and "❌ Config Snapshot" not in _wfv)
 check("awaiting-first-run bots listed compactly (not as failures)",
-      "⏳ first run pending: Quiz Night, Clip of Week" in _wfv)
+      "⏳ first run pending: Config Snapshot, Weekly Health" in _wfv)
 check("blocked feed shows its HTTP code, not a vague 'unreachable'",
       "⛔ Sherdog — HTTP 403" in _fields["📰 Feeds"])
 check("live feeds aged correctly",
