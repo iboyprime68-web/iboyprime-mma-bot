@@ -367,9 +367,10 @@ check("the merged welcome channel also answers to the 'rules' key "
 # Roles: nothing may resurrect the deleted ones.
 _dead = set(layout.ROLES_DELETE)
 _kept = set(n for n, _c, _h, _m in layout.ROLES_KEEP)
-check("staff + bots roles survive",
-      {"👑 Owner", "🛡️ Admin", "🔨 Moderator",
-       "🤖 Bots"} <= _kept)
+check("staff roles + the baseline member role survive",
+      {"👑 Owner", "🛡️ Admin", "🔨 Moderator", "🤝 Member"} <= _kept)
+check("the empty 🤖 Bots role is gone (0 members, 0 permissions, 13 dead overwrites)",
+      "🤖 Bots" in _dead and "🤖 Bots" not in _kept)
 check("no role is both kept and deleted", not (_dead & _kept))
 check("the ping/award/interest roles are all queued for deletion",
       {"📰 News Pings", "🗞️ Digest Ping", "🔴 Live Pings",
