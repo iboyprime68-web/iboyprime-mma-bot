@@ -16,6 +16,7 @@ run; deep-merges so owner edits are never clobbered). Std-lib only. Idempotent.
 import common
 import layout
 import modconfig
+import welcomeconfig
 
 # The welcome channel and the rules channel are now ONE channel (👋┊welcome, which is
 # the old 📜-rules renamed - so its history and the guild's rules_channel_id survive).
@@ -23,69 +24,35 @@ import modconfig
 # deleted every *other* bot message in their channel, so two writers could never share
 # one. server_polish is gone; reset_rules() below is the single owner.
 # Hard limit: common.post_message truncates at 1990 chars.
-# Written against the no-ai-slop rules (github.com/realrossmanngroup/no_ai_slop_writing_rules):
-# no em dashes, no intensifiers, no filler openers, no synthetic enthusiasm, no decorative
-# emoji in prose, headings that name their content. Keep it that way when editing.
-WELCOME_HEAD = (
-    "# Welcome to %(server)s\n"
-    "Gaming, MMA, and iBoyPrime's streams. Every channel is open to you the moment you "
-    "join. There are no roles to pick and nothing to unlock. Say hi in %(general)s.\n\n"
-    "## Rules\n"
-    "Banter and trash talk are fine. These ten are not.\n\n"
-)
-WELCOME_RULES = (
-    "**1. Respect everyone.** No harassment, hate, bullying or personal attacks. "
-    "Argue about the fight, not the person.\n"
-    "**2. No backbiting.** Don't run someone down behind their back or repeat their "
-    "private business. If you have a problem with someone, say it to them or bring it "
-    "to staff.\n"
-    "**3. No mocking.** Nothing aimed at anyone's looks, beliefs, background or "
-    "personal struggles.\n"
-    "**4. Stay humble.** Nobody came here to watch you brag, flex or talk down to them.\n"
-    "**5. Be honest.** No lying, scamming, baiting or setting people up.\n"
-    "**6. Keep it clean.** No slurs and no NSFW. Swearing in banter passes; a foul "
-    "mouth does not.\n"
-    "**7. No gambling or betting.** That covers wagers between members, betting promos, "
-    "and links to bookmakers.\n"
-    "**8. No spam or self-promo.** No mass pings, no advertising in DMs, no invites to "
-    "other servers.\n"
-    "**9. Respect privacy.** Nobody's personal details, DMs or screenshots get posted "
-    "without their say-so.\n"
-    "**10. Keep it legal, post in the right channel, and do what staff ask.**\n\n"
-    "Breaking one of these gets a warning, a timeout, or a ban, depending on what you "
-    "did. Bring anything that needs staff to %(tickets)s.\n\n"
-)
-WELCOME_LINKS = (
-    "## Links\n"
-    "YouTube: <https://youtube.com/@iboyprime_official>\n"
-    "Twitch: <https://twitch.tv/iboyprime>\n"
-    "Kick: <https://kick.com/iboyprime>\n"
-    "TikTok: <https://tiktok.com/@iboyprime>\n"
-)
+#
+# The WORDS live in welcomeconfig.json, not here - the owner edits them in
+# MOD_PANEL.bat -> 👋 Welcome. This file only decides where they get posted. The same
+# file's `links` list is what the Worker's /links command reads, so the pinned message
+# and the command can no longer drift (they did: a wrong TikTok URL in both).
 
 
-def welcome_text(cfg):
+def welcome_text(cfg, wcfg=None):
     """The single welcome + rules + links message. Channel refs become clickable
     <#id> links; a missing key degrades to plain text rather than a dead #0 chip."""
+    wcfg = wcfg if wcfg is not None else welcomeconfig.load()
     chans = cfg.get("channels", {}) or {}
 
     def ref(key, fallback):
         cid = chans.get(key)
         return ("<#%s>" % cid) if cid else fallback
 
-    text = (WELCOME_HEAD % {"server": layout.SERVER_NAME,
-                            "general": ref("general", "the chat")}
-            + WELCOME_RULES % {"tickets": ref("tickets", "the tickets channel")}
-            + WELCOME_LINKS)
-    invite = (cfg.get("invite_url") or "").strip()
-    if invite:
-        text += "Invite a friend: <%s>\n" % invite
-    return text.rstrip()
+    return welcomeconfig.render(
+        wcfg,
+        {"server": layout.SERVER_NAME,
+         "general": ref("general", "the chat"),
+         "tickets": ref("tickets", "the tickets channel")},
+        invite_url=(cfg.get("invite_url") or "").strip())
 
 
-# Kept as an alias so anything still importing the old name keeps working.
-RULES_TEXT = (WELCOME_HEAD % {"server": layout.SERVER_NAME, "general": "the chat"}
-              + WELCOME_RULES % {"tickets": "the tickets channel"} + WELCOME_LINKS)
+# The merged (defaults + the owner's file) message with plain-text channel fallbacks.
+# Kept under the old name so anything still importing it keeps working; the selftest
+# uses it as its handle on the LIVE text.
+RULES_TEXT = welcome_text({"channels": {}})
 IBP_PREFIX = "iBP · "      # all our AutoMod rule names start with this (used to prune stale ones)
 EXEMPT_CAP = 50            # Discord hard limit: <=50 exempt channels per rule
 
@@ -326,7 +293,18 @@ def main():
     modcfg = load_or_seed_modconfig(cfg)
 
     if rules_ch:
-        reset_rules(rules_ch, welcome_text(cfg))
+        text = welcome_text(cfg)
+        size = welcomeconfig.discord_len(text)
+        if size > welcomeconfig.MAX_LEN:
+            # reset_rules would SystemExit here, deploy_bots.py fail()s on a non-zero rc
+            # from this script, and the deploy would stop BEFORE the upload step - so one
+            # over-long welcome edit would block every unrelated fix from shipping. Leave
+            # the last good message live, say exactly where to fix it, carry on.
+            print("  ! welcome+rules is %d characters (limit %d). The live message was "
+                  "left UNCHANGED. Trim it in MOD_PANEL.bat -> 👋 Welcome; the counter "
+                  "there shows the budget." % (size, welcomeconfig.MAX_LEN))
+        else:
+            reset_rules(rules_ch, text)
     else:
         print("  ! no welcome channel in config - skipped the welcome+rules post")
 
