@@ -598,6 +598,16 @@ def main():
     except Exception as e:
         print("  ! newsconfig materialize failed:", e)
 
+    # The owner's welcome text. load() merges his file over the defaults (adding any new
+    # default keys), save() writes the merged result back, so the file always exists by
+    # the time mod_setup renders from it at step [3b] and the upload runs at step [4].
+    try:
+        import welcomeconfig
+        welcomeconfig.save(welcomeconfig.load())
+        print("Wrote welcomeconfig.json")
+    except Exception as e:
+        print("  ! welcomeconfig materialize failed:", e)
+
     print("DONE.")
 
 
