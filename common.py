@@ -99,9 +99,15 @@ def post_message(channel_id, content, allowed_mentions=None, embeds=None, silent
     return discord("POST", "/channels/%s/messages" % channel_id, body)
 
 
-def edit_message(channel_id, message_id, content=None, embeds=None):
-    """PATCH a message - only the fields passed are touched. Edits never notify."""
-    body = {}
+def edit_message(channel_id, message_id, content=None, embeds=None, allowed_mentions=None):
+    """PATCH a message - only the fields passed are touched.
+
+    allowed_mentions defaults to NO_PINGS, matching post_message. A PATCH without it
+    inherits Discord's permissive default; edits do not push-notify, but a role or
+    @everyone mention added by an edit still renders as a live highlight, so the bot's
+    edit paths (welcome message, commands menu, boards) close it explicitly.
+    """
+    body = {"allowed_mentions": allowed_mentions if allowed_mentions is not None else NO_PINGS}
     if content is not None:
         body["content"] = content[:1990]
     if embeds is not None:
