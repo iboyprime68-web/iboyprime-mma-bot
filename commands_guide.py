@@ -51,7 +51,8 @@ def main():
     if mine:
         keep = mine[0]
         if keep.get("content") != guide:
-            common.discord("PATCH", "/channels/%s/messages/%s" % (chan, keep["id"]), {"content": guide})
+            common.discord("PATCH", "/channels/%s/messages/%s" % (chan, keep["id"]),
+                           {"content": guide, "allowed_mentions": common.NO_PINGS})
             print("bot-commands guide: edited in place")
         else:
             print("bot-commands guide: already current")
