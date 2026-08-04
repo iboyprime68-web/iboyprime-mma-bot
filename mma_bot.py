@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""iBoyPrime HQ - MMA bot (recurring poller).
+"""Prime Arena - MMA bot (recurring poller).
 Polls ESPN's free MMA API (no key) and posts to Discord forums:
   UPCOMING cards -> upcoming-fights forum (pings Fight Alerts)
   RESULTS        -> fight-results forum (pings Fight Results, spoiler-tagged,
@@ -207,14 +207,11 @@ def main():
                             posted += 1; print("posted upcoming:", label)
                             if isinstance(resp, dict) and resp.get("id"): up_threads[title] = resp["id"]
                             time.sleep(1)
-            if now - datetime.timedelta(days=RESULTS_LOOKBACK) <= start <= now and eid not in res_done:
-                ev = find_detail(league, eid, c["startDate"], cache)
-                if ev and event_done(ev):
-                    lines = [result_line(b) for b in ordered_bouts(ev)[:14] if is_completed(b)]
-                    if lines:
-                        body = "⚠️ **Results - spoilers inside. Tap to reveal.**\n||" + "\n".join(lines) + "||"
-                        ok, _ = post_forum(cfg["results_forum_id"], "\U0001F3C6 " + label + " - Results", body, cfg.get("results_role_id"))
-                        if ok: res_done.add(eid); posted += 1; print("posted results:", label); time.sleep(1)
+            # The 🏆-fight-results forum and its ping role were removed in the Aug 2026
+            # declutter. Do NOT reinstate a results post here: posting to a dead
+            # channel id fails with a 404 that this loop treats as "not done yet", so
+            # it silently retried every 5 minutes for 3 days per event while the
+            # workflow still exited 0 and the health report stayed green.
     state["upcoming"] = sorted(up_done); state["results"] = sorted(res_done)
     with open(STATE, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2)
