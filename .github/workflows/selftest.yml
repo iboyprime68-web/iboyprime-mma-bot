@@ -9,6 +9,7 @@ on:
       - 'onthisday_data.json'
       - 'modconfig.json'
       - 'newsconfig.json'
+      - 'welcomeconfig.json'
       - 'bots_config.json'
   workflow_dispatch:
 permissions:
