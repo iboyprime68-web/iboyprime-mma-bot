@@ -178,7 +178,6 @@ ROLES_KEEP = [
     ("👑 Owner",     0xF1C40F, True, False),
     ("🛡️ Admin",     0xE74C3C, True, True),
     ("🔨 Moderator", 0x3498DB, True, True),
-    ("🤖 Bots",      0x607D8B, True, False),
     # The baseline role every human gets. Hoisted so the member list finally shows
     # sections instead of one flat block. Discord has NO native auto-role, so
     # member_bot.py backfills it on a 5-minute cron - which needs the SERVER MEMBERS
@@ -206,6 +205,10 @@ ROLES_DELETE = [
     # unused since the server was built ("🤝 Member" was deleted here too, then brought
     # back in ROLES_KEEP as the baseline role - it must NOT appear in both lists)
     "⭐ VIP",
+    # 🤖 Bots held 0 members and granted 0 permissions, so its 13 channel overwrites
+    # applied to nobody. Discord gives every invited bot its own managed role, so a
+    # shared "bots" role was never doing anything.
+    "🤖 Bots",
     # interest roles - nothing is gated behind a role any more
     "🎮 Gamer", "🥊 MMA Fan",
     # ping roles - all the feeds they pinged for are gone
