@@ -174,8 +174,8 @@ check("first run posts the latest few (3)", len(POSTS) == 3)
 check("first run marks all seen", set(STORE["state_news.json"]["seen"]) == {"g1", "g2", "g3"})
 check("state upgraded to v3", STORE["state_news.json"]["v"] == 3)
 check("hybrid seed posts are silent", all(p["silent"] for p in POSTS_FULL))
-check("content is 'Headline — Source' (no markdown, no URL)",
-      POSTS_FULL[0]["content"] == "Volkanovski defends belt in Sydney thriller — MMA Fighting")
+check("content is 'Headline (Source)' (no markdown, no URL, no em dash)",
+      POSTS_FULL[0]["content"] == "Volkanovski defends belt in Sydney thriller (MMA Fighting)")
 check("link + footer live in the embed",
       POSTS_FULL[0]["embeds"][0]["url"] == "http://a" and
       "MMA Fighting" in POSTS_FULL[0]["embeds"][0]["footer"]["text"])
@@ -298,7 +298,7 @@ check("digest_due: picks latest passed slot", _dd(_at(22, 0), ["09:00", "21:30"]
 _bm_c, _bm_e, _bm_m, _ = news_bot.build_message(
     {"title": "**Huge** _news_ [link](http://x) here", "link": "http://x", "source": "Sherdog",
      "when": _NOON, "desc": ""}, newsconfig.base_defaults(), False, None)
-check("build_message content has no markdown", _bm_c == "Huge news link here — Sherdog")
+check("build_message content has no markdown", _bm_c == "Huge news link here (Sherdog)")
 
 # near-instant delivery: tight poll cadence across a long, cron-requeued window
 check("news polls every ~20s across a ~55-min window",
@@ -392,6 +392,60 @@ check("required_config_keys covers what the surviving bots read",
 
 
 # ───────── 6b. access & visibility (the bug this restructure exists to fix) ─────
+print("\n[writing rules]")
+# Every string a member can see is written against the no-ai-slop rules
+# (github.com/realrossmanngroup/no_ai_slop_writing_rules). Rule 1 bans the em dash
+# outright; the rest of the list bans copywriter filler and AI tells. Prose drifts
+# back the moment nobody is checking, so this suite checks.
+import mod_setup as _ms
+import commands_guide as _cg
+
+_WELCOME = _ms.RULES_TEXT
+_MENU = _cg.GUIDE
+_TOPICS = " ".join(layout.topics().values())
+os.environ.setdefault("DISCORD_BOT_TOKEN", "test-token")   # bots_setup exits without one
+import bots_setup as _bs2
+_DESCS = _bs2.GUILD_DESCRIPTION + " " + _bs2.WELCOME_DESCRIPTION
+
+_PROSE = {"welcome+rules": _WELCOME, "commands menu": _MENU, "channel topics": _TOPICS}
+if _DESCS:
+    _PROSE["guild + welcome-screen description"] = _DESCS
+
+for _label, _text in _PROSE.items():
+    check("%s: no em dash (rule 1)" % _label, "—" not in _text)
+
+_BANNED_WORDS = ("delve", "leverage", "utilize", "utilise", "facilitate", "foster",
+                 "bolster", "underscore", "unveil", "streamline", "seamless", "robust",
+                 "comprehensive", "cutting-edge", "groundbreaking", "pivotal",
+                 "transformative", "myriad", "plethora", "paramount", "prior to",
+                 "subsequent to", "in terms of", "the fact that")
+_BANNED_PHRASES = ("in today's", "it's important to note", "when it comes to",
+                   "at the end of the day", "in the realm of", "it goes without saying",
+                   "look no further", "that being said", "furthermore", "moreover",
+                   "in essence", "at its core", "to put it simply", "whether you're",
+                   "dive in", "let's delve")
+_INTENSIFIERS = ("extremely", "dramatically", "incredibly", "remarkably", "truly",
+                 "absolutely", "literally", "significantly", "undoubtedly")
+
+for _label, _text in _PROSE.items():
+    _low = _text.lower()
+    _hits = [w for w in _BANNED_WORDS + _BANNED_PHRASES + _INTENSIFIERS if w in _low]
+    check("%s: no banned words or filler phrases (offenders: %s)" % (_label, _hits[:3]),
+          not _hits)
+
+check("welcome+rules: no exclamation marks (rule 14, no synthetic enthusiasm)",
+      "!" not in _WELCOME)
+check("commands menu: no exclamation marks", "!" not in _MENU)
+check("welcome+rules still fits one Discord message", len(_WELCOME) <= 1990)
+check("welcome+rules keeps all ten rules",
+      all(("**%d." % n) in _WELCOME for n in range(1, 11)))
+check("the gambling rule survives (owner's hard rule)",
+      "gambling" in _WELCOME.lower() and "betting" in _WELCOME.lower())
+check("headings name their content instead of teasing it (rule 16)",
+      "## Rules" in _WELCOME and "## Links" in _WELCOME)
+
+
+# ─────────────── 6b. access & visibility (the bug this restructure exists to fix) ─────
 print("\n[access & visibility]")
 import onboarding_setup
 
@@ -902,6 +956,21 @@ if deploy_bots:
             _ghcalls.append((m, p))
             return codes.get(m, 200), ({"sha": "s1"} if m == "GET" else {"message": "nope"})
         return f
+
+    _bodies = []
+
+    def _capture_gh(m, p, b=None):
+        _bodies.append((m, b))
+        return (200, {"sha": "s1"}) if m == "GET" else (204, {})
+
+    deploy_bots.gh = _capture_gh
+    deploy_bots.gh_delete("o", "r", "x.py")
+    _delbody = next((b for m, b in _bodies if m == "DELETE"), {}) or {}
+    # A deploy is ~50 sequential commits. Uploads were CI-quiet but DELETES were not,
+    # so removing a bot fired a selftest run against a tree that still had the old
+    # suite importing it -> ModuleNotFoundError + a "Run failed" email (commit c8d23ce).
+    check("gh_delete commits are CI-quiet too (mid-deploy races caused c8d23ce)",
+          "[skip ci]" in _delbody.get("message", ""))
 
     deploy_bots.gh = _fake_gh({"GET": 200, "DELETE": 204})
     check("gh_delete returns True when the DELETE really succeeds",
