@@ -1,57 +1,40 @@
 {
   "guild_id": "1502831752702464113",
   "channels": {
-    "mma_news": "1515475772200976535",
-    "rankings": "1515475775384457267",
-    "on_this_day": "1515475778953806096",
-    "fight_week": "1515475785983594547",
-    "memes": "1515436391457357946",
-    "live_now": "1515436367608418357",
-    "youtube_uploads": "1515436370707873903",
-    "server_updates": "1515436359375126718",
-    "announcements": "1515436355847716874",
-    "predictions": "1515436423254376549",
-    "fight_night": "1515436426064429150",
+    "welcome": "1515436353091801199",
     "rules": "1515436353091801199",
-    "mod_log": "1515436454023790704",
+    "announcements": "1515436355847716874",
+    "general": "1515436383647432885",
+    "memes": "1515436391457357946",
     "bot_commands": "1515436396087869526",
+    "lfg": "1515436404774273127",
     "mma_chat": "1515436418346778776",
-    "plays_n_clips": "1515436409425629254",
-    "staff_chat": "1515436451335242030"
+    "mma_news": "1515475772200976535",
+    "upcoming": "1515448197290524763",
+    "staff_chat": "1515436451335242030",
+    "mod_log": "1515436454023790704",
+    "tickets": "1515436456460681389"
   },
   "roles": {
-    "live_pings": "1515427289070829682",
-    "youtube_pings": "1515427286914957462",
-    "announce_role": "1515427281970008275",
-    "events_role": "1515427279524597890",
-    "fight_alerts": "1515448190969577552",
     "owner": "1515427307626692631",
     "admin": "1515427305164378143",
-    "mod": "1515427303419678860",
-    "news_pings": "1522655081907093584",
-    "digest_ping": "1522655084645974106",
-    "fight_prophet": "1522857619277222019",
-    "clip_champ": "1522859680433438861"
+    "mod": "1515427303419678860"
   },
   "patrol_channels": [
     "1515436383647432885",
-    "1515436402156765375",
-    "1515436418346778776",
-    "1515436393818489056",
     "1515436391457357946",
-    "1515436386143178902"
+    "1515436396087869526",
+    "1515436404774273127",
+    "1515436418346778776"
   ],
+  "invite_url": "https://discord.gg/k4q3Azhqd2",
   "mma": {
-    "upcoming_forum_id": null,
-    "results_forum_id": null,
-    "alerts_role_id": null,
-    "results_role_id": null
+    "upcoming_forum_id": "1515448197290524763"
   },
   "creator": {
     "twitch_login": "iboyprime",
     "kick_slug": "iboyprime",
     "youtube_handle": "iboyprime_official",
-    "youtube_channel_id": "UCPx5FFZkK2N5yQ-jiTcS3mg",
-    "tiktok_handle": "iboyprime"
+    "youtube_channel_id": "UCPx5FFZkK2N5yQ-jiTcS3mg"
   }
 }
