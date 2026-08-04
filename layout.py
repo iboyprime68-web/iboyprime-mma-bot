@@ -90,28 +90,28 @@ CATEGORIES = [
         # its message history survives AND the guild's rules_channel_id (Community
         # mode) stays valid. mod_setup posts the merged welcome+rules message here.
         Ch("welcome", "👋┊welcome", TEXT, True,
-           "Start here — what this server is, the rules, and the links.",
+           "The rules, the links, and what this server is for.",
            old_names=["📜-rules"], aliases=["rules"]),
         Ch("announcements", "📣┊announcements", NEWS, True,
-           "Official announcements from iBoyPrime.",
+           "Announcements from iBoyPrime. Read-only.",
            old_names=["📣-announcements"]),
     ]),
 
     Cat("💬 COMMUNITY", [
         Ch("general", "💬┊chat", TEXT, False,
-           "The main hangout — talk about anything.",
+           "General chat. Anything that fits the rules.",
            old_names=["💬-general"]),
         Ch("memes", "😂┊memes", TEXT, False,
-           "Fresh memes daily, auto-delivered. Post your own too.",
+           "A bot posts a meme here every day. Post your own too.",
            old_names=["😂-memes"]),
         Ch("bot_commands", "🤖┊commands", TEXT, False,
-           "Talk to the bots here — type / to see every command.",
+           "Bot commands. Type / to see the list.",
            old_names=["🤖-bot-commands"]),
     ]),
 
     Cat("🎮 GAMING", [
         Ch("lfg", "🎮┊lfg", TEXT, False,
-           "Looking for group — post your game, platform and vibe.",
+           "Post the game and platform you are on to find people to play with.",
            old_names=["🔎-looking-for-group"]),
         # moved in from the old VOICE CHANNELS category
         Ch(None, "🔊┊Gaming", VOICE, False, "", old_names=["🎮 Gaming"]),
@@ -119,13 +119,13 @@ CATEGORIES = [
 
     Cat("🥊 MMA", [
         Ch("mma_chat", "🥊┊mma", TEXT, False,
-           "Fight talk — debates, takes and predictions welcome.",
+           "Fight talk: debates, takes and predictions.",
            old_names=["🥊-mma-chat"]),
         Ch("mma_news", "📰┊news", TEXT, True,
-           "Latest MMA headlines — auto-posted, quietly.",
+           "MMA headlines, posted automatically. This channel never pings anyone.",
            old_names=["🥊-mma-news"]),
         Ch("upcoming", "📅┊upcoming", FORUM, False,
-           "Upcoming UFC/MMA cards — one thread per event.",
+           "Upcoming UFC, PFL and Bellator cards. One thread per event.",
            old_names=["🥊-upcoming-fights"]),
     ], old_names=["🥊 MMA & COMBAT SPORTS"]),
 
@@ -138,10 +138,10 @@ CATEGORIES = [
         Ch("staff_chat", "📋┊staff", TEXT, False, "Staff coordination.",
            old_names=["📋-staff-chat"]),
         Ch("mod_log", "🗒️┊modlog", TEXT, False,
-           "AutoMod + patrol reports land here automatically.",
+           "AutoMod blocks and patrol reports, posted automatically.",
            old_names=["🗒️-mod-log"]),
         Ch("tickets", "🎟️┊tickets", TEXT, False,
-           "Member reports and staff follow-ups.",
+           "Member reports and the staff follow-up on each one.",
            old_names=["🎟️-tickets"]),
         Ch(None, "🔒┊Staff", VOICE, False, "", old_names=["🔒 Staff VC"]),
     ]),
@@ -179,13 +179,23 @@ ROLES_KEEP = [
     ("🛡️ Admin",     0xE74C3C, True, True),
     ("🔨 Moderator", 0x3498DB, True, True),
     ("🤖 Bots",      0x607D8B, True, False),
+    # The baseline role every human gets. Hoisted so the member list finally shows
+    # sections instead of one flat block. Discord has NO native auto-role, so
+    # member_bot.py backfills it on a 5-minute cron - which needs the SERVER MEMBERS
+    # INTENT enabled on the application (Developer Portal -> Bot -> Privileged
+    # Gateway Intents). Without it GET /guilds/{id}/members returns 403 and the bot
+    # logs why and exits cleanly.
+    ("🤝 Member",    0x95A5A6, True, False),
 ]
+
+MEMBER_ROLE = "🤝 Member"
 
 # bots_config.json role key -> role name
 ROLE_KEYS = {
-    "owner": "👑 Owner",
-    "admin": "🛡️ Admin",
-    "mod":   "🔨 Moderator",
+    "owner":  "👑 Owner",
+    "admin":  "🛡️ Admin",
+    "mod":    "🔨 Moderator",
+    "member": MEMBER_ROLE,
 }
 
 # Every role the declutter removes. The deploy actively deletes these, and a
@@ -193,8 +203,9 @@ ROLE_KEYS = {
 # onboarding_setup.VIEWER_ROLES and mma_setup.ensure_role all used to resurrect
 # their own subset on the very next deploy).
 ROLES_DELETE = [
-    # unused since the server was built
-    "⭐ VIP", "🤝 Member",
+    # unused since the server was built ("🤝 Member" was deleted here too, then brought
+    # back in ROLES_KEEP as the baseline role - it must NOT appear in both lists)
+    "⭐ VIP",
     # interest roles - nothing is gated behind a role any more
     "🎮 Gamer", "🥊 MMA Fan",
     # ping roles - all the feeds they pinged for are gone
@@ -211,9 +222,9 @@ ROLES_DELETE = [
 # Featured on the "before you join" welcome screen (Discord: max 5, and ONLY
 # @everyone-visible channels - it 400s on anything gated).
 WELCOME_FEATURED = [
-    ("welcome", "Start here",                  "👋"),
-    ("general", "Hang out with the Prime fam", "💬"),
-    ("memes",   "Fresh memes daily",           "😂"),
+    ("welcome", "Rules and links",             "👋"),
+    ("general", "General chat",                "💬"),
+    ("memes",   "A new meme every day",        "😂"),
 ]
 
 # The channel that receives Discord's native "X joined" messages. MUST be a plain
@@ -363,7 +374,7 @@ def validate():
 
 if __name__ == "__main__":
     validate()
-    print("layout OK — %d categories, %d channels, %d roles kept, %d roles deleted"
+    print("layout OK: %d categories, %d channels, %d roles kept, %d roles deleted"
           % (len(CATEGORIES), len(all_channels()), len(ROLES_KEEP), len(ROLES_DELETE)))
     for cat in CATEGORIES:
         print("\n" + cat.name)
