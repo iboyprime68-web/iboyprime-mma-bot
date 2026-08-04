@@ -337,9 +337,20 @@ async function dapi(env, method, path, body) {
                        "User-Agent": "iBoyPrimeHQ-cmds/1.0" },
     body: body != null ? JSON.stringify(body) : undefined });
 }
+// Must stay byte-identical to mod_bot.hkey(): sha256(token + ":" + id), first 16 hex.
+// state_mod.json is in the PUBLIC repo, so it is keyed by this pseudonym rather than by
+// raw user ids - otherwise every sanctioned member would have a world-readable
+// disciplinary record. The salt is the bot token, which is never committed.
+async function uidKey(env, uid) {
+  const data = new TextEncoder().encode((env.DISCORD_BOT_TOKEN || "") + ":" + uid);
+  const buf = await crypto.subtle.digest("SHA-256", data);
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, "0")).join("").slice(0, 16);
+}
 async function userWarns(env, uid) {
+  if (!env.DISCORD_BOT_TOKEN) return undefined;   // can't unlock the ledger; not "no warnings"
   const s = await getJSON(rawBase(env) + "/state_mod.json");
-  return s && s.users ? (s.users[uid] || null) : null;
+  if (!s || !s.users) return null;
+  return s.users[await uidKey(env, uid)] || null;
 }
 async function postLog(env, cfg, content) {
   const ch = (cfg.channels || {}).mod_log;
@@ -533,6 +544,9 @@ const COMMANDS = {
   modlogs: (i, env) => ({ ephemeral: true, defer: async () => {
     const { ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
     const uid = optMap(i).user; const w = await userWarns(env, uid);
+    // undefined = we could not unlock the pseudonymous ledger. Saying "no warnings"
+    // there would be a lie that hides a real record.
+    if (w === undefined) return msg("Can't read the mod ledger: the Worker needs the DISCORD_BOT_TOKEN secret.", true);
     return embed({ title: "📋 Mod record", description: w
       ? `<@${uid}>\nWarnings: **${w.warns || 0}**\nLast action: ${w.last || "—"}`
       : `<@${uid}> has no recorded warnings.` });
@@ -558,6 +572,9 @@ const CONTEXT = {
   "Mod record": (i, env) => ({ ephemeral: true, defer: async () => {
     const { ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
     const uid = i.data.target_id; const w = await userWarns(env, uid);
+    // undefined = we could not unlock the pseudonymous ledger. Saying "no warnings"
+    // there would be a lie that hides a real record.
+    if (w === undefined) return msg("Can't read the mod ledger: the Worker needs the DISCORD_BOT_TOKEN secret.", true);
     return embed({ title: "📋 Mod record", description: w
       ? `<@${uid}>\nWarnings: **${w.warns || 0}**\nLast action: ${w.last || "—"}`
       : `<@${uid}> has no recorded warnings.` });
@@ -607,4 +624,4 @@ export default {
 // exported for offline tests (harmless in the Worker runtime)
 export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildPoll, fighterEmbed, avatarUrl, snowflakeDate, fmtBouts, EIGHTBALL,
   subPath, isStaffFromRoles, applyModChange, applyNewsChange, resolveCats, MOD_CATEGORIES, MEDIA_POLICIES,
-  socialLines, SOCIALS_FALLBACK, COMMANDS, CONTEXT, isSnowflake, safeApiPath };
+  socialLines, SOCIALS_FALLBACK, COMMANDS, CONTEXT, isSnowflake, safeApiPath, uidKey, userWarns };
