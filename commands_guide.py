@@ -7,26 +7,19 @@ GUIDE = (
     "# 🤖 Bot Commands\n\n"
     "Type **/** in any channel and pick one — here's what's on offer:\n\n"
     "**🥊 MMA**\n"
-    "`/rankings` UFC division rankings · `/nextevent` next card + countdown\n"
-    "`/event` the next card's lineup · `/fighter` a fighter's profile & record\n"
+    "`/nextevent` next card + countdown · `/event` the next card's lineup\n"
+    "`/fighter` a fighter's profile & record\n"
     "`/onthisday` MMA history · `/trivia` test yourself\n\n"
     "**🎮 Fun & utility**\n"
     "`/poll` · `/8ball` · `/roll` dice · `/flip` coin\n"
     "`/avatar` · `/userinfo` · `/serverinfo` · `/help`\n\n"
-    "**📰 News**\n"
-    "`/news status` how the wire is tuned · `/news follow breaking` or `digest` to opt into pings\n"
-    "`/news unfollow …` to opt back out — that's all it takes\n\n"
-    "**🏆 Community games** (no commands needed — just show up)\n"
-    "**Pick'em**: vote on the fight-week poll in <#%(fight_week)s> — correct main-event picks score\n"
-    "**Quiz night**: Fridays in <#%(mma_chat)s> — 5 timed questions, points for right answers\n"
-    "Both feed ONE **Fight IQ leaderboard** in <#%(predictions)s>; top score each month wins the "
-    "🏆 **Fight Prophet** role\n"
-    "**Debate Monday** + **Fighter Spotlight Wednesday** in <#%(mma_chat)s>\n"
-    "**Clip War**: weekly thread in <#%(plays_n_clips)s> — most reactions takes 🎬 **Clip Champ**\n\n"
     "**🔗 Links**\n"
     "`/youtube` search · `/links` all of iBoyPrime's channels\n\n"
     "**🎵 Music** — powered by **Jockie Music**:\n"
     "`/play <song or link>` · `/queue` · `/skip` · `/pause` · `/loop` · `/nowplaying`\n\n"
+    "**📰 Fight news** posts itself, quietly, in %(mma_news)s — no pings, ever. "
+    "Catch up when you feel like it.\n"
+    "**📅 Upcoming cards** get their own thread in %(upcoming)s.\n\n"
     "_Clean, minimal, no ads. Suggest a command? Drop it in chat._"
 )
 
@@ -37,10 +30,11 @@ def me_id():
 
 
 def render_guide(cfg):
-    """Fill the channel links; unknown keys fall back to a readable '#0' link."""
+    """Fill the channel links. A missing key degrades to a readable plain-text name
+    instead of a dead grey <#0> chip (which is what the old '0' fallback rendered)."""
     chans = cfg.get("channels", {}) or {}
-    ids = {k: chans.get(k) or "0"
-           for k in ("fight_week", "mma_chat", "predictions", "plays_n_clips")}
+    fallback = {"mma_news": "the news channel", "upcoming": "the upcoming-fights forum"}
+    ids = {k: ("<#%s>" % chans[k]) if chans.get(k) else fallback[k] for k in fallback}
     return GUIDE % ids
 
 
