@@ -45,7 +45,7 @@ GATED_CHANNELS = {}
 VIEWER_ROLES = {}
 
 # Roles that keep explicit access to the staff category.
-ALWAYS_VIEW_ROLES = ["👑 Owner", "🛡️ Admin", "🔨 Moderator", "🤖 Bots"]
+ALWAYS_VIEW_ROLES = ["👑 Owner", "🛡️ Admin", "🔨 Moderator"]
 
 
 def ungate_overwrites(existing, everyone_id, is_voice=False, dead_role_ids=()):
