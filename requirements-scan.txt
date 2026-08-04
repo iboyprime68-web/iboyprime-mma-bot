@@ -1,0 +1,22 @@
+# Pinned dependency set for image_scan.py (the NSFW/gore classifier).
+#
+# WHY PINNED: image_scan.yml runs every 5 minutes in a job that holds DISCORD_BOT_TOKEN
+# (the bot is ADMINISTRATOR) and a repo-write token. An unpinned `pip install nudenet`
+# re-resolved this whole tree from PyPI up to 288 times a day, so a single malicious
+# release anywhere in it would hand over both credentials with no human in the loop.
+#
+# These are exactly what pip resolved for Python 3.12 on 2026-08-04, so they are known
+# to be mutually consistent. To upgrade: re-resolve deliberately with
+#   pip install --dry-run --python-version 3.12 --only-binary=:all: \
+#       --target /tmp/probe --report probe.json nudenet==<new>
+# and paste the result here. Do not hand-edit individual pins - the versions are only
+# safe as a set.
+nudenet==3.4.2
+numpy==2.2.6
+onnxruntime==1.24.3
+opencv-python-headless==5.0.0.93
+flatbuffers==25.12.19
+packaging==26.3
+protobuf==7.35.1
+sympy==1.14.0
+mpmath==1.3.0
