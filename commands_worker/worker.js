@@ -318,7 +318,20 @@ async function dispatchWorkflow(env, wf) {
       { method: "POST", headers: ghHeaders(env), body: JSON.stringify({ ref: "main" }) });
   } catch (e) {}
 }
+// A Discord snowflake and nothing else. Anything spliced into an API path must pass
+// this: fetch() parses with the WHATWG URL parser, which RESOLVES dot-segments before
+// the request leaves, so "../../../channels/123" in a path turns
+// /api/v10/guilds/G/bans/../../../channels/123 into /api/v10/channels/123 - a DELETE
+// there removes the channel, using the bot's ADMINISTRATOR token.
+const SNOWFLAKE = /^\d{15,20}$/;
+function isSnowflake(v) { return SNOWFLAKE.test(String(v == null ? "" : v).trim()); }
+// Defence in depth behind isSnowflake: no caller may ever build a traversing path.
+function safeApiPath(path) {
+  const p = String(path || "");
+  return p.startsWith("/") && !p.includes("..") && !p.includes("//") && !/[\s\\]/.test(p);
+}
 async function dapi(env, method, path, body) {
+  if (!safeApiPath(path)) throw new Error("unsafe API path");
   return await fetch("https://discord.com/api/v10" + path, {
     method, headers: { Authorization: "Bot " + env.DISCORD_BOT_TOKEN, "content-type": "application/json",
                        "User-Agent": "iBoyPrimeHQ-cmds/1.0" },
@@ -497,7 +510,10 @@ const COMMANDS = {
   unban: (i, env) => ({ ephemeral: true, defer: async () => {
     const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
     if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
+    // user_id is a free-text STRING option (Discord validates USER options, not these),
+    // and it lands straight in the API path - so it must be a bare snowflake.
     const id = (optMap(i).user_id || "").trim();
+    if (!isSnowflake(id)) return msg("That isn't a valid user ID. Use the 17-19 digit number.", true);
     const r = await dapi(env, "DELETE", `/guilds/${i.guild_id}/bans/${id}`);
     if (r.ok) await postLog(env, cfg, `♻️ \`${id}\` **unbanned** by <@${i.member.user.id}>.`);
     return msg(r.ok ? `♻️ Unbanned \`${id}\`.` : "Couldn't unban (is that ID actually banned?).", true);
@@ -591,4 +607,4 @@ export default {
 // exported for offline tests (harmless in the Worker runtime)
 export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildPoll, fighterEmbed, avatarUrl, snowflakeDate, fmtBouts, EIGHTBALL,
   subPath, isStaffFromRoles, applyModChange, applyNewsChange, resolveCats, MOD_CATEGORIES, MEDIA_POLICIES,
-  socialLines, SOCIALS_FALLBACK, COMMANDS, CONTEXT };
+  socialLines, SOCIALS_FALLBACK, COMMANDS, CONTEXT, isSnowflake, safeApiPath };
