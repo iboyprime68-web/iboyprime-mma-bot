@@ -1232,11 +1232,19 @@ print("\n[state commit safety]")
 # For raid_bot that was a security failure, not just a data one: `samples` reset to []
 # every run, so `baseline` always equalled the current count, `delta` was always 0, and
 # a join spike could never cross `join_burst`. Raid detection was dead and reported fine.
-_WF_DIR = os.path.join(_BOTS if os.path.isdir(_BOTS) else _HERE, ".github", "workflows")
-if os.path.isdir(_WF_DIR):
+# Locally the workflows live in TWO trees (bots_github/ and mma_github/); in the repo
+# checkout they all land in one .github/workflows/. Scan both, or a local run passes
+# while CI fails - which is exactly what happened: poll.yml kept the unsafe pattern
+# because the local scan never looked in mma_github/.
+_WF_DIRS = [d for d in (os.path.join(_HERE, "bots_github", ".github", "workflows"),
+                        os.path.join(_HERE, "mma_github", ".github", "workflows"),
+                        os.path.join(_HERE, ".github", "workflows"))
+            if os.path.isdir(d)]
+if _WF_DIRS:
     import glob as _glob
     _committers, _autostash, _unguarded = [], [], []
-    for _p in sorted(_glob.glob(os.path.join(_WF_DIR, "*.yml"))):
+    _wf_files = sorted(p for d in _WF_DIRS for p in _glob.glob(os.path.join(d, "*.yml")))
+    for _p in _wf_files:
         _t = open(_p, encoding="utf-8").read()
         # Only executable lines: the shell comments below explain WHY --autostash was
         # removed, and must not trip the guard that keeps it removed.
