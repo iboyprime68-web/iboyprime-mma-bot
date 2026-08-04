@@ -38,7 +38,11 @@ jobs:
           key: nsfw-onnx-${{ runner.os }}-v3
       - name: Install the free ONNX NSFW classifier (no API key)
         if: steps.precheck.outputs.need == '1'
-        run: pip install --quiet nudenet
+        # PINNED on purpose (see requirements-scan.txt). This job runs every 5 minutes
+        # with DISCORD_BOT_TOKEN and a repo-write token in the environment, so an
+        # unpinned resolve was ~288 chances a day for one bad release anywhere in this
+        # tree to take both. Bump the pins deliberately, never implicitly.
+        run: pip install --quiet -r requirements-scan.txt
       - name: Scan recent images in nsfw-flagged channels
         if: steps.precheck.outputs.need == '1'
         env:
