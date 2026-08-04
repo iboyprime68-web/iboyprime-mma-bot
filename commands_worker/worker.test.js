@@ -126,5 +126,33 @@ check("the old wrong TikTok URL is gone from the Worker source",
 check("/links no longer renders a hard-coded object (it reads welcomeconfig.json)",
   /welcomeConfig\(env\)/.test(code) && !/\bconst SOCIALS =/.test(code));
 
+// ----- staff replies must be PRIVATE (ephemeral) -----
+// Discord fixes ephemerality on the DEFER response; a followup PATCH cannot change it.
+// Every staff handler passed msg(..., true), but the defer carried no flags, so all of
+// them posted publicly - including /modlogs warning histories and "⛔ No permission".
+const { COMMANDS, CONTEXT } = _test;
+const STAFF_CMDS = ["mod", "warn", "timeout", "ban", "unban", "clear", "modlogs"];
+const STAFF_CTX = ["Timeout 10m", "Warn", "Mod record", "Delete & warn author"];
+const stub = { data: { options: [] }, member: { user: { id: "U1" }, roles: [] } };
+
+for (const n of STAFF_CMDS)
+  check(`/${n} replies privately (staff action, never in public chat)`,
+    COMMANDS[n](stub, {}).ephemeral === true);
+for (const n of STAFF_CTX)
+  check(`context menu "${n}" replies privately`, CONTEXT[n](stub, {}).ephemeral === true);
+
+check("/news status stays public (it is member-facing info)",
+  COMMANDS.news({ data: { options: [{ type: 1, name: "status" }] } }, {}).ephemeral === false);
+check("/news config writes reply privately (staff only)",
+  COMMANDS.news({ data: { options: [{ type: 2, name: "source", options: [
+    { type: 1, name: "toggle", options: [] } ] }] } }, {}).ephemeral === true);
+for (const n of ["links", "nextevent", "event", "fighter", "serverinfo"])
+  check(`/${n} stays public`, !COMMANDS[n](stub, {}).ephemeral);
+
+check("the DEFER response carries the ephemeral flag (the fix, not just the intent)",
+  /type:\s*T\.DEFER,\s*data:\s*res\.ephemeral\s*\?\s*\{\s*flags:\s*EPHEMERAL\s*\}/.test(code));
+check("every staff handler is marked ephemeral in source",
+  STAFF_CMDS.every(n => new RegExp(`\\b${n}:\\s*\\(i, env\\) => \\(\\{ ephemeral: true`).test(code)));
+
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
 process.exit(fail ? 1 : 0);
