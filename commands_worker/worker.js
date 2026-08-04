@@ -419,7 +419,8 @@ const COMMANDS = {
   } }),
 
   // ----- news feed: public status + staff config -----
-  news: (i, env) => ({ defer: async () => {
+  // `status` is public; every other /news path is a staff config write, so it is private.
+  news: (i, env) => ({ ephemeral: subPath(i).sub !== "status", defer: async () => {
     const { group, sub, opts } = subPath(i);
     // /news follow|unfollow is gone: the 📰 News Pings and 🗞️ Digest Ping roles were
     // deleted in the Aug 2026 declutter. The wire posts silently and pings nobody, so
@@ -447,7 +448,7 @@ const COMMANDS = {
   } }),
 
   // ----- moderation (staff only) -----
-  mod: (i, env) => ({ defer: async () => {
+  mod: (i, env) => ({ ephemeral: true, defer: async () => {
     const { ok } = await requireStaff(i, env);
     if (!ok) return msg("⛔ You don't have permission to use /mod.", true);
     if (!env.GITHUB_TOKEN) return msg("⚠️ /mod isn't wired up yet — set the GITHUB_TOKEN secret on the Worker (see COMMANDS_SETUP.md).", true);
@@ -470,13 +471,13 @@ const COMMANDS = {
     await dispatchWorkflow(env, "mod_setup.yml");
     return msg("✅ Saved. Your change applies within ~1 minute.", true);
   } }),
-  warn: (i, env) => ({ defer: async () => {
+  warn: (i, env) => ({ ephemeral: true, defer: async () => {
     const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
     const o = optMap(i);
     await postLog(env, cfg, `⚠️ <@${o.user}> was **warned** by <@${i.member.user.id}>${o.reason ? " — " + o.reason : ""}.`);
     return msg(`⚠️ Warned <@${o.user}>.`, true);
   } }),
-  timeout: (i, env) => ({ defer: async () => {
+  timeout: (i, env) => ({ ephemeral: true, defer: async () => {
     const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
     if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
     const o = optMap(i); const mins = Math.min(Math.max(parseInt(o.minutes) || 10, 1), 40320);
@@ -485,7 +486,7 @@ const COMMANDS = {
     if (r.ok) await postLog(env, cfg, `⏳ <@${o.user}> timed out **${mins}m** by <@${i.member.user.id}>${o.reason ? " — " + o.reason : ""}.`);
     return msg(r.ok ? `⏳ Timed out <@${o.user}> for ${mins}m.` : "Couldn't time them out (check the bot's role position/permissions).", true);
   } }),
-  ban: (i, env) => ({ defer: async () => {
+  ban: (i, env) => ({ ephemeral: true, defer: async () => {
     const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
     if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
     const o = optMap(i);
@@ -493,7 +494,7 @@ const COMMANDS = {
     if (r.ok) await postLog(env, cfg, `🔨 <@${o.user}> **banned** by <@${i.member.user.id}>${o.reason ? " — " + o.reason : ""}.`);
     return msg(r.ok ? `🔨 Banned <@${o.user}>.` : "Couldn't ban (check the bot's permissions / role order).", true);
   } }),
-  unban: (i, env) => ({ defer: async () => {
+  unban: (i, env) => ({ ephemeral: true, defer: async () => {
     const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
     if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
     const id = (optMap(i).user_id || "").trim();
@@ -501,7 +502,7 @@ const COMMANDS = {
     if (r.ok) await postLog(env, cfg, `♻️ \`${id}\` **unbanned** by <@${i.member.user.id}>.`);
     return msg(r.ok ? `♻️ Unbanned \`${id}\`.` : "Couldn't unban (is that ID actually banned?).", true);
   } }),
-  clear: (i, env) => ({ defer: async () => {
+  clear: (i, env) => ({ ephemeral: true, defer: async () => {
     const { ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
     if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
     const n = Math.min(Math.max(parseInt(optMap(i).count) || 0, 1), 100);
@@ -513,7 +514,7 @@ const COMMANDS = {
     else if (ids.length === 1) await dapi(env, "DELETE", `/channels/${ch}/messages/${ids[0]}`);
     return msg(`🧹 Cleared ${ids.length} message(s).`, true);
   } }),
-  modlogs: (i, env) => ({ defer: async () => {
+  modlogs: (i, env) => ({ ephemeral: true, defer: async () => {
     const { ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
     const uid = optMap(i).user; const w = await userWarns(env, uid);
     return embed({ title: "📋 Mod record", description: w
@@ -524,7 +525,7 @@ const COMMANDS = {
 
 // ----- right-click context-menu commands (USER type 2 / MESSAGE type 3) -----
 const CONTEXT = {
-  "Timeout 10m": (i, env) => ({ defer: async () => {
+  "Timeout 10m": (i, env) => ({ ephemeral: true, defer: async () => {
     const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
     if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret.", true);
     const uid = i.data.target_id; const until = new Date(Date.now() + 10 * 60000).toISOString();
@@ -532,20 +533,20 @@ const CONTEXT = {
     if (r.ok) await postLog(env, cfg, `⏳ <@${uid}> timed out **10m** by <@${i.member.user.id}> (right-click).`);
     return msg(r.ok ? `⏳ Timed out <@${uid}> for 10m.` : "Couldn't time them out.", true);
   } }),
-  "Warn": (i, env) => ({ defer: async () => {
+  "Warn": (i, env) => ({ ephemeral: true, defer: async () => {
     const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
     const uid = i.data.target_id;
     await postLog(env, cfg, `⚠️ <@${uid}> was **warned** by <@${i.member.user.id}> (right-click).`);
     return msg(`⚠️ Warned <@${uid}>.`, true);
   } }),
-  "Mod record": (i, env) => ({ defer: async () => {
+  "Mod record": (i, env) => ({ ephemeral: true, defer: async () => {
     const { ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
     const uid = i.data.target_id; const w = await userWarns(env, uid);
     return embed({ title: "📋 Mod record", description: w
       ? `<@${uid}>\nWarnings: **${w.warns || 0}**\nLast action: ${w.last || "—"}`
       : `<@${uid}> has no recorded warnings.` });
   } }),
-  "Delete & warn author": (i, env) => ({ defer: async () => {
+  "Delete & warn author": (i, env) => ({ ephemeral: true, defer: async () => {
     const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
     if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret.", true);
     const mid = i.data.target_id;
@@ -575,7 +576,11 @@ export default {
           let data; try { data = await res.defer(); } catch (e) { data = msg("Couldn't fetch that right now."); }
           await followup(interaction, data);
         })());
-        return json({ type: T.DEFER });
+        // Ephemerality is fixed HERE, at defer time, and cannot be changed by the later
+        // followup PATCH. Without `flags` on this response every staff reply posted
+        // PUBLICLY - including /modlogs warning histories and "⛔ No permission" - even
+        // though each handler passed msg(..., true). The flag has to ride on the defer.
+        return json({ type: T.DEFER, data: res.ephemeral ? { flags: EPHEMERAL } : undefined });
       }
       return json({ type: T.MESSAGE, data: res.data });
     }
@@ -586,4 +591,4 @@ export default {
 // exported for offline tests (harmless in the Worker runtime)
 export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildPoll, fighterEmbed, avatarUrl, snowflakeDate, fmtBouts, EIGHTBALL,
   subPath, isStaffFromRoles, applyModChange, applyNewsChange, resolveCats, MOD_CATEGORIES, MEDIA_POLICIES,
-  socialLines, SOCIALS_FALLBACK };
+  socialLines, SOCIALS_FALLBACK, COMMANDS, CONTEXT };
