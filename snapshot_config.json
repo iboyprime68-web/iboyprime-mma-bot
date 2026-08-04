@@ -3,7 +3,7 @@
   "guild": {
     "id": "1502831752702464113",
     "name": "My Cool Server",
-    "description": "Gaming, MMA fight nights and live streams with iBoyPrime — everything's open, just jump in.",
+    "description": "Gaming, MMA and iBoyPrime's live streams. Every channel is open from the moment you join.",
     "verification_level": 1,
     "system_channel_id": "1515436383647432885",
     "premium_tier": 0,
@@ -34,7 +34,7 @@
       "type": 0,
       "parent_id": "1515427310944125064",
       "position": 0,
-      "topic": "Start here — what this server is, the rules, and the links.",
+      "topic": "The rules, the links, and what this server is for.",
       "rate_limit_per_user": 0,
       "nsfw": false,
       "overwrites": [
@@ -76,7 +76,7 @@
       "type": 5,
       "parent_id": "1515427310944125064",
       "position": 1,
-      "topic": "Official announcements from iBoyPrime.",
+      "topic": "Announcements from iBoyPrime. Read-only.",
       "rate_limit_per_user": 0,
       "nsfw": false,
       "overwrites": [
@@ -136,7 +136,7 @@
       "type": 0,
       "parent_id": "1515436381382643882",
       "position": 0,
-      "topic": "The main hangout — talk about anything.",
+      "topic": "General chat. Anything that fits the rules.",
       "rate_limit_per_user": 0,
       "nsfw": false,
       "overwrites": [
@@ -154,7 +154,7 @@
       "type": 0,
       "parent_id": "1515436381382643882",
       "position": 1,
-      "topic": "Fresh memes daily, auto-delivered. Post your own too.",
+      "topic": "A bot posts a meme here every day. Post your own too.",
       "rate_limit_per_user": 0,
       "nsfw": false,
       "overwrites": [
@@ -172,7 +172,7 @@
       "type": 0,
       "parent_id": "1515436381382643882",
       "position": 2,
-      "topic": "Talk to the bots here — type / to see every command.",
+      "topic": "Bot commands. Type / to see the list.",
       "rate_limit_per_user": 0,
       "nsfw": false,
       "overwrites": [
@@ -232,7 +232,7 @@
       "type": 0,
       "parent_id": "1515436399246049334",
       "position": 0,
-      "topic": "Looking for group — post your game, platform and vibe.",
+      "topic": "Post the game and platform you are on to find people to play with.",
       "rate_limit_per_user": 0,
       "nsfw": false,
       "overwrites": [
@@ -316,7 +316,7 @@
       "type": 0,
       "parent_id": "1515436415435931762",
       "position": 0,
-      "topic": "Fight talk — debates, takes and predictions welcome.",
+      "topic": "Fight talk: debates, takes and predictions.",
       "rate_limit_per_user": 0,
       "nsfw": false,
       "overwrites": [
@@ -514,7 +514,7 @@
       "type": 0,
       "parent_id": "1515436448592040099",
       "position": 1,
-      "topic": "AutoMod + patrol reports land here automatically.",
+      "topic": "AutoMod blocks and patrol reports, posted automatically.",
       "rate_limit_per_user": 0,
       "nsfw": false,
       "overwrites": [
@@ -556,7 +556,7 @@
       "type": 0,
       "parent_id": "1515436448592040099",
       "position": 2,
-      "topic": "Member reports and staff follow-ups.",
+      "topic": "Member reports and the staff follow-up on each one.",
       "rate_limit_per_user": 0,
       "nsfw": false,
       "overwrites": [
@@ -640,7 +640,7 @@
       "type": 15,
       "parent_id": "1515436415435931762",
       "position": 2,
-      "topic": "Upcoming UFC/MMA cards — one thread per event.",
+      "topic": "Upcoming UFC, PFL and Bellator cards. One thread per event.",
       "rate_limit_per_user": 0,
       "nsfw": false,
       "overwrites": [
@@ -682,7 +682,7 @@
       "type": 0,
       "parent_id": "1515436415435931762",
       "position": 1,
-      "topic": "Latest MMA headlines — auto-posted, quietly.",
+      "topic": "MMA headlines, posted automatically. This channel never pings anyone.",
       "rate_limit_per_user": 0,
       "nsfw": false,
       "overwrites": [
@@ -772,6 +772,15 @@
       "hoist": true,
       "mentionable": false,
       "permissions": "1127324065943",
+      "position": 1
+    },
+    {
+      "id": "1534254822948208641",
+      "name": "🤝 Member",
+      "color": 9807270,
+      "hoist": true,
+      "mentionable": false,
+      "permissions": "0",
       "position": 1
     }
   ],
