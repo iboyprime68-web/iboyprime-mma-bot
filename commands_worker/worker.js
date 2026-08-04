@@ -17,10 +17,6 @@ const SOCIALS = {
   Kick: "https://kick.com/iboyprime",
   TikTok: "https://tiktok.com/@iboyprime",
 };
-const DIVISIONS = ["Flyweight","Bantamweight","Featherweight","Lightweight","Welterweight",
-  "Middleweight","Light Heavyweight","Heavyweight","Men's Pound-for-Pound",
-  "Women's Strawweight","Women's Flyweight","Women's Bantamweight","Women's Pound-for-Pound"];
-
 const OTD = {"on_this_day":{"01-18":[{"year":2020,"text":"**UFC 246** — Conor McGregor returned and TKO'd Donald Cerrone in just 40 seconds."}],"02-02":[{"year":2008,"text":"**UFC 81: Breaking Point** — Brock Lesnar made his UFC debut (losing to Frank Mir), and Antonio Rodrigo Nogueira beat Tim Sylvia for the interim heavyweight title."}],"02-23":[{"year":2013,"text":"**UFC 157** — Ronda Rousey vs Liz Carmouche became the first-ever women's fight in the UFC; Rousey won by armbar."}],"03-05":[{"year":2016,"text":"**UFC 196** — Nate Diaz shocked Conor McGregor by submission, and Miesha Tate submitted Holly Holm for the bantamweight title."}],"03-19":[{"year":2011,"text":"**UFC 128** — Jon Jones beat Mauricio 'Shogun' Rua to become, at 23, the youngest champion in UFC history."}],"04-09":[{"year":2005,"text":"**The Ultimate Fighter 1 Finale** — Forrest Griffin vs Stephan Bonnar, the slugfest widely credited with saving the UFC and launching it on cable TV."}],"07-03":[{"year":2010,"text":"**UFC 116** — Brock Lesnar survived a brutal first round to submit Shane Carwin and unify the heavyweight title."}],"07-06":[{"year":2013,"text":"**UFC 162** — Chris Weidman knocked out Anderson Silva, ending Silva's record 16-fight UFC win streak and 2,457-day title reign."}],"07-07":[{"year":2012,"text":"**UFC 148** — Anderson Silva beat Chael Sonnen in their grudge-match rematch."},{"year":2018,"text":"**UFC 226** — Daniel Cormier KO'd Stipe Miocic to become a simultaneous two-division champion."}],"07-09":[{"year":2016,"text":"**UFC 200** — Amanda Nunes submitted Miesha Tate for the title; Brock Lesnar beat Mark Hunt; Daniel Cormier beat Anderson Silva."}],"07-10":[{"year":2021,"text":"**UFC 264** — Dustin Poirier beat Conor McGregor after McGregor suffered a broken leg in their trilogy bout."}],"07-11":[{"year":2009,"text":"**UFC 100** — Brock Lesnar beat Frank Mir, Georges St-Pierre dominated Thiago Alves, and Dan Henderson flattened Michael Bisping."},{"year":2015,"text":"**UFC 189** — Conor McGregor stopped Chad Mendes to win the interim featherweight title in front of a roaring Las Vegas crowd."}],"08-20":[{"year":2016,"text":"**UFC 202** — Conor McGregor edged Nate Diaz in their rematch by majority decision."},{"year":2022,"text":"**UFC 278** — Leon Edwards knocked out Kamaru Usman with a 5th-round head kick to win the welterweight title."}],"10-06":[{"year":2018,"text":"**UFC 229** — Khabib Nurmagomedov submitted Conor McGregor in the biggest PPV in UFC history."}],"10-24":[{"year":2020,"text":"**UFC 254** — Khabib Nurmagomedov submitted Justin Gaethje, then retired 29-0."}],"11-04":[{"year":2017,"text":"**UFC 217** at Madison Square Garden — GSP returned to submit Michael Bisping; Rose Namajunas KO'd Joanna Jedrzejczyk; TJ Dillashaw KO'd Cody Garbrandt. Three title changes in one night."}],"11-12":[{"year":1993,"text":"**UFC 1** — the very first UFC event in Denver, Colorado. Royce Gracie won the eight-man tournament and introduced the world to Brazilian jiu-jitsu."},{"year":2016,"text":"**UFC 205** at Madison Square Garden — Conor McGregor KO'd Eddie Alvarez to become the first fighter to hold two UFC titles at once."},{"year":2022,"text":"**UFC 281** — Alex Pereira TKO'd Israel Adesanya in the 5th round to win the middleweight title."}],"11-15":[{"year":2015,"text":"**UFC 193** — Holly Holm head-kick KO'd Ronda Rousey in one of the biggest upsets in MMA history."}],"12-12":[{"year":2015,"text":"**UFC 194** — Conor McGregor knocked out Jose Aldo in 13 seconds, the fastest title-fight finish in UFC history."}],"12-28":[{"year":2013,"text":"**UFC 168** — Chris Weidman beat Anderson Silva again after Silva broke his leg on a checked kick; Ronda Rousey armbarred Miesha Tate."}],"12-29":[{"year":2012,"text":"**UFC 155** — Cain Velasquez dominated Junior dos Santos to reclaim the heavyweight title."},{"year":2018,"text":"**UFC 232** — Jon Jones beat Alexander Gustafsson, and Amanda Nunes KO'd Cris Cyborg in 51 seconds."}],"12-30":[{"year":2006,"text":"**UFC 66** — Chuck Liddell TKO'd Tito Ortiz in their rematch on a landmark million-buy PPV."},{"year":2016,"text":"**UFC 207** — Amanda Nunes KO'd Ronda Rousey in 48 seconds in Rousey's final fight."}]},"trivia":[{"q":"Who won the first-ever UFC tournament at UFC 1 in 1993?","a":"Royce Gracie"},{"q":"How long did Conor McGregor need to knock out Jose Aldo at UFC 194?","a":"13 seconds"},{"q":"Who was part of the first women's fight in UFC history at UFC 157?","a":"Ronda Rousey (vs Liz Carmouche)"},{"q":"Which fighter ended Anderson Silva's record 16-fight UFC win streak?","a":"Chris Weidman (UFC 162, 2013)"},{"q":"Who became the first fighter to hold two UFC titles simultaneously?","a":"Conor McGregor (UFC 205, 2016)"},{"q":"At which arena did the UFC hold its first New York event, UFC 205?","a":"Madison Square Garden"},{"q":"Who handed Ronda Rousey her first pro MMA loss?","a":"Holly Holm (UFC 193, 2015)"},{"q":"Who defeated Conor McGregor at UFC 229?","a":"Khabib Nurmagomedov"},{"q":"Who knocked out Israel Adesanya to win the middleweight title at UFC 281?","a":"Alex Pereira"},{"q":"What was Khabib Nurmagomedov's pro record when he retired?","a":"29-0"},{"q":"Who won the legendary TUF 1 Finale fight that helped save the UFC?","a":"Forrest Griffin (def. Stephan Bonnar)"},{"q":"Which heavyweight made his UFC debut at UFC 81 in 2008?","a":"Brock Lesnar"},{"q":"Who is nicknamed 'The Last Stylebender'?","a":"Israel Adesanya"},{"q":"Who is the UFC fighter known as 'The Notorious'?","a":"Conor McGregor"},{"q":"Which UFC star is nicknamed 'Bones'?","a":"Jon Jones"},{"q":"Who is the first woman to become a two-division UFC champion?","a":"Amanda Nunes"},{"q":"Who did Leon Edwards head-kick KO at UFC 278 to win the title?","a":"Kamaru Usman"},{"q":"What does 'MMA' stand for?","a":"Mixed Martial Arts"},{"q":"How many rounds are non-main-event UFC fights?","a":"3 rounds (title fights and main events are 5)"},{"q":"What is the UFC lightweight division weight limit?","a":"155 lbs"},{"q":"How many sides does the UFC's 'Octagon' have?","a":"8"},{"q":"Which Japanese promotion did the UFC's parent company buy in 2007?","a":"PRIDE Fighting Championships"},{"q":"Conor McGregor won UFC titles in which two divisions?","a":"Featherweight and Lightweight"},{"q":"Who KO'd Ronda Rousey in 48 seconds at UFC 207?","a":"Amanda Nunes"},{"q":"At 23, who became the youngest champion in UFC history?","a":"Jon Jones (UFC 128, 2011)"},{"q":"Daniel Cormier became a two-division champ by KO'ing whom at UFC 226?","a":"Stipe Miocic"}]};
 
 // ---------- helpers ----------
@@ -64,31 +60,6 @@ async function followup(interaction, data) {
 
 // ---------- MMA data ----------
 async function espn(path) { return await getJSON("https://site.api.espn.com/apis/site/v2/sports/mma/" + path); }
-
-function pickDivision(data, wanted) {
-  const w = wanted.toLowerCase().replace("pound-for-pound", "pound-for-pound");
-  let best = null;
-  for (const d of data) {
-    const name = (d.categoryName || "").toLowerCase();
-    if (name.includes(w) || (w.includes("pound") && name.includes("pound") &&
-        ((w.includes("women") && name.includes("women")) || (!w.includes("women") && !name.includes("women"))))) {
-      best = d; if (name.includes(w)) break;
-    }
-  }
-  return best;
-}
-function rankingsEmbed(data, wanted) {
-  const d = pickDivision(data, wanted);
-  if (!d) return embed({ title: "Rankings", description: "Couldn't find that division." });
-  const p4p = (d.id || "").includes("pound-for-pound");
-  const champ = !p4p && d.champion ? (d.champion.championName || d.champion.name) : null;
-  const lines = (d.fighters || []).map((f, i) => `\`${String(i + 1).padStart(2)}\` ${f.name}`).join("\n");
-  return embed({
-    title: `🥊 ${d.categoryName}`,
-    description: (champ ? `👑 **Champion:** ${champ}\n\n` : "") + lines,
-    footer: { text: "UFC rankings · octagon-api" },
-  });
-}
 
 async function soonestEvent() {
   let best = null;
@@ -347,11 +318,11 @@ async function requireStaff(i, env) {
 // ---------- command table ----------
 const COMMANDS = {
   help: () => ({ data: embed({
-    title: "🤖 Prime Arena — Commands",
+    title: "🤖 Commands",
     description: [
       "**MMA**",
-      "`/rankings` UFC division rankings · `/nextevent` next card + countdown",
-      "`/event` next card's lineup · `/fighter` fighter profile",
+      "`/nextevent` next card + countdown · `/event` next card's lineup",
+      "`/fighter` fighter profile",
       "`/onthisday` MMA history · `/trivia` test yourself",
       "",
       "**Fun & utility**",
@@ -359,12 +330,12 @@ const COMMANDS = {
       "`/avatar` · `/userinfo` · `/serverinfo` · `/help`",
       "",
       "**News**",
-      "`/news status` how the wire is tuned · `/news follow breaking|digest` opt into pings",
+      "`/news status` — how the wire is tuned. It posts silently, never pings.",
       "",
       "**Links**",
       "`/youtube` search · `/links` all of iBoyPrime's channels",
       "",
-      "**Music** — use the Jockie bot: `/play`, `/queue`, `/skip` (see #bot-commands).",
+      "**Music** — use the Jockie bot: `/play`, `/queue`, `/skip`.",
     ].join("\n"),
   }) }),
   links: () => ({ data: embed({
@@ -384,7 +355,9 @@ const COMMANDS = {
       fields: [{ name: "Username", value: u.username || "?", inline: true }, { name: "ID", value: u.id, inline: true },
         { name: "Account created", value: created ? `<t:${Math.floor(created.getTime() / 1000)}:D>` : "?", inline: true }] }) };
   },
-  rankings: (i) => ({ defer: async () => rankingsEmbed(await getJSON("https://api.octagon-api.com/rankings") || [], optMap(i).division || "Lightweight") }),
+  // /rankings was removed in the Aug 2026 declutter along with the 📊-rankings board:
+  // the owner's verdict on that data source was "not accurate and really poorly done",
+  // and this command hit the same octagon-api endpoint the board did.
   nextevent: () => ({ defer: async () => {
     const e = await soonestEvent();
     if (!e) return embed({ title: "Next event", description: "No upcoming card found right now." });
@@ -418,38 +391,25 @@ const COMMANDS = {
     return msg(`🔎 Search: https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`);
   } }),
 
-  // ----- news feed: member follow/status + staff config -----
+  // ----- news feed: public status + staff config -----
   news: (i, env) => ({ defer: async () => {
     const { group, sub, opts } = subPath(i);
-    const cfg = await botsConfig(env);
-    const uid = i.member && i.member.user && i.member.user.id;
-    const ROLE_KEY = { breaking: "news_pings", digest: "digest_ping" };
-    if (group === null && (sub === "follow" || sub === "unfollow")) {
-      if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
-      const rid = (cfg.roles || {})[ROLE_KEY[opts.what]];
-      if (!rid) return msg("That ping role isn't set up yet — run a deploy first.", true);
-      const r = await dapi(env, sub === "follow" ? "PUT" : "DELETE",
-        `/guilds/${i.guild_id}/members/${uid}/roles/${rid}`);
-      const what = opts.what === "breaking" ? "🚨 breaking-news pings" : "🗞️ the daily digest ping";
-      return msg(r.ok ? (sub === "follow" ? `🔔 You'll now get ${what}.` : `🔕 You won't get ${what} anymore.`)
-                      : "Couldn't update your roles (check the bot's role position).", true);
-    }
+    // /news follow|unfollow is gone: the 📰 News Pings and 🗞️ Digest Ping roles were
+    // deleted in the Aug 2026 declutter. The wire posts silently and pings nobody, so
+    // there is nothing left to opt into.
     if (group === null && sub === "status") {
       const nc = (await getJSON(rawBase(env) + "/newsconfig.json")) || {};
       const cats = Object.entries(nc.categories || {}).map(([k, c]) => `${c.enabled ? "🟢" : "⚫"} ${c.label || k}`).join("  ");
       const srcs = Object.entries(nc.sources || {}).map(([k, s]) => `${s.enabled ? "🟢" : "⚫"} ${s.label || k}`).join("  ");
-      const mine = new Set((i.member && i.member.roles) || []);
-      const you = ["breaking", "digest"].filter(w => mine.has((cfg.roles || {})[ROLE_KEY[w]])).join(" + ") || "none";
       return embed({ title: "🗞️ News feed", description: [
-        `Mode: **${nc.mode || "?"}** — routine stories post silently; breaking + the daily digest ping opt-ins.`,
+        `Mode: **${nc.mode || "?"}** — every story posts silently. No pings, ever.`,
         `Topics: ${cats || "_?_"}`,
         `Sources: ${srcs || "_?_"}`,
         `Digest: ${((nc.digest || {}).times_utc || []).join(", ") || "—"} UTC`,
-        `Your pings: **${you}** — change with \`/news follow\` / \`/news unfollow\`.`,
       ].join("\n") });
     }
     const { ok } = await requireStaff(i, env);
-    if (!ok) return msg("⛔ Staff only (everyone can use `/news status` + `/news follow`).", true);
+    if (!ok) return msg("⛔ Staff only (everyone can use `/news status`).", true);
     if (!env.GITHUB_TOKEN) return msg("⚠️ /news config isn't wired up yet — set the GITHUB_TOKEN secret on the Worker (see COMMANDS_SETUP.md).", true);
     const { obj: newscfg, sha } = await loadRepoJson(env, "newsconfig.json");
     if (!newscfg) return msg("newsconfig.json isn't in the repo yet — run a deploy first.", true);
@@ -572,7 +532,7 @@ const CONTEXT = {
 
 export default {
   async fetch(request, env, ctx) {
-    if (request.method !== "POST") return new Response("Prime Arena commands — online.");
+    if (request.method !== "POST") return new Response("Slash commands — online.");
     const body = await request.text();
     if (!await verify(request, body, env.DISCORD_PUBLIC_KEY)) return new Response("bad signature", { status: 401 });
     const interaction = JSON.parse(body);
@@ -597,5 +557,5 @@ export default {
 };
 
 // exported for offline tests (harmless in the Worker runtime)
-export const _test = { rollDice, slugify, rankingsEmbed, onThisDayEmbed, triviaResponse, buildPoll, fighterEmbed, avatarUrl, snowflakeDate, pickDivision, fmtBouts, EIGHTBALL,
+export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildPoll, fighterEmbed, avatarUrl, snowflakeDate, fmtBouts, EIGHTBALL,
   subPath, isStaffFromRoles, applyModChange, applyNewsChange, resolveCats, MOD_CATEGORIES, MEDIA_POLICIES };
