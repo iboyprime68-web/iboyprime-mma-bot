@@ -10,17 +10,12 @@ import common
 
 SUB, SUB_GROUP, STRING, INTEGER, USER, CHANNEL = 1, 2, 3, 4, 6, 7
 USER_CTX, MSG_CTX = 2, 3                      # context-menu command types
-DIVISIONS = ["Flyweight", "Bantamweight", "Featherweight", "Lightweight", "Welterweight",
-             "Middleweight", "Light Heavyweight", "Heavyweight", "Men's Pound-for-Pound",
-             "Women's Strawweight", "Women's Flyweight", "Women's Bantamweight",
-             "Women's Pound-for-Pound"]
 MOD_CATS = ["slurs", "nsfw_text", "profanity", "sensitive", "ads", "scam"]
 MEDIA = ["allow", "no_links", "no_attachments", "sfw_only", "text_only"]
 PROFILES = ["anything_goes", "standard", "sfw_strict"]
 NEWS_MODES = ["realtime", "hybrid", "digest"]
 NEWS_SOURCES = ["mma_fighting", "bloody_elbow", "mma_mania", "sherdog", "bad_left_hook", "boxing_scene"]
 NEWS_CATS = ["ufc", "mma_other", "boxing"]
-NEWS_PINGS = ["breaking", "digest"]
 
 
 def cmd(name, desc, options=None):
@@ -39,11 +34,8 @@ def choices(values):
 
 
 COMMANDS = [
-    cmd("help", "List all Prime Arena commands"),
+    cmd("help", "List every command on this server"),
     cmd("links", "All of iBoyPrime's channels"),
-    cmd("rankings", "Current UFC rankings for a division", [
-        {"type": STRING, "name": "division", "description": "Weight class", "required": True,
-         "choices": [{"name": d, "value": d} for d in DIVISIONS]}]),
     cmd("nextevent", "The next UFC/PFL/Bellator card + a countdown"),
     cmd("event", "The next card's full lineup"),
     cmd("fighter", "Look up a fighter's profile & record", [
@@ -70,12 +62,8 @@ COMMANDS = [
         {"type": STRING, "name": "query", "description": "What to search", "required": True}]),
 
     # ----- news feed -----
-    {"name": "news", "description": "News wire: follow pings, or tune it (staff)", "type": 1, "options": [
-        {"type": SUB, "name": "status", "description": "How the news wire is tuned + your ping subscriptions"},
-        {"type": SUB, "name": "follow", "description": "Opt INTO news pings (breaking or the daily digest)", "options": [
-            {"type": STRING, "name": "what", "description": "Which pings", "required": True, "choices": choices(NEWS_PINGS)}]},
-        {"type": SUB, "name": "unfollow", "description": "Opt OUT of news pings", "options": [
-            {"type": STRING, "name": "what", "description": "Which pings", "required": True, "choices": choices(NEWS_PINGS)}]},
+    {"name": "news", "description": "News wire: see how it's tuned, or tune it (staff)", "type": 1, "options": [
+        {"type": SUB, "name": "status", "description": "How the news wire is tuned"},
         {"type": SUB, "name": "mode", "description": "Delivery mode (staff)", "options": [
             {"type": STRING, "name": "value", "description": "realtime = every story loud · hybrid = silent + breaking/digest · digest = digest only",
              "required": True, "choices": choices(NEWS_MODES)}]},
