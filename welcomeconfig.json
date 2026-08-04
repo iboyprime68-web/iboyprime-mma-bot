@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "intro": "Gaming, MMA, and iBoyPrime's streams. Every channel is open to you the moment you join. There are no roles to pick and nothing to unlock. Say hi in {general}.",
+  "rules_lead": "Banter and trash talk are fine. These ten are not.",
+  "rules": [
+    "Respect everyone. No harassment, hate, bullying or personal attacks. Argue about the fight, not the person.",
+    "No backbiting. Don't run someone down behind their back or repeat their private business. If you have a problem with someone, say it to them or bring it to staff.",
+    "No mocking. Nothing aimed at anyone's looks, beliefs, background or personal struggles.",
+    "Stay humble. Nobody came here to watch you brag, flex or talk down to them.",
+    "Be honest. No lying, scamming, baiting or setting people up.",
+    "Keep it clean. No slurs and no NSFW. Swearing in banter passes; a foul mouth does not.",
+    "No gambling or betting. That covers wagers between members, betting promos, and links to bookmakers.",
+    "No spam or self-promo. No mass pings, no advertising in DMs, no invites to other servers.",
+    "Respect privacy. Nobody's personal details, DMs or screenshots get posted without their say-so.",
+    "Keep it legal, post in the right channel, and do what staff ask."
+  ],
+  "outro": "Breaking one of these gets a warning, a timeout, or a ban, depending on what you did. Bring anything that needs staff to {tickets}.",
+  "links": [
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com/@iboyprime_official"
+    },
+    {
+      "label": "Twitch",
+      "url": "https://twitch.tv/iboyprime"
+    },
+    {
+      "label": "Kick",
+      "url": "https://kick.com/iboyprime"
+    },
+    {
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@iboyprime_official"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/iboyprime_official/"
+    }
+  ],
+  "invite_label": "Invite a friend:",
+  "_note": "Your own words + public links only. NEVER paste a bot token, GitHub token, or any config.txt value here - it's uploaded to the PUBLIC repo. {server}, {general} and {tickets} are filled in for you, and the headings, the rule numbers and the <> around links are added automatically."
+}
