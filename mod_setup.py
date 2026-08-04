@@ -79,8 +79,11 @@ def reset_rules(rules_ch, text=None):
     if bot_msgs:
         keep = bot_msgs[0]                       # API returns newest first
         if keep.get("content") != text:
+            # allowed_mentions on the EDIT too. common.post_message defaults to NO_PINGS
+            # but a raw PATCH does not, and this text is now owner-editable, so the one
+            # path that could turn a typo into a server-wide ping is closed explicitly.
             common.discord("PATCH", "/channels/%s/messages/%s" % (rules_ch, keep["id"]),
-                           {"content": text})
+                           {"content": text, "allowed_mentions": common.NO_PINGS})
             print("  welcome+rules: edited the existing message in place")
         else:
             print("  welcome+rules: already current (no change)")
