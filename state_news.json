@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=496453",
     "https://www.mmafighting.com/?p=496460",
     "https://www.mmafighting.com/?p=496470",
     "https://www.mmafighting.com/?p=496481",
@@ -414,6 +413,7 @@
     "https://www.mmafighting.com/?p=503034",
     "https://www.mmafighting.com/?p=503056",
     "https://www.mmafighting.com/?p=503152",
+    "https://www.mmafighting.com/?p=503185",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1491,6 +1491,10 @@
     {
       "t": "Yair Rodriguez vs. Jean Silva set for Noche UFC main event",
       "ts": "2026-08-04T17:31:53+00:00"
+    },
+    {
+      "t": "Bo Nickal faces Olympic champion on RAF Moscow: Chimaev vs. Woodley card",
+      "ts": "2026-08-04T16:15:22+00:00"
     }
   ],
   "digest_items": [
@@ -1724,11 +1728,18 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-08-04T17:31:53+00:00"
+    },
+    {
+      "title": "Bo Nickal faces Olympic champion on RAF Moscow: Chimaev vs. Woodley card",
+      "url": "https://www.mmafighting.com/raf-wrestling/503185/bo-nickal-faces-olympic-champion-on-raf-moscow-chimaev-vs-woodley-card",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-04T16:15:22+00:00"
     }
   ],
   "digest_last": "2026-08-03 21:30",
   "hour": [
     "2026-08-04T18",
-    0
+    1
   ]
 }
