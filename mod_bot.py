@@ -13,7 +13,24 @@ count per user, and escalates to a timeout on repeat offenders.
 
 Staff and bots are always skipped. Std-lib only.
 """
-import datetime, re, common, modconfig
+import datetime, hashlib, re, common, modconfig
+
+STATE_V = 2           # v2 = pseudonymous ledger (see hkey); v1 stored raw ids
+
+
+def hkey(value):
+    """A stable pseudonym for a Discord id (user or message).
+
+    state_mod.json is committed to the PUBLIC repo, so it must not name anyone. Raw ids
+    would publish a permanent, world-readable disciplinary record for every member the
+    patrol touches: the id resolves to a live account, the count says how close they are
+    to a timeout, and git history keeps it forever even if the file is later cleaned.
+
+    The salt is the bot token - a secret both this bot and the Worker already hold and
+    which is never committed - so /modlogs can still look a member up while the
+    published file identifies nobody. worker.js uidKey() must stay byte-identical.
+    """
+    return hashlib.sha256((common.token() + ":" + str(value)).encode("utf-8")).hexdigest()[:16]
 
 # Fallback thresholds (used only if a channel resolves to no profile values).
 FLOOD_COUNT  = 6      # messages...
@@ -31,11 +48,43 @@ def norm(s):
     return " ".join((s or "").lower().split())
 
 
-def is_staff(msg, staff):
-    if (msg.get("author") or {}).get("bot"):
+def is_bot(msg):
+    return bool((msg.get("author") or {}).get("bot"))
+
+
+# uid -> set(role ids), or None when the lookup failed. Cleared every cycle so a role
+# change takes effect within a minute.
+_ROLE_CACHE = {}
+
+
+def member_roles(guild, uid):
+    """This member's role ids, or None if we could not find out.
+
+    Do NOT read msg["member"]: that field only exists on gateway MESSAGE_CREATE /
+    MESSAGE_UPDATE events. Messages here come from GET /channels/{id}/messages, which
+    never includes it, so the old check saw an empty role list for EVERYONE and the
+    staff exemption silently never fired - the patrol would delete a Moderator's
+    messages and time them out on the third strike.
+    """
+    if uid in _ROLE_CACHE:
+        return _ROLE_CACHE[uid]
+    code, data = common.discord("GET", "/guilds/%s/members/%s" % (guild, uid))
+    roles = set(data.get("roles") or []) if (code == 200 and isinstance(data, dict)) else None
+    _ROLE_CACHE[uid] = roles
+    return roles
+
+
+def is_exempt(guild, uid, staff):
+    """True if this user must not be actioned.
+
+    Fails CLOSED: an unreadable member lookup counts as exempt. Skipping enforcement
+    for one user for one cycle is self-correcting; deleting an admin's messages because
+    an API call blipped is not.
+    """
+    roles = member_roles(guild, uid)
+    if roles is None:
         return True
-    member = msg.get("member") or {}
-    return any(r in staff for r in member.get("roles", []))
+    return bool(roles & set(staff or ()))
 
 
 def is_url(text):
@@ -68,9 +117,14 @@ def media_reason(msg, policy):
     return None
 
 
-def scan_channel(ch, staff, seen, now, policy):
+def scan_channel(ch, seen, now, policy):
     """Return {uid: {"name":.., "ids":set, "reasons":set}} of offenders in this
-    channel, using the channel's resolved per-profile thresholds + media policy."""
+    channel, using the channel's resolved per-profile thresholds + media policy.
+
+    Staff are NOT filtered here. Role lookups cost an API call each, so the exemption
+    is applied in poll_once() to the handful of users who actually tripped a threshold
+    rather than to all ~80 messages per channel. A quiet cycle costs zero extra calls.
+    """
     code, data = common.discord("GET", "/channels/%s/messages?limit=80" % ch)
     if not isinstance(data, list):
         return {}
@@ -84,7 +138,7 @@ def scan_channel(ch, staff, seen, now, policy):
         ts = common.parse_iso(m.get("timestamp"))
         if not ts or (now - ts).total_seconds() > RECENT_MIN * 60:
             continue
-        if m.get("id") in seen or is_staff(m, staff):
+        if hkey(m.get("id")) in seen or is_bot(m):
             continue
         msgs.append((ts, m))
     msgs.sort(key=lambda x: x[0])
@@ -161,18 +215,30 @@ def poll_once():
         print("No channels to patrol."); return
 
     state = common.load_json(common.state_path(STATE_FILE), {})
+    if state.get("v") != STATE_V:
+        # v1 keyed by raw user id and stored raw message ids. Both name people in a
+        # public file, so they are dropped rather than migrated - the only cost is that
+        # in-flight warning counts reset once, and warnings reset at TIMEOUT_AT anyway.
+        state = {"v": STATE_V, "users": {}, "seen": []}
     users = state.get("users", {})
     seen = set(state.get("seen", []))
     now = common.now_utc()
     actions = 0
 
+    _ROLE_CACHE.clear()                  # fresh each cycle so role changes apply fast
+    skipped_staff = 0
+
     for ch in channels:
         policy = modconfig.resolve_channel(modcfg, ch)
-        offenders = scan_channel(ch, staff, seen, now, policy)
+        offenders = scan_channel(ch, seen, now, policy)
         for uid, info in offenders.items():
+            if is_exempt(guild, uid, staff):
+                seen.update(hkey(i) for i in info["ids"])   # don't re-evaluate next cycle
+                skipped_staff += 1
+                continue
             removed = delete_messages(ch, info["ids"])
-            seen.update(info["ids"])
-            u = users.setdefault(uid, {"warns": 0})
+            seen.update(hkey(i) for i in info["ids"])
+            u = users.setdefault(hkey(uid), {"warns": 0})
             u["warns"] += 1
             u["last"] = now.isoformat()
             reason = " + ".join(sorted(info["reasons"]))
@@ -185,13 +251,19 @@ def poll_once():
             if mod_log:
                 common.post_message(mod_log, line, allowed_mentions={"parse": []})
             actions += 1
-            print("acted:", info["name"], uid, sorted(info["reasons"]), "removed", removed)
+            # No username and no user id: this repo is PUBLIC, so Actions logs are
+            # world-readable and retained for 90 days. The mod-log post above already
+            # carries the full detail to the staff channel, where it belongs.
+            print("acted: reasons=%s removed=%d" % (sorted(info["reasons"]), removed))
 
+    state["v"] = STATE_V
     state["users"] = users
     state["seen"] = sorted(seen)[-2000:]
     common.save_json(common.state_path(STATE_FILE), state)
     if actions:                          # commit mid-loop so a crash can't re-act
         common.persist_state(STATE_FILE)
+    if skipped_staff:
+        print("skipped %d exempt (staff) offender(s)" % skipped_staff)
     print("Patrol cycle done. offenders acted on=%d" % actions)
 
 
