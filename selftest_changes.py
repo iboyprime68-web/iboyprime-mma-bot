@@ -983,6 +983,21 @@ if deploy_bots:
           deploy_bots.gh_delete("o", "r", "x.py") is False)
     deploy_bots.gh = _realgh
 
+    # Discord ranks roles by position, ties broken by id with the LOWER id ranking
+    # HIGHER. Inverting this is invisible in production: you conclude the bot cannot
+    # grant a role it can grant perfectly well, and print a bogus ACTION NEEDED.
+    import bots_setup as _bs3
+    _roles = [{"id": "100", "position": 1, "name": "bot", "managed": True},
+              {"id": "900", "position": 1, "name": "member"},
+              {"id": "1", "position": 0, "name": "@everyone"}]
+    _rank = [r["name"] for r in _bs3.rank_roles(_roles)]
+    check("role rank: @everyone is lowest", _rank[0] == "@everyone")
+    check("role rank: on a position tie the OLDER (lower) id ranks HIGHER",
+          _rank.index("bot") > _rank.index("member"))
+    check("role rank: an explicit higher position still wins over the id tie-break",
+          _bs3.rank_roles([{"id": "900", "position": 5, "name": "top"},
+                           {"id": "1", "position": 1, "name": "bottom"}])[-1]["name"] == "top")
+
     check("nothing retired is still uploaded",
           not (set(_RETIRED_BOTS) & set(r for r, _ in deploy_bots.UPLOADS)))
     check("no retired workflow is dispatched",
