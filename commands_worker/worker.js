@@ -185,12 +185,18 @@ function subPath(interaction) {
   const m = {}; for (const o of opts) m[o.name] = o.value;
   return { group, sub, opts: m };
 }
-function isStaffFromRoles(member, cfg) {
+// The bot is ADMINISTRATOR, so anything it does on a member's behalf runs at the bot's
+// permission level, not theirs. That means this gate - not Discord - decides what each
+// staff tier can do, and a single flat check silently GRANTS powers the guild withholds:
+// 🔨 Moderator is configured with kick but NOT ban, yet /ban went through this same
+// check. Pass `keys` to require a tier; the default keeps the old behaviour.
+function isStaffFromRoles(member, cfg, keys) {
   if (!member) return false;
   const roleIds = new Set(member.roles || []);
-  const staff = ["owner", "admin", "mod"].map(k => (cfg.roles || {})[k]).filter(Boolean);
+  const staff = (keys || ["owner", "admin", "mod"]).map(k => (cfg.roles || {})[k]).filter(Boolean);
   if (staff.some(id => roleIds.has(id))) return true;
-  try { if ((BigInt(member.permissions || "0") & (1n << 3n)) !== 0n) return true; } catch (e) {}  // Administrator
+  // Administrator can do all of this natively anyway, so this is not an escalation.
+  try { if ((BigInt(member.permissions || "0") & (1n << 3n)) !== 0n) return true; } catch (e) {}
   return false;
 }
 function profileCats(modcfg, name) { return new Set((((modcfg.profiles || {})[name]) || {}).categories || []); }
@@ -357,10 +363,13 @@ async function postLog(env, cfg, content) {
   if (!ch || !env.DISCORD_BOT_TOKEN) return;
   await dapi(env, "POST", "/channels/" + ch + "/messages", { content, allowed_mentions: { parse: [] } });
 }
-async function requireStaff(i, env) {
+async function requireRank(i, env, keys) {
   const cfg = await botsConfig(env);
-  return { cfg, ok: isStaffFromRoles(i.member, cfg) };
+  return { cfg, ok: isStaffFromRoles(i.member, cfg, keys) };
 }
+async function requireStaff(i, env) { return requireRank(i, env, null); }   // mod and above
+// Ban and unban only. Mirrors the guild's own roles: 🔨 Moderator has kick, not ban.
+const ADMIN_UP = ["owner", "admin"];
 
 // ---------- command table ----------
 const COMMANDS = {
@@ -511,7 +520,8 @@ const COMMANDS = {
     return msg(r.ok ? `⏳ Timed out <@${o.user}> for ${mins}m.` : "Couldn't time them out (check the bot's role position/permissions).", true);
   } }),
   ban: (i, env) => ({ ephemeral: true, defer: async () => {
-    const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
+    const { cfg, ok } = await requireRank(i, env, ADMIN_UP);
+    if (!ok) return msg("⛔ Banning is Admin and Owner only.", true);
     if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
     const o = optMap(i);
     const r = await dapi(env, "PUT", `/guilds/${i.guild_id}/bans/${o.user}`, { delete_message_seconds: 0 });
@@ -519,7 +529,8 @@ const COMMANDS = {
     return msg(r.ok ? `🔨 Banned <@${o.user}>.` : "Couldn't ban (check the bot's permissions / role order).", true);
   } }),
   unban: (i, env) => ({ ephemeral: true, defer: async () => {
-    const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
+    const { cfg, ok } = await requireRank(i, env, ADMIN_UP);
+    if (!ok) return msg("⛔ Unbanning is Admin and Owner only.", true);
     if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
     // user_id is a free-text STRING option (Discord validates USER options, not these),
     // and it lands straight in the API path - so it must be a bare snowflake.
@@ -624,4 +635,4 @@ export default {
 // exported for offline tests (harmless in the Worker runtime)
 export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildPoll, fighterEmbed, avatarUrl, snowflakeDate, fmtBouts, EIGHTBALL,
   subPath, isStaffFromRoles, applyModChange, applyNewsChange, resolveCats, MOD_CATEGORIES, MEDIA_POLICIES,
-  socialLines, SOCIALS_FALLBACK, COMMANDS, CONTEXT, isSnowflake, safeApiPath, uidKey, userWarns };
+  socialLines, SOCIALS_FALLBACK, COMMANDS, CONTEXT, isSnowflake, safeApiPath, uidKey, userWarns, ADMIN_UP };
