@@ -1,0 +1,22 @@
+name: Member Role Backfill
+on:
+  schedule:
+    - cron: '*/5 * * * *'   # Discord has no auto-role; a new joiner gets it within ~5 min
+  workflow_dispatch:
+permissions:
+  contents: read            # stateless - the guild itself is the state, nothing to commit
+concurrency:
+  group: bot-member
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Grant the baseline member role to anyone missing it
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: python member_bot.py
