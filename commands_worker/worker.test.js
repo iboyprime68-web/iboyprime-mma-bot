@@ -102,5 +102,29 @@ check("/news follow|unfollow is gone (the ping roles were deleted)",
 check("/help no longer advertises removed commands",
   !/\/news follow/.test(code) && !/`\/rankings`/.test(code));
 
+// ----- /links reads welcomeconfig.json (one source of truth for the socials) -----
+// This whole block exists because the link list used to be hard-coded HERE as well as
+// in mod_setup.py, both copies carried a wrong TikTok URL, and nothing caught it.
+const { socialLines, SOCIALS_FALLBACK } = _test;
+check("socialLines renders label + url in order",
+  socialLines([{ label: "A", url: "https://a" }, { label: "B", url: "https://b" }])
+  === "**A:** https://a\n**B:** https://b");
+check("socialLines drops a non-https entry",
+  socialLines([{ label: "X", url: "http://x" }]) === null);
+check("socialLines drops an entry with no label",
+  socialLines([{ url: "https://x" }]) === null);
+check("socialLines returns null on empty/absent so the caller falls back",
+  socialLines(null) === null && socialLines([]) === null && socialLines(undefined) === null);
+check("the built-in fallback still renders when the repo is unreachable",
+  (socialLines(SOCIALS_FALLBACK) || "").split("\n").length === 5);
+check("the fallback carries the corrected TikTok and the new Instagram",
+  SOCIALS_FALLBACK.some(l => l.url === "https://www.tiktok.com/@iboyprime_official") &&
+  SOCIALS_FALLBACK.some(l => l.url === "https://www.instagram.com/iboyprime_official/"));
+check("every fallback link is https", SOCIALS_FALLBACK.every(l => l.url.startsWith("https://")));
+check("the old wrong TikTok URL is gone from the Worker source",
+  !/tiktok\.com\/@iboyprime"/.test(workerSrc));
+check("/links no longer renders a hard-coded object (it reads welcomeconfig.json)",
+  /welcomeConfig\(env\)/.test(code) && !/\bconst SOCIALS =/.test(code));
+
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
 process.exit(fail ? 1 : 0);
