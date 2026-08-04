@@ -14,8 +14,8 @@ returns 403 and this bot prints exactly that and exits 0 - deliberately NOT an e
 because a workflow that exits non-zero every 5 minutes emails the owner every 5
 minutes, which is the failure mode this project keeps having to design around.
 
-Skips bots (they have 🤖 Bots) and anyone who already holds the role, so a steady
-state costs one API call. Stateless: the guild itself is the state.
+Skips bots and anyone who already holds the role, so a steady state costs one API
+call. Stateless: the guild itself is the state.
 """
 import sys, time
 import common
