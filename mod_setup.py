@@ -23,38 +23,44 @@ import modconfig
 # deleted every *other* bot message in their channel, so two writers could never share
 # one. server_polish is gone; reset_rules() below is the single owner.
 # Hard limit: common.post_message truncates at 1990 chars.
+# Written against the no-ai-slop rules (github.com/realrossmanngroup/no_ai_slop_writing_rules):
+# no em dashes, no intensifiers, no filler openers, no synthetic enthusiasm, no decorative
+# emoji in prose, headings that name their content. Keep it that way when editing.
 WELCOME_HEAD = (
-    "# 👋 Welcome to %(server)s\n"
-    "Gaming · MMA · live streams with **iBoyPrime**.\n"
-    "Everything here is already open — nothing to unlock, nothing to tick. "
-    "Say hi in %(general)s.\n\n"
-    "**📜 Rules** — banter and trash talk are welcome. Crossing these lines isn't.\n\n"
+    "# Welcome to %(server)s\n"
+    "Gaming, MMA, and iBoyPrime's streams. Every channel is open to you the moment you "
+    "join. There are no roles to pick and nothing to unlock. Say hi in %(general)s.\n\n"
+    "## Rules\n"
+    "Banter and trash talk are fine. These ten are not.\n\n"
 )
 WELCOME_RULES = (
     "**1. Respect everyone.** No harassment, hate, bullying or personal attacks. "
-    "Disagree without making it personal.\n"
-    "**2. No backbiting.** Don't run people down behind their backs or air their private "
-    "business. Got an issue? Sort it directly or bring it to staff.\n"
-    "**3. Don't mock or belittle.** No ridiculing anyone's appearance, beliefs, background "
-    "or struggles. Jokes land *with* people, not *at* them.\n"
-    "**4. Stay humble.** No bragging, flexing or talking down to people. Hype others up.\n"
-    "**5. Be honest.** No lying, scamming, baiting or deceiving members.\n"
-    "**6. Keep it clean.** No slurs, no NSFW. Light swearing in banter is fine — a foul "
-    "mouth isn't.\n"
-    "**7. No gambling or betting.** No wagers, betting promos or gambling links.\n"
-    "**8. No spam or unsolicited self-promo.** No mass pings, ad-DMs or links to other servers.\n"
-    "**9. Respect privacy.** Don't share anyone's personal info, DMs or screenshots "
-    "without their okay.\n"
-    "**10. Keep it legal, use the right channels, listen to staff.**\n\n"
-    "Breaking these means a warning, timeout or removal depending on severity. "
-    "See something off? Ping staff.\n\n"
+    "Argue about the fight, not the person.\n"
+    "**2. No backbiting.** Don't run someone down behind their back or repeat their "
+    "private business. If you have a problem with someone, say it to them or bring it "
+    "to staff.\n"
+    "**3. No mocking.** Nothing aimed at anyone's looks, beliefs, background or "
+    "personal struggles.\n"
+    "**4. Stay humble.** Nobody came here to watch you brag, flex or talk down to them.\n"
+    "**5. Be honest.** No lying, scamming, baiting or setting people up.\n"
+    "**6. Keep it clean.** No slurs and no NSFW. Swearing in banter passes; a foul "
+    "mouth does not.\n"
+    "**7. No gambling or betting.** That covers wagers between members, betting promos, "
+    "and links to bookmakers.\n"
+    "**8. No spam or self-promo.** No mass pings, no advertising in DMs, no invites to "
+    "other servers.\n"
+    "**9. Respect privacy.** Nobody's personal details, DMs or screenshots get posted "
+    "without their say-so.\n"
+    "**10. Keep it legal, post in the right channel, and do what staff ask.**\n\n"
+    "Breaking one of these gets a warning, a timeout, or a ban, depending on what you "
+    "did. Bring anything that needs staff to %(tickets)s.\n\n"
 )
 WELCOME_LINKS = (
-    "**🔗 Links**\n"
-    "▸ YouTube <https://youtube.com/@iboyprime_official>\n"
-    "▸ Twitch <https://twitch.tv/iboyprime>\n"
-    "▸ Kick <https://kick.com/iboyprime>\n"
-    "▸ TikTok <https://tiktok.com/@iboyprime>\n"
+    "## Links\n"
+    "YouTube: <https://youtube.com/@iboyprime_official>\n"
+    "Twitch: <https://twitch.tv/iboyprime>\n"
+    "Kick: <https://kick.com/iboyprime>\n"
+    "TikTok: <https://tiktok.com/@iboyprime>\n"
 )
 
 
@@ -62,19 +68,24 @@ def welcome_text(cfg):
     """The single welcome + rules + links message. Channel refs become clickable
     <#id> links; a missing key degrades to plain text rather than a dead #0 chip."""
     chans = cfg.get("channels", {}) or {}
-    general = chans.get("general")
-    head = WELCOME_HEAD % {"server": layout.SERVER_NAME,
-                           "general": ("<#%s>" % general) if general else "the chat"}
-    text = head + WELCOME_RULES + WELCOME_LINKS
+
+    def ref(key, fallback):
+        cid = chans.get(key)
+        return ("<#%s>" % cid) if cid else fallback
+
+    text = (WELCOME_HEAD % {"server": layout.SERVER_NAME,
+                            "general": ref("general", "the chat")}
+            + WELCOME_RULES % {"tickets": ref("tickets", "the tickets channel")}
+            + WELCOME_LINKS)
     invite = (cfg.get("invite_url") or "").strip()
     if invite:
-        text += "▸ Invite a friend <%s>\n" % invite
+        text += "Invite a friend: <%s>\n" % invite
     return text.rstrip()
 
 
 # Kept as an alias so anything still importing the old name keeps working.
 RULES_TEXT = (WELCOME_HEAD % {"server": layout.SERVER_NAME, "general": "the chat"}
-              + WELCOME_RULES + WELCOME_LINKS)
+              + WELCOME_RULES % {"tickets": "the tickets channel"} + WELCOME_LINKS)
 IBP_PREFIX = "iBP · "      # all our AutoMod rule names start with this (used to prune stale ones)
 EXEMPT_CAP = 50            # Discord hard limit: <=50 exempt channels per rule
 
