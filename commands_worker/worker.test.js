@@ -181,5 +181,29 @@ check("dapi refuses to send an unsafe path at all (defence in depth)",
 check("/unban validates before building the path",
   /isSnowflake\(id\)\) return msg/.test(code));
 
+// ----- the pseudonymous mod ledger -----
+// state_mod.json lives in the PUBLIC repo, so it is keyed by sha256(token + ":" + id).
+// uidKey here and mod_bot.hkey() in Python must agree exactly or /modlogs silently
+// reports "no recorded warnings" for someone who has them. This vector is checked
+// against the Python implementation in selftest_changes.py.
+const { uidKey, userWarns } = _test;
+const FAKE_TOKEN = "FAKE.TOKEN.value-1234567890";
+check("uidKey matches the Python hkey vector for a snowflake",
+  await uidKey({ DISCORD_BOT_TOKEN: FAKE_TOKEN }, "1515436353091801199") === "9f7daef88ffb8316");
+check("uidKey matches the Python hkey vector for a short id",
+  await uidKey({ DISCORD_BOT_TOKEN: FAKE_TOKEN }, "42") === "6d136b49247c3611");
+check("uidKey is stable and distinguishes ids",
+  await uidKey({ DISCORD_BOT_TOKEN: FAKE_TOKEN }, "42")
+    !== await uidKey({ DISCORD_BOT_TOKEN: FAKE_TOKEN }, "43"));
+check("a different salt yields a different key (the ledger is not readable without it)",
+  await uidKey({ DISCORD_BOT_TOKEN: "other" }, "42")
+    !== await uidKey({ DISCORD_BOT_TOKEN: FAKE_TOKEN }, "42"));
+check("userWarns returns undefined (not 'no warnings') when the token is missing",
+  await userWarns({}, "42") === undefined);
+check("/modlogs distinguishes 'cannot read' from 'no warnings'",
+  /w === undefined\) return msg/.test(code));
+check("the ledger is never looked up by raw user id",
+  !/s\.users\[uid\]/.test(code));
+
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
 process.exit(fail ? 1 : 0);
