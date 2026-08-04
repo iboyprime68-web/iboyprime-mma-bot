@@ -154,5 +154,32 @@ check("the DEFER response carries the ephemeral flag (the fix, not just the inte
 check("every staff handler is marked ephemeral in source",
   STAFF_CMDS.every(n => new RegExp(`\\b${n}:\\s*\\(i, env\\) => \\(\\{ ephemeral: true`).test(code)));
 
+// ----- API path injection (/unban took a free-text string straight into the path) -----
+// fetch() uses the WHATWG URL parser, which RESOLVES dot-segments before the request
+// goes out, so a crafted "user ID" turned DELETE /guilds/G/bans/<id> into
+// DELETE /channels/<id> - channel deletion with the bot's ADMINISTRATOR token, logged
+// to the mod-log as a harmless "unbanned".
+const { isSnowflake, safeApiPath } = _test;
+check("a real snowflake is accepted", isSnowflake("1515436353091801199"));
+for (const bad of ["../../../channels/999888777", "123/../../channels/1", "", "  ",
+                   "12345", "abc", "1234567890123456789012345", null, undefined])
+  check(`isSnowflake rejects ${JSON.stringify(bad)}`, !isSnowflake(bad));
+
+// The exact escalation, proven against the real URL parser rather than by inspection.
+const traversal = new URL("https://discord.com/api/v10/guilds/G/bans/../../../channels/999").pathname;
+check("traversal really does collapse to a channel-delete path (why this matters)",
+  traversal === "/api/v10/channels/999");
+check("safeApiPath rejects that path", !safeApiPath("/guilds/G/bans/../../../channels/999"));
+check("safeApiPath rejects backslash, whitespace and double slashes",
+  !safeApiPath("/guilds/G//bans/1") && !safeApiPath("/guilds/G/bans/1 2") && !safeApiPath("/a\\b"));
+check("safeApiPath rejects a relative path", !safeApiPath("guilds/G/bans/1"));
+check("safeApiPath allows the paths the bot actually uses",
+  safeApiPath("/guilds/123/bans/456") && safeApiPath("/channels/1/messages/2") &&
+  safeApiPath("/guilds/1/members/2"));
+check("dapi refuses to send an unsafe path at all (defence in depth)",
+  /if \(!safeApiPath\(path\)\) throw/.test(code));
+check("/unban validates before building the path",
+  /isSnowflake\(id\)\) return msg/.test(code));
+
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
 process.exit(fail ? 1 : 0);
