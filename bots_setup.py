@@ -218,8 +218,8 @@ def sync_channels(chans_by_name, cat_ids, staff_ids, everyone):
 # ---------------------------------------------------------------------------
 # [3] guild pointers - repointed BEFORE anything is deleted
 # ---------------------------------------------------------------------------
-GUILD_DESCRIPTION = ("Gaming, MMA fight nights and live streams with iBoyPrime — "
-                     "everything's open, just jump in.")
+GUILD_DESCRIPTION = ("Gaming, MMA and iBoyPrime's live streams. Every channel is open "
+                     "from the moment you join.")
 
 
 def repoint_guild_pointers(guild, ids_by_key):
@@ -261,8 +261,8 @@ def repoint_guild_pointers(guild, ids_by_key):
 # ---------------------------------------------------------------------------
 # [4] welcome screen - rewritten before the deletes
 # ---------------------------------------------------------------------------
-WELCOME_DESCRIPTION = ("Gaming, MMA fight nights and live streams with iBoyPrime. "
-                       "Everything's open — jump in. 👊")
+WELCOME_DESCRIPTION = ("Gaming, MMA and iBoyPrime's live streams. Every channel is open "
+                       "from the moment you join.")
 
 
 def sync_welcome_screen(ids_by_key):
@@ -481,6 +481,21 @@ def main():
                            me.get("id") if isinstance(me, dict) else None)
 
     # ---- configs -----------------------------------------------------------
+    # The baseline member role is the only one this script CREATES. Everything else in
+    # ROLES_KEEP predates the restructure; a missing one means something is wrong and
+    # should be visible, not silently papered over.
+    if layout.MEMBER_ROLE not in roles_by_name:
+        spec = next((r for r in layout.ROLES_KEEP if r[0] == layout.MEMBER_ROLE), None)
+        if spec:
+            name, color, hoist, mentionable = spec
+            _, r = api("POST", "/guilds/%s/roles" % GUILD_ID,
+                       {"name": name, "color": color, "hoist": hoist,
+                        "mentionable": mentionable, "permissions": "0"})
+            if isinstance(r, dict) and r.get("id"):
+                roles_by_name[name] = r["id"]
+                note("created role: %s (hoisted, no extra permissions)" % name)
+                pause(0.3)
+
     out_roles = {}
     for key, name in layout.ROLE_KEYS.items():
         if name in roles_by_name:
