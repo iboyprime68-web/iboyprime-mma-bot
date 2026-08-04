@@ -1,5 +1,7 @@
 // Offline unit tests for the Worker's pure /mod helpers. Run: node worker.test.js
 import { _test } from "./worker.js";
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 
 let pass = 0, fail = 0;
 function check(name, cond) { if (cond) { pass++; console.log("  ok  :", name); } else { fail++; console.log("  FAIL:", name); } }
@@ -80,6 +82,25 @@ const spn = subPath({ data: { options: [ { type: 2, name: "keyword", options: [ 
   options: [ { name: "list", value: "breaking" }, { name: "word", value: "dies" } ] } ] } ] } });
 check("subPath handles /news keyword add", spn.group === "keyword" && spn.sub === "add" &&
   spn.opts.list === "breaking" && spn.opts.word === "dies");
+
+// ----- Aug 2026 declutter: no handler may reference a deleted channel/role key -----
+// These keys no longer exist in bots_config.json. A handler that still reads one
+// doesn't crash - it silently hits `undefined` and tells the member something
+// misleading - so the only way to catch it is to scan the source.
+const workerSrc = readFileSync(fileURLToPath(new URL("./worker.js", import.meta.url)), "utf8");
+// Comments are stripped first so the notes explaining WHY these were removed don't
+// trip their own guard. `on_this_day` also lives in the embedded trivia data, so the
+// channel check requires the word to sit next to a `channels` lookup.
+const code = workerSrc.replace(/^\s*\/\/.*$/gm, "");
+const DEAD_ROLE_KEYS = /\b(news_pings|digest_ping|fight_prophet|clip_champ|live_pings|youtube_pings|fight_alerts|announce_role|events_role)\b/;
+const DEAD_CHANNEL_LOOKUP = /channels\b[^;\n]{0,80}\b(live_now|youtube_uploads|plays_n_clips|predictions|fight_week|rankings|on_this_day|fight_night|server_updates)\b/;
+check("no handler references a deleted role key", !DEAD_ROLE_KEYS.test(code));
+check("no handler looks up a deleted channel key", !DEAD_CHANNEL_LOOKUP.test(code));
+check("/rankings is gone (its data source was the retired board's)", !/\brankings:\s*\(/.test(code));
+check("/news follow|unfollow is gone (the ping roles were deleted)",
+  !/sub === "follow"/.test(code) && !/sub === "unfollow"/.test(code));
+check("/help no longer advertises removed commands",
+  !/\/news follow/.test(code) && !/`\/rankings`/.test(code));
 
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
 process.exit(fail ? 1 : 0);
