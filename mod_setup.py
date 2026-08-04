@@ -14,30 +14,67 @@ Reads bots_config.json + modconfig.json (materialises sensible defaults on first
 run; deep-merges so owner edits are never clobbered). Std-lib only. Idempotent.
 """
 import common
+import layout
 import modconfig
 
-RULES_TEXT = (
-    "# 📜 Prime Arena — Server Rules\n\n"
-    "We keep this a place people actually want to hang out. Banter and trash talk are "
-    "welcome — crossing the lines below isn't.\n\n"
-    "**1. Respect everyone.** No harassment, hate, bullying, or personal attacks. "
-    "Disagree without making it personal.\n"
-    "**2. No backbiting or rumour-spreading.** Don't run people down behind their backs "
-    "or air others' private business. Got an issue with someone? Sort it directly or bring it to staff.\n"
-    "**3. Don't mock or belittle.** No ridiculing anyone's appearance, beliefs, background, "
-    "or struggles. Jokes land *with* people, not *at* them.\n"
-    "**4. Stay humble.** This isn't the place to brag, flex, or talk down to people. Hype others up.\n"
-    "**5. Be honest.** No lying, scamming, baiting, or deceiving members.\n"
-    "**6. Keep it clean.** No slurs and no NSFW/explicit content. Light swearing in banter is fine — "
-    "a foul mouth isn't.\n"
-    "**7. No gambling or betting.** No wagers, betting promos, or gambling links.\n"
-    "**8. No spam or unsolicited self-promo.** No mass pings, ad-DMs, or links to other servers.\n"
-    "**9. Respect privacy.** Don't share anyone's personal info, DMs, or screenshots without their okay.\n"
-    "**10. Keep it legal, use the right channels, and listen to staff.** We're one fam — "
-    "represent iBoyPrime well.\n\n"
-    "_Breaking these can mean a warning, timeout, or removal depending on severity. "
-    "See something off? Ping staff._"
+# The welcome channel and the rules channel are now ONE channel (👋┊welcome, which is
+# the old 📜-rules renamed - so its history and the guild's rules_channel_id survive).
+# It must stay ONE message: this function and server_polish's old upsert_guide both
+# deleted every *other* bot message in their channel, so two writers could never share
+# one. server_polish is gone; reset_rules() below is the single owner.
+# Hard limit: common.post_message truncates at 1990 chars.
+WELCOME_HEAD = (
+    "# 👋 Welcome to %(server)s\n"
+    "Gaming · MMA · live streams with **iBoyPrime**.\n"
+    "Everything here is already open — nothing to unlock, nothing to tick. "
+    "Say hi in %(general)s.\n\n"
+    "**📜 Rules** — banter and trash talk are welcome. Crossing these lines isn't.\n\n"
 )
+WELCOME_RULES = (
+    "**1. Respect everyone.** No harassment, hate, bullying or personal attacks. "
+    "Disagree without making it personal.\n"
+    "**2. No backbiting.** Don't run people down behind their backs or air their private "
+    "business. Got an issue? Sort it directly or bring it to staff.\n"
+    "**3. Don't mock or belittle.** No ridiculing anyone's appearance, beliefs, background "
+    "or struggles. Jokes land *with* people, not *at* them.\n"
+    "**4. Stay humble.** No bragging, flexing or talking down to people. Hype others up.\n"
+    "**5. Be honest.** No lying, scamming, baiting or deceiving members.\n"
+    "**6. Keep it clean.** No slurs, no NSFW. Light swearing in banter is fine — a foul "
+    "mouth isn't.\n"
+    "**7. No gambling or betting.** No wagers, betting promos or gambling links.\n"
+    "**8. No spam or unsolicited self-promo.** No mass pings, ad-DMs or links to other servers.\n"
+    "**9. Respect privacy.** Don't share anyone's personal info, DMs or screenshots "
+    "without their okay.\n"
+    "**10. Keep it legal, use the right channels, listen to staff.**\n\n"
+    "Breaking these means a warning, timeout or removal depending on severity. "
+    "See something off? Ping staff.\n\n"
+)
+WELCOME_LINKS = (
+    "**🔗 Links**\n"
+    "▸ YouTube <https://youtube.com/@iboyprime_official>\n"
+    "▸ Twitch <https://twitch.tv/iboyprime>\n"
+    "▸ Kick <https://kick.com/iboyprime>\n"
+    "▸ TikTok <https://tiktok.com/@iboyprime>\n"
+)
+
+
+def welcome_text(cfg):
+    """The single welcome + rules + links message. Channel refs become clickable
+    <#id> links; a missing key degrades to plain text rather than a dead #0 chip."""
+    chans = cfg.get("channels", {}) or {}
+    general = chans.get("general")
+    head = WELCOME_HEAD % {"server": layout.SERVER_NAME,
+                           "general": ("<#%s>" % general) if general else "the chat"}
+    text = head + WELCOME_RULES + WELCOME_LINKS
+    invite = (cfg.get("invite_url") or "").strip()
+    if invite:
+        text += "▸ Invite a friend <%s>\n" % invite
+    return text.rstrip()
+
+
+# Kept as an alias so anything still importing the old name keeps working.
+RULES_TEXT = (WELCOME_HEAD % {"server": layout.SERVER_NAME, "general": "the chat"}
+              + WELCOME_RULES + WELCOME_LINKS)
 IBP_PREFIX = "iBP · "      # all our AutoMod rule names start with this (used to prune stale ones)
 EXEMPT_CAP = 50            # Discord hard limit: <=50 exempt channels per rule
 
@@ -47,32 +84,38 @@ def me_id():
     return me.get("id") if isinstance(me, dict) else None
 
 
-def reset_rules(rules_ch):
-    """Keep exactly ONE rules message: edit the bot's existing one in place (so it
-    isn't re-posted/re-pinged every deploy), delete any duplicate rule posts from
-    earlier deploys, or post fresh if none exists."""
+def reset_rules(rules_ch, text=None):
+    """Keep exactly ONE welcome+rules message: edit the bot's existing one in place (so
+    it isn't re-posted every deploy), delete any duplicates from earlier deploys, or
+    post fresh if none exists."""
+    text = text if text is not None else RULES_TEXT
+    if len(text) > 1990:
+        # common.post_message would silently truncate mid-sentence; fail loudly so the
+        # message is fixed rather than shipped with the links chopped off.
+        raise SystemExit("ERROR: the welcome+rules message is %d chars (limit 1990). "
+                         "Trim it or move it into an embed." % len(text))
     bot_id = me_id()
     code, msgs = common.discord("GET", "/channels/%s/messages?limit=50" % rules_ch)
     bot_msgs = [m for m in (msgs if isinstance(msgs, list) else [])
                 if (m.get("author") or {}).get("id") == bot_id]
     if bot_msgs:
         keep = bot_msgs[0]                       # API returns newest first
-        if keep.get("content") != RULES_TEXT:
+        if keep.get("content") != text:
             common.discord("PATCH", "/channels/%s/messages/%s" % (rules_ch, keep["id"]),
-                           {"content": RULES_TEXT})
-            print("  rules: edited the existing message in place")
+                           {"content": text})
+            print("  welcome+rules: edited the existing message in place")
         else:
-            print("  rules: already current (no change)")
+            print("  welcome+rules: already current (no change)")
         dupes = 0
-        for m in bot_msgs[1:]:                    # remove leftover duplicate rule posts
+        for m in bot_msgs[1:]:                    # remove leftovers from earlier deploys
             c, _ = common.discord("DELETE", "/channels/%s/messages/%s" % (rules_ch, m["id"]))
             if c in (200, 204):
                 dupes += 1
         if dupes:
-            print("  rules: removed %d duplicate rule post(s)" % dupes)
+            print("  welcome+rules: removed %d duplicate post(s)" % dupes)
     else:
-        code, _ = common.post_message(rules_ch, RULES_TEXT)
-        print("  rules: posted fresh ruleset (HTTP %s)" % code)
+        code, _ = common.post_message(rules_ch, text)
+        print("  welcome+rules: posted fresh (HTTP %s)" % code)
 
 
 # ---- AutoMod actions -------------------------------------------------------
@@ -263,7 +306,8 @@ def main():
     guild = cfg["guild_id"]
     ch = cfg.get("channels", {})
     roles = cfg.get("roles", {})
-    rules_ch = ch.get("rules")
+    # 'welcome' and 'rules' are the same channel now (the merged message lives there).
+    rules_ch = ch.get("welcome") or ch.get("rules")
     mod_log = ch.get("mod_log")
     exempt_roles = [roles[k] for k in ("owner", "admin", "mod") if roles.get(k)]
 
@@ -271,13 +315,19 @@ def main():
     modcfg = load_or_seed_modconfig(cfg)
 
     if rules_ch:
-        reset_rules(rules_ch)
+        reset_rules(rules_ch, welcome_text(cfg))
     else:
-        print("  ! no rules channel in config - skipped rules post")
+        print("  ! no welcome channel in config - skipped the welcome+rules post")
 
     all_ids = all_text_channels(guild)
     if not all_ids:
-        print("  ! couldn't list channels - AutoMod rules will apply guild-wide (no per-channel scoping)")
+        # Every exempt list is computed as "all channels MINUS the ones that opt out",
+        # so an empty channel list silently makes every AutoMod rule apply guild-wide
+        # with zero exemptions - including in channels the owner set to anything-goes.
+        # Blanket-moderating the server is worse than not deploying; stop here.
+        raise SystemExit("ERROR: could not list the guild's channels. Refusing to write "
+                         "AutoMod rules with no per-channel scoping (they would apply "
+                         "guild-wide). Re-run the deploy.")
     rules = build_rules(modcfg, all_ids, mod_log, exempt_roles)
     sync_rules(guild, rules)
     print("DONE. Per-channel AutoMod active (%d rules over %d channels); rules posted."
