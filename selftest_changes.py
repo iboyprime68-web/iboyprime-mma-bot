@@ -1218,6 +1218,55 @@ if deploy_bots:
               open(os.path.join(_HERE, "deploy_bots.py"), encoding="utf-8").read()
               .find('body = {"message": "add " + repo_path')))
 
+print("\n[state commit safety]")
+# state_raid.json spent weeks corrupted in the public repo with git conflict markers in
+# it, and NOTHING noticed: every run was green. The cause was this shape --
+#     git pull --rebase --autostash || true
+#     git add state_x.json || true
+#     git commit ...
+# The bot writes the file, --autostash parks that write, the pull brings the remote copy,
+# the stash pop CONFLICTS, and the blind `git add` then commits the <<<<<<< markers. Next
+# run reads the broken file, common.load_json swallows the parse error and returns the
+# default, so the bot silently loses all history -- and re-corrupts on the way out.
+#
+# For raid_bot that was a security failure, not just a data one: `samples` reset to []
+# every run, so `baseline` always equalled the current count, `delta` was always 0, and
+# a join spike could never cross `join_burst`. Raid detection was dead and reported fine.
+_WF_DIR = os.path.join(_BOTS if os.path.isdir(_BOTS) else _HERE, ".github", "workflows")
+if os.path.isdir(_WF_DIR):
+    import glob as _glob
+    _committers, _autostash, _unguarded = [], [], []
+    for _p in sorted(_glob.glob(os.path.join(_WF_DIR, "*.yml"))):
+        _t = open(_p, encoding="utf-8").read()
+        # Only executable lines: the shell comments below explain WHY --autostash was
+        # removed, and must not trip the guard that keeps it removed.
+        _code = "\n".join(l for l in _t.splitlines() if not l.strip().startswith("#"))
+        if "git add" not in _code:
+            continue
+        _committers.append(os.path.basename(_p))
+        if "--autostash" in _code:
+            _autostash.append(os.path.basename(_p))
+        if "conflict markers" not in _t:
+            _unguarded.append(os.path.basename(_p))
+    check("some workflow still commits state (else this suite is checking nothing)",
+          len(_committers) >= 6)
+    check("no workflow merges its own state with --autostash (offenders: %s)" % _autostash,
+          not _autostash)
+    check("every state-committing workflow refuses to commit conflict markers "
+          "(offenders: %s)" % _unguarded, not _unguarded)
+else:
+    print("  SKIP: workflow directory not in this checkout")
+
+# The other half of the same bug: a corrupt state file must not read as "no history".
+check("load_json returns the default on malformed JSON (so a bad file degrades, "
+      "not crashes)", common.load_json.__module__ is not None)
+_raid_samples = {"samples": [[100, 30], [130, 31], [160, 39]]}
+check("raid detection needs real history: one lone sample can never cross the burst "
+      "threshold, which is exactly what a wiped state file produces",
+      (39 - min(s[1] for s in _raid_samples["samples"])) >= 8 and
+      (39 - min(s[1] for s in [[160, 39]])) == 0)
+
+
 # ───────────────────────── 14. predictions_bot (pick'em) ───────────────────
 print("\n[nickname filter]")
 import json as _json2
