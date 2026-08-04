@@ -393,57 +393,214 @@ check("required_config_keys covers what the surviving bots read",
 
 
 # ───────── 6b. access & visibility (the bug this restructure exists to fix) ─────
+print("\n[welcome config]")
+# welcomeconfig.py is the owner-editable source of the welcome message AND the one
+# social-link list. These are the pure pieces: everything the panel previews and
+# everything mod_setup posts goes through them.
+import welcomeconfig as _wcu
+
+_wd = _wcu.base_defaults()
+check("defaults carry the ten rules and five links",
+      len(_wd["rules"]) == 10 and len(_wd["links"]) == 5)
+check("the reported TikTok URL is fixed and Instagram is present",
+      {"https://www.tiktok.com/@iboyprime_official",
+       "https://www.instagram.com/iboyprime_official/"} <= {l["url"] for l in _wd["links"]})
+
+check("render_rule bolds the first sentence",
+      _wcu.render_rule(5, "Be honest. No lying.") == "**5. Be honest.** No lying.\n")
+check("render_rule bolds a one-sentence rule whole (how rule 10 already reads)",
+      _wcu.render_rule(10, "Keep it legal and do what staff ask.")
+      == "**10. Keep it legal and do what staff ask.**\n")
+check("render_rule ignores a blank line", _wcu.render_rule(1, "   ") == "")
+
+check("discord_len counts UTF-16 units, not code points (emoji are 2 to Discord)",
+      _wcu.discord_len("ab") == 2 and _wcu.discord_len("🥊") == 2 and len("🥊") == 1)
+
+check("render_tokens substitutes without %-formatting (owner text may contain % or {)",
+      _wcu.render_tokens("100% {general} {nope}", {"general": "<#7>"}) == "100% <#7> {nope}")
+
+_wr = _wcu.render(_wd, {"server": "S", "general": "G", "tickets": "T"}, invite_url="https://x.gg/a")
+check("render emits the structure the owner cannot break",
+      _wr.startswith("# Welcome to S") and _wcu.RULES_HEADING in _wr and
+      _wcu.LINKS_HEADING in _wr and "**1." in _wr and "**10." in _wr)
+check("render wraps every link in <> so Discord does not unfurl five embeds",
+      "<https://twitch.tv/iboyprime>" in _wr)
+check("render appends the invite only when there is one",
+      "Invite a friend: <https://x.gg/a>" in _wr and
+      "Invite a friend" not in _wcu.render(_wd, {"server": "S"}))
+
+_wnolinks = dict(_wd, links=[])
+check("an empty links list takes its own heading with it (no bare '## Links')",
+      _wcu.LINKS_HEADING not in _wcu.render(_wnolinks, {"server": "S"}))
+check("clean_links drops an http:// or label-less entry",
+      _wcu.clean_links({"links": [{"label": "A", "url": "http://a"},
+                                  {"label": "", "url": "https://b"},
+                                  {"label": "C", "url": "https://c"}]})
+      == [{"label": "C", "url": "https://c"}])
+
+check("ensure_required_rules puts the gambling rule back when it is deleted",
+      any("gambling" in r.lower() for r in
+          _wcu.ensure_required_rules({"rules": ["Be nice."]})["rules"]))
+check("ensure_required_rules leaves a config that already has it alone",
+      len(_wcu.ensure_required_rules(dict(_wd, rules=list(_wd["rules"])))["rules"]) == 10)
+
+# load() must MERGE, never re-seed: a saved file with fewer links has to win, or the
+# owner's deletion would silently come back on the next deploy (the dict-vs-list trap).
+# common.load_json is the STORE mock here, keyed by basename.
+STORE["_welcome_selftest.json"] = {"links": [{"label": "Only", "url": "https://only.example"}],
+                                   "intro": "Mine."}
+_wloaded = _wcu.load("_welcome_selftest.json")
+check("load(): the owner's shorter links list wins wholesale (deleting one sticks)",
+      [l["label"] for l in _wloaded["links"]] == ["Only"])
+check("load(): keys the owner never touched keep their defaults",
+      _wloaded["rules_lead"] == _wcu.DEFAULT_RULES_LEAD and _wloaded["intro"] == "Mine.")
+check("load(): a missing file degrades to pure defaults, never an error",
+      _wcu.load("_welcome_absent.json")["rules"] == _wcu.DEFAULT_RULES)
+
+check("validate passes the shipped defaults", _wcu.validate_welcomeconfig(_wd, []) == [])
+check("validate blocks an over-long message",
+      any("1990" in e for e in _wcu.validate_welcomeconfig(dict(_wd, intro="x" * 2100), [])))
+check("validate blocks an http:// link",
+      any("https://" in e for e in _wcu.validate_welcomeconfig(
+          dict(_wd, links=[{"label": "X", "url": "http://x.com"}]), [])))
+check("validate blocks a URL with a space (it would break out of the <> wrapper)",
+      any("spaces" in e for e in _wcu.validate_welcomeconfig(
+          dict(_wd, links=[{"label": "X", "url": "https://x.com/a b"}]), [])))
+check("validate blocks @everyone",
+      any("@everyone" in e for e in _wcu.validate_welcomeconfig(dict(_wd, intro="hi @everyone"), [])))
+check("validate blocks an unknown {placeholder} so no literal {foo} ever ships",
+      any("{foo}" in e for e in _wcu.validate_welcomeconfig(dict(_wd, intro="hi {foo}"), [])))
+check("validate blocks a leaked config.txt secret",
+      any("SECRET" in e for e in _wcu.validate_welcomeconfig(
+          dict(_wd, intro="tok SuperSecretValue12345"), ["SuperSecretValue12345"])))
+check("validate blocks emptying the rules out",
+      any("no rules" in e for e in _wcu.validate_welcomeconfig(dict(_wd, rules=[]), [])))
+
+# The whole point of the split: style is advice, never a blocker.
+check("prose_warnings flags an em dash", _wcu.prose_warnings("a — b"))
+check("prose_warnings flags an exclamation mark, unless allowed",
+      _wcu.prose_warnings("Hi!") and not _wcu.prose_warnings("Hi!", allow_exclamations=True))
+check("a style issue is NOT a blocking problem (the owner's words are his own)",
+      _wcu.validate_welcomeconfig(dict(_wd, intro="Welcome! It is truly — great."), []) == [])
+
+
+# ───────── 6b. writing rules ────────────────────────────────────────────────
 print("\n[writing rules]")
 # Every string a member can see is written against the no-ai-slop rules
 # (github.com/realrossmanngroup/no_ai_slop_writing_rules). Rule 1 bans the em dash
 # outright; the rest of the list bans copywriter filler and AI tells. Prose drifts
 # back the moment nobody is checking, so this suite checks.
+#
+# ONE IMPORTANT SPLIT. The welcome message's words now live in welcomeconfig.json and
+# belong to the OWNER (MOD_PANEL.bat -> 👋 Welcome). Linting HIS prose here would turn
+# CI red - and email him - the first time he writes "Welcome!". These rules exist to
+# keep the DEVELOPER's writing honest, so:
+#   * the strict lint below runs on our built-in DEFAULTS and our other strings;
+#   * the live/merged text gets STRUCTURAL checks only (further down), the ones that
+#     decide whether the message actually works;
+#   * his style issues are printed as a note, never checked. The panel shows him the
+#     same notes while he types.
 import mod_setup as _ms
 import commands_guide as _cg
+import welcomeconfig as _wc
 
-_WELCOME = _ms.RULES_TEXT
+_DEFAULT_WELCOME = _wc.render(_wc.base_defaults(),
+                              {"server": layout.SERVER_NAME, "general": "the chat",
+                               "tickets": "the tickets channel"})
 _MENU = _cg.GUIDE
 _TOPICS = " ".join(layout.topics().values())
 os.environ.setdefault("DISCORD_BOT_TOKEN", "test-token")   # bots_setup exits without one
 import bots_setup as _bs2
 _DESCS = _bs2.GUILD_DESCRIPTION + " " + _bs2.WELCOME_DESCRIPTION
 
-_PROSE = {"welcome+rules": _WELCOME, "commands menu": _MENU, "channel topics": _TOPICS}
+# label -> (text, exclamation marks allowed?). Topics and descriptions were always
+# exempt from the "!" rule; keep that.
+_PROSE = {"welcome+rules (built-in defaults)": (_DEFAULT_WELCOME, False),
+          "commands menu": (_MENU, False),
+          "channel topics": (_TOPICS, True)}
 if _DESCS:
-    _PROSE["guild + welcome-screen description"] = _DESCS
+    _PROSE["guild + welcome-screen description"] = (_DESCS, True)
 
-for _label, _text in _PROSE.items():
-    check("%s: no em dash (rule 1)" % _label, "—" not in _text)
+for _label, (_text, _bang_ok) in _PROSE.items():
+    _notes = _wc.prose_warnings(_text, allow_exclamations=_bang_ok)
+    check("%s: follows the no-ai-slop rules (offenders: %s)" % (_label, _notes[:3]),
+          not _notes)
 
-_BANNED_WORDS = ("delve", "leverage", "utilize", "utilise", "facilitate", "foster",
-                 "bolster", "underscore", "unveil", "streamline", "seamless", "robust",
-                 "comprehensive", "cutting-edge", "groundbreaking", "pivotal",
-                 "transformative", "myriad", "plethora", "paramount", "prior to",
-                 "subsequent to", "in terms of", "the fact that")
-_BANNED_PHRASES = ("in today's", "it's important to note", "when it comes to",
-                   "at the end of the day", "in the realm of", "it goes without saying",
-                   "look no further", "that being said", "furthermore", "moreover",
-                   "in essence", "at its core", "to put it simply", "whether you're",
-                   "dive in", "let's delve")
-_INTENSIFIERS = ("extremely", "dramatically", "incredibly", "remarkably", "truly",
-                 "absolutely", "literally", "significantly", "undoubtedly")
+check("the built-in welcome defaults fit one Discord message (developer guard)",
+      _wc.discord_len(_DEFAULT_WELCOME) <= _wc.MAX_LEN)
 
-for _label, _text in _PROSE.items():
-    _low = _text.lower()
-    _hits = [w for w in _BANNED_WORDS + _BANNED_PHRASES + _INTENSIFIERS if w in _low]
-    check("%s: no banned words or filler phrases (offenders: %s)" % (_label, _hits[:3]),
-          not _hits)
+# ---- structural checks on the LIVE (defaults + owner's file) message ----------
+# Wording-independent on purpose: every one of these is about whether the message
+# WORKS, not about how it reads. A red here is legitimate - it means the shipped
+# message would post wrong - and the panel blocks all of it before a save, so this
+# only fires if welcomeconfig.json was hand-edited.
+#
+# Read the real file, not welcomeconfig.load(): common.load_json is the STORE mock by
+# this point in the suite, so load() would quietly hand back pure defaults and these
+# checks would never see the owner's actual words.
+import json as _wjson
+_WCFG_PATH = os.path.join(_BOTS if os.path.isdir(_BOTS) else _HERE, "welcomeconfig.json")
+_owner_file = None
+if os.path.exists(_WCFG_PATH):
+    try:
+        _owner_file = _wjson.load(open(_WCFG_PATH, encoding="utf-8"))
+    except Exception as _e:
+        _owner_file = None
+        check("welcomeconfig.json is valid JSON (%s)" % _e, False)
+_LIVE_CFG = _wc.ensure_required_rules(
+    _wc.deep_merge(_wc.base_defaults(), _owner_file if isinstance(_owner_file, dict) else {}))
+_WELCOME = _wc.render(_LIVE_CFG, {"server": layout.SERVER_NAME, "general": "the chat",
+                                  "tickets": "the tickets channel"})
+_LIVE_RULES = [r for r in (_LIVE_CFG.get("rules") or []) if str(r).strip()]
 
-check("welcome+rules: no exclamation marks (rule 14, no synthetic enthusiasm)",
-      "!" not in _WELCOME)
-check("commands menu: no exclamation marks", "!" not in _MENU)
-check("welcome+rules still fits one Discord message", len(_WELCOME) <= 1990)
-check("welcome+rules keeps all ten rules",
-      all(("**%d." % n) in _WELCOME for n in range(1, 11)))
-check("the gambling rule survives (owner's hard rule)",
-      "gambling" in _WELCOME.lower() and "betting" in _WELCOME.lower())
-check("headings name their content instead of teasing it (rule 16)",
-      "## Rules" in _WELCOME and "## Links" in _WELCOME)
+check("mod_setup renders the posted message from welcomeconfig (one source of truth)",
+      isinstance(_ms.RULES_TEXT, str) and _ms.RULES_TEXT.startswith("# Welcome to "))
+
+check("welcome+rules (live) fits one Discord message",
+      _wc.discord_len(_WELCOME) <= _wc.MAX_LEN)
+check("welcome+rules (live) is not empty", _wc.discord_len(_WELCOME) >= _wc.MIN_LEN)
+check("welcome+rules (live) keeps the server-name heading",
+      _WELCOME.startswith("# Welcome to "))
+check("welcome+rules (live) keeps the Rules heading and at least five rules",
+      _wc.RULES_HEADING in _WELCOME and len(_LIVE_RULES) >= 5)
+check("rule numbering runs 1..N with no gap and no N+1 (the renderer owns it)",
+      all(("**%d." % n) in _WELCOME for n in range(1, len(_LIVE_RULES) + 1)) and
+      ("**%d." % (len(_LIVE_RULES) + 1)) not in _WELCOME)
+check("the gambling rule survives (owner's hard rule, re-inserted by load())",
+      any("gambling" in r.lower() and "betting" in r.lower() for r in _LIVE_RULES))
+check("the Links heading appears exactly when there are links (no empty section)",
+      (_wc.LINKS_HEADING in _WELCOME) == bool(_wc.clean_links(_LIVE_CFG)))
+check("every link is https and <>-wrapped (no unfurl storm, no http)",
+      all(("<%s>" % l["url"]) in _WELCOME and l["url"].startswith("https://")
+          for l in _wc.clean_links(_LIVE_CFG)))
+check("the live welcome text carries no mass ping",
+      "@everyone" not in _WELCOME and "@here" not in _WELCOME)
+check("the live welcome config passes the panel's own validator",
+      _wc.validate_welcomeconfig(_LIVE_CFG, []) == [])
+
+# A NOTE, never a failure: check() increments FAIL and the suite exits 1, which would
+# email the owner about his own writing on every push.
+_owner_notes = _wc.prose_warnings(_WELCOME)
+if _owner_notes:
+    print("  note: the owner's welcome text has style notes (not a failure):",
+          "; ".join(_owner_notes[:5]))
+
+# ---- anti-drift: the social links must exist in exactly ONE place -------------
+# The bug this whole change came from: the link list was hard-coded in mod_setup.py
+# AND in worker.js, and both carried a wrong TikTok URL. worker.js keeps a fallback
+# copy for when it cannot reach the repo; that copy must match the Python defaults.
+_WJS_PATH = os.path.join(_HERE, "commands_worker", "worker.js")
+if os.path.exists(_WJS_PATH):
+    import re as _re
+    _wjs = open(_WJS_PATH, encoding="utf-8").read()
+    _blk = _re.search(r"const SOCIALS_FALLBACK\s*=\s*\[(.*?)\];", _wjs, _re.S)
+    _js_urls = set(_re.findall(r'url:\s*"([^"]+)"', _blk.group(1))) if _blk else set()
+    check("the Worker's /links fallback matches welcomeconfig.DEFAULT_LINKS exactly",
+          bool(_blk) and _js_urls == {l["url"] for l in _wc.DEFAULT_LINKS})
+    check("no stale social URL survives anywhere in the Worker",
+          'tiktok.com/@iboyprime"' not in _wjs)
+else:
+    print("  SKIP: commands_worker/worker.js not in this checkout")
 
 
 # ─────────────── 6b. access & visibility (the bug this restructure exists to fix) ─────
@@ -880,6 +1037,41 @@ if mod_panel:
           _out["sources"]["mma_mania"]["enabled"] is True and _newscfg["mode"] == "hybrid")
     check("news tab result validates clean", newsconfig.validate_newsconfig(_out) == [])
 
+    # Welcome tab pure helpers
+    _wform = {"intro": "Hi {general}\n", "rules_lead": "  Lead line  ",
+              "rules": " Be nice. Or else. \n\n  Second rule here. \n",
+              "outro": "Bye {tickets}",
+              "links": "YouTube = https://youtube.com/@x\njunk line with no equals\n"
+                       "  Bad = http://insecure.example  \n\n"}
+    _wo = mod_panel.collect_welcome(_wcu.base_defaults(), _wform)
+    check("welcome tab: rules split per line, blanks and padding stripped",
+          _wo["rules"][:2] == ["Be nice. Or else.", "Second rule here."])
+    check("welcome tab: link lines parsed, junk lines dropped, order kept",
+          [(l["label"], l["url"]) for l in _wo["links"]]
+          == [("YouTube", "https://youtube.com/@x"), ("Bad", "http://insecure.example")])
+    check("welcome tab: the gambling rule comes back if the owner deletes it",
+          any("gambling" in r.lower() and "betting" in r.lower() for r in _wo["rules"]))
+    check("welcome tab: a bad address is REPORTED, not silently dropped",
+          any("https://" in e for e in _wcu.validate_welcomeconfig(_wo, [])))
+    check("welcome tab: text fields trimmed and carried through",
+          _wo["intro"] == "Hi {general}" and _wo["rules_lead"] == "Lead line")
+    check("welcome tab: keys the tab does not own survive the merge",
+          _wo["invite_label"] == _wcu.DEFAULT_INVITE_LABEL and "_note" in _wo)
+    check("welcome tab: an over-long message is blocked before saving",
+          any("1990" in e for e in _wcu.validate_welcomeconfig(
+              mod_panel.collect_welcome(_wcu.base_defaults(),
+                                        dict(_wform, intro="x" * 2100)), [])))
+    check("welcome tab: parse_link_lines keeps an '=' inside the address",
+          mod_panel.parse_link_lines("Q = https://x.com/a?b=c")
+          == [{"label": "Q", "url": "https://x.com/a?b=c"}])
+    # The counter must measure the REAL <#id> chips. Measuring "#general" instead
+    # under-reports by ~26 chars and would let the owner sail past Discord's limit.
+    _wtok = mod_panel.welcome_tokens({"channels": {"general": "1" * 19, "tickets": "2" * 19}})
+    check("welcome tab: the counter renders real <#id> chips, not pretty names",
+          _wtok["general"] == "<#%s>" % ("1" * 19) and _wtok["server"] == layout.SERVER_NAME)
+    check("welcome tab: a missing channel degrades to plain text, not a dead #0 chip",
+          mod_panel.welcome_tokens({})["general"] == "the chat")
+
     # nickname-filter form helper
     _mp = mod_panel.collect_member_profile(True, "SlurOne*\n  slurtwo \n\n")
     check("nickname helper normalizes + lowercases words",
@@ -908,6 +1100,18 @@ if deploy_bots:
           not any("mod_panel" in r for r, _ in deploy_bots.UPLOADS))
     newsclean = _json.dumps(newsconfig.base_defaults()).encode()
     check("newsconfig defaults pass the pre-upload secret scanner", deploy_bots.scan_for_secrets(newsclean, []) is None)
+    welcomeclean = _json.dumps(_wc.base_defaults()).encode()
+    check("welcomeconfig defaults pass the pre-upload secret scanner",
+          deploy_bots.scan_for_secrets(welcomeclean, []) is None)
+    check("welcomeconfig.py + welcomeconfig.json are in the upload set",
+          ("welcomeconfig.py", "welcomeconfig.py") in deploy_bots.UPLOADS and
+          ("welcomeconfig.json", "welcomeconfig.json") in deploy_bots.UPLOADS)
+    # CI runs selftest_changes.py, which imports mod_setup, which imports welcomeconfig.
+    # If welcomeconfig.py lands AFTER mod_setup.py (or not at all), a push mid-deploy
+    # hits ModuleNotFoundError and emails the owner a failed run.
+    _up = [r for r, _ in deploy_bots.UPLOADS]
+    check("welcomeconfig.py uploads BEFORE mod_setup.py (mod_setup imports it)",
+          _up.index("welcomeconfig.py") < _up.index("mod_setup.py"))
     check("newsconfig + the layout module are in the upload set",
           ("newsconfig.py", "newsconfig.py") in deploy_bots.UPLOADS and
           ("newsconfig.json", "newsconfig.json") in deploy_bots.UPLOADS and
