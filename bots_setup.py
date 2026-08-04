@@ -426,6 +426,49 @@ def ensure_invite(general_id, me_id):
     return ""
 
 
+def check_member_role_rank(roles_by_name):
+    """A bot can only hand out roles BELOW its own. Discord ranks roles by position and
+    breaks ties by id, and every role in this guild sits at position 1, so the freshly
+    created 🤝 Member role (newest id) lands ABOVE the bot's managed role. member_bot
+    would then 403 on every grant.
+
+    Try to push Member to the bottom. A bot cannot reorder roles that outrank it, so
+    this fails until the owner raises the bot's role once; say exactly that instead of
+    letting the role quietly never be handed out."""
+    mid = roles_by_name.get(layout.MEMBER_ROLE)
+    if not mid:
+        return
+    code, roles = api("GET", "/guilds/%s/roles" % GUILD_ID)
+    if code != 200 or not isinstance(roles, list):
+        return
+    rank = sorted(roles, key=lambda r: (r.get("position", 0), int(r["id"])))
+    bot_role = next((r for r in roles if r.get("managed")), None)
+    member = next((r for r in roles if str(r["id"]) == str(mid)), None)
+    if not bot_role or not member:
+        return
+    if rank.index(bot_role) > rank.index(member):
+        print("  role order: OK (the bot outranks %s)" % layout.MEMBER_ROLE)
+        return
+
+    others = [(n, i + 2) for i, (n, _c, _h, _m) in enumerate(reversed(layout.ROLES_KEEP))
+              if n in roles_by_name and n != layout.MEMBER_ROLE]
+    body = [{"id": str(mid), "position": 1}]
+    body += [{"id": str(roles_by_name[n]), "position": p} for n, p in others]
+    try:
+        code, _ = api("PATCH", "/guilds/%s/roles" % GUILD_ID, body)
+    except RuntimeError:
+        code = 403          # expected while the bot's role is not above Member
+    if code in (200, 204):
+        note("moved %s to the bottom of the role list" % layout.MEMBER_ROLE)
+        return
+    print("  !! ACTION NEEDED: '%s' currently sits ABOVE the bot's own role, so the bot"
+          % layout.MEMBER_ROLE)
+    print("     cannot hand it out and member_bot will log a 403 on every grant.")
+    print("     Fix once in Discord: Server Settings -> Roles -> drag '%s' (the bot's"
+          % (bot_role.get("name") or "the bot role"))
+    print("     role) to the TOP of the list. The next deploy tidies the rest.")
+
+
 # ---------------------------------------------------------------------------
 def main():
     layout.validate()
@@ -495,6 +538,8 @@ def main():
                 roles_by_name[name] = r["id"]
                 note("created role: %s (hoisted, no extra permissions)" % name)
                 pause(0.3)
+
+    check_member_role_rank(roles_by_name)
 
     out_roles = {}
     for key, name in layout.ROLE_KEYS.items():
