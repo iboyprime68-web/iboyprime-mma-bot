@@ -794,10 +794,17 @@ check("allow lets everything through",
 
 base = common.now_utc()
 def iso(off): return (base + common.datetime.timedelta(seconds=off)).strftime("%Y-%m-%dT%H:%M:%S+00:00")
+# NOTE: no "member" key. GET /channels/{id}/messages does not return one - that field
+# only exists on gateway MESSAGE_CREATE/UPDATE events. The old mock DID include it,
+# which is why the staff exemption looked tested while being dead code in production.
+# Roles now come from MEMBER_ROLES below, served by the mocked members endpoint.
+MEMBER_ROLES = {"U1": [], "U2": [], "U3": [], "U4": [], "STAFF": ["O"]}
 def M(mid, uid, content, off, roles=None, atts=None, bot=False):
+    if roles:
+        MEMBER_ROLES[uid] = roles
     return {"id": mid, "content": content, "timestamp": iso(off),
             "author": {"id": uid, "username": "u" + uid, "bot": bot},
-            "member": {"roles": roles or []}, "attachments": atts or []}
+            "attachments": atts or []}
 
 MSGS = [
     M("f1", "U1", "go", 0), M("f2", "U1", "go go", 1), M("f3", "U1", "go go go", 2),   # flood (3 in <=30s)
@@ -814,9 +821,14 @@ STORE["modconfig.json"] = {"channels": {"CH": {"profile": "sfw_strict", "media_p
 common.load_config = lambda: {"guild_id": "G", "channels": {"mod_log": "LOG"},
                               "roles": {"owner": "O", "admin": "A", "mod": "M"}, "patrol_channels": ["CH"]}
 _md_real = common.discord
+_member_lookups = []
 def md_discord(method, path, body=None):
     if method == "GET" and "/messages" in path:
         return 200, MSGS
+    if method == "GET" and "/members/" in path:
+        uid = path.rsplit("/", 1)[-1]
+        _member_lookups.append(uid)
+        return 200, {"roles": MEMBER_ROLES.get(uid, [])}
     return 204, {}            # bulk-delete / single delete / timeout all succeed
 common.discord = md_discord
 mod_bot.main()
@@ -829,8 +841,64 @@ check("duplicate spam caught (U3)", "<@U3>" in logtext and "repeat spam" in logt
 check("link deleted under no_links policy (U2)", "<@U2>" in logtext and "link not allowed here" in logtext)
 check("staff message skipped (no STAFF action)", "<@STAFF>" not in logtext)
 check("clean user untouched (no U4 action)", "<@U4>" not in logtext)
+# The exemption must come from the members API, not from a field REST never sends.
+check("staff exemption is resolved via GET /guilds/{id}/members/{uid}",
+      "STAFF" in _member_lookups)
+check("only users who tripped a threshold cost a member lookup (not all 80 messages)",
+      set(_member_lookups) <= {"U1", "U2", "U3", "STAFF"} and "U4" not in _member_lookups)
+check("each offender is looked up once per cycle (role cache)",
+      len(_member_lookups) == len(set(_member_lookups)))
+
+# Fail CLOSED: if the member lookup breaks, do not action the user. The bug being fixed
+# is the patrol punishing staff; a transient API error must not bring it back.
+_mb._ROLE_CACHE.clear()
+_fail_real = common.discord
+common.discord = lambda m, p, b=None: (500, {})
+check("an unreadable member lookup exempts (fail closed, never punish on an API blip)",
+      _mb.is_exempt("G", "U9", {"O"}) is True)
+common.discord = _fail_real
+_mb._ROLE_CACHE.clear()
+
+_mb_src = open(os.path.join(_BOTS if os.path.isdir(_BOTS) else _HERE, "mod_bot.py"),
+               encoding="utf-8").read()
+_act_print = _mb_src.split("actions += 1")[1][:400]
+check("the patrol never prints a username or user id (public repo = public Actions logs)",
+      'info["name"]' not in _act_print and '", uid,' not in _act_print)
 check("state persisted after acting", PERSISTS == ["state_mod.json"])
-check("acted message ids recorded as seen", set(STORE["state_mod.json"]["seen"]) >= {"f1", "d1", "l1"})
+check("acted message ids recorded as seen (pseudonymously)",
+      set(STORE["state_mod.json"]["seen"]) >= {_mb.hkey(i) for i in ("f1", "d1", "l1")})
+
+# state_mod.json is committed to the PUBLIC repo. It must not name anybody: a raw user
+# id resolves to a live account, and the warning count says how close that person is to
+# a timeout. git history is permanent, so this has to be right BEFORE anyone is warned.
+import re as _re_mod
+_saved_mod = STORE["state_mod.json"]
+_HEX16 = _re_mod.compile(r"^[0-9a-f]{16}$")
+_SNOW = _re_mod.compile(r"^\d{15,20}$")
+check("the published ledger is keyed by pseudonym, never a raw user id",
+      _saved_mod["users"] and all(_HEX16.match(k) for k in _saved_mod["users"]))
+check("no raw Discord id survives anywhere in the published state",
+      not any(_SNOW.match(str(x)) for x in
+              list(_saved_mod["users"]) + list(_saved_mod["seen"])))
+check("the ledger records a version so a v1 file is dropped, not merged",
+      _saved_mod.get("v") == _mb.STATE_V)
+check("hkey is a salted 16-hex digest (worker.js uidKey must match byte for byte)",
+      _HEX16.match(_mb.hkey("42")) and
+      _mb.hkey("42") == __import__("hashlib").sha256(
+          (common.token() + ":42").encode()).hexdigest()[:16])
+check("the same id always maps to the same key (counts still accumulate)",
+      _mb.hkey("42") == _mb.hkey("42") and _mb.hkey("42") != _mb.hkey("43"))
+
+# A v1 (raw-id) file must be discarded, not carried forward into the public repo.
+STORE["state_mod.json"] = {"users": {"1515436353091801199": {"warns": 2}},
+                           "seen": ["1515436353091801100"]}
+POSTS.clear(); PERSISTS.clear()
+common.discord = md_discord
+_mb.poll_once()
+common.discord = _md_real
+check("a legacy v1 ledger with raw ids is dropped on first run, never re-published",
+      not any(_SNOW.match(str(x)) for x in
+              list(STORE["state_mod.json"]["users"]) + list(STORE["state_mod.json"]["seen"])))
 
 # ───────────────────────── 10. image_scan ──────────────────────────────────
 print("\n[image_scan]")
@@ -1100,6 +1168,36 @@ if deploy_bots:
           not any("mod_panel" in r for r, _ in deploy_bots.UPLOADS))
     newsclean = _json.dumps(newsconfig.base_defaults()).encode()
     check("newsconfig defaults pass the pre-upload secret scanner", deploy_bots.scan_for_secrets(newsclean, []) is None)
+    # The scanner used to check only the keys named in OPTIONAL_SECRETS, so
+    # CLOUDFLARE_API_TOKEN (which matches no credential regex either) could have been
+    # uploaded to the public repo with the deploy printing "ok:". It is a denylist now.
+    check("the secret scanner treats unknown config keys as SECRET by default",
+          "CLOUDFLARE_API_TOKEN" not in deploy_bots.PUBLIC_KEYS and
+          "TWITCH_USER_TOKEN" not in deploy_bots.PUBLIC_KEYS and
+          "GITHUB_TOKEN" not in deploy_bots.PUBLIC_KEYS)
+    check("only genuinely public values are exempt from the scanner",
+          deploy_bots.PUBLIC_KEYS <= {"GUILD_ID", "REPO_NAME", "TWITCH_LOGIN", "KICK_SLUG",
+                                      "YOUTUBE_HANDLE", "TIKTOK_HANDLE", "YOUTUBE_CHANNEL_ID"})
+    check("a Cloudflare-shaped token in a file is now caught",
+          deploy_bots.scan_for_secrets(b'{"x":"aBcD1234-EFgh5678_ijKL9012mnOP3456qrST"}',
+                                       ["aBcD1234-EFgh5678_ijKL9012mnOP3456qrST"]) is not None)
+    check("the public YouTube handle does NOT trip the scanner (it ships in welcomeconfig)",
+          deploy_bots.scan_for_secrets(
+              _json.dumps(_wc.base_defaults()).encode(), ["iboyprime"]) is None)
+    # image_scan.yml runs every 5 min holding DISCORD_BOT_TOKEN + a repo-write token.
+    _req = os.path.join(_BOTS if os.path.isdir(_BOTS) else _HERE, "requirements-scan.txt")
+    _iscan = os.path.join(_BOTS if os.path.isdir(_BOTS) else _HERE,
+                          ".github", "workflows", "image_scan.yml")
+    if os.path.exists(_req) and os.path.exists(_iscan):
+        _reqs = [l.strip() for l in open(_req, encoding="utf-8")
+                 if l.strip() and not l.startswith("#")]
+        check("every image-scan dependency is pinned to an exact version",
+              _reqs and all("==" in l for l in _reqs))
+        check("image_scan installs from the pinned file, never a bare package name",
+              "-r requirements-scan.txt" in open(_iscan, encoding="utf-8").read())
+    check("the pinned requirements file is uploaded (the workflow installs from it)",
+          ("requirements-scan.txt", "requirements-scan.txt") in deploy_bots.UPLOADS)
+
     welcomeclean = _json.dumps(_wc.base_defaults()).encode()
     check("welcomeconfig defaults pass the pre-upload secret scanner",
           deploy_bots.scan_for_secrets(welcomeclean, []) is None)
