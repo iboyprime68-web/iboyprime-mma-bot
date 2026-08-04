@@ -1267,6 +1267,38 @@ check("raid detection needs real history: one lone sample can never cross the bu
       (39 - min(s[1] for s in [[160, 39]])) == 0)
 
 
+print("\n[mention safety]")
+# post_message has always defaulted to NO_PINGS, but a RAW PATCH does not - it inherits
+# Discord's permissive default. Edits do not push-notify, yet a role or @everyone
+# mention introduced by an edit still renders as a live highlight. Now that the welcome
+# text is owner-editable, the edit paths are the ones that could turn a typo into a
+# server-wide ping, so every one of them sets allowed_mentions explicitly.
+_edits = []
+_real_discord = common.discord
+common.discord = lambda m, p, b=None: (_edits.append((m, p, b)), (200, {}))[1]
+common.edit_message("C1", "M1", content="hello @everyone")
+common.edit_message("C1", "M1", content="congrats", allowed_mentions={"users": ["U9"]})
+common.discord = _real_discord
+check("edit_message defaults to NO_PINGS",
+      len(_edits) == 2 and _edits[0][2].get("allowed_mentions") == common.NO_PINGS)
+check("edit_message still honours an explicit override (winner congrats mention one user)",
+      _edits[1][2].get("allowed_mentions") == {"users": ["U9"]})
+
+_ms_src = open(os.path.join(_BOTS if os.path.isdir(_BOTS) else _HERE, "mod_setup.py"),
+               encoding="utf-8").read()
+_cg_src = open(os.path.join(_BOTS if os.path.isdir(_BOTS) else _HERE, "commands_guide.py"),
+               encoding="utf-8").read()
+check("the welcome+rules edit-in-place PATCH suppresses mentions (owner-editable text)",
+      "allowed_mentions" in _ms_src.split('"PATCH", "/channels/%s/messages/%s"')[1][:220])
+check("the commands-menu edit-in-place PATCH suppresses mentions",
+      "allowed_mentions" in _cg_src.split('"PATCH", "/channels/%s/messages/%s"')[1][:220])
+check("the welcome validator blocks a mass ping before it can ever be rendered",
+      any("@everyone" in e for e in _wcu.validate_welcomeconfig(
+          dict(_wcu.base_defaults(), outro="ping @everyone now"), [])) and
+      any("@here" in e for e in _wcu.validate_welcomeconfig(
+          dict(_wcu.base_defaults(), rules=["Be nice @here."]), [])))
+
+
 # ───────────────────────── 14. predictions_bot (pick'em) ───────────────────
 print("\n[nickname filter]")
 import json as _json2
