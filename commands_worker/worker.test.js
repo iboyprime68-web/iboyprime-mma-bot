@@ -205,5 +205,25 @@ check("/modlogs distinguishes 'cannot read' from 'no warnings'",
 check("the ledger is never looked up by raw user id",
   !/s\.users\[uid\]/.test(code));
 
+// ----- staff tiers: the bot must not grant powers the guild withholds -----
+// The bot is ADMINISTRATOR, so this gate (not Discord) decides what each tier can do.
+// 🔨 Moderator is configured in the live guild with kick but NOT ban, yet /ban used the
+// same flat check as /warn - so a Moderator could ban through the bot.
+const { ADMIN_UP } = _test;
+const modMember = { roles: ["RM"], permissions: "0" };
+const adminMember = { roles: ["RA"], permissions: "0" };
+check("a Moderator is staff for the general commands",
+  isStaffFromRoles(modMember, cfg) === true);
+check("a Moderator is NOT admin-tier (cannot ban through the bot)",
+  isStaffFromRoles(modMember, cfg, ADMIN_UP) === false);
+check("an Admin is admin-tier", isStaffFromRoles(adminMember, cfg, ADMIN_UP) === true);
+check("an Owner is admin-tier",
+  isStaffFromRoles({ roles: ["RO"], permissions: "0" }, cfg, ADMIN_UP) === true);
+check("the Administrator bit still passes any tier (they can ban natively anyway)",
+  isStaffFromRoles({ roles: [], permissions: "8" }, cfg, ADMIN_UP) === true);
+check("a plain member is neither", isStaffFromRoles({ roles: ["X"], permissions: "0" }, cfg, ADMIN_UP) === false);
+check("/ban and /unban are gated to admin-tier in source",
+  (code.match(/requireRank\(i, env, ADMIN_UP\)/g) || []).length === 2);
+
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
 process.exit(fail ? 1 : 0);
