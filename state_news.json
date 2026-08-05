@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=496915",
     "https://www.mmafighting.com/?p=496956",
     "https://www.mmafighting.com/?p=496973",
     "https://www.mmafighting.com/?p=496992",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=462582",
     "https://www.mmamania.com/?p=462588",
     "https://www.mmamania.com/?p=462630",
+    "https://www.mmamania.com/?p=462646",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1369,10 +1369,6 @@
       "ts": "2026-08-04T20:00:00+00:00"
     },
     {
-      "t": "The Ultimate Insider: Xavier Franklin tells behind-the-scenes story of controversial win, Daniel Cormier ‘going crazy’",
-      "ts": "2026-08-03T20:00:10+00:00"
-    },
-    {
       "t": "UFC 330: Islam wants Michael Morales to get off his ass and fight Carlos Prates — ‘Too much contenders’",
       "ts": "2026-08-04T20:07:13+00:00"
     },
@@ -1523,6 +1519,10 @@
     {
       "t": "Live: UFC Vegas 120 media day video &#124; Gamrot vs. Salkilld",
       "ts": "2026-08-05T19:36:25+00:00"
+    },
+    {
+      "t": "Jean Silva expects to be pulled from Noche UFC 4, fight Alex Volkanovski for featherweight title",
+      "ts": "2026-08-05T20:00:05+00:00"
     }
   ],
   "digest_items": [
@@ -1749,11 +1749,18 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-05T19:36:25+00:00"
+    },
+    {
+      "title": "Jean Silva expects to be pulled from Noche UFC 4, fight Alex Volkanovski for featherweight title",
+      "url": "https://www.mmamania.com/upcoming-ufc-events/462646/jean-silva-expects-pulled-noche-ufc-4-fight-alex-volkanovski-featherweight-title",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-05T20:00:05+00:00"
     }
   ],
   "digest_last": "2026-08-04 21:30",
   "hour": [
     "2026-08-05T20",
-    0
+    1
   ]
 }
