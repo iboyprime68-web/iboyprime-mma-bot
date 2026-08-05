@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=497002",
     "https://www.mmafighting.com/?p=497012",
     "https://www.mmafighting.com/?p=497016",
     "https://www.mmafighting.com/?p=497021",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=462626",
     "https://www.mmamania.com/?p=462630",
     "https://www.mmamania.com/?p=462646",
+    "https://www.mmamania.com/?p=462671",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC owners reveal how much money was ultimately lost staging UFC White House card in June",
-      "ts": "2026-08-03T22:23:01+00:00"
-    },
     {
       "t": "UFC issue statement confirming the death of 34-year-old flyweight fighter Allan Nascimento",
       "ts": "2026-08-03T22:38:38+00:00"
@@ -1519,6 +1515,10 @@
     {
       "t": "Khamzat Chimaev’s ex-teammate predicts he could stay at middleweight for Sean Strickland trilogy",
       "ts": "2026-08-05T22:00:00+00:00"
+    },
+    {
+      "t": "Darren Elkins confirms UFC Vegas 120 will be final fight &#8211; ‘Stuck around longer than I thought’",
+      "ts": "2026-08-05T22:34:40+00:00"
     }
   ],
   "digest_items": [
@@ -1528,11 +1528,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-05T22:00:00+00:00"
+    },
+    {
+      "title": "Darren Elkins confirms UFC Vegas 120 will be final fight &8211; ‘Stuck around longer than I thought’",
+      "url": "https://www.mmamania.com/latest-news/462671/darren-elkins-confirms-ufc-vegas-120-will-be-final-fight-stuck-around-longer-than-i-thought",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-05T22:34:40+00:00"
     }
   ],
   "digest_last": "2026-08-05 21:30",
   "hour": [
     "2026-08-05T22",
-    1
+    2
   ]
 }
