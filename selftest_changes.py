@@ -1363,6 +1363,56 @@ if _WF_DIRS:
 else:
     print("  SKIP: workflow directory not in this checkout")
 
+print("\n[cancelled-run emails]")
+# GitHub mails "Run failed: <workflow> - All jobs were cancelled" for a CANCELLED run
+# just as loudly as for a real failure, and two of our own patterns were minting
+# cancelled runs by the dozen. On Aug 4 alone the owner got 16 from Selftests and 10
+# from MMA News Wire, which is what "my feed is filled with these emails" was:
+#
+#   1. cancel-in-progress: true  -> EVERY superseded run is cancelled. Selftests had
+#      this, and a deploy dispatches Selftests, so deploying twice in an hour mailed
+#      him twice. The group only ever saved Actions minutes, which are free and
+#      unlimited on a public repo, so it bought nothing.
+#   2. a cron that fires DURING a long window -> the tick cannot start (concurrency
+#      group), so it sits PENDING, and GitHub cancels a pending run the moment the
+#      next tick arrives. news_bot holds a 55-MINUTE window; it sat on a */5 cron.
+#
+# Neither is a "failure" anyone can see in the Actions UI without opening the run, so
+# nothing here goes red - it just fills an inbox. Hence these checks.
+if _WF_DIRS:
+    import re as _re
+    # How long the job can run, per workflow. Anything not listed runs a bot that uses
+    # common.run_loop's default window.
+    _LOOP = common.run_loop.__defaults__[0]          # duration=
+    _JOB_SECONDS = {"news.yml": news_bot.WINDOW_SECONDS}
+    _cip, _tight = [], []
+    for _p in _wf_files:
+        _b = os.path.basename(_p)
+        _t = open(_p, encoding="utf-8").read()
+        _code = "\n".join(l for l in _t.splitlines() if not l.strip().startswith("#"))
+        if _re.search(r"cancel-in-progress:\s*true", _code):
+            _cip.append(_b)
+        # "*/N * * * *" fires every N minutes. The job has to be finished by then.
+        for _m in _re.finditer(r"""cron:\s*['"]\*/(\d+)\s""", _code):
+            _period, _job = int(_m.group(1)) * 60, _JOB_SECONDS.get(_b, _LOOP)
+            if _job >= _period:
+                _tight.append("%s: %ss job on a %ss cron" % (_b, _job, _period))
+    check("no workflow cancels a run to make room for another (offenders: %s)" % _cip,
+          not _cip)
+    check("no workflow runs longer than the cron that re-triggers it, so a tick can "
+          "never land as a pending run (offenders: %s)" % _tight, not _tight)
+    # Pin the specific regression: news_bot's window is far longer than any */N cron,
+    # so news.yml must be on a plain hourly schedule.
+    _news_yml = next((p for p in _wf_files if os.path.basename(p) == "news.yml"), None)
+    if _news_yml:
+        _nt = "\n".join(l for l in open(_news_yml, encoding="utf-8").read().splitlines()
+                        if not l.strip().startswith("#"))
+        check("news.yml is hourly, not */N - its window is %d min" %
+              (news_bot.WINDOW_SECONDS // 60),
+              _re.search(r"""cron:\s*['"]\d+ \*""", _nt) and "*/" not in _nt)
+else:
+    print("  SKIP: workflow directory not in this checkout")
+
 # The other half of the same bug: a corrupt state file must not read as "no history".
 check("load_json returns the default on malformed JSON (so a bad file degrades, "
       "not crashes)", common.load_json.__module__ is not None)
