@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=497103",
     "https://www.mmafighting.com/?p=497109",
     "https://www.mmafighting.com/?p=497160",
     "https://www.mmafighting.com/?p=497166",
@@ -384,6 +383,7 @@
     "https://www.mmafighting.com/?p=503361",
     "https://www.mmafighting.com/?p=503365",
     "https://www.mmafighting.com/?p=503368",
+    "https://www.mmafighting.com/?p=503386",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1503,6 +1503,10 @@
     {
       "t": "30-fight UFC veteran explains decision to retire at UFC Vegas 120 after 16 years on the roster",
       "ts": "2026-08-06T13:00:00+00:00"
+    },
+    {
+      "t": "Daniel Cormier recounts calling alleged fixed UFC fight: ‘How in the world is this kid so bad’",
+      "ts": "2026-08-05T20:24:23+00:00"
     }
   ],
   "digest_items": [
@@ -1638,11 +1642,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-06T13:00:00+00:00"
+    },
+    {
+      "title": "Daniel Cormier recounts calling alleged fixed UFC fight: ‘How in the world is this kid so bad’",
+      "url": "https://www.mmafighting.com/ufc/503386/daniel-cormier-recounts-calling-alleged-fixed-ufc-fight-how-in-the-world-is-this-kid-so-bad",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-05T20:24:23+00:00"
     }
   ],
   "digest_last": "2026-08-05 21:30",
   "hour": [
     "2026-08-06T13",
-    1
+    2
   ]
 }
