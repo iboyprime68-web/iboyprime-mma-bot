@@ -23,9 +23,26 @@ is UFC-focused; stories explicitly about other orgs/boxing are dropped unless
 re-enabled). De-dupes by GUID in committed state; state is committed right
 after each post so a mid-run crash never re-posts. Std-lib only.
 
-NEAR-INSTANT (July 2026): on Actions the job now polls every ~POLL_SECONDS for a
-~55-minute window (the */5 cron just re-queues the next window via the concurrency
-group, so coverage is continuous) - a story posts within ~20s of hitting the feed.
+NEAR-INSTANT (July 2026): on Actions the job polls every ~POLL_SECONDS so a story
+posts within ~20s of hitting the feed, instead of waiting out GitHub's 5-minute
+cron floor.
+
+THE CRON MUST NOT FIRE DURING THE WINDOW (Aug 2026 - this is the fix for a real
+email flood). The window used to sit on a */5 cron, on the theory that the
+concurrency group would queue the extra ticks and run them back to back. It does
+not work that way: GitHub keeps at most ONE pending run per group and CANCELS the
+previously pending one when a newer tick arrives. Every displaced run mails the
+owner "Run failed - All jobs were cancelled" (10 of them from this workflow on
+Aug 4, a day when GitHub delivered ticks in catch-up bursts). news.yml is hourly
+now, so one tick starts one 55-minute window and the next tick arrives after it
+has finished. Nothing ever queues, so nothing is ever cancelled. If you change
+WINDOW_SECONDS or the cron, keep that relationship: window + ~1 min of overhead
+must stay under the cron period.
+
+Coverage went UP, not down: GitHub was only honouring ~12 of the 288 daily */5
+ticks (measured Aug 5), so the old setup actually ran about 46% of the day. One
+honoured tick per hour holding a 55-minute window is ~92%.
+
 The loop also git-pulls the checkout ~once a minute so newsconfig.json edits made
 while the job runs (panel Save & Deploy, /news) apply almost immediately. Free
 because the repo is public. Run locally it is still a single pass.
@@ -40,7 +57,10 @@ MAX_RECENT     = 120   # cap the similarity window size
 MAX_DIGEST     = 60    # cap the digest queue
 STATE_FILE     = "state_news.json"
 POLL_SECONDS   = 20    # feed check cadence inside one job ("pretty much instant")
-WINDOW_SECONDS = 3300  # ~55 min per job; cron re-queues so coverage is continuous
+WINDOW_SECONDS = 3300  # ~55 min per job. The CRON is what had to change (news.yml is
+                       # hourly now, not */5): a window this long on a 5-minute cron
+                       # left a run pending on the concurrency group, and GitHub
+                       # cancels a pending run the moment a third tick arrives.
 REFRESH_EVERY  = 3     # git-pull the checkout every N cycles (~1/min) for config edits
 
 
