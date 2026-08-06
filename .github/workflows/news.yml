@@ -1,8 +1,16 @@
 name: MMA News Wire
 on:
   schedule:
-    - cron: '*/5 * * * *'    # re-queues the next ~55-min window (concurrency group serialises);
-                             # inside a window the bot checks feeds every ~20s -> near-instant posts
+    - cron: '4 * * * *'      # HOURLY, at :04. One tick starts one ~55-min window (news_bot
+                             # WINDOW_SECONDS=3300) which ends around :59, and the next tick
+                             # lands after it. Inside the window feeds are checked every ~20s,
+                             # so posts are still near-instant.
+                             #
+                             # This was */5 until Aug 2026 and that is what flooded the owner's
+                             # inbox. A tick landing mid-window leaves a PENDING run, and GitHub
+                             # cancels the pending run as soon as a third tick arrives - mailing
+                             # "Run failed: All jobs were cancelled" each time (10 in one day).
+                             # Never point a cron shorter than the window at this workflow.
   workflow_dispatch:
 permissions:
   contents: write
