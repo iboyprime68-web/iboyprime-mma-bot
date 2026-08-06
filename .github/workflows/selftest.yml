@@ -14,9 +14,14 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
-concurrency:
-  group: selftest
-  cancel-in-progress: true
+# NO concurrency group on purpose (Aug 2026). It used to be `group: selftest,
+# cancel-in-progress: true`, which meant every superseded run was CANCELLED - and
+# GitHub mails "Run failed: All jobs were cancelled" for a cancelled run exactly
+# like a real failure. On Aug 4 that alone sent the owner 16 emails in one day,
+# because a deploy dispatches this workflow and he deployed several times. The
+# group only ever saved Actions minutes, which are free and unlimited on a public
+# repo, so it was buying nothing and costing the inbox. Two short read-only jobs
+# running twice over harm nothing; a cancelled run does.
 jobs:
   python:
     runs-on: ubuntu-latest
