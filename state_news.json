@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=497974",
     "https://www.mmafighting.com/?p=497976",
     "https://www.mmafighting.com/?p=497999",
     "https://www.mmafighting.com/?p=498005",
@@ -342,6 +341,7 @@
     "https://www.mmafighting.com/?p=503410",
     "https://www.mmafighting.com/?p=503445",
     "https://www.mmafighting.com/?p=503499",
+    "https://www.mmafighting.com/?p=503509",
     "https://www.mmafighting.com/?p=503562",
     "https://www.mmafighting.com/?p=503568",
     "https://www.mmafighting.com/?p=503605",
@@ -1495,6 +1495,10 @@
     {
       "t": "Take a look at the new META Apex refurbishment which will debut at UFC Vegas 120",
       "ts": "2026-08-08T15:00:00+00:00"
+    },
+    {
+      "t": "Missed Fists: Fighter drops hands mid-brawl and is viciously knocked out",
+      "ts": "2026-08-07T18:56:57+00:00"
     }
   ],
   "digest_items": [
@@ -1630,11 +1634,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-08T15:00:00+00:00"
+    },
+    {
+      "title": "Missed Fists: Fighter drops hands mid-brawl and is viciously knocked out",
+      "url": "https://www.mmafighting.com/videos/503509/missed-fists-fighter-drops-hands-mid-brawl-and-is-viciously-knocked-out",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-07T18:56:57+00:00"
     }
   ],
   "digest_last": "2026-08-07 21:30",
   "hour": [
     "2026-08-08T15",
-    1
+    2
   ]
 }
