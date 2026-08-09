@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=498329",
     "https://www.mmafighting.com/?p=498335",
     "https://www.mmafighting.com/?p=498337",
     "https://www.mmafighting.com/?p=498362",
@@ -328,6 +327,7 @@
     "https://www.mmafighting.com/?p=503906",
     "https://www.mmafighting.com/?p=503913",
     "https://www.mmafighting.com/?p=503944",
+    "https://www.mmafighting.com/?p=503978",
     "https://www.mmafighting.com/?p=503981",
     "https://www.mmafighting.com/?p=503982",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Jorge Masvidal wants a debate with Joe Rogan about ‘gold standard’ UFC referee they disagree on",
-      "ts": "2026-08-07T17:00:00+00:00"
-    },
-    {
       "t": "Washed-up Conor McGregor ‘nothing more than a money grab’ for UFC — ‘Look at his face … he’s done’",
       "ts": "2026-08-07T17:38:38+00:00"
     },
@@ -1519,6 +1515,10 @@
     {
       "t": "Alexander Volkanovski and Petr Yan are reportedly set to defend their UFC belts at UFC 333",
       "ts": "2026-08-09T16:13:36+00:00"
+    },
+    {
+      "t": "UFC 332 set for return to Utah in October",
+      "ts": "2026-08-09T03:46:25+00:00"
     }
   ],
   "digest_items": [
@@ -1759,11 +1759,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-09T16:13:36+00:00"
+    },
+    {
+      "title": "UFC 332 set for return to Utah in October",
+      "url": "https://www.mmafighting.com/ufc/503978/ufc-332-set-for-return-to-utah-in-october",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-09T03:46:25+00:00"
     }
   ],
   "digest_last": "2026-08-08 21:30",
   "hour": [
-    "2026-08-09T16",
-    2
+    "2026-08-09T17",
+    1
   ]
 }
