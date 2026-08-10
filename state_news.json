@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=498812",
     "https://www.mmafighting.com/?p=498837",
     "https://www.mmafighting.com/?p=498865",
     "https://www.mmafighting.com/?p=498882",
@@ -314,6 +313,7 @@
     "https://www.mmafighting.com/?p=504128",
     "https://www.mmafighting.com/?p=504135",
     "https://www.mmafighting.com/?p=504150",
+    "https://www.mmafighting.com/?p=504182",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1217,10 +1217,6 @@
       "ts": "2026-08-08T20:00:00+00:00"
     },
     {
-      "t": "‘Iceman’ returns! Mauricio Ruffy wears Chuck Liddell shorts during violent UFC 331 training session &#124; Video",
-      "ts": "2026-08-08T18:15:31+00:00"
-    },
-    {
       "t": "UFC Vegas 120 live results, highlights, streaming play-by-play updates &#124; Gamrot vs. Salkilld",
       "ts": "2026-08-08T19:50:27+00:00"
     },
@@ -1547,6 +1543,10 @@
     {
       "t": "Daniel Cormier rejects Ali Abdelaziz’s ‘absolutely crazy’ take about Usman Nurmagomedov",
       "ts": "2026-08-10T18:00:00+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan vs. Dillon Danis set for title clash at RAF 14",
+      "ts": "2026-08-10T18:28:21+00:00"
     }
   ],
   "digest_items": [
@@ -1773,11 +1773,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-10T18:00:00+00:00"
+    },
+    {
+      "title": "Arman Tsarukyan vs. Dillon Danis set for title clash at RAF 14",
+      "url": "https://www.mmafighting.com/ufc/504182/arman-tsarukyan-vs-dillon-danis-set-for-title-clash-at-raf-14",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-10T18:28:21+00:00"
     }
   ],
   "digest_last": "2026-08-09 21:30",
   "hour": [
     "2026-08-10T18",
-    2
+    3
   ]
 }
