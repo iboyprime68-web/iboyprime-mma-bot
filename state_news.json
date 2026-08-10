@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=498503",
     "https://www.mmafighting.com/?p=498525",
     "https://www.mmafighting.com/?p=498548",
     "https://www.mmafighting.com/?p=498553",
@@ -947,6 +946,7 @@
     "https://www.mmamania.com/?p=463684",
     "https://www.mmamania.com/?p=463693",
     "https://www.mmamania.com/?p=463764",
+    "https://www.mmamania.com/?p=463768",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1511,6 +1511,10 @@
     {
       "t": "24-fight UFC veteran and former The Ultimate Fighter winner announces he’ll retire at UFC 332",
       "ts": "2026-08-10T12:00:00+00:00"
+    },
+    {
+      "t": "Next generation! Anderson Silva’s son fights Kimbo Slice’s son at Brand Risk 15",
+      "ts": "2026-08-10T11:42:21+00:00"
     }
   ],
   "digest_items": [
@@ -1625,11 +1629,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-10T12:00:00+00:00"
+    },
+    {
+      "title": "Next generation! Anderson Silva’s son fights Kimbo Slice’s son at Brand Risk 15",
+      "url": "https://www.mmamania.com/boxing/463768/next-generation-anderson-silvas-son-fights-kimbo-slices-son-at-brand-risk-15",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-10T11:42:21+00:00"
     }
   ],
   "digest_last": "2026-08-09 21:30",
   "hour": [
     "2026-08-10T12",
-    1
+    2
   ]
 }
