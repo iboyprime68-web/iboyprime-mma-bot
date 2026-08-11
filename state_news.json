@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=499303",
     "https://www.mmafighting.com/?p=499318",
     "https://www.mmafighting.com/?p=499327",
     "https://www.mmafighting.com/?p=499342",
@@ -301,6 +300,7 @@
     "https://www.mmafighting.com/?p=504291",
     "https://www.mmafighting.com/?p=504374",
     "https://www.mmafighting.com/?p=504389",
+    "https://www.mmafighting.com/?p=504401",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1217,10 +1217,6 @@
       "ts": "2026-08-09T23:00:00+00:00"
     },
     {
-      "t": "Quillan Salkilld may have injured knee in latest UFC Apex win: 'I heard a little pop'",
-      "ts": "2026-08-09T20:43:50+00:00"
-    },
-    {
       "t": "Islam Makhachev tells UFC the ‘perfect’ place to stage their first-ever event in Dagestan",
       "ts": "2026-08-10T00:00:00+00:00"
     },
@@ -1475,6 +1471,10 @@
     {
       "t": "Payton Talbott facing another ex-UFC champion after retiring Henry Cejudo reportedly in the works",
       "ts": "2026-08-11T20:00:00+00:00"
+    },
+    {
+      "t": "Referee Herb Dean makes mess of The Ultimate Fighter 34 fight with confusing call",
+      "ts": "2026-08-11T20:20:47+00:00"
     }
   ],
   "digest_items": [
@@ -1680,11 +1680,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-11T20:00:00+00:00"
+    },
+    {
+      "title": "Referee Herb Dean makes mess of The Ultimate Fighter 34 fight with confusing call",
+      "url": "https://www.mmafighting.com/ufc/504401/referee-herb-dean-makes-mess-of-the-ultimate-fighter-34-fight-with-confusing-call",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-11T20:20:47+00:00"
     }
   ],
   "digest_last": "2026-08-10 21:30",
   "hour": [
     "2026-08-11T20",
-    1
+    2
   ]
 }
