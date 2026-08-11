@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=499088",
     "https://www.mmafighting.com/?p=499094",
     "https://www.mmafighting.com/?p=499110",
     "https://www.mmafighting.com/?p=499111",
@@ -308,6 +307,7 @@
     "https://www.mmafighting.com/?p=504150",
     "https://www.mmafighting.com/?p=504151",
     "https://www.mmafighting.com/?p=504182",
+    "https://www.mmafighting.com/?p=504192",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1471,6 +1471,10 @@
     {
       "t": "Alistair Overeem fires message to Rico Verhoeven amid talks for massive Amsterdam stadium fight",
       "ts": "2026-08-11T01:45:00+00:00"
+    },
+    {
+      "t": "DWCS Results: Season 10, Week 1",
+      "ts": "2026-08-10T19:33:10+00:00"
     }
   ],
   "digest_items": [
@@ -1501,11 +1505,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-11T01:45:00+00:00"
+    },
+    {
+      "title": "DWCS Results: Season 10, Week 1",
+      "url": "https://www.mmafighting.com/ufc/504192/dwcs-results-season-10-week-1",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-10T19:33:10+00:00"
     }
   ],
   "digest_last": "2026-08-10 21:30",
   "hour": [
     "2026-08-11T04",
-    0
+    1
   ]
 }
