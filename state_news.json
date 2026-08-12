@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=499602",
     "https://www.mmafighting.com/?p=499610",
     "https://www.mmafighting.com/?p=499616",
     "https://www.mmafighting.com/?p=499619",
@@ -286,6 +285,7 @@
     "https://www.mmafighting.com/?p=504477",
     "https://www.mmafighting.com/?p=504497",
     "https://www.mmafighting.com/?p=504507",
+    "https://www.mmafighting.com/?p=504524",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Daniel Cormier rejects Ali Abdelaziz’s ‘absolutely crazy’ take about Usman Nurmagomedov",
-      "ts": "2026-08-10T18:00:00+00:00"
-    },
-    {
       "t": "Arman Tsarukyan vs. Dillon Danis set for title clash at RAF 14",
       "ts": "2026-08-10T18:28:21+00:00"
     },
@@ -1531,6 +1527,10 @@
     {
       "t": "Ian Machado Garry’s son cries after missing out on meeting Islam Makhachev during UFC 330 face-off",
       "ts": "2026-08-12T18:00:00+00:00"
+    },
+    {
+      "t": "UFC 330: Newcomer saves bout on 4 days’ notice for Makhachev vs. Machado Garry fight card",
+      "ts": "2026-08-12T17:23:40+00:00"
     }
   ],
   "digest_items": [
@@ -1792,11 +1792,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-12T18:00:00+00:00"
+    },
+    {
+      "title": "UFC 330: Newcomer saves bout on 4 days’ notice for Makhachev vs. Machado Garry fight card",
+      "url": "https://www.mmafighting.com/ufc/504524/ufc-330-newcomer-saves-bout-on-4-days-notice-for-makhachev-vs-machado-garry-fight-card",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-12T17:23:40+00:00"
     }
   ],
   "digest_last": "2026-08-11 21:30",
   "hour": [
-    "2026-08-12T17",
-    3
+    "2026-08-12T18",
+    1
   ]
 }
