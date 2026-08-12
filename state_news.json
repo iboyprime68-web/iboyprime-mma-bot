@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=499544",
     "https://www.mmafighting.com/?p=499552",
     "https://www.mmafighting.com/?p=499559",
     "https://www.mmafighting.com/?p=499564",
@@ -282,6 +281,7 @@
     "https://www.mmafighting.com/?p=504291",
     "https://www.mmafighting.com/?p=504300",
     "https://www.mmafighting.com/?p=504374",
+    "https://www.mmafighting.com/?p=504386",
     "https://www.mmafighting.com/?p=504389",
     "https://www.mmafighting.com/?p=504401",
     "https://www.mmafighting.com/?p=504412",
@@ -1503,6 +1503,10 @@
     {
       "t": "Dana White infuriates fans by claiming renovated Meta Apex could host UFC title fights in the future",
       "ts": "2026-08-12T13:00:00+00:00"
+    },
+    {
+      "t": "Islam Makhachev questions Ilia Topuria celebrating night before UFC White House loss",
+      "ts": "2026-08-11T19:28:14+00:00"
     }
   ],
   "digest_items": [
@@ -1652,11 +1656,18 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-12T13:00:00+00:00"
+    },
+    {
+      "title": "Islam Makhachev questions Ilia Topuria celebrating night before UFC White House loss",
+      "url": "https://www.mmafighting.com/ufc/504386/islam-makhachev-questions-ilia-topuria-celebrating-night-before-ufc-white-house-loss",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-11T19:28:14+00:00"
     }
   ],
   "digest_last": "2026-08-11 21:30",
   "hour": [
     "2026-08-12T13",
-    2
+    3
   ]
 }
