@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Watch Joe Rogan try to convince Aljamain Sterling to give up unhealthy pre-fight habit",
-      "ts": "2026-08-13T03:59:00+00:00"
-    },
-    {
-      "t": "TUF 34’s Xavier Franklin calls Herb Dean a ‘lying bastard’ after controversial fight restart",
-      "ts": "2026-08-13T04:42:19+00:00"
-    },
-    {
       "t": "Dustin Poirier: Here’s why Islam Makhachev’s UFC streak is ‘more impressive’ than Anderson Silva’s",
       "ts": "2026-08-13T05:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Dana White opens up on sudden death of UFC fighter Allan Nascimento",
       "ts": "2026-08-13T15:51:23+00:00"
+    },
+    {
+      "t": "26-Fight UFC Veteran Set to Change Weight Classes After 5-Straight Losses",
+      "ts": "2026-08-13T16:13:11+00:00"
+    },
+    {
+      "t": "Ian Machado Garry envisions '10 years of domination' if victorious at #UFC330 https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/13/ufc-330-ian-…",
+      "ts": "2026-08-13T16:15:52+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Side by Side 👀 B2YB: @FREPouch",
-      "url": "https://nitter.net/ufc/status/2087856942693666863#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-13T11:01:00+00:00"
-    },
-    {
-      "title": "Drop your favorite Myktybek Orolbai gif/photo because he is fighting on UFC330 🤲 [ LIVE SAT AUG 15 9pmET on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2087871795844219270#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-13T12:00:01+00:00"
-    },
     {
       "title": "Islam Makhachev hopes Ilia Topuria rebounds from Justin Gaethje loss https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/13/ufc-islam-makhachev-c…",
       "url": "https://nitter.net/MMAJunkie/status/2087873379185414168#m",
@@ -2105,6 +2091,20 @@
       "source": "AOL.com",
       "cat": "ufc",
       "ts": "2026-08-13T15:51:23+00:00"
+    },
+    {
+      "title": "26-Fight UFC Veteran Set to Change Weight Classes After 5-Straight Losses",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObzMxbU5KRVRaYXNSRUliNXRjdWkyeDFvTWpiak1Rc3pqNERwVTFrOWY4ZnFJWE5zSUlJNDRQUFFjaVJiT1JZV2E4WjZWblZpYWtKZGU2ZVEtb0YyNExfYkROeFJ4b3JsWFZGN2FNc1lQTHFXazU4M2NrWG1CSFp2UDd1dWY0TW5pbHNxZ3oxdWo5dTZ1X1RYMnlQQ0pRelJ1eDhHMkFLWQ?oc=5",
+      "source": "Sports Illustrated",
+      "cat": "ufc",
+      "ts": "2026-08-13T16:13:11+00:00"
+    },
+    {
+      "title": "Ian Machado Garry envisions '10 years of domination' if victorious at UFC330 https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/13/ufc-330-ian-…",
+      "url": "https://nitter.net/MMAJunkie/status/2087936183359697396#m",
+      "source": "MMA Junkie on X",
+      "cat": "ufc",
+      "ts": "2026-08-13T16:15:52+00:00"
     }
   ],
   "digest_last": "2026-08-12 21:30",
@@ -2339,6 +2339,8 @@
     "CBMi4gFBVV95cUxQQ0JaYm9iMVFYV2IyLWhoNENvUjZUYWdJTGdCLVZKRkUyb1Vuenp0MDIzaTJYWWVsOG1iakhCYXFJeTE5M2JTOU5QZE5faEIwcklfUjdhSjdaaVVhcUF1X0tTTGg2cjh2eWxIaTlNc0FYRWxIRk42NjJRU0dRNkgtdi1ONlZkUjFqbm1SMC01UnJYWTVwNDBfaXlscUtJYzY2UU41Z3Rqd2tDYWRzY3doRW9YTzBBYnlaQ0g4U2RuUk1Vb2NmdWQ5WjJURUZ5cnVuU1RFMW5ZbXFMSzhQdDJ1SHB3",
     "CBMiZ0FVX3lxTFBSM3llUnNwa2RTNUlsMUFGNGNYa0Rma09uVGRIM1YtWEx3N0R6VV93b0dVZ2FDTC13emJYTk5maXJ2RktkeXRhQ19PZ09WZTRyenloY2RjVDF6TGlfaEpkY1VhY3hERWM",
     "CBMihAFBVV95cUxOODlINUVqekJZOFU1QWtMa19nM2ZJU3RjUHA2R0h3WlZCX1RHWjEzZzJ3LXdFM1dVdXktV3V6VTl5WjloRVJ3Wko0R3RYYUtybUVaTkJqM0J1MG9EUm8zVThRTDdCTTlmdThZWU1jaGpOY29lWGJYS1pfRnMzTXQzTHdlMUo",
-    "CBMifkFVX3lxTFA3RExPODFMSWRKZ1llNUlkR3dQS1BKdktfMlF4cFZZRmtjQnZ3eDRBOE9JZHktbEY5ZmJxcng0WC1CSzhoUV9vdkwwU0VNdGRHbllXaUtjTlNNakMwVnNDLTVwdGV1WDZ1VmUyN1pfYWRBZzJKM08ybTBIR0pUZw"
+    "CBMifkFVX3lxTFA3RExPODFMSWRKZ1llNUlkR3dQS1BKdktfMlF4cFZZRmtjQnZ3eDRBOE9JZHktbEY5ZmJxcng0WC1CSzhoUV9vdkwwU0VNdGRHbllXaUtjTlNNakMwVnNDLTVwdGV1WDZ1VmUyN1pfYWRBZzJKM08ybTBIR0pUZw",
+    "CBMipwFBVV95cUxObzMxbU5KRVRaYXNSRUliNXRjdWkyeDFvTWpiak1Rc3pqNERwVTFrOWY4ZnFJWE5zSUlJNDRQUFFjaVJiT1JZV2E4WjZWblZpYWtKZGU2ZVEtb0YyNExfYkROeFJ4b3JsWFZGN2FNc1lQTHFXazU4M2NrWG1CSFp2UDd1dWY0TW5pbHNxZ3oxdWo5dTZ1X1RYMnlQQ0pRelJ1eDhHMkFLWQ",
+    "2087936183359697396"
   ]
 }
