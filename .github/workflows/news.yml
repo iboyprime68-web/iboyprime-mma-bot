@@ -25,9 +25,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install render deps (pinned; non-fatal)
+        # Pillow powers the staged-post graphics (postcard.py). If this step
+        # ever fails, news delivery must NOT: ytposts stages text-only and the
+        # job stays green - a failing hourly job would email the owner hourly.
+        run: pip install -r requirements-post.txt || echo "Pillow install failed - staging text-only this run"
       - name: Poll MMA feeds and post new articles
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python news_bot.py
       - name: Save state
         run: |
