@@ -227,6 +227,12 @@ def stage_story(it, score, why, cfg_bots, newscfg):
                 "headline": it.get("title", ""),
                 "line": it.get("line", ""),
                 "hot": it.get("hot") or [],
+                # hot-word emphasis: news_bot passes the newsconfig setting
+                # ("color" / "underline" / "auto"); the guid is what postcard
+                # hashes when it is "auto", so one story always renders the
+                # same way while the feed still alternates
+                "emphasis": it.get("emphasis", ""),
+                "guid": it.get("guid", ""),
                 "source": it.get("source", ""),
                 "photo_path": photo_path or None,
                 "cutout_path": cutout_path or None,
