@@ -2616,12 +2616,18 @@ if _pil_ok:
     # -- round-2 verdict fixes: bright hot step, no pill, docked inset, solo -
     _acc_lo = postcard._rgb(postcard.PALETTE["accent"])
     _acc_hi = postcard._rgb(postcard.PALETTE["accent_hot"])
-    check("accent_hot is the VIVID violet step, not pastel lavender (round-3 "
-          "loss: pastel read soft-not-fight-night against the warm grade) - "
-          "more chroma than accent, still bright enough for the near-black "
-          "seam",
-          (max(_acc_hi) - min(_acc_hi)) > (max(_acc_lo) - min(_acc_lo))
-          and max(_acc_hi) == 255 and sum(_acc_hi) >= 460)
+    # THE OWNER PICKED THIS HEX HIMSELF and it overrules every critic round
+    # that argued for a more vivid or paler step: "what the text colour should
+    # be: 8a6ffa". Both the glyph fill and the accent type use it, so one
+    # purple runs through the card. If a future round wants to change it, that
+    # is a conversation with him, not a contrast measurement.
+    check("the highlight purple is the owner's exact hex 8A6FFA",
+          postcard.PALETTE["accent_hot"].upper() == "#8A6FFA"
+          and postcard.PALETTE["accent_fill"].upper() == "#8A6FFA")
+    check("the rendered card carries ONE purple (fill, accent type and the "
+          "footer bar all agree)",
+          postcard.PALETTE["accent_fill"] == postcard.PALETTE["accent_hot"]
+          and abs(sum(_acc_hi) - sum(_acc_lo)) < 40)
     # OWNER VERDICT, Aug 2026 - this overrules the round-6 white-words fix:
     # "I don't like the way it highlights stuff, it underlines certain
     # things... I prefer text a different color because underline doesn't
