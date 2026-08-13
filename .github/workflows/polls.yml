@@ -1,0 +1,46 @@
+name: YouTube Poll Staging
+on:
+  schedule:
+    - cron: '23 16 */2 * *'   # every 2 days, 16:23 UTC - stages ONE poll for the owner
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bot-polls
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install render deps (pinned; non-fatal)
+        # Pillow powers the 640x640 option tiles (postcard.py). If this step
+        # ever fails the poll must still stage - polls_bot degrades to a
+        # text-only stage and the job stays green; a red cron run emails the
+        # owner.
+        run: pip install -r requirements-post.txt || echo "Pillow install failed - staging without tiles this run"
+      - name: Stage one YouTube poll to the studio channel
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: python polls_bot.py
+      - name: Save state
+        run: |
+          git config user.name "iboyprime-bot"
+          git config user.email "bot@users.noreply.github.com"
+          # The bot that just ran is the only writer of state_polls.json, so its output wins
+          # outright. Never merge it: `git pull --autostash` used to pop a conflicting
+          # stash and the blind `git add` below committed the <<<<<<< markers, which
+          # broke state_raid.json permanently (raid detection went dead, silently).
+          mkdir -p /tmp/keep && cp state_polls.json /tmp/keep/ 2>/dev/null || true
+          git checkout -- . 2>/dev/null || true
+          git pull --rebase || true
+          cp /tmp/keep/* . 2>/dev/null || true
+          if grep -lE '^(<{7}|={7}|>{7})' state_polls.json 2>/dev/null; then
+            echo "::error::conflict markers in state - refusing to commit"; exit 1
+          fi
+          git add state_polls.json 2>/dev/null || true
+          git commit -m "polls state [skip ci]" || echo "no changes"
+          git push || true
