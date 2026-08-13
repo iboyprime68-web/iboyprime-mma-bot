@@ -39,6 +39,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - name: Install worker deps (pinned by package-lock.json)
+        # worker.js seals the AI key with libsodium (tweetnacl + blakejs), so
+        # the suite needs them present. npm ci installs the EXACT locked
+        # versions - never a floating install in CI.
+        run: cd commands_worker && npm ci --no-audit --no-fund
       - name: Worker syntax + unit tests
         run: |
           node --check commands_worker/worker.js
