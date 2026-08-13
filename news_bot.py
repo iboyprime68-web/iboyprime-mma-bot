@@ -323,7 +323,12 @@ def main():
             if score < thr:
                 print("  yt: below bar (%d): %s" % (score, it["title"][:60]))
                 return
-            status = ytposts.stage_story(it, score, why, cfg_bots, cfg)
+            # the scorer's poster line + highlight words ride the item copy
+            # into the render spec (ytposts reads it["line"] / it["hot"])
+            sit = dict(it)
+            sit["line"] = res.get("line", "")
+            sit["hot"] = res.get("hot", [])
+            status = ytposts.stage_story(sit, score, why, cfg_bots, cfg)
             print("  yt: %s [%d] %s" % (status, score, it["title"][:60]))
         except Exception as e:
             print("  yt: staging error (%s), news unaffected" % type(e).__name__)
