@@ -256,8 +256,11 @@ function ensureInline(modcfg, channel) {
   else if (!e || typeof e !== "object") e = { profile: ((modcfg.defaults || {}).profile) || "standard" };
   c[channel] = e; return e;
 }
-// A profile name is written into the config we commit, so it stays a plain identifier.
+// A profile / feed / topic name is written into the config we commit, so it stays a
+// plain identifier. NOTE the safeKey half: "__proto__" matches this pattern perfectly
+// well, so the shape check alone is not a defence when the name becomes an object KEY.
 const IDENT = /^[A-Za-z0-9_-]{1,40}$/;
+function safeIdent(k) { return safeKey(k) && IDENT.test(String(k)); }
 // Pure: apply one /mod edit to a modconfig object and return the new one.
 // Every key that comes from the interaction is checked with safeKey/an allowlist BEFORE
 // it is used as an object key: `channels["__proto__"] = {...}` reparents the object
@@ -265,7 +268,7 @@ const IDENT = /^[A-Za-z0-9_-]{1,40}$/;
 function applyModChange(modcfg, group, sub, a) {
   modcfg = JSON.parse(JSON.stringify(modcfg));
   if (group === "channel" && sub === "set-profile") {
-    if (!safeKey(a.channel) || !IDENT.test(String(a.profile || ""))) return modcfg;
+    if (!safeKey(a.channel) || !safeIdent(a.profile)) return modcfg;
     (modcfg.channels = modcfg.channels || {})[a.channel] = a.profile;
   } else if (group === "category") {
     if (!safeKey(a.channel) || MOD_CATEGORIES.indexOf(String(a.category)) === -1) return modcfg;
@@ -296,12 +299,12 @@ function applyNewsChange(newscfg, group, sub, a) {
   if (group === null && sub === "mode") {
     if (["realtime", "hybrid", "digest"].includes(a.value)) newscfg.mode = a.value;
   } else if (group === null && sub === "source") {
-    if (!IDENT.test(String(a.name || ""))) return newscfg;
+    if (!safeIdent(a.name)) return newscfg;
     const all = (newscfg.sources = newscfg.sources || {});
     const s = (all[a.name] = own(all, a.name) || {});
     s.enabled = (a.state === "on");
   } else if (group === null && sub === "category") {
-    if (!IDENT.test(String(a.name || ""))) return newscfg;
+    if (!safeIdent(a.name)) return newscfg;
     const all = (newscfg.categories = newscfg.categories || {});
     const c = (all[a.name] = own(all, a.name) || {});
     c.enabled = (a.state === "on");
@@ -983,7 +986,11 @@ async function studioLogin(request, env) {
     return studioJson({ error: "sign in failed" }, 401);
   }
   clearLoginFails(ip);
-  const token = await studioToken(env, now);
+  let token = null;
+  try { token = await studioToken(env, now); } catch (e) { token = null; }
+  // Only reachable if WebCrypto itself failed. Better a plain 503 than a cookie built
+  // out of "null", which would look like a session and authenticate nothing.
+  if (!token) return studioJson({ error: "could not start a session" }, 503);
   return new Response(JSON.stringify({ ok: true }), { status: 200,
     headers: { "content-type": "application/json; charset=utf-8",
                "set-cookie": cookieHeader(token, Math.floor(STUDIO_TTL_MS / 1000)),
