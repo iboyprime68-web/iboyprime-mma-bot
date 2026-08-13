@@ -166,6 +166,16 @@ check("unmatched general MMA title falls back to ufc",
       newsconfig.classify("Conor McGregor warns Max Holloway about weight", NCFG) == "ufc")
 check("breaking keywords hit", newsconfig.is_breaking("Champion RETIRES after title loss", NCFG))
 check("normal headline is not breaking", not newsconfig.is_breaking("Fighter previews his next bout", NCFG))
+check("gambling OPERATOR BRANDS are excluded (generic words missed these live)",
+      all(newsconfig.is_excluded(t, NCFG) for t in (
+          "UFC 330 Picks: Top DraftKings DFS Fantasy MMA Targets",
+          "UFC 330 FanDuel fantasy preview",
+          "PrizePicks board for UFC 330",
+          "BetMGM boosts the main event",
+          "Moneyline movement before UFC 330")))
+check("fight picks and predictions are NOT treated as gambling",
+      not newsconfig.is_excluded("Makhachev vs Garry: fight picks and predictions", NCFG)
+      and not newsconfig.is_excluded("Our staff predictions for UFC 330", NCFG))
 check("betting/odds content is excluded (hard rule)",
       newsconfig.is_excluded("Best betting odds for fight night", NCFG))
 check("similar() collapses same story from two outlets",
