@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White 'very excited' about Bella Mir competing for UFC contract https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/13/ufc-dana-white-excite…",
-      "ts": "2026-08-13T15:25:56+00:00"
-    },
-    {
-      "t": "Between the Links: Islam Makhachev vs. Ian Machado Garry, UFC 330 buzz, more https://www.mmafighting.com/ufc/504588/between-the-links-islam-makhachev…",
-      "ts": "2026-08-13T15:35:01+00:00"
-    },
-    {
       "t": "Edson Barboza focused on Esteban Ribovics at #UFC330, not retirement https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/13/ufc-330-edson-barboza…",
       "ts": "2026-08-13T17:06:22+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Ian Machado Garry warns Carlos Prates: 'I whooped his ass for 24 minutes'",
       "ts": "2026-08-13T19:30:16+00:00"
+    },
+    {
+      "t": "O'Malley Predicts Garry Upsets Makhachev At UFC 330",
+      "ts": "2026-08-13T19:31:06+00:00"
+    },
+    {
+      "t": "Mackenzie Dern and Ian Machado Garry meet UFC seamstress Marshanay Douglas in behind-the-scenes preparation for UFC 330",
+      "ts": "2026-08-13T19:34:29+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "“It’s pretty competitive” @MackenzieDern is determined to keep winning at UFC330! Catch the full episode of UFC Connected ➡️: http://UFC.ac/4hzlgLD",
-      "url": "https://nitter.net/ufc/status/2087607550216732985#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-12T18:30:00+00:00"
-    },
-    {
-      "title": "A LOT on the line in this one 🤩 Does @MAKHACHEVMMA retain as champ at UFC330? [ LIVE SAT AUG 15 9pmET on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2087615103243825243#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-12T19:00:01+00:00"
-    },
     {
       "title": "Mansur Abdul-Malik is finding his flow 👊 Watch Episode 3 of UFC330 Embedded here ➡️ http://UFC.ac/4hwcnCu [ LIVE SAT AUG 15 9pmET on @ParamountPlu…",
       "url": "https://nitter.net/ufc/status/2087616178554577042#m",
@@ -2105,6 +2091,20 @@
       "source": "uk.sports.yahoo.com",
       "cat": "ufc",
       "ts": "2026-08-13T19:30:16+00:00"
+    },
+    {
+      "title": "O'Malley Predicts Garry Upsets Makhachev At UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeURKZUhqRWhlVjRZVXc0azhhSnJ0NTUyeG9JSUw2LU1OM0ZLblNleWtJYlUtM1VrV09pZXgyUGJVbENiOHlUSHRwSkVwWlZDRUttM0hEVmtYdnBiWWZ1RzJwNzVndGw1U3VtdTg0dzJ6Wm5nZ2RKVmJfWDZlUkRfdll3?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-13T19:31:06+00:00"
+    },
+    {
+      "title": "Mackenzie Dern and Ian Machado Garry meet UFC seamstress Marshanay Douglas in behind-the-scenes preparation for UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNME9TdDIzRkRidjBWSFYzanhlR05lOWRDTWN5QmxCbFdhZm1SVVJwNHpMbktWeVNlWXlGdWhUWVYtYVhSWjBDUG5vY1NjVUFxTkEyM1JYVkxiaDJMcXJMVG80eVktbzQ2U0lZVVRkM1Vwd05tVVB5TUdqMmVKWkN1cE1TblJtdGE4TTkzQ3VsVndMT0JfSGtsLWg0RTdUblFDZTBuZHlVTVRKRlREeEpXb3JubnpCeWJSdWFOM182bi1SbzRJSkE?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-13T19:34:29+00:00"
     }
   ],
   "digest_last": "2026-08-12 21:30",
@@ -2442,7 +2442,9 @@
     "CBMif0FVX3lxTE56UldEZ0VaZU9IR0pkam9aRVJZZXVyWGg5NDAwcUdhci05LThLWHB5T295MS1wVks0WW9SZGstUjVrZlo2SDlMNTdXamZORmwxQm00azhLN3dNLWd5QmhsdFktaXA2NVQxcUV2UHZnZzF3TmdqNGNVYzhtQjdudzQ",
     "CBMiugFBVV95cUxOU0tZUzc3dV9lbU9BRWk3QXhyYnZmOHlyekJkS2szY1JrZEREOTA3Z0VnbkJfR2Q5WkRBZFRGMmVGa1AydDZKR0owaGJaWUxzMHRaSFc4dUJTZ0tUZ1FLcUNWSk9NYmk0akRjNVMyNmt1SzNUTE5iejRrLXRmajg3ZDlWcUFTQ2RoODBjRXk3Q0gwVjE1M2tPNGtpWVhZd2p5d1pVbjVGbUozNmlVSVBITDhSTktuRDZ2Y3c",
     "CBMiqgFBVV95cUxQLUxMalpCdVFhSkNWa3RhZUhSNzFGa240VmhaT0RTb2czaE50YXNvTjF4T3lCbzVfWEcwYkJPQWxiMk5Sb1NfYXNIQ0swTUFDZGtiVlRfWTVBTVJQWDk2dmZLSThhOUFUSFdwVGZlb25XeE1udVBHekpLQ1RzaTZxWHlUQ2tOQjNEcV9RLVBZZnNwYlNxZDh2X01sUjNhejV3M3l5WmhxMGFtZw",
-    "CBMihAFBVV95cUxNbXdoUHJyQS1rbVhienA3OWQxSTcwUGtJNlRWR1pobEUxbE44YjVpOUVmSGt2Tk9Sbm5tekpDMDN6Njg4eUUtNkFLSGZILVQ3VEJhZy13Z0R3WHp0Z2JHQmt2MEF2NFp1UWlieFZvOUhDNENZUXF1VTVPUkpKV0t4eWM0OXM"
+    "CBMihAFBVV95cUxNbXdoUHJyQS1rbVhienA3OWQxSTcwUGtJNlRWR1pobEUxbE44YjVpOUVmSGt2Tk9Sbm5tekpDMDN6Njg4eUUtNkFLSGZILVQ3VEJhZy13Z0R3WHp0Z2JHQmt2MEF2NFp1UWlieFZvOUhDNENZUXF1VTVPUkpKV0t4eWM0OXM",
+    "CBMiggFBVV95cUxQeURKZUhqRWhlVjRZVXc0azhhSnJ0NTUyeG9JSUw2LU1OM0ZLblNleWtJYlUtM1VrV09pZXgyUGJVbENiOHlUSHRwSkVwWlZDRUttM0hEVmtYdnBiWWZ1RzJwNzVndGw1U3VtdTg0dzJ6Wm5nZ2RKVmJfWDZlUkRfdll3",
+    "CBMixgFBVV95cUxNME9TdDIzRkRidjBWSFYzanhlR05lOWRDTWN5QmxCbFdhZm1SVVJwNHpMbktWeVNlWXlGdWhUWVYtYVhSWjBDUG5vY1NjVUFxTkEyM1JYVkxiaDJMcXJMVG80eVktbzQ2U0lZVVRkM1Vwd05tVVB5TUdqMmVKWkN1cE1TblJtdGE4TTkzQ3VsVndMT0JfSGtsLWg0RTdUblFDZTBuZHlVTVRKRlREeEpXb3JubnpCeWJSdWFOM182bi1SbzRJSkE"
   ],
   "daily": {
     "d": "2026-08-13",
