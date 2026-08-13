@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev plans to 'humble' Ian Machado Garry at UFC 330: 'He acts like he's a bad boy'",
-      "ts": "2026-08-12T19:30:16+00:00"
-    },
-    {
-      "t": "Islam Makhachev scoffs at Ian Machado Garry being his toughest opponent to date at UFC 330: ‘It’s not going to be my biggest challenge’ https://www.m…",
-      "ts": "2026-08-12T19:34:23+00:00"
-    },
-    {
       "t": "‘Cold-blooded genius’… Khabib Nurmagomedov explains what separates Dana White from other promoters",
       "ts": "2026-08-12T20:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "“He’s Not Irish Bro”: Islam Makhachev Takes Sledge at Ian Machado Garry",
       "ts": "2026-08-13T18:32:05+00:00"
+    },
+    {
+      "t": "Garry Accuses Makhachev Of Wearing Heels At UFC 330",
+      "ts": "2026-08-13T18:31:39+00:00"
+    },
+    {
+      "t": "UFC 330 'Embedded,' No. 4: 'Philly cheesecake or cheesesteak?'",
+      "ts": "2026-08-13T18:32:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Every UFC win has been by finish 😳 Jalin Turner is looking to keep that stat intact at UFC330! [ LIVE SAT AUG 15 9pmET on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2087720801596256353#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-13T02:00:01+00:00"
-    },
-    {
-      "title": "Tyron Woodley: Islam Makhachev won't let ego get in way of UFC 330 win https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/12/ufc-330-tyron-woodl…",
-      "url": "https://nitter.net/MMAJunkie/status/2087722188237381935#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-13T02:05:32+00:00"
-    },
     {
       "title": "Dana White reveals Bella Mir’s big ambitions for her career DWCS",
       "url": "https://nitter.net/MMAJunkie/status/2087725438298664991#m",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-13T18:32:05+00:00"
+    },
+    {
+      "title": "Garry Accuses Makhachev Of Wearing Heels At UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAxVTVCMFVKbGVyZDFlRGRIcHR1Wmc1aXhFeUNVN1YxOWpwWmUxWE9VZjZ6NzhfX0E3UkdLRDE0NEQxdFpxcFZPTXBTRnNWVkFuVmZXSHlfd2NEOWNCVVluamVfbGxZWWxfeWFFMDN4dXctbVk?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-13T18:31:39+00:00"
+    },
+    {
+      "title": "UFC 330 'Embedded,' No. 4: 'Philly cheesecake or cheesesteak?'",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc2h2XzZzeC1hOGpJTXFSR2ZCWDhqM3JMUGRGblRuQU9OeUp2a2J1NVZfbWdJMVNDU3pEanZHZDlYUFZqU1lsTE42c0JGZlFydjQ0MTgtUUk0THV3c1RGd255WGJWR2RXRHB1TmJOUk5sUHdTZ19RSm83eHB5ZVNOU0Z0T2F6MlNpQUdibWoyUTdWai1tVUZ2bW0zb1BueWNXN3hJU0dUYjFWQU1oMmFJYjlhTzQtdU5sV0Y1LTZJdUs?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-13T18:32:00+00:00"
     }
   ],
   "digest_last": "2026-08-12 21:30",
@@ -2413,6 +2413,8 @@
     "2087969685203472448",
     "https://bloodyelbow.com/?p=326534",
     "CBMiiAFBVV95cUxOdDVVdTluYS1QNHNTNmRzZXViLXFQV2ltdGx0TVhVR2l0QUxKbmFRRUFxa203eTNjVHdscXV6MU5qeEVNc3V2RzEwaks0TVpkY05hbmR0RldQaDlud3U4eTZnMjgxZGFvY0RKTlNQd3UtLThiWVAxR3UzS0ZUVU8wSDVsejJHNzhW0gGOAUFVX3lxTE1QV2pEVFprdnY0d3hZbVJOZE04bXA1bl8tUG5uLVFsRVJYb1AxMThhVk1EcWlQaDNMZG9PV2V0cnlrbVV6TFpleUJWN29RdWZsblVfc0NjUGdjSy1YYVhmbmdyc2p2VktNcDF5NndIR2wwN1hhaGxtZVk4TThuZ05Xcm5hd0szbXNCWWFfOFE",
-    "CBMimgFBVV95cUxPQ3VHNEtPaFRSWWttTHVfc2R4ZUlOXzNucEtSalFfUDY0bS1EN2ZOUDFvS3RTSG5yenZxS3ZPcEQtU3RmM05Pc0NJTzlKVk4wZXc1cEhLXzAwR19TREVLM01sOGlnVl9LR2RlT0Y0Rjl1Uy01SnF1TWdqV3JlTlZyUWIwdFVPTGdKSWNTWGIwUWZHcUZCZDdyLWdn"
+    "CBMimgFBVV95cUxPQ3VHNEtPaFRSWWttTHVfc2R4ZUlOXzNucEtSalFfUDY0bS1EN2ZOUDFvS3RTSG5yenZxS3ZPcEQtU3RmM05Pc0NJTzlKVk4wZXc1cEhLXzAwR19TREVLM01sOGlnVl9LR2RlT0Y0Rjl1Uy01SnF1TWdqV3JlTlZyUWIwdFVPTGdKSWNTWGIwUWZHcUZCZDdyLWdn",
+    "CBMic0FVX3lxTFAxVTVCMFVKbGVyZDFlRGRIcHR1Wmc1aXhFeUNVN1YxOWpwWmUxWE9VZjZ6NzhfX0E3UkdLRDE0NEQxdFpxcFZPTXBTRnNWVkFuVmZXSHlfd2NEOWNCVVluamVfbGxZWWxfeWFFMDN4dXctbVk",
+    "CBMiwAFBVV95cUxNc2h2XzZzeC1hOGpJTXFSR2ZCWDhqM3JMUGRGblRuQU9OeUp2a2J1NVZfbWdJMVNDU3pEanZHZDlYUFZqU1lsTE42c0JGZlFydjQ0MTgtUUk0THV3c1RGd255WGJWR2RXRHB1TmJOUk5sUHdTZ19RSm83eHB5ZVNOU0Z0T2F6MlNpQUdibWoyUTdWai1tVUZ2bW0zb1BueWNXN3hJU0dUYjFWQU1oMmFJYjlhTzQtdU5sV0Y1LTZJdUs"
   ]
 }
