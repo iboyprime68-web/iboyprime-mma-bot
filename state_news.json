@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev stumps for Usman Nurmagomedov to join UFC: ‘He’s ready to fight for the title tomorrow’",
-      "ts": "2026-08-13T17:00:00+00:00"
-    },
-    {
-      "t": "Former UFC title challenger looks to break seven-fight losing streak as Marlon Moraes ends retirement",
-      "ts": "2026-08-13T17:00:00+00:00"
-    },
-    {
       "t": "Islam Makhachev says Usman Nurmagomedov is more than ready to conquer the #UFC 📰 https://mma-fighting.visitlink.me/AsXwRZ",
       "ts": "2026-08-13T17:30:21+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Ian Machado Garry says Carlos Prates \"is the only one\" deserving of the next title shot after he beats Islam Makhachev at #UFC330 📰 https://mma-fight…",
       "ts": "2026-08-13T19:30:10+00:00"
+    },
+    {
+      "t": "Ian Machado Garry Plans To Pass Conor McGregor At UFC 330",
+      "ts": "2026-08-13T19:41:17+00:00"
+    },
+    {
+      "t": "Ian Machado Garry Went To Georgia To Solve Islam Makhachev",
+      "ts": "2026-08-13T19:41:19+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Mansur Abdul-Malik reflects on his first pro loss ahead of his return at UFC330: \"The thing to change was to be myself. I was trying to be too perfe…",
-      "url": "https://nitter.net/MMAFighting/status/2087617447985869181#m",
-      "source": "MMA Fighting on X",
-      "cat": "ufc",
-      "ts": "2026-08-12T19:09:20+00:00"
-    },
-    {
-      "title": "‘Cold-blooded genius’… Khabib Nurmagomedov explains what separates Dana White from other promoters",
-      "url": "https://bloodyelbow.com/2026/08/12/cold-blooded-genius-khabib-nurmagomedov-explains-what-separates-dana-white-from-other-promoters/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-12T20:00:00+00:00"
-    },
     {
       "title": "Fans say Ian Machado Garry is ‘in trouble’ after first face-off with Islam Makhachev busts size myth",
       "url": "https://bloodyelbow.com/2026/08/12/fans-say-ian-machado-garry-is-in-trouble-after-first-face-off-with-islam-makhachev-busts-size-myth/",
@@ -2105,6 +2091,20 @@
       "source": "MMA Fighting on X",
       "cat": "ufc",
       "ts": "2026-08-13T19:30:10+00:00"
+    },
+    {
+      "title": "Ian Machado Garry Plans To Pass Conor McGregor At UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd2JGWllIQUJRZ1FLYzhlVU5heElrdlNHa2I0NTF2ZzRNOTlWSU5VWjBkWXBPS3h4eUw3ZC1lT1hneG9kZmxaWDBKdHJMbDJ0ZEZDOVdyQVY0ZXBtNnZMODdoZFRjTlAwVGM4cmZ5aHVKTUlpWXliQUlxRy1uRjdsanU0VQ?oc=5",
+      "source": "MMANews.com",
+      "cat": "ufc",
+      "ts": "2026-08-13T19:41:17+00:00"
+    },
+    {
+      "title": "Ian Machado Garry Went To Georgia To Solve Islam Makhachev",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORGhGTWdYYWxoWkxBUXhqWGloenBUa1QyLThHSWctYTJMN3M0VUprMDBhWE5YV3J2WVRLX05VbUxrcDU1YjZmSXMtQkxPa3VqUjdUdFZfY25hMVNjMmpKWEp6OWRMZ21WTVR1TmNsS3RmblVZb3NCRWVkLWNOQVg4RDhPVlJDaDZzOEdON1BuX2FGNV9r?oc=5",
+      "source": "MMANews.com",
+      "cat": "ufc",
+      "ts": "2026-08-13T19:41:19+00:00"
     }
   ],
   "digest_last": "2026-08-12 21:30",
@@ -2445,7 +2445,9 @@
     "CBMihAFBVV95cUxNbXdoUHJyQS1rbVhienA3OWQxSTcwUGtJNlRWR1pobEUxbE44YjVpOUVmSGt2Tk9Sbm5tekpDMDN6Njg4eUUtNkFLSGZILVQ3VEJhZy13Z0R3WHp0Z2JHQmt2MEF2NFp1UWlieFZvOUhDNENZUXF1VTVPUkpKV0t4eWM0OXM",
     "CBMiggFBVV95cUxQeURKZUhqRWhlVjRZVXc0azhhSnJ0NTUyeG9JSUw2LU1OM0ZLblNleWtJYlUtM1VrV09pZXgyUGJVbENiOHlUSHRwSkVwWlZDRUttM0hEVmtYdnBiWWZ1RzJwNzVndGw1U3VtdTg0dzJ6Wm5nZ2RKVmJfWDZlUkRfdll3",
     "CBMixgFBVV95cUxNME9TdDIzRkRidjBWSFYzanhlR05lOWRDTWN5QmxCbFdhZm1SVVJwNHpMbktWeVNlWXlGdWhUWVYtYVhSWjBDUG5vY1NjVUFxTkEyM1JYVkxiaDJMcXJMVG80eVktbzQ2U0lZVVRkM1Vwd05tVVB5TUdqMmVKWkN1cE1TblJtdGE4TTkzQ3VsVndMT0JfSGtsLWg0RTdUblFDZTBuZHlVTVRKRlREeEpXb3JubnpCeWJSdWFOM182bi1SbzRJSkE",
-    "2087985079406694635"
+    "2087985079406694635",
+    "CBMigwFBVV95cUxOd2JGWllIQUJRZ1FLYzhlVU5heElrdlNHa2I0NTF2ZzRNOTlWSU5VWjBkWXBPS3h4eUw3ZC1lT1hneG9kZmxaWDBKdHJMbDJ0ZEZDOVdyQVY0ZXBtNnZMODdoZFRjTlAwVGM4cmZ5aHVKTUlpWXliQUlxRy1uRjdsanU0VQ",
+    "CBMilAFBVV95cUxORGhGTWdYYWxoWkxBUXhqWGloenBUa1QyLThHSWctYTJMN3M0VUprMDBhWE5YV3J2WVRLX05VbUxrcDU1YjZmSXMtQkxPa3VqUjdUdFZfY25hMVNjMmpKWEp6OWRMZ21WTVR1TmNsS3RmblVZb3NCRWVkLWNOQVg4RDhPVlJDaDZzOEdON1BuX2FGNV9r"
   ],
   "daily": {
     "d": "2026-08-13",
