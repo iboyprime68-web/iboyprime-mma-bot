@@ -1,0 +1,26 @@
+name: Studio Cleanup
+on:
+  schedule:
+    - cron: '17 5 * * *'     # once a day at 05:17 UTC. The job takes seconds, so it can
+                             # never still be running when the next tick arrives - the
+                             # pending-run cancellation that mailed the owner "Run failed"
+                             # in Aug 2026 needs a job that outlives its own cron.
+  workflow_dispatch:
+permissions:
+  contents: read             # deletes Discord messages only; writes nothing to the repo,
+                             # and keeps no state file (message timestamps are the state)
+concurrency:
+  group: bot-studio-clean
+  cancel-in-progress: false  # a cancelled run mails the owner exactly like a failed one
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Delete staged posts older than the retention window
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: python studio_clean.py
