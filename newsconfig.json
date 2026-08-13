@@ -15,12 +15,55 @@
     "mma_mania": {
       "label": "MMA Mania",
       "url": "https://www.mmamania.com/rss/current.xml",
-      "enabled": true
+      "enabled": true,
+      "min_poll": 300
+    },
+    "google_news_ufc": {
+      "label": "Google News",
+      "url": "https://news.google.com/rss/search?q=UFC+when:1h&hl=en-US&gl=US&ceid=US:en",
+      "enabled": true,
+      "flavor": "google_news",
+      "min_poll": 60
+    },
+    "yahoo_mma": {
+      "label": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/mma/rss.xml",
+      "enabled": true,
+      "min_poll": 60
     },
     "sherdog": {
       "label": "Sherdog",
       "url": "https://www.sherdog.com/rss/news.xml",
-      "enabled": false
+      "enabled": true,
+      "min_poll": 300
+    },
+    "x_helwani": {
+      "label": "Ariel Helwani",
+      "url": "https://nitter.net/arielhelwani/rss",
+      "enabled": true,
+      "flavor": "nitter",
+      "min_poll": 90
+    },
+    "x_mmafighting": {
+      "label": "MMA Fighting on X",
+      "url": "https://nitter.net/MMAFighting/rss",
+      "enabled": true,
+      "flavor": "nitter",
+      "min_poll": 90
+    },
+    "x_mmajunkie": {
+      "label": "MMA Junkie on X",
+      "url": "https://nitter.net/mmajunkie/rss",
+      "enabled": true,
+      "flavor": "nitter",
+      "min_poll": 90
+    },
+    "x_ufc": {
+      "label": "UFC on X",
+      "url": "https://nitter.net/ufc/rss",
+      "enabled": true,
+      "flavor": "nitter",
+      "min_poll": 90
     },
     "bad_left_hook": {
       "label": "Bad Left Hook",
@@ -114,6 +157,14 @@
     ],
     "min_items": 3,
     "ping": true
+  },
+  "scoring": {
+    "enabled": true,
+    "stage_threshold": 70,
+    "ping_threshold": 85,
+    "model": "",
+    "max_tokens": 220,
+    "timeout": 20
   },
   "max_per_hour": 6,
   "dedupe_similar": true,
