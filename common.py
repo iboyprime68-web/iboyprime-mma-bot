@@ -115,41 +115,56 @@ def edit_message(channel_id, message_id, content=None, embeds=None, allowed_ment
     return discord("PATCH", "/channels/%s/messages/%s" % (channel_id, message_id), body)
 
 
+def _file_ctype(fn):
+    """Content type for an image attachment, by extension. Pure."""
+    ext = fn.rsplit(".", 1)[-1].lower() if "." in fn else ""
+    return {"png": "image/png", "jpg": "image/jpeg", "jpeg": "image/jpeg",
+            "webp": "image/webp", "gif": "image/gif"}.get(ext, "image/png")
+
+
 def post_file(channel_id, content, file_path, filename=None, allowed_mentions=None, embeds=None, silent=False):
-    """POST a message with ONE local file attached (multipart/form-data, stdlib).
+    """POST a message with local file(s) attached (multipart/form-data, stdlib).
 
     Same message shape as post_message (1990 truncation, NO_PINGS default,
-    silent flag) plus the file at file_path riding as attachment 0. The file
-    part's content-type is inferred from the extension (png/jpg/jpeg/webp/gif);
-    anything else is sent as image/png. Returns (status, parsed_json_or_text)
-    like discord().
+    silent flag) plus the file(s) riding as attachments. file_path is one path
+    (with optional filename override) or a list of (path, filename) pairs -
+    the staged-post round-trip ships the rendered card AND the raw story
+    photo in one message. Content-type is inferred from each extension
+    (png/jpg/jpeg/webp/gif); anything else is sent as image/png. Returns
+    (status, parsed_json_or_text) like discord().
     """
-    fn = filename or os.path.basename(file_path)
-    ext = fn.rsplit(".", 1)[-1].lower() if "." in fn else ""
-    ctype = {"png": "image/png", "jpg": "image/jpeg", "jpeg": "image/jpeg",
-             "webp": "image/webp", "gif": "image/gif"}.get(ext, "image/png")
-    with open(file_path, "rb") as f:
-        blob = f.read()
+    if isinstance(file_path, (list, tuple)):
+        files = [(p, fn or os.path.basename(p)) for p, fn in file_path]
+    else:
+        files = [(file_path, filename or os.path.basename(file_path))]
     payload = {"content": content[:1990],
                "allowed_mentions": allowed_mentions if allowed_mentions is not None else NO_PINGS,
-               "attachments": [{"id": 0, "filename": fn}]}
+               "attachments": [{"id": i, "filename": fn}
+                               for i, (_p, fn) in enumerate(files)]}
     if embeds:
         payload["embeds"] = embeds
     if silent:
         payload["flags"] = SILENT_FLAG
     boundary = "iBPMultipart" + os.urandom(16).hex()
     bnd = boundary.encode("ascii")
-    body = b"".join([
+    parts = [
         b"--" + bnd + b"\r\n",
         b'Content-Disposition: form-data; name="payload_json"\r\n',
         b"Content-Type: application/json\r\n\r\n",
         json.dumps(payload).encode("utf-8") + b"\r\n",
-        b"--" + bnd + b"\r\n",
-        ('Content-Disposition: form-data; name="files[0]"; filename="%s"\r\n' % fn).encode("utf-8"),
-        ("Content-Type: %s\r\n\r\n" % ctype).encode("ascii"),
-        blob + b"\r\n",
-        b"--" + bnd + b"--\r\n",
-    ])
+    ]
+    for i, (path, fn) in enumerate(files):
+        with open(path, "rb") as f:
+            blob = f.read()
+        parts += [
+            b"--" + bnd + b"\r\n",
+            ('Content-Disposition: form-data; name="files[%d]"; filename="%s"\r\n'
+             % (i, fn)).encode("utf-8"),
+            ("Content-Type: %s\r\n\r\n" % _file_ctype(fn)).encode("ascii"),
+            blob + b"\r\n",
+        ]
+    parts.append(b"--" + bnd + b"--\r\n")
+    body = b"".join(parts)
     h = {"Authorization": "Bot " + token(), "User-Agent": DISCORD_UA,
          "Content-Type": "multipart/form-data; boundary=" + boundary}
     code, text = http(DISCORD + "/channels/%s/messages" % channel_id,
