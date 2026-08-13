@@ -158,13 +158,16 @@
     "min_items": 3,
     "ping": true
   },
+  "emphasis": "auto",
   "scoring": {
     "enabled": true,
     "stage_threshold": 70,
     "ping_threshold": 85,
     "model": "",
     "max_tokens": 220,
-    "timeout": 20
+    "timeout": 20,
+    "max_ai_calls_per_day": 120,
+    "max_staged_per_day": 6
   },
   "max_per_hour": 6,
   "dedupe_similar": true,
