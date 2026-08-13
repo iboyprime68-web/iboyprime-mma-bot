@@ -61,12 +61,12 @@ def http(url, headers=None, method="GET", body=None, raw_body=None, tries=4, tim
     return last
 
 
-def get_text(url, headers=None, tries=4):
-    return http(url, headers=headers, method="GET", tries=tries)
+def get_text(url, headers=None, tries=4, timeout=30):
+    return http(url, headers=headers, method="GET", tries=tries, timeout=timeout)
 
 
-def get_json(url, headers=None, tries=4):
-    code, text = http(url, headers=headers, method="GET", tries=tries)
+def get_json(url, headers=None, tries=4, timeout=30):
+    code, text = http(url, headers=headers, method="GET", tries=tries, timeout=timeout)
     try:
         return code, (json.loads(text) if text else None)
     except Exception:
@@ -113,6 +113,51 @@ def edit_message(channel_id, message_id, content=None, embeds=None, allowed_ment
     if embeds is not None:
         body["embeds"] = embeds
     return discord("PATCH", "/channels/%s/messages/%s" % (channel_id, message_id), body)
+
+
+def post_file(channel_id, content, file_path, filename=None, allowed_mentions=None, embeds=None, silent=False):
+    """POST a message with ONE local file attached (multipart/form-data, stdlib).
+
+    Same message shape as post_message (1990 truncation, NO_PINGS default,
+    silent flag) plus the file at file_path riding as attachment 0. The file
+    part's content-type is inferred from the extension (png/jpg/jpeg/webp/gif);
+    anything else is sent as image/png. Returns (status, parsed_json_or_text)
+    like discord().
+    """
+    fn = filename or os.path.basename(file_path)
+    ext = fn.rsplit(".", 1)[-1].lower() if "." in fn else ""
+    ctype = {"png": "image/png", "jpg": "image/jpeg", "jpeg": "image/jpeg",
+             "webp": "image/webp", "gif": "image/gif"}.get(ext, "image/png")
+    with open(file_path, "rb") as f:
+        blob = f.read()
+    payload = {"content": content[:1990],
+               "allowed_mentions": allowed_mentions if allowed_mentions is not None else NO_PINGS,
+               "attachments": [{"id": 0, "filename": fn}]}
+    if embeds:
+        payload["embeds"] = embeds
+    if silent:
+        payload["flags"] = SILENT_FLAG
+    boundary = "iBPMultipart" + os.urandom(16).hex()
+    bnd = boundary.encode("ascii")
+    body = b"".join([
+        b"--" + bnd + b"\r\n",
+        b'Content-Disposition: form-data; name="payload_json"\r\n',
+        b"Content-Type: application/json\r\n\r\n",
+        json.dumps(payload).encode("utf-8") + b"\r\n",
+        b"--" + bnd + b"\r\n",
+        ('Content-Disposition: form-data; name="files[0]"; filename="%s"\r\n' % fn).encode("utf-8"),
+        ("Content-Type: %s\r\n\r\n" % ctype).encode("ascii"),
+        blob + b"\r\n",
+        b"--" + bnd + b"--\r\n",
+    ])
+    h = {"Authorization": "Bot " + token(), "User-Agent": DISCORD_UA,
+         "Content-Type": "multipart/form-data; boundary=" + boundary}
+    code, text = http(DISCORD + "/channels/%s/messages" % channel_id,
+                      headers=h, method="POST", raw_body=body)
+    try:
+        return code, (json.loads(text) if text else {})
+    except Exception:
+        return code, {"_raw": text}
 
 
 def create_forum_thread(forum_id, title, content, allowed_mentions=None, applied_tags=None):
