@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "New Opponent for Charles Johnson at UFC 330 in Philadelphia",
-      "ts": "2026-08-12T18:18:12+00:00"
-    },
-    {
       "t": "Ian Machado Garry explains why Islam Makhachev is the perfect UFC title fight",
       "ts": "2026-08-12T18:40:25+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Josh Hokit threatens to 'punt' Ian Garry's three-year-old son for crying, after being ignored by Islam Makhachev",
       "ts": "2026-08-13T15:30:00+00:00"
+    },
+    {
+      "t": "Ian Garry Puts Islam Makhachev on Notice While the Champ Vows to Humble Him at UFC 330",
+      "ts": "2026-08-13T16:26:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Khabib Nurmagomedov reveals what Dana White is really like behind the scenes at UFC",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd1ViNlpxTUxFM0VjY29UUGRNY0ZnOVhSUXhkNWVJUFhsRnVhWFB2anRPaFNHNWFQMnhCMG9JSm81ZmRDMk4ySGN0bkVvdjRBeGhPb3VpaUItTzAyNGNvMkxtMWxEUmk0STk4cTRKQzhuU1N6R2lHelhwZVppRnpyYzRSOTNhT1VUWXV0M1ZyTzlIcEVNMEo4NkZR?oc=5",
-      "source": "SPORTbible",
-      "cat": "ufc",
-      "ts": "2026-08-13T15:15:00+00:00"
-    },
     {
       "title": "Bilal Hasan books UFC debut in same month as DWCS 87 knockout",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc2JYMlFLSjlfcU1PY1FwSzdQcDVxeUp4X2xhMU1Bd2JRdGw5eG5jbFAweU1CYmNtM203UFdQb18tRm9jY2dBbGZlSEpUQ2VhVTdZSG11cTdoVkE4dTdYRHd3ajl4dmRYWVExR09TRzM0OGNYb2cwT21JYkxFdmlObzAtZ0pDZnZBUjNjeEo4T1NYN29fMm1kTUJTOGFwa051M0Z2dVpjZ2xVQ2tTY18xQkQycENVY2N5RVFuV3pybVA?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Operation Sports",
       "cat": "ufc",
       "ts": "2026-08-13T15:30:00+00:00"
+    },
+    {
+      "title": "Ian Garry Puts Islam Makhachev on Notice While the Champ Vows to Humble Him at UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUldHSVlDZElCMlBJYmVQQmxLRk5KSDFCRm96ajlhbTd1dGNjTFRyTUFKX3Y4U3J5T29NY3EyM1pOS1ZYbXVrbld1YThUMTA0ZnhNZzFjdVMzY0VTaTZ1eTZ2akEwX25xMk9VT0h2RTl0bUcwc1pmeE5wX3E5eUduNERPUmtiNUxKRG9NbFJyMTRKdW5IUzR1OVFjN3pPcU9fSzVTclEzQXREXzJUTVowX0RXdTVhU09LVnkzOHRlV0ItaGQ1V0xlaGt4SWpTcXM?oc=5",
+      "source": "EssentiallySports",
+      "cat": "ufc",
+      "ts": "2026-08-13T16:26:00+00:00"
     }
   ],
   "digest_last": "2026-08-12 21:30",
@@ -2346,6 +2346,7 @@
     "CBMieEFVX3lxTE84SmJkT2R5MFFIWGtfaEZELTl2VzlPYm41UWQwX3VnTnhUMlpzMXloSlppY2E2ZEtmanJiZkphcXZNYzdnNzc2UHhTMFVxell2VTFLNTM5Tm5pNFA0aXYtTFN4RkdpVF9vXy1hSVM2MjJWdGJNZHFuZw",
     "CBMinwFBVV95cUxNclNFbUFtVDljbmM0SDhUMDZHYTJsZ1BnaUhQUTMyZ2dlczJ3UENCNjZiMlpmaTVZd1hhc094Y0VhdUVFQ1c0TEhVMXQ2eU9zSVpXdWUyWElrYWVZUnhoampHdGRrVjNpRlFkb1ZnWWdTLWlLYUluc2hSc2RWTUxwTk9pdk04V2VtNnRXcXlKMldITm9HS3BGWWJXZG1mNms",
     "CBMi3gFBVV95cUxPaDlnNmdzb3hydEppamliOFE3YWk2amtPSV9DaGZpaDRvQ1RmRFlzbHZCQ1pxY25McmY3R2J3ZU5fWnFzdmNkaFl1Z01KWHptT3JDZG1Fam9wRzd1UlE5WEtfRElCcXFveTVncC0yWDBJRzA4NXFoT05CeE9vVjFQbEdaQkdBSktSQmFSMFN0MjdKNXJrdmR2dHpXNEc2b05mWWN4YzEtSjdXS2xOOFAyQlhHcVNvQjFXVGkwU1A4UkhORDd2NmVrX0tKQ0VsQXQzOGhBcHpSc2hkQmJHdnfSAeMBQVVfeXFMTk93T2RiWE5PcVNETTJlR1F1bEFjSGJXTXRyS1BZZDIzNGNlZFYwT1Z0Q2hQcTNJNklxSWs3OUZwR290TllVMVZpaTRyMndLSGJ6a3ZvYzZKc2F5LTFFNkVZd0VURmpERjV5a3kxMWlWdzhaOGtFT2tPeHFuTVBGa2Z4YVpsN09jWk9MY0FJSnpJT0Q0ck9mVmRZUjd3bXBRYVhYOThRMGFmZWswcUhKWGJfNDY5T0ZsOERITmRJR0M5M01aWGV3ekYzMXVVajVsNFNfVXFrQmU4MnA0TFJQblVOOWc",
-    "CBMi5AFBVV95cUxNV3lKNlBoVXZ0VW1yLUR1OVBaVXN1UjJBS3BWd0IzYzlkbTRIeTFKWG1jeGxTUDEzLUFYdjlpN3YwUUlkLVhLT1g4X1BaN3l5UkZpaUFUYU9CRDVwZkptdVZKTnFfajMtMW94QUpqcTEyWXdLVnE1czZnSktENV9rb1R3aDY3akpTNWl5MnFIWHdaV1ZjcjBwYkpHOGV0Zmlfb0hCVTA3UHNYd09GOXBfSnFnY2xJbnNwcUg2b2lnb25WOWJPSkNMUEU5YnMtX2E4RFRuU0RHbkJWYy1tNFozOVhudTk"
+    "CBMi5AFBVV95cUxNV3lKNlBoVXZ0VW1yLUR1OVBaVXN1UjJBS3BWd0IzYzlkbTRIeTFKWG1jeGxTUDEzLUFYdjlpN3YwUUlkLVhLT1g4X1BaN3l5UkZpaUFUYU9CRDVwZkptdVZKTnFfajMtMW94QUpqcTEyWXdLVnE1czZnSktENV9rb1R3aDY3akpTNWl5MnFIWHdaV1ZjcjBwYkpHOGV0Zmlfb0hCVTA3UHNYd09GOXBfSnFnY2xJbnNwcUg2b2lnb25WOWJPSkNMUEU5YnMtX2E4RFRuU0RHbkJWYy1tNFozOVhudTk",
+    "CBMizwFBVV95cUxPUldHSVlDZElCMlBJYmVQQmxLRk5KSDFCRm96ajlhbTd1dGNjTFRyTUFKX3Y4U3J5T29NY3EyM1pOS1ZYbXVrbld1YThUMTA0ZnhNZzFjdVMzY0VTaTZ1eTZ2akEwX25xMk9VT0h2RTl0bUcwc1pmeE5wX3E5eUduNERPUmtiNUxKRG9NbFJyMTRKdW5IUzR1OVFjN3pPcU9fSzVTclEzQXREXzJUTVowX0RXdTVhU09LVnkzOHRlV0ItaGQ1V0xlaGt4SWpTcXM"
   ]
 }
