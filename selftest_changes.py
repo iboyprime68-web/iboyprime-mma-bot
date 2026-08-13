@@ -2805,19 +2805,19 @@ if _pil_ok:
         vals = [_under(img, w) for w in words if w["hot"] is hot]
         return sum(vals) / float(max(1, len(vals)))
 
-    # THE fix for the three blind losses on colored words: a purple fill tops
-    # out around 187/255 against white's 253, so it can never win on glyph
-    # luminance. It wins by taking its GROUND down instead - the per-word ink
-    # pocket - which is exactly what stops it sinking into a warm photo.
+    # OWNER RULE (he reviewed a live card): NO dark slab, pocket or halo behind
+    # the coloured words - "a strange drop shadow... ugly... remove it
+    # completely". The blind-critic contrast argument does not get to win this
+    # one. Guard it by measuring the ground: a hot word must sit on the SAME
+    # ground as its white neighbours, not on a darkened patch.
     _hot_g = _mean_under(_img_c, _words_c, True)
     _white_g = _mean_under(_img_c, _words_c, False)
-    check("color mode sinks an ink pocket under the hot words, so a purple "
-          "fill never sits on the warm photo the way it used to",
-          _hot_g < _white_g - 6
-          and _hot_g < _mean_under(_img_u, _words_u, True) - 6)
-    check("the pocket is local to the hot words, not a plate over the block "
-          "(the white words keep their own ground)",
-          _white_g > 24)
+    check("no dark pocket behind the coloured words (owner rule): hot words "
+          "sit on the same ground as the white ones",
+          abs(_hot_g - _white_g) < 12)
+    check("the pocket knobs are all OFF and stay off",
+          all(postcard.STYLE[k] == 0 for k in
+              ("news_hot_pocket", "news_hot_halo", "news_hot_plate")))
     check("the pocket knobs exist and are all word-local",
           all(k in postcard.STYLE for k in
               ("news_hot_pocket", "news_hot_pocket_grow", "news_hot_plate",
