@@ -25,6 +25,17 @@ from modconfig import deep_merge   # generic dict merge - reuse, don't duplicate
 NEWSCONFIG_FILE = "newsconfig.json"
 MODES = ["realtime", "hybrid", "digest"]
 
+# The AI scoring providers the owner may name in scoring.provider. ONE source
+# of truth: scorer.py owns the table (endpoint + default model + env var), and
+# this module only validates against its names. Never re-type the list here -
+# a second copy is how the social links drifted (see CLAUDE.md 0d). The import
+# is guarded because newsconfig is also read in checkouts where scorer is not
+# present; an empty tuple just means "skip the provider check", never a crash.
+try:
+    from scorer import PROVIDER_NAMES as SCORING_PROVIDERS
+except Exception:                                  # pragma: no cover
+    SCORING_PROVIDERS = ()
+
 # How the staged poster emphasises its hot words (postcard.render_news):
 #   color      the hot words are filled in the brand accent (the owner's
 #              default - "I prefer text a different color because underline
@@ -147,8 +158,12 @@ def base_defaults():
         # Hot-word emphasis on the staged poster (see EMPHASIS_MODES).
         "emphasis": "color",
         # AI story scoring for the YouTube staging pipeline (scorer.py). Works
-        # without any key (deterministic heuristic); a DeepSeek or OpenRouter
-        # key in the environment upgrades it. Thresholds are 0-100: at
+        # without any key (deterministic heuristic); any provider key in the
+        # environment upgrades it - DeepSeek, OpenRouter, Z.ai (GLM), Groq,
+        # Together, Mistral or OpenAI. "provider" picks one by name; empty
+        # means auto, which takes the first of those with a key set (DeepSeek
+        # first). "model" overrides that provider's default model.
+        # Thresholds are 0-100: at
         # stage_threshold the story is rendered + staged in the studio channel,
         # at ping_threshold the staged message also pings the owner.
         #
@@ -162,8 +177,13 @@ def base_defaults():
         #   max_staged_per_day    studio posts. Over the cap the story is
         #                         skipped with a printed note.
         "scoring": {"enabled": True, "stage_threshold": 70, "ping_threshold": 85,
-                    "model": "", "max_tokens": 220, "timeout": 20,
+                    "provider": "", "model": "", "max_tokens": 220, "timeout": 20,
                     "max_ai_calls_per_day": 120, "max_staged_per_day": 6},
+        # How long a staged post lives in the hidden studio channel before
+        # studio_clean.py deletes it (owner: keep that channel tidy). Counted
+        # from the message timestamp, so no state file is needed, and only the
+        # bot's OWN messages are ever removed.
+        "studio_retention_days": 2,
         "max_per_hour": 6,
         "dedupe_similar": True,
         "similar_threshold": 0.6,
@@ -259,6 +279,15 @@ def validate_newsconfig(cfg, secret_values=()):
     if cfg.get("emphasis", "auto") not in EMPHASIS_MODES:
         problems.append("emphasis must be one of %s" % "/".join(EMPHASIS_MODES))
     sc = cfg.get("scoring", {}) or {}
+    prov = str(sc.get("provider", "") or "").strip()
+    if prov and SCORING_PROVIDERS and prov not in SCORING_PROVIDERS:
+        problems.append("scoring provider %r must be empty (auto) or one of %s"
+                        % (prov, "/".join(SCORING_PROVIDERS)))
+    try:
+        if int(cfg.get("studio_retention_days", 2)) < 1:
+            problems.append("studio_retention_days must be >= 1")
+    except (TypeError, ValueError):
+        problems.append("studio_retention_days must be a whole number")
     for key in ("max_ai_calls_per_day", "max_staged_per_day"):
         if key not in sc:
             continue
