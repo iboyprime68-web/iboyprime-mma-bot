@@ -36,23 +36,25 @@ DEMO_DIR = os.environ.get("POSTCARD_DEMO_DIR") or os.path.join(
 
 PALETTE = {
     "accent":      "#8B70FF",   # 7C5CFF-family purple, lifted so it reads on near-black
-    "accent_hot":  "#8A6FFA",   # HOT WORDS, the quote glyphs and the footer.
-                                # EXACT VALUE GIVEN BY THE OWNER (Aug 2026):
-                                # "what the text colour should be: 8a6ffa".
-                                # Do not shift it toward magenta again.
+    "accent_hot":  "#6A49EC",   # HOT WORDS, the quote glyphs and the footer.
+                                # OWNER-PICKED off a rendered swatch sheet (option D of
+                                # five). He rejected paler and more magenta
+                                # steps in turn; this is the one he chose
+                                # looking at the real card. Do not shift it.
                                 # speaker. Round-3 verdict: the old pastel
                                 # lavender (#B09CFF) read soft-not-fight-night
                                 # and washed out against warm skin; this is the
                                 # VIVID violet step - more chroma than accent,
                                 # same luminance ballpark - and the text band
                                 # scrim underneath carries the contrast
-    "accent_fill": "#8A6FFA",   # HOT-WORD GLYPH FILL. THE OWNER'S EXACT HEX,
-                                # given after two wrong guesses from me: too
-                                # pale (#D2ADFF, chosen to pass a contrast
-                                # measurement) then too magenta (#A45CFF).
-                                # It matches PALETTE["accent"] and the bright
-                                # end of the footer bar, so the card carries
-                                # ONE purple. Never "improve" this value.
+    "accent_fill": "#6A49EC",   # HOT-WORD GLYPH FILL. THE OWNER'S CHOICE, picked
+                                # from a rendered five-way swatch sheet after
+                                # three wrong guesses from me (too pale
+                                # #D2ADFF, too magenta #A45CFF, too light
+                                # #8A6FFA). Deeper than PALETTE["accent"] on
+                                # purpose - it reads as violet on the
+                                # near-black seam instead of washing out.
+                                # Never "improve" this value.
     "accent_deep": "#5B3DF5",   # darker sibling for glows / gradient bottoms
     "accent_soft": "#C9BBFF",   # pale lavender for meta type on dark purple fields
     "rim":         "#D9A6FF",   # chromatic violet rim light on fighter cutouts
@@ -1166,7 +1168,13 @@ def _all_hot(line, hot):
 # carries, else the poster line) and indexes this ring. Two thirds color, one
 # third underline - variety without the underline device ever dominating.
 EMPHASIS_MODES    = ("color", "underline")
-EMPHASIS_ROTATION = ("color", "color", "underline")
+# OWNER RULE (Aug 2026, stated twice): coloured words only. The rotation
+# used to mix in "underline" for variety and he kept receiving the
+# treatment he had already rejected ("why am I still getting discord
+# messages that have the text underlined"). "auto" now means colour.
+# "underline" survives as an EXPLICIT per-render choice for the studio
+# app only; nothing selects it automatically.
+EMPHASIS_ROTATION = ("color",)
 
 # Word boxes from the last _hot_block draw, canvas coordinates:
 # [{"word", "hot", "line", "box": the em box, "ink": the same span cropped to
