@@ -159,6 +159,29 @@ check("the shipped newsconfig.json carries both caps and the emphasis key "
       _NJSON.get("emphasis") == "color" and
       _NJSON["scoring"]["max_ai_calls_per_day"] == 120 and
       _NJSON["scoring"]["max_staged_per_day"] == 6)
+# -- multi-provider scoring + studio retention (Aug 2026) --------------------
+import scorer as _nc_scorer
+check("the provider list is scorer's table, never a second copy (two hard-coded "
+      "lists is exactly how the social links drifted)",
+      newsconfig.SCORING_PROVIDERS == _nc_scorer.PROVIDER_NAMES and
+      len(newsconfig.SCORING_PROVIDERS) == 7)
+check("scoring.provider ships empty, which means auto (first key wins)",
+      NCFG["scoring"]["provider"] == "" and _NJSON["scoring"]["provider"] == "")
+_bad = newsconfig.base_defaults(); _bad["scoring"]["provider"] = "gpt9000"
+check("an unknown scoring provider is flagged, with the real names listed",
+      any("provider" in p and "deepseek" in p
+          for p in newsconfig.validate_newsconfig(_bad)))
+_ok = newsconfig.base_defaults(); _ok["scoring"]["provider"] = "zai"
+check("naming a real provider validates cleanly",
+      newsconfig.validate_newsconfig(_ok) == [])
+check("staged posts are kept 2 days by default, in the py AND the json",
+      NCFG["studio_retention_days"] == 2 and _NJSON["studio_retention_days"] == 2)
+_bad = newsconfig.base_defaults(); _bad["studio_retention_days"] = 0
+check("a zero retention is flagged (it would delete a post the day it staged)",
+      any("studio_retention_days" in p for p in newsconfig.validate_newsconfig(_bad)))
+_bad = newsconfig.base_defaults(); _bad["studio_retention_days"] = "soon"
+check("a non-numeric retention is flagged",
+      any("studio_retention_days" in p for p in newsconfig.validate_newsconfig(_bad)))
 check("MMA Junkie removed (archived), MMA Mania added",
       "mma_junkie" not in NCFG["sources"] and NCFG["sources"]["mma_mania"]["enabled"])
 check("UFC on, other orgs + boxing off (owner's pick)",
@@ -1384,6 +1407,22 @@ if deploy_bots:
     check("no dispatched workflow posts member-visible content at deploy time",
           all(w not in deploy_bots.DISPATCH for w in
               ("quiz.yml", "debate.yml", "spotlight.yml", "clip.yml")))
+    # The studio cleanup DELETES messages. Dispatching it at deploy time would
+    # wipe staged posts the moment the owner deploys, which is never what a
+    # deploy is for - it ships on its cron only.
+    check("studio_clean ships with its workflow and is NOT dispatched",
+          ("studio_clean.py", "studio_clean.py") in deploy_bots.UPLOADS and
+          (".github/workflows/studio_clean.yml",
+           ".github/workflows/studio_clean.yml") in deploy_bots.UPLOADS and
+          "studio_clean.yml" not in deploy_bots.DISPATCH)
+    import scorer as _dep_scorer
+    check("every scorer provider key is an OPTIONAL repo secret, so a key in "
+          "config.txt reaches Actions encrypted",
+          all(e in deploy_bots.OPTIONAL_SECRETS and
+              deploy_bots.OPTIONAL_SECRETS[e] == e
+              for e in _dep_scorer.PROVIDER_ENVS))
+    check("no provider key is ever exempt from the pre-upload secret scanner",
+          not (set(_dep_scorer.PROVIDER_ENVS) & set(deploy_bots.PUBLIC_KEYS)))
     check("uploads are CI-quiet + ONE selftest dispatched on the final tree "
           "(mid-deploy old-test/new-code races caused run 972892a)",
           "selftest.yml" in deploy_bots.DISPATCH and
@@ -2006,7 +2045,7 @@ check("empty inputs stay in range and never raise",
       0 <= scorer.heuristic_score("", "", "", "", [])["score"] <= 100)
 
 # -- provider precedence ------------------------------------------------------
-for _k in ("DEEPSEEK_API_KEY", "OPENROUTER_API_KEY"):
+for _k in scorer.PROVIDER_ENVS:      # every provider key, not just the first two
     os.environ.pop(_k, None)
 check("provider: no keys -> (None, None)", scorer.provider() == (None, None))
 os.environ["OPENROUTER_API_KEY"] = "or-test-key"
@@ -2014,6 +2053,8 @@ check("provider: openrouter key alone", scorer.provider() == ("openrouter", "or-
 os.environ["DEEPSEEK_API_KEY"] = "ds-test-key"
 check("provider: deepseek wins when both set", scorer.provider() == ("deepseek", "ds-test-key"))
 os.environ.pop("OPENROUTER_API_KEY", None)
+check("scoring DEFAULTS ship provider '' (auto), so behaviour is unchanged "
+      "until the owner names one", scorer.DEFAULTS["provider"] == "")
 
 # -- scoring_config merge -----------------------------------------------------
 SCFG = scorer.scoring_config({})
@@ -2146,6 +2187,133 @@ scorer.score_story("t", "", "s", "ufc", scorer.scoring_config({"scoring": {"mode
 check("cfg model override reaches the request",
       HTTP_CALLS[-1]["body"]["model"] == "meta/custom")
 
+# ───────────────── the provider table (multi-provider scoring) ─────────────
+# The owner asked for more choices than DeepSeek. Every provider below speaks
+# the same OpenAI-compatible chat-completions protocol, so scorer holds a TABLE
+# and score_story has no per-provider branch. These checks pin the three things
+# that actually differ - endpoint, default model, env var - because a wrong
+# value there fails silently in production: the call 4xx's, the heuristic takes
+# over, and nothing anywhere goes red.
+print("\n[scorer providers]")
+_PV = scorer.PROVIDERS
+# The endpoint AND the model id were each verified against the provider's own
+# docs on Aug 13 2026. Retyped here on purpose: this is the second pair of eyes
+# on the table, so an edit to scorer.py must be a deliberate edit to both.
+_EXPECT = {
+    "deepseek":   ("https://api.deepseek.com/chat/completions",
+                   "deepseek-chat"),
+    "openrouter": ("https://openrouter.ai/api/v1/chat/completions",
+                   "deepseek/deepseek-chat"),
+    "zai":        ("https://api.z.ai/api/paas/v4/chat/completions",
+                   "glm-4.5-flash"),
+    "groq":       ("https://api.groq.com/openai/v1/chat/completions",
+                   "openai/gpt-oss-120b"),
+    "together":   ("https://api.together.xyz/v1/chat/completions",
+                   "meta-llama/Llama-3.3-70B-Instruct-Turbo"),
+    "mistral":    ("https://api.mistral.ai/v1/chat/completions",
+                   "mistral-small-latest"),
+    "openai":     ("https://api.openai.com/v1/chat/completions",
+                   "gpt-4o-mini"),
+}
+check("seven providers ship, DeepSeek first (auto order = precedence, and it "
+      "is the one the owner already pays for)",
+      scorer.PROVIDER_NAMES == ("deepseek", "openrouter", "zai", "groq",
+                                "together", "mistral", "openai"))
+check("every row is complete, https, a /chat/completions endpoint and ASCII",
+      all(set(p) == {"name", "env", "url", "model"} and
+          p["url"].startswith("https://") and
+          p["url"].endswith("/chat/completions") and
+          p["env"].endswith("_API_KEY") and p["name"] and p["model"] and
+          all(ord(c) < 128 for c in p["name"] + p["env"] + p["url"] + p["model"])
+          for p in _PV))
+check("names, env vars and endpoints are all distinct - a half-edited "
+      "copy-paste row would otherwise shadow another provider",
+      len({p["name"] for p in _PV}) == len(_PV) == len({p["env"] for p in _PV})
+      == len({p["url"] for p in _PV}))
+# Groq deprecated llama-3.3-70b-versatile on 2026-06-17 and shuts it down on
+# 2026-08-16, three days after this shipped. Defaulting to it would have been a
+# dead endpoint inside a week, with only the heuristic to show for it.
+check("groq does not default to the deprecated llama-3.3-70b-versatile",
+      "llama-3.3-70b" not in scorer.provider_spec("groq")["model"])
+# z.ai serves the general API under /api/paas/v4; /api/coding/paas/v4 answers
+# only for a Coding Plan subscription and would 4xx a general key.
+check("zai points at the general API path, not the coding-plan one",
+      "/api/paas/v4/" in scorer.provider_spec("zai")["url"] and
+      "/coding/" not in scorer.provider_spec("zai")["url"])
+
+HTTP_REPLY[0] = (200, _chat('{"score": 66, "why": "ok"}'))
+for _p in _PV:
+    for _k in scorer.PROVIDER_ENVS:
+        os.environ.pop(_k, None)
+    os.environ[_p["env"]] = "key-" + _p["name"]
+    _r = scorer.score_story("t", "", "s", "ufc", SCFG)
+    _c = HTTP_CALLS[-1]
+    _url, _model = _EXPECT[_p["name"]]
+    check("%s: %s key -> verified endpoint, default model, bearer auth"
+          % (_p["name"], _p["env"]),
+          _r["ai"] is True and _c["method"] == "POST" and _c["url"] == _url
+          and _c["body"]["model"] == _model
+          and _c["headers"]["Authorization"] == "Bearer key-" + _p["name"])
+check("ONE payload shape serves all seven (only url, model and key differ)",
+      all(set(c["body"]) == {"model", "messages", "temperature", "max_tokens",
+                             "response_format"} for c in HTTP_CALLS[-len(_PV):]))
+check("endpoint(): unknown name is ('', ''); a cfg model overrides the default",
+      scorer.endpoint("gpt9000") == ("", "") and
+      scorer.endpoint("openai", "my-model") == (_EXPECT["openai"][0], "my-model"))
+check("the DEEPSEEK_/OPENROUTER_ constants are derived FROM the table, so they "
+      "cannot drift from it",
+      (scorer.DEEPSEEK_URL, scorer.DEEPSEEK_MODEL) == _EXPECT["deepseek"] and
+      (scorer.OPENROUTER_URL, scorer.OPENROUTER_MODEL) == _EXPECT["openrouter"])
+
+# -- preference vs precedence -------------------------------------------------
+for _k in scorer.PROVIDER_ENVS:
+    os.environ.pop(_k, None)
+os.environ["DEEPSEEK_API_KEY"] = "ds-key"
+os.environ["GROQ_API_KEY"] = "gq-key"
+check("auto (provider '') keeps DeepSeek first when several keys are set",
+      scorer.provider("") == ("deepseek", "ds-key") and
+      scorer.provider() == ("deepseek", "ds-key"))
+check("a newsconfig scoring.provider preference overrides the auto order",
+      scorer.provider("groq") == ("groq", "gq-key"))
+check("the preference is case and whitespace tolerant",
+      scorer.provider("  GROQ ") == ("groq", "gq-key"))
+scorer.score_story("t", "", "s", "ufc",
+                   scorer.scoring_config({"scoring": {"provider": "groq"}}))
+check("the preference reaches the request - endpoint and key swap together",
+      HTTP_CALLS[-1]["url"] == _EXPECT["groq"][0] and
+      HTTP_CALLS[-1]["headers"]["Authorization"] == "Bearer gq-key")
+# A typo must not quietly spend money somewhere the owner never chose.
+_badcfg = scorer.scoring_config({"scoring": {"provider": "gpt9000"}})
+_n_before = len(HTTP_CALLS)
+_r = scorer.score_story("Fighter previews his next bout", "", "MMA Fighting",
+                        "ufc", _badcfg)
+check("an unknown provider degrades to the heuristic and spends nothing",
+      _r["ai"] is False and _r["why"] == "heuristic"
+      and len(HTTP_CALLS) == _n_before
+      and scorer.provider("gpt9000") == (None, None)
+      and scorer.ai_ready(_badcfg) is False)
+os.environ.pop("GROQ_API_KEY", None)
+check("a real provider named without its key falls back to auto rather than "
+      "silently downgrading every story to the heuristic",
+      scorer.provider("groq") == ("deepseek", "ds-key") and
+      scorer.ai_ready(scorer.scoring_config(
+          {"scoring": {"provider": "groq"}})) is True)
+
+# -- the key has to reach the job, or it sits in GitHub doing nothing ---------
+_news_wf = os.path.join(_SRC, ".github", "workflows", "news.yml")
+if os.path.exists(_news_wf):
+    _nwf_text = open(_news_wf, encoding="utf-8").read()
+    _wf_missing = [e for e in scorer.PROVIDER_ENVS
+                   if "%s: ${{ secrets.%s }}" % (e, e) not in _nwf_text]
+    check("news.yml hands every provider key to the scoring step (missing: %s)"
+          % _wf_missing, not _wf_missing)
+else:
+    print("  SKIP: news.yml not in this checkout")
+
+for _k in scorer.PROVIDER_ENVS:
+    os.environ.pop(_k, None)
+os.environ["OPENROUTER_API_KEY"] = "or-test-key"   # restore the suite's state
+
 # -- clause-aware fallback truncation (owner caught "AS MARLON" live) ---------
 check("fallback line cuts at a clause boundary, never mid-thought",
       scorer._fallback_line(
@@ -2248,7 +2416,7 @@ check("over the AI cap it scores by heuristic with ZERO further http calls, "
       "and the caller's config is not mutated",
       _r["ai"] is False and len(HTTP_CALLS) == _n1
       and _bcfg["enabled"] is True and _bst2["daily"]["ai"] == 2)
-for _k in ("DEEPSEEK_API_KEY", "OPENROUTER_API_KEY"):
+for _k in scorer.PROVIDER_ENVS:      # every provider key, not just the first two
     os.environ.pop(_k, None)
 _bst3 = {}
 scorer.score_story_budgeted("t", "", "s", "ufc", _bcfg, _bst3, "2026-08-13")
@@ -2258,7 +2426,7 @@ check("with no key set nothing is charged - the free path costs no budget",
 
 # -- restore ------------------------------------------------------------------
 common.http = _real_http
-for _k in ("DEEPSEEK_API_KEY", "OPENROUTER_API_KEY"):
+for _k in scorer.PROVIDER_ENVS:      # every provider key, not just the first two
     os.environ.pop(_k, None)
 
 # ───────────────────────── yt staging (news_bot integration) ────────────────
@@ -2737,8 +2905,13 @@ if _pil_ok:
         return best
     check("an ALL-hot line renders white, not tone-on-tone accent",
           _row_hits(_img, 830, 1120, (245, 244, 246), 28) >= 120)
+    # the bar under the solo line brightens toward paper on a WASH poster
+    # (Aug 2026 blind rounds: a mid-purple bar sank into the purple field);
+    # its expected color is the same mix the renderer computes
+    _bar_col = postcard._mix(postcard._rgb(postcard.COLORWAYS["purple"]["hot"]),
+                             postcard._rgb(postcard.PALETTE["paper"]), 0.55)
     check("the accent underline sits under the ALL-hot line",
-          _row_hits(_img, 1060, 1260, _acc_lo, 30) >= 150)
+          _row_hits(_img, 1060, 1260, _bar_col, 30) >= 150)
 
     # -- round-3 verdict fixes: text band scrim, seated cutout ---------------
     check("photo posters carry the line's own band scrim (round-3 loss: "
@@ -2760,7 +2933,7 @@ if _pil_ok:
           postcard.STYLE["news_cutout_ambient"] >= 0.20
           and 'STYLE["news_cutout_ambient"]' in _nc_src)
     check("a halo backlight seats the cutout silhouette in the scene",
-          'PALETTE["accent"]' in _nc_src
+          'cw["hot"]' in _nc_src
           and postcard.STYLE["news_cutout_glow"] >= 0.30)
     check("the cutout rim went chromatic - scene light, not studio spill",
           max(postcard._rgb(postcard.PALETTE["rim"]))
@@ -3021,6 +3194,376 @@ common.now_utc = _pl_prev_now
 common.load_config = _pl_prev_cfg
 polls_bot.fetch_bytes = _pl_prev_fb
 polls_bot.render_tile = _pl_prev_rt
+
+
+# ──────────────── studio cleanup (staged-post retention) ───────────────────
+# Deleting is the one thing in this project that cannot be undone, so this
+# suite is written around the three ways the bot refuses to delete: not ours,
+# pinned, not old enough. The cap and the never-exit-non-zero rule are the
+# other two failure modes the owner would actually feel (a hammered API, and a
+# daily red-run email).
+print("\n[studio cleanup]")
+import datetime as _sc_dt
+import re as _sc_re
+import studio_clean
+
+_SC_NOW = _sc_dt.datetime(2026, 8, 13, 12, 0, tzinfo=_sc_dt.timezone.utc)
+_SC_CUT = _SC_NOW - _sc_dt.timedelta(days=2)
+
+
+def _sc_msg(mid, hours_old, author="BOT", pinned=False):
+    """A Discord message dict shaped like the REST reply (isoformat stamp)."""
+    return {"id": mid, "author": {"id": author}, "pinned": pinned,
+            "timestamp": (_SC_NOW - _sc_dt.timedelta(hours=hours_old)).isoformat()}
+
+
+# -- deletable(): the whole policy, pure --------------------------------------
+check("the retention boundary KEEPS: a message exactly at the cutoff survives",
+      studio_clean.deletable(_sc_msg("m1", 48), "BOT", _SC_CUT) is False)
+check("one second past the cutoff is deleted",
+      studio_clean.deletable(
+          {"id": "m2", "author": {"id": "BOT"}, "pinned": False,
+           "timestamp": (_SC_CUT - _sc_dt.timedelta(seconds=1)).isoformat()},
+          "BOT", _SC_CUT) is True)
+check("a message from another author is never deleted, however old",
+      studio_clean.deletable(_sc_msg("m3", 900, author="HUMAN"), "BOT", _SC_CUT)
+      is False)
+check("a pinned staged post is kept forever (the owner's own keep switch)",
+      studio_clean.deletable(_sc_msg("m4", 900, pinned=True), "BOT", _SC_CUT)
+      is False)
+check("an unreadable timestamp is kept, never guessed at",
+      studio_clean.deletable({"id": "m5", "author": {"id": "BOT"},
+                              "timestamp": "yesterday"}, "BOT", _SC_CUT) is False)
+check("with no known author id NOTHING is deletable (fail closed)",
+      studio_clean.deletable(_sc_msg("m6", 900), "", _SC_CUT) is False)
+
+check("retention reads newsconfig and defaults to 2 days",
+      studio_clean.retention_days({}) == 2 and
+      studio_clean.retention_days({"studio_retention_days": 5}) == 5)
+check("retention never drops below a day, and junk falls back to the default",
+      studio_clean.retention_days({"studio_retention_days": 0}) == 1 and
+      studio_clean.retention_days({"studio_retention_days": -3}) == 1 and
+      studio_clean.retention_days({"studio_retention_days": "soon"}) == 2)
+check("the shipped per-run cap is 100 deletes (a first run cannot hammer the API)",
+      studio_clean.MAX_DELETES == 100 and studio_clean.PAGE == 100)
+
+# The channel id from bots_config goes straight into a DELETE path, so it is
+# shape-checked first - the same guard the Worker's /unban fix needed.
+check("is_snowflake: a real id passes, every junk shape is refused",
+      studio_clean.is_snowflake("100200300400500600") is True and
+      studio_clean.is_snowflake("12345678901234") is False and
+      studio_clean.is_snowflake("1234567890123456789012") is False and
+      studio_clean.is_snowflake("ST") is False and
+      studio_clean.is_snowflake("../guilds/G/channels") is False and
+      studio_clean.is_snowflake("123456789012345678 ") is False and
+      studio_clean.is_snowflake("") is False and
+      studio_clean.is_snowflake(None) is False)
+
+# The staged message says it is temporary, using the SAME key the deleter
+# reads - so the owner is never left wondering where yesterday's post went.
+check("the staged post tells the owner how long it lives, from one source",
+      ytposts.retention_note({"studio_retention_days": 3})
+      == "This copy is deleted from the channel after 3 days.\n" and
+      ytposts.retention_note({"studio_retention_days": 1})
+      == "This copy is deleted from the channel after 1 day.\n" and
+      ytposts.retention_note({}).startswith("This copy is deleted"))
+_sc_body = ytposts._studio_body(90, "why", "caption text", "",
+                                ytposts.retention_note({}))
+check("the note sits above the copy block, calm, no exclamation mark",
+      "after 2 days" in _sc_body and
+      _sc_body.index("after 2 days") < _sc_body.index("```") and
+      "!" not in _sc_body and all(ord(c) < 128 for c in _sc_body))
+
+# -- main(): paging, authorship, the cap, and clean exits ---------------------
+_sc_prev_discord = common.discord
+_sc_prev_cfg = common.load_config
+_sc_prev_now = common.now_utc
+_sc_prev_time = studio_clean.time
+_sc_prev_page = studio_clean.PAGE
+_sc_prev_cap = studio_clean.MAX_DELETES
+studio_clean.time = types.SimpleNamespace(sleep=lambda s: None)
+
+_SC_ALL = [[]]                 # channel contents, NEWEST first (Discord's order)
+_SC_CALLS = []                 # every (method, path) the bot issues
+_SC_DELETED = []
+_SC_CODE = {"me": 200, "get": 200, "delete": 204}
+
+
+def _sc_discord(method, path, body=None):
+    _SC_CALLS.append((method, path))
+    if path == "/users/@me":
+        return _SC_CODE["me"], ({"id": "BOT"} if _SC_CODE["me"] == 200 else {})
+    if method == "DELETE":
+        mid = path.rsplit("/", 1)[-1]
+        if _SC_CODE["delete"] in (200, 204):
+            _SC_DELETED.append(mid)
+        return _SC_CODE["delete"], {}
+    if _SC_CODE["get"] != 200:
+        return _SC_CODE["get"], {}
+    limit = int(_sc_re.search(r"limit=(\d+)", path).group(1))
+    # `before` is an id CURSOR: it walks the channel's own ordering, so a page
+    # already deleted from does not renumber the ones after it.
+    msgs = list(_SC_ALL[0])
+    before = _sc_re.search(r"before=([A-Za-z0-9]+)", path)
+    if before:
+        ids = [m["id"] for m in msgs]
+        msgs = msgs[ids.index(before.group(1)) + 1:] if before.group(1) in ids else []
+    return 200, msgs[:limit]
+
+
+common.discord = _sc_discord
+common.now_utc = lambda: _SC_NOW
+_SC_CHAN = "100200300400500600"      # snowflake-shaped, or main()'s guard skips
+common.load_config = lambda: {"channels": {"studio": _SC_CHAN}}
+STORE["newsconfig.json"] = {"studio_retention_days": 2}
+
+# 5 messages, page size 2: forces the ?before= cursor to actually work.
+_SC_ALL[0] = [_sc_msg("n1", 47),                   # too new (inside 2 days)
+              _sc_msg("o2", 49),                   # ours + old   -> delete
+              _sc_msg("h3", 200, author="HUMAN"),  # someone else -> keep
+              _sc_msg("p4", 300, pinned=True),     # pinned       -> keep
+              _sc_msg("o5", 400)]                  # ours + old   -> delete
+studio_clean.PAGE = 2
+studio_clean.main()
+check("only our own, unpinned, past-cutoff messages are deleted",
+      _SC_DELETED == ["o2", "o5"])
+check("paging walks the channel with ?before= and stops on a short page",
+      sum(1 for m, p in _SC_CALLS if m == "GET" and "/messages?" in p) == 3 and
+      sum(1 for _m, p in _SC_CALLS if "before=" in p) == 2)
+check("the author check comes from GET /users/@me, once per run",
+      sum(1 for _m, p in _SC_CALLS if p == "/users/@me") == 1)
+
+# the cap: with more work than a run may do, it stops and leaves the rest
+_SC_CALLS[:] = []; _SC_DELETED[:] = []
+_SC_ALL[0] = [_sc_msg("c%d" % i, 100 + i) for i in range(5)]
+studio_clean.MAX_DELETES = 2
+studio_clean.main()
+check("the per-run cap holds: exactly 2 deletes, the rest waits for tomorrow",
+      _SC_DELETED == ["c0", "c1"])
+studio_clean.MAX_DELETES = _sc_prev_cap
+
+# no studio channel: clean no-op, and it never even asks Discord who it is
+_SC_CALLS[:] = []; _SC_DELETED[:] = []
+common.load_config = lambda: {"channels": {}}
+studio_clean.main()
+check("a missing studio channel exits cleanly with zero API calls",
+      _SC_CALLS == [] and _SC_DELETED == [])
+
+# a NON-SNOWFLAKE channel id (bad bots_config) must never reach the API: the
+# id lands in a DELETE path, and dot-segments resolve before the request goes
+_SC_CALLS[:] = []; _SC_DELETED[:] = []
+common.load_config = lambda: {"channels": {"studio": "../guilds/G/channels"}}
+studio_clean.main()          # must not raise, must print and stop
+check("a non-snowflake studio channel id makes zero API calls",
+      _SC_CALLS == [] and _SC_DELETED == [])
+
+# an unreadable identity or channel must delete nothing, and must not raise
+common.load_config = lambda: {"channels": {"studio": _SC_CHAN}}
+_SC_ALL[0] = [_sc_msg("x1", 900)]
+_SC_CODE["me"] = 500
+studio_clean.main()
+check("if the bot cannot read its own id it deletes nothing at all",
+      _SC_DELETED == [])
+_SC_CODE["me"] = 200
+_SC_CODE["get"] = 403
+studio_clean.main()
+check("an unreadable channel stops the run instead of raising",
+      _SC_DELETED == [])
+_SC_CODE["get"] = 200
+_SC_CODE["delete"] = 500
+studio_clean.main()          # must not raise
+check("a failing delete is counted and reported, never fatal", _SC_DELETED == [])
+_SC_CODE["delete"] = 204
+
+_sc_src = open(os.path.join(_SRC, "studio_clean.py"), encoding="utf-8").read()
+_sc_tail = _sc_src.split("if __name__")[1]
+check("the entry point swallows SystemExit and Exception - a daily red run "
+      "would email the owner daily, which is the bug this project keeps hitting",
+      "except SystemExit" in _sc_tail and "except Exception" in _sc_tail and
+      "sys.exit(" not in _sc_src and "raise " not in _sc_tail)
+check("no state file: the message timestamp IS the state, so nothing can be "
+      "corrupted by a bad merge the way state_raid.json was",
+      "persist_state" not in _sc_src and "save_json" not in _sc_src and
+      "state_path" not in _sc_src)
+check("cleanup source is ASCII only (so no em dash can creep in)",
+      all(ord(c) < 128 for c in _sc_src))
+
+_sc_wf = os.path.join(_SRC, ".github", "workflows", "studio_clean.yml")
+if os.path.exists(_sc_wf):
+    _sc_wf_text = open(_sc_wf, encoding="utf-8").read()
+    _sc_wf_code = "\n".join(l for l in _sc_wf_text.splitlines()
+                            if not l.strip().startswith("#"))
+    check("studio_clean.yml: daily cron, dispatchable, read-only, no state commit",
+          "cron: '17 5 * * *'" in _sc_wf_code and
+          "workflow_dispatch" in _sc_wf_code and
+          "contents: read" in _sc_wf_code and
+          "cancel-in-progress: false" in _sc_wf_code and
+          "git add" not in _sc_wf_code)
+    check("the cleanup job holds the Discord token and nothing else",
+          _sc_wf_code.count("secrets.") == 1 and
+          "DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}" in _sc_wf_code)
+else:
+    print("  SKIP: studio_clean.yml not in this checkout")
+
+common.discord = _sc_prev_discord
+common.load_config = _sc_prev_cfg
+common.now_utc = _sc_prev_now
+studio_clean.time = _sc_prev_time
+studio_clean.PAGE = _sc_prev_page
+studio_clean.MAX_DELETES = _sc_prev_cap
+
+
+# ---------------------------------------------------------------------------
+# [colorway wash + panels] - the Aug 2026 studio/poster overhaul (att-8 law).
+# Locks in: the colorway table (purple maps onto the approved PALETTE values),
+# textured washes with graceful degradation, the 1-3 panel announce, the
+# tint-cutout toggle, the purple-only footer bar, and the wash emphasis flip.
+print("\n[colorway wash + panels]")
+try:
+    import postcard as _cwpc
+except Exception:
+    _cwpc = None
+if _cwpc is None:
+    print("  SKIP: Pillow not available in this checkout")
+else:
+    from PIL import Image as _CwImage
+    check("five colorways, purple first among equals",
+          set(_cwpc.COLORWAYS) == {"purple", "red", "blue", "green", "gold"})
+    check("purple colorway maps onto the approved PALETTE values",
+          _cwpc.COLORWAYS["purple"]["mid"] == _cwpc.PALETTE["accent_deep"]
+          and _cwpc.COLORWAYS["purple"]["hot"] == _cwpc.PALETTE["accent"]
+          and _cwpc.COLORWAYS["purple"]["glyph"] == _cwpc.PALETTE["accent_hot"])
+    check("colorway() resolves junk to purple",
+          _cwpc.colorway(None) is _cwpc.COLORWAYS["purple"]
+          and _cwpc.colorway("RED ") is _cwpc.COLORWAYS["red"]
+          and _cwpc.colorway("mauve") is _cwpc.COLORWAYS["purple"])
+    _cw_plates = [n for n in _cwpc.BACKGROUNDS if _cwpc.load_background(n) is not None]
+    check("all four texture plates ship and open (arena/spotlight/cage/smoke)",
+          set(_cw_plates) == set(_cwpc.BACKGROUNDS))
+    check("a junk background name degrades to None, never raises",
+          _cwpc.load_background("stadium") is None
+          and _cwpc.load_background(None) is None)
+    _cw_red = _cwpc.wash_field(120, 150, "red", texture="arena")
+    _cw_blue = _cwpc.wash_field(120, 150, "blue", texture="arena")
+    _cw_flat = _cwpc.wash_field(120, 150, "red", texture="none")
+    check("wash_field renders RGB at the asked size",
+          _cw_red.mode == "RGB" and _cw_red.size == (120, 150))
+    _cw_rp = _cw_red.getpixel((60, 60))
+    _cw_bp = _cw_blue.getpixel((60, 60))
+    check("colorways actually differ on the canvas (red field is red, blue is blue)",
+          _cw_rp[0] > _cw_rp[2] and _cw_bp[2] > _cw_bp[0])
+    check("a missing texture still yields a COLORED field, never the old ink one",
+          max(_cw_flat.getpixel((60, 100))) > 18)
+    # the wash stays darker than skin (round-4 blind: a bright wash flattened
+    # the fighters) - mean luminance well under mid-gray
+    _cw_lum = sum(sum(p) / 3.0 for p in _cw_red.getdata()) / (120 * 150)
+    check("the wash stays deep - skin must pop against it", _cw_lum < 110)
+
+    # tint toggle: subject pixels move toward the colorway when asked
+    _cw_cut = _CwImage.new("RGBA", (220, 320), (0, 0, 0, 0))
+    for _y in range(40, 300):
+        for _x in range(70, 150):
+            _cw_cut.putpixel((_x, _y), (190, 160, 140, 255))
+    _cw_spec = {"line": "BACKUP", "hot": ["BACKUP"], "source": "X",
+                "cutout_path": _cw_cut}
+    _cw_off = _cwpc.render("news", dict(_cw_spec))
+    _cw_on = _cwpc.render("news", dict(_cw_spec, tint_cutout=True))
+    check("tint_cutout=True changes the poster, default leaves it alone",
+          list(_cw_off.getdata()) != list(_cw_on.getdata()))
+    check("tint strength clamps junk without raising",
+          _cwpc.render("news", dict(_cw_spec, tint_cutout=7.5)).size == (1080, 1350))
+
+    # photoless wash flips to the underline device unless the spec chose
+    _cw_src = __import__("inspect").getsource(_cwpc.render_news)
+    check("photoless wash posters flip emphasis to underline (3 blind rounds)",
+          'mode = "underline"' in _cw_src and "explicit" in _cw_src)
+
+    # panels: legacy spec maps to ONE panel; modern spec takes 1-3
+    _cw_legacy = _cwpc._panel_specs({"left_name": "A", "right_name": "B",
+                                     "event_line": "EV", "date_line": "D1"})
+    check("legacy announce spec maps to one stacked-names panel",
+          len(_cw_legacy) == 1 and _cw_legacy[0]["big"] == "A VS B"
+          and _cw_legacy[0]["chip"] == "D1")
+    check("panel specs cap at three",
+          len(_cwpc._panel_specs({"panels": [{}, {}, {}, {}]})) == 3)
+    _cw_p3 = _cwpc.render("announce", {"panels": [
+        {"big": "ONE VS TWO", "small": "L1", "chip": "SEPT 12", "colorway": "red"},
+        {"big": "SEPT 12", "small": "L2", "colorway": "blue"},
+        {"big": "SEPT 19", "small": "L3", "colorway": "green"}]})
+    check("a 3-panel announce renders full size", _cw_p3.size == (1080, 1350))
+    _cw_top = _cw_p3.getpixel((30, 60))
+    _cw_bot = _cw_p3.getpixel((30, 1300))
+    check("panel colorways land on the canvas (red top, green bottom)",
+          _cw_top[0] > _cw_top[2] and _cw_bot[1] > _cw_bot[0])
+    check("the announce carries no brand mark (owner law: no logo on posters)",
+          "_lockup" not in __import__("inspect").getsource(_cwpc.render_announce)
+          and "_ghost_mark" not in __import__("inspect").getsource(_cwpc.render_announce))
+
+    # the footer bar is PURPLE ONLY (two blind rounds read any colorway strip
+    # as a stray sliver)
+    _cw_red_poster = _cwpc.render("news", {"line": "X", "colorway": "red",
+                                           "background": "none"})
+    _cw_bar = _cw_red_poster.getpixel((540, 1349))
+    check("no signature bar on a non-purple poster",
+          not (_cw_bar[2] > _cw_bar[0] + 40))
+    _cw_purple_poster = _cwpc.render("news", {"line": "X", "background": "none"})
+    _cw_pbar = _cw_purple_poster.getpixel((540, 1349))
+    check("the purple poster keeps its brand bar",
+          _cw_pbar[2] > _cw_pbar[0] and _cw_pbar[2] > 120)
+
+# ---------------------------------------------------------------------------
+# [staged round-trip] - the bot ships a json spec fence + the RAW subject as a
+# second attachment so the studio edits live text, never baked pixels.
+print("\n[staged round-trip]")
+import ytposts as _rt_yt
+import json as _rt_json
+_rt_spec = _rt_yt.studio_spec({"line": "HE NEVER DOUBTED", "hot": ["NEVER", ""],
+                               "source": "MMA Fighting", "emphasis": "auto",
+                               "guid": "g-1"}, "photo")
+_rt_obj = _rt_json.loads(_rt_spec)
+check("studio_spec carries line/hot/source/emphasis/guid/photo kind",
+      _rt_obj["line"] == "HE NEVER DOUBTED" and _rt_obj["hot"] == ["NEVER"]
+      and _rt_obj["source"] == "MMA Fighting" and _rt_obj["photo"] == "photo"
+      and _rt_obj["template"] == "news" and _rt_obj["colorway"] == "purple")
+check("studio_spec drops empty fields and stays ASCII",
+      "about" not in _rt_obj and _rt_spec == _rt_spec.encode("ascii", "ignore").decode())
+_rt_body = _rt_yt._studio_body(91, "why", "cap", "", "", _rt_spec)
+check("the staged body carries the caption fence THEN the json fence",
+      _rt_body.index("```\ncap\n```") < _rt_body.index("```json"))
+check("a specless body has no json fence",
+      "```json" not in _rt_yt._studio_body(50, "w", "c", "", ""))
+
+# post_file accepts a LIST of (path, name) and attaches every file
+_rt_calls = {}
+_rt_prev_http = common.http
+def _rt_http(url, headers=None, method=None, raw_body=None, **kw):
+    _rt_calls["url"] = url
+    _rt_calls["body"] = raw_body
+    return 200, "{}"
+common.http = _rt_http
+try:
+    import tempfile as _rt_tmp
+    _rt_f1 = _rt_tmp.NamedTemporaryFile(suffix=".png", delete=False)
+    _rt_f1.write(b"PNG1"); _rt_f1.close()
+    _rt_f2 = _rt_tmp.NamedTemporaryFile(suffix=".jpg", delete=False)
+    _rt_f2.write(b"JPG2"); _rt_f2.close()
+    common.post_file("123", "hello", [(_rt_f1.name, "post.png"),
+                                      (_rt_f2.name, "photo.jpg")])
+    _rt_b = _rt_calls["body"]
+    check("post_file ships BOTH files in one multipart message",
+          b'name="files[0]"; filename="post.png"' in _rt_b
+          and b'name="files[1]"; filename="photo.jpg"' in _rt_b
+          and b"PNG1" in _rt_b and b"JPG2" in _rt_b)
+    check("the payload attachments list names both ids",
+          b'"attachments"' in _rt_b and b'"id": 1' in _rt_b.replace(b'"id":1', b'"id": 1'))
+    _rt_calls.clear()
+    common.post_file("123", "hello", _rt_f1.name, filename="only.png")
+    check("the single-file call shape is unchanged (back-compat)",
+          b'name="files[0]"; filename="only.png"' in _rt_calls["body"]
+          and b"files[1]" not in _rt_calls["body"])
+    os.unlink(_rt_f1.name); os.unlink(_rt_f2.name)
+finally:
+    common.http = _rt_prev_http
 
 
 print("\n==== %d passed, %d failed ====" % (PASS, FAIL))
