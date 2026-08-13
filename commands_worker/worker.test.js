@@ -1,5 +1,5 @@
 // Offline unit tests for the Worker's pure /mod helpers. Run: node worker.test.js
-import { _test } from "./worker.js";
+import worker, { _test } from "./worker.js";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
@@ -224,6 +224,50 @@ check("the Administrator bit still passes any tier (they can ban natively anyway
 check("a plain member is neither", isStaffFromRoles({ roles: ["X"], permissions: "0" }, cfg, ADMIN_UP) === false);
 check("/ban and /unban are gated to admin-tier in source",
   (code.match(/requireRank\(i, env, ADMIN_UP\)/g) || []).length === 2);
+
+// ----- GET /studio: the owner's poster composer page -----
+// A static page on the same Worker. It must serve without touching any secret, and
+// adding it must not change anything about the interaction endpoint: GET on every
+// other path keeps the old plain-text line, and an unsigned POST is still a 401.
+const studioRes = await worker.fetch(new Request("https://w.test/studio"), {}, {});
+const studioBody = await studioRes.text();
+check("GET /studio returns 200", studioRes.status === 200);
+check("GET /studio serves HTML with a utf-8 charset",
+  (studioRes.headers.get("content-type") || "") === "text/html; charset=utf-8");
+check("the page has the poster canvas", studioBody.includes("<canvas"));
+check("the page is titled Studio", studioBody.includes("<title>Studio</title>"));
+check("the poster canvas is 1080x1350",
+  studioBody.includes('width="1080"') && studioBody.includes('height="1350"'));
+check("the download is named post.png", studioBody.includes("post.png"));
+check("the page loads Poppins from Google Fonts and nothing else remote",
+  studioBody.includes("fonts.googleapis.com/css2?family=Poppins") &&
+  !/src=|fetch\(|XMLHttpRequest|WebSocket/.test(studioBody.replace(/img\.src = url/, "")));
+check("the page names no secret", !/DISCORD_BOT_TOKEN|DISCORD_PUBLIC_KEY|GITHUB_TOKEN|YOUTUBE_API_KEY|CLOUDFLARE/.test(studioBody));
+check("the page reads no env binding (env( is CSS safe-area, not a lookup)",
+  !/\benv\./.test(studioBody));
+check("no logo and no channel name on the page (the owner banned both)",
+  !/iboyprime/i.test(studioBody));
+const EMDASH = String.fromCharCode(8212);
+check("no em dash anywhere in the page", !studioBody.includes(EMDASH));
+check("the page has the add-to-home-screen metas",
+  studioBody.includes('name="viewport"') && studioBody.includes('name="theme-color"') &&
+  studioBody.includes('name="apple-mobile-web-app-capable"'));
+check("the page stays lean (no framework, under 32 KB)", studioBody.length < 32768);
+
+const rootRes = await worker.fetch(new Request("https://w.test/"), {}, {});
+const OLD_LINE = "Slash commands " + EMDASH + " online.";
+check("GET / still returns the old plain-text line",
+  rootRes.status === 200 && (await rootRes.text()) === OLD_LINE);
+const otherRes = await worker.fetch(new Request("https://w.test/anything-else"), {}, {});
+check("GET on any other path keeps the old plain-text line",
+  (await otherRes.text()) === OLD_LINE);
+
+const unsignedPost = await worker.fetch(
+  new Request("https://w.test/", { method: "POST", body: "{}" }), { DISCORD_PUBLIC_KEY: "ab" }, {});
+check("a POST without a valid signature still returns 401", unsignedPost.status === 401);
+const unsignedStudioPost = await worker.fetch(
+  new Request("https://w.test/studio", { method: "POST", body: "{}" }), { DISCORD_PUBLIC_KEY: "ab" }, {});
+check("POST /studio is not a page, it still demands a signature", unsignedStudioPost.status === 401);
 
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
 process.exit(fail ? 1 : 0);
