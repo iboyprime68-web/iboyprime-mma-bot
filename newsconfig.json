@@ -169,7 +169,7 @@
     "min_items": 3,
     "ping": true
   },
-  "emphasis": "auto",
+  "emphasis": "color",
   "scoring": {
     "enabled": true,
     "stage_threshold": 70,
