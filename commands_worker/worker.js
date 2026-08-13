@@ -37,6 +37,31 @@ function json(obj) { return new Response(JSON.stringify(obj), { headers: { "cont
 function msg(content, ephemeral) { return { content, flags: ephemeral ? EPHEMERAL : 0, allowed_mentions: { parse: [] } }; }
 function embed(e) { return { embeds: [{ color: ORANGE, ...e }], allowed_mentions: { parse: [] } }; }
 
+// ---------- prototype-safe lookups ----------
+// `obj[key]` with a caller-controlled key is NOT a membership test: every plain object
+// answers for "__proto__" (Object.prototype), "constructor" (the Object function) and
+// "toString" (a function), all of them truthy. That turned the AI provider allowlist
+// into a bypass: AI_PROVIDERS["__proto__"] was truthy, so the "unknown provider" check
+// passed and the secret NAME it produced stringified to "[object Object]", which then
+// went out as PUT /repos/o/r/actions/secrets/[object Object]. Same shape as the /unban
+// path-injection bug: a string the caller controls reaching an API path.
+// `own` answers only for real OWN properties, so nothing on the prototype chain can be
+// mistaken for an allowlist entry. Every lookup keyed by user input in this file goes
+// through it, or through an explicit includes() on a frozen list.
+function own(obj, key) {
+  if (obj === null || obj === undefined) return undefined;
+  const k = String(key === null || key === undefined ? "" : key);
+  return Object.prototype.hasOwnProperty.call(obj, k) ? obj[k] : undefined;
+}
+// Keys that must never be WRITTEN from caller input: assigning to "__proto__" reparents
+// the object instead of adding a field, which is how a config edit becomes prototype
+// pollution in the JSON we commit back to the repo.
+const UNSAFE_KEYS = Object.freeze(["__proto__", "constructor", "prototype"]);
+function safeKey(k) {
+  const s = String(k === null || k === undefined ? "" : k);
+  return s.length > 0 && s.length <= 100 && UNSAFE_KEYS.indexOf(s) === -1;
+}
+
 function hex2buf(hex) {
   const a = new Uint8Array(hex.length / 2);
   for (let i = 0; i < a.length; i++) a[i] = parseInt(hex.substr(i * 2, 2), 16);
@@ -57,8 +82,10 @@ function slugify(name) {
 }
 function snowflakeDate(id) { try { return new Date(Number((BigInt(id) >> 22n) + 1420070400000n)); } catch (e) { return null; } }
 function optMap(interaction) {
-  const m = {};
-  for (const o of (interaction.data.options || [])) m[o.name] = o.value;
+  const m = Object.create(null);          // null prototype: an option named __proto__
+  for (const o of (interaction.data.options || [])) {   // cannot reparent this map
+    if (safeKey(o && o.name)) m[o.name] = o.value;
+  }
   return m;
 }
 async function getJSON(url, headers) {
@@ -80,7 +107,7 @@ async function soonestEvent() {
     const sb = await espn(lg + "/scoreboard");
     const cal = sb && sb.leagues && sb.leagues[0] ? (sb.leagues[0].calendar || []) : [];
     const events = (sb && sb.events) || [];
-    const cache = {}; events.forEach(e => cache[e.id] = e);
+    const cache = Object.create(null); events.forEach(e => { if (safeKey(e && e.id)) cache[e.id] = e; });
     for (const c of cal) {
       const t = Date.parse(c.startDate);
       if (isFinite(t) && t > Date.now()) {
@@ -166,7 +193,8 @@ function avatarUrl(user) {
 }
 function resolveUser(interaction, o) {
   const res = (interaction.data && interaction.data.resolved && interaction.data.resolved.users) || {};
-  if (o.user && res[o.user]) return res[o.user];
+  const hit = o.user ? own(res, o.user) : undefined;    // own(): "__proto__" is not a user
+  if (hit && typeof hit === "object") return hit;
   return (interaction.member && interaction.member.user) || interaction.user;
 }
 
@@ -189,7 +217,8 @@ function subPath(interaction) {
   let group = null, sub = null;
   if (opts.length && opts[0].type === 2) { group = opts[0].name; opts = opts[0].options || []; }
   if (opts.length && opts[0].type === 1) { sub = opts[0].name; opts = opts[0].options || []; }
-  const m = {}; for (const o of opts) m[o.name] = o.value;
+  const m = Object.create(null);
+  for (const o of opts) { if (safeKey(o && o.name)) m[o.name] = o.value; }
   return { group, sub, opts: m };
 }
 // The bot is ADMINISTRATOR, so anything it does on a member's behalf runs at the bot's
@@ -200,46 +229,56 @@ function subPath(interaction) {
 function isStaffFromRoles(member, cfg, keys) {
   if (!member) return false;
   const roleIds = new Set(member.roles || []);
-  const staff = (keys || ["owner", "admin", "mod"]).map(k => (cfg.roles || {})[k]).filter(Boolean);
+  const staff = (keys || ["owner", "admin", "mod"]).map(k => own(cfg.roles, k)).filter(Boolean);
   if (staff.some(id => roleIds.has(id))) return true;
   // Administrator can do all of this natively anyway, so this is not an escalation.
   try { if ((BigInt(member.permissions || "0") & (1n << 3n)) !== 0n) return true; } catch (e) {}
   return false;
 }
-function profileCats(modcfg, name) { return new Set((((modcfg.profiles || {})[name]) || {}).categories || []); }
+function profileCats(modcfg, name) { return new Set(((own(modcfg.profiles, name)) || {}).categories || []); }
 function resolveCats(modcfg, channel) {
-  const e = (modcfg.channels || {})[channel];
-  let name = ((modcfg.defaults || {}).profile) || "standard", inline = {};
-  if (typeof e === "string") name = e;
-  else if (e && typeof e === "object") { name = e.profile || name; inline = e; }
-  let cats = profileCats(modcfg, name);
+  const e = own(modcfg.channels, channel);              // own(): a channel id named
+  let name = ((modcfg.defaults || {}).profile) || "standard", inline = {};  // "__proto__"
+  if (typeof e === "string") name = e;                  // must resolve to nothing, not
+  else if (e && typeof e === "object") { name = e.profile || name; inline = e; }  // to
+  let cats = profileCats(modcfg, name);                 // Object.prototype
   for (const c of (inline.categories_add || [])) cats.add(c);
   for (const c of (inline.categories_remove || [])) cats.delete(c);
   if (inline.categories) cats = new Set(inline.categories);
-  const media = inline.media_policy || (((modcfg.profiles || {})[name]) || {}).media_policy || "allow";
+  const media = inline.media_policy || ((own(modcfg.profiles, name)) || {}).media_policy || "allow";
   return { profile: name, cats, media };
 }
 function ensureInline(modcfg, channel) {
   const c = (modcfg.channels = modcfg.channels || {});
-  let e = c[channel];
+  let e = own(c, channel);
   if (typeof e === "string") e = { profile: e };
   else if (!e || typeof e !== "object") e = { profile: ((modcfg.defaults || {}).profile) || "standard" };
   c[channel] = e; return e;
 }
+// A profile name is written into the config we commit, so it stays a plain identifier.
+const IDENT = /^[A-Za-z0-9_-]{1,40}$/;
 // Pure: apply one /mod edit to a modconfig object and return the new one.
+// Every key that comes from the interaction is checked with safeKey/an allowlist BEFORE
+// it is used as an object key: `channels["__proto__"] = {...}` reparents the object
+// instead of adding a channel, and that object is JSON we commit back to a public repo.
 function applyModChange(modcfg, group, sub, a) {
   modcfg = JSON.parse(JSON.stringify(modcfg));
   if (group === "channel" && sub === "set-profile") {
+    if (!safeKey(a.channel) || !IDENT.test(String(a.profile || ""))) return modcfg;
     (modcfg.channels = modcfg.channels || {})[a.channel] = a.profile;
   } else if (group === "category") {
+    if (!safeKey(a.channel) || MOD_CATEGORIES.indexOf(String(a.category)) === -1) return modcfg;
     const e = ensureInline(modcfg, a.channel);
     const cats = new Set(resolveCats(modcfg, a.channel).cats);
     if (sub === "enable") cats.add(a.category); else cats.delete(a.category);
     e.categories = Array.from(cats);
   } else if (group === "media" && sub === "policy") {
+    if (!safeKey(a.channel) || MEDIA_POLICIES.indexOf(String(a.policy)) === -1) return modcfg;
     ensureInline(modcfg, a.channel).media_policy = a.policy;
   } else if (group === "word") {
-    const cc = ((modcfg.categories = modcfg.categories || {})[a.category] = (modcfg.categories[a.category] || {}));
+    if (MOD_CATEGORIES.indexOf(String(a.category)) === -1) return modcfg;
+    const all = (modcfg.categories = modcfg.categories || {});
+    const cc = (all[a.category] = own(all, a.category) || {});
     cc.words = cc.words || [];
     if (sub === "add") { if (a.word && !cc.words.includes(a.word)) cc.words.push(a.word); }
     else cc.words = cc.words.filter(w => w !== a.word);
