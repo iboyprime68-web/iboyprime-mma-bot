@@ -3421,7 +3421,9 @@ studio_clean.MAX_DELETES = _sc_prev_cap
 print("\n[colorway wash + panels]")
 try:
     import postcard as _cwpc
-except Exception:
+except BaseException:
+    # postcard raises SystemExit (not ImportError) when Pillow is missing -
+    # a bare `except Exception` let that kill the whole CI run
     _cwpc = None
 if _cwpc is None:
     print("  SKIP: Pillow not available in this checkout")
