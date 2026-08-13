@@ -25,6 +25,16 @@ from modconfig import deep_merge   # generic dict merge - reuse, don't duplicate
 NEWSCONFIG_FILE = "newsconfig.json"
 MODES = ["realtime", "hybrid", "digest"]
 
+# How the staged poster emphasises its hot words (postcard.render_news):
+#   color      the hot words are filled in the brand accent (the owner's
+#              default - "I prefer text a different color because underline
+#              doesn't really highlight")
+#   underline  the hot words stay white over a purple bar
+#   auto       postcard rotates the two deterministically per story, so the
+#              feed alternates on its own. Two thirds color, one third
+#              underline: variety, with color still the house look.
+EMPHASIS_MODES = ["color", "underline", "auto"]
+
 _DEFAULT_SOURCES = {
     "mma_fighting":  {"label": "MMA Fighting", "url": "https://www.mmafighting.com/rss/current.xml", "enabled": True},
     "bloody_elbow":  {"label": "Bloody Elbow", "url": "https://www.bloodyelbow.com/feed/",           "enabled": True},
@@ -123,13 +133,26 @@ def base_defaults():
         "breaking_ignores_filters": True,   # a major story alerts even if its category is off
         "exclude_keywords": list(_DEFAULT_EXCLUDE),
         "digest": {"times_utc": ["21:30"], "min_items": 3, "ping": True},
+        # Hot-word emphasis on the staged poster (see EMPHASIS_MODES).
+        "emphasis": "auto",
         # AI story scoring for the YouTube staging pipeline (scorer.py). Works
         # without any key (deterministic heuristic); a DeepSeek or OpenRouter
         # key in the environment upgrades it. Thresholds are 0-100: at
         # stage_threshold the story is rendered + staged in the studio channel,
         # at ping_threshold the staged message also pings the owner.
+        #
+        # The two per-day caps are the cost and volume control (owner, Aug
+        # 2026: seven staged posts in one evening was a lot, and the AI bill
+        # should sit nearer 2 pounds than 20 a month). Both are counted per
+        # UTC date in state_news.json:
+        #   max_ai_calls_per_day  paid scoring calls. Over the cap the scorer
+        #                         falls back to the free heuristic, so nothing
+        #                         stops, it just stops costing.
+        #   max_staged_per_day    studio posts. Over the cap the story is
+        #                         skipped with a printed note.
         "scoring": {"enabled": True, "stage_threshold": 70, "ping_threshold": 85,
-                    "model": "", "max_tokens": 220, "timeout": 20},
+                    "model": "", "max_tokens": 220, "timeout": 20,
+                    "max_ai_calls_per_day": 120, "max_staged_per_day": 6},
         "max_per_hour": 6,
         "dedupe_similar": True,
         "similar_threshold": 0.6,
@@ -222,6 +245,17 @@ def validate_newsconfig(cfg, secret_values=()):
     problems = []
     if cfg.get("mode") not in MODES:
         problems.append("mode must be one of %s" % "/".join(MODES))
+    if cfg.get("emphasis", "auto") not in EMPHASIS_MODES:
+        problems.append("emphasis must be one of %s" % "/".join(EMPHASIS_MODES))
+    sc = cfg.get("scoring", {}) or {}
+    for key in ("max_ai_calls_per_day", "max_staged_per_day"):
+        if key not in sc:
+            continue
+        try:
+            if int(sc[key]) < 0:
+                problems.append("scoring %s must be >= 0" % key)
+        except (TypeError, ValueError):
+            problems.append("scoring %s must be a whole number" % key)
     cats = cfg.get("categories", {}) or {}
     if not isinstance(cats, dict) or not cats:
         problems.append("categories must be a non-empty object")
