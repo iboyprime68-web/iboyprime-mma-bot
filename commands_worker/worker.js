@@ -250,6 +250,7 @@ function resolveCats(modcfg, channel) {
 }
 function ensureInline(modcfg, channel) {
   const c = (modcfg.channels = modcfg.channels || {});
+  if (!safeKey(channel)) return {};        // throwaway: the write goes nowhere
   let e = own(c, channel);
   if (typeof e === "string") e = { profile: e };
   else if (!e || typeof e !== "object") e = { profile: ((modcfg.defaults || {}).profile) || "standard" };
@@ -295,10 +296,14 @@ function applyNewsChange(newscfg, group, sub, a) {
   if (group === null && sub === "mode") {
     if (["realtime", "hybrid", "digest"].includes(a.value)) newscfg.mode = a.value;
   } else if (group === null && sub === "source") {
-    const s = ((newscfg.sources = newscfg.sources || {})[a.name] = newscfg.sources[a.name] || {});
+    if (!IDENT.test(String(a.name || ""))) return newscfg;
+    const all = (newscfg.sources = newscfg.sources || {});
+    const s = (all[a.name] = own(all, a.name) || {});
     s.enabled = (a.state === "on");
   } else if (group === null && sub === "category") {
-    const c = ((newscfg.categories = newscfg.categories || {})[a.name] = newscfg.categories[a.name] || {});
+    if (!IDENT.test(String(a.name || ""))) return newscfg;
+    const all = (newscfg.categories = newscfg.categories || {});
+    const c = (all[a.name] = own(all, a.name) || {});
     c.enabled = (a.state === "on");
   } else if (group === "keyword") {
     const key = a.list === "breaking" ? "breaking_keywords" : "exclude_keywords";
@@ -337,7 +342,12 @@ async function welcomeConfig(env) {
   return _wcfgCache.cfg;                    // null until a fetch succeeds -> caller falls back
 }
 // Offline tests only: drop the 5-minute config caches so two cases can use two configs.
-function resetStudioCaches() { _cfgCache = { at: 0, cfg: null }; _wcfgCache = { at: 0, cfg: null }; }
+function resetStudioCaches() {
+  _cfgCache = { at: 0, cfg: null };
+  _wcfgCache = { at: 0, cfg: null };
+  _pollCache = { at: 0, data: null };
+  _meCache = { at: 0, id: null };
+}
 // PURE: the links list -> the /links body. https-only, mirroring welcomeconfig.clean_links.
 // Returns null (not "") when there is nothing usable, so the caller can fall back.
 function socialLines(links) {
@@ -404,7 +414,7 @@ async function userWarns(env, uid) {
   if (!env.DISCORD_BOT_TOKEN) return undefined;   // can't unlock the ledger; not "no warnings"
   const s = await getJSON(rawBase(env) + "/state_mod.json");
   if (!s || !s.users) return null;
-  return s.users[await uidKey(env, uid)] || null;
+  return own(s.users, await uidKey(env, uid)) || null;
 }
 async function postLog(env, cfg, content) {
   const ch = (cfg.channels || {}).mod_log;
@@ -642,7 +652,7 @@ const CONTEXT = {
     const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("\u26D4 No permission.", true);
     if (!env.DISCORD_BOT_TOKEN) return msg("\u26A0\uFE0F Needs the DISCORD_BOT_TOKEN secret.", true);
     const mid = i.data.target_id;
-    const m = ((i.data.resolved || {}).messages || {})[mid] || {};
+    const m = own((i.data.resolved || {}).messages, mid) || {};
     const author = (m.author || {}).id;
     await dapi(env, "DELETE", `/channels/${i.channel_id}/messages/${mid}`);
     if (author) await postLog(env, cfg, `\uD83D\uDDD1\uFE0F A message from <@${author}> was deleted by <@${i.member.user.id}> (right-click).`);
@@ -651,33 +661,54 @@ const CONTEXT = {
 };
 
 // ---------- /studio: password gate ----------
-// WHY THIS COOKIE SCHEME IS SAFE
-//   The cookie is `sid = base64url({"exp": <ms>}) . base64url(HMAC-SHA256(payload))`,
-//   keyed by STUDIO_PASSWORD. It is a signed bearer token, not a database session, so:
+// WHAT THIS COOKIE SCHEME DOES, AND WHAT IT DOES NOT DO
+//   The cookie is `sid = base64url({"exp": <ms>}) . base64url(HMAC-SHA256(payload))`.
+//   The HMAC key is NOT the password: it is PBKDF2-HMAC-SHA256(password, fixed salt,
+//   STUDIO_KDF_ITERS) and the login compare is over the same derived bits.
+//   * Why the derivation, and what the old scheme got wrong. Keying the HMAC with the
+//     raw STUDIO_PASSWORD handed out an offline password-cracking oracle: the plaintext
+//     is fully known ({"exp": <ms>}, and `exp` is readable straight out of the cookie),
+//     so anyone who ever saw one cookie could test candidate passwords locally at the
+//     speed of one SHA-256 each, forever, with no request to this Worker and nothing to
+//     rate limit. A human-chosen password does not survive that. PBKDF2 does not make
+//     the oracle go away (a bearer token signed with a password-derived key never can);
+//     it makes each guess cost STUDIO_KDF_ITERS hashes instead of one, which is the
+//     difference between billions of guesses a second and a few thousand.
 //   * Unforgeable without the password. The payload is public and tamper-EVIDENT, not
 //     secret: editing `exp` changes the signed string, the HMAC no longer matches, and
 //     the cookie is rejected. Nothing an attacker controls is ever parsed before the
 //     signature check passes.
-//   * The signature compare is constant time (ctEq). A byte-by-byte early return would
-//     leak the shared prefix and turn forgery into a few hundred requests.
+//   * The signature compare is constant time (ctEq), as is the login compare over the
+//     derived bits (ctEqBytes). A byte-by-byte early return would leak the shared prefix
+//     and turn forgery into a few hundred requests.
 //   * The password itself never leaves the Worker and is never in the cookie, so the
 //     cookie cannot be replayed anywhere else (it is not a credential for GitHub,
-//     Discord or Cloudflare) and reading it teaches an attacker nothing about the
-//     password beyond a 32-byte MAC.
+//     Discord or Cloudflare).
 //   * Expiry is inside the SIGNED payload, so a stale cookie cannot be extended by the
 //     client. Rotating STUDIO_PASSWORD invalidates every outstanding cookie at once,
 //     which is the whole logout-everywhere story.
 //   * HttpOnly keeps it away from page script, Secure keeps it off plain HTTP,
 //     SameSite=Lax blocks cross-site POSTs (so no CSRF against the write endpoints),
 //     and Path=/studio keeps it off the Discord interaction endpoint entirely.
-//   Known limits, accepted on purpose: there is no server-side revocation list (rotate
-//   the password instead), and the token is a bearer token, so anyone who can read the
-//   cookie jar is signed in. Both are the normal trade for a stateless Worker.
+//   Known limits, stated plainly rather than papered over:
+//   * No server-side revocation list. Rotate the password to sign everyone out.
+//   * It is a bearer token, so anyone who can read the cookie jar is signed in.
+//   * The strength of all of this is still the password. Use a long random one; the KDF
+//     buys a work factor, not entropy.
+//   * The KDF costs real CPU (roughly 60 ms per derivation). It is cached per isolate
+//     for the CONFIGURED password, so a signed-in owner pays it once per cold isolate,
+//     but a login ATTEMPT always pays it in full, on purpose (see loginTooMany).
 const STUDIO_COOKIE = "sid";
 const STUDIO_TTL_MS = 30 * 24 * 60 * 60 * 1000;      // 30 days
 const LOGIN_MAX_FAILS = 8;
 const LOGIN_WINDOW_MS = 10 * 60 * 1000;              // per IP, per 10 minutes
+const LOGIN_FAIL_DELAY_MS = 250;                     // fixed, added to every failure
 const STAGED_LIMIT = 25;
+// Fixed application salt. A per-user random salt buys nothing here: there is exactly one
+// password and it is not stored, so the salt's only job is domain separation, keeping
+// these derived bits from colliding with any other use of the same password.
+const STUDIO_KDF_SALT = "iboyprime-studio-session/v1";
+const STUDIO_KDF_ITERS = 200000;
 
 function bytesToB64(bytes) {
   let bin = "";
@@ -707,8 +738,46 @@ function ctEq(a, b) {
   for (let i = 0; i < n; i++) diff |= (A[i] || 0) ^ (B[i] || 0);
   return diff === 0;
 }
+// Constant-time compare over raw bytes, for the derived key material.
+function ctEqBytes(a, b) {
+  const A = a || new Uint8Array(0), B = b || new Uint8Array(0);
+  let diff = A.length ^ B.length;
+  const n = Math.max(A.length, B.length, 1);
+  for (let i = 0; i < n; i++) diff |= (A[i] || 0) ^ (B[i] || 0);
+  return diff === 0;
+}
+// PBKDF2-HMAC-SHA256 -> 32 bytes. Deliberately slow; that is the whole point.
+async function pbkdf2Bits(password) {
+  const enc = new TextEncoder();
+  const base = await crypto.subtle.importKey("raw",
+    enc.encode(String(password === null || password === undefined ? "" : password)),
+    { name: "PBKDF2" }, false, ["deriveBits"]);
+  const bits = await crypto.subtle.deriveBits(
+    { name: "PBKDF2", salt: enc.encode(STUDIO_KDF_SALT), iterations: STUDIO_KDF_ITERS, hash: "SHA-256" },
+    base, 256);
+  return new Uint8Array(bits);
+}
+// Per-isolate cache of the derivation for the CONFIGURED password only. A candidate from
+// a login form is NEVER cached: caching one would let an attacker amortise the work
+// factor away by replaying the same guess, and the cost is the defence.
+const _kdfCache = new Map();
+async function studioKey(env) {
+  const pw = String((env && env.STUDIO_PASSWORD) || "");
+  if (!pw) return null;
+  let p = _kdfCache.get(pw);
+  if (!p) {
+    p = pbkdf2Bits(pw);
+    p.catch(() => { _kdfCache.delete(pw); });   // never cache a failed derivation
+    if (_kdfCache.size > 8) _kdfCache.clear();  // bounded; only ever configured passwords
+    _kdfCache.set(pw, p);
+  }
+  return await p;
+}
+// `key` is the derived bits (Uint8Array). A string is accepted only so a test can prove
+// that a cookie signed with the RAW password is rejected.
 async function hmacB64url(key, message) {
-  const k = await crypto.subtle.importKey("raw", new TextEncoder().encode(String(key)),
+  const raw = (key instanceof Uint8Array) ? key : new TextEncoder().encode(String(key));
+  const k = await crypto.subtle.importKey("raw", raw,
     { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
   const sig = await crypto.subtle.sign("HMAC", k, new TextEncoder().encode(String(message)));
   return b64url(new Uint8Array(sig));
@@ -716,15 +785,17 @@ async function hmacB64url(key, message) {
 // Mint a session token. `now` is injectable so the tests can mint an expired one.
 async function studioToken(env, now) {
   const t = typeof now === "number" ? now : Date.now();
+  const key = await studioKey(env);
+  if (!key) return null;
   const payload = b64url(new TextEncoder().encode(JSON.stringify({ exp: t + STUDIO_TTL_MS })));
-  return payload + "." + await hmacB64url(env.STUDIO_PASSWORD, payload);
+  return payload + "." + await hmacB64url(key, payload);
 }
 async function studioTokenValid(env, token, now) {
   if (!env || !env.STUDIO_PASSWORD || typeof token !== "string") return false;
   const parts = token.split(".");
   if (parts.length !== 2 || !parts[0] || !parts[1]) return false;
   let expected;
-  try { expected = await hmacB64url(env.STUDIO_PASSWORD, parts[0]); } catch (e) { return false; }
+  try { expected = await hmacB64url(await studioKey(env), parts[0]); } catch (e) { return false; }
   // Signature FIRST: nothing attacker-controlled is parsed until the MAC checks out.
   if (!ctEq(parts[1], expected)) return false;
   let obj;
@@ -746,10 +817,18 @@ function cookieValue(request, name) {
 async function requireStudio(request, env) {
   return await studioTokenValid(env, cookieValue(request, STUDIO_COOKIE), Date.now());
 }
-// In-memory, per isolate. A Worker restart empties it, so this is a speed bump against
-// online guessing, never the security boundary: that is the password plus the HMAC.
-// Degrading to "no limit" on restart is deliberate; the alternative (fail closed on an
-// empty map) would lock the owner out every time Cloudflare recycles the isolate.
+// PER ISOLATE, and that is a real limit, not a formality. Cloudflare runs many isolates
+// per colo and many colos worldwide; each one keeps its own Map, so the true ceiling is
+// LOGIN_MAX_FAILS times however many isolates an attacker's traffic happens to land on,
+// and a restart empties the count entirely. This is NOT distributed rate limiting and
+// nothing here should be read as claiming it is. What actually slows online guessing:
+//   1. every attempt pays a full PBKDF2 derivation (STUDIO_KDF_ITERS), which is the
+//      cost centre and is not cached for candidate passwords, and
+//   2. a fixed LOGIN_FAIL_DELAY_MS on every failure.
+// Real distributed limiting would need Durable Objects or KV; that is a deliberate
+// not-yet, and the honest boundary remains a long random password.
+// Degrading to "no limit" on restart is also deliberate; the alternative (fail closed on
+// an empty map) would lock the owner out every time Cloudflare recycles the isolate.
 const _loginFails = new Map();
 function loginTooMany(ip, now) {
   const t = typeof now === "number" ? now : Date.now();
@@ -767,6 +846,7 @@ function noteLoginFail(ip, now) {
   }
 }
 function clearLoginFails(ip) { _loginFails.delete(ip || "?"); }
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 // ---------- /studio: responses ----------
 const STUDIO_HEADERS = {
@@ -775,15 +855,24 @@ const STUDIO_HEADERS = {
   "referrer-policy": "no-referrer",
 };
 // default-src 'none' plus exactly what the pages use. frame-ancestors stops clickjacking
-// of the write endpoints; connect-src 'self' means a caption pulled out of Discord can
-// never be turned into an exfiltration channel by the page that renders it.
+// of the write endpoints; connect-src is 'self' plus the two Discord CDN hosts and
+// NOTHING else, so a caption pulled out of Discord still cannot be turned into an
+// exfiltration channel by the page that renders it.
+// The CDN hosts are here because the page has to fetch the staged poster to work with
+// it (drawing it into a canvas taints the canvas unless the bytes arrive by fetch), and
+// with connect-src 'self' every one of those loads was a blocked request plus a console
+// violation. img-src names the same two hosts instead of a blanket `https:`: a wide-open
+// img-src is itself a quiet exfiltration channel, since an <img> URL carries whatever
+// the page appends to it. Anything the page draws itself goes through data:/blob:.
+const DISCORD_CDN_HOSTS = Object.freeze(["cdn.discordapp.com", "media.discordapp.net"]);
+const DISCORD_CDN_SRC = DISCORD_CDN_HOSTS.map(h => "https://" + h).join(" ");
 const STUDIO_CSP = [
   "default-src 'none'",
-  "img-src 'self' data: blob: https:",
+  "img-src 'self' data: blob: " + DISCORD_CDN_SRC,
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src https://fonts.gstatic.com data:",
   "script-src 'self' 'unsafe-inline'",
-  "connect-src 'self'",
+  "connect-src 'self' " + DISCORD_CDN_SRC,
   "form-action 'self'",
   "base-uri 'none'",
   "frame-ancestors 'none'",
@@ -877,8 +966,18 @@ async function studioLogin(request, env) {
       supplied = String(f.get("password") || "");
     }
   } catch (e) { supplied = ""; }
-  if (!ctEq(supplied, env.STUDIO_PASSWORD)) {
+  // Compare DERIVED BITS, not the passwords: one PBKDF2 over the candidate (never
+  // cached, so every guess pays the work factor) against the cached derivation of the
+  // configured password, byte-for-byte in constant time.
+  let ok = false;
+  try {
+    const want = await studioKey(env);
+    const got = await pbkdf2Bits(supplied);
+    ok = !!want && ctEqBytes(got, want);
+  } catch (e) { ok = false; }
+  if (!ok) {
     noteLoginFail(ip, now);
+    await sleep(LOGIN_FAIL_DELAY_MS);       // fixed, not a function of the guess
     // Deliberately generic. No "wrong password" against "no session", no hint about
     // what is behind the gate, and the same shape for every failure.
     return studioJson({ error: "sign in failed" }, 401);
@@ -892,33 +991,120 @@ async function studioLogin(request, env) {
 }
 
 // ---------- /studio: staged posts ----------
-// PURE: Discord messages -> the studio queue. Exactly six fields ever leave the Worker.
-// No author, no member ids, no bot token, and nothing from any other channel.
+// A URL is usable as a poster only if it is https AND lives on a Discord CDN host.
+// Anyone who can post in the staging channel could otherwise point the page at a host
+// they control: the fetch/<img> then carries the studio's referer and load timing to a
+// third party, and the "poster" the owner reviews is not the one the bot rendered.
+// Parsed with the real URL parser, so "https://cdn.discordapp.com@evil.example/x" (host
+// evil.example) and "https://evil.example/cdn.discordapp.com" both fail.
+function discordCdnUrl(u) {
+  const s = (typeof u === "string" ? u : "").trim();
+  if (s.indexOf("https://") !== 0) return null;
+  let host = "";
+  try { host = new URL(s).hostname.toLowerCase(); } catch (e) { return null; }
+  return DISCORD_CDN_HOSTS.indexOf(host) === -1 ? null : s;
+}
+// Split a staged message body into the caption and, when the staging bot ships one, the
+// poster spec. The FIRST plain fence is the caption; a ```json fence is metadata.
+function stagedParts(content) {
+  const re = /```([a-zA-Z0-9_+-]*)\n?([\s\S]*?)```/g;
+  let caption = "", meta = null, m;
+  while ((m = re.exec(String(content || ""))) !== null) {
+    const info = (m[1] || "").toLowerCase();
+    const body = (m[2] || "").trim();
+    if (info === "json") {
+      if (meta === null) {
+        try {
+          const o = JSON.parse(body);
+          if (o && typeof o === "object" && !Array.isArray(o)) meta = o;
+        } catch (e) { /* a bad spec is just no spec */ }
+      }
+      continue;
+    }
+    if (!caption) caption = body;
+  }
+  return { caption, meta: meta || {} };
+}
+function metaStr(meta, key, cap) {
+  const v = own(meta, key);
+  return typeof v === "string" ? v.trim().slice(0, cap || 200) : "";
+}
+// First non-empty caption line: build_caption() puts the headline there.
+function captionHeadline(caption) {
+  for (const l of String(caption || "").split("\n")) {
+    const t = l.trim();
+    if (t) return t.slice(0, 200);
+  }
+  return "";
+}
+// build_caption() signs off with "via <source>"; that is the attribution the poster
+// footer renders, so the page gets it even before the bot ships a spec block.
+function captionSource(caption) {
+  const m = /^\s*via\s+(.{1,80}?)\s*$/mi.exec(String(caption || ""));
+  return m ? m[1].trim() : "";
+}
+// PURE: Discord messages -> the studio queue. Exactly the eleven contract fields ever
+// leave the Worker. No author, no member ids, no bot token, nothing from any other
+// channel, and nothing from any other author (see parseStaged).
 // Message shape written by the staging bot: "Staged post - score NN (why)" followed by
-// the caption in a fenced block, with the poster as the first attachment.
+// the caption in a fenced block, with the poster as the first attachment. line/speaker/
+// source/about/hot come from an optional ```json spec fence and degrade to empty.
 function parseStagedOne(m) {
   const content = String((m && m.content) || "");
   const head = /score\s+(\d{1,3})\s*(?:\(([^)]*)\))?/i.exec(content);
-  const fence = /```(?:[a-zA-Z0-9_+-]*\n)?([\s\S]*?)```/.exec(content);
+  const { caption, meta } = stagedParts(content);
   const att = (((m && m.attachments) || [])[0]) || {};
   const emb = (((m && m.embeds) || [])[0]) || {};
   const url = (typeof att.url === "string" && att.url) ||
               (emb.image && typeof emb.image.url === "string" && emb.image.url) || "";
+  const hotRaw = own(meta, "hot");
   return {
     id: String((m && m.id) || ""),
     score: head ? Number(head[1]) : null,
     why: head && head[2] ? head[2].trim() : "",
-    caption: fence ? fence[1].trim() : "",
-    // https only: this lands in an <img src> on the page, so a javascript: or data:
-    // value from a spoofed message must never survive the trip.
-    image_url: url.indexOf("https://") === 0 ? url : null,
+    caption,
+    line: metaStr(meta, "line", 200) || captionHeadline(caption),
+    speaker: metaStr(meta, "speaker", 80),
+    source: metaStr(meta, "source", 80) || captionSource(caption),
+    about: metaStr(meta, "about", 120),
+    hot: (Array.isArray(hotRaw) ? hotRaw : [])
+      .filter(w => typeof w === "string" && w.trim())
+      .slice(0, 8).map(w => w.trim().slice(0, 60)),
+    // https AND a Discord CDN host: this lands in an <img src> on the page, so a
+    // javascript:, data: or attacker-hosted value must never survive the trip.
+    image_url: discordCdnUrl(url),
     timestamp: (m && m.timestamp) || null,
   };
 }
-function parseStaged(messages) {
+// `botId` is REQUIRED and the filter fails closed without it. The staging channel is a
+// staff channel, but "staff" is not "us": anyone who can post there could write
+// "Staged post - score 99" with their own caption and image and it would appear in the
+// owner's queue as if the pipeline had produced it. Only messages authored by this
+// application's own bot user are staged posts.
+function parseStaged(messages, botId) {
+  const bot = isSnowflake(botId) ? String(botId).trim() : null;
+  if (!bot) return [];
   return (Array.isArray(messages) ? messages : [])
-    .filter(m => m && /staged\s+post/i.test(String(m.content || "")))
+    .filter(m => m && m.author && String(m.author.id) === bot)
+    .filter(m => /staged\s+post/i.test(String(m.content || "")))
     .map(parseStagedOne);
+}
+// Who are we. GET /users/@me with the bot token answers with this application's bot
+// user; cached per isolate because it never changes for a given token.
+let _meCache = { at: 0, id: null };
+async function botUserId(env) {
+  const now = Date.now();
+  if (_meCache.id && now - _meCache.at < 3600000) return _meCache.id;   // 1-hour cache
+  if (!env || !env.DISCORD_BOT_TOKEN) return null;
+  let me = null;
+  try {
+    const r = await dapi(env, "GET", "/users/@me");
+    if (r && r.ok) me = await r.json();
+  } catch (e) { me = null; }
+  const id = me && me.id;
+  if (!isSnowflake(id)) return null;
+  _meCache = { at: now, id: String(id) };
+  return _meCache.id;
 }
 async function studioStaged(env) {
   if (!env.DISCORD_BOT_TOKEN) return studioJson({ error: "the worker needs the DISCORD_BOT_TOKEN secret" }, 503);
@@ -927,16 +1113,35 @@ async function studioStaged(env) {
   // Hard fail. With no configured studio channel there is no safe default: falling back
   // to "some" channel would publish member chat through an API meant for one queue.
   if (!isSnowflake(ch)) return studioJson({ error: "channels.studio is missing from bots_config.json" }, 503);
+  // Fail closed: without our own user id there is no way to tell our posts from anyone
+  // else's, and an unfiltered queue is the bug this check exists to prevent.
+  const me = await botUserId(env);
+  if (!me) return studioJson({ error: "could not identify the bot user" }, 502);
   const r = await dapi(env, "GET", "/channels/" + ch + "/messages?limit=" + STAGED_LIMIT);
   if (!r || !r.ok) return studioJson({ error: "could not read the staging channel" }, 502);
   let list = [];
   try { list = await r.json(); } catch (e) { list = []; }
-  return studioJson(parseStaged(list), 200);
+  return studioJson(parseStaged(list, me), 200);
 }
 
 // ---------- /studio: AI key ----------
 // Allowlist, not a caller-built name: the provider string never reaches the API path.
-const AI_PROVIDERS = { deepseek: "DEEPSEEK_API_KEY", openrouter: "OPENROUTER_API_KEY" };
+// This USED to be a bypass. `AI_PROVIDERS[provider]` is a prototype-chain lookup, so
+// provider="__proto__" returned Object.prototype (truthy), the "unknown provider" check
+// passed, and the secret name concatenated into the URL as "[object Object]":
+//   PUT https://api.github.com/repos/o/r/actions/secrets/[object Object]
+// "constructor" and "toString" did the same with different garbage. The gate is now an
+// includes() on a frozen list plus an own-property read, and the resolved name has to
+// match the shape GitHub accepts before it can reach a path.
+const AI_PROVIDER_NAMES = Object.freeze(["deepseek", "openrouter"]);
+const AI_PROVIDERS = Object.freeze({ deepseek: "DEEPSEEK_API_KEY", openrouter: "OPENROUTER_API_KEY" });
+const SECRET_NAME = /^[A-Z][A-Z0-9_]{2,99}$/;
+function aiSecretName(provider) {
+  const p = String(provider === null || provider === undefined ? "" : provider).toLowerCase();
+  if (AI_PROVIDER_NAMES.indexOf(p) === -1) return null;
+  const name = own(AI_PROVIDERS, p);
+  return (typeof name === "string" && SECRET_NAME.test(name)) ? name : null;
+}
 // libsodium's crypto_box_seal, which is the only format GitHub's Actions secrets API
 // accepts: ephemeral X25519 keypair, nonce = blake2b(epk || recipient_pk, 24 bytes),
 // output = epk || crypto_box_easy(secret, nonce, recipient_pk, esk).
@@ -987,16 +1192,18 @@ async function studioAiKeyStatus(env) {
   // back out at all, by GitHub's design, so there is no key material on this path.
   const r = await getJSON(ghBase(env) + "/actions/secrets?per_page=100", ghHeaders(env));
   const names = new Set(((r && r.secrets) || []).map(s => String((s && s.name) || "").toUpperCase()));
-  const out = {};
-  for (const p of Object.keys(AI_PROVIDERS)) out[p] = names.has(AI_PROVIDERS[p]);
-  return studioJson(out, 200);
+  const providers = {};
+  for (const p of AI_PROVIDER_NAMES) providers[p] = names.has(aiSecretName(p));
+  return studioJson({ providers }, 200);
 }
 async function studioAiKeySave(request, env) {
   if (!env.GITHUB_TOKEN) return studioJson({ error: "the worker needs the GITHUB_TOKEN secret" }, 503);
   let body = {};
   try { body = await request.json(); } catch (e) { body = {}; }
   const provider = String((body && body.provider) || "").toLowerCase();
-  const name = AI_PROVIDERS[provider];
+  // Ownership test, never a prototype-chain lookup. Nothing reaches the network until
+  // the provider matched the frozen list, so "__proto__" costs an attacker one 400.
+  const name = aiSecretName(provider);
   if (!name) return studioJson({ error: "unknown provider" }, 400);
   const key = String((body && body.key) || "").trim();
   // Shape check only, and the value is never echoed back, never logged and never put in
@@ -1009,6 +1216,43 @@ async function studioAiKeySave(request, env) {
   return studioJson({ ok: false, error: res.error }, res.status);
 }
 
+// ---------- /studio: the poll question bank ----------
+// The real bank, not a sample: bots_github/polls_data.json ships to the repo root, so it
+// reads the same cheap way as bots_config (raw CDN, no token, 5-minute cache).
+// PURE: one bank entry -> the contract shape. Strings only, so nothing structural from
+// the JSON can reach the page.
+function pollShape(entry) {
+  const e = (entry && typeof entry === "object") ? entry : {};
+  const opts = Array.isArray(e.options) ? e.options : [];
+  return {
+    question: String(e.q || e.question || "").slice(0, 300),
+    options: opts.slice(0, 8).map(o => ({
+      label: String((o && o.label) || "").slice(0, 80),
+      emoji: String((o && o.emoji) || "").slice(0, 16),
+      img: String((o && o.img) || "").slice(0, 120),
+    })).filter(o => o.label),
+  };
+}
+const POLL_EMPTY = { question: "", options: [] };
+let _pollCache = { at: 0, data: null };
+async function studioPoll(env) {
+  const now = Date.now();
+  if (_pollCache.data && now - _pollCache.at < 300000) return studioJson(_pollCache.data, 200);
+  const bank = await getJSON(rawBase(env) + "/polls_data.json");
+  // Degrade to the empty shape rather than an error: the page renders the same either
+  // way and a missing bank is a deploy state, not a fault the owner can act on here.
+  if (!Array.isArray(bank) || !bank.length) return studioJson(POLL_EMPTY, 200);
+  // polls_bot posts bank[cursor] and commits state_polls.json BEFORE it posts, so the
+  // committed cursor is exactly what goes out next. Missing or junk state -> entry one.
+  let cursor = 0;
+  const st = await getJSON(rawBase(env) + "/state_polls.json");
+  const c = st ? Number(st.cursor) : NaN;
+  if (Number.isFinite(c) && c >= 0) cursor = Math.floor(c) % bank.length;
+  const data = pollShape(bank[cursor]);
+  _pollCache = { at: now, data };
+  return studioJson(data, 200);
+}
+
 // ---------- /studio: capability facts ----------
 // One source of truth for what the platforms actually allow, so the page never implies
 // a capability that does not exist. Checked against the YouTube Data API v3 reference:
@@ -1019,6 +1263,40 @@ const STUDIO_LIMITS = {
 };
 
 // ---------- /studio: router ----------
+// ===========================================================================
+// THE /studio API CONTRACT. studio_page.js is written against exactly these
+// shapes; this comment and that file must agree. Change one, change both.
+//
+//   GET  /studio/api/staged
+//        -> [{ id, score, why, caption, line, speaker, source, about,
+//               hot: [string], image_url, timestamp }]
+//        Newest first (Discord order). score is a number or null. hot is always
+//        an array. image_url is a Discord CDN https URL or null, never anything
+//        else. line/speaker/source/about are always strings, "" when unknown.
+//        503 without DISCORD_BOT_TOKEN or channels.studio; 502 if Discord or the
+//        bot-identity lookup fails.
+//
+//   GET  /studio/api/aikey   -> { providers: { deepseek: bool, openrouter: bool } }
+//        Presence only. Actions secret values cannot be read back from GitHub at
+//        all, so no key material exists on this path.
+//
+//   POST /studio/api/aikey   <- { provider: "deepseek" | "openrouter", key }
+//        -> 200 { ok: true, provider, stored: true } | 400 { error } |
+//           501/502/503 { ok: false, error }. Any other provider is a 400 and
+//           nothing leaves the Worker.
+//
+//   GET  /studio/api/poll
+//        -> { question: "", options: [{ label, emoji, img }] }
+//        The real bank (polls_data.json), positioned at the entry the bot posts
+//        next. Empty shape when the bank is unreachable, never an error.
+//
+//   GET  /studio/api/limits
+//        -> { youtube_api_supports_community_posts: false, note }
+//
+// Every route above needs the session cookie: no cookie is 401 with
+// { error: "unauthorized" }, and with STUDIO_PASSWORD unset the whole surface is
+// 503 text. Errors are always JSON { error } except that one 503.
+// ===========================================================================
 // Every /studio path is answered here and returns. The Discord interaction endpoint is
 // below this in fetch(), so no request to a /studio route can reach a command handler,
 // signed or not.
@@ -1052,6 +1330,7 @@ async function studioRouter(request, env, url) {
   if (path === "/studio/api/staged" && request.method === "GET") return await studioStaged(env);
   if (path === "/studio/api/aikey" && request.method === "GET") return await studioAiKeyStatus(env);
   if (path === "/studio/api/aikey" && request.method === "POST") return await studioAiKeySave(request, env);
+  if (path === "/studio/api/poll" && request.method === "GET") return await studioPoll(env);
   if (path === "/studio/api/limits" && request.method === "GET") return studioJson(STUDIO_LIMITS, 200);
   return studioJson({ error: "not found" }, 404);
 }
@@ -1072,8 +1351,11 @@ export default {
     if (interaction.type === 1) return json({ type: T.PONG });
     if (interaction.type === 2) {
       const d = interaction.data || {};
-      const handler = (d.type === 2 || d.type === 3) ? CONTEXT[d.name] : COMMANDS[d.name];
-      if (!handler) return json({ type: T.MESSAGE, data: msg("Unknown command.", true) });
+      // own() + a typeof check: COMMANDS["constructor"] is the Object function and
+      // COMMANDS["toString"] is a function too, so a plain `[]` lookup would happily
+      // "dispatch" to either one.
+      const handler = (d.type === 2 || d.type === 3) ? own(CONTEXT, d.name) : own(COMMANDS, d.name);
+      if (typeof handler !== "function") return json({ type: T.MESSAGE, data: msg("Unknown command.", true) });
       let res;
       try { res = await handler(interaction, env); } catch (e) { return json({ type: T.MESSAGE, data: msg("Something went wrong.", true) }); }
       if (res.defer) {
@@ -1097,8 +1379,11 @@ export default {
 export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildPoll, fighterEmbed, avatarUrl, snowflakeDate, fmtBouts, EIGHTBALL,
   subPath, isStaffFromRoles, applyModChange, applyNewsChange, resolveCats, MOD_CATEGORIES, MEDIA_POLICIES,
   socialLines, SOCIALS_FALLBACK, COMMANDS, CONTEXT, isSnowflake, safeApiPath, uidKey, userWarns, ADMIN_UP,
+  own, safeKey, optMap,
   // /studio
-  ctEq, studioToken, studioTokenValid, cookieValue, requireStudio, parseStaged, parseStagedOne,
+  ctEq, ctEqBytes, studioToken, studioTokenValid, cookieValue, requireStudio, parseStaged, parseStagedOne,
   loginTooMany, noteLoginFail, clearLoginFails, LOGIN_MAX_FAILS, sealBox, b64ToBytes, bytesToB64,
-  AI_PROVIDERS, STUDIO_LIMITS, STUDIO_COOKIE, STUDIO_TTL_MS, LOGIN_HTML, STUDIO_HTML, STUDIO_CSP,
+  AI_PROVIDERS, AI_PROVIDER_NAMES, aiSecretName, STUDIO_LIMITS, STUDIO_COOKIE, STUDIO_TTL_MS,
+  LOGIN_HTML, STUDIO_HTML, STUDIO_CSP, DISCORD_CDN_HOSTS, discordCdnUrl, pollShape, POLL_EMPTY,
+  pbkdf2Bits, studioKey, hmacB64url, STUDIO_KDF_ITERS, STUDIO_KDF_SALT, LOGIN_FAIL_DELAY_MS,
   resetStudioCaches };
