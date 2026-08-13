@@ -557,6 +557,10 @@ def main():
     upcoming = ids_by_key.get("upcoming")
     cfg = {
         "guild_id": GUILD_ID,
+        # The guild owner's user id, captured from the guild GET main() already
+        # does (never a second request). Discord always returns it, but a missing
+        # or null value degrades to "" so consumers see a string either way.
+        "owner_id": str(guild.get("owner_id") or ""),
         "channels": ids_by_key,
         "roles": out_roles,
         "patrol_channels": patrol,
