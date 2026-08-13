@@ -43,24 +43,19 @@ PALETTE = {
                                 # VIVID violet step - more chroma than accent,
                                 # same luminance ballpark - and the text band
                                 # scrim underneath carries the contrast
-    "accent_fill": "#D2ADFF",   # HOT-WORD GLYPH FILL, and nothing else. The
-                                # owner's Aug 2026 verdict put colored words
-                                # back in ("underline doesn't really highlight
-                                # - on my phone I won't see it"), and the flaw
-                                # that killed the earlier colored rounds was
-                                # LUMINANCE: accent_hot sits at ~119/255 and
-                                # sank into warm skin and cage light. Purple
-                                # luminance is carried almost entirely by
-                                # green, so this step trades some chroma for
-                                # 187/255 and the per-word ink pocket
-                                # underneath supplies the rest. Measured at 30
-                                # percent on the gauntlet card: glyph-vs-ground
-                                # 152.8 against white's 176.5 (0.87) and Lab
-                                # dE 70.7 against white's 68.6 (1.03). Going
-                                # paler buys luminance and loses the purple -
-                                # #DCBEFF scores 0.92 but stops reading violet
-                                # at feed size, which is the whole point of the
-                                # owner's verdict
+    "accent_fill": "#A45CFF",   # HOT-WORD GLYPH FILL, and nothing else.
+                                # OWNER-CHOSEN (Aug 2026): he pointed at a
+                                # staged card and said the highlight must be
+                                # THIS purple. It was briefly lightened to
+                                # #D2ADFF to buy luminance, but that only made
+                                # sense next to the dark per-word pocket he
+                                # then had removed, and on its own it reads
+                                # washed out rather than violet. This value is
+                                # the same vivid tone as accent_hot, which is
+                                # what the quote glyphs and footer already use,
+                                # so the whole card now carries ONE purple.
+                                # Do not pale this out again for a contrast
+                                # score: brand first.
     "accent_deep": "#5B3DF5",   # darker sibling for glows / gradient bottoms
     "accent_soft": "#C9BBFF",   # pale lavender for meta type on dark purple fields
     "rim":         "#D9A6FF",   # chromatic violet rim light on fighter cutouts
