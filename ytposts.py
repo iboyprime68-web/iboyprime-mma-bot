@@ -18,7 +18,7 @@ catches everything and returns a status string instead of raising.
 Std-lib only at import time. Pillow is required only at render time; when it
 is missing the story stages as text-only (caption, no graphic).
 """
-import os, re, tempfile, urllib.request
+import json, os, re, tempfile, urllib.request
 
 import common
 
@@ -207,11 +207,51 @@ def build_caption(title, desc, source):
     return "\n".join(lines)
 
 
-def _studio_body(score, why, caption, ping_uid):
+def retention_note(newscfg):
+    """One calm line telling the owner this copy is temporary, or "".
+
+    studio_clean.py deletes staged posts on a daily cron, so the message says
+    so rather than leaving him to wonder where yesterday's went. The number
+    comes from studio_clean.retention_days, which reads the SAME newsconfig
+    key the deleter uses - a second copy of that default here is exactly how
+    the two would drift apart. A missing module just drops the line.
+    """
+    try:
+        from studio_clean import retention_days
+        days = retention_days(newscfg)
+    except Exception:
+        return ""
+    return "This copy is deleted from the channel after %d day%s.\n" % (
+        days, "" if days == 1 else "s")
+
+
+def studio_spec(it, kind):
+    """The ```json spec fence the Worker parses back out for the studio's
+    staged rail (worker.js stagedParts). This is what makes a staged post
+    ROUND-TRIP: the studio re-renders the text live from these fields instead
+    of showing the rendered card's baked-in pixels. `kind` says what the
+    SECOND attachment is ("photo" = the raw story photo, "cutout" = the
+    octagon promo cutout, "" = card only). Pure."""
+    spec = {
+        "line": " ".join(str(it.get("line") or "").split())[:200],
+        "hot": [str(h)[:60] for h in (it.get("hot") or []) if str(h or "").strip()][:8],
+        "source": " ".join(str(it.get("source") or "").split())[:80],
+        "emphasis": str(it.get("emphasis") or "")[:20],
+        "guid": str(it.get("guid") or "")[:200],
+        "template": "news",
+        "colorway": "purple",
+        "photo": kind,
+    }
+    return json.dumps({k: v for k, v in spec.items() if v}, ensure_ascii=True)
+
+
+def _studio_body(score, why, caption, ping_uid, note="", spec_json=""):
     head = "<@%s> " % ping_uid if ping_uid else ""
+    spec = ("\n```json\n%s\n```" % spec_json) if spec_json else ""
     return ("%sStaged post - score %d (%s)\n"
             "Copy the caption, save the image, then post or schedule it in "
-            "the YouTube app.\n```\n%s\n```" % (head, score, why, caption))
+            "the YouTube app.\n%s```\n%s\n```%s"
+            % (head, score, why, note, caption, spec))
 
 
 def stage_story(it, score, why, cfg_bots, newscfg):
@@ -227,21 +267,20 @@ def stage_story(it, score, why, cfg_bots, newscfg):
             ping_uid = str(cfg_bots.get("owner_id", "") or "")
 
         caption = build_caption(it.get("title"), it.get("desc"), it.get("source"))
-        body = _studio_body(score, why, caption, ping_uid)
         mentions = ({"parse": [], "users": [ping_uid]} if ping_uid else None)
         silent = not ping_uid    # a ping must never ride a silent message
 
         img_path = ""
+        photo_path = ""
+        cutout_path = ""
         try:
             photo_url = og_image(it.get("link"))
-            photo_path = ""
             if photo_url:
                 raw = fetch_bytes(photo_url)
                 if raw:
                     fd, photo_path = tempfile.mkstemp(suffix=".img")
                     with os.fdopen(fd, "wb") as f:
                         f.write(raw)
-            cutout_path = ""
             if not photo_path:
                 cutout_path = fighter_cutout(
                     "%s %s" % (it.get("line") or "", it.get("title") or ""))
@@ -265,25 +304,34 @@ def stage_story(it, score, why, cfg_bots, newscfg):
             fd, img_path = tempfile.mkstemp(suffix=".png")
             os.close(fd)
             img.save(img_path, "PNG")
-            for tmp in (photo_path, cutout_path):
-                if tmp:
-                    try: os.remove(tmp)
-                    except OSError: pass
         except SystemExit:
             img_path = ""                       # Pillow missing: text-only stage
         except Exception as e:
             img_path = ""
             print("  stage render failed (%s), staging text-only" % type(e).__name__)
 
+        # the raw subject rides as a SECOND attachment so the studio can
+        # re-render the poster with the text still live (the round-trip fix:
+        # loading the rendered card back into an editor gives baked-in text)
+        raw_kind = "photo" if photo_path else ("cutout" if cutout_path else "")
+        body = _studio_body(score, why, caption, ping_uid,
+                            retention_note(newscfg),
+                            spec_json=studio_spec(it, raw_kind if img_path else ""))
         if img_path:
-            code, _ = common.post_file(chan, body, img_path,
-                                       filename="post.png",
+            files = [(img_path, "post.png")]
+            if photo_path:
+                files.append((photo_path, "photo.jpg"))
+            elif cutout_path:
+                files.append((cutout_path, "cutout.png"))
+            code, _ = common.post_file(chan, body, files,
                                        allowed_mentions=mentions, silent=silent)
-            try: os.remove(img_path)
-            except OSError: pass
         else:
             code, _ = common.post_message(chan, body,
                                           allowed_mentions=mentions, silent=silent)
+        for tmp in (img_path, photo_path, cutout_path):
+            if tmp:
+                try: os.remove(tmp)
+                except OSError: pass
         return "staged (HTTP %s)%s" % (code, " with ping" if ping_uid else "")
     except Exception as e:
         return "stage failed (%s)" % type(e).__name__
