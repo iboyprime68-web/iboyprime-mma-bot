@@ -602,8 +602,417 @@ const CONTEXT = {
   } }),
 };
 
+// ---------- /studio: the owner's poster composer page ----------
+// A static page, served on GET /studio only. It reads no env, holds no secret and
+// makes no network call besides the Poppins font. All rendering is client-side on a
+// 1080x1350 canvas that follows the owner's poster rules: cover-filled photo, bottom
+// crushed to near-black, centered uppercase Poppins line with purple highlight words,
+// optional quote chip and inset portrait, tiny "VIA <SOURCE>" credit. No logo and no
+// channel name anywhere - the owner banned both.
+const STUDIO_HTML = `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0b11">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Studio">
+<title>Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0b11;--card:#14141d;--line:#23232f;--text:#f2f2f7;--dim:#9b9ba8;--accent:#8B70FF;--soft:rgba(139,112,255,.14)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--text);font-family:Poppins,system-ui,sans-serif;min-height:100vh;padding-bottom:44px}
+header{padding:calc(14px + env(safe-area-inset-top)) 18px 12px;display:flex;align-items:baseline;gap:10px}
+header h1{font-size:22px;font-weight:800;letter-spacing:.5px}
+header span{color:var(--dim);font-size:12px;font-weight:600}
+main{display:grid;gap:16px;padding:0 14px;max-width:560px;margin:0 auto}
+@media(min-width:960px){main{max-width:1080px;grid-template-columns:minmax(0,1fr) 420px;align-items:start}.preview{position:sticky;top:14px}}
+.preview canvas{width:100%;height:auto;display:block;border-radius:14px;border:1px solid var(--line);background:#000}
+.panel{display:grid;gap:14px}
+label{font-size:12px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--dim);display:block;margin-bottom:6px}
+input[type=text],textarea{width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;color:var(--text);font:500 16px Poppins,sans-serif;padding:14px;min-height:52px;outline:none}
+input[type=text]:focus,textarea:focus{border-color:var(--accent)}
+#line{text-transform:uppercase;font-weight:800}
+textarea{resize:vertical}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips:empty{display:none}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--text);font:800 14px Poppins,sans-serif;text-transform:uppercase;padding:10px 14px;border-radius:999px;min-height:44px;cursor:pointer}
+.chip.on{background:var(--accent);border-color:var(--accent);color:#0b0b11}
+.hint{color:var(--dim);font-size:12px;margin-top:-8px}
+.drop{border:2px dashed var(--line);border-radius:14px;background:var(--card);min-height:96px;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--dim);font-size:14px;padding:16px;cursor:pointer}
+.drop.over{border-color:var(--accent);color:var(--text);background:var(--soft)}
+.drop.set{border-style:solid;color:var(--text)}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+button{font:600 15px Poppins,sans-serif;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--text);padding:14px 18px;min-height:52px;cursor:pointer;flex:1}
+button.primary{background:var(--accent);border-color:var(--accent);color:#0b0b11;font-weight:800}
+button.ghost{background:transparent}
+.hidden{display:none}
+.switch{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;min-height:52px;cursor:pointer;text-transform:none;letter-spacing:0;font:600 15px Poppins,sans-serif;color:var(--text);margin-bottom:0}
+.switch input{width:22px;height:22px;accent-color:var(--accent)}
+</style>
+</head>
+<body>
+<header><h1>Studio</h1><span>poster composer</span></header>
+<main>
+<section class="preview"><canvas id="cv" width="1080" height="1350"></canvas></section>
+<section class="panel">
+  <div>
+    <label for="line">Poster line</label>
+    <input id="line" type="text" autocomplete="off" autocapitalize="characters" placeholder="TYPE THE POSTER LINE" value="THE RETURN NOBODY SAW COMING">
+  </div>
+  <div id="chips" class="chips"></div>
+  <p class="hint">Tap a word to turn it purple.</p>
+  <div>
+    <label>Main photo</label>
+    <div id="drop" class="drop" role="button" tabindex="0"><span id="dropLabel">Drop a photo here or tap to choose</span></div>
+    <input id="file" type="file" accept="image/*" class="hidden">
+  </div>
+  <button id="photoClear" type="button" class="ghost hidden">Remove photo</button>
+  <div class="row">
+    <button id="insetBtn" type="button" class="ghost">Add inset photo</button>
+    <button id="insetClear" type="button" class="ghost hidden">Remove inset</button>
+  </div>
+  <input id="insetFile" type="file" accept="image/*" class="hidden">
+  <label class="switch"><input id="quote" type="checkbox"><span>Quote chip above the line</span></label>
+  <div>
+    <label for="via">Via source</label>
+    <input id="via" type="text" autocomplete="off" autocapitalize="characters" placeholder="ESPN MMA">
+  </div>
+  <div>
+    <label for="caption">Caption</label>
+    <textarea id="caption" rows="5" placeholder="Write the caption to post with it"></textarea>
+  </div>
+  <div class="row">
+    <button id="copyBtn" type="button">Copy caption</button>
+    <button id="dl" type="button" class="primary">Download PNG</button>
+  </div>
+</section>
+</main>
+<script>
+(function () {
+  "use strict";
+  var ACCENT = "#8B70FF";
+  var W = 1080, H = 1350;
+  var cv = document.getElementById("cv");
+  var ctx = cv.getContext("2d");
+  var lineEl = document.getElementById("line");
+  var chipsEl = document.getElementById("chips");
+  var viaEl = document.getElementById("via");
+  var quoteEl = document.getElementById("quote");
+  var capEl = document.getElementById("caption");
+  var drop = document.getElementById("drop");
+  var dropLabel = document.getElementById("dropLabel");
+  var fileEl = document.getElementById("file");
+  var photoClear = document.getElementById("photoClear");
+  var insetBtn = document.getElementById("insetBtn");
+  var insetClear = document.getElementById("insetClear");
+  var insetFile = document.getElementById("insetFile");
+  var copyBtn = document.getElementById("copyBtn");
+  var dl = document.getElementById("dl");
+  var photo = null, inset = null, hl = {};
+
+  function words() {
+    var t = (lineEl.value || "").trim();
+    return t ? t.split(/\\s+/) : [];
+  }
+
+  function renderChips() {
+    chipsEl.innerHTML = "";
+    var ws = words();
+    for (var i = 0; i < ws.length; i++) {
+      (function (idx, w) {
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "chip" + (hl[idx] ? " on" : "");
+        b.textContent = w.toUpperCase();
+        b.addEventListener("click", function () { hl[idx] = !hl[idx]; renderChips(); draw(); });
+        chipsEl.appendChild(b);
+      })(i, ws[i]);
+    }
+  }
+
+  function cover(img, x, y, w, h) {
+    var s = Math.max(w / img.width, h / img.height);
+    var dw = img.width * s, dh = img.height * s;
+    ctx.drawImage(img, x + (w - dw) / 2, y + (h - dh) / 2, dw, dh);
+  }
+
+  function roundRect(x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  }
+
+  // Balanced greedy split of the words into n lines by character count.
+  function splitLines(ws, n) {
+    if (n <= 1 || ws.length <= 1) return [ws];
+    var total = 0, i;
+    for (i = 0; i < ws.length; i++) total += ws[i].t.length + 1;
+    var target = total / n;
+    var lines = [], cur = [], acc = 0;
+    for (i = 0; i < ws.length; i++) {
+      var add = ws[i].t.length + 1;
+      if (cur.length && lines.length < n - 1 && acc + add > target * (lines.length + 1)) {
+        lines.push(cur); cur = [];
+      }
+      cur.push(ws[i]); acc += add;
+    }
+    if (cur.length) lines.push(cur);
+    return lines;
+  }
+
+  function measureLine(lineWords, size) {
+    ctx.font = "900 " + size + "px Poppins, sans-serif";
+    var sp = ctx.measureText(" ").width;
+    var total = 0;
+    for (var i = 0; i < lineWords.length; i++) {
+      total += ctx.measureText(lineWords[i].t).width;
+      if (i) total += sp;
+    }
+    return total;
+  }
+
+  // 2 or 3 lines, auto-sized to fit. Prefers fewer lines while the type stays big.
+  function layoutText() {
+    var ws = words().map(function (w, i) { return { t: w.toUpperCase(), i: i }; });
+    if (!ws.length) return null;
+    var maxW = 940, cap = 116, floor = 40, bigEnough = 72;
+    var options = ws.length <= 3 ? [1, 2] : [2, 3];
+    var best = null;
+    for (var k = 0; k < options.length; k++) {
+      var lines = splitLines(ws, options[k]);
+      var widest = 0;
+      for (var m = 0; m < lines.length; m++) widest = Math.max(widest, measureLine(lines[m], 100));
+      var size = widest > 0 ? Math.min(cap, Math.floor(100 * maxW / widest)) : cap;
+      size = Math.max(size, floor);
+      var opt = { lines: lines, size: size };
+      if (size >= bigEnough) return opt;
+      if (!best || size > best.size) best = opt;
+    }
+    return best;
+  }
+
+  function drawWords(lineWords, baseY, size) {
+    ctx.font = "900 " + size + "px Poppins, sans-serif";
+    var sp = ctx.measureText(" ").width;
+    var widths = [], total = 0, i;
+    for (i = 0; i < lineWords.length; i++) {
+      widths[i] = ctx.measureText(lineWords[i].t).width;
+      total += widths[i];
+      if (i) total += sp;
+    }
+    var x = (W - total) / 2;
+    for (i = 0; i < lineWords.length; i++) {
+      ctx.fillStyle = hl[lineWords[i].i] ? ACCENT : "#ffffff";
+      ctx.fillText(lineWords[i].t, x, baseY);
+      x += widths[i] + sp;
+    }
+  }
+
+  function drawTracked(text, baseY, size, tracking, color, weight) {
+    ctx.font = weight + " " + size + "px Poppins, sans-serif";
+    ctx.fillStyle = color;
+    var total = 0, i;
+    for (i = 0; i < text.length; i++) {
+      total += ctx.measureText(text[i]).width;
+      if (i < text.length - 1) total += tracking;
+    }
+    var x = (W - total) / 2;
+    for (i = 0; i < text.length; i++) {
+      ctx.fillText(text[i], x, baseY);
+      x += ctx.measureText(text[i]).width + tracking;
+    }
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    ctx.textAlign = "left";
+    ctx.textBaseline = "alphabetic";
+    if (photo) {
+      cover(photo, 0, 0, W, H);
+    } else {
+      ctx.fillStyle = "#0a0a0f";
+      ctx.fillRect(0, 0, W, H);
+      var glow = ctx.createRadialGradient(W / 2, H * 0.34, 60, W / 2, H * 0.34, 640);
+      glow.addColorStop(0, "rgba(139,112,255,0.22)");
+      glow.addColorStop(1, "rgba(139,112,255,0)");
+      ctx.fillStyle = glow;
+      ctx.fillRect(0, 0, W, H);
+    }
+    // Crush the bottom ~40 percent to near-black so the type always reads.
+    var g = ctx.createLinearGradient(0, H * 0.40, 0, H);
+    g.addColorStop(0, "rgba(7,7,11,0)");
+    g.addColorStop(0.45, "rgba(7,7,11,0.62)");
+    g.addColorStop(1, "rgba(7,7,11,0.96)");
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, W, H);
+
+    var t = layoutText();
+    var via = (viaEl.value || "").trim().toUpperCase();
+    var y = H - 92;
+    if (via) {
+      drawTracked("VIA " + via, y, 26, 7, "rgba(197,197,210,0.85)", "600");
+      y -= 64;
+    } else {
+      y -= 8;
+    }
+    if (t) {
+      var lh = Math.round(t.size * 1.04);
+      var topBase = y - lh * (t.lines.length - 1);
+      for (var li = 0; li < t.lines.length; li++) drawWords(t.lines[li], topBase + li * lh, t.size);
+      y = topBase - t.size;
+    }
+    var gap = 40;
+    if (quoteEl.checked) {
+      var qw = 118, qh = 84, qy = y - gap - qh;
+      ctx.fillStyle = ACCENT;
+      roundRect((W - qw) / 2, qy, qw, qh, 20);
+      ctx.fill();
+      ctx.fillStyle = "#0b0b11";
+      ctx.font = "900 150px Poppins, sans-serif";
+      ctx.textAlign = "center";
+      var qm = ctx.measureText("\\u201D");
+      var asc = qm.actualBoundingBoxAscent || 105;
+      var desc = qm.actualBoundingBoxDescent || 0;
+      ctx.fillText("\\u201D", W / 2, qy + qh / 2 + (asc - desc) / 2);
+      ctx.textAlign = "left";
+      y = qy;
+    }
+    if (inset) {
+      var side = 216, iy = y - gap - side, ix = (W - side) / 2;
+      ctx.save();
+      roundRect(ix, iy, side, side, 14);
+      ctx.clip();
+      var s = Math.max(side / inset.width, side / inset.height);
+      ctx.drawImage(inset, ix + (side - inset.width * s) / 2, iy + (side - inset.height * s) / 2,
+        inset.width * s, inset.height * s);
+      ctx.restore();
+      ctx.strokeStyle = "rgba(255,255,255,0.92)";
+      ctx.lineWidth = 5;
+      roundRect(ix + 2.5, iy + 2.5, side - 5, side - 5, 12);
+      ctx.stroke();
+    }
+  }
+
+  function loadInto(file, cb) {
+    if (!file || String(file.type).indexOf("image") !== 0) return;
+    var url = URL.createObjectURL(file);
+    var img = new Image();
+    img.onload = function () { URL.revokeObjectURL(url); cb(img); draw(); };
+    img.src = url;
+  }
+
+  function setPhoto(img) {
+    photo = img;
+    drop.classList.add("set");
+    dropLabel.textContent = "Photo added, tap to replace";
+    photoClear.classList.remove("hidden");
+  }
+  function setInset(img) {
+    inset = img;
+    insetClear.classList.remove("hidden");
+    insetBtn.textContent = "Replace inset photo";
+  }
+
+  drop.addEventListener("click", function () { fileEl.click(); });
+  drop.addEventListener("keydown", function (e) {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); fileEl.click(); }
+  });
+  ["dragenter", "dragover"].forEach(function (n) {
+    drop.addEventListener(n, function (e) { e.preventDefault(); drop.classList.add("over"); });
+  });
+  drop.addEventListener("dragleave", function () { drop.classList.remove("over"); });
+  drop.addEventListener("drop", function (e) {
+    e.preventDefault();
+    drop.classList.remove("over");
+    var f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+    loadInto(f, setPhoto);
+  });
+  document.addEventListener("dragover", function (e) { e.preventDefault(); });
+  document.addEventListener("drop", function (e) { e.preventDefault(); });
+
+  fileEl.addEventListener("change", function () { loadInto(fileEl.files[0], setPhoto); fileEl.value = ""; });
+  photoClear.addEventListener("click", function () {
+    photo = null;
+    drop.classList.remove("set");
+    dropLabel.textContent = "Drop a photo here or tap to choose";
+    photoClear.classList.add("hidden");
+    draw();
+  });
+  insetBtn.addEventListener("click", function () { insetFile.click(); });
+  insetFile.addEventListener("change", function () { loadInto(insetFile.files[0], setInset); insetFile.value = ""; });
+  insetClear.addEventListener("click", function () {
+    inset = null;
+    insetClear.classList.add("hidden");
+    insetBtn.textContent = "Add inset photo";
+    draw();
+  });
+
+  lineEl.addEventListener("input", function () { renderChips(); draw(); });
+  viaEl.addEventListener("input", draw);
+  quoteEl.addEventListener("change", draw);
+
+  copyBtn.addEventListener("click", function () {
+    var text = capEl.value || "";
+    function done() {
+      copyBtn.textContent = "Copied";
+      setTimeout(function () { copyBtn.textContent = "Copy caption"; }, 1400);
+    }
+    function fallback() {
+      capEl.select();
+      try { document.execCommand("copy"); } catch (e) {}
+      if (window.getSelection) window.getSelection().removeAllRanges();
+      capEl.blur();
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function () { fallback(); done(); });
+    } else { fallback(); done(); }
+  });
+
+  dl.addEventListener("click", function () {
+    cv.toBlob(function (b) {
+      if (!b) return;
+      var a = document.createElement("a");
+      a.href = URL.createObjectURL(b);
+      a.download = "post.png";
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 800);
+    }, "image/png");
+  });
+
+  // First paint right away, then again once the Poppins weights are really loaded.
+  renderChips();
+  draw();
+  if (document.fonts && document.fonts.load) {
+    Promise.all([
+      document.fonts.load("900 40px Poppins"),
+      document.fonts.load("800 40px Poppins"),
+      document.fonts.load("600 40px Poppins")
+    ]).then(draw, draw);
+    if (document.fonts.ready && document.fonts.ready.then) document.fonts.ready.then(draw);
+  }
+})();
+</script>
+</body>
+</html>
+`;
+
 export default {
   async fetch(request, env, ctx) {
+    if (request.method === "GET" && new URL(request.url).pathname === "/studio") {
+      return new Response(STUDIO_HTML, { headers: { "content-type": "text/html; charset=utf-8" } });
+    }
     if (request.method !== "POST") return new Response("Slash commands — online.");
     const body = await request.text();
     if (!await verify(request, body, env.DISCORD_PUBLIC_KEY)) return new Response("bad signature", { status: 401 });
