@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dustin Stoltzfus took a deep breath before booking #UFC330 bout – but for good reason https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/12/ufc-…",
-      "ts": "2026-08-13T01:25:56+00:00"
-    },
-    {
       "t": "Rodrigo Vera vs. Ramiro Jimenez added to #NocheUFC https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/12/noche-ufc-rodrigo-vera-vs-ramiro-jimene…",
       "ts": "2026-08-13T01:51:04+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "All That star Christy Knowings dies from an asthma attack aged 46",
       "ts": "2026-08-13T19:02:12+00:00"
+    },
+    {
+      "t": "Odell Beckham Jr.'s Latest Comeback Attempt Stream of National Football League",
+      "ts": "2026-08-13T18:44:29+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Shields vs. Scott: Press Conference Salita Promotions",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcTBTLXNkLVV2Z3oxWUdKRjhBVjAxZnplRmp3LTM0aVBqTWNWWk9hckNmY1NyVlk3NWxFaHZXbGZKU1ZTMXlqWjRablM1QnpvYXR5X2wxd2RVWmJTZnZqU1pmbjZscWZfaEhkbi1FVGFQSEg2WFM5Mm5EQ25leDBJcl8wYzlrY0NmSFRFc29B?oc=5",
-      "source": "DAZN",
-      "cat": "ufc",
-      "ts": "2026-08-13T18:19:52+00:00"
-    },
     {
       "title": "Ian Garry accuses Islam of wearing ‘high heels’ to boost height during UFC 330 face off, Makhachev responds",
       "url": "https://www.mmamania.com/ufc-330-makhachev-vs-machado-garry-live-stream-start-time-fight-card/464325/ian-garry-accuses-islam-of-wearing-high-heels-to-boost-height-during-ufc-330-face-off-makhachev-responds",
@@ -2105,12 +2098,19 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-13T18:24:10+00:00"
+    },
+    {
+      "title": "Odell Beckham Jr.'s Latest Comeback Attempt Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcEhDemUxRjBWc3A3aWxLQkV5QWNTM2Nmc2tQTXNvTUpfT3d6TUZmelV6WU9OaEs3dnJpYVBvN043QlJwUHJjUEx3akpBbzM4ZF85VkNYdEx4TkJ2UC04SDFEVzZlTV9JYnlGd3ZVWXAyc1ZDNHgySjJ1M1JkdTVnbzAtcDFTcFBlXzFtbg?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-13T18:44:29+00:00"
     }
   ],
   "digest_last": "2026-08-12 21:30",
   "hour": [
     "2026-08-13T19",
-    5
+    6
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/DWCS-2026-Week-1-WeighIn-results-5-fights-set-202294",
@@ -2428,11 +2428,12 @@
     "https://www.mmafighting.com/?p=504532",
     "2087976884957286664",
     "CBMiiAFBVV95cUxNNno0N0tKM1BWVEVTWUMyQzJ5bkR5WVBsellicF9wRTlwWkU2YU1HdENkQm1JaGtoRFpDVkdTaEpVbHdnaFMyYkptZlozaDd1TW9DaGNZeXNUR2pzdlhqNUhBRjdQWnhOWEFCVjM4UDhvcGppRjlCTDRhYlloZEl6Nklnd1hHSDVS",
-    "CBMikwFBVV95cUxNZHdHVm1nWFBveURsRHBCOVFYR3pSc0JNUld2Y2VYUVlPcmhKN3pMWUhhdEdldVZyRGhHNEgySm1DbHNET0E3OENsekl2Q0NJbmRLNVFiVFBudzhSLVpLaVM3c0JSdW5RdWNBdi10c0QtNDJfU2dHcXZDUkRTbTRaUVlYOVVCdUZXNDgzNnBhV1FDWUU"
+    "CBMikwFBVV95cUxNZHdHVm1nWFBveURsRHBCOVFYR3pSc0JNUld2Y2VYUVlPcmhKN3pMWUhhdEdldVZyRGhHNEgySm1DbHNET0E3OENsekl2Q0NJbmRLNVFiVFBudzhSLVpLaVM3c0JSdW5RdWNBdi10c0QtNDJfU2dHcXZDUkRTbTRaUVlYOVVCdUZXNDgzNnBhV1FDWUU",
+    "CBMijAFBVV95cUxNcEhDemUxRjBWc3A3aWxLQkV5QWNTM2Nmc2tQTXNvTUpfT3d6TUZmelV6WU9OaEs3dnJpYVBvN043QlJwUHJjUEx3akpBbzM4ZF85VkNYdEx4TkJ2UC04SDFEVzZlTV9JYnlGd3ZVWXAyc1ZDNHgySjJ1M1JkdTVnbzAtcDFTcFBlXzFtbg"
   ],
   "daily": {
     "d": "2026-08-13",
-    "ai": 12,
+    "ai": 13,
     "staged": 4
   }
 }
