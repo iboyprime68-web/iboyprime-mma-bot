@@ -8,6 +8,7 @@
  *   YOUTUBE_API_KEY      (optional) - enables real /youtube search.
  *   DISCORD_BOT_TOKEN    (optional) - enables /serverinfo member counts, /studio staging.
  *   STUDIO_PASSWORD      (required for /studio) - with it unset /studio is 503, never open.
+ *   STUDIO_SIGNING_KEY   (required for /studio) - random secret that signs session cookies.
  *   GITHUB_TOKEN         (required for /mod, /news and the /studio AI key writer).
  */
 // The editor page lives in its own module so this file stays about routing and auth.
@@ -350,6 +351,7 @@ function resetStudioCaches() {
   _wcfgCache = { at: 0, cfg: null };
   _pollCache = { at: 0, data: null };
   _meCache = { at: 0, id: null };
+  resetUsageCache();
 }
 // PURE: the links list -> the /links body. https-only, mirroring welcomeconfig.clean_links.
 // Returns null (not "") when there is nothing usable, so the caller can fall back.
@@ -666,24 +668,27 @@ const CONTEXT = {
 // ---------- /studio: password gate ----------
 // WHAT THIS COOKIE SCHEME DOES, AND WHAT IT DOES NOT DO
 //   The cookie is `sid = base64url({"exp": <ms>}) . base64url(HMAC-SHA256(payload))`.
-//   The HMAC key is NOT the password: it is PBKDF2-HMAC-SHA256(password, fixed salt,
-//   STUDIO_KDF_ITERS) and the login compare is over the same derived bits.
-//   * Why the derivation, and what the old scheme got wrong. Keying the HMAC with the
-//     raw STUDIO_PASSWORD handed out an offline password-cracking oracle: the plaintext
-//     is fully known ({"exp": <ms>}, and `exp` is readable straight out of the cookie),
-//     so anyone who ever saw one cookie could test candidate passwords locally at the
-//     speed of one SHA-256 each, forever, with no request to this Worker and nothing to
-//     rate limit. A human-chosen password does not survive that. PBKDF2 does not make
-//     the oracle go away (a bearer token signed with a password-derived key never can);
-//     it makes each guess cost STUDIO_KDF_ITERS hashes instead of one, which is the
-//     difference between billions of guesses a second and a few thousand.
+//   The HMAC key is STUDIO_SIGNING_KEY, a SEPARATE random secret - never the password.
+//   * What the first two designs got wrong. Keying the HMAC with the raw password
+//     handed out an offline cracking oracle: the plaintext is fully known
+//     ({"exp": <ms>}), so anyone who saw one cookie could grind guesses locally with
+//     nothing to rate limit. Deriving the key with PBKDF2 only slowed that down, and
+//     cost ~60ms CPU per request - over the Workers free-plan budget, so every login
+//     failed with Error 1102. Signing with an INDEPENDENT secret removes the oracle
+//     outright: a cookie carries no information about the password at any speed.
+//   * Why a fast hash is fine for the password compare. STUDIO_PASSWORD is a generated
+//     32+ character random string, not a human-chosen one, so it has token-grade
+//     entropy; a slow KDF buys nothing against guessing something unguessable. Both
+//     sides are SHA-256'd and compared in constant time over fixed-length bytes.
+//   * Both secrets are required. With either unset every /studio route answers 503;
+//     the gate never opens by default.
 //   * Unforgeable without the password. The payload is public and tamper-EVIDENT, not
 //     secret: editing `exp` changes the signed string, the HMAC no longer matches, and
 //     the cookie is rejected. Nothing an attacker controls is ever parsed before the
 //     signature check passes.
 //   * The signature compare is constant time (ctEq), as is the login compare over the
-//     derived bits (ctEqBytes). A byte-by-byte early return would leak the shared prefix
-//     and turn forgery into a few hundred requests.
+//     SHA-256 digests (ctEqBytes). A byte-by-byte early return would leak the shared
+//     prefix and turn forgery into a few hundred requests.
 //   * The password itself never leaves the Worker and is never in the cookie, so the
 //     cookie cannot be replayed anywhere else (it is not a credential for GitHub,
 //     Discord or Cloudflare).
@@ -696,22 +701,19 @@ const CONTEXT = {
 //   Known limits, stated plainly rather than papered over:
 //   * No server-side revocation list. Rotate the password to sign everyone out.
 //   * It is a bearer token, so anyone who can read the cookie jar is signed in.
-//   * The strength of all of this is still the password. Use a long random one; the KDF
-//     buys a work factor, not entropy.
-//   * The KDF costs real CPU (roughly 60 ms per derivation). It is cached per isolate
-//     for the CONFIGURED password, so a signed-in owner pays it once per cold isolate,
-//     but a login ATTEMPT always pays it in full, on purpose (see loginTooMany).
+//   * The strength of all of this is still the password. It must be a long GENERATED
+//     random string: the compare is a plain SHA-256, safe only because the password has
+//     token-grade entropy. One under 16 chars still signs in (locking the owner out is
+//     worse), but the success response carries X-Studio-Note: weak-password.
+//   * There is NO slow KDF anywhere in this gate. Both compares are SHA-256 plus a
+//     constant-time byte compare; the only per-attempt cost is the fixed
+//     LOGIN_FAIL_DELAY_MS on failure (see loginTooMany).
 const STUDIO_COOKIE = "sid";
 const STUDIO_TTL_MS = 30 * 24 * 60 * 60 * 1000;      // 30 days
 const LOGIN_MAX_FAILS = 8;
 const LOGIN_WINDOW_MS = 10 * 60 * 1000;              // per IP, per 10 minutes
 const LOGIN_FAIL_DELAY_MS = 250;                     // fixed, added to every failure
 const STAGED_LIMIT = 25;
-// Fixed application salt. A per-user random salt buys nothing here: there is exactly one
-// password and it is not stored, so the salt's only job is domain separation, keeping
-// these derived bits from colliding with any other use of the same password.
-const STUDIO_KDF_SALT = "iboyprime-studio-session/v1";
-const STUDIO_KDF_ITERS = 200000;
 
 function bytesToB64(bytes) {
   let bin = "";
@@ -741,7 +743,8 @@ function ctEq(a, b) {
   for (let i = 0; i < n; i++) diff |= (A[i] || 0) ^ (B[i] || 0);
   return diff === 0;
 }
-// Constant-time compare over raw bytes, for the derived key material.
+// Constant-time compare over raw bytes, for SHA-256 digests (the password check and
+// the signing key). No KDF output exists in this design; SHA-256 is the only hash here.
 function ctEqBytes(a, b) {
   const A = a || new Uint8Array(0), B = b || new Uint8Array(0);
   let diff = A.length ^ B.length;
@@ -749,35 +752,51 @@ function ctEqBytes(a, b) {
   for (let i = 0; i < n; i++) diff |= (A[i] || 0) ^ (B[i] || 0);
   return diff === 0;
 }
-// PBKDF2-HMAC-SHA256 -> 32 bytes. Deliberately slow; that is the whole point.
-async function pbkdf2Bits(password) {
+// SHA-256 of a secret -> 32 bytes. Fast on purpose, and that is CORRECT here:
+// a slow KDF exists to protect a LOW-ENTROPY human password from offline
+// guessing. STUDIO_PASSWORD is a generated 32+ character random string, so
+// guessing it is infeasible regardless of hash speed, exactly like an API
+// token. PBKDF2 at a real work factor costs ~60ms of CPU per request, which
+// exceeds the Workers free plan's 10ms budget and would fail every login with
+// Error 1102. Weakening the iteration count would have been the worst of both
+// worlds, so the design changed instead: see studioSignKey below.
+async function sha256Bytes(value) {
   const enc = new TextEncoder();
-  const base = await crypto.subtle.importKey("raw",
-    enc.encode(String(password === null || password === undefined ? "" : password)),
-    { name: "PBKDF2" }, false, ["deriveBits"]);
-  const bits = await crypto.subtle.deriveBits(
-    { name: "PBKDF2", salt: enc.encode(STUDIO_KDF_SALT), iterations: STUDIO_KDF_ITERS, hash: "SHA-256" },
-    base, 256);
-  return new Uint8Array(bits);
+  const d = await crypto.subtle.digest("SHA-256",
+    enc.encode(String(value === null || value === undefined ? "" : value)));
+  return new Uint8Array(d);
 }
-// Per-isolate cache of the derivation for the CONFIGURED password only. A candidate from
-// a login form is NEVER cached: caching one would let an attacker amortise the work
-// factor away by replaying the same guess, and the cost is the defence.
-const _kdfCache = new Map();
-async function studioKey(env) {
-  const pw = String((env && env.STUDIO_PASSWORD) || "");
-  if (!pw) return null;
-  let p = _kdfCache.get(pw);
+// THE SESSION SIGNING KEY IS A SEPARATE SECRET, NOT THE PASSWORD.
+// That is what closes the offline-cracking oracle the review found: a cookie
+// is {"exp":...} plus an HMAC, i.e. a known plaintext with its tag. When the
+// HMAC key was the password itself, one stolen cookie let an attacker grind
+// password guesses offline with no rate limit. Signing with an independent
+// random secret means a cookie reveals nothing about the password, and a
+// stolen cookie only ever proves it was minted here.
+// STUDIO_SIGNING_KEY is required; with it unset /studio is 503, never open.
+const _signKeyCache = new Map();
+async function studioSignKey(env) {
+  const raw = String((env && env.STUDIO_SIGNING_KEY) || "");
+  if (!raw) return null;
+  let p = _signKeyCache.get(raw);
   if (!p) {
-    p = pbkdf2Bits(pw);
-    p.catch(() => { _kdfCache.delete(pw); });   // never cache a failed derivation
-    if (_kdfCache.size > 8) _kdfCache.clear();  // bounded; only ever configured passwords
-    _kdfCache.set(pw, p);
+    p = sha256Bytes(raw);                      // normalise any length to 32 bytes
+    p.catch(function () { _signKeyCache.delete(raw); });
+    if (_signKeyCache.size > 4) _signKeyCache.clear();
+    _signKeyCache.set(raw, p);
   }
   return await p;
 }
-// `key` is the derived bits (Uint8Array). A string is accepted only so a test can prove
-// that a cookie signed with the RAW password is rejected.
+// Constant-time password check. Both sides are hashed first so the comparison
+// is over fixed-length bytes and cannot leak the length or a shared prefix.
+async function studioPasswordOk(env, candidate) {
+  const pw = String((env && env.STUDIO_PASSWORD) || "");
+  if (!pw || typeof candidate !== "string" || !candidate) return false;
+  const a = await sha256Bytes(pw), b = await sha256Bytes(candidate);
+  return ctEqBytes(a, b);
+}
+// `key` is the 32-byte SHA-256 of STUDIO_SIGNING_KEY (Uint8Array). A string is accepted
+// only so a test can prove that a cookie signed with the RAW password is rejected.
 async function hmacB64url(key, message) {
   const raw = (key instanceof Uint8Array) ? key : new TextEncoder().encode(String(key));
   const k = await crypto.subtle.importKey("raw", raw,
@@ -788,17 +807,18 @@ async function hmacB64url(key, message) {
 // Mint a session token. `now` is injectable so the tests can mint an expired one.
 async function studioToken(env, now) {
   const t = typeof now === "number" ? now : Date.now();
-  const key = await studioKey(env);
+  const key = await studioSignKey(env);
   if (!key) return null;
   const payload = b64url(new TextEncoder().encode(JSON.stringify({ exp: t + STUDIO_TTL_MS })));
   return payload + "." + await hmacB64url(key, payload);
 }
 async function studioTokenValid(env, token, now) {
-  if (!env || !env.STUDIO_PASSWORD || typeof token !== "string") return false;
+  if (!env || !env.STUDIO_PASSWORD || !env.STUDIO_SIGNING_KEY
+      || typeof token !== "string") return false;
   const parts = token.split(".");
   if (parts.length !== 2 || !parts[0] || !parts[1]) return false;
   let expected;
-  try { expected = await hmacB64url(await studioKey(env), parts[0]); } catch (e) { return false; }
+  try { expected = await hmacB64url(await studioSignKey(env), parts[0]); } catch (e) { return false; }
   // Signature FIRST: nothing attacker-controlled is parsed until the MAC checks out.
   if (!ctEq(parts[1], expected)) return false;
   let obj;
@@ -825,9 +845,9 @@ async function requireStudio(request, env) {
 // LOGIN_MAX_FAILS times however many isolates an attacker's traffic happens to land on,
 // and a restart empties the count entirely. This is NOT distributed rate limiting and
 // nothing here should be read as claiming it is. What actually slows online guessing:
-//   1. every attempt pays a full PBKDF2 derivation (STUDIO_KDF_ITERS), which is the
-//      cost centre and is not cached for candidate passwords, and
-//   2. a fixed LOGIN_FAIL_DELAY_MS on every failure.
+//   1. every failed attempt pays the fixed LOGIN_FAIL_DELAY_MS before it answers, and
+//   2. the compare itself is a fast SHA-256, which is safe only because the password is
+//      a generated high-entropy string that guessing cannot reach at any request rate.
 // Real distributed limiting would need Durable Objects or KV; that is a deliberate
 // not-yet, and the honest boundary remains a long random password.
 // Degrading to "no limit" on restart is also deliberate; the alternative (fail closed on
@@ -969,15 +989,10 @@ async function studioLogin(request, env) {
       supplied = String(f.get("password") || "");
     }
   } catch (e) { supplied = ""; }
-  // Compare DERIVED BITS, not the passwords: one PBKDF2 over the candidate (never
-  // cached, so every guess pays the work factor) against the cached derivation of the
-  // configured password, byte-for-byte in constant time.
+  // Constant-time compare of SHA-256(candidate) against SHA-256(configured).
+  // Fixed-length bytes, so neither the length nor a shared prefix leaks.
   let ok = false;
-  try {
-    const want = await studioKey(env);
-    const got = await pbkdf2Bits(supplied);
-    ok = !!want && ctEqBytes(got, want);
-  } catch (e) { ok = false; }
+  try { ok = await studioPasswordOk(env, supplied); } catch (e) { ok = false; }
   if (!ok) {
     noteLoginFail(ip, now);
     await sleep(LOGIN_FAIL_DELAY_MS);       // fixed, not a function of the guess
@@ -991,10 +1006,18 @@ async function studioLogin(request, env) {
   // Only reachable if WebCrypto itself failed. Better a plain 503 than a cookie built
   // out of "null", which would look like a session and authenticate nothing.
   if (!token) return studioJson({ error: "could not start a session" }, 503);
-  return new Response(JSON.stringify({ ok: true }), { status: 200,
-    headers: { "content-type": "application/json; charset=utf-8",
-               "set-cookie": cookieHeader(token, Math.floor(STUDIO_TTL_MS / 1000)),
-               ...STUDIO_HEADERS } });
+  const headers = { "content-type": "application/json; charset=utf-8",
+                    "set-cookie": cookieHeader(token, Math.floor(STUDIO_TTL_MS / 1000)),
+                    ...STUDIO_HEADERS };
+  // A password under 16 chars undermines the fast-hash design documented above. It
+  // still signs in (locking the owner out is worse than the weakness), but the SUCCESS
+  // response says so in a header the owner can see in devtools. Never on a failure: a
+  // 401 goes to whoever is guessing, and "the password is short" is a hint this gate
+  // does not hand out.
+  if (String((env && env.STUDIO_PASSWORD) || "").length < 16) {
+    headers["x-studio-note"] = "weak-password";
+  }
+  return new Response(JSON.stringify({ ok: true }), { status: 200, headers });
 }
 
 // ---------- /studio: staged posts ----------
@@ -1050,7 +1073,7 @@ function captionSource(caption) {
   const m = /^\s*via\s+(.{1,80}?)\s*$/mi.exec(String(caption || ""));
   return m ? m[1].trim() : "";
 }
-// PURE: Discord messages -> the studio queue. Exactly the eleven contract fields ever
+// PURE: Discord messages -> the studio queue. Exactly the fifteen contract fields ever
 // leave the Worker. No author, no member ids, no bot token, nothing from any other
 // channel, and nothing from any other author (see parseStaged).
 // Message shape written by the staging bot: "Staged post - score NN (why)" followed by
@@ -1060,11 +1083,14 @@ function parseStagedOne(m) {
   const content = String((m && m.content) || "");
   const head = /score\s+(\d{1,3})\s*(?:\(([^)]*)\))?/i.exec(content);
   const { caption, meta } = stagedParts(content);
-  const att = (((m && m.attachments) || [])[0]) || {};
+  const atts = (m && m.attachments) || [];
+  const att = atts[0] || {};
+  const att2 = atts[1] || {};
   const emb = (((m && m.embeds) || [])[0]) || {};
   const url = (typeof att.url === "string" && att.url) ||
               (emb.image && typeof emb.image.url === "string" && emb.image.url) || "";
   const hotRaw = own(meta, "hot");
+  const photoKind = metaStr(meta, "photo", 12);
   return {
     id: String((m && m.id) || ""),
     score: head ? Number(head[1]) : null,
@@ -1080,6 +1106,14 @@ function parseStagedOne(m) {
     // https AND a Discord CDN host: this lands in an <img src> on the page, so a
     // javascript:, data: or attacker-hosted value must never survive the trip.
     image_url: discordCdnUrl(url),
+    // The ROUND-TRIP payload: attachment 1 is the RAW subject the staging bot
+    // rendered from (photo or promo cutout, named by the spec's "photo" key).
+    // The studio loads THIS into its editor - never the rendered card, whose
+    // text is baked into the pixels. Same CDN gate as image_url.
+    photo_url: discordCdnUrl(typeof att2.url === "string" ? att2.url : ""),
+    photo_kind: photoKind === "cutout" ? "cutout" : (photoKind === "photo" ? "photo" : ""),
+    template: metaStr(meta, "template", 20),
+    colorway: metaStr(meta, "colorway", 20),
     timestamp: (m && m.timestamp) || null,
   };
 }
@@ -1131,6 +1165,29 @@ async function studioStaged(env) {
   return studioJson(parseStaged(list, me), 200);
 }
 
+// ---------- /studio: background texture plates ----------
+// The wash textures (backgrounds/*.jpg in the public repo) served SAME-ORIGIN so
+// the editor canvas never taints: a raw-CDN <img> needs CORS luck to survive
+// toBlob, and routing through the session gate keeps the fetch pattern identical
+// to every other studio asset. Frozen allowlist + pinned extension - the path
+// segment can never name any other repo file.
+const STUDIO_BGS = Object.freeze(["arena", "spotlight", "cage", "smoke"]);
+const _bgCache = Object.create(null);   // name -> {at, buf} per isolate
+async function studioBg(env, name) {
+  if (STUDIO_BGS.indexOf(name) === -1) return studioJson({ error: "not found" }, 404);
+  const now = Date.now();
+  const hit = _bgCache[name];
+  const headers = { "content-type": "image/jpeg",
+                    "cache-control": "private, max-age=86400" };
+  if (hit && now - hit.at < 3600000) return new Response(hit.buf, { status: 200, headers });
+  let r = null;
+  try { r = await fetch(rawBase(env) + "/backgrounds/" + name + ".jpg"); } catch (e) { r = null; }
+  if (!r || !r.ok) return studioJson({ error: "plate unavailable" }, 502);
+  const buf = await r.arrayBuffer();
+  _bgCache[name] = { at: now, buf };
+  return new Response(buf, { status: 200, headers });
+}
+
 // ---------- /studio: AI key ----------
 // Allowlist, not a caller-built name: the provider string never reaches the API path.
 // This USED to be a bypass. `AI_PROVIDERS[provider]` is a prototype-chain lookup, so
@@ -1140,14 +1197,66 @@ async function studioStaged(env) {
 // "constructor" and "toString" did the same with different garbage. The gate is now an
 // includes() on a frozen list plus an own-property read, and the resolved name has to
 // match the shape GitHub accepts before it can reach a path.
-const AI_PROVIDER_NAMES = Object.freeze(["deepseek", "openrouter"]);
-const AI_PROVIDERS = Object.freeze({ deepseek: "DEEPSEEK_API_KEY", openrouter: "OPENROUTER_API_KEY" });
+// Adding a provider means adding it in BOTH places below. The list is the gate and the
+// map is the lookup; a name that appears in only one of them resolves to null and is
+// simply rejected, which is the safe direction for a typo to fail in.
+const AI_PROVIDER_NAMES = Object.freeze([
+  "deepseek", "openrouter", "zai", "groq", "together", "mistral", "openai",
+]);
+const AI_PROVIDERS = Object.freeze({
+  deepseek:   "DEEPSEEK_API_KEY",
+  openrouter: "OPENROUTER_API_KEY",
+  zai:        "ZAI_API_KEY",
+  groq:       "GROQ_API_KEY",
+  together:   "TOGETHER_API_KEY",
+  mistral:    "MISTRAL_API_KEY",
+  openai:     "OPENAI_API_KEY",
+});
+// All seven speak the SAME OpenAI chat-completions request shape, so a provider is
+// fully described by three strings: where to POST, what to call the model, and which
+// secret holds the key. Nothing here is a secret; these are public endpoint facts.
+// Each URL and default model was checked against the provider's own docs in Aug 2026:
+//   zai        Z.ai (Zhipu) publishes https://api.z.ai/api/paas/v4/ as its
+//              OpenAI-compatible base, and glm-4.5-flash is still on the free tier.
+//   openrouter deepseek/deepseek-chat is NO LONGER a slug OpenRouter lists; the model
+//              index was renamed, so the default is a slug that currently exists.
+//              Sending the retired one would have failed every call with a 404.
+//   groq       a third-party page claimed llama-3.3-70b-versatile was retired in June
+//              2026; Groq's own model page still lists it as active production, so the
+//              first-party source wins. openai/gpt-oss-120b is the migration target if
+//              that ever changes.
+// The model is a DEFAULT, not a constraint: the caller may send any model the provider
+// accepts, so a rename costs one string here and never a code change.
+const AI_ENDPOINTS = Object.freeze({
+  deepseek: Object.freeze({ label: "DeepSeek",
+    url: "https://api.deepseek.com/chat/completions", model: "deepseek-chat" }),
+  openrouter: Object.freeze({ label: "OpenRouter",
+    url: "https://openrouter.ai/api/v1/chat/completions", model: "deepseek/deepseek-v3.2" }),
+  zai: Object.freeze({ label: "Z.ai GLM",
+    url: "https://api.z.ai/api/paas/v4/chat/completions", model: "glm-4.5-flash" }),
+  groq: Object.freeze({ label: "Groq",
+    url: "https://api.groq.com/openai/v1/chat/completions", model: "llama-3.3-70b-versatile" }),
+  together: Object.freeze({ label: "Together",
+    url: "https://api.together.xyz/v1/chat/completions", model: "meta-llama/Llama-3.3-70B-Instruct-Turbo" }),
+  mistral: Object.freeze({ label: "Mistral",
+    url: "https://api.mistral.ai/v1/chat/completions", model: "mistral-small-latest" }),
+  openai: Object.freeze({ label: "OpenAI",
+    url: "https://api.openai.com/v1/chat/completions", model: "gpt-4o-mini" }),
+});
 const SECRET_NAME = /^[A-Z][A-Z0-9_]{2,99}$/;
 function aiSecretName(provider) {
   const p = String(provider === null || provider === undefined ? "" : provider).toLowerCase();
   if (AI_PROVIDER_NAMES.indexOf(p) === -1) return null;
   const name = own(AI_PROVIDERS, p);
   return (typeof name === "string" && SECRET_NAME.test(name)) ? name : null;
+}
+// Same gate shape as aiSecretName: the frozen list decides, then an own-property read.
+// Returns null for anything off the list, so "__proto__" cannot produce an endpoint.
+function aiEndpoint(provider) {
+  const p = String(provider === null || provider === undefined ? "" : provider).toLowerCase();
+  if (AI_PROVIDER_NAMES.indexOf(p) === -1) return null;
+  const meta = own(AI_ENDPOINTS, p);
+  return (meta && typeof meta.url === "string") ? meta : null;
 }
 // libsodium's crypto_box_seal, which is the only format GitHub's Actions secrets API
 // accepts: ephemeral X25519 keypair, nonce = blake2b(epk || recipient_pk, 24 bytes),
@@ -1193,13 +1302,21 @@ async function putRepoSecret(env, name, value) {
   if (r.ok) return { ok: true, status: r.status };
   return { ok: false, status: 502, error: "github refused the write (HTTP " + r.status + ")" };
 }
+// The list endpoint returns NAMES and timestamps. Actions secret VALUES cannot be read
+// back out at all, by GitHub's design, so there is no key material on this path.
+// null (not an empty set) when the list could not be read, so a caller can tell
+// "no keys stored" apart from "could not ask", and report the difference honestly.
+async function ghSecretNames(env) {
+  const r = await getJSON(ghBase(env) + "/actions/secrets?per_page=100", ghHeaders(env));
+  if (!r || !Array.isArray(r.secrets)) return null;
+  return new Set(r.secrets.map(s => String((s && s.name) || "").toUpperCase()));
+}
 async function studioAiKeyStatus(env) {
   if (!env.GITHUB_TOKEN) return studioJson({ error: "the worker needs the GITHUB_TOKEN secret" }, 503);
-  // The list endpoint returns NAMES and timestamps. Actions secret VALUES cannot be read
-  // back out at all, by GitHub's design, so there is no key material on this path.
-  const r = await getJSON(ghBase(env) + "/actions/secrets?per_page=100", ghHeaders(env));
-  const names = new Set(((r && r.secrets) || []).map(s => String((s && s.name) || "").toUpperCase()));
-  const providers = {};
+  const names = (await ghSecretNames(env)) || new Set();
+  // Null prototype and keys drawn from the frozen list only: the response can never
+  // carry a provider name a caller invented, nor an inherited one.
+  const providers = Object.create(null);
   for (const p of AI_PROVIDER_NAMES) providers[p] = names.has(aiSecretName(p));
   return studioJson({ providers }, 200);
 }
@@ -1221,6 +1338,278 @@ async function studioAiKeySave(request, env) {
   const res = await putRepoSecret(env, name, key);
   if (res.ok) return studioJson({ ok: true, provider: provider, stored: true }, 200);
   return studioJson({ ok: false, error: res.error }, res.status);
+}
+
+// ---------- /studio: usage ----------
+// THE RULE FOR THIS ROUTE: never invent a number. Every figure is either a documented
+// platform limit, a value an API just told us, or null with a `source` saying why it is
+// null. A dashboard that guesses is worse than one that admits it does not know, because
+// the owner would plan against the guess.
+//
+// Cloudflare's free-plan ceilings, from the Workers pricing page (checked Aug 2026):
+// 100,000 requests a day and 10 ms of CPU per request. They are constants, not estimates.
+const CF_FREE_REQUESTS_PER_DAY = 100000;
+const CF_FREE_CPU_MS = 10;
+// A per-isolate tally. Cloudflare runs many isolates across many colos and recycles them
+// freely, so this counts a SLICE of the traffic, never the account total, and it resets
+// to zero whenever the isolate does. That is exactly why `source` says so in words: the
+// number is real, its scope is not the whole day. The GraphQL path below is the honest
+// total when the owner supplies a read token.
+let _reqCount = 0;
+let _reqSince = Date.now();
+function noteRequest() { _reqCount++; }
+function resetUsageCounter() { _reqCount = 0; _reqSince = Date.now(); }
+// UTC midnight today, which is the boundary Cloudflare's daily request limit resets on.
+function startOfUtcDay(now) {
+  const d = new Date(typeof now === "number" ? now : Date.now());
+  return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate())).toISOString();
+}
+// The real number, when CLOUDFLARE_ANALYTICS_TOKEN + CLOUDFLARE_ACCOUNT_ID are set.
+// Account-scoped GraphQL: viewer.accounts.workersInvocationsAdaptive, summed over the
+// buckets returned for today. Returns a number or null; never throws, never reports a
+// partial read as a total. The token is used as a bearer header and nowhere else, so it
+// cannot reach the response even on a failure path (the caller only ever sees a status).
+async function cloudflareRequestsToday(env, now) {
+  const token = (env && env.CLOUDFLARE_ANALYTICS_TOKEN) || "";
+  const account = (env && env.CLOUDFLARE_ACCOUNT_ID) || "";
+  if (!token || !account) return { count: null, status: 0 };
+  const script = (env && env.WORKER_NAME) || "iboyprime-commands";
+  // The variable types are `string`, lowercase, including the two datetimes. That is
+  // Cloudflare's own schema, not a typo: declaring them as the `Time` scalar fails
+  // validation, and a validation failure comes back as HTTP 200 with an `errors` array,
+  // so the feature would have looked configured while never once returning a number.
+  const query = "query($a: string, $s: string, $since: string, $until: string) {" +
+    " viewer { accounts(filter: {accountTag: $a}) {" +
+    " workersInvocationsAdaptive(limit: 1000, filter: {scriptName: $s, datetime_geq: $since, datetime_leq: $until})" +
+    " { sum { requests } } } } }";
+  const variables = { a: String(account), s: String(script),
+                      since: startOfUtcDay(now),
+                      until: new Date(typeof now === "number" ? now : Date.now()).toISOString() };
+  let body = null;
+  try {
+    const r = await fetch("https://api.cloudflare.com/client/v4/graphql", {
+      method: "POST",
+      headers: { Authorization: "Bearer " + token, "content-type": "application/json",
+                 "User-Agent": "iboyprime-commands" },
+      body: JSON.stringify({ query, variables }) });
+    if (!r || !r.ok) return { count: null, status: (r && r.status) || 0 };
+    body = await r.json();
+  } catch (e) { return { count: null, status: 0 }; }
+  // A GraphQL error arrives with HTTP 200, so the shape has to be checked, not the code.
+  if (!body || (Array.isArray(body.errors) && body.errors.length)) return { count: null, status: 200 };
+  const accounts = ((body.data || {}).viewer || {}).accounts;
+  if (!Array.isArray(accounts)) return { count: null, status: 200 };
+  let total = 0, saw = false;
+  for (const a of accounts) {
+    for (const row of ((a && a.workersInvocationsAdaptive) || [])) {
+      const n = Number(((row || {}).sum || {}).requests);
+      if (Number.isFinite(n)) { total += n; saw = true; }
+    }
+  }
+  return saw ? { count: total, status: 200 } : { count: null, status: 200 };
+}
+// Balance endpoints that answer for the ordinary inference key. Only these two exist:
+//   deepseek   GET /user/balance -> { is_available, balance_infos: [{ currency,
+//              total_balance, granted_balance, topped_up_balance }] }. Documented, and
+//              it authenticates with the same Bearer key the chat endpoint takes.
+//   openrouter GET /api/v1/credits -> { data: { total_credits, total_usage } }, balance
+//              being the difference. It wants a MANAGEMENT key though, so an inference
+//              key gets a 403; that is reported as the 403 it is, not as "no balance".
+// The other five publish no balance endpoint an inference key can call, so they report
+// null with a source that says exactly that rather than a plausible-looking zero.
+const AI_BALANCE = Object.freeze({
+  deepseek: "https://api.deepseek.com/user/balance",
+  openrouter: "https://openrouter.ai/api/v1/credits",
+});
+function aiBalanceUrl(provider) {
+  const p = String(provider === null || provider === undefined ? "" : provider).toLowerCase();
+  if (AI_PROVIDER_NAMES.indexOf(p) === -1) return null;
+  const u = own(AI_BALANCE, p);
+  return typeof u === "string" ? u : null;
+}
+// PURE: a provider's balance response -> { balance, currency } or null. Split out so the
+// parsing is testable without a network, and so nothing but numbers and a currency code
+// can ever come back out of a provider's JSON.
+function parseBalance(provider, body) {
+  if (!body || typeof body !== "object") return null;
+  if (provider === "deepseek") {
+    const infos = Array.isArray(body.balance_infos) ? body.balance_infos : [];
+    const info = infos.length ? infos[0] : null;
+    const n = info ? Number(info.total_balance) : NaN;
+    if (!Number.isFinite(n)) return null;
+    const cur = String((info && info.currency) || "").toUpperCase().slice(0, 8);
+    return { balance: n, currency: /^[A-Z]{0,8}$/.test(cur) ? cur : "" };
+  }
+  if (provider === "openrouter") {
+    const d = body.data && typeof body.data === "object" ? body.data : {};
+    const credits = Number(d.total_credits), used = Number(d.total_usage);
+    if (!Number.isFinite(credits) || !Number.isFinite(used)) return null;
+    return { balance: Number((credits - used).toFixed(6)), currency: "USD" };
+  }
+  return null;
+}
+// WHY THE ANSWER IS USUALLY null, AND WHY THAT IS THE HONEST ANSWER.
+// The AI keys are GitHub Actions secrets so the cron jobs can use them. GitHub does not
+// let anyone read an Actions secret value back, by design, so this Worker holds the key
+// NAME and never the key. Reporting a balance would therefore mean inventing one. The
+// only case where a real lookup is possible is when the owner has ALSO put the key on
+// the Worker as its own secret; then env[NAME] exists and the provider can be asked.
+// The name is resolved through the frozen allowlist first, so no caller-supplied string
+// ever indexes env.
+async function aiUsage(env) {
+  const out = { provider: "", balance: null, currency: "", source: "" };
+  if (!env || !env.GITHUB_TOKEN) {
+    out.source = "no GITHUB_TOKEN on the worker, so the list of stored provider keys cannot be read";
+    return out;
+  }
+  const names = await ghSecretNames(env);
+  if (names === null) {
+    out.source = "github did not return the Actions secret list, so the configured provider is unknown";
+    return out;
+  }
+  // "Configured" means a key is stored for it. With several stored, the first name in
+  // the frozen list wins, which makes the answer deterministic rather than dependent on
+  // whatever order GitHub happened to list the secrets in.
+  const provider = AI_PROVIDER_NAMES.find(p => names.has(aiSecretName(p))) || "";
+  out.provider = provider;
+  if (!provider) {
+    out.source = "no AI provider key is stored as a GitHub Actions secret yet";
+    return out;
+  }
+  const url = aiBalanceUrl(provider);
+  if (!url) {
+    out.source = provider + " publishes no balance endpoint that an inference key can call";
+    return out;
+  }
+  // own(): the name came from the frozen allowlist, and this is an ownership test on the
+  // env bindings, never a prototype-chain read.
+  const held = own(env, aiSecretName(provider));
+  const key = typeof held === "string" ? held.trim() : "";
+  if (!key) {
+    out.source = "the " + provider + " key is stored as a GitHub Actions secret, and Actions secret "
+               + "values cannot be read back, so no balance lookup is possible from here";
+    return out;
+  }
+  let status = 0, body = null;
+  try {
+    const r = await fetch(url, { headers: { Authorization: "Bearer " + key, Accept: "application/json",
+                                            "User-Agent": "iboyprime-commands" } });
+    status = (r && r.status) || 0;
+    if (r && r.ok) body = await r.json();
+  } catch (e) { status = 0; }
+  // Nothing below this line touches `key`. Only the status code describes a failure.
+  if (status === 403 && provider === "openrouter") {
+    out.source = "openrouter answered HTTP 403: its credits endpoint needs a management key, not an inference key";
+    return out;
+  }
+  if (!body) {
+    out.source = provider + " balance lookup failed" + (status ? " (HTTP " + status + ")" : "");
+    return out;
+  }
+  const parsed = parseBalance(provider, body);
+  if (!parsed) {
+    out.source = provider + " answered in a shape this worker does not recognise, so no number is reported";
+    return out;
+  }
+  out.balance = parsed.balance;
+  out.currency = parsed.currency;
+  out.source = provider + " balance endpoint, read live";
+  return out;
+}
+// GitHub Actions minutes are unlimited ONLY while the repo is public, so that claim is
+// checked, never asserted: GET /repos/{owner}/{repo} answers with `private`. When the
+// lookup cannot run, public_repo is null with a `source` saying why, per this route's
+// rule against invented facts. Cached along with the whole payload below.
+async function repoVisibility(env) {
+  if (!env || !env.GITHUB_TOKEN || !env.GITHUB_OWNER || !env.GITHUB_REPO) {
+    return { public_repo: null, source: "not checked: the worker has no GITHUB_TOKEN to ask github with" };
+  }
+  let status = 0, body = null;
+  try {
+    const r = await fetch(ghBase(env), { headers: ghHeaders(env) });
+    status = (r && r.status) || 0;
+    if (r && r.ok) body = await r.json();
+  } catch (e) { body = null; }
+  if (!body || typeof body.private !== "boolean") {
+    return { public_repo: null,
+             source: "not checked: github did not answer" + (status ? " (HTTP " + status + ")" : "") };
+  }
+  return { public_repo: body.private === false, source: "github api, read live" };
+}
+// The assembled payload is cached per isolate for five minutes, like every other read
+// on this surface (bots_config, welcomeconfig, the poll bank, the background plates).
+// Uncached, every authenticated hit paid up to four outbound calls: analytics, the
+// Actions secret list, a balance endpoint and the repo lookup. The payload carries
+// generated_at plus a note saying figures can be five minutes old, so a cached serve
+// stays inside the route's honesty rule.
+const USAGE_CACHE_MS = 5 * 60 * 1000;
+let _usageCache = { at: 0, data: null };
+function resetUsageCache() { _usageCache = { at: 0, data: null }; }
+async function studioUsage(env) {
+  const now = Date.now();
+  if (_usageCache.data && now - _usageCache.at < USAGE_CACHE_MS) {
+    return studioJson(_usageCache.data, 200);
+  }
+  const cf = await cloudflareRequestsToday(env, now);
+  let requestsToday = cf.count, source;
+  if (requestsToday !== null) {
+    source = "cloudflare analytics";
+  } else {
+    requestsToday = _reqCount;
+    // The instant is part of the honesty: "since it started" is a claim the owner can
+    // only check against a time, and a fresh isolate is exactly when the tally is most
+    // misleading.
+    source = "approximation: counted in this worker instance since it started at "
+           + new Date(_reqSince).toISOString();
+    if (env && env.CLOUDFLARE_ANALYTICS_TOKEN && env.CLOUDFLARE_ACCOUNT_ID) {
+      source += " (the cloudflare analytics query did not return a total"
+              + (cf.status ? ", HTTP " + cf.status : "") + ")";
+    } else {
+      source += " (set CLOUDFLARE_ANALYTICS_TOKEN and CLOUDFLARE_ACCOUNT_ID for the account-wide total)";
+    }
+  }
+  const ai = await aiUsage(env);
+  const repo = await repoVisibility(env);
+  const notes = [
+    "The Cloudflare free plan allows " + CF_FREE_REQUESTS_PER_DAY + " requests a day and "
+      + CF_FREE_CPU_MS + " ms of CPU per request.",
+  ];
+  if (repo.public_repo === true) {
+    notes.push("GitHub Actions minutes are unlimited because the bots repo is public.");
+  } else if (repo.public_repo === false) {
+    notes.push("The bots repo is private, so GitHub Actions minutes are NOT unlimited.");
+  } else {
+    notes.push("Repo visibility was " + repo.source + ", so no claim is made about GitHub Actions minutes.");
+  }
+  if (source === "cloudflare analytics") {
+    notes.push("The request count is the account-wide total for today, read from Cloudflare analytics.");
+  } else {
+    notes.push("The request count covers only this worker instance, so the real daily total is higher.");
+  }
+  notes.push(ai.balance === null
+    ? "No AI balance is shown: " + (ai.source || "no provider key is readable from here") + "."
+    : "AI balance comes straight from the provider, not from a stored figure.");
+  notes.push("This payload is assembled at most once every five minutes per worker instance, "
+    + "so figures can be up to five minutes old.");
+  const payload = {
+    generated_at: new Date(now).toISOString(),
+    cloudflare: {
+      plan: "free",
+      requests_per_day_limit: CF_FREE_REQUESTS_PER_DAY,
+      cpu_ms_per_request_limit: CF_FREE_CPU_MS,
+      requests_today: requestsToday,
+      source,
+    },
+    github_actions: {
+      public_repo: repo.public_repo,
+      minutes_limit: repo.public_repo === true ? "unlimited" : null,
+      source: repo.source,
+    },
+    ai,
+    notes,
+  };
+  _usageCache = { at: now, data: payload };
+  return studioJson(payload, 200);
 }
 
 // ---------- /studio: the poll question bank ----------
@@ -1283,14 +1672,28 @@ const STUDIO_LIMITS = {
 //        503 without DISCORD_BOT_TOKEN or channels.studio; 502 if Discord or the
 //        bot-identity lookup fails.
 //
-//   GET  /studio/api/aikey   -> { providers: { deepseek: bool, openrouter: bool } }
-//        Presence only. Actions secret values cannot be read back from GitHub at
-//        all, so no key material exists on this path.
+//   GET  /studio/api/aikey
+//        -> { providers: { deepseek, openrouter, zai, groq, together, mistral,
+//                          openai } }, every value a bool, in that order.
+//        Presence only, by listing secret NAMES. Actions secret values cannot be
+//        read back from GitHub at all, so no key material exists on this path.
 //
-//   POST /studio/api/aikey   <- { provider: "deepseek" | "openrouter", key }
+//   POST /studio/api/aikey   <- { provider: <one of the seven names>, key }
 //        -> 200 { ok: true, provider, stored: true } | 400 { error } |
 //           501/502/503 { ok: false, error }. Any other provider is a 400 and
 //           nothing leaves the Worker.
+//
+//   GET  /studio/api/usage
+//        -> { generated_at,
+//             cloudflare: { plan, requests_per_day_limit, cpu_ms_per_request_limit,
+//                           requests_today, source },
+//             github_actions: { public_repo, minutes_limit, source },
+//             ai: { provider, balance, currency, source },
+//             notes: [string] }
+//        requests_today and balance are a number or null, NEVER a guess;
+//        public_repo is true/false only after GitHub confirmed it, else null; and
+//        `source` always says where the value came from or why there is none.
+//        The assembled payload is cached per isolate for five minutes.
 //
 //   GET  /studio/api/poll
 //        -> { question: "", options: [{ label, emoji, img }] }
@@ -1335,15 +1738,20 @@ async function studioRouter(request, env, url) {
   if (!authed) return studioJson({ error: "unauthorized" }, 401);
 
   if (path === "/studio/api/staged" && request.method === "GET") return await studioStaged(env);
+  if (path.indexOf("/studio/bg/") === 0 && request.method === "GET") {
+    return await studioBg(env, path.slice("/studio/bg/".length));
+  }
   if (path === "/studio/api/aikey" && request.method === "GET") return await studioAiKeyStatus(env);
   if (path === "/studio/api/aikey" && request.method === "POST") return await studioAiKeySave(request, env);
   if (path === "/studio/api/poll" && request.method === "GET") return await studioPoll(env);
+  if (path === "/studio/api/usage" && request.method === "GET") return await studioUsage(env);
   if (path === "/studio/api/limits" && request.method === "GET") return studioJson(STUDIO_LIMITS, 200);
   return studioJson({ error: "not found" }, 404);
 }
 
 export default {
   async fetch(request, env, ctx) {
+    noteRequest();          // per-isolate tally behind /studio/api/usage; see noteRequest
     const url = new URL(request.url);
     // The studio surface is answered in full here and RETURNS, so the Discord
     // interaction endpoint below is unreachable from any /studio path: a POST to
@@ -1391,6 +1799,9 @@ export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildP
   ctEq, ctEqBytes, studioToken, studioTokenValid, cookieValue, requireStudio, parseStaged, parseStagedOne,
   loginTooMany, noteLoginFail, clearLoginFails, LOGIN_MAX_FAILS, sealBox, b64ToBytes, bytesToB64,
   AI_PROVIDERS, AI_PROVIDER_NAMES, aiSecretName, STUDIO_LIMITS, STUDIO_COOKIE, STUDIO_TTL_MS,
+  AI_ENDPOINTS, aiEndpoint, AI_BALANCE, aiBalanceUrl, parseBalance, ghSecretNames,
+  cloudflareRequestsToday, startOfUtcDay, resetUsageCounter, resetUsageCache, repoVisibility,
+  CF_FREE_REQUESTS_PER_DAY, CF_FREE_CPU_MS,
   LOGIN_HTML, STUDIO_HTML, STUDIO_CSP, DISCORD_CDN_HOSTS, discordCdnUrl, pollShape, POLL_EMPTY,
-  pbkdf2Bits, studioKey, hmacB64url, STUDIO_KDF_ITERS, STUDIO_KDF_SALT, LOGIN_FAIL_DELAY_MS,
+  sha256Bytes, studioSignKey, studioPasswordOk, hmacB64url, LOGIN_FAIL_DELAY_MS,
   resetStudioCaches };
