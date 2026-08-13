@@ -86,13 +86,19 @@ def match_fighter(text, name_map):
     t = " ".join((text or "").lower().replace(chr(0x2019), "'").split())
     if not t or not name_map:
         return ""
-    best_id, best_name = "", ""
+    # The SUBJECT of a headline is the fighter named FIRST ("Garry eyes ...
+    # before Makhachev title fight" is a Garry story), so earliest position
+    # wins and the longer name only breaks a tie at the same position. Picking
+    # the longest name outright put Makhachev's cutout on a Garry story.
+    best = None
     for name, fid in (name_map or {}).items():
-        if len(name) <= len(best_name):
+        m = re.search(r"(?<![a-z0-9])" + re.escape(name) + r"(?![a-z0-9])", t)
+        if not m:
             continue
-        if re.search(r"(?<![a-z0-9])" + re.escape(name) + r"(?![a-z0-9])", t):
-            best_id, best_name = fid, name
-    return best_id
+        key = (m.start(), -len(name))
+        if best is None or key < best[0]:
+            best = (key, fid)
+    return best[1] if best else ""
 
 
 def fighter_cutout(text):
@@ -171,12 +177,31 @@ def _sentence_trim(text, cap):
     return (cut[:pos] if pos > 0 else cut).rstrip(",;: ") + "..."
 
 
+def _echoes(head, body):
+    """True when the summary is just the headline again (optionally with a
+    site name or a few words glued on). Pure."""
+    def norm(t):
+        return " ".join("".join(c for c in (t or "").lower()
+                                if c.isalnum() or c.isspace()).split())
+    h, b = norm(head), norm(body)
+    if not h or not b:
+        return False
+    return b.startswith(h) or h.startswith(b)
+
+
 def build_caption(title, desc, source):
     """The text the owner pastes into the YouTube composer. Pure, calm voice:
     headline, one or two context sentences, attribution, one hashtag."""
-    lines = [common.strip_markdown(title or "").strip()]
+    head = common.strip_markdown(title or "").strip()
+    lines = [head]
     body = _sentence_trim(common.strip_markdown(desc or ""), CAPTION_MAX_DESC)
-    if body and body.lower() != lines[0].lower():
+    # Many feeds set the summary to the headline again, sometimes with the site
+    # name glued on ("... against Islam Makhachev BJPenn.com"), which printed
+    # the same sentence twice in the staged caption. Exact equality was not
+    # enough - compare on normalised prefix.
+    if body and _echoes(head, body):
+        body = ""
+    if body:
         lines += ["", body]
     lines += ["", "via %s" % (source or "the wire"), "#UFC"]
     return "\n".join(lines)
