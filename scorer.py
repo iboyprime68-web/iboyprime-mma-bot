@@ -141,15 +141,38 @@ def _has_term(text, term):
     return re.search(r"(?<![a-z0-9])%s(?![a-z0-9])" % re.escape(term), text) is not None
 
 
+# A truncated line must end on a complete thought. Cutting mid-clause shipped
+# "LOSING STREAK AS MARLON" to the studio channel (owner caught it live):
+# the cut has to land BEFORE a clause connector, and never leave one dangling.
+CLAUSE_CUTS = (" as ", " after ", " with ", " amid ", " following ", " despite ",
+               " before ", " while ", ", ", "; ", ": ", " - ")
+DANGLING = {"as", "after", "with", "amid", "following", "despite", "before",
+            "while", "and", "or", "but", "to", "the", "a", "an", "of", "in",
+            "on", "at", "by", "for", "is", "are", "was", "his", "her", "their"}
+
+
 def _fallback_line(title):
     """The poster line when no AI wrote one: the title, whitespace collapsed,
-    cut at LINE_MAX on a word boundary. Pure."""
+    cut at LINE_MAX - preferring a clause boundary, never dangling a
+    connector word. Pure."""
     t = re.sub(r"\s+", " ", str(title or "")).strip()
     if len(t) <= LINE_MAX:
         return t
     cut = t[:LINE_MAX]
-    pos = cut.rfind(" ")
-    return (cut[:pos] if pos > 0 else cut).rstrip(",;:. ")
+    best = -1
+    for sep in CLAUSE_CUTS:
+        pos = cut.rfind(sep)
+        if pos > best and pos >= int(LINE_MAX * 0.45):
+            best = pos
+    if best > 0:
+        cut = cut[:best]
+    else:
+        pos = cut.rfind(" ")
+        cut = cut[:pos] if pos > 0 else cut
+    words = cut.rstrip(",;:. ").split(" ")
+    while words and words[-1].lower() in DANGLING:
+        words.pop()
+    return " ".join(words).rstrip(",;:. ")
 
 
 def _fallback_hot(line):
