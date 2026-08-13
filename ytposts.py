@@ -35,6 +35,92 @@ OG_RE_FLIP = re.compile(
 
 CAPTION_MAX_DESC = 300
 
+# Photoless fallback: when a story has no usable og:image, try to resolve a
+# fighter named in the poster line/title against octagon-api and hand the
+# promo cutout to the renderer (render_news "cutout_path"). Every step is
+# fail-silent - no match or a dead fetch just means the glow-field fallback.
+RANKINGS_API = "https://api.octagon-api.com/rankings"
+FIGHTER_API = "https://api.octagon-api.com/fighter/%s"
+
+
+def build_name_map(rankings):
+    """Lowercased fighter name -> octagon id from the /rankings payload
+    (divisions with champion {id, championName} + fighters [{id, name}]).
+    Full names always; bare surnames only while unambiguous - two fighters
+    sharing one surname drop it, because a wrong cutout is worse than none.
+    Pure."""
+    if not isinstance(rankings, list):
+        return {}
+    full, last, clash = {}, {}, set()
+    for div in rankings:
+        if not isinstance(div, dict):
+            continue
+        entries = list(div.get("fighters") or [])
+        champ = div.get("champion") or {}
+        if isinstance(champ, dict) and champ.get("id") and champ.get("championName"):
+            entries.append({"id": champ["id"], "name": champ["championName"]})
+        for f in entries:
+            fid = str((f or {}).get("id") or "")
+            name = " ".join(str((f or {}).get("name") or "").lower()
+                            .replace(chr(0x2019), "'").split())
+            if not fid or not name:
+                continue
+            full[name] = fid
+            parts = name.split()
+            if len(parts) >= 2 and len(parts[-1]) >= 3:
+                ln = parts[-1]
+                if last.get(ln, fid) != fid:
+                    clash.add(ln)
+                last.setdefault(ln, fid)
+    for ln in clash:
+        last.pop(ln, None)
+    for ln, fid in last.items():
+        full.setdefault(ln, fid)
+    return full
+
+
+def match_fighter(text, name_map):
+    """The octagon id whose name occurs in `text` as whole words, preferring
+    the LONGEST matched name; "" when nothing matches. Case-insensitive,
+    apostrophe-normalized. Pure."""
+    t = " ".join((text or "").lower().replace(chr(0x2019), "'").split())
+    if not t or not name_map:
+        return ""
+    best_id, best_name = "", ""
+    for name, fid in (name_map or {}).items():
+        if len(name) <= len(best_name):
+            continue
+        if re.search(r"(?<![a-z0-9])" + re.escape(name) + r"(?![a-z0-9])", t):
+            best_id, best_name = fid, name
+    return best_id
+
+
+def fighter_cutout(text):
+    """Resolve a fighter named in `text` to a downloaded promo-cutout temp
+    file path, or "". One rankings GET per call; never raises."""
+    try:
+        code, data = common.get_json(RANKINGS_API, tries=2, timeout=10)
+        if code != 200:
+            return ""
+        fid = match_fighter(text, build_name_map(data))
+        if not fid:
+            return ""
+        code, f = common.get_json(FIGHTER_API % fid, tries=2, timeout=10)
+        if code != 200 or not isinstance(f, dict):
+            return ""
+        url = str(f.get("imgUrl") or "")
+        if not url.startswith("http"):
+            return ""
+        raw = fetch_bytes(url)
+        if not raw:
+            return ""
+        fd, path = tempfile.mkstemp(suffix=".png")
+        with os.fdopen(fd, "wb") as fh:
+            fh.write(raw)
+        return path
+    except Exception:
+        return ""
+
 
 def parse_og_image(html):
     """First og:image / twitter:image URL in an HTML blob, or ''. Pure."""
@@ -130,6 +216,10 @@ def stage_story(it, score, why, cfg_bots, newscfg):
                     fd, photo_path = tempfile.mkstemp(suffix=".img")
                     with os.fdopen(fd, "wb") as f:
                         f.write(raw)
+            cutout_path = ""
+            if not photo_path:
+                cutout_path = fighter_cutout(
+                    "%s %s" % (it.get("line") or "", it.get("title") or ""))
             import postcard                     # lazy: needs Pillow
             # line/hot come from the scorer via news_bot; speaker/inset stay
             # out for now - speaker inference lands with the composer app.
@@ -139,13 +229,15 @@ def stage_story(it, score, why, cfg_bots, newscfg):
                 "hot": it.get("hot") or [],
                 "source": it.get("source", ""),
                 "photo_path": photo_path or None,
+                "cutout_path": cutout_path or None,
             })
             fd, img_path = tempfile.mkstemp(suffix=".png")
             os.close(fd)
             img.save(img_path, "PNG")
-            if photo_path:
-                try: os.remove(photo_path)
-                except OSError: pass
+            for tmp in (photo_path, cutout_path):
+                if tmp:
+                    try: os.remove(tmp)
+                    except OSError: pass
         except SystemExit:
             img_path = ""                       # Pillow missing: text-only stage
         except Exception as e:
