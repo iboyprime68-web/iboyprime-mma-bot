@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Drop your favorite Myktybek Orolbai gif/photo because he is fighting on #UFC330 🤲 [ LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
-      "ts": "2026-08-13T12:00:01+00:00"
-    },
-    {
-      "t": "Islam Makhachev hopes Ilia Topuria rebounds from Justin Gaethje loss https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/13/ufc-islam-makhachev-c…",
-      "ts": "2026-08-13T12:06:19+00:00"
-    },
-    {
       "t": "Jason Parillo 'a ring-rust guy' but isn't worried about Mackenzie Dern at #UFC330 (via @MMAJunkieGeorge, @thegoze) https://mmajunkie.usatoday.com/sto…",
       "ts": "2026-08-13T12:55:24+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC Fight Night comes to Edmonton October 17th at Rogers Place",
       "ts": "2026-08-13T19:10:45+00:00"
+    },
+    {
+      "t": "Carlos Prates hints at untold story behind Mauricio Ruffy's loss",
+      "ts": "2026-08-13T18:24:13+00:00"
+    },
+    {
+      "t": "UFC 330: Makhachev vs Machado Garry Preview",
+      "ts": "2026-08-13T19:19:22+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Your ticket to LA is on @cryptocom! One fan and a guest get a chance to win a trip to CryptoCom UFC331 at @cryptocomarena, including: -VIP Seats -F…",
-      "url": "https://nitter.net/ufc/status/2087969685203472448#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-13T18:29:00+00:00"
-    },
-    {
-      "title": "Herb Dean once again embroiled in controversy as The Ultimate Fighter star speaks out against ‘lying’ ref",
-      "url": "https://bloodyelbow.com/2026/08/13/herb-dean-once-again-embroiled-in-controversy-as-the-ultimate-fighter-star-speaks-out-against-lying-ref/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-13T18:30:00+00:00"
-    },
     {
       "title": "“He’s Not Irish Bro”: Islam Makhachev Takes Sledge at Ian Machado Garry",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ3VHNEtPaFRSWWttTHVfc2R4ZUlOXzNucEtSalFfUDY0bS1EN2ZOUDFvS3RTSG5yenZxS3ZPcEQtU3RmM05Pc0NJTzlKVk4wZXc1cEhLXzAwR19TREVLM01sOGlnVl9LR2RlT0Y0Rjl1Uy01SnF1TWdqV3JlTlZyUWIwdFVPTGdKSWNTWGIwUWZHcUZCZDdyLWdn?oc=5",
@@ -2105,6 +2091,20 @@
       "source": "CityNews Edmonton",
       "cat": "ufc",
       "ts": "2026-08-13T19:10:45+00:00"
+    },
+    {
+      "title": "Carlos Prates hints at untold story behind Mauricio Ruffy's loss",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcDhKWWhzMW1UM1VpYk5LUDZfRnExYlo3aDlpbDVRbVcxSVBiZC0waG5SZ0x1d0NLMDRqbkNLNVo0WFRFNlBuTjQ2dWo3SVRxaEtuZmxlU0hYWkxRV0RXaEJoNlpKdU05aEVnUXN0Z0hObDJnM293RjBiclBpMkFndTNXcnV0QQ?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-13T18:24:13+00:00"
+    },
+    {
+      "title": "UFC 330: Makhachev vs Machado Garry Preview",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNT2tpTEdKU09oYlhZUlo0a0RYMHFLZmJVWG05NElTT0tvLXVpOGFrcXFlWVFKVlh5VzlFY1NwbW9weHZnV0pBRzllTDAzd1E3eGZvTEkxUXJ1dlNucGJuQjRzRHIzTVVlTHdWUnRPYjV3cGNrSUZ3bS1ieDEzY0x5aDk2MFN4RGI3NWlLeXJ5akU?oc=5",
+      "source": "elisportsnetwork.com",
+      "cat": "ufc",
+      "ts": "2026-08-13T19:19:22+00:00"
     }
   ],
   "digest_last": "2026-08-12 21:30",
@@ -2435,7 +2435,9 @@
     "CBMiwAFBVV95cUxQaENvVnRqOWNMNHVWRGVnd2xJd3pEZXBiSkdFWHpLSFJNQW9WdzBNLWVPbmhwZFIzeTRZZ0JHcHc3SzI1bl92cnItUWZhV0dWLUxJTzQwaWdrYWtCZl9rd2hwOVN0ai1ocW5zWVcwS0pGQThmeG51TWlRckdxZHpYdmJXeGZmVHdLZnJSUVQwbWxzS3AyME1ybW91dzQ3MlVkZUtKLXpaRFVHeHJiVmxPSDZ0emktb1JESWN2cHNhanU",
     "CBMiW0FVX3lxTFBJbnh0ZmI5b2hrcDFfd1U1bEx6cjY5UzJ3YU5jLU1zX0xBMW5WeEtDTWN0ZnNSdFVKZ25QekF5OHNoRFZMeUMyX3hsTS1YcFBoeFdOX09RTm9YZlk",
     "CBMiqAFBVV95cUxQU3NFUkV0cFVRTC14X3Z3M2VPQmd5Y0VqTzlLNDZnVlVjRmQ0QjVzQWtrNmltZ2txb1lyQUhuQzFSemZrS3Jmc0JqbnplQmpVYk12bVlBNVBwQlUxR0JlX3V4bUt1a01wUGlGeElybEFkc2ZDSmx3X3NVTGhMNjBuQ3RFR0hBdGlxZUJ2aW1ranhkZjA5Y0d2QlRvSTMwMnNuN01lR1hRdjQ",
-    "CBMirgFBVV95cUxNZXdadE9VTVc3V2ZXRUx1RlNuSFFJYmQzZEZKVnZGemFDR05Xd0N2SEJ5bElMNTN5TkE4cE50N1JJZmgtc1M2R0xXb0lwNUt0VUN4S0NtYmhSSldRTlh4N2JvREdFRjFxTXFNTW1ISlhBZDRTckN5WXl2S0plYU1hbjNpam5faWNuUlFqR0pfYlJVLWZXYXp3eml4RVhIQk9vLTV0TmhqLWVzSGVaSFE"
+    "CBMirgFBVV95cUxNZXdadE9VTVc3V2ZXRUx1RlNuSFFJYmQzZEZKVnZGemFDR05Xd0N2SEJ5bElMNTN5TkE4cE50N1JJZmgtc1M2R0xXb0lwNUt0VUN4S0NtYmhSSldRTlh4N2JvREdFRjFxTXFNTW1ISlhBZDRTckN5WXl2S0plYU1hbjNpam5faWNuUlFqR0pfYlJVLWZXYXp3eml4RVhIQk9vLTV0TmhqLWVzSGVaSFE",
+    "CBMihgFBVV95cUxNcDhKWWhzMW1UM1VpYk5LUDZfRnExYlo3aDlpbDVRbVcxSVBiZC0waG5SZ0x1d0NLMDRqbkNLNVo0WFRFNlBuTjQ2dWo3SVRxaEtuZmxlU0hYWkxRV0RXaEJoNlpKdU05aEVnUXN0Z0hObDJnM293RjBiclBpMkFndTNXcnV0QQ",
+    "CBMikAFBVV95cUxNT2tpTEdKU09oYlhZUlo0a0RYMHFLZmJVWG05NElTT0tvLXVpOGFrcXFlWVFKVlh5VzlFY1NwbW9weHZnV0pBRzllTDAzd1E3eGZvTEkxUXJ1dlNucGJuQjRzRHIzTVVlTHdWUnRPYjV3cGNrSUZ3bS1ieDEzY0x5aDk2MFN4RGI3NWlLeXJ5akU"
   ],
   "daily": {
     "d": "2026-08-13",
