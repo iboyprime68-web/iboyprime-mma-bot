@@ -1,0 +1,6 @@
+# Pinned deps for the render step inside news.yml (postcard.py).
+# Same supply-chain rule as requirements-scan.txt (CLAUDE.md 0e finding 6):
+# the job holds DISCORD_BOT_TOKEN + repo write, so nothing unpinned installs
+# there. Bump deliberately: pip install --dry-run -r requirements-post.txt
+# on python 3.12, then update the pin as a set.
+Pillow==12.2.0
