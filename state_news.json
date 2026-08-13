@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=500568",
     "https://www.mmafighting.com/?p=500576",
     "https://www.mmafighting.com/?p=500587",
     "https://www.mmafighting.com/?p=500593",
@@ -896,6 +895,7 @@
     "https://www.mmamania.com/?p=464290",
     "https://www.mmamania.com/?p=464325",
     "https://www.mmamania.com/?p=464334",
+    "https://www.mmamania.com/?p=464338",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Dominick Cruz picks Ian Machado Garry to edge out Islam Makhachev at #UFC330 (via @MikeBohn) https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/…",
-      "ts": "2026-08-13T14:35:24+00:00"
-    },
     {
       "t": "Social Pre-Sale is now available for #UFCEdmonton! Use Code: UFCSOCIAL Tickets Here: https://UFC.ac/4qbxCf7",
       "ts": "2026-08-13T16:00:02+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Ian Machado Garry reveals the 'only' person who deserves the next title shot after he becomes champ at UFC",
       "ts": "2026-08-13T20:07:32+00:00"
+    },
+    {
+      "t": "UFC 330 press conference video, LIVE stream updates &#124; Islam vs. Garry",
+      "ts": "2026-08-13T20:06:01+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Ian Machado Garry Breaks Down Islam Makhachev UFC 330 Fight",
-      "url": "https://sports.yahoo.com/articles/ian-machado-garry-breaks-down-053803685.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-13T05:38:03+00:00"
-    },
     {
       "title": "UFC 330: Makhachev vs Garry start time, undercard and how to watch fight this weekend",
       "url": "https://sports.yahoo.com/articles/ufc-330-makhachev-vs-garry-112605567.html",
@@ -2105,6 +2098,13 @@
       "source": "bjpenn.com",
       "cat": "ufc",
       "ts": "2026-08-13T20:07:32+00:00"
+    },
+    {
+      "title": "UFC 330 press conference video, LIVE stream updates &124; Islam vs. Garry",
+      "url": "https://www.mmamania.com/ufc-press-conference-video/464338/ufc-330-press-conference-video-live-stream-updates-islam-vs-garry-mma",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-13T20:06:01+00:00"
     }
   ],
   "digest_last": "2026-08-12 21:30",
@@ -2460,7 +2460,8 @@
     "CBMimgFBVV95cUxPdjFUdGVJdG0zNDZsc2hvc1JuN0xYZ08tOVlJaEJ2S3pIb05kcU03cGRzUk5Za2dBNFdBNnFxRUlPbDNMMmJyZlJuX2VaZWRoemdKbUZwZ29QT1FBVVgyczg2Sm1SeWNlU3c3RjRwWTVJS3BwWGVUNlZELVhxWEtjY2tiX25PRkFJZDM4NGhEby1HOEVtdk8tLVl3",
     "CBMiigFBVV95cUxOX290VkxsYy1qR05ES1dzQVZYM2hqWHIzX3pYVEFvNjdXMUpjUkpTekhmY0tsUlNkX3ZobjJmWVFKeXZuOXl1dkNEUV9UYm9kUkNMZkJ1MjlFOHJCeWNtVV83WWRGN0d2VFV5aWNMc3NMdzkzcW5LdlFFZ0t3QTEzN1l3dW5jSm4tVnc",
     "CBMilgFBVV95cUxQakFWM0xCWDdRaFlOQ1U1WEJ2QW9sTEstUVpKTkFSTm1HMmJ3UmpJRmxfNmhvYzhjekRRT052RmdXNlNlVkZ1RjVLdGxQNnpqYnl2QWY5akR6cTFNd2IxNTJULVlWdVFfYXJtUGNqZlJrVlBLcnIwcVF1aEllSFpHRFJvSWNOQjdVOFZEQ3Jqbzk0MTFOT3c",
-    "CBMipgNBVV95cUxOT3pEUU4yc3pzWkd4VlV6eDFCSlFIVlFwTjZqWGVwZ2xMTnNBWFl2N05YRzE2RDdjczVyd2VQdkJyV2trdDF4bzRGRF90S0lLczRTYkJhREVhSTVqSTA2RldHY1FaYTgwVGJMN3V4REJ1aHh5c3VHS19LUkQ3UEVjeHpJMFhBejhpUTQ3U2U5Q1NNR2ZOR3czbmVhaU8wUzlTT1FUVXpEYzdmUnhVbUlLRmt6S0lTQjQ0c2NDUURFc0llcUF5VF9fOEFwNnVGR28zVnVMSnpoYU9BQjUtaF9SWjlISG1nallIU2llSTRFM0toYy0zdWZqb0duSWhZTjIzQlhRQUdhOGJFS3YyY2NMaWNEOEFYSE1TYURXM2JKTUQ4WldpNnZCemlMZDAxU2JnNnk1a0plU25TbHRqeGtIME1Sc3NHQmxnWW1GVTcxeEVfRmx1ZGRKd0Y1MHZtSU1WTVR5ZFpFaXhpVXFsOXQ0SjVVQmR3dXQyY3VIeXh3ekhwczlPTURJcFRQOHZuOXVBUVJ1WGVqNW1JWTVubUx5bFVhaThtQQ"
+    "CBMipgNBVV95cUxOT3pEUU4yc3pzWkd4VlV6eDFCSlFIVlFwTjZqWGVwZ2xMTnNBWFl2N05YRzE2RDdjczVyd2VQdkJyV2trdDF4bzRGRF90S0lLczRTYkJhREVhSTVqSTA2RldHY1FaYTgwVGJMN3V4REJ1aHh5c3VHS19LUkQ3UEVjeHpJMFhBejhpUTQ3U2U5Q1NNR2ZOR3czbmVhaU8wUzlTT1FUVXpEYzdmUnhVbUlLRmt6S0lTQjQ0c2NDUURFc0llcUF5VF9fOEFwNnVGR28zVnVMSnpoYU9BQjUtaF9SWjlISG1nallIU2llSTRFM0toYy0zdWZqb0duSWhZTjIzQlhRQUdhOGJFS3YyY2NMaWNEOEFYSE1TYURXM2JKTUQ4WldpNnZCemlMZDAxU2JnNnk1a0plU25TbHRqeGtIME1Sc3NHQmxnWW1GVTcxeEVfRmx1ZGRKd0Y1MHZtSU1WTVR5ZFpFaXhpVXFsOXQ0SjVVQmR3dXQyY3VIeXh3ekhwczlPTURJcFRQOHZuOXVBUVJ1WGVqNW1JWTVubUx5bFVhaThtQQ",
+    "https://www.mmamania.com/?p=464338"
   ],
   "daily": {
     "d": "2026-08-13",
