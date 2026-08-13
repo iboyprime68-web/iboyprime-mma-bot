@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=500525",
     "https://www.mmafighting.com/?p=500547",
     "https://www.mmafighting.com/?p=500549",
     "https://www.mmafighting.com/?p=500563",
@@ -897,6 +896,7 @@
     "https://www.mmamania.com/?p=464241",
     "https://www.mmamania.com/?p=464277",
     "https://www.mmamania.com/?p=464290",
+    "https://www.mmamania.com/?p=464325",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Game-changing kicks 😳 You do not want to be on the other end of an Edson Barboza kick! [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
-      "ts": "2026-08-13T17:00:48+00:00"
-    },
     {
       "t": "He wants the belt 😤 @IanGarryMMA | #UFC330 [ LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
       "ts": "2026-08-12T17:45:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Shields vs. Scott: Press Conference Salita Promotions",
       "ts": "2026-08-13T18:19:52+00:00"
+    },
+    {
+      "t": "Ian Garry accuses Islam of wearing ‘high heels’ to boost height during UFC 330 face off, Makhachev responds",
+      "ts": "2026-08-13T18:20:26+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Ian Machado Garry is not your typical UFC fighter – and that’s why fans can’t stand him",
-      "url": "https://sports.yahoo.com/articles/ian-machado-garry-not-typical-082758285.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-13T12:40:47+00:00"
-    },
     {
       "title": "Jason Parillo 'a ring-rust guy' but isn't worried about Mackenzie Dern at UFC 330",
       "url": "https://sports.yahoo.com/articles/jason-parillo-ring-rust-guy-125021379.html",
@@ -2105,6 +2098,13 @@
       "source": "DAZN",
       "cat": "ufc",
       "ts": "2026-08-13T18:19:52+00:00"
+    },
+    {
+      "title": "Ian Garry accuses Islam of wearing ‘high heels’ to boost height during UFC 330 face off, Makhachev responds",
+      "url": "https://www.mmamania.com/ufc-330-makhachev-vs-machado-garry-live-stream-start-time-fight-card/464325/ian-garry-accuses-islam-of-wearing-high-heels-to-boost-height-during-ufc-330-face-off-makhachev-responds",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-13T18:20:26+00:00"
     }
   ],
   "digest_last": "2026-08-12 21:30",
@@ -2404,6 +2404,7 @@
     "CBMiywFBVV95cUxNMkdRRXpsRHY1RzM2dWIxSHRlZFFseWJhSkUwcTJHRlQyRWoxSFhITTBTY3BsMXFXNk9NcFB4R2U1OExmbHZ4QXQtMngxY0FNT0pLdTcwNlJ2OGRGb1BVcTNTcENscmZ1dEphaFo4RVBHVDJBUFJxRlpVeTVBUjBGdERHcjE4XzFfMkxkV19LUUlJakJubzlVVHZtQjBOUnR2SERqcVVVSnZKNlk3VW5icDdfbWpYc3g5ZjVWTjdDOGFfb1RrbGdickJ1VQ",
     "CBMijgFBVV95cUxNbEo1MnVqWmNpdWRhX09kMl9YZkFheEhpMHpWYnFpVGJleHJDNTNrY1FjTk9fczFFMU9kN3Q2Zm55WEE4MDN5QTlvNXRHSHJBSUVmUGhkY2otaVJtLXhaMHNzNnVHelR4ZTIzc283cGJsNG9sU05mdmtwS1JjQUktaFlEN001cE5uSHJyRDB3",
     "CBMi5gFBVV95cUxOUzJNek44dmhtTEltRTNuLUlBdW11cWE5ZVh0M2FScDJJV0JpZ2ptUlNPLXF5b0lael9VT2pfZzFZNW9kSi02dDZDcjFwTVJtVjZwWm1YdkQtZ3EwOUJvcFRfME9xSXZQc0NiZUdtNUdkOUpHV1JzcWhBTXZzX0k0VDdJdGZIUndPa25EekNVakV0WTFORjVTaXJWbkVKclFqa21mRzU0aHhFd1R1RWFPLXdzRm10VldyVENzWWQ3X1g3RFZXZFlVZXBsTXZUbjU2MVFaRUFubGQ5LTlCTUNUNXU1TldkZw",
-    "CBMijgFBVV95cUxOcTBTLXNkLVV2Z3oxWUdKRjhBVjAxZnplRmp3LTM0aVBqTWNWWk9hckNmY1NyVlk3NWxFaHZXbGZKU1ZTMXlqWjRablM1QnpvYXR5X2wxd2RVWmJTZnZqU1pmbjZscWZfaEhkbi1FVGFQSEg2WFM5Mm5EQ25leDBJcl8wYzlrY0NmSFRFc29B"
+    "CBMijgFBVV95cUxOcTBTLXNkLVV2Z3oxWUdKRjhBVjAxZnplRmp3LTM0aVBqTWNWWk9hckNmY1NyVlk3NWxFaHZXbGZKU1ZTMXlqWjRablM1QnpvYXR5X2wxd2RVWmJTZnZqU1pmbjZscWZfaEhkbi1FVGFQSEg2WFM5Mm5EQ25leDBJcl8wYzlrY0NmSFRFc29B",
+    "https://www.mmamania.com/?p=464325"
   ]
 }
