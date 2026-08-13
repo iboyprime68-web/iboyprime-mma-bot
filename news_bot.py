@@ -314,8 +314,14 @@ def main():
             state.setdefault("yt_eval", []).append(it["guid"])
             scfg = scorer.scoring_config(cfg)
             scfg["breaking_keywords"] = cfg.get("breaking_keywords") or []
-            res = scorer.score_story(it["title"], it.get("desc", ""),
-                                     it["source"], cat, scfg)
+            today = common.now_utc().strftime("%Y-%m-%d")
+            if not scorer.under_cap(state, scfg, today, "staged"):
+                print("  yt: daily staged cap reached, skipping: %s"
+                      % it["title"][:60])
+                return
+            res = scorer.score_story_budgeted(it["title"], it.get("desc", ""),
+                                              it["source"], cat, scfg,
+                                              state, today)
             score, why = res.get("score", 0), res.get("why", "")
             thr = int(scfg.get("stage_threshold", 70))
             if breaking:
@@ -328,7 +334,9 @@ def main():
             sit = dict(it)
             sit["line"] = res.get("line", "")
             sit["hot"] = res.get("hot", [])
+            sit["emphasis"] = cfg.get("emphasis", "auto")
             status = ytposts.stage_story(sit, score, why, cfg_bots, cfg)
+            scorer.spend(state, today, "staged")
             print("  yt: %s [%d] %s" % (status, score, it["title"][:60]))
         except Exception as e:
             print("  yt: staging error (%s), news unaffected" % type(e).__name__)
