@@ -14,7 +14,7 @@ Usage:
     python postcard.py --demo [--out DIR]   renders one of each template with
                                             synthetic placeholder photos
 """
-import itertools, os, sys
+import itertools, os, sys, zlib
 
 try:
     from PIL import (Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter,
@@ -43,6 +43,24 @@ PALETTE = {
                                 # VIVID violet step - more chroma than accent,
                                 # same luminance ballpark - and the text band
                                 # scrim underneath carries the contrast
+    "accent_fill": "#D2ADFF",   # HOT-WORD GLYPH FILL, and nothing else. The
+                                # owner's Aug 2026 verdict put colored words
+                                # back in ("underline doesn't really highlight
+                                # - on my phone I won't see it"), and the flaw
+                                # that killed the earlier colored rounds was
+                                # LUMINANCE: accent_hot sits at ~119/255 and
+                                # sank into warm skin and cage light. Purple
+                                # luminance is carried almost entirely by
+                                # green, so this step trades some chroma for
+                                # 187/255 and the per-word ink pocket
+                                # underneath supplies the rest. Measured at 30
+                                # percent on the gauntlet card: glyph-vs-ground
+                                # 152.8 against white's 176.5 (0.87) and Lab
+                                # dE 70.7 against white's 68.6 (1.03). Going
+                                # paler buys luminance and loses the purple -
+                                # #DCBEFF scores 0.92 but stops reading violet
+                                # at feed size, which is the whole point of the
+                                # owner's verdict
     "accent_deep": "#5B3DF5",   # darker sibling for glows / gradient bottoms
     "accent_soft": "#C9BBFF",   # pale lavender for meta type on dark purple fields
     "rim":         "#D9A6FF",   # chromatic violet rim light on fighter cutouts
@@ -251,6 +269,47 @@ STYLE = {
                                  # with display_spacing 0.93 the next line's
                                  # cap tops start 0.22 em under the baseline,
                                  # so gap + height must stay well inside that
+
+    # hot-word EMPHASIS (owner verdict, Aug 2026 - this overrules the round-6
+    # note above). "underline" is the white-word + purple-bar device kept
+    # intact; "color" fills the hot words in accent_fill, which is what the
+    # owner actually asked for: "I prefer text a different color because
+    # underline doesn't really highlight - if I'm looking at the post on my
+    # phone without making it bigger, I won't see the underline."
+    "news_emphasis": "color",    # default when a spec says nothing. A spec
+                                 # may override per render (spec["emphasis"]);
+                                 # "auto" rotates deterministically per story
+                                 # so a feed alternates on its own
+    # THE FIX for the three earlier colored-word losses. A mid-luminance
+    # purple fill on a warm photo has nowhere near white's contrast, and no
+    # purple ever will - green carries luminance. So the color mode does not
+    # try to win on fill alone: each hot word gets its OWN ink pocket, a dark
+    # plate shaped from that word's glyphs (dilate + blur), which drops the
+    # local ground under the purple to near-black. Measured on the 30 percent
+    # downscale of the gauntlet news card, stroke-vs-ground contrast for the
+    # hot words comes out ABOVE the white words rather than below them.
+    "news_hot_pocket": 0.86,     # core pocket opacity (0 = off)
+    "news_hot_pocket_grow": 0.055,  # glyph dilation before the core blur, as a
+                                 # fraction of font size - a fixed pixel kernel
+                                 # that works at 150pt vanishes at 64pt and the
+                                 # photo leaks back through the letter gaps
+    "news_hot_pocket_blur": 0.05,# core pocket blur vs font size
+    "news_hot_halo": 0.42,       # wider soft halo opacity under the pocket -
+                                 # keeps the pocket from reading as a sticker
+    "news_hot_halo_blur": 0.20,  # halo blur vs font size
+    "news_hot_plate": 0.95,      # feathered slab over the hot word's own box.
+                                 # The glyph-shaped mask alone leaves the wide
+                                 # gaps between Poppins Black letters open for
+                                 # the photo, which is where the fill used to
+                                 # lose; the slab is what floors the ground.
+                                 # Measured: it takes the ground under a hot
+                                 # word from 61 to 30 at 30 percent zoom, and
+                                 # ~29 is the floor - below that the LANCZOS
+                                 # bleed off the glyphs sets the level, not
+                                 # the slab
+    "news_hot_plate_pad": 0.16,  # slab padding around the word vs font size
+    "news_hot_plate_blur": 0.10, # slab feather vs font size - soft enough
+                                 # that it reads as shadow, not a sticker
 
     # announce template
     "announce_name_w": 980,
@@ -1110,6 +1169,67 @@ def _all_hot(line, hot):
     return bool(hot) and bool(ws) and all(_is_hot(w, hot) for w in ws)
 
 
+# ---- hot-word emphasis: which device this poster uses ----------------------
+# The owner wants VARIETY, with color as the default: "some posts underline,
+# some colored text". A feed alternates on its own without anyone choosing,
+# so "auto" hashes a stable per-story key (the guid the news wire already
+# carries, else the poster line) and indexes this ring. Two thirds color, one
+# third underline - variety without the underline device ever dominating.
+EMPHASIS_MODES    = ("color", "underline")
+EMPHASIS_ROTATION = ("color", "color", "underline")
+
+# Word boxes from the last _hot_block draw, canvas coordinates:
+# [{"word", "hot", "line", "box": the em box, "ink": the same span cropped to
+# the cap line and the baseline (plus the bar, in underline mode)}]. The "ink"
+# box is vertically tight and horizontally the word's advance.
+# Rewritten on every render and never appended to across
+# renders, so it cannot grow. Exists for the contrast measurement harness and
+# the selftests - nothing in the render path reads it back. "ink" is the box
+# that matters when measuring: an em box is a third empty air above the cap
+# line, which drags any "what is this text sitting on" statistic toward
+# whatever the photo was doing up there.
+LAST_WORDS = []
+
+# Set by the measurement harness only (never in production): when True the
+# block keeps its finished glyph-coverage mask so contrast can be measured
+# glyph-vs-ground instead of guessed from percentiles. Poppins Black at poster
+# size covers ~65 percent of a word box, so a "darkest half is the ground"
+# heuristic reads mostly glyph and understates every number.
+DEBUG_MASK = False
+LAST_TEXT_MASK = None
+
+
+def _stable_key(spec):
+    """The rotation key for one story: the wire's guid when there is one, else
+    the poster line. Pure."""
+    for k in ("guid", "id", "link"):
+        v = " ".join(str((spec or {}).get(k) or "").split())
+        if v:
+            return v
+    return " ".join(str((spec or {}).get("line")
+                        or (spec or {}).get("headline") or "").upper().split())
+
+
+def emphasis_mode(spec):
+    """Which hot-word device this render uses: "color" or "underline".
+
+    spec["emphasis"] wins when it names a mode; "auto" rotates deterministically
+    off _stable_key (same story -> same look on every re-render, different
+    stories alternate); anything else - missing, junk, wrong type - falls back
+    to STYLE["news_emphasis"]. Pure, and it can only ever return a real mode."""
+    want = " ".join(str((spec or {}).get("emphasis") or "").lower().split())
+    if want in EMPHASIS_MODES:
+        return want
+    if want == "auto":
+        key = _stable_key(spec)
+        if key:
+            h = zlib.crc32(key.encode("utf-8", "replace"))
+            return EMPHASIS_ROTATION[h % len(EMPHASIS_ROTATION)]
+        return EMPHASIS_ROTATION[0]
+    fallback = str(STYLE.get("news_emphasis", "color")).lower()
+    return fallback if fallback in EMPHASIS_MODES else "color"
+
+
 def _bar_core(word):
     """The part of a display token a hot-word bar underlines: trailing
     punctuation stripped so a comma's descender never collides with the bar.
@@ -1120,51 +1240,153 @@ def _bar_core(word):
     return core
 
 
-def _hot_block(img, lines, f, cx, y, tracking, spacing, hot,
+def _ink_span(f, word, yy):
+    """(top, bottom) of the drawn glyphs for one word, in the same space the
+    block draws in. font.getbbox measures from the em top, so this is the cap
+    line and the baseline (descenders included) rather than the em box - a
+    third of an em box is empty air, and any "what is this type sitting on"
+    measurement taken over it reads the photo above the caps instead."""
+    try:
+        bb = f.getbbox(word or "")
+    except Exception:
+        bb = None
+    if not bb or bb[3] <= bb[1]:
+        asc, _d = f.getmetrics()
+        return yy, yy + asc
+    return yy + bb[1], yy + bb[3]
+
+
+def _hot_pocket(img, hot_mask, plate_mask, f):
+    """Sink a dark pocket into `img` under the hot words. Three stacked
+    falloffs, all local to the words themselves:
+
+      plate  a feathered slab over each hot word's own box - this is what
+             actually floors the ground, because the gaps between Poppins
+             Black letters are wide enough for a warm photo to leak through
+             any glyph-shaped mask
+      core   the dilated glyphs, which reads as an outline and keeps the
+             plate from looking like a pasted rectangle
+      halo   a wide soft bloom so the whole thing reads as scene shadow
+
+    This is the part that answers the three earlier colored-word losses. A
+    purple fill tops out around 172/255 against white's 253, so the fill can
+    never win on luminance alone; what it can do is stop competing with the
+    photo at all. Measured at 30 percent, the ground under a hot word drops
+    from the mid 60s to the low 20s, which is what carries the contrast."""
+    core_a = STYLE["news_hot_pocket"]
+    halo_a = STYLE["news_hot_halo"]
+    plate_a = STYLE["news_hot_plate"]
+    if hot_mask is None or max(core_a, halo_a, plate_a) <= 0:
+        return img
+    mask = Image.new("L", img.size, 0)
+    if plate_a > 0 and plate_mask is not None:
+        plate = plate_mask.filter(ImageFilter.GaussianBlur(
+            max(2.0, f.size * STYLE["news_hot_plate_blur"])))
+        mask = ImageChops.lighter(mask, plate.point(
+            lambda v: int(min(255, v * 1.15) * plate_a)))
+    if core_a > 0:
+        # dilation scales with the type: a fixed pixel kernel that works at
+        # 150pt is invisible at 64pt
+        grow = max(3, int(round(f.size * STYLE["news_hot_pocket_grow"])) | 1)
+        core = hot_mask.filter(ImageFilter.MaxFilter(grow))
+        core = core.filter(ImageFilter.GaussianBlur(
+            max(1.0, f.size * STYLE["news_hot_pocket_blur"])))
+        mask = ImageChops.lighter(mask, core.point(
+            lambda v: int(min(255, v * 1.35) * core_a)))
+    if halo_a > 0:
+        halo = hot_mask.filter(ImageFilter.GaussianBlur(
+            max(2.0, f.size * STYLE["news_hot_halo_blur"])))
+        mask = ImageChops.lighter(mask, halo.point(
+            lambda v: int(min(255, v * 2.2) * halo_a)))
+    dark = Image.new("RGB", img.size, _rgb(PALETTE["ink"]))
+    return Image.composite(dark, img.convert("RGB"), mask)
+
+
+def _hot_block(img, lines, f, cx, y, tracking, spacing, hot, mode=None,
                squeeze=1.0, blur=8, dy=4, salpha=120):
-    """Centered display block with per-word accenting: EVERY word renders
-    white and each hot word takes a purple underline bar - the device from
-    the statement poster, generalized. Rounds 4-6 lost blind three times on
-    the SAME flaw: a purple glyph FILL at mid luminance sank into warm/red
-    photo grades at thumbnail size, dropping the payload words (GARRY,
-    THREAT) below the contrast of the surrounding white. White glyphs keep
-    full contrast on any grade; the bar carries the brand and, being a solid
-    block instead of thin strokes, cannot lose luminance against skin or
-    cage light. Bars live in the same layer as the glyphs (same condense,
-    same drop shadow) and underline only the token's alnum core. Uses the
-    exact tracked advances _display_block draws with so a fitted line can
-    never overflow. Returns (img, next_y)."""
+    """Centered display block with per-word emphasis on the hot words.
+
+    mode "color" (the owner's default, Aug 2026) fills each hot word with
+    PALETTE["accent_fill"] and sinks an ink pocket behind it; the other words
+    stay white. mode "underline" keeps every word white and gives each hot
+    word a purple bar underneath - the statement-poster device, unchanged.
+
+    Rounds 4-6 lost blind three times because a purple glyph FILL at mid
+    luminance sank into warm/red photo grades at thumbnail size. The owner
+    then overruled the fix ("underline doesn't really highlight"), so color
+    is back, but with the real cause addressed rather than the symptom: a
+    brighter fill AND a per-word dark pocket, measured at 30 percent instead
+    of guessed at 100. Bars, pockets and glyphs all live in the same squeezed
+    space and the same stamped layer (same condense, same drop shadow), and a
+    bar underlines only the token's alnum core. Uses the exact tracked
+    advances _display_block draws with, so a fitted line can never overflow.
+    Records LAST_WORDS for the measurement harness. Returns (img, next_y)."""
+    del LAST_WORDS[:]
     if not lines:
         return img, y
     W, H = img.size
+    mode = mode if mode in EMPHASIS_MODES else emphasis_mode(None)
     sq = min(1.0, max(0.5, squeeze))
     mw = int(round(W / sq))
     layer = Image.new("RGBA", (mw, H), (0, 0, 0, 0))
     ld = ImageDraw.Draw(layer)
+    hot_mask = Image.new("L", (mw, H), 0)
+    hd = ImageDraw.Draw(hot_mask)
+    plate_mask = Image.new("L", (mw, H), 0)
+    pd = ImageDraw.Draw(plate_mask)
     base_col = (255, 255, 255, 255)
+    fill_col = _rgb(PALETTE["accent_fill"]) + (255,)
     bar_col = _rgb(PALETTE["accent_hot"]) + (255,)
     ascent, _desc = f.getmetrics()
     bar_h = max(6, int(round(f.size * STYLE["news_hot_bar_frac"])))
     bar_gap = max(4, int(round(f.size * STYLE["news_hot_bar_gap"])))
     yy = y
-    for ln in lines:
+    for li, ln in enumerate(lines):
         w = _tracked_w(ld, ln, f, tracking)
         x = cx / sq - w / 2
         words = ln.split(" ")
         for i, word in enumerate(words):
             x0 = x
-            x = _tracked(ld, (x, yy), word, f, base_col, tracking)
-            core = _bar_core(word) if _is_hot(word, hot) else ""
-            if core:
-                bw = _tracked_w(ld, core, f, tracking)
-                by = yy + ascent + bar_gap
-                ld.rounded_rectangle([x0, by, x0 + bw, by + bar_h],
-                                     radius=bar_h // 2, fill=bar_col)
+            is_hot = _is_hot(word, hot)
+            col = fill_col if (is_hot and mode == "color") else base_col
+            x = _tracked(ld, (x, yy), word, f, col, tracking)
+            itop, ibot = _ink_span(f, word, yy)
+            if is_hot and mode == "color":
+                # the pocket is shaped by the glyphs themselves so it hugs the
+                # word, plus a feathered slab over the word's own box because
+                # the gaps between Poppins Black letters are wide enough for
+                # the photo to leak back through a glyph-only mask
+                _tracked(hd, (x0, yy), word, f, 255, tracking)
+                padx = f.size * STYLE["news_hot_plate_pad"]
+                pady = padx * 0.55
+                pd.rounded_rectangle([x0 - padx, itop - pady,
+                                      x + padx, ibot + pady],
+                                     radius=int(padx), fill=255)
+            if is_hot and mode == "underline":
+                core = _bar_core(word)
+                if core:
+                    bw = _tracked_w(ld, core, f, tracking)
+                    by = yy + ascent + bar_gap
+                    ld.rounded_rectangle([x0, by, x0 + bw, by + bar_h],
+                                         radius=bar_h // 2, fill=bar_col)
+                    ibot = max(ibot, by + bar_h)
+            LAST_WORDS.append({
+                "word": word, "hot": bool(is_hot), "line": li,
+                "box": (int(x0 * sq), int(yy), int(x * sq),
+                        int(yy + ascent)),
+                "ink": (int(x0 * sq), int(itop), int(x * sq), int(ibot))})
             if i < len(words) - 1:
                 x += _adv(ld, " ", f, tracking)
         yy += spacing
     if mw != W:
         layer = layer.resize((W, H), RESAMPLE)
+        hot_mask = hot_mask.resize((W, H), RESAMPLE)
+        plate_mask = plate_mask.resize((W, H), RESAMPLE)
+    if DEBUG_MASK:
+        global LAST_TEXT_MASK
+        LAST_TEXT_MASK = layer.getchannel("A")
+    if mode == "color" and hot_mask.getbbox() is not None:
+        img = _hot_pocket(img, hot_mask, plate_mask, f)
     return _stamp(img, layer, blur=blur, dy=dy, alpha=salpha), yy
 
 
@@ -1379,8 +1601,14 @@ def render_news(spec):
     melting through a TRANSPARENT purple-dark gradient into the type zone -
     no opaque plate, no hard cutoff (owner rule, Aug 2026). A SHORT centered
     poster line in huge condensed Poppins Black carries the story - one to
-    three hot words in the bright brand accent, the rest white; a line that is
-    ALL hot flips to white over an accent underline. No logo and no channel
+    three hot words emphasised, the rest white. The emphasis device is
+    spec["emphasis"] / STYLE["news_emphasis"]: "color" fills the hot words in
+    accent_fill over a per-word ink pocket (the default), "underline" keeps
+    them white over a purple bar, "auto" rotates the two deterministically per
+    story. A line that is ALL hot ignores both and flips to white over one big
+    accent underline either way - it has nothing to contrast against, and a
+    purple word on the purple field inverts its own hierarchy (round-2 loss).
+    No logo and no channel
     kicker anywhere: the accent color alone is the branding. A named speaker
     turns the card into a quote post - a rule-flanked quote mark above the
     line, or, with an inset portrait, ONE docked card carrying the quote
@@ -1390,10 +1618,11 @@ def render_news(spec):
     TARGET, VIA SOURCE" so a pronoun quote names its target. Photoless
     stories can carry a fighter cutout (cutout_path) standing into the type
     zone.
-    spec: line (falls back to headline), hot (words to color), speaker,
-    source, about, photo_path, inset_path, cutout_path, kicker (tiny
-    centered context chip, drawn ONLY when explicitly passed), quote=False
-    forces the plain treatment."""
+    spec: line (falls back to headline), hot (words to emphasise), emphasis
+    ("color" | "underline" | "auto"), guid (the rotation key when emphasis is
+    "auto"), speaker, source, about, photo_path, inset_path, cutout_path,
+    kicker (tiny centered context chip, drawn ONLY when explicitly passed),
+    quote=False forces the plain treatment."""
     W, H, m = STYLE["post_w"], STYLE["post_h"], STYLE["news_margin"]
     photo = _load_photo(spec.get("photo_path"))
     cut = None if photo is not None else _load_cutout(spec.get("cutout_path"))
@@ -1411,6 +1640,7 @@ def render_news(spec):
     line_text = " ".join((spec.get("line") or spec.get("headline") or "").split())
     hot = [str(h) for h in (spec.get("hot") or []) if str(h or "").strip()]
     hot = hot[:STYLE["news_hot_words"]]
+    mode = emphasis_mode(spec)
     source = (spec.get("source") or "").strip()
     speaker = " ".join((spec.get("speaker") or "").upper().split())
     quoted = (bool(spec.get("quote", True)) and bool(speaker) and bool(line_text)
@@ -1450,8 +1680,10 @@ def render_news(spec):
     lh = int(round(f.size * STYLE["news_spacing"]))
     # a hot word on the LAST line drops its underline bar below the block
     # bottom - grow the footer gap so the bar never clips the attribution
-    # (mirrors the solo reserve above)
-    if not solo and lines and any(_is_hot(w, hot) for w in lines[-1].split()):
+    # (mirrors the solo reserve above). Color mode draws no bars, so it needs
+    # no reserve and keeps the tighter block-to-footer rhythm.
+    if (mode == "underline" and not solo and lines
+            and any(_is_hot(w, hot) for w in lines[-1].split())):
         y -= int(round(f.size * (STYLE["news_hot_bar_frac"]
                                  + STYLE["news_hot_bar_gap"])))
     hy = y - len(lines) * lh
@@ -1500,7 +1732,7 @@ def render_news(spec):
                       kicker)
 
     base, _ = _hot_block(base, lines, f, W / 2, hy, tracking=tr, spacing=lh,
-                         hot=([] if solo else hot), squeeze=sq,
+                         hot=([] if solo else hot), mode=mode, squeeze=sq,
                          blur=10, dy=5, salpha=165)
     d = ImageDraw.Draw(base)
     if solo:
