@@ -36,26 +36,23 @@ DEMO_DIR = os.environ.get("POSTCARD_DEMO_DIR") or os.path.join(
 
 PALETTE = {
     "accent":      "#8B70FF",   # 7C5CFF-family purple, lifted so it reads on near-black
-    "accent_hot":  "#A45CFF",   # HOT WORDS, the quote glyphs and the footer
+    "accent_hot":  "#8A6FFA",   # HOT WORDS, the quote glyphs and the footer.
+                                # EXACT VALUE GIVEN BY THE OWNER (Aug 2026):
+                                # "what the text colour should be: 8a6ffa".
+                                # Do not shift it toward magenta again.
                                 # speaker. Round-3 verdict: the old pastel
                                 # lavender (#B09CFF) read soft-not-fight-night
                                 # and washed out against warm skin; this is the
                                 # VIVID violet step - more chroma than accent,
                                 # same luminance ballpark - and the text band
                                 # scrim underneath carries the contrast
-    "accent_fill": "#A45CFF",   # HOT-WORD GLYPH FILL, and nothing else.
-                                # OWNER-CHOSEN (Aug 2026): he pointed at a
-                                # staged card and said the highlight must be
-                                # THIS purple. It was briefly lightened to
-                                # #D2ADFF to buy luminance, but that only made
-                                # sense next to the dark per-word pocket he
-                                # then had removed, and on its own it reads
-                                # washed out rather than violet. This value is
-                                # the same vivid tone as accent_hot, which is
-                                # what the quote glyphs and footer already use,
-                                # so the whole card now carries ONE purple.
-                                # Do not pale this out again for a contrast
-                                # score: brand first.
+    "accent_fill": "#8A6FFA",   # HOT-WORD GLYPH FILL. THE OWNER'S EXACT HEX,
+                                # given after two wrong guesses from me: too
+                                # pale (#D2ADFF, chosen to pass a contrast
+                                # measurement) then too magenta (#A45CFF).
+                                # It matches PALETTE["accent"] and the bright
+                                # end of the footer bar, so the card carries
+                                # ONE purple. Never "improve" this value.
     "accent_deep": "#5B3DF5",   # darker sibling for glows / gradient bottoms
     "accent_soft": "#C9BBFF",   # pale lavender for meta type on dark purple fields
     "rim":         "#D9A6FF",   # chromatic violet rim light on fighter cutouts
