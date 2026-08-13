@@ -98,6 +98,12 @@ print("\n[newsconfig]")
 import newsconfig
 
 NCFG = newsconfig.base_defaults()
+# the SHIPPED file, read straight off disk: load() deep-merges it over the
+# Python defaults, so a key that exists in one and not the other is a silent
+# drift bug (a stale JSON has resurrected a dead feed before)
+import json as _njson_mod
+with open(os.path.join(_BOTS, "newsconfig.json"), encoding="utf-8") as _njf:
+    _NJSON = _njson_mod.load(_njf)
 check("default mode is hybrid", NCFG["mode"] == "hybrid")
 check("10 sources enabled (3 feeds + speed layer); boxing feeds disabled",
       len(newsconfig.enabled_sources(NCFG)) == 10 and
@@ -125,6 +131,28 @@ check("negative min_poll flagged",
 check("scoring block ships enabled with sane thresholds",
       NCFG["scoring"]["enabled"] and
       0 < NCFG["scoring"]["stage_threshold"] <= NCFG["scoring"]["ping_threshold"] <= 100)
+# volume + cost control (owner: seven staged posts in one evening was a lot,
+# and the AI bill should sit nearer 2 pounds than 20 a month)
+check("scoring block ships the daily caps: 120 AI calls, 6 staged posts",
+      NCFG["scoring"]["max_ai_calls_per_day"] == 120 and
+      NCFG["scoring"]["max_staged_per_day"] == 6)
+check("emphasis ships as auto so the feed alternates the two devices",
+      NCFG["emphasis"] == "auto" and
+      newsconfig.EMPHASIS_MODES == ["color", "underline", "auto"])
+_bad = newsconfig.base_defaults(); _bad["emphasis"] = "rainbow"
+check("unknown emphasis flagged",
+      any("emphasis" in p for p in newsconfig.validate_newsconfig(_bad)))
+_bad = newsconfig.base_defaults(); _bad["scoring"]["max_staged_per_day"] = -1
+check("a negative daily cap is flagged",
+      any("max_staged_per_day" in p for p in newsconfig.validate_newsconfig(_bad)))
+_bad = newsconfig.base_defaults(); _bad["scoring"]["max_ai_calls_per_day"] = "lots"
+check("a non-numeric daily cap is flagged",
+      any("max_ai_calls_per_day" in p for p in newsconfig.validate_newsconfig(_bad)))
+check("the shipped newsconfig.json carries both caps and the emphasis key "
+      "(newsconfig.py defaults and the JSON must not drift)",
+      _NJSON.get("emphasis") == "auto" and
+      _NJSON["scoring"]["max_ai_calls_per_day"] == 120 and
+      _NJSON["scoring"]["max_staged_per_day"] == 6)
 check("MMA Junkie removed (archived), MMA Mania added",
       "mma_junkie" not in NCFG["sources"] and NCFG["sources"]["mma_mania"]["enabled"])
 check("UFC on, other orgs + boxing off (owner's pick)",
@@ -1784,13 +1812,17 @@ _yt_fake_pc.render = (lambda kind, spec:
 sys.modules["postcard"] = _yt_fake_pc
 ytposts.stage_story({"title": "Big story", "desc": "", "source": "ESPN",
                      "link": "", "line": "GARRY IS A REAL THREAT",
-                     "hot": ["GARRY", "THREAT"]},
+                     "hot": ["GARRY", "THREAT"], "emphasis": "auto",
+                     "guid": "story-77"},
                     75, "heuristic", _yt_bots, _yt_ncfg)
 _yt_kind, _yt_spec = _YT_SPECS[-1] if _YT_SPECS else ("", {})
 check("stage passes line and hot into the news render spec",
       _yt_kind == "news" and _yt_spec.get("line") == "GARRY IS A REAL THREAT"
       and _yt_spec.get("hot") == ["GARRY", "THREAT"]
       and _yt_spec.get("headline") == "Big story")
+check("stage passes the emphasis setting and the guid it rotates on "
+      "(without the guid an auto poster would key off the line alone)",
+      _yt_spec.get("emphasis") == "auto" and _yt_spec.get("guid") == "story-77")
 check("stage passes no speaker or inset yet (those come via the composer)",
       not _yt_spec.get("speaker") and not _yt_spec.get("inset_path"))
 
@@ -2001,8 +2033,24 @@ HTTP_REPLY[0] = (200, _chat('{"score": 80, "why": "w", "line": "%s", '
                             % ("L" * 200)))
 r = scorer.score_story("t", "", "s", "ufc", SCFG)
 check("AI line clamped to LINE_MAX chars", len(r["line"]) == scorer.LINE_MAX)
-check("AI hot: first words kept, punctuation stripped, capped at 3",
-      r["hot"] == ["Garry", "big", "x"])
+# hot words the LINE does not contain are useless - the renderer would colour
+# nothing. Live DeepSeek returned the phrase "record chase" for a line holding
+# only "record", so phrases are split and absent words dropped; if that leaves
+# nothing, the heuristic picks real words out of the line instead.
+_HOTLINE = "Makhachev targets record title defenses in lightweight history"
+check("AI hot: phrases split, words absent from the line dropped",
+      scorer._clean_hot(["record chase"], _HOTLINE) == ["record"])
+check("AI hot: words present in the line are kept, capped at 3",
+      scorer._clean_hot(["Makhachev", "targets", "record", "title"], _HOTLINE)
+      == ["Makhachev", "targets", "record"])
+check("AI hot: punctuation stripped and duplicates collapse",
+      scorer._clean_hot(["record..", "record"], _HOTLINE) == ["record"])
+HTTP_REPLY[0] = (200, _chat(
+    '{"score": 80, "why": "w", "line": "Makhachev targets record title defenses",'
+    ' "hot": ["nonsense", "absent"]}'))
+check("unusable AI hot list falls back to real words from the line",
+      scorer.score_story("t", "", "s", "ufc", SCFG)["hot"]
+      == scorer._fallback_hot("Makhachev targets record title defenses"))
 HTTP_REPLY[0] = (200, _chat('{"score": 80, "why": "w", "hot": "Garry"}'))
 check("AI hot that is not a list degrades to []",
       scorer.score_story("t", "", "s", "ufc", SCFG)["hot"] == [])
@@ -2080,6 +2128,102 @@ check("fallback line never dangles a connector word",
 check("short titles pass through the clause-aware fallback untouched",
       scorer._fallback_line("Short headline stays whole") == "Short headline stays whole")
 
+# -- the system prompt: an editor's brief, with the defences intact -----------
+_SP = scorer.SYSTEM_PROMPT
+check("prompt names the audience it is writing for",
+      "UFC" in _SP and "YouTube" in _SP and "community tab" in _SP)
+check("prompt says what scores high and what scores low",
+      all(w in _SP.lower() for w in ("title fight", "injuries", "retirements",
+                                     "callouts", "media day", "regional")))
+check("prompt specifies the poster line: 4-10 words, present tense, name "
+      "early, no clickbait, no betting language",
+      "4 to 10 words" in _SP and "present" in _SP and "surname early" in _SP
+      and "clickbait" in _SP and "betting" in _SP)
+check("prompt demands highlight words copied EXACTLY from the poster line",
+      "1 to 3 highlight words" in _SP and "EXACTLY" in _SP
+      and "never a phrase" in _SP and "surnames" in _SP and "verb" in _SP)
+check("the injection defence survived the rewrite (headline is data, never "
+      "instructions)",
+      "data to be rated" in _SP and "ignore any instruction" in _SP)
+check("the strict JSON contract survived the rewrite",
+      "strict JSON only" in _SP and '"score": <int>' in _SP
+      and '"hot": ["<word>", "<word>"]' in _SP)
+check("prompt is ASCII, no em dash, no exclamation mark",
+      all(ord(c) < 128 for c in _SP) and "!" not in _SP)
+check("the output budget did not grow", scorer.DEFAULTS["max_tokens"] == 220)
+
+# -- daily budget: caps, reset, and a state block that cannot grow ------------
+print("\n[scoring caps]")
+check("DEFAULTS carry both caps (120 AI calls, 6 staged posts a day)",
+      scorer.DEFAULTS["max_ai_calls_per_day"] == 120
+      and scorer.DEFAULTS["max_staged_per_day"] == 6)
+_bcfg = scorer.scoring_config({"scoring": {"max_ai_calls_per_day": 2,
+                                           "max_staged_per_day": 1}})
+_bst = {}
+check("a fresh state opens today's block at zero",
+      scorer.daily_block(_bst, "2026-08-13") == {"d": "2026-08-13", "ai": 0,
+                                                 "staged": 0})
+check("under_cap is True while there is budget left",
+      scorer.under_cap(_bst, _bcfg, "2026-08-13", "ai")
+      and scorer.under_cap(_bst, _bcfg, "2026-08-13", "staged"))
+scorer.spend(_bst, "2026-08-13", "staged")
+check("spend charges the counter and closes the cap",
+      _bst["daily"]["staged"] == 1
+      and not scorer.under_cap(_bst, _bcfg, "2026-08-13", "staged"))
+scorer.spend(_bst, "2026-08-13", "ai")
+check("counters are independent",
+      scorer.under_cap(_bst, _bcfg, "2026-08-13", "ai")
+      and not scorer.under_cap(_bst, _bcfg, "2026-08-13", "staged"))
+check("a new UTC date resets both counters",
+      scorer.daily_block(_bst, "2026-08-14") == {"d": "2026-08-14", "ai": 0,
+                                                 "staged": 0})
+check("a cap of 0 blocks everything (spend nothing today)",
+      not scorer.under_cap({}, scorer.scoring_config(
+          {"scoring": {"max_staged_per_day": 0}}), "2026-08-14", "staged"))
+check("a junk cap falls back to the default instead of raising",
+      scorer.under_cap({}, {"max_staged_per_day": "six"}, "2026-08-14", "staged"))
+# the trap this guards: a dict keyed by date grows one row a day forever
+# inside a file the workflow commits to the repo every five minutes
+_grow = {"daily": {"d": "2020-01-01", "ai": 5, "staged": 5, "junk": [1] * 50}}
+for _d in range(1, 31):
+    _day = "2026-09-%02d" % _d
+    for _i in range(30):
+        scorer.spend(_grow, _day, "ai")
+        scorer.spend(_grow, _day, "staged")
+check("the counter block keeps ONE day and exactly three keys - 1800 spends "
+      "over 30 days cannot grow the state file, and a stray key is dropped",
+      list(_grow) == ["daily"]
+      and _grow["daily"] == {"d": "2026-09-30", "ai": 30, "staged": 30})
+check("corrupt counter values are clamped, never trusted",
+      scorer.daily_block({"daily": {"d": "2026-08-13", "ai": -9,
+                                    "staged": "x"}}, "2026-08-13")
+      == {"d": "2026-08-13", "ai": 0, "staged": 0})
+
+# score_story_budgeted: charge only for real calls, then fall back for free
+os.environ["DEEPSEEK_API_KEY"] = "ds-test-key"
+HTTP_REPLY[0] = (200, _chat('{"score": 77, "why": "ok"}'))
+_bst2 = {}
+_n0 = len(HTTP_CALLS)
+_r = scorer.score_story_budgeted("Champ faces contender", "", "s", "ufc",
+                                 _bcfg, _bst2, "2026-08-13")
+check("budgeted scoring calls the API and charges one AI credit",
+      _r["ai"] is True and len(HTTP_CALLS) == _n0 + 1
+      and _bst2["daily"]["ai"] == 1)
+scorer.score_story_budgeted("t", "", "s", "ufc", _bcfg, _bst2, "2026-08-13")
+_n1 = len(HTTP_CALLS)
+_r = scorer.score_story_budgeted("t", "", "s", "ufc", _bcfg, _bst2, "2026-08-13")
+check("over the AI cap it scores by heuristic with ZERO further http calls, "
+      "and the caller's config is not mutated",
+      _r["ai"] is False and len(HTTP_CALLS) == _n1
+      and _bcfg["enabled"] is True and _bst2["daily"]["ai"] == 2)
+for _k in ("DEEPSEEK_API_KEY", "OPENROUTER_API_KEY"):
+    os.environ.pop(_k, None)
+_bst3 = {}
+scorer.score_story_budgeted("t", "", "s", "ufc", _bcfg, _bst3, "2026-08-13")
+check("with no key set nothing is charged - the free path costs no budget",
+      _bst3.get("daily", {}).get("ai", 0) == 0
+      and scorer.ai_ready(_bcfg) is False)
+
 # -- restore ------------------------------------------------------------------
 common.http = _real_http
 for _k in ("DEEPSEEK_API_KEY", "OPENROUTER_API_KEY"):
@@ -2130,6 +2274,48 @@ LOOP_N[0] = 1
 news_bot.main()
 check("scoring disabled: nothing staged, news still posts",
       not _STG and any("Another champion" in c for _ch, c in POSTS))
+
+# -- the emphasis setting rides from newsconfig to the staged post ----------
+_YT_IT = []
+ytposts.stage_story = lambda it, score, why, cb, nc: (
+    _YT_IT.append(dict(it)) or "staged (HTTP 200)")
+scorer.score_story = lambda title, desc, source, cat, cfg: {
+    "score": 90, "why": "test", "ai": False}
+STORE["newsconfig.json"]["scoring"] = {"enabled": True}
+STORE["newsconfig.json"]["emphasis"] = "underline"
+news_feed([("New champion crowned in Abu Dhabi", "http://e", "y5",
+            "Mon, 01 Jan 2024 14:00:00 GMT")])
+LOOP_N[0] = 1
+news_bot.main()
+check("news_bot passes the newsconfig emphasis through to the poster",
+      len(_YT_IT) == 1 and _YT_IT[0].get("emphasis") == "underline")
+STORE["newsconfig.json"].pop("emphasis", None)
+_YT_IT[:] = []
+news_feed([("Champion crowned after title classic", "http://f", "y6",
+            "Mon, 01 Jan 2024 15:00:00 GMT")])
+LOOP_N[0] = 1
+news_bot.main()
+check("with no emphasis configured it defaults to auto (the feed alternates)",
+      len(_YT_IT) == 1 and _YT_IT[0].get("emphasis") == "auto")
+
+# -- the daily caps (owner: seven staged posts in one evening was a lot) ----
+_YT_IT[:] = []
+reset_news(state={"v": 3, "initialized": True, "seen": [], "recent": [],
+                  "digest_items": [], "digest_last": "", "hour": ["", 0]})
+STORE["newsconfig.json"]["scoring"] = {"enabled": True, "max_staged_per_day": 1}
+news_feed([("Champion crowned in a title classic", "http://g", "y7",
+            "Mon, 01 Jan 2024 16:00:00 GMT"),
+           ("New champion crowned again tonight", "http://h", "y8",
+            "Mon, 01 Jan 2024 17:00:00 GMT")])
+LOOP_N[0] = 2
+news_bot.main()
+check("the daily staged cap skips the second post of the day, silently",
+      [i["guid"] for i in _YT_IT] == ["y7"])
+check("the day's counter is ONE bounded block in state_news.json",
+      STORE["state_news.json"].get("daily")
+      == {"d": _NOON.strftime("%Y-%m-%d"), "ai": 0, "staged": 1})
+check("a capped story does not block the news post itself",
+      any("crowned again" in c for _ch, c in POSTS))
 
 ytposts.stage_story = _real_stage2
 scorer.score_story = _real_score2
@@ -2426,17 +2612,18 @@ if _pil_ok:
           "seam",
           (max(_acc_hi) - min(_acc_hi)) > (max(_acc_lo) - min(_acc_lo))
           and max(_acc_hi) == 255 and sum(_acc_hi) >= 460)
-    # round-6 verdict (third straight blind loss on the SAME flaw): purple
-    # glyph FILLS at mid luminance sank into warm/red photo grades at
-    # thumbnail size - the payload words read BELOW the surrounding white.
-    # Hot words render WHITE now and each takes a purple underline bar (the
-    # statement-poster device): the bar carries the brand, the white carries
-    # the legibility.
+    # OWNER VERDICT, Aug 2026 - this overrules the round-6 white-words fix:
+    # "I don't like the way it highlights stuff, it underlines certain
+    # things... I prefer text a different color because underline doesn't
+    # really highlight - if I'm looking at the post on my phone without
+    # making it bigger, I won't see the underline." Both devices ship now,
+    # color is the default, and "auto" rotates them per story.
     _hb_src = _pc_inspect.getsource(postcard._hot_block)
-    check("hot words render WHITE - no purple glyph fill left in the block",
-          "hot_col" not in _hb_src
-          and "_tracked(ld, (x, yy), word, f, base_col" in _hb_src)
-    check("each hot word takes the purple underline bar in the same stamped "
+    check("color mode fills the hot word in accent_fill, the rest stay white",
+          'PALETTE["accent_fill"]' in _hb_src
+          and 'col = fill_col if (is_hot and mode == "color") else base_col'
+          in _hb_src)
+    check("underline mode still draws the purple bar in the same stamped "
           "layer (same condense, same shadow)",
           'PALETTE["accent_hot"]' in _hb_src
           and "news_hot_bar_frac" in _hb_src and "rounded_rectangle" in _hb_src)
@@ -2465,12 +2652,12 @@ if _pil_ok:
                     run = 0
         return best
     _warm = _PImage.new("RGB", (1200, 1500), (176, 98, 82))
-    _img = postcard.render("news", {"line": "Garry is a real threat",
-                                    "hot": ["Garry", "threat"],
-                                    "speaker": "Daniel Cormier",
-                                    "source": "ESPN", "photo_path": _warm})
-    check("the purple bar renders as a solid run under a hot word on a warm "
-          "photo poster",
+    _warm_spec = {"line": "Garry is a real threat", "hot": ["Garry", "threat"],
+                  "speaker": "Daniel Cormier", "source": "ESPN",
+                  "photo_path": _warm}
+    _img = postcard.render("news", dict(_warm_spec, emphasis="underline"))
+    check("underline mode: the purple bar renders as a solid run under a hot "
+          "word on a warm photo poster",
           _max_run(_img, 700, 1300, postcard._rgb(postcard.PALETTE["accent_hot"]),
                    40) >= 120)
     check("the quote pill is gone - a rule-flanked mark lockup carries the "
@@ -2538,6 +2725,105 @@ if _pil_ok:
     check("the cutout rim went chromatic - scene light, not studio spill",
           max(postcard._rgb(postcard.PALETTE["rim"]))
           - min(postcard._rgb(postcard.PALETTE["rim"])) >= 60)
+
+    # ---- hot-word emphasis: color (default), underline, auto rotation -----
+    # The owner overruled the round-6 white-words fix: colored text is back as
+    # the default, the underline device stays, and "auto" alternates them so
+    # the feed carries variety without anyone choosing per story.
+    check("STYLE ships the color device as the default emphasis",
+          postcard.STYLE["news_emphasis"] == "color"
+          and postcard.EMPHASIS_MODES == ("color", "underline"))
+    check("emphasis_mode: an explicit spec value wins, case and space blind",
+          postcard.emphasis_mode({"emphasis": "underline"}) == "underline"
+          and postcard.emphasis_mode({"emphasis": " COLOR "}) == "color")
+    check("emphasis_mode: missing, junk or None falls back to the STYLE "
+          "default and can never return a non-mode",
+          postcard.emphasis_mode({}) == "color"
+          and postcard.emphasis_mode({"emphasis": "neon"}) == "color"
+          and postcard.emphasis_mode(None) == "color"
+          and postcard.emphasis_mode({"emphasis": 7}) == "color")
+    check("emphasis_mode: auto is deterministic - the same guid always "
+          "renders the same way (a re-render must not flip the look)",
+          postcard.emphasis_mode({"emphasis": "auto", "guid": "g-42"})
+          == postcard.emphasis_mode({"emphasis": "auto", "guid": "g-42"})
+          != "")
+    _rot = [postcard.emphasis_mode({"emphasis": "auto", "guid": "g%d" % i})
+            for i in range(300)]
+    check("emphasis_mode: auto rotates both devices, color the majority "
+          "(variety, with color still the house look)",
+          postcard.EMPHASIS_ROTATION == ("color", "color", "underline")
+          and _rot.count("underline") >= 60
+          and _rot.count("color") >= 2 * _rot.count("underline") - 60
+          and _rot.count("color") + _rot.count("underline") == 300)
+    check("emphasis_mode: auto with no guid keys off the line instead, and "
+          "the guid wins when both are present",
+          postcard.emphasis_mode({"emphasis": "auto", "line": "Backup plan"})
+          == postcard.emphasis_mode({"emphasis": "auto", "line": "backup  PLAN"})
+          and postcard._stable_key({"guid": "G1", "line": "x"}) == "G1")
+
+    _emph_spec = {"line": "Garry is a real threat", "hot": ["Garry", "threat"],
+                  "speaker": "Daniel Cormier", "source": "ESPN",
+                  "photo_path": _warm}
+    _img_c = postcard.render("news", dict(_emph_spec, emphasis="color"))
+    _words_c = [dict(w) for w in postcard.LAST_WORDS]
+    _img_u = postcard.render("news", dict(_emph_spec, emphasis="underline"))
+    _words_u = [dict(w) for w in postcard.LAST_WORDS]
+    _fill = postcard._rgb(postcard.PALETTE["accent_fill"])
+    _bar = postcard._rgb(postcard.PALETTE["accent_hot"])
+    check("color mode paints the hot words in accent_fill and draws no bar",
+          _max_run(_img_c, 700, 1300, _fill, 36) >= 60
+          and _max_run(_img_c, 700, 1300, _bar, 40) < 60)
+    check("underline mode keeps the bar and paints no accent_fill glyph",
+          _max_run(_img_u, 700, 1300, _bar, 40) >= 120
+          and _max_run(_img_u, 700, 1300, _fill, 36) == 0)
+    check("LAST_WORDS is rewritten per render, never appended across renders",
+          len(_words_c) == len(_words_u) == 5
+          and [w["word"] for w in _words_c] == ["GARRY", "IS", "A", "REAL",
+                                                "THREAT"]
+          and [w["hot"] for w in _words_c] == [True, False, False, False, True])
+
+    def _under(img, w, depth=16):
+        """Mean luminance of the strip just under a word's ink box."""
+        g = img.convert("L")
+        x0, _y0, x1, y1 = w["ink"]
+        band = g.crop((x0, min(g.height - 1, y1 + 2), x1,
+                       min(g.height, y1 + 2 + depth)))
+        data = list(band.getdata())
+        return sum(data) / float(max(1, len(data)))
+
+    def _mean_under(img, words, hot):
+        vals = [_under(img, w) for w in words if w["hot"] is hot]
+        return sum(vals) / float(max(1, len(vals)))
+
+    # THE fix for the three blind losses on colored words: a purple fill tops
+    # out around 187/255 against white's 253, so it can never win on glyph
+    # luminance. It wins by taking its GROUND down instead - the per-word ink
+    # pocket - which is exactly what stops it sinking into a warm photo.
+    _hot_g = _mean_under(_img_c, _words_c, True)
+    _white_g = _mean_under(_img_c, _words_c, False)
+    check("color mode sinks an ink pocket under the hot words, so a purple "
+          "fill never sits on the warm photo the way it used to",
+          _hot_g < _white_g - 6
+          and _hot_g < _mean_under(_img_u, _words_u, True) - 6)
+    check("the pocket is local to the hot words, not a plate over the block "
+          "(the white words keep their own ground)",
+          _white_g > 24)
+    check("the pocket knobs exist and are all word-local",
+          all(k in postcard.STYLE for k in
+              ("news_hot_pocket", "news_hot_pocket_grow", "news_hot_plate",
+               "news_hot_plate_pad", "news_hot_halo"))
+          and "plate_mask" in _hb_src and "_hot_pocket" in _hb_src)
+    check("only underline mode reserves the bar clearance above the footer - "
+          "color draws no bar and keeps the tighter rhythm",
+          'mode == "underline" and not solo' in _rn_src)
+    check("an ALL-hot statement line ignores both devices and keeps the white "
+          "word over one big accent underline",
+          "hot=([] if solo else hot), mode=mode" in _rn_src)
+    _img = postcard.render("news", dict(_emph_spec, emphasis="auto"))
+    check("an auto spec renders 1080x1350 like any other",
+          _img.size == (1080, 1350))
+    check("the debug mask stays off in production (it holds a full canvas)",
+          postcard.DEBUG_MASK is False)
 
 # ───────────────────────── summary ─────────────────────────────────────────
 # ───────────────────────── polls bot (YouTube poll staging) ────────────────
