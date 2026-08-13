@@ -47,8 +47,8 @@ The loop also git-pulls the checkout ~once a minute so newsconfig.json edits mad
 while the job runs (panel Save & Deploy, /news) apply almost immediately. Free
 because the repo is public. Run locally it is still a single pass.
 """
-import datetime, email.utils, xml.etree.ElementTree as ET
-import common, layout, newsconfig
+import datetime, email.utils, time, xml.etree.ElementTree as ET
+import common, layout, newsconfig, scorer, ytposts
 
 PACE_PER_CYCLE = 1     # at most ONE realtime post per cycle - never a burst
 SEED_POST      = 5     # on the very first run, post this many latest
@@ -121,8 +121,40 @@ def parse_feed(text):
             continue
         desc = common.truncate(common.clean(_find_text(el, {"description", "summary"})), 220)
         items.append({"guid": guid, "title": title, "link": link,
-                      "when": _pubdate(el), "desc": desc})
+                      "when": _pubdate(el), "desc": desc,
+                      "src_name": common.clean(_find_text(el, {"source"}))})
     return items
+
+
+def apply_flavor(items, flavor, label):
+    """Source-specific cleanup (pure, tested).
+    google_news: titles arrive as 'Headline - Publisher' with the publisher also
+    in the item's <source> tag - strip the suffix and credit the real outlet, so
+    posts read 'via ESPN' instead of 'via Google News'.
+    nitter: drop retweets/replies ('RT by @x:' / 'R to @x:'), keep the account
+    label as the source, and trim the tweet text into a headline."""
+    out = []
+    for it in items:
+        if flavor == "google_news":
+            src = it.get("src_name") or ""
+            if src and it["title"].endswith(" - " + src):
+                it["title"] = it["title"][: -(len(src) + 3)].rstrip()
+            it["display_source"] = src or label
+        elif flavor == "nitter":
+            t = it["title"]
+            if t.startswith("RT by ") or t.startswith("R to "):
+                continue
+            it["title"] = common.truncate(common.clean(t), 150)
+            it["display_source"] = label
+        out.append(it)
+    return out
+
+
+# flavor -> (tries, timeout). Fragile sources must never stall the 20s cycle:
+# nitter gets ONE try on a short clock, google_news is a search endpoint so it
+# gets a modest budget, plain feeds keep the old patient defaults.
+FETCH_PROFILES = {"nitter": (1, 8), "google_news": (2, 15)}
+FAIL_BACKOFF = 300     # seconds to sit out a source after a failed fetch
 
 
 # ---- pure builders (unit-tested) --------------------------------------------
@@ -225,19 +257,33 @@ def main():
     state = migrate_state(common.load_json(common.state_path(STATE_FILE), {}))
     seen = set(state.get("seen", []))
 
+    next_ok = {}   # source key -> monotonic time before which we skip it
+
     def fetch_fresh(cfg):
-        """Pull enabled feeds, drop already-seen, de-dupe by guid, oldest-first."""
+        """Pull enabled feeds, drop already-seen, de-dupe by guid, oldest-first.
+        Honors each source's min_poll (search endpoints are not hammered at the
+        20s cycle cadence) and backs off failed sources for FAIL_BACKOFF so a
+        dead nitter or a blocking CDN can never eat the cycle budget."""
         fresh = []
+        now_m = time.monotonic()
+        srcs = cfg.get("sources", {}) or {}
         for key, label, url in newsconfig.enabled_sources(cfg):
-            code, text = common.get_text(url)
+            if now_m < next_ok.get(key, 0.0):
+                continue
+            opts = srcs.get(key, {}) or {}
+            flavor = opts.get("flavor", "")
+            tries, timeout = FETCH_PROFILES.get(flavor, (4, 30))
+            code, text = common.get_text(url, tries=tries, timeout=timeout)
             if code != 200 or not text:
+                next_ok[key] = now_m + FAIL_BACKOFF
                 print("  feed skipped (%s): HTTP %s" % (label, code)); continue
-            items = parse_feed(text)
+            next_ok[key] = now_m + float(opts.get("min_poll", 0) or 0)
+            items = apply_flavor(parse_feed(text), flavor, label)
             print("  %s: %d items" % (label, len(items)))
             for it in items:
                 if it["guid"] in seen:
                     continue
-                it["source"] = label
+                it["source"] = it.get("display_source") or label
                 fresh.append(it)
         uniq = {}
         for it in fresh:
@@ -250,8 +296,37 @@ def main():
         state["v"] = 3
         state["recent"] = state.get("recent", [])[-MAX_RECENT:]
         state["digest_items"] = state.get("digest_items", [])[-MAX_DIGEST:]
+        state["yt_eval"] = state.get("yt_eval", [])[-MAX_SEEN:]
         common.save_json(common.state_path(STATE_FILE), state)
         common.persist_state(STATE_FILE)       # durable now, so a crash won't re-post
+
+    def maybe_stage(it, cat, breaking, cfg):
+        """Score a new kept story and stage it for YouTube when it clears the
+        bar. One evaluation per guid ever (yt_eval); never raises, never blocks
+        news delivery. Breaking stories always stage - the keyword net is a
+        strong signal even when no AI key is configured."""
+        try:
+            sc_cfg = cfg.get("scoring", {}) or {}
+            if not sc_cfg.get("enabled", True):
+                return
+            if it["guid"] in state.get("yt_eval", []):
+                return
+            state.setdefault("yt_eval", []).append(it["guid"])
+            scfg = scorer.scoring_config(cfg)
+            scfg["breaking_keywords"] = cfg.get("breaking_keywords") or []
+            res = scorer.score_story(it["title"], it.get("desc", ""),
+                                     it["source"], cat, scfg)
+            score, why = res.get("score", 0), res.get("why", "")
+            thr = int(scfg.get("stage_threshold", 70))
+            if breaking:
+                score = max(score, thr)
+            if score < thr:
+                print("  yt: below bar (%d): %s" % (score, it["title"][:60]))
+                return
+            status = ytposts.stage_story(it, score, why, cfg_bots, cfg)
+            print("  yt: %s [%d] %s" % (status, score, it["title"][:60]))
+        except Exception as e:
+            print("  yt: staging error (%s), news unaffected" % type(e).__name__)
 
     def keep(it, cfg):
         """Apply exclude/category filters. Returns (keep?, breaking?, reason)."""
@@ -335,6 +410,7 @@ def main():
                 print("  skip (dup story): %s" % it["title"][:60])
                 continue
             cat = newsconfig.classify(it["title"], cfg)
+            maybe_stage(it, cat, breaking, cfg)
             if mode == "digest" and not breaking:
                 seen.add(it["guid"]); remember(it, cat); queue_digest(it, cat); queued += 1
                 continue
