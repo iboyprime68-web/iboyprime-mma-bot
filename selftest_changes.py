@@ -2780,12 +2780,20 @@ if _pil_ok:
     _words_u = [dict(w) for w in postcard.LAST_WORDS]
     _fill = postcard._rgb(postcard.PALETTE["accent_fill"])
     _bar = postcard._rgb(postcard.PALETTE["accent_hot"])
-    check("color mode paints the hot words in accent_fill and draws no bar",
-          _max_run(_img_c, 700, 1300, _fill, 36) >= 60
-          and _max_run(_img_c, 700, 1300, _bar, 40) < 60)
-    check("underline mode keeps the bar and paints no accent_fill glyph",
-          _max_run(_img_u, 700, 1300, _bar, 40) >= 120
-          and _max_run(_img_u, 700, 1300, _fill, 36) == 0)
+    # accent_fill and accent_hot are deliberately the SAME purple now (the owner
+    # picked it off a live card), so the two modes can no longer be told apart
+    # by colour. The real difference is the SHAPE of the purple: colour mode
+    # paints glyphs (short runs, broken by letter gaps), underline mode draws a
+    # solid bar the full width of the word.
+    _BAR_RUN = 120
+    check("color mode paints the hot glyphs purple and draws NO bar",
+          _max_run(_img_c, 700, 1300, _fill, 36) >= 30
+          and _max_run(_img_c, 700, 1300, _fill, 36) < _BAR_RUN)
+    check("underline mode draws the solid bar",
+          _max_run(_img_u, 700, 1300, _bar, 40) >= _BAR_RUN)
+    check("the highlight fill is the brand purple, not a paled-out tint "
+          "(owner picked this value off a live card)",
+          postcard.PALETTE["accent_fill"] == postcard.PALETTE["accent_hot"])
     check("LAST_WORDS is rewritten per render, never appended across renders",
           len(_words_c) == len(_words_u) == 5
           and [w["word"] for w in _words_c] == ["GARRY", "IS", "A", "REAL",
