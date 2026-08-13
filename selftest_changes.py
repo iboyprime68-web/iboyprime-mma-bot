@@ -13,6 +13,10 @@ import sys, os, copy, types, time as _time
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 _BOTS = os.path.join(_HERE, "bots_github")
+# CI checks the repo out FLAT (no bots_github/), so any file opened by
+# path must go through this, never _BOTS directly. Two agents got this
+# wrong and turned CI red, which mails the owner on every push.
+_SRC = _BOTS if os.path.isdir(_BOTS) else _HERE
 sys.path.insert(0, _BOTS if os.path.isdir(_BOTS) else _HERE)
 import common
 
@@ -102,7 +106,7 @@ NCFG = newsconfig.base_defaults()
 # Python defaults, so a key that exists in one and not the other is a silent
 # drift bug (a stale JSON has resurrected a dead feed before)
 import json as _njson_mod
-with open(os.path.join(_BOTS, "newsconfig.json"), encoding="utf-8") as _njf:
+with open(os.path.join(_SRC, "newsconfig.json"), encoding="utf-8") as _njf:
     _NJSON = _njson_mod.load(_njf)
 check("default mode is hybrid", NCFG["mode"] == "hybrid")
 check("10 sources enabled (3 feeds + speed layer); boxing feeds disabled",
@@ -136,8 +140,10 @@ check("scoring block ships enabled with sane thresholds",
 check("scoring block ships the daily caps: 120 AI calls, 6 staged posts",
       NCFG["scoring"]["max_ai_calls_per_day"] == 120 and
       NCFG["scoring"]["max_staged_per_day"] == 6)
-check("emphasis ships as auto so the feed alternates the two devices",
-      NCFG["emphasis"] == "auto" and
+# OWNER RULE, stated twice: coloured words, never underline. He kept receiving
+# underlined posts because the default was the alternating "auto" mode.
+check("emphasis ships as COLOR, never the alternating mode",
+      NCFG["emphasis"] == "color" and
       newsconfig.EMPHASIS_MODES == ["color", "underline", "auto"])
 _bad = newsconfig.base_defaults(); _bad["emphasis"] = "rainbow"
 check("unknown emphasis flagged",
@@ -150,7 +156,7 @@ check("a non-numeric daily cap is flagged",
       any("max_ai_calls_per_day" in p for p in newsconfig.validate_newsconfig(_bad)))
 check("the shipped newsconfig.json carries both caps and the emphasis key "
       "(newsconfig.py defaults and the JSON must not drift)",
-      _NJSON.get("emphasis") == "auto" and
+      _NJSON.get("emphasis") == "color" and
       _NJSON["scoring"]["max_ai_calls_per_day"] == 120 and
       _NJSON["scoring"]["max_staged_per_day"] == 6)
 check("MMA Junkie removed (archived), MMA Mania added",
@@ -1732,6 +1738,22 @@ check("fetch honors min_poll and backs off failed sources (source pin)",
 print("\n[ytposts]")
 import ytposts
 
+# the cutout must show the story's SUBJECT: the fighter named first, not the
+# longest name in the line (that put Makhachev's photo on a Garry story)
+_MF_MAP = {"ian machado garry": "g", "garry": "g",
+           "islam makhachev": "m", "makhachev": "m"}
+check("cutout matcher picks the fighter named FIRST (the subject)",
+      ytposts.match_fighter(
+          "Garry eyes decade of domination before Makhachev title fight",
+          _MF_MAP) == "g"
+      and ytposts.match_fighter(
+          "Makhachev shuts down retirement talk ahead of Garry fight",
+          _MF_MAP) == "m")
+check("at the same position the longer, more specific name wins",
+      ytposts.match_fighter("Ian Machado Garry speaks", _MF_MAP) == "g")
+check("no fighter named gives no cutout",
+      ytposts.match_fighter("A story about nobody in particular", _MF_MAP) == "")
+
 check("og:image parsed (property before content)",
       ytposts.parse_og_image('<meta property="og:image" content="http://img/x.jpg">')
       == "http://img/x.jpg")
@@ -2305,8 +2327,8 @@ news_feed([("Champion crowned after title classic", "http://f", "y6",
             "Mon, 01 Jan 2024 15:00:00 GMT")])
 LOOP_N[0] = 1
 news_bot.main()
-check("with no emphasis configured it defaults to auto (the feed alternates)",
-      len(_YT_IT) == 1 and _YT_IT[0].get("emphasis") == "auto")
+check("with no emphasis configured the staged post still asks for COLOR",
+      len(_YT_IT) == 1 and _YT_IT[0].get("emphasis") == "color")
 
 # -- the daily caps (owner: seven staged posts in one evening was a lot) ----
 _YT_IT[:] = []
@@ -2436,7 +2458,7 @@ check("required_config_keys includes studio (deploy asserts it resolves to an id
 # inline in main() (no pure helper exists for the config dict), so pin the source
 # honestly: the key is written from the guild GET main() already does, and a
 # missing/null owner_id degrades to "" instead of crashing.
-with open(os.path.join(_BOTS, "bots_setup.py"), encoding="utf-8") as _f:
+with open(os.path.join(_SRC, "bots_setup.py"), encoding="utf-8") as _f:
     _bs_src = _f.read()
 check("bots_setup writes owner_id into bots_config, degrading None to ''",
       '"owner_id": str(guild.get("owner_id") or "")' in _bs_src)
@@ -2621,13 +2643,15 @@ if _pil_ok:
     # be: 8a6ffa". Both the glyph fill and the accent type use it, so one
     # purple runs through the card. If a future round wants to change it, that
     # is a conversation with him, not a contrast measurement.
-    check("the highlight purple is the owner's exact hex 8A6FFA",
-          postcard.PALETTE["accent_hot"].upper() == "#8A6FFA"
-          and postcard.PALETTE["accent_fill"].upper() == "#8A6FFA")
-    check("the rendered card carries ONE purple (fill, accent type and the "
-          "footer bar all agree)",
-          postcard.PALETTE["accent_fill"] == postcard.PALETTE["accent_hot"]
-          and abs(sum(_acc_hi) - sum(_acc_lo)) < 40)
+    check("the highlight purple is the owner-picked 6A49EC (swatch option D)",
+          postcard.PALETTE["accent_hot"].upper() == "#6A49EC"
+          and postcard.PALETTE["accent_fill"].upper() == "#6A49EC")
+    check("the glyph fill and the accent type are the SAME purple",
+          postcard.PALETTE["accent_fill"] == postcard.PALETTE["accent_hot"])
+    check("the highlight purple is deeper than the general accent (he asked "
+          "for slightly darker) and still reads violet, not blue",
+          sum(_acc_hi) < sum(_acc_lo)
+          and _acc_hi[2] > _acc_hi[0] > _acc_hi[1])
     # OWNER VERDICT, Aug 2026 - this overrules the round-6 white-words fix:
     # "I don't like the way it highlights stuff, it underlines certain
     # things... I prefer text a different color because underline doesn't
@@ -2765,12 +2789,12 @@ if _pil_ok:
           != "")
     _rot = [postcard.emphasis_mode({"emphasis": "auto", "guid": "g%d" % i})
             for i in range(300)]
-    check("emphasis_mode: auto rotates both devices, color the majority "
-          "(variety, with color still the house look)",
-          postcard.EMPHASIS_ROTATION == ("color", "color", "underline")
-          and _rot.count("underline") >= 60
-          and _rot.count("color") >= 2 * _rot.count("underline") - 60
-          and _rot.count("color") + _rot.count("underline") == 300)
+    check("auto NEVER yields underline (owner rule) - the rotation is colour "
+          "only, and underline stays available as an explicit choice",
+          postcard.EMPHASIS_ROTATION == ("color",)
+          and _rot.count("underline") == 0
+          and _rot.count("color") == 300
+          and postcard.emphasis_mode({"emphasis": "underline"}) == "underline")
     check("emphasis_mode: auto with no guid keys off the line instead, and "
           "the guid wins when both are present",
           postcard.emphasis_mode({"emphasis": "auto", "line": "Backup plan"})
