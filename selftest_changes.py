@@ -1767,6 +1767,35 @@ _msg2 = (_SF[-1] if _SF else POSTS_FULL[-1])
 check("at ping threshold the owner alone is mentioned, never silent",
       "<@OWN1>" in _msg2["content"] and _msg2["silent"] is False
       and _msg2["mentions"] == {"parse": [], "users": ["OWN1"]})
+
+# -- line/hot pass-through to the render spec (fake postcard, no Pillow) ------
+import types as _yt_types
+_yt_pc_saved = sys.modules.get("postcard")
+class _YtFakeImg:
+    def save(self, path, fmt=None):
+        with open(path, "wb") as fh:
+            fh.write(b"\x89PNG-fake")
+_YT_SPECS = []
+_yt_fake_pc = _yt_types.ModuleType("postcard")
+_yt_fake_pc.render = (lambda kind, spec:
+                      (_YT_SPECS.append((kind, dict(spec))) or _YtFakeImg()))
+sys.modules["postcard"] = _yt_fake_pc
+ytposts.stage_story({"title": "Big story", "desc": "", "source": "ESPN",
+                     "link": "", "line": "GARRY IS A REAL THREAT",
+                     "hot": ["GARRY", "THREAT"]},
+                    75, "heuristic", _yt_bots, _yt_ncfg)
+_yt_kind, _yt_spec = _YT_SPECS[-1] if _YT_SPECS else ("", {})
+check("stage passes line and hot into the news render spec",
+      _yt_kind == "news" and _yt_spec.get("line") == "GARRY IS A REAL THREAT"
+      and _yt_spec.get("hot") == ["GARRY", "THREAT"]
+      and _yt_spec.get("headline") == "Big story")
+check("stage passes no speaker or inset yet (those come via the composer)",
+      not _yt_spec.get("speaker") and not _yt_spec.get("inset_path"))
+if _yt_pc_saved is not None:
+    sys.modules["postcard"] = _yt_pc_saved
+else:
+    sys.modules.pop("postcard", None)
+
 common.post_file = _yt_pf_real
 ytposts.og_image = _yt_og_real
 
@@ -1781,9 +1810,23 @@ _BRK = ["retires", "breaking", "pulls out"]
 h1 = scorer.heuristic_score("Fighter previews his next bout", "", "MMA Fighting", "ufc", _BRK)
 h2 = scorer.heuristic_score("Fighter previews his next bout", "", "MMA Fighting", "ufc", _BRK)
 check("heuristic is deterministic", h1 == h2)
-check("heuristic result shape", set(h1) == {"score", "why", "ai"} and
-      h1["ai"] is False and h1["why"] == "heuristic")
+check("heuristic result shape", set(h1) == {"score", "why", "ai", "line", "hot"}
+      and h1["ai"] is False and h1["why"] == "heuristic")
 check("dull headline sits at base", h1["score"] == scorer.BASE_SCORE)
+check("heuristic line is the short title unchanged",
+      h1["line"] == "Fighter previews his next bout")
+_fl = scorer._fallback_line("Championship rematch talk heats up as challengers "
+                            "position themselves for the next big fight night")
+check("heuristic line cuts at a word boundary under the cap",
+      len(_fl) <= scorer.LINE_MAX and not _fl.endswith(" ")
+      and ("Championship rematch talk" in _fl))
+check("heuristic hot picks name-like tokens, capped at 2",
+      scorer._fallback_hot("Jones responds to Miocic and Aspinall talk")
+      == ["Jones", "Miocic"])
+check("heuristic hot skips headline stopwords and dedupes",
+      scorer._fallback_hot("Breaking Report After Topuria Topuria") == ["Topuria"])
+check("heuristic hot is empty for a nameless line",
+      scorer._fallback_hot("champ out of the card") == [])
 check("breaking keyword adds BREAKING_POINTS",
       scorer.heuristic_score("Breaking update expected", "", "s", "ufc", _BRK)["score"]
       == scorer.BASE_SCORE + scorer.BREAKING_POINTS)
@@ -1848,8 +1891,26 @@ check("disabled cfg -> heuristic, zero http calls", r["ai"] is False and HTTP_CA
 # -- AI happy path ------------------------------------------------------------
 HTTP_REPLY[0] = (200, _chat('{"score": 91, "why": "title fight booked"}'))
 r = scorer.score_story("Champ faces contender at UFC 320", "desc", "MMA Fighting", "ufc", SCFG)
-check("AI happy path: score and why from the JSON",
-      r == {"score": 91, "why": "title fight booked", "ai": True})
+check("AI happy path: score and why from the JSON, line/hot degrade to empty",
+      r == {"score": 91, "why": "title fight booked", "ai": True,
+            "line": "", "hot": []})
+HTTP_REPLY[0] = (200, _chat('{"score": 88, "why": "w", '
+                            '"line": "Garry is a real threat to Makhachev", '
+                            '"hot": ["Garry", "Threat"]}'))
+r = scorer.score_story("t", "", "s", "ufc", SCFG)
+check("AI line and hot ride the result",
+      r["line"] == "Garry is a real threat to Makhachev"
+      and r["hot"] == ["Garry", "Threat"] and r["ai"] is True)
+HTTP_REPLY[0] = (200, _chat('{"score": 80, "why": "w", "line": "%s", '
+                            '"hot": ["Garry", "big threat", "x..", 7, "", "extra"]}'
+                            % ("L" * 200)))
+r = scorer.score_story("t", "", "s", "ufc", SCFG)
+check("AI line clamped to LINE_MAX chars", len(r["line"]) == scorer.LINE_MAX)
+check("AI hot: first words kept, punctuation stripped, capped at 3",
+      r["hot"] == ["Garry", "big", "x"])
+HTTP_REPLY[0] = (200, _chat('{"score": 80, "why": "w", "hot": "Garry"}'))
+check("AI hot that is not a list degrades to []",
+      scorer.score_story("t", "", "s", "ufc", SCFG)["hot"] == [])
 _call = HTTP_CALLS[-1]
 check("deepseek endpoint, bearer auth, POST, tries=2",
       _call["url"] == scorer.DEEPSEEK_URL and
@@ -2134,6 +2195,196 @@ if _pil_ok:
     check("scrim keeps the image size", postcard.scrim(_src, "up").size == (300, 100))
     check("tint keeps the image size", postcard.tint(_src).size == (300, 100))
 
+    # -- the owner's binding poster rules (Aug 2026): no logo, no kicker ------
+    import inspect as _pc_inspect
+    _rn_src = _pc_inspect.getsource(postcard.render_news)
+    check("render_news draws no logo badge, lockup or watermark",
+          "load_logo" not in _rn_src and "_lockup" not in _rn_src
+          and "badge(" not in _rn_src and "_watermark" not in _rn_src)
+    with open(postcard.__file__, encoding="utf-8") as _pcf:
+        _pc_src = _pcf.read()
+    check("the channel-name kicker is gone from the whole module",
+          "IBOYPRIME NEWS" not in _pc_src and "KICKER_DEFAULT" not in _pc_src)
+    check("the kicker only ever renders as the tiny explicit context chip",
+          "_context_chip" in _rn_src and "_kicker_chip" not in _pc_src)
+
+    # -- hot-word matching: pure, case-insensitive, whole-word ----------------
+    check("hot match is case-insensitive and punctuation-blind",
+          postcard._is_hot("Garry,", ["GARRY"])
+          and postcard._is_hot("THREAT", ["threat"]))
+    check("hot match is whole-word only",
+          not postcard._is_hot("THREATEN", ["THREAT"])
+          and not postcard._is_hot("REAL", ["A"]))
+    check("hot match survives junk input",
+          not postcard._is_hot("word", []) and not postcard._is_hot("word", None)
+          and not postcard._is_hot("", ["x"]))
+
+    # -- the new spec fields render ------------------------------------------
+    _img = postcard.render("news", {"line": "Garry is a real threat",
+                                    "hot": ["Garry", "threat"],
+                                    "speaker": "Daniel Cormier",
+                                    "source": "ESPN"})
+    check("line/hot/speaker quote spec renders 1080x1350",
+          _img.size == (1080, 1350))
+    _img = postcard.render("news", {"line": "Backup", "speaker": "X",
+                                    "inset_path": _PImage.new(
+                                        "RGB", (200, 260), (90, 60, 40))})
+    check("inset portrait spec renders 1080x1350", _img.size == (1080, 1350))
+    _img = postcard.render("news", {"line": "Backup", "speaker": "X",
+                                    "inset_path": "no_such_inset_xyz.png",
+                                    "kicker": "BREAKING"})
+    check("missing inset file degrades and the explicit kicker still renders",
+          _img.size == (1080, 1350))
+
 # ───────────────────────── summary ─────────────────────────────────────────
+# ───────────────────────── polls bot (YouTube poll staging) ────────────────
+# FRAGMENT for selftest_changes.py - paste after the [calm formats] suite.
+# Uses the harness globals: check, STORE, POSTS, POSTS_FULL, PERSISTS, common,
+# copy, os. Adds 16 checks.
+print("\n[polls]")
+import datetime as _pl_dt
+import json as _pl_json
+import re as _pl_re
+import polls_bot
+
+# -- the bank: 60 curated questions, the formula + the writing rules --------
+_pl_bank_path = os.path.join(os.path.dirname(os.path.abspath(polls_bot.__file__)),
+                             "polls_data.json")
+with open(_pl_bank_path, encoding="utf-8") as _pl_f:
+    _pl_bank = _pl_json.load(_pl_f)
+check("bank carries 60 questions", isinstance(_pl_bank, list) and len(_pl_bank) == 60)
+check("every question has exactly 4 options",
+      all(len(e.get("options", [])) == 4 for e in _pl_bank))
+_pl_strings = [e.get("q", "") for e in _pl_bank] + \
+              [o.get("label", "") for e in _pl_bank for o in e.get("options", [])]
+_PL_BET = _pl_re.compile(
+    r"\b(bet|bets|betting|odds|wager|wagers|parlay|gamble|gambling|moneyline|"
+    r"bookie|underdog|stake|stakes)\b", _pl_re.I)
+check("no betting or gambling language anywhere in the bank (hard rule)",
+      not any(_PL_BET.search(s) for s in _pl_strings))
+check("no em dash and no exclamation mark in any bank string",
+      not any("—" in s or "!" in s for s in _pl_strings))
+check("labels are 1-3 words and at most 28 chars (the YouTube option budget)",
+      all(1 <= len(o["label"].split()) <= 3 and len(o["label"]) <= 28
+          for e in _pl_bank for o in e["options"]))
+check("every option carries one emoji",
+      all(o.get("emoji") and len(o["emoji"]) <= 3 and
+          all(ord(c) > 127 for c in o["emoji"])
+          for e in _pl_bank for o in e["options"]))
+check("img is empty or an octagon-api slug",
+      all(_pl_re.fullmatch(r"[a-z0-9-]*", o.get("img", "")) is not None
+          for e in _pl_bank for o in e["options"]))
+
+# -- staging mechanics on a controlled 3-question bank ----------------------
+_pl_mini = [
+    {"q": "Who is the greatest UFC fighter of all time?",
+     "options": [{"label": "Jon Jones", "emoji": "🐐", "img": "jon-jones"},
+                 {"label": "Georges St-Pierre", "emoji": "👑", "img": ""},
+                 {"label": "Anderson Silva", "emoji": "🕷️", "img": ""},
+                 {"label": "Khabib Nurmagomedov", "emoji": "🦅", "img": ""}]},
+    {"q": "Who hits harder than anyone in MMA today?",
+     "options": [{"label": "Alex Pereira", "emoji": "🗿", "img": ""},
+                 {"label": "Tom Aspinall", "emoji": "💥", "img": ""},
+                 {"label": "Sergei Pavlovich", "emoji": "👊", "img": ""},
+                 {"label": "Ilia Topuria", "emoji": "💣", "img": ""}]},
+    {"q": "Which ref do you trust with a title fight?",
+     "options": [{"label": "Herb Dean", "emoji": "⚖️", "img": ""},
+                 {"label": "Marc Goddard", "emoji": "🛡️", "img": ""},
+                 {"label": "Jason Herzog", "emoji": "✅", "img": ""},
+                 {"label": "Big John McCarthy", "emoji": "🚨", "img": ""}]},
+]
+
+_pl_events = []
+_pl_prev_post = common.post_message
+_pl_prev_persist = common.persist_state
+_pl_prev_pf = common.post_file
+_pl_prev_gj = common.get_json
+_pl_prev_now = common.now_utc
+_pl_prev_cfg = common.load_config
+_pl_prev_fb = polls_bot.fetch_bytes
+_pl_prev_rt = polls_bot.render_tile
+
+common.post_message = lambda *a, **k: (_pl_events.append("post"),
+                                       _pl_prev_post(*a, **k))[1]
+common.persist_state = lambda fn, message=None: (_pl_events.append("persist"),
+                                                 _pl_prev_persist(fn))[1]
+_PL_FILES = []
+common.post_file = lambda chan, content, path, filename=None, allowed_mentions=None, \
+                          embeds=None, silent=False: (
+    _pl_events.append("file"),
+    _PL_FILES.append({"chan": chan, "content": content, "filename": filename,
+                      "silent": silent, "mentions": allowed_mentions}),
+    (200, {"id": "PL%d" % len(_PL_FILES)}))[2]
+common.get_json = lambda url, headers=None, tries=4, timeout=30: \
+    (200, {"imgUrl": "https://img.example/f.png"})
+common.load_config = lambda: {"channels": {"studio": "ST"}}
+polls_bot.fetch_bytes = lambda url, timeout=10, cap=polls_bot.FETCH_CAP: b"PHOTOBYTES"
+polls_bot.render_tile = lambda photo, label: "tile_%s.png" % "".join(
+    c for c in label.lower() if c.isalnum())
+_pl_day = [_pl_dt.datetime(2026, 8, 13, 12, 0, tzinfo=_pl_dt.timezone.utc)]
+common.now_utc = lambda: _pl_day[0]
+
+STORE.clear(); POSTS.clear(); POSTS_FULL.clear(); PERSISTS.clear()
+STORE["polls_data.json"] = copy.deepcopy(_pl_mini)
+polls_bot.main()
+check("staged message carries the question and all 4 option lines",
+      POSTS_FULL and _pl_mini[0]["q"] in POSTS_FULL[0]["content"] and
+      all(("%s %s" % (o["emoji"], o["label"])) in POSTS_FULL[0]["content"]
+          for o in _pl_mini[0]["options"]))
+check("staged message is SILENT in the studio channel with no pings",
+      POSTS_FULL[0]["chan"] == "ST" and POSTS_FULL[0]["silent"] is True and
+      POSTS_FULL[0]["mentions"] is None)
+check("cursor is persisted BEFORE anything posts (a crash cannot repeat a question)",
+      "persist" in _pl_events and "post" in _pl_events and
+      _pl_events.index("persist") < _pl_events.index("post"))
+_pl_state = STORE.get("state_polls.json", {})
+check("state advanced: v1, cursor 1, today stamped",
+      _pl_state.get("v") == 1 and _pl_state.get("cursor") == 1 and
+      _pl_state.get("last_day") == "2026-08-13")
+check("one tile posted for the one fighter-image option, silent",
+      len(_PL_FILES) == 1 and _PL_FILES[0]["filename"] == "option1.png" and
+      _PL_FILES[0]["silent"] is True and _PL_FILES[0]["chan"] == "ST")
+
+# same-day guard: a re-run (or a manual dispatch) the same day stages nothing
+_pl_n = len(POSTS_FULL)
+polls_bot.main()
+check("same-day guard: second run today posts nothing and holds the cursor",
+      len(POSTS_FULL) == _pl_n and STORE["state_polls.json"]["cursor"] == 1)
+
+# the next day stages the NEXT question
+_pl_day[0] = _pl_dt.datetime(2026, 8, 14, 12, 0, tzinfo=_pl_dt.timezone.utc)
+polls_bot.main()
+check("next day stages the next question in rotation",
+      _pl_mini[1]["q"] in POSTS_FULL[-1]["content"] and
+      STORE["state_polls.json"]["cursor"] == 2)
+
+# the cursor wraps back to 0 after the last question
+_pl_day[0] = _pl_dt.datetime(2026, 8, 15, 12, 0, tzinfo=_pl_dt.timezone.utc)
+STORE["state_polls.json"] = {"v": 1, "cursor": 2, "last_day": ""}
+polls_bot.main()
+check("cursor wraps to 0 after the last question",
+      _pl_mini[2]["q"] in POSTS_FULL[-1]["content"] and
+      STORE["state_polls.json"]["cursor"] == 0)
+
+# absent studio channel: actionable note, nothing posted, clean exit 0
+common.load_config = lambda: {"channels": {}}
+_pl_n_posts = len(POSTS_FULL); _pl_n_files = len(_PL_FILES)
+_pl_n_persists = len(PERSISTS); _pl_state_before = copy.deepcopy(STORE.get("state_polls.json"))
+polls_bot.main()   # must not raise
+check("absent studio channel: no posts, no tiles, no state churn",
+      len(POSTS_FULL) == _pl_n_posts and len(_PL_FILES) == _pl_n_files and
+      len(PERSISTS) == _pl_n_persists and
+      STORE.get("state_polls.json") == _pl_state_before)
+
+common.post_message = _pl_prev_post
+common.persist_state = _pl_prev_persist
+common.post_file = _pl_prev_pf
+common.get_json = _pl_prev_gj
+common.now_utc = _pl_prev_now
+common.load_config = _pl_prev_cfg
+polls_bot.fetch_bytes = _pl_prev_fb
+polls_bot.render_tile = _pl_prev_rt
+
+
 print("\n==== %d passed, %d failed ====" % (PASS, FAIL))
 sys.exit(1 if FAIL else 0)
