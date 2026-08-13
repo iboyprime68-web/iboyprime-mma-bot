@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Joe Rogan predicts retirement for Islam Makhachev after UFC 330",
-      "ts": "2026-08-13T14:50:10+00:00"
-    },
-    {
-      "t": "Bilal Hasan books UFC debut in same month as DWCS 87 knockout",
-      "ts": "2026-08-13T15:13:42+00:00"
-    },
-    {
       "t": "Dana White 'very excited' about Bella Mir competing for UFC contract",
       "ts": "2026-08-13T15:20:14+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Philly's Jeremiah Wells worked at Xfinity Mobile Arena. He's now on UFC 330 main card vs. Myktybek Orolbai.",
       "ts": "2026-08-13T20:26:26+00:00"
+    },
+    {
+      "t": "Darren Till Knocks Out Bare-Knuckle Rival Outside Liverpool Pub",
+      "ts": "2026-08-13T20:30:49+00:00"
+    },
+    {
+      "t": "Garry Names Only Fighter Deserving Title Shot After UFC 330",
+      "ts": "2026-08-13T20:31:07+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Joe Kropschot endured father’s death just two days before DWCS 87 win https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/12/ufc-dwcs-87-joe-krop…",
-      "url": "https://nitter.net/MMAJunkie/status/2087686976711364903#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-12T23:45:37+00:00"
-    },
-    {
-      "title": "Philly has delivered some iconic knockouts 🔥 Who do you think leaves with the biggest win at UFC330? [ LIVE SAT AUG 15 9pmET on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2087690597427478632#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-13T00:00:00+00:00"
-    },
     {
       "title": "Esteban Ribovics has different kind of bonus in mind for UFC330 https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/12/ufc-330-esteban-ribovics-…",
       "url": "https://nitter.net/MMAJunkie/status/2087699455441014833#m",
@@ -2105,6 +2091,20 @@
       "source": "CBS News",
       "cat": "ufc",
       "ts": "2026-08-13T20:26:26+00:00"
+    },
+    {
+      "title": "Darren Till Knocks Out Bare-Knuckle Rival Outside Liverpool Pub",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB5YThDN2t5Q2ZPOEtRbWtmZVlDWXE4bDh1TURxdl9NWWZmWUlyMjg5dlh0LW5BS204a095am52d2xpVTNWWXoxcUg0eUJtV01GZlpoZ0w0dGU2S0VWdFQ4SEhBMHdobmdlU0piT0FkbE5weXM?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-13T20:30:49+00:00"
+    },
+    {
+      "title": "Garry Names Only Fighter Deserving Title Shot After UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5MZVE0ODB2b25PaUcyNjZNeENFNXd2ajU4bzY4Ri1wVFZUNFNORDBiZjlOVGZpWC1hdGxySWR5aTd3amZpc0Rod2ZUdU05NTlYeTBzc1lUUlFhVjhCejlFRFJ2T21JV1pmREhv?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-13T20:31:07+00:00"
     }
   ],
   "digest_last": "2026-08-12 21:30",
@@ -2468,7 +2468,9 @@
     "CBMi0wFBVV95cUxQMmh4WWhId0tZNF95YXY4U0hmLWctV2VnQzNkNGljTndBSXYzTUMwZHJzbnRaODhHdnBqZXJHbl9jODRZLVowNndWZGFmbGdGSTJQeDQ4TWpWQzlfaUlvOU1zS1VmWEFINi1qSHlTaElodjFjWC1ieVpKbXNESnlpeVpKVndYcDZsTG9pZDRaVXdGVHRWSVp3OW0zTVdMV0VlUzM1OWVTUmhfN0NwTVBZMzc2RTVpVDZRMTJENlJudk1Ndl9rZ0ZBVG1JRnVYTllxMFI0",
     "https://bloodyelbow.com/?p=326552",
     "CBMiqAFBVV95cUxPbDZmWGFKR0pFMnQ0ejZrMzIzQ0pMcEpSb3JtcVNUX1Eydy1qOUZHa0RkUkcwWFpqV2VadVNwajZWVzBIdnIyX2hzYzFhcjNaNDRTMFJNcGliMkV6SDhteHhwalNPN2ZiLUNMejBUZG5BSHdxUF80eHM3dE5OVzdTQ3hBbVY0TnBCc2Uzak91YjR2VTh0ZzhKRGIxdHRiQ3h1QThpU2VpQ0k",
-    "CBMimwFBVV95cUxOdkV4UmtXTlkxQkxzX3MzN3o3OTRLclI0TGVwemhURVJ0M2h2ejkxeU9tRXNKV3ZJaDUxV3hsRXFCMDBXZDdrZV93R0Z3Z3JOMF93QUQycDdYdkQtbmdUUVlzWHVPTTNYSVp2MWdwdkdwREdPTTV2clgyd21FTXkyUk9YOGMwbmQ2R2xOUG5GbE1GRmVYS0ZuZWIzTQ"
+    "CBMimwFBVV95cUxOdkV4UmtXTlkxQkxzX3MzN3o3OTRLclI0TGVwemhURVJ0M2h2ejkxeU9tRXNKV3ZJaDUxV3hsRXFCMDBXZDdrZV93R0Z3Z3JOMF93QUQycDdYdkQtbmdUUVlzWHVPTTNYSVp2MWdwdkdwREdPTTV2clgyd21FTXkyUk9YOGMwbmQ2R2xOUG5GbE1GRmVYS0ZuZWIzTQ",
+    "CBMic0FVX3lxTFB5YThDN2t5Q2ZPOEtRbWtmZVlDWXE4bDh1TURxdl9NWWZmWUlyMjg5dlh0LW5BS204a095am52d2xpVTNWWXoxcUg0eUJtV01GZlpoZ0w0dGU2S0VWdFQ4SEhBMHdobmdlU0piT0FkbE5weXM",
+    "CBMia0FVX3lxTE5MZVE0ODB2b25PaUcyNjZNeENFNXd2ajU4bzY4Ri1wVFZUNFNORDBiZjlOVGZpWC1hdGxySWR5aTd3amZpc0Rod2ZUdU05NTlYeTBzc1lUUlFhVjhCejlFRFJ2T21JV1pmREhv"
   ],
   "daily": {
     "d": "2026-08-13",
