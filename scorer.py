@@ -10,9 +10,12 @@ CALLER, not here).
 Two paths, one result shape {"score": int 0-100, "why": short str, "ai": bool,
 "line": short poster line str, "hot": list of 0-3 highlight words}:
 
-  * AI path - one chat-completions call to DeepSeek (DEEPSEEK_API_KEY) or
-    OpenRouter (OPENROUTER_API_KEY), whichever key is set; DeepSeek wins when
-    both are. Keys come from the ENVIRONMENT only - never from a file here.
+  * AI path - one chat-completions call to whichever provider in PROVIDERS has
+    a key set (DeepSeek first when several are), or to the one named by the
+    news config's scoring.provider. Every provider speaks the same
+    OpenAI-compatible protocol, so the table below is the only thing that
+    changes between them. Keys come from the ENVIRONMENT only - never from a
+    file here.
   * heuristic_score() - deterministic keyword scoring. Used when no key is
     set, when scoring is disabled, and on ANY HTTP or parse failure, so the
     pipeline never depends on a third-party API being up.
@@ -40,6 +43,7 @@ DEFAULTS = {
     "enabled": True,          # False = always heuristic, even with a key set
     "stage_threshold": 70,    # caller: score >= this stages the story
     "ping_threshold": 85,     # caller: score >= this may ping (breaking tier)
+    "provider": "",           # empty = auto (first PROVIDERS entry with a key)
     "model": "",              # empty = provider default model
     "max_tokens": 220,
     "timeout": 20,            # seconds per HTTP attempt
@@ -48,10 +52,63 @@ DEFAULTS = {
     "max_staged_per_day": 6,       # studio posts; over the cap -> skipped
 }
 
-DEEPSEEK_URL     = "https://api.deepseek.com/chat/completions"
-DEEPSEEK_MODEL   = "deepseek-chat"
-OPENROUTER_URL   = "https://openrouter.ai/api/v1/chat/completions"
-OPENROUTER_MODEL = "deepseek/deepseek-chat"
+# ---- the provider table ----------------------------------------------------
+# Every entry speaks the SAME OpenAI-compatible chat-completions protocol, so
+# only three things differ: the endpoint, the default model, and the
+# environment variable the key arrives in. Adding a provider is a row here,
+# never a branch in score_story - that is the whole point of the table.
+#
+# ORDER IS PRECEDENCE when scoring.provider is empty (auto). DeepSeek stays
+# first: it is the one the owner already pays for.
+#
+# Endpoint AND model id were each checked against the provider's own docs on
+# Aug 13 2026 before shipping. Two of those checks changed what ships:
+#
+#   * groq's default is NOT llama-3.3-70b-versatile. Groq deprecated that
+#     model on 2026-06-17 with the shutdown set for 2026-08-16, three days
+#     after this was written, and names openai/gpt-oss-120b as the
+#     replacement. The Llama id would have been a dead default inside a week.
+#   * z.ai has two base paths. /api/paas/v4 is the general API (used here);
+#     /api/coding/paas/v4 answers only for a Coding Plan subscription, so
+#     pointing the general key at it would 4xx every call.
+#
+# openai keeps gpt-4o-mini: OpenAI's own deprecations page still lists the
+# base model as live (only the audio/realtime/transcribe variants are dated),
+# and scoring.model overrides it in one edit if that changes.
+PROVIDERS = (
+    {"name": "deepseek",   "env": "DEEPSEEK_API_KEY",
+     "url": "https://api.deepseek.com/chat/completions",
+     "model": "deepseek-chat"},
+    {"name": "openrouter", "env": "OPENROUTER_API_KEY",
+     "url": "https://openrouter.ai/api/v1/chat/completions",
+     "model": "deepseek/deepseek-chat"},
+    {"name": "zai",        "env": "ZAI_API_KEY",           # Zhipu Z.ai, GLM
+     "url": "https://api.z.ai/api/paas/v4/chat/completions",
+     "model": "glm-4.5-flash"},
+    {"name": "groq",       "env": "GROQ_API_KEY",
+     "url": "https://api.groq.com/openai/v1/chat/completions",
+     "model": "openai/gpt-oss-120b"},
+    {"name": "together",   "env": "TOGETHER_API_KEY",
+     "url": "https://api.together.xyz/v1/chat/completions",
+     "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo"},
+    {"name": "mistral",    "env": "MISTRAL_API_KEY",
+     "url": "https://api.mistral.ai/v1/chat/completions",
+     "model": "mistral-small-latest"},
+    {"name": "openai",     "env": "OPENAI_API_KEY",
+     "url": "https://api.openai.com/v1/chat/completions",
+     "model": "gpt-4o-mini"},
+)
+
+PROVIDER_NAMES = tuple(p["name"] for p in PROVIDERS)
+PROVIDER_ENVS = tuple(p["env"] for p in PROVIDERS)
+_BY_NAME = {p["name"]: p for p in PROVIDERS}
+
+# Back-compat aliases derived FROM the table (never re-typed, so they cannot
+# drift from it). Older callers and tests read these two by name.
+DEEPSEEK_URL     = _BY_NAME["deepseek"]["url"]
+DEEPSEEK_MODEL   = _BY_NAME["deepseek"]["model"]
+OPENROUTER_URL   = _BY_NAME["openrouter"]["url"]
+OPENROUTER_MODEL = _BY_NAME["openrouter"]["model"]
 
 # The brief the cheap model gets. It is short on purpose (it rides every
 # request) but it is a real editor's brief, not a rubric: the model is being
@@ -149,15 +206,47 @@ def scoring_config(newscfg):
     return _merge(DEFAULTS, (newscfg or {}).get("scoring"))
 
 
-def provider():
-    """(name, api_key) for the configured AI provider, (None, None) if no key
-    is set. Environment only - keys never live in any file in this repo."""
-    key = os.environ.get("DEEPSEEK_API_KEY", "")
-    if key:
-        return "deepseek", key
-    key = os.environ.get("OPENROUTER_API_KEY", "")
-    if key:
-        return "openrouter", key
+def provider_spec(name):
+    """The PROVIDERS row for a name, or None. Pure."""
+    return _BY_NAME.get(str(name or "").strip().lower())
+
+
+def endpoint(name, model=""):
+    """(url, model) for one provider, ("", "") for an unknown name. A non-empty
+    `model` (the news config's scoring.model) overrides the default. Pure."""
+    spec = provider_spec(name)
+    if spec is None:
+        return "", ""
+    return spec["url"], (str(model or "").strip() or spec["model"])
+
+
+def provider(pref=""):
+    """(name, api_key) for the AI provider to use, (None, None) when none is
+    usable. Environment only - keys never live in any file in this repo.
+
+    `pref` is the news config's scoring.provider. Empty (the default) means
+    AUTO: walk PROVIDERS in order and take the first key that is set, so the
+    owner just drops a key in config.txt and it works.
+
+    Two deliberate asymmetries in how a preference is honoured:
+      * an UNKNOWN name returns (None, None) - a typo must never quietly spend
+        money at a provider the owner did not choose. Scoring drops to the
+        free heuristic, which is the same thing that happens with no key.
+      * a KNOWN name whose key is missing falls through to auto, so a
+        half-finished switch still scores with the key that is actually set
+        instead of silently downgrading everything.
+    """
+    spec = provider_spec(pref)
+    if str(pref or "").strip() and spec is None:
+        return None, None
+    if spec is not None:
+        key = os.environ.get(spec["env"], "")
+        if key:
+            return spec["name"], key
+    for row in PROVIDERS:
+        key = os.environ.get(row["env"], "")
+        if key:
+            return row["name"], key
     return None, None
 
 
@@ -224,7 +313,9 @@ def spend(state, today, which, n=1):
 
 def ai_ready(cfg):
     """True when score_story would really call a paid API for this config."""
-    return bool((cfg or {}).get("enabled", True)) and provider()[0] is not None
+    cfg = cfg or {}
+    return (bool(cfg.get("enabled", True))
+            and provider(cfg.get("provider", ""))[0] is not None)
 
 
 # ---- deterministic heuristic ------------------------------------------------
@@ -411,14 +502,11 @@ def score_story(title, desc, source, category, cfg):
     config, or ANY HTTP/parse failure - this never raises."""
     cfg = cfg or DEFAULTS
     breaking = cfg.get("breaking_keywords") or BREAKING_FALLBACK
-    name, key = provider()
+    name, key = provider(cfg.get("provider", ""))
     if name is None or not cfg.get("enabled", True):
         return heuristic_score(title, desc, source, category, breaking)
 
-    if name == "deepseek":
-        url, model = DEEPSEEK_URL, (cfg.get("model") or DEEPSEEK_MODEL)
-    else:
-        url, model = OPENROUTER_URL, (cfg.get("model") or OPENROUTER_MODEL)
+    url, model = endpoint(name, cfg.get("model"))
     body = {
         "model": model,
         "messages": [
@@ -427,9 +515,10 @@ def score_story(title, desc, source, category, cfg):
         ],
         "temperature": 0.2,
         "max_tokens": int(cfg.get("max_tokens", DEFAULTS["max_tokens"])),
-        # Strict-JSON output where supported (DeepSeek: yes; OpenRouter
-        # forwards it). A model that ignores it is still caught by
-        # _first_json + the heuristic fallback.
+        # Strict-JSON output where supported (DeepSeek, Z.ai, Groq, Together,
+        # Mistral and OpenAI all accept json_object; OpenRouter forwards it).
+        # A provider that ignores it is still caught by _first_json + the
+        # heuristic fallback, which is why one payload can serve them all.
         "response_format": {"type": "json_object"},
     }
     code, text = common.http(url, headers={"Authorization": "Bearer " + key},
