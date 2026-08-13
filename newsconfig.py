@@ -145,7 +145,7 @@ def base_defaults():
         "exclude_keywords": list(_DEFAULT_EXCLUDE),
         "digest": {"times_utc": ["21:30"], "min_items": 3, "ping": True},
         # Hot-word emphasis on the staged poster (see EMPHASIS_MODES).
-        "emphasis": "auto",
+        "emphasis": "color",
         # AI story scoring for the YouTube staging pipeline (scorer.py). Works
         # without any key (deterministic heuristic); a DeepSeek or OpenRouter
         # key in the environment upgrades it. Thresholds are 0-100: at
