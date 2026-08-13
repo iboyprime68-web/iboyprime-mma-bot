@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=500547",
     "https://www.mmafighting.com/?p=500549",
     "https://www.mmafighting.com/?p=500563",
     "https://www.mmafighting.com/?p=500568",
@@ -215,6 +214,7 @@
     "https://www.mmafighting.com/?p=504497",
     "https://www.mmafighting.com/?p=504507",
     "https://www.mmafighting.com/?p=504524",
+    "https://www.mmafighting.com/?p=504532",
     "https://www.mmafighting.com/?p=504546",
     "https://www.mmafighting.com/?p=504552",
     "https://www.mmafighting.com/?p=504562",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "No Bets Barred: Can Ian Machado Garry upset Islam Makhachev at UFC 330? https://www.mmafighting.com/ufc/504301/no-bets-barred-can-ian-machado-garry-u…",
-      "ts": "2026-08-12T23:04:32+00:00"
-    },
-    {
       "t": "Joe Kropschot endured father’s death just two days before DWCS 87 win https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/12/ufc-dwcs-87-joe-krop…",
       "ts": "2026-08-12T23:45:37+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Ian Machado Garry teases using move he sidelined Shavkat Rakhmonov with against Islam Makhachev",
       "ts": "2026-08-13T19:00:00+00:00"
+    },
+    {
+      "t": "Ian Machado Garry reveals ‘there is only one’ person deserving of the next title shot after he beats Islam Makhachev",
+      "ts": "2026-08-12T21:18:01+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "\"The best version of myself\" - Two-sport queen Stella Hemetsberger driven by relentless self-improvement",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMkdRRXpsRHY1RzM2dWIxSHRlZFFseWJhSkUwcTJHRlQyRWoxSFhITTBTY3BsMXFXNk9NcFB4R2U1OExmbHZ4QXQtMngxY0FNT0pLdTcwNlJ2OGRGb1BVcTNTcENscmZ1dEphaFo4RVBHVDJBUFJxRlpVeTVBUjBGdERHcjE4XzFfMkxkV19LUUlJakJubzlVVHZtQjBOUnR2SERqcVVVSnZKNlk3VW5icDdfbWpYc3g5ZjVWTjdDOGFfb1RrbGdickJ1VQ?oc=5",
-      "source": "Sportskeeda",
-      "cat": "ufc",
-      "ts": "2026-08-13T18:11:00+00:00"
-    },
     {
       "title": "Dustin Poirier Says Islam Makhachev’s UFC Streak Tops Anderson Silva’s In One Key Area",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbEo1MnVqWmNpdWRhX09kMl9YZkFheEhpMHpWYnFpVGJleHJDNTNrY1FjTk9fczFFMU9kN3Q2Zm55WEE4MDN5QTlvNXRHSHJBSUVmUGhkY2otaVJtLXhaMHNzNnVHelR4ZTIzc283cGJsNG9sU05mdmtwS1JjQUktaFlEN001cE5uSHJyRDB3?oc=5",
@@ -2105,12 +2098,19 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-13T19:00:00+00:00"
+    },
+    {
+      "title": "Ian Machado Garry reveals ‘there is only one’ person deserving of the next title shot after he beats Islam Makhachev",
+      "url": "https://www.mmafighting.com/ufc/504532/ian-machado-garry-reveals-there-is-only-one-person-deserving-of-the-next-title-shot-after-he-beats-islam-makhachev",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-12T21:18:01+00:00"
     }
   ],
   "digest_last": "2026-08-12 21:30",
   "hour": [
     "2026-08-13T19",
-    1
+    2
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/DWCS-2026-Week-1-WeighIn-results-5-fights-set-202294",
@@ -2424,11 +2424,12 @@
     "CBMizgFBVV95cUxNZ0VCczdqMk5JOHB6NnZlODJpUDgtYUtzTVVZVGNDZkFBVk1hclVIc3J0MlV2ZXMzdk1YMEZKNUZ1dzR5X29OVDQ5aUZzb2dSWkc1M0FFemttaV9mamV0M0lzU2hMTk5xUHAweWFITjRROGdBd0p4clRBQV9SY1JUb0pQeXg2V1RoQ2RkbF9rNXFIVS1QXy04ODZWSmliMlZjVGQyUzRnSE13SlFrZ2RQWlBQR0VwVjMySWg5aHdFaEVScWZIMm5iOEVWUGVMdw",
     "CBMiSEFVX3lxTE4wQlNnZTFIeVlrM2NGdUZYRUVSQkRKUDN2dHNSbTMwTnRyQWdob0E4ZEIzZlBFVWQ1MWVKTmdDRlpjSVhlWWwzYg",
     "CBMitgFBVV95cUxPbm94amN5alBIMWJpVU1rRUxuZFloVVRVWUUwRmJlYUFBSkMyNF9OSGJuNm1BUEFNVjBhUWFkdEJaX2YxMzlDRU5feml3N3VGS3JyMmxvMG1Gdzk1NlliUjNpd3N0amZvZEZaYTlfUXFjaEdELUxpV2p0UHROUlNjZEhRWDFhbWVPbGlVek1zRkswanBjRXEtcEJuYzlYZUhmazRmQlUwR01SakdIZjRIOXp3aWsxZw",
-    "https://bloodyelbow.com/?p=326447"
+    "https://bloodyelbow.com/?p=326447",
+    "https://www.mmafighting.com/?p=504532"
   ],
   "daily": {
     "d": "2026-08-13",
-    "ai": 8,
-    "staged": 2
+    "ai": 9,
+    "staged": 3
   }
 }
