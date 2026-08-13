@@ -1,18 +1,25 @@
 /**
- * Prime Arena — custom slash-command bot (Cloudflare Worker).
- * Always-on, free, ad-free. Handles Discord HTTP interactions.
+ * Prime Arena - custom slash-command bot (Cloudflare Worker).
+ * Always-on, free, ad-free. Handles Discord HTTP interactions, and serves the
+ * password-gated /studio surface on the same Worker.
  *
  * Secrets (set via `wrangler secret put` or the dashboard):
- *   DISCORD_PUBLIC_KEY   (required) — app Public Key from the Dev Portal.
- *   YOUTUBE_API_KEY      (optional) — enables real /youtube search.
- *   DISCORD_BOT_TOKEN    (optional) — enables /serverinfo member counts.
+ *   DISCORD_PUBLIC_KEY   (required) - app Public Key from the Dev Portal.
+ *   YOUTUBE_API_KEY      (optional) - enables real /youtube search.
+ *   DISCORD_BOT_TOKEN    (optional) - enables /serverinfo member counts, /studio staging.
+ *   STUDIO_PASSWORD      (required for /studio) - with it unset /studio is 503, never open.
+ *   GITHUB_TOKEN         (required for /mod, /news and the /studio AI key writer).
  */
+// The editor page lives in its own module so this file stays about routing and auth.
+// It is served ONLY to an authenticated session (see studioRouter).
+import { STUDIO_HTML } from "./studio_page.js";
+
 const ORANGE = 0xE67E22;
 const T = { PONG: 1, MESSAGE: 4, DEFER: 5 };
 const EPHEMERAL = 64;
 
-// FALLBACK ONLY. The live list is `links` in welcomeconfig.json — the same file the
-// pinned welcome message renders from — so /links and that message cannot drift apart.
+// FALLBACK ONLY. The live list is `links` in welcomeconfig.json - the same file the
+// pinned welcome message renders from - so /links and that message cannot drift apart.
 // They did drift: this list used to be the second hard-coded copy and carried a wrong
 // TikTok URL with no Instagram. A selftest now asserts this matches
 // welcomeconfig.DEFAULT_LINKS byte for byte, so even the offline path stays correct.
@@ -45,8 +52,8 @@ async function verify(request, body, publicKey) {
   } catch (e) { return false; }
 }
 function slugify(name) {
-  return (name || "").normalize("NFD").replace(/[̀-ͯ]/g, "")
-    .toLowerCase().replace(/['’.]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  return (name || "").normalize("NFD").replace(/[\u0300-\u036F]/g, "")
+    .toLowerCase().replace(/['\u2019.]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 }
 function snowflakeDate(id) { try { return new Date(Number((BigInt(id) >> 22n) + 1420070400000n)); } catch (e) { return null; } }
 function optMap(interaction) {
@@ -92,7 +99,7 @@ function fmtBouts(ev) {
     const a = (cs.find(x => x.order === 1) || cs[0] || {});
     const b = (cs.find(x => x.order === 2) || cs[1] || {});
     const nm = x => (x.athlete || {}).displayName || "TBD";
-    return (i === 0 ? "🏆 " : "• ") + `**${nm(a)}** vs **${nm(b)}**`;
+    return (i === 0 ? "\uD83C\uDFC6 " : "\u2022 ") + `**${nm(a)}** vs **${nm(b)}**`;
   }).join("\n");
 }
 
@@ -143,7 +150,7 @@ function onThisDayEmbed(d) {
 function triviaResponse() {
   const t = OTD.trivia.length ? OTD.trivia[Math.floor(Math.random() * OTD.trivia.length)] : null;
   if (!t) return msg("No trivia available.");
-  return embed({ title: "🧠 MMA Trivia", description: `${t.q}\n\nAnswer: ||${t.a}||` });
+  return embed({ title: "\uD83E\uDDE0 MMA Trivia", description: `${t.q}\n\nAnswer: ||${t.a}||` });
 }
 function buildPoll(o) {
   const answers = [];
@@ -188,7 +195,7 @@ function subPath(interaction) {
 // The bot is ADMINISTRATOR, so anything it does on a member's behalf runs at the bot's
 // permission level, not theirs. That means this gate - not Discord - decides what each
 // staff tier can do, and a single flat check silently GRANTS powers the guild withholds:
-// 🔨 Moderator is configured with kick but NOT ban, yet /ban went through this same
+// Moderator is configured with kick but NOT ban, yet /ban went through this same
 // check. Pass `keys` to require a tier; the default keeps the old behaviour.
 function isStaffFromRoles(member, cfg, keys) {
   if (!member) return false;
@@ -290,6 +297,8 @@ async function welcomeConfig(env) {
   if (c) _wcfgCache = { at: now, cfg: c };
   return _wcfgCache.cfg;                    // null until a fetch succeeds -> caller falls back
 }
+// Offline tests only: drop the 5-minute config caches so two cases can use two configs.
+function resetStudioCaches() { _cfgCache = { at: 0, cfg: null }; _wcfgCache = { at: 0, cfg: null }; }
 // PURE: the links list -> the /links body. https-only, mirroring welcomeconfig.clean_links.
 // Returns null (not "") when there is nothing usable, so the caller can fall back.
 function socialLines(links) {
@@ -368,13 +377,13 @@ async function requireRank(i, env, keys) {
   return { cfg, ok: isStaffFromRoles(i.member, cfg, keys) };
 }
 async function requireStaff(i, env) { return requireRank(i, env, null); }   // mod and above
-// Ban and unban only. Mirrors the guild's own roles: 🔨 Moderator has kick, not ban.
+// Ban and unban only. Mirrors the guild's own roles: Moderator has kick, not ban.
 const ADMIN_UP = ["owner", "admin"];
 
 // ---------- command table ----------
 const COMMANDS = {
   help: () => ({ data: embed({
-    title: "🤖 Commands",
+    title: "\uD83E\uDD16 Commands",
     description: [
       "**MMA**",
       "`/nextevent` the next card and a countdown to it",
@@ -391,7 +400,7 @@ const COMMANDS = {
       "`/news status` shows how the news wire is tuned. It posts silently and pings nobody.",
       "",
       "**Links**",
-      "`/youtube` search YouTube · `/links` every platform iBoyPrime posts on",
+      "`/youtube` search YouTube \u00B7 `/links` every platform iBoyPrime posts on",
       "",
       "**Music**, from the Jockie Music bot: `/play`, `/queue`, `/skip`.",
     ].join("\n"),
@@ -402,33 +411,33 @@ const COMMANDS = {
     title: "Where iBoyPrime posts",
     description: socialLines((await welcomeConfig(env) || {}).links) || socialLines(SOCIALS_FALLBACK),
   }) }),
-  "8ball": (i) => { const o = optMap(i); return { data: embed({ title: "🎱 Magic 8-Ball", description: `**Q:** ${o.question || "..."}\n**A:** ${EIGHTBALL[Math.floor(Math.random() * EIGHTBALL.length)]}` }) }; },
-  roll: (i) => { const r = rollDice(optMap(i).dice); return { data: msg(`🎲 Rolled **${r.n}d${r.sides}**: ${r.rolls.join(", ")} → **${r.total}**`) }; },
-  flip: () => ({ data: msg(`🪙 **${Math.random() < 0.5 ? "Heads" : "Tails"}**`) }),
+  "8ball": (i) => { const o = optMap(i); return { data: embed({ title: "\uD83C\uDFB1 Magic 8-Ball", description: `**Q:** ${o.question || "..."}\n**A:** ${EIGHTBALL[Math.floor(Math.random() * EIGHTBALL.length)]}` }) }; },
+  roll: (i) => { const r = rollDice(optMap(i).dice); return { data: msg(`\uD83C\uDFB2 Rolled **${r.n}d${r.sides}**: ${r.rolls.join(", ")} \u2192 **${r.total}**`) }; },
+  flip: () => ({ data: msg(`\uD83E\uDE99 **${Math.random() < 0.5 ? "Heads" : "Tails"}**`) }),
   poll: (i) => ({ data: { ...buildPoll(optMap(i)), allowed_mentions: { parse: [] } } }),
   onthisday: () => ({ data: onThisDayEmbed(new Date()) }),
   trivia: () => ({ data: triviaResponse() }),
   avatar: (i) => { const u = resolveUser(i, optMap(i)); return { data: embed({ title: `${u.username || "Avatar"}`, image: { url: avatarUrl(u) } }) }; },
   userinfo: (i) => {
     const u = resolveUser(i, optMap(i)); const created = snowflakeDate(u.id);
-    return { data: embed({ title: `👤 ${u.global_name || u.username}`, thumbnail: { url: avatarUrl(u) },
+    return { data: embed({ title: `\uD83D\uDC64 ${u.global_name || u.username}`, thumbnail: { url: avatarUrl(u) },
       fields: [{ name: "Username", value: u.username || "?", inline: true }, { name: "ID", value: u.id, inline: true },
         { name: "Account created", value: created ? `<t:${Math.floor(created.getTime() / 1000)}:D>` : "?", inline: true }] }) };
   },
-  // /rankings was removed in the Aug 2026 declutter along with the 📊-rankings board:
+  // /rankings was removed in the Aug 2026 declutter along with the -rankings board:
   // the owner's verdict on that data source was "not accurate and really poorly done",
   // and this command hit the same octagon-api endpoint the board did.
   nextevent: () => ({ defer: async () => {
     const e = await soonestEvent();
     if (!e) return embed({ title: "Next event", description: "No upcoming card found right now." });
     const ts = Math.floor(e.t / 1000);
-    return embed({ title: `🥊 Next up: ${e.label}`, description: `${e.league}\n<t:${ts}:F>\n**<t:${ts}:R>**` });
+    return embed({ title: `\uD83E\uDD4A Next up: ${e.label}`, description: `${e.league}\n<t:${ts}:F>\n**<t:${ts}:R>**` });
   } }),
   event: () => ({ defer: async () => {
     const e = await soonestEvent();
     if (!e) return embed({ title: "Event", description: "No upcoming card found." });
     const ts = Math.floor(e.t / 1000);
-    return embed({ title: `🗓️ ${e.label}`, description: `<t:${ts}:F> (<t:${ts}:R>)\n\n${fmtBouts(e.ev) || "Card TBA."}` });
+    return embed({ title: `\uD83D\uDDD3\uFE0F ${e.label}`, description: `<t:${ts}:F> (<t:${ts}:R>)\n\n${fmtBouts(e.ev) || "Card TBA."}` });
   } }),
   fighter: (i) => ({ defer: async () => fighterEmbed(optMap(i).name || "") }),
   serverinfo: (i, env) => ({ defer: async () => {
@@ -439,30 +448,30 @@ const COMMANDS = {
       { name: "Created", value: created ? `<t:${Math.floor(created.getTime() / 1000)}:D>` : "?", inline: true }];
     if (g) { fields.push({ name: "Members", value: String(g.approximate_member_count || "?"), inline: true });
       fields.push({ name: "Online", value: String(g.approximate_presence_count || "?"), inline: true }); }
-    return embed({ title: `📊 ${g ? g.name : "Server info"}`, fields });
+    return embed({ title: `\uD83D\uDCCA ${g ? g.name : "Server info"}`, fields });
   } }),
   youtube: (i, env) => ({ defer: async () => {
     const q = optMap(i).query || "";
     if (env && env.YOUTUBE_API_KEY) {
       const r = await getJSON(`https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=1&q=${encodeURIComponent(q)}&key=${env.YOUTUBE_API_KEY}`);
       const it = r && r.items && r.items[0];
-      if (it) return msg(`🔎 **${it.snippet.title}**\nhttps://youtube.com/watch?v=${it.id.videoId}`);
+      if (it) return msg(`\uD83D\uDD0E **${it.snippet.title}**\nhttps://youtube.com/watch?v=${it.id.videoId}`);
     }
-    return msg(`🔎 Search: https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`);
+    return msg(`\uD83D\uDD0E Search: https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`);
   } }),
 
   // ----- news feed: public status + staff config -----
   // `status` is public; every other /news path is a staff config write, so it is private.
   news: (i, env) => ({ ephemeral: subPath(i).sub !== "status", defer: async () => {
     const { group, sub, opts } = subPath(i);
-    // /news follow|unfollow is gone: the 📰 News Pings and 🗞️ Digest Ping roles were
+    // /news follow|unfollow is gone: the News Pings and Digest Ping roles were
     // deleted in the Aug 2026 declutter. The wire posts silently and pings nobody, so
     // there is nothing left to opt into.
     if (group === null && sub === "status") {
       const nc = (await getJSON(rawBase(env) + "/newsconfig.json")) || {};
-      const cats = Object.entries(nc.categories || {}).map(([k, c]) => `${c.enabled ? "🟢" : "⚫"} ${c.label || k}`).join("  ");
-      const srcs = Object.entries(nc.sources || {}).map(([k, s]) => `${s.enabled ? "🟢" : "⚫"} ${s.label || k}`).join("  ");
-      return embed({ title: "🗞️ News feed", description: [
+      const cats = Object.entries(nc.categories || {}).map(([k, c]) => `${c.enabled ? "\uD83D\uDFE2" : "\u26AB"} ${c.label || k}`).join("  ");
+      const srcs = Object.entries(nc.sources || {}).map(([k, s]) => `${s.enabled ? "\uD83D\uDFE2" : "\u26AB"} ${s.label || k}`).join("  ");
+      return embed({ title: "\uD83D\uDDDE\uFE0F News feed", description: [
         `Mode: **${nc.mode || "?"}**. Every story posts silently and pings nobody.`,
         `Topics: ${cats || "_?_"}`,
         `Sources: ${srcs || "_?_"}`,
@@ -470,79 +479,79 @@ const COMMANDS = {
       ].join("\n") });
     }
     const { ok } = await requireStaff(i, env);
-    if (!ok) return msg("⛔ Staff only (everyone can use `/news status`).", true);
+    if (!ok) return msg("\u26D4 Staff only (everyone can use `/news status`).", true);
     if (!env.GITHUB_TOKEN) return msg("/news config needs the GITHUB_TOKEN secret on the Worker. See COMMANDS_SETUP.md.", true);
     const { obj: newscfg, sha } = await loadRepoJson(env, "newsconfig.json");
-    if (!newscfg) return msg("newsconfig.json isn't in the repo yet — run a deploy first.", true);
+    if (!newscfg) return msg("newsconfig.json isn't in the repo yet \u2014 run a deploy first.", true);
     const updated = applyNewsChange(newscfg, group, sub, opts);
     const saved = await saveRepoJson(env, "newsconfig.json", updated, sha, `news: ${group ? group + "/" : ""}${sub}`);
-    return msg(saved ? "✅ Saved — the news bot picks it up within ~5 minutes (no restart needed)."
-                     : "Couldn't save the config (GitHub write failed — check the GITHUB_TOKEN repo scope).", true);
+    return msg(saved ? "\u2705 Saved \u2014 the news bot picks it up within ~5 minutes (no restart needed)."
+                     : "Couldn't save the config (GitHub write failed \u2014 check the GITHUB_TOKEN repo scope).", true);
   } }),
 
   // ----- moderation (staff only) -----
   mod: (i, env) => ({ ephemeral: true, defer: async () => {
     const { ok } = await requireStaff(i, env);
-    if (!ok) return msg("⛔ You don't have permission to use /mod.", true);
-    if (!env.GITHUB_TOKEN) return msg("⚠️ /mod isn't wired up yet — set the GITHUB_TOKEN secret on the Worker (see COMMANDS_SETUP.md).", true);
+    if (!ok) return msg("\u26D4 You don't have permission to use /mod.", true);
+    if (!env.GITHUB_TOKEN) return msg("\u26A0\uFE0F /mod isn't wired up yet \u2014 set the GITHUB_TOKEN secret on the Worker (see COMMANDS_SETUP.md).", true);
     const { group, sub, opts } = subPath(i);
     const { modcfg, sha } = await loadModconfig(env);
     if (group === null && sub === "status") {
       const chans = Object.keys(modcfg.channels || {}).length;
       const raidOn = (modcfg.raid || {}).enabled ? "on" : "off";
-      return embed({ title: "🛡️ Moderation status", description:
+      return embed({ title: "\uD83D\uDEE1\uFE0F Moderation status", description:
         `Channels configured: **${chans}**\nProfiles: ${MOD_PROFILES.join(", ")}\nFilters: ${MOD_CATEGORIES.join(", ")}\nRaid protection: **${raidOn}**` });
     }
     if (group === null && sub === "view") {
       const r = resolveCats(modcfg, opts.channel);
-      return embed({ title: "🔎 Channel rules", description:
+      return embed({ title: "\uD83D\uDD0E Channel rules", description:
         `<#${opts.channel}>\nProfile: **${r.profile}**\nFilters: ${Array.from(r.cats).join(", ") || "_none_"}\nMedia policy: **${r.media}**` });
     }
     const updated = applyModChange(modcfg, group, sub, opts);
     const saved = await saveModconfig(env, updated, sha, `mod: ${group}/${sub}`);
-    if (!saved) return msg("Couldn't save the config (GitHub write failed — check the GITHUB_TOKEN repo scope).", true);
+    if (!saved) return msg("Couldn't save the config (GitHub write failed \u2014 check the GITHUB_TOKEN repo scope).", true);
     await dispatchWorkflow(env, "mod_setup.yml");
-    return msg("✅ Saved. Your change applies within ~1 minute.", true);
+    return msg("\u2705 Saved. Your change applies within ~1 minute.", true);
   } }),
   warn: (i, env) => ({ ephemeral: true, defer: async () => {
-    const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
+    const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("\u26D4 No permission.", true);
     const o = optMap(i);
-    await postLog(env, cfg, `⚠️ <@${o.user}> was **warned** by <@${i.member.user.id}>${o.reason ? " — " + o.reason : ""}.`);
-    return msg(`⚠️ Warned <@${o.user}>.`, true);
+    await postLog(env, cfg, `\u26A0\uFE0F <@${o.user}> was **warned** by <@${i.member.user.id}>${o.reason ? " \u2014 " + o.reason : ""}.`);
+    return msg(`\u26A0\uFE0F Warned <@${o.user}>.`, true);
   } }),
   timeout: (i, env) => ({ ephemeral: true, defer: async () => {
-    const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
-    if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
+    const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("\u26D4 No permission.", true);
+    if (!env.DISCORD_BOT_TOKEN) return msg("\u26A0\uFE0F Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
     const o = optMap(i); const mins = Math.min(Math.max(parseInt(o.minutes) || 10, 1), 40320);
     const until = new Date(Date.now() + mins * 60000).toISOString();
     const r = await dapi(env, "PATCH", `/guilds/${i.guild_id}/members/${o.user}`, { communication_disabled_until: until });
-    if (r.ok) await postLog(env, cfg, `⏳ <@${o.user}> timed out **${mins}m** by <@${i.member.user.id}>${o.reason ? " — " + o.reason : ""}.`);
-    return msg(r.ok ? `⏳ Timed out <@${o.user}> for ${mins}m.` : "Couldn't time them out (check the bot's role position/permissions).", true);
+    if (r.ok) await postLog(env, cfg, `\u23F3 <@${o.user}> timed out **${mins}m** by <@${i.member.user.id}>${o.reason ? " \u2014 " + o.reason : ""}.`);
+    return msg(r.ok ? `\u23F3 Timed out <@${o.user}> for ${mins}m.` : "Couldn't time them out (check the bot's role position/permissions).", true);
   } }),
   ban: (i, env) => ({ ephemeral: true, defer: async () => {
     const { cfg, ok } = await requireRank(i, env, ADMIN_UP);
-    if (!ok) return msg("⛔ Banning is Admin and Owner only.", true);
-    if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
+    if (!ok) return msg("\u26D4 Banning is Admin and Owner only.", true);
+    if (!env.DISCORD_BOT_TOKEN) return msg("\u26A0\uFE0F Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
     const o = optMap(i);
     const r = await dapi(env, "PUT", `/guilds/${i.guild_id}/bans/${o.user}`, { delete_message_seconds: 0 });
-    if (r.ok) await postLog(env, cfg, `🔨 <@${o.user}> **banned** by <@${i.member.user.id}>${o.reason ? " — " + o.reason : ""}.`);
-    return msg(r.ok ? `🔨 Banned <@${o.user}>.` : "Couldn't ban (check the bot's permissions / role order).", true);
+    if (r.ok) await postLog(env, cfg, `\uD83D\uDD28 <@${o.user}> **banned** by <@${i.member.user.id}>${o.reason ? " \u2014 " + o.reason : ""}.`);
+    return msg(r.ok ? `\uD83D\uDD28 Banned <@${o.user}>.` : "Couldn't ban (check the bot's permissions / role order).", true);
   } }),
   unban: (i, env) => ({ ephemeral: true, defer: async () => {
     const { cfg, ok } = await requireRank(i, env, ADMIN_UP);
-    if (!ok) return msg("⛔ Unbanning is Admin and Owner only.", true);
-    if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
+    if (!ok) return msg("\u26D4 Unbanning is Admin and Owner only.", true);
+    if (!env.DISCORD_BOT_TOKEN) return msg("\u26A0\uFE0F Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
     // user_id is a free-text STRING option (Discord validates USER options, not these),
     // and it lands straight in the API path - so it must be a bare snowflake.
     const id = (optMap(i).user_id || "").trim();
     if (!isSnowflake(id)) return msg("That isn't a valid user ID. Use the 17-19 digit number.", true);
     const r = await dapi(env, "DELETE", `/guilds/${i.guild_id}/bans/${id}`);
-    if (r.ok) await postLog(env, cfg, `♻️ \`${id}\` **unbanned** by <@${i.member.user.id}>.`);
-    return msg(r.ok ? `♻️ Unbanned \`${id}\`.` : "Couldn't unban (is that ID actually banned?).", true);
+    if (r.ok) await postLog(env, cfg, `\u267B\uFE0F \`${id}\` **unbanned** by <@${i.member.user.id}>.`);
+    return msg(r.ok ? `\u267B\uFE0F Unbanned \`${id}\`.` : "Couldn't unban (is that ID actually banned?).", true);
   } }),
   clear: (i, env) => ({ ephemeral: true, defer: async () => {
-    const { ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
-    if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
+    const { ok } = await requireStaff(i, env); if (!ok) return msg("\u26D4 No permission.", true);
+    if (!env.DISCORD_BOT_TOKEN) return msg("\u26A0\uFE0F Needs the DISCORD_BOT_TOKEN secret on the Worker.", true);
     const n = Math.min(Math.max(parseInt(optMap(i).count) || 0, 1), 100);
     const ch = i.channel_id;
     const r = await dapi(env, "GET", `/channels/${ch}/messages?limit=${n}`);
@@ -550,16 +559,16 @@ const COMMANDS = {
     const ids = ms.map(m => m.id);
     if (ids.length >= 2) await dapi(env, "POST", `/channels/${ch}/messages/bulk-delete`, { messages: ids });
     else if (ids.length === 1) await dapi(env, "DELETE", `/channels/${ch}/messages/${ids[0]}`);
-    return msg(`🧹 Cleared ${ids.length} message(s).`, true);
+    return msg(`\uD83E\uDDF9 Cleared ${ids.length} message(s).`, true);
   } }),
   modlogs: (i, env) => ({ ephemeral: true, defer: async () => {
-    const { ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
+    const { ok } = await requireStaff(i, env); if (!ok) return msg("\u26D4 No permission.", true);
     const uid = optMap(i).user; const w = await userWarns(env, uid);
     // undefined = we could not unlock the pseudonymous ledger. Saying "no warnings"
     // there would be a lie that hides a real record.
     if (w === undefined) return msg("Can't read the mod ledger: the Worker needs the DISCORD_BOT_TOKEN secret.", true);
-    return embed({ title: "📋 Mod record", description: w
-      ? `<@${uid}>\nWarnings: **${w.warns || 0}**\nLast action: ${w.last || "—"}`
+    return embed({ title: "\uD83D\uDCCB Mod record", description: w
+      ? `<@${uid}>\nWarnings: **${w.warns || 0}**\nLast action: ${w.last || "\u2014"}`
       : `<@${uid}> has no recorded warnings.` });
   } }),
 };
@@ -567,453 +576,457 @@ const COMMANDS = {
 // ----- right-click context-menu commands (USER type 2 / MESSAGE type 3) -----
 const CONTEXT = {
   "Timeout 10m": (i, env) => ({ ephemeral: true, defer: async () => {
-    const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
-    if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret.", true);
+    const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("\u26D4 No permission.", true);
+    if (!env.DISCORD_BOT_TOKEN) return msg("\u26A0\uFE0F Needs the DISCORD_BOT_TOKEN secret.", true);
     const uid = i.data.target_id; const until = new Date(Date.now() + 10 * 60000).toISOString();
     const r = await dapi(env, "PATCH", `/guilds/${i.guild_id}/members/${uid}`, { communication_disabled_until: until });
-    if (r.ok) await postLog(env, cfg, `⏳ <@${uid}> timed out **10m** by <@${i.member.user.id}> (right-click).`);
-    return msg(r.ok ? `⏳ Timed out <@${uid}> for 10m.` : "Couldn't time them out.", true);
+    if (r.ok) await postLog(env, cfg, `\u23F3 <@${uid}> timed out **10m** by <@${i.member.user.id}> (right-click).`);
+    return msg(r.ok ? `\u23F3 Timed out <@${uid}> for 10m.` : "Couldn't time them out.", true);
   } }),
   "Warn": (i, env) => ({ ephemeral: true, defer: async () => {
-    const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
+    const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("\u26D4 No permission.", true);
     const uid = i.data.target_id;
-    await postLog(env, cfg, `⚠️ <@${uid}> was **warned** by <@${i.member.user.id}> (right-click).`);
-    return msg(`⚠️ Warned <@${uid}>.`, true);
+    await postLog(env, cfg, `\u26A0\uFE0F <@${uid}> was **warned** by <@${i.member.user.id}> (right-click).`);
+    return msg(`\u26A0\uFE0F Warned <@${uid}>.`, true);
   } }),
   "Mod record": (i, env) => ({ ephemeral: true, defer: async () => {
-    const { ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
+    const { ok } = await requireStaff(i, env); if (!ok) return msg("\u26D4 No permission.", true);
     const uid = i.data.target_id; const w = await userWarns(env, uid);
     // undefined = we could not unlock the pseudonymous ledger. Saying "no warnings"
     // there would be a lie that hides a real record.
     if (w === undefined) return msg("Can't read the mod ledger: the Worker needs the DISCORD_BOT_TOKEN secret.", true);
-    return embed({ title: "📋 Mod record", description: w
-      ? `<@${uid}>\nWarnings: **${w.warns || 0}**\nLast action: ${w.last || "—"}`
+    return embed({ title: "\uD83D\uDCCB Mod record", description: w
+      ? `<@${uid}>\nWarnings: **${w.warns || 0}**\nLast action: ${w.last || "\u2014"}`
       : `<@${uid}> has no recorded warnings.` });
   } }),
   "Delete & warn author": (i, env) => ({ ephemeral: true, defer: async () => {
-    const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("⛔ No permission.", true);
-    if (!env.DISCORD_BOT_TOKEN) return msg("⚠️ Needs the DISCORD_BOT_TOKEN secret.", true);
+    const { cfg, ok } = await requireStaff(i, env); if (!ok) return msg("\u26D4 No permission.", true);
+    if (!env.DISCORD_BOT_TOKEN) return msg("\u26A0\uFE0F Needs the DISCORD_BOT_TOKEN secret.", true);
     const mid = i.data.target_id;
     const m = ((i.data.resolved || {}).messages || {})[mid] || {};
     const author = (m.author || {}).id;
     await dapi(env, "DELETE", `/channels/${i.channel_id}/messages/${mid}`);
-    if (author) await postLog(env, cfg, `🗑️ A message from <@${author}> was deleted by <@${i.member.user.id}> (right-click).`);
-    return msg("🗑️ Deleted.", true);
+    if (author) await postLog(env, cfg, `\uD83D\uDDD1\uFE0F A message from <@${author}> was deleted by <@${i.member.user.id}> (right-click).`);
+    return msg("\uD83D\uDDD1\uFE0F Deleted.", true);
   } }),
 };
 
-// ---------- /studio: the owner's poster composer page ----------
-// A static page, served on GET /studio only. It reads no env, holds no secret and
-// makes no network call besides the Poppins font. All rendering is client-side on a
-// 1080x1350 canvas that follows the owner's poster rules: cover-filled photo, bottom
-// crushed to near-black, centered uppercase Poppins line with purple highlight words,
-// optional quote chip and inset portrait, tiny "VIA <SOURCE>" credit. No logo and no
-// channel name anywhere - the owner banned both.
-const STUDIO_HTML = `<!doctype html>
+// ---------- /studio: password gate ----------
+// WHY THIS COOKIE SCHEME IS SAFE
+//   The cookie is `sid = base64url({"exp": <ms>}) . base64url(HMAC-SHA256(payload))`,
+//   keyed by STUDIO_PASSWORD. It is a signed bearer token, not a database session, so:
+//   * Unforgeable without the password. The payload is public and tamper-EVIDENT, not
+//     secret: editing `exp` changes the signed string, the HMAC no longer matches, and
+//     the cookie is rejected. Nothing an attacker controls is ever parsed before the
+//     signature check passes.
+//   * The signature compare is constant time (ctEq). A byte-by-byte early return would
+//     leak the shared prefix and turn forgery into a few hundred requests.
+//   * The password itself never leaves the Worker and is never in the cookie, so the
+//     cookie cannot be replayed anywhere else (it is not a credential for GitHub,
+//     Discord or Cloudflare) and reading it teaches an attacker nothing about the
+//     password beyond a 32-byte MAC.
+//   * Expiry is inside the SIGNED payload, so a stale cookie cannot be extended by the
+//     client. Rotating STUDIO_PASSWORD invalidates every outstanding cookie at once,
+//     which is the whole logout-everywhere story.
+//   * HttpOnly keeps it away from page script, Secure keeps it off plain HTTP,
+//     SameSite=Lax blocks cross-site POSTs (so no CSRF against the write endpoints),
+//     and Path=/studio keeps it off the Discord interaction endpoint entirely.
+//   Known limits, accepted on purpose: there is no server-side revocation list (rotate
+//   the password instead), and the token is a bearer token, so anyone who can read the
+//   cookie jar is signed in. Both are the normal trade for a stateless Worker.
+const STUDIO_COOKIE = "sid";
+const STUDIO_TTL_MS = 30 * 24 * 60 * 60 * 1000;      // 30 days
+const LOGIN_MAX_FAILS = 8;
+const LOGIN_WINDOW_MS = 10 * 60 * 1000;              // per IP, per 10 minutes
+const STAGED_LIMIT = 25;
+
+function bytesToB64(bytes) {
+  let bin = "";
+  for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+  return btoa(bin);
+}
+function b64ToBytes(b64) {
+  const bin = atob(String(b64 == null ? "" : b64).replace(/\s/g, ""));
+  return Uint8Array.from(bin, c => c.charCodeAt(0));
+}
+function b64url(bytes) {
+  return bytesToB64(bytes).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+}
+function b64urlToBytes(s) {
+  let t = String(s == null ? "" : s).replace(/-/g, "+").replace(/_/g, "/");
+  while (t.length % 4) t += "=";
+  return b64ToBytes(t);
+}
+// Constant-time compare. Length is not treated as secret (both sides are fixed-shape
+// base64), but the CONTENT is.
+function ctEq(a, b) {
+  const enc = new TextEncoder();
+  const A = enc.encode(String(a == null ? "" : a));
+  const B = enc.encode(String(b == null ? "" : b));
+  let diff = A.length ^ B.length;
+  const n = Math.max(A.length, B.length, 1);
+  for (let i = 0; i < n; i++) diff |= (A[i] || 0) ^ (B[i] || 0);
+  return diff === 0;
+}
+async function hmacB64url(key, message) {
+  const k = await crypto.subtle.importKey("raw", new TextEncoder().encode(String(key)),
+    { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+  const sig = await crypto.subtle.sign("HMAC", k, new TextEncoder().encode(String(message)));
+  return b64url(new Uint8Array(sig));
+}
+// Mint a session token. `now` is injectable so the tests can mint an expired one.
+async function studioToken(env, now) {
+  const t = typeof now === "number" ? now : Date.now();
+  const payload = b64url(new TextEncoder().encode(JSON.stringify({ exp: t + STUDIO_TTL_MS })));
+  return payload + "." + await hmacB64url(env.STUDIO_PASSWORD, payload);
+}
+async function studioTokenValid(env, token, now) {
+  if (!env || !env.STUDIO_PASSWORD || typeof token !== "string") return false;
+  const parts = token.split(".");
+  if (parts.length !== 2 || !parts[0] || !parts[1]) return false;
+  let expected;
+  try { expected = await hmacB64url(env.STUDIO_PASSWORD, parts[0]); } catch (e) { return false; }
+  // Signature FIRST: nothing attacker-controlled is parsed until the MAC checks out.
+  if (!ctEq(parts[1], expected)) return false;
+  let obj;
+  try { obj = JSON.parse(new TextDecoder().decode(b64urlToBytes(parts[0]))); }
+  catch (e) { return false; }
+  const exp = obj && Number(obj.exp);
+  return Number.isFinite(exp) && exp > (typeof now === "number" ? now : Date.now());
+}
+function cookieValue(request, name) {
+  const raw = (request && request.headers && request.headers.get("cookie")) || "";
+  for (const part of raw.split(";")) {
+    const p = part.trim();
+    const eq = p.indexOf("=");
+    if (eq > 0 && p.slice(0, eq) === name) return p.slice(eq + 1);
+  }
+  return null;
+}
+// The one gate every /studio route goes through.
+async function requireStudio(request, env) {
+  return await studioTokenValid(env, cookieValue(request, STUDIO_COOKIE), Date.now());
+}
+// In-memory, per isolate. A Worker restart empties it, so this is a speed bump against
+// online guessing, never the security boundary: that is the password plus the HMAC.
+// Degrading to "no limit" on restart is deliberate; the alternative (fail closed on an
+// empty map) would lock the owner out every time Cloudflare recycles the isolate.
+const _loginFails = new Map();
+function loginTooMany(ip, now) {
+  const t = typeof now === "number" ? now : Date.now();
+  const e = _loginFails.get(ip || "?");
+  return !!(e && e.until > t && e.n >= LOGIN_MAX_FAILS);
+}
+function noteLoginFail(ip, now) {
+  const t = typeof now === "number" ? now : Date.now();
+  const key = ip || "?";
+  const e = _loginFails.get(key);
+  if (!e || e.until <= t) _loginFails.set(key, { n: 1, until: t + LOGIN_WINDOW_MS });
+  else e.n += 1;
+  if (_loginFails.size > 5000) {                       // bounded: never a memory leak
+    for (const [k, v] of _loginFails) if (v.until <= t) _loginFails.delete(k);
+  }
+}
+function clearLoginFails(ip) { _loginFails.delete(ip || "?"); }
+
+// ---------- /studio: responses ----------
+const STUDIO_HEADERS = {
+  "cache-control": "no-store",
+  "x-content-type-options": "nosniff",
+  "referrer-policy": "no-referrer",
+};
+// default-src 'none' plus exactly what the pages use. frame-ancestors stops clickjacking
+// of the write endpoints; connect-src 'self' means a caption pulled out of Discord can
+// never be turned into an exfiltration channel by the page that renders it.
+const STUDIO_CSP = [
+  "default-src 'none'",
+  "img-src 'self' data: blob: https:",
+  "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+  "font-src https://fonts.gstatic.com data:",
+  "script-src 'self' 'unsafe-inline'",
+  "connect-src 'self'",
+  "form-action 'self'",
+  "base-uri 'none'",
+  "frame-ancestors 'none'",
+].join("; ");
+function studioJson(obj, status) {
+  return new Response(JSON.stringify(obj), { status: status || 200,
+    headers: { "content-type": "application/json; charset=utf-8", ...STUDIO_HEADERS } });
+}
+function studioText(text, status) {
+  return new Response(text, { status: status || 200,
+    headers: { "content-type": "text/plain; charset=utf-8", ...STUDIO_HEADERS } });
+}
+function studioHtml(html) {
+  return new Response(html, { status: 200,
+    headers: { "content-type": "text/html; charset=utf-8",
+               "content-security-policy": STUDIO_CSP, ...STUDIO_HEADERS } });
+}
+function cookieHeader(value, maxAge) {
+  return STUDIO_COOKIE + "=" + value + "; HttpOnly; Secure; SameSite=Lax; Path=/studio; Max-Age=" + maxAge;
+}
+
+// The gate page. Dark, purple, Poppins, one password field and nothing else: it names
+// no product, no owner and no capability, so an unauthenticated visitor learns only
+// that something here wants a password.
+const LOGIN_HTML = `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0b0b11">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Studio">
-<title>Studio</title>
+<meta name="robots" content="noindex, nofollow">
+<title>Sign in</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0b0b11;--card:#14141d;--line:#23232f;--text:#f2f2f7;--dim:#9b9ba8;--accent:#8B70FF;--soft:rgba(139,112,255,.14)}
+:root{--bg:#0b0b11;--card:#14141d;--line:#23232f;--text:#f2f2f7;--dim:#9b9ba8;--accent:#8B70FF}
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%}
-body{background:var(--bg);color:var(--text);font-family:Poppins,system-ui,sans-serif;min-height:100vh;padding-bottom:44px}
-header{padding:calc(14px + env(safe-area-inset-top)) 18px 12px;display:flex;align-items:baseline;gap:10px}
-header h1{font-size:22px;font-weight:800;letter-spacing:.5px}
-header span{color:var(--dim);font-size:12px;font-weight:600}
-main{display:grid;gap:16px;padding:0 14px;max-width:560px;margin:0 auto}
-@media(min-width:960px){main{max-width:1080px;grid-template-columns:minmax(0,1fr) 420px;align-items:start}.preview{position:sticky;top:14px}}
-.preview canvas{width:100%;height:auto;display:block;border-radius:14px;border:1px solid var(--line);background:#000}
-.panel{display:grid;gap:14px}
-label{font-size:12px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--dim);display:block;margin-bottom:6px}
-input[type=text],textarea{width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;color:var(--text);font:500 16px Poppins,sans-serif;padding:14px;min-height:52px;outline:none}
-input[type=text]:focus,textarea:focus{border-color:var(--accent)}
-#line{text-transform:uppercase;font-weight:800}
-textarea{resize:vertical}
-.chips{display:flex;flex-wrap:wrap;gap:8px}
-.chips:empty{display:none}
-.chip{border:1px solid var(--line);background:var(--card);color:var(--text);font:800 14px Poppins,sans-serif;text-transform:uppercase;padding:10px 14px;border-radius:999px;min-height:44px;cursor:pointer}
-.chip.on{background:var(--accent);border-color:var(--accent);color:#0b0b11}
-.hint{color:var(--dim);font-size:12px;margin-top:-8px}
-.drop{border:2px dashed var(--line);border-radius:14px;background:var(--card);min-height:96px;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--dim);font-size:14px;padding:16px;cursor:pointer}
-.drop.over{border-color:var(--accent);color:var(--text);background:var(--soft)}
-.drop.set{border-style:solid;color:var(--text)}
-.row{display:flex;gap:10px;flex-wrap:wrap}
-button{font:600 15px Poppins,sans-serif;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--text);padding:14px 18px;min-height:52px;cursor:pointer;flex:1}
-button.primary{background:var(--accent);border-color:var(--accent);color:#0b0b11;font-weight:800}
-button.ghost{background:transparent}
-.hidden{display:none}
-.switch{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;min-height:52px;cursor:pointer;text-transform:none;letter-spacing:0;font:600 15px Poppins,sans-serif;color:var(--text);margin-bottom:0}
-.switch input{width:22px;height:22px;accent-color:var(--accent)}
+body{background:var(--bg);color:var(--text);font-family:Poppins,system-ui,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+form{width:100%;max-width:340px;display:grid;gap:14px}
+h1{font-size:20px;font-weight:800;letter-spacing:.4px;text-align:center}
+label{display:block;margin-bottom:6px;font-size:12px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--dim)}
+input{width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;color:var(--text);font:500 16px Poppins,sans-serif;padding:14px;min-height:52px;outline:none}
+input:focus{border-color:var(--accent)}
+button{width:100%;font:800 15px Poppins,sans-serif;border-radius:12px;border:1px solid var(--accent);background:var(--accent);color:#0b0b11;padding:14px 18px;min-height:52px;cursor:pointer}
+p{min-height:18px;text-align:center;font-size:13px;font-weight:600;color:#ff9a9a}
 </style>
 </head>
 <body>
-<header><h1>Studio</h1><span>poster composer</span></header>
-<main>
-<section class="preview"><canvas id="cv" width="1080" height="1350"></canvas></section>
-<section class="panel">
-  <div>
-    <label for="line">Poster line</label>
-    <input id="line" type="text" autocomplete="off" autocapitalize="characters" placeholder="TYPE THE POSTER LINE" value="THE RETURN NOBODY SAW COMING">
-  </div>
-  <div id="chips" class="chips"></div>
-  <p class="hint">Tap a word to turn it purple.</p>
-  <div>
-    <label>Main photo</label>
-    <div id="drop" class="drop" role="button" tabindex="0"><span id="dropLabel">Drop a photo here or tap to choose</span></div>
-    <input id="file" type="file" accept="image/*" class="hidden">
-  </div>
-  <button id="photoClear" type="button" class="ghost hidden">Remove photo</button>
-  <div class="row">
-    <button id="insetBtn" type="button" class="ghost">Add inset photo</button>
-    <button id="insetClear" type="button" class="ghost hidden">Remove inset</button>
-  </div>
-  <input id="insetFile" type="file" accept="image/*" class="hidden">
-  <label class="switch"><input id="quote" type="checkbox"><span>Quote chip above the line</span></label>
-  <div>
-    <label for="via">Via source</label>
-    <input id="via" type="text" autocomplete="off" autocapitalize="characters" placeholder="ESPN MMA">
-  </div>
-  <div>
-    <label for="caption">Caption</label>
-    <textarea id="caption" rows="5" placeholder="Write the caption to post with it"></textarea>
-  </div>
-  <div class="row">
-    <button id="copyBtn" type="button">Copy caption</button>
-    <button id="dl" type="button" class="primary">Download PNG</button>
-  </div>
-</section>
-</main>
+<form id="f">
+<h1>Sign in</h1>
+<div><label for="p">Password</label><input id="p" name="password" type="password" autocomplete="current-password" required autofocus></div>
+<button type="submit">Continue</button>
+<p id="e" role="alert"></p>
+</form>
 <script>
 (function () {
   "use strict";
-  var ACCENT = "#8B70FF";
-  var W = 1080, H = 1350;
-  var cv = document.getElementById("cv");
-  var ctx = cv.getContext("2d");
-  var lineEl = document.getElementById("line");
-  var chipsEl = document.getElementById("chips");
-  var viaEl = document.getElementById("via");
-  var quoteEl = document.getElementById("quote");
-  var capEl = document.getElementById("caption");
-  var drop = document.getElementById("drop");
-  var dropLabel = document.getElementById("dropLabel");
-  var fileEl = document.getElementById("file");
-  var photoClear = document.getElementById("photoClear");
-  var insetBtn = document.getElementById("insetBtn");
-  var insetClear = document.getElementById("insetClear");
-  var insetFile = document.getElementById("insetFile");
-  var copyBtn = document.getElementById("copyBtn");
-  var dl = document.getElementById("dl");
-  var photo = null, inset = null, hl = {};
-
-  function words() {
-    var t = (lineEl.value || "").trim();
-    return t ? t.split(/\\s+/) : [];
-  }
-
-  function renderChips() {
-    chipsEl.innerHTML = "";
-    var ws = words();
-    for (var i = 0; i < ws.length; i++) {
-      (function (idx, w) {
-        var b = document.createElement("button");
-        b.type = "button";
-        b.className = "chip" + (hl[idx] ? " on" : "");
-        b.textContent = w.toUpperCase();
-        b.addEventListener("click", function () { hl[idx] = !hl[idx]; renderChips(); draw(); });
-        chipsEl.appendChild(b);
-      })(i, ws[i]);
-    }
-  }
-
-  function cover(img, x, y, w, h) {
-    var s = Math.max(w / img.width, h / img.height);
-    var dw = img.width * s, dh = img.height * s;
-    ctx.drawImage(img, x + (w - dw) / 2, y + (h - dh) / 2, dw, dh);
-  }
-
-  function roundRect(x, y, w, h, r) {
-    ctx.beginPath();
-    ctx.moveTo(x + r, y);
-    ctx.arcTo(x + w, y, x + w, y + h, r);
-    ctx.arcTo(x + w, y + h, x, y + h, r);
-    ctx.arcTo(x, y + h, x, y, r);
-    ctx.arcTo(x, y, x + w, y, r);
-    ctx.closePath();
-  }
-
-  // Balanced greedy split of the words into n lines by character count.
-  function splitLines(ws, n) {
-    if (n <= 1 || ws.length <= 1) return [ws];
-    var total = 0, i;
-    for (i = 0; i < ws.length; i++) total += ws[i].t.length + 1;
-    var target = total / n;
-    var lines = [], cur = [], acc = 0;
-    for (i = 0; i < ws.length; i++) {
-      var add = ws[i].t.length + 1;
-      if (cur.length && lines.length < n - 1 && acc + add > target * (lines.length + 1)) {
-        lines.push(cur); cur = [];
-      }
-      cur.push(ws[i]); acc += add;
-    }
-    if (cur.length) lines.push(cur);
-    return lines;
-  }
-
-  function measureLine(lineWords, size) {
-    ctx.font = "900 " + size + "px Poppins, sans-serif";
-    var sp = ctx.measureText(" ").width;
-    var total = 0;
-    for (var i = 0; i < lineWords.length; i++) {
-      total += ctx.measureText(lineWords[i].t).width;
-      if (i) total += sp;
-    }
-    return total;
-  }
-
-  // 2 or 3 lines, auto-sized to fit. Prefers fewer lines while the type stays big.
-  function layoutText() {
-    var ws = words().map(function (w, i) { return { t: w.toUpperCase(), i: i }; });
-    if (!ws.length) return null;
-    var maxW = 940, cap = 116, floor = 40, bigEnough = 72;
-    var options = ws.length <= 3 ? [1, 2] : [2, 3];
-    var best = null;
-    for (var k = 0; k < options.length; k++) {
-      var lines = splitLines(ws, options[k]);
-      var widest = 0;
-      for (var m = 0; m < lines.length; m++) widest = Math.max(widest, measureLine(lines[m], 100));
-      var size = widest > 0 ? Math.min(cap, Math.floor(100 * maxW / widest)) : cap;
-      size = Math.max(size, floor);
-      var opt = { lines: lines, size: size };
-      if (size >= bigEnough) return opt;
-      if (!best || size > best.size) best = opt;
-    }
-    return best;
-  }
-
-  function drawWords(lineWords, baseY, size) {
-    ctx.font = "900 " + size + "px Poppins, sans-serif";
-    var sp = ctx.measureText(" ").width;
-    var widths = [], total = 0, i;
-    for (i = 0; i < lineWords.length; i++) {
-      widths[i] = ctx.measureText(lineWords[i].t).width;
-      total += widths[i];
-      if (i) total += sp;
-    }
-    var x = (W - total) / 2;
-    for (i = 0; i < lineWords.length; i++) {
-      ctx.fillStyle = hl[lineWords[i].i] ? ACCENT : "#ffffff";
-      ctx.fillText(lineWords[i].t, x, baseY);
-      x += widths[i] + sp;
-    }
-  }
-
-  function drawTracked(text, baseY, size, tracking, color, weight) {
-    ctx.font = weight + " " + size + "px Poppins, sans-serif";
-    ctx.fillStyle = color;
-    var total = 0, i;
-    for (i = 0; i < text.length; i++) {
-      total += ctx.measureText(text[i]).width;
-      if (i < text.length - 1) total += tracking;
-    }
-    var x = (W - total) / 2;
-    for (i = 0; i < text.length; i++) {
-      ctx.fillText(text[i], x, baseY);
-      x += ctx.measureText(text[i]).width + tracking;
-    }
-  }
-
-  function draw() {
-    ctx.clearRect(0, 0, W, H);
-    ctx.textAlign = "left";
-    ctx.textBaseline = "alphabetic";
-    if (photo) {
-      cover(photo, 0, 0, W, H);
-    } else {
-      ctx.fillStyle = "#0a0a0f";
-      ctx.fillRect(0, 0, W, H);
-      var glow = ctx.createRadialGradient(W / 2, H * 0.34, 60, W / 2, H * 0.34, 640);
-      glow.addColorStop(0, "rgba(139,112,255,0.22)");
-      glow.addColorStop(1, "rgba(139,112,255,0)");
-      ctx.fillStyle = glow;
-      ctx.fillRect(0, 0, W, H);
-    }
-    // Crush the bottom ~40 percent to near-black so the type always reads.
-    var g = ctx.createLinearGradient(0, H * 0.40, 0, H);
-    g.addColorStop(0, "rgba(7,7,11,0)");
-    g.addColorStop(0.45, "rgba(7,7,11,0.62)");
-    g.addColorStop(1, "rgba(7,7,11,0.96)");
-    ctx.fillStyle = g;
-    ctx.fillRect(0, 0, W, H);
-
-    var t = layoutText();
-    var via = (viaEl.value || "").trim().toUpperCase();
-    var y = H - 92;
-    if (via) {
-      drawTracked("VIA " + via, y, 26, 7, "rgba(197,197,210,0.85)", "600");
-      y -= 64;
-    } else {
-      y -= 8;
-    }
-    if (t) {
-      var lh = Math.round(t.size * 1.04);
-      var topBase = y - lh * (t.lines.length - 1);
-      for (var li = 0; li < t.lines.length; li++) drawWords(t.lines[li], topBase + li * lh, t.size);
-      y = topBase - t.size;
-    }
-    var gap = 40;
-    if (quoteEl.checked) {
-      var qw = 118, qh = 84, qy = y - gap - qh;
-      ctx.fillStyle = ACCENT;
-      roundRect((W - qw) / 2, qy, qw, qh, 20);
-      ctx.fill();
-      ctx.fillStyle = "#0b0b11";
-      ctx.font = "900 150px Poppins, sans-serif";
-      ctx.textAlign = "center";
-      var qm = ctx.measureText("\\u201D");
-      var asc = qm.actualBoundingBoxAscent || 105;
-      var desc = qm.actualBoundingBoxDescent || 0;
-      ctx.fillText("\\u201D", W / 2, qy + qh / 2 + (asc - desc) / 2);
-      ctx.textAlign = "left";
-      y = qy;
-    }
-    if (inset) {
-      var side = 216, iy = y - gap - side, ix = (W - side) / 2;
-      ctx.save();
-      roundRect(ix, iy, side, side, 14);
-      ctx.clip();
-      var s = Math.max(side / inset.width, side / inset.height);
-      ctx.drawImage(inset, ix + (side - inset.width * s) / 2, iy + (side - inset.height * s) / 2,
-        inset.width * s, inset.height * s);
-      ctx.restore();
-      ctx.strokeStyle = "rgba(255,255,255,0.92)";
-      ctx.lineWidth = 5;
-      roundRect(ix + 2.5, iy + 2.5, side - 5, side - 5, 12);
-      ctx.stroke();
-    }
-  }
-
-  function loadInto(file, cb) {
-    if (!file || String(file.type).indexOf("image") !== 0) return;
-    var url = URL.createObjectURL(file);
-    var img = new Image();
-    img.onload = function () { URL.revokeObjectURL(url); cb(img); draw(); };
-    img.src = url;
-  }
-
-  function setPhoto(img) {
-    photo = img;
-    drop.classList.add("set");
-    dropLabel.textContent = "Photo added, tap to replace";
-    photoClear.classList.remove("hidden");
-  }
-  function setInset(img) {
-    inset = img;
-    insetClear.classList.remove("hidden");
-    insetBtn.textContent = "Replace inset photo";
-  }
-
-  drop.addEventListener("click", function () { fileEl.click(); });
-  drop.addEventListener("keydown", function (e) {
-    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); fileEl.click(); }
+  var f = document.getElementById("f"), p = document.getElementById("p"), e = document.getElementById("e");
+  f.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    e.textContent = "";
+    fetch("/studio/login", { method: "POST", headers: { "content-type": "application/json" },
+                             body: JSON.stringify({ password: p.value }) })
+      .then(function (r) {
+        if (r.ok) { location.replace("/studio"); return; }
+        e.textContent = r.status === 429 ? "Too many attempts. Wait a few minutes." : "Sign in failed.";
+        p.value = "";
+      })
+      .catch(function () { e.textContent = "Sign in failed."; });
   });
-  ["dragenter", "dragover"].forEach(function (n) {
-    drop.addEventListener(n, function (e) { e.preventDefault(); drop.classList.add("over"); });
-  });
-  drop.addEventListener("dragleave", function () { drop.classList.remove("over"); });
-  drop.addEventListener("drop", function (e) {
-    e.preventDefault();
-    drop.classList.remove("over");
-    var f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
-    loadInto(f, setPhoto);
-  });
-  document.addEventListener("dragover", function (e) { e.preventDefault(); });
-  document.addEventListener("drop", function (e) { e.preventDefault(); });
-
-  fileEl.addEventListener("change", function () { loadInto(fileEl.files[0], setPhoto); fileEl.value = ""; });
-  photoClear.addEventListener("click", function () {
-    photo = null;
-    drop.classList.remove("set");
-    dropLabel.textContent = "Drop a photo here or tap to choose";
-    photoClear.classList.add("hidden");
-    draw();
-  });
-  insetBtn.addEventListener("click", function () { insetFile.click(); });
-  insetFile.addEventListener("change", function () { loadInto(insetFile.files[0], setInset); insetFile.value = ""; });
-  insetClear.addEventListener("click", function () {
-    inset = null;
-    insetClear.classList.add("hidden");
-    insetBtn.textContent = "Add inset photo";
-    draw();
-  });
-
-  lineEl.addEventListener("input", function () { renderChips(); draw(); });
-  viaEl.addEventListener("input", draw);
-  quoteEl.addEventListener("change", draw);
-
-  copyBtn.addEventListener("click", function () {
-    var text = capEl.value || "";
-    function done() {
-      copyBtn.textContent = "Copied";
-      setTimeout(function () { copyBtn.textContent = "Copy caption"; }, 1400);
-    }
-    function fallback() {
-      capEl.select();
-      try { document.execCommand("copy"); } catch (e) {}
-      if (window.getSelection) window.getSelection().removeAllRanges();
-      capEl.blur();
-    }
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(done, function () { fallback(); done(); });
-    } else { fallback(); done(); }
-  });
-
-  dl.addEventListener("click", function () {
-    cv.toBlob(function (b) {
-      if (!b) return;
-      var a = document.createElement("a");
-      a.href = URL.createObjectURL(b);
-      a.download = "post.png";
-      document.body.appendChild(a);
-      a.click();
-      setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 800);
-    }, "image/png");
-  });
-
-  // First paint right away, then again once the Poppins weights are really loaded.
-  renderChips();
-  draw();
-  if (document.fonts && document.fonts.load) {
-    Promise.all([
-      document.fonts.load("900 40px Poppins"),
-      document.fonts.load("800 40px Poppins"),
-      document.fonts.load("600 40px Poppins")
-    ]).then(draw, draw);
-    if (document.fonts.ready && document.fonts.ready.then) document.fonts.ready.then(draw);
-  }
 })();
 </script>
 </body>
 </html>
 `;
 
+async function studioLogin(request, env) {
+  const ip = request.headers.get("cf-connecting-ip") || "?";
+  const now = Date.now();
+  if (loginTooMany(ip, now)) return studioJson({ error: "too many attempts" }, 429);
+  let supplied = "";
+  try {
+    const ctype = String(request.headers.get("content-type") || "");
+    if (ctype.indexOf("application/json") !== -1) {
+      const b = await request.json();
+      supplied = String((b && b.password) || "");
+    } else {
+      const f = await request.formData();
+      supplied = String(f.get("password") || "");
+    }
+  } catch (e) { supplied = ""; }
+  if (!ctEq(supplied, env.STUDIO_PASSWORD)) {
+    noteLoginFail(ip, now);
+    // Deliberately generic. No "wrong password" against "no session", no hint about
+    // what is behind the gate, and the same shape for every failure.
+    return studioJson({ error: "sign in failed" }, 401);
+  }
+  clearLoginFails(ip);
+  const token = await studioToken(env, now);
+  return new Response(JSON.stringify({ ok: true }), { status: 200,
+    headers: { "content-type": "application/json; charset=utf-8",
+               "set-cookie": cookieHeader(token, Math.floor(STUDIO_TTL_MS / 1000)),
+               ...STUDIO_HEADERS } });
+}
+
+// ---------- /studio: staged posts ----------
+// PURE: Discord messages -> the studio queue. Exactly six fields ever leave the Worker.
+// No author, no member ids, no bot token, and nothing from any other channel.
+// Message shape written by the staging bot: "Staged post - score NN (why)" followed by
+// the caption in a fenced block, with the poster as the first attachment.
+function parseStagedOne(m) {
+  const content = String((m && m.content) || "");
+  const head = /score\s+(\d{1,3})\s*(?:\(([^)]*)\))?/i.exec(content);
+  const fence = /```(?:[a-zA-Z0-9_+-]*\n)?([\s\S]*?)```/.exec(content);
+  const att = (((m && m.attachments) || [])[0]) || {};
+  const emb = (((m && m.embeds) || [])[0]) || {};
+  const url = (typeof att.url === "string" && att.url) ||
+              (emb.image && typeof emb.image.url === "string" && emb.image.url) || "";
+  return {
+    id: String((m && m.id) || ""),
+    score: head ? Number(head[1]) : null,
+    why: head && head[2] ? head[2].trim() : "",
+    caption: fence ? fence[1].trim() : "",
+    // https only: this lands in an <img src> on the page, so a javascript: or data:
+    // value from a spoofed message must never survive the trip.
+    image_url: url.indexOf("https://") === 0 ? url : null,
+    timestamp: (m && m.timestamp) || null,
+  };
+}
+function parseStaged(messages) {
+  return (Array.isArray(messages) ? messages : [])
+    .filter(m => m && /staged\s+post/i.test(String(m.content || "")))
+    .map(parseStagedOne);
+}
+async function studioStaged(env) {
+  if (!env.DISCORD_BOT_TOKEN) return studioJson({ error: "the worker needs the DISCORD_BOT_TOKEN secret" }, 503);
+  const cfg = await botsConfig(env);                    // raw CDN read, cached 5 minutes
+  const ch = ((cfg || {}).channels || {}).studio;
+  // Hard fail. With no configured studio channel there is no safe default: falling back
+  // to "some" channel would publish member chat through an API meant for one queue.
+  if (!isSnowflake(ch)) return studioJson({ error: "channels.studio is missing from bots_config.json" }, 503);
+  const r = await dapi(env, "GET", "/channels/" + ch + "/messages?limit=" + STAGED_LIMIT);
+  if (!r || !r.ok) return studioJson({ error: "could not read the staging channel" }, 502);
+  let list = [];
+  try { list = await r.json(); } catch (e) { list = []; }
+  return studioJson(parseStaged(list), 200);
+}
+
+// ---------- /studio: AI key ----------
+// Allowlist, not a caller-built name: the provider string never reaches the API path.
+const AI_PROVIDERS = { deepseek: "DEEPSEEK_API_KEY", openrouter: "OPENROUTER_API_KEY" };
+// libsodium's crypto_box_seal, which is the only format GitHub's Actions secrets API
+// accepts: ephemeral X25519 keypair, nonce = blake2b(epk || recipient_pk, 24 bytes),
+// output = epk || crypto_box_easy(secret, nonce, recipient_pk, esk).
+// tweetnacl gives crypto_box_easy; blakejs gives the generichash. Both are pure JS and
+// wrangler bundles them. If either is missing the caller returns 501 rather than
+// shipping a payload GitHub would store as garbage.
+async function sealBox(messageBytes, recipientKeyB64) {
+  let nacl, blake;
+  try {
+    nacl = (await import("tweetnacl")).default;
+    blake = await import("blakejs");
+  } catch (e) { return null; }
+  const b2b = (blake && (blake.blake2b || (blake.default && blake.default.blake2b))) || null;
+  if (!nacl || !nacl.box || !nacl.box.keyPair || !b2b) return null;
+  let rpk;
+  try { rpk = b64ToBytes(recipientKeyB64); } catch (e) { return null; }
+  if (rpk.length !== 32) return null;
+  const eph = nacl.box.keyPair();
+  const nonceInput = new Uint8Array(64);
+  nonceInput.set(eph.publicKey, 0);
+  nonceInput.set(rpk, 32);
+  const nonce = b2b(nonceInput, null, 24);
+  const boxed = nacl.box(messageBytes, nonce, rpk, eph.secretKey);
+  if (!boxed) return null;
+  const out = new Uint8Array(32 + boxed.length);
+  out.set(eph.publicKey, 0);
+  out.set(boxed, 32);
+  return bytesToB64(out);
+}
+async function putRepoSecret(env, name, value) {
+  const pk = await getJSON(ghBase(env) + "/actions/secrets/public-key", ghHeaders(env));
+  if (!pk || !pk.key || !pk.key_id) {
+    return { ok: false, status: 502, error: "could not read the repository public key (check the GITHUB_TOKEN repo scope)" };
+  }
+  const sealed = await sealBox(new TextEncoder().encode(value), pk.key);
+  if (!sealed) {
+    return { ok: false, status: 501,
+             error: "sealed box encryption is not available in this build: run npm install in commands_worker, then redeploy the worker" };
+  }
+  const r = await fetch(ghBase(env) + "/actions/secrets/" + name, { method: "PUT",
+    headers: ghHeaders(env), body: JSON.stringify({ encrypted_value: sealed, key_id: pk.key_id }) });
+  if (r.ok) return { ok: true, status: r.status };
+  return { ok: false, status: 502, error: "github refused the write (HTTP " + r.status + ")" };
+}
+async function studioAiKeyStatus(env) {
+  if (!env.GITHUB_TOKEN) return studioJson({ error: "the worker needs the GITHUB_TOKEN secret" }, 503);
+  // The list endpoint returns NAMES and timestamps. Actions secret VALUES cannot be read
+  // back out at all, by GitHub's design, so there is no key material on this path.
+  const r = await getJSON(ghBase(env) + "/actions/secrets?per_page=100", ghHeaders(env));
+  const names = new Set(((r && r.secrets) || []).map(s => String((s && s.name) || "").toUpperCase()));
+  const out = {};
+  for (const p of Object.keys(AI_PROVIDERS)) out[p] = names.has(AI_PROVIDERS[p]);
+  return studioJson(out, 200);
+}
+async function studioAiKeySave(request, env) {
+  if (!env.GITHUB_TOKEN) return studioJson({ error: "the worker needs the GITHUB_TOKEN secret" }, 503);
+  let body = {};
+  try { body = await request.json(); } catch (e) { body = {}; }
+  const provider = String((body && body.provider) || "").toLowerCase();
+  const name = AI_PROVIDERS[provider];
+  if (!name) return studioJson({ error: "unknown provider" }, 400);
+  const key = String((body && body.key) || "").trim();
+  // Shape check only, and the value is never echoed back, never logged and never put in
+  // an error string.
+  if (key.length < 8 || key.length > 512 || /[^!-~]/.test(key)) {
+    return studioJson({ error: "that does not look like an API key" }, 400);
+  }
+  const res = await putRepoSecret(env, name, key);
+  if (res.ok) return studioJson({ ok: true, provider: provider, stored: true }, 200);
+  return studioJson({ ok: false, error: res.error }, res.status);
+}
+
+// ---------- /studio: capability facts ----------
+// One source of truth for what the platforms actually allow, so the page never implies
+// a capability that does not exist. Checked against the YouTube Data API v3 reference:
+// there is no community post resource, in either direction.
+const STUDIO_LIMITS = {
+  youtube_api_supports_community_posts: false,
+  note: "The YouTube Data API has no community post resource, so nothing can create, edit or read a community post through it. The handoff ends with a caption and an image you paste into YouTube Studio by hand.",
+};
+
+// ---------- /studio: router ----------
+// Every /studio path is answered here and returns. The Discord interaction endpoint is
+// below this in fetch(), so no request to a /studio route can reach a command handler,
+// signed or not.
+async function studioRouter(request, env, url) {
+  // Normalise before matching so "/studio/" and "/studio//api/staged" cannot slip past
+  // a route check and land on the catch-all with a different answer.
+  const path = url.pathname.replace(/\/{2,}/g, "/").replace(/(.)\/+$/, "$1");
+  // Never open by default. With no password configured the whole surface is closed,
+  // APIs included, rather than falling back to a public page.
+  if (!env || !env.STUDIO_PASSWORD) return studioText("studio not configured", 503);
+
+  if (path === "/studio/login") {
+    if (request.method !== "POST") return studioJson({ error: "method not allowed" }, 405);
+    return await studioLogin(request, env);
+  }
+  if (path === "/studio/logout") {
+    if (request.method !== "POST") return studioJson({ error: "method not allowed" }, 405);
+    return new Response(JSON.stringify({ ok: true }), { status: 200,
+      headers: { "content-type": "application/json; charset=utf-8",
+                 "set-cookie": cookieHeader("", 0), ...STUDIO_HEADERS } });
+  }
+
+  const authed = await requireStudio(request, env);
+  // The only unauthenticated page: the gate itself. The editor is never sent to a
+  // request that has not proven it knows the password.
+  if (path === "/studio" && request.method === "GET") {
+    return studioHtml(authed ? STUDIO_HTML : LOGIN_HTML);
+  }
+  if (!authed) return studioJson({ error: "unauthorized" }, 401);
+
+  if (path === "/studio/api/staged" && request.method === "GET") return await studioStaged(env);
+  if (path === "/studio/api/aikey" && request.method === "GET") return await studioAiKeyStatus(env);
+  if (path === "/studio/api/aikey" && request.method === "POST") return await studioAiKeySave(request, env);
+  if (path === "/studio/api/limits" && request.method === "GET") return studioJson(STUDIO_LIMITS, 200);
+  return studioJson({ error: "not found" }, 404);
+}
+
 export default {
   async fetch(request, env, ctx) {
-    if (request.method === "GET" && new URL(request.url).pathname === "/studio") {
-      return new Response(STUDIO_HTML, { headers: { "content-type": "text/html; charset=utf-8" } });
+    const url = new URL(request.url);
+    // The studio surface is answered in full here and RETURNS, so the Discord
+    // interaction endpoint below is unreachable from any /studio path: a POST to
+    // /studio, signed or not, can never run a command handler.
+    if (url.pathname === "/studio" || url.pathname.startsWith("/studio/")) {
+      return await studioRouter(request, env, url);
     }
-    if (request.method !== "POST") return new Response("Slash commands — online.");
+    if (request.method !== "POST") return new Response("Slash commands \u2014 online.");
     const body = await request.text();
     if (!await verify(request, body, env.DISCORD_PUBLIC_KEY)) return new Response("bad signature", { status: 401 });
     const interaction = JSON.parse(body);
@@ -1031,7 +1044,7 @@ export default {
         })());
         // Ephemerality is fixed HERE, at defer time, and cannot be changed by the later
         // followup PATCH. Without `flags` on this response every staff reply posted
-        // PUBLICLY - including /modlogs warning histories and "⛔ No permission" - even
+        // PUBLICLY - including /modlogs warning histories and " No permission" - even
         // though each handler passed msg(..., true). The flag has to ride on the defer.
         return json({ type: T.DEFER, data: res.ephemeral ? { flags: EPHEMERAL } : undefined });
       }
@@ -1044,4 +1057,9 @@ export default {
 // exported for offline tests (harmless in the Worker runtime)
 export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildPoll, fighterEmbed, avatarUrl, snowflakeDate, fmtBouts, EIGHTBALL,
   subPath, isStaffFromRoles, applyModChange, applyNewsChange, resolveCats, MOD_CATEGORIES, MEDIA_POLICIES,
-  socialLines, SOCIALS_FALLBACK, COMMANDS, CONTEXT, isSnowflake, safeApiPath, uidKey, userWarns, ADMIN_UP };
+  socialLines, SOCIALS_FALLBACK, COMMANDS, CONTEXT, isSnowflake, safeApiPath, uidKey, userWarns, ADMIN_UP,
+  // /studio
+  ctEq, studioToken, studioTokenValid, cookieValue, requireStudio, parseStaged, parseStagedOne,
+  loginTooMany, noteLoginFail, clearLoginFails, LOGIN_MAX_FAILS, sealBox, b64ToBytes, bytesToB64,
+  AI_PROVIDERS, STUDIO_LIMITS, STUDIO_COOKIE, STUDIO_TTL_MS, LOGIN_HTML, STUDIO_HTML, STUDIO_CSP,
+  resetStudioCaches };
