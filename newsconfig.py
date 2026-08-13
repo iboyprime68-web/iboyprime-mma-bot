@@ -117,7 +117,18 @@ _DEFAULT_BREAKING = [
     "off the card", "officially announced", "signs with the ufc", "new champion",
 ]
 # Hard server rule (no betting/gambling content) - these always ship on.
-_DEFAULT_EXCLUDE = ["betting", "odds", "parlay", "dfs", "sportsbook", "gambling"]
+# The generic words are not enough: a live check on Aug 13 2026 caught
+# "UFC 330 Picks: Top DraftKings DFS Fantasy MMA Targets" only because "dfs"
+# happened to be in the title, while "FanDuel fantasy preview" and a
+# "PrizePicks board" sailed through. Operator BRANDS are how this content is
+# actually named, so they are listed explicitly.
+# Deliberately NOT excluded: "picks" and "predictions" on their own - fight
+# picks are analysis, not gambling, and the server's own prediction polls use
+# that language.
+_DEFAULT_EXCLUDE = ["betting", "odds", "parlay", "dfs", "sportsbook", "gambling",
+                    "draftkings", "fanduel", "prizepicks", "betmgm", "bet365",
+                    "bovada", "daily fantasy", "moneyline", "prop bet",
+                    "point spread", "wager"]
 
 
 def base_defaults():
