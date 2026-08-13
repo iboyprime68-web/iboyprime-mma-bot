@@ -1300,22 +1300,29 @@ check("the cookie scheme is documented in source",
 // The deploy config used to describe a PBKDF2-derived cookie key long after the code
 // stopped doing that. Documentation that describes a design the code deliberately
 // abandoned is how a fixed bug gets reintroduced by the next person reading it.
-const wrangler = readFileSync(fileURLToPath(new URL("./wrangler.toml", import.meta.url)), "utf8");
-check("wrangler.toml no longer claims the cookie key is derived from the password",
-  !/PBKDF2-HMAC-SHA256, 200k iterations/.test(wrangler) &&
-  !/signed with a key DERIVED from it/.test(wrangler));
-check("wrangler.toml documents the separate signing key as required",
-  /STUDIO_SIGNING_KEY/.test(wrangler) && /SEPARATE random secret/.test(wrangler));
-check("wrangler.toml warns the next reader off reintroducing PBKDF2",
-  /Do NOT reintroduce PBKDF2/.test(wrangler) && /1102/.test(wrangler));
-check("wrangler.toml documents the optional analytics secrets the usage route reads",
-  /CLOUDFLARE_ANALYTICS_TOKEN/.test(wrangler) && /CLOUDFLARE_ACCOUNT_ID/.test(wrangler));
-check("wrangler.toml holds no secret VALUE, only names",
-  !/^\s*(STUDIO_PASSWORD|STUDIO_SIGNING_KEY|GITHUB_TOKEN|DISCORD_BOT_TOKEN|CLOUDFLARE_ANALYTICS_TOKEN)\s*=/m.test(wrangler));
-check("the analytics script name matches the deployed worker name",
-  /WORKER_NAME\s*=\s*"iboyprime-commands"/.test(wrangler) && /^name = "iboyprime-commands"/m.test(wrangler));
+// wrangler.toml is deliberately NEVER uploaded to the public repo (it names the
+// account and worker wiring), so in the CI checkout these doc checks SKIP - an
+// unguarded read crashed the whole dispatched selftest run (Aug 13 2026).
+let wrangler = null;
+try { wrangler = readFileSync(fileURLToPath(new URL("./wrangler.toml", import.meta.url)), "utf8"); }
+catch (e) { console.log("  SKIP: wrangler.toml not in this checkout (local-only file)"); }
+if (wrangler !== null) {
+  check("wrangler.toml no longer claims the cookie key is derived from the password",
+    !/PBKDF2-HMAC-SHA256, 200k iterations/.test(wrangler) &&
+    !/signed with a key DERIVED from it/.test(wrangler));
+  check("wrangler.toml documents the separate signing key as required",
+    /STUDIO_SIGNING_KEY/.test(wrangler) && /SEPARATE random secret/.test(wrangler));
+  check("wrangler.toml warns the next reader off reintroducing PBKDF2",
+    /Do NOT reintroduce PBKDF2/.test(wrangler) && /1102/.test(wrangler));
+  check("wrangler.toml documents the optional analytics secrets the usage route reads",
+    /CLOUDFLARE_ANALYTICS_TOKEN/.test(wrangler) && /CLOUDFLARE_ACCOUNT_ID/.test(wrangler));
+  check("wrangler.toml holds no secret VALUE, only names",
+    !/^\s*(STUDIO_PASSWORD|STUDIO_SIGNING_KEY|GITHUB_TOKEN|DISCORD_BOT_TOKEN|CLOUDFLARE_ANALYTICS_TOKEN)\s*=/m.test(wrangler));
+  check("the analytics script name matches the deployed worker name",
+    /WORKER_NAME\s*=\s*"iboyprime-commands"/.test(wrangler) && /^name = "iboyprime-commands"/m.test(wrangler));
+}
 check("worker source is ASCII only (non-ASCII bytes travel badly through this toolchain)",
-  !/[^\x00-\x7F]/.test(workerSrc) && !/[^\x00-\x7F]/.test(wrangler));
+  !/[^\x00-\x7F]/.test(workerSrc) && (wrangler === null || !/[^\x00-\x7F]/.test(wrangler)));
 check("no studio response is ever built out of an env value",
   !/studioJson\(env/.test(code) && !/studioText\(env/.test(code) && !/studioHtml\(env/.test(code) &&
   !/JSON\.stringify\(env/.test(code));
