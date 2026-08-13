@@ -293,6 +293,23 @@ check("the login page stays lean (no framework, under 8 KB)", gateBody.length < 
 check("studio pages ship a CSP that blocks framing and cross-origin exfiltration",
   (gate.headers.get("content-security-policy") || "") === STUDIO_CSP &&
   STUDIO_CSP.includes("frame-ancestors 'none'") && STUDIO_CSP.includes("connect-src 'self'"));
+// The page has to FETCH the staged poster (drawing it into a canvas taints the canvas
+// unless the bytes arrive by fetch), and connect-src 'self' turned every one of those
+// loads into a blocked request plus a console violation.
+const cspDir = d => (STUDIO_CSP.split("; ").find(x => x.indexOf(d + " ") === 0) || "");
+check("connect-src allows the two Discord CDN hosts the page actually fetches",
+  cspDir("connect-src").includes("https://cdn.discordapp.com") &&
+  cspDir("connect-src").includes("https://media.discordapp.net"));
+check("img-src allows the same two hosts",
+  cspDir("img-src").includes("https://cdn.discordapp.com") &&
+  cspDir("img-src").includes("https://media.discordapp.net"));
+check("neither directive is a blanket https: (an open img-src is its own exfil channel)",
+  !/\bhttps:(\s|$)/.test(cspDir("img-src")) && !/\bhttps:(\s|$)/.test(cspDir("connect-src")) &&
+  !cspDir("connect-src").includes("*"));
+check("the page can still draw what it builds itself (data: and blob: images)",
+  cspDir("img-src").includes("data:") && cspDir("img-src").includes("blob:"));
+check("default-src is still 'none', so nothing else loads by accident",
+  STUDIO_CSP.indexOf("default-src 'none'") === 0);
 check("studio responses are never cached", gate.headers.get("cache-control") === "no-store");
 
 // ----- sign in -----
@@ -361,6 +378,51 @@ check("ctEq handles empty and null without throwing",
 check("the signature is compared in constant time, not with ===",
   /if \(!ctEq\(parts\[1\], expected\)\) return false/.test(code));
 
+// ----- the cookie key is DERIVED, not the password itself -----
+// Keying the HMAC with the raw password handed out an offline cracking oracle: the
+// plaintext is fully known ({"exp": <ms>}), so one captured cookie let anyone test
+// candidate passwords locally at one SHA-256 per guess, forever, with nothing to rate
+// limit. PBKDF2 makes each guess cost STUDIO_KDF_ITERS hashes instead of one.
+const { pbkdf2Bits, studioKey, hmacB64url, ctEqBytes, STUDIO_KDF_ITERS, STUDIO_KDF_SALT,
+        LOGIN_FAIL_DELAY_MS } = _test;
+const rawSignedPayload = SID.split(".")[0];
+const rawSigned = rawSignedPayload + "." + await hmacB64url(PW, rawSignedPayload);
+check("a cookie signed with the RAW password is rejected (the old scheme's key)",
+  await studioTokenValid(ENV, rawSigned) === false);
+check("that forgery is a real, well-formed cookie otherwise (the key is the only change)",
+  rawSigned.split(".").length === 2 && rawSigned.split(".")[0] === rawSignedPayload &&
+  rawSigned !== SID && await studioTokenValid(ENV, SID) === true);
+const derived = await studioKey(ENV);
+check("the derived key is 32 bytes of PBKDF2 output",
+  derived instanceof Uint8Array && derived.length === 32);
+check("the derivation is deterministic and password-bound",
+  ctEqBytes(derived, await pbkdf2Bits(PW)) === true &&
+  ctEqBytes(derived, await pbkdf2Bits(PW + "2")) === false);
+check("the cookie signature really is the derived key, not the password",
+  SID.split(".")[1] === await hmacB64url(derived, rawSignedPayload));
+check("the iteration count is at or above 200000, with a fixed application salt",
+  STUDIO_KDF_ITERS >= 200000 && typeof STUDIO_KDF_SALT === "string" && STUDIO_KDF_SALT.length >= 8 &&
+  /iterations: STUDIO_KDF_ITERS, hash: "SHA-256"/.test(code));
+check("the derivation for the configured password is cached per isolate (paid once)",
+  /_kdfCache/.test(code) && /const _kdfCache = new Map\(\)/.test(code));
+check("a login candidate is NEVER cached (the work factor is the defence)",
+  /const got = await pbkdf2Bits\(supplied\)/.test(code) && !/_kdfCache\.set\(supplied/.test(code));
+check("the login compares derived bits in constant time, not the passwords",
+  /ctEqBytes\(got, want\)/.test(code) && !/ctEq\(supplied, env\.STUDIO_PASSWORD\)/.test(code));
+check("ctEqBytes rejects a one-byte difference and a length difference",
+  ctEqBytes(new Uint8Array([1, 2, 3]), new Uint8Array([1, 2, 3])) === true &&
+  ctEqBytes(new Uint8Array([1, 2, 3]), new Uint8Array([1, 2, 4])) === false &&
+  ctEqBytes(new Uint8Array([1, 2]), new Uint8Array([1, 2, 0])) === false &&
+  ctEqBytes(null, null) === true);
+check("a failed login pays a fixed delay on top of the derivation",
+  LOGIN_FAIL_DELAY_MS >= 200 && /await sleep\(LOGIN_FAIL_DELAY_MS\)/.test(code));
+check("the limiter comment states it is per isolate and claims no distributed limiting",
+  /PER ISOLATE/.test(workerSrc) && /NOT distributed rate limiting/.test(workerSrc));
+check("the cookie comment states what is actually true about the KDF",
+  /WHAT THIS COOKIE SCHEME DOES, AND WHAT IT DOES NOT DO/.test(workerSrc) &&
+  /offline password-cracking oracle/.test(workerSrc) &&
+  !/WHY THIS COOKIE SCHEME IS SAFE/.test(workerSrc));
+
 // ----- logout -----
 const bye = await worker.fetch(req("/studio/logout", { method: "POST" }), ENV, {});
 check("logout returns 200 and expires the cookie",
@@ -393,32 +455,95 @@ check("a trailing slash does not dodge a route check",
   (await worker.fetch(req("/studio//api/staged"), ENV, {})).status === 401);
 
 // ----- staged posts -----
+// BOT_ID is this application's own bot user. The staging channel is a staff channel,
+// and "staff" is not "us": anyone who can post there could otherwise hand-write a
+// "Staged post - score 99" and have it appear in the owner's queue as pipeline output.
+const BOT_ID = "1500000000000000001";
+const AUTHOR = { id: BOT_ID, username: "bot" };
 const STAGED_MSGS = [
-  { id: "111", timestamp: "2026-08-13T10:00:00.000Z",
-    content: "Staged post - score 82 (clean head kick, sharp crop)\n```\nThe finish nobody called.\nTwo lines of caption.\n```",
+  { id: "111", timestamp: "2026-08-13T10:00:00.000Z", author: AUTHOR,
+    content: "Staged post - score 82 (clean head kick, sharp crop)\n```\nThe finish nobody called.\nTwo lines of caption.\n\nvia MMA Fighting\n#UFC\n```",
     attachments: [{ url: "https://cdn.discordapp.com/attachments/1/2/post.png" }] },
-  { id: "222", timestamp: "2026-08-13T09:00:00.000Z", content: "Staged post - score 7\n```md\nlow scorer\n```",
-    attachments: [], embeds: [{ image: { url: "https://cdn.discordapp.com/x.jpg" } }] },
-  { id: "333", timestamp: "2026-08-13T08:00:00.000Z", content: "just some chat in the channel", attachments: [] },
-  { id: "444", timestamp: "2026-08-13T07:00:00.000Z", content: "Staged post - score 50 (odd one)",
+  { id: "222", timestamp: "2026-08-13T09:00:00.000Z", author: AUTHOR, content: "Staged post - score 7\n```md\nlow scorer\n```",
+    attachments: [], embeds: [{ image: { url: "https://media.discordapp.net/x.jpg" } }] },
+  { id: "333", timestamp: "2026-08-13T08:00:00.000Z", author: AUTHOR, content: "just some chat in the channel", attachments: [] },
+  { id: "444", timestamp: "2026-08-13T07:00:00.000Z", author: AUTHOR, content: "Staged post - score 50 (odd one)",
     attachments: [{ url: "javascript:alert(1)" }] },
 ];
-const staged = parseStaged(STAGED_MSGS);
+const staged = parseStaged(STAGED_MSGS, BOT_ID);
 check("parseStaged keeps only staged posts", staged.length === 3 && !staged.some(s => s.id === "333"));
 check("parseStaged reads the score", staged[0].score === 82 && staged[1].score === 7);
 check("parseStaged reads the reason out of the brackets",
   staged[0].why === "clean head kick, sharp crop" && staged[1].why === "");
 check("parseStaged reads the caption out of the fenced block",
-  staged[0].caption === "The finish nobody called.\nTwo lines of caption." && staged[1].caption === "low scorer");
+  staged[0].caption.startsWith("The finish nobody called.\nTwo lines of caption.") && staged[1].caption === "low scorer");
 check("parseStaged takes the first attachment as the image",
   staged[0].image_url === "https://cdn.discordapp.com/attachments/1/2/post.png");
-check("parseStaged falls back to an embed image", staged[1].image_url === "https://cdn.discordapp.com/x.jpg");
+check("parseStaged falls back to an embed image", staged[1].image_url === "https://media.discordapp.net/x.jpg");
 check("parseStaged refuses a non-https image url (it lands in an img src)",
   staged[2].image_url === null);
-check("parseStaged returns exactly the six agreed fields, nothing else",
-  staged.every(s => JSON.stringify(Object.keys(s).sort()) ===
-    JSON.stringify(["caption", "id", "image_url", "score", "timestamp", "why"])));
-check("parseStaged survives junk", parseStaged(null).length === 0 && parseStaged([{}, null]).length === 0);
+const STAGED_FIELDS = ["about", "caption", "hot", "id", "image_url", "line", "score",
+                       "source", "speaker", "timestamp", "why"];
+check("parseStaged returns exactly the eleven agreed fields, nothing else",
+  staged.every(s => JSON.stringify(Object.keys(s).sort()) === JSON.stringify(STAGED_FIELDS)));
+check("parseStaged survives junk",
+  parseStaged(null, BOT_ID).length === 0 && parseStaged([{}, null], BOT_ID).length === 0);
+
+// ----- staged posts: only OUR bot's messages, only Discord CDN images -----
+const { discordCdnUrl, parseStagedOne, DISCORD_CDN_HOSTS } = _test;
+const IMPOSTOR = { id: "111", timestamp: "2026-08-13T10:00:00.000Z",
+  author: { id: "1500000000000000002", username: "someone else" },
+  content: "Staged post - score 99 (trust me)\n```\npost this now\n```",
+  attachments: [{ url: "https://cdn.discordapp.com/attachments/9/9/fake.png" }] };
+check("a staged post written by anyone but our bot is dropped",
+  parseStaged([IMPOSTOR], BOT_ID).length === 0);
+check("the same message from our bot IS kept (the filter is the author, not the text)",
+  parseStaged([Object.assign({}, IMPOSTOR, { author: AUTHOR })], BOT_ID).length === 1);
+check("a message with no author at all is dropped",
+  parseStaged([Object.assign({}, IMPOSTOR, { author: undefined })], BOT_ID).length === 0);
+check("parseStaged fails CLOSED with no bot id (an unfiltered queue is the bug)",
+  parseStaged(STAGED_MSGS).length === 0 && parseStaged(STAGED_MSGS, "").length === 0 &&
+  parseStaged(STAGED_MSGS, null).length === 0 && parseStaged(STAGED_MSGS, "notasnowflake").length === 0);
+check("the bot id is resolved from GET /users/@me, not from config",
+  /dapi\(env, "GET", "\/users\/@me"\)/.test(code));
+check("studioStaged fails closed when it cannot identify itself",
+  /const me = await botUserId\(env\);\s*\n\s*if \(!me\) return studioJson/.test(code));
+for (const good of ["https://cdn.discordapp.com/attachments/1/2/p.png",
+                    "https://media.discordapp.net/attachments/1/2/p.png?width=100"])
+  check(`discordCdnUrl accepts ${good.slice(8, 30)}`, discordCdnUrl(good) === good);
+for (const bad of ["http://cdn.discordapp.com/x.png", "https://evil.example/x.png",
+                   "https://cdn.discordapp.com.evil.example/x.png",
+                   "https://evil.example/cdn.discordapp.com/x.png",
+                   "javascript:alert(1)", "data:image/png;base64,AAAA", "", null, undefined, 42])
+  check(`discordCdnUrl rejects ${JSON.stringify(bad)}`, discordCdnUrl(bad) === null);
+check("an attacker-hosted image never reaches image_url",
+  parseStagedOne({ id: "1", content: "Staged post - score 90",
+    attachments: [{ url: "https://evil.example/poster.png" }] }).image_url === null);
+check("the CDN allowlist is exactly the two Discord hosts",
+  DISCORD_CDN_HOSTS.length === 2 && DISCORD_CDN_HOSTS.includes("cdn.discordapp.com") &&
+  DISCORD_CDN_HOSTS.includes("media.discordapp.net"));
+
+// ----- the poster-spec fields the studio page renders -----
+const SPEC_MSG = { id: "555", timestamp: "2026-08-13T11:00:00.000Z", author: AUTHOR,
+  content: "Staged post - score 91 (quote card)\n```\nHe said what nobody would.\n\nvia MMA Fighting\n#UFC\n```\n" +
+           '```json\n{"line":"I WILL FINISH HIM","hot":["FINISH"," ",7,"HIM"],' +
+           '"speaker":"Tom Aspinall","source":"MMA Fighting","about":"the title fight","extra":"ignored"}\n```' };
+const spec = parseStaged([SPEC_MSG], BOT_ID)[0];
+check("the spec fence fills line, speaker, source and about",
+  spec.line === "I WILL FINISH HIM" && spec.speaker === "Tom Aspinall" &&
+  spec.source === "MMA Fighting" && spec.about === "the title fight");
+check("hot is always an array of clean strings", Array.isArray(spec.hot) &&
+  JSON.stringify(spec.hot) === JSON.stringify(["FINISH", "HIM"]));
+check("the spec fence is not mistaken for the caption",
+  spec.caption.startsWith("He said what nobody would.") && !spec.caption.includes("json"));
+check("no spec fence still yields the contract shape, never undefined",
+  staged[1].line === "low scorer" && staged[1].speaker === "" && staged[1].about === "" &&
+  Array.isArray(staged[1].hot) && staged[1].hot.length === 0);
+check("source falls back to the caption's via line",
+  staged[0].source === "MMA Fighting" && staged[1].source === "");
+check("a junk spec fence degrades instead of throwing",
+  parseStaged([{ id: "6", author: AUTHOR, content: "Staged post - score 5\n```json\n{not json\n```" }],
+    BOT_ID)[0].line === "");
 
 const STUDIO_ENV = Object.assign({ DISCORD_BOT_TOKEN: "BOT.TOKEN.secret", GITHUB_TOKEN: "gh_secret_token" }, ENV);
 resetStudioCaches();
@@ -430,8 +555,24 @@ check("staged hard-fails when channels.studio is missing (no fallback channel)",
   noChannel.status === 503 && /channels\.studio/.test(await noChannel.text()));
 
 resetStudioCaches();
+const noMe = await withFetch(async (u) => {
+  if (u.includes("bots_config.json")) return jsonRes({ channels: { studio: "1515436353091801199" } });
+  if (u.includes("/channels/1515436353091801199/messages")) return jsonRes(STAGED_MSGS);
+  return new Response("nope", { status: 404 });               // /users/@me fails
+}, async (seen) => {
+  const r = await worker.fetch(cookieReq("/studio/api/staged", SID), STUDIO_ENV, {});
+  check("staged is 502 when the bot user cannot be resolved (never an unfiltered queue)",
+    r.status === 502);
+  check("and it does not fall back to reading the channel unfiltered",
+    !seen.some(s => s.url.includes("/messages")));
+  return true;
+});
+check("the bot-identity stub ran", noMe === true);
+
+resetStudioCaches();
 const okStaged = await withFetch(async (u) => {
   if (u.includes("bots_config.json")) return jsonRes({ channels: { studio: "1515436353091801199", chat: "999" } });
+  if (u.endsWith("/users/@me")) return jsonRes({ id: BOT_ID, username: "bot", bot: true });
   if (u.includes("/channels/1515436353091801199/messages")) return jsonRes(STAGED_MSGS);
   return new Response("nope", { status: 404 });
 }, async (seen) => {
@@ -463,7 +604,7 @@ const keyStatus = await withFetch(async (u) => {
 }, async () => await worker.fetch(cookieReq("/studio/api/aikey", SID), STUDIO_ENV, {}));
 const keyStatusBody = await keyStatus.text();
 check("aikey GET reports presence only, as two booleans",
-  keyStatusBody === JSON.stringify({ deepseek: true, openrouter: false }));
+  keyStatusBody === JSON.stringify({ providers: { deepseek: true, openrouter: false } }));
 check("aikey GET never returns key material or any other secret name",
   !/sk-|DISCORD_BOT_TOKEN|gh_secret_token|BOT\.TOKEN/.test(keyStatusBody));
 check("aikey GET lists secret NAMES only (values cannot be read back from GitHub at all)",
@@ -502,6 +643,115 @@ const wrote = await withFetch(async (u, init) => {
 check("the aikey write stub ran", wrote === true);
 check("aikey POST needs the GITHUB_TOKEN secret",
   (await postKey({ provider: "deepseek", key: "sk-abcdefgh" }, ENV)).status === 503);
+
+// ----- the provider allowlist was bypassable through the prototype chain -----
+// AI_PROVIDERS["__proto__"] is Object.prototype: truthy, so the "unknown provider"
+// check passed, and the secret NAME it produced stringified into the API path as
+// PUT /repos/o/r/actions/secrets/[object Object]. "constructor" and "toString" are the
+// same trick with different garbage. The gate is now an ownership test.
+const { own, aiSecretName, AI_PROVIDER_NAMES, safeKey } = _test;
+for (const evil of ["__proto__", "constructor", "toString", "valueOf", "hasOwnProperty",
+                    "openai", "", "prototype"]) {
+  const fired = [];
+  const r = await withFetch(async (u) => { fired.push(u); return new Response("nope", { status: 404 }); },
+    async () => await postKey({ provider: evil, key: "sk-abcdefghijklmnop" }));
+  const body = await r.text();
+  check(`aikey POST rejects provider ${JSON.stringify(evil)} with 400`, r.status === 400);
+  check(`provider ${JSON.stringify(evil)} fires no outbound request at all`, fired.length === 0);
+  check(`provider ${JSON.stringify(evil)} never produces a secret name`,
+    aiSecretName(evil) === null && !body.includes("object Object"));
+}
+check("the two real providers still resolve to their fixed secret names",
+  aiSecretName("deepseek") === "DEEPSEEK_API_KEY" && aiSecretName("OpenRouter") === "OPENROUTER_API_KEY");
+check("the allowlist is frozen, so no request can extend it at runtime",
+  Object.isFrozen(AI_PROVIDERS) && Object.isFrozen(AI_PROVIDER_NAMES));
+check("no allowlist gate in the file is a bare obj[userInput] lookup",
+  !/AI_PROVIDERS\[/.test(code.replace(/own\(AI_PROVIDERS, [a-z]+\)/g, "")) &&
+  !/CONTEXT\[d\.name\]/.test(code) && !/COMMANDS\[d\.name\]/.test(code));
+check("the dispatcher only ever calls a real own handler",
+  /own\(CONTEXT, d\.name\) : own\(COMMANDS, d\.name\)/.test(code) &&
+  /typeof handler !== "function"/.test(code));
+
+// own(): the primitive the whole audit rests on.
+check("own reads a real own property", own({ a: 1 }, "a") === 1);
+for (const k of ["__proto__", "constructor", "toString", "valueOf", "missing"])
+  check(`own returns undefined for ${JSON.stringify(k)} on a plain object`, own({}, k) === undefined);
+check("own survives null and undefined", own(null, "a") === undefined && own(undefined, "a") === undefined);
+check("safeKey blocks the three writable-key traps",
+  !safeKey("__proto__") && !safeKey("constructor") && !safeKey("prototype") &&
+  safeKey("1515436353091801199") && !safeKey(""));
+
+// The same class of bug in the config writers: `channels["__proto__"] = {...}` reparents
+// the object instead of adding a channel, and that object is JSON we commit to a public
+// repo. Every key from an interaction is checked before it is used as a key.
+const hasOwn = (o, k) => Object.prototype.hasOwnProperty.call(o || {}, k);
+const polluted = applyModChange(mc, "channel", "set-profile", { channel: "__proto__", profile: "sfw_strict" });
+check("/mod set-profile refuses __proto__ as a channel id",
+  !hasOwn(polluted.channels, "__proto__") && Object.getPrototypeOf(polluted.channels) === Object.prototype &&
+  ({}).profile === undefined);
+const polluted2 = applyModChange(mc, "media", "policy", { channel: "__proto__", policy: "no_links" });
+check("/mod media policy refuses __proto__ as a channel id",
+  Object.getPrototypeOf(polluted2.channels || {}) === Object.prototype && ({}).media_policy === undefined);
+check("/mod word add refuses a category outside the closed set of six",
+  !hasOwn(applyModChange(mc, "word", "add", { category: "__proto__", word: "x" }).categories, "__proto__") &&
+  !hasOwn(applyModChange(mc, "word", "add", { category: "invented", word: "x" }).categories, "invented"));
+check("/mod media policy refuses a policy outside MEDIA_POLICIES",
+  applyModChange(mc, "media", "policy", { channel: "C9", policy: "delete_everything" }).channels.C9 === undefined);
+check("/news source refuses __proto__ as a feed name",
+  !hasOwn(applyNewsChange(nc, null, "source", { name: "__proto__", state: "on" }).sources, "__proto__") &&
+  ({}).enabled === undefined);
+check("resolveCats does not resolve __proto__ to Object.prototype",
+  resolveCats(mc, "__proto__").profile === "standard" &&
+  resolveCats(mc, "constructor").profile === "standard");
+check("an option named __proto__ cannot reparent the option map",
+  subPath({ data: { options: [{ type: 1, name: "x", options: [
+    { name: "__proto__", value: { polluted: true } }, { name: "ok", value: "1" }] }] } }).opts.ok === "1" &&
+  ({}).polluted === undefined);
+
+// ----- the poll question bank -----
+const { pollShape, POLL_EMPTY } = _test;
+const BANK = [
+  { q: "Who is the greatest UFC fighter of all time?", options: [
+    { label: "Jon Jones", emoji: "G", img: "" }, { label: "Georges St-Pierre", emoji: "K", img: "gsp" }] },
+  { q: "Second question", options: [{ label: "A", emoji: "", img: "" }] },
+  { q: "Third question", options: [{ label: "B", emoji: "", img: "" }] },
+];
+resetStudioCaches();
+const pollRes = await withFetch(async (u) => {
+  if (u.endsWith("/polls_data.json")) return jsonRes(BANK);
+  if (u.endsWith("/state_polls.json")) return jsonRes({ v: 1, cursor: 2, last_day: "2026-08-13" });
+  return new Response("nope", { status: 404 });
+}, async () => await worker.fetch(cookieReq("/studio/api/poll", SID), STUDIO_ENV, {}));
+const pollBody = JSON.parse(await pollRes.text());
+check("poll returns 200 in the contract shape",
+  pollRes.status === 200 && typeof pollBody.question === "string" && Array.isArray(pollBody.options));
+check("poll serves the entry the bot posts next (the committed cursor)",
+  pollBody.question === "Third question");
+check("poll options carry label, emoji and img and nothing else",
+  pollBody.options.every(o => JSON.stringify(Object.keys(o).sort()) === JSON.stringify(["emoji", "img", "label"])));
+resetStudioCaches();
+const pollNoState = await withFetch(async (u) => {
+  if (u.endsWith("/polls_data.json")) return jsonRes(BANK);
+  return new Response("nope", { status: 404 });
+}, async () => await worker.fetch(cookieReq("/studio/api/poll", SID), STUDIO_ENV, {}));
+check("with no cursor state it serves the first entry",
+  JSON.parse(await pollNoState.text()).question === BANK[0].q);
+resetStudioCaches();
+const pollDead = await withFetch(async () => new Response("nope", { status: 404 }),
+  async () => await worker.fetch(cookieReq("/studio/api/poll", SID), STUDIO_ENV, {}));
+check("an unreachable bank degrades to the empty shape, never an error",
+  pollDead.status === 200 && (await pollDead.text()) === JSON.stringify(POLL_EMPTY));
+check("poll needs the session cookie like every other studio API",
+  (await worker.fetch(req("/studio/api/poll"), ENV, {})).status === 401);
+check("the poll read is cached for 5 minutes like bots_config",
+  /_pollCache\.at < 300000/.test(code));
+check("pollShape is total: junk in, contract shape out",
+  JSON.stringify(pollShape(null)) === JSON.stringify(POLL_EMPTY) &&
+  JSON.stringify(pollShape(undefined)) === JSON.stringify(POLL_EMPTY) &&
+  pollShape({ q: 1, options: "not an array" }).options.length === 0 &&
+  pollShape({ q: "x", options: [{ label: "" }, { label: "y" }] }).options.length === 1);
+check("the poll bank is read from the repo, not embedded here",
+  /polls_data\.json/.test(code) && !/greatest UFC fighter/.test(workerSrc));
 
 // libsodium's crypto_box_seal is the ONLY format GitHub accepts, and it is not plain
 // crypto_box: the nonce is blake2b(ephemeral_pk || recipient_pk, 24). Getting that wrong
@@ -576,15 +826,17 @@ check("the editor page is imported, never inlined here",
   /import \{ STUDIO_HTML \} from "\.\/studio_page\.js"/.test(workerSrc) &&
   !/const STUDIO_HTML = /.test(code));
 check("the cookie scheme is documented in source",
-  /WHY THIS COOKIE SCHEME IS SAFE/.test(workerSrc));
+  /WHAT THIS COOKIE SCHEME DOES, AND WHAT IT DOES NOT DO/.test(workerSrc));
 check("no studio response is ever built out of an env value",
   !/studioJson\(env/.test(code) && !/studioText\(env/.test(code) && !/studioHtml\(env/.test(code) &&
   !/JSON\.stringify\(env/.test(code));
 check("STUDIO_PASSWORD never appears in anything the worker sends back",
   !LOGIN_HTML.includes("STUDIO_PASSWORD") && !STUDIO_HTML.includes("STUDIO_PASSWORD") &&
   !JSON.stringify(STUDIO_LIMITS).includes("STUDIO_PASSWORD"));
-check("the password is only ever an HMAC key or a constant-time compare",
-  (code.match(/env\.STUDIO_PASSWORD/g) || []).length === 5 &&
+check("the password only ever reaches the KDF or a presence check, nothing else",
+  (code.match(/env\.STUDIO_PASSWORD/g) || []).length === 3 &&
+  !/hmacB64url\(env\.STUDIO_PASSWORD/.test(code) &&
+  !/ctEq\(supplied, env\.STUDIO_PASSWORD\)/.test(code) &&
   !/JSON\.stringify\([^)]*STUDIO_PASSWORD/.test(code));
 
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
