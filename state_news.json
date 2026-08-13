@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Safe to say they’re ready for Philly 🔥 #UFC330 is only days away! [ LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
-      "ts": "2026-08-13T03:00:02+00:00"
-    },
-    {
-      "t": "Side by Side 👀 B2YB: @FREPouch",
-      "ts": "2026-08-13T11:01:00+00:00"
-    },
-    {
       "t": "Drop your favorite Myktybek Orolbai gif/photo because he is fighting on #UFC330 🤲 [ LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
       "ts": "2026-08-13T12:00:01+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Islam Makhachev shuts down Joe Rogan’s retirement theory, reveals plan to set unbreakable UFC record",
       "ts": "2026-08-13T10:53:09+00:00"
+    },
+    {
+      "t": "Three fighters removed from UFC roster with a combined 19 Octagon appearances following recent losses",
+      "ts": "2026-08-13T12:00:00+00:00"
+    },
+    {
+      "t": "UFC 330 star issues statement after withdrawing from Makhachev vs Garry card during fight week",
+      "ts": "2026-08-13T17:30:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Five burning questions heading into UFC 330",
-      "url": "https://sports.yahoo.com/mma/article/five-burning-questions-heading-into-ufc-330-144937268.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-13T14:49:37+00:00"
-    },
-    {
-      "title": "UFC Continues to Trim Down Roster",
-      "url": "https://sports.yahoo.com/articles/ufc-continues-trim-down-roster-154923361.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-13T15:49:23+00:00"
-    },
     {
       "title": "Gerald Meerschaert Moves Up To 205lbs To Face Julius Walker At UFC Fight Night 290",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLW1FX2J3UmNJYlRTS0JUdDlFQkx6MjJNd24wd09xeUw5Zm5NMW05NWZqeVI2ck5UVkxXQVJXSmctSkhqZG1EOUFIMWI0NS1MWHNRNzFja3dsLVctRlJiWVoxNjE4M1JYSDkxNjZsV1EwUmM0c2I0cEtYaXZBZWEycDJ5a1dFcHYydkVRUDNDWHJ6Q0NSeWd5YlQ2V2hPSGNQY0hmRVBJamdxSHdPWng4?oc=5",
@@ -2105,6 +2091,20 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-08-13T06:02:29+00:00"
+    },
+    {
+      "title": "Three fighters removed from UFC roster with a combined 19 Octagon appearances following recent losses",
+      "url": "https://bloodyelbow.com/2026/08/13/three-fighters-removed-from-ufc-roster-with-a-combined-19-octagon-appearances-following-recent-losses/",
+      "source": "Bloody Elbow",
+      "cat": "ufc",
+      "ts": "2026-08-13T12:00:00+00:00"
+    },
+    {
+      "title": "UFC 330 star issues statement after withdrawing from Makhachev vs Garry card during fight week",
+      "url": "https://bloodyelbow.com/2026/08/13/ufc-330-star-issues-statement-after-withdrawing-from-makhachev-vs-garry-card-during-fight-week/",
+      "source": "Bloody Elbow",
+      "cat": "ufc",
+      "ts": "2026-08-13T17:30:00+00:00"
     }
   ],
   "digest_last": "2026-08-12 21:30",
@@ -2361,6 +2361,7 @@
     "CBMixAFBVV95cUxQUjJIOV91Mm1hVTRmMjZ0RTI5TkxURkN0TzAtaTluNUgtbGJxdG9lTFlhWU9ZdlFHZXFjZUVjSlFtZHFYbjdKSXhYRmNSWmljTU5XS241TVBIWGpkVTYzNTlocmR0Y2p5N19Lb0xVQnlJSkF0WnVWU0RzczZwaWdUUUlwMkZ5MHZvWjBoelJjUXA0SHVkQ2I1UTh1djAtU2tXVGNfZ2xPa3MtX2l2cW9yUlc0TDBmT0U3VWVKY3lTcHVTdm9m",
     "CBMizgFBVV95cUxORFptNnFXWlpNMFVOS0xaOEFGTmNtUTFFZW5odDNGSlBqNXI0aVRmcGNZX3ZfOXlHNHZOUVlUb0p2WlV1MzdrRXFvUDBsZ0ZQR0EwbUJ3ak91Q2N1MkNnNlQyVG44ZFkwS21tRVMwUklWWmRQcExDZjQzMjBVaTBIcHBfQWk1OG9ubTlOU0dvR01ZVHZsSVJNbFZTSmpCeVZDOEtQTjI2TFZMT0JuMlBwbWl6eThKbVhJYXhTaTgzXzZPNGpqcTZBdjAwdFNWQQ",
     "CBMivgFBVV95cUxQZVZHLXg3cUVUckgwMmRLVlRZY09iejh2eFdrR0QwMllCam1KYVFWcWUwUUFFcFJUMVZNR2cyWENSdTdnbnVpdWxzT09SOGdVVFEwX2ZaMTk0UjlkUUlBN2kxMzVYaGwxdVBiNWVTRzlGWFBXU2VveVBuMzM2WnlWdkdXc1lpMjRQUEtETzhpc21KSkk1ZjIwOWtRTUlzYWE3RDRPbjJfdU1hSlZsNmxONEtwNVgtZXY4UmR2OGVn",
-    "2087947490909979076"
+    "2087947490909979076",
+    "https://bloodyelbow.com/?p=326482"
   ]
 }
