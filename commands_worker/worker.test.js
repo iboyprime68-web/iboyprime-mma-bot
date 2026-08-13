@@ -697,9 +697,19 @@ check("/mod word add refuses a category outside the closed set of six",
   !hasOwn(applyModChange(mc, "word", "add", { category: "invented", word: "x" }).categories, "invented"));
 check("/mod media policy refuses a policy outside MEDIA_POLICIES",
   applyModChange(mc, "media", "policy", { channel: "C9", policy: "delete_everything" }).channels.C9 === undefined);
+// "__proto__" matches an identifier regex perfectly well, so a shape check alone is not
+// a defence when the name becomes an object KEY: `sources["__proto__"] = {}` reparents
+// the sources object and every later read walks through the attacker's object.
+const newsPoll = applyNewsChange(nc, null, "source", { name: "__proto__", state: "on" });
 check("/news source refuses __proto__ as a feed name",
-  !hasOwn(applyNewsChange(nc, null, "source", { name: "__proto__", state: "on" }).sources, "__proto__") &&
-  ({}).enabled === undefined);
+  !hasOwn(newsPoll.sources, "__proto__") && ({}).enabled === undefined &&
+  Object.getPrototypeOf(newsPoll.sources) === Object.prototype &&
+  newsPoll.sources.enabled === undefined);
+check("/news category refuses __proto__ too",
+  Object.getPrototypeOf(applyNewsChange(nc, null, "category", { name: "__proto__", state: "on" }).categories)
+    === Object.prototype);
+check("a real feed name still toggles (the guard is not a blanket refusal)",
+  applyNewsChange(nc, null, "source", { name: "sherdog", state: "off" }).sources.sherdog.enabled === false);
 check("resolveCats does not resolve __proto__ to Object.prototype",
   resolveCats(mc, "__proto__").profile === "standard" &&
   resolveCats(mc, "constructor").profile === "standard");
@@ -820,6 +830,45 @@ check("POST /studio with the studio unconfigured is closed, not a signature chec
 check("the studio router returns before the signature check in source",
   code.indexOf("return await studioRouter(request, env, url)") <
   code.indexOf("if (!await verify(request, body, env.DISCORD_PUBLIC_KEY))"));
+
+// A real signed round trip. The dispatcher stopped using COMMANDS[name] (a bare lookup
+// answers for "constructor" with the Object function and "toString" with a function too,
+// either of which would have been "dispatched"), so prove the real path still routes.
+const kp = await crypto.subtle.generateKey({ name: "Ed25519" }, true, ["sign", "verify"]);
+const pubHex = [...new Uint8Array(await crypto.subtle.exportKey("raw", kp.publicKey))]
+  .map(b => b.toString(16).padStart(2, "0")).join("");
+async function signedPost(payload) {
+  const body = JSON.stringify(payload);
+  const ts = String(Math.floor(Date.now() / 1000));
+  const sig = new Uint8Array(await crypto.subtle.sign({ name: "Ed25519" }, kp.privateKey,
+    new TextEncoder().encode(ts + body)));
+  return await worker.fetch(new Request("https://w.test/", { method: "POST", body,
+    headers: { "x-signature-ed25519": [...sig].map(b => b.toString(16).padStart(2, "0")).join(""),
+               "x-signature-timestamp": ts, "content-type": "application/json" } }),
+    { DISCORD_PUBLIC_KEY: pubHex }, { waitUntil() {} });
+}
+const pong = await signedPost({ type: 1 });
+check("a correctly signed PING still gets a PONG", JSON.parse(await pong.text()).type === 1);
+const flip = await signedPost({ type: 2, data: { name: "flip", options: [] }, member: { user: { id: "U1" }, roles: [] } });
+const flipBody = JSON.parse(await flip.text());
+check("a correctly signed command still dispatches and answers",
+  flipBody.type === 4 && /Heads|Tails/.test(flipBody.data.content));
+for (const name of ["constructor", "toString", "__proto__", "valueOf", "nope"]) {
+  const r = JSON.parse(await (await signedPost({ type: 2, data: { name, options: [] },
+    member: { user: { id: "U1" }, roles: [] } })).text());
+  check(`a command named ${JSON.stringify(name)} is unknown, not a prototype member`,
+    r.type === 4 && r.data.content === "Unknown command.");
+}
+const ctxUnknown = JSON.parse(await (await signedPost({ type: 2,
+  data: { type: 2, name: "constructor", target_id: "1", options: [] },
+  member: { user: { id: "U1" }, roles: [] } })).text());
+check("the same holds for the context-menu table",
+  ctxUnknown.data.content === "Unknown command.");
+const badSig = await worker.fetch(new Request("https://w.test/", { method: "POST",
+  body: JSON.stringify({ type: 1 }),
+  headers: { "x-signature-ed25519": "00".repeat(64), "x-signature-timestamp": "1" } }),
+  { DISCORD_PUBLIC_KEY: pubHex }, { waitUntil() {} });
+check("a wrong signature over a valid body is still 401", badSig.status === 401);
 
 // ----- source-level guarantees -----
 check("the editor page is imported, never inlined here",
