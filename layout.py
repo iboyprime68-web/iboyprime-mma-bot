@@ -143,6 +143,9 @@ CATEGORIES = [
         Ch("tickets", "🎟️┊tickets", TEXT, False,
            "Member reports and the staff follow-up on each one.",
            old_names=["🎟️-tickets"]),
+        Ch("studio", "🎬┊studio", TEXT, False,
+           "Staged YouTube posts. Each message has the graphic and a "
+           "copy-ready caption. Post or schedule it in the YouTube app."),
         Ch(None, "🔒┊Staff", VOICE, False, "", old_names=["🔒 Staff VC"]),
     ]),
 ]
