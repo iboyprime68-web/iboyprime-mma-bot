@@ -32,17 +32,55 @@ _DEFAULT_SOURCES = {
     # July 2026 - the Junkie publication left Gannett and archived its site, so
     # mmajunkie.usatoday.com now 404s and mmajunkie.com 307-redirects everything
     # to archive.mmajunkie.com. Verified live: mmamania /rss/current.xml = 200.
-    "mma_mania":     {"label": "MMA Mania",    "url": "https://www.mmamania.com/rss/current.xml",    "enabled": True},
-    # Sherdog is KEPT as a toggle but ships DISABLED: its CDN hard-blocks bot
-    # traffic with HTTP 403 (any User-Agent, from GitHub runners and elsewhere) as
-    # of July 2026. Re-enable only if that block is ever lifted.
-    "sherdog":       {"label": "Sherdog",      "url": "https://www.sherdog.com/rss/news.xml",        "enabled": False},
+    # Measured Aug 13 2026: this feed's CDN served a 5.9-HOUR-old snapshot (Age
+    # header 21117s), so tight polling buys nothing - min_poll keeps it cheap and
+    # Google News surfaces Mania stories hours before Mania's own feed does.
+    "mma_mania":     {"label": "MMA Mania",    "url": "https://www.mmamania.com/rss/current.xml",    "enabled": True,
+                      "min_poll": 300},
+    # THE SPEED LAYER (Aug 2026, all verified live with the bot's own client):
+    # Google News indexes every MMA outlet at once and had a story 0.9 MINUTES
+    # after publish; when:1h keeps the result set small and freshness-sorted.
+    # Its <link> is a news.google.com redirect that only resolves in a browser -
+    # embed it as-is, never try to resolve it server-side. The real outlet comes
+    # from each item's <source> tag (news_bot strips the " - Publisher" title
+    # suffix and credits that outlet). min_poll 60: it is a search endpoint, do
+    # not hammer it at the 20s cycle cadence.
+    "google_news_ufc": {"label": "Google News",
+                        "url": "https://news.google.com/rss/search?q=UFC+when:1h&hl=en-US&gl=US&ceid=US:en",
+                        "enabled": True, "flavor": "google_news", "min_poll": 60},
+    # Yahoo aggregates Yahoo/Uncrowned plus syndicated outlets ~10 min after
+    # publish with clean direct links. pubDate can be the syndication time, so
+    # dedupe relies on GUID + the Jaccard collapse like everything else.
+    "yahoo_mma":     {"label": "Yahoo Sports", "url": "https://sports.yahoo.com/mma/rss.xml",
+                      "enabled": True, "min_poll": 60},
+    # Sherdog's CDN 403-blocked bots July 2026-era; re-verified Aug 13 2026: 200
+    # even with a plain urllib UA. Enabled tolerantly - if Actions IPs are still
+    # blocked the fetch skips silently and the failure backoff keeps it cheap.
+    "sherdog":       {"label": "Sherdog",      "url": "https://www.sherdog.com/rss/news.xml",
+                      "enabled": True, "min_poll": 300},
+    # X insiders via nitter.net RSS - the ONLY tweet-time-speed path that exists
+    # keyless in 2026, and the layer the big YouTube news channels actually read.
+    # FRAGILE BY NATURE: public Nitter has died before and can again, so these
+    # ship with flavor "nitter" (1 try, short timeout, retweets dropped) and MUST
+    # only ever fail silent - never alert, never email. Do not build anything
+    # that depends on them.
+    "x_helwani":     {"label": "Ariel Helwani", "url": "https://nitter.net/arielhelwani/rss",
+                      "enabled": True, "flavor": "nitter", "min_poll": 90},
+    "x_mmafighting": {"label": "MMA Fighting on X", "url": "https://nitter.net/MMAFighting/rss",
+                      "enabled": True, "flavor": "nitter", "min_poll": 90},
+    "x_mmajunkie":   {"label": "MMA Junkie on X", "url": "https://nitter.net/mmajunkie/rss",
+                      "enabled": True, "flavor": "nitter", "min_poll": 90},
+    "x_ufc":         {"label": "UFC on X",      "url": "https://nitter.net/ufc/rss",
+                      "enabled": True, "flavor": "nitter", "min_poll": 90},
     # Boxing feeds ship DISABLED (owner is UFC-focused). Bad Left Hook is a Vox
     # feed (same shape as MMA Fighting). Verify boxingscene's feed shape before
     # ever enabling it.
     "bad_left_hook": {"label": "Bad Left Hook", "url": "https://www.badlefthook.com/rss/current.xml", "enabled": False},
     "boxing_scene":  {"label": "BoxingScene",   "url": "https://www.boxingscene.com/rss/news.xml",    "enabled": False},
 }
+
+# Source "flavor" values news_bot understands. Empty string = plain RSS/Atom.
+SOURCE_FLAVORS = ("", "google_news", "nitter")
 
 # Titles are classified by FIRST category whose keyword hits (check order below).
 # Anything unmatched falls back to default_category - the feeds are UFC-dominant,
@@ -85,6 +123,13 @@ def base_defaults():
         "breaking_ignores_filters": True,   # a major story alerts even if its category is off
         "exclude_keywords": list(_DEFAULT_EXCLUDE),
         "digest": {"times_utc": ["21:30"], "min_items": 3, "ping": True},
+        # AI story scoring for the YouTube staging pipeline (scorer.py). Works
+        # without any key (deterministic heuristic); a DeepSeek or OpenRouter
+        # key in the environment upgrades it. Thresholds are 0-100: at
+        # stage_threshold the story is rendered + staged in the studio channel,
+        # at ping_threshold the staged message also pings the owner.
+        "scoring": {"enabled": True, "stage_threshold": 70, "ping_threshold": 85,
+                    "model": "", "max_tokens": 220, "timeout": 20},
         "max_per_hour": 6,
         "dedupe_similar": True,
         "similar_threshold": 0.6,
@@ -186,6 +231,13 @@ def validate_newsconfig(cfg, secret_values=()):
         url = src.get("url", "")
         if not url.startswith("https://"):
             problems.append("source %s: url must start with https://" % key)
+        if src.get("flavor", "") not in SOURCE_FLAVORS:
+            problems.append("source %s: unknown flavor %r" % (key, src.get("flavor")))
+        try:
+            if float(src.get("min_poll", 0) or 0) < 0:
+                problems.append("source %s: min_poll must be >= 0" % key)
+        except (TypeError, ValueError):
+            problems.append("source %s: min_poll must be a number" % key)
     dg = cfg.get("digest", {}) or {}
     for t in (dg.get("times_utc") or []):
         if not _TIME_RE.match(str(t)):
