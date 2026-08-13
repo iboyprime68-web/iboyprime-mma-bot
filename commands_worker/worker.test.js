@@ -238,7 +238,9 @@ const {
 } = _test;
 
 const PW = "correct horse battery staple";
-const ENV = { STUDIO_PASSWORD: PW, GITHUB_OWNER: "o", GITHUB_REPO: "r" };
+const SIGNK = "test-signing-key-abcdefghijklmnop";
+const ENV = { STUDIO_PASSWORD: PW, STUDIO_SIGNING_KEY: SIGNK,
+              GITHUB_OWNER: "o", GITHUB_REPO: "r" };
 const NOENV = { DISCORD_PUBLIC_KEY: "ab" };            // studio deliberately unconfigured
 function req(path, init) { return new Request("https://w.test" + path, init); }
 function cookieReq(path, value, init) {
@@ -339,6 +341,28 @@ check("the login response body never contains the password",
   !(await okLogin.text()).includes(PW) && !setCookie.includes(PW));
 const SID = /sid=([^;]+)/.exec(setCookie)[1];
 
+// ----- weak-password visibility -----
+// A STUDIO_PASSWORD under 16 chars undermines the fast-hash design, but refusing it
+// would lock the owner out. So it still signs in, and the SUCCESS response carries
+// X-Studio-Note: weak-password to make the misconfiguration visible in devtools.
+// Failures never carry it: that header on a 401 would tell a guesser the password
+// is short, which is a hint the gate must not hand out.
+const WEAK_ENV = { STUDIO_PASSWORD: "short", STUDIO_SIGNING_KEY: SIGNK };
+const weakOk = await worker.fetch(req("/studio/login", { method: "POST",
+  headers: { "content-type": "application/json" },
+  body: JSON.stringify({ password: "short" }) }), WEAK_ENV, {});
+check("a password under 16 chars still signs in (the owner is never locked out)",
+  weakOk.status === 200 && /^sid=/.test(weakOk.headers.get("set-cookie") || ""));
+check("the successful login flags the weak configuration in a header",
+  weakOk.headers.get("x-studio-note") === "weak-password");
+const weakBad = await worker.fetch(req("/studio/login", { method: "POST",
+  headers: { "content-type": "application/json" },
+  body: JSON.stringify({ password: "wrong-guess" }) }), WEAK_ENV, {});
+check("a FAILED login never carries the weak-password hint (guessers learn nothing)",
+  weakBad.status === 401 && weakBad.headers.get("x-studio-note") === null);
+check("a 16+ char password gets no note", okLogin.headers.get("x-studio-note") === null);
+clearLoginFails("?");                         // the deliberate failure above, cleaned up
+
 // ----- the session cookie -----
 check("a valid signed cookie passes", await requireStudio(cookieReq("/studio", SID), ENV) === true);
 check("a valid cookie serves the editor page, byte for byte",
@@ -355,9 +379,13 @@ check("an expired cookie is rejected even though the signature is valid",
 check("the same cookie was valid before it expired",
   await studioTokenValid(ENV, expired, Date.now() - STUDIO_TTL_MS - 120000) === true);
 check("a cookie signed with a different password is rejected",
-  await studioTokenValid(ENV, await studioToken({ STUDIO_PASSWORD: "other" }, Date.now())) === false);
-check("rotating STUDIO_PASSWORD invalidates every outstanding cookie",
-  await studioTokenValid({ STUDIO_PASSWORD: PW + "2" }, SID) === false);
+  await studioTokenValid(ENV, await studioToken(
+    { STUDIO_PASSWORD: "other", STUDIO_SIGNING_KEY: "another-signing-key-xyz" },
+    Date.now())) === false);
+check("rotating the SIGNING KEY invalidates every outstanding cookie",
+  await studioTokenValid({ STUDIO_PASSWORD: PW, STUDIO_SIGNING_KEY: SIGNK + "2" }, SID) === false);
+check("a cookie signed with the raw PASSWORD is rejected (no cracking oracle)",
+  await studioTokenValid({ STUDIO_PASSWORD: PW, STUDIO_SIGNING_KEY: PW }, SID) === false);
 for (const junk of ["", ".", "a.b", "a.b.c", "....", null, undefined, 12345, SID.split(".")[0]])
   check(`a malformed cookie is rejected: ${JSON.stringify(junk)}`,
     await studioTokenValid(ENV, junk) === false);
@@ -378,12 +406,14 @@ check("ctEq handles empty and null without throwing",
 check("the signature is compared in constant time, not with ===",
   /if \(!ctEq\(parts\[1\], expected\)\) return false/.test(code));
 
-// ----- the cookie key is DERIVED, not the password itself -----
+// ----- the cookie key is an INDEPENDENT secret, not the password -----
 // Keying the HMAC with the raw password handed out an offline cracking oracle: the
 // plaintext is fully known ({"exp": <ms>}), so one captured cookie let anyone test
-// candidate passwords locally at one SHA-256 per guess, forever, with nothing to rate
-// limit. PBKDF2 makes each guess cost STUDIO_KDF_ITERS hashes instead of one.
-const { pbkdf2Bits, studioKey, hmacB64url, ctEqBytes, STUDIO_KDF_ITERS, STUDIO_KDF_SALT,
+// candidate passwords locally, forever, with nothing to rate limit. The cookie is now
+// signed with an INDEPENDENT secret (STUDIO_SIGNING_KEY), so it carries no information
+// about the password at all - and no slow KDF is needed, which is what kept the login
+// inside the Workers free-plan CPU budget.
+const { sha256Bytes, studioSignKey, studioPasswordOk, hmacB64url, ctEqBytes,
         LOGIN_FAIL_DELAY_MS } = _test;
 const rawSignedPayload = SID.split(".")[0];
 const rawSigned = rawSignedPayload + "." + await hmacB64url(PW, rawSignedPayload);
@@ -392,35 +422,43 @@ check("a cookie signed with the RAW password is rejected (the old scheme's key)"
 check("that forgery is a real, well-formed cookie otherwise (the key is the only change)",
   rawSigned.split(".").length === 2 && rawSigned.split(".")[0] === rawSignedPayload &&
   rawSigned !== SID && await studioTokenValid(ENV, SID) === true);
-const derived = await studioKey(ENV);
-check("the derived key is 32 bytes of PBKDF2 output",
-  derived instanceof Uint8Array && derived.length === 32);
-check("the derivation is deterministic and password-bound",
-  ctEqBytes(derived, await pbkdf2Bits(PW)) === true &&
-  ctEqBytes(derived, await pbkdf2Bits(PW + "2")) === false);
-check("the cookie signature really is the derived key, not the password",
-  SID.split(".")[1] === await hmacB64url(derived, rawSignedPayload));
-check("the iteration count is at or above 200000, with a fixed application salt",
-  STUDIO_KDF_ITERS >= 200000 && typeof STUDIO_KDF_SALT === "string" && STUDIO_KDF_SALT.length >= 8 &&
-  /iterations: STUDIO_KDF_ITERS, hash: "SHA-256"/.test(code));
-check("the derivation for the configured password is cached per isolate (paid once)",
-  /_kdfCache/.test(code) && /const _kdfCache = new Map\(\)/.test(code));
-check("a login candidate is NEVER cached (the work factor is the defence)",
-  /const got = await pbkdf2Bits\(supplied\)/.test(code) && !/_kdfCache\.set\(supplied/.test(code));
-check("the login compares derived bits in constant time, not the passwords",
-  /ctEqBytes\(got, want\)/.test(code) && !/ctEq\(supplied, env\.STUDIO_PASSWORD\)/.test(code));
+const signKey = await studioSignKey(ENV);
+check("the signing key is the 32-byte SHA-256 of STUDIO_SIGNING_KEY",
+  signKey instanceof Uint8Array && signKey.length === 32);
+check("the signing key is bound to the SIGNING secret, not the password",
+  ctEqBytes(signKey, await sha256Bytes(SIGNK)) === true &&
+  ctEqBytes(signKey, await sha256Bytes(PW)) === false);
+check("the cookie signature really is the signing key",
+  SID.split(".")[1] === await hmacB64url(signKey, rawSignedPayload));
+check("the password is compared as fixed-length hashes in constant time",
+  await studioPasswordOk(ENV, PW) === true &&
+  await studioPasswordOk(ENV, PW + "x") === false &&
+  await studioPasswordOk(ENV, "") === false &&
+  /const a = await sha256Bytes\(pw\), b = await sha256Bytes\(candidate\)/.test(code));
+check("no slow KDF remains (it broke the free plan's CPU budget)",
+  !/deriveBits/.test(code) && !/STUDIO_KDF_ITERS/.test(code)
+  && !/crypto.subtle.importKey\("raw", enc.encode\(String\(password/.test(code));
+check("both secrets are required - either one missing keeps /studio closed",
+  await studioToken({ STUDIO_PASSWORD: PW }, Date.now()) === null &&
+  await studioTokenValid({ STUDIO_SIGNING_KEY: SIGNK }, SID) === false);
+check("the login compares SHA-256 digests in constant time, not the passwords",
+  /studioPasswordOk\(env, supplied\)/.test(code)
+  && /ctEqBytes\(a, b\)/.test(code)
+  && !/ctEq\(supplied, env\.STUDIO_PASSWORD\)/.test(code));
 check("ctEqBytes rejects a one-byte difference and a length difference",
   ctEqBytes(new Uint8Array([1, 2, 3]), new Uint8Array([1, 2, 3])) === true &&
   ctEqBytes(new Uint8Array([1, 2, 3]), new Uint8Array([1, 2, 4])) === false &&
   ctEqBytes(new Uint8Array([1, 2]), new Uint8Array([1, 2, 0])) === false &&
   ctEqBytes(null, null) === true);
-check("a failed login pays a fixed delay on top of the derivation",
+check("a failed login pays a fixed delay before it answers",
   LOGIN_FAIL_DELAY_MS >= 200 && /await sleep\(LOGIN_FAIL_DELAY_MS\)/.test(code));
 check("the limiter comment states it is per isolate and claims no distributed limiting",
   /PER ISOLATE/.test(workerSrc) && /NOT distributed rate limiting/.test(workerSrc));
-check("the cookie comment states what is actually true about the KDF",
+check("the cookie comment states what is actually true about the signing key",
   /WHAT THIS COOKIE SCHEME DOES, AND WHAT IT DOES NOT DO/.test(workerSrc) &&
-  /offline password-cracking oracle/.test(workerSrc) &&
+  /SEPARATE random secret - never the password/.test(workerSrc) &&
+  /offline cracking oracle/.test(workerSrc) &&
+  /Error 1102/.test(workerSrc) &&
   !/WHY THIS COOKIE SCHEME IS SAFE/.test(workerSrc));
 
 // ----- logout -----
@@ -482,15 +520,65 @@ check("parseStaged takes the first attachment as the image",
 check("parseStaged falls back to an embed image", staged[1].image_url === "https://media.discordapp.net/x.jpg");
 check("parseStaged refuses a non-https image url (it lands in an img src)",
   staged[2].image_url === null);
-const STAGED_FIELDS = ["about", "caption", "hot", "id", "image_url", "line", "score",
-                       "source", "speaker", "timestamp", "why"];
-check("parseStaged returns exactly the eleven agreed fields, nothing else",
+const STAGED_FIELDS = ["about", "caption", "colorway", "hot", "id", "image_url", "line",
+                       "photo_kind", "photo_url", "score", "source", "speaker",
+                       "template", "timestamp", "why"];
+check("parseStaged returns exactly the fifteen agreed fields, nothing else",
   staged.every(s => JSON.stringify(Object.keys(s).sort()) === JSON.stringify(STAGED_FIELDS)));
 check("parseStaged survives junk",
   parseStaged(null, BOT_ID).length === 0 && parseStaged([{}, null], BOT_ID).length === 0);
 
+// ----- staged posts: the ROUND-TRIP payload -----
+// The staging bot ships a ```json spec fence plus the RAW subject as the second
+// attachment. The studio must get live text fields and the clean photo - never
+// only the rendered card, whose text is baked into the pixels (the bug the
+// owner reported: "the text is seemingly baked into the images").
+const RT_MSG = {
+  id: "555", timestamp: "2026-08-13T11:00:00.000Z", author: AUTHOR,
+  content: "Staged post - score 91 (title fight fallout)\n"
+    + "Copy the caption, save the image, then post or schedule it in the YouTube app.\n"
+    + "```\nMakhachev responds.\n\nvia MMA Fighting\n#UFC\n```\n"
+    + "```json\n" + JSON.stringify({ line: "HE NEVER DOUBTED", hot: ["NEVER"],
+      source: "MMA Fighting", template: "news", colorway: "purple", photo: "photo" }) + "\n```",
+  attachments: [
+    { url: "https://cdn.discordapp.com/attachments/1/2/post.png" },
+    { url: "https://cdn.discordapp.com/attachments/1/2/photo.jpg" },
+  ],
+};
+const rt = parseStaged([RT_MSG], BOT_ID)[0];
+check("round-trip: the raw photo rides as photo_url (attachment 1)",
+  rt.photo_url === "https://cdn.discordapp.com/attachments/1/2/photo.jpg");
+check("round-trip: the rendered card stays the preview (attachment 0)",
+  rt.image_url === "https://cdn.discordapp.com/attachments/1/2/post.png");
+check("round-trip: the spec fence carries live line/hot/colorway",
+  rt.line === "HE NEVER DOUBTED" && rt.hot.length === 1 && rt.hot[0] === "NEVER"
+  && rt.colorway === "purple" && rt.template === "news" && rt.photo_kind === "photo");
+check("round-trip: a card-only stage has NO photo_url (the studio must not "
+  + "load baked-text pixels as the photo)",
+  staged[0].photo_url === null && staged[0].photo_kind === "");
+const RT_EVIL = { ...RT_MSG, id: "556",
+  attachments: [{ url: "https://cdn.discordapp.com/attachments/1/2/post.png" },
+                { url: "https://evil.example/photo.jpg" }] };
+check("round-trip: photo_url passes the same Discord-CDN gate as image_url",
+  parseStaged([RT_EVIL], BOT_ID)[0].photo_url === null);
+
 // ----- staged posts: only OUR bot's messages, only Discord CDN images -----
 const { discordCdnUrl, parseStagedOne, DISCORD_CDN_HOSTS } = _test;
+// The four round-trip fields added to the contract (photo_url, photo_kind, template,
+// colorway) are typed on EVERY entry, not just the happy path: the page indexes them
+// without guards, so a stray number or object here becomes a rendering bug there.
+const typedStaged = staged.concat([rt]);
+check("photo_kind is always one of '', 'photo', 'cutout'",
+  typedStaged.every(s => typeof s.photo_kind === "string" &&
+    ["", "photo", "cutout"].includes(s.photo_kind)));
+check("template and colorway are always short strings",
+  typedStaged.every(s => typeof s.template === "string" && s.template.length <= 20 &&
+    typeof s.colorway === "string" && s.colorway.length <= 20));
+check("photo_url is a Discord CDN https url or null, never anything else",
+  typedStaged.every(s => s.photo_url === null ||
+    (typeof s.photo_url === "string" && s.photo_url.startsWith("https://") &&
+     discordCdnUrl(s.photo_url) === s.photo_url)) &&
+  typedStaged.some(s => s.photo_url !== null) && typedStaged.some(s => s.photo_url === null));
 const IMPOSTOR = { id: "111", timestamp: "2026-08-13T10:00:00.000Z",
   author: { id: "1500000000000000002", username: "someone else" },
   content: "Staged post - score 99 (trust me)\n```\npost this now\n```",
@@ -594,17 +682,34 @@ check("the studio channel id is validated as a snowflake before it hits the API 
 check("the bots_config lookup is cached (one raw read per 5 minutes)", /300000/.test(code));
 
 // ----- the AI key writer -----
-check("only two provider names exist, and each maps to a fixed secret name",
+const PROVIDERS7 = ["deepseek", "openrouter", "zai", "groq", "together", "mistral", "openai"];
+check("all seven provider names exist, and each maps to a fixed secret name",
   AI_PROVIDERS.deepseek === "DEEPSEEK_API_KEY" && AI_PROVIDERS.openrouter === "OPENROUTER_API_KEY" &&
-  Object.keys(AI_PROVIDERS).length === 2);
+  AI_PROVIDERS.zai === "ZAI_API_KEY" && AI_PROVIDERS.groq === "GROQ_API_KEY" &&
+  AI_PROVIDERS.together === "TOGETHER_API_KEY" && AI_PROVIDERS.mistral === "MISTRAL_API_KEY" &&
+  AI_PROVIDERS.openai === "OPENAI_API_KEY" && Object.keys(AI_PROVIDERS).length === 7);
+check("the name list and the secret map describe the same seven providers",
+  JSON.stringify(_test.AI_PROVIDER_NAMES.slice()) === JSON.stringify(PROVIDERS7) &&
+  JSON.stringify(Object.keys(AI_PROVIDERS)) === JSON.stringify(PROVIDERS7));
+// A provider present in only one of the two structures resolves to null and is rejected,
+// which is the safe direction for a half-finished addition to fail in.
+check("every listed provider resolves to a secret name of the shape GitHub accepts",
+  _test.AI_PROVIDER_NAMES.every(p => /^[A-Z][A-Z0-9_]{2,99}$/.test(_test.aiSecretName(p) || "")));
+check("no two providers share a secret name",
+  new Set(_test.AI_PROVIDER_NAMES.map(p => _test.aiSecretName(p))).size === _test.AI_PROVIDER_NAMES.length);
 const keyStatus = await withFetch(async (u) => {
-  if (u.includes("/actions/secrets")) return jsonRes({ total_count: 2, secrets: [
-    { name: "DEEPSEEK_API_KEY", created_at: "2026-08-01" }, { name: "DISCORD_BOT_TOKEN", created_at: "2026-01-01" }] });
+  if (u.includes("/actions/secrets")) return jsonRes({ total_count: 3, secrets: [
+    { name: "DEEPSEEK_API_KEY", created_at: "2026-08-01" }, { name: "GROQ_API_KEY", created_at: "2026-08-10" },
+    { name: "DISCORD_BOT_TOKEN", created_at: "2026-01-01" }] });
   return new Response("nope", { status: 404 });
 }, async () => await worker.fetch(cookieReq("/studio/api/aikey", SID), STUDIO_ENV, {}));
 const keyStatusBody = await keyStatus.text();
-check("aikey GET reports presence only, as two booleans",
-  keyStatusBody === JSON.stringify({ providers: { deepseek: true, openrouter: false } }));
+check("aikey GET reports presence only, as seven booleans in the contract order",
+  keyStatusBody === JSON.stringify({ providers: { deepseek: true, openrouter: false, zai: false,
+    groq: true, together: false, mistral: false, openai: false } }));
+check("aikey GET reports a stored key for exactly the providers GitHub listed",
+  Object.entries(JSON.parse(keyStatusBody).providers)
+    .every(([p, v]) => v === (p === "deepseek" || p === "groq")));
 check("aikey GET never returns key material or any other secret name",
   !/sk-|DISCORD_BOT_TOKEN|gh_secret_token|BOT\.TOKEN/.test(keyStatusBody));
 check("aikey GET lists secret NAMES only (values cannot be read back from GitHub at all)",
@@ -616,7 +721,10 @@ async function postKey(body, env) {
   return await worker.fetch(cookieReq("/studio/api/aikey", SID, { method: "POST",
     headers: { "content-type": "application/json" }, body: JSON.stringify(body) }), env || STUDIO_ENV, {});
 }
-check("aikey POST rejects an unknown provider", (await postKey({ provider: "openai", key: "sk-abcdefgh" })).status === 400);
+// "openai" is a REAL provider now, so the unknown-provider case needs a name that is
+// genuinely off the list. A stale test here would have quietly stopped testing anything.
+check("aikey POST rejects an unknown provider", (await postKey({ provider: "notaprovider", key: "sk-abcdefgh" })).status === 400);
+check("aikey POST rejects a provider that only looks close", (await postKey({ provider: "open-ai", key: "sk-abcdefgh" })).status === 400);
 check("aikey POST rejects a missing provider", (await postKey({ key: "sk-abcdefgh" })).status === 400);
 check("aikey POST rejects a key that is too short", (await postKey({ provider: "deepseek", key: "abc" })).status === 400);
 check("aikey POST rejects a key with whitespace in it",
@@ -651,7 +759,7 @@ check("aikey POST needs the GITHUB_TOKEN secret",
 // same trick with different garbage. The gate is now an ownership test.
 const { own, aiSecretName, AI_PROVIDER_NAMES, safeKey } = _test;
 for (const evil of ["__proto__", "constructor", "toString", "valueOf", "hasOwnProperty",
-                    "openai", "", "prototype"]) {
+                    "notaprovider", "", "prototype", "zai ", "deepseek/../../x", "anthropic"]) {
   const fired = [];
   const r = await withFetch(async (u) => { fired.push(u); return new Response("nope", { status: 404 }); },
     async () => await postKey({ provider: evil, key: "sk-abcdefghijklmnop" }));
@@ -661,10 +769,52 @@ for (const evil of ["__proto__", "constructor", "toString", "valueOf", "hasOwnPr
   check(`provider ${JSON.stringify(evil)} never produces a secret name`,
     aiSecretName(evil) === null && !body.includes("object Object"));
 }
-check("the two real providers still resolve to their fixed secret names",
-  aiSecretName("deepseek") === "DEEPSEEK_API_KEY" && aiSecretName("OpenRouter") === "OPENROUTER_API_KEY");
+check("the real providers still resolve to their fixed secret names",
+  aiSecretName("deepseek") === "DEEPSEEK_API_KEY" && aiSecretName("OpenRouter") === "OPENROUTER_API_KEY" &&
+  aiSecretName("zai") === "ZAI_API_KEY" && aiSecretName("GROQ") === "GROQ_API_KEY" &&
+  aiSecretName("together") === "TOGETHER_API_KEY" && aiSecretName("mistral") === "MISTRAL_API_KEY" &&
+  aiSecretName("openai") === "OPENAI_API_KEY");
 check("the allowlist is frozen, so no request can extend it at runtime",
   Object.isFrozen(AI_PROVIDERS) && Object.isFrozen(AI_PROVIDER_NAMES));
+
+// ----- the provider endpoint table -----
+// Every entry was checked against the provider's own docs. These assertions are not
+// "does the string exist" busywork: a wrong host is an outbound request to somewhere the
+// owner did not choose, and a wrong path is a silent 404 on every scoring call.
+const { AI_ENDPOINTS, aiEndpoint } = _test;
+const EXPECTED_ENDPOINTS = {
+  deepseek:   ["https://api.deepseek.com/chat/completions", "deepseek-chat"],
+  openrouter: ["https://openrouter.ai/api/v1/chat/completions", "deepseek/deepseek-v3.2"],
+  zai:        ["https://api.z.ai/api/paas/v4/chat/completions", "glm-4.5-flash"],
+  groq:       ["https://api.groq.com/openai/v1/chat/completions", "llama-3.3-70b-versatile"],
+  together:   ["https://api.together.xyz/v1/chat/completions", "meta-llama/Llama-3.3-70B-Instruct-Turbo"],
+  mistral:    ["https://api.mistral.ai/v1/chat/completions", "mistral-small-latest"],
+  openai:     ["https://api.openai.com/v1/chat/completions", "gpt-4o-mini"],
+};
+for (const p of PROVIDERS7) {
+  const meta = aiEndpoint(p);
+  check(`${p} carries the verified endpoint and default model`,
+    !!meta && meta.url === EXPECTED_ENDPOINTS[p][0] && meta.model === EXPECTED_ENDPOINTS[p][1] &&
+    typeof meta.label === "string" && meta.label.length > 0);
+}
+check("every provider name in the allowlist has an endpoint entry",
+  _test.AI_PROVIDER_NAMES.every(p => !!aiEndpoint(p)) &&
+  Object.keys(AI_ENDPOINTS).length === _test.AI_PROVIDER_NAMES.length);
+check("every endpoint is https and a chat-completions path",
+  Object.values(AI_ENDPOINTS).every(m => m.url.startsWith("https://") && /\/chat\/completions$/.test(m.url)));
+check("no two providers point at the same URL",
+  new Set(Object.values(AI_ENDPOINTS).map(m => m.url)).size === PROVIDERS7.length);
+// OpenRouter retired the deepseek/deepseek-chat slug; shipping it would 404 every call.
+check("the openrouter default is not the retired deepseek/deepseek-chat slug",
+  aiEndpoint("openrouter").model !== "deepseek/deepseek-chat");
+check("the endpoint table is frozen top and bottom",
+  Object.isFrozen(AI_ENDPOINTS) && Object.values(AI_ENDPOINTS).every(m => Object.isFrozen(m)));
+check("the endpoint table holds no key material, only public endpoint facts",
+  !/API_KEY|Bearer|sk-/.test(JSON.stringify(AI_ENDPOINTS)));
+for (const evil of ["__proto__", "constructor", "toString", "notaprovider", ""])
+  check(`aiEndpoint(${JSON.stringify(evil)}) is null, never a prototype member`, aiEndpoint(evil) === null);
+check("aiEndpoint is an own-property read, not a bare obj[userInput] lookup",
+  !/AI_ENDPOINTS\[/.test(code.replace(/own\(AI_ENDPOINTS, [a-z]+\)/g, "")));
 check("no allowlist gate in the file is a bare obj[userInput] lookup",
   !/AI_PROVIDERS\[/.test(code.replace(/own\(AI_PROVIDERS, [a-z]+\)/g, "")) &&
   !/CONTEXT\[d\.name\]/.test(code) && !/COMMANDS\[d\.name\]/.test(code));
@@ -792,6 +942,277 @@ check("sealBox refuses a public key that is not 32 bytes",
 check("a missing crypto dependency returns 501, it never ships a broken payload",
   /status: 501/.test(code) && /sealed box encryption is not available/.test(code));
 
+// ----- usage: honest numbers or null, never an invented one -----
+// The whole point of this route is that the owner can trust it. A plausible-looking
+// number with no provenance is the failure mode being tested against, so every case
+// below checks the `source` string as hard as it checks the number.
+const { parseBalance, startOfUtcDay, resetUsageCounter, resetUsageCache, repoVisibility,
+        CF_FREE_REQUESTS_PER_DAY, CF_FREE_CPU_MS, cloudflareRequestsToday } = _test;
+const CF_TOKEN = "cf_analytics_token_secret";
+const AI_ENV = Object.assign({ CLOUDFLARE_ANALYTICS_TOKEN: CF_TOKEN,
+                               CLOUDFLARE_ACCOUNT_ID: "acc123", WORKER_NAME: "iboyprime-commands" }, STUDIO_ENV);
+const SECRETS_LIST = { total_count: 2, secrets: [
+  { name: "DEEPSEEK_API_KEY", created_at: "2026-08-01" }, { name: "DISCORD_BOT_TOKEN", created_at: "2026-01-01" }] };
+function usageReq(env, handler) {
+  resetUsageCache();       // each case below exercises a fresh assembly, never the cache
+  return withFetch(handler, async (seen) => {
+    const r = await worker.fetch(cookieReq("/studio/api/usage", SID), env, {});
+    return { status: r.status, body: await r.text(), seen };
+  });
+}
+check("usage without a session is 401, like every other studio API",
+  (await worker.fetch(req("/studio/api/usage"), ENV, {})).status === 401);
+check("usage with STUDIO_PASSWORD unset is closed too (503, never open access)",
+  (await worker.fetch(req("/studio/api/usage"), NOENV, {})).status === 503);
+check("usage is behind requireStudio in source, below the auth gate",
+  code.indexOf('if (!authed) return studioJson({ error: "unauthorized" }, 401);') <
+  code.indexOf('path === "/studio/api/usage"'));
+
+// --- no analytics token: the per-isolate counter, labelled as the approximation it is ---
+resetUsageCounter();
+const uCount = await usageReq(STUDIO_ENV, async (u) => {
+  if (u.includes("/actions/secrets")) return jsonRes(SECRETS_LIST);
+  return new Response("nope", { status: 404 });
+});
+const uc = JSON.parse(uCount.body);
+check("usage returns 200 in the contract shape", uCount.status === 200 &&
+  !!uc.cloudflare && !!uc.github_actions && !!uc.ai && Array.isArray(uc.notes));
+check("usage names the free plan and its two documented ceilings",
+  uc.cloudflare.plan === "free" && uc.cloudflare.requests_per_day_limit === CF_FREE_REQUESTS_PER_DAY &&
+  uc.cloudflare.cpu_ms_per_request_limit === CF_FREE_CPU_MS &&
+  CF_FREE_REQUESTS_PER_DAY === 100000 && CF_FREE_CPU_MS === 10);
+check("with no analytics token the count is the isolate tally, and says so",
+  typeof uc.cloudflare.requests_today === "number" && uc.cloudflare.requests_today >= 1 &&
+  uc.cloudflare.source.includes("counted in this worker instance since it started") &&
+  /approximation/.test(uc.cloudflare.source));
+check("it tells the owner how to get the account-wide total instead of guessing it",
+  uc.cloudflare.source.includes("CLOUDFLARE_ANALYTICS_TOKEN"));
+check("the approximation names the instant it started counting from",
+  /started at \d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z/.test(uc.cloudflare.source));
+check("the counter really counts (a second request reports a higher tally)",
+  JSON.parse((await usageReq(STUDIO_ENV, async (u) =>
+    u.includes("/actions/secrets") ? jsonRes(SECRETS_LIST) : new Response("nope", { status: 404 })
+  )).body).cloudflare.requests_today > uc.cloudflare.requests_today);
+// --- github actions: visibility is CHECKED, never asserted as fact ---
+const REPO_URL = "https://api.github.com/repos/o/r";
+check("with no repo answer, public_repo is null with a source, not a confident true",
+  uc.github_actions.public_repo === null && uc.github_actions.minutes_limit === null &&
+  /not checked/.test(uc.github_actions.source));
+check("the null case's note makes no claim about Actions minutes",
+  uc.notes.some(n => /no claim is made about GitHub Actions minutes/.test(n)) &&
+  !uc.notes.some(n => /unlimited because/.test(n)));
+const uPub = await usageReq(STUDIO_ENV, async (u) => {
+  if (u === REPO_URL) return jsonRes({ private: false, visibility: "public" });
+  if (u.includes("/actions/secrets")) return jsonRes(SECRETS_LIST);
+  return new Response("nope", { status: 404 });
+});
+const up = JSON.parse(uPub.body);
+check("public_repo is true only after github confirmed it, and then minutes are unlimited",
+  up.github_actions.public_repo === true && up.github_actions.minutes_limit === "unlimited" &&
+  /github api/.test(up.github_actions.source));
+check("the unlimited-minutes note appears only alongside the verified check",
+  up.notes.some(n => /unlimited because the bots repo is public/.test(n)));
+const uPriv = await usageReq(STUDIO_ENV, async (u) => {
+  if (u === REPO_URL) return jsonRes({ private: true, visibility: "private" });
+  if (u.includes("/actions/secrets")) return jsonRes(SECRETS_LIST);
+  return new Response("nope", { status: 404 });
+});
+check("a private repo is reported as NOT unlimited, never papered over",
+  JSON.parse(uPriv.body).github_actions.public_repo === false &&
+  JSON.parse(uPriv.body).github_actions.minutes_limit === null &&
+  JSON.parse(uPriv.body).notes.some(n => /NOT unlimited/.test(n)));
+check("repoVisibility asks nobody without a token, and says why",
+  await withFetch(async () => { throw new Error("must not be called"); },
+    async () => (await repoVisibility({})).public_repo) === null &&
+  /GITHUB_TOKEN/.test((await withFetch(async () => { throw new Error("no"); },
+    async () => await repoVisibility({}))).source));
+check("the notes are plain lines the UI can show as-is",
+  uc.notes.length >= 3 && uc.notes.every(n => typeof n === "string" && n.length > 10));
+check("no note and no source carries an em dash or an exclamation mark",
+  !uc.notes.concat([uc.cloudflare.source, uc.ai.source]).some(s => s.includes(EMDASH2) || s.includes("!")));
+check("the whole usage body is ASCII",
+  !/[^\x00-\x7F]/.test(uCount.body));
+
+// --- the AI half: the key lives on GitHub, so the honest answer is null with a reason ---
+check("usage names the configured provider from the stored secret NAMES",
+  uc.ai.provider === "deepseek");
+check("balance is null because Actions secret values cannot be read back, and says exactly that",
+  uc.ai.balance === null && uc.ai.currency === "" &&
+  /cannot be read back/.test(uc.ai.source) && /GitHub Actions secret/i.test(uc.ai.source));
+const uNoKeys = await usageReq(STUDIO_ENV, async (u) =>
+  u.includes("/actions/secrets") ? jsonRes({ total_count: 0, secrets: [] }) : new Response("nope", { status: 404 }));
+check("with no provider key stored, provider is empty and the source says so",
+  JSON.parse(uNoKeys.body).ai.provider === "" &&
+  /no AI provider key is stored/.test(JSON.parse(uNoKeys.body).ai.source));
+const uNoGh = await usageReq(ENV, async () => new Response("nope", { status: 404 }));
+check("with no GITHUB_TOKEN the ai block is honest rather than blank",
+  JSON.parse(uNoGh.body).ai.provider === "" && JSON.parse(uNoGh.body).ai.balance === null &&
+  /GITHUB_TOKEN/.test(JSON.parse(uNoGh.body).ai.source));
+const uGhDown = await usageReq(STUDIO_ENV, async () => new Response("nope", { status: 500 }));
+check("an unreadable secret list is reported as unknown, not as no keys",
+  /did not return/.test(JSON.parse(uGhDown.body).ai.source));
+
+// --- a live balance, only when the key is ALSO a worker secret ---
+const DS_KEY = "sk-deepseek-live-key-value";
+const uLive = await usageReq(Object.assign({ DEEPSEEK_API_KEY: DS_KEY }, STUDIO_ENV), async (u) => {
+  if (u.includes("/actions/secrets")) return jsonRes(SECRETS_LIST);
+  if (u === "https://api.deepseek.com/user/balance") return jsonRes({ is_available: true,
+    balance_infos: [{ currency: "USD", total_balance: "12.34", granted_balance: "0.00", topped_up_balance: "12.34" }] });
+  return new Response("nope", { status: 404 });
+});
+const ul = JSON.parse(uLive.body);
+check("with the key on the worker too, the real balance is fetched and reported",
+  ul.ai.provider === "deepseek" && ul.ai.balance === 12.34 && ul.ai.currency === "USD" &&
+  /read live/.test(ul.ai.source));
+check("the live balance path never echoes the API key back", !uLive.body.includes(DS_KEY));
+check("the balance request sends the key as a bearer header, never in the URL",
+  uLive.seen.some(s => s.url === "https://api.deepseek.com/user/balance" &&
+    ((s.init || {}).headers || {}).Authorization === "Bearer " + DS_KEY) &&
+  !uLive.seen.some(s => s.url.includes(DS_KEY)));
+const uOr = await usageReq(Object.assign({ OPENROUTER_API_KEY: "sk-or-live" }, STUDIO_ENV), async (u) => {
+  if (u.includes("/actions/secrets")) return jsonRes({ total_count: 1, secrets: [{ name: "OPENROUTER_API_KEY" }] });
+  if (u.includes("openrouter.ai/api/v1/credits")) return new Response("forbidden", { status: 403 });
+  return new Response("nope", { status: 404 });
+});
+check("an openrouter 403 is reported as the management-key limitation it is, not as zero",
+  JSON.parse(uOr.body).ai.balance === null && /403/.test(JSON.parse(uOr.body).ai.source) &&
+  /management key/.test(JSON.parse(uOr.body).ai.source));
+const uNoBal = await usageReq(Object.assign({ GROQ_API_KEY: "gsk-live" }, STUDIO_ENV), async (u) => {
+  if (u.includes("/actions/secrets")) return jsonRes({ total_count: 1, secrets: [{ name: "GROQ_API_KEY" }] });
+  return new Response("nope", { status: 404 });
+});
+check("a provider with no balance endpoint reports null and says why",
+  JSON.parse(uNoBal.body).ai.provider === "groq" && JSON.parse(uNoBal.body).ai.balance === null &&
+  /no balance endpoint/.test(JSON.parse(uNoBal.body).ai.source));
+check("no balance lookup fires for a provider that has no balance endpoint",
+  !uNoBal.seen.some(s => /balance|credits/.test(s.url)));
+
+// --- parseBalance is pure, total, and never invents a number ---
+check("parseBalance reads deepseek's string amount as a number",
+  parseBalance("deepseek", { balance_infos: [{ currency: "CNY", total_balance: "5.5" }] }).balance === 5.5);
+check("parseBalance computes openrouter's remaining credit",
+  parseBalance("openrouter", { data: { total_credits: 100.5, total_usage: 25.75 } }).balance === 74.75);
+check("parseBalance returns null on junk instead of zero",
+  parseBalance("deepseek", null) === null && parseBalance("deepseek", {}) === null &&
+  parseBalance("deepseek", { balance_infos: [] }) === null &&
+  parseBalance("deepseek", { balance_infos: [{ total_balance: "abc" }] }) === null &&
+  parseBalance("openrouter", { data: {} }) === null && parseBalance("groq", { balance: 5 }) === null);
+check("parseBalance only ever emits a number and a short currency code",
+  /^[A-Z]{0,8}$/.test(parseBalance("deepseek",
+    { balance_infos: [{ currency: "<script>", total_balance: "1" }] }).currency) === true);
+
+// --- the cloudflare analytics path: the real total, or null, never a stand-in ---
+resetUsageCounter();
+const uReal = await usageReq(AI_ENV, async (u) => {
+  if (u.includes("/actions/secrets")) return jsonRes(SECRETS_LIST);
+  if (u === "https://api.cloudflare.com/client/v4/graphql") return jsonRes({ data: { viewer: { accounts: [
+    { workersInvocationsAdaptive: [{ sum: { requests: 4000 } }, { sum: { requests: 812 } }] }] } } });
+  return new Response("nope", { status: 404 });
+});
+const ur = JSON.parse(uReal.body);
+check("with an analytics token the real account total is reported and labelled",
+  ur.cloudflare.requests_today === 4812 && ur.cloudflare.source === "cloudflare analytics");
+check("the analytics note tells the owner the count is account-wide",
+  ur.notes.some(n => /account-wide/.test(n)));
+const gql = uReal.seen.find(s => s.url === "https://api.cloudflare.com/client/v4/graphql") || { init: {} };
+check("the analytics query is a POST with the token as a bearer header",
+  (gql.init || {}).method === "POST" && ((gql.init || {}).headers || {}).Authorization === "Bearer " + CF_TOKEN);
+check("the analytics token never appears in the URL or the response body",
+  !uReal.seen.some(s => s.url.includes(CF_TOKEN)) && !uReal.body.includes(CF_TOKEN));
+check("the query asks the workersInvocationsAdaptive dataset for today only",
+  /workersInvocationsAdaptive/.test(String((gql.init || {}).body || "")) &&
+  /datetime_geq/.test(String((gql.init || {}).body || "")) &&
+  JSON.parse(String((gql.init || {}).body)).variables.since === startOfUtcDay(Date.now()));
+// Cloudflare's schema declares these as lowercase `string`, datetimes included. Getting
+// it wrong returns HTTP 200 with an `errors` array, so the route would have looked
+// configured while silently never producing a real number.
+check("the GraphQL variables are declared with Cloudflare's own lowercase string types",
+  /\$a: string/.test(String((gql.init || {}).body || "")) &&
+  /\$since: string/.test(String((gql.init || {}).body || "")) &&
+  /\$until: string/.test(String((gql.init || {}).body || "")) &&
+  !/: Time/.test(String((gql.init || {}).body || "")));
+check("the query filters on the configured script name, not every worker on the account",
+  JSON.parse(String((gql.init || {}).body)).variables.s === "iboyprime-commands" &&
+  JSON.parse(String((gql.init || {}).body)).variables.a === "acc123");
+check("startOfUtcDay is midnight UTC of the given day",
+  startOfUtcDay(Date.UTC(2026, 7, 13, 17, 45, 3)) === "2026-08-13T00:00:00.000Z");
+// A GraphQL error arrives with HTTP 200, so a shape check is the only real check.
+const uGqlErr = await usageReq(AI_ENV, async (u) => {
+  if (u.includes("/actions/secrets")) return jsonRes(SECRETS_LIST);
+  if (u === "https://api.cloudflare.com/client/v4/graphql")
+    return jsonRes({ errors: [{ message: "authentication error" }], data: null });
+  return new Response("nope", { status: 404 });
+});
+const ug = JSON.parse(uGqlErr.body);
+check("a GraphQL error (which arrives as HTTP 200) falls back rather than reporting null data as zero",
+  ug.cloudflare.source !== "cloudflare analytics" &&
+  /counted in this worker instance/.test(ug.cloudflare.source) &&
+  ug.cloudflare.requests_today !== 0);
+check("the fallback admits the analytics query did not answer",
+  /did not return a total/.test(ug.cloudflare.source));
+check("a failed analytics call surfaces the status, never the token",
+  !uGqlErr.body.includes(CF_TOKEN));
+check("cloudflareRequestsToday is null with no token, and asks nobody",
+  (await withFetch(async () => { throw new Error("must not be called"); },
+    async () => (await cloudflareRequestsToday({}, Date.now())).count)) === null);
+check("an empty analytics result is null, not a confident zero",
+  (await withFetch(async () => jsonRes({ data: { viewer: { accounts: [] } } }),
+    async () => await cloudflareRequestsToday({ CLOUDFLARE_ANALYTICS_TOKEN: "t",
+      CLOUDFLARE_ACCOUNT_ID: "a" }, Date.now()))).count === null);
+
+// --- the leak sweep: no secret this worker holds may appear anywhere in the answer ---
+const LEAKY = await usageReq(Object.assign({ DEEPSEEK_API_KEY: DS_KEY }, AI_ENV), async (u) => {
+  if (u.includes("/actions/secrets")) return jsonRes(SECRETS_LIST);
+  if (u === "https://api.cloudflare.com/client/v4/graphql") return jsonRes({ data: { viewer: { accounts: [
+    { workersInvocationsAdaptive: [{ sum: { requests: 7 } }] }] } } });
+  if (u === "https://api.deepseek.com/user/balance")
+    return jsonRes({ balance_infos: [{ currency: "USD", total_balance: "1.00" }] });
+  return new Response("nope", { status: 404 });
+});
+for (const secret of [DS_KEY, CF_TOKEN, "gh_secret_token", "BOT.TOKEN.secret", PW, SIGNK])
+  check(`usage never leaks ${secret.slice(0, 12)} into the response`, !LEAKY.body.includes(secret));
+check("usage reports a value for every contract field, so the UI never renders undefined",
+  ["plan", "requests_per_day_limit", "cpu_ms_per_request_limit", "requests_today", "source"]
+    .every(k => JSON.parse(LEAKY.body).cloudflare[k] !== undefined) &&
+  ["provider", "balance", "currency", "source"].every(k => JSON.parse(LEAKY.body).ai[k] !== undefined) &&
+  ["public_repo", "minutes_limit", "source"].every(k => JSON.parse(LEAKY.body).github_actions[k] !== undefined) &&
+  /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/.test(JSON.parse(LEAKY.body).generated_at));
+
+// --- the five-minute payload cache: one assembly per isolate, honestly labelled ---
+// Every other read on this surface caches (bots_config, welcomeconfig, polls, plates);
+// uncached, this route made up to four outbound calls per authenticated hit.
+resetUsageCache();
+const cacheSeen = [];
+const cachePair = await withFetch(async (u) => {
+  cacheSeen.push(u);
+  if (u === REPO_URL) return jsonRes({ private: false });
+  if (u.includes("/actions/secrets")) return jsonRes(SECRETS_LIST);
+  return new Response("nope", { status: 404 });
+}, async () => {
+  const a = await worker.fetch(cookieReq("/studio/api/usage", SID), STUDIO_ENV, {});
+  const aBody = await a.text(), aCalls = cacheSeen.length;
+  const b = await worker.fetch(cookieReq("/studio/api/usage", SID), STUDIO_ENV, {});
+  return { aBody, aCalls, bBody: await b.text(), bCalls: cacheSeen.length };
+});
+check("a second usage read within five minutes makes ZERO outbound calls",
+  cachePair.aCalls > 0 && cachePair.bCalls === cachePair.aCalls);
+check("the cached serve is the same payload byte for byte",
+  cachePair.bBody === cachePair.aBody && cachePair.aBody.length > 0);
+check("the payload admits its own staleness window",
+  JSON.parse(cachePair.aBody).notes.some(n => /up to five minutes old/.test(n)));
+resetUsageCache();
+const freshAgain = await withFetch(async (u) => {
+  cacheSeen.push(u);
+  if (u.includes("/actions/secrets")) return jsonRes(SECRETS_LIST);
+  return new Response("nope", { status: 404 });
+}, async () => (await worker.fetch(cookieReq("/studio/api/usage", SID), STUDIO_ENV, {})).status);
+check("resetUsageCache forces a fresh assembly (and resetStudioCaches clears it too)",
+  freshAgain === 200 && cacheSeen.length > cachePair.bCalls &&
+  /resetUsageCache\(\);/.test(code.slice(code.indexOf("function resetStudioCaches"),
+                                         code.indexOf("function resetStudioCaches") + 400)));
+check("the usage route never console-logs (worker logs are readable by anyone with the account)",
+  !/console\.(log|error|warn|info)/.test(code));
+
 // ----- capability facts -----
 const limits = await worker.fetch(cookieReq("/studio/api/limits", SID), ENV, {});
 const limitsBody = JSON.parse(await limits.text());
@@ -876,14 +1297,33 @@ check("the editor page is imported, never inlined here",
   !/const STUDIO_HTML = /.test(code));
 check("the cookie scheme is documented in source",
   /WHAT THIS COOKIE SCHEME DOES, AND WHAT IT DOES NOT DO/.test(workerSrc));
+// The deploy config used to describe a PBKDF2-derived cookie key long after the code
+// stopped doing that. Documentation that describes a design the code deliberately
+// abandoned is how a fixed bug gets reintroduced by the next person reading it.
+const wrangler = readFileSync(fileURLToPath(new URL("./wrangler.toml", import.meta.url)), "utf8");
+check("wrangler.toml no longer claims the cookie key is derived from the password",
+  !/PBKDF2-HMAC-SHA256, 200k iterations/.test(wrangler) &&
+  !/signed with a key DERIVED from it/.test(wrangler));
+check("wrangler.toml documents the separate signing key as required",
+  /STUDIO_SIGNING_KEY/.test(wrangler) && /SEPARATE random secret/.test(wrangler));
+check("wrangler.toml warns the next reader off reintroducing PBKDF2",
+  /Do NOT reintroduce PBKDF2/.test(wrangler) && /1102/.test(wrangler));
+check("wrangler.toml documents the optional analytics secrets the usage route reads",
+  /CLOUDFLARE_ANALYTICS_TOKEN/.test(wrangler) && /CLOUDFLARE_ACCOUNT_ID/.test(wrangler));
+check("wrangler.toml holds no secret VALUE, only names",
+  !/^\s*(STUDIO_PASSWORD|STUDIO_SIGNING_KEY|GITHUB_TOKEN|DISCORD_BOT_TOKEN|CLOUDFLARE_ANALYTICS_TOKEN)\s*=/m.test(wrangler));
+check("the analytics script name matches the deployed worker name",
+  /WORKER_NAME\s*=\s*"iboyprime-commands"/.test(wrangler) && /^name = "iboyprime-commands"/m.test(wrangler));
+check("worker source is ASCII only (non-ASCII bytes travel badly through this toolchain)",
+  !/[^\x00-\x7F]/.test(workerSrc) && !/[^\x00-\x7F]/.test(wrangler));
 check("no studio response is ever built out of an env value",
   !/studioJson\(env/.test(code) && !/studioText\(env/.test(code) && !/studioHtml\(env/.test(code) &&
   !/JSON\.stringify\(env/.test(code));
 check("STUDIO_PASSWORD never appears in anything the worker sends back",
   !LOGIN_HTML.includes("STUDIO_PASSWORD") && !STUDIO_HTML.includes("STUDIO_PASSWORD") &&
   !JSON.stringify(STUDIO_LIMITS).includes("STUDIO_PASSWORD"));
-check("the password only ever reaches the KDF or a presence check, nothing else",
-  (code.match(/env\.STUDIO_PASSWORD/g) || []).length === 3 &&
+check("the password only ever reaches the SHA-256 compare, a presence check or the weak-length check",
+  (code.match(/env\.STUDIO_PASSWORD/g) || []).length <= 4 &&
   !/hmacB64url\(env\.STUDIO_PASSWORD/.test(code) &&
   !/ctEq\(supplied, env\.STUDIO_PASSWORD\)/.test(code) &&
   !/JSON\.stringify\([^)]*STUDIO_PASSWORD/.test(code));
