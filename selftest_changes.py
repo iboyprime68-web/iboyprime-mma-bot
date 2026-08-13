@@ -1746,6 +1746,8 @@ common.post_file = lambda chan, content, path, filename=None, allowed_mentions=N
                 "silent": silent}) or (200, {"id": "S1"}))
 _yt_og_real = ytposts.og_image
 ytposts.og_image = lambda link, timeout=8: ""
+_yt_fc_real = ytposts.fighter_cutout
+ytposts.fighter_cutout = lambda text: ""      # no network in tests
 POSTS_FULL.clear()
 check("no studio channel reports and posts nothing",
       "studio" in ytposts.stage_story({"title": "T"}, 80, "w", {"channels": {}}, {})
@@ -1791,6 +1793,98 @@ check("stage passes line and hot into the news render spec",
       and _yt_spec.get("headline") == "Big story")
 check("stage passes no speaker or inset yet (those come via the composer)",
       not _yt_spec.get("speaker") and not _yt_spec.get("inset_path"))
+
+# -- fighter-cutout fallback: photoless stories get a promo cutout ------------
+_yt_rankings = [
+    {"id": "lightweight", "categoryName": "Lightweight",
+     "champion": {"id": "islam-makhachev", "championName": "Islam Makhachev"},
+     "fighters": [{"id": "arman-tsarukyan", "name": "Arman Tsarukyan"},
+                  {"id": "charles-oliveira", "name": "Charles Oliveira"}]},
+    {"id": "welterweight", "categoryName": "Welterweight",
+     "champion": {"id": "jack-della-maddalena",
+                  "championName": "Jack Della Maddalena"},
+     "fighters": [{"id": "ian-machado-garry", "name": "Ian Machado Garry"},
+                  {"id": "sean-brady", "name": "Sean Brady"}]},
+    {"id": "fake", "categoryName": "Fake",
+     "champion": {},
+     "fighters": [{"id": "john-smith", "name": "John Smith"},
+                  {"id": "adam-smith", "name": "Adam Smith"}]},
+]
+_yt_map = ytposts.build_name_map(_yt_rankings)
+check("name map carries full names and champions",
+      _yt_map.get("islam makhachev") == "islam-makhachev"
+      and _yt_map.get("jack della maddalena") == "jack-della-maddalena"
+      and _yt_map.get("arman tsarukyan") == "arman-tsarukyan")
+check("unambiguous surnames resolve, clashing surnames are dropped",
+      _yt_map.get("makhachev") == "islam-makhachev"
+      and _yt_map.get("oliveira") == "charles-oliveira"
+      and "smith" not in _yt_map)
+check("name map survives junk payloads",
+      ytposts.build_name_map(None) == {} and ytposts.build_name_map([{}]) == {}
+      and ytposts.build_name_map("x") == {})
+check("match is case-insensitive on whole words",
+      ytposts.match_fighter("TSARUKYAN OUT OF UFC 330", _yt_map)
+      == "arman-tsarukyan"
+      and ytposts.match_fighter("Brady steps in", _yt_map) == "sean-brady")
+check("the LONGEST matched name wins",
+      ytposts.match_fighter("Islam Makhachev meets Tsarukyan", _yt_map)
+      == "islam-makhachev")
+check("no partial-word matches and no match gives empty",
+      ytposts.match_fighter("BRADYS CORNER SPEAKS", _yt_map) == ""
+      and ytposts.match_fighter("nothing here", _yt_map) == ""
+      and ytposts.match_fighter("", _yt_map) == "")
+
+ytposts.fighter_cutout = _yt_fc_real          # the real one, mocked transport
+_yt_gj_calls = []
+_yt_gj_real = common.get_json
+def _yt_gj(url, headers=None, tries=4, timeout=30):
+    _yt_gj_calls.append(url)
+    if url == ytposts.RANKINGS_API:
+        return 200, _yt_rankings
+    if url == ytposts.FIGHTER_API % "arman-tsarukyan":
+        return 200, {"imgUrl": "https://img.example/arman.png"}
+    return 404, {}
+common.get_json = _yt_gj
+_yt_fb_real = ytposts.fetch_bytes
+ytposts.fetch_bytes = lambda url, timeout=10, cap=8*1024*1024: b"CUTOUTBYTES"
+_yt_cp = ytposts.fighter_cutout("Tsarukyan out of UFC 330")
+check("cutout fallback downloads the matched fighter's promo image",
+      _yt_cp and os.path.exists(_yt_cp)
+      and open(_yt_cp, "rb").read() == b"CUTOUTBYTES"
+      and _yt_gj_calls == [ytposts.RANKINGS_API,
+                           ytposts.FIGHTER_API % "arman-tsarukyan"])
+if _yt_cp:
+    os.remove(_yt_cp)
+_yt_gj_calls.clear()
+check("no fighter in the text means one rankings call and no path",
+      ytposts.fighter_cutout("nothing to see") == ""
+      and _yt_gj_calls == [ytposts.RANKINGS_API])
+ytposts.fetch_bytes = lambda url, timeout=10, cap=8*1024*1024: None
+check("a dead image fetch fails silent", ytposts.fighter_cutout("Tsarukyan") == "")
+ytposts.fetch_bytes = _yt_fb_real
+common.get_json = _yt_gj_real
+
+# stage_story wires the cutout into the render spec on the no-photo path
+_YT_SPECS.clear()
+ytposts.fighter_cutout = lambda text: ""
+ytposts.stage_story({"title": "Big story", "desc": "", "source": "ESPN",
+                     "link": "", "line": "NO NAME HERE"},
+                    75, "heuristic", _yt_bots, _yt_ncfg)
+_yt_spec2 = _YT_SPECS[-1][1] if _YT_SPECS else {}
+check("no cutout match stages with cutout_path None",
+      _yt_spec2.get("cutout_path") is None)
+_yt_fd, _yt_tmp = __import__("tempfile").mkstemp(suffix=".png")
+os.close(_yt_fd)
+with open(_yt_tmp, "wb") as _yt_fh:
+    _yt_fh.write(b"cut")
+ytposts.fighter_cutout = lambda text: _yt_tmp
+ytposts.stage_story({"title": "Tsarukyan out", "desc": "", "source": "ESPN",
+                     "link": "", "line": "TSARUKYAN OUT"},
+                    75, "heuristic", _yt_bots, _yt_ncfg)
+_yt_spec3 = _YT_SPECS[-1][1] if _YT_SPECS else {}
+check("stage passes the cutout path into the render spec and cleans it up",
+      _yt_spec3.get("cutout_path") == _yt_tmp and not os.path.exists(_yt_tmp))
+
 if _yt_pc_saved is not None:
     sys.modules["postcard"] = _yt_pc_saved
 else:
@@ -1798,6 +1892,7 @@ else:
 
 common.post_file = _yt_pf_real
 ytposts.og_image = _yt_og_real
+ytposts.fighter_cutout = _yt_fc_real
 
 # ---- N. scorer (AI story scorer + heuristic fallback) ----------------------
 # Monkeypatches common.http and restores it.
@@ -1970,6 +2065,20 @@ check("openrouter endpoint + default model",
 scorer.score_story("t", "", "s", "ufc", scorer.scoring_config({"scoring": {"model": "meta/custom"}}))
 check("cfg model override reaches the request",
       HTTP_CALLS[-1]["body"]["model"] == "meta/custom")
+
+# -- clause-aware fallback truncation (owner caught "AS MARLON" live) ---------
+check("fallback line cuts at a clause boundary, never mid-thought",
+      scorer._fallback_line(
+          "Former UFC title challenger looks to break seven-fight losing "
+          "streak as Marlon Moraes ends retirement")
+      == "Former UFC title challenger looks to break seven-fight losing streak")
+check("fallback line never dangles a connector word",
+      scorer._fallback_line(
+          "Contender eyes a statement win over the division veteran in the "
+          "coming weeks with Marlon Moraes")
+      == "Contender eyes a statement win over the division veteran in the coming weeks")
+check("short titles pass through the clause-aware fallback untouched",
+      scorer._fallback_line("Short headline stays whole") == "Short headline stays whole")
 
 # -- restore ------------------------------------------------------------------
 common.http = _real_http
@@ -2235,6 +2344,200 @@ if _pil_ok:
                                     "kicker": "BREAKING"})
     check("missing inset file degrades and the explicit kicker still renders",
           _img.size == (1080, 1350))
+
+    # -- the owner's Aug 2026 poster fixes: seam, footer, inset scale, cutout -
+    check("the opaque plate is gone from render_news (transparent seam only)",
+          "_crush_bottom" not in _rn_src and "_seam_gradient" in _rn_src)
+    check("the separate speaker tier is gone - the footer carries attribution",
+          "news_speaker_size" not in _pc_src and "news_footer" in _rn_src)
+    check("photo grade stays warm - no accent duotone on the photo",
+          "news_warmth" in _pc_src and "news_grade" not in _pc_src)
+    check("inset is reference scale (15-18 percent of canvas width)",
+          0.14 <= postcard.STYLE["news_inset_side"] / postcard.STYLE["post_w"]
+          <= 0.18)
+    check("inset sits off-center so it stays clear of the subject's face",
+          postcard.STYLE["news_inset_dx"] >= 0.15)
+
+    check("news_footer: speaker in accent, VIA part muted",
+          postcard.news_footer("Islam Makhachev", "MMA Fighting")
+          == [("ISLAM MAKHACHEV,", "accent"), (" VIA MMA FIGHTING", "muted")])
+    check("news_footer: speaker alone keeps the accent and drops the comma",
+          postcard.news_footer("Islam", "") == [("ISLAM", "accent")])
+    check("news_footer: no speaker falls back to the plain via line",
+          postcard.news_footer("", "espn") == [("VIA ESPN", "muted")])
+    check("news_footer: nothing gives nothing",
+          postcard.news_footer(None, None) == [])
+    check("news_footer: about context names the quote's target (round-3 nit: "
+          "'his heart' needed a who)",
+          postcard.news_footer("Islam Makhachev", "MMA Fighting",
+                               "Della Maddalena")
+          == [("ISLAM MAKHACHEV", "accent"),
+              (" ON DELLA MADDALENA,", "plain"),
+              (" VIA MMA FIGHTING", "muted")])
+    check("news_footer: about without a source drops the comma",
+          postcard.news_footer("Islam", "", "JDM")
+          == [("ISLAM", "accent"), (" ON JDM", "plain")])
+    check("news_footer: about without a speaker is dropped (context without "
+          "a voice is noise)",
+          postcard.news_footer("", "espn", "JDM") == [("VIA ESPN", "muted")])
+    _img = postcard.render("news", {
+        "line": "I will break his heart", "speaker": "Islam Makhachev",
+        "about": "Della Maddalena", "source": "MMA Fighting"})
+    check("about-context footer spec renders 1080x1350",
+          _img.size == (1080, 1350))
+
+    # the footer must render WITH the inset present (the round-1 loss): scan
+    # the footer band for accent-colored speaker glyphs (the speaker renders
+    # in the BRIGHT accent_hot step since round 2)
+    _img = postcard.render("news", {
+        "line": "Backup plan confirmed",
+        "speaker": "Islam Makhachev", "source": "MMA Fighting",
+        "inset_path": _PImage.new("RGB", (200, 260), (90, 60, 40))})
+    _acc = postcard._rgb(postcard.PALETTE["accent_hot"])
+    _band = _img.crop((0, 1024, 1080, 1074))
+    _hit = any(all(abs(px[i] - _acc[i]) <= 40 for i in range(3))
+               for px in _band.getdata())
+    check("footer speaker renders in accent even when the inset is present",
+          _hit)
+
+    # photoless cutout path: a real-alpha sprite renders; the photo wins when
+    # both are given
+    _cut = _PImage.new("RGBA", (300, 520), (0, 0, 0, 0))
+    _cd = _PDraw.Draw(_cut)
+    _cd.ellipse([100, 20, 200, 140], fill=(180, 140, 110, 255))
+    _cd.rectangle([60, 140, 240, 520], fill=(60, 50, 90, 255))
+    _img = postcard.render("news", {"line": "Backup", "hot": ["Backup"],
+                                    "source": "Bloody Elbow",
+                                    "cutout_path": _cut})
+    check("photoless cutout spec renders 1080x1350", _img.size == (1080, 1350))
+    check("a photo always wins over a cutout",
+          "None if photo is not None" in _rn_src)
+    _img = postcard.render("news", {"line": "Backup",
+                                    "cutout_path": "no_such_cutout_xyz.png"})
+    check("missing cutout file degrades to the glow field",
+          _img.size == (1080, 1350))
+
+    # -- round-2 verdict fixes: bright hot step, no pill, docked inset, solo -
+    _acc_lo = postcard._rgb(postcard.PALETTE["accent"])
+    _acc_hi = postcard._rgb(postcard.PALETTE["accent_hot"])
+    check("accent_hot is the VIVID violet step, not pastel lavender (round-3 "
+          "loss: pastel read soft-not-fight-night against the warm grade) - "
+          "more chroma than accent, still bright enough for the near-black "
+          "seam",
+          (max(_acc_hi) - min(_acc_hi)) > (max(_acc_lo) - min(_acc_lo))
+          and max(_acc_hi) == 255 and sum(_acc_hi) >= 460)
+    # round-6 verdict (third straight blind loss on the SAME flaw): purple
+    # glyph FILLS at mid luminance sank into warm/red photo grades at
+    # thumbnail size - the payload words read BELOW the surrounding white.
+    # Hot words render WHITE now and each takes a purple underline bar (the
+    # statement-poster device): the bar carries the brand, the white carries
+    # the legibility.
+    _hb_src = _pc_inspect.getsource(postcard._hot_block)
+    check("hot words render WHITE - no purple glyph fill left in the block",
+          "hot_col" not in _hb_src
+          and "_tracked(ld, (x, yy), word, f, base_col" in _hb_src)
+    check("each hot word takes the purple underline bar in the same stamped "
+          "layer (same condense, same shadow)",
+          'PALETTE["accent_hot"]' in _hb_src
+          and "news_hot_bar_frac" in _hb_src and "rounded_rectangle" in _hb_src)
+    check("the bar underlines the token's alnum core - a trailing comma's "
+          "descender never collides",
+          postcard._bar_core("GARRY,") == "GARRY"
+          and postcard._bar_core("D'ARCE.") == "D'ARCE"
+          and postcard._bar_core("...") == "" and postcard._bar_core(None) == "")
+    check("a hot word on the LAST line reserves clearance so its bar never "
+          "clips the footer",
+          "news_hot_bar_frac" in _rn_src and "lines[-1]" in _rn_src)
+    check("the attribution footer is thumbnail-legible (round-6: 26 was too "
+          "small at 30 percent zoom)",
+          postcard.STYLE["news_footer_size"] >= 32
+          and '_font("extrabold", fs)' in _rn_src)
+
+    def _max_run(img, y0, y1, target, tol):
+        best = 0
+        for _yy in range(y0, y1, 2):
+            run = 0
+            for px in img.crop((0, _yy, img.width, _yy + 1)).getdata():
+                if all(abs(px[i] - target[i]) <= tol for i in range(3)):
+                    run += 1
+                    best = max(best, run)
+                else:
+                    run = 0
+        return best
+    _warm = _PImage.new("RGB", (1200, 1500), (176, 98, 82))
+    _img = postcard.render("news", {"line": "Garry is a real threat",
+                                    "hot": ["Garry", "threat"],
+                                    "speaker": "Daniel Cormier",
+                                    "source": "ESPN", "photo_path": _warm})
+    check("the purple bar renders as a solid run under a hot word on a warm "
+          "photo poster",
+          _max_run(_img, 700, 1300, postcard._rgb(postcard.PALETTE["accent_hot"]),
+                   40) >= 120)
+    check("the quote pill is gone - a rule-flanked mark lockup carries the "
+          "quote, drawn as type, not a sticker",
+          "_quote_chip" not in _pc_src and "_quote_marks" in _rn_src
+          and "news_rule_w" in _pc_src)
+    check("with an inset the quote glyphs fuse onto the card - one docked "
+          "device, no separate floating pill",
+          "quote_badge=True" in _rn_src
+          and "quote_badge" in _pc_inspect.signature(
+              postcard._inset_portrait).parameters)
+
+    check("_all_hot: a statement line that is entirely hot flips solo",
+          postcard._all_hot("BACKUP", ["backup"])
+          and postcard._all_hot("AND STILL", ["and", "STILL"]))
+    check("_all_hot: partial, empty or junk hot never flips",
+          not postcard._all_hot("GARRY IS A THREAT", ["GARRY", "THREAT"])
+          and not postcard._all_hot("BACKUP", [])
+          and not postcard._all_hot("", ["x"])
+          and not postcard._all_hot(None, None))
+    check("solo ceiling lets the statement word fill the width",
+          postcard.STYLE["news_line_max_solo"] > postcard.STYLE["news_line_max"])
+
+    # an ALL-hot line must render high-contrast white with the purple moved
+    # into an accent underline (round-2 loss: purple word on purple field)
+    _img = postcard.render("news", {"line": "Backup", "hot": ["Backup"],
+                                    "source": "Bloody Elbow",
+                                    "cutout_path": _cut})
+
+    def _row_hits(img, y0, y1, target, tol):
+        best = 0
+        for _yy in range(y0, y1, 3):
+            row = img.crop((0, _yy, img.width, _yy + 1)).getdata()
+            n = sum(1 for px in row
+                    if all(abs(px[i] - target[i]) <= tol for i in range(3)))
+            best = max(best, n)
+        return best
+    check("an ALL-hot line renders white, not tone-on-tone accent",
+          _row_hits(_img, 830, 1120, (245, 244, 246), 28) >= 120)
+    check("the accent underline sits under the ALL-hot line",
+          _row_hits(_img, 1060, 1260, _acc_lo, 30) >= 150)
+
+    # -- round-3 verdict fixes: text band scrim, seated cutout ---------------
+    check("photo posters carry the line's own band scrim (round-3 loss: "
+          "white type wrestled bright skin mid-seam)",
+          "news_text_band" in _rn_src
+          and postcard.STYLE["news_text_band"] >= 0.25)
+    import re as _pc_re
+    _np_bright = _pc_re.search(r"Brightness\(base\)\.enhance\(([\d.]+)\)",
+                               _pc_inspect.getsource(postcard._news_photo))
+    check("the photo grade no longer blows the skin highlights (round-3: the "
+          "1.14 brightness push clipped chests white)",
+          _np_bright is not None and float(_np_bright.group(1)) <= 1.06)
+    _nc_src = _pc_inspect.getsource(postcard._news_cutout)
+    check("the photoless cutout head fills the top third (round-3 loss: it "
+          "hovered in empty purple airspace)",
+          postcard.STYLE["news_cutout_head"] >= 0.30
+          and postcard.STYLE["news_cutout_eye"] <= 0.28)
+    check("the cutout is graded INTO the purple scene, not left studio-lit",
+          postcard.STYLE["news_cutout_ambient"] >= 0.20
+          and 'STYLE["news_cutout_ambient"]' in _nc_src)
+    check("a halo backlight seats the cutout silhouette in the scene",
+          'PALETTE["accent"]' in _nc_src
+          and postcard.STYLE["news_cutout_glow"] >= 0.30)
+    check("the cutout rim went chromatic - scene light, not studio spill",
+          max(postcard._rgb(postcard.PALETTE["rim"]))
+          - min(postcard._rgb(postcard.PALETTE["rim"])) >= 60)
 
 # ───────────────────────── summary ─────────────────────────────────────────
 # ───────────────────────── polls bot (YouTube poll staging) ────────────────
