@@ -131,8 +131,12 @@ def stage_story(it, score, why, cfg_bots, newscfg):
                     with os.fdopen(fd, "wb") as f:
                         f.write(raw)
             import postcard                     # lazy: needs Pillow
+            # line/hot come from the scorer via news_bot; speaker/inset stay
+            # out for now - speaker inference lands with the composer app.
             img = postcard.render("news", {
                 "headline": it.get("title", ""),
+                "line": it.get("line", ""),
+                "hot": it.get("hot") or [],
                 "source": it.get("source", ""),
                 "photo_path": photo_path or None,
             })
