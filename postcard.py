@@ -288,25 +288,23 @@ STYLE = {
     # local ground under the purple to near-black. Measured on the 30 percent
     # downscale of the gauntlet news card, stroke-vs-ground contrast for the
     # hot words comes out ABOVE the white words rather than below them.
-    "news_hot_pocket": 0.86,     # core pocket opacity (0 = off)
+    # OWNER OVERRIDE (Aug 2026): all three pocket layers are OFF. He saw the
+    # rendered card and called the dark slab behind the coloured words "a
+    # strange drop shadow... ugly... hideous - remove it completely". The
+    # colour stays, the ground treatment goes. Do NOT reintroduce these to win
+    # a contrast argument; if hot words ever need help, fix the accent value
+    # (accent_fill) or the seam gradient, never a slab behind the glyphs.
+    "news_hot_pocket": 0.0,      # core pocket opacity (0 = off)
     "news_hot_pocket_grow": 0.055,  # glyph dilation before the core blur, as a
                                  # fraction of font size - a fixed pixel kernel
                                  # that works at 150pt vanishes at 64pt and the
                                  # photo leaks back through the letter gaps
     "news_hot_pocket_blur": 0.05,# core pocket blur vs font size
-    "news_hot_halo": 0.42,       # wider soft halo opacity under the pocket -
-                                 # keeps the pocket from reading as a sticker
+    "news_hot_halo": 0.0,        # OFF (owner override, see news_hot_pocket)
     "news_hot_halo_blur": 0.20,  # halo blur vs font size
-    "news_hot_plate": 0.95,      # feathered slab over the hot word's own box.
-                                 # The glyph-shaped mask alone leaves the wide
-                                 # gaps between Poppins Black letters open for
-                                 # the photo, which is where the fill used to
-                                 # lose; the slab is what floors the ground.
-                                 # Measured: it takes the ground under a hot
-                                 # word from 61 to 30 at 30 percent zoom, and
-                                 # ~29 is the floor - below that the LANCZOS
-                                 # bleed off the glyphs sets the level, not
-                                 # the slab
+    "news_hot_plate": 0.0,       # OFF (owner override, see news_hot_pocket).
+                                 # This was the visible offender: a feathered
+                                 # slab over each hot word's box.
     "news_hot_plate_pad": 0.16,  # slab padding around the word vs font size
     "news_hot_plate_blur": 0.10, # slab feather vs font size - soft enough
                                  # that it reads as shadow, not a sticker
