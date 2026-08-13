@@ -25,6 +25,7 @@ except ImportError:
 HERE      = os.path.dirname(os.path.abspath(__file__))
 FONT_DIR  = os.path.join(HERE, "fonts")
 BRAND_DIR = os.path.join(HERE, "brand")
+BG_DIR    = os.path.join(HERE, "backgrounds")
 RESAMPLE  = Image.Resampling.LANCZOS
 
 # Demo output goes to the local scratchpad on the dev box; override with
@@ -84,6 +85,29 @@ WEIGHTS = {
     "medium":    "Medium",
     "regular":   "Regular",
 }
+
+# ---- colorways + textured washes (owner law, Aug 2026) ----------------------
+# The owner's att-8 study: a poster background is a BOLD single-hue wash with
+# an arena/cage/lights texture hidden inside it - never a flat gradient. Purple
+# is the default (the brand); the rest exist for the studio's picker and the
+# multi-panel announce, where each panel may take its own wash.
+#   deep  the wash's shadow floor (near-black, hue-warmed)
+#   mid   the body of the wash (seam gradients mix ink toward this)
+#   hot   bright accent on that wash (underline bars, chips, small labels)
+#   glyph hot-word glyph fill on that wash
+# purple maps onto the existing PALETTE values so the default render stays
+# exactly what the owner already approved.
+COLORWAYS = {
+    "purple": {"deep": "#0E0720", "mid": "#5B3DF5", "hot": "#8B70FF", "glyph": "#6A49EC"},
+    "red":    {"deep": "#1A0404", "mid": "#C81A10", "hot": "#FF4438", "glyph": "#FF4438"},
+    "blue":   {"deep": "#040A1C", "mid": "#1E52D0", "hot": "#3D7BFF", "glyph": "#3D7BFF"},
+    "green":  {"deep": "#03140A", "mid": "#0FA050", "hot": "#2BD973", "glyph": "#2BD973"},
+    "gold":   {"deep": "#1C0F03", "mid": "#D0740F", "hot": "#FFA032", "glyph": "#FFA032"},
+}
+
+# Grayscale 1080x1350 plates in backgrounds/ (see its README for sources).
+# "none" is a valid spec value and falls back to the flat wash.
+BACKGROUNDS = ("arena", "spotlight", "cage", "smoke")
 
 LOGO_FILES = {
     "purple": "flame_purple.png",
@@ -163,9 +187,10 @@ STYLE = {
     "news_block_h": 520,         # vertical budget for the line block
     "news_lines": 3,             # poster lines live at 2-3 centered lines
     "news_line_max": 175,        # line auto-size ceiling - it must DOMINATE
-    "news_line_max_solo": 240,   # ceiling for an ALL-hot statement word
+    "news_line_max_solo": 300,   # ceiling for an ALL-hot statement word
                                  # ("BACKUP") - the reference fills the width
-                                 # with it, and a 175 cap left it timid
+                                 # with it; 240 still read "half the
+                                 # reference's scale" in the round-3 blind
     "news_line_min": 64,         # line auto-size floor
     "news_credit_gap": 30,       # gap between the line block and what follows
     "news_vignette": 0.14,
@@ -338,6 +363,41 @@ STYLE = {
     "announce_glow_r": 900,
     "announce_bottom_scrim": 0.94,
     "italic_shear": 0.22,        # fake-italic shear for VERSUS / weight class
+
+    # colorway wash (the att-8 background law - see COLORWAYS above)
+    "wash_lo": 12,               # texture tonal crush: gray below this is floor
+    "wash_hi": 235,              # ...and above this is ceiling. Round-1 blind
+                                 # loss: a hard crush read as "flatly tinted /
+                                 # posterized" - the arena needs its light
+                                 # pools and depth, just re-hued, so the crush
+                                 # is now gentle
+    "wash_texture": 0.96,        # texture presence vs the flat wash (0..1)
+    "wash_glow": 0.55,           # hot pool strength behind the subject zone
+    "wash_glow_cy": 0.40,        # hot pool center as a fraction of the field H
+    "wash_vignette": 0.30,       # edge deepening toward the colorway's deep -
+                                 # toward the COLOR, never toward ink: att 8
+                                 # stays saturated to the very edge
+    "tint_cutout": 0.35,         # cutout wash-tint strength when a spec asks
+                                 # for it (spec["tint_cutout"] true/0..1).
+                                 # Round-2 blind: 0.55 read as "a cheap filter"
+                                 # on statement posters - the winning refs keep
+                                 # the SUBJECT natural inside a colored scene
+
+    # multi-panel announce (att 8 / att 11 anatomy)
+    "panel_gap": 5,              # ink separator between stacked panels
+    "panel_label_size": 30,      # small event label over the big line
+    "panel_label_track": 8,
+    "panel_big_max": 128,        # per-panel big line ceiling (dates, names)
+    "panel_big_min": 40,
+    "panel_photo_w": 0.40,       # each side photo's share of the panel width
+    "panel_fade": 0.16,          # inner-edge fade span vs panel width
+    "panel_photo_tint": 0.42,    # side-photo grade toward the panel's wash
+    "panel_band": 0.55,          # center band scrim behind the panel text -
+                                 # round-1 blind loss: white names melted into
+                                 # belts and washed torsos; the type zone gets
+                                 # a real ink floor now
+    "panel_crush": 0.62,         # 1-panel bottom crush under the name stack
+    "ann_chip_size": 30,         # bottom label chip on the 1-panel poster
 
     # last5 template
     "last5_title_max": 190,      # big "LAST 5" display line
@@ -515,6 +575,78 @@ def tint(img, hex_color=None, strength=None):
     light = _mix(_rgb(hex_color), _rgb(PALETTE["paper"]), STYLE["tint_white"])
     duo = ImageOps.colorize(gray, black=shadow, white=light)
     return Image.blend(img.convert("RGB"), duo, strength)
+
+
+def colorway(name):
+    """Resolve a colorway name to its dict; junk input is the brand purple.
+    Pure."""
+    key = " ".join(str(name or "").lower().split())
+    return COLORWAYS.get(key, COLORWAYS["purple"])
+
+
+def wash_tint(img, cw, strength):
+    """Wash a subject toward a colorway the att-8 way: shadows toward the
+    hue-warmed ink, highlights toward a SATURATED lift of the hue - never
+    toward paper, which is what makes the stock tint() read as no tint at all
+    on a bright studio cutout. RGB in, RGB out."""
+    cw = cw if isinstance(cw, dict) else colorway(cw)
+    gray = ImageOps.autocontrast(ImageOps.grayscale(img))
+    shadow = _mix(_rgb(PALETTE["ink"]), _rgb(cw["mid"]), 0.30)
+    light = _mix(_rgb(cw["mid"]), _rgb(PALETTE["paper"]), 0.32)
+    duo = ImageOps.colorize(gray, black=shadow, white=light)
+    return Image.blend(img.convert("RGB"), duo, max(0.0, min(1.0, strength)))
+
+
+def load_background(name):
+    """One grayscale texture plate as an L image, or None ("none", junk, or a
+    missing file all degrade to the flat wash - a poster must never fail to
+    render because an asset did not ship)."""
+    key = " ".join(str(name or "").lower().split())
+    if key not in BACKGROUNDS:
+        return None
+    try:
+        return Image.open(os.path.join(BG_DIR, key + ".jpg")).convert("L")
+    except Exception:
+        return None
+
+
+def wash_field(w, h, cw=None, texture="arena", glow_cy=None, glow=None):
+    """The att-8 background: a bold single-hue duotone wash with a texture
+    plate hidden inside it. The tonal crush (wash_lo/hi) is what keeps the
+    arena legible-but-secondary; the vignette deepens toward the colorway's
+    OWN deep, never toward ink, so the field stays saturated to the edge."""
+    cw = cw if isinstance(cw, dict) else colorway(cw)
+    deep, mid, hot = _rgb(cw["deep"]), _rgb(cw["mid"]), _rgb(cw["hot"])
+    plate = load_background(texture)
+    if plate is not None:
+        g = ImageOps.fit(plate, (w, h), method=RESAMPLE, centering=(0.5, 0.45))
+        lo, hi = STYLE["wash_lo"], STYLE["wash_hi"]
+        g = g.point([max(0, min(255, int((v - lo) * 255 / max(1, hi - lo))))
+                     for v in range(256)])
+        # highlight ceiling: the arena's LIGHTS should read as lights, but the
+        # field stays DARKER than skin - round-4 blind: a bright mid-value
+        # wash competed with the fighters' faces and everything went flat.
+        # The winning references keep the wash deep so natural skin pops.
+        white_end = _mix(_mix(mid, hot, 0.40), _rgb(PALETTE["paper"]), 0.10)
+        duo = ImageOps.colorize(g, black=deep, white=white_end)
+        amt = STYLE["wash_texture"]
+        if amt < 1.0:
+            grad = Image.linear_gradient("L").resize((w, h))
+            flat = ImageOps.colorize(grad, black=_mix(deep, mid, 0.55), white=deep)
+            duo = Image.blend(flat, duo, amt)
+    else:
+        grad = Image.linear_gradient("L").resize((w, h))
+        duo = ImageOps.colorize(grad, black=_mix(deep, mid, 0.60), white=deep)
+    s = STYLE["wash_glow"] if glow is None else glow
+    if s > 0:
+        cy = STYLE["wash_glow_cy"] if glow_cy is None else glow_cy
+        duo = _glow(duo, (w / 2, h * cy), int(w * 0.72),
+                    "#%02X%02X%02X" % _mix(mid, hot, 0.55), s)
+    vg = Image.radial_gradient("L").resize((w, h))
+    vmask = vg.point([int(255 * ((v / 255.0) ** 2.0) * STYLE["wash_vignette"])
+                      for v in range(256)])
+    duo = Image.composite(Image.new("RGB", (w, h), deep), duo, vmask)
+    return duo
 
 
 def _wrap(draw, text, f, max_w, tracking=0):
@@ -1103,10 +1235,13 @@ def _lockup(img, logo, cx, top, size=None):
     return img
 
 
-def _footer_bar(img):
-    """Accent signature bar across the bottom edge - the brand's baseline."""
+def _footer_bar(img, cw=None):
+    """Accent signature bar across the bottom edge - the brand's baseline.
+    PURPLE POSTERS ONLY: on any other colorway the strip read as a stray
+    palette break in two blind rounds ("stray red sliver"), whatever hue it
+    took - the wash already owns the bottom edge there."""
     h = STYLE["footer_bar_h"]
-    if h <= 0:
+    if h <= 0 or (cw is not None and cw is not COLORWAYS["purple"]):
         return img
     W, H = img.size
     grad = Image.linear_gradient("L").rotate(90, expand=True).resize((W, h))
@@ -1116,7 +1251,7 @@ def _footer_bar(img):
     return img
 
 
-def _context_chip(img, cx, cy, text):
+def _context_chip(img, cx, cy, text, color=None):
     """Tiny centered accent chip with ink text - the optional context tag
     ("BREAKING"). Only drawn when a caller passes the text explicitly; the
     channel name is never a kicker. Returns the chip height."""
@@ -1130,7 +1265,7 @@ def _context_chip(img, cx, cy, text):
     h = STYLE["news_tag_size"] + 2 * py
     x0, y0 = int(cx - w / 2), int(cy - h / 2)
     d.rounded_rectangle([x0, y0, x0 + w, y0 + h], radius=h // 2,
-                        fill=_rgb(PALETTE["accent"]))
+                        fill=_rgb(color or PALETTE["accent"]))
     _tracked(d, (x0 + px + tr // 2, y0 + py - 2), text, f, _rgb(PALETTE["ink"]), tr)
     return h
 
@@ -1301,7 +1436,7 @@ def _hot_pocket(img, hot_mask, plate_mask, f):
 
 
 def _hot_block(img, lines, f, cx, y, tracking, spacing, hot, mode=None,
-               squeeze=1.0, blur=8, dy=4, salpha=120):
+               squeeze=1.0, blur=8, dy=4, salpha=120, hot_hex=None):
     """Centered display block with per-word emphasis on the hot words.
 
     mode "color" (the owner's default, Aug 2026) fills each hot word with
@@ -1333,8 +1468,8 @@ def _hot_block(img, lines, f, cx, y, tracking, spacing, hot, mode=None,
     plate_mask = Image.new("L", (mw, H), 0)
     pd = ImageDraw.Draw(plate_mask)
     base_col = (255, 255, 255, 255)
-    fill_col = _rgb(PALETTE["accent_fill"]) + (255,)
-    bar_col = _rgb(PALETTE["accent_hot"]) + (255,)
+    fill_col = _rgb(hot_hex or PALETTE["accent_fill"]) + (255,)
+    bar_col = _rgb(hot_hex or PALETTE["accent_hot"]) + (255,)
     ascent, _desc = f.getmetrics()
     bar_h = max(6, int(round(f.size * STYLE["news_hot_bar_frac"])))
     bar_gap = max(4, int(round(f.size * STYLE["news_hot_bar_gap"])))
@@ -1388,7 +1523,7 @@ def _hot_block(img, lines, f, cx, y, tracking, spacing, hot, mode=None,
     return _stamp(img, layer, blur=blur, dy=dy, alpha=salpha), yy
 
 
-def _inset_portrait(img, source, cx, bottom, quote_badge=False):
+def _inset_portrait(img, source, cx, bottom, quote_badge=False, badge_hex=None):
     """Small square portrait in a thin white border - the reference treatment
     for a quote's speaker, at reference SCALE (~17 percent of canvas width).
     Seated with its bottom edge at `bottom`, floating on the seam under a soft
@@ -1435,7 +1570,7 @@ def _inset_portrait(img, source, cx, bottom, quote_badge=False):
         by = int(y0 + full - bs / 2)
         ld = ImageDraw.Draw(layer)
         ld.rounded_rectangle([bx, by, bx + bs, by + bs], radius=int(bs * 0.22),
-                             fill=_rgb(PALETTE["accent"]) + (255,))
+                             fill=_rgb(badge_hex or PALETTE["accent"]) + (255,))
         qs = int(bs * 0.46)
         qr = max(3, int(qs * 0.26))
         qw = int(qr * 2.6) + 2 * qr
@@ -1485,7 +1620,7 @@ def _quote_pair(d, x, cy, size, color, opening):
     return step + 2 * r
 
 
-def _quote_marks(img, cx, cy, size):
+def _quote_marks(img, cx, cy, size, color=None):
     """The quote device over the seam: ONE opening quote pair in the bright
     accent, flanked by thin translucent rules - the reference anatomy, drawn
     as part of the type system instead of a floating pill (the round-2 chip
@@ -1497,7 +1632,7 @@ def _quote_marks(img, cx, cy, size):
     layer = Image.new("RGBA", img.size, (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
     _quote_pair(d, int(cx - pair_w / 2), cy, size,
-                _rgb(PALETTE["accent_hot"]) + (255,), opening=True)
+                _rgb(color or PALETTE["accent_hot"]) + (255,), opening=True)
     rule = (245, 244, 246, 200)
     ry = int(cy - 2)
     d.rounded_rectangle([cx - pair_w / 2 - rg - rw, ry,
@@ -1543,7 +1678,7 @@ def _news_photo(photo, W, H):
     return base
 
 
-def _news_cutout(base, cut, hy):
+def _news_cutout(base, cut, hy, cw=None, tint_amt=0.0):
     """Photoless news poster subject: a fighter cutout LARGE and bottom-center
     - the head fills the top third of the frame (round-3 loss: a smaller head
     hovered in empty purple airspace) - torso running down UNDER the display
@@ -1551,12 +1686,19 @@ def _news_cutout(base, cut, hy):
     stock is regraded INTO the scene: a real accent ambient, shadows lifted
     violet, a chromatic rim on both edges and a halo backlight behind the head
     plus a floor pool at the seam so the figure is seated, not pasted.
+    tint_amt > 0 washes the subject toward the colorway like att 8's fighters
+    (the owner's toggle; the ambient grade alone is subtler than the study).
     Returns the base."""
     W, H = base.size
+    cw = cw if isinstance(cw, dict) else colorway(cw)
     met = _head_metrics(cut)
     spr = _grade_cutout(cut, ambient=STYLE["news_cutout_ambient"],
-                        ambient_color=PALETTE["accent"],
+                        ambient_color=cw["hot"],
                         sat=0.94, contrast=1.08, brightness=1.0)
+    if tint_amt > 0:
+        a = spr.getchannel("A")
+        spr = wash_tint(spr.convert("RGB"), cw, tint_amt).convert("RGBA")
+        spr.putalpha(a)
     if met:
         y_top, _hw, hcx, head_h = met
         target = H * STYLE["news_cutout_head"]
@@ -1575,20 +1717,20 @@ def _news_cutout(base, cut, hy):
     spr = spr.resize((tw, th), RESAMPLE)
     if scale > 1.05:
         spr = _sharpen(spr, min(140, int(90 * scale)))
-    rw = STYLE["rim_width"]
-    spr = _rim_light(spr, -rw, int(rw * 0.7), color=PALETTE["rim"], strength=0.85)
-    spr = _rim_light(spr, rw, int(rw * 0.7), color=PALETTE["rim"], strength=0.85)
+    # NO rim light: two blind rounds read the bright edge as a "pale halo
+    # stroke" ringing a sticker. The backlight glow behind the silhouette
+    # carries the separation on its own.
     spr = _fade_alpha(spr, "bottom", 0.88, 0.0)
     # scene lighting BEHIND the figure: a bright halo at head height (the
     # backlight that separates the silhouette), a wide deep pool at the torso
     # and a floor pool where the seam takes over - the light says the scene
     # holds him, the seam says the floor does
     eye_y = H * STYLE["news_cutout_eye"]
-    base = _glow(base, (W / 2, eye_y), 560, PALETTE["accent"],
+    base = _glow(base, (W / 2, eye_y), 560, cw["hot"],
                  STYLE["news_cutout_glow"])
     base = _glow(base, (W / 2, eye_y + H * 0.22), 900,
-                 PALETTE["accent_deep"], 0.30)
-    base = _glow(base, (W / 2, H * 0.96), 760, PALETTE["accent_deep"], 0.26)
+                 cw["mid"], 0.30)
+    base = _glow(base, (W / 2, H * 0.96), 760, cw["mid"], 0.26)
     hold = base.convert("RGBA")
     _paste_rgba(hold, spr, px_, py)
     return hold.convert("RGB")
@@ -1622,23 +1764,30 @@ def render_news(spec):
     kicker (tiny centered context chip, drawn ONLY when explicitly passed),
     quote=False forces the plain treatment."""
     W, H, m = STYLE["post_w"], STYLE["post_h"], STYLE["news_margin"]
+    cw = colorway(spec.get("colorway"))
     photo = _load_photo(spec.get("photo_path"))
     cut = None if photo is not None else _load_cutout(spec.get("cutout_path"))
     if photo:
         base = _news_photo(photo, W, H)
     else:
-        # photoless fallback: a lit near-black field, still centered and
-        # intentional - the accent glow pools where the type will sit
-        base = _ink_canvas(W, H)
-        base = _glow(base, (W / 2, H * 0.46), 900, PALETTE["accent_deep"], 0.36)
-        base = _glow(base, (W * 0.14, H * 0.04), 520, PALETTE["accent_deep"], 0.16)
-        base = _glow(base, (W * 0.86, H * 0.04), 520, PALETTE["accent_deep"], 0.16)
+        # photoless: the att-8 wash - a bold colorway field with an arena
+        # hidden inside it (owner law, Aug 2026: never a flat gradient).
+        # spec["background"] picks the plate; junk/"none" degrades to the
+        # flat wash, which is still a colored field, never the old ink one.
+        bg = spec.get("background")
+        base = wash_field(W, H, cw, texture=("arena" if bg is None else bg))
     d = ImageDraw.Draw(base)
 
     line_text = " ".join((spec.get("line") or spec.get("headline") or "").split())
     hot = [str(h) for h in (spec.get("hot") or []) if str(h or "").strip()]
     hot = hot[:STYLE["news_hot_words"]]
     mode = emphasis_mode(spec)
+    # photoless WASH posters flip to the underline device unless the spec
+    # explicitly chose otherwise: three blind rounds proved a colored fill can
+    # never carry emphasis on its own hue's field, however bright the step
+    explicit = " ".join(str(spec.get("emphasis") or "").lower().split()) in EMPHASIS_MODES
+    if photo is None and not explicit:
+        mode = "underline"
     source = (spec.get("source") or "").strip()
     speaker = " ".join((spec.get("speaker") or "").upper().split())
     quoted = (bool(spec.get("quote", True)) and bool(speaker) and bool(line_text)
@@ -1688,12 +1837,18 @@ def render_news(spec):
 
     # the photoless cutout pastes BEFORE the seam so its torso melts too
     if cut is not None:
-        base = _news_cutout(base, cut, hy)
+        t = spec.get("tint_cutout")
+        tint_amt = (STYLE["tint_cutout"] if t is True
+                    else max(0.0, min(1.0, float(t))) if isinstance(t, (int, float)) and not isinstance(t, bool)
+                    else 0.0)
+        base = _news_cutout(base, cut, hy, cw=cw, tint_amt=tint_amt)
 
-    # one continuous purple-dark gradient replaces the old plate: transparent
+    # one continuous colorway-dark gradient replaces the old plate: transparent
     # well above the line, building smoothly to near-solid at the bottom edge
     seam_max = STYLE["news_cutout_seam"] if cut is not None else STYLE["news_seam_max"]
-    base = _seam_gradient(base, hy - STYLE["news_seam_reach"], max_a=seam_max)
+    seam_col = _mix(_rgb(PALETTE["ink"]), _rgb(cw["mid"]), STYLE["news_seam_tint"])
+    base = _seam_gradient(base, hy - STYLE["news_seam_reach"], color=seam_col,
+                          max_a=seam_max)
     base = _vignette(base, STYLE["news_vignette"], 2.4)
     if cut is not None and STYLE["news_cutout_band"] > 0:
         # knock back the band the line crosses - the word owns its band even
@@ -1707,6 +1862,12 @@ def render_news(spec):
         # so the photo above the type zone stays lit
         base = _band_scrim(base, hy - 12, y + 14,
                            strength=STYLE["news_text_band"], feather=170)
+    elif photo is None and STYLE["news_text_band"] > 0:
+        # photoless WASH poster: a colorway glyph on its own colorway field
+        # is the purple-on-purple trap all over again - the band grounds the
+        # type zone toward ink so both the white and the accent words pop
+        base = _band_scrim(base, hy - 12, y + 14,
+                           strength=STYLE["news_text_band"], feather=170)
 
     top_y = hy
     if quoted and inset_ok:
@@ -1716,22 +1877,27 @@ def render_news(spec):
         base, iy = _inset_portrait(base, inset_src,
                                    W * (0.5 + STYLE["news_inset_dx"]),
                                    hy - STYLE["news_inset_gap"],
-                                   quote_badge=True)
+                                   quote_badge=True, badge_hex=cw["hot"])
         top_y = iy
     elif quoted:
         dev_h = int(STYLE["news_quote_size"] * 0.94)
         dev_cy = hy - STYLE["news_quote_gap"] - dev_h // 2
-        _quote_marks(base, W / 2, dev_cy, STYLE["news_quote_size"])
+        _quote_marks(base, W / 2, dev_cy, STYLE["news_quote_size"],
+                     color=cw["glyph"])
         top_y = dev_cy - dev_h // 2
     kicker = " ".join((spec.get("kicker") or "").split())
     if kicker:
         kh = STYLE["news_tag_size"] + 2 * STYLE["news_tag_pad_y"]
         _context_chip(base, W / 2, top_y - STYLE["news_tag_gap"] - kh // 2,
-                      kicker)
+                      kicker, color=cw["hot"])
 
+    # on a photoless WASH the glyph accent goes near-paper with a hue whisper:
+    # 0.45 paper still dissolved into the same-hue field in the round-4 blind
+    wash_hot = "#%02X%02X%02X" % _mix(_rgb(cw["hot"]), _rgb(PALETTE["paper"]), 0.75)
     base, _ = _hot_block(base, lines, f, W / 2, hy, tracking=tr, spacing=lh,
                          hot=([] if solo else hot), mode=mode, squeeze=sq,
-                         blur=10, dy=5, salpha=165)
+                         blur=10, dy=5, salpha=165,
+                         hot_hex=(cw["glyph"] if photo is not None else wash_hot))
     d = ImageDraw.Draw(base)
     if solo:
         uh = STYLE["news_underline_h"]
@@ -1744,8 +1910,12 @@ def render_news(spec):
         # never more than the reserved gap
         uy = y + min(STYLE["news_underline_gap"],
                      max(12, int(f.size * 0.12)))
+        # on a photoless WASH the bar brightens toward paper - a colorway bar
+        # on its own hue's field vanished in the round-1 blind
+        bar_fill = (_rgb(cw["hot"]) if photo is not None
+                    else _mix(_rgb(cw["hot"]), _rgb(PALETTE["paper"]), 0.55))
         d.rounded_rectangle([W / 2 - uw / 2, uy, W / 2 + uw / 2, uy + uh],
-                            radius=uh // 2, fill=_rgb(PALETTE["accent"]))
+                            radius=uh // 2, fill=bar_fill)
     if foot_y is not None:
         # shrink-to-fit: an about-context footer ("SPEAKER ON TARGET, VIA
         # SOURCE") can outgrow the margin-safe width at the default size
@@ -1758,181 +1928,276 @@ def render_news(spec):
                 break
             fs -= 2
         fx = W / 2 - total / 2
-        cols = {"accent": _rgb(PALETTE["accent_hot"]),
+        cols = {"accent": _rgb(cw["glyph"]),
                 "plain": _rgb(PALETTE["paper"]),
                 "muted": _rgb(PALETTE["paper_dim"])}
         for t, kind in segs:
             fx = _tracked(d, (fx, foot_y), t, ff,
                           cols.get(kind, cols["muted"]), ftr)
     base = _grain(base)
-    return _footer_bar(base)
+    return _footer_bar(base, cw)
+
+
+def _panel_specs(spec):
+    """Normalize an announce spec to a list of 1-3 panel dicts. A modern spec
+    carries spec["panels"]; the legacy single-fight keys (left_photo,
+    left_name, event_line, date_line) map to ONE panel so every old caller
+    keeps rendering. Pure apart from the passed-through image handles."""
+    panels = spec.get("panels")
+    if isinstance(panels, (list, tuple)) and panels:
+        out = []
+        for p in list(panels)[:3]:
+            if isinstance(p, dict):
+                out.append(dict(p))
+        if out:
+            return out
+    left = " ".join((spec.get("left_name") or "").upper().split())
+    right = " ".join((spec.get("right_name") or "").upper().split())
+    big = (left + " VS " + right).strip() if (left or right) else ""
+    return [{
+        "left_photo": spec.get("left_photo"),
+        "right_photo": spec.get("right_photo"),
+        "big": big or "TBA VS TBA",
+        "small": spec.get("event_line") or "",
+        "chip": spec.get("date_line") or "",
+        "colorway": spec.get("colorway"),
+        "background": spec.get("background"),
+    }]
+
+
+def _panel_fighter(panel_img, source, cw, side, single):
+    """One fighter onto one panel: a promo cutout is head-normalized and
+    seated on the panel floor; a plain photo cover-crops into the panel's
+    outer column. Either way the subject takes the panel's wash (att-8 law:
+    the fighters are tinted INTO the scene, never pasted studio-neutral) and
+    fades at the inner edge so the center stays clear for type."""
+    W, PH = panel_img.size
+    col_w = int(W * STYLE["panel_photo_w"])
+    cut = _load_cutout(source)
+    if cut is not None:
+        met = _head_metrics(cut)
+        # Three blind rounds settled this: rims/glows read as STICKER, and a
+        # heavy wash over the SUBJECT read as "a stock photo with a filter" -
+        # the winning posts keep the fighter NATURAL and high-contrast against
+        # the colored scene, so figure and ground separate by hue. Normalize
+        # exposure (mismatched sources read as pasted), grade hard, and let
+        # the ambient whisper - the wash owns the background only.
+        a0 = cut.getchannel("A")
+        norm = ImageOps.autocontrast(cut.convert("RGB"), cutoff=1).convert("RGBA")
+        norm.putalpha(a0)
+        spr = _grade_cutout(norm, ambient=0.10, ambient_color=cw["hot"],
+                            sat=1.0, contrast=1.16, brightness=1.02)
+        a = spr.getchannel("A")
+        spr = wash_tint(spr.convert("RGB"), cw, 0.12).convert("RGBA")
+        spr.putalpha(a)
+        # EQUAL BUSTS, not equal heads: head-height normalization let big hair
+        # inflate the metric and the round-5 blind called the visible result
+        # ("right head noticeably larger... different scales and eye-lines").
+        # Both sprites crop crown-to-torso and scale to the SAME bust height,
+        # crowns anchored on one line - the symmetry the references run on.
+        torso = 1.9 if single else 2.4
+        bust_target = PH * (0.62 if single else 0.96)
+        crown_y = PH * (0.10 if single else 0.04)
+        if met:
+            y_top, _hw, hcx, head_h = met
+            y0 = int(max(0, y_top - head_h * STYLE["announce_crown"]))
+            y1 = int(min(spr.height, y_top + head_h * torso))
+            spr = spr.crop((0, y0, spr.width, max(y0 + 1, y1)))
+            scale = min(STYLE["announce_scale_max"],
+                        bust_target / max(8.0, spr.height))
+            py = int(crown_y)
+            px_ = int(W * (0.175 if side == "left" else 0.825) - hcx * scale)
+        else:
+            scale = (PH * 0.86) / max(1, spr.height)
+            py = int(PH * 0.14)
+            px_ = int(W * (0.175 if side == "left" else 0.825)
+                      - spr.width * scale / 2)
+        spr = spr.resize((max(1, int(spr.width * scale)),
+                          max(1, int(spr.height * scale))), RESAMPLE)
+        if scale > 1.05:
+            spr = _sharpen(spr, min(140, int(90 * scale)))
+        spr = _fade_alpha(spr, "bottom", 0.78 if single else 0.90, 0.0)
+        spr = _fade_alpha(spr, "right" if side == "left" else "left",
+                          span=int(W * STYLE["panel_fade"] * 0.6))
+        hold = panel_img.convert("RGBA")
+        _paste_rgba(hold, spr, px_, py)
+        return hold.convert("RGB")
+    ph = _load_photo(source)
+    if ph is None:
+        return panel_img
+    pane = cover_crop(ph, col_w, PH)
+    pane = _enhance_photo(pane)
+    pane = tint(pane, cw["mid"], STYLE["panel_photo_tint"])
+    pane = ImageEnhance.Brightness(pane).enhance(1.04)
+    spr = pane.convert("RGBA")
+    spr = _fade_alpha(spr, "right" if side == "left" else "left",
+                      span=int(W * STYLE["panel_fade"]))
+    hold = panel_img.convert("RGBA")
+    _paste_rgba(hold, spr, 0 if side == "left" else W - col_w, 0)
+    return hold.convert("RGB")
+
+
+def _panel_chip(img, cx, cy, text, cw):
+    """The bottom label chip (att 13's "LIGHTWEIGHT BOUT"). Near-black plate
+    with a colorway keyline and white tracked caps - a colorway FILL vanished
+    into its own wash in the round-1 blind ("red-on-red kicker vanishes").
+    Returns the chip height."""
+    d = ImageDraw.Draw(img)
+    text = " ".join((text or "").upper().split())
+    if not text:
+        return 0
+    f = _font("bold", STYLE["ann_chip_size"])
+    tr = STYLE["tracking_tag"]
+    tw = _tracked_w(d, text, f, tr)
+    px, py = 26, 13
+    w = int(tw + 2 * px)
+    h = STYLE["ann_chip_size"] + 2 * py
+    x0, y0 = int(cx - w / 2), int(cy - h / 2)
+    d.rectangle([x0, y0, x0 + w, y0 + h],
+                fill=_mix(_rgb(PALETTE["ink"]), _rgb(cw["deep"]), 0.5))
+    d.rectangle([x0, y0, x0 + w, y0 + 4], fill=_rgb(cw["hot"]))
+    _tracked(d, (x0 + px + tr // 2, y0 + py - 3), text, f, (255, 255, 255), tr)
+    return h
+
+
+def _render_panel(w, ph, p, default_cw, single):
+    """One announce panel: wash field, fighters at the sides, a small accent
+    label over the big centered line. The single-panel poster stacks
+    "NAME / VS / NAME" instead (att 13/15 anatomy) and grows a bottom chip."""
+    cw = colorway(p.get("colorway") or default_cw)
+    bg = p.get("background")
+    base = wash_field(w, ph, cw, texture=("arena" if bg is None else bg),
+                      glow_cy=0.42)
+    # a dark pool BEHIND each fighter seat: figure/ground separation was the
+    # round-3/4 blind verdict ("fighters melt into the tinted arena"). The
+    # pool leans NEUTRAL-dark, not saturated - natural skin against near-ink
+    # is the separation the winning references run on.
+    pool_col = _mix(_rgb(cw["deep"]), _rgb(PALETTE["ink"]), 0.55)
+    for cxf in (0.175, 0.825):
+        pool = Image.radial_gradient("L").resize((int(w * 0.62), int(ph * 1.4)))
+        pool = pool.point([int(255 * max(0.0, 1.0 - v / 255.0) * 0.50)
+                           for v in range(256)])
+        lay = Image.new("L", (w, ph), 0)
+        lay.paste(pool, (int(w * cxf - pool.width / 2),
+                         int(ph * 0.42 - pool.height / 2)))
+        base = Image.composite(Image.new("RGB", (w, ph), pool_col), base, lay)
+    base = _panel_fighter(base, p.get("left_photo"), cw, "left", single)
+    base = _panel_fighter(base, p.get("right_photo"), cw, "right", single)
+    d = ImageDraw.Draw(base)
+    sq = STYLE["display_squeeze"]
+    big = " ".join((p.get("big") or "").upper().split())
+    small = " ".join((p.get("small") or "").upper().split())
+    chip = " ".join((p.get("chip") or "").upper().split())
+
+    stack = single and " VS " in big
+    if stack:
+        names = [n.strip() for n in big.split(" VS ", 1)]
+        fa, _t = _fit_tracked(d, names[0], "black", STYLE["announce_name_w"] / sq,
+                              STYLE["announce_name_max"], STYLE["announce_name_min"],
+                              STYLE["display_track"])
+        fb, _t = _fit_tracked(d, names[1], "black", STYLE["announce_name_w"] / sq,
+                              STYLE["announce_name_max"], STYLE["announce_name_min"],
+                              STYLE["display_track"])
+        size = min(fa.size, fb.size)
+        nf = _font("black", size)
+        tr = -int(round(size * STYLE["display_track"]))
+        lh = int(round(size * STYLE["display_spacing"]))
+        vf = _font("semibold", 34)
+        nb = d.textbbox((0, 0), names[0] + names[1], font=nf)
+        vb = d.textbbox((0, 0), "VS", font=vf)
+        g = STYLE["announce_vs_gap"]
+        block_h = 2 * (nb[3] - nb[1]) + (vb[3] - vb[1]) + 2 * g
+        y = int(ph * 0.63 - block_h / 2)
+        # the reference treatment: the stack sits on a real ink floor (bottom
+        # crush) plus its own band - round-1 blind loss: white names melted
+        # into belts and bright torsos at thumbnail size. The crush starts
+        # LOW so the arena glow survives under the names (round-4: "slack,
+        # empty lower third")
+        base = _crush_bottom(base, int(ph * 0.99), int(ph * 0.40),
+                             STYLE["panel_crush"])
+        base = _band_scrim(base, y - 30, y + block_h + 60, STYLE["panel_band"], 150)
+        d = ImageDraw.Draw(base)
+        label_col = _mix(_rgb(cw["hot"]), _rgb(PALETTE["paper"]), 0.62)
+        if small:
+            sf = _font("semibold", STYLE["panel_label_size"])
+            str_ = STYLE["panel_label_track"]
+            sw = _tracked_w(d, small, sf, str_)
+            _tracked(d, (w / 2 - sw / 2, y - STYLE["panel_label_size"] - 26),
+                     small, sf, label_col, str_)
+        base, _ = _display_block(base, [names[0]], nf, w / 2, y, tracking=tr,
+                                 spacing=lh, blur=14, dy=10, salpha=235, squeeze=sq)
+        vs_y = y + nb[3] + g - vb[1]
+        base = _italic_line(base, w / 2, vs_y, "VS", vf, label_col,
+                            STYLE["announce_vs_track"])
+        y2 = vs_y + vb[3] + g - nb[1]
+        base, _ = _display_block(base, [names[1]], nf, w / 2, y2, tracking=tr,
+                                 spacing=lh, blur=14, dy=10, salpha=235, squeeze=sq)
+        if chip:
+            _panel_chip(base, w / 2, ph - int(ph * 0.058), chip, cw)
+        return base
+
+    # compact panel: label + one big centered line (a date, "NAME VS NAME").
+    # The type budget runs WIDE (round-4 blind: three stacked rows shrank the
+    # names below thumbnail legibility) - the band scrim carries the overlap
+    # where a long name crosses a fighter.
+    bf, btr = _fit_tracked(d, big or "TBA", "black", (w * 0.62) / sq,
+                           150, STYLE["panel_big_min"],
+                           STYLE["display_track"])
+    bb = d.textbbox((0, 0), big or "TBA", font=bf)
+    big_h = bb[3] - bb[1]
+    label_h = (STYLE["panel_label_size"] + 18) if small else 0
+    cy = int(ph * 0.52)
+    y_big = cy - (big_h - label_h) // 2 - bb[1]
+    base = _band_scrim(base, cy - big_h // 2 - label_h - 26,
+                       cy + big_h // 2 + 30, STYLE["panel_band"], 120)
+    d = ImageDraw.Draw(base)
+    if small:
+        # near-white, hue-warmed: a pure colorway label sank into its own
+        # wash in the round-1 blind ("red-on-red kicker vanishes")
+        sf = _font("semibold", STYLE["panel_label_size"])
+        str_ = STYLE["panel_label_track"]
+        sw = _tracked_w(d, small, sf, str_)
+        _tracked(d, (w / 2 - sw / 2, y_big - label_h - 6), small, sf,
+                 _mix(_rgb(cw["hot"]), _rgb(PALETTE["paper"]), 0.62), str_)
+    base, _ = _display_block(base, [big or "TBA"], bf, w / 2, y_big,
+                             tracking=btr, spacing=int(bf.size * 1.02),
+                             blur=12, dy=7, salpha=220, squeeze=sq)
+    if chip:
+        _panel_chip(base, w / 2, ph - int(ph * 0.11), chip, cw)
+    return base
 
 
 def render_announce(spec):
-    """1080x1350 fight poster: near-black field lit hot, glossy fire-lit
-    flame emblem, chest-up fighter cutouts normalized by detected head height
-    onto one shared eye line, stacked Black surnames with a sheared VERSUS,
-    weight class in warm amber, date + city, purple brand lockup top center.
-    spec: left_photo, right_photo, left_name, right_name, event_line,
-    date_line, accent (optional hex; overrides the meta line color)."""
+    """1080x1350 fight announcement, att-8 anatomy: 1 to 3 stacked panels,
+    each a bold colorway wash with an arena hidden in it, fighters flanking a
+    huge centered line. One panel = the classic poster (stacked names, sheared
+    VS, label + date chip); two or three = the schedule stack, each panel free
+    to take its own colorway (att 8's red/blue/green). No logo, no channel
+    label anywhere (owner law) - the wash and the footer bar are the brand.
+    spec: panels: [{left_photo, right_photo, big, small, chip, colorway,
+    background}] (1-3), or the legacy single-fight keys (left_photo,
+    right_photo, left_name, right_name, event_line, date_line), plus optional
+    top-level colorway/background defaults."""
     W, H = STYLE["post_w"], STYLE["post_h"]
-    accent = spec.get("accent") or PALETTE["accent"]
-    logo = load_logo("purple")
-
-    # near-black field lit HOT (round 5): ember pools plus a glossy fire
-    # emblem behind the fighters - the scene burns red-orange while purple
-    # stays confined to the brand lockup and footer bar
-    base = _ink_canvas(W, H)
-    base = _glow(base, (W / 2, H * 0.30), 760, PALETTE["fire_deep"], 0.20)
-    base = _glow(base, (W * 0.10, H * 0.05), 480, PALETTE["ember"], 0.40)
-    base = _glow(base, (W * 0.90, H * 0.05), 480, PALETTE["ember"], 0.40)
-    base = _ghost_mark(base, logo, (W / 2, H * STYLE["announce_mark_cy"]),
-                       STYLE["announce_mark_side"],
-                       colors=("#FFB347", PALETTE["fire_deep"]),
-                       halo=0.65)
-
-    # fighters: real cutouts composite over the monogram; plain RGB photos
-    # fall back to tinted half panes so the template survives any input.
-    cxs = STYLE["announce_fighter_cx"]
-    sides = []
-    for key, cxf in (("left_photo", cxs[0]), ("right_photo", cxs[1])):
-        src = spec.get(key)
-        cut = _load_cutout(src)
-        if cut is not None:
-            sides.append(("cut", cut, cxf, key))
-        else:
-            ph = _load_photo(src)
-            if ph is not None:
-                sides.append(("pane", ph, cxf, key))
-    for kind, imgp, cxf, key in sides:
-        if kind != "pane":
-            continue
-        x0 = 0 if key == "left_photo" else W // 2
-        base.paste(tint(cover_crop(imgp, W // 2, H),
-                        spec.get("accent") or PALETTE["fire_deep"]), (x0, 0))
-    if any(kind == "pane" for kind, _i, _c, _k in sides):
-        seam = Image.new("L", (W, H), 0)
-        sd = ImageDraw.Draw(seam)
-        sd.rectangle([W // 2 - 130, 0, W // 2 + 130, H], fill=130)
-        seam = seam.filter(ImageFilter.GaussianBlur(70))
-        base = Image.composite(Image.new("RGB", (W, H), _rgb(PALETTE["ink"])),
-                               base, seam)
-    # scale each cutout by its DETECTED head HEIGHT to a shared target and
-    # seat both faces on one eye line, cropped waist-up - width-normalising
-    # rendered a wide bearded head visibly smaller and lower than a narrow
-    # tall one (round 5 fix), and a soft upscale gets an unsharp pass so both
-    # faces carry the same bite.
-    rw = STYLE["rim_width"]
-    for kind, imgp, cxf, key in sorted(
-            [s for s in sides if s[0] == "cut"],
-            key=lambda s: 0 if s[3] == "right_photo" else 1):  # left pastes last
-        met = _head_metrics(imgp)
-        if met:
-            y_top, head_w, hcx, head_h = met
-            target = H * STYLE["announce_head_h"]
-            scale = min(STYLE["announce_scale_max"], target / max(8.0, head_h))
-            y0 = int(max(0, y_top - head_h * STYLE["announce_crown"]))
-            y1 = int(min(imgp.height, y_top + head_h * STYLE["announce_torso"]))
-            body = imgp.crop((0, y0, imgp.width, max(y0 + 1, y1)))
-            spr = _grade_cutout(body, ambient=0.22,
-                                ambient_color=PALETTE["fire"],
-                                sat=0.98, contrast=1.10, brightness=1.03)
-            tw = max(1, int(spr.width * scale))
-            th = max(1, int(spr.height * scale))
-            spr = spr.resize((tw, th), RESAMPLE)
-            if scale > 1.05:
-                spr = _sharpen(spr, min(140, int(90 * scale)))
-            eye_src = (y_top - y0) + head_h * STYLE["announce_eye_frac"]
-            py = int(H * STYLE["announce_eye_y"] - eye_src * scale)
-            px_ = int(W * cxf - hcx * scale)
-        else:
-            spr = _grade_cutout(imgp, ambient=0.22,
-                                ambient_color=PALETTE["fire"],
-                                sat=0.98, contrast=1.10, brightness=1.03)
-            th = int(H * STYLE["announce_fighter_h"])
-            tw = max(1, int(spr.width * th / spr.height))
-            spr = spr.resize((tw, th), RESAMPLE)
-            py = int(H * STYLE["announce_fighter_top"])
-            px_ = int(W * cxf - tw / 2)
-        # rim the edge facing the fire between the fighters, plus a kiss of
-        # top light - re-lights the studio cutout so it belongs to the scene
-        spr = _rim_light(spr, -rw if key == "left_photo" else rw, int(rw * 0.7),
-                         color=PALETTE["fire_soft"])
-        spr = _fade_alpha(spr, "bottom", 0.80, 0.0)
-        hold = base.convert("RGBA")
-        _paste_rgba(hold, spr, px_, py)
-        base = hold.convert("RGB")
-
-    # dark band behind the name stack: white display type crossing a bright
-    # torso or a gold glove needs its own scrim, not just the bottom crush
-    band_top = int(H * STYLE["announce_stack_y"]) - 46
-    base = _band_scrim(base, band_top, band_top + 560,
-                       STYLE["announce_band_strength"], 130)
-    base = _crush_bottom(base, int(H * 0.93), int(H * 0.42),
-                         STYLE["announce_bottom_scrim"])
-    base = _vignette(base, 0.44, 2.0)
-    d = ImageDraw.Draw(base)
-
-    # name stack - ONE lockup, gaps measured cap-edge to cap-edge so the air
-    # above and below VERSUS is EQUAL (the round 3 stack floated apart)
-    sq = STYLE["display_squeeze"]
-    left = " ".join((spec.get("left_name") or "TBA").upper().split())
-    right = " ".join((spec.get("right_name") or "TBA").upper().split())
-    fa, _t = _fit_tracked(d, left, "black", STYLE["announce_name_w"] / sq,
-                          STYLE["announce_name_max"], STYLE["announce_name_min"],
-                          STYLE["display_track"])
-    fb, _t = _fit_tracked(d, right, "black", STYLE["announce_name_w"] / sq,
-                          STYLE["announce_name_max"], STYLE["announce_name_min"],
-                          STYLE["display_track"])
-    size = min(fa.size, fb.size)
-    nf = _font("black", size)
-    tr = -int(round(size * STYLE["display_track"]))
-    lh = int(round(size * STYLE["display_spacing"]))
-    cx = W / 2
-    y = int(H * STYLE["announce_stack_y"])
-    # meta type rides the SCENE's hot light (pale amber lifted toward white);
-    # the brand purple stays in the lockup, chip and footer only
-    meta_col = _mix(_rgb(PALETTE["fire_soft"]), _rgb(PALETTE["paper"]), 0.30)
-    if spec.get("accent"):
-        meta_col = _mix(_rgb(accent), _rgb(PALETTE["paper"]), 0.52)
-    nb = d.textbbox((0, 0), left + right, font=nf)     # shared cap band
-    vf = _font("semibold", STYLE["announce_vs_size"])
-    vb = d.textbbox((0, 0), "VERSUS", font=vf)
-    g = STYLE["announce_vs_gap"]
-    base, _ = _display_block(base, [left], nf, cx, y, tracking=tr, spacing=lh,
-                             blur=14, dy=10, salpha=235, squeeze=sq)
-    vs_y = y + nb[3] + g - vb[1]
-    base = _italic_line(base, cx, vs_y, "VERSUS", vf,
-                        meta_col, STYLE["announce_vs_track"])
-    y2 = vs_y + vb[3] + g - nb[1]
-    base, _ = _display_block(base, [right], nf, cx, y2, tracking=tr, spacing=lh,
-                             blur=14, dy=10, salpha=235, squeeze=sq)
-    y = y2 + nb[3]
-
-    event_line = " ".join((spec.get("event_line") or "").upper().split())
-    if event_line:
-        ef = _font("bold", STYLE["announce_meta_size"])
-        base = _italic_line(base, cx, y + 26, event_line, ef, meta_col, 4)
-        y += 26 + int(ef.size * 1.6)
-    date_line = " ".join((spec.get("date_line") or "").upper().split())
-    if date_line:
-        parts = [p.strip() for p in date_line.split(" - ", 1)]
-        df = _font("black", STYLE["announce_date_size"])
-        base, y = _display_block(base, [parts[0]], df, cx, y + 18,
-                                 tracking=-int(df.size * 0.01),
-                                 spacing=int(df.size * 1.12),
-                                 blur=10, dy=4, salpha=150)
-        if len(parts) > 1 and parts[1]:
-            d = ImageDraw.Draw(base)
-            cf = _font("medium", STYLE["announce_city_size"])
-            ctr = STYLE["tracking_meta"]
-            w = _tracked_w(d, parts[1], cf, ctr)
-            _tracked(d, (cx - w / 2, y + 6), parts[1], cf,
-                     _rgb(PALETTE["paper_dim"]), ctr)
-
-    _lockup(base, logo, W / 2, 46, size=92)
+    panels = _panel_specs(spec)
+    n = len(panels)
+    default_cw = spec.get("colorway")
+    gap = STYLE["panel_gap"] if n > 1 else 0
+    base = Image.new("RGB", (W, H), _rgb(PALETTE["ink"]))
+    ys = []
+    y = 0
+    for i in range(n):
+        ph = (H - gap * (n - 1)) // n if i < n - 1 else H - y
+        ys.append((y, ph))
+        y += ph + gap
+    for (y0, ph), p in zip(ys, panels):
+        base.paste(_render_panel(W, ph, p, default_cw, single=(n == 1)), (0, y0))
     base = _grain(base)
-    return _footer_bar(base)
+    # the signature bar rides the LAST panel's colorway so the bottom edge
+    # never breaks the palette (round-2 blind: "stray purple strip")
+    last_cw = colorway((panels[-1].get("colorway") if panels else None)
+                       or default_cw)
+    return _footer_bar(base, last_cw)
 
 
 def _head_metrics(img):
@@ -2318,10 +2583,21 @@ def demo(out_dir=None):
             "line": "Champion out injured",
             "hot": ["injured"],
             "source": "Bloody Elbow", "kicker": "BREAKING"}),
+        ("news_red", "news", {
+            "line": "Champion out injured",
+            "hot": ["injured"], "colorway": "red", "background": "spotlight",
+            "source": "Bloody Elbow"}),
         ("announce", "announce", {
             "left_photo": left, "right_photo": right,
             "left_name": "PEREIRA", "right_name": "ANKALAEV",
             "event_line": "UFC 320 LAS VEGAS", "date_line": "SAT OCT 04"}),
+        ("announce_3", "announce", {"panels": [
+            {"left_photo": left, "right_photo": right, "big": "SEPT 12",
+             "small": "NOCHE UFC", "colorway": "red"},
+            {"left_photo": right, "right_photo": left, "big": "SEPT 12",
+             "small": "ZUFFA BOXING", "colorway": "blue"},
+            {"left_photo": left, "right_photo": right, "big": "SEPT 19",
+             "small": "UFC 331", "colorway": "green"}]}),
         ("last5", "last5", {
             "left_photo": left, "right_photo": right, "rows": rows}),
         ("poll_option", "poll_option", {
