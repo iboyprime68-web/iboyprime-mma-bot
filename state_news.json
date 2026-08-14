@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev says Usman Nurmagomedov is more than ready to conquer the #UFC 📰 https://mma-fighting.visitlink.me/AsXwRZ",
-      "ts": "2026-08-13T17:30:21+00:00"
-    },
-    {
-      "t": "Sean O'Malley picks Ian Machado Garry to upset Islam Makhachev in snoozer #UFC330 https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/13/ufc-330-…",
-      "ts": "2026-08-13T17:55:42+00:00"
-    },
-    {
       "t": "#UFC330 'Embedded,' No. 4: 'Philly cheesecake or cheesesteak?' https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/13/ufc-330-embedded-no-4-phill…",
       "ts": "2026-08-13T18:35:30+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Islam Makhachev, UFC 330 media day interview",
       "ts": "2026-08-14T02:29:10+00:00"
+    },
+    {
+      "t": "Diego Lopes Confirms UFC Weight Class Change",
+      "ts": "2026-08-14T01:50:01+00:00"
+    },
+    {
+      "t": "Mackenzie Dern, UFC 330 media day interview",
+      "ts": "2026-08-14T02:29:11+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Ian Machado Garry Breaks Down Islam Makhachev UFC 330 Fight",
-      "url": "https://sports.yahoo.com/articles/ian-machado-garry-breaks-down-053803685.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-13T05:38:03+00:00"
-    },
-    {
-      "title": "Gillian Robertson sees ‘destiny’ in UFC 330 clash with Mackenzie Dern",
-      "url": "https://sports.yahoo.com/articles/gillian-robertson-sees-destiny-ufc-070220582.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-13T07:02:20+00:00"
-    },
     {
       "title": "Ian Machado Garry is not your typical UFC fighter – and that’s why fans can’t stand him",
       "url": "https://sports.yahoo.com/articles/ian-machado-garry-not-typical-082758285.html",
@@ -2105,6 +2091,20 @@
       "source": "Herald-Review.com",
       "cat": "ufc",
       "ts": "2026-08-14T02:29:10+00:00"
+    },
+    {
+      "title": "Diego Lopes Confirms UFC Weight Class Change",
+      "url": "https://sports.yahoo.com/articles/diego-lopes-confirms-ufc-weight-015001384.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-14T01:50:01+00:00"
+    },
+    {
+      "title": "Mackenzie Dern, UFC 330 media day interview",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6U01IUWVnSFRYZUJtWDdZZzluc3FQZ2Q1ZVVPOVRxeFlRWFRadnBGU1p5RmRESG9yRWZ2LXB2d3ZYeUlMUzNqSmVyTHVyOGFVTjRNRVprMmg3NGpWdk1xbHJGX1laOXh0UlljUFNxaVVwVTVoRnFKWUJtd2hldw?oc=5",
+      "source": "Herald-Review.com",
+      "cat": "ufc",
+      "ts": "2026-08-14T02:29:11+00:00"
     }
   ],
   "digest_last": "2026-08-13 21:30",
@@ -2619,7 +2619,9 @@
     "CBMixAFBVV95cUxQOGlPb3hpQkV4MHZGakg2NmFOMnl4ZkZ3N1lvbGhPdmlsQkt1b1RBTnYtekNuM19IOTQzWGttMW10bmRqdHhSdWFmSko0V3ZUSXl2STFUbkpySzZfdmNLRU9SYXpfRWpKalV3NmczbzVxNWhOV3lDR0NjNmtSV0lWVEtZZ2ZEd0NpNjZfTFYwMHlhQnhCM1NRYlpRamxqUW1jNHRiMndYcVJOaTV2d0ZEaXJhdmxQSzlzc0RyYlFsaE9RZ1hN",
     "CBMimAFBVV95cUxOVUo5YlRTWXptOWV3SmJST190SERpVUhzUFJjcWU4c3VNY3JwT3dvb254WW5jRjJSOGEzZkxTVFVDWXdNcFpxSWJBZDJsdzhpN09BTHZXNDJrOXlCVFQxZFZHaDJ1UHZWc1pHQ0EyYkxoMHV3UkxodTV2UDIxUHNtSGtyek1QbEphVnFsZ1RpT0pVa1lpUkVucA",
     "CBMilAFBVV95cUxPNWl1ZTFNS1BpU1V1c0ZuM3JSMTdBOWlfYzJXQzVEUXFuUS1qWU1TdlZBM3BZYmFiQlphOTEyOFNYZ2Npa3luTDJsU2wyRWNNbmV6OWgwRjF3R1lfdkpQVmY3MEIxbllLTnFKYzVUS1NHOGYtR1ZBODdrV2tCcWFnX21wSThtVU5oSFNGWmdUb0JPRXBV",
-    "CBMifkFVX3lxTE9DcXc1NUlKTWNxN2p1MG1ESk8wTXNFbDlzT3lSLXdvOWk0YW1QemxGUWV5OXN3THpsVTRpbDgxWDI4WEd2WnNJeV9FWlpsTkw4S1A0bmJLTWN0RlhjbHRGRjlUZlBkTFJOQVkzOTF6ZWd3MDlLeVFSYklDZVhfQQ"
+    "CBMifkFVX3lxTE9DcXc1NUlKTWNxN2p1MG1ESk8wTXNFbDlzT3lSLXdvOWk0YW1QemxGUWV5OXN3THpsVTRpbDgxWDI4WEd2WnNJeV9FWlpsTkw4S1A0bmJLTWN0RlhjbHRGRjlUZlBkTFJOQVkzOTF6ZWd3MDlLeVFSYklDZVhfQQ",
+    "a910de0a-fd43-3b56-8afe-5c9024e45528",
+    "CBMifkFVX3lxTFB6U01IUWVnSFRYZUJtWDdZZzluc3FQZ2Q1ZVVPOVRxeFlRWFRadnBGU1p5RmRESG9yRWZ2LXB2d3ZYeUlMUzNqSmVyTHVyOGFVTjRNRVprMmg3NGpWdk1xbHJGX1laOXh0UlljUFNxaVVwVTVoRnFKWUJtd2hldw"
   ],
   "daily": {
     "d": "2026-08-14",
