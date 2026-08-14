@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=500979",
     "https://www.mmafighting.com/?p=501007",
     "https://www.mmafighting.com/?p=501026",
     "https://www.mmafighting.com/?p=501041",
@@ -202,6 +201,7 @@
     "https://www.mmafighting.com/?p=504619",
     "https://www.mmafighting.com/?p=504622",
     "https://www.mmafighting.com/?p=504626",
+    "https://www.mmafighting.com/?p=504641",
     "https://www.mmafighting.com/?p=504649",
     "https://www.mmafighting.com/?p=504664",
     "https://www.mmafighting.com/?p=504773",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Comedian Shane Gillis Initially Turned Down UFC 250 Invite, Says He ‘Didn’t Vote’ for President Trump",
-      "ts": "2026-08-14T14:26:22+00:00"
-    },
-    {
       "t": "Michael Morales cuts over 53lb just to make weight for UFC 330 back-up role",
       "ts": "2026-08-14T14:27:40+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Joe Rogan put in his place over Donald Trump in awkward podcast exchange",
       "ts": "2026-08-14T15:46:00+00:00"
+    },
+    {
+      "t": "Conor McGregor picks Ian Machado Garry to upset Islam Makhachev at UFC 330",
+      "ts": "2026-08-14T14:55:09+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Challenger Garry Meets Hostile Crowd at UFC 330 Weigh-Ins in South Philadelphia",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFBNc09ZUnM2M3A4ZDNFN3I3WmhZSDR5UFUwR3JaaUx0OTVpM1BtYTB2cGlWcjhEdDdiUkV4ZWxqdHBzTWFOZVNVTkFTWEpfVDViM2c5TlVreVVUQ1prb0xoMWY0V21sM1M2Q2JFWHN4T3VEdmNXeHh4MmcwVWhJMVFWanE4Y1dDeGFBbWxaVGxXdk5fWW9XUk1TakdoYWta?oc=5",
-      "source": "South Philly Review",
-      "cat": "ufc",
-      "ts": "2026-08-14T15:25:25+00:00"
-    },
     {
       "title": "Who Is Mackenzie Dern's Ex-Husband Wesley Santos? Had Accused UFC Star Of Mistreating Their Daughter",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORExob1Q0eXN5YkFJWTloNW9adzFPQzdRV25pYm5fV1pqMW1QbkxyY2Z4MVhYRE5DY3RYVXIzdkd6ajNiajAyR2VZcWFtdmk1LTJWaFI4RzRidTU3aThjLVByTkh0TVJQYXR2MGlRMjVWWExSeXdfQ0tJS0tPV3Z2SWw2eTB6MnF2akt5WVhKS3ZKYldkejNQd2VSdm1JVWFSNkd4M0FMdnFFbzZ1RWgzNEMxVzRIbHdOYzN5LU53dUFiZXNBSHlVUk5JemNPaUJxTnMwOGswYUNDVTViTkI00gHkAUFVX3lxTFBOZ3RWWktENVBuRzFJUGhTSTJFQXNSMGR1SFVCXzE4djR2RFBLUDdnc1ZWMWRrX0NscmQtQ1ktYkRwc2tJN3hIdFBfeTItSUZKcVRHZFdzNjdKclYxSXVzMno3MUdkazJFeWVzQWpEak5PMGhiYldhLWRWYVp6V3lvU2w2dE5xQzRPNmlLTnZSdUZxMFVZdjNhMmF6QnhLSlpoQ2h6UGM4aEcwSnJFdkJQMTRnWWt6M24yOERMZ000dUY2UVlvS3hOeDEyUzdpMjFfbXFwa0g5TnNzZDRuX3NWazJDVw?oc=5",
@@ -2105,12 +2098,19 @@
       "source": "irishstar.com",
       "cat": "ufc",
       "ts": "2026-08-14T15:46:00+00:00"
+    },
+    {
+      "title": "Conor McGregor picks Ian Machado Garry to upset Islam Makhachev at UFC 330",
+      "url": "https://www.mmafighting.com/ufc/504641/conor-mcgregor-picks-ian-machado-garry-to-upset-islam-makhachev-at-ufc-330",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-14T14:55:09+00:00"
     }
   ],
   "digest_last": "2026-08-13 21:30",
   "hour": [
-    "2026-08-14T15",
-    10
+    "2026-08-14T16",
+    1
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/DWCS-2026-Week-1-WeighIn-results-5-fights-set-202294",
@@ -2918,7 +2918,8 @@
     "884904dc-b1a6-3971-84d5-e53bbc33153a",
     "CBMifkFVX3lxTE1VYU8ybjhhQnpNVlNlOTltd0FMc3E2UTZxNE1HaWtwUkNGQkhialdXTG01Umx2TjRBTjhkbk9Wd2FnSDhfekxHWEZIUVZRdl93MUNsVnU5UTZJdUdjbmRPNE5OS1NrX1NsWUdnSnM1Y1J3SjBGWjhtQ3h0YW1sUQ",
     "CBMiswFBVV95cUxONVdVOXhPVmxoMk5uUWprXzF1OXBNV054dzVSMkduWDJGS1U0UVd2SW9hVnNQTkRuWkxXRHRSOEt6YVpfdkJmWTlUeWxnSldvek00VXF1cmpaT2tvYnVNT2JtMzByZkdTMXFSV0FPNWhlUFVXY2lscmlYbVVmR3lwMXhWNzhOZkVBMF9ONnRLa3hEb0E1Qk56ZWdXZnRsUDVMalVMVlRERldsbFN1MDFzUUtyMNIBswFBVV95cUxONVdVOXhPVmxoMk5uUWprXzF1OXBNV054dzVSMkduWDJGS1U0UVd2SW9hVnNQTkRuWkxXRHRSOEt6YVpfdkJmWTlUeWxnSldvek00VXF1cmpaT2tvYnVNT2JtMzByZkdTMXFSV0FPNWhlUFVXY2lscmlYbVVmR3lwMXhWNzhOZkVBMF9ONnRLa3hEb0E1Qk56ZWdXZnRsUDVMalVMVlRERldsbFN1MDFzUUtyMA",
-    "CBMiigFBVV95cUxPRGR1TFRmT3AwZ2ZDbEJWR2FKaVdObEtlbkt0X0hTRVBfSDAxRDZmSTZDYjltcXJVUDl1XzRmOXp2aTNZYVBoZEt4eFFFNFROcEtjZENQaDBrNVI4VW5zWHI3M2YwYW1BZ0NOSFFFQ0syYWdYMmdXSGRDTjJTWGNYR0l0cmRzLXdiOUE"
+    "CBMiigFBVV95cUxPRGR1TFRmT3AwZ2ZDbEJWR2FKaVdObEtlbkt0X0hTRVBfSDAxRDZmSTZDYjltcXJVUDl1XzRmOXp2aTNZYVBoZEt4eFFFNFROcEtjZENQaDBrNVI4VW5zWHI3M2YwYW1BZ0NOSFFFQ0syYWdYMmdXSGRDTjJTWGNYR0l0cmRzLXdiOUE",
+    "https://www.mmafighting.com/?p=504641"
   ],
   "daily": {
     "d": "2026-08-14",
