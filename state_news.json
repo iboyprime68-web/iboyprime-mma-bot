@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=500829",
     "https://www.mmafighting.com/?p=500889",
     "https://www.mmafighting.com/?p=500920",
     "https://www.mmafighting.com/?p=500928",
@@ -896,6 +895,7 @@
     "https://www.mmamania.com/?p=464353",
     "https://www.mmamania.com/?p=464360",
     "https://www.mmamania.com/?p=464388",
+    "https://www.mmamania.com/?p=464402",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Stephen Thompson has one wish in mind for final UFC fight",
-      "ts": "2026-08-14T02:00:25+00:00"
-    },
     {
       "t": "Anthony Wint Gets UFC Debut Opponent",
       "ts": "2026-08-14T02:09:33+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "LIVE! UFC 330 Early Weigh Ins Results!",
       "ts": "2026-08-14T12:30:00+00:00"
+    },
+    {
+      "t": "UFC 330 early weigh ins video results, LIVE stream updates &#124; Islam vs. Garry",
+      "ts": "2026-08-14T03:54:32+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Ian Machado Garry says Carlos Prates \"is the only one\" deserving of the next title shot after he beats Islam Makhachev at UFC330 📰 https://mma-fight…",
-      "url": "https://nitter.net/MMAFighting/status/2087985079406694635#m",
-      "source": "MMA Fighting on X",
-      "cat": "ufc",
-      "ts": "2026-08-13T19:30:10+00:00"
-    },
     {
       "title": "UFC 330 press conference video https://www.mmafighting.com/ufc/504626/ufc-330-press-conference-video",
       "url": "https://nitter.net/MMAFighting/status/2088008749730648517#m",
@@ -2105,6 +2098,13 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-14T12:30:00+00:00"
+    },
+    {
+      "title": "UFC 330 early weigh ins video results, LIVE stream updates &124; Islam vs. Garry",
+      "url": "https://www.mmamania.com/ufc-330-makhachev-vs-machado-garry-live-stream-start-time-fight-card/464402/ufc-330-early-weigh-ins-video-results-live-stream-updates-islam-vs-garry-mma",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-14T03:54:32+00:00"
     }
   ],
   "digest_last": "2026-08-13 21:30",
@@ -2793,7 +2793,8 @@
     "https://www.mmamania.com/464370/open-thread-august-13-2026-what-scares-you",
     "CBMilgFBVV95cUxOVXlLY0djcmstb0p3cWs4RXBqSUlwUHhjY3FSXzhXUmJ3a0tsSGMwTU04alJYb0JNZF9maUNWem5rd3NBOGlLMWVrMHNIOGoyYkljZXpqYUlHTGE0X09Ld2VGWWpEeGVZak1yMy1adW02cUxLRy1UX0cxdzQtMWEydUJ5cTFJZ1VBTVROTlJpWmNCbHAxU1E",
     "CBMiswFBVV95cUxQaE1BUnpyMG1WcTZtSnJhODZvVWltNjRibjJfQ0trTzc3VjduejFjX2RaX2RYc0VZSGJGX3AtQWhwZ0hZZVc2NmFyWnpVcDhOZUtGZkJ3Q1lfUDZQM0N1S21ZaThkSXhSdlZlOE50WENPQlRUMFo0Z3NSMUlDT0ZWVGRPejNMaTF6cVg5WjRrenNYaVlDWmVuUmR1bGJxZEpaZ2hOLVEzRThrd2wycmpWZy1tOA",
-    "CBMiiAJBVV95cUxPSVdYWlpub1VoajlRdjQ1c2R1dVdvY0FscGNkaGRwN1hCd1NnYzFaZWY0Nl92YnVnVGp1eTFyYXkyYjd5UkRMUnQyTGowSjVUSHVJRFExemFnT1R3dzhneXZYMzEtNm8wR3ktOU9iU2x6Vm56RDNJWUtVcFIwaWlvNlEycTBrWDhvdk10VWNCakJ3NG94dm1KU2NjQWw5bnluNXBOd2VBWmhqV005bGRTb0dnVzQ5T3RDa3lEY3Y3TXVKTnpSVTE3OXJJTHJQaEZ0RkpUMER3VmZaalNSRUZaRmdXcTdSbk8zY2daRm1ydy1VcmdYVDJvX29QZE0zdDFnZlJJRE43bng"
+    "CBMiiAJBVV95cUxPSVdYWlpub1VoajlRdjQ1c2R1dVdvY0FscGNkaGRwN1hCd1NnYzFaZWY0Nl92YnVnVGp1eTFyYXkyYjd5UkRMUnQyTGowSjVUSHVJRFExemFnT1R3dzhneXZYMzEtNm8wR3ktOU9iU2x6Vm56RDNJWUtVcFIwaWlvNlEycTBrWDhvdk10VWNCakJ3NG94dm1KU2NjQWw5bnluNXBOd2VBWmhqV005bGRTb0dnVzQ5T3RDa3lEY3Y3TXVKTnpSVTE3OXJJTHJQaEZ0RkpUMER3VmZaalNSRUZaRmdXcTdSbk8zY2daRm1ydy1VcmdYVDJvX29QZE0zdDFnZlJJRE43bng",
+    "https://www.mmamania.com/?p=464402"
   ],
   "daily": {
     "d": "2026-08-14",
