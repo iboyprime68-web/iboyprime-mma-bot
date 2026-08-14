@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Pinned: TROUBLE IS BREWING IN PHILLY 👀 @MakhachevMMA vs @IanGarryMMA [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
-      "ts": "2026-08-13T22:27:07+00:00"
-    },
-    {
       "t": "Mackenzie Dern and Gillian Robertson were all business after the #UFC330 press conference",
       "ts": "2026-08-13T22:34:59+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC, Dana White reveal their rebrand and refresh to Meta Apex",
       "ts": "2026-08-14T00:17:44+00:00"
+    },
+    {
+      "t": "Islam Makhachev, Mackenzie Dern aim to defend titles at UFC 330",
+      "ts": "2026-08-14T00:25:25+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": ".@MikeHeckJR & @JedKMeshew are LIVE talking UFC330, Makhachev vs. Macahdo Garry, and more https://x.com/i/broadcasts/1DGLdZZWBNbGm",
-      "url": "https://nitter.net/MMAFighting/status/2087932389272256658#m",
-      "source": "MMA Fighting on X",
-      "cat": "ufc",
-      "ts": "2026-08-13T16:00:48+00:00"
-    },
     {
       "title": "Ian Machado Garry envisions '10 years of domination' if victorious at UFC330 https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/13/ufc-330-ian-…",
       "url": "https://nitter.net/MMAJunkie/status/2087936183359697396#m",
@@ -2105,6 +2098,13 @@
       "source": "KLAS 8 News Now",
       "cat": "ufc",
       "ts": "2026-08-14T00:17:44+00:00"
+    },
+    {
+      "title": "Islam Makhachev, Mackenzie Dern aim to defend titles at UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeUtldnpPOWlkcjZ3bW9mcDRYUkIxX3lWbU85T0NGY3RpMjJpUldCMDkwbXUwRjhEVVFTVk9na2I1Q1RNbDhwclhWVUxhUmhxRExnRDMxZi1KR1ZoMkwxc1BXb2h3MFp3bXo2SExiRHFmZE5FU3JyblRQUDFCVy1iRmltVHRoYkh0UnZyZEJqMU01YUJRYlZQLXJCVmFoN2p1?oc=5",
+      "source": "Field Level Media",
+      "cat": "ufc",
+      "ts": "2026-08-14T00:25:25+00:00"
     }
   ],
   "digest_last": "2026-08-13 21:30",
@@ -2580,11 +2580,12 @@
     "2088054185879367866",
     "2088055293376614627",
     "CBMilgJBVV95cUxQVWFUc3BLY3ZGVEduTU4tVXZiZ0FjUVc4Y0FES19qNGVlNm5tQ3ZxWU1DdGxnYm00UTAtYUQxOGFEdll3R0RuMklnYmMtcC1CNFJVcFl0WllZTzJoLVJxLURrdGFOZS02VWxQTzdUUFdtSmhpVC0yT1hrcXVXb2RZR0k4Mzc2b3ZpVG55em5MdlI3TFJYSTNWNTJxQV90UE1IMzl5d2MySXB0Q0l5RE9vOXFnZXZmUm1HZFE5S2QtenlSanNOMDNCTHlJanZFaG1yX0NmWGUzSm1FSHhJU0ZhV1lIUDFNbkFQUDQ1VnZCMnp2UTdDZjVCZ1FESmVhWFhKUlJFZGhhaDRzYmg0RjhjNkNDMnVLUQ",
-    "CBMiqwFBVV95cUxORVJyZDRSVERTakl0VkJ4X0FCTjNONzUtTVRXNnhZUG1RLVJwYTk5Mm1wNTVHNnhtU0wzU0V3ZGhiZXBJY3oxVVVvLXFZRkFHRXBiRGNnSjROSmxsUHB0aS01eEJ5ajRUbmNyOTVPcXBKcDFSWDJrZGpLQ0dhM3g2YXNxS3l0TzBFR1FUMnM5Zkx5dnFQSzhpLS1zNEhGaThvcVVZWl8zSTJQWTTSAbABQVVfeXFMTmdpNE9HNFRSUWRIeS1zalFMS213a015S0xjcW5IbXBLamdrWVpJVmZraTdEc0ZwRWI4LV96TmozNWdBQ3Fjb1VGQlZrT0ZZNFRWUzlBbXY0VVVGdUFpMkN1cnpTb3o2OTFEVG5uY3ppVDRtb0JyOFRvTFdaUU5CREN4T1pwX2VicFF4NUYtOElZcm9pVEp3NjNxbEdYazZLTURoNTlTZjNUbzdRZF8ydVg"
+    "CBMiqwFBVV95cUxORVJyZDRSVERTakl0VkJ4X0FCTjNONzUtTVRXNnhZUG1RLVJwYTk5Mm1wNTVHNnhtU0wzU0V3ZGhiZXBJY3oxVVVvLXFZRkFHRXBiRGNnSjROSmxsUHB0aS01eEJ5ajRUbmNyOTVPcXBKcDFSWDJrZGpLQ0dhM3g2YXNxS3l0TzBFR1FUMnM5Zkx5dnFQSzhpLS1zNEhGaThvcVVZWl8zSTJQWTTSAbABQVVfeXFMTmdpNE9HNFRSUWRIeS1zalFMS213a015S0xjcW5IbXBLamdrWVpJVmZraTdEc0ZwRWI4LV96TmozNWdBQ3Fjb1VGQlZrT0ZZNFRWUzlBbXY0VVVGdUFpMkN1cnpTb3o2OTFEVG5uY3ppVDRtb0JyOFRvTFdaUU5CREN4T1pwX2VicFF4NUYtOElZcm9pVEp3NjNxbEdYazZLTURoNTlTZjNUbzdRZF8ydVg",
+    "CBMioAFBVV95cUxNeUtldnpPOWlkcjZ3bW9mcDRYUkIxX3lWbU85T0NGY3RpMjJpUldCMDkwbXUwRjhEVVFTVk9na2I1Q1RNbDhwclhWVUxhUmhxRExnRDMxZi1KR1ZoMkwxc1BXb2h3MFp3bXo2SExiRHFmZE5FU3JyblRQUDFCVy1iRmltVHRoYkh0UnZyZEJqMU01YUJRYlZQLXJCVmFoN2p1"
   ],
   "daily": {
     "d": "2026-08-14",
-    "ai": 20,
-    "staged": 2
+    "ai": 21,
+    "staged": 3
   }
 }
