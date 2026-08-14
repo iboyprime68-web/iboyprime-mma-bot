@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "LIVE! UFC 330 Early Weigh Ins Results!",
-      "ts": "2026-08-14T12:30:00+00:00"
-    },
-    {
       "t": "Fans turn on Garry, Garry turns on fans at UFC 330 presser: ‘You’ll shut your f–king mouths and call me great’",
       "ts": "2026-08-14T12:32:53+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "UFC 330: Expect fireworks in strawweight title bout between Mackenzie Dern and Gillian Robertson",
       "ts": "2026-08-14T21:30:00+00:00"
+    },
+    {
+      "t": "Lucas Fernando",
+      "ts": "2026-08-14T21:37:34+00:00"
     }
   ],
   "digest_items": [
@@ -1790,12 +1790,19 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-14T21:30:00+00:00"
+    },
+    {
+      "title": "Lucas Fernando",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fZGRwOVppTlZOOGtGbW9hLWM2TE90OW5nTkFFTXFPV0RDeVZTdkJqenk0cGJWaVdzTnVJMUp0a19za3JlNzgtUlpGQzB0akxWbjBEVg?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-14T21:37:34+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
   "hour": [
     "2026-08-14T22",
-    2
+    3
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/DWCS-2026-Week-1-WeighIn-results-5-fights-set-202294",
