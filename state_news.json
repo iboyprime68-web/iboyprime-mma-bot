@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev is UFC's last dominant champion. Lose at UFC 330, and parity becomes the new norm",
-      "ts": "2026-08-13T20:24:24+00:00"
-    },
-    {
-      "t": "UFC 330 press conference video",
-      "ts": "2026-08-13T21:00:00+00:00"
-    },
-    {
       "t": "Alexander Volkanovski: Islam Makhachev 'can definitely' submit Ian Machado Garry",
       "ts": "2026-08-13T21:10:26+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Joe Rogan hits out at Donald Trump over huge crypto earnings: ‘This is nuts’",
       "ts": "2026-08-14T08:45:46+00:00"
+    },
+    {
+      "t": "Why the NCAA's \"Five-for-Five\" Ruling Came Now | The Assist Stream of General Videos",
+      "ts": "2026-08-14T08:19:44+00:00"
+    },
+    {
+      "t": "Predicting the ENTIRE 2026/27 La Liga Table - Scoreline Stream of Soccer",
+      "ts": "2026-08-14T08:21:10+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Conor McGregor gives UFC 330 Makhachev vs. Machado Garry prediction: ‘He still has things to prove’",
-      "url": "https://bloodyelbow.com/2026/08/13/conor-mcgregor-gives-ufc-330-makhachev-vs-machado-garry-prediction-he-still-has-things-to-prove/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-13T21:25:00+00:00"
-    },
-    {
-      "title": "Islam Makhachev insists Ian Garry is ‘not going to be my biggest challenge’ ahead of UFC 330",
-      "url": "https://bloodyelbow.com/2026/08/13/islam-makhachev-insists-ian-garry-is-not-going-to-be-my-biggest-challenge-ahead-of-ufc-330/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-13T23:00:00+00:00"
-    },
     {
       "title": "Diego Lopes was offered clash against Arman Tsarukyan with Charles Oliveira clash reportedly now in talks",
       "url": "https://bloodyelbow.com/2026/08/13/diego-lopes-was-offered-clash-against-arman-tsarukyan-with-charles-oliveira-clash-reportedly-now-in-talks/",
@@ -2105,6 +2091,20 @@
       "source": "Indy100",
       "cat": "ufc",
       "ts": "2026-08-14T08:45:46+00:00"
+    },
+    {
+      "title": "Why the NCAA's \"Five-for-Five\" Ruling Came Now The Assist Stream of General Videos",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX1FKMDAtZ2ZwcFpESzJOVk80SGJJSVRWTGhPWkwtVk1MbWN1Rmp6WEQydDlMdjVqdzBCQ1pxbl82Y2NRMjV3T3JnQmhtQTRKbk1EeHFpRjhNNzlqWDcyZzRJMjRUOWlVWW53aFRTTmU3eWw1czdQU2NMd1hvSUNfYXJYU2sxOVV6RmUzMjhGLVNnakdZdkRhTEZ1RGhzSDc2VGc?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-14T08:19:44+00:00"
+    },
+    {
+      "title": "Predicting the ENTIRE 2026/27 La Liga Table - Scoreline Stream of Soccer",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUk5WWHRETURNRUlLZWdrSEI5YUI1N2lTcHF4MmtzNWJDdHNMZ1g2aE9XLXpvcC1YdjRxMUlMWXNQdWphV0ZOa1VOdnJ6WWRzaUNGOWJxMEF2bk5za08ybXFYU081LXN2eWRsTmVLYUJCWWZ6WnJfMWg1NHJ0T2dtbXR3Z0ZHVE5rNzZ5d21lQlVtSWJfYjhnX0RVVGtidw?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-14T08:21:10+00:00"
     }
   ],
   "digest_last": "2026-08-13 21:30",
@@ -2721,7 +2721,9 @@
     "CBMijwFBVV95cUxQbXBmODI3MW1lakFuN1JNUnNvT2lqRUZ3MERxTmlCVG8tSjlkTzlYSmRsUVNjcmU5Zlg1SVZoRC1Nbko5YmJXSFpLUUw4ZXVzNGh3dE10M0tJMGNqQkEwaWlGeHNXSXN6R0NzSEVWSGZqSUtkUTNLbk92bHQtdHh0WS1OLW4yRFhvNXd0X2xfbw",
     "CBMiiwFBVV95cUxOLWVybXdQajFybmJIQzZXcnZDdzdFcXM0Ry1lUWxieXYwX1VjVGw3cTdaQmFzZzdhMTFQOFZHVXNrZl9fendHM1U1cEpNWG9tTHZtNm5kQmpjY1RkWl83bldrclJNeVl3STlOb2wxUUpEdmN6dEU2Y0VUcWVwS05fWGtxaGxGRFpCd3N3",
     "CBMikAFBVV95cUxNNXVhR2tVNWR6N2lhcnBGNURkYjNwV2ZvMWZzQkZfaHpXSWVDdmdXbzR6aFdQdkctYTVRWklvQjlnSUxBMU5LejcwTUdQYllZV2hpRWxkN2puZ2l1WDVfWjVqa2Z6WEpDWjZETDhGX0wyMGVtR2pEa2lTY1lpQVhNOUtBUUt2bjMtZ2M4bksxbnQ",
-    "CBMid0FVX3lxTE5FVGZqamhCdTZoRHhSWkdoREpjVTRPa2pWVVdXbG9RMThFV3JyS3gtQ2FKRmMzaThiM3dOMnFQVGl4R2U3RzZqOFVwY2VuVllNa3F3aHYxdVAxS0dvZ3FxcTdaSkc5X1VTeWN5Ry1rSzNHZEpDNkZ3"
+    "CBMid0FVX3lxTE5FVGZqamhCdTZoRHhSWkdoREpjVTRPa2pWVVdXbG9RMThFV3JyS3gtQ2FKRmMzaThiM3dOMnFQVGl4R2U3RzZqOFVwY2VuVllNa3F3aHYxdVAxS0dvZ3FxcTdaSkc5X1VTeWN5Ry1rSzNHZEpDNkZ3",
+    "CBMiogFBVV95cUxPX1FKMDAtZ2ZwcFpESzJOVk80SGJJSVRWTGhPWkwtVk1MbWN1Rmp6WEQydDlMdjVqdzBCQ1pxbl82Y2NRMjV3T3JnQmhtQTRKbk1EeHFpRjhNNzlqWDcyZzRJMjRUOWlVWW53aFRTTmU3eWw1czdQU2NMd1hvSUNfYXJYU2sxOVV6RmUzMjhGLVNnakdZdkRhTEZ1RGhzSDc2VGc",
+    "CBMingFBVV95cUxQUk5WWHRETURNRUlLZWdrSEI5YUI1N2lTcHF4MmtzNWJDdHNMZ1g2aE9XLXpvcC1YdjRxMUlMWXNQdWphV0ZOa1VOdnJ6WWRzaUNGOWJxMEF2bk5za08ybXFYU081LXN2eWRsTmVLYUJCWWZ6WnJfMWg1NHJ0T2dtbXR3Z0ZHVE5rNzZ5d21lQlVtSWJfYjhnX0RVVGtidw"
   ],
   "daily": {
     "d": "2026-08-14",
