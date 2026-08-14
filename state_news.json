@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "#UFC330 video: Mackenzie Dern, Gillian Robertson make title weight https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/14/ufc-330-video-mackenzie…",
-      "ts": "2026-08-14T13:55:28+00:00"
-    },
-    {
-      "t": "#UFC330 weigh-in results: Michael Morales (170) Morales weighed in as the backup for the main event https://www.mmafighting.com/ufc/504726/ufc-330-we…",
-      "ts": "2026-08-14T13:58:47+00:00"
-    },
-    {
       "t": "Undefeated contender Michael Morales makes weight as the #UFC330 title fight backup.",
       "ts": "2026-08-14T14:03:24+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC 330: Makhachev vs. Machado Garry Live Fight Coverage",
       "ts": "2026-08-14T18:02:14+00:00"
+    },
+    {
+      "t": "Mackenzie Dern vs. Gillian Robertson breakdown for UFC 330 title bout",
+      "ts": "2026-08-14T17:53:53+00:00"
+    },
+    {
+      "t": "Alexander Volkanovski Predicts UFC 330 Main Event",
+      "ts": "2026-08-14T18:05:35+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 330 lightweight star completes Paddy Pimblett-like weight cut by shedding 20 pounds in 48 hours",
-      "url": "https://bloodyelbow.com/2026/08/14/ufc-330-lightweight-star-completes-paddy-pimblett-like-weight-cut-by-shedding-20-pounds-in-48-hours/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-14T13:05:01+00:00"
-    },
-    {
-      "title": "UFC 330 weigh-in video: Makhachev vs. Machado Garry",
-      "url": "https://www.mmafighting.com/ufc/504726/ufc-330-weigh-in-video-makhachev-vs-machado-garry",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-14T15:10:24+00:00"
-    },
     {
       "title": "Dana White insists Ian Machado Garry is being overlooked: ‘He beat Belal Muhammad!’",
       "url": "https://bloodyelbow.com/2026/08/14/dana-white-insists-ian-machado-garry-is-being-overlooked-he-beat-belal-muhammad/",
@@ -2105,6 +2091,20 @@
       "source": "ESPN",
       "cat": "ufc",
       "ts": "2026-08-14T18:02:14+00:00"
+    },
+    {
+      "title": "Mackenzie Dern vs. Gillian Robertson breakdown for UFC 330 title bout",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOREg3WVdRWHhYcmp1N0VsSUVQVjVNMHdoOUp6V1huWk9EeW56UWxNX3Q3MncwOTREQ1VjaGNiZ29aaFpQT0VrT1dtX3MzTXF1TllLcGRtUEpOSjNtbXAxLVpyMENQeUJjY3pBZW5WdnpONjVQVkxvZUxCVTVnNmVvVWdfR1A0bWpwa0E?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-14T17:53:53+00:00"
+    },
+    {
+      "title": "Alexander Volkanovski Predicts UFC 330 Main Event",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVVNqU0xiN19qWGstbF9xbXNYQXhMZ1VQTmloZHVHTklVTEh0cXV4TThXazRnZlAtZDR3VXNpMVJJRk12Q1lvdS1DUFdaQ3JBZlhjZkRFMlVTRXJxVk9KdklFRzBwWnFIazZvOXZ2enVwQU8wQ2l3WHVxVjFLTnU1Snd0M0s?oc=5",
+      "source": "heavy.com",
+      "cat": "ufc",
+      "ts": "2026-08-14T18:05:35+00:00"
     }
   ],
   "digest_last": "2026-08-13 21:30",
@@ -2997,7 +2997,9 @@
     "CBMimgFBVV95cUxPOW1hRmd4dENJa09mTndZXzhpV1B4YUlLQkloSGVxTXNveDNEaFhKRTdlUHRCOElpNFA4R2xhZV83Z1hEV0Z4cmJzWlBqQzViZHVJX3FJNTQtLXhTQXhSazY1c2c0ZHJLaC02ZlBvWlJETTJyUE54LUhyRDhySEVKVklQdFJYWWxVakdTSG1NcUU4T0MwU1lUR2FR",
     "2088323585991377312",
     "2088325407837741347",
-    "CBMiywJBVV95cUxPTEIwYzlvSVloRUhpM0RFcUw3WmxFcTZjV0JDcTdCbks0NUNFLTN1WDJnWTRrNFNBMi1PMGpXRkxzVmJSb0YzN1VfVl9BRE1ZM0ZYZUp0M0N4Y1RSNWdHYXlEaDRNVzRTVmQ3djlDMHZnUFlzWTQ2SzVQQzlNckd1RkZqWFhnU2pscE9ieTgwVE02VERiYmk0amFBSFJVeV9WZlVySDhQRDVXbE5OVlRnOEhOb25jXzdRUzBiRGhpLWJpT29rSjhscGlnRGJ3eTQ4bmVqWWxha1N2ZGxNQ3lPTkVuc3p1YWptZEtpenNoMEFya0wwbzZFM3BVbHRCZUc5cXktLTdQZjBQUHR4NXQ1MzNFRE9NT2VHcS1jOWFMaE9jN01CVXR3T21zenVqZ0RkQTQzSXBfUFBSMHBQdEVhTlVxUDNGUjI1M2Jn"
+    "CBMiywJBVV95cUxPTEIwYzlvSVloRUhpM0RFcUw3WmxFcTZjV0JDcTdCbks0NUNFLTN1WDJnWTRrNFNBMi1PMGpXRkxzVmJSb0YzN1VfVl9BRE1ZM0ZYZUp0M0N4Y1RSNWdHYXlEaDRNVzRTVmQ3djlDMHZnUFlzWTQ2SzVQQzlNckd1RkZqWFhnU2pscE9ieTgwVE02VERiYmk0amFBSFJVeV9WZlVySDhQRDVXbE5OVlRnOEhOb25jXzdRUzBiRGhpLWJpT29rSjhscGlnRGJ3eTQ4bmVqWWxha1N2ZGxNQ3lPTkVuc3p1YWptZEtpenNoMEFya0wwbzZFM3BVbHRCZUc5cXktLTdQZjBQUHR4NXQ1MzNFRE9NT2VHcS1jOWFMaE9jN01CVXR3T21zenVqZ0RkQTQzSXBfUFBSMHBQdEVhTlVxUDNGUjI1M2Jn",
+    "CBMiigFBVV95cUxOREg3WVdRWHhYcmp1N0VsSUVQVjVNMHdoOUp6V1huWk9EeW56UWxNX3Q3MncwOTREQ1VjaGNiZ29aaFpQT0VrT1dtX3MzTXF1TllLcGRtUEpOSjNtbXAxLVpyMENQeUJjY3pBZW5WdnpONjVQVkxvZUxCVTVnNmVvVWdfR1A0bWpwa0E",
+    "CBMihAFBVV95cUxQVVNqU0xiN19qWGstbF9xbXNYQXhMZ1VQTmloZHVHTklVTEh0cXV4TThXazRnZlAtZDR3VXNpMVJJRk12Q1lvdS1DUFdaQ3JBZlhjZkRFMlVTRXJxVk9KdklFRzBwWnFIazZvOXZ2enVwQU8wQ2l3WHVxVjFLTnU1Snd0M0s"
   ],
   "daily": {
     "d": "2026-08-14",
