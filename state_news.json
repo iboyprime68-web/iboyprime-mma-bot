@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev Reveals Ideal UFC Retirement Plans",
-      "ts": "2026-08-13T16:43:00+00:00"
-    },
-    {
       "t": "Ian Machado Garry to ditch signature purple shorts for UFC 330 title fight",
       "ts": "2026-08-13T20:30:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Islam Makhachev admits it ‘would be difficult’ to achieve 3-title status but claims ‘we’ll see’",
       "ts": "2026-08-14T00:00:00+00:00"
+    },
+    {
+      "t": "Tyron Herring: Waived/injured by Cleveland",
+      "ts": "2026-08-13T23:14:22+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Joe Rogan Shares Welterweight Prediction Ahead of UFC 330",
-      "url": "https://sports.yahoo.com/articles/joe-rogan-shares-welterweight-prediction-020653156.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-13T02:06:53+00:00"
-    },
     {
       "title": "Contender Series winner gets surprise UFC shot after UFC 330 shakeup",
       "url": "https://sports.yahoo.com/articles/contender-series-winner-gets-surprise-025841905.html",
@@ -2105,12 +2098,19 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-14T00:00:00+00:00"
+    },
+    {
+      "title": "Tyron Herring: Waived/injured by Cleveland",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOa2tqX0RTeU4wMlY0NWhBOVo1QkVWbWlRQl9ZVGdzRWRzSFRQUnk1VERIOFpCVDBBV0pQeXZSMnZoc3RGMUtsNVB6SXloZnNtSlN4UkhPejlBaXRtTG1JeldIelNBd0lMMDhKeTd0RVJ0SndwVUdxQlZOR3ZTQzRDcVJyMkE3LUttcU9ZSllSNEl5cmM?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-13T23:14:22+00:00"
     }
   ],
   "digest_last": "2026-08-13 21:30",
   "hour": [
     "2026-08-14T00",
-    2
+    3
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/DWCS-2026-Week-1-WeighIn-results-5-fights-set-202294",
@@ -2564,11 +2564,12 @@
     "2088050967652585771",
     "2088052326678311161",
     "CBMiqgFBVV95cUxObnBjM2Rfb3pwdzJNVTdRTlN5Xzc3ZnN2T3hiMTRBc0hzeXZncmFGWnZWNlVYX2RzbkQyRGN3YzRYOTBuUnh3aU1TN0VtWUVmX3dXWlhWQkNES3FKTE13bExmQklfWFhwUXBuU2N0d2ltVVhmMDdyZUotXzlJaU16U2lQWGFqSWlnVEJESUk1NElaby0wd09yY3l4YXVFUElaa2NkVmEzUlhaUQ",
-    "https://bloodyelbow.com/?p=326516"
+    "https://bloodyelbow.com/?p=326516",
+    "CBMikwFBVV95cUxOa2tqX0RTeU4wMlY0NWhBOVo1QkVWbWlRQl9ZVGdzRWRzSFRQUnk1VERIOFpCVDBBV0pQeXZSMnZoc3RGMUtsNVB6SXloZnNtSlN4UkhPejlBaXRtTG1JeldIelNBd0lMMDhKeTd0RVJ0SndwVUdxQlZOR3ZTQzRDcVJyMkE3LUttcU9ZSllSNEl5cmM"
   ],
   "daily": {
     "d": "2026-08-14",
-    "ai": 4,
+    "ai": 5,
     "staged": 0
   }
 }
