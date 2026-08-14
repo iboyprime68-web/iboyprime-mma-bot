@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Our #UFC330 official weigh-in stream is LIVE. Come see the fighters step on the scale. https://www.youtube.com/watch?v=I0SsQdMoC-U",
-      "ts": "2026-08-14T12:49:40+00:00"
-    },
-    {
-      "t": "#UFC330 weigh-in results: Rafael Tobias (204) https://www.mmafighting.com/ufc/504726/ufc-330-weigh-in-video-makhachev-vs-machado-garry",
-      "ts": "2026-08-14T13:15:49+00:00"
-    },
-    {
       "t": "#UFC330 weigh-in results: Mackenzie Dern (115) That’s one half official for Saturday’s strawweight championship co-main event https://www.mmafighting…",
       "ts": "2026-08-14T13:18:54+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC 330 weigh-ins: Title fighters, full card hit marks in Philly",
       "ts": "2026-08-14T15:14:00+00:00"
+    },
+    {
+      "t": "Islam Makhachev aims for UFC record 17th straight win in title defense",
+      "ts": "2026-08-14T15:47:00+00:00"
+    },
+    {
+      "t": "Khabib scolds Islam Makhachev for telling Ian Machado Garry to 'shut up'",
+      "ts": "2026-08-14T16:10:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "No. 1 pound-for-pound Islam Makhachev is first to the scale at UFC330 official weigh-ins and hits his mark as he goes for history. 🏆",
-      "url": "https://nitter.net/MMAJunkie/status/2088250671120211980#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-14T13:05:32+00:00"
-    },
-    {
-      "title": "Dustin Stoltzfus weighs in at 185 lbs ahead of UFC330 [ LIVE SAT AUG 15 9pmET on @paramountplus ]",
-      "url": "https://nitter.net/ufc/status/2088250797163188580#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-14T13:06:02+00:00"
-    },
     {
       "title": "Esteban Ribovics ➡️ 156 lbs [ UFC330 LIVE SAT AUG 15 9pmET on @paramountplus ]",
       "url": "https://nitter.net/ufc/status/2088251576771117464#m",
@@ -2105,6 +2091,20 @@
       "source": "MMA Junkie",
       "cat": "ufc",
       "ts": "2026-08-14T15:14:00+00:00"
+    },
+    {
+      "title": "Islam Makhachev aims for UFC record 17th straight win in title defense",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQUThsN2lEOFhQUGhFb0w3SHQ1ME9MWml0Mzhhd3FwbktuaEw4OE5WeHozYWs5NkxOYnA2OWo4MUdWcWRwU3Y0Ri1YNGoyZTVxTUg5OWdJaHZzVXFkOENjWnA2MGRNaS1ROHVQX3d3X2pQblVwNHhrbFFocjRZUG1aZzNkSm5QOW9EYVFTRTJ4YmdrOFVmaVBzUEZLLVlZQ1lZNVAyWjZ0MWp6clUyUnduZnRWcU5Tcm5mRy1HMVEtYWt1MFcxWlA5NEJ6SUstbXVkYkVPZ1hua1NjQXhRR0dQTWxLc2cxMV9kekk0VG1yQ1lMd0k?oc=5",
+      "source": "Grand Haven Tribune",
+      "cat": "ufc",
+      "ts": "2026-08-14T15:47:00+00:00"
+    },
+    {
+      "title": "Khabib scolds Islam Makhachev for telling Ian Machado Garry to 'shut up'",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQNE9nUVNwaEQ2Sm5WVl9pZzcwVG1yUV9hTFEzRnRFdFhRS1F6c2hxMU5xUktJYzFkZ3lrUHh1eHhXY0RvY3JZNzR4TW15Q0RJenhfNGQtbkVnN3ppVFpnS2Q3aWlHUllnazFFWUlDcEt2aW9VdF94OEt3QXdQcWNIbDdFMk1ZYXhoQkFTUjN3OHMxMTFFelJBS19Ha3pOZXFrM2QzQmlzRjFXbzF6TmF6Rkk3UVR0bUFXT2ZpTzlzZFdES1c4TUV1VnlLWHlhbldaWTBwLXgwQ2xRYnJxeWdtNktKX1NMb0s4aHk0eHFoVUZuem8?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-14T16:10:00+00:00"
     }
   ],
   "digest_last": "2026-08-13 21:30",
@@ -2932,7 +2932,9 @@
     "CBMiiAJBVV95cUxOODM1MjZvWlNfX20tanpMVkFuOXZQOWNkMDB2Z0d0aWlfU0MzQXNWN1F2MlM3bEc3Rm52bnhyVkpNTmV6Rm1MUlRBZHdhdEUtSTcyNDY4QUhDSXR2VTZsRFdwQWZ4eHVCVmU3S0VHM1BQR1kwNnZOTXltMjA2aDcxbVVEX2R5WUYzZVNTSjNrRzc3bXhxa2o0ZnZhNmdIVHNqYVpqRlFJWHBjbjZyeHR2emxGU1lYbXRJRWNJdzlydzlaWE9WZE5MMmt1QzdBcUMtbFF0Yk15a2w4c2dlakpVd0x1R3ZsSEt1dU1PYkdSX05YX3RzSU9HZ2F5MXl4VUZ6QUtZSjk3em4",
     "CBMic0FVX3lxTE5HR2hoM3cwaVhiUFVDUnhBSDZ6RFVsLTYzZnlpZFk3bHNkY09kTEhfNHlXSmR3c1Y2UXUzZzVzMmJwbmQ5T0hITHFrTHVnOEJDRkRZVTItdXNtMmpIZTlIQ3lTczJ4T1NRUGxGeXpmYk1Kbnc",
     "2088294585453748446",
-    "2088297093093872024"
+    "2088297093093872024",
+    "CBMi8wFBVV95cUxQUThsN2lEOFhQUGhFb0w3SHQ1ME9MWml0Mzhhd3FwbktuaEw4OE5WeHozYWs5NkxOYnA2OWo4MUdWcWRwU3Y0Ri1YNGoyZTVxTUg5OWdJaHZzVXFkOENjWnA2MGRNaS1ROHVQX3d3X2pQblVwNHhrbFFocjRZUG1aZzNkSm5QOW9EYVFTRTJ4YmdrOFVmaVBzUEZLLVlZQ1lZNVAyWjZ0MWp6clUyUnduZnRWcU5Tcm5mRy1HMVEtYWt1MFcxWlA5NEJ6SUstbXVkYkVPZ1hua1NjQXhRR0dQTWxLc2cxMV9kekk0VG1yQ1lMd0k",
+    "CBMi8wFBVV95cUxQNE9nUVNwaEQ2Sm5WVl9pZzcwVG1yUV9hTFEzRnRFdFhRS1F6c2hxMU5xUktJYzFkZ3lrUHh1eHhXY0RvY3JZNzR4TW15Q0RJenhfNGQtbkVnN3ppVFpnS2Q3aWlHUllnazFFWUlDcEt2aW9VdF94OEt3QXdQcWNIbDdFMk1ZYXhoQkFTUjN3OHMxMTFFelJBS19Ha3pOZXFrM2QzQmlzRjFXbzF6TmF6Rkk3UVR0bUFXT2ZpTzlzZFdES1c4TUV1VnlLWHlhbldaWTBwLXgwQ2xRYnJxeWdtNktKX1NMb0s4aHk0eHFoVUZuem8"
   ],
   "daily": {
     "d": "2026-08-14",
