@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=500816",
     "https://www.mmafighting.com/?p=500820",
     "https://www.mmafighting.com/?p=500829",
     "https://www.mmafighting.com/?p=500889",
@@ -896,6 +895,7 @@
     "https://www.mmamania.com/?p=464344",
     "https://www.mmamania.com/?p=464353",
     "https://www.mmamania.com/?p=464360",
+    "https://www.mmamania.com/?p=464388",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Islam Makhachev shuts down brown-nosing Ian Garry at UFC 330 presser: ‘Just shut up’",
-      "ts": "2026-08-13T23:42:27+00:00"
-    },
     {
       "t": "Texans' DeMeco Ryans praises rookie Marlin Klein after catch vs Chargers in his NFL debut",
       "ts": "2026-08-14T04:16:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "'Super store' with long queues and die-hard fans opening in Metquarter",
       "ts": "2026-08-14T07:00:00+00:00"
+    },
+    {
+      "t": "Mystic Mac? Conor McGregor predicts Ian Garry dethrones Islam Makhachev via head kick KO",
+      "ts": "2026-08-14T02:39:57+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Anything but Fighting: Vicente Luque loves racing cars and baking sourdough bread",
-      "url": "https://sports.yahoo.com/articles/anything-fighting-vicente-luque-loves-140000935.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-13T14:00:00+00:00"
-    },
     {
       "title": "Gerald Meerschaert moves to 205, faces Julius Walker at Oct. 10 UFC event",
       "url": "https://sports.yahoo.com/articles/gerald-meerschaert-moves-205-faces-143000658.html",
@@ -2105,6 +2098,13 @@
       "source": "Liverpool Echo",
       "cat": "ufc",
       "ts": "2026-08-14T07:00:00+00:00"
+    },
+    {
+      "title": "Mystic Mac? Conor McGregor predicts Ian Garry dethrones Islam Makhachev via head kick KO",
+      "url": "https://www.mmamania.com/ufc-330-makhachev-vs-machado-garry-live-stream-start-time-fight-card/464388/mystic-mac-conor-mcgregor-predicts-ian-garry-dethrones-islam-makhachev-via-head-kick-ko",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-14T02:39:57+00:00"
     }
   ],
   "digest_last": "2026-08-13 21:30",
@@ -2707,7 +2707,8 @@
     "CBMilwJBVV95cUxPLXlXOUtOaEd0T0g1bG1mVUVfRXdleWl1NURFdUNLYlR6ZFNLUjBjcE5PRjNubVNuN2hzSGNBM19kNGFUMk5qcHZtTVZZN0xydk1CYWJGcWVDUEpRdXB2Qnh0Z1hQVHpYQzZZZ2t1S2wweFNFMXRFV19iSTFmXzdOVXVjMFIzZEZyR1FsU2ZHeE9HRjNkRXQ3cE5IU0hqUXlXbDI2NFlmN3NNZnhxWXBrV3RraWZ6ZVdJTnZZTzJ5Ym1Ua3hlYkE2Y21ackR0eUlsN1dTWTAyUmo5WHkzbnNvUVYwZVdvc0M2UVNSb043d1JnVENRd3JuamxSVHRmVV9XazdxQ0N1ZVBla01aWTY2U2FyYWxWRDg",
     "CBMiiAFBVV95cUxQcGRVcWFCeFBsbmZRaURma1BRWGczUGs2b1BObGI2TVJvck9DcFhFbGppR3VRRDFpNXNZQWpmaGxhUk9jcEVmS1hieWNvUTZlQ1JaaWtXSzRndU02dmZyT3BTS3k2cTNxSUVrb2E5WklKeEpmTU9RQ0NDQUNEckdrRkRXUTVuakpj",
     "CBMilwFBVV95cUxPb2xwYVQ2bEVOblRmc05wa1lqWjNYM0p6cXk2eDF0a2NZWm9HRHo0YnJSM2tGcDV3QjJxZXE3ZVFWRUNPM2E2MHVVQlpteDkzVEVLemNhQ3hFR21UdkJPLUNnYjZodHdvWFR5dnhGcEQ0MVdsUlJ0WXdHcWducTZwMGNRV0Q5ejNsTmRHT0xrWk5KT2tsVUVJ",
-    "CBMilgFBVV95cUxQYkxobG9ld1JUWHoyOHhEcHJLN3VNYWxZRmNSOTZBaDA4QzVrSHpUUTItc1dZLTNoV1BFdkZveU1JMW1tT0wza1BIZzJXY3h3TFJ1VXhwd3czSzdCUUdLMmpxSExzSG1uLWxLSk84N1RTLTVuVEYzcDcyWFA1T3lUZmpVcEZTS3JTOEQ3dFZ1WllDZ0FTMXfSAZsBQVVfeXFMUFVhc2VCSWhNUktMS2NSZDBNMmU4bFA1MlJ6WS1MUkY4YU5ZdDRMTld0bXV2b1VZTGZYUDUxdmJZSGdkT3Z3RzFkbEN1RGwxdC1ZS1B3MlB5ZEhNcDJUak50blZJMXd2dXB4VUVJOG43ZW5mRmRqakhHZG5tZURVbnRQb0hteXBEb0lSNDFkZDRzMXBHUjBfYWluOGM"
+    "CBMilgFBVV95cUxQYkxobG9ld1JUWHoyOHhEcHJLN3VNYWxZRmNSOTZBaDA4QzVrSHpUUTItc1dZLTNoV1BFdkZveU1JMW1tT0wza1BIZzJXY3h3TFJ1VXhwd3czSzdCUUdLMmpxSExzSG1uLWxLSk84N1RTLTVuVEYzcDcyWFA1T3lUZmpVcEZTS3JTOEQ3dFZ1WllDZ0FTMXfSAZsBQVVfeXFMUFVhc2VCSWhNUktMS2NSZDBNMmU4bFA1MlJ6WS1MUkY4YU5ZdDRMTld0bXV2b1VZTGZYUDUxdmJZSGdkT3Z3RzFkbEN1RGwxdC1ZS1B3MlB5ZEhNcDJUak50blZJMXd2dXB4VUVJOG43ZW5mRmRqakhHZG5tZURVbnRQb0hteXBEb0lSNDFkZDRzMXBHUjBfYWluOGM",
+    "https://www.mmamania.com/?p=464388"
   ],
   "daily": {
     "d": "2026-08-14",
