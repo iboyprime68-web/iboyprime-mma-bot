@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Strikers Delight 😍 Edson Barboza vs Esteban Ribovics [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
-      "ts": "2026-08-14T22:26:00+00:00"
-    },
-    {
-      "t": "This one might get Gritty 👀 Mansur Abdul-Malik vs Dustin Stoltzfus [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
-      "ts": "2026-08-14T22:27:08+00:00"
-    },
-    {
       "t": "While Mauricio Ruffy says he's looking to KNOCK OUT Arman Tsarukyan at #UFC331, Tsarukyan sends him a warning. 'Don't forget how to tap during the tr…",
       "ts": "2026-08-14T22:27:20+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Longtime teammate Daniel Cormier weighs in on Khabib vs. Islam hypothetical: Khabib ‘had something different’",
       "ts": "2026-08-15T02:30:47+00:00"
+    },
+    {
+      "t": "UFC 330 Embedded, Episode 6: ‘It’s fight time’",
+      "ts": "2026-08-15T07:20:26+00:00"
+    },
+    {
+      "t": "WWE: UFC Planning Campus Expansion in Las Vegas & WWE To Be Included, The Rock Parting Ways With His Partnership With Under Armour, Netflix Censors Out Royce Keys’ Bloody Mouth From Jacob Fatu Attack From 8/3 WWE RAW Show VOD Version",
+      "ts": "2026-08-15T07:23:21+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev aims for UFC record 17th straight win in title defense",
-      "url": "https://sports.yahoo.com/articles/islam-makhachev-aims-ufc-record-144757193.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-14T14:47:57+00:00"
-    },
-    {
-      "title": "UFC 330 weigh-in video: Makhachev vs. Machado Garry",
-      "url": "https://sports.yahoo.com/articles/ufc-330-weigh-video-makhachev-123000783.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-14T14:48:49+00:00"
-    },
     {
       "title": "UFC 330 weigh-in results: 2 title fights set",
       "url": "https://sports.yahoo.com/articles/ufc-330-weigh-results-2-145215322.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-15T02:30:47+00:00"
+    },
+    {
+      "title": "UFC 330 Embedded, Episode 6: ‘It’s fight time’",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NdFUzRTFOdXJPQmp5SWRQWFZwb3Izd0tSSzVRM1pNSHJZZlJNdFNDclg4Zk4ydkkzZUFPcjdTNlFWNWZaZzU3RWVSOFdDcDg5bWw5Ymk3aEtwQWNRZTRQN0ZLSEFBMDZOS0FqUVBXUXZ6U3kwbjIwekJYTU8?oc=5",
+      "source": "mmaweekly.com",
+      "cat": "ufc",
+      "ts": "2026-08-15T07:20:26+00:00"
+    },
+    {
+      "title": "WWE: UFC Planning Campus Expansion in Las Vegas & WWE To Be Included, The Rock Parting Ways With His Partnership With Under Armour, Netflix Censors Out Royce Keys’ Bloody Mouth From Jacob Fatu Attack From 8/3 WWE RAW Show VOD Version",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOTmY2UGs3QmVkcWxXVzZvOE80NFNGX2ptQlBVUlpDdkoyOU03eW1sb2pBbU81SnE1YmFqYnpxQ1B6THJtUXNiUV9XX3hVcTVraDJqZktZMFBObnYyXzY4NDl6RFZ6WHJFOXdWcmoyd0kwMjJhamJWcm9lZ2txQXc0X0tkazQ1ODlab0dZSlZYeGVuYUFsZFJmU0xDQkp0VXlPbE9oN2x2Nm81dERFQUpiX1BCdW1lenlzYk9YUFR6SFBXdS1YR0U2b1lGeWlmVEZjRTUwaF9uMHZVNVkxbFNNdngxZTBIZFhlOEl2cnd4aTFsUE0xR29YVWtiZGZVeGxrTmlCRm5NZzJOYUFDQ2tCbEk0TnNHMjJYU25QM0hyYkhhdjcwckhV?oc=5",
+      "source": "TPWW",
+      "cat": "ufc",
+      "ts": "2026-08-15T07:23:21+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2087725438298664991",
-    "2087735903980781608",
     "2087856942693666863",
     "2087871795844219270",
     "2087873379185414168",
@@ -3312,7 +3310,9 @@
     "CBMidEFVX3lxTE1QdEtSeXBvdG10WTVUTjFWRXFfLVU2OGJZVHFqbTU3Q21zQjVzTlhBWEVXX2ZOWUYwNENfWlRFR2NfNEJRVW5LYkt1RXlwUklJREI0eF8yU2hUOEVKdGY2RVo2M1pualdwVUNGU296X3pOZzh5",
     "CBMilAFBVV95cUxQWldDZjU5R09LYmJEd01NX1diRXZ1em9SM1dzT2pvMGhtQmstb0ZtQnpjZGZXNXVFVDZGcjVrcGNQaktfbE05NVFkak91MVMyVnByVnhRbzNNa2JrS2FZVFN5QnNCVDB5TEJxdWtUMEFoaVFYYncwbHk3MDJzY0Z3MFl0aE1IYlQ5VFpjQWRlTHlIOWgz",
     "CBMiiwFBVV95cUxOZ3lUcFRFSU15NWRWMnROWTBrRHA3RUhfTE5CcTJ6aVgwNkVMLUhYYnUyZWR1QWlXZmNtTkJYclh0SUFSbl82WVhTcGFYT2JVSGszOUltdlJCQnBrQ1JmNXM4RGNxbXZkd2M3MmxtWWVHeFNKa1VrV0tzblJfTFB3YUVMTEc4akdORElZ0gGQAUFVX3lxTFBhSV80Y3VrdmFjR3o1aUJ1N0c3cDJIXzNqRldJcmF0U3p5azhyZGpuTkRWdmNhTldUUlFJVjhCY1NDNlVqYWVVX2FodGVVWmRQQ2RPLUNVUWEyUmJZNGNjQXFQMndDZUZyZXlBRjlFeFUzdkd2YkdzaTlnMFVmNkFia01VVGdqQjNDLUpCcHRJWQ",
-    "https://www.mmamania.com/?p=464706"
+    "https://www.mmamania.com/?p=464706",
+    "CBMifEFVX3lxTE9NdFUzRTFOdXJPQmp5SWRQWFZwb3Izd0tSSzVRM1pNSHJZZlJNdFNDclg4Zk4ydkkzZUFPcjdTNlFWNWZaZzU3RWVSOFdDcDg5bWw5Ymk3aEtwQWNRZTRQN0ZLSEFBMDZOS0FqUVBXUXZ6U3kwbjIwekJYTU8",
+    "CBMipwJBVV95cUxOTmY2UGs3QmVkcWxXVzZvOE80NFNGX2ptQlBVUlpDdkoyOU03eW1sb2pBbU81SnE1YmFqYnpxQ1B6THJtUXNiUV9XX3hVcTVraDJqZktZMFBObnYyXzY4NDl6RFZ6WHJFOXdWcmoyd0kwMjJhamJWcm9lZ2txQXc0X0tkazQ1ODlab0dZSlZYeGVuYUFsZFJmU0xDQkp0VXlPbE9oN2x2Nm81dERFQUpiX1BCdW1lenlzYk9YUFR6SFBXdS1YR0U2b1lGeWlmVEZjRTUwaF9uMHZVNVkxbFNNdngxZTBIZFhlOEl2cnd4aTFsUE0xR29YVWtiZGZVeGxrTmlCRm5NZzJOYUFDQ2tCbEk0TnNHMjJYU25QM0hyYkhhdjcwckhV"
   ],
   "daily": {
     "d": "2026-08-15",
