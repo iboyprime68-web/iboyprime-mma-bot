@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Brendan Schaub: Islam Makhachev far from being GOAT, 'resume is weak as f*ck'",
-      "ts": "2026-08-14T22:50:31+00:00"
-    },
-    {
-      "t": "UFC 330 Staredowns! Who Won The Final Faceoff?",
-      "ts": "2026-08-14T22:55:02+00:00"
-    },
-    {
       "t": "Kamaru Usman references history with Ian Machado Garry when arguing how he can beat Islam Makhachev",
       "ts": "2026-08-14T23:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Athletics' Jeff McNeil: Homers in four-hit game",
       "ts": "2026-08-15T05:27:18+00:00"
+    },
+    {
+      "t": "UFC Planning Campus Expansion In Las Vegas, WWE To Be Included",
+      "ts": "2026-08-15T05:16:49+00:00"
+    },
+    {
+      "t": "\"Be nice, brother\" - Khabib Nurmagomedov calls out Islam Makhachev for slamming Ian Machado Garry",
+      "ts": "2026-08-15T05:30:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Belal Muhammad could see Islam Makhachev submitting Ian Machado Garry late",
-      "url": "https://sports.yahoo.com/articles/belal-muhammad-could-see-islam-012019463.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-15T01:20:19+00:00"
-    },
-    {
-      "title": "UFC Vegas 120 official weigh-in highlights: Full card makes weight",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTF9UUXkza1hNWnpBTG5BSW10OS1Yei11ZWZPdUM2MjNvaTRqMjNvZGZHb0lTV1N2cjlBUjItY3RPcWpyRnlOUWp6N2VKdjNEYzU1UnJmTG9XRG05SE5PVF91bzNSeXdxQlRFYlBfXzM2TzF0RnNTU05mRFBOSmlNMkdsLWdiV0ZKQUNDNEJxRDR5UQ?oc=5",
-      "source": "sports.yahoo.com",
-      "cat": "ufc",
-      "ts": "2026-08-15T04:55:14+00:00"
-    },
     {
       "title": "Joshua Van and Alexandre Pantoja separated after unexpectedly spicy UFC331 press conference 🌶️",
       "url": "https://nitter.net/MMAJunkie/status/2088379574136545788#m",
@@ -2105,6 +2091,20 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-15T05:27:18+00:00"
+    },
+    {
+      "title": "UFC Planning Campus Expansion In Las Vegas, WWE To Be Included",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOS0cwQ1JXQVJkUjNPc3ZOc1J2V1EtX0prb0l6Mmk1cXp1THdpd1dEcnFiTEFXcDZLWHVEejJkVXZTTEZ2cnZOS1FsZ1Bod1o3Wm1CTHU0d3prZTZpdXE2VjZFbFlJaVdZUzJIajUwSmlST05xbFYzQjMwVkxPd2RSZXpSdmxoQjhJdVBkd1lsc0N1MzVFOWJMZ20yMWIzQ2I3cVpvRUFMZFh5SUZBdlJqNU9ZNFM?oc=5",
+      "source": "Fightful",
+      "cat": "ufc",
+      "ts": "2026-08-15T05:16:49+00:00"
+    },
+    {
+      "title": "\"Be nice, brother\" - Khabib Nurmagomedov calls out Islam Makhachev for slamming Ian Machado Garry",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcDlhUEFGUHdQQ1Z2S0d2d2w0bmwzS21FaHg3SnVGdlBpT21md1VYc1paUkUyd1NSRm5sTmRFUVg0dDFfSmkwcW1abjdtc1dvZnZtOHF0YWtjam9ULXlwTlVGRk9TYXFvdURTQzZQNWduWmF3cGVGRUhLTHd6Tnc1UnFrUEUxblY2c2gyckNwa0Jrb1dqeS1PNmdzMFE3M3M3MFpNanRHSGx5VHZUNlBJUy16TnB2b240bVlqZkZR?oc=5",
+      "source": "Sportskeeda",
+      "cat": "ufc",
+      "ts": "2026-08-15T05:30:00+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "02b56bff-fd9a-30ce-b9fc-eb561f57aceb",
-    "CBMivgFBVV95cUxQamJlaHFYQmYwSUhVRFQ4blRXdHpzNzhaazZWZFlXdnpxc05xOGVWZW5hMHBROHpRaGJDdkVCX2gyUHhsclNucHlZVkduNHpMT3VrU0daU0NCLXAzMERIYmVET25IMXVNT2xLV2V5Um5JT2Z3SjVSbDR1SDVYaGZLZEJ4b3Nwd3BwYmZWQ2c1bW56V2lkVFIzSm9MMkdpUGtyelpBRlBLMkdwRGR5UnFneFdGaFRKcktVVjJ6NFV3",
     "CBMickFVX3lxTE9ObGN6TU41ZTA0UVpQdnNibjlzOUR0azR0S0t3MHpfbW9kLUt2alUxeUh4RzlvcVpMMnpLNTdVbVpDeHlwWWxDR3QzX0RmV0liVmtBWDllOHRTXzZCT1ExcWdLdjBVUzNHSHdlUE9pSFBOQQ",
     "CBMijwFBVV95cUxOcC10LXZFUmJwR25SWlRJODB0cFRxLVVNUnB1SnNla3lNeXVNemxQY0RFalN0MEFuMG0ydDF4dG96UnlxVGYwRXdicFZuM3JNM0pnbGtfdTZxa21zeERWanE2TGFyVDdCSi14YWZ1WGRfRXN2d3o5ZmZiRjNQaEllbktBMDNCaHJSTE9TbDRsWQ",
     "2087624115372843034",
@@ -3312,7 +3310,9 @@
     "CBMijgFBVV95cUxPaV9rRkpITzMtMlRJTE5XVjZNZDIxSDRoM0tRMEJtaDhsNE9ORVJ2dDJ5VXV1VkhBb2FOaWkyV0ZkejVXbFIxTktxeUJQUC1RRkJDdFFRMElZU2lDbU53a1FfOWd1bTFmNjFUZU9TRllQM3MtMnVPYjJZTlRFWXVTcUwzTm4tMjRlYXROOFRR",
     "CBMimAFBVV95cUxQOVFOcWNDTThGZG1FZzM1R3JXcmRiUDdUNnhCOXBnT2J3Yy1MaF9fLTZPRC1zWllVRnRJaEw2ajdFSnZMa3NCc3ZzanE3aW94dEJUU1JnV1h0UVhFaDV0bHpZbnJJNnk0ZUNMM2JSV0FNcWI4MFk5dng2SjBCeW1qZzFTd2FjS2VCTko1SmkyVkdCbF9jd3Mwdw",
     "CBMipgFBVV95cUxQMkhMUUc4djlsckc3OEdDaTByQldXeDJ6NUlLMjVhXzRQNzk4NTJ2WmdBaDQ1VFFJVk5zeEtNdENIbElPa2QzZ2xxWkVqRHhPM0t3MUJOYUN3TmFKbFRLeksxX0dXM1BaYXV6Qlp3UlI5QkgzaEFSZlFUWjk1QXpHUGxBUEhnVXVwcEFGMHk4NmtTd3l1a203QnVwdUZhekRtdnlHdmZR",
-    "CBMimgFBVV95cUxQU1JFWTRHR19LeVJmMXBDZWc1c3BKNll3bnJPQlkxdjRoMjVkS3NoUXVxTEpiQkU5dGpBMkw0ZFZrRE9JVGptN1M1UWVVX2tPdTJtRVVzajBkWmt2Q0tMMDdiejJvVy1VMjBaTUpPWUZ3Yk1uZmlrVi1OcUhRT09FWTBuSHRLM2xjRDVZUG51S0hQem5mODd5N19R"
+    "CBMimgFBVV95cUxQU1JFWTRHR19LeVJmMXBDZWc1c3BKNll3bnJPQlkxdjRoMjVkS3NoUXVxTEpiQkU5dGpBMkw0ZFZrRE9JVGptN1M1UWVVX2tPdTJtRVVzajBkWmt2Q0tMMDdiejJvVy1VMjBaTUpPWUZ3Yk1uZmlrVi1OcUhRT09FWTBuSHRLM2xjRDVZUG51S0hQem5mODd5N19R",
+    "CBMitAFBVV95cUxOS0cwQ1JXQVJkUjNPc3ZOc1J2V1EtX0prb0l6Mmk1cXp1THdpd1dEcnFiTEFXcDZLWHVEejJkVXZTTEZ2cnZOS1FsZ1Bod1o3Wm1CTHU0d3prZTZpdXE2VjZFbFlJaVdZUzJIajUwSmlST05xbFYzQjMwVkxPd2RSZXpSdmxoQjhJdVBkd1lsc0N1MzVFOWJMZ20yMWIzQ2I3cVpvRUFMZFh5SUZBdlJqNU9ZNFM",
+    "CBMivgFBVV95cUxNcDlhUEFGUHdQQ1Z2S0d2d2w0bmwzS21FaHg3SnVGdlBpT21md1VYc1paUkUyd1NSRm5sTmRFUVg0dDFfSmkwcW1abjdtc1dvZnZtOHF0YWtjam9ULXlwTlVGRk9TYXFvdURTQzZQNWduWmF3cGVGRUhLTHd6Tnc1UnFrUEUxblY2c2gyckNwa0Jrb1dqeS1PNmdzMFE3M3M3MFpNanRHSGx5VHZUNlBJUy16TnB2b240bVlqZkZR"
   ],
   "daily": {
     "d": "2026-08-15",
