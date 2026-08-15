@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev and Ian Machado Garry face off one last time before #UFC330 in Philadelphia 🇷🇺 x 🇮🇪 Who wins and how??",
-      "ts": "2026-08-14T22:47:42+00:00"
-    },
-    {
       "t": "Islam Makhachev pointed his finger as Ian Machado Garry got the final pre-fight talk out of his system #UFC330 🤬",
       "ts": "2026-08-14T22:50:21+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Khabib Nurmagomedov talks Islam Makhachev's potential lightweight return, welterweight move before UFC 330",
       "ts": "2026-08-15T17:01:33+00:00"
+    },
+    {
+      "t": "Darren Till, Tony Bellew Discuss Tommy Fury, Paddy Pimblett, Jake Paul and UFC Return",
+      "ts": "2026-08-15T17:05:35+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White forced to step in as brawl almost breaks out at the UFC 331 launch press conference",
-      "url": "https://bloodyelbow.com/2026/08/14/dana-white-forced-to-step-in-as-brawl-almost-breaks-out-at-the-ufc-331-launch-press-conference/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-14T21:37:22+00:00"
-    },
     {
       "title": "Tom Aspinall Predicts UFC 330 Main Event",
       "url": "https://sports.yahoo.com/articles/tom-aspinall-predicts-ufc-330-221351663.html",
@@ -2105,6 +2098,13 @@
       "source": "mmasucka.com",
       "cat": "ufc",
       "ts": "2026-08-15T17:01:33+00:00"
+    },
+    {
+      "title": "Darren Till, Tony Bellew Discuss Tommy Fury, Paddy Pimblett, Jake Paul and UFC Return",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMzEwa0NSSzFlVGFVNDlDS0JIMkotSTJOdHJYbWxTSzFUQlVIUVRkcUh3a3UwLUlUM1gxcEF6WVI3YlJYMXd2Nkx5MGZfQnNEUkJZdGlkNDlqWXhyS0lDQmZXVDZpZFY5dGhvWTF2SGVRdWFCd2hteFEyZEk3YU9xalR0VEJzelZTNFhwdDQxaVhsUWNYdWpv?oc=5",
+      "source": "FightBook MMA",
+      "cat": "ufc",
+      "ts": "2026-08-15T17:05:35+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=326447",
     "https://www.mmafighting.com/?p=504532",
     "2087976884957286664",
     "CBMiiAFBVV95cUxNNno0N0tKM1BWVEVTWUMyQzJ5bkR5WVBsellicF9wRTlwWkU2YU1HdENkQm1JaGtoRFpDVkdTaEpVbHdnaFMyYkptZlozaDd1TW9DaGNZeXNUR2pzdlhqNUhBRjdQWnhOWEFCVjM4UDhvcGppRjlCTDRhYlloZEl6Nklnd1hHSDVS",
@@ -3312,7 +3311,8 @@
     "CBMingFBVV95cUxNUnMxaU1leFpaOWlqV2lwRkRpRjA4dkVUSjQ3NnNSVXR3ME13Q3FDRGxVU2RYMElzMDZhcTFVSHIyWDlFX0VFZzVuS0hKV1M4ME1EbF9aRXAxNGRmdmNTRGg3ZTB1WTlaUlNDSkxONEh0ZzFGNUEwNU1JbWtvSGpaT1FucFNBX1BGSkdKY1I1eFZVcWc3akZob09WRzhmQQ",
     "CBMisAFBVV95cUxQZktqQnZfbWNsN1M0UDEyUE55Y2otOXRYNHQ4YmJ1cmRMUFpONnhFdW1Vc2RUbU96TTFwRVB4a0VLOGx0Y2tOd0IxTVZEQnBxMkdSYVUxdXdPZjVtSTJaUFhwLWhDb1M2RU9jR0sta3pIdy1GcmFBc3d4TDhTYWZQR2J3VEpXbnEtcGdnOGdBUHZKUHNBaElhUGZDOTAzU25ROFVNZGY0ZjlVSXdTNmJPWQ",
     "6f309762-42e3-3fec-ada6-955dd5dd5de9",
-    "CBMi7gFBVV95cUxOTURGaWNnU0c0UlBHSWpEQXZVQktlWnN5alR4ZklzanBmdVdHSlRCQXdWZE1jM0tvSER3OXc4T1lwdmIwRmk0V0VZUlJ4Z3dGZkVTQVYySXBaY0MxZk1WYVhPb25udVNOd2FPbzFpVkVuYlFRZVMzcEtmQkpaUkRUck9GRG9NUkRuM3RROVR4TUx4MThCbHlGVHlyY2VhZHVSbnhyMmpuQmRlTUZjeHJlX2xJVmJSZTBHOGw3X1ZyOFJfMzFFaE5VRzhLQXUydk1aajlVVU13UkdVeXVQVlJTVlBycGxCRWNtanVuWEtR0gGCAkFVX3lxTE5WbS1scldqSTVLenlJQ19mYmJIVFpYRjlGdlAyT1ZuM2dHVXhQNU50dWVYRHVfTVlQS2hUU2xZeFJycktGM01CalhsdGdrdllLTkRyQmt4cWhOaDhBeVJ2Z3F1UHVGSHk5enhTMnB5R3UxU0VVUS1VVDc3Y0pnNW9Ha3pnOGpBSHhSYTFLX18xRTNRb1lYVWhfYlNGRGJPNlBySmt0RHduWkVpb2xXU0FSS2hNVlVUSzNLYW1sUDR0Y1Nydm9CSWUtSmd5RDVYa1JFZHROQzhKVDkxU19IYWZES0pyRWxvbndSSWkyb0dUSV9ldEhGRkRxSmZyY29mRVZUZw"
+    "CBMi7gFBVV95cUxOTURGaWNnU0c0UlBHSWpEQXZVQktlWnN5alR4ZklzanBmdVdHSlRCQXdWZE1jM0tvSER3OXc4T1lwdmIwRmk0V0VZUlJ4Z3dGZkVTQVYySXBaY0MxZk1WYVhPb25udVNOd2FPbzFpVkVuYlFRZVMzcEtmQkpaUkRUck9GRG9NUkRuM3RROVR4TUx4MThCbHlGVHlyY2VhZHVSbnhyMmpuQmRlTUZjeHJlX2xJVmJSZTBHOGw3X1ZyOFJfMzFFaE5VRzhLQXUydk1aajlVVU13UkdVeXVQVlJTVlBycGxCRWNtanVuWEtR0gGCAkFVX3lxTE5WbS1scldqSTVLenlJQ19mYmJIVFpYRjlGdlAyT1ZuM2dHVXhQNU50dWVYRHVfTVlQS2hUU2xZeFJycktGM01CalhsdGdrdllLTkRyQmt4cWhOaDhBeVJ2Z3F1UHVGSHk5enhTMnB5R3UxU0VVUS1VVDc3Y0pnNW9Ha3pnOGpBSHhSYTFLX18xRTNRb1lYVWhfYlNGRGJPNlBySmt0RHduWkVpb2xXU0FSS2hNVlVUSzNLYW1sUDR0Y1Nydm9CSWUtSmd5RDVYa1JFZHROQzhKVDkxU19IYWZES0pyRWxvbndSSWkyb0dUSV9ldEhGRkRxSmZyY29mRVZUZw",
+    "CBMilwFBVV95cUxOMzEwa0NSSzFlVGFVNDlDS0JIMkotSTJOdHJYbWxTSzFUQlVIUVRkcUh3a3UwLUlUM1gxcEF6WVI3YlJYMXd2Nkx5MGZfQnNEUkJZdGlkNDlqWXhyS0lDQmZXVDZpZFY5dGhvWTF2SGVRdWFCd2hteFEyZEk3YU9xalR0VEJzelZTNFhwdDQxaVhsUWNYdWpv"
   ],
   "daily": {
     "d": "2026-08-15",
