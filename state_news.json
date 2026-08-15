@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Leo is having the time of his life 😁 [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
-      "ts": "2026-08-14T23:26:59+00:00"
-    },
-    {
-      "t": "Arman Tsarukyan knows a win over Mauricio Ruffy at UFC 331 doesn’t guarantee him a title shot",
-      "ts": "2026-08-14T23:30:00+00:00"
-    },
-    {
       "t": "Ian Machado Garry eyes long title reign as double champs are 'less special now' https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/14/ufc-330-ia…",
       "ts": "2026-08-14T23:45:59+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Polymarket Promo Code WTOP: Trade $10, Get $20 Bonus for MLB, NFL + UFC 330",
       "ts": "2026-08-15T17:47:47+00:00"
+    },
+    {
+      "t": "UFC 330 Results (Live)",
+      "ts": "2026-08-15T17:39:35+00:00"
+    },
+    {
+      "t": "Novig Promo Code WTOP: Claim $25 Bonus for MLB, NFL + UFC 330 Trades",
+      "ts": "2026-08-15T17:52:40+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Tune in NOW to the UFC330 Ceremonial Weigh-Ins 🫡 🔗➡️ https://UFC.ac/3U2lVeE",
-      "url": "https://nitter.net/ufc/status/2088389338321297504#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-14T22:16:33+00:00"
-    },
-    {
-      "title": "Arman Tsarukyan responds to Usman Nurmagomedov calling the ufc lightweight division fighters 'has-beens' as he enters free agency 'We've seen a lot…",
-      "url": "https://nitter.net/MMAFighting/status/2088390106457731396#m",
-      "source": "MMA Fighting on X",
-      "cat": "ufc",
-      "ts": "2026-08-14T22:19:36+00:00"
-    },
     {
       "title": "Strikers Delight 😍 Edson Barboza vs Esteban Ribovics [ UFC330 LIVE SAT AUG 15 9pmET on @ParamountPlus ]",
       "url": "https://nitter.net/ufc/status/2088391716567212199#m",
@@ -2105,6 +2091,20 @@
       "source": "WTOP",
       "cat": "ufc",
       "ts": "2026-08-15T17:47:47+00:00"
+    },
+    {
+      "title": "UFC 330 Results (Live)",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rd1FJTlBLV3hhdVcyd2pKM0Y2dDhsTWFyQjM1VG9Od05aWXJmbTk4QTR4VV9BQlcxX0Q3VTdhcTE0NVpTSEFFelA1ZE9UcEF4ZHdodkFKSUtRd0d5?oc=5",
+      "source": "mmainsight.com",
+      "cat": "ufc",
+      "ts": "2026-08-15T17:39:35+00:00"
+    },
+    {
+      "title": "Novig Promo Code WTOP: Claim $25 Bonus for MLB, NFL + UFC 330 Trades",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcTExeDNseVVFaXZsbkRCeWFUNnpJNm9LRVV2Y0Q1RlVtanJ4d1haMG4yYnpQczA1cjJoMWRUYjFUcmFpVG9ZdjFHMF9OOGdOYnhWVEFlc3ZaYTcwSlNhOHV5a3R0a0xZZWtnUEwtYVd6dDI5RXlFbmdBRUVIV3lWVV9Ndy1EYmpCOFFKODYwLWotRkQwV2VCbDVzbi0?oc=5",
+      "source": "WTOP",
+      "cat": "ufc",
+      "ts": "2026-08-15T17:52:40+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "46a1535c-493d-32d7-bedc-c0ae3821e357",
-    "CBMiggFBVV95cUxQeURKZUhqRWhlVjRZVXc0azhhSnJ0NTUyeG9JSUw2LU1OM0ZLblNleWtJYlUtM1VrV09pZXgyUGJVbENiOHlUSHRwSkVwWlZDRUttM0hEVmtYdnBiWWZ1RzJwNzVndGw1U3VtdTg0dzJ6Wm5nZ2RKVmJfWDZlUkRfdll3",
     "CBMixgFBVV95cUxNME9TdDIzRkRidjBWSFYzanhlR05lOWRDTWN5QmxCbFdhZm1SVVJwNHpMbktWeVNlWXlGdWhUWVYtYVhSWjBDUG5vY1NjVUFxTkEyM1JYVkxiaDJMcXJMVG80eVktbzQ2U0lZVVRkM1Vwd05tVVB5TUdqMmVKWkN1cE1TblJtdGE4TTkzQ3VsVndMT0JfSGtsLWg0RTdUblFDZTBuZHlVTVRKRlREeEpXb3JubnpCeWJSdWFOM182bi1SbzRJSkE",
     "CBMigwFBVV95cUxOd2JGWllIQUJRZ1FLYzhlVU5heElrdlNHa2I0NTF2ZzRNOTlWSU5VWjBkWXBPS3h4eUw3ZC1lT1hneG9kZmxaWDBKdHJMbDJ0ZEZDOVdyQVY0ZXBtNnZMODdoZFRjTlAwVGM4cmZ5aHVKTUlpWXliQUlxRy1uRjdsanU0VQ",
     "CBMilAFBVV95cUxORGhGTWdYYWxoWkxBUXhqWGloenBUa1QyLThHSWctYTJMN3M0VUprMDBhWE5YV3J2WVRLX05VbUxrcDU1YjZmSXMtQkxPa3VqUjdUdFZfY25hMVNjMmpKWEp6OWRMZ21WTVR1TmNsS3RmblVZb3NCRWVkLWNOQVg4RDhPVlJDaDZzOEdON1BuX2FGNV9r",
@@ -3312,7 +3310,9 @@
     "CBMi1wFBVV95cUxQanJTMkwtVDBxR3pmVWFHdGI1MkNtTFJhVXRydlVKdFpXMEhwLVgzQ2lSQjRGUi1TZzljTEk4YjVTN3NhbHlLWUo3WDV6R2h3Qm5PelhVbkJLQzA5ZDhJR2U2eE5FQ0NUMkh5d0psaWNXczVLd3pPLWVtaUFfRl90cV9KcnotSlR1cjNSRWJXbFlOSGVqdnFfNlRqTkw0QUkwVnhJeUc3UmMxdXl5dTdCajRvWmNCbWo0em0zclZXLU05OUh1Z0NRREdHZmhNSFp5VGpOcWVlTdIB3AFBVV95cUxQanpKa3BqY0ZOTmZHdTBBV1hZajdjeG9TTkxtNmZDR2RwcXJTMlRFa1VRLUk5UWFUczk0TDhYTGxOMTFFbWxIM2pmWnE1R2tMWUR0QkNfek9vNUhOQ0FoY0Z5cVcyVTVCbmlVM3pWWjVwWEZFLUJfYndzclJoZUx1M3lUR2lhdlJwcHlQRWRoSWEzVEVPT0tFTFMwM0kyNk9PLW1xeGhzRE5JV1l0TUE3bEFfQ2pwcGtlYWpJeGJRRm9UN1hpaEZfdkM1ajhQN3dZZzh6N1ZyamhyUmhs",
     "CBMijgFBVV95cUxNYkZKeDdsS3kzSWREM08tdnRhT0NWeGpXVWRvVzAzcUdjc3Vud2JiY1FGSE1HSVVrOTdfVkIyNjBhZ0gycllQTjFGNk9COHVkZkFHMDVhTi1iZTRTd3Uyam5CQ29Nd1Q4anVNSTFyaGVOcHY0ZU5zay1RSXBWWmNadlFrQnlsRUVVbkl4RWZn",
     "CBMiqgFBVV95cUxQQlpEcnVYaU9EdjlyVGJ3ODZvVXpac0hIMXhxZ1J0VWVSSXdSYUF3R3dacm1HTlpBRU1LcV9aMG9ZSTM1bjZvaUF5akJ5V3NEUGdQZmZVbWQ3RElXYjZIVlhhWElrTkgyTmllMUFITWxPczZqb0RXUEY3MEp6eHQ2d3c2T1lxRmx0Ymg3LUVGYlNUVHNwZmRlanN4cnhhUS1zQ2Z2SElsTkxwUQ",
-    "CBMiowFBVV95cUxOWW14WmE2dEx2dUNVcS1FRThmbTZZNDdjOF8wZDRWV0pVc0lTUUJ5MUhDalFsbGo5VUpKVGFPQ3JraXlIdHhPajdleUVPeEZFdzhGZmpZQ3pOTkhxSVE3NHZYR0ZuQXcwOXRBeXpfdGJQTkhOTWtZZXViWjY3a0ZsTDRiMmdLMTBjem1OMUtCYkJaOHE3VVlUeXBDMjJpbmZkWU9F"
+    "CBMiowFBVV95cUxOWW14WmE2dEx2dUNVcS1FRThmbTZZNDdjOF8wZDRWV0pVc0lTUUJ5MUhDalFsbGo5VUpKVGFPQ3JraXlIdHhPajdleUVPeEZFdzhGZmpZQ3pOTkhxSVE3NHZYR0ZuQXcwOXRBeXpfdGJQTkhOTWtZZXViWjY3a0ZsTDRiMmdLMTBjem1OMUtCYkJaOHE3VVlUeXBDMjJpbmZkWU9F",
+    "CBMiXEFVX3lxTE9rd1FJTlBLV3hhdVcyd2pKM0Y2dDhsTWFyQjM1VG9Od05aWXJmbTk4QTR4VV9BQlcxX0Q3VTdhcTE0NVpTSEFFelA1ZE9UcEF4ZHdodkFKSUtRd0d5",
+    "CBMinAFBVV95cUxQcTExeDNseVVFaXZsbkRCeWFUNnpJNm9LRVV2Y0Q1RlVtanJ4d1haMG4yYnpQczA1cjJoMWRUYjFUcmFpVG9ZdjFHMF9OOGdOYnhWVEFlc3ZaYTcwSlNhOHV5a3R0a0xZZWtnUEwtYVd6dDI5RXlFbmdBRUVIV3lWVV9Ndy1EYmpCOFFKODYwLWotRkQwV2VCbDVzbi0"
   ],
   "daily": {
     "d": "2026-08-15",
