@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 330 video: Mackenzie Dern vs. Gillian Robertson final faceoff",
-      "ts": "2026-08-14T22:37:34+00:00"
-    },
-    {
       "t": "Pinned: PROVE YOUR TRUTH @MakhachevMMA vs @IanGarryMMA [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
       "ts": "2026-08-14T22:39:46+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Bryan Battle Rips 'Embarrassing' Behavior By Ange Loosa's Family After No Contest | UFC FN 239 Nouvelle Lune (vxooGjYW8u)",
       "ts": "2026-08-15T14:01:30+00:00"
+    },
+    {
+      "t": "UFC 328: Joshua Van post-fight interview",
+      "ts": "2026-08-15T14:02:21+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White intervenes to prevent faceoff shenanigans between Arman Tsarukyan and Mauricio Ruffy https://www.mmafighting.com/ufc/504843/dana-white-int…",
-      "url": "https://nitter.net/MMAFighting/status/2088382784410964230#m",
-      "source": "MMA Fighting on X",
-      "cat": "ufc",
-      "ts": "2026-08-14T21:50:30+00:00"
-    },
     {
       "title": "Tom Aspinall Predicts UFC 330 Main Event",
       "url": "https://sports.yahoo.com/articles/tom-aspinall-predicts-ufc-330-221351663.html",
@@ -2105,6 +2098,13 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-15T14:01:30+00:00"
+    },
+    {
+      "title": "UFC 328: Joshua Van post-fight interview",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMEZDdUFVVnFqU0N5YmxjUnJsN0ZIcTh0WVZxTGdNMjFXYTNkTG5UOFhEeHlMSFhfV1BPU2swbTFPd2dfSFJ0Vm9QbkQtaktRR2pIVkc4QmZNdVdWNVgxVU5oaDFLVGt5WGVnODFaQkZhbTZrcDhNYk9YbFdoRmVieWk0djJqQUxubmo4?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T14:02:21+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2087948890502819971",
     "CBMi1AFBVV95cUxQOUJROWRHX3hFMFRWeWMyd2tUUW9IaHVCT1pGRXJkb2JFWTVVbUNIVE82ejJ1c25yZnNZdks0T2VVQ2t3UDZlbk0zclNUSTRTOUxUUzdIRHE0aGJFU29MSS1rVnFFTEpDSktFc0xhNUk3YkRfWjNiR1JTV3YtLWRnWmgtTFRGOXF2c1RfbzZCejVLbE94Tm01dWxOYi04amc5YjhKRXh2VndCWlR1TGRJUlNQRmU3bTVXWlBfRFltSE40aTYzMTlNMUdfajM5WVNnelF2Tw",
     "CBMi0wFBVV95cUxQRlpQX0djdWJwbnpZRVAwNk4ydzB5aXY1T3pwZ2JOLUF1bFppZG9kR09QakdCeWlDQXRSUjZZVDJzYXRyNFNkNmNUcXk1ek1OMGFfYzkxbHVJZVZZdHVqWWJFZG9CM3RYZ3FlWXRvdDVZSE1nSVlIY04wMTdlSVl0SmNKTlA4aGZPdUJzdWJYcDV5aXY2R2ZHVWdORGFzQTJidFlBclpva3RqRTZEWVYzRjhlNW1vYTJHU3F6MEdvc1dWRXJUT3FkRUVjanFaMWhFOGo0",
     "2087954927016612040",
@@ -3312,7 +3311,8 @@
     "CBMiugFBVV95cUxOc093T0xyQ2tnNkNzN1IwREN1OVBtVzBxcy1Zb2FIZGM1ZllHb09XZE5DVHFZRTk3RFVPRWNnVDdOc3pOSXpXc1g5YUtWdkZRUDNZbWhqdXltWmVzRVdvOFRPZVRiRmdCeTlCLWNGVThpa3NtSjRlbGtMMTZNMXRtNzdxVUZXU2o0N01kWGdfZVVVUWNiY0FfOWtNOEhsOG5FczQ2Q2hYWW4xUm1leUZVVy0wR2xOZTY0LXc",
     "CBMikwFBVV95cUxPYk9VRGdQVkVOaW5xaFRtNXEwRHdDa0stVVpVam5RZzBCYjNtTVVMTHJURUZUNTNzeWJkVDNGRlNpWmdYWTd6UF9TVGhlOEdJUzJKRUxFZUd3YlQzN1ZQdWNzOFl3TjNUZm5ROFVRblhJOV8tOUgzSEtiQjJNVWFwVUFOeW55NUw0eHM1UzlTWlVjUFE",
     "CBMinAFBVV95cUxPWFViQXdfamZCQU9UdHBYOEJMZjdoSkQxTjE5a2JFUXRpTmh5dWk1Z1NLblFJQi1lc0dVV1d6cWVYVVRwX2NTbU9IYk5la2tCV2hZM29NTEMxMFJlbVBpeXp2bmwxekYzY2JFU2trMHAzeUdKdlRJem9ERkt0c0RfR1c0dzZuZVdnVnF5a01ucjB4RDk4N1BSTjJsaWY",
-    "CBMiW0FVX3lxTE9nTVF1bWR6eE5jbi1YcUZtdFNFWW5faS03MGZYWEtVdEFkN2s0X290Sjc4cERYeHNJT0FJWmE5Ymp5VmRhbEJObkI0Tm0weWhrLUFXTDI2ek9uV3M"
+    "CBMiW0FVX3lxTE9nTVF1bWR6eE5jbi1YcUZtdFNFWW5faS03MGZYWEtVdEFkN2s0X290Sjc4cERYeHNJT0FJWmE5Ymp5VmRhbEJObkI0Tm0weWhrLUFXTDI2ek9uV3M",
+    "CBMiiwFBVV95cUxNMEZDdUFVVnFqU0N5YmxjUnJsN0ZIcTh0WVZxTGdNMjFXYTNkTG5UOFhEeHlMSFhfV1BPU2swbTFPd2dfSFJ0Vm9QbkQtaktRR2pIVkc4QmZNdVdWNVgxVU5oaDFLVGt5WGVnODFaQkZhbTZrcDhNYk9YbFdoRmVieWk0djJqQUxubmo4"
   ],
   "daily": {
     "d": "2026-08-15",
