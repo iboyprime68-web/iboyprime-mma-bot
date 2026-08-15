@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "This one might get Gritty 👀 Mansur Abdul-Malik vs Dustin Stoltzfus [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
-      "ts": "2026-08-14T22:27:08+00:00"
-    },
-    {
-      "t": "FINISHERS LOOKING TO STEAL THE SHOW Jalin Turner vs Kaue Fernandes [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
-      "ts": "2026-08-14T22:28:25+00:00"
-    },
-    {
       "t": "TENSION RISING 😤 @MackenzieDern vs @Savage_UFC [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
       "ts": "2026-08-14T22:33:16+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC 330 undercard live updates: Results, round-by-round of prelims",
       "ts": "2026-08-15T21:00:42+00:00"
+    },
+    {
+      "t": "ISLAM MAKHACHEV G.O.A.T?! 2-3 YEARS DAGESTAN IN UFC 6!",
+      "ts": "2026-08-15T20:30:06+00:00"
+    },
+    {
+      "t": "Khabib Nurmagomedov Sends Powerful Message Of Support To Islam Makhachev Before UFC 330 Title Fight",
+      "ts": "2026-08-15T21:04:04+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Alexandre Pantoja sent a warning to Joshua Van during their first exchange at the UFC331 press conference 📰 https://mma-fighting.visitlink.me/Gio7Qk",
-      "url": "https://nitter.net/MMAFighting/status/2088600062284927388#m",
-      "source": "MMA Fighting on X",
-      "cat": "ufc",
-      "ts": "2026-08-15T12:13:53+00:00"
-    },
-    {
-      "title": "Ian Machado Garry beating Islam Makhachev would be 2026’s biggest title upset according to fan vote",
-      "url": "https://bloodyelbow.com/2026/08/15/ian-machado-garry-beating-islam-makhachev-would-be-2026s-biggest-title-upset-according-to-fan-vote/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-15T13:00:00+00:00"
-    },
     {
       "title": "Arman Tsarukyan says UFC ‘saved’ Diego Lopes after Dana White shuts down Charles Oliveira question",
       "url": "https://bloodyelbow.com/2026/08/15/arman-tsarukyan-says-ufc-saved-diego-lopes-after-dana-white-shuts-down-charles-oliveira-question/",
@@ -2105,6 +2091,20 @@
       "source": "Yahoo Sports Canada",
       "cat": "ufc",
       "ts": "2026-08-15T21:00:42+00:00"
+    },
+    {
+      "title": "ISLAM MAKHACHEV G.O.A.T?! 2-3 YEARS DAGESTAN IN UFC 6!",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBhajBTT2lzOFpTYzZ4Z3hiZXVuV0RHMmV4blZkYUd6aUZQV0M3ZWhDclRyMXdERU9pbklTZ1lVSGZSRDRQYzFidkttMjFaSEJfdC0wTEh6S01wYkwz?oc=5",
+      "source": "YouTube",
+      "cat": "ufc",
+      "ts": "2026-08-15T20:30:06+00:00"
+    },
+    {
+      "title": "Khabib Nurmagomedov Sends Powerful Message Of Support To Islam Makhachev Before UFC 330 Title Fight",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHckNOWUZvMkVzRjhVNTB3VWRjdUdMVXFNLUl5bVYzOS1naDBWamtKdVZxRGoxMFNqTnpScjJZWDZsWlZIZGt5b1VHOFNUMjlpT3hZRHBRbDY1LURtMksyRERSWUhDLTktdHVsYnVCSGltSDllX1VfUlZEWFZKQQ?oc=5",
+      "source": "LowKickMMA.com",
+      "cat": "ufc",
+      "ts": "2026-08-15T21:04:04+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi2wFBVV95cUxQN1ZjYm9sN1NZNXZmNGhpSnA0alRxd2lqbnF0Q3pob2J4NGVLeTRDSlZlelQ3NHZxc0w5NmwxRzdFWUd2UjNjeTNsTFlpSXZ1X0I1eExkN0ZvOFVLRThDM1JYOUFTVVg2TDI2anpnSHlhQTN2MmdCcV82WUg0OFBET29ESWJneDN0cDBESzVheHVjQ2RWR2JVRE9sT0tDQVkxTVJDYUxiR0podTAxOHJHNk0xNjdsNWV0VkZlRFFabVE4RGV1M1BhREloaXA2dGhLTHFZeVE5ZVRLX00",
-    "CBMi5wFBVV95cUxNWTVvUEcyaWJpeTZaTnp4czBKemtyTUNrbUJYS2tPUU5qMGZQR0FLMGctOUQtOFRDRU9FUnJBeEk4a1FDLXVCX1hzRmtPLThpcUxvaDVFWWRLRUJ6ZzBXUjVhbzhQdmVWV2dIYVFnZ0l0dUl0UVpsMzA4YnpHa1NZejY4cEJVc2ZmQV9RRFA1ZzJYU3BqVmhMT1lpd3VXODhIMGhxQTRraElxUEYwQjdBZHE0OVJ5bzhEZmgxOU4zQ3JPMXkyS1BDSzQ1d09pZV9BeXViSkZfTWh1cEY5NzlQS2Z5QnJyejg",
     "2088031830188462096",
     "2087872676002238566",
     "2088035042471932282",
@@ -3312,7 +3310,9 @@
     "CBMiowFBVV95cUxNYmlfWEdBOHY1S2FNOS1Gb3BaSTVFYmdIMDJBRDYzdUhWTnA1c2psMEQzNnBvZHFYZ2xOY1JGeXNid0xUV1JoSWUzdzhGcjFJSmZaUWNNLTRPbzdteGJaRzNuZ1pyeDMzQ0oxUEEtQ1NqQWdrMEEtczFyWTZ6dmxiZnlsdWV3Sl9LR1J1X3dYMU1wOGJybXFLQXpxdG5MT0JvV184",
     "CBMiaEFVX3lxTE8wUDQwZWxITHdPSExCWE9zYnpSdUxld2pTeW84X014bWJrMUh5Mm9wdmlWQlFieW8yVGlOX25LYU94SEJtRUpzSW5ianozZzU0WVc2cG1FLVRzakxqSVlsODdLNFY5SzZR",
     "CBMiugFBVV95cUxNSmE3YmRlaE5MOFk1WWRZR1Q2X3dZWGlidWhzWk42RklMOE5YNWFUVkpzRlE0OUZwT183MFBDbUFlcDAxRm5QS0JkUGNNeF9xRHR5OFJjS2tDLUpwMkVRNnBLT0FYZzN3azkwQXc0d0pwMWNMNTZjZlIwbzc5ZjhUTGxyZ1RfdUNiSURJY3Q2a1NOUTRzQ3FkRWRYakM1VXlpSlprbUtaSmhZSVJUeGc0aWZRSzhaOGZIYlE",
-    "CBMihAFBVV95cUxNRWV3bzZ6YXNBY0huRG9oUXlQX18xaUhySS1rMDZFYVRadHF5cS1UR3BYTTQ2SENGRmVGa01GemV4aURCNk1paWZqdVJoVUowV2FYd1otTnVWZUZFUlVicEF2QW5yUGtsWXZ3SW9kSEdEU05kTEczUEduVWV5SHh4M0xrYXg"
+    "CBMihAFBVV95cUxNRWV3bzZ6YXNBY0huRG9oUXlQX18xaUhySS1rMDZFYVRadHF5cS1UR3BYTTQ2SENGRmVGa01GemV4aURCNk1paWZqdVJoVUowV2FYd1otTnVWZUZFUlVicEF2QW5yUGtsWXZ3SW9kSEdEU05kTEczUEduVWV5SHh4M0xrYXg",
+    "CBMiXEFVX3lxTFBhajBTT2lzOFpTYzZ4Z3hiZXVuV0RHMmV4blZkYUd6aUZQV0M3ZWhDclRyMXdERU9pbklTZ1lVSGZSRDRQYzFidkttMjFaSEJfdC0wTEh6S01wYkwz",
+    "CBMifkFVX3lxTFBHckNOWUZvMkVzRjhVNTB3VWRjdUdMVXFNLUl5bVYzOS1naDBWamtKdVZxRGoxMFNqTnpScjJZWDZsWlZIZGt5b1VHOFNUMjlpT3hZRHBRbDY1LURtMksyRERSWUhDLTktdHVsYnVCSGltSDllX1VfUlZEWFZKQQ"
   ],
   "daily": {
     "d": "2026-08-15",
