@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "F me this is tremendous. Love the dynamic between these two",
-      "ts": "2026-08-14T22:07:35+00:00"
-    },
-    {
       "t": "Sparks fly in the #CryptoCom #UFC331 Press Conference 🗣️ @JoshuaVanBT vs @PantojaMMA 2 can't come soon enough! [ LIVE SEP 19 on @ParamountPlus ]",
       "ts": "2026-08-14T22:12:32+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Anything but Fighting: Neil Magny",
       "ts": "2026-08-14T17:10:29+00:00"
+    },
+    {
+      "t": "Prediction, pick for Mansur Abdul-Malik vs. Dustin Stoltzfus at UFC 330",
+      "ts": "2026-08-15T18:30:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Prediction, pick for Chidi Njokuani vs. Joel Alvarez at UFC 330",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlpEcnVYaU9EdjlyVGJ3ODZvVXpac0hIMXhxZ1J0VWVSSXdSYUF3R3dacm1HTlpBRU1LcV9aMG9ZSTM1bjZvaUF5akJ5V3NEUGdQZmZVbWQ3RElXYjZIVlhhWElrTkgyTmllMUFITWxPczZqb0RXUEY3MEp6eHQ2d3c2T1lxRmx0Ymg3LUVGYlNUVHNwZmRlanN4cnhhUS1zQ2Z2SElsTkxwUQ?oc=5",
-      "source": "DraftKings Network",
-      "cat": "ufc",
-      "ts": "2026-08-15T17:30:00+00:00"
-    },
     {
       "title": "UFC 330: Makhachev vs. Machado Garry Live Fight Coverage",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NVi1WcnJKTmNYc0RDdGJkSzZDYUk3X3AyaXVXOVlOZXVkZmV6LTE3RDQ5TFB1a2tUcTZFdmpQWTJMbkZQNVNzY3dtNmxBZ3RoazlTQXlTeGxIbU9NNHQwQUlta2dfWFp2eHVQWXVB?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-08-14T17:10:29+00:00"
+    },
+    {
+      "title": "Prediction, pick for Mansur Abdul-Malik vs. Dustin Stoltzfus at UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOXZiSW95VVdaeTJrdC0tMnJlcFVKelMxVmtYcGVsSXJHNlN1UXVBczZXZkZsSENaYXNydHREWGlPdlpQZHdnUEtfcXNGbm5ySGZJTjRKQ2lLU1RoQTAwYzJwSFlhNHFVYU1oY0Q4V0g1eEMtQUNhbXg3UjF1WkxkdVRGY1o0UlFmSFRtRGprQ3ZzVzNzVFVGLXBVNDVNSXdNTzZUa0RYWnRTVDlfRVJMRzVVUnc?oc=5",
+      "source": "DraftKings Network",
+      "cat": "ufc",
+      "ts": "2026-08-15T18:30:00+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiqAFBVV95cUxPbDZmWGFKR0pFMnQ0ejZrMzIzQ0pMcEpSb3JtcVNUX1Eydy1qOUZHa0RkUkcwWFpqV2VadVNwajZWVzBIdnIyX2hzYzFhcjNaNDRTMFJNcGliMkV6SDhteHhwalNPN2ZiLUNMejBUZG5BSHdxUF80eHM3dE5OVzdTQ3hBbVY0TnBCc2Uzak91YjR2VTh0ZzhKRGIxdHRiQ3h1QThpU2VpQ0k",
     "CBMimwFBVV95cUxOdkV4UmtXTlkxQkxzX3MzN3o3OTRLclI0TGVwemhURVJ0M2h2ejkxeU9tRXNKV3ZJaDUxV3hsRXFCMDBXZDdrZV93R0Z3Z3JOMF93QUQycDdYdkQtbmdUUVlzWHVPTTNYSVp2MWdwdkdwREdPTTV2clgyd21FTXkyUk9YOGMwbmQ2R2xOUG5GbE1GRmVYS0ZuZWIzTQ",
     "CBMic0FVX3lxTFB5YThDN2t5Q2ZPOEtRbWtmZVlDWXE4bDh1TURxdl9NWWZmWUlyMjg5dlh0LW5BS204a095am52d2xpVTNWWXoxcUg0eUJtV01GZlpoZ0w0dGU2S0VWdFQ4SEhBMHdobmdlU0piT0FkbE5weXM",
     "CBMia0FVX3lxTE5MZVE0ODB2b25PaUcyNjZNeENFNXd2ajU4bzY4Ri1wVFZUNFNORDBiZjlOVGZpWC1hdGxySWR5aTd3amZpc0Rod2ZUdU05NTlYeTBzc1lUUlFhVjhCejlFRFJ2T21JV1pmREhv",
@@ -3312,7 +3311,8 @@
     "CBMikAFBVV95cUxOMVV5MjJzdTRTZDY4ZDhaV0g3S1NIcG5tb3hFREdZbHFqWkpqSVlnRUJLU0dQNHdRbjJaSENRUEdJd29SdTUxZU1LdGxOa0d0MXhaaVh3bGptaXpMTjZNN0gzYU9ZbU5vZjZkcjNTNVhPMkEwNEkyOGs5ZHRjRW94VVhOc1ZRM3Y4LVVzLWVDTkc",
     "CBMikgFBVV95cUxQTGtXcmlYSDFFOFk4MDZwNXcwQllGTWpaRzFJOUt0Q3NVcTEzWHJfd21BM0xWbkV3WEFiVG0xdEt2VXdOd3lwRDdjd3pLLTk4ak1hM19raXpuY3JSeldDVVlPSk42ZmZvWUhObnpWc25VZ01PY1QwdW1rLUFEWlp3Ti1qU3FHa2U3YS1vcHF4QjFHZw",
     "CBMitgFBVV95cUxOZWYyS2tLWUZrRUdwMVNicVl4aVk1WnJ3WXVLV0F4R3hYcVp1QWRZbzJXcVRqdmdKMWZKTGZWZTNjVG5JZ3pPZE43NFkxM3doSjB2VEY0WlVmOFZtdGF5MEZYbXR4MG0wNmdqU0tYeWU0UVY0eloybUhMUU9GNHJ5OFhqTTA4RENMN2Z0TkljaHVJdmY3a1lxU0p0X3M4WFgySjFxMVllQ0dqV0xQWGZlR3FQMk9DUQ",
-    "2088694954264781207"
+    "2088694954264781207",
+    "CBMitAFBVV95cUxNOXZiSW95VVdaeTJrdC0tMnJlcFVKelMxVmtYcGVsSXJHNlN1UXVBczZXZkZsSENaYXNydHREWGlPdlpQZHdnUEtfcXNGbm5ySGZJTjRKQ2lLU1RoQTAwYzJwSFlhNHFVYU1oY0Q4V0g1eEMtQUNhbXg3UjF1WkxkdVRGY1o0UlFmSFRtRGprQ3ZzVzNzVFVGLXBVNDVNSXdNTzZUa0RYWnRTVDlfRVJMRzVVUnc"
   ],
   "daily": {
     "d": "2026-08-15",
