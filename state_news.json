@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "LIVE UFC 330 Full Fight Live 𝐒𝐭𝐫𝐞𝐚𝐦𝐬 ON Free TV CHANNEL Aug 15, 2026",
-      "ts": "2026-08-15T22:20:15+00:00"
-    },
-    {
       "t": "Watch Islam Makhachev Dominate Della Maddalena Before UFC 330",
       "ts": "2026-08-15T23:06:51+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Tom Aspinall Names The Age He Plans To Retire From MMA",
       "ts": "2026-08-15T23:52:04+00:00"
+    },
+    {
+      "t": "UFC 330 Payouts: How Much Are Islam Makhachev, Ian Garry, Mackenzie Dern, and Others Expected to Earn?",
+      "ts": "2026-08-15T23:00:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Alright let’s hear it: Islam or Ian? 👇",
-      "url": "https://nitter.net/arielhelwani/status/2088627630408859821#m",
-      "source": "Ariel Helwani",
-      "cat": "ufc",
-      "ts": "2026-08-15T14:03:26+00:00"
-    },
     {
       "title": "Demian Maia is CONFIDENT in Ian Machado Garry’s against Islam Makhachev at UFC330: “[Jack Della Maddalema] isn’t a huge 170-pounder like Carlos Prat…",
       "url": "https://nitter.net/MMAFighting/status/2088633780630110366#m",
@@ -2105,6 +2098,13 @@
       "source": "MMANews.com",
       "cat": "ufc",
       "ts": "2026-08-15T23:52:04+00:00"
+    },
+    {
+      "title": "UFC 330 Payouts: How Much Are Islam Makhachev, Ian Garry, Mackenzie Dern, and Others Expected to Earn?",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbFRoTzVJMDVIWWZhWlN5YzR2eE56bEQ0ZnVCbWh6ZjNwLVdoNjB6akdzclprTUdXNjVEbTNfY0F0VVQyS2F4LTI2OGk4U3Q5blFIbU1KdmFQajlVaG9CU1BnbkJodC0xSUdNT0E1YUtoWFhHX2R3eU9GdG1aQ3FqNDJnODJwQUtVakdsYlBpWm1rb1l2Nm94aWtpaFlOUHlpZlByLWtzVzJUUFVUOF9qLWJ3YVNmYXhmcUc5cmJFeWtEd0ZKN2VPVEloMGRPd09sNWJiNXlpYWpsQmJPeHc?oc=5",
+      "source": "EssentiallySports",
+      "cat": "ufc",
+      "ts": "2026-08-15T23:00:00+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMiogFBVV95cUxNQUhwOVAxamlVOHlmMm5NWlYzREp6LV9RSDJJY1lxdXIzZ1FDUUthdDhtcllDckg1eEhBazNOSl9VcE5fTlgtTERvWjVsYnlTVFRPMzRzWlFXOHRtcHZodlQzbTJjZFhDbFg4TEhoYVltNHhmOGxUWkxIVENPbnY2Z1JqVS1aYmRzZUxsYTdVTGdPQ1gwUUtyTFBjbDZEcFV4TXc",
     "CBMiW0FVX3lxTE04eHRJS1RLMWphUURqZ3NpbjROT1NpX1Boa0Q2NlBQZVZxMWFZMExaeERYRm5wT3RZNUVvNndiMXV3dFpCaUt0M2g2TFRmUVJGc3hjeVlmdlB5Sjg",
     "CBMilwJBVV95cUxPLXlXOUtOaEd0T0g1bG1mVUVfRXdleWl1NURFdUNLYlR6ZFNLUjBjcE5PRjNubVNuN2hzSGNBM19kNGFUMk5qcHZtTVZZN0xydk1CYWJGcWVDUEpRdXB2Qnh0Z1hQVHpYQzZZZ2t1S2wweFNFMXRFV19iSTFmXzdOVXVjMFIzZEZyR1FsU2ZHeE9HRjNkRXQ3cE5IU0hqUXlXbDI2NFlmN3NNZnhxWXBrV3RraWZ6ZVdJTnZZTzJ5Ym1Ua3hlYkE2Y21ackR0eUlsN1dTWTAyUmo5WHkzbnNvUVYwZVdvc0M2UVNSb043d1JnVENRd3JuamxSVHRmVV9XazdxQ0N1ZVBla01aWTY2U2FyYWxWRDg",
     "CBMiiAFBVV95cUxQcGRVcWFCeFBsbmZRaURma1BRWGczUGs2b1BObGI2TVJvck9DcFhFbGppR3VRRDFpNXNZQWpmaGxhUk9jcEVmS1hieWNvUTZlQ1JaaWtXSzRndU02dmZyT3BTS3k2cTNxSUVrb2E5WklKeEpmTU9RQ0NDQUNEckdrRkRXUTVuakpj",
@@ -3312,7 +3311,8 @@
     "CBMi3AFBVV95cUxOR3ZjTDBWMkxQTmxsVjlBVk9RT0Rpb0tkS1BNbzZjc0FsWnd6NWNvRU5rM0JYZ2FOQ3NUUUhwVldUaUZpeVNrM2ozcFhUc2ZQWVZkZzEweEhlalpRSGEwWnVSYVB3MldERDJZMWVkWnI4UHF1Qng4akd2eGxDdU5qWVF0bVBXU3RQLVAtZDc0TTZidzJuVVlUV212QXhDVE9LOVZnZzVmT1NTN3MxS3I1aFgtcE0zcE1BYVB4NGxwOVBSSm9PVUFHVGx0eXRIMFlIaXl5ZWoyVGxRZFpQ",
     "CBMipwFBVV95cUxQVVAzZHpNbU5sZmctNjQ1NEZ1SWUxX2RpY0RZeXlyUXU0SmJDc1JmNDhxMGpIV0JaZzBJbHhnSWxjOUpvTVR2QVpaSTVuTjFETUc5ZE9xdEZkUEZRdlZjSWJ1dmdXSFNCWTQ1ZGdXWHFwQzV3X0ozWWNsek5Gb1gxeFNUNUpMeUdQYWRRdEdpY3RSc2R1V1EwZUFTRC1Qc0Z1T3p1d3puNA",
     "CBMi0wFBVV95cUxOQXlkWVEybXplcVdYR3R6WV9FNzdrQ09YNmRlYzRfQ1hVUGFEUjNzSm80OE9EVzhNWTBEdF9RaEhoM3lpaUtLNFY2QTNMOU01VUFidEtDazNhV3JMMU4xM01XSkxTU0FiQ25XTkEtd2x3X1dnY1NOWS1PTVBaY1JUdDNlcDkydVRpYmtaMDFpRng4clVnbXpCSjFhUVR6SkZWXzgyVTVoMDJzY2lLNVBnVGRqOEsxT2kxUlR6T240SGNSUEc0ZlMxdHZEQklhUnh6VzM0",
-    "CBMiiwFBVV95cUxPSGMyZFVSNWJqWEJCOWpTcXNKMTVySUs5WGU1aGRHWUhGTUdzRDhRS29tNE83NjVUZkEtZF9ybEM0d1hqSTNRT3V0RDdMd05DRk42dk5lWjBjSlVKdnQza1RuZXlpcEh6TlQ4R0JjdGdKenJkRUVjekw1ei1KTExsOE5teEJaNnltVElR"
+    "CBMiiwFBVV95cUxPSGMyZFVSNWJqWEJCOWpTcXNKMTVySUs5WGU1aGRHWUhGTUdzRDhRS29tNE83NjVUZkEtZF9ybEM0d1hqSTNRT3V0RDdMd05DRk42dk5lWjBjSlVKdnQza1RuZXlpcEh6TlQ4R0JjdGdKenJkRUVjekw1ei1KTExsOE5teEJaNnltVElR",
+    "CBMi3gFBVV95cUxQbFRoTzVJMDVIWWZhWlN5YzR2eE56bEQ0ZnVCbWh6ZjNwLVdoNjB6akdzclprTUdXNjVEbTNfY0F0VVQyS2F4LTI2OGk4U3Q5blFIbU1KdmFQajlVaG9CU1BnbkJodC0xSUdNT0E1YUtoWFhHX2R3eU9GdG1aQ3FqNDJnODJwQUtVakdsYlBpWm1rb1l2Nm94aWtpaFlOUHlpZlByLWtzVzJUUFVUOF9qLWJ3YVNmYXhmcUc5cmJFeWtEd0ZKN2VPVEloMGRPd09sNWJiNXlpYWpsQmJPeHc"
   ],
   "daily": {
     "d": "2026-08-15",
