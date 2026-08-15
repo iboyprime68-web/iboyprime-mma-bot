@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Video: UFC 330 ceremonial weigh-ins, final faceoffs",
-      "ts": "2026-08-14T20:20:16+00:00"
-    },
-    {
-      "t": "UFC 330 'Embedded,' No. 5: Red bottoms to match the red hair",
-      "ts": "2026-08-14T20:51:22+00:00"
-    },
-    {
       "t": "UFC 330 Ceremonial Weigh-In",
       "ts": "2026-08-14T20:52:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC Fight Night 275: Carlos Prates wants title shot after TKO win",
       "ts": "2026-08-15T04:55:15+00:00"
+    },
+    {
+      "t": "2026 FedEx St. Jude Championship Preview: Top 70 compete in Memphis + Michael Brennan wins Wyndham | Scorecard Stream of Golf",
+      "ts": "2026-08-15T05:11:13+00:00"
+    },
+    {
+      "t": "NFL Training Camp: Travis Hunter Continues Work at Both CB and WR Stream of National Football League",
+      "ts": "2026-08-15T05:32:29+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White says one fight stops Islam Makhachev from already being the UFC GOAT",
-      "url": "https://bloodyelbow.com/2026/08/14/dana-white-says-one-fight-stops-islam-makhachev-from-already-being-the-ufc-goat/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-15T00:00:00+00:00"
-    },
-    {
-      "title": "Watch Khabib telling Dustin Poirier he ‘taught’ Islam Makhachev a lot seconds after he tapped out",
-      "url": "https://bloodyelbow.com/2026/08/14/watch-khabib-telling-dustin-poirier-he-taught-islam-makhachev-a-lot-seconds-after-he-tapped-out/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-15T01:00:00+00:00"
-    },
     {
       "title": "Former Ian Machado Garry opponent says he could be 'big problem' for Islam Makhachev",
       "url": "https://sports.yahoo.com/articles/former-ian-machado-garry-opponent-175020222.html",
@@ -2105,6 +2091,20 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-15T04:55:15+00:00"
+    },
+    {
+      "title": "2026 FedEx St. Jude Championship Preview: Top 70 compete in Memphis + Michael Brennan wins Wyndham Scorecard Stream of Golf",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVEhPOVZ2dHlzM0ZtTFBpUGFjeUp5ZWZScDVhZ3BLckNDNkpqY3lMTjhrOEdBY0NaSzVHdVZlbExTcDc1Sld4S3UyWUVHZnFEenFpRm04LXRUeTNSbWZZcVk3cXhCMi1pckVWX0FRblM1TU81MVVwTmFteHRkSGFaWkNhZjFVeHUxMUlSbUlZemRVQVBQRWJCTHM1c1lCcEFQXzE3UFpGdkF2ZVJFdnh0QnFFd3RhOUNFblV4Y21Sc25vZF9YY1ctQ3JtdU9CamJrSTk2X1luM2xwbmphbDZ4Rg?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T05:11:13+00:00"
+    },
+    {
+      "title": "NFL Training Camp: Travis Hunter Continues Work at Both CB and WR Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTzFvbzBoUThCWHRldHo5UFAwQjZoV2FOMUVDNmxoRjVIMDhVcDFWelgyYjdadVdwWUYyWU9td2lMdWE2ZVZsamZ4QXppWVpNcDFLUmljMTByM2FsWkRFLUluSHZEYkNFNEV6Q0oxVzgxUUN6RnpSdEJES2dLdkdLM0wwTGJqSXA3bXA4RE1NNlBXT3Iwb042cTc5RkpaWkpkZ1JMSkpCMFVEZw?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T05:32:29+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "def4f82f-03d3-3db6-94ca-e82db1639241",
     "b6a286d0-55fe-3de9-8368-26a0067bcf5c",
     "9d67419e-d1cf-3a5f-a4ed-cf3b41dae69a",
     "16b0c057-0e94-3136-9ff4-001f51a2a95d",
@@ -3312,7 +3311,8 @@
     "CBMikgFBVV95cUxNTF9UUXkza1hNWnpBTG5BSW10OS1Yei11ZWZPdUM2MjNvaTRqMjNvZGZHb0lTV1N2cjlBUjItY3RPcWpyRnlOUWp6N2VKdjNEYzU1UnJmTG9XRG05SE5PVF91bzNSeXdxQlRFYlBfXzM2TzF0RnNTU05mRFBOSmlNMkdsLWdiV0ZKQUNDNEJxRDR5UQ",
     "CBMie0FVX3lxTFBDUnZ2SUxGVzVvSmkzeHNoZ0ppeERGWXFiUzFkb1NHUENhYV9oN29SeFB3eDI2UUE1Q1RVZC1TdTB4UktVR2JlNjEzRDVkRjQ0QWVhRnpURmo0QThaMVZUUXlzNTFEREtQSnBuc2c5ZjgxSVhwOWk5amdUQQ",
     "CBMiugFBVV95cUxOVTVva0lsWno4bDZsTDZnRFptZjRJcktQNkF0TkR3VThQTDRSUklHTW9YRnQzM3preDFfbDVsNkF1R2F3YXBNaUN4SnBXYTh1MnBHRFdCdXlyRldFY2lpR2pmZUJUODdNcko1Qzl1OVdmX2J2SUFDaXFwMWhIZ3EtUHZ3LXMtTGI1WU1peGVJM2IwRmU5ZDdqUm5JSzRDUzVkd2l3Z2w0TTNSampiZVRKVEF0SkM4WmlSWVE",
-    "CBMijwFBVV95cUxPS21leGpmQm14MzA0UFladlN1aXg5S1dHYWxYcHlvVzZqbFByMWxTWEtMVm45U2tHQXdVVE5Pc0FqTVFUb2d4eTc3WkVOcDNLeExETmFlYzNFeU1SSk03bkxyYjlRbEg0Y01oMm5UOG5TTEhIWXZjLUtUUGdiNFdCNDNXWERaRF9peENNZkdzdw"
+    "CBMijwFBVV95cUxPS21leGpmQm14MzA0UFladlN1aXg5S1dHYWxYcHlvVzZqbFByMWxTWEtMVm45U2tHQXdVVE5Pc0FqTVFUb2d4eTc3WkVOcDNLeExETmFlYzNFeU1SSk03bkxyYjlRbEg0Y01oMm5UOG5TTEhIWXZjLUtUUGdiNFdCNDNXWERaRF9peENNZkdzdw",
+    "CBMiqgFBVV95cUxOTzFvbzBoUThCWHRldHo5UFAwQjZoV2FOMUVDNmxoRjVIMDhVcDFWelgyYjdadVdwWUYyWU9td2lMdWE2ZVZsamZ4QXppWVpNcDFLUmljMTByM2FsWkRFLUluSHZEYkNFNEV6Q0oxVzgxUUN6RnpSdEJES2dLdkdLM0wwTGJqSXA3bXA4RE1NNlBXT3Iwb042cTc5RkpaWkpkZ1JMSkpCMFVEZw"
   ],
   "daily": {
     "d": "2026-08-15",
