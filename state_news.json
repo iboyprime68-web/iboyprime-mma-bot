@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "You won't want to miss this battle 😤 @ArmanUFC vs @RuffyMMA [ #CryptoCom #UFC331 | LIVE SEP 19 on @ParamountPlus ]",
-      "ts": "2026-08-14T22:02:08+00:00"
-    },
-    {
       "t": "Dana White holds Alexandre Pantoja back, as the former champ and current champ Joshua Van had A LOT to say to each other ahead of their #UFC331 remat…",
       "ts": "2026-08-14T22:05:36+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Watch Shields vs. Scott: Weigh-In Live Stream Online | DAZN CH",
       "ts": "2026-08-15T06:35:50+00:00"
+    },
+    {
+      "t": "Dana White Says Ian Machado Garry Is Being Overlooked Before Islam Makhachev UFC 330 Spoiler Shot",
+      "ts": "2026-08-15T06:52:54+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Belal Muhammad Says Islam Makhachev Can Submit Ian Machado Garry Late At UFC 330",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzNZVUpIVUNzM3RPQnJpSGpMM0YwcFBlT3FXZGZwR0g2aUlWU1NDSjJyRDE4MGtyR1FWSjAyS2VXMzY3NzNENVpqZ2JlTTNkTExpUGRJNWRXbDFTdjFVVWNoZVRpS2UtZF9hb3pOeVdxTDVkTnhCWEhwRm5PN21mRUxZNTFLVWFGRzdHUlVMZ3hOMnB4MFA4cU42MlQ?oc=5",
-      "source": "MiddleEasy",
-      "cat": "ufc",
-      "ts": "2026-08-15T06:22:10+00:00"
-    },
     {
       "title": "Las Vegas Lights FC vs. Brooklyn FC Live Stream of USL Championship",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85NlRwYnBwNTdUTWQzbXRXQWFlYnFLMEFweXFqdUdCdHlvdWxIcmtFcTJXeHhHZUxCekRFNXV1MlZhRjJKbDRqUlQwV2FTemtFbHVWVUlfbk9wbEVtYkE?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "DAZN",
       "cat": "ufc",
       "ts": "2026-08-15T06:35:50+00:00"
+    },
+    {
+      "title": "Dana White Says Ian Machado Garry Is Being Overlooked Before Islam Makhachev UFC 330 Spoiler Shot",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc2lRaTBVRzJrOWUtaTE2d2RDVUFwcHV0WWRIeFRydkE3Q3BFc3o4QXpVczZzcmZoaUx5ZUhMRGxfaENVOUljMmQxVEZUTXlTMmNGMGRPSUc5eDBiRHJfNEVEajBsa09Ra3VDTW1xYXB3ZS1ZTVE4YjIxVV9uRW5ncFRKX3l5LUdTT2JKZWRHLU50QmZMWG9ieW1mUQ?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-15T06:52:54+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2087686976711364903",
     "2087690597427478632",
     "2087699455441014833",
     "2087712224596877736",
@@ -3312,7 +3311,8 @@
     "CBMi6wFBVV95cUxPR0djUncwa0tIXzZiYUh2dV9EU3kyUjk1LWpZT3ctS2lZc3hwaU9oMXNRRTNkTkMxc3lxbnk3cmF6bV80c1VsN2R1QWUtc3RPRkpnSHRPUS1KNG9WbWFWb3ZSckpoUkcyOXJOcklVMlpWaTRCdWFUZzlRYlVYanBybEhVa2dISy1lRXhHazJGRk83MHhxRXBDQUp0UkU3dTE2VUNSMUdidWhiZDlvYUhaR0IwT0pTV0dET3A1TW5CRGRrdVBFdGN4ZFlaeUU0cEZ0NmFmb29zR1lJazVFTzhDbmlFdkwwekgydE5J0gHwAUFVX3lxTE9oOTNTa0d6LWxmQ3ViMU5NTGRScFV6WEptbTFqTFNySkFSREJ4ckFnVnJqYlNkbklKT2M0SW0tLW5WWGI0M3lsTXVTeFV3UnpKd29ORTFyZzVKY1pZZHdyTUx3TnlGSUVtOWVKd1RHTXpwSlRVSXlFYy1pWjQ2cTZmS0dwdjUyVmRDU0NyMUwyQmRtRW1XdEs4U1JHc1dTTVREWHd5QzNOcnQwc3prZmE0R0ZGSzRVLXJ4TmItVV9ESmtLc3BHd2gyeFBzUXFKeHQwbFlwZW9pU0lFWklmY3U4dFpZcU43eVA2Uzd5Nm1FYw",
     "CBMie0FVX3lxTE91SXFfSkc4WEp0RW5yUzJLalBvek9tZ0lmYXc2QlV1UjVLQ282ZkpwMC1mR01ZaWRtN2Z2LVRwbFdmanM0OGF1emFpLWN0SGhfeEhZU2hNTWREbE5rUjQyemN6bWFjY2ozLXhCcTB6R05qRU5lbndKM0hfbw",
     "CBMivgFBVV95cUxPWFFMUUgxT05BQ2dKNURPbEYxYzN2THJKMlBlTXVjbzR3d2dwS09aMXA4SzctUFNJcUxtdWZ2dVJJTVpWMF9tUWhfQ1ZLeGUyX2tYcElfUmNYTzY4NEpxZlVZd1pweDh1MjZyVkRVZGE4NkNfNlVnSlB1cDBTOE0yTFJrV1k0MnJBYzhGU0ZtbVVOY2l6c0huZ2syZWVRYkF2VGkzZE4tOGZkTElKZHh6ZVdaSmJINzRkNFFldy1n",
-    "CBMijAFBVV95cUxQdFBSZU8xcFJhcDVBeEVSSWxrM3dWQ0c5bmpyUGZPOEVyTkZLekF6Z0ZUQUtBOXNIdDRqZndwNFdhNGN5aGMtemVnTDE1SVprVUg3LVhUZlBwZ1BwT1R2UlJlUVdYUFRqM3pmNjZfLW5WY3pQZEtLTlZVaUZPZGNWLXdEV2p4TkxYbU1BZg"
+    "CBMijAFBVV95cUxQdFBSZU8xcFJhcDVBeEVSSWxrM3dWQ0c5bmpyUGZPOEVyTkZLekF6Z0ZUQUtBOXNIdDRqZndwNFdhNGN5aGMtemVnTDE1SVprVUg3LVhUZlBwZ1BwT1R2UlJlUVdYUFRqM3pmNjZfLW5WY3pQZEtLTlZVaUZPZGNWLXdEV2p4TkxYbU1BZg",
+    "CBMimwFBVV95cUxNc2lRaTBVRzJrOWUtaTE2d2RDVUFwcHV0WWRIeFRydkE3Q3BFc3o4QXpVczZzcmZoaUx5ZUhMRGxfaENVOUljMmQxVEZUTXlTMmNGMGRPSUc5eDBiRHJfNEVEajBsa09Ra3VDTW1xYXB3ZS1ZTVE4YjIxVV9uRW5ncFRKX3l5LUdTT2JKZWRHLU50QmZMWG9ieW1mUQ"
   ],
   "daily": {
     "d": "2026-08-15",
