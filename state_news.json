@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "BRING ON THE CHAOS @ArmanUFC vs @RuffyMMA [ #CryptoCom #UFC331 | LIVE SEP 19 on @ParamountPlus ]",
-      "ts": "2026-08-14T21:25:51+00:00"
-    },
-    {
       "t": "UNFINISHED BUSINESS @JoshuaVanBT vs @PantojaMMA 2 [ #CryptoCom #UFC331 | LIVE SEP 19 on @ParamountPlus ]",
       "ts": "2026-08-14T21:26:17+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Demian Maia shares insights ahead of Ian Machado Garry's UFC 330 title fight against Islam Makhachev",
       "ts": "2026-08-15T01:40:27+00:00"
+    },
+    {
+      "t": "Ian Garry accuses Islam Makhachev of wearing heels at face-off",
+      "ts": "2026-08-15T01:18:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 330: Where does Ian Machado Garry have edge over Islam Makhachev?",
-      "url": "https://sports.yahoo.com/articles/ufc-330-where-does-ian-202024592.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-14T20:20:24+00:00"
-    },
     {
       "title": "LIVE! Watch UFC 330 Ceremonial Weigh Ins Video Stream",
       "url": "https://sports.yahoo.com/articles/live-watch-ufc-330-ceremonial-214500336.html",
@@ -2105,6 +2098,13 @@
       "source": "SSBCrack",
       "cat": "ufc",
       "ts": "2026-08-15T01:40:27+00:00"
+    },
+    {
+      "title": "Ian Garry accuses Islam Makhachev of wearing heels at face-off",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNei10cWtfdWxtRmhfSFpIaHZkWElTR1FsbWYtWlhjWWFOZEFYVmVkSUJTMVl5WEJ2QmlrZkczM293Nmd6OUxRejlFY2hUNDBidHZZMnVmRTFRUFR4RUxjbTJTelIwLWZmRURaNThQRE9HNXZQTmdSWDZrMkhRbklSeklQN1p2dmM?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T01:18:00+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -3254,7 +3254,8 @@
     "https://www.sherdog.com/news/news/UFC-330-Makhachev-vs-Garry-playbyplay-results-round-scoring-202361",
     "CBMixwFBVV95cUxOVEZER0E3WXE3SWpLcTRkQmhZcEgwcThhQXhxQTN5RVVyLXhlYlNLNmIySWpuZGN6cTB0RVVKRVBYWjRyejk0X194MVd6czEyNGZwRGRlVzhEZkw0M3FPOW9YemJWSVIySGkyMHlyWkhjbU5jRl9kZzBtNmFsQ0ZnV05lWVg0Tko1eEM3Q3NFWkJ1Ynh0SkdZRVh3Qzg5RUF2LUY5TjFTWE12ZnppSGw5SjJ3OUF2cklUekZyeV94VTdTdHhPYUlz0gHMAUFVX3lxTE42M1JPNmNGLXJGczd6Zl9iekhrcGQ5bzF2X2toQmdSYVdfaXEzbGJMaHo4TjBRVDZ5ZThpMnZfakdYVWswd1lGQnNfd2FZS2pQVV9IdlZrYjVzYnFuM3dTUUdadG42alhRWHJnRUZMbXdfNmhmaHpWUmFOdGh1eHRwb0pQSEVlaGROVUdIZHRlWUZibm1HbVMwVlBRQ21VTXNrQWZES2RqX3ptdDZzM0t6ZWx4LTQyR1hFemRaQ3FUUzc2bEwyeXU4RFY4Sg",
     "2088436974390481389",
-    "CBMixAFBVV95cUxOcEtWeC1KODktal9aX1pXT3pGaXpSVkZPbTVhNkRFLUlJbHNscl92cFZ2SkxLMGtvUWEydTEwRVY3ZWVnd0RGOVQ3aF81S1RPbkU4UVFKbnRsX3JuWjhJcGRLaGpfdkVKWDlzUXUxUkhkMkJuZW5XZGtkeFpLX3VIQkhiOFlOaVhBNF9ydGg5SzlFTHZHMjBrZlBPTXEzR29NenVGYjA2MUpjNGUyM3JPZVNMa3VjMThMVGlOX3FlTDJRUVhw"
+    "CBMixAFBVV95cUxOcEtWeC1KODktal9aX1pXT3pGaXpSVkZPbTVhNkRFLUlJbHNscl92cFZ2SkxLMGtvUWEydTEwRVY3ZWVnd0RGOVQ3aF81S1RPbkU4UVFKbnRsX3JuWjhJcGRLaGpfdkVKWDlzUXUxUkhkMkJuZW5XZGtkeFpLX3VIQkhiOFlOaVhBNF9ydGg5SzlFTHZHMjBrZlBPTXEzR29NenVGYjA2MUpjNGUyM3JPZVNMa3VjMThMVGlOX3FlTDJRUVhw",
+    "CBMihwFBVV95cUxNei10cWtfdWxtRmhfSFpIaHZkWElTR1FsbWYtWlhjWWFOZEFYVmVkSUJTMVl5WEJ2QmlrZkczM293Nmd6OUxRejlFY2hUNDBidHZZMnVmRTFRUFR4RUxjbTJTelIwLWZmRURaNThQRE9HNXZQTmdSWDZrMkhRbklSeklQN1p2dmM"
   ],
   "daily": {
     "d": "2026-08-15",
