@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Mackenzie Dern vs. Gillian Robertson: Bloody Elbow staff predict the UFC 330 co-main event",
-      "ts": "2026-08-15T03:59:00+00:00"
-    },
-    {
       "t": "Nothing left to do but fight....WHO'S READY FOR #UFC330⁉️ [ LIVE AUG 15 at 9pmET on @ParamountPlus | B2YB @StakeUsa ]",
       "ts": "2026-08-15T04:01:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Ain’t this what they’ve been waiting for... [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @paramountplus ]",
       "ts": "2026-08-15T14:01:00+00:00"
+    },
+    {
+      "t": "Ian Machado Garry threatened to sue Sean Strickland over comments about his relationship",
+      "ts": "2026-08-15T14:00:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Jon Anik: Ian Machado Garry 'under appreciated by every pocket of this fanbase'",
-      "url": "https://sports.yahoo.com/articles/jon-anik-ian-machado-garry-220022570.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-14T22:00:22+00:00"
-    },
     {
       "title": "You won't want to miss this battle 😤 @ArmanUFC vs @RuffyMMA [ CryptoCom UFC331 LIVE SEP 19 on @ParamountPlus ]",
       "url": "https://nitter.net/ufc/status/2088385712173555836#m",
@@ -2105,6 +2098,13 @@
       "source": "UFC on X",
       "cat": "ufc",
       "ts": "2026-08-15T14:01:00+00:00"
+    },
+    {
+      "title": "Ian Machado Garry threatened to sue Sean Strickland over comments about his relationship",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMnhhaDdGUUFOdFdMZUpEa2t5UHJ6YVpYQmZ4cUtNNmpfTkRMbU5wcXYtdUxFNTY4U3NtSEdTRGppTWtCa1JOaWlHbEVyZ1JjTFZjRjNoZWZtaWFEblpmTnAyb1dMZzRDTFJfS3dYTl9MU2Z5QTdlUDFWbWZpcno5aGZZaWlIbUJFQVExSThnU0PSAZYBQVVfeXFMTmhZekJrTlh5QVpUSHNzRHNUMy03VTE4T0NLMmRIUm5YYXFjSW0tN2RFaW1CV1pULWNKY2luUld2eHZxdVNSRW5ZVFczQmstN3BFTkN3OTl0UFFETnp2WWNQUVlTSTJzOGk0b2owTW1FaTIzSXdjQmZkUnBWdlJFTXdOclQxNTRVVzlZaXN2dEFOTkZNcGRR?oc=5",
+      "source": "Irish Star",
+      "cat": "ufc",
+      "ts": "2026-08-15T14:00:00+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi2wFBVV95cUxQU0lnRVNvUEFuRlMtWEkwUzdHYzZNX1U4ZkRvM3BwMlhtaTJpMGJpR1NRdzBEeG9Zdjk1Y3dJYnNHTXZDZnQ2OWdUQWJIUUZPNENRVUo1NmRxNEFKOGJwakxsVFRwS1JQc0RjM0UtNWExVmN5aEF4UDN2UGF5SzFFeXJHbHFqQzMzQ05SMk5HZ1hYMXZHUjczOS00NDh0YVQ2SGVBWVViU3lsQU00NUhXQU4wQlRpQlNFUzY4WnF3VFZwN2tzZzRHcWJ4YlZHeVQzZTVsWmY1YnBXSFE",
     "CBMi7wFBVV95cUxNZnhnMHMwYW5fRDBoYlV6MmpRMkdobnNQd1dUSWtrS0VocDQzN1dpLThsamJKMWY3SUt5RWVCX3BoOGZSMmJ0YThvdHQ5Wk1OVEdNZzBKc2ttX0lPc0tkbWtuWDZhNHFUMkdZSHJqZWJoLXllX2xxVnl1OFUyNUc1OE0zTEZWeE5DZ0xkazkzM2NTUVNKRlpld3NnWkQ0UUV0VnY4UU1DN1JXeExYRE5Zb0tNS1pwZ0FKUHpPcVh4Q3pRelg1elNjMmtfZV9qeUg3RHI0WV85dGJZaVp0VDhVUTYxUklReU1xMHpwVjZrWQ",
     "CBMipwFBVV95cUxObzMxbU5KRVRaYXNSRUliNXRjdWkyeDFvTWpiak1Rc3pqNERwVTFrOWY4ZnFJWE5zSUlJNDRQUFFjaVJiT1JZV2E4WjZWblZpYWtKZGU2ZVEtb0YyNExfYkROeFJ4b3JsWFZGN2FNc1lQTHFXazU4M2NrWG1CSFp2UDd1dWY0TW5pbHNxZ3oxdWo5dTZ1X1RYMnlQQ0pRelJ1eDhHMkFLWQ",
     "CBMieEFVX3lxTE84SmJkT2R5MFFIWGtfaEZELTl2VzlPYm41UWQwX3VnTnhUMlpzMXloSlppY2E2ZEtmanJiZkphcXZNYzdnNzc2UHhTMFVxell2VTFLNTM5Tm5pNFA0aXYtTFN4RkdpVF9vXy1hSVM2MjJWdGJNZHFuZw",
@@ -3312,7 +3311,8 @@
     "CBMieEFVX3lxTE1GcjhyME14eXVvTjR6Y2c4aGZVVFpfM21DSE1RVVI3THNvd1lhQU5udndWLTZxQldoSWw5TUpTbjlwcS1mOE5fRnVmRlJ6RHdtMXRfc3dOTHhPUVNTNkx5LVdxQ0JHbGdsbE9ncVFWVjZqOVJxbTc0cQ",
     "CBMiowFBVV95cUxQLW0xSVA4OXdJTkQ2RHRJcFJsa0Z0dnlZbFRhak9kbnVoNEllTkNZNjVhUHNreE1SQ2VZVmNMMnh1cmlnZ3o1em9hZUFUM1VCbmpqVEs4ZGRndlhyeE9aQkFISFkycmhpVWswd28wWmxyUzFWeHdaMENCdmItMzVGSzQxNTMxZlMzVVdLZXp6NmpwQ09xRkpmb0xDRWtUeGpxWm93",
     "CBMiekFVX3lxTE84eU8tQWFZSWNpaU1IaUV4Q2xvQXVLXzZQYmo2ZU1nZzdNUVdyV2dVTlVVM3lVV0tDN1hGUzdXTGhjTE54NXcxeFIxWHNEOHBMRV9Lc3h4elhUQzdISmdpLWR6cWxjN0hrcmd3b2VtTmFFdFFSMGlISUl3",
-    "2088627016740569215"
+    "2088627016740569215",
+    "CBMikAFBVV95cUxOMnhhaDdGUUFOdFdMZUpEa2t5UHJ6YVpYQmZ4cUtNNmpfTkRMbU5wcXYtdUxFNTY4U3NtSEdTRGppTWtCa1JOaWlHbEVyZ1JjTFZjRjNoZWZtaWFEblpmTnAyb1dMZzRDTFJfS3dYTl9MU2Z5QTdlUDFWbWZpcno5aGZZaWlIbUJFQVExSThnU0PSAZYBQVVfeXFMTmhZekJrTlh5QVpUSHNzRHNUMy03VTE4T0NLMmRIUm5YYXFjSW0tN2RFaW1CV1pULWNKY2luUld2eHZxdVNSRW5ZVFczQmstN3BFTkN3OTl0UFFETnp2WWNQUVlTSTJzOGk0b2owTW1FaTIzSXdjQmZkUnBWdlJFTXdOclQxNTRVVzlZaXN2dEFOTkZNcGRR"
   ],
   "daily": {
     "d": "2026-08-15",
