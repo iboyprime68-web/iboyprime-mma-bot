@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White was not a fan of a reporter asking him about Arman Tsarukyan being in the #ufc doghouse, but says the top contender is 'out of' it, either…",
-      "ts": "2026-08-14T22:09:59+00:00"
-    },
-    {
       "t": "Sparks fly in the #CryptoCom #UFC331 Press Conference 🗣️ @JoshuaVanBT vs @PantojaMMA 2 can't come soon enough! [ LIVE SEP 19 on @ParamountPlus ]",
       "ts": "2026-08-14T22:12:32+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Khabib Vs. Islam? DC Weighs In …",
       "ts": "2026-08-15T07:00:00+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan Looking for 3 UFC Fights Per Year as Champion",
+      "ts": "2026-08-15T06:26:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Club Xelajú vs. Diriangén FC Live Stream of CONCACAF Champions Cup",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjYUVnSE5saFRpQU1LZEF6a0tMVTVHWmFfcTV2Ny1Ra19vR21zeWZpMDAtYWpwcVFScWR0TnpXcVpsNlM5d0o1VUdidWhHdlBBX1dHUktuanVLcEJ0Qmlwa2ZxR1A5b1d4dlRKNGtrT2YwZXJEYmww?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-15T06:19:33+00:00"
-    },
     {
       "title": "UFC 330 Final Face-Offs",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91SXFfSkc4WEp0RW5yUzJLalBvek9tZ0lmYXc2QlV1UjVLQ282ZkpwMC1mR01ZaWRtN2Z2LVRwbFdmanM0OGF1emFpLWN0SGhfeEhZU2hNTWREbE5rUjQyemN6bWFjY2ozLXhCcTB6R05qRU5lbndKM0hfbw?oc=5",
@@ -2105,15 +2098,21 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-15T07:00:00+00:00"
+    },
+    {
+      "title": "Arman Tsarukyan Looking for 3 UFC Fights Per Year as Champion",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVERhWU5pdnNzQ3F2aGVxOGJ3WEtrVFdIamNVRmJjV1hheWUya2pIMThRZUhNdEJlN1dFalJXRncySjJYRVNzeXpNemhqbWZiUWZMTThLM0w5ZTJCakVUbGpKbktSRVl1SzEtME41QXZnUE9ZUkpKVGlZMm9DRnBzVERpNGg?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T06:26:00+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
   "hour": [
     "2026-08-15T07",
-    2
+    3
   ],
   "yt_eval": [
-    "2087699455441014833",
     "2087712224596877736",
     "2087718548634259622",
     "2087720801596256353",
@@ -3312,7 +3311,8 @@
     "CBMivgFBVV95cUxPWFFMUUgxT05BQ2dKNURPbEYxYzN2THJKMlBlTXVjbzR3d2dwS09aMXA4SzctUFNJcUxtdWZ2dVJJTVpWMF9tUWhfQ1ZLeGUyX2tYcElfUmNYTzY4NEpxZlVZd1pweDh1MjZyVkRVZGE4NkNfNlVnSlB1cDBTOE0yTFJrV1k0MnJBYzhGU0ZtbVVOY2l6c0huZ2syZWVRYkF2VGkzZE4tOGZkTElKZHh6ZVdaSmJINzRkNFFldy1n",
     "CBMijAFBVV95cUxQdFBSZU8xcFJhcDVBeEVSSWxrM3dWQ0c5bmpyUGZPOEVyTkZLekF6Z0ZUQUtBOXNIdDRqZndwNFdhNGN5aGMtemVnTDE1SVprVUg3LVhUZlBwZ1BwT1R2UlJlUVdYUFRqM3pmNjZfLW5WY3pQZEtLTlZVaUZPZGNWLXdEV2p4TkxYbU1BZg",
     "CBMimwFBVV95cUxNc2lRaTBVRzJrOWUtaTE2d2RDVUFwcHV0WWRIeFRydkE3Q3BFc3o4QXpVczZzcmZoaUx5ZUhMRGxfaENVOUljMmQxVEZUTXlTMmNGMGRPSUc5eDBiRHJfNEVEajBsa09Ra3VDTW1xYXB3ZS1ZTVE4YjIxVV9uRW5ncFRKX3l5LUdTT2JKZWRHLU50QmZMWG9ieW1mUQ",
-    "CBMirwJBVV95cUxPZ3FFRzFZTUJlclhlX1R5VTFaU0V2OE52dS1hdEdjM3lxVTczcHJ3V3VOa0dRMXY5SUV2d0l5S1ZLbmQ1anFEZEVrcmFXOTdkUU45ZWFTYzN3UDRyeG52M19rTlNDUmotaXc1ejFBRzhwWnVBMzM5dGxmX1FGSks3bk13UWkwNm1SN1VrZGtyS2RTaUhoU1BUWFRILXo5QW5qSDdWNnNSbUs4T2NUOXNYcFN2NnJ0QlRwR3Z0bDFOcmRiNUE4T05GZ0dObm1Hdm1EeGE3YTNYUkpvZkFsVGxTUzFjdjlRNVp5MU51ajJ0ak9sMDNqeEgzOXV5T1MyNXlzYnhJdEU4ZVRoeGVGVHl3enA5US1lV0RkT0VESm4tUkhaVngzQ0h4ZE9NQTc3NTQ"
+    "CBMirwJBVV95cUxPZ3FFRzFZTUJlclhlX1R5VTFaU0V2OE52dS1hdEdjM3lxVTczcHJ3V3VOa0dRMXY5SUV2d0l5S1ZLbmQ1anFEZEVrcmFXOTdkUU45ZWFTYzN3UDRyeG52M19rTlNDUmotaXc1ejFBRzhwWnVBMzM5dGxmX1FGSks3bk13UWkwNm1SN1VrZGtyS2RTaUhoU1BUWFRILXo5QW5qSDdWNnNSbUs4T2NUOXNYcFN2NnJ0QlRwR3Z0bDFOcmRiNUE4T05GZ0dObm1Hdm1EeGE3YTNYUkpvZkFsVGxTUzFjdjlRNVp5MU51ajJ0ak9sMDNqeEgzOXV5T1MyNXlzYnhJdEU4ZVRoeGVGVHl3enA5US1lV0RkT0VESm4tUkhaVngzQ0h4ZE9NQTc3NTQ",
+    "CBMihAFBVV95cUxOVERhWU5pdnNzQ3F2aGVxOGJ3WEtrVFdIamNVRmJjV1hheWUya2pIMThRZUhNdEJlN1dFalJXRncySjJYRVNzeXpNemhqbWZiUWZMTThLM0w5ZTJCakVUbGpKbktSRVl1SzEtME41QXZnUE9ZUkpKVGlZMm9DRnBzVERpNGg"
   ],
   "daily": {
     "d": "2026-08-15",
