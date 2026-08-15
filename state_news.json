@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=501390",
     "https://www.mmafighting.com/?p=501402",
     "https://www.mmafighting.com/?p=501404",
     "https://www.mmafighting.com/?p=501432",
@@ -893,6 +892,7 @@
     "https://www.mmamania.com/?p=464555",
     "https://www.mmamania.com/?p=464558",
     "https://www.mmamania.com/?p=464645",
+    "https://www.mmamania.com/?p=464696",
     "https://www.mmamania.com/?p=464706",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Ian Machado Garry name change explained ahead of UFC title shot",
-      "ts": "2026-08-15T11:00:00+00:00"
-    },
     {
       "t": "Dana White opens up on Reddit users’ “secret military technology” conspiracy theory for UFC Freedom 250 s",
       "ts": "2026-08-15T11:03:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Dog days are over! Arman Tsarukyan officially out of Dana White’s ‘doghouse’ ahead of UFC 331 co-main event spot",
       "ts": "2026-08-15T12:47:47+00:00"
+    },
+    {
+      "t": "UFC 330 MMA KO Staff Predictions: Makhachev vs. Machado Garry Main Card Picks",
+      "ts": "2026-08-15T12:50:35+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Ian Machado Garry's wife once named among 'Sexiest Women in the World'",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRnVCSUh4MTdZOXRtTHhDVkRSUFlmd2JlVzJQMDRfUlp4UjgyeGFmaXlYQTgxckNHdlgyOXRSRDM4VDl1Vm5Pczk4UUduREh5S05mMVdNOERoTzVmY2NsTFBORWVRSUY4eG9aUE9pNHk4TkhLTkU4enpuX2RmeDFxNXRzQlpSMjAzSlB30gGQAUFVX3lxTE1kVUJ4cW1EcjV6S25lNllFWWg0Y1pGenUtNDhHMlowemlIS3MzUjRyNDVweTFKeHFIQ2xhWjZBTTBtU3BkTnBoVm1hZ21NaEE3c2lSTV9ZOVFnN3E5MEFDTEpSN1Zmc2J2NFVYU2Z1b2hXdDRySVJ3YVdXS2tWX0NVdVY0QUlIZHVra0laRWFHMw?oc=5",
-      "source": "Irish Star",
-      "cat": "ufc",
-      "ts": "2026-08-15T12:00:00+00:00"
-    },
     {
       "title": "UFC 330 Cage Locks: Canada's Robertson faces tough road to history",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZzN0X2pRdmhXVlRSZWF2YTR4ak9vUHVWVHNwSVJmMXR1QTZyZ3FhOUZkOWVlcnIyUXdyUFRSUktaU2xTUXQ5RnhxTWk3elV0bW5Fc08waVdEaXpSdldDa01NLUNTWnZEOTRTaTk0V3l1ZnpoOEluUWFSQlFTTEkwNENaLURUWDk5YVVPYUNnYWlCbU5WeFdocW9ZczNUam90NGtpbQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-15T12:47:47+00:00"
+    },
+    {
+      "title": "UFC 330 MMA KO Staff Predictions: Makhachev vs. Machado Garry Main Card Picks",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTG4xUkZHOFVqMW0wZ3I5Z1haQXpDN2VCc0pyYjhvdXJXZmVQN3ZWZU5UenlGOHpJblY3RWdLVGtITUwta2lDaGVEaE45WEh1VktUUy1FQnhmZlRLejU3WTVhdlZld0o5eFJkNDFzdzhfYXU2Mk5tVnUyakZnWXZBajBwOXM2aERGNy1PU0ZEMWl6M092dmx5N2xIR2FyZzZITnBsOEtwVGgyQUFoVXBXcjJLVQ?oc=5",
+      "source": "Sports Illustrated",
+      "cat": "ufc",
+      "ts": "2026-08-15T12:50:35+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi6AFBVV95cUxPVXNiVWlFUmVSSE5yTUstczZUcVZBMlcxZzlUM25IYTRnNUNlemY1SDMtRTdpa3VwaExVM3h4Z291ZFM5VEEtcVJrX1VrS3kyQWk1UzRBeWlJYnVzbENBSmxjQzNnT3lMcmplZUI5b3dHWDVvcG9xQk1TcjdrSEVvZFNXZFdmdUowN2xtbE5qTmNIVFctUEFoOWJpYlN1NkxlV0hqRE5aUGlNWGVTRU9rMWl4WWZ5VkR6VVJpNWtUV0JCUGxMb1BxVFRHcWdxU0lsNGFHM2dYQU10YTZOOXIzMzhWc2FST3dl",
     "https://www.mmafighting.com/?p=504622",
     "CBMiwAFBVV95cUxQaVZmTEhxWTRORnI4ZEEyVVZTcDF5cVNYdFhnV1JyMmtxMG03WGpQTjhpTEtBejc2eFZwa1QtaFhHNHh6VXd3MVQ2cGlSbzZidVV2dWFDam9WNG9wUDNuY3JTZS1hc2ZmREhTaGpGaS1RTFlGVjNwREdRVTlndVpfYUlsUFQ0VEF5aW1XOEphM2VOVjBlaVRJQTBsd25uV3c2SjNPUTN4ZGZLNTJNVUtfNTloRGdMMGNaeDhvRnN0NWg",
     "CBMi4wFBVV95cUxPcjZFLWZaZFhBaG1hQXdPM3M4SFh5Zk5lMmdOZEtUa3kyT1RiMTZ2NlNKZkxIbk1MR1dLZzZGUkt0THRKOGRkb2h4N1c0Z2dvRWhLUUtTZ2ljMHd1Z0JyZTFCSnA2SXF4ZEk4akpNZ0hlT2J6ZlZKdjh1Wi1Fam56SDY4RGhqaGJVck9fTG1CSGhuNlVSTVRrZmc2alFieUotekRpMnRRTElfTUo3T0FsZE42M0VsZGg1cDR1bzIzYjhzQkRXcDk4MHdObmJtVGpVbm1XLUVGdG5GQU5QX0p0eEFhcw",
@@ -3312,7 +3311,8 @@
     "2088606755794165935",
     "2088607544843325492",
     "CBMieEFVX3lxTE82YWpjZzZBZ24zLUY2a19tNXBOSXhId285eVVXTUhGY05wY3paRUttVFlpZFVuVnBSZXd4U3ZrMGlSTUFiZTd3cmhlYkZhY0dKWVZNdUpBM1RYdG5XYXZxQ1h4RV81MmNqSHZYanh5SVptM1BFa1BMOdIBhgFBVV95cUxPS0hIOEVCOXJacTBqd3ZDRGRrMjBNX1NjcEVHX1ZlamQ4bEstMTdsVXhEcDVZMndKWnlaNFRfM0dPQWI2NVpaZV9PejhEc3BzWVlrR29IQmZ4V0k2ZWxTSGpNMVVNV1MybVV4VlRGcFowTFhicms0RDl3Qm5ibWVtZ2IxTnRLZw",
-    "CBMi5wFBVV95cUxOUlMtMTFtUUM2dE1POElxMnRRXzJsZW5RWXg3SWlOekNDZUNQMEdyS0s5ZlBGNktFNUE2RkJ6bm5oV3FQOHp6SnFmZnMxeVRHZE5TZWFIbjNtUFoxeUdTeTZoNVZ3VjBCVDlNcTBpUlJqYlFRYmpydWZfQ29nSjdGQTUyZVJGcmJtbVlrRTVpMklubGhBZlppQjFOdUF5ZWxRLUprbFFERG9FbFFpMUxBUld3QnQ3VnE0RmN0SE5vck5GN1dIdDgtSnAzMkF6V1c5NXNVX2E1UXJ4cEplQmdUS3o2XzRTUTg"
+    "CBMi5wFBVV95cUxOUlMtMTFtUUM2dE1POElxMnRRXzJsZW5RWXg3SWlOekNDZUNQMEdyS0s5ZlBGNktFNUE2RkJ6bm5oV3FQOHp6SnFmZnMxeVRHZE5TZWFIbjNtUFoxeUdTeTZoNVZ3VjBCVDlNcTBpUlJqYlFRYmpydWZfQ29nSjdGQTUyZVJGcmJtbVlrRTVpMklubGhBZlppQjFOdUF5ZWxRLUprbFFERG9FbFFpMUxBUld3QnQ3VnE0RmN0SE5vck5GN1dIdDgtSnAzMkF6V1c5NXNVX2E1UXJ4cEplQmdUS3o2XzRTUTg",
+    "CBMiswFBVV95cUxOTG4xUkZHOFVqMW0wZ3I5Z1haQXpDN2VCc0pyYjhvdXJXZmVQN3ZWZU5UenlGOHpJblY3RWdLVGtITUwta2lDaGVEaE45WEh1VktUUy1FQnhmZlRLejU3WTVhdlZld0o5eFJkNDFzdzhfYXU2Mk5tVnUyakZnWXZBajBwOXM2aERGNy1PU0ZEMWl6M092dmx5N2xIR2FyZzZITnBsOEtwVGgyQUFoVXBXcjJLVQ"
   ],
   "daily": {
     "d": "2026-08-15",
