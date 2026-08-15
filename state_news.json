@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Israel Adesanya picks Ian Machado Garry to upset Islam Makhachev: ‘I believe in magic’",
-      "ts": "2026-08-15T03:00:00+00:00"
-    },
-    {
       "t": "Mackenzie Dern vs. Gillian Robertson: Bloody Elbow staff predict the UFC 330 co-main event",
       "ts": "2026-08-15T03:59:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Khabib Nurmagomedov explains what Islam Makhachev has to do to become the GOAT https://www.mmafighting.com/ufc/504688/khabib-nurmagomedov-explains-wh…",
       "ts": "2026-08-15T16:03:40+00:00"
+    },
+    {
+      "t": "Stream Sports Online",
+      "ts": "2026-08-15T16:09:47+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Tune in NOW to the UFC330 Ceremonial Weigh-Ins 🫡 🔗➡️ https://UFC.ac/3U2lVeE",
-      "url": "https://nitter.net/ufc/status/2088389338321297504#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-14T22:16:33+00:00"
-    },
     {
       "title": "Arman Tsarukyan responds to Usman Nurmagomedov calling the ufc lightweight division fighters 'has-beens' as he enters free agency 'We've seen a lot…",
       "url": "https://nitter.net/MMAFighting/status/2088390106457731396#m",
@@ -2105,6 +2098,13 @@
       "source": "MMA Fighting on X",
       "cat": "ufc",
       "ts": "2026-08-15T16:03:40+00:00"
+    },
+    {
+      "title": "Stream Sports Online",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNN0dnTlJLdEg0b0hrbVpHbWNkZVp3WEVhWnlJWmhMVGpuV1NGb0tUbmJCUk14NzVPSksxTENHZk01N2tKT0wyckxncURBMU1uWUhpRk4xWXU1d1JBYWt0eHNYaTFOZVVrRXg4eVhkZjBmLWNyVG1yMVNGdF9uNWwzUEFpVnR4S0hSenpDblZrNzFQYWtJUTFfdVpGS21RZ3dCdWpsUlpLcXVtUFNFdXBMY1FldzRxdnprVkEzOTlQWjdzMzJVTEI1TVl0cw?oc=5",
+      "source": "Kayo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T16:09:47+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiywFBVV95cUxNMkdRRXpsRHY1RzM2dWIxSHRlZFFseWJhSkUwcTJHRlQyRWoxSFhITTBTY3BsMXFXNk9NcFB4R2U1OExmbHZ4QXQtMngxY0FNT0pLdTcwNlJ2OGRGb1BVcTNTcENscmZ1dEphaFo4RVBHVDJBUFJxRlpVeTVBUjBGdERHcjE4XzFfMkxkV19LUUlJakJubzlVVHZtQjBOUnR2SERqcVVVSnZKNlk3VW5icDdfbWpYc3g5ZjVWTjdDOGFfb1RrbGdickJ1VQ",
     "CBMijgFBVV95cUxNbEo1MnVqWmNpdWRhX09kMl9YZkFheEhpMHpWYnFpVGJleHJDNTNrY1FjTk9fczFFMU9kN3Q2Zm55WEE4MDN5QTlvNXRHSHJBSUVmUGhkY2otaVJtLXhaMHNzNnVHelR4ZTIzc283cGJsNG9sU05mdmtwS1JjQUktaFlEN001cE5uSHJyRDB3",
     "CBMi5gFBVV95cUxOUzJNek44dmhtTEltRTNuLUlBdW11cWE5ZVh0M2FScDJJV0JpZ2ptUlNPLXF5b0lael9VT2pfZzFZNW9kSi02dDZDcjFwTVJtVjZwWm1YdkQtZ3EwOUJvcFRfME9xSXZQc0NiZUdtNUdkOUpHV1JzcWhBTXZzX0k0VDdJdGZIUndPa25EekNVakV0WTFORjVTaXJWbkVKclFqa21mRzU0aHhFd1R1RWFPLXdzRm10VldyVENzWWQ3X1g3RFZXZFlVZXBsTXZUbjU2MVFaRUFubGQ5LTlCTUNUNXU1TldkZw",
     "CBMijgFBVV95cUxOcTBTLXNkLVV2Z3oxWUdKRjhBVjAxZnplRmp3LTM0aVBqTWNWWk9hckNmY1NyVlk3NWxFaHZXbGZKU1ZTMXlqWjRablM1QnpvYXR5X2wxd2RVWmJTZnZqU1pmbjZscWZfaEhkbi1FVGFQSEg2WFM5Mm5EQ25leDBJcl8wYzlrY0NmSFRFc29B",
@@ -3312,7 +3311,8 @@
     "CBMihgFBVV95cUxQVzg2SzkwUWNVM3d6WG5zR0ZoNXBxaG9qaHF5TW1ub3BjRFZwLVJlZnFxdEFXTm5DaUdCX2pMRU5sbndBdXBoMmhlZzkwWmpWZ1JUanJGRDRsZThrSTRwaGhHTE1zSGlaY0t1SFprRnZncFVTeW5DOFJ6Wm9EOUtEVDMxdVRYUQ",
     "CBMi1AFBVV95cUxPeFA0eU9CNl9zdUloaEF6bUVCVU9oazZRTkQzN3p4WmJLN3ZUY3R0WkdTNlFsQThIckI4SmtYTUZjWEhQMXVySDdPNkFBWlJLaGE4M3ZMN1N2azhtTFk2RkpCVy03QzVkMmN2YlRXQmlTQms4Z2Y4NWVaX002eXR5MnFJOTFVSVI0dVJ3N3FGal9xaHprSXhvNnJKWVRpNlUwZHh0emQ5MjI1WDVVYkJ3NjVZQVZ2Q0FYUmxuXzIwUFJDQ1owbVczaE9DX0h2aEgxX3Zhbg",
     "2088657507073835451",
-    "2088657885945569763"
+    "2088657885945569763",
+    "CBMiywFBVV95cUxNN0dnTlJLdEg0b0hrbVpHbWNkZVp3WEVhWnlJWmhMVGpuV1NGb0tUbmJCUk14NzVPSksxTENHZk01N2tKT0wyckxncURBMU1uWUhpRk4xWXU1d1JBYWt0eHNYaTFOZVVrRXg4eVhkZjBmLWNyVG1yMVNGdF9uNWwzUEFpVnR4S0hSenpDblZrNzFQYWtJUTFfdVpGS21RZ3dCdWpsUlpLcXVtUFNFdXBMY1FldzRxdnprVkEzOTlQWjdzMzJVTEI1TVl0cw"
   ],
   "daily": {
     "d": "2026-08-15",
