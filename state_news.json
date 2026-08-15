@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 330 lightweight star completes Paddy Pimblett-like weight cut by shedding 20 pounds in 48 hours",
-      "ts": "2026-08-14T13:05:01+00:00"
-    },
-    {
       "t": "Islam Makhachev aims for UFC record 17th straight win in title defense",
       "ts": "2026-08-14T14:47:57+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC 330: Conor McGregor and Jack Della Maddalena Predict Ian Machado Garry to Upset Islam Makhachev in Welterweight Title Fight",
       "ts": "2026-08-15T08:12:49+00:00"
+    },
+    {
+      "t": "Quillan Salkilld Reveals Extent of Knee Injury a Week After Submission Win Over Gamrot at UFC Vegas 120",
+      "ts": "2026-08-15T07:59:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Longtime teammate Daniel Cormier weighs in on Khabib vs. Islam hypothetical: Khabib ‘had something different’",
-      "url": "https://www.mmamania.com/ufc-330-makhachev-vs-machado-garry-live-stream-start-time-fight-card/464706/longtime-teammate-daniel-cormier-weighs-in-on-khabib-vs-islam-hypothetical-khabib-had-something-different",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-15T02:30:47+00:00"
-    },
     {
       "title": "UFC 330 Embedded, Episode 6: ‘It’s fight time’",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NdFUzRTFOdXJPQmp5SWRQWFZwb3Izd0tSSzVRM1pNSHJZZlJNdFNDclg4Zk4ydkkzZUFPcjdTNlFWNWZaZzU3RWVSOFdDcDg5bWw5Ymk3aEtwQWNRZTRQN0ZLSEFBMDZOS0FqUVBXUXZ6U3kwbjIwekJYTU8?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "The Sunday Guardian",
       "cat": "ufc",
       "ts": "2026-08-15T08:12:49+00:00"
+    },
+    {
+      "title": "Quillan Salkilld Reveals Extent of Knee Injury a Week After Submission Win Over Gamrot at UFC Vegas 120",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMEpPc1VMSjJUeWR0T21kaFpzX0lfeGw2TG94N3dfamJpcXA0cGdOb3Q1d2k4aTJEVU5EX2ZSczFLZEtnMzdCYUcybHR0YnU4UlM5bXd1Rk5rR0g2TEc2TFkxZ2Z6TkJtWGlwVk1MWEhEQkQza2syVGxiTlFkTHQxV1dKRXhRLXdUaUY3Umx3aEg0Y0xGVVNKQ0ZDbWxuVkxVcm9ZZEdrREJMUDZwWTc0QzAycVd3RThtYnRqaEVEanQ5ZVNPTnZkaEVkSl9jWFA1TUxMdEpHWXhBbHc1UklJMnVDLUJCQQ?oc=5",
+      "source": "EssentiallySports",
+      "cat": "ufc",
+      "ts": "2026-08-15T07:59:00+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/UFC-Edmonton-just-got-a-major-injection-of-Canadian-talent-202301",
     "https://www.sherdog.com/news/news/Uros-Medic-hid-knee-injury-before-30second-Daniel-Rodriguez-knockout-202302",
     "https://www.sherdog.com/news/news/Why-Ian-Garry-moved-to-Brazil-to-train-with-Demian-Maia-ahead-of-UFC-330-202303",
     "https://www.sherdog.com/news/news/Islam-Makhachev-vows-to-humble-Ian-Garry-at-UFC-330-202304",
@@ -3312,7 +3311,8 @@
     "CBMiqgFBVV95cUxPYXNaZkVmcFdiamxfM3RSNFg2bmc4U0xfRXFMckN2Z2QycERXZFBIMngxWDczVXVxd1J3TFRwQTJXdXJZbGNYeDh2RG80UU5jbUYzdmVDNzVwbGtpT0tTZzk5R0hVTF9na3l4bWV1WnVCVjZ5czNtcFlnakZOZTloNXV2UG53bHNad2Q4c2RYZjJNMzZaOUszZUEyWDNFSXlha1l3eGJ6aGZBQQ",
     "CBMi6AFBVV95cUxPVUNMUWNvcjBmUmtlTXlCZzBUVWV1OE92eEpRbl93djVzbi1xNTlmaWNBemtnenVxTjc4Y016cGtIM0dYSVFiMHFBVU9DZTlPM0xhYUpFdFZuR1JVZW9ZV2R0YzY2MVlqcjY1bHBIbkNTVmlHUVRRbm94QmF3YUxWZGJaSTBhM2JkSHczVWlxcVFLWnVJVmxFbEtzV0QyWmVva25LRFFzRXhtR3dvRHhZNW4tVzNmSE5DbmQ3THBqYXZQMFNSMGRjWHhTREI2cDhRWW13ajZQb0JDN3ZCdTF1c0pkcXI5NmJK",
     "CBMifEFVX3lxTFB3WGlKS2ZNQUozLVdDWkZ6RGliTlp4dUd1dGNDTy1RaDkwZERZOWhDY3FFdHVLUm9IMGh1ZzFqU1hseXo2bk1vVzlmSWtLUnZ0NHk3bW1IdUtNTEMwZVpuUTROR0ktQnl1Mi1ySkhJNzZLMFFqd25qOUVtZWTSAYwBQVVfeXFMTXZQV1I3a1hBQVd3Wk1md2MxRU5UZUtuZjM1ZmF2NHBNSFFYVDJwZnVoVWd4Qnh1WE85UENtMEc2bkdkOF95bjFySXBvaFFMVDYyUXBtcDNXNTFWSFBEMFdtOUFpR2h6MC0wQ1ZIM1VTN0JObTJkcGV5NjlJcUNSbC1zeWFsZWJneEJlLU0",
-    "CBMiggJBVV95cUxQZnFtRjZScExkNENKdUJWWEx4Tkg5YzVOdlhHVzFSdlgwRTEwWWpOWVhxaUZOMVZPaWJ2V0FWQXpCTDVXZS15YkE3bENqUFFEdWxfSWNmSUJQRjFQdDllVHY0Y3BNU1lsN1Q3SDhzRnFGN3c5Q241TVNIenFuNFk3YUVRN1diVnBFUXNybHVaaTlwcWs4Zmo5bDR1ZEZfam5XT3Z4QUF1dndlNTVGbFVMOURMTllyT2RHWkNVM3JmREZhU3c2ekxxemJubW5YR1MtbmRwOHNFRlpiMEMxTjN2OXhXMEJmZGZiSFpiOVY0M2liTmp4Y2lJNmEtcG04bnZ6X3fSAYcCQVVfeXFMUGpFY0lvaFFtbHhVRldueW5NMWFUOVU4Q1Zsd0hEM28wUUhWdWdiYnNWbkktbE1kU3o1bnhGeWlNWjhMMnNFb21CdmhxZDRMYm50b1VnVjV0WHhEV3ZJdlNzdGdvdlh3OFA5Rm5UYW5mbllUYmxXY0N0UldJM0h2VGZza2Jsb1FUek0zams1QXFwa2pUUUR3NUJGam9tMXpBOGZ0Nkgyd3R3OTJIM1dkU0w2MHJFVlVVMVdxVnBVeVZoaHBXaDRvdlV5ZVZfUWp2WVlpWHVhWU1OX1VfUTh1OXZwaWoxV2VnMHRHamMxdDVFYlBwVHI4X0tUNXlqQnQ4Ykc0Szc5VTA"
+    "CBMiggJBVV95cUxQZnFtRjZScExkNENKdUJWWEx4Tkg5YzVOdlhHVzFSdlgwRTEwWWpOWVhxaUZOMVZPaWJ2V0FWQXpCTDVXZS15YkE3bENqUFFEdWxfSWNmSUJQRjFQdDllVHY0Y3BNU1lsN1Q3SDhzRnFGN3c5Q241TVNIenFuNFk3YUVRN1diVnBFUXNybHVaaTlwcWs4Zmo5bDR1ZEZfam5XT3Z4QUF1dndlNTVGbFVMOURMTllyT2RHWkNVM3JmREZhU3c2ekxxemJubW5YR1MtbmRwOHNFRlpiMEMxTjN2OXhXMEJmZGZiSFpiOVY0M2liTmp4Y2lJNmEtcG04bnZ6X3fSAYcCQVVfeXFMUGpFY0lvaFFtbHhVRldueW5NMWFUOVU4Q1Zsd0hEM28wUUhWdWdiYnNWbkktbE1kU3o1bnhGeWlNWjhMMnNFb21CdmhxZDRMYm50b1VnVjV0WHhEV3ZJdlNzdGdvdlh3OFA5Rm5UYW5mbllUYmxXY0N0UldJM0h2VGZza2Jsb1FUek0zams1QXFwa2pUUUR3NUJGam9tMXpBOGZ0Nkgyd3R3OTJIM1dkU0w2MHJFVlVVMVdxVnBVeVZoaHBXaDRvdlV5ZVZfUWp2WVlpWHVhWU1OX1VfUTh1OXZwaWoxV2VnMHRHamMxdDVFYlBwVHI4X0tUNXlqQnQ4Ykc0Szc5VTA",
+    "CBMi5gFBVV95cUxPMEpPc1VMSjJUeWR0T21kaFpzX0lfeGw2TG94N3dfamJpcXA0cGdOb3Q1d2k4aTJEVU5EX2ZSczFLZEtnMzdCYUcybHR0YnU4UlM5bXd1Rk5rR0g2TEc2TFkxZ2Z6TkJtWGlwVk1MWEhEQkQza2syVGxiTlFkTHQxV1dKRXhRLXdUaUY3Umx3aEg0Y0xGVVNKQ0ZDbWxuVkxVcm9ZZEdrREJMUDZwWTc0QzAycVd3RThtYnRqaEVEanQ5ZVNPTnZkaEVkSl9jWFA1TUxMdEpHWXhBbHc1UklJMnVDLUJCQQ"
   ],
   "daily": {
     "d": "2026-08-15",
