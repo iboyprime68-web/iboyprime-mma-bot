@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 330 live updates: Predictions, time, stream for Makhachev-Machado Garry card",
-      "ts": "2026-08-15T19:09:22+00:00"
-    },
-    {
       "t": "Who Are Ian Machado Garry’s Parents? Everything to Know About His Family",
       "ts": "2026-08-15T19:10:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC TONIGHT: Fight By Fight Preview | UFC 330: Makhachev vs Machado Garry",
       "ts": "2026-08-15T20:53:40+00:00"
+    },
+    {
+      "t": "Dana White Says UFC Could Announce Its Next Impossible Event",
+      "ts": "2026-08-15T20:56:52+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "🔴 UFC330 preview show with the fabulous @FarahHannoun and @DanTomMMA is ON NOW! Watch here ➡️https://www.youtube.com/watch?v=C3RmGBxiQc",
-      "url": "https://nitter.net/MMAJunkie/status/2088718828029223199#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-15T20:05:49+00:00"
-    },
     {
       "title": "UFC Champion Mackenzie Dern Sends Fans Into Frenzy With Swimsuit Photo",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQM2hfTTE4V0xoR1pSSlh1Wk9KMVdPWmZxVEplYkhQQ3F3MEYtQndQZUlJOTdpOWM2VTV4bWpUQVZzemxfVWtSSmxodFZRYzR1b2VqRkdGWlZfU1JMNnZUZGxrV3NxUG9WTmE4WWZzYTRYZFc3VUVaRFFyWHdsZjNuQnREYlZjWnRRSHctOWlhdDNXVjEwdlM1VWlB?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-15T20:53:40+00:00"
+    },
+    {
+      "title": "Dana White Says UFC Could Announce Its Next Impossible Event",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV2ZBeDNBWVBsMmJJa2U5enJBd0ZVRzFTLUdKQUFiSzF6emFTWXdVczNILWxCMWRCM1cwUVpOcUl2VmJTYU5ra1UzZlJ3U2RaenBZVEFQamdlTGRLRjluUXNWbjhkUW9MZ3lQOHpvMUhXVTlyNXlkSGZxRmdqZlVvdXpNdTlRR3ZP?oc=5",
+      "source": "MMANews.com",
+      "cat": "ufc",
+      "ts": "2026-08-15T20:56:52+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiigFBVV95cUxOd3Nma0dfNWVENElVOGRJbGdoMmVxcFI4aWx1Rnl2cTdUSUsxNkNrcVlXa2liU3NkTXo2UFJYVTdCYjBQbFlIUngxaFlVclktYW5qYkM2VDhyVHVfVGRlMjJ0dUVCUlVxcThkeTBSUGpYTXVJTTNiRlpUblQ3NlAtNjFsTUNYWEhfeHc",
     "CBMitgFBVV95cUxQbEJwclNUTGZvOHBITVVoQWR1STUySEFsT3BKdXozS21HdkhoRGtPX0dtYXBPYmdjdFNwS2prWWdhN3J4Y1BSUmxxTnM0VjdNaTl4VnNGNms0TUFSR3hnazNwYzlqbDBMRTRLMFlwUXc4cWRhVzEzTFlaWmR1aGRlUWFleEZISkk0VFRjQlJkTFpQTFBWZGtHSGRQUFNzSGoxZk9aajZZTmJROThhZGRoMnpCN3hzdw",
     "CBMimgFBVV95cUxPM0xTRlY5TWNDNExBNU03VU1LbEpJeTZiV3liWFQ4R2VzcDR4TlM0UUtEb1cyVG5VSHhoWFRHbEZPWkY1dGlFZWo0V3NXWXdQZi1ZY3ZlbUQyay1adTB6VXNPMDUydldGT3U2ZTBKcTRyTW1iS05VN3lJc1B5bFdBZ3ZUTkoxa1N2QmdJTWkyQTN5NUZ3U3hWeldB",
     "CBMiWkFVX3lxTE9IeHNPbEVWMVpnVDFwcDZFRElNZmJhTkpWdVZLTEtJTmVqS0NSeG9TRWRzU3lCZC1IRWFzWXQ0Ukp0emlwenI5Z0x3dXp3WWFSMlJJTHpSdHd5QQ",
@@ -3312,7 +3311,8 @@
     "CBMi9wFBVV95cUxQYl9tR2ZDMFZLUWV4NHZzM3pRajM2SE5qS1FZazFaUTJMc2VnTUt6a0ZXS0kwZG9vX0s2cm1TN3lrTFc2MXJmUi11cHRGRFZQaVdIaDVrU2RKTEx5enhyMDBFbmxkZC1mMlFBTlFOelhGckItZkhHTnRGMVhvU0RCelk5ZWtPQl92eTFRdmlZS2Y0VWZFSjQ2NDlNQXhpWXJVSEZWY2VwcWw1Q3hlcm1kMlplZkpwWkpKa2ZIdnh0VkZsaWRkcGYxWXE4aVFvVDNxZnFCYmJYMFMzNTNqWkdlMVBhZmQtS0ZIX0wyWmtqRklVX3VpU2t3",
     "CBMilgFBVV95cUxQYVpieTBaWWlIdVktOEljTWFSNTFSY3ozRjhOVkxzd0s1a1lRX2MwTmRhc0NfU2RnNzlOVnFmaGZydnRNc3QzRkNrdEdJZlh1QVh3dHpQR1FISmFQRDc0NWdfdVF1YVdKNUJFdWdEeEVpNlZ2U0hEQnhzZUlSbGhJcUY5MFhVUFJUbXFMd0xEN2NNQnh0TEE",
     "CBMijwFBVV95cUxOcU1ZdFltbTFtV2RueThmdG5heFVLRGcxQ0VDNkxDQU40dk9FMUpKTTdDdHpqNmpRMDNIeW5Ra1JtOUdmbnpDdHdsd0tJM215bmV6VTV4TjBxQnBVRGdtN2xoR1pkaWJsdlZMWEVURU53U2loX3FUUGkxYU5hSHRydFRMNV9vRV9lb0I5c2tPTQ",
-    "CBMisgFBVV95cUxQMTNZeUF5ZmZRNWI3NWxJWmo0UFlGTm9VQXVtLWNjTU1jY2dvMUd1ZFN0b2lCTU55dmszS0FsSDBTOHlfNEpkOWJKam1abGpzNXlMUVE4TzIzMEMtZkxsLWtvQVNfRnZnNmU1RUc4Wm5lSWFkSE90UVl5NTRRZzJIdUtEVDJoUHFTd2R4eXdSWktDMWNjbi1XZ29ZMDdLQU1KNjBTWXJfNkp2VnlSSDJ3MEVB"
+    "CBMisgFBVV95cUxQMTNZeUF5ZmZRNWI3NWxJWmo0UFlGTm9VQXVtLWNjTU1jY2dvMUd1ZFN0b2lCTU55dmszS0FsSDBTOHlfNEpkOWJKam1abGpzNXlMUVE4TzIzMEMtZkxsLWtvQVNfRnZnNmU1RUc4Wm5lSWFkSE90UVl5NTRRZzJIdUtEVDJoUHFTd2R4eXdSWktDMWNjbi1XZ29ZMDdLQU1KNjBTWXJfNkp2VnlSSDJ3MEVB",
+    "CBMiiAFBVV95cUxPV2ZBeDNBWVBsMmJJa2U5enJBd0ZVRzFTLUdKQUFiSzF6emFTWXdVczNILWxCMWRCM1cwUVpOcUl2VmJTYU5ra1UzZlJ3U2RaenBZVEFQamdlTGRLRjluUXNWbjhkUW9MZ3lQOHpvMUhXVTlyNXlkSGZxRmdqZlVvdXpNdTlRR3ZP"
   ],
   "daily": {
     "d": "2026-08-15",
