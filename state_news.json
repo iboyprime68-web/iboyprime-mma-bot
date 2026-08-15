@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 330 Preview Show: Can Islam Makhachev beat Ian Machado Garry and make UFC history?",
-      "ts": "2026-08-14T19:30:00+00:00"
-    },
-    {
       "t": "Video: UFC 331 on-sale press conference with Van, Pantoja, Tsarukyan",
       "ts": "2026-08-14T19:55:17+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC 330 Cage Locks: Canada's Robertson faces tough road to history",
       "ts": "2026-08-15T12:11:00+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan looks to the future ahead of UFC 331 return",
+      "ts": "2026-08-15T12:14:23+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Raul Rosas Jr’s Brother Among Six Fighters Fired During Recent UFC Roster Purge",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNM1NlMDJmNGhTZUJSZlpxNEsyWUNZVGJwRl9nWTZPdEdvZENPdGUySWVTdWxMZy1OZXdWXy1MYVBWV1pqRWhWWThjb1ZlVWszeVBZTVo3Y3dmZkdsc0EwR3FHeVdCbHVDalpGMnN3RFhKR0NRYVdvSVFkU1BPdjhjMDNZLTNOdi1YaXBfTlhMeU4yODdDbHFtZzZyc3R6bHlUWkNBc3RTQUdSa1luTnJuZEZhWDlRelNyTlQ3MW44VVpVRTRH?oc=5",
-      "source": "EssentiallySports",
-      "cat": "ufc",
-      "ts": "2026-08-15T11:11:00+00:00"
-    },
     {
       "title": "WWE Space Being Considered As Part Of Major UFC Las Vegas Expansion",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdm1aek4tY1FCaW5GTC1NLWtxZEpTWk8xdF9XNzFpRDh0Y2VWUkFfZVVzaHlRa1ZHc29ZZHFwOXhrRFhqNE9ocDJibU03M01abnlqOXY1VHlXb2N1YVBFV2phUUpxUVV0TjFrRGtjZnpZMWtPQjZzUnF0MS0xeWF4X3lqUVhoc1hsTjc4em5VWmN3enU4dGc?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sportsnet.ca",
       "cat": "ufc",
       "ts": "2026-08-15T12:11:00+00:00"
+    },
+    {
+      "title": "Arman Tsarukyan looks to the future ahead of UFC 331 return",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ1JWYWZHX0I5c0NxZzRmQmFzODJfMkROVnBDZEJvY044VnQtZG82M19qdHFuUTZuSUlmek80WkQ1aUVsaFpPbmlaa3h5UlBBNHVHeDB2a0ExcjhzbUxHa0ZUeTE0cWU2MW1WZm90ZWRFTi1DTndEODRYSUQtX0oxVTg3amh6dXFPeUhJM1I2TG82SG45YmtNS1I4TFA0Q1pkdGJQa29DdnpWYzYz?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-08-15T12:14:23+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=326374",
     "https://bloodyelbow.com/?p=326249",
     "https://bloodyelbow.com/?p=326310",
     "https://bloodyelbow.com/?p=326286",
@@ -3312,7 +3311,8 @@
     "CBMiugFBVV95cUxObUo5blNqWGVxZHlYZUpZRldLeGtnc1ZjcGNiUVlQTld5TjJqUjNfamdzcnZjUjVtZ0U4U3lrMVplRUlqbW8weUE0aHJ0TWNKRG5fXzNzakJLOUNPZ0NBZEFoYnczMHpqYmhQdGg1dEo2M3RYWUhEVDZTN3J1aWhEUVJQMUROdkptMi1NaGhESjczMFU4RlZRaFI0a1ZhalFBSmtxTm5lRXhoSGtOQ0ZZeV9oUzFJR3JzMlE",
     "CBMigwFBVV95cUxOemRXNzlNU0dlTHRjZUxWbHp3cWVXZUxIT3BrWmlSc3FnMlJBbHlUNEF2cEtoaS1Gd2xhS3pnMERkVXNQbFEtdnlWUnpVNVhiTnlCdjdYaXF6TFhhMmJvc2dncDJWb0doQndhZWItYWxxSTFmWklVN25zeG9RMXJHZTJnMA",
     "CBMiiwFBVV95cUxQRnVCSUh4MTdZOXRtTHhDVkRSUFlmd2JlVzJQMDRfUlp4UjgyeGFmaXlYQTgxckNHdlgyOXRSRDM4VDl1Vm5Pczk4UUduREh5S05mMVdNOERoTzVmY2NsTFBORWVRSUY4eG9aUE9pNHk4TkhLTkU4enpuX2RmeDFxNXRzQlpSMjAzSlB30gGQAUFVX3lxTE1kVUJ4cW1EcjV6S25lNllFWWg0Y1pGenUtNDhHMlowemlIS3MzUjRyNDVweTFKeHFIQ2xhWjZBTTBtU3BkTnBoVm1hZ21NaEE3c2lSTV9ZOVFnN3E5MEFDTEpSN1Zmc2J2NFVYU2Z1b2hXdDRySVJ3YVdXS2tWX0NVdVY0QUlIZHVra0laRWFHMw",
-    "CBMipAFBVV95cUxNZzN0X2pRdmhXVlRSZWF2YTR4ak9vUHVWVHNwSVJmMXR1QTZyZ3FhOUZkOWVlcnIyUXdyUFRSUktaU2xTUXQ5RnhxTWk3elV0bW5Fc08waVdEaXpSdldDa01NLUNTWnZEOTRTaTk0V3l1ZnpoOEluUWFSQlFTTEkwNENaLURUWDk5YVVPYUNnYWlCbU5WeFdocW9ZczNUam90NGtpbQ"
+    "CBMipAFBVV95cUxNZzN0X2pRdmhXVlRSZWF2YTR4ak9vUHVWVHNwSVJmMXR1QTZyZ3FhOUZkOWVlcnIyUXdyUFRSUktaU2xTUXQ5RnhxTWk3elV0bW5Fc08waVdEaXpSdldDa01NLUNTWnZEOTRTaTk0V3l1ZnpoOEluUWFSQlFTTEkwNENaLURUWDk5YVVPYUNnYWlCbU5WeFdocW9ZczNUam90NGtpbQ",
+    "CBMirAFBVV95cUxOQ1JWYWZHX0I5c0NxZzRmQmFzODJfMkROVnBDZEJvY044VnQtZG82M19qdHFuUTZuSUlmek80WkQ1aUVsaFpPbmlaa3h5UlBBNHVHeDB2a0ExcjhzbUxHa0ZUeTE0cWU2MW1WZm90ZWRFTi1DTndEODRYSUQtX0oxVTg3amh6dXFPeUhJM1I2TG82SG45YmtNS1I4TFA0Q1pkdGJQa29DdnpWYzYz"
   ],
   "daily": {
     "d": "2026-08-15",
