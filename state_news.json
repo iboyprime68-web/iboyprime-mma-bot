@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=501698",
     "https://www.mmafighting.com/?p=501701",
     "https://www.mmafighting.com/?p=501704",
     "https://www.mmafighting.com/?p=501720",
@@ -184,6 +183,7 @@
     "https://www.mmafighting.com/?p=504866",
     "https://www.mmafighting.com/?p=504893",
     "https://www.mmafighting.com/?p=504915",
+    "https://www.mmafighting.com/?p=504954",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Polymarket Promo Code STREET: Get $20 Bonus for Eagles-Ravens, MLB, UFC 330",
-      "ts": "2026-08-15T19:49:49+00:00"
-    },
-    {
       "t": "Michael Morales reveals why he doesn't like Ian Machado Garry as he heads into UFC 330 backup position",
       "ts": "2026-08-15T19:57:12+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Danny Silva GoFundMe Hits $8,301 After UFC Featherweight Is Sidelined By Blood Clots",
       "ts": "2026-08-15T22:01:44+00:00"
+    },
+    {
+      "t": "UFC 330 video: Jeremiah Wells comes back to put Myktybek Orolbai to sleep with shocking ninja choke submission",
+      "ts": "2026-08-15T22:14:23+00:00"
     }
   ],
   "digest_items": [
@@ -1825,6 +1825,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-15T22:01:44+00:00"
+    },
+    {
+      "title": "UFC 330 video: Jeremiah Wells comes back to put Myktybek Orolbai to sleep with shocking ninja choke submission",
+      "url": "https://www.mmafighting.com/ufc/504954/ufc-330-video-jeremiah-wells-comes-back-to-put-myktybek-orolbai-to-sleep-with-shocking-ninja-choke-submission",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-15T22:14:23+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -1833,7 +1840,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiqwFBVV95cUxORVJyZDRSVERTakl0VkJ4X0FCTjNONzUtTVRXNnhZUG1RLVJwYTk5Mm1wNTVHNnhtU0wzU0V3ZGhiZXBJY3oxVVVvLXFZRkFHRXBiRGNnSjROSmxsUHB0aS01eEJ5ajRUbmNyOTVPcXBKcDFSWDJrZGpLQ0dhM3g2YXNxS3l0TzBFR1FUMnM5Zkx5dnFQSzhpLS1zNEhGaThvcVVZWl8zSTJQWTTSAbABQVVfeXFMTmdpNE9HNFRSUWRIeS1zalFMS213a015S0xjcW5IbXBLamdrWVpJVmZraTdEc0ZwRWI4LV96TmozNWdBQ3Fjb1VGQlZrT0ZZNFRWUzlBbXY0VVVGdUFpMkN1cnpTb3o2OTFEVG5uY3ppVDRtb0JyOFRvTFdaUU5CREN4T1pwX2VicFF4NUYtOElZcm9pVEp3NjNxbEdYazZLTURoNTlTZjNUbzdRZF8ydVg",
     "CBMioAFBVV95cUxNeUtldnpPOWlkcjZ3bW9mcDRYUkIxX3lWbU85T0NGY3RpMjJpUldCMDkwbXUwRjhEVVFTVk9na2I1Q1RNbDhwclhWVUxhUmhxRExnRDMxZi1KR1ZoMkwxc1BXb2h3MFp3bXo2SExiRHFmZE5FU3JyblRQUDFCVy1iRmltVHRoYkh0UnZyZEJqMU01YUJRYlZQLXJCVmFoN2p1",
     "https://bloodyelbow.com/?p=326546",
     "CBMiVEFVX3lxTFBRcTBsUXFnRDI3UEFYMjNaMU8tUWZXVFFRWmhHN083OVNTUHlSc1dqQjl6R25aaVlwVWFFUnFJdURqdEdmQ0JFaVlZbUdoVk9pekdKNA",
@@ -3032,7 +3038,8 @@
     "CBMi2wFBVV95cUxNSVhTNVRabFo0WTlpQVVWSVBiQVh4ZnVTWkQxN2hPSkVTbXJLdzlzbzBDcWVwYkpkZEJNdXJVRTVqVnVXejlpUGh0cHZfYlJSZW00T01EMFlmWTVRY1F3Y3h5OXhFZDg5VDgxT1BNZnJDZEJEdWVwM3ZwREU2Qi1rcEg3MkZ4LXN0WnY0aFNrT19VR2ZXMmNnTm9jc0lfczNid0JUQUxKcGdLaUJTcGJWSklFV0laSDg2MHFDTlA3ZzJRYWpDR0toa0xBSllQc21La2g3MUJaLUFkY1k",
     "CBMinwFBVV95cUxQYUNQTWpTbUFudVFhT0lLeFZIOUtFekpLZWpGVTZGeEJMSjlsMnpFUW5vWjR3Y0Nac0tNOGs4MVQ4TS1KY21OOGFvVUhzLXBJNms4Z2JtWW9ZTUwxZUFuTF80V1QtRlIybmVPZzJMVWFTdHdYQUNUdVBzWlFlUHQ0emFZM0RZaVVvM3B0aGdpcWNmY0FlbngzRVB6WHpjNmc",
     "CBMiqgFBVV95cUxNblJGZ25HUjA1MV9Kc0lUVUliSktqS3lyVzFQdE1GT3N3eU5LX0tuVnpGSElmTng3U1ZUdWRxNTZRUVNsX2lwUjFyZXFfYnRWNW1jUnM2aUZYLWNvNE9WWWlQc2tYMTlTSi1zWTA3TEpZX1dVXzllN285elJfdFBqX25Qa0gzb3NiNmlOdFlCRWpPUGhrQW9ZN1Azazd6SHBsLW8tc1VrX0JZdw",
-    "CBMipAFBVV95cUxNalhvWU5fUXNTZmpLSFVLU2tDeUFodEJaNzFldW5IaXpvUW9FVXBwZmxobWk3ZjlHdzB3ZFVCV1hrS0cyMnZEcHhBc2l0S3NyMzdRYTBJY25ETUNWVEZjeXVHZHZnUDhBOTBHcWJjazAtRHZsY29fOUt6ZDB0SHB5eGpxY0M3Yjd1ZjVDeWdsVGszdHZ1VkFXNkFmeXlvZFpQM2pfWQ"
+    "CBMipAFBVV95cUxNalhvWU5fUXNTZmpLSFVLU2tDeUFodEJaNzFldW5IaXpvUW9FVXBwZmxobWk3ZjlHdzB3ZFVCV1hrS0cyMnZEcHhBc2l0S3NyMzdRYTBJY25ETUNWVEZjeXVHZHZnUDhBOTBHcWJjazAtRHZsY29fOUt6ZDB0SHB5eGpxY0M3Yjd1ZjVDeWdsVGszdHZ1VkFXNkFmeXlvZFpQM2pfWQ",
+    "https://www.mmafighting.com/?p=504954"
   ],
   "daily": {
     "d": "2026-08-15",
