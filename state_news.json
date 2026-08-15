@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "ONE Fight Night 46: Hemetsberger Vs. Diachkova – Results And Highlights For Every Match",
-      "ts": "2026-08-15T00:48:32+00:00"
-    },
-    {
       "t": "Mackenzie Dern Credits Poker For Mindset Shift Ahead Of UFC Title Defense",
       "ts": "2026-08-15T00:53:51+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Arman Tsarukyan Looking for 3 UFC Fights Per Year as Champion",
       "ts": "2026-08-15T03:26:00+00:00"
+    },
+    {
+      "t": "UFC Vegas 112: Manel Kape post fight interview",
+      "ts": "2026-08-15T02:37:43+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Video: UFC 331 first faceoffs with Van vs. Pantoja 2, Tsarukyan vs. Ruffy",
-      "url": "https://sports.yahoo.com/articles/video-ufc-331-first-faceoffs-213532425.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-14T21:35:32+00:00"
-    },
     {
       "title": "Dana White forced to step in as brawl almost breaks out at the UFC 331 launch press conference",
       "url": "https://bloodyelbow.com/2026/08/14/dana-white-forced-to-step-in-as-brawl-almost-breaks-out-at-the-ufc-331-launch-press-conference/",
@@ -2105,6 +2098,13 @@
       "source": "heavy.com",
       "cat": "ufc",
       "ts": "2026-08-15T03:26:00+00:00"
+    },
+    {
+      "title": "UFC Vegas 112: Manel Kape post fight interview",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQU0o1XzFFZU1nTVRXN00xYzAxbVhock5tY29WQ3o4eXY3ZWJhUXZqMzB5d09vR0w0cnczdnZ6MGpkWk1uVEpFWndGaHlLSHNMUDlyeDFuNWk1b0x2VWZmbnMtOXpMQVQyS2hiV3NlTEREbmh4QjNBTGpyaE9ObjhyZE1NY0JwdTNnd2laQg?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T02:37:43+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -3310,7 +3310,8 @@
     "CBMijAFBVV95cUxOa0NhbjdsVHlpbC1ueU9ETExxVXdNTlkxZFdROUlZOFF6WnAtTm5XcTlsNEZReVQ5UU13bTQxdkRhUXRKU3JWYlBWOU5Zd0lMTzZ4YVBJdlZYOHZWbmtJNm9NRURMaXhOWTc5bG53a3hPbjV2QU5XVU1QYlNXX0dvcGc5X1NYZmV5azBvdA",
     "CBMi0gFBVV95cUxNVUttaFF6M1Z1bmNSYXlSQ0p6dzVGaTA5dWFqMnZIU0tyV0VqWkYzZGJzVFRFY2Y4UXA1SjdPT2M0RWE3cU5ZMVVhMHlwaV81TlZFUEd3cmtSVWJSVjZGbGRfdFhPTzF2S2VmOXdYckZMYUktc0FDTUcwZXk1NzBoa2dNTUI5S21xUEdaS3E5c3l3ZHU2eElBTExPLWpEeTh5dUxWS3llbE1SSkdHZElIY2NqaUN1aUdIVjBMZ2paa2pyRWVHVUpZQXhKOEU2eXJCSnc",
     "CBMi1gJBVV95cUxNZV85ZTYtSjd1STlQMnNaZkRLVWU1bE5xam9hbVRQUTBzbGNpSGRNbHFiMmI3UVU4LTEwbTMtRmxuMlhGQzlQZjhja09FVHVhSXlOMDBxb25ZMFB0c0Q0Q2pJeXdHX2w1NGtLZllfR0tYSlJqa2RYNDBCODVxOWtrM2t0RW1KVnZVbmh6TmdtRFZ6N2x3dVUyMmN1VHpRZGNCS2xRUjJCeG5ROFhVenREZ2c1bTh6aEZjMzAxZFprRDZhS2dfTzkzVWdYNTRMY3NzR2llN3dSX3pZbTN0STFid212QksyWjhHZzdaM0V3XzhmekgzeEZMSjYySDVvWVRQc0tENE41SUdlbEhYZjVnaW0tVUhwc29id3lJbVFtYzZ0OUVuOGpTT2pJQV9yZ05tMmxPY0Y1M2ljYkNMcHN3TlVHRnhfZkNBOVVEaURmY0NzakRHblHSAdYCQVVfeXFMTWVfOWU2LUo3dUk5UDJzWmZES1VlNWxOcWpvYW1UUFEwc2xjaUhkTWxxYjJiN1FVOC0xMG0zLUZsbjJYRkM5UGY4Y2tPRVR1YUl5TjAwcW9uWTBQdHNENENqSXl3R19sNTRrS2ZZX0dLWEpSamtkWDQwQjg1cTlrazNrdEVtSlZ2VW5oek5nbURWejdsd3VVMjJjdVR6UWRjQktsUVIyQnhuUThYVXp0RGdnNW04emhGYzMwMWRaa0Q2YUtnX085M1VnWDU0TGNzc0dpZTd3Ul96WW0zdEkxYndtdkJLMlo4R2c3WjNFd184ZnpIM3hGTEo2Mkg1b1lUUHNLRDRONUlHZWxIWGY1Z2ltLVVIcHNvYnd5SW1RbWM2dDlFbjhqU09qSUFfcmdObTJsT2NGNTNpY2JDTHBzd05VR0Z4X2ZDQTlVRGlEZmNDc2pER25R",
-    "CBMicEFVX3lxTE9maGQtUWxQbUFURm40clVrQmJJbWkwbHBha0ZwSjBxdVpUMEQ1dnl4cFlhYy14S0RobC0taGJ3blVyMG0xaDk3RkpacktnSnhGU0NRLUdjUzNEVE54dzhpQXVDdFlCUFhyMWJYV3FuLXg"
+    "CBMicEFVX3lxTE9maGQtUWxQbUFURm40clVrQmJJbWkwbHBha0ZwSjBxdVpUMEQ1dnl4cFlhYy14S0RobC0taGJ3blVyMG0xaDk3RkpacktnSnhGU0NRLUdjUzNEVE54dzhpQXVDdFlCUFhyMWJYV3FuLXg",
+    "CBMijAFBVV95cUxQU0o1XzFFZU1nTVRXN00xYzAxbVhock5tY29WQ3o4eXY3ZWJhUXZqMzB5d09vR0w0cnczdnZ6MGpkWk1uVEpFWndGaHlLSHNMUDlyeDFuNWk1b0x2VWZmbnMtOXpMQVQyS2hiV3NlTEREbmh4QjNBTGpyaE9ObjhyZE1NY0JwdTNnd2laQg"
   ],
   "daily": {
     "d": "2026-08-15",
