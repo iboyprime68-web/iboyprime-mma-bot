@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Watch Khabib telling Dustin Poirier he ‘taught’ Islam Makhachev a lot seconds after he tapped out",
-      "ts": "2026-08-15T01:00:00+00:00"
-    },
-    {
       "t": "Belal Muhammad could see Islam Makhachev submitting Ian Machado Garry late",
       "ts": "2026-08-15T01:20:19+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Hall of Famer and former welterweight champ Matt Hughes backs Ian Machado Garry to upset Islam Makhachev tonight at #UFC330. 🏆 (via @MikeBohn)",
       "ts": "2026-08-15T15:09:17+00:00"
+    },
+    {
+      "t": "UFC Hall of Famer predicts Islam Makhachev vs. Ian Machado Garry",
+      "ts": "2026-08-15T15:18:11+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Leo finally met Islam ❤️ [ UFC330 LIVE SAT AUG 15 9pmET on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2088401141377999324#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-14T23:03:27+00:00"
-    },
     {
       "title": "Islam Makhachev, Ian Machado Garry trade words at final faceoff before UFC 330 https://www.mmafighting.com/ufc/504866/islam-makhachev-ian-machado-gar…",
       "url": "https://nitter.net/MMAFighting/status/2088401757533864356#m",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-15T15:09:17+00:00"
+    },
+    {
+      "title": "UFC Hall of Famer predicts Islam Makhachev vs. Ian Machado Garry",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWW1maTJaTmNHN1A5TG5XTlI0V0xPejBxOFdJLWNCajZwM1Q2dEI4RDdCZEdGTTJYQWpVa2FTZHpOMS1NYWFHX3llaFZXUDRwRzJETFRKWjF2Z0R3Ri1HdUJJNFBJSGVaWjBXc3lPV0E0bXk0T0lDVU9saXJYUmZKTUdn?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T15:18:11+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiS0FVX3lxTFBiQkNGbEZvZ1B2QXNKRnRBN2RwZzlaYi04ZEhHOWZrckI4Vk8yTmhuSEFBNUpxbXFqZnBSTDlDTnpSLXhfN2JLMXI0dw",
     "https://bloodyelbow.com/?p=326434",
     "CBMikwFBVV95cUxPblhFUVRIQ3A4YklJZURWMjQ3WTBHaTVSZGQzNU9WeHpLaDlKS3cwV3ZCWnBkY2dlaEVYNHlJZktjNVdnV25pUzlkSGoxbThJZEZwTHZSRXVGREFSWEdpZC1xY2dDY1JYRmJxTmk0ZlNLYjdERnZKbVNEaEx6MEV4MjRqYnVQemFxYVFkR1FxTWQyNDQ",
     "CBMimgFBVV95cUxOdVFOVVpQTzNXSUFjSWxWNWV0Tk5ERzdvaUE3ZXMzX0ZtSGhua1diUTROX3Bmc2U4M3VFSnJlcmM0a2o5d2tUSzMxb08zNDhiSFRoeGVudTdnZUhVMWhUWUlkRk1YYlB0dTRNYjRrMWhITXRBR19OSlFQNEpZX3BJLXhtdXE0ZVJiRm55Vy1zU0hxUWlvTVMydUpB",
@@ -3312,7 +3311,8 @@
     "CBMitAFBVV95cUxQcklfY2dJeFk0RWpvMFlaeE9ybUVLZFZnZlRESHhkWnRQYlA4WnUxRnlrekdTdjNDenIydW96T2lWYU0xRndqQTJLTFZmeFhzdl9URk5GdWN6Um1PeVAwekk3SkZUMnVrNHBLbXNzRm1TalZkNzhBX2xzLTBvcjJ0ZE9OVHFIQnhJbnB1aFZSbnp0SFhjcnBMVDRmU1NnTnB0NUdIT0ZPd1F3VmJWTVNONTgtRGs",
     "CBMipwFBVV95cUxQZ0xpdHNUMG0tUFFhTE9lZTFRd0EyUC10UW12UU1GN1JWMThBWktZU3FjaWJwaFhaZTlmTUxXOTNqWnNXUXlxWGVfdE9oM2lvMHdMT2xERFdsMGdtUXNKYVlObzZ3M3d3VmRTdnNOSGdQNHdMSGlTbld5bndEOEZaSmxCZmhGN0RtOTRHdU1GanRadEE2X0tpVWNZQVNDZFJnMUZJQW5Sdw",
     "CBMigwJBVV95cUxQQ2hZaTZOb3R1NTQ3azltbjREcXNNUVNrZGduRnRoUFRmLWdPMEtpTUZQdVFiSFg1dk1rSU90aWotNEV0TWd5X0JWc0YzQXhDS0hIc09Rc1oxUDBFZ0s5Vjl6dm5YUEcwa0NLMEpqcGU0Ny1jXzlBaW1ZVFFuMVFsN2RrSEw1bkVsUWdtaEtvMnVpS1d6Q21fZ0FRZmNLSVNOcnRuMmJXVnhCU21udElzLTlFTFdBVHk4X19HZmdITDFXMGpXbTRkU1FOcnNwQkw4aEtQa2RjMGdUWDJ1V1V3TGxhdC1rbHlKQmE2djBQTXpmckJwN0pZb3RwdVBTdV9BdnUw",
-    "2088644199889698862"
+    "2088644199889698862",
+    "CBMiggFBVV95cUxQWW1maTJaTmNHN1A5TG5XTlI0V0xPejBxOFdJLWNCajZwM1Q2dEI4RDdCZEdGTTJYQWpVa2FTZHpOMS1NYWFHX3llaFZXUDRwRzJETFRKWjF2Z0R3Ri1HdUJJNFBJSGVaWjBXc3lPV0E0bXk0T0lDVU9saXJYUmZKTUdn"
   ],
   "daily": {
     "d": "2026-08-15",
