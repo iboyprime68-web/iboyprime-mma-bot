@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev and Ian Machado Garry share intense final face-off ahead of UFC 330",
-      "ts": "2026-08-14T23:02:01+00:00"
-    },
-    {
       "t": "Organizing the podcast?!? Joe Rogan and Khabib Nurmagomedov share a moment at #UFC330 ceremonial weigh-ins.",
       "ts": "2026-08-14T23:02:56+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White Keeps The Peace At UFC 331 Press Conference",
       "ts": "2026-08-15T17:31:50+00:00"
+    },
+    {
+      "t": "Conor McGregor vs. Max Holloway at UFC 329: McGregor Says Knee Rehab Is Moving at an Unheard-Of Pace",
+      "ts": "2026-08-15T17:00:23+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Khabib Nurmagomedov scolds Islam Makhachev for lashing out at Ian Machado Garry: ‘Be quiet’",
-      "url": "https://bloodyelbow.com/2026/08/14/khabib-nurmagomedov-scolds-islam-makhachev-for-lashing-out-at-ian-machado-garry-be-quiet/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-14T20:00:00+00:00"
-    },
     {
       "title": "Jon Anik: Ian Machado Garry 'under appreciated by every pocket of this fanbase'",
       "url": "https://sports.yahoo.com/articles/jon-anik-ian-machado-garry-220022570.html",
@@ -2105,6 +2098,13 @@
       "source": "MMANews.com",
       "cat": "ufc",
       "ts": "2026-08-15T17:31:50+00:00"
+    },
+    {
+      "title": "Conor McGregor vs. Max Holloway at UFC 329: McGregor Says Knee Rehab Is Moving at an Unheard-Of Pace",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQanJTMkwtVDBxR3pmVWFHdGI1MkNtTFJhVXRydlVKdFpXMEhwLVgzQ2lSQjRGUi1TZzljTEk4YjVTN3NhbHlLWUo3WDV6R2h3Qm5PelhVbkJLQzA5ZDhJR2U2eE5FQ0NUMkh5d0psaWNXczVLd3pPLWVtaUFfRl90cV9KcnotSlR1cjNSRWJXbFlOSGVqdnFfNlRqTkw0QUkwVnhJeUc3UmMxdXl5dTdCajRvWmNCbWo0em0zclZXLU05OUh1Z0NRREdHZmhNSFp5VGpOcWVlTdIB3AFBVV95cUxQanpKa3BqY0ZOTmZHdTBBV1hZajdjeG9TTkxtNmZDR2RwcXJTMlRFa1VRLUk5UWFUczk0TDhYTGxOMTFFbWxIM2pmWnE1R2tMWUR0QkNfek9vNUhOQ0FoY0Z5cVcyVTVCbmlVM3pWWjVwWEZFLUJfYndzclJoZUx1M3lUR2lhdlJwcHlQRWRoSWEzVEVPT0tFTFMwM0kyNk9PLW1xeGhzRE5JV1l0TUE3bEFfQ2pwcGtlYWpJeGJRRm9UN1hpaEZfdkM1ajhQN3dZZzh6N1ZyamhyUmhs?oc=5",
+      "source": "RingSide24",
+      "cat": "ufc",
+      "ts": "2026-08-15T17:00:23+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMikAFBVV95cUxNT2tpTEdKU09oYlhZUlo0a0RYMHFLZmJVWG05NElTT0tvLXVpOGFrcXFlWVFKVlh5VzlFY1NwbW9weHZnV0pBRzllTDAzd1E3eGZvTEkxUXJ1dlNucGJuQjRzRHIzTVVlTHdWUnRPYjV3cGNrSUZ3bS1ieDEzY0x5aDk2MFN4RGI3NWlLeXJ5akU",
     "CBMif0FVX3lxTE56UldEZ0VaZU9IR0pkam9aRVJZZXVyWGg5NDAwcUdhci05LThLWHB5T295MS1wVks0WW9SZGstUjVrZlo2SDlMNTdXamZORmwxQm00azhLN3dNLWd5QmhsdFktaXA2NVQxcUV2UHZnZzF3TmdqNGNVYzhtQjdudzQ",
     "CBMitwFBVV95cUxNdWg1b09Lb0NFdHA3RDhtckZqSzFGTUFnWWgxdFRBb3QzXzQ4RnVsRzhpSVNCbnFWM1ZzZlB6d0Y5N3d1SlRfc0xaYVQ1dDJiLUFZLXJpTGZPa3poTUlfbGtyWTZYcktySGhHTjZ3bGN4TTBBTXRJMWM0VFhKZTM5bFVpZFY3Ul9WMjhRUmluTVQ1ZV9WdjNvbTdxdmpKMXVCTkVmbW9Xd0llb0ZEaGI5RVVWWEZKd2M",
     "CBMiqgFBVV95cUxQLUxMalpCdVFhSkNWa3RhZUhSNzFGa240VmhaT0RTb2czaE50YXNvTjF4T3lCbzVfWEcwYkJPQWxiMk5Sb1NfYXNIQ0swTUFDZGtiVlRfWTVBTVJQWDk2dmZLSThhOUFUSFdwVGZlb25XeE1udVBHekpLQ1RzaTZxWHlUQ2tOQjNEcV9RLVBZZnNwYlNxZDh2X01sUjNhejV3M3l5WmhxMGFtZw",
@@ -3312,7 +3311,8 @@
     "254bf9f2-8253-3b38-9a4f-b997e3449d63",
     "5bdc57c8-546e-39c1-a41c-ce85e5a3ce26",
     "b206f5e5-7cbc-350b-ad68-2774143590b9",
-    "CBMijwFBVV95cUxNNXRTZ0dOZExpSjJ5TzJvSlNMNnVGaGlnd194NVdMWFY4bVVrUXFEcXZNdnNQZU1jdTliaXNVNEIyZXNBY1JTV1RYRjRiMnhHOVZydFdWM3NpeEdMWHdyXzAyS25QWE9GcG5maUJMM3lDanliMERzS2ZjcVhSMUJEQ1cwcl9NYUNzU0RJa2RHWQ"
+    "CBMijwFBVV95cUxNNXRTZ0dOZExpSjJ5TzJvSlNMNnVGaGlnd194NVdMWFY4bVVrUXFEcXZNdnNQZU1jdTliaXNVNEIyZXNBY1JTV1RYRjRiMnhHOVZydFdWM3NpeEdMWHdyXzAyS25QWE9GcG5maUJMM3lDanliMERzS2ZjcVhSMUJEQ1cwcl9NYUNzU0RJa2RHWQ",
+    "CBMi1wFBVV95cUxQanJTMkwtVDBxR3pmVWFHdGI1MkNtTFJhVXRydlVKdFpXMEhwLVgzQ2lSQjRGUi1TZzljTEk4YjVTN3NhbHlLWUo3WDV6R2h3Qm5PelhVbkJLQzA5ZDhJR2U2eE5FQ0NUMkh5d0psaWNXczVLd3pPLWVtaUFfRl90cV9KcnotSlR1cjNSRWJXbFlOSGVqdnFfNlRqTkw0QUkwVnhJeUc3UmMxdXl5dTdCajRvWmNCbWo0em0zclZXLU05OUh1Z0NRREdHZmhNSFp5VGpOcWVlTdIB3AFBVV95cUxQanpKa3BqY0ZOTmZHdTBBV1hZajdjeG9TTkxtNmZDR2RwcXJTMlRFa1VRLUk5UWFUczk0TDhYTGxOMTFFbWxIM2pmWnE1R2tMWUR0QkNfek9vNUhOQ0FoY0Z5cVcyVTVCbmlVM3pWWjVwWEZFLUJfYndzclJoZUx1M3lUR2lhdlJwcHlQRWRoSWEzVEVPT0tFTFMwM0kyNk9PLW1xeGhzRE5JV1l0TUE3bEFfQ2pwcGtlYWpJeGJRRm9UN1hpaEZfdkM1ajhQN3dZZzh6N1ZyamhyUmhs"
   ],
   "daily": {
     "d": "2026-08-15",
