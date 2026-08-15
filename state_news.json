@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Michael Bisping Says Islam Makhachev Chokes Out Ian Machado Garry At UFC 330",
-      "ts": "2026-08-15T21:51:44+00:00"
-    },
-    {
       "t": "Dana White Shuts Down Wild Weather-Control Theory About UFC Freedom 250: ‘That Did Not Happen’",
       "ts": "2026-08-15T21:50:34+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC 330 video: Lucas Fernando destroys Rafael Tobias with brutal knee to the body",
       "ts": "2026-08-15T23:04:57+00:00"
+    },
+    {
+      "t": "UFC 330 highlight video: Jeremiah Wells chokes out Myktybek Orolbai",
+      "ts": "2026-08-15T22:49:21+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "The Orolbai supporters are here at UFC330 🗣️🇰🇬 [ LIVE NOW on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2088745683528671652#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-15T21:52:32+00:00"
-    },
     {
       "title": "That finish was insane. Wow.",
       "url": "https://nitter.net/arielhelwani/status/2088747445622653078#m",
@@ -2105,6 +2098,13 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-08-15T23:04:57+00:00"
+    },
+    {
+      "title": "UFC 330 highlight video: Jeremiah Wells chokes out Myktybek Orolbai",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT2ZyMmNTbUp2Rm5kUms5akhCb3J6ZGhNdTBBZGcyYXQtczhIWm1LTDV0dHd2SVdvV2xpbjEyVFB0OHpwNXhjalI1ajliYXZXU25kbVlkNFk0bHZ1TEZiMEZHRm40NWdDMndaZ2YzS3RkMkhqQjR5TmhoXzh3UUc1V1RWRUQ4TGE1RExOd3pnX28wTG9aRlN1ZkNGaHFMaG5mWDlpNERkVVl2dXJ3d3VEdEdWcnRreXZHZGc?oc=5",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-15T22:49:21+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMijwJBVV95cUxNMWRHal83cFM3UWsyb3JLcFpFVEFSZ2hzR0RiZkRuTF9YaENaNGtwTERjb1lucnVyWE9NZU5PdHlqXzg2X0VBSkx3VDBXR01Wd3k1ZzBrb1RIUzFCTlFEa2txVm9vQ2ZOR3RVX3RndFpjSmZYMTVRRnRRcGVLdlVzdkt4YVhRQjRmY0NwdnpyZ2xSM2tSQUtlQVZrUDZUamViMHAtb0RFX3d6UmNZbDdwbnk0WFdUa2xFelBBeXFGVWVHLWgwZVJfU20tWExIVVdoS1hTeldmbTNCZ1NqNXdKejgxa1EwMmpRLUNPXzQ1dUFXQ2N5ck15eXFPZEZlRmN6bVluZkhIYlJ3ZWFyMmIw",
     "CBMipwFBVV95cUxNREo0YUJaTHFKSXBIMVl0ZVhvb3lVMzNkQ3RRVjBFajdVSWhhY2JMci1TOGRBNTIxTnJOLV9WMkVReWloU044OXRTSEZfaDhWYjR5cHVEVUE4MzhHeDZ0OWZ4MnNjd1FfUmxpS2VVQ09pQ1UtYVFnYktBcUVqanhlTTNsSlFuVXBBTEdrNjZEOENNVW04b2R4RmxhcjRoSU83Y0JIMG9ESQ",
     "CBMi0AFBVV95cUxPeS1Zc0w4NkVUbk0yUURuejBJR05hdE9xdldrVUN6N2hpaXh6Z3ZQa3BpUUtfM19zTVdSWDhidFhpdC0wR1FtcGVrR19kNGJLOG9LZFloLUcxWWlUUlBuQ0lzdEwzdUlDdXFBM3JHWXlFRWltUjdlTmppNXFDMXRRRy1yS0RsekNGeG5HSXQxVDRqX2JMbmZKWkNZejhRZnd3V2ZrbDhSaWRVTWFxZzJLWTJWOVIzblNQSF92cmdjYTRHNEphbDhVZGVoM0Q1NmdW",
     "CBMimgFBVV95cUxPYmV0cnJmU1B1aHE5Tk1JcXJENXd0dzdPRExVNXdfQ1dycGx4QXBsQWhCWW53dVVoU0JpenpnTm5vZjZlUDd3cFBxZG1DeExoVTExcWU0OHdGdGUzcFpxLWpfR3h0WWVXQnBCcXc0bGZkblh3R18tamlEYWlQVzhYTFZicGFNUk9meFp4TXExaGh6andfVE1Xa3pR",
@@ -3312,7 +3311,8 @@
     "CBMingFBVV95cUxQb3RrakhWQWZBY1dKN0hQR2dxakZMMlRSdG5BNFZlZnFrZjJ1WXNuYU41bnljTVNRTTA2NkxQSXRUNXJ6TVpOMXZIaUMyWllJNmd3QTFLaTBsbHZDQjVoQVZWQlhlMzNCSHhDbkJaS0lBdG9GeVRZNS00QVVKSldlWkVtYzBWOG1Tc1Nsc2hYTEloTnBHTzBkRHdjWWlvQQ",
     "2088762207358087292",
     "CBMiuwFBVV95cUxNcVZUU29KU0lwTWR5QXhRQ3J3eWF4QWRmNUFuc1MxWXI4VDhEZzJXRVIzX2JndGt4VkdXWHBONkQ2WUVFSVdsUTlqUG84NVcyZ2U4RUN3R2FOQVp5cnZ3WG5JZlFWZkx6R1NQTVlUdDh0Uy1jdmhZc05JY0FGLUI0Z1lHS29CM05uS210ckY3SU1XME1MWENPZnlUN1BMRFcza0h6clh0T2hwd0QyLVAwRUJvdDRfX0NVcktF",
-    "https://www.mmafighting.com/?p=504983"
+    "https://www.mmafighting.com/?p=504983",
+    "CBMiugFBVV95cUxPT2ZyMmNTbUp2Rm5kUms5akhCb3J6ZGhNdTBBZGcyYXQtczhIWm1LTDV0dHd2SVdvV2xpbjEyVFB0OHpwNXhjalI1ajliYXZXU25kbVlkNFk0bHZ1TEZiMEZHRm40NWdDMndaZ2YzS3RkMkhqQjR5TmhoXzh3UUc1V1RWRUQ4TGE1RExOd3pnX28wTG9aRlN1ZkNGaHFMaG5mWDlpNERkVVl2dXJ3d3VEdEdWcnRreXZHZGc"
   ],
   "daily": {
     "d": "2026-08-15",
