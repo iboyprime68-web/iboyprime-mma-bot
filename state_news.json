@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "This one might get Gritty 👀 Mansur Abdul-Malik vs Dustin Stoltzfus [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
-      "ts": "2026-08-14T22:27:08+00:00"
-    },
-    {
-      "t": "While Mauricio Ruffy says he's looking to KNOCK OUT Arman Tsarukyan at #UFC331, Tsarukyan sends him a warning. 'Don't forget how to tap during the tr…",
-      "ts": "2026-08-14T22:27:20+00:00"
-    },
-    {
       "t": "FINISHERS LOOKING TO STEAL THE SHOW Jalin Turner vs Kaue Fernandes [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
       "ts": "2026-08-14T22:28:25+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Eduardo Chapolin",
       "ts": "2026-08-15T03:02:27+00:00"
+    },
+    {
+      "t": "Jets' Geno Smith: Has sore ankle, is day-to-day",
+      "ts": "2026-08-15T02:24:41+00:00"
+    },
+    {
+      "t": "Falcons' Brian Robinson: Gets preseason start Friday",
+      "ts": "2026-08-15T02:36:52+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White insists Ian Machado Garry is being overlooked: ‘He beat Belal Muhammad!’",
-      "url": "https://bloodyelbow.com/2026/08/14/dana-white-insists-ian-machado-garry-is-being-overlooked-he-beat-belal-muhammad/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-14T15:59:00+00:00"
-    },
-    {
-      "title": "Khabib scolds Islam Makhachev for telling Ian Machado Garry to 'shut up'",
-      "url": "https://sports.yahoo.com/articles/khabib-scolds-islam-makhachev-telling-161025200.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-14T16:10:25+00:00"
-    },
     {
       "title": "Mackenzie Dern reveals pivotal loss that helped her reach UFC title",
       "url": "https://sports.yahoo.com/articles/mackenzie-dern-reveals-pivotal-loss-170130643.html",
@@ -2105,6 +2091,20 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-15T03:02:27+00:00"
+    },
+    {
+      "title": "Jets' Geno Smith: Has sore ankle, is day-to-day",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOGQ3blhXRGZaYlRlRExWSGFQNGRXbEROcXlzYnNqRDJkSVM5ckYzT09XdlQzZ2NMSVlhdjBaSlJyUzR2OHZpTzhZU1lkUnFmT3hCMmR0UW9yTWVWczhoNFprV3FiRkFrZ0lJMzI4RzZQc2E2OHg4S0JlZ0dIdWwxZjI2NnJoUnNZYmJqY3VLQ0ZJUnQ1WlY3aw?oc=5",
+      "source": "cbssports.com",
+      "cat": "ufc",
+      "ts": "2026-08-15T02:24:41+00:00"
+    },
+    {
+      "title": "Falcons' Brian Robinson: Gets preseason start Friday",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTkN5LW5nTjY4alF6RURWMHl1bVl1bHFVUGVDV2JFem1GOFJ0Q21IU3p5X2l6RUJ6M2ZjUFBmZFBlV2JwZnlLN3dqRmZFa3FDVmZFZ0tGbEpHRHk5SlNoRDJCUXFINUMwX3ZSdVNncWt4aHdJck9wOW5LXzl0LXcyTldNWXdYRFNEWHlvZ21MQ2ZNNC1rZ2NuVkotYnp1VUlt?oc=5",
+      "source": "cbssports.com",
+      "cat": "ufc",
+      "ts": "2026-08-15T02:36:52+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -3291,7 +3291,9 @@
     "CBMilAFBVV95cUxOWmxRd21aZlBHVWc1UWVQXzdONEZFeUlDdEF1akptelVsMVpxNUZyczJBYkgwQkpPckE3Q1dBRG1YbWRuV0FhUTB0WDJPNTdBTS1weC03bEJnS2hhOWk1cndWZnRPaF83dEdrTDdJUkd6Uk5lclduRTlhRFE0TWtuMGpqSm55S1JMRUpsQlU1YWpTc1hu",
     "CBMioAFBVV95cUxNWFlaVUx4RjRjd0VYa0pHd3YxcV9nb0hGd01zSE9nbkVpeURfd2ZpUlB2ZlhlalBMTVRmNHlybW4wZnF1SWhJZFc0TVREdy1tc3ZxZnBDbHNHV2pyaElqQm1YVGN3eXZWOU10WFp3ZGpldmhHV0dZMnFjQnIzNU40WEQ3c1NTRS1wUWdYbktYYWtDVWx6VE5pSWFrZGU4bzFU",
     "CBMilAFBVV95cUxOYVlfWU9LMXowUUhKWUZIRzB1WUd4TXRwUXhyMGt2N2lYNmJrSHE1WlBaenpsblI4TExPUlNidnRiWkV0eUFWRUdBcGVDMWZCdE5ReE1GZHQ4OVNNY2YycHQybkdYVzJnQnhMbFhOdG0wNkFlcFVMM0xmMXZtS0ZyUzhOdUlZZXZQTmNGSEJzQjBpUGFV",
-    "CBMingFBVV95cUxOTkxDMmluZXMxYVk3QlZLMXlEXzhBZ3d2NlEtdE5WNnBzXzZiTEZtUHhGeFZRek5VSTBSY05EM29NV0ZSX3pWczB2UVFMQm0xNmJTYnl0ZzBNRHRibWIxOGlxckdQYUhHTENfYUlsdkpMeG1iYk1RUUZDQlMxamRkYnlFQUdkY0phdDZuVnl2VHlKa1R1c2tteHVLajNTUQ"
+    "CBMingFBVV95cUxOTkxDMmluZXMxYVk3QlZLMXlEXzhBZ3d2NlEtdE5WNnBzXzZiTEZtUHhGeFZRek5VSTBSY05EM29NV0ZSX3pWczB2UVFMQm0xNmJTYnl0ZzBNRHRibWIxOGlxckdQYUhHTENfYUlsdkpMeG1iYk1RUUZDQlMxamRkYnlFQUdkY0phdDZuVnl2VHlKa1R1c2tteHVLajNTUQ",
+    "CBMimAFBVV95cUxPOGQ3blhXRGZaYlRlRExWSGFQNGRXbEROcXlzYnNqRDJkSVM5ckYzT09XdlQzZ2NMSVlhdjBaSlJyUzR2OHZpTzhZU1lkUnFmT3hCMmR0UW9yTWVWczhoNFprV3FiRkFrZ0lJMzI4RzZQc2E2OHg4S0JlZ0dIdWwxZjI2NnJoUnNZYmJqY3VLQ0ZJUnQ1WlY3aw",
+    "CBMioAFBVV95cUxOTkN5LW5nTjY4alF6RURWMHl1bVl1bHFVUGVDV2JFem1GOFJ0Q21IU3p5X2l6RUJ6M2ZjUFBmZFBlV2JwZnlLN3dqRmZFa3FDVmZFZ0tGbEpHRHk5SlNoRDJCUXFINUMwX3ZSdVNncWt4aHdJck9wOW5LXzl0LXcyTldNWXdYRFNEWHlvZ21MQ2ZNNC1rZ2NuVkotYnp1VUlt"
   ],
   "daily": {
     "d": "2026-08-15",
