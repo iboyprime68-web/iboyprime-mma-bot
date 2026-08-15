@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Just having fun out there 🤙 [ @JoshuaVanBT | #CryptoCom #UFC331 | LIVE SEP 19 on @ParamountPlus ]",
-      "ts": "2026-08-14T21:37:34+00:00"
-    },
-    {
       "t": "Dana White intervenes to prevent faceoff shenanigans between Arman Tsarukyan and Mauricio Ruffy https://www.mmafighting.com/ufc/504843/dana-white-int…",
       "ts": "2026-08-14T21:50:30+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "\"They're less important now\" - Ian Machado Garry shares bold take on UFC double champs ahead of Islam Makhachev title clash",
       "ts": "2026-08-15T13:30:00+00:00"
+    },
+    {
+      "t": "Watch Ian Machado Garry defeat Belal Muhammad to earn UFC 330 title shot | Fight Video",
+      "ts": "2026-08-15T13:33:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Sean Strickland Torches Ian Machado Garry Before UFC 330 After Fan Backlash Spills Over",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOalZsYmpNdTZKcmJSbVcwVGpfRXVsdV9MZEs5elNpb3hTS3VOTlhFVGFqTjJJQkF6UHFpeDVadXIwUE82UmstQjBFanV3b25xR2FfZzNOeHZ3OWRfRXVoRjRBVVZxYnUydFNmVjVkUUVJQTZzT0lkV2oxdXl6NFR0emo5T1JPb204ZEE5cFdELUM?oc=5",
-      "source": "MiddleEasy",
-      "cat": "ufc",
-      "ts": "2026-08-15T13:32:02+00:00"
-    },
     {
       "title": "Alexandre Pantoja Gets Held Back By Dana White After Joshua Van UFC 331 Press Conference Erupts",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX3FPeXBySldZUVlDckd5ZGJjV0x4NnZCdHo5WXNSV3VhRlNoT0dYTWJCdEZkc0QySVlaMXFwX09nYkZLV1B3Uk9aamlRbEFHSWplb1dURi1WX2hKZHNWRU0xdzFVb0NocHFoejM2R2FpRjRsU09VZzFkVkJYc3cwNWNPS3pZVnJZSVZpaERPcFF6RnllbGNQVHMyMWxSQQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sportskeeda",
       "cat": "ufc",
       "ts": "2026-08-15T13:30:00+00:00"
+    },
+    {
+      "title": "Watch Ian Machado Garry defeat Belal Muhammad to earn UFC 330 title shot Fight Video",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZWdRSFdjT2JUajZ3UVNFZkZmTENlUHNEVzI3YlZjcXY1LXVVcFk1VTZzeTJPb1hpcnpTdWxqaFE1aFJUNVlnVk5XU1RVdWVEM0w5ZW1Db2RWU1A2cGNFRG9FSHB0ejFNUjJTSTc0NjhrekFkX1laX1ktUjVEc2dsU0hTeFRBQ2lEUzRRWWphbVdtR3RIYnhORldqWk1Kcl85S19hdlJtYVBELWN4aENpU25ZdjVHQQ?oc=5",
+      "source": "MMAWeekly.com",
+      "cat": "ufc",
+      "ts": "2026-08-15T13:33:00+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiakFVX3lxTE5FelN6ZVNxWGNqVGdOLVFibHBJeWJVVlZHYmt3WVg2MXJKblBqdm4xSVZZQ3E3cEM1cGRaTW9BT0NBMVZwQjl2WEpaMlZrTkVodnNzUmZBRFNLLXl4M0tYcVIxZzRndnMtQmc",
     "CBMiiwFBVV95cUxOemR2M3RBdzV3eTFYNWRiWnd3YXFJZFk1R2I0aDQ3MldCQ01xZWtZdWlVcVNPWWlQVEtwQjZLNEp6SEMwSGZUb0h1Z2RPZUI4MG1oNDJ0eUJwbHZtZHlYNEItdGlYTzVXQnZieVdHU3BnRnY3Ynk5OUhXbUVUcm9WdUdROFBNT1piOFhJ",
     "CBMimgFBVV95cUxOaUdwUWZoR016VWlzNGFjTURZanowTWRjNTB5WU9FdG03cGNBQmZfeDFRTjBTN3R4OTdwcV9ZTU8xZDJiVURhWWxJMkM5aFlPSVpFbC04bWVrZWY3SURFSnZIZUxabmVrRTQ5S3hndnZpSGdocFJ1UE02U0lWNmFEMHZQcE9yMFVwR21kTEFpcU5DZTg1T0NqWkJn",
     "CBMixgFBVV95cUxQeWQwMFEwTWRCREliM2pRZXZWS1gydFRnby1EaXptX3MyQlBFLWp0RVVMNksxTUpMdjFBQkphR0pjaWx3VXZSb3JPSXlsUFk4SmVRMG5hOG1lVVV4Q2t3VldyUzhMa09xeTA2TDBlS3F6aHhpa042QzY4TFY0Rm1aTGU1UXNEY2JTVGpHVjF4eWUyVDZ0VHZKclNsV0FPUkU2c3dFZXN2cWEwck9sUWpRWUVYbk9yUTZYWEFWbFNMYWthbjI5QkE",
@@ -3312,7 +3311,8 @@
     "CBMingFBVV95cUxPX3FPeXBySldZUVlDckd5ZGJjV0x4NnZCdHo5WXNSV3VhRlNoT0dYTWJCdEZkc0QySVlaMXFwX09nYkZLV1B3Uk9aamlRbEFHSWplb1dURi1WX2hKZHNWRU0xdzFVb0NocHFoejM2R2FpRjRsU09VZzFkVkJYc3cwNWNPS3pZVnJZSVZpaERPcFF6RnllbGNQVHMyMWxSQQ",
     "acd565f9-b805-3209-a5fb-fdf7866772ee",
     "406fdd0d-c6cd-3e48-bf30-09aac239d426",
-    "CBMi5AFBVV95cUxPYk9jZUNrYWsyQnMxZmlPdUZxVWpxaFlfVFZ5dkEzTzdOV3ZXT0d0c0RFbnIta3JzOGQwMHNXN0pOZjA0QnpBMXVRbTJuWjBMRURqeFVxRDJfVUpGOU5wdUJLWHpBXzRVZFJ3YXZsek1XaV8yb2JoSl9WRDdHbDFGRkc4Y3hZOVdWZHpXZEh5UVpPRkRGcThpTXpfbEtTSUEyYWR6dmhoNXR2MFRVckZreXQ1bDdJcnk1eUJQOVY2U0xkOVdkdFJuSU41M1IyTDVrV253XzFfMXh3MVE5aVctZ01fS1U"
+    "CBMi5AFBVV95cUxPYk9jZUNrYWsyQnMxZmlPdUZxVWpxaFlfVFZ5dkEzTzdOV3ZXT0d0c0RFbnIta3JzOGQwMHNXN0pOZjA0QnpBMXVRbTJuWjBMRURqeFVxRDJfVUpGOU5wdUJLWHpBXzRVZFJ3YXZsek1XaV8yb2JoSl9WRDdHbDFGRkc4Y3hZOVdWZHpXZEh5UVpPRkRGcThpTXpfbEtTSUEyYWR6dmhoNXR2MFRVckZreXQ1bDdJcnk1eUJQOVY2U0xkOVdkdFJuSU41M1IyTDVrV253XzFfMXh3MVE5aVctZ01fS1U",
+    "CBMitgFBVV95cUxQZWdRSFdjT2JUajZ3UVNFZkZmTENlUHNEVzI3YlZjcXY1LXVVcFk1VTZzeTJPb1hpcnpTdWxqaFE1aFJUNVlnVk5XU1RVdWVEM0w5ZW1Db2RWU1A2cGNFRG9FSHB0ejFNUjJTSTc0NjhrekFkX1laX1ktUjVEc2dsU0hTeFRBQ2lEUzRRWWphbVdtR3RIYnhORldqWk1Kcl85S19hdlJtYVBELWN4aENpU25ZdjVHQQ"
   ],
   "daily": {
     "d": "2026-08-15",
