@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=501603",
     "https://www.mmafighting.com/?p=501609",
     "https://www.mmafighting.com/?p=501617",
     "https://www.mmafighting.com/?p=501641",
@@ -894,6 +893,7 @@
     "https://www.mmamania.com/?p=464696",
     "https://www.mmamania.com/?p=464706",
     "https://www.mmamania.com/?p=464771",
+    "https://www.mmamania.com/?p=464827",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
     "https://www.sherdog.com/news/news/AJ-McKee-Liz-Carmouche-earn-statement-victories-at-PFL-San-Diego-201664",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Islam Makhachev finally meets Ian Machado Garry’s son after teary face-off snub",
-      "ts": "2026-08-15T00:30:00+00:00"
-    },
     {
       "t": "Our first @WhatsApp Watch Party 🥳 Join @AlexVolkanovski , @KaylaH , @NavajoStirling, and Bilal Hasan as they watch the #UFC330 main card! Join the ch…",
       "ts": "2026-08-15T01:01:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Mackenzie Dern fight called ‘better than Rousey/Carano’ as fans flock to defend the UFC 330 co-main",
       "ts": "2026-08-15T18:00:00+00:00"
+    },
+    {
+      "t": "Giddy up! Kazakhstan fighter rides into MMA debut on a horse, chokes out opponent in 80 seconds &#124; Video",
+      "ts": "2026-08-15T15:29:30+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "TENSION RISING 😤 @MackenzieDern vs @SavageUFC [ UFC330 LIVE SAT AUG 15 9pmET on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2088393547280232671#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-14T22:33:16+00:00"
-    },
     {
       "title": "Arman Tsarukyan is EXCITED to be back as he plans to get his shot at the UFC title and start his journey to his big goal: 'Best ever lightweight fig…",
       "url": "https://nitter.net/MMAFighting/status/2088393591920136359#m",
@@ -2105,15 +2098,21 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-15T18:00:00+00:00"
+    },
+    {
+      "title": "Giddy up! Kazakhstan fighter rides into MMA debut on a horse, chokes out opponent in 80 seconds &124; Video",
+      "url": "https://www.mmamania.com/latest-news/464827/giddy-up-kazakhstan-fighter-rides-into-mma-debut-on-a-horse-chokes-out-opponent-in-80-seconds-video-kayrat-octagon-90",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-15T15:29:30+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
   "hour": [
     "2026-08-15T18",
-    1
+    2
   ],
   "yt_eval": [
-    "2087986444929290448",
     "CBMitAFBVV95cUxNRXZEbkU1eVFBWUVfSXR0N0M4aHZkNkhtanlqejJFUWh5cHFDYW5PMkxWR1ZuNFNuMUY1WmRWN0xHR01paHNHWi1WM3BaT2pKMkNFMHQ1SnRCY2NYelVoUDM5OEI2cDNHV3VUTkxZZ1E2M2t2dV9FU29Ha20xaUxXMWxpVmtGSTBoa0thVlJ3UFB2dld2VkUzajVSQW9Db2d3NmdWM0sxZkRkazF3TGtWWTlnc0I",
     "CBMiswFBVV95cUxOOFMtYjJyTldtdEhsWXBMeV9RTkh2Q0hiTURtcEtjNzhpRldfWGctZXUwUzVITGd5OW9UWjQxbWhzclpVYlJpNGYxc043TXBzX1RwQWpDZXVob3dVcGhMR0lWZzQzUVZNWTlmeE1lUXlfYnY1OUpnczZfd3c0TjQtQ3J0cnN5VTllZUxkNnhBdlQtUGZhNW42MFpGcUZvaU9PZUQ4YVJhalVmQ3g4UEpDWnE4RQ",
     "CBMitgFBVV95cUxQMkhIaV82a200NjJYc0hUMnh1WmVGTW05U3AzTlFEVHMtVTd2M1Z0YzhEdmdQSEtiamtWNks0dmFmdFE2NWpuWXZ3bmxvampCekVfZ1RVdTlZZS1VTGRoc2RiMXNidWJwMXJvejM2QmdqeTRnTml5ODlKcEM0cFQ4S2dKV3JzTHJqVjFtSGxDT29JNm1BNGpNb3o2eWNVUUY0N0RyLWZXbG5nTmlsQzVlcklFSndrUQ",
@@ -3312,7 +3311,8 @@
     "CBMie0FVX3lxTFBlNXZPTFJUZkkxTG9iSFlVbWhOWGJLMi1Vb2g1ZVFYX1R4MjFaR3JFa241bjlxY1p6RW1uZ3Y2TVJOalFUNHktYjZ6SC1EVG02U3ViX0lmRmJ1eXNPR052Xy1YaERNU1lnbWpINl9DeURTUkJSY1hwaUI4UQ",
     "CBMirAFBVV95cUxQclBacjJKejVNS2h1NnJxNDBBSmtNUlFrd1hEUVBJVkpzdDNFeGtnVTRQRzZQNTlDT3BjWDlMUThmbWRCTDFvN1dKNzVpYmtHdWstaUtpRlBuaTlWRzdRem1zM3Fqb3R2ZkttWXM5QUh1Y3VDN2tteEFRaDIxbDI4WXdkUmlPTHE0b3RLLWtMbmlVN2ladmZ6dDZuT2RPQ0p6N194UTFhTl9ERTV6",
     "CBMimwFBVV95cUxPeWkwXzlnZVdaUG92RGRpRGl2TERwY3ZUY25ZTFFoMjNGemdBY2pZanBINXE1dF90bmY3aThTZ1dKdHZ1OWl1Y2pvRzBPNlRjRUFEUk92WUdDNzZxMVpyT21fckNKb0trRGRneWkwcTFBVHY5OFZfa2EwclF4TzZ3SmNBSm1LX0dGSTRoVG5CNGZjWnNjR25VUjBIdw",
-    "https://bloodyelbow.com/?p=326879"
+    "https://bloodyelbow.com/?p=326879",
+    "https://www.mmamania.com/?p=464827"
   ],
   "daily": {
     "d": "2026-08-15",
