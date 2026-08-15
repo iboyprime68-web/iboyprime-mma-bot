@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Video: #UFC331 first faceoffs with Van vs. Pantoja 2, Tsarukyan vs. Ruffy https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/14/video-ufc-331-fa…",
-      "ts": "2026-08-14T21:40:35+00:00"
-    },
-    {
       "t": "\"You ain't gonna smack sh*t.\" Joshua Van and Alexandre Pantoja got heated during the #UFC331 press conference 👀",
       "ts": "2026-08-14T21:43:32+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Training Camp News and Notes Stream of National Football League",
       "ts": "2026-08-15T02:05:25+00:00"
+    },
+    {
+      "t": "Diamondbacks' Brandyn Garcia: Nabs fourth save",
+      "ts": "2026-08-15T02:11:47+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Hartford Athletic vs. Miami FC Live Stream of USL Championship",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5oQTFvR1Q0eTF1Rjk0TzNKMDZFTmpyNGhzRE04VU02QmZWNlBXUXJVNUVMM1AtdG9RVVVzUWk5Mm9raDg0UHd6MUV3U2w4QmtUYVViY05mWWZuYU1GbEE?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-15T01:50:48+00:00"
-    },
     {
       "title": "2026 FedEx St. Jude Championship Preview: Top 70 compete in Memphis + Michael Brennan wins Wyndham Scorecard Stream of Golf",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVEhPOVZ2dHlzM0ZtTFBpUGFjeUp5ZWZScDVhZ3BLckNDNkpqY3lMTjhrOEdBY0NaSzVHdVZlbExTcDc1Sld4S3UyWUVHZnFEenFpRm04LXRUeTNSbWZZcVk3cXhCMi1pckVWX0FRblM1TU81MVVwTmFteHRkSGFaWkNhZjFVeHUxMUlSbUlZemRVQVBQRWJCTHM1c1lCcEFQXzE3UFpGdkF2ZVJFdnh0QnFFd3RhOUNFblV4Y21Sc25vZF9YY1ctQ3JtdU9CamJrSTk2X1luM2xwbmphbDZ4Rg?oc=5",
@@ -2105,12 +2098,19 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-15T02:05:25+00:00"
+    },
+    {
+      "title": "Diamondbacks' Brandyn Garcia: Nabs fourth save",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRHNpdWZTTlNYdTZYZWlvYmlSQnRLMGZtaEFmMGt6UzJHRG1LZzAtaUhtVUZXb3RPbDZqV2JLWFU1VFlIbS02emVIeUc1R0FXRndHR0h2eFZRLU1aR09yV1BNbEpEMXFkQkVyb1FTNXRlNFhRRWlmUmFfZGZjUV9NeG1zNzRaN19qSkdBNHRwOUZJUThGRmJUdA?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T02:11:47+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
   "hour": [
     "2026-08-15T03",
-    2
+    3
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/DWCS-2026-Week-1-WeighIn-results-5-fights-set-202294",
@@ -3278,7 +3278,8 @@
     "CBMiugFBVV95cUxNTC1xMjMxcVBxWDF2X3EzMkZGaTFiSVNFd2RncXhJTWVYZXBhaUJUVzVZWjJRQzJuUXE1NXpTOE1oV19WdVJNUG5yZmhrSzhscGZZd25hUUpvY25wMjZiREVSM2JMRTJyX05ySkdKRlJnZFh4SGpHUF9iUDdRUW9scjlhZ0FPeXpuZDBjODAxNjRheVhsTGRvWlVzaHp6MFU2UW52Q0hUYnJZczBkSU9HV240NjV3YWlIX0HSAb8BQVVfeXFMTk5MbERJYTJYSXVIZlNESHVHc09qOFdwcm1JNzBEMjRJVERTeWpFZXZRZk5NYlJfZGlZcDc1ZGNLWWJ1THJwSkxZZUUwOTJzODYtM1RHZ2FxenpMYTVPOHloeWJSWmNHQzBiOUpQNDVKa2M3Q3RCT3RpbUxLb2FaWFlhNUVHOFpwY3oxU05XSWNfRHgtWnhQLVNwVklyUWhicmRiYkR0cUtvOHRnMzkyLWFqYUFJTFlJTUZWdmxUWEk",
     "CBMi0AFBVV95cUxPRHFRYUgzaHFuUm1TeTRrX0xOcktwaFlOU1ZydmdIZ0otRS1XUnh5bmpzdEtLUnJ0UTc4czF2Nmw5YmpFcUEyUFJ5aXd1bWttMjIwSEZYMDk5V0toYWkzNTBUWS1VanhXdVd6VEtocG9YS1oxZWJvdTlEN2RYZlNxZjYwNVl6bFBrWGZIOWxhUDFPRFVIcVJtZzFMd3RmczF1b3l6Z3dLQm9BeWxlQk1NT2FVQWZfNzVrekt5alpTMzBFZm1saEU3RlN3WVdWaXhs",
     "CBMitAFBVV95cUxQcXVyYWEwNHQybVYwYkZXU09GTjlfbzdZTmxsU3A5dFVsbUFuQTRzd1JSV3N6bW9QYXBBanZabG1EQ1VCVmdtMUtWaVBWQk4xMWJ6S3V3dWg4NV9lclBTV3U1SU5aSnNOa2NUS2syTU1vOC11ajVZT01SRGVIaVRvbGV3RVNUTVpCOHpHak1XNUNOYnk0RkVnNlpQVThqRzl3cWxWLUU4VVZyTkRGMW5MR1pLZXk",
-    "https://bloodyelbow.com/?p=326720"
+    "https://bloodyelbow.com/?p=326720",
+    "CBMimAFBVV95cUxPRHNpdWZTTlNYdTZYZWlvYmlSQnRLMGZtaEFmMGt6UzJHRG1LZzAtaUhtVUZXb3RPbDZqV2JLWFU1VFlIbS02emVIeUc1R0FXRndHR0h2eFZRLU1aR09yV1BNbEpEMXFkQkVyb1FTNXRlNFhRRWlmUmFfZGZjUV9NeG1zNzRaN19qSkdBNHRwOUZJUThGRmJUdA"
   ],
   "daily": {
     "d": "2026-08-15",
