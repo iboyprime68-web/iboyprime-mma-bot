@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Organizing the podcast?!? Joe Rogan and Khabib Nurmagomedov share a moment at #UFC330 ceremonial weigh-ins.",
-      "ts": "2026-08-14T23:02:56+00:00"
-    },
-    {
       "t": "Leo finally met Islam ❤️ [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
       "ts": "2026-08-14T23:03:27+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Conor McGregor vs. Max Holloway at UFC 329: McGregor Says Knee Rehab Is Moving at an Unheard-Of Pace",
       "ts": "2026-08-15T17:00:23+00:00"
+    },
+    {
+      "t": "UFC 329: Damian Pinas post-fight interview",
+      "ts": "2026-08-15T17:36:38+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Jon Anik: Ian Machado Garry 'under appreciated by every pocket of this fanbase'",
-      "url": "https://sports.yahoo.com/articles/jon-anik-ian-machado-garry-220022570.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-14T22:00:22+00:00"
-    },
     {
       "title": "You won't want to miss this battle 😤 @ArmanUFC vs @RuffyMMA [ CryptoCom UFC331 LIVE SEP 19 on @ParamountPlus ]",
       "url": "https://nitter.net/ufc/status/2088385712173555836#m",
@@ -2105,6 +2098,13 @@
       "source": "RingSide24",
       "cat": "ufc",
       "ts": "2026-08-15T17:00:23+00:00"
+    },
+    {
+      "title": "UFC 329: Damian Pinas post-fight interview",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYkZKeDdsS3kzSWREM08tdnRhT0NWeGpXVWRvVzAzcUdjc3Vud2JiY1FGSE1HSVVrOTdfVkIyNjBhZ0gycllQTjFGNk9COHVkZkFHMDVhTi1iZTRTd3Uyam5CQ29Nd1Q4anVNSTFyaGVOcHY0ZU5zay1RSXBWWmNadlFrQnlsRUVVbkl4RWZn?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T17:36:38+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMif0FVX3lxTE56UldEZ0VaZU9IR0pkam9aRVJZZXVyWGg5NDAwcUdhci05LThLWHB5T295MS1wVks0WW9SZGstUjVrZlo2SDlMNTdXamZORmwxQm00azhLN3dNLWd5QmhsdFktaXA2NVQxcUV2UHZnZzF3TmdqNGNVYzhtQjdudzQ",
     "CBMitwFBVV95cUxNdWg1b09Lb0NFdHA3RDhtckZqSzFGTUFnWWgxdFRBb3QzXzQ4RnVsRzhpSVNCbnFWM1ZzZlB6d0Y5N3d1SlRfc0xaYVQ1dDJiLUFZLXJpTGZPa3poTUlfbGtyWTZYcktySGhHTjZ3bGN4TTBBTXRJMWM0VFhKZTM5bFVpZFY3Ul9WMjhRUmluTVQ1ZV9WdjNvbTdxdmpKMXVCTkVmbW9Xd0llb0ZEaGI5RVVWWEZKd2M",
     "CBMiqgFBVV95cUxQLUxMalpCdVFhSkNWa3RhZUhSNzFGa240VmhaT0RTb2czaE50YXNvTjF4T3lCbzVfWEcwYkJPQWxiMk5Sb1NfYXNIQ0swTUFDZGtiVlRfWTVBTVJQWDk2dmZLSThhOUFUSFdwVGZlb25XeE1udVBHekpLQ1RzaTZxWHlUQ2tOQjNEcV9RLVBZZnNwYlNxZDh2X01sUjNhejV3M3l5WmhxMGFtZw",
     "46a1535c-493d-32d7-bedc-c0ae3821e357",
@@ -3312,7 +3311,8 @@
     "5bdc57c8-546e-39c1-a41c-ce85e5a3ce26",
     "b206f5e5-7cbc-350b-ad68-2774143590b9",
     "CBMijwFBVV95cUxNNXRTZ0dOZExpSjJ5TzJvSlNMNnVGaGlnd194NVdMWFY4bVVrUXFEcXZNdnNQZU1jdTliaXNVNEIyZXNBY1JTV1RYRjRiMnhHOVZydFdWM3NpeEdMWHdyXzAyS25QWE9GcG5maUJMM3lDanliMERzS2ZjcVhSMUJEQ1cwcl9NYUNzU0RJa2RHWQ",
-    "CBMi1wFBVV95cUxQanJTMkwtVDBxR3pmVWFHdGI1MkNtTFJhVXRydlVKdFpXMEhwLVgzQ2lSQjRGUi1TZzljTEk4YjVTN3NhbHlLWUo3WDV6R2h3Qm5PelhVbkJLQzA5ZDhJR2U2eE5FQ0NUMkh5d0psaWNXczVLd3pPLWVtaUFfRl90cV9KcnotSlR1cjNSRWJXbFlOSGVqdnFfNlRqTkw0QUkwVnhJeUc3UmMxdXl5dTdCajRvWmNCbWo0em0zclZXLU05OUh1Z0NRREdHZmhNSFp5VGpOcWVlTdIB3AFBVV95cUxQanpKa3BqY0ZOTmZHdTBBV1hZajdjeG9TTkxtNmZDR2RwcXJTMlRFa1VRLUk5UWFUczk0TDhYTGxOMTFFbWxIM2pmWnE1R2tMWUR0QkNfek9vNUhOQ0FoY0Z5cVcyVTVCbmlVM3pWWjVwWEZFLUJfYndzclJoZUx1M3lUR2lhdlJwcHlQRWRoSWEzVEVPT0tFTFMwM0kyNk9PLW1xeGhzRE5JV1l0TUE3bEFfQ2pwcGtlYWpJeGJRRm9UN1hpaEZfdkM1ajhQN3dZZzh6N1ZyamhyUmhs"
+    "CBMi1wFBVV95cUxQanJTMkwtVDBxR3pmVWFHdGI1MkNtTFJhVXRydlVKdFpXMEhwLVgzQ2lSQjRGUi1TZzljTEk4YjVTN3NhbHlLWUo3WDV6R2h3Qm5PelhVbkJLQzA5ZDhJR2U2eE5FQ0NUMkh5d0psaWNXczVLd3pPLWVtaUFfRl90cV9KcnotSlR1cjNSRWJXbFlOSGVqdnFfNlRqTkw0QUkwVnhJeUc3UmMxdXl5dTdCajRvWmNCbWo0em0zclZXLU05OUh1Z0NRREdHZmhNSFp5VGpOcWVlTdIB3AFBVV95cUxQanpKa3BqY0ZOTmZHdTBBV1hZajdjeG9TTkxtNmZDR2RwcXJTMlRFa1VRLUk5UWFUczk0TDhYTGxOMTFFbWxIM2pmWnE1R2tMWUR0QkNfek9vNUhOQ0FoY0Z5cVcyVTVCbmlVM3pWWjVwWEZFLUJfYndzclJoZUx1M3lUR2lhdlJwcHlQRWRoSWEzVEVPT0tFTFMwM0kyNk9PLW1xeGhzRE5JV1l0TUE3bEFfQ2pwcGtlYWpJeGJRRm9UN1hpaEZfdkM1ajhQN3dZZzh6N1ZyamhyUmhs",
+    "CBMijgFBVV95cUxNYkZKeDdsS3kzSWREM08tdnRhT0NWeGpXVWRvVzAzcUdjc3Vud2JiY1FGSE1HSVVrOTdfVkIyNjBhZ0gycllQTjFGNk9COHVkZkFHMDVhTi1iZTRTd3Uyam5CQ29Nd1Q4anVNSTFyaGVOcHY0ZU5zay1RSXBWWmNadlFrQnlsRUVVbkl4RWZn"
   ],
   "daily": {
     "d": "2026-08-15",
