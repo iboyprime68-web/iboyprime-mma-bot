@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Arman Tsarukyan knows a win over Mauricio Ruffy at UFC 331 doesn’t guarantee him a title shot",
-      "ts": "2026-08-14T23:30:00+00:00"
-    },
-    {
-      "t": "Daniel Cormier doesn’t hesitate to predict winner of Khabib Nurmagomedov vs Islam Makhachev fight",
-      "ts": "2026-08-15T02:00:00+00:00"
-    },
-    {
       "t": "Israel Adesanya picks Ian Machado Garry to upset Islam Makhachev: ‘I believe in magic’",
       "ts": "2026-08-15T03:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Belal Muhammad Says Islam Makhachev Can Submit Ian Machado Garry Late At UFC 330",
       "ts": "2026-08-15T06:22:10+00:00"
+    },
+    {
+      "t": "Las Vegas Lights FC vs. Brooklyn FC Live Stream of USL Championship",
+      "ts": "2026-08-15T06:19:40+00:00"
+    },
+    {
+      "t": "Watch: Islam Makhachev meets Leo Machado Garry, wholesome interaction with Ian Machado Garry and his son before UFC 330",
+      "ts": "2026-08-15T06:25:41+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White holds Alexandre Pantoja back, as the former champ and current champ Joshua Van had A LOT to say to each other ahead of their UFC331 remat…",
-      "url": "https://nitter.net/MMAFighting/status/2088386583083045178#m",
-      "source": "MMA Fighting on X",
-      "cat": "ufc",
-      "ts": "2026-08-14T22:05:36+00:00"
-    },
-    {
-      "title": "Jon Anik: Ian Machado Garry 'under appreciated by every pocket of this fanbase' https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/14/ufc-330-jo…",
-      "url": "https://nitter.net/MMAJunkie/status/2088386764989722768#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-14T22:06:19+00:00"
-    },
     {
       "title": "F me this is tremendous. Love the dynamic between these two",
       "url": "https://nitter.net/arielhelwani/status/2088387083253805129#m",
@@ -2105,6 +2091,20 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-15T06:22:10+00:00"
+    },
+    {
+      "title": "Las Vegas Lights FC vs. Brooklyn FC Live Stream of USL Championship",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85NlRwYnBwNTdUTWQzbXRXQWFlYnFLMEFweXFqdUdCdHlvdWxIcmtFcTJXeHhHZUxCekRFNXV1MlZhRjJKbDRqUlQwV2FTemtFbHVWVUlfbk9wbEVtYkE?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T06:19:40+00:00"
+    },
+    {
+      "title": "Watch: Islam Makhachev meets Leo Machado Garry, wholesome interaction with Ian Machado Garry and his son before UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWjV0ZkM2bkMybXd4ejhfUFZ4OXg4Mk54blNMV2VWZXZGTUhqX010VDRVMnZlc3RUTzZHWUNHdTBLU2YxNHQ1RkZHYmYyVV9aRm1fREpHTXZ5Mnh4SEgtS1ZRNXF6ZmVTOXVUWXNtMnVVWkxSRV8tbmFqSnB5dWMzZ0phZjk5MjBINDJpaEtRQzVfdk1sRmMwcmwwQVJ5UW1TN2V6S1N5bzJxRU41QnFYVEQwRVhQMUpzV0hPSnk4cjdlNmc?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-15T06:25:41+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2087649403456598273",
     "2087649564316913910",
     "2087660466642563477",
     "2087667050843893984",
@@ -3312,7 +3311,8 @@
     "CBMijwFBVV95cUxPNU9LaHZMaVB4VVEyd292blpvYVhVLWdIQkRaMTBVMlREOFBuaVJPbHlaZmdFNDdSam1mR3M3bXVkOEM4ZFZiTzNfN25pY1A3cUZRT203enpPQTJ1cWd3cUJicXB0YjlPeTdvQmNVQUMzcmo2Nkt1cXhFVjlqUkNYWEM4eUJqSTlIOVJSWnMyZw",
     "CBMib0FVX3lxTE4xRURQVV94QkUwUlowVE5kTW5Iem5UTkdWWFFLeDlnUnN1OGc1YXNza0FpblRSOFJ2WFV2MEJJOEVjUGdHZDl2VXhrcWtFQ2tmZS1IcnZwTkJ4N1YwR09FRTk5VUkyVGhJaXV3bUxpTQ",
     "CBMijgFBVV95cUxOdDI3QUkxTUNjbEd0RVZiQi1xR2NIOWQtRXA5VHBjQkRQUFhiV2JfdE54SEo2Y1hZdEQ4akFiMDFvd0Q4Q3hpZzNSWTYycTVuYzlfcWNqNlhHSEEwLW1vbkR4VUI5alFvajByODhMdkxLcHBGRk9aTy1KUWs2Zm9FYVJ4S2hxbXRINDVSZm5B",
-    "CBMinAFBVV95cUxNXzNZVUpIVUNzM3RPQnJpSGpMM0YwcFBlT3FXZGZwR0g2aUlWU1NDSjJyRDE4MGtyR1FWSjAyS2VXMzY3NzNENVpqZ2JlTTNkTExpUGRJNWRXbDFTdjFVVWNoZVRpS2UtZF9hb3pOeVdxTDVkTnhCWEhwRm5PN21mRUxZNTFLVWFGRzdHUlVMZ3hOMnB4MFA4cU42MlQ"
+    "CBMinAFBVV95cUxNXzNZVUpIVUNzM3RPQnJpSGpMM0YwcFBlT3FXZGZwR0g2aUlWU1NDSjJyRDE4MGtyR1FWSjAyS2VXMzY3NzNENVpqZ2JlTTNkTExpUGRJNWRXbDFTdjFVVWNoZVRpS2UtZF9hb3pOeVdxTDVkTnhCWEhwRm5PN21mRUxZNTFLVWFGRzdHUlVMZ3hOMnB4MFA4cU42MlQ",
+    "CBMiwwFBVV95cUxPWjV0ZkM2bkMybXd4ejhfUFZ4OXg4Mk54blNMV2VWZXZGTUhqX010VDRVMnZlc3RUTzZHWUNHdTBLU2YxNHQ1RkZHYmYyVV9aRm1fREpHTXZ5Mnh4SEgtS1ZRNXF6ZmVTOXVUWXNtMnVVWkxSRV8tbmFqSnB5dWMzZ0phZjk5MjBINDJpaEtRQzVfdk1sRmMwcmwwQVJ5UW1TN2V6S1N5bzJxRU41QnFYVEQwRVhQMUpzV0hPSnk4cjdlNmc"
   ],
   "daily": {
     "d": "2026-08-15",
