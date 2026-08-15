@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "F me this is tremendous. Love the dynamic between these two",
-      "ts": "2026-08-14T22:07:35+00:00"
-    },
-    {
       "t": "Sparks fly in the #CryptoCom #UFC331 Press Conference 🗣️ @JoshuaVanBT vs @PantojaMMA 2 can't come soon enough! [ LIVE SEP 19 on @ParamountPlus ]",
       "ts": "2026-08-14T22:12:32+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Kalshi Promo Code WTOP: Get $25 Sign Up Bonus for Saturday Night MLB, NFL, UFC 330 Trades - WTOP News",
       "ts": "2026-08-15T20:38:21+00:00"
+    },
+    {
+      "t": "UFC 330 live results: Two title fights in Philadelphia",
+      "ts": "2026-08-15T21:00:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Watch Khabib telling Dustin Poirier he ‘taught’ Islam Makhachev a lot seconds after he tapped out",
-      "url": "https://bloodyelbow.com/2026/08/14/watch-khabib-telling-dustin-poirier-he-taught-islam-makhachev-a-lot-seconds-after-he-tapped-out/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-15T01:00:00+00:00"
-    },
     {
       "title": "UFC 330: What Time Does Islam Makhachev vs. Ian Machado Garry Start?",
       "url": "https://sports.yahoo.com/articles/ufc-330-time-does-islam-094142430.html",
@@ -2105,15 +2098,21 @@
       "source": "WTOP",
       "cat": "ufc",
       "ts": "2026-08-15T20:38:21+00:00"
+    },
+    {
+      "title": "UFC 330 live results: Two title fights in Philadelphia",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYmlfWEdBOHY1S2FNOS1Gb3BaSTVFYmdIMDJBRDYzdUhWTnA1c2psMEQzNnBvZHFYZ2xOY1JGeXNid0xUV1JoSWUzdzhGcjFJSmZaUWNNLTRPbzdteGJaRzNuZ1pyeDMzQ0oxUEEtQ1NqQWdrMEEtczFyWTZ6dmxiZnlsdWV3Sl9LR1J1X3dYMU1wOGJybXFLQXpxdG5MT0JvV184?oc=5",
+      "source": "F4W/WON",
+      "cat": "ufc",
+      "ts": "2026-08-15T21:00:00+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
   "hour": [
     "2026-08-15T21",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMirgFBVV95cUxOaEExdFMySXJGOFVfazcwYW9jT2RBN196MkxaYTYxRmNBX1dIYjNTMk9hZkNfaDJXRUZsZTRlY19hRURuRElvYVN3LUloRk5TUmpuUEpOYzZIOFNibUE4LXd2bUc3cm5ycE41bXdDRDV0ZHpwOTBmSzIteW9jRDI3UWRLMXNycjhGdmpwaEp6Y3ZVQ1huVDJzbHEybmdGaGhrQkdaLVdLNnc5dnRSVGc",
     "CBMivAFBVV95cUxOX3F1cHlvTlh6SFYwR01BNWtFSkMyXzNCZGN1RGIzXzNEbEdIZXY3dlpySERVQ3pNLTB3QnBIME9Uc1ZaRC1uclNYMmRQMVozWm5iZzVMMDhHbnptSGlYZGg2ZFl4WUNyZ1J0VGNuOG55YlEwU3p3ZEJfbUp5aUtFV3A4OFE1ZnBoUWtreHlpcFgzdzNQc3hKZGdSQi0wekJCZFpnV0pqY25RbEVUY0FZcmtCaWFtd3FSWEY1ZA",
     "CBMiwAFBVV95cUxOVHMzZnEwZEpJWHBUdEVkNU1KU1p5UnFhOENMVVA3eEMzUTROTEJmS0xNNU5FZlNxTFJ2X0JzSmlWdUxsZWxZR2J6ZjZTVXFZNXJ4ZnZIblJOTnlqQzRNUmQyTUtSTXdHNlZIeXh5NnR6VlpuY1lDYjlTZjg4LWZhWnpzeGhIX2JFeTVoV2YzMTM2bUpBaGhiYzhRNm4wQnJ1LUo4bEVSR21IMFFobDhmRkstYjVWbHFtQ3lQUkp1ZW8",
     "CBMipgFBVV95cUxNczZqbEFGbHJoZTl3Y3BIUk1OWnJkRlNSTjMtc2VfQWlBSnlxbFVoRkxMTFMxT0FqQTBqeXFab3BUUFg3VmMtekJqd09tVm1yM0NlNEp4cFljQ0FJeGlrNTlZYm5wWGdZM2Y5TUJOdHBJTW91djNSUDhPelFHbUJpcTh2RDRlcWZtRGp6VnR0ZWpSYnNQSTU2YmVmVU9TMmt2NHlOaHd3",
@@ -3312,7 +3311,8 @@
     "2088728925711237424",
     "https://bloodyelbow.com/?p=326834",
     "CBMipAFBVV95cUxPUDdYdmRSQUtORDBBMHJLUDFic2g5Q0hVTnBfdWtlMnFvbEZqZnllSElOcFpZQnZQUzlDZ3hadEQ0d0w0WXZuZTJCRWFaOVdtWFVIWEFGaURVNU1YZ0QzN0NEbi1ZMWt5WElzM3dzellmejFXTXJzZHh3WGFscncyLXJ2S0RuUHRJMHVrcTUzZ3U1cUFMYmFkU29IYzdrSlRUTFdzdA",
-    "CBMiugFBVV95cUxQRGJpOGhCVFJzV3NuNm9Wczc5b2tVcFdVenFObnRNZVRiTGIxb09va0t1Y2cwWm9fejBtSmdKZUpfaXAtcXJZNnR3cXFlSjFZX2tlcXZYNjlESGNtWGM0R1FQZm5oMHBoVGd4bjg1c3JxUlU4akhtY2Vha0NjZHJZWFFCdGdHS1U3cjdlY3EtR2dQQUxtX2VwWFNxd3VyWVl5eFFFbE9uQWc2NWtyS1VUSVc0OER2eHVHcHc"
+    "CBMiugFBVV95cUxQRGJpOGhCVFJzV3NuNm9Wczc5b2tVcFdVenFObnRNZVRiTGIxb09va0t1Y2cwWm9fejBtSmdKZUpfaXAtcXJZNnR3cXFlSjFZX2tlcXZYNjlESGNtWGM0R1FQZm5oMHBoVGd4bjg1c3JxUlU4akhtY2Vha0NjZHJZWFFCdGdHS1U3cjdlY3EtR2dQQUxtX2VwWFNxd3VyWVl5eFFFbE9uQWc2NWtyS1VUSVc0OER2eHVHcHc",
+    "CBMiowFBVV95cUxNYmlfWEdBOHY1S2FNOS1Gb3BaSTVFYmdIMDJBRDYzdUhWTnA1c2psMEQzNnBvZHFYZ2xOY1JGeXNid0xUV1JoSWUzdzhGcjFJSmZaUWNNLTRPbzdteGJaRzNuZ1pyeDMzQ0oxUEEtQ1NqQWdrMEEtczFyWTZ6dmxiZnlsdWV3Sl9LR1J1X3dYMU1wOGJybXFLQXpxdG5MT0JvV184"
   ],
   "daily": {
     "d": "2026-08-15",
