@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Khabib Nurmagomedov Sends Powerful Message Of Support To Islam Makhachev Before UFC 330 Title Fight",
-      "ts": "2026-08-15T21:04:04+00:00"
-    },
-    {
       "t": "Islam Makhachev vs Ian Machado Garry LIVE Streaming: When And Where To Watch UFC 330 Live In UK, USA, Canada And Other Countries?",
       "ts": "2026-08-15T21:07:44+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC 330: Neil Magny Shows Veteran Savvy, Dispatches Ramiz Brahimaj",
       "ts": "2026-08-15T22:34:36+00:00"
+    },
+    {
+      "t": "UFC 330 Mixed Martial Arts",
+      "ts": "2026-08-15T22:20:08+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 330 Embedded, Episode 6: 'It's fight time'",
-      "url": "https://sports.yahoo.com/articles/ufc-330-embedded-episode-6-072026324.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-15T07:20:26+00:00"
-    },
     {
       "title": "Max Holloway gives his UFC 330 main event prediction",
       "url": "https://sports.yahoo.com/articles/max-holloway-gives-ufc-330-082413505.html",
@@ -2105,6 +2098,13 @@
       "source": "Cageside Press",
       "cat": "ufc",
       "ts": "2026-08-15T22:34:36+00:00"
+    },
+    {
+      "title": "UFC 330 Mixed Martial Arts",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT0VQdHBWbGFGdlRXc2E3bDRrWEt4UGdaRUx2MjVKcFRialJoN1JRSEpNU00zZzZ1OU1WZm1LeEFaVzYwd3R2WjNZWGlaY3hVR3doTGVSYVdMaVowZGctbmQzTUxKd2FyeFpYOTM4SU85ZHhzRVNFLWVkT3M3dEZIREtnenZZVnNCOFlOSVZ3TVhWblZQdEh6bnJHNENfd2xoNjhzYTBTU3hsSnA4SGU4RWFITktDeURQWWdj?oc=5",
+      "source": "Dayton Daily News",
+      "cat": "ufc",
+      "ts": "2026-08-15T22:20:08+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiggFBVV95cUxOMjhFRThiRkdMWGJMcUhvWGhrbmIyR3VBTUhqeFE0M3JXZVF0Rm9NYnotVk9mMC1wRTNxN2JxcVU1TmdGMndaTkkzX2JzQlJoanY4N0lxSFNBdmVOMjZIeml2V0pidUhSRTd4aEZzMlZmNWZmZmlYN0t2LV8yRG1Md1ZB",
     "CBMiqwFBVV95cUxQcG9LNGdUMlJFYktKUG5TTFlGNEVXSU04OTI1bEhZeldrRkxpQmV3QkVpMFZsdGxVTFMwdVJiUkVGOGFweXJKWkhsV3RMbU5XVWhmaEJ5WHlvZFBNalc1OVdSb0hUMnZhYUUwMkZRbVF3YXJlLUJEanNWODlOdnBaS3NQSkNncnRkVXlleDJRNlJUMlFveWJ0c2t1cFhYZjJUS1dJbGVWR2c5bWc",
     "CBMimgFBVV95cUxNTWFEamloVDlhdGF0WW11RE1TTmFpWWlpdUVCYVB6c3UxT2xDVGlzenpLYlIzWGpMejdEUVQyTFM3YlUzWlBKSlV3OFBTQlptSUNrZzdvX1FVSFgtMXM5N05VelA0Vm9lNHk2REdoQXNmVHpmUEhNQmZrelhvMWhfVVc4bzhlWl9RT2RDeHFwTUNiM2tHQi1hc1hB",
     "CBMieEFVX3lxTE15bGRJZzEzaGg0N2puQ1lER0pfVGtJWkRjb0pJMEIzME95dWlKcXh2NXN6RDFwUF8zeDFVV0N1Nk90R09kUUxzUVEwRkwta1R6QXlzblE5QlpnTXBMdk1NRi02RVNCWDdPZTd0b0JXd1F6R0p6YVdYSw",
@@ -3312,7 +3311,8 @@
     "https://www.mmafighting.com/?p=504971",
     "CBMid0FVX3lxTE1UZm8zZm9GMmV4ZmdxUDNOam5LckxkR0p2b1FZTnJScmh5Z3JVY19aaFY4YlN5LTBBd3hSVFZEYm52b0lRYWt2LWg0R0xzWUZlalNjYzZvTVY5YVZibTFPVWhhOGR5dzNEQkczbUdwa1hxc0xNMlFR",
     "CBMixwFBVV95cUxQay02N2xtQnc4OG5sdjl6ZThqbkowYTVTS0EtLTlNcFpOUDJ3WDVhSG5JdmRGRUNSaVREdHpyV1IzT1g1c3E0ZU00Rk1XckJKb2xpVzBrbHJnT1ZKRmRObnNyUTh2M0ZVYmVIN0V4T2Fla0ZZWjkyMDBaTWViRnNBbXJsVW5hM1p6ME45M3dKNFNSTEkyd3prN1RzX1pGaW1fZGtwQUhBVFN2V01wVUtIZ2Y5S0IyWGVnR1BpU1pFeXRETUNqWTQ4",
-    "CBMipAFBVV95cUxPdnZpRENQT0d0aWlSWVllNllIa0JPZDV1R2gxVnRtRXhDcmtRUmxoVnZwMXpVNTNNeVA1UUU0ZUd5Y2JwREZwT1hWWEprTUtfb1pIZUVDNEtWbUN5YzFlbk9FdS1kREhCdU1OTGkwa2xxNmQtNzhnMmxQZXc2dDVxcUF0eGRjZVZWS2o2X0R5ckJlMk1sV3lQUTgyOTBXS3FnemhCQw"
+    "CBMipAFBVV95cUxPdnZpRENQT0d0aWlSWVllNllIa0JPZDV1R2gxVnRtRXhDcmtRUmxoVnZwMXpVNTNNeVA1UUU0ZUd5Y2JwREZwT1hWWEprTUtfb1pIZUVDNEtWbUN5YzFlbk9FdS1kREhCdU1OTGkwa2xxNmQtNzhnMmxQZXc2dDVxcUF0eGRjZVZWS2o2X0R5ckJlMk1sV3lQUTgyOTBXS3FnemhCQw",
+    "CBMiuwFBVV95cUxPT0VQdHBWbGFGdlRXc2E3bDRrWEt4UGdaRUx2MjVKcFRialJoN1JRSEpNU00zZzZ1OU1WZm1LeEFaVzYwd3R2WjNZWGlaY3hVR3doTGVSYVdMaVowZGctbmQzTUxKd2FyeFpYOTM4SU85ZHhzRVNFLWVkT3M3dEZIREtnenZZVnNCOFlOSVZ3TVhWblZQdEh6bnJHNENfd2xoNjhzYTBTU3hsSnA4SGU4RWFITktDeURQWWdj"
   ],
   "daily": {
     "d": "2026-08-15",
