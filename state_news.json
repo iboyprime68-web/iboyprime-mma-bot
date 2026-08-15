@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Tom Aspinall Predicts UFC 330 Main Event",
-      "ts": "2026-08-14T22:13:51+00:00"
-    },
-    {
-      "t": "UFC 330 video: Islam Makhachev vs. Ian Machado Garry final faceoff for title fight",
-      "ts": "2026-08-14T22:46:05+00:00"
-    },
-    {
       "t": "Brendan Schaub: Islam Makhachev far from being GOAT, 'resume is weak as f*ck'",
       "ts": "2026-08-14T22:50:31+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Eduardo Chapolin",
       "ts": "2026-08-15T06:05:15+00:00"
+    },
+    {
+      "t": "Orioles' Gunnar Henderson: Logs four hits in Friday's win",
+      "ts": "2026-08-15T05:13:10+00:00"
+    },
+    {
+      "t": "Athletics' Jeff McNeil: Homers in four-hit game",
+      "ts": "2026-08-15T05:27:18+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Video! Pantoja Restrained By Dana White During Heated UFC 331 Presser",
-      "url": "https://sports.yahoo.com/articles/video-pantoja-restrained-dana-white-001500377.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-15T00:15:00+00:00"
-    },
-    {
-      "title": "ONE Fight Night 46: Hemetsberger Vs. Diachkova – Results And Highlights For Every Match",
-      "url": "https://sports.yahoo.com/articles/one-fight-night-46-hemetsberger-004832400.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-15T00:48:32+00:00"
-    },
     {
       "title": "Belal Muhammad could see Islam Makhachev submitting Ian Machado Garry late",
       "url": "https://sports.yahoo.com/articles/belal-muhammad-could-see-islam-012019463.html",
@@ -2105,6 +2091,20 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-15T06:05:15+00:00"
+    },
+    {
+      "title": "Orioles' Gunnar Henderson: Logs four hits in Friday's win",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMkhMUUc4djlsckc3OEdDaTByQldXeDJ6NUlLMjVhXzRQNzk4NTJ2WmdBaDQ1VFFJVk5zeEtNdENIbElPa2QzZ2xxWkVqRHhPM0t3MUJOYUN3TmFKbFRLeksxX0dXM1BaYXV6Qlp3UlI5QkgzaEFSZlFUWjk1QXpHUGxBUEhnVXVwcEFGMHk4NmtTd3l1a203QnVwdUZhekRtdnlHdmZR?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T05:13:10+00:00"
+    },
+    {
+      "title": "Athletics' Jeff McNeil: Homers in four-hit game",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU1JFWTRHR19LeVJmMXBDZWc1c3BKNll3bnJPQlkxdjRoMjVkS3NoUXVxTEpiQkU5dGpBMkw0ZFZrRE9JVGptN1M1UWVVX2tPdTJtRVVzajBkWmt2Q0tMMDdiejJvVy1VMjBaTUpPWUZ3Yk1uZmlrVi1OcUhRT09FWTBuSHRLM2xjRDVZUG51S0hQem5mODd5N19R?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T05:27:18+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "bd659479-10dc-3764-b441-a1efa2bb96d2",
-    "88e102ec-1618-3e2b-8e03-e5db8c501515",
     "02b56bff-fd9a-30ce-b9fc-eb561f57aceb",
     "CBMivgFBVV95cUxQamJlaHFYQmYwSUhVRFQ4blRXdHpzNzhaazZWZFlXdnpxc05xOGVWZW5hMHBROHpRaGJDdkVCX2gyUHhsclNucHlZVkduNHpMT3VrU0daU0NCLXAzMERIYmVET25IMXVNT2xLV2V5Um5JT2Z3SjVSbDR1SDVYaGZLZEJ4b3Nwd3BwYmZWQ2c1bW56V2lkVFIzSm9MMkdpUGtyelpBRlBLMkdwRGR5UnFneFdGaFRKcktVVjJ6NFV3",
     "CBMickFVX3lxTE9ObGN6TU41ZTA0UVpQdnNibjlzOUR0azR0S0t3MHpfbW9kLUt2alUxeUh4RzlvcVpMMnpLNTdVbVpDeHlwWWxDR3QzX0RmV0liVmtBWDllOHRTXzZCT1ExcWdLdjBVUzNHSHdlUE9pSFBOQQ",
@@ -3312,7 +3310,9 @@
     "CBMioAFBVV95cUxNVDFjTnM3dTh4ampkZlZDVk9zY0ZFQ0t3SldBYmZSVjVJS0JBdnlSVmwtTURvY3JSRm15WjVoY2JJWDlUbEtTSDBPWk5xdExPbDZiMTFseEFlTGZGUlN3ek91dHdyZVc3SzA0Rnc4YXZsdE5JYzdHc2NKT2FlXzJ4RGtmTURaRFhhQ1pLNHFTNzg4NHgyejNpSDFiRnFJMFJB",
     "CBMilwFBVV95cUxQZWRkQkhuRzQxdzRxLVNERmI5Yy1JWUNpTEU3RXpQd1lPVWdQN0lTQTZKUlN1Y1pmU0pYakJJNGFEeWZHU003cWEtcGh3Q0dWYUtMX1JSNXpMdFF1b2VnRGNnZkUyeUlFeEpZOEg1eDEtZjlQUHRfbW44UFJJYkpvQ2pacjFydG5kbkRZdDRlRkd3cEVXQy1F",
     "CBMijgFBVV95cUxPaV9rRkpITzMtMlRJTE5XVjZNZDIxSDRoM0tRMEJtaDhsNE9ORVJ2dDJ5VXV1VkhBb2FOaWkyV0ZkejVXbFIxTktxeUJQUC1RRkJDdFFRMElZU2lDbU53a1FfOWd1bTFmNjFUZU9TRllQM3MtMnVPYjJZTlRFWXVTcUwzTm4tMjRlYXROOFRR",
-    "CBMimAFBVV95cUxQOVFOcWNDTThGZG1FZzM1R3JXcmRiUDdUNnhCOXBnT2J3Yy1MaF9fLTZPRC1zWllVRnRJaEw2ajdFSnZMa3NCc3ZzanE3aW94dEJUU1JnV1h0UVhFaDV0bHpZbnJJNnk0ZUNMM2JSV0FNcWI4MFk5dng2SjBCeW1qZzFTd2FjS2VCTko1SmkyVkdCbF9jd3Mwdw"
+    "CBMimAFBVV95cUxQOVFOcWNDTThGZG1FZzM1R3JXcmRiUDdUNnhCOXBnT2J3Yy1MaF9fLTZPRC1zWllVRnRJaEw2ajdFSnZMa3NCc3ZzanE3aW94dEJUU1JnV1h0UVhFaDV0bHpZbnJJNnk0ZUNMM2JSV0FNcWI4MFk5dng2SjBCeW1qZzFTd2FjS2VCTko1SmkyVkdCbF9jd3Mwdw",
+    "CBMipgFBVV95cUxQMkhMUUc4djlsckc3OEdDaTByQldXeDJ6NUlLMjVhXzRQNzk4NTJ2WmdBaDQ1VFFJVk5zeEtNdENIbElPa2QzZ2xxWkVqRHhPM0t3MUJOYUN3TmFKbFRLeksxX0dXM1BaYXV6Qlp3UlI5QkgzaEFSZlFUWjk1QXpHUGxBUEhnVXVwcEFGMHk4NmtTd3l1a203QnVwdUZhekRtdnlHdmZR",
+    "CBMimgFBVV95cUxQU1JFWTRHR19LeVJmMXBDZWc1c3BKNll3bnJPQlkxdjRoMjVkS3NoUXVxTEpiQkU5dGpBMkw0ZFZrRE9JVGptN1M1UWVVX2tPdTJtRVVzajBkWmt2Q0tMMDdiejJvVy1VMjBaTUpPWUZ3Yk1uZmlrVi1OcUhRT09FWTBuSHRLM2xjRDVZUG51S0hQem5mODd5N19R"
   ],
   "daily": {
     "d": "2026-08-15",
