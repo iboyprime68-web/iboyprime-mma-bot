@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "#UFC330 official weigh-in video highlights, photo gallery (via @MikeBohn) https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/14/ufc-330-official…",
-      "ts": "2026-08-14T15:05:09+00:00"
-    },
-    {
-      "t": "When in Philly! 🦅 @VisitPA @Joe_Pyfer96, Sean Brady, @NataliaSilvaUFC, and @DiegoLopesMMA went to some iconic Philadelphia spots to take in the vibe!",
-      "ts": "2026-08-14T16:10:00+00:00"
-    },
-    {
       "t": "Khabib scolds Islam Makhachev for telling Ian Machado Garry to 'shut up' https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/14/ufc-330-khabib-nu…",
       "ts": "2026-08-14T16:11:12+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Carson Beck's Opportunity to Impress the Cardinals Stream of National Football League",
       "ts": "2026-08-15T00:00:27+00:00"
+    },
+    {
+      "t": "Levi Rodrigues Jr: UFC Record, Stats and Fighter Profile",
+      "ts": "2026-08-14T23:10:40+00:00"
+    },
+    {
+      "t": "UFC Predictions: Preview, Picks & Props for UFC 330 - Makhachev vs. Machado Garry",
+      "ts": "2026-08-15T00:04:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dern Dismisses Robertson's 'High School' Drama Before UFC 330",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ3lVeWJIaG1nbUtPdXBjNTFUc1hVOVRxZ0VKNGZoYXVWbnRBVXFQQVhIeTB0SXpJcC12NDN1NUx6RFFhNmRKQjhTbC1OeHhrMVUzZC1ZZ2pqbWY0UG5ud2NoRGh0bGpQSVV1Rlo3dzk2aEExUlhrU0xPSnZlTlVVbjNrZ0czYWwwb3AtckNZZ25SbUZ2WWFIRlZ4cEV1NEZJMXliSVFNT2ZYNmhtazlvOGNhek96OG8?oc=5",
-      "source": "Yardbarker",
-      "cat": "ufc",
-      "ts": "2026-08-14T22:35:20+00:00"
-    },
-    {
-      "title": "Aaron Pico’s next fight leaked by Aljamain Sterling when revealing talks with the UFC for his return",
-      "url": "https://bloodyelbow.com/2026/08/13/aaron-picos-next-fight-leaked-by-aljamain-sterling-when-revealing-talks-with-the-ufc-for-his-return/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-14T02:00:00+00:00"
-    },
     {
       "title": "UFC 330 host hotel evacuated hours before weigh-ins are due to begin",
       "url": "https://bloodyelbow.com/2026/08/14/ufc-330-host-hotel-evacuated-hours-before-weigh-ins-are-due-to-begin/",
@@ -2105,6 +2091,20 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-15T00:00:27+00:00"
+    },
+    {
+      "title": "Levi Rodrigues Jr: UFC Record, Stats and Fighter Profile",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83bFU0TzhSOUt3RHNZbVFQem4yTDYwQ204WlBjV2Z5SUdIWXRDYWdfbWFiaEwtMVA0NmJkbzc2RmRmQldDamk2Z1BWWlBuelY2OFBjTEJWWC1jN1RN?oc=5",
+      "source": "Fightomic",
+      "cat": "ufc",
+      "ts": "2026-08-14T23:10:40+00:00"
+    },
+    {
+      "title": "UFC Predictions: Preview, Picks & Props for UFC 330 - Makhachev vs. Machado Garry",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYjRoOGNfN092ZG8ya1Q2RFNMdWVDR2xTcjBCQXVRbTlISTVxV0hxQ255SUVKZ1pWT2tMeWI5d25LX1h3bmQtT3FBOVh4blpveVNwTFg1aU8yQmlHY2dCYVFHc2xkMEV2VnNpaDNJdHpWemk1UElNOWJtTENMNXVhazM2WVA5TWFkV0RWeFpnZkN2Qmg0NE5oYTRKY2pIcWplUGtxRDBld0w3dw?oc=5",
+      "source": "RotoWire",
+      "cat": "ufc",
+      "ts": "2026-08-15T00:04:00+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -3218,11 +3218,13 @@
     "2088411843836399779",
     "CBMinAFBVV95cUxPeEp4ZlA2cEZ0dXpBNDRSaWdWMVN4dnV4aENoVXB1ejN4QThoX1JMVjFYNmthRGNIa2F2ZHlBX3BlNER1RHVwdWNXbTdvX1J0RjN3ZkRRMTdOcTBGTURTTmtiTVpFdzlJRTNudjE4NkFWM0tLMWQyOWo1YXNkRTRRbG5PQ2E3aFVHOVdoN0J4dFlUb0E5TkNfbzVNZXE",
     "CBMibkFVX3lxTFBOcVRGWnFrM3ZDZElvNWVXbWxYVGZnLW1GbGNPSjNPT0hudTMteW56QkFmYVB0T2szcE5HMEFtMWRPY19mTUs2dmxBak16TXZ0dS0wazhKaVg4dXBacmlaWFgxTDh6VmZnTlBxQVJR",
-    "CBMijgFBVV95cUxPQVhxbHVoN2t0NEQyRjU5TUxtZmM5X0NCNkN2M2ZjdnE2c2wxRXJya1pySE1xenJSOE1ZMloySVRwYU9PWlhydFB5aS1lSDlDSDNZV0tHZ25JSm5QbTYzTFliSmw0N0xPUHRIYmYwYWlxWHpsWVBuMGdYSzZTQU5aWFpkRDBaaWZLYU8tcjJR"
+    "CBMijgFBVV95cUxPQVhxbHVoN2t0NEQyRjU5TUxtZmM5X0NCNkN2M2ZjdnE2c2wxRXJya1pySE1xenJSOE1ZMloySVRwYU9PWlhydFB5aS1lSDlDSDNZV0tHZ25JSm5QbTYzTFliSmw0N0xPUHRIYmYwYWlxWHpsWVBuMGdYSzZTQU5aWFpkRDBaaWZLYU8tcjJR",
+    "CBMiXEFVX3lxTE83bFU0TzhSOUt3RHNZbVFQem4yTDYwQ204WlBjV2Z5SUdIWXRDYWdfbWFiaEwtMVA0NmJkbzc2RmRmQldDamk2Z1BWWlBuelY2OFBjTEJWWC1jN1RN",
+    "CBMiqgFBVV95cUxNYjRoOGNfN092ZG8ya1Q2RFNMdWVDR2xTcjBCQXVRbTlISTVxV0hxQ255SUVKZ1pWT2tMeWI5d25LX1h3bmQtT3FBOVh4blpveVNwTFg1aU8yQmlHY2dCYVFHc2xkMEV2VnNpaDNJdHpWemk1UElNOWJtTENMNXVhazM2WVA5TWFkV0RWeFpnZkN2Qmg0NE5oYTRKY2pIcWplUGtxRDBld0w3dw"
   ],
   "daily": {
     "d": "2026-08-15",
-    "ai": 5,
+    "ai": 7,
     "staged": 0
   }
 }
