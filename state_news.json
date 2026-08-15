@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 330 live results: Two title fights in Philadelphia",
-      "ts": "2026-08-15T21:00:00+00:00"
-    },
-    {
       "t": "Join 411’s Live UFC 330 Coverage",
       "ts": "2026-08-15T21:02:48+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Massive Underdog Secures Insane Comeback Submission Win At UFC 330, Retires But He Might Come Back",
       "ts": "2026-08-15T22:32:37+00:00"
+    },
+    {
+      "t": "Vicente Luque Faces Tresean Gore in UFC 330 Prelims Showdown",
+      "ts": "2026-08-15T22:35:31+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Did you watch any of their best highlights live? The fighters of UFC330 look to add another epic performance to their resume tomorrow! [ LIVE AUG 15…",
-      "url": "https://nitter.net/ufc/status/2088445823105282288#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-15T02:01:00+00:00"
-    },
     {
       "title": "Nothing left to do but fight....WHO'S READY FOR UFC330⁉️ [ LIVE AUG 15 at 9pmET on @ParamountPlus B2YB @StakeUsa ]",
       "url": "https://nitter.net/ufc/status/2088476021767245975#m",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-15T22:30:00+00:00"
+    },
+    {
+      "title": "Vicente Luque Faces Tresean Gore in UFC 330 Prelims Showdown",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQUdrV0p3QnlUTk5KdS16X29FU1hNdkx3ZUJrNC1wc1VzV29XMVFRS3hQeXpaZzEzMmVVVGNuNkY5Vnp1MVAtT0dsV3ZUNVc3OTRPQ1BqLUY1YnpycEJxQWZxdVZ2cUZiYjE5SU8zQXpuUU4wR2xFTzl0YV9sMkVVVWU1eldWMlRZSlBJeTFBZEI?oc=5",
+      "source": "SSBCrack",
+      "cat": "ufc",
+      "ts": "2026-08-15T22:35:31+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMijwFBVV95cUxQak1CNERpeG5XOWhpbDZmcVpSNnVCZlhCdWFTcmstQl9CcUdYUU1pVG1hMFN6eFdhZ0UyMUpPMTlHOEF5U2dzcm9KRVFiTTRkaHd5alg0VlItSTZhUkhTWk9BaDRza2s5cFhjV0IzTG5xRDZmV0E5dmRBd2E4TWp2NHpSSnpTTnZja0J2cmxPaw",
     "CBMihwFBVV95cUxPRDFBYkxIaEs4THo4dTZ2MUFsYXNBOG5iVmMyWWlHdW5FeTh2RVdtOGV6d3JkRDRySWVxUjZLd21EM3gyYWkyNVVndWdNRnpCS1JERks4eWNlcU9BOE9lN2N5VGZlZzdFd3pqajA5eHRtRWRPZ0FJaWFTR2lQaGhHajBOaUdZWDg",
     "CBMipgFBVV95cUxQRkRnOWw0TFR4eWU4SXphbVVGcnpjREdJYXJXYTA0NEpYcFZlMHN3Q0dNYUZRMGNrVmVUckNDay04bi0tdUdUdVJwNVBVeUE1X2lCSHNFMXZNZUNZNW93NzV3T2pHaEpJaE1zWXQ0RDRad0VOTm9VeVN2dmdGQXZQSm5HcEhlTGFyVXlxbVRYa1VLWG5UdmdKeDlSaXV5LVg5V0l0eDhR",
     "CBMinAFBVV95cUxOVVdvM2ZfQlpZbjdpRW5MNE5ZTktFZUlmV3IyeTVwamNWY2VBU1dZUk5fci1nSnVBbzdScXlOeVg3Z2hGN2R6b1pRQ1Rad0gzS0JNTFhic3JqWTlRYjZIY24zOEttdGNQQzZwbnVRcVNqeF91XzM4VzBPVE9KbWxrN2VPX0llTUdUSjR5VHZ2Ul82bmxpSnZ6X1RnVzU",
@@ -3312,7 +3311,8 @@
     "2088754990865358903",
     "CBMiR0FVX3lxTE1HUzY4WG5CbE9FV2NodkJsQXhZbGRZcWZFaDR1Q25lT3NVNG0xRTJzZTBEM29jREVSNG5ZazBwcERtcXMyMVJR",
     "CBMiR0FVX3lxTFBQd0xMVVd1THg2OVRPRDZuVkpxa1lQY3cwcjZ5NHYzTk5rU1A0NEdvRTFrbXFnblRPQ2o2aDRDajdnNlE1Tk5n",
-    "CBMiuwFBVV95cUxPN2NQUUlCb2hMLWRjTzRwMWFZRzZMMTRJOGxGdGgyWjFYbEtabW9ZZ0xlVC05WlRwSS1DZHlIb3NQdkNoZW5SSWFPRU9YYjNodGY5MDF4VVJqUjlGWnlOZDhFMXZmNzhuVGVNZmtSbE91NG5qX2gwVEYtZXBBbm9pdlZCbzVmbTJ4QUl1NHJPeFJyT0pXbTlURVVUR1pRb0t3NXhDMVJLeWw2eEJDWFRpRGh3M0NWS3BvQnM4"
+    "CBMiuwFBVV95cUxPN2NQUUlCb2hMLWRjTzRwMWFZRzZMMTRJOGxGdGgyWjFYbEtabW9ZZ0xlVC05WlRwSS1DZHlIb3NQdkNoZW5SSWFPRU9YYjNodGY5MDF4VVJqUjlGWnlOZDhFMXZmNzhuVGVNZmtSbE91NG5qX2gwVEYtZXBBbm9pdlZCbzVmbTJ4QUl1NHJPeFJyT0pXbTlURVVUR1pRb0t3NXhDMVJLeWw2eEJDWFRpRGh3M0NWS3BvQnM4",
+    "CBMikAFBVV95cUxNQUdrV0p3QnlUTk5KdS16X29FU1hNdkx3ZUJrNC1wc1VzV29XMVFRS3hQeXpaZzEzMmVVVGNuNkY5Vnp1MVAtT0dsV3ZUNVc3OTRPQ1BqLUY1YnpycEJxQWZxdVZ2cUZiYjE5SU8zQXpuUU4wR2xFTzl0YV9sMkVVVWU1eldWMlRZSlBJeTFBZEI"
   ],
   "daily": {
     "d": "2026-08-15",
