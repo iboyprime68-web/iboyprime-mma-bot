@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Our first @WhatsApp Watch Party 🥳 Join @AlexVolkanovski , @KaylaH , @NavajoStirling, and Bilal Hasan as they watch the #UFC330 main card! Join the ch…",
-      "ts": "2026-08-15T01:01:00+00:00"
-    },
-    {
       "t": "Joshua Van and Alexandre Pantoja have to be separated at UFC 331 press conference: ‘When someone talks, you shut your f*cking mouth’ https://www.mmaf…",
       "ts": "2026-08-15T01:06:55+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Watch: Islam Makhachev meets Leo Machado Garry, wholesome interaction with Ian Machado Garry and son before UFC 330",
       "ts": "2026-08-15T09:01:17+00:00"
+    },
+    {
+      "t": "Philly’s fighting footprint is expanding fast. This duo sees UFC 330 as a big part of that.",
+      "ts": "2026-08-15T09:01:01+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Video: UFC 330 full card final faceoffs with two title fights and more",
-      "url": "https://sports.yahoo.com/articles/video-ufc-330-full-card-000608567.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-15T00:06:08+00:00"
-    },
     {
       "title": "Video! Pantoja Restrained By Dana White During Heated UFC 331 Presser",
       "url": "https://sports.yahoo.com/articles/video-pantoja-restrained-dana-white-001500377.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-15T09:01:17+00:00"
+    },
+    {
+      "title": "Philly’s fighting footprint is expanding fast. This duo sees UFC 330 as a big part of that.",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQzdDbnV5SUNBZE5JWnptNjlVUGdEbzRyaGM2clFJbkN4X09CNEc4WHdfVldXencxZXl1VkY0eGYyNG8zY1VSSjM5SUhNc1N3VVhkb2paaDNGaXpqNF84cTNaSDA3WFpVNHVQZ2E1cDJ3b2VVWnU5QzN3WE03WS1mc3FCV3NGMEFsOU4xTGR3WVlTRl9KcUR3aW8xeUZLLXJj?oc=5",
+      "source": "Inquirer.com",
+      "cat": "ufc",
+      "ts": "2026-08-15T09:01:01+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Ilia-Topurias-manager-has-words-for-Ali-Abdelaziz-202313",
     "https://www.sherdog.com/news/news/Arman-Tsarukyans-coach-Mauricio-Ruffy-is-more-dangerous-than-Ilia-Topuria-202314",
     "https://www.sherdog.com/news/news/Former-UFC-champchamp-taps-the-brakes-on-Usman-Nurmagomedov-hype-202315",
     "https://www.sherdog.com/news/news/Marwan-Rahiki-Tommy-McMillens-punching-volume-shows-he-lacks-knockout-power-202316",
@@ -3312,7 +3311,8 @@
     "CBMijwFBVV95cUxQVGNqUjNYdllQYXRoYUNQYllUdERWbDhFeUE2WVRaQnM0Tk5WbWtRNzNsazdRa1VwNmlXenN2U0lFYW1DcC1kR0JzWUhzbGlJSUl6M01VWEkzbmFpMnI3MmVnOUFZT3NmR2FSeXBkRmVLcjJUQWM0c19jcWRBRW85U2tjVEtzZnAtVnNYaWU2SQ",
     "CBMiogFBVV95cUxNZWZGdGZOV1FvblVsd3R4dVVYd2NYc3BxeFI2dUZ4MDNia3RMS0dla2UxN0FsZGdwWWFidWJJQzg4Rzc5Y19mOGhMVmFpLW1uZzBSNy0yY2F3YmxGR1JwaFQ5alhaU1o3al9HdHNUOGdiN2xSRW0tT01MQmt5LXlnYlJaM1g1NjhubGtJQ05wRkk1MUNPRFpEcGE2c19kaEdlNkE",
     "https://bloodyelbow.com/?p=326785",
-    "CBMi7AFBVV95cUxQNmJlLVAtQ0R2RUowbzNTQ0Z3Vk9KQjRIQVhmY1dWR1VxbzgyQ2drZFVvTTJOeW1xWWJ2MW96bGItdVEyY2FpQ1p4cVlUa2tFZ3NvZEtBNGh2SHFEYmd4azgtRHM2Zmd2NS1ZWHZVd3ZfUUxOTTBycEZFaHphWm1rcG5kenZHbmZWS25yTE91ZllDYTE4QUxEalNMemlHLVdBdmpWMktfSGFvVktGUkFjYmFZakx3SHdscWxQc0JKczBsby1ZSzFBS0lNUG9janFEbUNxbWJPeWY4NmV2QWk3dVJCZmJjakNWb2l1UA"
+    "CBMi7AFBVV95cUxQNmJlLVAtQ0R2RUowbzNTQ0Z3Vk9KQjRIQVhmY1dWR1VxbzgyQ2drZFVvTTJOeW1xWWJ2MW96bGItdVEyY2FpQ1p4cVlUa2tFZ3NvZEtBNGh2SHFEYmd4azgtRHM2Zmd2NS1ZWHZVd3ZfUUxOTTBycEZFaHphWm1rcG5kenZHbmZWS25yTE91ZllDYTE4QUxEalNMemlHLVdBdmpWMktfSGFvVktGUkFjYmFZakx3SHdscWxQc0JKczBsby1ZSzFBS0lNUG9janFEbUNxbWJPeWY4NmV2QWk3dVJCZmJjakNWb2l1UA",
+    "CBMioAFBVV95cUxOQzdDbnV5SUNBZE5JWnptNjlVUGdEbzRyaGM2clFJbkN4X09CNEc4WHdfVldXencxZXl1VkY0eGYyNG8zY1VSSjM5SUhNc1N3VVhkb2paaDNGaXpqNF84cTNaSDA3WFpVNHVQZ2E1cDJ3b2VVWnU5QzN3WE03WS1mc3FCV3NGMEFsOU4xTGR3WVlTRl9KcUR3aW8xeUZLLXJj"
   ],
   "daily": {
     "d": "2026-08-15",
