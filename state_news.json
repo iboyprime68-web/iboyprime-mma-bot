@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Video: UFC 330 ceremonial weigh-ins, final faceoffs",
-      "ts": "2026-08-14T20:20:16+00:00"
-    },
-    {
-      "t": "UFC 330 'Embedded,' No. 5: Red bottoms to match the red hair",
-      "ts": "2026-08-14T20:51:22+00:00"
-    },
-    {
       "t": "UFC 330 Ceremonial Weigh-In",
       "ts": "2026-08-14T20:52:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Raul Rosas Jr’s Brother Among Six Fighters Fired During Recent UFC Roster Purge",
       "ts": "2026-08-15T11:11:00+00:00"
+    },
+    {
+      "t": "WWE Space Being Considered As Part Of Major UFC Las Vegas Expansion",
+      "ts": "2026-08-15T11:15:16+00:00"
+    },
+    {
+      "t": "Dubliner Ian Machado Garry eyes UFC title – how to watch in Ireland",
+      "ts": "2026-08-15T11:17:03+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Video: UFC 331 on-sale press conference with Van, Pantoja, Tsarukyan",
-      "url": "https://sports.yahoo.com/articles/video-ufc-331-sale-press-195517105.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-14T19:55:17+00:00"
-    },
-    {
-      "title": "Khabib Nurmagomedov scolds Islam Makhachev for lashing out at Ian Machado Garry: ‘Be quiet’",
-      "url": "https://bloodyelbow.com/2026/08/14/khabib-nurmagomedov-scolds-islam-makhachev-for-lashing-out-at-ian-machado-garry-be-quiet/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-14T20:00:00+00:00"
-    },
     {
       "title": "Demian Maia confident in Ian Machado Garry’s chances at UFC 330, praises Islam Makhachev’s ‘very good’ BJJ",
       "url": "https://sports.yahoo.com/articles/demian-maia-confident-ian-machado-200000702.html",
@@ -2105,6 +2091,20 @@
       "source": "EssentiallySports",
       "cat": "ufc",
       "ts": "2026-08-15T11:11:00+00:00"
+    },
+    {
+      "title": "WWE Space Being Considered As Part Of Major UFC Las Vegas Expansion",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdm1aek4tY1FCaW5GTC1NLWtxZEpTWk8xdF9XNzFpRDh0Y2VWUkFfZVVzaHlRa1ZHc29ZZHFwOXhrRFhqNE9ocDJibU03M01abnlqOXY1VHlXb2N1YVBFV2phUUpxUVV0TjFrRGtjZnpZMWtPQjZzUnF0MS0xeWF4X3lqUVhoc1hsTjc4em5VWmN3enU4dGc?oc=5",
+      "source": "PWMania",
+      "cat": "ufc",
+      "ts": "2026-08-15T11:15:16+00:00"
+    },
+    {
+      "title": "Dubliner Ian Machado Garry eyes UFC title – how to watch in Ireland",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBhaWNlYlA5TnN4MDRDRmY5NzdVVi1IbEJEY2Z3bzF0NnNqMEsxeV9RTEVIZmFod3UtclRlYWpDdTR5WjMybHJfU1pkYnhDNmdLYkZMRzRzaTU4ZE43Z0VHRnhtMnlpdXJLMDNnVExybDRpVDJhM1VfaEQ4SWU?oc=5",
+      "source": "Extra.ie",
+      "cat": "ufc",
+      "ts": "2026-08-15T11:17:03+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMitwFBVV95cUxOUHVUdEdHRUk0T3oyNU4zSk8xZWx3YUMzQnZHSnp4Rkt4ZUFqOVB1WEREYUpTSk5tYk5ibnhmbjlCVmdrNERoTmhCY0I1VHlhQ0RncVNBQnhiaVM1cHdxTVhpbkdubnNjMFJMc21vN0xJMEc0bEw2WEhQM200QlBsVUxzUHByUE1EMWhqa2pjbWZEOVVaVjBGOWE3NzVDekw3V1lIajc0amFRdTQ4Y0oxOWNfbG1HNXM",
-    "CBMirwFBVV95cUxOMVg3Z2hkY2k5QWhYdHVGMzlrNl9DeGxPYWRsMGZ6eHE3R2M0ZGZBQTdoNWhuVzVjaGpNblEyc0l2V0ZEd3g2bUtWV2Z0TTEyYWVhaVUxeDRQMlYyWWlfbnlhc1VuVW15Q1RiNTkyN3pZMGFQanpJbDVjTFdsejE4MldnSkx3Tjl6WkZOeWJKaUk5Rm0tNkVJYzVabWZKbUgyTXpPTjdrVENLeGFycUcw",
     "CBMiqwFBVV95cUxOdkhpWl9Hcy1helhFY0hEVTFoaEpJRHRvRGFNZWVhWkhxMW9wajdTSkxUNlhXSHRKVDAzcFNmX0c2TTV1VElLcHl2QVp4S1A3WkpaUW9DLUh2WHJIdEphS0xYS3hNSWtQN3NRaGtBSTBXX25Ra0RNaE5yMXB0N1hvVFFPaWxnS3NYWDcwZUxiLW9iMGtDMHczRzhFNm0ta2tIWHBBTGxVelpweW8",
     "CBMiggFBVV95cUxPUVE0Yk84QWJ2RXFiZFpHZ1ZPRld0dWR2aHp0d0pabE5DNnVDYzREZHZLV2NZdDR1cm1Pam5DbjF6WEI3dVhWXzNHOWpkbWt1OTdvYzN1V0RjM01nOXh5LWhKcXk0WXItNWtNTG1TT2ZEZFJFUmJvem5PdmZHZkdCazhR",
     "CBMizwFBVV95cUxNbWVRS1JkSy1kMnpCQURDVkxxNk9MMlRteVlpTmtaajZwRVVBZFZDZGRxY2VqRHpFdWs2Zk1oT0NJdWx0bm53VXQ4WC1Bb0s2Q3VSRmtRWFhtSGJqUHlMdWtwTjVxVGxZV29QbDhYQWoxbkY2TVBlQWZEVjhZVnVOd0pyUF9hampRZDNYMnlrRkRXd3hRYWVQd1JwUjZVeGxYUWdYZDJ3YmZEOHhWSFFCRHE3RUYxUmE5NUlmbmE1eTdVcHd0ZGpvQ0haaVlFeVk",
@@ -3312,7 +3310,9 @@
     "CBMiWEFVX3lxTFAtTXVnTlZzQnFpTk1obVBjQzVEU29TMUhuYlhKMU93UU9IZTJyNVdlNzFuX2JxRGFYbGpyU2dPdWVfNXRGRzZ3dHVrMGZQSVRzVE4ya2hzNVA",
     "CBMiiwFBVV95cUxNVFFMcWFUcy14SWYxUWlwNGRJNGlkZy1hRWo3OHdEaWVrWG1pWlNIRldCZ0VWdG5CajVDak5ISDhFanVVelZqbUJNTjVOQnFXeWdvUnc4SnA3eWMybUdSVTh1cVMxRUJ5LUFGcUgxYldCQ2NJT2NOVkVWUVg3Q1dJa29IcWwxRXF2UzNZ0gGQAUFVX3lxTFBydEk1akR2b3BtVUZDZU1MWU1za2hmT181WUFaV1hxTTZVWl9VNkVyQ1NFQWdvYWFrQ3MycWtRcVVwSlUtOG1GY0Z2QmQ5TzU4NTllamlscFAtYS1wQkhhZlBvalAxOFV0emZQYS1OWnlnemhibjh3V183cW9DUE9IdG9lSVlIcXd4NDdfUlZGbA",
     "CBMingJBVV95cUxQb001a1c2cGVudVRYeXViNmlXVFBzYVRBZU5JZHRKYld0TmJqdUwyNm4xbWJGTURzbXA3NlFkT1RjQ1MtcU90TEd4bjRxOXhFQXJQV2tLWkowQUlMNEs3R2lYZzBhcGpjY3JiM3kweGN6Ni1HbFZNNnhGRTBNT196QXdKZGt3WmxGaHRYTmhoTWN4bXJ2Ui04NnhtRTJNOGxiWHVXRHBXRmcwc1ZBRmFpWVdkcXlxUHpValp3V0Q1RUktd2lxTjNvWjhHdmZwOENIeDVmVHlXTVd0RDIzVV9kSlJfNVNCbmFFaU92MnMyNVJ5WlRjdTJiQ29QMjh3N25oQzhPQTFqVXdtZlZVNzhCczV0U3ZPbnQ1N0JuaFV30gGjAkFVX3lxTFA2VU1LTTdYbVZaYXRFUDlJdUtaZkdUMlo1VUd6WndnVjcwbHlhZGpXa1k5YmoxMGVlY0p6bEoxQ0RUQ1E1NGdWUUVCSHctYnBZTDNfaWRSZjAtLThIZW9zZ1dVNW9fQ0JvVnFsRXlpNU1HMzlCV1NMdUpGc3MyVVVyTTdWMTdvSVY3Wm1XY2Y5Rmw3aWFERzYwMUFTQzV2ejZ3S01fMk00cXdfckJEVjg3VzFPQlVxSV8yQklFejB4eHlEUUNhc0drdk1XbkRDVFNoeHdCdTJrRml1aVdoR2R4U1gwRWhGNmk4ek1WRUU5RS05eU9LNXNWNjlBU2lRYy1sdXV6aDVndVM4aWt6c29MbTEtc2w3WVhOa0duVnNXRWRWdw",
-    "CBMixAFBVV95cUxNM1NlMDJmNGhTZUJSZlpxNEsyWUNZVGJwRl9nWTZPdEdvZENPdGUySWVTdWxMZy1OZXdWXy1MYVBWV1pqRWhWWThjb1ZlVWszeVBZTVo3Y3dmZkdsc0EwR3FHeVdCbHVDalpGMnN3RFhKR0NRYVdvSVFkU1BPdjhjMDNZLTNOdi1YaXBfTlhMeU4yODdDbHFtZzZyc3R6bHlUWkNBc3RTQUdSa1luTnJuZEZhWDlRelNyTlQ3MW44VVpVRTRH"
+    "CBMixAFBVV95cUxNM1NlMDJmNGhTZUJSZlpxNEsyWUNZVGJwRl9nWTZPdEdvZENPdGUySWVTdWxMZy1OZXdWXy1MYVBWV1pqRWhWWThjb1ZlVWszeVBZTVo3Y3dmZkdsc0EwR3FHeVdCbHVDalpGMnN3RFhKR0NRYVdvSVFkU1BPdjhjMDNZLTNOdi1YaXBfTlhMeU4yODdDbHFtZzZyc3R6bHlUWkNBc3RTQUdSa1luTnJuZEZhWDlRelNyTlQ3MW44VVpVRTRH",
+    "CBMilgFBVV95cUxOdm1aek4tY1FCaW5GTC1NLWtxZEpTWk8xdF9XNzFpRDh0Y2VWUkFfZVVzaHlRa1ZHc29ZZHFwOXhrRFhqNE9ocDJibU03M01abnlqOXY1VHlXb2N1YVBFV2phUUpxUVV0TjFrRGtjZnpZMWtPQjZzUnF0MS0xeWF4X3lqUVhoc1hsTjc4em5VWmN3enU4dGc",
+    "CBMifEFVX3lxTFBhaWNlYlA5TnN4MDRDRmY5NzdVVi1IbEJEY2Z3bzF0NnNqMEsxeV9RTEVIZmFod3UtclRlYWpDdTR5WjMybHJfU1pkYnhDNmdLYkZMRzRzaTU4ZE43Z0VHRnhtMnlpdXJLMDNnVExybDRpVDJhM1VfaEQ4SWU"
   ],
   "daily": {
     "d": "2026-08-15",
