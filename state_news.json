@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=501726",
     "https://www.mmafighting.com/?p=501729",
     "https://www.mmafighting.com/?p=501739",
     "https://www.mmafighting.com/?p=501757",
@@ -182,6 +181,7 @@
     "https://www.mmafighting.com/?p=504915",
     "https://www.mmafighting.com/?p=504954",
     "https://www.mmafighting.com/?p=504971",
+    "https://www.mmafighting.com/?p=504983",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Where to watch UFC 330 for free on Paramount+ today",
-      "ts": "2026-08-15T21:30:00+00:00"
-    },
-    {
-      "t": "UFC Ring Girl Has Fans’ Undivided Attention With Swimsuit Photo",
-      "ts": "2026-08-15T21:50:59+00:00"
-    },
-    {
       "t": "Michael Bisping Says Islam Makhachev Chokes Out Ian Machado Garry At UFC 330",
       "ts": "2026-08-15T21:51:44+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "hand raise",
       "ts": "2026-08-15T22:58:12+00:00"
+    },
+    {
+      "t": "UFC 330: Lucas Fernando On Point, Stops Rafael Tobias in Immensely Impressive Debut",
+      "ts": "2026-08-15T23:01:23+00:00"
+    },
+    {
+      "t": "UFC 330 video: Lucas Fernando destroys Rafael Tobias with brutal knee to the body",
+      "ts": "2026-08-15T23:04:57+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "WE ARE LIVE IN PHILLY 🦅 UFC 330 is going to be EPIC!!!",
-      "url": "https://nitter.net/ufc/status/2088743656203419733#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-15T21:44:29+00:00"
-    },
-    {
-      "title": "Lucas Fernando",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fZGRwOVppTlZOOGtGbW9hLWM2TE90OW5nTkFFTXFPV0RDeVZTdkJqenk0cGJWaVdzTnVJMUp0a19za3JlNzgtUlpGQzB0akxWbjBEVg?oc=5",
-      "source": "UFC.com",
-      "cat": "ufc",
-      "ts": "2026-08-15T21:46:38+00:00"
-    },
     {
       "title": "The Orolbai supporters are here at UFC330 🗣️🇰🇬 [ LIVE NOW on @ParamountPlus ]",
       "url": "https://nitter.net/ufc/status/2088745683528671652#m",
@@ -2105,6 +2091,20 @@
       "source": "UFC on X",
       "cat": "ufc",
       "ts": "2026-08-15T22:58:12+00:00"
+    },
+    {
+      "title": "UFC 330: Lucas Fernando On Point, Stops Rafael Tobias in Immensely Impressive Debut",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcVZUU29KU0lwTWR5QXhRQ3J3eWF4QWRmNUFuc1MxWXI4VDhEZzJXRVIzX2JndGt4VkdXWHBONkQ2WUVFSVdsUTlqUG84NVcyZ2U4RUN3R2FOQVp5cnZ3WG5JZlFWZkx6R1NQTVlUdDh0Uy1jdmhZc05JY0FGLUI0Z1lHS29CM05uS210ckY3SU1XME1MWENPZnlUN1BMRFcza0h6clh0T2hwd0QyLVAwRUJvdDRfX0NVcktF?oc=5",
+      "source": "Cageside Press",
+      "cat": "ufc",
+      "ts": "2026-08-15T23:01:23+00:00"
+    },
+    {
+      "title": "UFC 330 video: Lucas Fernando destroys Rafael Tobias with brutal knee to the body",
+      "url": "https://www.mmafighting.com/ufc/504983/ufc-330-video-lucas-fernando-destroys-rafael-tobias-with-brutal-knee-to-the-body",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-15T23:04:57+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMilgFBVV95cUxNdzl4Nmo1TVZDeHNVWXhSTGJKSXlYaThDaFZCcTFSZ3UzcC1heWNHR2lOc1M1MVBDTFI0T0wwczQ1eWhyQjh3VkdrREh0dW5wSFdhN0tjOGhwanZrUThlUFJOVWZRZl8yTHFyVHQ5aURmdG1Ia1V2R1lPYlJHaGdfSUYzbzE2a2p4U3hsa0lUY3pCNmt6OFE",
-    "https://bloodyelbow.com/?p=326529",
     "CBMijwJBVV95cUxNMWRHal83cFM3UWsyb3JLcFpFVEFSZ2hzR0RiZkRuTF9YaENaNGtwTERjb1lucnVyWE9NZU5PdHlqXzg2X0VBSkx3VDBXR01Wd3k1ZzBrb1RIUzFCTlFEa2txVm9vQ2ZOR3RVX3RndFpjSmZYMTVRRnRRcGVLdlVzdkt4YVhRQjRmY0NwdnpyZ2xSM2tSQUtlQVZrUDZUamViMHAtb0RFX3d6UmNZbDdwbnk0WFdUa2xFelBBeXFGVWVHLWgwZVJfU20tWExIVVdoS1hTeldmbTNCZ1NqNXdKejgxa1EwMmpRLUNPXzQ1dUFXQ2N5ck15eXFPZEZlRmN6bVluZkhIYlJ3ZWFyMmIw",
     "CBMipwFBVV95cUxNREo0YUJaTHFKSXBIMVl0ZVhvb3lVMzNkQ3RRVjBFajdVSWhhY2JMci1TOGRBNTIxTnJOLV9WMkVReWloU044OXRTSEZfaDhWYjR5cHVEVUE4MzhHeDZ0OWZ4MnNjd1FfUmxpS2VVQ09pQ1UtYVFnYktBcUVqanhlTTNsSlFuVXBBTEdrNjZEOENNVW04b2R4RmxhcjRoSU83Y0JIMG9ESQ",
     "CBMi0AFBVV95cUxPeS1Zc0w4NkVUbk0yUURuejBJR05hdE9xdldrVUN6N2hpaXh6Z3ZQa3BpUUtfM19zTVdSWDhidFhpdC0wR1FtcGVrR19kNGJLOG9LZFloLUcxWWlUUlBuQ0lzdEwzdUlDdXFBM3JHWXlFRWltUjdlTmppNXFDMXRRRy1yS0RsekNGeG5HSXQxVDRqX2JMbmZKWkNZejhRZnd3V2ZrbDhSaWRVTWFxZzJLWTJWOVIzblNQSF92cmdjYTRHNEphbDhVZGVoM0Q1NmdW",
@@ -3312,7 +3310,9 @@
     "2088760195300393151",
     "2088761744026169723",
     "CBMingFBVV95cUxQb3RrakhWQWZBY1dKN0hQR2dxakZMMlRSdG5BNFZlZnFrZjJ1WXNuYU41bnljTVNRTTA2NkxQSXRUNXJ6TVpOMXZIaUMyWllJNmd3QTFLaTBsbHZDQjVoQVZWQlhlMzNCSHhDbkJaS0lBdG9GeVRZNS00QVVKSldlWkVtYzBWOG1Tc1Nsc2hYTEloTnBHTzBkRHdjWWlvQQ",
-    "2088762207358087292"
+    "2088762207358087292",
+    "CBMiuwFBVV95cUxNcVZUU29KU0lwTWR5QXhRQ3J3eWF4QWRmNUFuc1MxWXI4VDhEZzJXRVIzX2JndGt4VkdXWHBONkQ2WUVFSVdsUTlqUG84NVcyZ2U4RUN3R2FOQVp5cnZ3WG5JZlFWZkx6R1NQTVlUdDh0Uy1jdmhZc05JY0FGLUI0Z1lHS29CM05uS210ckY3SU1XME1MWENPZnlUN1BMRFcza0h6clh0T2hwd0QyLVAwRUJvdDRfX0NVcktF",
+    "https://www.mmafighting.com/?p=504983"
   ],
   "daily": {
     "d": "2026-08-15",
