@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "TENSION RISING 😤 @MackenzieDern vs @Savage_UFC [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
-      "ts": "2026-08-14T22:33:16+00:00"
-    },
-    {
-      "t": "Arman Tsarukyan is EXCITED to be back as he plans to get his shot at the #UFC title and start his journey to his big goal: 'Best ever lightweight fig…",
-      "ts": "2026-08-14T22:33:27+00:00"
-    },
-    {
       "t": "Mackenzie Dern and Gillian Robertson face off for the final time before their #UFC330 title fight 🔥 Who wins and how??",
       "ts": "2026-08-14T22:36:54+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Tua Tagovailoa's Preseason Week 1 Review Stream of National Football League",
       "ts": "2026-08-15T03:09:12+00:00"
+    },
+    {
+      "t": "Jets' Cade Klubnik: Encouraging showing in preseason start",
+      "ts": "2026-08-15T03:04:34+00:00"
+    },
+    {
+      "t": "UFC 330 Pre-Event Facts: Champion Eyeing Win Streak Record",
+      "ts": "2026-08-15T03:10:29+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Books First Fight for UFC Vegas 123 Event",
-      "url": "https://sports.yahoo.com/articles/ufc-books-first-fight-ufc-171758359.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-14T17:17:58+00:00"
-    },
-    {
-      "title": "UFC 330 predictions, preview, and analysis",
-      "url": "https://sports.yahoo.com/articles/ufc-330-predictions-preview-analysis-172000906.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-14T17:20:00+00:00"
-    },
     {
       "title": "Usman Nurmagomedov’s Ideal First UFC Opponent Named",
       "url": "https://sports.yahoo.com/articles/usman-nurmagomedov-ideal-first-ufc-181501333.html",
@@ -2105,6 +2091,20 @@
       "source": "cbssports.com",
       "cat": "ufc",
       "ts": "2026-08-15T03:09:12+00:00"
+    },
+    {
+      "title": "Jets' Cade Klubnik: Encouraging showing in preseason start",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdWFVNHd6cFhseGJOMzBwdjdWd2lBOUFBTXZNT2lkSkV1WVBKa3gyWURiZkV3MXlUVDllaVFtN1l4LVNMaDNIZDRYaVlBbmpiVHc2NzNXcWtFalRvQzZfdGNEZ2luS0diZWpHbXFnYUh2OGp6VE55dGd2RVNVS3BrNHlvUGc0emRHRm03ZGoxMXJVbDlId0tZVWExNUQ2blJPTTJpX3pibVI?oc=5",
+      "source": "cbssports.com",
+      "cat": "ufc",
+      "ts": "2026-08-15T03:04:34+00:00"
+    },
+    {
+      "title": "UFC 330 Pre-Event Facts: Champion Eyeing Win Streak Record",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOM29NOGRxV0x3WUpnQzhsdXliby14SGozWURLSmZ2RmxyalBmVGh6cjN0Ql9aNEw4M2VuM2hPVU5YUFA4MEFESzNMMHZ3alI0dDVYVGNOclZLWEwzN3pUbFhLMDJVXzVXQ0tWQkpkYmFuc2xjNm9HRlRSYzl3NmQ3c0hMdG5LNUZZeFBnRmhsNEM5ZzF0RFlVbG1XcEVTU2ZrUXBaWGJ2OEZJVDdm?oc=5",
+      "source": "mmasucka.com",
+      "cat": "ufc",
+      "ts": "2026-08-15T03:10:29+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -3294,7 +3294,9 @@
     "CBMingFBVV95cUxOTkxDMmluZXMxYVk3QlZLMXlEXzhBZ3d2NlEtdE5WNnBzXzZiTEZtUHhGeFZRek5VSTBSY05EM29NV0ZSX3pWczB2UVFMQm0xNmJTYnl0ZzBNRHRibWIxOGlxckdQYUhHTENfYUlsdkpMeG1iYk1RUUZDQlMxamRkYnlFQUdkY0phdDZuVnl2VHlKa1R1c2tteHVLajNTUQ",
     "CBMimAFBVV95cUxPOGQ3blhXRGZaYlRlRExWSGFQNGRXbEROcXlzYnNqRDJkSVM5ckYzT09XdlQzZ2NMSVlhdjBaSlJyUzR2OHZpTzhZU1lkUnFmT3hCMmR0UW9yTWVWczhoNFprV3FiRkFrZ0lJMzI4RzZQc2E2OHg4S0JlZ0dIdWwxZjI2NnJoUnNZYmJqY3VLQ0ZJUnQ1WlY3aw",
     "CBMioAFBVV95cUxOTkN5LW5nTjY4alF6RURWMHl1bVl1bHFVUGVDV2JFem1GOFJ0Q21IU3p5X2l6RUJ6M2ZjUFBmZFBlV2JwZnlLN3dqRmZFa3FDVmZFZ0tGbEpHRHk5SlNoRDJCUXFINUMwX3ZSdVNncWt4aHdJck9wOW5LXzl0LXcyTldNWXdYRFNEWHlvZ21MQ2ZNNC1rZ2NuVkotYnp1VUlt",
-    "CBMiiAFBVV95cUxPOHZYd2hqckNWMzduQzFNd1oxRGwwbTNsY1dRdmIxNGZ0VlZodmt6bWJPR2cwMmFJc196ZjFpc3Jrd3BRQmRRSENpN0NZazdwVXI5dDhyeU00RGFFemg4d0NFdW92bHhLUkJsVW5KejlQdHhOdVFXWjJoR0tKTF9FRDVmdjNza2E1"
+    "CBMiiAFBVV95cUxPOHZYd2hqckNWMzduQzFNd1oxRGwwbTNsY1dRdmIxNGZ0VlZodmt6bWJPR2cwMmFJc196ZjFpc3Jrd3BRQmRRSENpN0NZazdwVXI5dDhyeU00RGFFemg4d0NFdW92bHhLUkJsVW5KejlQdHhOdVFXWjJoR0tKTF9FRDVmdjNza2E1",
+    "CBMiqAFBVV95cUxOdWFVNHd6cFhseGJOMzBwdjdWd2lBOUFBTXZNT2lkSkV1WVBKa3gyWURiZkV3MXlUVDllaVFtN1l4LVNMaDNIZDRYaVlBbmpiVHc2NzNXcWtFalRvQzZfdGNEZ2luS0diZWpHbXFnYUh2OGp6VE55dGd2RVNVS3BrNHlvUGc0emRHRm03ZGoxMXJVbDlId0tZVWExNUQ2blJPTTJpX3pibVI",
+    "CBMirAFBVV95cUxOM29NOGRxV0x3WUpnQzhsdXliby14SGozWURLSmZ2RmxyalBmVGh6cjN0Ql9aNEw4M2VuM2hPVU5YUFA4MEFESzNMMHZ3alI0dDVYVGNOclZLWEwzN3pUbFhLMDJVXzVXQ0tWQkpkYmFuc2xjNm9HRlRSYzl3NmQ3c0hMdG5LNUZZeFBnRmhsNEM5ZzF0RFlVbG1XcEVTU2ZrUXBaWGJ2OEZJVDdm"
   ],
   "daily": {
     "d": "2026-08-15",
