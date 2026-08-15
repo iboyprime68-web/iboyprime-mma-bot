@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Daniel Cormier doesn’t hesitate to predict winner of Khabib Nurmagomedov vs Islam Makhachev fight",
-      "ts": "2026-08-15T02:00:00+00:00"
-    },
-    {
-      "t": "Did you watch any of their best highlights live? The fighters of #UFC330 look to add another epic performance to their resume tomorrow! [ LIVE AUG 15…",
-      "ts": "2026-08-15T02:01:00+00:00"
-    },
-    {
       "t": "Israel Adesanya picks Ian Machado Garry to upset Islam Makhachev: ‘I believe in magic’",
       "ts": "2026-08-15T03:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC 330 Results: Islam Makhachev vs. Ian Machado Garry Fight Night Results",
       "ts": "2026-08-15T14:05:10+00:00"
+    },
+    {
+      "t": "UFC 330 Preview: Islam Makhachev Looks to Make History Against Ian Machado Garry",
+      "ts": "2026-08-15T13:15:00+00:00"
+    },
+    {
+      "t": "UFC 330 Picks: Top Plus-Money Underdog Prediction",
+      "ts": "2026-08-15T13:22:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "LIVE! Watch UFC 330 Ceremonial Weigh Ins Video Stream",
-      "url": "https://sports.yahoo.com/articles/live-watch-ufc-330-ceremonial-214500336.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-14T21:45:00+00:00"
-    },
-    {
-      "title": "\"Both of them, same night. Easy money. 💰\" Arman Tsarukyan wants UFC gold, then Ilia Topuria and Paddy Pimblett on the same night. 😳 UFC331",
-      "url": "https://nitter.net/MMAJunkie/status/2088383169133183422#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-14T21:52:02+00:00"
-    },
     {
       "title": "Arman Tsarukyan says he'll fight Ilia Topuria and Paddy Pimblett 'both... in the same night' when he becomes UFC champion 🔥 👀",
       "url": "https://nitter.net/MMAFighting/status/2088384285803958707#m",
@@ -2105,6 +2091,20 @@
       "source": "FightBook MMA",
       "cat": "ufc",
       "ts": "2026-08-15T14:05:10+00:00"
+    },
+    {
+      "title": "UFC 330 Preview: Islam Makhachev Looks to Make History Against Ian Machado Garry",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLW0xSVA4OXdJTkQ2RHRJcFJsa0Z0dnlZbFRhak9kbnVoNEllTkNZNjVhUHNreE1SQ2VZVmNMMnh1cmlnZ3o1em9hZUFUM1VCbmpqVEs4ZGRndlhyeE9aQkFISFkycmhpVWswd28wWmxyUzFWeHdaMENCdmItMzVGSzQxNTMxZlMzVVdLZXp6NmpwQ09xRkpmb0xDRWtUeGpxWm93?oc=5",
+      "source": "deadspin.com",
+      "cat": "ufc",
+      "ts": "2026-08-15T13:15:00+00:00"
+    },
+    {
+      "title": "UFC 330 Picks: Top Plus-Money Underdog Prediction",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE84eU8tQWFZSWNpaU1IaUV4Q2xvQXVLXzZQYmo2ZU1nZzdNUVdyV2dVTlVVM3lVV0tDN1hGUzdXTGhjTE54NXcxeFIxWHNEOHBMRV9Lc3h4elhUQzdISmdpLWR6cWxjN0hrcmd3b2VtTmFFdFFSMGlISUl3?oc=5",
+      "source": "deadspin.com",
+      "cat": "ufc",
+      "ts": "2026-08-15T13:22:00+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "1f4c6ad0-b2cf-31d5-8f7c-c44434d16e51",
-    "CBMirwFBVV95cUxNLW1FX2J3UmNJYlRTS0JUdDlFQkx6MjJNd24wd09xeUw5Zm5NMW05NWZqeVI2ck5UVkxXQVJXSmctSkhqZG1EOUFIMWI0NS1MWHNRNzFja3dsLVctRlJiWVoxNjE4M1JYSDkxNjZsV1EwUmM0c2I0cEtYaXZBZWEycDJ5a1dFcHYydkVRUDNDWHJ6Q0NSeWd5YlQ2V2hPSGNQY0hmRVBJamdxSHdPWng4",
     "CBMivAFBVV95cUxPWVJSTkozSldnMjBSSlkzTy1xRlQwY3hhbGZ1RjhDdE5TcElSOEhKWkFleDZoeXJhU3MzS1QwWVVJTW0teVhmeE5MNHg0a0I4MmFhMG5namZhdGlDRzJDT01aV3E2XzlBSVF0R2t0Z3ZOc1ZpbmM2THREeXRNbUFZTmJRT0dZTTk5QWR1UGpiamdHMUNxYmt0c19CTS1TMDZZU2hSblp0ZFVtVS1hNENmVG43TlByTlZFaUZfcQ",
     "CBMi2wFBVV95cUxQU0lnRVNvUEFuRlMtWEkwUzdHYzZNX1U4ZkRvM3BwMlhtaTJpMGJpR1NRdzBEeG9Zdjk1Y3dJYnNHTXZDZnQ2OWdUQWJIUUZPNENRVUo1NmRxNEFKOGJwakxsVFRwS1JQc0RjM0UtNWExVmN5aEF4UDN2UGF5SzFFeXJHbHFqQzMzQ05SMk5HZ1hYMXZHUjczOS00NDh0YVQ2SGVBWVViU3lsQU00NUhXQU4wQlRpQlNFUzY4WnF3VFZwN2tzZzRHcWJ4YlZHeVQzZTVsWmY1YnBXSFE",
     "CBMi7wFBVV95cUxNZnhnMHMwYW5fRDBoYlV6MmpRMkdobnNQd1dUSWtrS0VocDQzN1dpLThsamJKMWY3SUt5RWVCX3BoOGZSMmJ0YThvdHQ5Wk1OVEdNZzBKc2ttX0lPc0tkbWtuWDZhNHFUMkdZSHJqZWJoLXllX2xxVnl1OFUyNUc1OE0zTEZWeE5DZ0xkazkzM2NTUVNKRlpld3NnWkQ0UUV0VnY4UU1DN1JXeExYRE5Zb0tNS1pwZ0FKUHpPcVh4Q3pRelg1elNjMmtfZV9qeUg3RHI0WV85dGJZaVp0VDhVUTYxUklReU1xMHpwVjZrWQ",
@@ -3312,7 +3310,9 @@
     "CBMikAFBVV95cUxNSmV5WEZZaW1JdGdMb2haOHNGSzBVcXVTMThGWjFWVVh3eDVPaGozbjdLdzJNOVl3Y1FuN2VTRXpxS01mZ1hocEotbnhNV0VpbHQ5Vkt1ZFc2WGtOVVYyZnZzOHJvN0VaR1ZqUzV5Tnd0TlZMRldMdngzMU81MlZ1WFNTcDd1Qm84ZWVWMm91YnQ",
     "CBMi4gFBVV95cUxORHFlVVl3LVU5dFZaQ0ZxaW8weEhDR0hVeEZ5N0tUeU10S0NtUExsQ0NyZUZ1ekJjM3VmaHJTakI1b1hmM2ZZLTkzdlE2TGlKZFFfMUtkdDUxbWZtRV9HakFlZDNFSGtvOVBxNFJyQm5xZEpudDdyenlVTFZSWm5UVnFENXRNaE42OHJOUjdxZ3FkUTFYNmFMcHNYUVo3WnhkUlBJR3daY0lfbUo2aTYyLWpTd2hCMEx6clJhdmhhbVlRZjZ6eVhYQVhvYTQ0SEV6WUdMVEctaW15MmZkVmZnVGp3",
     "CBMi5AFBVV95cUxQRWluMEVzbHpYdXNieGtaV1gxMEpMa01ZeThMUnlaZVNsbGxQT2hrY3RSdW1ZbE5XNXdIMlc2T0pmQVI5OVZreVlMTU12UTZvLU4zUXVOeVJFbmRDRVlxUTlOSEI5RTJJRFQwYUVjeDBINWgzV1BaaWtxRFdXclBVLXc3dmpCdDBYWUU3anlTUlREZGFqUEpXNk0waU1RRzBRcnJHWEpHZ3FYcFVHYlJ4a2J0MEd4VUdqbzJLek1QWGdMTzJiMGh0Vko1bGlsTmoxTG81OTJjS25hTlN1RHdHc0ZxRnjSAeoBQVVfeXFMT0RFTEllS1NTeVliTkJmdjRQejJXZmJXZlZqR2xqNGtsUnk0NXA0TC1KbXp4Q0h5Vmw5M19rbWNqTnFqZDVMU2ZiUmlMVjJDWFFVSDNCbzRhWm8zVUZOVkowNno0TGVaV3VuLUlqWkpTYkc4MkQ0M0daT0dXME52bE95NW1ManpabS1NVFVld01VdDlQclQ4QU1nYUJXUUpHN1N1NXBOUnhabS1kU2daTmJhU19DbjZHV25hVnhaOWszWVd4cGNCR2x1cTJ1Z0dKa1RRWGxVT3ZhMk8xVFZZMjRZME9wSXM4TzFB",
-    "CBMieEFVX3lxTE1GcjhyME14eXVvTjR6Y2c4aGZVVFpfM21DSE1RVVI3THNvd1lhQU5udndWLTZxQldoSWw5TUpTbjlwcS1mOE5fRnVmRlJ6RHdtMXRfc3dOTHhPUVNTNkx5LVdxQ0JHbGdsbE9ncVFWVjZqOVJxbTc0cQ"
+    "CBMieEFVX3lxTE1GcjhyME14eXVvTjR6Y2c4aGZVVFpfM21DSE1RVVI3THNvd1lhQU5udndWLTZxQldoSWw5TUpTbjlwcS1mOE5fRnVmRlJ6RHdtMXRfc3dOTHhPUVNTNkx5LVdxQ0JHbGdsbE9ncVFWVjZqOVJxbTc0cQ",
+    "CBMiowFBVV95cUxQLW0xSVA4OXdJTkQ2RHRJcFJsa0Z0dnlZbFRhak9kbnVoNEllTkNZNjVhUHNreE1SQ2VZVmNMMnh1cmlnZ3o1em9hZUFUM1VCbmpqVEs4ZGRndlhyeE9aQkFISFkycmhpVWswd28wWmxyUzFWeHdaMENCdmItMzVGSzQxNTMxZlMzVVdLZXp6NmpwQ09xRkpmb0xDRWtUeGpxWm93",
+    "CBMiekFVX3lxTE84eU8tQWFZSWNpaU1IaUV4Q2xvQXVLXzZQYmo2ZU1nZzdNUVdyV2dVTlVVM3lVV0tDN1hGUzdXTGhjTE54NXcxeFIxWHNEOHBMRV9Lc3h4elhUQzdISmdpLWR6cWxjN0hrcmd3b2VtTmFFdFFSMGlISUl3"
   ],
   "daily": {
     "d": "2026-08-15",
