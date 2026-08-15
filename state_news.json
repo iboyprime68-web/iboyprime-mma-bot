@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Arman Tsarukyan breaks news of an Oct. 8 grappling match with Urijah Faber for a new promotion. (via @MikeBohn)",
-      "ts": "2026-08-14T20:35:29+00:00"
-    },
-    {
       "t": "Joshua Van and Alexandre Pantoja separated after unexpectedly spicy #UFC331 press conference 🌶️",
       "ts": "2026-08-14T21:37:45+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "MMA star Ian Machado Garry eyes more than an upset at UFC 330 amid promoter Eddie Hearn's bitter rivalry with Dana White",
       "ts": "2026-08-15T02:44:25+00:00"
+    },
+    {
+      "t": "Rookie Cade Klubnik leads 2 scoring drives after Geno Smith is scratched in Jets' 24-16 loss to Bucs",
+      "ts": "2026-08-15T02:09:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Ian Machado Garry Sends a Warning to the Welterweight Division With One Name in Mind",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdUtBN3VWSGhIVkxuOWxmM2s4czF3ZGtaTTVwZlE0YzBYTlhWR0E2T0E1WEFoMV84aDlzV1JqbUlkTTFOQVFYZVFyeWcwTzJqUXNrNVB2c3B4SWNHcGFTLV9zaGtkOTNSRUZSQlZhT0JlbFpyak93UDhVaUxIdmhBczQ4Q3BhNGM3NGNlV1pqdlFXMUhtLUtMU3hWU08zS0EzU1laZDRBR3ZnalpmcVRQQQ?oc=5",
-      "source": "mmasucka.com",
-      "cat": "ufc",
-      "ts": "2026-08-15T01:58:42+00:00"
-    },
     {
       "title": "UFC 330: Makhachev vs. Machado Garry Live Fight Coverage",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NVi1WcnJKTmNYc0RDdGJkSzZDYUk3X3AyaXVXOVlOZXVkZmV6LTE3RDQ5TFB1a2tUcTZFdmpQWTJMbkZQNVNzY3dtNmxBZ3RoazlTQXlTeGxIbU9NNHQwQUlta2dfWFp2eHVQWXVB?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Daily Mail",
       "cat": "ufc",
       "ts": "2026-08-15T02:44:25+00:00"
+    },
+    {
+      "title": "Rookie Cade Klubnik leads 2 scoring drives after Geno Smith is scratched in Jets' 24-16 loss to Bucs",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRHFRYUgzaHFuUm1TeTRrX0xOcktwaFlOU1ZydmdIZ0otRS1XUnh5bmpzdEtLUnJ0UTc4czF2Nmw5YmpFcUEyUFJ5aXd1bWttMjIwSEZYMDk5V0toYWkzNTBUWS1VanhXdVd6VEtocG9YS1oxZWJvdTlEN2RYZlNxZjYwNVl6bFBrWGZIOWxhUDFPRFVIcVJtZzFMd3RmczF1b3l6Z3dLQm9BeWxlQk1NT2FVQWZfNzVrekt5alpTMzBFZm1saEU3RlN3WVdWaXhs?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T02:09:00+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -3275,7 +3275,8 @@
     "CBMiywFBVV95cUxQbjJSYkFiQk40Uk8wa3AxMnp4NEcwaVcxeF92Q3pjOU9XRW9YNmRuTGRRcWFzTTRtWTJqSmJRVXpab25RSTFCbHdGbHl5eVNydUNXbDZzdlluSmdBUlJ4QTdTR1FRRGdwT0xHV1Q4MFJtUjZmLVRFSmZzSVZXWW53b3dJS2luQ1NlLW9nRmFZRkpTQTBsOFpxRlVsMGlHTEJ1QVdPY2ZGNmRSZEtKQmwyQkV0WEItNmdBNkhVT1ZscWdsV0NTWUlOS3RQcw",
     "CBMimgFBVV95cUxQN0pCaWxnVTkyNlpnNUEyQVl0cUxRM1d5VGxJQWtlUC1iODBsQU4wcVIzX2l6bVRBcWFxWGh0emlSMWRpUmJod3htcV9WRUF5cHdSY19HMG8xRERMTlNYVDFyWFJnVzB3OEVFQlZJWUZ0WkRZUmF0VFFUbVBqcUhSY1JtLUk4MEtMbkVpVHlnUEdXa2w1MWoxWU5R",
     "CBMimwFBVV95cUxNa0lTcG1Fb3cydnZsaWpZWjc5RHZuRFp4dWZib0lxZDdNMVllczgxbVpkQlNWWF82bk5CYXFwUHVYZU8tV3VzbGpiMU1ZdTdDem9UMXhpX2owamx1QWdVN1hjZEF6ZlJEOWk2R2FGM1NWcmI4RUp6XzVoY3JnTjRjRnBCallWaW83dkhmQ2pVZUZDYk5LeDZKaHN5QQ",
-    "CBMiugFBVV95cUxNTC1xMjMxcVBxWDF2X3EzMkZGaTFiSVNFd2RncXhJTWVYZXBhaUJUVzVZWjJRQzJuUXE1NXpTOE1oV19WdVJNUG5yZmhrSzhscGZZd25hUUpvY25wMjZiREVSM2JMRTJyX05ySkdKRlJnZFh4SGpHUF9iUDdRUW9scjlhZ0FPeXpuZDBjODAxNjRheVhsTGRvWlVzaHp6MFU2UW52Q0hUYnJZczBkSU9HV240NjV3YWlIX0HSAb8BQVVfeXFMTk5MbERJYTJYSXVIZlNESHVHc09qOFdwcm1JNzBEMjRJVERTeWpFZXZRZk5NYlJfZGlZcDc1ZGNLWWJ1THJwSkxZZUUwOTJzODYtM1RHZ2FxenpMYTVPOHloeWJSWmNHQzBiOUpQNDVKa2M3Q3RCT3RpbUxLb2FaWFlhNUVHOFpwY3oxU05XSWNfRHgtWnhQLVNwVklyUWhicmRiYkR0cUtvOHRnMzkyLWFqYUFJTFlJTUZWdmxUWEk"
+    "CBMiugFBVV95cUxNTC1xMjMxcVBxWDF2X3EzMkZGaTFiSVNFd2RncXhJTWVYZXBhaUJUVzVZWjJRQzJuUXE1NXpTOE1oV19WdVJNUG5yZmhrSzhscGZZd25hUUpvY25wMjZiREVSM2JMRTJyX05ySkdKRlJnZFh4SGpHUF9iUDdRUW9scjlhZ0FPeXpuZDBjODAxNjRheVhsTGRvWlVzaHp6MFU2UW52Q0hUYnJZczBkSU9HV240NjV3YWlIX0HSAb8BQVVfeXFMTk5MbERJYTJYSXVIZlNESHVHc09qOFdwcm1JNzBEMjRJVERTeWpFZXZRZk5NYlJfZGlZcDc1ZGNLWWJ1THJwSkxZZUUwOTJzODYtM1RHZ2FxenpMYTVPOHloeWJSWmNHQzBiOUpQNDVKa2M3Q3RCT3RpbUxLb2FaWFlhNUVHOFpwY3oxU05XSWNfRHgtWnhQLVNwVklyUWhicmRiYkR0cUtvOHRnMzkyLWFqYUFJTFlJTUZWdmxUWEk",
+    "CBMi0AFBVV95cUxPRHFRYUgzaHFuUm1TeTRrX0xOcktwaFlOU1ZydmdIZ0otRS1XUnh5bmpzdEtLUnJ0UTc4czF2Nmw5YmpFcUEyUFJ5aXd1bWttMjIwSEZYMDk5V0toYWkzNTBUWS1VanhXdVd6VEtocG9YS1oxZWJvdTlEN2RYZlNxZjYwNVl6bFBrWGZIOWxhUDFPRFVIcVJtZzFMd3RmczF1b3l6Z3dLQm9BeWxlQk1NT2FVQWZfNzVrekt5alpTMzBFZm1saEU3RlN3WVdWaXhs"
   ],
   "daily": {
     "d": "2026-08-15",
