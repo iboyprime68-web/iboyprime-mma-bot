@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 330 Makhachev Vs Garry Main Card Preview",
-      "ts": "2026-08-14T20:17:17+00:00"
-    },
-    {
       "t": "UFC 330: Where does Ian Machado Garry have edge over Islam Makhachev?",
       "ts": "2026-08-14T20:20:24+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC 330: Mackenzie Dern vs. Gillian Robertson: Live round-by-round updates",
       "ts": "2026-08-15T04:42:00+00:00"
+    },
+    {
+      "t": "Viking vs. Dinamo Zagreb Live Stream of UEFA Champions League",
+      "ts": "2026-08-15T04:47:55+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Midnight Mania! Lopes’ Lightweight Debut In ‘Advanced Talks’",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOVUtUDM1ZEZMSlc2dkxjTTQ3OHY1NWVSdndVYmY1TnBJUUY2Yks5SF80QmZxLXpMUHdVMTZidHRPVW5HZmpXN1NyREhkMktLQjU4VUhJM20tVmpobHZhUjFsU0doOHIzZEZxN1pfYzhFSGRRSEZja0FERlRPTldCZkhUeUlCcGpaaFRpZDV5Szc1Ulc1WWd4ZkdVVW0zdjEzQXB0NW8yblo3clBKcG0yMUdSU0RaTWphSjFlMGdn?oc=5",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-15T03:59:00+00:00"
-    },
     {
       "title": "UFC 330: Why aggression, grappling will be Makhachev's path to another victory",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOHlPYmthT29OejhUYzZsOFU0QVAzQU1FN3dZUDB4Zm9CU1pRSE9OTXJtS0MxVzY4c1gtNEhfUzFCT01kRGQzM1lDNWg0UFNkTkhmSk9lWmFlb1hma08xNDBJUFJ2MHR2NFB0aDNlSk9BUmx6b3lJcExqVTgwS2JjTFRlaklCbURyaldFQ1ZlQ3hPVXg1VVZ0eS1FaS14VmtjODdsNkQxcHBtbTFrTGc1R0plQQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "sportskeeda.com",
       "cat": "ufc",
       "ts": "2026-08-15T04:42:00+00:00"
+    },
+    {
+      "title": "Viking vs. Dinamo Zagreb Live Stream of UEFA Champions League",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVcm1JazlrZE1xMURXdWJ5bF90bUdfYVhIbzhPT2d4WXREQTdyOVVNaHNSeGxsODZLc0s4a3Ayd0M2TTVrSW1GY2E2TW5tTmhfVTBOem9QZ3hwZDZicm83ZXpRMklLNWdta0FfTTNSTQ?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T04:47:55+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2087617447985869181",
     "2087618260967850010",
     "ab169658-2605-3cd9-9dc6-34f08c02c792",
     "4671b20c-942d-4df3-a1f6-9177d2356939",
@@ -3312,7 +3311,8 @@
     "CBMikgFBVV95cUxOVzMtV29sb0NFTGJLUE1LR2JWaGs0UW5jZTJvUk83eGxaTkxBem9Qb2JXZ2tGOFYzdmtGdzVpemRGNGdPNEhZOTZfVDZ4eDFtYTV1LWIwaDBMUkZiMjVoVWhfcVc3MTdsUWNXRnlXTG56bGV0SF82d3dSUVlXQjlWMlM0TnBvTXlSWnFxQkwwT1pMUQ",
     "CBMifEFVX3lxTFBVc25abkt6VXNBb202eDh0WGZOT2ViaklNcDFjVUlzLU1GYkJXTHZlaTNpT2pZQ0cxZVJ0WlRtWkJaQzFwNGV2dWFGdUZuTDgycjdUQ01DblBtOGxfcmN4QjB6Ulk2b3NUcGVCZVllRlRYQlNLV3BMZjdwWVA",
     "CBMigAFBVV95cUxOczVKQ2V5cEEwSTlLeTJpQTctR1RFMnlKN3dRLVJYRU8wemFZQUlWdlJfVDN4R015eXF5ZVJJNHJPX3hIWko0WHRBRW1OMFVHZkRyd2pJN0Y1Tm1YWWZpbE95NWk2SnFmRTJBVkpZeDBvNE1rUlFHWTVyekMwajIxOQ",
-    "CBMirAFBVV95cUxNRUZuTmFhWDA5TXFJcnA5Si13WmVtTDN5alRPSmN4d1VwU0xJMGF6dmx4TnRXLWJndlRIYTRqNVJ2SmMxTWFYZXEyVVB4WHJCemtVT3pvc01YZ0EzWVo2RGdGQzVTUTYzeE5KTnQ4YmJLc0MtazMwLUt4QlZfaXBPa2RmbW9uQlBiV3dLblNEeGs3TWt1SzJ1YnJVLXFxc21yRWdxVkRoWEJZQVlD"
+    "CBMirAFBVV95cUxNRUZuTmFhWDA5TXFJcnA5Si13WmVtTDN5alRPSmN4d1VwU0xJMGF6dmx4TnRXLWJndlRIYTRqNVJ2SmMxTWFYZXEyVVB4WHJCemtVT3pvc01YZ0EzWVo2RGdGQzVTUTYzeE5KTnQ4YmJLc0MtazMwLUt4QlZfaXBPa2RmbW9uQlBiV3dLblNEeGs3TWt1SzJ1YnJVLXFxc21yRWdxVkRoWEJZQVlD",
+    "CBMib0FVX3lxTFBVcm1JazlrZE1xMURXdWJ5bF90bUdfYVhIbzhPT2d4WXREQTdyOVVNaHNSeGxsODZLc0s4a3Ayd0M2TTVrSW1GY2E2TW5tTmhfVTBOem9QZ3hwZDZicm83ZXpRMklLNWdta0FfTTNSTQ"
   ],
   "daily": {
     "d": "2026-08-15",
