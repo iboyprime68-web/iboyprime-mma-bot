@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Nothing left to do but fight....WHO'S READY FOR #UFC330⁉️ [ LIVE AUG 15 at 9pmET on @ParamountPlus | B2YB @StakeUsa ]",
-      "ts": "2026-08-15T04:01:00+00:00"
-    },
-    {
-      "t": "UFC 330 Results: Makhachev vs. Machado Garry https://www.mmafighting.com/ufc/504822/ufc-330-results-makhachev-vs-machado-garry",
-      "ts": "2026-08-15T04:04:18+00:00"
-    },
-    {
       "t": "Islam Makhachev vs. Ian Machado Garry: Bloody Elbow staff predict the UFC 330 main event",
       "ts": "2026-08-15T05:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Eduardo Chapolin",
       "ts": "2026-08-15T18:11:19+00:00"
+    },
+    {
+      "t": "UFC 330 Cage Locks: Canada's Robertson faces tough road to history",
+      "ts": "2026-08-15T17:38:00+00:00"
+    },
+    {
+      "t": "Video! MMA Debut Starts With A Horse, Ends With 80-Second Choke",
+      "ts": "2026-08-15T18:00:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Video: UFC 330 full card final faceoffs with two title fights and more",
-      "url": "https://sports.yahoo.com/articles/video-ufc-330-full-card-000608567.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-15T00:06:08+00:00"
-    },
-    {
-      "title": "Video! Pantoja Restrained By Dana White During Heated UFC 331 Presser",
-      "url": "https://sports.yahoo.com/articles/video-pantoja-restrained-dana-white-001500377.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-15T00:15:00+00:00"
-    },
     {
       "title": "ONE Fight Night 46: Hemetsberger Vs. Diachkova – Results And Highlights For Every Match",
       "url": "https://sports.yahoo.com/articles/one-fight-night-46-hemetsberger-004832400.html",
@@ -2105,6 +2091,20 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-15T18:11:19+00:00"
+    },
+    {
+      "title": "UFC 330 Cage Locks: Canada's Robertson faces tough road to history",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZzN0X2pRdmhXVlRSZWF2YTR4ak9vUHVWVHNwSVJmMXR1QTZyZ3FhOUZkOWVlcnIyUXdyUFRSUktaU2xTUXQ5RnhxTWk3elV0bW5Fc08waVdEaXpSdldDa01NLUNTWnZEOTRTaTk0V3l1ZnpoOEluUWFSQlFTTEkwNENaLURUWDk5YVVPYUNnYWlCbU5WeFdocW9ZczNUam90NGtpbQ?oc=5",
+      "source": "Sportsnet.ca",
+      "cat": "ufc",
+      "ts": "2026-08-15T17:38:00+00:00"
+    },
+    {
+      "title": "Video! MMA Debut Starts With A Horse, Ends With 80-Second Choke",
+      "url": "https://sports.yahoo.com/articles/video-mma-debut-starts-horse-180000145.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T18:00:00+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMimgFBVV95cUxPdjFUdGVJdG0zNDZsc2hvc1JuN0xYZ08tOVlJaEJ2S3pIb05kcU03cGRzUk5Za2dBNFdBNnFxRUlPbDNMMmJyZlJuX2VaZWRoemdKbUZwZ29QT1FBVVgyczg2Sm1SeWNlU3c3RjRwWTVJS3BwWGVUNlZELVhxWEtjY2tiX25PRkFJZDM4NGhEby1HOEVtdk8tLVl3",
     "CBMiigFBVV95cUxOX290VkxsYy1qR05ES1dzQVZYM2hqWHIzX3pYVEFvNjdXMUpjUkpTekhmY0tsUlNkX3ZobjJmWVFKeXZuOXl1dkNEUV9UYm9kUkNMZkJ1MjlFOHJCeWNtVV83WWRGN0d2VFV5aWNMc3NMdzkzcW5LdlFFZ0t3QTEzN1l3dW5jSm4tVnc",
     "CBMilgFBVV95cUxQakFWM0xCWDdRaFlOQ1U1WEJ2QW9sTEstUVpKTkFSTm1HMmJ3UmpJRmxfNmhvYzhjekRRT052RmdXNlNlVkZ1RjVLdGxQNnpqYnl2QWY5akR6cTFNd2IxNTJULVlWdVFfYXJtUGNqZlJrVlBLcnIwcVF1aEllSFpHRFJvSWNOQjdVOFZEQ3Jqbzk0MTFOT3c",
     "CBMipgNBVV95cUxOT3pEUU4yc3pzWkd4VlV6eDFCSlFIVlFwTjZqWGVwZ2xMTnNBWFl2N05YRzE2RDdjczVyd2VQdkJyV2trdDF4bzRGRF90S0lLczRTYkJhREVhSTVqSTA2RldHY1FaYTgwVGJMN3V4REJ1aHh5c3VHS19LUkQ3UEVjeHpJMFhBejhpUTQ3U2U5Q1NNR2ZOR3czbmVhaU8wUzlTT1FUVXpEYzdmUnhVbUlLRmt6S0lTQjQ0c2NDUURFc0llcUF5VF9fOEFwNnVGR28zVnVMSnpoYU9BQjUtaF9SWjlISG1nallIU2llSTRFM0toYy0zdWZqb0duSWhZTjIzQlhRQUdhOGJFS3YyY2NMaWNEOEFYSE1TYURXM2JKTUQ4WldpNnZCemlMZDAxU2JnNnk1a0plU25TbHRqeGtIME1Sc3NHQmxnWW1GVTcxeEVfRmx1ZGRKd0Y1MHZtSU1WTVR5ZFpFaXhpVXFsOXQ0SjVVQmR3dXQyY3VIeXh3ekhwczlPTURJcFRQOHZuOXVBUVJ1WGVqNW1JWTVubUx5bFVhaThtQQ",
@@ -3312,7 +3311,8 @@
     "CBMirgFBVV95cUxQbl9DWklNNmx4Vk9xZ2gyVVB6WVh2RUVkYnNaMWNKQnRLaWRNSGg0bVBJMDE1cElFcEhJZE9wYjNXSjFjbUZNZHUzVXNCQVgwU0FPUm9KbkdUX05qam9DdGFLZ3hQQXo0WTN1MTlJYkFEekh3VU12OGdVLUdoUXVLb2V6aUZ1Q2JQOWl3eHNRVTFnQ3l5ejZYUlRZYXVTYnJNTjczTGc0U0lTQ0hYd2c",
     "CBMiqgFBVV95cUxPSXpqUWFwbDF6VXlsSkFYUlp4Umtod09UQVV1RjZRaTRUX21kN3ZENHhycFJBYnJoSUNmNnUwcU1SczdsQ2dlYzRsWVR1V3hNZ0o0Rk90NGJ1SjM4dThBMTU1R25qMkF2dEVOa3NIUi1zMHFrQUFGZk41TWdNYy1CY05BRVZ3ZWRfWGVJa1ZZQVkxU2VKTnBQUXZoeVM5VVAycW9ROFoxMkk3QQ",
     "CBMizAFBVV95cUxOM18wQXQ1eTJiWG5OLWNpREl3RGQ4QTE0Z184a3FoNm1zQUQ2NWxBbGNVN29NLVhVWUZNd0pYT1pfOHI3alBqUERqc2gxV3Zyb3ltSERSQ19KdXFNUkVwUjNHUWlnY2lQdld2S3puN24xMDUyUGdTa3l3ZDNJMDE0MlBMWXctTWo5elJxSFg3VUlBNUNjSGtJSVJILWhneVV6ZS1BMHdvdV9OY1pLVGFaZkNrUWQ0S3dId0pCOXkxd0VJWkZCQWdsekxHb20",
-    "CBMipgFBVV95cUxQY1JDLTk5R2pLTEJ3cmJfWUZPOXpWaW90cC0xd0Z0bHg0aFJXTkFoZUl1WG9uVi1YVnpVSnJVNTlzTmMyUXRaS2NWdG0zODZKaVh3Tk5KM3dJaUFCZGE4V0VHWnotNkR5X3BsTHZrZmF5eUdOLWMxSVV2WGUzdUJSdGlXdkJJRWNZYWJvQ2ZkQ2t5bnN5T1NVSmJ2ZHhEWVBXMWxLYWFR"
+    "CBMipgFBVV95cUxQY1JDLTk5R2pLTEJ3cmJfWUZPOXpWaW90cC0xd0Z0bHg0aFJXTkFoZUl1WG9uVi1YVnpVSnJVNTlzTmMyUXRaS2NWdG0zODZKaVh3Tk5KM3dJaUFCZGE4V0VHWnotNkR5X3BsTHZrZmF5eUdOLWMxSVV2WGUzdUJSdGlXdkJJRWNZYWJvQ2ZkQ2t5bnN5T1NVSmJ2ZHhEWVBXMWxLYWFR",
+    "222c03df-82ba-353a-bce4-54ffeef4d829"
   ],
   "daily": {
     "d": "2026-08-15",
