@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "LIVE! Watch UFC 330 Ceremonial Weigh Ins Video Stream",
-      "ts": "2026-08-14T21:45:00+00:00"
-    },
-    {
       "t": "Jon Anik: Ian Machado Garry 'under appreciated by every pocket of this fanbase'",
       "ts": "2026-08-14T22:00:22+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Real Estelí vs. CS Herediano Live Stream of CONCACAF Champions Cup",
       "ts": "2026-08-15T04:51:14+00:00"
+    },
+    {
+      "t": "UFC 330: Makhachev vs Garry start time, undercard and how to watch fight this weekend",
+      "ts": "2026-08-15T04:56:44+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev aims for UFC record 17th straight win in title defense",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM2EyU1VhQkpma0VtYzFXWndtYk5vdnh0dmpXREpTX242Nk94ak9fMTlpeUlxdFA1RkNDMldNLTBZU1BzYU5GcHJackJ6cXlDNFlwYmhQN3BzZVd2Ymw5ME9yQkRhM0dDaDN2MFJDQUlEOGxMYVZOcHU5Y1hERGpCa3lyOHFNSW5NRFQ1X1Z4OHVYSE1PRFZibkZVT2V1MlBPejRpN2pLS2FSNUlrWHdGMWg2WWpEQQ?oc=5",
-      "source": "Advertiser-Tribune",
-      "cat": "ufc",
-      "ts": "2026-08-15T04:03:22+00:00"
-    },
     {
       "title": "Patrick Mahomes Aiming For Week 1 Return Stream of National Football League",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZHFROXU5SzY1WlVnNEdXZEU5enJyNVk5dWNxZUxTUjJ4SHF2X1Vfd1RIVjhSeWpjX0J1X19TMDBvQmxVa2dfdWtIeEpSV08weUdiMFBLSHYyUW9pOE1maTVnbkxkYl9Sck9pdDVxWm1nS2xRdkpnLWJTZWJxVmhVaGFsX2t6OTRfUkE?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-15T04:51:14+00:00"
+    },
+    {
+      "title": "UFC 330: Makhachev vs Garry start time, undercard and how to watch fight this weekend",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaldUR1dwYVhRZTUzY0lTMjRWRnM5QUduYWNQUWpGUmtSWnNoZXdmRG0wSXE4MFZXOENURXdBN1E4S0FTdmtLaV8zUURoOTAwZ1RQSUdOaDdfWHd0U1E3dng0dnhmRmh4YUhTZ1hwVE5oemQtY1JpRnI1LV9CVnZhVQ?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T04:56:44+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "ab169658-2605-3cd9-9dc6-34f08c02c792",
     "4671b20c-942d-4df3-a1f6-9177d2356939",
     "c47deec8-5191-3752-8cce-194de0f709b5",
     "fbcd34c8-64ce-37e2-82d7-65cf34cda203",
@@ -3312,7 +3311,8 @@
     "CBMigAFBVV95cUxOczVKQ2V5cEEwSTlLeTJpQTctR1RFMnlKN3dRLVJYRU8wemFZQUlWdlJfVDN4R015eXF5ZVJJNHJPX3hIWko0WHRBRW1OMFVHZkRyd2pJN0Y1Tm1YWWZpbE95NWk2SnFmRTJBVkpZeDBvNE1rUlFHWTVyekMwajIxOQ",
     "CBMirAFBVV95cUxNRUZuTmFhWDA5TXFJcnA5Si13WmVtTDN5alRPSmN4d1VwU0xJMGF6dmx4TnRXLWJndlRIYTRqNVJ2SmMxTWFYZXEyVVB4WHJCemtVT3pvc01YZ0EzWVo2RGdGQzVTUTYzeE5KTnQ4YmJLc0MtazMwLUt4QlZfaXBPa2RmbW9uQlBiV3dLblNEeGs3TWt1SzJ1YnJVLXFxc21yRWdxVkRoWEJZQVlD",
     "CBMib0FVX3lxTFBVcm1JazlrZE1xMURXdWJ5bF90bUdfYVhIbzhPT2d4WXREQTdyOVVNaHNSeGxsODZLc0s4a3Ayd0M2TTVrSW1GY2E2TW5tTmhfVTBOem9QZ3hwZDZicm83ZXpRMklLNWdta0FfTTNSTQ",
-    "CBMid0FVX3lxTE9GV0NxczR2djI0Y2dTOUVFWHpsMkk1SGxfZHQwYjBnTF95WUNKY2hlUWx1QW1MZThlallhb21RSFE1MlZ2Zjh3d2Z4VVZ2Yi1RdVpSMF93UDZoSjdQcklNSDVFc0pJZW91Z2lLZWtKQzBuREZJZF84"
+    "CBMid0FVX3lxTE9GV0NxczR2djI0Y2dTOUVFWHpsMkk1SGxfZHQwYjBnTF95WUNKY2hlUWx1QW1MZThlallhb21RSFE1MlZ2Zjh3d2Z4VVZ2Yi1RdVpSMF93UDZoSjdQcklNSDVFc0pJZW91Z2lLZWtKQzBuREZJZF84",
+    "CBMigAFBVV95cUxQaldUR1dwYVhRZTUzY0lTMjRWRnM5QUduYWNQUWpGUmtSWnNoZXdmRG0wSXE4MFZXOENURXdBN1E4S0FTdmtLaV8zUURoOTAwZ1RQSUdOaDdfWHd0U1E3dng0dnhmRmh4YUhTZ1hwVE5oemQtY1JpRnI1LV9CVnZhVQ"
   ],
   "daily": {
     "d": "2026-08-15",
