@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Leo is having the time of his life 😁 [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @ParamountPlus ]",
-      "ts": "2026-08-14T23:26:59+00:00"
-    },
-    {
       "t": "Arman Tsarukyan knows a win over Mauricio Ruffy at UFC 331 doesn’t guarantee him a title shot",
       "ts": "2026-08-14T23:30:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Sabah vs. Hapoel Be'er Sheva Live Stream of UEFA Champions League",
       "ts": "2026-08-15T06:17:59+00:00"
+    },
+    {
+      "t": "Belal Muhammad Says Islam Makhachev Can Submit Ian Machado Garry Late At UFC 330",
+      "ts": "2026-08-15T06:22:10+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "You won't want to miss this battle 😤 @ArmanUFC vs @RuffyMMA [ CryptoCom UFC331 LIVE SEP 19 on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2088385712173555836#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-14T22:02:08+00:00"
-    },
     {
       "title": "Dana White holds Alexandre Pantoja back, as the former champ and current champ Joshua Van had A LOT to say to each other ahead of their UFC331 remat…",
       "url": "https://nitter.net/MMAFighting/status/2088386583083045178#m",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-15T06:17:59+00:00"
+    },
+    {
+      "title": "Belal Muhammad Says Islam Makhachev Can Submit Ian Machado Garry Late At UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzNZVUpIVUNzM3RPQnJpSGpMM0YwcFBlT3FXZGZwR0g2aUlWU1NDSjJyRDE4MGtyR1FWSjAyS2VXMzY3NzNENVpqZ2JlTTNkTExpUGRJNWRXbDFTdjFVVWNoZVRpS2UtZF9hb3pOeVdxTDVkTnhCWEhwRm5PN21mRUxZNTFLVWFGRzdHUlVMZ3hOMnB4MFA4cU42MlQ?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-15T06:22:10+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2087636681193075162",
     "2087649403456598273",
     "2087649564316913910",
     "2087660466642563477",
@@ -3312,7 +3311,8 @@
     "CBMijAFBVV95cUxQMVdQaFFmSUl5Q3lWeElKXzFXTk9BYmlzeGlfQjUxQjBWa1BSWFVjM3ZyS085WHp1WERsWW5BbFhqd2o1R0FFS1VGTFY5LU5kWmw3c0IzLUNlNTZsWS1wWmdvVVdrSXhNaTBWYzNZWUF6WTdhNGZQVHNPYlFleHQ3bkFUbFlGZ1BsbjJoRw",
     "CBMijwFBVV95cUxPNU9LaHZMaVB4VVEyd292blpvYVhVLWdIQkRaMTBVMlREOFBuaVJPbHlaZmdFNDdSam1mR3M3bXVkOEM4ZFZiTzNfN25pY1A3cUZRT203enpPQTJ1cWd3cUJicXB0YjlPeTdvQmNVQUMzcmo2Nkt1cXhFVjlqUkNYWEM4eUJqSTlIOVJSWnMyZw",
     "CBMib0FVX3lxTE4xRURQVV94QkUwUlowVE5kTW5Iem5UTkdWWFFLeDlnUnN1OGc1YXNza0FpblRSOFJ2WFV2MEJJOEVjUGdHZDl2VXhrcWtFQ2tmZS1IcnZwTkJ4N1YwR09FRTk5VUkyVGhJaXV3bUxpTQ",
-    "CBMijgFBVV95cUxOdDI3QUkxTUNjbEd0RVZiQi1xR2NIOWQtRXA5VHBjQkRQUFhiV2JfdE54SEo2Y1hZdEQ4akFiMDFvd0Q4Q3hpZzNSWTYycTVuYzlfcWNqNlhHSEEwLW1vbkR4VUI5alFvajByODhMdkxLcHBGRk9aTy1KUWs2Zm9FYVJ4S2hxbXRINDVSZm5B"
+    "CBMijgFBVV95cUxOdDI3QUkxTUNjbEd0RVZiQi1xR2NIOWQtRXA5VHBjQkRQUFhiV2JfdE54SEo2Y1hZdEQ4akFiMDFvd0Q4Q3hpZzNSWTYycTVuYzlfcWNqNlhHSEEwLW1vbkR4VUI5alFvajByODhMdkxLcHBGRk9aTy1KUWs2Zm9FYVJ4S2hxbXRINDVSZm5B",
+    "CBMinAFBVV95cUxNXzNZVUpIVUNzM3RPQnJpSGpMM0YwcFBlT3FXZGZwR0g2aUlWU1NDSjJyRDE4MGtyR1FWSjAyS2VXMzY3NzNENVpqZ2JlTTNkTExpUGRJNWRXbDFTdjFVVWNoZVRpS2UtZF9hb3pOeVdxTDVkTnhCWEhwRm5PN21mRUxZNTFLVWFGRzdHUlVMZ3hOMnB4MFA4cU42MlQ"
   ],
   "daily": {
     "d": "2026-08-15",
