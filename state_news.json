@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "\"Both of them on the same night\" 👀 [ @ArmanUFC | #CryptoCom #UFC331 | LIVE SEP 19 on @ParamountPlus ]",
-      "ts": "2026-08-14T21:22:29+00:00"
-    },
-    {
       "t": "If the #UFC wants to book Arman Tsarukyan vs. Justin Gaethje after UFC 331 — or not — Tsarukyan will be ready 🎥 @JoseYoungs",
       "ts": "2026-08-14T21:24:09+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC 330 Weigh-Ins: Perfect Friday on Scales in Philly!",
       "ts": "2026-08-15T01:38:36+00:00"
+    },
+    {
+      "t": "Belal Muhammad could see Islam Makhachev submitting Ian Machado Garry late https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/14/ufc-330-belal-m…",
+      "ts": "2026-08-15T01:25:50+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "LIVE! UFC 331 Press Conference Video!",
-      "url": "https://sports.yahoo.com/articles/live-ufc-331-press-conference-200100809.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-14T20:01:00+00:00"
-    },
     {
       "title": "UFC 330 Makhachev Vs Garry Main Card Preview",
       "url": "https://sports.yahoo.com/articles/ufc-330-makhachev-vs-garry-201717786.html",
@@ -2105,6 +2098,13 @@
       "source": "mmasucka.com",
       "cat": "ufc",
       "ts": "2026-08-15T01:38:36+00:00"
+    },
+    {
+      "title": "Belal Muhammad could see Islam Makhachev submitting Ian Machado Garry late https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/14/ufc-330-belal-m…",
+      "url": "https://nitter.net/MMAJunkie/status/2088436974390481389#m",
+      "source": "MMA Junkie on X",
+      "cat": "ufc",
+      "ts": "2026-08-15T01:25:50+00:00"
     }
   ],
   "digest_last": "2026-08-14 21:30",
@@ -3252,7 +3252,8 @@
     "CBMilwFBVV95cUxPUl9nTXE2V2hRSHdXZ2E4N0xpUFBCU0x0enQ1WVdydFlwaHN4OG1KS0RLTDRKOU9ybFgwMGNuVVVxWHVlMENzZmo3UlZoQlpjU1VFZGRqSDdUVTVHbHNndnhqODFwcXZMLWNlYXduT21CRW5QS1FQazdLVk1MQXQzN05KNXFzcDlYTmwteTZOazRJa05WYTM4",
     "CBMi8wFBVV95cUxPZXdydW8ydEpaWm4xWjJtUWY2QklfSVpadndXTTJmRTVjdktLQnVZMEFVMDctbDlDNmktSldUYUtJYVFrUnotN3pJd2tVQU55V2FscnJVQWp3V3NIQ1hHUUNUdnlGNXJOMUs1dTVwUExrb19GbG5qaU5UWXRwNnZCZ2tyS1lLaTlVZnBOYzFzNmVpUVA4WFk3eU1TWDVGRDNtZ1ktWktZdjEzRFNTQXd4ZUh1Ml95OUNpQVNpaHhMQWJsbjdQUHQzbTFjS0JZZ0Q5eWFHWFdLV1E5eDlXOWFaQlNodkxIaldubnQwYzJiYVoxbG8",
     "https://www.sherdog.com/news/news/UFC-330-Makhachev-vs-Garry-playbyplay-results-round-scoring-202361",
-    "CBMixwFBVV95cUxOVEZER0E3WXE3SWpLcTRkQmhZcEgwcThhQXhxQTN5RVVyLXhlYlNLNmIySWpuZGN6cTB0RVVKRVBYWjRyejk0X194MVd6czEyNGZwRGRlVzhEZkw0M3FPOW9YemJWSVIySGkyMHlyWkhjbU5jRl9kZzBtNmFsQ0ZnV05lWVg0Tko1eEM3Q3NFWkJ1Ynh0SkdZRVh3Qzg5RUF2LUY5TjFTWE12ZnppSGw5SjJ3OUF2cklUekZyeV94VTdTdHhPYUlz0gHMAUFVX3lxTE42M1JPNmNGLXJGczd6Zl9iekhrcGQ5bzF2X2toQmdSYVdfaXEzbGJMaHo4TjBRVDZ5ZThpMnZfakdYVWswd1lGQnNfd2FZS2pQVV9IdlZrYjVzYnFuM3dTUUdadG42alhRWHJnRUZMbXdfNmhmaHpWUmFOdGh1eHRwb0pQSEVlaGROVUdIZHRlWUZibm1HbVMwVlBRQ21VTXNrQWZES2RqX3ptdDZzM0t6ZWx4LTQyR1hFemRaQ3FUUzc2bEwyeXU4RFY4Sg"
+    "CBMixwFBVV95cUxOVEZER0E3WXE3SWpLcTRkQmhZcEgwcThhQXhxQTN5RVVyLXhlYlNLNmIySWpuZGN6cTB0RVVKRVBYWjRyejk0X194MVd6czEyNGZwRGRlVzhEZkw0M3FPOW9YemJWSVIySGkyMHlyWkhjbU5jRl9kZzBtNmFsQ0ZnV05lWVg0Tko1eEM3Q3NFWkJ1Ynh0SkdZRVh3Qzg5RUF2LUY5TjFTWE12ZnppSGw5SjJ3OUF2cklUekZyeV94VTdTdHhPYUlz0gHMAUFVX3lxTE42M1JPNmNGLXJGczd6Zl9iekhrcGQ5bzF2X2toQmdSYVdfaXEzbGJMaHo4TjBRVDZ5ZThpMnZfakdYVWswd1lGQnNfd2FZS2pQVV9IdlZrYjVzYnFuM3dTUUdadG42alhRWHJnRUZMbXdfNmhmaHpWUmFOdGh1eHRwb0pQSEVlaGROVUdIZHRlWUZibm1HbVMwVlBRQ21VTXNrQWZES2RqX3ptdDZzM0t6ZWx4LTQyR1hFemRaQ3FUUzc2bEwyeXU4RFY4Sg",
+    "2088436974390481389"
   ],
   "daily": {
     "d": "2026-08-15",
