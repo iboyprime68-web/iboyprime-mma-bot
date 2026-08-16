@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Anything but Fighting: Neil Magny",
-      "ts": "2026-08-14T17:10:29+00:00"
-    },
-    {
-      "t": "UFC 330: What Time Does Islam Makhachev vs. Ian Machado Garry Start?",
-      "ts": "2026-08-15T09:41:42+00:00"
-    },
-    {
       "t": "Arman Tsarukyan calls for Dana White’s help as he plans latest side quest after UFC 331",
       "ts": "2026-08-15T12:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Ribovics Favored to Win Against Barboza at UFC 330",
       "ts": "2026-08-16T00:00:21+00:00"
+    },
+    {
+      "t": "UFC 330 video: Lucas Fernando destroys Rafael Tobias with brutal knee to the body",
+      "ts": "2026-08-15T23:11:14+00:00"
+    },
+    {
+      "t": "Polymarket UFC Promo Code DIME: Trade $10, Get $20 Bonus For Makhachev vs. Garry, Any Fight",
+      "ts": "2026-08-16T00:00:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "The Orolbai supporters are here at UFC330 🗣️🇰🇬 [ LIVE NOW on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2088745683528671652#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-15T21:52:32+00:00"
-    },
-    {
-      "title": "That finish was insane. Wow.",
-      "url": "https://nitter.net/arielhelwani/status/2088747445622653078#m",
-      "source": "Ariel Helwani",
-      "cat": "ufc",
-      "ts": "2026-08-15T21:59:32+00:00"
-    },
     {
       "title": "👇",
       "url": "https://nitter.net/arielhelwani/status/2088765443892715679#m",
@@ -2105,6 +2091,20 @@
       "source": "SSBCrack",
       "cat": "ufc",
       "ts": "2026-08-16T00:00:21+00:00"
+    },
+    {
+      "title": "UFC 330 video: Lucas Fernando destroys Rafael Tobias with brutal knee to the body",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbUxTbEdQUEJKenl6VmVRdlZOTnQ3STFlNEdQOE90eU9kMzBGM3dmQzB2WnFnS1h6Y0laM1hMRWtob3FGYktYX1BqTUEtVHJnMWo4ZldrdjhMeDJUU3IyZldNdFdxUDdtVlF0bktDOUdWZlBhdjYtT1dPWVFpWU8ybkxNRQ?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-15T23:11:14+00:00"
+    },
+    {
+      "title": "Polymarket UFC Promo Code DIME: Trade $10, Get $20 Bonus For Makhachev vs. Garry, Any Fight",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMGJhUVBqZWl4cndSTWN3cWQ4ckZ1Y0ZBUzFpRUs0WG9jZ3VhNDZVWTFYSTFadDE5YWNtTlF1QXoxVDZJQ2lKUldIYlplaW1CTWJFRE5WYXRZUFU0cjBVSkhwRVlYZ1NXNnBJdWxDaGRJZVNhUTFjcXgtMWtkN0d4TlhvR2NWQ0RLb1hoMmVHOVVzWVQ4S1pPMTFoUWFLMnZ2YmhvNTVuUl9nRTRkYTB6T1BIbVRucmVZTnlOYUo2MHptRF81NndGSTU1cHN6dw?oc=5",
+      "source": "Sports Betting Dime",
+      "cat": "ufc",
+      "ts": "2026-08-16T00:00:00+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMingFBVV95cUxQUk5WWHRETURNRUlLZWdrSEI5YUI1N2lTcHF4MmtzNWJDdHNMZ1g2aE9XLXpvcC1YdjRxMUlMWXNQdWphV0ZOa1VOdnJ6WWRzaUNGOWJxMEF2bk5za08ybXFYU081LXN2eWRsTmVLYUJCWWZ6WnJfMWg1NHJ0T2dtbXR3Z0ZHVE5rNzZ5d21lQlVtSWJfYjhnX0RVVGtidw",
-    "CBMi9wFBVV95cUxNYjE1Vkh2ZVdkbzgzVU82WGI1dlo5N1RHRXhJckNzV0RubkZhdWdpb0FsWlp6T3ZKRlVKMVJzOTRnQkpySWQ5SlUzYUtXVUtkTkxUNjhWV3lSVUpjaExjZHk2OXZBN0xLX2gzRFk2VzVEY3BsdW50bnctLVZXTWJENWU0akQyQmloNVltSDV0Skg1WXhWd0UzTEd5d1RNa3piTl9mZFpWUW9YUnZEckRsOGdNTnZKR2JVTjB3SEQ2VUxqRGlLaTRtZkJpTlRSck1vQ3VaTTR4U1VGcXZ3MW1JOVlmT280M1FMMFk1VDhkZFZPSkoxNm9z0gH8AUFVX3lxTE5nYWNsSktwNEZtZldGdkhveVBGQnpCYXZjMkx0TGJhZ1l4Y2tWeEtGVjVMeHM5WDRYdENubE9sX3FTRE41em9pT1NBNHEyc1l5S2NUSWJmUEV6Vk9OQVNOOUJOQ0ZiQVpJcVJCMjNobERBNEFPMEJRYnNuV3NKbWdjMHZQUFdiZ1cyVW5oMUNma0xFTEw5MmVvYjl6TUNYb2JidTdZU2xVMHhMOWpKZW5YSmhPaE9PVGcxc1BSRHEzMHJWZmdyV0JCRkkzZnNiTE05UDIxeF9UcUZzOENYejFNdks0dHB4SUlUeU9hQk0wZE44MVV4LWNRbnVTQw",
     "CBMieEFVX3lxTE1aMXo3WU1nXzlXLXRzUlM1b29DSU0zNlFsQ1NZTU02QUhQRkIxV1ZYd0dfcVVMVm9scTVtWEF2UWFZWHFUdFEtaW9pWmFycVc2ejlPam1kOTZieUMtRlBiUGJCWWx6S0xXYTJyQm45UFVrWFk4bXVtUQ",
     "CBMiggFBVV95cUxONV94c2RITFVacmpCZ1laWWpaa2tJNVZZZjY4ank2VEN4TUFkNkFWNGtyOXJjZWg1YmM4YUtOUGNtaFpFMVIyekR2NFpBUHUwbWd5aVdYMGs4bTdXb2VaV0xJOEVGbEdOQjMxMFc4Z1BqWnU4ZS1VQThJbU5aZjJfd2pn",
     "CBMinwFBVV95cUxPZC1VVXM2YUg2dmxBVENrRUs0UGlTV2lpd1A2UG0zaTdmWXJoQWhBaGI1NjJrUjk4Ym9WYjFOeFA1OG0tOTZFWk9IeFBTOVRwekVLOXFKM1pDd0NSa0xacmhzX3JBekRzTVhPYmE1REZCLWRkdmdqMnkzcEZfekE5NjJtV2M3cUxaSlhYY2J2LWFDRDctdUxFZ216ekxVQjg",
@@ -3312,11 +3310,13 @@
     "2088777648394908154",
     "CBMiqgFBVV95cUxQZlVnMEp3XzFTb1h1VXVpR2MtMDdvLWRvVm5oY2tXNUwwSG5YeksyU3A3endYcHJ1UkJZRDY2MV9Cc0hYMGxzeFhsNmc0SFFLRlh3SV9DUjcwVndCeTlMSXJoMUR4dDZXckp6bkNRTFM0aDhiZmM3OW10UVp1VFRhcWR3R2pLU0xTblY0bFpoN0hGQ1VxQmd5Qmo1NktYZjYxOVhsbjZTejlqQQ",
     "CBMie0FVX3lxTE5mMXFyNFdUUGU2X21HT0VOdkg0NzUxWDJpR09SUFZFNzBjdEE4bkRHSEpzdHAtV2JrV2FScjNPcUtHUjQ0WDdNVWtCclhJdncxX1Q1Y1Z1eHdTQnEtX3dKaEd0ODI0d08wMVU4amtfd2REQmFvaDBZSnYyOA",
-    "CBMigwFBVV95cUxPV1gzYnlpdnNTRDdDaEUzTWhoRHdrLUEwR2NLSkFzY21vMXRua01GWkdmb1VqTFktOTdkV0dXS2k2N1RxQThWVzFDXzJzckhjbkFYU1Q3eW5WZldOeUVmR1kxM0YwWW9mYkczamh3dTczNmVDTnhad3kwLWhueGx5WkNWUQ"
+    "CBMigwFBVV95cUxPV1gzYnlpdnNTRDdDaEUzTWhoRHdrLUEwR2NLSkFzY21vMXRua01GWkdmb1VqTFktOTdkV0dXS2k2N1RxQThWVzFDXzJzckhjbkFYU1Q3eW5WZldOeUVmR1kxM0YwWW9mYkczamh3dTczNmVDTnhad3kwLWhueGx5WkNWUQ",
+    "CBMigwFBVV95cUxNbUxTbEdQUEJKenl6VmVRdlZOTnQ3STFlNEdQOE90eU9kMzBGM3dmQzB2WnFnS1h6Y0laM1hMRWtob3FGYktYX1BqTUEtVHJnMWo4ZldrdjhMeDJUU3IyZldNdFdxUDdtVlF0bktDOUdWZlBhdjYtT1dPWVFpWU8ybkxNRQ",
+    "CBMizgFBVV95cUxOMGJhUVBqZWl4cndSTWN3cWQ4ckZ1Y0ZBUzFpRUs0WG9jZ3VhNDZVWTFYSTFadDE5YWNtTlF1QXoxVDZJQ2lKUldIYlplaW1CTWJFRE5WYXRZUFU0cjBVSkhwRVlYZ1NXNnBJdWxDaGRJZVNhUTFjcXgtMWtkN0d4TlhvR2NWQ0RLb1hoMmVHOVVzWVQ4S1pPMTFoUWFLMnZ2YmhvNTVuUl9nRTRkYTB6T1BIbVRucmVZTnlOYUo2MHptRF81NndGSTU1cHN6dw"
   ],
   "daily": {
     "d": "2026-08-16",
-    "ai": 18,
+    "ai": 20,
     "staged": 2
   }
 }
