@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "The strawweight queen 👑 @MackenzieDern just showed she was the best in the world! #UFC330",
-      "ts": "2026-08-16T03:35:00+00:00"
-    },
-    {
-      "t": "Takin' her belt home 😀 @MackenzieDern",
-      "ts": "2026-08-16T03:37:05+00:00"
-    },
-    {
       "t": "TIME TO SEE WHO THE BEST WELTERWEIGHT @MAKHACHEVMMA vs @IanGarryMMA [ #UFC330 is LIVE NOW on @ParamountPlus! ]",
       "ts": "2026-08-16T03:38:19+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Dern Answers Robertson After Grappling Claims",
       "ts": "2026-08-16T07:01:43+00:00"
+    },
+    {
+      "t": "UFC 330: Makhachev secures record-setting win against Machado Garry",
+      "ts": "2026-08-16T07:04:43+00:00"
+    },
+    {
+      "t": "Islam Makhachev to add more size after Ian Machado Garry win",
+      "ts": "2026-08-16T07:07:36+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 330 results: Mackenzie Dern outclasses Gillian Robertson in low-action affair",
-      "url": "https://sports.yahoo.com/articles/ufc-330-results-mackenzie-dern-033241488.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T03:32:41+00:00"
-    },
-    {
-      "title": "UFC 330 results: Islam Makhachev rides out title defense, Mackenzie Dern dominates",
-      "url": "https://sports.yahoo.com/articles/ufc-330-results-islam-makhachev-041852618.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:18:52+00:00"
-    },
     {
       "title": "Islam Makhachev decisions Ian Machado Garry in UFC 330 main event",
       "url": "https://sports.yahoo.com/articles/islam-makhachev-decisions-ian-machado-041910808.html",
@@ -2105,6 +2091,20 @@
       "source": "boxingnews.com",
       "cat": "ufc",
       "ts": "2026-08-16T07:01:43+00:00"
+    },
+    {
+      "title": "UFC 330: Makhachev secures record-setting win against Machado Garry",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNN01yRkZYdDQyVjRxV0dubVFDc3N0SHZVd3ZJWUpsUG5ZX1FQZ01KMXpwM2JOMXcxM1YzbVlmcnhDNDhybjZ2bjljUldPNG8ySERjanNJcjQ1akRPeGJkMGN4dG5hQVJ5WkFRNVVnUGYxU1BiQTQwY29qTGZSWmhaOWlRaVhHZ0hVMllpVG5wRTRnRFBtWGtnSzFTSnR1RVFIbGVBQUlsU3hqMVJITnfSAbMBQVVfeXFMUHpaelE5Wjd2WDRfRXRraGZtN3NLLWZYM1VkRk45YzB1cDhkck5iRGtjNFYwVnVIWEhFMC1EdnJNSmhZSGdTbzNEVGxIdUFHMlhHR1ZWMkpRSGtQSkV1cVlheG1uVjFkLTlhMVdPM19PY3ZiVmhPVDlnVURNeU82YW02UWl6Qjc4NnNDSF9lY2NDVXU2Wm1HV3VYd2RaZlRiWmRHejNxZmZYcnYtUGlVYjBjaEU?oc=5",
+      "source": "Al Jazeera",
+      "cat": "ufc",
+      "ts": "2026-08-16T07:04:43+00:00"
+    },
+    {
+      "title": "Islam Makhachev to add more size after Ian Machado Garry win",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQk5oaUJYemktS0FfRkF1cHA3N3RVOWRXZDU0UU5lR2VkcUVSbmxidG85Z2t3WTN2VmZMdWtiUF9kZFdHbnRUa1lJNGhhQUtXaHFXbEVCUEhsNnNYMVhaNkJSU1VpVFBxaGlvT3FRNEsxQ3JvVFhBZTNkakFFY3FvU2l5clJWanRvd0VlNmVYa1NQZ19Zc2diYVZicjJvVFNjRTdyQ1JtTEwwVm8?oc=5",
+      "source": "mmasucka.com",
+      "cat": "ufc",
+      "ts": "2026-08-16T07:07:36+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMirwJBVV95cUxPZ3FFRzFZTUJlclhlX1R5VTFaU0V2OE52dS1hdEdjM3lxVTczcHJ3V3VOa0dRMXY5SUV2d0l5S1ZLbmQ1anFEZEVrcmFXOTdkUU45ZWFTYzN3UDRyeG52M19rTlNDUmotaXc1ejFBRzhwWnVBMzM5dGxmX1FGSks3bk13UWkwNm1SN1VrZGtyS2RTaUhoU1BUWFRILXo5QW5qSDdWNnNSbUs4T2NUOXNYcFN2NnJ0QlRwR3Z0bDFOcmRiNUE4T05GZ0dObm1Hdm1EeGE3YTNYUkpvZkFsVGxTUzFjdjlRNVp5MU51ajJ0ak9sMDNqeEgzOXV5T1MyNXlzYnhJdEU4ZVRoeGVGVHl3enA5US1lV0RkT0VESm4tUkhaVngzQ0h4ZE9NQTc3NTQ",
-    "CBMihAFBVV95cUxOVERhWU5pdnNzQ3F2aGVxOGJ3WEtrVFdIamNVRmJjV1hheWUya2pIMThRZUhNdEJlN1dFalJXRncySjJYRVNzeXpNemhqbWZiUWZMTThLM0w5ZTJCakVUbGpKbktSRVl1SzEtME41QXZnUE9ZUkpKVGlZMm9DRnBzVERpNGg",
     "CBMidEFVX3lxTE1QdEtSeXBvdG10WTVUTjFWRXFfLVU2OGJZVHFqbTU3Q21zQjVzTlhBWEVXX2ZOWUYwNENfWlRFR2NfNEJRVW5LYkt1RXlwUklJREI0eF8yU2hUOEVKdGY2RVo2M1pualdwVUNGU296X3pOZzh5",
     "CBMilAFBVV95cUxQWldDZjU5R09LYmJEd01NX1diRXZ1em9SM1dzT2pvMGhtQmstb0ZtQnpjZGZXNXVFVDZGcjVrcGNQaktfbE05NVFkak91MVMyVnByVnhRbzNNa2JrS2FZVFN5QnNCVDB5TEJxdWtUMEFoaVFYYncwbHk3MDJzY0Z3MFl0aE1IYlQ5VFpjQWRlTHlIOWgz",
     "CBMiiwFBVV95cUxOZ3lUcFRFSU15NWRWMnROWTBrRHA3RUhfTE5CcTJ6aVgwNkVMLUhYYnUyZWR1QWlXZmNtTkJYclh0SUFSbl82WVhTcGFYT2JVSGszOUltdlJCQnBrQ1JmNXM4RGNxbXZkd2M3MmxtWWVHeFNKa1VrV0tzblJfTFB3YUVMTEc4akdORElZ0gGQAUFVX3lxTFBhSV80Y3VrdmFjR3o1aUJ1N0c3cDJIXzNqRldJcmF0U3p5azhyZGpuTkRWdmNhTldUUlFJVjhCY1NDNlVqYWVVX2FodGVVWmRQQ2RPLUNVUWEyUmJZNGNjQXFQMndDZUZyZXlBRjlFeFUzdkd2YkdzaTlnMFVmNkFia01VVGdqQjNDLUpCcHRJWQ",
@@ -3312,7 +3310,9 @@
     "CBMiqAFBVV95cUxONVFfSkxEamI4ei1aQkR3YVVLUmVLMlZkYWVxcV83T0puU2xJd3haT240Sl9kenJfTWp3cVR0V0ZGZS1YTWJkeDM3ZlZ3VUN3aFpIZXV3ZEVtWTNzeVhUMjRSNlhFUGZGU1EwbDJOcWw5V0hWQU44amk3N3RKOUhMZ2dacWd2WEhjSHhCem5pUXhFbDh1NjZTb3htUnBoejJlSGlkYWhreEc",
     "CBMi7gFBVV95cUxNakc4Q0xFdjl1TU8xTzlkWU1LOFRNdmlJTm1kWHVKN0N2S0xqVVItOFRnUHc3N1RaVXdSVTVVbDQzenFUN2s1b1lKNHRNc3l5aU5uUGRySlpYUjE3ZG9lQk1uc2tHSFk1MjlWSFJkQXdicXd2YXVnbENnZ25PaGNwZlF3ejBPNVFaa29lalNFRmdsNVhpNGVGaUQ0dmR6RVFyWEVCYW5yb19faFNrelh1T29aQ2FKVFJMWkRBSVRQQVF0WVdYQ05vcEdqT09rcWNCT3ZBal80OUYxanRuRDFYYUhIUTZ0OHZQU00yenJR",
     "CBMixwFBVV95cUxQZE9MNDdMQmxVMkFzZmVLYWQ4Y1dUaDFyOUlSc1JIQzZqUjE5Vmk0YW52VDh0Uk5TbnZrMmZscjdMWW9LSTloY1RVZldnTk9DdjBYdlBHQUlqd05Fd29YTlhUOV90VkhSV1B0WnNsWFNGeTl3LTM4Vjd1YWVjQV9aTHF5UndtUThtUko5dHYtQ3lLNGlUQUtlTVMwRHJVQ0Q2dEVTWHg0VjFfendaUFdqc0NQTnlwWExIQjUyWGh1ZlN4bjJjR2g0",
-    "CBMid0FVX3lxTFB4N2JQcWdEcWx4YWlNOVpweUpEeW9LeXFwQThsMktkcHR3SXdnUTV1M0dxMWFZNXpWcm5sOEVyMGlGdmd4ZS1QOWNoRER6bjZNTU5qU1JYa1JZREt1YjJ6dTM3Q2xmb2s2cDZtQjJ4SGpJajlyazFR"
+    "CBMid0FVX3lxTFB4N2JQcWdEcWx4YWlNOVpweUpEeW9LeXFwQThsMktkcHR3SXdnUTV1M0dxMWFZNXpWcm5sOEVyMGlGdmd4ZS1QOWNoRER6bjZNTU5qU1JYa1JZREt1YjJ6dTM3Q2xmb2s2cDZtQjJ4SGpJajlyazFR",
+    "CBMirgFBVV95cUxNN01yRkZYdDQyVjRxV0dubVFDc3N0SHZVd3ZJWUpsUG5ZX1FQZ01KMXpwM2JOMXcxM1YzbVlmcnhDNDhybjZ2bjljUldPNG8ySERjanNJcjQ1akRPeGJkMGN4dG5hQVJ5WkFRNVVnUGYxU1BiQTQwY29qTGZSWmhaOWlRaVhHZ0hVMllpVG5wRTRnRFBtWGtnSzFTSnR1RVFIbGVBQUlsU3hqMVJITnfSAbMBQVVfeXFMUHpaelE5Wjd2WDRfRXRraGZtN3NLLWZYM1VkRk45YzB1cDhkck5iRGtjNFYwVnVIWEhFMC1EdnJNSmhZSGdTbzNEVGxIdUFHMlhHR1ZWMkpRSGtQSkV1cVlheG1uVjFkLTlhMVdPM19PY3ZiVmhPVDlnVURNeU82YW02UWl6Qjc4NnNDSF9lY2NDVXU2Wm1HV3VYd2RaZlRiWmRHejNxZmZYcnYtUGlVYjBjaEU",
+    "CBMiqwFBVV95cUxPQk5oaUJYemktS0FfRkF1cHA3N3RVOWRXZDU0UU5lR2VkcUVSbmxidG85Z2t3WTN2VmZMdWtiUF9kZFdHbnRUa1lJNGhhQUtXaHFXbEVCUEhsNnNYMVhaNkJSU1VpVFBxaGlvT3FRNEsxQ3JvVFhBZTNkakFFY3FvU2l5clJWanRvd0VlNmVYa1NQZ19Zc2diYVZicjJvVFNjRTdyQ1JtTEwwVm8"
   ],
   "daily": {
     "d": "2026-08-16",
