@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Hahha this Ireland x Dagestan 2 promo is perfect. Everything I’ve wanted and more. Greatest rivalry ever.",
-      "ts": "2026-08-16T00:02:58+00:00"
-    },
-    {
-      "t": "Referee rocked by stray elbow as he tries to save badly KO’d fighter at UFC 330",
-      "ts": "2026-08-16T00:27:24+00:00"
-    },
-    {
       "t": "Pinned: Summer break is over! We’re back LIVE with the Uncrowned UFC 330 Watch Party 👑 Come hang with us for the night. It’s been too long! @connerbu…",
       "ts": "2026-08-16T00:45:35+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Eduardo Chapolin",
       "ts": "2026-08-16T03:14:59+00:00"
+    },
+    {
+      "t": "The champ is cookin' heading into the final rounds! [ @MackenzieDern | #UFC330 ]",
+      "ts": "2026-08-16T03:12:49+00:00"
+    },
+    {
+      "t": "Esteban Ribovics reflects on being the final opponent of Edson Barboza's career at #UFC330: \"I thanked him for being an idol, giving us a career, the…",
+      "ts": "2026-08-16T03:15:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "LIVE! Watch UFC 330 post-fight press conference video stream &124; Islam vs. Garry",
-      "url": "https://www.mmamania.com/ufc-press-conference-video/464913/live-watch-ufc-330-post-fight-press-conference-video-stream-islam-vs-garry-results-paramount-white",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-16T02:21:28+00:00"
-    },
-    {
-      "title": "Highlights! Jalin Turner tramples Kaue Fernandes with 39-second knockout flurry &124; UFC 330",
-      "url": "https://www.mmamania.com/ufc-330-makhachev-vs-machado-garry-live-stream-start-time-fight-card/464906/watch-ufc-330-video-highlights-results-philadelphia-paramount-barboza-knockout-fernandes",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-16T02:43:16+00:00"
-    },
     {
       "title": "Dana White Reacts To Israel Adesanya's Loss, Grasso's Finish, AI Complaints UFC Seattle Nationals Vs Reds (0bAWOrjd9f)",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Lb3paZ0gyZDEweU14QzVLZVJuMkZkTXFaU2tsMnpMRWcwTWt0bVRnQWc5ZVBzemlha05OZmpLQThHd25mWnMyRzJsLVR5RlRhamZZeTdWdnppUjQ?oc=5",
@@ -2105,6 +2091,20 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-16T03:14:59+00:00"
+    },
+    {
+      "title": "The champ is cookin' heading into the final rounds! [ @MackenzieDern UFC330 ]",
+      "url": "https://nitter.net/ufc/status/2088826283577012694#m",
+      "source": "UFC on X",
+      "cat": "ufc",
+      "ts": "2026-08-16T03:12:49+00:00"
+    },
+    {
+      "title": "Esteban Ribovics reflects on being the final opponent of Edson Barboza's career at UFC330: \"I thanked him for being an idol, giving us a career, the…",
+      "url": "https://nitter.net/MMAFighting/status/2088826833789763781#m",
+      "source": "MMA Fighting on X",
+      "cat": "ufc",
+      "ts": "2026-08-16T03:15:00+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,8 +2113,6 @@
     16
   ],
   "yt_eval": [
-    "2088310288777191650",
-    "CBMirgFBVV95cUxQWHBReElXOEhiWk1ra3JlNlpYUks2NGtvcnZlQlhnVXpxalg3UjU4cTdpSjN2aEFFdXEtNXV0aW83QnJBUE93Tm53Q3BuYy1WcVV6WVRMQy1Sd0JiNmh0cHpTMnJ6WVVVRjA1azYxSi1zU19CcnZidGlucEFfbUMtTGxTaXFqeXdGdGxxbVRjaTFxVHA0TlFvVjNFbTFNU0hYUUgybjFUUF9EbExQSGc",
     "CBMihgFBVV95cUxOOVFFaEdGM0FuWWp2cTdsMDhqWUxvMTF5LS1qZUk0WGVLUEZNU1c5MXEtajdnY0I1TmRESEh6WjlZT1FtZHJQaUFseTlYUk1xTHBrYzAydHo4amZnd3Y2SnRjd1JDR2dtc2FTYlhrNTFfUDRnOWJVcE9vb0NMekd1RTgyS2JGUQ",
     "2088309927429230870",
     "CBMie0FVX3lxTFAxa2xwNWYxSTBNaHVqOUdkRHVlZENkR2ZmMUdmWk1tQ0FjeUJUODJRU3NBOUFQcjAxX0RHUDVoYW1ucVNQekRnQjV2cUFpT1ZDdWpHeXlRQ1R2OW1VM09tMzZkNGJJVzhBZXRCSUd5dS05UDQ5YW4yaDFKMA",
@@ -3312,7 +3310,9 @@
     "CBMi7gFBVV95cUxPYnhPU0g5eVdaSEYtQUpucFp2QmNUVmFHWjZGRUNHS0RNamo4QTNCeEs2aERaOTI2S21CeS16di10U3lYQUxqLUs1LXBkcWlGOGRqNG5UaXl3aU4wU0p6N0xXM0VMaU9hakR5cG1NUG0tc2ZaY0VHNDdqd3lyVWp1NWh0cXRLYmY3enNUcVJKMWdSZTlQemU1M2hIeVlrRmR5ZDY5VEhDNFJUN1l2dlNrNGxBRTVfWGdnTmRmWno5N2J0MHJzbEFVOGNuQkg0b3g1M3FRS2JOeWViMTBwaThsVnFzekpqdENNX3NqVkx3",
     "CBMimgFBVV95cUxNYV84MmFxaFd1aEFOZ1poVmMtMWdBSi1CSGgyV3lqX2tzYXY2T1RlVUZQaEdtSHBFVUVmSjBBLURJdGFza1daU3JkdHhEX1R6MFNXYU5xQ0F6Q1hzYVYtU1NvUjNrRzlxWGhRTVdSMHJ6SUZLU2dqZ0tscHhHenZnMXdGWTVXeUdFR2hFYnFrTlgxR21Zdmh5UUxR",
     "CBMi8gFBVV95cUxOOGx5M1gyWUItWC0zeVBYdk5DQmpibmoxU3hlYUZrY05xUlAzamE0N2g4WHZNTjB6aDlQeV9wb0hqbm5kUmZEMFNBdzVUYWpEd01lNGhoVndPaktvaWlYR1l5aVhxV1lOSWM0NEdqRVVUaGJsUnBZa0tOaEEtOUdiNWVpeDRNd0V3LUEzaUp1WmpPVDlZMzUwRnhuMUFzXzF5dU1leG5VNGtQb2RkMFVrQVFfeTBSSmN4Z3V4RDdOVW0wNzVuekN4WU5TVHdlb0VIU3VCcndSNG8xZWUxLXZmUUhRR0czNW1JLTMxdy1OWXJJUQ",
-    "CBMiV0FVX3lxTFBxTjhSNGwtRWxJdFRLcG1XbnRGNjUyUW4teVRkalZTaV9hSmh5Q05VWkRod05uYmdFdFQ2SUFiRkJUOTdNUHZ4OUxYamZ4VzNld0JRUVFaWQ"
+    "CBMiV0FVX3lxTFBxTjhSNGwtRWxJdFRLcG1XbnRGNjUyUW4teVRkalZTaV9hSmh5Q05VWkRod05uYmdFdFQ2SUFiRkJUOTdNUHZ4OUxYamZ4VzNld0JRUVFaWQ",
+    "2088826283577012694",
+    "2088826833789763781"
   ],
   "daily": {
     "d": "2026-08-16",
