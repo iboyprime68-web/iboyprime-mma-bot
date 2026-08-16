@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502216",
     "https://www.mmafighting.com/?p=502278",
     "https://www.mmafighting.com/?p=502342",
     "https://www.mmafighting.com/?p=502371",
@@ -886,6 +885,7 @@
     "https://www.mmamania.com/?p=465163",
     "https://www.mmamania.com/?p=465250",
     "https://www.mmamania.com/?p=465257",
+    "https://www.mmamania.com/?p=465264",
     "https://www.mmamania.com/?p=465310",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Dana White gives his immediate reaction to Islam Makhachev's win over Ian Machado Garry at #UFC330: \"I felt like tonight was set up for the upset. I…",
-      "ts": "2026-08-16T05:27:23+00:00"
-    },
     {
       "t": "We learned tonight that Islam Makhachev’s next potential title defenses could be extremely tough tests. There’s no question the size difference at 17…",
       "ts": "2026-08-16T05:30:47+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "Islam Makhachev MADE HISTORY in UFC",
       "ts": "2026-08-16T06:06:32+00:00"
+    },
+    {
+      "t": "\"No more Anderson Silva. Islam Makhachev's record. I like this.\" Islam Makhachev revels in breaking new ground in the history books at #UFC330.",
+      "ts": "2026-08-16T06:01:43+00:00"
     }
   ],
   "digest_items": [
@@ -2110,10 +2110,9 @@
   "digest_last": "2026-08-15 21:30",
   "hour": [
     "2026-08-16T06",
-    6
+    7
   ],
   "yt_eval": [
-    "CBMivgFBVV95cUxPOVUtUDM1ZEZMSlc2dkxjTTQ3OHY1NWVSdndVYmY1TnBJUUY2Yks5SF80QmZxLXpMUHdVMTZidHRPVW5HZmpXN1NyREhkMktLQjU4VUhJM20tVmpobHZhUjFsU0doOHIzZEZxN1pfYzhFSGRRSEZja0FERlRPTldCZkhUeUlCcGpaaFRpZDV5Szc1Ulc1WWd4ZkdVVW0zdjEzQXB0NW8yblo3clBKcG0yMUdSU0RaTWphSjFlMGdn",
     "CBMiswFBVV95cUxNOHlPYmthT29OejhUYzZsOFU0QVAzQU1FN3dZUDB4Zm9CU1pRSE9OTXJtS0MxVzY4c1gtNEhfUzFCT01kRGQzM1lDNWg0UFNkTkhmSk9lWmFlb1hma08xNDBJUFJ2MHR2NFB0aDNlSk9BUmx6b3lJcExqVTgwS2JjTFRlaklCbURyaldFQ1ZlQ3hPVXg1VVZ0eS1FaS14VmtjODdsNkQxcHBtbTFrTGc1R0plQQ",
     "CBMitgFBVV95cUxPM2EyU1VhQkpma0VtYzFXWndtYk5vdnh0dmpXREpTX242Nk94ak9fMTlpeUlxdFA1RkNDMldNLTBZU1BzYU5GcHJackJ6cXlDNFlwYmhQN3BzZVd2Ymw5ME9yQkRhM0dDaDN2MFJDQUlEOGxMYVZOcHU5Y1hERGpCa3lyOHFNSW5NRFQ1X1Z4OHVYSE1PRFZibkZVT2V1MlBPejRpN2pLS2FSNUlrWHdGMWg2WWpEQQ",
     "CBMiigFBVV95cUxPZHFROXU5SzY1WlVnNEdXZEU5enJyNVk5dWNxZUxTUjJ4SHF2X1Vfd1RIVjhSeWpjX0J1X19TMDBvQmxVa2dfdWtIeEpSV08weUdiMFBLSHYyUW9pOE1maTVnbkxkYl9Sck9pdDVxWm1nS2xRdkpnLWJTZWJxVmhVaGFsX2t6OTRfUkE",
@@ -3312,7 +3311,8 @@
     "CBMihwFBVV95cUxPUm5OMXNXQjBuZTlwcE5tU0UyLUw0N2VVdWRZUnBRc0hJVXBfM1RvVG51dzFpOWFNM1ZyejVlbDV0MDJMWlE4aTRidmN2QWdEU1dUQnRKYjFXNDltcFZaODNMdDlfY19MR0hMOF9odUlzUVlxczItLUtXREg4anRuYXVoYkRnRlU",
     "CBMiuwFBVV95cUxQMVdSdzk0U3dvT3YzTmZHY0NyUHE4WGV1a2k0S0xYRENCSFN4djc4aldpa1ViVjRyNU5RdlFUaUxkdHF5LXZLYjRZaGdrZDhubTVFWU9Qb0QtdHdRdHBHRktUa3dDeVRZWHQxV2t1aFhxRkY1MjkzaGplWGY0Um45UTBoVm9qaWdmN0czcENKUFBXdHVMeWtFZHZoc3R3SUI5OWhkNE1XZ0FqX0RkZUE4WGk0UnlSY1hrTllJ",
     "CBMihwFBVV95cUxPZmNpTnlLX2tDVjZVbWZ2NlV4UjQ1S3l6Q1FHU1VBdktmYjVVM3JkNV9Ia3lGZmRuSFdYU2hQV2FvUlBRaFZPOG9ZWVlhQ0FIT2V6UDZIMkhWQlo0WW9VX3IzdHJyc2FfSW5GVUNpR0ViOHM0TlV1UmFYdHE3Mml1LWpzRHRsMkk",
-    "CBMiekFVX3lxTE44UEhucU5CME82cjhUanp3ZEEwREJNSUgxOTNWeDdMaEgxOUNOT3lkS3dIbTliaWdkRWZ5OHF2a1RXdUZlS2QwaEwzN0tELXBpNk9VMElRd2V1M0RTVkptTEtMOVFfSXIyMFFYRkt4UUpTMnZWaXVyNl9B"
+    "CBMiekFVX3lxTE44UEhucU5CME82cjhUanp3ZEEwREJNSUgxOTNWeDdMaEgxOUNOT3lkS3dIbTliaWdkRWZ5OHF2a1RXdUZlS2QwaEwzN0tELXBpNk9VMElRd2V1M0RTVkptTEtMOVFfSXIyMFFYRkt4UUpTMnZWaXVyNl9B",
+    "2088868789722943743"
   ],
   "daily": {
     "d": "2026-08-16",
