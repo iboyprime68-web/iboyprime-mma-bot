@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502640",
     "https://www.mmafighting.com/?p=502644",
     "https://www.mmafighting.com/?p=502669",
     "https://www.mmafighting.com/?p=502672",
@@ -145,6 +144,7 @@
     "https://www.mmafighting.com/?p=505329",
     "https://www.mmafighting.com/?p=505337",
     "https://www.mmafighting.com/?p=505343",
+    "https://www.mmafighting.com/?p=505345",
     "https://www.mmafighting.com/?p=505349",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmafighting.com/?post_type=vm_stream&p=505026",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Mackenzie Dern doesn’t feel she needs to beat Zhang Weili to cement championship status after UFC 330 https://www.mmafighting.com/ufc/505309/mackenzi…",
-      "ts": "2026-08-16T16:04:53+00:00"
-    },
-    {
       "t": "Felt good to be back! UFC 330 post fight show. Much was discussed. Much more tomorrow (back to our regular schedule 🥳) https://youtu.be/Utl6EvkuCzQ?i…",
       "ts": "2026-08-16T16:12:55+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Bengals vs. Eagles Live Stream of National Football League",
       "ts": "2026-08-16T18:00:24+00:00"
+    },
+    {
+      "t": "Din Thomas retires from cornering fighters after Gillian Robertson’s disappointing loss at UFC 330",
+      "ts": "2026-08-16T16:19:14+00:00"
     }
   ],
   "digest_items": [
@@ -2110,10 +2110,9 @@
   "digest_last": "2026-08-15 21:30",
   "hour": [
     "2026-08-16T19",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMihAFBVV95cUxNNVRiT0ZfY2FfUlhlMHFrdUswSzdvZzR1YV91ckNqRlNQRWo4Q3NjS191NzJSVml3TE94U2gybUlHRXc1cjJ5eFV2RmJtQkdfX2RSNWgxWFROWDczY1JQRDAwR1VqaE0wQVpkb2RrUjREODE2Q3VKRXVNMWhlM2UzYi1vZ2rSAYoBQVVfeXFMTXhGYlB1d1FtMlRJa3E1cjdycUxKcENSaE40VVhDbXdIeU9fWFBJaUFBS0FZQ3FLQi1qVnhlbkZVWDNIOTBpM2o1b0h3NzExU0RIa3c3bWVhRzFBdVUtaUZqQmtySzAxUTkydDJqUHhlMkdQUWUya1BxWnZ3eEFza1BVcVZaaTNKTWFn",
     "CBMiuwFBVV95cUxNMGM4NHpjdGFmTjRLQWdMaEMySWZKZ1NoYllITUxIZ1gtSk5iUFZrLVlRY3RvamdRTS1NR0lONTlqZEdJZzBFQjZpSmx2VHRjeHNzNHN6Q0g1OU1mU3N1QXpLT052d2F5MG9ud21vbVZaa05CMXV1S3JzZmJGbHpHZlJkMFJEVlhWeVdFQ2hzc0FPQkpWa01mTnNzS0JFVGpKYWtZcDdnRy1BbUVwcmNtb2kzZ0tGbXlzTnM0",
     "167a91ce-b404-3f21-8c00-1069ffdea94c",
     "CBMiwgFBVV95cUxQd3pOTGZFREVlLWtjd0cyNmw2a0NQYUliX0d5OHUzWDA4eGR4WW5KWDJhU3Q5RnUwcHdLZldRNzl6MFZDZjljbkItUzFLNWp3eUhfWUlkSjcyTEtwdGdfRzQ0Y1l1ZjBUMGxKVE9kUTRvcVJLSnhxVWVJZkZaRDhsZmk0Y0dYNmp5bGdoRWhTZzFleEdSVTk2eDAtdmQ5OEVsdXlicDd6eWpJZ2stVVpGZzBnVk9BTzdCaTV4SUNLU2dlQQ",
@@ -3312,7 +3311,8 @@
     "CBMiW0FVX3lxTE0wT0lTNWdxRFBOX1hzcHNuWXJBcnZIcTRNeUlOVlJuYTdpQjZRQmszdU4zUG9VN1ppNTNVOGIzQUs3WDI5V05ndWVnT3p3dENyM2xpbFJqbF9DeHM",
     "CBMi3gFBVV95cUxOUEwybFZwZWN5WFpkLTBPQlhCZWtXQ3dZa3RVYjdoN1Q0Tjg2NEttUUhHblF2RWVrdGE2WWhsMU9Bc0drTmpQazJkTHBBNlRtTjFFelVSUnljMHNiaWgyTkoyT3dMQTg5SE5zTF9yYkJZV0ZsWXRSZ1N1QXdCRzVFdUszUGc0WkJNRl9hcW9MZkJuVldzYjVGNFNvVmR4V25WN3hWRW5qNzZlQ2NQdF8zZkJaZHNORDh2TkxmUFJ6cER0LUxiRmRJRDc1YVZyUXh0aTJnc3dlbXVEa0hQaUE",
     "CBMihAFBVV95cUxQbFNfQVlKLTh2VnM5elZ5TlZKNXFsT1FNbFJ1enZMbmRPOWd6amp2UnBhV1dMTW5BTUVPNFlvUS1iS3ZRWmUtQ2lwZW1Qbmx2dURNZHoxZ3VSaUg0MVg4OXNzZXE2MVJmaG10OVZidUlTNlNlQ185Qy1FNWJOVm5PUnVYZnI",
-    "CBMiswFBVV95cUxOa1RKWTl5WnIwNXdpcC1MU29vZ1Z6RmdiSEdHZV94amN2c3JJcVJ5UzdMNGNjUkM5TXNzQm4tYW91ZUR6ZnFqb1VtYl84UVI1b0JxQWpDX1ZJRmpLeXpvUzhiYWVMMnJrV3d6SnZPN3FLWjEwYjhZZS1EVUY1d01iUElWZEpiRV9XQ3lZTi1fV0Jabk5IbEhFcG5rSFNRdVlKYlJnU1ZvbnJMVkdkcHcwREs5UQ"
+    "CBMiswFBVV95cUxOa1RKWTl5WnIwNXdpcC1MU29vZ1Z6RmdiSEdHZV94amN2c3JJcVJ5UzdMNGNjUkM5TXNzQm4tYW91ZUR6ZnFqb1VtYl84UVI1b0JxQWpDX1ZJRmpLeXpvUzhiYWVMMnJrV3d6SnZPN3FLWjEwYjhZZS1EVUY1d01iUElWZEpiRV9XQ3lZTi1fV0Jabk5IbEhFcG5rSFNRdVlKYlJnU1ZvbnJMVkdkcHcwREs5UQ",
+    "https://www.mmafighting.com/?p=505345"
   ],
   "daily": {
     "d": "2026-08-16",
