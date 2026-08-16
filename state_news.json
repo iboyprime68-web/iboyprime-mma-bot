@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Ian Machado Garry lectures Michael Morales backstage at UFC 330: ‘The shit you talk… make sure you back it up’ https://www.mmafighting.com/ufc/505325…",
-      "ts": "2026-08-16T13:01:01+00:00"
-    },
-    {
-      "t": "Islam Makhachev suggests Carlos Prates and Michael Morales fight over who fights him next: \"Let them fight. Why are they not fighting on this card to…",
-      "ts": "2026-08-16T13:45:00+00:00"
-    },
-    {
       "t": "Mackenzie Dern feels vindicated with #UFC330 win – but sees room for improvement https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc-330-m…",
       "ts": "2026-08-16T13:50:55+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Namo Fazil vs Kaik Brito Preview | DWCS Season 10, Week 2",
       "ts": "2026-08-16T19:51:58+00:00"
+    },
+    {
+      "t": "Dana White questions if Islam Makhachev's new UFC record will ever be broken: \"It's very impressive what he did\"",
+      "ts": "2026-08-16T19:50:35+00:00"
+    },
+    {
+      "t": "Gillian Robertson’s UFC 330 Performance Falls Short of Expectations",
+      "ts": "2026-08-16T19:54:33+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Complete UFC 330 Results & Highlights: Islam Makhachev Sets New UFC Record",
-      "url": "https://sports.yahoo.com/articles/live-ufc-330-makhachev-vs-170000651.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:24:09+00:00"
-    },
-    {
-      "title": "UFC 330 results: Islam Makhachev wins chess match over Ian Machado Garry",
-      "url": "https://sports.yahoo.com/articles/ufc-330-results-islam-makhachev-043231676.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:32:31+00:00"
-    },
     {
       "title": "Islam Makhachev shatters major UFC record with win over Ian Machado Garry in tense title clash",
       "url": "https://sports.yahoo.com/articles/islam-makhachev-shatters-major-ufc-044305545.html",
@@ -2105,6 +2091,20 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-16T19:51:58+00:00"
+    },
+    {
+      "title": "Dana White questions if Islam Makhachev's new UFC record will ever be broken: \"It's very impressive what he did\"",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSU5kZmhMOURqQm5JajlUek9vb3RaTE1DSXNpN2x2MGFGQjFwem1mWS0xd2ZIaGZrVzRwczNyaUJpV3JDZGdOTHo4aTRpQnpvU3doVTEyZG42OUZxSTJhUE01NDNCTFJZV0lLQ0NiMFBlQUNkaDVqS2tXSTBTTjY5bGVGYVlHbFhVSnNXZ1lNQlhzclRxclV5dTJFZEFRQ1pPMnBMZGRVaVlvLTFTLTQ3WjJ6SVVmOHMxa1FUZmVKVENMZnV1WVFjWl9sNm9aQUJBbmJwZFpSMkRMZk5j?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-08-16T19:50:35+00:00"
+    },
+    {
+      "title": "Gillian Robertson’s UFC 330 Performance Falls Short of Expectations",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZEJFMUZPOXJrbDJxWklIemlERUp4c1E0Tnl6dnQ3anpmWUhnakZLa0xyYXZEY3RYVkU4bGMxVERnbjB6N05wNlprVWt4emRfZEk4dDVsdmRYLTNKUVdDNlV5M09tTEV2T1JCSGFXVTlWZkZYRGNyVjF0R2JZYXItVEhpRlBPRkt0MVRCQUQxN09CcHc?oc=5",
+      "source": "mymmanews.com",
+      "cat": "ufc",
+      "ts": "2026-08-16T19:54:33+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,8 +2113,6 @@
     12
   ],
   "yt_eval": [
-    "2088739507835113629",
-    "CBMijAFBVV95cUxOMmEwSlNtVUZSOG15MUFPZ2FRbGhfQ25acVZHWjgxdG9QV2JQdmVhOU5TUEpQdnpzYlU0SVYxWVFwdlpwSzZFWDJaOHBFNGgxdEQ2d0VWeVVkaGllcEZpTDNvczVpTVBGN3FaX09Kd2NiakpNY0NCQXV2YUlzTnByN2xjZkgxbVdfc1A1cg",
     "CBMiywFBVV95cUxPbm5lb3gtaWQ1Sm00ZFVENUhGYVNEelg0ZXloSnpJZmo1eUpncFVibjhZb0M5V0xwVklXMlM1RThLcUtubE1UQ05OdzNmWlJVaGpmNDNnazNnS0E5TzQ4X1pHLXliZHpQdkQ1Qm5vSzNrSXA4LUFRdktXMEZERTlVdnhCRU9FQWxiTVFwbDZZQVFNTUlNYl83ZFlvMUtsM280RjE1VTZKZHdhZV9mSUM2QjlKSUtsVjlJRC1ULVl6bHRwTmFLdDNuOXQ3VQ",
     "2088742857356329072",
     "2088743656203419733",
@@ -3312,7 +3310,9 @@
     "CBMiiwFBVV95cUxPQUlqRUd5SF9NMlZyZEVhOUV5Z2VlUGluSjJxV3o5UGJjdVRQZDg4VUQ1dFY2azhFZXpHT2d4M3hkSFh4aU5DQS16RUFyMVp5cW96YUxScmtfWGlkcE5ob0pkS1QxbmhRWDhqd04wWDdZanp6Qmw1N3NWejN1OVIwQktISVVXWjIzMnA4",
     "https://bloodyelbow.com/?p=327383",
     "CBMiqAFBVV95cUxNdkRNT3FCRE1aNkE2aVVWTFozNXFpZVRkR1lQWlZHQkVTQWhIU2c3dE5ITDJ4VGh2V0stX2xoMU1lLTdVWVRRNjNGSElnWnBDbzAyNnExSG04QzFZRkhSTURFMnA1R0pILXhLd01aZ0h2LURoUlYxUTRXTlkweWpsblpDcUR1VzM1NVY2UnloRk9Dc3dFcVQwMXZ4NXlZcy1JMzZDSGVoWEU",
-    "CBMiR0FVX3lxTE90dGxNMkZuUFlTVlF6cWl4dGhyQXlBdEU0RG1Jd040SFZTdG5DYWJYV1VQYkRNREUzT1hDaG1rYkdPejg1Y1d3"
+    "CBMiR0FVX3lxTE90dGxNMkZuUFlTVlF6cWl4dGhyQXlBdEU0RG1Jd040SFZTdG5DYWJYV1VQYkRNREUzT1hDaG1rYkdPejg1Y1d3",
+    "CBMi3AFBVV95cUxPSU5kZmhMOURqQm5JajlUek9vb3RaTE1DSXNpN2x2MGFGQjFwem1mWS0xd2ZIaGZrVzRwczNyaUJpV3JDZGdOTHo4aTRpQnpvU3doVTEyZG42OUZxSTJhUE01NDNCTFJZV0lLQ0NiMFBlQUNkaDVqS2tXSTBTTjY5bGVGYVlHbFhVSnNXZ1lNQlhzclRxclV5dTJFZEFRQ1pPMnBMZGRVaVlvLTFTLTQ3WjJ6SVVmOHMxa1FUZmVKVENMZnV1WVFjWl9sNm9aQUJBbmJwZFpSMkRMZk5j",
+    "CBMikwFBVV95cUxOZEJFMUZPOXJrbDJxWklIemlERUp4c1E0Tnl6dnQ3anpmWUhnakZLa0xyYXZEY3RYVkU4bGMxVERnbjB6N05wNlprVWt4emRfZEk4dDVsdmRYLTNKUVdDNlV5M09tTEV2T1JCSGFXVTlWZkZYRGNyVjF0R2JZYXItVEhpRlBPRkt0MVRCQUQxN09CcHc"
   ],
   "daily": {
     "d": "2026-08-16",
