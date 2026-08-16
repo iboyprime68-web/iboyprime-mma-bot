@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White criticizes Ian Machado Garry's lack of ‘killer instinct’ after UFC 330 loss to Islam Makhachev",
-      "ts": "2026-08-16T08:37:48+00:00"
-    },
-    {
       "t": "Mackenzie Dern Romps Past Gillian Robertson for Title",
       "ts": "2026-08-16T08:37:51+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dillon Danis is Being Savaged For His Tweet Straight After Islam Makhachev's Win at UFC 330",
       "ts": "2026-08-16T09:55:45+00:00"
+    },
+    {
+      "t": "‘I did great’: Ian Machado Garry immediately takes to social media to defend UFC 330 performance",
+      "ts": "2026-08-16T10:00:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Strong close to the round for the champ!! We go into Round 3! UFC330 LIVE NOW on @ParamountPlus!",
-      "url": "https://nitter.net/ufc/status/2088837905154515298#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T03:58:59+00:00"
-    },
     {
       "title": "Had to see that headkick again 👀 [ UFC330 is LIVE NOW on @ParamountPlus ]",
       "url": "https://nitter.net/ufc/status/2088838118837534858#m",
@@ -2105,15 +2098,21 @@
       "source": "GiveMeSport",
       "cat": "ufc",
       "ts": "2026-08-16T09:55:45+00:00"
+    },
+    {
+      "title": "‘I did great’: Ian Machado Garry immediately takes to social media to defend UFC 330 performance",
+      "url": "https://bloodyelbow.com/2026/08/16/i-did-great-ian-machado-garry-immediately-takes-to-social-media-to-defend-ufc-330-performance/",
+      "source": "Bloody Elbow",
+      "cat": "ufc",
+      "ts": "2026-08-16T10:00:00+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
   "hour": [
-    "2026-08-16T09",
-    13
+    "2026-08-16T10",
+    1
   ],
   "yt_eval": [
-    "CBMizgFBVV95cUxQSm5PNmpYVzl3dFZsVWtmdVlPQVBxZHFQRU1ZWHNCQTNqaEpVNGMzdkdJYmpCTTh6aktxeXRyMzJjbGd4UVVTTTZfdUxHVTdHdkRoUWh5YXh6bHB3MXZMMTF0UWdmejZpMTNIdnVBSUNpR0xLd1FqamItbGlJRWdTLXg1MDhqd1BiQV9FZGI2WkRCVXlIREhjanhiZDJDSUVNUHkwNGhUa3pGeE9BMlFtcTlud3FjOHNWOTdyZFFpZXJkSEVOT0g5cE5jVnBGUQ",
     "CBMiugFBVV95cUxObUo5blNqWGVxZHlYZUpZRldLeGtnc1ZjcGNiUVlQTld5TjJqUjNfamdzcnZjUjVtZ0U4U3lrMVplRUlqbW8weUE0aHJ0TWNKRG5fXzNzakJLOUNPZ0NBZEFoYnczMHpqYmhQdGg1dEo2M3RYWUhEVDZTN3J1aWhEUVJQMUROdkptMi1NaGhESjczMFU4RlZRaFI0a1ZhalFBSmtxTm5lRXhoSGtOQ0ZZeV9oUzFJR3JzMlE",
     "CBMigwFBVV95cUxOemRXNzlNU0dlTHRjZUxWbHp3cWVXZUxIT3BrWmlSc3FnMlJBbHlUNEF2cEtoaS1Gd2xhS3pnMERkVXNQbFEtdnlWUnpVNVhiTnlCdjdYaXF6TFhhMmJvc2dncDJWb0doQndhZWItYWxxSTFmWklVN25zeG9RMXJHZTJnMA",
     "CBMiiwFBVV95cUxQRnVCSUh4MTdZOXRtTHhDVkRSUFlmd2JlVzJQMDRfUlp4UjgyeGFmaXlYQTgxckNHdlgyOXRSRDM4VDl1Vm5Pczk4UUduREh5S05mMVdNOERoTzVmY2NsTFBORWVRSUY4eG9aUE9pNHk4TkhLTkU4enpuX2RmeDFxNXRzQlpSMjAzSlB30gGQAUFVX3lxTE1kVUJ4cW1EcjV6S25lNllFWWg0Y1pGenUtNDhHMlowemlIS3MzUjRyNDVweTFKeHFIQ2xhWjZBTTBtU3BkTnBoVm1hZ21NaEE3c2lSTV9ZOVFnN3E5MEFDTEpSN1Zmc2J2NFVYU2Z1b2hXdDRySVJ3YVdXS2tWX0NVdVY0QUlIZHVra0laRWFHMw",
@@ -3312,7 +3311,8 @@
     "CBMifEFVX3lxTE8wLVlzRzY3elFISzRxT1owcHVUWmdzTTVWZWp6cFRfM095R1pFSXBxTmlHRzk3QUFMUFdTdF8tUTktUU42OXJOYWhwV1ZNY05WTzAzNllDYW5pNkJSdTd4LVVaeGJfbUgzVnM0VTk1bXU4R1BqQmVDTFB1Z2LSAYIBQVVfeXFMTWNrRHFleUhwdnNTalJ0Qkp1amFIbXBZVnY1VmdCVlE3bWE3UXRTTjJOR3A5T21jS1RYaVozbkZYYXhqNFItSEVRbmRYU2FTUlVDc2ZGaGNkeDZ1bkZjUEZMdFVOdDFhdHdxZldkWnRzRjlONV9ya2VWV1J2N1lWb2xQdw",
     "CBMiiAFBVV95cUxQV1NUZDQtU3A0SWZ2M0tXakw4MjluaEE2Mm1HMmczYWtRdnZvLUpuYzNZcDVVUFVsMzFSa2FMTjlTV3I2UG9jQi1oeWhjR2oyX0drS1ZvNm82V0R0Ui1tMzQ4UHA0QVNjUDRRUDh2RnVDUVVaRUtJa2xBb3A0VUFIZHNsclMyRGhR",
     "CBMiW0FVX3lxTE5yWTMtcTh2UTJjU3k4eVJmbVZ3Zi0wYk5teURFb0JYcW1EYTMzUnZPQmxySTA5NWp5OGNfdVJxeGFyczM2dnJBTzlyTUhhLV83QU5IdEdyd0l6QXM",
-    "CBMiowFBVV95cUxNY1dKaXcxOGpfRTY3N2IycXp0MzBieVpOeTdrRTBLeEVtaTNrUC1YN01MSGVtZ2dpWDFXbGVXNzFqbjRTbnNuN2ZGdjZLMVlGb3FnR0d5VlFoOHhTMWYyMHppMUI4MzF5ZWdSZThCd3M5QTI0S3lYNmREbENHUUxLOVNzUGRhSXVqVk52a2QyTzdMX1VhWFVZU1RKNjdidmM3WnB3"
+    "CBMiowFBVV95cUxNY1dKaXcxOGpfRTY3N2IycXp0MzBieVpOeTdrRTBLeEVtaTNrUC1YN01MSGVtZ2dpWDFXbGVXNzFqbjRTbnNuN2ZGdjZLMVlGb3FnR0d5VlFoOHhTMWYyMHppMUI4MzF5ZWdSZThCd3M5QTI0S3lYNmREbENHUUxLOVNzUGRhSXVqVk52a2QyTzdMX1VhWFVZU1RKNjdidmM3WnB3",
+    "https://bloodyelbow.com/?p=327182"
   ],
   "daily": {
     "d": "2026-08-16",
