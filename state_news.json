@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502169",
     "https://www.mmafighting.com/?p=502172",
     "https://www.mmafighting.com/?p=502188",
     "https://www.mmafighting.com/?p=502197",
@@ -1150,6 +1149,7 @@
     "https://www.sherdog.com/news/news/UFC-329-loses-upandcoming-prospect-due-to-injury-201690",
     "https://www.sherdog.com/news/news/UFC-330-Makhachev-vs-Garry-playbyplay-results-round-scoring-202361",
     "https://www.sherdog.com/news/news/UFC-330-Update-Streaking-welterweight-added-to-Philadelphia-card-201620",
+    "https://www.sherdog.com/news/news/UFC-330-bonuses-Charles-Johnson-3-standouts-pocket-36100K-bonus-202363",
     "https://www.sherdog.com/news/news/UFC-330-full-fight-card-grows-with-major-welterweight-strawweight-bouts-201724",
     "https://www.sherdog.com/news/news/UFC-330-gets-matchup-of-ranked-flyweights-201565",
     "https://www.sherdog.com/news/news/UFC-330-results-Islam-Makhachev-defeats-Ian-Garry-breaks-UFC-record-202362",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "LIVE! Watch UFC 330 Post-Fight Presser | Islam Vs. Garry",
-      "ts": "2026-08-16T03:05:00+00:00"
-    },
     {
       "t": "UFC 330 results: Mackenzie Dern outclasses Gillian Robertson in low-action affair",
       "ts": "2026-08-16T03:32:41+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White on Barboza Retirement, Calls Bella Mir \"Freak of Nature\"",
       "ts": "2026-08-16T05:28:40+00:00"
+    },
+    {
+      "t": "UFC 330 bonuses: Charles Johnson, 3 standouts pocket &#36;100K bonus",
+      "ts": "2026-08-15T23:57:10+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Teeth knocked out after flying knee!",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV2h2X1E3dHVmbkhCdzhJZDNVbVNkRDhIX296OWo1dnlIWnktSTR6V3podkRyN0huSEJnemQ2bXFrYWJtUVJYVzlzR3UzVHBRRTZONTlYd1pxbDJpaE5nSnl0WndhZ0tmOVFuaDRwQnBoQXVZc2RreWlPM2QwajhmR3NGTGcxdVhLaGpjMWtIZUdWUk42MG5iR2NFbUJ5VFdzWjZRdkgzZjYzTDVS?oc=5",
-      "source": "codesports.com.au",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:28:30+00:00"
-    },
     {
       "title": "Jalin Turner secures 38 second KO!",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNG1hZDBCN3I0R19ISDM3OTF1MjJoOHJra3JVcGs0R1hTZU1na2NseXl1RVZfV0pZMGttU0N6dTNRNUhITzUxRkFJakU2V0VaWkJDdktZUTgwbUpDbW5pYnpvWEFNdXdBZUphMkJ1UnBfUzFwd2JTOEVEdGtvUktWVml1czN5eVNhTnlPd19qRWdxWGgzR3o2SnZNVG1nZXNPdmNMT1pFWkMxZw?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-16T05:26:15+00:00"
+    },
+    {
+      "title": "UFC 330 bonuses: Charles Johnson, 3 standouts pocket &36;100K bonus",
+      "url": "https://www.sherdog.com/news/news/UFC-330-bonuses-Charles-Johnson-3-standouts-pocket-36100K-bonus-202363",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-15T23:57:10+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     12
   ],
   "yt_eval": [
-    "CBMihwFBVV95cUxNei10cWtfdWxtRmhfSFpIaHZkWElTR1FsbWYtWlhjWWFOZEFYVmVkSUJTMVl5WEJ2QmlrZkczM293Nmd6OUxRejlFY2hUNDBidHZZMnVmRTFRUFR4RUxjbTJTelIwLWZmRURaNThQRE9HNXZQTmdSWDZrMkhRbklSeklQN1p2dmM",
     "CBMiugFBVV95cUxOZTluYXN4ZkRfZVAtVHlJMGFZNTh4MXoyRkExNHZPcjVISXEwa0M4eXNiQ0FWSlFtUXh0aFhwQVVmSjlZZV9xSmszbGhHSmZOd1pPb09oYWloYlU0cTZxejBYaU9oQ1dWdUs4VUFLVWtBU3M1SGVMMWxIdE4taTI3QW96eG1FaEZudDNFaEc2bzE3TEw4NWdCWHJyMVdBUnVRNW9nWjdLSW5nSUxoR3JpTVdsUEdlTW5rQ3c",
     "CBMif0FVX3lxTE5HelgxekkweHFITDRzb0ZhSEk3S2NmR2lMaEhMdGQ2ajFfMm9rR3hKcVZkbE5mTlNqbFFMNkxNaFZhbjFsQUs4bW1NbkdHODZYbUt1SE8yekJaWUxJaW44MDduLWxDck1PMHAxMVZER2NWbjZjRS1NZU13WE4xN28",
     "https://bloodyelbow.com/?p=326762",
@@ -3312,7 +3311,8 @@
     "CBMiggJBVV95cUxNdlJHSVhpM1RLZndwS0RiLThDMDlFY2xiSmIwa1RmU3FmSzVyX2J3VmFRS3pEbl9iZU5LWU1GQkZYRWJEMDZMLVBJVHI3T1lfZTZwa0pTRkdpRDVyWnI1bDVQWmg4R0hDZkxRbXZwZl9wYUJoS05BYUVkOGo0VVJLVnZhZC1rRE1LdmhXd3dyYlB0OXp1RXNtTkV4aVJERUJTN2Izb181T05MT2FhTndPT2FOSTFEX1RvSzJRX2ljZ3hiNFZRSzkydF9FWTJFTnNYalk0aXFXaDluWFBMcEJtM3plcC1pY0JMTzFIR0ltTVJOMnYybW1KNjBuM3pJY2lwVHc",
     "CBMidkFVX3lxTFBLWldneVdRV1JuOXRzN3Y4VlZrQ0FydDVfS2FGdHIxX2tsd0lHbkpxZE9hR2ZYaGF1UUEzUk1ESElReVJyV3dwelZrQmprN0RsWERGQmhLUUw2V0g3WWdZWXNKbEJaaF9pLVF0ZnJaSnU1TjBWSGc",
     "CBMiiwFBVV95cUxPNHlPX0lZN2F0WGN3X0hKOF9ybkZZZG5RSERldWdzVVJlbG9jQ2V2eDVrQUJhQ0luMDJfUURzMWdTR2F6UkxaNlZqMlBMZ0dob2lvM1Y4WmdsVlNjTTU0blVFbDh5akM4Y3BIY2F3RWNPbHBzMUVXMjd2RU03emRaamNzVDBUUXVmaUc4",
-    "CBMimAFBVV95cUxNR1FqZnZVbkJiRzBDSDBPbE13cWpOUjd4YnRLODg4Z0p0NWpGcHZIVG43R2dydFdaLVVHdFMzaUFHUkdUUWJfX19EdXpXckdqMjFyM3Zrb0ZKYm9yUy0zaUp5R3l5WEtTZVRSaER6X3ZxdUR2M0hJU1JlcXU4bUNWYU93YWVTZThvQXVDbHpLUWt6Tm8wQ1NsRg"
+    "CBMimAFBVV95cUxNR1FqZnZVbkJiRzBDSDBPbE13cWpOUjd4YnRLODg4Z0p0NWpGcHZIVG43R2dydFdaLVVHdFMzaUFHUkdUUWJfX19EdXpXckdqMjFyM3Zrb0ZKYm9yUy0zaUp5R3l5WEtTZVRSaER6X3ZxdUR2M0hJU1JlcXU4bUNWYU93YWVTZThvQXVDbHpLUWt6Tm8wQ1NsRg",
+    "https://www.sherdog.com/news/news/UFC-330-bonuses-Charles-Johnson-3-standouts-pocket-36100K-bonus-202363"
   ],
   "daily": {
     "d": "2026-08-16",
