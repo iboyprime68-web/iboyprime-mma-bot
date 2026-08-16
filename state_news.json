@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": ".@MikeHeck_JR and @AlexanderKLee are LIVE for some #UFC330 matchmaking for Islam Makhachev, Ian Machado Garry, Mackenzie Dern, and more! https://x.co…",
-      "ts": "2026-08-16T15:00:30+00:00"
-    },
-    {
       "t": "Pinned: youtube.com/live/56FJcmC7wXQ",
       "ts": "2026-08-16T15:00:43+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Inside Islam Makhachev's Brutal Mountain Training Camp For Ian Garry | UFC 330 Roberto Cingolani (kmWWsiDnRk)",
       "ts": "2026-08-16T17:35:12+00:00"
+    },
+    {
+      "t": "Islam Makhachev Beats Machado Garry, Breaks UFC Record With Historic 17th Straight Win",
+      "ts": "2026-08-16T18:10:41+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC News: Islam Makhachev makes history defending his title against Ian Machado Garry at UFC 330",
-      "url": "https://sports.yahoo.com/articles/ufc-news-islam-makhachev-makes-045351778.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:53:51+00:00"
-    },
     {
       "title": "UFC 330 Bonuses! Jalin Turner’s 39-Second KO Collects $100K Award",
       "url": "https://sports.yahoo.com/articles/ufc-330-bonuses-jalin-turner-050857156.html",
@@ -2105,6 +2098,13 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-16T17:35:12+00:00"
+    },
+    {
+      "title": "Islam Makhachev Beats Machado Garry, Breaks UFC Record With Historic 17th Straight Win",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdlZ1cVNESFNzNzQzMUNUajdtQWVwd2taUFh2RHZBbThCVzY5MkJnZ3ZEN01HenI0Zm9oZkh2V3R0azI1OWpzTDlmUGljX05Kb3RBUTducm52QWJsMTVyUW93TWlUbVp1RTdOTFZ2RzZzVVJjdmI3d3I2WG91dzBQZ2ZxM3RyanR4cGNWVHFkR01jbW95cjNnZnR5Q2RORTBLdnBGWDllWXZqZEQ3QVJrNGU1V1dfaWlOS1dWUW9RMXhiWXlMbEtBbm5PVjJDeXIxNXpockZRbFJKYlHSAeABQVVfeXFMT3ZaVVYxMTNERV9sOUdScy1ucEU5akg1R0p4dXF2RXhhUVpVVEozTWc2Y29DeEl1XzFyRkRQYVMzSDMwMWNmTVlqT1JGQkVCaGwzakhaZUo2WERoQ3Jfa0thUFdna1hJRVNZaC1VdFhaaVZLdTd3UXNPclo4MzZ3VWMzWFVBS2ZJVXF2aFdOUjZTOVp2TEpjVU1ZTnJkZzJMeUIwTS11ZHNTdTN0cnhQNTBueXQtei1ncm1mcXVMUkFISkcwWmZ2NVY1ZHNlM0t4V0lJY2t0ZXI4clB3Nkh0SE4?oc=5",
+      "source": "Times Now",
+      "cat": "ufc",
+      "ts": "2026-08-16T18:10:41+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMipAFBVV95cUxPUDdYdmRSQUtORDBBMHJLUDFic2g5Q0hVTnBfdWtlMnFvbEZqZnllSElOcFpZQnZQUzlDZ3hadEQ0d0w0WXZuZTJCRWFaOVdtWFVIWEFGaURVNU1YZ0QzN0NEbi1ZMWt5WElzM3dzellmejFXTXJzZHh3WGFscncyLXJ2S0RuUHRJMHVrcTUzZ3U1cUFMYmFkU29IYzdrSlRUTFdzdA",
     "CBMiugFBVV95cUxQRGJpOGhCVFJzV3NuNm9Wczc5b2tVcFdVenFObnRNZVRiTGIxb09va0t1Y2cwWm9fejBtSmdKZUpfaXAtcXJZNnR3cXFlSjFZX2tlcXZYNjlESGNtWGM0R1FQZm5oMHBoVGd4bjg1c3JxUlU4akhtY2Vha0NjZHJZWFFCdGdHS1U3cjdlY3EtR2dQQUxtX2VwWFNxd3VyWVl5eFFFbE9uQWc2NWtyS1VUSVc0OER2eHVHcHc",
     "CBMiowFBVV95cUxNYmlfWEdBOHY1S2FNOS1Gb3BaSTVFYmdIMDJBRDYzdUhWTnA1c2psMEQzNnBvZHFYZ2xOY1JGeXNid0xUV1JoSWUzdzhGcjFJSmZaUWNNLTRPbzdteGJaRzNuZ1pyeDMzQ0oxUEEtQ1NqQWdrMEEtczFyWTZ6dmxiZnlsdWV3Sl9LR1J1X3dYMU1wOGJybXFLQXpxdG5MT0JvV184",
     "CBMiaEFVX3lxTE8wUDQwZWxITHdPSExCWE9zYnpSdUxld2pTeW84X014bWJrMUh5Mm9wdmlWQlFieW8yVGlOX25LYU94SEJtRUpzSW5ianozZzU0WVc2cG1FLVRzakxqSVlsODdLNFY5SzZR",
@@ -3312,7 +3311,8 @@
     "CBMiugFBVV95cUxNRENfdk1pLVI1azQyM1o3dHdKZWFwNUhVWjZRLVBGUDFITDdjTVNReUo3aTdsWDRScG1USVkwX2NseFNtbTJtVF82bll6M1ZhTGJxZ2xGeUpLc0pQVV9wMlJPeUI3a2pwM09qSjZLZlBVTFp2am9oc191Z3NwVnRKODZjT3FJcG5iOUZyLXJMZXhGenRKZ0hTb2pYcC11c04xcXVHcGszM0VJVWIxcVlKQmNILTBrLU1fT1E",
     "2089049802487267540",
     "CBMiW0FVX3lxTE94VlN5OUZCaUZST0dKbTZhMDFVOEJHeW9lUEE3ZnYwMC1mNncxdklDWTdPbkQ1S1Z0dGFuSHFWWmxoQjJiSW9qYnlCdzNpQ2V5NXhpdDlnZURhREU",
-    "CBMiW0FVX3lxTFBWSmwzTHRBR0VDMkJOeHNJOHpKM29ILURySjF3UnBMMXFWWHNpMHVUZnJaVDg2ZEc1WXRxNFJhLXk1WGI2cFMwMXRsSVNmTkNMSTJ5bTdQaFZ3eUk"
+    "CBMiW0FVX3lxTFBWSmwzTHRBR0VDMkJOeHNJOHpKM29ILURySjF3UnBMMXFWWHNpMHVUZnJaVDg2ZEc1WXRxNFJhLXk1WGI2cFMwMXRsSVNmTkNMSTJ5bTdQaFZ3eUk",
+    "CBMi2wFBVV95cUxQdlZ1cVNESFNzNzQzMUNUajdtQWVwd2taUFh2RHZBbThCVzY5MkJnZ3ZEN01HenI0Zm9oZkh2V3R0azI1OWpzTDlmUGljX05Kb3RBUTducm52QWJsMTVyUW93TWlUbVp1RTdOTFZ2RzZzVVJjdmI3d3I2WG91dzBQZ2ZxM3RyanR4cGNWVHFkR01jbW95cjNnZnR5Q2RORTBLdnBGWDllWXZqZEQ3QVJrNGU1V1dfaWlOS1dWUW9RMXhiWXlMbEtBbm5PVjJDeXIxNXpockZRbFJKYlHSAeABQVVfeXFMT3ZaVVYxMTNERV9sOUdScy1ucEU5akg1R0p4dXF2RXhhUVpVVEozTWc2Y29DeEl1XzFyRkRQYVMzSDMwMWNmTVlqT1JGQkVCaGwzakhaZUo2WERoQ3Jfa0thUFdna1hJRVNZaC1VdFhaaVZLdTd3UXNPclo4MzZ3VWMzWFVBS2ZJVXF2aFdOUjZTOVp2TEpjVU1ZTnJkZzJMeUIwTS11ZHNTdTN0cnhQNTBueXQtei1ncm1mcXVMUkFISkcwWmZ2NVY1ZHNlM0t4V0lJY2t0ZXI4clB3Nkh0SE4"
   ],
   "daily": {
     "d": "2026-08-16",
