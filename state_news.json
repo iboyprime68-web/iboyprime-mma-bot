@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Fight is over. Distance. Islam will get the nod. 3-2. Live reaction coming up. https://www.youtube.com/watch?v=qjrdjIDr7ug",
-      "ts": "2026-08-16T04:17:25+00:00"
-    },
-    {
       "t": "Respect after five rounds 🤝 #UFC330",
       "ts": "2026-08-16T04:18:11+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Islam Makhachev is all smiles after breaking Anderson Silva's consecutive wins record at #UFC330: \"It's not more Anderson Silva. It's Islam Makhachev…",
       "ts": "2026-08-16T06:24:24+00:00"
+    },
+    {
+      "t": "Islam Makhachev defeats Ian Machado Garry with record 17th straight win at UFC 330",
+      "ts": "2026-08-16T08:17:49+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Makhachev defeated Harry Machado and set a UFC record for consecutive wins",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcFJ2VlpkTG4zODk3UkY5cjIxcm5jX3JkSDVUNERNZGJteExSUVd2anVGOVFjbWp3ZG8tWUxGcnpVSGtYOTQxYnNyTEZjSE5SaWNVdVpRMEtyZE4zLUw0ZTFOUWZac1hDZExYVmZBZGR5SVVFTVpZTjY1YTBaN1NDX2YxNUptZ2NEX2twUXYzYlRqUHhyTWxCa3RRV0FpNU9abGc?oc=5",
-      "source": "UA.NEWS",
-      "cat": "ufc",
-      "ts": "2026-08-16T07:50:54+00:00"
-    },
     {
       "title": "Neil Magny just joined Charles Oliveira in rare UFC company",
       "url": "https://www.sherdog.com/news/news/Neil-Magny-just-joined-Charles-Oliveira-in-rare-UFC-company-202375",
@@ -2105,6 +2098,13 @@
       "source": "MMA Fighting on X",
       "cat": "ufc",
       "ts": "2026-08-16T06:21:20+00:00"
+    },
+    {
+      "title": "Islam Makhachev defeats Ian Machado Garry with record 17th straight win at UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONmg0SUtLWVo4QUZmN0d6c2xsM3g4SUFkdjctaEdzdmFTQ3d3Q2owZEM4Wk9CMm1icmxMazlCMGFoeWFfa3FvQTVPV1llelplbVZadVhOcEdnU0ZFRmtUNWhSVUc5MnBXWEprR1JxcW8ybjNuMlUtRllhRlc2NFV3eEpqSW1XeHF3UklDcXB3YXpyMS1LNy1Qa0laTzRZVmFxMVNzNkJuTnU?oc=5",
+      "source": "BreakingNews.ie",
+      "cat": "ufc",
+      "ts": "2026-08-16T08:17:49+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     13
   ],
   "yt_eval": [
-    "CBMi1gFBVV95cUxNZE9CeVlPN1VsNW1vZXJKWnJpVEJwVjF6RkNWZFQ2Wi1zNTFpTkd1bl84cmhkWDg2X3dSczBoQTF4VDM2Q1RKMHpWZEFVMF9rcDVEMF8zQzNadnpCb2FMbTlBS0hId1l3cWtkNWFfcUF6endrc3FfV0ZSWlBqRTVPOTVzQnZPWUYxcXI4Yi00MjVTNDBzTXZQRmNVSUpYLUNfS3JoQWw4SXhVWHdxZ3ZTZDRlVXNXeEhIOVRyZW14T2pQSVJYZ3Bsa0FScXpQQXVseDc0d0RR",
     "CBMiogFBVV95cUxOclc0TTdEVV9Ba01ERy1GUEhoNjFFMWkteFpZbXpBbVBMUVNLSTBiZWNlMjJEZnhNUWRtd2psX3dqRXJPRV80SGUtN3YzZFhUdS1xRU5EWk1USGMwZnlJdzBwUHgyWm9EQUNUZzY2M1N2OTJQb0JoSlVwOEtHQnhuZUk4WldZci0teU9Fd2UtOTgzMXNvOGlPVnZDaXh0QkN4Ync",
     "https://bloodyelbow.com/?p=326777",
     "CBMiwgFBVV95cUxNWG80UWZmSnV5czVhVlFUNExvMmVkSGVJZVNuekNYVFMyd3IwOUZaMV9WTG5vTE9Nb2prdVFSQWNSYmZVR3Z1ay1aTlFLNk81Q0t1RXNPY015U2RfWFl6eWhlSE14b0NXRnZpSklNdkstd2NlMjBFUWdpLWN2VkppWm5OLWV4Ump6a2h2cWU4dnFQOTlucFFlYWhQRUN1MWNMY1UtdkVKb2huM3hkNE5vUjh2MGQzQnBxRTZNenRYcGZGUQ",
@@ -3312,7 +3311,8 @@
     "CBMi7AFBVV95cUxPT0NPWnFfWXZYM2hKMGwteGhCaFBoWDNyVjhmY1I0VjJmUEk3aU1wZVhhajFUN2pSOW5uUnc1T2wtVjkwZy1aWm9ERVRtOGkta0g0MEdpbkJyZFNKdXZhazJ0bU9IVjZBLXpVN0RSSVptOXFELVF3TGNuWmxScnI0THB4d3ZnYmt4a3habUVtWTlLV25KQU1HeXg0N1FLZ2tYdXhvRlJxVXljSmVKUDJOY1NHaHJrNXUxZ2dwb2owZXhuTnJJMk8yMkVITmthT2F4MU1xbXAtS2VrdzU3YVROamVhb2pCX21lRjRlStIB8gFBVV95cUxNNnM3TkdqczFxalU0a2Q5NU5GR2ZVaDR3V1NCOHhGZFVNeUJGaWFTLURXUmplc2lTdG9XWXR0Rm1LdDd0UVQtT2szbUlucXU1Q1FFUVFEUzNCbXpUN3hmMWtkdWFnMUFzOWdvekZUWlZDX0pQcGg4SFpTWmhWX3dXYm5Ha1gtT0hkTFdWaktNcEdvYVRvT3RpZXpSR2ZpaFI5QnB5SjdWZlpIYUJzY2h5VG9ZWHBsSXhrZzQxSGtTaUxicEoycU9RQWdRNk5teGxHNGFOcHJ2NGVxRG81ZEZjaEN4aWVNaEVoTXh2UFF2VEpYdw",
     "CBMi7gFBVV95cUxNNGo3ZDZPRXIwUmxzam9CSGRHaXZ5NVc5Qy1rR2NiVllIVmRmU19zN0VkLVUxX1BOcWVkWklGODRIQVU1RFJhOWxGdDJRejFyS3RIeFczelE0ejZqanVsT2dydi1idlVSRUxJRWltcDZLaWNXMU00M29VektIemdtYmg1c3QzQ1dubkN0bVlYRjZNbkNIVnRvU013alE4bzUyeW51T2FrbGctM2E1WDhsRmN0QXIwb2NVbmYzYXhuMnNfd0JWYTdfMjVIU3ZuM3hhN3AwZHQ4THhMSkRfNmEwUmJSVFRiV2lwTlRpa3dB",
     "CBMikAFBVV95cUxOcjVBNWpqQ3g1cjltWkVVNGFUSG1RWVdWWTN0UmsxemJuanFSVDBGREwwWlQ2QXlyMV9mMnM2cEtneTFXWkEzM3V1ZTN3RW1CNWc3R0lnX0UtUVJma3NCZ1lfN1JYQkhaTDBYVWV0ZjRrWU9BeVpnUzMtR19QRzRLSkNHOVBHUmdudzJneDIwVHQ",
-    "2088869806422581657"
+    "2088869806422581657",
+    "CBMiqAFBVV95cUxONmg0SUtLWVo4QUZmN0d6c2xsM3g4SUFkdjctaEdzdmFTQ3d3Q2owZEM4Wk9CMm1icmxMazlCMGFoeWFfa3FvQTVPV1llelplbVZadVhOcEdnU0ZFRmtUNWhSVUc5MnBXWEprR1JxcW8ybjNuMlUtRllhRlc2NFV3eEpqSW1XeHF3UklDcXB3YXpyMS1LNy1Qa0laTzRZVmFxMVNzNkJuTnU"
   ],
   "daily": {
     "d": "2026-08-16",
