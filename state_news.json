@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Wow. Jeremiah Wells wins in the most insane fashion … and then lays the gloves down on the mat. But then says if he gets into the top 15 he’ll stay.…",
-      "ts": "2026-08-15T22:03:51+00:00"
-    },
-    {
       "t": "Neil Magny is hot on the heels of Jim Miller's all-time #UFC win record after his performance at #UFC330: \"I think Father Time is working in my favor…",
       "ts": "2026-08-15T23:10:45+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "[PPV]**Islam Makhachev vs Ian Machado Garry UFC 330 Event 15 August 2026",
       "ts": "2026-08-16T02:13:09+00:00"
+    },
+    {
+      "t": "+@([TOTAL SPORTEK]! UFC 330 Live Free round-by-round August 15, 2026",
+      "ts": "2026-08-16T02:13:46+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Johnson Survives Chapolin Upset With Scottish Twister",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWnJ4RUt6eTVsWVN2YU9wd0NzWmdjUHpDUklLeUctMXNsNWNXLS1kUS1VaU5jU0dmVXU2akpaTWRxMUhia2ZqZDg3VWtkaVR3SkNzVkE4WllUX2NpQ2dlNHlNVXI0ekp3MGJMTDNuUmZPOXNFY19FTUJwVEdaN2ZsTl9HZDlrYkE?oc=5",
-      "source": "MMANews.com",
-      "cat": "ufc",
-      "ts": "2026-08-16T01:02:18+00:00"
-    },
     {
       "title": "UFC 330: Chidi Njokuani Beats Joel Alvarez, Fight Anything But a Barnburner",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSHBQbzh1UEZwVEhqV0VIOG9val9OcllFeW96aWFlMFZPN01ZSWRMWWxyYy1NMEJBcVV3ajg1NUhuLXdCRmZhTUZkeTg1WlRWQjIzUktxc2lYUDZvb2tJY2hYaVRJdGN3eDhGQ3lvcE5FTGVpdnMxckxnUGVWSzlyMExibzNOdGVvV2lwcEh1R0NMelZfTUliN2FMSjF2eElwUmdEdVNGUFVkY2xhN1FlNg?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Grice Connect",
       "cat": "ufc",
       "ts": "2026-08-16T02:13:09+00:00"
+    },
+    {
+      "title": "+@([TOTAL SPORTEK]! UFC 330 Live Free round-by-round August 15, 2026",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObEk2ZTJzc1VSX1Baa3lkem1rREFmcXlUVkcwMUFqLS1aM0xnM0ZNS0drQ1lZd0pKeFlFSTVvU2kyQXEtYXNtYWVtY0UxR212TXNHYV9nTkhQZGRVTEZzeXpydjFtTEMtV1NmbmFMZTlpYUQwYzA4clhDaE1RWnJESFd0czdHenJ1SkF4eVBLT2VfRjNwLVE?oc=5",
+      "source": "moosejawtoday.com",
+      "cat": "ufc",
+      "ts": "2026-08-16T02:13:46+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=326704",
     "CBMigAJBVV95cUxPUDlSRXpZZHh1dXdmd2wtaEhYSjhSRXduUnJyZXRoQkZFNnhTcl8zdFdoTlBRNWN1a0h5WlF0U0hVdE1QV2JCelhNMjJWMFNmblJZNEgyeWRNdDNzY29SNnpYQ3A5RVNrOVB0Z3FhWGdwTVM3dzJHNVc1dEpabVBscGxiRWhOWXo3QWh1YjdOWXFxcndidUxvalJZaU9JVG4xaWlQSmhhVXZIUU5qbzhqbWkwMWdGNk5jN084YXRtMy1oUTFHc3BfTFF5dTFWVDRuQVNWX2lkZFZ0MXdWLXpPSE9FMFl2LVh2Skhpd25wN3JvR1psR3ZjQmxaYXUyZ3dx",
     "CBMiogFBVV95cUxQSGR0eXoxSXRaX2xrdmlKTmdRQXBKcjE4eHdSeFREN2tRVW1yMzVtSW15TW9od1NQV3lyemlaR0JOTjJwRlRqRHlGSWV5Z2hMb1dJV3Q4MzhUM1lsMVZzOFFFRi01ZTIwVl81ZEtyME9FRWZhV3BUNGNSdjVmTEd2TmxPWk5ZWkxEMUlEcFNsREJZX3Z1VnpJRTFYaUlaMzNKQXc",
     "CBMiwAJBVV95cUxPMnJoNUI3LTB2NEZuMHNmNUU3dnJtXzRyWTJoREktb0hOT0JSYk5weGtzNXV4VldLbVNrNllGSzVYQ2JJWFdYdVZBcXJYbUdaYzMwRkRUaEtEclhFZjRGTXhpUXdrb3ZxV2pkQU9DUXpUNk5tOThSY1FhdDEzWW1iLXhaZTQweDdFVVJWdmJYX2Z2MTBFeURnSWQyYk1aNGxMbWFJUk4wR1Q2YmwxcVJwNzU5bVdVNjJPcWNHbk54RDNBM0FoM18tZl9GQkdrU3Q1RDgxR2RHa3lCcFA2RTF2ZjJJbmM5QnI1ay1LYjBMWVkxNDVMX1h1MkRnMnRaN0Q3WFFvUk9wYmw1OXFybTJtVFVwTXp6Z2lRZzNOa2VZZkxsVmJMeTJVVkxiVUFNM2w2TXN1NjF0VERYNjNFTUllLdIBxgJBVV95cUxONTNjd3ZNT0dndE5FMjJWelgycmU5RXVEQ3JYbEswLUdabzNONHpUSWZiMWFzaUs4ZnVaZThYbHhCSVp5MU5Ga2xrMHRGOWhpZHNiWmpmQTFlS01ZOWl4Y0tjbl9Ha0U3bFRudnNRaWNOUThhN2FPQjIyNExOaW1sUG5reVRDTjdXTE9QdldsS2RuSXI2MXQ5VUhoWHkzNm5GdmJzeXRLMDhQc3lQZU9zQko2S3QzS1lYeDlzaU9xSTdRZEVGQTA4dGZyQlFkU282WHJJV3RaNUdwQkxwbVNIOTJ0NkhDRlM2M2o5VEN4WEhoM3V6amtvSXE4aHg3enB1RU9PSGZZMFZoTUFPYWE0RDREOEtrWFBhUGxvSVBtbjBzQVlhUklSQnAydUpIbl8tZ2xCcUJnaWszVWhkaTZrbGQ0V05yQQ",
@@ -3312,7 +3311,8 @@
     "CBMiiAFBVV95cUxOSnlLa0tVZ2pReWVEWEFQd1FNd1lvZ1ZoeVZRRERxb0Y0SnB4ZmNveHZrOU1mN0lmREs3T3p3QzE2c1hZcXIwaGZMNXhUWUUzSEgySWxfakNNMHhvVlB1RmdLb3pvaVF6dXdCZjFDQ1V3WVQ3ZnB4ckhIb3dGNk9WMXV1cEVFT0RL",
     "https://www.mmafighting.com/504926/ufc-330-live-blog",
     "CBMikwFBVV95cUxQMUZJWVdOOTNVWWJ2Yk5YOGFKSFlDVmJpZ3puMHMzQWtyZUl6bnRzY19CZnRESE1ic19QX1h0LUJFcmIwX1JGS0UxOTFveTh2ZlJMUjhqNkVlVk1XOUFWa0JnZnBWb3JJem5MR0JOcHgyajJWNlZGU2Z3ZHpRVU5NU3VqNGQ5M29hTjA1endYTl9mQTQ",
-    "CBMifEFVX3lxTE9ZWUhYd25HOGc5Z3Izcm1HakplTW15bDcwWWItZWpsVXdHeFl4c2d4THpUSG5aMWMwT0x0cTRmU0I0bFY5cFMwTkJGSFZJdWNUdGpxRmlpNEg3Z1ZITUh0aVROYUp2YWRWSFFyd3JfeUlaV2x1TjVhX1dweVA"
+    "CBMifEFVX3lxTE9ZWUhYd25HOGc5Z3Izcm1HakplTW15bDcwWWItZWpsVXdHeFl4c2d4THpUSG5aMWMwT0x0cTRmU0I0bFY5cFMwTkJGSFZJdWNUdGpxRmlpNEg3Z1ZITUh0aVROYUp2YWRWSFFyd3JfeUlaV2x1TjVhX1dweVA",
+    "CBMilgFBVV95cUxObEk2ZTJzc1VSX1Baa3lkem1rREFmcXlUVkcwMUFqLS1aM0xnM0ZNS0drQ1lZd0pKeFlFSTVvU2kyQXEtYXNtYWVtY0UxR212TXNHYV9nTkhQZGRVTEZzeXpydjFtTEMtV1NmbmFMZTlpYUQwYzA4clhDaE1RWnJESFd0czdHenJ1SkF4eVBLT2VfRjNwLVE"
   ],
   "daily": {
     "d": "2026-08-16",
