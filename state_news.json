@@ -1,8 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=501935",
-    "https://www.mmafighting.com/?p=501954",
-    "https://www.mmafighting.com/?p=501958",
     "https://www.mmafighting.com/?p=501960",
     "https://www.mmafighting.com/?p=501961",
     "https://www.mmafighting.com/?p=501970",
@@ -366,6 +363,9 @@
     "https://www.mmamania.com/464898/highlights-open-ufc-330",
     "https://www.mmamania.com/464900/highlights-open-ufc-330",
     "https://www.mmamania.com/464902/highlights-open-ufc-330",
+    "https://www.mmamania.com/464904/highlights-open-ufc-330",
+    "https://www.mmamania.com/464906/highlights-open-ufc-330",
+    "https://www.mmamania.com/464913/bonuses-open-ufc-330",
     "https://www.mmamania.com/?p=405991",
     "https://www.mmamania.com/?p=444863",
     "https://www.mmamania.com/?p=446488",
@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Chidi Njokuani def. Joel Alvarez at UFC 330: Best photos https://mmajunkie.usatoday.com/picture-gallery/sports/ufc/2026/08/15/chidi-njokuani-def-joel…",
-      "ts": "2026-08-16T01:56:14+00:00"
-    },
-    {
-      "t": "Charles Johnson credits Patchy Mix for teaching the historic Scottish Twister finish he delivered at #UFC330",
-      "ts": "2026-08-16T01:56:50+00:00"
-    },
-    {
       "t": "The Stoltzfus Slam [ #UFC330 is LIVE NOW on @ParamountPlus ]",
       "ts": "2026-08-16T02:00:25+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Edson Barboza retires from MMA after his stoppage loss to Esteban Ribovics 🙏 #UFC330",
       "ts": "2026-08-16T01:42:35+00:00"
+    },
+    {
+      "t": "LIVE! Watch UFC 330 post-fight press conference video stream &#124; Islam vs. Garry",
+      "ts": "2026-08-16T02:21:28+00:00"
+    },
+    {
+      "t": "Highlights! Jalin Turner tramples Kaue Fernandes with 39-second knockout flurry &#124; UFC 330",
+      "ts": "2026-08-16T02:43:16+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White shuts down absurd UFC White House weather conspiracy theory",
-      "url": "https://sports.yahoo.com/articles/dana-white-shuts-down-absurd-210222828.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-15T21:02:22+00:00"
-    },
-    {
-      "title": "Myktybek Orolbai choked unconscious by Jeremiah Wells’ comeback guillotine at UFC 330",
-      "url": "https://bloodyelbow.com/2026/08/15/myktybek-orolbai-put-to-sleep-by-jeremiah-wells-comeback-submission-at-ufc-330/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-15T22:00:29+00:00"
-    },
     {
       "title": "Mark Wahlberg wants to make a Jon Jones biopic with ‘serious athlete’ Aquaman star in the lead role",
       "url": "https://bloodyelbow.com/2026/08/15/mark-wahlberg-wants-to-make-a-jon-jones-biopic-with-serious-athlete-aquaman-star-in-the-lead-role/",
@@ -2105,6 +2091,20 @@
       "source": "Ariel Helwani",
       "cat": "ufc",
       "ts": "2026-08-16T01:41:35+00:00"
+    },
+    {
+      "title": "LIVE! Watch UFC 330 post-fight press conference video stream &124; Islam vs. Garry",
+      "url": "https://www.mmamania.com/ufc-press-conference-video/464913/live-watch-ufc-330-post-fight-press-conference-video-stream-islam-vs-garry-results-paramount-white",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-16T02:21:28+00:00"
+    },
+    {
+      "title": "Highlights! Jalin Turner tramples Kaue Fernandes with 39-second knockout flurry &124; UFC 330",
+      "url": "https://www.mmamania.com/ufc-330-makhachev-vs-machado-garry-live-stream-start-time-fight-card/464906/watch-ufc-330-video-highlights-results-philadelphia-paramount-barboza-knockout-fernandes",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-16T02:43:16+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,8 +2113,6 @@
     12
   ],
   "yt_eval": [
-    "a87f216d-d436-3da7-a099-3bd7ea2c27ae",
-    "884904dc-b1a6-3971-84d5-e53bbc33153a",
     "CBMifkFVX3lxTE1VYU8ybjhhQnpNVlNlOTltd0FMc3E2UTZxNE1HaWtwUkNGQkhialdXTG01Umx2TjRBTjhkbk9Wd2FnSDhfekxHWEZIUVZRdl93MUNsVnU5UTZJdUdjbmRPNE5OS1NrX1NsWUdnSnM1Y1J3SjBGWjhtQ3h0YW1sUQ",
     "CBMiswFBVV95cUxONVdVOXhPVmxoMk5uUWprXzF1OXBNV054dzVSMkduWDJGS1U0UVd2SW9hVnNQTkRuWkxXRHRSOEt6YVpfdkJmWTlUeWxnSldvek00VXF1cmpaT2tvYnVNT2JtMzByZkdTMXFSV0FPNWhlUFVXY2lscmlYbVVmR3lwMXhWNzhOZkVBMF9ONnRLa3hEb0E1Qk56ZWdXZnRsUDVMalVMVlRERldsbFN1MDFzUUtyMNIBswFBVV95cUxONVdVOXhPVmxoMk5uUWprXzF1OXBNV054dzVSMkduWDJGS1U0UVd2SW9hVnNQTkRuWkxXRHRSOEt6YVpfdkJmWTlUeWxnSldvek00VXF1cmpaT2tvYnVNT2JtMzByZkdTMXFSV0FPNWhlUFVXY2lscmlYbVVmR3lwMXhWNzhOZkVBMF9ONnRLa3hEb0E1Qk56ZWdXZnRsUDVMalVMVlRERldsbFN1MDFzUUtyMA",
     "CBMiigFBVV95cUxPRGR1TFRmT3AwZ2ZDbEJWR2FKaVdObEtlbkt0X0hTRVBfSDAxRDZmSTZDYjltcXJVUDl1XzRmOXp2aTNZYVBoZEt4eFFFNFROcEtjZENQaDBrNVI4VW5zWHI3M2YwYW1BZ0NOSFFFQ0syYWdYMmdXSGRDTjJTWGNYR0l0cmRzLXdiOUE",
@@ -3312,7 +3310,9 @@
     "https://bloodyelbow.com/?p=327079",
     "CBMi7gFBVV95cUxORDdnLWcwZG1TVUVTLURPaGpfNTVBX3ZLYUFtemRlSlhSZ0ZidUNYMUQ2dUk1RTJXUW1hYS1oM0N0RXA3bUJkZ3JBVk5XUHY2UXV2TExLVVdqZWF0LXYzcEgtNFZkaGZYRDZYRkwwcHRBU01vbGoxYWgxUmUza1NDaXYzOVpxQnNxVl92bDR1S3FmTDVNd1VPT21rWUd0MWpCWkJ4bkkzVU94dEs4NUpxdzJ2TkhZbUV0eXRUR1BUdXZfZjUtYzJyckhOTnNldk44R0RsT0ZKS2NDdmE0TVZUUUlmczJuSDlfSnZtTHZn",
     "CBMivAFBVV95cUxPYkJhcGQwTnpLZkE1YzhzTUc5MEEwcWw3NV9BNk1WZ3BxbEFuWTRhLXdlMmNITjZRX3JRMHdkOU5OaHRnaTdZZnh5LU9MXzV5RmRJckd1NVowU05xbktDM3RKdFItenNYc0xZNXExRlE0RkF0TnZIVnE0MjdiTVRwSXo3dXhtaUlQblY5UlhyMl9zVDhLc01laS1zV0d0aDJRWW9MeEQ0b0FielAtTXduVmItQjNYU3dPUW1jNA",
-    "CBMinwJBVV95cUxQNGNxQ0RaTnVpX09mTEZFYkluQXJKS3BsdkFGa0tRVkNLVUppUUtsUHBDYWIwYU9TcmJ3TFdoM203YUlfQy1CMnZfR1VpcnRrVUVHTFFpVm5qUGRqNmprdnpQWGdvZHVlZGJMSWVHeDZkVDdqUlUzbXN0YWhlVjZkUTBRNFYybi1jU25VUWdPWmQwcW9rcC1xSlZraEZlT0E4eDJyM0lhUlNpU0NnRGR1NlRWdVFwYWstOW0tckpSOGotVnhxeGstMER0bGlYSFJDY3EyeS1lbXJRZ01JLU1hSGtXTlVVdVhiZk8ybXpjQjh5TmZXYnVTQy01Q3V3eVJKckNYdzdLMUlTZTZDZWpWV0Q4LTVuMmZ3SF9rdWRWWdIBnwJBVV95cUxQNGNxQ0RaTnVpX09mTEZFYkluQXJKS3BsdkFGa0tRVkNLVUppUUtsUHBDYWIwYU9TcmJ3TFdoM203YUlfQy1CMnZfR1VpcnRrVUVHTFFpVm5qUGRqNmprdnpQWGdvZHVlZGJMSWVHeDZkVDdqUlUzbXN0YWhlVjZkUTBRNFYybi1jU25VUWdPWmQwcW9rcC1xSlZraEZlT0E4eDJyM0lhUlNpU0NnRGR1NlRWdVFwYWstOW0tckpSOGotVnhxeGstMER0bGlYSFJDY3EyeS1lbXJRZ01JLU1hSGtXTlVVdVhiZk8ybXpjQjh5TmZXYnVTQy01Q3V3eVJKckNYdzdLMUlTZTZDZWpWV0Q4LTVuMmZ3SF9rdWRWWQ"
+    "CBMinwJBVV95cUxQNGNxQ0RaTnVpX09mTEZFYkluQXJKS3BsdkFGa0tRVkNLVUppUUtsUHBDYWIwYU9TcmJ3TFdoM203YUlfQy1CMnZfR1VpcnRrVUVHTFFpVm5qUGRqNmprdnpQWGdvZHVlZGJMSWVHeDZkVDdqUlUzbXN0YWhlVjZkUTBRNFYybi1jU25VUWdPWmQwcW9rcC1xSlZraEZlT0E4eDJyM0lhUlNpU0NnRGR1NlRWdVFwYWstOW0tckpSOGotVnhxeGstMER0bGlYSFJDY3EyeS1lbXJRZ01JLU1hSGtXTlVVdVhiZk8ybXpjQjh5TmZXYnVTQy01Q3V3eVJKckNYdzdLMUlTZTZDZWpWV0Q4LTVuMmZ3SF9rdWRWWdIBnwJBVV95cUxQNGNxQ0RaTnVpX09mTEZFYkluQXJKS3BsdkFGa0tRVkNLVUppUUtsUHBDYWIwYU9TcmJ3TFdoM203YUlfQy1CMnZfR1VpcnRrVUVHTFFpVm5qUGRqNmprdnpQWGdvZHVlZGJMSWVHeDZkVDdqUlUzbXN0YWhlVjZkUTBRNFYybi1jU25VUWdPWmQwcW9rcC1xSlZraEZlT0E4eDJyM0lhUlNpU0NnRGR1NlRWdVFwYWstOW0tckpSOGotVnhxeGstMER0bGlYSFJDY3EyeS1lbXJRZ01JLU1hSGtXTlVVdVhiZk8ybXpjQjh5TmZXYnVTQy01Q3V3eVJKckNYdzdLMUlTZTZDZWpWV0Q4LTVuMmZ3SF9rdWRWWQ",
+    "https://www.mmamania.com/464913/bonuses-open-ufc-330",
+    "https://www.mmamania.com/464906/highlights-open-ufc-330"
   ],
   "daily": {
     "d": "2026-08-16",
