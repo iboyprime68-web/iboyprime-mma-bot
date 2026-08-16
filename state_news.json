@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502060",
     "https://www.mmafighting.com/?p=502064",
     "https://www.mmafighting.com/?p=502095",
     "https://www.mmafighting.com/?p=502114",
@@ -171,6 +170,7 @@
     "https://www.mmafighting.com/?p=505133",
     "https://www.mmafighting.com/?p=505145",
     "https://www.mmafighting.com/?p=505195",
+    "https://www.mmafighting.com/?p=505220",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmafighting.com/?post_type=vm_stream&p=505026",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "How to live stream UFC 330: Makhachev vs Garry, TV channel",
-      "ts": "2026-08-16T00:00:00+00:00"
-    },
-    {
       "t": "UFC 330 video: Donte Johnson flattens Eric McConico in first round",
       "ts": "2026-08-16T00:08:03+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Matches to make after UFC 330",
       "ts": "2026-08-16T04:31:40+00:00"
+    },
+    {
+      "t": "Islam Makhachev scores head kick knockdown, ultimately controls Ian Machado Garry to retain title in UFC 330 main event",
+      "ts": "2026-08-16T04:35:55+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Live stream: UFC330 post-fight press conference https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/15/video-ufc-330-makhachev-garry-live-stream…",
-      "url": "https://nitter.net/MMAJunkie/status/2088824562951622860#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T03:05:58+00:00"
-    },
     {
       "title": "Dustin Stoltzfus def. Mansur Abdul-Malik at UFC330: Best photos https://mmajunkie.usatoday.com/picture-gallery/sports/ufc/2026/08/15/dustin-stoltzfu…",
       "url": "https://nitter.net/MMAJunkie/status/2088825684936265856#m",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-16T04:31:40+00:00"
+    },
+    {
+      "title": "Islam Makhachev scores head kick knockdown, ultimately controls Ian Machado Garry to retain title in UFC 330 main event",
+      "url": "https://www.mmafighting.com/ufc/505220/islam-makhachev-scores-head-kick-knockdown-ultimately-controls-ian-machado-garry-to-retain-title-in-ufc-330-main-event",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-16T04:35:55+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMisgFBVV95cUxQTmktVFZwbXR4aFlmbnI0Z0ZqOHJRR0pkeG5vQ2RxVmIxOUhqQmU1VU04eF82VV83Vkc2Rzk4WHhTVjZFQ0Z0dXpYNlc0Mm5XQS1vbUo4Tk90dlBXNW5ZWHlETERRYUNLWjBpQ3FIdUxSd01Qemx1aHJOaENIaV9xOXQ3RlZTZ3UySWdjMk1UOHlvTjR2bjgxT2ZzT29NdllIako3TjRMRHpwcThzRTcyY05n",
     "https://www.mmafighting.com/?p=504843",
     "e12ffb3c-9ab9-3904-94d0-7d39da7834a0",
     "2088379574136545788",
@@ -3312,7 +3311,8 @@
     "CBMijgFBVV95cUxPUWFsTjlKX1VVWDFPOFRXaFpnR2o0NzdoNF93TnhlaWxUMllKcG5xdWE0RzQ0aHpFb283YjBxd1BvSWRnajhGT3Z0dmhqQUQzaF9WWHZqOGlmZU80Yi1HdDdFSWlaZUlFSWRjWGdjMGktcEpyY2twRkNuaTJ4ZGY4eHAweWxtZU9nZnpWVF93",
     "CBMimgFBVV95cUxOLW5oTkZFbWJpeTNrR1F4WXJaUXhLVDJMWmk5X21MTXRyVlhTUWxuZWlBaE1PcUxReEJKTGk2YmtFMGdfTTBoQVN4eWZfNEtaaFhZODQ3RElwMUd1elp4MVVJYUkzcXdtRDMxNjBycGJ6eXFxeC1DTG9EcDNKSDVNYmZTUnVhb2x3TW1PUHdyYmhHVFRwNERTZkxR",
     "CBMikgFBVV95cUxOUm5CNnIxWGVfbkRORzJyZUhwYmFYMmlWTUN1a0FkSEFhcjI1SHVYYnpFOXRMRUtsMWcyWFlzMHFsZXZJV2FyV2tqMk5LUFF1aUJhRENEVjdRSzlhZFd1b1lWSWxGYXdEV1ltN0NqM011Ujc4c3NNTDVXSGswQjBsVmltNjlseTljZDhZekJHeF9Sd9IBlwFBVV95cUxNekJva0QtenMtVVVmaXRkQTNfQjZudmp3cVEzQlp4RGctNTA1VzJHckRULWVJS0JiTTdNM0kxekFtYXNMSkFzTFJ6djl3OHpOemJFRFo1dG5uUHloVm1BRldvV29iMFJWbEVaWjFLME96LVdyc1lKVVgtRUZHT2tmR0pJcmg4bWVIaVVJbEVMcHhjcVVwZU8w",
-    "CBMif0FVX3lxTE04STMzcWNUWms2bDIzdUU4QUJNYmZ5Y2NKeUZLYXZkUnF1WXhzdEJSdldrdXBTUnVsOHJsejA2a18zZUgwam5lRWd2eURzaTZqeTVrZUM0eHpZU3AyQWNwZGpiT2hfNkZJak5xY2VzMnE5QTBjRGVQNTMwbUlOWHfSAYQBQVVfeXFMUHgyZElPbFF5OUt3YjE2MW5qc0pXY0d1dVdOTnJSZS1Oekc0OWNQa2J6NUc2Z3RzbjhxTG5PUFhydnJaSkctTndaRENZam9ud3NNc0E5aE5Pc2xwSEItVkNRdG1SSllwcUM2LWxxNjdCNXRUbmNTSDg3ZlY4TzA0d2daZmtP"
+    "CBMif0FVX3lxTE04STMzcWNUWms2bDIzdUU4QUJNYmZ5Y2NKeUZLYXZkUnF1WXhzdEJSdldrdXBTUnVsOHJsejA2a18zZUgwam5lRWd2eURzaTZqeTVrZUM0eHpZU3AyQWNwZGpiT2hfNkZJak5xY2VzMnE5QTBjRGVQNTMwbUlOWHfSAYQBQVVfeXFMUHgyZElPbFF5OUt3YjE2MW5qc0pXY0d1dVdOTnJSZS1Oekc0OWNQa2J6NUc2Z3RzbjhxTG5PUFhydnJaSkctTndaRENZam9ud3NNc0E5aE5Pc2xwSEItVkNRdG1SSllwcUM2LWxxNjdCNXRUbmNTSDg3ZlY4TzA0d2daZmtP",
+    "https://www.mmafighting.com/?p=505220"
   ],
   "daily": {
     "d": "2026-08-16",
