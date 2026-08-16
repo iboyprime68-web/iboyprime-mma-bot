@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Makhachev stuns Machado Garry with vicious head kick at UFC 330",
-      "ts": "2026-08-16T04:34:49+00:00"
-    },
-    {
       "t": "Pinned: That's a wrap for UFC 330. Let’s discuss it all. The Uncrowned Post-Fight Show starts now ⬇️ 3PAC is back. @ChuckMindenhall @PetesyCarroll ht…",
       "ts": "2026-08-16T04:24:41+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC 330 results: Islam Makhachev defeats Ian Garry, breaks UFC record",
       "ts": "2026-08-15T23:57:12+00:00"
+    },
+    {
+      "t": "Islam Makhachev Beats Ian Machado Garry By Unanimous Decision At UFC 330",
+      "ts": "2026-08-16T04:28:27+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Takin' her belt home 😀 @MackenzieDern",
-      "url": "https://nitter.net/ufc/status/2088832393247698958#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T03:37:05+00:00"
-    },
     {
       "title": "TIME TO SEE WHO THE BEST WELTERWEIGHT @MAKHACHEVMMA vs @IanGarryMMA [ UFC330 is LIVE NOW on @ParamountPlus! ]",
       "url": "https://nitter.net/ufc/status/2088832700501446910#m",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-15T23:57:12+00:00"
+    },
+    {
+      "title": "Islam Makhachev Beats Ian Machado Garry By Unanimous Decision At UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMWZ3VUVCemhJMlFZVzBBOGRTLXE3WE9mRXotUDViRFZyUi1Vb2lpUVNETnJQLUVZRDZoR1RNU3ltaXU2T3RfYkZlaU5YT1hsNFBYZ2RlMHRENlJOTVo3cVhoT0N3TDZXdWFsTm4xNXZmaDNrUUh1ZVRJN2kxTjVqbjU2eDBNZU51b0I3Y0dBMG1fb1p6N05nU0dGWnBualdZTVE?oc=5",
+      "source": "MMA Insight",
+      "cat": "ufc",
+      "ts": "2026-08-16T04:28:27+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     14
   ],
   "yt_eval": [
-    "d1092f25-80fc-3660-8e19-8eb4f9dcdad3",
     "CBMiT0FVX3lxTFBxSGZJQkxTOU80WlNWTnZhUVdueTJfcmc5bjlOZDZLTmw3aDl1Sm5FVFZHZHZLWjNCRWNvMnZJUHhqdUhVLUVEQ09WRDJTYmc",
     "CBMimAFBVV95cUxNZzZ6RzRBb2xrSWt4QzZBTjgtaldBQ1IzZU1Rd2paNlZLMWVnV2RaOUppWUlKT25ibmN2Y3VKaUVBU2Q3alFBZGR3UnRkWmt0VjR0MzlQUWJjdFdDZFFrYVp4TnRmeVNBOUdsSy0xQ1kwcEJ6MXBvZ2lvOENNWEpKOVZubUxpVHhXY1laR3pDTE1GSm9xVHc0TQ",
     "CBMibkFVX3lxTE1NVi1WcnJKTmNYc0RDdGJkSzZDYUk3X3AyaXVXOVlOZXVkZmV6LTE3RDQ5TFB1a2tUcTZFdmpQWTJMbkZQNVNzY3dtNmxBZ3RoazlTQXlTeGxIbU9NNHQwQUlta2dfWFp2eHVQWXVB",
@@ -3312,7 +3311,8 @@
     "CBMilgFBVV95cUxPdXV6X1l1SnB2eUFGZzV2YUVQamlxSmFWa2ZrLWhmZ0NtWC1sX0VxczJNRGVBUmw3WEthelhrb0hFbmpFZzJWWHpSYlduc2lQcHdDQW8yR0tJV2h6SmFhQm8yZ2dWRFduYVQ5UXJMaGVwVG5qOXBjYmZQcHF6NURGeW9nNkFUTVg1d3RpOEJHN3lwS2ZhLWc",
     "CBMioAFBVV95cUxOOFFtMjM2bWpieVdQWUJYU0d3bzdfX0FHQlNSak9Nb2RoTExCSmFZR3hMSXhldDdPNG5VY2NnSThpS3Y5bGN4UUU3dnp1dUhHR21nemprRUhNempkN3R1TTV4UzZTS00tVU94cVhVN3pTamJFT0E0U2tsLU1QQWV2N0p4dW44SXkyODRtX0VRdUtvcGpxSGhlMUxiMVpwdHRf",
     "CBMitgFBVV95cUxQeXFoZEtHWEpUWnRUSUM1NUVNU1pBQ3hMa0pEUkdobnJmTXU5bk1RU21OMGRLWEltaWdaRWVVYnBic2I2dWpNNU1LYndZOHk0a1hjRkV0MHdzWjRHZ2o5enVNeUpieWtmdDFaQWRCZUJhVUFCSTFJVEp4dmlhRElHNlBfOFhoYVpmaERWTW1ZZWttN2MwSlBvZGZmVlNiaWk2eUhYX181TUtpUDdnUEdYSmtHVU52dw",
-    "https://www.sherdog.com/news/news/UFC-330-results-Islam-Makhachev-defeats-Ian-Garry-breaks-UFC-record-202362"
+    "https://www.sherdog.com/news/news/UFC-330-results-Islam-Makhachev-defeats-Ian-Garry-breaks-UFC-record-202362",
+    "CBMiogFBVV95cUxNMWZ3VUVCemhJMlFZVzBBOGRTLXE3WE9mRXotUDViRFZyUi1Vb2lpUVNETnJQLUVZRDZoR1RNU3ltaXU2T3RfYkZlaU5YT1hsNFBYZ2RlMHRENlJOTVo3cVhoT0N3TDZXdWFsTm4xNXZmaDNrUUh1ZVRJN2kxTjVqbjU2eDBNZU51b0I3Y0dBMG1fb1p6N05nU0dGWnBualdZTVE"
   ],
   "daily": {
     "d": "2026-08-16",
