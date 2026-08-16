@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "#AndStill! Islam Makhachev makes history with his 17th straight octagon win in a decision vs. Ian Machado Garry #UFC330",
-      "ts": "2026-08-16T04:21:35+00:00"
-    },
-    {
       "t": "Watch Ian Machado Garry confront Michael Morales in backstage footage after UFC 330 loss",
       "ts": "2026-08-16T06:30:58+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Islam Makhachev Vs Jack Della Maddalena | FULL FIGHT | UFC 330 Piacenza (9b4mvCASuv)",
       "ts": "2026-08-16T08:00:04+00:00"
+    },
+    {
+      "t": "Raul Rosas Jr Gets Raoni Barcelos UFC Vegas 121 Main Event On Sept. 26",
+      "ts": "2026-08-16T08:50:07+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White pours cold water on Khabib Nurmagomedov’s UFC 330 comeback tease",
-      "url": "https://bloodyelbow.com/2026/08/16/dana-white-pours-cold-water-on-khabib-nurmagomedovs-ufc-330-comeback-tease/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-16T08:08:57+00:00"
-    },
     {
       "title": "Magny Joins Oliveira In Rare UFC Wins Company",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ERkpiTzZBa3RmeXgzX00tZGFWNEI1eFpBem56YjFnS2NXR25mM3I5eFU0UDNlWTg0ZGhRS3VhWlRqc1dnNzhteFFJeHFIUmtXMk04Yl9DOEp6Tm5fTWxtYXBlYXdPYURuMXgzZDdyU1M?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-16T08:00:04+00:00"
+    },
+    {
+      "title": "Raul Rosas Jr Gets Raoni Barcelos UFC Vegas 121 Main Event On Sept. 26",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQb21kc0NRM0h3cF9wS3hIOW9Ma3o3Tmk4S21yRHp2OEQyNWc1WHI5bGZFQnd5c2ZMazNaNEs5a0QtLWhMQnByUGZkNEdPVWQ5c3BXVkhYSkprWUFHbkVhUnd1VHA1T29KRXB5UTJLWnB1bG9pc1NKOXo3dWdNMlFnaWhfRHRvZU51Q2ZKamN2WQ?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-16T08:50:07+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     14
   ],
   "yt_eval": [
-    "CBMiwgFBVV95cUxNWG80UWZmSnV5czVhVlFUNExvMmVkSGVJZVNuekNYVFMyd3IwOUZaMV9WTG5vTE9Nb2prdVFSQWNSYmZVR3Z1ay1aTlFLNk81Q0t1RXNPY015U2RfWFl6eWhlSE14b0NXRnZpSklNdkstd2NlMjBFUWdpLWN2VkppWm5OLWV4Ump6a2h2cWU4dnFQOTlucFFlYWhQRUN1MWNMY1UtdkVKb2huM3hkNE5vUjh2MGQzQnBxRTZNenRYcGZGUQ",
     "CBMirgFBVV95cUxNdVlSM0w4RFdjZWhnRExoZXo2SWRKVHRrUkNoclNRRG1NSDBjVVYxMEJSZERmeHJ3a01meFROR0ZDam9WbHZ3YzVtSm5KcTA0NUxUaUxMLWJjaGsybEJxbEJDRlJOa1ltQTVFMnZtSUNCVmp1Ni1nR0Y3UFlZcTdIRjBSY19hMEc3Z3RMMXlaNV9EZE5jQ3pCNW55ZUpieGN4bEozM0RWMERDTnJtd3c",
     "CBMiwAFBVV95cUxOeFlFUzUxVGt3QnA3b1lwSHo5ajhzaF82NFo4NW9fOUZFaGFIRGJ0R3V6S0NvYWdsaFJwVkNlWFFpeVJnV01DQmstS25aeXZDajdMUlEwanNrVU9UeXlDbnowdHRNeEFBLWJ6VVJtazQ0YVhabURiRHhOaUNRX3h5T1VOWFBYY0IwdnVJR2FwdmtuYmtxWHV5MWZKeE8wY1NuWFcyR0t5ZzdxVEpUVmpSczRBQmZoNTMwRGFyOTVTNEI",
     "CBMiWEFVX3lxTFAtTXVnTlZzQnFpTk1obVBjQzVEU29TMUhuYlhKMU93UU9IZTJyNVdlNzFuX2JxRGFYbGpyU2dPdWVfNXRGRzZ3dHVrMGZQSVRzVE4ya2hzNVA",
@@ -3312,7 +3311,8 @@
     "2088869806422581657",
     "CBMiqAFBVV95cUxONmg0SUtLWVo4QUZmN0d6c2xsM3g4SUFkdjctaEdzdmFTQ3d3Q2owZEM4Wk9CMm1icmxMazlCMGFoeWFfa3FvQTVPV1llelplbVZadVhOcEdnU0ZFRmtUNWhSVUc5MnBXWEprR1JxcW8ybjNuMlUtRllhRlc2NFV3eEpqSW1XeHF3UklDcXB3YXpyMS1LNy1Qa0laTzRZVmFxMVNzNkJuTnU",
     "CBMinwFBVV95cUxQdGYyY1NEOVJsQjJ4TExhMWxuLUcxenpOejhndUpmQ2ZVOTgxcG43QTRkazJXQ19NVmNvMndrRHYxTmxYOTZaUTc3aENudlpoV0xzSHBfMUtuRWxaZDk3WlJmRzBjNV9zeFUyWnRCdnRWRElDaVEyNHdCYVF2aWw1a1ZUVUx3eDRpdDFOaDdSbUtXZ0VacEhJWXpqSTJFY3PSAVZBVV95cUxPVmN6N0MxdFdOR3VQYnl1WnJFcVdxMEZXR1RCbW5FVUQxdkp2WTlCbl9QM2FQM3JDVkZxY1lKRkdsenExMW5CRzZKMlREdmtZbDMxdmdldw",
-    "CBMiW0FVX3lxTE1pS3BXdmgzVnFudVd2Q3lISENpTldwVzdyLUVGc3BVb2pfVks3Z3p4dHdrdE5xQnJ4Y0VtY0dGcFk0bV9UcTdMR3YzSTR4VktYb0Q2UE5kLUNoTzQ"
+    "CBMiW0FVX3lxTE1pS3BXdmgzVnFudVd2Q3lISENpTldwVzdyLUVGc3BVb2pfVks3Z3p4dHdrdE5xQnJ4Y0VtY0dGcFk0bV9UcTdMR3YzSTR4VktYb0Q2UE5kLUNoTzQ",
+    "CBMijwFBVV95cUxQb21kc0NRM0h3cF9wS3hIOW9Ma3o3Tmk4S21yRHp2OEQyNWc1WHI5bGZFQnd5c2ZMazNaNEs5a0QtLWhMQnByUGZkNEdPVWQ5c3BXVkhYSkprWUFHbkVhUnd1VHA1T29KRXB5UTJLWnB1bG9pc1NKOXo3dWdNMlFnaWhfRHRvZU51Q2ZKamN2WQ"
   ],
   "daily": {
     "d": "2026-08-16",
