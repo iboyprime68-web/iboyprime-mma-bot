@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "#UFC330 Promotional Guidelines Compliance pay: Islam Makhachev, Mackenzie Dern lead way https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/uf…",
-      "ts": "2026-08-16T12:05:26+00:00"
-    },
-    {
-      "t": "Dana White RIPS Ian Machado Garry for lack of ‘killer instinct’ against Islam Makhachev at #UFC330 Agree? 📰 https://mma-fighting.visitlink.me/FEU5wD",
-      "ts": "2026-08-16T12:45:42+00:00"
-    },
-    {
       "t": "UFC icon tearfully retires in cage after gruesome injury in final fight",
       "ts": "2026-08-16T12:47:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Elite company 🙌 @MAKHACHEVMMA is now the 5th UFC fighter to successfully defend two championship belts with his win at #UFC330!",
       "ts": "2026-08-16T14:00:00+00:00"
+    },
+    {
+      "t": "UFC 330: Makhachev Vs. Machado Garry Ceremonial Weigh-ins And Faceoffs Wealden Council Elections 2026 (2I13r8XI1C)",
+      "ts": "2026-08-16T13:17:54+00:00"
+    },
+    {
+      "t": "Dana White reveals what drives him 'crazy' after UFC 330 main event",
+      "ts": "2026-08-16T14:10:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "The strawweight queen 👑 @MackenzieDern just showed she was the best in the world! UFC330",
-      "url": "https://nitter.net/ufc/status/2088831869588787703#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T03:35:00+00:00"
-    },
-    {
-      "title": "Takin' her belt home 😀 @MackenzieDern",
-      "url": "https://nitter.net/ufc/status/2088832393247698958#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T03:37:05+00:00"
-    },
     {
       "title": "TIME TO SEE WHO THE BEST WELTERWEIGHT @MAKHACHEVMMA vs @IanGarryMMA [ UFC330 is LIVE NOW on @ParamountPlus! ]",
       "url": "https://nitter.net/ufc/status/2088832700501446910#m",
@@ -2105,6 +2091,20 @@
       "source": "UFC on X",
       "cat": "ufc",
       "ts": "2026-08-16T14:00:00+00:00"
+    },
+    {
+      "title": "UFC 330: Makhachev Vs. Machado Garry Ceremonial Weigh-ins And Faceoffs Wealden Council Elections 2026 (2I13r8XI1C)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zRzB4ZTNDazg5Y0FFLXlBN3F6Ry0xOV9TbE9jTWpHaGNYaGVjVElQRS0zQXJJakdLazV6emhOcGZ2X1RXblRqdWM3X3VobEl5Szg2Y0d0RHhrMTQ?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-16T13:17:54+00:00"
+    },
+    {
+      "title": "Dana White reveals what drives him 'crazy' after UFC 330 main event",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaWpveXVkdGxsVzZ6NFpDWjZfdF9TUi11SFNWTGhDT2pGSS1UMUxwZExSbHJVRE03ZUdrMzdvR1FWVmVTclNEamIxT3ZLWXNZVW10WUtXRVJhMGNTOXNSZzY1Z2NBQmpDLW9BVjZkNDk5Y2V4d3E0Y1hXdHkxazJqeFExVm9OUlNJQS1FRUk4ME1DMUpveGdwZ09YM3dXOGUxczFNT191OHRyVHlF?oc=5",
+      "source": "usatoday.com",
+      "cat": "ufc",
+      "ts": "2026-08-16T14:10:00+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiigFBVV95cUxQZ3hsTnBrbk9lRFNiTmhwYVlkWmlOQUJ6QVh6elF1cHpkVWdyMFBJWEhVTUJldmo4QkQ3N3RPbDhuMzUwOWpKY0lnTVRLT0k2Ujg4NVlxVWVTTzVIT3k2Z3NqZFc2RWh0WF9xWkpteXYwZEpYSmhDanNiX1VZdXNMYWRWaUhvamRrdHc",
-    "CBMiuAFBVV95cUxQd21Dd2dOX1RmZVI5Q1lDQ0lKVE45dmc2S0xqU0Rld1FPRHREV19nWm9OdkFxUnBzTm9tb3FuSGZLX01RMHM0dXBySlZ1NFd6ajBnSk9qczdyR3BZNldmdXZNaFRqb0JPeUI5N3pnRmFSQVdLZVh6NXhDQnBtaVhYMkdVb3JZT2stSUVCaVd2Rm8xX0ZVdUtJMFlrOElhVzNXRlYtbTUweTdFUWdQUXoyNXRQOTdPNnlm",
     "CBMieEFVX3lxTE5WTUUxLXhLcVltSEx3MEtNaXBFcEZOSmc2RWMwSzNXOUJfRXVRVHAxcTFZZks2NWFXQjBFd0FCQzFrcURLM0U5YnNpVVNDVlNhQ1U1alBqOWhrd3RpMWZWUk5aX3h1elh4SllkbUxQT3JxV2std0FaVA",
     "CBMiggFBVV95cUxNRWRJNVkwSE9EWnBxMGRTWFZPbEpRWnZSVVBFUGdzcjhxaFJqZC15WnlXbEdyN1hkLUJlLUJDZXB0aV9KYnVNTG53SUdFZXE1VG5ueWFaQkpfZGthZ0txVUZtWHZzazlvUjRqV1VpazVhSDR4TEM4VElsS1FvRWpfZWtR",
     "CBMirwFBVV95cUxQMDBUaWVWS1hJdWFHNHpybUs5eGMyQ3daVlFxXzB6OEUxMlU2X0twSUthSHhQSzhwU0hqdFU5cU5UeUFYbFdSeHVUN3dYcmdDUEVSRHhVZW9adENuc01PZ1dwQnIxY2pBbms1c1BxTnlkcGFsSktoQVl0OUxydV9TaHNXZW50bHZOR0E2STcydTZfcU5RS1RJUkpZelV1RUN0VEo0R0hjd2ZDNGM3cVQ0",
@@ -3312,7 +3310,9 @@
     "CBMi2gFBVV95cUxNcGVuTjZKTk1zOTBJRHhsTF9LOUJnamtMSkVQcW53MUhaYlhZTGFpZlJoMXNwcTlaQnhhTHBQVTBBZ2UzSkotVkN4RmtpY0o0R0tOU0J4cnNzX1ZuNi1DWnIwSHY4WG5Md0RPUUljc245d0JFU3hLcGU4UE00WHB2ZGFEWERPV3dUenZDMUpUT3ZGb3hzNG1XSWlZUmhYTkRDbVFXNk4yTU55YlNJZXRDaTM1N3JWQmZtMHVCeEV6TnoyMnlKLVJXUzNyLXk0UGNMR2F6ckFLYzVJZw",
     "2088986869551792223",
     "CBMizgFBVV95cUxQOVppNFN6T3p1bnlmbHdBSlU5ZzRKbXJxR3VCamFSQU5NdTZoNlhTQU12Vl9jcXE0N0JlaWFlZ2Jzd2FvdlgtT0hCZEpIOE9WVkFuc3pTQzhidkVGa1dVcnBoN2toY0hpUWNFTDV5bEdUcDh5c3c3a1huWHJRSXFOd0FEcW1EOE9RSDZNQy1PXzZqM29sRktPaWtOeDk2VGZtdkJsX0JGOGxBOWN4T3RUYWRid1FDdHFia2dXX2xiOEpPZVN5YXFaaGJLRGYtQQ",
-    "2088989152939213280"
+    "2088989152939213280",
+    "CBMiW0FVX3lxTE5zRzB4ZTNDazg5Y0FFLXlBN3F6Ry0xOV9TbE9jTWpHaGNYaGVjVElQRS0zQXJJakdLazV6emhOcGZ2X1RXblRqdWM3X3VobEl5Szg2Y0d0RHhrMTQ",
+    "CBMirAFBVV95cUxPaWpveXVkdGxsVzZ6NFpDWjZfdF9TUi11SFNWTGhDT2pGSS1UMUxwZExSbHJVRE03ZUdrMzdvR1FWVmVTclNEamIxT3ZLWXNZVW10WUtXRVJhMGNTOXNSZzY1Z2NBQmpDLW9BVjZkNDk5Y2V4d3E0Y1hXdHkxazJqeFExVm9OUlNJQS1FRUk4ME1DMUpveGdwZ09YM3dXOGUxczFNT191OHRyVHlF"
   ],
   "daily": {
     "d": "2026-08-16",
