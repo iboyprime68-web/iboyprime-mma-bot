@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502172",
     "https://www.mmafighting.com/?p=502188",
     "https://www.mmafighting.com/?p=502197",
     "https://www.mmafighting.com/?p=502210",
@@ -887,6 +886,7 @@
     "https://www.mmamania.com/?p=464890",
     "https://www.mmamania.com/?p=465026",
     "https://www.mmamania.com/?p=465163",
+    "https://www.mmamania.com/?p=465250",
     "https://www.mmamania.com/?p=465257",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "“Horrible Call”: Fans Lash Out at Joe Rogan for Wrong Call as Mackenzie Dern Beats Gillian Robertson at UFC 330",
-      "ts": "2026-08-16T04:36:00+00:00"
-    },
     {
       "t": "UFC 330 Results, Bonus Winners, Highlights And Reaction",
       "ts": "2026-08-16T04:36:15+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "No implication, Dennis: Ultra-rare Scottish twister from Charles Johnson leads the $100K #UFC330 bonus winners in Philadelphia. Always sunny, indeed.…",
       "ts": "2026-08-16T05:36:07+00:00"
+    },
+    {
+      "t": "Highlights! Claressa Shields destroys Kaye Scott, secures first knockout in two years to become unified champion &#124; Video",
+      "ts": "2026-08-16T05:38:42+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Johnson Twister, Wells Hometown KO Collect Bonuses at UFC 330",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNFVzWGhVZEYwZUVGeFdSaFBMc3Q5U29ucGR2RXZYdHNUMVkyNzZhbGNYR1J5SmIzUk8zWFhWNDFraVg5WjRyYzhwWm1mSUhnclZDMXFPLTRKM0JFZW5vX0t2TWtLYTVtclZiRkdheXh5Uk9TMUczZFhhMXI1NzRyNmNqbFN6Zm8wcjFJ?oc=5",
-      "source": "Cageside Press",
-      "cat": "ufc",
-      "ts": "2026-08-16T05:11:06+00:00"
-    },
     {
       "title": "Merab Dvalishvili reacts to UFC 333 matchup with Petr Yan",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN21mMzRTWEtvNWdqR0dQeHZMc1p0T25kdlRSVkE5Z1FwUk5WVGt4ZUZlZWdXSHNYWG4yZTkyV0ZlVE1MWTl0NXlxWl9KdHBHOGQyMi1ZUVhOcTJ2aVhCSklyaVhhNFA4cE9BNjR6ejVBZ2dZUk8yLTdXeGpONmdxcm5tbTlCR0FQY2RUTThfU1NmY1JhQUZSeHdyRlpYRU9RdkE?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-16T05:36:07+00:00"
+    },
+    {
+      "title": "Highlights! Claressa Shields destroys Kaye Scott, secures first knockout in two years to become unified champion &124; Video",
+      "url": "https://www.mmamania.com/boxing/465250/highlights-claressa-shields-destroys-kaye-scott-secures-first-knockout-in-two-years-to-become-unified-champion-video",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-16T05:38:42+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     12
   ],
   "yt_eval": [
-    "CBMi0AFBVV95cUxPRHFRYUgzaHFuUm1TeTRrX0xOcktwaFlOU1ZydmdIZ0otRS1XUnh5bmpzdEtLUnJ0UTc4czF2Nmw5YmpFcUEyUFJ5aXd1bWttMjIwSEZYMDk5V0toYWkzNTBUWS1VanhXdVd6VEtocG9YS1oxZWJvdTlEN2RYZlNxZjYwNVl6bFBrWGZIOWxhUDFPRFVIcVJtZzFMd3RmczF1b3l6Z3dLQm9BeWxlQk1NT2FVQWZfNzVrekt5alpTMzBFZm1saEU3RlN3WVdWaXhs",
     "CBMitAFBVV95cUxQcXVyYWEwNHQybVYwYkZXU09GTjlfbzdZTmxsU3A5dFVsbUFuQTRzd1JSV3N6bW9QYXBBanZabG1EQ1VCVmdtMUtWaVBWQk4xMWJ6S3V3dWg4NV9lclBTV3U1SU5aSnNOa2NUS2syTU1vOC11ajVZT01SRGVIaVRvbGV3RVNUTVpCOHpHak1XNUNOYnk0RkVnNlpQVThqRzl3cWxWLUU4VVZyTkRGMW5MR1pLZXk",
     "https://bloodyelbow.com/?p=326720",
     "CBMimAFBVV95cUxPRHNpdWZTTlNYdTZYZWlvYmlSQnRLMGZtaEFmMGt6UzJHRG1LZzAtaUhtVUZXb3RPbDZqV2JLWFU1VFlIbS02emVIeUc1R0FXRndHR0h2eFZRLU1aR09yV1BNbEpEMXFkQkVyb1FTNXRlNFhRRWlmUmFfZGZjUV9NeG1zNzRaN19qSkdBNHRwOUZJUThGRmJUdA",
@@ -3312,7 +3311,8 @@
     "CBMiqAFBVV95cUxPcnJqZmZic3phcEw3YUl0RWlZZGhjam1mSDdVUVg1NEl3VlE5eHF0Q1QtbVl6UE5Od0JVbTNfS3BzYk41WW1odDQ0V085b1BLQV9qbl9EbHVsSTd3dTRyamJsY09JZ3daOHM0bXNHZllYek9ZM1c3WDY2aXVtSWFGSWxKeWVnRUFzMEIwZm1PRnNlRzJ6VHF6TmdGcW96dDA1R3huMmhidmk",
     "CBMinAJBVV95cUxNYnhPcjQ1aEszOTUyWGRWeklFZ0pPckw0Y2lVT043VUdPWFNfcnNlZHloTHZfOEZpczlGSjFEQ3ZmVDlQM01TLVdjdHYxemxzUV9OMGFWLTh4WE96VktLRm1iNFJMcm9oWHNYOFJ1YmVqdXBPN3BjckFfX2p6VWtqS1dMbXVuUnJMckpnQ2ZuRTNtTnBqM1A4b3NKclNjYTB0YnNfeUduX2JnbDA5Snd3TjgzaEJQX0xIbHlZMWRtZ2F5NmpzMUtHWV82Um5tX0RmOGFYVHhVbEROZnJ4cklUclBXUk1lUmI3WTdqejZGdDhldlV0Q29IclBwOENiRnpiSHVVb3Z5OHo4NlY2aS1xMU91U0U0Sko0cVRDStIBnAJBVV95cUxNYnhPcjQ1aEszOTUyWGRWeklFZ0pPckw0Y2lVT043VUdPWFNfcnNlZHloTHZfOEZpczlGSjFEQ3ZmVDlQM01TLVdjdHYxemxzUV9OMGFWLTh4WE96VktLRm1iNFJMcm9oWHNYOFJ1YmVqdXBPN3BjckFfX2p6VWtqS1dMbXVuUnJMckpnQ2ZuRTNtTnBqM1A4b3NKclNjYTB0YnNfeUduX2JnbDA5Snd3TjgzaEJQX0xIbHlZMWRtZ2F5NmpzMUtHWV82Um5tX0RmOGFYVHhVbEROZnJ4cklUclBXUk1lUmI3WTdqejZGdDhldlV0Q29IclBwOENiRnpiSHVVb3Z5OHo4NlY2aS1xMU91U0U0Sko0cVRDSg",
     "CBMimwFBVV95cUxPTHNRQ1F6dENrZExPT3E2TkJnMWtZYndRVnNqWktZRGN4LWEzdGZsVmpuZHpSUXVOUUtVbUhSX2EwMWRhZlJ3clRabHlIRE9scWxMRm5Femx5bDRIMFNDZGozbDJKSmhyR1V1amFndlllR2MzU21SUUhXelVxc2YteHkzZmRxZ1h3S2QxLS14cktFSVhtNGJELUF1bw",
-    "2088862349306261797"
+    "2088862349306261797",
+    "https://www.mmamania.com/?p=465250"
   ],
   "daily": {
     "d": "2026-08-16",
