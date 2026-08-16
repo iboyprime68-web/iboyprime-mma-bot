@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White's response goes viral after being asked for Conor McGregor update post-UFC 330",
-      "ts": "2026-08-16T11:38:26+00:00"
-    },
-    {
       "t": "Islam Makhachev Is Afraid of Michael Morales",
       "ts": "2026-08-16T11:30:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "\"We Don't Pay For Names\": GLORY's CEO Isn't Blinking As Champions Walk Out The Door",
       "ts": "2026-08-16T13:14:39+00:00"
+    },
+    {
+      "t": "UFC 330: Mackenzie Dern and Gillian Robertson make title weight",
+      "ts": "2026-08-16T12:26:45+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev retains his UFC welterweight title at UFC330 in Philadelphia! 🇷🇺🏆 (🎥 @joseyoungs)",
-      "url": "https://nitter.net/MMAFighting/status/2088847761760235928#m",
-      "source": "MMA Fighting on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:38:09+00:00"
-    },
     {
       "title": "‘Drives me crazy’… Dana White rips Ian Machado Garry for lacking killer instinct at UFC 330",
       "url": "https://bloodyelbow.com/2026/08/16/drives-me-crazy-dana-white-rips-ian-machado-garry-for-lacking-killer-instinct-at-ufc-330/",
@@ -2105,6 +2098,13 @@
       "source": "LowKickMMA.com",
       "cat": "ufc",
       "ts": "2026-08-16T13:14:39+00:00"
+    },
+    {
+      "title": "UFC 330: Mackenzie Dern and Gillian Robertson make title weight",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUy1RbDRTV1ZFQXFYUVZQOG5SdW54LVQyR0diQ2NoUHVUcE9zMlFfSFVRS1gwTUJtZ1B4RHJiYzdENkZvaVJCODRETWNYblhybjQ4bTFKQzJRZlkwZVNaQmUxbUxkdm1NaHhpRWZNMEQ3dGNSVjJXLWZvR1Y2VTdLemNkb21iM3JFb1VlZVJxeEFITjFt?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-16T12:26:45+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMipwFBVV95cUxOSXh4TUZLTzRmQzMzWWtUaGZEd3JjVDNiSE02QUVlZGg1Yk00Nm5rek50aUtheWVaaHdrT1lGeVRzOHd1OFoyMEI2dzBnR1pkZXNpV0dnMy1iQnZzZnhHWWdNMHp6akdDV1RzQWNLXzczU1N3TXlQa2xYbzNJSjJ1a1FCODlZWUNXalROZUdJYmp5TEFaaHdiLXhXVEhTSDFiTjg2c0JlTQ",
     "https://bloodyelbow.com/?p=326816",
     "https://www.mmafighting.com/?p=504443",
     "CBMivAFBVV95cUxOMlZkaFFNY0tXZ185WGRPQ3laSmVqd29Eckh3djJvYUI2WXk0Yl9uNjlSYld5b1dGYmY4SVFpV2xIVXpVdmItN0JqeFB6eWYxVzEyMjdPb2RUWDhFYnViYm5JamplZkhLZlRrUlJOa3VxbnRRa3ZhMWI5LXBfRXVXcnp6cmt1c0tvMmJFSWVIN1BLdURBZENiZkpsdUh4Znl5R0NvR3ZJa0dqekpRcjlrZGRRUjhFZ1pKZWNCYQ",
@@ -3312,7 +3311,8 @@
     "CBMigwFBVV95cUxNNjN1d1M0aUtlaFRzUF9PRVdTNE93eml2QTdwVS1HSGtfM3owMEJLQzk0ME42WGZudlRIZHg5eXNFdVdYbllHMkhJMElTOGMzYkRuQzRjTjNVVWN3RlZ4a2VmTFUzd201MjZuQUFTcnFCWXoyamxzMGkwWjFsNWdJN2hZVQ",
     "CBMiwwFBVV95cUxOR1BOX01XTzJCR1dnajFZRUF4QVZtakY2aEE0QkhTXzVQbTJ1NlFNNVJaY2VQd19nUVFyM08tVnRlY1FYZFpJTDJqVnBlSE5BQlFacFpmbWppUVY5c2RPWmhpUnJHRTc4SEgwTmwzTGtqSjY1ZGJscV9fajl1eTRUVk5ZOHRsVjF4Smk2Q29BN2EtR2hnRDBrZk8wWjlyWk94LVd5Z1Jqcy1wSmtJSWtaVW0xZXFIUnVRaU5EdFczQlhlSXc",
     "CBMitgFBVV95cUxNeHR6YWxhWWFZa2xTSFVZZ1hZNVRuaWdxZ1JkZnBSVExnVXFwXzZHSmxQUDlKc3ItYXdIdVppNU1McFBSUGJEcDNiSnhwQ2VTWjdBMHFuY1hhMU43ZEpFeHlGakp5MERiWW9Rb2x2eS1RZ1J5Rmw3YzJ4YmJQUXJ6NDlnbEI3ZUZGb3JvckZkdzRmN05LMXlxckVGRTRfX0dHSmZDS1hZb05xMWlac3ZBU2pjd0U1dw",
-    "CBMiigFBVV95cUxOY0E4YjltQlhlZklGdldDTDloenNXTHllTVJCRTdBaVhRNkUtaGNMR1JvWUoxNDZxTG1IRXFRbU1FWVBTSVhaZmZCQTJqcTlFZzVjdGxZcjg0X3EyQkk1M0FKQnlhRXJ5cURDSTlpUDh3aUxFV3dPaTFRa1hCbXUzYjRkY0NJQWJoWGc"
+    "CBMiigFBVV95cUxOY0E4YjltQlhlZklGdldDTDloenNXTHllTVJCRTdBaVhRNkUtaGNMR1JvWUoxNDZxTG1IRXFRbU1FWVBTSVhaZmZCQTJqcTlFZzVjdGxZcjg0X3EyQkk1M0FKQnlhRXJ5cURDSTlpUDh3aUxFV3dPaTFRa1hCbXUzYjRkY0NJQWJoWGc",
+    "CBMilAFBVV95cUxOUy1RbDRTV1ZFQXFYUVZQOG5SdW54LVQyR0diQ2NoUHVUcE9zMlFfSFVRS1gwTUJtZ1B4RHJiYzdENkZvaVJCODRETWNYblhybjQ4bTFKQzJRZlkwZVNaQmUxbUxkdm1NaHhpRWZNMEQ3dGNSVjJXLWZvR1Y2VTdLemNkb21iM3JFb1VlZVJxeEFITjFt"
   ],
   "daily": {
     "d": "2026-08-16",
