@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev is all smiles after breaking Anderson Silva's consecutive wins record at #UFC330: \"It's not more Anderson Silva. It's Islam Makhachev…",
-      "ts": "2026-08-16T06:24:24+00:00"
-    },
-    {
       "t": "UFC 330, The Morning After: Islam Makhachev, a GOAT following Fedor’s footsteps (not Khabib)",
       "ts": "2026-08-16T12:34:39+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White: Islam Makhachev's winning streak might never be beaten",
       "ts": "2026-08-16T16:10:00+00:00"
+    },
+    {
+      "t": "UFC CEO Dana White Rips Ian Machado Garry for UFC 330 Antics vs. Islam Makhachev",
+      "ts": "2026-08-16T16:19:57+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "WE USED TO PRAY FOR TIMES LIKE THIS 🙏 @MAKHACHEVMMA vs @IanGarryMMA [ UFC330 LIVE NOW on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2088835136771301863#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T03:47:59+00:00"
-    },
     {
       "title": "10-9 Islam after 1. Not a lot of damage from Islam but it was all him after an initial TD.",
       "url": "https://nitter.net/arielhelwani/status/2088836325763879223#m",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie",
       "cat": "ufc",
       "ts": "2026-08-16T16:10:00+00:00"
+    },
+    {
+      "title": "UFC CEO Dana White Rips Ian Machado Garry for UFC 330 Antics vs. Islam Makhachev",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQXhLZTJCR3l2Y3MyNnVMX0JiLXJVdVFvTm5FOTZXcXNzZ0pCTGw2SXNvNHpVVEJJcHNsdnQ2a0FYZWU5ZUJqczJFVjg4Q24ydmtkZ2VFcG8yR1dvUmJWdXpfZG02TEJTOWpDVFBDQ0M1US1WV0swTGVpU2UwTW5Hd1Nfa2FYbE5wX3E5MExodkQtR20yQ2VmQmpRZldJbEVFTEpwS2U0V1F5bmJ5ZTJqZGFDYktFRUoz?oc=5",
+      "source": "Sports Illustrated",
+      "cat": "ufc",
+      "ts": "2026-08-16T16:19:57+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiqAFBVV95cUxNdGRwemJ3NzU1QWtLTW9xTk03UWRvcTVRVG9NNVNTS1J3ZDdDTXJiXzFOV08tYWVkb0F0TXFaRWg1VF9ENUozelhyZHp1YjRlNW5pN2FxMVdxT0p5ZFZadzdJUFRTVWJ5UzR4THQ3bUI4YkxMMFF3Vmg0R0xPa29QUHVsSkQtLVowTlRkY2MtTTNxS0VfWDUxNThnNy1DbHUzV1pyMGJGaWw",
     "CBMitwFBVV95cUxPbEdoaERmRUFQMEdoWGswNkVMZnUwTGxKcmo3RDVielJTd0U3c2U0dGNDVFhHb3cyYk9SVU5HUm1MT3YxZzI5WnNYU2pnSEZYQnVQd0R0Sm04S28yVlN1WWx6N0JXMkIwWXM3TE84U3YwN2V0Mkp6TnJselRpcDlxWXF0dzdQUGhfMnFkcU52dlAtYjU2RUZCZzV1b2V1N1ZJZ3JCS3hEdW9Td3JtbWxSZVFNWG5ZdDg",
     "CBMiwAFBVV95cUxQQmtvaDJoRURRM1FfS2tpRkRWVU5zWDRyaEYwWXdMenhCWW9NSGwtWU8wdGxuOUlfbi1QcHd4MzhsN2ZkbEpRRENqOGgyVGRTZU50Uzk4TDhwUlhKMlcxZm9aUVR2OEloQ1QxZ3pYQ3FkbnZHN1lIVGU0Ym9MOGM1eDAxRGJUN0F1ZjIxVWdKZW9kQ1R4NnB4eElJQ1RDVXlRal80VXR4NTJNQ1ZxNnB0R3dtLXJTRnUyM1BiMGRPZlg",
     "CBMipAFBVV95cUxOcWh2ZUNxS01qQmdhTjJqMHQ3MmFyQ21TMXRZMzk2VG5rQlZEMmRSa0xoTmlsWlhpMnZCckVxRVB3M1hleW16dnZrRmV2V0l6TnRaU2Rab2ZFWV81LUgzemdnQWxxc3lGYl9CZjUxekh6RzZ3V3loWUhJSU9pY1ZZUnN0VzF5N01OQzhEem1yN0ZmVnNSaEtZTHFFaWVPYVJQdk5MUQ",
@@ -3312,7 +3311,8 @@
     "CBMisAFBVV95cUxQQmZha21hcHVPWndpeVBNN2xBakdfNWhBRGc0UVVGemZsSGktQlhhWDh3MU5kM3NRTkhFZmk4T2hGbFdTTzNGTWVwTGJXQ1ZHTGx4SlBQeDUxY0E0TTYxeHhLUlZyMFU0SHQtR1k0SENvOTF3bENBQVdIZXRweXpsT1NsVTJIRlZfTHNIZGxzcFhpVUptOFYyNVpRY0RTcnNja28yd2tKeTlOMGRhcTBvMA",
     "CBMinwFBVV95cUxOaGcyUy1KZFRQUWc5ZVhtakVuTmxCQ09qbGoyckMzMUZnTnNnTW5UOEZXbEJEbktkNDdSclNyYjhlNmJzMkk3MjdUclVmX0w5TjdTVFFET2F2VVhuekNjVFpOM21ocFluYW4xYVljVXRfN3M3R3NIWlJnZXk1UGdsbTFqSFZtS0J1ZWdQUXYzbWk3M05HOUNPa2lTZ040MG8",
     "2089022605177024814",
-    "CBMi9AFBVV95cUxPS09JLVBQdVJmRlhGSExRcmh4b1NWVG9qcndVa21UMkhoOTZmeEhoaWN0NXpESVpwUWRmOU96UjZ5RFR6OUtmYmNkT212Z1dKYzNQeEQ5YVRqeHY0eDVScVhjbndyWkNGTkNfZVgwSy1GbUNXNkw3VFcyaEdjSUVJdUsyU1ZiVUxLSlF6VG92T0RHemo4SHI3VEFNcXZJbUVCVEZDdTNZWkt1QnBhQWpfQUZJaHl4OWJmYTQ3aXJKaTJWWG5hdHNBVVlXeUtJY2FhTEVCUkViMWtiaVV3WXhHb1VPeW5hMnZWZVgzUmU0dVFIeFYx"
+    "CBMi9AFBVV95cUxPS09JLVBQdVJmRlhGSExRcmh4b1NWVG9qcndVa21UMkhoOTZmeEhoaWN0NXpESVpwUWRmOU96UjZ5RFR6OUtmYmNkT212Z1dKYzNQeEQ5YVRqeHY0eDVScVhjbndyWkNGTkNfZVgwSy1GbUNXNkw3VFcyaEdjSUVJdUsyU1ZiVUxLSlF6VG92T0RHemo4SHI3VEFNcXZJbUVCVEZDdTNZWkt1QnBhQWpfQUZJaHl4OWJmYTQ3aXJKaTJWWG5hdHNBVVlXeUtJY2FhTEVCUkViMWtiaVV3WXhHb1VPeW5hMnZWZVgzUmU0dVFIeFYx",
+    "CBMiuAFBVV95cUxNQXhLZTJCR3l2Y3MyNnVMX0JiLXJVdVFvTm5FOTZXcXNzZ0pCTGw2SXNvNHpVVEJJcHNsdnQ2a0FYZWU5ZUJqczJFVjg4Q24ydmtkZ2VFcG8yR1dvUmJWdXpfZG02TEJTOWpDVFBDQ0M1US1WV0swTGVpU2UwTW5Hd1Nfa2FYbE5wX3E5MExodkQtR20yQ2VmQmpRZldJbEVFTEpwS2U0V1F5bmJ5ZTJqZGFDYktFRUoz"
   ],
   "daily": {
     "d": "2026-08-16",
