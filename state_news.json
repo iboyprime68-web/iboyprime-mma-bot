@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502383",
     "https://www.mmafighting.com/?p=502396",
     "https://www.mmafighting.com/?p=502407",
     "https://www.mmafighting.com/?p=502413",
@@ -351,6 +350,7 @@
     "https://www.mmamania.com/464908/highlights-open-ufc-330",
     "https://www.mmamania.com/464910/highlights-open-ufc-330",
     "https://www.mmamania.com/464913/bonuses-open-ufc-330",
+    "https://www.mmamania.com/464986/ufc-vegas-120-results-sooo-about-last-night-gamrot-vs-salkilld",
     "https://www.mmamania.com/?p=405991",
     "https://www.mmamania.com/?p=444863",
     "https://www.mmamania.com/?p=446488",
@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Mackenzie Dern outgrapples Gillian Robertson to win lackluster title fight in UFC 330 co-main event https://www.mmafighting.com/ufc/505145/mackenzie-…",
-      "ts": "2026-08-16T03:34:18+00:00"
-    },
-    {
-      "t": "#UFC330 results: Mackenzie Dern outclasses Gillian Robertson in low-action affair https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/15/ufc-330-…",
-      "ts": "2026-08-16T03:34:26+00:00"
-    },
-    {
       "t": "The strawweight queen 👑 @MackenzieDern just showed she was the best in the world! #UFC330",
       "ts": "2026-08-16T03:35:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC 330 results: Sooo ... About last night | Makhachev vs. Garry",
       "ts": "2026-08-16T07:00:00+00:00"
+    },
+    {
+      "t": "\"He gave me crazy headbutt\" - Islam Makhachev believed he had suffered major injury in win over Ian Machado Garry",
+      "ts": "2026-08-16T07:00:00+00:00"
+    },
+    {
+      "t": "Dern Answers Robertson After Grappling Claims",
+      "ts": "2026-08-16T07:01:43+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Mackenzie Dern dominates Gillian Robertson in UFC 330 co-main event",
-      "url": "https://sports.yahoo.com/articles/mackenzie-dern-dominates-gillian-robertson-032331537.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T03:23:31+00:00"
-    },
-    {
-      "title": "'We need a mercy rule': Fighters react to Mackenzie Dern's UFC 330 title defense",
-      "url": "https://sports.yahoo.com/articles/mercy-rule-fighters-react-mackenzie-032829275.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T03:28:29+00:00"
-    },
     {
       "title": "UFC 330 results: Mackenzie Dern outclasses Gillian Robertson in low-action affair",
       "url": "https://sports.yahoo.com/articles/ufc-330-results-mackenzie-dern-033241488.html",
@@ -2105,6 +2091,20 @@
       "source": "mmamania.com",
       "cat": "ufc",
       "ts": "2026-08-16T07:00:00+00:00"
+    },
+    {
+      "title": "\"He gave me crazy headbutt\" - Islam Makhachev believed he had suffered major injury in win over Ian Machado Garry",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZE9MNDdMQmxVMkFzZmVLYWQ4Y1dUaDFyOUlSc1JIQzZqUjE5Vmk0YW52VDh0Uk5TbnZrMmZscjdMWW9LSTloY1RVZldnTk9DdjBYdlBHQUlqd05Fd29YTlhUOV90VkhSV1B0WnNsWFNGeTl3LTM4Vjd1YWVjQV9aTHF5UndtUThtUko5dHYtQ3lLNGlUQUtlTVMwRHJVQ0Q2dEVTWHg0VjFfendaUFdqc0NQTnlwWExIQjUyWGh1ZlN4bjJjR2g0?oc=5",
+      "source": "Sportskeeda",
+      "cat": "ufc",
+      "ts": "2026-08-16T07:00:00+00:00"
+    },
+    {
+      "title": "Dern Answers Robertson After Grappling Claims",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4N2JQcWdEcWx4YWlNOVpweUpEeW9LeXFwQThsMktkcHR3SXdnUTV1M0dxMWFZNXpWcm5sOEVyMGlGdmd4ZS1QOWNoRER6bjZNTU5qU1JYa1JZREt1YjJ6dTM3Q2xmb2s2cDZtQjJ4SGpJajlyazFR?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-16T07:01:43+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMijAFBVV95cUxQdFBSZU8xcFJhcDVBeEVSSWxrM3dWQ0c5bmpyUGZPOEVyTkZLekF6Z0ZUQUtBOXNIdDRqZndwNFdhNGN5aGMtemVnTDE1SVprVUg3LVhUZlBwZ1BwT1R2UlJlUVdYUFRqM3pmNjZfLW5WY3pQZEtLTlZVaUZPZGNWLXdEV2p4TkxYbU1BZg",
-    "CBMimwFBVV95cUxNc2lRaTBVRzJrOWUtaTE2d2RDVUFwcHV0WWRIeFRydkE3Q3BFc3o4QXpVczZzcmZoaUx5ZUhMRGxfaENVOUljMmQxVEZUTXlTMmNGMGRPSUc5eDBiRHJfNEVEajBsa09Ra3VDTW1xYXB3ZS1ZTVE4YjIxVV9uRW5ncFRKX3l5LUdTT2JKZWRHLU50QmZMWG9ieW1mUQ",
     "CBMirwJBVV95cUxPZ3FFRzFZTUJlclhlX1R5VTFaU0V2OE52dS1hdEdjM3lxVTczcHJ3V3VOa0dRMXY5SUV2d0l5S1ZLbmQ1anFEZEVrcmFXOTdkUU45ZWFTYzN3UDRyeG52M19rTlNDUmotaXc1ejFBRzhwWnVBMzM5dGxmX1FGSks3bk13UWkwNm1SN1VrZGtyS2RTaUhoU1BUWFRILXo5QW5qSDdWNnNSbUs4T2NUOXNYcFN2NnJ0QlRwR3Z0bDFOcmRiNUE4T05GZ0dObm1Hdm1EeGE3YTNYUkpvZkFsVGxTUzFjdjlRNVp5MU51ajJ0ak9sMDNqeEgzOXV5T1MyNXlzYnhJdEU4ZVRoeGVGVHl3enA5US1lV0RkT0VESm4tUkhaVngzQ0h4ZE9NQTc3NTQ",
     "CBMihAFBVV95cUxOVERhWU5pdnNzQ3F2aGVxOGJ3WEtrVFdIamNVRmJjV1hheWUya2pIMThRZUhNdEJlN1dFalJXRncySjJYRVNzeXpNemhqbWZiUWZMTThLM0w5ZTJCakVUbGpKbktSRVl1SzEtME41QXZnUE9ZUkpKVGlZMm9DRnBzVERpNGg",
     "CBMidEFVX3lxTE1QdEtSeXBvdG10WTVUTjFWRXFfLVU2OGJZVHFqbTU3Q21zQjVzTlhBWEVXX2ZOWUYwNENfWlRFR2NfNEJRVW5LYkt1RXlwUklJREI0eF8yU2hUOEVKdGY2RVo2M1pualdwVUNGU296X3pOZzh5",
@@ -3312,7 +3310,9 @@
     "CBMie0FVX3lxTE9JaUZ2RFFBd1M1Mkp4VnJzZkdYXzhBejQ2RDBBRFVtWGpCcWpzRnE1YUVUdEVid0cyUnJwb3hETVVHWEhQdmx5NHNDaEFhSExwVUhSc0QxeWJDZGs3dWtuNERKaFlfUlVsOXpScTNMenM2aml1UllJZEFyRdIBgAFBVV95cUxPLS1FUk1Ka2dEMmkxNVp1dG5OZ0NPQmszbUJlYTBzcndubzhsazZ1QXhQM19UdHVGZnFvQWlNUFFyM2RGY291UElHODdQMEQycDVmX0RiaDBGY2NQUTlFTU5UUDVPZGVhQnBieTlnNUd5NGlaYkFLY2d4Z1pLelREcg",
     "2088881010712649928",
     "CBMiqAFBVV95cUxONVFfSkxEamI4ei1aQkR3YVVLUmVLMlZkYWVxcV83T0puU2xJd3haT240Sl9kenJfTWp3cVR0V0ZGZS1YTWJkeDM3ZlZ3VUN3aFpIZXV3ZEVtWTNzeVhUMjRSNlhFUGZGU1EwbDJOcWw5V0hWQU44amk3N3RKOUhMZ2dacWd2WEhjSHhCem5pUXhFbDh1NjZTb3htUnBoejJlSGlkYWhreEc",
-    "CBMi7gFBVV95cUxNakc4Q0xFdjl1TU8xTzlkWU1LOFRNdmlJTm1kWHVKN0N2S0xqVVItOFRnUHc3N1RaVXdSVTVVbDQzenFUN2s1b1lKNHRNc3l5aU5uUGRySlpYUjE3ZG9lQk1uc2tHSFk1MjlWSFJkQXdicXd2YXVnbENnZ25PaGNwZlF3ejBPNVFaa29lalNFRmdsNVhpNGVGaUQ0dmR6RVFyWEVCYW5yb19faFNrelh1T29aQ2FKVFJMWkRBSVRQQVF0WVdYQ05vcEdqT09rcWNCT3ZBal80OUYxanRuRDFYYUhIUTZ0OHZQU00yenJR"
+    "CBMi7gFBVV95cUxNakc4Q0xFdjl1TU8xTzlkWU1LOFRNdmlJTm1kWHVKN0N2S0xqVVItOFRnUHc3N1RaVXdSVTVVbDQzenFUN2s1b1lKNHRNc3l5aU5uUGRySlpYUjE3ZG9lQk1uc2tHSFk1MjlWSFJkQXdicXd2YXVnbENnZ25PaGNwZlF3ejBPNVFaa29lalNFRmdsNVhpNGVGaUQ0dmR6RVFyWEVCYW5yb19faFNrelh1T29aQ2FKVFJMWkRBSVRQQVF0WVdYQ05vcEdqT09rcWNCT3ZBal80OUYxanRuRDFYYUhIUTZ0OHZQU00yenJR",
+    "CBMixwFBVV95cUxQZE9MNDdMQmxVMkFzZmVLYWQ4Y1dUaDFyOUlSc1JIQzZqUjE5Vmk0YW52VDh0Uk5TbnZrMmZscjdMWW9LSTloY1RVZldnTk9DdjBYdlBHQUlqd05Fd29YTlhUOV90VkhSV1B0WnNsWFNGeTl3LTM4Vjd1YWVjQV9aTHF5UndtUThtUko5dHYtQ3lLNGlUQUtlTVMwRHJVQ0Q2dEVTWHg0VjFfendaUFdqc0NQTnlwWExIQjUyWGh1ZlN4bjJjR2g0",
+    "CBMid0FVX3lxTFB4N2JQcWdEcWx4YWlNOVpweUpEeW9LeXFwQThsMktkcHR3SXdnUTV1M0dxMWFZNXpWcm5sOEVyMGlGdmd4ZS1QOWNoRER6bjZNTU5qU1JYa1JZREt1YjJ6dTM3Q2xmb2s2cDZtQjJ4SGpJajlyazFR"
   ],
   "daily": {
     "d": "2026-08-16",
