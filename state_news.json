@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=501739",
     "https://www.mmafighting.com/?p=501757",
     "https://www.mmafighting.com/?p=501868",
     "https://www.mmafighting.com/?p=501872",
@@ -181,6 +180,7 @@
     "https://www.mmafighting.com/?p=504954",
     "https://www.mmafighting.com/?p=504971",
     "https://www.mmafighting.com/?p=504983",
+    "https://www.mmafighting.com/?p=505006",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
     "https://www.mmamania.com/452905/mm-clone",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Khamzat Chimaev’s return in jeopardy as US presidential order threatens RAF Moscow event",
-      "ts": "2026-08-15T14:30:00+00:00"
-    },
-    {
       "t": "Ian Machado Garry gets called ‘cockroach’ as Michael ‘Venom’ Page predicts his Islam Makhachev fight",
       "ts": "2026-08-15T15:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Neil Magny Ties Charles Oliveira for 2nd-Most UFC Wins Ever After UFC 330 TKO of Brahimaj",
       "ts": "2026-08-16T00:03:56+00:00"
+    },
+    {
+      "t": "UFC 330 video: Donte Johnson smashes Eric McConico with 1-punch knockout",
+      "ts": "2026-08-16T00:09:07+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Yakima's Erosa set to fight on Halloween",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVzFmckczM2k3MnpBM3R1eXp3UnUyVXpjTzVuYzhoUVI5WFltR2x4U1NDREZxY2FHRGR6MFV1aWlUeTc3aDN4OUZ1OVgxWUdTWEhsTG5LZnlaYzRTZ2NTRVdHeE5aUDhXUkhvZXlFUXFsazZ5NGJtSjRGN0MweHRiUFoyOEh2c0JOVkZyMVJJQXF3M2o1bDdSYnRHYWphdnowY0NDYTJnRVlNOFBCeUdSTmx3SlFYWEU1bEUtbVBDTUdzWlNXbXBwc9IBzgFBVV95cUxNMTFGNWIzbTRqYUVzM1hEeXVlVzJsSGZTemdCbVBEWTJkbVJKaGJGN0VjUndqcFdFR2w0OHpiM1EtN2Y3OHVpNWQ4eEZZcDBra1VsRlJUbU1tYzRpRGVEVXdpRXBCX01MQmpnV0kyMGVaM3FNWmQ5QjVpZDZ1MV9pYjJvYjhoYUJWQ1pldFRVekhSWGZYTExSVERUaVptUHFIMWh6NEhWTUdGS2hPVW9sU2JtWnhXWlIteUZfQjY3bUhfQm9XRFdyMFdFc0ZsZw?oc=5",
-      "source": "Yakima Herald-Republic",
-      "cat": "ufc",
-      "ts": "2026-08-15T22:56:00+00:00"
-    },
     {
       "title": "Arman Tsarukyan explains how RAF has helped him improve, talks possible Islam Makhachev UFC rematch",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaHJkV29ERmlYX0lFOER3OFhqYVh3RC02d2ZsVFpBbHBBV0haQ1VDMTRMZVF0WXVFZGdTeTRIeTNjajU1N0RWN01FXy1KNlB4bDZ2MVFXbG5uYWFZWnJSU015WS1Sb01qbUpFa283bTVNaDM0amFJT09Ba3VTLUdkVUxWNmlyWGF2cnRNNEdHaDJpS2UzVTVUdGRLVjgxWnZhUEtzQjNpTng2M19BYWkxd3dqN3RjSTZicERxSFRkeW5FMUYz?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Bettors Insider",
       "cat": "ufc",
       "ts": "2026-08-16T00:03:56+00:00"
+    },
+    {
+      "title": "UFC 330 video: Donte Johnson smashes Eric McConico with 1-punch knockout",
+      "url": "https://www.mmafighting.com/ufc/505006/ufc-330-video-donte-johnson-smashes-eric-mcconico-with-1-punch-knockout",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-16T00:09:07+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiswFBVV95cUxOMV9xdXF1THBuZkR0YnZseUNpaFo4THlPRmtxMEFCODVHTE9GRm16MXA2UFk1LTE2cGVIVGhZTmlGNUZxVmtxZGljRVBnOFNneU9nWnozUDhLVlktVHJpRFdOQXBZTE5vNFNsX0h2bnFZdkpvQnZhazdiRUVtYzFGaEJweHRBWFRvMmJkUEFNSUtXdFV6ZGRGSmd5OG1uQnY5ajJIVllYdVNjUVN5THRhakwzSQ",
     "CBMiuwFBVV95cUxOWEhDXzFReUtqMV9hcU04S0cwZHdyUkZPMG5Hbzg2NUJaLU1yNVRLd2dLaEdsNzlTNnBwY29RZlhOV003dUo4dGlWekFrT1ExdGppcXhlRFhWUHV2bGVJZnNqbDNnR2lBUmJpT1FnZU5IOGZaZ2VJNGFqOFhEaTJCUndVMno1QjVHU2JBcWNpazlnRVduNkN3d1NBbVJ6aE5OUTFNZ0NzWkNRRjFJNG9FZ0lvSHZMVXJtdjNr",
     "CBMib0FVX3lxTE5nZzhrb184SUJ5dnpuT0FLSktzVGtxWVdRNmwxRWJ6Ni10Ry1Oa1BJeHhiWEl3TjZkS01SWU5EMzZ4QlRSckdtTldEbmJaeGdnblJ6dkEyVFFDTGhGV1lCRm1MUHlTV3JEYTFWa3Bnaw",
     "CBMijgFBVV95cUxQV241U3BTaW5mMlFyWl9iTmpBOTV1d0k1ZXhyOUFrOEttR1FYY0d3d3FnN1U2eVl3d2NGXzdfcG1JQXFkMFI0dzRJNUNIRG82S2kyeHdJbHp3RjN6YURmV1JIY2NIbnVXTmRybGszODZZd05DUXZibUF0WGI1LUJPc2lhUzJ2cmV0eHZrbnZn",
@@ -3312,11 +3311,12 @@
     "CBMiqgFBVV95cUxNRVlLaG1sOWY0YjAzeTRCd0NEbDYxWjRVRm85M0FrVGN3WmctdENOeWctLVJkWnFsYzB3QkdpdzdJemg4UjlCUXpRRDdTVTR2QWtNSF92aHhiNDl4ZlZHNjV4bmtPeDBVR0ZhUGlqNkhsR2ZtQ096R0FYUkZzdGJ3ekprU0hNNnVXZ2swU0ltejQ5NHpVSFJBeFVKN2dibG9pVXU1eXZKc1Vadw",
     "CBMilwJBVV95cUxPd3U2WXE0U243d2lBRVJMVjNuNENQc3lJWmxYbTZ1Mm11am1NLTVUajdOc2tKaklJaUlfaE1XZ3ZfYnA5RXl4OGE3SmFfWTk5VUdGTzNBcWszMlZSelJMQUJpY3BtcWpzdVo5R09FSzdLNHA4a2dpcDllR1ZQTjNDdFhTaXZuTXVtSWFhLThDMWNkT1RJbDc5TEYwSzNwRDVkcUtwRkdwNGNBTUVxdXNwcWxnTDdlM25FV2FIQ19lX0lqVjZFZFRqVVctbWxsM1JRdzloYjFyZm0zZS1rcDdSaFZqamNlNEQzQUk3WFRkdlJMMGtpbUFEdDk2amtfYWhmd1VJdHZPZGIwOUhBWFlQN3p4THNUNk0",
     "CBMiigFBVV95cUxOU09Gd1N5R01mdTZsNGlFMkQ0bF8xcnlvWmhoQVhJRXppaXhpaGQ2TUF2Zm1wR3p4VzlySHZSSmF4X2d2VXg3Q19wRUdOMGhqZkRhRnpWQXgxQTdIdmZxR0FwTVRzeF93OWxYazlwR0NudHFDOW5NcGo3SVFBb19YZ01FbjRtanh5eVE",
-    "CBMi0gFBVV95cUxQby03MEh2NVU4RkpXcEtuUFdYWGkyZjJFTkExak14SEo1YnFuSENrUVV0UHhoMGNtUXNrUUhiOUtHTXRyVEhadUNBVTF1eXpMOTY1b0NadGlqVHdQYUtTX0g4TFpFSUVUN3dLZ1Vud0RQQV9rNUtpNkZZRVVMOExubWprcDRLWGZOSHVDekdqZmYtNjhJTi12dTF6cC1HVHY5WHlCS1BtY19KRDJSZFkzTXl1S2h3czgzVHVGS2wxeVo5aFRtUmFRaTlCdGdGSjFjdEE"
+    "CBMi0gFBVV95cUxQby03MEh2NVU4RkpXcEtuUFdYWGkyZjJFTkExak14SEo1YnFuSENrUVV0UHhoMGNtUXNrUUhiOUtHTXRyVEhadUNBVTF1eXpMOTY1b0NadGlqVHdQYUtTX0g4TFpFSUVUN3dLZ1Vud0RQQV9rNUtpNkZZRVVMOExubWprcDRLWGZOSHVDekdqZmYtNjhJTi12dTF6cC1HVHY5WHlCS1BtY19KRDJSZFkzTXl1S2h3czgzVHVGS2wxeVo5aFRtUmFRaTlCdGdGSjFjdEE",
+    "https://www.mmafighting.com/?p=505006"
   ],
   "daily": {
     "d": "2026-08-16",
-    "ai": 24,
+    "ai": 25,
     "staged": 2
   }
 }
