@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502597",
     "https://www.mmafighting.com/?p=502624",
     "https://www.mmafighting.com/?p=502640",
     "https://www.mmafighting.com/?p=502644",
@@ -145,6 +144,7 @@
     "https://www.mmafighting.com/?p=505311",
     "https://www.mmafighting.com/?p=505325",
     "https://www.mmafighting.com/?p=505329",
+    "https://www.mmafighting.com/?p=505337",
     "https://www.mmafighting.com/?p=505343",
     "https://www.mmafighting.com/?p=505349",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Raul Rosas Jr. Headlines UFC Event for the First Time in Career",
-      "ts": "2026-08-16T08:07:41+00:00"
-    },
-    {
       "t": "UFC 330 Promotional Guidelines Compliance pay: Makhachev, Dern lead way",
       "ts": "2026-08-16T12:01:28+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Backstage UFC 330 footage shows Daniel Cormier pleading with Usman Nurmagomedov to sign",
       "ts": "2026-08-16T17:00:00+00:00"
+    },
+    {
+      "t": "UFC 331 main card announced",
+      "ts": "2026-08-16T06:40:50+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White stopped face-off after Islam Makhachev’s UFC 330 win fearing another Dagestan team brawl",
-      "url": "https://bloodyelbow.com/2026/08/16/dana-white-stopped-face-off-after-islam-makhachevs-ufc-330-win-fearing-another-dagestan-team-brawl/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-16T14:00:00+00:00"
-    },
     {
       "title": "Islam Makhachev beats Ian Machado Garry at UFC 330 to set record with 17th consecutive win",
       "url": "https://sports.yahoo.com/articles/islam-makhachev-beats-ian-machado-055033592.html",
@@ -2105,15 +2098,21 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-16T17:00:00+00:00"
+    },
+    {
+      "title": "UFC 331 main card announced",
+      "url": "https://www.mmafighting.com/ufc/505337/ufc-331-main-card-announced",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-16T06:40:50+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
   "hour": [
     "2026-08-16T17",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMiowFBVV95cUxOOGZnaEZZaC16NlQ1b2JrYzVuRVlaQThyRnBEaTBDM0o5Ylc3VUw2Q2EwNmxHQW9sdjZUZ2xic1Fxd0lxbFBlTUVaVkV3SjlZcU00Q3VCRks4ckNUZHNxQ2JIc09oOFRXUFJlalk5dHdjUnZja1NCTUFTOVF5SEIwdnVjN3NKU3RqWWIxWFE5dEtjZkZIcmlJeUl5T3RxUzJTbEM4",
     "CBMiiwFBVV95cUxQX2Y2Z2J4cTZBejZla05vQVo1am9PSnBxQ3h4X3FXaWRTM3VEUE5YaWxYVnpDeGx2ekxBQnFRRG1SelZGUWFGLXNTcEZVeHZOZ3htR0poZjZWempyMzdmbHBfY0U3eUlLUnBORGttOTRyU3pHRER6VWxrREVCQmQyZlBWTjhPVFMxMS1r",
     "CBMiygFBVV95cUxOU1owLTExNnN6TE0tQ3NKcEcxcTJjYTcxOVpOYVpDUVVzdXJhMVA4SjJpUDRyN3g2RU5xQVF6akNvRk1jZGRJY1NiOW5fOXNBcFphZDI1Y25GbGJubkYzUkwzQjBTemtRS3BJU0Z2cjBkdEdab0pTTXdBVGRTOXFmOXBLS05Uc1Z3U0U3T1A2Rl9kTnR6YkdJWUZjWFYyZjB4amNDaG5Rcll2aVBYWm9FNzEtbWZPbnh0Qlo0SndqZzZ2VVlfbjdPOUt3",
     "CBMiwgFBVV95cUxQMGppT3ZtNHRFYU1EOWlZY0RJUXN0Rm41bFlMVDBoenVsWTRuXzRzZl9XNFA0Yzd2UVNyMzZ4MnNZenNFVzRZem52UW9vWlkxd0ZDZ3JqcjBtRnl3NnBObUxpTllSLW5ZaFluRVdXVlBiUU9uN194NFMzVjk1UTBzQWg5Wm44aUhEd2xva2I4V1FvTDllY0ZXeXlwUVZpUTdWUWVPbTBSLThLWmxZWVl0VjZuYjFaTGdNbUpLcEE1cnVZdw",
@@ -3312,7 +3311,8 @@
     "CBMirwFBVV95cUxQczZ3MGhiZTBBbk1ud19Ka0ZyZllIOWtqX1RQcVI3N3YyWndidzI3dUlUU2JxM1BCbnYyXzZ6UzZZczRMci1hOHRRblk3YnJ6eUVKVVpoYUUzUzVIMmtKb0FyMkVxQUg4SGQ2MFNMSmZTMkhuZExnYXFJNlpLdUlwSnRNR3k3VjBORmc4NUV4cWwtZVJQRDlJczlzMGpkX0F6Y0RDbElzUUhZbTJaRzhV",
     "CBMiW0FVX3lxTFAzUm5zcUZ6TmJYZTdQLUx2Z09oQzcyRnpKUUo5M1p3b09uWmdGaVptaDVBMVd6M3ROS2J2ZWgtQXpHS1k0WWlfLWJpc0YwTXktVzkyWWx2X3NuSFE",
     "CBMigAFBVV95cUxQQTRybDBCVGZzbWRwX2VIeGFtd05XZWpadlZqeWNWRklDRTdubHpXSzNNcWljNmlYNHBuRGVKM2pLVVI2OE9HYUo5ckxmNkhaM2dTclB3b2dlVDBsaW5pSnFxUnEwMHFXdG44VnBtbXBmSWhaUndwRW9MSmdOcy1aeQ",
-    "https://bloodyelbow.com/?p=327268"
+    "https://bloodyelbow.com/?p=327268",
+    "https://www.mmafighting.com/?p=505337"
   ],
   "daily": {
     "d": "2026-08-16",
