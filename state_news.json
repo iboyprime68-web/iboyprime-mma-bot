@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 330 Recap (WORK IN PROGRESS)",
-      "ts": "2026-08-16T07:23:23+00:00"
-    },
-    {
-      "t": "Dana White, Islam Makhachev puzzled by Ian Machado Garry's show of respect during UFC 330 title fight",
-      "ts": "2026-08-16T07:32:03+00:00"
-    },
-    {
       "t": "UFC 330 Bonuses Revealed Following Violent Card",
       "ts": "2026-08-16T07:46:47+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Ian Machado Garry releases statement following UFC 330 loss to Islam Makhachev https://www.mmafighting.com/ufc/505343/ian-machado-garry-releases-stat…",
       "ts": "2026-08-16T15:02:33+00:00"
+    },
+    {
+      "t": "UFC 330 highlights video, poll: Vote for best knockout, submission in Philly",
+      "ts": "2026-08-16T15:20:00+00:00"
+    },
+    {
+      "t": "UFC 330 Fights to Make: What’s Next for Every Fighter",
+      "ts": "2026-08-16T15:23:50+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev’s UFC 330 win breaks coveted record Anderson Silva set 14 years ago",
-      "url": "https://bloodyelbow.com/2026/08/16/islam-makhachevs-ufc-330-win-breaks-coveted-record-anderson-silva-set-14-years-ago/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:29:30+00:00"
-    },
-    {
-      "title": "'He looked human': Fighters react to Islam Makhachev's historic UFC330 title defense https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc-…",
-      "url": "https://nitter.net/MMAJunkie/status/2088845687270027357#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:29:55+00:00"
-    },
     {
       "title": "UFC330 results: Islam Makhachev wins chess match over Ian Machado Garry https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc-330-results-i…",
       "url": "https://nitter.net/MMAJunkie/status/2088846547706347672#m",
@@ -2105,6 +2091,20 @@
       "source": "MMA Fighting on X",
       "cat": "ufc",
       "ts": "2026-08-16T15:02:33+00:00"
+    },
+    {
+      "title": "UFC 330 highlights video, poll: Vote for best knockout, submission in Philly",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNUDVJRGV4SENqY0sxVm8weEVVb1Ztc2FrQWdKR0FsQVhyS3lwUmd3ak1ObWdDWVZkN0xQd25GSU9kVEI2cWJfdENqNTAtZ3lhYm5vX2FWYVRoMDdTdk8tbUFlM3JvM0RLQWxTekhEX18wWFdlSDVtWVp0am9VZ2U5WFJPU0lwdnFoS0MxTUtGYWppaGQ0azZsUXpHTGxhQ0diVHNyRjN0VXZDRjRCY1hJZzBiQmRqQU5TZFpHUnplZUk3NFN0cnNHODloWDUzZXUxV19XV2NZSjg5UmpvQkxRN1YtVm5RS3Exbm5XaHZ0ZHZhSjRVRXgzX2wzUTJhMm55SlE?oc=5",
+      "source": "mmajunkie.usatoday.com",
+      "cat": "ufc",
+      "ts": "2026-08-16T15:20:00+00:00"
+    },
+    {
+      "title": "UFC 330 Fights to Make: What’s Next for Every Fighter",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE90cFg1WXVGVlJweW56S3dEVk45dkUtQjFPY0UxRTROR1ZIbmdJY3NkTHV0MjFUaDB6T0ZiVldyZi1LLUROUjRaNzZrMUhRSEVMUUpIYUxMc1g?oc=5",
+      "source": "Fightomic",
+      "cat": "ufc",
+      "ts": "2026-08-16T15:23:50+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "254bf9f2-8253-3b38-9a4f-b997e3449d63",
-    "5bdc57c8-546e-39c1-a41c-ce85e5a3ce26",
     "b206f5e5-7cbc-350b-ad68-2774143590b9",
     "CBMijwFBVV95cUxNNXRTZ0dOZExpSjJ5TzJvSlNMNnVGaGlnd194NVdMWFY4bVVrUXFEcXZNdnNQZU1jdTliaXNVNEIyZXNBY1JTV1RYRjRiMnhHOVZydFdWM3NpeEdMWHdyXzAyS25QWE9GcG5maUJMM3lDanliMERzS2ZjcVhSMUJEQ1cwcl9NYUNzU0RJa2RHWQ",
     "CBMi1wFBVV95cUxQanJTMkwtVDBxR3pmVWFHdGI1MkNtTFJhVXRydlVKdFpXMEhwLVgzQ2lSQjRGUi1TZzljTEk4YjVTN3NhbHlLWUo3WDV6R2h3Qm5PelhVbkJLQzA5ZDhJR2U2eE5FQ0NUMkh5d0psaWNXczVLd3pPLWVtaUFfRl90cV9KcnotSlR1cjNSRWJXbFlOSGVqdnFfNlRqTkw0QUkwVnhJeUc3UmMxdXl5dTdCajRvWmNCbWo0em0zclZXLU05OUh1Z0NRREdHZmhNSFp5VGpOcWVlTdIB3AFBVV95cUxQanpKa3BqY0ZOTmZHdTBBV1hZajdjeG9TTkxtNmZDR2RwcXJTMlRFa1VRLUk5UWFUczk0TDhYTGxOMTFFbWxIM2pmWnE1R2tMWUR0QkNfek9vNUhOQ0FoY0Z5cVcyVTVCbmlVM3pWWjVwWEZFLUJfYndzclJoZUx1M3lUR2lhdlJwcHlQRWRoSWEzVEVPT0tFTFMwM0kyNk9PLW1xeGhzRE5JV1l0TUE3bEFfQ2pwcGtlYWpJeGJRRm9UN1hpaEZfdkM1ajhQN3dZZzh6N1ZyamhyUmhs",
@@ -3312,7 +3310,9 @@
     "CBMifkFVX3lxTE1uM2VXekpJMXBSMUxab1RNQ3R6UFNGdVJtaVVYMzFFQkxreTZXMmlwOTZORVRBdk5JcXkwbHVvRFl0U08zM1NEcUJGZzVEbjgtQ3BvbEJReURONXZ2S21CWVdaQ05OR3ZEQWZvTUhMeUJzaEJKRGdzV3gzVmRzZw",
     "2089004379731087585",
     "2089004434281865415",
-    "2089004896683237820"
+    "2089004896683237820",
+    "CBMiggJBVV95cUxNUDVJRGV4SENqY0sxVm8weEVVb1Ztc2FrQWdKR0FsQVhyS3lwUmd3ak1ObWdDWVZkN0xQd25GSU9kVEI2cWJfdENqNTAtZ3lhYm5vX2FWYVRoMDdTdk8tbUFlM3JvM0RLQWxTekhEX18wWFdlSDVtWVp0am9VZ2U5WFJPU0lwdnFoS0MxTUtGYWppaGQ0azZsUXpHTGxhQ0diVHNyRjN0VXZDRjRCY1hJZzBiQmRqQU5TZFpHUnplZUk3NFN0cnNHODloWDUzZXUxV19XV2NZSjg5UmpvQkxRN1YtVm5RS3Exbm5XaHZ0ZHZhSjRVRXgzX2wzUTJhMm55SlE",
+    "CBMiWEFVX3lxTE90cFg1WXVGVlJweW56S3dEVk45dkUtQjFPY0UxRTROR1ZIbmdJY3NkTHV0MjFUaDB6T0ZiVldyZi1LLUROUjRaNzZrMUhRSEVMUUpIYUxMc1g"
   ],
   "daily": {
     "d": "2026-08-16",
