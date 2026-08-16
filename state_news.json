@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Mackenzie Dern defends crown, outpoints Gillian Robertson in gritty Philly battle at UFC 330",
-      "ts": "2026-08-16T03:40:00+00:00"
-    },
-    {
-      "t": "Edson Barboza removes his gloves for the final time after UFC 330 loss, breaks down in tears while announc",
-      "ts": "2026-08-16T03:41:32+00:00"
-    },
-    {
       "t": "Mackenzie Dern Outgrapples Gillian Robertson To Retain UFC Strawweight Title - Highlights",
       "ts": "2026-08-16T03:45:01+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Jalin Turner: BMF title fight 'very enticing' after new 5-fight contract | UFC 330",
       "ts": "2026-08-16T03:24:00+00:00"
+    },
+    {
+      "t": "Jalin Turner Gets The TKO Just 39 Seconds Into Round 1 | UFC 330",
+      "ts": "2026-08-16T04:01:11+00:00"
+    },
+    {
+      "t": "Mackenzie Dern Post-Fight Interview | UFC 330",
+      "ts": "2026-08-16T04:16:25+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Alexander Volkanovski vs. Movsar Evloev, Petr Yan vs. Merab Dvalishvili trilogy bout set for UFC 333",
-      "url": "https://sports.yahoo.com/articles/alexander-volkanovski-vs-movsar-evloev-024453432.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T02:44:53+00:00"
-    },
-    {
-      "title": "Video: UFC 330 post-fight press conference live stream",
-      "url": "https://sports.yahoo.com/articles/video-ufc-330-post-fight-030022513.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T03:00:22+00:00"
-    },
     {
       "title": "Dustin Stoltzfus def. Mansur Abdul-Malik at UFC 330: Best photos",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRE5tMTR0LUlDRHZVYXc5YTlLWnpGaEYyX2FHQWtSc3IzZnZKcW1uTVRDLS1lTUFUSUM0OEpOa1ppaWV1amV4aWVVVXFCaWtaaXNHeTF3emk3M1dwUko4TjJLMUFQV0NSR2FZVnNRSnQzRGd2S2s0aVVDTHRsWU5wOFFidEhDc3ozX2Zkc0twemFjd1Z5VWk2LXl4ekZwcnVST0lxTHVxV2VvN0ZoTjVOeWEwMnFZOE85M09NSmY4S01YdTlacFhxSXdQWUlOMUhyZVBkT3NvQktHa2xIYkE?oc=5",
@@ -2105,6 +2091,20 @@
       "source": "Yahoo Sports Canada",
       "cat": "ufc",
       "ts": "2026-08-16T03:24:00+00:00"
+    },
+    {
+      "title": "Jalin Turner Gets The TKO Just 39 Seconds Into Round 1 UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1aTDRydHhIaFZXNHBTZm5pSEJqdVIwS1A3V0RTWlk1MFZaek02cHowbV84YzBpemRDQUFnVFpXZG0tNHRXTzJr?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-16T04:01:11+00:00"
+    },
+    {
+      "title": "Mackenzie Dern Post-Fight Interview UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBPaHZGeklidEhxbS1XeTNvZ181aVhmZ1AwV0dWRFU5MHVUV3JHV1pJV2Q0czB5RkR6RmJKVC1iMnF4dUFNLW44?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-16T04:16:25+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,8 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "009d37d0-2ab5-3a9e-8506-580c43952b27",
-    "e4a1f1eb-5bee-3396-b772-1723658a93b3",
     "CBMigAFBVV95cUxOVnZNUndDUHRyQWZibjk1UTVxNXJmN1k2dWdTVG1UNXFXZnBNS3dBLTl6SnpwdGh6NTBweW0zNWtTTUR6SG56VTZTZGhieGNBWTAtdWJINTFlR1lBRy1jQ09vTDVOZlpOODUwbGhiWWp0ekxDWWdQTksyQnJ4b2pBcw",
     "CBMirAFBVV95cUxOekJNTGkwS250Wjd5ZGtvcFptZnY1M0JZOFpkSjZMMmZQSzkwNGxsLVRFVXZCb3pPYkRLcVRZYXZRaHVoQkRUM2hIYlJGb3MwMGVVaHJlbDhreFlRUnFLclJsSkk2NWs3V2ZPcDZiemgxUUlVYUR1c2lZNG1nUDJHbk4taEpmQU4yaU9ROVpfWkVaeXh0QXBSRU5lbkhTWjJEbEMwOEp6SmxGdHow",
     "CBMirwFBVV95cUxNc2JqUVVSZjRPbVUydTdHNFV1OUJaN2JSOWY3Nk4xVUxhRXZrMEJwek43UlNQMTBrcVI1aVJ6c1pjOU1hUW0tUl82WEtyRmdGa1Q0WC1aUy1JMGswTlBna2VIR2l4aExsb3R0dEtLZmxkTExpTTRlcFlmc24zSXVpelhnM19McUxhXzVPTzdZdHM4QVYyck1na1Q0WmFRQVRmdFFYd3hsVVo4Rks0Y1Uw",
@@ -3312,7 +3310,9 @@
     "CBMiwwFBVV95cUxOY3ZZd3drQmVvRXFCdHlVSHpoRGVMS0hYbjdGUzhremVseERPaW1Dcm5CRGdKQWg3YUUtbHNIVTB6bERGODdRXzBGeEltMjVTV3Z2czVYaDBOaGxpUlJXYXpPVzVyYWdiQ2NTcVlfaVJDU1FCa3EtUWZhUm1iWmFmWmZBTFBTS0dKcUV6cm5VRmhlT0RWc1VpNmNUQlJDSXp5T2pncGxFZDdNa3otSWh4WngwRzBXN0dpTnJLTGpONEpmQUHSAcgBQVVfeXFMTWNSN1habFpmTlZPd3NFRGFoNjgwbXJpZlJ0ZTJ6YmNOd2VJNXpLeXJnc0paREF1ZUZaNjJJckhxWHJMRURTQUkxREdWcWxHc1k5T05aejRxTS1vc3U5OENFVUU4UmRROUpPQlNtQ0w5ei1BaHdsNEFXQkxQMGpadlJwc213WWxraEFJbms4Qkg5UHVQb29JeU1lMlJNdVNjY3lnLVgtX3FxbUV1SFhCVHVnX1RaaDVLVFdmMWw1SVR1aF9VRFJjU3k",
     "CBMilwFBVV95cUxQU0xXdWdJSjVkY0FVUWlFcEJjYUUwOUFfMEhhY1JMWmJoNGJzYTgyUnpFYW1Tai1MV3Voa2tVQzlxakZuV1hZaEpwV2lDVmk0ZC1YMHk2aHVpRERvaEQ4b0tuMy1QSGpVSldZR1dVR0pkeFFVNS1fbENuZ01PREJKMjRuM2pITF9JbGhvZUxpNkJqS3BVeEVz",
     "CBMikwFBVV95cUxOWUk2ZjVsNE56RHNxQW9OdFl4Q2I1SEszYjRuaUZEWmMwWWZ5TFZoRDRITDNEM1hvekR1cWF0Qll3aWZBRWpxRVp1WDNOWi1UeFU0aXJ3ako2OVMtZGo4aFVyempuQU9VSHVSS1BMbmxvb1NBLXVpUlJIYnpocVpRcGQ0RmU4T3VmUlFZeUxsWXVoQWc",
-    "CBMijAFBVV95cUxNUzVPWU1vbms1a1FVVWk2bXpnWmRJeDVZUllWR2VhWVBUbUpkUUtfaWxjZkJnRTYxcGQwOVVjdEJYR183OFVSZVNUQ0RzWXo3MHI5S3V4RDZrbm5nVFZwTld3VzFEendmQzE0ZkFRYWZvWjg2bnhoZlNseTZYMVcxdFVkV2trTGJiT2Rjcw"
+    "CBMijAFBVV95cUxNUzVPWU1vbms1a1FVVWk2bXpnWmRJeDVZUllWR2VhWVBUbUpkUUtfaWxjZkJnRTYxcGQwOVVjdEJYR183OFVSZVNUQ0RzWXo3MHI5S3V4RDZrbm5nVFZwTld3VzFEendmQzE0ZkFRYWZvWjg2bnhoZlNseTZYMVcxdFVkV2trTGJiT2Rjcw",
+    "CBMiR0FVX3lxTE1aTDRydHhIaFZXNHBTZm5pSEJqdVIwS1A3V0RTWlk1MFZaek02cHowbV84YzBpemRDQUFnVFpXZG0tNHRXTzJr",
+    "CBMiR0FVX3lxTFBPaHZGeklidEhxbS1XeTNvZ181aVhmZ1AwV0dWRFU5MHVUV3JHV1pJV2Q0czB5RkR6RmJKVC1iMnF4dUFNLW44"
   ],
   "daily": {
     "d": "2026-08-16",
