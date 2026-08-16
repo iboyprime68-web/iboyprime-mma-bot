@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502446",
     "https://www.mmafighting.com/?p=502469",
     "https://www.mmafighting.com/?p=502472",
     "https://www.mmafighting.com/?p=502484",
@@ -152,6 +151,7 @@
     "https://www.mmafighting.com/?p=505220",
     "https://www.mmafighting.com/?p=505277",
     "https://www.mmafighting.com/?p=505311",
+    "https://www.mmafighting.com/?p=505329",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmafighting.com/?post_type=vm_stream&p=505026",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev retains his #UFC welterweight title at #UFC330 in Philadelphia! 🇷🇺🏆 (🎥 @joseyoungs)",
-      "ts": "2026-08-16T04:38:09+00:00"
-    },
-    {
       "t": "Islam makes history with his 17th straight UFC win, breaking Anderson Silva’s record and retaining the welterweight title. But Ian made him work for…",
       "ts": "2026-08-16T04:41:50+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Makhachev vs Garry LIVE: UFC 330 fight updates and results as Russian drops Irish star in record-breaking win",
       "ts": "2026-08-16T11:01:01+00:00"
+    },
+    {
+      "t": "Dana White criticizes Ian Machado Garry for lack of ‘killer instinct’ against Islam Makhachev at UFC 330",
+      "ts": "2026-08-16T06:24:27+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Biggest Winners, Loser From UFC 330",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNM1pVMTZiUC1hQXRZNGlZT1RtbFJhUktCdkllem1OZmVjZEU5RDNJeklPWU9iQkVWdUpMV0QxSWVEMmYyWm1QSkRKc1VtZnlZWlhHT0RzZlNZNmxRQXZ0NGJjNDA1LUxzVFlhdzhvWk4zLTlIdnE2QTVocVFjd0hsSm56NHhmVDBiZXdhb0xETk5kWld1QThRY1ZOdm1yMmpsWk4zcHpkRHZhQnVfN1RsazgxYnNUNlJyZXpEajFlRlFWUzVGLWVhU29COFJEenRCd3hPdmZRU0tkUWhKdUItSm9obFZJSjFpUGhpTjNaQ1FfeG5Xd3NWZUtFZkhfa29JQmdN?oc=5",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-16T11:00:00+00:00"
-    },
     {
       "title": "Charleston Battery vs. Miami FC Live Stream of USL Championship",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5d2dOSTVLaXI1eXZPWC0waThEVDdmd0ZmcU1KTGRGeE5SNDRLNFI5aUlvNllnNXd6Ujk2N3ZUU3g2YjlHUGdvRWt2TkxLRFdKbTlaUkxvYzdZaV9iSVE?oc=5",
@@ -2105,15 +2098,21 @@
       "source": "TWSN",
       "cat": "ufc",
       "ts": "2026-08-16T11:30:00+00:00"
+    },
+    {
+      "title": "Dana White criticizes Ian Machado Garry for lack of ‘killer instinct’ against Islam Makhachev at UFC 330",
+      "url": "https://www.mmafighting.com/ufc/505329/dana-white-criticizes-ian-machado-garry-for-lack-of-killer-instinct-against-islam-makhachev-at-ufc-330",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-16T06:24:27+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
   "hour": [
-    "2026-08-16T11",
-    13
+    "2026-08-16T12",
+    1
   ],
   "yt_eval": [
-    "CBMiuAFBVV95cUxPcXZMYlVpVWMyMWM5TUIyazJ4LXFhQTdnSlYxQTk4aUx5QnpNQVFQcVpUdXg1OTdYc2YyT2d2ajZibHJsOHZveF9HVlRwZVRaSFMya2F0RTF6UGYybHhkbTJyVGtJUFF1dkJOVWZPd3Fja1pLQjQ1ajNfbVlodVJvY2hwNFI1aWhfNV83Zm15Uk9TSHZqblQ3ZVJoY1V6bllDTEwtLXBXT0xDRmR4ZEk3RVZEN09ZRkNL",
     "https://bloodyelbow.com/?p=326820",
     "CBMie0FVX3lxTE1rRG1sZVR6b0pZelB6YXFrdm1oNlVQYVFSUTNUNFBvOUZQWW9wbnY2WEI5alhWbGFHTEdiWFQwclZUaGZWNVVtemFjd25haGp1WTVrTDdIOG1JbjZhZ0pJRW5RLXRSTXp3NU82MkhqOVR5eUl0Tk05MVpzNA",
     "CBMiigFBVV95cUxQSUdwTXktX1Vha3Zabk9XTDl0RnFBR05MRmZmaF9KSVNPUHZNQ0RRQU10QnhteTl2Y1RIODBCaXpQSkE1WTk3MHlreTNaRVU2RWI5dERCdnpNSWxUWVNHdDBFLWo1VlZrWnVmWHpmZU9nVlo2VFpzLXB5ZzkyWFc3OTdpRHMzdlJTb3c",
@@ -3312,7 +3311,8 @@
     "CBMi1gFBVV95cUxPb1VnNWNmcGFsNHhMRjZVQUhnNlRSb0M3eFdVRkc5dXU4VnB3MUJqTkdoRjNIUUFyenh2dnBab0FLR1Y5QmpKZmhrQ1pRZmRFNGFMX0FMYjBqbkJVdUcwVnlPNndkcW83dVhqVWZSV0V3ZjZtNjA5NWtwcUw4bnJYT2lBYmZmcHRoRGVaRlQ1MFRlZ2t0bm90YU9leUNxWThnd0NMeXJDakpsNnhmZmVBWHZWam9lN21XX3lGRDdCeTN6Um9vSDFDNHNHa1VzMURxdXI5V3RB",
     "CBMihgFBVV95cUxPREEzQ3lqYnVnRDNKVFBQbmNBSXhrNTRkQXBCNFN6emhVRFJWcXByY1pyeW9XcnNvdTRTRlFtQmhZTlMyZmJWRnNMLVZtdDF5S0Z4NG5DSUNHcjVHV09VSHA2NVNlTkJoOHBnOVowOHRlVlUxX19sSEg4SVRBbExTQWxhT1psdw",
     "CBMitAFBVV95cUxPQUlaTmVNa3BQUGlKZ0RoX3ZwYmdsaHgyUXRjMVdmNWFTWEVtd3hUdElibWNiRDN5MzlBNm5ZNTUxaHM4aUNTcms4OVpQVnhwbjd3Ullod1dyd3lDMHdtT1BQMXNrWjAxaDZESGJSbE5yNTZMWGNwQ2k4OFJVc3Npdm5tYzYwWkM1R2V1c25uRG5NZ3BKZkpLT0x0ak1QSHl0bWRtYUVhNG4xSTlKX094UFRjZ1g",
-    "CBMifEFVX3lxTE0xamJtTS12Tzh4MGJFTDRrVUhuYzFVSU5EaUNudG9TUVQtMHdGMENwdjNzc2M4NExId0hpZV92VTRLUTJjSVk0QWFSLVJIMVkwdEJmUXluUFhPQkwzeGwxMEUxUDd0VVB2N2JxVHRKTGRYVEtWZl9QeXFFaFE"
+    "CBMifEFVX3lxTE0xamJtTS12Tzh4MGJFTDRrVUhuYzFVSU5EaUNudG9TUVQtMHdGMENwdjNzc2M4NExId0hpZV92VTRLUTJjSVk0QWFSLVJIMVkwdEJmUXluUFhPQkwzeGwxMEUxUDd0VVB2N2JxVHRKTGRYVEtWZl9QeXFFaFE",
+    "https://www.mmafighting.com/?p=505329"
   ],
   "daily": {
     "d": "2026-08-16",
