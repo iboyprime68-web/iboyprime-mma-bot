@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502569",
     "https://www.mmafighting.com/?p=502575",
     "https://www.mmafighting.com/?p=502580",
     "https://www.mmafighting.com/?p=502591",
@@ -874,6 +873,7 @@
     "https://www.mmamania.com/?p=465026",
     "https://www.mmamania.com/?p=465163",
     "https://www.mmamania.com/?p=465165",
+    "https://www.mmamania.com/?p=465237",
     "https://www.mmamania.com/?p=465250",
     "https://www.mmamania.com/?p=465257",
     "https://www.mmamania.com/?p=465264",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Side by side. [ @MAKHACHEVMMA | @TeamKhabib | #UFC330 ]",
-      "ts": "2026-08-16T03:45:18+00:00"
-    },
     {
       "t": "Here. We. Go. #UFC330 is LIVE NOW on @ParamountPlus!",
       "ts": "2026-08-16T03:46:58+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Islam Makhachev is all smiles after breaking Anderson Silva's consecutive wins record at #UFC330: \"It's not more Anderson Silva. It's Islam Makhachev…",
       "ts": "2026-08-16T06:24:24+00:00"
+    },
+    {
+      "t": "UFC 330, The Morning After: Islam Makhachev, a GOAT following Fedor’s footsteps (not Khabib)",
+      "ts": "2026-08-16T12:34:39+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "2026 UFC event schedule: Anthony Hernandez vs. Gregory Rodrigues, Joshua Van vs. Alexandre Pantoja 2 on tap",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNzJSako1N0NWS1I2RFZJWGxmdUxaN2NJa0ljYVpsdE9rS0JOWlJHLTNLakFLM01QZW5rTnZ5ZnVyNkZMTFdrakw0RldSRk5HMHJ2MHl4OUhmSWhDTS13Q0JfRUEzYlNDX1RTcmozQTI1SVN2Tl9HUl9mZHFyQmpoY3otLTdtSUtMNl9EMWdkVmFtZw?oc=5",
-      "source": "cbssports.com",
-      "cat": "ufc",
-      "ts": "2026-08-16T13:38:00+00:00"
-    },
     {
       "title": "UFC 330: Makhachev vs. Machado Garry Payouts & Fighters’ Salaries",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV3VoTTFSTmNadk5EaTRmTTJKM2FhNGZ1VDZvRWNKeFdnUTNxb2hpYnBqejlCNWJlQ1RkX0dkSE9pOV9KYXNuRzhIMVRLRFY4aHhJdE1xeVhJUUhLQXdWWnJoRVdIRlR0Vk5IdEtHTFE0djUxbnBHWnEySzhZaVpPanZXRjBrdlo5aGx4c3JEaEVzdUVSaVAwc2xUSEVzUQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Fighting on X",
       "cat": "ufc",
       "ts": "2026-08-16T06:21:20+00:00"
+    },
+    {
+      "title": "UFC 330, The Morning After: Islam Makhachev, a GOAT following Fedor’s footsteps (not Khabib)",
+      "url": "https://www.mmamania.com/ufc-330-makhachev-vs-machado-garry-live-stream-start-time-fight-card/465237/ufc-330-the-morning-after-islam-makhachev-a-goat-following-fedors-footsteps-not-khabib",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-16T12:34:39+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     16
   ],
   "yt_eval": [
-    "CBMisAFBVV95cUxQZktqQnZfbWNsN1M0UDEyUE55Y2otOXRYNHQ4YmJ1cmRMUFpONnhFdW1Vc2RUbU96TTFwRVB4a0VLOGx0Y2tOd0IxTVZEQnBxMkdSYVUxdXdPZjVtSTJaUFhwLWhDb1M2RU9jR0sta3pIdy1GcmFBc3d4TDhTYWZQR2J3VEpXbnEtcGdnOGdBUHZKUHNBaElhUGZDOTAzU25ROFVNZGY0ZjlVSXdTNmJPWQ",
     "6f309762-42e3-3fec-ada6-955dd5dd5de9",
     "CBMi7gFBVV95cUxOTURGaWNnU0c0UlBHSWpEQXZVQktlWnN5alR4ZklzanBmdVdHSlRCQXdWZE1jM0tvSER3OXc4T1lwdmIwRmk0V0VZUlJ4Z3dGZkVTQVYySXBaY0MxZk1WYVhPb25udVNOd2FPbzFpVkVuYlFRZVMzcEtmQkpaUkRUck9GRG9NUkRuM3RROVR4TUx4MThCbHlGVHlyY2VhZHVSbnhyMmpuQmRlTUZjeHJlX2xJVmJSZTBHOGw3X1ZyOFJfMzFFaE5VRzhLQXUydk1aajlVVU13UkdVeXVQVlJTVlBycGxCRWNtanVuWEtR0gGCAkFVX3lxTE5WbS1scldqSTVLenlJQ19mYmJIVFpYRjlGdlAyT1ZuM2dHVXhQNU50dWVYRHVfTVlQS2hUU2xZeFJycktGM01CalhsdGdrdllLTkRyQmt4cWhOaDhBeVJ2Z3F1UHVGSHk5enhTMnB5R3UxU0VVUS1VVDc3Y0pnNW9Ha3pnOGpBSHhSYTFLX18xRTNRb1lYVWhfYlNGRGJPNlBySmt0RHduWkVpb2xXU0FSS2hNVlVUSzNLYW1sUDR0Y1Nydm9CSWUtSmd5RDVYa1JFZHROQzhKVDkxU19IYWZES0pyRWxvbndSSWkyb0dUSV9ldEhGRkRxSmZyY29mRVZUZw",
     "CBMilwFBVV95cUxOMzEwa0NSSzFlVGFVNDlDS0JIMkotSTJOdHJYbWxTSzFUQlVIUVRkcUh3a3UwLUlUM1gxcEF6WVI3YlJYMXd2Nkx5MGZfQnNEUkJZdGlkNDlqWXhyS0lDQmZXVDZpZFY5dGhvWTF2SGVRdWFCd2hteFEyZEk3YU9xalR0VEJzelZTNFhwdDQxaVhsUWNYdWpv",
@@ -3312,7 +3311,8 @@
     "CBMilgJBVV95cUxNMlAzUUdsZXVmU3VTS2dNTUpNNl9HSlFjbWtxbkhVSEJVZWxESXBOaGVCa05RNEFxMjNMRjZXSHZpZlJBV3g2QVJPMWNNcXZoaHFHREluQ2xQdzlnSHQ0NmlUMmVEWXpzQ0hlYV9wWmRqNnNRc0NMeWxmUzkzMld1NWs2MWUwSnE2bk9ackp1emRQY1ZoeC01dGlKMFIzT0FvbmlGZ3Z6Z2ZnRnJTOHhDVnVuVnl5dnhjVndiOTVEUVMwb1ZMcU44eVg5c1gySTkxYnRVSk5ET3BiRFNlclpiSVd5ZW96VlhxdnJJYm5CZ3FwN0FJbGhKUmVLTkFMUkkxRjlCSjJjSnAtYVg5c214Q2hvemFNUQ",
     "CBMib0FVX3lxTE5pTTEwcF9KakhhcmVoalZfa1RSejVCMjVpb3RoR28zOXRLV3hYbWtpR2xWSjVEWVJmV0o3eW5sZVNpWGxFY290RmhOSjV6ekxJcnJCaGpWRndCOUZicVdCNkFudzUxZ0FmdmNpUlAzdw",
     "CBMinwFBVV95cUxOdzd2UlJxWHVfSmVQai1QUnJmblFTX1NINU9JLU5HR3RfSWd2dEJrR1FDem5XZlB2WlVDMzBsSXNoZkdnOFVKeVF0dlVVaHVGU3BpWkpHRUd4QW5OMVhWUUZvZldyd29mNGRvVkxYY2FhUjJGN3I4TXNPNlNubXF0NmF2VWRPdXFWU0Ffci1hSkhZbTRjMlFSTTRhWnRXOVU",
-    "CBMid0FVX3lxTE5QekFMNjBpeUFzWDBlVDh2N1JhMnBzTXU2U3BfX3hsMXN5dlBUSEtMYU0xUVAtS3lHMEZ2MklNZGxzX2xaYXJjMUJvOWlEZ3JIc18zR3hFcWNyMkdIME1zanRUdnJTckx1VW9yUVlzUnFXRFhfaHIw"
+    "CBMid0FVX3lxTE5QekFMNjBpeUFzWDBlVDh2N1JhMnBzTXU2U3BfX3hsMXN5dlBUSEtMYU0xUVAtS3lHMEZ2MklNZGxzX2xaYXJjMUJvOWlEZ3JIc18zR3hFcWNyMkdIME1zanRUdnJTckx1VW9yUVlzUnFXRFhfaHIw",
+    "https://www.mmamania.com/?p=465237"
   ],
   "daily": {
     "d": "2026-08-16",
