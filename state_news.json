@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Donte Johnson apologizes for cracking the referee with an elbow at the end of his KO win at #UFC330: \"I'm 2-0 on the night! Who else wants some? I'm…",
-      "ts": "2026-08-16T00:43:05+00:00"
-    },
-    {
       "t": "Pinned: Summer break is over! We’re back LIVE with the Uncrowned UFC 330 Watch Party 👑 Come hang with us for the night. It’s been too long! @connerbu…",
       "ts": "2026-08-16T00:45:35+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Sean Brady vs. Gabriel Bonfim to Headline Nov. 7 UFC Card",
       "ts": "2026-08-16T02:25:09+00:00"
+    },
+    {
+      "t": "UFC 330 live blog: Mackenzie Dern vs. Gillian Robertson",
+      "ts": "2026-08-16T02:30:37+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "HOLD ON TIGHT @EdsonBarbozaJR vs Esteban Ribovics [ UFC330 is LIVE NOW on @ParamountPlus! ]",
-      "url": "https://nitter.net/ufc/status/2088798059098784232#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T01:20:39+00:00"
-    },
     {
       "title": "THE MAIN EVENT 👀 @MAKHACHEVMMA vs @IanGarryMMA [ UFC330 is LIVE NOW on @ParamountPlus ]",
       "url": "https://nitter.net/ufc/status/2088799060329423269#m",
@@ -2105,6 +2098,13 @@
       "source": "Cageside Press",
       "cat": "ufc",
       "ts": "2026-08-16T02:25:09+00:00"
+    },
+    {
+      "title": "UFC 330 live blog: Mackenzie Dern vs. Gillian Robertson",
+      "url": "https://www.mmafighting.com/ufc/504930/ufc-330-live-blog-mackenzie-dern-vs-gillian-robertson",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-16T02:30:37+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "CBMinAFBVV95cUxQRzlpSG9lWGt3QXpaT2Q2d0ExdDdHX243dzBWQ19TMDBfdXJxdldhNWJlNkR5SlJXVmwtOEdSUXNHMHp0TXFQYTJIUTYwZXBtbnoxQkhMTFF2SVVZTFJxVFUwLU1yYkNMTmgwbTdWck1LR3JhTzVLYS1MNzNYZzA3U0lSMmZ1eGY0eS15Z3FGYmoxVWZ3QmZrbElJRWo",
     "https://bloodyelbow.com/?p=326617",
     "CBMijwFBVV95cUxNYkEwbDMyaFpteGRQXzlaTFkxem9CZlIta2JsQ2gxdllPYlVKZFdpV3dOekY5a25vUzVSa05VQTNDNWFrcEhfVnBWMmhSSlZwSnJFYUNCaks5TENpWmNHeGNpX1Y0MXYxMU43YklPNmdhQzkxRGJEYkRrWlVSV2hkWk82VWhsaVZqNkVsQXgzYw",
     "CBMipwFBVV95cUxOOXBwT2tZa0FHX0ZxR1JDSnR3OGlCLWNUejZJTXZXT2IwRXlMNE42N1NvLTVJTHVRU3EyWm92YUw5MzVzY3Y4Xzk5TWFYREtrVl81czFZaUx3Z3FqWEhiaDFQQWNZb0loRHFfa25aUDYtNTRBdnAyNWJ6ZHhGTURJQmZhZWpzb09Qa19Sb3dwSDFieWpmOUhDb29VUXByM2FQY0owd1E5NA",
@@ -3312,7 +3311,8 @@
     "CBMiogFBVV95cUxPVHRhN0szUzJSQWloaGRibHlSZXo3UFc1RGFUSFpIOHhjZkF6amMzb1RNeEhuN3MtMUUwbG9qLXBXT2xOOWJ5UkFrMmF5aWIyZHlkbUdUempQMmpLMjRlRkdicTVGdWRzYVh3VEZKUGZuZFV4S2ZFYXliejQ4Zk1GbUZBcUxuQW8zQVdkMEt6aXhkVkVrcnlVRHlRcW9iaVY4Q1E",
     "CBMikAFBVV95cUxQR09EUjNiREtoa0JzREpFaENZWFpfbXdUdXBNMU4xMHBPZ3V6NGxhNC1JRHNhS0xFc2M1bDVmczhHSk5rd3JaVXVUYzhHaXVoenY1OGc2WUFJNmNhQXY1QXRxM3IxdkJOSWRoM0hTd0x2eFdickJBcU1GdGxjLWw1cTBLRUZiVlp4cE9FbF9XVmE",
     "CBMilAFBVV95cUxNQ3dXcjJsX2VmMTJfa1lYY1BFRTdjbzA5dWxHamNkZER3RGJpSHVSYUhLdWpwRm03V0hXeGdhSEFmRzZhSzkweV9yRjVXYTE5OC1oRk5CNTd1ekV3S3FlZ2hkSlRGV3VnVWc0ay1KUkxmRzdfWkx1MHhJMHFXVUhESTh5ZHNQM3htQkdXVm5ZODh5OEZL",
-    "CBMilAFBVV95cUxOT2xhWExpd0RKLWVQckFRaG43X1N1OWllcHBnZ0R1WXJHNlJOYU9mY2ZLNWJRNWstVmRGNV9jZU03MHRCeU1Db0FCcUI1YWUxbUZOLTRNbmNub2xTNDEtdXJmRElHWGMwVDN5OXBhUklOV1R5UWJaa1JTSDNpWUJjaGkxblNEQ3RDY3EwWXNPMVViUi15"
+    "CBMilAFBVV95cUxOT2xhWExpd0RKLWVQckFRaG43X1N1OWllcHBnZ0R1WXJHNlJOYU9mY2ZLNWJRNWstVmRGNV9jZU03MHRCeU1Db0FCcUI1YWUxbUZOLTRNbmNub2xTNDEtdXJmRElHWGMwVDN5OXBhUklOV1R5UWJaa1JTSDNpWUJjaGkxblNEQ3RDY3EwWXNPMVViUi15",
+    "https://www.mmafighting.com/504930/ufc-330-live-blog"
   ],
   "daily": {
     "d": "2026-08-16",
