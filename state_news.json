@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White RIPS Ian Machado Garry for lack of ‘killer instinct’ against Islam Makhachev at #UFC330 Agree? 📰 https://mma-fighting.visitlink.me/FEU5wD",
-      "ts": "2026-08-16T12:45:42+00:00"
-    },
-    {
-      "t": "After an illustrious career that included 10 Fight of the Night bonuses in the #UFC, good for second all-time, Edson Barboza laid down his gloves aft…",
-      "ts": "2026-08-16T12:54:17+00:00"
-    },
-    {
       "t": "Ian Machado Garry lectures Michael Morales backstage at UFC 330: ‘The shit you talk… make sure you back it up’ https://www.mmafighting.com/ufc/505325…",
       "ts": "2026-08-16T13:01:01+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "‘Not about you’… Jon Anik leads critics of ‘awful’ Din Thomas retirement announcement at UFC 330",
       "ts": "2026-08-16T19:52:49+00:00"
+    },
+    {
+      "t": "UFC 330 takeaways: Makhachev vulnerable for 1st time in a while",
+      "ts": "2026-08-16T19:48:05+00:00"
+    },
+    {
+      "t": "Namo Fazil vs Kaik Brito Preview | DWCS Season 10, Week 2",
+      "ts": "2026-08-16T19:51:58+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 330 Post-Fight Press Conference",
-      "url": "https://sports.yahoo.com/articles/ufc-330-post-fight-press-042119592.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:21:19+00:00"
-    },
-    {
-      "title": "'He looked human': Fighters react to Islam Makhachev's historic UFC 330 title defense",
-      "url": "https://sports.yahoo.com/articles/looked-human-fighters-react-islam-042322665.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:23:22+00:00"
-    },
     {
       "title": "Complete UFC 330 Results & Highlights: Islam Makhachev Sets New UFC Record",
       "url": "https://sports.yahoo.com/articles/live-ufc-330-makhachev-vs-170000651.html",
@@ -2105,6 +2091,20 @@
       "source": "International Business Times UK",
       "cat": "ufc",
       "ts": "2026-08-16T19:45:13+00:00"
+    },
+    {
+      "title": "UFC 330 takeaways: Makhachev vulnerable for 1st time in a while",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdkRNT3FCRE1aNkE2aVVWTFozNXFpZVRkR1lQWlZHQkVTQWhIU2c3dE5ITDJ4VGh2V0stX2xoMU1lLTdVWVRRNjNGSElnWnBDbzAyNnExSG04QzFZRkhSTURFMnA1R0pILXhLd01aZ0h2LURoUlYxUTRXTlkweWpsblpDcUR1VzM1NVY2UnloRk9Dc3dFcVQwMXZ4NXlZcy1JMzZDSGVoWEU?oc=5",
+      "source": "theScore",
+      "cat": "ufc",
+      "ts": "2026-08-16T19:48:05+00:00"
+    },
+    {
+      "title": "Namo Fazil vs Kaik Brito Preview DWCS Season 10, Week 2",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE90dGxNMkZuUFlTVlF6cWl4dGhyQXlBdEU0RG1Jd040SFZTdG5DYWJYV1VQYkRNREUzT1hDaG1rYkdPejg1Y1d3?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-16T19:51:58+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,8 +2113,6 @@
     12
   ],
   "yt_eval": [
-    "2088737494405628242",
-    "2088739004451807258",
     "2088739507835113629",
     "CBMijAFBVV95cUxOMmEwSlNtVUZSOG15MUFPZ2FRbGhfQ25acVZHWjgxdG9QV2JQdmVhOU5TUEpQdnpzYlU0SVYxWVFwdlpwSzZFWDJaOHBFNGgxdEQ2d0VWeVVkaGllcEZpTDNvczVpTVBGN3FaX09Kd2NiakpNY0NCQXV2YUlzTnByN2xjZkgxbVdfc1A1cg",
     "CBMiywFBVV95cUxPbm5lb3gtaWQ1Sm00ZFVENUhGYVNEelg0ZXloSnpJZmo1eUpncFVibjhZb0M5V0xwVklXMlM1RThLcUtubE1UQ05OdzNmWlJVaGpmNDNnazNnS0E5TzQ4X1pHLXliZHpQdkQ1Qm5vSzNrSXA4LUFRdktXMEZERTlVdnhCRU9FQWxiTVFwbDZZQVFNTUlNYl83ZFlvMUtsM280RjE1VTZKZHdhZV9mSUM2QjlKSUtsVjlJRC1ULVl6bHRwTmFLdDNuOXQ3VQ",
@@ -3312,7 +3310,9 @@
     "2089073513730605342",
     "CBMiuAFBVV95cUxQSURINXVXeFhtSTIteTk4Szd4S1lYb1RXOHJRM05FUUxsSXpQN3RaMHl3d3VOb241NjN1djlIV0djYndidXVhR0dKRTlTbTZ0VS1YblBDNEV2clZjbDRoWmVYTXpjUjVpb1RNckNOZE9JX0Voc1oxQkhybUVZVFk0cXUzMGxjMHhoS0QwOS1uLWtTbXVGZ2ExT0s0alBoYkdhTFpaMFhPYjdIS3ZNLTVWdTl4WEpnanZL",
     "CBMiiwFBVV95cUxPQUlqRUd5SF9NMlZyZEVhOUV5Z2VlUGluSjJxV3o5UGJjdVRQZDg4VUQ1dFY2azhFZXpHT2d4M3hkSFh4aU5DQS16RUFyMVp5cW96YUxScmtfWGlkcE5ob0pkS1QxbmhRWDhqd04wWDdZanp6Qmw1N3NWejN1OVIwQktISVVXWjIzMnA4",
-    "https://bloodyelbow.com/?p=327383"
+    "https://bloodyelbow.com/?p=327383",
+    "CBMiqAFBVV95cUxNdkRNT3FCRE1aNkE2aVVWTFozNXFpZVRkR1lQWlZHQkVTQWhIU2c3dE5ITDJ4VGh2V0stX2xoMU1lLTdVWVRRNjNGSElnWnBDbzAyNnExSG04QzFZRkhSTURFMnA1R0pILXhLd01aZ0h2LURoUlYxUTRXTlkweWpsblpDcUR1VzM1NVY2UnloRk9Dc3dFcVQwMXZ4NXlZcy1JMzZDSGVoWEU",
+    "CBMiR0FVX3lxTE90dGxNMkZuUFlTVlF6cWl4dGhyQXlBdEU0RG1Jd040SFZTdG5DYWJYV1VQYkRNREUzT1hDaG1rYkdPejg1Y1d3"
   ],
   "daily": {
     "d": "2026-08-16",
