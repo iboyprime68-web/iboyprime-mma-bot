@@ -1,7 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502197",
-    "https://www.mmafighting.com/?p=502210",
     "https://www.mmafighting.com/?p=502216",
     "https://www.mmafighting.com/?p=502278",
     "https://www.mmafighting.com/?p=502342",
@@ -888,6 +886,7 @@
     "https://www.mmamania.com/?p=465163",
     "https://www.mmamania.com/?p=465250",
     "https://www.mmamania.com/?p=465257",
+    "https://www.mmamania.com/?p=465310",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1016,6 +1015,7 @@
     "https://www.sherdog.com/news/news/Islam-Makhachev-and-Ian-Garry-have-contrasting-views-on-womens-authority-202341",
     "https://www.sherdog.com/news/news/Islam-Makhachev-blames-Ilia-Topuria-for-cancellation-of-UFC-White-House-booking-201509",
     "https://www.sherdog.com/news/news/Islam-Makhachev-explains-why-Dagestani-teammates-will-never-fight-202346",
+    "https://www.sherdog.com/news/news/Islam-Makhachev-puts-Ian-Machado-Garry-in-rare-company-after-UFC-330-202370",
     "https://www.sherdog.com/news/news/Islam-Makhachev-reacts-to-Justin-Gaethjes-win-over-Ilia-Topuria-201528",
     "https://www.sherdog.com/news/news/Islam-Makhachev-recalls-epic-school-fight-alongside-Khabib-Nurmagomedov-201520",
     "https://www.sherdog.com/news/news/Islam-Makhachev-recalls-taking-wrong-pills-after-Arman-Tsarukyan-fight-201522",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC 330 results: Edson Barboza retires after Esteban Ribovics TKO loss",
-      "ts": "2026-08-16T02:05:15+00:00"
-    },
     {
       "t": "Both belts stayed home... #AndStill! [ @MAKHACHEVMMA | @MackenzieDern | #UFC330 ]",
       "ts": "2026-08-16T04:43:35+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Quillan Salkilld is the next generation at UFC lightweight",
       "ts": "2026-08-16T06:07:29+00:00"
+    },
+    {
+      "t": "Islam Makhachev puts Ian Machado Garry in rare company after UFC 330",
+      "ts": "2026-08-16T05:56:40+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Ian Machado Garry's UFC title hopes come crashing down in grueling loss to Islam Makhachev",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOREgwYjRWTVFJWTNibEhuQkVMU0E5OTNWT0pPeUlybzB3bXh1WVh3bEdfempCa0Z0YWp6TW1KUDZhQ1dlc2xEMkw2RGhXeHRtQ2JjR2xnQ2JFWGE2YndDem16QnhWRHN5amN1NUFFSXZXcUpTQ1ByQVpLbE84WDJmRGw2ZFpjRDJGY05ESdIBkgFBVV95cUxORVU4aV9Xb3UxdnZhbmtCLWRGazRtTGpQU29EYzdDRmhCZnBPZU1qNnJQM2FLX0R2d3pjUjJkbHhFX1V6dHBxd0Vtb2lSVGtBYlNVLVh0UEljRlRiZEJOTUIwQmNJTHBBQTR2b0tndDNWdkpiUEVvSktXalZKTXdTSllDSUx1S2VkNGJURU9RbFBVUQ?oc=5",
-      "source": "Irish Star",
-      "cat": "ufc",
-      "ts": "2026-08-16T05:12:00+00:00"
-    },
     {
       "title": "\"Looked human\" - Ex-UFC star names \"BIG problem\" matchup for Islam Makhachev following UFC 330 showing",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNDAtRURMWXZKaW1UajhGUGZELTNhVWRuQ1NCUzBQb05oak1GZVpmY1F5VmRiVlVVbE1jcXpxVUxZdklUTElDbkNWbGx4ZWdhWDFJeDdHaDJSZ1JpZEJGbGJkWHFSRmN3UHlGa0JwZWRXN3Y0bVJ0NzctLXF1aVlMb2phLURLbWpQNzZiX2ZpRkR2LVlibTljT2JmWUtCZlJ4Y0ZUTWR4aHhDNE9BSDNwbklQRGJLMXhtcWIzNlQ5cFRoREVZU2Z3SA?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-16T06:07:29+00:00"
+    },
+    {
+      "title": "Islam Makhachev puts Ian Machado Garry in rare company after UFC 330",
+      "url": "https://www.sherdog.com/news/news/Islam-Makhachev-puts-Ian-Machado-Garry-in-rare-company-after-UFC-330-202370",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-16T05:56:40+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMikwFBVV95cUxNU3ptYTRFTm5zWFZWclpXLVdLakE5ZTlHZFI1X1ZXbVdVc2haMVh2TEZjbW93aUI0SVZCYkdJaHh4Z3ZCNjJwNnN1ZzVYNVlHRUxQMWNNdkx0bUx3S0h2RnZBQVVBd0RTSkVUU1VRU0VYMHA4R3hDVEc2THkxWHpkZDVGeFBxX3hnSU1Oai1Sb0lReGM",
     "https://bloodyelbow.com/?p=326695",
     "CBMijAFBVV95cUxPRzh1dVhBbFJMZU4tRXVkU0w2TUl4aVNNVlJpMFdaYXl3WXRBNDlCeENVNWVPUGJ2VmNveDNLQ1FNWkhjRDBEcC1qYm8yaTFtSGUtTlkxM0pQZGZCZ2VjZkUzTGdDRnFwU1dlejBscjVpZ2s4M0VtUmpJS1A5RE5oZm1ZR1QzSWxXUVVvdg",
     "https://www.mmamania.com/464621/mm-clone",
@@ -3312,7 +3311,8 @@
     "CBMigwJBVV95cUxOY1k3UkxqS2ZZVDRhMm5Za2FWazNFLVlOMWJRU19aRVVodHlnVDNRMG9Ed0RzcmdsN3k5ZEJJalZHQjBPR0VwV1JPLURkdFV5Wk0zY0RxTXZZc2NOVFVvNXgwVThlSmNkODNTYTR4X2R3eXRab3BBdEJEZUlFamMwWXRXMGpXeGE4MmEtcjliRG1YWkRvMkFyamR2QkRLbWptVkFPQ2V2WjdvTkQtc3N6eWxyc2dpQWI2dWVtX3ROc2lIY2pGMFRnX2NLOUM4VHNwQ3A5S0lzXy12ZlhKMFV4TWlGMElGWm03dTB3d1dDX2oxSllPUWZRWVNOcTBLWVdCODBn",
     "CBMi2gFBVV95cUxQQ0oxMVFjclhydGN4Q2NOeFhqa1JkeUhCZ2NuUW1fMVRsZDgwRkk3c0NiVjk3MXhPYXplNTV5aGpSSjlTb01Ga1RCSkRfY0lZNU9oTHZ1TU5hX1dFaW9XZUp4Nlk2OFFqWVNaenIwT2hlQ0xyblNsRm93aTRSZHFLLWZidW1ZWUtFNl9Mb0FpMDE2Mm0zUGRiYzNqRlhiakY2V2pHenBydkFFVGQtdFpkOFhGOHlIcUx4YTZTUjI2dGp1LW5PSURUR3cwS0gwcDR5S1A2LXd4Vmd6UQ",
     "CBMiwgFBVV95cUxNOWRRQy16NzhGSWZ3LVZyVlUyZ0lZWVVJUngtZ3AtWUloT0ZvVjhEVS0xMDFtbUlYRG9lQjRtVWpTc2d4aVBlaXZINHNSVEdwQm5HWlRoZHVoUVdPUVVkN1hMOURCQmJ0Vl8xZ0thLUMyc3N6NExhYWFSVFFqVDVJaHVEWjU0bnVDMTVrZkFFN0NKX1JkY254bmNjdG0wRGIyVDdtVXloV3UtdU9BejQ4US1BSnZrVkVoODkyMzU4SVVzZw",
-    "CBMib0FVX3lxTE5nZzhrb184SUJ5dnpuT0FLSktzVGtxWVdRNmwxRWJ6Ni10Ry1Oa1BJeHhiWEl3TjZkS01SWU5EMzZ4QlRSckdtTldEbmJaeGdnblJ6dkEyVFFDTGhGV1lCRm1MUHlTV3JEYTFWa3Bnaw"
+    "CBMib0FVX3lxTE5nZzhrb184SUJ5dnpuT0FLSktzVGtxWVdRNmwxRWJ6Ni10Ry1Oa1BJeHhiWEl3TjZkS01SWU5EMzZ4QlRSckdtTldEbmJaeGdnblJ6dkEyVFFDTGhGV1lCRm1MUHlTV3JEYTFWa3Bnaw",
+    "https://www.sherdog.com/news/news/Islam-Makhachev-puts-Ian-Machado-Garry-in-rare-company-after-UFC-330-202370"
   ],
   "daily": {
     "d": "2026-08-16",
