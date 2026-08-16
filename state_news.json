@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 330 Post-Fight Interviews",
-      "ts": "2026-08-16T12:20:26+00:00"
-    },
-    {
-      "t": "UFC 330: Islam Makhachev Breaks UFC Wins Record With Decision Over Ian Machado Garry",
-      "ts": "2026-08-16T12:22:29+00:00"
-    },
-    {
       "t": "Islam Makhachev Edges Ian Machado Garry to Retain UFC Welterweight Title",
       "ts": "2026-08-16T12:27:03+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Kavanagh-Temirov, Allen-Pico among new UFC 333 additions in Abu Dhabi https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc-333-abu-dhabi-lo…",
       "ts": "2026-08-16T13:45:28+00:00"
+    },
+    {
+      "t": "Islam Makhachev Vs Jack Della Maddalena | Full Fight | UFC 330 Five Guys Merced Closure Date (ICxIHBZSAO)",
+      "ts": "2026-08-16T12:53:53+00:00"
+    },
+    {
+      "t": "Dana White Blasts Ian Garry’s “Killer Instinct” After UFC 330 Loss To Islam Makhachev",
+      "ts": "2026-08-16T13:48:05+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Alexander Volkanovski vs. Movsar Evloev, Petr Yan vs. Merab Dvalishvili trilogy bout set for UFC 333",
-      "url": "https://sports.yahoo.com/articles/alexander-volkanovski-vs-movsar-evloev-024453432.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T02:44:53+00:00"
-    },
-    {
-      "title": "UFC 330 video: Jalin Turner scorches Kaue Fernandes in 39 seconds",
-      "url": "https://sports.yahoo.com/articles/ufc-330-video-jalin-turner-025347482.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T02:53:47+00:00"
-    },
     {
       "title": "Video: UFC 330 post-fight press conference live stream",
       "url": "https://sports.yahoo.com/articles/video-ufc-330-post-fight-030022513.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-16T13:45:28+00:00"
+    },
+    {
+      "title": "Islam Makhachev Vs Jack Della Maddalena Full Fight UFC 330 Five Guys Merced Closure Date (ICxIHBZSAO)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16b3BUVVlFUWx0dlItRHZZT3g5WTBaVWxIQTQyX1RVbzJzaHIxSkp3X2hjSU5McXp4a3BpWWQ3THY5eUlENFROSmJBT3ZOZzVEV1BSV1ptQTIzU3M?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-16T12:53:53+00:00"
+    },
+    {
+      "title": "Dana White Blasts Ian Garry’s “Killer Instinct” After UFC 330 Loss To Islam Makhachev",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeDRseHNvbkxVQjVjbUgyaERITkRhVXI1aXBST2lxejRtYms5dGZBQjNtX3NYaFQ0VUZ1c1E2VFA4Q0xXaGNBM1NqaVdmRUk2UlU5ZDdGRU00MS1rd2NCelUzSm83MDZqVVN4Q2NKQlpndTNkdFUybmhySWtsaXJrZUdmNVgzUQ?oc=5",
+      "source": "LowKickMMA.com",
+      "cat": "ufc",
+      "ts": "2026-08-16T13:48:05+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMixwFBVV95cUxOanJ0ZFRaTk9TSlVIQy1GVEFoX0R6eDFidi1tcC1xZmE0YjdUd0pISmZoQzd3bms3Mlo2b2tYdmcwLXE0QzNDc0htOFRsd1pfcmV3UDNZV3NFeDA3V3E1aUNzdk5qeGFrd0FfV1ZXR2p0bXlTaUVBWVBqa3FwZWZhV29ubVFFLXdrSmVrRG8zOWVPZUV6bHpIaFVBSW1tSkw1Tk5ELUtySnVzRFhIaS1ZaGExeFptZFVhY3NrbHdMTGVoMFNjTlN3",
     "CBMiUEFVX3lxTE01dlVrX0pwX0RQV01oOEdzT1VLZ3lUeXRjejNha1VZME5YS2VoN0RCU3JrVTNTQU1ESGVWcDdjLW9MRUhZTktRNnFIMkNONHRq",
     "CBMiqwFBVV95cUxOSVZxV1lxUzJialV4MmV3d3JHX244Zjg2dFlNalNwRmdUY0dTMjB3WWFNNkJIQzBiSWs2WkhNQzRmSXR1MHdad0ctOGR3dTloOWVSLVJHX2dyOE1MaGhGSWl6SE9Ba1hfc3Y2bmxjTU9KYi01eU5EdmliRmJNcVhVZk9DbGducmNQSzV0VTF2RWhzQ2ZmdWhjU3RTanRtV0psQ19Qd3BSZTNPZXc",
     "CBMimgFBVV95cUxQM2hfTTE4V0xoR1pSSlh1Wk9KMVdPWmZxVEplYkhQQ3F3MEYtQndQZUlJOTdpOWM2VTV4bWpUQVZzemxfVWtSSmxodFZRYzR1b2VqRkdGWlZfU1JMNnZUZGxrV3NxUG9WTmE4WWZzYTRYZFc3VUVaRFFyWHdsZjNuQnREYlZjWnRRSHctOWlhdDNXVjEwdlM1VWlB",
@@ -3312,7 +3311,8 @@
     "CBMixAFBVV95cUxNVnBZdE5kQ2YzeDlqTGJfc3VQbS1fbkhtcl9DTWhOT2pNQkNwWE03QVpSQ2h2cHVTa2VsYm9DeFhidV9RLU95dWE4RkZwQlNtVFZBOTlXR3c2Q3QyMVczMWctRmEteDRQanZLNTBQd0ZoTDk1RFQ1TEFYQjBaOU1CM1FxQzR6VTJDSTBOWE53eHNZRWNHQ3FIbzhyTmU2SjByQUV4MFFRalE5UWdHN0ViVkpWTnNfak1VWGg0SDk2Umd2VXRy",
     "CBMiwAFBVV95cUxOWkttUzMyV2dEdFdhWVNEOVJVYi1QYm1odWZsT09UMWNZNFFUWnZic21icy15RWFlTHJPNnFCZzlMVjZweFRHVUN2ZmV2cGhYOFl4RU81UU9oZXNic0tIRVdCMC1fMWRHZmJTMC11RnNGZ2Y5a3YyZVYtb0JkSWY1Qi1aZWtLOGx0TFprRU9OcE9rTk5HaXJYLWJmWU9mdzNSbms5Sm9zWVBtS1dNQ1pTVnBiSFlSeWcwTnhxeUNqMEc",
     "2088983897593856422",
-    "2088985497842434381"
+    "2088985497842434381",
+    "CBMihgFBVV95cUxNeDRseHNvbkxVQjVjbUgyaERITkRhVXI1aXBST2lxejRtYms5dGZBQjNtX3NYaFQ0VUZ1c1E2VFA4Q0xXaGNBM1NqaVdmRUk2UlU5ZDdGRU00MS1rd2NCelUzSm83MDZqVVN4Q2NKQlpndTNkdFUybmhySWtsaXJrZUdmNVgzUQ"
   ],
   "daily": {
     "d": "2026-08-16",
