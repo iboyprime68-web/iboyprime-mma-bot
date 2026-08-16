@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Petr Yan vs. Merab Dvalishvili title trilogy fight co-headlines UFC 333",
-      "ts": "2026-08-16T02:53:27+00:00"
-    },
-    {
-      "t": "\"I’ve waited so long for this\" - Merab Dvalishvili reacts to UFC 333 rematch against Petr Yan",
-      "ts": "2026-08-16T03:37:00+00:00"
-    },
-    {
       "t": "Mackenzie Dern defends crown, outpoints Gillian Robertson in gritty Philly battle at UFC 330",
       "ts": "2026-08-16T03:40:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "MAIN-CARD-START: UFC 330 Live Free Online TV Covarage",
       "ts": "2026-08-16T04:06:08+00:00"
+    },
+    {
+      "t": "Mackenzie Dern vs. Gillian Robertson full fight video highlights",
+      "ts": "2026-08-16T03:23:00+00:00"
+    },
+    {
+      "t": "Jalin Turner: BMF title fight 'very enticing' after new 5-fight contract | UFC 330",
+      "ts": "2026-08-16T03:24:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 330 video: Dustin Stoltzfus pulls off big upset vs. Mansur Abdul-Malik",
-      "url": "https://sports.yahoo.com/articles/ufc-330-video-dustin-stoltzfus-022604407.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T02:26:04+00:00"
-    },
-    {
-      "title": "UFC 330 results: Charles Johnson hits insanely rare Scottish twister submission",
-      "url": "https://sports.yahoo.com/articles/ufc-330-results-charles-johnson-023317463.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T02:33:17+00:00"
-    },
     {
       "title": "Alexander Volkanovski vs. Movsar Evloev, Petr Yan vs. Merab Dvalishvili trilogy bout set for UFC 333",
       "url": "https://sports.yahoo.com/articles/alexander-volkanovski-vs-movsar-evloev-024453432.html",
@@ -2105,6 +2091,20 @@
       "source": "TimminsToday.com",
       "cat": "ufc",
       "ts": "2026-08-16T04:06:08+00:00"
+    },
+    {
+      "title": "Mackenzie Dern vs. Gillian Robertson full fight video highlights",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUzVPWU1vbms1a1FVVWk2bXpnWmRJeDVZUllWR2VhWVBUbUpkUUtfaWxjZkJnRTYxcGQwOVVjdEJYR183OFVSZVNUQ0RzWXo3MHI5S3V4RDZrbm5nVFZwTld3VzFEendmQzE0ZkFRYWZvWjg2bnhoZlNseTZYMVcxdFVkV2trTGJiT2Rjcw?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-16T03:23:00+00:00"
+    },
+    {
+      "title": "Jalin Turner: BMF title fight 'very enticing' after new 5-fight contract UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONzNfLXBXa2V6NjJ1X0Rwbk1CS2VxdlhvazdRam9Yend5TmNZeFRTeFIwR1pRYkp6TndIaEw2V2h3cW45aFB2dUVPTDRUa29xNFRHRVdldDlvSDJMcmI2d19DeGJWQWJ5S3gxR3pDLXMxQ2VHTy1hQkNFMzJQZEh5X1ZMWQ?oc=5",
+      "source": "Yahoo Sports Canada",
+      "cat": "ufc",
+      "ts": "2026-08-16T03:24:00+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "df290812-ee2f-3851-b097-87c14605fcc6",
     "009d37d0-2ab5-3a9e-8506-580c43952b27",
     "e4a1f1eb-5bee-3396-b772-1723658a93b3",
     "CBMigAFBVV95cUxOVnZNUndDUHRyQWZibjk1UTVxNXJmN1k2dWdTVG1UNXFXZnBNS3dBLTl6SnpwdGh6NTBweW0zNWtTTUR6SG56VTZTZGhieGNBWTAtdWJINTFlR1lBRy1jQ09vTDVOZlpOODUwbGhiWWp0ekxDWWdQTksyQnJ4b2pBcw",
@@ -3312,7 +3311,8 @@
     "2088839339014750307",
     "CBMiwwFBVV95cUxOY3ZZd3drQmVvRXFCdHlVSHpoRGVMS0hYbjdGUzhremVseERPaW1Dcm5CRGdKQWg3YUUtbHNIVTB6bERGODdRXzBGeEltMjVTV3Z2czVYaDBOaGxpUlJXYXpPVzVyYWdiQ2NTcVlfaVJDU1FCa3EtUWZhUm1iWmFmWmZBTFBTS0dKcUV6cm5VRmhlT0RWc1VpNmNUQlJDSXp5T2pncGxFZDdNa3otSWh4WngwRzBXN0dpTnJLTGpONEpmQUHSAcgBQVVfeXFMTWNSN1habFpmTlZPd3NFRGFoNjgwbXJpZlJ0ZTJ6YmNOd2VJNXpLeXJnc0paREF1ZUZaNjJJckhxWHJMRURTQUkxREdWcWxHc1k5T05aejRxTS1vc3U5OENFVUU4UmRROUpPQlNtQ0w5ei1BaHdsNEFXQkxQMGpadlJwc213WWxraEFJbms4Qkg5UHVQb29JeU1lMlJNdVNjY3lnLVgtX3FxbUV1SFhCVHVnX1RaaDVLVFdmMWw1SVR1aF9VRFJjU3k",
     "CBMilwFBVV95cUxQU0xXdWdJSjVkY0FVUWlFcEJjYUUwOUFfMEhhY1JMWmJoNGJzYTgyUnpFYW1Tai1MV3Voa2tVQzlxakZuV1hZaEpwV2lDVmk0ZC1YMHk2aHVpRERvaEQ4b0tuMy1QSGpVSldZR1dVR0pkeFFVNS1fbENuZ01PREJKMjRuM2pITF9JbGhvZUxpNkJqS3BVeEVz",
-    "CBMikwFBVV95cUxOWUk2ZjVsNE56RHNxQW9OdFl4Q2I1SEszYjRuaUZEWmMwWWZ5TFZoRDRITDNEM1hvekR1cWF0Qll3aWZBRWpxRVp1WDNOWi1UeFU0aXJ3ako2OVMtZGo4aFVyempuQU9VSHVSS1BMbmxvb1NBLXVpUlJIYnpocVpRcGQ0RmU4T3VmUlFZeUxsWXVoQWc"
+    "CBMikwFBVV95cUxOWUk2ZjVsNE56RHNxQW9OdFl4Q2I1SEszYjRuaUZEWmMwWWZ5TFZoRDRITDNEM1hvekR1cWF0Qll3aWZBRWpxRVp1WDNOWi1UeFU0aXJ3ako2OVMtZGo4aFVyempuQU9VSHVSS1BMbmxvb1NBLXVpUlJIYnpocVpRcGQ0RmU4T3VmUlFZeUxsWXVoQWc",
+    "CBMijAFBVV95cUxNUzVPWU1vbms1a1FVVWk2bXpnWmRJeDVZUllWR2VhWVBUbUpkUUtfaWxjZkJnRTYxcGQwOVVjdEJYR183OFVSZVNUQ0RzWXo3MHI5S3V4RDZrbm5nVFZwTld3VzFEendmQzE0ZkFRYWZvWjg2bnhoZlNseTZYMVcxdFVkV2trTGJiT2Rjcw"
   ],
   "daily": {
     "d": "2026-08-16",
