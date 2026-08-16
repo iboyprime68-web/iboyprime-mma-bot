@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 330 Payouts Revealed: Islam Makhachev’s Massive Earnings, Ian Machado Garry, Mackenzie Dern And Jalin Turner Payouts",
-      "ts": "2026-08-16T07:13:05+00:00"
-    },
-    {
       "t": "UFC 330 bonuses: Charles Johnson, 3 standouts pocket $100K bonus",
       "ts": "2026-08-16T07:14:42+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White Calls Edson Barboza An ‘Absolute Savage’ After UFC 330 Retirement",
       "ts": "2026-08-16T08:28:03+00:00"
+    },
+    {
+      "t": "UFC 330: Love or hate Ian Machado Garry, he deserves respect after battling Islam Makhachev in Philadelphia",
+      "ts": "2026-08-16T08:31:48+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Polymarket Promo Code TSN: Get $20 Prediction Bonus for UFC 330",
-      "url": "https://sports.yahoo.com/articles/polymarket-promo-code-tsn-20-020001520.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T02:00:01+00:00"
-    },
     {
       "title": "UFC 330 video: Dustin Stoltzfus pulls off big upset vs. Mansur Abdul-Malik",
       "url": "https://sports.yahoo.com/articles/ufc-330-video-dustin-stoltzfus-022604407.html",
@@ -2105,6 +2098,13 @@
       "source": "BJJDOC",
       "cat": "ufc",
       "ts": "2026-08-16T08:20:43+00:00"
+    },
+    {
+      "title": "UFC 330: Love or hate Ian Machado Garry, he deserves respect after battling Islam Makhachev in Philadelphia",
+      "url": "https://sports.yahoo.com/mma/article/ufc-330-love-or-hate-ian-machado-garry-he-deserves-respect-after-battling-islam-makhachev-in-philadelphia-083148936.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-16T08:31:48+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "c28663f9-3c87-3edd-954b-d214c808c847",
     "CBMigAFBVV95cUxQbGhGQmtBeTRpb3N2VUNWRTU3dWtQU3lfdXp4MlJfNEZRLWRhN2JVSjFLVWpYcWpqUFF3cmlaMmw0Nkk5OTljN0V6ZEtpb3V1Ui15QzhZeXNSaWdJejZCTkVuT05JZlNkTnQteDVxell6VHh3NHRzVHNzVERzaV9sdQ",
     "CBMiwgFBVV95cUxNWVI1Mm03ZlAyVERUVkhLcHB3dnpDODRPc3NKaEFRQ3Q3aDAyUE9LZjBIV3ZIWFpTSUlHSjBieWJhcUVfakQ2SGl2RDhiTWVRQlQtY0VGOGJzeVg5QTlGVVZzUEwzd1ZJNFhQRzZfMGMwWUhGR1BYWHRqbkI5V0JzMldHZlBlN2ZzZGlUUHgta0pONFRINV94T3Vubm5CYkJhcnhoVDZHbkxPUTZ0V1pvYlBOMWhpYTE2RjlDSEF1NkloZw",
     "CBMiuAFBVV95cUxNaTFyTmJpZUxuTDZ2S3NSZUY5alhfQWJBOTBneHZWZ0tNYVRCZk9kb242blZHNklPbkExNGNfSXZ4N1R6eGZRWTRZdW1weWRNZFRkbF9qbWlhbVdyUlVQc2hIZWx1azRKdy1yaGhpcGZYS2Q0aG8zdlFLMkptaVdjdDZQMWlBMUJTUUZJSHhNdGFBRy1WdzdiNXNJcTNNTnVwZHlLSVVPNG1CdlBzdzFHb056aFNHYUZw",
@@ -3312,7 +3311,8 @@
     "CBMiggFBVV95cUxQNUNsQ2NBUGJqUEdlanA1ai1fdVlRSkU5SWhURnJOWXo0dmNRcF9udzRPVkRfaVp0YVlQUW1Xd1RkX2d5M2U0dE5LXzQxNW9FQlliVmZreHBoS095dE5LZWlBTmJyVHhSZ0ZLaFRjTGRJWGVvN0VCTENpaU5mQ3oxTTZR",
     "CBMiekFVX3lxTE9uMS1MSGtJUVY5NmlrNVY4ZTNPQnU4Z210UFVzQW5XdDRtY0ZKbGs1ZXdaVjBPeUFkdldtZ1J3VFdySnpUNTVQdk5Ia2lMNnRIQUN0RklwUFBjSUY5Zk8tQTNZV1BkbE1ma3FxWnBJbGJ1SkctX1ZYOXp30gF_QVVfeXFMUDFCcE5vcUdZelY0dnM2SkRBNmtEWTBaUEdKMVcxZ08xR1NQbzlHLVVTQ3NmSFlKN2tZd09jS09jYjMzZEs5SEpGQzdPMkpDMGdkcVQ4bzJsZEFjcXBLTHNXQWxvZWRTd1cwTUhhSkVla21qMTFSTXJtXy1ycGR0QQ",
     "CBMif0FVX3lxTE92c2lQYVdXel90cDdlOW9PWmpWNUdwWXN0SWtoTUMySkRqc1YyWVdwSDFOXzhmcFNsQVIwZHVmSVZqTXZjZUk4Q2JUb1VqaVNidEZwd3RVY1NSSV9xd0Nnd2NQSWtCa1pwSkxXR21JM3VxbDFMZnU4eG9RLXZnMTQ",
-    "CBMilwFBVV95cUxQOWxUSlEzdnJwRDlTYm92NndNWVFtYkVhamlZYnQ1ekh2MU92TndBb1hFYmlfTFBDclVXZ3RnNVpVUDVFbXlhaVpRUjBsTkg3NDlLbk5ZaHRfQ3ptS1N6UW5YZ2Y2Q3puSkJwMUh2WWoyNXBEVlJQYlJSdUNUTXJ0WmpIVUVUelBNV3lrSzFKUHNIQXJXSXVz"
+    "CBMilwFBVV95cUxQOWxUSlEzdnJwRDlTYm92NndNWVFtYkVhamlZYnQ1ekh2MU92TndBb1hFYmlfTFBDclVXZ3RnNVpVUDVFbXlhaVpRUjBsTkg3NDlLbk5ZaHRfQ3ptS1N6UW5YZ2Y2Q3puSkJwMUh2WWoyNXBEVlJQYlJSdUNUTXJ0WmpIVUVUelBNV3lrSzFKUHNIQXJXSXVz",
+    "393f4139-5ec5-41be-867b-b54e70f4f240"
   ],
   "daily": {
     "d": "2026-08-16",
