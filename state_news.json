@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502591",
     "https://www.mmafighting.com/?p=502597",
     "https://www.mmafighting.com/?p=502624",
     "https://www.mmafighting.com/?p=502640",
@@ -882,6 +881,7 @@
     "https://www.mmamania.com/?p=465312",
     "https://www.mmamania.com/?p=465340",
     "https://www.mmamania.com/?p=465360",
+    "https://www.mmamania.com/?p=465388",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Kalshi Promo Code SBWIRE: $25 Bonus for NFL, UFC, Crypto & More (August 16)",
-      "ts": "2026-08-16T14:21:00+00:00"
-    },
     {
       "t": "\"This Might Be As Far As She Can Go\": Din Thomas Retires From Cornering After Gillian Robertson's UFC 330 Loss",
       "ts": "2026-08-16T14:24:31+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC 329: Paddy Pimbett post-fight interview",
       "ts": "2026-08-16T15:03:14+00:00"
+    },
+    {
+      "t": "Dominant ‘GWOAT’ Claressa Shields declares 'I'm in my Mike Tyson era right now'",
+      "ts": "2026-08-16T13:45:46+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "'He looked human': Fighters react to Islam Makhachev's historic UFC 330 title defense",
-      "url": "https://sports.yahoo.com/articles/looked-human-fighters-react-islam-042322665.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:23:22+00:00"
-    },
     {
       "title": "Complete UFC 330 Results & Highlights: Islam Makhachev Sets New UFC Record",
       "url": "https://sports.yahoo.com/articles/live-ufc-330-makhachev-vs-170000651.html",
@@ -2105,15 +2098,21 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-16T15:03:14+00:00"
+    },
+    {
+      "title": "Dominant ‘GWOAT’ Claressa Shields declares 'I'm in my Mike Tyson era right now'",
+      "url": "https://www.mmamania.com/boxing/465388/dominant-gwoat-claressa-shields-declares-im-in-my-mike-tyson-era-right-now",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-16T13:45:46+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
   "hour": [
     "2026-08-16T16",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMi7gFBVV95cUxQcExyWDUxeGlYdmVDYUF5azhDVHJiaUp3cWQ3c0ZLeTZRaVBublAtQ2tsYkF3RXZmd1UzX0JlNmF4LUV5dThyYVpMTXkyck42WFVINzJDTFFwdU03MWdieUJkeWJ0cC14RExlMDd0T3hDVzFrdkxpbk5LQm5WMlpPUkdCb0hFX29xcmQxQzcxVHUzYXVCODdRMlFHQjVkbG5KeXU3ZWlTd1hwcnBLYXRfY29CT3cyYkkzV19Ha1Iza0Z3V3RZNlV1NlZWMUJUdi1Mc0NQQVpndWJQUVJpTTVUZjU2ODdIRmlCcjBwZHFn0gHzAUFVX3lxTE1BdDc4eGhmM2RwbGVmbWdHRi1oY2dZZXhETmt0TnAxYmpuUVhQS2dHMlI3SjJRc01EOHU2LXVsdnptUG0xMDlpcEZlNUdFcDlkWDcwWFFzZ2FGVGNPWi1YV2QwNGJ3T21hdkdGeVo0b1hzTkJTTVBsUnF3d2xFUTFSZlVaanhnVHlIM1RVaUd6QmVNWFdIN09vWDBjUHJPOTJBZjZoVW5ocWJZMGN2MjBJaERSaE5rQ3pkR3lIWThGc0FrRFM0bVFubDNoUVFWZ3Vsc1ZpTmlQWThBaG9HelVqTnNmV0FKS0RpZ1FpWTE5NGhQSQ",
     "2a40f5c7-4d36-3fba-ae1f-e69ac05ab0b0",
     "fb5d57f6-9f5a-3c3b-bdb0-d90943d8c5a9",
     "CBMinAFBVV95cUxQM2xtY1BNVEg4OGFqSXlkQ3VqX2FpM0JpYXRMQTJ5aGFkWkpBU3diTHYtQ3F2eFllNXBvNjRDbWk0ai1uMTlxb0hFR3U1UXIyVGxiVERnMUlfbTRPcllxQ0NOWHRnVmdReEU4QmtXRlAxS2l0Rnh2Xy1VUFBNZU4wV0FDajBvWFFReUNZZjQwR2pNU19VNDMybjBQd20",
@@ -3312,7 +3311,8 @@
     "https://bloodyelbow.com/?p=327221",
     "https://www.mmafighting.com/?p=505309",
     "CBMid0FVX3lxTE54VnQya1AzSnhjUU8wRDNZeFhPVDhxVEdsNTcyVDkzSldMVWJ2NEJLUGFwUjVrVndJdHhiWXMycEJJSHpvWFFTbFE3N29wVEMxS1hvcngyLUx4OVhhUk5UNVZzOGxFVk0teDdTTFFqQkk3TzRYaTVJ",
-    "CBMijwFBVV95cUxPZDZXQ2RZZHhjZ3NzRmVGaXRTdGtIeVY2emRpYjdqdlhmTDFYVHBYN0VpSUctRllGUk9SbWNxLUxaQkFteW5wNEJaU214Z2lBV0ZqM0Fhay1kdDc0OXozOVBHX2lTRlZtVHFkNGpCc3JWdUtNSWdUckw5SXNtN21XUllSUTFNbzdBdWFKQUdZMA"
+    "CBMijwFBVV95cUxPZDZXQ2RZZHhjZ3NzRmVGaXRTdGtIeVY2emRpYjdqdlhmTDFYVHBYN0VpSUctRllGUk9SbWNxLUxaQkFteW5wNEJaU214Z2lBV0ZqM0Fhay1kdDc0OXozOVBHX2lTRlZtVHFkNGpCc3JWdUtNSWdUckw5SXNtN21XUllSUTFNbzdBdWFKQUdZMA",
+    "https://www.mmamania.com/?p=465388"
   ],
   "daily": {
     "d": "2026-08-16",
