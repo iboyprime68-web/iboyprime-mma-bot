@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "SCOTTISH TWISTER 🤯 @INNERG_UFC just hit a crazy submission at #UFC330! [ LIVE NOW on @ParamountPlus ]",
-      "ts": "2026-08-16T00:35:38+00:00"
-    },
-    {
-      "t": "Charles Johnson earns the 5th twister submission in UFC history and the 2nd \"Scottish\" twister after Murtazali Magomedov's from June. [ @INNERG_UFC |…",
-      "ts": "2026-08-16T00:38:09+00:00"
-    },
-    {
       "t": "Our final prelim of the night is a BANGER @ChidiBangNjoku vs Joel Alvarez [ #UFC330 is LIVE NOW on @ParamountPlus! ]",
       "ts": "2026-08-16T00:39:51+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "The UFC announces Gabriel Bonfim vs. Sean Brady for its Nov. 7 headliner at Meta APEX in Las Vegas.",
       "ts": "2026-08-16T02:14:23+00:00"
+    },
+    {
+      "t": "UFC 330 Highlights: Charles Johnson vs Eduardo Chapolin Stream of MMA",
+      "ts": "2026-08-16T02:14:22+00:00"
+    },
+    {
+      "t": "Dustin Stoltzfus Chokes Mansur Abdul-Malik In Round 2 UFC 330 Upset",
+      "ts": "2026-08-16T02:24:28+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "++Crack𝐒𝐭𝐫𝐞𝐚𝐦𝐬 MMA UFC 330 𝙇𝙞𝙫𝙚 𝙁𝙧𝙚𝙚 round-by-round August 15, 2026",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRM0RuODZIR1lueGdtRTUyTU5zQmxHQmxJMHQxaGhqUFhTTHdYWWxLYjhzTjFzMTI5ZngyUXV1NEQ0X3RfV2Q3SFp0M2cwSC1FNjhwcDJXX05hQQ?oc=5",
-      "source": "The Enterprise Journal",
-      "cat": "ufc",
-      "ts": "2026-08-16T01:31:21+00:00"
-    },
-    {
-      "title": "UFC 330 live blog: Mansur Abdul-Malik vs. Dustin Stoltzfus",
-      "url": "https://www.mmafighting.com/ufc/504922/ufc-330-live-blog-mansur-abdul-malik-vs-dustin-stoltzfus",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-16T01:39:27+00:00"
-    },
     {
       "title": "THE LIGHTWEIGHT CHAMP 🏆 @JustinGaethje pulled up to UFC330!",
       "url": "https://nitter.net/ufc/status/2088797671855444242#m",
@@ -2105,6 +2091,20 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-16T02:14:23+00:00"
+    },
+    {
+      "title": "UFC 330 Highlights: Charles Johnson vs Eduardo Chapolin Stream of MMA",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVHRhN0szUzJSQWloaGRibHlSZXo3UFc1RGFUSFpIOHhjZkF6amMzb1RNeEhuN3MtMUUwbG9qLXBXT2xOOWJ5UkFrMmF5aWIyZHlkbUdUempQMmpLMjRlRkdicTVGdWRzYVh3VEZKUGZuZFV4S2ZFYXliejQ4Zk1GbUZBcUxuQW8zQVdkMEt6aXhkVkVrcnlVRHlRcW9iaVY4Q1E?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-16T02:14:22+00:00"
+    },
+    {
+      "title": "Dustin Stoltzfus Chokes Mansur Abdul-Malik In Round 2 UFC 330 Upset",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR09EUjNiREtoa0JzREpFaENZWFpfbXdUdXBNMU4xMHBPZ3V6NGxhNC1JRHNhS0xFc2M1bDVmczhHSk5rd3JaVXVUYzhHaXVoenY1OGc2WUFJNmNhQXY1QXRxM3IxdkJOSWRoM0hTd0x2eFdickJBcU1GdGxjLWw1cTBLRUZiVlp4cE9FbF9XVmE?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-16T02:24:28+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,8 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "2088269706612326576",
-    "2088273442629906872",
     "2088275411239059632",
     "2088276377904492815",
     "CBMinAFBVV95cUxQRzlpSG9lWGt3QXpaT2Q2d0ExdDdHX243dzBWQ19TMDBfdXJxdldhNWJlNkR5SlJXVmwtOEdSUXNHMHp0TXFQYTJIUTYwZXBtbnoxQkhMTFF2SVVZTFJxVFUwLU1yYkNMTmgwbTdWck1LR3JhTzVLYS1MNzNYZzA3U0lSMmZ1eGY0eS15Z3FGYmoxVWZ3QmZrbElJRWo",
@@ -3312,7 +3310,9 @@
     "CBMieEFVX3lxTFBWZEswZldfcWlTMkNoQTB3SWV2S1lkOVZvUGFpT2c4NV9rYXBkZnJSRVVYNTlncHNMN2lMVzAzWDFXb19GZC10STVYLVdXOVN2ajRpdmpobGE2bEYyWjBJYjY5VXFDMkNGYUN6R3R2dXg0eUxaRmlGTQ",
     "2088810287696675264",
     "2088811558268755981",
-    "2088811579005431837"
+    "2088811579005431837",
+    "CBMiogFBVV95cUxPVHRhN0szUzJSQWloaGRibHlSZXo3UFc1RGFUSFpIOHhjZkF6amMzb1RNeEhuN3MtMUUwbG9qLXBXT2xOOWJ5UkFrMmF5aWIyZHlkbUdUempQMmpLMjRlRkdicTVGdWRzYVh3VEZKUGZuZFV4S2ZFYXliejQ4Zk1GbUZBcUxuQW8zQVdkMEt6aXhkVkVrcnlVRHlRcW9iaVY4Q1E",
+    "CBMikAFBVV95cUxQR09EUjNiREtoa0JzREpFaENZWFpfbXdUdXBNMU4xMHBPZ3V6NGxhNC1JRHNhS0xFc2M1bDVmczhHSk5rd3JaVXVUYzhHaXVoenY1OGc2WUFJNmNhQXY1QXRxM3IxdkJOSWRoM0hTd0x2eFdickJBcU1GdGxjLWw1cTBLRUZiVlp4cE9FbF9XVmE"
   ],
   "daily": {
     "d": "2026-08-16",
