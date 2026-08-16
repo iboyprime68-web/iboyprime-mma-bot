@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502033",
     "https://www.mmafighting.com/?p=502035",
     "https://www.mmafighting.com/?p=502046",
     "https://www.mmafighting.com/?p=502048",
@@ -1155,6 +1154,7 @@
     "https://www.sherdog.com/news/news/UFC-330-full-fight-card-grows-with-major-welterweight-strawweight-bouts-201724",
     "https://www.sherdog.com/news/news/UFC-330-gets-matchup-of-ranked-flyweights-201565",
     "https://www.sherdog.com/news/news/UFC-330-weighin-results-2-title-fights-set-202356",
+    "https://www.sherdog.com/news/news/UFC-333-gets-VolkanovskiEvloev-title-fight-YanDvalishvili-trilogy-202368",
     "https://www.sherdog.com/news/news/UFC-Baku-Fiziev-vs-Torres-playbyplay-results-round-scoring-201659",
     "https://www.sherdog.com/news/news/UFC-Baku-Prelims-AbdulRakhman-Yakhyaev-shreds-Julius-Walker-in-eight-seconds-201660",
     "https://www.sherdog.com/news/news/UFC-Baku-bonus-winner-promises-even-quicker-finish-in-next-fight-201673",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC 330 fight card: Full list of matchups, date, India time, where to watch Islam Makhachev vs Ian Garry a",
-      "ts": "2026-08-16T03:06:13+00:00"
-    },
     {
       "t": "UFC 330 live blog: Jalin Turner vs. Kaue Fernandes https://www.mmafighting.com/ufc/504926/ufc-330-live-blog-jalin-turner-vs-kaue-fernandes",
       "ts": "2026-08-16T02:18:09+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "WE USED TO PRAY FOR TIMES LIKE THIS 🙏 @MAKHACHEVMMA vs @IanGarryMMA [ #UFC330 | LIVE NOW on @ParamountPlus ]",
       "ts": "2026-08-16T03:47:59+00:00"
+    },
+    {
+      "t": "UFC 333 gets Volkanovski-Evloev title fight, Yan-Dvalishvili trilogy",
+      "ts": "2026-08-15T23:57:09+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Mike Ritland Reunites W/ BUD/S Candidate Remi Adeleke Ufc 328 Fighter Suspensions List (iKq9EOLbJ4)",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ENmM4WjZZdGI3NTZzeFFkbTRESHI4YnNaVFZKb1dJRTQ0X1dfbFFtYUg5a0lEdXRKS1QyT09fLXVBWWhqYjR2dmtIUXpsZXhsRmpRb3kybGQ0ZTg?oc=5",
-      "source": "Mshale",
-      "cat": "ufc",
-      "ts": "2026-08-16T02:37:36+00:00"
-    },
     {
       "title": "UFC 330 Results: Mackenzie Dern defeats Gillian Robertson (Highlights)",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTHV0Qk9fMVZnMGFuX1lvMzBlUXRDbTVIRlBBUnpEcHRackJHRFh2UU5XVnppeE9GVmVzN0dWbkFIcXBNM3NaOFpJbEg5SUlFVG5sNFV5SG00MVdwNU0wTHBSME13TzBXVFJxWDNEcUxhTEw4YjhkTVQ0aHk2SUhPZU9JYWh4U2QxSndQRkdvalROZkVTcUoyRzZPUU5seHplcnpLenRya0lRT2dHVThNcHJxbXp4QQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "UFC on X",
       "cat": "ufc",
       "ts": "2026-08-16T03:47:59+00:00"
+    },
+    {
+      "title": "UFC 333 gets Volkanovski-Evloev title fight, Yan-Dvalishvili trilogy",
+      "url": "https://www.sherdog.com/news/news/UFC-333-gets-VolkanovskiEvloev-title-fight-YanDvalishvili-trilogy-202368",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-15T23:57:09+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     18
   ],
   "yt_eval": [
-    "CBMijwFBVV95cUxOWU4zNHdsWVp1ZHFyS0hRSWRVYjZWUmpURVdzR1pVTFBiUERYVklaNVJtZ2M4UUl0MlJGakN4ZlkyMzhUUVIzbS11aHVMS1V4Qk9vM29sTDNxdlpyVm90andCM2kyaHNoYXUwMF90bXFsYWF4QWZSeml0aG9Kb0pNemt4NHR3MmF2bUd3UlFLNA",
     "CBMiggFBVV95cUxQb3I0a2twSjdVWGFwZlRLdUlfb1A5aHY4VTBPV3Fzc001dXZRdDc1OWprTkJFVFFtd01kZk5ybFdYN2NhYkdmU0kwaGNKME9xc0NqeDNfTFJURUs0U0J1Ti1jWU9yRG0tVUhZVzFuMGFVYXFGSEV0UTZEQkdIVVI3d3VB",
     "CBMiiAFBVV95cUxOdUVJWFVVMUhOcFY3cnlra2JRQWFVMTVGdlFoTWVWcEZWZnpzeG1fSG1uOHg4WldQV2VfemgxRzNqSkF4b2NDdWtjV0NaQ2RHLWxSLURMTkozRDRYTkJxZmE3NGVWQXlLR1pLSW04amw0VnVESThMR29OZE5VLXc1dDMyOFBpM0tC",
     "CBMilgFBVV95cUxOTnR0cElCY01heHgwc3pHQ3dIR1ItWW8tVU5sRUcwLWUtOEJvSl9ZN1ZFTVdaWFBMUmFwRW9XSVZveVJRWGVOQ2RXak9iaUd6RENsRFdYZVFkTkFsdWttekYzR0tKbkxxUU1mVWRUdWF5UWMxcFBGaElnU3M3cU92RzJldmgxWFdWekJzdFJxd3FMN2I1U1E",
@@ -3312,7 +3311,8 @@
     "2088833011542372499",
     "2088834461131817357",
     "2088834879614222831",
-    "2088835136771301863"
+    "2088835136771301863",
+    "https://www.sherdog.com/news/news/UFC-333-gets-VolkanovskiEvloev-title-fight-YanDvalishvili-trilogy-202368"
   ],
   "daily": {
     "d": "2026-08-16",
