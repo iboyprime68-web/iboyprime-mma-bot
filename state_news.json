@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Alex Volkanovski vs. Movsar Evloev, Yan vs. Merab 3 headline stacked UFC 333 fight card",
-      "ts": "2026-08-16T10:00:00+00:00"
-    },
-    {
       "t": "Makhachev breaks UFC record with 17th straight win, defends welterweight title - CHOSUNBIZ",
       "ts": "2026-08-16T12:02:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White criticizes Ian Machado Garry for his lack of killer instinct at UFC 330",
       "ts": "2026-08-16T13:44:16+00:00"
+    },
+    {
+      "t": "Islam Makhachev reveals when he would like to return after UFC 330 triumph",
+      "ts": "2026-08-16T13:47:49+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 330 results: Charles Johnson hits insanely rare Scottish twister submission",
-      "url": "https://sports.yahoo.com/articles/ufc-330-results-charles-johnson-023317463.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T02:33:17+00:00"
-    },
     {
       "title": "Alexander Volkanovski vs. Movsar Evloev headlines UFC 333",
       "url": "https://sports.yahoo.com/articles/alexander-volkanovski-vs-movsar-evloev-024131031.html",
@@ -2105,6 +2098,13 @@
       "source": "BJPenn.com",
       "cat": "ufc",
       "ts": "2026-08-16T13:44:16+00:00"
+    },
+    {
+      "title": "Islam Makhachev reveals when he would like to return after UFC 330 triumph",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWkttUzMyV2dEdFdhWVNEOVJVYi1QYm1odWZsT09UMWNZNFFUWnZic21icy15RWFlTHJPNnFCZzlMVjZweFRHVUN2ZmV2cGhYOFl4RU81UU9oZXNic0tIRVdCMC1fMWRHZmJTMC11RnNGZ2Y5a3YyZVYtb0JkSWY1Qi1aZWtLOGx0TFprRU9OcE9rTk5HaXJYLWJmWU9mdzNSbms5Sm9zWVBtS1dNQ1pTVnBiSFlSeWcwTnhxeUNqMEc?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-08-16T13:47:49+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMilgFBVV95cUxQZ0VDWkNWY0JocUJjcFl2cHdNdm9MclpCSUtHamRJMTNBanpmOWtHODFNUXZFMjhUODVpVUlZNTE2SDA1Q0pvd0c3MTc3Mm9ScWxOdkJUX3VqX19tOE1ibTdXYVNJWXExRFFiM2t0MllmN19nbURkdUhBVzU1N1BOYi03QkFMcjVFdzhtZmdneEQ0SWlRY2c",
     "CBMilgFBVV95cUxOTW5JNUt4OEN5aHU0RHM5RXg5REFLbFZUdzk3SnFUSW10X2xQUE93WkloZmFiTXpESXZuNUl3OFNsRFhlWC1uX0UtS2tmckV3eU9JN2c5b0tCTEFxa1poX3JNNlJ0VXkyZHgzZU50U1NxaHR5cnBzcl9kQWd4bVBlYmhQMWRuVThoTWh2am42Ynh3OURHTUE",
     "CBMiywFBVV95cUxORUc4enkxVGZRUnBfcTYzQ3BJZ1VxOGZqYWhuTkZGX1FCaEtIMzdmTHFCX0lJV0JRTXh5UzZValpSRkNUQTJSOVZpSlpZWjlwdEFqUVVfSjZkbHZZd0UtallscVhFV1dFVXlLakdfU1NHajJWZkY5cU9zTERhT1JGZnRSTDBqcTZuRUVNUWZib1p2VVlrYXNWV3pURXRJN0x3OEVyQ2t0RDZXTnBTM0FoUnNyc3BxXzZRYjBnTUZpQzZhbXhBRDNtSEUwNA",
     "CBMixwFBVV95cUxOanJ0ZFRaTk9TSlVIQy1GVEFoX0R6eDFidi1tcC1xZmE0YjdUd0pISmZoQzd3bms3Mlo2b2tYdmcwLXE0QzNDc0htOFRsd1pfcmV3UDNZV3NFeDA3V3E1aUNzdk5qeGFrd0FfV1ZXR2p0bXlTaUVBWVBqa3FwZWZhV29ubVFFLXdrSmVrRG8zOWVPZUV6bHpIaFVBSW1tSkw1Tk5ELUtySnVzRFhIaS1ZaGExeFptZFVhY3NrbHdMTGVoMFNjTlN3",
@@ -3312,7 +3311,8 @@
     "CBMiuAFBVV95cUxOZVphYWhlb1BFS2tnNzZJREdrejUybmt2c19fWTFKUURzZmJCekRReWVRUHUzZExIZ21RemFxam4xMW5fUXJSR0VqblVLRkhBWml0cmpwb0ZrZjRkWlZOb0FKWHQ0NHV1Tl9zMHVwNlRBUGluNkJQMEhpQ0xjZHUxV1NQSjhKY1lXVmZZamNRNkQtVzQtMXU3eEROZEQxS3FLaDBDZkd6WWp4emVZcGR4RU82TUlJelpm",
     "CBMigAJBVV95cUxQMUZvVEVXY2Jva3VBVXNQbnhkQTJqbFhWXzZrTl8xWEVuOWlGMmRwMVZSa2lWZjBpdjBIdlNwVWo5ZGd5ay1ueUt0WmJrQkc0SWZSc2kzMGpPaFg3bnRpaFNGV29BV0pxSGcyYnZEZzRVMDY2azVlenhXOU5ZUzR6dHBpaFlSd1VGV0txbUlYcS1VcmdHUVIyT3lMQ3lwV2h3SU5WOGtVMXYyVnM2Z3Y1dnRKNlJuOXVIMUhtZzZtd0VERGVuZjA1V0ZPNk9LR2ItM1pxSjV0SmExcFFLNkZPemdLb3NFVG1LUFhzbVRXLWlrWlcweExNM3FmN3NPZzBl",
     "CBMiwgFBVV95cUxOXzFNalJnN3dIbUZ1ZWRjbk9oMVY0WEdFejFkOHNWRWd2QzNCSkl5LUVjaE1UblFONUlwd21RM0pfV2xtZFJxOEFVMHlsSXRieUxnU1k4cEtUSHpjMW4zdG5IUV9qc1RQNnhYSl9xeElvN3h4d1BBc1pfT3R4ZC1EQXQ1VnNnTkYzRW1jdXViR3QwM01DcHdBLWk1WVQyVlgxbzNVVWpSWnZ1Z0ptUFZ4d29pUkZkMERDNUFQdkZGZWNrZw",
-    "CBMixAFBVV95cUxNVnBZdE5kQ2YzeDlqTGJfc3VQbS1fbkhtcl9DTWhOT2pNQkNwWE03QVpSQ2h2cHVTa2VsYm9DeFhidV9RLU95dWE4RkZwQlNtVFZBOTlXR3c2Q3QyMVczMWctRmEteDRQanZLNTBQd0ZoTDk1RFQ1TEFYQjBaOU1CM1FxQzR6VTJDSTBOWE53eHNZRWNHQ3FIbzhyTmU2SjByQUV4MFFRalE5UWdHN0ViVkpWTnNfak1VWGg0SDk2Umd2VXRy"
+    "CBMixAFBVV95cUxNVnBZdE5kQ2YzeDlqTGJfc3VQbS1fbkhtcl9DTWhOT2pNQkNwWE03QVpSQ2h2cHVTa2VsYm9DeFhidV9RLU95dWE4RkZwQlNtVFZBOTlXR3c2Q3QyMVczMWctRmEteDRQanZLNTBQd0ZoTDk1RFQ1TEFYQjBaOU1CM1FxQzR6VTJDSTBOWE53eHNZRWNHQ3FIbzhyTmU2SjByQUV4MFFRalE5UWdHN0ViVkpWTnNfak1VWGg0SDk2Umd2VXRy",
+    "CBMiwAFBVV95cUxOWkttUzMyV2dEdFdhWVNEOVJVYi1QYm1odWZsT09UMWNZNFFUWnZic21icy15RWFlTHJPNnFCZzlMVjZweFRHVUN2ZmV2cGhYOFl4RU81UU9oZXNic0tIRVdCMC1fMWRHZmJTMC11RnNGZ2Y5a3YyZVYtb0JkSWY1Qi1aZWtLOGx0TFprRU9OcE9rTk5HaXJYLWJmWU9mdzNSbms5Sm9zWVBtS1dNQ1pTVnBiSFlSeWcwTnhxeUNqMEc"
   ],
   "daily": {
     "d": "2026-08-16",
