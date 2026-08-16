@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502035",
     "https://www.mmafighting.com/?p=502046",
     "https://www.mmafighting.com/?p=502048",
     "https://www.mmafighting.com/?p=502060",
@@ -1064,6 +1063,7 @@
     "https://www.sherdog.com/news/news/Light-heavyweight-contenders-set-for-rematch-at-UFC-Belgrade-201588",
     "https://www.sherdog.com/news/news/Lightweight-banger-booked-for-UFC-Vegas-120-main-attraction-201740",
     "https://www.sherdog.com/news/news/Longtime-UFC-veteran-encourages-Ilia-Topuria-to-make-quick-return-201547",
+    "https://www.sherdog.com/news/news/Lucas-Fernando-didnt-come-to-UFC-330-to-be-just-another-fighter-202367",
     "https://www.sherdog.com/news/news/Mackenzie-Dern-pushes-back-on-Ian-Garrys-comments-about-women-202338",
     "https://www.sherdog.com/news/news/Magomed-Wild-Chanco-Zaynukov-set-for-UFC-debut-in-Abu-Dhabi-201693",
     "https://www.sherdog.com/news/news/Manel-Kape-avenges-2017-loss-blasts-Kyoji-Horiguchi-in-UFC-Vegas-119-rematch-201576",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC 330 Mixed Martial Arts",
-      "ts": "2026-08-16T02:49:45+00:00"
-    },
     {
       "t": "UFC 330: Mackenzie Dern vs. Gillian Robertson: Live round-by-round updates",
       "ts": "2026-08-16T03:08:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC 330 video: Edson Barboza retires after punishing loss to Esteban Ribovics https://www.mmafighting.com/ufc/505029/ufc-330-video-edson-barboza-reti…",
       "ts": "2026-08-16T02:18:09+00:00"
+    },
+    {
+      "t": "Lucas Fernando didn’t come to UFC 330 to be ‘just another fighter’",
+      "ts": "2026-08-15T23:57:02+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 333 gets Volkanovski-Evloev title fight, Yan-Dvalishvili trilogy",
-      "url": "https://www.sherdog.com/news/news/UFC-333-gets-VolkanovskiEvloev-title-fight-YanDvalishvili-trilogy-202368",
-      "source": "Sherdog",
-      "cat": "ufc",
-      "ts": "2026-08-15T23:57:09+00:00"
-    },
     {
       "title": "Mackenzie Dern def. Gillian Robertson at UFC 330: Best photos https://mmajunkie.usatoday.com/picture-gallery/sports/ufc/2026/08/15/mackenzie-dern-def…",
       "url": "https://nitter.net/MMAJunkie/status/2088833315616780387#m",
@@ -2105,6 +2098,13 @@
       "source": "Ariel Helwani",
       "cat": "ufc",
       "ts": "2026-08-16T02:14:18+00:00"
+    },
+    {
+      "title": "Lucas Fernando didn’t come to UFC 330 to be ‘just another fighter’",
+      "url": "https://www.sherdog.com/news/news/Lucas-Fernando-didnt-come-to-UFC-330-to-be-just-another-fighter-202367",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-15T23:57:02+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiuAFBVV95cUxObGdBUUVBdkNSaThHaXM3OEdDdmszcTNHQW5jcV9ENnk4bFNqeG5Kb2JfMlJoVllHTDdkMHcxRWFYV21uSFFybXdhaGx6RkROV0lnVWlHRklOWU9nalZPOVEwTmZ0UURPbEJGWmNmaXphNzVGbG95bkg5ckZBT0lUZlJJTkJQYkRLMkhhLXRQSHRBX2hEWWNIN0dYNHMyX05DVGNpNDl0aUFxYVJHSWRMWEIyajBTck8w",
     "CBMiiAFBVV95cUxNM1JlOTNTMzNORUtPS0RTeDExVkVvSHBBeGdfOWtvRlR3V0RJWWN5TG9OVHZMQVJXWG05WTBCMVZLby1FZkJzVzFkams1Ykx6S0RReGpQek43T0c1NERyY3F3R1BySXR0MWw5NkZjNW1hQjF5enVlZ0xZanBPYklaeGJTNGhxaEFq",
     "2088355271051522164",
     "CBMihAFBVV95cUxNOUFMUjI0a25jNFdjczRJbTlGamxJZ1RIY0FNbXJpMTNoQ2NZSVRuOVNsN01ZZzRwa184Vll3eEVkcF9IMGkyYlFlUVhVQzNxLXpIdk84RjhiTUFLRVFIT3NzbURSV0N1SGVaNElUR2ltaVpkYVlXZk1tcHJpMWxSWjE2eEk",
@@ -3312,7 +3311,8 @@
     "CBMikwFBVV95cUxNc2UxTThMbzVmS0JuVjNvT0FsQ2JaUGMzR2g5R05kUDEyYVZBdUtZR0J4M1A1WUI0R0JFMTVWSjg0NXJvQkh2MjRnVmtjRldTZTRFZWVuRGFMV0lMSm5kbUV3M0pWQ1NQRm9ldUpEcFV0X3JPaVJuNVVPQnhhY0E4N1VmdjNIeTA4VmJMWmdRX0kyeG8",
     "CBMilAFBVV95cUxPY3RSOHRGWHVmSG1jYlpRenpOY21yT2x1LXZtUmE1RjFONTdBR2hxWjVNTVFhWFRyT0E3NkFFR2pBTExxNllSRmVIMHN1TUFPcm1IbDN1VFAyajlaODVWZERQUzdrSTFLTjBoa2pXX2h5cjNPdXNvX2xiMGczcnpWLW5OaDJlT29zeGpxU1Q3UXlZV3Jl",
     "CBMilAFBVV95cUxNVTBNRi1tNDBsbEdBSllXazFiaWttMy11d05nTWFhTnlSWUpnTXM0ZWJ2RFlHSHYxUG52S2ZxbHJ4eEJOZnFGR2lGeE9jdDY0MWFfNWhtMGYwU2EyU1BPb1hiQ2p3N05uV3dSU3RHYm9iWjI0ZjloSTNJLXQ1d05lRWxMMG1xVTZNY2NpY19TWV9BclBE",
-    "CBMia0FVX3lxTE93N3AyRTBDU0JlMTBGbWJ0dlR5MXdhRWd6aWVjWmVER3pwaUhsZm4tSHlvcFFPTFRmMHNXSzFDM3d4MmRHdzN1b1NLSDR3N2ZHY0d5YjJXOUFSYVpIV3lFY3d5d1U5RkVEdW1B"
+    "CBMia0FVX3lxTE93N3AyRTBDU0JlMTBGbWJ0dlR5MXdhRWd6aWVjWmVER3pwaUhsZm4tSHlvcFFPTFRmMHNXSzFDM3d4MmRHdzN1b1NLSDR3N2ZHY0d5YjJXOUFSYVpIV3lFY3d5d1U5RkVEdW1B",
+    "https://www.sherdog.com/news/news/Lucas-Fernando-didnt-come-to-UFC-330-to-be-just-another-fighter-202367"
   ],
   "daily": {
     "d": "2026-08-16",
