@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White: Ian Machado Garry's lack of 'killer instinct' cost him",
-      "ts": "2026-08-16T14:30:47+00:00"
-    },
-    {
-      "t": "Dana White Rips Machado Garry's Lack of 'Killer Instinct' After UFC 330, 'Drives Me F--king Crazy'",
-      "ts": "2026-08-16T14:40:40+00:00"
-    },
-    {
       "t": "Islam Makhachev Just Took His UFC Legacy to Another Level",
       "ts": "2026-08-16T15:19:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Rep. Ashley Hinson Cruises To Republican Nomination In Senate Primary Ufc 329 (TxzOFIepcp)",
       "ts": "2026-08-16T16:17:31+00:00"
+    },
+    {
+      "t": "UFC 331 main card announced https://www.mmafighting.com/ufc/505337/ufc-331-main-card-announced",
+      "ts": "2026-08-16T17:03:01+00:00"
+    },
+    {
+      "t": "#UFC330 post-event facts: Islam Makhachev breaks new ground in UFC history (via @MikeBohn) https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16…",
+      "ts": "2026-08-16T17:10:41+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev def. Ian Machado Garry at UFC 330: Best photos https://mmajunkie.usatoday.com/picture-gallery/sports/ufc/2026/08/16/islam-makhachev-d…",
-      "url": "https://nitter.net/MMAJunkie/status/2088850920800964966#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:50:43+00:00"
-    },
-    {
-      "title": "UFC 330 Results: Islam Makhachev Breaks Longstanding Record Held by Anderson Silva",
-      "url": "https://sports.yahoo.com/articles/ufc-330-results-islam-makhachev-080037085.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T08:00:37+00:00"
-    },
     {
       "title": "Dana White reacts to Neil Magny's \"awesome\" underdog win at UFC330",
       "url": "https://nitter.net/MMAJunkie/status/2088857038780518407#m",
@@ -2105,6 +2091,20 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-16T16:17:31+00:00"
+    },
+    {
+      "title": "UFC 331 main card announced https://www.mmafighting.com/ufc/505337/ufc-331-main-card-announced",
+      "url": "https://nitter.net/MMAFighting/status/2089035211548049752#m",
+      "source": "MMA Fighting on X",
+      "cat": "ufc",
+      "ts": "2026-08-16T17:03:01+00:00"
+    },
+    {
+      "title": "UFC330 post-event facts: Islam Makhachev breaks new ground in UFC history (via @MikeBohn) https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16…",
+      "url": "https://nitter.net/MMAJunkie/status/2089037140608868816#m",
+      "source": "MMA Junkie on X",
+      "cat": "ufc",
+      "ts": "2026-08-16T17:10:41+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMixwJBVV95cUxOLTI1UVJ0Mk9VVXNteUNrYmE1Tmw3QWRPa09UR1JwTjZpTWJqQy1nbTV6QXMxdUNDemhhN0s5bVZod1RhdVAwQXlFcUgtT1dVamtRdkF4M3k4bEVzTWJ6VnZqTkZqZjBwby15UWhZdWt2c0xmTE1vOVczSkVZd2g0VTBqNVZEQ3VfRTFQSG9MVUR4Q05EWmhjTWNOUEFPbVRrVDlkNUg2VDY5TVZsZ3NUUGFIeVU1NWZneThXZVlNRjdEcVNDRzU5T0tGckdLVlEwc1ZpMjlDQUpkZlZQU1Foby0tbW5MVjVkejVlbXkxdERQZ3JjNnVGOWVicFJjRkp6aVpSSk15UXhncWl6VVlmZ1BfMmZ3eWNWMkI0Tlh4NE5BVWQyUC01ZmFUeVJibUU4OWVIVElIelloM2FEclE1VzJ6ZmVXWTQ",
-    "https://www.mmafighting.com/?p=504775",
     "https://bloodyelbow.com/?p=326722",
     "CBMiwAFBVV95cUxPUkFkS2dHUlJfSXlNYkx6OVNOdGdtcmV5WTdRSTY5ZkF0QVJpOUdERjVLRHlRdDZFeGRocVY2WFJ3NFdFQTE0d1pWTFpCUXFqZWt2dzVnZF91eE5hY0hHOUQzWFhBVUJIaE8tcHAzR2toZUk3UFNyRGYzQko0UmFJZWdXOWp6d09sc0lFOVM4RDhOdHgwTnVMUVQ0VVRsTWFPMWo1S1JRcmF3SWlmdl9RQUJCODJIY0c5OUZicUlkdy0",
     "CBMifEFVX3lxTFB2V2xJckprYTZINkRVcXJfVUptcFlSeWFPeXM3Z2xDTUVJMnY5U0pCcjBxcW82cFR4SHdQREJnVGpkd2ZRWXhsVUVOZ3BGUnJXZzBJUmJ1V1J3cXJJemZPTHlRMHJOMGMwVklSUWZXdEpGWFNSSXhBWDliYVU",
@@ -3312,7 +3310,9 @@
     "https://www.mmafighting.com/?p=505337",
     "CBMib0FVX3lxTE4xRURQVV94QkUwUlowVE5kTW5Iem5UTkdWWFFLeDlnUnN1OGc1YXNza0FpblRSOFJ2WFV2MEJJOEVjUGdHZDl2VXhrcWtFQ2tmZS1IcnZwTkJ4N1YwR09FRTk5VUkyVGhJaXV3bUxpTQ",
     "CBMi2gFBVV95cUxPdXhZNFBfNHIxNVhpMmJjak1MQ1VUaVpuVTduTVdfN1hVX1ZncXYtUGZ0MGtzRG1zbDMtc0s4Tnp1NUl1UmVyWkNkNDlmVC1wY0VfR0UxWF9YRE0xbk5GN3BvRGUxaGlaN1VNMm5nSlUxSVYySGd5UzNJOFBiaUNUdGR5elFHNDUzRHpuOTEyMGNZcXo4VGN2VVc2S2Y2SHNpdEJBNU1hZ2htbHdEek9mQ2lHbjV1d1ZDdzh6RlNUVFRVNjBVSUN3M2JKM3VWUGk1Tm5DZ21zSmZzdw",
-    "CBMiW0FVX3lxTFBFZUpISndVRmhpcVVTeDVZRTZ0all4SGI0dl9EeWFQNlVYV3BUYVE3eC1TZHZBSkgxRFBoU241bDU3bE40Y3VyLVZGQnlfVF9yc01TbFVEVjVQMHc"
+    "CBMiW0FVX3lxTFBFZUpISndVRmhpcVVTeDVZRTZ0all4SGI0dl9EeWFQNlVYV3BUYVE3eC1TZHZBSkgxRFBoU241bDU3bE40Y3VyLVZGQnlfVF9yc01TbFVEVjVQMHc",
+    "2089035211548049752",
+    "2089037140608868816"
   ],
   "daily": {
     "d": "2026-08-16",
