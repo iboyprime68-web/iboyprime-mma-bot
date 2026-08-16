@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev suggests Carlos Prates and Michael Morales fight over who fights him next: \"Let them fight. Why are they not fighting on this card to…",
-      "ts": "2026-08-16T13:45:00+00:00"
-    },
-    {
       "t": "Mackenzie Dern feels vindicated with #UFC330 win – but sees room for improvement https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc-330-m…",
       "ts": "2026-08-16T13:50:55+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Ilia Topuria Previews Fight Vs Justin Gaethje At UFC Freedom 250, Predicts First-round Finish Windsor Weather (fb1jBctWsx)",
       "ts": "2026-08-16T20:56:18+00:00"
+    },
+    {
+      "t": "UFC 330 Mixed Martial Arts",
+      "ts": "2026-08-16T21:19:06+00:00"
     }
   ],
   "digest_items": [
@@ -1748,6 +1748,13 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-16T20:56:18+00:00"
+    },
+    {
+      "title": "UFC 330 Mixed Martial Arts",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUkJOYlRObEdJZDBvZWpicTZ2bHNVMlhMMWhwdGlVQ1BkbnUxSUR4ZnotN3RxeFR1UHg2cUIwd19oaGlNMHR5VFpTOGJpaGVrN2o0SXNCMkdfNWZKcFJsUW04LTduaWFhN0U3VDAzTjNCdGtfYlRqb1VucW8zZ1Q2SlNjajVPMVZwaWt4T3N4M0FPZXF6OTdaNjBFeFRxU1d0aXJnSWhHVjVkaFdpZVdTNXBNOHR1dmM?oc=5",
+      "source": "Idaho Press",
+      "cat": "ufc",
+      "ts": "2026-08-16T21:19:06+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -1756,7 +1763,6 @@
     11
   ],
   "yt_eval": [
-    "CBMiiAFBVV95cUxQSGl1RlVDMElER0FOa2Q3M2RpUnJLUDVmVGFNTVlTeUVXUmlaUzE1NlVxMmFaaWMzcjN5bG40ZGZSZmdxRzhXM3d0azQxRHBZQ1BQSlZhdDJyVGcxTHdHTDFpYkY3ZG5oZGpjejBGSy14NExmbEhYME9DUEFJT2NheFNVMWcwN0lW",
     "CBMiiAJBVV95cUxOWXYtYkl3V3FyZnJGMTFVa0YxZG5fQkNQRlFOLWM1VV95Mlljc05Fam1NNnBSVVNZNDhWdHNaT3BjamIxOVpQc2VKTDJMZGZ4MjBHczlKcF9PTkFYZnhKcF9IRzV3NkJwY2lnMFRCTUlnaXdGX0ZXdEZ1dWt0emtkVEtpZGk0cDE4YWY4bTVwS0V3aFdYYnBjTVcwcXFtSzZwUExnWDhITFVkWTlkTnNFNTNSWVBQN0c3M0hLa081NjBGTEFCd2VDN0kyR1V5YWpMN1V5aVF1aXJmQmJ4VnpxM09hQUdza09zTjd5QTBzUHJVcTQtbFVlYjdaY0F1b19WQWxUc0hld1g",
     "CBMiR0FVX3lxTFBNWFM4OGlFd3dKM0hhdzh6MnpKd2hTbHc4VzRCajE3MkNDWHJOc1c1bmxiejFwVWMxT3BWWVZfZHBqNzJUWFZB",
     "CBMinAFBVV95cUxNVm81eXNiWGl3X1dlRWx4MzhobFMtd1hwSVNxRGFLcFczaEVjZzgzWTB4cC1JamJNYmtfNjg0ZkxPTUotUXNJZV9panltV1BmR2FjRUdUdkhrd3pLWFU1dzFYLV9XYXNjcTZHQk52OHoweEQtc0VsbDQ1TUluX05lenQ5WndQRnBrQmE1cXNtNVNpSUlfY3VaOVVBWWI",
@@ -2955,7 +2961,8 @@
     "CBMilgJBVV95cUxNNTA5SHBiSkFBS3lzYlVWal9lZWwwRjN1T19WdnRaTEJ4bUQ3UzllR2RrMnE1RE9hZGFDQmNhcVEwWk54RmJ4elNzcTZkQnkwMVZVOThSckJJM0dleFNHNXNxVFQxb21iV21RcFBPalVESzR2NUNsc3Vvd1RSc2FRYnR3SjJOa19SaDJ3MGpOc0FUZlNMY3k4NlU3a0FSaVkxUjdWbFdkcnhYRWZqY2xaeGdUV2h4Q2lHbkVobDFCYzB3Z0g0WS10OWhYY1hDNklrcm5ScjJudkdxUVVRa1l1dXhfTmJJekpPekVQYVNINHA0SkF0SV9waFA5UldDWUpHaElTdWhKVktSV2R1N1FKMzZFTXRidw",
     "CBMigAFBVV95cUxQRzRVOWpsX1hxUTZweEZBSkJ3ZnV1UmRWS1dpRVBzb2w3blpUUjFQZncxZHBLQnlZT1F4VUpMN29ZQ2lnMC0zaHpqanNldVNhVWF3cHJ1dm1lbkJGNlZ5bjBRY3J0UXNVMWJoNVprcXZrTEEwWGRHQUtJX0dKeEFQZg",
     "CBMisAFBVV95cUxPdThuZUVfRWZUSTlBR1YxVVE0Sy1JX1pmVkRCdHZjN2hLalRJUG9uZC1vVmloU0pseDRrTEd6WnF4aWlFODhmSTk3QTBmZmtiNWJPZzdCR3pXMURoblQ4X1VHOGRHX1doQUM0bGF5TFdFUzVJcnpGR2lqajlNd0JrSmJvbzdJdUZQdDVFYk5raVdaZ3FwUmhjQ21iZjljVVdIQW1oMTNOVm9ZQjBaTEpILQ",
-    "CBMifkFVX3lxTFBNbGFnSnVuajRhWmRhMGRNLUVHbHE3YUUxNmE1ZF9adDJ4QjhfZEFDTTgzVDREZk02WWdEWWxxRmZpczVOQldQRG50V3VYYjhsV1ZLTGhTcEwxUDRGWGo3ek44QzljaXdaSDNDbDQyWnNPSTh3b0xfM3ZsZVV5UQ"
+    "CBMifkFVX3lxTFBNbGFnSnVuajRhWmRhMGRNLUVHbHE3YUUxNmE1ZF9adDJ4QjhfZEFDTTgzVDREZk02WWdEWWxxRmZpczVOQldQRG50V3VYYjhsV1ZLTGhTcEwxUDRGWGo3ek44QzljaXdaSDNDbDQyWnNPSTh3b0xfM3ZsZVV5UQ",
+    "CBMitwFBVV95cUxOUkJOYlRObEdJZDBvZWpicTZ2bHNVMlhMMWhwdGlVQ1BkbnUxSUR4ZnotN3RxeFR1UHg2cUIwd19oaGlNMHR5VFpTOGJpaGVrN2o0SXNCMkdfNWZKcFJsUW04LTduaWFhN0U3VDAzTjNCdGtfYlRqb1VucW8zZ1Q2SlNjajVPMVZwaWt4T3N4M0FPZXF6OTdaNjBFeFRxU1d0aXJnSWhHVjVkaFdpZVdTNXBNOHR1dmM"
   ],
   "daily": {
     "d": "2026-08-16",
