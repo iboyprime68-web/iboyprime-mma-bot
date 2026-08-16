@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev didn't understand why Ian Machado Garry kept hugging him between rounds at #UFC330: \"This is the fight. This is not something we have…",
-      "ts": "2026-08-16T06:27:49+00:00"
-    },
-    {
       "t": "Islam Makhachev suggests Carlos Prates and Michael Morales fight over who fights him next: \"Let them fight. Why are they not fighting on this card to…",
       "ts": "2026-08-16T06:29:11+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "\"That b**tard\" - Tresean Gore and MMA fans react to his injury, win over Vicente Luque at UFC 330",
       "ts": "2026-08-16T16:22:56+00:00"
+    },
+    {
+      "t": "Islam Makhachev reveals where Ian Machado Garry fight ranks among his toughest UFC bouts",
+      "ts": "2026-08-16T16:23:25+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "HEADKICK DROPS IAN @MAKHACHEVMMA is puttin' on the pressure!! UFC330",
-      "url": "https://nitter.net/ufc/status/2088837448633913640#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T03:57:11+00:00"
-    },
     {
       "title": "20-17 after 2 for Islam. I gave give a 10-8 in round 2. Dropped Ian with a beaut headkick and dominated after.",
       "url": "https://nitter.net/arielhelwani/status/2088837846685581567#m",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-16T16:22:56+00:00"
+    },
+    {
+      "title": "Islam Makhachev reveals where Ian Machado Garry fight ranks among his toughest UFC bouts",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVHluSzlXN1dpel92SDFnUnRCYk1aLUpIU0l2UmJUWmE2dFphLTIzVkt4N2s0clNfZno4dVV4QXdNc05tM1hiQmtvNmxOMl9CU0JGRmRsY2JFN2tUMG1Lei0yelViYTJ0M2w1QW5qdERDOHBCR2VMNG1odUhBei1WUi1NMk9DNjliV2tIM0xzMWRZeTAxRmdkTFF4TFhBd0RtV0s1T3RkS1k2M2dMZ1BMaWJjUEhWdw?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-16T16:23:25+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMitwFBVV95cUxPbEdoaERmRUFQMEdoWGswNkVMZnUwTGxKcmo3RDVielJTd0U3c2U0dGNDVFhHb3cyYk9SVU5HUm1MT3YxZzI5WnNYU2pnSEZYQnVQd0R0Sm04S28yVlN1WWx6N0JXMkIwWXM3TE84U3YwN2V0Mkp6TnJselRpcDlxWXF0dzdQUGhfMnFkcU52dlAtYjU2RUZCZzV1b2V1N1ZJZ3JCS3hEdW9Td3JtbWxSZVFNWG5ZdDg",
     "CBMiwAFBVV95cUxQQmtvaDJoRURRM1FfS2tpRkRWVU5zWDRyaEYwWXdMenhCWW9NSGwtWU8wdGxuOUlfbi1QcHd4MzhsN2ZkbEpRRENqOGgyVGRTZU50Uzk4TDhwUlhKMlcxZm9aUVR2OEloQ1QxZ3pYQ3FkbnZHN1lIVGU0Ym9MOGM1eDAxRGJUN0F1ZjIxVWdKZW9kQ1R4NnB4eElJQ1RDVXlRal80VXR4NTJNQ1ZxNnB0R3dtLXJTRnUyM1BiMGRPZlg",
     "CBMipAFBVV95cUxOcWh2ZUNxS01qQmdhTjJqMHQ3MmFyQ21TMXRZMzk2VG5rQlZEMmRSa0xoTmlsWlhpMnZCckVxRVB3M1hleW16dnZrRmV2V0l6TnRaU2Rab2ZFWV81LUgzemdnQWxxc3lGYl9CZjUxekh6RzZ3V3loWUhJSU9pY1ZZUnN0VzF5N01OQzhEem1yN0ZmVnNSaEtZTHFFaWVPYVJQdk5MUQ",
     "CBMivgFBVV95cUxOak0zV0NBWTc5QmdwSWdQQU5WZE5rSlhhM0cwN1M3ZjloNFBSTDcyVmRONkhVSVJKV2VCU29pVHY5aHZ5VzFUa0gyQk1uS2hkbmxmWGhDbTVvQU5ULUFjZ0pWYjRWSjRnenFkeXBSbXR1bmhONDVaLU9jYUlveDhiQlh0ZExfa1ltRHFSVmRwVVdVYktJdWZYcEVIc1Y0Q2ZMLWhDVHlja2hVM3lKUkZwQXY0cUhNME5reDNQd3ZB",
@@ -3312,7 +3311,8 @@
     "CBMinwFBVV95cUxOaGcyUy1KZFRQUWc5ZVhtakVuTmxCQ09qbGoyckMzMUZnTnNnTW5UOEZXbEJEbktkNDdSclNyYjhlNmJzMkk3MjdUclVmX0w5TjdTVFFET2F2VVhuekNjVFpOM21ocFluYW4xYVljVXRfN3M3R3NIWlJnZXk1UGdsbTFqSFZtS0J1ZWdQUXYzbWk3M05HOUNPa2lTZ040MG8",
     "2089022605177024814",
     "CBMi9AFBVV95cUxPS09JLVBQdVJmRlhGSExRcmh4b1NWVG9qcndVa21UMkhoOTZmeEhoaWN0NXpESVpwUWRmOU96UjZ5RFR6OUtmYmNkT212Z1dKYzNQeEQ5YVRqeHY0eDVScVhjbndyWkNGTkNfZVgwSy1GbUNXNkw3VFcyaEdjSUVJdUsyU1ZiVUxLSlF6VG92T0RHemo4SHI3VEFNcXZJbUVCVEZDdTNZWkt1QnBhQWpfQUZJaHl4OWJmYTQ3aXJKaTJWWG5hdHNBVVlXeUtJY2FhTEVCUkViMWtiaVV3WXhHb1VPeW5hMnZWZVgzUmU0dVFIeFYx",
-    "CBMiuAFBVV95cUxNQXhLZTJCR3l2Y3MyNnVMX0JiLXJVdVFvTm5FOTZXcXNzZ0pCTGw2SXNvNHpVVEJJcHNsdnQ2a0FYZWU5ZUJqczJFVjg4Q24ydmtkZ2VFcG8yR1dvUmJWdXpfZG02TEJTOWpDVFBDQ0M1US1WV0swTGVpU2UwTW5Hd1Nfa2FYbE5wX3E5MExodkQtR20yQ2VmQmpRZldJbEVFTEpwS2U0V1F5bmJ5ZTJqZGFDYktFRUoz"
+    "CBMiuAFBVV95cUxNQXhLZTJCR3l2Y3MyNnVMX0JiLXJVdVFvTm5FOTZXcXNzZ0pCTGw2SXNvNHpVVEJJcHNsdnQ2a0FYZWU5ZUJqczJFVjg4Q24ydmtkZ2VFcG8yR1dvUmJWdXpfZG02TEJTOWpDVFBDQ0M1US1WV0swTGVpU2UwTW5Hd1Nfa2FYbE5wX3E5MExodkQtR20yQ2VmQmpRZldJbEVFTEpwS2U0V1F5bmJ5ZTJqZGFDYktFRUoz",
+    "CBMitgFBVV95cUxOVHluSzlXN1dpel92SDFnUnRCYk1aLUpIU0l2UmJUWmE2dFphLTIzVkt4N2s0clNfZno4dVV4QXdNc05tM1hiQmtvNmxOMl9CU0JGRmRsY2JFN2tUMG1Lei0yelViYTJ0M2w1QW5qdERDOHBCR2VMNG1odUhBei1WUi1NMk9DNjliV2tIM0xzMWRZeTAxRmdkTFF4TFhBd0RtV0s1T3RkS1k2M2dMZ1BMaWJjUEhWdw"
   ],
   "daily": {
     "d": "2026-08-16",
