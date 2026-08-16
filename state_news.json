@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "The main card is LIVE now! Join @MikeHeck_JR and @JedKMeshew for all of the action on the #UFC330 Watch Party.",
-      "ts": "2026-08-16T01:01:41+00:00"
-    },
-    {
-      "t": "UFC 330 live blog: Edson Barboza vs. Esteban Ribovics https://www.mmafighting.com/ufc/504931/ufc-330-live-blog-edson-barboza-vs-esteban-ribovics",
-      "ts": "2026-08-16T01:07:03+00:00"
-    },
-    {
       "t": "Tesehki vs Big Lex boxing fight result: New Baddies champion crowned in three-round Zeus Network fight",
       "ts": "2026-08-16T01:08:26+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Dustin Stoltzfus Post-Fight Interview | UFC 330",
       "ts": "2026-08-16T03:16:27+00:00"
+    },
+    {
+      "t": "Live stream: #UFC330 post-fight press conference https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/15/video-ufc-330-makhachev-garry-live-stream…",
+      "ts": "2026-08-16T03:05:58+00:00"
+    },
+    {
+      "t": "Dustin Stoltzfus def. Mansur Abdul-Malik at #UFC330: Best photos https://mmajunkie.usatoday.com/picture-gallery/sports/ufc/2026/08/15/dustin-stoltzfu…",
+      "ts": "2026-08-16T03:10:26+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 330 live blog: Mansur Abdul-Malik vs. Dustin Stoltzfus https://www.mmafighting.com/ufc/504922/ufc-330-live-blog-mansur-abdul-malik-vs-dustin-stol…",
-      "url": "https://nitter.net/MMAFighting/status/2088803981313397015#m",
-      "source": "MMA Fighting on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T01:44:11+00:00"
-    },
-    {
-      "title": "WE'RE READY 👀 The welterweight title is on the line in just a few more fights! [ UFC 330 is LIVE NOW on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2088804481970712880#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T01:46:11+00:00"
-    },
     {
       "title": ".@INNERGUFC's daughter stole the show at this UFC 330 post-fight press conference 😂",
       "url": "https://nitter.net/MMAFighting/status/2088804658458562765#m",
@@ -2105,6 +2091,20 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-16T03:16:27+00:00"
+    },
+    {
+      "title": "Live stream: UFC330 post-fight press conference https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/15/video-ufc-330-makhachev-garry-live-stream…",
+      "url": "https://nitter.net/MMAJunkie/status/2088824562951622860#m",
+      "source": "MMA Junkie on X",
+      "cat": "ufc",
+      "ts": "2026-08-16T03:05:58+00:00"
+    },
+    {
+      "title": "Dustin Stoltzfus def. Mansur Abdul-Malik at UFC330: Best photos https://mmajunkie.usatoday.com/picture-gallery/sports/ufc/2026/08/15/dustin-stoltzfu…",
+      "url": "https://nitter.net/MMAJunkie/status/2088825684936265856#m",
+      "source": "MMA Junkie on X",
+      "cat": "ufc",
+      "ts": "2026-08-16T03:10:26+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,8 +2113,6 @@
     16
   ],
   "yt_eval": [
-    "CBMie0FVX3lxTFAxa2xwNWYxSTBNaHVqOUdkRHVlZENkR2ZmMUdmWk1tQ0FjeUJUODJRU3NBOUFQcjAxX0RHUDVoYW1ucVNQekRnQjV2cUFpT1ZDdWpHeXlRQ1R2OW1VM09tMzZkNGJJVzhBZXRCSUd5dS05UDQ5YW4yaDFKMA",
-    "2088311172000862625",
     "CBMinAFBVV95cUxNenF2MWoxbXIxY0h4QzlZUWRhd2lYTmd0SXdlUldmc1psRi1MM29VeENZSlBNSnkxNHc2TGxjQy15bjMwR2NBa21XWlBDN3c4a2pEOHhEdjU3dVdOdS1QNGFqVkRBcTJVbEdkNFVuenFXVEllQUJvUUZOV0lzZ1NnY3JPdFdIZ1NvNTBPd2ZwUFAxbVpxc0NDQzd2WW4",
     "CBMipwFBVV95cUxNTThkS2F4NzY3YVozTFZKZmhqY3FKWnpYWUdid19pUkdrMXdMMnRqZHRCOFJzNlJheEoxeWEybWF3S0FwOEMwdnNDMG5tblJRNU5DbFU0SUFIdXpJa1BxVWU5eUxra0c1N2E0UzJhZE5MVFpjUWEyT3J5T2RNSjBqcl9kNnY1dkdvYWxKVV9KT0xTUGJ1eU1FY0FFSEh6RGJ4N0lHRnVrbw",
     "CBMilwFBVV95cUxNLVczaERQeG5kT19PYTFSNU56SjRraFNkc2V4aWtLWW1FckJEX3Z4NDNoNGtZRkQ3WjBmUjhNZjczRnp4cEE1N0JjX1gwbkhFZ1hRQWNmbXFlWnF4SkVKQjJXeGZVdjdwTkF1UkpMZlo0dVhBdTQ5bUYxNkZZZnlUMUFCSmZSdTM4Uno4VmdLdG54QlB1aVQw",
@@ -3312,7 +3310,9 @@
     "2088826283577012694",
     "2088826833789763781",
     "CBMiR0FVX3lxTE1ReGp4MWVuU1RteERycUxRb3FVWXY5ZVR4RTZ3dS1jbUlpNkNHQ3FnSC1HTmRqWFdpajk2ZS12WGdTeTVRYWtz",
-    "CBMiR0FVX3lxTE1pTWN5VENnbkNlcnJtdVlzeE42bjMtVWpTMjZXeDdmTzRFYXdDYnZsTm5IbzhrVDNJN3hXY2R2UVN3b1ZqYmxV"
+    "CBMiR0FVX3lxTE1pTWN5VENnbkNlcnJtdVlzeE42bjMtVWpTMjZXeDdmTzRFYXdDYnZsTm5IbzhrVDNJN3hXY2R2UVN3b1ZqYmxV",
+    "2088824562951622860",
+    "2088825684936265856"
   ],
   "daily": {
     "d": "2026-08-16",
