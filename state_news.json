@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "\"I am happy we have some real contenders in this division.\" Islam Makhachev is ready for Carlos Prates or Michael Morales after #UFC330 and is lookin…",
-      "ts": "2026-08-16T06:39:33+00:00"
-    },
-    {
       "t": "Islam Makhachev reveals ideal return timeline after #UFC330, reacts to breaking record https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc…",
       "ts": "2026-08-16T06:50:17+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Mackenzie Dern feels vindicated with #UFC330 win – but sees room for improvement https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc-330-m…",
       "ts": "2026-08-16T13:50:55+00:00"
+    },
+    {
+      "t": "Dana White Rips Machado Garry's Lack of 'Killer Instinct' After UFC 330, 'Drives Me F--king Crazy'",
+      "ts": "2026-08-16T14:05:39+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev shatters major UFC record with win over Ian Machado Garry in tense title clash",
-      "url": "https://sports.yahoo.com/articles/islam-makhachev-shatters-major-ufc-044305545.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:43:05+00:00"
-    },
     {
       "title": "UFC 333 looks spectacular. Just announced. Volk x Evloev Yan x Merab 3 Love it. That’s a very solid one.",
       "url": "https://nitter.net/arielhelwani/status/2088817897296539979#m",
@@ -2105,15 +2098,21 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-16T13:50:55+00:00"
+    },
+    {
+      "title": "Dana White Rips Machado Garry's Lack of 'Killer Instinct' After UFC 330, 'Drives Me F--king Crazy'",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOVppNFN6T3p1bnlmbHdBSlU5ZzRKbXJxR3VCamFSQU5NdTZoNlhTQU12Vl9jcXE0N0JlaWFlZ2Jzd2FvdlgtT0hCZEpIOE9WVkFuc3pTQzhidkVGa1dVcnBoN2toY0hpUWNFTDV5bEdUcDh5c3c3a1huWHJRSXFOd0FEcW1EOE9RSDZNQy1PXzZqM29sRktPaWtOeDk2VGZtdkJsX0JGOGxBOWN4T3RUYWRid1FDdHFia2dXX2xiOEpPZVN5YXFaaGJLRGYtQQ?oc=5",
+      "source": "Bleacher Report",
+      "cat": "ufc",
+      "ts": "2026-08-16T14:05:39+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
   "hour": [
     "2026-08-16T14",
-    5
+    6
   ],
   "yt_eval": [
-    "2088657885945569763",
     "CBMiywFBVV95cUxNN0dnTlJLdEg0b0hrbVpHbWNkZVp3WEVhWnlJWmhMVGpuV1NGb0tUbmJCUk14NzVPSksxTENHZk01N2tKT0wyckxncURBMU1uWUhpRk4xWXU1d1JBYWt0eHNYaTFOZVVrRXg4eVhkZjBmLWNyVG1yMVNGdF9uNWwzUEFpVnR4S0hSenpDblZrNzFQYWtJUTFfdVpGS21RZ3dCdWpsUlpLcXVtUFNFdXBMY1FldzRxdnprVkEzOTlQWjdzMzJVTEI1TVl0cw",
     "CBMiigFBVV95cUxQZ3hsTnBrbk9lRFNiTmhwYVlkWmlOQUJ6QVh6elF1cHpkVWdyMFBJWEhVTUJldmo4QkQ3N3RPbDhuMzUwOWpKY0lnTVRLT0k2Ujg4NVlxVWVTTzVIT3k2Z3NqZFc2RWh0WF9xWkpteXYwZEpYSmhDanNiX1VZdXNMYWRWaUhvamRrdHc",
     "CBMiuAFBVV95cUxQd21Dd2dOX1RmZVI5Q1lDQ0lKVE45dmc2S0xqU0Rld1FPRHREV19nWm9OdkFxUnBzTm9tb3FuSGZLX01RMHM0dXBySlZ1NFd6ajBnSk9qczdyR3BZNldmdXZNaFRqb0JPeUI5N3pnRmFSQVdLZVh6NXhDQnBtaVhYMkdVb3JZT2stSUVCaVd2Rm8xX0ZVdUtJMFlrOElhVzNXRlYtbTUweTdFUWdQUXoyNXRQOTdPNnlm",
@@ -3312,7 +3311,8 @@
     "https://www.mmafighting.com/?p=505349",
     "CBMiW0FVX3lxTFBTai1QUVBtZFZUSnhXZ3Z4Q1J3eWlWUzBTbGtpMjFocklQUFc5OThPVUNwd0xScDhUZGl4UVZ5MUdrbEs1a0V0QVIyQjJJRmwxQWVjc01KNm9DTDQ",
     "CBMi2gFBVV95cUxNcGVuTjZKTk1zOTBJRHhsTF9LOUJnamtMSkVQcW53MUhaYlhZTGFpZlJoMXNwcTlaQnhhTHBQVTBBZ2UzSkotVkN4RmtpY0o0R0tOU0J4cnNzX1ZuNi1DWnIwSHY4WG5Md0RPUUljc245d0JFU3hLcGU4UE00WHB2ZGFEWERPV3dUenZDMUpUT3ZGb3hzNG1XSWlZUmhYTkRDbVFXNk4yTU55YlNJZXRDaTM1N3JWQmZtMHVCeEV6TnoyMnlKLVJXUzNyLXk0UGNMR2F6ckFLYzVJZw",
-    "2088986869551792223"
+    "2088986869551792223",
+    "CBMizgFBVV95cUxQOVppNFN6T3p1bnlmbHdBSlU5ZzRKbXJxR3VCamFSQU5NdTZoNlhTQU12Vl9jcXE0N0JlaWFlZ2Jzd2FvdlgtT0hCZEpIOE9WVkFuc3pTQzhidkVGa1dVcnBoN2toY0hpUWNFTDV5bEdUcDh5c3c3a1huWHJRSXFOd0FEcW1EOE9RSDZNQy1PXzZqM29sRktPaWtOeDk2VGZtdkJsX0JGOGxBOWN4T3RUYWRid1FDdHFia2dXX2xiOEpPZVN5YXFaaGJLRGYtQQ"
   ],
   "daily": {
     "d": "2026-08-16",
