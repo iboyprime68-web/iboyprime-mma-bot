@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502407",
     "https://www.mmafighting.com/?p=502413",
     "https://www.mmafighting.com/?p=502419",
     "https://www.mmafighting.com/?p=502435",
@@ -1076,6 +1075,7 @@
     "https://www.sherdog.com/news/news/Middleweight-contenders-to-headline-UFC-Sacramento-201669",
     "https://www.sherdog.com/news/news/Nate-Diaz-has-explicit-reaction-to-Jake-Pauls-MMA-callout-202311",
     "https://www.sherdog.com/news/news/Navajo-Stirling-admits-to-facing-most-adversity-in-MMA-career-vs-Ion-Cutelaba-201594",
+    "https://www.sherdog.com/news/news/Neil-Magny-just-joined-Charles-Oliveira-in-rare-UFC-company-202375",
     "https://www.sherdog.com/news/news/New-photo-sheds-light-on-how-Ilia-Topuria-looks-two-weeks-after-title-loss-201709",
     "https://www.sherdog.com/news/news/No-corners-cut-for-Conor-McGregor-201746",
     "https://www.sherdog.com/news/news/Octagon-newcomer-learned-twister-submission-technique-from-exUFC-standout-201596",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Ian Garry praises Islam Makhachev, but stands by one bold claim",
-      "ts": "2026-08-16T06:34:09+00:00"
-    },
     {
       "t": "Makhachev Questions Topuria’s Pre-Fight Focus Following UFC Loss",
       "ts": "2026-08-16T06:51:51+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Makhachev defeated Harry Machado and set a UFC record for consecutive wins",
       "ts": "2026-08-16T07:50:54+00:00"
+    },
+    {
+      "t": "Neil Magny just joined Charles Oliveira in rare UFC company",
+      "ts": "2026-08-16T07:49:56+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "WE USED TO PRAY FOR TIMES LIKE THIS 🙏 @MAKHACHEVMMA vs @IanGarryMMA [ UFC330 LIVE NOW on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2088835136771301863#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T03:47:59+00:00"
-    },
     {
       "title": "10-9 Islam after 1. Not a lot of damage from Islam but it was all him after an initial TD.",
       "url": "https://nitter.net/arielhelwani/status/2088836325763879223#m",
@@ -2105,6 +2098,13 @@
       "source": "UA.NEWS",
       "cat": "ufc",
       "ts": "2026-08-16T07:50:54+00:00"
+    },
+    {
+      "title": "Neil Magny just joined Charles Oliveira in rare UFC company",
+      "url": "https://www.sherdog.com/news/news/Neil-Magny-just-joined-Charles-Oliveira-in-rare-UFC-company-202375",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-16T07:49:56+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     12
   ],
   "yt_eval": [
-    "CBMi7AFBVV95cUxQNmJlLVAtQ0R2RUowbzNTQ0Z3Vk9KQjRIQVhmY1dWR1VxbzgyQ2drZFVvTTJOeW1xWWJ2MW96bGItdVEyY2FpQ1p4cVlUa2tFZ3NvZEtBNGh2SHFEYmd4azgtRHM2Zmd2NS1ZWHZVd3ZfUUxOTTBycEZFaHphWm1rcG5kenZHbmZWS25yTE91ZllDYTE4QUxEalNMemlHLVdBdmpWMktfSGFvVktGUkFjYmFZakx3SHdscWxQc0JKczBsby1ZSzFBS0lNUG9janFEbUNxbWJPeWY4NmV2QWk3dVJCZmJjakNWb2l1UA",
     "CBMioAFBVV95cUxOQzdDbnV5SUNBZE5JWnptNjlVUGdEbzRyaGM2clFJbkN4X09CNEc4WHdfVldXencxZXl1VkY0eGYyNG8zY1VSSjM5SUhNc1N3VVhkb2paaDNGaXpqNF84cTNaSDA3WFpVNHVQZ2E1cDJ3b2VVWnU5QzN3WE03WS1mc3FCV3NGMEFsOU4xTGR3WVlTRl9KcUR3aW8xeUZLLXJj",
     "CBMitAFBVV95cUxPUHB6bnlSWGE3eXlYMEtVd1Q4ZjRkVlhaN1hRc0ZuZDFCSzdQazFDSVZXczJ5OVVlamtBTEd3cm1WeXVuUTB6b0hOVEFpdk1WZi01dWNKalRBX3N6ZlBveWFJX05BYWRyd2R4NEpkNERfYl9tRktRUVF5dU03bGhFOXBSbkRQZFNBTFFfa1pGa1JTWldldnR0NUY0U1p6ZWl2a0FiT25OU0tnZEFLTElSUWM1YUw",
     "CBMikAFBVV95cUxQSzZHUThseXFFcWppcklTZHQzZTBUcDZicFQtYUI3UmF3NjlENWdPWFdQNHJmRmp6Nlpzb28wY2FlZEc4QlkxdGJDZEhwbUFyTHNicHhjZHVUd3pEbWVXUFNyWUtSRGM4emVDRmx6LUpWUXpkNDdUcXU3NmxPMjRtZ2tidzdOWHF2OUh2MTliRzE",
@@ -3312,7 +3311,8 @@
     "CBMicEFVX3lxTFBRZklBOF9ucGd4VWlKX0NrMG5XV21BQVg0T1FHWUQzU2c3di1wQ19UTEkwdlpZMlhtSkhQNGhZZnVtSUo2c2N6Q3gwWmJWMy14anMtcDl3MXl0cERPRVRmVGNVM0R6NldrcHk5MC0zdjI",
     "CBMi1wFBVV95cUxNS2xmMVkzU1RsYWJlVXZJb1RpalJmZENDbWxOZkljdTQ2SVl2TDRuVGNRT29zSWZ0RTZZWm4zWlhBeWVzcVdKQVotT3dqSHZLd0w0ckNmNFhsZUhKbXFMNzB2RHJqOVM1Vm0zbm56YV9kODR0TXVOUktBNzczbXI5bmJWYzhjTEMxQ3dublZqUFVsdE90Qk4yczliaU5TUHlDZVFTZlVqZDdlbTdLemFzLVBKSEswVjRmLWhVMEhWWmU0cjdCZTBUZk5GRmtwdjh2NExtRFF6Y9IB3AFBVV95cUxNRS1Pd05LRUZLWkVZanpheEFhcjJDeTc0bUVMdTZRRTVvaGF1bFJPc0JxZjBTZ0FYa0pvUnVZYUQ3NkdKeThaQXdDWHlnMGhJcXBMTDJ3R2VyWjlSSVZmZ3d5Yk40bGNDZTJNel81d2NRMXlLSlRQMHhZNEVhYW03SDVFMkN4NkVEQ2t0cVh1cW4wcjc2dmNnbmNaNTAyT0RXTk1Dd29rc1daNmRaa1o2VGJKUXFHcnZLQmJyME5WLWlfZEdBaTNjdU4tRDVSNHVWNDVER3d4X21mTGxl",
     "CBMibkFVX3lxTE1wWU5XbllMalVJcm5kbXV6MmVGR2tmY0NFdWtkeEJBUWhQaWNNMkZ3aFk5NlcxMEdOTWgwZERJS015eTRzcU5Rb3lWUV9WZk9qNVFRU0lEaHBCeUUxOXVRbDJFVHhwX3p1ek9SaFRn",
-    "CBMiogFBVV95cUxPcFJ2VlpkTG4zODk3UkY5cjIxcm5jX3JkSDVUNERNZGJteExSUVd2anVGOVFjbWp3ZG8tWUxGcnpVSGtYOTQxYnNyTEZjSE5SaWNVdVpRMEtyZE4zLUw0ZTFOUWZac1hDZExYVmZBZGR5SVVFTVpZTjY1YTBaN1NDX2YxNUptZ2NEX2twUXYzYlRqUHhyTWxCa3RRV0FpNU9abGc"
+    "CBMiogFBVV95cUxPcFJ2VlpkTG4zODk3UkY5cjIxcm5jX3JkSDVUNERNZGJteExSUVd2anVGOVFjbWp3ZG8tWUxGcnpVSGtYOTQxYnNyTEZjSE5SaWNVdVpRMEtyZE4zLUw0ZTFOUWZac1hDZExYVmZBZGR5SVVFTVpZTjY1YTBaN1NDX2YxNUptZ2NEX2twUXYzYlRqUHhyTWxCa3RRV0FpNU9abGc",
+    "https://www.sherdog.com/news/news/Neil-Magny-just-joined-Charles-Oliveira-in-rare-UFC-company-202375"
   ],
   "daily": {
     "d": "2026-08-16",
