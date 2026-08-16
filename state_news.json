@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Makhachev Questions Topuria’s Pre-Fight Focus Following UFC Loss",
-      "ts": "2026-08-16T06:51:51+00:00"
-    },
-    {
       "t": "Islam Makhachev gives his immediate reaction to his win over Ian Machado Garry at #UFC330: \"Ian is a good opponent. It's very hard to fight someone w…",
       "ts": "2026-08-16T06:12:57+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Neil Magny just joined Charles Oliveira in rare UFC company",
       "ts": "2026-08-16T07:49:56+00:00"
+    },
+    {
+      "t": "UFC 330 Recap (WORK IN PROGRESS)",
+      "ts": "2026-08-16T07:23:23+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "10-9 Islam after 1. Not a lot of damage from Islam but it was all him after an initial TD.",
-      "url": "https://nitter.net/arielhelwani/status/2088836325763879223#m",
-      "source": "Ariel Helwani",
-      "cat": "ufc",
-      "ts": "2026-08-16T03:52:43+00:00"
-    },
     {
       "title": "HEADKICK DROPS IAN @MAKHACHEVMMA is puttin' on the pressure!! UFC330",
       "url": "https://nitter.net/ufc/status/2088837448633913640#m",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-16T07:49:56+00:00"
+    },
+    {
+      "title": "UFC 330 Recap (WORK IN PROGRESS)",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KWE9zQnB4XzlxRTNkUFIyOVZKRGFtQ1VCR1hBTXlEVFdwR015aEpsX0p2WkprVjNpdHY2enFCWVZBbHNxamdDM2syYm1NSUFoZEptT25scUFPNFk5aWFvUmZHNWdtZXZUR1M0WEZWMHZXSHRlcmM2c1lWcw?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-16T07:23:23+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     12
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxOQzdDbnV5SUNBZE5JWnptNjlVUGdEbzRyaGM2clFJbkN4X09CNEc4WHdfVldXencxZXl1VkY0eGYyNG8zY1VSSjM5SUhNc1N3VVhkb2paaDNGaXpqNF84cTNaSDA3WFpVNHVQZ2E1cDJ3b2VVWnU5QzN3WE03WS1mc3FCV3NGMEFsOU4xTGR3WVlTRl9KcUR3aW8xeUZLLXJj",
     "CBMitAFBVV95cUxPUHB6bnlSWGE3eXlYMEtVd1Q4ZjRkVlhaN1hRc0ZuZDFCSzdQazFDSVZXczJ5OVVlamtBTEd3cm1WeXVuUTB6b0hOVEFpdk1WZi01dWNKalRBX3N6ZlBveWFJX05BYWRyd2R4NEpkNERfYl9tRktRUVF5dU03bGhFOXBSbkRQZFNBTFFfa1pGa1JTWldldnR0NUY0U1p6ZWl2a0FiT25OU0tnZEFLTElSUWM1YUw",
     "CBMikAFBVV95cUxQSzZHUThseXFFcWppcklTZHQzZTBUcDZicFQtYUI3UmF3NjlENWdPWFdQNHJmRmp6Nlpzb28wY2FlZEc4QlkxdGJDZEhwbUFyTHNicHhjZHVUd3pEbWVXUFNyWUtSRGM4emVDRmx6LUpWUXpkNDdUcXU3NmxPMjRtZ2tidzdOWHF2OUh2MTliRzE",
     "CBMigwFBVV95cUxQVlA3dGFScklmdjZ2WTVqYUprdDk4NlF5MVNYU2NIYW5yb2hVMWpsd0ZCZFM3bmJmeWlkblU4anBOUE9OQmtSRWk2NkMtYUNHZERYRWo5QWk4d3VsU0FvVW15dGVfTnVRSUFRUjVQTXdHeDh0eHBrRjF1Wmc3NF81bnMyWQ",
@@ -3312,7 +3311,8 @@
     "CBMi1wFBVV95cUxNS2xmMVkzU1RsYWJlVXZJb1RpalJmZENDbWxOZkljdTQ2SVl2TDRuVGNRT29zSWZ0RTZZWm4zWlhBeWVzcVdKQVotT3dqSHZLd0w0ckNmNFhsZUhKbXFMNzB2RHJqOVM1Vm0zbm56YV9kODR0TXVOUktBNzczbXI5bmJWYzhjTEMxQ3dublZqUFVsdE90Qk4yczliaU5TUHlDZVFTZlVqZDdlbTdLemFzLVBKSEswVjRmLWhVMEhWWmU0cjdCZTBUZk5GRmtwdjh2NExtRFF6Y9IB3AFBVV95cUxNRS1Pd05LRUZLWkVZanpheEFhcjJDeTc0bUVMdTZRRTVvaGF1bFJPc0JxZjBTZ0FYa0pvUnVZYUQ3NkdKeThaQXdDWHlnMGhJcXBMTDJ3R2VyWjlSSVZmZ3d5Yk40bGNDZTJNel81d2NRMXlLSlRQMHhZNEVhYW03SDVFMkN4NkVEQ2t0cVh1cW4wcjc2dmNnbmNaNTAyT0RXTk1Dd29rc1daNmRaa1o2VGJKUXFHcnZLQmJyME5WLWlfZEdBaTNjdU4tRDVSNHVWNDVER3d4X21mTGxl",
     "CBMibkFVX3lxTE1wWU5XbllMalVJcm5kbXV6MmVGR2tmY0NFdWtkeEJBUWhQaWNNMkZ3aFk5NlcxMEdOTWgwZERJS015eTRzcU5Rb3lWUV9WZk9qNVFRU0lEaHBCeUUxOXVRbDJFVHhwX3p1ek9SaFRn",
     "CBMiogFBVV95cUxPcFJ2VlpkTG4zODk3UkY5cjIxcm5jX3JkSDVUNERNZGJteExSUVd2anVGOVFjbWp3ZG8tWUxGcnpVSGtYOTQxYnNyTEZjSE5SaWNVdVpRMEtyZE4zLUw0ZTFOUWZac1hDZExYVmZBZGR5SVVFTVpZTjY1YTBaN1NDX2YxNUptZ2NEX2twUXYzYlRqUHhyTWxCa3RRV0FpNU9abGc",
-    "https://www.sherdog.com/news/news/Neil-Magny-just-joined-Charles-Oliveira-in-rare-UFC-company-202375"
+    "https://www.sherdog.com/news/news/Neil-Magny-just-joined-Charles-Oliveira-in-rare-UFC-company-202375",
+    "CBMie0FVX3lxTE1KWE9zQnB4XzlxRTNkUFIyOVZKRGFtQ1VCR1hBTXlEVFdwR015aEpsX0p2WkprVjNpdHY2enFCWVZBbHNxamdDM2syYm1NSUFoZEptT25scUFPNFk5aWFvUmZHNWdtZXZUR1M0WEZWMHZXSHRlcmM2c1lWcw"
   ],
   "daily": {
     "d": "2026-08-16",
