@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 330 Recap (WORK IN PROGRESS)",
-      "ts": "2026-08-16T07:23:23+00:00"
-    },
-    {
       "t": "Dana White, Islam Makhachev puzzled by Ian Machado Garry's show of respect during UFC 330 title fight",
       "ts": "2026-08-16T07:32:03+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Exciting UFC Prelim Bouts: Billy Ray Goff vs. Ty Miller & More",
       "ts": "2026-08-16T16:08:44+00:00"
+    },
+    {
+      "t": "Contender Series Graduates: Adrian Yanez Josh Manson (nKXChUoE2k)",
+      "ts": "2026-08-16T16:06:41+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "‘I did great’: Ian Machado Garry immediately takes to social media to defend UFC 330 performance",
-      "url": "https://bloodyelbow.com/2026/08/16/i-did-great-ian-machado-garry-immediately-takes-to-social-media-to-defend-ufc-330-performance/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-16T10:00:00+00:00"
-    },
     {
       "title": "Islam Makhachev picks his next opponent after Prates and Morales argued in the crowd at UFC 330",
       "url": "https://bloodyelbow.com/2026/08/16/islam-makhachev-picks-his-next-opponent-after-prates-and-morales-argued-in-the-crowd-at-ufc-330/",
@@ -2105,6 +2098,13 @@
       "source": "SportsGrid",
       "cat": "ufc",
       "ts": "2026-08-16T16:08:44+00:00"
+    },
+    {
+      "title": "Contender Series Graduates: Adrian Yanez Josh Manson (nKXChUoE2k)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzUm5zcUZ6TmJYZTdQLUx2Z09oQzcyRnpKUUo5M1p3b09uWmdGaVptaDVBMVd6M3ROS2J2ZWgtQXpHS1k0WWlfLWJpc0YwTXktVzkyWWx2X3NuSFE?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-16T16:06:41+00:00"
     }
   ],
   "digest_last": "2026-08-15 21:30",
@@ -2113,7 +2113,6 @@
     14
   ],
   "yt_eval": [
-    "CBMirgFBVV95cUxNMWU1VXFnajRYN1ZnZEtINDNNemY0cGRtdVhVb1FjUnNsMGs2QjdhWFAxRWgxTUxiTXpFdHFhdU5iME9fdWZfYzBtclZOSjc3TV9Oa2phXzBMckpjcHhIZWJfUzhvemxOQWhYc19zTE4wQUJoQ0Q4ODNPX2lzSEJCV09tZjhkdTkwNXNxOGd3WEx3eFhEUWlSWkhDd1JsREhUeUdxRjRkZ0JqcXNBU2c",
     "CBMifEFVX3lxTE51SmUyb1FxVjltaXI0aExJYjRWS29BOHU3bEsyZ2oxd1p4NEtjMDh5MXBEV0tUSkxCRnJzdzk5VnZ5Y3JtZVpjZmR5NjRBNkZGVEhwaVQyMDROdllGS3NnWUoyd0dCSm1MOEJnZENmX1BSekZweHd1VFFJRFE",
     "CBMie0FVX3lxTE85NXlPWUpLMTdlN3NHdE9GbkdyVjhtWTVOZTVfX29tSUJvMFYxTnFBeUhEeXB5Q1dESHNhajEyZ3VhbngxM29UbGVxTzdVaFNSY1Z1SkY2a0NvRnJCNUhQMHpOME1wTTBNMlN4TkM4c0ZTNHpDbXhkWmFJOA",
     "CBMiowFBVV95cUxOOGZnaEZZaC16NlQ1b2JrYzVuRVlaQThyRnBEaTBDM0o5Ylc3VUw2Q2EwNmxHQW9sdjZUZ2xic1Fxd0lxbFBlTUVaVkV3SjlZcU00Q3VCRks4ckNUZHNxQ2JIc09oOFRXUFJlalk5dHdjUnZja1NCTUFTOVF5SEIwdnVjN3NKU3RqWWIxWFE5dEtjZkZIcmlJeUl5T3RxUzJTbEM4",
@@ -3312,7 +3311,8 @@
     "CBMitAFBVV95cUxOaENiNG54S2JSckRaanNkR2xBbl9uSnVzeHVPQjN0WlZJTmFEaHQzNGM5UGI5LXJPc2w2Um9kMXJJd2ZMd09TdWg4UFdQb1dweWhvTC1YTnROSVhmcWZKb3pBQVdqamxHSHh2STExM0JjLWpYN0NITGVuZFBLbU5jRHg4ZDhrRkYzeDgxMEhIdmI4RDJQQVBxQjZnMWl5bUFOZU1UeF82SC1USjZ4R1BCSU9telI",
     "2089027070638825798",
     "CBMiqwFBVV95cUxPVE14QTcxSG56RTZNUkpYbkZpZ3BmeUVhdnRwWXh4ckJXUzZpS0FkMHdpOHlmWVN0NDR6SS0tUUM5cGMxMHNQb3otcDkxMkRrNklvRjlyc2ZZNUYydXl0a0p6SGFvQW41RWU1b3VRUHVkeHA1dk13OXNKUTRraldQci1yYTJSVDVEZlpDR3VVcG9KdVNlZm9OX3VCTTQwUElNSGVUWHVWbVZabnc",
-    "CBMirwFBVV95cUxQczZ3MGhiZTBBbk1ud19Ka0ZyZllIOWtqX1RQcVI3N3YyWndidzI3dUlUU2JxM1BCbnYyXzZ6UzZZczRMci1hOHRRblk3YnJ6eUVKVVpoYUUzUzVIMmtKb0FyMkVxQUg4SGQ2MFNMSmZTMkhuZExnYXFJNlpLdUlwSnRNR3k3VjBORmc4NUV4cWwtZVJQRDlJczlzMGpkX0F6Y0RDbElzUUhZbTJaRzhV"
+    "CBMirwFBVV95cUxQczZ3MGhiZTBBbk1ud19Ka0ZyZllIOWtqX1RQcVI3N3YyWndidzI3dUlUU2JxM1BCbnYyXzZ6UzZZczRMci1hOHRRblk3YnJ6eUVKVVpoYUUzUzVIMmtKb0FyMkVxQUg4SGQ2MFNMSmZTMkhuZExnYXFJNlpLdUlwSnRNR3k3VjBORmc4NUV4cWwtZVJQRDlJczlzMGpkX0F6Y0RDbElzUUhZbTJaRzhV",
+    "CBMiW0FVX3lxTFAzUm5zcUZ6TmJYZTdQLUx2Z09oQzcyRnpKUUo5M1p3b09uWmdGaVptaDVBMVd6M3ROS2J2ZWgtQXpHS1k0WWlfLWJpc0YwTXktVzkyWWx2X3NuSFE"
   ],
   "daily": {
     "d": "2026-08-16",
