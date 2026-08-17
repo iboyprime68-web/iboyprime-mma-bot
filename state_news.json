@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Daniel Cormier: Islam Makhachev was tired, pushed like never before at UFC 330 https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/ufc-330-dan…",
-      "ts": "2026-08-17T17:05:55+00:00"
-    },
-    {
       "t": "Photos: Dana White's Contender Series 88 weigh-ins and faceoffs https://mmajunkie.usatoday.com/picture-gallery/sports/ufc/2026/08/17/dana-white-conte…",
       "ts": "2026-08-17T17:10:23+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC returns to Abu Dhabi with blockbuster title bouts",
       "ts": "2026-08-17T20:04:53+00:00"
+    },
+    {
+      "t": "Who deserves the next shot at Islam Makhachev's #UFC welterweight title? 🤔 📰 https://mma-fighting.visitlink.me/wzS8x0",
+      "ts": "2026-08-17T20:03:55+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Conor McGregor offers two-word support message to Ian Machado Garry after UFC 330 loss",
-      "url": "https://bloodyelbow.com/2026/08/17/conor-mcgregor-offers-two-word-support-message-to-ian-machado-garry-after-ufc-330-loss/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T15:57:42+00:00"
-    },
     {
       "title": "Meet the fighters competing for a UFC contract on Week 2 of Dana White’s Contender Series",
       "url": "https://bloodyelbow.com/2026/08/17/meet-the-fighters-competing-for-a-ufc-contract-on-week-2-of-dana-whites-contender-series/",
@@ -2105,6 +2098,13 @@
       "source": "Dubai Eye 103.8",
       "cat": "ufc",
       "ts": "2026-08-17T20:04:53+00:00"
+    },
+    {
+      "title": "Who deserves the next shot at Islam Makhachev's UFC welterweight title? 🤔 📰 https://mma-fighting.visitlink.me/wzS8x0",
+      "url": "https://nitter.net/MMAFighting/status/2089443126159253976#m",
+      "source": "MMA Fighting on X",
+      "cat": "ufc",
+      "ts": "2026-08-17T20:03:55+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMimgFBVV95cUxOdVVMbEdDOG05S3BlTGt3YmItSG8yZTcyUlJ4ZE9MM21aNnBGNy1LUGNSbGtfZzgwYU5vcVFoSlkwSFBTSzJRcUU2N05HckRNcmZYMW1WYTBTN1hWMl9LaXNXZlBUcUJsaDB6aDQ5NnYyY3RqdDk0aUNzRlloOTVpODBpem04Y2dJSzZVeDJ3aEMtc2Mxa2hFVnZR",
     "2088850920800964966",
     "CBMimgFBVV95cUxOa2VEc09FR1FCU0w4R0Z5a05xdGRZeEtDWkVMamZ5TUhzNThZNlk1U3hFeF84V3VOb1ZucHB2UjgtUXc0VEZSczJjOGhGeGFSeFkzOXdvaUg0YV9xbEczTHBQc2NzWHU3MFZQdjZvWTEtY1pLLVJxMEQ1ZENaY3RRSzRraENpODgyLWpVQnJoV21wUnZXcDJWOFln",
     "CBMiogFBVV95cUxNcXJ5VmNpSDhDcnljQTQ1X1JYSlVlWVJ1VFJweFROUy1PS2JxQXktMVM1YTZXTnZoaGJFMkMwS29WR2xaaDVsX2VYUjBSMThsMmlCTTllWmM5RnJOY2d2ZzBYQW5kR2hFQjlvQmJMelJDUWVqa0pKSU95Vk9mbW03aS01VnRHTlhibjRlS3lsbmxMdjEwOThOeHlFSUhHTEprNlE",
@@ -3312,7 +3311,8 @@
     "CBMirgFBVV95cUxPNXZHUm5sNU1RLVphX0FPLWhVV0dTQUloX05MX3J6aG80cjBYY1BYV2dILXFPUDNtY2NHcGhRLUtWelBTaGNMNUV6LXItQVRKMFRCVE5VenhQMHRIc2tjcHNQZkZGRDFzOG5XbmFCZnRMLThLelNLc0tkVElEbEdVYXRCVVhBdUtBdHM4NE5lNUlNb0JoTzhSMFdxNkF4czFhZFBMREZqQ1drQlZFcnc",
     "CBMibkFVX3lxTE5MT3NxdVlXdjhQaFl1aFBqWGJnQmZPbDMwYVVDX2doNmtnWDNkSmRtYmdXUEQ5SEpsaVJ0Wm9NQUVBLUN4ZkRBeVY4N3J2Qk81U3hNWDdadHJ1RkZ1UUM2dDdYNURnS3J1OEZqNk5R",
     "CBMi0wFBVV95cUxPaTN4cXJnR2RlWDdFMXlxTGVOUzRzbndfdGVOckhjMTdSLVY1eGUwdTJ6bzJQYUVmMkdna1ZQM1ZZcWltNXAydkt3NEpLVVVNR3hIMEF2NHRSbklvMGtHWV9PNlVjYklVU0hBLTRvdzhnY250b3o1dERld1FMMjl5WHIya0lRdEswbmYtYkQtMDRWS3RualdmU29HX24zUFcxNkZta0dLVy1KWjV1bUgtUHNsUlpGMU9oaXRvc19od2h3dW5uYVFiU3FkOXo0Rjdyd01z",
-    "CBMimwFBVV95cUxNQVJTYmRGTzFXWTQ4NUFtUXhTb0VFUFJRcTFqTXF6ZW5PX0FpS0VWSWxCNnhweHVORVV3cVhySjhZX1BXbUhqRHRIZnVZMkxHM1RyMndVTnBmLVd4bkwzTUktMTJvdnpKVHlqZ294OWo2RlFTbnRHVE9oYjVsbXFqV2N6Ui1uZVNHYm52ZXhKUWNBcTBZRGhRSzhFVQ"
+    "CBMimwFBVV95cUxNQVJTYmRGTzFXWTQ4NUFtUXhTb0VFUFJRcTFqTXF6ZW5PX0FpS0VWSWxCNnhweHVORVV3cVhySjhZX1BXbUhqRHRIZnVZMkxHM1RyMndVTnBmLVd4bkwzTUktMTJvdnpKVHlqZ294OWo2RlFTbnRHVE9oYjVsbXFqV2N6Ui1uZVNHYm52ZXhKUWNBcTBZRGhRSzhFVQ",
+    "2089443126159253976"
   ],
   "daily": {
     "d": "2026-08-17",
