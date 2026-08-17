@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Pinned: youtube.com/live/56FJcmC7wXQ",
-      "ts": "2026-08-16T15:00:43+00:00"
-    },
-    {
       "t": "Ian Machado Garry releases statement following UFC 330 loss to Islam Makhachev https://www.mmafighting.com/ufc/505343/ian-machado-garry-releases-stat…",
       "ts": "2026-08-16T15:02:33+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "“You Think They’re Bums? Come Show Me” - Daniel Cormier Challenges Usman Nurmagomedov to Join UFC",
       "ts": "2026-08-17T00:08:17+00:00"
+    },
+    {
+      "t": "The people have spoken 🗳️ @INNERG_UFC came through with the best celly of #UFC330! [ B2YB @BudLight Summer Series ]",
+      "ts": "2026-08-17T00:00:01+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Backstage UFC 330 footage shows Daniel Cormier pleading with Usman Nurmagomedov to sign",
-      "url": "https://bloodyelbow.com/2026/08/16/backstage-ufc-330-footage-shows-daniel-cormier-pleading-with-usman-nurmagomedov-to-sign/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-16T17:00:00+00:00"
-    },
     {
       "title": "Herb Dean praised for Edson Barboza UFC 330 stoppage after months of criticism led by Alex Pereira",
       "url": "https://bloodyelbow.com/2026/08/16/herb-dean-praised-for-edson-barboza-ufc-330-stoppage-after-months-of-criticism-led-by-alex-pereira/",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-17T00:08:17+00:00"
+    },
+    {
+      "title": "The people have spoken 🗳️ @INNERGUFC came through with the best celly of UFC330! [ B2YB @BudLight Summer Series ]",
+      "url": "https://nitter.net/ufc/status/2089140151909806167#m",
+      "source": "UFC on X",
+      "cat": "ufc",
+      "ts": "2026-08-17T00:00:01+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMigwFBVV95cUxPdHFQQW1iajZzRDNSUVdHRWF5bXBOSU8xcWVyNjJvbzV6eXBqYTBWUm5hYTItY2ExTU5zRV9LVlpEN3djNk9rWlFQeDFsVDdxWFkxT3p3WkpiZGwzQnVkUERSalpQMmhCZnZDbmgtUWp4NGl0cEFOdk1felpSbFVHV1Zncw",
     "CBMiW0FVX3lxTE9CSTJvRVNCb0NOTmJTalUyZlR2bXBSaFVhNGZXa01OVThjMEtpU2l5RlhnWHRmOGVHX1ZpLUtIOEFMTlk4TzA4UkxIcWkxckZOYkZqOWJyaTJmUk0",
     "CBMiigFBVV95cUxQMFl1WmhCMzhuMWVsUjZKZTM0UWFaYzUwV0JsM3htLU9xbzczYVA4X3NITS1Ydkc1djY3SWpCNXlwclJfYjRlcmlCSDZuUjNFeWNiclBFMWQ3d28xdm9QYThGMVNWNk1BRFp3OXpVRDN1NVNRMnY5UmRiQl9oVEg4VVphZGdGVm1NTXc",
     "CBMiqgFBVV95cUxOdy1Ec0NnalVtdXAwMHZUWDZOYzVPQzlnTEloVDV2SFlpTmR0aDdVMXVsaVFOVTBJc1o1LVhOUm80eEFqUFU3ZlZCZ3pCRzZrY1BtWEZkSWFNYlprODJOU1RQME9NNEo5OFhVYUVNYmlBWGF3NVY4Ti1SWVYxRUNlb1JwNi10MXIzcVdvWTV5YXhSMUlLczFVd3dxYXhFTG9GUnpQNy1oaU5ndw",
@@ -3312,11 +3311,12 @@
     "https://bloodyelbow.com/?p=327349",
     "CBMifkFVX3lxTE43eVJzVUJLMWp6bXFtRkM2eGNLZDBCcnQ3UFRpMlFjTnVCODRoVHQzclZOT2lpVWlZQUl4MS11MlJBb0dSclhlay01c3o1QkZLTVdBb3NialhabVQ3cmF5bEVlMk9HYXFuSWdmQmg5SnA0UE1ZWmxQZXV1ckVsUQ",
     "CBMijAFBVV95cUxQTmNqZGhFb2ZHc3FKbDhVQTIwN0FGaHlaVjB5Wko2VTlramhERVZOcU5RdTQyVEl0VUM5eVFtOHktYmxZcWxfT0E1WVF6WnhZSWJaaXlXUHl5blQ2ZTM5SHllbmhkZVNtYm16LWFNMi05ZVNKM1lhNkQyOUlMeXlybXFXcVlqMXYyc2c4RA",
-    "CBMiqwFBVV95cUxPTnN0X0ljSUhKeE5xTFhIUlZyYnJWRzI4eEtGQUxZa3NPR21zQjBmX2lUOVlZOS1TbGQxZ1JKbWxCZjhhMktoeG9KYlN3aHluT0xMUmsyUlVsalFzOWhuU3pRSGZjT1ZvOWw3aWMteWs0YXd3YmRaajIzTlJNLXVoa1dUckhYNWc3V2Z5eTVvWm1jTVV4WUR4RUg1TDR6eEdVZHM4WS1GYTZPSnM"
+    "CBMiqwFBVV95cUxPTnN0X0ljSUhKeE5xTFhIUlZyYnJWRzI4eEtGQUxZa3NPR21zQjBmX2lUOVlZOS1TbGQxZ1JKbWxCZjhhMktoeG9KYlN3aHluT0xMUmsyUlVsalFzOWhuU3pRSGZjT1ZvOWw3aWMteWs0YXd3YmRaajIzTlJNLXVoa1dUckhYNWc3V2Z5eTVvWm1jTVV4WUR4RUg1TDR6eEdVZHM4WS1GYTZPSnM",
+    "2089140151909806167"
   ],
   "daily": {
     "d": "2026-08-17",
-    "ai": 4,
+    "ai": 5,
     "staged": 1
   }
 }
