@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Max Holloway questions Islam Makhachev walking around with 2 belts",
-      "ts": "2026-08-17T13:50:59+00:00"
-    },
-    {
-      "t": "Dodgers Offensive Woes Becoming the Norm Stream of Major League Baseball",
-      "ts": "2026-08-17T13:51:44+00:00"
-    },
-    {
       "t": "MMA Prelim Pick of the Week: UFC Sacramento",
       "ts": "2026-08-17T13:59:55+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "'He Kills Everybody' - Joe Rogan Names UFC Fighter Who Would Beat Islam Makhachev",
       "ts": "2026-08-17T15:06:44+00:00"
+    },
+    {
+      "t": "UFC eyes hotel, WWE expansion in master plan for Las Vegas development",
+      "ts": "2026-08-17T15:14:43+00:00"
+    },
+    {
+      "t": "Reading a Crypto Live Casino Table the Way Judges Read a Round",
+      "ts": "2026-08-17T15:14:52+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White: Islam Makhachev's UFC win streak 'might never be beaten' https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc-330-dana-white-op…",
-      "url": "https://nitter.net/MMAJunkie/status/2089023220712091742#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T16:15:22+00:00"
-    },
-    {
-      "title": "UFC330 post-event facts: Islam Makhachev breaks new ground in UFC history (via @MikeBohn) https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16…",
-      "url": "https://nitter.net/MMAJunkie/status/2089037140608868816#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T17:10:41+00:00"
-    },
     {
       "title": "17 fight win streak and still as hungry as ever 😤 @MAKHACHEVMMA wants to be the greatest to ever step in the Octagon. [ B2YB @Exodus UFC330 ]",
       "url": "https://nitter.net/ufc/status/2089049802487267540#m",
@@ -2105,6 +2091,20 @@
       "source": "GiveMeSport",
       "cat": "ufc",
       "ts": "2026-08-17T15:06:44+00:00"
+    },
+    {
+      "title": "UFC eyes hotel, WWE expansion in master plan for Las Vegas development",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPR2hWb05PTmJFN3Vkbl9PM1d6M3FCQVEtNHdQUXpBYlJRbnZJVUs1VkdZTUVHX2VZWHByX0JpWEtfVWNVWmU1UGc5Wkw3WFpycUxRTU1IcVg0YzRqd2F5YWNROVhZdFFMVGRIMU0yRDFOVDVEdUxJWlljbVBVaUlMb3VXUXB0a290QmdBUmlPV0FEeUlTMzdMLTZUY3MwVjBrQ01pMjIySGF1ckNfRkNjdkl4UjJCYzNMcnBPVVZjZ0RLdw?oc=5",
+      "source": "Sports Business Journal",
+      "cat": "ufc",
+      "ts": "2026-08-17T15:14:43+00:00"
+    },
+    {
+      "title": "Reading a Crypto Live Casino Table the Way Judges Read a Round",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRWs5UW5TVUdveGg4NmMwSkhaT04zeFBtaVFCcFB2VnRRUi01cEtpRXdiRThPbC01RzBoOThmUHZta3k5dkdhZFZWOExING9iUGhNMUs2VzE0bTVtZVRaYktKUzdiWDFuYUlLaFQ1YjF6SndjUDdqcC1PNnpmcXZTS0l4dUxrQnk4bG1FaWpqQzA2R1Q5cWxfcThpbw?oc=5",
+      "source": "Combat Press",
+      "cat": "ufc",
+      "ts": "2026-08-17T15:14:52+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMitwFBVV95cUxQNHV0czVtV1NUV0hTcWJtZVJia2VIYjRYcTFYZW44a3lUREZyeGwxLWdyZjFNWk5tNGwxeURoTUtoTjhXYjlXcndXYThxY0ZIODg4Z2xhZUlmT0x1aVk2SUVnbTZYV01CVTY0d0tsSTY3d3RydG00bVEtclA3cW1iWlYwd0FDQlRpVGxCYl9NUVdET2FEVktob1VrRmEtQnFhR29CZ3V4djlPa3NtWktUVUFlZVhXY2s",
-    "https://www.mmamania.com/?p=465026",
     "CBMickFVX3lxTE42bUlPSmFrYV9tWEN0ektZSm4zWEZWTkZNa3I1UDdadkdxZnNMSlBNTmdoS1JPVkNUbHJKcHl4WUNtd2RXblpkTFlOcUZnaWVJd1RsM1RHbVJJNHFRTjRKcjVXei0wNU5oRnVqRGtxbXNTUQ",
     "CBMifEFVX3lxTE0xd2JUeHcySGpHb01Tc2gydVQ1VUtVTUxQX0pmT1lud19WbG1JQ1JjeXljTWlYeTBpWWhKQ3F2b3ZJQU9QT3hacVp4c0xGVUotMmZnU0JsQkhwLTlBNW15ZnZWZ0FibF9nZm5EZFkwem5LUHhWNWEwSkd6MGc",
     "CBMizwFBVV95cUxOanFtLXNiVGtJZnpmWHhwVnNja2JVVm9ycDV2ZmdmMmM0ZS12RDM3RS14TjV5Vk1scmJ4dW00YWhwWVU1SmIyWWFuTGtHYWVjcVFkZzc1WWNGVW0yaU5DckJDN1JXMGtQSnROR0I2ZHUzaW82bFdOVXNkQ2E4andkdVd5dUl6TXZqZ3VIa0d3ak55aExxRzk3VFdacnQ3V3VoU2xNb19tQzVmYUx1a3dhdEs3Y3JnQzAxMWR5Ul81SE9feXE3dTNna0pIeDVFZ28",
@@ -3312,7 +3310,9 @@
     "2089366892980953274",
     "CBMijwFBVV95cUxON09QY1ZNZkxEbU1yN0JRbE9GOVRBby1kQjZnckFvU1JwXzdadlJyUk5ZdXZkUnZiZFhHTjVQZktpWU5CRGdTLVhkMkk4UHVBUUlPaWFjQ1pZcTNvNFdMcFdzbFRJN05YM2QwWlNuMkZIeDFjVG1PcVBPd0JtVFVzSGF5NFYwWkd5aXlRYnRYcw",
     "CBMilgFBVV95cUxOTmFLcWtjNkJtSmxLdjk3MTNZX1gyZ190eXlzRU5rN2RpZkUyWVAwZjRHOWhqUUpEWE5GeXN2ZEZsRXJOWlBYMjktME9UUkozRzNkVzRhYWgzMlNiMXAwb3dhU1o1RG13MzdLU2d1LWJobDZzTFUzZWZnaWtXSmx6NWJlSjJzMUNXZkJRYk84ZnM2ZUZiVHc",
-    "CBMiigFBVV95cUxPS2xVWUFMQVZJVnl0SUVvcnhOcThlQURDVTJfLWItWnlVOHQ0a20xUmZNX2hJc1ctUjhiX2FIVHpxVENVSnR1LVZtdGJBb3NSSE40SlhwTFZ5VFRJSUhfY3NHVVo0Zk9XVmpkUy15amNpdThzdkxXZ0x2cEg1cjBpU3ducTFXd3RWSVE"
+    "CBMiigFBVV95cUxPS2xVWUFMQVZJVnl0SUVvcnhOcThlQURDVTJfLWItWnlVOHQ0a20xUmZNX2hJc1ctUjhiX2FIVHpxVENVSnR1LVZtdGJBb3NSSE40SlhwTFZ5VFRJSUhfY3NHVVo0Zk9XVmpkUy15amNpdThzdkxXZ0x2cEg1cjBpU3ducTFXd3RWSVE",
+    "CBMiwgFBVV95cUxPR2hWb05PTmJFN3Vkbl9PM1d6M3FCQVEtNHdQUXpBYlJRbnZJVUs1VkdZTUVHX2VZWHByX0JpWEtfVWNVWmU1UGc5Wkw3WFpycUxRTU1IcVg0YzRqd2F5YWNROVhZdFFMVGRIMU0yRDFOVDVEdUxJWlljbVBVaUlMb3VXUXB0a290QmdBUmlPV0FEeUlTMzdMLTZUY3MwVjBrQ01pMjIySGF1ckNfRkNjdkl4UjJCYzNMcnBPVVZjZ0RLdw",
+    "CBMimwFBVV95cUxQRWs5UW5TVUdveGg4NmMwSkhaT04zeFBtaVFCcFB2VnRRUi01cEtpRXdiRThPbC01RzBoOThmUHZta3k5dkdhZFZWOExING9iUGhNMUs2VzE0bTVtZVRaYktKUzdiWDFuYUlLaFQ1YjF6SndjUDdqcC1PNnpmcXZTS0l4dUxrQnk4bG1FaWpqQzA2R1Q5cWxfcThpbw"
   ],
   "daily": {
     "d": "2026-08-17",
