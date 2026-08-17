@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "THE ERA CONTINUES @MackenzieDern | #UFC330",
-      "ts": "2026-08-16T16:00:01+00:00"
-    },
-    {
-      "t": "The City of Brotherly Love 🫶 It was good to be back in Philly for #UFC330!",
-      "ts": "2026-08-16T19:00:00+00:00"
-    },
-    {
       "t": "Thank you, PHILLY‼️ Fans got incredible access to #UFC330 events as part of the @BudLight Summer Series, including a beer garden and meet and greets…",
       "ts": "2026-08-16T20:01:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Carlos Prates Promises to Knock Out Islam Makhachev: ‘I Will Bring That Belt to Brazil’",
       "ts": "2026-08-17T19:09:56+00:00"
+    },
+    {
+      "t": "How Ian Machado Garry Plans to Bounce Back from UFC 330 Loss",
+      "ts": "2026-08-17T19:15:49+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan discusses losing the Charles Oliveira matchup and why some things still don’t add up to him: “They told me Charles’ friend died and h…",
+      "ts": "2026-08-17T19:20:08+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Shocking UFC 330 Islam Makhachev stat has fans arguing who really won main event",
-      "url": "https://bloodyelbow.com/2026/08/16/shocking-ufc-330-islam-makhachev-stat-has-fans-arguing-who-really-won-main-event/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T02:00:00+00:00"
-    },
-    {
-      "title": "Dillon Danis begs Dana White to let him end Islam Makhachev’s historic streak after UFC 330",
-      "url": "https://bloodyelbow.com/2026/08/16/dillon-danis-begs-dana-white-to-let-him-end-islam-makhachevs-historic-streak-after-ufc-330/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T03:00:00+00:00"
-    },
     {
       "title": "Raul Rosas Jr. vs. Raoni Barcelos headlines UFC Vegas 121",
       "url": "https://sports.yahoo.com/articles/raul-rosas-jr-vs-raoni-230000350.html",
@@ -2105,6 +2091,20 @@
       "source": "The Body Lock",
       "cat": "ufc",
       "ts": "2026-08-17T19:09:56+00:00"
+    },
+    {
+      "title": "How Ian Machado Garry Plans to Bounce Back from UFC 330 Loss",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV1NlRnY3R0k3dVdENkFMNzROMUZ3NU03Z1RCZmxLRFhLdU9fSFViOFYzZE9uUC04eFJvYnIxRWQwTXRiQTEyaF9vVEZZeFdhVXZWMGFWd0pUS0ZieDlob2xMOU45WHZZMXlLS3Y1aGFmYW03VDUzTGpzNjZTczZ6MkpuZjdTbzZKMWUwcXIzZUJBOVJfYVJudDEybVRZZ0dvTHIw?oc=5",
+      "source": "The Body Lock",
+      "cat": "ufc",
+      "ts": "2026-08-17T19:15:49+00:00"
+    },
+    {
+      "title": "Arman Tsarukyan discusses losing the Charles Oliveira matchup and why some things still don’t add up to him: “They told me Charles’ friend died and h…",
+      "url": "https://nitter.net/arielhelwani/status/2089432106787344682#m",
+      "source": "Ariel Helwani",
+      "cat": "ufc",
+      "ts": "2026-08-17T19:20:08+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2088844627373617283",
-    "2088846547706347672",
     "2088847625051099231",
     "812efd6f-0a7a-3690-8265-feb27378e50a",
     "2088820060928475621",
@@ -3312,7 +3310,9 @@
     "2089428793694003601",
     "CBMitgFBVV95cUxNU2Y5NWVuTS1BZTFXYUh6Yk9wR3NMSzdYZnJ2dFdYMHVRLXdUM3BPSy03Qks3ODZBbDhkR2lPUlNHU2hFVl92eHZiYVgxTk8tRlBfRVN5MHpZRG04Z3BwM2R1Q1FUZmJhUTZycVRfTWFGZ3VUdG5tQlFIdGJub2ZQUWdrQnFJTXIxalVINVJxRzFzZWdocWRQZ05iTnVXTTQtbGlOLW5oSEJ2eHdBSG5qa0JlXzdpZw",
     "CBMinwFBVV95cUxQQlMxQ1FDX2lINHZieDEzYTJybGZ0aWxFUjFMdlVvc2ZHUmxvMVlOeEI3R3FveHI1VUE4aExvUF9mY2tWQV9qMlZmTmJsS04tOThaZC1UNkZKZHpMazRaTGEwcUZ4WWxIc2lnOFBULXRtSmw0N1p1UTBudENRYzFEVXJIR1lQY0gzN1hTOExRSTVoeVZrYllydFdTalBZMjA",
-    "CBMiwwFBVV95cUxQUzlhUWZtOTJkMWxfbUFlWmFEalR5YzhhN2xEZFU1WEotT094aUdHQUUxQ3ZVc3pvYXN4bFVLQURKaGxOMjR1MmYwUjFfWGhoN1E2U0NOUG1OVWtXOUtKOU5lNEt6TnYzT3VPZkNybUttWVctZHNZaC1ncmE5ZTdTWDRvOGN4UHhuMmlVOTRZQ3g5LWNsUHM5NHB0MW9jUkY2NHRsb21vejBGZmdtWEJvNElFd0RVYjgwWmo2c3gyQ2NkU0k"
+    "CBMiwwFBVV95cUxQUzlhUWZtOTJkMWxfbUFlWmFEalR5YzhhN2xEZFU1WEotT094aUdHQUUxQ3ZVc3pvYXN4bFVLQURKaGxOMjR1MmYwUjFfWGhoN1E2U0NOUG1OVWtXOUtKOU5lNEt6TnYzT3VPZkNybUttWVctZHNZaC1ncmE5ZTdTWDRvOGN4UHhuMmlVOTRZQ3g5LWNsUHM5NHB0MW9jUkY2NHRsb21vejBGZmdtWEJvNElFd0RVYjgwWmo2c3gyQ2NkU0k",
+    "CBMiowFBVV95cUxNV1NlRnY3R0k3dVdENkFMNzROMUZ3NU03Z1RCZmxLRFhLdU9fSFViOFYzZE9uUC04eFJvYnIxRWQwTXRiQTEyaF9vVEZZeFdhVXZWMGFWd0pUS0ZieDlob2xMOU45WHZZMXlLS3Y1aGFmYW03VDUzTGpzNjZTczZ6MkpuZjdTbzZKMWUwcXIzZUJBOVJfYVJudDEybVRZZ0dvTHIw",
+    "2089432106787344682"
   ],
   "daily": {
     "d": "2026-08-17",
