@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Mackenzie Dern a bit disappointed with UFC 330 win: ‘I could’ve finished this fight for sure’",
-      "ts": "2026-08-16T17:31:06+00:00"
-    },
-    {
-      "t": "Finn Balor & Becky Lynch Name WWE Stars They Believe Would Succeed In The UFC",
-      "ts": "2026-08-16T17:50:59+00:00"
-    },
-    {
       "t": "Jeremiah Wells: UFC 330 curtain jerker mega-upset like a movie",
       "ts": "2026-08-16T17:51:32+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC 330: Islam Makhachev Eats Bone Marrow After Ian Garry Win, Calls it ‘Just What The Doctor Ordered’ | WATCH Video",
       "ts": "2026-08-17T12:10:21+00:00"
+    },
+    {
+      "t": "Conor McGregor Say You’re Talking To Me #ufc329 #mma #ufc Bhavitha Mandava Met Gala 2026 (wRMzkvqDYv)",
+      "ts": "2026-08-17T11:40:45+00:00"
+    },
+    {
+      "t": "Dan Hardy on Islam Makhachev’s welterweight future: ‘His game has to change’",
+      "ts": "2026-08-17T12:17:51+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 330 Aftermath: 3 Takeaways From Momentous Event",
-      "url": "https://sports.yahoo.com/articles/ufc-330-aftermath-3-takeaways-140000600.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T14:00:00+00:00"
-    },
-    {
-      "title": "UFC 330, The Morning After: No Eagle, But A New Emperor",
-      "url": "https://sports.yahoo.com/articles/ufc-330-morning-no-eagle-142900782.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T14:29:00+00:00"
-    },
     {
       "title": "UFC 330 highlights video, poll: Vote for best knockout, submission in Philly",
       "url": "https://sports.yahoo.com/articles/ufc-330-highlights-video-poll-152037411.html",
@@ -2105,6 +2091,20 @@
       "source": "NewsX",
       "cat": "ufc",
       "ts": "2026-08-17T12:10:21+00:00"
+    },
+    {
+      "title": "Conor McGregor Say You’re Talking To Me ufc329 mma ufc Bhavitha Mandava Met Gala 2026 (wRMzkvqDYv)",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RZVRrQ3lJSGtZOTQyM2FpSDBBZnBGMGNBdk9FZ2VSdmtlRUFLQ3haUXRoenBndXZtRjB4aVRFLUFwek5aQ0RkVHpxRFpmeWxTSG94cXJrc1JiRWVONXB3Rg?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-17T11:40:45+00:00"
+    },
+    {
+      "title": "Dan Hardy on Islam Makhachev’s welterweight future: ‘His game has to change’",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPelJMUzgtb3RaTEJmT01vZ0RLODNPUVlWMHFjSWFtTU1VRzEtWnpGX215alFraWxQOVhUeGZvYzB0ZjVCZzd3UEpmSnJHYTM1OWtBRDNkSmJFMEZtWkJTdVc1eGtiek5IMzRpNEJ4a2liM3VxbzVHbTZHNldDeF9tMFJDRllXazJsQUlwODF0VWtibl9Vb3Z2bXJoMl9SSUpwQUdzUE1acDh2SWhxWGx6UGxuQQ?oc=5",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-17T12:17:51+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMijgFBVV95cUxNbWdHYUR0OS1hUDJuOXN3NlpkQ3RWZk9MU0hKQ3M4QXJuZEFrd3V5U1FaWVFITzRVcGlVd2pPeTZnTXczQkt5czU2Q3hkM0VPcFIzWHlzWkZBM0hzbHp6NVBmVFBNMnZ3Tl9uUlprU1Bnek9kNVppejBqZzFxWTF2ZDJmbTVpS0F4SENOWnFn",
-    "CBMidEFVX3lxTE9pVUVDSWQyQ0xuTGdHSjE4aHVOc19sUmxvaUYzb2xIcFc1bFkySERwMzA5MWlKM2txUjNUN0FRVW41ZmN3ZExTSmRDa0t0X3Brd2tBZ0JQUzBBXzIwTXJGeHZkQWYwazZWSUZZckhSQjRlYTMy",
     "CBMi3wFBVV95cUxQRmxfTExMa1ZEb2lpS1RuSWZvNzZQd29ET3NDTHNiSGdvLVVlMjhueENETGltSnZ6anE5ZkpiZDZNSWJVVnJReHVnQ0k1QURxMEFOWHZFTTBDNEUwbXJQUUdsRmlISktjSWotc1B0ekxPMUxqMzcweHdmY09HWkVkQUFMYWpuc0w4cXBWdkRIbDFRWDhBQ3RYY0RJSHhFajVlTXBTRDRDYWRtMGRWbXZfa0RVb2lWVm9yVHhTamY1NUxzSnBsV2xKcTc0SFpYa01oYWpPdlFNRFk2Y3MtYVY4",
     "CBMimgFBVV95cUxOdkZzdEg2RzRPT1JiMWYwZmozbWdKcGVvMHYxVldWU0xkVEhOZ3J1WDNpNDdOcFo2RTVfQlVPSlNCVWFPOFB4SGx1VXRuZlZfZGZuNXRwRTJDNHZBQlZaR0dHdndiNG9GQkxGVkdvUnE2dHg0MFAxODd5V0RkcDY2b0tfcEY0b0dHZS1jckRWMXE1eDY5S25ZVEVB",
     "CBMimwFBVV95cUxNREtHOTNwOGd6Nk0zbktHbXVuLUlVREk0YVgtUEtKVjlRa2E0dkxEdEpDTlp6V2tfVEtqNVZVdlZFRWxNejdzYk5LZ3BNUjA4aklTMlNjMWdvajdRblA4Q0oxY0dBa25fNEdyaEMwZ0RMNTlERlFwSERKWW5CMm02R3J5eVFYTVR5Ny1NR3NOSW9zVk9RX21MOVZiOA",
@@ -3312,7 +3310,9 @@
     "CBMiYEFVX3lxTE9VOEhfZ19DaWFyRWc4NWxfQVgyc0hySEE1Q2t2YzI1Vm43el9WblF5cFJ4cTBmdGJRQjQzTGE5djBfSkdvYk43QW91OEhwTzhvZ2JrZUdEUVdYY0FQRUdzdQ",
     "CBMilgFBVV95cUxOUkIwd1VrZW0xOE9aTDN6LWJDVGJGU3MtQmdRUVlYQkc4QVdFNFZBcGVodFlXQUZOYW9uR1JacmNYU1RQa0RJTmxXeFBhM1dlZTdpYVNfeHpGNGZpa1JyOERMS2JwczVyUXdQNWhoa0NjellMeFN5QkIwSEc5NGdaVmg2MnNneFgxS3cteE9kRGR5V0hGMlE",
     "CBMitgFBVV95cUxQalA5dWZVNC1wNExwX05hb05qSkxHWTRwTmZJZE5lSV9OUzZKWXExU2k2ZHhPRXM0YXlfRW9fbWhBN3hXazYxSE9BY19MQl9SZGZIWEgyMnMzNk9NRFBsNDRpbTdaMnZUYy1rdmlxSGVQTkU2THkwSEl5THQ4bnhhOElxVXlOMmswdFl0dm4yX0dmWjVhMng5NGxVNFFqMUMwSmJ6OFFsZXFUeDRuYlozVjJKM05Odw",
-    "CBMi4AFBVV95cUxOSDczc0Qzam4tenN2Y0FNcDZvOEtBLXhNWGZOdk9KNnRyWm5jSGlzRnNQMFdubVhYemUyczlud0FBRFJGbXlqS3BLMzNaVGpUQXpzeWxzUExBLTROekhwZVgycVY5QTlXZWpXcWRxSGJYdk5weHVtM3RzYi0xT05QcDdLTkl6MGhMeGYzSVo1clJ2TElERmlMRVkwbW1iSjVUSUFEZWc2QWQ0VmNnTC1PNXJSd2VyTkRKS3lLMW5yZng5OU5iMjZ3dFp4UVlkWDRGUGFfb3dKbVAyWGJidzR5R9IB5gFBVV95cUxOMGVpREw4NnlHNW5mdDh5aFhDR1R2Q3I5Ry1qcTQ1cUprWjl2Zmdja1llRkVBQnZpeUZCS1VHaUdCX1Vqc08yZlhJN0tzWkJXVG80ODI0c2xvRTBJM18xNF9tVGF2OHRBRndSR3VEcmJrLWk1UzNqVXgyQTdHeFJtMnVka0xCVG1SOGotcXFvWmNrLW9yZnBQYUxoRm01QmpENU9pQ1lFZ295WGxqR3ZVdDFybW5mdV9XcDE1cWY2d09xTXZ2LXpNZTZIZU51aE1BX2hSbW9tMGFDWUFrMkRpY2VXZHZTQQ"
+    "CBMi4AFBVV95cUxOSDczc0Qzam4tenN2Y0FNcDZvOEtBLXhNWGZOdk9KNnRyWm5jSGlzRnNQMFdubVhYemUyczlud0FBRFJGbXlqS3BLMzNaVGpUQXpzeWxzUExBLTROekhwZVgycVY5QTlXZWpXcWRxSGJYdk5weHVtM3RzYi0xT05QcDdLTkl6MGhMeGYzSVo1clJ2TElERmlMRVkwbW1iSjVUSUFEZWc2QWQ0VmNnTC1PNXJSd2VyTkRKS3lLMW5yZng5OU5iMjZ3dFp4UVlkWDRGUGFfb3dKbVAyWGJidzR5R9IB5gFBVV95cUxOMGVpREw4NnlHNW5mdDh5aFhDR1R2Q3I5Ry1qcTQ1cUprWjl2Zmdja1llRkVBQnZpeUZCS1VHaUdCX1Vqc08yZlhJN0tzWkJXVG80ODI0c2xvRTBJM18xNF9tVGF2OHRBRndSR3VEcmJrLWk1UzNqVXgyQTdHeFJtMnVka0xCVG1SOGotcXFvWmNrLW9yZnBQYUxoRm01QmpENU9pQ1lFZ295WGxqR3ZVdDFybW5mdV9XcDE1cWY2d09xTXZ2LXpNZTZIZU51aE1BX2hSbW9tMGFDWUFrMkRpY2VXZHZTQQ",
+    "CBMiYEFVX3lxTE9RZVRrQ3lJSGtZOTQyM2FpSDBBZnBGMGNBdk9FZ2VSdmtlRUFLQ3haUXRoenBndXZtRjB4aVRFLUFwek5aQ0RkVHpxRFpmeWxTSG94cXJrc1JiRWVONXB3Rg",
+    "CBMiswFBVV95cUxPelJMUzgtb3RaTEJmT01vZ0RLODNPUVlWMHFjSWFtTU1VRzEtWnpGX215alFraWxQOVhUeGZvYzB0ZjVCZzd3UEpmSnJHYTM1OWtBRDNkSmJFMEZtWkJTdVc1eGtiek5IMzRpNEJ4a2liM3VxbzVHbTZHNldDeF9tMFJDRllXazJsQUlwODF0VWtibl9Vb3Z2bXJoMl9SSUpwQUdzUE1acDh2SWhxWGx6UGxuQQ"
   ],
   "daily": {
     "d": "2026-08-17",
