@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White reveals what drives him 'crazy' after UFC 330 main event",
-      "ts": "2026-08-16T14:10:54+00:00"
-    },
-    {
       "t": "Dana White: Ian Machado Garry's lack of 'killer instinct' cost him",
       "ts": "2026-08-16T14:30:47+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Aggie Von Miller signs with Dallas Cowboys",
       "ts": "2026-08-17T06:12:00+00:00"
+    },
+    {
+      "t": "O Zapft Is..03.10.24-.06.10.24 In Der ALTEN MOLKEREI MEERANE Craig Steadman (3z02C7Yjqy)",
+      "ts": "2026-08-17T05:44:06+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Added to his legacy 💪 @MAKHACHEVMMA leaves UFC330 firmly in the G.O.A.T. conversation.",
-      "url": "https://nitter.net/ufc/status/2088859361527677056#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T05:24:15+00:00"
-    },
     {
       "title": "We learned tonight that Islam Makhachev’s next potential title defenses could be extremely tough tests. There’s no question the size difference at 17…",
       "url": "https://nitter.net/arielhelwani/status/2088861003970912548#m",
@@ -2105,6 +2098,13 @@
       "source": "Bryan College Station Eagle",
       "cat": "ufc",
       "ts": "2026-08-17T06:12:00+00:00"
+    },
+    {
+      "title": "O Zapft Is..03.10.24-.06.10.24 In Der ALTEN MOLKEREI MEERANE Craig Steadman (3z02C7Yjqy)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15S2M5S0UzRzhBdXB5NXRYTHRPajlLTVZYdGd3bEtXaGtpTThsS1FsZmFENnNVc0tRMnE5OWc3OWRCLVBtWm9BR1N6VGFEY0haR25vSXNQcHN4TkU?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-17T05:44:06+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiggFBVV95cUxQZl8zU3ZZQ3FtVUYzWEFlZXZkZm5FMFFrZnJuVDJ5bUZidUVkR3VPRjZsUzVHRkhrZkE5bGsxSllMVHBDc3VNc09ZVHRyTTlYSExucUg5dlNhNVBNUkdhT0tUYzJ3UnFpWlYwdk5XM0lHV2NQNktRZU5hZTRtbzRYaFpR",
     "CBMixAFBVV95cUxPaWJMTDFoZ3p6ZHNpaFE4R1l1RjBSOGxYdzlONzFSbkduZzdVYURHMENYdE9RY0wzTUZNaFNhQ3BCSnBnOVVwdFIwNFNpa2RjbjhHb0VLdlZVQ0plejJvRThmZWNBdFE4MkppZ1hNeEViVmFIanhjVTBVS2g2QjhlR2w1cjdwWTVhV1ctbDVqeWYwNHFIOU56TWV5SnYxOHFKYWJYaHBqaDVWRTZDN1dpa1RWbGtnQ1FxeW4xQ2xDcjI2WEM2",
     "CBMihwFBVV95cUxPSGpXcVdhMFJ3Z0QwdG5oaWFuSUxxZzZMT19yTzFCMFBNRVUyUFU4dmhzWXJWMVlsOGJzeUstdnVSWHJxS3EyVlVheFpoaFVlWWgwRDNLcDczOHdFTWZsZXBXaGtraUlVRlFQV3RBV0ZzZE5vdnUxZWF3LUQxblNQUGtobjFEQzQ",
     "CBMitwFBVV95cUxNVHppcWNVX0RBNzBMVUNjZjl1X2FheTk2cGMzNWpRc1pZOW9nZ3FONmZUejVhYlIxanNPWXkzYkxBdjVrNzJwVEkwMnQtallMN2FDSjdydVhLNUdzMHNaRi1MYzZjcVpsRHl5TzlLVjd2RXlmUENCaHhVTlVrZlFCYjZfUllSWHlzWVJPdDdDdWluS2V1aWJpcGdUVnlQdV9IeU1DUUVURVZZNmNqRFdOSVZSWGlncjg",
@@ -3312,7 +3311,8 @@
     "CBMisAFBVV95cUxQeEpBc2hDcFV6dkpDREI1bjZ3em5hejFXckJiQWVGQlVxN0xmMWF0dDJWaVVuY01jV0JyUi1ueFdIMVpwNTIxTXRfSWx4TmJFMjRDMWtnOXZrQlE1S1ZVOGU4NEU5aHFLSTltZ3FqV0tBM1hseDVKR2RwZUJYTjRTY1oxNFhmUV9aZ0pTMmFJeHBORVZQUmh4d3hWRzJlWHhYdzZ5dHZ2eGF4XzRPdDZINQ",
     "CBMifkFVX3lxTFB4ZTN5RWxJSERtclJRRGEzN3l0bGI1X21UNjI2Z1F1SG4tOVppN2s3WjlnZUlaLTlOSXdmcHR5OGNya19uUGtLTmQyaUJSN3ZlbVZaSHc4QjhITjJFY251Y0dDQlRobzNXenpfVjFBMVlpNGFtWTFyV1MyaExFQQ",
     "CBMi0AFBVV95cUxPU1FaekNrQTY4d2xTUjBtdllramtSNGdRUHNIRndLbzhuVnRjUUpLaEFnTjVWY1JrdVBXLXg0YkZGTjBzek16ZXJob3FrZjRxR05GdkFBMGZ4ZVY4Nk5jUkxTblVuQUl0bmNORlRlUmhLZ25NMDFPM3kzNHAtVWtEenlHNlA3eUFUTnBEcFhuU1JabTl6Qkc4dzVWTHMyYlNfdXVCMUFiYTlXLThidkxjS2ZqTXJKb2NaT1czcVkzTHV5WDNVZG5yMjU4amxaMTRj0gHWAUFVX3lxTFBLTGlzbk8xWFRlem5YbVU4QS0waUw4Q0NQVlR4S3Jfb3VyWHdER1djYjIyYzJyQjJHQlg2ZjlBdElRektXSmRCalhtdmpNTV9sT3dNUHZWb0JtOGpXYkdONlN0RGhxNXYySGxuYU02RGtPRHIyTjlpSnVMNXZMYXdESzNDUGRhanVfbjQ1UU1ZQ01rbTMzcGRyd1J0aDFRNXNuLVRMSGx0dG51aVBLdXZiZmRjVDFzd2d6VnBOLVhkenRzRzV6T3ZJdG5HTE5ZZ1dULXJSWXc",
-    "CBMiqgFBVV95cUxQOE04Sk41VXRnc0tXNi1NQ0tNblZ1a2FmOVNyRWR4MlY2R29keWdyU3FPUkp0UDNUMnVweVlTSkZSNEs1VXUwMFZIYldIb1gzODBsMnZ4MS16VGJydndvTksxWmQ3eTVWRnhscVVmWU1IRXRDeTk5cEcxVzBOTDM1R3E5THI5NDlVTDdwUXNESWxtMkQtQ3pDNDktY0JfdFBtMThVaE5Rc0x2Zw"
+    "CBMiqgFBVV95cUxQOE04Sk41VXRnc0tXNi1NQ0tNblZ1a2FmOVNyRWR4MlY2R29keWdyU3FPUkp0UDNUMnVweVlTSkZSNEs1VXUwMFZIYldIb1gzODBsMnZ4MS16VGJydndvTksxWmQ3eTVWRnhscVVmWU1IRXRDeTk5cEcxVzBOTDM1R3E5THI5NDlVTDdwUXNESWxtMkQtQ3pDNDktY0JfdFBtMThVaE5Rc0x2Zw",
+    "CBMiW0FVX3lxTE15S2M5S0UzRzhBdXB5NXRYTHRPajlLTVZYdGd3bEtXaGtpTThsS1FsZmFENnNVc0tRMnE5OWc3OWRCLVBtWm9BR1N6VGFEY0haR25vSXNQcHN4TkU"
   ],
   "daily": {
     "d": "2026-08-17",
