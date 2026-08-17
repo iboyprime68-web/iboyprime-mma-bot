@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Mackenzie Dern feels vindicated with UFC 330 win – but sees room for improvement",
-      "ts": "2026-08-16T13:40:16+00:00"
-    },
-    {
       "t": "Kavanagh-Temirov, Allen-Pico among new UFC 333 additions in Abu Dhabi",
       "ts": "2026-08-16T13:40:22+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "An Open Letter to Bounce Houses",
       "ts": "2026-08-17T12:00:00+00:00"
+    },
+    {
+      "t": "UFC’s Traveling Show",
+      "ts": "2026-08-17T12:10:39+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Khabib Nurmagomedov reveals his true weight after Dana White used it to end new comeback rumors",
-      "url": "https://bloodyelbow.com/2026/08/16/khabib-nurmagomedov-reveals-his-true-weight-after-dana-white-used-it-to-end-new-comeback-rumors/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-16T21:00:00+00:00"
-    },
     {
       "title": "‘It’s my dream’… Islam Makhachev makes cancer patient cry with joy during meeting at UFC 330",
       "url": "https://bloodyelbow.com/2026/08/16/its-my-dream-islam-makhachev-makes-cancer-patient-cry-with-joy-during-meeting-at-ufc-330/",
@@ -2105,15 +2098,21 @@
       "source": "McSweeney’s Internet Tendency",
       "cat": "ufc",
       "ts": "2026-08-17T12:00:00+00:00"
+    },
+    {
+      "title": "UFC’s Traveling Show",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOWZYT1lLRFBuSVNja1Zxa2RrNkJFX2lnd2RlYUduOWZnRXlfb1A5amNsYmNlRVZOeVlSUXRMYjZIOHQ2RDRwemtQSktmSFZRdVc5dS1JcWFQd2tQdHNqbldUS01IQkN4ZmVtTnJkaDF3ckxBNDh6M1pGWm1qanFLNV9HSlBQQmptN1A0bDZR?oc=5",
+      "source": "PressReader",
+      "cat": "ufc",
+      "ts": "2026-08-17T12:10:39+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
   "hour": [
     "2026-08-17T12",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMib0FVX3lxTFBqeWFJMUVkZUFyR08yU0VQSGJXMktUaGRncmpfRjQxZlRySlluNW5lb09qYVNmb1RyN0lKbnZQdDRwRThtRE5KOFhQT0xwaVlmOTJiblNZMmhBYXRxSFlNeXdnbktoYWV5SlZlWnFfMA",
     "CBMiswFBVV95cUxNa1FnZjhISU00ZWpURnNLMGlFakhSVnVqTURtU2hxUm5zUEtFLXhVS3JTOXdxZGJ0MVNMNmM3dG9ZVUZLVFdHMXJwSVd0THM4OFYtQVBFR2p0dWFlOGdMUDlzMVJLeFJpZzMyZUVOY21VdTFvOFFiTGFVcVdFcEYwSGo0VFpUTjBlbVF2bW5xTm00MGJobl9CbVNJZ3RGQjNTb0VmdGpRLXBQRVRLRElOaWhUbw",
     "CBMi4wFBVV95cUxOMmxFOU9WNjNlU0xHeGFLTWs3VXYwSXJBVFd2RTZuUW54V1RseWdjY1JuUWFITExsRnA2MWU3eEdubEFyTWpBZHFJZUJpNGQwYmJyaHl6WXVsWm9oTklaMUZ2Q2J1aFY1SFc4SlFMUEkzSlVadTRDNWd2N21HZnZvX2FfNVljMXppencyeXgzcFBSalNzSF9feVhwNTRxNG1UMmlGOXplY2NLS2ZfNVVqRkRPM3oyaHdKaG5HM0x4X1kwVTdJT0FRTHdJM1JWbWRENWYwZlFWWmtiT2E3U2x0a09KQQ",
     "CBMixwFBVV95cUxPMEpsaFNxTU55RXNPc1JJRWhzM09wbnNValZhT3RxQThocGlGVjh4MzVBajVTb0dXdFdUellocW55MnFzeHc4U09HUnFpeWt2alpvS0ZVRnBXQ1VkLVh6T2g3R2k4OUIyVzVOeEsxbDBsRnJodGJ0WkxhLWFSNkxsWnBSbWNkVVFUT0FpVi0xb09RTkxRNC1kT2N1RTF2S0t0LUItekFqM2cwQk9Jbk8zUDk1TXl6cV92UlJiWEFja1JkNy1oRGlj",
@@ -3312,7 +3311,8 @@
     "https://bloodyelbow.com/?p=327400",
     "CBMiYEFVX3lxTE4wSDZUTVlZem1ZdmJiQzhJYjVPSExvcEFBNVRXSUJCb19sZmtTLVJTY3BmS3ZpMmU2MWF6NzIxeTM1N04tbUNQT2RTZTJLby1xYkFxMnJ6bE9MRlRsUF9QYg",
     "CBMimgFBVV95cUxOYTZUcHBIN3RBWFZtRV92blhxMGlvQ3BCMWd4aGlwVUVqNkZmSmNtSjdhNWhhaHBDcEdra3MzbDY3Z0FhZmhOS0tTRkE5Zl9tVkFpMFVIbkpnZmk0cVdjUHA3SmNWclZKMC00cU9rSU9aNDB5MjZnVzJibndTdElNc19fTE9KdjBnRnBiS212SkVYZ2Jfb0V3d29B",
-    "CBMidkFVX3lxTE1wQVFZMkpzOUNfTEJQWkpyMF9YbUVkNWJuRVg3NjdiOE9iNnBONUt1SGpDX3pYZWtEaEhHQ05mZEFmSl9VN3IybXNOdzZTdExwaGotZnRzTmp6dkJhSVlTQmtxU0dRaW1uVDBuV0NtMmkxblpDZlE"
+    "CBMidkFVX3lxTE1wQVFZMkpzOUNfTEJQWkpyMF9YbUVkNWJuRVg3NjdiOE9iNnBONUt1SGpDX3pYZWtEaEhHQ05mZEFmSl9VN3IybXNOdzZTdExwaGotZnRzTmp6dkJhSVlTQmtxU0dRaW1uVDBuV0NtMmkxblpDZlE",
+    "CBMijgFBVV95cUxOOWZYT1lLRFBuSVNja1Zxa2RrNkJFX2lnd2RlYUduOWZnRXlfb1A5amNsYmNlRVZOeVlSUXRMYjZIOHQ2RDRwemtQSktmSFZRdVc5dS1JcWFQd2tQdHNqbldUS01IQkN4ZmVtTnJkaDF3ckxBNDh6M1pGWm1qanFLNV9HSlBQQmptN1A0bDZR"
   ],
   "daily": {
     "d": "2026-08-17",
