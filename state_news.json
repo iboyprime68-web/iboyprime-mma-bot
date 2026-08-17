@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Lucas Fernando nearly quit MMA before breakthrough UFC 330 victory",
-      "ts": "2026-08-17T02:46:51+00:00"
-    },
-    {
       "t": "UFC 330 Bonuses: 39-second knockout banked big",
       "ts": "2026-08-17T02:58:27+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Din Thomas retires from cornering after UFC 330 heartbreak in Philadelphia",
       "ts": "2026-08-17T10:35:00+00:00"
+    },
+    {
+      "t": "UFC 330 chaos continues as Islam Makhachev, Carlos Prates and Justin Gaethje’s teams get stranded at same",
+      "ts": "2026-08-17T10:35:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "We learned tonight that Islam Makhachev’s next potential title defenses could be extremely tough tests. There’s no question the size difference at 17…",
-      "url": "https://nitter.net/arielhelwani/status/2088861003970912548#m",
-      "source": "Ariel Helwani",
-      "cat": "ufc",
-      "ts": "2026-08-16T05:30:47+00:00"
-    },
     {
       "title": "THE LONGEST WIN STREAK IN UFC HISTORY BELONGS TO ISLAM MAKHACHEV @MAKHACHEVMMA's victory at UFC330 makes it 17 in-a-row for the welterweight champio…",
       "url": "https://nitter.net/ufc/status/2088865840082936103#m",
@@ -2105,6 +2098,13 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-17T09:39:59+00:00"
+    },
+    {
+      "title": "UFC 330 chaos continues as Islam Makhachev, Carlos Prates and Justin Gaethje’s teams get stranded at same",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNMFZRM3JFcy1rQ2ducVpUMnRraWxuc2sxNHFjVXNYMHlGR3RVbk5CcEFRQVhBaE0xbmxpWDNXUG5pM09EcHN0MlJlMGlKUUtITTFZemYtbVIxSWFRRGlnQzQ1SXN2UkhncXVfLVZ5a0kxcVM5LWtVTGFyMkc1NDNkQlZYVEc5UWZtbXdIZUJIZkt5WG1FR2EwWXEwVk93ZTI1cE0zOVktZzZoM09aRzlLMTBLNm5wSGd4WTJkbFpyOWhkMnhYYjVZVExxdDhCLVpFdzUxRW5IMGVHM2RzajQwWFpFczVpempfSTljRDBpb1VjNVdOWm0yVkVlSnVhZ1Z6ajVBVHBwX3VqZkRybTU1VGRnb2RHWm5MN1RNMEdPYWFkY0NVSGtyemJIRzFKS1RudXfSAbcCQVVfeXFMTjZoUEY4Umt3TlVTaGEweFJpVWxmQW5vbHpMemJJbEVzVG55YjhZQWNLRkJIVVo1Zi1TSlhXZm42MUlIVmZlaktJdHFEdFRyeGVhX0pIbEFxV3hxelNFcXhtRlV6QWdGUWlMdDFfbHdKZW1KTmI2UFVBOWxzdnRobzVfRloxeGdUdFhpS2JFSFlxYmNNYXZMS0hERGtnc2lXZjRraFEyYy1sbmsxSFNVekNzc1FNVlV0SGd1Z1JrYzg0MS1BcTZvTmJiWmVnQmxnRTFtODQ2bHdhb2tuX3NLc3poc092eUo4d0FUQ0QySmM3ZG0wMXlnWTk5YnpyME1ieW5BRGFzQjJXbWtob29wSjV5ZFBPdGtyZkpoWU8ySERVMlhSN2IwMVVCYld5VDJXdUFuUkVGNk0?oc=5",
+      "source": "The Times of India",
+      "cat": "ufc",
+      "ts": "2026-08-17T10:35:00+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "2088811579005431837",
     "CBMiogFBVV95cUxPVHRhN0szUzJSQWloaGRibHlSZXo3UFc1RGFUSFpIOHhjZkF6amMzb1RNeEhuN3MtMUUwbG9qLXBXT2xOOWJ5UkFrMmF5aWIyZHlkbUdUempQMmpLMjRlRkdicTVGdWRzYVh3VEZKUGZuZFV4S2ZFYXliejQ4Zk1GbUZBcUxuQW8zQVdkMEt6aXhkVkVrcnlVRHlRcW9iaVY4Q1E",
     "CBMikAFBVV95cUxQR09EUjNiREtoa0JzREpFaENZWFpfbXdUdXBNMU4xMHBPZ3V6NGxhNC1JRHNhS0xFc2M1bDVmczhHSk5rd3JaVXVUYzhHaXVoenY1OGc2WUFJNmNhQXY1QXRxM3IxdkJOSWRoM0hTd0x2eFdickJBcU1GdGxjLWw1cTBLRUZiVlp4cE9FbF9XVmE",
     "CBMilAFBVV95cUxNQ3dXcjJsX2VmMTJfa1lYY1BFRTdjbzA5dWxHamNkZER3RGJpSHVSYUhLdWpwRm03V0hXeGdhSEFmRzZhSzkweV9yRjVXYTE5OC1oRk5CNTd1ekV3S3FlZ2hkSlRGV3VnVWc0ay1KUkxmRzdfWkx1MHhJMHFXVUhESTh5ZHNQM3htQkdXVm5ZODh5OEZL",
@@ -3312,7 +3311,8 @@
     "CBMirgFBVV95cUxPOFVBaTFPMnVfdGtEb1RqeDVzYVpwdC1kM1liQkUxX1o1M1dBWU1wR0J2X3poczhTR09xME14TFFNT004NEZQOFkwR3pwMDRwalYwZTktYTZrODlWalB1NlRhWFhEcXlZRzdnZUJuanJpUzUyZzlNVlluNXRlSm5UV3I5VkxjaUpWV1otbl9MVWJOb05iMmI0MU10dUJUUjBwRFdOYV9kbloyZTU4bkHSAbYBQVVfeXFMUG9VS0swUTRldkZ2WVV1ZjMzcnlnVS0xNW0wd0ktdTJaOG0zREk2WTZOeTF6TE1TWnZsYkFWTkdtemZBV0V2RDZoLVpaRFl4WkZOTmF1OEx5MGZtYjNDbGdJSnEtUXZwaUtwSXR2S3dYbVk4YXZwbHVRSllFdWVLMlZJTTdXVWI0QUVmeVJ4TzlsZXFzQW9LVlZlQ21mNmVwMWtVRnVuS0JveV90TjJvdjJrOGVaUnc",
     "CBMimwFBVV95cUxNWjloZEhIMU5hQmI5WHZEbk4tZUFQTEk3U2poOExHVzFabW1JdkNHOUxRaFNRSF93YXU2Z3BvZi1KV0FJcWtXNElqdVhhTHJTVDhjaVpoVVBCM1hOVW80T2puNlduTlFXcmxKY0NuejJhV2JfdFF5UmY0Wlo4TVV2OW1BRnFYZGVNamhCUEY0bW5XcFo1TW1aYmxvcw",
     "CBMiW0FVX3lxTFBOVnpyX3ZwS2o3ZWJGRnVYaFhPUlNJTUVoN2JOQ1RKMEpoblBXNmo5bDltS1hjM1BmbFNFdEFieUZkYVhZcjhGaW5zUXh0RzVhTVNNU2xsZEpFT3M",
-    "CBMiqwFBVV95cUxNMXhtR3k3YkZza3pOLVEyTFAzbDRvbVAxcWRmNEFwWVBURXZUbzFkd1Mzd1VuaXdWUnA1cEhEcXZsSFJvSFBwU1FRZ1dfSkJnTVNjUlptWTEzaDNfY3R5ZTBUaVFwV01LWmJtd1RQZFU0cXpjcnJQdVVsVXRZV1pVSjlPOVV4a2FlSVdQSG13UXJfVkEzQWhfd3BmQ1JQZTRYRzVvSm9peEJpTzQ"
+    "CBMiqwFBVV95cUxNMXhtR3k3YkZza3pOLVEyTFAzbDRvbVAxcWRmNEFwWVBURXZUbzFkd1Mzd1VuaXdWUnA1cEhEcXZsSFJvSFBwU1FRZ1dfSkJnTVNjUlptWTEzaDNfY3R5ZTBUaVFwV01LWmJtd1RQZFU0cXpjcnJQdVVsVXRZV1pVSjlPOVV4a2FlSVdQSG13UXJfVkEzQWhfd3BmQ1JQZTRYRzVvSm9peEJpTzQ",
+    "CBMisgJBVV95cUxNMFZRM3JFcy1rQ2ducVpUMnRraWxuc2sxNHFjVXNYMHlGR3RVbk5CcEFRQVhBaE0xbmxpWDNXUG5pM09EcHN0MlJlMGlKUUtITTFZemYtbVIxSWFRRGlnQzQ1SXN2UkhncXVfLVZ5a0kxcVM5LWtVTGFyMkc1NDNkQlZYVEc5UWZtbXdIZUJIZkt5WG1FR2EwWXEwVk93ZTI1cE0zOVktZzZoM09aRzlLMTBLNm5wSGd4WTJkbFpyOWhkMnhYYjVZVExxdDhCLVpFdzUxRW5IMGVHM2RzajQwWFpFczVpempfSTljRDBpb1VjNVdOWm0yVkVlSnVhZ1Z6ajVBVHBwX3VqZkRybTU1VGRnb2RHWm5MN1RNMEdPYWFkY0NVSGtyemJIRzFKS1RudXfSAbcCQVVfeXFMTjZoUEY4Umt3TlVTaGEweFJpVWxmQW5vbHpMemJJbEVzVG55YjhZQWNLRkJIVVo1Zi1TSlhXZm42MUlIVmZlaktJdHFEdFRyeGVhX0pIbEFxV3hxelNFcXhtRlV6QWdGUWlMdDFfbHdKZW1KTmI2UFVBOWxzdnRobzVfRloxeGdUdFhpS2JFSFlxYmNNYXZMS0hERGtnc2lXZjRraFEyYy1sbmsxSFNVekNzc1FNVlV0SGd1Z1JrYzg0MS1BcTZvTmJiWmVnQmxnRTFtODQ2bHdhb2tuX3NLc3poc092eUo4d0FUQ0QySmM3ZG0wMXlnWTk5YnpyME1ieW5BRGFzQjJXbWtob29wSjV5ZFBPdGtyZkpoWU8ySERVMlhSN2IwMVVCYld5VDJXdUFuUkVGNk0"
   ],
   "daily": {
     "d": "2026-08-17",
