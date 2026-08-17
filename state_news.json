@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "10 Wrap-Up Thoughts on UFC 330 in South Philly",
-      "ts": "2026-08-17T13:51:00+00:00"
-    },
-    {
       "t": "Edson Barboza Explains Retiring From MMA After UFC 330",
       "ts": "2026-08-17T13:54:44+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Max Holloway Calls Out Islam Makhachev’s Two-Belt Flex After UFC 330 Win: ‘For Aura?’",
       "ts": "2026-08-17T15:10:29+00:00"
+    },
+    {
+      "t": "Back in Sac-Town 🙌 It's #UFCSacramento Fight Week! [ LIVE AUG 22 at 8pmET on @ParamountPlus ]",
+      "ts": "2026-08-17T15:01:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Jeremiah Wells: UFC 330 curtain jerker mega-upset like a movie",
-      "url": "https://sports.yahoo.com/articles/jeremiah-wells-ufc-330-curtain-175132527.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T17:51:32+00:00"
-    },
     {
       "title": "Jalin Turner: BMF title fight 'very enticing' after UFC 330 KO win",
       "url": "https://sports.yahoo.com/articles/jalin-turner-bmf-title-fight-193046129.html",
@@ -2105,6 +2098,13 @@
       "source": "middleeasy.com",
       "cat": "ufc",
       "ts": "2026-08-17T15:10:29+00:00"
+    },
+    {
+      "title": "Back in Sac-Town 🙌 It's UFCSacramento Fight Week! [ LIVE AUG 22 at 8pmET on @ParamountPlus ]",
+      "url": "https://nitter.net/ufc/status/2089366892980953274#m",
+      "source": "UFC on X",
+      "cat": "ufc",
+      "ts": "2026-08-17T15:01:00+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiqAFBVV95cUxNNkdBaDZxWjNDSnlZWnd0M3BPeFIzbVlkVlZIeUxLRTRockhVa3ZidHkzN01VcUdSVVVGeUozcVE0ZlpSUHEyc04wazVzcVhVUGxiSk4wOTdmcW5BeGdBanBIVXl4U1d3X21nd2JZbkhYcFRnN0pDTE5vbEEtRldJaW04ZzRvUlRONHVSX0pUZG8tQWNvQkUybkxEQ3dFbjk0LWR1NWw1VE0",
     "CBMiugFBVV95cUxNTUxnSXlQc3duVVlBcU1jM3hidXBqb09UOEY5b1Z0d0d2YlkwSmc0QWZOM2tWZGZPU3pLblo4aEpDRG9icVV2dlpmZ1VXT0lzVTVBejc5NVphV0hqMGdCY3FDTmo2ZENpWThyMnlxZFRfRklQRnJwTXZOVnBJSFZvWkdwaEsxbkFJa2FoQnM0LXc2OS01VU14aVRiVVdDZmRxTEE4Z0NYeFRrdUJxbkR5dmpyekJCd2JtRmc",
     "CBMi4wJBVV95cUxOQ2xGYXpzY0h0amUyTkloTXBINFNiMVQxbHdLWjdWY044VnFtdGhRcUNaLUNnMHRzYTVaNWJkZEFBQWZNUWw1bU9iOWc2RXJ4WFJyWFl6SjBoREZoaVpiZFhWbkdUMkdkOXBlSnltUjZyUDBFRlBFcVA4cjNpcGp5WFlrSWNGU3NxcGVvaUJxdGhpakU4Ylp5UVNxczdnRy1zbGdDcmhNNzFfN1ZGWDVIVWpZajhlUURnQWlfWmtDd2NWaHJpc1dxYno5QkhOdDRSdEc2Z1gyMWM3UXN0R2hwekpWS0VVdzVFSDFZdmZ4dURjT2dMbHFFeU1DQVJhRWpiM0t5NGtmVlNVaFB0SnEtOGJsb3h6NHV6SGRNNjhZNFBVbTZCaTVmc3dNRGFCVldlUXZwdGU4Yy1zY0h2YXFaUUlWYk1ENmdDUy1CM2xSaXp3dlM2TUVQSzhhRXd5a2R2eDFF",
     "CBMiW0FVX3lxTE1Cc0xNV1NfWVhGeWFKTzBZclVIVERHMTJpeFF3ZWhPQlUzVHVldHYtbHJhT2FYZnRqcElyeTZuSHR0Tk5KRUh3WDRPZkNjQ2MtMUxMSzRzT1cyVjg",
@@ -3312,7 +3311,8 @@
     "CBMiYEFVX3lxTE95a1g4TC03UXg2b3Q5TGg3cDdQTG04SEVKaE9walRWVFRJT2l3ZG9Ucm1jUzY0QUo2SHMxV1JfMDdhQk5PdVFQeWNoSHRFVld3V2tPc3BmRkdtellHTDlSbA",
     "CBMi-AFBVV95cUxPMUs1NTdoVlZLRXdvTkRpWUh0S2pDbmFFd25leXFiZnhfQ1FzczBlRV9QVGJNNFo2S3FWWlRsUzNIeGN2azhrWWVOSmQwckR3WEZOOUFtc1FZcnZwdWJTSkdmU1VEYnEybnlZTFNpNXNibHZ4OVdRUFdxQUpJSWpreEgxS3lNNUVWX0VEUGJkMXlZd1o1R0l4UEZUZGhFYXhGMU1DYmt2V1JfWkFoc3VUdUpZUl93MUFEbHktUGRXaU9BSjBsWldmY3pPQXQzc19fMDd4LVVmUEUzMEIxLWNxLVJHb1dBTjNHNEE4UzMyYmUwZHFldGc5cg",
     "2089368133744128312",
-    "CBMihgFBVV95cUxNTk5zYlo2Sk54b1RPRERibWJRNDVyRjd6am5uTHJsS3drTldFck9FaTBHaHVDakIwTFhnS1luMC0wRmZVVVNZVlNjYjU3SV9LNnFtOUZaWHBDSGFLeGU5ZWh1Zzd1RFpqZjhLYzFSWE9hTUNiQ09aMVJsUlNkOUpoV3BEbFl5dw"
+    "CBMihgFBVV95cUxNTk5zYlo2Sk54b1RPRERibWJRNDVyRjd6am5uTHJsS3drTldFck9FaTBHaHVDakIwTFhnS1luMC0wRmZVVVNZVlNjYjU3SV9LNnFtOUZaWHBDSGFLeGU5ZWh1Zzd1RFpqZjhLYzFSWE9hTUNiQ09aMVJsUlNkOUpoV3BEbFl5dw",
+    "2089366892980953274"
   ],
   "daily": {
     "d": "2026-08-17",
