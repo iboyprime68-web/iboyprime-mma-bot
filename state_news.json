@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev breaks down Ian Garry’s tricky UFC 330 strategy",
-      "ts": "2026-08-17T04:25:15+00:00"
-    },
-    {
-      "t": "How DL \"Buddy\" Mathis Jr. has elevated his game for Auburn this fall Stream of General Videos",
-      "ts": "2026-08-17T06:07:33+00:00"
-    },
-    {
       "t": "What Comes Next For Panthers And Cardinals Stream of National Football League",
       "ts": "2026-08-17T06:16:36+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "2K is the only one that could take on EA Sports FC – Here’s The Dring",
       "ts": "2026-08-17T08:31:17+00:00"
+    },
+    {
+      "t": "Adrian Yanez Vs Victor Rodriguez FullFight Highlights UFC Vegas 12 Nifty 50 (ESJYJKHV2j)",
+      "ts": "2026-08-17T07:43:13+00:00"
+    },
+    {
+      "t": "UFC 326: Diyar Nurgozhay post-fight interview",
+      "ts": "2026-08-17T07:50:55+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Alex Volkanovski vs. Movsar Evloev, Yan vs. Merab 3 headline stacked UFC 333 fight card",
-      "url": "https://sports.yahoo.com/articles/alex-volkanovski-vs-movsar-evloev-100000171.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T10:00:00+00:00"
-    },
-    {
-      "title": "Islam Makhachev pushes for quick turnaround after Garry win at UFC 330: ‘Bro, we have to fight’",
-      "url": "https://sports.yahoo.com/articles/islam-makhachev-pushes-quick-turnaround-130000487.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T13:00:00+00:00"
-    },
     {
       "title": "UFC 330 Aftermath: 3 Takeaways From Momentous Event",
       "url": "https://sports.yahoo.com/articles/ufc-330-aftermath-3-takeaways-140000600.html",
@@ -2105,6 +2091,20 @@
       "source": "The Game Business",
       "cat": "ufc",
       "ts": "2026-08-17T08:31:17+00:00"
+    },
+    {
+      "title": "Adrian Yanez Vs Victor Rodriguez FullFight Highlights UFC Vegas 12 Nifty 50 (ESJYJKHV2j)",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04aEhuYmw1bTh0Z2YwSnY3Q1loM281dW1VM3lMbUpVbGQ2NlFZYVV3Y1l5S3R1NlRYR0ppdHZFdGY5bUhlRjRsdVVhT2tnT3lsajRxWFE1UTI0blFjOFo3WA?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-17T07:43:13+00:00"
+    },
+    {
+      "title": "UFC 326: Diyar Nurgozhay post-fight interview",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTEpHbFN0d1JSYWQ2Y2ZkVmYya0QybXJUajFONzJsM3lld0pKMGxaem9UU1c2QmZfX3BqZTBueTNlRVVZZV9kZmZ0QmJsQ0VrNXdPOXhURnc4Zk9JeEpHS2Nidld1Z2tuMlpJOGdheXRNcmxjTll5QXAweGcxWnE1aDBudzFTck5TenB6cHBDY3VaZw?oc=5",
+      "source": "sports.yahoo.com",
+      "cat": "ufc",
+      "ts": "2026-08-17T07:50:55+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,8 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "2088802961577394612",
-    "2088803634196939024",
     "2088804481970712880",
     "2088803323507814768",
     "2088803576520814875",
@@ -3312,7 +3310,9 @@
     "CBMiswFBVV95cUxPaWVmRm9xQjhLN3BkeDdzQjFhTF9XaGhkb3pkQlNETkhRaE5ZUlJ3T0p0YUd2aTh4SUpuN19rZUFtV3BhWFpCOGNOTnBNdFpUREhtZXVfZXlkUjN3ZU1TN1ZlX3Iwd3paSFE4NXgtRnQ1cW9rT0x4TmNGOUMxTWlhNUs2eFZxS2JRZVBUbUxvNlFmeHNla0dDQm1nakZfX21xMVVhOUkyZU8wUjBua01zdGU4cw",
     "CBMiiwFBVV95cUxQUFJTa0NDQU5lUmZsZmJiZGp1VThhUFlxcTlTOUJJLVFvazAzZWUzeEVzaFBPRm9hYmhTVHpveWpHZXhzMndEZHF3S2p2OFBhM0gyeGs4OVRxMmprR25sd0w2d3IxNG1HY3pfcEJraUYyUktLamNDb0Y1Q1ZYQWxyRUk0YmxrWG92UEl3",
     "CBMilgFBVV95cUxQcDJ5RWNiSmpQVFFZdUpocVhJVzJUZi1iUFRvZXRtdmtxclFLLVYwQmlwSVROUXE5c3QyMmcyY1ZMODgzMnhsSVZLa1RObV9JY0tXVkxGbGszYkt6VEtCTi13VXo5STVvNTY5RlE2NEMySDU5X2JxT1FOU0FmWW1vd0p0Z3NKS292cUdrZG5FUTYzeHRwOWc",
-    "CBMid0FVX3lxTE1CZUZsT0JxeG5YckpRdmdWb1NVeUN0ekh0dXFLYUZjMTd6b2RPdHNaZVJGcHRmZ1JWRjVteGVvVHNYMllHM1RYejJHM1JXNnlBRmdoNF9KSkZPeW1HRFA2RkJ0MHg5YXBFcDdnYUs3WXBSWlRxWVZZ"
+    "CBMid0FVX3lxTE1CZUZsT0JxeG5YckpRdmdWb1NVeUN0ekh0dXFLYUZjMTd6b2RPdHNaZVJGcHRmZ1JWRjVteGVvVHNYMllHM1RYejJHM1JXNnlBRmdoNF9KSkZPeW1HRFA2RkJ0MHg5YXBFcDdnYUs3WXBSWlRxWVZZ",
+    "CBMiYEFVX3lxTE04aEhuYmw1bTh0Z2YwSnY3Q1loM281dW1VM3lMbUpVbGQ2NlFZYVV3Y1l5S3R1NlRYR0ppdHZFdGY5bUhlRjRsdVVhT2tnT3lsajRxWFE1UTI0blFjOFo3WA",
+    "CBMikgFBVV95cUxQTEpHbFN0d1JSYWQ2Y2ZkVmYya0QybXJUajFONzJsM3lld0pKMGxaem9UU1c2QmZfX3BqZTBueTNlRVVZZV9kZmZ0QmJsQ0VrNXdPOXhURnc4Zk9JeEpHS2Nidld1Z2tuMlpJOGdheXRNcmxjTll5QXAweGcxWnE1aDBudzFTck5TenB6cHBDY3VaZw"
   ],
   "daily": {
     "d": "2026-08-17",
