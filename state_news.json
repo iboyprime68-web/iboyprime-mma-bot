@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 330 highlights video, poll: Vote for best knockout, submission in Philly",
-      "ts": "2026-08-16T15:20:37+00:00"
-    },
-    {
-      "t": "Dana White: Islam Makhachev's UFC win streak 'might never be beaten' https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc-330-dana-white-op…",
-      "ts": "2026-08-16T16:15:22+00:00"
-    },
-    {
       "t": "Love Awoniyi. Will never forget that goal against Arsenal in May ‘23, among others. What a beast he was for Forest. Wish him nothing but the best at…",
       "ts": "2026-08-16T16:16:56+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC 330 results: Matches to make for ‘Makhachev vs. Garry’ main card winners",
       "ts": "2026-08-16T23:58:17+00:00"
+    },
+    {
+      "t": "Who Will Win PGA Tour Player of the Year? Stream of Golf",
+      "ts": "2026-08-16T23:27:00+00:00"
+    },
+    {
+      "t": "Scottie Scheffler Sounds Off After FedEx St. Jude Win Stream of Golf",
+      "ts": "2026-08-16T23:29:47+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Khabib Nurmagomedov says Islam Makhachev has ‘reached the pinnacle’ as he pays homage to teammate after UFC 330",
-      "url": "https://bloodyelbow.com/2026/08/16/khabib-nurmagomedov-says-islam-makhachev-has-reached-the-pinnacle-as-he-pays-homage-to-teammate-after-ufc-330/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-16T19:00:00+00:00"
-    },
-    {
-      "title": "UFC 330 Recap (WORK IN PROGRESS)",
-      "url": "https://sports.yahoo.com/articles/ufc-330-recap-progress-072323868.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T07:23:23+00:00"
-    },
     {
       "title": "Dana White, Islam Makhachev puzzled by Ian Machado Garry's show of respect during UFC 330 title fight",
       "url": "https://sports.yahoo.com/mma/article/dana-white-islam-makhachev-puzzled-by-ian-machado-garrys-show-of-respect-during-ufc-330-title-fight-073203784.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-16T23:58:17+00:00"
+    },
+    {
+      "title": "Who Will Win PGA Tour Player of the Year? Stream of Golf",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaUF6M0xVdDlyRnpJa0pqT0dpNUlsekY4SnhOeGJJX283S2hETjhGWUN5YXdPR3R6VC1scW5jVlBwY0NMT2V2YjVRUFQwTi1iLUVoUU91WFR4XzB5QWRMMGhOU2hLNi14ZC1WVl9uZWI1dGNBZXN5S3ktVi1RclFZQWVNYkxBS0VoOVRz?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-16T23:27:00+00:00"
+    },
+    {
+      "title": "Scottie Scheffler Sounds Off After FedEx St. Jude Win Stream of Golf",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNmU1VWQ4VmtsMnlZa0FUQzlXeUJ0ZXN2RVNtY2EzUm13Z01xYXMxcVhqSURjczE0U2wwcVlnNDc4d3JUaFo5ckhtTFkyemhtMkkyNnNxR3lJVE9WWGhNWHpUQTNrUV9FQmlRZ1ZkeEx5QTNNdTZ0SFAxUmtHZXhUbDBWRnA4czgyYjRISjRJR3ZyV2hZNjFVSm5Qaw?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-16T23:29:47+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiigFBVV95cUxQMFl1WmhCMzhuMWVsUjZKZTM0UWFaYzUwV0JsM3htLU9xbzczYVA4X3NITS1Ydkc1djY3SWpCNXlwclJfYjRlcmlCSDZuUjNFeWNiclBFMWQ3d28xdm9QYThGMVNWNk1BRFp3OXpVRDN1NVNRMnY5UmRiQl9oVEg4VVphZGdGVm1NTXc",
-    "CBMiqgFBVV95cUxOdy1Ec0NnalVtdXAwMHZUWDZOYzVPQzlnTEloVDV2SFlpTmR0aDdVMXVsaVFOVTBJc1o1LVhOUm80eEFqUFU3ZlZCZ3pCRzZrY1BtWEZkSWFNYlprODJOU1RQME9NNEo5OFhVYUVNYmlBWGF3NVY4Ti1SWVYxRUNlb1JwNi10MXIzcVdvWTV5YXhSMUlLczFVd3dxYXhFTG9GUnpQNy1oaU5ndw",
     "2088673425699090665",
     "2088688517756948634",
     "2088718623150092416",
@@ -3312,11 +3310,13 @@
     "CBMijAFBVV95cUxQTmNqZGhFb2ZHc3FKbDhVQTIwN0FGaHlaVjB5Wko2VTlramhERVZOcU5RdTQyVEl0VUM5eVFtOHktYmxZcWxfT0E1WVF6WnhZSWJaaXlXUHl5blQ2ZTM5SHllbmhkZVNtYm16LWFNMi05ZVNKM1lhNkQyOUlMeXlybXFXcVlqMXYyc2c4RA",
     "CBMiqwFBVV95cUxPTnN0X0ljSUhKeE5xTFhIUlZyYnJWRzI4eEtGQUxZa3NPR21zQjBmX2lUOVlZOS1TbGQxZ1JKbWxCZjhhMktoeG9KYlN3aHluT0xMUmsyUlVsalFzOWhuU3pRSGZjT1ZvOWw3aWMteWs0YXd3YmRaajIzTlJNLXVoa1dUckhYNWc3V2Z5eTVvWm1jTVV4WUR4RUg1TDR6eEdVZHM4WS1GYTZPSnM",
     "2089140151909806167",
-    "https://www.mmamania.com/?p=465396"
+    "https://www.mmamania.com/?p=465396",
+    "CBMiiwFBVV95cUxQaUF6M0xVdDlyRnpJa0pqT0dpNUlsekY4SnhOeGJJX283S2hETjhGWUN5YXdPR3R6VC1scW5jVlBwY0NMT2V2YjVRUFQwTi1iLUVoUU91WFR4XzB5QWRMMGhOU2hLNi14ZC1WVl9uZWI1dGNBZXN5S3ktVi1RclFZQWVNYkxBS0VoOVRz",
+    "CBMimwFBVV95cUxPNmU1VWQ4VmtsMnlZa0FUQzlXeUJ0ZXN2RVNtY2EzUm13Z01xYXMxcVhqSURjczE0U2wwcVlnNDc4d3JUaFo5ckhtTFkyemhtMkkyNnNxR3lJVE9WWGhNWHpUQTNrUV9FQmlRZ1ZkeEx5QTNNdTZ0SFAxUmtHZXhUbDBWRnA4czgyYjRISjRJR3ZyV2hZNjFVSm5Qaw"
   ],
   "daily": {
     "d": "2026-08-17",
-    "ai": 6,
+    "ai": 8,
     "staged": 2
   }
 }
