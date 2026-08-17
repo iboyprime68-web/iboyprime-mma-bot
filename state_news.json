@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Ian Machado Garry confronts Michael Morales about 'sh*t talk' after UFC 330",
-      "ts": "2026-08-17T13:40:29+00:00"
-    },
-    {
       "t": "UFC Power Rankings following UFC 330 in Philadelphia",
       "ts": "2026-08-17T14:21:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Arman Tsarukyan shares his thoughts on Islam's future at welterweight: \"Morales, could maybe be a problem. But still, right now, who can beat Islam?…",
       "ts": "2026-08-17T20:36:43+00:00"
+    },
+    {
+      "t": "Islam Makhachev, Max Holloway trade barbs over holding two belts after UFC 330",
+      "ts": "2026-08-17T20:36:43+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Evil Arman claims Charles Oliveira used teammate’s death to duck UFC 331 rematch — ‘He was just finding an excuse’",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaTN4cXJnR2RlWDdFMXlxTGVOUzRzbndfdGVOckhjMTdSLVY1eGUwdTJ6bzJQYUVmMkdna1ZQM1ZZcWltNXAydkt3NEpLVVVNR3hIMEF2NHRSbklvMGtHWV9PNlVjYklVU0hBLTRvdzhnY250b3o1dERld1FMMjl5WHIya0lRdEswbmYtYkQtMDRWS3RualdmU29HX24zUFcxNkZta0dLVy1KWjV1bUgtUHNsUlpGMU9oaXRvc19od2h3dW5uYVFiU3FkOXo0Rjdyd01z?oc=5",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-17T20:02:33+00:00"
-    },
     {
       "title": "UFC returns to Abu Dhabi with blockbuster title bouts",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQVJTYmRGTzFXWTQ4NUFtUXhTb0VFUFJRcTFqTXF6ZW5PX0FpS0VWSWxCNnhweHVORVV3cVhySjhZX1BXbUhqRHRIZnVZMkxHM1RyMndVTnBmLVd4bkwzTUktMTJvdnpKVHlqZ294OWo2RlFTbnRHVE9oYjVsbXFqV2N6Ui1uZVNHYm52ZXhKUWNBcTBZRGhRSzhFVQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Ariel Helwani",
       "cat": "ufc",
       "ts": "2026-08-17T20:36:43+00:00"
+    },
+    {
+      "title": "Islam Makhachev, Max Holloway trade barbs over holding two belts after UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeUFERkVZZm8zNllXOWpPMHBVUFpBalJXTEdoNk1fZ0diNkttWEtRZ2NsWG9CWkNzZGI0Si1uNUZxTzVKbkJ3Y2JQZXJvYW0tV3c1cmpleXh2YW1ZeVhpLUQxbm1aREo3V3ZkRmtoUlZCUTBGUGlDRExWcEprU2tmVFlIWG9LcTBORGt6ckEyNkJSbUplckZjSGoyM2gzQkM2U09SSUdjdDBGenc?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-08-17T20:36:43+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "CBMidkFVX3lxTE52dFVITXRyU1NsdHJsaUV3eG9tWktYZ0tIMUh6RE9kc3Q2RjJlNDVrRUJueENjcC1oakhFbnVZcmtOY0UyTFpQRlB2bHR2c1A2bWE3TzZrR2xZQk1iVDFTOVUxT3VXa0doS2h3SEMxaS1LdEZvZEE",
     "CBMiigFBVV95cUxQOGlpT3ZscFpzeHFqamFOZzdjZ3FKcDI5TWNXWEJwUWhHTXF4SzV5bUNRMHRBa3dEeDlzUTduSDJrSFZ2TFJsZXpuTUtiVXppZXlKdDlkMDVpeWZrN296d2VTTnZLaHlabWcxYlAzYll2UW9Ta25aaHhWejNvMlEwemlDYUtjMTVOUnc",
     "CBMioAFBVV95cUxQMzhBME5jZXhBU19aNVE5Q2U4NWRmREQxaWJxM0tBbnhCVEw2WGtEdTRwMkh5QXNNWXFNTFowTEtSS29tMTFEZXVBLU9MYTkyckpQeFBNSk1RNlpGaU93UEJrMWdQblR5X0dpaHl0dnM1dGJGOUNoWjRxUnJXN2NOVHNTM3NTVlh6ZkEyR0x3aE5BTUhPa0JzNi1oQWg3ZHlO",
     "CBMiywFBVV95cUxQN3BIcEdlNmdFeGdkTXczeEk4SXlRTjhPblB0ajBYX1pmaVduU1NhWjNRM2VndWNQYUo0M2JRNklhT215UFUxZmh1d0NMU3NjSEViemFvNjlpRkxuOF9HcTFPT1pWUlZ4YnF1bE5YZ19HTUlkSHJqZm1qN3BtX2RHakxPd2tVWjhpcF8tSHBlT2FodEdnN2pfTThDMm04WFFiUTU0Yi1FQVNDbnJFcWx3T0RjS0tlRlJXMEtMNFZySlBOeGoyMjJGWEFQaw",
@@ -3312,7 +3311,8 @@
     "f968b89b-aef1-4ad0-8d24-b06d69f54c36",
     "CBMigAFBVV95cUxObmZvcmlHSzZYQkx4X190T3ZmOVNMRFhHd0E5SkVRWGJiX0haRjZGS0FhUUhvV2h4bGtsREYzblVBOVpjR0ZKQTAyLURQRFhsdjBMalFhSldFRm9HUUVZV1BicHI4VzBZNHRoQ3lhQXZYZGJuWFB3M3JaY09zLXhyMg",
     "CBMi9wFBVV95cUxQdGctc0dLMk1ybFE5OUFEd3VsWDhvdzRMTGVwS3hDMmk2elNUOGM0WHhMekdCY1R6ZmMwQ3ZnZ3JFc01yZHBpdFJkUTZhVmRWVjI2R1h1TUszT0YtVEhtV05GeE9tOVBacmpmY0pCdWVwb1QtaFBOU1VwamlaWldZRmtFS0dnNkV6b21ubFFuelVFdmVBRWdFTkFCTl9qeWFNYWtoNDg0cDVTZ0VmMHRuSHVndTM2WTdISXFkd2RDVG1ROXIzNjJua0k5YlVOWkgwc3BaMmdGU3pfa2RWSzhuNHdqLWdzT0cxNzZ3eWZldHZKQTJiSzNj",
-    "2089451379379318986"
+    "2089451379379318986",
+    "CBMiqwFBVV95cUxQeUFERkVZZm8zNllXOWpPMHBVUFpBalJXTEdoNk1fZ0diNkttWEtRZ2NsWG9CWkNzZGI0Si1uNUZxTzVKbkJ3Y2JQZXJvYW0tV3c1cmpleXh2YW1ZeVhpLUQxbm1aREo3V3ZkRmtoUlZCUTBGUGlDRExWcEprU2tmVFlIWG9LcTBORGt6ckEyNkJSbUplckZjSGoyM2gzQkM2U09SSUdjdDBGenc"
   ],
   "daily": {
     "d": "2026-08-17",
