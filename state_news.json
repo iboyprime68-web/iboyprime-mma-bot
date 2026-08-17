@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "‘Embarrassed’ Din Thomas apologizes for ‘despicable’ hatchet job at UFC 330 — ‘Gillian, I love you’",
-      "ts": "2026-08-17T17:33:14+00:00"
-    },
-    {
-      "t": "Edson Barboza Explains Retiring From MMA After UFC 330",
-      "ts": "2026-08-17T16:54:44+00:00"
-    },
-    {
       "t": "Din Thomas apologizes following retirement backlash after UFC 330: \"It was completely irresponsible\"",
       "ts": "2026-08-17T17:35:30+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Islam Makhachev dismisses Michael Morales as No. 1 contender following UFC 330: \"I don't remember when he fight\"",
       "ts": "2026-08-17T19:06:13+00:00"
+    },
+    {
+      "t": "Cavalier FC vs. Salcedo FC Live Stream of CONCACAF Champions Cup",
+      "ts": "2026-08-17T18:57:20+00:00"
+    },
+    {
+      "t": "Daniel Cormier urges Usman Nurmagomedov to sign with UFC: 'It's time for legacy'",
+      "ts": "2026-08-17T19:30:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev breaks down Ian Garry’s tricky UFC 330 strategy",
-      "url": "https://sports.yahoo.com/articles/islam-makhachev-breaks-down-ian-042515446.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-17T04:25:15+00:00"
-    },
-    {
-      "title": "Ian Machado Garry releases statement following UFC 330 loss to Islam Makhachev",
-      "url": "https://sports.yahoo.com/articles/ian-machado-garry-releases-statement-045519365.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-17T04:55:19+00:00"
-    },
     {
       "title": "Vicente Luque Releases Statement After UFC 330 Defeat",
       "url": "https://sports.yahoo.com/articles/vicente-luque-releases-statement-ufc-053159771.html",
@@ -2105,6 +2091,20 @@
       "source": "BJPenn.com",
       "cat": "ufc",
       "ts": "2026-08-17T19:06:13+00:00"
+    },
+    {
+      "title": "Cavalier FC vs. Salcedo FC Live Stream of CONCACAF Champions Cup",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mQlVIaUZSWGttSDBnUmpZdkxTdFFxZmhkaGRDNXZXaHVleklGSm1Nb3NiRm9TYXRRZ0cwbEhLQkY3aFdmZXNuaXRoR2Z0a283RUtubkJyazM5cnBDU2JDcTdxcS1GbjE1OUFSOVN5YnhTNGt3UndR?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-17T18:57:20+00:00"
+    },
+    {
+      "title": "Daniel Cormier urges Usman Nurmagomedov to sign with UFC: 'It's time for legacy'",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUlZ3TnVtUUZqQlhpOHlyMmJkQmNKQ18yc1JKcnI0aDJjYXdBTFYyOGhKSWhaaUxhSEpsMndGN1VJMENjTnYyN1Z4a3NmLWdkNXZ6VVRMNXJIUU4wOXZueHE2UEpoRlB3RmhDM2ZXS0VkUnMybF82U3BTVnpJMWVBenFBU3ZsWWotTlNYem1xcE1CRmhtalQySlY4R3JwMjAxdzQzd0dxYWllTWhMSC1xZUNJd1hOcFhhRXNNd3QxXzlQeDF2bzhjZEJwRE1qMDVxclpFeWxYSjM?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-17T19:30:00+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "d042e1c1-7f16-3124-80e7-7e01aa079237",
-    "84e224ef-82ed-3976-912d-937b53739942",
     "5a72bc17-924e-349a-8975-5b44c2dbad94",
     "d901c41f-0937-359e-90d4-4f6be7dbad30",
     "CBMiYEFVX3lxTE0tX0hIREJrd2tWdXg1RHpTYUNnMHcxX1BUQ01ZejNYV3BzYlh3UlRwdXZINWxsb2JycFVmeDFzbERGSU51TTRNdWQ0NlN5VUFGUGM1azNfd3BUSXRpaXhKeg",
@@ -3312,7 +3310,9 @@
     "CBMigAFBVV95cUxQUUhJZGlGU0F5Qm13ZWQ4dEFSU2JNaDdxWjVWSTNyaDRDMjNSenIybWlKSmgxOFFOZ0hmRzRmLWN3YjlCTkp5bk1EY3U5VWpUTDJsbGlEQUJSRWRVNXVyS3A1eFlkcTFEbURrWFpRUFNoMjhDSUJxUFhXRUJYNzlXZg",
     "CBMipAFBVV95cUxOeEg2Qlh1SEVhbGxqelhZQm1CTm9yQ0xweDFlSjVqU2FYcFczT0FxWmU3aDJjN3JPN0k0ZThXTlY0TXhoWjBiMnFtd2dCWGJwQUpDcEZreEN3LUVrTnZlcmZSZWRHVkt2cWNZaWdMa0dfRWFYMGxNWl8xYTktaGR4OTEyd0JPT0hkSkRHX01VV0M3MWxITHRjVFZwRVJFTVZRRkdweQ",
     "CBMisgFBVV95cUxPXzkzcDVHcWF1bG9oa3BPQ1g2MVdwZEdyV0R5ajJGX3R1WWstSF9RSUoxa0ttVXZMN2hiTUZwVjBpQlpiaTRud3Nwb3BraFNSYXkwd3hpbHNwdEFycUluUElSWjg3QUtCUzU2TVNBV0pYOTJHRm1MUDdxY0c3U2p0bDYzYjJhbTRzNkhnVUdDZ0hWeHZZRkEyTUhNUG1mTWFWVWJlLXRVaV9kRmRXd1F4ZFF3",
-    "CBMi3AFBVV95cUxQVzJ1SnpfWXV4dTRRcmgwOTBIY1A0Sl9rRFVwd2l5S2NyRDBfT1RLUkx3STRNeGVwRHAxZ2F6MjhRTFo4eEpxVmtGeHBXZHpHZGI3NHVWdmJYdnFPeXpaUVE2bmsxNkdVc1pISklOQmVPMlFZZFRQMG9FNTFNTUJ3dXZHTHJTdEs1bGpPX1EyZzUwQ01OMWdHUTlVT2RNb3N2NmNpOFc4a0Y1YTB1cWZ3VlBvSzVEYS1ubnZvTXVCMGFQZ1kydWRwaGdWWmFHMHR0Qm9rSlFEMWRFY0xJ"
+    "CBMi3AFBVV95cUxQVzJ1SnpfWXV4dTRRcmgwOTBIY1A0Sl9rRFVwd2l5S2NyRDBfT1RLUkx3STRNeGVwRHAxZ2F6MjhRTFo4eEpxVmtGeHBXZHpHZGI3NHVWdmJYdnFPeXpaUVE2bmsxNkdVc1pISklOQmVPMlFZZFRQMG9FNTFNTUJ3dXZHTHJTdEs1bGpPX1EyZzUwQ01OMWdHUTlVT2RNb3N2NmNpOFc4a0Y1YTB1cWZ3VlBvSzVEYS1ubnZvTXVCMGFQZ1kydWRwaGdWWmFHMHR0Qm9rSlFEMWRFY0xJ",
+    "CBMid0FVX3lxTE9mQlVIaUZSWGttSDBnUmpZdkxTdFFxZmhkaGRDNXZXaHVleklGSm1Nb3NiRm9TYXRRZ0cwbEhLQkY3aFdmZXNuaXRoR2Z0a283RUtubkJyazM5cnBDU2JDcTdxcS1GbjE1OUFSOVN5YnhTNGt3UndR",
+    "CBMi2AFBVV95cUxNUlZ3TnVtUUZqQlhpOHlyMmJkQmNKQ18yc1JKcnI0aDJjYXdBTFYyOGhKSWhaaUxhSEpsMndGN1VJMENjTnYyN1Z4a3NmLWdkNXZ6VVRMNXJIUU4wOXZueHE2UEpoRlB3RmhDM2ZXS0VkUnMybF82U3BTVnpJMWVBenFBU3ZsWWotTlNYem1xcE1CRmhtalQySlY4R3JwMjAxdzQzd0dxYWllTWhMSC1xZUNJd1hOcFhhRXNNd3QxXzlQeDF2bzhjZEJwRE1qMDVxclpFeWxYSjM"
   ],
   "daily": {
     "d": "2026-08-17",
