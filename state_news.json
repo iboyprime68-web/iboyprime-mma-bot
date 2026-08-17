@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Fond du Lac native, Donte Johnson stays unbeaten with win at UFC 330",
-      "ts": "2026-08-16T23:03:48+00:00"
-    },
-    {
       "t": "UFC eyes Las Vegas campus build out with potential hotel, WWE space",
       "ts": "2026-08-16T23:03:53+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "TOTAL CHAOS!!' Islam Makhachev SNAPS At Joe Rogan After Explosive Statement Corinaldo (EtskNWv3I6)",
       "ts": "2026-08-17T01:19:49+00:00"
+    },
+    {
+      "t": "UFC 320: Dana White full post-event interview",
+      "ts": "2026-08-17T01:30:30+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "\"It's Time Now For Legacy\" - Daniel Cormier Caught In Hilarious Attempt To Convince Top MMA Free Agent To Join UFC",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tRlE5ak5VSlpwYXdlVWd1bDJfeUlFaW9mYTIwX3dzWnFJRER6REtkNy05U1o4QjRvZTRUc3RlaVhGb3U4dEltX285TWJ6UjNGbmtSUUx4STRsRXJiVUZyaVdmZVVRRVB1MF9MdEd4MHpxVzRCQzd5RmdHRjJ2T1E?oc=5",
-      "source": "LowKickMMA.com",
-      "cat": "ufc",
-      "ts": "2026-08-17T00:37:46+00:00"
-    },
     {
       "title": "I Schooled UFC 6’s 1 Player (How to Beat Mr No Hesi)",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4TXVDLXJ3S1hjTzdyUWNCdXZkMGMtNkE5ZU5wRmtQUEFjSVgtS2VnOGJlRkxjeEpBQ0s3UXNpZm04a1p6UzkwaTNMU242REFwOUlNd0tmbkdJR01N?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-17T01:19:49+00:00"
+    },
+    {
+      "title": "UFC 320: Dana White full post-event interview",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWVR6eV9mM2F0eEQ3cXF0MVhTSS1PTm9ZZ0VPY0ZBMHRhc2tQVmM0Zk9IRVBkR3VxMFdnaUVJSzg4ZW05a2pQajA5b3F0eWNMRWl0V1JyR1AwdzJYbFVJbWtDSUFNQnhId1lIV3dzVkMtUFpTU0xyWkJWMzI0d0ludUhzQlc1eFlNdGV5UEYzV056Q0k?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-17T01:30:30+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMifkFVX3lxTFAzaXNhU2hOb2tmN1ZFaFozZ1BOR25BZzNMd1paSWxEc19QeVhSRHctdzlzNVd2ZXpqbC1sV2t2Wm5YNkhMdVNad2I2aTZBLTk2MjNfU2FWQ3pWUEtyTjNPelZPYWVJbkhhRERtcjdmQ0tOWnNqRGUwOHNIVktLQQ",
     "CBMihgFBVV95cUxNbXItbGhtc3B6ZnZla1ZDWm84eE5PRFd3VUtVZHMwbk5IWlF3MEIwMURPRTdFU3pjRUh4S3FzdXNGMVk1d2gwWUFfcGtBdllwNlhxdXBpemtrRVNxTFpLRk5LNE1rR1VDT2tvRmluMkZHUzN4Z29PS0hrSHlSLThkMWpHVXNUQQ",
     "CBMi1gFBVV95cUxQQWdBeHM1OUE0d3M2cThvTnJxWVBsa0lCUV9jWEpQUUlUZnBJb3VXZURQeE9jNDVSR2hvQTVDU1piSUFGY2dKR2ltS3FsdjNDZ2hveGZDQkFUbTJzWmQ2WlVjTlJ3VXpkZ2g3MHAtRkZrcEoxT1FOdDZPbFdHZGpscFBNUTh5WnZDdlYtUF85VWY2bmltcW9hN2ZxZlo5ekl1alJxZExYWmt5cGx6RTZQa1RyNVQyWm1nejk0VWJUOWp4YVVhTGNYaDRkSzFwSmV6MDdiUjBn",
     "CBMipwFBVV95cUxNYnNWN3BSTnZDbGNmMHBuQVJBNTh1T195YWZEU1BNNEFPRUZ5UTZZc3ZVOWpsVXRzTUxkY00yZWlNTWs4Y1RPeUJfdjlkTGdCQlpRSHlMcGNkd1ZHd01QMW1DSEZYWTM4Z3R5OU43SDRYd1lYaFo5cVlhWWd2blNtSXF5aFpNMDNxSXNqd1NyUXlnZ0FNNVlvTFFIMmVuWU9WcTRVQXE1VQ",
@@ -3312,11 +3311,12 @@
     "CBMiuwJBVV95cUxPWVNMRno2LU9aSzdDU2dVUVowSDgtZGFpREtJa0NrQmdwQ09QTmVGUmN2QXdqM21Hd1E0OHB5NE9uSGlFSVRvSFIzRy1UMGJYZVdzRl9XWDdpOXdoR3REempjNmNVXzFKZTZhMFhYQXJYWDZPR2Q2TTMzMlBJMWRicFRpem9lcTlyc2hDM0NLT0xvMExCQnVDVTdiYWdqdWIxaFh0bkIzNllELTU4SHFkdG5VNmQzOGRsNDZmWXY0THRQY0FwY1FrY0ZreUhTNUtsV0N0cnliRHdGTWRCalBqWl9xRHFHR0tjemVRZjRmb3l5UElkY3JhMHEwX1F4SUtfNjI5MTF6cU9XUkZJeEl1eTZSMllrVE9HYVpaLUR3X1NvdW92TzRaTVpTZHQ4NmVfbFVXZXg2THBsdEHSAbsCQVVfeXFMT1lTTEZ6Ni1PWks3Q1NnVVFaMEg4LWRhaURLSWtDa0JncENPUE5lRlJjdkF3ajNtR3dRNDhweTRPbkhpRUlUb0hSM0ctVDBiWGVXc0ZfV1g3aTl3aEd0RHpqYzZjVV8xSmU2YTBYWEFyWFg2T0dkNk0zMzJQSTFkYnBUaXpvZXE5cnNoQzNDS09MbzBMQkJ1Q1U3YmFnanViMWhYdG5CMzZZRC01OEhxZHRuVTZkMzhkbDQ2Zll2NEx0UGNBcGNRa2NGa3lIUzVLbFdDdHJ5YkR3Rk1kQmpQalpfcURxR0dLY3plUWY0Zm95eVBJZGNyYTBxMF9ReElLXzYyOTExenFPV1JGSXhJdXk2UjJZa1RPR2FaWi1Ed19Tb3Vvdk80Wk1aU2R0ODZlX2xVV2V4NkxwbHRB",
     "CBMizgFBVV95cUxORlJ6TGFwNEtUaXpyS3RTdU1rZHVRTEJQaXRibk1zMjZ2R1FTU2ZwNmV1NDhVdkFKN0pZdzU5NkZwM2V6bVllTWFCLTh5R0FEeFhoeGVCZUNjN0IxbllLVDRwWl9Ub0FQLXJubVFpTE1FZ0xPaEhHNVhMSU1pWEhHMFloN0wtaHpSNktTTkZfNlkxUzNETWJBNTFxTThobDBDdDRxQVFvVVVqbzFHSHNQOEpNQVVOenFSd2dRZW1JczFEc0NZeXJITHFlaDE0UQ",
     "CBMiW0FVX3lxTFBGWmpxOWlRZDlWbE5fX3ByanJucWdjWVlzSy1VMTlBUzJlTW9CYnBia014SXhJdzNKZ05iOUJJQjNrbGZkcnpmMTdvbFU1ODViRWNqMHRoaHZkVUE",
-    "CBMiW0FVX3lxTE4temJGYmtQaDdJN0Y0M1h4a3RpRFk3djBDYnNoeUM3N2VIbGJjZl9NQ01oM2xVZG13ekJXMVNiXzNNNUhRZGxTbXo0MGFZQmFHZzVkd0pobmZZYmM"
+    "CBMiW0FVX3lxTE4temJGYmtQaDdJN0Y0M1h4a3RpRFk3djBDYnNoeUM3N2VIbGJjZl9NQ01oM2xVZG13ekJXMVNiXzNNNUhRZGxTbXo0MGFZQmFHZzVkd0pobmZZYmM",
+    "CBMikwFBVV95cUxOWVR6eV9mM2F0eEQ3cXF0MVhTSS1PTm9ZZ0VPY0ZBMHRhc2tQVmM0Zk9IRVBkR3VxMFdnaUVJSzg4ZW05a2pQajA5b3F0eWNMRWl0V1JyR1AwdzJYbFVJbWtDSUFNQnhId1lIV3dzVkMtUFpTU0xyWkJWMzI0d0ludUhzQlc1eFlNdGV5UEYzV056Q0k"
   ],
   "daily": {
     "d": "2026-08-17",
-    "ai": 28,
+    "ai": 29,
     "staged": 4
   }
 }
