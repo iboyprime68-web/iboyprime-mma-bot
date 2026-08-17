@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": ".@INNERG_UFC's daughter stole the show at his UFC 330 post-fight press conference 😂",
-      "ts": "2026-08-16T21:45:00+00:00"
-    },
-    {
       "t": "Din Thomas retires from cornering fighters after UFC 330 loss",
       "ts": "2026-08-16T22:22:12+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Blast From The Past Reviews: The Mummy Returns",
       "ts": "2026-08-17T04:02:08+00:00"
+    },
+    {
+      "t": "UWF Power Pro Wrestling (12.5.1987) Review",
+      "ts": "2026-08-17T04:12:12+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev picks his next opponent after Prates and Morales argued in the crowd at UFC 330",
-      "url": "https://bloodyelbow.com/2026/08/16/islam-makhachev-picks-his-next-opponent-after-prates-and-morales-argued-in-the-crowd-at-ufc-330/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-16T11:00:00+00:00"
-    },
     {
       "title": "Mackenzie Dern’s UFC 330 win sparks promise from 10-1 contender to ‘save the strawweight division’",
       "url": "https://bloodyelbow.com/2026/08/16/mackenzie-derns-ufc-330-win-sparks-promise-from-10-1-contender-to-save-the-strawweight-division/",
@@ -2105,6 +2098,13 @@
       "source": "411Mania",
       "cat": "ufc",
       "ts": "2026-08-17T04:02:08+00:00"
+    },
+    {
+      "title": "UWF Power Pro Wrestling (12.5.1987) Review",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5UZ3BYV3BOODhBVHFILVhacmN0R1M4UGFXWDdXbVhUYV8wQl94ZjRGRlVNSXFYVUdBRzFtQ3F0TjN3aURFVE1lWlV6QlJSQ1ZqaThtak1DN1ROUGJJa3k2SlRvX1NYU0NsekJPM3BiQUZoZ0FnSTlCQ1NwWTU?oc=5",
+      "source": "411Mania",
+      "cat": "ufc",
+      "ts": "2026-08-17T04:12:12+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "CBMilwJBVV95cUxPd3U2WXE0U243d2lBRVJMVjNuNENQc3lJWmxYbTZ1Mm11am1NLTVUajdOc2tKaklJaUlfaE1XZ3ZfYnA5RXl4OGE3SmFfWTk5VUdGTzNBcWszMlZSelJMQUJpY3BtcWpzdVo5R09FSzdLNHA4a2dpcDllR1ZQTjNDdFhTaXZuTXVtSWFhLThDMWNkT1RJbDc5TEYwSzNwRDVkcUtwRkdwNGNBTUVxdXNwcWxnTDdlM25FV2FIQ19lX0lqVjZFZFRqVVctbWxsM1JRdzloYjFyZm0zZS1rcDdSaFZqamNlNEQzQUk3WFRkdlJMMGtpbUFEdDk2amtfYWhmd1VJdHZPZGIwOUhBWFlQN3p4THNUNk0",
     "CBMiigFBVV95cUxOU09Gd1N5R01mdTZsNGlFMkQ0bF8xcnlvWmhoQVhJRXppaXhpaGQ2TUF2Zm1wR3p4VzlySHZSSmF4X2d2VXg3Q19wRUdOMGhqZkRhRnpWQXgxQTdIdmZxR0FwTVRzeF93OWxYazlwR0NudHFDOW5NcGo3SVFBb19YZ01FbjRtanh5eVE",
     "CBMi0gFBVV95cUxQby03MEh2NVU4RkpXcEtuUFdYWGkyZjJFTkExak14SEo1YnFuSENrUVV0UHhoMGNtUXNrUUhiOUtHTXRyVEhadUNBVTF1eXpMOTY1b0NadGlqVHdQYUtTX0g4TFpFSUVUN3dLZ1Vud0RQQV9rNUtpNkZZRVVMOExubWprcDRLWGZOSHVDekdqZmYtNjhJTi12dTF6cC1HVHY5WHlCS1BtY19KRDJSZFkzTXl1S2h3czgzVHVGS2wxeVo5aFRtUmFRaTlCdGdGSjFjdEE",
     "https://www.mmafighting.com/?p=505006",
@@ -3312,11 +3311,12 @@
     "CBMiW0FVX3lxTFBGUFJuRmlzQVVJOXdaRTNfbnVmRHB2TjQ2aWp6V3d3Nlo5T2hXYWctUi1aVlhvM3l5Q0FJYUtfYmh5ZU5ZekJqUVBzc1JLUHZYckhaUUNtZ3oyd0k",
     "CBMiW0FVX3lxTE90SWxoVU9WSzhsQzA3NUQwMk90bmdxaUY1VzdJcTkwVS1QWmdWNGlsa0d1bzNYRXBlaGZWcWYwMGNRSGhXdS02cXdRMmZoNUZEeTM4MllseGs1WGs",
     "CBMiUkFVX3lxTE5saWxKMVVjSUptT2hGQjFaU2k5Sml5bTFQdTBHcl96NXNva2pqRnNTdUxqTEQ0SUdnNy1PbG81bzVRSWlJRzFTTFJhdlRGamxib3c",
-    "CBMif0FVX3lxTE5VMUVmcEVCOHdhQ2RCOVlyb0Z3S3g0Yjd0M1R5dFZiNnpSd3pFellQanJpaEJoMFI0bGdER2wyUDV6SDQwd0hzWGluMDd4cURoX1ZZM0IwWjB3VVlqUHlndFhFa2ZrQ3RmS2RieXFZY280NnFNY2RfTmk3ODAweGs"
+    "CBMif0FVX3lxTE5VMUVmcEVCOHdhQ2RCOVlyb0Z3S3g0Yjd0M1R5dFZiNnpSd3pFellQanJpaEJoMFI0bGdER2wyUDV6SDQwd0hzWGluMDd4cURoX1ZZM0IwWjB3VVlqUHlndFhFa2ZrQ3RmS2RieXFZY280NnFNY2RfTmk3ODAweGs",
+    "CBMifEFVX3lxTE5UZ3BYV3BOODhBVHFILVhacmN0R1M4UGFXWDdXbVhUYV8wQl94ZjRGRlVNSXFYVUdBRzFtQ3F0TjN3aURFVE1lWlV6QlJSQ1ZqaThtak1DN1ROUGJJa3k2SlRvX1NYU0NsekJPM3BiQUZoZ0FnSTlCQ1NwWTU"
   ],
   "daily": {
     "d": "2026-08-17",
-    "ai": 68,
+    "ai": 69,
     "staged": 5
   }
 }
