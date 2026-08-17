@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Trump blames vandals for dead grass on lawn where he held Fourth of July event",
-      "ts": "2026-08-17T17:02:13+00:00"
-    },
-    {
       "t": "‘Embarrassed’ Din Thomas apologizes for ‘despicable’ hatchet job at UFC 330 — ‘Gillian, I love you’",
       "ts": "2026-08-17T17:33:14+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Makhachev Dismisses Morales as Next Contender Following UFC 330 Victory",
       "ts": "2026-08-17T19:28:42+00:00"
+    },
+    {
+      "t": "Islam Makhachev dismisses Michael Morales as No. 1 contender following UFC 330: \"I don't remember when he fight\"",
+      "ts": "2026-08-17T19:06:13+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 330 shatters records in Philadelphia",
-      "url": "https://sports.yahoo.com/articles/ufc-330-shatters-records-philadelphia-042214972.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-17T04:22:14+00:00"
-    },
     {
       "title": "Islam Makhachev breaks down Ian Garry’s tricky UFC 330 strategy",
       "url": "https://sports.yahoo.com/articles/islam-makhachev-breaks-down-ian-042515446.html",
@@ -2105,6 +2098,13 @@
       "source": "The Body Lock",
       "cat": "ufc",
       "ts": "2026-08-17T19:28:42+00:00"
+    },
+    {
+      "title": "Islam Makhachev dismisses Michael Morales as No. 1 contender following UFC 330: \"I don't remember when he fight\"",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVzJ1SnpfWXV4dTRRcmgwOTBIY1A0Sl9rRFVwd2l5S2NyRDBfT1RLUkx3STRNeGVwRHAxZ2F6MjhRTFo4eEpxVmtGeHBXZHpHZGI3NHVWdmJYdnFPeXpaUVE2bmsxNkdVc1pISklOQmVPMlFZZFRQMG9FNTFNTUJ3dXZHTHJTdEs1bGpPX1EyZzUwQ01OMWdHUTlVT2RNb3N2NmNpOFc4a0Y1YTB1cWZ3VlBvSzVEYS1ubnZvTXVCMGFQZ1kydWRwaGdWWmFHMHR0Qm9rSlFEMWRFY0xJ?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-08-17T19:06:13+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "4fac528e-1a99-32fc-800b-40b4507b6b07",
     "d042e1c1-7f16-3124-80e7-7e01aa079237",
     "84e224ef-82ed-3976-912d-937b53739942",
     "5a72bc17-924e-349a-8975-5b44c2dbad94",
@@ -3312,7 +3311,8 @@
     "CBMib0FVX3lxTE42ZzBWRzM2a2lfMnBVeGV5R2FWRFRDRUxoeWVKNnczMEpDSkNacnlOR0lHVHFLa3pvRWpwSjZ4MVR3c2phWXB3cjVpZ3pvNmpXSFpMejZxRlNLMV8xQzlGbkp4UnNkQ2dGaHpwZHlOUQ",
     "CBMigAFBVV95cUxQUUhJZGlGU0F5Qm13ZWQ4dEFSU2JNaDdxWjVWSTNyaDRDMjNSenIybWlKSmgxOFFOZ0hmRzRmLWN3YjlCTkp5bk1EY3U5VWpUTDJsbGlEQUJSRWRVNXVyS3A1eFlkcTFEbURrWFpRUFNoMjhDSUJxUFhXRUJYNzlXZg",
     "CBMipAFBVV95cUxOeEg2Qlh1SEVhbGxqelhZQm1CTm9yQ0xweDFlSjVqU2FYcFczT0FxWmU3aDJjN3JPN0k0ZThXTlY0TXhoWjBiMnFtd2dCWGJwQUpDcEZreEN3LUVrTnZlcmZSZWRHVkt2cWNZaWdMa0dfRWFYMGxNWl8xYTktaGR4OTEyd0JPT0hkSkRHX01VV0M3MWxITHRjVFZwRVJFTVZRRkdweQ",
-    "CBMisgFBVV95cUxPXzkzcDVHcWF1bG9oa3BPQ1g2MVdwZEdyV0R5ajJGX3R1WWstSF9RSUoxa0ttVXZMN2hiTUZwVjBpQlpiaTRud3Nwb3BraFNSYXkwd3hpbHNwdEFycUluUElSWjg3QUtCUzU2TVNBV0pYOTJHRm1MUDdxY0c3U2p0bDYzYjJhbTRzNkhnVUdDZ0hWeHZZRkEyTUhNUG1mTWFWVWJlLXRVaV9kRmRXd1F4ZFF3"
+    "CBMisgFBVV95cUxPXzkzcDVHcWF1bG9oa3BPQ1g2MVdwZEdyV0R5ajJGX3R1WWstSF9RSUoxa0ttVXZMN2hiTUZwVjBpQlpiaTRud3Nwb3BraFNSYXkwd3hpbHNwdEFycUluUElSWjg3QUtCUzU2TVNBV0pYOTJHRm1MUDdxY0c3U2p0bDYzYjJhbTRzNkhnVUdDZ0hWeHZZRkEyTUhNUG1mTWFWVWJlLXRVaV9kRmRXd1F4ZFF3",
+    "CBMi3AFBVV95cUxQVzJ1SnpfWXV4dTRRcmgwOTBIY1A0Sl9rRFVwd2l5S2NyRDBfT1RLUkx3STRNeGVwRHAxZ2F6MjhRTFo4eEpxVmtGeHBXZHpHZGI3NHVWdmJYdnFPeXpaUVE2bmsxNkdVc1pISklOQmVPMlFZZFRQMG9FNTFNTUJ3dXZHTHJTdEs1bGpPX1EyZzUwQ01OMWdHUTlVT2RNb3N2NmNpOFc4a0Y1YTB1cWZ3VlBvSzVEYS1ubnZvTXVCMGFQZ1kydWRwaGdWWmFHMHR0Qm9rSlFEMWRFY0xJ"
   ],
   "daily": {
     "d": "2026-08-17",
