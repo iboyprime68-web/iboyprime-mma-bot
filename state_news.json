@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "\"I will bring that belt to Brazil\" - Carlos Prates sends major warning to Islam Makhachev after UFC 330",
-      "ts": "2026-08-17T07:00:00+00:00"
-    },
-    {
       "t": "On this day — Conor McGregor beat Max Holloway 13 years ago",
       "ts": "2026-08-17T07:01:47+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Yuriorkis Gamboa’s Olympic Vision Came True, Now He Steps Into BKB in Miami",
       "ts": "2026-08-17T08:41:13+00:00"
+    },
+    {
+      "t": "UFC 333 to feature two title fights in Abu Dhabi in October",
+      "ts": "2026-08-17T07:53:33+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 330 highlights video, poll: Vote for best knockout, submission in Philly",
-      "url": "https://sports.yahoo.com/articles/ufc-330-highlights-video-poll-152037411.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T15:20:37+00:00"
-    },
     {
       "title": "UFC 331 main card announced",
       "url": "https://sports.yahoo.com/articles/ufc-331-main-card-announced-170000700.html",
@@ -2105,6 +2098,13 @@
       "source": "LowKickMMA.com",
       "cat": "ufc",
       "ts": "2026-08-17T08:41:13+00:00"
+    },
+    {
+      "title": "UFC 333 to feature two title fights in Abu Dhabi in October",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1iSy02bENpUDk3VVI5R3ZkOWdKOHh2ZkZyRFNrVFVpV2ZLeXdvQWZxTk96eVJ1UzFaZUk4UDV6QXJCYTIybFR1eHFUSnFnM3VmNHJVX0ln?oc=5",
+      "source": "arabnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-17T07:53:33+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "2088803576520814875",
     "CBMi0wFBVV95cUxNaWVGNWV3LU5GOWVqLXRvY2l2M00yaFlSN01oVTlqaHR2Vy1jTVE5aVcwNFNwOW5hSjE0UVdSNVB3aGlvc2ZLUkZlYXZGYk9yZHVHM1pYTE1MdS0zX1JYSDJSaVFNcklPajQwYzNiR1R0LXN6b2w3emYycDFZMmFFaVhMWTJKOFU4eEx2ZTM0Q0VhR2dvVXIyUDdJd0pwYWIyakF4TDZsLVh4cl9IbWJLN1JXQ1ctSXduX0VEMWotYnpSdDNRX1Bvek5idVJqQkE1a2NZ",
     "CBMixwFBVV95cUxPS3Z1MUJ1UXpGVks1TU1fUkZUNXNUYWN2cUVxMXctNHNxc2dqSWpVblBSMnhJTDJZbmNaRjloS0ZwdWl1MzdwY0ZVLVhFM3BpZUU1cDB3dG53QXdaajFPcmV0a0poX19handwYXZuTDBpYXJZRm5YMU9xMV9VeTUwb0UybVphMVY0YlRLVUFMYXdVZkxHTEx0cEhUR0tpRHRFV3RsSWRaSEg3UlRCbTV1YXVaZ05va0hSbmxmODZibWVUcG83NXcw",
     "2088804658458562765",
@@ -3312,7 +3311,8 @@
     "CBMiYEFVX3lxTE04aEhuYmw1bTh0Z2YwSnY3Q1loM281dW1VM3lMbUpVbGQ2NlFZYVV3Y1l5S3R1NlRYR0ppdHZFdGY5bUhlRjRsdVVhT2tnT3lsajRxWFE1UTI0blFjOFo3WA",
     "CBMikgFBVV95cUxQTEpHbFN0d1JSYWQ2Y2ZkVmYya0QybXJUajFONzJsM3lld0pKMGxaem9UU1c2QmZfX3BqZTBueTNlRVVZZV9kZmZ0QmJsQ0VrNXdPOXhURnc4Zk9JeEpHS2Nidld1Z2tuMlpJOGdheXRNcmxjTll5QXAweGcxWnE1aDBudzFTck5TenB6cHBDY3VaZw",
     "CBMisAFBVV95cUxNY1lUTmpZMkFoQVlTZTRiVEhpT0FQeHA3WFhxSjlQaVUxMTlsNjBGZWNNTEY4b254cFlHdzZnVy1zMWtMRXNMMmlERGhDUHVZemR6ay1LaVdyRXZfZkhHNjVISGZ0R2wzX3NiWVgyTU5xTERQcFcxX1VCUnVTNEtZYXo5SWVreFRGQ01UdGhmRTRseC14eFZPM1J6ZWV6QUJYNkRtR0pBSERrUWFQZDRUVw",
-    "CBMiowFBVV95cUxNRmFlWWI3MloxTEJCc1JfWFM1a1prRVlocXFrWHNrWlJ3Y0lPdVNHQ1hock13Q2lfZnpyc05aZ1VaN2RpRnRrYlRZVXJiV3QxM0hoU0dFTnRZZHRGckljeE5QbFRXVFFhcWlTVnRvYThFRnFhaG9CdzUyZGozdmZWdmVNLVEtTEhjSkUtdmZ5ZWpZbFZVZ1JiYlJ1TG9lRkw2aEw4"
+    "CBMiowFBVV95cUxNRmFlWWI3MloxTEJCc1JfWFM1a1prRVlocXFrWHNrWlJ3Y0lPdVNHQ1hock13Q2lfZnpyc05aZ1VaN2RpRnRrYlRZVXJiV3QxM0hoU0dFTnRZZHRGckljeE5QbFRXVFFhcWlTVnRvYThFRnFhaG9CdzUyZGozdmZWdmVNLVEtTEhjSkUtdmZ5ZWpZbFZVZ1JiYlJ1TG9lRkw2aEw4",
+    "CBMiVkFVX3lxTE1iSy02bENpUDk3VVI5R3ZkOWdKOHh2ZkZyRFNrVFVpV2ZLeXdvQWZxTk96eVJ1UzFaZUk4UDV6QXJCYTIybFR1eHFUSnFnM3VmNHJVX0ln"
   ],
   "daily": {
     "d": "2026-08-17",
