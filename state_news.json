@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Thank you, PHILLY‼️ Fans got incredible access to #UFC330 events as part of the @BudLight Summer Series, including a beer garden and meet and greets…",
-      "ts": "2026-08-16T20:01:00+00:00"
-    },
-    {
-      "t": "No better way to celebrate! #NoGangNoGlory | B2YB @NewAmsterdam",
-      "ts": "2026-08-16T21:01:00+00:00"
-    },
-    {
       "t": "Huge upset = Huge reaction Dustin Stoltzfus had our commentator booth shook at #UFC330! [ B2YB @TotalWireless ]",
       "ts": "2026-08-16T21:56:46+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Arman Tsarukyan discusses losing the Charles Oliveira matchup and why some things still don’t add up to him: “They told me Charles’ friend died and h…",
       "ts": "2026-08-17T19:20:08+00:00"
+    },
+    {
+      "t": "Boise St. vs. Oregon Live Stream of NCAA Football",
+      "ts": "2026-08-17T18:56:57+00:00"
+    },
+    {
+      "t": "Alik Lorenz Finds Strength in Prior DWCS Experience",
+      "ts": "2026-08-17T19:21:55+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Raul Rosas Jr. vs. Raoni Barcelos headlines UFC Vegas 121",
-      "url": "https://sports.yahoo.com/articles/raul-rosas-jr-vs-raoni-230000350.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T23:00:00+00:00"
-    },
-    {
-      "title": "Raul Rosas Jr. locks in first UFC main event against Brazilian veteran",
-      "url": "https://sports.yahoo.com/articles/raul-rosas-jr-locks-first-005812680.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-17T00:58:12+00:00"
-    },
     {
       "title": "Dana White heaps praise on incoming Contender Series prospect Bella Mir: ‘A one of one unicorn’",
       "url": "https://sports.yahoo.com/articles/dana-white-heaps-praise-incoming-020000795.html",
@@ -2105,6 +2091,20 @@
       "source": "Ariel Helwani",
       "cat": "ufc",
       "ts": "2026-08-17T19:20:08+00:00"
+    },
+    {
+      "title": "Boise St. vs. Oregon Live Stream of NCAA Football",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE52MU1uRVJsV1dXVkxnSkxyMld4VHFtTW9BSUozdUQ4VS1WdGR0d181Y1NtVjlIazA3d2ZHMkg2VDRNd005TDZwVU11TnhKaEdTcVFHRHJneExac2hLdzVVcmJqNXU1MWNkRklPbDhNZw?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-17T18:56:57+00:00"
+    },
+    {
+      "title": "Alik Lorenz Finds Strength in Prior DWCS Experience",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOc3FhcEd3cExsSnVlRlZJcXY5c045dk1HQUFnWDIwZnBPZl9NUzFDa1E0bVA2X3pJa1dfVjZhV3U0dVBTRk14SHg4ZkJkOU5kakhObFVZUjBobzl0Q21BUUhZaG83Y3pzMUpFd1hHRDhUOE1VbGx4RUNDWWRSOHJSNk40bnFwMEo2TzFxV3h0ZWttNlk?oc=5",
+      "source": "Cageside Press",
+      "cat": "ufc",
+      "ts": "2026-08-17T19:21:55+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2088847625051099231",
-    "812efd6f-0a7a-3690-8265-feb27378e50a",
     "2088820060928475621",
     "2088827048206721435",
     "2088847761760235928",
@@ -3312,7 +3310,9 @@
     "CBMinwFBVV95cUxQQlMxQ1FDX2lINHZieDEzYTJybGZ0aWxFUjFMdlVvc2ZHUmxvMVlOeEI3R3FveHI1VUE4aExvUF9mY2tWQV9qMlZmTmJsS04tOThaZC1UNkZKZHpMazRaTGEwcUZ4WWxIc2lnOFBULXRtSmw0N1p1UTBudENRYzFEVXJIR1lQY0gzN1hTOExRSTVoeVZrYllydFdTalBZMjA",
     "CBMiwwFBVV95cUxQUzlhUWZtOTJkMWxfbUFlWmFEalR5YzhhN2xEZFU1WEotT094aUdHQUUxQ3ZVc3pvYXN4bFVLQURKaGxOMjR1MmYwUjFfWGhoN1E2U0NOUG1OVWtXOUtKOU5lNEt6TnYzT3VPZkNybUttWVctZHNZaC1ncmE5ZTdTWDRvOGN4UHhuMmlVOTRZQ3g5LWNsUHM5NHB0MW9jUkY2NHRsb21vejBGZmdtWEJvNElFd0RVYjgwWmo2c3gyQ2NkU0k",
     "CBMiowFBVV95cUxNV1NlRnY3R0k3dVdENkFMNzROMUZ3NU03Z1RCZmxLRFhLdU9fSFViOFYzZE9uUC04eFJvYnIxRWQwTXRiQTEyaF9vVEZZeFdhVXZWMGFWd0pUS0ZieDlob2xMOU45WHZZMXlLS3Y1aGFmYW03VDUzTGpzNjZTczZ6MkpuZjdTbzZKMWUwcXIzZUJBOVJfYVJudDEybVRZZ0dvTHIw",
-    "2089432106787344682"
+    "2089432106787344682",
+    "CBMib0FVX3lxTE52MU1uRVJsV1dXVkxnSkxyMld4VHFtTW9BSUozdUQ4VS1WdGR0d181Y1NtVjlIazA3d2ZHMkg2VDRNd005TDZwVU11TnhKaEdTcVFHRHJneExac2hLdzVVcmJqNXU1MWNkRklPbDhNZw",
+    "CBMikwFBVV95cUxOc3FhcEd3cExsSnVlRlZJcXY5c045dk1HQUFnWDIwZnBPZl9NUzFDa1E0bVA2X3pJa1dfVjZhV3U0dVBTRk14SHg4ZkJkOU5kakhObFVZUjBobzl0Q21BUUhZaG83Y3pzMUpFd1hHRDhUOE1VbGx4RUNDWWRSOHJSNk40bnFwMEo2TzFxV3h0ZWttNlk"
   ],
   "daily": {
     "d": "2026-08-17",
