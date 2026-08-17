@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502930",
     "https://www.mmafighting.com/?p=502977",
     "https://www.mmafighting.com/?p=502989",
     "https://www.mmafighting.com/?p=503000",
@@ -990,6 +989,7 @@
     "https://www.sherdog.com/news/news/Ian-Garry-Ill-surpass-Conor-McGregor-in-Irish-MMA-by-beating-Islam-Makhachev-201756",
     "https://www.sherdog.com/news/news/Ian-Garry-accuses-Islam-Makhachev-of-wearing-heels-at-faceoff-202337",
     "https://www.sherdog.com/news/news/Ian-Garry-believes-he-has-faced-tougher-opponents-than-Islam-Makhachev-has-202310",
+    "https://www.sherdog.com/news/news/Ian-Garry-confronts-Michael-Morales-at-UFC-330-Make-sure-you-back-it-up-202386",
     "https://www.sherdog.com/news/news/Ian-Garry-praises-Islam-Makhachev-but-stands-by-one-bold-claim-202371",
     "https://www.sherdog.com/news/news/Ian-Garry-reveals-what-drives-him-ahead-of-UFC-330-title-fight-against-Islam-Makhachev-202331",
     "https://www.sherdog.com/news/news/Ian-Garry-sees-Sean-Strickland-as-blueprint-for-beating-Islam-Makhachev-201749",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Dana White: Islam Makhachev's UFC win streak 'might never be beaten' https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc-330-dana-white-op…",
-      "ts": "2026-08-16T16:15:22+00:00"
-    },
     {
       "t": "Love Awoniyi. Will never forget that goal against Arsenal in May ‘23, among others. What a beast he was for Forest. Wish him nothing but the best at…",
       "ts": "2026-08-16T16:16:56+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White Reacts to Islam Makhachev’s UFC Win Streak Record",
       "ts": "2026-08-17T03:37:00+00:00"
+    },
+    {
+      "t": "Ian Garry confronts Michael Morales at UFC 330: ‘Make sure you back it up’",
+      "ts": "2026-08-17T03:27:40+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White Rips Ian Machado Garry Following UFC 330",
-      "url": "https://sports.yahoo.com/articles/dana-white-rips-ian-machado-083947105.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T08:39:47+00:00"
-    },
     {
       "title": "UFC 330 Promotional Guidelines Compliance pay: Makhachev, Dern lead way",
       "url": "https://sports.yahoo.com/articles/ufc-330-promotional-guidelines-compliance-120128445.html",
@@ -2105,6 +2098,13 @@
       "source": "heavy.com",
       "cat": "ufc",
       "ts": "2026-08-17T03:37:00+00:00"
+    },
+    {
+      "title": "Ian Garry confronts Michael Morales at UFC 330: ‘Make sure you back it up’",
+      "url": "https://www.sherdog.com/news/news/Ian-Garry-confronts-Michael-Morales-at-UFC-330-Make-sure-you-back-it-up-202386",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-17T03:27:40+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "2088777325198397848",
     "2088777461270024533",
     "2088777648394908154",
     "CBMiqgFBVV95cUxQZlVnMEp3XzFTb1h1VXVpR2MtMDdvLWRvVm5oY2tXNUwwSG5YeksyU3A3endYcHJ1UkJZRDY2MV9Cc0hYMGxzeFhsNmc0SFFLRlh3SV9DUjcwVndCeTlMSXJoMUR4dDZXckp6bkNRTFM0aDhiZmM3OW10UVp1VFRhcWR3R2pLU0xTblY0bFpoN0hGQ1VxQmd5Qmo1NktYZjYxOVhsbjZTejlqQQ",
@@ -3312,11 +3311,12 @@
     "CBMirgFBVV95cUxPZTNYdnRGY2liM096QmdJYkZjSjVGd3hMVHJVS01uQk1YeWRSX2xGeDRvelB4Smx3Yk92MjBZMTdPdkF5SkRBQ21IcU1SY3N5alY1OUNGRFhWaTZzNXhIcF9LaWRFV1p4MU9ZOHlmUWtId2c1dThJc2hidTRNaTlEemdWWmtUWkItdVRFQ2xrTTlYbHY2RzI5X2pqNld5eUdPdjl3VGI2TnUzREdMdGfSAbMBQVVfeXFMUG5PZ1MyVWJpbTBPLXNBUEdTNVZJeHBNSDIwZFVuOGlCa1IzR0gxVTV3MHJHcElYdGdKcVpEbzJlZUdSeUNVVThuNDRfczQ2djRYaWRIQ3owamdZUVQwZWpWMFVQbmp3dXVmSHJEUVdHY3VZWkQtQUdQYmJ1U3VmT3ljNDBNSlVHWTBIR2VyVjQwdGVFMEpwWnQweHRXVkFhLUh0TTN6ajlac2tDdXNVaFM0OTg",
     "CBMiW0FVX3lxTE1UZFkxY0hvUENwbkYzTk1HdmRjd0pibVJkZEFYd0NYU2RMZFdHZG0zNVhnZGdLMTQ4UTVSQXpvaG1HZ2FBRlZKT2ZVbzduLXI3MVM3M19WeFIxb3c",
     "CBMirwFBVV95cUxNU1lKSkVQV1owWjgxb29FUS15R1dlSS1iRVBpS3FYMGltQTBUcVdNWWdYamZzOTJhS0V3dzZCc3ZzcHdiTVdVVkhjUHlkZ1RuVjFEOTN5QzdTVjBYQm92MXRFRDhKeFoyeUh2blhKMWZDcVQ2X3g5ZUZXOTBpYVJ6SF9GSVJCVGVNT05NZFhHSlBsTlRFUkdPRVFtdjhWSFV3dTFoR3NOZHhoNzg2X0Iw",
-    "CBMieEFVX3lxTE1iWlN6d0hVSGtjbXhhV3pHbzlwNDB0cXB2N3dpWU1ncnp5LUNnY09NekluMmoycEk0Rm5zYUxYMEs4M00yXzJBMWdyUmJiNkl6WGRSZEVuNE12MUMydEpZNzFNZ1Q3TE1pcWNMYUtJdDBWTXhBWW5OZA"
+    "CBMieEFVX3lxTE1iWlN6d0hVSGtjbXhhV3pHbzlwNDB0cXB2N3dpWU1ncnp5LUNnY09NekluMmoycEk0Rm5zYUxYMEs4M00yXzJBMWdyUmJiNkl6WGRSZEVuNE12MUMydEpZNzFNZ1Q3TE1pcWNMYUtJdDBWTXhBWW5OZA",
+    "https://www.sherdog.com/news/news/Ian-Garry-confronts-Michael-Morales-at-UFC-330-Make-sure-you-back-it-up-202386"
   ],
   "daily": {
     "d": "2026-08-17",
-    "ai": 59,
+    "ai": 60,
     "staged": 5
   }
 }
