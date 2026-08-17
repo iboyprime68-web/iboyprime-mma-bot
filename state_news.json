@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Mackenzie Dern feels vindicated with #UFC330 win – but sees room for improvement https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc-330-m…",
-      "ts": "2026-08-16T13:50:55+00:00"
-    },
-    {
       "t": "Elite company 🙌 @MAKHACHEVMMA is now the 5th UFC fighter to successfully defend two championship belts with his win at #UFC330!",
       "ts": "2026-08-16T14:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Man Utd 'living in the past' as transfer failings exposed in damning Liverpool comparison",
       "ts": "2026-08-17T08:46:00+00:00"
+    },
+    {
+      "t": "Prediction Markets Show Big Bets on Esports",
+      "ts": "2026-08-17T09:01:07+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Herb Dean praised for Edson Barboza UFC 330 stoppage after months of criticism led by Alex Pereira",
-      "url": "https://bloodyelbow.com/2026/08/16/herb-dean-praised-for-edson-barboza-ufc-330-stoppage-after-months-of-criticism-led-by-alex-pereira/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-16T18:00:00+00:00"
-    },
     {
       "title": "Khabib Nurmagomedov says Islam Makhachev has ‘reached the pinnacle’ as he pays homage to teammate after UFC 330",
       "url": "https://bloodyelbow.com/2026/08/16/khabib-nurmagomedov-says-islam-makhachev-has-reached-the-pinnacle-as-he-pays-homage-to-teammate-after-ufc-330/",
@@ -2105,6 +2098,13 @@
       "source": "Daily Mirror",
       "cat": "ufc",
       "ts": "2026-08-17T08:46:00+00:00"
+    },
+    {
+      "title": "Prediction Markets Show Big Bets on Esports",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNM1lVVWdPamZ0X0hQRUtodTRPMWlESXBYN2tnSFdWdW1wZlluUG1iVU5zRDA2Z3VZb1dDQ3FVOEJOS3k2c1BzYmsxc1BDcTg3RFhUWVVqd2I4VGVWd0drSHNoWWh0Mi1ySFBBdDVJVVJxVUl6T2dlWGMtMDZ5Y2J2dFcyNm1uYkYycURTZy1EV1Z5MFVuWE1xNWkwcHNJdTR0aVJR?oc=5",
+      "source": "StartupHub.ai",
+      "cat": "ufc",
+      "ts": "2026-08-17T09:01:07+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiigFBVV95cUxOV0dIMXRVaWxTNXdQTHBLUkYwNDdQVEFwZFMwczdjTnhSM2M0ZExTbGlTbnN0VWcyQUlmQ0RoU3FldS00NHdKYl9zbGZIRy1zeDM5X0puT0NORUF2ajZZakpPLVV6OXB2a1dSYjRDbDNaN2kwVThVaHpPNlY1THc1cXdLMXc3U1ZYZVE",
     "2088807014164025510",
     "2088807165087637952",
     "2088808064392798699",
@@ -3312,7 +3311,8 @@
     "CBMiakFVX3lxTE9ZR1U4MTJwSFcwVzdwQUJuMzRSSmRhdHNzQzR4TllrVWFsam5pUF9YbTBvVUpKbHEzZzQ0Z2V1bU80QUMxYVFaandlUmFKRHI5c0tZUnNnUWNUVHJnRXk1eVdYN3QxMmh5LUE",
     "CBMifEFVX3lxTE0zaExJZjVaT0lyN1hwcnRjOEtic3hWZkZaRmU4Mkx2NjI5NWdvb1o3RGdnYXFvajRyUFljVlVGSlYwRW9tdGFsVEpGTWJWLXRlQ3dpTlMwUGFLMElzYmZwakV1ZWpIOWllclV4NGZjTURETUtMN09VRWE0SHU",
     "CBMiW0FVX3lxTE5fWW00TlZKUnhFUFY1ai1FQVVfaEVWdXQtUF9pMHNnOTRGbjBKSDlzYVFOVUNxOWhSWG1nbnJWa09Ja1ZTdVFBd0xhUGlpM0kzUFZMaUx2eHBEbmM",
-    "CBMiowFBVV95cUxOYzFVY0szZ1VJdFM0LWczX21vMzI4TDRud3hOUi1VOEtaREVLSXZ4UFdxSC1JVjdRWjlleGREd3FlRTZHYVJHOXVGZlg5MkVTZ29YSDA3bTRJLWM2cmxTVE5wSHpfTlhUZ2F3T2dVbHI0d3FhaUtjc0k1Qmg5ekpTQmVuRVBqcU9Lbl9uUzdrMlJfOUdXZERxdHI0cTI4dWtPdWVV0gGjAUFVX3lxTE5jMVVjSzNnVUl0UzQtZzNfbW8zMjhMNG53eE5SLVU4S1pERUtJdnhQV3FILUlWN1FaOWV4ZER3cWVFNkdhUkc5dUZmWDkyRVNnb1hIMDdtNEktYzZybFNUTnBIel9OWFRnYXdPZ1VscjR3cWFpS2NzSTVCaDl6SlNCZW5FUGpxT0tuX25TN2syUl85R1dkRHF0cjRxMjh1a091ZVU"
+    "CBMiowFBVV95cUxOYzFVY0szZ1VJdFM0LWczX21vMzI4TDRud3hOUi1VOEtaREVLSXZ4UFdxSC1JVjdRWjlleGREd3FlRTZHYVJHOXVGZlg5MkVTZ29YSDA3bTRJLWM2cmxTVE5wSHpfTlhUZ2F3T2dVbHI0d3FhaUtjc0k1Qmg5ekpTQmVuRVBqcU9Lbl9uUzdrMlJfOUdXZERxdHI0cTI4dWtPdWVV0gGjAUFVX3lxTE5jMVVjSzNnVUl0UzQtZzNfbW8zMjhMNG53eE5SLVU4S1pERUtJdnhQV3FILUlWN1FaOWV4ZER3cWVFNkdhUkc5dUZmWDkyRVNnb1hIMDdtNEktYzZybFNUTnBIel9OWFRnYXdPZ1VscjR3cWFpS2NzSTVCaDl6SlNCZW5FUGpxT0tuX25TN2syUl85R1dkRHF0cjRxMjh1a091ZVU",
+    "CBMiowFBVV95cUxNM1lVVWdPamZ0X0hQRUtodTRPMWlESXBYN2tnSFdWdW1wZlluUG1iVU5zRDA2Z3VZb1dDQ3FVOEJOS3k2c1BzYmsxc1BDcTg3RFhUWVVqd2I4VGVWd0drSHNoWWh0Mi1ySFBBdDVJVVJxVUl6T2dlWGMtMDZ5Y2J2dFcyNm1uYkYycURTZy1EV1Z5MFVuWE1xNWkwcHNJdTR0aVJR"
   ],
   "daily": {
     "d": "2026-08-17",
