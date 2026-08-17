@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=502977",
     "https://www.mmafighting.com/?p=502989",
     "https://www.mmafighting.com/?p=503000",
     "https://www.mmafighting.com/?p=503003",
@@ -1008,6 +1007,7 @@
     "https://www.sherdog.com/news/news/Islam-Makhachev-addresses-UFC-future-I-dont-have-much-time-202343",
     "https://www.sherdog.com/news/news/Islam-Makhachev-and-Ian-Garry-have-contrasting-views-on-womens-authority-202341",
     "https://www.sherdog.com/news/news/Islam-Makhachev-blames-Ilia-Topuria-for-cancellation-of-UFC-White-House-booking-201509",
+    "https://www.sherdog.com/news/news/Islam-Makhachev-breaks-down-Ian-Garrys-tricky-UFC-330-strategy-202388",
     "https://www.sherdog.com/news/news/Islam-Makhachev-explains-why-Dagestani-teammates-will-never-fight-202346",
     "https://www.sherdog.com/news/news/Islam-Makhachev-puts-Ian-Machado-Garry-in-rare-company-after-UFC-330-202370",
     "https://www.sherdog.com/news/news/Islam-Makhachev-reacts-to-Justin-Gaethjes-win-over-Ilia-Topuria-201528",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC 330: Islam Va Garry Jangiga Boshqa Jangchilar Va Ekspertlarning Fikri! Madhav Tiwari (LhuqqSHwgm)",
-      "ts": "2026-08-17T03:15:49+00:00"
-    },
     {
       "t": "Derek Jeter & Alex Rodriguez Pay Tribute To Willie Mays’ Legacy | MLB On FOX Ufc 328 Fighter Suspensions List (ui7xq2oItK)",
       "ts": "2026-08-17T03:18:23+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Khabib Nurmagomedov Says Islam Makhachev Hit UFC Pinnacle After UFC 330 Record Win",
       "ts": "2026-08-17T04:48:05+00:00"
+    },
+    {
+      "t": "Islam Makhachev breaks down Ian Garry’s tricky UFC 330 strategy",
+      "ts": "2026-08-17T04:25:15+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "How do you have Makhachev vs Machado Garry scored through Round 3?",
-      "url": "https://nitter.net/ufc/status/2088839241661088119#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:04:18+00:00"
-    },
     {
       "title": "Final round. Who takes it? 👀 [ UFC330 is LIVE NOW on @ParamountPlus ]",
       "url": "https://nitter.net/ufc/status/2088841313047486788#m",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-17T04:48:05+00:00"
+    },
+    {
+      "title": "Islam Makhachev breaks down Ian Garry’s tricky UFC 330 strategy",
+      "url": "https://www.sherdog.com/news/news/Islam-Makhachev-breaks-down-Ian-Garrys-tricky-UFC-330-strategy-202388",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-17T04:25:15+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     14
   ],
   "yt_eval": [
-    "2088785286851362817",
     "2088785324617187744",
     "2088785502191153617",
     "2088785569270661323",
@@ -3312,7 +3311,8 @@
     "CBMiiwFBVV95cUxPVFNhQzhCdFdxMGVSQ2JENk52akRjeTQzYjhxWFBpc2pMLTFrTHppdVpHUVFZZW1JR2pZZ1hicGRLcmlTaG5wSzB4X0VUaUJ2NjZqbnpPM0l3aXF2ZVo5YW8wNlZDVHczellrczJnUFE1REVaUUV1Q1lGRjZRTUJtU1R1b0ozWXBGLWY4",
     "CBMiYEFVX3lxTE5LdXlSdjVKbXVHSXBzVkpyU3ZqZ2lxbUpBdlR0RGkwakIwenh4Wkl2MnFwUm51S0h6THRxb3dqeGJfMS1SMWpkbklmbWFwenJlbWEzcDkwMHdRVURkNkdJLQ",
     "CBMizwFBVV95cUxNMDFuWm1CS2JaODd4WTNqU2ZkaFJhR2xYV2g0cENvczc5dFNhUS04bWtieUs0blF1bEVZUkFoRURic1JQNElDclFrMk5taUU2UTRkWUNrc19HdFQxeTVIN1Z5YWZiUzdDSmFmcXpXN25ld1MxYm8zQ19DWnhoS0VPOUwtWjJCWGRJZkNXRGpGSXNUc1ZsT3FpWm8wYUFuV2pfaUN3Zkl2NE1NUWhZWFREUFFldUpJNFRVMzJqOFdPWVFNa3h4MDhaRHFzeUhPaXM",
-    "CBMiiwFBVV95cUxNN012c1VBbVJKU3BzRkVsOHBucklybG00NlJmR2dGREE5a0hyS3h6QnJYcVJ2ZEczSHhSQmNjdEVaLVF0bnlibFNwZDBGX1RHN0J3WklTZldLNDRzdXlPXzdpMFhzamY3NkUzQWk5V1FlMkNJOU92azU4Vmc2ZUQ5MVdyamxhZ2tHTzBj"
+    "CBMiiwFBVV95cUxNN012c1VBbVJKU3BzRkVsOHBucklybG00NlJmR2dGREE5a0hyS3h6QnJYcVJ2ZEczSHhSQmNjdEVaLVF0bnlibFNwZDBGX1RHN0J3WklTZldLNDRzdXlPXzdpMFhzamY3NkUzQWk5V1FlMkNJOU92azU4Vmc2ZUQ5MVdyamxhZ2tHTzBj",
+    "https://www.sherdog.com/news/news/Islam-Makhachev-breaks-down-Ian-Garrys-tricky-UFC-330-strategy-202388"
   ],
   "daily": {
     "d": "2026-08-17",
