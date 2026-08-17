@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Ian Machado Garry confronts Michael Morales about 'sh*t talk' https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/ian-machado-garry-confronts-…",
-      "ts": "2026-08-17T13:45:17+00:00"
-    },
-    {
       "t": "Back in Sac-Town 🙌 It's #UFCSacramento Fight Week! [ LIVE AUG 22 at 8pmET on @ParamountPlus ]",
       "ts": "2026-08-17T15:01:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "\"Sugar\" Sean O'Malley talks Petr Yan vs Merab Dvalishvili trilogy at UFC 333, potential rematch",
       "ts": "2026-08-17T21:10:12+00:00"
+    },
+    {
+      "t": "Joe Rogan isn't sure Islam Makhachev can handle welterweights with 'nuclear power'",
+      "ts": "2026-08-17T21:10:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev forced to change his game after UFC 330 says cage legend Dan Hardy",
-      "url": "https://bloodyelbow.com/2026/08/17/islam-makhachev-forced-to-change-his-game-after-ufc-330-says-cage-legend-dan-hardy/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T19:00:00+00:00"
-    },
     {
       "title": "Raul Rosas Jr. vs. Raoni Barcelos headlines UFC Vegas 121",
       "url": "https://sports.yahoo.com/articles/raul-rosas-jr-vs-raoni-230000350.html",
@@ -2105,6 +2098,13 @@
       "source": "mmasucka.com",
       "cat": "ufc",
       "ts": "2026-08-17T21:10:12+00:00"
+    },
+    {
+      "title": "Joe Rogan isn't sure Islam Makhachev can handle welterweights with 'nuclear power'",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQUw4aEtFbi1JeVhpZEhzbVl6Sld5TGdfUVdfLTk5d2FMUXVwRktmTF9uMDRsQzdnQnpxQlR6Vy1FZDNMdFFmQldwMU54OVdzdzNYc081OE5VY1h2SmlKVGY5UEZhU3VqMElzOXJ6dmhDeHhmeElGSjJiMTZQY201WURNRE5IQUM1MHdzMkRPREJLQXA0OGx4MHBFdG8xTW5XanFkMUtFWFVWTnY0MkRCT2JFTzVLWnpWbDRWOFhrTnhGTFNpR3RYQk51YWlKdkU?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-17T21:10:00+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiwwFBVV95cUxOb2NvcVFwSDJOdGVNRHpHQXFwSlBMalNoS3FJZkxNU09NdkcwdXhMSnpMN3dMVVBPbHJON25VekVhRFdVLXN1MUFrelg3eTVoYTRpanptY3ZGS3ZNd1p2QWNVSzVCZFU2ZHNwTmJNNVYyVHlNVW5xaUpxb3lkZURGLUJxXzBOQnpxT2RVYWhYbW9ZelluZHBiZlNYOUhZSDlwRU5jOHNYcmtlVU5jU1hwR09OZ3BxNmFzWS00R2hyUi13V0E",
     "CBMi4gFBVV95cUxQbkdpbU9LSTNfS3pvV0RJc3NJbkNkdlVKcjh0TzAtbVJDYkVkVDlHMTBKdFNrZHpKZkpibjF2ZkJJX0lkWnNoTnB5ZUVXTFVYNU1qUlE2YUktVDFJdDNuTFE4VFctczYtcno4Ui1DM2VyVXNnWFRZbEpabmF3NGdWbDZIN2VuV0JKS1B0NWc4M1VkWTYyOWQyTklNVW5GQVhLRUM2MkZ4NE00WkJVQkd6SlM0Z2JMb0FfUmtUTnFPXzFMYWxWTFlSbmZXSXR3LU9IUURWRndab1hzVG1LWm5MYmtB",
     "CBMiowFBVV95cUxQYUczeVdocFczZFNtVk4xRzFJTnhIMllnMW5GWk9jdW1TSk1Bc2cxODZNc3BCdHVGUjBoengyVlk1YWs4R01IZ0xlQWNCV0tPOUoxSG5veVR5UEgzV1liRzVsUzhWT1pPak8yampGQU8xM1dPazhNWkxCLTlkZlNYbnpxaC1tVnY0WlRlYkFLVmhwRDhzcS1PVHNTcEZhWm96MTFZ",
     "CBMilwFBVV95cUxQc3JhQUljVGkxNERuT1Y1YS16emI0TlVnd1gzWThtOV9xY2poNzF0d3g1by1oN0lhVmpVdDlJV1lUZmRyMVpTbzNqZC1UdUpLYWpZbkZoNlI1aFM0NDFvd2phRUFpWWJsbjlGUWZ3UGJSNjJYaGNrSlJOd1ZqM2F0OVNNaktKZ1A0SjlfRmFsdDlqUEtBR013",
@@ -3312,7 +3311,8 @@
     "CBMirwFBVV95cUxOY1pEemU0NHNzV01pTGJxYUZORjZ2MEVQcjJaTmF0ZGJaRVEybUZHTEVfYk1FTVIxMUROZzhhU0E4aVUzTkJwR3FqYWZ0dUFQdlpJalgza1EtXzZiQUJWaDIwRGRMbzVXdDcxTTBrOWxPZnM0NUZjQ0V3N3BrSk9oUnB0Y09ZRmdxYXNia0o2Qzh2U0hDY1VyMUFkYWZjSENWQVRCYW44YzBGUGJXd2Rz",
     "CBMisgFBVV95cUxOb05rRFlvcjFHYnhuM290MGhhck1RdENmZlNXb2I0S3lrMkNRNU1wNW9qeFhuMWdNb2UzTHVkUjlyS2lBNGNaNW5DeDFSenVYeTJ6VDNDWkNrbUxncTNzd1U5YWpEMHJZSHluTXhuX1lLVnYwOFFrN3puQVVVcF9jbWNxVEdRYy1lQ1BxanFLLUhidTREOEpJQ1I2cUt0U2lwTG1fMFY3aFVlWmVWNWxKc19n",
     "CBMid0FVX3lxTE1kTTVjcF8wVGxaR2ZtbExjT3lxd1hDUVo3elVaVFlRUENiSlhGeHFHM2dBUEhETWtNN0VvR19QSlRGMF9UNHJZZk50NjUxdFVWZ1J6MVlWYlJnNFRWSk54ampRV2stZTgtVVFSMkVjM21LOWFUZzJZ",
-    "CBMiugFBVV95cUxOZC0xSHhtUWlyakdGVlNvaXEyZ0FSTnZLN1M1Y3daOWU1STEzdUphZnZESW05X09fR19tU29naUJrRWptVWZFbTRlUURUb3NTbjE2VmdDQWJtc2hfZllmT0F6YjZlcmhIcTlaaHpaTlJsMi1vbVhSSEtqNEpXOUdGYXI5cTVmSTBQUHpJWkZkdjk5Y0xRa3UzcFNPQlVnMUNRRTdhYUFYOUhrZV8xQjFzRzl1cWlHOFUwaHc"
+    "CBMiugFBVV95cUxOZC0xSHhtUWlyakdGVlNvaXEyZ0FSTnZLN1M1Y3daOWU1STEzdUphZnZESW05X09fR19tU29naUJrRWptVWZFbTRlUURUb3NTbjE2VmdDQWJtc2hfZllmT0F6YjZlcmhIcTlaaHpaTlJsMi1vbVhSSEtqNEpXOUdGYXI5cTVmSTBQUHpJWkZkdjk5Y0xRa3UzcFNPQlVnMUNRRTdhYUFYOUhrZV8xQjFzRzl1cWlHOFUwaHc",
+    "CBMizwFBVV95cUxNQUw4aEtFbi1JeVhpZEhzbVl6Sld5TGdfUVdfLTk5d2FMUXVwRktmTF9uMDRsQzdnQnpxQlR6Vy1FZDNMdFFmQldwMU54OVdzdzNYc081OE5VY1h2SmlKVGY5UEZhU3VqMElzOXJ6dmhDeHhmeElGSjJiMTZQY201WURNRE5IQUM1MHdzMkRPREJLQXA0OGx4MHBFdG8xTW5XanFkMUtFWFVWTnY0MkRCT2JFTzVLWnpWbDRWOFhrTnhGTFNpR3RYQk51YWlKdkU"
   ],
   "daily": {
     "d": "2026-08-17",
