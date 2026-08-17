@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Huge upset = Huge reaction Dustin Stoltzfus had our commentator booth shook at #UFC330! [ B2YB @TotalWireless ]",
-      "ts": "2026-08-16T21:56:46+00:00"
-    },
-    {
-      "t": "The people have spoken 🗳️ @INNERG_UFC came through with the best celly of #UFC330! [ B2YB @BudLight Summer Series ]",
-      "ts": "2026-08-17T00:00:01+00:00"
-    },
-    {
       "t": "Donte Johnson apologizes for crackign the referee with eblow at the en of his KO win at #UFC330: \"I'm 2-0 on the night! Who else wants some? I'm kidd…",
       "ts": "2026-08-17T00:45:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Edson Barboza explains decision to retire from mixed martial arts after UFC 330",
       "ts": "2026-08-17T13:22:09+00:00"
+    },
+    {
+      "t": "Dana White heaps praise on Bella Mir ahead of Contender Series debut",
+      "ts": "2026-08-17T13:18:57+00:00"
+    },
+    {
+      "t": "Polymarket Referral Code SBWIRE: $20 Bonus for NFL, UFC, Crypto & More (August 2026)",
+      "ts": "2026-08-17T13:23:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White Rips Ian Machado Garry Following UFC 330",
-      "url": "https://sports.yahoo.com/articles/dana-white-rips-ian-machado-083947105.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T08:39:47+00:00"
-    },
-    {
-      "title": "UFC 330 Promotional Guidelines Compliance pay: Makhachev, Dern lead way",
-      "url": "https://sports.yahoo.com/articles/ufc-330-promotional-guidelines-compliance-120128445.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T12:01:28+00:00"
-    },
     {
       "title": "Mackenzie Dern feels vindicated with UFC 330 win – but sees room for improvement",
       "url": "https://sports.yahoo.com/articles/mackenzie-dern-feels-vindicated-ufc-134016607.html",
@@ -2105,6 +2091,20 @@
       "source": "BJPenn.com",
       "cat": "ufc",
       "ts": "2026-08-17T13:22:09+00:00"
+    },
+    {
+      "title": "Dana White heaps praise on Bella Mir ahead of Contender Series debut",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOFJXZGlmd3l6Rkp0dW13Rnk2QXdnbW5HTFE3TEljS1UtaFhZdE5CdTVMZERGeXEyUTV6S09rV3N0UmRlRVBSM1phZTctNUp5LUpleHRGWTFsSXRONDNQelhaOVZ1TlZUeG9jbDh5ZUFSR01GSWZKT282ci0zWXNwTmVGUEhzV1NKRm9WSlFZVXJ4bXlMY0J2YWttSTZZemNpcjdTZ2VqMmt6MmpzaVFVWg?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-08-17T13:18:57+00:00"
+    },
+    {
+      "title": "Polymarket Referral Code SBWIRE: $20 Bonus for NFL, UFC, Crypto & More (August 2026)",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTHJVT25jbmJtdzBqQXd0TVpMenUxZERQRG0zZjA3aDRwSGt4eTJIVElnYk90NVJIbGREeUtuRG9kbXdyeFo5cWpOaUJUR2dvWDg2cUZ2S0xfSVBsMkJsd3l5SV9SUDM4S05CbUNLazg3RWktanNGdDFLOW5KYVoxZXVMbDFvNkNLblBUa0ZlN3p6Vl9PU2VvM1FnTFhmQkpfUVA4aFJR?oc=5",
+      "source": "USA Today",
+      "cat": "ufc",
+      "ts": "2026-08-17T13:23:00+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "2088813868340687224",
-    "2088814571196936428",
     "2088815165709910460",
     "2088815176585789588",
     "2088815283255365980",
@@ -3312,7 +3310,9 @@
     "CBMiugFBVV95cUxNSmhFYlVwSTdCay16Q0ZBb2p6SVQyRkVCcmYxUDFxVC1QcEZRNGZhWVFPeEdZR3FqXzBnWjl6QjlzcXhJRFkxT2JtR05kRFllazJBaU4wcUxOVjRHSXF3R2dqeEExdDhxOHA0dVZaSHVNZVp5RXZDNHlZNzV1WldLdFlVRDhEZW5nbG0tVWdFRUdhMUNpYjBJeDlzZXlOd2ZWelhqeHNJa01FWmpoNE41ckROa3gwWkJxTlE",
     "CBMi2gFBVV95cUxNVGZPTTJGejdxMURXU25fREx6T09mbXVwRGRHazkxRDRPaGpiY0JyQ3ZMeGxLbkJYc0RLNUhwbTNlcC0zeC03UmtUT1JoOE1NWHFsb3cxT2g4aEhjVnNYaHNpanlkM3dUVTdHaWswT2JoWlpHNFl1LXNZckl3WTgyN0plS0xiOVF2anprcnhzYmx1RVNTcDFKVVFtLTV5Zl8yM1VoNC1zUzhiWXVtc21iRmQtRGhTQXB5UWdOZWQxcVV1V3ZkeTBZZmpEOVpxeVJlZ3FhbHpnQ25YZw",
     "CBMimAFBVV95cUxNeUVuVG5tTHQ1LUZGZG9rOHMyVTBLdzc1NTRmOUZXcy0yNHBVZERzRERwUWY0QV95akRJUlNIS0Q5dy04UDQtd0tsNGlSc1dGQzlraVNqN3NqZ1JEejZkdEw3MnJzUHFmOE5WSTMtOGFRckxYMDBWR2p4aFVCd3B5UldVN011NXI3ZHdYSXVoVkhWMi1aSnZVTQ",
-    "CBMi6AJBVV95cUxQWklhQVVMeVRCTnFBaTFjT3hPdF8tZjJDQlJPc0gya2M4NVRFanFUS2twd3NsTnJ4QmlzU0FLUHVROEVFX1dSa3doV3ZIaEVEcTNVNTRqSGFTUHlNVzd5MC1yRUlUMnJOZE9odmdnREdGSzhuX284a0lkbTlCTVdrTnNZQTlWNF9ldVpCeFJ1LVYzYnRERzF6MTI2dzZZQUhkSy0wLVNiNGVrVWpPWDBQMjBRT3dLUXZqU1B2OWNtcV8yTG9kVGRBSE9WOEMzZHFOU3FNSk1LQWR5cFhQcjAxMUhnalVERXRiNWdvQ05qb3lnRnVXMFJ5QUJEYXkwTXZVZkVTUldObmUtNU5YcDRma0FWR1p3bG16V2QyT2VoOENSekxmWXFwblc3M01acENjb3VDNXFteEltUkhiMEIzZFRTMmMtbUFydEdLbEdzMEphbjJqOU5SWXVjRWN0TzdtX0VkaEdzdlc"
+    "CBMi6AJBVV95cUxQWklhQVVMeVRCTnFBaTFjT3hPdF8tZjJDQlJPc0gya2M4NVRFanFUS2twd3NsTnJ4QmlzU0FLUHVROEVFX1dSa3doV3ZIaEVEcTNVNTRqSGFTUHlNVzd5MC1yRUlUMnJOZE9odmdnREdGSzhuX284a0lkbTlCTVdrTnNZQTlWNF9ldVpCeFJ1LVYzYnRERzF6MTI2dzZZQUhkSy0wLVNiNGVrVWpPWDBQMjBRT3dLUXZqU1B2OWNtcV8yTG9kVGRBSE9WOEMzZHFOU3FNSk1LQWR5cFhQcjAxMUhnalVERXRiNWdvQ05qb3lnRnVXMFJ5QUJEYXkwTXZVZkVTUldObmUtNU5YcDRma0FWR1p3bG16V2QyT2VoOENSekxmWXFwblc3M01acENjb3VDNXFteEltUkhiMEIzZFRTMmMtbUFydEdLbEdzMEphbjJqOU5SWXVjRWN0TzdtX0VkaEdzdlc",
+    "CBMisAFBVV95cUxQOFJXZGlmd3l6Rkp0dW13Rnk2QXdnbW5HTFE3TEljS1UtaFhZdE5CdTVMZERGeXEyUTV6S09rV3N0UmRlRVBSM1phZTctNUp5LUpleHRGWTFsSXRONDNQelhaOVZ1TlZUeG9jbDh5ZUFSR01GSWZKT282ci0zWXNwTmVGUEhzV1NKRm9WSlFZVXJ4bXlMY0J2YWttSTZZemNpcjdTZ2VqMmt6MmpzaVFVWg",
+    "CBMipgFBVV95cUxNTHJVT25jbmJtdzBqQXd0TVpMenUxZERQRG0zZjA3aDRwSGt4eTJIVElnYk90NVJIbGREeUtuRG9kbXdyeFo5cWpOaUJUR2dvWDg2cUZ2S0xfSVBsMkJsd3l5SV9SUDM4S05CbUNLazg3RWktanNGdDFLOW5KYVoxZXVMbDFvNkNLblBUa0ZlN3p6Vl9PU2VvM1FnTFhmQkpfUVA4aFJR"
   ],
   "daily": {
     "d": "2026-08-17",
