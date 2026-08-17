@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Din Thomas under fire for 'awful' retirement after Gillian Robertson's UFC 330 loss",
-      "ts": "2026-08-17T16:08:28+00:00"
-    },
-    {
       "t": "Thank you, PHILLY‼️ Fans got incredible access to #UFC330 events as part of the @BudLight Summer Series, including a beer garden and meet and greets…",
       "ts": "2026-08-16T20:01:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White’s Contender Series: Logan Paxton vs Cristian Perez Preview & Prediction",
       "ts": "2026-08-17T20:51:00+00:00"
+    },
+    {
+      "t": "Dana White’s Contender Series: Taner Trembley vs Roman Puga Preview & Prediction",
+      "ts": "2026-08-17T20:51:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Charles Johnson Octagon Interview UFC Vegas 114 Fertilizer (g1sEmoarwQ)",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE03TVRlVVM1QzVqTDNDWl9lSVMxYUVNMTJUMjZJVmdBV19aVGFXYm9hOFJCalMtTFhOVTZtcGtJMmVXNzhzTUhZckR3RDI1WDh3UFBPRXNaZmVnUDViaGJ6aA?oc=5",
-      "source": "Mshale",
-      "cat": "ufc",
-      "ts": "2026-08-17T19:27:12+00:00"
-    },
     {
       "title": "Dana White responds to wild conspiracy theory that military used secret weather technology to save UFC's White House event",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS3FYRXJaUTIzV01GS3VoTWdOZTI1blRrRkZLNXQ5NDhnRHV3YWdSRkk4TV83Xy1Ja0NxY2xSYm9aVjZldUYxTHJvWWxjd19aR05nSUpBU3VmNGszNEtNYVNrWFVfeHNWVi1yeXdyZm50MUJQMmZvUXRZdFhJRFIxOGVsempOZGJiNTUtWV92OEhzdzh6NjRtLWVZVXhtd1NONGtWODlTeHByWl9wYTI3T9IBtgFBVV95cUxPN0ZjZEJxQVZHVi1KTkpsQ0pPMm41a0pMcnBTLXpMOXUzbnRJR1Jsdk9nOFctVVR0SUlCWlF5ZHlXeS03T1pLRW5JWXp3a2hsQmVzX2djNm8wMVc5S3lUQ1NMRy04NlRaWnhSZTNEY2IxOGpoSXF1MDZ5MFExR1ZvTFIxT0pIdXhXZEUtc0swTW9tRXd4aFNyaFFsOHlPZU81LW9IeUJVblNNRC03c1c5VjZGOTFkZw?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "The Stats Zone",
       "cat": "ufc",
       "ts": "2026-08-17T20:51:00+00:00"
+    },
+    {
+      "title": "Dana White’s Contender Series: Taner Trembley vs Roman Puga Preview & Prediction",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQd0xRVkt1UkNrU0NxNlBOU2MwUl9IbE8tMkM0c3BmYzFpaGtwcERFc3Q0R1BtN1p2dC1sLW1FbUZsSUxhTzNZNHRQVzJhQmxTNDRMaUVFeUVfamFYemV5bmVTLTN1Q0ZVbUxMd3BWSkJscmJYQ0lOZi1vZDRNR1BNUXJjU3dWMGpmVHB1Q1hzdzdLam80bWVFZDVZeGJOVW4xekZjYjZNVnpTWTUyRlNmT0tR?oc=5",
+      "source": "The Stats Zone",
+      "cat": "ufc",
+      "ts": "2026-08-17T20:51:00+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "CBMipAFBVV95cUxOeEdheWw5N1dza3YwcWczS3JVekFpOHZEOEx1eXpiNS10WW5wN0JrOGVzLXlOaWMwanJGUFBMRi1BZGhZam9XaHVrNWMtaXk2MXNpN196RzdtV0g1MkNnb3RyQklOOHVlRkhPQkJKcmtNSmFmSVdyZFYyXzdRMy16MzFINkJTXy1ZZHpoVWVybHNqZmNXeWJRWWJtb0dOeHB2U29Pcg",
     "CBMinAFBVV95cUxNX2lRd0txRUJ4TE5nSHU2TF8zUzZLazBhWmstb3J0dnF5RWN3bnFVX3Eyc2VUSlBzUjV5RVZzd3M3WGg3dVd6bGhwTjlZVG94SWVuMDdjbnRma1VzOXRtZ2JiTWhEbnE5cjNZeEZOelZmVVJUTDhsQ09tSERiWFRmazBTTTJHRm5oVC13b0RreVN0VEVSalRlSldBOGo",
     "CBMiekFVX3lxTFA0cGlWOE81QXJFeE1vRmt3V3hzRVJKM1djdDdtRV9mWHJnN1JXZk44bExRa2ZyMlEtTklmR1ZxTmtVNUxoTkNRN24xS3M5OHhmaHd2QjBXbVlLQkloaXFaa2pNamFOcGNZSUhRRGdRZkZ6ZC1ZSlJvTGxB",
     "CBMibEFVX3lxTFBUd3FzTEFobUw0ZnhTZTRTN2QzT3pkQ3I3Vm9xTjEtaV9ldEtMaW9OalNfaTJuQnk0a3pVOFlpeE9tQ25yQTV5Z0FON09DbkNWaWxtS2wtLUQyUF9lR3JmTUl1UEVqYUYyR2IyMw",
@@ -3312,7 +3311,8 @@
     "CBMiqwFBVV95cUxQeUFERkVZZm8zNllXOWpPMHBVUFpBalJXTEdoNk1fZ0diNkttWEtRZ2NsWG9CWkNzZGI0Si1uNUZxTzVKbkJ3Y2JQZXJvYW0tV3c1cmpleXh2YW1ZeVhpLUQxbm1aREo3V3ZkRmtoUlZCUTBGUGlDRExWcEprU2tmVFlIWG9LcTBORGt6ckEyNkJSbUplckZjSGoyM2gzQkM2U09SSUdjdDBGenc",
     "CBMisAFBVV95cUxOR19xYzdCTzdIa3VkTHh1LWJZWUpBT1RSUEVDRUN1WENaSl9LNnpvdXA1Q1plNDhEaVNHckYzWDRTV1BaLTFheXFRNnB0V3pzYTByaVBYb2FIM3ZRc1ZRbUVFT3RPWE5RaGlzbjFRZjRSOEw5ckdBU05zMHN1U18tOXNvOWJ1VkRLTmtUQ1oyU3JVUzluZDZfeG5fNXZ2bkQteW5vSzBtMTJUZ1dwZkcxaQ",
     "CBMirwFBVV95cUxNYUx6Z21mY3lxSHFtaVBham5CdDA0SUUwUzJxSGdOMElrOEFmazZLa3RBTnhCTVNxN282RXI4X3RQZ3EwbC1BRVlWQ1FJX3JqSDdWRlJmeUF3MHNOWXFjMEF3OVVfWl81RlFLcWNJLUFYbDNHMUg3QU1CdGJwbU5UaFFDTm0zbUdKeTM2bDJHYVZWY01WZjliamprak00SU5veXl4SU1iWWlFTmNCMk13",
-    "CBMitAFBVV95cUxQbU9QcDBwb094Z1BBSl9QZkZsTlJxZXVjU2ZSdVZsaEo1MkZCcE94X2NDZzk4VzRKalVGd0FaV3JleXU0ZW9jUl9kX3dJMEcwZ0kwRVBTOU4yZ1o5c3BUSHdnc2RqUklwdVRMVjVSWklYVURFUjRKSkpSTWhSTkF4SE02Q0psYVd3bUFfNHlUblBSRXV2b2JNdjdQVWdUbUhBeDVaRXhoMWRrOS1mb3RQSG9CVzE"
+    "CBMitAFBVV95cUxQbU9QcDBwb094Z1BBSl9QZkZsTlJxZXVjU2ZSdVZsaEo1MkZCcE94X2NDZzk4VzRKalVGd0FaV3JleXU0ZW9jUl9kX3dJMEcwZ0kwRVBTOU4yZ1o5c3BUSHdnc2RqUklwdVRMVjVSWklYVURFUjRKSkpSTWhSTkF4SE02Q0psYVd3bUFfNHlUblBSRXV2b2JNdjdQVWdUbUhBeDVaRXhoMWRrOS1mb3RQSG9CVzE",
+    "CBMisgFBVV95cUxQd0xRVkt1UkNrU0NxNlBOU2MwUl9IbE8tMkM0c3BmYzFpaGtwcERFc3Q0R1BtN1p2dC1sLW1FbUZsSUxhTzNZNHRQVzJhQmxTNDRMaUVFeUVfamFYemV5bmVTLTN1Q0ZVbUxMd3BWSkJscmJYQ0lOZi1vZDRNR1BNUXJjU3dWMGpmVHB1Q1hzdzdLam80bWVFZDVZeGJOVW4xekZjYjZNVnpTWTUyRlNmT0tR"
   ],
   "daily": {
     "d": "2026-08-17",
