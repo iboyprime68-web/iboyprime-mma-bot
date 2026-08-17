@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "We welcome @INNERG_UFC back to the program! Join us LIVE! ▶️",
-      "ts": "2026-08-17T18:35:56+00:00"
-    },
-    {
-      "t": "Mackenzie Dern is candid about how she thinks her UFC 330 performance would have matched up with Zhang Weili: \"I don't think Zhang Weili has that goo…",
-      "ts": "2026-08-17T18:38:49+00:00"
-    },
-    {
       "t": "Adam Svensson Responds After Viral U.S. Open Qualifier Mistake Ufc 329 (99YXygIIZZ)",
       "ts": "2026-08-17T17:58:27+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "BMW Championship Picks: Scottie Scheffler & Adam Scott Stream of Golf",
       "ts": "2026-08-17T20:14:19+00:00"
+    },
+    {
+      "t": "Full Fight | Gregory Rodrigues vs Jack Hermansson",
+      "ts": "2026-08-17T20:17:41+00:00"
+    },
+    {
+      "t": "Donte Johnson Says 170 Is In Play After UFC 330 Referee Elbow Turns Into Cheesesteak Apology",
+      "ts": "2026-08-17T20:18:22+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Spinning Back Clique: Islam Makhachev, Mackenzie Dern defend UFC belts",
-      "url": "https://sports.yahoo.com/articles/spinning-back-clique-islam-makhachev-152019881.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-17T15:20:19+00:00"
-    },
-    {
-      "title": "Thank you, PHILLY‼️ Fans got incredible access to UFC330 events as part of the @BudLight Summer Series, including a beer garden and meet and greets…",
-      "url": "https://nitter.net/ufc/status/2089080001639403996#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T20:01:00+00:00"
-    },
     {
       "title": "Sean Shelby's Shoes: What's next for Ian Machado Garry after UFC330 loss? (via @MikeBohn) https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16…",
       "url": "https://nitter.net/MMAJunkie/status/2089086117018485074#m",
@@ -2105,6 +2091,20 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-17T20:14:19+00:00"
+    },
+    {
+      "title": "Full Fight Gregory Rodrigues vs Jack Hermansson",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBCWkN6azhFX1BJN3JEdUFubVBIM2c1aGhKTzI2YkRmTk9TbThfSjI0ZW5pcXgtb1RZd3VMVUFSZ3ZoVVZyNVdJ?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-17T20:17:41+00:00"
+    },
+    {
+      "title": "Donte Johnson Says 170 Is In Play After UFC 330 Referee Elbow Turns Into Cheesesteak Apology",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYnBMRGp4QzFibS1qUEY5aHdoRzdSdTFnZmFHaVhTaHluVGtINWM0VXBfY1h2emIwdENtWXlwNVJ2SW9sSDNld0xrWXJNaDQ1LXRIX25tWWZkUUR6enlWOFZfN0poSG5aUVdqTmZEb3JaSnZFRXZjVDBUSG5sMTdnYkZuX05pWXlJMWtR?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-17T20:18:22+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxOOFFtMjM2bWpieVdQWUJYU0d3bzdfX0FHQlNSak9Nb2RoTExCSmFZR3hMSXhldDdPNG5VY2NnSThpS3Y5bGN4UUU3dnp1dUhHR21nemprRUhNempkN3R1TTV4UzZTS00tVU94cVhVN3pTamJFT0E0U2tsLU1QQWV2N0p4dW44SXkyODRtX0VRdUtvcGpxSGhlMUxiMVpwdHRf",
-    "CBMitgFBVV95cUxQeXFoZEtHWEpUWnRUSUM1NUVNU1pBQ3hMa0pEUkdobnJmTXU5bk1RU21OMGRLWEltaWdaRWVVYnBic2I2dWpNNU1LYndZOHk0a1hjRkV0MHdzWjRHZ2o5enVNeUpieWtmdDFaQWRCZUJhVUFCSTFJVEp4dmlhRElHNlBfOFhoYVpmaERWTW1ZZWttN2MwSlBvZGZmVlNiaWk2eUhYX181TUtpUDdnUEdYSmtHVU52dw",
     "https://www.sherdog.com/news/news/UFC-330-results-Islam-Makhachev-defeats-Ian-Garry-breaks-UFC-record-202362",
     "CBMiogFBVV95cUxNMWZ3VUVCemhJMlFZVzBBOGRTLXE3WE9mRXotUDViRFZyUi1Vb2lpUVNETnJQLUVZRDZoR1RNU3ltaXU2T3RfYkZlaU5YT1hsNFBYZ2RlMHRENlJOTVo3cVhoT0N3TDZXdWFsTm4xNXZmaDNrUUh1ZVRJN2kxTjVqbjU2eDBNZU51b0I3Y0dBMG1fb1p6N05nU0dGWnBualdZTVE",
     "https://www.mmafighting.com/?p=505277",
@@ -3312,7 +3310,9 @@
     "CBMisAFBVV95cUxQS3FYRXJaUTIzV01GS3VoTWdOZTI1blRrRkZLNXQ5NDhnRHV3YWdSRkk4TV83Xy1Ja0NxY2xSYm9aVjZldUYxTHJvWWxjd19aR05nSUpBU3VmNGszNEtNYVNrWFVfeHNWVi1yeXdyZm50MUJQMmZvUXRZdFhJRFIxOGVsempOZGJiNTUtWV92OEhzdzh6NjRtLWVZVXhtd1NONGtWODlTeHByWl9wYTI3T9IBtgFBVV95cUxPN0ZjZEJxQVZHVi1KTkpsQ0pPMm41a0pMcnBTLXpMOXUzbnRJR1Jsdk9nOFctVVR0SUlCWlF5ZHlXeS03T1pLRW5JWXp3a2hsQmVzX2djNm8wMVc5S3lUQ1NMRy04NlRaWnhSZTNEY2IxOGpoSXF1MDZ5MFExR1ZvTFIxT0pIdXhXZEUtc0swTW9tRXd4aFNyaFFsOHlPZU81LW9IeUJVblNNRC03c1c5VjZGOTFkZw",
     "CBMiqAFBVV95cUxNR25NX05Da1lPVGtkY20xTktuT254WGhna1VnMGZWcVJ2aEtndVduaWh5eE01a1RpcUZUbzU0dlYwRmRVTHQ2MTEwSjJtcU1Uc2JUVktXYzNUY1B6WVpyZkRaSWhUWS1ZMnZCWUlqY3ZYS0lGNHZmZG9nRjFfMFFXd05TckdwZ0hTdkxZb04tRHI1LWhRLWNfLUJJVklxVGM1TTBQSWRJWS0",
     "CBMiggFBVV95cUxQM19lbzYtNTNpQUV1WDZuaFZNMllvWEpEWTFjVVZFa2lwRklpQUI5TFpKSjNHcnNyX1pCTVd5Yk5oRGVYOHNvMGZSWE00WG9yZE90dElmbXdUd3ZYLXZwY3dkUTQ5OUNicHFtbnNDRWlkTjZ3QW5UVGdZNzJCSXgzYlpR",
-    "CBMinwFBVV95cUxNcm5DQ0l6YUNzSDg1RXdDX3FkOUJxejJvXzRhelhlM2FYbUpIWVl2ZkJZYlJ4Sy1ObXF1OWY1YVNGSURLZ2J3aXltdDBFeDNoX0RMUFowY2N5NEV4MW50QXRjdkcyUVlZT3Q4bkRtRGpmem5yNGJkdklkVDdNcTJjc0lmQmRkd1A4ZnliOXBBNkw3MGh0bzhQWDN5d0ZPaTQ"
+    "CBMinwFBVV95cUxNcm5DQ0l6YUNzSDg1RXdDX3FkOUJxejJvXzRhelhlM2FYbUpIWVl2ZkJZYlJ4Sy1ObXF1OWY1YVNGSURLZ2J3aXltdDBFeDNoX0RMUFowY2N5NEV4MW50QXRjdkcyUVlZT3Q4bkRtRGpmem5yNGJkdklkVDdNcTJjc0lmQmRkd1A4ZnliOXBBNkw3MGh0bzhQWDN5d0ZPaTQ",
+    "CBMiR0FVX3lxTFBCWkN6azhFX1BJN3JEdUFubVBIM2c1aGhKTzI2YkRmTk9TbThfSjI0ZW5pcXgtb1RZd3VMVUFSZ3ZoVVZyNVdJ",
+    "CBMiiwFBVV95cUxPYnBMRGp4QzFibS1qUEY5aHdoRzdSdTFnZmFHaVhTaHluVGtINWM0VXBfY1h2emIwdENtWXlwNVJ2SW9sSDNld0xrWXJNaDQ1LXRIX25tWWZkUUR6enlWOFZfN0poSG5aUVdqTmZEb3JaSnZFRXZjVDBUSG5sMTdnYkZuX05pWXlJMWtR"
   ],
   "daily": {
     "d": "2026-08-17",
