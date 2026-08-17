@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=503000",
     "https://www.mmafighting.com/?p=503003",
     "https://www.mmafighting.com/?p=503015",
     "https://www.mmafighting.com/?p=503019",
@@ -1059,6 +1058,7 @@
     "https://www.sherdog.com/news/news/Longtime-UFC-veteran-encourages-Ilia-Topuria-to-make-quick-return-201547",
     "https://www.sherdog.com/news/news/Lucas-Fernando-didnt-come-to-UFC-330-to-be-just-another-fighter-202367",
     "https://www.sherdog.com/news/news/Lucas-Fernando-nearly-quit-MMA-before-breakthrough-UFC-330-victory-202383",
+    "https://www.sherdog.com/news/news/Mackenzie-Dern-names-three-potential-opponents-following-UFC-330-win-202391",
     "https://www.sherdog.com/news/news/Mackenzie-Dern-pushes-back-on-Ian-Garrys-comments-about-women-202338",
     "https://www.sherdog.com/news/news/Magomed-Wild-Chanco-Zaynukov-set-for-UFC-debut-in-Abu-Dhabi-201693",
     "https://www.sherdog.com/news/news/Manel-Kape-avenges-2017-loss-blasts-Kyoji-Horiguchi-in-UFC-Vegas-119-rematch-201576",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Elite company 🙌 @MAKHACHEVMMA is now the 5th UFC fighter to successfully defend two championship belts with his win at #UFC330!",
-      "ts": "2026-08-16T14:00:00+00:00"
-    },
     {
       "t": "Dana White: Ian Machado Garry's lack of 'killer instinct' cost him win https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/dana-white-ian-mach…",
       "ts": "2026-08-16T14:35:33+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "How Long Can 49ers Rely on Christian McCaffrey? Stream of National Football League",
       "ts": "2026-08-17T05:15:54+00:00"
+    },
+    {
+      "t": "Mackenzie Dern names three potential opponents following UFC 330 win",
+      "ts": "2026-08-17T05:02:15+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "'Bulletproof' Ian Machado Garry reacts to loss vs. Islam Makhachev at UFC 330",
-      "url": "https://sports.yahoo.com/articles/bulletproof-ian-machado-garry-reacts-054832994.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T05:48:32+00:00"
-    },
     {
       "title": "Watch Khabib’s live corner reaction as Islam Makhachev dropped Ian Machado Garry with a head kick",
       "url": "https://bloodyelbow.com/2026/08/16/watch-khabibs-live-corner-reaction-as-islam-makhachev-dropped-ian-machado-garry-with-a-head-kick/",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-17T05:15:54+00:00"
+    },
+    {
+      "title": "Mackenzie Dern names three potential opponents following UFC 330 win",
+      "url": "https://www.sherdog.com/news/news/Mackenzie-Dern-names-three-potential-opponents-following-UFC-330-win-202391",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-17T05:02:15+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2088787790725353941",
     "https://www.mmafighting.com/?p=504987",
     "2088788601471455568",
     "2088789233402355792",
@@ -3312,7 +3311,8 @@
     "CBMiwAFBVV95cUxPUmV4RnZtaGpuMWFHTUl0WGctZElpOVBuazZUc1hEXzBLOTl6NXFiNlNSNm5iVnF0MVhWbV9mY292T2RpVlJ4eVNFd3NING1YTjBsLXloOFgzY1prUXN4TGk0cFBjUkx4ek4yeTJvM0tLczVXOGdleVhCT0hGazB0SG1yRmhqeEkxai1vX19MVVJXTnZyS2s4T29pVnFlSzdpdFRMTHRuYW9ESV83YW9mSk9SSnlhdWc0eHJhNmFsUGQ",
     "CBMipAFBVV95cUxQd0RfUHRlSXIyWEtzYW1pb1NWMzg5d3A4ZkxxZFk3ZGlHdlFzWHFjaHdmMFBsTXdrU051cTY1UU1WbmxrSjRLYXFHLXpfUEN1ekhhUTA3UWs3TE9WZDh4eVJMTDhvTnAzcEQ2X3pKVEJVcEVLNEdJUS1FTHZVcy1rc1pLNV91RUd6WmFrQUdGaUtwSmhIOWJaekUyZXF6UEp6TVIzbg",
     "https://www.sherdog.com/news/news/Ian-Machado-Garry-sends-defiant-message-after-Islam-Makhachev-defeat-202389",
-    "CBMikgFBVV95cUxPaFZqYjNUaEtqbHF1cWxCbWJ3Xzd1MnVWZDF2eG1sUEdzQkpWT055bi1yQl9fYndVT1cwelBxaUsxRWQ0b1BWRXpKbk12S2o3N2J6VGNCZVIzRm81dEttOUhGdkFkVWtJaUs2QmRmLUJwb0h3QWtiRllSVzJSYXd6MjZxcHNnTWItckx1cE5NMHZIQQ"
+    "CBMikgFBVV95cUxPaFZqYjNUaEtqbHF1cWxCbWJ3Xzd1MnVWZDF2eG1sUEdzQkpWT055bi1yQl9fYndVT1cwelBxaUsxRWQ0b1BWRXpKbk12S2o3N2J6VGNCZVIzRm81dEttOUhGdkFkVWtJaUs2QmRmLUJwb0h3QWtiRllSVzJSYXd6MjZxcHNnTWItckx1cE5NMHZIQQ",
+    "https://www.sherdog.com/news/news/Mackenzie-Dern-names-three-potential-opponents-following-UFC-330-win-202391"
   ],
   "daily": {
     "d": "2026-08-17",
