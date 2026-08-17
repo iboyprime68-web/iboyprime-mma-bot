@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Power Rankings following UFC 330 in Philadelphia",
-      "ts": "2026-08-17T14:21:00+00:00"
-    },
-    {
       "t": "Daniel Cormier details what stood out about Mackenzie Dern's UFC 330 win",
       "ts": "2026-08-17T14:30:39+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "MMA pound-for-pound rankings (August 2026): Can anyone beat Islam Makhachev?",
       "ts": "2026-08-17T18:46:55+00:00"
+    },
+    {
+      "t": "Dustin Stoltzfus Shocks the World With Comeback Submission at UFC 330",
+      "ts": "2026-08-17T18:46:39+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Mackenzie Dern has some harsh criticism for her own performance at UFC 330 and says that level won’t cut it against other opponents: \"I'm not happy w…",
-      "url": "https://nitter.net/arielhelwani/status/2089415063711121416#m",
-      "source": "Ariel Helwani",
-      "cat": "ufc",
-      "ts": "2026-08-17T18:12:25+00:00"
-    },
     {
       "title": "Din Thomas apologizes to Gillian Robertson for his ‘despicable’ decision to retire at UFC 330 https://www.mmafighting.com/ufc/505572/din-thomas-apolo…",
       "url": "https://nitter.net/MMAFighting/status/2089413288383950874#m",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports UK",
       "cat": "ufc",
       "ts": "2026-08-17T18:46:55+00:00"
+    },
+    {
+      "title": "Dustin Stoltzfus Shocks the World With Comeback Submission at UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR19udHJvX3ZpUU9mR0o4Ni1BTmphaExTTTdhS0xpaEdwcEdzbUlCcDdIdHJhNUNQLU1MLW1WNTlPZ2FxekVWS2xOblVzY0g2RGFqd3NjZWRRYkVkT0FPVlJpY3N1T29EcEs1OUFwQ1BZcHFQcDczcUtZcmc2XzVSbFBPUXoweDJWMGY1YzU5eHI5VHdva2Vnc0hqS01vR2RGM1FOZ0dBM1pfc3FwS3d6Y1RqWQ?oc=5",
+      "source": "The Body Lock",
+      "cat": "ufc",
+      "ts": "2026-08-17T18:46:39+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     10
   ],
   "yt_eval": [
-    "CBMimAFBVV95cUxPT3ZvcldiZTJTek5uUWFiTXZ1UVVJR0ZrQWJyWlBBOWMxOUpPei1iNENPWmdwX3g0Y1dJSDhSSnlzbmEwMXg4SU9GbE5USm9xNGJZOUM3aTVWbUpKZThaQVF2bE1mdzJaRjZkRE1lbXpkSDdzamdRQTZDOXl6VXZJdDFadjZUekxJV1V4TmlBbnVDSlVfZWlvQw",
     "CBMimAFBVV95cUxPUllrbHlUU05nZmQ0MjlvWTdOWGNWTFZwdmhGOHZoRF90M3daUWxuSmx0Q1JfZjhZVVlJSDRjZmxSNS1VNzZoelZRbklwaDQ1T2ZHRDRNTXZTc3pCVmZhNUVvZWR2SDUxdnd6aUdhcnR6R2VCWkJzU1FuOXo3MGpNTXl3eE93N0tzbnJ0WVdVVTI2NWlnbEY2Mw",
     "CBMiUEFVX3lxTFBZdzJoeUl4WWJsblAyNV9mZGt3VkF3NGdzLTlwOUNkWkVYNnpLeUJOdmNLVXdWWldxRHRJSmVpOFVYa2NkSlU3aVRXSlQzeXNK",
     "CBMiigJBVV95cUxORkNsZG15Z2pmQjluOEJZb0ExZGR2WWF3a0NDbGJueEV2YUotcjIwa0pJaDY2YkJyVXVlSmhlNVlxOVA2WlhFaWFMMUlCc09SOHpUZllUclVVTzVMQzNBVTBORDQ2NmFOblIwN2ZqQ0R3Z3Q3cHBZYnc4TWxfVEFoXzd4Y1NIb1E1QWRfOC1FNk96UWNZVUIyV3VnV1Q5TFBWNVExS09VbDVFelpSZW1sUlVGSGw2a3VNX05GOS1VcFd6bzlOdkJHUVpvZ240YzQ0OU5RY0I3NmV1MXZVMG5NMkI1b1BQYnVrdlh2YWxMMDhhQWZNR0dYTTlvcnRTdk5CS0tPbGJZSEFsQQ",
@@ -3312,7 +3311,8 @@
     "2089417394129453113",
     "2089419588039749906",
     "2089419801357914400",
-    "CBMi2wFBVV95cUxQa2JrNUxZOGxBblFyUlJrVHh1NjJ2amRJM2VxMElZZXUzN0NoRzFXY2luX2g0UVdMSHRxbktXX203clVfY3dqZzNzVVJ1eDNxcGgwbGNSWjNJXzlTTzh0MURlZC1EVXB1eWVFcnNQYW9Dc095cEVrQU9hUkRXdkdicjRpT09iZ1BWRVpEd3BZM1BIanRmZTVrRlRQYmVFUS03TGdtZFZoT0tTUjdwLU1TdlhqSUxuVG5aQmhKMVpKc3YwRkhDcHNmYmRoUnBJaUdlMDZSNmVPclh3ZUE"
+    "CBMi2wFBVV95cUxQa2JrNUxZOGxBblFyUlJrVHh1NjJ2amRJM2VxMElZZXUzN0NoRzFXY2luX2g0UVdMSHRxbktXX203clVfY3dqZzNzVVJ1eDNxcGgwbGNSWjNJXzlTTzh0MURlZC1EVXB1eWVFcnNQYW9Dc095cEVrQU9hUkRXdkdicjRpT09iZ1BWRVpEd3BZM1BIanRmZTVrRlRQYmVFUS03TGdtZFZoT0tTUjdwLU1TdlhqSUxuVG5aQmhKMVpKc3YwRkhDcHNmYmRoUnBJaUdlMDZSNmVPclh3ZUE",
+    "CBMiswFBVV95cUxPR19udHJvX3ZpUU9mR0o4Ni1BTmphaExTTTdhS0xpaEdwcEdzbUlCcDdIdHJhNUNQLU1MLW1WNTlPZ2FxekVWS2xOblVzY0g2RGFqd3NjZWRRYkVkT0FPVlJpY3N1T29EcEs1OUFwQ1BZcHFQcDczcUtZcmc2XzVSbFBPUXoweDJWMGY1YzU5eHI5VHdva2Vnc0hqS01vR2RGM1FOZ0dBM1pfc3FwS3d6Y1RqWQ"
   ],
   "daily": {
     "d": "2026-08-17",
