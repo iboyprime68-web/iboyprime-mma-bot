@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Neil Magny is hot on the heels of Jim Miller's all-time #UFC win record after his performance at #UFC330: \"I think Father Time is working in my favor…",
-      "ts": "2026-08-16T23:15:00+00:00"
-    },
-    {
       "t": "#UFC330's Lucas Fernando admits his wife talked him out of walking away from MMA after his failed DWCS loss: \"She believed in me, she supported me, a…",
       "ts": "2026-08-16T23:45:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White Says UFC 330 Broke Philadelphia Arena Gate Record By $2 Million After Makhachev-Garry Sellout",
       "ts": "2026-08-17T06:04:18+00:00"
+    },
+    {
+      "t": "Dana White and Khabib Debate: How Much Does the Former Champion Weigh Now?",
+      "ts": "2026-08-17T05:56:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Mackenzie Dern’s UFC 330 win sparks promise from 10-1 contender to ‘save the strawweight division’",
-      "url": "https://bloodyelbow.com/2026/08/16/mackenzie-derns-ufc-330-win-sparks-promise-from-10-1-contender-to-save-the-strawweight-division/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-16T13:00:00+00:00"
-    },
     {
       "title": "Dana White stopped face-off after Islam Makhachev’s UFC 330 win fearing another Dagestan team brawl",
       "url": "https://bloodyelbow.com/2026/08/16/dana-white-stopped-face-off-after-islam-makhachevs-ufc-330-win-fearing-another-dagestan-team-brawl/",
@@ -2105,6 +2098,13 @@
       "source": "middleeasy.com",
       "cat": "ufc",
       "ts": "2026-08-17T06:04:18+00:00"
+    },
+    {
+      "title": "Dana White and Khabib Debate: How Much Does the Former Champion Weigh Now?",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV0lkYTlGd0l4Y2MzYTB3ZXp1TmtiOThTbE5pOXRUNlRHVEx5X0dELWgyeFY4cW5mTWl3QXBSMWJsUDJ3cEF6VmJ5S0djOVlCWmg4OUNjMEdXcTFJSEZvT3p6aV84azh3SkR4d1dXRk5TbTktVk0tOFNqbVh3ZlVaNk1MOU0tM1l0Sjl0ZjFfSnVBLTdFWUwtTXhib1ZZT3VOT05MQU9tQUxvRTZlUVVwUkdsOUhfeHhHVjBZ?oc=5",
+      "source": "Zamin.uz",
+      "cat": "ufc",
+      "ts": "2026-08-17T05:56:00+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "b847ee75-f9d1-3857-9b60-11acdcb1d261",
     "CBMifkFVX3lxTE0xVFVxMWdhZV9wZDgtYlpxeWV2WU5RMzZzUGcwTkdUV3NJeHpuV0Q5OU11ZXljZU5QU3IzdDhOeW45ekM5eTVReDZSRXl0d3piWkk0OWg2bVVZcHhlc1RhV0dKdFQzOF9LMC1ZVkd4ek9qaWh2Z1FER3NibXlOUQ",
     "CBMivAFBVV95cUxOdFdNTWV1akhJUWxqWVpXWE9fNEtUakhUMExRNWFyeUY4YzJ4c0ZvZTBWblcxRVRsN0p2T0RwZFVGUkJxRXU0UkxaV2NWcmVvZklTdUJLdGZ3ajV0NHM3UDZLVHNzc2hlQ05YdllRNDBBRTBPSkdJRHJLVzdsMm9YdFN0OWJhd1hZWEFWQWx2QUszWnAwbVdNTUNnQjJrZUxaNXlXZ29Dd3dvZmhoTm5MT3FkQ1p6cEtxbXFuZw",
     "CBMigAFBVV95cUxOR3J1YzUxSU5uLVdYTXNJdmRtcEg3SXVzS3ZrX1BPSkJfMml0UXhhY0tjWTdJUmZnUVNXT2FPYWVVaVI1ODV3dnRJMUU3RFhPUE85NE0yRHFEbTlKRFRuU29OYTlBWTlCa2lCVFhNX0dDWkdIWGttRmMya3kyd0p5Zg",
@@ -3312,7 +3311,8 @@
     "CBMif0FVX3lxTE5HelgxekkweHFITDRzb0ZhSEk3S2NmR2lMaEhMdGQ2ajFfMm9rR3hKcVZkbE5mTlNqbFFMNkxNaFZhbjFsQUs4bW1NbkdHODZYbUt1SE8yekJaWUxJaW44MDduLWxDck1PMHAxMVZER2NWbjZjRS1NZU13WE4xN28",
     "CBMiuAFBVV95cUxPNGNDRXJVR1RqSTFGYzZVb2I2eUVfeTM2SzlaNWVhTzlOSUw4UmZQdkVGQmFYNkpLb3JQelUtdS14b0M1NjByUUREME1Bd3l6dF9wbUNqN0R3UWk2alNLblV0QWV2aWk2S0NnXzZoM2h2OFI3VjhjajEyeDFwNGNsUklXNUhJNlpxR3dkSnpuTGpQeld3dUJIQ09mN2F0NmJZM2RzTUtWR2Q3ZU82cUVNNUVlTTdjS2NC",
     "CBMi0wFBVV95cUxORnBvTVZmak1FVXVTUElpTmdGa1VvdWhQUVpWZ3BoNkpyc3BiTUNCUlViM2RmM3RWZTc3RXRZb2gtdDFPZmRqYjQxYVJyYUh6ZHV4bmxTczNCLVpGQ2dvTm9BSUt5UFFJYUxzX2RNM1o5OEp6TDhvdHpoT0IxS0poSGJRQVhSVmZhYUd2R2MyUE9oT1Jfa0R5V255bU5pdHM2QXRmT21zXzFjSzZ1ZlpaWUV5VlRUUERpNE42WF9kNVRZU3VfTURXRWhaTnBnQnZBR1Fr",
-    "CBMiggFBVV95cUxQS2dBd3lYajVaZG9PdUJLdVJaVGhDN3dMM0pGVWJib05UMWZ1RWd2N214M3VDNFhvWEQ2aWdQTHJOdUlxSlNDVk0xekhHUnZFSlZZU3ZBYnJtU01oX2hKNTRXYzhleXA2OUUwdm9taVJiRHh4T3JZQVJERldFNHpqeXF3"
+    "CBMiggFBVV95cUxQS2dBd3lYajVaZG9PdUJLdVJaVGhDN3dMM0pGVWJib05UMWZ1RWd2N214M3VDNFhvWEQ2aWdQTHJOdUlxSlNDVk0xekhHUnZFSlZZU3ZBYnJtU01oX2hKNTRXYzhleXA2OUUwdm9taVJiRHh4T3JZQVJERldFNHpqeXF3",
+    "CBMiuwFBVV95cUxNV0lkYTlGd0l4Y2MzYTB3ZXp1TmtiOThTbE5pOXRUNlRHVEx5X0dELWgyeFY4cW5mTWl3QXBSMWJsUDJ3cEF6VmJ5S0djOVlCWmg4OUNjMEdXcTFJSEZvT3p6aV84azh3SkR4d1dXRk5TbTktVk0tOFNqbVh3ZlVaNk1MOU0tM1l0Sjl0ZjFfSnVBLTdFWUwtTXhib1ZZT3VOT05MQU9tQUxvRTZlUVVwUkdsOUhfeHhHVjBZ"
   ],
   "daily": {
     "d": "2026-08-17",
