@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White: Ian Machado Garry's lack of 'killer instinct' cost him win https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/dana-white-ian-mach…",
-      "ts": "2026-08-16T14:35:33+00:00"
-    },
-    {
       "t": "Mackenzie Dern doesn’t feel she needs to beat Zhang Weili to cement championship status after #UFC330: \"I just think I solidified myself even more as…",
       "ts": "2026-08-16T15:18:40+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Iran working to finalize Hormuz agreement with Oman, and other news from the Middle East",
       "ts": "2026-08-17T09:37:55+00:00"
+    },
+    {
+      "t": "Islam Makhachev Reveals What Khabib Told Him Before Final Round of UFC 330 Fight vs Ian Machado Garry",
+      "ts": "2026-08-17T09:36:59+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White debuts AI assistant during UFC 330 post-fight press conference to help with continuous problem",
-      "url": "https://bloodyelbow.com/2026/08/16/dana-white-debuts-ai-assistant-during-ufc-330-post-fight-press-conference-to-help-with-continuous-problem/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-16T23:00:00+00:00"
-    },
     {
       "title": "Islam Makhachev identifies two things he must fix at welterweight in honest admission after UFC 330",
       "url": "https://bloodyelbow.com/2026/08/16/islam-makhachev-identifies-two-things-he-must-fix-at-welterweight-in-honest-admission-after-ufc-330/",
@@ -2105,6 +2098,13 @@
       "source": "clickorlando.com",
       "cat": "ufc",
       "ts": "2026-08-17T09:37:55+00:00"
+    },
+    {
+      "title": "Islam Makhachev Reveals What Khabib Told Him Before Final Round of UFC 330 Fight vs Ian Machado Garry",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZXl3X2V3Y0IzRXpabHBwXzc3ZlVSdVhHY2xoRzdUWjcxLXgtd2t1eHdidzNRTzM3c2o1ZWlzeElKOC1fY01TeS1EcWNHb1FlNTRycFh6d2pEakx0RGowcW9wS1RqUHZSclM2Nm82d3FJZm1fTVQ3NXFiNzh5VERELWNFekNKU040aVVuRHNha3FUMDZRZ0s0UVJKZ2R6b1JhRjdFSGJVMF9fTk12cFpR?oc=5",
+      "source": "GiveMeSport",
+      "cat": "ufc",
+      "ts": "2026-08-17T09:36:59+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2088807165087637952",
     "2088808064392798699",
     "2088808624709611540",
     "2088809810930081939",
@@ -3312,7 +3311,8 @@
     "CBMiW0FVX3lxTE5fWW00TlZKUnhFUFY1ai1FQVVfaEVWdXQtUF9pMHNnOTRGbjBKSDlzYVFOVUNxOWhSWG1nbnJWa09Ja1ZTdVFBd0xhUGlpM0kzUFZMaUx2eHBEbmM",
     "CBMiowFBVV95cUxOYzFVY0szZ1VJdFM0LWczX21vMzI4TDRud3hOUi1VOEtaREVLSXZ4UFdxSC1JVjdRWjlleGREd3FlRTZHYVJHOXVGZlg5MkVTZ29YSDA3bTRJLWM2cmxTVE5wSHpfTlhUZ2F3T2dVbHI0d3FhaUtjc0k1Qmg5ekpTQmVuRVBqcU9Lbl9uUzdrMlJfOUdXZERxdHI0cTI4dWtPdWVV0gGjAUFVX3lxTE5jMVVjSzNnVUl0UzQtZzNfbW8zMjhMNG53eE5SLVU4S1pERUtJdnhQV3FILUlWN1FaOWV4ZER3cWVFNkdhUkc5dUZmWDkyRVNnb1hIMDdtNEktYzZybFNUTnBIel9OWFRnYXdPZ1VscjR3cWFpS2NzSTVCaDl6SlNCZW5FUGpxT0tuX25TN2syUl85R1dkRHF0cjRxMjh1a091ZVU",
     "CBMiowFBVV95cUxNM1lVVWdPamZ0X0hQRUtodTRPMWlESXBYN2tnSFdWdW1wZlluUG1iVU5zRDA2Z3VZb1dDQ3FVOEJOS3k2c1BzYmsxc1BDcTg3RFhUWVVqd2I4VGVWd0drSHNoWWh0Mi1ySFBBdDVJVVJxVUl6T2dlWGMtMDZ5Y2J2dFcyNm1uYkYycURTZy1EV1Z5MFVuWE1xNWkwcHNJdTR0aVJR",
-    "CBMi1gFBVV95cUxOMHhvY0pOb2V0MEJ0Vk5DcnVsQWItZElhZFoyb3ZqX1AxVXQ2VzJlOWUzejk3dXFnS05POV9UOGloWWVNb3FMWFozamF3eHdIa3MwdHFJZk9uNFg2eUpzVkgwT3lVR2dkcGtxd3hRTC1OWDRfR08yMHNoRUdETHNVdTRuM0xST2xPdmFQRkxOcFd6R3V4aUYxVTlCWjJtSy16SG5jR0hHSDZkWHV5MEpRUFhUdWpnVDluZXM3ejlZTVQ0T1lJQi1zcElqd3R5VkhNOTVCX0ln"
+    "CBMi1gFBVV95cUxOMHhvY0pOb2V0MEJ0Vk5DcnVsQWItZElhZFoyb3ZqX1AxVXQ2VzJlOWUzejk3dXFnS05POV9UOGloWWVNb3FMWFozamF3eHdIa3MwdHFJZk9uNFg2eUpzVkgwT3lVR2dkcGtxd3hRTC1OWDRfR08yMHNoRUdETHNVdTRuM0xST2xPdmFQRkxOcFd6R3V4aUYxVTlCWjJtSy16SG5jR0hHSDZkWHV5MEpRUFhUdWpnVDluZXM3ejlZTVQ0T1lJQi1zcElqd3R5VkhNOTVCX0ln",
+    "CBMirwFBVV95cUxQZXl3X2V3Y0IzRXpabHBwXzc3ZlVSdVhHY2xoRzdUWjcxLXgtd2t1eHdidzNRTzM3c2o1ZWlzeElKOC1fY01TeS1EcWNHb1FlNTRycFh6d2pEakx0RGowcW9wS1RqUHZSclM2Nm82d3FJZm1fTVQ3NXFiNzh5VERELWNFekNKU040aVVuRHNha3FUMDZRZ0s0UVJKZ2R6b1JhRjdFSGJVMF9fTk12cFpR"
   ],
   "daily": {
     "d": "2026-08-17",
