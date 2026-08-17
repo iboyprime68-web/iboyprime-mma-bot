@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 330 highlights video, poll: Vote for best knockout, submission in Philly https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc-330-video…",
-      "ts": "2026-08-16T15:25:16+00:00"
-    },
-    {
-      "t": "Ian Garry releases statement after loss to Islam Makhachev at #UFC330 📰 https://mma-fighting.visitlink.me/jpsafT",
-      "ts": "2026-08-16T15:30:44+00:00"
-    },
-    {
       "t": "THE ERA CONTINUES @MackenzieDern | #UFC330",
       "ts": "2026-08-16T16:00:01+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Makhachev Breaks Anderson Silva’s Record With 17th Straight UFC Victory in Philadelphia",
       "ts": "2026-08-17T05:05:07+00:00"
+    },
+    {
+      "t": "Denzel Boston Camp Montage Stream of National Football League",
+      "ts": "2026-08-17T04:36:57+00:00"
+    },
+    {
+      "t": "UFC champion Islam Makhachev expresses wish to play kok-boru",
+      "ts": "2026-08-17T05:06:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Herb Dean praised for Edson Barboza UFC 330 stoppage after months of criticism led by Alex Pereira",
-      "url": "https://bloodyelbow.com/2026/08/16/herb-dean-praised-for-edson-barboza-ufc-330-stoppage-after-months-of-criticism-led-by-alex-pereira/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-16T18:00:00+00:00"
-    },
-    {
-      "title": "Khabib Nurmagomedov says Islam Makhachev has ‘reached the pinnacle’ as he pays homage to teammate after UFC 330",
-      "url": "https://bloodyelbow.com/2026/08/16/khabib-nurmagomedov-says-islam-makhachev-has-reached-the-pinnacle-as-he-pays-homage-to-teammate-after-ufc-330/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-16T19:00:00+00:00"
-    },
     {
       "title": "Dana White debuts AI assistant during UFC 330 post-fight press conference to help with continuous problem",
       "url": "https://bloodyelbow.com/2026/08/16/dana-white-debuts-ai-assistant-during-ufc-330-post-fight-press-conference-to-help-with-continuous-problem/",
@@ -2105,6 +2091,20 @@
       "source": "The Sentinel - of this Land, for its People",
       "cat": "ufc",
       "ts": "2026-08-17T05:05:07+00:00"
+    },
+    {
+      "title": "Denzel Boston Camp Montage Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5kMlZCX3BCSzFNZU56WW5hZG9kb29UVEZCWmVweHE5cTh5Z3JKYnR3ai1KaUZxTUNiVnhOQXBfOFdtZU5Oa05iVTFYYU1uSlhVRXdrcy1peUZFSUZlNFNueTR3V2gxbzExbWxXbmhPVFB1S3Z4ZHJZ?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-17T04:36:57+00:00"
+    },
+    {
+      "title": "UFC champion Islam Makhachev expresses wish to play kok-boru",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZjZKaTJOOW13Q25MQUlOQVk4X1ZlZV84QmNURjZkblJ1MFZjd2pjVGxuX1cxNjdDeU5zVVNnalViUElkMG9jNzk3NVdZa2ptV0pQUGlpY3pIX2REVVlDeTJlQXdpMHk1X0RJX2tBQlgtXzBnc09FOWNXdndQS1JKeTVTZ3dxeFZtSEF5MEFhWDJWVU5nQ1QySHVB?oc=5",
+      "source": "AKIpress News Agency",
+      "cat": "ufc",
+      "ts": "2026-08-17T05:06:00+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2088790814864363952",
     "2088793121585041722",
     "2088793284671852958",
     "2088793325537243357",
@@ -3312,7 +3311,8 @@
     "CBMiqwFBVV95cUxQUk4xSnJMd1ZueGFFYWM5WU1MZUtadkMtc1owWmtSSnVUSXBCZUl1SThsTTVoTk9YMWY0RWlER0hDZTF5VVNNSVdEZnV4RFpiNUxleDlOcVQ2X05EejFGX3dicHJrbDIzZWVLbjB0VC1HbEI1MEs2ZnMtTmN1eDhCSVJGMlhnTHFLUEUxVWNJVHZpaXpKSW9XTGVwY01pMG9YV2ttTjFva0hfYkU",
     "CBMiW0FVX3lxTFBPc3R0RXFsdDk1ckI5TkJua05ZaVBaTEFLZW1oOV9VTWI5cmRIVHIya3UxaWhUSE5HNXhtNEx4RUptN3ZwSGQ3RmphalVKeUdwN19naHpCbzdhdWM",
     "CBMifkFVX3lxTE8wZXhsUVZra0FQT1lMQWFkY1FzOVFaQkRYVUFQWm1OV2xHWjdCOVlzSlhYUFNwWE4yVHZ2RFN6aFc4ZTNoMHRENUgySEozcjNmRE9MUjM3RW11cklxb1p6RUlLVVhXR1VocDNwOHRvS3owc2NuZVdSeDN5ajRLZw",
-    "CBMixwFBVV95cUxPNGlRa2o4MnN5OEo2eWU5c0NIV2ZKR0NsaklPVnpxNFowUEdZejlkX09NdDAtcXZ2aWVCM1oyVW9QbV9QMENkZkFqeW9iQ29nUnhpaGIxS2FxcElfb2MwcVlhV3JBUklnX1YzLWdWWlFBT1NxVGJrNV84VXFLTEdBeldlQU5SRk5OVGt5aEtlWk1UeUpWTU5PWEtvMlJiNGQ4N25peHdtTExNb0o5UWI2T0YyRDlneXp1Xzg2VDFnMC1nekMwd0kw0gHUAUFVX3lxTE5aZXFib3g4NTNrYkhCWE1sUjdXdzRQbmRsUklkeThkSTZuVU5wenRpUjZENVIzeEZhYTRDWVFHaUtaMGJSNTlXVHF4R001bUl1VVdnQTNtcFF1cTYyNXVzbmRFNFgwRjI2ZEFZeFFlLWZaSnZmaklSU25RZmJ4c3EzbTN5aVAwLTFQWjM3Sm5Lb3hWZVhBeFhfeWRSOVBkdXRxMUZnb2FzbWxQZHVlTGtsWFF6OVAzTmxDaFAyT2xaM0kwcHN4OUktZmNfSUhEeEw2YjRn"
+    "CBMixwFBVV95cUxPNGlRa2o4MnN5OEo2eWU5c0NIV2ZKR0NsaklPVnpxNFowUEdZejlkX09NdDAtcXZ2aWVCM1oyVW9QbV9QMENkZkFqeW9iQ29nUnhpaGIxS2FxcElfb2MwcVlhV3JBUklnX1YzLWdWWlFBT1NxVGJrNV84VXFLTEdBeldlQU5SRk5OVGt5aEtlWk1UeUpWTU5PWEtvMlJiNGQ4N25peHdtTExNb0o5UWI2T0YyRDlneXp1Xzg2VDFnMC1nekMwd0kw0gHUAUFVX3lxTE5aZXFib3g4NTNrYkhCWE1sUjdXdzRQbmRsUklkeThkSTZuVU5wenRpUjZENVIzeEZhYTRDWVFHaUtaMGJSNTlXVHF4R001bUl1VVdnQTNtcFF1cTYyNXVzbmRFNFgwRjI2ZEFZeFFlLWZaSnZmaklSU25RZmJ4c3EzbTN5aVAwLTFQWjM3Sm5Lb3hWZVhBeFhfeWRSOVBkdXRxMUZnb2FzbWxQZHVlTGtsWFF6OVAzTmxDaFAyT2xaM0kwcHN4OUktZmNfSUhEeEw2YjRn",
+    "CBMimgFBVV95cUxPZjZKaTJOOW13Q25MQUlOQVk4X1ZlZV84QmNURjZkblJ1MFZjd2pjVGxuX1cxNjdDeU5zVVNnalViUElkMG9jNzk3NVdZa2ptV0pQUGlpY3pIX2REVVlDeTJlQXdpMHk1X0RJX2tBQlgtXzBnc09FOWNXdndQS1JKeTVTZ3dxeFZtSEF5MEFhWDJWVU5nQ1QySHVB"
   ],
   "daily": {
     "d": "2026-08-17",
