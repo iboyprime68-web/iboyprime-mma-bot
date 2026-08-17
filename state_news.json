@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "What drove UFC’s Dana White ‘f–king crazy’ about Ian Machado Garry’s loss to Islam Makhachev",
-      "ts": "2026-08-16T22:03:52+00:00"
-    },
-    {
       "t": "Din Thomas retires from cornering fighters after UFC 330 loss",
       "ts": "2026-08-16T22:22:12+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Conor McGregor offers two-word support message to Ian Machado Garry after UFC 330 loss",
       "ts": "2026-08-17T15:57:42+00:00"
+    },
+    {
+      "t": "Judge allows former UFC fighter from Nebraska accused in domestic violence incident to travel out of the country",
+      "ts": "2026-08-17T15:53:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Nintendo Player Select: Paige Bueckers and the Bummed Wings Stream of WNBA",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM29jMHZUWVJqMFhEZUpBUHhNaGVPbnFoTVJIWnVmOGtZYnFNXzhWOFY2ekdpWTNGUldwWEUwWmFVdkJjbnMwNTh0MHF5MExLV3NCOE1jZVNQcXhlSkFQYzNEZjNfaGpMVml0M0V1b3JhcnhsZm4yeHFLWU0zX3pTZk9tdWsyQzRpZ2gtSHdfcElGalUtLU1TR3FrZHBrQkxhODZJ?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-17T15:02:10+00:00"
-    },
     {
       "title": "Wings Look For Bounce Back Against Surging Valkyries Stream of WNBA",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONXJUSnplMUJBVk5TVzA2NWVVaDEtbnZ2U0RyQi0td2EyeGw5Z3hEeUtfRElvWWZzdXJ4OXY5RGpoZnhZQjd1TllMWUhSMFd3Nmhmbjd3WWZ4dXFmeXAzNW1BZTd5eVhXTktWVWtnUkJ0dmdCTEQ3SEN4cHBCYW5Zc0lBUUhxQURTdkhHY3R2ZHdjUHFCTTk3WE9pOA?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-17T15:57:42+00:00"
+    },
+    {
+      "title": "Judge allows former UFC fighter from Nebraska accused in domestic violence incident to travel out of the country",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS2liQjQtTlJvcVY4MW1vcHNmb3BVRzlyTThBeGozZV9ITTBfcDVVWFVsV29WbFZUMVctQVVuOEkxOVNldy1oZEllaVd3SzVGUlNzTmpWYVNzbHIxejBxSUdQbXVMR0VUWmg1TmQ4SzF6V2VTcFF3WkZzRWJrUWdsT295ZTY0R1dPc0Z2ODdCVQ?oc=5",
+      "source": "KETV",
+      "cat": "ufc",
+      "ts": "2026-08-17T15:53:00+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "2088830150012010531",
     "CBMiugFBVV95cUxOa05vaXpaYmpzMDZqUEhheUtRb3JlU3VkcFpvNXlhZEp1UENrN01KWUlIakhMeXFXUi1qek15V3VEYV8wdm9TQlR2dU5lQXRfZ0JXZjZqbmVkOERxdF95Ny1naDRMMG9wSkxyVGN5QTBPRTdhN3Z3cGVOejJBd01TendDTWFydzNUMmpTZkhhNlozenhYa1h5MGZ3SUhuRFJQOTZITG85NGNSMkR4c0tjTUJVeXozUGZvcmc",
     "CBMisgFBVV95cUxPWDRRVTcyaGs5eWZaSWs0ZUNyYmw2UFdsajdBVU01cFdKTHJzTERFampZMnV0a1RFUlMwcUNuMDU4azJLczFzMUpDQXdOckJBbDVDUkNfOTRuUzZpNlN6Q1lPZlVDRlQ0TF9hemc0VDk2bGZYdDZGbF9fSURHUWk1YjZ3NENCbGJvU1cta2VQVUhQUUlRTmd3UTdrWWdJc3VQd09uTk9hWUpJQ0JkM3IwLXln",
     "CBMinwFBVV95cUxNZEEzQnlJRTdyVVljRlh3NXRqcWdHR3BOb2UtNmtlWUU3eEphWjRkY2toMkUycTJTRTUzblRXSmhWMHF4ZjkwS2VRRm5IbVhUNGx3TDZJblZrLVlrUWwzdjBUODB5aU1BYW9KMHpPQVpsUFVVY25vdjNQWmtmMU45WVRaSm9icTMxTUZYakFLczduQ3U3ZXNYRE1jNUROeFU",
@@ -3312,7 +3311,8 @@
     "CBMihAFBVV95cUxQTkcyWk1vQXpla3RmdTRNeDBBaXVyWld1ZjVWVm1qOGYzd1Z2enp0NFNuV2tXYWtfTy1xcXVaVVo5V0MwdVpHb0tURGYxS041ZGV1Ty1WcUFyYy1XSE5vWmlQaEJuS0FsM0xZcW43STRKV09uMzJQQWhqRXFodFJrZks3eU8",
     "2089373080233689277",
     "CBMijwFBVV95cUxQVjh0dFh4VDBYc1d1Tnp0dDNHLXBFbXktU1NhTDNBMUVxekRqbG5CdTI3TlJrTXVYbHNFLUlSX0pwMkJzWXNPOHVudldacEhpTDc0eXl5VWFkNjc0bmxRcmUxSHgzaC00SW1MWGtDQmNBOWhPdE9NS1lhaGxiYTh0UGF5ZU42eDlVd283c0Z5cw",
-    "https://bloodyelbow.com/?p=327440"
+    "https://bloodyelbow.com/?p=327440",
+    "CBMijwFBVV95cUxPS2liQjQtTlJvcVY4MW1vcHNmb3BVRzlyTThBeGozZV9ITTBfcDVVWFVsV29WbFZUMVctQVVuOEkxOVNldy1oZEllaVd3SzVGUlNzTmpWYVNzbHIxejBxSUdQbXVMR0VUWmg1TmQ4SzF6V2VTcFF3WkZzRWJrUWdsT295ZTY0R1dPc0Z2ODdCVQ"
   ],
   "daily": {
     "d": "2026-08-17",
