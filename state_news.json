@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=503034",
     "https://www.mmafighting.com/?p=503056",
     "https://www.mmafighting.com/?p=503152",
     "https://www.mmafighting.com/?p=503172",
@@ -939,6 +938,7 @@
     "https://www.sherdog.com/news/news/Daniel-Cormier-at-last-recalls-why-Brock-Lesnar-superfight-collapsed-201729",
     "https://www.sherdog.com/news/news/Daniel-Cormier-denies-exposing-chat-with-Eric-Trump-I-got-hacked-201543",
     "https://www.sherdog.com/news/news/Daniel-Cormier-reveals-UFC-White-House-salary-of-Alex-Pereira-201502",
+    "https://www.sherdog.com/news/news/Daniel-Cormier-tells-Usman-Nurmagomedov-its-time-for-legacy-202396",
     "https://www.sherdog.com/news/news/Daniel-Rodriguez-originally-hoped-to-face-Leon-Edwards-in-UFC-return-201699",
     "https://www.sherdog.com/news/news/Darren-Till-slams-UFCs-current-direction-cant-watch-Dana-White-interviews-anymore-201481",
     "https://www.sherdog.com/news/news/Despite-setbacks-Justin-Gaethje-never-lost-hope-of-becoming-undisputed-UFC-champ-201725",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "#UFC330 Promotional Guidelines Compliance pay: Islam Makhachev, Mackenzie Dern lead way https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/uf…",
-      "ts": "2026-08-16T12:05:26+00:00"
-    },
     {
       "t": "After an illustrious career that included 10 Fight of the Night bonuses in the #UFC, good for second all-time, Edson Barboza laid down his gloves aft…",
       "ts": "2026-08-16T12:54:17+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Cyborg Reveals What Drives Her Before Final Fight",
       "ts": "2026-08-17T07:30:46+00:00"
+    },
+    {
+      "t": "Daniel Cormier tells Usman Nurmagomedov it's ‘time for legacy’",
+      "ts": "2026-08-17T07:25:44+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Thank you, PHILLY‼️ Fans got incredible access to UFC330 events as part of the @BudLight Summer Series, including a beer garden and meet and greets…",
-      "url": "https://nitter.net/ufc/status/2089080001639403996#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T20:01:00+00:00"
-    },
     {
       "title": "Huge upset = Huge reaction Dustin Stoltzfus had our commentator booth shook at UFC330! [ B2YB @TotalWireless ]",
       "url": "https://nitter.net/ufc/status/2089109137758052821#m",
@@ -2105,6 +2098,13 @@
       "source": "boxingnews.com",
       "cat": "ufc",
       "ts": "2026-08-17T07:30:46+00:00"
+    },
+    {
+      "title": "Daniel Cormier tells Usman Nurmagomedov it's ‘time for legacy’",
+      "url": "https://www.sherdog.com/news/news/Daniel-Cormier-tells-Usman-Nurmagomedov-its-time-for-legacy-202396",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-17T07:25:44+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "2088798059098784232",
     "2088799060329423269",
     "2088799193552801985",
     "2088800657931391487",
@@ -3312,7 +3311,8 @@
     "CBMiW0FVX3lxTFBERkZSWmlJaWEtOTZiVmpmbFlEVGhHOGIxenR6RXBlODRjOXhROTI5RlJ5UGNqalRJRU1oRlBvU2xTdHRNNl9lSlZCS2lDV3Jidk03N0NhWWRxcm8",
     "CBMivwFBVV95cUxQUFdpczgtV0JlYUpXQXNPa044cEhhN0RCTWhFMXRNWENtYlExUGdSLThxM3FpMHFjSlNKQlJqYmxBaDE2TWpJQS1aNUNUWF9leUM0M29MUHBROE8zVWE3ZHBEYkQ5V18zOVN3cmY2cHk5QThDZkROMVpOSmRSc1piTWx5ZXMyVjJTd1N3eURJU1RYbnhNYS04NDlvLUdaVC1jUElEVmhZb01hRzcxVXZXeE5XZ25TQlZXX21LcG9pbw",
     "CBMi1gFBVV95cUxOU2RfRTBzSE43TGIyeTNXWnM2Ujl5WmU3alpHVnc3MWpWNnJoOGpXaG9TTVN3bnc5VkJGS0pNQmE2MmhhYmU4YkxrWTZnM3FHR1hpS21UR2gzb292aTN5NXRINVhMOXI2VzBscVN4cGlLWWtHZndNS1dYMURpb01sQm5uVGlSX1Axa25WSkRGdmxvT1FGcWd5YWhwV3BuUW51VEZQVzdmN2Z0MVoxdk1BR1dxUFRKRVZsRkxESmludEE5VXprVkZWTHJmUUN2TlN3OW9HWGpR",
-    "CBMidkFVX3lxTFBpRHl5UGlndnM0djNoeXlxbVZFNHdvNndQUDVTbFl1dGQxLUM0Z3UyMlJ1VE5vck5OUkNXNTlRNjRuZjZKbDBIY3hoT1dEMmpZNFJ2VFd5M1RFZm5EYWc0cEItQ041eTRVV0dlZGpaX0JNR0V2ZlE"
+    "CBMidkFVX3lxTFBpRHl5UGlndnM0djNoeXlxbVZFNHdvNndQUDVTbFl1dGQxLUM0Z3UyMlJ1VE5vck5OUkNXNTlRNjRuZjZKbDBIY3hoT1dEMmpZNFJ2VFd5M1RFZm5EYWc0cEItQ041eTRVV0dlZGpaX0JNR0V2ZlE",
+    "https://www.sherdog.com/news/news/Daniel-Cormier-tells-Usman-Nurmagomedov-its-time-for-legacy-202396"
   ],
   "daily": {
     "d": "2026-08-17",
