@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev's Record 17-Fight UFC Win Streak Stream of MMA",
-      "ts": "2026-08-17T17:45:54+00:00"
-    },
-    {
       "t": "Mackenzie Dern Praised by Daniel Cormier After UFC 330",
       "ts": "2026-08-17T17:56:17+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Uros Medic Says Justin Gaethje Is His UFC Blueprint, Reveals Three Fights Left On Deal",
       "ts": "2026-08-17T19:52:15+00:00"
+    },
+    {
+      "t": "Blake Harrell says Pirates have started process of returning 2022 class members Stream of General Videos",
+      "ts": "2026-08-17T19:04:15+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "THE LONGEST WIN STREAK IN UFC HISTORY BELONGS TO ISLAM MAKHACHEV @MAKHACHEVMMA's victory at UFC330 makes it 17 in-a-row for the welterweight champio…",
-      "url": "https://nitter.net/ufc/status/2088865840082936103#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T05:50:00+00:00"
-    },
     {
       "title": "Elite company 🙌 @MAKHACHEVMMA is now the 5th UFC fighter to successfully defend two championship belts with his win at UFC330!",
       "url": "https://nitter.net/ufc/status/2088989152939213280#m",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-17T19:52:15+00:00"
+    },
+    {
+      "title": "Blake Harrell says Pirates have started process of returning 2022 class members Stream of General Videos",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNM2Y3Mm1nbUlfbHJPMUlDR2JEZE5ZeHZYWmRYTHQ1SWtqODQyTFBHbWEtZjF1OTVrMllfc0JPS3pMRC1NT0xDeHFIcWFnc2pOZWtOd3hBMnppR1BvYThwMEhmWFJ6MGRiUzdfNDdFUTNGclY2YTFxc1pyemRKUTBTT1V1TDVodk9ZdmdTdzZ6UTktanYzUWdBNHlNenFIMzVpZ2VadF9GdERjMWFScnZvLW5jSWJPR05hQjAtYldxWFVEeVU?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-17T19:04:15+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMiqwFBVV95cUxNaFJ6dkJ4cWlYVVhlYjNnUzJIbHJVU3hPeW9yd094Sm4yb2tqN0VhWmJEc0FoeE1tYnRvb3lVQl9wczg5YjJlMUZ6Qk1NWm1nWDBJNHJaekQyM1pVRXhTT3V1eFRmX2tPaHQtMy1OVXFPLUFPenZMbEJZZlY2Wi1hMjdtbXZsbVM1c1QtUV9GLW12bzJLSlNRNzVOODItQzE2WkZNbzlYdnhZV1U",
     "CBMi-wFBVV95cUxPVXFGQ0lFTUVYQl9OTUx0RFdvbjlVWWxBUzdUbDdManlhSHkxSXk1a3YzZmtXY2dHc09DeG5YcjVQekVfWGNPRE5TQ0h4R3o3c2pDOGdRdF82U1pDOGVnUDR0WHNuLTVtSGF1RDRXcl9UNjFYZERSSDlnb1dWSDNDdjVuWTRHaVVqdVk2NjFsOGxuZDJKQjBUemtvX28xQlEtS0NkMGloYzdOcXFlcURBaTNxY2w3eWFqX2xkY1JrU016Q0ZZbWZ0Yjg2NDFQbTRMZkJaOWxmc0tLMUl4NlNaVndtNGZwUGhQUVdBaEVFUnRCWVNNU1dfR0dlSQ",
     "CBMiugFBVV95cUxNMVZrYzVBM3M1RXVjYnFsQ2pfLWhqQkhHUlhFNE9zSTBTdWhHcmhrTVNnU3VMLTVjMlNNNEpXS1lJMXVaV3BCU095ZzEzaGpFUVc0QUZXVnZGZzNjVzN1OXJRemhWb1Zja1NlaTNCNTNmX1ltTU1aMklpNXlmRi1UX0V3UTJuMjZvay1LQVlpa3VnN3BlR040R2FqeF9HWHhHcGt6cGJWQkNoY1RycGNQUjFUUldweHRkZXc",
     "CBMiWEFVX3lxTE15cWtDWlIwNVI2UFc5Z0xHX3NiMWk4bGdySU4xSG5CRVh1Q19wTDM3VkdrMEhGaXI4NWwwN2wxLVlqLTQ1akdvc1UtNmx0Mk4ya0tDU1JMWkE",
@@ -3312,7 +3311,8 @@
     "2089437338044879158",
     "CBMilgFBVV95cUxPUGsycWpwZFlVV09mRzVDX08ySktqQ3JPMTFhWmFqd3loVWV4WXpnTHBLV3RLNGR4TEVZay0zbmxscF92NldEbGtnTFZDbmxXV0F1LXNuNFNwUkRnODZkRmR1NEU0dUl0TkczZmhSNlFKUVllVk94Mzh5WGJNVERaVVVmbXN6RFc5MUJBWld6VkVyaGJOVkE",
     "CBMid0FVX3lxTE9mQlVIaUZSWGttSDBnUmpZdkxTdFFxZmhkaGRDNXZXaHVleklGSm1Nb3NiRm9TYXRRZ0cwbEhLQkY3aFdmZXNuaXRoR2Z0a283RUtubkJyazM5cnBDU2JDcTdxcS1GbjE1OUFSOVN5YnhTNGt3UndR",
-    "CBMijAFBVV95cUxNSk9EbzNoSXJWUzF5Q0F1eHFKZ3dCNTd0WjhQbDZWOHNMUktlYkl2OHEyRTg3R2IyVm1ZQUpuUFBCRmphN1RoUjkyQ0k5eW02Vl9IQ1dUTXUxeTYwb1F0WjduX19wUFZvcTI3OFJSRERCajRhM1dqTjhvaExXOExJd2FNQ2F3R0gtd25YaQ"
+    "CBMijAFBVV95cUxNSk9EbzNoSXJWUzF5Q0F1eHFKZ3dCNTd0WjhQbDZWOHNMUktlYkl2OHEyRTg3R2IyVm1ZQUpuUFBCRmphN1RoUjkyQ0k5eW02Vl9IQ1dUTXUxeTYwb1F0WjduX19wUFZvcTI3OFJSRERCajRhM1dqTjhvaExXOExJd2FNQ2F3R0gtd25YaQ",
+    "CBMiwwFBVV95cUxNM2Y3Mm1nbUlfbHJPMUlDR2JEZE5ZeHZYWmRYTHQ1SWtqODQyTFBHbWEtZjF1OTVrMllfc0JPS3pMRC1NT0xDeHFIcWFnc2pOZWtOd3hBMnppR1BvYThwMEhmWFJ6MGRiUzdfNDdFUTNGclY2YTFxc1pyemRKUTBTT1V1TDVodk9ZdmdTdzZ6UTktanYzUWdBNHlNenFIMzVpZ2VadF9GdERjMWFScnZvLW5jSWJPR05hQjAtYldxWFVEeVU"
   ],
   "daily": {
     "d": "2026-08-17",
