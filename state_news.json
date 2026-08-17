@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=503015",
     "https://www.mmafighting.com/?p=503019",
     "https://www.mmafighting.com/?p=503034",
     "https://www.mmafighting.com/?p=503056",
@@ -1109,6 +1108,7 @@
     "https://www.sherdog.com/news/news/Rafael-Fiziev-explains-why-Wild-Chanco-would-be-an-exciting-UFC-opponent-201712",
     "https://www.sherdog.com/news/news/Rafael-Fiziev-reveals-why-he-left-police-officer-job-201696",
     "https://www.sherdog.com/news/news/Rafael-Fiziev-wheel-kick-downs-Manuel-Torres-in-UFC-Baku-headliner-201661",
+    "https://www.sherdog.com/news/news/Raul-Rosas-Jr-locks-in-first-UFC-main-event-against-Brazilian-veteran-202394",
     "https://www.sherdog.com/news/news/Renato-Moicano-Tom-Aspinall-join-Poatan-in-criticizing-Herb-Deans-officiating-201684",
     "https://www.sherdog.com/news/news/Report-Chechen-MMA-fighter-Dzhihad-Yunusov-killed-in-RussiaUkraine-war-201750",
     "https://www.sherdog.com/news/news/Report-Dustin-Poirier-arrested-for-public-drunkenness-in-Georgia-201613",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Islam Makhachev pushes for quick turnaround after Garry win at UFC 330: ‘Bro, we have to fight’",
-      "ts": "2026-08-16T13:00:00+00:00"
-    },
     {
       "t": "UFC 330 Aftermath: 3 Takeaways From Momentous Event",
       "ts": "2026-08-16T14:00:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Denzel Boston Camp Montage Stream of National Football League",
       "ts": "2026-08-17T06:34:39+00:00"
+    },
+    {
+      "t": "Raul Rosas Jr. locks in first UFC main event against Brazilian veteran",
+      "ts": "2026-08-17T00:58:12+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 330 Bonuses Revealed Following Violent Card",
-      "url": "https://sports.yahoo.com/articles/ufc-330-bonuses-revealed-following-074647213.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-16T07:46:47+00:00"
-    },
     {
       "title": "UFC 330 Results: Islam Makhachev Breaks Longstanding Record Held by Anderson Silva",
       "url": "https://sports.yahoo.com/articles/ufc-330-results-islam-makhachev-080037085.html",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-17T06:34:39+00:00"
+    },
+    {
+      "title": "Raul Rosas Jr. locks in first UFC main event against Brazilian veteran",
+      "url": "https://www.sherdog.com/news/news/Raul-Rosas-Jr-locks-in-first-UFC-main-event-against-Brazilian-veteran-202394",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-17T00:58:12+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "CBMi0gFBVV95cUxOSUV5V0p0R0VYYjRfbzgwTDYxeFBhdzgwVmx0WmdjTTlUWk5KRHBpZW9PSGZIS0VzRlZUbGh4WWlLTEhUWHZORWJvMmpHMWRsVGJnY0xaejdES3pEdTVOYmsyMTBfa0dCdWpXamdfSFVobVluNTRpdzVUSTNFYjRlQ1FHZVJpLVB4WnRteW9FWlI2NkVSeDBCNVBwMlczUGIxWFgzVUxYZmVxQ1JhNjFXWnpmY2J6SUI4dHY5TFdPZlZvaEg3QnUxYTFiNlN5WlJSbUE",
     "CBMi2gFBVV95cUxQQlVmSGpodzNpZnpoRVFqRDV2SENVT3NxODJ4SmNxei1TVEtUa25qN1dJMUMxTlZESjFtb3dTN0xHbE1RYmNheURQQTE4R21DWFF6TGpZRktaNnRoZUF4S2hXWmRwbk5CN2kyZWk4SXNDbzRsc0d2YjNNT0cxZHFDQmgtQmJJdEJZQnBoanFOdGdvYi12bnctc2JrQmRNYUNNdUsweXRiTzVfeEg0ekJCNVB0SFRLdGQ0eklKMDQ5V3V3aHczZlluVTY4SnJwSGdYZ0FTbUhBZi03dw",
     "CBMirAFBVV95cUxQZ0lwbDVwMXE3NHppXzgxRWFSZ1FONVdnSVZQR2NEQzR6bHNVd0FraWo2NFZpZ0FlUFpxRXZqQThnU3JheGFCOE5TRWRoelYwVklCZDBsTmgzOUFsRDZrb2xFS0tNU3dxVDZKamtlX0xod1Jsd0xFZExNSEdtUHZKZHpFVlVicW5rQTh2NW14QU1tY25mWTRKN2gxR05lNEpIT1E1TnZhSnZBS2Zy",
     "CBMilAFBVV95cUxPQkVSZV8yTlVwOUdsZWFDeXJYYWJiMkJFTTNvUFBKZHU3WHZwSmQzblA2MVZGY3lvTjdMT1IxUHRtNWIzX0MweHJWSkYxS1prM1QyVl9PVm1LaXgzVjNRLXBMRmRQcDJEaExHVUVBWGVwQWxybkNLOXhsX3lObXBGYWswWmtINWJKaUlIN0h6TjB6SmR4",
@@ -3312,7 +3311,8 @@
     "CBMiuwFBVV95cUxOQ2N1ZnVtczVjVE15VTdHSWkyNXZOUmNWZTZGOEE0R1BRb1RRTWNBUnR4V3FoenJhbnFqMTg4cUtHX1BtV05TWG5zZmhjcFhzWTU0TUhZUF9wUGoyd1ZPMG9taFBEU2FwcEdVMTdvWmxFbUYxd2pnajhlUURSZFpsRnNYSE40VUo0TVFqZ1JSYTBsMjg4RC1mSm53RGVsTGF1YnBTY0dmVThRTmFYX0tyZnVDWEFGWVB6SGtj",
     "CBMiggFBVV95cUxQbjNvM01TakxJdU5heGNNR3QxdjZoeVNDYzdIRXRLaWV2SndzbGZaY3lmYVZCM0ZEZWMzaE5SSGNQb0ZpblBuLXQ3SFQxcS1naEVJYS1FQjI0MU5UY2Flcll5Q1lRWC1pd3hlTkZNU0J6LU9TRE44NFItbi1QU2h5V2NB",
     "CBMiqgFBVV95cUxNQ1JsNkVOUVNjNklqNzJPc29SM2EzaGdyaXFTdzFhb2cwWkZvMV90THI1UXV0WWlhTmhXNmdmYXNHc2ZWTDR0S3VodWk1Ykx3VzZBMXFjVGtIMVBQcFQtUndDRDN4TFo4bXllQ29vby1NZk9ZNWZrakFSSXRnTTZuODJnM21PWjFOOV9Ib3JmNkxaUEpWTUEtVjlBTTJRQUVQR2s4b3FWcGtxZw",
-    "CBMirAFBVV95cUxQSV9wWGFiemRodndtLThFcDJnbjVkNFEtLVlZZ3RQcHdpQ09fMjNiRzk2NzBzNGZXT2xrTmFhaDYtWmdhU0prTEhDNTdaQm5Pd09faFRUVU8xeTFWbGNVQVRxYzJfa3NYUzZyN0U0NnQ0V01RMDRNQWp0NU9hQW5vWXBHcTlwNENkYVJNUndvc20wdlB4T3VjUy1wcHd4ZE10NWdlRnQ2QTBlb3Q0"
+    "CBMirAFBVV95cUxQSV9wWGFiemRodndtLThFcDJnbjVkNFEtLVlZZ3RQcHdpQ09fMjNiRzk2NzBzNGZXT2xrTmFhaDYtWmdhU0prTEhDNTdaQm5Pd09faFRUVU8xeTFWbGNVQVRxYzJfa3NYUzZyN0U0NnQ0V01RMDRNQWp0NU9hQW5vWXBHcTlwNENkYVJNUndvc20wdlB4T3VjUy1wcHd4ZE10NWdlRnQ2QTBlb3Q0",
+    "https://www.sherdog.com/news/news/Raul-Rosas-Jr-locks-in-first-UFC-main-event-against-Brazilian-veteran-202394"
   ],
   "daily": {
     "d": "2026-08-17",
