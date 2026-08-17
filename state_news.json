@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dustin Stoltzfus annoyed Philly fans didn't cheer for him at UFC 330",
-      "ts": "2026-08-16T21:10:16+00:00"
-    },
-    {
       "t": "‘Losing means nothing’… Ian Machado Garry inspired by Charles Oliveira’s 37-11 record after UFC 330",
       "ts": "2026-08-17T11:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "'Dana White’s Contender Series' gives former Wagner College athlete UFC chance",
       "ts": "2026-08-17T16:41:00+00:00"
+    },
+    {
+      "t": "Cowboys Add to Pass Rush, Sign Von Miller Stream of National Football League",
+      "ts": "2026-08-17T16:31:20+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Pinned: That's a wrap for UFC 330. Let’s discuss it all. The Uncrowned Post-Fight Show starts now ⬇️ 3PAC is back. @ChuckMindenhall @PetesyCarroll ht…",
-      "url": "https://nitter.net/arielhelwani/status/2088844372012101971#m",
-      "source": "Ariel Helwani",
-      "cat": "ufc",
-      "ts": "2026-08-16T04:24:41+00:00"
-    },
     {
       "title": "THANK YOU PHILLY! UFC330",
       "url": "https://nitter.net/ufc/status/2088844752615846107#m",
@@ -2105,6 +2098,13 @@
       "source": "SILive.com",
       "cat": "ufc",
       "ts": "2026-08-17T16:41:00+00:00"
+    },
+    {
+      "title": "Cowboys Add to Pass Rush, Sign Von Miller Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcHNacjJCZGpKNkZjTXdiejRLTDcwY1hfeVc0ZGdsTVhCV2lXdHd1cFowa1d3NVZ1R2pLMWZtVEJxUXVvcHM0am9QWUFnVEJpSk1mNG9JQnpsRnhmWXpBTEtabTBfY1pEbnNXSlo0RHRVVUVPZ0RtVV91ZlplQnZpVFBOX05tSFl2VkE?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-17T16:31:20+00:00"
     }
   ],
   "digest_last": "2026-08-16 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMinwJBVV95cUxPb0dJRHBYd2Z1NTdDdnFEbkJiR2N0QnhXdHowNFoxQ0pYdDRSS3ctNGEwLWt2WUVORkFBbDZIdmhBZmNQUmVzWWhhdU9mUGcwUGFuaGJCM05Vamc3NmsydGFpRWtqWVFLOHRIaU9nLUZ5U1l4MkJZdVZKVC1vTDhhakZsbkxYSUxRYjZqRm5CMXBVa1lUVzBsV1VRV2xKbzlFYnM3b1FfT3c2QTBWTjMxeXA3dnZoS3VVRDFmNTJBMXBzNll0RWNvUlVDaEZ1WVlIVTlVVk9CWTZaa0lNUElVbHdaYXRSN091TUFzTGE3ZkZTSXd6b1VvbmVBeG5tZnRNMGRyMjR6TXE3dm1kRzFvenIyTmtHYkE5aTZKcWNZWdIBpAJBVV95cUxNUWQ5cGt0RDNfR3VTUzEtMEhHNjFaLVpGbk9LTmVyUThmdEo3MnVqYXBIWnYtMVk4Q0JYUFl2WDJGWmhTaEVQZ0JrNlpQaFQtdXZ2V2luQmh3aGltY1RqT0RjYk5xX2VQcjhxUnBlQ3NMQUVRcWZyWENzYmNUb0pQTHA4MWMtZXVXbmhYWnlFOWxrdktJbVF6emgxS01ETHcteDRvNVF5cmlsVV9jTVlmMi0wNEV2NFJQNFAyekluN19PYlM3SEFtSjEyVFM5Qm84Xy1iQzR5YVRfU2RjYVFpbmtBUWh3aXdTY2RaYnRrbnhRemlGVUtWM0RHeFBRcXMzM1NDaDlvUFNtdDZ3SjZVUGxTWFJoS1M0Vi12VndNWktMYzFy",
     "CBMilAFBVV95cUxNbHFIV3RvS1Z6SjFkZ1oyY3d4Vno5WmRwWWdPeXQxMWI2UUpQckdubGcwRkNmYWp0bXFQUHNRTnNKVlExWlFzS1lGeTI3R1pJOGRPb1pIX0FGUEYzY2hnWGhFUHcwb25SRml2Z2Ftd05ENlBfQ2NhM2taQzh6MnFvVGFfOXFxTW9tVnR3aVk0aEcwQTdQ",
     "2088831689443422583",
     "2088831869588787703",
@@ -3312,7 +3311,8 @@
     "CBMiowFBVV95cUxOMThPNEZPdkdOaGg0SU1EbURiU3RSbGdaQWl2S2NubnhGSUtRWjRyR0RuNy1HbHJaWTZSX1k5SmgzdlQydUhwUkNzSm1FWVR3b3ZkR3o0c3RhcW43b3ZKY0k0ZU1kUWF1RU9ZbS1QUTZESkoxYjZkTC1HaHU4WDFoMVhzMlFEV3VpRzlhVjlXb0VUeXd4cUN3TXlFdERfeXQ5eTFv",
     "CBMifEFVX3lxTE1KNjF6Z0NMMXlSUVVuNlZtRzY0bGhhNkFpVDN3WGpOcHNTanB0aWpCMU1RWHpaYUFtWVRFdEtvMzBBMjVPTmZqanpTRHFqTFlBaGxmY2p6UXkxSXpTWmZIOHJTak9IMHIwbU1HNi1femVzLXBkSmM5d2dxYno",
     "CBMikAFBVV95cUxOc3VQQ2VtQlNpT2ZOX2s0SzI4TnBSTGdaS2tjTjloYTB3aVo1OXQ4V0tLRHAzMm5Nck1Dd2F2QTduNjdlS2lodE5rSmdWOXFSTWpKRzQ1cUlXeVRWWFNOcDJocEVaQ2hFQ0JwUTNuNWlvWnhlN0pZMjV2dTV0WWN1OS03NEpxVmNiSzJyZ3VKNTI",
-    "CBMi3AFBVV95cUxOODNfTXk2MWRqd1p5WUx1Vkh4WTVTRk13SXFzVmQybUc0Qm9zTUUySlFlXzVpT0VXRWxjVFR6cXduNUVSa3Fxd2ZPWjloZlhQc2IwRmRJQXY2RWNwWkhlbFAxSGZrOE9zanNOSTdzNVVrRUVnTmR4TjZ4cmxKX0hkSnRWUUYzc05xU2Y3bHM2Vm95X0tma2w3bUduZE1EZ3h5dFlkZ09fNlJMbTNGelpLc181Q09GOTJxTzFydGEtTC1CcFo5MmJMNTdUSEtTNGdrRGczaEc0bzhlTkE2"
+    "CBMi3AFBVV95cUxOODNfTXk2MWRqd1p5WUx1Vkh4WTVTRk13SXFzVmQybUc0Qm9zTUUySlFlXzVpT0VXRWxjVFR6cXduNUVSa3Fxd2ZPWjloZlhQc2IwRmRJQXY2RWNwWkhlbFAxSGZrOE9zanNOSTdzNVVrRUVnTmR4TjZ4cmxKX0hkSnRWUUYzc05xU2Y3bHM2Vm95X0tma2w3bUduZE1EZ3h5dFlkZ09fNlJMbTNGelpLc181Q09GOTJxTzFydGEtTC1CcFo5MmJMNTdUSEtTNGdrRGczaEc0bzhlTkE2",
+    "CBMiigFBVV95cUxOcHNacjJCZGpKNkZjTXdiejRLTDcwY1hfeVc0ZGdsTVhCV2lXdHd1cFowa1d3NVZ1R2pLMWZtVEJxUXVvcHM0am9QWUFnVEJpSk1mNG9JQnpsRnhmWXpBTEtabTBfY1pEbnNXSlo0RHRVVUVPZ0RtVV91ZlplQnZpVFBOX05tSFl2VkE"
   ],
   "daily": {
     "d": "2026-08-17",
