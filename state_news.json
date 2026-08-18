@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Pic: UFC 331 poster drops for ‘Van vs. Pantoja 2’ on Sept. 19",
-      "ts": "2026-08-18T00:45:00+00:00"
-    },
-    {
       "t": "Towson vs. Navy Live Stream of NCAA Football",
       "ts": "2026-08-18T00:57:56+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "“I’m ashamed. I’m embarrassed”: Din Thomas makes emotional apology to Gillian Robertson",
       "ts": "2026-08-18T03:45:16+00:00"
+    },
+    {
+      "t": "Brett Lauderdale On Drake Wuertz Joining GCW, Says He Donated Part Of Pay To Pro-LGBTQ+ Group",
+      "ts": "2026-08-18T03:45:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Two powerhouses collide 💥 Anthony Hernandez & @GregoryMMA are set for their main event showdown at UFCSacramento! [ LIVE AUG 22 at 8pmET on @Paramo…",
-      "url": "https://nitter.net/ufc/status/2089381749033783607#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-17T16:00:02+00:00"
-    },
     {
       "title": "Edson Barboza Explains Retiring From MMA After UFC 330",
       "url": "https://sports.yahoo.com/articles/edson-barboza-explains-retiring-mma-165444584.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-18T03:45:16+00:00"
+    },
+    {
+      "title": "Brett Lauderdale On Drake Wuertz Joining GCW, Says He Donated Part Of Pay To Pro-LGBTQ+ Group",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEJuU3lTdEtCLVEzd2ZNUlZZejRWRDZSd19aZTF6bnduY0RZbERrLXdzaTZCeTlHcnF1Y05XUWlhQW5kcTg2SVJDeHFvdnB3eDhSZXl4OE5Vb08tcTZzQTlEQTdCTk0zczZySnZqTjk0RHlZUUVQUE1ibkFNNndXQ1hPc3RXbDZDeDZrTVFlYTA4cXk1YTBzeW8yQQ?oc=5",
+      "source": "411Mania.",
+      "cat": "ufc",
+      "ts": "2026-08-18T03:45:00+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMipgFBVV95cUxONkZYU0llZlk5cjBDY1NnOVBKY2I2N2F6ZDRMMmlJbTMyWEVYLTFKOEpSc3BxeTVjOGUwUThHMDEzZXk0MGFJYTlpMVZGSUZ0TU00R0ZsZmMxTExia0Rxb0hLRjBTTVFIZWR3Tm5jTUVmODJUUkRGUFU3QXRUeXZiaDVqS3g1b2lfTk1LOG1kQ0xBS2xTY2JpZG9OOUc2YkltYUFjVW9B0gGrAUFVX3lxTE14dDhEb1FWdUs2ckNrUllwbl82bkJLbUZZMWRkYXBMcHVzdWJmeG00WTZkajBMZnNJWS01NFhHN2V6UzFkUVFxT3YzOUg5aGJrMXM3aER2Z1AtREsxMjVNRzRBaFVpR0ZHV3VEblZ2S1ZVWXNDcG1ReUR6S1BhdC0tOWtrekVqcVZINHlXdXpMSmF1RU1QdDBsYTloQUZSVWpaeFZqeGxXbE16VQ",
     "CBMilAFBVV95cUxQVXRfNG1hTC1PQW9mQUVDS0NhTlozVmxmdkVFZXJ6YzJSYVY4bWY3MGFDSjdMb0M0Yks4dVFVV2JFdjdwSEpIYzlRbjhMV2JkZDQ1OGhLZjdwaktFQ3NqUldaV3p3eFZkNzNpeW9vU2ZrRVpwSmwySHZUQ29aemw3ZzBRMFJ4R3U0TVJTc2ZCQzNMcUlz",
     "CBMilgFBVV95cUxPV3QwRUk0UEpBMkx6OW52czVXLXFsV05UcUdqTndwVDMzdWx3VmNzampvQmx2SXZTbkhTNVVJUjd3QU5VbDFlS0E3NXNVV1NUX25rYUU5ZlpHNDFvSEZfRHdxSjZ2NXgxbDloMlU3b2NfdmN5cFdXUW1vanRBYVUwXzVJM1kteEFuZGxIRUFaQ0o2X1UwalE",
     "https://www.sherdog.com/news/news/Gillian-Robertson-said-she-was-the-better-grappler-Dern-had-her-answer-202372",
@@ -3312,7 +3311,8 @@
     "CBMi1wFBVV95cUxNNllXeXczbE83ZzFDbmJ0eXU4OXdTT21hMDU1SkpQVnB0Sk1xRnplNHRpSWJMYU5VNnBWSGZxbksyWUJYTzgtMXh2bUxDcWZGS2s5dTVuaFAtckZrZmtEV1JINGNHWnAzUDFjZk10MUdZaGJvVENnNDdnV3Utbm92ZUt1UkMtN3FiZmZkTWc1VGhOVlpSRmlFT2gxWVMzVnhRdUxiUVh4ZmJEZ194alVBT1puRG4xaWFCb1ZfNndCYjBnbnZyYkpESy1zSlBvXy1IMjJId0ZZZw",
     "CBMiakFVX3lxTE1KS25WVlU5eEVNc1RRc1pRWXRkY2pUMFE4RjR0ZG1JQ2ZIQ0Y4WU9UMlRmZlFCS3llSDZxR2JrTjRGWkd2d2p2dlFESWtWZnJIdHVSRHpWTWR3X1pqcVlYMGZqN2psaVpxNEE",
     "CBMidkFVX3lxTE9BM3dZZC1zWm16N2tsWFpnWTFzMFlheGpqRDdldXcwWTduc0JVTmFFRkZGaEhST2RqUDJpVlZ0aVA4NTNIZm9NTGpkZ2JPV25kR1I1ZUhkVGdHQnYwVjZtTlpudVVMOWx2RjlzSFcyM3FlUVYyQWc",
-    "CBMieEFVX3lxTE1obkc5VThESDVERTNYQjVtN3FpRVZIRTA5TE1OajdSM0Mxa1pobEU5Wk1odG1qZUYtcElCLTJ3UGg2RUl6cFo1RXA2bTkxdEJMZTAwRXV6X1ZUZ0JEMHFUQ1hiOXdZNFE1c2NKVEE2WnA4RUhmcDF6aQ"
+    "CBMieEFVX3lxTE1obkc5VThESDVERTNYQjVtN3FpRVZIRTA5TE1OajdSM0Mxa1pobEU5Wk1odG1qZUYtcElCLTJ3UGg2RUl6cFo1RXA2bTkxdEJMZTAwRXV6X1ZUZ0JEMHFUQ1hiOXdZNFE1c2NKVEE2WnA4RUhmcDF6aQ",
+    "CBMimwFBVV95cUxOdEJuU3lTdEtCLVEzd2ZNUlZZejRWRDZSd19aZTF6bnduY0RZbERrLXdzaTZCeTlHcnF1Y05XUWlhQW5kcTg2SVJDeHFvdnB3eDhSZXl4OE5Vb08tcTZzQTlEQTdCTk0zczZySnZqTjk0RHlZUUVQUE1ibkFNNndXQ1hPc3RXbDZDeDZrTVFlYTA4cXk1YTBzeW8yQQ"
   ],
   "daily": {
     "d": "2026-08-18",
