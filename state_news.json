@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Henry Cejudo: Ian Machado Garry 'missed all the boxes' in #UFC330 loss (via @MMAJunkieGeorge, @thegoze) https://mmajunkie.usatoday.com/story/sports/u…",
-      "ts": "2026-08-18T01:05:39+00:00"
-    },
-    {
-      "t": "Michael Chiesa makes color commentary debut at UFC Shanghai: 'This is my world title' (via @MikeBohn) https://mmajunkie.usatoday.com/story/sports/ufc…",
-      "ts": "2026-08-18T01:35:33+00:00"
-    },
-    {
       "t": "The Thrill and Agony: #UFC330 winner and loser reactions https://mmajunkie.usatoday.com/story/sports/mma/blue-corner/2026/08/17/the-thrill-and-agony-…",
       "ts": "2026-08-18T02:20:47+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Khabib On Barboza's Retirement After UFC 330",
       "ts": "2026-08-18T22:31:24+00:00"
+    },
+    {
+      "t": "Makhachev Tells Cancer Patient 'Never Give Up' After UFC 330",
+      "ts": "2026-08-18T22:31:48+00:00"
+    },
+    {
+      "t": "Main event remains a mystery as UFC 332 fights are finally announced",
+      "ts": "2026-08-18T22:37:16+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Carlos Prates Sends Blunt Message to Michael Morales",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcjRxMVZic3dmNk84dTRGY2lnb1RVQ0VWOVJTam50SWR3ak9uV0RqcjQyRzBmRDRKN19pb01MOHNDSXNJQ0M5ZEVWSjNpSXZ0U1ltMHZrZnotRHZpOEJpUUFQX2RhY1d6dFMwa2xnZzB5UkltRFlfQUZLWjktVUxTb2NpSzlEdkk3U1E?oc=5",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T21:58:47+00:00"
-    },
-    {
-      "title": "Joshua Van Promises Alexandre Pantoja KO Inside Three Rounds At UFC 331 After Charles Johnson Lesson",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX1hPV2wtVVVYWUY2bXhScTBMVFRhZU5rQ19NQWM4VEl1Vjg2NmdaeWVXV2N1c18yMVlpRlhrd3ZOX1ZvLWFBY2E0VEloMGFvQzlUcUtTZEhiZnFkbTVOdHB1dDRtcUcwNzBwalhiOEx0TzNrTHptYlZjcHhCMUFQUmtYcU9ScHFWQS1SOFB1UUg?oc=5",
-      "source": "MiddleEasy",
-      "cat": "ufc",
-      "ts": "2026-08-18T22:21:19+00:00"
-    },
     {
       "title": "Two powerhouses collide 💥 Anthony Hernandez & @GregoryMMA are set for their main event showdown at UFCSacramento! [ LIVE AUG 22 at 8pmET on @Paramo…",
       "url": "https://nitter.net/ufc/status/2089381749033783607#m",
@@ -2105,6 +2091,20 @@
       "source": "MMA Fighting on X",
       "cat": "ufc",
       "ts": "2026-08-18T18:30:20+00:00"
+    },
+    {
+      "title": "Makhachev Tells Cancer Patient 'Never Give Up' After UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sdEZiM3liOGRiaG9HM2dJdGh1RFRpSXN6ZnZ2b1NqRHJrNkVGZGNlbnh1Skg3eUx6LVFrSEJ4amJ6S0g1SjVxbjFPdXlfVFhwRlNxcXNNSTJzQXJLRnc4Nzc3OTdidDhRZktYYw?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-18T22:31:48+00:00"
+    },
+    {
+      "title": "Main event remains a mystery as UFC 332 fights are finally announced",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUFhEVjByNXNNUTQxZ2F1ZEd2LVAzbldPUFBCT3FPb25RMEVOb0lPYjlaT3k2WjVQQnRuN3J1WDZqVnBKRDg5M2FUcE5RTFpmenB6TDVfcEZHWWdPSVVSMUhvVW04NllJRHd3YmhkZ1kybExlUnFrdlZxdkpSdFpTaHpsNVBId3VINmNuU1E2cUlyalhacDRMVTRwd2E?oc=5",
+      "source": "The Big Lead",
+      "cat": "ufc",
+      "ts": "2026-08-18T22:37:16+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     10
   ],
   "yt_eval": [
-    "a40c51f6-bbf2-3de6-b439-78ea9b034e34",
-    "66d84c9b-a8ec-31a8-b5a3-8ec5394a3c8b",
     "https://www.mmamania.com/?p=464946",
     "2089095474301247989",
     "2089116483251015996",
@@ -3312,7 +3310,9 @@
     "2089837388222562793",
     "CBMizAFBVV95cUxORlNWQTJGWkYtRUctX21ia3BLc0tKd2RILUVwdG4xbURiX2k0U2FGWG00NlJpMzFRX3NIMHU1dVl2Z3hxMnpEanVhZnJGWTJja0FZYndLRGZXaHd4SzdfN0hkbG9GYWJkZDFVc1d6WnAyUDNWbmdHbGRvU0lRTnFMclNIUzNpRTRWc1draThLMW9fb3dpUUlFd1BzNFNfRjFCUGp0ekxnc045Q2RWY0FBblVSZjBrVE1YSkVabXlUcGV3Qjk1bmZGem5KZE0",
     "CBMisgFBVV95cUxPbzN0UUxrRzRYZW03TElfNVY0TFFSeUh2dUdaRTdVZE01enhTN3RPX3VtMkhCRUdDZl9SR3l0Y1FzMkJTY19XanlYaFBEZ09aamtfNVBQQjExR2RTUGFGRVFZazVJY21zeWtOajI3WHV6eEpGMlJLVS0xdGJsSTh3MzJib25kRTZWZ0VTaUNOYWpmRTZtZjBIQ2V6RzdRLVlES2k4QnBCTS1ZWHN4ek85Snp3",
-    "CBMibkFVX3lxTE40QUZ3R2NBQ1ZxR05iTFpWcEVwSWhoRXkwREZtSFlMdUxKOXpjdHFwalV6UV9WODl0WnlJTVVydGl0MEE4SGxOZnRlaVNQSDZhTVF2Wm1MMXlkR21aeHQ5Z3g3bGNkdGQ0di1kallR"
+    "CBMibkFVX3lxTE40QUZ3R2NBQ1ZxR05iTFpWcEVwSWhoRXkwREZtSFlMdUxKOXpjdHFwalV6UV9WODl0WnlJTVVydGl0MEE4SGxOZnRlaVNQSDZhTVF2Wm1MMXlkR21aeHQ5Z3g3bGNkdGQ0di1kallR",
+    "CBMibEFVX3lxTE1sdEZiM3liOGRiaG9HM2dJdGh1RFRpSXN6ZnZ2b1NqRHJrNkVGZGNlbnh1Skg3eUx6LVFrSEJ4amJ6S0g1SjVxbjFPdXlfVFhwRlNxcXNNSTJzQXJLRnc4Nzc3OTdidDhRZktYYw",
+    "CBMinAFBVV95cUxOUFhEVjByNXNNUTQxZ2F1ZEd2LVAzbldPUFBCT3FPb25RMEVOb0lPYjlaT3k2WjVQQnRuN3J1WDZqVnBKRDg5M2FUcE5RTFpmenB6TDVfcEZHWWdPSVVSMUhvVW04NllJRHd3YmhkZ1kybExlUnFrdlZxdkpSdFpTaHpsNVBId3VINmNuU1E2cUlyalhacDRMVTRwd2E"
   ],
   "daily": {
     "d": "2026-08-18",
