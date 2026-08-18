@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=503803",
     "https://www.mmafighting.com/?p=503806",
     "https://www.mmafighting.com/?p=503861",
     "https://www.mmafighting.com/?p=503887",
@@ -1010,6 +1009,7 @@
     "https://www.sherdog.com/news/news/Islam-Makhachev-reveals-most-enjoyable-fight-of-career-201457",
     "https://www.sherdog.com/news/news/Islam-Makhachev-shares-his-prediction-for-UFC-White-House-main-event-201474",
     "https://www.sherdog.com/news/news/Islam-Makhachev-vows-to-humble-Ian-Garry-at-UFC-330-202304",
+    "https://www.sherdog.com/news/news/Islam-Makhachevs-coach-backs-Ian-Garrys-No-1-UFC-ranking-after-loss-202405",
     "https://www.sherdog.com/news/news/Islam-Makhachevs-viral-phrase-gains-traction-across-other-professional-sports-201603",
     "https://www.sherdog.com/news/news/Israel-Adesanya-advises-Arman-Tsarukyan-to-limit-hanging-out-with-influencers-201558",
     "https://www.sherdog.com/news/news/Jalin-Turner-explains-how-he-handled-the-burden-of-hurting-his-opponents-202378",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "DWCS 88 faceoff highlights video, photo gallery from Las Vegas",
-      "ts": "2026-08-17T17:41:39+00:00"
-    },
     {
       "t": "Max Holloway questions Islam Makhachev walking around with 2 belts, Makhachev responds",
       "ts": "2026-08-17T18:01:18+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "The Ultimate Fighter 34, Ep 11: Ladies Steal the Show",
       "ts": "2026-08-18T04:15:42+00:00"
+    },
+    {
+      "t": "Islam Makhachev’s coach backs Ian Garry’s No. 1 UFC ranking after loss",
+      "ts": "2026-08-18T04:01:22+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev Fires Back at Max Holloway Over Two-Belt Celebration at UFC 330",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1obkc5VThESDVERTNYQjVtN3FpRVZIRTA5TE1OajdSM0Mxa1pobEU5Wk1odG1qZUYtcElCLTJ3UGg2RUl6cFo1RXA2bTkxdEJMZTAwRXV6X1ZUZ0JEMHFUQ1hiOXdZNFE1c2NKVEE2WnA4RUhmcDF6aQ?oc=5",
-      "source": "NY Fights",
-      "cat": "ufc",
-      "ts": "2026-08-18T03:36:48+00:00"
-    },
     {
       "title": "“I’m ashamed. I’m embarrassed”: Din Thomas makes emotional apology to Gillian Robertson",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUVBLNGpKbHJob1hWT0FGZTVzbDA1ZTFVdXZvNDd4YUc3LUs0eElpRWw1RDlaNk5NcjF1eTZyNGtYRmV0azZ4a3NtOVl0RUN6WUVFVG8zeFZld2ppWGJsZTlwY1pvSGJoRXF1OUhwUGkwaWNqQUFZRGlNdEtZQXR4NUFtWDVhT1EyVWJ0RTZ1akEtNVdQblpUV0diYlp5OUJELWlPNzBWenc0dFZY?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-18T03:46:50+00:00"
+    },
+    {
+      "title": "Islam Makhachev’s coach backs Ian Garry’s No. 1 UFC ranking after loss",
+      "url": "https://www.sherdog.com/news/news/Islam-Makhachevs-coach-backs-Ian-Garrys-No-1-UFC-ranking-after-loss-202405",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-18T04:01:22+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMitwFBVV95cUxPMnRnOWlKNDVBZmktUHY4bWNzOXNaMnA3N3hURDBMV0RPSGtESl96RW9DMEo1LTlQaXRheDI2QWdGUzlNcGUya1NhNHJ1X3BYN1h6b0ZUWHUwUWtyaVhOSWlkRVJfOFZfV1BLc0ZQTWt0ckd2b2tKOUoxODdDQnpJS29sYlM0ZHV5ckRfRkxGdjdFeEhEdGpkemNKdl9pVU9DeXJHV2FIdnN4VDZqM2cweElUWDY1dEHSAawBQVVfeXFMT3ZGY09ZZWVDMlJmdWJaUXVtREd6R3ZmcXZBblV6X3FGdnRndXdfNDlMbzVkWW1YLVp0bUNfaU5WOF81ZFljcDF0Z3VyTGFNSW1QQmlvUFZ5R25vcUdXZWk0MEFid1FvMGotLWVtR3pObm9IOExLYWZZMUttbkNNaVg2S24xNm9PYldqY3NzUjNCeTNrUjVNa3Q2SmFBYTd0N1BOZGRtSEluc016cQ",
     "CBMipAFBVV95cUxPV09QdV92ZTR2QUdtR0kwekIwODZvb2pVYWZ3aUYtXzdxbDdnRk55TkZ6bkQ0M1BseHdCanFoVFdpdktnVzZFTHhpYkxHZWZCYVpnUXNheUZSa1FvRld4VURQc3R4cHBWMmdIcG9fSGVhY1RYNlN6Y1c2dzNxMGJUekloRWw1XzB6X2FaQTU4UFFSS1pzcGxIanZFVXRZTkM5SXhId9IBpAFBVV95cUxPV09QdV92ZTR2QUdtR0kwekIwODZvb2pVYWZ3aUYtXzdxbDdnRk55TkZ6bkQ0M1BseHdCanFoVFdpdktnVzZFTHhpYkxHZWZCYVpnUXNheUZSa1FvRld4VURQc3R4cHBWMmdIcG9fSGVhY1RYNlN6Y1c2dzNxMGJUekloRWw1XzB6X2FaQTU4UFFSS1pzcGxIanZFVXRZTkM5SXhIdw",
     "CBMixgFBVV95cUxOSGxDWHJjZkFkQ3Z1QjRvWmJRdU5HZWFMS09URGhfa21CWVFPY2Q1bDdFbVNYS3dCQWt6S3JnOGh0X1h0NnhzZ2V1U2pqVnltSlFPQmI5bWNXMGxRUEtkQThJWGJGbS1NZDRQako5TDJ1MnUwZVRXbjBtUjU4c2doYzZkSTFIY2wwdDN2eVoxVnZQVjJ1aGJOaU5YX3ZMM2FBTUlvZnVYanRLeUhUUkFnNjJjSXRhR0lweDgxd0ZFQXZ2YVcwZ3c",
     "CBMiiAFBVV95cUxNTFpyeEhmRUtVMnBySC1MbkdmVkVpMnR5QUFfZ1djSFFDeGNCWk5CT0x3OGJ4Uy0xUnI4Yl9oRnU5N3NsVFozVjNkWjdXV1d2S1lYVl9fRlU5eGdDaGZGaDJiN1lVRmJUcXVpeUFCRVZmTlV6YUVVQjlkaS1YVk14WHo1bHRZRzBU0gGOAUFVX3lxTFAyTXhDbGpqeGVBTHJ6cVc3M2J5bm5hcWdTbU1CLWdCTzlCTTJ0R1lkZUpjSm1DQWpxWFZwRWxMOXFfNkR1SnZWN25zXzEzNlNNYzdtVzJmRmRBWDVubnJWUkpVQ1hjVUlFQThUQXhzZ3AwUmJZdnVES09udDdRcW9TV1Jlc0ZvVFpPa09KOFE",
@@ -3312,7 +3311,8 @@
     "CBMie0FVX3lxTFBjU3Jod1JQU004MW5zd05WY2NyM2F4MldZZENrVkFJaWhyMUtwb1dwWGtxaEhHcXpPNFEzSWdkemFXbHpNRFdSQXNCMzVYd1g3UVVvS3FYdkptZzZjTUpxbUZoem9QVjNUb0tUT1NHbUY0N3ZfWW56QjZSdw",
     "CBMimAFBVV95cUxOLUlBN2JtOS11aTdUZHVzUE5DS0h4VW1rSHVsdC1XUDI1eHpqME4tdGVEWVRfNkpqMHZWcEszWkpGTmlTZXpDYk9UajFFdzIwLW5Pank5NmZHd0JSX1pyd1hUVzdRZzdYeHRtZUp3d2xTSXZZRTFlbjNicVdwNWdzRE9PbmYwX1EzN2RSbGh1RUdzRGJuVml1aw",
     "https://www.sherdog.com/news/news/Henry-Cejudo-questions-Khabib-Nurmagomedovs-place-in-GOAT-debate-202404",
-    "CBMikwFBVV95cUxOWThlM2NvY1RhdFVzcmFTLXdQX25xX0xCbEhVNjlfYWk5WGoyXzcyWXFFNndHRjRPbDNtVnJ1blYwTWFIMl94UmszaEJqZi1BbkVLWlRTRm1aS3ZJRThwMUZSYzFxVG9VdHNsSTc2aGY0cE9tRVZQUVNISGNyWGxOTktSeXJTcGw4Vk41M0RuWVdWMkE"
+    "CBMikwFBVV95cUxOWThlM2NvY1RhdFVzcmFTLXdQX25xX0xCbEhVNjlfYWk5WGoyXzcyWXFFNndHRjRPbDNtVnJ1blYwTWFIMl94UmszaEJqZi1BbkVLWlRTRm1aS3ZJRThwMUZSYzFxVG9VdHNsSTc2aGY0cE9tRVZQUVNISGNyWGxOTktSeXJTcGw4Vk41M0RuWVdWMkE",
+    "https://www.sherdog.com/news/news/Islam-Makhachevs-coach-backs-Ian-Garrys-No-1-UFC-ranking-after-loss-202405"
   ],
   "daily": {
     "d": "2026-08-18",
