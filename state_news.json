@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Coach: 'Islam Makhachev doesn't care who he fights next'",
-      "ts": "2026-08-18T07:14:39+00:00"
-    },
-    {
       "t": "\"Gritty, tough & CLARET\" Burnley owner JJ Watt on experience in the Premier League & Championship - Morning Footy",
       "ts": "2026-08-18T09:47:19+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "WWE contacts tryout participants as UFC plans potential Las Vegas space",
       "ts": "2026-08-18T13:00:32+00:00"
+    },
+    {
+      "t": "Open Thread, August 18, 2026: Do you know your flags?",
+      "ts": "2026-08-18T13:05:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "THE LONGEST WIN STREAK IN UFC HISTORY BELONGS TO ISLAM MAKHACHEV @MAKHACHEVMMA's victory at UFC330 makes it 17 in-a-row for the welterweight champio…",
-      "url": "https://nitter.net/ufc/status/2088865840082936103#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T05:50:00+00:00"
-    },
     {
       "title": "‘Losing means nothing’… Ian Machado Garry inspired by Charles Oliveira’s 37-11 record after UFC 330",
       "url": "https://bloodyelbow.com/2026/08/17/losing-means-nothing-ian-machado-garry-inspired-by-charles-oliveiras-37-11-record-after-ufc-330/",
@@ -2105,6 +2098,13 @@
       "source": "wrestling-world.com",
       "cat": "ufc",
       "ts": "2026-08-18T13:00:32+00:00"
+    },
+    {
+      "title": "Open Thread, August 18, 2026: Do you know your flags?",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa2JkUU9NUVVNWFpUUkdsSkZ0Yk5nRHFVRzJPRVRhNmd6WnFUSHhrYkFHckszUENSdDc5b2ZaZG5qUDI5aW5jR2FHUll1M3Z4UWVSUW8wWWVFYmFBZjlfSzJYRXhmYnJzRWlUa0tyT1VFUEhwLVBrX005QWg4cTdXbF9wSmxzc0RSUGk0TnEwNEUtWk9GUDhYWDdSWE10dEFDNmFJ?oc=5",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-18T13:05:00+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi2AFBVV95cUxPWXVyT0FKR21GZnY5dEJkSFZwNDZreThHbWtOQWZTSVBnMnVhYlkyNXRWNkE0UWo0RkVTaEhmQWhUUW5UWnBONFhnV3M3dTdoc3FjelFfRzBUU1VrekRHOVRLTndJU1J4UGNoZUZjZGQxNzlBNVpEdDMwUFhLQ2F4UEJsYmpMX3kwSDN6RFlYWF9rOUY3eDJUNkpId2pRaWhmTjA4cjc1MjBEWTZ4RDVIcko3cHl0c3ljNVdqaVNKSGd0QzVpRVJ5MjFIM2RRX3ZEcFE3bzNQYTg",
     "CBMikAFBVV95cUxNSTFuN0otdFAtRWc1eDlzY0ZxX2JacVUwRHlaY01UVzE1dkozZ1M5WjlUR1lsVG5nUGxpVGVES3NyamtuU0s2WG9ieWtScVR5SXFPcWo5b29pb1MxRkhLWExFTHg2NFBBUVRPbENHX0ZnNmlYWFd0ellSR0hMUGhHVFFLemU2WTBBM1lweXNQdUrSAZYBQVVfeXFMUDJGc1JKa09FM2VkZGR6RmlwbE00SWNfelNnTWpGZ3p4ck5ZTzBrNlNidlNBaWJIejlHdHJ1YlhycldVWlk5bUpKRldSWkQ5blR4dHdCSUxlY25tc3hZZzF5d2REUFM1MjN1anVCSnhuWnBSWHo0d2pGcm5SRzZINnRRUnVqOHV2RGphdHFELVJscVBHM3J3",
     "CBMiXEFVX3lxTE1GYzlMdjFRTFdUVzRacjhJMkNLd1RCaW9maXd1TW5kS3RNZ1o1OTBOb3BRUWlFVHlBbkUwby1CNjZOVkJwVE5mOHlCQ2NFWDNqbUpQak5aNjk1Z3Fw",
     "CBMic0FVX3lxTE5lSHoyWFNoXzk4Smp4Rnhxd01razlDaHJ5UEVNN0g3VTkyajFfZDU0Nzg4SGsyM2RBV0RhY2xLZUtzdEVhZWRGLTNoNUt2QVRRT0dBbzk0MHRjSnNnUkRCdzdyeWYwWUJ2Nkg1cG1hMl9xd1E",
@@ -3312,7 +3311,8 @@
     "CBMirgFBVV95cUxNMFFuNjFDYWhCd2VLa3p5cGozWkZIYmU5QllCNm5VQlBaVFV1SUpvNHc0Sm1qaFVkSEk0eXBZOHdlWkJCalZCdHZycW0zZllnMEt4ekVjMWtqNEsteGJZZU9XRTFrWVdVd3MtZWQyYzFxWmFzUmdCQ1ZXd3g5bF9jUHY2MmNiU1I4aWhEVmVZaS1ZemRzeWZybXVmWGJmYm9DNm1RWkFrNDJNWmp6YXc",
     "CBMijAFBVV95cUxPNXhFZEluTU5YSDQ3Zlp0OG4wOWxJc0VxVDB1aFVmWlo3QTNVdFZ4QmxfX2w3RVB5ZXIyeklsbHc5YXVzdjZQM3pXRkpEWVhsbE1sNklfbkNWOHFPTkZmMWduamFySUlBd0NHREg1U2p6LUd5MkZrUWpsbWwyMVd4ZXAzNFU5WU5hZHBvNg",
     "CBMitAFBVV95cUxQNFR4aW1wdmpCZmZDSHNhQld5VFJSWGJPdUZDRTVqTHFCSGkzSndvb2FUUnNEYUFBaVd1N19WRDhFanJfZEhZXzBhS0pZVUpVMC1MNm9ZMXFBS3NqdFN5MkRnOFVFa0dfUGZRekVWLXZXdEpqczBYRkRiZU9EbW9yanVYZEIzTkg2UTlVbzVDVU9fN3ZZUktBMDlsQUk4N0ZJZkpWd3Q5MG83ek0tY05oX3ZhUEQ",
-    "CBMiwgFBVV95cUxQQVpsU2Ixc1FfSG9nM1RqR0djVGtuakVHUFgyT2NsZC0xM2RKNFBDTWhucGQ0RzBzY0hUWnhaX0R3VVlKUnBsOUFEUGZLb1lfM19ZaWlsd2dsa0pvSWE4M25Edi1kQjlScmh2cmR2aVNzQm1hN3lNdkplM05iZUhCYkJSX05fenBhNmpIbDZEekplMW9pa3JTb2tJMTVrU2dWb2Vlcm5FSUtWN1JfWjZteFowSkFuRkRwcGdadXRjV296QQ"
+    "CBMiwgFBVV95cUxQQVpsU2Ixc1FfSG9nM1RqR0djVGtuakVHUFgyT2NsZC0xM2RKNFBDTWhucGQ0RzBzY0hUWnhaX0R3VVlKUnBsOUFEUGZLb1lfM19ZaWlsd2dsa0pvSWE4M25Edi1kQjlScmh2cmR2aVNzQm1hN3lNdkplM05iZUhCYkJSX05fenBhNmpIbDZEekplMW9pa3JTb2tJMTVrU2dWb2Vlcm5FSUtWN1JfWjZteFowSkFuRkRwcGdadXRjV296QQ",
+    "CBMiowFBVV95cUxQa2JkUU9NUVVNWFpUUkdsSkZ0Yk5nRHFVRzJPRVRhNmd6WnFUSHhrYkFHckszUENSdDc5b2ZaZG5qUDI5aW5jR2FHUll1M3Z4UWVSUW8wWWVFYmFBZjlfSzJYRXhmYnJzRWlUa0tyT1VFUEhwLVBrX005QWg4cTdXbF9wSmxzc0RSUGk0TnEwNEUtWk9GUDhYWDdSWE10dEFDNmFJ"
   ],
   "daily": {
     "d": "2026-08-18",
