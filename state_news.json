@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504192",
     "https://www.mmafighting.com/?p=504194",
     "https://www.mmafighting.com/?p=504200",
     "https://www.mmafighting.com/?p=504241",
@@ -82,6 +81,7 @@
     "https://www.mmafighting.com/?p=505616",
     "https://www.mmafighting.com/?p=505635",
     "https://www.mmafighting.com/?p=505673",
+    "https://www.mmafighting.com/?p=505679",
     "https://www.mmafighting.com/?p=505687",
     "https://www.mmafighting.com/?p=505714",
     "https://www.mmafighting.com/?p=505760",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "\"He said I am scared to fight him\", Prates responds to Morales calling him out",
-      "ts": "2026-08-18T18:30:11+00:00"
-    },
-    {
       "t": "“Bring On”: Islam Makhachev’s Coach Oozes Confidence About Their Next Opponent",
       "ts": "2026-08-18T18:30:12+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Islam Makhachev has surpassed Georges St-Pierre as the second best of all time says UFC commentator",
       "ts": "2026-08-18T20:00:00+00:00"
+    },
+    {
+      "t": "Kaik Brito explains relinquishing Oktagon belt — again — for DWCS shot: ‘I see my future’ in the UFC",
+      "ts": "2026-08-18T13:47:10+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Michael Chiesa makes color commentary debut at UFC Shanghai",
-      "url": "https://sports.yahoo.com/articles/michael-chiesa-makes-color-commentary-012737058.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T01:27:37+00:00"
-    },
     {
       "title": "Arman Tsarukyan Accuses Charles Oliveira of Using Allan Nascimento's Death as an Excuse",
       "url": "https://sports.yahoo.com/articles/arman-tsarukyan-accuses-charles-oliveira-025037831.html",
@@ -2105,15 +2098,21 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-18T20:00:00+00:00"
+    },
+    {
+      "title": "Kaik Brito explains relinquishing Oktagon belt — again — for DWCS shot: ‘I see my future’ in the UFC",
+      "url": "https://www.mmafighting.com/ufc/505679/kaik-brito-explains-relinquishing-oktagon-belt-again-for-dwcs-shot-i-see-my-future-in-the-ufc",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-18T13:47:10+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
   "hour": [
     "2026-08-18T20",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMi_wFBVV95cUxQV0t2S1hhOHhlajZJdXo0bG5kRmtLTVUxaGtTM1k3ZWVOVDlESGJkNzVYYWkzNjR0c25NUzhSNk1peW52eVlwZWZWN2dqUVNLQkRBbGJiWXVJT3BNbW82MFljTDViVFJzRE9nb3FZZGY3WW1ibG44WnpIZFZmNy1PX0FCNm9xWnlpTXowek54WGdoclJzTUk0MThiY0RhT3VVa29leHZ1VTllQTZFdTN6Rlk2OUpXQXpHTFVhVjM2YjNaMFNoR3FtZWxmaTZfQ2RqLTlqdzhlUEpFWU5CSGlqcHlONnk0Vy1OUlNvOHFDRTllMWMwT0lNWFhfenhRWUU",
     "CBMiqgFBVV95cUxNSmY1cmtrNTh0OFN0VU1xYktPdkxEZng5bndwRkJyMHB1NzJnenFEVHJmQUN4cHAzTlFkd1pVMUFDeklxTFpnZk9nVlR2YXk4TllYUllZcnVKbzcwaHhvZ1ZlUktOS09tSzRfY2FaR25tVFRvUXdvSUV4RDE4TjBlaHFFQlpKSW1kTFk1YktGSWFNWU9BamtFcTZtT2pRVWd2blJ4UElicDNtUQ",
     "CBMikwJBVV95cUxQX2IxOFBGRzlLNldUdTJUMUFvSUNoNUZBcnA2UzQ1NFpNbEpwcm1XUFYySkMxeHp1VGsyb3NwLWQ5TXgtWEJqUWFUYTNIa1ZXWXpDdkZxLW1XRnYwUkJveXJoQVNJb2dpRWhYYkZEMFg5M1RESHJVRWtULUNOVlhidWVhUzZzYnQ3TlE4Ti1pZHBacHN6VDloYVBEOVRHN0lRN3F6QkhnMldhcFh4ZXM1eno3UGFCdWJkSjZ5bXpqZWl2NXFDbkUzV0szbzZXWGx4Q2N1SUZTaElOUUx4ajRHQkk2MXF5WGk2RGJVdWZTdktDOTYzV2QyamFuUkFtMU0yYUdZUnpTb1JRYndUcDRoVUdJWdIBkwJBVV95cUxPQ0lEbmdxSEdBckxjYXNvUThmOGNFV21BUGVyWHhCUkQtV0RRZTlxYXU3dEFIR1VGbWdzRjBkTXZWNVZXN2JwMjhPUUtOQ3puc3F6bEFTVi1uYlRnT001V1Ryb2VGNEZEYV91bFBKWloxUUNmUVd3eC1mLUhCWk9kSGxyN2JSRFJBOGJsRzFhRXJxbV9pdVMwb0FMR2JRMjFISm1xcXI0QjVReFUtZUFrVE04bVprbmROdzFhU2R3emNpcjNFWUdEZ1ZoX2Ffa3JINkJ2QmVCQl9GdW9SWnJ3c0tvMXVkUVQwZDJkY05sWGNTR2VWektReGhjVElBTlRZQVV3T0h4R1RGOGVLVkp6c2s2dw",
     "CBMivAFBVV95cUxQblplblc0THpHdE5EQWJqdDA5MHJ0ZWg1aC1pN2U5WlFzZk1jUTRicHVrLS1QdGRsQ1cwMkJ5b3E0cGtCNkJidHZkVnM4M3JmVG5tdFNCTlhSZFRZQ0pQdG43RG4tVDA2WUNwT2NsNUVwRFN5bE5fSEplUko3YW5EckxjeEdLaU01ZDJ6amdEWm9EZC0waTFDWkxZOWRtTjNscVpFZ0duaGk3aF85akc1RHYzNGJaVVBvV0pVVg",
@@ -3312,7 +3311,8 @@
     "CBMi-wFBVV95cUxQb2FlU0pDemZyR05GWnZTX1YzaXNMYnNranQwN0tWd2d3LVBGV2N0ZE8tRFpkZDNzbmFmS0NDd1BkUUMtN1NMckRhSXNkclEtT1FMY2xTSExNcmV0TjItbEh4RElveGRUTUItNnBDeEpFQ2VKcjBiMUpCQkcwel83a1pUeDNZUGNUWjdPVlZWUlZJcVFQbmpOeklOM3lyVW5yTDVHa2JnVGxqUnZOTU1XWDBvSTBsTkFORHRzaHZUQ2tXaG5Gbkg4RTdWVVl1Z3AzNE1CRXBBdG1qM21TNDZhZzN2TmEyWTd3dmd4UXNuaG5nTTVSU0pYWjMxbw",
     "CBMilAFBVV95cUxNVEZyREpuQTNpa3RWcmdlWDlTZ1hlbEVITEhLcWZqRTlFcF81c1ZDSWkzV3M4eEc3T2tDR0tyVzREakhJQXB3d2NGWTZOUXR5Q3lxb3lBdmVEZHVOaFUwOW9Mek11OXlTNWxmcG1GeHNGZGdySS1JeWdNdGhfU2RJT09HakJYQjh4MUVaNnE0aWpidVVF",
     "2089801550655054251",
-    "https://bloodyelbow.com/?p=327571"
+    "https://bloodyelbow.com/?p=327571",
+    "https://www.mmafighting.com/?p=505679"
   ],
   "daily": {
     "d": "2026-08-18",
