@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Darby Allin Reveals His Mount Rushmore of Skateboarding",
-      "ts": "2026-08-18T16:36:38+00:00"
-    },
-    {
-      "t": "Islam Makhachev’s coach credits Ian Machado Garry as toughest fight of his career despite champ’s claim",
-      "ts": "2026-08-18T17:00:00+00:00"
-    },
-    {
       "t": "Mike Chioda Claims John Cena Wasn’t Happy About Losing to The Rock at WrestleMania 28",
       "ts": "2026-08-18T16:47:23+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Jalin Turner sees UFC as ministry, gives thanks to 'Lord and Savior'",
       "ts": "2026-08-18T18:03:37+00:00"
+    },
+    {
+      "t": "Khamzat Chimaev Takes Frustrations With Dana White & UFC Public",
+      "ts": "2026-08-18T18:09:37+00:00"
+    },
+    {
+      "t": "‘Only a Lucky Punch’: Arman Tsarukyan Reveals How He Could Beat Prime Khabib Nurmagomedov",
+      "ts": "2026-08-18T18:11:09+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Don’t miss your chance to win a trip to Los Angeles to see UFC331! We’ve partnered with @ThorneHealth to give away 2 tickets to see the action LIVE…",
-      "url": "https://nitter.net/ufc/status/2089472588539899981#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-17T22:01:00+00:00"
-    },
-    {
-      "title": "What should be next for Islam Makhachev: Carlos Prates or Michael Morales? 🤔 SpinningBackClique",
-      "url": "https://nitter.net/MMAJunkie/status/2089484983173857710#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-17T22:50:15+00:00"
-    },
     {
       "title": "Arman Tsarukyan questions why he's not fighting Charles Oliveira at UFC331 https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/ufc-331-arman-…",
       "url": "https://nitter.net/MMAJunkie/status/2089486481106604509#m",
@@ -2105,6 +2091,20 @@
       "source": "Sports Spectrum",
       "cat": "ufc",
       "ts": "2026-08-18T18:03:37+00:00"
+    },
+    {
+      "title": "Khamzat Chimaev Takes Frustrations With Dana White & UFC Public",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOVJJenQxZDl6QjlIT0dlcndWRG1nNmxIWndwVlpJWmdPSE83UXFEanlEWUlrVk85emNJMTA1OTNmMkpuWHplRzJFMG1GVmtaOGdLdlZlUzNleWV2MHVaRl9Wa2p1VEljdXA0RkdvcmtNbzZHNlN6aTY2blprUlZybnlHSG5MNlk2RU80?oc=5",
+      "source": "sportsnaut.com",
+      "cat": "ufc",
+      "ts": "2026-08-18T18:09:37+00:00"
+    },
+    {
+      "title": "‘Only a Lucky Punch’: Arman Tsarukyan Reveals How He Could Beat Prime Khabib Nurmagomedov",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc2l0NmdRNjNuYTVzeS0xdVVtdFBoNFN4VnhzSzFzbDRUdDRtemVoQjIwU21ibGxkMHdRcVdsWDA3bjU0TnZPWUo0elBNSnF6U282YnBTUXdIWFRXSW42UHhHc01MaEhEX0RNaUIyVHZGbFJ5UlhDZmlhNy1ZTS1YVVpaWDdFa3RwY1kxZ3FFMkh5X014clBYeVFxTHozX3FCYW1lR2lPT19qdGwyX05uWDBYWQ?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-18T18:11:09+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2089023220712091742",
-    "2089023612992811318",
     "CBMiYEFVX3lxTE1qUEdZeVN2dG1EblJnbDJ4cDVrTTlZMGRYY0s1OHMxa2l2T01IcngtS3k3b3VOMExtZ056d1g0TWpMbGY4dWt2bEY4M0xuS2wxQVBHQVFHOGluVDB5aHdOSA",
     "CBMilAFBVV95cUxPaU4yNXdlRk44NnhjZXB1SXJoT2U2UGtrblpwaWowOFhQa2g1RXE0VkNjSDlnNHNKN0E2TG5mQkVDY00xTUFBcmc4YnV1c042ZWR6eUYwLUNFTzlsSDJhUUJOT3dnR2J2SDFyVGtsYjJHb1FZMVRwVUNZOGgwbFlTMmhrR3JFQXlRTHBRbXN6aTZ0ZjY1",
     "CBMihwFBVV95cUxPR1VJQUtabHZnbWpXU2Nyb0gzdHBpbEx2czVEZnZjQmtDSzR4aFkzTVlIU3VsanI3NkFlRXFPOTBLVUpWSExCall4ZkYxWDV3VVY0d1RhU3haSGc3YlpDeFowUlJ4bHNQb0I2OFROV1dpQTV6dTFjZFBvS1Utd1Q4b3M5TFVTQUnSAYwBQVVfeXFMTUFTeDJ3aUNwWHZwTDV4WG1qckpwNXZxSWJjUWtUaE91SGdza3BBX2xOU1F3cEZqdlc4UzVnOWN2eUFVTFpfbHpJc2gyS3FXS2RiZnR0WVZ4V2JXYVAwZzh5blFPajhFUTZDbF8xclFZajVCSHlYNDN3QThDM29fVXN3Sl8xN25UdTBUVXQ",
@@ -3312,7 +3310,9 @@
     "CBMilgFBVV95cUxQRjlNTThzMXRWOURXbGtCTGVqczlMMTBOMHdhWHZuQmx3djNLM3R4NFIxUk1hT2V3VWNjQWNCaEE2aW4yeFhvRXlqWGhQNV9abFhwR01nM2FRQk1XQlRBVXhLQjB0OXhzZ3dnUExYRV9ZNlU3UFhzNEVLcGhDdXlwYmJUUFB4Z3E4OG5ZanNYTTdaZFRwdnc",
     "2089774033823003073",
     "CBMiqAJBVV95cUxQMnYzTmRraFdWYnRFRVNYN0pFeVhreDFsU1RjelN6cUZucFdWZHdXSVp2WWE2NDBXZEVqVG1PN1FlTUhqZ3JVT1JvZGpYVi1tb0VGWGctTWlvQWNkSHpJRHNyc3BPZDlWTW12NzVJWGl4NnNpYk4tUjRfdzhURG1LWUZsRWJtM0d2cEd5SkgydW1TRmgtOUdnZlo2Y1FBV1pkeHdtb0hmZXZPV0NrZHBBYXppMWZ0RTlXeXlNZUtiTGZ1R0lWMjdaWEUxZVpyYkowSm0yTFN2Mll1S3FpRXZtY2VjSklMWmM2YnZjbFctZW1kdjZmZEwwZmNibXl3dTFHSWY5Wk14U1FtMHVpTmZnUHdHajRyUDdwbC1FMGpFYWFNUjhFWnUtWdIBrgJBVV95cUxNUnBEeVdxci1JbUg4djFHbklrUndPYWJBdEI4YUdDTjdnaHhuNkQtdDZwRUVKS1kzbWJIYnY0S3UxWjlHOXVJM0lxOFM3dXBzQnBVRV9GaUwwdlNhZXpFTjlnRkVZbzRiZEpCTEtDVDcwajFDLVJqWDZ2Q3BLNXJtS1l2SEVGVXN5UkZpUHQtSm9HUHZJS2l3WkVtMXhBdUNSZ1cwT09oejJwckNsMThudzJuc0kxbDJJa19lWk9TUHlKSFVaeG9SM1FoeUt6dUNDbi1qRVdvQW15WGNjY1paUmJnU2pqVVM3ZWpEVTA4SW9uNHhTRlB4N21UclJuOUNJdV83a2tsYXNMUU1Td3FPQ2ZkZk84MVIxX0MxVEJTMk10cDc5bHRRTTJyNjIzQQ",
-    "CBMioAFBVV95cUxPN0ZTODNlbk11OGJmdTdhSzBzeGV6MTFEVk16V0wwRG9QRWN3eUEzOXprV21YRlI0UE1HM3c5SGljdVJCWm5jZWNMZm9NSlcxVW5YVlFRWlVEREhsMWg2TTJFQWZwbTNNdy13VkJDUWZfbFM2NGRscnZaMGplWkRibThVM0FGZE5DcHRtMTE4SzRZcjFQY3Rvc3Nzd3BLTTdY"
+    "CBMioAFBVV95cUxPN0ZTODNlbk11OGJmdTdhSzBzeGV6MTFEVk16V0wwRG9QRWN3eUEzOXprV21YRlI0UE1HM3c5SGljdVJCWm5jZWNMZm9NSlcxVW5YVlFRWlVEREhsMWg2TTJFQWZwbTNNdy13VkJDUWZfbFM2NGRscnZaMGplWkRibThVM0FGZE5DcHRtMTE4SzRZcjFQY3Rvc3Nzd3BLTTdY",
+    "CBMiiwFBVV95cUxNOVJJenQxZDl6QjlIT0dlcndWRG1nNmxIWndwVlpJWmdPSE83UXFEanlEWUlrVk85emNJMTA1OTNmMkpuWHplRzJFMG1GVmtaOGdLdlZlUzNleWV2MHVaRl9Wa2p1VEljdXA0RkdvcmtNbzZHNlN6aTY2blprUlZybnlHSG5MNlk2RU80",
+    "CBMiswFBVV95cUxNc2l0NmdRNjNuYTVzeS0xdVVtdFBoNFN4VnhzSzFzbDRUdDRtemVoQjIwU21ibGxkMHdRcVdsWDA3bjU0TnZPWUo0elBNSnF6U282YnBTUXdIWFRXSW42UHhHc01MaEhEX0RNaUIyVHZGbFJ5UlhDZmlhNy1ZTS1YVVpaWDdFa3RwY1kxZ3FFMkh5X014clBYeVFxTHozX3FCYW1lR2lPT19qdGwyX05uWDBYWQ"
   ],
   "daily": {
     "d": "2026-08-18",
