@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Eye-Opening Photo Emerges of Islam Makhachev's Face Two Days After Ian Machado Garry Fight at UFC 330",
-      "ts": "2026-08-18T11:20:50+00:00"
-    },
-    {
-      "t": "Israel Adesanya and Demetrious Johnson Lay Out Islam Makhachev’s Post-Fight Future",
-      "ts": "2026-08-18T11:25:37+00:00"
-    },
-    {
       "t": "Meet the fighters competing for a UFC contract on Week 2 of Dana White’s Contender Series",
       "ts": "2026-08-17T18:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Shane Gillis 'Stood Outside in the Rain' to Avoid Posing for VIP Photos at Donald Trump's White House UFC Event",
       "ts": "2026-08-18T13:32:59+00:00"
+    },
+    {
+      "t": "Makhachev's Next Fight After Historic UFC 330 Win",
+      "ts": "2026-08-18T13:30:45+00:00"
+    },
+    {
+      "t": "Joe Rogan questions Islam Makhachev's ability to deal with bigger welterweights with \"nuclear power\" after UFC 330",
+      "ts": "2026-08-18T13:34:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Max Holloway not a fan of Islam’s two-belt flex at UFC 330 (but everyone is doing it)",
-      "url": "https://sports.yahoo.com/articles/max-holloway-not-fan-islam-162538514.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-17T16:25:38+00:00"
-    },
-    {
-      "title": "Edson Barboza Explains Retiring From MMA After UFC 330",
-      "url": "https://sports.yahoo.com/articles/edson-barboza-explains-retiring-mma-165444584.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-17T16:54:44+00:00"
-    },
     {
       "title": "Daniel Cormier: Islam Makhachev was tired, pushed like never before at UFC 330",
       "url": "https://sports.yahoo.com/articles/daniel-cormier-islam-makhachev-tired-170029634.html",
@@ -2105,6 +2091,20 @@
       "source": "okmagazine.com",
       "cat": "ufc",
       "ts": "2026-08-18T13:32:59+00:00"
+    },
+    {
+      "title": "Makhachev's Next Fight After Historic UFC 330 Win",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yU04tUlAtNGV6TmZmRlNMVlVvelI3QVNRUHJNQkRmbWVNU0JPR2FIQmxrV0xINlJvaHNSQWx5VlJvWThKYTBrQ184RXBOMmZiSFV2ZzdnYm1SbGMtdkxIMEJtdl80SWVw?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-18T13:30:45+00:00"
+    },
+    {
+      "title": "Joe Rogan questions Islam Makhachev's ability to deal with bigger welterweights with \"nuclear power\" after UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNUYyemxjQVB6djVXZWF6dDJ2eGluVUhUZHZWLW9FN2VmUE40V3R2dndBbEU2ZXJVVUNnV2J0SWFEWmYzRVpWOFdhbVh5NEt5ODg3NUkxRTNlNUhhRDg0Tno2TXV0aHZNTm9NYmotcW9NVXExdzdUeTFraXJHVmF0c0x4SW1KRU40MUR1bXU2bE03Yk5kdGtVTmdZMlJ6VlZJWUJjV0FBOXlLaXFSWElEM2tobm1GM3JJVVc2alExR3FFS0V5NXpNbmJR?oc=5",
+      "source": "Sportskeeda",
+      "cat": "ufc",
+      "ts": "2026-08-18T13:34:00+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMidkFVX3lxTE1hWUxiTGUyb0NOMGFDQjY3VXlzMXQtWFlydjQzbHRlOGJJTTZhTUpMTEtrcW5jR25SaEpjeHlrNFktNEF5WnlLbGdqSVd1SnVkbERIYU1NRGFmT191bTZZRTFrMDFfRW8wY24tOW0tclZQTFFoN3c",
-    "2088960320970653912",
     "2088970454363213872",
     "CBMilwFBVV95cUxNQmtVUDJ2cTF6TnIyRFlzb1VQZGdPcUZzVjQ3UjNUWFUtck8tZFFqR0M4aGZwRHh4MVlqendPRlEwREdjZlh2cHMwdzlYR0lPLUQyQkE3Rkg0NVhRUko2Y0RfUnJTOTBVZ3NIdWp1My1mR1VHNllDZFd1Z1lFdXFWN09OR09aNE9VT1dLTHFMc3A3Sm8yQzhZ",
     "CBMiiwFBVV95cUxPZUdIQjUwUENuNzhXWWt0QlFaOV9hcVJ3RElUSnhwTmNRZnF3SnhXa0J3RFF1X0drSmNSLUIxOFhVckZpeWVGbXQwcGM5aTJrVXJlQWo0MnpNOWplb21kUmxVN2c2LWN0QlRrVWtVRDRTN240YTc5dXZXS3U2Z3htcXdLZjB1WE9rYjl3",
@@ -3312,7 +3310,9 @@
     "CBMijwFBVV95cUxQNXJaNTc1bzY4YUNwTUt4elFkbTBOdkl0bmpUbHh0UFNtVWl0Rl9IV21sWFBRaWw0THBrTUVEZVJiU25ZTDlhZk1DUUNBQlR4RmZnc29hSVBLcU10VFpHdlk2MWJkQTRWMl8zbDBmRXlkZURIMlNFd2JrOHpLLW5nSk1XQk9RUGlzME14TThLbw",
     "CBMi6gFBVV95cUxNdE51MGR4clBDZ3U5bW41SXRSLUN0M1g2Qk1kR3kyQ1ZyZVNyWnh1V09VajBRYUl5QjRJRndRWlV3V0xrRktJTC1UOXM2RXh4NzQ1a0p5WHM5X2g1WHUtcnNYSko3TEg1bmFVaWtzNWVrZTV6ZE9YVUFLX2tTRGZLMlRyYnFBQXgtaUtKUk5kV1lSVHpJTUpQd3pGMHFnenVPMGp1VVcwbndoQzBjTF8wS092eE45Wmg3X1ZyTXo2a2I4Zm1SMkJXUUZjUUJUamhuNXVHcXlKU2RUWGZuaGxuZmtObXdiQmoyTEE",
     "CBMipAFBVV95cUxOQmJXaVRxcTFPdE40ZnZPQXlOM1Y0d05HQmRHYm9KZ1JrdkpRa05kbUpNZUFLYTZBZmhRMW5vWWt2eXRCdkFJckhxQlBnOU9zNk1zV2FHLU8tQTI3VXJuQU5TbUhUcTEyQUdEa3dBcFJKcklWdkNsRGg1VlJkTzdUSE92WmE3YldDdHZaeXFGVXh1SGVFTmZod014N2pDUVhuNG1kWQ",
-    "CBMiqAFBVV95cUxOaF9vaGdiX3ZPbmdYOGt2eXBqQnJmMjRjT2o3T0c4Mnl0YTF0czllNnpSRnBrV29lRDh5d1RDQkFMZGdJdUJab0RSaTBMUzZ0MFJTS1lXN2x2bnRsbGI0ZkNTbUJSS2R5YW5zMDQ3MURaQzJPa1BlQ0lIeHpaUGM2Q3BTekVmSXhnbE9MZ0w0b0RvdTJpNHNVSjFDU2VvWlN4WU9OTXJGME8"
+    "CBMiqAFBVV95cUxOaF9vaGdiX3ZPbmdYOGt2eXBqQnJmMjRjT2o3T0c4Mnl0YTF0czllNnpSRnBrV29lRDh5d1RDQkFMZGdJdUJab0RSaTBMUzZ0MFJTS1lXN2x2bnRsbGI0ZkNTbUJSS2R5YW5zMDQ3MURaQzJPa1BlQ0lIeHpaUGM2Q3BTekVmSXhnbE9MZ0w0b0RvdTJpNHNVSjFDU2VvWlN4WU9OTXJGME8",
+    "CBMiaEFVX3lxTE4yU04tUlAtNGV6TmZmRlNMVlVvelI3QVNRUHJNQkRmbWVNU0JPR2FIQmxrV0xINlJvaHNSQWx5VlJvWThKYTBrQ184RXBOMmZiSFV2ZzdnYm1SbGMtdkxIMEJtdl80SWVw",
+    "CBMiygFBVV95cUxQNUYyemxjQVB6djVXZWF6dDJ2eGluVUhUZHZWLW9FN2VmUE40V3R2dndBbEU2ZXJVVUNnV2J0SWFEWmYzRVpWOFdhbVh5NEt5ODg3NUkxRTNlNUhhRDg0Tno2TXV0aHZNTm9NYmotcW9NVXExdzdUeTFraXJHVmF0c0x4SW1KRU40MUR1bXU2bE03Yk5kdGtVTmdZMlJ6VlZJWUJjV0FBOXlLaXFSWElEM2tobm1GM3JJVVc2alExR3FFS0V5NXpNbmJR"
   ],
   "daily": {
     "d": "2026-08-18",
