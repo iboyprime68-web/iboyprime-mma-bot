@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Javier Mendez Calls Ian Machado Garry Islam Makhachev’s Toughest Test After UFC 330",
-      "ts": "2026-08-18T18:23:56+00:00"
-    },
-    {
-      "t": "Joe Rogan isn't sure Islam Makhachev can handle welterweights with 'nuclear power'",
-      "ts": "2026-08-17T21:10:18+00:00"
-    },
-    {
       "t": "Mackenzie Dern rips her own UFC 330 title win: 'I would not want to fight Zhang Weili feeling the way I felt'",
       "ts": "2026-08-17T21:29:42+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Think Neil Magny’s planning out his retirement fight after his record 25th #UFC win at welterweight? Think again, pal. #UFC330 https://mmajunkie.usat…",
       "ts": "2026-08-18T00:35:57+00:00"
+    },
+    {
+      "t": "Khamzat Chimaev Takes Frustrations With Dana White & UFC Public",
+      "ts": "2026-08-18T19:40:53+00:00"
+    },
+    {
+      "t": "Gillian Robertson Shuns Din Thomas After UFC 330 Comments",
+      "ts": "2026-08-18T19:41:15+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "High-altitude scraps in SLC ➡️⛰️ Tickets go on sale for UFC332 THIS WEEK!",
-      "url": "https://nitter.net/ufc/status/2089715468169015719#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-18T14:06:07+00:00"
-    },
-    {
-      "title": "Aiming to make it back-to-back wins 👊 Serghei Spivac looks to defend his ranking this weekend at UFCSacramento! [ LIVE AUG 22 at 8pmET on @Paramount…",
-      "url": "https://nitter.net/ufc/status/2089759230848815221#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-18T17:00:01+00:00"
-    },
     {
       "title": "Glover Teixeira offers some advice to Herb Dean: \"Herb Dean is a great guy, nothing against him... I feel like the guy just needs to take some time o…",
       "url": "https://nitter.net/arielhelwani/status/2089786228413698152#m",
@@ -2105,6 +2091,20 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-18T00:10:58+00:00"
+    },
+    {
+      "title": "Khamzat Chimaev Takes Frustrations With Dana White & UFC Public",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOVJJenQxZDl6QjlIT0dlcndWRG1nNmxIWndwVlpJWmdPSE83UXFEanlEWUlrVk85emNJMTA1OTNmMkpuWHplRzJFMG1GVmtaOGdLdlZlUzNleWV2MHVaRl9Wa2p1VEljdXA0RkdvcmtNbzZHNlN6aTY2blprUlZybnlHSG5MNlk2RU80?oc=5",
+      "source": "Sportsnaut",
+      "cat": "ufc",
+      "ts": "2026-08-18T19:40:53+00:00"
+    },
+    {
+      "title": "Gillian Robertson Shuns Din Thomas After UFC 330 Comments",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yNTlQTk5fVFZ4TzVvd05YbllqdXRHaUd5dzR5ZTBtbVJqaEJfZmloYnVsYTBKbzdUOU9IbEpWQk0wMW1TQ0k3VWVEZ3pGdjJSampYREVodXdBekQ0Q29KOC1mVGZoSFBSNmx2Y2tn?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-18T19:41:15+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "a4023e88-9df9-3a96-bf48-dd6d70b38979",
     "CBMigAFBVV95cUxNR3FDVUFIdjRPY0FhTmc1dDVfUFNyZHVaakp4S0ZXT3U1SzF5b3lZUzd5a0Q2TUg1Q0VPdDFXekpNZm5LQ3NXNV9odXZjUGRoQjBSaHFnRDRLbkxaa0t4bWhselB5a0tuZVZwMXc2UmRRa0FGZjFGLVN0clh1eUliOA",
     "CBMisgFBVV95cUxPYk43QWR1Y2NlT05YcUJLQXRHVkNEVkd3ZUFidWVEUVVITE5pQTRKeVFLQXZvQTMyd1dzSFpqcTRRbm9HOUVqS1ZPSVlrRWlFWkdmU2FrSExyMnktd1BpT2FiOUdBTGlDN01SUTI0bWY5cHdraUhvQnJnX0VuYVRhVGJzVEdrVGU1dnBkdU1oczJrUnBGMGNCdElkZWFDdVVDbzRrYXVTQjZjQnpucjZVWHVR",
     "CBMiyAFBVV95cUxPN1Zlc3JqeXFSaXBMZVlfVmFFX2lRUmthREY1eDRnU0hJRjA2bExMb0Y3a1ZaUG12aHVFUXBJWHAtTU9fUm42QUdJc1pyTWVQd0hyRkVXeU9uUjFtM0t1TElvakdadTJTQ0Y0bE9YaFVNTk5XRDVHQlVIZXM2T3o1ajk5NWFDMlc3YlBYbHZ0czk1YkVBaC1SY1c0TlRFYVhucG1iZ2FtNTh1NVVwTm1TWmE5akFlVlNGNFJ2bTY1cW9RWnNlUWtwYg",
@@ -3312,7 +3311,8 @@
     "CBMigAFBVV95cUxOMkdsV0ZYeUlJY2ZaVlkzUkdVQno3YUdXRDQtS1FLWW1GcURHYzhpdTJ5emVYTWpZZVdjQjdsVDU2dWo3YWhidmdYYmZmcGFud21xSTJoRXQ2ZWdMR0tSVDlaUVVneWxZT1FvTC1leGNFODB2Y2VKOW1PMDVXSkY5VA",
     "CBMiiwFBVV95cUxNSVl1eGVCbGhsaVlMbnJ6dDh4cXF4aG9obFo4NUJaZk9CMHVPU2g4dUFUOV9MM003S3ZBb0hTS1J4WWlZTlNlb19NN1FrTm1Cb3RTOUY5YjNiUVR5eV9BUVZ4VUotTHNqWjJvT25YLXZlRVRsVDktSFdJcVJ6NE0xUno1ZnJzM1ZrTkNr",
     "CBMivgFBVV95cUxPODBZU3ZjYmlBR1cwWjlCZWM3QUdqMHg2amxaXzBicXlISGFTcGRZR3NRcVJtY2NBZUZhaFBOMWpRUVNpV0xxM1dBNTF1TnZxVnVZY052MzdkeUhSTkdnZEJDUFdSbFRQdjlUejRDcmZDc0tVTWJrMFN2dzhaUHJ2cVk4bUU1TEtlVFh4Y0tWVk1iSklOUHY5VHJ2R1ZPcXc4WmoxWVdhTVBTc2pYMC1FS0NqXzFGR2xzaHJ5eVN3",
-    "CBMibkFVX3lxTE51LWlubnNRWmxDVjVIZU1jbUNxTEdYb1gxaWtwOHJtck1ZVnRHNXJtbTZBNjFzb1hCRlFkUmhDeUJ3VlVFRmNFcmdkRmRsX1dCd0h0NURXal9Ick9FalBiMGtaMGxwdUVDQnNMT0tR"
+    "CBMibkFVX3lxTE51LWlubnNRWmxDVjVIZU1jbUNxTEdYb1gxaWtwOHJtck1ZVnRHNXJtbTZBNjFzb1hCRlFkUmhDeUJ3VlVFRmNFcmdkRmRsX1dCd0h0NURXal9Ick9FalBiMGtaMGxwdUVDQnNMT0tR",
+    "CBMibkFVX3lxTE8yNTlQTk5fVFZ4TzVvd05YbllqdXRHaUd5dzR5ZTBtbVJqaEJfZmloYnVsYTBKbzdUOU9IbEpWQk0wMW1TQ0k3VWVEZ3pGdjJSampYREVodXdBekQ0Q29KOC1mVGZoSFBSNmx2Y2tn"
   ],
   "daily": {
     "d": "2026-08-18",
