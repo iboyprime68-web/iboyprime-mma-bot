@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Huge upset = Huge reaction Dustin Stoltzfus had our commentator booth shook at #UFC330! [ B2YB @TotalWireless ]",
-      "ts": "2026-08-16T21:56:46+00:00"
-    },
-    {
-      "t": "The people have spoken 🗳️ @INNERG_UFC came through with the best celly of #UFC330! [ B2YB @BudLight Summer Series ]",
-      "ts": "2026-08-17T00:00:01+00:00"
-    },
-    {
       "t": "Back in Sac-Town 🙌 It's #UFCSacramento Fight Week! [ LIVE AUG 22 at 8pmET on @ParamountPlus ]",
       "ts": "2026-08-17T15:01:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": ".@RatedRCope discusses what stands out to him about working for Tony Khan: \"When you boil it all down, the most important thing is that he's a really…",
       "ts": "2026-08-18T20:06:07+00:00"
+    },
+    {
+      "t": "Henry Cejudo has doubts about Ian Machado Garry ever fighting for a belt again after #UFC330. \"He didn't really sell the fight and it was just too ku…",
+      "ts": "2026-08-18T20:05:01+00:00"
+    },
+    {
+      "t": "Glover Teixeira Says Alex Pereira Should Knock Out Josh Hokit After UFC Freedom 250 Loss",
+      "ts": "2026-08-18T20:18:18+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Sacramento: Make predictions for Anthony Hernandez vs. Gregory Rodrigues",
-      "url": "https://sports.yahoo.com/articles/ufc-sacramento-predictions-anthony-hernandez-134020990.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T13:40:20+00:00"
-    },
-    {
-      "title": "UFC 332 adds several new bouts, including Johnny Walker’s heavyweight debut",
-      "url": "https://sports.yahoo.com/articles/ufc-332-adds-several-bouts-153000730.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T15:30:00+00:00"
-    },
     {
       "title": "Between the Links: Reaction to Islam Makhachev’s win at UFC 330, Din Thomas; Plus, previewing busy weekend",
       "url": "https://sports.yahoo.com/articles/between-links-reaction-islam-makhachev-154500109.html",
@@ -2105,6 +2091,20 @@
       "source": "Ariel Helwani",
       "cat": "ufc",
       "ts": "2026-08-18T20:06:07+00:00"
+    },
+    {
+      "title": "Henry Cejudo has doubts about Ian Machado Garry ever fighting for a belt again after UFC330. \"He didn't really sell the fight and it was just too ku…",
+      "url": "https://nitter.net/MMAJunkie/status/2089805789472895075#m",
+      "source": "MMA Junkie on X",
+      "cat": "ufc",
+      "ts": "2026-08-18T20:05:01+00:00"
+    },
+    {
+      "title": "Glover Teixeira Says Alex Pereira Should Knock Out Josh Hokit After UFC Freedom 250 Loss",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS05rQXV4eU5GTjhValNVVlphWHgwQXI5NnNVRVZWMWx0Z0lZTUQ3WjlUT3RSMmxnYVJsbXRjQ1BsM0RyRkZNMndtQU1NN1kxX2hGOS1QWXVrMTR1NVRlSXlySXVXeEJWN3NDSElzall3NUNZR2lXQkZHSU1zemoxSl9nUVdVbmNpYUlEX0sza1Uydw?oc=5",
+      "source": "middleeasy.com",
+      "cat": "ufc",
+      "ts": "2026-08-18T20:18:18+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiogFBVV95cUxPZGdGNGlsSVZIbi1Oc1VEYmdpMnN0eG5PeFBrUy1TT201OWE1Ti1lVWZBc3NTRWcwOFZHbmo3djhkOWo5cElsQmJENmk0S2lSLS1LWUJldjdtdnBVcjBSTGk1cnRpZlZCMzJPMWpvNEJOdTZudzdxZWhBUUxFUU5zOXhoWEI1eUVramVNekU1Z2NuTWo5OEctbXZDQ0YzZG41VUE",
-    "CBMiYEFVX3lxTE5WYXJFOU9RT29vWlpSU0ZaMGc1aWE3NUZBR3pKZlBkUjR1MEhoeGtaZGk1SXBTZjl6eVZfdXc0eWtqRDJ0U19sZTNyNmdwWnhkOThkdmtVSkdKWkc3eUR3dw",
     "CBMiW0FVX3lxTE1MM29XbV95MjFOMXpKUUk0Zm96SnU4ZzVqWUdMLWFMeFQ1bmN3RExiTG5EelhjNlRmWnlXdFFPVl80d2Y2WlZTVmtHNjZOdzZRUU0xdmw1aElfYmc",
     "CBMiW0FVX3lxTE5tcENrWGUwRDl1MFBHQ0FtbWRKUWJBRTJkVnl6Nm05VS1CRGxTSFZNaFVZNUZsQ3Vydml0eElxWjFKR285SFBDS1NybXBLMVV5WU11X1RjUnN3ZWM",
     "0096d3b3-dcfa-3051-85c4-97f1ac2bf3c7",
@@ -3312,7 +3310,9 @@
     "CBMirwFBVV95cUxNTXhyRDEycldiRU8zamJTNG9qOFViQnQwS2dsbkRkaFNuTWJMaUtybE9HVE1YUzVwTGVOaUptd1A0S2pHbDZVRGJYYjh2YVpoRURQVXhXRnBuNFhiS3E1VmJGaEZSa3dLX09uTlg4eFUxbDg4b1RqSGExTnZBeDdOb05fSGtDNW9ETFFBQVZoZlJJdGNIQ3BRYTBWQ2FYUUdjckVVTWtVYXkwOFFLaVg0",
     "CBMisAFBVV95cUxOeGtGcU9zNmtxcTMwc0JBaHVwcDFNdFBta0N3TXpJNEdoOTZwZkZDOTh4UV9CSjZ1SnhpZEUyam56SlMxWkt0RHZIdmRpRV9Wa0x5OWFYTXFxTHhfak9pMElubkxVNHN3bjhHTDVSb29qQU9CMDhhWmtwMGxxTkdZMnN0Q2lJblJyV1lNVzM4X0dqbVFBNEVVZ2J0b2pQaUR6d0FJRk9FYkZkeVRJWjVFRQ",
     "2089806576249127364",
-    "2089806067882725859"
+    "2089806067882725859",
+    "2089805789472895075",
+    "CBMikgFBVV95cUxOS05rQXV4eU5GTjhValNVVlphWHgwQXI5NnNVRVZWMWx0Z0lZTUQ3WjlUT3RSMmxnYVJsbXRjQ1BsM0RyRkZNMndtQU1NN1kxX2hGOS1QWXVrMTR1NVRlSXlySXVXeEJWN3NDSElzall3NUNZR2lXQkZHSU1zemoxSl9nUVdVbmNpYUlEX0sza1Uydw"
   ],
   "daily": {
     "d": "2026-08-18",
