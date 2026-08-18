@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=503982",
     "https://www.mmafighting.com/?p=504006",
     "https://www.mmafighting.com/?p=504025",
     "https://www.mmafighting.com/?p=504032",
@@ -851,6 +850,7 @@
     "https://www.mmamania.com/?p=465672",
     "https://www.mmamania.com/?p=465677",
     "https://www.mmamania.com/?p=465721",
+    "https://www.mmamania.com/?p=465728",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC Sacramento preview: Start time, full card and how to watch Anthony Hernandez vs Gregory Rodrigues",
-      "ts": "2026-08-17T13:00:00+00:00"
-    },
     {
       "t": "Joe Rogan has one major concern about Islam Makhachev after watching his record-setting UFC 330 win",
       "ts": "2026-08-17T14:00:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Din Thomas Apologizes for Announcing Retirement After UFC 330 Loss",
       "ts": "2026-08-18T11:13:48+00:00"
+    },
+    {
+      "t": "Carlos Prates denies turning down Michael Morales fight: ‘I’m not scared’",
+      "ts": "2026-08-18T11:46:15+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dillon Danis begs Dana White to let him end Islam Makhachev’s historic streak after UFC 330",
-      "url": "https://bloodyelbow.com/2026/08/16/dillon-danis-begs-dana-white-to-let-him-end-islam-makhachevs-historic-streak-after-ufc-330/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T03:00:00+00:00"
-    },
     {
       "title": "What’s Next For Ian Garry?",
       "url": "https://sports.yahoo.com/articles/next-ian-garry-130000546.html",
@@ -2105,6 +2098,13 @@
       "source": "The Times of India",
       "cat": "ufc",
       "ts": "2026-08-18T11:39:00+00:00"
+    },
+    {
+      "title": "Carlos Prates denies turning down Michael Morales fight: ‘I’m not scared’",
+      "url": "https://www.mmamania.com/ufc-news/465728/carlos-prates-denies-turning-down-michael-morales-fight-im-not-scared",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-18T11:46:15+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiXkFVX3lxTFB5d2dOSTVLaXI1eXZPWC0waThEVDdmd0ZmcU1KTGRGeE5SNDRLNFI5aUlvNllnNXd6Ujk2N3ZUU3g2YjlHUGdvRWt2TkxLRFdKbTlaUkxvYzdZaV9iSVE",
     "CBMirAFBVV95cUxORHZJQVE5dk1jdVVUNE5fYldudFY3Qy1NREFmWG80VlZwSDM2ZzIwNzJKR3c2OWhIWXM2WlBiSkYycm5xOHVxTkxNa2xJVkREeXZGYWJaSkFVS29VbFdiUUlnN0ZxVGFWcjRickpyVGFadzFfNHdqYXNodTg3MEZ3M2JsZTNLb2o5VV9yUl9tc3FsTFd1czRIN25GQ3FOU1FLREl3X1ZVM01YU3U2",
     "CBMiakFVX3lxTE96eEs5Q2dQQWNNM2IwOVZVX2NLQ1Fpb1d3TFVZdmQ4X0N3NERLbTc0LXR5S1Q3RFFnZ0pzRGw3YnA1bUhKcE0tY3ZBaDQ4SEFTUDB2ZDlZc05fMWJzemFvdEJOSElUeGJmdlE",
     "CBMiqgFBVV95cUxPTzlYd3FFQ09vak5YTmRKaTlqa2hsMy1jZ2lGVDVNQ1NSai13OF9tMjJiWFZ0VE5DeG1mczFhWWpHUDZmR3VHenhIcDlQLXhNZ25xN05vQlNOekF4Sm9vaFVHcF96VEtVbnNTY0VNcF9hUlhrWkV1MkJyaGRuR0gxN0sxTW40WnlaYkdhcDdydXVvX2RrQ25aVjQyeU9HOURmOWFsaXBUMVQxQQ",
@@ -3312,7 +3311,8 @@
     "CBMizwFBVV95cUxOUXhpLWhQSFprQzczdGRUSW9GdzNWWS1rM3FQWm5vTWtUdDhpNUwzTGZZeHpja3NKcFRJNGNsNnhBOVdJQXM1d1lKT0JFRm1PQ1JISFlNclVEMjBEX3BkRzZzLXA0ZmZjWmQ0c2V5Vnc5OWtCMFdzMWg4N1pXc195M0dYUXdWZFhfOXpSbWgxaWE5cjBHUzlJX09SNkJZbkVoOU9rejNmcXN3YzE3ZHRCQUR3eUY0eFJwMTZGMmJCZnJhM0xYTlV2eU9qMUpKbUE",
     "CBMikAFBVV95cUxOdGxDVnl5NVMtekNmdEdYUEc5UW82YWZ3UWE3QU40M1FQTXE3SUNKZDJXSExNMndoNWNYenJMeXVZTEVhbzZjVzY5SzdVVW5JbDZBQmxCSmdnb0lWazQwaVhyVExseWtFUjRJNThid01vS0ZHSkhQUHNIQTUzVVlqakp6Ukw0MXhfUEp3ZHQ2NV8",
     "CBMizAJBVV95cUxOY0ZFVUVUbmVaRVVyckliZWE4eEJWV3dOX055MG9qTVctWTg4ZWUxby1pVkhJMm51a213eklwVUd0OGZLMEo0X2VKRVMxZDBNMFdYVEEtdnR4Q1hYM2t3RnBCdENwaWR1VVQ3LVNJZFZqZTd4WW1OMVRUNFZpb3NNQWRaZFpNVjIyTU1WbHR3WVhieGFhUUVWRFNid3g3TUFkMkUzYnFHVmtKQ05BVnRuaFdrSjFyNHZ1NG5PeWg4WmkzUzBZQ2REcW1pY3gtZTJkSjlseXd1aFBJZGV1TndyVW1xTzZkM1BnZlVhUkxoTkdzWDhsSnUtWC15RUlEQ2Y0VXRHSl9UMVJ6MEZlMDhVbkM5TGZjUjR0VmJ1R1FyaXlhMUp3NW9OMFRvbXJYbWtQM25ONVRCQXZ5cmttUzBiTWpIVVB0TUpQa1BvYdIB0gJBVV95cUxPT1dyZFo2aTRiVTdqUU9Yb0RMZVhGcFlaTG5JbEIzY0dQOUprLUQyVW1qc3o5SFpkN2JZLXc4WlJLLVdMeW0tZVFmREU5b1FFbHhSd2d6aDFEVFdqdHprTGx3c0tWWDVKYnNpaThzVTRXZ0FtLUpDemc1RUZ4V05pNnM5dEdxWWVLYWlaUEZ4eFBSbXZkblZnR3g0R3hzQjVPeDBkVmtXR2lDRlNQaXlIem9LQlNBalgwQnBxNTJHTzVxS0FkN2NsU21WeFJjbzFOMENsNDR6RjdreUx3Mi13dWF0SG5DVEIyVDAzajdPcWV6bkxuQ1l2Vk1XUzVLY2tzblhQaHdDR0h2Nzc4bUZKNVBvUFMyV3dwRFVTR0VhTlNscDFha2VkZHBBeXk3bDE0b1ZnN1hoSWg4ZGFUNHpHeHNVY1BmUU1IUk5pdTY0UkdHdw",
-    "CBMibEFVX3lxTE5xdHVzNUtMR0hEbWp6aS1KR202NzJiWGVUUU5YSjRta2JnU1ZHalZ0YzYtM3JKMG9qcHdEamRndjlvdFRxSDZiTTEyeVoyUzZBS1l5YmFqUUN2blBDTkw0bUhHWGFpeGFibGZyRA"
+    "CBMibEFVX3lxTE5xdHVzNUtMR0hEbWp6aS1KR202NzJiWGVUUU5YSjRta2JnU1ZHalZ0YzYtM3JKMG9qcHdEamRndjlvdFRxSDZiTTEyeVoyUzZBS1l5YmFqUUN2blBDTkw0bUhHWGFpeGFibGZyRA",
+    "https://www.mmamania.com/?p=465728"
   ],
   "daily": {
     "d": "2026-08-18",
