@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": ".@MikeHeck_JR and @JedKMeshew are LIVE reacting to #UFC330, Din Thomas, talking a very busy weekend ahead, and more on BTL! https://x.com/i/broadcast…",
-      "ts": "2026-08-18T16:02:02+00:00"
-    },
-    {
       "t": "Pinned: youtube.com/live/hB6nTE9SEXE",
       "ts": "2026-08-18T16:02:12+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Namo Fazil Seeks UFC Contract in DWCS Final Match Against Kaik Brito",
       "ts": "2026-08-18T22:47:24+00:00"
+    },
+    {
+      "t": "UFC Contender Series Results: Fazil Tops Brito",
+      "ts": "2026-08-18T22:37:15+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Midnight Mania! Help Us Fatima, You’re Our Only Hope",
-      "url": "https://sports.yahoo.com/articles/midnight-mania-help-us-fatima-035900442.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T03:59:00+00:00"
-    },
     {
       "title": "UFC coach apologises for ‘despicable’ behaviour after fighter’s loss in title match",
       "url": "https://sports.yahoo.com/articles/ufc-coach-apologises-despicable-behaviour-094759176.html",
@@ -2105,6 +2098,13 @@
       "source": "SSBCrack",
       "cat": "ufc",
       "ts": "2026-08-18T22:47:24+00:00"
+    },
+    {
+      "title": "UFC Contender Series Results: Fazil Tops Brito",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYWJhbVN1YnF2NHBxZV9lcXllcFdCYzk2clViWXFGVmdLY2g4VWtIRWhOX1JoUDVGZlRsWGpoSnFRLVBOUTZRMnJQQUI0Nlk1VFpGTnJKTkg2T0xmNmlvM1dyNXdDQl9SYjk2cnZPdDFabHZkSUNzTEV0S0hlMzRabnlUem1uYnRhMTdPS0pzSnU3MnBhTVllb3V2R18tVVRMM1l3RzhB?oc=5",
+      "source": "Yardbarker",
+      "cat": "ufc",
+      "ts": "2026-08-18T22:37:15+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMi0wFBVV95cUxPaEg5Ry1ySWRXU3JtOEg5X29tanhRQVRyUUs3S3VCLVdNYzNtWmRxZkZ1X3UtZjFMalV0TDBEdGdPMk9XWWQzb1V4NVQ1cExvMTZ1ZUFwV0lrWFF0SlZfX1BEeVJtQzRJdjZZb3RPZXZsRmlBQW0yZEh6YlNfM0VwbVhzai1Tdl8wb2FVZjlxQVd2QS1oSmFOWmU4dEpqWFdHMzhGMThKTGlfTHg0dnFfV2VHZ0tOanZKRndnSUNBUE9QYkVtWGFOcFpnM3V4NlhmSzIw",
     "CBMif0FVX3lxTE1FdDBLNnVqREM3TEpIbW1LS1RUMmdXekxZM2tjWFdqTEZENENQVG9KZUdyZGFmMnpRdGNuUGtRWEROejlyaFRqUS1Gdjh3bVl6YVBHdTZkZUJCbnlVTFVtUkNiWVp2czZVcDE1Mkg5VWRjZGY0Zmo4dHVkWHlCMFE",
     "CBMi9gFBVV95cUxQZV85Z1FQX1N0WTZhY0hHSmFaajcwYXVnZVpDSzZXTV9ReTdjUjBGWHJicmlQNUJ6a1Y2bEFuSzJWZGpUX3ExSTA2THh5Q0JUT2pNWFY1MEt0U3NmdWZTQXVCS29DeDMtSDFLTGlLVkhGUmt4WHhFNWxDNHNNMEpQa0N5SjZWZUpEaEZPVnhOVk5oR3hiRjJxVnd2U1d6NzU1OFFIZmZGMU4zMUxQS3Vmbjc3UXg3YWJBbmVjX1A0SHA5Znk0SnpMZ2lhWVJxclcyUnlGekQzcl9WMXgxX1V1c2VXck1pV1RVaVp0MUdLRjVQM1NMWnc",
     "CBMid0FVX3lxTE1VaHV3bWhKYnRIRG9GalV4SzEyN0VBQUdfRXNjNWYzbkNTMHJYSjFnNjNiTDhlYy1yZHNiUGkwM0xUVXQ0UUtUTkZkbW5YTExyTm5FckFsUFBvR3M1NHhOQzB3cHQ2eDFuRDVEOTlndzFsTjJkNGxr",
@@ -3312,7 +3311,8 @@
     "CBMihAFBVV95cUxPX3ZnSC04aFY4Rks1WG9UM0ZvNWRVcUEzT2pqSmhjbjBKczNaM1M0dXRKNi0yYnBqWUVadVFVS2JVUGJmWm9mR0FYbENMY2JBT25XRE1iQ1BqVWxYemdvZHQ2eDlfREVwU2x2ZVQzQi1FcHd4Nzl3bGw0a0hsLVRvbHNWZDA",
     "CBMihwFBVV95cUxQMHE4Um0zZld3Y0RzQXBMalZRNEdGdkk3SGZiWmxsSWt2WFF4UFRsa1ZMTl9wMHotakRodFJXTWk0eTZkcHQ0ZVV0N0lEZmpDdndGQmMxX01ISW95T1NoMFVFaUFQT01POTdsNXZTN2ltcUE2X043aTNGWk1vdGkzTVFJUXBrM1k",
     "CBMingFBVV95cUxQRk95cUtFUFp2bU9UazdBS1k1TVFWaFpiTjNxU09mbkRsMmpYeHdsSnFtb1Y4OHFtbkZia2NGVVlNZ1pPTTdpdDI0TFB1WFlOdUhDNlJKTUFNalZ4YXUxdVNXMEJXVG1zelhOT1VEanhveVR0Sk0yWXhqV1R6RE5xZTFZbWZkVTQ3dW81NDNfanpDRE9iSG9vYWQ3ZW9oQQ",
-    "CBMimwFBVV95cUxQejVvby0yMTh0ZVMzbEZBRzFGY2J0MEQ1S3pDM0dXM242YjlBWGtYYmVBVUI1cmNjeTlsSDhGZkFXTGFZRm1PSkNYQVB3c0ZpYjc5ODBmTnlvcVo1Tm9mbDdudUtScWQ4ZFRvN2FJV1BIRGlyTDdYUGtxSWpjdU94M3EzWlhwVFJ1cl9HaDU2cmwwRXJlYnhmVENhOA"
+    "CBMimwFBVV95cUxQejVvby0yMTh0ZVMzbEZBRzFGY2J0MEQ1S3pDM0dXM242YjlBWGtYYmVBVUI1cmNjeTlsSDhGZkFXTGFZRm1PSkNYQVB3c0ZpYjc5ODBmTnlvcVo1Tm9mbDdudUtScWQ4ZFRvN2FJV1BIRGlyTDdYUGtxSWpjdU94M3EzWlhwVFJ1cl9HaDU2cmwwRXJlYnhmVENhOA",
+    "CBMipgFBVV95cUxQYWJhbVN1YnF2NHBxZV9lcXllcFdCYzk2clViWXFGVmdLY2g4VWtIRWhOX1JoUDVGZlRsWGpoSnFRLVBOUTZRMnJQQUI0Nlk1VFpGTnJKTkg2T0xmNmlvM1dyNXdDQl9SYjk2cnZPdDFabHZkSUNzTEV0S0hlMzRabnlUem1uYnRhMTdPS0pzSnU3MnBhTVllb3V2R18tVVRMM1l3RzhB"
   ],
   "daily": {
     "d": "2026-08-18",
