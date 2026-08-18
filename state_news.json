@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504194",
     "https://www.mmafighting.com/?p=504200",
     "https://www.mmafighting.com/?p=504241",
     "https://www.mmafighting.com/?p=504259",
@@ -851,6 +850,7 @@
     "https://www.mmamania.com/?p=465746",
     "https://www.mmamania.com/?p=465756",
     "https://www.mmamania.com/?p=465762",
+    "https://www.mmamania.com/?p=465776",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "POWER ON ANOTHER LEVEL 😳 @Gregory_MMA returns in the #UFCSacramento main event this weekend! [ LIVE AUG 22 at 8pmET on @ParamountPlus ]",
-      "ts": "2026-08-18T00:01:00+00:00"
-    },
     {
       "t": "Charles Johnson, Patchy Mix & the Tale o' the UFC 330 Scottish Twister https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/ufc-330-video-charl…",
       "ts": "2026-08-18T00:10:58+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Is Shavkat Rakhmonov One of the Most Cursed Fighters in UFC History?",
       "ts": "2026-08-18T21:01:24+00:00"
+    },
+    {
+      "t": "Video: UFC 332's Payton Talbott reveals reason(s) behind 2026 inactivity ahead of upcoming Deiveson Figueiredo showdown",
+      "ts": "2026-08-18T20:05:36+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "The Thrill and Agony: UFC 330 winner and loser reactions",
-      "url": "https://sports.yahoo.com/articles/thrill-agony-ufc-330-winner-021521186.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T02:15:21+00:00"
-    },
     {
       "title": "Midnight Mania! Help Us Fatima, You’re Our Only Hope",
       "url": "https://sports.yahoo.com/articles/midnight-mania-help-us-fatima-035900442.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-18T21:01:24+00:00"
+    },
+    {
+      "title": "Video: UFC 332's Payton Talbott reveals reason(s) behind 2026 inactivity ahead of upcoming Deiveson Figueiredo showdown",
+      "url": "https://www.mmamania.com/latest-news/465776/video-ufc-332s-payton-talbott-reveals-reasons-behind-2026-inactivity-ahead-of-upcoming-deiveson-figueiredo-showdown",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-18T20:05:36+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2089083524473102718",
     "13fd66c4-1929-387c-b386-7b3d905899ec",
     "CBMijgFBVV95cUxObmUtZEtzeFZ4RUVzWTlpMFh5OWNDN3lKc2lQdjhFWU83UkRaUFEyTnNxNWNfODRfNWl5RWtqS0pGcC1FSTQ3ZnlnN1ZBZjh1Zl9jTlNqRTluZ05pRXMzZ1lXUm5pUnZITl8yekh2a1RFaHkwMkVnWVozMjdNZ0NnYTdfWEJYaE43MDVJSzJ3",
     "CBMimwFBVV95cUxNdjBxamt6UWNfMjBKd0pzcm96NjFQUWQ0NTJDNndPODU0azEyaGI5TEZycV9HREljVTF3M0I3eEsxdXBITlJGMXRaTkdPcnpyYk1wTk5jdmJKN3FZbVpLbTZ4TDBxRUVlTXV4MnV2dEZmb3czaGVtQ3BhcWEyVVVsdmNJUXRWcU1FeGYtZG11SjNkUDZLMUJpeHA1Yw",
@@ -3312,7 +3311,8 @@
     "2089817524934525031",
     "CBMi8AFBVV95cUxQN0VFM09sb2VrQklBU3FzVzUzUG9ON0dQNVJyckhMNmI1eE1PbEtqUDRSVGNHRTZpQVJ0NmlQTWZyV29PM3hPWUx3QXI5eDhBdmROZW5wSmRKamtYSzdZSlF0NTFJS3VQZ0M0NGhvakJ4eWxHNDlfSUc1dUhTX3lwSWhYc1YxR25VUFduOV9Za1NVS3h0WjZ0MnI5MmRpR1F2RFYzOG01US1hSGV5TTJzdDNtWXFDREVmRHYxcGxiaTVSdXJpVFBQZmtfOHllNll6ZmVUTkVYZWxDSDhxUVhlQTA0U2pkT0ZrcTRFQ0luSGY",
     "CBMiV0FVX3lxTE04eEEwTmFfVXlYV01OSV9HeENzZmt2QlVld1hnWjlOV1pybU9SZ0dKWWtURTBzWFhXUnVaV2JmMUhWNXkyckpRRWNpNk40bVduOGlwM1Rscw",
-    "CBMic0FVX3lxTE5Kb1BvblJtZUtqd3R0ZGVhVG4xYjlwalBSNXM4cmk5QWNDdVVWdzFKbzI1NlQ3eEVXV2loTlBzZkFDenV3bWJmaUFzSGlHOHNZY1NnclRFTHJxSE9OT3AwakNieGF6ZlBaajE2TXhTcmEwcmM"
+    "CBMic0FVX3lxTE5Kb1BvblJtZUtqd3R0ZGVhVG4xYjlwalBSNXM4cmk5QWNDdVVWdzFKbzI1NlQ3eEVXV2loTlBzZkFDenV3bWJmaUFzSGlHOHNZY1NnclRFTHJxSE9OT3AwakNieGF6ZlBaajE2TXhTcmEwcmM",
+    "https://www.mmamania.com/?p=465776"
   ],
   "daily": {
     "d": "2026-08-18",
