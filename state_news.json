@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Sean Strickland Exposes DMs With Former UFC Champion Over Din Thomas Feud",
-      "ts": "2026-08-18T17:06:30+00:00"
-    },
-    {
-      "t": "#UFCSacramento pre-event facts: Strawweight bonus record can be broken (via @MikeBohn) https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/18/ufc…",
-      "ts": "2026-08-18T17:05:58+00:00"
-    },
-    {
       "t": "Aiming to make it back-to-back wins 👊 Serghei Spivac looks to defend his ranking this weekend at #UFCSacramento! [ LIVE AUG 22 at 8pmET on @Paramount…",
       "ts": "2026-08-18T17:00:01+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Matt Brown Says Din Thomas Picked 'Odd Timing' For Gillian Robertson UFC 330 Exit Speech",
       "ts": "2026-08-18T18:19:57+00:00"
+    },
+    {
+      "t": "Gillian Robertson Responds to Din Thomas’ Apology",
+      "ts": "2026-08-18T18:20:51+00:00"
+    },
+    {
+      "t": "Khamzat Chimaev questions UFC head honcho Dana White amid Sean Strickland rematch uncertainty",
+      "ts": "2026-08-18T18:21:12+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Arman Tsarukyan confirms promised title shot with UFC 331 win",
-      "url": "https://sports.yahoo.com/articles/arman-tsarukyan-confirms-promised-title-053803976.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T05:38:03+00:00"
-    },
-    {
-      "title": "Carlos Prates has a chilling promise for Islam Makhachev",
-      "url": "https://sports.yahoo.com/articles/carlos-prates-chilling-promise-islam-063313952.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T06:33:13+00:00"
-    },
     {
       "title": "Hexagone MMA targets European expansion after rapid rise in France",
       "url": "https://sports.yahoo.com/articles/hexagone-mma-targets-european-expansion-065447583.html",
@@ -2105,6 +2091,20 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-18T18:19:57+00:00"
+    },
+    {
+      "title": "Gillian Robertson Responds to Din Thomas’ Apology",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1sWURna2hJcUlsT1lFWGtudzBEZzRORFQ1bDdnZ2NOVFhuX2NjLU9CWGNSMmkzaHBHaGREOUJjZW9idDFsdlBlT05LbHV5TkUxekw2MkU1M2wyRVA2bkVJR19vZG1EQS1Yd091R3BsZDdGNUJna1E?oc=5",
+      "source": "heavy.com",
+      "cat": "ufc",
+      "ts": "2026-08-18T18:20:51+00:00"
+    },
+    {
+      "title": "Khamzat Chimaev questions UFC head honcho Dana White amid Sean Strickland rematch uncertainty",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNU2RZUHlWV0ZjRHpGazJsUTRmWkU1SU5RQ3VtWEN5QWtWMmM4MVB1Y3g4Z2xqcWpWN1o0eERHMUtNMExjVU11YV9sVGRhLXlabGJKcTFreFM4MW00YW55UHg1MG9XdGZjQjlVQjhIUU5pWTdwTk05RVNfcF8wYU0walJnQk8zUzNsZkxJVFFlcVFHZFJDSkpPaktJVGQ4YW5MYWVid2NkRzF4M1RBX2Q3bjlSUDR2d2RWNHVHdw?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-18T18:21:12+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=327268",
     "https://www.mmafighting.com/?p=505337",
     "CBMib0FVX3lxTE4xRURQVV94QkUwUlowVE5kTW5Iem5UTkdWWFFLeDlnUnN1OGc1YXNza0FpblRSOFJ2WFV2MEJJOEVjUGdHZDl2VXhrcWtFQ2tmZS1IcnZwTkJ4N1YwR09FRTk5VUkyVGhJaXV3bUxpTQ",
     "CBMi2gFBVV95cUxPdXhZNFBfNHIxNVhpMmJjak1MQ1VUaVpuVTduTVdfN1hVX1ZncXYtUGZ0MGtzRG1zbDMtc0s4Tnp1NUl1UmVyWkNkNDlmVC1wY0VfR0UxWF9YRE0xbk5GN3BvRGUxaGlaN1VNMm5nSlUxSVYySGd5UzNJOFBiaUNUdGR5elFHNDUzRHpuOTEyMGNZcXo4VGN2VVc2S2Y2SHNpdEJBNU1hZ2htbHdEek9mQ2lHbjV1d1ZDdzh6RlNUVFRVNjBVSUN3M2JKM3VWUGk1Tm5DZ21zSmZzdw",
@@ -3312,7 +3311,8 @@
     "CBMikwFBVV95cUxPbkMxOHBHaHVGNF9lR2xjcmVPRjRuOXJscFh1a2NmVy1aeDAwRW1tQzh4TlhURDliT2FQLTlzV0RWZWEyUnZzRVQ0ZFlnMzB1RHQzLXlZb1VYSEZ4QTRTNTNvS1B5eFBLRWVvV2VxR0NoUkhfckdqdnVhbHg3Z3l0d1RsaHhOODlWelJaX3RUOHNzX1E",
     "2089776405957714171",
     "CBMirAFBVV95cUxQelpHU3N0eDJEcExhTTY2Qnk3RXliRzFrWnZNWTQ2YTdFTGxRVkN6WG5vVkt1czZIU3lCOTJ3X3pJZUtTcHpQbThmY2Fjb1h0TS1Dc3lGQXhOWXpjcjRvVmttZjJIcy1YeXc0aWlhU1ZNb3lOYlo5bzNVeDc1NTZZV09fT1NVMkljMkpyWkJHXzI0N1lqZ2R0WWJDNXY3cUxValZrWXV3SUJzeFhI",
-    "CBMilAFBVV95cUxQR0RVc1BlVUUtdHJxeVBRYWlnelpvSEh3d1VWUnhudDJ3WGEzY1llZlRwd2dfNk1QeFYxalB3aHlLMlpXeFBuRkVFVlV1YmoxSWE1ejNGd2NHeUgyYjdMdmFrZ3NheWV6T3BYN29sclRWWVJKVnVGOGttandCaGktbHNLVGpBNUdNUVR0M0V3VW1PMk9U"
+    "CBMilAFBVV95cUxQR0RVc1BlVUUtdHJxeVBRYWlnelpvSEh3d1VWUnhudDJ3WGEzY1llZlRwd2dfNk1QeFYxalB3aHlLMlpXeFBuRkVFVlV1YmoxSWE1ejNGd2NHeUgyYjdMdmFrZ3NheWV6T3BYN29sclRWWVJKVnVGOGttandCaGktbHNLVGpBNUdNUVR0M0V3VW1PMk9U",
+    "CBMidkFVX3lxTE1sWURna2hJcUlsT1lFWGtudzBEZzRORFQ1bDdnZ2NOVFhuX2NjLU9CWGNSMmkzaHBHaGREOUJjZW9idDFsdlBlT05LbHV5TkUxekw2MkU1M2wyRVA2bkVJR19vZG1EQS1Yd091R3BsZDdGNUJna1E"
   ],
   "daily": {
     "d": "2026-08-18",
