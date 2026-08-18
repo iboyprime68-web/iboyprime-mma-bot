@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Anthony Smith pleads not guilty to charges stemming from recent arrest",
-      "ts": "2026-08-17T23:17:34+00:00"
-    },
-    {
-      "t": "Arman Tsarukyan: UFC's Hunter Campbell guaranteed title shot after Mauricio Ruffy fight at UFC 331",
-      "ts": "2026-08-17T23:18:53+00:00"
-    },
-    {
       "t": "The Thrill and Agony: UFC 330 winner and loser reactions",
       "ts": "2026-08-18T02:15:21+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "33-Fight UFC Veteran Sends Message to Fans After Announcing Retirement",
       "ts": "2026-08-18T15:54:55+00:00"
+    },
+    {
+      "t": ".@MikeHeck_JR and @JedKMeshew are LIVE reacting to #UFC330, Din Thomas, talking a very busy weekend ahead, and more on BTL! https://x.com/i/broadcast…",
+      "ts": "2026-08-18T16:02:02+00:00"
+    },
+    {
+      "t": "Pinned: youtube.com/live/hB6nTE9SEXE",
+      "ts": "2026-08-18T16:02:12+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev forced to change his game after UFC 330 says cage legend Dan Hardy",
-      "url": "https://bloodyelbow.com/2026/08/17/islam-makhachev-forced-to-change-his-game-after-ufc-330-says-cage-legend-dan-hardy/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T19:00:00+00:00"
-    },
-    {
-      "title": "Islam Makhachev sends shot at Max Holloway after ‘Blessed’ raised confusion about UFC 330 celebration",
-      "url": "https://bloodyelbow.com/2026/08/17/islam-makhachev-sends-shot-at-max-holloway-after-blessed-raised-confusion-about-ufc-330-celebration/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T20:00:00+00:00"
-    },
     {
       "title": "Mackenzie Dern reveals unhappiness with her UFC 330 performance: ‘I should’ve knocked her out’",
       "url": "https://bloodyelbow.com/2026/08/17/mackenzie-dern-reveals-unhappiness-with-her-ufc-330-performance-i-shouldve-knocked-her-out/",
@@ -2105,6 +2091,20 @@
       "source": "boxingnews.com",
       "cat": "ufc",
       "ts": "2026-08-18T16:01:21+00:00"
+    },
+    {
+      "title": ".@MikeHeckJR and @JedKMeshew are LIVE reacting to UFC330, Din Thomas, talking a very busy weekend ahead, and more on BTL! https://x.com/i/broadcast…",
+      "url": "https://nitter.net/MMAFighting/status/2089744641361133745#m",
+      "source": "MMA Fighting on X",
+      "cat": "ufc",
+      "ts": "2026-08-18T16:02:02+00:00"
+    },
+    {
+      "title": "Pinned: youtube.com/live/hB6nTE9SEXE",
+      "url": "https://nitter.net/MMAFighting/status/2089744683945627816#m",
+      "source": "MMA Fighting on X",
+      "cat": "ufc",
+      "ts": "2026-08-18T16:02:12+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMib0FVX3lxTE5pTTEwcF9KakhhcmVoalZfa1RSejVCMjVpb3RoR28zOXRLV3hYbWtpR2xWSjVEWVJmV0o3eW5sZVNpWGxFY290RmhOSjV6ekxJcnJCaGpWRndCOUZicVdCNkFudzUxZ0FmdmNpUlAzdw",
-    "CBMinwFBVV95cUxOdzd2UlJxWHVfSmVQai1QUnJmblFTX1NINU9JLU5HR3RfSWd2dEJrR1FDem5XZlB2WlVDMzBsSXNoZkdnOFVKeVF0dlVVaHVGU3BpWkpHRUd4QW5OMVhWUUZvZldyd29mNGRvVkxYY2FhUjJGN3I4TXNPNlNubXF0NmF2VWRPdXFWU0Ffci1hSkhZbTRjMlFSTTRhWnRXOVU",
     "CBMid0FVX3lxTE5QekFMNjBpeUFzWDBlVDh2N1JhMnBzTXU2U3BfX3hsMXN5dlBUSEtMYU0xUVAtS3lHMEZ2MklNZGxzX2xaYXJjMUJvOWlEZ3JIc18zR3hFcWNyMkdIME1zanRUdnJTckx1VW9yUVlzUnFXRFhfaHIw",
     "https://www.mmamania.com/?p=465237",
     "CBMipwFBVV95cUxOZGFZb2dpZ2tFR1NMOE93VTVjd0tnUGIwcnY5cU1Uak1LOVlaZWdMTnlLVTNZQ215OEZWek1YRGVEUkVmcUNQYTRCZkNLb2ZpaVlzakMwNHk1VlM0d3dDRmlkVnh1QU1lVy1hSm4yNXpuZG5fUGFzek0ybG9reXBKT0lETkp3Y0stNE1mSVFLV0JwSmI5amhwQmRGT21ielRzbXEyMGJlVQ",
@@ -3312,7 +3310,9 @@
     "CBMic0FVX3lxTE9ENl9PZDZMYXAweFlSZVU3SElvbnFJRE12VHg0OVpsVGI1VWUtZzdFdl94bzhJcWg0Y3dfdEVjTmd0M2Z2NmtlQ3pqZmFISERRZnNfX0thX2NqeW5OUTQwbVQ4MU8tTWZQSy14RmI2RTFtSmM",
     "CBMivwFBVV95cUxNNVNlb0cwaU81OG1lM2t4dlNTc2ZkRFF2UHdmejZnbTU0V2x2NVhsa3FDVXc4MkhUNUxzM0Z4Y2dfMVlCQVZRdDBaQ1BEdl83bF8wZnRIaDlCMFBad1ZvcG95cmZkblNJVzhrOWhDeVJDVGd5T0U2c25WVGRDRHZPZTBzUGZ0c2dSRGtKSkNLbzlQUDJlS3hvMXhJZkhjS19uUmt4Mk1NbE05dE94VkpNLWNDY21SZ1NldjFRMWVaSQ",
     "CBMia0FVX3lxTE1zU1BkeUNYMnhxODJ6aTFBVnBrZC1kdHhSa2NFRzhxU055aGlHWWRMMXVWbGVPY3ZPamY3VkpoWWYtNnc0RmVVaVVfUGZrVE0xMTczTTljdHBobUIzQTdoRmt0b1hZR2FBZGhB",
-    "CBMirAFBVV95cUxNbldfdk9lZmJadWh1MUZhbmp2TFFrMVFrTndzNUdua2V3d3ZUeFpZSGRidzEzdGc3LUtZa0FieVJJYXpIb1BEclRlT0J0MUZkRGZxUmRqblR4MHNfUV9leUZCOENqOVJob1FITUxTbloxSDhiYUxQWi1tay1heUhGVW9OaWZpV1FQRlpETnNrWjBVOWVEcGkxNWpDZ05Ja29ZRnZ3eXU1ZVJ4Yl9z"
+    "CBMirAFBVV95cUxNbldfdk9lZmJadWh1MUZhbmp2TFFrMVFrTndzNUdua2V3d3ZUeFpZSGRidzEzdGc3LUtZa0FieVJJYXpIb1BEclRlT0J0MUZkRGZxUmRqblR4MHNfUV9leUZCOENqOVJob1FITUxTbloxSDhiYUxQWi1tay1heUhGVW9OaWZpV1FQRlpETnNrWjBVOWVEcGkxNWpDZ05Ja29ZRnZ3eXU1ZVJ4Yl9z",
+    "2089744641361133745",
+    "2089744683945627816"
   ],
   "daily": {
     "d": "2026-08-18",
