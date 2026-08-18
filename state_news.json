@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White's Contender Series 88 weigh-in results: Perfect and quick session",
-      "ts": "2026-08-17T15:00:38+00:00"
-    },
-    {
       "t": "Din Thomas apologizes to Gillian Robertson for controversial UFC 330 retirement: ‘I’m ashamed’",
       "ts": "2026-08-17T16:50:25+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Islam Makhachev Isn't The UFC GOAT Yet, But If He Dominates At 170, He Will Be",
       "ts": "2026-08-18T14:44:34+00:00"
+    },
+    {
+      "t": "Dricus Du Plessis def. Kamaru Usman, UFC Fight Night 281",
+      "ts": "2026-08-18T14:30:39+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 331 star Arman Tsarukyan wants to try new sport and begs Dana White for help",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ3hNS3NJWXU0TS1HSzRJb0JremVURkNWOGliTXpPTW9jWXR0NWpwZW5aalVwV1pqUWJMUzRyeHI4U3FGUmpITFdiSzJuaGY4bWNFenNYcGE0bkdOelBMc1dMU1JzeGFiNnF4QldjVTIzdkQ5ZllHcjlSQVV0UXJHNUxhd2JfZDJVS19PLUx6M1c?oc=5",
-      "source": "Irish Star",
-      "cat": "ufc",
-      "ts": "2026-08-18T14:23:00+00:00"
-    },
     {
       "title": "Max Holloway fires back at people ‘hiding behind’ Islam Makhachev’s social media 👀 🤔 😱 📰 https://mma-fighting.visitlink.me/qcBYH",
       "url": "https://nitter.net/MMAFighting/status/2089721712451682394#m",
@@ -2105,6 +2098,13 @@
       "source": "LowKickMMA.com",
       "cat": "ufc",
       "ts": "2026-08-18T14:44:34+00:00"
+    },
+    {
+      "title": "Dricus Du Plessis def. Kamaru Usman, UFC Fight Night 281",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOV0Ezdk1UWFJBU244VEVmTmFWYTdMSWxkRjUtZVZLbkx5RDhxOF9XTXVHTDQ1czdiUFhwcGt1bzhBZDltcXBhSXFieHhRb1JhcTYwTmRMcFBjVnlHbDBtR1c5azBjQjQzY1dFMjRRVzMxd1YtMzRlTWhpUHc0eXFmcXRKdkk2b3JnYzZGUkRlZkFFNHkzTVhaMlVXcVNudEN3SlRWS0o0VEg3OGV2cTdQdlJZZ3c1ZjZKaF8ybW96c2RlRXI3WHcxUFJBaTFQd2xLVVpKMGJWTUpoeF9QS2staVpjREN1WUU?oc=5",
+      "source": "lufkindailynews.com",
+      "cat": "ufc",
+      "ts": "2026-08-18T14:30:39+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "CBMixAFBVV95cUxQY1d2ZzlJWExleHpCN1B6RmN0ZjBVUGkxYksyNkZXNWNHel9ITkNKemZNRUQzRXJRblpHby1sbkdVRnM5UG80eExKNnU3QmE2Z0xMdkRxLU1oZDlzUkd4RWVlNmIyNHo3YUdxeEQ5Wlh3d3lrTk5MbG8td25jc2RaY1BobUxEcmlzUTZSRjZKY2RTRlVXR3o3dkRkNlp0QnlCX2JiQkYtRE94Ym9FZlJSdV9QQi03dlIwZEVPYTBlcjhqbzJy",
     "CBMickFVX3lxTE5VMzFBWTgtM1FkSHQwRWZNNXlTRTBSbTRtY01zWGYxVVhISUotVGxTM0ItazNrQkg2Tk9WRWhWa3FLSHh4NXRIUm5RNmR0c21CMkxLWUlwYjBoN1J3NVJiWEZIVmxqMk5tNEp1cEM5RGpEQQ",
     "CBMiuAFBVV95cUxOZVphYWhlb1BFS2tnNzZJREdrejUybmt2c19fWTFKUURzZmJCekRReWVRUHUzZExIZ21RemFxam4xMW5fUXJSR0VqblVLRkhBWml0cmpwb0ZrZjRkWlZOb0FKWHQ0NHV1Tl9zMHVwNlRBUGluNkJQMEhpQ0xjZHUxV1NQSjhKY1lXVmZZamNRNkQtVzQtMXU3eEROZEQxS3FLaDBDZkd6WWp4emVZcGR4RU82TUlJelpm",
     "CBMigAJBVV95cUxQMUZvVEVXY2Jva3VBVXNQbnhkQTJqbFhWXzZrTl8xWEVuOWlGMmRwMVZSa2lWZjBpdjBIdlNwVWo5ZGd5ay1ueUt0WmJrQkc0SWZSc2kzMGpPaFg3bnRpaFNGV29BV0pxSGcyYnZEZzRVMDY2azVlenhXOU5ZUzR6dHBpaFlSd1VGV0txbUlYcS1VcmdHUVIyT3lMQ3lwV2h3SU5WOGtVMXYyVnM2Z3Y1dnRKNlJuOXVIMUhtZzZtd0VERGVuZjA1V0ZPNk9LR2ItM1pxSjV0SmExcFFLNkZPemdLb3NFVG1LUFhzbVRXLWlrWlcweExNM3FmN3NPZzBl",
@@ -3312,7 +3311,8 @@
     "CBMiswFBVV95cUxPTmFkeDhmREJLNGdCdUIxdWQtUFNjamNoLVlDZU5KOEhZeWpabDZzOVd4M2U0bm5UdndEUmhmZ3hNd255U2Y0U204NGh0cm5aYmExRklRa1Vzc2htRlpTMWZXNE9kV0p3VDNoUDMwaDRSWmVmeXFWYmVQQWhrNll5LXlZNXQzY1ltQVBPdEM5RDNYVEtHM0hDaG94ckdCNk02S2o4NFNCWTBMMzdCZEFCY0p4bw",
     "2089700305097417171",
     "2089722898797805572",
-    "CBMipgFBVV95cUxPV0JTLWxZYkJFUEQxOFEtWGp2akZnSWU3LTVEcXVsQnJaSERVZW1lcXQzTGc5NXNDQmExVncycENCZ0hVSlBWUkZocjVLMS1SU2lqVG9ha1dMR3E2dkJSVHNfdGxmWGcxcGdtOVBNQWZWbDVJMG43TTJuZEpoRVByQXUxVUs1cnVUcmtHZjJ3R1lUM1RaSUZZYzRXelF6X01sbDNTYzdn"
+    "CBMipgFBVV95cUxPV0JTLWxZYkJFUEQxOFEtWGp2akZnSWU3LTVEcXVsQnJaSERVZW1lcXQzTGc5NXNDQmExVncycENCZ0hVSlBWUkZocjVLMS1SU2lqVG9ha1dMR3E2dkJSVHNfdGxmWGcxcGdtOVBNQWZWbDVJMG43TTJuZEpoRVByQXUxVUs1cnVUcmtHZjJ3R1lUM1RaSUZZYzRXelF6X01sbDNTYzdn",
+    "CBMi5wFBVV95cUxOV0Ezdk1UWFJBU244VEVmTmFWYTdMSWxkRjUtZVZLbkx5RDhxOF9XTXVHTDQ1czdiUFhwcGt1bzhBZDltcXBhSXFieHhRb1JhcTYwTmRMcFBjVnlHbDBtR1c5azBjQjQzY1dFMjRRVzMxd1YtMzRlTWhpUHc0eXFmcXRKdkk2b3JnYzZGUkRlZkFFNHkzTVhaMlVXcVNudEN3SlRWS0o0VEg3OGV2cTdQdlJZZ3c1ZjZKaF8ybW96c2RlRXI3WHcxUFJBaTFQd2xLVVpKMGJWTUpoeF9QS2staVpjREN1WUU"
   ],
   "daily": {
     "d": "2026-08-18",
