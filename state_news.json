@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Free for the public! #UFCSacramento Ceremonial Weigh-ins THIS Friday! [ LIVE AUG 22 | 8pmET on @ParamountPlus ]",
-      "ts": "2026-08-18T18:00:01+00:00"
-    },
-    {
       "t": "Rankings Shakeup: Mackenzie Dern undisputed No. 1 with Zhang Weili exit, blue-chip contender closing in https://www.mmafighting.com/ufc/505586/rankin…",
       "ts": "2026-08-18T18:06:03+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Namo Fazil Faces Kaik Brito in UFC Contender Series Main Event in Las Vegas",
       "ts": "2026-08-18T22:48:00+00:00"
+    },
+    {
+      "t": "Makhachev Dominates Machado Garry in Title Bout Victory",
+      "ts": "2026-08-18T22:57:29+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "High-altitude scraps in SLC ➡️⛰️ Tickets go on sale for UFC332 THIS WEEK!",
-      "url": "https://nitter.net/ufc/status/2089715468169015719#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-18T14:06:07+00:00"
-    },
     {
       "title": "Kamaru Usman convinced he could beat Islam Makhachev: 'I'm telling you guys'",
       "url": "https://sports.yahoo.com/articles/kamaru-usman-convinced-could-beat-143039424.html",
@@ -2105,6 +2098,13 @@
       "source": "Readers.id",
       "cat": "ufc",
       "ts": "2026-08-18T22:48:00+00:00"
+    },
+    {
+      "title": "Makhachev Dominates Machado Garry in Title Bout Victory",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPb1dubGFod1Boa2p4cXh3SnFxSHJEWXV4SUMwRWJFS2xzaWtvXzhiTVN6TnRiOUc2d0JEMkh1c0lCM3VrWTNzR213Y0pjWl9CYnVsMWJTOXF0WGFfblFUVzBLMFJYZWppNzR1MWZ5cEZEUXNKX1NaRjBtZThxT2E1dWRoSXJiX3Z6NUE?oc=5",
+      "source": "SSBCrack",
+      "cat": "ufc",
+      "ts": "2026-08-18T22:57:29+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMimwFBVV95cUxNS091czRvRk1WeG9pT1cyMlpOVkV2R3dqMmpCdVRFZDRXNXhuam9wVmhSemR2WjZ3NTlIYWVKcHJBNmxRdkwzWkI5aDQ0dEJFN1hxU0E1MmVxeW9BYV9rNUJIcHJzXzJ1c0wzd2dsbS1LNG5WNnkwcVpRQmFVMU81X0dYeWpKRkVWLTdPYzVJTlZrejlaWmNvVmYwWQ",
     "CBMif0FVX3lxTE5tMmt4TENvaGZiQVQyLUNXYWxRU0NIa1lCTUZvRUhyNUhDc3NDQzJ0SUNQR3ZKc2Q4cGRhQ3dnNHFwT0x6V3FTWUttWmJweUUwUldlNTJNT00yMVBjcmhHaVd4akFHUTc5S0lSOVBXNVZEbHB5UWM0a3dURkw4SEE",
     "CBMidkFVX3lxTE9selZ6ald6TDhHS1JRQ3dNa0pVejg0b3gtMkgzREVsOTd0NEpoYS1SUVpwSEE2MksyV2JHVGg0NVdid09fODRvMWM0MlQ0aVJGOXRSbzg5RXhqZ29uSF9nVXJGX0Jsc2lhaEdqZm1FY1FUT0pEd1E",
     "CBMirwFBVV95cUxPclhDRlFHNGFFT0Vwdlp5aktxbFNJSDRKbDRRNzZvbWJibFJ1UXRNeWJidUswUkhhZkFFTnUwWTVLUEtRYVRqRmxhdVpIb1RyOUVHeGNEbjE0bmJoRXhYRUNrRGNyT0pLa2NnTjU0aFJMczRPbHZZa0lpeHVoSU42aUpuTEtkYTR6UnNES3BYSW9sV2MtUmF4Z1FlN2dDcnVQWm84a2praERfdHA3QzdR",
@@ -3312,7 +3311,8 @@
     "CBMiWEFVX3lxTE9UOEZGcnFuc2xQVGNkbmpIYl9OWWlTWWZkWXNDYzFlbkQyTkk2aTJwQlFObDBFMWxyZW40cGNNWDhhR3R3U3pDM1VYWFFtVHNKZWZIbFl5Rzg",
     "CBMilgFBVV95cUxOQXVSaWpORDQ4NWFpNk8yU3lENDVmQWd3Z2NQdzN1LTAyS3VaZ1lYcXBMTkk4ZGktX0VYZ3FOakRhUUF2anZ5VWFfLWozbUxkV2FlRS1mTmtlVDQ2Y1o3MkRvZ1ZHSEpPeGRpbGhwaEdxdVNhc181RTZQSnlVdkdCMTY5TFhDWTNQZWh6ZlhKaU5NV1dhaHc",
     "CBMikwFBVV95cUxON1hPaWcxWTNzd0M4cHM0bnhuWmtpZ055UHI4NlQyWm9YUU5fdnJaLW5SRi04ODZ3NjMzN2dPSEdaQXRVWEs4d280bzhVWDRDSmNRZVhzYXR0ck9wQ0gwSUZXZHgzQlZYczNmTlhGWFZQa051TUs5Y0JCc0UzcVUzbVdCNWs1SFA0bkhlWnJzNjlUcXM",
-    "CBMickFVX3lxTE1UdzF6eGFHYUs1SnJlSnB2M3AzZFJwdVNXVU9lTzVqNENrQ1pOMDY4QVNXUDdMMzFkYW9UR2lYYnNHS2d1aDRBYWo0TjQyRkJ4RmRVWElHeU9KTVdBY0pBWU50OHJCQ21GZkp1VUk2Wl9Udw"
+    "CBMickFVX3lxTE1UdzF6eGFHYUs1SnJlSnB2M3AzZFJwdVNXVU9lTzVqNENrQ1pOMDY4QVNXUDdMMzFkYW9UR2lYYnNHS2d1aDRBYWo0TjQyRkJ4RmRVWElHeU9KTVdBY0pBWU50OHJCQ21GZkp1VUk2Wl9Udw",
+    "CBMiigFBVV95cUxPb1dubGFod1Boa2p4cXh3SnFxSHJEWXV4SUMwRWJFS2xzaWtvXzhiTVN6TnRiOUc2d0JEMkh1c0lCM3VrWTNzR213Y0pjWl9CYnVsMWJTOXF0WGFfblFUVzBLMFJYZWppNzR1MWZ5cEZEUXNKX1NaRjBtZThxT2E1dWRoSXJiX3Z6NUE"
   ],
   "daily": {
     "d": "2026-08-18",
