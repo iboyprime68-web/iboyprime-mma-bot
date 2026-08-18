@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Sean Strickland scoffs at alleged Tyron Woodley threat over Din Thomas comments: ‘Weak ass b*tch’ https://www.mmafighting.com/ufc/505687/sean-strickl…",
-      "ts": "2026-08-18T16:05:59+00:00"
-    },
-    {
       "t": "#UFC champ Sean Strickland scoffs at alleged Tyron Woodley threat over Din Thomas comments 📰 https://mma-fighting.visitlink.me/yrwCsa",
       "ts": "2026-08-18T16:31:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Rafael de Freitas",
       "ts": "2026-08-18T22:15:49+00:00"
+    },
+    {
+      "t": "Dana White’s Contender Series Season 10, Week 2 Results",
+      "ts": "2026-08-18T22:49:48+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC set to debut new commentator in Joe Rogan role at upcoming event: ‘This is my world title’",
-      "url": "https://bloodyelbow.com/2026/08/18/ufc-set-to-debut-new-commentator-in-joe-rogan-role-at-upcoming-event-this-is-my-world-title/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-18T12:00:00+00:00"
-    },
     {
       "title": "Arman Tsarukyan confident handshake deal will lead to title shot with UFC 331 win",
       "url": "https://sports.yahoo.com/articles/arman-tsarukyan-confident-handshake-deal-121519737.html",
@@ -2105,6 +2098,13 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-18T22:15:49+00:00"
+    },
+    {
+      "title": "Dana White’s Contender Series Season 10, Week 2 Results",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQXVSaWpORDQ4NWFpNk8yU3lENDVmQWd3Z2NQdzN1LTAyS3VaZ1lYcXBMTkk4ZGktX0VYZ3FOakRhUUF2anZ5VWFfLWozbUxkV2FlRS1mTmtlVDQ2Y1o3MkRvZ1ZHSEpPeGRpbGhwaEdxdVNhc181RTZQSnlVdkdCMTY5TFhDWTNQZWh6ZlhKaU5NV1dhaHc?oc=5",
+      "source": "Cageside Press",
+      "cat": "ufc",
+      "ts": "2026-08-18T22:49:48+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMi9gFBVV95cUxQZV85Z1FQX1N0WTZhY0hHSmFaajcwYXVnZVpDSzZXTV9ReTdjUjBGWHJicmlQNUJ6a1Y2bEFuSzJWZGpUX3ExSTA2THh5Q0JUT2pNWFY1MEt0U3NmdWZTQXVCS29DeDMtSDFLTGlLVkhGUmt4WHhFNWxDNHNNMEpQa0N5SjZWZUpEaEZPVnhOVk5oR3hiRjJxVnd2U1d6NzU1OFFIZmZGMU4zMUxQS3Vmbjc3UXg3YWJBbmVjX1A0SHA5Znk0SnpMZ2lhWVJxclcyUnlGekQzcl9WMXgxX1V1c2VXck1pV1RVaVp0MUdLRjVQM1NMWnc",
     "CBMid0FVX3lxTE1VaHV3bWhKYnRIRG9GalV4SzEyN0VBQUdfRXNjNWYzbkNTMHJYSjFnNjNiTDhlYy1yZHNiUGkwM0xUVXQ0UUtUTkZkbW5YTExyTm5FckFsUFBvR3M1NHhOQzB3cHQ2eDFuRDVEOTlndzFsTjJkNGxr",
     "CBMiqAFBVV95cUxNM3pMOUdDdEtPQm5IR1NNUm1PeTFTVTJCZm5CTUsxdWxHVDJ5cGRPTW5UVTBZWnRpek5fcEo2ZjdpajhpU0ZyMGJhNnhSbmI0cXh5MGhsT3lCTWl4VVMxYk1wYmhYRkNjWkRuUUgwVVNzZDREa2QyNzZjX2prTFNaQ2tUSUdTWkRtSUVCQWoycGJLYi1xNG9iMkhvekpzQmNQZ2c4T0VPbk_SAa4BQVVfeXFMTTN2V2hSdkdzYWFhSktDSk5ROVMzTWZ1Wk9lQnlqaUFZY3F4VnRNYmhSUTJTVVZwNzhCOUFUN0hOOE5oX3JOU20ta2NqRDByMVNJNzI1T05fQXJFbm5yVmZScXNLNGJfZGNzNlFKWXFZMDJxUkt2aUo3M0pxZjNpZzFzVTdGLWlUaWJ3aENVb0J6QkpxeUtaODV3WXB1WENmYkhkdDZZQWl2QS1UVjh3",
     "CBMimwFBVV95cUxNS091czRvRk1WeG9pT1cyMlpOVkV2R3dqMmpCdVRFZDRXNXhuam9wVmhSemR2WjZ3NTlIYWVKcHJBNmxRdkwzWkI5aDQ0dEJFN1hxU0E1MmVxeW9BYV9rNUJIcHJzXzJ1c0wzd2dsbS1LNG5WNnkwcVpRQmFVMU81X0dYeWpKRkVWLTdPYzVJTlZrejlaWmNvVmYwWQ",
@@ -3312,7 +3311,8 @@
     "CBMingFBVV95cUxQRk95cUtFUFp2bU9UazdBS1k1TVFWaFpiTjNxU09mbkRsMmpYeHdsSnFtb1Y4OHFtbkZia2NGVVlNZ1pPTTdpdDI0TFB1WFlOdUhDNlJKTUFNalZ4YXUxdVNXMEJXVG1zelhOT1VEanhveVR0Sk0yWXhqV1R6RE5xZTFZbWZkVTQ3dW81NDNfanpDRE9iSG9vYWQ3ZW9oQQ",
     "CBMimwFBVV95cUxQejVvby0yMTh0ZVMzbEZBRzFGY2J0MEQ1S3pDM0dXM242YjlBWGtYYmVBVUI1cmNjeTlsSDhGZkFXTGFZRm1PSkNYQVB3c0ZpYjc5ODBmTnlvcVo1Tm9mbDdudUtScWQ4ZFRvN2FJV1BIRGlyTDdYUGtxSWpjdU94M3EzWlhwVFJ1cl9HaDU2cmwwRXJlYnhmVENhOA",
     "CBMipgFBVV95cUxQYWJhbVN1YnF2NHBxZV9lcXllcFdCYzk2clViWXFGVmdLY2g4VWtIRWhOX1JoUDVGZlRsWGpoSnFRLVBOUTZRMnJQQUI0Nlk1VFpGTnJKTkg2T0xmNmlvM1dyNXdDQl9SYjk2cnZPdDFabHZkSUNzTEV0S0hlMzRabnlUem1uYnRhMTdPS0pzSnU3MnBhTVllb3V2R18tVVRMM1l3RzhB",
-    "CBMiWEFVX3lxTE9UOEZGcnFuc2xQVGNkbmpIYl9OWWlTWWZkWXNDYzFlbkQyTkk2aTJwQlFObDBFMWxyZW40cGNNWDhhR3R3U3pDM1VYWFFtVHNKZWZIbFl5Rzg"
+    "CBMiWEFVX3lxTE9UOEZGcnFuc2xQVGNkbmpIYl9OWWlTWWZkWXNDYzFlbkQyTkk2aTJwQlFObDBFMWxyZW40cGNNWDhhR3R3U3pDM1VYWFFtVHNKZWZIbFl5Rzg",
+    "CBMilgFBVV95cUxOQXVSaWpORDQ4NWFpNk8yU3lENDVmQWd3Z2NQdzN1LTAyS3VaZ1lYcXBMTkk4ZGktX0VYZ3FOakRhUUF2anZ5VWFfLWozbUxkV2FlRS1mTmtlVDQ2Y1o3MkRvZ1ZHSEpPeGRpbGhwaEdxdVNhc181RTZQSnlVdkdCMTY5TFhDWTNQZWh6ZlhKaU5NV1dhaHc"
   ],
   "daily": {
     "d": "2026-08-18",
