@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "This Wednesday, @JoshuaVanBT joins @MeganOlivi for the latest episode of Becoming A Fighter 👊",
-      "ts": "2026-08-18T01:03:00+00:00"
-    },
-    {
       "t": "Uros Medic reveals inspiration from Justin Gaethje, number of fights left on UFC deal",
       "ts": "2026-08-18T00:44:32+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Tsarukyan On Nurmagomedov Beating UFC Lightweights",
       "ts": "2026-08-18T03:31:47+00:00"
+    },
+    {
+      "t": "Islam Makhachev Fires Back at Max Holloway Over Two-Belt Celebration at UFC 330",
+      "ts": "2026-08-18T03:36:48+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Back in Sac-Town 🙌 It's UFCSacramento Fight Week! [ LIVE AUG 22 at 8pmET on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2089366892980953274#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-17T15:01:00+00:00"
-    },
     {
       "title": "Max Holloway not a fan of Islam’s two-belt flex at UFC 330 (but everyone is doing it)",
       "url": "https://sports.yahoo.com/articles/max-holloway-not-fan-islam-162538514.html",
@@ -2105,6 +2098,13 @@
       "source": "boxingnews.com",
       "cat": "ufc",
       "ts": "2026-08-18T03:31:47+00:00"
+    },
+    {
+      "title": "Islam Makhachev Fires Back at Max Holloway Over Two-Belt Celebration at UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1obkc5VThESDVERTNYQjVtN3FpRVZIRTA5TE1OajdSM0Mxa1pobEU5Wk1odG1qZUYtcElCLTJ3UGg2RUl6cFo1RXA2bTkxdEJMZTAwRXV6X1ZUZ0JEMHFUQ1hiOXdZNFE1c2NKVEE2WnA4RUhmcDF6aQ?oc=5",
+      "source": "NY Fights",
+      "cat": "ufc",
+      "ts": "2026-08-18T03:36:48+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMikwFBVV95cUxQejRHVVNpQ0JWTlFCdl81RlpyR0EtMDdXd1lTRHdlMVkzWGxVeTZ4bVI3QUt2MlJyeVhwdFVPVEYySmxDRkwzam5iSi1HVGxsLVpEbTlUazVMaW1ldk1pdGI1SjVqdUpvTE5Pc0stRFhhcFlmaVF4WmlMWFFGa0d6ajJuNkd5MDQ1QzRveVZOUE9haUE",
     "CBMipgFBVV95cUxONkZYU0llZlk5cjBDY1NnOVBKY2I2N2F6ZDRMMmlJbTMyWEVYLTFKOEpSc3BxeTVjOGUwUThHMDEzZXk0MGFJYTlpMVZGSUZ0TU00R0ZsZmMxTExia0Rxb0hLRjBTTVFIZWR3Tm5jTUVmODJUUkRGUFU3QXRUeXZiaDVqS3g1b2lfTk1LOG1kQ0xBS2xTY2JpZG9OOUc2YkltYUFjVW9B0gGrAUFVX3lxTE14dDhEb1FWdUs2ckNrUllwbl82bkJLbUZZMWRkYXBMcHVzdWJmeG00WTZkajBMZnNJWS01NFhHN2V6UzFkUVFxT3YzOUg5aGJrMXM3aER2Z1AtREsxMjVNRzRBaFVpR0ZHV3VEblZ2S1ZVWXNDcG1ReUR6S1BhdC0tOWtrekVqcVZINHlXdXpMSmF1RU1QdDBsYTloQUZSVWpaeFZqeGxXbE16VQ",
     "CBMilAFBVV95cUxQVXRfNG1hTC1PQW9mQUVDS0NhTlozVmxmdkVFZXJ6YzJSYVY4bWY3MGFDSjdMb0M0Yks4dVFVV2JFdjdwSEpIYzlRbjhMV2JkZDQ1OGhLZjdwaktFQ3NqUldaV3p3eFZkNzNpeW9vU2ZrRVpwSmwySHZUQ29aemw3ZzBRMFJ4R3U0TVJTc2ZCQzNMcUlz",
     "CBMilgFBVV95cUxPV3QwRUk0UEpBMkx6OW52czVXLXFsV05UcUdqTndwVDMzdWx3VmNzampvQmx2SXZTbkhTNVVJUjd3QU5VbDFlS0E3NXNVV1NUX25rYUU5ZlpHNDFvSEZfRHdxSjZ2NXgxbDloMlU3b2NfdmN5cFdXUW1vanRBYVUwXzVJM1kteEFuZGxIRUFaQ0o2X1UwalE",
@@ -3312,7 +3311,8 @@
     "CBMiyAFBVV95cUxPNVA5TzVHU0FXMF9paGNrUmNFMjhFYmxrNFVvaEt4d2V4MmRmaDVCN0JyVzM1eFZOc1o4XzdpLXI3bzgyc2NocW9Jb0xRdHlaeENUSW5JSUxqYko3WWNNNTVVYlo0Vk5FVW1mM2t2emtzRk1aTGFMeTdRNmhGaU5RZ0QxREdDZWlGbW00QVdobUVzV2MyekFoV25KWlAtNDN4U3JRZlRNRmdsWmwyVGhqYThxWGhkZ3piNE1UV1Z4eXB1MXdTV2xoWQ",
     "CBMi1wFBVV95cUxNNllXeXczbE83ZzFDbmJ0eXU4OXdTT21hMDU1SkpQVnB0Sk1xRnplNHRpSWJMYU5VNnBWSGZxbksyWUJYTzgtMXh2bUxDcWZGS2s5dTVuaFAtckZrZmtEV1JINGNHWnAzUDFjZk10MUdZaGJvVENnNDdnV3Utbm92ZUt1UkMtN3FiZmZkTWc1VGhOVlpSRmlFT2gxWVMzVnhRdUxiUVh4ZmJEZ194alVBT1puRG4xaWFCb1ZfNndCYjBnbnZyYkpESy1zSlBvXy1IMjJId0ZZZw",
     "CBMiakFVX3lxTE1KS25WVlU5eEVNc1RRc1pRWXRkY2pUMFE4RjR0ZG1JQ2ZIQ0Y4WU9UMlRmZlFCS3llSDZxR2JrTjRGWkd2d2p2dlFESWtWZnJIdHVSRHpWTWR3X1pqcVlYMGZqN2psaVpxNEE",
-    "CBMidkFVX3lxTE9BM3dZZC1zWm16N2tsWFpnWTFzMFlheGpqRDdldXcwWTduc0JVTmFFRkZGaEhST2RqUDJpVlZ0aVA4NTNIZm9NTGpkZ2JPV25kR1I1ZUhkVGdHQnYwVjZtTlpudVVMOWx2RjlzSFcyM3FlUVYyQWc"
+    "CBMidkFVX3lxTE9BM3dZZC1zWm16N2tsWFpnWTFzMFlheGpqRDdldXcwWTduc0JVTmFFRkZGaEhST2RqUDJpVlZ0aVA4NTNIZm9NTGpkZ2JPV25kR1I1ZUhkVGdHQnYwVjZtTlpudVVMOWx2RjlzSFcyM3FlUVYyQWc",
+    "CBMieEFVX3lxTE1obkc5VThESDVERTNYQjVtN3FpRVZIRTA5TE1OajdSM0Mxa1pobEU5Wk1odG1qZUYtcElCLTJ3UGg2RUl6cFo1RXA2bTkxdEJMZTAwRXV6X1ZUZ0JEMHFUQ1hiOXdZNFE1c2NKVEE2WnA4RUhmcDF6aQ"
   ],
   "daily": {
     "d": "2026-08-18",
