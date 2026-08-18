@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Two powerhouses collide 💥 Anthony Hernandez & @Gregory_MMA are set for their main event showdown at #UFCSacramento! [ LIVE AUG 22 at 8pmET on @Paramo…",
-      "ts": "2026-08-17T16:00:02+00:00"
-    },
-    {
       "t": "Edson Barboza Explains Retiring From MMA After UFC 330",
       "ts": "2026-08-17T16:54:44+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "DWCS Week 2 official after all 10 fighters make weight",
       "ts": "2026-08-18T08:34:12+00:00"
+    },
+    {
+      "t": "RAF CMO Reveals How Jon Jones’ Coach Became a Secret Weapon Behind RAF’s Success",
+      "ts": "2026-08-18T04:07:32+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "\"That's a dagger for poor Gillian\" - Islam Makhachev’s coach reacts to Din Thomas’ comments and has a message for Gillian Robertson",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNllXeXczbE83ZzFDbmJ0eXU4OXdTT21hMDU1SkpQVnB0Sk1xRnplNHRpSWJMYU5VNnBWSGZxbksyWUJYTzgtMXh2bUxDcWZGS2s5dTVuaFAtckZrZmtEV1JINGNHWnAzUDFjZk10MUdZaGJvVENnNDdnV3Utbm92ZUt1UkMtN3FiZmZkTWc1VGhOVlpSRmlFT2gxWVMzVnhRdUxiUVh4ZmJEZ194alVBT1puRG4xaWFCb1ZfNndCYjBnbnZyYkpESy1zSlBvXy1IMjJId0ZZZw?oc=5",
-      "source": "Sportskeeda",
-      "cat": "ufc",
-      "ts": "2026-08-18T03:29:00+00:00"
-    },
     {
       "title": "Jalin Turner Secures Five-Fight Deal Following UFC 330 Victory",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KS25WVlU5eEVNc1RRc1pRWXRkY2pUMFE4RjR0ZG1JQ2ZIQ0Y4WU9UMlRmZlFCS3llSDZxR2JrTjRGWkd2d2p2dlFESWtWZnJIdHVSRHpWTWR3X1pqcVlYMGZqN2psaVpxNEE?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-18T08:34:12+00:00"
+    },
+    {
+      "title": "RAF CMO Reveals How Jon Jones’ Coach Became a Secret Weapon Behind RAF’s Success",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjU3Jod1JQU004MW5zd05WY2NyM2F4MldZZENrVkFJaWhyMUtwb1dwWGtxaEhHcXpPNFEzSWdkemFXbHpNRFdSQXNCMzVYd1g3UVVvS3FYdkptZzZjTUpxbUZoem9QVjNUb0tUT1NHbUY0N3ZfWW56QjZSdw?oc=5",
+      "source": "heavy.com",
+      "cat": "ufc",
+      "ts": "2026-08-18T04:07:32+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiiAFBVV95cUxPZDNIRlljZGpDQ1NXNWlFTXNnQ04yTGJVV2F6Um5odzYyWUZQQnZMNy1tR3pPYl9RakFyZXNrNkF4Ui1hVXJIc2gwem9LRHJibUUwRmVvZU5DY0l4M0M3a2ZpQ3o2WUtDZW03a1UyYWRLVmo0VzJfN3hDUy1ENXpkbElLNUFGa3Yt",
     "CBMiigFBVV95cUxQdFZNQ0ZUaENKczBQelV4c2tKcmlrWk5kZnhqZ2FNcnJsUWs4WmNzbjg5dU5BdGl0b3k3ZXJqbG5VV1dYSk1DUmF3Y0VEaWZNdVB6c1ZqMmFQWnVVSUxxTndmaUZfTlBYcUtaUlA4a3dZWm4tSmk5NV9fVWJlN05EZTA2b2N2R3BGZEHSAY8BQVVfeXFMTllyRVctVWNpcUNlMGl6WURFaUZpb0l6MHgtdkduRjdqMGxtWUwxSGlwT1JEczNYQWlRWWlodTNsYUluem5LQ3Q3aGV0Q2FXaTBJcVNKUFZ4ZlUyZ2NxMHg1SkU4WDJHTk1iWEhtcTJrUVhtbTVwZzBsb0FUblJTY3FoQkJ5QXd4bnFhZnV4Qmc",
     "CBMiwAFBVV95cUxPUHh0TERWUmVONVZ0cmJhTk9wZk5SZGthQXJ6ZEo4WVhHV1lJMks1RWl6TE9Celp6b0RiWTRUeWRLRHhtbVA4WHFqRlI4eFBJc3BtNFFrbnlaV2VsdXFXSVAxemxOQWJmTXB6eUZRVFkyV01SWDdGNkpkVnlHR3ZVQi1XLXliS1FrQnpDbF9DbGQyVGNNejE2Uk5URTRSMG5RZ0txYXdwR21IQV9FWl9nRTZrbmFJYlZ5V3Jic09KOGHSAcYBQVVfeXFMTTRtR2Y3YmpuZ2NJZWx1ZDZ3N3VaUDNMNDluVmhtQTkyUS1yZ3N6UDBLYXBPX2x6S0R6Y0xyWERIb2RSTVpyRzhCajBONGZEUC1TWXVBbzJwaXZBenNXWHpxOGVsYm1KcVAwaDN3SXl5Z01QNGdHOUh3LXo1T3Z1c1RMUHhMYmFGZnhEQlBHMjR4U2gwejFGUDRhNEhBSXFyTXRVaEZfTzNralQ4UGtGZTU3eXppelZXWmlBcGZNNC13OGpfUlN3",
     "CBMi6AFBVV95cUxPMjBaenZ0VUlvWHZlRmE2ZmRMNXVEMmd1X2pod0Z5T2ozN25kWlhnVmxFZ1VOMkRnNk8wUXdjNVR2YXJrNllIT1ZPdFk4TG1oNWE1a1M3d0RucFZqLW1iYUVON0V4X2dBbWtqeVUwR2FJUTRLT1FOQ0szLTBZYVRmYUV4MkRlQzlRUkd4aU9DcHgzNXRmc2h1OW91bm16dENMTFJVaGppUmFaaC1NUDB3TkRpTTN3N20xYUp6NVBISWJiS3ZRSWdaeVZHZnFHRmpUU3BWNWdIVVFpbE83dlAzTDZlcUFuanJz0gHuAUFVX3lxTE9zWkQwelNpRXlMRHZqRFI5OGNxc3NGcWJnbVQtekVJV3FueUxaZ2xoR294NW0yOGtDTnNNRHh6bEZqb2pMYTN0aXFyMnNMTTJVM21pQVJ0Zkd0bnNMbG1oT3pqMjR0NlQyNzAyYVFETk44dV9VRi1JN3Y1eVpOZTMzd3RaWXV5cmg2WTNsemVYN20yLTZWWk9YVVgyMGo1bEV4RlFHc1B4cHdob0hwR25XbFp0TGlZOTJrTTZFME1BX3ZZMXdrMlZEaUZiYjNvT21zaWdRVWJEZHhBWF9MSkxZMjBCd0xqOFplR0FrZEE",
@@ -3312,7 +3311,8 @@
     "CBMickFVX3lxTFBveVgyczQ2dHBITVIwcXh6dTZjckY3TnRrSDhTc2VIc0xSZHNvRVNHUWY2eDNuWTZXQ1lOekpva2ZSLTdyQnVvNVZCVWhHcWwzV3F0T19VY3FMc0VFaW9zMThpSENzYm1TY00yajhadWltUQ",
     "CBMiyAFBVV95cUxPNVNYeENpdjNZRHcyeGI1d1JJXzktOV9nWE9XbmU3NWxRZDh3NDNRNVVsNWM2amhyT1pCNHBSY09YZzdiRFZBM1NIVzdKdTZkblRtWjREY2FPaGpYaDROVnJaM3R3N1oyWXF0T3hRZmN5VzczWEI2bHEwcGgxTHlqNGpIR0tjSHN3bFFhVkpnaHRBWDJVRVdKUTBweEozYTkzX1lWR01pem5YZmo3Rk5YcVRuQk1FYmFTb1VFRnJwTG56UEFpeGRBMA",
     "https://www.sherdog.com/news/news/Charles-Johnson-wants-to-avenge-Brandon-Royval-loss-in-UFC-rematch-202402",
-    "https://www.sherdog.com/news/news/DWCS-Week-2-official-after-all-10-fighters-make-weight-202403"
+    "https://www.sherdog.com/news/news/DWCS-Week-2-official-after-all-10-fighters-make-weight-202403",
+    "CBMie0FVX3lxTFBjU3Jod1JQU004MW5zd05WY2NyM2F4MldZZENrVkFJaWhyMUtwb1dwWGtxaEhHcXpPNFEzSWdkemFXbHpNRFdSQXNCMzVYd1g3UVVvS3FYdkptZzZjTUpxbUZoem9QVjNUb0tUT1NHbUY0N3ZfWW56QjZSdw"
   ],
   "daily": {
     "d": "2026-08-18",
