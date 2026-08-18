@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Meet the fighters competing for a UFC contract on Week 2 of Dana White’s Contender Series",
-      "ts": "2026-08-17T18:00:00+00:00"
-    },
-    {
       "t": "Islam Makhachev forced to change his game after UFC 330 says cage legend Dan Hardy",
       "ts": "2026-08-17T19:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Payton Talbott vs. Deiveson Figueiredo among 7 fights booked for #UFC332 https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/18/ufc-332-payton-ta…",
       "ts": "2026-08-18T14:41:08+00:00"
+    },
+    {
+      "t": "Frustrated Khamzat sends message to UFC boss Dana White — ‘What are we waiting for?’",
+      "ts": "2026-08-18T14:52:02+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Kamaru Usman convinced he could beat Islam Makhachev: 'I'm telling you guys'",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY2JmaTBuUEdOWDljTEx3bWI2M003VjFuT2FndFRzbGtxWnkwVnBZaVVEdUlQRjZqT2pfTGRKYkdGNnpON3NiYmNPS2VWeDZGMnNtQ2czUTNfR19VV2ktaDVsWUthb0tKcW1pU3RQdi1obmxTa3dqTm1ad1pwdDlxakZnTXBEVVNpNlV4RVM1bGJ1ZFVoTDJMNjR3WUMtYlNKR0JfREotX09UODVMOS1sU3JYcTRSNWd3YzlzLVM1YlNwRnl3U08tWG0xVUNpWmpBbXZEVA?oc=5",
-      "source": "MMA Junkie",
-      "cat": "ufc",
-      "ts": "2026-08-18T14:30:00+00:00"
-    },
     {
       "title": "Elite company 🙌 @MAKHACHEVMMA is now the 5th UFC fighter to successfully defend two championship belts with his win at UFC330!",
       "url": "https://nitter.net/ufc/status/2088989152939213280#m",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-18T14:41:08+00:00"
+    },
+    {
+      "title": "Frustrated Khamzat sends message to UFC boss Dana White — ‘What are we waiting for?’",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVjJlQWg1TjBhdzlORWVUZ2JONDZNNFdWOTZkZ3ZqWGcxa3UyekRIYkVRMjRuUVBPYmp0NlJZNmlDTU9ZMDFJN1ZjX0otRjhFQXFGN2NsTV9PZHcwNm1xdklyUFdvUTNERk9nUW9wQXZTUndTLUtXeUlwVHIxZUxRNE1aSzA5b3hjbnMzVUpxTnEtY1RIYVJsUG82WlVDYUkyeGlNZWREcmJvam5IU0piZGp1UlVFN2ZlTWxleQ?oc=5",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-18T14:52:02+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "CBMiuAFBVV95cUxOZVphYWhlb1BFS2tnNzZJREdrejUybmt2c19fWTFKUURzZmJCekRReWVRUHUzZExIZ21RemFxam4xMW5fUXJSR0VqblVLRkhBWml0cmpwb0ZrZjRkWlZOb0FKWHQ0NHV1Tl9zMHVwNlRBUGluNkJQMEhpQ0xjZHUxV1NQSjhKY1lXVmZZamNRNkQtVzQtMXU3eEROZEQxS3FLaDBDZkd6WWp4emVZcGR4RU82TUlJelpm",
     "CBMigAJBVV95cUxQMUZvVEVXY2Jva3VBVXNQbnhkQTJqbFhWXzZrTl8xWEVuOWlGMmRwMVZSa2lWZjBpdjBIdlNwVWo5ZGd5ay1ueUt0WmJrQkc0SWZSc2kzMGpPaFg3bnRpaFNGV29BV0pxSGcyYnZEZzRVMDY2azVlenhXOU5ZUzR6dHBpaFlSd1VGV0txbUlYcS1VcmdHUVIyT3lMQ3lwV2h3SU5WOGtVMXYyVnM2Z3Y1dnRKNlJuOXVIMUhtZzZtd0VERGVuZjA1V0ZPNk9LR2ItM1pxSjV0SmExcFFLNkZPemdLb3NFVG1LUFhzbVRXLWlrWlcweExNM3FmN3NPZzBl",
     "CBMiwgFBVV95cUxOXzFNalJnN3dIbUZ1ZWRjbk9oMVY0WEdFejFkOHNWRWd2QzNCSkl5LUVjaE1UblFONUlwd21RM0pfV2xtZFJxOEFVMHlsSXRieUxnU1k4cEtUSHpjMW4zdG5IUV9qc1RQNnhYSl9xeElvN3h4d1BBc1pfT3R4ZC1EQXQ1VnNnTkYzRW1jdXViR3QwM01DcHdBLWk1WVQyVlgxbzNVVWpSWnZ1Z0ptUFZ4d29pUkZkMERDNUFQdkZGZWNrZw",
     "CBMixAFBVV95cUxNVnBZdE5kQ2YzeDlqTGJfc3VQbS1fbkhtcl9DTWhOT2pNQkNwWE03QVpSQ2h2cHVTa2VsYm9DeFhidV9RLU95dWE4RkZwQlNtVFZBOTlXR3c2Q3QyMVczMWctRmEteDRQanZLNTBQd0ZoTDk1RFQ1TEFYQjBaOU1CM1FxQzR6VTJDSTBOWE53eHNZRWNHQ3FIbzhyTmU2SjByQUV4MFFRalE5UWdHN0ViVkpWTnNfak1VWGg0SDk2Umd2VXRy",
@@ -3312,7 +3311,8 @@
     "2089722898797805572",
     "CBMipgFBVV95cUxPV0JTLWxZYkJFUEQxOFEtWGp2akZnSWU3LTVEcXVsQnJaSERVZW1lcXQzTGc5NXNDQmExVncycENCZ0hVSlBWUkZocjVLMS1SU2lqVG9ha1dMR3E2dkJSVHNfdGxmWGcxcGdtOVBNQWZWbDVJMG43TTJuZEpoRVByQXUxVUs1cnVUcmtHZjJ3R1lUM1RaSUZZYzRXelF6X01sbDNTYzdn",
     "CBMi5wFBVV95cUxOV0Ezdk1UWFJBU244VEVmTmFWYTdMSWxkRjUtZVZLbkx5RDhxOF9XTXVHTDQ1czdiUFhwcGt1bzhBZDltcXBhSXFieHhRb1JhcTYwTmRMcFBjVnlHbDBtR1c5azBjQjQzY1dFMjRRVzMxd1YtMzRlTWhpUHc0eXFmcXRKdkk2b3JnYzZGUkRlZkFFNHkzTVhaMlVXcVNudEN3SlRWS0o0VEg3OGV2cTdQdlJZZ3c1ZjZKaF8ybW96c2RlRXI3WHcxUFJBaTFQd2xLVVpKMGJWTUpoeF9QS2staVpjREN1WUU",
-    "2089724281785565541"
+    "2089724281785565541",
+    "CBMivAFBVV95cUxNVjJlQWg1TjBhdzlORWVUZ2JONDZNNFdWOTZkZ3ZqWGcxa3UyekRIYkVRMjRuUVBPYmp0NlJZNmlDTU9ZMDFJN1ZjX0otRjhFQXFGN2NsTV9PZHcwNm1xdklyUFdvUTNERk9nUW9wQXZTUndTLUtXeUlwVHIxZUxRNE1aSzA5b3hjbnMzVUpxTnEtY1RIYVJsUG82WlVDYUkyeGlNZWREcmJvam5IU0piZGp1UlVFN2ZlTWxleQ"
   ],
   "daily": {
     "d": "2026-08-18",
