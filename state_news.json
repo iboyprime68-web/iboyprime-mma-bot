@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Arman Tsarukyan shares his thoughts on Islam's future at welterweight: \"Morales, could maybe be a problem. But still, right now, who can beat Islam?…",
-      "ts": "2026-08-17T20:36:43+00:00"
-    },
-    {
       "t": "Usman Nurmagomedov potentially signing with the UFC would set up some insanely fascinating matchups. Usman x Ilia? Charles? Max? Quillan? Who would y…",
       "ts": "2026-08-17T20:41:17+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "The Thrill and Agony: #UFC330 winner and loser reactions https://mmajunkie.usatoday.com/story/sports/mma/blue-corner/2026/08/17/the-thrill-and-agony-…",
       "ts": "2026-08-18T02:20:47+00:00"
+    },
+    {
+      "t": "UFC Fight Night 285 broadcast team set: Two Hall of Famers on call",
+      "ts": "2026-08-18T12:50:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Alonso pulls Delap from Chelsea squad in Como loan standoff",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbGlfZEhsU1ZvTGpuMVlWZ1ZoNFgtZEkza3RUYkI3RWNWS0g4ZDI2dmdReHlNNmVsMjgxeDJSNGhBZkV1QnVyb2tIRXFhMjBJRlQ2Z2diUkFfQVZwbDhDS2phUlBIOEs4LUFzckhrQ3otTHMycjk5dE53cUNYMkxYRFVhZTFnVzUyM3I3Q1l6cEs3UQ?oc=5",
-      "source": "Lente Desportiva",
-      "cat": "ufc",
-      "ts": "2026-08-18T12:00:00+00:00"
-    },
     {
       "title": "DWCS 88 faceoff highlights video, photo gallery from Las Vegas https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/dana-white-contender-series…",
       "url": "https://nitter.net/MMAJunkie/status/2089409703096840213#m",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-18T02:20:47+00:00"
+    },
+    {
+      "title": "UFC Fight Night 285 broadcast team set: Two Hall of Famers on call",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOb1M0eEpqTWkzZ18wT2FaUWJDbWxpMG1WYVdrbmprVllXWlJDMUM4TFdKYzFmQWlNLXoyOXNOVm5YUEJsM003QVRwSlFtZl9EU01kZTBJczdpd01LdG5RaWJUYmVxa1h1QWJuaEM1b2t0dzlXOHV4dF9lbExWejIwbldVT3Izc2lCTEk5NVVPUEppUEp4NW9heVhwRldzdHhZSF9VLVpuc3dhWjB0eVZzYTZUbVp0RktXdEJCMk41RUM3RUFSNmlOcGtpdmtPanZt?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-18T12:50:00+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     10
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=505329",
     "https://bloodyelbow.com/?p=327214",
     "CBMiogFBVV95cUxObEZWYnM1eUNuOGh1b3JtQVg4RFlvMFR3VklsSFVCekc5MXVkRm90RW0zeXBpSFVEZnE1eURvUGtUbnNEbGFmRU9Lam81Qmh5VWY1elpRQlBQQmNBOGx4a1hDTTVlU3VqRG43SVFma1p1d2QtcnZvM3ZxZ0NpVGVIRVVrN2ZWTWF2XzNvYzR1MHdwLXkzV1ExbjBJT2NIeVFIcGc",
     "CBMiekFVX3lxTE5xLThHMy1Ecy0yR2c0LU9yYjBoMkpIOHl0bm4zM3BRN0xKa3pjQ2dRcThTdUU3TjMyMk1IY0NJYjdWaTkzRGdWX2VtRWxsZGJIM1pKa2ZjZXRRNXp6TG1FeVowQ210QzVyOU1IUHJtLUNvUWFEY0VGU2VR",
@@ -3312,7 +3311,8 @@
     "CBMid0FVX3lxTFB3RlFSODZrRksxLUcyWks4QVZEMU9TLXR6bWg3SGJWUUw4Z2h5Q1ZKR2ZuOFRfeEdqSFJGRllJcGR6Zk5VRTh2Z2d1U3JBNWc5ZXk1cXMzN01UWDEtb3h6QWpJaUVQV1FhWUVfTHY3Q1pLUldrRVdN",
     "CBMixgFBVV95cUxQenFyQTQxZUtBcFY4aTluclVzOWdhQ3ExVzFmRTFOc0Z5VzRNWHdhelBLNTZQcWlleVRNTUZiVzB2QmliX1piVTZNemlpLUFUTkEzSVh2S1lCRnZQUi14LVctSVhVaHFHVzNjNHBOajhncmdQZHhPQTJXSE5PaW9lMFZXZVBSOHVjNWRqajhjUXdCNUdFM3U0YUE3ZjhRbHl5LS1UaGZER0o5OUMwZUUtNFJPbERWeU9yLUZuMUtJWk9PUmVUbnc",
     "CBMidkFVX3lxTE1wMnJSZFFMMEZZT1QwZXZmSXdSZjYzTUJuSzJtczE3OVZVVm9ndmlOSzlHOUZKcFVQTlh5VEw0V3I5cEpBRS1hMzZCNHdIUFVOc3RiQnMxOXhONk13MGxmV3hsZ2RWcHNMN0I5YzZYbHBxcmtJckE",
-    "CBMie0FVX3lxTFBDakNmVlVXY21jNEZhb0VRcGlUOTREUG9hdktfbE93ejUwVzA3VFUxZ1N2TUxCSVdvLVBKZEtLckhyeWV3cWVsOXVfQmlCRDdpc01Rd1BUYm5EdVZDYVJoaVluUENxT2Y1cm96ZENhZGV6WFBXZHVXOXdpVQ"
+    "CBMie0FVX3lxTFBDakNmVlVXY21jNEZhb0VRcGlUOTREUG9hdktfbE93ejUwVzA3VFUxZ1N2TUxCSVdvLVBKZEtLckhyeWV3cWVsOXVfQmlCRDdpc01Rd1BUYm5EdVZDYVJoaVluUENxT2Y1cm96ZENhZGV6WFBXZHVXOXdpVQ",
+    "CBMi0AFBVV95cUxOb1M0eEpqTWkzZ18wT2FaUWJDbWxpMG1WYVdrbmprVllXWlJDMUM4TFdKYzFmQWlNLXoyOXNOVm5YUEJsM003QVRwSlFtZl9EU01kZTBJczdpd01LdG5RaWJUYmVxa1h1QWJuaEM1b2t0dzlXOHV4dF9lbExWejIwbldVT3Izc2lCTEk5NVVPUEppUEp4NW9heVhwRldzdHhZSF9VLVpuc3dhWjB0eVZzYTZUbVp0RktXdEJCMk41RUM3RUFSNmlOcGtpdmtPanZt"
   ],
   "daily": {
     "d": "2026-08-18",
