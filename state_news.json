@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=503799",
     "https://www.mmafighting.com/?p=503803",
     "https://www.mmafighting.com/?p=503806",
     "https://www.mmafighting.com/?p=503861",
@@ -976,6 +975,7 @@
     "https://www.sherdog.com/news/news/Hasim-Rahmans-undefeated-son-Sharif-signs-multifight-BKB-deal-202342",
     "https://www.sherdog.com/news/news/Hate-of-sport-pushed-Kyle-Daukaus-towards-UFC-resurgence-201471",
     "https://www.sherdog.com/news/news/Heavyweight-contender-calls-for-UFC-to-cut-Tom-Aspinall-slams-Alex-Pereira-201717",
+    "https://www.sherdog.com/news/news/Henry-Cejudo-questions-Khabib-Nurmagomedovs-place-in-GOAT-debate-202404",
     "https://www.sherdog.com/news/news/Herb-Dean-defends-officiating-in-UFC-White-House-coheadliner-201553",
     "https://www.sherdog.com/news/news/Ian-Garry-Ill-surpass-Conor-McGregor-in-Irish-MMA-by-beating-Islam-Makhachev-201756",
     "https://www.sherdog.com/news/news/Ian-Garry-accuses-Islam-Makhachev-of-wearing-heels-at-faceoff-202337",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Namo Fazil and Kaik Brito share an intense faceoff ahead of their #DWCS featured bout 👀 (via @jeroguerra10)",
-      "ts": "2026-08-17T17:38:58+00:00"
-    },
     {
       "t": "Daniel Cormier: Islam Makhachev was tired, pushed like never before at UFC 330",
       "ts": "2026-08-17T17:00:29+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Max Fried Placed on 15-Day IL With Elbow Bruise Stream of Major League Baseball",
       "ts": "2026-08-18T04:08:44+00:00"
+    },
+    {
+      "t": "Henry Cejudo questions Khabib Nurmagomedov's place in GOAT debate",
+      "ts": "2026-08-18T03:46:50+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Tsarukyan On Nurmagomedov Beating UFC Lightweights",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BM3dZZC1zWm16N2tsWFpnWTFzMFlheGpqRDdldXcwWTduc0JVTmFFRkZGaEhST2RqUDJpVlZ0aVA4NTNIZm9NTGpkZ2JPV25kR1I1ZUhkVGdHQnYwVjZtTlpudVVMOWx2RjlzSFcyM3FlUVYyQWc?oc=5",
-      "source": "boxingnews.com",
-      "cat": "ufc",
-      "ts": "2026-08-18T03:31:47+00:00"
-    },
     {
       "title": "Islam Makhachev Fires Back at Max Holloway Over Two-Belt Celebration at UFC 330",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1obkc5VThESDVERTNYQjVtN3FpRVZIRTA5TE1OajdSM0Mxa1pobEU5Wk1odG1qZUYtcElCLTJ3UGg2RUl6cFo1RXA2bTkxdEJMZTAwRXV6X1ZUZ0JEMHFUQ1hiOXdZNFE1c2NKVEE2WnA4RUhmcDF6aQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-18T04:08:44+00:00"
+    },
+    {
+      "title": "Henry Cejudo questions Khabib Nurmagomedov's place in GOAT debate",
+      "url": "https://www.sherdog.com/news/news/Henry-Cejudo-questions-Khabib-Nurmagomedovs-place-in-GOAT-debate-202404",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-18T03:46:50+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiwAFBVV95cUxPUHh0TERWUmVONVZ0cmJhTk9wZk5SZGthQXJ6ZEo4WVhHV1lJMks1RWl6TE9Celp6b0RiWTRUeWRLRHhtbVA4WHFqRlI4eFBJc3BtNFFrbnlaV2VsdXFXSVAxemxOQWJmTXB6eUZRVFkyV01SWDdGNkpkVnlHR3ZVQi1XLXliS1FrQnpDbF9DbGQyVGNNejE2Uk5URTRSMG5RZ0txYXdwR21IQV9FWl9nRTZrbmFJYlZ5V3Jic09KOGHSAcYBQVVfeXFMTTRtR2Y3YmpuZ2NJZWx1ZDZ3N3VaUDNMNDluVmhtQTkyUS1yZ3N6UDBLYXBPX2x6S0R6Y0xyWERIb2RSTVpyRzhCajBONGZEUC1TWXVBbzJwaXZBenNXWHpxOGVsYm1KcVAwaDN3SXl5Z01QNGdHOUh3LXo1T3Z1c1RMUHhMYmFGZnhEQlBHMjR4U2gwejFGUDRhNEhBSXFyTXRVaEZfTzNralQ4UGtGZTU3eXppelZXWmlBcGZNNC13OGpfUlN3",
     "CBMi6AFBVV95cUxPMjBaenZ0VUlvWHZlRmE2ZmRMNXVEMmd1X2pod0Z5T2ozN25kWlhnVmxFZ1VOMkRnNk8wUXdjNVR2YXJrNllIT1ZPdFk4TG1oNWE1a1M3d0RucFZqLW1iYUVON0V4X2dBbWtqeVUwR2FJUTRLT1FOQ0szLTBZYVRmYUV4MkRlQzlRUkd4aU9DcHgzNXRmc2h1OW91bm16dENMTFJVaGppUmFaaC1NUDB3TkRpTTN3N20xYUp6NVBISWJiS3ZRSWdaeVZHZnFHRmpUU3BWNWdIVVFpbE83dlAzTDZlcUFuanJz0gHuAUFVX3lxTE9zWkQwelNpRXlMRHZqRFI5OGNxc3NGcWJnbVQtekVJV3FueUxaZ2xoR294NW0yOGtDTnNNRHh6bEZqb2pMYTN0aXFyMnNMTTJVM21pQVJ0Zkd0bnNMbG1oT3pqMjR0NlQyNzAyYVFETk44dV9VRi1JN3Y1eVpOZTMzd3RaWXV5cmg2WTNsemVYN20yLTZWWk9YVVgyMGo1bEV4RlFHc1B4cHdob0hwR25XbFp0TGlZOTJrTTZFME1BX3ZZMXdrMlZEaUZiYjNvT21zaWdRVWJEZHhBWF9MSkxZMjBCd0xqOFplR0FrZEE",
     "CBMitwFBVV95cUxPMnRnOWlKNDVBZmktUHY4bWNzOXNaMnA3N3hURDBMV0RPSGtESl96RW9DMEo1LTlQaXRheDI2QWdGUzlNcGUya1NhNHJ1X3BYN1h6b0ZUWHUwUWtyaVhOSWlkRVJfOFZfV1BLc0ZQTWt0ckd2b2tKOUoxODdDQnpJS29sYlM0ZHV5ckRfRkxGdjdFeEhEdGpkemNKdl9pVU9DeXJHV2FIdnN4VDZqM2cweElUWDY1dEHSAawBQVVfeXFMT3ZGY09ZZWVDMlJmdWJaUXVtREd6R3ZmcXZBblV6X3FGdnRndXdfNDlMbzVkWW1YLVp0bUNfaU5WOF81ZFljcDF0Z3VyTGFNSW1QQmlvUFZ5R25vcUdXZWk0MEFid1FvMGotLWVtR3pObm9IOExLYWZZMUttbkNNaVg2S24xNm9PYldqY3NzUjNCeTNrUjVNa3Q2SmFBYTd0N1BOZGRtSEluc016cQ",
     "CBMipAFBVV95cUxPV09QdV92ZTR2QUdtR0kwekIwODZvb2pVYWZ3aUYtXzdxbDdnRk55TkZ6bkQ0M1BseHdCanFoVFdpdktnVzZFTHhpYkxHZWZCYVpnUXNheUZSa1FvRld4VURQc3R4cHBWMmdIcG9fSGVhY1RYNlN6Y1c2dzNxMGJUekloRWw1XzB6X2FaQTU4UFFSS1pzcGxIanZFVXRZTkM5SXhId9IBpAFBVV95cUxPV09QdV92ZTR2QUdtR0kwekIwODZvb2pVYWZ3aUYtXzdxbDdnRk55TkZ6bkQ0M1BseHdCanFoVFdpdktnVzZFTHhpYkxHZWZCYVpnUXNheUZSa1FvRld4VURQc3R4cHBWMmdIcG9fSGVhY1RYNlN6Y1c2dzNxMGJUekloRWw1XzB6X2FaQTU4UFFSS1pzcGxIanZFVXRZTkM5SXhIdw",
@@ -3312,7 +3311,8 @@
     "https://www.sherdog.com/news/news/Charles-Johnson-wants-to-avenge-Brandon-Royval-loss-in-UFC-rematch-202402",
     "https://www.sherdog.com/news/news/DWCS-Week-2-official-after-all-10-fighters-make-weight-202403",
     "CBMie0FVX3lxTFBjU3Jod1JQU004MW5zd05WY2NyM2F4MldZZENrVkFJaWhyMUtwb1dwWGtxaEhHcXpPNFEzSWdkemFXbHpNRFdSQXNCMzVYd1g3UVVvS3FYdkptZzZjTUpxbUZoem9QVjNUb0tUT1NHbUY0N3ZfWW56QjZSdw",
-    "CBMimAFBVV95cUxOLUlBN2JtOS11aTdUZHVzUE5DS0h4VW1rSHVsdC1XUDI1eHpqME4tdGVEWVRfNkpqMHZWcEszWkpGTmlTZXpDYk9UajFFdzIwLW5Pank5NmZHd0JSX1pyd1hUVzdRZzdYeHRtZUp3d2xTSXZZRTFlbjNicVdwNWdzRE9PbmYwX1EzN2RSbGh1RUdzRGJuVml1aw"
+    "CBMimAFBVV95cUxOLUlBN2JtOS11aTdUZHVzUE5DS0h4VW1rSHVsdC1XUDI1eHpqME4tdGVEWVRfNkpqMHZWcEszWkpGTmlTZXpDYk9UajFFdzIwLW5Pank5NmZHd0JSX1pyd1hUVzdRZzdYeHRtZUp3d2xTSXZZRTFlbjNicVdwNWdzRE9PbmYwX1EzN2RSbGh1RUdzRGJuVml1aw",
+    "https://www.sherdog.com/news/news/Henry-Cejudo-questions-Khabib-Nurmagomedovs-place-in-GOAT-debate-202404"
   ],
   "daily": {
     "d": "2026-08-18",
