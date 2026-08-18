@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Carlos Prates denies turning down Michael Morales fight: ‘I’m not scared’",
-      "ts": "2026-08-18T11:46:15+00:00"
-    },
-    {
       "t": "UFC Fight Night 285 broadcast team set: Two Hall of Famers on call",
       "ts": "2026-08-18T12:50:35+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Reinier De Ridder: 'It Took All The Fun Out Of Fighting' | UFC Sacramento",
       "ts": "2026-08-18T18:42:52+00:00"
+    },
+    {
+      "t": "Coach disagrees with Dana White's 'killer instinct' criticism of Ian Machado Garry https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/18/ufc-dan…",
+      "ts": "2026-08-18T18:45:47+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Javier Mendez Calls Ian Machado Garry Islam Makhachev’s Toughest Test After UFC 330",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR1UyMVdUc1JWdUZzamU0Umxrbm10UDdGZVZaTy1nRXZqTWhHUENBLTgtQTA4RlRGQ2ktZEpzWEFyMDNMTTdTbGZvRmZDeVBVZG9DbFNzTXhyYzZrbnZmSWRELVppcFhaM3FXaUI0RlJ2N05xVUJCYXlBUm5jM09tVWY5a3FEd1V2a0JWbVpja2J2RDQ1VVljVHdGLThYd2NkRlR3?oc=5",
-      "source": "MiddleEasy",
-      "cat": "ufc",
-      "ts": "2026-08-18T18:23:56+00:00"
-    },
     {
       "title": "Joe Rogan isn't sure Islam Makhachev can handle welterweights with 'nuclear power'",
       "url": "https://sports.yahoo.com/articles/joe-rogan-isnt-sure-islam-211018129.html",
@@ -2105,6 +2098,13 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-18T18:42:52+00:00"
+    },
+    {
+      "title": "Coach disagrees with Dana White's 'killer instinct' criticism of Ian Machado Garry https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/18/ufc-dan…",
+      "url": "https://nitter.net/MMAJunkie/status/2089785851077091675#m",
+      "source": "MMA Junkie on X",
+      "cat": "ufc",
+      "ts": "2026-08-18T18:45:47+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMimgJBVV95cUxPSllJWTNldnFsRHZ3cFlneHRaR3RfYzJHX2xHX2VqblpGUGNBRmFVLWY3dWRvX0tzM3RnaXVHRnZKMGZja1Q4YlQ2YXdWMy1ld1NvMjlfTEZzemRWVmdleFFoQVBoQW01YUwwOG1HUlFJQXVIQzdvcmZiMnpFQmczQnVHN0pxR0hGSUZndmpQYmhKYmhQY1VHcWRIOWM0emdpWU9WQjYxQXJZdkJkT3E0MnhLRUZmVTdwTXV5XzRTQTRMaVlZNXA0UUozNWxvQnVIckduUVFwZkQxVHpvRlpUWEJBS2xSWmhna2dMWHY5dmZTbjZFRENrQktWYkdBdmg4bTdycWpIazgydG5HRG9iTE5LVFpmUUE0aXc",
     "CBMiqAFBVV95cUxNV2otbTVqTG5ldVd5a0laOExJSDBRWFdLQVRBaFF2ZG9yNUx3alBJTWZCTUFyUklnakV5QVU3UUZ4VTFQVkdVLWNuNV9wTlVGQURXdXNQMndmT1hWSy1jekNhOHR1WG1GMjVZNVZ3NGFwbkpJMTFPYkU5ZXJHTUtRNXROWTdpeWVzMkZYRThzanFQWE1jbEhQY01mZ1BRaFgyNms5OHlzd1M",
     "CBMipgFBVV95cUxPVmczNktmbnJ6Q2tqa25LQVBmSW1Dei00amRmX1EtMnltZHVoRWpYVm5veVByUV93aXpHLXozZkZWTzFaejdHVkx6Q0dBRzhpMENKUTlNanhodzhYV0l3U0NMQ2E0QVJqUmhVRnNOdVFkemM2MEVFSXhaTnBnWFZpYjRPRlNldU1TOXFodVBFSlhWVmRYekZVU1Y2MW1ZQWFONV9idjFR",
     "CBMiZ0FVX3lxTE9OU1BDNkNoUjBoT3YxeDVmZlJxdW51b0JGLW1ndWlzOU1tb19uU3JDaF84X2lpR0h4d043YU0zOGg4dkpWRXFRb0hUbjVjN3NpbjNmLXFJMXdDa0l3cXVhcWpGWlNWcUk",
@@ -3312,7 +3311,8 @@
     "CBMi1AFBVV95cUxQUXMxZ2ZzUXhoQzA2czFocjFydGJ6Uk5NeW9nSDQtYUN4UEo1MV8wVHlhQWhPeWppWS1DeUlRbVd3am93RzlMNWRKNXlvUUU4cGlSQkJqSVZ0N1hPMjNNRndEN3l4eUdCV05GT21qaVFLYzdlejRKcVd6eTl5Nng1Mk15cFFoNHBpZXl0TEUtMmlyeDlwb01UYWd2TDVma0VOQ1AyTkIwNjUyMXVVZFREbEx1Y2l1U3Q2SGVycE54SXFxNlMxaVctTXJaejktWFdGeUdoTA",
     "CBMi6AFBVV95cUxPTzdpVXNaNDg2MnN1MUU2QjBoOUI5UVdfV1FkdmZNRi1aNTN3RTlnUjdmRjhrQVA0bm5DNHpIQTc3NGtPUzRqV2Y3eGp2VmpGR0RRVG8zU2NlU3ZuYnVack1KVWpmSmtad0hCQWkyMUpKSWtEVzZpLU1iUlRIUGhFTnFpTjRoUHJ3bGhHWUY0d2lBaVlPajF2OUdDV0diT3llTnUzTmtONFRxMU5qZ2Z6TWRiZ0FHVlR5S1U3SENWOW4wWElsRW12R1pFZmFKR1BjeVlRczJsWXBvZXBGZGRrUkkyTUJrMUFl",
     "2089786228413698152",
-    "CBMiR0FVX3lxTE84aS1lQWVkNWQtSkJ3X2RzdTFDYzRrRUxXWjlvX1luVER5WmlOR2otcUM0S01pXzlGY3FmZFNSMHR6ckk4SmVV"
+    "CBMiR0FVX3lxTE84aS1lQWVkNWQtSkJ3X2RzdTFDYzRrRUxXWjlvX1luVER5WmlOR2otcUM0S01pXzlGY3FmZFNSMHR6ckk4SmVV",
+    "2089785851077091675"
   ],
   "daily": {
     "d": "2026-08-18",
