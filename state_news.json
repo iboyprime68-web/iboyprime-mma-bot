@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Think Neil Magny’s planning retirement after 25th UFC win at 170? Think again",
-      "ts": "2026-08-18T00:30:23+00:00"
-    },
-    {
       "t": "Es bello 🇲🇽😍 New art for #NocheUFC on Sep 12 is here! Get tickets here ➡️ https://UFC.ac/4xcu0M0",
       "ts": "2026-08-17T17:02:19+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Wladimir Klitschko posts tribute to former fiancé and mother of his daughter Hayden Panettiere",
       "ts": "2026-08-18T10:25:16+00:00"
+    },
+    {
+      "t": "Islam Makhachev vs Conor McGregor UFC Salary Gap: Why Two-Division Champion Makhachev Earned Nearly 7 Times Less Than McGregor | Explained",
+      "ts": "2026-08-18T10:22:07+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Added to his legacy 💪 @MAKHACHEVMMA leaves UFC330 firmly in the G.O.A.T. conversation.",
-      "url": "https://nitter.net/ufc/status/2088859361527677056#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T05:24:15+00:00"
-    },
     {
       "title": "THE LONGEST WIN STREAK IN UFC HISTORY BELONGS TO ISLAM MAKHACHEV @MAKHACHEVMMA's victory at UFC330 makes it 17 in-a-row for the welterweight champio…",
       "url": "https://nitter.net/ufc/status/2088865840082936103#m",
@@ -2105,6 +2098,13 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-18T10:25:16+00:00"
+    },
+    {
+      "title": "Islam Makhachev vs Conor McGregor UFC Salary Gap: Why Two-Division Champion Makhachev Earned Nearly 7 Times Less Than McGregor Explained",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOLXVnZGpvSXJXcG9GcFdRUGFnZFdHRWphTGtTRUF2TWtEcUZNLWtzSHE3SXY3M3VtVzJ6WkdMaE11Q0FIR3d4ZzJKaDVQTGtYaGx6ZHFINi0xMjl0a0s4dlJOdFhGU09jcVBVR3BUZmJ4aUFIVFZlYS1veHVaQzB4dDdkRDVUcHZad1hyMGxOb3FNb3UzYXZrNFRtUVFaUmZFbnRSMThZYkdKRnRvZmotNkhObDhvZVAtcUFfXzIxSVVfRFdLdFU0SWlOWVlrcUtuQ1ZtVnVyUVZmU2pLWEl2VFh3WXhfNXFWaVhnTXdfNkZiVE9QSWZYRFpTMUdTVEpMdzNsQk1rRWpBYmtUeUHSAZMCQVVfeXFMTzZyMkJBR3lxQ0tkdWVxRmExU3Q0MnluODBVRkNZQWpBMG12UlJLZW9Td2NFNmNLdGMwbTh2enNzVm9VdlVEZ0w4ZGdRZk90cjJXRUVzN3RmVVdaQUpfUFNUWklXWnF1bUdlaldEQXM3czdCakUyeXBjUFZJXzZ4alFfOE1tY1BnU0FtZ2g3YW50dnd3aW1sWkZhWFhQQjJ0bjFsc044aGJlSURJSUw3ZTQxZ3I4OXh2dGZRQ3k0eFBnWDl6enBpTTV3d2RYNjl2ZGt6RjRWUUVNbnlhRVd0RmlpN29WeEdsRThvWjdwN2VQTkpxZEFnaGlieXpnVmJiVTlJTl9aUHZMVFdmNGFfbHBsSG8?oc=5",
+      "source": "The Sunday Guardian",
+      "cat": "ufc",
+      "ts": "2026-08-18T10:22:07+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiuAFBVV95cUxOelRtdUNyZ0VaZmhNTFlCdWlTWVVkYjRFdFBZWEtVWndmeGNZNjhzSWVELS1jc0JmdjhibXhXRl9UNWRkSU9hbUZaZ25HMWt5UVpSd0RGUVVLUjZ6VElCU2tTSlkxNjNtMlNPM3h6VFVhc0hCbmR6MXlXTVpfbVZ6elliZWlMeTlrVk9oY3o0MkloV2dVU19KQlU0ZEdVM096Wi1qZDF1bVlkcWlnWkVibDNiaU5vbmNY",
     "eaa2211d-e356-364d-a8de-8ba4266d79e0",
     "393f4139-5ec5-41be-867b-b54e70f4f240",
     "34df4564-cd75-3370-bdfa-9b9ed72a7b59",
@@ -3312,7 +3311,8 @@
     "CBMiwgFBVV95cUxPRTRtY25lWElncm81d2oxZGZBQjhkM3hnWkJLSnN6WjVsMmNBWE5UMFNTZ25SbEJTUTFUc2QzTnlHWWRRVVdoVWM2c0MyaVg1MTdnQnV3anFLMFBLR1duY3pzUlVwLTVyU29hMWRFWFdMblVCR1dCYVBTaGkyaXBBNExYRE1oLTBQeU9HWjNzd29qQndtbnJHd1h2Z3p6aWxJSE1FRGpQbWY1Mm1Wa1hqOUswZjA5NWVlUl91X3dpajR0UQ",
     "CBMi0wFBVV95cUxNQXZobjhrRktEaXpCWkpGTGRfN3lGUUFBVTl1YnZBX3lreVpVVGtCRUlDM2dtOUFrSmIxdHdBdW9BUVNhbFZET21vbVNIQ3BCdnI0YUx1SjhIQ2Zwa2xneHdrSlg4R0lOei1iNEJZUHpkcDRtMU02eERrUXNLWldvamFPVjFfTUp5NUVuUFFqREV4ckF6aXNuWEY1bWs5UE1FbFBVbTZDemRRRk0wNGJKdlI1QlA5Q2dGbUFrcXJ2Um5uaDQ0cm1RNUdyNmJuMm9VUTZF",
     "CBMixgJBVV95cUxPWC1DZWswS3gxNldDdVFFalhsaTVkTHd0OGRUbTI4bEhTMkNiRkRTZDlfSHhOc2hNYk5IOGxDZWxHTmhWZ1BkTGsxc2lFQ0hRSEY5ZTFqMTh6YWc2ZExDRUREekdCQ29KdzRaTm9CeFVkWmZwalJWVUY0VHpwN1U5M3pWSEpSQ3J3VjEzMW1RTDFTWGQ3cjFlRlBxVmJUdm5kMXRYUEpMRVl2cFpvaFQwd3locHFSWG5wUG40bXJZRnNnSmdGaE5Pd3hGVkZOTC1lX25NOEQzRHRuZ3JKR3NmS29NRnFlSVRWUl9ZaHdQR2dOcXo4eC0zMVZzXzlpdlhIbzJoRjBwNFBrcHJCNHdpUG1UQ0x4THozd3pwV0pvRnNSVmRHNzlxV1lrSi1WR3hEa215ZEZOLWdWUUtxYk1uS0txU1RTQdIBywJBVV95cUxNVGhpT0JhYWxWTXVNR3BOVDdiaFkxdjhfNnR0b0JrSUFOOTlNci0tdEQ3eGNNcnpTelFjQzJYZjljMVBUZnhlNUdQYlhGTVdYV2Y5alhkZ3lfMmV6ZnlMNXliMTMxUHM2S1hmY0lPZ2tRNC1WM01wZEdxT1M4eWlLMGV0Wk02M0k1cWYyREEySE5uMFFRbXVVS3VwYjJCRXJ6WVBwUFd5UVZxb1VBekZaV2FDTzlyR2lmdDZyb21jUm5xZ1ladks2QzdGemM4aU9NQU5mUWVoV2ZVbWwzbUpNUW43bVRMcmpGWHVFOXM2cUxITFAxWU41Y2FBNjhoWkF0d2ZrV2NkY0N1MG45d3RqcjAwUmZnX0NhbGlBY3RMcnpRTk53bVNYUXdrTld2V2Y0NkprMFBWM1c5VE9tMC1NbTR1TTkyNkk2eldR",
-    "https://bloodyelbow.com/?p=327543"
+    "https://bloodyelbow.com/?p=327543",
+    "CBMijgJBVV95cUxOLXVnZGpvSXJXcG9GcFdRUGFnZFdHRWphTGtTRUF2TWtEcUZNLWtzSHE3SXY3M3VtVzJ6WkdMaE11Q0FIR3d4ZzJKaDVQTGtYaGx6ZHFINi0xMjl0a0s4dlJOdFhGU09jcVBVR3BUZmJ4aUFIVFZlYS1veHVaQzB4dDdkRDVUcHZad1hyMGxOb3FNb3UzYXZrNFRtUVFaUmZFbnRSMThZYkdKRnRvZmotNkhObDhvZVAtcUFfXzIxSVVfRFdLdFU0SWlOWVlrcUtuQ1ZtVnVyUVZmU2pLWEl2VFh3WXhfNXFWaVhnTXdfNkZiVE9QSWZYRFpTMUdTVEpMdzNsQk1rRWpBYmtUeUHSAZMCQVVfeXFMTzZyMkJBR3lxQ0tkdWVxRmExU3Q0MnluODBVRkNZQWpBMG12UlJLZW9Td2NFNmNLdGMwbTh2enNzVm9VdlVEZ0w4ZGdRZk90cjJXRUVzN3RmVVdaQUpfUFNUWklXWnF1bUdlaldEQXM3czdCakUyeXBjUFZJXzZ4alFfOE1tY1BnU0FtZ2g3YW50dnd3aW1sWkZhWFhQQjJ0bjFsc044aGJlSURJSUw3ZTQxZ3I4OXh2dGZRQ3k0eFBnWDl6enBpTTV3d2RYNjl2ZGt6RjRWUUVNbnlhRVd0RmlpN29WeEdsRThvWjdwN2VQTkpxZEFnaGlieXpnVmJiVTlJTl9aUHZMVFdmNGFfbHBsSG8"
   ],
   "daily": {
     "d": "2026-08-18",
