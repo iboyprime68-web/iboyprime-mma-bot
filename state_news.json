@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev sends shot at Max Holloway after ‘Blessed’ raised confusion about UFC 330 celebration",
-      "ts": "2026-08-17T20:00:00+00:00"
-    },
-    {
-      "t": "Mackenzie Dern reveals unhappiness with her UFC 330 performance: ‘I should’ve knocked her out’",
-      "ts": "2026-08-17T21:00:00+00:00"
-    },
-    {
       "t": "Arman Tsarukyan claims Charles Oliveira ‘found an excuse’ not to fight him at UFC 331",
       "ts": "2026-08-17T22:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Matt Fitzpatrick (-14) Holds Solo Lead After Career Day Stream of Golf",
       "ts": "2026-08-18T08:44:08+00:00"
+    },
+    {
+      "t": "Sean Brady vs. Gabriel Bonfim Set For UFC Fight Night 293 Main Event",
+      "ts": "2026-08-18T09:22:02+00:00"
+    },
+    {
+      "t": "UFC Fight Night 285 Promo Video",
+      "ts": "2026-08-18T09:23:58+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Arman Tsarukyan questions why he's not fighting Charles Oliveira at UFC331 https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/17/ufc-331-arman-…",
-      "url": "https://nitter.net/MMAJunkie/status/2089486481106604509#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-17T22:56:12+00:00"
-    },
-    {
-      "title": "DWCS Season 10: Week 2 Preview & Predictions",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5TmQ2OGFjNDlhMkZOTmhBNWlOMVFwLVFtbC1mb2hEV0ZLYVRrLXJMU0ZvMGs1REdDTUJ0Y0hLSkZFdU5ubnZYSXg0VVdCZm1KRXpLWU1GLTkxNExKNWNXTGt3?oc=5",
-      "source": "thescrap.co",
-      "cat": "ufc",
-      "ts": "2026-08-18T08:41:12+00:00"
-    },
     {
       "title": "Henry Cejudo: Ian Machado Garry 'missed all the boxes' in UFC330 loss (via @MMAJunkieGeorge, @thegoze) https://mmajunkie.usatoday.com/story/sports/u…",
       "url": "https://nitter.net/MMAJunkie/status/2089519058064421020#m",
@@ -2105,6 +2091,20 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-18T08:44:08+00:00"
+    },
+    {
+      "title": "Sean Brady vs. Gabriel Bonfim Set For UFC Fight Night 293 Main Event",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTkJMTHQ0UXBnTG9FWmpYalVyRnhEWkxHS1Vld2wyNVdlWEZhejdacEZVU1NQakJDcDFxZ3ZKWkM1WGJoYzJtWl9GVml2Y2tiYm5LdjhVWWNlRU1PeHFNRHVUeGdRRHpEWG5QWlF1YjMxanM3TWtrOFZTMDUxc0g5LUJicndNOVF3dnJ6ZVFUZkZxbEtEVlc1MFNqdw?oc=5",
+      "source": "MMA Insight",
+      "cat": "ufc",
+      "ts": "2026-08-18T09:22:02+00:00"
+    },
+    {
+      "title": "UFC Fight Night 285 Promo Video",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBDXzJYNjZFVDdqX0hXZ0wyYkdzU1V2TDQ3VldaRVJ2YU1qaVRBbi1iSWp5MWZwM0kwVGgyYTJCRFlQbGVpYUotZWZ3eGJLWHBuV3NrMVYzMVh3eTctZmt4ampWY1BEdG1EWUpj?oc=5",
+      "source": "MMA Insight",
+      "cat": "ufc",
+      "ts": "2026-08-18T09:23:58+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,8 +2113,6 @@
     10
   ],
   "yt_eval": [
-    "CBMifEFVX3lxTE8wLVlzRzY3elFISzRxT1owcHVUWmdzTTVWZWp6cFRfM095R1pFSXBxTmlHRzk3QUFMUFdTdF8tUTktUU42OXJOYWhwV1ZNY05WTzAzNllDYW5pNkJSdTd4LVVaeGJfbUgzVnM0VTk1bXU4R1BqQmVDTFB1Z2LSAYIBQVVfeXFMTWNrRHFleUhwdnNTalJ0Qkp1amFIbXBZVnY1VmdCVlE3bWE3UXRTTjJOR3A5T21jS1RYaVozbkZYYXhqNFItSEVRbmRYU2FTUlVDc2ZGaGNkeDZ1bkZjUEZMdFVOdDFhdHdxZldkWnRzRjlONV9ya2VWV1J2N1lWb2xQdw",
-    "CBMiiAFBVV95cUxQV1NUZDQtU3A0SWZ2M0tXakw4MjluaEE2Mm1HMmczYWtRdnZvLUpuYzNZcDVVUFVsMzFSa2FMTjlTV3I2UG9jQi1oeWhjR2oyX0drS1ZvNm82V0R0Ui1tMzQ4UHA0QVNjUDRRUDh2RnVDUVVaRUtJa2xBb3A0VUFIZHNsclMyRGhR",
     "CBMiW0FVX3lxTE5yWTMtcTh2UTJjU3k4eVJmbVZ3Zi0wYk5teURFb0JYcW1EYTMzUnZPQmxySTA5NWp5OGNfdVJxeGFyczM2dnJBTzlyTUhhLV83QU5IdEdyd0l6QXM",
     "CBMiowFBVV95cUxNY1dKaXcxOGpfRTY3N2IycXp0MzBieVpOeTdrRTBLeEVtaTNrUC1YN01MSGVtZ2dpWDFXbGVXNzFqbjRTbnNuN2ZGdjZLMVlGb3FnR0d5VlFoOHhTMWYyMHppMUI4MzF5ZWdSZThCd3M5QTI0S3lYNmREbENHUUxLOVNzUGRhSXVqVk52a2QyTzdMX1VhWFVZU1RKNjdidmM3WnB3",
     "https://bloodyelbow.com/?p=327182",
@@ -3312,7 +3310,9 @@
     "CBMifEFVX3lxTE05dEM2ZDhiVjZDUXVCNHhNelRoOEtrb3l5NTVHTDZ0Z1VGbDdRNzJNRmNuTTRlQV8zcnh6T3o0WmZmenhFTW9TbjhVbXU2ekwzSm0wZmdZaExhcHlFejBLejRaN0JiVmhDLWxkeWJSX1RMWkl5Nk1mMFhwa0U",
     "CBMikgFBVV95cUxPV2NrU0xDdWlVMFNTRHhBZUloOHlLUHI5NVdNbUVKMFpST0U5Ml92eFYwR3k2NEY5WEZybS1HQlJudlNTUmo5R2I4YzM3ZE80QzJEUnB3aEJZS1lyWWhMOEJkcHpiaDUwOHAzVTdjRlZXNFMyeEZrQ0p0SzdDTjY2TlFyM1hSQzh2blFBYURpcUtoZw",
     "CBMinAFBVV95cUxNcEJiSm93QUlDS2FGSUp3MHdkZjJIdnpVbjAxVloyYnhmVHhiUjZheTc2WElGSk95NE4tNXZjRlZraVVXcDUtQ2dqM0l1MGZtanBQc1h6NllmR01zMzVGZTZNUkFCN1d2eWtoWWZES2hBSWlHVU5CYzRLbl80ZnNlbXV6ekN6R3g3dDZFZU5wWTBsZTdvOUxZdGNwU00",
-    "CBMimwFBVV95cUxOZkJOcl9ibC1nZy1sSVlYbVBWSzJjSU5QeU1IUXo5MkRLVUx4VXlZYkt2UnBNWkJXNlNzOWhldG0wdXpETWtrbUNYSzZyUktpMVVyYXMwMmQ1RTN1ZTRkTFN5V3R6bTExT2VTSHRTZ0Z0ZHV6OWp1dzZlODBiY3ltS0NpejBuTXYtajFFOEJyWVZNVHlXVFlSV0hGSQ"
+    "CBMimwFBVV95cUxOZkJOcl9ibC1nZy1sSVlYbVBWSzJjSU5QeU1IUXo5MkRLVUx4VXlZYkt2UnBNWkJXNlNzOWhldG0wdXpETWtrbUNYSzZyUktpMVVyYXMwMmQ1RTN1ZTRkTFN5V3R6bTExT2VTSHRTZ0Z0ZHV6OWp1dzZlODBiY3ltS0NpejBuTXYtajFFOEJyWVZNVHlXVFlSV0hGSQ",
+    "CBMimwFBVV95cUxNTkJMTHQ0UXBnTG9FWmpYalVyRnhEWkxHS1Vld2wyNVdlWEZhejdacEZVU1NQakJDcDFxZ3ZKWkM1WGJoYzJtWl9GVml2Y2tiYm5LdjhVWWNlRU1PeHFNRHVUeGdRRHpEWG5QWlF1YjMxanM3TWtrOFZTMDUxc0g5LUJicndNOVF3dnJ6ZVFUZkZxbEtEVlc1MFNqdw",
+    "CBMia0FVX3lxTFBDXzJYNjZFVDdqX0hXZ0wyYkdzU1V2TDQ3VldaRVJ2YU1qaVRBbi1iSWp5MWZwM0kwVGgyYTJCRFlQbGVpYUotZWZ3eGJLWHBuV3NrMVYzMVh3eTctZmt4ampWY1BEdG1EWUpj"
   ],
   "daily": {
     "d": "2026-08-18",
