@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Raul Rosas Jr. vs. Raoni Barcelos headlines UFC Vegas 121 on Sept. 26",
-      "ts": "2026-08-17T22:00:00+00:00"
-    },
-    {
       "t": "On To the Next One: What’s next for Islam Makhachev, Ian Machado Garry after UFC 330?",
       "ts": "2026-08-17T23:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Arman Tsarukyan's new nickname",
       "ts": "2026-08-18T07:19:58+00:00"
+    },
+    {
+      "t": "WOR: UFC 330 recap, G1 finals, more on Dory Funk Jr.",
+      "ts": "2026-08-18T07:26:25+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Joe Rogan has one major concern about Islam Makhachev after watching his record-setting UFC 330 win",
-      "url": "https://bloodyelbow.com/2026/08/17/joe-rogan-has-one-major-concern-about-islam-makhachev-after-watching-his-record-setting-ufc-330-win/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T14:00:00+00:00"
-    },
     {
       "title": "Why did Ian Garry keep hugging Islam Makhachev? MMA legend breaks down ‘irritating’ UFC 330 tactic",
       "url": "https://bloodyelbow.com/2026/08/17/why-did-ian-garry-keep-hugging-islam-makhachev-mma-legend-breaks-down-irritating-ufc-330-tactic/",
@@ -2105,6 +2098,13 @@
       "source": "NEWS.am Sport",
       "cat": "ufc",
       "ts": "2026-08-18T07:19:58+00:00"
+    },
+    {
+      "title": "WOR: UFC 330 recap, G1 finals, more on Dory Funk Jr.",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQUlSLUFVWmJOTUJPLUdpRlo1WGpMTjRSSVdpVzJiUHhpMUtpUHJZUnZ4OGhUMUxfQlh6eG9VT0tMbmF5UllnMXBuN182T0FhZVlfRWJGOVdIcWl4b1VTWGw4Q0Q2MTBTWDZlaXN2NkZvU0d0TU9WVWxNSVhNVmVKelB0andCd05zYmlNd0JYR0JLTGU1MEJqZkt0NFJnSmZxazBqWll1Vk5DOUM4?oc=5",
+      "source": "NewsBreak: Local News & Alerts",
+      "cat": "ufc",
+      "ts": "2026-08-18T07:26:25+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMijwFBVV95cUxQb21kc0NRM0h3cF9wS3hIOW9Ma3o3Tmk4S21yRHp2OEQyNWc1WHI5bGZFQnd5c2ZMazNaNEs5a0QtLWhMQnByUGZkNEdPVWQ5c3BXVkhYSkprWUFHbkVhUnd1VHA1T29KRXB5UTJLWnB1bG9pc1NKOXo3dWdNMlFnaWhfRHRvZU51Q2ZKamN2WQ",
     "4560cf45-6ff0-33d9-97bb-543a60f92a3a",
     "CBMiW0FVX3lxTE5uMUthLXVzYVF5Z0d5ZE5ucjlLM2xHYmxzbkV2VnF2N0pqcVZWLUhSOXlWOUVsMVB2dG9oeUxvOEUxdUsza0pJMFFYbUJuRXJ5elpJOTJpbXhBczQ",
     "https://bloodyelbow.com/?p=327166",
@@ -3312,7 +3311,8 @@
     "CBMi2AFBVV95cUxPYVhGODVKWWtHUE91Q3JRa0k3aWQybTdMb1ZyZGJjMjNROUE4SVN3Zno2RFlHZ21Jb0xuc3lOZmxjQWUyU21NY21nZEJnWFJ3bDhuc2pCZlUyVDJWMGxjX1h2RVhXdVIzdHJSRlhPSlhkbFRhSktqR1liT3JFWFFZZDhraUJCQy0wU0FxQTdOYndJZDU5M3lyNlY3N2Z3MjdvcmUycHBVUDFuNmoycmFTRUQxaU1mckZUNy1KZGlxZ1dlVDA5ZG5KMDFKX3NzWFpOQ00zRnJ3UWk",
     "CBMi6gFBVV95cUxNMVM0eU5PVjNiN1VTNlU2clNjWElOcEVzRGk4eXl6OUhNckg0MzJad2ZPdjFjdFJ2WlAwd19KLWJ3c2dOcm5tV2FHVklnLXctVXdyUW5YQUE3bWItY3lQaGVKRWpmN2hoU1ZjN2JKMHczRUFIQzFVRnAxb0o5bUVmSVpFM0FTZjhzZXc1YlU2bkIyWldMdnNmQ2tockZuQzRmN2s3REU4Zm1yYW5ubmZvUVVPRElnZko0NktGc1lxUS1NY29tUWtwR2VHRUREQkE3ZlVwMktJSmR2emZlbEhNNDBtUFZpSUF4VEE",
     "CBMikAFBVV95cUxPd3ZuOG1reVhnNmFCQnBuQmNWNThoVHZOZVowc2pLU3Z0MTluTm05OXpYZVktQUZqb3JMMGNDLWxiWHMxVXJtWEJQRDZfeGd5cGRkYWJaUHd3eWtlelQ0clNrSGZxYVdrbVEwQ2F5aXp2MklzX2xIWU53R1JKeUxoZGEzU0VjWVMySVRGSjMxU1o",
-    "CBMifEFVX3lxTFA1cmhFS1IxY0VMZC1XbDZPT1dkWUNyTklxOFo5YldjRmhsamJaMmZJN3hzUVBPWEJIWGFPODZGdkZfeU9sNXo1R0M3ZWVEZmZpTkZlZzN3LVhXOElIZEJqblNNbUgwb2tGTS1xMGxVRzdXWXFmZDgtWUQ1Rkk"
+    "CBMifEFVX3lxTFA1cmhFS1IxY0VMZC1XbDZPT1dkWUNyTklxOFo5YldjRmhsamJaMmZJN3hzUVBPWEJIWGFPODZGdkZfeU9sNXo1R0M3ZWVEZmZpTkZlZzN3LVhXOElIZEJqblNNbUgwb2tGTS1xMGxVRzdXWXFmZDgtWUQ1Rkk",
+    "CBMirAFBVV95cUxPQUlSLUFVWmJOTUJPLUdpRlo1WGpMTjRSSVdpVzJiUHhpMUtpUHJZUnZ4OGhUMUxfQlh6eG9VT0tMbmF5UllnMXBuN182T0FhZVlfRWJGOVdIcWl4b1VTWGw4Q0Q2MTBTWDZlaXN2NkZvU0d0TU9WVWxNSVhNVmVKelB0andCd05zYmlNd0JYR0JLTGU1MEJqZkt0NFJnSmZxazBqWll1Vk5DOUM4"
   ],
   "daily": {
     "d": "2026-08-18",
