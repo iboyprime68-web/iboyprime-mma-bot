@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev wonders why Carlos Prates and Michael Morales didn’t fight at UFC 330 to determine No. 1 contender",
-      "ts": "2026-08-17T19:00:00+00:00"
-    },
-    {
       "t": "Sean Brady vs. Gabriel Bonfim booked for UFC main event on Nov. 7",
       "ts": "2026-08-17T21:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "White Rules Out Khabib Return",
       "ts": "2026-08-18T05:18:00+00:00"
+    },
+    {
+      "t": "Israel Adesanya and Demetrious Johnson Lay Out Islam Makhachev’s Post-Fight Future",
+      "ts": "2026-08-18T05:25:37+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "‘Losing means nothing’… Ian Machado Garry inspired by Charles Oliveira’s 37-11 record after UFC 330",
-      "url": "https://bloodyelbow.com/2026/08/17/losing-means-nothing-ian-machado-garry-inspired-by-charles-oliveiras-37-11-record-after-ufc-330/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T11:00:00+00:00"
-    },
     {
       "title": "Alexander Volkov books UFC 333 title eliminator to decide who faces the winner of Aspinall vs Gane 2",
       "url": "https://bloodyelbow.com/2026/08/17/alexander-volkov-books-ufc-333-title-eliminator-to-decide-who-faces-the-winner-of-aspinall-vs-gane-2/",
@@ -2105,6 +2098,13 @@
       "source": "boxingnews.com",
       "cat": "ufc",
       "ts": "2026-08-18T05:18:00+00:00"
+    },
+    {
+      "title": "Israel Adesanya and Demetrious Johnson Lay Out Islam Makhachev’s Post-Fight Future",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS0d6QmZTeGd2MUV1dnBuQk42b3A2RVFMaFlQVVZHU0k4MXp2VzF4dUZpUVJOb2hnRnNjTXhrU2I5THRnYWN2SlN1bDNqUmczWHZOb0g5RUJ5TXFabi1WOG90OVVkUDlEdFU3Y2dvVkg3bUpMeGNoZl9vWmtKTHh1Y0hoU2VuZWo0cXZqSXk1c3hfdUhEUi1FemtGc0pjNWFJVzNBakVnZkZFMGVn?oc=5",
+      "source": "mmasucka.com",
+      "cat": "ufc",
+      "ts": "2026-08-18T05:25:37+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Neil-Magny-just-joined-Charles-Oliveira-in-rare-UFC-company-202375",
     "CBMie0FVX3lxTE1KWE9zQnB4XzlxRTNkUFIyOVZKRGFtQ1VCR1hBTXlEVFdwR015aEpsX0p2WkprVjNpdHY2enFCWVZBbHNxamdDM2syYm1NSUFoZEptT25scUFPNFk5aWFvUmZHNWdtZXZUR1M0WEZWMHZXSHRlcmM2c1lWcw",
     "CBMickFVX3lxTFBXOEMzMVRibmFvOExwZXF4MllqdGNqNWtTM0QyODVCM015bFZveVhPR19BejFzUmlRVTBGMy1zc1M0Q01FRWJic1gxa2FKVHFEMkFqRVFNejE4WUhzTi1kZ2Y4YXJadXNSZTJHd1lBVnBrUQ",
     "411f4226-a20f-3045-afee-621b674879e9",
@@ -3312,7 +3311,8 @@
     "CBMiiwFBVV95cUxNUmNMX2J5cnJ1ZU91MGpwbFBWbVh5YVRwN3FKS0lUUXpYbFg4bW1vME1VWnVIb3lMSE0zeXdyY2NzdHFlTkc3WUt3NElRUHpDR1ZIbjktLVJjNzJnYjVKTWlfLURJdFdzb0ZmY05JX0s4S0dlcWt5Y3NTS2kxRlRDZ3N6VzdQc20xd1Bv",
     "CBMinAFBVV95cUxNWXh1OEJLd0ZzZ1U4TlZGVXFpcmRkSkEwa1hONHdoUjVKMlpRaHJyVEVJNkFxcDlfb2h2VjkyanR3VTlmRWZ0bkdtYUFhRDdRUWVNRmRWd1VIaE1DUm5JamVQNGc4YUpNc2daQ242bGZvUkpVZTJpZ2g2bGJPVVhMM2hETk1HV1NSS0c0SzZHZ2ktVlRvUXNSZktZeVk",
     "CBMikgFBVV95cUxQVWZ0OEtLeldNbG50MUlQd1pTRzdJaEtZOFVqa1dKUi1PbEF0czZIVW14aXptZlVZMkpzR3A4QVBHVXpEMnZLam80OXJ2VXJJSUt4d29HbnZ5b1lHb2FISk9PYVJXNGRibW01U1ozZlRvaUVVSmE1dFJyMjdKclljYWxrT2l1VUZ0ekk4NFlWRjlidw",
-    "CBMiaEFVX3lxTFA1cTJBY0hCck50NnBGNjFLVmlDS1Jmc1FuRE52dWJZZ004Vl90LUUzVnlFTUJ6dC1OaUVzSERDcUtIeGxVTzJUQ1hDbkdLLUJfQzhoeVozaVh6ekgyMl9hWmtrMVFYOXl5"
+    "CBMiaEFVX3lxTFA1cTJBY0hCck50NnBGNjFLVmlDS1Jmc1FuRE52dWJZZ004Vl90LUUzVnlFTUJ6dC1OaUVzSERDcUtIeGxVTzJUQ1hDbkdLLUJfQzhoeVozaVh6ekgyMl9hWmtrMVFYOXl5",
+    "CBMirAFBVV95cUxOS0d6QmZTeGd2MUV1dnBuQk42b3A2RVFMaFlQVVZHU0k4MXp2VzF4dUZpUVJOb2hnRnNjTXhrU2I5THRnYWN2SlN1bDNqUmczWHZOb0g5RUJ5TXFabi1WOG90OVVkUDlEdFU3Y2dvVkg3bUpMeGNoZl9vWmtKTHh1Y0hoU2VuZWo0cXZqSXk1c3hfdUhEUi1FemtGc0pjNWFJVzNBakVnZkZFMGVn"
   ],
   "daily": {
     "d": "2026-08-18",
