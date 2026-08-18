@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504135",
     "https://www.mmafighting.com/?p=504145",
     "https://www.mmafighting.com/?p=504150",
     "https://www.mmafighting.com/?p=504151",
@@ -86,6 +85,7 @@
     "https://www.mmafighting.com/?p=505616",
     "https://www.mmafighting.com/?p=505635",
     "https://www.mmafighting.com/?p=505673",
+    "https://www.mmafighting.com/?p=505687",
     "https://www.mmafighting.com/?p=505714",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmafighting.com/?post_type=vm_stream&p=505026",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Morning Report &#124; Henry Cejudo doubts Ian Machado Garry gets another title shot: ‘How would the UFC want him as champion?’",
-      "ts": "2026-08-18T11:48:33+00:00"
-    },
-    {
       "t": "UFC set to debut new commentator in Joe Rogan role at upcoming event: ‘This is my world title’",
       "ts": "2026-08-18T12:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Max Holloway goes after different target in Islam Makhachev reply: ‘Hit in his head too many times’",
       "ts": "2026-08-18T16:00:00+00:00"
+    },
+    {
+      "t": "Sean Strickland scoffs at alleged Tyron Woodley threat over Din Thomas comments: ‘Weak ass b*tch’",
+      "ts": "2026-08-18T13:32:38+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 330 Power Rankings: Rating The Night’s Big Winners In Philadelphia",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMjhzN0hoWGlXSlhEaXYwNUpXNTVWbmhwY24tWUZNYjEwejljdmszZkVjYVA2YVBfMHV3b0M1OHBMNTZ0d1Jqb3prQmpzZzZ6clduTTJzMTIyc245U2t1WkEtSFpVaDlvcHc2eVhGQURRbHZWNExLN2d6Umw1VWhpQWVTR0FlMzQ3X09tRXc4RXA5MExqenBjSl84TXA?oc=5",
-      "source": "lowkickmma.com",
-      "cat": "ufc",
-      "ts": "2026-08-18T15:29:57+00:00"
-    },
     {
       "title": "“Scary Power”: Dan Hardy Picks Carlos Prates Over Michael Morales as the Bigger Threat to Islam Makhachev",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVk4xcjJkTDJtanY0d2Y1eXdVQnp5REM1Ny1sRUZ5OXJ2Y0FUMHgwVGY2M3h5bXZLSG1IVExPQWdzbE5wa1hXdmM5UkZkaWZab2xzX1QtLVc5RWhZM0ZWOHRZQXFuWVRZZFNkdVNqUzVWWDRNYmVvc3NidjVUWjJidEVsOUp2bC1pY0NnVUt2d1pDMmRLZ1lhOS1GLTF0SHY3QkdESmZ0NVRxbVpSQW9DSWtuaHdRMFVGQW0zc1pYcnN3OFl1UFE?oc=5",
@@ -2105,15 +2098,21 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-18T16:00:00+00:00"
+    },
+    {
+      "title": "Sean Strickland scoffs at alleged Tyron Woodley threat over Din Thomas comments: ‘Weak ass btch’",
+      "url": "https://www.mmafighting.com/ufc/505687/sean-strickland-scoffs-at-alleged-tyron-woodley-threat-over-din-thomas-comments-weak-ass-btch",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-18T13:32:38+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
   "hour": [
     "2026-08-18T16",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMipgFBVV95cUxPNXlWTzYtT0JmVkFra0RjNjJJRnkyQkpGeGhaM1hJMWViMlNkU1hEOS1xblZDLTNaZnY4UW9XMEY1cFcyUjRzbXkza2lyWm1yVm1QWmpvamtNTHZsQzZoYTNNQjZLWHY2dXVtcU95ZmFfa2JoOTBTVVdZN2Vuc1FPVmI3WFZER3lIbTVnektVRV94VGl2ckIxb2I2MnRqY1dlQkcyOGln",
     "CBMipgFBVV95cUxQZDJLNHVUZlBjTnVHR2RYS3AtSV9OblFMSV9DQ2dkcG92YXFJN2JpUlVjT2w1OWNvelNtRnhBOUUyS1d4WHdLcUZ1Y0owVGtyUXhXb0x2aXJQOEQ1TWU0SEhYT0NSOWhndVhBMTZYejZvOVZyTFkybzJkSnJmMWp6OEVEcnpQM1FpZV94UEZyTnFJVS13bnVNV3lWSkZaNnBfZW10cDBn",
     "CBMikgFBVV95cUxNNzRubzU3RTdpMFFpa3BkdzRyWXR0MzNQUnFnSFlNZGhZVzFkaGE1UGQ2Um50UUFFM3FOQ1czOXJyaGh5UnhmRThnLUx6V0lscDVONWtlZWo0Rk03WlBXQXV4NlZFbkMyUWFST3VYVU9uNFIyOE52b3diOGFySnVwZVhPR05DOWdhUnlhZm8wUWJlUQ",
     "CBMilwJBVV95cUxOMTktNmhpWXlHY3BRNW9Ib2xkYVhxUUhsNGFtUktpLWdxYlVQMmVOWjNNeHRyYjJ6VVh4amN1S2hNMHZYdG91ZFI3N1dZMDNVLTB3aDhiRkdlVjR5bkxUaHZYNlRqa1hYaGFjU3d0ZU1WSXhkRGZoS21uUGJkanVWS3M1RE1mODBMM2Z3eHhDVDg5WDZQLWc2VDB5dXpZVGtfTXV3NUZDb1hCall6anVHbzgzRmNnenFoYWdFZ05MSkxKVlBweW5Va2JGMDJBb0w1N21lSi1BUWNpSXZwcXRsR1RCZWNxb3NmSEg5T3kyaUhud25LT0M5cmFCU1BYbEhEeGlYV1JxeVpNc1d4azlTOVdidll3ZG8",
@@ -3312,7 +3311,8 @@
     "https://www.mmafighting.com/?p=505635",
     "CBMigwFBVV95cUxQQm1relJXMjFPaGN2Q1dJWUZxc1hTOXVPMzRoQWJRZDJ1ME5iakd2QWJTRDE2eUtkUU5sdmxjT2Z0cWhKdTFlVmRnd1ZsX01ZTU5uaWNfZGUxdWpaaGFOUnpocVZ2YmdyTnVJc1ZrQVQ3NURFb0tTVDl2UXdPenFCb0NjSQ",
     "CBMibkFVX3lxTE02RTZuM3BITEZaVGhFdmQtbW53WmlxS3E0eUlFRFhYWHBLcWdtNFF3Wm9kMEFTY2VzTmRxR2NDMlVIQ3U1M3lnaC1PMjlEQ3hoem1GYzBqRXluQ013N3RBNHdjWGhGXzNURHhSQnFR",
-    "https://bloodyelbow.com/?p=327548"
+    "https://bloodyelbow.com/?p=327548",
+    "https://www.mmafighting.com/?p=505687"
   ],
   "daily": {
     "d": "2026-08-18",
