@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Sean Brady vs. Gabriel Bonfim booked for UFC main event on Nov. 7",
-      "ts": "2026-08-17T21:00:00+00:00"
-    },
-    {
-      "t": "Raul Rosas Jr. vs. Raoni Barcelos headlines UFC Vegas 121 on Sept. 26",
-      "ts": "2026-08-17T22:00:00+00:00"
-    },
-    {
       "t": "On To the Next One: What’s next for Islam Makhachev, Ian Machado Garry after UFC 330?",
       "ts": "2026-08-17T23:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Israel Adesanya and Demetrious Johnson Lay Out Islam Makhachev’s Post-Fight Future",
       "ts": "2026-08-18T05:25:37+00:00"
+    },
+    {
+      "t": "McGregor Hails Garry's 'Champion Mindset'",
+      "ts": "2026-08-18T05:29:06+00:00"
+    },
+    {
+      "t": "Adesanya On Islam Makhachev: He's The One",
+      "ts": "2026-08-18T05:31:43+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Alexander Volkov books UFC 333 title eliminator to decide who faces the winner of Aspinall vs Gane 2",
-      "url": "https://bloodyelbow.com/2026/08/17/alexander-volkov-books-ufc-333-title-eliminator-to-decide-who-faces-the-winner-of-aspinall-vs-gane-2/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T12:00:00+00:00"
-    },
-    {
-      "title": "UFC Sacramento preview: Start time, full card and how to watch Anthony Hernandez vs Gregory Rodrigues",
-      "url": "https://bloodyelbow.com/2026/08/17/ufc-sacramento-preview-start-time-full-card-and-how-to-watch-anthony-hernandez-vs-gregory-rodrigues/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T13:00:00+00:00"
-    },
     {
       "title": "Joe Rogan has one major concern about Islam Makhachev after watching his record-setting UFC 330 win",
       "url": "https://bloodyelbow.com/2026/08/17/joe-rogan-has-one-major-concern-about-islam-makhachev-after-watching-his-record-setting-ufc-330-win/",
@@ -2105,6 +2091,20 @@
       "source": "mmasucka.com",
       "cat": "ufc",
       "ts": "2026-08-18T05:25:37+00:00"
+    },
+    {
+      "title": "McGregor Hails Garry's 'Champion Mindset'",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5abnJqdUdzUVQwM0RfUktfUmNXdllYWWsxY2lEOUVvdFBENHJaMnNEQkV4c0NCWWZhekNqd1ZXNXZGV1lhYkl3dUNEWS1IOVRDVnVKbXRJcUpjNm1zbWY0Ri0wMkRBUjNVLU92RTdBSnVMOHBnQVE?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-18T05:29:06+00:00"
+    },
+    {
+      "title": "Adesanya On Islam Makhachev: He's The One",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1b09WMWJRVjNCeUZRV1U5Tm5Dd1BoVVYzWGhoNEFnOUJqazlFZXUtMThQZklyZ19SaE9yV0xZT2pXWFNIVUZGNDlSZlF4ZElNczFTaXBfY0RQb3plQlBGRngwVHVLNlE5RktTMm9rVldOdnN2?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-18T05:31:43+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMie0FVX3lxTE1KWE9zQnB4XzlxRTNkUFIyOVZKRGFtQ1VCR1hBTXlEVFdwR015aEpsX0p2WkprVjNpdHY2enFCWVZBbHNxamdDM2syYm1NSUFoZEptT25scUFPNFk5aWFvUmZHNWdtZXZUR1M0WEZWMHZXSHRlcmM2c1lWcw",
-    "CBMickFVX3lxTFBXOEMzMVRibmFvOExwZXF4MllqdGNqNWtTM0QyODVCM015bFZveVhPR19BejFzUmlRVTBGMy1zc1M0Q01FRWJic1gxa2FKVHFEMkFqRVFNejE4WUhzTi1kZ2Y4YXJadXNSZTJHd1lBVnBrUQ",
     "411f4226-a20f-3045-afee-621b674879e9",
     "CBMisAFBVV95cUxPSG9tWWl4c3ZJZzlrWXJ1SklxMmZTVFRzb0JhWThrOWlkaUZQYWY1U21Dekd3azA0UGRaNHBJQi1HQ21US3hSSEdwSE11X3NWbVJWSGtoUGx2RHg3akVqemI1WUZpekJNaGNXZ0tGaXhhTVVoNGcwTWhUZmtzZFcyLUlGMEMzcmhmNWRIWFpYZm4za0RyRjg4VEJac3dOaHBpdkZGVzF6dlE4VDRfUUxtcw",
     "CBMingFBVV95cUxPNTRrQXBCaGZsUkRLR2tHX2Z6U1VwSERpNElTdm1rUG1jOEh6eTRzYloyY3RMZm5KSEV3Wm9zRlRjN1pfUUlyMWZ3WE4tLVFWck1veVBjMDRzamMtNWs5Mk5WaUdPMU5fdmpXNm5mZWdZUnNKN2dIRVVZelBpQVVRbkphQTBsaG1NZ2QyTVk2ejF3YVVXQ3hfdEtrRHlHdw",
@@ -3312,7 +3310,9 @@
     "CBMinAFBVV95cUxNWXh1OEJLd0ZzZ1U4TlZGVXFpcmRkSkEwa1hONHdoUjVKMlpRaHJyVEVJNkFxcDlfb2h2VjkyanR3VTlmRWZ0bkdtYUFhRDdRUWVNRmRWd1VIaE1DUm5JamVQNGc4YUpNc2daQ242bGZvUkpVZTJpZ2g2bGJPVVhMM2hETk1HV1NSS0c0SzZHZ2ktVlRvUXNSZktZeVk",
     "CBMikgFBVV95cUxQVWZ0OEtLeldNbG50MUlQd1pTRzdJaEtZOFVqa1dKUi1PbEF0czZIVW14aXptZlVZMkpzR3A4QVBHVXpEMnZLam80OXJ2VXJJSUt4d29HbnZ5b1lHb2FISk9PYVJXNGRibW01U1ozZlRvaUVVSmE1dFJyMjdKclljYWxrT2l1VUZ0ekk4NFlWRjlidw",
     "CBMiaEFVX3lxTFA1cTJBY0hCck50NnBGNjFLVmlDS1Jmc1FuRE52dWJZZ004Vl90LUUzVnlFTUJ6dC1OaUVzSERDcUtIeGxVTzJUQ1hDbkdLLUJfQzhoeVozaVh6ekgyMl9hWmtrMVFYOXl5",
-    "CBMirAFBVV95cUxOS0d6QmZTeGd2MUV1dnBuQk42b3A2RVFMaFlQVVZHU0k4MXp2VzF4dUZpUVJOb2hnRnNjTXhrU2I5THRnYWN2SlN1bDNqUmczWHZOb0g5RUJ5TXFabi1WOG90OVVkUDlEdFU3Y2dvVkg3bUpMeGNoZl9vWmtKTHh1Y0hoU2VuZWo0cXZqSXk1c3hfdUhEUi1FemtGc0pjNWFJVzNBakVnZkZFMGVn"
+    "CBMirAFBVV95cUxOS0d6QmZTeGd2MUV1dnBuQk42b3A2RVFMaFlQVVZHU0k4MXp2VzF4dUZpUVJOb2hnRnNjTXhrU2I5THRnYWN2SlN1bDNqUmczWHZOb0g5RUJ5TXFabi1WOG90OVVkUDlEdFU3Y2dvVkg3bUpMeGNoZl9vWmtKTHh1Y0hoU2VuZWo0cXZqSXk1c3hfdUhEUi1FemtGc0pjNWFJVzNBakVnZkZFMGVn",
+    "CBMidkFVX3lxTE5abnJqdUdzUVQwM0RfUktfUmNXdllYWWsxY2lEOUVvdFBENHJaMnNEQkV4c0NCWWZhekNqd1ZXNXZGV1lhYkl3dUNEWS1IOVRDVnVKbXRJcUpjNm1zbWY0Ri0wMkRBUjNVLU92RTdBSnVMOHBnQVE",
+    "CBMidEFVX3lxTFA1b09WMWJRVjNCeUZRV1U5Tm5Dd1BoVVYzWGhoNEFnOUJqazlFZXUtMThQZklyZ19SaE9yV0xZT2pXWFNIVUZGNDlSZlF4ZElNczFTaXBfY0RQb3plQlBGRngwVHVLNlE5RktTMm9rVldOdnN2"
   ],
   "daily": {
     "d": "2026-08-18",
