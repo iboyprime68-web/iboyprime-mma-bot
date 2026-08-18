@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "#UFC champ Sean Strickland scoffs at alleged Tyron Woodley threat over Din Thomas comments 📰 https://mma-fighting.visitlink.me/yrwCsa",
-      "ts": "2026-08-18T16:31:00+00:00"
-    },
-    {
-      "t": "Carlos Prates sends Michael Morales a message: 'I'm never scared to fight you' https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/18/ufc-carlos-…",
-      "ts": "2026-08-18T17:56:02+00:00"
-    },
-    {
       "t": "Free for the public! #UFCSacramento Ceremonial Weigh-ins THIS Friday! [ LIVE AUG 22 | 8pmET on @ParamountPlus ]",
       "ts": "2026-08-18T18:00:01+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Dana White’s Contender Series Season 10, Week 2 Results",
       "ts": "2026-08-18T22:49:48+00:00"
+    },
+    {
+      "t": "Who Should Get The Next UFC Welterweight Title Shot?",
+      "ts": "2026-08-18T22:37:18+00:00"
+    },
+    {
+      "t": "Namo Fazil Faces Kaik Brito in UFC Contender Series Main Event in Las Vegas",
+      "ts": "2026-08-18T22:48:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Arman Tsarukyan confident handshake deal will lead to title shot with UFC 331 win",
-      "url": "https://sports.yahoo.com/articles/arman-tsarukyan-confident-handshake-deal-121519737.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T12:15:19+00:00"
-    },
-    {
-      "title": "Khamzat Chimaev sends a message to Dana White when voicing frustrations over UFC return",
-      "url": "https://bloodyelbow.com/2026/08/18/khamzat-chimaev-sends-a-message-to-dana-white-when-voicing-frustrations-over-ufc-return/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-18T14:00:00+00:00"
-    },
     {
       "title": "High-altitude scraps in SLC ➡️⛰️ Tickets go on sale for UFC332 THIS WEEK!",
       "url": "https://nitter.net/ufc/status/2089715468169015719#m",
@@ -2105,6 +2091,20 @@
       "source": "Cageside Press",
       "cat": "ufc",
       "ts": "2026-08-18T22:49:48+00:00"
+    },
+    {
+      "title": "Who Should Get The Next UFC Welterweight Title Shot?",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON1hPaWcxWTNzd0M4cHM0bnhuWmtpZ055UHI4NlQyWm9YUU5fdnJaLW5SRi04ODZ3NjMzN2dPSEdaQXRVWEs4d280bzhVWDRDSmNRZVhzYXR0ck9wQ0gwSUZXZHgzQlZYczNmTlhGWFZQa051TUs5Y0JCc0UzcVUzbVdCNWs1SFA0bkhlWnJzNjlUcXM?oc=5",
+      "source": "lindyssports.com",
+      "cat": "ufc",
+      "ts": "2026-08-18T22:37:18+00:00"
+    },
+    {
+      "title": "Namo Fazil Faces Kaik Brito in UFC Contender Series Main Event in Las Vegas",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1UdzF6eGFHYUs1SnJlSnB2M3AzZFJwdVNXVU9lTzVqNENrQ1pOMDY4QVNXUDdMMzFkYW9UR2lYYnNHS2d1aDRBYWo0TjQyRkJ4RmRVWElHeU9KTVdBY0pBWU50OHJCQ21GZkp1VUk2Wl9Udw?oc=5",
+      "source": "Readers.id",
+      "cat": "ufc",
+      "ts": "2026-08-18T22:48:00+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMid0FVX3lxTE1VaHV3bWhKYnRIRG9GalV4SzEyN0VBQUdfRXNjNWYzbkNTMHJYSjFnNjNiTDhlYy1yZHNiUGkwM0xUVXQ0UUtUTkZkbW5YTExyTm5FckFsUFBvR3M1NHhOQzB3cHQ2eDFuRDVEOTlndzFsTjJkNGxr",
-    "CBMiqAFBVV95cUxNM3pMOUdDdEtPQm5IR1NNUm1PeTFTVTJCZm5CTUsxdWxHVDJ5cGRPTW5UVTBZWnRpek5fcEo2ZjdpajhpU0ZyMGJhNnhSbmI0cXh5MGhsT3lCTWl4VVMxYk1wYmhYRkNjWkRuUUgwVVNzZDREa2QyNzZjX2prTFNaQ2tUSUdTWkRtSUVCQWoycGJLYi1xNG9iMkhvekpzQmNQZ2c4T0VPbk_SAa4BQVVfeXFMTTN2V2hSdkdzYWFhSktDSk5ROVMzTWZ1Wk9lQnlqaUFZY3F4VnRNYmhSUTJTVVZwNzhCOUFUN0hOOE5oX3JOU20ta2NqRDByMVNJNzI1T05fQXJFbm5yVmZScXNLNGJfZGNzNlFKWXFZMDJxUkt2aUo3M0pxZjNpZzFzVTdGLWlUaWJ3aENVb0J6QkpxeUtaODV3WXB1WENmYkhkdDZZQWl2QS1UVjh3",
     "CBMimwFBVV95cUxNS091czRvRk1WeG9pT1cyMlpOVkV2R3dqMmpCdVRFZDRXNXhuam9wVmhSemR2WjZ3NTlIYWVKcHJBNmxRdkwzWkI5aDQ0dEJFN1hxU0E1MmVxeW9BYV9rNUJIcHJzXzJ1c0wzd2dsbS1LNG5WNnkwcVpRQmFVMU81X0dYeWpKRkVWLTdPYzVJTlZrejlaWmNvVmYwWQ",
     "CBMif0FVX3lxTE5tMmt4TENvaGZiQVQyLUNXYWxRU0NIa1lCTUZvRUhyNUhDc3NDQzJ0SUNQR3ZKc2Q4cGRhQ3dnNHFwT0x6V3FTWUttWmJweUUwUldlNTJNT00yMVBjcmhHaVd4akFHUTc5S0lSOVBXNVZEbHB5UWM0a3dURkw4SEE",
     "CBMidkFVX3lxTE9selZ6ald6TDhHS1JRQ3dNa0pVejg0b3gtMkgzREVsOTd0NEpoYS1SUVpwSEE2MksyV2JHVGg0NVdid09fODRvMWM0MlQ0aVJGOXRSbzg5RXhqZ29uSF9nVXJGX0Jsc2lhaEdqZm1FY1FUT0pEd1E",
@@ -3312,7 +3310,9 @@
     "CBMimwFBVV95cUxQejVvby0yMTh0ZVMzbEZBRzFGY2J0MEQ1S3pDM0dXM242YjlBWGtYYmVBVUI1cmNjeTlsSDhGZkFXTGFZRm1PSkNYQVB3c0ZpYjc5ODBmTnlvcVo1Tm9mbDdudUtScWQ4ZFRvN2FJV1BIRGlyTDdYUGtxSWpjdU94M3EzWlhwVFJ1cl9HaDU2cmwwRXJlYnhmVENhOA",
     "CBMipgFBVV95cUxQYWJhbVN1YnF2NHBxZV9lcXllcFdCYzk2clViWXFGVmdLY2g4VWtIRWhOX1JoUDVGZlRsWGpoSnFRLVBOUTZRMnJQQUI0Nlk1VFpGTnJKTkg2T0xmNmlvM1dyNXdDQl9SYjk2cnZPdDFabHZkSUNzTEV0S0hlMzRabnlUem1uYnRhMTdPS0pzSnU3MnBhTVllb3V2R18tVVRMM1l3RzhB",
     "CBMiWEFVX3lxTE9UOEZGcnFuc2xQVGNkbmpIYl9OWWlTWWZkWXNDYzFlbkQyTkk2aTJwQlFObDBFMWxyZW40cGNNWDhhR3R3U3pDM1VYWFFtVHNKZWZIbFl5Rzg",
-    "CBMilgFBVV95cUxOQXVSaWpORDQ4NWFpNk8yU3lENDVmQWd3Z2NQdzN1LTAyS3VaZ1lYcXBMTkk4ZGktX0VYZ3FOakRhUUF2anZ5VWFfLWozbUxkV2FlRS1mTmtlVDQ2Y1o3MkRvZ1ZHSEpPeGRpbGhwaEdxdVNhc181RTZQSnlVdkdCMTY5TFhDWTNQZWh6ZlhKaU5NV1dhaHc"
+    "CBMilgFBVV95cUxOQXVSaWpORDQ4NWFpNk8yU3lENDVmQWd3Z2NQdzN1LTAyS3VaZ1lYcXBMTkk4ZGktX0VYZ3FOakRhUUF2anZ5VWFfLWozbUxkV2FlRS1mTmtlVDQ2Y1o3MkRvZ1ZHSEpPeGRpbGhwaEdxdVNhc181RTZQSnlVdkdCMTY5TFhDWTNQZWh6ZlhKaU5NV1dhaHc",
+    "CBMikwFBVV95cUxON1hPaWcxWTNzd0M4cHM0bnhuWmtpZ055UHI4NlQyWm9YUU5fdnJaLW5SRi04ODZ3NjMzN2dPSEdaQXRVWEs4d280bzhVWDRDSmNRZVhzYXR0ck9wQ0gwSUZXZHgzQlZYczNmTlhGWFZQa051TUs5Y0JCc0UzcVUzbVdCNWs1SFA0bkhlWnJzNjlUcXM",
+    "CBMickFVX3lxTE1UdzF6eGFHYUs1SnJlSnB2M3AzZFJwdVNXVU9lTzVqNENrQ1pOMDY4QVNXUDdMMzFkYW9UR2lYYnNHS2d1aDRBYWo0TjQyRkJ4RmRVWElHeU9KTVdBY0pBWU50OHJCQ21GZkp1VUk2Wl9Udw"
   ],
   "daily": {
     "d": "2026-08-18",
