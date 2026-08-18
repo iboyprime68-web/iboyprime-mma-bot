@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Anthony Smith pleads not guilty to charges stemming from recent arrest",
-      "ts": "2026-08-17T23:17:34+00:00"
-    },
-    {
-      "t": "Arman Tsarukyan: UFC's Hunter Campbell guaranteed title shot after Mauricio Ruffy fight at UFC 331",
-      "ts": "2026-08-17T23:18:53+00:00"
-    },
-    {
       "t": "The Thrill and Agony: UFC 330 winner and loser reactions",
       "ts": "2026-08-18T02:15:21+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "FSC 37 preview: How to watch FightStar Championship live and for free on DAZN",
       "ts": "2026-08-18T14:31:22+00:00"
+    },
+    {
+      "t": "Payton Talbott vs. Deiveson Figueiredo among 7 fights booked for UFC 332",
+      "ts": "2026-08-18T14:35:24+00:00"
+    },
+    {
+      "t": "Joe Rogan has some worries for Islam Makhachev despite UFC 330 victory",
+      "ts": "2026-08-18T14:39:49+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Mackenzie Dern reveals unhappiness with her UFC 330 performance: ‘I should’ve knocked her out’",
-      "url": "https://bloodyelbow.com/2026/08/17/mackenzie-dern-reveals-unhappiness-with-her-ufc-330-performance-i-shouldve-knocked-her-out/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T21:00:00+00:00"
-    },
-    {
-      "title": "Arman Tsarukyan claims Charles Oliveira ‘found an excuse’ not to fight him at UFC 331",
-      "url": "https://bloodyelbow.com/2026/08/17/arman-tsarukyan-claims-charles-oliveira-found-an-excuse-not-to-fight-him-at-ufc-331/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T22:00:00+00:00"
-    },
     {
       "title": "Kamaru Usman maintains that he’d be Islam Makhachev’s toughest test following UFC 330",
       "url": "https://bloodyelbow.com/2026/08/17/kamaru-usman-maintains-that-hed-be-islam-makhachevs-toughest-test-following-ufc-330/",
@@ -2105,6 +2091,20 @@
       "source": "DAZN",
       "cat": "ufc",
       "ts": "2026-08-18T14:31:22+00:00"
+    },
+    {
+      "title": "Payton Talbott vs. Deiveson Figueiredo among 7 fights booked for UFC 332",
+      "url": "https://sports.yahoo.com/articles/payton-talbott-vs-deiveson-figueiredo-143524723.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-18T14:35:24+00:00"
+    },
+    {
+      "title": "Joe Rogan has some worries for Islam Makhachev despite UFC 330 victory",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTmFkeDhmREJLNGdCdUIxdWQtUFNjamNoLVlDZU5KOEhZeWpabDZzOVd4M2U0bm5UdndEUmhmZ3hNd255U2Y0U204NGh0cm5aYmExRklRa1Vzc2htRlpTMWZXNE9kV0p3VDNoUDMwaDRSWmVmeXFWYmVQQWhrNll5LXlZNXQzY1ltQVBPdEM5RDNYVEtHM0hDaG94ckdCNk02S2o4NFNCWTBMMzdCZEFCY0p4bw?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-08-18T14:39:49+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "2088981704065397156",
-    "CBMiW0FVX3lxTE5FNE9PT0tNMGExallWTGN2QVVkbGJNdl8xNzJLU1ZMa2xpNTRsTnNUaHRqSzd1djhqWlpuV3VPYXNzZl9fSW5lSHY4SkI4QXlFbW1MMGhhX2xKeEU",
     "CBMifkFVX3lxTE1KZXVPek4wWTJNZ0pZaW82ZTRZWDA4Z2lNUHdLd1lJc0tyWU8yZkZhVWFvREMyN3NVQ3piRUFKZTJkTUhQSU8tLVpZS1FzSWJScVM5UDVUcUVna3kwWGxJNi1NTm13YVNGcGdmZEJ6dXA0a1F2UzZFRWhWYTlxQQ",
     "CBMihAFBVV95cUxQU0FFbFZGTHVYT0tWNlZyTi1EVTh3c1F6a0NKWUtUeDR5U0RQaFItdXZReFpPNXNaMFVHMFlRbk9PODFoc3NvZC1Mc3ZWNzBzanN0MGpsOTFSU2RBV0RVdXFYZGZVaFEzNndkdGtVb1ZYVjV0Vy15VDdaVTNmMmJnQTFrU3M",
     "CBMi1wFBVV95cUxOdS1LR0pBNzV5SzExVU9OZlA4SFM3V3ExQ3F5YmF2TlVKZDRPRlBZRnJGZngxQ0QtLXhvVGZKeGI5Mm9xa3dEeG16YWdYN19mT2o5MlYxM1k1S245NF9SazU3cEg0OFNGYW9vMnYyNFRxT0F0cVd1MHhHejJySElzT2o2ZmJQRG1lVGdCMUZWNGhfcDBOU1RWX3luamdISXhBYXRXc0szWDNvb3RLZ3JlMm1zNnJ4cXNLdXJnQnZtbFhhTmktRkxEYlE2cDRCdEEzcGFSTk1zOA",
@@ -3312,7 +3310,9 @@
     "CBMifkFVX3lxTE5YdzBQbjNKNG1PUzdtMDRwOG4xRjBMd1NOakdQQ3BZOXlyWDU4elZ2YkRGRWFJZ2dHUENlQnlzSkxmMGlqRFVtWi1QUG4xUkxGQ2tUdGdTd3JnU2xYN29jaTdRMlZxTzRXZkJkcnBlQUoxLXhRNEk2N0ZnMjhVdw",
     "CBMiogFBVV95cUxPc1lrbXYwaU1uclRDY3hpSFR0b1lzaG9OeTlIZGlpaWlIQ0tsV1dnU3BPSXpSNC1EcE5pcTA2T3RLYk5OTzJLOWpnNzRSYmpwRHdRbElaS0t2WmoteUE4UjFuNER2NXh1RDFfM2pBdDlnYVpkazU3V0E4QUZndHhTUldISUxsdFBpd1luTTFxNzYyNzRiZ3FQOEV3cmZtSy02Umc",
     "2089722898797805572",
-    "CBMivAFBVV95cUxNSkFrWlhEeE92M3NKa1NORkFiZllxcmlORTExRWg5NDZSZHhadzEtX0Y1WXFzUDdYbXBwTFdlMHVtRVVPMXhicFpFZ2w3OUdEeVJ3TFFHNGU2V25YX0VXdDFSMmI5SVNyVkVWempYa3haaGdLcXZYR214cVhMdkhkWm9WeXFEYktSejlnQ0Z2dDg1bEEwdk5LTHN1UHpGZG1IZFpsOEJYTlIza3E1ZzhSZFVoWWstd2xkMFNZNg"
+    "CBMivAFBVV95cUxNSkFrWlhEeE92M3NKa1NORkFiZllxcmlORTExRWg5NDZSZHhadzEtX0Y1WXFzUDdYbXBwTFdlMHVtRVVPMXhicFpFZ2w3OUdEeVJ3TFFHNGU2V25YX0VXdDFSMmI5SVNyVkVWempYa3haaGdLcXZYR214cVhMdkhkWm9WeXFEYktSejlnQ0Z2dDg1bEEwdk5LTHN1UHpGZG1IZFpsOEJYTlIza3E1ZzhSZFVoWWstd2xkMFNZNg",
+    "b63fd66e-9ebf-392c-809f-e76c0bf523e3",
+    "CBMiswFBVV95cUxPTmFkeDhmREJLNGdCdUIxdWQtUFNjamNoLVlDZU5KOEhZeWpabDZzOVd4M2U0bm5UdndEUmhmZ3hNd255U2Y0U204NGh0cm5aYmExRklRa1Vzc2htRlpTMWZXNE9kV0p3VDNoUDMwaDRSWmVmeXFWYmVQQWhrNll5LXlZNXQzY1ltQVBPdEM5RDNYVEtHM0hDaG94ckdCNk02S2o4NFNCWTBMMzdCZEFCY0p4bw"
   ],
   "daily": {
     "d": "2026-08-18",
