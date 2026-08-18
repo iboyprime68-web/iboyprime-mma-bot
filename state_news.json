@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Arman Tsarukyan claims Charles Oliveira ‘found an excuse’ not to fight him at UFC 331",
-      "ts": "2026-08-17T22:00:00+00:00"
-    },
-    {
       "t": "Arman Tsarukyan reveals he will debut a new nickname for UFC 331 comeback fight",
       "ts": "2026-08-18T00:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Redemption: Second Chances on Dana White’s Contender Series — Alik Lorenz",
       "ts": "2026-08-18T05:00:57+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan choisit un nouveau surnom surprenant à l’UFC",
+      "ts": "2026-08-18T05:03:55+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Thank you, PHILLY‼️ Fans got incredible access to UFC330 events as part of the @BudLight Summer Series, including a beer garden and meet and greets…",
-      "url": "https://nitter.net/ufc/status/2089080001639403996#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-16T20:01:00+00:00"
-    },
     {
       "title": "No better way to celebrate! NoGangNoGlory B2YB @NewAmsterdam",
       "url": "https://nitter.net/ufc/status/2089095101175787635#m",
@@ -2105,6 +2098,13 @@
       "source": "Cageside Press",
       "cat": "ufc",
       "ts": "2026-08-18T05:00:57+00:00"
+    },
+    {
+      "title": "Arman Tsarukyan choisit un nouveau surnom surprenant à l’UFC",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORzV3QWFDU2pibFEyRDBJNUY2Z0d4UGVkSHZ1VjdaYmpNTGVGTGQ5eVZQRVNqeTN6YXdGZkZrTjE2U0p4ZXdMc0xBR1lSd25hZHhVLXgxaFI2NC1CdkpacHNnTmhXZ3A5a1RXRWtsX1VkZFFCY3JjREJYdWVteWFaUw?oc=5",
+      "source": "La Sueur",
+      "cat": "ufc",
+      "ts": "2026-08-18T05:03:55+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMinAFBVV95cUxQazVTWEw4RmxnUDhkNFRsWlNEWlJPUDNXSmhNeWZoYkhQMjRfczdDWkFCZkJnRWNwbmRWVnJsaEpGRG5WdU5lSDBIbjlOWERQVVpsVEJmQl9nLUR2bDhQYnhkWHdiSUR5YWNSSlNmWWVwVFk5ODBqOGhwdUVYNE9hU0hFS28yZ3dWaWM0blBjY0NsbURHclY5Y1J5eFI",
     "CBMicEFVX3lxTFBRZklBOF9ucGd4VWlKX0NrMG5XV21BQVg0T1FHWUQzU2c3di1wQ19UTEkwdlpZMlhtSkhQNGhZZnVtSUo2c2N6Q3gwWmJWMy14anMtcDl3MXl0cERPRVRmVGNVM0R6NldrcHk5MC0zdjI",
     "CBMi1wFBVV95cUxNS2xmMVkzU1RsYWJlVXZJb1RpalJmZENDbWxOZkljdTQ2SVl2TDRuVGNRT29zSWZ0RTZZWm4zWlhBeWVzcVdKQVotT3dqSHZLd0w0ckNmNFhsZUhKbXFMNzB2RHJqOVM1Vm0zbm56YV9kODR0TXVOUktBNzczbXI5bmJWYzhjTEMxQ3dublZqUFVsdE90Qk4yczliaU5TUHlDZVFTZlVqZDdlbTdLemFzLVBKSEswVjRmLWhVMEhWWmU0cjdCZTBUZk5GRmtwdjh2NExtRFF6Y9IB3AFBVV95cUxNRS1Pd05LRUZLWkVZanpheEFhcjJDeTc0bUVMdTZRRTVvaGF1bFJPc0JxZjBTZ0FYa0pvUnVZYUQ3NkdKeThaQXdDWHlnMGhJcXBMTDJ3R2VyWjlSSVZmZ3d5Yk40bGNDZTJNel81d2NRMXlLSlRQMHhZNEVhYW03SDVFMkN4NkVEQ2t0cVh1cW4wcjc2dmNnbmNaNTAyT0RXTk1Dd29rc1daNmRaa1o2VGJKUXFHcnZLQmJyME5WLWlfZEdBaTNjdU4tRDVSNHVWNDVER3d4X21mTGxl",
     "CBMibkFVX3lxTE1wWU5XbllMalVJcm5kbXV6MmVGR2tmY0NFdWtkeEJBUWhQaWNNMkZ3aFk5NlcxMEdOTWgwZERJS015eTRzcU5Rb3lWUV9WZk9qNVFRU0lEaHBCeUUxOXVRbDJFVHhwX3p1ek9SaFRn",
@@ -3312,7 +3311,8 @@
     "CBMiswFBVV95cUxQS3JubTFLSmliV2ZET1g3dHpueUFmLVU5ZldWTXEwRjhJOUM1VXkwenFFeXljTmx2T0YweGpySm1HdVhSdVl3OVEycGhLSjhUUm1sdlRZRzRNUDhrZ0ctcG13blkyZ1pDMWg5a1BJbWN4TTdVYktpeGlieHpkbzRIUkVRdjltV2NPVlNVbXVGek1UV3BPQl9OSjFoWmpaTnRZa1llUzdEUmJyYUQ3YU41NWlmVQ",
     "https://bloodyelbow.com/?p=327521",
     "CBMivgFBVV95cUxPd2hzT2xFOGNqYVUtMG5tTVpPQ0ZydnFSTEEtLXBlRkNTbU1aVGtCcFhVZHlRa05IdS0wYm91YTJxRDJIUjBaLXJOaFExSkZaOTBNeDl6czl5eWUyQ2YwRTJ5X29lZ3JvSDJfaS1pYmFXYmVLcVk1cUdLb3EwdlBSZEFyeFU4dU4zcE1IWTYwTEhJQnRnLU91Mng1Y20zZmhnNTNjVTM5UGdaZGdRTnl4MnNYY1IzcXlPQWpSX2xn",
-    "CBMiqwFBVV95cUxObnZGaTFRZlQ3eXVYX3pOckxZeW8wMnJENHItb3Q0Um40VU1DNHVzRXJ4NmlYSkZReVg3c2kyQi0wUGhTb2NyTWFlUUpRRmdYalpPck9XaS1BbHI4MHJwSTdzMWUzZlh6MV9CWGFTMWl6QnRVMDJRYzVBZmd1NGRkQnB4emdweFprX3BxcUZLTUxBUjZCbTI4ZVEzUzZiMVdPLTJETFcyUnQwQVE"
+    "CBMiqwFBVV95cUxObnZGaTFRZlQ3eXVYX3pOckxZeW8wMnJENHItb3Q0Um40VU1DNHVzRXJ4NmlYSkZReVg3c2kyQi0wUGhTb2NyTWFlUUpRRmdYalpPck9XaS1BbHI4MHJwSTdzMWUzZlh6MV9CWGFTMWl6QnRVMDJRYzVBZmd1NGRkQnB4emdweFprX3BxcUZLTUxBUjZCbTI4ZVEzUzZiMVdPLTJETFcyUnQwQVE",
+    "CBMigAFBVV95cUxORzV3QWFDU2pibFEyRDBJNUY2Z0d4UGVkSHZ1VjdaYmpNTGVGTGQ5eVZQRVNqeTN6YXdGZkZrTjE2U0p4ZXdMc0xBR1lSd25hZHhVLXgxaFI2NC1CdkpacHNnTmhXZ3A5a1RXRWtsX1VkZFFCY3JjREJYdWVteWFaUw"
   ],
   "daily": {
     "d": "2026-08-18",
