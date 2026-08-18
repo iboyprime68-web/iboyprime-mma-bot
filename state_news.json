@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Khamzat Chimaev Takes Frustrations With Dana White & UFC Public",
-      "ts": "2026-08-18T19:40:53+00:00"
-    },
-    {
-      "t": "Gillian Robertson Shuns Din Thomas After UFC 330 Comments",
-      "ts": "2026-08-18T19:41:15+00:00"
-    },
-    {
       "t": "This Wednesday, @JoshuaVanBT joins @MeganOlivi for the latest episode of Becoming A Fighter 👊",
       "ts": "2026-08-18T01:03:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Meet Michelle Montague, the Kiwi fighter making UFC history",
       "ts": "2026-08-18T21:00:00+00:00"
+    },
+    {
+      "t": "Islam Makhachev’s Next Fight Will Be Carlos Prates",
+      "ts": "2026-08-18T21:00:00+00:00"
+    },
+    {
+      "t": "Sean Strickland Unleashes Fury on Din Thomas Over Gillian Robertson Controversy",
+      "ts": "2026-08-18T21:08:02+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC set to debut new commentator in Joe Rogan role at upcoming event: ‘This is my world title’",
-      "url": "https://bloodyelbow.com/2026/08/18/ufc-set-to-debut-new-commentator-in-joe-rogan-role-at-upcoming-event-this-is-my-world-title/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-18T12:00:00+00:00"
-    },
-    {
-      "title": "Arman Tsarukyan confident handshake deal will lead to title shot with UFC 331 win",
-      "url": "https://sports.yahoo.com/articles/arman-tsarukyan-confident-handshake-deal-121519737.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T12:15:19+00:00"
-    },
     {
       "title": "Khamzat Chimaev sends a message to Dana White when voicing frustrations over UFC return",
       "url": "https://bloodyelbow.com/2026/08/18/khamzat-chimaev-sends-a-message-to-dana-white-when-voicing-frustrations-over-ufc-return/",
@@ -2105,6 +2091,20 @@
       "source": "Now to Love NZ",
       "cat": "ufc",
       "ts": "2026-08-18T21:00:00+00:00"
+    },
+    {
+      "title": "Islam Makhachev’s Next Fight Will Be Carlos Prates",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5d2NfRUdUVUZCSExFbFlfeVIyNmViN1F5eXNuZjNVelJxRUNLRGNJLUZqdW9ZWEhjQWdYZ1dYMFlReTAyZGptZWY4NWZaYkRBQWJYckVIZWc2a0NZWE1GZUpXd2N3azd4cTNBWUpHUWQ?oc=5",
+      "source": "TWSN",
+      "cat": "ufc",
+      "ts": "2026-08-18T21:00:00+00:00"
+    },
+    {
+      "title": "Sean Strickland Unleashes Fury on Din Thomas Over Gillian Robertson Controversy",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcDQ1RnB0MjRzOUZhTE83YW5KRzNCOWdhSW14QUU2YkYxUHV0X2F2U3FuR1BQelhDQmtZOXRmSG1Ga1dEMjc3Zm1mLXd6ZHFGblRzMERMRm1mNDJCazdONHdwdnNCeE1OZW1OYWV6VjdiVkcwbHR3Yjl6WkNLRnZuRGZjRkJMWmtLOWRneTMxd0VjVEtqLThwOTBFSjhqLVZwRjVwWU5tZU5RWHpzcE1MTGF4VUx0VkdvSWxhZw?oc=5",
+      "source": "The Body Lock",
+      "cat": "ufc",
+      "ts": "2026-08-18T21:08:02+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMimwFBVV95cUxNdjBxamt6UWNfMjBKd0pzcm96NjFQUWQ0NTJDNndPODU0azEyaGI5TEZycV9HREljVTF3M0I3eEsxdXBITlJGMXRaTkdPcnpyYk1wTk5jdmJKN3FZbVpLbTZ4TDBxRUVlTXV4MnV2dEZmb3czaGVtQ3BhcWEyVVVsdmNJUXRWcU1FeGYtZG11SjNkUDZLMUJpeHA1Yw",
-    "CBMi1wFBVV95cUxOUWtDSjlIWmg1dGJGaXNGTnMyUjRSU3VESzc5cXVrQ1laWVZSWXZoakIxTW43V1NHVU82QVhUX3NHUFNTXy1jMUp4d0xvTVRtN0VPSEtudXBPRW94eXRmb0xza0ZtZkpyNWpkLVp4X1VxQi1XNWNoMFZHU3g1Tkp6WjBaS29NUFppQjR6dUZ6eG55Z2NudVMzSFZKMUt0Qzlib2JZd0NBdWZYTmlYWWdRN25CNldrX0RMeTVCeUZqZlBOcU1XUFBQWmJrSGlwaUl5Sjd5dDFoOA",
     "CBMioAFBVV95cUxNV251a3hxWWt5Y3Q3TFMwM0FHMUdTWUJ0a0kwNHRoaXZSOVg3NmV5TWczUUdScWl3OWVPaTRqN0pVV0lZMkVFdG11djRZTFluZjRmRUh1a0lIU2pyTVFtd2cxQ1lqeWo2ZGdZcUQ0Z1JmcEh6dGFNbW93V3NITTA4UHZGY3g5aWNBREtLS1VjMkhRTWRiQlRXRnFLcUJERTk1",
     "CBMilwFBVV95cUxQUXg0ZEJERy0zTk9QMWdoV1ZzYnpsa0JQVldldWs2UjdBUmkyY1pYT1dvRnZVSlYzWmF5SFBUb2VWTGNJcHF1dlhoWjVPTkl0VUhGWUZZZU1sVDRXWmQ0WHN5M1BMaVhKdzZqS0RvMTFtTTZGUW9RWFBPN2huRGZ4MTlKSXJqVTA4VEM3TVlpQ0ExWjdtRTk4",
     "2089065585888121121",
@@ -3312,7 +3310,9 @@
     "CBMic0FVX3lxTE5Kb1BvblJtZUtqd3R0ZGVhVG4xYjlwalBSNXM4cmk5QWNDdVVWdzFKbzI1NlQ3eEVXV2loTlBzZkFDenV3bWJmaUFzSGlHOHNZY1NnclRFTHJxSE9OT3AwakNieGF6ZlBaajE2TXhTcmEwcmM",
     "https://www.mmamania.com/?p=465776",
     "2089819629573353513",
-    "CBMikAFBVV95cUxNUEhPSld1TGdnaERNcVE1QmtfRExpMVFtb3JVdWJBZl9vRWdvU2NYbTVEQko2cUN5aC1ERDQ4WVR3d0VnQlBKcW9rekgwSzVoWWJjeEp0SlA1bnZOX0phcEkyVEY1R2dNVTYweV82YU92Q2FqeXFHMEpzemg0blRhUUJCMTVZOHBtNmgzQllkc3E"
+    "CBMikAFBVV95cUxNUEhPSld1TGdnaERNcVE1QmtfRExpMVFtb3JVdWJBZl9vRWdvU2NYbTVEQko2cUN5aC1ERDQ4WVR3d0VnQlBKcW9rekgwSzVoWWJjeEp0SlA1bnZOX0phcEkyVEY1R2dNVTYweV82YU92Q2FqeXFHMEpzemg0blRhUUJCMTVZOHBtNmgzQllkc3E",
+    "CBMicEFVX3lxTFB5d2NfRUdUVUZCSExFbFlfeVIyNmViN1F5eXNuZjNVelJxRUNLRGNJLUZqdW9ZWEhjQWdYZ1dYMFlReTAyZGptZWY4NWZaYkRBQWJYckVIZWc2a0NZWE1GZUpXd2N3azd4cTNBWUpHUWQ",
+    "CBMivAFBVV95cUxPcDQ1RnB0MjRzOUZhTE83YW5KRzNCOWdhSW14QUU2YkYxUHV0X2F2U3FuR1BQelhDQmtZOXRmSG1Ga1dEMjc3Zm1mLXd6ZHFGblRzMERMRm1mNDJCazdONHdwdnNCeE1OZW1OYWV6VjdiVkcwbHR3Yjl6WkNLRnZuRGZjRkJMWmtLOWRneTMxd0VjVEtqLThwOTBFSjhqLVZwRjVwWU5tZU5RWHpzcE1MTGF4VUx0VkdvSWxhZw"
   ],
   "daily": {
     "d": "2026-08-18",
