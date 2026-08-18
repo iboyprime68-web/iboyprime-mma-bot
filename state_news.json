@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "MMA pound-for-pound rankings (August 2026): Can anyone beat Islam Makhachev?",
-      "ts": "2026-08-17T18:46:55+00:00"
-    },
-    {
-      "t": "Islam Makhachev wonders why Carlos Prates and Michael Morales didn’t fight at UFC 330 to determine No. 1 contender",
-      "ts": "2026-08-17T19:00:00+00:00"
-    },
-    {
       "t": "Sean Brady vs. Gabriel Bonfim booked for UFC main event on Nov. 7",
       "ts": "2026-08-17T21:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Arman Tsarukyan Gets Real About UFC Money: ”Alex Pereira Make 2-3 Times More”",
       "ts": "2026-08-18T15:16:26+00:00"
+    },
+    {
+      "t": "Kamaru Usman Says He Has Style to Beat Islam Makhachev",
+      "ts": "2026-08-18T15:21:52+00:00"
+    },
+    {
+      "t": "Payton Talbott Gets Deiveson Figueiredo As UFC 332 Adds Seven Fights To Salt Lake City",
+      "ts": "2026-08-18T15:22:09+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Conor McGregor offers two-word support message to Ian Machado Garry after UFC 330 loss",
-      "url": "https://bloodyelbow.com/2026/08/17/conor-mcgregor-offers-two-word-support-message-to-ian-machado-garry-after-ufc-330-loss/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T15:57:42+00:00"
-    },
-    {
-      "title": "Two powerhouses collide 💥 Anthony Hernandez & @GregoryMMA are set for their main event showdown at UFCSacramento! [ LIVE AUG 22 at 8pmET on @Paramo…",
-      "url": "https://nitter.net/ufc/status/2089381749033783607#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-17T16:00:02+00:00"
-    },
     {
       "title": "Max Holloway not a fan of Islam’s two-belt flex at UFC 330 (but everyone is doing it)",
       "url": "https://sports.yahoo.com/articles/max-holloway-not-fan-islam-162538514.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-18T15:16:26+00:00"
+    },
+    {
+      "title": "Kamaru Usman Says He Has Style to Beat Islam Makhachev",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5iekItdm1jU1dvekhQSWYzSXdfZTVXTUQyVDBGbS12OGplbEpnTGxNMHRIS1dQWkE2MnVRQ0NmdzgzbXp1WFpxYWdiZ1JNeldtdmlBT3hKQXUwZk1wbENWUEg4Nnp5ajVXVlYzU1E5Y1RpWTdqOTVuUg?oc=5",
+      "source": "heavy.com",
+      "cat": "ufc",
+      "ts": "2026-08-18T15:21:52+00:00"
+    },
+    {
+      "title": "Payton Talbott Gets Deiveson Figueiredo As UFC 332 Adds Seven Fights To Salt Lake City",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS3d0WDA0X3lWbGJ1ZURGb2I5ZGlfajFva3I2cTdINXlkWl9OaFM5b3NOd0V0ZnJOLURuUE1Ca0tqNWFWWDNlMFpma0hJT0NibU9heXJ6cmlDMllpaERhZFp6c3RVS0RlVS1rVk1UdWFCTTBXcnhPcHF2WGVQRWR1Qg?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-18T15:22:09+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi2AFBVV95cUxQbkJpN3AzSTdpNFJ3bnJMSlh5UlVKenc4QjdLN0JaU0ptdlRsZzM0Ql91ZllZMkxSMlBuT1VQXzBjZUNidHJHdW9PR29GQVZOcTB5Q09GbnN0UF9YLWt0NmYwdmFoWlZmUWtjcXRHU2VGNlF2VTB5QTRuVHNGUnpBYVlnbVRsUjdMbnd5MnA0bk81SEJZNGtJVGdZbFQ1YWN2TFJLOGNBaWMzRmk2VThXdDlnYkFKUjVtc0VBUG5nU1paRWdMYTYwUzV5ZF80MUJ3ZHhlWmFfM1o",
-    "https://bloodyelbow.com/?p=327254",
     "https://www.mmafighting.com/?p=505349",
     "CBMiW0FVX3lxTFBTai1QUVBtZFZUSnhXZ3Z4Q1J3eWlWUzBTbGtpMjFocklQUFc5OThPVUNwd0xScDhUZGl4UVZ5MUdrbEs1a0V0QVIyQjJJRmwxQWVjc01KNm9DTDQ",
     "CBMi2gFBVV95cUxNcGVuTjZKTk1zOTBJRHhsTF9LOUJnamtMSkVQcW53MUhaYlhZTGFpZlJoMXNwcTlaQnhhTHBQVTBBZ2UzSkotVkN4RmtpY0o0R0tOU0J4cnNzX1ZuNi1DWnIwSHY4WG5Md0RPUUljc245d0JFU3hLcGU4UE00WHB2ZGFEWERPV3dUenZDMUpUT3ZGb3hzNG1XSWlZUmhYTkRDbVFXNk4yTU55YlNJZXRDaTM1N3JWQmZtMHVCeEV6TnoyMnlKLVJXUzNyLXk0UGNMR2F6ckFLYzVJZw",
@@ -3312,7 +3310,9 @@
     "CBMiigFBVV95cUxNRjNrYjdqcGtpandJanNrZFN0MHNOemh6SURNRGd4Wlhod2R1TEQ1Y1lRUEhSaUVNcko4M0xveUhYdmxveFgxbjU1SUQyb1dFTWVWYVpFOVk4dm5fMlE2X3NDWEE4RTJJWGUyWEduRHpfN2thWDVUOHVabDlTTWIyQlJRNXZOZmFQUnc",
     "CBMigAFBVV95cUxQQ25WSkdLVDhEVzRnR2EtVk5GNi1uZ3dJTzZGMWF2ekRhNEsyd3VWemc1WkZpVnhla0Ywd1BNcnRHQVJ4Tmd0czFDaWJnU0VZR2ZnTkRfS0JNU05DblJ6ZTZ3eW5tSTItVWwtVUgzTFpCekh4dUc1ZjU5UG1lc0tzTg",
     "CBMie0FVX3lxTE83UlVBQWE5N25fY3NYU29ZdWlJS3ZRME1HMjU5OGRuV1VrSlQzUnl4TzFQNHVqS3FLYnZOVVM2QlUyS1luU1Y2MUpfTnljam1wMnRreFFBVk1hV214dW52bmFIVlR2ekdaOTYyaGthRDBiNDB2dnlvR1hBUQ",
-    "CBMiowFBVV95cUxNcVBjb0xYdlFtMXRrcG5Vd2lhUFIxUl9SOHBVTU96UUptZ2ltc21FVnNMN2RJR2NpT0dUenRmU2hpYUN2NWNRZXM0cDRYTjZOSFBsNGFhZkhkMXlpTF82aTFQa19FNEtTaFY5WG80ckxCQTBydkt2bTZMemwydjBwVy11aWNMTElSajZzZDFqektVMWFpTmc3dm1WdWF1dU9FTGVr"
+    "CBMiowFBVV95cUxNcVBjb0xYdlFtMXRrcG5Vd2lhUFIxUl9SOHBVTU96UUptZ2ltc21FVnNMN2RJR2NpT0dUenRmU2hpYUN2NWNRZXM0cDRYTjZOSFBsNGFhZkhkMXlpTF82aTFQa19FNEtTaFY5WG80ckxCQTBydkt2bTZMemwydjBwVy11aWNMTElSajZzZDFqektVMWFpTmc3dm1WdWF1dU9FTGVr",
+    "CBMieEFVX3lxTE5iekItdm1jU1dvekhQSWYzSXdfZTVXTUQyVDBGbS12OGplbEpnTGxNMHRIS1dQWkE2MnVRQ0NmdzgzbXp1WFpxYWdiZ1JNeldtdmlBT3hKQXUwZk1wbENWUEg4Nnp5ajVXVlYzU1E5Y1RpWTdqOTVuUg",
+    "CBMigAFBVV95cUxPS3d0WDA0X3lWbGJ1ZURGb2I5ZGlfajFva3I2cTdINXlkWl9OaFM5b3NOd0V0ZnJOLURuUE1Ca0tqNWFWWDNlMFpma0hJT0NibU9heXJ6cmlDMllpaERhZFp6c3RVS0RlVS1rVk1UdWFCTTBXcnhPcHF2WGVQRWR1Qg"
   ],
   "daily": {
     "d": "2026-08-18",
