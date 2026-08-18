@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504093",
     "https://www.mmafighting.com/?p=504128",
     "https://www.mmafighting.com/?p=504135",
     "https://www.mmafighting.com/?p=504145",
@@ -87,6 +86,7 @@
     "https://www.mmafighting.com/?p=505592",
     "https://www.mmafighting.com/?p=505616",
     "https://www.mmafighting.com/?p=505673",
+    "https://www.mmafighting.com/?p=505714",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmafighting.com/?post_type=vm_stream&p=505026",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev climbs the GOAT rankings after UFC 330",
-      "ts": "2026-08-17T23:55:02+00:00"
-    },
-    {
       "t": "Charles Johnson, Patchy Mix & the Tale o' the UFC 330 Scottish Twister",
       "ts": "2026-08-18T00:03:13+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Machado Garry Previews Fight vs Makhachev at UFC 330 | HQ UFC Stream of UFC",
       "ts": "2026-08-18T14:53:45+00:00"
+    },
+    {
+      "t": "UFC 332 adds several new bouts, including Johnny Walker’s heavyweight debut",
+      "ts": "2026-08-18T15:30:05+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Namo Fazil and Kaik Brito share an intense faceoff ahead of their DWCS featured bout 👀 (via @jeroguerra10)",
-      "url": "https://nitter.net/MMAJunkie/status/2089406645566681134#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-17T17:38:58+00:00"
-    },
     {
       "title": "DWCS 88 faceoff highlights video, photo gallery from Las Vegas",
       "url": "https://sports.yahoo.com/articles/dwcs-88-faceoff-highlights-video-174139397.html",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-18T14:53:45+00:00"
+    },
+    {
+      "title": "UFC 332 adds several new bouts, including Johnny Walker’s heavyweight debut",
+      "url": "https://www.mmafighting.com/ufc/505714/ufc-332-adds-several-new-bouts-including-johnny-walkers-heavyweight-debut",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-18T15:30:05+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2088986869551792223",
     "CBMizgFBVV95cUxQOVppNFN6T3p1bnlmbHdBSlU5ZzRKbXJxR3VCamFSQU5NdTZoNlhTQU12Vl9jcXE0N0JlaWFlZ2Jzd2FvdlgtT0hCZEpIOE9WVkFuc3pTQzhidkVGa1dVcnBoN2toY0hpUWNFTDV5bEdUcDh5c3c3a1huWHJRSXFOd0FEcW1EOE9RSDZNQy1PXzZqM29sRktPaWtOeDk2VGZtdkJsX0JGOGxBOWN4T3RUYWRid1FDdHFia2dXX2xiOEpPZVN5YXFaaGJLRGYtQQ",
     "2088989152939213280",
     "CBMiW0FVX3lxTE5zRzB4ZTNDazg5Y0FFLXlBN3F6Ry0xOV9TbE9jTWpHaGNYaGVjVElQRS0zQXJJakdLazV6emhOcGZ2X1RXblRqdWM3X3VobEl5Szg2Y0d0RHhrMTQ",
@@ -3312,7 +3311,8 @@
     "CBMigAFBVV95cUxPS3d0WDA0X3lWbGJ1ZURGb2I5ZGlfajFva3I2cTdINXlkWl9OaFM5b3NOd0V0ZnJOLURuUE1Ca0tqNWFWWDNlMFpma0hJT0NibU9heXJ6cmlDMllpaERhZFp6c3RVS0RlVS1rVk1UdWFCTTBXcnhPcHF2WGVQRWR1Qg",
     "2089731533041213856",
     "CBMiqAFBVV95cUxQMkw0NEZGTzlHckxrZlYwRDJMeWxTeWEyUmFLTi1pYWptbFlQaDVhR2poZDhaUFFsNTk3MmpNRXpySU1MYVZudGczM3ZPN3QwdmlZV1RUYldsRWc5R3R4MHp1eV9pc1c0aXhLVGhERGVfYjR2b3FNdmVBMTBqc0dndTZQUGd0WF9iQlF5QWIwRG5ERTBERUxDOFFyTVZPYzgtelRNckctbnc",
-    "CBMiowFBVV95cUxOLVBHNVFWbWp4blhWQjlhSjZSR0VOYzRmRy1IMUxRY1kzV1JWUDZpYnVvME4xYnNTelJoU2NSLWpzOGJ6Y0Y3YTM1dUhxbkNabE5RS1hTdk4wRU9oMFJyYWFqUnpmZ0Jpd2U3S19QYjdKcF96NWZmZjJ5MGltSjlXX0tIOUxvUnNhN2JqSFpqdlZtTFVpZzBFbTFxeGRHODhqUzFF"
+    "CBMiowFBVV95cUxOLVBHNVFWbWp4blhWQjlhSjZSR0VOYzRmRy1IMUxRY1kzV1JWUDZpYnVvME4xYnNTelJoU2NSLWpzOGJ6Y0Y3YTM1dUhxbkNabE5RS1hTdk4wRU9oMFJyYWFqUnpmZ0Jpd2U3S19QYjdKcF96NWZmZjJ5MGltSjlXX0tIOUxvUnNhN2JqSFpqdlZtTFVpZzBFbTFxeGRHODhqUzFF",
+    "https://www.mmafighting.com/?p=505714"
   ],
   "daily": {
     "d": "2026-08-18",
