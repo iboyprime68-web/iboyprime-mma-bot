@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "McGregor’s next fight could be bare-knuckle: what happens when his UFC contract expires",
-      "ts": "2026-08-18T11:00:00+00:00"
-    },
-    {
-      "t": "Habs Daily: Leadership Decision, Cerebral Beck, Demidov",
-      "ts": "2026-08-18T11:03:48+00:00"
-    },
-    {
       "t": "Kevin Nash On Why He’s Stopped Watching WWE Of Late",
       "ts": "2026-08-18T11:04:04+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Report: Conor McGregor Continued Using Steroids After Broken Leg Healed Because He ‘Liked How It Made Him Feel’",
       "ts": "2026-08-18T13:18:06+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan Names one Fighter Who can Halt Islam Makhachev’s Dream Run",
+      "ts": "2026-08-18T13:25:56+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan Predicts Total Domination From Usman Nurmagomedov In UFC",
+      "ts": "2026-08-18T13:26:01+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Daniel Cormier details what stood out about Mackenzie Dern's UFC 330 win",
-      "url": "https://sports.yahoo.com/articles/daniel-cormier-mackenzie-dern-looked-143039211.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-17T14:30:39+00:00"
-    },
-    {
-      "title": "Why did Ian Garry keep hugging Islam Makhachev? MMA legend breaks down ‘irritating’ UFC 330 tactic",
-      "url": "https://bloodyelbow.com/2026/08/17/why-did-ian-garry-keep-hugging-islam-makhachev-mma-legend-breaks-down-irritating-ufc-330-tactic/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-17T15:00:00+00:00"
-    },
     {
       "title": "Back in Sac-Town 🙌 It's UFCSacramento Fight Week! [ LIVE AUG 22 at 8pmET on @ParamountPlus ]",
       "url": "https://nitter.net/ufc/status/2089366892980953274#m",
@@ -2105,6 +2091,20 @@
       "source": "Generation Iron",
       "cat": "ufc",
       "ts": "2026-08-18T13:18:06+00:00"
+    },
+    {
+      "title": "Arman Tsarukyan Names one Fighter Who can Halt Islam Makhachev’s Dream Run",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQS0trUjdYUHNocDBaVUdkS3U5dlpNYjlrMUszNEhfbHZDUUUyN1oxOVcwam0zaGFZWkw2VFdYeGE2cjJQWTRSMUVhRkxxemJOd1dzVmk3Y2ZNNHBVNndzb2FoRHRUVWpsUFpLMUFfNS1VSUdjaG1YYVVYZ3pKTUxiaHM3eWtZcGdJcnJ4ODUxNkpVZUZCRi1hN2Z6Y09yel9jc1E?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-18T13:25:56+00:00"
+    },
+    {
+      "title": "Arman Tsarukyan Predicts Total Domination From Usman Nurmagomedov In UFC",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZWhaLW84SVFVRTRkVGFMUTdaaFFRdGFaOWRjNkUzRlZUenc0S05RaWZjQS0zYUU0VERKX3N0UFZQdjBUc0JJRlNZeEpNaG1yeUFwSkswQThTaldzQTJ6cDV6S2xSWUkxaUs0dzVKTEtiQjJ3OFZzY2FCOWRYajhNdnRNbGQwWlBsaGpuTkZYQXpzNnlIbExjV0FkWG16eXlk?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-18T13:26:01+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiaEFVX3lxTE5uUV9tcXh5VGJQam9GTUpNbXlSMnh2T0puR0ljdnRvbFlQaDdKVDRHVjZOUWZ1N0VaaHM0VWREWmU3TFQ2bFdVb28zaEFHZXJBOERpRmpsMElpUl9VQ2ZyVmhFTVBNWjJj",
     "CBMitwFBVV95cUxQbHl1ZnFtb21neDFyMkZwUUxUb1JDcFc5WWIzVEFuRjZJLTFrXzdlVGljS3J5RTE3QzZnNEZJWENZNV82YUgzZlhObHQ1WmE1LTI4bDlNcmE2TlYxUTZKYXJWb0dlamZfRlY0UU9yR2diRElWcTZfdkFqMmQxYzRMN2J6X3cxZEFXdFU1N3htQUxJMy1RMlJaampYd3kxbXYzNjBNdC01ZkpybktxeUhQcDBQWTVpSm8",
     "CBMinwFBVV95cUxOdzFvemJZNGdiYUU1S0p4N0tyRC1oZFRUX1J4TkVKODF5YmJzTGVGcXRXTU5QVE5tdkdqWmd5NXQ5QkR3aTBUalVZekFmSThBbzkzWjJreGJSeXZBVi1tb1JRYlVYWlBNcDNsZ2d0N2p1MGI0U0lDd040N2JoMC1HMzdOSEprSG4zenZybk5ULUgwQTc3TXBEWV9PT0NiU3M",
     "CBMi0AFBVV95cUxPTlhTeVI5U1duWGwxT1N6Tk5mZHlESThqV2tyQkstaUwzb2xfZXkydDl6Nm1tdDlmTmpSZm4teExMNlRwS0JXTk02V1ItTW1FV3RJM19jMTlCR3h5WFBabkpmMUVEU2w5VDVXZGVTQ0VrUC1XclVQRFFERDlrWmN5c0gxa3BrWnZDQ0NUczE0TE9WS2RpQXRkMnAyUkNHVnBMSWJZQTNHcWNIWlRHaGZmRWhCdWZhRlphT3hhaUpWZmxPWnM1NlZEVHpYd25UTkxn",
@@ -3312,7 +3311,8 @@
     "2089699868822405404",
     "CBMitwFBVV95cUxQXzR0dHY3aUR6emZWa011LW8wMnVCaDJqckoyVVRKamp6dTJTc2hoTmkzSlFIYWpBY0V1cEtSWVoybW16LXZ3SE5SZEhWQzhKSGlrVVl1eVlSZGxDUlFOb3VUbF96bWQ5WmxUNHQyd3U4ck9EemVWck9mbTR4UU1IZWl5YlJXTmxLTU50eUx4OWU3Q3RQeE1KNkQ4MWRDdHhZM0R2YmMxZENCaFdFcEJUb1E3c0NXQ1E",
     "CBMipgFBVV95cUxQRGdIWkRESy14d3hyY2ZFc2RMSXJDMlN1YWpjVzA1Q1hQUlNKYVBhTVFKcGRGN2ZacDZNNG9XS1h2cm5fV1pSVDVZdlN3Tm52UHBTS1hXb21iNS1ZNG1kMHRIcUxjeXRtcS1laGFNLWpqWkt2TXJ4TEpxSXZhQm1VQk92SXE1aWtLVGxsS0ZicEZCZFBnS01nTjUxM00tUG1wZWFzb1l3",
-    "CBMid0FVX3lxTE9za24yWmU1Z2dtclIxYm02SzRPWmlzSmtrVFltQU1FTy1wWjJ6d1J0ZmcwUnpzbGFUbUdVaFRwYTdVaE5sbXhma0dHRVM5NjBTLVd2YmRSWVRldVp5ZmQtampGN1B0MEMxWGl0MWpYS0E3ZUItNVN3"
+    "CBMid0FVX3lxTE9za24yWmU1Z2dtclIxYm02SzRPWmlzSmtrVFltQU1FTy1wWjJ6d1J0ZmcwUnpzbGFUbUdVaFRwYTdVaE5sbXhma0dHRVM5NjBTLVd2YmRSWVRldVp5ZmQtampGN1B0MEMxWGl0MWpYS0E3ZUItNVN3",
+    "CBMiogFBVV95cUxQS0trUjdYUHNocDBaVUdkS3U5dlpNYjlrMUszNEhfbHZDUUUyN1oxOVcwam0zaGFZWkw2VFdYeGE2cjJQWTRSMUVhRkxxemJOd1dzVmk3Y2ZNNHBVNndzb2FoRHRUVWpsUFpLMUFfNS1VSUdjaG1YYVVYZ3pKTUxiaHM3eWtZcGdJcnJ4ODUxNkpVZUZCRi1hN2Z6Y09yel9jc1E"
   ],
   "daily": {
     "d": "2026-08-18",
