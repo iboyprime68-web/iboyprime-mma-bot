@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Usman Nurmagomedov potentially signing with the UFC would set up some insanely fascinating matchups. Usman x Ilia? Charles? Max? Quillan? Who would y…",
-      "ts": "2026-08-17T20:41:17+00:00"
-    },
-    {
       "t": "HE KNEW 😮‍💨 Anthony Hernandez is ready to end the #UFCSacramento main event early! [ LIVE AUG 22 at 8pmET on @ParamountPlus ]",
       "ts": "2026-08-17T21:00:02+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Note On If Thekla Is Planned For Match At AEW All In: London",
       "ts": "2026-08-18T03:00:02+00:00"
+    },
+    {
+      "t": "UFC 330: Din Thomas apologizes to Gillian Robertson: \"I stole your moment\"",
+      "ts": "2026-08-18T03:00:34+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Sean Strickland tears into ‘pathetic and weak minded’ fellow UFC fighters",
-      "url": "https://bloodyelbow.com/2026/08/17/sean-strickland-tears-into-pathetic-and-weak-minded-fellow-ufc-fighters/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-18T01:00:00+00:00"
-    },
     {
       "title": "Ian Machado Garry confronts Michael Morales about 'sht talk' after UFC 330",
       "url": "https://sports.yahoo.com/articles/ian-machado-garry-confronts-michael-134029676.html",
@@ -2105,6 +2098,13 @@
       "source": "411Mania.",
       "cat": "ufc",
       "ts": "2026-08-18T03:00:02+00:00"
+    },
+    {
+      "title": "UFC 330: Din Thomas apologizes to Gillian Robertson: \"I stole your moment\"",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQWZKSEFVeHFEWklyMUVuN1F1WVNRWEhOVHN5TmxSeWtNR2tINkZCa2lzOGZHZFBzcWZ2MHlnWTNwdHRNNEZzWDcxd2JxQlBISkVYUm8yRnNqY2tqTXJZQnhzd01ZeHE2TzA0MHNYMnZRUFlfaFJkNkEybndUcTk2TGNKVTZJUzNBZWZ6bXQzWVlmNkJUUU5uZkEyZUU5OExCc3pkalljd3N3bjBHakgyNA?oc=5",
+      "source": "MMA Crossfire",
+      "cat": "ufc",
+      "ts": "2026-08-18T03:00:34+00:00"
     }
   ],
   "digest_last": "2026-08-17 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMi3wFBVV95cUxNNkl3eVE3MVh4eWU3LXY2M1NwYlF3Y0xOejFQMEJ2TkdneEhGQldGbUdXVklwWlR5NGhsVnFibEJHemxFeTFDSXQ3SWhPXzBLckYyNGgyN2pTOF93WGpwRjJ0bWIxcEw0ckRPamYxYUdScnBuTy1ER0JtTHFwcV96d25ja3d3U1FoMlRwMGh0T0cybGtHbGtuYklJLXR6RFBkZ3JlX1ZSZEtTREZxM2VCVjVHR2NsaVFRYUFUZUc0dkc3U1dUUUJhMXhubnBWeEFEaFg3OFhkaGRYV0hhajl3",
     "CBMijAFBVV95cUxNMF9LQmxNZDl2ZmotMTVWZ3BIakEtTi1RUnBiQXJMRkFzUzVXZ1djSHZrYjROZ3VVLVQxeWZiYTZSQkhmUWl5WjBwaS1teXIwY1hlZzBBY0ZuejBYTDlCRmtHRFB1TndXMXBuaEJxdFhfWlhhNWkyMmtrSFQtWTJTc1locWRTOVNzVFdLVg",
     "CBMipAFBVV95cUxOUm5LTW5Bb0FINmM1MlJ4VTlxbkVZTlUzSmJvR1E0NnprTXZiR1hUOTNESlpkVHk1MGdyaHpwbC1lcmRvYUQwUGJkUUZVUGk3YnZBejczdWJGc1N0U0hUU2NGbmlJLWlOUXZHVGVyTlkzMjlGeVhNc21KTmR3aXJ6ZlEzbGU5ZVZCTFFZbkNUc3BiVVBGN1cxWjZzZk00Sk5VLWktdg",
     "CBMixwFBVV95cUxPaVByS1V5REsxMDJhYjV4XzdoS2RGRHBQVHhzUmVfTFZKLVlkWFVZeGxBb1Itc1pzVEhXRWs3OVlXYjBlVE5YRWhxRkVEQkZNcDNZYnVsbWtTeUZza1JoeElab2dLNlREVFVwVzZ0NmVNLVdNSWZUYmZfeWlnTDJ0eGtLeS1yQXJDbVVFSWY1RThtT25ETnBoWlR4NXZVbFFJN0hJRDQ4TDRQSkkzRkwtMUZhSkFqZmlJclVGTnhISnZJQjJfWDNV",
@@ -3312,7 +3311,8 @@
     "https://www.sherdog.com/news/news/Mackenzie-Dern-rips-UFC-330-performance-despite-dominant-title-win-202401",
     "CBMib0FVX3lxTE9FblU2Rm11bFlpZFFrS1pSWXo1U1JGNldpQVhMWVlkb1Vsc2UwWUtjTlRBTU9yTXpPQWtiQUp0ZWl3N01nM2hXQ1dZSXVVakJwd2lVVU9oYlFTSjh5U0JsaXhaMWJodnBLenV4eENldw",
     "CBMijAFBVV95cUxQZFlJVlZ0Y19EZXRlVzhFalNCeUFLdkdyVjZMbUZ2ZWpORzQ4TGRzVWswalczdjFiRzNKQW5UUjVpRXh6Q0lORUFndkE0LWF0M0t0a0lJdXYxS3dnOTV4U2xrVXBOTlR3TVQ4S1ZWOHY5SEotLW5Rb0k1OFBKS3FpamZxa0pIRnh2bGMwZw",
-    "CBMifkFVX3lxTE9XRUNkdEp2bDRtQlY4d3l6SkJCQk83aWluVXdQQ0VaN25OVDhYa2lVM0tCZUcxemdrWG9CQjZCV1pKa0cyc3A5VUVJUEdhTU5MdWtYR1V2LVNrclV0eHB1a2VuNVNYeWpQcEMxbGtHVXlFSXRJdkVYcWNjdEU1dw"
+    "CBMifkFVX3lxTE9XRUNkdEp2bDRtQlY4d3l6SkJCQk83aWluVXdQQ0VaN25OVDhYa2lVM0tCZUcxemdrWG9CQjZCV1pKa0cyc3A5VUVJUEdhTU5MdWtYR1V2LVNrclV0eHB1a2VuNVNYeWpQcEMxbGtHVXlFSXRJdkVYcWNjdEU1dw",
+    "CBMisAFBVV95cUxOQWZKSEFVeHFEWklyMUVuN1F1WVNRWEhOVHN5TmxSeWtNR2tINkZCa2lzOGZHZFBzcWZ2MHlnWTNwdHRNNEZzWDcxd2JxQlBISkVYUm8yRnNqY2tqTXJZQnhzd01ZeHE2TzA0MHNYMnZRUFlfaFJkNkEybndUcTk2TGNKVTZJUzNBZWZ6bXQzWVlmNkJUUU5uZkEyZUU5OExCc3pkalljd3N3bjBHakgyNA"
   ],
   "daily": {
     "d": "2026-08-18",
