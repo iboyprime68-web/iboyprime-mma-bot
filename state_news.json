@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "#UFC champ Sean Strickland scoffs at alleged Tyron Woodley threat over Din Thomas comments 📰 https://mma-fighting.visitlink.me/yrwCsa",
-      "ts": "2026-08-18T16:31:00+00:00"
-    },
-    {
       "t": "Carlos Prates sends Michael Morales a message: 'I'm never scared to fight you'",
       "ts": "2026-08-18T17:50:19+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White Reveals Massive Combined Earnings for DWCS Grads",
       "ts": "2026-08-19T09:41:55+00:00"
+    },
+    {
+      "t": "Kelvin Gastelum cites \"mole\" accusations on Din Thomas after fallout with Gillian Robertson at UFC 330",
+      "ts": "2026-08-19T08:53:35+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Carlos Prates sends video message to Michael Morales threatening to knock him out over false claims",
-      "url": "https://bloodyelbow.com/2026/08/18/carlos-prates-sends-video-message-to-michael-morales-threatening-to-knock-him-out-over-false-claims/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-18T18:00:00+00:00"
-    },
     {
       "title": "Ian Machado Garry warned losing next fight could be ‘the end’ as UFC predicted to make his run harder",
       "url": "https://bloodyelbow.com/2026/08/18/ian-machado-garry-warned-losing-next-fight-could-be-the-end-as-ufc-predicted-to-make-his-run-harder/",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-19T09:41:55+00:00"
+    },
+    {
+      "title": "Kelvin Gastelum cites \"mole\" accusations on Din Thomas after fallout with Gillian Robertson at UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeEFXTU84YVd0UWgxOVVtVjdmYU1IMUlLZXJSQkw3X3ZkNW1ueUhoSXp3RzNsbHItVDdxTUhnM1d4Q0hjWHJqNGRnaXRLMF9scy0zV2NVbXJFbEVaXzVuRDlUTDI3RWh0d3NxVUVCMmswbTFYLW9QMEF6UXJ5M2luOVpTWl9ZcV9RNjM2Z250OEN6TWJVaFBFY0tROTZRRktUXzVmRm13WDlQUEZiVlBQS1Y0MEZwU0dkeTF0LXBxX1U2MUM5Qmc?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-19T08:53:35+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMigAJBVV95cUxQOXJaYndJdnhpdG1GOGNMS1NtdE1wWjdNOTF1V2NTNElzR0FiNjVBS01OQi1iUlBjamIzUG5fdUxQaHhabXNucENNN3A4a3BqVUlQQVhqMDFrNVJ6Z3hOVTlIazVBZURqeXZtNlFtNGJqTXFieVF4eE50Ti1COWtHd0syb2MyZ2lfejVWTEdOdmpuX2xtaHhGeElZTU5ncXJZdlhDeEJPM2plNmtRWWkwOUYyNWp4TXowTDJJVWgtMFBBeHZNV3F6bVd3VTl0TTkyc2pIbVI2YW5kaWRoSWxwNHdoRnQtTmtxNlRKSEpXNXI0YWZ4TVJoTnUtUXc1MzQt",
     "CBMicEFVX3lxTE42V3JQM1hnUUNPQzAwUlVFZ0x1R1pNb3BVOGhSYkhjSXoyUndVS2ltNVA3dzFDRXN4Ykh4bTdrdENza0NCYXpZcU91emROMHlFOC1VQ3NpdUN6eDF1dG5LUXE4aVIxaXBFV3ZGR2d5dDE",
     "CBMitgFBVV95cUxNdkRiUzNTQ0RkZ0RuX0RvUVlKRF9CYmhmQ2VsdmxiUlM5YnFSenZ3WlFZaF9fYlVGWkUtdmZIX055WUhIVE0tOVNuYXdvUHp6SzhWYVRtN05SZ2t5YTlaQ2Vlby1NYUlZVklsVzhBLUpuSjdacXp0NmNmOEVBOUhYQS1zMzBTcGRxaG5QdTRoY0NtOXYwS3ZPbmZ5aldnREtfdWRETG5hckZQZk9FbzRtNkMxdTVEQQ",
     "CBMiigFBVV95cUxPbGp2WjVnbHJQLTB5QlVIVnJlUXNQNW1td1lOTlBPRkZ2RUt1LUFpNnI3dl9ibC1vUHA5dVNRZjJMTkwzMS12QUN1Zkg0dW9PTU04TkZGVmRqQlFyTEFucm5GR0U2VXBrQU5RN0NLMkV5dW1zbjZxS2twVlR6VEo0Z0luSVRQblBaSnc",
@@ -3312,7 +3311,8 @@
     "CBMic0FVX3lxTE1pa2xkM3haSkxSbFRNS1ZZZHhONV9qVjlkUC1TZ0d6RXBHZjFRZzBBQlBTM0V3NEpMZEZkNEpNTFJMcVRmQ1pYcmVnSnF1a3AxMkxzVmZObDF5U2o4N2k1cHU5YU5EQkVTY25mR2lpZkloT0k",
     "CBMibEFVX3lxTFBpNEg5dWRXLUFHb0t1QnZlcFB3cmNtVTI0VlRXbXdWSU00RjJxQ3NzZm45NG1jX1lTUDhTNE9wZTJtLWpBLUxHXzZRSC1FWlA5aUMtYjJwRDNLM0x1YjNKLVY5ZS1IbXdhdXloWg",
     "CBMihAFBVV95cUxNODAybGo1cGdTS0VRWDJFbzRrd25jc3laSGNSbDNGdENWMDdMS2hjdjZyY05ycTN4UGtXN3RiM0wtNllHTEVVRjNleTlseWZYNnUxWUZWQkxkS0J0WFJ1SFBRd1pKMlI5TFI5TjVzdXd6VzR1a2Z2cWJyZG9JQmRmTUtDb2HSAYQBQVVfeXFMTTgwMmxqNXBnU0tFUVgyRW80a3duY3N5WkhjUmwzRnRDVjA3TEtoY3Y2cmNOcnEzeFBrVzd0YjNMLTZZR0xFVUYzZXk5bHlmWDZ1MVlGVkJMZEtCdFhSdUhQUXdaSjJSOUxSOU41c3V3elc0dWtmdnFicmRvSUJkZk1LQ29h",
-    "CBMihwFBVV95cUxPenNIbzFiYTJvYzYyZUtTLUF4bUlXNjJaMlVwaFZsdTY4dUdCY0ViTmFuUjdOZHJKakE3eTlhWGtIbHVQcEpuLTJVN1JxcTkybUJMa1RyZTJYMHczMjBzci14dXpFdFVYNDVJcDVDX0FqLUVIVDY3LWM4WWhab2I3UElFaXZDb3M"
+    "CBMihwFBVV95cUxPenNIbzFiYTJvYzYyZUtTLUF4bUlXNjJaMlVwaFZsdTY4dUdCY0ViTmFuUjdOZHJKakE3eTlhWGtIbHVQcEpuLTJVN1JxcTkybUJMa1RyZTJYMHczMjBzci14dXpFdFVYNDVJcDVDX0FqLUVIVDY3LWM4WWhab2I3UElFaXZDb3M",
+    "CBMixgFBVV95cUxPeEFXTU84YVd0UWgxOVVtVjdmYU1IMUlLZXJSQkw3X3ZkNW1ueUhoSXp3RzNsbHItVDdxTUhnM1d4Q0hjWHJqNGRnaXRLMF9scy0zV2NVbXJFbEVaXzVuRDlUTDI3RWh0d3NxVUVCMmswbTFYLW9QMEF6UXJ5M2luOVpTWl9ZcV9RNjM2Z250OEN6TWJVaFBFY0tROTZRRktUXzVmRm13WDlQUEZiVlBQS1Y0MEZwU0dkeTF0LXBxX1U2MUM5Qmc"
   ],
   "daily": {
     "d": "2026-08-19",
