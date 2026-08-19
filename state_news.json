@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White reacts to a spectacular night of #DWCS and breaks down how much money UFC fighters who earned contracts through the Contender Series have…",
-      "ts": "2026-08-19T04:19:17+00:00"
-    },
-    {
       "t": "Kaik Brito reveals he had to block a lot of fans on social media ahead of #DWCS and says he envisioned the knockout in front of Dana White 👊",
       "ts": "2026-08-19T04:23:42+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Jon Jones expresses ‘confusion’ over Islam Makhachev GOAT talk following UFC 330",
       "ts": "2026-08-19T22:45:19+00:00"
+    },
+    {
+      "t": "Edson Barboza reveals he was fighting half-blind for two years - ‘It’s been super hard’",
+      "ts": "2026-08-19T22:45:06+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White awards six UFC contracts after historic DWCS Week 2",
-      "url": "https://sports.yahoo.com/articles/dana-white-awards-six-ufc-025253539.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T02:52:53+00:00"
-    },
     {
       "title": "Dana White Signs Kaik Brito to UFC After His Hail-Mary Knockout of 'Zombie' Opponent",
       "url": "https://sports.yahoo.com/articles/dana-white-signs-kaik-brito-031240658.html",
@@ -2105,6 +2098,13 @@
       "source": "BJPenn.com",
       "cat": "ufc",
       "ts": "2026-08-19T22:45:19+00:00"
+    },
+    {
+      "title": "Edson Barboza reveals he was fighting half-blind for two years - ‘It’s been super hard’",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNeDZuQ1ZSMVpFNmI0bF9KSWtOU1A5Q0pEZ3NDUWlHaGlBMjlCQmNRajN3M0FRQlB1Tnd1b1dCSEhEUVJoX3VDLUY5b2k4SG1lbzBNR2tnYUs4bTFpUzJqdV9DS21iZFBsTTVzZFVTQy1WbTU1XzdQdE9tWU9JUVJSSFNmMUhxUmpZZkUzaE1XNkNHTFlSaG1tNjVOb1U0aDF0amN4WUN5RXRhVnRRQ1AtTTNrMmNGWWZFeTJSTEhGQzdwU1JmeXJXRFVpcWU3TmxpNko3RDJmSmIycndrS1Rwd0RxcFkyS25yRUJxaFg0YTdmRkQzeHFsdjdOY3BaaWJweFpSb0RGWXNwNTJrVGtEcw?oc=5",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-19T22:45:06+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "2088849125441941945",
     "23357ba1-6a69-3a15-8127-1dcdb9119aa8",
     "CBMiuwFBVV95cUxNWFNoVGxZRnZRTU04aGxEZTNTaVBrdUhDbkhYeVJCbjhNN3dxeGNFbFdnZ29PV2E5R0hza24yN1Z6QTFwRHBPZmQzQk55STBleGtqa2dCaV9kYV9NMzNQVVZucU1QNE45Ni1hbHZsZ3dFVUhxVWNvSW1GWktLOHhmeHE0N1hmVzdEUmFQQ0FhX0lDb1REZGQtdG1XV1RvV2E1VGhlM25jY0tsekgzYkVaR3BpSlc2Sm1TanVN",
     "CBMidkFVX3lxTE55S2hWa3VHV0kzUHZaTU95SDF5a01XRUU1aXBaVGNiN2tDcnBCaVJKLWtRSGpnR08weXhuVVhfdEJBdGFwM1lSOXNvMUhnMTFwWDFRWlVpempLVWhzMUVQdURVUkNXbGtJWXFmeDJTSTd6M0lPRXc",
@@ -3312,7 +3311,8 @@
     "2090199981819105362",
     "CBMi9gFBVV95cUxQSXBzNUxXbEUxQmdFeFVGOEIwSF92ekxJRW1GcWRvd1BZdE56UUttOTNlNDFLMkdGVVZ1MVJMbjU5WFd1MHIxcGk3anJuYV83dkdWekVhZ2tDcE1BRVBzR21YQ3BaYWpJenNQNF9QTjIxeER3RkVaYjA1OHQyUWNidzJHXzd0WWNxeUNQay12RWM0blVVbXROWnJPV2VrTnhiZkt4ajlEanhPeXUybGNDUHhxQk5wTEQzR184RWtDNzhiZ1gwb1kzOG9aSUxFM1l5RzNLa2Rqa1hVYmdhMkJEamtJbmhLckI4dDg2TlU3MDAzZjdyS1E",
     "CBMipwFBVV95cUxQeV92VGRiTDQ2Z1pSLXlLNUZ1NFVWWUVIOXRpWFJKeGRaUm43QVZCQjdic19BWVBidEZwX0t0RkZyRjdRTVR2YjVyd29Vdkp1VGtqSHdMOUZRS2VBMVhtVmZ2X2hCWnFDQWFabVBoTTVQODNMaGtoUlItd1dEaUc5N1NVeEJLUzgwNHJjZWJmTTYtVndVT216cGp0T0tOMktSajQ2emkyONIBrAFBVV95cUxOcEVPYV9MOEdCS1psVFJqNU9ncmt4UGxSTlV6djlNSVphLWtyRllLN1AtMjVCeERqWkNSc3l5UDk4NkV2Wm5SMkw3UFpUOTVaaDR6MlZUckRISkhESVM0YXUzOWphSEZfVXF5MjFzVWVqMTB3QkliZEI2blQycnpMeUEwZ2FnUGczSUtQNVFVZVVvX2dOaXVlbUJOQWV5RWp6RWhDQlY5UkNZSUst",
-    "CBMilAFBVV95cUxOTDRjUS12Wl81NkVpdlM1WFFjLXFGNWpxcGtSYkVqUWVPcVpXWDVKMkFmbjFqWFdDUnJCalJycUxzRncwQ3F0Z28xY1dUMG5sWXVqaHZHaFVtZ0ZhZldUZGpkTG94MlBGcUF2dlpfUk53Yk5Pcm4wUGVxNTFCQ3dUUFdMdmF5QzkwOWpwd2hUY2xnbEkw"
+    "CBMilAFBVV95cUxOTDRjUS12Wl81NkVpdlM1WFFjLXFGNWpxcGtSYkVqUWVPcVpXWDVKMkFmbjFqWFdDUnJCalJycUxzRncwQ3F0Z28xY1dUMG5sWXVqaHZHaFVtZ0ZhZldUZGpkTG94MlBGcUF2dlpfUk53Yk5Pcm4wUGVxNTFCQ3dUUFdMdmF5QzkwOWpwd2hUY2xnbEkw",
+    "CBMikAJBVV95cUxNeDZuQ1ZSMVpFNmI0bF9KSWtOU1A5Q0pEZ3NDUWlHaGlBMjlCQmNRajN3M0FRQlB1Tnd1b1dCSEhEUVJoX3VDLUY5b2k4SG1lbzBNR2tnYUs4bTFpUzJqdV9DS21iZFBsTTVzZFVTQy1WbTU1XzdQdE9tWU9JUVJSSFNmMUhxUmpZZkUzaE1XNkNHTFlSaG1tNjVOb1U0aDF0amN4WUN5RXRhVnRRQ1AtTTNrMmNGWWZFeTJSTEhGQzdwU1JmeXJXRFVpcWU3TmxpNko3RDJmSmIycndrS1Rwd0RxcFkyS25yRUJxaFg0YTdmRkQzeHFsdjdOY3BaaWJweFpSb0RGWXNwNTJrVGtEcw"
   ],
   "daily": {
     "d": "2026-08-19",
