@@ -1437,6 +1437,12 @@ if deploy_bots:
     check("no dispatched workflow posts member-visible content at deploy time",
           all(w not in deploy_bots.DISPATCH for w in
               ("quiz.yml", "debate.yml", "spotlight.yml", "clip.yml")))
+    # news.yml's hourly cron + 55-min window leave no idle gap: a mid-hour
+    # dispatch pushes the next tick into PENDING and the tick after that
+    # CANCELS it - a "Run failed" email per deploy (the 0f class). The cron
+    # picks up any deploy within the hour, so it is never dispatched.
+    check("news.yml is never dispatched at deploy time (cancelled-run emails)",
+          "news.yml" not in deploy_bots.DISPATCH)
     # The studio cleanup DELETES messages. Dispatching it at deploy time would
     # wipe staged posts the moment the owner deploys, which is never what a
     # deploy is for - it ships on its cron only.
@@ -3560,6 +3566,12 @@ polls_bot.render_tile = lambda photo, label: "tile_%s.png" % "".join(
     c for c in label.lower() if c.isalnum())
 _pl_day = [_pl_dt.datetime(2026, 8, 13, 12, 0, tzinfo=_pl_dt.timezone.utc)]
 common.now_utc = lambda: _pl_day[0]
+# The mechanics tests run the BANK path: the generator is stubbed to "no key"
+# (a fake provider key is in the environment from the scorer suite, and a
+# real generate() would try the network).
+import pollgen
+_pl_prev_gen = pollgen.generate
+pollgen.generate = lambda titles, asked, allow_post=False, scfg=None: (None, "no AI key set")
 
 STORE.clear(); POSTS.clear(); POSTS_FULL.clear(); PERSISTS.clear()
 STORE["polls_data.json"] = copy.deepcopy(_pl_mini)
@@ -3575,33 +3587,124 @@ check("cursor is persisted BEFORE anything posts (a crash cannot repeat a questi
       "persist" in _pl_events and "post" in _pl_events and
       _pl_events.index("persist") < _pl_events.index("post"))
 _pl_state = STORE.get("state_polls.json", {})
-check("state advanced: v1, cursor 1, today stamped",
-      _pl_state.get("v") == 1 and _pl_state.get("cursor") == 1 and
-      _pl_state.get("last_day") == "2026-08-13")
+check("state advanced: v2, cursor 1, stamp recorded, question remembered, "
+      "last_entry committed for the composer",
+      _pl_state.get("v") == 2 and _pl_state.get("cursor") == 1 and
+      len(_pl_state.get("staged_at", [])) == 1 and
+      _pl_state["staged_at"][0].startswith("2026-08-13") and
+      _pl_state.get("asked") == [_pl_mini[0]["q"]] and
+      _pl_state.get("last_entry", {}).get("q") == _pl_mini[0]["q"] and
+      [o["label"] for o in _pl_state["last_entry"]["options"]]
+      == [o["label"] for o in _pl_mini[0]["options"]])
 check("one tile posted for the one fighter-image option, silent",
       len(_PL_FILES) == 1 and _PL_FILES[0]["filename"] == "option1.png" and
       _PL_FILES[0]["silent"] is True and _PL_FILES[0]["chan"] == "ST")
 
-# same-day guard: a re-run (or a manual dispatch) the same day stages nothing
+# gap guard: a re-run (or a manual dispatch) minutes later stages nothing
 _pl_n = len(POSTS_FULL)
 polls_bot.main()
-check("same-day guard: second run today posts nothing and holds the cursor",
+check("minimum-gap guard: an immediate re-run posts nothing and holds the cursor",
       len(POSTS_FULL) == _pl_n and STORE["state_polls.json"]["cursor"] == 1)
+# ...and a DELAYED morning tick landing after 13:00 must not eat the evening
+# slot: the guard is a 3h gap + a 2-a-day cap, never a slot NAME
+_pl_day[0] = _pl_dt.datetime(2026, 8, 13, 13, 5, tzinfo=_pl_dt.timezone.utc)
+polls_bot.main()
+check("a tick 65 min after the last stage is still gap-guarded",
+      len(POSTS_FULL) == _pl_n)
 
-# the next day stages the NEXT question
+# the EVENING slot of the same day stages a second poll (the owner's 2-a-day)
+_pl_day[0] = _pl_dt.datetime(2026, 8, 13, 16, 30, tzinfo=_pl_dt.timezone.utc)
+polls_bot.main()
+check("the evening slot stages a SECOND poll the same day",
+      _pl_mini[1]["q"] in POSTS_FULL[-1]["content"] and
+      STORE["state_polls.json"]["cursor"] == 2 and
+      len([t for t in STORE["state_polls.json"]["staged_at"]
+           if t.startswith("2026-08-13")]) == 2)
+_pl_n = len(POSTS_FULL)
+_pl_day[0] = _pl_dt.datetime(2026, 8, 13, 21, 0, tzinfo=_pl_dt.timezone.utc)
+polls_bot.main()
+check("the daily-pair cap holds even after the gap has passed",
+      len(POSTS_FULL) == _pl_n)
+
+# the next day stages the NEXT question (and the cursor wraps at the end)
 _pl_day[0] = _pl_dt.datetime(2026, 8, 14, 12, 0, tzinfo=_pl_dt.timezone.utc)
 polls_bot.main()
-check("next day stages the next question in rotation",
-      _pl_mini[1]["q"] in POSTS_FULL[-1]["content"] and
-      STORE["state_polls.json"]["cursor"] == 2)
-
-# the cursor wraps back to 0 after the last question
-_pl_day[0] = _pl_dt.datetime(2026, 8, 15, 12, 0, tzinfo=_pl_dt.timezone.utc)
-STORE["state_polls.json"] = {"v": 1, "cursor": 2, "last_day": ""}
-polls_bot.main()
-check("cursor wraps to 0 after the last question",
+check("next day stages the next question in rotation, wrapping to 0",
       _pl_mini[2]["q"] in POSTS_FULL[-1]["content"] and
       STORE["state_polls.json"]["cursor"] == 0)
+
+# a v1 state migrates in place: cursor KEPT (never reseeds), and the v1 day
+# stamp maps to that day's 16:23 cron slot so the deploy day cannot double up
+_pl_day[0] = _pl_dt.datetime(2026, 8, 15, 16, 30, tzinfo=_pl_dt.timezone.utc)
+STORE["state_polls.json"] = {"v": 1, "cursor": 2, "last_day": "2026-08-15"}
+_pl_n2 = len(POSTS_FULL)
+polls_bot.main()
+check("v1 migration: a 16:30 run right after the v1 16:23 stage is gap-guarded",
+      len(POSTS_FULL) == _pl_n2 and
+      STORE["state_polls.json"].get("v") == 1)   # guard exits before save
+_pl_day[0] = _pl_dt.datetime(2026, 8, 15, 20, 0, tzinfo=_pl_dt.timezone.utc)
+polls_bot.main()
+check("v1 migration keeps the cursor and stages once the gap passes",
+      _pl_mini[2]["q"] in POSTS_FULL[-1]["content"] and
+      STORE["state_polls.json"]["v"] == 2 and
+      STORE["state_polls.json"]["cursor"] == 0)
+
+# junk-typed fields in the committed state must never crash a cron run
+STORE["state_polls.json"] = {"v": 2, "cursor": "abc", "asked": "junk",
+                             "staged_at": 42, "last_entry": []}
+_pl_day[0] = _pl_dt.datetime(2026, 8, 17, 12, 0, tzinfo=_pl_dt.timezone.utc)
+polls_bot.main()   # must not raise
+check("junk state fields start clean instead of raising (red run = email)",
+      STORE["state_polls.json"]["cursor"] == 1 and
+      isinstance(STORE["state_polls.json"]["asked"], list))
+
+# the bank fallback consults the no-repeat memory too
+STORE["state_polls.json"] = {"v": 2, "cursor": 0, "staged_at": [],
+                             "asked": [_pl_mini[0]["q"]], "last_entry": {}}
+_pl_day[0] = _pl_dt.datetime(2026, 8, 18, 12, 0, tzinfo=_pl_dt.timezone.utc)
+polls_bot.main()
+check("a bank question already in the asked memory is skipped, not repeated",
+      _pl_mini[1]["q"] in POSTS_FULL[-1]["content"] and
+      _pl_mini[0]["q"] not in POSTS_FULL[-1]["content"])
+
+# the AI path: a generated poll stages with its own origin line + slug tiles
+pollgen.generate = lambda titles, asked, allow_post=False, scfg=None: (
+    {"type": "poll", "q": "What is the worst judging robbery in UFC history?",
+     "options": [{"label": "Jones vs Reyes", "emoji": "⚖️", "img": "jones-vs-reyes"},
+                 {"label": "GSP vs Hendricks", "emoji": "🥊", "img": "gsp-vs-hendricks"},
+                 {"label": "Other (comment below)", "emoji": "🤔",
+                  "img": "other-comment-below"}]}, "")
+_pl_day[0] = _pl_dt.datetime(2026, 8, 16, 12, 0, tzinfo=_pl_dt.timezone.utc)
+_pl_cursor_before = STORE["state_polls.json"]["cursor"]
+polls_bot.main()
+check("an AI-written poll stages with the question, options and a fresh origin",
+      "worst judging robbery" in POSTS_FULL[-1]["content"] and
+      "written fresh" in POSTS_FULL[-1]["content"] and
+      "Other (comment below)" in POSTS_FULL[-1]["content"])
+check("the bank cursor does NOT advance when the AI wrote the poll",
+      STORE["state_polls.json"]["cursor"] == _pl_cursor_before)
+check("the generated question enters the no-repeat memory",
+      "What is the worst judging robbery in UFC history?"
+      in STORE["state_polls.json"]["asked"])
+
+# the AI path: an evening discussion post stages text-only
+pollgen.generate = lambda titles, asked, allow_post=False, scfg=None: (
+    ({"type": "post", "q": "Makhachev cleaned out the division. Is there a "
+                           "single fight left that moves the needle for you? "
+                           "Comment below."}, "") if allow_post
+    else (None, "post not allowed this slot"))
+_pl_day[0] = _pl_dt.datetime(2026, 8, 16, 16, 30, tzinfo=_pl_dt.timezone.utc)
+_pl_files_before = len(_PL_FILES)
+polls_bot.main()
+check("an evening discussion post stages as a paste-ready text block, no tiles",
+      "Staged YouTube discussion post" in POSTS_FULL[-1]["content"] and
+      "Comment below." in POSTS_FULL[-1]["content"] and
+      len(_PL_FILES) == _pl_files_before)
+check("neither staged header ever reads 'Staged post' (the Worker's news-rail "
+      "filter must not pick polls up)",
+      not any(_pl_re.search(r"staged\s+post", p["content"], _pl_re.I)
+              for p in POSTS_FULL))
+pollgen.generate = lambda titles, asked, allow_post=False, scfg=None: (None, "no AI key set")
 
 # absent studio channel: actionable note, nothing posted, clean exit 0
 common.load_config = lambda: {"channels": {}}
@@ -3621,6 +3724,158 @@ common.now_utc = _pl_prev_now
 common.load_config = _pl_prev_cfg
 polls_bot.fetch_bytes = _pl_prev_fb
 polls_bot.render_tile = _pl_prev_rt
+pollgen.generate = _pl_prev_gen
+
+# ──────────────────────── pollgen (the AI poll writer) ──────────────────────
+# Pure parts first, then generate() over a mocked transport. The generator's
+# hard rules mirror the bank lint above: betting language, em dashes and
+# exclamation marks can never ride a generated poll either.
+print("\n[pollgen]")
+check("the editorial brief carries the owner's formula",
+      "superlative" in pollgen.SYSTEM_PROMPT
+      and "Other (comment below)" in pollgen.SYSTEM_PROMPT
+      and "one emoji per option" in pollgen.SYSTEM_PROMPT.lower()
+      and "no betting" in pollgen.SYSTEM_PROMPT)
+check("the brief keeps the injection defence and the strict-JSON contract",
+      "never instructions" in pollgen.SYSTEM_PROMPT
+      and "strict JSON only" in pollgen.SYSTEM_PROMPT)
+check("the brief bans em dashes and exclamation marks in its own voice too",
+      chr(0x2014) not in pollgen.SYSTEM_PROMPT and "!" not in pollgen.SYSTEM_PROMPT)
+
+check("slugify shapes octagon-api ids",
+      pollgen.slugify("Islam Makhachev") == "islam-makhachev"
+      and pollgen.slugify("Sean O'Malley") == "sean-omalley"
+      and pollgen.slugify("Other (comment below)") == "other-comment-below"
+      and pollgen.slugify("") == "")
+
+_pg_ok = {"type": "poll", "q": "Who is the scariest man in the UFC right now?",
+          "options": [{"label": "Tom Aspinall", "emoji": "💥"},
+                      {"label": "Islam Makhachev", "emoji": "🦅"},
+                      {"label": "Other (comment below)", "emoji": "🤔"}]}
+check("a clean generation validates", pollgen.validate(_pg_ok) == [])
+check("betting language is rejected outright (hard server rule)",
+      any("betting" in p for p in pollgen.validate(
+          {"type": "poll", "q": "Best betting odds tonight?",
+           "options": [{"label": "A"}, {"label": "B"}]})))
+check("an exclamation mark or em dash is rejected (writing rules)",
+      pollgen.validate({"type": "post", "q": "He said it! Comment below."}) != []
+      and pollgen.validate({"type": "post",
+                            "q": "He said it %s comment below." % chr(0x2014)}) != [])
+check("a repeated question is rejected",
+      any("repeats" in p for p in pollgen.validate(
+          _pg_ok, asked=["who is the scariest man in the ufc right now?"])))
+check("too many, too few and over-long options are rejected",
+      pollgen.validate({"type": "poll", "q": "Q?", "options": []}) != []
+      and pollgen.validate({"type": "poll", "q": "Q?",
+                            "options": [{"label": "A"}] * 5}) != []
+      and any("bad option" in p for p in pollgen.validate(
+          {"type": "poll", "q": "Q?",
+           "options": [{"label": "a very long label that runs past budget"},
+                       {"label": "B"}]})))
+check("junk shapes never validate",
+      pollgen.validate(None) != [] and pollgen.validate({"type": "quiz", "q": "x"}) != [])
+check("the generated-poll betting net is a SUPERSET of the bank lint's "
+      "(the two lists must never drift apart the forbidden way)",
+      set(("bet", "bets", "betting", "odds", "wager", "wagers", "parlay",
+           "gamble", "gambling", "moneyline", "bookie", "underdog",
+           "stake", "stakes")) <= set(pollgen.BET_TERMS)
+      and any("betting" in p for p in pollgen.validate(
+          {"type": "poll", "q": "Who is the biggest underdog ever?",
+           "options": [{"label": "A"}, {"label": "B"}]})))
+check("fence, url and mention material never validates (it would go LIVE "
+      "inside the staged Discord message)",
+      all(pollgen.validate({"type": "post", "q": q}) != [] for q in (
+          "Rate this ``` fence break attempt.",
+          "Vote at https://evil.example now.",
+          "Hey @everyone what do you think.",
+          "Ping <@123456789012345678> about it.")))
+check('the phrase "staged post" is rejected (it is the news-rail filter)',
+      any("staged post" in p for p in pollgen.validate(
+          {"type": "post", "q": "What was the most famous staged post-fight "
+                                "brawl?"})))
+check("the emoji slot takes real emoji only - ASCII and typographic "
+      "look-alikes become empty",
+      pollgen._clean_emoji("🤔") == "🤔"
+      and pollgen._clean_emoji("`x`") == ""
+      and pollgen._clean_emoji("abc") == ""
+      and pollgen._clean_emoji(chr(0x2014)) == ""
+      and pollgen._clean_emoji("") == "")
+check("parse_reply routes every emoji through that gate",
+      pollgen.parse_reply(_pl_json.dumps({"choices": [{"message": {"content":
+          _pl_json.dumps({"type": "poll", "q": "Q?",
+                          "options": [{"label": "A", "emoji": "```"},
+                                      {"label": "B", "emoji": "🥊"}]})}}]}))
+      ["options"][0]["emoji"] == "")
+
+_pg_reply = _pl_json.dumps({"choices": [{"message": {"content": _pl_json.dumps({
+    "type": "poll", "q": "What is the most devastating KO in UFC history?",
+    "options": [{"label": "Ngannou vs Overeem", "emoji": "😴"},
+                {"label": "Silva vs Belfort", "emoji": "🦵"},
+                {"label": "Other (comment below)", "emoji": "🤔"}]})}}]})
+_pg_parsed = pollgen.parse_reply(_pg_reply)
+check("a good reply parses with slug guesses on every option",
+      _pg_parsed["type"] == "poll" and len(_pg_parsed["options"]) == 3
+      and _pg_parsed["options"][0]["img"] == "ngannou-vs-overeem"
+      and _pg_parsed["options"][2]["img"] == "other-comment-below")
+check("junk replies parse to None, never raise",
+      pollgen.parse_reply("") is None and pollgen.parse_reply("{nope") is None
+      and pollgen.parse_reply(_pl_json.dumps({"choices": []})) is None)
+
+_pg_http_real = common.http
+_PG_CALLS = []
+def _pg_http(url, headers=None, method="GET", body=None, raw_body=None,
+             tries=4, timeout=30):
+    _PG_CALLS.append({"url": url, "body": body})
+    return 200, _pg_reply
+common.http = _pg_http
+os.environ["DEEPSEEK_API_KEY"] = "ds-poll-key"
+_pg_gen, _pg_why = pollgen.generate(["Ngannou returns at heavyweight"], [], False)
+check("generate wires provider, prompt and reply into a staged-ready entry",
+      _pg_gen is not None and _pg_gen["q"].startswith("What is the most devastating")
+      and _PG_CALLS and "chat/completions" in _PG_CALLS[0]["url"]
+      and _PG_CALLS[0]["body"]["messages"][0]["content"] == pollgen.SYSTEM_PROMPT
+      and "Ngannou returns" in _PG_CALLS[0]["body"]["messages"][1]["content"])
+_pg_post_reply = _pl_json.dumps({"choices": [{"message": {"content": _pl_json.dumps(
+    {"type": "post", "q": "Is the heavyweight division the weakest it has "
+                          "ever been? Comment below."})}}]})
+common.http = lambda *a, **k: (200, _pg_post_reply)
+check("a discussion post is refused outside the evening slot",
+      pollgen.generate([], [], allow_post=False)[0] is None
+      and pollgen.generate([], [], allow_post=True)[0] is not None)
+common.http = lambda *a, **k: (200, "not json at all")
+check("an unparseable reply falls back cleanly",
+      pollgen.generate([], [], False) == (None, "unparseable reply"))
+common.http = lambda *a, **k: (503, "")
+check("a dead API reports the status and falls back",
+      pollgen.generate([], [], False) == (None, "HTTP 503"))
+for _k in scorer.PROVIDER_ENVS:     # EVERY provider key, or auto finds another
+    os.environ.pop(_k, None)
+common.http = _pg_http_real
+check("no key means no HTTP at all",
+      pollgen.generate([], [], False)[1] == "no AI key set")
+os.environ["OPENROUTER_API_KEY"] = "or-test-key"   # restore the suite's state
+
+STORE.clear()
+STORE["state_news.json"] = {"recent": [{"t": "Makhachev retains title", "ts": "x"},
+                                       {"t": "Aspinall calls out Jones", "ts": "x"}]}
+check("recent_titles reads the news window for topical hooks",
+      pollgen.recent_titles() == ["Makhachev retains title",
+                                  "Aspinall calls out Jones"])
+STORE.clear()
+check("no news state means no hooks, never an error", pollgen.recent_titles() == [])
+
+# the key has to reach the polls job too, or generation silently never runs
+_polls_wf = os.path.join(_SRC, ".github", "workflows", "polls.yml")
+if os.path.exists(_polls_wf):
+    _pwf_text = open(_polls_wf, encoding="utf-8").read()
+    _pwf_missing = [e for e in scorer.PROVIDER_ENVS
+                    if "%s: ${{ secrets.%s }}" % (e, e) not in _pwf_text]
+    check("polls.yml hands every provider key to the staging step (missing: %s)"
+          % _pwf_missing, not _pwf_missing)
+    check("polls.yml runs TWICE a day (the owner's ask)",
+          "cron: '23 9,16 * * *'" in _pwf_text)
+else:
+    print("  SKIP: polls.yml not in this checkout")
 
 
 # ──────────────── studio cleanup (staged-post retention) ───────────────────
