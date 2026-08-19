@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504477",
     "https://www.mmafighting.com/?p=504497",
     "https://www.mmafighting.com/?p=504507",
     "https://www.mmafighting.com/?p=504524",
@@ -1153,6 +1152,7 @@
     "https://www.sherdog.com/news/news/UFC-330-gets-matchup-of-ranked-flyweights-201565",
     "https://www.sherdog.com/news/news/UFC-330-results-Islam-Makhachev-defeats-Ian-Garry-breaks-UFC-record-202362",
     "https://www.sherdog.com/news/news/UFC-330-weighin-results-2-title-fights-set-202356",
+    "https://www.sherdog.com/news/news/UFC-332-adds-four-bouts-as-Salt-Lake-City-card-takes-shape-202426",
     "https://www.sherdog.com/news/news/UFC-333-Islam-Makhachevs-next-title-defense-odds-revealed-202393",
     "https://www.sherdog.com/news/news/UFC-333-gets-VolkanovskiEvloev-title-fight-YanDvalishvili-trilogy-202368",
     "https://www.sherdog.com/news/news/UFC-Baku-Fiziev-vs-Torres-playbyplay-results-round-scoring-201659",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "DWCS video: Alik Lorenz hammerfists Mahamed Aly into unconsciousness",
-      "ts": "2026-08-19T00:08:46+00:00"
-    },
     {
       "t": "Henry Cejudo doubts Ian Garry will get another UFC title shot",
       "ts": "2026-08-19T02:18:04+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Dundee United vs. Dundee Live Stream of Scottish Professional Football League",
       "ts": "2026-08-19T05:30:08+00:00"
+    },
+    {
+      "t": "UFC 332 adds four bouts as Salt Lake City card takes shape",
+      "ts": "2026-08-19T05:39:43+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Arman Tsarukyan sends unpopular advice to ‘boring’ UFC fighters: ‘Controversies are important’",
-      "url": "https://bloodyelbow.com/2026/08/18/arman-tsarukyan-sends-unpopular-advice-to-boring-ufc-fighters-controversies-are-important/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-18T22:00:00+00:00"
-    },
     {
       "title": "Fans unhappy with rumors of UFC 332 interim title fight: ‘UFC has fallen into state of disrepair’",
       "url": "https://bloodyelbow.com/2026/08/18/fans-unhappy-with-rumors-of-ufc-332-interim-title-fight-ufc-has-fallen-into-state-of-disrepair/",
@@ -2105,15 +2098,21 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-19T05:30:08+00:00"
+    },
+    {
+      "title": "UFC 332 adds four bouts as Salt Lake City card takes shape",
+      "url": "https://www.sherdog.com/news/news/UFC-332-adds-four-bouts-as-Salt-Lake-City-card-takes-shape-202426",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-19T05:39:43+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
   "hour": [
     "2026-08-19T06",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMiakFVX3lxTE9ZR1U4MTJwSFcwVzdwQUJuMzRSSmRhdHNzQzR4TllrVWFsam5pUF9YbTBvVUpKbHEzZzQ0Z2V1bU80QUMxYVFaandlUmFKRHI5c0tZUnNnUWNUVHJnRXk1eVdYN3QxMmh5LUE",
     "CBMifEFVX3lxTE0zaExJZjVaT0lyN1hwcnRjOEtic3hWZkZaRmU4Mkx2NjI5NWdvb1o3RGdnYXFvajRyUFljVlVGSlYwRW9tdGFsVEpGTWJWLXRlQ3dpTlMwUGFLMElzYmZwakV1ZWpIOWllclV4NGZjTURETUtMN09VRWE0SHU",
     "CBMiW0FVX3lxTE5fWW00TlZKUnhFUFY1ai1FQVVfaEVWdXQtUF9pMHNnOTRGbjBKSDlzYVFOVUNxOWhSWG1nbnJWa09Ja1ZTdVFBd0xhUGlpM0kzUFZMaUx2eHBEbmM",
     "CBMiowFBVV95cUxOYzFVY0szZ1VJdFM0LWczX21vMzI4TDRud3hOUi1VOEtaREVLSXZ4UFdxSC1JVjdRWjlleGREd3FlRTZHYVJHOXVGZlg5MkVTZ29YSDA3bTRJLWM2cmxTVE5wSHpfTlhUZ2F3T2dVbHI0d3FhaUtjc0k1Qmg5ekpTQmVuRVBqcU9Lbl9uUzdrMlJfOUdXZERxdHI0cTI4dWtPdWVV0gGjAUFVX3lxTE5jMVVjSzNnVUl0UzQtZzNfbW8zMjhMNG53eE5SLVU4S1pERUtJdnhQV3FILUlWN1FaOWV4ZER3cWVFNkdhUkc5dUZmWDkyRVNnb1hIMDdtNEktYzZybFNUTnBIel9OWFRnYXdPZ1VscjR3cWFpS2NzSTVCaDl6SlNCZW5FUGpxT0tuX25TN2syUl85R1dkRHF0cjRxMjh1a091ZVU",
@@ -3312,7 +3311,8 @@
     "CBMiZEFVX3lxTE0xaEhUVmMzX1VmczNySGNyVlQzZXlRY1B2RGZMRVVjbFNxOVNKY2NxbVJCei1TUjhGMTVTa1lVUHNObmJYbUs2OVZkRmdxcGptZVpEcmd4RWlDeWt4dVNkTUo2ZkE",
     "CBMicEFVX3lxTE1CN0k0emJCM3FWRS0xSVN5NzY1ME0yaWt0Q3VTSGpWdUQya0VyTGJyQUdxX05Sb3VXa0lvTW9qWmxYOVNCdFF5TnlCOEttTUNwd2dsWmlDSVg5MnVQcnVBVmZlTmltemZidEFoNFU5WlU",
     "CBMigwFBVV95cUxPWktxV2ItUGd0NFQzWlNKTVZ3MWNkeGNMOGhyOE5DY0hBUlp0YTQwTlotNGZJYW9PNHNZNU1tY3ZHcG5QcmNlbU1zS3FNcnZDd2N3ci1CaDR5QkJkRlFWcW8ybHBHbGp1VVA5b2pJMk9rWEltLVFfNk1tcjNxd3RHZjgtOA",
-    "CBMimwFBVV95cUxNa0RvdW9lRDNQWDdveUM5ajdiVkp4N0s1VUtMTmNCVElKdTkxM3ZvaDJ0bHB1bVlaeEpOd3RhRlMxSGJsSkVYa20yZnNRU0hxNEpyTTFLYVFlb2Qyb2pqTmtwTmpEOXRzczlNdnVidDRPQ3BReGN2R3IwclBqUG1MbFNDY2RYeFdaNmNvM1Nxb3lpdFBObC1fYVI5aw"
+    "CBMimwFBVV95cUxNa0RvdW9lRDNQWDdveUM5ajdiVkp4N0s1VUtMTmNCVElKdTkxM3ZvaDJ0bHB1bVlaeEpOd3RhRlMxSGJsSkVYa20yZnNRU0hxNEpyTTFLYVFlb2Qyb2pqTmtwTmpEOXRzczlNdnVidDRPQ3BReGN2R3IwclBqUG1MbFNDY2RYeFdaNmNvM1Nxb3lpdFBObC1fYVI5aw",
+    "https://www.sherdog.com/news/news/UFC-332-adds-four-bouts-as-Salt-Lake-City-card-takes-shape-202426"
   ],
   "daily": {
     "d": "2026-08-19",
