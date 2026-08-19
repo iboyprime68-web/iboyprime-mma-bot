@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Loopy Godinez vs. Ketlen Souza joins UFC Fight Night 290 lineup",
-      "ts": "2026-08-19T17:06:37+00:00"
-    },
-    {
       "t": "Belal Muhammad Rips Ian Machado Garry for ‘Hugging’ Champion",
       "ts": "2026-08-19T17:16:41+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Highlights: Padres at Mets (8/19) Stream of Major League Baseball",
       "ts": "2026-08-19T21:42:47+00:00"
+    },
+    {
+      "t": "UFC Fight Night Sacramento: Reinier de Ridder sees fast track to title at 205 pounds, teases Paulo Costa bout",
+      "ts": "2026-08-19T21:51:25+00:00"
     }
   ],
   "digest_items": [
@@ -1818,15 +1818,21 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-19T21:42:47+00:00"
+    },
+    {
+      "title": "UFC Fight Night Sacramento: Reinier de Ridder sees fast track to title at 205 pounds, teases Paulo Costa bout",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOekM2M3NmenNWZDE5THI3UjlvR0Q3aTBya0NhZk5QM203VEJpQW1mWTZveE8yN0NXdkM4OXZhZE5hbHBHeUVGY1pxQi04U2FraVBrTkNlWFJmY1hYaWFHRDZ3SkRsMXlVa29vVTJhWWp5WDEyN3BvTm1tWEVicUQzOHVaWnlDWmpPWjdRSHFlVTNQcWpjZllfVVRIc3dYbFZDQ2tz?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-19T21:51:25+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
   "hour": [
     "2026-08-19T22",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMi2gFBVV95cUxORDd2VHlHcjdIa3dqZkRIc3B0VnR4ZXlLZ0JhQk5KSjJ0WjVnYzIyMTBlU3pETXU5R1BZZnlpUDU2TU40MTB2SWk3eHRrSFpHdngxZ3lIUHpRa3dhNFpxR1JqYnRsRFYzXzAzTS0yMG1XWXZJWENLMDdhTFNqWUZSUjdfWWxKc2hKLUZMRzN6d2hnSm85SGJDeG9pemw0dzh1c09lb0tGeFBFQkVPLUV0X0I1dm44eUpXVXVJWWNvWDN6TTl0NFhOZkppQlcxODNyUDJfY21ONEVDUQ",
     "CBMid0FVX3lxTE9TX1ROSXNmSjlJUzhDVkg2SFNzQ1VmZGlDRmt0bDVOZXpaalRQQ3prYlNXNUNiRkFHaXZUN3otWUhUTTl5VU8xb0JzeXE3YTE2NXZ0TlRyUU80aVBpSzFfaEQtSGdwSWozbjRLdndfSnRkWXRITWJZ",
     "CBMimAFBVV95cUxPNDdEN091RXVhc1F1QzZtTjBmdVZVWnIzS1AzMDl2dXdJa2ozVGZYd1NVMGJ5QUxTZDVDNWtlbXY1dU9oX3dnLUtNeFhmSlE3WTd1NUw0dV96aFE1TmVRZmw4dEFndzZma0J5U000dVdXdmtQZk9NNXYyMVBteHE4TkFSUDFfRFhBbnVXR3U0OVVnSUEwN2xueA",
     "CBMirwFBVV95cUxOY1pEemU0NHNzV01pTGJxYUZORjZ2MEVQcjJaTmF0ZGJaRVEybUZHTEVfYk1FTVIxMUROZzhhU0E4aVUzTkJwR3FqYWZ0dUFQdlpJalgza1EtXzZiQUJWaDIwRGRMbzVXdDcxTTBrOWxPZnM0NUZjQ0V3N3BrSk9oUnB0Y09ZRmdxYXNia0o2Qzh2U0hDY1VyMUFkYWZjSENWQVRCYW44YzBGUGJXd2Rz",
@@ -3025,7 +3031,8 @@
     "CBMib0FVX3lxTFBnMk5LT2RLMktsM05oVmhTTmNSNWx5ajZYa1FrZ3A4UlNjX051WVZhX1FLdENick5qUC1FTlR2YS1iY3BQNENlckw3UG5Xb21nV1MydzI3dkxBVUlCOEp6WkxMcmxKNm1JbDFSZDA4TQ",
     "CBMiqAFBVV95cUxPVjRKMW1DLUc4WUwzMV95TFVpUUVYWUlfcTFnMmYyRWE0ZHZaY09wWjNzTWY4OHZVSUxLWnlxTlVJbjRsNXpQM2JQX1AxajhVTkxkVnZkLXBkLXZpYlJEN09YMVJyNmNxYmpjcGFjdGoxcXR6NTBNVzgyeXJLT0NIRWptQXFpMmM5T05zdWZVclF6QkhkZzJfYkVCSklWYUFqZ3dVQjJ2Tks",
     "CBMif0FVX3lxTE5iLVhncTZjLTU1b2JReU9OZDlnVDFDWHoxZDB6SExCanJZbndRdDRfUFAwbTBvX2wzMU5PLUNKa3NsVklBLXpQZjZQUlluaU9DdFd5RGs3Mjh4UTVPTnFmUGxFc3BWTEwxNzFYaC1tV1dnWkROVFROOXNVUjRneEE",
-    "CBMie0FVX3lxTE8wT21teW9vRFhwbHRMb1BUVWlBWjJDYjRhZ2k2U3p1MEw3ZFg5TlRTR2diWHQ3YjhNREZVTHJ0UWhGdEN6d0ltTW9aX2dxVXVjcEpzNEFwb25zcmRiU2FDV2l1QXRfSml1eS1td3NqTFExLWJzbk50Y19wMA"
+    "CBMie0FVX3lxTE8wT21teW9vRFhwbHRMb1BUVWlBWjJDYjRhZ2k2U3p1MEw3ZFg5TlRTR2diWHQ3YjhNREZVTHJ0UWhGdEN6d0ltTW9aX2dxVXVjcEpzNEFwb25zcmRiU2FDV2l1QXRfSml1eS1td3NqTFExLWJzbk50Y19wMA",
+    "CBMiowFBVV95cUxOekM2M3NmenNWZDE5THI3UjlvR0Q3aTBya0NhZk5QM203VEJpQW1mWTZveE8yN0NXdkM4OXZhZE5hbHBHeUVGY1pxQi04U2FraVBrTkNlWFJmY1hYaWFHRDZ3SkRsMXlVa29vVTJhWWp5WDEyN3BvTm1tWEVicUQzOHVaWnlDWmpPWjdRSHFlVTNQcWpjZllfVVRIc3dYbFZDQ2tz"
   ],
   "daily": {
     "d": "2026-08-19",
