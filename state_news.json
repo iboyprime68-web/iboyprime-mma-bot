@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504852",
     "https://www.mmafighting.com/?p=504866",
     "https://www.mmafighting.com/?p=504893",
     "https://www.mmafighting.com/?p=504915",
@@ -52,6 +51,7 @@
     "https://www.mmafighting.com/?p=505899",
     "https://www.mmafighting.com/?p=505939",
     "https://www.mmafighting.com/?p=505958",
+    "https://www.mmafighting.com/?p=505974",
     "https://www.mmafighting.com/?p=505976",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmafighting.com/?post_type=vm_stream&p=505026",
@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Loopy Godinez vs. Ketlen Souza joins #UFCVegas122 lineup (via @MikeBohn, @mma_kings) https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-v…",
-      "ts": "2026-08-19T17:07:53+00:00"
-    },
-    {
-      "t": "Cris Cyborg remains undecided on retirement ahead of #PFTampa: \"So when you ask me, it could be my last fight. You never know. It could be my last fi…",
-      "ts": "2026-08-19T17:30:41+00:00"
-    },
-    {
       "t": "Michael Bisping Criticizes Ian Machado Garry’s Attitude at UFC 330",
       "ts": "2026-08-19T20:45:01+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC legend Henry Cejudo books Misfits Boxing debut less than a year on from MMA retirement",
       "ts": "2026-08-19T18:27:41+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan says only one man could beat Islam Makhachev at welterweight ‘but he’s gone’",
+      "ts": "2026-08-19T19:00:00+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan picks surprising name for Ilia Topuria’s next opponent",
+      "ts": "2026-08-19T20:09:59+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Belal Muhammad Rips Ian Machado Garry for ‘Hugging’ Champion",
-      "url": "https://sports.yahoo.com/articles/belal-muhammad-rips-ian-machado-171641945.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T17:16:41+00:00"
-    },
-    {
-      "title": "Jon Jones rips Daniel Cormier for showing 'envy' toward him",
-      "url": "https://sports.yahoo.com/articles/jon-jones-rips-daniel-cormier-175022578.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T17:50:22+00:00"
-    },
     {
       "title": "Jon Jones? Islam Makhachev? Georges St-Pierre? Who is your MMA GOAT? 🤔",
       "url": "https://nitter.net/MMAFighting/status/2090156503944802419#m",
@@ -2105,6 +2091,20 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-19T17:30:00+00:00"
+    },
+    {
+      "title": "Arman Tsarukyan says only one man could beat Islam Makhachev at welterweight ‘but he’s gone’",
+      "url": "https://bloodyelbow.com/2026/08/19/arman-tsarukyan-says-only-one-man-could-beat-islam-makhachev-at-welterweight-but-hes-gone/",
+      "source": "Bloody Elbow",
+      "cat": "ufc",
+      "ts": "2026-08-19T19:00:00+00:00"
+    },
+    {
+      "title": "Arman Tsarukyan picks surprising name for Ilia Topuria’s next opponent",
+      "url": "https://www.mmafighting.com/ufc/505974/arman-tsarukyan-picks-surprising-name-for-ilia-topurias-next-opponent",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-19T20:09:59+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMie0FVX3lxTE40RUVESnhod1lXR3dyTHh3eEp0YW50OEpsODF2NjF0bkxSTVJBNHk1QmFSTS1qY0ttYkZ5UXZXLU9ZVlJDeFdvQlhPbE1oTUNBQmpHbnE5U0dGTWdQbDJvbTIwUWRBNHhnUkp2ZHlHamtWMnk3UGtES21jcw",
     "CBMigAFBVV95cUxNekUydnd0N21CeTc2N2hnNDNnZ0xHbDJ3TERudEszSUlLZmY1bmRWRVhkcTJjOHlEYk5FVWNKbzYzdEl0N0ZvdGRzLVBrM0otdy1nMXo4RW1EMnViWlJ3cUl5aHlzMHBhZWhHVkVxNDZBSmVhV09FRlE3eVhmX1c0eA",
     "2088849125441941945",
     "23357ba1-6a69-3a15-8127-1dcdb9119aa8",
@@ -3312,7 +3311,8 @@
     "CBMitAFBVV95cUxPa0NaakE4aF9mSURwVGUzbjlwWER2VTVXWWhsRlpZMUF0OHNVQ1dGWXY0VXBsLXUtNXpkM1JQbk1QUHZ0R2ViV3ctX3NyNTFqYktNUV9pcTlhOEkwNE84eUw0V1ZWV1FaNzNCalY4NlNYTXZHTHNBUmROWUtkczB6TkU0VEs2bzF4ZmQyRGFZaWJETkYydWJMOWszbWNkbUZQWEk0a3MwQUxud1BLaVhJWGxMTHU",
     "CBMikwFBVV95cUxNT3pwTmNUX00zNG1hMnRpNklzUFVPWVc4WjJ1OTJwbVJpbkJQbkx6NGtyV0dDZ0Q3dVlQN3lEOGdRcWhRWmt0NTJtdkMwSGd0Y0ZNV3ZtcTQxaWJIMjhNSDdhWFd1YVlMemYxaHVZVWQ0Q05xcVk0M1FwOXJzbHpHMGNZYmJjTDhhMDlmalN6Rmxvb0k",
     "2090199981819105362",
-    "CBMi9gFBVV95cUxQSXBzNUxXbEUxQmdFeFVGOEIwSF92ekxJRW1GcWRvd1BZdE56UUttOTNlNDFLMkdGVVZ1MVJMbjU5WFd1MHIxcGk3anJuYV83dkdWekVhZ2tDcE1BRVBzR21YQ3BaYWpJenNQNF9QTjIxeER3RkVaYjA1OHQyUWNidzJHXzd0WWNxeUNQay12RWM0blVVbXROWnJPV2VrTnhiZkt4ajlEanhPeXUybGNDUHhxQk5wTEQzR184RWtDNzhiZ1gwb1kzOG9aSUxFM1l5RzNLa2Rqa1hVYmdhMkJEamtJbmhLckI4dDg2TlU3MDAzZjdyS1E"
+    "CBMi9gFBVV95cUxQSXBzNUxXbEUxQmdFeFVGOEIwSF92ekxJRW1GcWRvd1BZdE56UUttOTNlNDFLMkdGVVZ1MVJMbjU5WFd1MHIxcGk3anJuYV83dkdWekVhZ2tDcE1BRVBzR21YQ3BaYWpJenNQNF9QTjIxeER3RkVaYjA1OHQyUWNidzJHXzd0WWNxeUNQay12RWM0blVVbXROWnJPV2VrTnhiZkt4ajlEanhPeXUybGNDUHhxQk5wTEQzR184RWtDNzhiZ1gwb1kzOG9aSUxFM1l5RzNLa2Rqa1hVYmdhMkJEamtJbmhLckI4dDg2TlU3MDAzZjdyS1E",
+    "https://www.mmafighting.com/?p=505974"
   ],
   "daily": {
     "d": "2026-08-19",
