@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "#DWCS results: Cristian Perez def. Logan Paxton via TKO (punches) – Round 2, 1:06 Live coverage: https://mmajunkie.usatoday.com/story/sports/ufc/2026…",
-      "ts": "2026-08-19T00:21:27+00:00"
-    },
-    {
-      "t": "Back-to-back Contender Series redemptions as Cristian Perez takes advantage of his second appearance. #DWCS88 #DanaWhiteContenderSeries",
-      "ts": "2026-08-19T00:26:58+00:00"
-    },
-    {
       "t": "Left hand of DREAMS 😮‍💨 Did Cristian Perez’s RD2 TKO earn him a UFC contract?! [ #DWCS is LIVE NOW on @ParamountPlus ]",
       "ts": "2026-08-19T00:32:38+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "What A UFC Colosseum Card SHOULD Look Like",
       "ts": "2026-08-19T16:59:05+00:00"
+    },
+    {
+      "t": "Carlos Prates signs new multi-fight contract and confirms he’s next in line for the title: ‘I'm much better than [Makhachev]’",
+      "ts": "2026-08-19T16:15:00+00:00"
+    },
+    {
+      "t": "Jason Kelce makes bizarre demand in new Garage Beer ad about AI data centers: 'Please give us your pee'",
+      "ts": "2026-08-19T16:30:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White's Contender Series 88 results: Violent night sees six UFC contracts",
-      "url": "https://sports.yahoo.com/articles/dana-whites-contender-series-88-224036543.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T22:40:36+00:00"
-    },
-    {
-      "title": "Carlos Prates fires message to Islam Makhachev as pair push for December title showdown",
-      "url": "https://bloodyelbow.com/2026/08/19/carlos-prates-fires-message-to-islam-makhachev-as-pair-push-for-december-title-showdown/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-19T05:00:00+00:00"
-    },
     {
       "title": "Victim of ‘the greatest DWCS KO ever’ breaks his silence after brutal loss",
       "url": "https://bloodyelbow.com/2026/08/19/victim-of-the-greatest-dwcs-ko-ever-breaks-his-silence-after-brutal-loss/",
@@ -2105,6 +2091,20 @@
       "source": "TWSN",
       "cat": "ufc",
       "ts": "2026-08-19T16:59:05+00:00"
+    },
+    {
+      "title": "Carlos Prates signs new multi-fight contract and confirms he’s next in line for the title: ‘I'm much better than [Makhachev]’",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWFM0dUR3a0xTNTZJTlgwQ2NRakkwaUt5Mzh1a0dUejFwalAwVzZ2eEJyVUNQZGlaYjVKVWsyZDlmX2FpR0UwNjA5QTQ5MXZrYlFaOU4tM3pHR2RjLW5DTkgtc05hcjJKeDdBaUhQSVA5QUZHclBMcDB2TnJNbjdWenB6QzhwVS14c3c?oc=5",
+      "source": "Operation Sports",
+      "cat": "ufc",
+      "ts": "2026-08-19T16:15:00+00:00"
+    },
+    {
+      "title": "Jason Kelce makes bizarre demand in new Garage Beer ad about AI data centers: 'Please give us your pee'",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPX2ZQaUdWcUVyY2hZRHRPSTZoNUxzbFpnV3VZc3FpVkFoZHVzZzJPSkR3Zzh5SW9reDBxQzc5RDl0UmVSVUNrZjI3MktaV3QxS3h3UTBOZzkxXzZDX3ZiQmNORlJWaC15d1RFMW5XdzN4WldidjQ1azRDUUhnM20yVFV0NDBvRU5KM0xCekxvc2xZc2pIaEdCVk1UdjBVcXdQcWVfZHo1bFhLUFpaczlySVl4czEzMElmNFBKcjdBMmk3Ukg0a2xxLXg1bDU2Zw?oc=5",
+      "source": "Operation Sports",
+      "cat": "ufc",
+      "ts": "2026-08-19T16:30:00+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMickFVX3lxTE91a3V4NXBZVS1sa0RiRVpBbkN2d3VGSlFHNDNKOEdBLW9WZDdVeHJQTGY0VjVSTDVlQTQwWVMtYy1meGJnTkFLQmpkMm9mMWtiTFF1eGswczgtNWk5ZDI0clo3REN4b0MyckRtcWhCZFNzUQ",
-    "CBMikgJBVV95cUxNcjRLN3BPS09OSlJwVEdvcmNGanVOcXh1NUVaX2dEZnd3YkstZTU1ZzZpaFg0ZUl4MjJVb21OalZmQlRWMm1CYlV0UFdqcFc0elFFWGNLLVZneEQ1MU9NMDVIV3V1Nzd2UTg5TXdMZWlBbUxpdHVuR3FXTWJqQlpaLWNGUjdzbnk4YnBOLS1LWHVrQmhGN255SXo0bjZ1Mnc5bHJzY01FNmtfbWg2MEUtdEYycGVpUkFjSGNMUVI0UEdoRTB3akdSdkZqVDdfRW4wVHhFazJoYVA2VG4xS3BmZEZZZ2tXVThLbTE1a1JpQUJROVgxYmtTRF8xd0prRjg3WHVyZzlFZkMxUzg5RkZ1ZGhR",
     "CBMijAFBVV95cUxPQm1ramVEMExOb3VsT3EyN0c1YXRtRFFiN1NlNjFzX2RJYUh6eHBSSkttM2prakRPbkIzUFd4bUxmUkc5NzZDRkZ2aTRUejRDNmVXM1g0bnl5Rml0WG1SUkNZYldNSlc5MWJoWi1lb25JV3g5TzBlLVA1bEwwc2FubkJFa0JqdjI2TE1rcw",
     "CBMizwFBVV95cUxOYVUxLWJWejh1ZFBOQ2tEZElHaUU1N3VYUDZ0OG9KSTFYRmMtUHZDOU5aOWhaYy0wUzZfcXNScEYtd2lFMGNqZUQxRWtrQWw1VUw4ZERaM0ZPVVBMeHEwOHBfMzVUQ0JWTHprVkdCQjJ6SE9VM2hEZ3BBVlk5UVFzSDRJX1BjZGxSdDBicTBPakV2Nm9GMUNiOUVqblB1d1VQakU2dUdib2lNWUxpZDdOWENBNE1tNkZuQ2g3ZFRjMGU0bUFrQjNkUFRqcFo1aVE",
     "CBMiuAFBVV95cUxNUzZwY2RKT0R3U0x0dXpUclg5dnpId3cxRG5ZRWdiUXJGUXBqemVhYjY4bjZYMTRFcm9hakxKenI1UTE2dE4yV1QyTlcxOTFMV1ZOSFZmU2lEQ0JpMHFjNkFONVZveDNFNURvb3hJTWlDRTBwU1Y4d01lMS1vMEViVzJ6Q21PNmt5dXNpUWI3R3JVNjFqXzJJXzJSYmM0Zi0yczBidFdVN2wwbzhKYUo4eUo2bnh6Ykpk",
@@ -3312,7 +3310,9 @@
     "CBMihwFBVV95cUxQdDk2bFZMNi1sQ3JkdFhMZkIzbHUwaUVHeE54ZkRkNjRVQnhiYm9mTXUyRzN4YWVzSUxyOWUyZWJqeWpVUkJZREUxNkhxS2JfNnA2dnRySEY3QlIzdVlRVHJNeUc4VlRBbHhoWmI4THQwNlNtU2tQZElnTjBpNWxGOHdSUGxUcFE",
     "CBMivgFBVV95cUxNTEFSYm1yTVBkVHdyR01qdGhDbVJNTk1hZ2QzM0hLclQ0NmNBRVhkOTVEWEtwMk9JWGd6dVNxak5SUE5vUWdrZG9fS2E2SVhaWndndzBuQm10S3hObDNFR19jWXZKeV9YSHRUcjYtaEYzQUlxQk1rVXBLa2JyYzBMYnBzZ25ENXBRYThnQnhTcEhXUnZqY2UzLVdQa3RWX2NpUUM4SWJ1VTJFVUdjcm1obXUzeGg4SENMZVBEZ3Z3",
     "CBMiZkFVX3lxTE1aRDNOWFYwQk5DRWZlTWtDR1JaclY0UzZ5TDRKUjRtRHU4ZjRld3dRRmZ2RTVibXktaDNFTm1mVjhsd1Q2bFpSOGQtc3d1WTlzOFM4T1diTGl0aHlEOWNicmZ4ZEtFZw",
-    "CBMiekFVX3lxTFBPTmZIRkZSbTFNVmx4eVFFTWxGVVlnVzVxNkVoSG43ZkZGME1HTm81OTJ2eVFRa0ozdXdqb19IS084M1cxcXZBQWJzMkNxeUQ1djNxR1k4OG9HdU9VOGJTUFRUbDV2czlMMmpjcU5JbEN6cVZmcnkyZ0xB"
+    "CBMiekFVX3lxTFBPTmZIRkZSbTFNVmx4eVFFTWxGVVlnVzVxNkVoSG43ZkZGME1HTm81OTJ2eVFRa0ozdXdqb19IS084M1cxcXZBQWJzMkNxeUQ1djNxR1k4OG9HdU9VOGJTUFRUbDV2czlMMmpjcU5JbEN6cVZmcnkyZ0xB",
+    "CBMiigFBVV95cUxNWFM0dUR3a0xTNTZJTlgwQ2NRakkwaUt5Mzh1a0dUejFwalAwVzZ2eEJyVUNQZGlaYjVKVWsyZDlmX2FpR0UwNjA5QTQ5MXZrYlFaOU4tM3pHR2RjLW5DTkgtc05hcjJKeDdBaUhQSVA5QUZHclBMcDB2TnJNbjdWenB6QzhwVS14c3c",
+    "CBMizgFBVV95cUxPX2ZQaUdWcUVyY2hZRHRPSTZoNUxzbFpnV3VZc3FpVkFoZHVzZzJPSkR3Zzh5SW9reDBxQzc5RDl0UmVSVUNrZjI3MktaV3QxS3h3UTBOZzkxXzZDX3ZiQmNORlJWaC15d1RFMW5XdzN4WldidjQ1azRDUUhnM20yVFV0NDBvRU5KM0xCekxvc2xZc2pIaEdCVk1UdjBVcXdQcWVfZHo1bFhLUFpaczlySVl4czEzMElmNFBKcjdBMmk3Ukg0a2xxLXg1bDU2Zw"
   ],
   "daily": {
     "d": "2026-08-19",
