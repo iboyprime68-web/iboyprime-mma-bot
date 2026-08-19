@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White Signs 6 New UFC Fighters After Week 2 of DWCS",
-      "ts": "2026-08-19T04:28:28+00:00"
-    },
-    {
-      "t": "White On Chimaev's UFC 333 Push After Title Loss",
-      "ts": "2026-08-19T05:31:19+00:00"
-    },
-    {
       "t": "White Stops Listening To Hearn On Fury-Joshua",
       "ts": "2026-08-19T05:31:30+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Jon Jones blasts ‘jealous’ Daniel Cormier for picking Khabib Nurmagomedov as UFC’s greatest ever fighter",
       "ts": "2026-08-19T01:00:00+00:00"
+    },
+    {
+      "t": "Aryna Sabalenka Vs. Jasmine Paolini | 2025 Stuttgart Semifinal | WTA Match Highlights Ufc 329 (sMWCMQpOYZ)",
+      "ts": "2026-08-19T06:48:36+00:00"
+    },
+    {
+      "t": "Weidman Questions Makhachev's GOAT Case After UFC 330",
+      "ts": "2026-08-19T07:30:23+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Arman Tsarukyan confirms he was given highest UFC payday and verbal title shot guarantee for UFC 331",
-      "url": "https://bloodyelbow.com/2026/08/18/arman-tsarukyan-confirms-he-was-given-highest-ufc-payday-and-verbal-title-shot-guarantee-for-ufc-331/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-18T13:00:00+00:00"
-    },
-    {
-      "title": "UFC Sacramento: Make predictions for Anthony Hernandez vs. Gregory Rodrigues",
-      "url": "https://sports.yahoo.com/articles/ufc-sacramento-predictions-anthony-hernandez-134020990.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T13:40:20+00:00"
-    },
     {
       "title": "Seven fights official for UFC 332 including reported matchups for Payton Talbott and Ateba Gautier",
       "url": "https://bloodyelbow.com/2026/08/18/seven-fights-official-for-ufc-332-including-reported-matchups-for-payton-talbott-and-ateba-gautier/",
@@ -2105,6 +2091,20 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-19T01:00:00+00:00"
+    },
+    {
+      "title": "Aryna Sabalenka Vs. Jasmine Paolini 2025 Stuttgart Semifinal WTA Match Highlights Ufc 329 (sMWCMQpOYZ)",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QUFZvbnZMVVFVczk0Vzdwak9lYUd5endpTXYyTTZyR1dvOGxhX1AxWDQ0b1AzNzltblFMb2JsNGZHa0ttckhGYlZOa29vUlRSZ0V5WlQ4WjFkOGQyMmR0Yw?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-19T06:48:36+00:00"
+    },
+    {
+      "title": "Weidman Questions Makhachev's GOAT Case After UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93UDZ1RThXcldXUUFPZ0hLUVYtcG9jWmR5U1ZiQjJvbWVxaklialJXcFd1eWZMbGlwUG94ckFUdHBWQ01xZHJqYlAzSUpDZDhUTHlpc0JIS0dLbjFZRTVKSXkycjRjbm9kUDlQdmJYbnRNcmtx?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T07:30:23+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxNM0ZlSWdPRXJma013a2dqcEkwN2VSc1JfbXh0QUZTRk94LVlway1lVFBFMGZLZFdYVm9WODVscjBwbHdkRjFuMFpGRW5SR1VBeEN6TWZpQXVfV3hUaU02d0hoWVVPSkJfTmh5bGRMVzU5MkNEUG1sNFdENEJDR1RQRlZnSnZqUnRXTkMxNUVGSXkyYkN0cU95LTAwN25pT2Qy",
-    "CBMilgFBVV95cUxNTl9YUC1qNm9MMXcxb1J1YkU0OTA1V2RpQkNQRU5wNUI5TllmZzk3VmJRMnZBLUZUcXplSjJ3aGFRUm5XWktQSzZ2S1ZRV2VycFJmbzBwbU1uWWctSGpMZDdMVzNkaTdIcEo5d2ZsVDlNUHNaZDBxSGwyVTFMUGYwS1kxSmZRQlNnWFBnVVc0Y1JHSjhFOHc",
     "CBMisgJBVV95cUxNMFZRM3JFcy1rQ2ducVpUMnRraWxuc2sxNHFjVXNYMHlGR3RVbk5CcEFRQVhBaE0xbmxpWDNXUG5pM09EcHN0MlJlMGlKUUtITTFZemYtbVIxSWFRRGlnQzQ1SXN2UkhncXVfLVZ5a0kxcVM5LWtVTGFyMkc1NDNkQlZYVEc5UWZtbXdIZUJIZkt5WG1FR2EwWXEwVk93ZTI1cE0zOVktZzZoM09aRzlLMTBLNm5wSGd4WTJkbFpyOWhkMnhYYjVZVExxdDhCLVpFdzUxRW5IMGVHM2RzajQwWFpFczVpempfSTljRDBpb1VjNVdOWm0yVkVlSnVhZ1Z6ajVBVHBwX3VqZkRybTU1VGRnb2RHWm5MN1RNMEdPYWFkY0NVSGtyemJIRzFKS1RudXfSAbcCQVVfeXFMTjZoUEY4Umt3TlVTaGEweFJpVWxmQW5vbHpMemJJbEVzVG55YjhZQWNLRkJIVVo1Zi1TSlhXZm42MUlIVmZlaktJdHFEdFRyeGVhX0pIbEFxV3hxelNFcXhtRlV6QWdGUWlMdDFfbHdKZW1KTmI2UFVBOWxzdnRobzVfRloxeGdUdFhpS2JFSFlxYmNNYXZMS0hERGtnc2lXZjRraFEyYy1sbmsxSFNVekNzc1FNVlV0SGd1Z1JrYzg0MS1BcTZvTmJiWmVnQmxnRTFtODQ2bHdhb2tuX3NLc3poc092eUo4d0FUQ0QySmM3ZG0wMXlnWTk5YnpyME1ieW5BRGFzQjJXbWtob29wSjV5ZFBPdGtyZkpoWU8ySERVMlhSN2IwMVVCYld5VDJXdUFuUkVGNk0",
     "CBMixwFBVV95cUxQT0xpLUJ5RmlLN2NEQ0Y2SklfRS1sMnBlZlM4dk8zRGc4VGIwR0puLS1EU1RLVVRQcnJUbTNHOU9uSi1TTGFlVjdhb3ZsbFBkdWx5Z2F0eGR2clNQbjcxQlJNdWZMSmpENHlRZEhYSmRHR3JvZXBwaVFuLWtfWFZEUUxFMkp0a1lPM1ZoQ2R4bllmRWFNSEJKVUNwejFvazdmeVFCV1ZYckRPVXc1bGZaODZQdDg2VmhlREhnSTF4VjJ1VWF3bkY0",
     "CBMivgFBVV95cUxOVjlBTWZsZURKTDVJYlpKWmNBWGVFbXZITnFEVkRYSUpoaTVTT21EdWRpZTRmMjJxcjdEZVdXM3BzaXRUSWp2cnBMWnZvbzc2eDBxY3llNk1NUEk4NG5KRWdHUW9jOGY2MmV2SWg2dkRsYkR3YWgzVTZJUndmb2R6dXRlWWpKR3ByR2Fmbm1XMHlHM0xuczdlRDhYekZWTjNIRnJtTG15dFJZa1gwb0FaWk5RX0dpR0lFZTQ2cFlB",
@@ -3312,7 +3310,9 @@
     "https://www.sherdog.com/news/news/Islam-Makhachevs-UFC-GOAT-case-gets-pushback-from-former-champs-202431",
     "CBMibEFVX3lxTE9rSWxFTG9YT2o3ZEpxYnpycExMQXFuY2RmZmZZNngtcXBmUjRYR1JBV1I0ejBITTc2Z0VDYVQ0TTRSNE0xTWY2YTJxcFN2cWcwa3lHODRoUkE5NWFWc0pnY0ZFRHAzb3hjc19Kbw",
     "CBMiT0FVX3lxTE5Xd0MtbDJIdlhyMVRYczBURnVObGY5SHphS2UwYTBiRkktLU5JbW8wYVhmcEdZMWI3dkd2RlR5V3lpa3JYT2ZJdTAtUkwyMUk",
-    "https://bloodyelbow.com/?p=327623"
+    "https://bloodyelbow.com/?p=327623",
+    "CBMiYEFVX3lxTE5QUFZvbnZMVVFVczk0Vzdwak9lYUd5endpTXYyTTZyR1dvOGxhX1AxWDQ0b1AzNzltblFMb2JsNGZHa0ttckhGYlZOa29vUlRSZ0V5WlQ4WjFkOGQyMmR0Yw",
+    "CBMidEFVX3lxTE93UDZ1RThXcldXUUFPZ0hLUVYtcG9jWmR5U1ZiQjJvbWVxaklialJXcFd1eWZMbGlwUG94ckFUdHBWQ01xZHJqYlAzSUpDZDhUTHlpc0JIS0dLbjFZRTVKSXkycjRjbm9kUDlQdmJYbnRNcmtx"
   ],
   "daily": {
     "d": "2026-08-19",
