@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504649",
     "https://www.mmafighting.com/?p=504650",
     "https://www.mmafighting.com/?p=504664",
     "https://www.mmafighting.com/?p=504688",
@@ -835,6 +834,7 @@
     "https://www.mmamania.com/?p=465850",
     "https://www.mmamania.com/?p=465856",
     "https://www.mmamania.com/?p=465862",
+    "https://www.mmamania.com/?p=465908",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "#DWCS results: Kaik Brito def. Namo Fazil via knockout (punch) - Round 3, 0:12 Live coverage: https://mmajunkie.usatoday.com/story/sports/ufc/2026/08…",
-      "ts": "2026-08-19T01:16:09+00:00"
-    },
     {
       "t": "KAIK BRITO KNOCKS OUT NAMO FAZIL 🤯 #DWCS88 #DanaWhiteContenderSeries",
       "ts": "2026-08-19T01:21:37+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "How to Bet the NFL: Tips and Strategy to Placing Smarter Bets! | Early Edge Stream of General Videos",
       "ts": "2026-08-19T15:00:08+00:00"
+    },
+    {
+      "t": "Latest UFC 333 fight card, start time, date and location &#124; Volkanovski vs. Evloev",
+      "ts": "2026-08-19T15:01:35+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Rankings Shakeup: Mackenzie Dern undisputed No. 1 with Zhang Weili exit, blue-chip contender closing in https://www.mmafighting.com/ufc/505586/rankin…",
-      "url": "https://nitter.net/MMAFighting/status/2089775852070560119#m",
-      "source": "MMA Fighting on X",
-      "cat": "ufc",
-      "ts": "2026-08-18T18:06:03+00:00"
-    },
     {
       "title": "Gillian Robertson says there's 'not much weight' in coach Din Thomas' apology after UFC 330 remarks",
       "url": "https://sports.yahoo.com/mma/article/gillian-robertson-says-theres-not-much-weight-in-coach-din-thomas-apology-after-ufc-330-remarks-181539643.html",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-19T15:00:08+00:00"
+    },
+    {
+      "title": "Latest UFC 333 fight card, start time, date and location &124; Volkanovski vs. Evloev",
+      "url": "https://www.mmamania.com/ufc-fight-cards/465908/latest-ufc-333-fight-card-start-time-date-location-volkanovski-vs-evloev",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-19T15:01:35+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMilwFBVV95cUxOT1I3eUdnMjk1SG83ekJOZThDQjVtczRwX2NvUFV4UXM0dDFQSmFlSlNJOXBteGFJb3pINmdrUGlMcjJjMXNIT1RPOFdPVGttYUYxVTJwSUZUa1FPVjNtS01kQjhHM1FsNllaaGJGQ2d5V1hreVllWHZjNkR4WGZ4Y2FRbzBCcE1heUROTmxETk84SENFX3p3",
     "CBMigAFBVV95cUxQanQ5YUZDc1dTcG5oODFiT1dYcGpKalNPeVdGekN1QWNmWDVEeGtmUTFtNk90eDBrdEhkUGhXZlhjWFlKSVZkMElpWVJSdGp5a1M3R2VCbGpPWmRSSW1oMk1lWXdWN2dNS1VrT0ZwNjVhQlYweHZOZk1oNzVuS0ZSQw",
     "CBMirAFBVV95cUxQeXoybF9DTk5nQ0Vhd1hMMXVRWWE3LTEwTk9xUnNveTBlWVNSRjRVbUNicUJXYzdKQkhCUTdHNDdXa194UmRoYTlJaklYRkhydmRsUVpoX3M5QXh1QTVTR25DcWFEd1RCXzZDaXVLdVg1ZDJYOHgzOFEycEhxbU43Q29haHAwZGhNc01MS1lMNThRVFozSGZMVTV5alIzRE9TSU9qcGJWRGxtRzBV",
     "CBMikgFBVV95cUxOYW9xX2RRQndMYlFJdDhwRkhfLXQ1VS1nek12VjJPVVFnUEJOLXdYakl4eDJub3RQdG5sOHQ1SDdKV2t5aXRkZ2tFOTUtaE5RdE4zT05iT2x4dlN6dFdwdFY2cWw4RExXbC1kTG9XekhRSW9tOG9CQmpudGZWOTJUTEI0U3ZPRDB1OERZTE5wRkkwdw",
@@ -3312,7 +3311,8 @@
     "CBMiiwFBVV95cUxQV0k1aGNaMlNMaExlRm1SVk12UlRVbGl6a2l6TG11cXJBa2p4TEttTHExb0NXaDBDSnpQNk90N1pVNkZsanUzdnNEeWpsUVE4ZlZqc3hRdGxyNmZidnVUQTZzWFYtcTczbXdQLTdHWm1kY2xPdGJyMHhDczZXNDFNTXVnRkNPRldWWk40",
     "2090091558981009842",
     "CBMikAFBVV95cUxQdUhtZDdnYmRsb0RKejlJNkptX09QdUlPeTJjVUhKN3J6bU0zYndsZmhqNzZ0RlBIOXlKVmhoTjY0MFRNWHY2bi1GYUtLRmJ0alljYVNHSk9qbkFYQVpoc2VqZXEyVG1wRURvRHdvQnExZm9QWGVJQnBBbGY5NlZ0a1NwNVlwc2ItZThfQVpsdlE",
-    "CBMimgFBVV95cUxQRnlfRzFQREpJNkhnN2owaVhORldSVEdEeHJ5anJSRFZycGtRVjhmcklpOVFXendxMEttcFZHV2MtNmR5Y2U0elJhdDdjTFp4MTBJbDYzRDZNU1MteFpGay04Y000WGhmdzE0OHp3ckswUDA1NmExOWtaSDVZWTZTZUNWZ1p4dk9DemlPR3ZCWVE2dWRtVHo1YTZB"
+    "CBMimgFBVV95cUxQRnlfRzFQREpJNkhnN2owaVhORldSVEdEeHJ5anJSRFZycGtRVjhmcklpOVFXendxMEttcFZHV2MtNmR5Y2U0elJhdDdjTFp4MTBJbDYzRDZNU1MteFpGay04Y000WGhmdzE0OHp3ckswUDA1NmExOWtaSDVZWTZTZUNWZ1p4dk9DemlPR3ZCWVE2dWRtVHo1YTZB",
+    "https://www.mmamania.com/?p=465908"
   ],
   "daily": {
     "d": "2026-08-19",
