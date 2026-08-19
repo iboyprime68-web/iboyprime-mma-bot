@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "#DWCS results: Trent Miller def. Douglas Rodrigues via submission (Von Flue choke) – Round 2, 1:04 Live coverage: https://mmajunkie.usatoday.com/stor…",
-      "ts": "2026-08-19T00:47:01+00:00"
-    },
-    {
-      "t": "Trent Miller overcomes early adversity and scores the second Von Flue choke in Contender Series history 😮 #DWCS88 #DanaWhiteContenderSeries",
-      "ts": "2026-08-19T00:50:11+00:00"
-    },
-    {
       "t": "HOW ABOUT THAT?! Trent Miller locks up the RD2 submission in style! [ #DWCS is LIVE NOW on @ParamountPlus ]",
       "ts": "2026-08-19T00:50:31+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Loopy Godinez vs. Ketlen Souza joins #UFCVegas122 lineup (via @MikeBohn, @mma_kings) https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-v…",
       "ts": "2026-08-19T17:07:53+00:00"
+    },
+    {
+      "t": "Alex Pereira's Team Gives Green Light On Josh Hokit Fight",
+      "ts": "2026-08-19T17:19:03+00:00"
+    },
+    {
+      "t": "Reinier de Ridder opens up about his UFC light heavyweight debut against Roman Dolidze at UFC Sacramento",
+      "ts": "2026-08-19T17:19:04+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Alex Pereira’s UFC legend coach advises ‘great guy’ Herb Dean to take a break from refereeing",
-      "url": "https://bloodyelbow.com/2026/08/19/alex-pereiras-ufc-legend-coach-advises-great-guy-herb-dean-to-take-a-break-from-refereeing/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-19T14:00:00+00:00"
-    },
-    {
-      "title": "DWCS video: Alik Lorenz hammerfists Mahamed Aly into unconsciousness",
-      "url": "https://sports.yahoo.com/articles/dwcs-video-alik-lorenz-hammerfists-000846970.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T00:08:46+00:00"
-    },
     {
       "title": "Henry Cejudo doubts Ian Garry will get another UFC title shot",
       "url": "https://sports.yahoo.com/articles/henry-cejudo-doubts-ian-garry-021804948.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-19T17:07:53+00:00"
+    },
+    {
+      "title": "Alex Pereira's Team Gives Green Light On Josh Hokit Fight",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQblVvV09JNUpFelVXRHRWVEtpRUJTR0xubnViY29RMWpRR05BN3lzUEJydUgxMTZRcFE5SkMyX0FoMUFXTkNVb0hhYVVIWk9mdnhIcXJxUGhRZVp0a0NadmFORkFaX19hZnQtSHYtc3hWX0M2NFhyeE1kR1N6N2hJQS1neEdSV2ZEVkE?oc=5",
+      "source": "mmasucka.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T17:19:03+00:00"
+    },
+    {
+      "title": "Reinier de Ridder opens up about his UFC light heavyweight debut against Roman Dolidze at UFC Sacramento",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSWUwMlpYY2FtaFVpODJ3dVFVTWRqMVNfMVdYNERYMkNra3ZPczRpMXhYekRLa04taS1fdGtpSFFSOUR3OEQ5Nl9LWk1LVGJZbkJMMUlCRk5qRjJsOXNMWG1BVlhzUEJQcFBYVkMyUHA2U2lkUXB0YmQ0N29Lbk1wNVhiSU1NQmpxSzVxTHN2djA5ZzhlRGRrd044Ukx3endLa3F5R3BSZUFmdEcwQnYxY1JmTDBKRVQzbm1GazZUdmtJckNVMWc?oc=5",
+      "source": "mmasucka.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T17:19:04+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi_gFBVV95cUxOczdGTWs1QVdYcE1IQVpIcnFGQVFWRG5mQTZkUmZ3NHJZME9iS0VsZGtwUnZLdU96UHJBcnp0VVVhYUo5dzlCRGZkeUJhT1g3Sk5sWFpwUnBCWWxjTXAzd29ieDdncWhLbjVaNEFoU3NlVE5OcWJ4MC1OaGdoc3o3ODVmTndaWm1LTkN3S1J1aFdnYk5IRXBENEFDSUhBcHJCdU1sNmdDLVQycFdRRXUtRDY1TWUzZ2ZlR2plSndGdEZXYVFXWk9JVHllQ1VkNERmVE5DRk9oakxBNmdOUXJCVUx3U3Blc1JMeTVVRkdkUEVQeVFMcnd6YTZZSXFyUQ",
-    "CBMiYEFVX3lxTE1SUXZLSmNpMHZHTlB0UjBNNnhrSDM4aWtDRTVPRlM2cGNha3lfWDc2bTNFOGtMWUphNkRsQXQ2NER3a0RTSTJKZUdiVVFrZV95eDA2Z1NRMTVNNmR2Y25GLQ",
     "CBMidEFVX3lxTE5xdlkxSmdnc25PY1dIQXlZb3FDbVBDRHFaQmVMcmJRUHl6cTJWeUJDMzVuU3lIMldFejJQbWhIMENXNUdiTnRMTTB3S05BZ2llYTNHUGUxbXB4SE9JSWg4ZnpoT29SLW55Q1NUbUNYNVQ3SlZv",
     "2089406645566681134",
     "2089409703096840213",
@@ -3312,7 +3310,9 @@
     "CBMizgFBVV95cUxPX2ZQaUdWcUVyY2hZRHRPSTZoNUxzbFpnV3VZc3FpVkFoZHVzZzJPSkR3Zzh5SW9reDBxQzc5RDl0UmVSVUNrZjI3MktaV3QxS3h3UTBOZzkxXzZDX3ZiQmNORlJWaC15d1RFMW5XdzN4WldidjQ1azRDUUhnM20yVFV0NDBvRU5KM0xCekxvc2xZc2pIaEdCVk1UdjBVcXdQcWVfZHo1bFhLUFpaczlySVl4czEzMElmNFBKcjdBMmk3Ukg0a2xxLXg1bDU2Zw",
     "CBMivwFBVV95cUxNUlpRZ0UweTI5c2xwX05GTllBU0RZTk1UTC1iVWZFNmRLaEhpQXJaM2ZhbjdudVZrMXVESzFOQnF4d05KaTRDS2VQN1hOa1hkRDdLX2t0cnRzSmlod1dJR1RsOWpoMUtvQklXQlZOdjQ3enpZZ2FIQUlPWjJwU0w4MlpDbnJscmNjY2xjMEZVMk5neGtCeGNnSUs0dU1KajJtejVZYkFGRVBaVHpyRlVKU2tsN29WTGd1ZWVWcWR3RQ",
     "CBMiuAFBVV95cUxNUk9QLTYyeXNoaGhoX1hQMjB3NkpETWUwaVlFN2VNajZMV2NqZHNxQmQxNmduMTZMSE9qZ2hWYXI0a1dIbkFudmlaNEpud2NLNlVQc0oySks3YjZDOWhoSWpOZ19GVXlLeXJjR3N3X3Nac0tYSkNXWlFkeGZMVzJSWHJ2aG1XT3N5czhpNTMwM25nOF9UN2JONDJJRkUwSTR0RmxoNjlzdEswVHhSYXZDWmlzd0l2RWQ2",
-    "2090123599826870342"
+    "2090123599826870342",
+    "CBMiigFBVV95cUxQblVvV09JNUpFelVXRHRWVEtpRUJTR0xubnViY29RMWpRR05BN3lzUEJydUgxMTZRcFE5SkMyX0FoMUFXTkNVb0hhYVVIWk9mdnhIcXJxUGhRZVp0a0NadmFORkFaX19hZnQtSHYtc3hWX0M2NFhyeE1kR1N6N2hJQS1neEdSV2ZEVkE",
+    "CBMixgFBVV95cUxNSWUwMlpYY2FtaFVpODJ3dVFVTWRqMVNfMVdYNERYMkNra3ZPczRpMXhYekRLa04taS1fdGtpSFFSOUR3OEQ5Nl9LWk1LVGJZbkJMMUlCRk5qRjJsOXNMWG1BVlhzUEJQcFBYVkMyUHA2U2lkUXB0YmQ0N29Lbk1wNVhiSU1NQmpxSzVxTHN2djA5ZzhlRGRrd044Ukx3endLa3F5R3BSZUFmdEcwQnYxY1JmTDBKRVQzbm1GazZUdmtJckNVMWc"
   ],
   "daily": {
     "d": "2026-08-19",
