@@ -589,6 +589,17 @@ const IMPOSTOR = { id: "111", timestamp: "2026-08-13T10:00:00.000Z",
   attachments: [{ url: "https://cdn.discordapp.com/attachments/9/9/fake.png" }] };
 check("a staged post written by anyone but our bot is dropped",
   parseStaged([IMPOSTOR], BOT_ID).length === 0);
+// The filter is ANCHORED to the message start: a poll whose model-written
+// question happens to contain "staged post" must never enter the news rail,
+// while a pinged staged post (owner mention first) must.
+check("'staged post' mid-text does NOT pull a message into the rail",
+  parseStaged([{ id: "7", author: AUTHOR,
+    content: "Staged YouTube poll - written fresh\n\nWhat was the most famous "
+      + "staged post-fight brawl?\n```\n...\n```" }], BOT_ID).length === 0);
+check("a pinged staged post (mention first) still enters the rail",
+  parseStaged([{ id: "8", author: AUTHOR,
+    content: "<@278312400061726731> Staged post - score 90 (big)\n```\ncap\n```",
+    attachments: [] }], BOT_ID).length === 1);
 check("the same message from our bot IS kept (the filter is the author, not the text)",
   parseStaged([Object.assign({}, IMPOSTOR, { author: AUTHOR })], BOT_ID).length === 1);
 check("a message with no author at all is dropped",
@@ -976,6 +987,32 @@ const pollDead = await withFetch(async () => new Response("nope", { status: 404 
   async () => await worker.fetch(cookieReq("/studio/api/poll", SID), STUDIO_ENV, {}));
 check("an unreachable bank degrades to the empty shape, never an error",
   pollDead.status === 200 && (await pollDead.text()) === JSON.stringify(POLL_EMPTY));
+// AI-first staging (Aug 19 2026): the bot commits what it ACTUALLY staged as
+// state.last_entry, and that beats the bank cursor - with a provider key live
+// the cursor barely moves, so "the next bank entry" stopped being true.
+resetStudioCaches();
+const pollLast = await withFetch(async (u) => {
+  if (u.endsWith("/polls_data.json")) return jsonRes(BANK);
+  if (u.endsWith("/state_polls.json")) return jsonRes({ v: 2, cursor: 1,
+    last_entry: { q: "What is the worst judging robbery in UFC history?", type: "poll",
+      options: [{ label: "Jones vs Reyes", emoji: "⚖️" },
+                { label: "Other (comment below)", emoji: "🤔" }] } });
+  return new Response("nope", { status: 404 });
+}, async () => await worker.fetch(cookieReq("/studio/api/poll", SID), STUDIO_ENV, {}));
+const pollLastBody = JSON.parse(await pollLast.text());
+check("the composer pre-fills the LAST STAGED entry when the bot committed one",
+  pollLastBody.question === "What is the worst judging robbery in UFC history?" &&
+  pollLastBody.options.length === 2 && pollLastBody.options[0].label === "Jones vs Reyes" &&
+  pollLastBody.options.every(o => JSON.stringify(Object.keys(o).sort()) === JSON.stringify(["emoji", "img", "label"])));
+resetStudioCaches();
+const pollLastPost = await withFetch(async (u) => {
+  if (u.endsWith("/polls_data.json")) return jsonRes(BANK);
+  if (u.endsWith("/state_polls.json")) return jsonRes({ v: 2, cursor: 1,
+    last_entry: { q: "A discussion post, not a poll. Comment below.", type: "post", options: [] } });
+  return new Response("nope", { status: 404 });
+}, async () => await worker.fetch(cookieReq("/studio/api/poll", SID), STUDIO_ENV, {}));
+check("a staged DISCUSSION post never pre-fills the poll tab (bank cursor instead)",
+  JSON.parse(await pollLastPost.text()).question === "Second question");
 check("poll needs the session cookie like every other studio API",
   (await worker.fetch(req("/studio/api/poll"), ENV, {})).status === 401);
 check("the poll read is cached for 5 minutes like bots_config",
