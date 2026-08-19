@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "There's been a shakeup in MMA Fighting's strawweight rankings after #UFC330 📈📉 https://mma-fighting.visitlink.me/8UBMtf",
-      "ts": "2026-08-18T18:30:20+00:00"
-    },
-    {
       "t": "Gillian Robertson releases 1st statement since UFC 330 loss, Din Thomas controversy https://www.mmafighting.com/ufc/505760/gillian-robertson-releases…",
       "ts": "2026-08-18T19:40:22+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Kaik Brito reveals he had to block a lot of fans on social media ahead of #DWCS and says he envisioned the knockout in front of Dana White 👊",
       "ts": "2026-08-19T04:23:42+00:00"
+    },
+    {
+      "t": "Conor McGregor's Next Move After UFC Almost Guaranteed",
+      "ts": "2026-08-19T04:34:49+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Carlos Prates Sends Blunt Message to Michael Morales",
-      "url": "https://sports.yahoo.com/articles/carlos-prates-sends-blunt-message-215847984.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T21:58:47+00:00"
-    },
     {
       "title": "DWCS Results: Season 10, Week 2",
       "url": "https://sports.yahoo.com/articles/dwcs-results-season-10-week-220000030.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-19T04:23:42+00:00"
+    },
+    {
+      "title": "Conor McGregor's Next Move After UFC Almost Guaranteed",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMzRmalJQU0h3UUpSVUdTM1pqTVl1RXc2VGFfQkNnVGdpcXdmLXMxcnNxS0FOT0IzX3diTE14WTF0aE5tVk00bE9BZU8zRFAxN1dVeHJraDVraEZ1VUQwTnhhVm9PUVRnaGRxNE5EZ1JZYzBNM0tqM2l3OWhVSU02ZUJnc3pqSXpHR0hoR1A2VFVmak1RdTFUMWpvWWkzLU5OOU5IUW9vcXNxRXhlWmdPVkJWMWZCOFE?oc=5",
+      "source": "Forbes",
+      "cat": "ufc",
+      "ts": "2026-08-19T04:34:49+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiYEFVX3lxTE9LU3NmZzg0TWJrOUFpbkhzVzcza1BUMmdkbk1GNUlQdmZXYUpFbWM5QlRudmhFSjYxZ29wOHJ0Vlcta2Vtd1RFSkZ1SWlDYU10eFF5d2VsMVJZSzNOSHhhTg",
     "CBMivAFBVV95cUxPRnM0YXNlejBiYklYWEZTUEcxNDRDMndkaW9vZE5YaDVnMnpkRGhXQW9zN3JzbFpqNE5zWGU5NlVvRm9wQ3gwS1F6cm9DQWY2aUh0ZEVmbnRYaWd1R25HQ0d1QXVHVUlTVTJJZUt3blloaUlad2VwZkRzV0hmanowMjVEcGg4RnRWUmdRUXBPUVJyVElPUlYtY2hkRHBlOFpBV3dJbVQxay1JalJ1UV9ZcFhqQmgwTlJtak9NXw",
     "CBMia0FVX3lxTE9ueDhLdl91bElxeW5oYjZ6V0haUy00M2laYWpZb2VDOUROSFdDUUJEcXF2Y0pwN0NXeVh2VkdUakRtR1lEMFNtVGVqSTVXdU1JNTh6b2JESDg0WEoxRnpLcGs4SkZUU0Q1bkxj",
     "CBMivwFBVV95cUxQbVAzV0RpSm5EaEQ2ZjI1MmlaWWVxTGxuektsVXE5bVkteFFqZ3lQcFJaSkhsRW96RXV0NFp1TEFQUDcxVnRYNkxwSGxfU3g3MlVCa3lLeDlRQnY0SVVOXzhYd3Z4QlNjcVgtbThvUER4dmViLWVrNGYwLW5jNHYwWXB5SGdzOUhBNHpGWUpobDNicFFqck56bG5RZWJMaWdkMlR4RDJSLVJhSXNMYjBCSFlRSzR3djZWdXBoSWRZQQ",
@@ -3312,7 +3311,8 @@
     "CBMirgFBVV95cUxOdjcwbnRBWmdlTUMzRlg1TVpndVRkSmVBYk1SQzVuM3FubTg0ZHQ2WXNfWTh0Qnk3YmZNTk9adDFySmVqV21GTWc5aUpfRTdURTFMVkcyMS1ncmJ4V1NqdXZMcjNlN3hMT0hZd1cybjZiLWhGZVFTa0cwSTdCaW1sWWdiWUtadFU1cnlCRGdzYUdQOWNBNzB3QTEtNUJkWjNGajU5Z3pwY25XaVdIY1HSAbMBQVVfeXFMUG5KakVOWFZqZjFNY1E3dXpsSmszcVVpOXNyU3Bud0FMRWhiU082dEx2R0xqQXM0LUFrNk5uRDM1bjFOVnRRUUpEdGVxOVU0eVBhRm9zVE9wenBvMU51b2ZJbUR3Q0xvQjBzT3VRWmRhZUQ3T01QWW1CLXYwcmxvM1lfdFdEYUkzd2RuTWFicEw4NmFFQ0ZmVUV0ZWRtcWN4VE1GaGc5a0xoVXVRZGpVVUhtQlk",
     "CBMitgFBVV95cUxQUWh1SVVJWXdvdU05NUdjTnhINkQ3MlJ5T0N0UzBPamR1Z2JVMXI1ZWVoMENUMjJ4Y09oUjM3ZzB4WnBwZTc1OVl4UEtRb2RsU0s0TXd6Z19BUm9VSXdyOU1DeDF6eHZVd1M4S1RrX3ZzWjhDbUtxN3hWVVhpY2FicFpIM1NEczVkMnY5RmJtVG9YVDdGM01DYlp1dlV4X1IzTWNHX2JRbWpqT1NDNjd5MkxMQWFSZw",
     "2089930174179463188",
-    "2089931286076932317"
+    "2089931286076932317",
+    "CBMitwFBVV95cUxNMzRmalJQU0h3UUpSVUdTM1pqTVl1RXc2VGFfQkNnVGdpcXdmLXMxcnNxS0FOT0IzX3diTE14WTF0aE5tVk00bE9BZU8zRFAxN1dVeHJraDVraEZ1VUQwTnhhVm9PUVRnaGRxNE5EZ1JZYzBNM0tqM2l3OWhVSU02ZUJnc3pqSXpHR0hoR1A2VFVmak1RdTFUMWpvWWkzLU5OOU5IUW9vcXNxRXhlWmdPVkJWMWZCOFE"
   ],
   "daily": {
     "d": "2026-08-19",
