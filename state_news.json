@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Gillian Robertson releases 1st statement since UFC 330 loss, Din Thomas controversy https://www.mmafighting.com/ufc/505760/gillian-robertson-releases…",
-      "ts": "2026-08-18T19:40:22+00:00"
-    },
-    {
       "t": "DWCS Results: Season 10, Week 2 https://www.mmafighting.com/ufc/505732/dwcs-results-season-10-week-2",
       "ts": "2026-08-18T22:01:16+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "John Martin discusses his vision for a future where combat athletes have more ways to compete and earn a living: \"I do believe the future of combat s…",
       "ts": "2026-08-19T18:29:30+00:00"
+    },
+    {
+      "t": "Joe Rogan Urges Islam Makhachev to Relinquish UFC Welterweight Title",
+      "ts": "2026-08-19T18:36:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Carlos Prates Sends Blunt Message to Michael Morales",
-      "url": "https://sports.yahoo.com/articles/carlos-prates-sends-blunt-message-215847984.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T21:58:47+00:00"
-    },
     {
       "title": "DWCS Results: Season 10, Week 2",
       "url": "https://sports.yahoo.com/articles/dwcs-results-season-10-week-220000030.html",
@@ -2105,6 +2098,13 @@
       "source": "Ariel Helwani",
       "cat": "ufc",
       "ts": "2026-08-19T18:29:30+00:00"
+    },
+    {
+      "title": "Joe Rogan Urges Islam Makhachev to Relinquish UFC Welterweight Title",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTXBob1BjNno3cTNRM3JzSVNKSVVDRURzeUhMZGN2LWk0Wmstc1RmN1p6VzZLMTJpUk5DMDVpYnUyS2hyRjd0NlFRZmJxWm4zWVBLRHJoZm1TT0NoeU1HREVlTGstczA3M2U0aXgyZzFQSTAtblBqT2d4ZTV4NXJvR0RMb185Ny1QMW5WeFVFN3hLODRUbVdvVGdad0NpMk1uenJXeg?oc=5",
+      "source": "Newsweek",
+      "cat": "ufc",
+      "ts": "2026-08-19T18:36:00+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     14
   ],
   "yt_eval": [
-    "CBMijgFBVV95cUxQdks1TU1QTGVpS0ZUdENZUG5DNUNzcUozUTBKcC1ncm1vMU02dXdRY0VRazVYeG1yelh3X05FcEEzUElvX2V2anJlamFwVUJuRUpSUWhUN3ZrUzYtNC1STlAwMnJwZVBsZ2E3NHdqTFUteDRvTHVwd1NueUIxRnJlWTJIb0xuZWdhQWlOam1R",
     "CBMicEFVX3lxTE5XOEVWSmFRWGVtZi1WaTNRVU1WYmlkOHgwWkhtYzZjc2h2eXdGSjA1czhnUVRlUXhFd3ZlMHFxSlR0R3NPV2tianlRYWwyQVFjV0UtTWpTamVwbGlyRFVDUFNPUWNQTUtTVkFnQmhVemM",
     "CBMib0FVX3lxTE1OdmJxU2ZNbk1FTEV1MkxmVVEzcGx5OFBBRXJqTTdKNWNVd1BTWEduRkdrZWlzTEZzRklhOWNSaFBsRW10ZE1LdDdQYUp0MWxBLVdHc1NBa2x6X3RYR3J4dVdqV2JUMFJ2M3FRa2RMVQ",
     "CBMisAFBVV95cUxOcnZaejB2QWNYM3JsSGg5OGlfTVdqZFpIU1haZHpRdmJDQ0dmOWlPclYtdmNlNDFISUg3VHR6Zmtiekd1SE1BaVo0Y3BXOTl5eWRJN1JBbmsxdkJwUTQzdGs4SXVQWVJtdlBkVGdSMU9mODlfalZHaGVJXzQ2ckxNMHdlTTBFUXhRSnpnbkMzWFM2RDdKUnRWNk5hLVo3Um9EcHRoenowb1dPSHk3Z01TeA",
@@ -3312,7 +3311,8 @@
     "CBMitwFBVV95cUxPdWtXWnFBVmJ0X2w3M2FZNzlhWHFWTnBpX3lVU3ZValJsRUQ0V2FhNldUV2FaeVB3WGdGUTgzVnNsYVFqVE94MkFiSF9MMVdoU0UwQ0lFaXhsR3hXLTg2S0VYR0lSYnB0bmZCb0ZqUzB4cUZjdmRNeXk3NWY1eFVCeV9wampZTVk5R05pOUVzdVhxVW9GRFNCeE5nUWVPTTEyTlFFTS1xMWdVcVp5eGNJalFOMEEtaGs",
     "CBMirgFBVV95cUxPVHJ4ajVQWkRKaE1FaWw1ekF4Q0RJeHpyMXUwWEN2R2ZSNnZwZ0xTRzlHVkJ6LTkyVXZoT0ZOcmt2UElmMV9rcVZmUUZ1YjNIZ0ZqbmVJc1l4TWVXNjdfNm9aMzl5VUdTZnlXek91Q3hZeGhTV09UN2M2eXJzT3RGb2FVRTQwdXBmQWxUbDJ5WENqUHEza245YUc1N3NDRWl0X2ZGaXJkR0tnME54d0E",
     "CBMifkFVX3lxTE9tRlVuakZMRVl4R0NzRFlXNU9DZ0FYWU1kdmJxMUdVSTlDWExlem1fWk1MSEg2RHgzY0dGVVVRcU53ZGZRcFRMNktBS2Z1ZExxX1pEOUF2QmVBOVNwN2RPWkhmTUYwZnlwZGI1cl9EOUo5VEduUXNVd1VBczlSdw",
-    "2090144138184515933"
+    "2090144138184515933",
+    "CBMipAFBVV95cUxQTXBob1BjNno3cTNRM3JzSVNKSVVDRURzeUhMZGN2LWk0Wmstc1RmN1p6VzZLMTJpUk5DMDVpYnUyS2hyRjd0NlFRZmJxWm4zWVBLRHJoZm1TT0NoeU1HREVlTGstczA3M2U0aXgyZzFQSTAtblBqT2d4ZTV4NXJvR0RMb185Ny1QMW5WeFVFN3hLODRUbVdvVGdad0NpMk1uenJXeg"
   ],
   "daily": {
     "d": "2026-08-19",
