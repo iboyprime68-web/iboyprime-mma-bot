@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "My complaining about the Apex has officially retired. Vastly different product now that they added more seating. Looks and sounds so much better on T…",
-      "ts": "2026-08-19T01:36:50+00:00"
-    },
-    {
       "t": "Kaik Brito SLEEPS Namo Fazil with a WILD third-round knockout to close the show at #DWCS, and earn himself a #UFC contract 👀 🔥",
       "ts": "2026-08-19T01:40:16+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Utah! We are headed your way for #UFC332! UFC Fight Club Pre-Sale is now live! Get Tickets Here: https://UFC.ac/46euWUB",
       "ts": "2026-08-19T16:01:00+00:00"
+    },
+    {
+      "t": "2026 BMW Championship Sleeper Picks: Bet on Hideki Matsuyama, Victor Hovland at Bellerive",
+      "ts": "2026-08-19T16:00:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White reveals Contender Series graduates have earned $252.3M in UFC fighter pay since 2017",
-      "url": "https://bloodyelbow.com/2026/08/19/dana-white-reveals-contender-series-graduates-have-earned-252-3m-in-ufc-fighter-pay-since-2017/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-19T11:00:00+00:00"
-    },
     {
       "title": "Who Should Get The Next UFC Welterweight Title Shot?",
       "url": "https://sports.yahoo.com/articles/next-ufc-welterweight-title-shot-223718085.html",
@@ -2105,6 +2098,13 @@
       "source": "UFC on X",
       "cat": "ufc",
       "ts": "2026-08-19T16:01:00+00:00"
+    },
+    {
+      "title": "2026 BMW Championship Sleeper Picks: Bet on Hideki Matsuyama, Victor Hovland at Bellerive",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUktLYjN6WmpoSEEtYThxS0E2ei1DMWFFNjdVdUY2Yzl4NWZCOGhIakhTTV9QMU9pM25vOFF4SU9CZF9RMEJHTUdtRlNmUnFiaDRQUFdwaGNOcVVVNDRHSDNydG5CTExQNk9weDZ6d25DNi1TaUdUbWVqTnFadVgxRzM3dmNud2M0b2c3YUtSdG5aTmdsT1ZRNFkyeTJCLWhtNFVDaTk1UmttY1c0bDNZbjJWM2JrUUVvang1R3RSYVhILUhuYnJ3QVE1VTVIekM1OVl0eFNSQVJlN3R4Q0tr?oc=5",
+      "source": "Oddschecker",
+      "cat": "ufc",
+      "ts": "2026-08-19T16:00:00+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "2089396907236012081",
     "CBMiowFBVV95cUxQZFNwT2xNTlV6azE5XzFZVGgwVENSdGVObmpzNmxYNkhhTXAzZFpFYnI2ZlNMV045dGFncENET3dkUWpxVlFJVDM2a1RUVXh6allQckI5Y0VHbkdUMl85SmFRWU9fTklMQnZCWUJjUFRFTnFwclRuenF4bnFYdDVMeEtDR0JVdTVfc1A4RkEtal9MT0FSbWxncXN5ZXB1aEswbGFV",
     "CBMixgFBVV95cUxNQXVtN3BCOE5pdmZGX01oLXZfNUcyclAwSDhhYUJtS1NBMkZHNG9GQTExSTQ2bEdONW01NTd6RVl1UXlIZVlEZ3ZaX1AweWVSYzR1RWdlcWJyZVRuYW1fZGdFWndsblhNYjZWU1pfcFVoeUpxbS1YLU5vOWw1TnI4Q191VmxMWkFBV3ZTRmY4S0tlbGt6azJEM2F2b1gyWDNuZFo0TldnQnNWcFZMaU4xVlBzdmhQWWZGZEdnVEpDLWdDZVp3VVE",
     "CBMi0gFBVV95cUxQTlU4QmlwR3pNWDJXczZhbHE0MmZfbENBWGUwaHA3Y2JkLXNjcFpraUpmSG0zY1FnNlBRQ0RyT2h3TlFXVDM0SzMxdE9xMk1yaG5RS3dQdTktbzN5WDFPMGRKc2FhZXhlaUJMLTFSYkh6UV8wb0ZfNkRTcEQxbWdFZEdzTDJtUXRXNGNYQ0lybkUxRmdUMkMxMWMwcE13MFhVSXhKdHNYRGRjT0RlVUhFeWczSWhvak1lMDhRRFVNY1BLU1FfTmVjMk1HVzc5a1FDU3c",
@@ -3312,7 +3311,8 @@
     "CBMixgFBVV95cUxQV0ZRQ1luOXpwcjFhMDBHaEY2eDkwLThBZ2doaV9BckZvcU9xbURqZ2ZWMWJjZGVCbk5aTDZTbVcyZXZHcFltTUNISlRTZmQ2R1NQczJXWWxEblJtZ1M4Qk9abGxaSXJ5VWxiWWQ1S1djVW9aTE1wNkN0OWMtN3JDbWhMa1lablVjb3VnTW5kSl9FXzZLT0VyaU0zaDFUX0c4Uy1BLTEtMlJ5TktlRmo3OFY3QlVMektBamduR2QtODFybzNONGc",
     "CBMifEFVX3lxTE5oOXFfa2ZtczhsM0pkSlJjV0U0c3pBdVdoZmN1cmlsajdyZkhzVUtyeG1ReHlGaEVDdjZ4V1FLUEpOUDByRm50bzZxOTNBVXNxc3BOM1l5Wm1BQy1VNGEzVUsyNW0tUkNEQjFsZnZwY3Z5SUtWWjdUbTNaejI",
     "CBMiywFBVV95cUxQb1gwRVFEdVR3aGZXeWp4RjRDb3JycWdZdlo1VWlNZGR6dDFnTHJ2OGZDT1hrWlYzdzJYQk5aUFN1NkdNOFJCb1hGY3IyTEpOalJrajlSc1VfaDE4ZEI0YWxrWGdQZXNaMUFzUGF5MDNBbHlvRS1aS1Z0VXRyXzBtdmhLV2FsODRNX1NkMTdnejB3Q2JMSk8wa1B6eXVtcFM0ZkV5eEpDb0VOZUJHUmVwcG9QQmhCQ0JYMGZGbUdxT1FVRlpSaXdZQ1Q0dw",
-    "2090106767988416573"
+    "2090106767988416573",
+    "CBMi3wFBVV95cUxQUktLYjN6WmpoSEEtYThxS0E2ei1DMWFFNjdVdUY2Yzl4NWZCOGhIakhTTV9QMU9pM25vOFF4SU9CZF9RMEJHTUdtRlNmUnFiaDRQUFdwaGNOcVVVNDRHSDNydG5CTExQNk9weDZ6d25DNi1TaUdUbWVqTnFadVgxRzM3dmNud2M0b2c3YUtSdG5aTmdsT1ZRNFkyeTJCLWhtNFVDaTk1UmttY1c0bDNZbjJWM2JrUUVvang1R3RSYVhILUhuYnJ3QVE1VTVIekM1OVl0eFNSQVJlN3R4Q0tr"
   ],
   "daily": {
     "d": "2026-08-19",
