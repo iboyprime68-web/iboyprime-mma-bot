@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Kaik Brito with one of the cleanest KOs you’ll ever see on #DWCS!",
-      "ts": "2026-08-19T01:34:56+00:00"
-    },
-    {
       "t": "My complaining about the Apex has officially retired. Vastly different product now that they added more seating. Looks and sounds so much better on T…",
       "ts": "2026-08-19T01:36:50+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Edson Barboza details grim reason for UFC retirement: 'I almost lost my vision'",
       "ts": "2026-08-19T16:11:00+00:00"
+    },
+    {
+      "t": "Utah! We are headed your way for #UFC332! UFC Fight Club Pre-Sale is now live! Get Tickets Here: https://UFC.ac/46euWUB",
+      "ts": "2026-08-19T16:01:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White gushes over wild Contender Series KO as he awards six UFC contracts from just five fights",
-      "url": "https://bloodyelbow.com/2026/08/18/dana-white-gushes-over-wild-contender-series-ko-as-he-awards-six-ufc-contracts-from-just-five-fights/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-19T02:30:00+00:00"
-    },
     {
       "title": "Dana White reveals Contender Series graduates have earned $252.3M in UFC fighter pay since 2017",
       "url": "https://bloodyelbow.com/2026/08/19/dana-white-reveals-contender-series-graduates-have-earned-252-3m-in-ufc-fighter-pay-since-2017/",
@@ -2105,6 +2098,13 @@
       "source": "GiveMeSport",
       "cat": "ufc",
       "ts": "2026-08-19T16:05:29+00:00"
+    },
+    {
+      "title": "Utah! We are headed your way for UFC332! UFC Fight Club Pre-Sale is now live! Get Tickets Here: https://UFC.ac/46euWUB",
+      "url": "https://nitter.net/ufc/status/2090106767988416573#m",
+      "source": "UFC on X",
+      "cat": "ufc",
+      "ts": "2026-08-19T16:01:00+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMirAFBVV95cUxOWi1oeGZTNXo3VU1MLVRFRENma0I0UGVhYXRoQjhQZEV3TG5KdDJraGVaYms5REdLanJIMVBpc1h3b1cxLTFuRHFnaWREZlZHRXpsZTZxY3g2UHZHQ3VGamZjMkF6Q0xTQWRpcDR5c3BtRzNsNHBVdDRkLUhBNThhRTVhUFoxZkFvOTgtQmVsdHhOMVpKeFpFOEU5bDdBeTNyU1NCb2YxQnliYnBf",
     "2089396907236012081",
     "CBMiowFBVV95cUxQZFNwT2xNTlV6azE5XzFZVGgwVENSdGVObmpzNmxYNkhhTXAzZFpFYnI2ZlNMV045dGFncENET3dkUWpxVlFJVDM2a1RUVXh6allQckI5Y0VHbkdUMl85SmFRWU9fTklMQnZCWUJjUFRFTnFwclRuenF4bnFYdDVMeEtDR0JVdTVfc1A4RkEtal9MT0FSbWxncXN5ZXB1aEswbGFV",
     "CBMixgFBVV95cUxNQXVtN3BCOE5pdmZGX01oLXZfNUcyclAwSDhhYUJtS1NBMkZHNG9GQTExSTQ2bEdONW01NTd6RVl1UXlIZVlEZ3ZaX1AweWVSYzR1RWdlcWJyZVRuYW1fZGdFWndsblhNYjZWU1pfcFVoeUpxbS1YLU5vOWw1TnI4Q191VmxMWkFBV3ZTRmY4S0tlbGt6azJEM2F2b1gyWDNuZFo0TldnQnNWcFZMaU4xVlBzdmhQWWZGZEdnVEpDLWdDZVp3VVE",
@@ -3312,7 +3311,8 @@
     "CBMiiAFBVV95cUxOa1VNd01Rcy05aHlYQnMyWHpwSE1zVkhMUmtIcUYwUmV3TGw5VGp3U1huOFo1WE5uYlF0UXF3dzhpYlJ4RktOcDNNMUM3QlZtRlBoTEhtWDhVMEM3MEx6OHRhN0VxbGx2MURZLTdHTkR2VFREbXdzSXl6QjlQY3NicldfZ1h5cUNr",
     "CBMixgFBVV95cUxQV0ZRQ1luOXpwcjFhMDBHaEY2eDkwLThBZ2doaV9BckZvcU9xbURqZ2ZWMWJjZGVCbk5aTDZTbVcyZXZHcFltTUNISlRTZmQ2R1NQczJXWWxEblJtZ1M4Qk9abGxaSXJ5VWxiWWQ1S1djVW9aTE1wNkN0OWMtN3JDbWhMa1lablVjb3VnTW5kSl9FXzZLT0VyaU0zaDFUX0c4Uy1BLTEtMlJ5TktlRmo3OFY3QlVMektBamduR2QtODFybzNONGc",
     "CBMifEFVX3lxTE5oOXFfa2ZtczhsM0pkSlJjV0U0c3pBdVdoZmN1cmlsajdyZkhzVUtyeG1ReHlGaEVDdjZ4V1FLUEpOUDByRm50bzZxOTNBVXNxc3BOM1l5Wm1BQy1VNGEzVUsyNW0tUkNEQjFsZnZwY3Z5SUtWWjdUbTNaejI",
-    "CBMiywFBVV95cUxQb1gwRVFEdVR3aGZXeWp4RjRDb3JycWdZdlo1VWlNZGR6dDFnTHJ2OGZDT1hrWlYzdzJYQk5aUFN1NkdNOFJCb1hGY3IyTEpOalJrajlSc1VfaDE4ZEI0YWxrWGdQZXNaMUFzUGF5MDNBbHlvRS1aS1Z0VXRyXzBtdmhLV2FsODRNX1NkMTdnejB3Q2JMSk8wa1B6eXVtcFM0ZkV5eEpDb0VOZUJHUmVwcG9QQmhCQ0JYMGZGbUdxT1FVRlpSaXdZQ1Q0dw"
+    "CBMiywFBVV95cUxQb1gwRVFEdVR3aGZXeWp4RjRDb3JycWdZdlo1VWlNZGR6dDFnTHJ2OGZDT1hrWlYzdzJYQk5aUFN1NkdNOFJCb1hGY3IyTEpOalJrajlSc1VfaDE4ZEI0YWxrWGdQZXNaMUFzUGF5MDNBbHlvRS1aS1Z0VXRyXzBtdmhLV2FsODRNX1NkMTdnejB3Q2JMSk8wa1B6eXVtcFM0ZkV5eEpDb0VOZUJHUmVwcG9QQmhCQ0JYMGZGbUdxT1FVRlpSaXdZQ1Q0dw",
+    "2090106767988416573"
   ],
   "daily": {
     "d": "2026-08-19",
