@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504552",
     "https://www.mmafighting.com/?p=504562",
     "https://www.mmafighting.com/?p=504588",
     "https://www.mmafighting.com/?p=504612",
@@ -1004,6 +1003,7 @@
     "https://www.sherdog.com/news/news/Islam-Makhachev-reveals-most-enjoyable-fight-of-career-201457",
     "https://www.sherdog.com/news/news/Islam-Makhachev-shares-his-prediction-for-UFC-White-House-main-event-201474",
     "https://www.sherdog.com/news/news/Islam-Makhachev-vows-to-humble-Ian-Garry-at-UFC-330-202304",
+    "https://www.sherdog.com/news/news/Islam-Makhachevs-UFC-GOAT-case-gets-pushback-from-former-champs-202431",
     "https://www.sherdog.com/news/news/Islam-Makhachevs-coach-backs-Ian-Garrys-No-1-UFC-ranking-after-loss-202405",
     "https://www.sherdog.com/news/news/Islam-Makhachevs-viral-phrase-gains-traction-across-other-professional-sports-201603",
     "https://www.sherdog.com/news/news/Israel-Adesanya-advises-Arman-Tsarukyan-to-limit-hanging-out-with-influencers-201558",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "DWCS Season 10, Week 2 results: Kaik Brito starches Namo Fazil with brutal knockout punch",
-      "ts": "2026-08-19T01:40:23+00:00"
-    },
     {
       "t": "DWCS video: Kaik Brito lands nuclear knockout on Namo Fazil",
       "ts": "2026-08-19T01:41:33+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "“Knock His A– Out”: Glover Teixeira Pushes for Alex Pereira vs. Josh Hokit After UFC White House Loss",
       "ts": "2026-08-19T07:12:00+00:00"
+    },
+    {
+      "t": "Islam Makhachev's UFC GOAT case gets pushback from former champs",
+      "ts": "2026-08-19T07:11:22+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Arman Tsarukyan claims streamer N3on has paid him $200,000 to walk out to his song at UFC 331",
-      "url": "https://bloodyelbow.com/2026/08/17/arman-tsarukyan-claims-streamer-n3on-has-paid-him-200000-to-walk-out-to-his-song-at-ufc-331/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-18T02:00:00+00:00"
-    },
     {
       "title": "Sean Strickland leaks brutal war of words with Tyron Woodley after Din Thomas criticism",
       "url": "https://bloodyelbow.com/2026/08/18/sean-strickland-leaks-brutal-war-of-words-with-tyron-woodley-after-din-thomas-criticism/",
@@ -2105,6 +2098,13 @@
       "source": "EssentiallySports",
       "cat": "ufc",
       "ts": "2026-08-19T07:12:00+00:00"
+    },
+    {
+      "title": "Islam Makhachev's UFC GOAT case gets pushback from former champs",
+      "url": "https://www.sherdog.com/news/news/Islam-Makhachevs-UFC-GOAT-case-gets-pushback-from-former-champs-202431",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-19T07:11:22+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiW0FVX3lxTE1vWERmbF9TUDV1a1lhQzBLMDdPaXpqbU1PLWxqSDJnRTNTLXl1VmxENUlmWExMTkhvTnRES01IQlVwVC01UkJheGc3ZmV3YnJqM0o4VEtRcXhXalE",
     "CBMiYEFVX3lxTE9QMDM3NHE5UklLMUNjQTlESXA1eFZBRWktTjRXUEdrLVg1Z1YxRHJFX1JNT0JLUEtOQ19pQ2VjZmFHLWM0M3RpU3dqRUZabmszdmxUMnhHb3B5M1NncHgyOA",
     "CBMirgFBVV95cUxPOFVBaTFPMnVfdGtEb1RqeDVzYVpwdC1kM1liQkUxX1o1M1dBWU1wR0J2X3poczhTR09xME14TFFNT004NEZQOFkwR3pwMDRwalYwZTktYTZrODlWalB1NlRhWFhEcXlZRzdnZUJuanJpUzUyZzlNVlluNXRlSm5UV3I5VkxjaUpWV1otbl9MVWJOb05iMmI0MU10dUJUUjBwRFdOYV9kbloyZTU4bkHSAbYBQVVfeXFMUG9VS0swUTRldkZ2WVV1ZjMzcnlnVS0xNW0wd0ktdTJaOG0zREk2WTZOeTF6TE1TWnZsYkFWTkdtemZBV0V2RDZoLVpaRFl4WkZOTmF1OEx5MGZtYjNDbGdJSnEtUXZwaUtwSXR2S3dYbVk4YXZwbHVRSllFdWVLMlZJTTdXVWI0QUVmeVJ4TzlsZXFzQW9LVlZlQ21mNmVwMWtVRnVuS0JveV90TjJvdjJrOGVaUnc",
     "CBMimwFBVV95cUxNWjloZEhIMU5hQmI5WHZEbk4tZUFQTEk3U2poOExHVzFabW1JdkNHOUxRaFNRSF93YXU2Z3BvZi1KV0FJcWtXNElqdVhhTHJTVDhjaVpoVVBCM1hOVW80T2puNlduTlFXcmxKY0NuejJhV2JfdFF5UmY0Wlo4TVV2OW1BRnFYZGVNamhCUEY0bW5XcFo1TW1aYmxvcw",
@@ -3312,7 +3311,8 @@
     "CBMihAFBVV95cUxPZjdRMlE4aThsaUIycjZ1TWs1RjhhaS1BUHBoUzJ0RlAyWlYwUmtWZlB2aEJORGQxUDFDSkh5Q2Z3ZTBFM0FIZEtqTGFROWh2bUZBMnNmMWtrRFdQMllWQzh6MTdDczlENHR5bXZMd3NUYWg2WlRDM1hna1ZZckFZM3BUZFc",
     "CBMioAFBVV95cUxPTmhCQUhpWWI4ZkFvV3dTS2VudV9kaVE3ZE8wRGJjdkl2U1BZb1JPd3dQQzNqLXlkUHBQU0dtU01yRW4zbGR6ZkhBQjNsVW0xN0tUTl9yR3JKXzAwRUE0OUZRakMxR1E4dFYzZ2ZhN0M1aVdrS1A5cW5TcXRhdE14UHFfVWNGTGJfYlB4cmI5YnNqMFFTelYwZGRPdjd3NUll",
     "CBMixwFBVV95cUxNYWRhVFZDZ2FVZ21iODdJYkY1TXlEWTI3dXRlUXF1Y3RaQXlMSnZHRXVHQVhGaXRNeE9ydDZTSm95cDhGdmRwNHIyNlpnTnF3bm5PNklDRUt1eTZ6TkdQODJIY01YZnlBUDlNNDJfYXpiRHEyVFZxdTZEYm90czJoWkdka2FSOGRKOHNZTzJISnlqX0RSbHA3REtDNTNWUTZvSF9kOXZxMzFxcDdjWHg4ZF9reTRuVVRhMmh6RjZ0OGpRMEVNdEIw",
-    "CBMi3AFBVV95cUxPWEI4MkVEVGg1MXh1ak1xb2JNNmxUazMzV1hsb1ZGWmtEbG5tS2hHSGdmMVJJd3kzemhnZXQ4OFNZeGk5VEc4eTJmUi1GWDhWVHdJaU9yYzJPSkM0Z205Si1DWjBtdXh5aC1WZWtYLWgza1dKa3lBYnFvQUVGYkFZOTFydlc1bl9YVHVMWTQ0MjJnRXdGNWRhTjVjdUpZLUJIWTVCNWdTWEpDTUZ6Zm5Db2V3amxaeGY3bEo2QVdISmNwWXltN1hJYy1vNlJPQ1Z0aGlUandqWTI1R1RJ"
+    "CBMi3AFBVV95cUxPWEI4MkVEVGg1MXh1ak1xb2JNNmxUazMzV1hsb1ZGWmtEbG5tS2hHSGdmMVJJd3kzemhnZXQ4OFNZeGk5VEc4eTJmUi1GWDhWVHdJaU9yYzJPSkM0Z205Si1DWjBtdXh5aC1WZWtYLWgza1dKa3lBYnFvQUVGYkFZOTFydlc1bl9YVHVMWTQ0MjJnRXdGNWRhTjVjdUpZLUJIWTVCNWdTWEpDTUZ6Zm5Db2V3amxaeGY3bEo2QVdISmNwWXltN1hJYy1vNlJPQ1Z0aGlUandqWTI1R1RJ",
+    "https://www.sherdog.com/news/news/Islam-Makhachevs-UFC-GOAT-case-gets-pushback-from-former-champs-202431"
   ],
   "daily": {
     "d": "2026-08-19",
