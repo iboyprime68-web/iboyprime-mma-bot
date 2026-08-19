@@ -176,9 +176,29 @@ def base_defaults():
         #                         stops, it just stops costing.
         #   max_staged_per_day    studio posts. Over the cap the story is
         #                         skipped with a printed note.
+        #
+        # The staging-memory gates (ytposts.stage_gate / GATE_DEFAULTS - the
+        # Aug 19 2026 "same old news over and over" fix):
+        #   stage_max_age_hours     a story older than this never stages
+        #   subject_cooldown_hours  a story sharing 1+ name with a recent
+        #                           staged post waits (breaking/ping-tier
+        #                           stories break through)
+        #   story_cooldown_hours    2+ shared names or a similar title = the
+        #                           same story; never re-staged inside this
+        #   staged_similar          token-Jaccard vs recently staged titles
+        #   cutout_cooldown_days    one fighter's promo mugshot rests this long
+        #   quiet_hours_utc         [start, end) UTC hours with NO owner ping
+        #                           (the post still stages, silently)
         "scoring": {"enabled": True, "stage_threshold": 70, "ping_threshold": 85,
                     "provider": "", "model": "", "max_tokens": 220, "timeout": 20,
-                    "max_ai_calls_per_day": 120, "max_staged_per_day": 6},
+                    "max_ai_calls_per_day": 120, "max_staged_per_day": 6,
+                    "stage_max_age_hours": 36, "subject_cooldown_hours": 12,
+                    "story_cooldown_hours": 72, "staged_similar": 0.5,
+                    "cutout_cooldown_days": 7, "quiet_hours_utc": [21, 8]},
+        # Where the composer app lives - each staged Discord message links
+        # straight to itself in the app (#s=<message id>). Public by nature
+        # (the app is password-gated); empty disables the link line.
+        "studio_url": "https://iboyprime-commands.root90014.workers.dev/studio",
         # How long a staged post lives in the hidden studio channel before
         # studio_clean.py deletes it (owner: keep that channel tidy). Counted
         # from the message timestamp, so no state file is needed, and only the
@@ -288,7 +308,9 @@ def validate_newsconfig(cfg, secret_values=()):
             problems.append("studio_retention_days must be >= 1")
     except (TypeError, ValueError):
         problems.append("studio_retention_days must be a whole number")
-    for key in ("max_ai_calls_per_day", "max_staged_per_day"):
+    for key in ("max_ai_calls_per_day", "max_staged_per_day",
+                "stage_max_age_hours", "subject_cooldown_hours",
+                "story_cooldown_hours", "cutout_cooldown_days"):
         if key not in sc:
             continue
         try:
@@ -296,6 +318,31 @@ def validate_newsconfig(cfg, secret_values=()):
                 problems.append("scoring %s must be >= 0" % key)
         except (TypeError, ValueError):
             problems.append("scoring %s must be a whole number" % key)
+    if "staged_similar" in sc:
+        try:
+            if not (0.0 < float(sc["staged_similar"]) <= 1.0):
+                problems.append("scoring staged_similar must be between 0 and 1")
+        except (TypeError, ValueError):
+            problems.append("scoring staged_similar must be a number")
+    qh = sc.get("quiet_hours_utc")
+    if qh is not None:
+        # bool is an int subclass, so [true, false] would pass a plain
+        # isinstance(int) check and then read as [1, 0] downstream
+        ok_qh = (isinstance(qh, list) and len(qh) == 2
+                 and all(isinstance(h, int) and not isinstance(h, bool)
+                         and 0 <= h <= 23 for h in qh))
+        if not ok_qh:
+            problems.append("scoring quiet_hours_utc must be [start, end] with "
+                            "UTC hours 0-23 (equal hours = never quiet)")
+    surl = str(cfg.get("studio_url", "") or "")
+    # no whitespace of any kind, no <>#: the url is wrapped in <...> in the
+    # staged message and gains its own #s=<id> fragment, so any of those
+    # characters corrupts the deep link
+    if surl and (not surl.startswith("https://")
+                 or re.search(r"[\s<>#]", surl)):
+        problems.append("studio_url must be an https:// URL with no spaces, "
+                        "angle brackets or #fragment (or empty to drop the "
+                        "link line)")
     cats = cfg.get("categories", {}) or {}
     if not isinstance(cats, dict) or not cats:
         problems.append("categories must be a non-empty object")
