@@ -1,5 +1,33 @@
 {
-  "v": 1,
+  "v": 2,
   "cursor": 4,
-  "last_day": "2026-08-19"
+  "staged_at": [
+    "2026-08-19T16:23:00+00:00",
+    "2026-08-19T20:07:03.210414+00:00"
+  ],
+  "asked": [
+    "Who is the most dangerous striker in the UFC right now?"
+  ],
+  "last_entry": {
+    "q": "Who is the most dangerous striker in the UFC right now?",
+    "type": "poll",
+    "options": [
+      {
+        "label": "Alex Pereira",
+        "emoji": "👊"
+      },
+      {
+        "label": "Mauricio Ruffy",
+        "emoji": "🔥"
+      },
+      {
+        "label": "Max Holloway",
+        "emoji": "💥"
+      },
+      {
+        "label": "Other (comment below)",
+        "emoji": "🗣️"
+      }
+    ]
+  }
 }
