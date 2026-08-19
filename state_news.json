@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS video: Trent Miller sleeps Douglas Rodrigues as biggest underdog on card",
-      "ts": "2026-08-19T01:00:47+00:00"
-    },
-    {
       "t": "DWCS video: Kaik Brito lands nuclear knockout on Namo Fazil",
       "ts": "2026-08-19T01:41:33+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Georges St-Pierre's coach recalls insightful conversation with Khabib Nurmagomedov’s father about wrestling roots",
       "ts": "2026-08-19T15:20:00+00:00"
+    },
+    {
+      "t": "UFC Hall of Famer: Ian Machado Garry's friendliness 'a sign of weakness' https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-330-michael-b…",
+      "ts": "2026-08-19T15:25:46+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "'Uncrowned champion' of ONE pivots toward UFC through Dana White's Contender Series",
-      "url": "https://sports.yahoo.com/articles/uncrowned-champion-one-pivots-toward-032415259.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T03:24:15+00:00"
-    },
     {
       "title": "DWCS 10 - Week 2 Highlights",
       "url": "https://sports.yahoo.com/articles/dwcs-10-week-2-highlights-035741759.html",
@@ -2105,6 +2098,13 @@
       "source": "Sportskeeda",
       "cat": "ufc",
       "ts": "2026-08-19T15:20:00+00:00"
+    },
+    {
+      "title": "UFC Hall of Famer: Ian Machado Garry's friendliness 'a sign of weakness' https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-330-michael-b…",
+      "url": "https://nitter.net/MMAJunkie/status/2090097901644976386#m",
+      "source": "MMA Junkie on X",
+      "cat": "ufc",
+      "ts": "2026-08-19T15:25:46+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiogFBVV95cUxQUF8wTEgzM3lkOHR2NWQxTWpqNkV3bTd0UTNNRm5sTmR2SGFhSmhqVGFPdHFmbHEwTG1mSTBlYVNidTZ2emtHOG1jX1ZId3h3WE56ZGo0SmtIRTN1eU5uQVNveUwtZUNRSFpGZE5WNXpFZGRJLUtfQjcxWVZJaTl1MFNVaXg2aXdTNzJhRG40X1lVSDc0UDk3Vk1ucXRETzViaXc",
     "CBMiowFBVV95cUxOMThPNEZPdkdOaGg0SU1EbURiU3RSbGdaQWl2S2NubnhGSUtRWjRyR0RuNy1HbHJaWTZSX1k5SmgzdlQydUhwUkNzSm1FWVR3b3ZkR3o0c3RhcW43b3ZKY0k0ZU1kUWF1RU9ZbS1QUTZESkoxYjZkTC1HaHU4WDFoMVhzMlFEV3VpRzlhVjlXb0VUeXd4cUN3TXlFdERfeXQ5eTFv",
     "CBMifEFVX3lxTE1KNjF6Z0NMMXlSUVVuNlZtRzY0bGhhNkFpVDN3WGpOcHNTanB0aWpCMU1RWHpaYUFtWVRFdEtvMzBBMjVPTmZqanpTRHFqTFlBaGxmY2p6UXkxSXpTWmZIOHJTak9IMHIwbU1HNi1femVzLXBkSmM5d2dxYno",
     "CBMikAFBVV95cUxOc3VQQ2VtQlNpT2ZOX2s0SzI4TnBSTGdaS2tjTjloYTB3aVo1OXQ4V0tLRHAzMm5Nck1Dd2F2QTduNjdlS2lodE5rSmdWOXFSTWpKRzQ1cUlXeVRWWFNOcDJocEVaQ2hFQ0JwUTNuNWlvWnhlN0pZMjV2dTV0WWN1OS03NEpxVmNiSzJyZ3VKNTI",
@@ -3312,7 +3311,8 @@
     "CBMi1AFBVV95cUxNNVVKUWtaOVItN0lETTlTSjFmNUp4Z1ZTdm9YMHlyTTlCTGhsMGZhcDVuTzRKZUFmM0J3d0VDMVJESlExMmJRS0VOMjAxRzhJZjRCWTQyandRYzBHWnVod1lCa1VUY2pPUUZRWWp5MDY4WDdqbzhjRjRkb3duWXFBc1FmM1dwbEx1MmFMTnJIVXFwWFAtb3IyUzgtUTl5OUFqc3ZqalZMcWZOQzE0UWRnZmJ3b3d0TXZObkJhdVptcGxuTzM0cFRWTU13WlVNRGNnbHhFMg",
     "CBMizgFBVV95cUxPYmtXSU9HTTI5LUFaa0VVWVFGOFhZY3FfRnNWay1sY1h4QmZnZnQwZFZ5ZzNUeW5PeVpIUnRwRFpLUEhJNlAwS25wQ2twakgzeEFjb19EZGdxLUJieWZfYXVyZHljZ21VY2w5c3k4MU16dVQxNU1WUVNveDRjMGxWRmxEZjU2eHhid3Y0c0d6WkRyUldEUVJiSl96amJGajc3UjQ2dVlnQk8wXzlTd3dvelJrQXZHVG9ZbXN5eXNnT3oyTm5BRC1PbmJ5N0dzQQ",
     "CBMifEFVX3lxTE1udkdXWGVOYk9xcWJrcGg4RGU0VjM0ajI3WGcwcWhzX0Q3VTJRZjNFcjNzNUJ1c2dJaEQyUlhGM00xQ0JTX29Pb0hZRFNFZ2dZd3ZGTEQ0NHZfSVU1RWpobkxTdjFQUkw0TV9mUHQ3S0k4eTlidmRYNkxpZFQ",
-    "CBMi1gFBVV95cUxOZ3VIVFBxejhiN0twTWNGQmJ3eXUtejIzMUxWNlJ5UjhvVUZ5b2JxNzBUNnJpLXowRFFteGVFZW1ZMTdMQUVtRmx6bWJZamV3Zkx4NXFqbDRBLXd2TkNXYVhuR0NLZV9kZ09TNWlhSzhINmJ0Uzc2ZmNUdGRBOWlwa1Z4UGNGczRoS2JlZzFrcXdoN2pHY1NPaV9QcWhlQUZYZThiY0MwWVR5dkI3ZS1Xd2hXS3FPcWdHOEEybDJXSzZjaEp5WmxSTWdnVEZabE5MZXBuU3JB"
+    "CBMi1gFBVV95cUxOZ3VIVFBxejhiN0twTWNGQmJ3eXUtejIzMUxWNlJ5UjhvVUZ5b2JxNzBUNnJpLXowRFFteGVFZW1ZMTdMQUVtRmx6bWJZamV3Zkx4NXFqbDRBLXd2TkNXYVhuR0NLZV9kZ09TNWlhSzhINmJ0Uzc2ZmNUdGRBOWlwa1Z4UGNGczRoS2JlZzFrcXdoN2pHY1NPaV9QcWhlQUZYZThiY0MwWVR5dkI3ZS1Xd2hXS3FPcWdHOEEybDJXSzZjaEp5WmxSTWdnVEZabE5MZXBuU3JB",
+    "2090097901644976386"
   ],
   "daily": {
     "d": "2026-08-19",
