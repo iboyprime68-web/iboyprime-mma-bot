@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS Season 10, Week 2 results: Kaik Brito punches way to UFC contract",
-      "ts": "2026-08-19T01:45:14+00:00"
-    },
-    {
-      "t": "DWCS 10, Week 2 Post-Fight Press Conference",
-      "ts": "2026-08-19T01:48:23+00:00"
-    },
-    {
       "t": "Dana White Signs Six Fighters After DWCS Week 2",
       "ts": "2026-08-19T03:30:28+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Dana White Reveals Massive Combined Earnings for DWCS Grads",
       "ts": "2026-08-19T05:35:02+00:00"
+    },
+    {
+      "t": "White On Chimaev's UFC 333 Push After Title Loss",
+      "ts": "2026-08-19T05:31:19+00:00"
+    },
+    {
+      "t": "Cristian Perez Punches Way to Exciting Knockout Aug. 18",
+      "ts": "2026-08-19T05:35:03+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Sacramento: Make predictions for Anthony Hernandez vs. Gregory Rodrigues",
-      "url": "https://sports.yahoo.com/articles/ufc-sacramento-predictions-anthony-hernandez-134020990.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T13:40:20+00:00"
-    },
-    {
-      "title": "Seven fights official for UFC 332 including reported matchups for Payton Talbott and Ateba Gautier",
-      "url": "https://bloodyelbow.com/2026/08/18/seven-fights-official-for-ufc-332-including-reported-matchups-for-payton-talbott-and-ateba-gautier/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-18T15:00:00+00:00"
-    },
     {
       "title": "UFC 332 adds several new bouts, including Johnny Walker’s heavyweight debut",
       "url": "https://sports.yahoo.com/articles/ufc-332-adds-several-bouts-153000730.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-19T05:35:02+00:00"
+    },
+    {
+      "title": "White On Chimaev's UFC 333 Push After Title Loss",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xaEhUVmMzX1VmczNySGNyVlQzZXlRY1B2RGZMRVVjbFNxOVNKY2NxbVJCei1TUjhGMTVTa1lVUHNObmJYbUs2OVZkRmdxcGptZVpEcmd4RWlDeWt4dVNkTUo2ZkE?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T05:31:19+00:00"
+    },
+    {
+      "title": "Cristian Perez Punches Way to Exciting Knockout Aug. 18",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNU21Cb0FfX1BaRWpicFl6MG5XbDMzTmN4dm5XYzUwT2FNeVZZaW02QW9YaWJZVDB2RkgxSU1WcXg0RmpMSm1BZ3Bhdlg0eFZjUUtkTUpHRm9QbG4zcXEwVE9GQXdCWnBBdUJQQUttRVdFemNSYl9XMFVtZk5RcGk5S041ZGF5cURVUm16TW1DczFJc1B1emxDMGZoVjg?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-19T05:35:03+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiggFBVV95cUxPaFcweTU1RERvX0s0YTd5OHd5dnBlY2o2d1RtTlpRdlp0ZDFiWWw1bnd3a3U5WjhQR1pQRFZCVWpLOUNWcVBKX1Q3T1pxRmVhNmF3cndSeHdDemFsczhMV0s0R3JPSUdFamh0T0ZEWTNDWWhMSWZxOVdaaF8xSkxZdklR",
     "CBMiYEFVX3lxTE9xUlJwV3d0NVhIWWJpVXJWaF82TWE0UGZXdkpWVmF4QkU5a0dQNHY4UWdBZ0FybUltYnhHSWpnMW1tSmJPZDVEaXdTd1d6RFJxdjVjWWJ0Z21mZTVvb1gybA",
     "CBMiuwJBVV95cUxNODl0dXVObnlQS0VsN2FUdlVjR0xEUU8xczVtbTJhcTIzVXpQclFEcjI3LW40V0oxbGFNVGplRWxBUEd1blRwOExmZnFMTWdnOFYtMFQ0OVUzN1hhSDZ6Nnl4bmpIbWI5VGwtbTdtMFhPOHcyWDhDOG9jcTRxRE9HaktVY3ZWeGw0elJjbjRESkJtRXktdEp0dTdWQ25rcGh3b2N4VW9ic3h6TXVSQ2s1UFIteVdOLTNzME5NRl9UQmNDR0t2RDQySlpWYktPUGcyZTRKYWNfU1Vub3V5Y1p6aVZyellzd2p6aFRxak1aM0tRYXhseHFNSGJlYV9FdENzeWIxU1ZoTkh1NmE2c0JwOUVmMUZMNmJOVjVLa19pVExnSGE1Y2dndWF3eENmcXdWVjRCMTVUS2lKQjjSAcACQVVfeXFMTnhNVFVKcFF0d2FGV1h2UmdGSzc4YVJBZzFTbm53UzlIdUs3TnNYdDlHbDF4b3NYS3FNSkJSRC1WdklPRGJQOGlGM2o1S25RSHd3QUowUmFxZXlPXzMzUXpfVW5wOVlvcGR4YWxNUDdVRW14TlFBalo0SVRPeDJDSFQyb3RqVHlHTGMzODZJWDlpZk1NOTBOanc0cFpVS2J3MzMtaWRFOXViYUZrUjF1LS1lWEV2TjBjNmVWaWdveUF3ekhZbUEwMFJidFotbDBTZ05ISFpQRVVrdUFqN3UyOGVLcU5VOUNyUGl4Ry13Q2lLMFEzb0ZkVG9hR0xDejN3dkNSdjZ3OUtqQkg5SExxSVJrNDN0YnlpSllOSVNhdnJacWl4UW04Y1g5VDNBU2FWRTRFUlJWeXZkU1d0MXV1UVI",
     "CBMiakFVX3lxTE9ZR1U4MTJwSFcwVzdwQUJuMzRSSmRhdHNzQzR4TllrVWFsam5pUF9YbTBvVUpKbHEzZzQ0Z2V1bU80QUMxYVFaandlUmFKRHI5c0tZUnNnUWNUVHJnRXk1eVdYN3QxMmh5LUE",
@@ -3312,7 +3311,8 @@
     "CBMiiAFBVV95cUxQWDdJd0M1eGxTNUxDVUtkZ2FfNS1sODAwR0tsbVdfR1Z6d1h5eU1GdXZYZGRSUGx6NzVzdFQ0WnRGMEE5LUc3WHNDUTFvd2lpYlNJWE9qNXo0VEZxV3J4MmgzSmc4a1pPeUhvWThmTjhFbUVpbTJSVW9ESU12UlZCaEx3T2hRSlp0",
     "CBMipgFBVV95cUxOS05FVWV6bEhSUEVZanVPTUx0SjM3dXJGcHZZT0s0TFFWTmtZSXBWeG8wdDIzOW1OdkJHYkUwT2lVZjNNRHh5Qk93VVlVWUZlQ1h5Wk9UTjV3UVFXZ2NZb3JVU1BhNkVVc01nT3ZRdTdhbjZ1eG1hWmc5SGZWcTJoQ1d5Zll6YkFXUVVBWndWbW92VXdoaWxSa0dXbnVIbjAtSGM4eDJn",
     "CBMigwFBVV95cUxPWktxV2ItUGd0NFQzWlNKTVZ3MWNkeGNMOGhyOE5DY0hBUlp0YTQwTlotNGZJYW9PNHNZNU1tY3ZHcG5QcmNlbU1zS3FNcnZDd2N3ci1CaDR5QkJkRlFWcW8ybHBHbGp1VVA5b2pJMk9rWEltLVFfNk1tcjNxd3RHZjgtOA",
-    "CBMicEFVX3lxTE1CN0k0emJCM3FWRS0xSVN5NzY1ME0yaWt0Q3VTSGpWdUQya0VyTGJyQUdxX05Sb3VXa0lvTW9qWmxYOVNCdFF5TnlCOEttTUNwd2dsWmlDSVg5MnVQcnVBVmZlTmltemZidEFoNFU5WlU"
+    "CBMicEFVX3lxTE1CN0k0emJCM3FWRS0xSVN5NzY1ME0yaWt0Q3VTSGpWdUQya0VyTGJyQUdxX05Sb3VXa0lvTW9qWmxYOVNCdFF5TnlCOEttTUNwd2dsWmlDSVg5MnVQcnVBVmZlTmltemZidEFoNFU5WlU",
+    "CBMiZEFVX3lxTE0xaEhUVmMzX1VmczNySGNyVlQzZXlRY1B2RGZMRVVjbFNxOVNKY2NxbVJCei1TUjhGMTVTa1lVUHNObmJYbUs2OVZkRmdxcGptZVpEcmd4RWlDeWt4dVNkTUo2ZkE"
   ],
   "daily": {
     "d": "2026-08-19",
