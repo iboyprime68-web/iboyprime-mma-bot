@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White reacts to a spectacular night of #DWCS and breaks down how much money UFC fighters who earned contracts through the Contender Series have…",
-      "ts": "2026-08-19T04:19:17+00:00"
-    },
-    {
-      "t": "Kaik Brito reveals he had to block a lot of fans on social media ahead of #DWCS and says he envisioned the knockout in front of Dana White 👊",
-      "ts": "2026-08-19T04:23:42+00:00"
-    },
-    {
       "t": "Weaponized Steel Cage Match & More Set For Next Week’s WWE NXT",
       "ts": "2026-08-19T08:30:20+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Cris Cyborg walks back retirement talk ahead of PFL Tampa",
       "ts": "2026-08-18T23:30:34+00:00"
+    },
+    {
+      "t": "Carlos Prates fires message to Islam Makhachev as pair push for December title showdown",
+      "ts": "2026-08-19T05:00:00+00:00"
+    },
+    {
+      "t": "Victim of ‘the greatest DWCS KO ever’ breaks his silence after brutal loss",
+      "ts": "2026-08-19T10:33:11+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "SHOWCASING THE POWER 💪 Alik Lorenz proves he is not to be mess with after a HUGE RD1 knockout! [ DWCS is LIVE NOW on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2089867515312922990#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T00:10:18+00:00"
-    },
-    {
-      "title": "DWCS video: Alik Lorenz hammerfists Mahamed Aly into unconsciousness https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/18/ufc-dana-white-conten…",
-      "url": "https://nitter.net/MMAJunkie/status/2089867551584973214#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T00:10:26+00:00"
-    },
     {
       "title": "Cristian Perez landing big 🎯 [ DWCS is LIVE NOW on @ParamountPlus ]",
       "url": "https://nitter.net/ufc/status/2089869872440480087#m",
@@ -2105,6 +2091,20 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-18T22:40:36+00:00"
+    },
+    {
+      "title": "Carlos Prates fires message to Islam Makhachev as pair push for December title showdown",
+      "url": "https://bloodyelbow.com/2026/08/19/carlos-prates-fires-message-to-islam-makhachev-as-pair-push-for-december-title-showdown/",
+      "source": "Bloody Elbow",
+      "cat": "ufc",
+      "ts": "2026-08-19T05:00:00+00:00"
+    },
+    {
+      "title": "Victim of ‘the greatest DWCS KO ever’ breaks his silence after brutal loss",
+      "url": "https://bloodyelbow.com/2026/08/19/victim-of-the-greatest-dwcs-ko-ever-breaks-his-silence-after-brutal-loss/",
+      "source": "Bloody Elbow",
+      "cat": "ufc",
+      "ts": "2026-08-19T10:33:11+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMi3wFBVV95cUxPRGpJT3JPYmp4ekRIUXpUdGZrQ1ljSHR3MHM5VHF1dlFJTEwwbzJ1WkJ6ME12a2QwcU9HLUF4aGszRTBfV0VrdlMyeHZmRXRXNm5ad04tMXpWbjhNVlBFUURVVnhsX0U1LTRMNmljb2gwZ29yUENfS3pDakxEUlZSd3NYNWtQcTdETWJQaW1CblhuREN3QXMtekpJbkFVMGZLbVBJd1J6NFJUQVB3VHVYRG5zWks1NkJxbVpxNXdSX0tUbDhxeHBlUVZ4T1c0Y1ZRbHJXSW55LXkyWnAzNkpv",
     "CBMizwFBVV95cUxNV3JTZVhxSlFQRDN6WllmUDgweWNkU05tV0JwN1dSczAxMktvdU55dWgyMEdKQjlReG1PZ3prdjM0bVJreGpNZl9ja3hVRXVSeElxMTU3VDZjZXFuYzNidGMzdVMzeG5OOVlZVEdYTjljX0VmOFV3NUxtcl8wRmFhNHlIaUY0Nkl1WjR4U2Y3dUptMURLMElyYUk2M3hlZmh6V0FuZ2V3c3d6bWdqUDg2OXdtOV9HUWFDeVlSSXJYUUVsUjczOWlQUWVxX0wwczQ",
     "CBMikgFBVV95cUxOTktUekpWXzlfU3hQTV96eXF0UXZJMnpmUU5TU3A0T0tKclVJbnFWR1lxbGMxODUzRUtnOTNTcEJaUWtpeWJpOUI3UXMzRnB2Z2paeXlLbjIzdHpuSk1OVzdzTnN1NnJYRDBfcHJyX3F3eHVBcENxeE1pOVNER3IwdXluXzA2d0JUWi1UYmMtQWctZw",
     "CBMiugFBVV95cUxNSmhFYlVwSTdCay16Q0ZBb2p6SVQyRkVCcmYxUDFxVC1QcEZRNGZhWVFPeEdZR3FqXzBnWjl6QjlzcXhJRFkxT2JtR05kRFllazJBaU4wcUxOVjRHSXF3R2dqeEExdDhxOHA0dVZaSHVNZVp5RXZDNHlZNzV1WldLdFlVRDhEZW5nbG0tVWdFRUdhMUNpYjBJeDlzZXlOd2ZWelhqeHNJa01FWmpoNE41ckROa3gwWkJxTlE",
@@ -3312,7 +3311,8 @@
     "CBMi6gFBVV95cUxPcE5sV3pDMmdnWU1SY2EtQjBUUDI2OURJU2gtMFpwLVBKcDgzWFg5N2psOXlnXzhBcEQ2cGhRUDM5aHZzS1o1Y1ZDMnN6RVJPMFdzTnZfTFQ1eTlLRS1nTUl1dERoZXZEemM4U0JObmN5eFNJTzB0REU1UWpLNktrVFg4UGc1eEowX2NXY2hUVExfQU1HX2NpZDNSeFp2X1VTU1RuN1pObHlkTmpldmYwZmVSOG0td1hfVXZBUzZTVVVqZDRfS2VudU5Wa1dzMExFZWx4ZmtnUGFJWUVjdTgwVGJqMWp6VC1iWUE",
     "CBMilwFBVV95cUxPSFJoSzhKYzdiZFV4VWxIQkh4TTBEbGtnQ1JNemU4VVNLbmhsT1dZYm45blpsS3dLeXpWNVU2YlFoTnR6c1EzU0ItMjlZeVVkdE5pRklCS19jUllVbVRWRmgzbFhoTVBRVkExdGh3ZTlibFdIRXVCT2s1elZLOFVuazdQMmNxRE5nTUo4RVdQTjNPQlA3Vndj",
     "CBMixgFBVV95cUxNT1pnQzYya3M2WXUwUF91cjR3Mi1obklEN09RSVV4cU9hbzBkbTJwNWp4eGNLTzU1WlFxRWs4eFRVZVNMZUJ5MnV4b3VqM2FvZmNjQnFWSVFXaGFFZjhUbXEwdk1WV1B1SFlKemRzZTlreGNKeEpaQXZtRERPWGpscG9MbGd2djVNbXAyZ3Bnak1iYUNadlo2ZHExMGVnSUk2ajZKZXhjVmpKdEY2ZEZZU01ZWDNfalE3ZDJHSnJwSkkxRjV4S2c",
-    "CBMiVEFVX3lxTE5uV2FKODFnandWc0FaSkpZc055U2RGZDVCVlRXSjZBWmQwLWk1SGZLM0wzRUR6NlhvMkYxMmI0b2ZWZWNJamlscGdIZEl2S21STUVUXw"
+    "CBMiVEFVX3lxTE5uV2FKODFnandWc0FaSkpZc055U2RGZDVCVlRXSjZBWmQwLWk1SGZLM0wzRUR6NlhvMkYxMmI0b2ZWZWNJamlscGdIZEl2S21STUVUXw",
+    "https://bloodyelbow.com/?p=327660"
   ],
   "daily": {
     "d": "2026-08-19",
