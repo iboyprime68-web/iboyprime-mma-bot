@@ -159,6 +159,36 @@ check("the shipped newsconfig.json carries both caps and the emphasis key "
       _NJSON.get("emphasis") == "color" and
       _NJSON["scoring"]["max_ai_calls_per_day"] == 120 and
       _NJSON["scoring"]["max_staged_per_day"] == 6)
+# -- the staging-memory gates + quiet hours + studio_url (Aug 19 2026) --------
+check("every gate key ships in the py defaults AND the json, with equal values",
+      all(NCFG["scoring"][k] == _NJSON["scoring"][k] == v
+          for k, v in (("stage_max_age_hours", 36), ("subject_cooldown_hours", 12),
+                       ("story_cooldown_hours", 72), ("staged_similar", 0.5),
+                       ("cutout_cooldown_days", 7)))
+      and NCFG["scoring"]["quiet_hours_utc"] == [21, 8]
+      and _NJSON["scoring"]["quiet_hours_utc"] == [21, 8]
+      and NCFG["studio_url"] == _NJSON["studio_url"]
+      and NCFG["studio_url"].startswith("https://"))
+_bad = newsconfig.base_defaults(); _bad["scoring"]["subject_cooldown_hours"] = -3
+check("a negative cooldown is flagged",
+      any("subject_cooldown_hours" in p for p in newsconfig.validate_newsconfig(_bad)))
+_bad = newsconfig.base_defaults(); _bad["scoring"]["staged_similar"] = 1.5
+check("an out-of-range staged_similar is flagged",
+      any("staged_similar" in p for p in newsconfig.validate_newsconfig(_bad)))
+_bad = newsconfig.base_defaults(); _bad["scoring"]["quiet_hours_utc"] = [True, False]
+check("booleans are NOT hours (bool is an int subclass - the trap)",
+      any("quiet_hours_utc" in p for p in newsconfig.validate_newsconfig(_bad)))
+_bad = newsconfig.base_defaults(); _bad["scoring"]["quiet_hours_utc"] = [25, 3]
+check("an out-of-range quiet hour is flagged",
+      any("quiet_hours_utc" in p for p in newsconfig.validate_newsconfig(_bad)))
+for _surl in ("http://insecure.example/studio", "https://x.example/a b",
+              "https://x.example/studio#frag", "https://x.example/<studio>"):
+    _bad = newsconfig.base_defaults(); _bad["studio_url"] = _surl
+    check("studio_url rejects %r" % _surl[:34],
+          any("studio_url" in p for p in newsconfig.validate_newsconfig(_bad)))
+_ok = newsconfig.base_defaults(); _ok["studio_url"] = ""
+check("an empty studio_url validates (it just drops the link line)",
+      newsconfig.validate_newsconfig(_ok) == [])
 # -- multi-provider scoring + studio retention (Aug 2026) --------------------
 import scorer as _nc_scorer
 check("the provider list is scorer's table, never a second copy (two hard-coded "
@@ -1846,10 +1876,12 @@ common.post_file = lambda chan, content, path, filename=None, allowed_mentions=N
 _yt_og_real = ytposts.og_image
 ytposts.og_image = lambda link, timeout=8: ""
 _yt_fc_real = ytposts.fighter_cutout
-ytposts.fighter_cutout = lambda text: ""      # no network in tests
+ytposts.fighter_cutout = (lambda text, hist=None, now=None, days=7:
+                          ("", ""))          # no network in tests
 POSTS_FULL.clear()
 check("no studio channel reports and posts nothing",
-      "studio" in ytposts.stage_story({"title": "T"}, 80, "w", {"channels": {}}, {})
+      "studio" in ytposts.stage_story({"title": "T"}, 80, "w",
+                                      {"channels": {}}, {})["status"]
       and not POSTS_FULL and not _SF)
 _yt_bots = {"channels": {"studio": "ST"}, "owner_id": "OWN1"}
 _yt_ncfg = {"scoring": {"ping_threshold": 85}}
@@ -1858,8 +1890,13 @@ _st = ytposts.stage_story({"title": "Big story", "desc": "Context here.",
                           75, "heuristic", _yt_bots, _yt_ncfg)
 _msg = (_SF[-1] if _SF else POSTS_FULL[-1])
 check("below ping threshold stages SILENT with no mention",
-      "staged" in _st and _msg["chan"] == "ST" and _msg["silent"] is True
+      "staged" in _st["status"] and _msg["chan"] == "ST" and _msg["silent"] is True
       and not (_msg["mentions"] or {}).get("users"))
+check("stage_story reports ok + what fronted the card (the staging memory "
+      "records only posts that actually landed)",
+      _st.get("ok") is True
+      and (_st.get("img") in ("photo", "wash", "none")
+           or str(_st.get("img")).startswith("cutout:")))
 check("caption rides in a copyable code block",
       "```" in _msg["content"] and "Big story" in _msg["content"])
 ytposts.stage_story({"title": "Huge story", "desc": "", "source": "ESPN", "link": ""},
@@ -1950,9 +1987,9 @@ def _yt_gj(url, headers=None, tries=4, timeout=30):
 common.get_json = _yt_gj
 _yt_fb_real = ytposts.fetch_bytes
 ytposts.fetch_bytes = lambda url, timeout=10, cap=8*1024*1024: b"CUTOUTBYTES"
-_yt_cp = ytposts.fighter_cutout("Tsarukyan out of UFC 330")
-check("cutout fallback downloads the matched fighter's promo image",
-      _yt_cp and os.path.exists(_yt_cp)
+_yt_cp, _yt_cfid = ytposts.fighter_cutout("Tsarukyan out of UFC 330")
+check("cutout fallback downloads the matched fighter's promo image + id",
+      _yt_cp and os.path.exists(_yt_cp) and _yt_cfid == "arman-tsarukyan"
       and open(_yt_cp, "rb").read() == b"CUTOUTBYTES"
       and _yt_gj_calls == [ytposts.RANKINGS_API,
                            ytposts.FIGHTER_API % "arman-tsarukyan"])
@@ -1960,33 +1997,145 @@ if _yt_cp:
     os.remove(_yt_cp)
 _yt_gj_calls.clear()
 check("no fighter in the text means one rankings call and no path",
-      ytposts.fighter_cutout("nothing to see") == ""
+      ytposts.fighter_cutout("nothing to see") == ("", "")
       and _yt_gj_calls == [ytposts.RANKINGS_API])
 ytposts.fetch_bytes = lambda url, timeout=10, cap=8*1024*1024: None
-check("a dead image fetch fails silent", ytposts.fighter_cutout("Tsarukyan") == "")
+check("a dead image fetch fails silent",
+      ytposts.fighter_cutout("Tsarukyan") == ("", ""))
+ytposts.fetch_bytes = _yt_fb_real
+
+# -- cutout fatigue: the SAME mugshot must not front two posts in a week -----
+ytposts.fetch_bytes = lambda url, timeout=10, cap=8*1024*1024: b"CUTOUTBYTES"
+_yt_now = common.now_utc()
+_yt_hist_cut = [{"ts": _yt_now.isoformat(), "t": "earlier Tsarukyan story",
+                 "names": ["tsarukyan"], "img": "cutout:arman-tsarukyan"}]
+check("a resting fighter's cutout is skipped (blocked by staged_hist)",
+      ytposts.cutout_blocked("arman-tsarukyan", _yt_hist_cut, _yt_now, 7) is True
+      and ytposts.fighter_cutout("Tsarukyan out of UFC 330",
+                                 hist=_yt_hist_cut, now=_yt_now) == ("", ""))
+_yt_old = [{"ts": (_yt_now - common.datetime.timedelta(days=9)).isoformat(),
+            "t": "old", "names": ["tsarukyan"], "img": "cutout:arman-tsarukyan"}]
+_yt_cp2, _yt_cfid2 = ytposts.fighter_cutout("Tsarukyan returns",
+                                            hist=_yt_old, now=_yt_now)
+check("the rest expires: after cutout_cooldown_days the cutout is usable again",
+      _yt_cfid2 == "arman-tsarukyan" and _yt_cp2 and os.path.exists(_yt_cp2))
+if _yt_cp2:
+    os.remove(_yt_cp2)
+_yt_gj2 = common.get_json
+def _yt_gj_two(url, headers=None, tries=4, timeout=30):
+    if url == ytposts.RANKINGS_API:
+        return 200, _yt_rankings
+    if url == ytposts.FIGHTER_API % "islam-makhachev":
+        return 200, {"imgUrl": "https://img.example/islam.png"}
+    if url == ytposts.FIGHTER_API % "arman-tsarukyan":
+        return 200, {"imgUrl": "https://img.example/arman.png"}
+    return 404, {}
+common.get_json = _yt_gj_two
+_yt_hist_mak = [{"ts": _yt_now.isoformat(), "t": "x", "names": ["makhachev"],
+                 "img": "cutout:islam-makhachev"}]
+_yt_cp3, _yt_cfid3 = ytposts.fighter_cutout(
+    "Islam Makhachev meets Tsarukyan", hist=_yt_hist_mak, now=_yt_now)
+check("when the first-named fighter is resting the SECOND named one fronts",
+      _yt_cfid3 == "arman-tsarukyan" and _yt_cp3)
+if _yt_cp3:
+    os.remove(_yt_cp3)
+check("match_fighters orders every named fighter by position",
+      ytposts.match_fighters("Islam Makhachev meets Tsarukyan", _yt_map)
+      == ["islam-makhachev", "arman-tsarukyan"])
 ytposts.fetch_bytes = _yt_fb_real
 common.get_json = _yt_gj_real
 
 # stage_story wires the cutout into the render spec on the no-photo path
 _YT_SPECS.clear()
-ytposts.fighter_cutout = lambda text: ""
+ytposts.fighter_cutout = lambda text, **kw: ("", "")
 ytposts.stage_story({"title": "Big story", "desc": "", "source": "ESPN",
                      "link": "", "line": "NO NAME HERE"},
                     75, "heuristic", _yt_bots, _yt_ncfg)
 _yt_spec2 = _YT_SPECS[-1][1] if _YT_SPECS else {}
 check("no cutout match stages with cutout_path None",
       _yt_spec2.get("cutout_path") is None)
+check("every render spec names its texture plate (deterministic per guid)",
+      _yt_spec2.get("background") in ytposts.PLATES)
 _yt_fd, _yt_tmp = __import__("tempfile").mkstemp(suffix=".png")
 os.close(_yt_fd)
 with open(_yt_tmp, "wb") as _yt_fh:
     _yt_fh.write(b"cut")
-ytposts.fighter_cutout = lambda text: _yt_tmp
-ytposts.stage_story({"title": "Tsarukyan out", "desc": "", "source": "ESPN",
-                     "link": "", "line": "TSARUKYAN OUT"},
-                    75, "heuristic", _yt_bots, _yt_ncfg)
+ytposts.fighter_cutout = lambda text, **kw: (_yt_tmp, "arman-tsarukyan")
+_st_cut = ytposts.stage_story({"title": "Tsarukyan out", "desc": "",
+                               "source": "ESPN", "link": "",
+                               "line": "TSARUKYAN OUT"},
+                              75, "heuristic", _yt_bots, _yt_ncfg)
 _yt_spec3 = _YT_SPECS[-1][1] if _YT_SPECS else {}
 check("stage passes the cutout path into the render spec and cleans it up",
       _yt_spec3.get("cutout_path") == _yt_tmp and not os.path.exists(_yt_tmp))
+check("a cutout stage reports WHICH fighter fronted it (fatigue bookkeeping)",
+      _st_cut.get("img") == "cutout:arman-tsarukyan")
+
+# -- plate rotation is deterministic and spread across the plate set ----------
+check("pick_plate is deterministic per guid",
+      ytposts.pick_plate("g-1") == ytposts.pick_plate("g-1")
+      and all(ytposts.pick_plate(g) in ytposts.PLATES
+              for g in ("a", "b", "c", "d", "e")))
+check("pick_plate actually varies across stories",
+      len({ytposts.pick_plate("guid-%d" % i) for i in range(24)}) >= 2)
+# PLATES is a copy of postcard.BACKGROUNDS (ytposts must stay importable
+# without Pillow, so it cannot import postcard) - pin the two via SOURCE so a
+# new plate added to one file cannot silently miss the other
+_pc_src_plates = open(os.path.join(_BOTS if os.path.isdir(_BOTS) else _HERE,
+                                   "postcard.py"), encoding="utf-8").read()
+check("PLATES mirrors postcard.BACKGROUNDS (pinned via source)",
+      'BACKGROUNDS = ("arena", "spotlight", "cage", "smoke")' in _pc_src_plates
+      and ytposts.PLATES == ("arena", "spotlight", "cage", "smoke"))
+
+# -- quiet hours: the 4:21am ping dies, the post itself survives -------------
+_yt_night = common.datetime.datetime(2024, 1, 2, 3, 21,
+                                     tzinfo=common.datetime.timezone.utc)
+check("quiet_now: wrapping window covers the small hours, junk never quiets",
+      ytposts.quiet_now({"quiet_hours_utc": [21, 8]}, _yt_night) is True
+      and ytposts.quiet_now({"quiet_hours_utc": [21, 8]}, _NOON) is False
+      and ytposts.quiet_now({"quiet_hours_utc": [0, 0]}, _yt_night) is False
+      and ytposts.quiet_now({"quiet_hours_utc": "junk"}, _yt_night) is False
+      and ytposts.quiet_now({}, _yt_night) is True)   # missing key -> defaults
+common.now_utc = lambda: _yt_night
+_SF[:] = []
+_st_night = ytposts.stage_story(
+    {"title": "Huge night story", "desc": "", "source": "ESPN", "link": ""},
+    95, "ai", _yt_bots, {"scoring": {"ping_threshold": 85,
+                                     "quiet_hours_utc": [21, 8]}})
+_msg_night = (_SF[-1] if _SF else POSTS_FULL[-1])
+check("inside quiet hours a ping-tier stage posts SILENT with no mention",
+      _st_night["ok"] and "with ping" not in _st_night["status"]
+      and _msg_night["silent"] is True
+      and "<@OWN1>" not in _msg_night["content"])
+common.now_utc = lambda: _NOON
+
+# -- the deep link: a staged message PATCHes its own open-in-the-studio url --
+_YT_EDITS = []
+_yt_em_real = common.edit_message
+common.edit_message = lambda chan, mid, content=None, embeds=None, \
+                             allowed_mentions=None: (
+    _YT_EDITS.append({"chan": chan, "mid": mid, "content": content})
+    or (200, {}))
+_yt_ncfg_link = {"scoring": {"ping_threshold": 85},
+                 "studio_url": "https://w.example/studio"}
+ytposts.stage_story({"title": "Linked story", "desc": "", "source": "ESPN",
+                     "link": ""}, 75, "heuristic", _yt_bots, _yt_ncfg_link)
+check("a staged post gains 'Open in the studio' with its OWN message id, "
+      "no-unfurl wrapped",
+      len(_YT_EDITS) == 1 and _YT_EDITS[0]["mid"] == "S1"
+      and "Open in the studio: <https://w.example/studio#s=S1>"
+          in _YT_EDITS[0]["content"]
+      and _YT_EDITS[0]["content"].index("```") < _YT_EDITS[0]["content"].index("#s=S1"))
+_YT_EDITS[:] = []
+ytposts.stage_story({"title": "Unlinked story", "desc": "", "source": "ESPN",
+                     "link": ""}, 75, "heuristic", _yt_bots, _yt_ncfg)
+check("no studio_url configured means no PATCH at all", _YT_EDITS == [])
+_YT_EDITS[:] = []
+ytposts.stage_story({"title": "Bad url story", "desc": "", "source": "ESPN",
+                     "link": ""}, 75, "heuristic", _yt_bots,
+                    {"scoring": {}, "studio_url": "http://insecure.example"})
+check("a non-https studio_url never rides a message", _YT_EDITS == [])
+common.edit_message = _yt_em_real
 
 if _yt_pc_saved is not None:
     sys.modules["postcard"] = _yt_pc_saved
@@ -1996,6 +2145,217 @@ else:
 common.post_file = _yt_pf_real
 ytposts.og_image = _yt_og_real
 ytposts.fighter_cutout = _yt_fc_real
+
+# ───────────────────────── stage gates (the staging memory) ─────────────────
+# Pure functions - no mocks needed. The scenario data mirrors the REAL staged
+# posts read back from the live studio channel on Aug 19 2026: five Makhachev
+# posts in 26 hours, two Magny posts 5 minutes apart, two Barboza retirement
+# posts 13 minutes apart, and a 4:21am "live stream" rehash. The gates must
+# collapse those exactly as designed without touching legitimate variety.
+print("\n[stage gates]")
+_SG_CFG = {"ping_threshold": 85}
+_sg_t0 = common.datetime.datetime(2026, 8, 18, 1, 27,
+                                  tzinfo=common.datetime.timezone.utc)
+
+def _sg_it(title, when, line=""):
+    return {"title": title, "when": when, "line": line, "guid": title}
+
+check("name_tokens: a two-token run is ONE person (surname only)",
+      ytposts.name_tokens("Islam Makhachev and Ian Garry seek next title fights")
+      == ["makhachev", "garry"])
+check("name_tokens: possessives strip, stopwords drop, lowercase out",
+      ytposts.name_tokens("Magny's Corner After The Fight")
+      == ["magny", "corner"])
+check("name_tokens: junk in, empty out",
+      ytposts.name_tokens("") == [] and ytposts.name_tokens(None) == [])
+check("name_tokens: accented names still produce tokens (the cooldowns must "
+      "see Prochazka however an outlet spells him)",
+      ytposts.name_tokens("Jiří Procházka withdraws from UFC 325")
+      == ["procházka"]
+      and "błachowicz" in ytposts.name_tokens(
+          "Jan Błachowicz calls for one more run"))
+
+_sg_hist = []
+_ok, _why = ytposts.stage_gate(
+    _sg_it("Islam Makhachev and Ian Garry seek next title fights", _sg_t0),
+    78, False, _sg_hist, _sg_t0, _SG_CFG)
+check("a fresh first story passes the gate", _ok is True and _why == "")
+_sg_state = {}
+ytposts.remember_staged(
+    _sg_state,
+    _sg_it("Islam Makhachev and Ian Garry seek next title fights", _sg_t0),
+    "cutout:islam-makhachev", _sg_t0)
+_sg_hist = _sg_state["staged_hist"]
+check("remember_staged records ts, title, names and the fronting image",
+      _sg_hist[-1]["names"] == ["makhachev", "garry"]
+      and _sg_hist[-1]["img"] == "cutout:islam-makhachev"
+      and common.parse_iso(_sg_hist[-1]["ts"]) is not None)
+
+_sg_t1 = _sg_t0 + common.datetime.timedelta(hours=1, minutes=31)
+_ok, _why = ytposts.stage_gate(
+    _sg_it("Islam Makhachev extends UFC record to 17 straight wins", _sg_t1),
+    88, False, _sg_hist, _sg_t1, _SG_CFG)
+check("the drip is dead: same subject inside the cooldown is skipped even at "
+      "a ping-tier score",
+      _ok is False and "same subject" in _why)
+_ok, _why = ytposts.stage_gate(
+    _sg_it("Islam Makhachev stripped of title after failed test", _sg_t1),
+    90, True, _sg_hist, _sg_t1, _SG_CFG)
+check("a genuine BREAKING follow-up still breaks through the subject cooldown",
+      _ok is True)
+_sg_t2 = _sg_t1 + common.datetime.timedelta(hours=23)
+_ok, _why = ytposts.stage_gate(
+    _sg_it("Carlos Prates signs new deal, Makhachev title shot next", _sg_t2),
+    87, False, _sg_hist, _sg_t2, _SG_CFG)
+check("after the cooldown the subject is fair game again", _ok is True)
+
+_ok, _why = ytposts.stage_gate(
+    _sg_it("Makhachev and Garry: what their next title fights could be",
+           _sg_t2), 80, False, _sg_hist, _sg_t2, _SG_CFG)
+check("the same PEOPLE never re-stage inside story_cooldown_hours "
+      "(2+ shared names, non-breaking)",
+      _ok is False and "same people" in _why)
+# ...but a genuine BREAKING follow-up naming the same two people MUST reach
+# the studio: "Gaethje pulls out of the Tsarukyan fight" is the highest-value
+# follow-up there is, and it is ALWAYS phrased with both names (review
+# finding: the old rule promoted 2 shared names to an unoverridable block)
+_sg_state_bk = {}
+ytposts.remember_staged(
+    _sg_state_bk,
+    _sg_it("Arman Tsarukyan faces Justin Gaethje at UFC 330", _sg_t0),
+    "wash", _sg_t0)
+_ok, _why = ytposts.stage_gate(
+    _sg_it("Justin Gaethje pulls out of Arman Tsarukyan fight at UFC 330",
+           _sg_t0 + common.datetime.timedelta(hours=24)),
+    95, True, _sg_state_bk["staged_hist"],
+    _sg_t0 + common.datetime.timedelta(hours=24), _SG_CFG)
+check("a breaking follow-up naming the same two people breaks through",
+      _ok is True)
+# ...while a REWRITE of the staged title stays blocked even when breaking
+# (similarity is the one rule nothing overrides)
+_ok, _why = ytposts.stage_gate(
+    _sg_it("Arman Tsarukyan faces Justin Gaethje at UFC 330 card", _sg_t2),
+    95, True, _sg_state_bk["staged_hist"], _sg_t0, _SG_CFG)
+check("a title rewrite is blocked even when it trips the breaking net",
+      _ok is False and "same story" in _why)
+# breaking also bypasses the junk gate: a real development phrased with a
+# junk term must not die on wording
+check("breaking bypasses the junk gate",
+      ytposts.stage_gate(
+          _sg_it("How to watch: champion stripped of title tonight", _sg_t0),
+          90, True, [], _sg_t0, _SG_CFG)[0] is True)
+
+_sg_state2 = {}
+ytposts.remember_staged(
+    _sg_state2, _sg_it("Edson Barboza's Wife Issues Emotional Statement "
+                       "About His Retirement", _sg_t0), "wash", _sg_t0)
+_ok, _why = ytposts.stage_gate(
+    _sg_it("Edson Barboza's retirement came down to a simple reason",
+           _sg_t0 + common.datetime.timedelta(minutes=13)),
+    74, False, _sg_state2["staged_hist"],
+    _sg_t0 + common.datetime.timedelta(minutes=13), _SG_CFG)
+check("two rewrites of one story minutes apart collapse to one staged post",
+      _ok is False)
+
+_ok, _why = ytposts.stage_gate(
+    _sg_it("Makhachev beats Garry in UFC 330 live stream results", _sg_t0),
+    88, False, [], _sg_t0, _SG_CFG)
+check("watch-guide / results-rehash junk NEVER stages (the 4:21am post)",
+      _ok is False and "junk" in _why)
+_ok, _why = ytposts.stage_gate(
+    _sg_it("Three-day-old story resurfaces",
+           _sg_t0 - common.datetime.timedelta(hours=72)),
+    88, False, [], _sg_t0, _SG_CFG)
+check("a stale story never stages, whatever it scores",
+      _ok is False and "stale" in _why)
+check("a story with no pubdate is not treated as stale",
+      ytposts.stage_gate(_sg_it("No date story", None), 75, False, [],
+                         _sg_t0, _SG_CFG)[0] is True)
+check("gate settings fall back to GATE_DEFAULTS on junk config",
+      ytposts.stage_gate(
+          _sg_it("Fine story", _sg_t0), 75, False, [], _sg_t0,
+          {"stage_max_age_hours": "junk"})[0] is True)
+
+# staged_hist stays bounded - the state file is committed every few minutes
+_sg_state3 = {}
+for _sg_i in range(ytposts.STAGED_HIST_CAP + 15):
+    ytposts.remember_staged(_sg_state3, _sg_it("Story %d" % _sg_i, _sg_t0),
+                            "wash", _sg_t0)
+check("staged_hist is capped and keeps the NEWEST entries",
+      len(_sg_state3["staged_hist"]) == ytposts.STAGED_HIST_CAP
+      and _sg_state3["staged_hist"][-1]["t"]
+          == "Story %d" % (ytposts.STAGED_HIST_CAP + 14))
+
+# ───────────────────────── gnews (Google News link decode) ──────────────────
+# Pure parsers tested against captured shapes; decode() wiring tested with a
+# mocked transport. The endpoint is internal to Google, so EVERY failure mode
+# must come back "" - the caller then keeps its old no-photo behaviour.
+print("\n[gnews]")
+import gnews
+
+check("non-Google links pass through decode unchanged, no HTTP",
+      gnews.decode("https://site.com/story") == "https://site.com/story"
+      and gnews.decode("") == "")
+check("article id parses out of an rss/articles link",
+      gnews.article_id("https://news.google.com/rss/articles/CBMiabc123?oc=5")
+      == "CBMiabc123"
+      and gnews.article_id("https://news.google.com/home") == "")
+check("sg/ts attributes parse off the article page",
+      gnews.parse_attrs('<c-wiz data-n-a-sg="SIG9" data-n-a-ts="12345">')
+      == ("SIG9", "12345")
+      and gnews.parse_attrs("<html>nothing</html>") == ("", ""))
+check("the batchexecute body wraps garturlreq with id, ts and sg",
+      all(s in gnews.freq_body("AID1", "777", "SG1")
+          for s in ("f.req=", "garturlreq", "AID1", "777", "SG1")))
+_gn_reply = ')]}\'\n[["wrb.fr","Fbv4je","[\\"garturlres\\",\\"https://mmajunkie.usatoday.com/story/x\\"]",null,null,null,"generic"]]'
+check("the real article URL parses out of the reply envelope",
+      gnews.parse_reply(_gn_reply) == "https://mmajunkie.usatoday.com/story/x")
+check("a reply without the envelope yields nothing",
+      gnews.parse_reply("") == "" and gnews.parse_reply("[[1,2,3]]") == ""
+      and gnews.parse_reply(None) == "")
+check("JSON-escaped =/& inside the URL are unescaped, not refused",
+      gnews.parse_reply('"[\\"garturlres\\",\\"https://s.com/a?b\\\\u003d1'
+                        '\\\\u0026c\\\\u003d2\\"')
+      == "https://s.com/a?b=1&c=2"
+      and gnews.parse_reply('"[\\"garturlres\\",\\"https://s.com/x\\\\y\\"')
+      == "")
+check("is_gnews is host-anchored, never a substring test",
+      gnews.is_gnews("https://news.google.com/rss/articles/AB?oc=5") is True
+      and gnews.is_gnews("https://evil.com/?u=news.google.com/articles/AB") is False
+      and gnews.is_gnews("https://news.google.com/home") is False)
+check("a foreign link that mentions google news passes through decode "
+      "unchanged, zero HTTP",
+      gnews.decode("https://evil.com/?u=news.google.com/articles/AB")
+      == "https://evil.com/?u=news.google.com/articles/AB")
+
+_gn_http_real = common.http
+_gn_gt_real = common.get_text
+_GN_CALLS = []
+def _gn_gt(url, headers=None, tries=4, timeout=30):
+    _GN_CALLS.append(("GET", url))
+    return 200, '<c-wiz data-n-a-sg="SGX" data-n-a-ts="42">'
+def _gn_http(url, headers=None, method="GET", body=None, raw_body=None,
+             tries=4, timeout=30):
+    _GN_CALLS.append((method, url))
+    return 200, _gn_reply
+common.get_text = _gn_gt
+common.http = _gn_http
+gnews._cache.clear()
+_gn_url = gnews.decode("https://news.google.com/rss/articles/AIDX?oc=5")
+check("decode wires page GET + batchexecute POST into the real URL",
+      _gn_url == "https://mmajunkie.usatoday.com/story/x"
+      and _GN_CALLS[0][0] == "GET" and _GN_CALLS[1] == ("POST", gnews.BATCH_URL))
+_GN_CALLS[:] = []
+check("a second decode of the same id is served from cache, zero HTTP",
+      gnews.decode("https://news.google.com/rss/articles/AIDX?oc=5") == _gn_url
+      and _GN_CALLS == [])
+common.get_text = lambda url, headers=None, tries=4, timeout=30: (404, "")
+gnews._cache.clear()
+check("a dead article page fails to '' and the caller keeps its old path",
+      gnews.decode("https://news.google.com/rss/articles/AIDY") == "")
+common.get_text = _gn_gt_real
+common.http = _gn_http_real
+gnews._cache.clear()
 
 # ---- N. scorer (AI story scorer + heuristic fallback) ----------------------
 # Monkeypatches common.http and restores it.
@@ -2328,6 +2688,46 @@ check("fallback line never dangles a connector word",
 check("short titles pass through the clause-aware fallback untouched",
       scorer._fallback_line("Short headline stays whole") == "Short headline stays whole")
 
+# -- AI lines go through the SAME cutter (live bug: "...About His Retirement a")
+_lq_long = ("Edson Barboza's Wife Issues Emotional Statement About His "
+            "Retirement announcement from mixed martial arts")
+_lq_cut = scorer._clean_line(_lq_long)
+check("an over-long AI line is cut at a word boundary, never mid-word",
+      len(_lq_cut) <= scorer.LINE_MAX and not _lq_cut.endswith(" a")
+      and _lq_cut.split()[-1] not in scorer.DANGLING
+      and all(w in _lq_long.split() for w in _lq_cut.split()))
+check("smart_cut is one shared cutter (fallback == smart_cut by definition)",
+      scorer._fallback_line(_lq_long) == scorer.smart_cut(_lq_long))
+check("a headline-echo line is word-capped to something a poster can carry",
+      len(scorer.word_cap("one two three four five six seven eight nine ten "
+                          "eleven twelve thirteen fourteen").split())
+      <= scorer.LINE_MAX_WORDS
+      and scorer.word_cap("short line stays") == "short line stays")
+check("word_cap never dangles a connector either",
+      scorer.word_cap("alpha beta gamma delta epsilon zeta eta theta iota "
+                      "kappa lambda with more") .split()[-1] not in scorer.DANGLING)
+
+# -- junk titles (watch guides / results rehash) score LOW and never stage ----
+check("is_junk catches watch guides, stream pages and results roundups",
+      scorer.is_junk("How to watch UFC 330: Makhachev vs Garry")
+      and scorer.is_junk("UFC 330 live stream results: Makhachev beats Garry")
+      and scorer.is_junk("UFC 330 results: winners and losers")
+      and scorer.is_junk("UFC 331 preview: everything you need"))
+check("is_junk stays boundary-safe and calm on real news",
+      scorer.is_junk("Makhachev retains title at UFC 330") is False
+      and scorer.is_junk("Garry previews nothing") is False)
+_lq_junk = scorer.heuristic_score(
+    "UFC 330 live stream results: champion retains title", "", "s", "ufc", [])
+_lq_real = scorer.heuristic_score(
+    "Champion retains title at UFC 330", "", "s", "ufc", [])
+check("the junk dock keeps a rehash below the 70 stage bar while the same "
+      "vocabulary as real news clears it",
+      _lq_junk["score"] == _lq_real["score"] - scorer.JUNK_POINTS
+      and _lq_junk["score"] < 70)
+check("the AI brief names service journalism as bottom-tier",
+      "how-to-watch" in scorer.SYSTEM_PROMPT and "rehash" in scorer.SYSTEM_PROMPT
+      and "Never copy the headline" in scorer.SYSTEM_PROMPT)
+
 # -- the system prompt: an editor's brief, with the defences intact -----------
 _SP = scorer.SYSTEM_PROMPT
 check("prompt names the audience it is writing for",
@@ -2434,10 +2834,11 @@ print("\n[yt staging]")
 _real_stage2 = ytposts.stage_story
 _real_score2 = scorer.score_story
 _STG = []
-ytposts.stage_story = lambda it, score, why, cb, nc: (_STG.append(
+ytposts.stage_story = lambda it, score, why, cb, nc, hist=None: (_STG.append(
     {"guid": it["guid"], "score": score,
      "studio": (cb.get("channels", {}) or {}).get("studio"),
-     "owner": cb.get("owner_id")}) or "staged (HTTP 200)")
+     "owner": cb.get("owner_id")})
+    or {"status": "staged (HTTP 200)", "img": "wash", "ok": True})
 scorer.score_story = lambda title, desc, source, cat, cfg: {
     "score": 90 if "crowned" in title.lower() else 40, "why": "test", "ai": False}
 common.load_config = lambda: {"channels": {"mma_news": "C", "studio": "ST"},
@@ -2456,6 +2857,14 @@ check("both stories evaluated exactly once (yt_eval)",
       sorted(STORE["state_news.json"].get("yt_eval", [])) == ["y1", "y2"])
 check("yt_eval guard pinned in source",
       'if it["guid"] in state.get("yt_eval", [])' in _nb_src)
+check("a staging-only cycle still saves state (source pin: without this, a "
+      "window ending on a staged-but-nothing-posted cycle lost staged_hist "
+      "and the next job re-staged the same story)",
+      "or stage_work[0]" in _nb_src and "stage_work[0] += 1" in _nb_src)
+check("a failed stage burns NO daily slot and enters NO memory (source pin)",
+      'if res_stage.get("ok"):' in _nb_src
+      and _nb_src.index('if res_stage.get("ok"):')
+          < _nb_src.index('scorer.spend(state, today, "staged")'))
 
 _STG[:] = []
 scorer.score_story = lambda title, desc, source, cat, cfg: {"score": 40, "why": "test", "ai": False}
@@ -2477,8 +2886,9 @@ check("scoring disabled: nothing staged, news still posts",
 
 # -- the emphasis setting rides from newsconfig to the staged post ----------
 _YT_IT = []
-ytposts.stage_story = lambda it, score, why, cb, nc: (
-    _YT_IT.append(dict(it)) or "staged (HTTP 200)")
+ytposts.stage_story = lambda it, score, why, cb, nc, hist=None: (
+    _YT_IT.append(dict(it))
+    or {"status": "staged (HTTP 200)", "img": "wash", "ok": True})
 scorer.score_story = lambda title, desc, source, cat, cfg: {
     "score": 90, "why": "test", "ai": False}
 STORE["newsconfig.json"]["scoring"] = {"enabled": True}
@@ -2516,6 +2926,23 @@ check("the day's counter is ONE bounded block in state_news.json",
       == {"d": _NOON.strftime("%Y-%m-%d"), "ai": 0, "staged": 1})
 check("a capped story does not block the news post itself",
       any("crowned again" in c for _ch, c in POSTS))
+
+# -- the staging memory rides news_bot end to end ----------------------------
+_YT_IT[:] = []
+reset_news(state={"v": 3, "initialized": True, "seen": [], "recent": [],
+                  "digest_items": [], "digest_last": "", "hour": ["", 0]})
+STORE["newsconfig.json"]["scoring"] = {"enabled": True}
+news_feed([("Pantoja injured during training camp", "http://i", "y9",
+            "Tue, 02 Jan 2024 10:00:00 GMT"),
+           ("Pantoja gives an update on his recovery", "http://j", "y10",
+            "Tue, 02 Jan 2024 11:00:00 GMT")])
+LOOP_N[0] = 2
+news_bot.main()
+check("the subject cooldown holds through news_bot: one Pantoja post, not two",
+      [i["guid"] for i in _YT_IT] == ["y9"])
+check("staged_hist lands in state_news.json with the story's name tokens",
+      [h.get("names") for h in STORE["state_news.json"].get("staged_hist", [])]
+      == [["pantoja"]])
 
 ytposts.stage_story = _real_stage2
 scorer.score_story = _real_score2
@@ -3528,7 +3955,13 @@ check("studio_spec carries line/hot/source/emphasis/guid/photo kind",
       and _rt_obj["source"] == "MMA Fighting" and _rt_obj["photo"] == "photo"
       and _rt_obj["template"] == "news" and _rt_obj["colorway"] == "purple")
 check("studio_spec drops empty fields and stays ASCII",
-      "about" not in _rt_obj and _rt_spec == _rt_spec.encode("ascii", "ignore").decode())
+      "about" not in _rt_obj and "bg" not in _rt_obj
+      and _rt_spec == _rt_spec.encode("ascii", "ignore").decode())
+_rt_obj_bg = _rt_json.loads(_rt_yt.studio_spec(
+    {"line": "L", "guid": "g-2"}, "", bg="spotlight"))
+check("a photoless spec names its texture plate so the studio reopens the "
+      "same scene",
+      _rt_obj_bg.get("bg") == "spotlight" and _rt_obj_bg.get("photo", "") == "")
 _rt_body = _rt_yt._studio_body(91, "why", "cap", "", "", _rt_spec)
 check("the staged body carries the caption fence THEN the json fence",
       _rt_body.index("```\ncap\n```") < _rt_body.index("```json"))
