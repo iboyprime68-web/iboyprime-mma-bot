@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White Reveals Massive Combined Earnings for DWCS Grads",
-      "ts": "2026-08-19T05:35:02+00:00"
-    },
-    {
-      "t": "Gillian Robertson releases 1st statement since UFC 330 loss, Din Thomas controversy https://www.mmafighting.com/ufc/505760/gillian-robertson-releases…",
-      "ts": "2026-08-18T19:40:22+00:00"
-    },
-    {
       "t": "DWCS Results: Season 10, Week 2 https://www.mmafighting.com/ufc/505732/dwcs-results-season-10-week-2",
       "ts": "2026-08-18T22:01:16+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Islam Makhachev reveals ideal return timeline after UFC 330, reacts to breaking record",
       "ts": "2026-08-19T06:41:53+00:00"
+    },
+    {
+      "t": "Video: UFC 330 full card final faceoffs with two title fights and more",
+      "ts": "2026-08-19T06:48:03+00:00"
+    },
+    {
+      "t": "Xaver Mendes revealed the differences between Maxachev and Nurmagomedov...",
+      "ts": "2026-08-19T07:30:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 332 adds several new bouts, including Johnny Walker’s heavyweight debut",
-      "url": "https://sports.yahoo.com/articles/ufc-332-adds-several-bouts-153000730.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T15:30:00+00:00"
-    },
-    {
-      "title": "Between the Links: Reaction to Islam Makhachev’s win at UFC 330, Din Thomas; Plus, previewing busy weekend",
-      "url": "https://sports.yahoo.com/articles/between-links-reaction-islam-makhachev-154500109.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T15:45:00+00:00"
-    },
     {
       "title": ".@MikeHeckJR and @JedKMeshew are LIVE reacting to UFC330, Din Thomas, talking a very busy weekend ahead, and more on BTL! https://x.com/i/broadcast…",
       "url": "https://nitter.net/MMAFighting/status/2089744641361133745#m",
@@ -2105,6 +2091,20 @@
       "source": "Sportskeeda",
       "cat": "ufc",
       "ts": "2026-08-19T07:29:00+00:00"
+    },
+    {
+      "title": "Video: UFC 330 full card final faceoffs with two title fights and more",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QTjVwOFdLSDV0cmFnU1lEbk1SYm1Xc0prNXRzNmpKN3A1amNLVEZvUmJnSjFybE9YZmNaZ1ZUTENaUzlhN3N0YVljN3o0blJrT3gzcmwyRjN3Mm5DemVtczBUYWNBX2FyZDJMZlBlSzJlc29DVkE?oc=5",
+      "source": "AOL.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T06:48:03+00:00"
+    },
+    {
+      "title": "Xaver Mendes revealed the differences between Maxachev and Nurmagomedov...",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWWpUOGsxOFhjaHZILVJ6Z1hELV95alcyNHFGR1JVNlFOX0Nqbnpqc01BMWk4Y05ZdFd0OWVNajZDVHNiRHZpUU1CMWwyMGZaaXd1NGs1Vmh1R2lsWk5JTUVFeGxiWTJvdGtOSi1Ld1RDdlhDQWMtc1p2UnQwbXVLalZNbkxKX2c1TU16OHdkLWc5aGliU2VkcmpETWZoR0dnOFRTeEtqRjdDTWVXUGc?oc=5",
+      "source": "Zamin.uz",
+      "cat": "ufc",
+      "ts": "2026-08-19T07:30:00+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMivgFBVV95cUxOVjlBTWZsZURKTDVJYlpKWmNBWGVFbXZITnFEVkRYSUpoaTVTT21EdWRpZTRmMjJxcjdEZVdXM3BzaXRUSWp2cnBMWnZvbzc2eDBxY3llNk1NUEk4NG5KRWdHUW9jOGY2MmV2SWg2dkRsYkR3YWgzVTZJUndmb2R6dXRlWWpKR3ByR2Fmbm1XMHlHM0xuczdlRDhYekZWTjNIRnJtTG15dFJZa1gwb0FaWk5RX0dpR0lFZTQ2cFlB",
-    "CBMiW0FVX3lxTE02SGxINlFOdGlJNFVaQWl0ckswT1l6cHowdno4VExyWk80SFdlaHJNLXhvTDRIR3R2YkdUWXhWSzdXbmxwUklmQ2lNTGozeG1xV2NUUFo0dk1IZXc",
     "https://bloodyelbow.com/?p=327395",
     "CBMivwFBVV95cUxOYW52aUtJb0NZb3lrOVNsR3hnMWdCaE04aVRoNlZZNkpfMHBWNnk3RF95bVBnTWYwMV9PdmpHbmliTDRQNF9PQUtCU2tMWVZjazVCMjVzR25xVHluSE4zVEVaVElGYUd3VmJ2Y3JfQ0xZZlRKUUZLRlBQQklONWxkTHhETjB2Vy0yS3hsekpwdzlnX2UybURjZkZ1NG13cDlCY3VkU0x2aXlZbE1mU0ZFTnhPaGVGcURDaHhzb0s0VQ",
     "CBMifEFVX3lxTE9TS1cwZUJJNF80QzBHV252S29pZmVGaVotazRGalNnNU9CbnJHSjVBYzdrdVhUZVJVSEtxWTRFbENydGczMW9KLTlOYVNxMTdFaWlSaUxFbUVMOF9ucjBVQzFZZW92dVJJcFZ5VW9XMlpWNFd2NzVUZkJqZ2s",
@@ -3312,7 +3310,9 @@
     "CBMiYEFVX3lxTE5QUFZvbnZMVVFVczk0Vzdwak9lYUd5endpTXYyTTZyR1dvOGxhX1AxWDQ0b1AzNzltblFMb2JsNGZHa0ttckhGYlZOa29vUlRSZ0V5WlQ4WjFkOGQyMmR0Yw",
     "CBMidEFVX3lxTE93UDZ1RThXcldXUUFPZ0hLUVYtcG9jWmR5U1ZiQjJvbWVxaklialJXcFd1eWZMbGlwUG94ckFUdHBWQ01xZHJqYlAzSUpDZDhUTHlpc0JIS0dLbjFZRTVKSXkycjRjbm9kUDlQdmJYbnRNcmtx",
     "CBMivwFBVV95cUxOQXpYNTFCX2VTVEFtS212b1ZPMlNNbjBTNkNjSUEzOWRlOS1VUGxsVllEVmwxV1hZR25HcjFDLWc4eHN4NFpTQ014dkxkNFd6SV9xRENEN1lXZndpMkdSeXh3ajBPUWUydHQ2R2hmbVgxNEVJUm15Q0w1WEFObmJpbnpIT19ZOUJESDFibWtxeXpFY3VHcjlMWTFVUVdGM0xDaV9uWVRhVVF0eGZpcEhHNlZKeTJXWUhMWHlCNTRaUQ",
-    "CBMihwFBVV95cUxOTy1XR2VBbG9tQlRPbWx6c25uWmotM3htVy1DdXVERWd1S2EzSzFRYTh0ZTNCeC10MWZQWGFHR29nei1rT3puVGxZV0pIOWVMM2lSUmRLZENZcTA2clJ2a1g1M2NFTVJpWDYwcF94R3pOTkJuTkMtaDJ2dTItUGFZZVNjUTVqcW8"
+    "CBMihwFBVV95cUxOTy1XR2VBbG9tQlRPbWx6c25uWmotM3htVy1DdXVERWd1S2EzSzFRYTh0ZTNCeC10MWZQWGFHR29nei1rT3puVGxZV0pIOWVMM2lSUmRLZENZcTA2clJ2a1g1M2NFTVJpWDYwcF94R3pOTkJuTkMtaDJ2dTItUGFZZVNjUTVqcW8",
+    "CBMidkFVX3lxTE1QTjVwOFdLSDV0cmFnU1lEbk1SYm1Xc0prNXRzNmpKN3A1amNLVEZvUmJnSjFybE9YZmNaZ1ZUTENaUzlhN3N0YVljN3o0blJrT3gzcmwyRjN3Mm5DemVtczBUYWNBX2FyZDJMZlBlSzJlc29DVkE",
+    "CBMirgFBVV95cUxPWWpUOGsxOFhjaHZILVJ6Z1hELV95alcyNHFGR1JVNlFOX0Nqbnpqc01BMWk4Y05ZdFd0OWVNajZDVHNiRHZpUU1CMWwyMGZaaXd1NGs1Vmh1R2lsWk5JTUVFeGxiWTJvdGtOSi1Ld1RDdlhDQWMtc1p2UnQwbXVLalZNbkxKX2c1TU16OHdkLWc5aGliU2VkcmpETWZoR0dnOFRTeEtqRjdDTWVXUGc"
   ],
   "daily": {
     "d": "2026-08-19",
