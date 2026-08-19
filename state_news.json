@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS video: Alik Lorenz hammerfists Mahamed Aly into unconsciousness https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/18/ufc-dana-white-conten…",
-      "ts": "2026-08-19T00:10:26+00:00"
-    },
-    {
       "t": "Cristian Perez landing big 🎯 [ #DWCS is LIVE NOW on @ParamountPlus ]",
       "ts": "2026-08-19T00:19:40+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Carlos Prates calls Islam Makhachev ‘boring’ ahead of possible title clash",
       "ts": "2026-08-19T13:38:29+00:00"
+    },
+    {
+      "t": "Dana White explains why he offered UFC contract to DWCS 88 loser",
+      "ts": "2026-08-19T13:40:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Kaik Brito explains relinquishing Oktagon belt — again — for DWCS shot: ‘I see my future’ in the UFC",
-      "url": "https://sports.yahoo.com/articles/kaik-brito-explains-relinquishing-oktagon-200000262.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T20:00:00+00:00"
-    },
     {
       "title": "Dana White's Contender Series 88 results: Violent night sees six UFC contracts",
       "url": "https://sports.yahoo.com/articles/dana-whites-contender-series-88-224036543.html",
@@ -2105,6 +2098,13 @@
       "source": "BJPenn.com",
       "cat": "ufc",
       "ts": "2026-08-19T13:38:29+00:00"
+    },
+    {
+      "title": "Dana White explains why he offered UFC contract to DWCS 88 loser",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORWwybjhpVnUtVmhPcU5sOEROc3ZuUTVfVFVMTFZxejNVSlFuTXdlMzUzRXRQQUFtMzI4SE55T2h0c21uVDlDUDd0dHJuUXdvTXFhbDg3NWFnM1lkUGJ4NEFHUXFJU1dwM2NHd1B1SUtUUWhTcGFUbWRxWmpIX0RYbUFWcmRqNzBrRE9CZHBHOHlQcjVqb0tWVDRCdHdHOEY5VkZxbjZLeldhd3l3LWNiSnZkUXJhRnBLZnQ5b1RpREhBTkFnYnlVV0JFTkt1Yk51R200NzBMc0ZwZw?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-19T13:40:00+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxPUGFyOXRfS0pCX3ZwYVNvTDBZeVdCZk9JOVFuUHpsM0tnWkdyVlBtTHByZE9fdFY1ZVMwTFZTZWpldnRDVUdGV0QtQWl1QkpuM2NJLXJaVEE3MXhZcFZNTjZxdkY2NWJfQnFnQWUzcDUyWG1vLVAxMnBsN21oRW1GLVllT3FHc0lncGRreERyVTVKX280OTJIY3Zna2wwZXl2",
     "CBMixwFBVV95cUxOcEQ4NDljWDcwYXV3b2t6SEVRRUFvcjVQQUZiOWFQWDBfVlVjZ3pJQ01icy10NmI4Z2VuRnZ1bF9JYzFNemFhQlZzUUpVZHFEWC1yNDhJVV94UlJERkx0NFRBLWt3ZUZJZ3dVc3poU01jdWdyS0hmTDhUNlVtQ01vZ2xya3dWVmpMbmJ2eFl1NkJ5SUZJRGo3dnk3ZEJjb2dYZUE3ZEhNQ3ZGQXBMLWluNGgzSmpkTVVaZGtxUmxLTkwwcVE1UG8w",
     "CBMifkFVX3lxTFBpdlZvMkRlWGVMYm9JNkpfYVhFVXhPRGhTd0dKV3J2WEdMLUdmeFJ6bUtlNWo1VjlFMHhJM3FqQzJZX3BuQndQaDFVX0NFOXRHUmZyYTd3dmxpMzdCNXVRVHNqUDFId29ZOXA1dllYb3VMMzNZckpER2pPQTRmUQ",
     "CBMiowFBVV95cUxQM29jMHZUWVJqMFhEZUpBUHhNaGVPbnFoTVJIWnVmOGtZYnFNXzhWOFY2ekdpWTNGUldwWEUwWmFVdkJjbnMwNTh0MHF5MExLV3NCOE1jZVNQcXhlSkFQYzNEZjNfaGpMVml0M0V1b3JhcnhsZm4yeHFLWU0zX3pTZk9tdWsyQzRpZ2gtSHdfcElGalUtLU1TR3FrZHBrQkxhODZJ",
@@ -3312,7 +3311,8 @@
     "CBMigwFBVV95cUxNNDhaVFkzazJYMlVta0NUc2M3UVBNLVYyR3BKa2d3bHZ3aGNnc0NtYUhNR3ZZWHpTVjNvdHdTZmJoQXl5MWg3TkNpT2YtRDF3ZVg3ZzF6NGQzWWlhUWY0aDcxVnFkX1lZSllySHlYT2VPVnB3WUcwV241T1Etb2pzRDluOA",
     "CBMivgFBVV95cUxQRHFJM05kaHBoVFI2Zk55WUJEQ2E0d2NjdVdXVGFJcUliQmFtLXI0dE1oMTRjMzczd2o2LTFTTmg2QlJQVllKUnFwT0pTdWZTVldIVUxCR25pNkswTUFzazREcF9iVkQ3eTl2MUM3TlczbF93a3NXRTRhQWFwME5EaWhEaDBMY1BILW1uV1o5U21CanhkNFJIYkp1bnRmNHZXQWZZbWNJTHBxMnZJdjNCOWJqY2xWZERTWXh4SDNn",
     "CBMijgFBVV95cUxNQ2NpTERLcklOOGUzdmIxY1FHOFoyTXNSeEVCR0RJcWlSWkprcnUtdmRJNEtlUnVraFg2SDUxQ0IwMlB5MnFYb3JtWGRiQ3lzODhxT3kwM0tieVUzMzFVcVozMVhTeVdOZlVBWXdsYTBEbDJpbDktOUdldUlISWFpRDcyTHVxNDU0NmVDNm9B0gGTAUFVX3lxTE40aklBUHQ3LS0wbXg5ck9LSXNleXphMFNWaUdMWTFtMmJwT2hCMnFtcmRzQVJFWWZncnlhUTVITVN4TjlKNi1hc2tNLVU1Y3hWWENhUExxYVJnM0ZsZGRUeFo2NFFMVkMwRnI5WUR6TnY3NmhtYkwway1Wd0ZUUThNS240U25SaVJwYmpJSUJFZEpSdw",
-    "CBMiuwFBVV95cUxNNjE1cldHSzY1WnI1dDlLcXZ3RUZWNGlYY0Q5S2dMR1ZGMTJoSUFfZDJwdXNzVWNWYTgxcFFpLWYxZjV6OFhNRTJhNlJEdnJ3elZXMy0zTFU2ck1iYkxiLWJLWkZwdzhJZmxMUERHalpmX3lZOUpNZHFXTHZKWU44MG4zdEM4Q2hVcWJVVHJNSkU3T21DbHhZc2o4blk1VHV1RUI2UHdScGFEWDBCdjlZdlJzeXJwWW56S3lF"
+    "CBMiuwFBVV95cUxNNjE1cldHSzY1WnI1dDlLcXZ3RUZWNGlYY0Q5S2dMR1ZGMTJoSUFfZDJwdXNzVWNWYTgxcFFpLWYxZjV6OFhNRTJhNlJEdnJ3elZXMy0zTFU2ck1iYkxiLWJLWkZwdzhJZmxMUERHalpmX3lZOUpNZHFXTHZKWU44MG4zdEM4Q2hVcWJVVHJNSkU3T21DbHhZc2o4blk1VHV1RUI2UHdScGFEWDBCdjlZdlJzeXJwWW56S3lF",
+    "CBMi2gFBVV95cUxORWwybjhpVnUtVmhPcU5sOEROc3ZuUTVfVFVMTFZxejNVSlFuTXdlMzUzRXRQQUFtMzI4SE55T2h0c21uVDlDUDd0dHJuUXdvTXFhbDg3NWFnM1lkUGJ4NEFHUXFJU1dwM2NHd1B1SUtUUWhTcGFUbWRxWmpIX0RYbUFWcmRqNzBrRE9CZHBHOHlQcjVqb0tWVDRCdHdHOEY5VkZxbjZLeldhd3l3LWNiSnZkUXJhRnBLZnQ5b1RpREhBTkFnYnlVV0JFTkt1Yk51R200NzBMc0ZwZw"
   ],
   "daily": {
     "d": "2026-08-19",
