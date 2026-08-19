@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS Results: Season 10, Week 2 https://www.mmafighting.com/ufc/505732/dwcs-results-season-10-week-2",
-      "ts": "2026-08-18T22:01:16+00:00"
-    },
-    {
-      "t": "Henry Cejudo doubts Ian Garry will get another UFC title shot",
-      "ts": "2026-08-19T02:18:04+00:00"
-    },
-    {
       "t": "Dana White awards six UFC contracts after historic DWCS Week 2",
       "ts": "2026-08-19T02:52:53+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Dana White has stopped listening to Eddie Hearn amid Fury-Joshua talks",
       "ts": "2026-08-19T04:39:13+00:00"
+    },
+    {
+      "t": "Carlos Prates Says Morales Doesn't Deserve Title Fight",
+      "ts": "2026-08-19T04:46:56+00:00"
+    },
+    {
+      "t": "Carlos Prates On One Mistake That Cost Ian Garry Title",
+      "ts": "2026-08-19T04:46:57+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Belal Muhammad on Ian Machado Garry at UFC 330: 'What's with this hugging?'",
-      "url": "https://sports.yahoo.com/articles/belal-muhammad-ian-machado-garry-220051290.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T22:00:51+00:00"
-    },
-    {
-      "title": "Forging 'Warverine': Logan Paxton took a cross-country path to UFC opportunity",
-      "url": "https://sports.yahoo.com/articles/forging-warverine-logan-paxton-took-222743844.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T22:27:43+00:00"
-    },
     {
       "title": "Main event remains a mystery as UFC 332 fights are finally announced",
       "url": "https://sports.yahoo.com/articles/main-event-remains-mystery-ufc-223457127.html",
@@ -2105,6 +2091,20 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-19T04:39:13+00:00"
+    },
+    {
+      "title": "Carlos Prates Says Morales Doesn't Deserve Title Fight",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPS3NIRnNrbmtUMkdvVVZRcFI1bDc0YjZBSll5aTZmS2xxcVh4bU8zcmpPWC1Ub215c2VsZjA1aGhqTHZsalBDcU1JWnY0bmRjOWdNcmZXVVpmeVNQZzVBSHpxcWdHNGlpT2ZuN1lJU0FmQTFUWkxMYVNZOGNLcWNWNVRrejNkTGdGZThrMGUzcDZ3THg2TzVFaUc0XzU?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-19T04:46:56+00:00"
+    },
+    {
+      "title": "Carlos Prates On One Mistake That Cost Ian Garry Title",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUVB0R1M2d0FPLXNWWGtXX2RWellWdk5lZWVkUWxDbHpkUTlGRGdwZDFyQVlDOGNORHNkSklqUk9aVm9VLWNyZ3U3c1lYWENpRjhxSGVOVFZ6cVJOMmNqN0h1M1E2YzhXVXJBTXdHSF9qR2JhS19JNEs4TlBmUHM4TE9Ta1BMU3YyWXI5VVB0WDJBdFk?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-19T04:46:57+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMia0FVX3lxTE9ueDhLdl91bElxeW5oYjZ6V0haUy00M2laYWpZb2VDOUROSFdDUUJEcXF2Y0pwN0NXeVh2VkdUakRtR1lEMFNtVGVqSTVXdU1JNTh6b2JESDg0WEoxRnpLcGs4SkZUU0Q1bkxj",
-    "CBMivwFBVV95cUxQbVAzV0RpSm5EaEQ2ZjI1MmlaWWVxTGxuektsVXE5bVkteFFqZ3lQcFJaSkhsRW96RXV0NFp1TEFQUDcxVnRYNkxwSGxfU3g3MlVCa3lLeDlRQnY0SVVOXzhYd3Z4QlNjcVgtbThvUER4dmViLWVrNGYwLW5jNHYwWXB5SGdzOUhBNHpGWUpobDNicFFqck56bG5RZWJMaWdkMlR4RDJSLVJhSXNMYjBCSFlRSzR3djZWdXBoSWRZQQ",
     "CBMi1gFBVV95cUxQR2pfZ2dUUDZ6em1Uam42SS1wM1VfNlVKdXdUWEVfdHUyNWt3NFZBTVpOenVIUGRCZkw0ZVphRGtNMHFNcHVDRmRyRi1mb190MVRSZFNMN2NnaG5vZlFFUDFLeXlLbFF1T04wZjlHakcxVjFXYXlhSFV1V2FVS2M0dlpvZlhITFNLcmt6Tnl1MjRRY05XdDRWcVBMd0xwM3E3ZTZoNmlULWNmUG8wVURlVUJ3WC1ZanVSZWl5YnJsRWFHYzZmcVNtNl9xQ3NKdTZram1mSVF30gHWAUFVX3lxTFBHal9nZ1RQNnp6bVRqbjZJLXAzVV82VUp1d1RYRV90dTI1a3c0VkFNWk56dUhQZEJmTDRlWmFEa00wcU1wdUNGZHJGLWZvX3QxVFJkU0w3Y2dobm9mUUVQMUt5eUtsUXVPTjBmOUdqRzFWMVdheWFIVXVXYVVLYzR2Wm9mWEhMU0tya3pOeXUyNFFjTld0NFZxUEx3THAzcTdlNmg2aVQtY2ZQbzBVRGVVQndYLVlqdVJlaXlicmxFYUdjNmZxU202X3FDc0p1NmtqbWZJUXc",
     "CBMifkFVX3lxTE9yc0N1UmlHTDUxNWJvanlSeklQWGVoYVo1LU54cElFZjNRZDI3aHpnOWNsSzJxU3NNS2xSaEJpUjBJd09tSnk0MkRKdDZxNDFyYU4wcUlxZkFRcUZSNHczOXNrMmwweENrTUprcnJyMk90Z0xIQ1dLSWFhNW9EUQ",
     "CBMiywFBVV95cUxOaExVZVAtdVNZX3pzUjZ6Q3B3NU13TXN5UkNmUDRBaEJSS2dINWdtdDhHc05MbnJ1bXQxNkM2Q0l2QjVBMF9hcWtTS2VJelR2NlNmR2pfMWtHWFl6NnMteVdkejBFQ2p5djY4TUc2WFNxNHFuSDZXQVF6Y291eDhrSjhBNFh1VV96VWdtLUNSOHZ2b3pWc2dFcVRtSHZIT1NDUTFxNVhTNmdyXy15RjlVQ2NxelMtZnV4dDliNnFSOEM4SmcxQ3h0Z09fZw",
@@ -3312,7 +3310,9 @@
     "2089930174179463188",
     "2089931286076932317",
     "CBMitwFBVV95cUxNMzRmalJQU0h3UUpSVUdTM1pqTVl1RXc2VGFfQkNnVGdpcXdmLXMxcnNxS0FOT0IzX3diTE14WTF0aE5tVk00bE9BZU8zRFAxN1dVeHJraDVraEZ1VUQwTnhhVm9PUVRnaGRxNE5EZ1JZYzBNM0tqM2l3OWhVSU02ZUJnc3pqSXpHR0hoR1A2VFVmak1RdTFUMWpvWWkzLU5OOU5IUW9vcXNxRXhlWmdPVkJWMWZCOFE",
-    "https://www.sherdog.com/news/news/Dana-White-has-stopped-listening-to-Eddie-Hearn-amid-FuryJoshua-talks-202424"
+    "https://www.sherdog.com/news/news/Dana-White-has-stopped-listening-to-Eddie-Hearn-amid-FuryJoshua-talks-202424",
+    "CBMinAFBVV95cUxPS3NIRnNrbmtUMkdvVVZRcFI1bDc0YjZBSll5aTZmS2xxcVh4bU8zcmpPWC1Ub215c2VsZjA1aGhqTHZsalBDcU1JWnY0bmRjOWdNcmZXVVpmeVNQZzVBSHpxcWdHNGlpT2ZuN1lJU0FmQTFUWkxMYVNZOGNLcWNWNVRrejNkTGdGZThrMGUzcDZ3THg2TzVFaUc0XzU",
+    "CBMikwFBVV95cUxNUVB0R1M2d0FPLXNWWGtXX2RWellWdk5lZWVkUWxDbHpkUTlGRGdwZDFyQVlDOGNORHNkSklqUk9aVm9VLWNyZ3U3c1lYWENpRjhxSGVOVFZ6cVJOMmNqN0h1M1E2YzhXVXJBTXdHSF9qR2JhS19JNEs4TlBmUHM4TE9Ta1BMU3YyWXI5VVB0WDJBdFk"
   ],
   "daily": {
     "d": "2026-08-19",
