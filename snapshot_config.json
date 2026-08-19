@@ -347,8 +347,8 @@
         {
           "id": "1502831752702464113",
           "type": 0,
-          "allow": "9438208",
-          "deny": "2097152"
+          "allow": "11535360",
+          "deny": "0"
         },
         {
           "id": "1515427305164378143",
@@ -386,7 +386,7 @@
       "id": "1515436445790244966",
       "name": "💤┊AFK",
       "type": 2,
-      "parent_id": "1515436428920885430",
+      "parent_id": "1539698577306030121",
       "position": 1,
       "topic": null,
       "rate_limit_per_user": 0,
@@ -684,6 +684,42 @@
           "id": "1515427307626692631",
           "type": 0,
           "allow": "3214336",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1539698577306030121",
+      "name": "🔊 VOICE",
+      "type": 4,
+      "parent_id": null,
+      "position": 4,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1539698580196163685",
+      "name": "🔊┊General",
+      "type": 2,
+      "parent_id": "1539698577306030121",
+      "position": 0,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "3146752",
           "deny": "0"
         }
       ]
