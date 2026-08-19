@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Carlos Prates: UFC confirmed Islam Makhachev title shot is next after signing new 8-fight contract",
-      "ts": "2026-08-19T00:55:00+00:00"
-    },
-    {
-      "t": "DWCS video: Trent Miller sleeps Douglas Rodrigues as biggest underdog on card",
-      "ts": "2026-08-19T01:00:00+00:00"
-    },
-    {
       "t": "Lorenz Stops Aly In First-Round Redemption",
       "ts": "2026-08-19T01:00:24+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "'Uncrowned champion' of ONE pivots toward UFC through Dana White's Contender Series (via @mma_kings) https://mmajunkie.usatoday.com/story/sports/ufc/…",
       "ts": "2026-08-19T03:31:14+00:00"
+    },
+    {
+      "t": "UFC Sacramento preview: Hernandez vs. Rodrigues picks and predictions",
+      "ts": "2026-08-19T03:35:04+00:00"
+    },
+    {
+      "t": "Joshua Van opens up on KO defeat to Charles Johnson before Alexandre Pantoja rematch at UFC 331",
+      "ts": "2026-08-19T03:36:35+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White's Contender Series 88 results: Violent night sees six UFC contracts",
-      "url": "https://sports.yahoo.com/articles/dana-whites-contender-series-88-224036543.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T22:40:36+00:00"
-    },
-    {
-      "title": "Eddie Hearn says he ‘should be suing Dana White’ over Fury-Joshua claims; White responds",
-      "url": "https://www.mmafighting.com/boxing/505831/eddie-hearn-says-he-should-be-suing-dana-white-over-fury-joshua-claims-white-responds",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-19T02:32:12+00:00"
-    },
     {
       "title": "Henry Cejudo: It's 'a little premature' to call Islam Makhachev the GOAT https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/18/ufc-henry-cejudo-…",
       "url": "https://nitter.net/MMAJunkie/status/2089823723205316733#m",
@@ -2105,6 +2091,20 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-19T03:31:14+00:00"
+    },
+    {
+      "title": "UFC Sacramento preview: Hernandez vs. Rodrigues picks and predictions",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa1l0SXBQSjI3OWxaZlpCemNTSkttQ043NTVwdmFhc2k2d2ZyX0E3bnRZVzlwN3RTVmRBdnVrc1lTX0RsV0l3dlBmbEVBUWJfRVpTdzJnVTVrbkhaOTlWcVhHOEd6SGZWSlFSRWZRYU1aOVVhelNyQ0VLUFo2RGVaX3FkYTZzT1hTbzRTdVI4bmlzTHNwMDlVMTdtZXlKdGVkRWMzQ2NpLThHRWw4QjdQVg?oc=5",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-19T03:35:04+00:00"
+    },
+    {
+      "title": "Joshua Van opens up on KO defeat to Charles Johnson before Alexandre Pantoja rematch at UFC 331",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeG4xM1djdEVLSW1PVzVOdmNEQXU4b2w2dUdpVHNHWTM4VjJQVzMybkF1cjR5TFhTSlp6cDJ1NUQwLTVoMjRuTWVVNkZ4U09ha2hjM2NFSDdpb2NkM05oM2dmQmdHam5DS0hEUTRHQnRqUDVOU3UtWmNUVEE5Y0RiSHprRFp3dGNwSGtub01GRldRa053akM3S2N5RDBEeDhndURtVl9KQ28wSVIxZGIzLW5oRUF6SnU3TXlmUW1CTQ?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-19T03:36:35+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMiYEFVX3lxTE1NTF9EQWtncXhrd2k5YlVCTGFLR05HYzBzX21uNFdibkI0enRicGFkaVJlRDVLTjZIQlpoVnhkczFwRW1PSEpUYXZsUnZDOUZod2lFLTBCSDRDX3h3MUxTSQ",
     "CBMidEFVX3lxTE1mR19FZEcwMkIxMXZPMmp1RkdUbjZnLUxmWEhfNlNtX2FOV1FLelVMbGlfQUIwVEdhcjZGXzFBeXloQURLbHFPU29CTzlZaDAyU0k1MXl6S0phYm1iLVM0c0xZRU00aEZVYk9tQ2JlaXdiV1k3",
     "ca818465-74f1-3f8c-831c-2ea9b7149fcb",
     "f3e09761-1bfb-36fa-baf2-b001e13929e6",
@@ -3312,11 +3311,12 @@
     "2089914372462383198",
     "CBMi1gFBVV95cUxQTHZNUVZGQkNkVlR0YUtmTnFSeHBPSGExYUxmcTM4dWpNZVFWLVd1MGQxZ010VVoySE8wYlQ3MTcxNDdaXzUtZ2N3eXFIYnNKSVM4WUJDWVdoTnBhVml0bl81N1RlRkk3dV9CdjVPR1VfbmFZcWh6ZU53UVIwby1qMElaU3BSeGo1MEZqS01fU0dpN3Y3SVNCekQ2dnFDa1YyNkRfNVN4NHk3MEZ1U0E5bXJTVWozd21yNGVRV2RaSWpweGdkd2w0RnZ3dnpVNWFGZGhHUXN3",
     "https://www.sherdog.com/news/news/Trent-Miller-earns-UFC-deal-with-rare-DWCS-shoulder-choke-202422",
-    "2089918084656009556"
+    "2089918084656009556",
+    "CBMisAFBVV95cUxPa1l0SXBQSjI3OWxaZlpCemNTSkttQ043NTVwdmFhc2k2d2ZyX0E3bnRZVzlwN3RTVmRBdnVrc1lTX0RsV0l3dlBmbEVBUWJfRVpTdzJnVTVrbkhaOTlWcVhHOEd6SGZWSlFSRWZRYU1aOVVhelNyQ0VLUFo2RGVaX3FkYTZzT1hTbzRTdVI4bmlzTHNwMDlVMTdtZXlKdGVkRWMzQ2NpLThHRWw4QjdQVg"
   ],
   "daily": {
     "d": "2026-08-19",
-    "ai": 114,
+    "ai": 115,
     "staged": 4
   }
 }
