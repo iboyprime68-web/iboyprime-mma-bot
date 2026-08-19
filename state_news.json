@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504546",
     "https://www.mmafighting.com/?p=504552",
     "https://www.mmafighting.com/?p=504562",
     "https://www.mmafighting.com/?p=504588",
@@ -836,6 +835,7 @@
     "https://www.mmamania.com/?p=465776",
     "https://www.mmamania.com/?p=465790",
     "https://www.mmamania.com/?p=465804",
+    "https://www.mmamania.com/?p=465850",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Who Should Get The Next UFC Welterweight Title Shot?",
-      "ts": "2026-08-18T22:37:18+00:00"
-    },
     {
       "t": "For Gillian Robertson, losing a UFC title fight was hard enough. But being abandoned by your mentor?",
       "ts": "2026-08-18T23:12:02+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "\"Maybe some other opponent next\" - Stella Hemetsberger addresses possible trilogy with rival Jackie Buntan",
       "ts": "2026-08-19T07:03:00+00:00"
+    },
+    {
+      "t": "Jon Jones slams Daniel Cormier for calling Khabib the GOAT: ‘Jealousy runs so deep through your blood’",
+      "ts": "2026-08-19T06:00:43+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Van Reflects On Johnson KO That Humbled Him",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RdGxvSDN4d2Jaa3QzU0QyT1ktaElDcU1PMGIxSXhIZXpxenowN0t4dk44Z1dFMWRJUnJlQU15Q2ZqMTRFTE53U3RzQ1VTa1VGNGpLNFU1QUZWNjktS2EzblEyc0htOTRBZmZ2WFJ3?oc=5",
-      "source": "boxingnews.com",
-      "cat": "ufc",
-      "ts": "2026-08-19T06:30:32+00:00"
-    },
     {
       "title": "UFC 332 Adds Figueiredo Vs. Talbott In Salt Lake City",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GNHowazBtb1lqQXBMa3VUZG5wSDZ6ZmhKd2dQaWtrYjRxdzczZ2tjZGNFa0ZhMDZUZ1V4SHUzSnlfTk5QT3hwR05jZmpQQW5yVEprMlhRd08tcHVuMGZlWlgyWkVJZV96U0MwbnZqMV9uRmc3cnptV2Rn?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sportskeeda",
       "cat": "ufc",
       "ts": "2026-08-19T07:03:00+00:00"
+    },
+    {
+      "title": "Jon Jones slams Daniel Cormier for calling Khabib the GOAT: ‘Jealousy runs so deep through your blood’",
+      "url": "https://www.mmamania.com/latest-news/465850/jon-jones-slams-daniel-cormier-for-calling-khabib-the-goat-jealousy-runs-so-deep-through-your-blood",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-19T06:00:43+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMimgFBVV95cUxPeTNCUkwydlVOckxBTktaVWhLMnRvR2dGMXlNc1FTWjJELVZoajR0T2FEOFZkSVgxdWdnWFI2eklLTVNUb0pYa1RCTmRjdllLV293NVcxOGtBblkxYWtaVTJweHZHNWNHZDl6R2pZZTNvTlRBTXVDMm1yMHdoa3U2Z3dReHVXSVlmWGFMcjktV0dNaXB4MTdFZllB",
     "CBMihgFBVV95cUxNOWp0ZGZFWHpWcXFKQ0QyMVhIeGYzVlpxakRNRjZ6SDFNMXRaTENEZkpzbERtUk1TWGh1UnU1ZlJmQlZCc09Ub2F2R0FXRDVtcExYZlIxRU9CMXpvUVcxYWVBemNnZUFYdmRUVFdVWGctcTVRUGJqSnlyZnppNFRxSEtqWEZtUdIBiwFBVV95cUxQUDNZSmx5N05vaTZtZm53RXhJMXJEeUtMNDctVWh3TmlKcG9sRXRhWWp4QzJpNWwweVZuTEptRllkTWNya1lhVDVvVVZDc1gxUkc4dkpZMUQ4VW5ycGtfZnd0VWl2cXNhWmszdzhtLUN5akNNdW5MaGpZZ29zTHo2V0dDLTcyT01PdlA0",
     "CBMijwFBVV95cUxNV3lJNS1sZll4UEdNeXRJdW9QakNVcXo3RURabWJJV2RDdEpfeVlueEFTV0d0SUIxaG5ySFk0LXVHNGdtbUptb2NwajdlN0NmRGU4aUxMYkp3ZXl3b1FTRFFLdVZRNVI1T3hMeGxBWnVDNk9fS1RYcW5KSkhiblhOdHdKODBCWG9rR0RGNTdGd9IBlAFBVV95cUxQZ28zaG5CZ25YR3JzVnhKcEVRRW9MbFlnRnlmM0pMRWtkbGxTb3p0SF9pOUxwb0haMFRjX3NSaHM4WEdQYWlFQ0tRdVY1QTNEMnpjeGxYaGlidDhSS28zZFBta1ZGVHhXTmxmMi16UXBFYmd1TkFPTHBlV29XWXpmZzNVVV9OeWF5Vng4SmE4MG4yR3RR",
     "CBMie0FVX3lxTE5lLW9hZWhxeHhhcEZYX29VeFlOblB4V1FadExzR1duX0tmeUNIa21ZZVlwUzhyYTE3ek9oWFh6cGV0US1DN0FtRV9HZnZuRURjSUZMR0hQZWFIYnpMUTE1SUFFanVzZU91dDFFRTZVampwNEYtSkNuam53RQ",
@@ -3312,7 +3311,8 @@
     "CBMi2wFBVV95cUxQV0RUUGs5aEM3VnVKSnU4LXhUTFdpZi1QNFR0XzlEWnBGUHJYd1pSUjZIX0hZenNZb2sydGJhazRkWlJjNjBqcDJfV2NVT0dnU0Mwa3Z5MFFiQUw4QlRVS1ZQS1BzbkJXaU1qeUtfQXNYRjdEM1dMbDVERmliX3BiNHloWXlxMGFLRmhITjhyd1JjNFJpemZNZjh0SEQyT3ZMRjczckNfRUV1Sk1XZmdqN3hsdTBuTW5lQXh5SHhqdUpvNWJMenp3VU0yVUJkNWRTbW4zV1FBZVhIM1U",
     "CBMid0FVX3lxTFBvTkpZMUU4RHl1a1hNNGlwandxc2lkbVRvSmM4V0NJX1VvVmtCNHRobnFDaklCbWVfSDVaUUhESTktUVFLZGhaT1BoR0w3UC1MaEkwTUdYc2x3VUxwRUFSVWNVVE1iTVMzaFd3dlRuNU40eHBaZllF",
     "CBMidEFVX3lxTE1ZeHJ4NjBMcWRjWjh6b0JRRUVUVGVQSUQxajlsLTBTTG5EQjVCVVFyeUdwblRKcmNGSl9yNUE1cEpsSmlpTEZlUkVDTXZkUmNDTEdFOURiUjdXTTI3cUd0YzJYX05tUUFwWDZSNnhlRlZWTGcz",
-    "CBMiwAFBVV95cUxOS0o4ZVFjZGZlWkRMQWxTY25CZmlySkZkSWl4eEszbzliWWVLN0cwM1ZuUHRieXhtRk9xX21Xc0dQY050ODF5SDB1QV9qWDNjb3YwQnVXckNobXdtR2d1S21heU1OMGtGVUJKczJnSWRPQnFtWFlwOGN3TjRMN3p3M055dVpzVzQ3Um9iU2hkTnowUERxaHE5TjFodmhCQkNZSG5iTzhsN0l0NjduR3d6eXBOUnVaMENsblVwMFlqS04"
+    "CBMiwAFBVV95cUxOS0o4ZVFjZGZlWkRMQWxTY25CZmlySkZkSWl4eEszbzliWWVLN0cwM1ZuUHRieXhtRk9xX21Xc0dQY050ODF5SDB1QV9qWDNjb3YwQnVXckNobXdtR2d1S21heU1OMGtGVUJKczJnSWRPQnFtWFlwOGN3TjRMN3p3M055dVpzVzQ3Um9iU2hkTnowUERxaHE5TjFodmhCQkNZSG5iTzhsN0l0NjduR3d6eXBOUnVaMENsblVwMFlqS04",
+    "https://www.mmamania.com/?p=465850"
   ],
   "daily": {
     "d": "2026-08-19",
