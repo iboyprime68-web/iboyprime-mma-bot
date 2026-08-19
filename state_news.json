@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": ".@MikeHeck_JR and @JedKMeshew are LIVE reacting to #UFC330, Din Thomas, talking a very busy weekend ahead, and more on BTL! https://x.com/i/broadcast…",
-      "ts": "2026-08-18T16:02:02+00:00"
-    },
-    {
-      "t": "Pinned: youtube.com/live/hB6nTE9SEXE",
-      "ts": "2026-08-18T16:02:12+00:00"
-    },
-    {
       "t": "Sean Strickland scoffs at alleged Tyron Woodley threat over Din Thomas comments: ‘Weak ass b*tch’ https://www.mmafighting.com/ufc/505687/sean-strickl…",
       "ts": "2026-08-18T16:05:59+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Nilson Rojas",
       "ts": "2026-08-19T09:38:38+00:00"
+    },
+    {
+      "t": "Prates vows to knock out Morales",
+      "ts": "2026-08-19T08:48:19+00:00"
+    },
+    {
+      "t": "Dana White répond à la demande de Khamzat Chimaev",
+      "ts": "2026-08-19T09:37:23+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev’s coach credits Ian Machado Garry as toughest fight of his career despite champ’s claim",
-      "url": "https://bloodyelbow.com/2026/08/18/islam-makhachevs-coach-credits-ian-machado-garry-as-toughest-fight-of-his-career-despite-champs-claim/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-18T17:00:00+00:00"
-    },
-    {
-      "title": "UFC Fight Night 285 pre-event facts: Strawweight bonus record can be broken",
-      "url": "https://sports.yahoo.com/articles/ufc-fight-night-285-pre-170031409.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T17:00:31+00:00"
-    },
     {
       "title": "Multiple Fights Announced for UFC 332 in Salt Lake City",
       "url": "https://sports.yahoo.com/articles/multiple-fights-announced-ufc-332-175705205.html",
@@ -2105,6 +2091,20 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-19T09:38:38+00:00"
+    },
+    {
+      "title": "Prates vows to knock out Morales",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNODAybGo1cGdTS0VRWDJFbzRrd25jc3laSGNSbDNGdENWMDdMS2hjdjZyY05ycTN4UGtXN3RiM0wtNllHTEVVRjNleTlseWZYNnUxWUZWQkxkS0J0WFJ1SFBRd1pKMlI5TFI5TjVzdXd6VzR1a2Z2cWJyZG9JQmRmTUtDb2HSAYQBQVVfeXFMTTgwMmxqNXBnU0tFUVgyRW80a3duY3N5WkhjUmwzRnRDVjA3TEtoY3Y2cmNOcnEzeFBrVzd0YjNMLTZZR0xFVUYzZXk5bHlmWDZ1MVlGVkJMZEtCdFhSdUhQUXdaSjJSOUxSOU41c3V3elc0dWtmdnFicmRvSUJkZk1LQ29h?oc=5",
+      "source": "RingSide24",
+      "cat": "ufc",
+      "ts": "2026-08-19T08:48:19+00:00"
+    },
+    {
+      "title": "Dana White répond à la demande de Khamzat Chimaev",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPenNIbzFiYTJvYzYyZUtTLUF4bUlXNjJaMlVwaFZsdTY4dUdCY0ViTmFuUjdOZHJKakE3eTlhWGtIbHVQcEpuLTJVN1JxcTkybUJMa1RyZTJYMHczMjBzci14dXpFdFVYNDVJcDVDX0FqLUVIVDY3LWM4WWhab2I3UElFaXZDb3M?oc=5",
+      "source": "La Sueur",
+      "cat": "ufc",
+      "ts": "2026-08-19T09:37:23+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiW0FVX3lxTFB0SnBOLUc4M3RtVm01UlRWc3NNdWVRWUkzT2xzNU9pRVBsZ3VDc2lQcUcxNWxQOW5QcUFFQWJjV1JhX3h3UUdUVEcyT2pMYUVGYlNac0FkdllocU0",
-    "CBMinAFBVV95cUxPS3BOYmg5V1RXOWRBTmNaOEttbUw1QXh4ckF5cEFXRk5oc2d5QWJVYTNiTUJtNmlENTVIU2hQVWRuQmFjakRJa09rTjJtcUVGbzI4RWhETi00R0JCand3Q0RubUtMT3BENTNiV21LaWZtdFhHcW1FRDdGUGtVV01LYnBvbFhnSkczRG42czNKMTRNYWhWYUZ1S2lRUEw",
     "CBMigAJBVV95cUxQOXJaYndJdnhpdG1GOGNMS1NtdE1wWjdNOTF1V2NTNElzR0FiNjVBS01OQi1iUlBjamIzUG5fdUxQaHhabXNucENNN3A4a3BqVUlQQVhqMDFrNVJ6Z3hOVTlIazVBZURqeXZtNlFtNGJqTXFieVF4eE50Ti1COWtHd0syb2MyZ2lfejVWTEdOdmpuX2xtaHhGeElZTU5ncXJZdlhDeEJPM2plNmtRWWkwOUYyNWp4TXowTDJJVWgtMFBBeHZNV3F6bVd3VTl0TTkyc2pIbVI2YW5kaWRoSWxwNHdoRnQtTmtxNlRKSEpXNXI0YWZ4TVJoTnUtUXc1MzQt",
     "CBMicEFVX3lxTE42V3JQM1hnUUNPQzAwUlVFZ0x1R1pNb3BVOGhSYkhjSXoyUndVS2ltNVA3dzFDRXN4Ykh4bTdrdENza0NCYXpZcU91emROMHlFOC1VQ3NpdUN6eDF1dG5LUXE4aVIxaXBFV3ZGR2d5dDE",
     "CBMitgFBVV95cUxNdkRiUzNTQ0RkZ0RuX0RvUVlKRF9CYmhmQ2VsdmxiUlM5YnFSenZ3WlFZaF9fYlVGWkUtdmZIX055WUhIVE0tOVNuYXdvUHp6SzhWYVRtN05SZ2t5YTlaQ2Vlby1NYUlZVklsVzhBLUpuSjdacXp0NmNmOEVBOUhYQS1zMzBTcGRxaG5QdTRoY0NtOXYwS3ZPbmZ5aldnREtfdWRETG5hckZQZk9FbzRtNkMxdTVEQQ",
@@ -3312,7 +3310,9 @@
     "CBMilAFBVV95cUxNMDM3bThzVFh1bjJja01fRnhaZjBVeFVNQmZ0Z1lpRUdhMVlyaWN4eUs1Znc5RllXbmxKSzRoVlR0Rjl0SkVscnh0cl81eV96TTRfV3B6SXN2cDRTUl9tQlVIaWoyOUxKcFBnY2t1c3ZFMDBIakJ3R1dBX3dmZGpoMVRMN2FUbDBkdmFtb0Z4cEhpcnBh",
     "f5f274de-a783-315c-8cef-7cdf3badfe29",
     "CBMic0FVX3lxTE1pa2xkM3haSkxSbFRNS1ZZZHhONV9qVjlkUC1TZ0d6RXBHZjFRZzBBQlBTM0V3NEpMZEZkNEpNTFJMcVRmQ1pYcmVnSnF1a3AxMkxzVmZObDF5U2o4N2k1cHU5YU5EQkVTY25mR2lpZkloT0k",
-    "CBMibEFVX3lxTFBpNEg5dWRXLUFHb0t1QnZlcFB3cmNtVTI0VlRXbXdWSU00RjJxQ3NzZm45NG1jX1lTUDhTNE9wZTJtLWpBLUxHXzZRSC1FWlA5aUMtYjJwRDNLM0x1YjNKLVY5ZS1IbXdhdXloWg"
+    "CBMibEFVX3lxTFBpNEg5dWRXLUFHb0t1QnZlcFB3cmNtVTI0VlRXbXdWSU00RjJxQ3NzZm45NG1jX1lTUDhTNE9wZTJtLWpBLUxHXzZRSC1FWlA5aUMtYjJwRDNLM0x1YjNKLVY5ZS1IbXdhdXloWg",
+    "CBMihAFBVV95cUxNODAybGo1cGdTS0VRWDJFbzRrd25jc3laSGNSbDNGdENWMDdMS2hjdjZyY05ycTN4UGtXN3RiM0wtNllHTEVVRjNleTlseWZYNnUxWUZWQkxkS0J0WFJ1SFBRd1pKMlI5TFI5TjVzdXd6VzR1a2Z2cWJyZG9JQmRmTUtDb2HSAYQBQVVfeXFMTTgwMmxqNXBnU0tFUVgyRW80a3duY3N5WkhjUmwzRnRDVjA3TEtoY3Y2cmNOcnEzeFBrVzd0YjNMLTZZR0xFVUYzZXk5bHlmWDZ1MVlGVkJMZEtCdFhSdUhQUXdaSjJSOUxSOU41c3V3elc0dWtmdnFicmRvSUJkZk1LQ29h",
+    "CBMihwFBVV95cUxPenNIbzFiYTJvYzYyZUtTLUF4bUlXNjJaMlVwaFZsdTY4dUdCY0ViTmFuUjdOZHJKakE3eTlhWGtIbHVQcEpuLTJVN1JxcTkybUJMa1RyZTJYMHczMjBzci14dXpFdFVYNDVJcDVDX0FqLUVIVDY3LWM4WWhab2I3UElFaXZDb3M"
   ],
   "daily": {
     "d": "2026-08-19",
