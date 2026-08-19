@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504562",
     "https://www.mmafighting.com/?p=504588",
     "https://www.mmafighting.com/?p=504612",
     "https://www.mmafighting.com/?p=504619",
@@ -835,6 +834,7 @@
     "https://www.mmamania.com/?p=465790",
     "https://www.mmamania.com/?p=465804",
     "https://www.mmamania.com/?p=465850",
+    "https://www.mmamania.com/?p=465856",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Carlos Prates: UFC promised Islam Makhachev title shot is next after signing new 8-fight contract",
-      "ts": "2026-08-19T00:55:12+00:00"
-    },
     {
       "t": "DWCS video: Trent Miller sleeps Douglas Rodrigues as biggest underdog on card",
       "ts": "2026-08-19T01:00:47+00:00"
@@ -1683,6 +1679,10 @@
     {
       "t": "UFC Commentator drops Surprising Claim about Islam Makhachev’s Dominance",
       "ts": "2026-08-19T11:02:00+00:00"
+    },
+    {
+      "t": "PFL Tampa's Cris Cyborg gives retirement update: 'I feel better at 41 than 21'",
+      "ts": "2026-08-19T10:46:34+00:00"
     }
   ],
   "digest_items": [
@@ -2110,10 +2110,9 @@
   "digest_last": "2026-08-18 21:30",
   "hour": [
     "2026-08-19T11",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMi6AJBVV95cUxQWklhQVVMeVRCTnFBaTFjT3hPdF8tZjJDQlJPc0gya2M4NVRFanFUS2twd3NsTnJ4QmlzU0FLUHVROEVFX1dSa3doV3ZIaEVEcTNVNTRqSGFTUHlNVzd5MC1yRUlUMnJOZE9odmdnREdGSzhuX284a0lkbTlCTVdrTnNZQTlWNF9ldVpCeFJ1LVYzYnRERzF6MTI2dzZZQUhkSy0wLVNiNGVrVWpPWDBQMjBRT3dLUXZqU1B2OWNtcV8yTG9kVGRBSE9WOEMzZHFOU3FNSk1LQWR5cFhQcjAxMUhnalVERXRiNWdvQ05qb3lnRnVXMFJ5QUJEYXkwTXZVZkVTUldObmUtNU5YcDRma0FWR1p3bG16V2QyT2VoOENSekxmWXFwblc3M01acENjb3VDNXFteEltUkhiMEIzZFRTMmMtbUFydEdLbEdzMEphbjJqOU5SWXVjRWN0TzdtX0VkaEdzdlc",
     "CBMisAFBVV95cUxQOFJXZGlmd3l6Rkp0dW13Rnk2QXdnbW5HTFE3TEljS1UtaFhZdE5CdTVMZERGeXEyUTV6S09rV3N0UmRlRVBSM1phZTctNUp5LUpleHRGWTFsSXRONDNQelhaOVZ1TlZUeG9jbDh5ZUFSR01GSWZKT282ci0zWXNwTmVGUEhzV1NKRm9WSlFZVXJ4bXlMY0J2YWttSTZZemNpcjdTZ2VqMmt6MmpzaVFVWg",
     "CBMipgFBVV95cUxNTHJVT25jbmJtdzBqQXd0TVpMenUxZERQRG0zZjA3aDRwSGt4eTJIVElnYk90NVJIbGREeUtuRG9kbXdyeFo5cWpOaUJUR2dvWDg2cUZ2S0xfSVBsMkJsd3l5SV9SUDM4S05CbUNLazg3RWktanNGdDFLOW5KYVoxZXVMbDFvNkNLblBUa0ZlN3p6Vl9PU2VvM1FnTFhmQkpfUVA4aFJR",
     "CBMic0FVX3lxTE8xcFdzSzR4T1V0NFkyeWtLRENyR0pKcEJ1eVpiMXNtdUozNmp1Smgza1F1SnJUcmFBUFBxX2lJTllXczhDQ1pSQ1NqSzY5UTB6OEpJZWhKUVdMLWRwdjYxMFU3aDhwdkxZZE9MNVM2WDZFOTg",
@@ -3312,7 +3311,8 @@
     "CBMihwFBVV95cUxPZVJIQ3BqWk01QVRVeWFaVmJKSk1zcXJmVEtkbjJTLUt3VVhmOWZjbFdpUEFhQmhXVGI1ZXFLMF8zdmNlVnRMdklEYlBPRmZ4S0FrdTBmTnhMb0Fkb3JSbV9JQ3NMNXJkNEIyMEFwNW5KMFhmeGdQdm04M0pxajFsbE1PX19ubjQ",
     "CBMilAFBVV95cUxPS3FQVHh4Y1JRYVV0OHBycGF4ZktkNC1nb3FBbF9MN2pTekpJQ1FGcnB6a296SEtucW13aXJUak5nRnN3SWQxTWhYY25tRU00b0ZhdFVYX1lLTm5ybEtIbVZjaDRKMG1qVGtZU0U1dlNFODkyNFdtSXQyMkZ0N1NkLUtfT2c4OUJfdnJtbzZLcTZkMDZX",
     "https://bloodyelbow.com/?p=327631",
-    "CBMiwAFBVV95cUxPd2VXOWI5bUYzaXBjQ2JDbjhxVkpYYUhnbmkwWHFGZmFtaEplR3h5eGMyanJrWG1QalNKMFdyWGlKRlE0UDlxWWV1UnhQMlljM2JkdkJuRXR3ZDZCRmhxTXdIOFVGXzN4OE1KZHFTSmYxMFlobEtyR3Nob2JCRU1HWlhkdHhGZ3dnYjJrSmVQcXpPcXVhSWZ1b1VkUkZZNFRPdTNBMGtSeTJoelU4WXpma0FxejlDc1ppdF80RDk5Rmc"
+    "CBMiwAFBVV95cUxPd2VXOWI5bUYzaXBjQ2JDbjhxVkpYYUhnbmkwWHFGZmFtaEplR3h5eGMyanJrWG1QalNKMFdyWGlKRlE0UDlxWWV1UnhQMlljM2JkdkJuRXR3ZDZCRmhxTXdIOFVGXzN4OE1KZHFTSmYxMFlobEtyR3Nob2JCRU1HWlhkdHhGZ3dnYjJrSmVQcXpPcXVhSWZ1b1VkUkZZNFRPdTNBMGtSeTJoelU4WXpma0FxejlDc1ppdF80RDk5Rmc",
+    "https://www.mmamania.com/?p=465856"
   ],
   "daily": {
     "d": "2026-08-19",
