@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS 10 - Week 2 Highlights",
-      "ts": "2026-08-19T03:57:41+00:00"
-    },
-    {
       "t": "Highlights: Mariners at Astros (8/16) Stream of Major League Baseball",
       "ts": "2026-08-19T06:11:57+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Which middleweight you pickin' in the #UFCSacramento main event? Anthony Hernandez or @Gregory_MMA? [ LIVE AUG 22 at 8pmET on @ParamountPlus | Ticket…",
       "ts": "2026-08-19T04:01:00+00:00"
+    },
+    {
+      "t": "Carlos Prates fires message to Islam Makhachev as pair push for December title showdown",
+      "ts": "2026-08-19T05:00:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev has surpassed Georges St-Pierre as the second best of all time says UFC commentator",
-      "url": "https://bloodyelbow.com/2026/08/18/islam-makhachev-has-surpassed-georges-st-pierre-as-the-second-best-of-all-time-says-ufc-commentator/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-18T20:00:00+00:00"
-    },
     {
       "title": "Michael Bisping says Ian Machado Garry’s UFC 330 approach showed a ‘sign of weakness’",
       "url": "https://bloodyelbow.com/2026/08/18/michael-bisping-says-ian-machado-garrys-ufc-330-approach-showed-a-sign-of-weakness/",
@@ -2105,6 +2098,13 @@
       "source": "UFC on X",
       "cat": "ufc",
       "ts": "2026-08-19T04:01:00+00:00"
+    },
+    {
+      "title": "Carlos Prates fires message to Islam Makhachev as pair push for December title showdown",
+      "url": "https://bloodyelbow.com/2026/08/19/carlos-prates-fires-message-to-islam-makhachev-as-pair-push-for-december-title-showdown/",
+      "source": "Bloody Elbow",
+      "cat": "ufc",
+      "ts": "2026-08-19T05:00:00+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMikAJBVV95cUxONXNHVWFpdXRmSHYwS2dSaTR0QmRQdGxRamtpVFJYeThfbVhjNHhtUVZSd3dfZlk5ZW1JLXhWODJoNzR0eGl6RlNRSmhFVXRfUG9DX056VV93ZHVCemluR09OOWxKTXJaN0xCc2M2V1M1UkZrdkVJTzExUkZWelZwazhMeE1FeGFXYUowajJCcFJTZTc2Zzg2b1BJVjFsR3VLZmNmM0o2RG1VVV9WNTdTcFZzTkg4RFpoWjZfSmNtVUFLU2RybFdmTUpCVmtQODczQ3dObGd1TjI2aThxR05QeU9ILWd0ZzFIWW1jc01ScjBnZnZ3dmlMd05XNk80THd5OTVMUDZaYW5IT2E0LWM0X9IBlgJBVV95cUxPTGxiVlhEdm9wZEs3OG5EY2tSWDBMYk9taUNLaFFoeWRDTFFNYXR2aVFWRmVsZ3puM0lndzdxekdKYzZua1NGZTR2MDRFM1lSNVY3WnhhemJkdlJmdjB0WVF2ZWhkY1BKUlYza3ltWmxZTWExa3hUWGo3MkF2RmxHalY3VnYydFZoNU5ZdDlRMUhTS0xHZ2xwNi0wdnk0MnZBNGlIWGE2ajUzYmV2ZU9SSkgxVm5QdURraGtBUUV3ODVfTjI0eDNybEZsLVlzQVliZzEzdTA3bkV3SFdfOWVib1hqWW1Cd3ZUOFQ2SjN0VjF5N1E5U1NMZnlMLW83WGlHVnliYlZJeVJILWZhR0FHQWFTOVduUQ",
     "CBMiswJBVV95cUxOTzZ1UXZnVDdxTE5rQjNMc01xbmx4VUdaWHF0QlJwV0JJSWl6NjZUeGZDWW95SElxVkJ2OTF5Q0JiSUJDM0pVVVR6MUo0cnBjbnkyUUpnR01EX25RbFNPdnNaa0tDWDhUSWhsTzhtTDV5YURhdUxDS21GQzRWSjhpeUI1WVVXWXlxUHA2TGVKUjJVU3hDdU40REE4Vko5VGEyWkhJNE9kR3lLTVBsZGo2alJnZzFUamJaZU1RVWVFVGhKdkJTUXJLcEJOVHJzMmFtWUNINk1VSTA5MXp4R3lUM3V3RjNpOFR6R3ZjdGtHMGc0NjdjVFhVWlF6UkJNeU93eHpUQnBfa0VlZm05OEZmN0lDbTNmclB0X0l2UG1SSDVCV2R6a0g4UVpiWXJ2bFloUXhV",
     "CBMitwFBVV95cUxOYlRzbkt5c01TMElpQjVlaExVZzlyLVR6dk9zcGhDRzJCT2xoSWxYUEpRRmhkeUJNOENWQWh6OVBDUEpzZ3pOaWc2WDFuSHMzWjRhUW9hMFhmbW9pZFJlNXJzRnhWOXdEZ1lSWXgzWUNja195aEtJMUtfSS1DOGZ6c3VRbHV5UmVGV2t4c2ZjSENxT3k3ZTJTZ2JqV3hkRUtXWjIwMEp0MHRGV24yOU1PdHRXeGtua00",
     "CBMiekFVX3lxTE5acVJDS2ZjcGtZMUc1VWM2cC1tSEo3RUUxZmZNaEVLMnRYblRvN2ZmNTJvWXVVU2ZSNDFtNXMzcmxFazdYcGR4ajd1d09EaldnblRrbVlWOGMwNWFsWXBqYkxtb3gwN2JhbzBsdVR1QWY3cXpnSmhiVXNR",
@@ -3312,7 +3311,8 @@
     "a2fe5bb7-c311-3bd4-85c1-fcbd36087a61",
     "465d03d8-dc3d-30a1-a765-71a242d55b39",
     "CBMiwAFBVV95cUxQbXc5N3dGc05Db29HNFY3RzBJM05jNzJ6UmI2cFhXRXVvWGtzYUVTT3V1TC0zYUE2Q2xHV3UwSmlObUJKMjBMRGliMGFBQW9uZDVFTEl0QnZkYklkaDlQckNYQkNvY0NRUDdyZXdfY3lQQko5Tk41NllVQUt1UkFiekU0TEVLbnNrQmpESXFITXFxSDVJZC04S0hOS1dLYXJsRE1ZdmhlYnhYWUo0Sm1RZFo2SjBRSkF5dG1RbUFCMljSAcYBQVVfeXFMTklOUjBRZVYzWGtzakZRLVpJZDdpUXlVSFBaajJ1NTlheU5TT1pielR6NkMzNDV6WldWcEpBTFZ1NUUxTE9GZmpUbEk3YkQ5N1g0WXZrR29nSUVHdFNjdXpJWWh6ZlA4czFCVkZHMTZLNmNCdkZrYTNZR3c1VHdJUnp5dVBqdjNaYVVCXzhEU0pBQW10dFhMcjBaeW1WaHNQcUZrX0M3bExhc3lqZ0ZyaEo4dmpyb3JyQlpzUERYbk8yUVJOdUJn",
-    "CBMijAFBVV95cUxNZXBPb1pSMnhpLXltbEVUUi1EQi15bFdzZ0lkWENwNU5VNzQ1WDU4bXRKS1RvWUdRZjJzQ3k1Qm9zVHVQYlhZRkZXZjRGMnZBbVRXNFQ1T1FKSmJXQTRJeFdyU1hkcWtDSnRQMGZrSTJQSV9meGUxUXcxWmhhc0MzeE9IbUdUV3hmMHloNQ"
+    "CBMijAFBVV95cUxNZXBPb1pSMnhpLXltbEVUUi1EQi15bFdzZ0lkWENwNU5VNzQ1WDU4bXRKS1RvWUdRZjJzQ3k1Qm9zVHVQYlhZRkZXZjRGMnZBbVRXNFQ1T1FKSmJXQTRJeFdyU1hkcWtDSnRQMGZrSTJQSV9meGUxUXcxWmhhc0MzeE9IbUdUV3hmMHloNQ",
+    "https://bloodyelbow.com/?p=327627"
   ],
   "daily": {
     "d": "2026-08-19",
