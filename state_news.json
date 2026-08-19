@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Forging 'Warverine': Logan Paxton took a cross-country path to UFC opportunity",
-      "ts": "2026-08-18T22:27:00+00:00"
-    },
-    {
-      "t": "Islam Makhachev was so close to getting a head kick KO at #UFC330 🤏🦶",
-      "ts": "2026-08-17T22:25:45+00:00"
-    },
-    {
       "t": "On To the Next One: What’s next for Islam Makhachev, Ian Machado Garry after UFC 330? https://www.mmafighting.com/ufc/505385/on-to-the-next-one-whats…",
       "ts": "2026-08-17T23:03:58+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "#DWCS results: Alik Lorenz def. Mahamed Aly via knockout (punches) – Round 1, 2:23 Live coverage: https://mmajunkie.usatoday.com/story/sports/ufc/202…",
       "ts": "2026-08-18T23:57:12+00:00"
+    },
+    {
+      "t": "SAT HIM DOWN 🫡 Alik Lorenz just made a STATEMENT for a RD1 knockout! [ #DWCS is LIVE NOW on @ParamountPlus ]",
+      "ts": "2026-08-18T23:57:30+00:00"
+    },
+    {
+      "t": "Alik Lorenz makes the best of his second Contender Series opportunity and seemingly earns a contract tonight at #DWCS88 #DanaWhiteContenderSeries",
+      "ts": "2026-08-18T23:59:54+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Fight Night 285 broadcast team set: Two Hall of Famers on call",
-      "url": "https://sports.yahoo.com/articles/ufc-fight-night-285-broadcast-125035091.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T12:50:35+00:00"
-    },
-    {
-      "title": "UFC Sacramento: Make predictions for Anthony Hernandez vs. Gregory Rodrigues",
-      "url": "https://sports.yahoo.com/articles/ufc-sacramento-predictions-anthony-hernandez-134020990.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T13:40:20+00:00"
-    },
     {
       "title": "UFC 332 adds several new bouts, including Johnny Walker’s heavyweight debut",
       "url": "https://sports.yahoo.com/articles/ufc-332-adds-several-bouts-153000730.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-18T23:57:12+00:00"
+    },
+    {
+      "title": "SAT HIM DOWN 🫡 Alik Lorenz just made a STATEMENT for a RD1 knockout! [ DWCS is LIVE NOW on @ParamountPlus ]",
+      "url": "https://nitter.net/ufc/status/2089864293986787631#m",
+      "source": "UFC on X",
+      "cat": "ufc",
+      "ts": "2026-08-18T23:57:30+00:00"
+    },
+    {
+      "title": "Alik Lorenz makes the best of his second Contender Series opportunity and seemingly earns a contract tonight at DWCS88 DanaWhiteContenderSeries",
+      "url": "https://nitter.net/MMAJunkie/status/2089864898985832574#m",
+      "source": "MMA Junkie on X",
+      "cat": "ufc",
+      "ts": "2026-08-18T23:59:54+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2089158846074003674",
-    "CBMilwFBVV95cUxPVl9QVTYzN2NyeDdhVW5WLUNGWE84dW53bUpRcFM4X0F6cUxwbF9MN1Y1dnhaaGE4eTdrSWtIWWNSeW0xSTNPRDlFY3NubnhtNU9rcEwtWGdEa0NYemZzd0ZFMTQwUWx2RzdYYXVTcjdBZG5KWk9UUjNkNHF5Z3VIMVFvM1hVMTF4Y0JERkxwSi1IUU1IY1Mw",
     "CBMiowFBVV95cUxPT09sc2Z6anVXb1NaaW9RSS1fMlRRWU5rOXRoUENnNEw3YlhaQ3RYcG1TNERza0Rmd2lnQWNJbjBna2xDLVZNTEJJQlFxc1JzbzNlalhaOGdMOC0zR0pWcUFHRmF1cEF3S0hXMWFXOTJEQm1kMXRBTllhRmM0bWwwMlB4azVjVXBnRDRKLXZyM19VTXY1bnNLb01HQzhZN1dKclRn",
     "CBMifEFVX3lxTFBFUDAyMDZhTjlWQlBRd0ZXZWVkbC1SVkEtYzJzM29OMV9qTG9Pa3lBanZ4TnJzX2ZFRXFOdGR4YUx2eHFkUmZmNTNUaWZTNWZIWHVxLWhmdzhaX0NqVnlyZHBHVW1qdDk0OU1wZWVJbmNmQnV0bENTOTlHUkw",
     "https://bloodyelbow.com/?p=327291",
@@ -3312,11 +3310,13 @@
     "CBMib0FVX3lxTE4xRURQVV94QkUwUlowVE5kTW5Iem5UTkdWWFFLeDlnUnN1OGc1YXNza0FpblRSOFJ2WFV2MEJJOEVjUGdHZDl2VXhrcWtFQ2tmZS1IcnZwTkJ4N1YwR09FRTk5VUkyVGhJaXV3bUxpTQ",
     "2089862105415754098",
     "CBMiiwFBVV95cUxPTm5VNWZUcXJaa2hTSElhdEplVHBDWFI5N2xQT2VkaHpMaG80SU1hNXlXRlY3aUJVU3N1aGQ0V29BZGYwSkl4bDgzZ19SUFFwVHU0cXBfd29ydlFMbFo4dXF5eHgyaDJaM3htTGoybUQxdS1nN2hnVENSaGRJSTJheTJicC14dDl4MUdr",
-    "2089864220665893270"
+    "2089864220665893270",
+    "2089864293986787631",
+    "2089864898985832574"
   ],
   "daily": {
     "d": "2026-08-19",
-    "ai": 5,
+    "ai": 7,
     "staged": 0
   }
 }
