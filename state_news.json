@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Edson Barboza details grim reason for UFC retirement: 'I almost lost my vision'",
-      "ts": "2026-08-19T16:11:37+00:00"
-    },
-    {
-      "t": "My word. What a KO.",
-      "ts": "2026-08-19T01:34:22+00:00"
-    },
-    {
       "t": "My complaining about the Apex has officially retired. Vastly different product now that they added more seating. Looks and sounds so much better on T…",
       "ts": "2026-08-19T01:36:50+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Edson Barboza settles debate over Herb Dean’s UFC 330 stoppage with ‘thank you’ message",
       "ts": "2026-08-19T19:30:00+00:00"
+    },
+    {
+      "t": "Reinier de Ridder on Roman Dolidze: 'I'm just going to kill this motherf*cker'",
+      "ts": "2026-08-19T19:30:00+00:00"
+    },
+    {
+      "t": "Charles Oliveira denies having next UFC fight booked",
+      "ts": "2026-08-19T19:34:03+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Morning Report &124; Carlos Prates says UFC guaranteed him next title shot against Islam Makhachev, wants to ‘shock the world’",
-      "url": "https://www.mmafighting.com/ufc/505695/morning-report-carlos-prates-says-ufc-guaranteed-him-next-title-shot-against-islam-makhachev-wants-to-shock-the-world",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-19T03:39:53+00:00"
-    },
-    {
-      "title": "Dana White Signs 6 New UFC Fighters After Week 2 of DWCS",
-      "url": "https://sports.yahoo.com/articles/dana-white-signs-6-ufc-042828765.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T04:28:28+00:00"
-    },
     {
       "title": "Dana White addresses Khamzat Chimaev’s potential UFC 333 return",
       "url": "https://sports.yahoo.com/articles/dana-white-addresses-khamzat-chimaev-050627081.html",
@@ -2105,6 +2091,20 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-19T19:30:00+00:00"
+    },
+    {
+      "title": "Reinier de Ridder on Roman Dolidze: 'I'm just going to kill this motherfcker'",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSzE0UEk0UTRkdE5uZHdaUWVPWWZqZ3dxQ1N3V0hSM0s0M1ozVzJ5MjJwcVhuQVROVW9TVURYVVRMdXFZR3IwYWVFdkxfOXRlWE1jNXgybFdQYjdUVVpHMEF4d1NuVGVxQmE5aU41TFc4NEhCMk1PRW5mZzZuT2pGaWo5Njloa0VmWWJ1ampURl9WQklpWUVjcjc1NVJiVXZlRXhQdDhqbFRXOFpIU0FBVHdXUWs2d1V0T25ia0FBN3BSdVRmbi1OWkViN2VaUjliR1Utd2Jn?oc=5",
+      "source": "mmajunkie.usatoday.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T19:30:00+00:00"
+    },
+    {
+      "title": "Charles Oliveira denies having next UFC fight booked",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOLVNuZFdGSENUSkgtc3o0eEpyd0pRYmUzT3lUVjFkblJrZ1I1dEJDZkxXZHkyVzlqaWZuM3d0WnRDQUdlcU1WSzg5ZUxsUWhieUE2SENYbmlzSFFYR3IxQ1N1ZldTZF95TFZrRjZUSmNzbGpHUm85SG5Ib2VBVUkyQU9jMENuUQ?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-19T19:34:03+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMi3AFBVV95cUxQVzJ1SnpfWXV4dTRRcmgwOTBIY1A0Sl9rRFVwd2l5S2NyRDBfT1RLUkx3STRNeGVwRHAxZ2F6MjhRTFo4eEpxVmtGeHBXZHpHZGI3NHVWdmJYdnFPeXpaUVE2bmsxNkdVc1pISklOQmVPMlFZZFRQMG9FNTFNTUJ3dXZHTHJTdEs1bGpPX1EyZzUwQ01OMWdHUTlVT2RNb3N2NmNpOFc4a0Y1YTB1cWZ3VlBvSzVEYS1ubnZvTXVCMGFQZ1kydWRwaGdWWmFHMHR0Qm9rSlFEMWRFY0xJ",
-    "CBMivgFBVV95cUxQWnZTU1pYQ0RzQzI4bm9MQ3g1VWhZdEx2S3B6cjZEcjZab1Bsb3NzV0Yzd3phSEdsemEyNlZrWmRBMkdWMnFjUTA3WmszNk4tb09ieFZ5cEx4ZDlEdEprUU1DNWs4cUhmZkNVUHdveVVUMnZqd1FQVVVlN3NiQmN6TVVFb19rR05RTTZ6TktXMlVSdUJIWlA2V0xKZF9VUk5va3ZqdTlsRGJvQTN5d0UtV1FMZWQ4ejdqMEZtVkhB",
     "CBMisgFBVV95cUxPXzkzcDVHcWF1bG9oa3BPQ1g2MVdwZEdyV0R5ajJGX3R1WWstSF9RSUoxa0ttVXZMN2hiTUZwVjBpQlpiaTRud3Nwb3BraFNSYXkwd3hpbHNwdEFycUluUElSWjg3QUtCUzU2TVNBV0pYOTJHRm1MUDdxY0c3U2p0bDYzYjJhbTRzNkhnVUdDZ0hWeHZZRkEyTUhNUG1mTWFWVWJlLXRVaV9kRmRXd1F4ZFF3",
     "CBMi2AFBVV95cUxNUlZ3TnVtUUZqQlhpOHlyMmJkQmNKQ18yc1JKcnI0aDJjYXdBTFYyOGhKSWhaaUxhSEpsMndGN1VJMENjTnYyN1Z4a3NmLWdkNXZ6VVRMNXJIUU4wOXZueHE2UEpoRlB3RmhDM2ZXS0VkUnMybF82U3BTVnpJMWVBenFBU3ZsWWotTlNYem1xcE1CRmhtalQySlY4R3JwMjAxdzQzd0dxYWllTWhMSC1xZUNJd1hOcFhhRXNNd3QxXzlQeDF2bzhjZEJwRE1qMDVxclpFeWxYSjM",
     "CBMiswFBVV95cUxNOG8xYkJ0Y0pmUjh5czlUUUxfYUdWWF9JQVRYSEt2MWRPWERHNjR0WTRteDYtVWw5UFJLVllvV19YZHN1ZnlMX0pkeVdZSVZ5R0hqOHktMFVHZG5wS0hnLTJINnphVGVYejMtVWxERFloa2pkYW5OY1JoT3p6UWhGTjRvTVk4cXQtU0NTX2VNR2t3ODBJdElPSjluZzdPQXZWeThIU0tkcjlqVy15Tmh6UVpOZw",
@@ -3312,7 +3310,9 @@
     "2090156449385361782",
     "CBMitwFBVV95cUxNYlVzMVZtUENpNTdlc29palJyaFBZT0Y1ZVNKQ043TExjSjNndmlHaEZ2S25lTlZrcEdTNHE3bFQ5Y0RRSmY0cl9OZ1VpdXowSGgtN3NDNFluTU81Z0hBclFjUHhjcEFjYWRPc3JlM3FxUlAwYzNGT0tIT3BCdWY4LW5wWl8wU2FWY3VJQVhrLXJ1QXE1bTYzaUNmQWdGY2tScFpiZVMyWU9xalpVcTZISmhMWkxUa1E",
     "2090156503944802419",
-    "https://bloodyelbow.com/?p=327752"
+    "https://bloodyelbow.com/?p=327752",
+    "CBMi1gFBVV95cUxPSzE0UEk0UTRkdE5uZHdaUWVPWWZqZ3dxQ1N3V0hSM0s0M1ozVzJ5MjJwcVhuQVROVW9TVURYVVRMdXFZR3IwYWVFdkxfOXRlWE1jNXgybFdQYjdUVVpHMEF4d1NuVGVxQmE5aU41TFc4NEhCMk1PRW5mZzZuT2pGaWo5Njloa0VmWWJ1ampURl9WQklpWUVjcjc1NVJiVXZlRXhQdDhqbFRXOFpIU0FBVHdXUWs2d1V0T25ia0FBN3BSdVRmbi1OWkViN2VaUjliR1Utd2Jn",
+    "CBMihgFBVV95cUxOLVNuZFdGSENUSkgtc3o0eEpyd0pRYmUzT3lUVjFkblJrZ1I1dEJDZkxXZHkyVzlqaWZuM3d0WnRDQUdlcU1WSzg5ZUxsUWhieUE2SENYbmlzSFFYR3IxQ1N1ZldTZF95TFZrRjZUSmNzbGpHUm85SG5Ib2VBVUkyQU9jMENuUQ"
   ],
   "daily": {
     "d": "2026-08-19",
