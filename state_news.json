@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504507",
     "https://www.mmafighting.com/?p=504524",
     "https://www.mmafighting.com/?p=504532",
     "https://www.mmafighting.com/?p=504546",
@@ -958,6 +957,7 @@
     "https://www.sherdog.com/news/news/Gabriel-Bonfim-handles-exchampion-Belal-Muhammad-in-UFC-Vegas-118-main-event-201447",
     "https://www.sherdog.com/news/news/Georges-St-Pierre-explains-how-Aiemann-Zahabi-can-beat-Sean-OMalley-201521",
     "https://www.sherdog.com/news/news/Georges-St-Pierre-reveals-what-Islam-Makhachev-must-do-to-become-UFC-GOAT-201707",
+    "https://www.sherdog.com/news/news/Gillian-Robertson-breaks-silence-on-Din-Thomas-controversy-202428",
     "https://www.sherdog.com/news/news/Gillian-Robertson-details-growing-tension-with-Mackenzie-Dern-ahead-of-UFC-330-202351",
     "https://www.sherdog.com/news/news/Gillian-Robertson-explains-marijuana-use-ahead-of-UFC-330-title-shot-201713",
     "https://www.sherdog.com/news/news/Gillian-Robertson-said-she-was-the-better-grappler-Dern-had-her-answer-202372",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Carlos Prates On One Mistake That Cost Ian Garry Title",
-      "ts": "2026-08-19T04:46:57+00:00"
-    },
     {
       "t": "Cris Cyborg walks back retirement talk ahead of #PFLTampa (via @thegoze, @MMAJunkieGeorge) https://mmajunkie.usatoday.com/story/sports/pfl/2026/08/18…",
       "ts": "2026-08-18T23:31:18+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Gillian Robertson Refuses to Accept Din Thomas’ Apology for Throwing Her Under the Bus After UFC 330 Loss",
       "ts": "2026-08-19T06:15:00+00:00"
+    },
+    {
+      "t": "Gillian Robertson breaks silence on Din Thomas controversy",
+      "ts": "2026-08-19T06:12:14+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Edson Barboza always gave it his best, which doesn't sound like much until you realize it was everything",
-      "url": "https://sports.yahoo.com/mma/article/ufc-edson-barboza-always-gave-it-his-best-which-doesnt-sound-like-much-until-you-realize-it-was-everything-191746472.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T19:17:46+00:00"
-    },
     {
       "title": "UFC Announces monster October event in Abu Dhabi",
       "url": "https://sports.yahoo.com/articles/ufc-announces-monster-october-event-195450185.html",
@@ -2105,6 +2098,13 @@
       "source": "EssentiallySports",
       "cat": "ufc",
       "ts": "2026-08-19T06:15:00+00:00"
+    },
+    {
+      "title": "Gillian Robertson breaks silence on Din Thomas controversy",
+      "url": "https://www.sherdog.com/news/news/Gillian-Robertson-breaks-silence-on-Din-Thomas-controversy-202428",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-19T06:12:14+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiowFBVV95cUxNM1lVVWdPamZ0X0hQRUtodTRPMWlESXBYN2tnSFdWdW1wZlluUG1iVU5zRDA2Z3VZb1dDQ3FVOEJOS3k2c1BzYmsxc1BDcTg3RFhUWVVqd2I4VGVWd0drSHNoWWh0Mi1ySFBBdDVJVVJxVUl6T2dlWGMtMDZ5Y2J2dFcyNm1uYkYycURTZy1EV1Z5MFVuWE1xNWkwcHNJdTR0aVJR",
     "CBMi1gFBVV95cUxOMHhvY0pOb2V0MEJ0Vk5DcnVsQWItZElhZFoyb3ZqX1AxVXQ2VzJlOWUzejk3dXFnS05POV9UOGloWWVNb3FMWFozamF3eHdIa3MwdHFJZk9uNFg2eUpzVkgwT3lVR2dkcGtxd3hRTC1OWDRfR08yMHNoRUdETHNVdTRuM0xST2xPdmFQRkxOcFd6R3V4aUYxVTlCWjJtSy16SG5jR0hHSDZkWHV5MEpRUFhUdWpnVDluZXM3ejlZTVQ0T1lJQi1zcElqd3R5VkhNOTVCX0ln",
     "CBMirwFBVV95cUxQZXl3X2V3Y0IzRXpabHBwXzc3ZlVSdVhHY2xoRzdUWjcxLXgtd2t1eHdidzNRTzM3c2o1ZWlzeElKOC1fY01TeS1EcWNHb1FlNTRycFh6d2pEakx0RGowcW9wS1RqUHZSclM2Nm82d3FJZm1fTVQ3NXFiNzh5VERELWNFekNKU040aVVuRHNha3FUMDZRZ0s0UVJKZ2R6b1JhRjdFSGJVMF9fTk12cFpR",
     "CBMiYEFVX3lxTE5TN3FVVVZCYzNteHM5QS1Da3V5M2NBMEl3blRVSk1lWHRINkJxaGlMa2pZaG5zQUZSRXphOXJ5TEVRdTJTelRPUmxUZUYySzVnQ09JcGQ2ckdQeU95aTNlTg",
@@ -3312,7 +3311,8 @@
     "https://www.sherdog.com/news/news/UFC-332-adds-four-bouts-as-Salt-Lake-City-card-takes-shape-202426",
     "CBMijwFBVV95cUxPYURnRGVmRlI0d3VvbF8zOVZfSk5Dd2RQcFF6RjZVcDh0ZkFHYWtsb3JSZmJ3TzNxTjdTTkMzQmR2S2ZKUXdhdkZUQl9jWXBhYjBvSmdjaHdod2hKeG90Q3VMNGxhNGVGRnNndzQzSUk3VUp0RnVKcWtsakdaNE1WTV9hVVVTWVdmLXl4UTVIaw",
     "https://www.sherdog.com/news/news/Joshua-Van-reflects-on-knockout-loss-that-changed-his-life-202427",
-    "CBMi5wFBVV95cUxQNEZsZGJwVUoxaE8yLTJuRmQyTkw3QzQ1LTByYW12N05sZ0lYMDVFd2ZmVWMyd2hmVk1raTVqTmVnREZRd3BQT096LVJqVEY5MGdoV2tfOERKUm85S2oxbjR1NUg5MDZRb1JlWXJkeGxtRVlVVUt6MFF5Y25HbXlGTEFxLThUTlJmQ3pWeURtb05lWVlid09jckFqQTJPUHhmUTJvcFBqbnE5aEY5SUtWQ0k4UmU1R0pWYy1ON09NNUhXMmhQYmdlYVpGWTdLVEZmR0RqdWFmb19ZMlNlbXVRall2WDJ5UE0"
+    "CBMi5wFBVV95cUxQNEZsZGJwVUoxaE8yLTJuRmQyTkw3QzQ1LTByYW12N05sZ0lYMDVFd2ZmVWMyd2hmVk1raTVqTmVnREZRd3BQT096LVJqVEY5MGdoV2tfOERKUm85S2oxbjR1NUg5MDZRb1JlWXJkeGxtRVlVVUt6MFF5Y25HbXlGTEFxLThUTlJmQ3pWeURtb05lWVlid09jckFqQTJPUHhmUTJvcFBqbnE5aEY5SUtWQ0k4UmU1R0pWYy1ON09NNUhXMmhQYmdlYVpGWTdLVEZmR0RqdWFmb19ZMlNlbXVRall2WDJ5UE0",
+    "https://www.sherdog.com/news/news/Gillian-Robertson-breaks-silence-on-Din-Thomas-controversy-202428"
   ],
   "daily": {
     "d": "2026-08-19",
