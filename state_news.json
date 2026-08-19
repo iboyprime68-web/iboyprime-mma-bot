@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White is asked to REACT to Khamzat Chimaev's message to him earlier today 🤔 👀",
-      "ts": "2026-08-19T03:15:34+00:00"
-    },
-    {
-      "t": "All the hard work paid off 👏 The #DWCS Week 2 contract winners meet their new Boss!",
-      "ts": "2026-08-19T03:16:03+00:00"
-    },
-    {
       "t": "There from the very beginning 🫶 All smiles with the ones that matter the most!",
       "ts": "2026-08-19T03:16:29+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Dana White Sounds Off on Ticket Sale Critics After DWCS 88",
       "ts": "2026-08-19T17:49:06+00:00"
+    },
+    {
+      "t": "Une légende de l’UFC conseille à Herb Dean de suspendre sa carrière",
+      "ts": "2026-08-19T17:07:15+00:00"
+    },
+    {
+      "t": "Jon Jones rips Daniel Cormier for showing 'envy' toward him",
+      "ts": "2026-08-19T17:50:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White reveals Contender Series graduates have earned $252.3M in UFC fighter pay since 2017",
-      "url": "https://bloodyelbow.com/2026/08/19/dana-white-reveals-contender-series-graduates-have-earned-252-3m-in-ufc-fighter-pay-since-2017/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-19T11:00:00+00:00"
-    },
-    {
-      "title": "Carlos Prates dismisses Michael Morales as tougher Islam Makhachev challenge after title shot promise",
-      "url": "https://bloodyelbow.com/2026/08/19/carlos-prates-dismisses-michael-morales-as-tougher-islam-makhachev-challenge-after-title-shot-promise/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-19T15:00:00+00:00"
-    },
     {
       "title": "Kaik Brito explains relinquishing Oktagon belt — again — for DWCS shot: ‘I see my future’ in the UFC",
       "url": "https://sports.yahoo.com/articles/kaik-brito-explains-relinquishing-oktagon-200000262.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-19T17:49:06+00:00"
+    },
+    {
+      "title": "Une légende de l’UFC conseille à Herb Dean de suspendre sa carrière",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc3A3RFM4ZHo2X2FkZ1VPNm9WaWpPekJmMzhGMVVhMFMybmZhc2VnMnVLWFUzd3FRdXBqNUpiem9PbE9ZZGdoRU5jRHNuLVZ0ZEVMU0FkbmxtVWtwandEdDFwX29pTjR4Z2Nfa0dwSk93TEw2U1VNcEdlZVoyX1RXMS1abmdfSWZ1SWdYY05qOWp2VVdUVXR1ZlhTYXBnc2s?oc=5",
+      "source": "actumma.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T17:07:15+00:00"
+    },
+    {
+      "title": "Jon Jones rips Daniel Cormier for showing 'envy' toward him",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX2tTWjBWU05veDV1MGQxRjF3UWJHaTN5LUwzXzVvMV9tVEllZ2pYTDFSNkQxUWRKRkstV2g4ZTUtVFVNOXNqSk9OS0FnRVhRT21BRG1PUVA2NUcwc0xoY1FPazZxcEVYbEZ0REVYT2k5MGVNemlCZE5uNkVjV2RrU2daT1otNHY3d1VQU1loYUNWaUMyQkpIdEhZNGlYRzFRTVB1NGg5TXM?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-19T17:50:00+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "852c128d-6cb6-3514-854f-4fddc72812b5",
-    "CBMikwFBVV95cUxQZ3dnMWlJVWxwTGJ4cUNrajFlcWJYXzBGZlYxTll5bThSeU1LQnpWVHhfTUpiaXR3ZlV6RXkxX0hMcDNsMDBBdmVqcHlaVzBrWVpNSmpjSzV5emtsS1p6VVczbzlteVlQcWxOY2M2UzAxbHVpTjI1bGxLQmlVUnhfaVV2MVpveTBzcFltUE04YmZGSTA",
     "CBMijwFBVV95cUxOb2NoQWstWnFYMTZtcjJSY2xXLTl1RlYzWWEtRlNyeC1mLUlyaF9PMU5ObGlFa2tlT3RjZmZyR01NcmVxc3ZmUGxtUDBHRDBpbFBQVDU0X1NFMG9Fbm0ycWg5M1BTZE83Z2h4MTJ1MTFZdk40SXJ6M05weVQ0dWNIOTJISzdnN0dHNC1HU1NyVQ",
     "CBMiugFBVV95cUxNVTRNYkZxRlpZcDhuWHV0Ry1leXRxQ3FxZzJBSHlRV1A3TFNzbVdCUkhyLVJ2alRDTVlNYmpGLVoyM25XRjJXX0p1S0J3SlJIdl92d2xHQXJRTjJRYXRJMVppX3B4LXhSbEZ2NnVSSkR2LS11SzlhdTVPUlpET2xpQVdBbmxyVHBWZmZmZmVQRl9IZ3hSZFRCTTdWdmt5Wmk5Ykc3WWd0eGVJbnE4d2NQSXB1bDZfOW1HZ0E",
     "CBMikAFBVV95cUxPSXBsdWg0WW1wSlZnamFaSU5mZ1BiaFNSNWhibjhuZ0JoaFZtUnVEU0hka28tTjF4QWYxN092eGozcWE4TkRDck9sNVFRdU5sN3VOalhQenhUcURGZkJ3a0Z5VkZXdnUtT1JTQ3pXRkNPaEhUNlBnYXVrUVQ0Wi16Q1dWRi1PVkdXMDU5d0oySzc",
@@ -3312,7 +3310,9 @@
     "CBMihwFBVV95cUxQel9kMmtzQm5oendPbnJCRWs4aVZrX3NTbEhwSm1EQ0p0T0lXOFpESmNlR1lQTWZNN3JiZGlaQlBPVno1SGd0QUxxUVF3alltVi1yQ3FvbU1SSjlUQzhPbEpKZUNnVHZhYWd2bHNhSXpZdjNTLXBiaDFURFFSaEJZbzA2RVctTm8",
     "CBMilgFBVV95cUxQY2VjM245SzhqRWlzdk04bTRuQm96dW5ubHNKWHRxQUhaRFdJM3ZYdXYwRUg2bTV1SW1qQktQWkRIMDdfSW1iSW9QazNSY2tURjlkZGw3eW1lZUxadFNHZkdFT0RKX3hrSmdodXBQdnA0Y2VXTmNoMkxaSlEtLXNwX0lUQ2NvUTVqV1BxQTBRMDFUMUZodXc",
     "CBMilwFBVV95cUxNaTlPNlFGMmV2a2xJaC1aMTlSem9CV3FHRWVaVXg0VjhILTlXSWRIQ0pPTGN4ZTJNX1g5QTBxM1pPT2lVSlFYZXVzNUJSamMyZFFFOXNCSEI0OXRzaENJQVR3UzQ1SlVNUkxNWlNmRmZrUWZEZGtZcjdFYXpZVkRYenJQcjZzQjlOMFlGWTBQNGh1MVloZ3c4",
-    "CBMipAFBVV95cUxNR3JpZG43b3lVWmhNbmJWd2Q3WHZwS0MyNWprOG9xSERhajVpYkYzVU81R013NElsQ08xUG1razdDd2U3Z21RS2hGQkdVSGNRSVRwcEd2d2xkd2RPRzNoZjlTeVBLR1JLSmhXRXZveEpYNGlXZWZUODBGcWhUdmpocFVId1ZXWURnT1dVVkE2c0Rza0JKbG1SN0gyU1kwVVhFNnlaUQ"
+    "CBMipAFBVV95cUxNR3JpZG43b3lVWmhNbmJWd2Q3WHZwS0MyNWprOG9xSERhajVpYkYzVU81R013NElsQ08xUG1razdDd2U3Z21RS2hGQkdVSGNRSVRwcEd2d2xkd2RPRzNoZjlTeVBLR1JLSmhXRXZveEpYNGlXZWZUODBGcWhUdmpocFVId1ZXWURnT1dVVkE2c0Rza0JKbG1SN0gyU1kwVVhFNnlaUQ",
+    "CBMinwFBVV95cUxPc3A3RFM4ZHo2X2FkZ1VPNm9WaWpPekJmMzhGMVVhMFMybmZhc2VnMnVLWFUzd3FRdXBqNUpiem9PbE9ZZGdoRU5jRHNuLVZ0ZEVMU0FkbmxtVWtwandEdDFwX29pTjR4Z2Nfa0dwSk93TEw2U1VNcEdlZVoyX1RXMS1abmdfSWZ1SWdYY05qOWp2VVdUVXR1ZlhTYXBnc2s",
+    "CBMiqAFBVV95cUxQX2tTWjBWU05veDV1MGQxRjF3UWJHaTN5LUwzXzVvMV9tVEllZ2pYTDFSNkQxUWRKRkstV2g4ZTUtVFVNOXNqSk9OS0FnRVhRT21BRG1PUVA2NUcwc0xoY1FPazZxcEVYbEZ0REVYT2k5MGVNemlCZE5uNkVjV2RrU2daT1otNHY3d1VQU1loYUNWaUMyQkpIdEhZNGlYRzFRTVB1NGg5TXM"
   ],
   "daily": {
     "d": "2026-08-19",
