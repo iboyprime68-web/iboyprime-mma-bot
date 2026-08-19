@@ -351,6 +351,7 @@ function resetStudioCaches() {
   _wcfgCache = { at: 0, cfg: null };
   _pollCache = { at: 0, data: null };
   _meCache = { at: 0, id: null };
+  _imgMsgCache = Object.create(null);
   resetUsageCache();
 }
 // PURE: the links list -> the /links body. https-only, mirroring welcomeconfig.clean_links.
@@ -1053,7 +1054,11 @@ function stagedParts(content) {
     }
     if (!caption) caption = body;
   }
-  return { caption, meta: meta || {} };
+  // hasSpec tells the page whether this post ROUND-TRIPS (the staging bot
+  // shipped a spec fence) - a spec post with no photo is a deliberate wash
+  // design, while a spec-LESS photoless post predates the round-trip and its
+  // only image has the text baked in. The page words its toasts off this.
+  return { caption, meta: meta || {}, hasSpec: meta !== null };
 }
 function metaStr(meta, key, cap) {
   const v = own(meta, key);
@@ -1073,26 +1078,39 @@ function captionSource(caption) {
   const m = /^\s*via\s+(.{1,80}?)\s*$/mi.exec(String(caption || ""));
   return m ? m[1].trim() : "";
 }
-// PURE: Discord messages -> the studio queue. Exactly the fifteen contract fields ever
-// leave the Worker. No author, no member ids, no bot token, nothing from any other
+// Same-origin proxy path for one staged attachment (served by studioImg).
+// Discord CDN attachment urls are SIGNED with a ~24h expiry (ex/is/hm query
+// params): handing them to the page worked in a fresh tab but broke in the
+// installed app reopened a day later - the rail thumbnails 404'd and the
+// round-trip photo "would not load" (the owner's exact report). The proxy
+// re-reads the message with the bot token at fetch time, so the url the page
+// holds never goes stale, and the bytes arrive same-origin so the canvas
+// never taints.
+function stagedImgPath(mid, idx) {
+  return "/studio/api/img/" + mid + "/" + idx;
+}
+// PURE: Discord messages -> the studio queue. Exactly the SEVENTEEN contract fields
+// ever leave the Worker. No author, no member ids, no bot token, nothing from any other
 // channel, and nothing from any other author (see parseStaged).
 // Message shape written by the staging bot: "Staged post - score NN (why)" followed by
 // the caption in a fenced block, with the poster as the first attachment. line/speaker/
-// source/about/hot come from an optional ```json spec fence and degrade to empty.
+// source/about/hot/bg come from an optional ```json spec fence and degrade to empty.
 function parseStagedOne(m) {
   const content = String((m && m.content) || "");
   const head = /score\s+(\d{1,3})\s*(?:\(([^)]*)\))?/i.exec(content);
-  const { caption, meta } = stagedParts(content);
+  const { caption, meta, hasSpec } = stagedParts(content);
+  const mid = String((m && m.id) || "");
   const atts = (m && m.attachments) || [];
   const att = atts[0] || {};
   const att2 = atts[1] || {};
   const emb = (((m && m.embeds) || [])[0]) || {};
-  const url = (typeof att.url === "string" && att.url) ||
-              (emb.image && typeof emb.image.url === "string" && emb.image.url) || "";
+  const attUrl = typeof att.url === "string" ? att.url : "";
+  const att2Url = typeof att2.url === "string" ? att2.url : "";
+  const embUrl = (emb.image && typeof emb.image.url === "string") ? emb.image.url : "";
   const hotRaw = own(meta, "hot");
   const photoKind = metaStr(meta, "photo", 12);
   return {
-    id: String((m && m.id) || ""),
+    id: mid,
     score: head ? Number(head[1]) : null,
     why: head && head[2] ? head[2].trim() : "",
     caption,
@@ -1103,17 +1121,25 @@ function parseStagedOne(m) {
     hot: (Array.isArray(hotRaw) ? hotRaw : [])
       .filter(w => typeof w === "string" && w.trim())
       .slice(0, 8).map(w => w.trim().slice(0, 60)),
-    // https AND a Discord CDN host: this lands in an <img src> on the page, so a
-    // javascript:, data: or attacker-hosted value must never survive the trip.
-    image_url: discordCdnUrl(url),
+    // The Discord-CDN gate still decides whether an image EXISTS (a
+    // javascript:, data: or attacker-hosted value must never survive the
+    // trip) - but what ships to the page is the same-origin PROXY path, never
+    // the expiring CDN url itself. The embed fallback (legacy posts only) has
+    // no attachment index to proxy, so it stays a gated direct url.
+    image_url: attUrl ? (discordCdnUrl(attUrl) ? stagedImgPath(mid, 0) : null)
+                      : discordCdnUrl(embUrl),
     // The ROUND-TRIP payload: attachment 1 is the RAW subject the staging bot
     // rendered from (photo or promo cutout, named by the spec's "photo" key).
     // The studio loads THIS into its editor - never the rendered card, whose
-    // text is baked into the pixels. Same CDN gate as image_url.
-    photo_url: discordCdnUrl(typeof att2.url === "string" ? att2.url : ""),
+    // text is baked into the pixels. Same CDN gate, same proxy.
+    photo_url: discordCdnUrl(att2Url) ? stagedImgPath(mid, 1) : null,
     photo_kind: photoKind === "cutout" ? "cutout" : (photoKind === "photo" ? "photo" : ""),
     template: metaStr(meta, "template", 20),
     colorway: metaStr(meta, "colorway", 20),
+    // the texture plate a photoless render sat on, so the editor reopens the
+    // same scene; and whether the post round-trips at all (see stagedParts)
+    bg: metaStr(meta, "bg", 20),
+    spec: hasSpec,
     timestamp: (m && m.timestamp) || null,
   };
 }
@@ -1163,6 +1189,72 @@ async function studioStaged(env) {
   let list = [];
   try { list = await r.json(); } catch (e) { list = []; }
   return studioJson(parseStaged(list, me), 200);
+}
+
+// ---------- /studio: staged-attachment proxy ----------
+// Serves ONE attachment of ONE staged message, same-origin, behind the session
+// gate. The page holds only /studio/api/img/<message id>/<0|1> paths, which
+// never expire; the CDN's signed url is re-derived here at fetch time. Scope
+// is locked the same three ways as the staged list: only the configured studio
+// channel, only messages authored by this bot, and only attachment 0 or 1 -
+// no other channel, author or file is reachable through this route.
+const STAGED_IMG_IDX = Object.freeze(["0", "1"]);
+let _imgMsgCache = Object.create(null);   // message id -> {at, atts} per isolate
+const IMG_MSG_CACHE_CAP = 64;
+async function studioImg(env, mid, idx) {
+  if (!isSnowflake(mid) || STAGED_IMG_IDX.indexOf(idx) === -1) {
+    return studioJson({ error: "not found" }, 404);
+  }
+  if (!env.DISCORD_BOT_TOKEN) return studioJson({ error: "the worker needs the DISCORD_BOT_TOKEN secret" }, 503);
+  const cfg = await botsConfig(env);
+  const ch = ((cfg || {}).channels || {}).studio;
+  if (!isSnowflake(ch)) return studioJson({ error: "channels.studio is missing from bots_config.json" }, 503);
+  const me = await botUserId(env);
+  if (!me) return studioJson({ error: "could not identify the bot user" }, 502);
+  const now = Date.now();
+  let hit = _imgMsgCache[String(mid)];
+  if (!hit || now - hit.at > 300000) {                 // 5 min: urls stay fresh
+    const r = await dapi(env, "GET", "/channels/" + ch + "/messages/" + mid);
+    if (!r || !r.ok) return studioJson({ error: "not found" }, 404);
+    let msg = null;
+    try { msg = await r.json(); } catch (e) { msg = null; }
+    // fail closed, exactly like parseStaged: a message someone else posted in
+    // the staging channel must not become fetchable through the bot's token
+    if (!msg || !msg.author || String(msg.author.id) !== me) {
+      return studioJson({ error: "not found" }, 404);
+    }
+    hit = {
+      at: now,
+      atts: (Array.isArray(msg.attachments) ? msg.attachments : []).map(a => ({
+        url: (a && typeof a.url === "string") ? a.url : "",
+        ct: (a && typeof a.content_type === "string") ? a.content_type : "",
+      })),
+    };
+    const keys = Object.keys(_imgMsgCache);
+    if (keys.length >= IMG_MSG_CACHE_CAP) delete _imgMsgCache[keys[0]];
+    _imgMsgCache[String(mid)] = hit;
+  }
+  const att = hit.atts[Number(idx)];
+  const u = att ? discordCdnUrl(att.url) : null;
+  if (!u) return studioJson({ error: "not found" }, 404);
+  let up = null;
+  try { up = await fetch(u); } catch (e) { up = null; }
+  if (!up || !up.ok) return studioJson({ error: "image unavailable" }, 502);
+  const raw = (att.ct && /^image\//.test(att.ct)) ? att.ct
+            : String(up.headers.get("content-type") || "");
+  // RASTER types only, never image/* - image/svg+xml is a scriptable
+  // document, and this route serves bot-relayed bytes same-origin. The
+  // sandbox CSP is belt-and-braces for the same reason: even a mislabeled
+  // body can never execute in the studio origin.
+  const RASTER = ["image/png", "image/jpeg", "image/webp", "image/gif"];
+  const ct = RASTER.indexOf(raw.split(";")[0].trim().toLowerCase()) === -1
+    ? "image/png" : raw.split(";")[0].trim().toLowerCase();
+  return new Response(up.body, { status: 200, headers: {
+    "content-type": ct,
+    "content-security-policy": "default-src 'none'; sandbox",
+    "cache-control": "private, max-age=3600",
+    "x-content-type-options": "nosniff",
+  } });
 }
 
 // ---------- /studio: background texture plates ----------
@@ -1665,12 +1757,21 @@ const STUDIO_LIMITS = {
 //
 //   GET  /studio/api/staged
 //        -> [{ id, score, why, caption, line, speaker, source, about,
-//               hot: [string], image_url, timestamp }]
+//               hot: [string], image_url, photo_url, photo_kind, template,
+//               colorway, bg, spec, timestamp }]
 //        Newest first (Discord order). score is a number or null. hot is always
-//        an array. image_url is a Discord CDN https URL or null, never anything
-//        else. line/speaker/source/about are always strings, "" when unknown.
+//        an array. image_url/photo_url are same-origin /studio/api/img/<id>/<n>
+//        proxy paths or null (legacy embed images may still be a Discord CDN
+//        https URL), never anything else. line/speaker/source/about/bg are
+//        always strings, "" when unknown. spec is a bool: whether the staging
+//        bot shipped a round-trip spec fence.
 //        503 without DISCORD_BOT_TOKEN or channels.studio; 502 if Discord or the
 //        bot-identity lookup fails.
+//
+//   GET  /studio/api/img/<message id>/<0|1>
+//        -> the raw bytes of that staged message's attachment, same-origin,
+//        content-type image/*. Only messages in the studio channel authored by
+//        this bot resolve; anything else is 404. 502 when the CDN fetch fails.
 //
 //   GET  /studio/api/aikey
 //        -> { providers: { deepseek, openrouter, zai, groq, together, mistral,
@@ -1738,6 +1839,11 @@ async function studioRouter(request, env, url) {
   if (!authed) return studioJson({ error: "unauthorized" }, 401);
 
   if (path === "/studio/api/staged" && request.method === "GET") return await studioStaged(env);
+  if (path.indexOf("/studio/api/img/") === 0 && request.method === "GET") {
+    const segs = path.slice("/studio/api/img/".length).split("/");
+    if (segs.length === 2) return await studioImg(env, segs[0], segs[1]);
+    return studioJson({ error: "not found" }, 404);
+  }
   if (path.indexOf("/studio/bg/") === 0 && request.method === "GET") {
     return await studioBg(env, path.slice("/studio/bg/".length));
   }
@@ -1797,6 +1903,7 @@ export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildP
   own, safeKey, optMap,
   // /studio
   ctEq, ctEqBytes, studioToken, studioTokenValid, cookieValue, requireStudio, parseStaged, parseStagedOne,
+  stagedParts, stagedImgPath, studioImg,
   loginTooMany, noteLoginFail, clearLoginFails, LOGIN_MAX_FAILS, sealBox, b64ToBytes, bytesToB64,
   AI_PROVIDERS, AI_PROVIDER_NAMES, aiSecretName, STUDIO_LIMITS, STUDIO_COOKIE, STUDIO_TTL_MS,
   AI_ENDPOINTS, aiEndpoint, AI_BALANCE, aiBalanceUrl, parseBalance, ghSecretNames,
