@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "'Nuclear KO' From 'Thunderous' Right Hand Left Dana White Amazed",
-      "ts": "2026-08-19T17:40:06+00:00"
-    },
-    {
-      "t": "Merab Dvalishvili Slams UFC's Flag Rule for Islam Makhachev",
-      "ts": "2026-08-19T17:49:03+00:00"
-    },
-    {
       "t": "“Full of S**t”: Dana White Dismisses Eddie Hearn and His Recent Claims",
       "ts": "2026-08-19T17:49:04+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Serghei Spivac vs Vitor Petrino Prediction",
       "ts": "2026-08-19T19:10:43+00:00"
+    },
+    {
+      "t": "Up next, @TeofimoLopez! Join us LIVE ▶️",
+      "ts": "2026-08-19T19:05:28+00:00"
+    },
+    {
+      "t": "Teofimo Lopez reflects on what went wrong against Shakur Stevenson: \"I'd say what went wrong would just be the game plan... and possibly just taking…",
+      "ts": "2026-08-19T19:18:25+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Which middleweight you pickin' in the UFCSacramento main event? Anthony Hernandez or @GregoryMMA? [ LIVE AUG 22 at 8pmET on @ParamountPlus Ticket…",
-      "url": "https://nitter.net/ufc/status/2089925573376131179#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T04:01:00+00:00"
-    },
-    {
-      "title": "Dana White reacts to a spectacular night of DWCS and breaks down how much money UFC fighters who earned contracts through the Contender Series have…",
-      "url": "https://nitter.net/MMAJunkie/status/2089930174179463188#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T04:19:17+00:00"
-    },
     {
       "title": "Kaik Brito reveals he had to block a lot of fans on social media ahead of DWCS and says he envisioned the knockout in front of Dana White 👊",
       "url": "https://nitter.net/MMAJunkie/status/2089931286076932317#m",
@@ -2105,6 +2091,20 @@
       "source": "ATS.io",
       "cat": "ufc",
       "ts": "2026-08-19T19:10:43+00:00"
+    },
+    {
+      "title": "Up next, @TeofimoLopez! Join us LIVE ▶️",
+      "url": "https://nitter.net/arielhelwani/status/2090153191136797023#m",
+      "source": "Ariel Helwani",
+      "cat": "ufc",
+      "ts": "2026-08-19T19:05:28+00:00"
+    },
+    {
+      "title": "Teofimo Lopez reflects on what went wrong against Shakur Stevenson: \"I'd say what went wrong would just be the game plan... and possibly just taking…",
+      "url": "https://nitter.net/arielhelwani/status/2090156449385361782#m",
+      "source": "Ariel Helwani",
+      "cat": "ufc",
+      "ts": "2026-08-19T19:18:25+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "633444c5-ce5a-35bf-b70b-88ae361cde85",
-    "CBMi3AFBVV95cUxQVzJ1SnpfWXV4dTRRcmgwOTBIY1A0Sl9rRFVwd2l5S2NyRDBfT1RLUkx3STRNeGVwRHAxZ2F6MjhRTFo4eEpxVmtGeHBXZHpHZGI3NHVWdmJYdnFPeXpaUVE2bmsxNkdVc1pISklOQmVPMlFZZFRQMG9FNTFNTUJ3dXZHTHJTdEs1bGpPX1EyZzUwQ01OMWdHUTlVT2RNb3N2NmNpOFc4a0Y1YTB1cWZ3VlBvSzVEYS1ubnZvTXVCMGFQZ1kydWRwaGdWWmFHMHR0Qm9rSlFEMWRFY0xJ",
     "CBMivgFBVV95cUxQWnZTU1pYQ0RzQzI4bm9MQ3g1VWhZdEx2S3B6cjZEcjZab1Bsb3NzV0Yzd3phSEdsemEyNlZrWmRBMkdWMnFjUTA3WmszNk4tb09ieFZ5cEx4ZDlEdEprUU1DNWs4cUhmZkNVUHdveVVUMnZqd1FQVVVlN3NiQmN6TVVFb19rR05RTTZ6TktXMlVSdUJIWlA2V0xKZF9VUk5va3ZqdTlsRGJvQTN5d0UtV1FMZWQ4ejdqMEZtVkhB",
     "CBMisgFBVV95cUxPXzkzcDVHcWF1bG9oa3BPQ1g2MVdwZEdyV0R5ajJGX3R1WWstSF9RSUoxa0ttVXZMN2hiTUZwVjBpQlpiaTRud3Nwb3BraFNSYXkwd3hpbHNwdEFycUluUElSWjg3QUtCUzU2TVNBV0pYOTJHRm1MUDdxY0c3U2p0bDYzYjJhbTRzNkhnVUdDZ0hWeHZZRkEyTUhNUG1mTWFWVWJlLXRVaV9kRmRXd1F4ZFF3",
     "CBMi2AFBVV95cUxNUlZ3TnVtUUZqQlhpOHlyMmJkQmNKQ18yc1JKcnI0aDJjYXdBTFYyOGhKSWhaaUxhSEpsMndGN1VJMENjTnYyN1Z4a3NmLWdkNXZ6VVRMNXJIUU4wOXZueHE2UEpoRlB3RmhDM2ZXS0VkUnMybF82U3BTVnpJMWVBenFBU3ZsWWotTlNYem1xcE1CRmhtalQySlY4R3JwMjAxdzQzd0dxYWllTWhMSC1xZUNJd1hOcFhhRXNNd3QxXzlQeDF2bzhjZEJwRE1qMDVxclpFeWxYSjM",
@@ -3312,7 +3310,9 @@
     "CBMiigFBVV95cUxQS1hDcmF3ejJNV2NsTXk0VUN2WVNFRkhWem9hMGhuYXpJQkpTcm55VHRCOG01YjZ4ZFUwdV9uejUxSWxxem83Mkxod1YyQ0k3eEFxZkxhMnZSWUt6ZFpoenRLNldqNXJpRUlFakViWUZvMFlRU0NhczRBTzNnQXFlZTNHajd6WDFsZ3c",
     "CBMiswFBVV95cUxQNDNqbDNBeGphQjRKRW9adHYtZkxUeXRzR25pMFRtdWhjSEU5Y3VEVXpHU2FKU3BqX2xSTG1nYi13OHFLZEZlamcxRDVrVndPcERxQXhBRXk4aWJBOEd1c3V1cjFIZEhWVkRDb2ZlRzJab0hjRGZmbG5IeTdHekZad3pGRHZEMlJPNlFaNGl4bDVncGM4Q0MwelpUaXctZ29LR3FleHRlS2ZmY2MydmVxWmp0NA",
     "CBMipwFBVV95cUxPM1BnaE40dVJhdDl6T0dKR3J5SHN2SFNQXzJUaGVRanctX0EtQXh1SlUzbmpKODFRcEJ2aVl1OGNBX0d0M2N5aXhheWdQT1ZqQy1HMll1X0Yxb1I2TTB4YmlwMktWdlRSM3pmX0JMNU5IYm1ZOHo1MS1ReW1BYlozNzVNa0s4a1gtZ1NuRWM1SVNwa2VQQWlGa0EtYUlpRzV2YXJ6eTl3dw",
-    "CBMijwFBVV95cUxOai1iZVpoblJ1MUpBbHFLUUJlQzZzQTZrNC1HaGw1djRvODN6VGdvejRXd0R1QnF6eU5sZTFyekx4UzRnRWxsVlNnYnBYS29MZFBobmg1RWk5RG1ybUlQTlBTaWQ5UEZuVWR0dW5BS2U2d1FLbWRnZEYxYk9ocHh2ZlQxaFk1UzZpQjVzYm9ISQ"
+    "CBMijwFBVV95cUxOai1iZVpoblJ1MUpBbHFLUUJlQzZzQTZrNC1HaGw1djRvODN6VGdvejRXd0R1QnF6eU5sZTFyekx4UzRnRWxsVlNnYnBYS29MZFBobmg1RWk5RG1ybUlQTlBTaWQ5UEZuVWR0dW5BS2U2d1FLbWRnZEYxYk9ocHh2ZlQxaFk1UzZpQjVzYm9ISQ",
+    "2090153191136797023",
+    "2090156449385361782"
   ],
   "daily": {
     "d": "2026-08-19",
