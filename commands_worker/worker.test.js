@@ -515,16 +515,20 @@ check("parseStaged reads the reason out of the brackets",
   staged[0].why === "clean head kick, sharp crop" && staged[1].why === "");
 check("parseStaged reads the caption out of the fenced block",
   staged[0].caption.startsWith("The finish nobody called.\nTwo lines of caption.") && staged[1].caption === "low scorer");
-check("parseStaged takes the first attachment as the image",
-  staged[0].image_url === "https://cdn.discordapp.com/attachments/1/2/post.png");
+check("parseStaged serves the first attachment through the same-origin proxy "
+  + "(a raw CDN url expires in ~24h and broke the reopened app)",
+  staged[0].image_url === "/studio/api/img/111/0");
 check("parseStaged falls back to an embed image", staged[1].image_url === "https://media.discordapp.net/x.jpg");
 check("parseStaged refuses a non-https image url (it lands in an img src)",
   staged[2].image_url === null);
-const STAGED_FIELDS = ["about", "caption", "colorway", "hot", "id", "image_url", "line",
-                       "photo_kind", "photo_url", "score", "source", "speaker",
-                       "template", "timestamp", "why"];
-check("parseStaged returns exactly the fifteen agreed fields, nothing else",
+const STAGED_FIELDS = ["about", "bg", "caption", "colorway", "hot", "id", "image_url",
+                       "line", "photo_kind", "photo_url", "score", "source", "speaker",
+                       "spec", "template", "timestamp", "why"];
+check("parseStaged returns exactly the seventeen agreed fields, nothing else",
   staged.every(s => JSON.stringify(Object.keys(s).sort()) === JSON.stringify(STAGED_FIELDS)));
+check("spec says whether a post round-trips (fence present), bg is its plate",
+  staged[0].spec === false && staged[0].bg === ""
+  && staged.every(s => typeof s.spec === "boolean" && typeof s.bg === "string"));
 check("parseStaged survives junk",
   parseStaged(null, BOT_ID).length === 0 && parseStaged([{}, null], BOT_ID).length === 0);
 
@@ -546,10 +550,11 @@ const RT_MSG = {
   ],
 };
 const rt = parseStaged([RT_MSG], BOT_ID)[0];
-check("round-trip: the raw photo rides as photo_url (attachment 1)",
-  rt.photo_url === "https://cdn.discordapp.com/attachments/1/2/photo.jpg");
-check("round-trip: the rendered card stays the preview (attachment 0)",
-  rt.image_url === "https://cdn.discordapp.com/attachments/1/2/post.png");
+check("round-trip: the raw photo rides as photo_url (attachment 1, proxied)",
+  rt.photo_url === "/studio/api/img/555/1");
+check("round-trip: the rendered card stays the preview (attachment 0, proxied)",
+  rt.image_url === "/studio/api/img/555/0");
+check("round-trip: a spec post says so", rt.spec === true);
 check("round-trip: the spec fence carries live line/hot/colorway",
   rt.line === "HE NEVER DOUBTED" && rt.hot.length === 1 && rt.hot[0] === "NEVER"
   && rt.colorway === "purple" && rt.template === "news" && rt.photo_kind === "photo");
@@ -574,10 +579,9 @@ check("photo_kind is always one of '', 'photo', 'cutout'",
 check("template and colorway are always short strings",
   typedStaged.every(s => typeof s.template === "string" && s.template.length <= 20 &&
     typeof s.colorway === "string" && s.colorway.length <= 20));
-check("photo_url is a Discord CDN https url or null, never anything else",
+check("photo_url is a same-origin proxy path or null, never anything else",
   typedStaged.every(s => s.photo_url === null ||
-    (typeof s.photo_url === "string" && s.photo_url.startsWith("https://") &&
-     discordCdnUrl(s.photo_url) === s.photo_url)) &&
+    (typeof s.photo_url === "string" && /^\/studio\/api\/img\/\d{1,21}\/1$/.test(s.photo_url))) &&
   typedStaged.some(s => s.photo_url !== null) && typedStaged.some(s => s.photo_url === null));
 const IMPOSTOR = { id: "111", timestamp: "2026-08-13T10:00:00.000Z",
   author: { id: "1500000000000000002", username: "someone else" },
@@ -680,6 +684,77 @@ check("staged needs the bot token", (await worker.fetch(cookieReq("/studio/api/s
 check("the studio channel id is validated as a snowflake before it hits the API path",
   /isSnowflake\(ch\)/.test(code));
 check("the bots_config lookup is cached (one raw read per 5 minutes)", /300000/.test(code));
+
+// ----- the staged-attachment proxy (/studio/api/img/<mid>/<idx>) -----
+// The page holds only these paths; the expiring CDN url is re-derived here.
+check("stagedImgPath builds the path the contract promises",
+  _test.stagedImgPath("555", 0) === "/studio/api/img/555/0");
+resetStudioCaches();
+check("a non-snowflake message id is a 404 before any lookup",
+  (await withFetch(async () => { throw new Error("must not be called"); },
+    async () => await worker.fetch(cookieReq("/studio/api/img/notasnowflake/0", SID), STUDIO_ENV, {}))).status === 404);
+check("only attachment 0 or 1 is reachable",
+  (await withFetch(async () => { throw new Error("must not be called"); },
+    async () => await worker.fetch(cookieReq("/studio/api/img/1500000000000000009/2", SID), STUDIO_ENV, {}))).status === 404);
+check("a malformed proxy path is a 404, never a fall-through",
+  (await withFetch(async () => { throw new Error("must not be called"); },
+    async () => await worker.fetch(cookieReq("/studio/api/img/1/2/3", SID), STUDIO_ENV, {}))).status === 404);
+check("the proxy sits behind the session gate like every studio route",
+  (await worker.fetch(req("/studio/api/img/1500000000000000009/0"), STUDIO_ENV, {})).status === 401);
+resetStudioCaches();
+const IMG_CH = "1515436353091801199";
+// a live message id IS a snowflake, and studioImg validates that before any
+// lookup - so the proxy fixtures carry one (the parse fixtures above use
+// short ids on purpose; parseStagedOne never validates, the route does)
+const IMG_MID = "1500000000000000555";
+const RT_SNOW = Object.assign({}, RT_MSG, { id: IMG_MID });
+const imgHandler = (msg) => async (u) => {
+  if (u.includes("bots_config.json")) return jsonRes({ channels: { studio: IMG_CH } });
+  if (u.endsWith("/users/@me")) return jsonRes({ id: BOT_ID, username: "bot", bot: true });
+  if (u.includes("/channels/" + IMG_CH + "/messages/" + IMG_MID)) return jsonRes(msg);
+  if (u.includes("cdn.discordapp.com")) {
+    return new Response(new Uint8Array([137, 80, 78, 71]), {
+      status: 200, headers: { "content-type": "image/png" } });
+  }
+  return new Response("nope", { status: 404 });
+};
+const okImg = await withFetch(imgHandler(RT_SNOW), async (seen) => {
+  const r = await worker.fetch(cookieReq("/studio/api/img/" + IMG_MID + "/1", SID), STUDIO_ENV, {});
+  const buf = new Uint8Array(await r.arrayBuffer());
+  check("the proxy streams the attachment bytes same-origin",
+    r.status === 200 && buf.length === 4 && buf[0] === 137
+    && /^image\//.test(r.headers.get("content-type") || ""));
+  check("the proxy serves RASTER types only, sandboxed (an SVG is a "
+    + "scriptable document and must never execute in the studio origin)",
+    ["image/png", "image/jpeg", "image/webp", "image/gif"]
+      .includes(r.headers.get("content-type"))
+    && (r.headers.get("content-security-policy") || "").includes("sandbox")
+    && r.headers.get("x-content-type-options") === "nosniff");
+  check("the proxy fetched the SIGNED url Discord returned, fresh",
+    seen.some(s => s.url.includes("cdn.discordapp.com") && s.url.includes("photo.jpg")));
+  const r2 = await worker.fetch(cookieReq("/studio/api/img/" + IMG_MID + "/0", SID), STUDIO_ENV, {});
+  check("the second attachment resolves from the message CACHE (one Discord read)",
+    r2.status === 200
+    && seen.filter(s => s.url.includes("/messages/" + IMG_MID)).length === 1);
+  return true;
+});
+check("the proxy stub ran", okImg === true);
+resetStudioCaches();
+const IMPOSTOR_MSG = Object.assign({}, RT_SNOW,
+  { author: { id: "1500000000000000002", username: "someone else" } });
+check("a message by anyone but our bot is 404 - the proxy fails closed",
+  (await withFetch(imgHandler(IMPOSTOR_MSG),
+    async () => await worker.fetch(cookieReq("/studio/api/img/" + IMG_MID + "/1", SID), STUDIO_ENV, {}))).status === 404);
+resetStudioCaches();
+const EVIL_ATT = Object.assign({}, RT_SNOW,
+  { attachments: [{ url: "https://evil.example/x.png" }] });
+check("an off-CDN attachment url never gets fetched (same gate as the list)",
+  (await withFetch(imgHandler(EVIL_ATT),
+    async (seen) => {
+      const r = await worker.fetch(cookieReq("/studio/api/img/" + IMG_MID + "/0", SID), STUDIO_ENV, {});
+      return r.status === 404 && !seen.some(s => s.url.includes("evil.example"));
+    })) === true);
+resetStudioCaches();
 
 // ----- the AI key writer -----
 const PROVIDERS7 = ["deepseek", "openrouter", "zai", "groq", "together", "mistral", "openai"];
