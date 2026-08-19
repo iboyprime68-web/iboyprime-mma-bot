@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Cris Cyborg walks back retirement talk ahead of #PFLTampa (via @thegoze, @MMAJunkieGeorge) https://mmajunkie.usatoday.com/story/sports/pfl/2026/08/18…",
-      "ts": "2026-08-18T23:31:18+00:00"
-    },
-    {
-      "t": "Main Event Preview | UFC Sacramento",
-      "ts": "2026-08-18T23:51:12+00:00"
-    },
-    {
       "t": "#DWCS results: Roman Puga def. Taner Trembley via unanimous decision (29-28, 29-28, 29-28) Live coverage: https://mmajunkie.usatoday.com/story/sports…",
       "ts": "2026-08-18T23:39:07+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "DWCS video: Kaik Brito lands nuclear knockout on Namo Fazil https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/18/ufc-dwcs-kaik-brito-vs-namo-fa…",
       "ts": "2026-08-19T01:45:25+00:00"
+    },
+    {
+      "t": "Kaik Brito with one of the cleanest KOs you’ll ever see on #DWCS!",
+      "ts": "2026-08-19T01:34:56+00:00"
+    },
+    {
+      "t": "Kaik Brito SLEEPS Namo Fazil with a WILD third-round knockout to close the show at #DWCS, and earn himself a #UFC contract 👀 🔥",
+      "ts": "2026-08-19T01:40:16+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "DWCS results: Trent Miller def. Douglas Rodrigues via submission (Von Flue choke) – Round 2, 1:04 Live coverage: https://mmajunkie.usatoday.com/stor…",
-      "url": "https://nitter.net/MMAJunkie/status/2089876757499322438#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T00:47:01+00:00"
-    },
-    {
-      "title": "Trent Miller overcomes early adversity and scores the second Von Flue choke in Contender Series history 😮 DWCS88 DanaWhiteContenderSeries",
-      "url": "https://nitter.net/MMAJunkie/status/2089877555423916141#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T00:50:11+00:00"
-    },
     {
       "title": "HOW ABOUT THAT?! Trent Miller locks up the RD2 submission in style! [ DWCS is LIVE NOW on @ParamountPlus ]",
       "url": "https://nitter.net/ufc/status/2089877637347025343#m",
@@ -2105,6 +2091,20 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-19T01:45:25+00:00"
+    },
+    {
+      "title": "Kaik Brito with one of the cleanest KOs you’ll ever see on DWCS!",
+      "url": "https://nitter.net/MMAFighting/status/2089888813791244406#m",
+      "source": "MMA Fighting on X",
+      "cat": "ufc",
+      "ts": "2026-08-19T01:34:56+00:00"
+    },
+    {
+      "title": "Kaik Brito SLEEPS Namo Fazil with a WILD third-round knockout to close the show at DWCS, and earn himself a UFC contract 👀 🔥",
+      "url": "https://nitter.net/MMAFighting/status/2089890159118762440#m",
+      "source": "MMA Fighting on X",
+      "cat": "ufc",
+      "ts": "2026-08-19T01:40:16+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxNbjFGSy1BVERkNnQ1VFFKZGY4TmwzTzJmZU82aFItLWc3bFRZQ0Y3RkloczFCMzByeUs4RTJtLXNGdzBZNmNjVWhWcy1EMk54c1ZqQmhpaElQeVpqUnNlT2pxT2JLcDIyN0tIZEUtM0NDUVM1VEdfTW83Y0hqYXloQ1Fibk45WEZoYkVHZUxjdEJOR3NReVVNOS1fYks4X1B0",
-    "CBMihgFBVV95cUxQY2VqdERFNGxQcEJBcThaQ0ZrMnNOdWxhNFU1MlNBVmxfSWV5N01XRXZCeW9SSjlRcGtDSGU0S1FfSkR3c3owZVZtNDdGZlR1Zk41a3NSeUtWWnA4UkR2a3l6cC1OSWFrSVVQZjN6U0JCU3EyOGpDVnB4c2Zscnc3Z1AxOTJYQQ",
     "CBMikgFBVV95cUxONmtiOURrM1lJM0JxdWRMQ1d4ZE5kaGE1UFhDXzdPcndWNWl2azlYeVdUUzRkT0J4SnA2Y1piVXV1bDcydnZZNjhVVnZwZDlueUhybmZoaFg3VTAwVFh4RXo5Z1k4UDJwNThmX040UDVNZUxVaXJlQTZ4dkJpZkJnSndRLUc3T2V3SENCM0VNWF9Tdw",
     "CBMitAFBVV95cUxQTE1Ra2thYXJMY0x4TkVaUHZLUHg2N0VRUEVKTmI2dWJELUVOYXB5YXNjaEtoclRpVGtrZVpKSWtaN0wxR212Tnl0SzM5OHhOR1djRW1kUVNxY0lGQkdjMG9qcjJ0VWQzUXp5ZmNkWmtULS1EMmRBbVdpZzJmZHRwT2x4eGhXMUVOS2VMelFmUU9IeUR5clo5R3lnem1HMXNvQTJNNnJyb2haUUxRem9HTFJ2SFA",
     "CBMigwFBVV95cUxQb3htYU1ucHAwNkt3aXFTNmluUU5LZlpINEwwZlBVNktKR2JjVHVRRXJvZThqNkFRWGNzc0s5SWVWZWptV3BVN3pna0w3d3l5cTU1RlpOZXZjbllnV3Z0V2c2YlBMX3RhYXljY2luT1JoeXdpOVFFanBTVnhUUHM1QUctNA",
@@ -3312,11 +3310,13 @@
     "0dec1e29-55bd-37b9-afd0-ac446871fe36",
     "CBMifkFVX3lxTE9uT0RKZXlKdVJKa1A3cUNXR1JYeVhRcUU5SHRIWHZrWFdnWDFwMkVWb0owdTdOblFyMFdvSXFaN0dHTTJBbHlPT1Y2ZnROQVhjelFCTVFHdjFyYjVaekQtZWE4V2VDTS13Q0c3U1AtTnNYcG5PT0NSblE1TDRWUQ",
     "CBMiZ0FVX3lxTE5MYWpqdnpGdE5nLTRnWEpmdVByRkhSTVhaT1VqTVRHYmZVVFZEMzBfWHZvcDc3RC1VcnZuQzlEb2t3NHJMd19NTmF0T2lWdkEzTnc1SXFyUEJzenpzSklxTGFKQWZiZVk",
-    "2089891452880855400"
+    "2089891452880855400",
+    "2089888813791244406",
+    "2089890159118762440"
   ],
   "daily": {
     "d": "2026-08-19",
-    "ai": 68,
+    "ai": 70,
     "staged": 2
   }
 }
