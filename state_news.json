@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "For Gillian Robertson, losing a UFC title fight was hard enough. But being abandoned by your mentor?",
-      "ts": "2026-08-18T23:12:02+00:00"
-    },
-    {
-      "t": "DWCS video: Cristian Perez redeems himself with big TKO of Logan Paxton",
-      "ts": "2026-08-19T00:36:12+00:00"
-    },
-    {
       "t": "Carlos Prates: UFC promised Islam Makhachev title shot is next after signing new 8-fight contract",
       "ts": "2026-08-19T00:55:12+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Jon Jones slams Daniel Cormier for calling Khabib the GOAT: ‘Jealousy runs so deep through your blood’",
       "ts": "2026-08-19T06:00:43+00:00"
+    },
+    {
+      "t": "Cormier Urges Usman Nurmagomedov To Sign With UFC",
+      "ts": "2026-08-19T06:40:00+00:00"
+    },
+    {
+      "t": "Islam Dulatov Rewards Kaik Brito With $5K Bonus After Namo Fazil Knockout",
+      "ts": "2026-08-19T07:12:05+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 332 Adds Figueiredo Vs. Talbott In Salt Lake City",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GNHowazBtb1lqQXBMa3VUZG5wSDZ6ZmhKd2dQaWtrYjRxdzczZ2tjZGNFa0ZhMDZUZ1V4SHUzSnlfTk5QT3hwR05jZmpQQW5yVEprMlhRd08tcHVuMGZlWlgyWkVJZV96U0MwbnZqMV9uRmc3cnptV2Rn?oc=5",
-      "source": "boxingnews.com",
-      "cat": "ufc",
-      "ts": "2026-08-19T06:30:42+00:00"
-    },
-    {
-      "title": "Crypto Genesys Goes Live on 1win in Limited Platform Release",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYlVsMlZwcWhqVVd0UlpsYmltblFRQXZ4czdwc0d4bUdjNXRVLURaSHpOYjh5RWhqeHpaWnR0QTlyMkU1dXJSMTd0RUlTY0F0bmQ3SkVPOFZqVVFDYXpiTS1XZEMwQ0VZQk1aOWUxODVlbEQ1Y2c2Z1h6eW5xejMtN1NDdzZPRWRtX0tkRWhVN1Fudw?oc=5",
-      "source": "CaptainAltcoin",
-      "cat": "ufc",
-      "ts": "2026-08-19T06:31:03+00:00"
-    },
     {
       "title": "Solomon Renfro",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWRW4zZzBOSWJGbFhwNTNsUXNaeEVBNFB0SEpNRkxMT0JmQnJLNHZVdTJPNGNHRkhvRXF4T2dSWlZaZlRkTzJ1UFNmNGFZT2x4V0gyZg?oc=5",
@@ -2105,6 +2091,20 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-19T06:00:43+00:00"
+    },
+    {
+      "title": "Cormier Urges Usman Nurmagomedov To Sign With UFC",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZjdRMlE4aThsaUIycjZ1TWs1RjhhaS1BUHBoUzJ0RlAyWlYwUmtWZlB2aEJORGQxUDFDSkh5Q2Z3ZTBFM0FIZEtqTGFROWh2bUZBMnNmMWtrRFdQMllWQzh6MTdDczlENHR5bXZMd3NUYWg2WlRDM1hna1ZZckFZM3BUZFc?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T06:40:00+00:00"
+    },
+    {
+      "title": "Islam Dulatov Rewards Kaik Brito With $5K Bonus After Namo Fazil Knockout",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTmhCQUhpWWI4ZkFvV3dTS2VudV9kaVE3ZE8wRGJjdkl2U1BZb1JPd3dQQzNqLXlkUHBQU0dtU01yRW4zbGR6ZkhBQjNsVW0xN0tUTl9yR3JKXzAwRUE0OUZRakMxR1E4dFYzZ2ZhN0M1aVdrS1A5cW5TcXRhdE14UHFfVWNGTGJfYlB4cmI5YnNqMFFTelYwZGRPdjd3NUll?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-19T07:12:05+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMihgFBVV95cUxNOWp0ZGZFWHpWcXFKQ0QyMVhIeGYzVlpxakRNRjZ6SDFNMXRaTENEZkpzbERtUk1TWGh1UnU1ZlJmQlZCc09Ub2F2R0FXRDVtcExYZlIxRU9CMXpvUVcxYWVBemNnZUFYdmRUVFdVWGctcTVRUGJqSnlyZnppNFRxSEtqWEZtUdIBiwFBVV95cUxQUDNZSmx5N05vaTZtZm53RXhJMXJEeUtMNDctVWh3TmlKcG9sRXRhWWp4QzJpNWwweVZuTEptRllkTWNya1lhVDVvVVZDc1gxUkc4dkpZMUQ4VW5ycGtfZnd0VWl2cXNhWmszdzhtLUN5akNNdW5MaGpZZ29zTHo2V0dDLTcyT01PdlA0",
-    "CBMijwFBVV95cUxNV3lJNS1sZll4UEdNeXRJdW9QakNVcXo3RURabWJJV2RDdEpfeVlueEFTV0d0SUIxaG5ySFk0LXVHNGdtbUptb2NwajdlN0NmRGU4aUxMYkp3ZXl3b1FTRFFLdVZRNVI1T3hMeGxBWnVDNk9fS1RYcW5KSkhiblhOdHdKODBCWG9rR0RGNTdGd9IBlAFBVV95cUxQZ28zaG5CZ25YR3JzVnhKcEVRRW9MbFlnRnlmM0pMRWtkbGxTb3p0SF9pOUxwb0haMFRjX3NSaHM4WEdQYWlFQ0tRdVY1QTNEMnpjeGxYaGlidDhSS28zZFBta1ZGVHhXTmxmMi16UXBFYmd1TkFPTHBlV29XWXpmZzNVVV9OeWF5Vng4SmE4MG4yR3RR",
     "CBMie0FVX3lxTE5lLW9hZWhxeHhhcEZYX29VeFlOblB4V1FadExzR1duX0tmeUNIa21ZZVlwUzhyYTE3ek9oWFh6cGV0US1DN0FtRV9HZnZuRURjSUZMR0hQZWFIYnpMUTE1SUFFanVzZU91dDFFRTZVampwNEYtSkNuam53RQ",
     "CBMinwFBVV95cUxQWmVneWpvWVNxWTRzZV9oSW5iUkdUWXZsMlR5WlNlUXRGeFozMllZS2dQajRFOWRaTGxVTk1fYS1ldzZnX0g0bU5US0llV2FLTXBkSjZkNUdNQ0xZQWIxaWIwNDAwUE1XOGdmMWVVOC14YURMbEZQeTlyR05NMnJoaGFNNG1MTVEzU29hUmVlSmFGSWIwV3pCTGo1ZHJicDQ",
     "CBMiW0FVX3lxTE1vWERmbF9TUDV1a1lhQzBLMDdPaXpqbU1PLWxqSDJnRTNTLXl1VmxENUlmWExMTkhvTnRES01IQlVwVC01UkJheGc3ZmV3YnJqM0o4VEtRcXhXalE",
@@ -3312,7 +3310,9 @@
     "CBMid0FVX3lxTFBvTkpZMUU4RHl1a1hNNGlwandxc2lkbVRvSmM4V0NJX1VvVmtCNHRobnFDaklCbWVfSDVaUUhESTktUVFLZGhaT1BoR0w3UC1MaEkwTUdYc2x3VUxwRUFSVWNVVE1iTVMzaFd3dlRuNU40eHBaZllF",
     "CBMidEFVX3lxTE1ZeHJ4NjBMcWRjWjh6b0JRRUVUVGVQSUQxajlsLTBTTG5EQjVCVVFyeUdwblRKcmNGSl9yNUE1cEpsSmlpTEZlUkVDTXZkUmNDTEdFOURiUjdXTTI3cUd0YzJYX05tUUFwWDZSNnhlRlZWTGcz",
     "CBMiwAFBVV95cUxOS0o4ZVFjZGZlWkRMQWxTY25CZmlySkZkSWl4eEszbzliWWVLN0cwM1ZuUHRieXhtRk9xX21Xc0dQY050ODF5SDB1QV9qWDNjb3YwQnVXckNobXdtR2d1S21heU1OMGtGVUJKczJnSWRPQnFtWFlwOGN3TjRMN3p3M055dVpzVzQ3Um9iU2hkTnowUERxaHE5TjFodmhCQkNZSG5iTzhsN0l0NjduR3d6eXBOUnVaMENsblVwMFlqS04",
-    "https://www.mmamania.com/?p=465850"
+    "https://www.mmamania.com/?p=465850",
+    "CBMihAFBVV95cUxPZjdRMlE4aThsaUIycjZ1TWs1RjhhaS1BUHBoUzJ0RlAyWlYwUmtWZlB2aEJORGQxUDFDSkh5Q2Z3ZTBFM0FIZEtqTGFROWh2bUZBMnNmMWtrRFdQMllWQzh6MTdDczlENHR5bXZMd3NUYWg2WlRDM1hna1ZZckFZM3BUZFc",
+    "CBMioAFBVV95cUxPTmhCQUhpWWI4ZkFvV3dTS2VudV9kaVE3ZE8wRGJjdkl2U1BZb1JPd3dQQzNqLXlkUHBQU0dtU01yRW4zbGR6ZkhBQjNsVW0xN0tUTl9yR3JKXzAwRUE0OUZRakMxR1E4dFYzZ2ZhN0M1aVdrS1A5cW5TcXRhdE14UHFfVWNGTGJfYlB4cmI5YnNqMFFTelYwZGRPdjd3NUll"
   ],
   "daily": {
     "d": "2026-08-19",
