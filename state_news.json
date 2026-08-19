@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504412",
     "https://www.mmafighting.com/?p=504440",
     "https://www.mmafighting.com/?p=504443",
     "https://www.mmafighting.com/?p=504454",
@@ -1143,6 +1142,7 @@
     "https://www.sherdog.com/news/news/Tom-Aspinall-trolls-Ciryl-Ganes-foulprone-reputation-in-training-video-201631",
     "https://www.sherdog.com/news/news/Tom-Nolan-opens-up-on-rebuilding-after-unsuccessful-UFC-debut-201460",
     "https://www.sherdog.com/news/news/Tom-Pagliarulo-overcomes-fear-earns-UFC-contract-at-DWCS-2026-Week-1-202323",
+    "https://www.sherdog.com/news/news/Trent-Miller-earns-UFC-deal-with-rare-DWCS-shoulder-choke-202422",
     "https://www.sherdog.com/news/news/Two-title-fights-official-for-UFC-330-in-Philadelphia-201562",
     "https://www.sherdog.com/news/news/UFC-329-Shakeup-late-replacement-steps-in-to-face-Cody-Durden-201730",
     "https://www.sherdog.com/news/news/UFC-329-loses-upandcoming-prospect-due-to-injury-201690",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "“Look at What He Did to Poirier and Oliveira” - Joe Rogan Urges Islam Makhachev to Consider 155 Return",
-      "ts": "2026-08-19T00:51:11+00:00"
-    },
     {
       "t": "UFC ‘Contender Series’ results, live coverage and full fight highlights | Season 10, Ep. 2",
       "ts": "2026-08-19T00:52:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "'Uncrowned champion' of ONE pivots toward UFC through Dana White's Contender Series",
       "ts": "2026-08-19T03:24:00+00:00"
+    },
+    {
+      "t": "Trent Miller earns UFC deal with rare DWCS shoulder choke",
+      "ts": "2026-08-19T03:21:27+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Arman Tsarukyan: 'Legit' Usman Nurmagomedov poses threat to UFC lightweights",
-      "url": "https://sports.yahoo.com/articles/arman-tsarukyan-legit-usman-nurmagomedov-193022544.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T19:30:22+00:00"
-    },
     {
       "title": "Kaik Brito explains relinquishing Oktagon belt — again — for DWCS shot: ‘I see my future’ in the UFC",
       "url": "https://sports.yahoo.com/articles/kaik-brito-explains-relinquishing-oktagon-200000262.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie",
       "cat": "ufc",
       "ts": "2026-08-19T03:24:00+00:00"
+    },
+    {
+      "title": "Trent Miller earns UFC deal with rare DWCS shoulder choke",
+      "url": "https://www.sherdog.com/news/news/Trent-Miller-earns-UFC-deal-with-rare-DWCS-shoulder-choke-202422",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-19T03:21:27+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMiqgFBVV95cUxQOE04Sk41VXRnc0tXNi1NQ0tNblZ1a2FmOVNyRWR4MlY2R29keWdyU3FPUkp0UDNUMnVweVlTSkZSNEs1VXUwMFZIYldIb1gzODBsMnZ4MS16VGJydndvTksxWmQ3eTVWRnhscVVmWU1IRXRDeTk5cEcxVzBOTDM1R3E5THI5NDlVTDdwUXNESWxtMkQtQ3pDNDktY0JfdFBtMThVaE5Rc0x2Zw",
     "CBMiW0FVX3lxTE15S2M5S0UzRzhBdXB5NXRYTHRPajlLTVZYdGd3bEtXaGtpTThsS1FsZmFENnNVc0tRMnE5OWc3OWRCLVBtWm9BR1N6VGFEY0haR25vSXNQcHN4TkU",
     "CBMiYEFVX3lxTE1NTF9EQWtncXhrd2k5YlVCTGFLR05HYzBzX21uNFdibkI0enRicGFkaVJlRDVLTjZIQlpoVnhkczFwRW1PSEpUYXZsUnZDOUZod2lFLTBCSDRDX3h3MUxTSQ",
     "CBMidEFVX3lxTE1mR19FZEcwMkIxMXZPMmp1RkdUbjZnLUxmWEhfNlNtX2FOV1FLelVMbGlfQUIwVEdhcjZGXzFBeXloQURLbHFPU29CTzlZaDAyU0k1MXl6S0phYm1iLVM0c0xZRU00aEZVYk9tQ2JlaXdiV1k3",
@@ -3312,11 +3311,12 @@
     "https://www.sherdog.com/news/news/Cristian-Perez-explains-gameplan-change-that-earned-UFC-contract-202421",
     "2089914262248698115",
     "2089914372462383198",
-    "CBMi1gFBVV95cUxQTHZNUVZGQkNkVlR0YUtmTnFSeHBPSGExYUxmcTM4dWpNZVFWLVd1MGQxZ010VVoySE8wYlQ3MTcxNDdaXzUtZ2N3eXFIYnNKSVM4WUJDWVdoTnBhVml0bl81N1RlRkk3dV9CdjVPR1VfbmFZcWh6ZU53UVIwby1qMElaU3BSeGo1MEZqS01fU0dpN3Y3SVNCekQ2dnFDa1YyNkRfNVN4NHk3MEZ1U0E5bXJTVWozd21yNGVRV2RaSWpweGdkd2w0RnZ3dnpVNWFGZGhHUXN3"
+    "CBMi1gFBVV95cUxQTHZNUVZGQkNkVlR0YUtmTnFSeHBPSGExYUxmcTM4dWpNZVFWLVd1MGQxZ010VVoySE8wYlQ3MTcxNDdaXzUtZ2N3eXFIYnNKSVM4WUJDWVdoTnBhVml0bl81N1RlRkk3dV9CdjVPR1VfbmFZcWh6ZU53UVIwby1qMElaU3BSeGo1MEZqS01fU0dpN3Y3SVNCekQ2dnFDa1YyNkRfNVN4NHk3MEZ1U0E5bXJTVWozd21yNGVRV2RaSWpweGdkd2w0RnZ3dnpVNWFGZGhHUXN3",
+    "https://www.sherdog.com/news/news/Trent-Miller-earns-UFC-deal-with-rare-DWCS-shoulder-choke-202422"
   ],
   "daily": {
     "d": "2026-08-19",
-    "ai": 112,
+    "ai": 113,
     "staged": 4
   }
 }
