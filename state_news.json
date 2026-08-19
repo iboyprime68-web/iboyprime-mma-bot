@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504773",
     "https://www.mmafighting.com/?p=504775",
     "https://www.mmafighting.com/?p=504808",
     "https://www.mmafighting.com/?p=504822",
@@ -835,6 +834,7 @@
     "https://www.mmamania.com/?p=465862",
     "https://www.mmamania.com/?p=465908",
     "https://www.mmamania.com/?p=465927",
+    "https://www.mmamania.com/?p=465936",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Kaik Brito reveals he had to block a lot of fans on social media ahead of #DWCS and says he envisioned the knockout in front of Dana White 👊",
-      "ts": "2026-08-19T04:23:42+00:00"
-    },
     {
       "t": "Video: Watch LFA's best fight finishes from July 2026 https://mmajunkie.usatoday.com/story/sports/mma/2026/08/19/lfa-mma-ufc-video-highlights-knockou…",
       "ts": "2026-08-19T12:05:45+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "‘Give Me Ciryl Gane or Alex Pereira’: Josh Hokit Calls for UFC Title or BMF Fight",
       "ts": "2026-08-19T18:13:25+00:00"
+    },
+    {
+      "t": "‘Hey, take it easy on me!’ Touchy-feely UFC fighters (like Ian Garry) exhibiting ‘sign of weakness’",
+      "ts": "2026-08-19T18:16:07+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev's UFC GOAT case gets pushback from former champs",
-      "url": "https://sports.yahoo.com/articles/islam-makhachevs-ufc-goat-case-071122577.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T07:11:22+00:00"
-    },
     {
       "title": "Erdogan Vs. Elliott MMA Clash, Lessei Vs. Guest Muay Thai Firefight Added To ONE Fight Night 48",
       "url": "https://sports.yahoo.com/articles/erdogan-vs-elliott-mma-clash-090324196.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-19T18:13:25+00:00"
+    },
+    {
+      "title": "‘Hey, take it easy on me!’ Touchy-feely UFC fighters (like Ian Garry) exhibiting ‘sign of weakness’",
+      "url": "https://www.mmamania.com/latest-news/465936/touchy-feely-ufc-fighters-like-ian-garry-exhibiting-sign-weakness",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-19T18:16:07+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMi2wFBVV95cUxQa2JrNUxZOGxBblFyUlJrVHh1NjJ2amRJM2VxMElZZXUzN0NoRzFXY2luX2g0UVdMSHRxbktXX203clVfY3dqZzNzVVJ1eDNxcGgwbGNSWjNJXzlTTzh0MURlZC1EVXB1eWVFcnNQYW9Dc095cEVrQU9hUkRXdkdicjRpT09iZ1BWRVpEd3BZM1BIanRmZTVrRlRQYmVFUS03TGdtZFZoT0tTUjdwLU1TdlhqSUxuVG5aQmhKMVpKc3YwRkhDcHNmYmRoUnBJaUdlMDZSNmVPclh3ZUE",
     "CBMiswFBVV95cUxPR19udHJvX3ZpUU9mR0o4Ni1BTmphaExTTTdhS0xpaEdwcEdzbUlCcDdIdHJhNUNQLU1MLW1WNTlPZ2FxekVWS2xOblVzY0g2RGFqd3NjZWRRYkVkT0FPVlJpY3N1T29EcEs1OUFwQ1BZcHFQcDczcUtZcmc2XzVSbFBPUXoweDJWMGY1YzU5eHI5VHdva2Vnc0hqS01vR2RGM1FOZ0dBM1pfc3FwS3d6Y1RqWQ",
     "2089420982067036523",
     "2089421708814172187",
@@ -3312,7 +3311,8 @@
     "CBMilgFBVV95cUxONzR1SHR2czdFR01la2dYYzFIeG1nVUxQRE9acTFPdzZaYlRaNjJOVjBxYk5zODlfZ1JpNV9QUkl3RXZIYVpZclBwc1BaNDdOZjRVNUpjeG5CTTd6OVpJS2twVm5JQ2UwYXNRVHpoQXZmaE94U01EbjZrTHJsWWcteXNSeEdHODBMaVZCNzVxS0laNy1KclE",
     "CBMi1AFBVV95cUxQd0xCRGpoZUNjWHN2VDB6Q0xycU5OeE9walVHSVdVZUFSbHVsWkJnamtIRGV6bU5jRlowVGpuUUY0b2hMUzJqb3lxR3NfRW11OXdFVm9rYTJuZVBRWjR0eEtMWjlaYk55czI4bm85c1puVGprWlpTdE5Cb2RoR21xREQ4VnhDc3ExdkZQdUR6OFhsblJobGZFTXhva2ZVYkxUbUVOM0F0QlJOUk5hR0lxR0JETWJndlZjdmY4cE8wWjBnYkt3QXEtX2JteXRTVUV0cTJlSQ",
     "CBMif0FVX3lxTE1oVkd3dElia2NoNGlzUTZEYjRZczZNSmpjUjNybXNvSlhhaVk1clc3WW9TRFpjVTdyOUVRdnBUNkV6MGdKMVZHd1p5UjlWdWQ0dlpQeGthV1BtRGtBOUEzY25IS0FaZkFNbmtrcGNYTlRROHBnU3AySGpfaWd6dVE",
-    "CBMitwFBVV95cUxPdWtXWnFBVmJ0X2w3M2FZNzlhWHFWTnBpX3lVU3ZValJsRUQ0V2FhNldUV2FaeVB3WGdGUTgzVnNsYVFqVE94MkFiSF9MMVdoU0UwQ0lFaXhsR3hXLTg2S0VYR0lSYnB0bmZCb0ZqUzB4cUZjdmRNeXk3NWY1eFVCeV9wampZTVk5R05pOUVzdVhxVW9GRFNCeE5nUWVPTTEyTlFFTS1xMWdVcVp5eGNJalFOMEEtaGs"
+    "CBMitwFBVV95cUxPdWtXWnFBVmJ0X2w3M2FZNzlhWHFWTnBpX3lVU3ZValJsRUQ0V2FhNldUV2FaeVB3WGdGUTgzVnNsYVFqVE94MkFiSF9MMVdoU0UwQ0lFaXhsR3hXLTg2S0VYR0lSYnB0bmZCb0ZqUzB4cUZjdmRNeXk3NWY1eFVCeV9wampZTVk5R05pOUVzdVhxVW9GRFNCeE5nUWVPTTEyTlFFTS1xMWdVcVp5eGNJalFOMEEtaGs",
+    "https://www.mmamania.com/?p=465936"
   ],
   "daily": {
     "d": "2026-08-19",
