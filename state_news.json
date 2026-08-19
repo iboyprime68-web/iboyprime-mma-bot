@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS video: Alik Lorenz hammerfists Mahamed Aly into unconsciousness",
-      "ts": "2026-08-19T00:08:46+00:00"
-    },
-    {
       "t": "Henry Cejudo doubts Ian Garry will get another UFC title shot",
       "ts": "2026-08-19T02:18:04+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Salut, Paris. 👊🇫🇷 The #UFCParis fight poster is here!! Get tickets today: https://UFC.ac/4wJPPlM [ LIVE SEP 5 on @ParamountPlus ]",
       "ts": "2026-08-19T10:05:00+00:00"
+    },
+    {
+      "t": "Carlos Prates Reveals Why He Didn’t “Slap” Michael Morales’ Seemingly “Drunk” Friend at UFC 330",
+      "ts": "2026-08-19T11:30:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Multiple Fights Announced for UFC 332 in Salt Lake City",
-      "url": "https://sports.yahoo.com/articles/multiple-fights-announced-ufc-332-175705205.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T17:57:05+00:00"
-    },
     {
       "title": "Carlos Prates sends video message to Michael Morales threatening to knock him out over false claims",
       "url": "https://bloodyelbow.com/2026/08/18/carlos-prates-sends-video-message-to-michael-morales-threatening-to-knock-him-out-over-false-claims/",
@@ -2105,6 +2098,13 @@
       "source": "UFC on X",
       "cat": "ufc",
       "ts": "2026-08-19T10:05:00+00:00"
+    },
+    {
+      "title": "Carlos Prates Reveals Why He Didn’t “Slap” Michael Morales’ Seemingly “Drunk” Friend at UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPc0RHZjRLMW9nbGp0QXZBbjhrdWxCNmYyZzVkR01ZOVRjbFJ6TXJlRlFIdGktajdJNjg2ZDdDcUlFNkxSX3hVNENxSTUxNHAwZXJKTTk3WlUwWUVIQ0hhb2VhZXFQcm81OTZhVXNYVzlpTzhydXkzb0F5Y1JLNnkyNVNlYVdzSERwdU1jUWVSRzNnak1FNF83cnJEOEtZOTd3OV9HOGVJSG13bjdDbmxPMTNRZ1JOc3VBUFBEVEhabFEwQ0FkY3NZN3pJQmlmRUNGMmRv?oc=5",
+      "source": "EssentiallySports",
+      "cat": "ufc",
+      "ts": "2026-08-19T11:30:00+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMi0AFBVV95cUxOVzRRSXBTeDF2Vl94Tm9mUjRtcVc2Q2JtTTdiNGFPZV83ck9SblR6ZVhSUHB0Y3YzSzA5N3RiUFVJcjZFYjJ1WTZmS2ZGNlFURmtiNTE3UWJPNlh1eXM5dllBRm40U3l4d191anEwZjBsdWs5TU1mdlEzSzdSY295X0Y5NHlHM2tCRVkxSERSX0txamF0TF81YWZZN2RoSFJKYmJ4aHNfYzBjREJFZ2xndUo1QzJTTEhuZzNNYzVELXlaS3hzbmlNdWk1OHM0Z1dn",
     "CBMi0gFBVV95cUxNT1hNRkJnRlowYXhldDRnRFpqUXl2RDNDd0J4cW45U25zZ3NWZ19TOTRxVnZpTEFxMWVONTBjYTUzbEctcjFLZnNQZ290Z1VGRlduRlFSVmZzZWxiZ0VnTmExMUNtcFZRcW9ZTjJUeFFpVjlxdmdkUnByQjg3N0xVeDhSRC16YURtaGF1VVRsam4weFNuV2pzbDZybzNkQXVucVk5RkZWZGN1WkdtUjhNWnQxSEk3UTdwQ1lLUExaRE1idW0tRktvZ1pVeVRsNzdmcUE",
     "2089086117018485074",
     "CBMipgFBVV95cUxPSXJyMUxVX0lBVDNNTTE1eExOQ2ZXeW16LXJpUUFENUpVMUJ5NFNaZXpJS0Y5WWRqX09lTzlxOFZBMGJhc2txUHpYa29QNFA1YzlneG1keEFnZFFxZ1hQQ3VOR2VuSDU2N3haazRFUjVLLWZXMl9IZ2ZzM1ZWOUFkQXRYdGZMQjFWVElCZGFmMlpYV0dmWFh0dDFJSjBoRm1BQndGZ1Vn",
@@ -3312,7 +3311,8 @@
     "CBMic0FVX3lxTFBSc1lKYktrcFNYRmxqZVlJc1ljZW5YTDlVajFoR0V3VV9wNEFfTGFDcFlPZ1JtZmRfLTZoMXdnR1Q1VkpHTFQ1SUhyQy1NckR6Ykg5Q0UxOVZQQk13UTQ3M3dRbWMzVENkcVQtQ2dMYUFaYUU",
     "CBMia0FVX3lxTE5SS2t0NVNRSV9laWRPTWticjU0ZFVJMGdIcjM4MHY5WHdValpfU3E3OWxBT056dXNTWDFvRmRvcUZJRlZKZzUtbHI5dllFQVBnYV94THFiSllFS3FVZUI0Q1dNQnpzSmxtWXdz",
     "CBMiqAFBVV95cUxNc09kZnI3eEdNWXdmVWZ2UEdDTDgyTnVwcllsZUNsdDZJZ09jYVpKSjFXWHhiazlQNTZjU0o1N1NtRkFTdUpxUE1Obm0wWFJGcXZ4S2hqS2hkTmtNLWduaXB3eHBySFlLX2xlUjlCVWdiZkNKb05yNGJRQmx2eW1hQnJmbWZqbUJhRGt6QTc4dmZqS0M5djYzUUNsWnh1VEVyS1doVkR4R1U",
-    "CBMiywFBVV95cUxNTnFxLUg0VnVKcl9lWXBBQ0xnN3NJMUQtejc0Q1d1ajNmSF8wZVBuT0JmWUc1RXZzV1NlTzF5NE9VZ1AxaXJFX2M1VFAtSGxrUHN5RjMtV3YwT0VPX1Q4SVBCR1BmS2ZCb0RSMHZWdDNHWXFRcW9uVlVYMUduRFhBOUtEUWtDTDliQUxPb21PeUgyQ1FsaUh2cUFCanZvc0RZWlJDSVdzYlNnZWUwSmllWUdpalZlWVBxcE1YMVVPRENqcmZGX2M5aVM1MA"
+    "CBMiywFBVV95cUxNTnFxLUg0VnVKcl9lWXBBQ0xnN3NJMUQtejc0Q1d1ajNmSF8wZVBuT0JmWUc1RXZzV1NlTzF5NE9VZ1AxaXJFX2M1VFAtSGxrUHN5RjMtV3YwT0VPX1Q4SVBCR1BmS2ZCb0RSMHZWdDNHWXFRcW9uVlVYMUduRFhBOUtEUWtDTDliQUxPb21PeUgyQ1FsaUh2cUFCanZvc0RZWlJDSVdzYlNnZWUwSmllWUdpalZlWVBxcE1YMVVPRENqcmZGX2M5aVM1MA",
+    "CBMi0wFBVV95cUxPc0RHZjRLMW9nbGp0QXZBbjhrdWxCNmYyZzVkR01ZOVRjbFJ6TXJlRlFIdGktajdJNjg2ZDdDcUlFNkxSX3hVNENxSTUxNHAwZXJKTTk3WlUwWUVIQ0hhb2VhZXFQcm81OTZhVXNYVzlpTzhydXkzb0F5Y1JLNnkyNVNlYVdzSERwdU1jUWVSRzNnak1FNF83cnJEOEtZOTd3OV9HOGVJSG13bjdDbmxPMTNRZ1JOc3VBUFBEVEhabFEwQ0FkY3NZN3pJQmlmRUNGMmRv"
   ],
   "daily": {
     "d": "2026-08-19",
