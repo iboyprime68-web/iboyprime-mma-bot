@@ -1,7 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504524",
-    "https://www.mmafighting.com/?p=504532",
     "https://www.mmafighting.com/?p=504546",
     "https://www.mmafighting.com/?p=504552",
     "https://www.mmafighting.com/?p=504562",
@@ -868,6 +866,7 @@
     "https://www.sherdog.com/news/news/Arman-Tsarukyan-claims-Charles-Oliveira-made-excuse-to-avoid-rematch-202412",
     "https://www.sherdog.com/news/news/Arman-Tsarukyan-places-361-million-bet-on-Ilia-Topuria-vs-Justin-Gaethje-201469",
     "https://www.sherdog.com/news/news/Arman-Tsarukyan-plans-to-make-good-on-prefight-vow-to-Justin-Gaethje-201540",
+    "https://www.sherdog.com/news/news/Arman-Tsarukyan-says-controversy-is-important-for-boring-fighters-202429",
     "https://www.sherdog.com/news/news/Arman-Tsarukyan-urges-Justin-Gaethje-to-hold-off-on-retirement-201544",
     "https://www.sherdog.com/news/news/Arman-Tsarukyan-vs-Dillon-Danis-booked-for-RAF-14-202306",
     "https://www.sherdog.com/news/news/Arman-Tsarukyans-coach-Mauricio-Ruffy-is-more-dangerous-than-Ilia-Topuria-202314",
@@ -881,6 +880,7 @@
     "https://www.sherdog.com/news/news/Bout-order-official-for-Conor-McGregors-return-at-UFC-329-201676",
     "https://www.sherdog.com/news/news/Brendan-Allen-I-can-beat-Sean-Strickland-in-every-aspect-201510",
     "https://www.sherdog.com/news/news/California-commission-to-run-special-July-25-combat-sports-fundraising-event-201739",
+    "https://www.sherdog.com/news/news/Carlos-Prates-fires-back-at-Michael-Morales-Id-knock-you-out-202430",
     "https://www.sherdog.com/news/news/Carlos-Prates-has-a-chilling-promise-for-Islam-Makhachev-202411",
     "https://www.sherdog.com/news/news/Carlos-Prates-hints-at-untold-story-behind-Mauricio-Ruffys-loss-202350",
     "https://www.sherdog.com/news/news/Carlos-Prates-returns-to-training-shares-mysterious-social-media-post-201612",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Gillian Robertson rejects Din Thomas' apology over UFC 330 flub",
-      "ts": "2026-08-18T20:30:27+00:00"
-    },
     {
       "t": "Henry Cejudo: It's 'a little premature' to call Islam Makhachev the GOAT",
       "ts": "2026-08-18T21:10:31+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Kaik Brito reveals he had to block a lot of fans on social media ahead of #DWCS and says he envisioned the knockout in front of Dana White 👊",
       "ts": "2026-08-19T04:23:42+00:00"
+    },
+    {
+      "t": "Carlos Prates fires back at Michael Morales: 'I'd knock you out'",
+      "ts": "2026-08-19T06:48:51+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Inverness Caledonian Thistle vs. Partick Thistle Live Stream of Scottish Professional Football League",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaXJGcERsMU10czN4ajBNbGlpazNQTXpNYy1iMDV4RTJHbWdnRXBIdUlabDE1TGlVT3VZM0p6TE9fZ2dMa2tobDhKYkkycmNoQjd2eEExRVVZNDU0MHdsUnh5UVVHVEYtVXlTcl9CdUNFZjljbzV0ZThIcHNQbzlienpNTzlWVUVhWDhj?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T05:31:46+00:00"
-    },
     {
       "title": "Gillian Robertson Refuses to Accept Din Thomas’ Apology for Throwing Her Under the Bus After UFC 330 Loss",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNEZsZGJwVUoxaE8yLTJuRmQyTkw3QzQ1LTByYW12N05sZ0lYMDVFd2ZmVWMyd2hmVk1raTVqTmVnREZRd3BQT096LVJqVEY5MGdoV2tfOERKUm85S2oxbjR1NUg5MDZRb1JlWXJkeGxtRVlVVUt6MFF5Y25HbXlGTEFxLThUTlJmQ3pWeURtb05lWVlid09jckFqQTJPUHhmUTJvcFBqbnE5aEY5SUtWQ0k4UmU1R0pWYy1ON09NNUhXMmhQYmdlYVpGWTdLVEZmR0RqdWFmb19ZMlNlbXVRall2WDJ5UE0?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-19T04:23:42+00:00"
+    },
+    {
+      "title": "Carlos Prates fires back at Michael Morales: 'I'd knock you out'",
+      "url": "https://www.sherdog.com/news/news/Carlos-Prates-fires-back-at-Michael-Morales-Id-knock-you-out-202430",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-19T06:48:51+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMib0FVX3lxTFBtdFhBMzBJek44SG8tRkV1QmluWUFZVTRaVzgtNmZsZXZGd3ljazJkdHU1REpfZjFsTHVpVUdVa2puTUYxemVXM3k5aHRHSTJqQk9ySXRRZmt0X0ZDUVVLTUE1WjJIc2tQU2wzZW9VNA",
     "CBMihwFBVV95cUxOSW9LeGdCaGFqaGtHYmJFSnhnUW5pdGg5Ym5vVFZVMG9NZkE5dTN2bkpQTHlCRHR3dnpON2M0OTFoSEs2alB1cE5RRDc5T2N2NGlyeFpfX1NuM1Vub21XU1FjVmVoQUVDX28tcTBuMkJBUGw5bXdHREV0SjF2b2Z0cmg5ZWp2TUE",
     "CBMi-gFBVV95cUxNUWs1QUZSSG5WX0E4WHNLR1pPUVV1TFZJUGJfcHhYYW9GRHFWMWZDWFdSR1UyQk1Bcll5c0xaSk9tNWlNb2dyY05jNUxmbFdWLUdndWhIcTRDYkpGc2hKaHRfRjM1WEY0OEpyUmhVWW4xNUJsd3lHVTQ0bzNHRy1RSlhSb253QmlQRjV2TTZ3M2dabzRwOWRyVmVzV2VnMlB3MXhWbUN4ZVNxOFBfUV9jbHhTMExxbG1kN3dXTGZIVWxES3JOekNYME5kVDVhX1NfVVVVaGxTRXlQdklNMWt5RWMwc3dRRjFkTjRYS05iNndCYlhvSi1rUlVn",
     "CBMisgFBVV95cUxOMzNNSnRIVi14aW5BVzBuVElkdlhFQUM4ZnlIb0JNV24wQW5zS3FYeHNSVFdKS295ZmFPbkRKaFd3REZqQjV4Y3Z2TTlXQWxlYWxqa3ZWYnczcjFRYlduakJROURTS0FLOVNIREdrd24tZXdpWGJacnRId2diRGZETkdFQXY2Xzd4b1JQNjBmSVc2cF8wcUxQR0JXWUFLeS1hcWFrWnU2UjdKUFRSSjc5ODJn",
@@ -3312,7 +3311,8 @@
     "CBMiVEFVX3lxTFBWRW4zZzBOSWJGbFhwNTNsUXNaeEVBNFB0SEpNRkxMT0JmQnJLNHZVdTJPNGNHRkhvRXF4T2dSWlZaZlRkTzJ1UFNmNGFZT2x4V0gyZg",
     "a574b934-2fb4-3edb-a285-67d4243eb86f",
     "CBMilgFBVV95cUxOZHFxdkZ5TTNxSkE3b3dlOENFcWhlaW5IOUdPUDlXT0RQNEJmN1ZLTmQtMm5ZM2pqRld1aURNNzB4SUpGUjJhTi12bmhsYmUzUllONGRnczRQUG1fWk5fVVExVkRNTFNvMWVRVkVxcV81enZHcDJKUkYzTDNjUXluaVN2LU1NVUdCck5WVnpWaFZ0Qzhyb2c",
-    "CBMisAFBVV95cUxQQkVSSFEyLTZjMDJETmlRTDZ5QURxdm1sX3VMQnpCTDhJcWZadUpBdDJlY3EzVXVTM0t5YkdMLWVhUUFEdGdNcV9CQW5JVFZ5bVhGWWI2Z1RjNkhmOEtPaURjYkRGNzdBVWxlRmpNRkYwWnpqZnl1V1pPTXdBc2ZIN0FXWEhTTTVZTlRzYzBxYjQyNjdKRk95WTlJZlpNb2JEcmRhemdqWEtUY0dCNXhtNQ"
+    "CBMisAFBVV95cUxQQkVSSFEyLTZjMDJETmlRTDZ5QURxdm1sX3VMQnpCTDhJcWZadUpBdDJlY3EzVXVTM0t5YkdMLWVhUUFEdGdNcV9CQW5JVFZ5bVhGWWI2Z1RjNkhmOEtPaURjYkRGNzdBVWxlRmpNRkYwWnpqZnl1V1pPTXdBc2ZIN0FXWEhTTTVZTlRzYzBxYjQyNjdKRk95WTlJZlpNb2JEcmRhemdqWEtUY0dCNXhtNQ",
+    "https://www.sherdog.com/news/news/Carlos-Prates-fires-back-at-Michael-Morales-Id-knock-you-out-202430"
   ],
   "daily": {
     "d": "2026-08-19",
