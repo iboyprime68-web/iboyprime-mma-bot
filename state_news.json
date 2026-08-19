@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "My complaining about the Apex has officially retired. Vastly different product now that they added more seating. Looks and sounds so much better on T…",
-      "ts": "2026-08-19T01:36:50+00:00"
-    },
-    {
       "t": "IT DOESN'T GET MUCH BETTER THAN THIS 👊 Kaik Brito ends #DWCS Week 2 with a VICIOUS RD3 knockout!",
       "ts": "2026-08-19T01:40:56+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Charles Oliveira denies having next UFC fight booked",
       "ts": "2026-08-19T19:34:03+00:00"
+    },
+    {
+      "t": "White Praises UFC Signee Despite DWCS Loss",
+      "ts": "2026-08-19T19:31:27+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White addresses Khamzat Chimaev’s potential UFC 333 return",
-      "url": "https://sports.yahoo.com/articles/dana-white-addresses-khamzat-chimaev-050627081.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T05:06:27+00:00"
-    },
     {
       "title": "Carlos Prates confirms he's next in line, promises he'll KO Islam Makhachev",
       "url": "https://sports.yahoo.com/articles/carlos-prates-confirms-hes-next-051459497.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-19T19:34:03+00:00"
+    },
+    {
+      "title": "White Praises UFC Signee Despite DWCS Loss",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45UEFEa0w0RFl3bTNMUENtTzJaaVE4LTRXYV9lSWo1eHJ3YTdpSTBnYmE0Y0hmZTNNSFlEdll1enpHaU84N0dyTHNIMHpaczF4YU5xMkVWbk1Lb3NtMDI1RWJQWU1peVFlX21peGpzYw?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T19:31:27+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMisgFBVV95cUxPXzkzcDVHcWF1bG9oa3BPQ1g2MVdwZEdyV0R5ajJGX3R1WWstSF9RSUoxa0ttVXZMN2hiTUZwVjBpQlpiaTRud3Nwb3BraFNSYXkwd3hpbHNwdEFycUluUElSWjg3QUtCUzU2TVNBV0pYOTJHRm1MUDdxY0c3U2p0bDYzYjJhbTRzNkhnVUdDZ0hWeHZZRkEyTUhNUG1mTWFWVWJlLXRVaV9kRmRXd1F4ZFF3",
     "CBMi2AFBVV95cUxNUlZ3TnVtUUZqQlhpOHlyMmJkQmNKQ18yc1JKcnI0aDJjYXdBTFYyOGhKSWhaaUxhSEpsMndGN1VJMENjTnYyN1Z4a3NmLWdkNXZ6VVRMNXJIUU4wOXZueHE2UEpoRlB3RmhDM2ZXS0VkUnMybF82U3BTVnpJMWVBenFBU3ZsWWotTlNYem1xcE1CRmhtalQySlY4R3JwMjAxdzQzd0dxYWllTWhMSC1xZUNJd1hOcFhhRXNNd3QxXzlQeDF2bzhjZEJwRE1qMDVxclpFeWxYSjM",
     "CBMiswFBVV95cUxNOG8xYkJ0Y0pmUjh5czlUUUxfYUdWWF9JQVRYSEt2MWRPWERHNjR0WTRteDYtVWw5UFJLVllvV19YZHN1ZnlMX0pkeVdZSVZ5R0hqOHktMFVHZG5wS0hnLTJINnphVGVYejMtVWxERFloa2pkYW5OY1JoT3p6UWhGTjRvTVk4cXQtU0NTX2VNR2t3ODBJdElPSjluZzdPQXZWeThIU0tkcjlqVy15Tmh6UVpOZw",
     "CBMiwgFBVV95cUxOTDlNbktKX01EZjVDdERLaWUycWVHMmt1SzhMd3ZBQktXMWpBN2JYUWxZNDZqd1k0ZUs5aFRCLUJIaktZdXoxUjdfSERxdTZlU0l1QkZDZW1vVTdISzRnckVDX0RXMm1rLVNZUUJyeG5ZekZVU0p3eWVscHRvMDV6enFoU05WZzl4RjZlM2k2YlBYVXpUZUhJcnB1SHBvWllIX042clJoQlZwcDdUVWcxTlk3Q2FmdGlia3JxTmZsZmd2UQ",
@@ -3312,7 +3311,8 @@
     "2090156503944802419",
     "https://bloodyelbow.com/?p=327752",
     "CBMi1gFBVV95cUxPSzE0UEk0UTRkdE5uZHdaUWVPWWZqZ3dxQ1N3V0hSM0s0M1ozVzJ5MjJwcVhuQVROVW9TVURYVVRMdXFZR3IwYWVFdkxfOXRlWE1jNXgybFdQYjdUVVpHMEF4d1NuVGVxQmE5aU41TFc4NEhCMk1PRW5mZzZuT2pGaWo5Njloa0VmWWJ1ampURl9WQklpWUVjcjc1NVJiVXZlRXhQdDhqbFRXOFpIU0FBVHdXUWs2d1V0T25ia0FBN3BSdVRmbi1OWkViN2VaUjliR1Utd2Jn",
-    "CBMihgFBVV95cUxOLVNuZFdGSENUSkgtc3o0eEpyd0pRYmUzT3lUVjFkblJrZ1I1dEJDZkxXZHkyVzlqaWZuM3d0WnRDQUdlcU1WSzg5ZUxsUWhieUE2SENYbmlzSFFYR3IxQ1N1ZldTZF95TFZrRjZUSmNzbGpHUm85SG5Ib2VBVUkyQU9jMENuUQ"
+    "CBMihgFBVV95cUxOLVNuZFdGSENUSkgtc3o0eEpyd0pRYmUzT3lUVjFkblJrZ1I1dEJDZkxXZHkyVzlqaWZuM3d0WnRDQUdlcU1WSzg5ZUxsUWhieUE2SENYbmlzSFFYR3IxQ1N1ZldTZF95TFZrRjZUSmNzbGpHUm85SG5Ib2VBVUkyQU9jMENuUQ",
+    "CBMib0FVX3lxTE45UEFEa0w0RFl3bTNMUENtTzJaaVE4LTRXYV9lSWo1eHJ3YTdpSTBnYmE0Y0hmZTNNSFlEdll1enpHaU84N0dyTHNIMHpaczF4YU5xMkVWbk1Lb3NtMDI1RWJQWU1peVFlX21peGpzYw"
   ],
   "daily": {
     "d": "2026-08-19",
