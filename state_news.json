@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "PUT IT ALL ON THE LINE 👊 Roman Puga earns the hard-fought UD victory! [ #DWCS is LIVE NOW on @ParamountPlus ]",
-      "ts": "2026-08-18T23:41:56+00:00"
-    },
-    {
-      "t": "Dana White steps into the octagon to congratulate both Roman Puga and Taner Trembley after their amazing fight to kickoff #DWCS88 #DanaWhiteContender…",
-      "ts": "2026-08-18T23:42:03+00:00"
-    },
-    {
       "t": "Taner Trembly and Roman Puga exit the octagon following an absolute WAR. Could we see the first double contract of the season? 👀 #DWCS88 #DanaWhiteCo…",
       "ts": "2026-08-18T23:44:42+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "\"Princess is humbled now\" - Islam Dulatov vows $5k gift to Kaik Brito for Namo Fazil KO victory at DWCS 88",
       "ts": "2026-08-19T06:17:00+00:00"
+    },
+    {
+      "t": "Conor McGregor applauds Ian Garry's response to UFC 330 defeat",
+      "ts": "2026-08-19T05:43:32+00:00"
+    },
+    {
+      "t": "Stephen Thompson issues warning about Shavkat Rakhmonov’s return",
+      "ts": "2026-08-19T06:04:49+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Henry Cejudo: It's 'a little premature' to call Islam Makhachev the GOAT",
-      "url": "https://sports.yahoo.com/articles/henry-cejudo-little-premature-call-211031216.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T21:10:31+00:00"
-    },
-    {
-      "title": "Carlos Prates Sends Blunt Message to Michael Morales",
-      "url": "https://sports.yahoo.com/articles/carlos-prates-sends-blunt-message-215847984.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T21:58:47+00:00"
-    },
     {
       "title": "DWCS Results: Season 10, Week 2",
       "url": "https://sports.yahoo.com/articles/dwcs-results-season-10-week-220000030.html",
@@ -2105,6 +2091,20 @@
       "source": "Sportskeeda",
       "cat": "ufc",
       "ts": "2026-08-19T06:17:00+00:00"
+    },
+    {
+      "title": "Conor McGregor applauds Ian Garry's response to UFC 330 defeat",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmJ2dGhXSFR3b0xybzh2Sm43R1UwWEhQcHZEWEptZlBtR3dkYWswN2ZEX3Y3S09Vem5STHN5cG1FYXZUN0dwazRqR0l5N2RqUlhQLVhMeFczcUpMc3dNcWxTMFhBY3N0bnE2UlJUUHU3Y3FIMDIzaGFZZzY1SFMxVC1hNmY0YkRCTnkydDEzT0NCM3RUQ2drZ0Vn?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-19T05:43:32+00:00"
+    },
+    {
+      "title": "Stephen Thompson issues warning about Shavkat Rakhmonov’s return",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM1M5Q1BKbklmdUE1X0R3VnRIaVRtYlozSXlzZGsteWJaTjNjcExQT1cyMDVURTVtVlM3YWFvNWNnRnB4QTk1bVowamRFMEZtcm91clpqeHJGdkIzRm5MS0Z1NFQ2WFhMU1RGWEh4UG1BRDNIR0tZaU5CNENoUmIybk1uZ1BEYXBkTzR3LUhicHZDODdWRFJySG0zM2NnT2k4b0lWd1FwQQ?oc=5",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-19T06:04:49+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiYEFVX3lxTE5TN3FVVVZCYzNteHM5QS1Da3V5M2NBMEl3blRVSk1lWHRINkJxaGlMa2pZaG5zQUZSRXphOXJ5TEVRdTJTelRPUmxUZUYySzVnQ09JcGQ2ckdQeU95aTNlTg",
-    "CBMiW0FVX3lxTE5EUjhrNjEzUmlRalZxTGsyMXUwV3A4eWxEVmt0cXpFV3J6akJwT0NMMk1KNnhqcl9BSG12XzdTUktQZVlXUXNnVnNCWEVrWFRJNG00UkQzcnRuVk0",
     "CBMiW0FVX3lxTE5EZTh6R1dlaWxWUzI1TmpnWkhzekJoeUhMekd6UEl5T0lOdFRlcWo2dkI1T1I1SVdNMldDdVdOLWlYQnVPdVJuRmpuMTJWaXlDeTREZjZDWENqMU0",
     "CBMihgFBVV95cUxQeVdlbTZMbHU5SUFKcDk4WUwzLXJsX0FfMDNhdDVGY2V4QklBMXNDNGZOcVZEMElic3dxcDNZd1ZGWDZBZFlfNjUzTVR6X2d0MEJjUUdZMFBmcGZuSnY2bTZ1aGNMQUZkR3FHSWRoMVNVaEdwc2o3M2NKRFJXbzdFMzc1Y0h5dw",
     "CBMikgFBVV95cUxPQ0JWa1FaSGo3cThXSnBGd2prcUlJVzRSNGRrdkF3djNYLTFrS0ZUMW41ZFFhcHlfbDk4NjlGTnFtSU5rNzQyeWdBb0tYMXhJcXhvZkVPVUxmRXU0UGRfUnpoSlhpSkZ3bWVRUjFIQzZWVVVpR001d1FGVGwySXJ0MWlwdml2RUI0TmdSeTBJQWFCdw",
@@ -3312,7 +3310,9 @@
     "CBMi5wFBVV95cUxQNEZsZGJwVUoxaE8yLTJuRmQyTkw3QzQ1LTByYW12N05sZ0lYMDVFd2ZmVWMyd2hmVk1raTVqTmVnREZRd3BQT096LVJqVEY5MGdoV2tfOERKUm85S2oxbjR1NUg5MDZRb1JlWXJkeGxtRVlVVUt6MFF5Y25HbXlGTEFxLThUTlJmQ3pWeURtb05lWVlid09jckFqQTJPUHhmUTJvcFBqbnE5aEY5SUtWQ0k4UmU1R0pWYy1ON09NNUhXMmhQYmdlYVpGWTdLVEZmR0RqdWFmb19ZMlNlbXVRall2WDJ5UE0",
     "https://www.sherdog.com/news/news/Gillian-Robertson-breaks-silence-on-Din-Thomas-controversy-202428",
     "8dd19a9d-f524-3769-a516-2673cac1b262",
-    "CBMiwwFBVV95cUxOOC1RTmg4ZnRoSlIyMGpJOFZrU2NTRjFEMkVHN2dHcnRCTGRWd2s1c193MWx5TnlKMkF6SDZCTDgtVl90UUluYWhGR1JYYVJHLXZOQy1RVlZCTlJ5Yzl5aEdycEh6YnF2OEQta1FiOGFCQ3pGZU5Fck53bFllcGVLWWpsWS1qalhTLXhlaGZpalF3bmh3X1ZRWHFjbTQyWDAtWndFMmc2cHB4R1ZhVHFkRWRLMmQtWi1UT1czMEVKMVYtMFk"
+    "CBMiwwFBVV95cUxOOC1RTmg4ZnRoSlIyMGpJOFZrU2NTRjFEMkVHN2dHcnRCTGRWd2s1c193MWx5TnlKMkF6SDZCTDgtVl90UUluYWhGR1JYYVJHLXZOQy1RVlZCTlJ5Yzl5aEdycEh6YnF2OEQta1FiOGFCQ3pGZU5Fck53bFllcGVLWWpsWS1qalhTLXhlaGZpalF3bmh3X1ZRWHFjbTQyWDAtWndFMmc2cHB4R1ZhVHFkRWRLMmQtWi1UT1czMEVKMVYtMFk",
+    "CBMimgFBVV95cUxPSmJ2dGhXSFR3b0xybzh2Sm43R1UwWEhQcHZEWEptZlBtR3dkYWswN2ZEX3Y3S09Vem5STHN5cG1FYXZUN0dwazRqR0l5N2RqUlhQLVhMeFczcUpMc3dNcWxTMFhBY3N0bnE2UlJUUHU3Y3FIMDIzaGFZZzY1SFMxVC1hNmY0YkRCTnkydDEzT0NCM3RUQ2drZ0Vn",
+    "CBMipwFBVV95cUxQM1M5Q1BKbklmdUE1X0R3VnRIaVRtYlozSXlzZGsteWJaTjNjcExQT1cyMDVURTVtVlM3YWFvNWNnRnB4QTk1bVowamRFMEZtcm91clpqeHJGdkIzRm5MS0Z1NFQ2WFhMU1RGWEh4UG1BRDNIR0tZaU5CNENoUmIybk1uZ1BEYXBkTzR3LUhicHZDODdWRFJySG0zM2NnT2k4b0lWd1FwQQ"
   ],
   "daily": {
     "d": "2026-08-19",
