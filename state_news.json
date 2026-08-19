@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Diego Lopes withdraws from World Master ahead of UFC return",
-      "ts": "2026-08-18T23:26:45+00:00"
-    },
-    {
-      "t": "UFC 330 Highlights: Edson Barboza vs Esteban Ribovics Stream of MMA",
-      "ts": "2026-08-18T23:16:27+00:00"
-    },
-    {
       "t": "Max Holloway Shows Off 7 UFC Belts to Shut Down Islam Makhachev’s “Too Heavy” Dig",
       "ts": "2026-08-18T23:31:08+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "DWCS video: Kaik Brito lands nuclear knockout on Namo Fazil",
       "ts": "2026-08-19T01:41:00+00:00"
+    },
+    {
+      "t": "My word. What a KO.",
+      "ts": "2026-08-19T01:34:22+00:00"
+    },
+    {
+      "t": "My complaining about the Apex has officially retired. Vastly different product now that they added more seating. Looks and sounds so much better on T…",
+      "ts": "2026-08-19T01:36:50+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "SHOWCASING THE POWER 💪 Alik Lorenz proves he is not to be mess with after a HUGE RD1 knockout! [ DWCS is LIVE NOW on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2089867515312922990#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T00:10:18+00:00"
-    },
-    {
-      "title": "DWCS video: Alik Lorenz hammerfists Mahamed Aly into unconsciousness https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/18/ufc-dana-white-conten…",
-      "url": "https://nitter.net/MMAJunkie/status/2089867551584973214#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T00:10:26+00:00"
-    },
     {
       "title": "Cristian Perez landing big 🎯 [ DWCS is LIVE NOW on @ParamountPlus ]",
       "url": "https://nitter.net/ufc/status/2089869872440480087#m",
@@ -2105,6 +2091,20 @@
       "source": "MMA Junkie",
       "cat": "ufc",
       "ts": "2026-08-19T01:41:00+00:00"
+    },
+    {
+      "title": "My word. What a KO.",
+      "url": "https://nitter.net/arielhelwani/status/2089888672816496768#m",
+      "source": "Ariel Helwani",
+      "cat": "ufc",
+      "ts": "2026-08-19T01:34:22+00:00"
+    },
+    {
+      "title": "My complaining about the Apex has officially retired. Vastly different product now that they added more seating. Looks and sounds so much better on T…",
+      "url": "https://nitter.net/arielhelwani/status/2089889295569981678#m",
+      "source": "Ariel Helwani",
+      "cat": "ufc",
+      "ts": "2026-08-19T01:36:50+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMikwFBVV95cUxNWTFUSnl4Mk50ZHBNRzNCXzJYR1FjZURoRDlkTDBqbGtmYzE4enktdGZFRzJZYkNBdGdjMmpqS0hMWmc1NVhJQWZxTFBIVXU0WGtBUDBmVlIxMzJ0SEFmYVUzdU91b2tscjhSQ2c2aldTZGpLNWxwcUtyUlFqRno0eF9reHZKRm5tSWVDb0E2ci1MUGs",
-    "CBMi8AFBVV95cUxOYkVHZGpNcF9JbHpUdzFjVXhjVGNnUG8zaEFRRFh3MGZNRUlveDFhNm5oUGdfVzNPLUdvYU9NRjhxOUEwWU5uNFhZM0lBVDEzQWNUcHFYSDh4SVluME42OTlTX29ldGdXXy1uSnhOUVAyaUhka3JfVWdhQjVTWW0xYnU5eVROeUpaaE5VN3B4VGN5RjhHMFJycFJ4eWhZa0pYWXo3ZEx3NmxKQmdmZUJEVzIwalotTFpFN0VycXBsVUsyalhHc1B2TXA0bDhZZF9NQUlUNVFCRHFDZ1RVeU9lTTdzT3RKWERNVEtQYkdDTjI",
     "CBMikAFBVV95cUxQTDdPLVpfTEd6S2s0V19YRUxQUWJpbXY2a19NanI5eWFGRjRManB6dFNHZ01BbGhFQ0cyR2daSWs5cDdia1ZMV2tCWFdUN21NNVhOelYzTlI1dHJVUTgzb18xN0plQ0VneVFpX2toZDVDLTVZT1FDSEtubHlYZ0YzLXBrcS1zRkYzNXdSRDZKY2I",
     "CBMie0FVX3lxTFB1LTVDWTVsZ0NWSDNVQzcwd1Y5Zlg3b2t5a2EyMC1mSmpwd1ZfRHdOMkY5TklONl8tN0JLdUp1d0hMZ0hpS3ZScWxfZzlNUHlFaVBNSTFYWTlCNG9EMkh2M2lFTG4zRkhWRl9YUHY4U1JEQjRjclVRZGdiaw",
     "CBMiW0FVX3lxTE9OOVE3QTdNLWlfcDFrLXl0Y0VKOEkwM0EyQ2ZFRURKbVpRNUcxMTh2Z1ZKTFc4cmZjRm1yd3RXVW9UZ3lJU3A5S2NkeWlTNmg1ZWZSc2xaRWhocFE",
@@ -3312,11 +3310,13 @@
     "CBMihgFBVV95cUxOaHFCSGZBUlRPUFF5RzRJMndrUDBCaGFmS3VVbTI3Z1FHVG56NFFzdzFzMHVDOFZ2ZTBTM3pvdkVBLVQyaEk4T0Y5UE92MjVoR0kwUjZDLXhaRVp1Vzl4M3VSLXNvMmFUVG9xRmItWmxfaDZmZEgxWDZHZ2VScHdYRncxb3dQZw",
     "2089890327058600166",
     "CBMiwAFBVV95cUxOUW9rNFlYem1kQ1R0SVUyQ2hDM3JEMjR6SS1pTm9CbnhsRDNITmF1Wnp0NUpYdUZYcko1VUI5QWFDLWttdHFCWW4tRmEzRGlFdHdQT1Z2Uk5xWVJsSG5vR2tMYUYwazU1S0NHM293WVNyTU9pRkd6Slc4WDRpczdyV1ptSFAwM0R1M095bkFab3VIUi1MWVU2c1k5am5JUzBhNS0wQ3VFMUlJQWdCaE8yZ1N0VExBcW1QUXpfT0l0Zms",
-    "CBMisAFBVV95cUxQdXQ3X1J4NU1NNjJjSklpOHFSNy1GYTNZUnJtYV9mWVFlRmpwNExkQkxQT3UwTXNQUVVTY1dXTWtIWWwyUHVIUktSWVAzMW1EOHBfMDJBNHJxS2xsdk02Uzd3bmpQSkswa0daNHpjUkp3T0ZvbXN3VWVDTjJ6NXQ2c0VYTko3NnlvSXE2azBMV3dXRG1SdUZGakxmaVFtZEZtY2pxTDEwRkVDemM3YnZscw"
+    "CBMisAFBVV95cUxQdXQ3X1J4NU1NNjJjSklpOHFSNy1GYTNZUnJtYV9mWVFlRmpwNExkQkxQT3UwTXNQUVVTY1dXTWtIWWwyUHVIUktSWVAzMW1EOHBfMDJBNHJxS2xsdk02Uzd3bmpQSkswa0daNHpjUkp3T0ZvbXN3VWVDTjJ6NXQ2c0VYTko3NnlvSXE2azBMV3dXRG1SdUZGakxmaVFtZEZtY2pxTDEwRkVDemM3YnZscw",
+    "2089888672816496768",
+    "2089889295569981678"
   ],
   "daily": {
     "d": "2026-08-19",
-    "ai": 61,
+    "ai": 63,
     "staged": 2
   }
 }
