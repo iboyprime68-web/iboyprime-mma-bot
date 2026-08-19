@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504440",
     "https://www.mmafighting.com/?p=504443",
     "https://www.mmafighting.com/?p=504454",
     "https://www.mmafighting.com/?p=504464",
@@ -1040,6 +1039,7 @@
     "https://www.sherdog.com/news/news/Justin-Gaethje-dismisses-immediate-rematch-with-Ilia-Topuria-201600",
     "https://www.sherdog.com/news/news/Justin-Gaethje-unlikely-to-fight-again-in-2026-201586",
     "https://www.sherdog.com/news/news/Justin-Gaethjes-coach-Trevor-Wittman-defends-Aleksandre-Topurias-stoppage-of-Ilia-Topuria-201718",
+    "https://www.sherdog.com/news/news/Kaik-Brito-had-one-more-trick-saved-for-Dana-White-and-it-was-brutal-202423",
     "https://www.sherdog.com/news/news/Kamaru-Usman-confident-he-can-beat-Islam-Makhachev-Styles-make-fights-202398",
     "https://www.sherdog.com/news/news/Khabib-Nurmagomedov-credits-Dana-Whites-coldblooded-UFC-approach-202344",
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-reacts-to-brawl-with-Dillon-Danis-at-RAF-10-201524",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Taner Trembly and Roman Puga exit the octagon following an absolute WAR. Could we see the first double contract of the season? 👀 #DWCS88 #DanaWhiteCo…",
-      "ts": "2026-08-18T23:44:42+00:00"
-    },
     {
       "t": "#DWCS results: Alik Lorenz def. Mahamed Aly via knockout (punches) – Round 1, 2:23 Live coverage: https://mmajunkie.usatoday.com/story/sports/ufc/202…",
       "ts": "2026-08-18T23:57:12+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Take a bow, Kaik Brito 👏 #DWCS",
       "ts": "2026-08-19T02:03:52+00:00"
+    },
+    {
+      "t": "Kaik Brito had one more trick saved for Dana White, and it was brutal",
+      "ts": "2026-08-19T03:52:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev’s coach credits Ian Machado Garry as toughest fight of his career despite champ’s claim",
-      "url": "https://bloodyelbow.com/2026/08/18/islam-makhachevs-coach-credits-ian-machado-garry-as-toughest-fight-of-his-career-despite-champs-claim/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-18T17:00:00+00:00"
-    },
     {
       "title": "UFC Fight Night 285 pre-event facts: Strawweight bonus record can be broken",
       "url": "https://sports.yahoo.com/articles/ufc-fight-night-285-pre-170031409.html",
@@ -2105,15 +2098,21 @@
       "source": "UFC on X",
       "cat": "ufc",
       "ts": "2026-08-19T02:03:52+00:00"
+    },
+    {
+      "title": "Kaik Brito had one more trick saved for Dana White, and it was brutal",
+      "url": "https://www.sherdog.com/news/news/Kaik-Brito-had-one-more-trick-saved-for-Dana-White-and-it-was-brutal-202423",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-19T03:52:00+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
   "hour": [
-    "2026-08-19T03",
-    9
+    "2026-08-19T04",
+    1
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxOQnFSRVhaWGtlUnYwMjBaNWRybDVJWXRxcmNxbXdQTWFvdlVhT2FZdjFnWXc2R09jeXZhSklCdjFhc3ZaSEtCMjd4T2Z5NjMxVDFNZGp2VTNYWTJick1QcmtRaFB3aGRkZDJQSUMtelE4dFJ5MXlIalpHUGEwX0p2aUxoUlhFN2s1RHBPWTY5Vmk4R1BVMDN2Z1EzaVR4TERa",
     "CBMirAFBVV95cUxNckJuTzgtSnVfV011WjNTN2RDRkJwQXdlc3dFZjNCOFA4VDBKQnNyZHlhcFNzbG9kUlB4bkdiWFhhYVNPb2pKbVVKZFAtWDk4ZE54TDVQZWRpMERlS2t6eDU1T09jbkQtVUpXZVlyY1J5QkItQzdqdl9EbDZRS1VYNUZnU1dtcjR1SFh5RXRGTTNtREluOTZEMzU4a3dTRjVEWTJIUzhieUpEYVNI",
     "https://www.sherdog.com/news/news/Cris-Cyborg-opens-up-about-what-motivates-her-ahead-of-final-MMA-bout-202395",
     "CBMifEFVX3lxTE9oYU92N3RIeTZZeC1RSWxoUjFtVVFQSXdrQ1FNOTVzNm1xNzJOeXNza205WF9RQjhrbEo2dHdGRGZXMVBHdWhjdmJGQ1hBZW0tQ05kazhnS0V1QXctbERLWU5IYjJXaGs2SUNEMEpMT3l1U2NpZmlaQXhFRnc",
@@ -3312,7 +3311,8 @@
     "c5623411-1ddc-3e07-bb7f-be7ab496bbdd",
     "1635be92-8fc4-3b19-8994-0a8016794b5c",
     "CBMiekFVX3lxTE1oNjNkaVZTZTVucldWaGJiSVdXaDJPcm9yamVORXhoajV1N08xRHpQaEtqOHQ1QU9lRHZnS1BrWWNkbmhTSXJXaEJvd1V1VGJHenVhekJaOU5QWkV2SmYzMEFGRC1lS3U2am05Q2ZqS0xxTWhNZ2RxblJR",
-    "CBMiqgFBVV95cUxPdF9uUEwxZHZYSXdFekR1OWdyUW5FSVRUcUJfeWpWdDdDbGZKXzZ4YTBTb2N2cG81djlNUVczclQzWVpmSHRzU25HdjlxaUxfcDQ3M0o2Y21Da0Nfb0FvMEZreDNZcEZlbFpBNlVXY05WNGd1VWdkYzNzcVdUV2Q4SW5zamQzd0ZSTkhyUEtRcks2V0NibEppTjd6SUozbm0xWGZsSzVCRFdiUQ"
+    "CBMiqgFBVV95cUxPdF9uUEwxZHZYSXdFekR1OWdyUW5FSVRUcUJfeWpWdDdDbGZKXzZ4YTBTb2N2cG81djlNUVczclQzWVpmSHRzU25HdjlxaUxfcDQ3M0o2Y21Da0Nfb0FvMEZreDNZcEZlbFpBNlVXY05WNGd1VWdkYzNzcVdUV2Q4SW5zamQzd0ZSTkhyUEtRcks2V0NibEppTjd6SUozbm0xWGZsSzVCRFdiUQ",
+    "https://www.sherdog.com/news/news/Kaik-Brito-had-one-more-trick-saved-for-Dana-White-and-it-was-brutal-202423"
   ],
   "daily": {
     "d": "2026-08-19",
