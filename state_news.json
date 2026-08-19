@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS video: Kaik Brito lands nuclear knockout on Namo Fazil",
-      "ts": "2026-08-19T01:41:33+00:00"
-    },
-    {
-      "t": "DWCS Season 10, Week 2 results: Kaik Brito punches way to UFC contract",
-      "ts": "2026-08-19T01:45:14+00:00"
-    },
-    {
       "t": "DWCS 10, Week 2 Post-Fight Press Conference",
       "ts": "2026-08-19T01:48:23+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Dana White's Contender Series 88: Grading the winners (via @DanTomMMA) #DWCS https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/dana-whites-c…",
       "ts": "2026-08-19T12:55:10+00:00"
+    },
+    {
+      "t": "Dana White Criticises Ian Garry’s UFC 330 Performance",
+      "ts": "2026-08-19T13:06:20+00:00"
+    },
+    {
+      "t": "Is Makhachev The Greatest Ever?",
+      "ts": "2026-08-19T13:06:22+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 332 adds several new bouts, including Johnny Walker’s heavyweight debut",
-      "url": "https://sports.yahoo.com/articles/ufc-332-adds-several-bouts-153000730.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T15:30:00+00:00"
-    },
-    {
-      "title": "Between the Links: Reaction to Islam Makhachev’s win at UFC 330, Din Thomas; Plus, previewing busy weekend",
-      "url": "https://sports.yahoo.com/articles/between-links-reaction-islam-makhachev-154500109.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T15:45:00+00:00"
-    },
     {
       "title": "Pinned: youtube.com/live/hB6nTE9SEXE",
       "url": "https://nitter.net/MMAFighting/status/2089744683945627816#m",
@@ -2105,6 +2091,20 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-19T12:55:10+00:00"
+    },
+    {
+      "title": "Dana White Criticises Ian Garry’s UFC 330 Performance",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbzJGQWtYLUQ5T2dsU3hIVkVFR1MwRkxUamxEb3V1RUVKS2JfeGhEa2NwdDZmUkJIN2FEU0ppU0tVZ1ZscDlFbVRRb1JRWTl3Q0pWckRwN1FjQUlSNV9nd0VVYXAyRUJLcHVBTlAtUGdHZ3QzdlFTZ1QtU2tDZjZGcmNvbmE1LU1vYkE?oc=5",
+      "source": "MMA UK",
+      "cat": "ufc",
+      "ts": "2026-08-19T13:06:20+00:00"
+    },
+    {
+      "title": "Is Makhachev The Greatest Ever?",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0UGtyS2tKbHZZWGhQWjRFbTRhVklsRlhZdGk5dGdSTGpOR0dkanAxLUtBekllbWZEaF82U01yNXlhei15NUdKcXJhdkpvcXNHbGs2TW84bVJrYnNIZUZwdFRzdDUtMk9WYXdEaA?oc=5",
+      "source": "MMA UK",
+      "cat": "ufc",
+      "ts": "2026-08-19T13:06:22+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=327431",
-    "CBMihgJBVV95cUxQa1JWVkNBTmhHV2dqdS1BaE1KRVU3RWx3LUZBT2RuaW15NXV3M0I4cloxS0g1Z1h2WU1HZTJRc0ZJRDZKUFJZTHdCRXotVEZWXzlGRmNuTTVvWG5vWVN4dlFkd05NeXFVQ2JWWC0zVS0zQWtKTGpYNk9HMjFCeTdmVmRna1NPUHNCamdkSjZCb0k5Y0xSWjBSTnFseTZiQy1fcVhaYUJRbkFsT1UyUGR1VC03ZlR5ZWVwaUhXc0RXVHBOMTVIQTRHOFg4bUw4THlOY1Rzai0yM2EtT0JLa2poeXJvbjhhQkJqUGRxTGFoMGhnekQ5eW8wdHRaODNTT2RBSnJ3a3J3",
     "CBMiYEFVX3lxTE5fRnQxZk5fRy1wbUVWdFo0ZHBabDJQLXkxSTNSa3p1QmtHVUNCOTMzSVFqWG5jWS1uNGtVN1JzU1BMUVNiM2htZm1icTlGNkxKaTZHRjdiSUFCMVl5dldheg",
     "CBMiiwFBVV95cUxORExNR0h4bDVpV2gzLW1xdkRYeFVId3dyY0NqR21WWDZJQ0UyWVdMelRBSll2eGUzVGp0NFVUMnA0MXJMU0wzMXVub0EzX2VKT190Wk42alFFTHN0NV9KRDdpLTFoVmxLNTlZSFhDSVZES0xMdnFWY1Q1T2x4S2liVzYwRFZmQkk3OUdB",
     "CBMickFVX3lxTFAzRHdMMWNHMlU3STg4dzZCSktuN1FGdHF3Y2NLZmQyam5jRk9kNS1NRjUzSm1waGc3SnB1a1ZCcU40c1gwdDdEOUFZRlRtN2RpTXNTdmxiUGhvbURvVEdLcmhJQkk2SlNaVXpZR05BXy03dw",
@@ -3312,7 +3310,9 @@
     "CBMiswFBVV95cUxPWUo4dzkyS01VSXBwXzNnNElnSmxrWXMwVkl2TTRscFVaZS01NDF5eVRkS0V6MjJNRjJmNjhxM2FBUTZ0RFhmNzBpWWw3cnhDNm1jdzcyTF90SVdMQTBzQVAzejFaRElmV083R3NTajZocEtJaW9TTjIybWJvTmtBS3kxVW9oX0VVR0x3ZmVYQ1pyTmR5NDBPVHp2TUJ2cHk3MzZpeUF5LWNydkxJaVREQkhSUQ",
     "2090059362660192672",
     "CBMijwFBVV95cUxQckRTNEVDeXhteGMzVVM0T0tFZWxyM0VMLUFzVGp3c2JrUjRpckVoRnRGdDI4M3hRUkU5QjJEdWIwMHc3VnRLQlV1YzlIVWlqcUFVWHowTnNzN1BRY1dld3k4MndKTFo0UEpQc0V5Q0RXM2pUOWxmZGlCQ0RUMmNpWmZhWGJsa0J5c3dqU0VUbw",
-    "2090060003495288983"
+    "2090060003495288983",
+    "CBMiigFBVV95cUxQbzJGQWtYLUQ5T2dsU3hIVkVFR1MwRkxUamxEb3V1RUVKS2JfeGhEa2NwdDZmUkJIN2FEU0ppU0tVZ1ZscDlFbVRRb1JRWTl3Q0pWckRwN1FjQUlSNV9nd0VVYXAyRUJLcHVBTlAtUGdHZ3QzdlFTZ1QtU2tDZjZGcmNvbmE1LU1vYkE",
+    "CBMibEFVX3lxTFB0UGtyS2tKbHZZWGhQWjRFbTRhVklsRlhZdGk5dGdSTGpOR0dkanAxLUtBekllbWZEaF82U01yNXlhei15NUdKcXJhdkpvcXNHbGs2TW84bVJrYnNIZUZwdFRzdDUtMk9WYXdEaA"
   ],
   "daily": {
     "d": "2026-08-19",
