@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 332 adds four bouts as Salt Lake City card takes shape",
-      "ts": "2026-08-19T05:39:43+00:00"
-    },
-    {
       "t": "Arman Tsarukyan says controversy is ‘important’ for ‘boring’ fighters",
       "ts": "2026-08-19T06:34:50+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Edson Barboza Reveals Serious Eye Injury Led to UFC Retirement",
       "ts": "2026-08-19T17:35:10+00:00"
+    },
+    {
+      "t": "Chris Weidman Isn't Sold on Makhachev's GOAT Claim",
+      "ts": "2026-08-19T17:39:03+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Usman Nurmagomedov Wanted to Turn Back Clock at UFC 330",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLWhxZ1FzWmNIN0dLUW9aRDFBUDhSMkRhTmxhaXlLZm5FMTFLREQtbl9wVzF3Q0Y1ZU9jVm5TWEczRV8tR0FxSUJHd1JOTm03a2pTQ0I0b290SnhDTlNQQnE2cGFUY0ZXR3dNS01ndEd3QXM5RHNRSDhtdHBtTXNNVWpuM0lZMTBxRWVXYTZaOE5qOWw5TEUxcVlYX2lSWVhyRFJ0NUd3SHFLZDBPN3J1a1pLWGp4a25LeEVITVM5ZHlLVEMzcVE?oc=5",
-      "source": "mmasucka.com",
-      "cat": "ufc",
-      "ts": "2026-08-19T17:24:03+00:00"
-    },
     {
       "title": "Carlos Prates Trashes ‘Boring’ Islam Makhachev",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYV9NZkc0SG9zLVZyU2JiZFJDX3A0M1AzdDJiOWZ3djBjREVMS0hiWGdGZlVieGJPZXVuYUdNeWd2R1FHNWdtNHoxRi1TSHg1MkthbzZaWXRUc3QxNlZmcGJjQzd3NFpvbFYyOUgwTVFZTU9mNEFHdXlUTzJIRzk0WXFqY3JTemN1NUpN?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-19T16:47:54+00:00"
+    },
+    {
+      "title": "Chris Weidman Isn't Sold on Makhachev's GOAT Claim",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY2lDRmxLMmU5X25kRmxXd01tZUdhSWdnd2tUNi1nV0VtN2dpck9VZEtpZ1lURWU1RFhWZDlnYWxLS3dxRHRVM184UFRnMWdXdDVBM21jeEVlNTZnNDB4eG83eVZGZDYtZ1R0Mzh3c2x4bkNnSVE5aEhPYUpoM1Z6eVRvYnJzVEluV2dTODFVdlZqUkxIblBTQ0ZEekxQVDZoOUF3aEx3?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-19T17:39:03+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMimwFBVV95cUxPeGRhdVN4YlQ1c3g2MzcybDkwWjZZc2o5Q2I1QkdHYmJDT0xUOUp6Ujl2a2RveXFFbkFfM3JBWTVLbXFLeUszSnJtSmc5T3VtQkk4R2FuZDkzYWQwVTJsbzNTek12N1NwYndFN2hFX09EZnJTRUlvMU1vdjJrekY1YURuZG5pWURFaHBpRmlfOGhjZnVhRENYaWhpdw",
     "2089410290660024402",
     "CBMitwFBVV95cUxOS25uc1BCRllOWnFfWktPbUNab2Q1UjBlVzZHNmc3SDdvRzkxZGIzcVd6Y2gyMU5qbEw1VFNoUWpEeENUN2F6c2oySEdaazV5cWQ3aDFNQzFnZnBWME9GdGxURmNOWkgtRlI2UklsbmsyVkZrNWRsc1VxcTRZUXQzQ0JrSGR0c3JVYUN0anhmYnZvalRfY0xmdnFJQTE2ZVZTd0YwVy1MMnJiRkxQVUxabW1UVHlydVU",
     "CBMiiwFBVV95cUxOcEZMM0NpaTVUcDFjM2VJNmlMUWNVSzFfVjN3YkRmZU94Q1I5LVFzVllna1ZtN0FjbHVwMVFBTlQ1SWFOSm1xb3g2ZnljQXpqdXdQZ1NLNkY4a0lLZXdDcGVMTjRJbkpVaWpyaE9DVVBoVDh2eFpUTWtZaUZNRWRaZmp0NWhmenNlVFFN",
@@ -3312,7 +3311,8 @@
     "CBMirgFBVV95cUxOLUlzN2xlM2VtdThENEJUQWpzbXgxMXhiSjBxR0RjUERqTjgwRU14dTFybGhKTmJURlRqdDk2WDdyeXF0SEk4dFRyYnJWb1RURHhvMEdPYWpfa3RaRUVId3NiYjFwak1vR1pxUFdaZTdPM1RneG5oblJyaVdhLTB2QjI5OXlBRS1ia0E2NWNRQktsaFFZa05LaWVMdUE2aHVad0RxMmcwZDVVS3RQN1E",
     "CBMirwFBVV95cUxQTGZ2QVlweGZUQXlLMlZhVkgwM0dzVmswakNyUHNYc1daTWFKel9YMEstUzR0ZHB0dDhHRVZuWHpMd3JhLUZEOUkyUGszOGZsVmFRVDF3NWZLTTdaYjRMSXVfX016TE9iQ0pDUURZWlFtd0t6LWxVSTNTT2xwQjNlMTRLLWVMME8wRGZGTldDdkJjaS1WWkltX1BrV2JDSzJ3Q3NoTHBUd1JxZVNMUjdJ",
     "CBMiiAFBVV95cUxQV2cxWlNQWXprUXNfZktlZEt5OWNzRFl6ZWxWY1d2ZTFJdTllaEY5MVBqX2pldWxWVmNwd093b3VERkxnS21mNW5ZUGIwNUluMFQwZXBtWkJsdXVvVTVnWHJJSTVkN0wteGM3MEtGTlpobWwwaGZvbHNtQzl0NVF1RENjRElMdm8y",
-    "CBMieEFVX3lxTE42ZUZJRkQwYkd3NWppQkdyVEpDWWU1R2FPZUpoVjd5aXFzR0JjdFpTSUM0MU54Yl90WkhVWG80MkZRUjJ6bVVnMGVieGZCbVBOM3laTkVXMUExMUN1eDdWUUZuTS1JUXlLSGhJZG9NdWpyQWN6akZ0bw"
+    "CBMieEFVX3lxTE42ZUZJRkQwYkd3NWppQkdyVEpDWWU1R2FPZUpoVjd5aXFzR0JjdFpTSUM0MU54Yl90WkhVWG80MkZRUjJ6bVVnMGVieGZCbVBOM3laTkVXMUExMUN1eDdWUUZuTS1JUXlLSGhJZG9NdWpyQWN6akZ0bw",
+    "CBMipgFBVV95cUxOY2lDRmxLMmU5X25kRmxXd01tZUdhSWdnd2tUNi1nV0VtN2dpck9VZEtpZ1lURWU1RFhWZDlnYWxLS3dxRHRVM184UFRnMWdXdDVBM21jeEVlNTZnNDB4eG83eVZGZDYtZ1R0Mzh3c2x4bkNnSVE5aEhPYUpoM1Z6eVRvYnJzVEluV2dTODFVdlZqUkxIblBTQ0ZEekxQVDZoOUF3aEx3"
   ],
   "daily": {
     "d": "2026-08-19",
