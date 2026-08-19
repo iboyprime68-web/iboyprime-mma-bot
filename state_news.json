@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Beyond excited to have Canadian legend Adam Copeland on the show today. First time one-on-one. Been over 24 years since I waited in line to take this…",
-      "ts": "2026-08-18T13:04:08+00:00"
-    },
-    {
-      "t": "Khamzat Chimaev sends a message to Dana White when voicing frustrations over UFC return",
-      "ts": "2026-08-18T14:00:00+00:00"
-    },
-    {
       "t": "Kamaru Usman convinced he could beat Islam Makhachev: 'I'm telling you guys'",
       "ts": "2026-08-18T14:30:39+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Cris Cyborg walks back retirement talk ahead of #PFLTampa (via @thegoze, @MMAJunkieGeorge) https://mmajunkie.usatoday.com/story/sports/pfl/2026/08/18…",
       "ts": "2026-08-18T23:31:18+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan says controversy is ‘important’ for ‘boring’ fighters",
+      "ts": "2026-08-19T06:34:00+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan thinks Charles Oliveira has new opponent",
+      "ts": "2026-08-19T06:52:03+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Not afraid of a lil' contact 👊 Namo Fazil & Kaik Brito are going back-and-forth in RD1! [ DWCS is LIVE NOW on @ParamountPlus ]",
-      "url": "https://nitter.net/ufc/status/2089880997131415634#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T01:03:52+00:00"
-    },
-    {
-      "title": "DWCS video: Trent Miller sleeps Douglas Rodrigues as biggest underdog on card https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/18/ufc-dana-whi…",
-      "url": "https://nitter.net/MMAJunkie/status/2089881455384015234#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T01:05:41+00:00"
-    },
     {
       "title": "WHO WANTS IT MORE?! Namo Fazil vs Kaik Brito [ DWCS is LIVE NOW on @ParamountPlus ]",
       "url": "https://nitter.net/ufc/status/2089881962052014410#m",
@@ -2105,6 +2091,20 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-19T06:11:57+00:00"
+    },
+    {
+      "title": "Arman Tsarukyan says controversy is ‘important’ for ‘boring’ fighters",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZHFxdkZ5TTNxSkE3b3dlOENFcWhlaW5IOUdPUDlXT0RQNEJmN1ZLTmQtMm5ZM2pqRld1aURNNzB4SUpGUjJhTi12bmhsYmUzUllONGRnczRQUG1fWk5fVVExVkRNTFNvMWVRVkVxcV81enZHcDJKUkYzTDNjUXluaVN2LU1NVUdCck5WVnpWaFZ0Qzhyb2c?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-19T06:34:00+00:00"
+    },
+    {
+      "title": "Arman Tsarukyan thinks Charles Oliveira has new opponent",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQkVSSFEyLTZjMDJETmlRTDZ5QURxdm1sX3VMQnpCTDhJcWZadUpBdDJlY3EzVXVTM0t5YkdMLWVhUUFEdGdNcV9CQW5JVFZ5bVhGWWI2Z1RjNkhmOEtPaURjYkRGNzdBVWxlRmpNRkYwWnpqZnl1V1pPTXdBc2ZIN0FXWEhTTTVZTlRzYzBxYjQyNjdKRk95WTlJZlpNb2JEcmRhemdqWEtUY0dCNXhtNQ?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-19T06:52:03+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMikwFBVV95cUxPUndSWUtwZjlvc2JUSGg4SlIxTzVfNllvbWpQNzgwaDFLZkNMcUxXSmVHUExtVDEyRmxWNGRBYW95Rnc1MTNlMDBFNF91bG5WblhCR0xPczZseWtweTNuUEJvbVQwMGNlamFUMU1vQURsMkJRY3F1UjN1OHR0a1dZWWhRNjIwa2pqYUt3empxTUVqdkk",
-    "CBMiW0FVX3lxTE1xcGgySmhhSm5vNlNPT25VWmw4bUNaQ0xlT2dOQ1d0STdHbjFXUExWRS1NRTd5Tmx3bUUtSVN2OWhuZUlCZ3Q2aWh4MERkb3QxTlEwanBjaExyTXM",
     "CBMib0FVX3lxTFBtdFhBMzBJek44SG8tRkV1QmluWUFZVTRaVzgtNmZsZXZGd3ljazJkdHU1REpfZjFsTHVpVUdVa2puTUYxemVXM3k5aHRHSTJqQk9ySXRRZmt0X0ZDUVVLTUE1WjJIc2tQU2wzZW9VNA",
     "CBMihwFBVV95cUxOSW9LeGdCaGFqaGtHYmJFSnhnUW5pdGg5Ym5vVFZVMG9NZkE5dTN2bkpQTHlCRHR3dnpON2M0OTFoSEs2alB1cE5RRDc5T2N2NGlyeFpfX1NuM1Vub21XU1FjVmVoQUVDX28tcTBuMkJBUGw5bXdHREV0SjF2b2Z0cmg5ZWp2TUE",
     "CBMi-gFBVV95cUxNUWs1QUZSSG5WX0E4WHNLR1pPUVV1TFZJUGJfcHhYYW9GRHFWMWZDWFdSR1UyQk1Bcll5c0xaSk9tNWlNb2dyY05jNUxmbFdWLUdndWhIcTRDYkpGc2hKaHRfRjM1WEY0OEpyUmhVWW4xNUJsd3lHVTQ0bzNHRy1RSlhSb253QmlQRjV2TTZ3M2dabzRwOWRyVmVzV2VnMlB3MXhWbUN4ZVNxOFBfUV9jbHhTMExxbG1kN3dXTGZIVWxES3JOekNYME5kVDVhX1NfVVVVaGxTRXlQdklNMWt5RWMwc3dRRjFkTjRYS05iNndCYlhvSi1rUlVn",
@@ -3312,7 +3310,9 @@
     "CBMiekFVX3lxTE5GNHowazBtb1lqQXBMa3VUZG5wSDZ6ZmhKd2dQaWtrYjRxdzczZ2tjZGNFa0ZhMDZUZ1V4SHUzSnlfTk5QT3hwR05jZmpQQW5yVEprMlhRd08tcHVuMGZlWlgyWkVJZV96U0MwbnZqMV9uRmc3cnptV2Rn",
     "CBMikgFBVV95cUxPYlVsMlZwcWhqVVd0UlpsYmltblFRQXZ4czdwc0d4bUdjNXRVLURaSHpOYjh5RWhqeHpaWnR0QTlyMkU1dXJSMTd0RUlTY0F0bmQ3SkVPOFZqVVFDYXpiTS1XZEMwQ0VZQk1aOWUxODVlbEQ1Y2c2Z1h6eW5xejMtN1NDdzZPRWRtX0tkRWhVN1Fudw",
     "CBMiVEFVX3lxTFBWRW4zZzBOSWJGbFhwNTNsUXNaeEVBNFB0SEpNRkxMT0JmQnJLNHZVdTJPNGNHRkhvRXF4T2dSWlZaZlRkTzJ1UFNmNGFZT2x4V0gyZg",
-    "a574b934-2fb4-3edb-a285-67d4243eb86f"
+    "a574b934-2fb4-3edb-a285-67d4243eb86f",
+    "CBMilgFBVV95cUxOZHFxdkZ5TTNxSkE3b3dlOENFcWhlaW5IOUdPUDlXT0RQNEJmN1ZLTmQtMm5ZM2pqRld1aURNNzB4SUpGUjJhTi12bmhsYmUzUllONGRnczRQUG1fWk5fVVExVkRNTFNvMWVRVkVxcV81enZHcDJKUkYzTDNjUXluaVN2LU1NVUdCck5WVnpWaFZ0Qzhyb2c",
+    "CBMisAFBVV95cUxQQkVSSFEyLTZjMDJETmlRTDZ5QURxdm1sX3VMQnpCTDhJcWZadUpBdDJlY3EzVXVTM0t5YkdMLWVhUUFEdGdNcV9CQW5JVFZ5bVhGWWI2Z1RjNkhmOEtPaURjYkRGNzdBVWxlRmpNRkYwWnpqZnl1V1pPTXdBc2ZIN0FXWEhTTTVZTlRzYzBxYjQyNjdKRk95WTlJZlpNb2JEcmRhemdqWEtUY0dCNXhtNQ"
   ],
   "daily": {
     "d": "2026-08-19",
