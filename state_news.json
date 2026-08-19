@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS 10, Week 2 Post-Fight Press Conference",
-      "ts": "2026-08-19T01:48:23+00:00"
-    },
-    {
       "t": "Dana White Signs 6 New UFC Fighters After Week 2 of DWCS",
       "ts": "2026-08-19T04:28:28+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Edson Barboza reveals the eye issue that led to his retirement and credits Herb Dean for saving him at #UFC330. \"My last fight I don't want to be in…",
       "ts": "2026-08-19T16:26:41+00:00"
+    },
+    {
+      "t": "Fans to get refunds after The Corrs cancel Abu Dhabi concert",
+      "ts": "2026-08-19T16:45:59+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Coach disagrees with Dana White's 'killer instinct' criticism of Ian Machado Garry",
-      "url": "https://sports.yahoo.com/articles/coach-disagrees-dana-whites-killer-184028023.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T18:40:28+00:00"
-    },
     {
       "title": "Islam Makhachev Reveals Ideal Return Date Following UFC 330",
       "url": "https://sports.yahoo.com/articles/islam-makhachev-reveals-ideal-return-185825681.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-19T16:38:11+00:00"
+    },
+    {
+      "title": "Fans to get refunds after The Corrs cancel Abu Dhabi concert",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVm02QlMySjI5b3lSU2ZkTGp5bFV2WGUwcERjWjRUeVJ6VDVvVXVLajdoRXo3NzFmYXRaRk5oM3Y0a1BVRklqZjNBbjZ0dnBKdnEtTGhuSzVuSEk2VkcxckdhNFUyRngyVmZhTERvcXNlZmU0VDZNa0ZiYWk4WGx1QnVFb0Vna2hhXzUzQ3Y5ZTNNZW1KU2p3dldTT0dSdmhPLVFWYXpQcGZXRmhHX2JCQ2dPTdIBxgFBVV95cUxOQjlua0RTenJGYkQzRWZLUm9rQUNfSks0dEVhZHM4VHI5cUp3QWNqQmxTLVdBWVRseDd1MWlrSVVFMWVQSjl3eVNMT24xVXZfU1lPblhUZWhVYkE2MHBTNjBxMHZyakxpODdTUURCU1FjMnBwTE9TMmZRMlc5ZXRndWd6UWhVWGlBcEZCZFZqWHhhaGU5YllCVm9SanFnSmVoaHczM1V3SnNDYkZRaVNkekZSQnlmUG5wS1I2SjRycW9JWV9xbmc?oc=5",
+      "source": "Gulf News",
+      "cat": "ufc",
+      "ts": "2026-08-19T16:45:59+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     12
   ],
   "yt_eval": [
-    "2089397424662134984",
     "CBMiYEFVX3lxTE8tYjM4MDQzT2xITmNmU0VCM3gtaWFqY1ZYVnNMdHJBNnVnbE5Xbm0tVWlhdVdrcEI2ZF9NdnkzLUhyelZkQkljUl9vSjVaYVc1R3FBc2hBWkdmMWVObUVZMQ",
     "2089398327682961794",
     "2089399453392257526",
@@ -3312,7 +3311,8 @@
     "2090092134695383351",
     "2090110447189885333",
     "CBMisgFBVV95cUxObTA2dHBvS3dFdG5Ea3lIaFlfUm9ybzY5b2N4MXNQRFExbW5PSUVGUk1wUXNQNWF6a0dfTGlObGlPV2hYZzJIcGt2d2d4SkN0bUYzRUtzb0g2NTFYWHZDMWljRG5LaUNiLXMwWVVyS2NVSkNQMm5ZMnFabEhCUWNlM1N1MHBmS29VMWdkRDdTSHh6czZZWnRhTVM0ZnZvS3V5TmhzMDZkalRLTFN1ZHRHVDd3",
-    "2090113230366494940"
+    "2090113230366494940",
+    "CBMiswFBVV95cUxQVm02QlMySjI5b3lSU2ZkTGp5bFV2WGUwcERjWjRUeVJ6VDVvVXVLajdoRXo3NzFmYXRaRk5oM3Y0a1BVRklqZjNBbjZ0dnBKdnEtTGhuSzVuSEk2VkcxckdhNFUyRngyVmZhTERvcXNlZmU0VDZNa0ZiYWk4WGx1QnVFb0Vna2hhXzUzQ3Y5ZTNNZW1KU2p3dldTT0dSdmhPLVFWYXpQcGZXRmhHX2JCQ2dPTdIBxgFBVV95cUxOQjlua0RTenJGYkQzRWZLUm9rQUNfSks0dEVhZHM4VHI5cUp3QWNqQmxTLVdBWVRseDd1MWlrSVVFMWVQSjl3eVNMT24xVXZfU1lPblhUZWhVYkE2MHBTNjBxMHZyakxpODdTUURCU1FjMnBwTE9TMmZRMlc5ZXRndWd6UWhVWGlBcEZCZFZqWHhhaGU5YllCVm9SanFnSmVoaHczM1V3SnNDYkZRaVNkekZSQnlmUG5wS1I2SjRycW9JWV9xbmc"
   ],
   "daily": {
     "d": "2026-08-19",
