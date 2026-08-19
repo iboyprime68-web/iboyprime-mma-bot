@@ -297,8 +297,17 @@ def main():
         state["recent"] = state.get("recent", [])[-MAX_RECENT:]
         state["digest_items"] = state.get("digest_items", [])[-MAX_DIGEST:]
         state["yt_eval"] = state.get("yt_eval", [])[-MAX_SEEN:]
+        state["staged_hist"] = state.get("staged_hist", [])[-ytposts.STAGED_HIST_CAP:]
         common.save_json(common.state_path(STATE_FILE), state)
         common.persist_state(STATE_FILE)       # durable now, so a crash won't re-post
+
+    # Set whenever maybe_stage touched state (yt_eval, budgets, staged_hist);
+    # poll_once's save gate reads it. Without it, a cycle whose ONLY event was
+    # a staging (e.g. the news post itself failed, or realtime is at the hour
+    # cap) ended with posted=queued=skipped=0, save() never ran, and the NEXT
+    # job re-scored and re-staged the same story - a duplicate studio post,
+    # the exact class the staging memory exists to prevent.
+    stage_work = [0]
 
     def maybe_stage(it, cat, breaking, cfg):
         """Score a new kept story and stage it for YouTube when it clears the
@@ -312,6 +321,7 @@ def main():
             if it["guid"] in state.get("yt_eval", []):
                 return
             state.setdefault("yt_eval", []).append(it["guid"])
+            stage_work[0] += 1
             scfg = scorer.scoring_config(cfg)
             scfg["breaking_keywords"] = cfg.get("breaking_keywords") or []
             today = common.now_utc().strftime("%Y-%m-%d")
@@ -335,8 +345,26 @@ def main():
             sit["line"] = res.get("line", "")
             sit["hot"] = res.get("hot", [])
             sit["emphasis"] = cfg.get("emphasis", "auto")
-            status = ytposts.stage_story(sit, score, why, cfg_bots, cfg)
-            scorer.spend(state, today, "staged")
+            # the staging memory: rehash junk, stale stories and repeats of a
+            # recently staged story/subject stop HERE (the news channel already
+            # posted or skipped this story on its own rules - this gate only
+            # protects the studio queue)
+            hist = state.get("staged_hist", [])
+            now = common.now_utc()
+            ok, why_not = ytposts.stage_gate(sit, score, breaking, hist, now, scfg)
+            if not ok:
+                print("  yt: gate skip (%s): %s" % (why_not, it["title"][:60]))
+                return
+            res_stage = ytposts.stage_story(sit, score, why, cfg_bots, cfg,
+                                            hist=hist)
+            status = res_stage.get("status", "")
+            # only a post that actually LANDED enters the staging memory or
+            # burns a daily slot - a Discord blip or a missing studio channel
+            # must not cool down the subject, and six failed posts must not
+            # eat the whole max_staged_per_day budget on nothing
+            if res_stage.get("ok"):
+                ytposts.remember_staged(state, sit, res_stage.get("img", "none"), now)
+                scorer.spend(state, today, "staged")
             print("  yt: %s [%d] %s" % (status, score, it["title"][:60]))
         except Exception as e:
             print("  yt: staging error (%s), news unaffected" % type(e).__name__)
@@ -449,8 +477,9 @@ def main():
                                              it["source"], it["title"][:70]))
             else:
                 print("post failed (%s), will retry: %s" % (code, it["title"][:60]))
-        if posted or queued or skipped:
+        if posted or queued or skipped or stage_work[0]:
             save()
+            stage_work[0] = 0
 
         # ---- daily digest (catch-up: a delayed cron posts late, never twice) ----
         if mode in ("hybrid", "digest"):
