@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504497",
     "https://www.mmafighting.com/?p=504507",
     "https://www.mmafighting.com/?p=504524",
     "https://www.mmafighting.com/?p=504532",
@@ -1034,6 +1033,7 @@
     "https://www.sherdog.com/news/news/Josh-Hokit-defends-controversial-statement-about-Michelle-Obama-201633",
     "https://www.sherdog.com/news/news/Josh-Hokit-lobbies-for-Herb-Dean-to-ref-potential-fight-vs-Ciryl-Gane-201635",
     "https://www.sherdog.com/news/news/Josh-Hokit-speculates-that-Ilia-Topuria-beats-up-training-partners-201628",
+    "https://www.sherdog.com/news/news/Joshua-Van-reflects-on-knockout-loss-that-changed-his-life-202427",
     "https://www.sherdog.com/news/news/Judge-denies-restraining-order-request-to-shut-down-UFC-White-House-event-201499",
     "https://www.sherdog.com/news/news/Justin-Gaethje-dismisses-immediate-rematch-with-Ilia-Topuria-201600",
     "https://www.sherdog.com/news/news/Justin-Gaethje-unlikely-to-fight-again-in-2026-201586",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Watch Kaik Brito deliver all-time KO on Dana White’s Contender Series",
-      "ts": "2026-08-19T02:28:20+00:00"
-    },
     {
       "t": "Dana White awards six UFC contracts after historic DWCS Week 2",
       "ts": "2026-08-19T02:52:53+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Edson Barboza's retirement came down to a simple reason",
       "ts": "2026-08-19T06:07:02+00:00"
+    },
+    {
+      "t": "Joshua Van reflects on knockout loss that changed his life",
+      "ts": "2026-08-19T05:49:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Fans unhappy with rumors of UFC 332 interim title fight: ‘UFC has fallen into state of disrepair’",
-      "url": "https://bloodyelbow.com/2026/08/18/fans-unhappy-with-rumors-of-ufc-332-interim-title-fight-ufc-has-fallen-into-state-of-disrepair/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-18T23:00:00+00:00"
-    },
     {
       "title": "Dana White gushes over wild Contender Series KO as he awards six UFC contracts from just five fights",
       "url": "https://bloodyelbow.com/2026/08/18/dana-white-gushes-over-wild-contender-series-ko-as-he-awards-six-ufc-contracts-from-just-five-fights/",
@@ -2105,15 +2098,21 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-19T05:39:43+00:00"
+    },
+    {
+      "title": "Joshua Van reflects on knockout loss that changed his life",
+      "url": "https://www.sherdog.com/news/news/Joshua-Van-reflects-on-knockout-loss-that-changed-his-life-202427",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-19T05:49:00+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
   "hour": [
     "2026-08-19T06",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMiW0FVX3lxTE5fWW00TlZKUnhFUFY1ai1FQVVfaEVWdXQtUF9pMHNnOTRGbjBKSDlzYVFOVUNxOWhSWG1nbnJWa09Ja1ZTdVFBd0xhUGlpM0kzUFZMaUx2eHBEbmM",
     "CBMiowFBVV95cUxOYzFVY0szZ1VJdFM0LWczX21vMzI4TDRud3hOUi1VOEtaREVLSXZ4UFdxSC1JVjdRWjlleGREd3FlRTZHYVJHOXVGZlg5MkVTZ29YSDA3bTRJLWM2cmxTVE5wSHpfTlhUZ2F3T2dVbHI0d3FhaUtjc0k1Qmg5ekpTQmVuRVBqcU9Lbl9uUzdrMlJfOUdXZERxdHI0cTI4dWtPdWVV0gGjAUFVX3lxTE5jMVVjSzNnVUl0UzQtZzNfbW8zMjhMNG53eE5SLVU4S1pERUtJdnhQV3FILUlWN1FaOWV4ZER3cWVFNkdhUkc5dUZmWDkyRVNnb1hIMDdtNEktYzZybFNUTnBIel9OWFRnYXdPZ1VscjR3cWFpS2NzSTVCaDl6SlNCZW5FUGpxT0tuX25TN2syUl85R1dkRHF0cjRxMjh1a091ZVU",
     "CBMiowFBVV95cUxNM1lVVWdPamZ0X0hQRUtodTRPMWlESXBYN2tnSFdWdW1wZlluUG1iVU5zRDA2Z3VZb1dDQ3FVOEJOS3k2c1BzYmsxc1BDcTg3RFhUWVVqd2I4VGVWd0drSHNoWWh0Mi1ySFBBdDVJVVJxVUl6T2dlWGMtMDZ5Y2J2dFcyNm1uYkYycURTZy1EV1Z5MFVuWE1xNWkwcHNJdTR0aVJR",
     "CBMi1gFBVV95cUxOMHhvY0pOb2V0MEJ0Vk5DcnVsQWItZElhZFoyb3ZqX1AxVXQ2VzJlOWUzejk3dXFnS05POV9UOGloWWVNb3FMWFozamF3eHdIa3MwdHFJZk9uNFg2eUpzVkgwT3lVR2dkcGtxd3hRTC1OWDRfR08yMHNoRUdETHNVdTRuM0xST2xPdmFQRkxOcFd6R3V4aUYxVTlCWjJtSy16SG5jR0hHSDZkWHV5MEpRUFhUdWpnVDluZXM3ejlZTVQ0T1lJQi1zcElqd3R5VkhNOTVCX0ln",
@@ -3312,7 +3311,8 @@
     "CBMigwFBVV95cUxPWktxV2ItUGd0NFQzWlNKTVZ3MWNkeGNMOGhyOE5DY0hBUlp0YTQwTlotNGZJYW9PNHNZNU1tY3ZHcG5QcmNlbU1zS3FNcnZDd2N3ci1CaDR5QkJkRlFWcW8ybHBHbGp1VVA5b2pJMk9rWEltLVFfNk1tcjNxd3RHZjgtOA",
     "CBMimwFBVV95cUxNa0RvdW9lRDNQWDdveUM5ajdiVkp4N0s1VUtMTmNCVElKdTkxM3ZvaDJ0bHB1bVlaeEpOd3RhRlMxSGJsSkVYa20yZnNRU0hxNEpyTTFLYVFlb2Qyb2pqTmtwTmpEOXRzczlNdnVidDRPQ3BReGN2R3IwclBqUG1MbFNDY2RYeFdaNmNvM1Nxb3lpdFBObC1fYVI5aw",
     "https://www.sherdog.com/news/news/UFC-332-adds-four-bouts-as-Salt-Lake-City-card-takes-shape-202426",
-    "CBMijwFBVV95cUxPYURnRGVmRlI0d3VvbF8zOVZfSk5Dd2RQcFF6RjZVcDh0ZkFHYWtsb3JSZmJ3TzNxTjdTTkMzQmR2S2ZKUXdhdkZUQl9jWXBhYjBvSmdjaHdod2hKeG90Q3VMNGxhNGVGRnNndzQzSUk3VUp0RnVKcWtsakdaNE1WTV9hVVVTWVdmLXl4UTVIaw"
+    "CBMijwFBVV95cUxPYURnRGVmRlI0d3VvbF8zOVZfSk5Dd2RQcFF6RjZVcDh0ZkFHYWtsb3JSZmJ3TzNxTjdTTkMzQmR2S2ZKUXdhdkZUQl9jWXBhYjBvSmdjaHdod2hKeG90Q3VMNGxhNGVGRnNndzQzSUk3VUp0RnVKcWtsakdaNE1WTV9hVVVTWVdmLXl4UTVIaw",
+    "https://www.sherdog.com/news/news/Joshua-Van-reflects-on-knockout-loss-that-changed-his-life-202427"
   ],
   "daily": {
     "d": "2026-08-19",
