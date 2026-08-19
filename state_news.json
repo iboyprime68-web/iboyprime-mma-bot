@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White Signs Kaik Brito to UFC After His Hail-Mary Knockout of 'Zombie' Opponent",
-      "ts": "2026-08-19T03:12:40+00:00"
-    },
-    {
       "t": "'Uncrowned champion' of ONE pivots toward UFC through Dana White's Contender Series",
       "ts": "2026-08-19T03:24:15+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Paddy Pimblett Just Hanging Out in Philly After UFC 330, Having the Time of His Life",
       "ts": "2026-08-19T15:47:00+00:00"
+    },
+    {
+      "t": "Charles Johnson Overcomes Last-Minute Opponent Change to Win at UFC 330",
+      "ts": "2026-08-19T15:49:47+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Octagon girl Red Dela Cruz looks sizzling as she steals the show at UFC 330 as fans say 'you're unreal'",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1udkdXWGVOYk9xcWJrcGg4RGU0VjM0ajI3WGcwcWhzX0Q3VTJRZjNFcjNzNUJ1c2dJaEQyUlhGM00xQ0JTX29Pb0hZRFNFZ2dZd3ZGTEQ0NHZfSVU1RWpobkxTdjFQUkw0TV9mUHQ3S0k4eTlidmRYNkxpZFQ?oc=5",
-      "source": "the-sun.com",
-      "cat": "ufc",
-      "ts": "2026-08-19T15:22:54+00:00"
-    },
     {
       "title": "Georges St-Pierre's coach recalls insightful conversation with Khabib Nurmagomedov’s father about wrestling roots",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZ3VIVFBxejhiN0twTWNGQmJ3eXUtejIzMUxWNlJ5UjhvVUZ5b2JxNzBUNnJpLXowRFFteGVFZW1ZMTdMQUVtRmx6bWJZamV3Zkx4NXFqbDRBLXd2TkNXYVhuR0NLZV9kZ09TNWlhSzhINmJ0Uzc2ZmNUdGRBOWlwa1Z4UGNGczRoS2JlZzFrcXdoN2pHY1NPaV9QcWhlQUZYZThiY0MwWVR5dkI3ZS1Xd2hXS3FPcWdHOEEybDJXSzZjaEp5WmxSTWdnVEZabE5MZXBuU3JB?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Crossing Broad",
       "cat": "ufc",
       "ts": "2026-08-19T15:47:00+00:00"
+    },
+    {
+      "title": "Charles Johnson Overcomes Last-Minute Opponent Change to Win at UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOczBDeGtqNFdlSnhWcExpb0pfdktiWDd0TDFwZFd2SWRFM1VfcUtHNzloVHo5dXh0WWM4R0R5NGNwSHhweWxPemZxNFh4MEdsOTQyeklYVThNQXFGZS02MGlnd2FSWnJ0V2FienNFYUo0Nk5FN1Ywc3MxcHg2b0ZYOEdHQ0JfVkwwM1F6UXpfTlJkUUxhdFlhMFBaaW9iMTV4YUZSMG1VYXBVS2gxb0E?oc=5",
+      "source": "cagesidepress.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T15:49:47+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiigFBVV95cUxOcHNacjJCZGpKNkZjTXdiejRLTDcwY1hfeVc0ZGdsTVhCV2lXdHd1cFowa1d3NVZ1R2pLMWZtVEJxUXVvcHM0am9QWUFnVEJpSk1mNG9JQnpsRnhmWXpBTEtabTBfY1pEbnNXSlo0RHRVVUVPZ0RtVV91ZlplQnZpVFBOX05tSFl2VkE",
     "CBMilgFBVV95cUxNaXYxaXRISkZJcldBOHFQaVhkS216U0M3ZzZncUdlRmNNVUU1SW0wbHcwOFBvcVpTc3N2VnVWbXhuZWxBMWRlNHBhQ0xEX29KNDQ1bGNJQ2tCLVNjdHFSV3lOVVdCNmo0Qm5rQnlDQkltQXlLWklaV3pQUjhYd0hLQjN3TzYtNHZWSkExMmM2NldteE9DdVE",
     "CBMijgFBVV95cUxNQWZkSGtnbEF6NG4tQW51TlJKODY5NHVHZHo0UE8wQWNIN005Zld5U3JBR3djTVJsSVZiM1RJOWUzUUpnSUc5V1lCTUgyNkFXYXc1ZHRodkg0WmFUZTVxSDM0XzJReHIyaHlKeWRfWWRDcWV2cnk0Qk5SQW1ZMzRKdzk1UE5PS1RDQk5IQ3pR",
     "CBMihwFBVV95cUxQYmUzMTZaYnNLa2xqeWpCNXRMOEFuMm8tM1JNanpqY1V3Vm5QUU5qZXFucERuNXJxS1ItcVVGNFVjZ1RwaHlKd2g4Z1E2MmpVR3preS1OUXJKdVI2eFBGTUZsT3FadUlmZEYzUC1LV0RFcThfQndXeFRTTXpqS1p1VzZKUlBrTEE",
@@ -3312,7 +3311,8 @@
     "705ec0ea-ba2c-3171-9ede-e9e49c4e7490",
     "3ca12a8d-4b29-32f0-9ee3-0742e1ef7ecb",
     "2090098968445276581",
-    "CBMixAFBVV95cUxQbVU0ekFHaFBWeGVtU0lwVm1PTkxiQ1NqVzFQTTV1bnhMb3RuZ0JRSDN4M0RFLVZTNmxaM0ZZandibXMtQ3pad285NUpBQ2tRRmNPMVUwNy1ZN3FVSm9VTGI4Unp1Q2xXQy12UFlPSGRLQ1V6RTE1QW1md3pDMUZ4d21Gc2kwVFIxR19GRDJlcjltaE1xVU9CT1hfam1OZUxvRE1oZzc2N2otMFF6SEZkQXJLV2Nwdmw4UTlFcllyQl9QM2l4"
+    "CBMixAFBVV95cUxQbVU0ekFHaFBWeGVtU0lwVm1PTkxiQ1NqVzFQTTV1bnhMb3RuZ0JRSDN4M0RFLVZTNmxaM0ZZandibXMtQ3pad285NUpBQ2tRRmNPMVUwNy1ZN3FVSm9VTGI4Unp1Q2xXQy12UFlPSGRLQ1V6RTE1QW1md3pDMUZ4d21Gc2kwVFIxR19GRDJlcjltaE1xVU9CT1hfam1OZUxvRE1oZzc2N2otMFF6SEZkQXJLV2Nwdmw4UTlFcllyQl9QM2l4",
+    "CBMirgFBVV95cUxOczBDeGtqNFdlSnhWcExpb0pfdktiWDd0TDFwZFd2SWRFM1VfcUtHNzloVHo5dXh0WWM4R0R5NGNwSHhweWxPemZxNFh4MEdsOTQyeklYVThNQXFGZS02MGlnd2FSWnJ0V2FienNFYUo0Nk5FN1Ywc3MxcHg2b0ZYOEdHQ0JfVkwwM1F6UXpfTlJkUUxhdFlhMFBaaW9iMTV4YUZSMG1VYXBVS2gxb0E"
   ],
   "daily": {
     "d": "2026-08-19",
