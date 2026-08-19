@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504464",
     "https://www.mmafighting.com/?p=504477",
     "https://www.mmafighting.com/?p=504497",
     "https://www.mmafighting.com/?p=504507",
@@ -915,6 +914,7 @@
     "https://www.sherdog.com/news/news/Dana-White-Craig-Borsari-working-on-next-unique-UFC-venue-202329",
     "https://www.sherdog.com/news/news/Dana-White-Tom-Aspinall-would-have-fought-at-White-House-if-healthy-201479",
     "https://www.sherdog.com/news/news/Dana-White-addresses-Alex-Pereiras-complaints-toward-UFC-White-House-officiating-201601",
+    "https://www.sherdog.com/news/news/Dana-White-addresses-Khamzat-Chimaevs-potential-UFC-333-return-202425",
     "https://www.sherdog.com/news/news/Dana-White-awards-six-UFC-contracts-after-historic-DWCS-Week-2-202420",
     "https://www.sherdog.com/news/news/Dana-White-backs-Bella-Mirs-UFC-Olympics-and-boxing-ambitions-202332",
     "https://www.sherdog.com/news/news/Dana-White-denounces-Josh-Hokits-derogatory-remarks-toward-Michelle-Obama-201534",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Belal Muhammad on Ian Machado Garry at UFC 330: 'What's with this hugging?'",
-      "ts": "2026-08-18T22:00:51+00:00"
-    },
     {
       "t": "Forging 'Warverine': Logan Paxton took a cross-country path to UFC opportunity",
       "ts": "2026-08-18T22:27:43+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Commentator drops Surprising Claim about Islam Makhachev’s Dominance",
       "ts": "2026-08-19T05:01:59+00:00"
+    },
+    {
+      "t": "Dana White addresses Khamzat Chimaev’s potential UFC 333 return",
+      "ts": "2026-08-19T05:06:27+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Conor McGregor's Next Move After UFC Almost Guaranteed",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMzRmalJQU0h3UUpSVUdTM1pqTVl1RXc2VGFfQkNnVGdpcXdmLXMxcnNxS0FOT0IzX3diTE14WTF0aE5tVk00bE9BZU8zRFAxN1dVeHJraDVraEZ1VUQwTnhhVm9PUVRnaGRxNE5EZ1JZYzBNM0tqM2l3OWhVSU02ZUJnc3pqSXpHR0hoR1A2VFVmak1RdTFUMWpvWWkzLU5OOU5IUW9vcXNxRXhlWmdPVkJWMWZCOFE?oc=5",
-      "source": "Forbes",
-      "cat": "ufc",
-      "ts": "2026-08-19T04:34:49+00:00"
-    },
     {
       "title": "Sean Strickland tears into ‘pathetic and weak minded’ fellow UFC fighters",
       "url": "https://bloodyelbow.com/2026/08/17/sean-strickland-tears-into-pathetic-and-weak-minded-fellow-ufc-fighters/",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-19T05:01:59+00:00"
+    },
+    {
+      "title": "Dana White addresses Khamzat Chimaev’s potential UFC 333 return",
+      "url": "https://www.sherdog.com/news/news/Dana-White-addresses-Khamzat-Chimaevs-potential-UFC-333-return-202425",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-19T05:06:27+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "a10d0d71-07df-3cfa-8e2c-b243755183a0",
     "c54e2dba-b931-38e1-9c69-81c7e2780d88",
     "CBMiogFBVV95cUxPb1VQWjJMV19jUjN2TTJKVXM3M2NaR1hKVWdWU0pmS0VYT0NpVE83M1p0VjNCZ2ZxdmY1bFl4WTQ1VWQtdy1tV0pzOE04clBSbU9UUWhYaXB4NTh5SFYtcWZ6MFJkN2YxUWlldWtMeWpnNlF0V0Z2N1VKZTZwWmJGMkJKNDByQllsLUZHRG5uVmdubFNzQXJTaEJUX05xQ0Z0SEE",
     "CBMi9wFBVV95cUxPQzI3ckhuQkRXbjlzOUZXLWloVnJHeDdMUnlXTmFKUk5iWFFVWDFza0Q5TEJwNjJUUG8zam1BMkFoWGsxVFk5SXpIWHZ2aS1FcWNNR2RCdEZnb0U0QlNEOGNYX19hLTY2NnlITlNXRk5QbTRfNWJDbkZBYmVtRXZxUkhyYkNkNmg5U001X3BGcXdULVZhbS1Xc21mYnNHNmhlMVlDdXFWVXZ5TVFTaHlLMXRKMTJ5OGRWcmlyQnlpRnNEdFVkQ25uU1hCSXhOeWhZWUlZdmM1MlVRbVQyYkF0c0h1aG5MUW9PUFcwQ1JZbGprajVqcmo4",
@@ -3312,7 +3311,8 @@
     "CBMidEFVX3lxTE1nbUlPRXdxNW1MUTNTbENDaFd0YXk2VGpMcE9Fakh3bHVwU2ZkNi1SMWdRdDY1WmpRT19Nby1vWWxWdV9Rdllmcno3Smp0UTVJalMwREpqTjQyRW5TNHotT2pOWl9JRExXZlJ3RThqd2lELTB1",
     "CBMimAFBVV95cUxNNFFUQ0RDeU4wSG5lS3I2YldGMTFUQk4wQXBPNWZIUC1taFMzTFZjM3BwWWVXcWI0UGZGdjVPeWJNaVRpS2V0UUI3NnJVLUVseVpGOXhCdFF6dEl6RWk3LTdrUE1jZVZDXzN3aUg4QUxhY0FLV2hwQktnbWl5OUZ3ZFJSeDJvWUNoNDF1SkMxdkpIeThYZkhTTg",
     "CBMie0FVX3lxTE9fYnF0Yk9OT0p0ckZFRkpHeGRkYk9ycnBNS3BiWFJ3Qzc1QlFXQTRGd05saUp6ZGM1SGg5Y2piS1k2V0x4UGdwMVB1cDJJQ3Uxb0l4dlJ1anpfcnlIOWtKSV9nc3JxSVFDay14VDdfWXE5bl8wRmtGSjllYw",
-    "CBMinwFBVV95cUxObjFXb0dETWlxdE5ab1A5TGFSZU95ay1SMUFLM2ZmQWYtWW00TnM3YnR2ampDMGpYZzRZclA0S3BIRTc1X0lRbG5rcmstaGd0Wjg5dlJYV2lwaHlZNXFJV0RIMi03LWNJa3EwR2RVS2Uzd1JtaEhqMjRSRUl4ZzFVVUcxYWZRV3lfUmJNaE1wY0RHZ2piejBWQkVqYTMzcTA"
+    "CBMinwFBVV95cUxObjFXb0dETWlxdE5ab1A5TGFSZU95ay1SMUFLM2ZmQWYtWW00TnM3YnR2ampDMGpYZzRZclA0S3BIRTc1X0lRbG5rcmstaGd0Wjg5dlJYV2lwaHlZNXFJV0RIMi03LWNJa3EwR2RVS2Uzd1JtaEhqMjRSRUl4ZzFVVUcxYWZRV3lfUmJNaE1wY0RHZ2piejBWQkVqYTMzcTA",
+    "https://www.sherdog.com/news/news/Dana-White-addresses-Khamzat-Chimaevs-potential-UFC-333-return-202425"
   ],
   "daily": {
     "d": "2026-08-19",
