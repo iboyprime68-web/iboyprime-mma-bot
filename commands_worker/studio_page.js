@@ -10,7 +10,12 @@
 //
 // API contracts this page codes against, each degraded gracefully when a field is absent:
 //   GET  /studio/api/staged -> [{id, score, why, caption, line, speaker, source, about,
-//                                hot: [..], image_url, timestamp}]
+//                                hot: [..], image_url, photo_url, photo_kind, template,
+//                                colorway, bg, spec, timestamp}]  (seventeen fields;
+//                                image_url/photo_url are same-origin /studio/api/img
+//                                proxy paths or null - legacy embed images may still be
+//                                a Discord CDN url)
+//   GET  /studio/api/img/<message id>/<0|1> -> the attachment bytes, same-origin
 //   GET  /studio/api/aikey  -> {providers: {deepseek: bool, openrouter: bool}}
 //   POST /studio/api/aikey  <- {provider: "deepseek"|"openrouter", key}
 //   GET  /studio/api/poll   -> {question, options: [{label, emoji, img}]}
@@ -460,6 +465,7 @@ input[type=range]::-moz-range-thumb{
         <div class="field">
           <label class="lbl">Background texture</label>
           <div class="chips" id="bgRow"></div>
+          <p class="note" id="bgNote" hidden>The colored scene shows on photoless posters. Remove the photo to see it.</p>
         </div>
         <div class="field">
           <label class="lbl">Photo tint</label>
@@ -2833,9 +2839,11 @@ function loadLayout() {
   state.textDY = typeof t.dy === "number" ? t.dy : 0;
   state.textScale = typeof t.scale === "number" ? t.scale : 1;
 }
-function setTemplate(id) {
+function setTemplate(id, noSnap) {
   if (state.template === id) return;
-  snap();
+  // noSnap: the caller already snapped this gesture (pickStaged) - a second
+  // snapshot here would make the first Undo press a visible no-op
+  if (!noSnap) snap();
   parkLayout();
   var wasPair = isPair();
   state.template = id;
@@ -3137,6 +3145,16 @@ function buildWashCard() {
     });
     bg.appendChild(b);
   });
+  // the wash only paints when no photo covers it - without this note, tapping
+  // the texture chips with a photo loaded looks like "the background changing
+  // does not work" (the owner's exact words). The chips stay live: the pick
+  // applies the moment the photo is removed.
+  var bn = $("bgNote");
+  if (bn) {
+    var newsFamily = (state.template === "quote" || state.template === "inset"
+                      || state.template === "state");
+    bn.hidden = !(newsFamily && !!get(state.photo.id));
+  }
   var seg = $("tintSeg").querySelectorAll("button");
   for (var i = 0; i < seg.length; i++) {
     press(seg[i], (seg[i].dataset.tint === "0") === !(state.tint > 0));
@@ -3378,7 +3396,9 @@ function paintDrop(dropId, url, empty) {
 }
 function setPhoto(slot, im, url) {
   state[slot].id = im ? put(im, { data: toData(im) }, url) : null;
-  syncDrops(); drawNow();
+  // buildWashCard keeps the bgNote honest: it shows/hides with the photo,
+  // and this is the one choke point every photo add/remove goes through
+  syncDrops(); buildWashCard(); drawNow();
 }
 
 /* ================= pointer editing ================= */
@@ -3777,8 +3797,10 @@ function api(path, opts) {
   });
 }
 /* the contract is {id, score, why, caption, line, speaker, source, about, hot[],
-   image_url, timestamp}. Older field names still resolve so a lagging worker
-   deploy degrades instead of blanking the rail. */
+   image_url, photo_url, photo_kind, template, colorway, bg, spec, timestamp}
+   (seventeen fields; the image fields are same-origin proxy paths or null).
+   Older field names still resolve so a lagging worker deploy degrades instead
+   of blanking the rail. */
 function normalizeStaged(raw) {
   var arr = [];
   if (Array.isArray(raw)) arr = raw;
@@ -3807,6 +3829,11 @@ function normalizeStaged(raw) {
       photoKind: p.photo_kind === "cutout" ? "cutout" : (p.photo_kind === "photo" ? "photo" : ""),
       colorway: p.colorway || "",
       template: p.template || "",
+      // bg = the texture plate a photoless render sat on; spec = whether the
+      // staging bot shipped a round-trip fence (a spec post with no photo is
+      // a DELIBERATE wash design, not a pre-round-trip relic)
+      bg: p.bg || "",
+      spec: !!p.spec,
       timestamp: p.timestamp || p.ts || p.created_at || ""
     };
   });
@@ -3864,6 +3891,27 @@ function railSkeleton() {
   rail.innerHTML = "";
   for (var i = 0; i < 4; i++) rail.appendChild(el("div", "skel"));
 }
+/* Deep link: every staged Discord message carries
+   "Open in the studio: <url>#s=<its own message id>", so the tap that starts
+   in Discord lands HERE with that post already open. Consumed once per hash
+   value; a hashchange (app already open, second link tapped) re-fetches the
+   rail first so a just-staged post is findable. */
+var pickedHash = "";
+function pickFromHash() {
+  if (restoring) { setTimeout(pickFromHash, 300); return; }
+  var m = /[#&]s=(\\d{15,21})/.exec(location.hash || "");
+  if (!m || m[1] === pickedHash) return;
+  for (var i = 0; i < staged.length; i++) {
+    if (staged[i].id === m[1]) {
+      pickedHash = m[1];
+      pickStaged(staged[i]);
+      return;
+    }
+  }
+  pickedHash = m[1];
+  toast("That staged post is not in the queue any more - staged copies are tidied out after a couple of days.");
+}
+window.addEventListener("hashchange", function () { loadStaged(); });
 function loadStaged() {
   railSkeleton();
   $("railNote").textContent = "Loading what the bot staged in Discord.";
@@ -3879,6 +3927,7 @@ function loadStaged() {
     }
     renderRail(staged);
     $("railNote").textContent = staged.length + " staged. Tap one to load its photo, line, hot words and caption.";
+    pickFromHash();
   }).catch(function (e) {
     if (e && e.message === "auth") return;
     $("rail").innerHTML = "";
@@ -3890,6 +3939,18 @@ function loadStaged() {
 function pickStaged(p) {
   snap();
   stagedPick = p.id;
+  // a staged NEWS post opens in the news family whatever was active: the
+  // photo/cutout treatment maps to Quote, the wash design to Statement.
+  // Without this, tapping a staged post while Versus or a panels template was
+  // up dropped the words into the wrong layout - half of "the posts open but
+  // you can't change the text".
+  if (p.template === "news") {
+    // a real story photo reads as the Quote treatment; a cutout or a plain
+    // wash is the bot's Statement treatment. noSnap: this gesture already
+    // snapped at entry.
+    var want = (p.photoKind === "photo") ? "quote" : "state";
+    if (state.template !== want) setTemplate(want, true);
+  }
   if (p.line) state.line = p.line;
   else if (p.caption) state.line = p.caption.split("\\n")[0].slice(0, 90);
   state.speaker = p.speaker || "";
@@ -3911,23 +3972,35 @@ function pickStaged(p) {
   var cwOk = false;
   for (var ci = 0; ci < CW.length; ci++) if (CW[ci].id === p.colorway) cwOk = true;
   if (cwOk) state.colorway = p.colorway;
-  renderRail(staged);
-  syncInputs(); drawNow();
+  // the plate the bot rendered on rides the spec, so the editor reopens the
+  // SAME scene the staged card shows instead of the default arena
+  for (var bi = 0; bi < BGS.length; bi++) if (BGS[bi].id === p.bg) state.bg = p.bg;
   // ROUND-TRIP: only the RAW subject may land in the photo slot. The rendered
   // card has the text baked into its pixels - loading it under live text is
-  // the "seems baked into the images" bug the owner reported.
+  // the "seems baked into the images" bug the owner reported. The slot is
+  // cleared UNCONDITIONALLY before any load: keeping the last edit's photo -
+  // even for the moment the new one spends in flight, or forever when its
+  // fetch fails - quietly renders the new words over the old story's picture.
   var src = p.photo || "";
+  state.photo.id = null;
+  renderRail(staged);
+  syncInputs(); syncDrops(); buildWashCard(); drawNow();
   if (!src) {
-    if (p.image) toast("Words loaded. This post predates the round-trip, so its image has the text baked in - drop a fresh photo.");
+    if (p.spec) toast("Loaded. This one is a wash poster - the colored scene IS the design. Drop a photo only if you want one.");
+    else if (p.image) toast("Words loaded. This post predates the round-trip, so its image has the text baked in - drop a fresh photo.");
     else toast("Loaded the words. Add a photo when you have one.");
+    scheduleSave();
     return;
   }
   loadImage(src).then(function (o) {
     var data = toData(o.img);
     state.photo.id = put(o.img, data ? { data: data } : { url: src }, o.url);
-    syncDrops(); drawNow(); scheduleSave();
+    syncDrops(); buildWashCard(); drawNow(); scheduleSave();
     toast("Loaded with the raw " + (p.photoKind === "cutout" ? "cutout" : "photo") + ". Change one thing and export.");
-  }).catch(function () { toast("The photo would not load, so the words came through only."); });
+  }).catch(function () {
+    syncDrops(); buildWashCard(); drawNow(); scheduleSave();
+    toast("The photo would not load, so the words sit on the wash for now.");
+  });
 }
 
 /* ================= export ================= */
