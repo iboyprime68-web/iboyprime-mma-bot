@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Alik Lorenz makes the best of his second Contender Series opportunity and seemingly earns a contract tonight at #DWCS88 #DanaWhiteContenderSeries",
-      "ts": "2026-08-18T23:59:54+00:00"
-    },
-    {
       "t": "My word. What a KO.",
       "ts": "2026-08-19T01:34:22+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Adam Copeland on Not Being Part of John Cena’s Farewell Tour: “Other Place Didn’t Want It To Happen”",
       "ts": "2026-08-19T15:55:34+00:00"
+    },
+    {
+      "t": "Khamzat Chimaev's 9-Word Tweet to Dana White on His UFC Future Has Gone Viral",
+      "ts": "2026-08-19T16:05:29+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Jon Jones blasts ‘jealous’ Daniel Cormier for picking Khabib Nurmagomedov as UFC’s greatest ever fighter",
-      "url": "https://bloodyelbow.com/2026/08/18/jon-jones-blasts-jealous-daniel-cormier-for-picking-khabib-nurmagomedov-as-ufcs-greatest-ever-fighter/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-19T01:00:00+00:00"
-    },
     {
       "title": "Dana White gushes over wild Contender Series KO as he awards six UFC contracts from just five fights",
       "url": "https://bloodyelbow.com/2026/08/18/dana-white-gushes-over-wild-contender-series-ko-as-he-awards-six-ufc-contracts-from-just-five-fights/",
@@ -2105,6 +2098,13 @@
       "source": "411Mania",
       "cat": "ufc",
       "ts": "2026-08-19T15:55:34+00:00"
+    },
+    {
+      "title": "Khamzat Chimaev's 9-Word Tweet to Dana White on His UFC Future Has Gone Viral",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5oOXFfa2ZtczhsM0pkSlJjV0U0c3pBdVdoZmN1cmlsajdyZkhzVUtyeG1ReHlGaEVDdjZ4V1FLUEpOUDByRm50bzZxOTNBVXNxc3BOM1l5Wm1BQy1VNGEzVUsyNW0tUkNEQjFsZnZwY3Z5SUtWWjdUbTNaejI?oc=5",
+      "source": "GiveMeSport",
+      "cat": "ufc",
+      "ts": "2026-08-19T16:05:29+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMi9wFBVV95cUxPV1dTSXh4aFdOcnh0ZzFqMkhoVDNrMWxZeVNUaXYzcHNpcEhqVXRRT1lwMm45d1o2empWOFhoVnpjckx0VlJfNTVjV01kYUpBQUJwWFU1WUZsQ1JXMk1ncU5DUVhjWnhrdEFENVdDcVVBajlDeEhLdTU5R1IyVXpVYjRBV3Nhcm8yOFF6WV9SV1BJdGh0R0ZYTDIzdHEtZS1XMjlKeExGVjAyM2h5S05ZSXRIV3Fsem9Fb3Y1YzRsLWZ6M3NjMzJnZWtnc2YzdnAxTnNCTmpFN0tDczdVcGR5N2U3WmtWMUp0aG9SemZNaFlJeFUzUC1j",
     "CBMiekFVX3lxTE9JMTZLUjRNT3JPNlBhMDZNV195SGZmazZmMDl3UTI4ZzE2ZTNDY3RBRWZLaGY0NkZzSVRWZVFodGZVZmhPdUc1TlJndlhyZFAzTUptN3NSUXA1LU15OFNiQXY0Z2JIaUwxRDlRaHk5OUJnd1JTUEpZRXV3",
     "CBMirAFBVV95cUxOWi1oeGZTNXo3VU1MLVRFRENma0I0UGVhYXRoQjhQZEV3TG5KdDJraGVaYms5REdLanJIMVBpc1h3b1cxLTFuRHFnaWREZlZHRXpsZTZxY3g2UHZHQ3VGamZjMkF6Q0xTQWRpcDR5c3BtRzNsNHBVdDRkLUhBNThhRTVhUFoxZkFvOTgtQmVsdHhOMVpKeFpFOEU5bDdBeTNyU1NCb2YxQnliYnBf",
     "2089396907236012081",
@@ -3312,7 +3311,8 @@
     "CBMiuAFBVV95cUxQLXVoWTY1aktnM2xGdGtOVWh3LTdtcF9CM2ItQ0ZULW45QWRUb1RwNmM2YjA1NTJGUFYySTA0LXd1ZkV1akRWY3BJQWphQVRxa1M5V0ExQlRidmVvMDBZUExCRXZrNDNmN19zekg3YVgwNmhXSmU2MF84RDF3V2dEY29tLUVpc0NGaDMtaDhwWmctUFFieUp6OFVpandFc3lpcl9OdkY3RWpFV05acG1raThmeTRtcndj",
     "CBMingFBVV95cUxOaXlkbVBESkZpLUNfM3V3MDdYai1peTJ4ek12LWw5VjViR212Q1VMdnFkV3lJMGlyUy1BVUNxYlhhQVVBQUMwQmdvUVFMYWU1dEhkRE1VdFdiY0dmQzlhc3d3ekswODVYR3NOUTM0VGlvT1JJLVk1bTh6alFYdm5FWkNXLUJaYkJLMFFpNEpFNEo0M2pCQlcxbHhhNUNXZw",
     "CBMiiAFBVV95cUxOa1VNd01Rcy05aHlYQnMyWHpwSE1zVkhMUmtIcUYwUmV3TGw5VGp3U1huOFo1WE5uYlF0UXF3dzhpYlJ4RktOcDNNMUM3QlZtRlBoTEhtWDhVMEM3MEx6OHRhN0VxbGx2MURZLTdHTkR2VFREbXdzSXl6QjlQY3NicldfZ1h5cUNr",
-    "CBMixgFBVV95cUxQV0ZRQ1luOXpwcjFhMDBHaEY2eDkwLThBZ2doaV9BckZvcU9xbURqZ2ZWMWJjZGVCbk5aTDZTbVcyZXZHcFltTUNISlRTZmQ2R1NQczJXWWxEblJtZ1M4Qk9abGxaSXJ5VWxiWWQ1S1djVW9aTE1wNkN0OWMtN3JDbWhMa1lablVjb3VnTW5kSl9FXzZLT0VyaU0zaDFUX0c4Uy1BLTEtMlJ5TktlRmo3OFY3QlVMektBamduR2QtODFybzNONGc"
+    "CBMixgFBVV95cUxQV0ZRQ1luOXpwcjFhMDBHaEY2eDkwLThBZ2doaV9BckZvcU9xbURqZ2ZWMWJjZGVCbk5aTDZTbVcyZXZHcFltTUNISlRTZmQ2R1NQczJXWWxEblJtZ1M4Qk9abGxaSXJ5VWxiWWQ1S1djVW9aTE1wNkN0OWMtN3JDbWhMa1lablVjb3VnTW5kSl9FXzZLT0VyaU0zaDFUX0c4Uy1BLTEtMlJ5TktlRmo3OFY3QlVMektBamduR2QtODFybzNONGc",
+    "CBMifEFVX3lxTE5oOXFfa2ZtczhsM0pkSlJjV0U0c3pBdVdoZmN1cmlsajdyZkhzVUtyeG1ReHlGaEVDdjZ4V1FLUEpOUDByRm50bzZxOTNBVXNxc3BOM1l5Wm1BQy1VNGEzVUsyNW0tUkNEQjFsZnZwY3Z5SUtWWjdUbTNaejI"
   ],
   "daily": {
     "d": "2026-08-19",
