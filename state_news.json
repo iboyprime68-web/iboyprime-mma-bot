@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "#DWCS results: Kaik Brito def. Namo Fazil via knockout (punch) - Round 3, 0:12 Live coverage: https://mmajunkie.usatoday.com/story/sports/ufc/2026/08…",
-      "ts": "2026-08-19T01:16:09+00:00"
-    },
-    {
-      "t": "KAIK BRITO KNOCKS OUT NAMO FAZIL 🤯 #DWCS88 #DanaWhiteContenderSeries",
-      "ts": "2026-08-19T01:21:37+00:00"
-    },
-    {
       "t": "A KNOCKOUT FOR THE AGES Kaik Brito proves he is not to be taken lightly on #DWCS!",
       "ts": "2026-08-19T01:25:11+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Jon Jones responds to Daniel Cormier's bringing up his one loss in the GOAT debate 📰 https://mma-fighting.visitlink.me/UG7zuS",
       "ts": "2026-08-19T18:30:06+00:00"
+    },
+    {
+      "t": "Anthony Hernandez: Training with Sean Strickland for UFC Sacramento 'was f*cking great'",
+      "ts": "2026-08-19T18:40:00+00:00"
+    },
+    {
+      "t": "TUF 34’s Delphine Benouaich Booked for UFC Paris Opposite Sofia Montenegro",
+      "ts": "2026-08-19T18:41:45+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Watch Kaik Brito deliver all-time KO on Dana White’s Contender Series",
-      "url": "https://sports.yahoo.com/articles/watch-kaik-brito-deliver-time-022820920.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T02:28:20+00:00"
-    },
-    {
-      "title": "Dana White awards six UFC contracts after historic DWCS Week 2",
-      "url": "https://sports.yahoo.com/articles/dana-white-awards-six-ufc-025253539.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T02:52:53+00:00"
-    },
     {
       "title": "Dana White Signs Kaik Brito to UFC After His Hail-Mary Knockout of 'Zombie' Opponent",
       "url": "https://sports.yahoo.com/articles/dana-white-signs-kaik-brito-031240658.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Fighting on X",
       "cat": "ufc",
       "ts": "2026-08-19T18:30:06+00:00"
+    },
+    {
+      "title": "Anthony Hernandez: Training with Sean Strickland for UFC Sacramento 'was fcking great'",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOU3FPYm9yMjI3U1R4ZUJjcVBaWjhXYXhzQ3p4dVg3ZXNtYlZMZW8yTEVwbTFRS3lWYWVrNHdJS3ItRXhTZkNwZkJhcFNnWEthSnFwME5wcnVYdUR0QmlkS1ZBdlRPblF1YXM4ZXZCRDJmUjAwcnJKejJGUnpWQk5ka3VJVktuQzhqT0FMMUVXZVJoeE9JOHRtZzg0ZXM2ZTRQNGkwNlRzR3lCRHphd2Q4dTI3aUFlYkl3bS13ZTBldU0wUzh1MDhhV1dYZzZVSmdUQVN3bg?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-19T18:40:00+00:00"
+    },
+    {
+      "title": "TUF 34’s Delphine Benouaich Booked for UFC Paris Opposite Sofia Montenegro",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT0JLZzB5ZTh4RWktSUgxM3NGM1pCclZTYk1wNzA1UUszS2F5Wm84ek5NOEhJUmtuRWc1WHlnSFc1TFZFOF9YUVhXeklDeHhoQnRaRUlsQlJoMjNPRU1EU1NOamhwemNnWS0wZ3dRaWJtSDBxdTVIeFZ0b19vTVZORWhCNXRqdnZmc205SVNweVBUdXg1?oc=5",
+      "source": "cagesidepress.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T18:41:45+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     14
   ],
   "yt_eval": [
-    "CBMiiwFBVV95cUxQZ09HWFF2TGZfVUUxNUlJVTFBVk52dTJET0tYdDlGRjEzMFgzZTRINjZqZ1JfMHU2M0cyd0tBX3hQbDk3ZXJxTG9Td1RKYmZCWDNJN1F1V0JhS0N4Z0lJeXJMZFFLZC1hUUdIRklUQVRQNTlFVDN6QmtvZXUxSzRLdjhmbVY1TFhNRHkw",
-    "CBMif0FVX3lxTE1iYzFvSGRFZktZc1ViMzVCdFNhRmdTc011dXgwS1dSSnBuRmF4elphcnlhZUVIQ0pQNW5UMVNJTXE1N3VJWkhqMHNyb0g4OVRRTGFyS2s2VEVzbjAxZ3pseFZma2htMWlrcE1uZ1ZnRU9IRVpYOHF6WGJxeFowNXc",
     "CBMiYEFVX3lxTE0wVmdVbkdFN25ibHFjSnkyQjJNWDNtV0JLWXVYaHdDUE1wajBFem4xVlBGb1didnNqVkJ0TmUxMV91eWpwQ213TFRJMVV0dFBXZXk3S1JSMWVFblhTaTZJeg",
     "2089425336299819440",
     "2089428272488886684",
@@ -3312,7 +3310,9 @@
     "CBMipAFBVV95cUxQTXBob1BjNno3cTNRM3JzSVNKSVVDRURzeUhMZGN2LWk0Wmstc1RmN1p6VzZLMTJpUk5DMDVpYnUyS2hyRjd0NlFRZmJxWm4zWVBLRHJoZm1TT0NoeU1HREVlTGstczA3M2U0aXgyZzFQSTAtblBqT2d4ZTV4NXJvR0RMb185Ny1QMW5WeFVFN3hLODRUbVdvVGdad0NpMk1uenJXeg",
     "CBMi0gFBVV95cUxOc1FYZmRnbTB6WTUxS3BWUnN0Y2EzUzNkVE5YQTJzd0xHWUktNWt1Rll4UmpTN2R3UlhsdGs5MVNCTlJaNTFEaUc3alI1dEtZb3MtZGUwQjh5Y3dQSFVBalYzaUJzajdzVmhHYzRMNDhKUUtGNzEyWUFQRjE2Tkcxc19XcENyTVh1ZTdsVGU5SWlSeUNLNXJpTWo1Nks4bTcyZlRGeEZkWWk4cFF2NkhWX2prbmd4bjV5WENxTWViWW5OQS02dFJJMzhHWEZGNENqZ2c",
     "2090047395891683684",
-    "2090144291041726801"
+    "2090144291041726801",
+    "CBMi1AFBVV95cUxOU3FPYm9yMjI3U1R4ZUJjcVBaWjhXYXhzQ3p4dVg3ZXNtYlZMZW8yTEVwbTFRS3lWYWVrNHdJS3ItRXhTZkNwZkJhcFNnWEthSnFwME5wcnVYdUR0QmlkS1ZBdlRPblF1YXM4ZXZCRDJmUjAwcnJKejJGUnpWQk5ka3VJVktuQzhqT0FMMUVXZVJoeE9JOHRtZzg0ZXM2ZTRQNGkwNlRzR3lCRHphd2Q4dTI3aUFlYkl3bS13ZTBldU0wUzh1MDhhV1dYZzZVSmdUQVN3bg",
+    "CBMilAFBVV95cUxOT0JLZzB5ZTh4RWktSUgxM3NGM1pCclZTYk1wNzA1UUszS2F5Wm84ek5NOEhJUmtuRWc1WHlnSFc1TFZFOF9YUVhXeklDeHhoQnRaRUlsQlJoMjNPRU1EU1NOamhwemNnWS0wZ3dRaWJtSDBxdTVIeFZ0b19vTVZORWhCNXRqdnZmc205SVNweVBUdXg1"
   ],
   "daily": {
     "d": "2026-08-19",
