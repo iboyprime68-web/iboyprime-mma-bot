@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS Results: Season 10, Week 2",
-      "ts": "2026-08-18T22:00:00+00:00"
-    },
-    {
       "t": "Belal Muhammad on Ian Machado Garry at UFC 330: 'What's with this hugging?'",
       "ts": "2026-08-18T22:00:51+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Wild to see Parnasse finaly on a UFC poster after all these years.",
       "ts": "2026-08-19T12:52:38+00:00"
+    },
+    {
+      "t": "Arn Anderson On How Undertaker Earned the Respect Of The Locker Room",
+      "ts": "2026-08-19T13:03:49+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev Broke the UFC's Biggest Record: Is He the Goat?",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3IxVmIxMGYxUnNDQ2RCZHZLYzhkdnA1cGJYRF9JV011QWZKZEN6WWpvcWswQU9qLUI4X2VZZjN6OU1wcC1QMk9EZ1IyTGZMaW1wNnB4Ql9DOS1VRHRIajVOZlpGeXFJLW1ybTFjY0JaeGNDOVFtVjhTZDNFN2FkeE5wUXJvbjBabnc?oc=5",
-      "source": "Deadspin",
-      "cat": "ufc",
-      "ts": "2026-08-19T11:46:00+00:00"
-    },
     {
       "title": "Eddie Hearn threatens to sue Dana White over Joshua vs. Fury interference",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWThGdElRZ0laVHc5d2NWRk1jQWxsSkVXMzBsM1kxYjhnVXA2RG5WODk4TU5oNkFFT1lndlFVN3AyRUVuMkRMZjhSRVhyU0JMMm1pYjMwS2MtZ1hTVXBnTGdnSjFSTDdMZkx2MTZjc2xlZWRiWTJ1SGk3cF9oMVFSdFVhS2NaZw?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Ariel Helwani",
       "cat": "ufc",
       "ts": "2026-08-19T12:52:38+00:00"
+    },
+    {
+      "title": "Arn Anderson On How Undertaker Earned the Respect Of The Locker Room",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQckRTNEVDeXhteGMzVVM0T0tFZWxyM0VMLUFzVGp3c2JrUjRpckVoRnRGdDI4M3hRUkU5QjJEdWIwMHc3VnRLQlV1YzlIVWlqcUFVWHowTnNzN1BRY1dld3k4MndKTFo0UEpQc0V5Q0RXM2pUOWxmZGlCQ0RUMmNpWmZhWGJsa0J5c3dqU0VUbw?oc=5",
+      "source": "411Mania",
+      "cat": "ufc",
+      "ts": "2026-08-19T13:03:49+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiW0FVX3lxTE1GRFBPblJuc19wZEVTQXVJakFJU3lRLS1CWENrT1pJMUZWUFFwM21XT01IVnA0OFJRdDhlT2NSeFFTUC1rRGtPNTY1MmJNYWdYWkdtMUN0dVF3bFE",
     "CBMiekFVX3lxTE1mWE9ia3hzSFc0cER5WktMUW04YVgzdEZLaDl1Z1IyWW80bl9Gc1hJV1VvMjdwZGxVdVpadGc3M3hwUVJIY250UmJXXzZ0Tk4taEVmTWRNZnZFV0tBZmZuOEo3eENTYVQ0dEk5Y1V4SEJZS09CZm1fRjBn",
     "https://bloodyelbow.com/?p=327431",
     "CBMihgJBVV95cUxQa1JWVkNBTmhHV2dqdS1BaE1KRVU3RWx3LUZBT2RuaW15NXV3M0I4cloxS0g1Z1h2WU1HZTJRc0ZJRDZKUFJZTHdCRXotVEZWXzlGRmNuTTVvWG5vWVN4dlFkd05NeXFVQ2JWWC0zVS0zQWtKTGpYNk9HMjFCeTdmVmRna1NPUHNCamdkSjZCb0k5Y0xSWjBSTnFseTZiQy1fcVhaYUJRbkFsT1UyUGR1VC03ZlR5ZWVwaUhXc0RXVHBOMTVIQTRHOFg4bUw4THlOY1Rzai0yM2EtT0JLa2poeXJvbjhhQkJqUGRxTGFoMGhnekQ5eW8wdHRaODNTT2RBSnJ3a3J3",
@@ -3312,7 +3311,8 @@
     "https://www.mmafighting.com/?p=505632",
     "CBMiswFBVV95cUxQaXNhaW91Q2NhYVBRb1FEVHBka0lPU0ZMcTYyNWpDbjNOcTIwamk0WEZTc1Y5R3JqRjNkYlVGbEE4RnpUYnhRSnRFRTd0MThIWXdKQjM4WGMwTWxZYlR1c19wZnRWWkhnV0RLZUNqbnQ0V3l0UlMzN1RUeUpaVGFuM1Nfd21pUnNUS2lNU2NlOGhUM0gzVWx6NWpBSkNxbW5nTHAwQmZQT08zLWVXOEVkbzNISQ",
     "CBMiswFBVV95cUxPWUo4dzkyS01VSXBwXzNnNElnSmxrWXMwVkl2TTRscFVaZS01NDF5eVRkS0V6MjJNRjJmNjhxM2FBUTZ0RFhmNzBpWWw3cnhDNm1jdzcyTF90SVdMQTBzQVAzejFaRElmV083R3NTajZocEtJaW9TTjIybWJvTmtBS3kxVW9oX0VVR0x3ZmVYQ1pyTmR5NDBPVHp2TUJ2cHk3MzZpeUF5LWNydkxJaVREQkhSUQ",
-    "2090059362660192672"
+    "2090059362660192672",
+    "CBMijwFBVV95cUxQckRTNEVDeXhteGMzVVM0T0tFZWxyM0VMLUFzVGp3c2JrUjRpckVoRnRGdDI4M3hRUkU5QjJEdWIwMHc3VnRLQlV1YzlIVWlqcUFVWHowTnNzN1BRY1dld3k4MndKTFo0UEpQc0V5Q0RXM2pUOWxmZGlCQ0RUMmNpWmZhWGJsa0J5c3dqU0VUbw"
   ],
   "daily": {
     "d": "2026-08-19",
