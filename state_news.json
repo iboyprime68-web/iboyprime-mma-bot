@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Alik Lorenz makes the best of his second Contender Series opportunity and seemingly earns a contract tonight at #DWCS88 #DanaWhiteContenderSeries",
-      "ts": "2026-08-18T23:59:54+00:00"
-    },
-    {
       "t": "Kaik Brito SLEEPS Namo Fazil with a WILD third-round knockout to close the show at #DWCS, and earn himself a #UFC contract 👀 🔥",
       "ts": "2026-08-19T01:40:16+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Edson Barboza's retirement came down to a simple reason",
       "ts": "2026-08-19T12:07:03+00:00"
+    },
+    {
+      "t": "The huge amount of money Ian Machado Garry was paid for his fight with Islam Makhachev at UFC 330",
+      "ts": "2026-08-19T12:03:36+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "DWCS Results: Season 10, Week 2",
-      "url": "https://sports.yahoo.com/articles/dwcs-results-season-10-week-220000030.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T22:00:00+00:00"
-    },
     {
       "title": "Belal Muhammad on Ian Machado Garry at UFC 330: 'What's with this hugging?'",
       "url": "https://sports.yahoo.com/articles/belal-muhammad-ian-machado-garry-220051290.html",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-19T12:00:00+00:00"
+    },
+    {
+      "title": "The huge amount of money Ian Machado Garry was paid for his fight with Islam Makhachev at UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdWFydWg2cW5lbmVPdnBNUElyRmpnZktoYXE0YTVQNlAyMWFETER4SWFTTEMyejd3c013X3BIdm1teU1EdFIyTkhPRjhlNzlMQ3doSkdnNlozZElNZkZnaDd2RklpLUFJOWhtNEdCMUlNSzhEOXV5b1Y0YU1aWEV0OVNhV2VBdTE4WkZPZ1MwbUE2RWZjdG5CcFFOZkloZmpZUG1sR1ZqUy15YWxUd29XRTJFbnR3NEloeWNaSg?oc=5",
+      "source": "SPORF",
+      "cat": "ufc",
+      "ts": "2026-08-19T12:03:36+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiqwFBVV95cUxNS0hsYWRGTEtHdVRVeG92QkpzWFluMnRZN0dXV3VQb3BOM2ltRDVNTmluYjNjbFQ2b19KcldCMjUteURqc2p3bTA4QVZqWl9yZHZ5eXlPNTRpd2NDdmZOM0hobFZ0Q0g0bW1EbjVRRlJYXzdQLU80Y3FjaVhHd3Z6bEZEVExqUmF4cWFhc2FlQWtzWXhtSFcxQ05TbVpSQUt5VzB0X2doZXJ5TUk",
     "CBMiuAFBVV95cUxNdTlBNW5XZ0FSb2NiRjM1NEhkOWd1ZkxPQzBzVng2TGVodkVvZHhKUWlBbTJSX2RYOGxIOFBjbDJKN1ZLTktNMC1qYWJ6RGVEaVJtdTRqSWlScWRtYUp2Y3QzZGNiUlg0ckhwTURESzNiUHJsQTZIN3VHczlvOXZ3MWRlVWIyeXF6czllYXItRkFselBIaFlrMlhzRkRHSUR4ckJwYXZKcGlrU0M5S0hrY1V1dzdNaGNI",
     "CBMiowFBVV95cUxOVmZrX2JFZ1FqSmtUSDBNdlh3NVo0YmVHVXJNME8tY3dxS3loQXQ2UkNsNWRSQVFJRl9Td212T3prRUJDNmhHbGZIWk1jV3dHVGpPWEVUOVFpcHlrUzhLdzNWTF9jeVlSQ1NwY29fNXlzRHR5Vl9vS1hDOFg2cHV5Skp6RTJhbGljNkpVT0VXWWhHel9XS3UzZWQtNmx4VS1Jd3FV",
     "c7527db1-ba13-34dc-936f-ff82dcb3984c",
@@ -3312,7 +3311,8 @@
     "CBMioAFBVV95cUxOZDIzMld5V2cyT09oMGRRU04xeV9xUUhvVWEzVW54ZldTNGN0UlZ0YjljblE2bTJNY25XNV9kdjVmQ0tFckVFM25SNUU0UVpiby1TaEh1UDdUMWdLaTJfMjZmdnhSNUFkV05HQmw4bUNuRE5qRS1wT0VBZUdMVnFQUk9xVWdvUWNCOUxJNkVSbG83dTNCTnNVY1Ztd2U0azlD",
     "2090047564074655786",
     "CBMiigFBVV95cUxOc3IxVmIxMGYxUnNDQ2RCZHZLYzhkdnA1cGJYRF9JV011QWZKZEN6WWpvcWswQU9qLUI4X2VZZjN6OU1wcC1QMk9EZ1IyTGZMaW1wNnB4Ql9DOS1VRHRIajVOZlpGeXFJLW1ybTFjY0JaeGNDOVFtVjhTZDNFN2FkeE5wUXJvbjBabnc",
-    "CBMihgFBVV95cUxPWThGdElRZ0laVHc5d2NWRk1jQWxsSkVXMzBsM1kxYjhnVXA2RG5WODk4TU5oNkFFT1lndlFVN3AyRUVuMkRMZjhSRVhyU0JMMm1pYjMwS2MtZ1hTVXBnTGdnSjFSTDdMZkx2MTZjc2xlZWRiWTJ1SGk3cF9oMVFSdFVhS2NaZw"
+    "CBMihgFBVV95cUxPWThGdElRZ0laVHc5d2NWRk1jQWxsSkVXMzBsM1kxYjhnVXA2RG5WODk4TU5oNkFFT1lndlFVN3AyRUVuMkRMZjhSRVhyU0JMMm1pYjMwS2MtZ1hTVXBnTGdnSjFSTDdMZkx2MTZjc2xlZWRiWTJ1SGk3cF9oMVFSdFVhS2NaZw",
+    "CBMivAFBVV95cUxPdWFydWg2cW5lbmVPdnBNUElyRmpnZktoYXE0YTVQNlAyMWFETER4SWFTTEMyejd3c013X3BIdm1teU1EdFIyTkhPRjhlNzlMQ3doSkdnNlozZElNZkZnaDd2RklpLUFJOWhtNEdCMUlNSzhEOXV5b1Y0YU1aWEV0OVNhV2VBdTE4WkZPZ1MwbUE2RWZjdG5CcFFOZkloZmpZUG1sR1ZqUy15YWxUd29XRTJFbnR3NEloeWNaSg"
   ],
   "daily": {
     "d": "2026-08-19",
