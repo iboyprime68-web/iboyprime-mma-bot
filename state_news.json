@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Not afraid of a lil' contact 👊 Namo Fazil & Kaik Brito are going back-and-forth in RD1! [ #DWCS is LIVE NOW on @ParamountPlus ]",
-      "ts": "2026-08-19T01:03:52+00:00"
-    },
-    {
-      "t": "DWCS video: Trent Miller sleeps Douglas Rodrigues as biggest underdog on card https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/18/ufc-dana-whi…",
-      "ts": "2026-08-19T01:05:41+00:00"
-    },
-    {
       "t": "WHO WANTS IT MORE?! Namo Fazil vs Kaik Brito [ #DWCS is LIVE NOW on @ParamountPlus ]",
       "ts": "2026-08-19T01:07:42+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Usman Nurmagomedov Wanted to Turn Back Clock at UFC 330",
       "ts": "2026-08-19T17:24:03+00:00"
+    },
+    {
+      "t": "Carlos Prates Trashes ‘Boring’ Islam Makhachev",
+      "ts": "2026-08-19T16:54:13+00:00"
+    },
+    {
+      "t": "Henry Cejudo Believes Ian Garry Blew His Chance To Get Another Title Shot",
+      "ts": "2026-08-19T17:06:48+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White awards six UFC contracts after historic DWCS Week 2",
-      "url": "https://sports.yahoo.com/articles/dana-white-awards-six-ufc-025253539.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T02:52:53+00:00"
-    },
-    {
-      "title": "Dana White Signs Kaik Brito to UFC After His Hail-Mary Knockout of 'Zombie' Opponent",
-      "url": "https://sports.yahoo.com/articles/dana-white-signs-kaik-brito-031240658.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T03:12:40+00:00"
-    },
     {
       "title": "'Uncrowned champion' of ONE pivots toward UFC through Dana White's Contender Series",
       "url": "https://sports.yahoo.com/articles/uncrowned-champion-one-pivots-toward-032415259.html",
@@ -2105,6 +2091,20 @@
       "source": "mmasucka.com",
       "cat": "ufc",
       "ts": "2026-08-19T17:24:03+00:00"
+    },
+    {
+      "title": "Carlos Prates Trashes ‘Boring’ Islam Makhachev",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYV9NZkc0SG9zLVZyU2JiZFJDX3A0M1AzdDJiOWZ3djBjREVMS0hiWGdGZlVieGJPZXVuYUdNeWd2R1FHNWdtNHoxRi1TSHg1MkthbzZaWXRUc3QxNlZmcGJjQzd3NFpvbFYyOUgwTVFZTU9mNEFHdXlUTzJIRzk0WXFqY3JTemN1NUpN?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-19T16:54:13+00:00"
+    },
+    {
+      "title": "Henry Cejudo Believes Ian Garry Blew His Chance To Get Another Title Shot",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ21HQlhSd1FLSFZ0aFMtRjc2UHRYdDUzdUZqdWxXWXdmdzZNbkt2Mmk0YUNPME5kcXM0ejFQTjlBdkVXcko4NDNTZTdzWVVObFFUdTBRLUlyaEY0U3EydWNQSDZKX0w0S1daSlIzaGZULTJTQ19SZjYwNlFqZGQ2LVhPSDRhbjl1RlVqb092U3Uzb0prNTVOUE5PdnJCaUo1VTFr?oc=5",
+      "source": "MMA Insight",
+      "cat": "ufc",
+      "ts": "2026-08-19T17:06:48+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2089409703096840213",
-    "CBMikwFBVV95cUxOdU91QmFyc3QwLTVTZnlPb3FRNEZaOVVURnVOQUR6VVkzVDZOQ1FPTDBKZFNZVk9uLXh6UXdERTZFblpsWHIya2xkaElBeDE0ZTdPb29JeW5GcEc0SzQxODBtZFlURGljZE1qTmgzaWFZWUdoNUFodnNaajd5b3VGSGpIS0NMUnNjczhUendxbWdDRkk",
     "2089411230448632228",
     "CBMinwFBVV95cUxOdTFKOHVsVjNzbVhsR2tMRDNVcXN4d1NzZHJMRUVFYlUxSGUzbkdTcG9BS1Z3Tkp6V1FpV3dac3ptQkt5UnFMRVlQT2hBM3VablJocWlYQTQzR1FqMVQtTDcweUJLWFk5YjBHM2t1TFdkankzSW54dm9pSWJUSmt2WlUwSDNKaVFJSUZKT01vZU1lTkVQaWl4Q2Q1ZTdxOUE",
     "https://bloodyelbow.com/?p=327436",
@@ -3312,7 +3310,9 @@
     "CBMiigFBVV95cUxQblVvV09JNUpFelVXRHRWVEtpRUJTR0xubnViY29RMWpRR05BN3lzUEJydUgxMTZRcFE5SkMyX0FoMUFXTkNVb0hhYVVIWk9mdnhIcXJxUGhRZVp0a0NadmFORkFaX19hZnQtSHYtc3hWX0M2NFhyeE1kR1N6N2hJQS1neEdSV2ZEVkE",
     "CBMixgFBVV95cUxNSWUwMlpYY2FtaFVpODJ3dVFVTWRqMVNfMVdYNERYMkNra3ZPczRpMXhYekRLa04taS1fdGtpSFFSOUR3OEQ5Nl9LWk1LVGJZbkJMMUlCRk5qRjJsOXNMWG1BVlhzUEJQcFBYVkMyUHA2U2lkUXB0YmQ0N29Lbk1wNVhiSU1NQmpxSzVxTHN2djA5ZzhlRGRrd044Ukx3endLa3F5R3BSZUFmdEcwQnYxY1JmTDBKRVQzbm1GazZUdmtJckNVMWc",
     "2090123381538787815",
-    "CBMixgFBVV95cUxQLWhxZ1FzWmNIN0dLUW9aRDFBUDhSMkRhTmxhaXlLZm5FMTFLREQtbl9wVzF3Q0Y1ZU9jVm5TWEczRV8tR0FxSUJHd1JOTm03a2pTQ0I0b290SnhDTlNQQnE2cGFUY0ZXR3dNS01ndEd3QXM5RHNRSDhtdHBtTXNNVWpuM0lZMTBxRWVXYTZaOE5qOWw5TEUxcVlYX2lSWVhyRFJ0NUd3SHFLZDBPN3J1a1pLWGp4a25LeEVITVM5ZHlLVEMzcVE"
+    "CBMixgFBVV95cUxQLWhxZ1FzWmNIN0dLUW9aRDFBUDhSMkRhTmxhaXlLZm5FMTFLREQtbl9wVzF3Q0Y1ZU9jVm5TWEczRV8tR0FxSUJHd1JOTm03a2pTQ0I0b290SnhDTlNQQnE2cGFUY0ZXR3dNS01ndEd3QXM5RHNRSDhtdHBtTXNNVWpuM0lZMTBxRWVXYTZaOE5qOWw5TEUxcVlYX2lSWVhyRFJ0NUd3SHFLZDBPN3J1a1pLWGp4a25LeEVITVM5ZHlLVEMzcVE",
+    "CBMiiwFBVV95cUxPYV9NZkc0SG9zLVZyU2JiZFJDX3A0M1AzdDJiOWZ3djBjREVMS0hiWGdGZlVieGJPZXVuYUdNeWd2R1FHNWdtNHoxRi1TSHg1MkthbzZaWXRUc3QxNlZmcGJjQzd3NFpvbFYyOUgwTVFZTU9mNEFHdXlUTzJIRzk0WXFqY3JTemN1NUpN",
+    "CBMiowFBVV95cUxPQ21HQlhSd1FLSFZ0aFMtRjc2UHRYdDUzdUZqdWxXWXdmdzZNbkt2Mmk0YUNPME5kcXM0ejFQTjlBdkVXcko4NDNTZTdzWVVObFFUdTBRLUlyaEY0U3EydWNQSDZKX0w0S1daSlIzaGZULTJTQ19SZjYwNlFqZGQ2LVhPSDRhbjl1RlVqb092U3Uzb0prNTVOUE5PdnJCaUo1VTFr"
   ],
   "daily": {
     "d": "2026-08-19",
