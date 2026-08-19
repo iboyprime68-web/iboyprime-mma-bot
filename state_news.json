@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Take a bow, Kaik Brito 👏 #DWCS",
-      "ts": "2026-08-19T02:03:52+00:00"
-    },
-    {
       "t": "Dana White's Contender Series 88: Best photos from Las Vegas https://mmajunkie.usatoday.com/picture-gallery/sports/ufc/2026/08/18/dana-whites-contend…",
       "ts": "2026-08-19T02:15:15+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Highlights: Mariners at Astros (8/16) Stream of Major League Baseball",
       "ts": "2026-08-19T12:11:57+00:00"
+    },
+    {
+      "t": "The Undertaker Admits Brock Lesnar Ending WrestleMania Streak Is Still a Sore Spot",
+      "ts": "2026-08-19T12:13:26+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Who Should Get The Next UFC Welterweight Title Shot?",
-      "url": "https://sports.yahoo.com/articles/next-ufc-welterweight-title-shot-223718085.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T22:37:18+00:00"
-    },
     {
       "title": "For Gillian Robertson, losing a UFC title fight was hard enough. But being abandoned by your mentor?",
       "url": "https://sports.yahoo.com/mma/article/for-gillian-robertson-losing-a-ufc-title-fight-was-hard-enough-but-being-abandoned-by-your-mentor-231202378.html",
@@ -2105,6 +2098,13 @@
       "source": "cbssports.com",
       "cat": "ufc",
       "ts": "2026-08-19T12:11:57+00:00"
+    },
+    {
+      "title": "The Undertaker Admits Brock Lesnar Ending WrestleMania Streak Is Still a Sore Spot",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNczZXMi1OcjRleWloLW1XbjlVWHhfMEdLZWhjd004QW4yUGhFWmsyNjJyY2VKaW5zQ3Fwc2VQb3d1SmdyZEpTVlo4bVpaQURlXzNNWk50NWFLZFBLZDFBRVBORmFoNXdMVHFNTjNmQUtwZmVXQzZ3RlpoQm84YUE2djJDWVJYVjR1SDI4LVYtbVdueWU2UEJTZDUwVWNYa0VnV1BVRFR3?oc=5",
+      "source": "Ringside News",
+      "cat": "ufc",
+      "ts": "2026-08-19T12:13:26+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "c7527db1-ba13-34dc-936f-ff82dcb3984c",
     "2089337268255518954",
     "2089359181958758697",
     "2089360543840657468",
@@ -3312,7 +3311,8 @@
     "CBMihgFBVV95cUxPWThGdElRZ0laVHc5d2NWRk1jQWxsSkVXMzBsM1kxYjhnVXA2RG5WODk4TU5oNkFFT1lndlFVN3AyRUVuMkRMZjhSRVhyU0JMMm1pYjMwS2MtZ1hTVXBnTGdnSjFSTDdMZkx2MTZjc2xlZWRiWTJ1SGk3cF9oMVFSdFVhS2NaZw",
     "CBMivAFBVV95cUxPdWFydWg2cW5lbmVPdnBNUElyRmpnZktoYXE0YTVQNlAyMWFETER4SWFTTEMyejd3c013X3BIdm1teU1EdFIyTkhPRjhlNzlMQ3doSkdnNlozZElNZkZnaDd2RklpLUFJOWhtNEdCMUlNSzhEOXV5b1Y0YU1aWEV0OVNhV2VBdTE4WkZPZ1MwbUE2RWZjdG5CcFFOZkloZmpZUG1sR1ZqUy15YWxUd29XRTJFbnR3NEloeWNaSg",
     "CBMijwFBVV95cUxNakpRaFRBNmY3SnFneExQRTNwTFFFSjB1NUZ1Zm04MjhaWmRLS2QzUGRLWko1V2Z1TU85bjlRQXJsOGhiMXRWakR3dUVNSm92Rl9xVmlXLWNkcElkNFdzdzFVSVVOclItY3Q0MmdwaHRKWV90OXo4aDJtU3V4TTRrREZweUtPUEpqZ2NZUVZFbw",
-    "CBMiiAFBVV95cUxQT1F1SVZvYW90dU0wZFA3UUlkRXptSFhydjI4ZVVrc3dueWVZbUlJcnhOVTJDSmJYX1JqZ2hMbFhCWEg2aXJjeFMtNEJDc0hYdHhIU3poT3JwNTEzRWVmNVl6Y1hKQ1oxbzRDVkVvMnE3RG9BRE4wTXBFa3ZuZzFoSkxqVDVzY2hW"
+    "CBMiiAFBVV95cUxQT1F1SVZvYW90dU0wZFA3UUlkRXptSFhydjI4ZVVrc3dueWVZbUlJcnhOVTJDSmJYX1JqZ2hMbFhCWEg2aXJjeFMtNEJDc0hYdHhIU3poT3JwNTEzRWVmNVl6Y1hKQ1oxbzRDVkVvMnE3RG9BRE4wTXBFa3ZuZzFoSkxqVDVzY2hW",
+    "CBMipgFBVV95cUxNczZXMi1OcjRleWloLW1XbjlVWHhfMEdLZWhjd004QW4yUGhFWmsyNjJyY2VKaW5zQ3Fwc2VQb3d1SmdyZEpTVlo4bVpaQURlXzNNWk50NWFLZFBLZDFBRVBORmFoNXdMVHFNTjNmQUtwZmVXQzZ3RlpoQm84YUE2djJDWVJYVjR1SDI4LVYtbVdueWU2UEJTZDUwVWNYa0VnV1BVRFR3"
   ],
   "daily": {
     "d": "2026-08-19",
