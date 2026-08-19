@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Mike Tyson’s first fight back since prison ended in bizarre disqualification after manager entered ring",
-      "ts": "2026-08-19T20:00:00+00:00"
-    },
-    {
       "t": "Robocop is really like that 😤 It's almost #UFCSacramento main event time for @Gregory_MMA! [ LIVE AUG 22 at 8pmET on @ParamountPlus ]",
       "ts": "2026-08-19T20:01:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Jon Jones vs. Cain Velasquez? Javier Mendez Reveals How it Would Have Played Out",
       "ts": "2026-08-19T21:04:42+00:00"
+    },
+    {
+      "t": "Top 10 CFB Games This Season Stream of NCAA Football",
+      "ts": "2026-08-19T21:22:43+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "DWCS video: Trent Miller sleeps Douglas Rodrigues as biggest underdog on card",
-      "url": "https://sports.yahoo.com/articles/dwcs-video-trent-miller-sleeps-010047735.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T01:00:47+00:00"
-    },
     {
       "title": "DWCS Season 10, Week 2 results: Kaik Brito starches Namo Fazil with brutal knockout punch",
       "url": "https://sports.yahoo.com/articles/dwcs-season-10-week-2-014023486.html",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-19T21:04:42+00:00"
+    },
+    {
+      "title": "Top 10 CFB Games This Season Stream of NCAA Football",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObzcydlE5SXJveW5vSUZibDlPalBJMDdmT1hJZ0ZlRWhMcUYzMTNncTdBQ29sb2toNmp2YmplV3JrcTlXaDl6Rlk4NVpxSEJUOHBEX1RERk1TQlQxbnFkYU5ubll2VndsVVMwOWJVWXozQjdfT0dJYlBOeEU4VHZvZXdNRElwV0ZoQ1VB?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-19T21:22:43+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     13
   ],
   "yt_eval": [
-    "CBMi9wFBVV95cUxQdGctc0dLMk1ybFE5OUFEd3VsWDhvdzRMTGVwS3hDMmk2elNUOGM0WHhMekdCY1R6ZmMwQ3ZnZ3JFc01yZHBpdFJkUTZhVmRWVjI2R1h1TUszT0YtVEhtV05GeE9tOVBacmpmY0pCdWVwb1QtaFBOU1VwamlaWldZRmtFS0dnNkV6b21ubFFuelVFdmVBRWdFTkFCTl9qeWFNYWtoNDg0cDVTZ0VmMHRuSHVndTM2WTdISXFkd2RDVG1ROXIzNjJua0k5YlVOWkgwc3BaMmdGU3pfa2RWSzhuNHdqLWdzT0cxNzZ3eWZldHZKQTJiSzNj",
     "2089451379379318986",
     "CBMiqwFBVV95cUxQeUFERkVZZm8zNllXOWpPMHBVUFpBalJXTEdoNk1fZ0diNkttWEtRZ2NsWG9CWkNzZGI0Si1uNUZxTzVKbkJ3Y2JQZXJvYW0tV3c1cmpleXh2YW1ZeVhpLUQxbm1aREo3V3ZkRmtoUlZCUTBGUGlDRExWcEprU2tmVFlIWG9LcTBORGt6ckEyNkJSbUplckZjSGoyM2gzQkM2U09SSUdjdDBGenc",
     "CBMisAFBVV95cUxOR19xYzdCTzdIa3VkTHh1LWJZWUpBT1RSUEVDRUN1WENaSl9LNnpvdXA1Q1plNDhEaVNHckYzWDRTV1BaLTFheXFRNnB0V3pzYTByaVBYb2FIM3ZRc1ZRbUVFT3RPWE5RaGlzbjFRZjRSOEw5ckdBU05zMHN1U18tOXNvOWJ1VkRLTmtUQ1oyU3JVUzluZDZfeG5fNXZ2bkQteW5vSzBtMTJUZ1dwZkcxaQ",
@@ -3312,7 +3311,8 @@
     "CBMiqwFBVV95cUxPb0xWbjlScHNDZ0Vua2xzQnIzV1JJQmNQWm9Zdi16LXpZU3dFS0RNenJtZmc0S2VmLVF1Tnl2aUdOYlRteHFkQ3NyMzYtdjkyWXpBZV9EWE01SDVBQUE3bnhjSGl2eUxpSGJsM0plZVJQY1BQd0tTeFBPM2d3UVpBY0J5VDBxaUZWdUt6Y2F0UnNrX0ttdUtGU2Rad25RdDQwQU8wYlZscVg2NGs",
     "CBMingFBVV95cUxQMjdnTk9mY2hnS1hURGw1UENja1BIdE94M1dpZTdkUFJnU1pnUm85U1N0SGRkcjlDS1RPM0ZvQ29IcFk2aWxRV3FyRlBfd1NhWDdzdFNWbHJ3U216XzZtVWk4dmlIVUhQaW5MNmlKYWp3RDlSZW1mVG1fNm9nWXJSOHdWMEVXNkphZGtsQTRTcWxfVnEzSXNMQzNoT2F0UQ",
     "CBMimgFBVV95cUxPSk5hV0U3NWVfcDlwdFljWDRnNko2bnRzVUR3R2VQWUE5S1JWZ0ppd1NCNVV4TndMZHVIckRiclpwWnI0a3hYbjRNdVFxUjdXMU5DYmduc3kzd1AzRUdwLVJYOG5LSXJNTnNvWGNKWDVxUVVZaDBSemhaV2RaV0h2cGh6dWktMndfNGtLR1YwdUQ4Y3JTeVlrOG1n",
-    "897f49dc-0de3-3dcd-befb-6b91d9d48ad1"
+    "897f49dc-0de3-3dcd-befb-6b91d9d48ad1",
+    "CBMiiwFBVV95cUxObzcydlE5SXJveW5vSUZibDlPalBJMDdmT1hJZ0ZlRWhMcUYzMTNncTdBQ29sb2toNmp2YmplV3JrcTlXaDl6Rlk4NVpxSEJUOHBEX1RERk1TQlQxbnFkYU5ubll2VndsVVMwOWJVWXozQjdfT0dJYlBOeEU4VHZvZXdNRElwV0ZoQ1VB"
   ],
   "daily": {
     "d": "2026-08-19",
