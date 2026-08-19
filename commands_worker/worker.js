@@ -1151,9 +1151,12 @@ function parseStagedOne(m) {
 function parseStaged(messages, botId) {
   const bot = isSnowflake(botId) ? String(botId).trim() : null;
   if (!bot) return [];
+  // ANCHORED to the message start (after an optional owner ping): the phrase
+  // "staged post" appearing anywhere in model-written poll text must not pull
+  // a poll message into the news rail. Only ytposts' own header shape passes.
   return (Array.isArray(messages) ? messages : [])
     .filter(m => m && m.author && String(m.author.id) === bot)
-    .filter(m => /staged\s+post/i.test(String(m.content || "")))
+    .filter(m => /^(?:<@\d{15,21}>\s*)?staged\s+post/i.test(String(m.content || "")))
     .map(parseStagedOne);
 }
 // Who are we. GET /users/@me with the bot token answers with this application's bot
@@ -1726,14 +1729,25 @@ let _pollCache = { at: 0, data: null };
 async function studioPoll(env) {
   const now = Date.now();
   if (_pollCache.data && now - _pollCache.at < 300000) return studioJson(_pollCache.data, 200);
+  const st = await getJSON(rawBase(env) + "/state_polls.json");
+  // Since Aug 19 2026 the bot is AI-first: the bank cursor barely moves while
+  // a provider key is live, so "the next bank entry" stopped describing what
+  // actually stages. polls_bot commits the entry it just staged as
+  // state.last_entry (question + options, no ids) BEFORE posting - that is
+  // what the composer should pre-fill. The bank cursor is the fallback for a
+  // pre-upgrade state file.
+  const le = st && st.last_entry;
+  if (le && typeof le === "object" && String(le.type || "poll") !== "post"
+      && String(le.q || "").trim()) {
+    const data = pollShape(le);
+    _pollCache = { at: now, data };
+    return studioJson(data, 200);
+  }
   const bank = await getJSON(rawBase(env) + "/polls_data.json");
   // Degrade to the empty shape rather than an error: the page renders the same either
   // way and a missing bank is a deploy state, not a fault the owner can act on here.
   if (!Array.isArray(bank) || !bank.length) return studioJson(POLL_EMPTY, 200);
-  // polls_bot posts bank[cursor] and commits state_polls.json BEFORE it posts, so the
-  // committed cursor is exactly what goes out next. Missing or junk state -> entry one.
   let cursor = 0;
-  const st = await getJSON(rawBase(env) + "/state_polls.json");
   const c = st ? Number(st.cursor) : NaN;
   if (Number.isFinite(c) && c >= 0) cursor = Math.floor(c) % bank.length;
   const data = pollShape(bank[cursor]);
