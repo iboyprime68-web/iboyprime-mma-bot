@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Video: Watch LFA's best fight finishes from July 2026 https://mmajunkie.usatoday.com/story/sports/mma/2026/08/19/lfa-mma-ufc-video-highlights-knockou…",
-      "ts": "2026-08-19T12:05:45+00:00"
-    },
-    {
       "t": "Dana White's Contender Series 88: Grading the winners (via @DanTomMMA) #DWCS https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/dana-whites-c…",
       "ts": "2026-08-19T12:55:10+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Gregory Rodrigues linked with top UFC middleweight to prep for Anthony Hernandez",
       "ts": "2026-08-19T22:50:00+00:00"
+    },
+    {
+      "t": "Jon Jones Takes Aim at Islam Makhachev’s Growing MMA GOAT Case After UFC 330",
+      "ts": "2026-08-19T22:43:57+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "'Uncrowned champion' of ONE pivots toward UFC through Dana White's Contender Series",
-      "url": "https://sports.yahoo.com/articles/uncrowned-champion-one-pivots-toward-032415259.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T03:24:15+00:00"
-    },
     {
       "title": "UFC star pays Dana White’s Contender Series winner $5k for KO’ing rival who made strange comments",
       "url": "https://bloodyelbow.com/2026/08/19/ufc-star-pays-dana-whites-contender-series-winner-5k-for-koing-rival-who-made-strange-comments/",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie",
       "cat": "ufc",
       "ts": "2026-08-19T22:50:00+00:00"
+    },
+    {
+      "title": "Jon Jones Takes Aim at Islam Makhachev’s Growing MMA GOAT Case After UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5iUjNpOU1kMFpNQzhUM2tuLTdhU2R4SVZOYUltbldEZnpjdVZudEZWc3gycG1WU2pnYlNnRTZicHpQNFdRU0RQRnp6MElELUQzZmZvUXpfOUc0ZUFnYTVRUnZMcDNLMS1fVkJDdlJn?oc=5",
+      "source": "NY Fights",
+      "cat": "ufc",
+      "ts": "2026-08-19T22:43:57+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMiuwFBVV95cUxNWFNoVGxZRnZRTU04aGxEZTNTaVBrdUhDbkhYeVJCbjhNN3dxeGNFbFdnZ29PV2E5R0hza24yN1Z6QTFwRHBPZmQzQk55STBleGtqa2dCaV9kYV9NMzNQVVZucU1QNE45Ni1hbHZsZ3dFVUhxVWNvSW1GWktLOHhmeHE0N1hmVzdEUmFQQ0FhX0lDb1REZGQtdG1XV1RvV2E1VGhlM25jY0tsekgzYkVaR3BpSlc2Sm1TanVN",
     "CBMidkFVX3lxTE55S2hWa3VHV0kzUHZaTU95SDF5a01XRUU1aXBaVGNiN2tDcnBCaVJKLWtRSGpnR08weXhuVVhfdEJBdGFwM1lSOXNvMUhnMTFwWDFRWlVpempLVWhzMUVQdURVUkNXbGtJWXFmeDJTSTd6M0lPRXc",
     "CBMizgFBVV95cUxPQjA0a3kxTDdNYzFieS10NGlQXzhRYzBkSGlweGEzY2xLdi1Cd0drOGdlQnZSYXlSblc0bzhPdGI0VTY3Nld2VzBzSS1yYXdBSWNMLUVaY2tsQWJ4cXVVQkUtUFdJRnVNVlNwSlZvakVkZDRZc1RSS2dpT2FCZlZlSzFCZTNCTnpKWXQ1NG9xSTMxaDE1MUw4SWEzanR2THpMUzJOeFJYWWVobTRqTkg2ZklBNjA5MWNhbEpYUmlmRl9GREtabnB4aVA5cnZBZw",
     "CBMixAFBVV95cUxQXzBhTnpYY19UdzVyWTdINHoxUjAya0dIejFPVkhmYjlORjFudm5XdU03RmIyUUxOV29PTDVXTkx4M3d0NzVOV18wR0xBY2hVMUticXlkOHU3VGFsaXdfdi15d21faXFnM0hyZXJDNG11aU4yeERBVjVMWWl0TV9Xbk1qa2RqRzhaVkZsRENLQnlfSW8xTVR2MWJrWGlRY0p2OGpFTVAyN2QwM0lYNEpRX3p4UmdBekpXcHN3Ui1Cc3pDSVpu",
@@ -3312,7 +3311,8 @@
     "CBMipwFBVV95cUxQeV92VGRiTDQ2Z1pSLXlLNUZ1NFVWWUVIOXRpWFJKeGRaUm43QVZCQjdic19BWVBidEZwX0t0RkZyRjdRTVR2YjVyd29Vdkp1VGtqSHdMOUZRS2VBMVhtVmZ2X2hCWnFDQWFabVBoTTVQODNMaGtoUlItd1dEaUc5N1NVeEJLUzgwNHJjZWJmTTYtVndVT216cGp0T0tOMktSajQ2emkyONIBrAFBVV95cUxOcEVPYV9MOEdCS1psVFJqNU9ncmt4UGxSTlV6djlNSVphLWtyRllLN1AtMjVCeERqWkNSc3l5UDk4NkV2Wm5SMkw3UFpUOTVaaDR6MlZUckRISkhESVM0YXUzOWphSEZfVXF5MjFzVWVqMTB3QkliZEI2blQycnpMeUEwZ2FnUGczSUtQNVFVZVVvX2dOaXVlbUJOQWV5RWp6RWhDQlY5UkNZSUst",
     "CBMilAFBVV95cUxOTDRjUS12Wl81NkVpdlM1WFFjLXFGNWpxcGtSYkVqUWVPcVpXWDVKMkFmbjFqWFdDUnJCalJycUxzRncwQ3F0Z28xY1dUMG5sWXVqaHZHaFVtZ0ZhZldUZGpkTG94MlBGcUF2dlpfUk53Yk5Pcm4wUGVxNTFCQ3dUUFdMdmF5QzkwOWpwd2hUY2xnbEkw",
     "CBMikAJBVV95cUxNeDZuQ1ZSMVpFNmI0bF9KSWtOU1A5Q0pEZ3NDUWlHaGlBMjlCQmNRajN3M0FRQlB1Tnd1b1dCSEhEUVJoX3VDLUY5b2k4SG1lbzBNR2tnYUs4bTFpUzJqdV9DS21iZFBsTTVzZFVTQy1WbTU1XzdQdE9tWU9JUVJSSFNmMUhxUmpZZkUzaE1XNkNHTFlSaG1tNjVOb1U0aDF0amN4WUN5RXRhVnRRQ1AtTTNrMmNGWWZFeTJSTEhGQzdwU1JmeXJXRFVpcWU3TmxpNko3RDJmSmIycndrS1Rwd0RxcFkyS25yRUJxaFg0YTdmRkQzeHFsdjdOY3BaaWJweFpSb0RGWXNwNTJrVGtEcw",
-    "CBMi4wFBVV95cUxNa18yRVdnQVFnSXpXVHloTk85UkVVbkFIZ2U5MWRvOWxFbFdjWnoxVUZjc2hTSk9TRW90amRKZGlHMm1yQ0RSUzZPZDVsMDkwTWZBb0tWam90YW1LcE5HQTctWW9NUTctRFBqTXk5b3ZiUUthZDFrNjVaX0JiUm5rdlk2d0dQdGZLanpxUzJEVENUZFIwMzlpUXNCcmltdzR2MkczaXVCQ3N3WDlDZmR1bDFreWxMOTNaa25FZVhqX1RUelBMMXNmUUNZWXBUa25lQThqbnRoX0xBS3lrSHVBZ2t3NA"
+    "CBMi4wFBVV95cUxNa18yRVdnQVFnSXpXVHloTk85UkVVbkFIZ2U5MWRvOWxFbFdjWnoxVUZjc2hTSk9TRW90amRKZGlHMm1yQ0RSUzZPZDVsMDkwTWZBb0tWam90YW1LcE5HQTctWW9NUTctRFBqTXk5b3ZiUUthZDFrNjVaX0JiUm5rdlk2d0dQdGZLanpxUzJEVENUZFIwMzlpUXNCcmltdzR2MkczaXVCQ3N3WDlDZmR1bDFreWxMOTNaa25FZVhqX1RUelBMMXNmUUNZWXBUa25lQThqbnRoX0xBS3lrSHVBZ2t3NA",
+    "CBMibkFVX3lxTE5iUjNpOU1kMFpNQzhUM2tuLTdhU2R4SVZOYUltbldEZnpjdVZudEZWc3gycG1WU2pnYlNnRTZicHpQNFdRU0RQRnp6MElELUQzZmZvUXpfOUc0ZUFnYTVRUnZMcDNLMS1fVkJDdlJn"
   ],
   "daily": {
     "d": "2026-08-19",
