@@ -179,8 +179,18 @@
     "max_tokens": 220,
     "timeout": 20,
     "max_ai_calls_per_day": 120,
-    "max_staged_per_day": 6
+    "max_staged_per_day": 6,
+    "stage_max_age_hours": 36,
+    "subject_cooldown_hours": 12,
+    "story_cooldown_hours": 72,
+    "staged_similar": 0.5,
+    "cutout_cooldown_days": 7,
+    "quiet_hours_utc": [
+      21,
+      8
+    ]
   },
+  "studio_url": "https://iboyprime-commands.root90014.workers.dev/studio",
   "studio_retention_days": 2,
   "max_per_hour": 6,
   "dedupe_similar": true,
