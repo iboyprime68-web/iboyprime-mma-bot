@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White addresses Khamzat Chimaev’s potential UFC 333 return",
-      "ts": "2026-08-19T05:06:27+00:00"
-    },
-    {
       "t": "Carlos Prates confirms he's next in line, promises he'll KO Islam Makhachev",
       "ts": "2026-08-19T05:14:59+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Real American Freestyle wrestling eyes growth after fast first year",
       "ts": "2026-08-19T16:51:10+00:00"
+    },
+    {
+      "t": "Carlos Prates Signs 8-Fight UFC Deal, Confirms He’s Next for Islam Makhachev",
+      "ts": "2026-08-19T16:20:57+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Edson Barboza always gave it his best, which doesn't sound like much until you realize it was everything",
-      "url": "https://sports.yahoo.com/mma/article/ufc-edson-barboza-always-gave-it-his-best-which-doesnt-sound-like-much-until-you-realize-it-was-everything-191746472.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T19:17:46+00:00"
-    },
     {
       "title": "Arman Tsarukyan: 'Legit' Usman Nurmagomedov poses threat to UFC lightweights",
       "url": "https://sports.yahoo.com/articles/arman-tsarukyan-legit-usman-nurmagomedov-193022544.html",
@@ -2105,6 +2098,13 @@
       "source": "Axios",
       "cat": "ufc",
       "ts": "2026-08-19T16:51:10+00:00"
+    },
+    {
+      "title": "Carlos Prates Signs 8-Fight UFC Deal, Confirms He’s Next for Islam Makhachev",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnMW5QZk1IRFQ4NDdTVlVobkRYWU9yQ0g5Slg3THhnTmwzR2dDNVhyNEtZREtEMV9YYVFXLXp2Zm9KTnFmSTRabmZpcXJnbjQ3Nlp5Zk1SZ3dvTE1YN0lhakQ5RUFqbnM0SDAxbzhzNm9PS0phSlgyeA?oc=5",
+      "source": "NY Fights",
+      "cat": "ufc",
+      "ts": "2026-08-19T16:20:57+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     12
   ],
   "yt_eval": [
-    "2089398327682961794",
     "2089399453392257526",
     "CBMipwFBVV95cUxPeW9Qb1NIWWhmdFppR2lNTVBFMkRYR29LM3VMMUkwcEQ0WncxWnJDbUpLOWpiRkQ4bFNxNjdKVlBHZ0d4ZXV6TzA1ZUdOaTQ5bEhFTVZYMW1LcEptR3FWQ2VjSjA3enI2MEtHOGVfSU1BSmhhbl9sdnhhblN0eURCWEhSYjAxcFpBRExaX0VnY1pJeHRvSEFaYUJ6Y2JLa00ycmpDVk5MYw",
     "CBMiqgFBVV95cUxQYlZtTlhjd1dtSzBpR2owVm1HanpMVHpVNzhTTjhrb3ZPbXJpc0pHSVF3eTlkdWJpc3FoOG45U21oTVlrbTN5a1BlTHVaZ0lWNElJY3dVY3BkZGhabF9VVDlkNHdkOUxFSU5uQktWSTE5cUJMUlFDX09Xa01GZksxWmxCcTFYTGlWU0F0d1VMcWU3R2M4T3ZmMzRGWWpqVGxBZ0JfU2tMdk5HUQ",
@@ -3312,7 +3311,8 @@
     "CBMisgFBVV95cUxObTA2dHBvS3dFdG5Ea3lIaFlfUm9ybzY5b2N4MXNQRFExbW5PSUVGUk1wUXNQNWF6a0dfTGlObGlPV2hYZzJIcGt2d2d4SkN0bUYzRUtzb0g2NTFYWHZDMWljRG5LaUNiLXMwWVVyS2NVSkNQMm5ZMnFabEhCUWNlM1N1MHBmS29VMWdkRDdTSHh6czZZWnRhTVM0ZnZvS3V5TmhzMDZkalRLTFN1ZHRHVDd3",
     "2090113230366494940",
     "CBMiswFBVV95cUxQVm02QlMySjI5b3lSU2ZkTGp5bFV2WGUwcERjWjRUeVJ6VDVvVXVLajdoRXo3NzFmYXRaRk5oM3Y0a1BVRklqZjNBbjZ0dnBKdnEtTGhuSzVuSEk2VkcxckdhNFUyRngyVmZhTERvcXNlZmU0VDZNa0ZiYWk4WGx1QnVFb0Vna2hhXzUzQ3Y5ZTNNZW1KU2p3dldTT0dSdmhPLVFWYXpQcGZXRmhHX2JCQ2dPTdIBxgFBVV95cUxOQjlua0RTenJGYkQzRWZLUm9rQUNfSks0dEVhZHM4VHI5cUp3QWNqQmxTLVdBWVRseDd1MWlrSVVFMWVQSjl3eVNMT24xVXZfU1lPblhUZWhVYkE2MHBTNjBxMHZyakxpODdTUURCU1FjMnBwTE9TMmZRMlc5ZXRndWd6UWhVWGlBcEZCZFZqWHhhaGU5YllCVm9SanFnSmVoaHczM1V3SnNDYkZRaVNkekZSQnlmUG5wS1I2SjRycW9JWV9xbmc",
-    "CBMiiAFBVV95cUxPVTNYR0x1N2d2TWNsaGxKSzhWTGhNbThwWEUwQlc5ZFhOUmwtekxnWTlSaEZYZG9vZTg3OU5tNHBncXBnX0ZIWEY1N0lpRlVXTWtmUXl6YnpEZnlJWVVsZnFlRGMyWmRHX0lCdkhDSHpZVkVUSUVRYVdzRUQtYk5nMFVlcVp0WmlJ"
+    "CBMiiAFBVV95cUxPVTNYR0x1N2d2TWNsaGxKSzhWTGhNbThwWEUwQlc5ZFhOUmwtekxnWTlSaEZYZG9vZTg3OU5tNHBncXBnX0ZIWEY1N0lpRlVXTWtmUXl6YnpEZnlJWVVsZnFlRGMyWmRHX0lCdkhDSHpZVkVUSUVRYVdzRUQtYk5nMFVlcVp0WmlJ",
+    "CBMieEFVX3lxTFBnMW5QZk1IRFQ4NDdTVlVobkRYWU9yQ0g5Slg3THhnTmwzR2dDNVhyNEtZREtEMV9YYVFXLXp2Zm9KTnFmSTRabmZpcXJnbjQ3Nlp5Zk1SZ3dvTE1YN0lhakQ5RUFqbnM0SDAxbzhzNm9PS0phSlgyeA"
   ],
   "daily": {
     "d": "2026-08-19",
