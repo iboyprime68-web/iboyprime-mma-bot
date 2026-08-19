@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Cris Cyborg undecided on retirement, weighs ‘interesting’ options as free agency looms https://www.mmafighting.com/pfl/505544/cris-cyborg-undecided-o…",
-      "ts": "2026-08-19T17:02:37+00:00"
-    },
-    {
-      "t": "Edson Barboza details grim reason for UFC retirement: 'I almost lost my vision'",
-      "ts": "2026-08-19T16:11:37+00:00"
-    },
-    {
       "t": "Dana White responds to Khamzat’s UFC demands — and ‘Borz’ fans are not gonna like the answer",
       "ts": "2026-08-19T16:38:11+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "MMA Prop Pick of the Week: UFC Sacramento",
       "ts": "2026-08-19T23:22:03+00:00"
+    },
+    {
+      "t": "Usman Nurmagomedov Wanted to Turn Back Clock at UFC 330",
+      "ts": "2026-08-19T23:24:04+00:00"
+    },
+    {
+      "t": "Edson Barboza reveals he fought last 2 years of UFC career blind in one eye: 'I can't see nothing'",
+      "ts": "2026-08-19T23:24:23+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Arman Tsarukyan says controversy is ‘important’ for ‘boring’ fighters",
-      "url": "https://sports.yahoo.com/articles/arman-tsarukyan-says-controversy-important-063450066.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T06:34:50+00:00"
-    },
-    {
-      "title": "Islam Makhachev's UFC GOAT case gets pushback from former champs",
-      "url": "https://sports.yahoo.com/articles/islam-makhachevs-ufc-goat-case-071122577.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T07:11:22+00:00"
-    },
     {
       "title": "Video: Watch LFA's best fight finishes from July 2026",
       "url": "https://sports.yahoo.com/articles/video-watch-lfas-best-fight-120114414.html",
@@ -2105,6 +2091,20 @@
       "source": "Sports Gambling Podcast",
       "cat": "ufc",
       "ts": "2026-08-19T23:22:03+00:00"
+    },
+    {
+      "title": "Usman Nurmagomedov Wanted to Turn Back Clock at UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLWhxZ1FzWmNIN0dLUW9aRDFBUDhSMkRhTmxhaXlLZm5FMTFLREQtbl9wVzF3Q0Y1ZU9jVm5TWEczRV8tR0FxSUJHd1JOTm03a2pTQ0I0b290SnhDTlNQQnE2cGFUY0ZXR3dNS01ndEd3QXM5RHNRSDhtdHBtTXNNVWpuM0lZMTBxRWVXYTZaOE5qOWw5TEUxcVlYX2lSWVhyRFJ0NUd3SHFLZDBPN3J1a1pLWGp4a25LeEVITVM5ZHlLVEMzcVE?oc=5",
+      "source": "mmasucka.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T23:24:04+00:00"
+    },
+    {
+      "title": "Edson Barboza reveals he fought last 2 years of UFC career blind in one eye: 'I can't see nothing'",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQN3hrbU5uUU5YTXhqX25ibUVsSlFfVGJ0VVQ4aFQ4TWRQVE45UGdPM3M0NXR4Y2ZNV2I4SEFkZXJjTTFqejV4d24zLWFsTEVlR2E1VEk3a2pxMjNHMm92blg5VFp3M1NoODFJY3plZm54T2JFX2F3YkJhN2JzMzJjWjBQS1pfd0hWczhyZWRIU0E0ckZ5aFdmTW5Lb1dGVWNFMXpYMHhDRHRPQVJlUHhxdnYxX0ZSckFuVzY5S1dSU0tlTkg2WjlWVDhmY0l4RjE5aFN0cGh4Xzl1dw?oc=5",
+      "source": "Yahoo Sports UK",
+      "cat": "ufc",
+      "ts": "2026-08-19T23:24:23+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMiW0FVX3lxTFB4aVY0bEtBb0JJUUc1Wlhaci03Q3lCVmkwYmhwVXh2U0JQWC1SMm8tQ0dmWW9WZ20yX0Y2TGRydUZDSzJTN0huYVlXS3pwRjNoek5CUl9qZHZ2eGM",
     "CBMinAFBVV95cUxNNmx3Y2NUV3dFaV8yU2NHRnZneDhrb2hSYzQwTnJBVFpob2xYNlNfZzJyWVptcm94N2RvT01XR0JnOGZKLUE0NnlBUGRrbWg1QlZkRTZESkN5SFB0eTVycFV1RkZFaWhfWTlMMFRCWGFhWmJOS3l1c0U4YTBQNld2MUFwTVp6ZnpOeWRiWjRhckN3Skt0dk4yUlRzZGc",
     "2089472588539899981",
     "CBMif0FVX3lxTFBRZVRpMlhSU1E4VTdZMmFSdDVJQm1uX1Y3RjJDSHdJZjdSQjg1LTU2Zjl4X1dnX29wQWtLUDl1MHd5LTdDUjRmUkI3X0tWY0VCMlVZRFJpZ2ljZGhCRUV5ZFNGR2tZb2lLWGhacmZzQVJhS2VtRExSb0tLN241YVE",
@@ -3312,7 +3311,8 @@
     "CBMiuAFBVV95cUxNVnRmYXh1RXVGaHhNUFZVNDdoenpkNEo4Z2pYb1YyMW5qRGJ3OVlFTThQQXdCMmpsSUE5dUFlWVVxSHBTc01VQ0VSSnFSUUxwTFN3R09BcnFPUHNUME9vOTVPV095V1ZScFE0NGMxMkg3b3FhNFo4NXRiOWxWUnQ2amd3SHVBNXBTaG0yZVlVekc2ZEZjT09iQVhicUVJa19ZSVJCVGEwd1JlMGxURW5NVlhJQkFwdGw5",
     "CBMiekFVX3lxTE5femQtVW44emNWckVSalNyZnY0VmpOMFAxVEgwMDExZy13M0lSakRYZWRoRU1Qc3lYdzJmazE5aUs4SHhVNUZwekZJZk9fRWFmSl9ObWVsb3VlaTVOeVRLQkJxQ2hQQ2hzTWd5bzk5UEE2OEVGOW5tLVVB",
     "CBMiiAFBVV95cUxQS19HbFBLOVhlS20zQzd5b00taVp5RjhHTVA3WlpEMHBrMzFfRzhnOTJRZV81dnlxZHUyYWF3aUh5Zm1uLUJuOEIxRlFnbDdvbmVEQzk2ZUlsUWZGLTRaZFVnQ01pcnptaUVPNC1uZ0VvU3VONGRrZUpfMWpqa05SNms5dDY5QUs2",
-    "CBMilAFBVV95cUxPc0wzQTY4Z3RyN3k5TVE0eFhvNlhOMkFOQm02TmtDMHJzZ3IzckNTWEdsN1cwMGlnNmpvUDVNLVlLUXQxMnZtQ0pXTW5tSk9RRUNMMW5VRF9ZRmVXTGd4anBMQjhLbVhzRVZQOTE0Y1JkOTU3SWp3M0VEeXZsaGYyVXJONXdXMFR3ZExSM0pjVjYyRDNN"
+    "CBMilAFBVV95cUxPc0wzQTY4Z3RyN3k5TVE0eFhvNlhOMkFOQm02TmtDMHJzZ3IzckNTWEdsN1cwMGlnNmpvUDVNLVlLUXQxMnZtQ0pXTW5tSk9RRUNMMW5VRF9ZRmVXTGd4anBMQjhLbVhzRVZQOTE0Y1JkOTU3SWp3M0VEeXZsaGYyVXJONXdXMFR3ZExSM0pjVjYyRDNN",
+    "CBMi2gFBVV95cUxQN3hrbU5uUU5YTXhqX25ibUVsSlFfVGJ0VVQ4aFQ4TWRQVE45UGdPM3M0NXR4Y2ZNV2I4SEFkZXJjTTFqejV4d24zLWFsTEVlR2E1VEk3a2pxMjNHMm92blg5VFp3M1NoODFJY3plZm54T2JFX2F3YkJhN2JzMzJjWjBQS1pfd0hWczhyZWRIU0E0ckZ5aFdmTW5Lb1dGVWNFMXpYMHhDRHRPQVJlUHhxdnYxX0ZSckFuVzY5S1dSU0tlTkg2WjlWVDhmY0l4RjE5aFN0cGh4Xzl1dw"
   ],
   "daily": {
     "d": "2026-08-19",
