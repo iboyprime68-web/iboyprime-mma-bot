@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS Results: Season 10, Week 2 https://www.mmafighting.com/ufc/505732/dwcs-results-season-10-week-2",
-      "ts": "2026-08-18T22:01:16+00:00"
-    },
-    {
       "t": "Back-to-back Contender Series redemptions as Cristian Perez takes advantage of his second appearance. #DWCS88 #DanaWhiteContenderSeries",
       "ts": "2026-08-19T00:26:58+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Joe Rogan Urges Islam Makhachev to Relinquish UFC Welterweight Title",
       "ts": "2026-08-19T18:36:00+00:00"
+    },
+    {
+      "t": "Alexander Volkanovski details how UFC 333 could be his last fight but doubts it'll get to that point",
+      "ts": "2026-08-19T18:39:46+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "DWCS Results: Season 10, Week 2",
-      "url": "https://sports.yahoo.com/articles/dwcs-results-season-10-week-220000030.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T22:00:00+00:00"
-    },
     {
       "title": "Belal Muhammad on Ian Machado Garry at UFC 330: 'What's with this hugging?'",
       "url": "https://sports.yahoo.com/articles/belal-muhammad-ian-machado-garry-220051290.html",
@@ -2105,6 +2098,13 @@
       "source": "Newsweek",
       "cat": "ufc",
       "ts": "2026-08-19T18:36:00+00:00"
+    },
+    {
+      "title": "Alexander Volkanovski details how UFC 333 could be his last fight but doubts it'll get to that point",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOc1FYZmRnbTB6WTUxS3BWUnN0Y2EzUzNkVE5YQTJzd0xHWUktNWt1Rll4UmpTN2R3UlhsdGs5MVNCTlJaNTFEaUc3alI1dEtZb3MtZGUwQjh5Y3dQSFVBalYzaUJzajdzVmhHYzRMNDhKUUtGNzEyWUFQRjE2Tkcxc19XcENyTVh1ZTdsVGU5SWlSeUNLNXJpTWo1Nks4bTcyZlRGeEZkWWk4cFF2NkhWX2prbmd4bjV5WENxTWViWW5OQS02dFJJMzhHWEZGNENqZ2c?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T18:39:46+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     14
   ],
   "yt_eval": [
-    "CBMicEFVX3lxTE5XOEVWSmFRWGVtZi1WaTNRVU1WYmlkOHgwWkhtYzZjc2h2eXdGSjA1czhnUVRlUXhFd3ZlMHFxSlR0R3NPV2tianlRYWwyQVFjV0UtTWpTamVwbGlyRFVDUFNPUWNQTUtTVkFnQmhVemM",
     "CBMib0FVX3lxTE1OdmJxU2ZNbk1FTEV1MkxmVVEzcGx5OFBBRXJqTTdKNWNVd1BTWEduRkdrZWlzTEZzRklhOWNSaFBsRW10ZE1LdDdQYUp0MWxBLVdHc1NBa2x6X3RYR3J4dVdqV2JUMFJ2M3FRa2RMVQ",
     "CBMisAFBVV95cUxOcnZaejB2QWNYM3JsSGg5OGlfTVdqZFpIU1haZHpRdmJDQ0dmOWlPclYtdmNlNDFISUg3VHR6Zmtiekd1SE1BaVo0Y3BXOTl5eWRJN1JBbmsxdkJwUTQzdGs4SXVQWVJtdlBkVGdSMU9mODlfalZHaGVJXzQ2ckxNMHdlTTBFUXhRSnpnbkMzWFM2RDdKUnRWNk5hLVo3Um9EcHRoenowb1dPSHk3Z01TeA",
     "CBMiiwFBVV95cUxQZ09HWFF2TGZfVUUxNUlJVTFBVk52dTJET0tYdDlGRjEzMFgzZTRINjZqZ1JfMHU2M0cyd0tBX3hQbDk3ZXJxTG9Td1RKYmZCWDNJN1F1V0JhS0N4Z0lJeXJMZFFLZC1hUUdIRklUQVRQNTlFVDN6QmtvZXUxSzRLdjhmbVY1TFhNRHkw",
@@ -3312,7 +3311,8 @@
     "CBMirgFBVV95cUxPVHJ4ajVQWkRKaE1FaWw1ekF4Q0RJeHpyMXUwWEN2R2ZSNnZwZ0xTRzlHVkJ6LTkyVXZoT0ZOcmt2UElmMV9rcVZmUUZ1YjNIZ0ZqbmVJc1l4TWVXNjdfNm9aMzl5VUdTZnlXek91Q3hZeGhTV09UN2M2eXJzT3RGb2FVRTQwdXBmQWxUbDJ5WENqUHEza245YUc1N3NDRWl0X2ZGaXJkR0tnME54d0E",
     "CBMifkFVX3lxTE9tRlVuakZMRVl4R0NzRFlXNU9DZ0FYWU1kdmJxMUdVSTlDWExlem1fWk1MSEg2RHgzY0dGVVVRcU53ZGZRcFRMNktBS2Z1ZExxX1pEOUF2QmVBOVNwN2RPWkhmTUYwZnlwZGI1cl9EOUo5VEduUXNVd1VBczlSdw",
     "2090144138184515933",
-    "CBMipAFBVV95cUxQTXBob1BjNno3cTNRM3JzSVNKSVVDRURzeUhMZGN2LWk0Wmstc1RmN1p6VzZLMTJpUk5DMDVpYnUyS2hyRjd0NlFRZmJxWm4zWVBLRHJoZm1TT0NoeU1HREVlTGstczA3M2U0aXgyZzFQSTAtblBqT2d4ZTV4NXJvR0RMb185Ny1QMW5WeFVFN3hLODRUbVdvVGdad0NpMk1uenJXeg"
+    "CBMipAFBVV95cUxQTXBob1BjNno3cTNRM3JzSVNKSVVDRURzeUhMZGN2LWk0Wmstc1RmN1p6VzZLMTJpUk5DMDVpYnUyS2hyRjd0NlFRZmJxWm4zWVBLRHJoZm1TT0NoeU1HREVlTGstczA3M2U0aXgyZzFQSTAtblBqT2d4ZTV4NXJvR0RMb185Ny1QMW5WeFVFN3hLODRUbVdvVGdad0NpMk1uenJXeg",
+    "CBMi0gFBVV95cUxOc1FYZmRnbTB6WTUxS3BWUnN0Y2EzUzNkVE5YQTJzd0xHWUktNWt1Rll4UmpTN2R3UlhsdGs5MVNCTlJaNTFEaUc3alI1dEtZb3MtZGUwQjh5Y3dQSFVBalYzaUJzajdzVmhHYzRMNDhKUUtGNzEyWUFQRjE2Tkcxc19XcENyTVh1ZTdsVGU5SWlSeUNLNXJpTWo1Nks4bTcyZlRGeEZkWWk4cFF2NkhWX2prbmd4bjV5WENxTWViWW5OQS02dFJJMzhHWEZGNENqZ2c"
   ],
   "daily": {
     "d": "2026-08-19",
