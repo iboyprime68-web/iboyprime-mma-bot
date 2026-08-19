@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504401",
     "https://www.mmafighting.com/?p=504412",
     "https://www.mmafighting.com/?p=504440",
     "https://www.mmafighting.com/?p=504443",
@@ -912,6 +911,7 @@
     "https://www.sherdog.com/news/news/Contender-Series-winner-gets-surprise-UFC-shot-after-UFC-330-shakeup-202340",
     "https://www.sherdog.com/news/news/Cris-Cyborg-farewell-fight-announced-for-PFL-Tampa-on-Aug-22-201638",
     "https://www.sherdog.com/news/news/Cris-Cyborg-opens-up-about-what-motivates-her-ahead-of-final-MMA-bout-202395",
+    "https://www.sherdog.com/news/news/Cristian-Perez-explains-gameplan-change-that-earned-UFC-contract-202421",
     "https://www.sherdog.com/news/news/DWCS-2026-Week-1-WeighIn-results-5-fights-set-202294",
     "https://www.sherdog.com/news/news/DWCS-Week-2-official-after-all-10-fighters-make-weight-202403",
     "https://www.sherdog.com/news/news/Dakota-Ditcheva-breaks-both-hands-in-PFL-New-York-win-202280",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Week 2 Results + Scorecards | Dana White's Contender Series Season 10",
-      "ts": "2026-08-19T00:42:14+00:00"
-    },
     {
       "t": "The “knockout prediction” backfired: Makgregor sent an unexpected message to Gerri",
       "ts": "2026-08-19T00:44:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Islam Makhachev Defeats Ian Machado Garry Stream of MMA",
       "ts": "2026-08-19T02:25:33+00:00"
+    },
+    {
+      "t": "Cristian Perez explains game-plan change that earned UFC contract",
+      "ts": "2026-08-19T03:11:41+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 332 adds several new bouts, including Johnny Walker’s heavyweight debut",
-      "url": "https://sports.yahoo.com/articles/ufc-332-adds-several-bouts-153000730.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T15:30:00+00:00"
-    },
     {
       "title": "Between the Links: Reaction to Islam Makhachev’s win at UFC 330, Din Thomas; Plus, previewing busy weekend",
       "url": "https://sports.yahoo.com/articles/between-links-reaction-islam-makhachev-154500109.html",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-19T02:25:33+00:00"
+    },
+    {
+      "title": "Cristian Perez explains game-plan change that earned UFC contract",
+      "url": "https://www.sherdog.com/news/news/Cristian-Perez-explains-gameplan-change-that-earned-UFC-contract-202421",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-19T03:11:41+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMijwFBVV95cUxPZ05WcVpSZm9jZ1hON1pMamxtMGpRS296cWpHMjZNY1A5WVpoLUF0aFpFaVotc0NEYTRGM2ZJamFGejhvX1QwRjlrX0VMTm5DVTQxWVpjWDZPR0tVWS15ekRyWTFzZjZVb3hBbDJqQ2l0MGRuUWhEQ1R3WGZWQlZLMzhlWlEtUzIyVDhhTDFlMA",
     "CBMisAFBVV95cUxQeEpBc2hDcFV6dkpDREI1bjZ3em5hejFXckJiQWVGQlVxN0xmMWF0dDJWaVVuY01jV0JyUi1ueFdIMVpwNTIxTXRfSWx4TmJFMjRDMWtnOXZrQlE1S1ZVOGU4NEU5aHFLSTltZ3FqV0tBM1hseDVKR2RwZUJYTjRTY1oxNFhmUV9aZ0pTMmFJeHBORVZQUmh4d3hWRzJlWHhYdzZ5dHZ2eGF4XzRPdDZINQ",
     "CBMifkFVX3lxTFB4ZTN5RWxJSERtclJRRGEzN3l0bGI1X21UNjI2Z1F1SG4tOVppN2s3WjlnZUlaLTlOSXdmcHR5OGNya19uUGtLTmQyaUJSN3ZlbVZaSHc4QjhITjJFY251Y0dDQlRobzNXenpfVjFBMVlpNGFtWTFyV1MyaExFQQ",
     "CBMi0AFBVV95cUxPU1FaekNrQTY4d2xTUjBtdllramtSNGdRUHNIRndLbzhuVnRjUUpLaEFnTjVWY1JrdVBXLXg0YkZGTjBzek16ZXJob3FrZjRxR05GdkFBMGZ4ZVY4Nk5jUkxTblVuQUl0bmNORlRlUmhLZ25NMDFPM3kzNHAtVWtEenlHNlA3eUFUTnBEcFhuU1JabTl6Qkc4dzVWTHMyYlNfdXVCMUFiYTlXLThidkxjS2ZqTXJKb2NaT1czcVkzTHV5WDNVZG5yMjU4amxaMTRj0gHWAUFVX3lxTFBLTGlzbk8xWFRlem5YbVU4QS0waUw4Q0NQVlR4S3Jfb3VyWHdER1djYjIyYzJyQjJHQlg2ZjlBdElRektXSmRCalhtdmpNTV9sT3dNUHZWb0JtOGpXYkdONlN0RGhxNXYySGxuYU02RGtPRHIyTjlpSnVMNXZMYXdESzNDUGRhanVfbjQ1UU1ZQ01rbTMzcGRyd1J0aDFRNXNuLVRMSGx0dG51aVBLdXZiZmRjVDFzd2d6VnBOLVhkenRzRzV6T3ZJdG5HTE5ZZ1dULXJSWXc",
@@ -3312,11 +3311,12 @@
     "2089911801580491052",
     "2089912766232662465",
     "2089914139393302571",
-    "CBMiiwFBVV95cUxNVzBKNmM5dndFWHJEblJXdmJ4NzY5aG4zemRqbDhveFh0X1lsbWdQNk8yUHFhZWhEbmxYdkFYd3hDdV9mUXA3WTNMY3FUWmhiWTBTbW9lRWd0V1ozcXcyckZlSXB3N2hTbFlXVlR0LXc2aUFKZ3paWkxxMXdJY1M3alZjdG9ibnhTN080"
+    "CBMiiwFBVV95cUxNVzBKNmM5dndFWHJEblJXdmJ4NzY5aG4zemRqbDhveFh0X1lsbWdQNk8yUHFhZWhEbmxYdkFYd3hDdV9mUXA3WTNMY3FUWmhiWTBTbW9lRWd0V1ozcXcyckZlSXB3N2hTbFlXVlR0LXc2aUFKZ3paWkxxMXdJY1M3alZjdG9ibnhTN080",
+    "https://www.sherdog.com/news/news/Cristian-Perez-explains-gameplan-change-that-earned-UFC-contract-202421"
   ],
   "daily": {
     "d": "2026-08-19",
-    "ai": 108,
+    "ai": 109,
     "staged": 4
   }
 }
