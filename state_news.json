@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Belal Muhammad on Ian Machado Garry at UFC 330: 'What's with this hugging?'",
-      "ts": "2026-08-18T22:00:51+00:00"
-    },
-    {
-      "t": "Forging 'Warverine': Logan Paxton took a cross-country path to UFC opportunity",
-      "ts": "2026-08-18T22:27:43+00:00"
-    },
-    {
       "t": "Main event remains a mystery as UFC 332 fights are finally announced",
       "ts": "2026-08-18T22:34:57+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Dana White rewards Roman Puga, Taner Trembley following DWCS war",
       "ts": "2026-08-19T01:27:43+00:00"
+    },
+    {
+      "t": "Cavalier FC vs. Salcedo FC Live Stream of CONCACAF Champions Cup",
+      "ts": "2026-08-19T02:29:09+00:00"
+    },
+    {
+      "t": "Tyron Woodley says Sean Strickland left details out of DM screenshot amid Din Thomas UFC 330 controversy",
+      "ts": "2026-08-19T03:06:13+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Carlos Prates has a chilling promise for Islam Makhachev",
-      "url": "https://sports.yahoo.com/articles/carlos-prates-chilling-promise-islam-063313952.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T06:33:13+00:00"
-    },
-    {
-      "title": "Hexagone MMA targets European expansion after rapid rise in France",
-      "url": "https://sports.yahoo.com/articles/hexagone-mma-targets-european-expansion-065447583.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-18T06:54:47+00:00"
-    },
     {
       "title": "Coach: 'Islam Makhachev doesn't care who he fights next'",
       "url": "https://sports.yahoo.com/articles/coach-islam-makhachev-doesnt-care-071439440.html",
@@ -2105,6 +2091,20 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-19T01:27:43+00:00"
+    },
+    {
+      "title": "Cavalier FC vs. Salcedo FC Live Stream of CONCACAF Champions Cup",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mQlVIaUZSWGttSDBnUmpZdkxTdFFxZmhkaGRDNXZXaHVleklGSm1Nb3NiRm9TYXRRZ0cwbEhLQkY3aFdmZXNuaXRoR2Z0a283RUtubkJyazM5cnBDU2JDcTdxcS1GbjE1OUFSOVN5YnhTNGt3UndR?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-19T02:29:09+00:00"
+    },
+    {
+      "title": "Tyron Woodley says Sean Strickland left details out of DM screenshot amid Din Thomas UFC 330 controversy",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNWZuZnZJRzljY2NJQ1FWeDJ1bVZjMHp3UXlGNU1kYWFDS2lSTGFDV2dWTVZwMnJUcXBhVWREOEMtYnE1YUkybnV4R1luRnhDcVBfWXVjb1lGZFB6ZzBYN3dCbG5Mc2tzcmoxY1JTNDdkbFlPX2ROU2FnWF9CT3BoTWFCUWZyaXNZOV9LTi1CZ1J2UHh6cUNEYVl1WlFaWWNNUWFWb1VNZXRuQU9VZHR1ZF82SnJPdnhMVGQyYjN6RmUydHA2Y1lsdjhEQV9iOEhCRzVYSDZmMTBEY2tDRml2QU93QTVKUXdI?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T03:06:13+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMif0FVX3lxTE5HelgxekkweHFITDRzb0ZhSEk3S2NmR2lMaEhMdGQ2ajFfMm9rR3hKcVZkbE5mTlNqbFFMNkxNaFZhbjFsQUs4bW1NbkdHODZYbUt1SE8yekJaWUxJaW44MDduLWxDck1PMHAxMVZER2NWbjZjRS1NZU13WE4xN28",
     "CBMiuAFBVV95cUxPNGNDRXJVR1RqSTFGYzZVb2I2eUVfeTM2SzlaNWVhTzlOSUw4UmZQdkVGQmFYNkpLb3JQelUtdS14b0M1NjByUUREME1Bd3l6dF9wbUNqN0R3UWk2alNLblV0QWV2aWk2S0NnXzZoM2h2OFI3VjhjajEyeDFwNGNsUklXNUhJNlpxR3dkSnpuTGpQeld3dUJIQ09mN2F0NmJZM2RzTUtWR2Q3ZU82cUVNNUVlTTdjS2NC",
     "CBMi0wFBVV95cUxORnBvTVZmak1FVXVTUElpTmdGa1VvdWhQUVpWZ3BoNkpyc3BiTUNCUlViM2RmM3RWZTc3RXRZb2gtdDFPZmRqYjQxYVJyYUh6ZHV4bmxTczNCLVpGQ2dvTm9BSUt5UFFJYUxzX2RNM1o5OEp6TDhvdHpoT0IxS0poSGJRQVhSVmZhYUd2R2MyUE9oT1Jfa0R5V255bU5pdHM2QXRmT21zXzFjSzZ1ZlpaWUV5VlRUUERpNE42WF9kNVRZU3VfTURXRWhaTnBnQnZBR1Fr",
     "CBMiggFBVV95cUxQS2dBd3lYajVaZG9PdUJLdVJaVGhDN3dMM0pGVWJib05UMWZ1RWd2N214M3VDNFhvWEQ2aWdQTHJOdUlxSlNDVk0xekhHUnZFSlZZU3ZBYnJtU01oX2hKNTRXYzhleXA2OUUwdm9taVJiRHh4T3JZQVJERldFNHpqeXF3",
@@ -3312,11 +3311,12 @@
     "CBMib0FVX3lxTFA4czk4bFQ4YzljMHRvS3JSaEJvNjlzZmo5VlFCTE5tZEs2ZW16QW9MRTVKRjZTR01oTTRwM04tZU5rTEo1TWk4WkhMODBDelV3ZVlwZFQ0NThyaklrckNlRHFOWFRVVDhHWG1CRnBvMA",
     "CBMib0FVX3lxTE5MT1lzOU0xcEVkWXlPWnNJeWZ1UHBMNy15NjFXTDcydlZydVB0cmw4LVdydUFaemFjSGVFaC05UTd6M0oyYV9yOHNTb0xISmRDTGNOaFNHcUZCMDVnUGtVOW1tbHQtVU1NRzFnQ2tzQQ",
     "CBMihAFBVV95cUxNeUtfa2wtLUpuNVJmSVpaM3RsY0ZxZmtCVGQwQzQ4NWhGcnFyZ05RU1plYVFWdUNYU1U5X3g2ckxHUlUwODF1RzBEbUpEQmQ0cGZXb19JMGtzQWp5RXg0eGR0bE9yRmFlQTd5emg2TFVXNWJwM3l6STlzVlRqenpIM0tnbUw",
-    "https://www.sherdog.com/news/news/Dana-White-rewards-Roman-Puga-Taner-Trembley-following-DWCS-war-202416"
+    "https://www.sherdog.com/news/news/Dana-White-rewards-Roman-Puga-Taner-Trembley-following-DWCS-war-202416",
+    "CBMi6AFBVV95cUxQNWZuZnZJRzljY2NJQ1FWeDJ1bVZjMHp3UXlGNU1kYWFDS2lSTGFDV2dWTVZwMnJUcXBhVWREOEMtYnE1YUkybnV4R1luRnhDcVBfWXVjb1lGZFB6ZzBYN3dCbG5Mc2tzcmoxY1JTNDdkbFlPX2ROU2FnWF9CT3BoTWFCUWZyaXNZOV9LTi1CZ1J2UHh6cUNEYVl1WlFaWWNNUWFWb1VNZXRuQU9VZHR1ZF82SnJPdnhMVGQyYjN6RmUydHA2Y1lsdjhEQV9iOEhCRzVYSDZmMTBEY2tDRml2QU93QTVKUXdI"
   ],
   "daily": {
     "d": "2026-08-19",
-    "ai": 101,
+    "ai": 102,
     "staged": 3
   }
 }
