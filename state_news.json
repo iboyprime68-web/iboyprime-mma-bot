@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev’s coach told him his fight against Ian Machado Garry was tied 2-2 going into the final round at #UFC330 📰 https://mma-fighting.visitl…",
-      "ts": "2026-08-19T13:30:30+00:00"
-    },
-    {
-      "t": "Dana White explains why he offered UFC contract to DWCS 88 loser https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/dana-white-contender-seri…",
-      "ts": "2026-08-19T13:46:22+00:00"
-    },
-    {
       "t": "Tyron Woodley stands by Din Thomas, reveals plans to return to MMA and make one ‘last run’ in his career https://www.mmafighting.com/ufc/505782/tyron…",
       "ts": "2026-08-19T15:02:51+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Carlos Prates Inks Massive 8-Fight UFC Contract Extension",
       "ts": "2026-08-19T23:14:05+00:00"
+    },
+    {
+      "t": "Yair Rodriguez Is Out of Noche UFC—and Jean Silva’s New Opponent Changes Everything",
+      "ts": "2026-08-19T23:10:58+00:00"
+    },
+    {
+      "t": "Reinier de Ridder opens up about UFC light heavyweight debut against Roman Dolidze at UFC Sacramento",
+      "ts": "2026-08-19T23:19:05+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White Signs 6 New UFC Fighters After Week 2 of DWCS",
-      "url": "https://sports.yahoo.com/articles/dana-white-signs-6-ufc-042828765.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T04:28:28+00:00"
-    },
-    {
-      "title": "Dana White addresses Khamzat Chimaev’s potential UFC 333 return",
-      "url": "https://sports.yahoo.com/articles/dana-white-addresses-khamzat-chimaev-050627081.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T05:06:27+00:00"
-    },
     {
       "title": "Carlos Prates confirms he's next in line, promises he'll KO Islam Makhachev",
       "url": "https://sports.yahoo.com/articles/carlos-prates-confirms-hes-next-051459497.html",
@@ -2105,6 +2091,20 @@
       "source": "mmasucka.com",
       "cat": "ufc",
       "ts": "2026-08-19T23:14:05+00:00"
+    },
+    {
+      "title": "Yair Rodriguez Is Out of Noche UFC—and Jean Silva’s New Opponent Changes Everything",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS19HbFBLOVhlS20zQzd5b00taVp5RjhHTVA3WlpEMHBrMzFfRzhnOTJRZV81dnlxZHUyYWF3aUh5Zm1uLUJuOEIxRlFnbDdvbmVEQzk2ZUlsUWZGLTRaZFVnQ01pcnptaUVPNC1uZ0VvU3VONGRrZUpfMWpqa05SNms5dDY5QUs2?oc=5",
+      "source": "Athlon Sports",
+      "cat": "ufc",
+      "ts": "2026-08-19T23:10:58+00:00"
+    },
+    {
+      "title": "Reinier de Ridder opens up about UFC light heavyweight debut against Roman Dolidze at UFC Sacramento",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSWUwMlpYY2FtaFVpODJ3dVFVTWRqMVNfMVdYNERYMkNra3ZPczRpMXhYekRLa04taS1fdGtpSFFSOUR3OEQ5Nl9LWk1LVGJZbkJMMUlCRk5qRjJsOXNMWG1BVlhzUEJQcFBYVkMyUHA2U2lkUXB0YmQ0N29Lbk1wNVhiSU1NQmpxSzVxTHN2djA5ZzhlRGRrd044Ukx3endLa3F5R3BSZUFmdEcwQnYxY1JmTDBKRVQzbm1GazZUdmtJckNVMWc?oc=5",
+      "source": "mmasucka.com",
+      "cat": "ufc",
+      "ts": "2026-08-19T23:19:05+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=327500",
     "CBMilgFBVV95cUxNNjB1SDB3U0ZuLXppaDA5WXVGMDBpdkxfbTJPUTJTTkg4Yk41SkpLSlYzNWJCcHg3RmlFRlAxVUl4cW83ZFkyeURGQ1g3RmVYNWF2VUlyRTNUMnY3bENUc010TlRwWmlJUEYwZkprS0RuWHFXWFRqaGtaeWhoc3FLU3RnM0FrWlJsdXgzVTdyWmo5ekJENmc",
     "CBMiW0FVX3lxTFB4aVY0bEtBb0JJUUc1Wlhaci03Q3lCVmkwYmhwVXh2U0JQWC1SMm8tQ0dmWW9WZ20yX0Y2TGRydUZDSzJTN0huYVlXS3pwRjNoek5CUl9qZHZ2eGM",
     "CBMinAFBVV95cUxNNmx3Y2NUV3dFaV8yU2NHRnZneDhrb2hSYzQwTnJBVFpob2xYNlNfZzJyWVptcm94N2RvT01XR0JnOGZKLUE0NnlBUGRrbWg1QlZkRTZESkN5SFB0eTVycFV1RkZFaWhfWTlMMFRCWGFhWmJOS3l1c0U4YTBQNld2MUFwTVp6ZnpOeWRiWjRhckN3Skt0dk4yUlRzZGc",
@@ -3312,7 +3311,8 @@
     "CBMiigFBVV95cUxNTi16NFVZcnQtcFdDVDR6X2ZsYUxkcmJ4RzhCUmN5QU5Cclh5Y2hiUzJfSXVXcS02cE14dUNadGc2YWZMclVGU3BPTUcweDBvam9Qc0wwZkduYW1UUzZNNUtKaTVLUUt6Vjl6UGdIZExkalIzY2NFOVRKcVJaT1laSTk4a2lpWmlKTWc",
     "CBMingFBVV95cUxQcmVkQVMta0dLOFNwSi13WFU5eWozRDNCUUlEMkxfVk5vS0FrWGdTQjJ1MUNPSHR6ZmRJa2RMNHNOLVdMTmpXWjBzNGpCT1lTTmhEd1FPYlNZOVBhS21GT2RzX09fS1c5dDU1djFJRkZiOXFmU1kzRzVNSExZY0ZzVzdtQ0ItcGtjNnBKMGlXbTd6VDhJZmZTZDlkZlVhQQ",
     "CBMiuAFBVV95cUxNVnRmYXh1RXVGaHhNUFZVNDdoenpkNEo4Z2pYb1YyMW5qRGJ3OVlFTThQQXdCMmpsSUE5dUFlWVVxSHBTc01VQ0VSSnFSUUxwTFN3R09BcnFPUHNUME9vOTVPV095V1ZScFE0NGMxMkg3b3FhNFo4NXRiOWxWUnQ2amd3SHVBNXBTaG0yZVlVekc2ZEZjT09iQVhicUVJa19ZSVJCVGEwd1JlMGxURW5NVlhJQkFwdGw5",
-    "CBMiekFVX3lxTE5femQtVW44emNWckVSalNyZnY0VmpOMFAxVEgwMDExZy13M0lSakRYZWRoRU1Qc3lYdzJmazE5aUs4SHhVNUZwekZJZk9fRWFmSl9ObWVsb3VlaTVOeVRLQkJxQ2hQQ2hzTWd5bzk5UEE2OEVGOW5tLVVB"
+    "CBMiekFVX3lxTE5femQtVW44emNWckVSalNyZnY0VmpOMFAxVEgwMDExZy13M0lSakRYZWRoRU1Qc3lYdzJmazE5aUs4SHhVNUZwekZJZk9fRWFmSl9ObWVsb3VlaTVOeVRLQkJxQ2hQQ2hzTWd5bzk5UEE2OEVGOW5tLVVB",
+    "CBMiiAFBVV95cUxQS19HbFBLOVhlS20zQzd5b00taVp5RjhHTVA3WlpEMHBrMzFfRzhnOTJRZV81dnlxZHUyYWF3aUh5Zm1uLUJuOEIxRlFnbDdvbmVEQzk2ZUlsUWZGLTRaZFVnQ01pcnptaUVPNC1uZ0VvU3VONGRrZUpfMWpqa05SNms5dDY5QUs2"
   ],
   "daily": {
     "d": "2026-08-19",
