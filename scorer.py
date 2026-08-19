@@ -129,10 +129,16 @@ SYSTEM_PROMPT = (
     "Low, 0-40: routine media day and podcast quotes, regional and "
     "developmental cards, undercard filler, rankings shuffles, list posts, "
     "and non-UFC promotions unless the news is huge. "
-    "Also write the poster line for the graphic: 4 to 10 words, present "
-    "tense, concrete, plain language, the fighter surname early. Say what "
-    "happened. Never claim more than the story supports, no teasing, no "
-    "clickbait, no betting or gambling language. "
+    "Bottom, 0-25: service pages and rehash - how-to-watch and live-stream "
+    "guides, start times, results roundups, recaps or reaction pieces that "
+    "only restate a result the audience already saw, previews, staff picks. "
+    "The event being big does not rescue a rehash of it. "
+    "Also write the poster line for the graphic: 4 to 10 words, NEVER more, "
+    "present tense, concrete, plain language, the fighter surname early. Say "
+    "what happened. Never copy the headline - compress it to the one fact "
+    "that matters, and end on a complete thought, never mid-phrase. Never "
+    "claim more than the story supports, no teasing, no clickbait, no "
+    "betting or gambling language. "
     "Then pick 1 to 3 highlight words. Each one must be a SINGLE word copied "
     "EXACTLY from the poster line you just wrote, never a phrase and never a "
     "word that is not in that line. Prefer surnames and the one verb that "
@@ -156,6 +162,25 @@ MAJOR_TERMS   = ("out of", "withdraws", "injured", "suspended", "retires",
 BOOKING_TERMS = ("signs", "faces", "meets", "books", "returns", "ko",
                  "submission")
 
+# Rehash/service journalism the audience never stops for: how-to-watch guides,
+# live-stream pages, results roundups, previews. These kept scoring HIGH (they
+# restate the champions/titles vocabulary above) and staged for DAYS after an
+# event - "Makhachev beats Garry in MMA stream" reached the studio at 4:21am,
+# two days after the fight, because a stream-guide rehash reads exactly like a
+# result to the term lists. The heuristic now docks them hard, the AI brief
+# names them as low, and ytposts.stage_gate refuses to stage them AT ALL (the
+# news channel still posts them - members may genuinely want a watch guide).
+# "fight card" is deliberately NOT here: real bookings are routinely phrased
+# "X vs Y added to UFC NNN fight card" and blocking those would silence the
+# exact 75-100 tier the brief names. The terms kept are service-page phrasings
+# real news does not lead with.
+JUNK_TERMS = ("how to watch", "where to watch", "live stream", "livestream",
+              "live blog", "live coverage", "play-by-play", "start time",
+              "what time", "full results", "results:", "card results",
+              "results and", "weigh-in results", "preview",
+              "staff picks", "watch along", "watchalong")
+JUNK_POINTS = 30   # subtracted once when any junk term appears in the title
+
 # poster-line hygiene: the graphic renders 4-10 word lines, so the line is
 # hard-capped and the highlight list holds single words only.
 LINE_MAX         = 80  # chars kept from a poster line
@@ -171,7 +196,15 @@ NAME_STOP = frozenset((
     "Why", "How", "His", "Her", "Their", "Champion", "Title", "Fight",
     "Fighter", "News", "Live", "Card", "Event", "Main",
 ))
-NAME_RE = re.compile(r"\b[A-Z][a-z'-]{2,}\b")
+# Latin-1 Supplement + Latin Extended-A ride along with ASCII so accented
+# fighter names (Prochazka as "Prochazka" OR with its accents, Blachowicz
+# with the stroke-l) still produce tokens - an ASCII-only class made those
+# fighters invisible to the highlight picker AND to ytposts' staging
+# cooldowns, quietly re-opening the duplicate-staging bug for exactly the
+# names that carry accents. ×/÷ (multiply/divide signs) sneak into
+# the ranges; they never appear inside a word, so they cost nothing.
+NAME_RE = re.compile("\\b[A-Z\u00c0-\u00de\u0100-\u017f]"
+                     "[a-z\u00df-\u00ff\u0100-\u017f'-]{2,}\\b")
 
 # Used only when the caller does not inject the live newsconfig list via
 # cfg["breaking_keywords"]. Mirrors newsconfig._DEFAULT_BREAKING (kept loosely
@@ -325,6 +358,13 @@ def _has_term(text, term):
     return re.search(r"(?<![a-z0-9])%s(?![a-z0-9])" % re.escape(term), text) is not None
 
 
+def is_junk(title):
+    """True when a title reads as service journalism (JUNK_TERMS), not news.
+    Shared with ytposts.stage_gate, which refuses to stage these at all. Pure."""
+    t = str(title or "").lower()
+    return any(_has_term(t, term) for term in JUNK_TERMS)
+
+
 # A truncated line must end on a complete thought. Cutting mid-clause shipped
 # "LOSING STREAK AS MARLON" to the studio channel (owner caught it live):
 # the cut has to land BEFORE a clause connector, and never leave one dangling.
@@ -335,28 +375,58 @@ DANGLING = {"as", "after", "with", "amid", "following", "despite", "before",
             "on", "at", "by", "for", "is", "are", "was", "his", "her", "their"}
 
 
-def _fallback_line(title):
-    """The poster line when no AI wrote one: the title, whitespace collapsed,
-    cut at LINE_MAX - preferring a clause boundary, never dangling a
-    connector word. Pure."""
-    t = re.sub(r"\s+", " ", str(title or "")).strip()
-    if len(t) <= LINE_MAX:
+def smart_cut(text, cap=LINE_MAX):
+    """Whitespace-collapse `text` and, when it runs past `cap` characters, cut
+    it at a clause boundary - never mid-word, never dangling a connector.
+    This is the ONE truncation every poster line goes through: the AI path
+    used a bare [:LINE_MAX] slice here, which shipped "...About His
+    Retirement a" to the studio (char 80 landed inside "announcement").
+    Two degenerate inputs are handled explicitly: a single unbroken over-cap
+    token (a nitter hashtag mash) is sliced raw because no better boundary
+    exists, and a cut whose words are ALL connectors keeps the pre-strip cut
+    instead of collapsing to "". Pure."""
+    t = re.sub(r"\s+", " ", str(text or "")).strip()
+    if len(t) <= cap:
         return t
-    cut = t[:LINE_MAX]
+    cut = t[:cap]
     best = -1
     for sep in CLAUSE_CUTS:
         pos = cut.rfind(sep)
-        if pos > best and pos >= int(LINE_MAX * 0.45):
+        if pos > best and pos >= int(cap * 0.45):
             best = pos
     if best > 0:
         cut = cut[:best]
     else:
         pos = cut.rfind(" ")
         cut = cut[:pos] if pos > 0 else cut
-    words = cut.rstrip(",;:. ").split(" ")
+    kept = cut.rstrip(",;:. ")
+    words = kept.split(" ")
+    while words and words[-1].lower() in DANGLING:
+        words.pop()
+    return (" ".join(words) if words else kept).rstrip(",;:. ")
+
+
+LINE_MAX_WORDS = 12   # a poster line longer than this is a headline, not a line
+
+
+def word_cap(line, max_words=LINE_MAX_WORDS):
+    """Cap a line at `max_words` words, then strip any connector the cut left
+    dangling. Models sometimes echo the whole headline as their "line"; the
+    graphic is built for 4-10 words, so anything longer gets cut down to the
+    words that still read as a thought. Pure."""
+    words = str(line or "").split()
+    if len(words) <= max_words:
+        return " ".join(words)
+    words = words[:max_words]
     while words and words[-1].lower() in DANGLING:
         words.pop()
     return " ".join(words).rstrip(",;:. ")
+
+
+def _fallback_line(title):
+    """The poster line when no AI wrote one: the title through the shared
+    clause-aware cutter. Pure."""
+    return smart_cut(title, LINE_MAX)
 
 
 def _fallback_hot(line):
@@ -388,6 +458,11 @@ def heuristic_score(title, desc, source, category, breaking_keywords):
             score += BOOKING_POINTS
     if MATCHUP_RE.search(title or ""):
         score += MATCHUP_POINTS
+    # service-journalism rehash (watch guides, results roundups, previews):
+    # these restate the champion/title vocabulary above, so without the dock
+    # they score like real news and stage for days after an event
+    if is_junk(title):
+        score -= JUNK_POINTS
     line = _fallback_line(title)
     return {"score": max(0, min(100, score)), "why": "heuristic", "ai": False,
             "line": line, "hot": _fallback_hot(line)}
@@ -437,10 +512,12 @@ def _clean_why(v):
 
 def _clean_line(v):
     """Display-safe poster line from untrusted model output: collapsed
-    whitespace, dashes normalised, hard LINE_MAX cap. Missing -> ''."""
+    whitespace, dashes normalised, then the SAME clause-aware cut the
+    heuristic uses (never mid-word - see smart_cut) plus a word cap for
+    headline echoes. Missing -> ''."""
     s = re.sub(r"\s+", " ", str(v or "")).strip()
     s = s.replace(chr(0x2014), "-").replace(chr(0x2013), "-")
-    return s[:LINE_MAX]
+    return word_cap(smart_cut(s, LINE_MAX))
 
 
 def _clean_hot(v, line=""):
