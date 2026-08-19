@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Gillian Robertson rejects Din Thomas' apology over UFC 330 flub",
-      "ts": "2026-08-18T20:30:27+00:00"
-    },
-    {
       "t": "Henry Cejudo: It's 'a little premature' to call Islam Makhachev the GOAT",
       "ts": "2026-08-18T21:10:31+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Sacramento: How To Stream And Full Fight Card",
       "ts": "2026-08-19T09:06:53+00:00"
+    },
+    {
+      "t": "Erdogan Vs. Elliott MMA Clash, Lessei Vs. Guest Muay Thai Firefight Added To ONE Fight Night 48",
+      "ts": "2026-08-19T09:03:24+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Netflix Reportedly Does Not View WWE Raw Vault as a ‘High Priority’",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1VS1ZmbTlPa1FwQmdRbVBqOGdGcWRNU0tyVGVFX0pjN2JiUjJyMkxZR1R4MVhERVNDU3dRaXphVHZEZUpTZ0FtOGFFVGhrWUtVaG1iTmM5ZUZkV3N5N05CUkptTQ?oc=5",
-      "source": "411Mania",
-      "cat": "ufc",
-      "ts": "2026-08-19T07:30:00+00:00"
-    },
     {
       "title": "Highlights: Athletics at Royals (8/17) Stream of Major League Baseball",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdEZKUlNCYUVnZzhON0U3NDRtaXZiLVMtNW1hck9LTFk1T1ljTzcwY0w4ZElJbXlINlZVNFdXaEVHNTFqbDA3Sk0zTl9HWjc2Y1huNEgybTF1SU1Bb0FtamVsd1dTUEdvSHNuWU9zTkdtSlkyLU5sa2RMRE5CdUZFUy1n?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-19T09:06:53+00:00"
+    },
+    {
+      "title": "Erdogan Vs. Elliott MMA Clash, Lessei Vs. Guest Muay Thai Firefight Added To ONE Fight Night 48",
+      "url": "https://sports.yahoo.com/articles/erdogan-vs-elliott-mma-clash-090324196.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-19T09:03:24+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiYEFVX3lxTE9VOEhfZ19DaWFyRWc4NWxfQVgyc0hySEE1Q2t2YzI1Vm43el9WblF5cFJ4cTBmdGJRQjQzTGE5djBfSkdvYk43QW91OEhwTzhvZ2JrZUdEUVdYY0FQRUdzdQ",
     "CBMilgFBVV95cUxOUkIwd1VrZW0xOE9aTDN6LWJDVGJGU3MtQmdRUVlYQkc4QVdFNFZBcGVodFlXQUZOYW9uR1JacmNYU1RQa0RJTmxXeFBhM1dlZTdpYVNfeHpGNGZpa1JyOERMS2JwczVyUXdQNWhoa0NjellMeFN5QkIwSEc5NGdaVmg2MnNneFgxS3cteE9kRGR5V0hGMlE",
     "CBMitgFBVV95cUxQalA5dWZVNC1wNExwX05hb05qSkxHWTRwTmZJZE5lSV9OUzZKWXExU2k2ZHhPRXM0YXlfRW9fbWhBN3hXazYxSE9BY19MQl9SZGZIWEgyMnMzNk9NRFBsNDRpbTdaMnZUYy1rdmlxSGVQTkU2THkwSEl5THQ4bnhhOElxVXlOMmswdFl0dm4yX0dmWjVhMng5NGxVNFFqMUMwSmJ6OFFsZXFUeDRuYlozVjJKM05Odw",
     "CBMi4AFBVV95cUxOSDczc0Qzam4tenN2Y0FNcDZvOEtBLXhNWGZOdk9KNnRyWm5jSGlzRnNQMFdubVhYemUyczlud0FBRFJGbXlqS3BLMzNaVGpUQXpzeWxzUExBLTROekhwZVgycVY5QTlXZWpXcWRxSGJYdk5weHVtM3RzYi0xT05QcDdLTkl6MGhMeGYzSVo1clJ2TElERmlMRVkwbW1iSjVUSUFEZWc2QWQ0VmNnTC1PNXJSd2VyTkRKS3lLMW5yZng5OU5iMjZ3dFp4UVlkWDRGUGFfb3dKbVAyWGJidzR5R9IB5gFBVV95cUxOMGVpREw4NnlHNW5mdDh5aFhDR1R2Q3I5Ry1qcTQ1cUprWjl2Zmdja1llRkVBQnZpeUZCS1VHaUdCX1Vqc08yZlhJN0tzWkJXVG80ODI0c2xvRTBJM18xNF9tVGF2OHRBRndSR3VEcmJrLWk1UzNqVXgyQTdHeFJtMnVka0xCVG1SOGotcXFvWmNrLW9yZnBQYUxoRm01QmpENU9pQ1lFZ295WGxqR3ZVdDFybW5mdV9XcDE1cWY2d09xTXZ2LXpNZTZIZU51aE1BX2hSbW9tMGFDWUFrMkRpY2VXZHZTQQ",
@@ -3312,7 +3311,8 @@
     "CBMiXkFVX3lxTE1qWGFsSDR2SjlYcFJzRkpQNGJadktwd0toVHVNb2IwclhWUjdKMmlPa2l5MWRsbmEwakdPTjluTTVEM0VuQjBJdmp3V1Rub2FVZEVYc1dhdHQydEFHcVE",
     "CBMiiAFBVV95cUxQLXpzNmlUbWYwWGNDNG11RG9wcXRCUU8xcDlhbl95U1BwS3RPaTlFd3dDZFZ1MlZFRkpnNWRiMU8yaEhPeFRXZGdTa1YtT3Q5LVhrTmVUWHVVQTJyNE9lZ0RMS3lvNHY2ZzdpcFZ0QjlEWVFORlBrUmdwbmV6ZzNXMEV5T3A3YVZU",
     "CBMilwFBVV95cUxNeHlKb3dfSk50YWZoX3hTNTNOVEtRcHBSQ2l6a3EwdE5JcTIxSjRmZUxZa3ZRMGJoZlpPRTEtMVBMcWR2dEo3bFBvVFYwc2JjOV9YckVXNnhlVjdRZXRnR21EWHVIRFp4VDBxaFNtVEQwcXAtVWJIUWtSdzZhSS1qSjdqLUgxS1hydTFjZnFNVHlLZnV1R1pF",
-    "CBMifEFVX3lxTFBIaF9fNE9MV0Z3VC0tQ1J3b2JNVkpwTl9HZExwM3o1S3FWdklldjRYLUFiT3VBc1ZiQ0Q0bEdSRGZIY0YyeENKRm5SczlxTmFYQU94VS03eU5qQWhrNmZILVhTcGJxemRfclpUUG9JSThCV3BReWQ3Z0lRSjA"
+    "CBMifEFVX3lxTFBIaF9fNE9MV0Z3VC0tQ1J3b2JNVkpwTl9HZExwM3o1S3FWdklldjRYLUFiT3VBc1ZiQ0Q0bEdSRGZIY0YyeENKRm5SczlxTmFYQU94VS03eU5qQWhrNmZILVhTcGJxemRfclpUUG9JSThCV3BReWQ3Z0lRSjA",
+    "7b59efc3-4dc3-315a-8efb-fd8b32c2c51c"
   ],
   "daily": {
     "d": "2026-08-19",
