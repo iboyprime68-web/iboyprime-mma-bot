@@ -1,7 +1,10 @@
 name: YouTube Poll Staging
 on:
   schedule:
-    - cron: '23 16 */2 * *'   # every 2 days, 16:23 UTC - stages ONE poll for the owner
+    - cron: '23 9,16 * * *'   # TWICE a day (owner ask, Aug 19 2026): a morning
+                              # and an evening slot, one staged poll each. The
+                              # same-slot guard in polls_bot makes re-runs and
+                              # manual dispatches safe.
   workflow_dispatch:
 permissions:
   contents: write
@@ -25,6 +28,17 @@ jobs:
       - name: Stage one YouTube poll to the studio channel
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          # One line per scorer.PROVIDERS entry, same as news.yml: pollgen
+          # writes the poll with whichever key is set (DeepSeek first) and
+          # falls back to the curated bank with none. An unset secret expands
+          # to an empty string, which scorer.provider() reads as "no key".
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python polls_bot.py
       - name: Save state
         run: |
