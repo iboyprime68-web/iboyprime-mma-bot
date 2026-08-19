@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504291",
     "https://www.mmafighting.com/?p=504300",
     "https://www.mmafighting.com/?p=504301",
     "https://www.mmafighting.com/?p=504374",
@@ -81,6 +80,7 @@
     "https://www.mmafighting.com/?p=505714",
     "https://www.mmafighting.com/?p=505732",
     "https://www.mmafighting.com/?p=505760",
+    "https://www.mmafighting.com/?p=505789",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmafighting.com/?post_type=vm_stream&p=505026",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Henry Cejudo: It's 'a little premature' to call Islam Makhachev the GOAT https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/18/ufc-henry-cejudo-…",
-      "ts": "2026-08-18T21:16:17+00:00"
-    },
-    {
       "t": "Carlos Prates has a message for anyone who believes Michael Morales has a better chance of dethroning Islam Makhachev: “People think Morales can figh…",
       "ts": "2026-08-18T21:28:43+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White's Contender Series Season 10, Episode 2 Highlights",
       "ts": "2026-08-19T01:37:19+00:00"
+    },
+    {
+      "t": "DWCS Season 10, Week 2 results: Kaik Brito starches Namo Fazil with brutal knockout punch",
+      "ts": "2026-08-19T01:40:23+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Henry Cejudo has doubts about Ian Machado Garry ever fighting for a belt again after UFC330. \"He didn't really sell the fight and it was just too ku…",
-      "url": "https://nitter.net/MMAJunkie/status/2089805789472895075#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-18T20:05:01+00:00"
-    },
     {
       "title": "Gillian Robertson rejects Din Thomas' apology over UFC330 flub https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/18/ufc-gillian-robertson-reac…",
       "url": "https://nitter.net/MMAJunkie/status/2089813655135101326#m",
@@ -2105,6 +2098,13 @@
       "source": "MMANews.com",
       "cat": "ufc",
       "ts": "2026-08-19T01:37:19+00:00"
+    },
+    {
+      "title": "DWCS Season 10, Week 2 results: Kaik Brito starches Namo Fazil with brutal knockout punch",
+      "url": "https://www.mmafighting.com/ufc/505789/dwcs-season-10-week-2-results-kaik-brito-starches-namo-fazil-with-brutal-knockout-punch",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-19T01:40:23+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiW0FVX3lxTE5JQXJJZVAyYmZtTlVKS2JKcFVpbGFXN3p2Umt1UHFGUXJCODEwYzBOd0hNckNCcGptc2doa3E3a2JBU2NxUXAtZVBocFFTS0dySUZVNFFNdnRYdHc",
     "CBMiiwFBVV95cUxQaWJjSmRZTHIxRjdPdGlQYWViQzhOTV9Tdjh5M2VLRFhUYmFyZlE3bktjOXdKVXRaRnE4RklFYWpaUV9zWmVGTm9LOGJ5UlBnRHM5MXl2QkpJZURiNVJQc1RQZGJfbGFIV0psRWR1Snp4ZmZwdTh4SjRWdW5teXBoUDZLekNTc3hDcFEw",
     "CBMid0FVX3lxTE9KWVhrODM3M1ZPZFRIQUw5Wmc1VlJYRXM2VFVicFo2R3EtcDllY3Z3RWtJTXpqZjVzSGhtUVdIMUdNVUd3clQ0U280S0wweW0takNiZk1QNkg4aE1IM2RYckFKRFp5WHBDSXBYcGJ0clJwRTQxWXNZ",
     "CBMihwFBVV95cUxPYmxzZXN0OWJ1UC1leDRVeU1oR2EyU3hFNGJWRFZRX2FPd0NPLUlscFdHenozV0NLZllDLWw3blUyRUJuV3ZqcUZTWWZCMnJNWHUtQXM0TkRscWQ0X2xqdnVVbmZDWjAtS2dlemhZd0s4Wno5ZDBQaVNOQ1N6SmxqcXlCU0ItbDA",
@@ -3312,11 +3311,12 @@
     "CBMiR0FVX3lxTE9RMVlaeTNPVTJhN0JfZjVtWGJrQm1TQzRZUzlxbHc4a2NlNlFBSXppcDdXQmFkRGVqNmVaYnNPZGhnS3J0bGFr",
     "CBMiR0FVX3lxTE1WUkIwQkJMbEQwMjV2V1E2UE05WUF5bWhfZ1g4djdaQk11dEFxNjhZM2VZLUJJYUFucnZaMnE2QWdmNUlUT0x3",
     "CBMiW0FVX3lxTFBjTWo5NFNPRHc4TWNJU3lIb194Y1AyRnpOc2hYaDZabWFsMlJ2ZkVMay1FNmQ4M2s3YVVYUV94cnloMTdoU3A4SDJ3cU1QdWllQlR6YkQxdThYWlk",
-    "CBMihgFBVV95cUxPZkxfenBFbXJCWWlOSmxsR2ZMQUFQN0dNT1VWdmc0VGE2LVlIWEdKX2U0Yjc4MzMxQ3k0TFNVN1lCQlFGWmhDc1l4UmYtdmYzREpqRWRUQXZYS0Q3OW1Sd0pDbDBNdm5ydTN1OE5pMVVydURNVV9XZ09FN2lVSHptZkJzc05pQQ"
+    "CBMihgFBVV95cUxPZkxfenBFbXJCWWlOSmxsR2ZMQUFQN0dNT1VWdmc0VGE2LVlIWEdKX2U0Yjc4MzMxQ3k0TFNVN1lCQlFGWmhDc1l4UmYtdmYzREpqRWRUQXZYS0Q3OW1Sd0pDbDBNdm5ydTN1OE5pMVVydURNVV9XZ09FN2lVSHptZkJzc05pQQ",
+    "https://www.mmafighting.com/?p=505789"
   ],
   "daily": {
     "d": "2026-08-19",
-    "ai": 56,
+    "ai": 57,
     "staged": 2
   }
 }
