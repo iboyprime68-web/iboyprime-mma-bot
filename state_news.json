@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504392",
     "https://www.mmafighting.com/?p=504401",
     "https://www.mmafighting.com/?p=504412",
     "https://www.mmafighting.com/?p=504440",
@@ -864,6 +863,7 @@
     "https://www.sherdog.com/news/news/Alexander-Volkanovski-open-to-challenging-Justin-Gaethje-at-lightweight-201605",
     "https://www.sherdog.com/news/news/Alexander-Volkanovski-supports-Alex-Pereiras-campaign-against-illegal-strikes-201634",
     "https://www.sherdog.com/news/news/Alexandre-Pantoja-coach-touts-Pantoja-20-ahead-of-UFC-331-202335",
+    "https://www.sherdog.com/news/news/Alik-Lorenz-erases-DWCS-heartbreak-with-brutal-firstround-KO-202417",
     "https://www.sherdog.com/news/news/Anthony-Hernandez-praises-former-foe-Sean-Strickland-Hes-a-cool-dude-201695",
     "https://www.sherdog.com/news/news/Anthony-Hernandez-trains-with-Sean-Strickland-ahead-of-UFC-Sacramento-201708",
     "https://www.sherdog.com/news/news/Anthony-Joshua-fight-delayed-while-Tyson-Fury-takes-tuneup-bout-201703",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Dana White's Contender Series 88 live updates, round-by-round coverage",
-      "ts": "2026-08-18T22:40:36+00:00"
-    },
     {
       "t": "For Gillian Robertson, losing a UFC title fight was hard enough. But being abandoned by your mentor?",
       "ts": "2026-08-18T23:12:02+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "LA Firpo vs. LD Alajuelense Live Stream of CONCACAF Champions Cup",
       "ts": "2026-08-19T02:27:24+00:00"
+    },
+    {
+      "t": "Alik Lorenz erases DWCS heartbreak with brutal first-round KO",
+      "ts": "2026-08-19T01:40:48+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev’s coach says Ian Machado Garry’s conduct was ‘genius’ in opposite take to Dana White",
-      "url": "https://bloodyelbow.com/2026/08/18/islam-makhachevs-coach-says-ian-machado-garrys-conduct-was-genius-in-opposite-take-to-dana-white/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-18T11:00:00+00:00"
-    },
     {
       "title": "Carlos Prates denies turning down Michael Morales fight: ‘I’m not scared’",
       "url": "https://sports.yahoo.com/articles/carlos-prates-denies-turning-down-114615022.html",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-19T02:27:24+00:00"
+    },
+    {
+      "title": "Alik Lorenz erases DWCS heartbreak with brutal first-round KO",
+      "url": "https://www.sherdog.com/news/news/Alik-Lorenz-erases-DWCS-heartbreak-with-brutal-firstround-KO-202417",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-19T01:40:48+00:00"
     }
   ],
   "digest_last": "2026-08-18 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMiuAFBVV95cUxPNGNDRXJVR1RqSTFGYzZVb2I2eUVfeTM2SzlaNWVhTzlOSUw4UmZQdkVGQmFYNkpLb3JQelUtdS14b0M1NjByUUREME1Bd3l6dF9wbUNqN0R3UWk2alNLblV0QWV2aWk2S0NnXzZoM2h2OFI3VjhjajEyeDFwNGNsUklXNUhJNlpxR3dkSnpuTGpQeld3dUJIQ09mN2F0NmJZM2RzTUtWR2Q3ZU82cUVNNUVlTTdjS2NC",
     "CBMi0wFBVV95cUxORnBvTVZmak1FVXVTUElpTmdGa1VvdWhQUVpWZ3BoNkpyc3BiTUNCUlViM2RmM3RWZTc3RXRZb2gtdDFPZmRqYjQxYVJyYUh6ZHV4bmxTczNCLVpGQ2dvTm9BSUt5UFFJYUxzX2RNM1o5OEp6TDhvdHpoT0IxS0poSGJRQVhSVmZhYUd2R2MyUE9oT1Jfa0R5V255bU5pdHM2QXRmT21zXzFjSzZ1ZlpaWUV5VlRUUERpNE42WF9kNVRZU3VfTURXRWhaTnBnQnZBR1Fr",
     "CBMiggFBVV95cUxQS2dBd3lYajVaZG9PdUJLdVJaVGhDN3dMM0pGVWJib05UMWZ1RWd2N214M3VDNFhvWEQ2aWdQTHJOdUlxSlNDVk0xekhHUnZFSlZZU3ZBYnJtU01oX2hKNTRXYzhleXA2OUUwdm9taVJiRHh4T3JZQVJERldFNHpqeXF3",
     "CBMiuwFBVV95cUxNV0lkYTlGd0l4Y2MzYTB3ZXp1TmtiOThTbE5pOXRUNlRHVEx5X0dELWgyeFY4cW5mTWl3QXBSMWJsUDJ3cEF6VmJ5S0djOVlCWmg4OUNjMEdXcTFJSEZvT3p6aV84azh3SkR4d1dXRk5TbTktVk0tOFNqbVh3ZlVaNk1MOU0tM1l0Sjl0ZjFfSnVBLTdFWUwtTXhib1ZZT3VOT05MQU9tQUxvRTZlUVVwUkdsOUhfeHhHVjBZ",
@@ -3312,11 +3311,12 @@
     "CBMib0FVX3lxTE5MT1lzOU0xcEVkWXlPWnNJeWZ1UHBMNy15NjFXTDcydlZydVB0cmw4LVdydUFaemFjSGVFaC05UTd6M0oyYV9yOHNTb0xISmRDTGNOaFNHcUZCMDVnUGtVOW1tbHQtVU1NRzFnQ2tzQQ",
     "CBMihAFBVV95cUxNeUtfa2wtLUpuNVJmSVpaM3RsY0ZxZmtCVGQwQzQ4NWhGcnFyZ05RU1plYVFWdUNYU1U5X3g2ckxHUlUwODF1RzBEbUpEQmQ0cGZXb19JMGtzQWp5RXg0eGR0bE9yRmFlQTd5emg2TFVXNWJwM3l6STlzVlRqenpIM0tnbUw",
     "https://www.sherdog.com/news/news/Dana-White-rewards-Roman-Puga-Taner-Trembley-following-DWCS-war-202416",
-    "CBMi6AFBVV95cUxQNWZuZnZJRzljY2NJQ1FWeDJ1bVZjMHp3UXlGNU1kYWFDS2lSTGFDV2dWTVZwMnJUcXBhVWREOEMtYnE1YUkybnV4R1luRnhDcVBfWXVjb1lGZFB6ZzBYN3dCbG5Mc2tzcmoxY1JTNDdkbFlPX2ROU2FnWF9CT3BoTWFCUWZyaXNZOV9LTi1CZ1J2UHh6cUNEYVl1WlFaWWNNUWFWb1VNZXRuQU9VZHR1ZF82SnJPdnhMVGQyYjN6RmUydHA2Y1lsdjhEQV9iOEhCRzVYSDZmMTBEY2tDRml2QU93QTVKUXdI"
+    "CBMi6AFBVV95cUxQNWZuZnZJRzljY2NJQ1FWeDJ1bVZjMHp3UXlGNU1kYWFDS2lSTGFDV2dWTVZwMnJUcXBhVWREOEMtYnE1YUkybnV4R1luRnhDcVBfWXVjb1lGZFB6ZzBYN3dCbG5Mc2tzcmoxY1JTNDdkbFlPX2ROU2FnWF9CT3BoTWFCUWZyaXNZOV9LTi1CZ1J2UHh6cUNEYVl1WlFaWWNNUWFWb1VNZXRuQU9VZHR1ZF82SnJPdnhMVGQyYjN6RmUydHA2Y1lsdjhEQV9iOEhCRzVYSDZmMTBEY2tDRml2QU93QTVKUXdI",
+    "https://www.sherdog.com/news/news/Alik-Lorenz-erases-DWCS-heartbreak-with-brutal-firstround-KO-202417"
   ],
   "daily": {
     "d": "2026-08-19",
-    "ai": 102,
+    "ai": 103,
     "staged": 3
   }
 }
