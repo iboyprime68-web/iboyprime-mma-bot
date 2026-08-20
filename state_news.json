@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=505133",
     "https://www.mmafighting.com/?p=505145",
     "https://www.mmafighting.com/?p=505195",
     "https://www.mmafighting.com/?p=505220",
@@ -1029,6 +1028,7 @@
     "https://www.sherdog.com/news/news/Josh-Hokit-defends-controversial-statement-about-Michelle-Obama-201633",
     "https://www.sherdog.com/news/news/Josh-Hokit-lobbies-for-Herb-Dean-to-ref-potential-fight-vs-Ciryl-Gane-201635",
     "https://www.sherdog.com/news/news/Josh-Hokit-speculates-that-Ilia-Topuria-beats-up-training-partners-201628",
+    "https://www.sherdog.com/news/news/Josh-Hokit-trolls-Alex-Pereira-over-Ciryl-Gane-loss-calls-for-BMF-match-202439",
     "https://www.sherdog.com/news/news/Joshua-Van-reflects-on-knockout-loss-that-changed-his-life-202427",
     "https://www.sherdog.com/news/news/Judge-denies-restraining-order-request-to-shut-down-UFC-White-House-event-201499",
     "https://www.sherdog.com/news/news/Justin-Gaethje-dismisses-immediate-rematch-with-Ilia-Topuria-201600",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Pic: UFC Paris poster unveiled for ‘Hooker vs. Parnasse’-led card on Sept. 5",
-      "ts": "2026-08-20T01:03:00+00:00"
-    },
     {
       "t": "Kaik Brito was inundated with Namo Fazil fan messages before DWCS knockout",
       "ts": "2026-08-20T01:20:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Reinier de Ridder hopes to avoid Robert Whittaker rematch ‘for now’",
       "ts": "2026-08-20T03:12:44+00:00"
+    },
+    {
+      "t": "Josh Hokit trolls Alex Pereira over Ciryl Gane loss, calls for BMF match",
+      "ts": "2026-08-20T03:28:17+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Fought for their spot 🙌 Roman Puga, Taner Trembley, Alik Lorenz, Cristain Perez, Trent Miller, & Kaik Brito all earned UFC contracts! [ B2YB @TotalWi…",
-      "url": "https://nitter.net/ufc/status/2089903742737133663#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T02:34:15+00:00"
-    },
     {
       "title": "Secured the contract 😤 Roman Puga, Taner Trembley, Alik Lorenz, Cristain Perez, Trent Miller, and Kaik Brito leave DWCS Week 2 as UFC athletes!",
       "url": "https://nitter.net/ufc/status/2089905814790386075#m",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-20T03:12:44+00:00"
+    },
+    {
+      "title": "Josh Hokit trolls Alex Pereira over Ciryl Gane loss, calls for BMF match",
+      "url": "https://www.sherdog.com/news/news/Josh-Hokit-trolls-Alex-Pereira-over-Ciryl-Gane-loss-calls-for-BMF-match-202439",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-20T03:28:17+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     12
   ],
   "yt_eval": [
-    "CBMihgFBVV95cUxOcEtJWEtfOVgwUG16cGFUNG1RZkVOaUd4ZHVLXzFaQ3o0TmszR2ZzVDY5bnBvMTZsX2RoTmRPRlM2WUI0RDUxQTFkTUZLbUt3UDhWdE1LVjhjMFE4cDBlYzhjbTY1OUFLTlE5LXoyeU1icDliU0pyd3FIUmZLVGdEa1B5UmR0UQ",
     "CBMiugFBVV95cUxOSzFoNjhrMnJONTlZcHBjU2xYZkZZd055cDllYlN5RUxLSkw1SzBNMEhFTl9nS0dEUkFkRGpZcU9BeDJlX01tV1ZlZE9wN3BwZ3U1Q2w3Zm1KVWpLR2ltQ3VzZVhlVHh3T25vSkJ0U0FuM2hBWDJ5M0JZTUFNR3FxWWlkQTUzYVVZLUdlRnlHS2FyRnc3bzdtUXRzVHNHaHBGS2pYdkR5MHAtY3VhWXBBb282RTQ1R3h6MkE",
     "CBMiswFBVV95cUxPREZRRFBVMkJQTEkzdkU5QjNpY3NULXM5SVdYeXhpZ0ZVazJyWU5Kdnctczh6ZElHcUVVRkc2WF9jcVpJbTVwYkN5OXppRUMyRklwZnNuaHRiTGVFN2tDdmxGOFJFakJXOFJjakNZemp3OWxmQnQtNURFVHl3LWlaa3dCODFIaVNUa2l2NnJ1U0NGaFhvM2VQU0tLblo2dThrdjY5SEc3czBEd3FNcUNYWmRGaw",
     "CBMijgFBVV95cUxOdDYxM3c0V0h6emF6WmFtNUtOcjdOaWp2bHN0NjdJRzE5bXVmU29lZGFvTlJ2WG5oeENuUURpZWNxNTktc2hFZ2RoTFVCamhMTkowT2Vkd19SMERXdk9uX182VjBSSEFmTTBGN21heDlXdmdNRnZ1N0tMM3NuWEdLZkx2ZGd2VHVpMm44SkRn",
@@ -3312,7 +3311,8 @@
     "CBMiZEFVX3lxTE8zelBkN29YMXBzQXJYRjk1Rk1oaGJqdE5md2k3Y2tFQlRUcVJTRXJ3Y0w1VjNPZGNiT2JjXzd3OFg0UHNZVFZicVhrTExVanJ1ZTNXZzhFMjVRd2l0WkhsVjl5TGU",
     "2090280182422921516",
     "CBMiwAFBVV95cUxOcTNfTFpsSGRFMExQUzFjOGZEdzRxVHVfVlU3c0ROWGhHZTNFX0J4ekJ6NC1XVkloWlhzOUxDbzZ4ZTV1NEViY05xR3U1dVViWE5nTENtVDN1Zm5OME95cjRaV3dKaElpZlVCY0NWcFhqb2dCbzNWajE4Zkw2czZtYWNfM0FhaV9ES1Qza3N2WEItWW9XSGRlU1dpU180X0o4WXFUc2JRbXdMU2FnWUZmc1U5YjVYazNRRndGMV9ndW0",
-    "https://www.sherdog.com/news/news/Reinier-de-Ridder-hopes-to-avoid-Robert-Whittaker-rematch-for-now-202438"
+    "https://www.sherdog.com/news/news/Reinier-de-Ridder-hopes-to-avoid-Robert-Whittaker-rematch-for-now-202438",
+    "https://www.sherdog.com/news/news/Josh-Hokit-trolls-Alex-Pereira-over-Ciryl-Gane-loss-calls-for-BMF-match-202439"
   ],
   "daily": {
     "d": "2026-08-20",
