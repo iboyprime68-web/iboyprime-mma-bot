@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Alex Pereira’s UFC legend coach advises ‘great guy’ Herb Dean to take a break from refereeing",
-      "ts": "2026-08-19T14:00:00+00:00"
-    },
-    {
-      "t": "Alexander Volkanovski says there is only one way he retires after UFC 333 title fight",
-      "ts": "2026-08-19T14:30:00+00:00"
-    },
-    {
       "t": "IT DOESN'T GET MUCH BETTER THAN THIS 👊 Kaik Brito ends #DWCS Week 2 with a VICIOUS RD3 knockout!",
       "ts": "2026-08-19T01:40:56+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC Sacramento with Awesome Prelims Saturday, Aug. 22!",
       "ts": "2026-08-20T03:54:22+00:00"
+    },
+    {
+      "t": "Jon Jones accuses Daniel Cormier of ‘jealousy’ over UFC GOAT take",
+      "ts": "2026-08-20T03:55:48+00:00"
+    },
+    {
+      "t": "Kayla Harrison has now lost her biggest advantage over Amanda Nunes according to Cris Cyborg",
+      "ts": "2026-08-20T03:59:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "The edibles hit Anthony Hernandez mid-interview 😂😭 UFCSacramento via @MikeBohn",
-      "url": "https://nitter.net/MMAJunkie/status/2090199469812072908#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T22:09:22+00:00"
-    },
-    {
-      "title": "Recognized in his hometown 👊 Anthony Hernandez was awarded a custom jacket by Jeff Novitzky, Senior Vice President of Athlete Health and Performance,…",
-      "url": "https://nitter.net/ufc/status/2090199981819105362#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T22:11:24+00:00"
-    },
     {
       "title": "Arman Tsarukyan picks surprising name for Ilia Topuria’s next opponent https://www.mmafighting.com/ufc/505974/arman-tsarukyan-picks-surprising-name-f…",
       "url": "https://nitter.net/MMAFighting/status/2090212858378522702#m",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-20T03:54:22+00:00"
+    },
+    {
+      "title": "Jon Jones accuses Daniel Cormier of ‘jealousy’ over UFC GOAT take",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWNxajRfZ3BvY1BLbTlBNVlNSzhGMjZobjNPMllDQkNEYVNFLTZ6Y1E3bVFXSXhkc0ZkVE82R3Mxb1FhY01HZnYtNHlKVmQzSEdJWnh4RHVDdERVSkxYd1NhU2l4NG1tam9fZE1pVndUU1Z5OUw0VDMyUWpmSjBmeUtQMUFhZUtrQlNJTUpvbnRNZjhMVzI1Z2xxTVAwbkVrVmJqZDVXYw?oc=5",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-20T03:55:48+00:00"
+    },
+    {
+      "title": "Kayla Harrison has now lost her biggest advantage over Amanda Nunes according to Cris Cyborg",
+      "url": "https://bloodyelbow.com/2026/08/19/kayla-harrison-has-now-lost-her-biggest-advantage-over-amanda-nunes-according-to-cris-cyborg/",
+      "source": "Bloody Elbow",
+      "cat": "ufc",
+      "ts": "2026-08-20T03:59:00+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,8 +2113,6 @@
     15
   ],
   "yt_eval": [
-    "e99cb33d-42f4-3a3b-bda3-c1deb55c4f3e",
-    "dd2a6e8c-821a-4989-b136-8ca1bf9b53d4",
     "CBMi1gFBVV95cUxQWEQ5QUpIRUp6WWVkVWJMd29wWUpTejlXVVRQajhaUlQzdVB1Y1lTU1djc0gwa1NDMXFNMWVxUGZLMFJ6Sm80aVRQb2FJUlBlb2ZrQzFlWFRLeGJqZ3N4RHZSME5IZmRnek1sMlBXNUNObWNpVUxrVGI4cVhNVzQwSVZ3aFRPMzk2RkRmUF8tQWVkMUtSeTlEemxXSW1RZ2FBZ2dMdGdZektRTG9MUGdNMWphM09SNG9xQlgycU9NVV9XN1dOVzM5SWU3eXFvWTBGeVJFSWR3",
     "CBMioAFBVV95cUxOSDBHS3NNVDJ4d2JVdE1xbEZoYU5Zb3hHVHJIS3BOR3VXTlBZRkc4dWNkbmV6QTNqNzJSMXFpRk55WGdIMnppVFVtTFpfekRReVRsUmc0YU9VQkdGeUp1ckJ6QmlmMnlqbEhLaDNXTVc1dEc1OEh1Vl84dmZGakxxVl9Iay1tZVdHQnVvbWM4dGlFaDdYWDJzNTRaaGxlaHdh",
     "CBMi1gFBVV95cUxPdUNmaWlBSWZwWDRpMmVvMzZsbHFHWWo1SFI0YlgyeDBFSUVtQTV1U19wTUJ5ZnR0czR2elpRV1h0M2VJc29ZbENxTlU4MkhoZ3Z5RjlIeHdLSklNQnhFX2FwbV9OT1g3RS1mTHd6djdnWi1GeC1FTVA5c3JmdktCdEZSUEdRWVlKZlRGSV95U0IzcWRNMXdqRkI4Ui11X2RiSlE2QzduNDlPTjQ3c1NKRlFVdVNMOWVKRW9lbTVHRTRIQzhqbTNqSmFqdmIwNVotSEd4ai13",
@@ -3312,7 +3310,9 @@
     "8ebfd090-a5fc-3e4d-930a-cb124271c563",
     "CBMiZEFVX3lxTE0tUmpiODBFQWN1LVdFYjFTczctbS1fMVNxcFRueE0wbjdfdmlkNVlvUzhDMTdrMlZDTDQ5dWRlUVM5M2p4eWVzdm9nZzlYajloVnI5NWRiN1BGZU9jT2FjRXRBdVQ",
     "CBMieEFVX3lxTE9TbzNDTm9HaW5vWGtIZjhzNWFNY0xVNjNYTk1VWWNEUnJPMGZ4bml0Nm5sT2txaWtqTl9yNkoxaTNkd0FuUlltSkQ4dzBPQ3phb19TUTY2eFc2cEdNUkxfRDdhVGg5SFB4aWNMSFE3eUdoSkFRMFNqeQ",
-    "CBMixgFBVV95cUxQNXZWd29PTG9MR0JQOFhyTVNpeDd5S1FDMUdNX1dmbC1CRVUtdTE2M0ZwMXhSZl9CRjd6dDdXdzdrTmZVcy1lakVOTnJjdmhqN25NeVpSVG9fa1J6NFFNakpBWWZVb3pucVdvc2tCNHplb08xWmpwdnlSTE9Kdk5vUTFGN0tTemhPRFowZ1o1dEVOSnlOZE5pWEU3ZHhtVGx6cGs1R21BaURCdnlJcWNTRXJVM1hGMFlhQXVlQ3RhSG5Jc3RjLUE"
+    "CBMixgFBVV95cUxQNXZWd29PTG9MR0JQOFhyTVNpeDd5S1FDMUdNX1dmbC1CRVUtdTE2M0ZwMXhSZl9CRjd6dDdXdzdrTmZVcy1lakVOTnJjdmhqN25NeVpSVG9fa1J6NFFNakpBWWZVb3pucVdvc2tCNHplb08xWmpwdnlSTE9Kdk5vUTFGN0tTemhPRFowZ1o1dEVOSnlOZE5pWEU3ZHhtVGx6cGs1R21BaURCdnlJcWNTRXJVM1hGMFlhQXVlQ3RhSG5Jc3RjLUE",
+    "CBMipwFBVV95cUxPVWNxajRfZ3BvY1BLbTlBNVlNSzhGMjZobjNPMllDQkNEYVNFLTZ6Y1E3bVFXSXhkc0ZkVE82R3Mxb1FhY01HZnYtNHlKVmQzSEdJWnh4RHVDdERVSkxYd1NhU2l4NG1tam9fZE1pVndUU1Z5OUw0VDMyUWpmSjBmeUtQMUFhZUtrQlNJTUpvbnRNZjhMVzI1Z2xxTVAwbkVrVmJqZDVXYw",
+    "https://bloodyelbow.com/?p=327740"
   ],
   "daily": {
     "d": "2026-08-20",
