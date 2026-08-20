@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=505145",
     "https://www.mmafighting.com/?p=505195",
     "https://www.mmafighting.com/?p=505220",
     "https://www.mmafighting.com/?p=505277",
@@ -1011,6 +1010,7 @@
     "https://www.sherdog.com/news/news/Jiri-Prochazka-training-methods-include-bushidoinspired-rituals-201743",
     "https://www.sherdog.com/news/news/Joe-Lauzon-reveals-UFCs-reaction-to-him-competing-at-Fenway-Park-for-BKFC-201753",
     "https://www.sherdog.com/news/news/Joe-Rogan-rips-UFC-showwin-pay-model-in-blunt-fighter-pay-criticism-202345",
+    "https://www.sherdog.com/news/news/Jon-Jones-accuses-Daniel-Cormier-of-jealousy-over-UFC-GOAT-take-202440",
     "https://www.sherdog.com/news/news/Jon-Jones-believes-Arman-Tsarukyan-beats-Ilia-Topuria-201687",
     "https://www.sherdog.com/news/news/Jon-Jones-explains-how-Ilia-Topuria-can-bounce-back-after-first-defeat-201721",
     "https://www.sherdog.com/news/news/Jon-Jones-finally-explains-viral-GOAT-necklace-moment-that-had-UFC-fans-talking-201719",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Islam Makhachev Brightens Day of Patient Battling Cancer",
-      "ts": "2026-08-20T01:24:04+00:00"
-    },
     {
       "t": "Concern Level With State of Rory McIlroy's Game Stream of Golf",
       "ts": "2026-08-20T01:24:40+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Fight Night: Anthony Hernandez vs. Gregory Rodrigues Date, Time, How to Watch",
       "ts": "2026-08-20T03:39:00+00:00"
+    },
+    {
+      "t": "Jon Jones accuses Daniel Cormier of ‘jealousy’ over UFC GOAT take",
+      "ts": "2026-08-20T03:38:48+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "There from the very beginning 🫶 All smiles with the ones that matter the most!",
-      "url": "https://nitter.net/ufc/status/2089914372462383198#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T03:16:29+00:00"
-    },
     {
       "title": "Is Carlos Prates next for Islam Makhachev? 📰 https://mma-fighting.visitlink.me/L4nCkd",
       "url": "https://nitter.net/MMAFighting/status/2090053875525210143#m",
@@ -2105,6 +2098,13 @@
       "source": "Athlon Sports",
       "cat": "ufc",
       "ts": "2026-08-20T03:39:00+00:00"
+    },
+    {
+      "title": "Jon Jones accuses Daniel Cormier of ‘jealousy’ over UFC GOAT take",
+      "url": "https://www.sherdog.com/news/news/Jon-Jones-accuses-Daniel-Cormier-of-jealousy-over-UFC-GOAT-take-202440",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-20T03:38:48+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     12
   ],
   "yt_eval": [
-    "CBMijgFBVV95cUxOdDYxM3c0V0h6emF6WmFtNUtOcjdOaWp2bHN0NjdJRzE5bXVmU29lZGFvTlJ2WG5oeENuUURpZWNxNTktc2hFZ2RoTFVCamhMTkowT2Vkd19SMERXdk9uX182VjBSSEFmTTBGN21heDlXdmdNRnZ1N0tMM3NuWEdLZkx2ZGd2VHVpMm44SkRn",
     "CBMiiAFBVV95cUxNb3NmTWRoSlZadUtaMUpSTXROUFUtcTdRVWZacUkwYmVXZ3dzNExWNkhEUFF0Vmc5Ym9wMUtyRDhlYjFmcFJTQzdxQTVpdC1waGFTR0xiRHAza2hFamp0TEstaHB6dGFhNVVMNEN0NzM2N3RQZ3VaOG5XckJpcXVGQl96NUZxazdQ",
     "CBMic0FVX3lxTE1FUEZidnRROE1fdzdxR1U5aXUtNW11d2lQMDZRUVlTV09wUUc1TXUwN1NyZlVBbUV5WkFmT3BUeC1YZTcyXzZ1QndraTJfVGFUd1FmbzRJUTVrQ2NhUUNXNEw0a1BHOFh0bEFVRHIzU3RYVTA",
     "CBMidkFVX3lxTFBlN0ZaNnpiSF9lcWtQNjMxTUJQNm1DVUlPRkdaSHhLQmJJUU5OSDNpTzRERi1qaWc1Q3R0V29BYVlWdXRsUHotcll0ZjJ1QnAwUU40cW02UnZhMzd6d0h6RDk5WTY4SFU1aDBlc1ktX0Z5Q2Q2YVE",
@@ -3312,7 +3311,8 @@
     "https://www.sherdog.com/news/news/Reinier-de-Ridder-hopes-to-avoid-Robert-Whittaker-rematch-for-now-202438",
     "https://www.sherdog.com/news/news/Josh-Hokit-trolls-Alex-Pereira-over-Ciryl-Gane-loss-calls-for-BMF-match-202439",
     "2090280945743982780",
-    "CBMipAFBVV95cUxQM1RTeko1eXFRNHcteEtseEFtX2RDdVZXaE4tb3NtX3lSM2g3d2RhTkwwenMxYXE1MF9lTkVIS2FnM3QzdGYzUUdNaUlmWEo0NHhHVWl2S3pmSG1YbWdTYlZ2YWRIU3hSNlVDcml2NXROZms3MEdOT01MSmdPRERNZlNTVWRwNmhMSWtGWDFiM3ZQNTdTRGZlYndseXdfNm1iTVZWNg"
+    "CBMipAFBVV95cUxQM1RTeko1eXFRNHcteEtseEFtX2RDdVZXaE4tb3NtX3lSM2g3d2RhTkwwenMxYXE1MF9lTkVIS2FnM3QzdGYzUUdNaUlmWEo0NHhHVWl2S3pmSG1YbWdTYlZ2YWRIU3hSNlVDcml2NXROZms3MEdOT01MSmdPRERNZlNTVWRwNmhMSWtGWDFiM3ZQNTdTRGZlYndseXdfNm1iTVZWNg",
+    "https://www.sherdog.com/news/news/Jon-Jones-accuses-Daniel-Cormier-of-jealousy-over-UFC-GOAT-take-202440"
   ],
   "daily": {
     "d": "2026-08-20",
