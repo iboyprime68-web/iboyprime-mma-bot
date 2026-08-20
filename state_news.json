@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Michael ‘Venom’ Page books shock RAF Wrestling debut vs Russian ex-world champ with 89 MMA fights",
-      "ts": "2026-08-20T00:00:00+00:00"
-    },
-    {
-      "t": "Trent Miller decided to 'send it' with Von Flue choke, hopes to shake bad habit in UFC",
-      "ts": "2026-08-20T02:00:56+00:00"
-    },
-    {
       "t": "Edson Barboza’s wife urged him to retire years before UFC 330 after he nearly lost vision in one eye",
       "ts": "2026-08-20T03:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Cris Cyborg remains undecided on retirement ahead of #PFTampa 📰 https://mma-fighting.visitlink.me/MKXog2",
       "ts": "2026-08-20T03:30:05+00:00"
+    },
+    {
+      "t": "Khamzat Chimaev responds to the incident between Namo Fazil and a group of Chechens during DWCS fight week 📰 https://mma-fighting.visitlink.me/eAM24m",
+      "ts": "2026-08-20T13:25:37+00:00"
+    },
+    {
+      "t": "Anthony Hernandez admits training with Sean Strickland \"re-sparked\" his love for MMA ahead of #UFCSacramento: \"It was a f*cking blast. … It’s just li…",
+      "ts": "2026-08-20T13:30:01+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Mike Tyson’s first fight back since prison ended in bizarre disqualification after manager entered ring",
-      "url": "https://bloodyelbow.com/2026/08/19/mike-tysons-first-fight-back-since-prison-ended-in-bizarre-disqualification-after-manager-entered-ring/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-19T20:00:00+00:00"
-    },
-    {
-      "title": "Dana White admits he doesn’t have time for long-running UFC format that discovered Merab Dvalishvili",
-      "url": "https://bloodyelbow.com/2026/08/19/dana-white-admits-he-doesnt-have-time-for-long-running-ufc-format-that-discovered-merab-dvalishvili/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-20T01:00:00+00:00"
-    },
     {
       "title": "Islam Makhachev’s greatness questioned by UFC legend who makes argument for Ilia Topuria comparison",
       "url": "https://bloodyelbow.com/2026/08/19/islam-makhachevs-greatness-questioned-by-ufc-legend-who-makes-argument-for-ilia-topuria-comparison/",
@@ -2105,6 +2091,20 @@
       "source": "MMA Fighting on X",
       "cat": "ufc",
       "ts": "2026-08-20T00:30:49+00:00"
+    },
+    {
+      "title": "Khamzat Chimaev responds to the incident between Namo Fazil and a group of Chechens during DWCS fight week 📰 https://mma-fighting.visitlink.me/eAM24m",
+      "url": "https://nitter.net/MMAFighting/status/2090430052253188271#m",
+      "source": "MMA Fighting on X",
+      "cat": "ufc",
+      "ts": "2026-08-20T13:25:37+00:00"
+    },
+    {
+      "title": "Anthony Hernandez admits training with Sean Strickland \"re-sparked\" his love for MMA ahead of UFCSacramento: \"It was a fcking blast. … It’s just li…",
+      "url": "https://nitter.net/MMAFighting/status/2090431158970630591#m",
+      "source": "MMA Fighting on X",
+      "cat": "ufc",
+      "ts": "2026-08-20T13:30:01+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,8 +2113,6 @@
     10
   ],
   "yt_eval": [
-    "CBMitwFBVV95cUxQXzR0dHY3aUR6emZWa011LW8wMnVCaDJqckoyVVRKamp6dTJTc2hoTmkzSlFIYWpBY0V1cEtSWVoybW16LXZ3SE5SZEhWQzhKSGlrVVl1eVlSZGxDUlFOb3VUbF96bWQ5WmxUNHQyd3U4ck9EemVWck9mbTR4UU1IZWl5YlJXTmxLTU50eUx4OWU3Q3RQeE1KNkQ4MWRDdHhZM0R2YmMxZENCaFdFcEJUb1E3c0NXQ1E",
-    "CBMipgFBVV95cUxQRGdIWkRESy14d3hyY2ZFc2RMSXJDMlN1YWpjVzA1Q1hQUlNKYVBhTVFKcGRGN2ZacDZNNG9XS1h2cm5fV1pSVDVZdlN3Tm52UHBTS1hXb21iNS1ZNG1kMHRIcUxjeXRtcS1laGFNLWpqWkt2TXJ4TEpxSXZhQm1VQk92SXE1aWtLVGxsS0ZicEZCZFBnS01nTjUxM00tUG1wZWFzb1l3",
     "CBMid0FVX3lxTE9za24yWmU1Z2dtclIxYm02SzRPWmlzSmtrVFltQU1FTy1wWjJ6d1J0ZmcwUnpzbGFUbUdVaFRwYTdVaE5sbXhma0dHRVM5NjBTLVd2YmRSWVRldVp5ZmQtampGN1B0MEMxWGl0MWpYS0E3ZUItNVN3",
     "CBMiogFBVV95cUxQS0trUjdYUHNocDBaVUdkS3U5dlpNYjlrMUszNEhfbHZDUUUyN1oxOVcwam0zaGFZWkw2VFdYeGE2cjJQWTRSMUVhRkxxemJOd1dzVmk3Y2ZNNHBVNndzb2FoRHRUVWpsUFpLMUFfNS1VSUdjaG1YYVVYZ3pKTUxiaHM3eWtZcGdJcnJ4ODUxNkpVZUZCRi1hN2Z6Y09yel9jc1E",
     "CBMijwFBVV95cUxQNXJaNTc1bzY4YUNwTUt4elFkbTBOdkl0bmpUbHh0UFNtVWl0Rl9IV21sWFBRaWw0THBrTUVEZVJiU25ZTDlhZk1DUUNBQlR4RmZnc29hSVBLcU10VFpHdlk2MWJkQTRWMl8zbDBmRXlkZURIMlNFd2JrOHpLLW5nSk1XQk9RUGlzME14TThLbw",
@@ -3312,7 +3310,9 @@
     "https://bloodyelbow.com/?p=327948",
     "CBMiW0FVX3lxTE1KUHRiemo5YVM1cUIxQlFaSzd5MERpQnpMMnFVWm94MnJZSi1XZ0VRVnUzSlN0djA5bVR0UDltQVNBaFYwQ2RjQjlWNHlPWU5fOVcyS0Q2WXdDcEE",
     "CBMivAFBVV95cUxPcXgtLXNiZG8wNFIzTV9hbmhEMDg5QUc3d0NmeHZNZTlMMFpxZTFOX1gyWnhoYXduR05wa19Gb1BSOXdJMElhd1ZFekE4dXRtNnd0RnBiNEg1Tk9XaDFkSlJXVUtiWWFTZ1RzRm1Db2x2cHRKbkZjMm5yS1d3Y2FiZElDNDhySlJ0WUk0NDRNTUYtZTNldWtPQ2dzVmxwT09pZzF5c1lKMDVLbndQaExObjZWbVVqMWt0OG11cA",
-    "CBMi0AFBVV95cUxNX3p2U3hRNV90X0EwcGtaRGVsd1l1WE9qbng2a1Zfd0NKMkcwRkVIUXhLSnc3aVlUV0N5b2J6WXRBYnJwNnJqOHlHR21CUzcwZEhiN2QxNzhGS29ZaGV3V3BjYTBiMEtmUy1lQWxFR0pRczZ3UlgzTUstejJnLWM1czdCWTlHOVdiYVJibHhUVW5LQVFqcTB1SnQ2eTJKZTRTWTZKVFJYM2psQzVrSjlfdkIzUFBlQjNSZlQwRW1QZjNJSmxEdDcycFJVT2hpMmRi"
+    "CBMi0AFBVV95cUxNX3p2U3hRNV90X0EwcGtaRGVsd1l1WE9qbng2a1Zfd0NKMkcwRkVIUXhLSnc3aVlUV0N5b2J6WXRBYnJwNnJqOHlHR21CUzcwZEhiN2QxNzhGS29ZaGV3V3BjYTBiMEtmUy1lQWxFR0pRczZ3UlgzTUstejJnLWM1czdCWTlHOVdiYVJibHhUVW5LQVFqcTB1SnQ2eTJKZTRTWTZKVFJYM2psQzVrSjlfdkIzUFBlQjNSZlQwRW1QZjNJSmxEdDcycFJVT2hpMmRi",
+    "2090430052253188271",
+    "2090431158970630591"
   ],
   "daily": {
     "d": "2026-08-20",
