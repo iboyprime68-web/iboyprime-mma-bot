@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Ilia Topuria pitched unranked 2-6 opponent for his next fight by Arman Tsarukyan",
-      "ts": "2026-08-20T14:00:00+00:00"
-    },
-    {
       "t": "Michael Bisping Criticizes Ian Machado Garry’s Attitude at UFC 330",
       "ts": "2026-08-19T20:45:01+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Arman Tsarukyan reveals emotional reason for wanting quick finish against Mauricio Ruffy",
       "ts": "2026-08-20T18:09:39+00:00"
+    },
+    {
+      "t": "Islam Makhachev And Khabib Team CONFRONTS Dillon Danis At UFC 322 (FULL FIGHT) Express Entry Draw (TqqT8yBt9S)",
+      "ts": "2026-08-20T17:49:10+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Yana Santos Gets Luana Santos Reported UFC Fight Night 292 Booking After Contract Tease",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ0U0ZlRFZzduN3h6RTFnajlDbWFaNU9JeV9mWWo0cHZpN3pSbHc3dVotZDN1WEwyVUlDUjEwQl9fRTNKRmlpVk12bEMtWUlXMHNVMzJiUDFDWmJkSVVDRktBc1FTZkZCM3kwRWdEZzhHbERUMFRubE1obFpjMXhmTzN6NXdidkcyUV9NVUtGWQ?oc=5",
-      "source": "MiddleEasy",
-      "cat": "ufc",
-      "ts": "2026-08-20T17:15:56+00:00"
-    },
     {
       "title": "Sean Brady Reveals Update on Rakhmonov’s Knee Issues",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFZ6M29raTJqdG01bGIweEZTWGpsRllIdDBiR2VWVEh2UW9UMDlNcGYzNlZCdkFvc0NFdk1HNE51V2RheTlqZ2lxTi1VYnU1Z2lybzd6Tk9Wd2IxZ0JMVlVheU5LNmJFOC13NnQ1Ny0tMWU1eXZaSWJtam1xczJ2MFpyM29QZ0hVMzhRb3dKWWJMTTZndThjZXBGWU56WjRNbU9rZXlnODUxTEZkb19ObTJRUjJOQQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-20T18:09:39+00:00"
+    },
+    {
+      "title": "Islam Makhachev And Khabib Team CONFRONTS Dillon Danis At UFC 322 (FULL FIGHT) Express Entry Draw (TqqT8yBt9S)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sNnhkSkhpN3Y2QmpzRXdnbmRKV3dDUXdBcU5SZUZrWGE5MjN5TzI0aWItdmlCeUstd2RWT19fMEZiR3BTMWpjSWZhTXVnOGV4dDFkbm1LdDR4SjQ?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-20T17:49:10+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMitgFBVV95cUxOWFVTTk9FZUxiakpUaDNkbzVZUVgtc3BPMzA0TFotSFZFUnVMTHVXcVlBRHdvakF1UXJEWHZRbnQ4dDZ6dGxMUVAyOW45QVdjTWREbVRNdjhzekJNT1FZSlJBWUl6blhnVGdaVWFBU3pRWFZSZnlGSEMzOWdZTHhJUVhfNmFzNElGbHBqdnNUX3d6ZVlsYUZsdm5ER0x0SnlPbDFoTl82aGZwMzdmV1d5bWtpRVV4dw",
     "b1c6e178-c583-336f-b632-9adf49f54eaa",
     "CBMiqAFBVV95cUxQZTB4cFppdHZva0h1V2g0QzhkVllyRkVFSjI3SVhNRUJwb2Zfc2MwNzN0MXBQZWE2RFRWUmlKMExqS1otSEhfaG1Ma1lwY0JaNDAybFpOX3BWb0tPV1lSOTBESHBYRlhWUTh6YzdNNk50a1lLNVljNFlvbnJ0a0ZENjFUY3FqS2szYUk4b0ZCWW9PRUc2eGQzTnpsVE5aejFhaUx6Qk4yMXE",
     "CBMilAFBVV95cUxPVUFPaXFIX3E4djZyV2NkXzNvaEtHRmlRRFRxNW5xRkVtek0wd1NsRzdKSkdJU01PQ0N1clhOeF9fbmJLLUFBSjlFZzNsdVZKVGt4aXREaFNsNFg4LWp2Z183WVZwRlVBNUJXSDVWOV9BcHhzaC14MVgySk1mNGswckNCdEVpOWRXRkhnQU56YTEzckpp",
@@ -3312,7 +3311,8 @@
     "CBMib0FVX3lxTFBHWWtSNXdwZDRtWDhzXzJnSjlIUGpxLXF4LUJYeXlFVnJzNEJaNVc3dmVyb2c2RXZ4QXpQSnBaUTBWNThtY2ZTRGFSR01odmREQXVlUzhFWHEzRGNJQm5QRzB1RExzNDdoMVZxOWFxSQ",
     "CBMieEFVX3lxTFBFb3dEaTFzZDJMZTljRmlqaUxRUmxrYWwwclktMUtoV0o3UlVRcWdIbDRmbnJHc0hNemlnMHF4SU9zRE03UGphYjZrZjVScGV1cXIwVDBIUmVaNXdPV0ZIWmpFSTRkTEUxN2lwMmhFYkZPQUhYUkNWTw",
     "CBMiugFBVV95cUxNLWwtaEJuNzhVblhNdUVHazJwUm9fUjhqTkNoaTRIU3lHQlRmcVNVOFBncU5lbXNMTkhDeks4ZFJiS19VNGhib1QzdHY2UVl4cHBxYWF4MWVkQzJudUI5R2ZvMXNEckhuNGdKazRUeks0aWh5VXdKeXlNS0xlTkhpQWpLU2MtRnotVjhPNExPZGNSNW5ienY5TXhSdXFtYlpFa0dLLWJUeWdacER3MVhLSk9EOGxiSTY4VEE",
-    "CBMitAFBVV95cUxPTWtCSnQtMGFSdXlfakRXWlJ5dUdpeVJuRmNTWE9EWDZKV3pPUFF1LV9kXzlLcjZmUW42X3pOc1NfUjdqeTYtVXJIRWh1NFdwVjhuNndpUThkaE8xd0xmaDBaa1B1ZXVVTUJaTzNXd3FtQ2hFRlNtQVJ0UzNOZXpkdnNpd3RUbjgzQXJ3THl2WEFwZHgzY0EyS0JVUDR5bGNtbnR2SVRYWlA4QWV1aEJhaDNRdTc"
+    "CBMitAFBVV95cUxPTWtCSnQtMGFSdXlfakRXWlJ5dUdpeVJuRmNTWE9EWDZKV3pPUFF1LV9kXzlLcjZmUW42X3pOc1NfUjdqeTYtVXJIRWh1NFdwVjhuNndpUThkaE8xd0xmaDBaa1B1ZXVVTUJaTzNXd3FtQ2hFRlNtQVJ0UzNOZXpkdnNpd3RUbjgzQXJ3THl2WEFwZHgzY0EyS0JVUDR5bGNtbnR2SVRYWlA4QWV1aEJhaDNRdTc",
+    "CBMiW0FVX3lxTE1sNnhkSkhpN3Y2QmpzRXdnbmRKV3dDUXdBcU5SZUZrWGE5MjN5TzI0aWItdmlCeUstd2RWT19fMEZiR3BTMWpjSWZhTXVnOGV4dDFkbm1LdDR4SjQ"
   ],
   "daily": {
     "d": "2026-08-20",
