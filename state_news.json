@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=505368",
     "https://www.mmafighting.com/?p=505378",
     "https://www.mmafighting.com/?p=505385",
     "https://www.mmafighting.com/?p=505423",
@@ -21,6 +20,7 @@
     "https://www.mmafighting.com/?p=505760",
     "https://www.mmafighting.com/?p=505782",
     "https://www.mmafighting.com/?p=505789",
+    "https://www.mmafighting.com/?p=505802",
     "https://www.mmafighting.com/?p=505831",
     "https://www.mmafighting.com/?p=505899",
     "https://www.mmafighting.com/?p=505939",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "2026 St. Jude Fantasy football PPR mock draft 2.0: Jahmyr Gibbs goes No. 1 as RBs set the early tone",
-      "ts": "2026-08-20T10:37:23+00:00"
-    },
-    {
       "t": "Fantasy football rankings 2026: Sleepers, breakouts, busts by model that predicted Daniel Jones' huge year",
       "ts": "2026-08-20T10:11:40+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Din Thomas teases retirement U-turn days after disrespecting Gillian Robertson with UFC 330 announcement",
       "ts": "2026-08-20T13:00:00+00:00"
+    },
+    {
+      "t": "Anthony Hernandez: Sean Strickland helped re-spark love for martial arts ahead of UFC Sacramento main event",
+      "ts": "2026-08-20T12:40:19+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Jose Delgado replaces Yair Rodriguez against Jean Silva in the main event of NocheUFC 📰 https://mma-fighting.visitlink.me/f4CE2b",
-      "url": "https://nitter.net/MMAFighting/status/2090171119760474424#m",
-      "source": "MMA Fighting on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T20:16:43+00:00"
-    },
     {
       "title": "Arman Tsarukyan picks surprising name for Ilia Topuria’s next opponent https://www.mmafighting.com/ufc/505974/arman-tsarukyan-picks-surprising-name-f…",
       "url": "https://nitter.net/MMAFighting/status/2090212858378522702#m",
@@ -2105,15 +2098,21 @@
       "source": "411Mania.",
       "cat": "ufc",
       "ts": "2026-08-20T12:01:47+00:00"
+    },
+    {
+      "title": "Anthony Hernandez: Sean Strickland helped re-spark love for martial arts ahead of UFC Sacramento main event",
+      "url": "https://www.mmafighting.com/ufc/505802/anthony-hernandez-sean-strickland-helped-re-spark-love-for-martial-arts-ahead-of-ufc-sacramento-main-event",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-20T12:40:19+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
   "hour": [
     "2026-08-20T13",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMitwFBVV95cUxPLURDajBuME16cXhjNzdvVFd5UVFOcEw1WlV1Wm9TdHRJUjJTaDh5U0M0RmE3djFtUnRjeW5ySm5weVJRRTdkcmlRTWg1eWZ0TVJLT1RfWDdraGVENi0zTHhiaEpYWjQ1bnN5QVZjeWhHaFFYX1piX0YzdmlxaXFDLWRmakxBVEdYYWp4SW5XZ3BpVGxTcFhSQjBWM2hraXZtdGVNSUZKeVBvckppQ0dJcmtzUFRNb0U",
     "CBMitAFBVV95cUxOUndKbl8yVUVVbjE5NWRsTWRmalp3SGg2NFJoT0NwOFoyTm1oZk1TY0t5N1FJTjdDakw3eXZydFg0TU5JS2VXejRLR0xjeWNnNFV1d1NlOElycXUwWTBJTXlFRk5oQ2JDUkNURFF0YTRCSlJJdlNsWUpZT18wZWZDNC05RUxaVjVEUThMT2RJUll5TUlna3BtSUJYQl9aVzRFV3BobWZCblA0aWRsekRfUU5FTng",
     "CBMipAFBVV95cUxQNjNDVjBEcFF4TU5WUUxrU3lOOUwwcFJma2hBVUFFOUhfc3lvWXA5WUg4WG5ybXBsNVJfSW1QRmNiNldMZTFSNmxWMl9XZS1JS1JEcTFQYlRyb0dEeHFyLVFRV2N5dm9SRmhXNE9naTRrRzRVTUxMNEFjLTVtNFhJSnZLZEVQNlFxcEdhdnR6VWhkbDJwc1ZSRHpHS0pUVkJ3T21Bbw",
     "CBMidkFVX3lxTE1IS0VLZ2tlMW16dWwtbFBVLUdobU9qb0dIUV9aa1pvcllYeHB4X2VYajFMdHhFLVNKNk9HQV82bHk4cjR0NU5jcGw3UE5vUlRBbTBzMVVDQ3JVYld3dXREQnh6ZUlXN2Y1aUpCQjAyN25PQTk0OXc",
@@ -3312,7 +3311,8 @@
     "CBMi8AFBVV95cUxPdUlodlBpS1VkejZmYTZSMnZnR2JvMzdGT0poTDE4WUc5RHBQOVcxek1VUUlTSXJLc3ZCaDlTUHFQOE1keUhKUHI0ZWVacWZWNnR0M0pUV3h0UGNWckptN1NTR0E3MzNxMWpwZE9SNmdoa3FTdjlTbGtRVmtMRUFObldXbW15VjdiZHluQTFmVU9GSGtLeXdMeGZROUxEQU9ma1VzdWN0aXRLdjBkUjVlNTEyQm10alUwejRRbVJCY1NEYlFtdXY1VUtkWmtUU3kxcmh2cTdLU054RGtTR2dId3k2WFhWRl9kQkZ0SnFUSzU",
     "CBMixwFBVV95cUxQcU1CU1AxWmI0cXlSNUNLeUF5cGhXa2pPN20xME9FdnFtckwtUVczaFRBOE5nc01vOTg5enJpRHB0ZWNZMjY2UVdINFVjWWx1RFJUVWt2V1ZVLTdTVFZyUmlCX3Y0cWlDVm9wSHpuQ0JkcTIyRzhUYTktQktBQmozSktZT0dXXzBOQ2VUSGg3RndlREd2RzVxQ005QXBNYXhHbDQ2ZzZxOTM0dS1VWFVlVGEtM3ozSEc5cDl4UXJ3enNVZG9nT1lz",
     "CBMidkFVX3lxTFBfT3BTS05VZ2JIdG1FRUZBTWM2emN4OGw3RHNKNGVnbHNuRElSZlZCYmI1c3RyaVNKQVd2dGltWS1yUHZNVGJucFh6S3NTMG9MdTFQM21NWDczYXpKZ05HS2ZSZXNPQy1WNGV1N0pueFRmTFpMTFE",
-    "https://bloodyelbow.com/?p=327888"
+    "https://bloodyelbow.com/?p=327888",
+    "https://www.mmafighting.com/?p=505802"
   ],
   "daily": {
     "d": "2026-08-20",
