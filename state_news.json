@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Robocop is really like that 😤 It's almost #UFCSacramento main event time for @Gregory_MMA! [ LIVE AUG 22 at 8pmET on @ParamountPlus ]",
-      "ts": "2026-08-19T20:01:00+00:00"
-    },
-    {
       "t": "Walk-off KO 😮‍💨 @GazievMMA is aiming for similar success when he steps back in the Octagon at #UFCSacramento! [ LIVE AUG 22 at 8pmET on @ParamountPlu…",
       "ts": "2026-08-19T21:00:00+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Yair Rodriguez Says Noche UFC 4 Injury Made Jean Silva Fight Too Risky",
       "ts": "2026-08-20T22:50:39+00:00"
+    },
+    {
+      "t": "UFC 330 'Fight Motion': A Scottish twister in super slo-mo",
+      "ts": "2026-08-20T22:50:00+00:00"
     }
   ],
   "digest_items": [
@@ -2028,6 +2028,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-20T22:50:39+00:00"
+    },
+    {
+      "title": "UFC 330 'Fight Motion': A Scottish twister in super slo-mo",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVXhWeTJZWmg3ejI2RjZyU3AwbjFsRDZDbkVsc3h6QXdFblVKLUZwNzN6cWJ5TkNjOWJfY0xpRmt6V2RSYmlzM2REa3dTeDlEZkNDdk1zU1VfYVNYMUlGSTJGcEhNS3EySWhYdXk0T2gyTUg3TldDbmp3MGtONzBackpQekxaLWtxZUt4dTk5M3FWQmZWcEZuQ0JEUnMxRVZzLUZhU0o1RHktV2xGMFk2ZnBZTGhDbjBCeVQzYTlrOERITndtVkYtWjVmRm9RcjlpYjBOX3dPUURqc2hPUld2MWtBOFpzTDNsUkJmcG5zUFhTaEdwdnZKQVV3?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-20T22:50:00+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2036,7 +2043,6 @@
     6
   ],
   "yt_eval": [
-    "2089806576249127364",
     "2089806067882725859",
     "2089805789472895075",
     "CBMikgFBVV95cUxOS05rQXV4eU5GTjhValNVVlphWHgwQXI5NnNVRVZWMWx0Z0lZTUQ3WjlUT3RSMmxnYVJsbXRjQ1BsM0RyRkZNMndtQU1NN1kxX2hGOS1QWXVrMTR1NVRlSXlySXVXeEJWN3NDSElzall3NUNZR2lXQkZHSU1zemoxSl9nUVdVbmNpYUlEX0sza1Uydw",
@@ -3235,7 +3241,8 @@
     "CBMiiwFBVV95cUxOM250VkhEWUI1UEtmZXlWZktlcDh6UnQ1Uy1BQ01veGhsVGFiN0VfRkZyZWZNSjk5VFp3NGExU0p6QV9GVklmRS14Tnh4aHBaVlN2dFdfREJwV1ppUmRaSm1VR19GLVhJTUh2aDNLUTlFdDFlSDExQ1ZVSExMcng1eUFTeUNvQ2VxcjlF",
     "CBMihAFBVV95cUxNVjBtYlVpLVVFUU1rbFBPTHFMWWstY093UXFKWUdSbHdQV2dLN0pleFdZUjZRUnZQVkFmNk9rUDVfdnJ4VDZ6SDEza3h3R0hERjNGY3Z1bzkzZDZYVkhDMV9FUHNHaXFHR1NkR01mTXMwUUZwZFBNWHZrZUNKV1lCREhvcks",
     "CBMiiwFBVV95cUxPUHdWSkVxXzJjYVlYeHQ5aUtBbXdfYkVZMllnSXpFZ281ckJhYnJ4WHpYUG5BZVNwZk56TjI3Q2EyWkNUNzY4MEJHWmNRWEVpR0UyUkpaSDhwdUY0TVV5bEV0XzdQNjJPMEVyeDN6bU5BUGNtQkFLU2pNWXJDYTNaaFlCRnExZVRqdHpR",
-    "CBMigAFBVV95cUxPVUV4YzNTNHdCR056LXJpYWNoeF9TMmgxWnlQNnZpcTJvVlZTSUJlX0lDbll5azIxMFFZT3B2QjNaZWo4RFRadFVyRERFLVJXWWdEU05RcVVPaUpzUTBhRndPNnRqXzhJcVdpbXRBbV9kZmpvTkVYamdRdDBmVzdZcA"
+    "CBMigAFBVV95cUxPVUV4YzNTNHdCR056LXJpYWNoeF9TMmgxWnlQNnZpcTJvVlZTSUJlX0lDbll5azIxMFFZT3B2QjNaZWo4RFRadFVyRERFLVJXWWdEU05RcVVPaUpzUTBhRndPNnRqXzhJcVdpbXRBbV9kZmpvTkVYamdRdDBmVzdZcA",
+    "CBMi-gFBVV95cUxNVXhWeTJZWmg3ejI2RjZyU3AwbjFsRDZDbkVsc3h6QXdFblVKLUZwNzN6cWJ5TkNjOWJfY0xpRmt6V2RSYmlzM2REa3dTeDlEZkNDdk1zU1VfYVNYMUlGSTJGcEhNS3EySWhYdXk0T2gyTUg3TldDbmp3MGtONzBackpQekxaLWtxZUt4dTk5M3FWQmZWcEZuQ0JEUnMxRVZzLUZhU0o1RHktV2xGMFk2ZnBZTGhDbjBCeVQzYTlrOERITndtVkYtWjVmRm9RcjlpYjBOX3dPUURqc2hPUld2MWtBOFpzTDNsUkJmcG5zUFhTaEdwdnZKQVV3"
   ],
   "daily": {
     "d": "2026-08-20",
