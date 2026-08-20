@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Mackenzie Dern Reacts to Successful UFC 330 Title Defense",
-      "ts": "2026-08-20T00:55:46+00:00"
-    },
-    {
       "t": "Kaik Brito was inundated with Namo Fazil fan messages before DWCS knockout",
       "ts": "2026-08-20T01:20:21+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Leonardo Damiani",
       "ts": "2026-08-20T08:49:49+00:00"
+    },
+    {
+      "t": "Yair Rodriguez Out Of Jean Silva Fight As Jose Delgado Steps In To Main Event Spot",
+      "ts": "2026-08-20T09:30:39+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Highlights: Yankees at Orioles (8/18) Stream of Major League Baseball",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WaWpPY1hLMWw3VWhfYWZvOVRvd0ZfQkRlY2lOdjU0T1pJTGZwR2QzZEI5NFBSdVAyMzhXQzVoTmoxUHdEakRHQlhBWWVCUWVveTRoSTFhNzI1Si1jLUlBcmM3c1ByaG1QTExNSzdxaDJxckt5S3haZkVMaXNwZUk?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-20T08:16:36+00:00"
-    },
     {
       "title": "Josh Hokit Finally Reveals Conditions for Alex Pereira Bout, Accuses UFC of Preferential Treatment",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdDVaQl90eTA0b3IyaFZYcTBtQkRrek5xdDNkS0Vpa2puck9rRG02XzdsUDlLR0tvVEFDTXU2NUhWWHdpYzJLX0dRNExLTnNKNHlpNWVkSkR3WlVLazNhZ3JrZ3lEaXJ3VTZPTlZHdHo4M1E4X2llZmtKTGpQTUgtRVBHNGdveUU0SWFXajRCcWc2R0JPN2p2eFFONGViaVdPMFJ4Wnk0SHZ3VWt3RDBpYVZacTZ3VGJScmVzaEd2VTV0UmlHMDFPTXhuanRPT3ZnN1BDZGQyT2g1SXZRVFE?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-20T08:49:49+00:00"
+    },
+    {
+      "title": "Yair Rodriguez Out Of Jean Silva Fight As Jose Delgado Steps In To Main Event Spot",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUG84M09zQWw1bkkwOExRbkhBTzJXWHFGaHgtWUczS0FGSkJEc3k4NnUtS2lKNWl5VTRVOHQ4Z0I3dTcwZWpnX1RRak9Obk5mZlpYNVVqbzBrNzd2SzVISGJyS2R2M241OUF3VTV4U0c0U3k1YmVSWUJtMVBVMlRoZXRnTEVJc2hDLTltZDFNY0VTYVE0azUydVRhZkpCQkdrT0ZCZnMxb1NfSGlaczRV?oc=5",
+      "source": "MMA Insight",
+      "cat": "ufc",
+      "ts": "2026-08-20T09:30:39+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMibkFVX3lxTFBKREVXNGgwSWdPTC1GV1dxLUlvdDdNb1lrZk5TUGJBYUVfeEFrM01mMEJWM2xyWkVyZmlkX2IyQXF6V20wY3J3ZGJlLVhPd2Q2SVg2allKVmlrR25hTXVEdlhqMURIR2k0NWZHTVpn",
     "https://www.sherdog.com/news/news/Carlos-Prates-has-a-chilling-promise-for-Islam-Makhachev-202411",
     "CBMiiwFBVV95cUxQXzdPMVNQOHZ4WVRRYU9rOHJOVTVVdkRGTnhyQXQ1NkY5VXFXM2VKY2wxNGMxZ18zSTZwZjFCZjhoTWNiRl91ZU00UVgzTk5rWUxwc3RDNTVnSTBqTGhkekdzcHpkMU0tSVlQbUdRcTZEcXk4Tm80cjY1RmtRMzFhV0czQ2k0Mm4tc3Zv",
     "CBMitAFBVV95cUxOeDdQWkZMMXNBSF9EV1RPdUhGTWdsTjRZeHNhWkNDel80TDN3a1pwVElUMjQzMDEwdWNWRk5qeDR6MW1DZ2IzMVJ0aVFCTURpX1RvcTdkcE5hdVZXV2QyNVdlc2ZvMDVsNzFwa3g4VV8zZUN0TktJWHhCa1pQaU01UWZEMTZIdVpkSW8tajZaQ0otd1JhaEViOWlsVnJHQWJNMlRCSjBDcWZxS09qRllVSENucUw",
@@ -3312,7 +3311,8 @@
     "CBMijwFBVV95cUxON09QY1ZNZkxEbU1yN0JRbE9GOVRBby1kQjZnckFvU1JwXzdadlJyUk5ZdXZkUnZiZFhHTjVQZktpWU5CRGdTLVhkMkk4UHVBUUlPaWFjQ1pZcTNvNFdMcFdzbFRJN05YM2QwWlNuMkZIeDFjVG1PcVBPd0JtVFVzSGF5NFYwWkd5aXlRYnRYcw",
     "https://bloodyelbow.com/?p=327859",
     "CBMiWkFVX3lxTE1zYWVCMlpVTGxsRnl3T2FhZkNyN0JEVlFCcGt4R2lXRE5ROWtIT3N5WFZMaktUd19VcjF2NGNzUjlCWGw0bVk2bDNUT2t6d3NZY1lUVUw2SGM3Zw",
-    "CBMiV0FVX3lxTE54aHBRNUtiNWpUUmZMWlFfYmhXczFwT0hpV2FyR1JrU2hiUU15THUyalJ5Um5JUDdGUnVPcFg1NUs4SGJHcFlQLWc1U1JCbE5iSld3QmV6Yw"
+    "CBMiV0FVX3lxTE54aHBRNUtiNWpUUmZMWlFfYmhXczFwT0hpV2FyR1JrU2hiUU15THUyalJ5Um5JUDdGUnVPcFg1NUs4SGJHcFlQLWc1U1JCbE5iSld3QmV6Yw",
+    "CBMirwFBVV95cUxNUG84M09zQWw1bkkwOExRbkhBTzJXWHFGaHgtWUczS0FGSkJEc3k4NnUtS2lKNWl5VTRVOHQ4Z0I3dTcwZWpnX1RRak9Obk5mZlpYNVVqbzBrNzd2SzVISGJyS2R2M241OUF3VTV4U0c0U3k1YmVSWUJtMVBVMlRoZXRnTEVJc2hDLTltZDFNY0VTYVE0azUydVRhZkpCQkdrT0ZCZnMxb1NfSGlaczRV"
   ],
   "daily": {
     "d": "2026-08-20",
