@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Utah! We are headed your way for #UFC332! UFC Fight Club Pre-Sale is now live! Get Tickets Here: https://UFC.ac/46euWUB",
-      "ts": "2026-08-19T16:01:00+00:00"
-    },
-    {
       "t": "His last trip to Cali was a success 💪 @ReinierdeRidder aims to get his first UFC light heavyweight victory at #UFCSacramento! [ LIVE at 8pmET on @Par…",
       "ts": "2026-08-19T17:07:01+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "MarQuel Mederos vs Mason Jones Prediction",
       "ts": "2026-08-20T14:26:59+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan examines the current state of the UFC lightweight division",
+      "ts": "2026-08-20T14:28:17+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Noche UFC Gets New Main Event Fight After Losing Ex-UFC Champion",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM1BpMWI4Rm00WVBDTzh0ejQwTGZaMTE4eGFUeUc0VmgyaWtCZUsyTndqN21RYjUybWV5WVFpNG5aQlgtWXB2aHBnQ3U0dW9Ub09USFljcXg3VXVRbnpzVS1ETmxRanJXYlJfanFsVUl3emtHaHlQbnhKc2l6dkxKWVc2b29uSm1IeHFhV1plTTBxc2xIMmFSWW9LM1hNdw?oc=5",
-      "source": "Sports Illustrated",
-      "cat": "ufc",
-      "ts": "2026-08-20T13:10:38+00:00"
-    },
     {
       "title": "Sean Brady Says Shavkat Rakhmonov May Never Fight Again As UFC Welterweight Queue Gets Mean",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVTFDYjE1bF9OcHQ1eGpXdnNzVmduZmhicFhoNF85Q1RkeU1JZFZMV1ZLMmQwdXQzdnlaRkJ4RmRsWTVmOHJiNWpUeHR2ZTR5dVZTQWRLVEVnd2Qyc19GQkc0c3ZZOU4tWS03ME9kSS16M0dTeGNOd0I4MnB1SjNVVi03Q0hiYy01OEVFamNpQ2lMZGk3cFZETGpCUy0?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "ATS.io",
       "cat": "ufc",
       "ts": "2026-08-20T14:26:59+00:00"
+    },
+    {
+      "title": "Arman Tsarukyan examines the current state of the UFC lightweight division",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWnJISFVpTlVsQ0Yxd1gyRDd5QlhBTVVLbTJLNUI3MUxlazFLdDJ0bTVvR21Ddk93WDN6Z01KVTRMRU9paUltUHpiZ2tFaXpwZGtFUUhxOXYzbDU1bmdqQlR3ZHpjaDdsT19PU2VKYmpMVjBnTlVNRnhkaGxsWkNRUWR4M1IwTUxGa3pDSWVZbVdHNDhqeTNXdjFEdnF4eDBSNXBBeVBOa0RETVRMaWxaTTVrSkVOdDRuTzNYSkRqLXk?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-08-20T14:28:17+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=327537",
     "https://www.mmafighting.com/?p=505592",
     "CBMilwFBVV95cUxNUV9sQWZUVXFxdnFPcFItUjhPdlJBR3BUTHdNNzk0Yl9yajgwN0g1VUJMemNtdFNpME1FNTVxR3Y0X0NlUVlhMC1STV96UFhjRGs5U011V2szTGZoUlUxMmYxRlNTX3dhNWNVUXVLLW9RbmFJSGplVDZJX2pPdEIwWFZpLW9DNG5rWmFTbldrell1NHM4a25J",
     "CBMihAJBVV95cUxQY0hkYzZUWmpQZjZBYktkNVZHRGhLNnRYWlNEakdGdTdmb0lHdGxKeHFDWG5KWlNMMnZNa1c4Y0FLQm9GOGZ3Q2RzS01uaWwwdGVVNjFEMWVkSzhLc0NNV2psMFR3R2l4RkYtekNXdlJZY1pxeXkyd2F0VDdaQ1NlVFJWVFNTZ081N2E4MEFJTkFUYWxWT1VEaEg1MGRpVTJtWXpzeHdBMU9wNVVsSHNGcURsSjdMUHUzTFN1RWV4MlFMbU8yZTdBejFjczNfR0tqWkhmWmdDT3F1b1R0QUpOSFMzTGVtVmVMVXVYTnBtQnowOTNKV1NkOGJtY0xUYlRabnRkSQ",
@@ -3312,7 +3311,8 @@
     "CBMirgFBVV95cUxNUmhGVHRrUzNSamNOdm5HQmNKQzRjeFJ5UDVGR25OZk5JUS15WXFNVHRDcDZUa1RReUVxV1lVY2JxQTZqVDBDb295MDlfM3h2a2NNQ2pONTZPYzlXRlhwRzJVTjF6ZEZFVXhsTE5razRGMl8zeDE3M0ZXZ2NPd1Vtd3dfeU1PTjZENmJ2al96Z3dYUGNLNUUzeTRiSy1QRVBFNjJKOU9tckJfX2xsZ1E",
     "CBMiugFBVV95cUxQSzc0dUpPbjNxTEVpOW9jc2VEQTZsN0NoSTBqbXVINHdKeEtlYnM2YXRIWkd1d1JxWTBDbTZhRzNwMWtOSEV5eklIdkx3RkxGZy0wS3lzaVE0VHpwVDAzZmE4ZWhJUnBRMElMRWpzSkNsdkJKaEQySUo2LWFvTmJUSnM0UlpsdE5uTWU4LVU2bWhValN1Zlp0bXNYNjNOeVcwZWc3OVNscy1BTWNqYmRjWG5nUE55T0FDRWc",
     "CBMiigFBVV95cUxQQjFvdTNRZmFQenBsbDg4MThsLUNMNVR0ZmxkeDgwcnhtbjgzY3luVzZvSUVyOVBvVmpQektmMldvNDlVX1hlT3FhN1JIM01iMDk5UnQyN2c5V05TWWZrSFY2S0IyYi16UG9peWxZTVJ4cDNpWGJxT1ZxZ0plUTdtbndFdjA4R1l2X3c",
-    "CBMijgFBVV95cUxPVTF2b29rakV3blNQcXJFTzVfdVJQdTY0Nk9pRmRFTlZ2Rm9XV1kyeEw2cGhjaGVHamg2NG85eExTaUlPclYwdFFaVDZld2ctOFZZSnhvT183SFFMbFFqZXIwcWNyMGoyd0VJQ1JkbzBrNDkzbHJ0a2dvRy1tRjhrOE1JZjdtQnYtaWk4Z2Vn"
+    "CBMijgFBVV95cUxPVTF2b29rakV3blNQcXJFTzVfdVJQdTY0Nk9pRmRFTlZ2Rm9XV1kyeEw2cGhjaGVHamg2NG85eExTaUlPclYwdFFaVDZld2ctOFZZSnhvT183SFFMbFFqZXIwcWNyMGoyd0VJQ1JkbzBrNDkzbHJ0a2dvRy1tRjhrOE1JZjdtQnYtaWk4Z2Vn",
+    "CBMiwAFBVV95cUxPWnJISFVpTlVsQ0Yxd1gyRDd5QlhBTVVLbTJLNUI3MUxlazFLdDJ0bTVvR21Ddk93WDN6Z01KVTRMRU9paUltUHpiZ2tFaXpwZGtFUUhxOXYzbDU1bmdqQlR3ZHpjaDdsT19PU2VKYmpMVjBnTlVNRnhkaGxsWkNRUWR4M1IwTUxGa3pDSWVZbVdHNDhqeTNXdjFEdnF4eDBSNXBBeVBOa0RETVRMaWxaTTVrSkVOdDRuTzNYSkRqLXk"
   ],
   "daily": {
     "d": "2026-08-20",
