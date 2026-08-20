@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "\"Adding new tools\" - Songchainoi details his refined game plan for Banluelok match at The Inner Circle 27",
-      "ts": "2026-08-20T07:45:00+00:00"
-    },
-    {
       "t": "Edson Barboza reveals he suffered a serious eye injury in his fight with Lerone Murphy and has lost vision in his right eye: \"I was like, man, I don'…",
       "ts": "2026-08-19T20:58:06+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Darren Till reveals Lee Browne bar brawl was staged: 'We'll cause a little fuss'",
       "ts": "2026-08-20T11:02:23+00:00"
+    },
+    {
+      "t": "Highlights: Diamondbacks at Red Sox (8/18) Stream of Major League Baseball",
+      "ts": "2026-08-20T11:15:25+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Trent Miller decided to 'send it' with Von Flue choke, hopes to shake bad habit in UFC DWCS https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/…",
-      "url": "https://nitter.net/MMAJunkie/status/2090258868714590356#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-20T02:05:24+00:00"
-    },
     {
       "title": "With Yair Rodriguez out, NocheUFC has a new main event! 🇲🇽👀",
       "url": "https://nitter.net/MMAJunkie/status/2090280945743982780#m",
@@ -2105,6 +2098,13 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-20T11:02:23+00:00"
+    },
+    {
+      "title": "Highlights: Diamondbacks at Red Sox (8/18) Stream of Major League Baseball",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeWdWT2J4LTZvSjg3bkJPeXB4NXBzMUI1bmQzMXBZNVEzY3hobEJCLWVIQnkyN3dsdTdfMlVLdHZSemxuR3pUQjFzWHNTZWR6eURNUnBsamFhMVN6S2YwdmJGWjVsUHRBbTV5aERtQXJJZERsRkR0b0FTZGdLUzVNNk9hbF9Xd2c?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-20T11:15:25+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMikAFBVV95cUxOZWdVVGxPZXktNXA3cVhucDRVSV9RQTV2MDl3ckxyMWVZVW1FRkZCOUVpUWt4NXJZX2ZQVktJWEQ2alQ0ZWY1bjJXSjRlMng5VGYzdF8tbjd0ajYwSW8wNnc0NFFVSVpZczYweHJWSlU0WUhYVzBTOGR5VTVja2FzaGpJQ19EdW5QLWo1TzE2ZDk",
     "CBMilwFBVV95cUxNZzRveDVFWkRuWTZxdjRxZmY5aS1EVXJodzRRRWRNUGFvN3BVc09xZ2RwU2U4TXI3R1RIRkFjbVY3N09XampuTGFGMnVFbFRrZzlXYmFKUGhkWEdmdnFJb1lMRldRWnlSU0lhek9hS1ZFYktScVBsdnZsdmhpWkZOOVdRVUFDSjlaLXo5bXk5WFk5bnBpN2Iw",
     "CBMiYkFVX3lxTFB5TmQ2OGFjNDlhMkZOTmhBNWlOMVFwLVFtbC1mb2hEV0ZLYVRrLXJMU0ZvMGs1REdDTUJ0Y0hLSkZFdU5ubnZYSXg0VVdCZm1KRXpLWU1GLTkxNExKNWNXTGt3",
     "CBMiswFBVV95cUxPdFNYNEJieVZ3QjlzeU4tM3dNSllUTTgzTEU5bzhsZHBzeVZPaW9RYkNwcU1fYjc4SUo1TWNFQkRmdVJOdEd3RkZKSUlSQ2dxNVZzb1hpMk1fNFRzcWJCcDBsOGRUc0thUV82WDBJa1VLdFNwbEpwa2w3OUZlS2lMQ1lKX3NvbmNRRGlDZ0FmdnNRdU9jRmpPRXJ6OU5peFFEdlJOU0JXLUJIelZ0Ymtydk1pSQ",
@@ -3312,7 +3311,8 @@
     "CBMieEFVX3lxTFA1S2djNzh3ZjloLXYxd1k1REZPU0xoZmZ5U01IWDM2cUhPSjNkdVB1NTUta0I3andtd0Y2MTRLbVdidTZGWjE5WV8xcHNsMkFBSm0zV090RU1Tbmx2NE9PbjNpQkctNTAxRlFDdGpYYmY0WEFMSlMxVQ",
     "CBMiqgFBVV95cUxPaDhHMXJnV1YySGhsb1JCWjlpOWxsU2hHd0VCemh4QUV4ZmI4SEx6S1lGMktLQ0NjRk51c1huM0haSUMzRnpvYVRvZnc2dkg2LWlrLTE1TlJSVF9oYWtieU5kQTZCd3lTZHRrT3lLMFJnUjBsNVVTN1lITWp6RkExS002RVBzUlNBZXBHWlhrN3JVSEs0U29mQnNRQlByY3dhbFFvV0hyZUJ3QQ",
     "CBMixAFBVV95cUxOSUM2SUM2V01MOFBpMHVkOC14d0JMZEVwemZFTEpRNjQybnBvSmhPNERqNDVRMTRwdGdEQTczbGprNXVwVUxjZGtUS2lraEZPN2NZTVN1djI3V3NSUzdnRC0xcmVteXM5QUg3SG9tNUo0ZVFjS0N5ZVd1N3c4UTdMc2Z2R1RYYk9teEdfVlJ0eFppaDdpLXA2bE5ZWVJGbTZGLXB6TnVXWVZaUTFqVWJrYmRLYy14SGhiVEVGQzVtYXVDME1O",
-    "https://www.mmamania.com/?p=466028"
+    "https://www.mmamania.com/?p=466028",
+    "CBMihwFBVV95cUxNeWdWT2J4LTZvSjg3bkJPeXB4NXBzMUI1bmQzMXBZNVEzY3hobEJCLWVIQnkyN3dsdTdfMlVLdHZSemxuR3pUQjFzWHNTZWR6eURNUnBsamFhMVN6S2YwdmJGWjVsUHRBbTV5aERtQXJJZERsRkR0b0FTZGdLUzVNNk9hbF9Xd2c"
   ],
   "daily": {
     "d": "2026-08-20",
