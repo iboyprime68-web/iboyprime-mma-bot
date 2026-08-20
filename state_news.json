@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "MarQuel Mederos vs Mason Jones Prediction",
-      "ts": "2026-08-20T20:26:59+00:00"
-    },
-    {
-      "t": "Jon Jones praises Aljamain Sterling for rejecting UFC fight vs low-ranked opponent: ‘Proud of you’",
-      "ts": "2026-08-20T20:30:00+00:00"
-    },
-    {
       "t": "Darren Till predicts potential Khamzat Chimaev vs. Sean Strickland rematch, gives props to the UFC champ",
       "ts": "2026-08-20T20:29:51+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Ex-UFC Champ Jamahal Hill Hilariously Practices His Next Bruce Buffer Move While Rocking A Huge Belly",
       "ts": "2026-08-20T23:04:39+00:00"
+    },
+    {
+      "t": "Tom Aspinall Reveals Early Career Struggles that Helped Him Attain Glory",
+      "ts": "2026-08-20T23:09:38+00:00"
+    },
+    {
+      "t": "Nassourdine Imavov celebrates Islam Makahchev's UFC 330 win, warns Sean Strickland",
+      "ts": "2026-08-20T23:09:41+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "\"You're so easy to rage bait.\" - @dillondanis \"Please rage bait me when I'm in front of you.\" - @PlatinumPerry \"You can't even walk forward without t…",
-      "url": "https://nitter.net/arielhelwani/status/2090186027046719580#m",
-      "source": "Ariel Helwani",
-      "cat": "ufc",
-      "ts": "2026-08-19T21:15:57+00:00"
-    },
-    {
-      "title": "I will never A) not watch this if it pops up B) get tired of watching it",
-      "url": "https://nitter.net/arielhelwani/status/2090432242765996040#m",
-      "source": "Ariel Helwani",
-      "cat": "ufc",
-      "ts": "2026-08-20T13:34:19+00:00"
-    },
     {
       "title": "The Boys are LIVE on this Thursday 🚨 @ConnerBurks @NewYorkRic Come hang! ⬇️ https://www.youtube.com/live/ihfuwpHLAKs?si=3GtuWOziKzCPtIMq",
       "url": "https://nitter.net/arielhelwani/status/2090485103801868375#m",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-20T23:04:39+00:00"
+    },
+    {
+      "title": "Tom Aspinall Reveals Early Career Struggles that Helped Him Attain Glory",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdExJUEJwU21oZ2R5dzEzWW8tbjRBZk92bTN2ZUhFU0EtTnpDWjZXSFYya1NqUUF2bGRSWklpbzJNeU1mTnR3OW5UNU9VSmlqSWVGU0RlM1dkRDczeUNuMlh5THdLVW5CYklzdnUxY2xPOVNDV3k2czlnTENBeVFUZjBDVENpdGZOYlgwVTdmZVEtTU5sUmhmejJXc2JlWnVj?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-20T23:09:38+00:00"
+    },
+    {
+      "title": "Nassourdine Imavov celebrates Islam Makahchev's UFC 330 win, warns Sean Strickland",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdHg1ZzFyLTV1WkRwSU9BYTkwR2NiMzB0RjZ4Vm00cTQtMk9uTG1IUVYwNDV2S3Y0UlBqTVNTUC1QRFF5NVBpQ3Rxc0lFOXUySXhBQlduVkpva1NhX05JTFA0SEFLU2kxTVVpcHA2LVJsT1RuTVpKM2gzSmQyeENQUzRIOVBJeXFNM056di1sVUk2UktSbVVJZ19WaDYzSk9ZeHhlSWhramc5S2s?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-20T23:09:41+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2089811327237964169",
     "2089812823547453534",
     "2089815985444503849",
     "CBMioAFBVV95cUxOcjQ3di1mN3lYMXJIbEFnSWxkSmRtSzR2ZWc1Mk5DbGlxUGg1SWp2aDZPM01FYWdCMTNZajBlX25qUTBwMFBfeDA5U0ZKUTFvYlpRZ3FPdDItOG1OSDNMUmNVTDVpeXBpWVAwX29iWDVvSThtd3Y1N2V5MExHUUxWcXphUmVnQ2JwTExqWDdUR1g5Wk5HQ1NodWljSGVQLVlr",
@@ -3312,7 +3311,8 @@
     "CBMifEFVX3lxTE9rVks3b2Z6WXEwMzVQUWNVczd3ekRDUm1NNVFLcy14c0w5MkgxNGM1OUk0TERmZmdENDU3WE45bWdOcC1adUZQeV9Gb2ozeXBwbHJsZXBQSUQxRGlULW5EZWVFWF9IbjZfRW5samU4US1MTVRGYUFZMTVVb0o",
     "CBMia0FVX3lxTE9MdktOcjlzV21KNW9mdk9udG5VM1cycHFWaUpKOUI4VExxYURVZklCTFAxa3hhYktVVHpkOFNaZm03UlBNcElBbEpoRFRXQ2gtVVQ5NzZWazFGeHlyU0p4ekptcWJNa0paVE1j",
     "CBMizAFBVV95cUxOdV84QktyYUxOd0Y0dDRFRmh2NjZVWk95aEQtT2RBRVZEMzkzZkQ4M3d3aHhoQ3p6QThlZE5UWDlua1AyTzZIWjFkSWYyRlFhbG1tTmM2bHQ2WHRuR0pnZHV3TmRaaUJoNEY3azZkZ2FVbnFHT0RoeUh4RHdBelFRTW0xaWN2SXZSbTItUmNHMENQdXloTGNGNnYzd2FJcUszbzFzbzU5UHkwei1hbjRGVFQzUzllZEZGTDdHZk5NMk55dmJGWmNBUVBHSnQ",
-    "CBMirwFBVV95cUxPUUkzWjZ0LWM1RndBVU1rY2VrYUpXWm5GSVU3U3dKOS03NFBURk0zNS1oZEl3UXQ5YjI5cWR5NnNvOFJ1VzE3ZFh2WDd4WVhwdFJ2U0NGZHlNUmFVeVZtVTVsNFBfbEpkTmhsVUI3QUFVYzY0MHhNNjIyemQ5dDY4ZU5mMng0YlVzdWI5UWs4Tk16MGM0VmpQRVg5WGtNTkdIN0hsb0doay1LX2Ftc0pn"
+    "CBMirwFBVV95cUxPUUkzWjZ0LWM1RndBVU1rY2VrYUpXWm5GSVU3U3dKOS03NFBURk0zNS1oZEl3UXQ5YjI5cWR5NnNvOFJ1VzE3ZFh2WDd4WVhwdFJ2U0NGZHlNUmFVeVZtVTVsNFBfbEpkTmhsVUI3QUFVYzY0MHhNNjIyemQ5dDY4ZU5mMng0YlVzdWI5UWs4Tk16MGM0VmpQRVg5WGtNTkdIN0hsb0doay1LX2Ftc0pn",
+    "CBMiqwFBVV95cUxOdHg1ZzFyLTV1WkRwSU9BYTkwR2NiMzB0RjZ4Vm00cTQtMk9uTG1IUVYwNDV2S3Y0UlBqTVNTUC1QRFF5NVBpQ3Rxc0lFOXUySXhBQlduVkpva1NhX05JTFA0SEFLU2kxTVVpcHA2LVJsT1RuTVpKM2gzSmQyeENQUzRIOVBJeXFNM056di1sVUk2UktSbVVJZ19WaDYzSk9ZeHhlSWhramc5S2s"
   ],
   "daily": {
     "d": "2026-08-20",
