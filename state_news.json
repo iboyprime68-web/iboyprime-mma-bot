@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Mike Perry vs. Darren Till fight still on the table if Perry ‘walks through’ Dillon Danis on Aug. 29",
-      "ts": "2026-08-20T18:52:44+00:00"
-    },
-    {
       "t": "UFC Fight Night: Hernandez vs Rodrigues Preview",
       "ts": "2026-08-20T18:55:10+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Gregory Rodrigues vows to be ready for Anthony Hernandez's intensity at UFC Sacramento",
       "ts": "2026-08-20T20:54:53+00:00"
+    },
+    {
+      "t": "UFC’s Chuck Liddell Accuses Ex-Wife of Abducting Daughter as She Claims He’s Trying to Control Her",
+      "ts": "2026-08-20T20:56:18+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "All the hard work paid off 👏 The DWCS Week 2 contract winners meet their new Boss!",
-      "url": "https://nitter.net/ufc/status/2089914262248698115#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T03:16:03+00:00"
-    },
     {
       "title": "There from the very beginning 🫶 All smiles with the ones that matter the most!",
       "url": "https://nitter.net/ufc/status/2089914372462383198#m",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-20T20:54:53+00:00"
+    },
+    {
+      "title": "UFC’s Chuck Liddell Accuses Ex-Wife of Abducting Daughter as She Claims He’s Trying to Control Her",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVzkwVUg4cnFGRHNnRU02UVZDcDh5OGNLYUJKcDJuOHVTYlFhQWx4V2lGVktTZ01fUGs5MW52aGFxUzJhMFZOV0VkRDZtRlRVU0VHQ0F5SHJxTlU2bUYtQlJ2TTM5RUlQQVAtWHk2Y0hGaml6em5CdmZNVGFPYWJsbzVqaldRd1RfX1dBNEwwLVBIeUdhc3dndllvWTEyZw?oc=5",
+      "source": "Us Weekly",
+      "cat": "ufc",
+      "ts": "2026-08-20T20:56:18+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMijAFBVV95cUxNcFVaeWR6b3R4alh3RkN3WmMzaGN0YTdWNGE5UVZDR0psVXpaYl9jZzVBTkJSWENfZjJoZFpYU0tiRzZnMk9kRDVOc0ZxUGtEaTBCTVM1QUU1dFpqaE1qVWFubHByVnduS1VoM2xPU2dwT3E4S1dIaExGeDlOVm9RcFNqaVM1eVFxdnpvZg",
     "CBMi6gFBVV95cUxQeFBzRzBZV1NZUnpKYnA0NVVHeHF3RXEtdkVTSm1fdEt4VXhad0tzVTJJRUV4aHYxVDdmbFcwWWhVZno4RHBvLVJKZkNjV2g4b1BnSy1fcjVjc2ZyZ1U0UWdDMHZLR2JINlVROEsyTFRHb1ZuTXNwSFJPel9qc0lsLW1abVdqam5VdDZqdFA1YVN4Q095bncwaFpKdkJFUW5TeXY5TEtCNjU2OVllT3ZGb2hpV1dZN1lQUGJvZEM0WkJMSWVMaU1saGpvNF80X0wwdHB5SE1nUjNZc0JDdHA3Z2dlbEhxZm1palE",
     "CBMimAJBVV95cUxQV0dZWmtYZ1NzRV9SR0Ztd0t2M2haT3kzeHNrdGx4TTJHTnZCQzZMQXhPa3pIZFQzVV9mWE5PUzlSTXh2ZG85YlhPMU1NcG9BQ1VoVUdnUGVmZVg1aHF3N3l2V1RLNUFhcURRTkFWdUZHN2FKalgyTTVXWlMxOFNYSlo5OUI4SVBFR0V3aTF2eElBTmxKRG02WnZvR1hVUU0yWVNkNzBmRDZFb3FZZXkyckxIU0lpdEFaNi1sRnJBM1lZU2JPdEVoQ0dPTTV6UTlSVjFtODVGWGF0ZjN6WVQ1bEVPRTZWZWhjQ25GV19qZXJmMGpxTkJkd3hsV3NmQVB0N21GM3NqbFlTMWlFSnluamFuSzNpTXFB",
     "CBMijgFBVV95cUxOUUdVbXdFY1FXNDVxLTdPU2JmTWVqR3NtUElDTFplWUpYU2FBZkhtanlUUnRKdG5WelBnR0YtOHVjVFlZTFB1QmUxUmtNVk50NFlnY1RNUm9BendnSzNSVkJkdTdwX1lpM3NXUDllcWpuTUtSaFJRSDRodzc5XzdJYmtlY3JDdWU2cEoxQnZR",
@@ -3312,7 +3311,8 @@
     "CBMitwFBVV95cUxOR001WEExZ2tQbXlkSkdBTHgydGRfVk9hNjFfak5IYTJZLUxnQXUzaGUzMnNxejV6Q0lQaUJNMzVvczBFbjVtZ0NKODJHMmhYc2xqS2pBeXVkNmFXb0JqcjN1eDB0b2Uxd1Zod21UTTY2ZU1NN214REhhTnV4WFo5bDM0c2ZuRGE3QkIzc3VLbE96NHdlbi1fSnllbldVWFpKZjhnRXJQRmJJSDVSTlZvQ0xDc2h2NVU",
     "CBMisAFBVV95cUxOaDFnMG55WE1ZanlPM2lITjE3WU1lVnZ6eEpvVFJhY2VNVzBLQ1JHTjZMbmMxSml0dXowUmtDQ0lJaHQzNWQ5dzd3TUU3aGotN1Q3U2ZvRnIwb0ZHNlE5Q2ZuQklfM3R3Ul9Palo1SS1fSnVnYWQzMHB2SzJUcG1sZzFCZWxHS2dzbEtKUl9TdTVLcTEzOEg0ZjQwdmlaVU9HMDZUNi02bTlaOGl6ZXpfaw",
     "CBMiR0FVX3lxTE5lWkhwVjh1N1hmLUpuaC1XUzVpS055blZRcFJpSk9wN29pN0VUM3oxbWZsS1Y0Nm4zQmJieDA3Z1JDWkwzeGtn",
-    "CBMisgFBVV95cUxQcUlYSTd0dENhOXg3NnNLNEsxcG1JSTY4MndlbVpfbHk4NC1oM1VVY1RyV2tBZjBTLUVOVHZnWjhxWnZuVDVmd3JpN0lCMXhibUREYWo3bUZBUTJsaWc4djZwSjF3NDRXYVk2TVp1bUh1QmFjY0lJUTA1bW9BOFUzYmVPS3dJVjcwYWFvbGtfMDBrQW1nRGZxUzV5YUtGVHZ0cmR5VHVoajlSOFBOT041TUln"
+    "CBMisgFBVV95cUxQcUlYSTd0dENhOXg3NnNLNEsxcG1JSTY4MndlbVpfbHk4NC1oM1VVY1RyV2tBZjBTLUVOVHZnWjhxWnZuVDVmd3JpN0lCMXhibUREYWo3bUZBUTJsaWc4djZwSjF3NDRXYVk2TVp1bUh1QmFjY0lJUTA1bW9BOFUzYmVPS3dJVjcwYWFvbGtfMDBrQW1nRGZxUzV5YUtGVHZ0cmR5VHVoajlSOFBOT041TUln",
+    "CBMingFBVV95cUxOVzkwVUg4cnFGRHNnRU02UVZDcDh5OGNLYUJKcDJuOHVTYlFhQWx4V2lGVktTZ01fUGs5MW52aGFxUzJhMFZOV0VkRDZtRlRVU0VHQ0F5SHJxTlU2bUYtQlJ2TTM5RUlQQVAtWHk2Y0hGaml6em5CdmZNVGFPYWJsbzVqaldRd1RfX1dBNEwwLVBIeUdhc3dndllvWTEyZw"
   ],
   "daily": {
     "d": "2026-08-20",
