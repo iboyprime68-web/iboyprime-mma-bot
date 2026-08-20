@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=505029",
     "https://www.mmafighting.com/?p=505081",
     "https://www.mmafighting.com/?p=505133",
     "https://www.mmafighting.com/?p=505145",
@@ -1113,6 +1112,7 @@
     "https://www.sherdog.com/news/news/Rizin-54-Kyoma-Akimoto-beats-Kleber-Koike-Erbst-Patchy-Mix-loses-again-202317",
     "https://www.sherdog.com/news/news/Ronda-Rousey-Jake-Paul-react-to-UFC-White-House-viewership-numbers-201581",
     "https://www.sherdog.com/news/news/Santiago-Ponzinibbio-returns-against-British-finisher-at-UFC-Abu-Dhabi-201758",
+    "https://www.sherdog.com/news/news/Sean-Brady-says-Belal-Muhammad-loss-left-him-randomly-crying-202437",
     "https://www.sherdog.com/news/news/Sean-OMalley-Poatan-mentioned-illegal-blows-during-UFC-White-House-rules-meeting-201545",
     "https://www.sherdog.com/news/news/Sean-OMalley-claims-Ilia-Topurias-brother-ignored-him-at-UFC-White-House-201584",
     "https://www.sherdog.com/news/news/Sean-OMalley-labels-Petr-Yan-rematch-Biggest-fight-in-bantamweight-history-201706",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Michael Bisping Criticizes Ian Machado Garry’s Attitude at UFC 330",
-      "ts": "2026-08-19T20:45:01+00:00"
-    },
     {
       "t": "Gregory Rodrigues linked with top UFC middleweight to prep for Anthony Hernandez",
       "ts": "2026-08-19T22:50:16+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "DWCS fighter claims 15 men stormed hotel room before brutal KO loss",
       "ts": "2026-08-20T02:40:27+00:00"
+    },
+    {
+      "t": "Sean Brady says Belal Muhammad loss left him randomly crying",
+      "ts": "2026-08-20T02:58:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "‘Professional question avoider’… Dana White faces backlash for response to Khamzat Chimaev’s message",
-      "url": "https://bloodyelbow.com/2026/08/19/professional-question-avoider-dana-white-faces-backlash-for-response-to-khamzat-chimaevs-message/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-19T15:59:00+00:00"
-    },
     {
       "title": "Dana White sent 2 fighters to hospital before being convinced to sign them both after DWCS war",
       "url": "https://bloodyelbow.com/2026/08/19/dana-white-sent-2-fighters-to-hospital-before-being-convinced-to-sign-them-both-after-dwcs-war/",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-20T02:40:27+00:00"
+    },
+    {
+      "title": "Sean Brady says Belal Muhammad loss left him randomly crying",
+      "url": "https://www.sherdog.com/news/news/Sean-Brady-says-Belal-Muhammad-loss-left-him-randomly-crying-202437",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-20T02:58:00+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMijgFBVV95cUxNcXhIbDZ1dEVhM0ExYnBwRS1MVVdLeFdyc2ctekM4dFhiSTJBNTBQZkRhZHBFZDR4MkVtbzJnS3B3RTFHZ1lWY18wOTBiSktxc3EyaFc5S3VpTFlKVGtiY05nSVNqVUtoUU8xQnpzejRnTmEzampwTnFwRFI1U3hSSDVTLXY1ajhTYXp4aDVR",
     "CBMijgFBVV95cUxOUkF0aTZXWGNBczB1eDgtMU5HSDhLakt1Y2I1Z1hpY0llTnlTdDNNUlJpcTZMSzViWVl2MXdLTzR4WE9YeGp2YUEtaWZKVUlQU3FlYmNtVElwcXpsTUtaUnp6WTVDLWFaeWxoRFA2c3djNU5Fa2Y4T0FxdTBKTEFWR3FBN3VUY1dLR3FIcnFn",
     "CBMirgFBVV95cUxQRGFkZ3RxRnllakl3bE1MNFBpWVFFb1UtQXRTYmJUdXZYVmthS2xRUXlZV1hJOWExRHhEQ1lvR2lFbVpoWUV2V01VNzNhSE9ncVQzRERBY2JCU2hGZnBwS0lLRkVNQlpYR0JSd0lYVnhiVGVLZEJpcjFZVEI5YWdObjNYZXpTWFFWNm9iemo1ckd5RXRtWFJET3J3NDlwaTFuQUU0WWljQ0dkUVFYekHSAbMBQVVfeXFMT2VJRmExeGxkRThQaFZ3OVdXSHRONkVzX1ZpTnhKTHRlbjgydTZha0wxam40bG5sVkJjSjh2cDVBcGlLV2haTW8yc2NQaTg4RTBWNEt0VXZsNXZLLTBMY0hPT2R1d2prRHpvczBXS0swYlJOWk10T083R3RpT0tTSVFtZ2luUWlmM0VyX084VXVINWExc3lORHU4UERUUDJYRUFoYzc1alF4ODU3Y2gwdnRrWGc",
     "CBMirAFBVV95cUxPR2dmYzVNNmVfQmd3ZE5HY2NUMHNhUExZNWsyYl9XaVpPbDFtbGVFc2ZzemtNUTdZXzRFay02WEJVaGxYWDgyNjhxa3pVT3lNMWJFZTRNamZqd0U1OXQxMXZfVURVc004SjdDNVAxZXJJSGtGeWJmUU8yMTdueFc1d3JmR0xOcnd1dWsyam9SaERWaTNEdUVoRXMzcWhfNTQ5LVZqQ21KTlpleUpG",
@@ -3312,11 +3311,12 @@
     "CBMiXkFVX3lxTFBoN2h2d0t2Ml9tNUo3UVdOc3JFbk0xOHAyczd6c29xZzd5MlFDM05aRlhHTFpocUlNNjVpbGtMZ1hVOHNnS2E0cExXczY5NzMzTU1XSWJmTFFNRi1yWWc",
     "CBMipgFBVV95cUxNSHJqa2FmZktZUmhQb3NYRGliQzlySS0tdWotQlNUaC1adll5LUt3TzZ4MDJ5VUhsQ1JGdHNqb3Z4d2QtT0tHeDl6VmFvckNIXzFzbXU4NnpRODlCYUdyck40VUlpbFM2Zmp5b1JDejhyYjNNVGpPOWt4SXZvSi04OXVycjFlZzh0ZHpnU0xTZWdoMmlPNjNPNHdfRVF5Rnh6Zk9GS3N3",
     "CBMiW0FVX3lxTE14Q0sxYktTeUh4a2gtTXZxZmQxZTk5T3BWaTEyYkhwbTFWMWpRNElaZGpOQTN5QlF6ZlFUYkVxQ1Jrc05OaEZlVzFZSGJ1VzA1a3ViV05UMU4yR00",
-    "https://www.sherdog.com/news/news/DWCS-fighter-claims-15-men-stormed-hotel-room-before-brutal-KO-loss-202435"
+    "https://www.sherdog.com/news/news/DWCS-fighter-claims-15-men-stormed-hotel-room-before-brutal-KO-loss-202435",
+    "https://www.sherdog.com/news/news/Sean-Brady-says-Belal-Muhammad-loss-left-him-randomly-crying-202437"
   ],
   "daily": {
     "d": "2026-08-20",
-    "ai": 71,
+    "ai": 72,
     "staged": 5
   },
   "staged_hist": [
