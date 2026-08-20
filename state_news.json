@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=505081",
     "https://www.mmafighting.com/?p=505133",
     "https://www.mmafighting.com/?p=505145",
     "https://www.mmafighting.com/?p=505195",
@@ -1104,6 +1103,7 @@
     "https://www.sherdog.com/news/news/Rafael-Fiziev-reveals-why-he-left-police-officer-job-201696",
     "https://www.sherdog.com/news/news/Rafael-Fiziev-wheel-kick-downs-Manuel-Torres-in-UFC-Baku-headliner-201661",
     "https://www.sherdog.com/news/news/Raul-Rosas-Jr-locks-in-first-UFC-main-event-against-Brazilian-veteran-202394",
+    "https://www.sherdog.com/news/news/Reinier-de-Ridder-hopes-to-avoid-Robert-Whittaker-rematch-for-now-202438",
     "https://www.sherdog.com/news/news/Renato-Moicano-Tom-Aspinall-join-Poatan-in-criticizing-Herb-Deans-officiating-201684",
     "https://www.sherdog.com/news/news/Report-Chechen-MMA-fighter-Dzhihad-Yunusov-killed-in-RussiaUkraine-war-201750",
     "https://www.sherdog.com/news/news/Report-Dustin-Poirier-arrested-for-public-drunkenness-in-Georgia-201613",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "No. 3 Most Impactful QB Transfer: Drew Mestemaker Stream of NCAA Football",
-      "ts": "2026-08-20T01:01:59+00:00"
-    },
     {
       "t": "Pic: UFC Paris poster unveiled for ‘Hooker vs. Parnasse’-led card on Sept. 5",
       "ts": "2026-08-20T01:03:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Yair Rodriguez out of Noche UFC; new main event booked",
       "ts": "2026-08-20T03:30:00+00:00"
+    },
+    {
+      "t": "Reinier de Ridder hopes to avoid Robert Whittaker rematch ‘for now’",
+      "ts": "2026-08-20T03:12:44+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Take a bow, Kaik Brito 👏 DWCS",
-      "url": "https://nitter.net/ufc/status/2089896095224930380#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T02:03:52+00:00"
-    },
     {
       "title": "Fought for their spot 🙌 Roman Puga, Taner Trembley, Alik Lorenz, Cristain Perez, Trent Miller, & Kaik Brito all earned UFC contracts! [ B2YB @TotalWi…",
       "url": "https://nitter.net/ufc/status/2089903742737133663#m",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie",
       "cat": "ufc",
       "ts": "2026-08-20T03:30:00+00:00"
+    },
+    {
+      "title": "Reinier de Ridder hopes to avoid Robert Whittaker rematch ‘for now’",
+      "url": "https://www.sherdog.com/news/news/Reinier-de-Ridder-hopes-to-avoid-Robert-Whittaker-rematch-for-now-202438",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-20T03:12:44+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     12
   ],
   "yt_eval": [
-    "CBMimgFBVV95cUxOLW5oTkZFbWJpeTNrR1F4WXJaUXhLVDJMWmk5X21MTXRyVlhTUWxuZWlBaE1PcUxReEJKTGk2YmtFMGdfTTBoQVN4eWZfNEtaaFhZODQ3RElwMUd1elp4MVVJYUkzcXdtRDMxNjBycGJ6eXFxeC1DTG9EcDNKSDVNYmZTUnVhb2x3TW1PUHdyYmhHVFRwNERTZkxR",
     "CBMihgFBVV95cUxOcEtJWEtfOVgwUG16cGFUNG1RZkVOaUd4ZHVLXzFaQ3o0TmszR2ZzVDY5bnBvMTZsX2RoTmRPRlM2WUI0RDUxQTFkTUZLbUt3UDhWdE1LVjhjMFE4cDBlYzhjbTY1OUFLTlE5LXoyeU1icDliU0pyd3FIUmZLVGdEa1B5UmR0UQ",
     "CBMiugFBVV95cUxOSzFoNjhrMnJONTlZcHBjU2xYZkZZd055cDllYlN5RUxLSkw1SzBNMEhFTl9nS0dEUkFkRGpZcU9BeDJlX01tV1ZlZE9wN3BwZ3U1Q2w3Zm1KVWpLR2ltQ3VzZVhlVHh3T25vSkJ0U0FuM2hBWDJ5M0JZTUFNR3FxWWlkQTUzYVVZLUdlRnlHS2FyRnc3bzdtUXRzVHNHaHBGS2pYdkR5MHAtY3VhWXBBb282RTQ1R3h6MkE",
     "CBMiswFBVV95cUxPREZRRFBVMkJQTEkzdkU5QjNpY3NULXM5SVdYeXhpZ0ZVazJyWU5Kdnctczh6ZElHcUVVRkc2WF9jcVpJbTVwYkN5OXppRUMyRklwZnNuaHRiTGVFN2tDdmxGOFJFakJXOFJjakNZemp3OWxmQnQtNURFVHl3LWlaa3dCODFIaVNUa2l2NnJ1U0NGaFhvM2VQU0tLblo2dThrdjY5SEc3czBEd3FNcUNYWmRGaw",
@@ -3312,7 +3311,8 @@
     "CBMivwFBVV95cUxNZ05uUF9xTlJPU2RnZ1d0bTRqMDMtaW1JdXc3NzlpUmdjLUZrNTRwN1RmeFlsNHNJQzh5eXUtVmpMQjdNelp5bUxpR2xaWjA4TWxTTi1JSE1yclZ2anl6amVvTy1kWDJqOGxFSFR2U0ZjUk1wSEVmRms1RUlDcGllLWNjVk1wd1RKOVJwUE1iblZURDlHZnFqbFhfNVJNUFYtaW5DZ180TG9CRDhaaXBHZVNrcnA4YVpOTm1GdXRUbw",
     "CBMiZEFVX3lxTE8zelBkN29YMXBzQXJYRjk1Rk1oaGJqdE5md2k3Y2tFQlRUcVJTRXJ3Y0w1VjNPZGNiT2JjXzd3OFg0UHNZVFZicVhrTExVanJ1ZTNXZzhFMjVRd2l0WkhsVjl5TGU",
     "2090280182422921516",
-    "CBMiwAFBVV95cUxOcTNfTFpsSGRFMExQUzFjOGZEdzRxVHVfVlU3c0ROWGhHZTNFX0J4ekJ6NC1XVkloWlhzOUxDbzZ4ZTV1NEViY05xR3U1dVViWE5nTENtVDN1Zm5OME95cjRaV3dKaElpZlVCY0NWcFhqb2dCbzNWajE4Zkw2czZtYWNfM0FhaV9ES1Qza3N2WEItWW9XSGRlU1dpU180X0o4WXFUc2JRbXdMU2FnWUZmc1U5YjVYazNRRndGMV9ndW0"
+    "CBMiwAFBVV95cUxOcTNfTFpsSGRFMExQUzFjOGZEdzRxVHVfVlU3c0ROWGhHZTNFX0J4ekJ6NC1XVkloWlhzOUxDbzZ4ZTV1NEViY05xR3U1dVViWE5nTENtVDN1Zm5OME95cjRaV3dKaElpZlVCY0NWcFhqb2dCbzNWajE4Zkw2czZtYWNfM0FhaV9ES1Qza3N2WEItWW9XSGRlU1dpU180X0o4WXFUc2JRbXdMU2FnWUZmc1U5YjVYazNRRndGMV9ndW0",
+    "https://www.sherdog.com/news/news/Reinier-de-Ridder-hopes-to-avoid-Robert-Whittaker-rematch-for-now-202438"
   ],
   "daily": {
     "d": "2026-08-20",
