@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Yair Rodriguez reveals injury forced him out of Noche UFC headliner",
-      "ts": "2026-08-20T14:30:51+00:00"
-    },
-    {
-      "t": "Anthony Hernandez Says Xtreme Couture Camp Rekindled His Love For MMA Before Gregory Rodrigues Fight",
-      "ts": "2026-08-20T15:45:00+00:00"
-    },
-    {
       "t": "Latest UFC Vegas 121 fight card, start time, date and location | Rosas Jr. vs. Barcelos",
       "ts": "2026-08-20T16:36:49+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Dillon Danis Explains Ongoing Animosity Toward Team Khabib",
       "ts": "2026-08-20T18:44:39+00:00"
+    },
+    {
+      "t": "Fifa Rodada 3 Sevilla X Bayer Leverkusen Ufc White House (oP1rWHqRz2)",
+      "ts": "2026-08-20T18:10:24+00:00"
+    },
+    {
+      "t": "Khabib Nurmagomedov Says UFC Fans Never Saw His Limit Before UFC 254 Farewell",
+      "ts": "2026-08-20T18:48:11+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Noche UFC Takes Massive Blow After Withdrawal Headliner",
-      "url": "https://sports.yahoo.com/articles/noche-ufc-takes-massive-blow-230430985.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T23:04:30+00:00"
-    },
-    {
-      "title": "Yair Rodriguez Out of Noche UFC, Delgado In vs. Jean Silva",
-      "url": "https://sports.yahoo.com/articles/yair-rodriguez-noche-ufc-delgado-231058515.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T23:10:58+00:00"
-    },
     {
       "title": "Josh Hokit Has 2 Suggestions For His Next UFC Fight",
       "url": "https://sports.yahoo.com/articles/josh-hokit-2-suggestions-next-232014348.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-20T18:44:39+00:00"
+    },
+    {
+      "title": "Fifa Rodada 3 Sevilla X Bayer Leverkusen Ufc White House (oP1rWHqRz2)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IdTFRYjBlUUpfTHJxV0hkZmZROWZRc1RybXI5UFctMDVXMk9OdGdtRW83djltZUNMX1JDaE5NR3E2NE82TFBsTHJrVmNmaFNqTFZEMG9WRWcydzQ?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-20T18:10:24+00:00"
+    },
+    {
+      "title": "Khabib Nurmagomedov Says UFC Fans Never Saw His Limit Before UFC 254 Farewell",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYmZzRkJRZWlKcnF4WVZFRGM0bmhqYWRCbTdQenBSWHJHcGNnZkJ5MUl5TFNyTjVPOUtWTmRjb091QXdXaThTcFdtUFVlZFV6d29kWW01NjBqSE90aHo1MXVzNDB6WVJZSFZZQ3V0czNONWRCNW9vX25zaHd5bXBKQw?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-20T18:48:11+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "2089766531534401843",
-    "CBMiygFBVV95cUxNS3BBRVVfbnNmNkU1ZHc5UUtjTnEyM3d0aEZDcExyN3lxTWg3RVB3RGl0aHVlRlNncUJnc1ZTWVNFVXRIVk1FVVRoZWl6Qmh6azRSSVM5UFN2TGxhektkTFBRWVVvQi10S01FU0xxcWtqOG41czBGSFVsaXg4X0xJcUVFYWJOcmxBeDU5QTIxN2tmTmNSSGNiUGVtdHMxdzFON2FjckNkRHlHTEQ5RVJoT1VUQTlHQ0U0MDd6NXlxeGZkSEFlenRqQXdR",
     "2089771559984697396",
     "CBMiwwFBVV95cUxOZWo1UlBGTV9wa1hCc05ZdXFwR09CSFdTOTlwc3ZKVjFnMDh1LTRIckVXOW5OcHlfZ3l6clk0enZKcXJvYUNsRHZHbE1vRFhGRmswNnpGaE0tSGJoa3VyaXMxVVAwY3pvVjRVWWJkNHNjU0hncFMzTWM1UlFNVXc3WG5tOFNuTDZySFI5eXp1aXB0Q0tBWVAtdXFyMTBKR045eVJxeElRRVJxbWhERHd6SVdFUi1wTkhUR1NiU3ZjT3FLSTA",
     "CBMikwFBVV95cUxNQ3pMTDBBTF8yQWFseXJsN1R3VEJvS01zWmN5ekxXZWQwR2RQZkJic2dudmF2bnJSNmctckVTTU9XS2NPV3lFZkczbGx0UGZnNURNYjQ1NEdWWW5NZjNUUGljd0s5Tmp1eHJ6b1FqUWRQQS1zMjJXR2dNMndIbEVyMHB5NUR2SC1CYkk3cFJKWWJEMGc",
@@ -3312,7 +3310,9 @@
     "CBMiaEFVX3lxTFBRM0cyS0IzUWtHNHUxcW1HMTRyblRwaTRWeDh1dHlOazhvNVN2NzM1VlVfSG9DOXRWNE9fYm5jNUNMQ1paTEtwSlJUejVPd2Y5M3YyZzNyOEpPYWkyT003S2N4Q0pUQ3lr",
     "CBMijAFBVV95cUxQeE03dGpZYURRQVI1YW1KNGFfcmtRTjZzQWRyRDFtM1JidmhNZUpyVDZQRU5iUEx4ekFmbWpnNkRqem1uZlhKSDQ0Y2FRa2htUWM3bW1SbzFwaGtDT2FEQ1RkbzBvdlFMeDZ4SXR4aF9vVjNMdmduUnFMcGJEWnNmQlVBaHZFMXZha2g4cg",
     "CBMi8AFBVV95cUxPRjBYMWNtMmw0MFpZV2UwRUptRE1VSFZnVlFkRks5a0pyb3gxUTlQOUFLUzB3WXJHU2ZralRuVTJOVlhSMEhVREZRY1pzX1Y4Z3FIMDBlaHB5SEQ0M3ZDOENQOUNha09iZnNjV1FBdnh1WFRNZFZUemhqUjZpSnVVY1ZDVkVrTEpxMGZQS2k5UDF6RnBYUTZnUXozWlRYbHdzMEdyRUx0Vm5icDlydmktY0hrN1RxSk02eHNSN3FuSUIwTHRIUzdfUmcxYXJZQ1FTejFEaFNQTURoNjNFN1hnaHBmRTVJa1JJUWZZamc4UEc",
-    "CBMijgFBVV95cUxOWTZsR083LXN4VGVIejhoWDBxTmtKLTJDbW5GVFYwSFlMVGxnaUxrY1ZkeWVlRWRYYS0xUkp1UTVQS1NfSlNjdENrRDF4T05IcmFBRVhEdDVLUFRsSVlwUGNhS1o1eEFRLXBnMkRGTFIwcU02S0dHVnVwbnVYZnhURFgycFJyaWpLQjV0bWZR"
+    "CBMijgFBVV95cUxOWTZsR083LXN4VGVIejhoWDBxTmtKLTJDbW5GVFYwSFlMVGxnaUxrY1ZkeWVlRWRYYS0xUkp1UTVQS1NfSlNjdENrRDF4T05IcmFBRVhEdDVLUFRsSVlwUGNhS1o1eEFRLXBnMkRGTFIwcU02S0dHVnVwbnVYZnhURFgycFJyaWpLQjV0bWZR",
+    "CBMiW0FVX3lxTE5IdTFRYjBlUUpfTHJxV0hkZmZROWZRc1RybXI5UFctMDVXMk9OdGdtRW83djltZUNMX1JDaE5NR3E2NE82TFBsTHJrVmNmaFNqTFZEMG9WRWcydzQ",
+    "CBMigAFBVV95cUxPYmZzRkJRZWlKcnF4WVZFRGM0bmhqYWRCbTdQenBSWHJHcGNnZkJ5MUl5TFNyTjVPOUtWTmRjb091QXdXaThTcFdtUFVlZFV6d29kWW01NjBqSE90aHo1MXVzNDB6WVJZSFZZQ3V0czNONWRCNW9vX25zaHd5bXBKQw"
   ],
   "daily": {
     "d": "2026-08-20",
