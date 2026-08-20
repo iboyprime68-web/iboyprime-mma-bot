@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=505343",
     "https://www.mmafighting.com/?p=505345",
     "https://www.mmafighting.com/?p=505349",
     "https://www.mmafighting.com/?p=505366",
@@ -1107,6 +1106,7 @@
     "https://www.sherdog.com/news/news/Report-Payton-Talbott-takes-on-former-UFC-champ-at-UFC-332-202325",
     "https://www.sherdog.com/news/news/Reports-FBI-halted-potential-terrorist-threat-targeting-UFC-White-House-event-201539",
     "https://www.sherdog.com/news/news/Rizin-54-Kyoma-Akimoto-beats-Kleber-Koike-Erbst-Patchy-Mix-loses-again-202317",
+    "https://www.sherdog.com/news/news/Roman-Dolidze-says-hes-much-more-powerful-than-Reinier-de-Ridder-202452",
     "https://www.sherdog.com/news/news/Ronda-Rousey-Jake-Paul-react-to-UFC-White-House-viewership-numbers-201581",
     "https://www.sherdog.com/news/news/Santiago-Ponzinibbio-returns-against-British-finisher-at-UFC-Abu-Dhabi-201758",
     "https://www.sherdog.com/news/news/Sean-Brady-says-Belal-Muhammad-loss-left-him-randomly-crying-202437",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Islam Makhachev’s greatness questioned by UFC legend who makes argument for Ilia Topuria comparison",
-      "ts": "2026-08-20T02:00:00+00:00"
-    },
     {
       "t": "Edson Barboza details grim reason for UFC retirement: 'I almost lost my vision'",
       "ts": "2026-08-19T16:11:37+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Massive Opportunity and Step Up in Competition for Jose Delgado",
       "ts": "2026-08-20T06:58:39+00:00"
+    },
+    {
+      "t": "Roman Dolidze says he’s ‘much more powerful’ than Reinier de Ridder",
+      "ts": "2026-08-20T07:24:56+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Bengals vs. Eagles Live Stream of National Football League",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoN2h2d0t2Ml9tNUo3UVdOc3JFbk0xOHAyczd6c29xZzd5MlFDM05aRlhHTFpocUlNNjVpbGtMZ1hVOHNnS2E0cExXczY5NzMzTU1XSWJmTFFNRi1yWWc?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-20T05:28:47+00:00"
-    },
     {
       "title": "Anthony “Fluffy” Hernandez calls Sacramento UFC main event a 'dream come true' at Golden 1 Center",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdzlQMVBkc1h0emJ6anFmR0RxMTh4bUVSVFdxZ3k3ekNQd0s5VXU4VE55eGlRM3FNWU9MeWcwVnAxQXpudlRpa1RSUm0tTzJQSXdwX1NKLU5nRllFLWJIb1BoRkZoZG9MdHhkMWxOMDUzOVJHV2VsQnZmLXBsbmd6RTEtbDluVVpCSkxMaUYwUnNBN2NPRlJSelpRUmZyUQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-20T06:58:39+00:00"
+    },
+    {
+      "title": "Roman Dolidze says he’s ‘much more powerful’ than Reinier de Ridder",
+      "url": "https://www.sherdog.com/news/news/Roman-Dolidze-says-hes-much-more-powerful-than-Reinier-de-Ridder-202452",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-20T07:24:56+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Henry-Cejudo-questions-Khabib-Nurmagomedovs-place-in-GOAT-debate-202404",
     "CBMikwFBVV95cUxOWThlM2NvY1RhdFVzcmFTLXdQX25xX0xCbEhVNjlfYWk5WGoyXzcyWXFFNndHRjRPbDNtVnJ1blYwTWFIMl94UmszaEJqZi1BbkVLWlRTRm1aS3ZJRThwMUZSYzFxVG9VdHNsSTc2aGY0cE9tRVZQUVNISGNyWGxOTktSeXJTcGw4Vk41M0RuWVdWMkE",
     "https://www.sherdog.com/news/news/Islam-Makhachevs-coach-backs-Ian-Garrys-No-1-UFC-ranking-after-loss-202405",
     "CBMif0FVX3lxTE16NVZUTzhEa3pVaGs5N1d4R3hxNk0xbG5iWm83R2lXWThtNjFYU0N2LVFBbE9sN3JIMnJYLUFEVmF5TGVWZWZkWExHWmZyTTZpdHAyeVlQQ0xZSEIzUENhMjFGSzhCLUE1WGpGbDc5T1dCV1ZDNWhfSFFKMHBQRFk",
@@ -3312,7 +3311,8 @@
     "980811b3-2f54-358b-9ad5-a2e7a4fd913e",
     "https://www.sherdog.com/news/news/Shanelle-Dyer-Elise-Reed-is-very-susceptible-to-a-knockout-202450",
     "https://www.sherdog.com/news/news/Reinier-de-Ridder-Weight-cuts-took-all-the-fun-out-of-fighting-202451",
-    "e3923d3d-a014-38ff-a18b-7fcad9a80e64"
+    "e3923d3d-a014-38ff-a18b-7fcad9a80e64",
+    "https://www.sherdog.com/news/news/Roman-Dolidze-says-hes-much-more-powerful-than-Reinier-de-Ridder-202452"
   ],
   "daily": {
     "d": "2026-08-20",
