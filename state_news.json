@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=505220",
     "https://www.mmafighting.com/?p=505277",
     "https://www.mmafighting.com/?p=505309",
     "https://www.mmafighting.com/?p=505311",
@@ -1036,6 +1035,7 @@
     "https://www.sherdog.com/news/news/Justin-Gaethjes-coach-Trevor-Wittman-defends-Aleksandre-Topurias-stoppage-of-Ilia-Topuria-201718",
     "https://www.sherdog.com/news/news/Kaik-Brito-had-one-more-trick-saved-for-Dana-White-and-it-was-brutal-202423",
     "https://www.sherdog.com/news/news/Kamaru-Usman-confident-he-can-beat-Islam-Makhachev-Styles-make-fights-202398",
+    "https://www.sherdog.com/news/news/Kevin-Vallejos-sees-UFC-title-shot-opening-up-with-Noche-UFC-shakeup-202441",
     "https://www.sherdog.com/news/news/Khabib-Nurmagomedov-credits-Dana-Whites-coldblooded-UFC-approach-202344",
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-reacts-to-brawl-with-Dillon-Danis-at-RAF-10-201524",
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-urges-Sean-Strickland-to-accept-UFC-title-rematch-201689",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "There from the very beginning 🫶 All smiles with the ones that matter the most!",
-      "ts": "2026-08-19T03:16:29+00:00"
-    },
     {
       "t": "Is Carlos Prates next for Islam Makhachev? 📰 https://mma-fighting.visitlink.me/L4nCkd",
       "ts": "2026-08-19T12:30:49+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Michael Bisping makes surprising pick for Georges St-Pierre vs. Islam Makhachev dream fight",
       "ts": "2026-08-20T04:09:14+00:00"
+    },
+    {
+      "t": "Kevin Vallejos sees UFC title shot opening up with Noche UFC shakeup",
+      "ts": "2026-08-20T03:57:45+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Noche UFC: Jose Delgado to replace Yair Rodriguez in main event against Jean Silva",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ05uUF9xTlJPU2RnZ1d0bTRqMDMtaW1JdXc3NzlpUmdjLUZrNTRwN1RmeFlsNHNJQzh5eXUtVmpMQjdNelp5bUxpR2xaWjA4TWxTTi1JSE1yclZ2anl6amVvTy1kWDJqOGxFSFR2U0ZjUk1wSEVmRms1RUlDcGllLWNjVk1wd1RKOVJwUE1iblZURDlHZnFqbFhfNVJNUFYtaW5DZ180TG9CRDhaaXBHZVNrcnA4YVpOTm1GdXRUbw?oc=5",
-      "source": "MMA Crossfire",
-      "cat": "ufc",
-      "ts": "2026-08-20T03:27:33+00:00"
-    },
     {
       "title": "Brady Reveals Crying Spells After Muhammad Loss",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zelBkN29YMXBzQXJYRjk1Rk1oaGJqdE5md2k3Y2tFQlRUcVJTRXJ3Y0w1VjNPZGNiT2JjXzd3OFg0UHNZVFZicVhrTExVanJ1ZTNXZzhFMjVRd2l0WkhsVjl5TGU?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-20T04:09:14+00:00"
+    },
+    {
+      "title": "Kevin Vallejos sees UFC title shot opening up with Noche UFC shakeup",
+      "url": "https://www.sherdog.com/news/news/Kevin-Vallejos-sees-UFC-title-shot-opening-up-with-Noche-UFC-shakeup-202441",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-20T03:57:45+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiggFBVV95cUxQUFlLSnEwc3dFZmdPTjBxWWV1NFdhQ1JRTTR1dzliTlUwYzk2QkFKVzk1RElPQVpLTC1qUExMX3M0MzNYQjJpZ01LX09pN3NpeEswVldQSm1iU04xU3FxYjdhTXJ5VTFYc05FeHFPZnYxNFJfem5RdUlxeEZVb1lZS0h3",
     "CBMimwFBVV95cUxPMGc0NjdEcmdndGIxLU16RDRwNnJvWTVlSnBfSnB5YlFGTXRneHQ0WndXdnZiWFg3bFBsdkNzQU0xMnpoODVnVURGTkZ4VEl5eWVWc0JFdkI5NVRiREJCaWlOd25hNm41VlJNSTN1QUJjUEJHRHlNelUteXFEMjVwYVBjWTV1MGs2aGdpYVJVczBNQ0puN0FsazNaYw",
     "CBMijwFBVV95cUxPMXJZRlV4bmNXUjZGdVZ3ZHRuSkpVbzFFREt4ZzF0NlVKb3YwemJtdjl1Q1pIamtxdWY1TW9kVkU0S1dXTWQ4ZXh2SldGNFVDVkJ0NlBvOU0zOEFteWlYOWlmbEUyT1BPZ3EzRlJTRG5MLUZ0SUJRZW5wQXZ5TEJIX3RIM2hZTDBOdFBtWFhacw",
     "2089537966385373242",
@@ -3312,7 +3311,8 @@
     "CBMisgFBVV95cUxPN2QzbEVhbWZlVS1iYVFHZGFmR3VnamFGVkNWVmhSZ2FYTGlsMEp5c1cxZ0NhMWNMcVEzelNNZk44RkQ5QmdYZGZ4TlBtdWZmUHB6TWlFYzhuWGptN042OGxtUkItNTE3OHJzX1dDaXVZamdmYkcxaW9Zc1lRamhrdEtHNG9vUXhrcks3VVJVajZ3Ymw4TVp3WW9NaVBpWUZnbUFDV2JhV1J6V0lYbTVoNEZB",
     "CBMib0FVX3lxTE42ZzBWRzM2a2lfMnBVeGV5R2FWRFRDRUxoeWVKNnczMEpDSkNacnlOR0lHVHFLa3pvRWpwSjZ4MVR3c2phWXB3cjVpZ3pvNmpXSFpMejZxRlNLMV8xQzlGbkp4UnNkQ2dGaHpwZHlOUQ",
     "CBMie0FVX3lxTE54MHJzeENoTExTTUNwcG5aVzBqWnlhdy1oQkpKdnB6VmVfQWxhb2lZWDFUWm9RQ2V6bm9kZ0VrUk53SEJ0X3dzRlFQVjFVbmNJNElhWDAzWm1FR0M3YmNMSHgzRDBPTDQzZUNUQThkRDNOMHJIOEVVZTF3NA",
-    "CBMimwFBVV95cUxPUEx6dFBBREloQUpURXhjNHBYN2RzM3I5TWRPTDBKUHBFNGVxS3JVZmRJX04xY2FLQVR0YWtGaGFMbG9kQ2FCRHFJOF8tWUl0RmdyTUs0OWpZZm05c1RVV21RUmdFZ3U0VVFaWWRHYkVza1QxSjlaTDZvbnd3NEhTY1lFeUEyOUJBS3hZbm5ER3ZmZU81aktFaXZ2OA"
+    "CBMimwFBVV95cUxPUEx6dFBBREloQUpURXhjNHBYN2RzM3I5TWRPTDBKUHBFNGVxS3JVZmRJX04xY2FLQVR0YWtGaGFMbG9kQ2FCRHFJOF8tWUl0RmdyTUs0OWpZZm05c1RVV21RUmdFZ3U0VVFaWWRHYkVza1QxSjlaTDZvbnd3NEhTY1lFeUEyOUJBS3hZbm5ER3ZmZU81aktFaXZ2OA",
+    "https://www.sherdog.com/news/news/Kevin-Vallejos-sees-UFC-title-shot-opening-up-with-Noche-UFC-shakeup-202441"
   ],
   "daily": {
     "d": "2026-08-20",
