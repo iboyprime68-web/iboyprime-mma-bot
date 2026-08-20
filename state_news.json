@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Cris Cyborg undecided on retirement, weighs ‘interesting’ options as free agency looms https://www.mmafighting.com/pfl/505544/cris-cyborg-undecided-o…",
-      "ts": "2026-08-19T17:02:37+00:00"
-    },
-    {
-      "t": "Dana White responds to Khamzat’s UFC demands — and ‘Borz’ fans are not gonna like the answer",
-      "ts": "2026-08-19T16:38:11+00:00"
-    },
-    {
       "t": "Carlos Prates Trashes ‘Boring’ Islam Makhachev",
       "ts": "2026-08-19T16:54:13+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Yair Rodriguez out of Noche UFC main event, Jose Delgado steps in",
       "ts": "2026-08-20T01:39:18+00:00"
+    },
+    {
+      "t": "First Strike Model Predictions For UFC Sacramento: Hernandez vs Rodrigues",
+      "ts": "2026-08-20T01:41:16+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan explains why Charles Oliveira is better but Mauricio Ruffy is more dangerous heading into UFC 331",
+      "ts": "2026-08-20T01:44:03+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC analyst reveals curious MMA Mt. Rushmore: 'I'll take heat for it' (via @MikeBohn) https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-…",
-      "url": "https://nitter.net/MMAJunkie/status/2090237502258856204#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-20T00:40:29+00:00"
-    },
-    {
-      "title": "Morning Report &124; Carlos Prates says UFC guaranteed him next title shot against Islam Makhachev, wants to ‘shock the world’",
-      "url": "https://www.mmafighting.com/ufc/505695/morning-report-carlos-prates-says-ufc-guaranteed-him-next-title-shot-against-islam-makhachev-wants-to-shock-the-world",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-19T03:39:53+00:00"
-    },
     {
       "title": "Dana White reveals Contender Series graduates have earned $252.3M in UFC fighter pay since 2017",
       "url": "https://bloodyelbow.com/2026/08/19/dana-white-reveals-contender-series-graduates-have-earned-252-3m-in-ufc-fighter-pay-since-2017/",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-20T01:39:18+00:00"
+    },
+    {
+      "title": "First Strike Model Predictions For UFC Sacramento: Hernandez vs Rodrigues",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVThpVV9zYzVtbl9IbHVlX09ST1F1TjRhWEJIc0hYTm1Mdy1oVUgzMkZkS1k0dkxVelFlSERKSlJPMnV5QW1qSmJtV0VNRmo4ajhWR1BiQ29SQ1Y1b3pNckcyc1ZOZVRyeEtTbVoxNGJ1X0dvV0ptYllJY3NmdHk3YzRkc2FBU3lqNVhkaUJnWXMtVHZ6LXlWelNB?oc=5",
+      "source": "VSiN",
+      "cat": "ufc",
+      "ts": "2026-08-20T01:41:16+00:00"
+    },
+    {
+      "title": "Arman Tsarukyan explains why Charles Oliveira is better but Mauricio Ruffy is more dangerous heading into UFC 331",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTTRua3c2OEg2WFdac29ESVF3bzgwenQzTDd0NUtrWkdTaHhsSm5ITHpOWGZPd2VHMU5La1N5WUtUVUpfYWdvbWxiTU5yeEotaEg4aWkwMWY1Vm5Ib3pJQzVxa0diejNsZWRJaVRmUXg2TEpJV09oNFpXN2Y4RC1mODVmeEgzbUxYbVRVNWtrd2I3cFJEdVd3aEE2eHlKeUlLMFQ0UTFnOW5TWkprUmp4U3FCMERHdjNBNTBBUi1fUEJqRnBpc2c?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-20T01:44:03+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,8 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "84b0f699-5f42-3db1-b232-5bd57724a14f",
-    "CBMipAFBVV95cUxNeGswTmVfN1M0NlJDRWRnZk9EZ0U5VjRHbGh5bS1mLUxGcWd5Z1RrNWpHbWJOOUNOeXh2bTBmbWVDMzhFRy1FQTdRY1VPd2VFS2JNS2xFaVdMLUF6UTN0Z1lFNDZRSFdrZVlRaFlkbFJ4ZC1qRGNScDUyVHE3aFd0T2dOem41NkhqX3UxeXRvS2ZRLXh3YXRtU1VPdW5PUVhFa0pSbA",
     "CBMijAFBVV95cUxPblhndEg0b2NBd1FrWkFmcFZFZzduMDc3b1BJYzh3c0Z2eFI1OE5YcVFjVU9yQmh4U2cxOFZkQ1FSai0tUlBIdUo3OXhEcW05MXZBMmFzNXpad2dWUGctellFUzVTWGFaVXBIZndYMWJOVU5FbzJzS2FEQWVUWWotejVOUzFrQ25qVi1iQg",
     "CBMiugFBVV95cUxQMkxZTTZnWFpmVWpnZGhPdjB0OVZ5UEVvYnRITTNvMGJLb1NvS3JtbnFOOURCWGRncUpqUXBPZV9LUTgzUG12cC0yNEdtUm5HbUdGaFZMZ1BsbE1mMFJIbE52MV9WeEhtUVZlbDFqWU1CXzZxNDltTk14VDNxT1p0aFFtX2t1TVc1X29xeVlHbmxzbDNVTXlST2VYaW0tUFlTLTdKRjVRN3AtT2tBWnp1aVdoM3RScGp1MUHSAc4BQVVfeXFMUGFVTFlONHROS1h2Y0lPOEFmUGsxbW8wOURISmV0cEhreXV6X01zd3YzZndCb1BVellsS1E5ajlSZkRPMFExa2xiYVVFZDR5TWRNVHFxMlV5VkRpd0JfQ1J1bDFmTkxReGxEMUIyTXYwbFl6LUVCUVdKaVhaakVRREhfUjVqU3BFdThlMTJLd1VPRk9fbXNwSnJLQW81aTE0RjBxSjZOX2p4bmpEdWpwU084WVZVY0xtWFB6S1JJQUlTbUt3TUJac0JBUHctaWc",
     "CBMiggJBVV95cUxOdzVoSHlTTm9aa2JWdjVack44QlV6YlNoTm40TlpYblhyd0hRTXM2QTJmem9Db2xHTm9maU5WUHRibkd2MWdjeUNmTERTblZQQzViZDhZbTNnN1laelZhWlVzZXltRzNydklQSWRob05ERU56VXFQTm16azdXMzA2RUVDSElPSmpCLWVZR2dnLVdVaFkzZWxSZXdTRU5uUlZlQ3F1UTBfa2hYYXFqX2h0ZzNyeU9URHMxSGZhTUhjd2VoQzBONGRKamlYMHFHOU9kS3lxbzE2UEtEZWhwT2k0Q2U3R3p1b3I1OEVSQnlqYnpfYWg3SE1nSWhXcU9SMS1qOEHSAYcCQVVfeXFMT3hNZHhRZzR1RWsyNkpRVWZqMDd5ZFJCQlRFR1BQUnI3OXA2WmRzWmJTWGc0WGUwUmpoYmtJOGlxQmRQRm5xNXphb1dIcmhhY2xQa254VllMWmZZT3pXUmNaTUhnVjZzaFd6dkVac2R0YjVFTFdaU2NWcGYxcWVJWVV5bS1aZkhObjlsYi04Q3k2WmhHX0ZBMWRVS2ZIWThtTVpVTFVMMzhvUVdKNHJEMUNqOWI0X2QxZEdtLUhXLXNuckVWRmVxUDM2Y2tQTzFzX290bkhBNjA3b1diOGhlZFE0SlNmWllDTldHOWluOHhnLWhVUHU3MUVKcXI0VEI5TDB2T0dnNFU",
@@ -3312,11 +3310,13 @@
     "CBMiuAFBVV95cUxPak9GaFVpaUVaNHlpUl9oblAyNW00N0Y1RzMtTGlwT0I5U1V4YjFCVXJkd2NVbV9FQUtLb0RhanNib3RQeHhvaHVyTkZuLXhCMWtjTy1RWkR2bWdmakdwNVFSWkpNTVpDYlAySnJ5NU9tN1R4SHIyYXJiSVE4SkNxbHh3UXlPNUhBaWpGLXFFQ2M1aVFXd2ZEeTd0MEw2ZDV2VXpTc2trQ3hZUUZuSld0R05JVUxMYXlx",
     "2090248949571432769",
     "CBMikAFBVV95cUxQTnRqSFQxV01wYTFsVjlRTU4wV3dMb3h0TXRCTjFzNDVqNXhMeGQ5cTl2N2FiZVc5M0Q5S0N3VHF3Y1psQlQxbXNKc3lKcXpfRTV5T1ViODZvd3ZxQUZ6UXNTdEJlb3o2M3h4Q0xIeFNVd0FaTmRINWJYS0lBQjR2eEZiWUlIZ01tRDlzU3BWU3U",
-    "CBMilgFBVV95cUxNcVFaTUV0ekp3OF90cVBDaUE3MTNfcUpDdS1pNnJBTVlzVVU3WmlYMjd2eEp5dWxBVUZwOUh0M1I0N2xZcWV4UDhzR2hHRnFRSkx3V2h0ZjFkeC1ibUxSN3FZQ04yY0g1SWJwRmZTbnNmeDZsdkU4VkJnMlphazQ0OVZHZTg0bElCd3NuUFZNWUJ6ckFzUXc"
+    "CBMilgFBVV95cUxNcVFaTUV0ekp3OF90cVBDaUE3MTNfcUpDdS1pNnJBTVlzVVU3WmlYMjd2eEp5dWxBVUZwOUh0M1I0N2xZcWV4UDhzR2hHRnFRSkx3V2h0ZjFkeC1ibUxSN3FZQ04yY0g1SWJwRmZTbnNmeDZsdkU4VkJnMlphazQ0OVZHZTg0bElCd3NuUFZNWUJ6ckFzUXc",
+    "CBMimgFBVV95cUxQVThpVV9zYzVtbl9IbHVlX09ST1F1TjRhWEJIc0hYTm1Mdy1oVUgzMkZkS1k0dkxVelFlSERKSlJPMnV5QW1qSmJtV0VNRmo4ajhWR1BiQ29SQ1Y1b3pNckcyc1ZOZVRyeEtTbVoxNGJ1X0dvV0ptYllJY3NmdHk3YzRkc2FBU3lqNVhkaUJnWXMtVHZ6LXlWelNB",
+    "CBMixgFBVV95cUxPTTRua3c2OEg2WFdac29ESVF3bzgwenQzTDd0NUtrWkdTaHhsSm5ITHpOWGZPd2VHMU5La1N5WUtUVUpfYWdvbWxiTU5yeEotaEg4aWkwMWY1Vm5Ib3pJQzVxa0diejNsZWRJaVRmUXg2TEpJV09oNFpXN2Y4RC1mODVmeEgzbUxYbVRVNWtrd2I3cFJEdVd3aEE2eHlKeUlLMFQ0UTFnOW5TWkprUmp4U3FCMERHdjNBNTBBUi1fUEJqRnBpc2c"
   ],
   "daily": {
     "d": "2026-08-20",
-    "ai": 32,
+    "ai": 34,
     "staged": 2
   },
   "staged_hist": [
