@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev new GOAT? 'Make it make sense,' says Jon Jones",
-      "ts": "2026-08-20T17:00:00+00:00"
-    },
-    {
       "t": "‘We are brothers’: Khamzat Chimaev addresses Namo Fazil controversy",
       "ts": "2026-08-20T17:03:47+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Pro Once Mocked Faith, But Now He’s Living It",
       "ts": "2026-08-20T19:02:40+00:00"
+    },
+    {
+      "t": "Mailbag: On UFC Apex renovations, Islam Makhachev's GOAT credentials, and more",
+      "ts": "2026-08-20T19:09:31+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Paddy Pimblett gets called a ‘weight bully’ after revealing he was 190lbs against Benoit Saint-Denis",
-      "url": "https://bloodyelbow.com/2026/08/20/paddy-pimblett-gets-called-a-weight-bully-after-revealing-he-was-190lbs-against-benoit-saint-denis/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-20T15:00:00+00:00"
-    },
     {
       "title": "Alex Pereira vs Josh Hokit ‘definitely being discussed’ by UFC as Ariel Helwani provides update",
       "url": "https://bloodyelbow.com/2026/08/20/alex-pereira-vs-josh-hokit-definitely-being-discussed-by-ufc-as-ariel-helwani-provides-update/",
@@ -2105,6 +2098,13 @@
       "source": "Movieguide",
       "cat": "ufc",
       "ts": "2026-08-20T19:02:40+00:00"
+    },
+    {
+      "title": "Mailbag: On UFC Apex renovations, Islam Makhachev's GOAT credentials, and more",
+      "url": "https://sports.yahoo.com/mma/article/mailbag-on-ufc-apex-renovations-islam-makhachevs-goat-credentials-and-more-190931520.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-20T19:09:31+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMilgFBVV95cUxQRjlNTThzMXRWOURXbGtCTGVqczlMMTBOMHdhWHZuQmx3djNLM3R4NFIxUk1hT2V3VWNjQWNCaEE2aW4yeFhvRXlqWGhQNV9abFhwR01nM2FRQk1XQlRBVXhLQjB0OXhzZ3dnUExYRV9ZNlU3UFhzNEVLcGhDdXlwYmJUUFB4Z3E4OG5ZanNYTTdaZFRwdnc",
     "2089774033823003073",
     "CBMiqAJBVV95cUxQMnYzTmRraFdWYnRFRVNYN0pFeVhreDFsU1RjelN6cUZucFdWZHdXSVp2WWE2NDBXZEVqVG1PN1FlTUhqZ3JVT1JvZGpYVi1tb0VGWGctTWlvQWNkSHpJRHNyc3BPZDlWTW12NzVJWGl4NnNpYk4tUjRfdzhURG1LWUZsRWJtM0d2cEd5SkgydW1TRmgtOUdnZlo2Y1FBV1pkeHdtb0hmZXZPV0NrZHBBYXppMWZ0RTlXeXlNZUtiTGZ1R0lWMjdaWEUxZVpyYkowSm0yTFN2Mll1S3FpRXZtY2VjSklMWmM2YnZjbFctZW1kdjZmZEwwZmNibXl3dTFHSWY5Wk14U1FtMHVpTmZnUHdHajRyUDdwbC1FMGpFYWFNUjhFWnUtWdIBrgJBVV95cUxNUnBEeVdxci1JbUg4djFHbklrUndPYWJBdEI4YUdDTjdnaHhuNkQtdDZwRUVKS1kzbWJIYnY0S3UxWjlHOXVJM0lxOFM3dXBzQnBVRV9GaUwwdlNhZXpFTjlnRkVZbzRiZEpCTEtDVDcwajFDLVJqWDZ2Q3BLNXJtS1l2SEVGVXN5UkZpUHQtSm9HUHZJS2l3WkVtMXhBdUNSZ1cwT09oejJwckNsMThudzJuc0kxbDJJa19lWk9TUHlKSFVaeG9SM1FoeUt6dUNDbi1qRVdvQW15WGNjY1paUmJnU2pqVVM3ZWpEVTA4SW9uNHhTRlB4N21UclJuOUNJdV83a2tsYXNMUU1Td3FPQ2ZkZk84MVIxX0MxVEJTMk10cDc5bHRRTTJyNjIzQQ",
     "CBMioAFBVV95cUxPN0ZTODNlbk11OGJmdTdhSzBzeGV6MTFEVk16V0wwRG9QRWN3eUEzOXprV21YRlI0UE1HM3c5SGljdVJCWm5jZWNMZm9NSlcxVW5YVlFRWlVEREhsMWg2TTJFQWZwbTNNdy13VkJDUWZfbFM2NGRscnZaMGplWkRibThVM0FGZE5DcHRtMTE4SzRZcjFQY3Rvc3Nzd3BLTTdY",
@@ -3312,7 +3311,8 @@
     "CBMijwFBVV95cUxOaGdMeUdIMjJxR21iSEM4M3FZQmgwZHZXd1VyOXpGaUxuLVZqREh3OGxPdGZ3eXNETTdDQlN3UzdOZzFxaUpWbFFkVzgzYVZaX2REakJFWXJOOEZzTGxSV3dPWVBJUlNPdGVpelB2bnNZMDdpWk5HaDllS3lXV2Zya0NGQUp5SEJycGpWbERaZw",
     "CBMihAFBVV95cUxOSWl3dFlkcVhkRnVucE9mUHFEMVhLMG1PQ3RfczNrYjFDR2h3Z2JGNXR0bmlVOHp2anpaU2NZU3l2dnAzbXBCWTdhZE5McFBPVGZhdTVLMno5M3d0emVQQUNMUUs5MF9IdFVkUkhtUzdoWWtyVFRwR2M1Y2dMMW4xaU1Hek8",
     "CBMie0FVX3lxTE1RLU9rc0hmcW1VTUpGbjlHTUMzNmVBLWFKYi05LTlOTDdTX2wwU1M2dmRVWU5wNDVSZVcyOFVWNHlnVG53bGF4bWlZTEtnLWlRMk85eVdScUc3bHptY3ZkVHFLMkJHOXFGWjFRN1J4bndnX1haQ1AxYWZNOA",
-    "CBMimAFBVV95cUxNbWszaTViNkszRjZyN3RoMjRYdERscHZOYVJOelFhMTVza0J0VHg0Z1VLUW1QWWh5bmd1TmtsYTdRS2E1d0RnZGpjYzJzLTJGN0lSQkViVnZBSTMwNXVtV2tMZTVGM2NxcGFDdVc0TTJGTF8yWnEtUXN0cElGSDNsODZneTB6eWtES1FUQ1hQSGdKQmE5ZkotRw"
+    "CBMimAFBVV95cUxNbWszaTViNkszRjZyN3RoMjRYdERscHZOYVJOelFhMTVza0J0VHg0Z1VLUW1QWWh5bmd1TmtsYTdRS2E1d0RnZGpjYzJzLTJGN0lSQkViVnZBSTMwNXVtV2tMZTVGM2NxcGFDdVc0TTJGTF8yWnEtUXN0cElGSDNsODZneTB6eWtES1FUQ1hQSGdKQmE5ZkotRw",
+    "ea3e1131-4210-4b6d-bdd4-5f916d2ab5b8"
   ],
   "daily": {
     "d": "2026-08-20",
