@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Michael Bisping Criticizes Ian Machado Garry’s Attitude at UFC 330",
-      "ts": "2026-08-19T20:45:01+00:00"
-    },
-    {
       "t": "2026 Tyson Campbell Camp Montage Stream of National Football League",
       "ts": "2026-08-19T22:07:26+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Who will replace Yair Rodriguez vs. Jean Silva at Noche UFC main event? | Hindustan Times",
       "ts": "2026-08-19T23:59:04+00:00"
+    },
+    {
+      "t": "UFC analyst reveals curious MMA Mt. Rushmore: 'I'll take heat for it'",
+      "ts": "2026-08-20T00:30:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC star pays Dana White’s Contender Series winner $5k for KO’ing rival who made strange comments",
-      "url": "https://bloodyelbow.com/2026/08/19/ufc-star-pays-dana-whites-contender-series-winner-5k-for-koing-rival-who-made-strange-comments/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-19T13:00:00+00:00"
-    },
     {
       "title": "Coach believes UFC 330 win has vaulted Islam Makhachev into ‘GOAT picture’ https://www.mmafighting.com/ufc/505632/coach-believes-ufc-330-win-has-vaul…",
       "url": "https://nitter.net/MMAFighting/status/2090061841087250629#m",
@@ -2105,6 +2098,13 @@
       "source": "Hindustan Times",
       "cat": "ufc",
       "ts": "2026-08-19T23:59:04+00:00"
+    },
+    {
+      "title": "UFC analyst reveals curious MMA Mt. Rushmore: 'I'll take heat for it'",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZmlRRnFMeF9vYW1Sank2ZjdtU0FHYUhRZnFBbEpKS0JVdXZQamRib0RCbk5Dd180VUVoVGxra0pNMFUzUkR2MS05X0RITFBKR0FIcUJIRThVMkFheGtJWW5SbHk4ajZaSU9uSEVHUlIxU0xVU3BxZGw1UFgtYzM4Z3VMaGU2NVhSdGctSlVtWExKbWRZSmVXSzNwQ0FLTHdGZ2gxU3A0TzhRWVJGZTVBS1dtTnZsemthQTZpRXh2U3dkNUdtUHd5Sm1FSFhYdFJqSGlqeHZn?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-20T00:30:00+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=327467",
     "https://www.mmafighting.com/?p=505385",
     "CBMilAFBVV95cUxPUXNNOTVfNjBvelRZRVI2eDhtYWh5b2FJTGN4ZGp0bDNYdGFiMTZtMmxYMzNFMVdOcDdEaEhVTmZGZDhRRWtFeEx2R0NWV245ZThUZmxSNHlqTVBLTzZySVlEQVh6Mlh2NndwbHpLWW5zUzRWMllHWi1wYmFmdHhYSzFCM2Y0eTJ4cG1Ic3V2bnE3aVZh",
     "CBMisgFBVV95cUxPb3ZWS2RRemZKR1dfQmUzOXhidGNZc3JybS0xX2Uya2tWRUs5UTBsVGlKX0hxY0lqNVVob1RfMG1ON25PeVI5dVdYalNlZVhuWTRRc3J3UWN1QkVGSmJxS0pjUUxCdWtqUzNtNUVVYkRHSmRlUG9ucjFnTkl6UF9KVU5HMGxWZmo4NTJWSnB6b3FmQnJkVTN3WlJMcUtWZjVGeWk4ZEhzTVhjR1ZTRFNmLUtn",
@@ -3312,11 +3311,12 @@
     "CBMiigFBVV95cUxNbEtfSHBKVllUelFmdnFid21JYUlQbHU1YV81aklYd3JNa2hXM3pzMmlldlR4WmMxR0cyQ1hxMENRRndKSlExNW1USjlYWnU1bGlTNGVFbWE4U0hwYkRsQWNhSXk2Y2dyVHdJMnI4aDBVYTdLZmxUWHM5SldOWEg4cW1HcmFTMzF5RFE",
     "2090228294075736340",
     "CBMiogFBVV95cUxPTG1zLVFzb2NnMGRieXJOSGtHS1QxYjlGTFNtSGVOdl9KZkh2YWc5T0RubmZnVEgtZV84SWRVN3RTZ0VYVlVaX0cwWkZYcjVVWDV6UFRMSGpoQXhVemtTV0ZudTMtU0hoaHhreUYybWZLamFOdm94Z1NCSnhaUVlKVXpHRm9aMkZjU09VNk84anV5T3VqeGNWZVlUSUlpOXVWNlE",
-    "CBMi5wFBVV95cUxNRjhoZG9DVm9KeVRJMWJsVTAyZlVNeC1qcFQwUzU4d2dnanRzMGdta0FvdmZfMHdRTTlJR3NHRkY3RmJKNnlKZlVjNEhKSFpXdDNmblAyc2hDOS1YZDBQQjlkams5eXRSWHpjSERKelJzVkxBZTlJTTViOFRnUWZiN0Q1dGpGa0RwdEZacG8xWnZ3MXVlS3k3UTBib0VJbjFBNFV1N1FmU0hiOW5FNHB1TmlPUGptV3BtaFNBb1EtdnB4M1A0b0YweHlWUElqTlRWc1BNRm9VdjJUZ2VtaGIyemduOUtLcDDSAewBQVVfeXFMUDlIbnFVYkhzODFUblpxa1ZtdGowN0V0a1BCUkk1VklSU3lSZHptTUgzSEY1amtUOWZ2cmk4V3RkVjRsaGJXdXE2b0xBaGRQdUp4V0RvQ2ZyLWFROUs2WHBBcDBzQkgxVWxkSnhQZkNDNEhCTk8tZmhHN0txUk50WlVMajlQV0lEdjdvMmJ0OHJaZVl0dG9tdHpYakZmZkNfbDVSOFF5UjlfWmRWNHhPZWJGaGRPWHg1ZWpiN3ZfZHFULTBfNWRSTnJjZ2FWX3pyeTdLWTlGRkpPU0xUWWQyN29YckhaZk11eWw5ZUI"
+    "CBMi5wFBVV95cUxNRjhoZG9DVm9KeVRJMWJsVTAyZlVNeC1qcFQwUzU4d2dnanRzMGdta0FvdmZfMHdRTTlJR3NHRkY3RmJKNnlKZlVjNEhKSFpXdDNmblAyc2hDOS1YZDBQQjlkams5eXRSWHpjSERKelJzVkxBZTlJTTViOFRnUWZiN0Q1dGpGa0RwdEZacG8xWnZ3MXVlS3k3UTBib0VJbjFBNFV1N1FmU0hiOW5FNHB1TmlPUGptV3BtaFNBb1EtdnB4M1A0b0YweHlWUElqTlRWc1BNRm9VdjJUZ2VtaGIyemduOUtLcDDSAewBQVVfeXFMUDlIbnFVYkhzODFUblpxa1ZtdGowN0V0a1BCUkk1VklSU3lSZHptTUgzSEY1amtUOWZ2cmk4V3RkVjRsaGJXdXE2b0xBaGRQdUp4V0RvQ2ZyLWFROUs2WHBBcDBzQkgxVWxkSnhQZkNDNEhCTk8tZmhHN0txUk50WlVMajlQV0lEdjdvMmJ0OHJaZVl0dG9tdHpYakZmZkNfbDVSOFF5UjlfWmRWNHhPZWJGaGRPWHg1ZWpiN3ZfZHFULTBfNWRSTnJjZ2FWX3pyeTdLWTlGRkpPU0xUWWQyN29YckhaZk11eWw5ZUI",
+    "CBMi1gFBVV95cUxQZmlRRnFMeF9vYW1Sank2ZjdtU0FHYUhRZnFBbEpKS0JVdXZQamRib0RCbk5Dd180VUVoVGxra0pNMFUzUkR2MS05X0RITFBKR0FIcUJIRThVMkFheGtJWW5SbHk4ajZaSU9uSEVHUlIxU0xVU3BxZGw1UFgtYzM4Z3VMaGU2NVhSdGctSlVtWExKbWRZSmVXSzNwQ0FLTHdGZ2gxU3A0TzhRWVJGZTVBS1dtTnZsemthQTZpRXh2U3dkNUdtUHd5Sm1FSFhYdFJqSGlqeHZn"
   ],
   "daily": {
     "d": "2026-08-20",
-    "ai": 12,
+    "ai": 13,
     "staged": 2
   },
   "staged_hist": [
