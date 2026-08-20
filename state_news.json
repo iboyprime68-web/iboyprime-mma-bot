@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Gregory Rodrigues linked with top UFC middleweight to prep for Anthony Hernandez",
-      "ts": "2026-08-19T22:50:16+00:00"
-    },
-    {
-      "t": "Islam Makhachev Is a Top-5 UFC GOAT, Says Henry Cejudo",
-      "ts": "2026-08-20T00:38:00+00:00"
-    },
-    {
       "t": "Mackenzie Dern Reacts to Successful UFC 330 Title Defense",
       "ts": "2026-08-20T00:55:46+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Sean Brady says Belal Muhammad loss left him randomly crying",
       "ts": "2026-08-20T02:58:00+00:00"
+    },
+    {
+      "t": "Noche UFC: Jose Delgado to replace Yair Rodriguez in main event against Jean Silva",
+      "ts": "2026-08-20T03:27:33+00:00"
+    },
+    {
+      "t": "Brady Reveals Crying Spells After Muhammad Loss",
+      "ts": "2026-08-20T03:30:25+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White sent 2 fighters to hospital before being convinced to sign them both after DWCS war",
-      "url": "https://bloodyelbow.com/2026/08/19/dana-white-sent-2-fighters-to-hospital-before-being-convinced-to-sign-them-both-after-dwcs-war/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-19T18:00:00+00:00"
-    },
-    {
-      "title": "Edson Barboza settles debate over Herb Dean’s UFC 330 stoppage with ‘thank you’ message",
-      "url": "https://bloodyelbow.com/2026/08/19/edson-barboza-settles-debate-over-herb-deans-ufc-330-stoppage-with-thank-you-message/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-19T19:30:00+00:00"
-    },
     {
       "title": "Mike Tyson’s first fight back since prison ended in bizarre disqualification after manager entered ring",
       "url": "https://bloodyelbow.com/2026/08/19/mike-tysons-first-fight-back-since-prison-ended-in-bizarre-disqualification-after-manager-entered-ring/",
@@ -2105,6 +2091,20 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-20T02:58:00+00:00"
+    },
+    {
+      "title": "Noche UFC: Jose Delgado to replace Yair Rodriguez in main event against Jean Silva",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ05uUF9xTlJPU2RnZ1d0bTRqMDMtaW1JdXc3NzlpUmdjLUZrNTRwN1RmeFlsNHNJQzh5eXUtVmpMQjdNelp5bUxpR2xaWjA4TWxTTi1JSE1yclZ2anl6amVvTy1kWDJqOGxFSFR2U0ZjUk1wSEVmRms1RUlDcGllLWNjVk1wd1RKOVJwUE1iblZURDlHZnFqbFhfNVJNUFYtaW5DZ180TG9CRDhaaXBHZVNrcnA4YVpOTm1GdXRUbw?oc=5",
+      "source": "MMA Crossfire",
+      "cat": "ufc",
+      "ts": "2026-08-20T03:27:33+00:00"
+    },
+    {
+      "title": "Brady Reveals Crying Spells After Muhammad Loss",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zelBkN29YMXBzQXJYRjk1Rk1oaGJqdE5md2k3Y2tFQlRUcVJTRXJ3Y0w1VjNPZGNiT2JjXzd3OFg0UHNZVFZicVhrTExVanJ1ZTNXZzhFMjVRd2l0WkhsVjl5TGU?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-20T03:30:25+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,8 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMijgFBVV95cUxOUkF0aTZXWGNBczB1eDgtMU5HSDhLakt1Y2I1Z1hpY0llTnlTdDNNUlJpcTZMSzViWVl2MXdLTzR4WE9YeGp2YUEtaWZKVUlQU3FlYmNtVElwcXpsTUtaUnp6WTVDLWFaeWxoRFA2c3djNU5Fa2Y4T0FxdTBKTEFWR3FBN3VUY1dLR3FIcnFn",
-    "CBMirgFBVV95cUxQRGFkZ3RxRnllakl3bE1MNFBpWVFFb1UtQXRTYmJUdXZYVmthS2xRUXlZV1hJOWExRHhEQ1lvR2lFbVpoWUV2V01VNzNhSE9ncVQzRERBY2JCU2hGZnBwS0lLRkVNQlpYR0JSd0lYVnhiVGVLZEJpcjFZVEI5YWdObjNYZXpTWFFWNm9iemo1ckd5RXRtWFJET3J3NDlwaTFuQUU0WWljQ0dkUVFYekHSAbMBQVVfeXFMT2VJRmExeGxkRThQaFZ3OVdXSHRONkVzX1ZpTnhKTHRlbjgydTZha0wxam40bG5sVkJjSjh2cDVBcGlLV2haTW8yc2NQaTg4RTBWNEt0VXZsNXZLLTBMY0hPT2R1d2prRHpvczBXS0swYlJOWk10T083R3RpT0tTSVFtZ2luUWlmM0VyX084VXVINWExc3lORHU4UERUUDJYRUFoYzc1alF4ODU3Y2gwdnRrWGc",
     "CBMirAFBVV95cUxPR2dmYzVNNmVfQmd3ZE5HY2NUMHNhUExZNWsyYl9XaVpPbDFtbGVFc2ZzemtNUTdZXzRFay02WEJVaGxYWDgyNjhxa3pVT3lNMWJFZTRNamZqd0U1OXQxMXZfVURVc004SjdDNVAxZXJJSGtGeWJmUU8yMTdueFc1d3JmR0xOcnd1dWsyam9SaERWaTNEdUVoRXMzcWhfNTQ5LVZqQ21KTlpleUpG",
     "2089526584533241934",
     "CBMimgFBVV95cUxOLW5oTkZFbWJpeTNrR1F4WXJaUXhLVDJMWmk5X21MTXRyVlhTUWxuZWlBaE1PcUxReEJKTGk2YmtFMGdfTTBoQVN4eWZfNEtaaFhZODQ3RElwMUd1elp4MVVJYUkzcXdtRDMxNjBycGJ6eXFxeC1DTG9EcDNKSDVNYmZTUnVhb2x3TW1PUHdyYmhHVFRwNERTZkxR",
@@ -3312,11 +3310,13 @@
     "CBMipgFBVV95cUxNSHJqa2FmZktZUmhQb3NYRGliQzlySS0tdWotQlNUaC1adll5LUt3TzZ4MDJ5VUhsQ1JGdHNqb3Z4d2QtT0tHeDl6VmFvckNIXzFzbXU4NnpRODlCYUdyck40VUlpbFM2Zmp5b1JDejhyYjNNVGpPOWt4SXZvSi04OXVycjFlZzh0ZHpnU0xTZWdoMmlPNjNPNHdfRVF5Rnh6Zk9GS3N3",
     "CBMiW0FVX3lxTE14Q0sxYktTeUh4a2gtTXZxZmQxZTk5T3BWaTEyYkhwbTFWMWpRNElaZGpOQTN5QlF6ZlFUYkVxQ1Jrc05OaEZlVzFZSGJ1VzA1a3ViV05UMU4yR00",
     "https://www.sherdog.com/news/news/DWCS-fighter-claims-15-men-stormed-hotel-room-before-brutal-KO-loss-202435",
-    "https://www.sherdog.com/news/news/Sean-Brady-says-Belal-Muhammad-loss-left-him-randomly-crying-202437"
+    "https://www.sherdog.com/news/news/Sean-Brady-says-Belal-Muhammad-loss-left-him-randomly-crying-202437",
+    "CBMivwFBVV95cUxNZ05uUF9xTlJPU2RnZ1d0bTRqMDMtaW1JdXc3NzlpUmdjLUZrNTRwN1RmeFlsNHNJQzh5eXUtVmpMQjdNelp5bUxpR2xaWjA4TWxTTi1JSE1yclZ2anl6amVvTy1kWDJqOGxFSFR2U0ZjUk1wSEVmRms1RUlDcGllLWNjVk1wd1RKOVJwUE1iblZURDlHZnFqbFhfNVJNUFYtaW5DZ180TG9CRDhaaXBHZVNrcnA4YVpOTm1GdXRUbw",
+    "CBMiZEFVX3lxTE8zelBkN29YMXBzQXJYRjk1Rk1oaGJqdE5md2k3Y2tFQlRUcVJTRXJ3Y0w1VjNPZGNiT2JjXzd3OFg0UHNZVFZicVhrTExVanJ1ZTNXZzhFMjVRd2l0WkhsVjl5TGU"
   ],
   "daily": {
     "d": "2026-08-20",
-    "ai": 72,
+    "ai": 74,
     "staged": 5
   },
   "staged_hist": [
