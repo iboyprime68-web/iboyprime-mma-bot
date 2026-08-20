@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Jon Jones left confused after being told there's a new UFC GOAT",
-      "ts": "2026-08-20T11:17:00+00:00"
-    },
-    {
       "t": "Lamp Seck-Aldji Fallou.mp4 Porchfest Somerville (O7EfEfEcQP)",
       "ts": "2026-08-20T10:35:38+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "\"You're so easy to rage bait.\" - @dillondanis \"Please rage bait me when I'm in front of you.\" - @PlatinumPerry \"You can't even walk forward without t…",
       "ts": "2026-08-19T21:15:57+00:00"
+    },
+    {
+      "t": "Dana White accused of being 'professional question avoider' by UFC fans",
+      "ts": "2026-08-20T13:28:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Main event ready 😤 @GregoryMMA looks to make a statement this weekend against Anthony Hernandez! [ UFCSacramento LIVE AUG 22 at 8pmET @ParamountPlu…",
-      "url": "https://nitter.net/ufc/status/2090197995237278104#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T22:03:30+00:00"
-    },
     {
       "title": "Recognized in his hometown 👊 Anthony Hernandez was awarded a custom jacket by Jeff Novitzky, Senior Vice President of Athlete Health and Performance,…",
       "url": "https://nitter.net/ufc/status/2090199981819105362#m",
@@ -2105,6 +2098,13 @@
       "source": "Ariel Helwani",
       "cat": "ufc",
       "ts": "2026-08-19T21:15:57+00:00"
+    },
+    {
+      "title": "Dana White accused of being 'professional question avoider' by UFC fans",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUEJPSHRjM3dmaTdBMHFiQ2liTGpQeGxQVWYwVlprbVNyV3Y5NS1wVkhjTnd2OVZQUUVnbS1URGRaRThYTHBXMWliSmJfcWVuRURfazJVMVRITnZ3azFoektiTHE4SzVtNm9ZRkJ4Tk81YUN2RDNPVENJeVpwQVNPTjJKT3R1MTJSTjdzSg?oc=5",
+      "source": "Irish Star",
+      "cat": "ufc",
+      "ts": "2026-08-20T13:28:00+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMijgFBVV95cUxQN2JWbnRBQ3lBOTBTUFR3cVdhRklKaXJpLV9oU0lCdmhKSWR4Qk5KN1NFcDFfWFQwTnhHOHpqekJzTjJDd2N6WkFlNnVpZGJ3TWo0S3kxQ0x4Zlg4LTZTMUFUTG5UWUg2bjhZbk5KQkRrUktuUmdqTDhzbFNBa0tad3NiQ2RVUFlqN2dxcEZB",
     "https://bloodyelbow.com/?p=327534",
     "CBMiqwFBVV95cUxQb0U3S3VmSnhtbFZfc0h0ejM1dGhYWFFtQ1dfRFJycUZWMWFlbWRvR1ZHLVFTNjEtN1VZdjhLdUpHZElzOWVMb2kwZjVaVWdKY01RZ1NVcTEyZTQ0QmxkTFAybEdORHlsN3pla0lnNHNTcjJHMFo5NmEzLXQyajJvb1B5LUVPZDdoSzNHRXpzU25RS0RWZzhSbUp1MkUzWTU4YUV1eUFjbm02c3c",
     "CBMikgFBVV95cUxPbGlfZEhsU1ZvTGpuMVlWZ1ZoNFgtZEkza3RUYkI3RWNWS0g4ZDI2dmdReHlNNmVsMjgxeDJSNGhBZkV1QnVyb2tIRXFhMjBJRlQ2Z2diUkFfQVZwbDhDS2phUlBIOEs4LUFzckhrQ3otTHMycjk5dE53cUNYMkxYRFVhZTFnVzUyM3I3Q1l6cEs3UQ",
@@ -3312,7 +3311,8 @@
     "CBMihgFBVV95cUxQQUFwOEdKU29ydXZWWGlnWmlXbDR3amNPVUxfV1JxdDZtRWJUaGtHVzFZbkFvTG9PSFR1RXFqUF9tcUdfWWt5NEZzLXZzelBwTnNQc2w3NXladjNVNDhsclZ2TEJ0UDZVbHR6bWhIMHdvMTRDUzZ1TzU2Ym1QY3oyeE9JR1llUQ",
     "CBMiiwFBVV95cUxQU1pWYkR5SmVlWEZReFoxZEJmV2FXaHdnOU8tZF9LaWEyZkhXdDk1R0tYTmhZUDRBZldpVWNwd3A3RDJlU1M0MXFFTDZCa1VCOVZIbVVkTkRtaXhJc0pLb1JFQ3BILUVtUEZfRkx4U255ZkZIcWZBeEdjc0tOcmxyejMyRkVPQ0JCdjQ0",
     "CBMi0wFBVV95cUxOMjY1VmxNeWFWd0xJNFFaTFloRWZHRnAwcjFyQ2dHTXdVVl8xY19mb0FXVkN6UklRUGE4MmNMNmlkakFGZ0dBMTdOWF9meVdwUGg0ZjhBR1RGOUhJTTJ6d0NEWGduYV9uOWMwbFo3UDBBcGFWV2NJZWJnclVhY2JBNEh4T2xTaHJjMEsxcWlmc3NRMUFTY1JjcDkyQnI3cEVGMFM4QVlrUlRQNEFnY1hIOFJZNk9yRlVLdEJ6bWljeEhEbjFHa184b0tlZ09feE5SVmlN",
-    "CBMijwFBVV95cUxOTXlCOEVoSmRfblhvR0JrazJuNDB4LXQ2cGREY3NjTkdqTXZsY3ZScDh3QUZJNVY0eV9XdE80emxYNnJkUndMb1NsSmwtbTYzbDl6Y0N4VHdXYi1uWGxtNWVKUEZ4VVJ6dTZtLVYyUlVvSFFVbGlEUmRORER6X1JIS25ORVVieEhWeTRmLThxbw"
+    "CBMijwFBVV95cUxOTXlCOEVoSmRfblhvR0JrazJuNDB4LXQ2cGREY3NjTkdqTXZsY3ZScDh3QUZJNVY0eV9XdE80emxYNnJkUndMb1NsSmwtbTYzbDl6Y0N4VHdXYi1uWGxtNWVKUEZ4VVJ6dTZtLVYyUlVvSFFVbGlEUmRORER6X1JIS25ORVVieEhWeTRmLThxbw",
+    "CBMijAFBVV95cUxNUEJPSHRjM3dmaTdBMHFiQ2liTGpQeGxQVWYwVlprbVNyV3Y5NS1wVkhjTnd2OVZQUUVnbS1URGRaRThYTHBXMWliSmJfcWVuRURfazJVMVRITnZ3azFoektiTHE4SzVtNm9ZRkJ4Tk81YUN2RDNPVENJeVpwQVNPTjJKT3R1MTJSTjdzSg"
   ],
   "daily": {
     "d": "2026-08-20",
