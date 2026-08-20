@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Morning Download: Cosmic Baseball begins three-night stay at Greater Nevada Field",
-      "ts": "2026-08-20T15:39:08+00:00"
-    },
-    {
-      "t": "Yair Rodriguez announces withdrawal from Noche UFC main event with injury: 'I wanted this fight'",
-      "ts": "2026-08-20T15:29:02+00:00"
-    },
-    {
       "t": "Arman Tsarukyan singles out Mauricio Ruffy's biggest weapon ahead of UFC 331",
       "ts": "2026-08-20T15:49:48+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Andrew Tackett Seeks To Set Defense Record At UFC BJJ 10",
       "ts": "2026-08-20T17:29:37+00:00"
+    },
+    {
+      "t": "Chris Padilla Knows He Belongs On The Big Stage",
+      "ts": "2026-08-20T17:20:10+00:00"
+    },
+    {
+      "t": "Jamall Emmers vs Lerryan Douglas Prediction",
+      "ts": "2026-08-20T17:31:47+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Michael Bisping Criticizes Ian Machado Garry’s Attitude at UFC 330",
-      "url": "https://sports.yahoo.com/articles/michael-bisping-criticizes-ian-machado-204501207.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T20:45:01+00:00"
-    },
-    {
-      "title": "Gregory Rodrigues linked with top UFC middleweight to prep for Anthony Hernandez",
-      "url": "https://sports.yahoo.com/articles/gregory-rodrigues-linked-top-ufc-225016003.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T22:50:16+00:00"
-    },
     {
       "title": "Michael Page wrestles Alexander Shlemenko in debut at RAF 14",
       "url": "https://sports.yahoo.com/articles/michael-page-wrestles-alexander-shlemenko-000000177.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-20T17:29:37+00:00"
+    },
+    {
+      "title": "Chris Padilla Knows He Belongs On The Big Stage",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSm4wbkhhbGNqZEtGOXNxNS0taWs4aEN0bm50WVpfTGlzYVdXQmJiSkgyajktQUFBQUtMWlhHNFZFM3RmenozOXZDM2QtRmd2OVVxc3c4cEVwbGJnTXM3ZzJXaEdaRmo1dTBKYU5GdTUzV2lLRnZ4akkwTG1jRE9fLUk2TEkwU3hueG92dUtVYVU?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-20T17:20:10+00:00"
+    },
+    {
+      "title": "Jamall Emmers vs Lerryan Douglas Prediction",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWXJ3R241WVdITk4wY24yQzFFeWdiMWlHWWdDMUNGcGhwX2lRYnd1SGx1djlNdlNKRnpja2JxNDZYQkRqNUZ1cHNXWTJjQ2FpYnRrdGU0NS0ySllpZEtsd0RLWVhfNHBiTUM4OV9YME9mTTRCMUw0NFkzR1BRU1N2Qm9mTDB6T3QwcmtlM3phQnU?oc=5",
+      "source": "ATS.io",
+      "cat": "ufc",
+      "ts": "2026-08-20T17:31:47+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,8 +2113,6 @@
     10
   ],
   "yt_eval": [
-    "CBMihwFBVV95cUxOVWgyUXVsQlE5WFFTX1VhTWpQZUZRMU44R25DYndHdU1mMnQ5di1ZTDBGM1VZU3pLbVpIV2tHTk1vYjlMYnE4RENXSE5pY1c4OUF1MmlQMjQwVG5WcmJkNmpoMU4weTVVRjBnb1BPMHBXVG40OEM5ZkJWdVFNa3JRUXFhLWNyZGc",
-    "https://bloodyelbow.com/?p=327554",
     "CBMipAFBVV95cUxQUGoxQXI4QktpWTJEOEswWWViSVo1SVpxTk1OLXZwNEpLNHNXSEEzSjZ5ZldLVFhsTm1wN01JdklvSjdzUkJGSTFoMUt4T2Via01nSWc5aXIyNGF2MzU4WlYtTzAwbnFLekRDU1duTmtEdm5uMWpIc3hyUnNIWGhHMVpBQVowbGFtb1o1QUlzd3F1Qy0wak5Qa1BhNkFaNXNKaXJJdA",
     "CBMiiAFBVV95cUxNZld6YWNSY2k3dkJSaFQ1MHI2YWVhSWxQcExpRTVMbTd1SU45ZGFxQ2llVmFSVlBmeW5uRTEtZXdDWk1YdDM5WUtkRlFOeHVCM2JIUm1qeW4td0ducDFPc1RweEs1WnVFT1VzTFB1WE0wcU01X1ZTZzc2OUlEUnFYVGd6dUxDb1Z2",
     "CBMihAFBVV95cUxQYWRhd05DZWdpM3I5bkdTcU9zc0g0azNqTVc3aW9Ea2JMWGhaRkE0VmNvV1FuTmZ0bTdHYmZvQXh4SUcyRDB6TVlaY0wwY29TZWxiYzZRQUVsQTliLWY1Qnc4Y1Fyam8xd2djcDB4WExkR2kyY0hISEY1MG9iaWF2MmZCaWI",
@@ -3312,7 +3310,9 @@
     "CBMiiAFBVV95cUxNelJIVm0zNS1FU3V0eVp3VlVBZFdqLUdxU3ozZzZUeVhOZlR1ekl3UlV1eTRGSFpzZjJvLVM3N215Mk9nSVFfQXNkTHlSUTZveEtxalJpOXByQldodW1sMU9Dd29iTHpPQ2JUdEg5Tl9uOU5QQnlhVEI3RmFKX2Q5bXhUcXZfWTlv",
     "CBMioAFBVV95cUxQOVpiTVdrQU1hTU9lRjAtcE5BX05tNkx3QTNCM1JQRlNSSV8zQTdIQXdqMXo2ejJJYzJLbmpDUm5qU1daQms4NjR2LW9qWEdFYWhXampfc1hFRkc4MTZmV29hVzZieVdrNHgwZ3BhWUM0OWJMRHprZy1kdnZJQkVYVGdPQzlpdHNfQi05dFJQMmdPTGNlQTNaMHpPeVNtU1F6",
     "CBMiW0FVX3lxTE4tWk0wQmV1bnRsNTdpUDRHMExyZUowMDgzaGFYQmVQZThTWGxpU0t2eGkzREdNLWtBVWpfWHA5MV9lNmxKOW41cWVNVkxxenZ5R1EwZEQtbDA2d3M",
-    "CBMiiwFBVV95cUxQMFV3cDllbzhaNHJOWFItY3BkbVhqQXJCNFVQR0JTY1k2eVBxSWFkQkhmTjhDX1ZBXy04NHBQVFphUS1CbFBVOEdybTJubmtrM3FTWWRhMzNkamd3aEZNci1fQndFN1AzWmRJTklMX2JBcGJKSWRmbi0xZEFBcF9lRGQzcjBwWE5ITkVN"
+    "CBMiiwFBVV95cUxQMFV3cDllbzhaNHJOWFItY3BkbVhqQXJCNFVQR0JTY1k2eVBxSWFkQkhmTjhDX1ZBXy04NHBQVFphUS1CbFBVOEdybTJubmtrM3FTWWRhMzNkamd3aEZNci1fQndFN1AzWmRJTklMX2JBcGJKSWRmbi0xZEFBcF9lRGQzcjBwWE5ITkVN",
+    "CBMikAFBVV95cUxQSm4wbkhhbGNqZEtGOXNxNS0taWs4aEN0bm50WVpfTGlzYVdXQmJiSkgyajktQUFBQUtMWlhHNFZFM3RmenozOXZDM2QtRmd2OVVxc3c4cEVwbGJnTXM3ZzJXaEdaRmo1dTBKYU5GdTUzV2lLRnZ4akkwTG1jRE9fLUk2TEkwU3hueG92dUtVYVU",
+    "CBMikAFBVV95cUxNWXJ3R241WVdITk4wY24yQzFFeWdiMWlHWWdDMUNGcGhwX2lRYnd1SGx1djlNdlNKRnpja2JxNDZYQkRqNUZ1cHNXWTJjQ2FpYnRrdGU0NS0ySllpZEtsd0RLWVhfNHBiTUM4OV9YME9mTTRCMUw0NFkzR1BRU1N2Qm9mTDB6T3QwcmtlM3phQnU"
   ],
   "daily": {
     "d": "2026-08-20",
