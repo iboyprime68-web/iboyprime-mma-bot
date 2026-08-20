@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Hernandez Previews Fight vs Rodrigues | HQ UFC Stream of UFC",
-      "ts": "2026-08-20T17:25:10+00:00"
-    },
-    {
       "t": "Reinier de Ridder Previews Fight vs Roman Dolidze | HQ UFC Stream of UFC",
       "ts": "2026-08-20T17:25:10+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Mike Perry makes vicious prediction for Dillon Danis fight: ‘Break your face’",
       "ts": "2026-08-20T20:13:07+00:00"
+    },
+    {
+      "t": "Despite new sparring footage, Shavkat might be ‘done’ with UFC — ‘I don’t think he’s ever gonna fight again’",
+      "ts": "2026-08-20T20:15:40+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Anthony Wint",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1kU0lLbGlOT3dXSHg3VURmUzlwbHhWaTMtWkRUSzJpbENxN25FSmZMT3ZUbHJWNlZicGxpOG5UY01xdW5yTVRoeUo1TnI5TmNydFE?oc=5",
-      "source": "UFC.com",
-      "cat": "ufc",
-      "ts": "2026-08-20T19:24:36+00:00"
-    },
     {
       "title": "“One Isn’t Enough”: Javier Mendez Says Ilia Topuria Needs Multiple Wins Before Islam Makhachev Super Fight",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWUZkWkJ5cFh1SFZES3JfSTVXWi1INW45UGt4Y2hLNnZZZlUxSUdmMUt2WnFGa2xETHBtWFE0M0NwUGVPQ3ZKYndvZ1ZFNVk5M0FELUY1OFMwSjFOdmFCRU9tQnB2VzQwOVU1a1JkZUJtSHhGU3VOaVlOLXd0bnFrNWVDcHdod2xoUnh0WlVUZGJHZlJLUUhlR01uS2doaF9zaklfTFVmM2o3SGNGUkZHTHY5SFlqS3J6d1ByQlhIYWpfSGp4UGc?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "BJPenn.com",
       "cat": "ufc",
       "ts": "2026-08-20T20:13:07+00:00"
+    },
+    {
+      "title": "Despite new sparring footage, Shavkat might be ‘done’ with UFC — ‘I don’t think he’s ever gonna fight again’",
+      "url": "https://sports.yahoo.com/articles/despite-sparring-footage-shavkat-might-201540664.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-20T20:15:40+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiVkFVX3lxTE14cXZFUVV5VFNvNm5YbW5taUZUcjdEYmNlUTg3TjhDM08yNmJFOXcyVVd1UVJXUVVKUERVS1BobkJqaVFBSElBUENTVHZjTjlNRVphYWdB",
     "CBMigwFBVV95cUxNQmZOWGw1NzNFc1FqMWktanJMRk83Rl9EUkZiS3R2YllUaGFjeXp1UlVXZWRwVGlMaFNtME11Z0xydGJDOXdYSGd6RExNbWxXNGUxTW1IM2RmYW5IRnl4MUNtOHN0Q3pHMS1BVjhvWkd4TFNhbmhYSl9xSk1wU2Q1Qk1jVQ",
     "CBMi1AFBVV95cUxQUXMxZ2ZzUXhoQzA2czFocjFydGJ6Uk5NeW9nSDQtYUN4UEo1MV8wVHlhQWhPeWppWS1DeUlRbVd3am93RzlMNWRKNXlvUUU4cGlSQkJqSVZ0N1hPMjNNRndEN3l4eUdCV05GT21qaVFLYzdlejRKcVd6eTl5Nng1Mk15cFFoNHBpZXl0TEUtMmlyeDlwb01UYWd2TDVma0VOQ1AyTkIwNjUyMXVVZFREbEx1Y2l1U3Q2SGVycE54SXFxNlMxaVctTXJaejktWFdGeUdoTA",
     "CBMi6AFBVV95cUxPTzdpVXNaNDg2MnN1MUU2QjBoOUI5UVdfV1FkdmZNRi1aNTN3RTlnUjdmRjhrQVA0bm5DNHpIQTc3NGtPUzRqV2Y3eGp2VmpGR0RRVG8zU2NlU3ZuYnVack1KVWpmSmtad0hCQWkyMUpKSWtEVzZpLU1iUlRIUGhFTnFpTjRoUHJ3bGhHWUY0d2lBaVlPajF2OUdDV0diT3llTnUzTmtONFRxMU5qZ2Z6TWRiZ0FHVlR5S1U3SENWOW4wWElsRW12R1pFZmFKR1BjeVlRczJsWXBvZXBGZGRrUkkyTUJrMUFl",
@@ -3312,7 +3311,8 @@
     "2090484006626181198",
     "2090499102500934126",
     "2090529301989044574",
-    "CBMiugFBVV95cUxQWkRvRnVHUFNnYUtiUFBFM3F2eUVZbENERWdtOVp1N2NYcjdjNzRsS3BhQkNGYU94TEM4QmtLZ3NtVXpBeDc2U1dqOE9pOWZDVHdQczZsQWUyQ0R1VmMwMHZOaGY3a0FJdElQQTQ0UU1NUXR1dmYzaFpSY0VKUkhHMlYtMEJ1all0dVB1TndMdVphR1Yzel8xMlJPRmRkNjBfd3M5bzF5QnNONzZPX2hmRUdXZzFaMmpka0E"
+    "CBMiugFBVV95cUxQWkRvRnVHUFNnYUtiUFBFM3F2eUVZbENERWdtOVp1N2NYcjdjNzRsS3BhQkNGYU94TEM4QmtLZ3NtVXpBeDc2U1dqOE9pOWZDVHdQczZsQWUyQ0R1VmMwMHZOaGY3a0FJdElQQTQ0UU1NUXR1dmYzaFpSY0VKUkhHMlYtMEJ1all0dVB1TndMdVphR1Yzel8xMlJPRmRkNjBfd3M5bzF5QnNONzZPX2hmRUdXZzFaMmpka0E",
+    "7b2cbf51-8b19-3efb-b2da-a1a93670eea8"
   ],
   "daily": {
     "d": "2026-08-20",
