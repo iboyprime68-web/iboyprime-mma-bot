@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC analyst reveals curious MMA Mt. Rushmore: 'I'll take heat for it' (via @MikeBohn) https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-…",
-      "ts": "2026-08-20T00:40:29+00:00"
-    },
-    {
       "t": "Kaik Brito was inundated with Namo Fazil fan messages before DWCS knockout https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-dana-white-…",
       "ts": "2026-08-20T01:25:59+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "I will never A) not watch this if it pops up B) get tired of watching it",
       "ts": "2026-08-20T13:34:19+00:00"
+    },
+    {
+      "t": "UFC BJJ 10 Results: Andrew Tackett Makes Fourth Title Defense",
+      "ts": "2026-08-20T17:34:38+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Roman Dolidze Prioritizes Health With Move To 205 Ahead Of RDR Fight",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRVpGcGZIdmQwMEYtenphS0hyRHRqR0dndHNzQ0swOWtfU2JYcEtJalQyVHNoeE1IOFFSRlhiNzk3N2FUcFBTN0NLODVjckhwSzY3SDZ2RmpNd2diWnh3cjNJYWRoM3pjT0tJdUpkd25scEZZOVBpcVhhSjFlcjhGQURBYThrUmwzb2pqRUYyS3JQVlVVcFFiOHVwYVkzcGc0Y0lCNVRrUEVHZw?oc=5",
-      "source": "Cageside Press",
-      "cat": "ufc",
-      "ts": "2026-08-20T16:58:26+00:00"
-    },
     {
       "title": "Islam Makhachev new GOAT? 'Make it make sense,' says Jon Jones",
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdWs4eEFLc0ZUTVRDdm40ay1MUVB3NlNia05EUnNfSUdQQ2pFaEFrZVlOSUE3aGRKcjl3TE5LV0Q2WlJCMDZyQXdzYlJ1YXY4MmZOM0x3LWx6VEhOcmFKTWU5TG9BYl84MVJlT2toTWFCdk1GeTRjSWVIVF8xN1NkX2t4MTdwVGVnTnhyeS1DYjBhdWlFSmwzV0RsNUEydTlWN2pMNTNWeHlZUTNDelBHTVNyZFM0UncxOTgwUEJteTBzNTY1R1NvSkQzeEFTMUxpWjNMZnFEV1NGSlN1SkpDU2NrbnJmNHNEOTAzLWpxZ1lGZy14dW5ITVp1blM0TUZC?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Ariel Helwani",
       "cat": "ufc",
       "ts": "2026-08-20T13:34:19+00:00"
+    },
+    {
+      "title": "UFC BJJ 10 Results: Andrew Tackett Makes Fourth Title Defense",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMXF2RHlMdEZ4ZDRBeDZ6S1ZNRlo3RTFmM0JLcXBCM29qOVRTX0tBRENQNy1Wak5IMXl3U1hWR2pUcXhROWg3OUFJZE93NHVSVmc0Z3J2NGpqTTljd0ptMU5MakpRc01RT3FNcGpwbllFRGE2ZkNUdkVkal91aXB1MmFYQmlwcUtfZ3cwUGtiSkc?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-20T17:34:38+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMihAFBVV95cUxQYWRhd05DZWdpM3I5bkdTcU9zc0g0azNqTVc3aW9Ea2JMWGhaRkE0VmNvV1FuTmZ0bTdHYmZvQXh4SUcyRDB6TVlaY0wwY29TZWxiYzZRQUVsQTliLWY1Qnc4Y1Fyam8xd2djcDB4WExkR2kyY0hISEY1MG9iaWF2MmZCaWI",
     "CBMiuAFBVV95cUxNVE9zcjdob2twZlo2MkQzazdTOFhvN21lTVJnd3ZjTTZmWkhvUnBRQmcwakdnSGo4MHJrbExjeTJRNHRfMmNoRlk3cWpXSkkwcFVFY044SmlyVzNRVTRnX2ZoY0NWVE1ZWmRiQ0R6Z3NWbnBNaWdvdUJEV1dJZmlXTWtERGI2S3oxX0lSVjZlOUQ4YXUxRURFbGZuWTc1Rzg4Q25DS2lZMjdpc2RON1VodzRYVjBJR21m",
     "CBMi5AFBVV95cUxPY1FjSS1udi0xcHRHcnR6ZGhSUVJ5TU9vTWJCQS1GZy1rMHI1TjhpaWVmc3h1Wm1VYkhnY1k2ckxodllJWnJsQkYwNG5ZRWxrNzhPV0gtQmtNU2dNamVFZHRXckRIUmlRb2xSWkNuN0tQdUE2NHhHR3JzMnVKRGc1OW1QdHBmV3R2SEZuUGJvN3hIOVBfaGhRamdNZ0hROThTTXAwSlE1Qk1yUVVndWZJSVM0NW9Ub01jcVk2aDk1RTNWMGVkcThuSEl2aWxqUHU3aXNOMHVoc2F3dXczSWVwMjl6WFE",
     "CBMingFBVV95cUxQelFySndoZDRwWlFCenY3c2VRZlZqNUZhejVGcS1OV2tBZU9QSm15TzRMOFo1X3ZsaUVkaXk1RWtWcDN2N2NFUThSMGRsN213TGRyVU1IR092aHFnZUtLYUNrV0QwWWY4WlE1RVJLdk9iTnd1TFdFdVpPQ1hCSE4tdzJRYVJ5XzhGLWdmeHNReWI0cVpmZzYyOGZDZ0pKZw",
@@ -3312,7 +3311,8 @@
     "CBMikAFBVV95cUxQSm4wbkhhbGNqZEtGOXNxNS0taWs4aEN0bm50WVpfTGlzYVdXQmJiSkgyajktQUFBQUtMWlhHNFZFM3RmenozOXZDM2QtRmd2OVVxc3c4cEVwbGJnTXM3ZzJXaEdaRmo1dTBKYU5GdTUzV2lLRnZ4akkwTG1jRE9fLUk2TEkwU3hueG92dUtVYVU",
     "CBMikAFBVV95cUxNWXJ3R241WVdITk4wY24yQzFFeWdiMWlHWWdDMUNGcGhwX2lRYnd1SGx1djlNdlNKRnpja2JxNDZYQkRqNUZ1cHNXWTJjQ2FpYnRrdGU0NS0ySllpZEtsd0RLWVhfNHBiTUM4OV9YME9mTTRCMUw0NFkzR1BRU1N2Qm9mTDB6T3QwcmtlM3phQnU",
     "a4bee5f5-337e-32da-a252-afa3296916f7",
-    "CBMiqgFBVV95cUxPYVRtNE1xQjJreGF0VUpDWjNEN1A4SEo4aE5FYTNPN0tTcjU2LVRTYWFsSC0xMXhpMnhzWUxCc1JsYUR3N0g4RC0tWTBMdU1UTXp2NWhaUG9LaFc1V2tmY0w4aUwzS3FhSmIybWxBTDJiYXJFY19nOF83LWhWSW03WWxwZEVUalo2QU5TTzl6WV9pQ045a2ZoZ29HdXoyZkloRV8tWTVpY0VuZw"
+    "CBMiqgFBVV95cUxPYVRtNE1xQjJreGF0VUpDWjNEN1A4SEo4aE5FYTNPN0tTcjU2LVRTYWFsSC0xMXhpMnhzWUxCc1JsYUR3N0g4RC0tWTBMdU1UTXp2NWhaUG9LaFc1V2tmY0w4aUwzS3FhSmIybWxBTDJiYXJFY19nOF83LWhWSW03WWxwZEVUalo2QU5TTzl6WV9pQ045a2ZoZ29HdXoyZkloRV8tWTVpY0VuZw",
+    "CBMikAFBVV95cUxQMXF2RHlMdEZ4ZDRBeDZ6S1ZNRlo3RTFmM0JLcXBCM29qOVRTX0tBRENQNy1Wak5IMXl3U1hWR2pUcXhROWg3OUFJZE93NHVSVmc0Z3J2NGpqTTljd0ptMU5MakpRc01RT3FNcGpwbllFRGE2ZkNUdkVkal91aXB1MmFYQmlwcUtfZ3cwUGtiSkc"
   ],
   "daily": {
     "d": "2026-08-20",
