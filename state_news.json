@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=505632",
     "https://www.mmafighting.com/?p=505635",
     "https://www.mmafighting.com/?p=505673",
     "https://www.mmafighting.com/?p=505679",
@@ -20,6 +19,7 @@
     "https://www.mmafighting.com/?p=505976",
     "https://www.mmafighting.com/?p=505993",
     "https://www.mmafighting.com/?p=506075",
+    "https://www.mmafighting.com/?p=506080",
     "https://www.mmafighting.com/?post_type=vm_stream&p=498649",
     "https://www.mmafighting.com/?post_type=vm_stream&p=505026",
     "https://www.mmamania.com/452084/highlights-open-ufc-vegas-119",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 321 press conference faceoffs: Tom Aspinall vs. Ciryl Gane and more",
-      "ts": "2026-08-20T18:06:35+00:00"
-    },
-    {
       "t": "Paddy Pimblett breaks down his UFC beefs: Why he respects Ilia Topuria, but not Arman Tsarukyan",
       "ts": "2026-08-20T19:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Islam Makhachev could’ve beaten Ian Machado Garry with zero takedowns at UFC 330, claims coach",
       "ts": "2026-08-20T21:00:00+00:00"
+    },
+    {
+      "t": "Paddy Pimblett: ‘I’m gonna absolutely terrorize’ Ilia Topuria, Arman Tsarukyan if we fight in the UFC",
+      "ts": "2026-08-20T15:11:07+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Which middleweight you pickin' in the UFCSacramento main event? Anthony Hernandez or @GregoryMMA? [ LIVE AUG 22 at 8pmET on @ParamountPlus Ticket…",
-      "url": "https://nitter.net/ufc/status/2089925573376131179#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T04:01:00+00:00"
-    },
     {
       "title": "Salut, Paris. 👊🇫🇷 The UFCParis fight poster is here!! Get tickets today: https://UFC.ac/4wJPPlM [ LIVE SEP 5 on @ParamountPlus ]",
       "url": "https://nitter.net/ufc/status/2090017177269407844#m",
@@ -2105,15 +2098,21 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-20T21:00:00+00:00"
+    },
+    {
+      "title": "Paddy Pimblett: ‘I’m gonna absolutely terrorize’ Ilia Topuria, Arman Tsarukyan if we fight in the UFC",
+      "url": "https://www.mmafighting.com/ufc/506080/paddy-pimblett-im-gonna-absolutely-terrorize-ilia-topuria-arman-tsarukyan-if-we-fight-in-the-ufc",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-20T15:11:07+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
   "hour": [
     "2026-08-20T21",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMimAJBVV95cUxQV0dZWmtYZ1NzRV9SR0Ztd0t2M2haT3kzeHNrdGx4TTJHTnZCQzZMQXhPa3pIZFQzVV9mWE5PUzlSTXh2ZG85YlhPMU1NcG9BQ1VoVUdnUGVmZVg1aHF3N3l2V1RLNUFhcURRTkFWdUZHN2FKalgyTTVXWlMxOFNYSlo5OUI4SVBFR0V3aTF2eElBTmxKRG02WnZvR1hVUU0yWVNkNzBmRDZFb3FZZXkyckxIU0lpdEFaNi1sRnJBM1lZU2JPdEVoQ0dPTTV6UTlSVjFtODVGWGF0ZjN6WVQ1bEVPRTZWZWhjQ25GV19qZXJmMGpxTkJkd3hsV3NmQVB0N21GM3NqbFlTMWlFSnluamFuSzNpTXFB",
     "CBMijgFBVV95cUxOUUdVbXdFY1FXNDVxLTdPU2JmTWVqR3NtUElDTFplWUpYU2FBZkhtanlUUnRKdG5WelBnR0YtOHVjVFlZTFB1QmUxUmtNVk50NFlnY1RNUm9BendnSzNSVkJkdTdwX1lpM3NXUDllcWpuTUtSaFJRSDRodzc5XzdJYmtlY3JDdWU2cEoxQnZR",
     "CBMitgFBVV95cUxORnIzN3hfek1Wa3JtVTBaZjQxbW1YWFo4RWVTQm1FWERRcE9sb2xtQ0d6WkpGNWJleFJjTnNNQVlpbDhtWEdlWDI5OU1fRzY3TXkzbHlGSF9PUnY3SDBhS3k0amhSdmRPLXFHbVdGME5RUkVXYUlCRUEtT1U4cjBMaGpwa1RqSDlVV2UxdVhVR2c1Rm9zU3F5VG9ZWTBQQm11a3lKTU1YTDd5a3duZTNzYmdPV2pmUQ",
     "CBMihAFBVV95cUxOdXBEczJkemN6a1Q3OGUxc3pBckVPSzItYXZlQzh1ZldGUEJUZVhIeDFfTmV1cnFjNzRoaXpLYmFmM1dGYktvR2NGM1hscGxXanpCMjVUd2JWSlFyRzhqTW5yLW4xLTZud0JVQTBGZFZLeVlreHF0amJGVTM1RnpSVXRCU2M",
@@ -3312,7 +3311,8 @@
     "CBMiR0FVX3lxTE5lWkhwVjh1N1hmLUpuaC1XUzVpS055blZRcFJpSk9wN29pN0VUM3oxbWZsS1Y0Nm4zQmJieDA3Z1JDWkwzeGtn",
     "CBMisgFBVV95cUxQcUlYSTd0dENhOXg3NnNLNEsxcG1JSTY4MndlbVpfbHk4NC1oM1VVY1RyV2tBZjBTLUVOVHZnWjhxWnZuVDVmd3JpN0lCMXhibUREYWo3bUZBUTJsaWc4djZwSjF3NDRXYVk2TVp1bUh1QmFjY0lJUTA1bW9BOFUzYmVPS3dJVjcwYWFvbGtfMDBrQW1nRGZxUzV5YUtGVHZ0cmR5VHVoajlSOFBOT041TUln",
     "CBMingFBVV95cUxOVzkwVUg4cnFGRHNnRU02UVZDcDh5OGNLYUJKcDJuOHVTYlFhQWx4V2lGVktTZ01fUGs5MW52aGFxUzJhMFZOV0VkRDZtRlRVU0VHQ0F5SHJxTlU2bUYtQlJ2TTM5RUlQQVAtWHk2Y0hGaml6em5CdmZNVGFPYWJsbzVqaldRd1RfX1dBNEwwLVBIeUdhc3dndllvWTEyZw",
-    "https://bloodyelbow.com/?p=327957"
+    "https://bloodyelbow.com/?p=327957",
+    "https://www.mmafighting.com/?p=506080"
   ],
   "daily": {
     "d": "2026-08-20",
