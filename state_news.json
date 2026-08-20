@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Backstage Update on Bronco Nima’s Future in Los Perros del Mal",
-      "ts": "2026-08-20T16:24:59+00:00"
-    },
-    {
       "t": "Kai Trump launches brand new career venture as she prepares for college playing golf at University of Miami",
       "ts": "2026-08-20T16:36:29+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Fight Night: Hernandez vs Rodrigues Preview",
       "ts": "2026-08-20T18:55:10+00:00"
+    },
+    {
+      "t": "UFC 321 press conference faceoffs: Tom Aspinall vs. Ciryl Gane and more",
+      "ts": "2026-08-20T18:06:35+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Yair Rodriguez out of Noche UFC; new main event booked",
-      "url": "https://sports.yahoo.com/articles/yair-rodriguez-noche-ufc-main-033022678.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-20T03:30:22+00:00"
-    },
     {
       "title": "UFC 330 Slow Motion Highlights",
       "url": "https://sports.yahoo.com/articles/ufc-330-slow-motion-highlights-045134706.html",
@@ -2105,6 +2098,13 @@
       "source": "elisportsnetwork.com",
       "cat": "ufc",
       "ts": "2026-08-20T18:55:10+00:00"
+    },
+    {
+      "title": "UFC 321 press conference faceoffs: Tom Aspinall vs. Ciryl Gane and more",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQR0o0YWdHeTQ2UlV3U1hyQzBkZGJ3LVplMzFUdzdvZlhQbEw1YjFua20zQWxLT21SYW5EUEFTZGktcktjSERSR0dGcTR0bWplbXZ1MmUxQ2wzUHJlR00wdGhmSi1IVTY5RlU3eW5idDhnbk1JdmNBV2pDbHBBM3UzSXRKMlpBZGN3b0xRSXR0c2FFQ0htM21J?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-20T18:06:35+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMingFBVV95cUxNMy1zMWF5Q21JN29SYlVlckgzVHRHNmNtUXkwb2tEVUlBR1E5LXc3blRpc09pNG9wczBmR21xcEVEbkd0eWVxRjBRbWFRdGw3UExZUEpHdEx3Y3NNRXBKc3l2azVjVmVubmFBdUMwWUNVUXJUR21YaVo0bnFVQmtnQ2VIYWhiMHpwbkQ3aS1fOWhkT09KQ1AzTmdtYkN6Zw",
     "CBMingFBVV95cUxOS040Q180RGFiSkg0UHB3Q2laLUdhY19pRUJNUWdqV2l6c1l2T2pIVVpxc21BcUtMRDhTY0RkRFIxM0xkRDdOZVdfTHNGdjduS1ByYzY0cjR3algxTmxHWEk3TWJxc0NmYUVOaWV1Yi0tUGVWY3pqZ3kzeUxMZTU0cGh2RG5VdDNlX3kxbXh4T0g1STVVdXpGdjBhak9tZw",
     "CBMi5gFBVV95cUxONEpySGZNbTcxaDFaQWJMNkZIYzQ2QTQ5X2k4enhHaFNVLTZ1NGFQb2FGVGNqRmNHdFdINkN1c2p5UlpLMjBwMkNFcXR6YUQ0Unk4NjlaR3FHR001YmNnNVVjWWQ1WHlLUVhaRlVBaWZiTEx0Y2NBMHZsX09RSUZXVGlCVkh4WGxOZlhTNUcxR1lMc2wybG13dWRuSWI1ZjNtbGwtbzFjTGhMN1JlTXhNbGgtcmozMU5WUFBIbFZ6Nnh2Y3p6Uk8xV241TVNETzRmX1RfaEp5OGRYajg2NEJMT2EyRVNkUQ",
     "2089773328370180348",
@@ -3312,7 +3311,8 @@
     "CBMidkFVX3lxTE90X3VwWkhaejVpNld5Tm9Sc3U4WXd4c2NVU2Ywd3JKTkY2LTY3NzhudzhDNGZkQ0w0RTkwV1JrTWpQQmRQcktoa2IzeUtVR2Y3ZnpkakgyQmVDdHA5a1BCMnNwSjhZNERoVUpsQzhZYnFucUdYalE",
     "CBMiR0FVX3lxTE1qZlRVQUp4eE54c1lQa0R2S3l6cFhlZWx5aWhpS05wVTJtYndaSVo0UVY1YWVTcUFST0FuYXUtQzVmOVZSVlJn",
     "CBMi7AFBVV95cUxPX2J5RFZ6a05GaUdtNVg3QXhmUW8yVkRxV3ZmWnF1TWJKSnlZYWlkb0VmYUV2ZUUzdFFOdkUtcy1qbG9xTktaLWNOUHg2aGs3YWUweE9lblJwM3BHY2d5Q2V6V1A1dE13YzJSVDVNT1ZpQjRQa0pFYXc4OG5NYXQ2Sm1jNl9WNHA4Zy1NTG1mUFk5T2Z5eFl1c0JVaWJZMmRxNmNqdFF2aHVKZ0xUQ0NMbkQ3TXRuS2F5cVlMa0FzTkdKZjByLXBfaDNZOTIwVUJiUWJ3Wm5FRkdKdHNtOEI2UmFodEpoS1RrLXNFSw",
-    "CBMilgFBVV95cUxOanVfUlNjRFhuT0ZSSm44T0FHX3ZvMElXUjlTalBlUTJyaXUyV0hCbWNBX3d4TEZ4M3QwUWNJZ0w4OEVDa2w4SUkzQ3R1TWJvUHM2LUt6VmIxXy01UzVWdm13YlRXX1QzdnVZemlLdHdlUUhSNVE1YmloSGp1TTJ1Rk1aWC01TFRBekwya1M3OEZxNk92TWc"
+    "CBMilgFBVV95cUxOanVfUlNjRFhuT0ZSSm44T0FHX3ZvMElXUjlTalBlUTJyaXUyV0hCbWNBX3d4TEZ4M3QwUWNJZ0w4OEVDa2w4SUkzQ3R1TWJvUHM2LUt6VmIxXy01UzVWdm13YlRXX1QzdnVZemlLdHdlUUhSNVE1YmloSGp1TTJ1Rk1aWC01TFRBekwya1M3OEZxNk92TWc",
+    "CBMilwFBVV95cUxQR0o0YWdHeTQ2UlV3U1hyQzBkZGJ3LVplMzFUdzdvZlhQbEw1YjFua20zQWxLT21SYW5EUEFTZGktcktjSERSR0dGcTR0bWplbXZ1MmUxQ2wzUHJlR00wdGhmSi1IVTY5RlU3eW5idDhnbk1JdmNBV2pDbHBBM3UzSXRKMlpBZGN3b0xRSXR0c2FFQ0htM21J"
   ],
   "daily": {
     "d": "2026-08-20",
