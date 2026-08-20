@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Edson Barboza’s wife urged him to retire years before UFC 330 after he nearly lost vision in one eye",
-      "ts": "2026-08-20T03:00:00+00:00"
-    },
-    {
-      "t": "Yair Rodriguez out of Noche UFC; new main event booked",
-      "ts": "2026-08-20T03:30:22+00:00"
-    },
-    {
       "t": "UFC 330 Slow Motion Highlights",
       "ts": "2026-08-20T04:51:34+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Edson Barboza at peace with retirement after ‘internal battles’ to admit it was time to walk away https://www.mmafighting.com/ufc/505606/edson-barboz…",
       "ts": "2026-08-20T15:05:00+00:00"
+    },
+    {
+      "t": "Jon Jones at UFC 247",
+      "ts": "2026-08-20T17:00:43+00:00"
+    },
+    {
+      "t": "Yana Santos Gets Luana Santos Reported UFC Fight Night 292 Booking After Contract Tease",
+      "ts": "2026-08-20T17:15:56+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Anthony Hernandez: Training with Sean Strickland for UFC Sacramento 'was fcking great'",
-      "url": "https://sports.yahoo.com/articles/anthony-hernandez-training-sean-strickland-184029783.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T18:40:29+00:00"
-    },
-    {
-      "title": "Dana White admits he doesn’t have time for long-running UFC format that discovered Merab Dvalishvili",
-      "url": "https://bloodyelbow.com/2026/08/19/dana-white-admits-he-doesnt-have-time-for-long-running-ufc-format-that-discovered-merab-dvalishvili/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-20T01:00:00+00:00"
-    },
     {
       "title": "Islam Makhachev’s greatness questioned by UFC legend who makes argument for Ilia Topuria comparison",
       "url": "https://bloodyelbow.com/2026/08/19/islam-makhachevs-greatness-questioned-by-ufc-legend-who-makes-argument-for-ilia-topuria-comparison/",
@@ -2105,6 +2091,20 @@
       "source": "MMA Fighting on X",
       "cat": "ufc",
       "ts": "2026-08-20T13:30:01+00:00"
+    },
+    {
+      "title": "Jon Jones at UFC 247",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaUtBNTJpTXJuRkVXYjUyTGpvS0pFb29Wb0tURWJYV1gwRnNNQ2dYQXprUWhNWWlqZ282ZVE4VlZkMnJqUHZ6aGxoMy1udlB0UzYtTTkyWlUtQXg5UGlSWEpVTzZ1SkVvVUFHUWFFMHE2aDdmYVB0SXZnUmVwMkVyQjUwVUVfV1VYdVVfYkVsakt4X21Hc0ozalYzOVRxMkRydVV5UmR0S3RKTFp3V1lsR01KYUhHOGxvdmc?oc=5",
+      "source": "The Lufkin Daily News",
+      "cat": "ufc",
+      "ts": "2026-08-20T17:00:43+00:00"
+    },
+    {
+      "title": "Yana Santos Gets Luana Santos Reported UFC Fight Night 292 Booking After Contract Tease",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ0U0ZlRFZzduN3h6RTFnajlDbWFaNU9JeV9mWWo0cHZpN3pSbHc3dVotZDN1WEwyVUlDUjEwQl9fRTNKRmlpVk12bEMtWUlXMHNVMzJiUDFDWmJkSVVDRktBc1FTZkZCM3kwRWdEZzhHbERUMFRubE1obFpjMXhmTzN6NXdidkcyUV9NVUtGWQ?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-20T17:15:56+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,8 +2113,6 @@
     10
   ],
   "yt_eval": [
-    "CBMia0FVX3lxTFBMQXRQTFBuTkMydFRlaUtCU3pOWjZOeHB4REllT2p6Q09rT3R4SjJGb3FlbjRIYUVHWjNYVTlwLS1PQTM1UUFOaDNuNGVGUk9JZFJzdWRoN3pFdzVOMjFFUmdERmxMS3diREVz",
-    "CBMijgFBVV95cUxPVk9GMVVpcVpwNTdBbUUwVVAyNlhVRnZWLTZsVzFEMEpCbnZMWTNGUDBJTG5PSklyR2M4bFlqaVJVekxmeEZKLXE5Z1FKRnpCdzhuRHMwNTNNSDJhNlFhdTBRdGRYLTNnekZ5NXZFemxtOE9TbzhKNU9kQlhpeXFlQUdteE9zVDFVSXR5SWNB",
     "CBMiY0FVX3lxTE1jQVA3c0hrbmpWNlNBeXZtT3pIbGZMenFvMHJsWWJrU200cGpBc282QkVpMVpXSHZ4clVkNkNQNGtfVGZLeVBuWWZiT3hUWkNYbll2aGE2YUhrLURNX2dUeVJGYw",
     "CBMitwFBVV95cUxOV295TTdORzFhQnlXcVBEMUJJejVaVzNtdXR4a1RfRWVLTzYwU0hHMVFrRnZpZ2pCNHE4VU9ReTMyLTcxWHpoWVlVRkpYaHIxNjI1cmg4SGZqVnlhNEd6Z1RGdUU2MjJ2Z1VKUkd2VFhOXzJBOWJ6VUVnYW9BTVNSektMTXBoMXE3TnIwZFBGVUJLVFJETkFhSnBWQXNLeVNocnd3Smw0bzRQb3I0ZTA0QU9GTkw4SFk",
     "84d0dc5e-f430-3f0b-9204-8fb6c987dd70",
@@ -3312,7 +3310,9 @@
     "CBMiiwFBVV95cUxPTk51ei1MNTlMd1hIRnE3QmdHRy1EYXk3aGctSl9kLVVQZEVZWF9OdWthU0NTVk1saHVPQXgzMGhVOFZsemE2b0dmNGVrcWdBQ1FMLVd3djlaTUp2VXRSeEllQWMtOThkZnlmMkVva2pfaGNPMmMzM2FPU1hJQnBtbjEzajZQME5Gd0tz",
     "CBMiqgFBVV95cUxOdVliNmRaVmh2OF96dHNXX0JfRXJTTllsTWN2NnRYb01oQ0xlQkVkYjVmTFNuVzh5Skx5QlBiLVU0OXFGdXJyaGNHRWlnMXA2MVAyTEhmdEpaQVM1anJVSExxWU5hYmg5OGFpc1RialpSSTBqcUs4NFRYWGZSZGlxUzIxU0ZVbjdNU1d4NXNLV2huZDBCVVA4ejl4UG92RXpPOEZ2dElpNkk2dw",
     "CBMitAFBVV95cUxPbW1fM3JaY051V2dmWHNXNVBtSVVJcG50VndoLWJFdHFPT1ZjbWhNSzRRZnJJSWpvUk1oRXRlb3lkUkJiUEYwRFY0ajQ3ZWtyaWc2dmd5MGlUYk82VndNRlRLdmlGdldnYjhYV2lsSldyTDBLSDNIWThBSWtFRVZKclFxZnZPOUFOR01jMFdZUHN6eUFWOEtVR1FGOUR1aFdEelZvaGIzOVpCOUtyS1FZd2hQdEQ",
-    "2090455064397881738"
+    "2090455064397881738",
+    "CBMiugFBVV95cUxPaUtBNTJpTXJuRkVXYjUyTGpvS0pFb29Wb0tURWJYV1gwRnNNQ2dYQXprUWhNWWlqZ282ZVE4VlZkMnJqUHZ6aGxoMy1udlB0UzYtTTkyWlUtQXg5UGlSWEpVTzZ1SkVvVUFHUWFFMHE2aDdmYVB0SXZnUmVwMkVyQjUwVUVfV1VYdVVfYkVsakt4X21Hc0ozalYzOVRxMkRydVV5UmR0S3RKTFp3V1lsR01KYUhHOGxvdmc",
+    "CBMijwFBVV95cUxNQ0U0ZlRFZzduN3h6RTFnajlDbWFaNU9JeV9mWWo0cHZpN3pSbHc3dVotZDN1WEwyVUlDUjEwQl9fRTNKRmlpVk12bEMtWUlXMHNVMzJiUDFDWmJkSVVDRktBc1FTZkZCM3kwRWdEZzhHbERUMFRubE1obFpjMXhmTzN6NXdidkcyUV9NVUtGWQ"
   ],
   "daily": {
     "d": "2026-08-20",
