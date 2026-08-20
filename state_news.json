@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Yair Rodriguez out of UFC Noche main event, Jean Silva gets new opponent https://www.mmafighting.com/ufc/505976/jean-silva-gets-new-opponent-for-noch…",
-      "ts": "2026-08-19T20:19:51+00:00"
-    },
-    {
       "t": "Arman Tsarukyan picks surprising name for Ilia Topuria’s next opponent https://www.mmafighting.com/ufc/505974/arman-tsarukyan-picks-surprising-name-f…",
       "ts": "2026-08-19T23:02:34+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White welcomes Khamzat Chimaev's desire to fight soon",
       "ts": "2026-08-20T07:44:56+00:00"
+    },
+    {
+      "t": "\"Adding new tools\" - Songchainoi details his refined game plan for Banluelok match at The Inner Circle 27",
+      "ts": "2026-08-20T07:45:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White explains why he offered UFC contract to DWCS 88 loser",
-      "url": "https://sports.yahoo.com/articles/dana-white-explains-why-offered-134036264.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T13:40:36+00:00"
-    },
     {
       "title": "Charles Johnson twists his way into UFC 330 rankings update, Gillian Robertson loses ground at strawweight",
       "url": "https://sports.yahoo.com/articles/charles-johnson-twists-way-ufc-134804051.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-20T07:44:56+00:00"
+    },
+    {
+      "title": "\"Adding new tools\" - Songchainoi details his refined game plan for Banluelok match at The Inner Circle 27",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQU01oWElZMkNDRnJaOTJSZV9Pai1ySjVCRzlNeHg1NEJlN0V6V3YzeWNtOV9mOWg1MF84ZHgwWG1MVzgwUzN5VWlmTV9RQm93UXozd3lzNFJPX1dWcXdiWjZBam5mYVFxdkVJTFd2WS0wc0NfRzlteEFoMk84THM0amZUSnJ4VGNvemNuX0FaUGJmUFBEeXV1M1dzMDlKS2V1ZVNPLUl4bVJzTkh6Q3lhRDluNnB6QzBxSVZCTmFxMk1SUVVwQ3c?oc=5",
+      "source": "Sportskeeda",
+      "cat": "ufc",
+      "ts": "2026-08-20T07:45:00+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     10
   ],
   "yt_eval": [
-    "CBMiaEFVX3lxTFA1cTJBY0hCck50NnBGNjFLVmlDS1Jmc1FuRE52dWJZZ004Vl90LUUzVnlFTUJ6dC1OaUVzSERDcUtIeGxVTzJUQ1hDbkdLLUJfQzhoeVozaVh6ekgyMl9hWmtrMVFYOXl5",
     "CBMirAFBVV95cUxOS0d6QmZTeGd2MUV1dnBuQk42b3A2RVFMaFlQVVZHU0k4MXp2VzF4dUZpUVJOb2hnRnNjTXhrU2I5THRnYWN2SlN1bDNqUmczWHZOb0g5RUJ5TXFabi1WOG90OVVkUDlEdFU3Y2dvVkg3bUpMeGNoZl9vWmtKTHh1Y0hoU2VuZWo0cXZqSXk1c3hfdUhEUi1FemtGc0pjNWFJVzNBakVnZkZFMGVn",
     "CBMidkFVX3lxTE1iOFc2RGpZaEZoM3Nkbmwxa1BqazNCeXNJTXdnSnJkcWlNT3Z4OEE0WDBwaWl0RVoxUThPS1BvRU9GanFITW9KaWo2U2pZNDZYNUNySU9HZXd6d3JPQnppOTRWaXNLMXc2dGxqcmFRTnlxdkVMLWc",
     "CBMic0FVX3lxTE9yQ0tadzFxZnZoeU1ieG13Y2NPTkQ1cFZtZFZqaW9JWktnblhUZ1JJRnVlYTQzQXhOSE9KTTR4dHBIV0dtU3Q5WEV1Y2xndWptWS1PdnlPV2xCQ21VY3BpTEtYTXJKQ2pabE9obF9zaF9jOU0",
@@ -3312,7 +3311,8 @@
     "CBMidkFVX3lxTFB1Q3cxZXAtX0dvdldUSGdEN2xTeXFaREs3ZWlfdVBSNWx5dHNic2YtQ20wQW1QamV2M0pLNkhEWUo5S21vUHA4Mm9OdGxDcDlUaEJsYVhqYzVPZ0h4bUdlZi1jLV9yOFFRZnpkcTV4Nnl3VHp3UFE",
     "CBMizwFBVV95cUxNNmxrTmlZSXN6X2tsYXp4SUJLUUpTRHlHdlFVTE44UFBLX1BSMWEwMUxycFJwTFdaTjZvZGd0U1N4Mi1vSFhPWWtLMFlVWXlMSzY3QjhHMGdKMmZBSVkxSEVjS1NDbGJ6aXZkX0lGODlEa0xWeEx4amJPUXR0MXFOYkNNS2pnN09oeFFuQktabnRUUVhNSkNIUmhXUGtGc0FjQ2Z1WllWTUxpSVRndFlpeS1KdGxNdzFqU0tHUjRjVnlCeWNRSDlnTlJTLVp2elk",
     "CBMiiAFBVV95cUxPMHNWTUltREtrYWF3bWQ2SVFnUkliZ1lZVVMtRGV0NHkxUDkyWVprT0x3am9ON0lDY0NzTGtFU0JIdW9VbTBuTDR5TG0wcFdjSVduZDdVLVpEaWNVRjNKLUU3SEhmazVNczdyY3phYlY0ZVNGRUJic1V1aTBOV0JqUGRSTXBmYVp1",
-    "CBMitAFBVV95cUxPTVU0WHh4anR3emNDdHZuV2JvSGZxcURISk5oMllLbmFRQVRrTl9vYW80X1YzR0J5aWVud2c2bnJ1TWhzaGZ2Q2VSNGRVQ0lNZEx0Y2hnLUYyZW9oYWwzQnJndlptYjZKWFduSEl5Yng1NEZjVnRtRV9fbWMxUGNMdnNUU2pHenQ2ZW1ld2JvYTRnT2lJeThsS3VfNFFwbVQ2aTFlTktRUXhEU19xTnVoWlNkdGU"
+    "CBMitAFBVV95cUxPTVU0WHh4anR3emNDdHZuV2JvSGZxcURISk5oMllLbmFRQVRrTl9vYW80X1YzR0J5aWVud2c2bnJ1TWhzaGZ2Q2VSNGRVQ0lNZEx0Y2hnLUYyZW9oYWwzQnJndlptYjZKWFduSEl5Yng1NEZjVnRtRV9fbWMxUGNMdnNUU2pHenQ2ZW1ld2JvYTRnT2lJeThsS3VfNFFwbVQ2aTFlTktRUXhEU19xTnVoWlNkdGU",
+    "CBMixgFBVV95cUxQU01oWElZMkNDRnJaOTJSZV9Pai1ySjVCRzlNeHg1NEJlN0V6V3YzeWNtOV9mOWg1MF84ZHgwWG1MVzgwUzN5VWlmTV9RQm93UXozd3lzNFJPX1dWcXdiWjZBam5mYVFxdkVJTFd2WS0wc0NfRzlteEFoMk84THM0amZUSnJ4VGNvemNuX0FaUGJmUFBEeXV1M1dzMDlKS2V1ZVNPLUl4bVJzTkh6Q3lhRDluNnB6QzBxSVZCTmFxMk1SUVVwQ3c"
   ],
   "daily": {
     "d": "2026-08-20",
