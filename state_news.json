@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=505325",
     "https://www.mmafighting.com/?p=505329",
     "https://www.mmafighting.com/?p=505335",
     "https://www.mmafighting.com/?p=505337",
@@ -1179,6 +1178,7 @@
     "https://www.sherdog.com/news/news/UFC-releases-total-international-viewership-numbers-for-Freedom-250-201650",
     "https://www.sherdog.com/news/news/UFC-veteran-Javid-Basharat-among-18-new-PFL-signings-201640",
     "https://www.sherdog.com/news/news/UFC-veteran-exKSW-champ-announces-retirement-from-MMA-201679",
+    "https://www.sherdog.com/news/news/UFCs-Michael-Page-is-taking-his-unorthodox-style-to-a-new-combat-sport-202448",
     "https://www.sherdog.com/news/news/Umar-Nurmagomedov-eager-for-rumored-bout-against-punching-bag-Yadong-Song-201598",
     "https://www.sherdog.com/news/news/Umar-Nurmagomedov-to-headline-UFC-Shanghai-on-Aug-29-against-Chinese-foe-201737",
     "https://www.sherdog.com/news/news/Undefeated-PFL-debutant-discusses-overcoming-opioid-addiction-201702",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "A KNOCKOUT FOR THE AGES Kaik Brito proves he is not to be taken lightly on #DWCS!",
-      "ts": "2026-08-19T01:25:11+00:00"
-    },
     {
       "t": "IT DOESN'T GET MUCH BETTER THAN THIS 👊 Kaik Brito ends #DWCS Week 2 with a VICIOUS RD3 knockout!",
       "ts": "2026-08-19T01:40:56+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Anthony Hernandez: ‘I want to hurt somebody’ at UFC Sacramento",
       "ts": "2026-08-20T06:20:08+00:00"
+    },
+    {
+      "t": "UFC's Michael Page is taking his unorthodox style to a new combat sport",
+      "ts": "2026-08-20T06:50:23+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Carlos Prates On Being Nightmare Matchup For Islam Makhachev",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYkZHdW9rdFRjVjJmZGV2cUp4QlpnX19PNzZZLUItUGNEYW1yU0ZfbVAxVDgyTmp5aFJsM3U3bmppTlJVTWN3VFptMERxZ3ZQMDdGemQ5ajY0OTc5OWNiaWEwYWlaem5WbHlkSldDN2ZjcU1sb1p1b2R1eGMzWEZrdzdTbzdNbHlvcDFmS3FITEpJOHdqdkhWSg?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-20T05:04:34+00:00"
-    },
     {
       "title": "UFC Coach Makes Honest Confession on Ian Garry’s Chances against Islam Makhachev",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWUV4M2lNcEVIMVJJWFdVYkV0QTlvd2h2ZXlCc2YzMlpjM0pvbTEtY01tMHo5RXAxbFo2Skk2dVVrQzRyTnF2UVQxMzhvR1BSRWxab0dQNUN2dzJzQzk5TnZ6QTFBbm9fdnJoRlhIbEgzeGlqZHhXNVhnWnNKcU1FVVBOZ01oT0Q2cklDRjdBeC05VVM3U1JkdHE4TFllWHNCcTAxWlNsdnM?oc=5",
@@ -2105,15 +2098,21 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-20T06:20:08+00:00"
+    },
+    {
+      "title": "UFC's Michael Page is taking his unorthodox style to a new combat sport",
+      "url": "https://www.sherdog.com/news/news/UFCs-Michael-Page-is-taking-his-unorthodox-style-to-a-new-combat-sport-202448",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-20T06:50:23+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
   "hour": [
-    "2026-08-20T06",
-    9
+    "2026-08-20T07",
+    1
   ],
   "yt_eval": [
-    "CBMickFVX3lxTFBveVgyczQ2dHBITVIwcXh6dTZjckY3TnRrSDhTc2VIc0xSZHNvRVNHUWY2eDNuWTZXQ1lOekpva2ZSLTdyQnVvNVZCVWhHcWwzV3F0T19VY3FMc0VFaW9zMThpSENzYm1TY00yajhadWltUQ",
     "CBMiyAFBVV95cUxPNVNYeENpdjNZRHcyeGI1d1JJXzktOV9nWE9XbmU3NWxRZDh3NDNRNVVsNWM2amhyT1pCNHBSY09YZzdiRFZBM1NIVzdKdTZkblRtWjREY2FPaGpYaDROVnJaM3R3N1oyWXF0T3hRZmN5VzczWEI2bHEwcGgxTHlqNGpIR0tjSHN3bFFhVkpnaHRBWDJVRVdKUTBweEozYTkzX1lWR01pem5YZmo3Rk5YcVRuQk1FYmFTb1VFRnJwTG56UEFpeGRBMA",
     "https://www.sherdog.com/news/news/Charles-Johnson-wants-to-avenge-Brandon-Royval-loss-in-UFC-rematch-202402",
     "https://www.sherdog.com/news/news/DWCS-Week-2-official-after-all-10-fighters-make-weight-202403",
@@ -3312,7 +3311,8 @@
     "CBMiigFBVV95cUxOc05DZ0NaVUFTbUVXb0w4S2hEcXpFcXFlN2pEUzF3MWdaeGZTejQyQzdLcjZjZlN3QURGVGZtSjRxXzRVZWNLZ0ZqclIwZlFteElONTM3a3VkZTY5M1JHUEN3N0FZRDg3QVh5eXo4LWkwUW1IWjVuRlN6bEIzTHhYdnhqbzh4U1dkc1E",
     "CBMi2wFBVV95cUxPaWxJOUpYSTZualZJZ0taMHJSdkFjMk9QZnh3SWFWMDFhMFZ3enpicnBqZmtjd08zRWVhS2N1VnZFUDBobGR0Q0pVY2pYYjBXMW0ydThka1lPMzc0Wmc3ZHFSYzlTMGdKa19rcWE4Y2w5NU9faHMwbFp3VVZEbUE3V19oc0xJaWUxX3NnTktPdjNXSzgtcHNZOGdWN1ZLRHFWUUlVUEl4cUlJbHJKdk80MVZiZVp4V1lzbWRLNHFlYnVpZnJFcTlmOE5qQUs2RGlONFdLU0J3UjJoWW8",
     "CBMipwFBVV95cUxOZHFEVUxRQ0Z1VEMtWm9pQmx6Q3lxNTNpSURwZHMyWC01TVdza0FSYTdHeEhIYWZKT1c5dE5BTjdrS3RLMEFFaUlGSmFBUDdnRk1sNDV2TmdydUt1N1R1aHJ2QXBYcklGNXVyVEkxeE5oZnRwSllxTGVROGoza2Y3bEUwc05FTzdXZi1HeGZwUUJHV2tpT2pRWklPSElQdUtKdHB5aGdkZw",
-    "cadf6067-d887-367d-a328-f79572122821"
+    "cadf6067-d887-367d-a328-f79572122821",
+    "https://www.sherdog.com/news/news/UFCs-Michael-Page-is-taking-his-unorthodox-style-to-a-new-combat-sport-202448"
   ],
   "daily": {
     "d": "2026-08-20",
