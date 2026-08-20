@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Polymarket Invite Code SBWIRE | Deposit $10, Get $20 Bonus (August 19)",
-      "ts": "2026-08-19T22:10:00+00:00"
-    },
-    {
       "t": "How to Bet the NFL: Tips and Strategy to Placing Smarter Bets! | Early Edge Stream of General Videos",
       "ts": "2026-08-19T22:30:52+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Francesco Nuzzi Joins UFC, Faces Xiao Long in Short Notice Addition to UFC Shanghai",
       "ts": "2026-08-20T00:38:45+00:00"
+    },
+    {
+      "t": "Letting you in based on your favourite UFC fighter",
+      "ts": "2026-08-20T00:22:02+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White explains why he offered UFC contract to DWCS 88 loser https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/dana-white-contender-seri…",
-      "url": "https://nitter.net/MMAJunkie/status/2090072888594346057#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T13:46:22+00:00"
-    },
     {
       "title": "Alex Pereira’s UFC legend coach advises ‘great guy’ Herb Dean to take a break from refereeing",
       "url": "https://bloodyelbow.com/2026/08/19/alex-pereiras-ufc-legend-coach-advises-great-guy-herb-dean-to-take-a-break-from-refereeing/",
@@ -2105,6 +2098,13 @@
       "source": "Cageside Press",
       "cat": "ufc",
       "ts": "2026-08-20T00:38:45+00:00"
+    },
+    {
+      "title": "Letting you in based on your favourite UFC fighter",
+      "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFByV2tVMWhwcTlLTWVKNkNaSXFjRmRDWlN3VjdQOE91VGkyR1lLZ3gyYXJCSS1nR0pITEpN?oc=5",
+      "source": "t.co",
+      "cat": "ufc",
+      "ts": "2026-08-20T00:22:02+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMisgFBVV95cUxPb3ZWS2RRemZKR1dfQmUzOXhidGNZc3JybS0xX2Uya2tWRUs5UTBsVGlKX0hxY0lqNVVob1RfMG1ON25PeVI5dVdYalNlZVhuWTRRc3J3UWN1QkVGSmJxS0pjUUxCdWtqUzNtNUVVYkRHSmRlUG9ucjFnTkl6UF9KVU5HMGxWZmo4NTJWSnB6b3FmQnJkVTN3WlJMcUtWZjVGeWk4ZEhzTVhjR1ZTRFNmLUtn",
     "CBMiW0FVX3lxTFBpX21XRzhhS1UybWQ4QjN6S1lVTUFRTnBYckRoNFczb1VsV0dyNktYQnBOdTR3Snh6NU5CWmNPQk9LQkVwUlNzMXB3THhKYTJfWkNjRklmNllzNkk",
     "CBMiW0FVX3lxTE0wMjJkUWgxQlJ1ZDFwUmRWZXI3SlhZTzc2SXY5VktjeEJ5cHdrV0VuRTBXdXd5Zk1DYl9QUTNmUGlFV1ZVRXdtdmh1bnpiTzZHTmJwdXNXVXBsbHM",
     "CBMi9AFBVV95cUxOZkNJRzdsQW5Oal9ETllSM3JBckhDOW9PNWRpcnl4Uy10MUwwYTByMWVGZ0VpMVkyZnI2eXhIUFItMHpad1R1RHUzUnBybjljOUliMmZmQ0UxdlAxdndRUDlLdEZIdjI3Q0VzdHVYcnJJQnpYSVg3SWRuSGlnMXkwdWZKbnpNN19JbHF3UHZocEJXaENOT3hERTQ1dmRzeXBlTGhXendNM1BhUERJTHFtY2txbXViY0VXWnYtNENIVDhSYlN5bmNMSjRjWkd0bTl6Rm1QbEw0dEhlc2RLQUxFSmxDcTdqbW54ZV9CUU1Pb0RXT3JL0gH6AUFVX3lxTE92Ujk1dFZfWlZEd3dVdDFHbTdHUTd2U1ZCbTd3Mi1xbWtlQVJzc3ZZM25oTDBoN1VreVNOLTF1aVN1dk1Yd0hMdDgwZTFBRmFCUWJKTS1WUDFhM2M1ZlNCUmZjMDdQcmVWZTFGRFAwb0NhQUR6bURkaHQ4a1czcUU2Q3UwVlNHX3pnS2g5N2RicGg0em04ZWNGNENyclRta2VtMmRnbG1rNHY0QWZqTnQ5Y0NTYkNhNF9ZVGRVY3FJak5Va0YzRWpTU2FkRVlxZHNncjByV0t2cGRST3U3NFF2dVhwSDFTVW5pY2owbC1OdWJ5SFM5b25RM1E",
@@ -3312,11 +3311,12 @@
     "CBMi5wFBVV95cUxNRjhoZG9DVm9KeVRJMWJsVTAyZlVNeC1qcFQwUzU4d2dnanRzMGdta0FvdmZfMHdRTTlJR3NHRkY3RmJKNnlKZlVjNEhKSFpXdDNmblAyc2hDOS1YZDBQQjlkams5eXRSWHpjSERKelJzVkxBZTlJTTViOFRnUWZiN0Q1dGpGa0RwdEZacG8xWnZ3MXVlS3k3UTBib0VJbjFBNFV1N1FmU0hiOW5FNHB1TmlPUGptV3BtaFNBb1EtdnB4M1A0b0YweHlWUElqTlRWc1BNRm9VdjJUZ2VtaGIyemduOUtLcDDSAewBQVVfeXFMUDlIbnFVYkhzODFUblpxa1ZtdGowN0V0a1BCUkk1VklSU3lSZHptTUgzSEY1amtUOWZ2cmk4V3RkVjRsaGJXdXE2b0xBaGRQdUp4V0RvQ2ZyLWFROUs2WHBBcDBzQkgxVWxkSnhQZkNDNEhCTk8tZmhHN0txUk50WlVMajlQV0lEdjdvMmJ0OHJaZVl0dG9tdHpYakZmZkNfbDVSOFF5UjlfWmRWNHhPZWJGaGRPWHg1ZWpiN3ZfZHFULTBfNWRSTnJjZ2FWX3pyeTdLWTlGRkpPU0xUWWQyN29YckhaZk11eWw5ZUI",
     "CBMi1gFBVV95cUxQZmlRRnFMeF9vYW1Sank2ZjdtU0FHYUhRZnFBbEpKS0JVdXZQamRib0RCbk5Dd180VUVoVGxra0pNMFUzUkR2MS05X0RITFBKR0FIcUJIRThVMkFheGtJWW5SbHk4ajZaSU9uSEVHUlIxU0xVU3BxZGw1UFgtYzM4Z3VMaGU2NVhSdGctSlVtWExKbWRZSmVXSzNwQ0FLTHdGZ2gxU3A0TzhRWVJGZTVBS1dtTnZsemthQTZpRXh2U3dkNUdtUHd5Sm1FSFhYdFJqSGlqeHZn",
     "2090235067926986863",
-    "CBMiggFBVV95cUxOVm5tMi1hVE42Um5IWnJEY3p5UVlrVkdBTkt3amRfeXBVODBlWlFLNVk3dXZvaFFfbFR6Wm9XNUhNaEZtUjZHbDlxYm0xQUs5Ny1CTGdNZWJCcTUtMEhsLTlqSEFkYk83OXdPeW9Dd0FCSG91NlptSDR5RUluLXZSSEJR"
+    "CBMiggFBVV95cUxOVm5tMi1hVE42Um5IWnJEY3p5UVlrVkdBTkt3amRfeXBVODBlWlFLNVk3dXZvaFFfbFR6Wm9XNUhNaEZtUjZHbDlxYm0xQUs5Ny1CTGdNZWJCcTUtMEhsLTlqSEFkYk83OXdPeW9Dd0FCSG91NlptSDR5RUluLXZSSEJR",
+    "CBMiO0FVX3lxTFByV2tVMWhwcTlLTWVKNkNaSXFjRmRDWlN3VjdQOE91VGkyR1lLZ3gyYXJCSS1nR0pITEpN"
   ],
   "daily": {
     "d": "2026-08-20",
-    "ai": 15,
+    "ai": 16,
     "staged": 2
   },
   "staged_hist": [
