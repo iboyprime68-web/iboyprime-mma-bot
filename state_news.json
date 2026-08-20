@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=505349",
     "https://www.mmafighting.com/?p=505366",
     "https://www.mmafighting.com/?p=505368",
     "https://www.mmafighting.com/?p=505378",
@@ -819,6 +818,7 @@
     "https://www.mmamania.com/?p=465965",
     "https://www.mmamania.com/?p=465973",
     "https://www.mmamania.com/?p=466019",
+    "https://www.mmamania.com/?p=466028",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Dana White welcomes Khamzat Chimaev's desire to fight soon",
-      "ts": "2026-08-20T07:44:56+00:00"
-    },
     {
       "t": "\"Adding new tools\" - Songchainoi details his refined game plan for Banluelok match at The Inner Circle 27",
       "ts": "2026-08-20T07:45:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Dillon Danis Shrugs Off DWCS Appearance For One Main Reason",
       "ts": "2026-08-20T11:14:28+00:00"
+    },
+    {
+      "t": "Darren Till reveals Lee Browne bar brawl was staged: 'We'll cause a little fuss'",
+      "ts": "2026-08-20T11:02:23+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Kaik Brito was inundated with Namo Fazil fan messages before DWCS knockout https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-dana-white-…",
-      "url": "https://nitter.net/MMAJunkie/status/2090248949571432769#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-20T01:25:59+00:00"
-    },
     {
       "title": "Trent Miller decided to 'send it' with Von Flue choke, hopes to shake bad habit in UFC DWCS https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/…",
       "url": "https://nitter.net/MMAJunkie/status/2090258868714590356#m",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-20T11:14:28+00:00"
+    },
+    {
+      "title": "Darren Till reveals Lee Browne bar brawl was staged: 'We'll cause a little fuss'",
+      "url": "https://www.mmamania.com/boxing/466028/darren-till-reveals-lee-browne-bar-brawl-was-staged-well-cause-a-little-fuss",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-20T11:02:23+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMigAFBVV95cUxOM3VoOUtROVlmVG1YaVAtRlNMeGNENmdMZHNLQUNRUjdneHdHNTZnLWdzVktodGhobXNIWmRpOFFVUkRWRUtNblU5ZWpVUFZOUWJCQi1FSi1YcFJVZWpjWFRqbEVnUm55WG1YM0ZmMGRTN19VS1kxV282U3NwenNfSg",
     "CBMikAFBVV95cUxOZWdVVGxPZXktNXA3cVhucDRVSV9RQTV2MDl3ckxyMWVZVW1FRkZCOUVpUWt4NXJZX2ZQVktJWEQ2alQ0ZWY1bjJXSjRlMng5VGYzdF8tbjd0ajYwSW8wNnc0NFFVSVpZczYweHJWSlU0WUhYVzBTOGR5VTVja2FzaGpJQ19EdW5QLWo1TzE2ZDk",
     "CBMilwFBVV95cUxNZzRveDVFWkRuWTZxdjRxZmY5aS1EVXJodzRRRWRNUGFvN3BVc09xZ2RwU2U4TXI3R1RIRkFjbVY3N09XampuTGFGMnVFbFRrZzlXYmFKUGhkWEdmdnFJb1lMRldRWnlSU0lhek9hS1ZFYktScVBsdnZsdmhpWkZOOVdRVUFDSjlaLXo5bXk5WFk5bnBpN2Iw",
     "CBMiYkFVX3lxTFB5TmQ2OGFjNDlhMkZOTmhBNWlOMVFwLVFtbC1mb2hEV0ZLYVRrLXJMU0ZvMGs1REdDTUJ0Y0hLSkZFdU5ubnZYSXg0VVdCZm1KRXpLWU1GLTkxNExKNWNXTGt3",
@@ -3312,7 +3311,8 @@
     "CBMidEFVX3lxTE5MZEhfWlcyTHBmdkgyN1JWcHFjZ0MtODByaHQ0eURTTkNTTFY2b2JsQ3VpR0w2X2xEYVhmM2dHX1ByNVh4aS0yOE56S2JpVnZBQWVveE9JZlFLNnN1MUZBZnY5Nlhfem1FNXFTU0tNNzlYcjkt",
     "CBMieEFVX3lxTFA1S2djNzh3ZjloLXYxd1k1REZPU0xoZmZ5U01IWDM2cUhPSjNkdVB1NTUta0I3andtd0Y2MTRLbVdidTZGWjE5WV8xcHNsMkFBSm0zV090RU1Tbmx2NE9PbjNpQkctNTAxRlFDdGpYYmY0WEFMSlMxVQ",
     "CBMiqgFBVV95cUxPaDhHMXJnV1YySGhsb1JCWjlpOWxsU2hHd0VCemh4QUV4ZmI4SEx6S1lGMktLQ0NjRk51c1huM0haSUMzRnpvYVRvZnc2dkg2LWlrLTE1TlJSVF9oYWtieU5kQTZCd3lTZHRrT3lLMFJnUjBsNVVTN1lITWp6RkExS002RVBzUlNBZXBHWlhrN3JVSEs0U29mQnNRQlByY3dhbFFvV0hyZUJ3QQ",
-    "CBMixAFBVV95cUxOSUM2SUM2V01MOFBpMHVkOC14d0JMZEVwemZFTEpRNjQybnBvSmhPNERqNDVRMTRwdGdEQTczbGprNXVwVUxjZGtUS2lraEZPN2NZTVN1djI3V3NSUzdnRC0xcmVteXM5QUg3SG9tNUo0ZVFjS0N5ZVd1N3c4UTdMc2Z2R1RYYk9teEdfVlJ0eFppaDdpLXA2bE5ZWVJGbTZGLXB6TnVXWVZaUTFqVWJrYmRLYy14SGhiVEVGQzVtYXVDME1O"
+    "CBMixAFBVV95cUxOSUM2SUM2V01MOFBpMHVkOC14d0JMZEVwemZFTEpRNjQybnBvSmhPNERqNDVRMTRwdGdEQTczbGprNXVwVUxjZGtUS2lraEZPN2NZTVN1djI3V3NSUzdnRC0xcmVteXM5QUg3SG9tNUo0ZVFjS0N5ZVd1N3c4UTdMc2Z2R1RYYk9teEdfVlJ0eFppaDdpLXA2bE5ZWVJGbTZGLXB6TnVXWVZaUTFqVWJrYmRLYy14SGhiVEVGQzVtYXVDME1O",
+    "https://www.mmamania.com/?p=466028"
   ],
   "daily": {
     "d": "2026-08-20",
