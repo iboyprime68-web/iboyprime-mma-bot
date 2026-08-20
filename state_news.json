@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Yair Rodriguez pulls out of Noche UFC main event as new opponent revealed for Jean Silva",
-      "ts": "2026-08-19T20:49:30+00:00"
-    },
-    {
       "t": "Islam Makhachev’s greatness questioned by UFC legend who makes argument for Ilia Topuria comparison",
       "ts": "2026-08-20T02:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC newcomer Cristian Perez glad to make Mexico proud, ready for Noche UFC",
       "ts": "2026-08-20T13:40:00+00:00"
+    },
+    {
+      "t": "Stakes high for top-10 middleweight class in UFC Sacramento main event",
+      "ts": "2026-08-20T13:44:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "USA TODAY Sports/MMA Junkie rankings, Aug. 18: Mackenzie Dern new No. 1",
-      "url": "https://sports.yahoo.com/articles/usa-today-sports-mma-junkie-150856896.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T15:08:56+00:00"
-    },
     {
       "title": "UFC Hall of Famer: Ian Machado Garry's friendliness 'a sign of weakness'",
       "url": "https://sports.yahoo.com/articles/ufc-hall-famer-ian-machado-152027114.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie",
       "cat": "ufc",
       "ts": "2026-08-20T13:40:00+00:00"
+    },
+    {
+      "title": "Stakes high for top-10 middleweight class in UFC Sacramento main event",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbVQyemtIX18ybGIzbGNIVERnN2xxYjQ1dEpJT0VtTUUtZWVGLW90M1N4STBfbnVic0xKMDVLOHlLRnZRYkdLSDRHOEdsc0RFa1JJeUVoZkZqU3Q0MldybDdvZDlpS2xndEtobEZNb3NkOFJPZWhKMG9CV25lVUx6MmY1VEtJcTlXU0JDcUhzRXhxcFFpdFBqbTRzcm82Xy1tVTRDY05oaHlNYTFF?oc=5",
+      "source": "Sportsnet.ca",
+      "cat": "ufc",
+      "ts": "2026-08-20T13:44:00+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiyAFBVV95cUxNTXJrYkFJWjVRaU1wY09WNXIwZUlSTDM2OFNHV2daZGtSUTZ6TTJhUnl5RVhmTFRud1FWNERkdjFlU1F4Yl9yQi1ndTlLeVdVU2hOVzRBQU16WkJscHNRY3gwSDJEeFlYNlFhZGZvbWQyUk9aWFEtLWdNdmxvUWJVaU9HbHRtbzItR0dRRzJ6WDlKbTU5ZEpKN2VmeHZGM2VRSjZBenhudjRmV0ZGRTc2QklFbDRsY3Y5bm53RnFscEF5ZllJbWpjMA",
     "CBMivwFBVV95cUxQMHp4dlBGVW1VRWRULUJhRWF5dGd3YmNWSXJtTldITDhUUi1JWTVUbXljSlpWMFB4ZnF4T2RjNTdlWV9xUzJ5US1tUF90dmpvNW5uN2FtRG5JTWtMMGNsRFBVcjQ1VXI3aTh2RnZ5cUlGeHpvYmppbXVFdXlVUnVvRjYzZTc3X2hiMGFJdDZKYkdjRU1nSWk5UVZsOUFsbEpzVDdITHFKQVNjN1Z0MTFqREI3Tkc5MjdGT2dDOE01WQ",
     "CBMiiwFBVV95cUxOZzN0TUFmVnJ3eWc3RDhEdWlvQVFaemFQdG9iTVlfQTJfQWljY1l3WFFmeG9pRW11dVRtRHBkOG55di05SzBWNTh5b0M5d0lTamxod1I3OHprUXlFdFZoTzg1VENpcW9SQjVXZ2ZMZFpoZnZUQ3VDOFV5aHdXTzBqMzVrUnZmR01rTVdN",
     "CBMivAFBVV95cUxNU2RZUHlWV0ZjRHpGazJsUTRmWkU1SU5RQ3VtWEN5QWtWMmM4MVB1Y3g4Z2xqcWpWN1o0eERHMUtNMExjVU11YV9sVGRhLXlabGJKcTFreFM4MW00YW55UHg1MG9XdGZjQjlVQjhIUU5pWTdwTk05RVNfcF8wYU0walJnQk8zUzNsZkxJVFFlcVFHZFJDSkpPaktJVGQ4YW5MYWVid2NkRzF4M1RBX2Q3bjlSUDR2d2RWNHVHdw",
@@ -3312,7 +3311,8 @@
     "CBMidEFVX3lxTE9lMkhDWVlLTlhfaUhsT0RYMU56NklhZXJjcWxRRWhmR2dUdHFSM0R4OUZMRnhzMk1pTGlVN2lVejZZd3BKRllJakZiUFpUVWpROThXSnhFeVgtT2FZOGl2cjZNY3JuZU55d0FJU2ZyUW5QNXVQ",
     "CBMizwFBVV95cUxOQTU1cEFkZmxsOXA1R3ZqRzFITWpTdHJSVjRRUnJBTW1YZHItdmh5MXdzRlU3NnpjZnY0dlNldEo0NHJNZjZVWkI5UElvd2owZV9nTW0tbHQ3R1ZBckhvU3JTWGxTSE1FdC1KNTlTbU9wdkM3aERHNjdMMTdoRGZNbTNXd1RlR1p5aHBkV3lrcWY5cTVmUWMtSlNkeXRIanU1UlRLYW5XaXhtc3JzTXZlYTFwOTVoYlBkTk45S1l0UDAtdlRrdFhLNW5TVEowWUU",
     "CBMiqwFBVV95cUxNV2RrT213WElaQWJQN0lYZ1pMRnFJVkx0RXc1bmNyQnNPQldMc0tOUFphaGJIMzM3N1RvOTNzMGxfM0JsLTZ0Ym1meXdac2xaUUNsRmpNZ3RTTFBLckt2aDMwZEhyWEZvRThPVXRJaGZJdWdEWGVxZlpkY1dmeENFZExkejB5b3ZiM3cwX29TT1JqVHVTUVRTdEtkVFluRXlxWFUzQ1dVbHROckU",
-    "CBMi2AFBVV95cUxOWEhFdlVfTFRaNWo2dFkwYW0xZ2MxbHc4MS01bHIwOTNPbnk5aVo3VXNoODBLeEhOZV93dDdROWtqMklDMDVCT3pYeUszRUJ0aXlVUXdUeF9kMUppVDhTRWVabUFoVVl1empyN0NyZVhrWE9aQ1lzUWFtcW1qeVRqS0lrSnhQdkg4ZEF6NWlOSGEtRUN3NmdQdF9jX3VjTWQ0VFVMYUJwN1hiaTB4V045aktVdnpiY3lVeDRxWE1GVWhPY3M5UzhibTFmMEhUUUdkYW9icGRQTzU"
+    "CBMi2AFBVV95cUxOWEhFdlVfTFRaNWo2dFkwYW0xZ2MxbHc4MS01bHIwOTNPbnk5aVo3VXNoODBLeEhOZV93dDdROWtqMklDMDVCT3pYeUszRUJ0aXlVUXdUeF9kMUppVDhTRWVabUFoVVl1empyN0NyZVhrWE9aQ1lzUWFtcW1qeVRqS0lrSnhQdkg4ZEF6NWlOSGEtRUN3NmdQdF9jX3VjTWQ0VFVMYUJwN1hiaTB4V045aktVdnpiY3lVeDRxWE1GVWhPY3M5UzhibTFmMEhUUUdkYW9icGRQTzU",
+    "CBMirAFBVV95cUxQbVQyemtIX18ybGIzbGNIVERnN2xxYjQ1dEpJT0VtTUUtZWVGLW90M1N4STBfbnVic0xKMDVLOHlLRnZRYkdLSDRHOEdsc0RFa1JJeUVoZkZqU3Q0MldybDdvZDlpS2xndEtobEZNb3NkOFJPZWhKMG9CV25lVUx6MmY1VEtJcTlXU0JDcUhzRXhxcFFpdFBqbTRzcm82Xy1tVTRDY05oaHlNYTFF"
   ],
   "daily": {
     "d": "2026-08-20",
