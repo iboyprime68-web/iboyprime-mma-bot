@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC 330 Slow Motion Highlights",
-      "ts": "2026-08-20T04:51:34+00:00"
-    },
-    {
-      "t": "Alex Pereira’s second heavyweight fight picked by Glover Teixeira after title loss to Ciryl Gane",
-      "ts": "2026-08-20T05:00:00+00:00"
-    },
-    {
       "t": "Sean Brady admits he broke down crying after first-career loss to Belal Muhammad",
       "ts": "2026-08-20T12:50:16+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Yana Santos Gets Luana Santos Reported UFC Fight Night 292 Booking After Contract Tease",
       "ts": "2026-08-20T17:15:56+00:00"
+    },
+    {
+      "t": "Sean Brady Reveals Update on Rakhmonov’s Knee Issues",
+      "ts": "2026-08-20T17:19:52+00:00"
+    },
+    {
+      "t": "Darren Till Reveals Truth Behind Lee Browne Clash!",
+      "ts": "2026-08-20T17:19:55+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev’s greatness questioned by UFC legend who makes argument for Ilia Topuria comparison",
-      "url": "https://bloodyelbow.com/2026/08/19/islam-makhachevs-greatness-questioned-by-ufc-legend-who-makes-argument-for-ilia-topuria-comparison/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-20T02:00:00+00:00"
-    },
-    {
-      "title": "Morning Report &124; Namo Fazil claims he was accosted by ‘15 Chechens’ before Contender Series loss",
-      "url": "https://www.mmafighting.com/ufc/505886/morning-report-namo-fazil-claims-he-was-accosted-by-15-chechens-before-contender-series-loss",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-20T02:48:56+00:00"
-    },
     {
       "title": "Kayla Harrison has now lost her biggest advantage over Amanda Nunes according to Cris Cyborg",
       "url": "https://bloodyelbow.com/2026/08/19/kayla-harrison-has-now-lost-her-biggest-advantage-over-amanda-nunes-according-to-cris-cyborg/",
@@ -2105,6 +2091,20 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-20T17:15:56+00:00"
+    },
+    {
+      "title": "Sean Brady Reveals Update on Rakhmonov’s Knee Issues",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFZ6M29raTJqdG01bGIweEZTWGpsRllIdDBiR2VWVEh2UW9UMDlNcGYzNlZCdkFvc0NFdk1HNE51V2RheTlqZ2lxTi1VYnU1Z2lybzd6Tk9Wd2IxZ0JMVlVheU5LNmJFOC13NnQ1Ny0tMWU1eXZaSWJtam1xczJ2MFpyM29QZ0hVMzhRb3dKWWJMTTZndThjZXBGWU56WjRNbU9rZXlnODUxTEZkb19ObTJRUjJOQQ?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-20T17:19:52+00:00"
+    },
+    {
+      "title": "Darren Till Reveals Truth Behind Lee Browne Clash!",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMmdMWGVNWUp4dEdDZEstWmVQMGtxR2FabEZwS0lveGxfVkYySm5ObVl5aXdZOFY5Snc2Q2FheWIzeVp1STVWaGt3bmRYOUxCN2EtWUEtSVpwVW5kUVBkdFFmQXZxYmJ1OUJVX3lHcExyMmk5eVRhOHF3bDVRbF80cktVRThqZ0swOVlGS09iYVhzVXV0MEVzUGRDcmFHNlZoQmY0WGMwWmVtaHZIb2lR?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-20T17:19:55+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,8 +2113,6 @@
     10
   ],
   "yt_eval": [
-    "CBMiY0FVX3lxTE1jQVA3c0hrbmpWNlNBeXZtT3pIbGZMenFvMHJsWWJrU200cGpBc282QkVpMVpXSHZ4clVkNkNQNGtfVGZLeVBuWWZiT3hUWkNYbll2aGE2YUhrLURNX2dUeVJGYw",
-    "CBMitwFBVV95cUxOV295TTdORzFhQnlXcVBEMUJJejVaVzNtdXR4a1RfRWVLTzYwU0hHMVFrRnZpZ2pCNHE4VU9ReTMyLTcxWHpoWVlVRkpYaHIxNjI1cmg4SGZqVnlhNEd6Z1RGdUU2MjJ2Z1VKUkd2VFhOXzJBOWJ6VUVnYW9BTVNSektMTXBoMXE3TnIwZFBGVUJLVFJETkFhSnBWQXNLeVNocnd3Smw0bzRQb3I0ZTA0QU9GTkw4SFk",
     "84d0dc5e-f430-3f0b-9204-8fb6c987dd70",
     "2089751931447377979",
     "CBMiqAFBVV95cUxOTkt6NVlGRGpabjYzdHE4RGJIOFNKdU0yekRZdEhiWmVZaGYzTVdjNklfZFB6RFlJVDh4VmNCc2VlWUVsQTh3LTFPem0xeFZWVk94N3NwNWtHWkpvVG9lMnA4MWJHd3pOc2dMRFEtZGxGcE5NeC1ZMldSMFRJcWZubEpKbUFxSlZILW9DYWF6TGdnWFAxQVhuWS1mU0x0TFEwZUNNR0xtM3I",
@@ -3312,7 +3310,9 @@
     "CBMitAFBVV95cUxPbW1fM3JaY051V2dmWHNXNVBtSVVJcG50VndoLWJFdHFPT1ZjbWhNSzRRZnJJSWpvUk1oRXRlb3lkUkJiUEYwRFY0ajQ3ZWtyaWc2dmd5MGlUYk82VndNRlRLdmlGdldnYjhYV2lsSldyTDBLSDNIWThBSWtFRVZKclFxZnZPOUFOR01jMFdZUHN6eUFWOEtVR1FGOUR1aFdEelZvaGIzOVpCOUtyS1FZd2hQdEQ",
     "2090455064397881738",
     "CBMiugFBVV95cUxPaUtBNTJpTXJuRkVXYjUyTGpvS0pFb29Wb0tURWJYV1gwRnNNQ2dYQXprUWhNWWlqZ282ZVE4VlZkMnJqUHZ6aGxoMy1udlB0UzYtTTkyWlUtQXg5UGlSWEpVTzZ1SkVvVUFHUWFFMHE2aDdmYVB0SXZnUmVwMkVyQjUwVUVfV1VYdVVfYkVsakt4X21Hc0ozalYzOVRxMkRydVV5UmR0S3RKTFp3V1lsR01KYUhHOGxvdmc",
-    "CBMijwFBVV95cUxNQ0U0ZlRFZzduN3h6RTFnajlDbWFaNU9JeV9mWWo0cHZpN3pSbHc3dVotZDN1WEwyVUlDUjEwQl9fRTNKRmlpVk12bEMtWUlXMHNVMzJiUDFDWmJkSVVDRktBc1FTZkZCM3kwRWdEZzhHbERUMFRubE1obFpjMXhmTzN6NXdidkcyUV9NVUtGWQ"
+    "CBMijwFBVV95cUxNQ0U0ZlRFZzduN3h6RTFnajlDbWFaNU9JeV9mWWo0cHZpN3pSbHc3dVotZDN1WEwyVUlDUjEwQl9fRTNKRmlpVk12bEMtWUlXMHNVMzJiUDFDWmJkSVVDRktBc1FTZkZCM3kwRWdEZzhHbERUMFRubE1obFpjMXhmTzN6NXdidkcyUV9NVUtGWQ",
+    "CBMitgFBVV95cUxNdFZ6M29raTJqdG01bGIweEZTWGpsRllIdDBiR2VWVEh2UW9UMDlNcGYzNlZCdkFvc0NFdk1HNE51V2RheTlqZ2lxTi1VYnU1Z2lybzd6Tk9Wd2IxZ0JMVlVheU5LNmJFOC13NnQ1Ny0tMWU1eXZaSWJtam1xczJ2MFpyM29QZ0hVMzhRb3dKWWJMTTZndThjZXBGWU56WjRNbU9rZXlnODUxTEZkb19ObTJRUjJOQQ",
+    "CBMirwFBVV95cUxOMmdMWGVNWUp4dEdDZEstWmVQMGtxR2FabEZwS0lveGxfVkYySm5ObVl5aXdZOFY5Snc2Q2FheWIzeVp1STVWaGt3bmRYOUxCN2EtWUEtSVpwVW5kUVBkdFFmQXZxYmJ1OUJVX3lHcExyMmk5eVRhOHF3bDVRbF80cktVRThqZ0swOVlGS09iYVhzVXV0MEVzUGRDcmFHNlZoQmY0WGMwWmVtaHZIb2lR"
   ],
   "daily": {
     "d": "2026-08-20",
