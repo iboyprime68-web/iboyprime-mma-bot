@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Usman Nurmagomedov Wanted to Turn Back Clock at UFC 330",
-      "ts": "2026-08-19T23:24:04+00:00"
-    },
-    {
       "t": "UFC, WWE & PBR coming to Arizona, Ketel Marte & the D-backs | FOX 10 Sports Exchange",
       "ts": "2026-08-19T23:24:18+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Trent Miller decided to 'send it' with Von Flue choke, hopes to shake bad habit in UFC #DWCS https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/…",
       "ts": "2026-08-20T02:05:24+00:00"
+    },
+    {
+      "t": "\"He'd have to lose like 75 pounds\" - Joe Rogan could not get over imagining a prime Shaquille O'Neal in UFC",
+      "ts": "2026-08-19T23:04:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White's Contender Series 88: Grading the winners",
-      "url": "https://sports.yahoo.com/articles/dana-whites-contender-series-88-125022934.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T12:50:22+00:00"
-    },
     {
       "title": "Dana White explains why he offered UFC contract to DWCS 88 loser",
       "url": "https://sports.yahoo.com/articles/dana-white-explains-why-offered-134036264.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie on X",
       "cat": "ufc",
       "ts": "2026-08-20T02:05:24+00:00"
+    },
+    {
+      "title": "\"He'd have to lose like 75 pounds\" - Joe Rogan could not get over imagining a prime Shaquille O'Neal in UFC",
+      "url": "https://sports.yahoo.com/articles/hed-lose-75-pounds-joe-230400463.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-19T23:04:00+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMihAFBVV95cUxQLUlmVHBaYkpXczNvUzcwZ3RNM3hqaHg1Sm1mdTJLejhYVnVFZlZpNTd2RnFKRFpkTmdvbnBVdGpmZ3ZVNUVwNW5LaTVoUzAzcnVaNDl0T0ViZUNjS3cxMFlyN01VY0RFNlJ1UDVHU2VfX19hTDRWeGtObWNCOGxRdHZBQlg",
     "https://bloodyelbow.com/?p=327507",
     "CBMi1wFBVV95cUxQaVN3Qng5RllnRWpYQ3pGaWFWSzJFTVdsSFpDV0NNTDIzTWdpQVpSMVZfZHlCYk9tLUFiWUFCdmZyMmFEUEtCb0ZrY016NWNXT1JxTzRCQ0tudjRNUmR1aEhQaFVldllXd3ZwNW9RRDBrWkxodXRjWUs4dmV6MmhpVTk0QnA0dmU3WENpcWxuakF4WTh0U3V6djdfZjlaSkU3dTF1YVNVc1VDekk5VXZKREZnYU4tSVMtWUNITjNzLS13eGF4bFg4TkhqUUV0dm9uaUNvdjFZTQ",
     "CBMilgFBVV95cUxPV2tlcVhLcUNzRXYyYnBUNFFuU0JUNEVma2g4dkliMVZ0dlgyZVp6R2dMQ3RKZmFaZmdBTmZXbWd3WTN3RFBSMjV1ZTdCdjFwWE0wS1ZCX1NlUlpPZDhWUm5KT2ZUVWpVdEdUSzRhbnlfY0NsaWlKZFAzX3lrWkVDNm1YdXBLWTkzejFZeXBwNVh3NHZ2OUE",
@@ -3312,11 +3311,12 @@
     "CBMi5gFBVV95cUxPNGxrLXpoaU8zeTBsblE3Um5kYVM5UjF6MFZBZ28xZDlSbFNpNnpKTXZnY1pWQmdpbWtvWVVOR1QzVFRyVlNGRGpPLVN5cENCbm8yZDNwbWpmVklkSnpKRzZlNEhYRG80MUJrZXRVWnJUeU1wcERVU2kwZHBPeTVzeHRDNldyaXUxekRlMmdjNzFET3A0SGg2cUdlR0I5Zml0eU8xc0xwa2pRNXg0RVhqbmEybm9qS2xKLWRkdGFHYksyLS1LeXEyanc5R1ZfamZmOGxZRzhSVEY1dTU2cW9MS2NyV3pjdw",
     "CBMif0FVX3lxTE5oQjlDb3lxajl6LUhIaE1TRzNKUGxFS0FLNkpVZk4zcEk0QmxPZklkaDNRYk1oQ0xSbm8yMWUzTUxtNkcyOFpvb29Hd092UzVLdTlicHBpVlhrZmMxY0JGT2RCV281d2F5V1ZwUG9sazd4MUx3a3YtUWlfZnR3bFE",
     "CBMixAFBVV95cUxQY2o3TUp6Q0VVYnFVUG5Ua2tmcXFBSVNTaUdNbm1HbjVnNGRZUW1LM2xOZWc5S1RCTFZvanI1QW9haUtab2pVbzFjVkN2dkxvRWxoLXFCeVJEMDBJS3FnMEpRQXNvWmI0cHcyaHhsQklPWDVFUDdXbTU1T0RiaXdXNGJ5ZVpDekwwMEZTUkF3Q1FhaWpCenkyaFQxR0lRb3BXLU9MaGNzTF9rcEhIdlp4UG1TVFh3a1U1SVdob2F5a3FWUUtt",
-    "2090258868714590356"
+    "2090258868714590356",
+    "a088766e-e8f1-3449-a2ba-183545a396c7"
   ],
   "daily": {
     "d": "2026-08-20",
-    "ai": 46,
+    "ai": 47,
     "staged": 2
   },
   "staged_hist": [
