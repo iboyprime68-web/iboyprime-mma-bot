@@ -1,7 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=504987",
-    "https://www.mmafighting.com/?p=505006",
     "https://www.mmafighting.com/?p=505029",
     "https://www.mmafighting.com/?p=505081",
     "https://www.mmafighting.com/?p=505133",
@@ -246,6 +244,7 @@
     "https://www.mmamania.com/465353/open-thread-august-15-2026-danny-go-at-iykyk",
     "https://www.mmamania.com/465495/open-thread-august-16-2026-what-are-your-music-guilty-pleasures",
     "https://www.mmamania.com/465496/the-mania-mailbag-august-10-get-your-questions-in-now",
+    "https://www.mmamania.com/465516/ufc-vegas-120-best-betting-props-parlays-and-picks-gamrot-vs-salkilld",
     "https://www.mmamania.com/465650/mm-clone",
     "https://www.mmamania.com/465761/ufc-vegas-120-main-card-odds-breakdowns-and-predictions-x-factor",
     "https://www.mmamania.com/465772/ufc-contender-series-results-live-coverage-and-full-fight-highlights-season-10-ep-1",
@@ -904,6 +903,7 @@
     "https://www.sherdog.com/news/news/Cristian-Perez-explains-gameplan-change-that-earned-UFC-contract-202421",
     "https://www.sherdog.com/news/news/DWCS-2026-Week-1-WeighIn-results-5-fights-set-202294",
     "https://www.sherdog.com/news/news/DWCS-Week-2-official-after-all-10-fighters-make-weight-202403",
+    "https://www.sherdog.com/news/news/DWCS-fighter-claims-15-men-stormed-hotel-room-before-brutal-KO-loss-202435",
     "https://www.sherdog.com/news/news/Dakota-Ditcheva-breaks-both-hands-in-PFL-New-York-win-202280",
     "https://www.sherdog.com/news/news/Dana-White-Craig-Borsari-working-on-next-unique-UFC-venue-202329",
     "https://www.sherdog.com/news/news/Dana-White-Tom-Aspinall-would-have-fought-at-White-House-if-healthy-201479",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Edson Barboza Reveals Serious Eye Injury Led to UFC Retirement",
-      "ts": "2026-08-19T20:35:10+00:00"
-    },
     {
       "t": "Michael Bisping Criticizes Ian Machado Garry’s Attitude at UFC 330",
       "ts": "2026-08-19T20:45:01+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC White House Post Fight Press Conference (FULL) Chris Weidman (elDT21Q0J8)",
       "ts": "2026-08-20T02:28:01+00:00"
+    },
+    {
+      "t": "DWCS fighter claims 15 men stormed hotel room before brutal KO loss",
+      "ts": "2026-08-20T02:40:27+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "IT DOESN'T GET MUCH BETTER THAN THIS 👊 Kaik Brito ends DWCS Week 2 with a VICIOUS RD3 knockout!",
-      "url": "https://nitter.net/ufc/status/2089890327058600166#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T01:40:56+00:00"
-    },
     {
       "title": "‘Professional question avoider’… Dana White faces backlash for response to Khamzat Chimaev’s message",
       "url": "https://bloodyelbow.com/2026/08/19/professional-question-avoider-dana-white-faces-backlash-for-response-to-khamzat-chimaevs-message/",
@@ -2105,6 +2098,13 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-20T02:28:01+00:00"
+    },
+    {
+      "title": "DWCS fighter claims 15 men stormed hotel room before brutal KO loss",
+      "url": "https://www.sherdog.com/news/news/DWCS-fighter-claims-15-men-stormed-hotel-room-before-brutal-KO-loss-202435",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-20T02:40:27+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMizgFBVV95cUxNa3p5cVBGT3RaN0FZVi12NFdQQy14aDdxTC0ybmNERzI3ZGpNRHE5VEhXZWE4WFVfR21XYm1aa3dwbm5qckEwbloyXzV2ejFmSDBRRGs1MTd1djN3MEtnWXp0X2YwbEVNLXVybzA1eDZ2U3Qxdk1jdXVBU2tUZW5zTFdNM1B0MFpuOWRlQUNNY09Bc0I2ZmlkazV3aE4wQ25MaHpJR3ZkQ05qWDhRWGdZOWNJb2RHeTZtWXR4cS1PdjNaUkhaYmEyQnFYV0FsUQ",
     "CBMijgFBVV95cUxNcXhIbDZ1dEVhM0ExYnBwRS1MVVdLeFdyc2ctekM4dFhiSTJBNTBQZkRhZHBFZDR4MkVtbzJnS3B3RTFHZ1lWY18wOTBiSktxc3EyaFc5S3VpTFlKVGtiY05nSVNqVUtoUU8xQnpzejRnTmEzampwTnFwRFI1U3hSSDVTLXY1ajhTYXp4aDVR",
     "CBMijgFBVV95cUxOUkF0aTZXWGNBczB1eDgtMU5HSDhLakt1Y2I1Z1hpY0llTnlTdDNNUlJpcTZMSzViWVl2MXdLTzR4WE9YeGp2YUEtaWZKVUlQU3FlYmNtVElwcXpsTUtaUnp6WTVDLWFaeWxoRFA2c3djNU5Fa2Y4T0FxdTBKTEFWR3FBN3VUY1dLR3FIcnFn",
     "CBMirgFBVV95cUxQRGFkZ3RxRnllakl3bE1MNFBpWVFFb1UtQXRTYmJUdXZYVmthS2xRUXlZV1hJOWExRHhEQ1lvR2lFbVpoWUV2V01VNzNhSE9ncVQzRERBY2JCU2hGZnBwS0lLRkVNQlpYR0JSd0lYVnhiVGVLZEJpcjFZVEI5YWdObjNYZXpTWFFWNm9iemo1ckd5RXRtWFJET3J3NDlwaTFuQUU0WWljQ0dkUVFYekHSAbMBQVVfeXFMT2VJRmExeGxkRThQaFZ3OVdXSHRONkVzX1ZpTnhKTHRlbjgydTZha0wxam40bG5sVkJjSjh2cDVBcGlLV2haTW8yc2NQaTg4RTBWNEt0VXZsNXZLLTBMY0hPT2R1d2prRHpvczBXS0swYlJOWk10T083R3RpT0tTSVFtZ2luUWlmM0VyX084VXVINWExc3lORHU4UERUUDJYRUFoYzc1alF4ODU3Y2gwdnRrWGc",
@@ -3312,11 +3311,12 @@
     "CBMiggFBVV95cUxNLUV3VC1SM1RVZDhsemtnMU51U090R0V1czRNU3d3ZVlxcFNJTzFOWW1PRTVKRUFVLXdMckpueVB6ek9ZazlKVlMwX2pKbUlCOG05N1pHVU9tVjR5Vy04RkhoM3dmVU8wUWQ4V1lBcVNNWDBQclQzc04wNGNHZTJZZU9R",
     "CBMiXkFVX3lxTFBoN2h2d0t2Ml9tNUo3UVdOc3JFbk0xOHAyczd6c29xZzd5MlFDM05aRlhHTFpocUlNNjVpbGtMZ1hVOHNnS2E0cExXczY5NzMzTU1XSWJmTFFNRi1yWWc",
     "CBMipgFBVV95cUxNSHJqa2FmZktZUmhQb3NYRGliQzlySS0tdWotQlNUaC1adll5LUt3TzZ4MDJ5VUhsQ1JGdHNqb3Z4d2QtT0tHeDl6VmFvckNIXzFzbXU4NnpRODlCYUdyck40VUlpbFM2Zmp5b1JDejhyYjNNVGpPOWt4SXZvSi04OXVycjFlZzh0ZHpnU0xTZWdoMmlPNjNPNHdfRVF5Rnh6Zk9GS3N3",
-    "CBMiW0FVX3lxTE14Q0sxYktTeUh4a2gtTXZxZmQxZTk5T3BWaTEyYkhwbTFWMWpRNElaZGpOQTN5QlF6ZlFUYkVxQ1Jrc05OaEZlVzFZSGJ1VzA1a3ViV05UMU4yR00"
+    "CBMiW0FVX3lxTE14Q0sxYktTeUh4a2gtTXZxZmQxZTk5T3BWaTEyYkhwbTFWMWpRNElaZGpOQTN5QlF6ZlFUYkVxQ1Jrc05OaEZlVzFZSGJ1VzA1a3ViV05UMU4yR00",
+    "https://www.sherdog.com/news/news/DWCS-fighter-claims-15-men-stormed-hotel-room-before-brutal-KO-loss-202435"
   ],
   "daily": {
     "d": "2026-08-20",
-    "ai": 70,
+    "ai": 71,
     "staged": 5
   },
   "staged_hist": [
