@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "With Yair Rodriguez out, #NocheUFC has a new main event! 🇲🇽👀",
-      "ts": "2026-08-20T03:33:07+00:00"
-    },
-    {
       "t": "UFC Fight Night: Anthony Hernandez vs. Gregory Rodrigues Date, Time, How to Watch",
       "ts": "2026-08-20T03:39:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Spivac vs Petrino: Heavyweight Co-Main Event Preview Stream of UFC",
       "ts": "2026-08-20T04:51:17+00:00"
+    },
+    {
+      "t": "Ketlen Vieira highlights Ronda Rousey as her dream fight",
+      "ts": "2026-08-20T05:19:28+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "\"Make it make sense\" - Jon Jones takes shots at Islam Makhachev's GOAT status after UFC 330",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPN2QzbEVhbWZlVS1iYVFHZGFmR3VnamFGVkNWVmhSZ2FYTGlsMEp5c1cxZ0NhMWNMcVEzelNNZk44RkQ5QmdYZGZ4TlBtdWZmUHB6TWlFYzhuWGptN042OGxtUkItNTE3OHJzX1dDaXVZamdmYkcxaW9Zc1lRamhrdEtHNG9vUXhrcks3VVJVajZ3Ymw4TVp3WW9NaVBpWUZnbUFDV2JhV1J6V0lYbTVoNEZB?oc=5",
-      "source": "Sportskeeda",
-      "cat": "ufc",
-      "ts": "2026-08-20T03:59:00+00:00"
-    },
     {
       "title": "State Farm College Football Today Live Stream of NCAA Football",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42ZzBWRzM2a2lfMnBVeGV5R2FWRFRDRUxoeWVKNnczMEpDSkNacnlOR0lHVHFLa3pvRWpwSjZ4MVR3c2phWXB3cjVpZ3pvNmpXSFpMejZxRlNLMV8xQzlGbkp4UnNkQ2dGaHpwZHlOUQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-20T04:51:17+00:00"
+    },
+    {
+      "title": "Ketlen Vieira highlights Ronda Rousey as her dream fight",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1tWnlKX2UxNExVZTFxSDRxcGNnZ3pidjIyMWhxSFBkR3V1T2pRcnZRT1AtenJRVlI2eUFkNENicy15N1dnbEJwSTFzS2l2OG9TRktQanVlR01na3RtMUZNanhCNzEteXQ5QkFYclBUWkpCWml1aGdrQzJCXzhpdw?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-20T05:19:28+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi1wFBVV95cUxNNllXeXczbE83ZzFDbmJ0eXU4OXdTT21hMDU1SkpQVnB0Sk1xRnplNHRpSWJMYU5VNnBWSGZxbksyWUJYTzgtMXh2bUxDcWZGS2s5dTVuaFAtckZrZmtEV1JINGNHWnAzUDFjZk10MUdZaGJvVENnNDdnV3Utbm92ZUt1UkMtN3FiZmZkTWc1VGhOVlpSRmlFT2gxWVMzVnhRdUxiUVh4ZmJEZ194alVBT1puRG4xaWFCb1ZfNndCYjBnbnZyYkpESy1zSlBvXy1IMjJId0ZZZw",
     "CBMiakFVX3lxTE1KS25WVlU5eEVNc1RRc1pRWXRkY2pUMFE4RjR0ZG1JQ2ZIQ0Y4WU9UMlRmZlFCS3llSDZxR2JrTjRGWkd2d2p2dlFESWtWZnJIdHVSRHpWTWR3X1pqcVlYMGZqN2psaVpxNEE",
     "CBMidkFVX3lxTE9BM3dZZC1zWm16N2tsWFpnWTFzMFlheGpqRDdldXcwWTduc0JVTmFFRkZGaEhST2RqUDJpVlZ0aVA4NTNIZm9NTGpkZ2JPV25kR1I1ZUhkVGdHQnYwVjZtTlpudVVMOWx2RjlzSFcyM3FlUVYyQWc",
     "CBMieEFVX3lxTE1obkc5VThESDVERTNYQjVtN3FpRVZIRTA5TE1OajdSM0Mxa1pobEU5Wk1odG1qZUYtcElCLTJ3UGg2RUl6cFo1RXA2bTkxdEJMZTAwRXV6X1ZUZ0JEMHFUQ1hiOXdZNFE1c2NKVEE2WnA4RUhmcDF6aQ",
@@ -3312,7 +3311,8 @@
     "CBMimAFBVV95cUxOYkZHdW9rdFRjVjJmZGV2cUp4QlpnX19PNzZZLUItUGNEYW1yU0ZfbVAxVDgyTmp5aFJsM3U3bmppTlJVTWN3VFptMERxZ3ZQMDdGemQ5ajY0OTc5OWNiaWEwYWlaem5WbHlkSldDN2ZjcU1sb1p1b2R1eGMzWEZrdzdTbzdNbHlvcDFmS3FITEpJOHdqdkhWSg",
     "CBMiqAFBVV95cUxQWUV4M2lNcEVIMVJJWFdVYkV0QTlvd2h2ZXlCc2YzMlpjM0pvbTEtY01tMHo5RXAxbFo2Skk2dVVrQzRyTnF2UVQxMzhvR1BSRWxab0dQNUN2dzJzQzk5TnZ6QTFBbm9fdnJoRlhIbEgzeGlqZHhXNVhnWnNKcU1FVVBOZ01oT0Q2cklDRjdBeC05VVM3U1JkdHE4TFllWHNCcTAxWlNsdnM",
     "CBMijwFBVV95cUxPa1NYMlJIYTJtUG9CZkEyVzJQS0tRcFJ3UTVVRU5Ha0o1bmdPQWEwQkxuSzlpUEt2TWpISmFwaXc5c3l2WFdBSGJ3S2ROYkkyYjhadnA2Ymh4SXdvb2tPR2l1dDBCWEZGZ3Zwd1owNlpyTk1tTHhaUkV2cXU0bXJjYU91MDB1ZVFvdVIzeWdaVQ",
-    "CBMimAFBVV95cUxPc0lPalFCaG1HbjV6TkJTQVljUW1lVFFlZVpTQmtCSVVBQUVqR3VGS0F6N09zWlc2YWhteFpwRE1XLTlpNVFTN3NWMHFtVmh0b2dCY0xGbURHVmRWQjVnT2J4SVEyVVNvMlhSbkVZOGszQW0zNUg0T0E5Q24xQzBJbm1qZU1mTVhvQnFVUlo2Y3JOSUJnTE9iVA"
+    "CBMimAFBVV95cUxPc0lPalFCaG1HbjV6TkJTQVljUW1lVFFlZVpTQmtCSVVBQUVqR3VGS0F6N09zWlc2YWhteFpwRE1XLTlpNVFTN3NWMHFtVmh0b2dCY0xGbURHVmRWQjVnT2J4SVEyVVNvMlhSbkVZOGszQW0zNUg0T0E5Q24xQzBJbm1qZU1mTVhvQnFVUlo2Y3JOSUJnTE9iVA",
+    "CBMifkFVX3lxTE1tWnlKX2UxNExVZTFxSDRxcGNnZ3pidjIyMWhxSFBkR3V1T2pRcnZRT1AtenJRVlI2eUFkNENicy15N1dnbEJwSTFzS2l2OG9TRktQanVlR01na3RtMUZNanhCNzEteXQ5QkFYclBUWkpCWml1aGdrQzJCXzhpdw"
   ],
   "daily": {
     "d": "2026-08-20",
