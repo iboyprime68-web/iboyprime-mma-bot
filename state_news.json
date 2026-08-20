@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Din Thomas teases retirement U-turn days after disrespecting Gillian Robertson with UFC 330 announcement",
-      "ts": "2026-08-20T13:00:00+00:00"
-    },
-    {
-      "t": "Anthony Hernandez: Sean Strickland helped re-spark love for martial arts ahead of UFC Sacramento main event",
-      "ts": "2026-08-20T12:40:19+00:00"
-    },
-    {
       "t": "BMW Championship – Round 3 Live Stream of PGA TOUR",
       "ts": "2026-08-20T12:44:24+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Chungreng Koren, the fighter who epitomises Manipur’s warrior spirit | Hindustan Times",
       "ts": "2026-08-20T15:18:24+00:00"
+    },
+    {
+      "t": "Brie Bella Details Being Rushed to Hospital After Pooping Her Pants & Passing Out in Toilet",
+      "ts": "2026-08-20T15:17:31+00:00"
+    },
+    {
+      "t": "William Thomas Smith Obituary (2001 - 2026) - Ransom Township, PA - WFMZ-TV 69 News",
+      "ts": "2026-08-20T15:26:10+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Anthony Hernandez: ‘I want to hurt somebody’ at UFC Sacramento",
-      "url": "https://sports.yahoo.com/articles/anthony-hernandez-want-hurt-somebody-062008473.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-20T06:20:08+00:00"
-    },
-    {
-      "title": "Massive Opportunity and Step Up in Competition for Jose Delgado",
-      "url": "https://sports.yahoo.com/articles/massive-opportunity-step-competition-jose-065839604.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-20T06:58:39+00:00"
-    },
     {
       "title": "Jones ‘Confused’ By Islam GOAT Push: ‘Make It Make Sense’",
       "url": "https://sports.yahoo.com/articles/jones-confused-islam-goat-push-070000144.html",
@@ -2105,6 +2091,20 @@
       "source": "Hindustan Times",
       "cat": "ufc",
       "ts": "2026-08-20T15:18:24+00:00"
+    },
+    {
+      "title": "Brie Bella Details Being Rushed to Hospital After Pooping Her Pants & Passing Out in Toilet",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMXo4NUU4dEZId09neXhqWDlNV3RTN3ZFZldyblF5cEhjdW9MQlg5N1AybjFtMENzMWxQZDNTMGVmWXhXYmZmdlp5amFBODI1ZlU4RFFtelAyMlJPa2g4N2xwNVdTRHdlQjF3T3B6Vnc4TmNaRFlocUFqYThkcnR5Qm5SdjZPSEFNTFBQUU1Ua290bG9lXzd5ZDgxZjN4VWMzOUZCai03dTQ5cE9HZDFnZWJGeGtCRGduak1HaEdfSzZ2Zw?oc=5",
+      "source": "411Mania.",
+      "cat": "ufc",
+      "ts": "2026-08-20T15:17:31+00:00"
+    },
+    {
+      "title": "William Thomas Smith Obituary (2001 - 2026) - Ransom Township, PA - WFMZ-TV 69 News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGh0eTVkYU1NMFdOLWlkd3dnN0VBdTJoOFM0bXhrdlNTYjZBQzhxa3NNNVBKTTZGdXU1OU5mTjk4Vk93Ny1GS1JoVUpGdnhwbWoxbC1jamg2VmNla0dYQWl6dUgwM2REYnFTbWtYRGt0T3pJeXVMWlEwQWVwLVlHUC11eWN4eXA1?oc=5",
+      "source": "Legacy obituary",
+      "cat": "ufc",
+      "ts": "2026-08-20T15:26:10+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=505673",
-    "CBMiqAFBVV95cUxOMlE0b055N2IzRk9vdDJmZEpjVWRVRUdtM0YzNlZ5WlROMWV4QkhuTTlaaDFmdWFMM2lrWUhVc1psbXdwamd3VHJIZld5X21BSHlqLVFHT3RMNktybkVYY1ZQOUNjV1pTY1kxSU1yWHZvZFlNM0Q1Y1BlNGZiYjFIdlhwazBsWEZIaENWMDdsbWFyTnNyMHg4MDBlX1pOZzBBRzJ2QW1hT0I",
     "CBMimgFBVV95cUxPNWlfclUyQkw4NEZPcUxQZVZKRzVsZmhwSmhCZDJfVTFiMGFiLV9lT1ZqUkJEcEkwRTNfNTVDTTZ5WGFKWGFPVUxwT19ES3ZNX3UzQTRxWHhTZjVDM0FSUFk0MWZsRnVXd1lnczZKajA4OV96U1ZYNXVaTlp1bFF5MHBYRXJ5Z0FhZ2VsMEdYUnhDWDJ6azFTTDZn",
     "CBMihAFBVV95cUxPVG1CcEIwTVNQNU5MVUtRaDVQN3FPTHVGUlZhdC02dHJMQnRkU2lHeHhWOTktVWhMZFFBa2VmQzNSeDRSN2drRVI2eTR4cXY5M0Q5SlhxdVlqZWdDZlljbU9Ua1BKUnpqRWo4dDh2dDBlaDF4Nm5NUEd3RGpRTVlMb25PdFI",
     "CBMilwFBVV95cUxObTRHcERzMDB4dUd0TElwckxQVERTb0Q0RXl0MHktaXRYejdybU9SZ3lYU181Q1p0dHQtS2lsV3VhZ0xkN0U4cEVuQ2tTQmxDS1g4SnNydGNjN3NxcEE1ZExzSzhnR3NBU3hDSnEtRDlZWlplaFhLOVRGUXpCeUlPdGlycDB4T0k0VXBZT2w2U3VzVHVnMHM0",
@@ -3312,7 +3310,9 @@
     "CBMi2AFBVV95cUxONnd6NkJ6VlJyOU1jbTRaTUZ1bVRLVTRXN3BRZHlQdTRwbTlLc0FYZ0xKY0NQRGJYTnNhYkhpb3MwQ0pwdEtLM1l2WVczdnFTd2tHaVNubVVzYnNacWhGNUhGZjdyQmFjc2pwazQ5My1hcUc1cm5oVEZEQVEzMjZnbnhaZlFrc1FFOVN0cG9aWVQtcjJQYndRX1BXcHFyVk9CMEw3cEhhNnU5Q0RGYllwaWRKT3ZGYlZ4V3o5dm9Tbi1qWjVjZTZIX3hLMTh1ZEoySnRvVnRmRkU",
     "CBMif0FVX3lxTFB1bUpxQzhDd3VfWHdVSUhHcnI2UkRZTFdQSDRMajQ5MHpQQUhGT2Jhc01oaFVwbE9lcW1odlpiNDFXUDlTM3R6MDV2TUlNdEhQYWFuNDVJZmJIcW8zYnpjQzJWUTRUVUc0WDV4bEJYdjFGcHNGS2JVTC1icHBEQzQ",
     "CBMiW0FVX3lxTE5VVjR5VVNXZ2RwWU8tbzVhQ3g1aXNjeXhyRHpFRTV5eDgwcVVpWEpyc3RGWnNnX0gxdV8tdllLejRuWlAzdTZZcW9oSDEzSGd3YnM5WTA3Ukd6Ulk",
-    "CBMizgFBVV95cUxQMlpnMlY5N2xadjRTeFd4X21yYnl1djlKSEQtX2ZDSG5FRzNyb1NsUFl5SlBxZ1JXV1lBelBRcnBqWWZMUElWNEZaOVB4ckJqRHlzS0w2TmhLWG1aVjhCV1AxMVRBNENEMDhzb3lNRjNqM0JaZ3RRMWZtaG1FWWthNnBqQWRmVFNpX1liVmhjNWRVdGhIVGxvV0c5NWl5dkRieDd2dmlqVlpQdnA1OWxoWG1YRzlVMlhKRTI2UTQtdGhOOUpvMV9BNnpxR205Z9IB0wFBVV95cUxNUHBOczNNdHRGaFc3cDcxOVZ1Zkp5eThxeU92a05vczBxMFh2MXBESnhsb25wckgxVExLcHJVSTV5aFNMZFpGczRNZERIREFYTk5RM0xyaUpKR0JDczRhUWNfNzd0b0dFZk9WZ3RERl9pTG9yM1FrV3lubk1zMnVTRDRCMmdJNUVQS1ZveHNQZW5FaE9MaXlHbTlqS0pPYTVMUEpPczNBTF9QWDN3akc3a044TWxkMWRfaGI0S2Z4blVlTVd4MC1QamlOS2NiYjVJd2xj"
+    "CBMizgFBVV95cUxQMlpnMlY5N2xadjRTeFd4X21yYnl1djlKSEQtX2ZDSG5FRzNyb1NsUFl5SlBxZ1JXV1lBelBRcnBqWWZMUElWNEZaOVB4ckJqRHlzS0w2TmhLWG1aVjhCV1AxMVRBNENEMDhzb3lNRjNqM0JaZ3RRMWZtaG1FWWthNnBqQWRmVFNpX1liVmhjNWRVdGhIVGxvV0c5NWl5dkRieDd2dmlqVlpQdnA1OWxoWG1YRzlVMlhKRTI2UTQtdGhOOUpvMV9BNnpxR205Z9IB0wFBVV95cUxNUHBOczNNdHRGaFc3cDcxOVZ1Zkp5eThxeU92a05vczBxMFh2MXBESnhsb25wckgxVExLcHJVSTV5aFNMZFpGczRNZERIREFYTk5RM0xyaUpKR0JDczRhUWNfNzd0b0dFZk9WZ3RERl9pTG9yM1FrV3lubk1zMnVTRDRCMmdJNUVQS1ZveHNQZW5FaE9MaXlHbTlqS0pPYTVMUEpPczNBTF9QWDN3akc3a044TWxkMWRfaGI0S2Z4blVlTVd4MC1QamlOS2NiYjVJd2xj",
+    "CBMiwgFBVV95cUxOMXo4NUU4dEZId09neXhqWDlNV3RTN3ZFZldyblF5cEhjdW9MQlg5N1AybjFtMENzMWxQZDNTMGVmWXhXYmZmdlp5amFBODI1ZlU4RFFtelAyMlJPa2g4N2xwNVdTRHdlQjF3T3B6Vnc4TmNaRFlocUFqYThkcnR5Qm5SdjZPSEFNTFBQUU1Ua290bG9lXzd5ZDgxZjN4VWMzOUZCai03dTQ5cE9HZDFnZWJGeGtCRGduak1HaEdfSzZ2Zw",
+    "CBMiiAFBVV95cUxNMGh0eTVkYU1NMFdOLWlkd3dnN0VBdTJoOFM0bXhrdlNTYjZBQzhxa3NNNVBKTTZGdXU1OU5mTjk4Vk93Ny1GS1JoVUpGdnhwbWoxbC1jamg2VmNla0dYQWl6dUgwM2REYnFTbWtYRGt0T3pJeXVMWlEwQWVwLVlHUC11eWN4eXA1"
   ],
   "daily": {
     "d": "2026-08-20",
