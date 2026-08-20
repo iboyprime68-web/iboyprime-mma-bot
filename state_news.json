@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Edson Barboza reveals he suffered a serious eye injury in his fight with Lerone Murphy and has lost vision in his right eye: \"I was like, man, I don'…",
-      "ts": "2026-08-19T20:58:06+00:00"
-    },
-    {
-      "t": "Edson Barboza admits it may be hard to say no if other promotions come calling: \"Any organization, don't call me. Please don't call me, don't call me…",
-      "ts": "2026-08-19T21:03:44+00:00"
-    },
-    {
       "t": "\"You're so easy to rage bait.\" - @dillondanis \"Please rage bait me when I'm in front of you.\" - @PlatinumPerry \"You can't even walk forward without t…",
       "ts": "2026-08-19T21:15:57+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Highlights: Diamondbacks at Red Sox (8/18) Stream of Major League Baseball",
       "ts": "2026-08-20T11:15:25+00:00"
+    },
+    {
+      "t": "Ian Machado Garry's corner slammed after UFC 330 loss for 'not being in sync'",
+      "ts": "2026-08-20T11:12:00+00:00"
+    },
+    {
+      "t": "MMA Regional Pick of the Week: LFA 239",
+      "ts": "2026-08-20T11:17:07+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "With Yair Rodriguez out, NocheUFC has a new main event! 🇲🇽👀",
-      "url": "https://nitter.net/MMAJunkie/status/2090280945743982780#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-20T03:33:07+00:00"
-    },
-    {
-      "title": "Morning Report &124; Carlos Prates says UFC guaranteed him next title shot against Islam Makhachev, wants to ‘shock the world’",
-      "url": "https://www.mmafighting.com/ufc/505695/morning-report-carlos-prates-says-ufc-guaranteed-him-next-title-shot-against-islam-makhachev-wants-to-shock-the-world",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-19T03:39:53+00:00"
-    },
     {
       "title": "Charles Johnson twists his way into UFC 330 rankings update, Gillian Robertson loses ground at strawweight",
       "url": "https://sports.yahoo.com/articles/charles-johnson-twists-way-ufc-134804051.html",
@@ -2105,6 +2091,20 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-20T11:15:25+00:00"
+    },
+    {
+      "title": "Ian Machado Garry's corner slammed after UFC 330 loss for 'not being in sync'",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVDk4dVl1RVA5bVhleDczSDBNOURLMWVtMTkwVl83Sm4tci1MWl9vRm9WTjg1cUVwQ2NkSUw5dzUzazBRd1lIYmRyQ3pEbGtjeGRHYTM5dHVna3ZWZWx3ZVRDXzY0dDhFWWtieHZzY0V1YlZ0SmtJYWFTb21rZVdqWEJPMHU?oc=5",
+      "source": "Irish Star",
+      "cat": "ufc",
+      "ts": "2026-08-20T11:12:00+00:00"
+    },
+    {
+      "title": "MMA Regional Pick of the Week: LFA 239",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWFExb0g0UUNxNW8wTk1BN08wWDQ2X2ZaUTVLRnJ0ZWMxWWItd2RaSEZacnpxR21CUGNoSXdLYVhVZi1iRjhkZUpiYXFlSWJSRFZ5MDZsdnNTdnFlb1Fsc3F2b1dGaEtjSlZkcVdQazI5QlQ4ZkhLQjVkQ3Npazk3d0JRX2x6aVY4NnR2TzFNQWg?oc=5",
+      "source": "Sports Gambling Podcast",
+      "cat": "ufc",
+      "ts": "2026-08-20T11:17:07+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMilwFBVV95cUxNZzRveDVFWkRuWTZxdjRxZmY5aS1EVXJodzRRRWRNUGFvN3BVc09xZ2RwU2U4TXI3R1RIRkFjbVY3N09XampuTGFGMnVFbFRrZzlXYmFKUGhkWEdmdnFJb1lMRldRWnlSU0lhek9hS1ZFYktScVBsdnZsdmhpWkZOOVdRVUFDSjlaLXo5bXk5WFk5bnBpN2Iw",
-    "CBMiYkFVX3lxTFB5TmQ2OGFjNDlhMkZOTmhBNWlOMVFwLVFtbC1mb2hEV0ZLYVRrLXJMU0ZvMGs1REdDTUJ0Y0hLSkZFdU5ubnZYSXg0VVdCZm1KRXpLWU1GLTkxNExKNWNXTGt3",
     "CBMiswFBVV95cUxPdFNYNEJieVZ3QjlzeU4tM3dNSllUTTgzTEU5bzhsZHBzeVZPaW9RYkNwcU1fYjc4SUo1TWNFQkRmdVJOdEd3RkZKSUlSQ2dxNVZzb1hpMk1fNFRzcWJCcDBsOGRUc0thUV82WDBJa1VLdFNwbEpwa2w3OUZlS2lMQ1lKX3NvbmNRRGlDZ0FmdnNRdU9jRmpPRXJ6OU5peFFEdlJOU0JXLUJIelZ0Ymtydk1pSQ",
     "CBMibEFVX3lxTFBrM0FmeGdiREdRLVdwREc0NmNQVG5RTDUwS0JuOG13UHRrVFFDQnY2VFVvcXh2RUVpLXo2UmxPNk56QXVuSFlOM2d5djlLVnBwdlhSdVg0dFdIc1lTWnRXNmpnZEhVTjFQN29hTQ",
     "CBMikAFBVV95cUxPb2VtQXRUY1lmZ2RteUpjM0xsaWN4VGZhRTNVbE4zV25lRlUxOUkxLUQtMTdjdHZOUmpnTGVEQ1pkV0gxUF8tRnJvTlotaThVWHpITlZ1VlNtRlVnaU1GajQ3d2g3TzZjYmg4QV9VaFBpenlwWXlZcmQ0TFNHQWt6SEJsdFhSQ3dqUGszX1A2dHo",
@@ -3312,7 +3310,9 @@
     "CBMiqgFBVV95cUxPaDhHMXJnV1YySGhsb1JCWjlpOWxsU2hHd0VCemh4QUV4ZmI4SEx6S1lGMktLQ0NjRk51c1huM0haSUMzRnpvYVRvZnc2dkg2LWlrLTE1TlJSVF9oYWtieU5kQTZCd3lTZHRrT3lLMFJnUjBsNVVTN1lITWp6RkExS002RVBzUlNBZXBHWlhrN3JVSEs0U29mQnNRQlByY3dhbFFvV0hyZUJ3QQ",
     "CBMixAFBVV95cUxOSUM2SUM2V01MOFBpMHVkOC14d0JMZEVwemZFTEpRNjQybnBvSmhPNERqNDVRMTRwdGdEQTczbGprNXVwVUxjZGtUS2lraEZPN2NZTVN1djI3V3NSUzdnRC0xcmVteXM5QUg3SG9tNUo0ZVFjS0N5ZVd1N3c4UTdMc2Z2R1RYYk9teEdfVlJ0eFppaDdpLXA2bE5ZWVJGbTZGLXB6TnVXWVZaUTFqVWJrYmRLYy14SGhiVEVGQzVtYXVDME1O",
     "https://www.mmamania.com/?p=466028",
-    "CBMihwFBVV95cUxNeWdWT2J4LTZvSjg3bkJPeXB4NXBzMUI1bmQzMXBZNVEzY3hobEJCLWVIQnkyN3dsdTdfMlVLdHZSemxuR3pUQjFzWHNTZWR6eURNUnBsamFhMVN6S2YwdmJGWjVsUHRBbTV5aERtQXJJZERsRkR0b0FTZGdLUzVNNk9hbF9Xd2c"
+    "CBMihwFBVV95cUxNeWdWT2J4LTZvSjg3bkJPeXB4NXBzMUI1bmQzMXBZNVEzY3hobEJCLWVIQnkyN3dsdTdfMlVLdHZSemxuR3pUQjFzWHNTZWR6eURNUnBsamFhMVN6S2YwdmJGWjVsUHRBbTV5aERtQXJJZERsRkR0b0FTZGdLUzVNNk9hbF9Xd2c",
+    "CBMihAFBVV95cUxNVDk4dVl1RVA5bVhleDczSDBNOURLMWVtMTkwVl83Sm4tci1MWl9vRm9WTjg1cUVwQ2NkSUw5dzUzazBRd1lIYmRyQ3pEbGtjeGRHYTM5dHVna3ZWZWx3ZVRDXzY0dDhFWWtieHZzY0V1YlZ0SmtJYWFTb21rZVdqWEJPMHU",
+    "CBMikAFBVV95cUxNWFExb0g0UUNxNW8wTk1BN08wWDQ2X2ZaUTVLRnJ0ZWMxWWItd2RaSEZacnpxR21CUGNoSXdLYVhVZi1iRjhkZUpiYXFlSWJSRFZ5MDZsdnNTdnFlb1Fsc3F2b1dGaEtjSlZkcVdQazI5QlQ4ZkhLQjVkQ3Npazk3d0JRX2x6aVY4NnR2TzFNQWg"
   ],
   "daily": {
     "d": "2026-08-20",
