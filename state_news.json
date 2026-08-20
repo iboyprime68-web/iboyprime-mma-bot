@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Trent Miller decided to 'send it' with Von Flue choke, hopes to shake bad habit in UFC #DWCS https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/…",
-      "ts": "2026-08-20T02:05:24+00:00"
-    },
-    {
-      "t": "With Yair Rodriguez out, #NocheUFC has a new main event! 🇲🇽👀",
-      "ts": "2026-08-20T03:33:07+00:00"
-    },
-    {
       "t": "UFC Sacramento full fight: Gregory Rodrigues avenges Ferreira loss in big way https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/20/ufc-sacramen…",
       "ts": "2026-08-20T12:05:43+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Anthony Hernandez praises his time in Las Vegas ahead of UFC Sacramento",
       "ts": "2026-08-20T17:39:37+00:00"
+    },
+    {
+      "t": "Will UFC 332 Main Event Be Jiri Prochazka vs. Paulo Costa?",
+      "ts": "2026-08-20T14:33:30+00:00"
+    },
+    {
+      "t": "Lupita Godinez set to face Ketlen Souza at UFC Vegas 122",
+      "ts": "2026-08-20T17:44:36+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "‘We are brothers’: Khamzat Chimaev addresses Namo Fazil controversy",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE56c1hEaWdtZXF6aUJYT1lTd1N4LWMwOVVYU0cwTXhZOUxnZVBIWTlmejdqZUh2dGk2YUk0bXJMSlhRUl9TLTg5UW16NA?oc=5",
-      "source": "The New Region",
-      "cat": "ufc",
-      "ts": "2026-08-20T17:03:47+00:00"
-    },
-    {
-      "title": "Carlos Prates Had Weird Reason To Choose MMA As Profession",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdVo5cXd5bDFMZG1jdmJMaUJVU0s3Slg0ZVFTMmprTGcyOGRma21nZWo5Tmo0Tmk0RmJfcnh6d0V6YzdIUWNGZ0Rqb1pDSmtMNHUtdE5COGRaUVNlVFZJNlRrcUF0NUlnRE12RzQ5Wm5Ob2E1WDE0UDJSVWpsQmRGWlBaU3cxYmtSeUFpUEtnTkxZelQ0WFE?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-20T17:04:37+00:00"
-    },
     {
       "title": "Ex-UFC Champ Jamahal Hill Hilariously Practices His Next Bruce Buffer Move While Rocking A Huge Belly",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPa1BIdW1TaVV2b3pZbl9EYjBhRlV4V2xMaUhMejlVQ3VYYWJIdnFfdXhGVjdXZXM2WEpETjBFcjNTN0d3d1IycnN3eTgyTDI0RC1ZTi1hZW8ycDZFTm83NTJ1Zjh3MHI5eERUbWZRMmVMRDJIdmJGNm82VFVncU10aEIyZFRUOGpIdEJSdGVUQjdiVXp4eUR4d09NOEtCbjdPRGxTby1heHd1LVhNQWhGbjFLdE1pdGY4MXJzSXJpRWtUcWY1RHc?oc=5",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-20T17:39:37+00:00"
+    },
+    {
+      "title": "Will UFC 332 Main Event Be Jiri Prochazka vs. Paulo Costa?",
+      "url": "https://sports.yahoo.com/articles/ufc-332-main-event-jiri-143330321.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-20T14:33:30+00:00"
+    },
+    {
+      "title": "Lupita Godinez set to face Ketlen Souza at UFC Vegas 122",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS1otaWl5VlRYaHgzWFQyd1FtUWlHS1JxMTBMdHQ1VGN4d0hQQkFCeUd4MDVSdGZJa2xVLWNoSllsaVpwbVNyU3ZLMGJMNWVnUFhCQkN1SDE3YlRqZWkwS1l2SVlyTU9OV2p1WTdzMFBqdFNlVjFlUkkxcmR0UUtacjRPS1NSY3pjdGU4?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-20T17:44:36+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,8 +2113,6 @@
     11
   ],
   "yt_eval": [
-    "CBMi5AFBVV95cUxPY1FjSS1udi0xcHRHcnR6ZGhSUVJ5TU9vTWJCQS1GZy1rMHI1TjhpaWVmc3h1Wm1VYkhnY1k2ckxodllJWnJsQkYwNG5ZRWxrNzhPV0gtQmtNU2dNamVFZHRXckRIUmlRb2xSWkNuN0tQdUE2NHhHR3JzMnVKRGc1OW1QdHBmV3R2SEZuUGJvN3hIOVBfaGhRamdNZ0hROThTTXAwSlE1Qk1yUVVndWZJSVM0NW9Ub01jcVk2aDk1RTNWMGVkcThuSEl2aWxqUHU3aXNOMHVoc2F3dXczSWVwMjl6WFE",
-    "CBMingFBVV95cUxQelFySndoZDRwWlFCenY3c2VRZlZqNUZhejVGcS1OV2tBZU9QSm15TzRMOFo1X3ZsaUVkaXk1RWtWcDN2N2NFUThSMGRsN213TGRyVU1IR092aHFnZUtLYUNrV0QwWWY4WlE1RVJLdk9iTnd1TFdFdVpPQ1hCSE4tdzJRYVJ5XzhGLWdmeHNReWI0cVpmZzYyOGZDZ0pKZw",
     "CBMikwFBVV95cUxPUVdGWlhaeFdKZnpIOGlXNHJVaFhIYTVLU2dzSzlBb1ZpODFXUTNsdHJEUmRWSkdMWU9aQ2xwTkcyUlBqekxrbnVJN2ZRcEdDaVV5NlM4YXpzSHAzd0pBanllUjVINW9rS2pJYk9kUWFEZmNaeGtqc2M3cUlwMHFIam9zMlY2bHZRTURXTjE3RkI2ZlU",
     "CBMiZEFVX3lxTE5KVHpNNEhxbmpWQm9CNzk5dDNEN1BSazJqLTNBd0FBYThmSmFXNmxHT2dqSWJVSjJvQ2NVMU1jN19wV0xIckJmcnJPb1VIekZZcnlLeW1NUWxubGg5UEp0X1kxZ18",
     "CBMiogFBVV95cUxPUlVILXk1ZTU2bHpicFowUUx1R3ZLT1VSMUFvRVR1TXI3V0R5bGptN09UOF9vdnItT2lVd3RJVDVjWDU2djgzMTdreHpaOXM2SldIVUlPVi1YR1dWdzE2M1hwQXBWQlJCcDRBOF9GaERFSTRHMVVJNzRLN0RxZDcxQXhJbEExUFBPNlJhVXdISlFNanVEYzNQVWNYZ2NzSU1HbUE",
@@ -3312,7 +3310,9 @@
     "a4bee5f5-337e-32da-a252-afa3296916f7",
     "CBMiqgFBVV95cUxPYVRtNE1xQjJreGF0VUpDWjNEN1A4SEo4aE5FYTNPN0tTcjU2LVRTYWFsSC0xMXhpMnhzWUxCc1JsYUR3N0g4RC0tWTBMdU1UTXp2NWhaUG9LaFc1V2tmY0w4aUwzS3FhSmIybWxBTDJiYXJFY19nOF83LWhWSW03WWxwZEVUalo2QU5TTzl6WV9pQ045a2ZoZ29HdXoyZkloRV8tWTVpY0VuZw",
     "CBMikAFBVV95cUxQMXF2RHlMdEZ4ZDRBeDZ6S1ZNRlo3RTFmM0JLcXBCM29qOVRTX0tBRENQNy1Wak5IMXl3U1hWR2pUcXhROWg3OUFJZE93NHVSVmc0Z3J2NGpqTTljd0ptMU5MakpRc01RT3FNcGpwbllFRGE2ZkNUdkVkal91aXB1MmFYQmlwcUtfZ3cwUGtiSkc",
-    "CBMinwFBVV95cUxQUE80dER0QU9UU1pJaVNYemlRTG5fWEFEMDlSRGhKQUlaR2tzRnZxS0FZTzllcUxQalNDQ1pCdjVIZ1hUcGcxMXNna00ycWVDcHF2YmZUdlgwVjlEaWtmZUxQZmF1V25zaUNxRFJ5MlY3LUFHZGFPZ3ZkY3FpVHJyNm9Pd1FjaDVMTFFGUGRzVDhEUktsMzNWZEZ2NFYxOVE"
+    "CBMinwFBVV95cUxQUE80dER0QU9UU1pJaVNYemlRTG5fWEFEMDlSRGhKQUlaR2tzRnZxS0FZTzllcUxQalNDQ1pCdjVIZ1hUcGcxMXNna00ycWVDcHF2YmZUdlgwVjlEaWtmZUxQZmF1V25zaUNxRFJ5MlY3LUFHZGFPZ3ZkY3FpVHJyNm9Pd1FjaDVMTFFGUGRzVDhEUktsMzNWZEZ2NFYxOVE",
+    "02e8f18c-bfd2-3b95-8ace-131127fa9081",
+    "CBMiiwFBVV95cUxNS1otaWl5VlRYaHgzWFQyd1FtUWlHS1JxMTBMdHQ1VGN4d0hQQkFCeUd4MDVSdGZJa2xVLWNoSllsaVpwbVNyU3ZLMGJMNWVnUFhCQkN1SDE3YlRqZWkwS1l2SVlyTU9OV2p1WTdzMFBqdFNlVjFlUkkxcmR0UUtacjRPS1NSY3pjdGU4"
   ],
   "daily": {
     "d": "2026-08-20",
