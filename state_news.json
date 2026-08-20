@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dillon Danis Shrugs Off DWCS Appearance For One Main Reason",
-      "ts": "2026-08-20T11:14:28+00:00"
-    },
-    {
-      "t": "Darren Till reveals Lee Browne bar brawl was staged: 'We'll cause a little fuss'",
-      "ts": "2026-08-20T11:02:23+00:00"
-    },
-    {
       "t": "Highlights: Diamondbacks at Red Sox (8/18) Stream of Major League Baseball",
       "ts": "2026-08-20T11:15:25+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Paddy Pimblett Wants Ilia Topuria or Arman Tsarukyan Next",
       "ts": "2026-08-20T13:17:03+00:00"
+    },
+    {
+      "t": "Carlos Prates fires back at Michael Morales: 'I'd knock you out'",
+      "ts": "2026-08-20T13:00:24+00:00"
+    },
+    {
+      "t": "Dana White addresses Khamzat Chimaev’s potential UFC 333 return",
+      "ts": "2026-08-20T13:01:06+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "\"Ain't even know what I was about to do to Pantoja.\" - @JoshuaVanBT Watch the newest Episode of Becoming a Fighter with @MeganOlivi today on Youtube!",
-      "url": "https://nitter.net/ufc/status/2090076568974479538#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T14:01:00+00:00"
-    },
-    {
-      "title": "Gave everything she had 😤 Tina Black earns the hard-fought UD victory to advance to the TUF34 finals! STREAM NOW on @ParamountPlus!",
-      "url": "https://nitter.net/ufc/status/2090091558981009842#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-19T15:00:34+00:00"
-    },
     {
       "title": "Utah! We are headed your way for UFC332! UFC Fight Club Pre-Sale is now live! Get Tickets Here: https://UFC.ac/46euWUB",
       "url": "https://nitter.net/ufc/status/2090106767988416573#m",
@@ -2105,6 +2091,20 @@
       "source": "heavy.com",
       "cat": "ufc",
       "ts": "2026-08-20T13:17:03+00:00"
+    },
+    {
+      "title": "Carlos Prates fires back at Michael Morales: 'I'd knock you out'",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQUFwOEdKU29ydXZWWGlnWmlXbDR3amNPVUxfV1JxdDZtRWJUaGtHVzFZbkFvTG9PSFR1RXFqUF9tcUdfWWt5NEZzLXZzelBwTnNQc2w3NXladjNVNDhsclZ2TEJ0UDZVbHR6bWhIMHdvMTRDUzZ1TzU2Ym1QY3oyeE9JR1llUQ?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-20T13:00:24+00:00"
+    },
+    {
+      "title": "Dana White addresses Khamzat Chimaev’s potential UFC 333 return",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU1pWYkR5SmVlWEZReFoxZEJmV2FXaHdnOU8tZF9LaWEyZkhXdDk1R0tYTmhZUDRBZldpVWNwd3A3RDJlU1M0MXFFTDZCa1VCOVZIbVVkTkRtaXhJc0pLb1JFQ3BILUVtUEZfRkx4U255ZkZIcWZBeEdjc0tOcmxyejMyRkVPQ0JCdjQ0?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-20T13:01:06+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMizAJBVV95cUxOY0ZFVUVUbmVaRVVyckliZWE4eEJWV3dOX055MG9qTVctWTg4ZWUxby1pVkhJMm51a213eklwVUd0OGZLMEo0X2VKRVMxZDBNMFdYVEEtdnR4Q1hYM2t3RnBCdENwaWR1VVQ3LVNJZFZqZTd4WW1OMVRUNFZpb3NNQWRaZFpNVjIyTU1WbHR3WVhieGFhUUVWRFNid3g3TUFkMkUzYnFHVmtKQ05BVnRuaFdrSjFyNHZ1NG5PeWg4WmkzUzBZQ2REcW1pY3gtZTJkSjlseXd1aFBJZGV1TndyVW1xTzZkM1BnZlVhUkxoTkdzWDhsSnUtWC15RUlEQ2Y0VXRHSl9UMVJ6MEZlMDhVbkM5TGZjUjR0VmJ1R1FyaXlhMUp3NW9OMFRvbXJYbWtQM25ONVRCQXZ5cmttUzBiTWpIVVB0TUpQa1BvYdIB0gJBVV95cUxPT1dyZFo2aTRiVTdqUU9Yb0RMZVhGcFlaTG5JbEIzY0dQOUprLUQyVW1qc3o5SFpkN2JZLXc4WlJLLVdMeW0tZVFmREU5b1FFbHhSd2d6aDFEVFdqdHprTGx3c0tWWDVKYnNpaThzVTRXZ0FtLUpDemc1RUZ4V05pNnM5dEdxWWVLYWlaUEZ4eFBSbXZkblZnR3g0R3hzQjVPeDBkVmtXR2lDRlNQaXlIem9LQlNBalgwQnBxNTJHTzVxS0FkN2NsU21WeFJjbzFOMENsNDR6RjdreUx3Mi13dWF0SG5DVEIyVDAzajdPcWV6bkxuQ1l2Vk1XUzVLY2tzblhQaHdDR0h2Nzc4bUZKNVBvUFMyV3dwRFVTR0VhTlNscDFha2VkZHBBeXk3bDE0b1ZnN1hoSWg4ZGFUNHpHeHNVY1BmUU1IUk5pdTY0UkdHdw",
-    "CBMibEFVX3lxTE5xdHVzNUtMR0hEbWp6aS1KR202NzJiWGVUUU5YSjRta2JnU1ZHalZ0YzYtM3JKMG9qcHdEamRndjlvdFRxSDZiTTEyeVoyUzZBS1l5YmFqUUN2blBDTkw0bUhHWGFpeGFibGZyRA",
     "https://www.mmamania.com/?p=465728",
     "CBMikAFBVV95cUxNVkJLeVVtV2liemZMX1pwWGpUUGYwdWpRZlBPUEY4dWc1MzVqbGVsMDNnWG41VTNOT0Jqa0h6NGk5ekp1VDAtblB4Vk4wRWtiODFkZHVOTFZEODYtc2NOVWlYWHlKMktRY09DTVZoMXNEZ0kxaEF0dUhxc1Z4MW1pbDdqajVhS01RNlR2MDRVNTU",
     "CBMijgFBVV95cUxQN2JWbnRBQ3lBOTBTUFR3cVdhRklKaXJpLV9oU0lCdmhKSWR4Qk5KN1NFcDFfWFQwTnhHOHpqekJzTjJDd2N6WkFlNnVpZGJ3TWo0S3kxQ0x4Zlg4LTZTMUFUTG5UWUg2bjhZbk5KQkRrUktuUmdqTDhzbFNBa0tad3NiQ2RVUFlqN2dxcEZB",
@@ -3312,7 +3310,9 @@
     "CBMi6AFBVV95cUxNLUg4NkRBa3cycGxFVTVqWnFKTTJ4MEhUOEw0dV8ySzFDN3ZTV3ZWeG9nWXVGSHpEQzNWWENVRG95eV9DWW1QeXhLdnlSRXB2MEhDNG5kSnExaG03czBOSXdScWl5RXd0b1M1WU84bVFZODVHOE9uRnlxak5XY0FHVzZ1aDlDYm92TVpGbDBKMi1yYWk3TDNPSk9fal9oQ240TDVtcjlBek1xa1pqV2NCMVJ5czkzU2hYVkNoaV9wV250LW5aZE5hdXY4LVB2REN4M0tOdGJpU1FLRkZqSWNtOXdxZlByTE5h",
     "CBMingFBVV95cUxNM1BpMWI4Rm00WVBDTzh0ejQwTGZaMTE4eGFUeUc0VmgyaWtCZUsyTndqN21RYjUybWV5WVFpNG5aQlgtWXB2aHBnQ3U0dW9Ub09USFljcXg3VXVRbnpzVS1ETmxRanJXYlJfanFsVUl3emtHaHlQbnhKc2l6dkxKWVc2b29uSm1IeHFhV1plTTBxc2xIMmFSWW9LM1hNdw",
     "CBMinAFBVV95cUxPVTFDYjE1bF9OcHQ1eGpXdnNzVmduZmhicFhoNF85Q1RkeU1JZFZMV1ZLMmQwdXQzdnlaRkJ4RmRsWTVmOHJiNWpUeHR2ZTR5dVZTQWRLVEVnd2Qyc19GQkc0c3ZZOU4tWS03ME9kSS16M0dTeGNOd0I4MnB1SjNVVi03Q0hiYy01OEVFamNpQ2lMZGk3cFZETGpCUy0",
-    "CBMifkFVX3lxTE1OU2I1ZWttWmQ3Nk9qS1RRUUQxemxlbkN1YzVnQndxZ3YtM1N3aHZ5bm12a1g3TWotU3lQYUVMeW5BU2xTY3gybnhtSVgwbHZpc2pmQ3phUlMzRDhiVm5oVU4xclV0MW85bWpHRmlwSlNYVDJhWl9IZkFlNklFZw"
+    "CBMifkFVX3lxTE1OU2I1ZWttWmQ3Nk9qS1RRUUQxemxlbkN1YzVnQndxZ3YtM1N3aHZ5bm12a1g3TWotU3lQYUVMeW5BU2xTY3gybnhtSVgwbHZpc2pmQ3phUlMzRDhiVm5oVU4xclV0MW85bWpHRmlwSlNYVDJhWl9IZkFlNklFZw",
+    "CBMihgFBVV95cUxQQUFwOEdKU29ydXZWWGlnWmlXbDR3amNPVUxfV1JxdDZtRWJUaGtHVzFZbkFvTG9PSFR1RXFqUF9tcUdfWWt5NEZzLXZzelBwTnNQc2w3NXladjNVNDhsclZ2TEJ0UDZVbHR6bWhIMHdvMTRDUzZ1TzU2Ym1QY3oyeE9JR1llUQ",
+    "CBMiiwFBVV95cUxQU1pWYkR5SmVlWEZReFoxZEJmV2FXaHdnOU8tZF9LaWEyZkhXdDk1R0tYTmhZUDRBZldpVWNwd3A3RDJlU1M0MXFFTDZCa1VCOVZIbVVkTkRtaXhJc0pLb1JFQ3BILUVtUEZfRkx4U255ZkZIcWZBeEdjc0tOcmxyejMyRkVPQ0JCdjQ0"
   ],
   "daily": {
     "d": "2026-08-20",
