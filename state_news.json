@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=505616",
     "https://www.mmafighting.com/?p=505632",
     "https://www.mmafighting.com/?p=505635",
     "https://www.mmafighting.com/?p=505673",
@@ -819,6 +818,7 @@
     "https://www.mmamania.com/?p=466050",
     "https://www.mmamania.com/?p=466055",
     "https://www.mmamania.com/?p=466061",
+    "https://www.mmamania.com/?p=466065",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "\"I belong on the main ONE roster\" - Banluelok vows to do whatever it takes to beat Songchainoi at The Inner Circle 27",
-      "ts": "2026-08-20T17:44:00+00:00"
-    },
     {
       "t": "\"Such an exciting fight for me\" - Kiamran Nabati reveals desire to share the ring with Nabil Anane",
       "ts": "2026-08-20T17:47:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Boxing News: Yair Rodriguez Withdraws From UFC Night In Glendale, Arizona On September 12 » August 20, 2026",
       "ts": "2026-08-20T20:22:46+00:00"
+    },
+    {
+      "t": "UFC BJJ 10's Danielle Kelly turned to jiu-jitsu to combat bullying",
+      "ts": "2026-08-20T20:20:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Michael Bisping Criticizes Ian Machado Garry’s Attitude at UFC 330",
-      "url": "https://sports.yahoo.com/articles/michael-bisping-criticizes-ian-machado-204501207.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-19T20:45:01+00:00"
-    },
     {
       "title": "Gregory Rodrigues linked with top UFC middleweight to prep for Anthony Hernandez",
       "url": "https://sports.yahoo.com/articles/gregory-rodrigues-linked-top-ufc-225016003.html",
@@ -2105,6 +2098,13 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-20T19:30:28+00:00"
+    },
+    {
+      "title": "UFC BJJ 10's Danielle Kelly turned to jiu-jitsu to combat bullying",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNd19zMzZYWEdBZW90VlBwX2Iwb3hyQzhEVzltaThrYzhrckRBYXNjT2VXXzl5OUhHemI1N2oyT1dQbXpuTUpTeDdfekpUdHV4Y3FSQjRxYkFNQ3RqWmtIRERVaW92NlJsS0FiT1d2Nl9mZDdMY0xYUVJueW8wV2dBdzl6WFo0UkMzS0dHMW1wZU1oMjhlV0ZOaENMYkRfeUdBUnE0Y2tYdTVJT09ZY0hJclE3Nm1vYjNTdmtSYWp3aER0MTIxOFdiVzRyTlRDN1R6MDU4dnVZb3o3RjBteHBjX0stQlo?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-20T20:20:00+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMi6AFBVV95cUxPTzdpVXNaNDg2MnN1MUU2QjBoOUI5UVdfV1FkdmZNRi1aNTN3RTlnUjdmRjhrQVA0bm5DNHpIQTc3NGtPUzRqV2Y3eGp2VmpGR0RRVG8zU2NlU3ZuYnVack1KVWpmSmtad0hCQWkyMUpKSWtEVzZpLU1iUlRIUGhFTnFpTjRoUHJ3bGhHWUY0d2lBaVlPajF2OUdDV0diT3llTnUzTmtONFRxMU5qZ2Z6TWRiZ0FHVlR5S1U3SENWOW4wWElsRW12R1pFZmFKR1BjeVlRczJsWXBvZXBGZGRrUkkyTUJrMUFl",
     "2089786228413698152",
     "CBMiR0FVX3lxTE84aS1lQWVkNWQtSkJ3X2RzdTFDYzRrRUxXWjlvX1luVER5WmlOR2otcUM0S01pXzlGY3FmZFNSMHR6ckk4SmVV",
     "2089785851077091675",
@@ -3312,7 +3311,8 @@
     "CBMiugFBVV95cUxQWkRvRnVHUFNnYUtiUFBFM3F2eUVZbENERWdtOVp1N2NYcjdjNzRsS3BhQkNGYU94TEM4QmtLZ3NtVXpBeDc2U1dqOE9pOWZDVHdQczZsQWUyQ0R1VmMwMHZOaGY3a0FJdElQQTQ0UU1NUXR1dmYzaFpSY0VKUkhHMlYtMEJ1all0dVB1TndMdVphR1Yzel8xMlJPRmRkNjBfd3M5bzF5QnNONzZPX2hmRUdXZzFaMmpka0E",
     "7b2cbf51-8b19-3efb-b2da-a1a93670eea8",
     "CBMiW0FVX3lxTE5vMzRObFJ0N1VvdFFUQ185b1pMUm5JV1oyUnNyQXJyY2dOSzhRTGtHNXpsTW42UDUyOE52ekNNTEZmTjNUV2o4eGNZNDloZ3VDRHdSRnhLYndGZmc",
-    "CBMipwFBVV95cUxQV1U4U0tqazdfYW9DektzYy1nWmwyUk9hclpmMFNnLThtc2RUOHB2MVVFaFRsOTctNWxHaUhsSUdhOU5FT243eXlSaEM1Q1dTaHlxZ3hZRXp3bzNqdnpXMEx4czVzbUYtdW1VLWl1OTZSbzhOZC1jcVFQaHZybkJMbVRKYWVqR1I4SnpDQU45TW5WLU9sRi1QbGsza0FKRFQ1LWRIYXdDOA"
+    "CBMipwFBVV95cUxQV1U4U0tqazdfYW9DektzYy1nWmwyUk9hclpmMFNnLThtc2RUOHB2MVVFaFRsOTctNWxHaUhsSUdhOU5FT243eXlSaEM1Q1dTaHlxZ3hZRXp3bzNqdnpXMEx4czVzbUYtdW1VLWl1OTZSbzhOZC1jcVFQaHZybkJMbVRKYWVqR1I4SnpDQU45TW5WLU9sRi1QbGsza0FKRFQ1LWRIYXdDOA",
+    "CBMi5AFBVV95cUxNd19zMzZYWEdBZW90VlBwX2Iwb3hyQzhEVzltaThrYzhrckRBYXNjT2VXXzl5OUhHemI1N2oyT1dQbXpuTUpTeDdfekpUdHV4Y3FSQjRxYkFNQ3RqWmtIRERVaW92NlJsS0FiT1d2Nl9mZDdMY0xYUVJueW8wV2dBdzl6WFo0UkMzS0dHMW1wZU1oMjhlV0ZOaENMYkRfeUdBUnE0Y2tYdTVJT09ZY0hJclE3Nm1vYjNTdmtSYWp3aER0MTIxOFdiVzRyTlRDN1R6MDU4dnVZb3o3RjBteHBjX0stQlo"
   ],
   "daily": {
     "d": "2026-08-20",
