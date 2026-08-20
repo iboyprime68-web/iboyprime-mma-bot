@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Cris Cyborg remains undecided on retirement ahead of #PFTampa 📰 https://mma-fighting.visitlink.me/MKXog2",
-      "ts": "2026-08-20T03:30:05+00:00"
-    },
-    {
       "t": "A KNOCKOUT FOR THE AGES Kaik Brito proves he is not to be taken lightly on #DWCS!",
       "ts": "2026-08-19T01:25:11+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC legend Chuck Liddell accuses ex-wife of abducting daughter amid custody battle",
       "ts": "2026-08-20T13:51:10+00:00"
+    },
+    {
+      "t": "Contender Series fighter claims he was attacked by ‘15 Chechens’ a day before he lost his big fight",
+      "ts": "2026-08-20T13:30:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Sean Brady admits he broke down crying after first-career loss to Belal Muhammad",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcU1CU1AxWmI0cXlSNUNLeUF5cGhXa2pPN20xME9FdnFtckwtUVczaFRBOE5nc01vOTg5enJpRHB0ZWNZMjY2UVdINFVjWWx1RFJUVWt2V1ZVLTdTVFZyUmlCX3Y0cWlDVm9wSHpuQ0JkcTIyRzhUYTktQktBQmozSktZT0dXXzBOQ2VUSGg3RndlREd2RzVxQ005QXBNYXhHbDQ2ZzZxOTM0dS1VWFVlVGEtM3ozSEc5cDl4UXJ3enNVZG9nT1lz?oc=5",
-      "source": "MMA Junkie",
-      "cat": "ufc",
-      "ts": "2026-08-20T12:50:00+00:00"
-    },
     {
       "title": "Matt Cardona Reflects On His DIY Approach To His Career: ‘I Wanted To Be a Top Guy’",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfT3BTS05VZ2JIdG1FRUZBTWM2emN4OGw3RHNKNGVnbHNuRElSZlZCYmI1c3RyaVNKQVd2dGltWS1yUHZNVGJucFh6S3NTMG9MdTFQM21NWDczYXpKZ05HS2ZSZXNPQy1WNGV1N0pueFRmTFpMTFE?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Toronto Sun",
       "cat": "ufc",
       "ts": "2026-08-20T13:51:10+00:00"
+    },
+    {
+      "title": "Contender Series fighter claims he was attacked by ‘15 Chechens’ a day before he lost his big fight",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ1pCN19nUWhHSnVPS21Rb1dQekQ4NklHZkNIeGZWdEhRVUhNMXNuSFBEbXhCa3NCTVotcjN2UmtiTmwwT0NUNmdGRDBnT1BDZTR2WDVYc0tJVVBUTF9RYy1JZW1XVnIzcGJKdnItUnBOSGZpTzB4djJucTRRSTA0OXA5NmY3eWNKcTZ6dGM2Ujl2NjVmUlRfMGM3cw?oc=5",
+      "source": "Operation Sports",
+      "cat": "ufc",
+      "ts": "2026-08-20T13:30:00+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     10
   ],
   "yt_eval": [
-    "3d69ef99-7e5c-334e-935e-67b36bd3c580",
     "CBMipgFBVV95cUxNX3dCNGs0X0N0SHhXZHpTOUw0XzRSNHhEek03NDNQUjEwZnAyWkFIWnR4aUZlczJGMUVQWHRWLUdadGpfMjh6cXBfZUYzZDVzSTd2SkRGZUxBMi10RW5USnNNQ3VjYmZoc3ZLNXhXcXNyUm42eWZUUW4tQW5SRHZxc3RVclA1dXFBcEhoaXlET0tCOE9ONEtxZ3hZQ3lQczhRMk9vX1lB",
     "CBMioAFBVV95cUxPRXdjemdUcVNraEdOSEo0RndEeXhLek1vcFNYN1NGQ1BvRmlMcXpBQXplcVp2OVBaSG1HNlYwVEJ2aGFESGVYZUx1SUFDMHZ1MXV3bmotU1NOZTh2b3FMRnlwQ0UxSmFtek5McjNCWkhGNjRHd2JVRGFoSW4xMl8yRXhZbFo5YVNtbHpOano3M0lTdkVRM1dJNmEybzdyaW54",
     "CBMid0FVX3lxTFB3RlFSODZrRksxLUcyWks4QVZEMU9TLXR6bWg3SGJWUUw4Z2h5Q1ZKR2ZuOFRfeEdqSFJGRllJcGR6Zk5VRTh2Z2d1U3JBNWc5ZXk1cXMzN01UWDEtb3h6QWpJaUVQV1FhWUVfTHY3Q1pLUldrRVdN",
@@ -3312,7 +3311,8 @@
     "CBMirAFBVV95cUxQbVQyemtIX18ybGIzbGNIVERnN2xxYjQ1dEpJT0VtTUUtZWVGLW90M1N4STBfbnVic0xKMDVLOHlLRnZRYkdLSDRHOEdsc0RFa1JJeUVoZkZqU3Q0MldybDdvZDlpS2xndEtobEZNb3NkOFJPZWhKMG9CV25lVUx6MmY1VEtJcTlXU0JDcUhzRXhxcFFpdFBqbTRzcm82Xy1tVTRDY05oaHlNYTFF",
     "44c3a5df-c2cd-3add-b483-fa03676757c9",
     "CBMiTEFVX3lxTE83R09TVUR4cGppMEdnRDVoSFRMZEVxd21ocEt1M2t0d3FDbkM1UGpoalpXcklXMy0tamhDZzBRdkhWemRqOWJDX0VQS00",
-    "CBMijwFBVV95cUxPZ1N0M3Y0Z3Q1SjVOUDVfNlk2bWN2VHRwZ0xtdTdkRTktYl9DeGlqTGhPb0gxSjZtN2VzckFsRTZPblBIWVpjUXVZRzJ4QUxXYnlieXAyQ2tfczZ0eVJYTVpvZzJvVEhXcnQ2MUFBV1pxRENCcEYwSVdvSmdFanlqZV9SdWxKc3dyY1VFS2Rqdw"
+    "CBMijwFBVV95cUxPZ1N0M3Y0Z3Q1SjVOUDVfNlk2bWN2VHRwZ0xtdTdkRTktYl9DeGlqTGhPb0gxSjZtN2VzckFsRTZPblBIWVpjUXVZRzJ4QUxXYnlieXAyQ2tfczZ0eVJYTVpvZzJvVEhXcnQ2MUFBV1pxRENCcEYwSVdvSmdFanlqZV9SdWxKc3dyY1VFS2Rqdw",
+    "CBMimwFBVV95cUxNQ1pCN19nUWhHSnVPS21Rb1dQekQ4NklHZkNIeGZWdEhRVUhNMXNuSFBEbXhCa3NCTVotcjN2UmtiTmwwT0NUNmdGRDBnT1BDZTR2WDVYc0tJVVBUTF9RYy1JZW1XVnIzcGJKdnItUnBOSGZpTzB4djJucTRRSTA0OXA5NmY3eWNKcTZ6dGM2Ujl2NjVmUlRfMGM3cw"
   ],
   "daily": {
     "d": "2026-08-20",
