@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Fight Night: Anthony Hernandez vs. Gregory Rodrigues Date, Time, How to Watch",
-      "ts": "2026-08-20T03:39:00+00:00"
-    },
-    {
       "t": "Morning Report &#124; Carlos Prates says UFC guaranteed him next title shot against Islam Makhachev, wants to ‘shock the world’",
       "ts": "2026-08-19T03:39:53+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Ketlen Vieira highlights Ronda Rousey as her dream fight",
       "ts": "2026-08-20T05:19:28+00:00"
+    },
+    {
+      "t": "Jean Silva sends three-word message to Yair Rodriguez's replacement for UFC Noche",
+      "ts": "2026-08-20T05:18:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "State Farm College Football Today Live Stream of NCAA Football",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42ZzBWRzM2a2lfMnBVeGV5R2FWRFRDRUxoeWVKNnczMEpDSkNacnlOR0lHVHFLa3pvRWpwSjZ4MVR3c2phWXB3cjVpZ3pvNmpXSFpMejZxRlNLMV8xQzlGbkp4UnNkQ2dGaHpwZHlOUQ?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-20T03:59:18+00:00"
-    },
     {
       "title": "Jones Accuses Cormier Of Jealousy Over GOAT Debate",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54MHJzeENoTExTTUNwcG5aVzBqWnlhdy1oQkpKdnB6VmVfQWxhb2lZWDFUWm9RQ2V6bm9kZ0VrUk53SEJ0X3dzRlFQVjFVbmNJNElhWDAzWm1FR0M3YmNMSHgzRDBPTDQzZUNUQThkRDNOMHJIOEVVZTF3NA?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-20T05:19:28+00:00"
+    },
+    {
+      "title": "Jean Silva sends three-word message to Yair Rodriguez's replacement for UFC Noche",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSjU2aUdyLWRlaks1cEhxclduelhXVTZiMVE3a1BxR3I2TnRLRWcxT2tlVXRNSUgtZ0RUN1Rja0duWnZmZllvZVNnQU5scEp5V2xhSTNWOXVrWUtHcF80U1h1TFBWZm5PZ0ZwRXZ2MGp3bm0zQmNkQmEyV2s1Nk1nU21EeXppU2NxdDBCcEhTQnFjWDlENlVOWDE2VGpVWVAtSHRMd0lIa29HeHFNa1ZJZw?oc=5",
+      "source": "Sportskeeda",
+      "cat": "ufc",
+      "ts": "2026-08-20T05:18:00+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiakFVX3lxTE1KS25WVlU5eEVNc1RRc1pRWXRkY2pUMFE4RjR0ZG1JQ2ZIQ0Y4WU9UMlRmZlFCS3llSDZxR2JrTjRGWkd2d2p2dlFESWtWZnJIdHVSRHpWTWR3X1pqcVlYMGZqN2psaVpxNEE",
     "CBMidkFVX3lxTE9BM3dZZC1zWm16N2tsWFpnWTFzMFlheGpqRDdldXcwWTduc0JVTmFFRkZGaEhST2RqUDJpVlZ0aVA4NTNIZm9NTGpkZ2JPV25kR1I1ZUhkVGdHQnYwVjZtTlpudVVMOWx2RjlzSFcyM3FlUVYyQWc",
     "CBMieEFVX3lxTE1obkc5VThESDVERTNYQjVtN3FpRVZIRTA5TE1OajdSM0Mxa1pobEU5Wk1odG1qZUYtcElCLTJ3UGg2RUl6cFo1RXA2bTkxdEJMZTAwRXV6X1ZUZ0JEMHFUQ1hiOXdZNFE1c2NKVEE2WnA4RUhmcDF6aQ",
     "9faa3da0-11a2-3b5e-8dca-6535da4420cd",
@@ -3312,7 +3311,8 @@
     "CBMiqAFBVV95cUxQWUV4M2lNcEVIMVJJWFdVYkV0QTlvd2h2ZXlCc2YzMlpjM0pvbTEtY01tMHo5RXAxbFo2Skk2dVVrQzRyTnF2UVQxMzhvR1BSRWxab0dQNUN2dzJzQzk5TnZ6QTFBbm9fdnJoRlhIbEgzeGlqZHhXNVhnWnNKcU1FVVBOZ01oT0Q2cklDRjdBeC05VVM3U1JkdHE4TFllWHNCcTAxWlNsdnM",
     "CBMijwFBVV95cUxPa1NYMlJIYTJtUG9CZkEyVzJQS0tRcFJ3UTVVRU5Ha0o1bmdPQWEwQkxuSzlpUEt2TWpISmFwaXc5c3l2WFdBSGJ3S2ROYkkyYjhadnA2Ymh4SXdvb2tPR2l1dDBCWEZGZ3Zwd1owNlpyTk1tTHhaUkV2cXU0bXJjYU91MDB1ZVFvdVIzeWdaVQ",
     "CBMimAFBVV95cUxPc0lPalFCaG1HbjV6TkJTQVljUW1lVFFlZVpTQmtCSVVBQUVqR3VGS0F6N09zWlc2YWhteFpwRE1XLTlpNVFTN3NWMHFtVmh0b2dCY0xGbURHVmRWQjVnT2J4SVEyVVNvMlhSbkVZOGszQW0zNUg0T0E5Q24xQzBJbm1qZU1mTVhvQnFVUlo2Y3JOSUJnTE9iVA",
-    "CBMifkFVX3lxTE1tWnlKX2UxNExVZTFxSDRxcGNnZ3pidjIyMWhxSFBkR3V1T2pRcnZRT1AtenJRVlI2eUFkNENicy15N1dnbEJwSTFzS2l2OG9TRktQanVlR01na3RtMUZNanhCNzEteXQ5QkFYclBUWkpCWml1aGdrQzJCXzhpdw"
+    "CBMifkFVX3lxTE1tWnlKX2UxNExVZTFxSDRxcGNnZ3pidjIyMWhxSFBkR3V1T2pRcnZRT1AtenJRVlI2eUFkNENicy15N1dnbEJwSTFzS2l2OG9TRktQanVlR01na3RtMUZNanhCNzEteXQ5QkFYclBUWkpCWml1aGdrQzJCXzhpdw",
+    "CBMisAFBVV95cUxNSjU2aUdyLWRlaks1cEhxclduelhXVTZiMVE3a1BxR3I2TnRLRWcxT2tlVXRNSUgtZ0RUN1Rja0duWnZmZllvZVNnQU5scEp5V2xhSTNWOXVrWUtHcF80U1h1TFBWZm5PZ0ZwRXZ2MGp3bm0zQmNkQmEyV2s1Nk1nU21EeXppU2NxdDBCcEhTQnFjWDlENlVOWDE2VGpVWVAtSHRMd0lIa29HeHFNa1ZJZw"
   ],
   "daily": {
     "d": "2026-08-20",
