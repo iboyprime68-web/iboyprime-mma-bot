@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Jon Jones rips Daniel Cormier for showing 'envy' toward him",
-      "ts": "2026-08-19T17:50:22+00:00"
-    },
-    {
       "t": "Reinier de Ridder on Roman Dolidze: 'I'm just going to kill this motherf*cker'",
       "ts": "2026-08-19T19:30:24+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Cris Cyborg remains undecided on retirement ahead of #PFTampa 📰 https://mma-fighting.visitlink.me/MKXog2",
       "ts": "2026-08-20T03:30:05+00:00"
+    },
+    {
+      "t": "Alex Pereira vs. Josh Hokit being discussed by UFC",
+      "ts": "2026-08-20T19:44:46+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Yair Rodriguez issues statement confirming why he withdrew from Noche UFC fight with Jean Silva",
-      "url": "https://bloodyelbow.com/2026/08/20/yair-rodriguez-issues-statement-confirming-why-he-withdrew-from-noche-ufc-fight-with-jean-silva/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-20T07:57:14+00:00"
-    },
     {
       "title": "Darren Till breaks his silence on pub brawl KO he claims was pre-agreed to promote future fight",
       "url": "https://bloodyelbow.com/2026/08/20/darren-till-breaks-his-silence-on-pub-brawl-ko-he-claims-was-pre-agreed-to-promote-future-fight/",
@@ -2105,6 +2098,13 @@
       "source": "MMA Fighting on X",
       "cat": "ufc",
       "ts": "2026-08-20T00:30:49+00:00"
+    },
+    {
+      "title": "Alex Pereira vs. Josh Hokit being discussed by UFC",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT3JORTFUSzcyVUhqTkZkN0xnLUoyOWpvUE5oYlJmdXlod2ptLU9DVHI1WmZvTEg5SjZDSF9vUjJyalhiX0ZtMkpaY243YXlGUTVMbzZDQk1XcmowSmxYZGZfLTEzV2YxVDJFSERCaHRNLVNLMDVraXdJZzQtV05yNm5R?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-20T19:44:46+00:00"
     }
   ],
   "digest_last": "2026-08-19 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMikwFBVV95cUxPbkMxOHBHaHVGNF9lR2xjcmVPRjRuOXJscFh1a2NmVy1aeDAwRW1tQzh4TlhURDliT2FQLTlzV0RWZWEyUnZzRVQ0ZFlnMzB1RHQzLXlZb1VYSEZ4QTRTNTNvS1B5eFBLRWVvV2VxR0NoUkhfckdqdnVhbHg3Z3l0d1RsaHhOODlWelJaX3RUOHNzX1E",
     "2089776405957714171",
     "CBMirAFBVV95cUxQelpHU3N0eDJEcExhTTY2Qnk3RXliRzFrWnZNWTQ2YTdFTGxRVkN6WG5vVkt1czZIU3lCOTJ3X3pJZUtTcHpQbThmY2Fjb1h0TS1Dc3lGQXhOWXpjcjRvVmttZjJIcy1YeXc0aWlhU1ZNb3lOYlo5bzNVeDc1NTZZV09fT1NVMkljMkpyWkJHXzI0N1lqZ2R0WWJDNXY3cUxValZrWXV3SUJzeFhI",
     "CBMilAFBVV95cUxQR0RVc1BlVUUtdHJxeVBRYWlnelpvSEh3d1VWUnhudDJ3WGEzY1llZlRwd2dfNk1QeFYxalB3aHlLMlpXeFBuRkVFVlV1YmoxSWE1ejNGd2NHeUgyYjdMdmFrZ3NheWV6T3BYN29sclRWWVJKVnVGOGttandCaGktbHNLVGpBNUdNUVR0M0V3VW1PMk9U",
@@ -3312,7 +3311,8 @@
     "CBMieEFVX3lxTE0zSFd5UGN3NXRYbjJ0Nkx3MWRQWS1OYlZ5NzZPNWs2Wjd3b3hOT2ZiNkZzazBwX2NHbDV4SUY0TFk2aVZhYVhfcGluTGdsUVlYS2ZMUVRCTUdCd21TeV9LeW1rR1ZtS3lkZU9YWDhOdkN5VHYxTW42MA",
     "CBMimgFBVV95cUxOV2IyN0pHTzgzdlZ5alBCWTdPdHRzQWJtUkNCTWFKS2pCVUpnd2UxU0picFA0MXlwLW1xTVpwY3BCbmJFX0o4WWFkMWlRZklQbkJXTl80WFV5eFU0NTllakJORUl0QS1GWkswTE4wZl81cVRDc1dMdDFVYkI5ZHJXbTN6UHY2dkV1cjFKSmMtN25JZGU3bTJYZUt3",
     "CBMipAFBVV95cUxOcWNsdHpMZWY3alJTcktzWmNiYnlXM25NSnh0S01LVXo2bld5SXVyM2xldzdscnhqRjFBck82QXpORF94djdKbnlVeUt3c2VacVkwTlJCYlFqZTc5cjlLdmYtZ19uUTJwMEZCMTI2X1FfcFZrSGZLclc1MG5fbEFMWFNjTnNQODdEVFhfcVpUd2lQc0xiZ214by1ZMlRpZlV3YmlYNg",
-    "CBMia0FVX3lxTFBpMUZqRDdqYU1ZcHRwb0txSnlLcHlfV2ZrS29SUXo4M0tCNGFZV1RKX2FGVzl6cWFKcGNaNDBscmEtbEdZUDJBd1pwcXBseXJZYVNoX1FwQ0JKcmc2MzBiQlhVbVNKMGM1MGFJ"
+    "CBMia0FVX3lxTFBpMUZqRDdqYU1ZcHRwb0txSnlLcHlfV2ZrS29SUXo4M0tCNGFZV1RKX2FGVzl6cWFKcGNaNDBscmEtbEdZUDJBd1pwcXBseXJZYVNoX1FwQ0JKcmc2MzBiQlhVbVNKMGM1MGFJ",
+    "CBMiggFBVV95cUxNT3JORTFUSzcyVUhqTkZkN0xnLUoyOWpvUE5oYlJmdXlod2ptLU9DVHI1WmZvTEg5SjZDSF9vUjJyalhiX0ZtMkpaY243YXlGUTVMbzZDQk1XcmowSmxYZGZfLTEzV2YxVDJFSERCaHRNLVNLMDVraXdJZzQtV05yNm5R"
   ],
   "daily": {
     "d": "2026-08-20",
