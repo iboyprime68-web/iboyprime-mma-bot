@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "‘My job is to fight’: Serghei Spivac leaves UFC rankings, Vitor Petrino and hype to others",
-      "ts": "2026-08-21T11:26:00+00:00"
-    },
-    {
       "t": "Forgotten ex-UFC champion returns to action after two-year absence",
       "ts": "2026-08-21T11:37:17+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Kamaru Usman Urges Khamzat Chimaev To Fight Paulo Costa At Light Heavyweight",
       "ts": "2026-08-21T14:39:06+00:00"
+    },
+    {
+      "t": "Marcio Barbosa vs Ryan Kuse Prediction & Preview - 8/22/2026",
+      "ts": "2026-08-21T14:46:40+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Bilal Hasan Is Here To Impress And Enjoy The Journey Along The Way",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZnVxUUJ2eXpCZS1MT1ZRRDZyTGhfaUlFSHB0aTlIYy1LNkJHSWlXb1o5Sk9uSnJzNGJwVWx2dXo0b2U4VUFjV0MxR2FVY0l1NlVWVXVLS0hrWk9OSXZUVFZwWGp5bm5nRmlHUVI0SGtDY1Flb29oQlBKY0xDYzJEUExGckJLWE9iYmc?oc=5",
-      "source": "UFC.com",
-      "cat": "ufc",
-      "ts": "2026-08-21T13:00:00+00:00"
-    },
     {
       "title": "UFC Sacramento preview: ‘Hernandez vs. Rodrigues’ main, co-main event predictions",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaU9BaTRSU3VJdnNyd3VSdmhlVG1DNFJtUnRza05VM1FuaklyWlg4eXlKYTVNelVwMXBxSzZyT05kTXNPcDg3VzZUc0M5aWhHMUhyYklERG5fb2JYSWstYkFjWTFlM2paNU1hX1k5b0VRVXNsTW5IX1pyUm84M2twZEhObnNZbTBXOXZSRmE1MTF2SldBTFpKem4wcEFtOGZET1p5U2twZlBHSGtjSUZ0dUVIbkoxbjBtNDlwZ3BGX2RoUQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-21T14:39:06+00:00"
+    },
+    {
+      "title": "Marcio Barbosa vs Ryan Kuse Prediction & Preview - 8/22/2026",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPblpPZUpXYjVnWWJSUTlqRVB5a3Zua05FdFpSNjNNSmJCZHlXVmsySVExcnJSVU9xNGdLczJNVEJmdWpZYlhEbFZ1dnhOd0tsRnZTaGwydnVvb0RDVlR0aEdKc0xjeGFaNTRkWnlLbks5SVlWQXJxd0J3c1FIbTI2MUhZUkdtQmwtUGc?oc=5",
+      "source": "ATS.io",
+      "cat": "ufc",
+      "ts": "2026-08-21T14:46:40+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMixwFBVV95cUxPcnNES2gxVHBybk5jbDRVM1hnTno4c2ppUHBuXzhuU1NEWmo0LUx6SWpVcVd3NUNURVBTU0FxaGNZNUVSVHBlT0hkeXBNbFN3dzNIVlhvRWp5UVhCU011VDJyQ09USDg4SGJBdHBkMExrcEVEUFFITmtkWDRVMW83RUJGS1BWN2lCdmFMZGpubWRaemdDWnlKSXZmZzVhdk95ZzZlU21xUkpSWGx4OVNHeXVSSUROOTZOaXBVUk1meDBmV3pBRzYw",
     "CBMi2wFBVV95cUxQV0RUUGs5aEM3VnVKSnU4LXhUTFdpZi1QNFR0XzlEWnBGUHJYd1pSUjZIX0hZenNZb2sydGJhazRkWlJjNjBqcDJfV2NVT0dnU0Mwa3Z5MFFiQUw4QlRVS1ZQS1BzbkJXaU1qeUtfQXNYRjdEM1dMbDVERmliX3BiNHloWXlxMGFLRmhITjhyd1JjNFJpemZNZjh0SEQyT3ZMRjczckNfRUV1Sk1XZmdqN3hsdTBuTW5lQXh5SHhqdUpvNWJMenp3VU0yVUJkNWRTbW4zV1FBZVhIM1U",
     "CBMid0FVX3lxTFBvTkpZMUU4RHl1a1hNNGlwandxc2lkbVRvSmM4V0NJX1VvVmtCNHRobnFDaklCbWVfSDVaUUhESTktUVFLZGhaT1BoR0w3UC1MaEkwTUdYc2x3VUxwRUFSVWNVVE1iTVMzaFd3dlRuNU40eHBaZllF",
     "CBMidEFVX3lxTE1ZeHJ4NjBMcWRjWjh6b0JRRUVUVGVQSUQxajlsLTBTTG5EQjVCVVFyeUdwblRKcmNGSl9yNUE1cEpsSmlpTEZlUkVDTXZkUmNDTEdFOURiUjdXTTI3cUd0YzJYX05tUUFwWDZSNnhlRlZWTGcz",
@@ -3312,7 +3311,8 @@
     "CBMi7gFBVV95cUxNbkhFQW1MX0RsQU1UaGtXS3JZb3FYM0lSanNOMlNEeFhUVzEzUXBDMXQyaXZJUzFTY0QxbkVxVjZCa3lXc1VDYVo5N01lLUYzMkM1YnZOZnEtU0xJY2wwN0JSdEhaQjdIMURWWmEtMGM2WExKU3AwUzg1dEtVVTZ5Nlo3cW9KQ2MxVW9CWjRTVllvT09vS2tET2lDRHpyM2RzNnBtaDNCeEtJNFhrQjNQRDZ5a0gta25FRVlxT0g2NWp1NFo5cTJzNnlVOXZGLWZSX3Z1azljZVB4WEpMNmRyRDY3NnNSdG5GNUJ6OGRB",
     "CBMickFVX3lxTE43RzZCVzVxWXNlNE9oRlYyRXhSb1RqdFo2bzNEanBZTzUzdHE0TE9lT1VfcEthZDZiN2s3QWdIR3F6aTFWZHZOS3NyZEJZNmtrcV90WS1HN3hEUkJ2OHo4bWlTUHFIYlBhRERhQWRiX29oQQ",
     "CBMijwFBVV95cUxNR3ZRWkd6Q0F1RnBFVDNaUTU2dzdUbDlUMS1HanFNWUpDSnFDb1ZlWGRjQ3YtN1BxM3hqamhqbkxfaElJV1Byb3N4b0VhZjRHUjY5NGdJNEJxV21rOGR1Y2I0U0tkbVMwLWxTZ0NjN2xteDlpelRuU1J6UzJkWnVoNXhqb0k1dnJkR3pNRUk3b9IBlAFBVV95cUxNT0NvcUJJeXlhQmJFSXZIOFQwNjdsMnBpQnpnTUg4R2pIZ0NyRHplVWdlM3pLYVhmU2V0ZDZaMzhHM2tzRVVYLWswYUVEMFliMzhkM0R6dEJzOHJQVWpsVWpjQmR6T1BiTDJFelZ3dkZIbTQya2dvRWJMVzdSeHBfa09xMUNpSzVBdW56c19EcWxhZ1Bj",
-    "CBMikgFBVV95cUxPb1NDU05kZXg1Qml5NGhONUZMNkdlMFFQbV9HSFNHZ0NraWZQbllUMGxWcm9JbW5zVGRxcXBfNmJoMXVUYWVKZkxTbjRGUVlSS2JVQi1oNldIMC1VQ2VWQy13dGxRLWIxVzhWV1RSRVJWX1h2R01JM3ZSMlc5Um1HY3FwMlJEeG5LbmNaQWFTYnRfQQ"
+    "CBMikgFBVV95cUxPb1NDU05kZXg1Qml5NGhONUZMNkdlMFFQbV9HSFNHZ0NraWZQbllUMGxWcm9JbW5zVGRxcXBfNmJoMXVUYWVKZkxTbjRGUVlSS2JVQi1oNldIMC1VQ2VWQy13dGxRLWIxVzhWV1RSRVJWX1h2R01JM3ZSMlc5Um1HY3FwMlJEeG5LbmNaQWFTYnRfQQ",
+    "CBMiigFBVV95cUxPblpPZUpXYjVnWWJSUTlqRVB5a3Zua05FdFpSNjNNSmJCZHlXVmsySVExcnJSVU9xNGdLczJNVEJmdWpZYlhEbFZ1dnhOd0tsRnZTaGwydnVvb0RDVlR0aEdKc0xjeGFaNTRkWnlLbks5SVlWQXJxd0J3c1FIbTI2MUhZUkdtQmwtUGc"
   ],
   "daily": {
     "d": "2026-08-21",
