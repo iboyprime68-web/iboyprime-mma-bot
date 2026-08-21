@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento: How to watch ‘Hernandez vs. Rodrigues,’ start time",
-      "ts": "2026-08-21T03:18:51+00:00"
-    },
-    {
       "t": "Paddy Pimblett calls one potential Islam Makhachev challenger a ‘future champion’",
       "ts": "2026-08-21T03:59:00+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Ex-UFC champ Tyron Woodley willing to wrestle for RAF, box, and do MMA",
       "ts": "2026-08-21T22:01:00+00:00"
+    },
+    {
+      "t": "Yair Rodriguez out, Jose Delgado steps in against Jean Silva at Noche UFC 4",
+      "ts": "2026-08-21T21:52:51+00:00"
     }
   ],
   "digest_items": [
@@ -1783,6 +1783,13 @@
       "source": "MMA Junkie",
       "cat": "ufc",
       "ts": "2026-08-21T22:01:00+00:00"
+    },
+    {
+      "title": "Yair Rodriguez out, Jose Delgado steps in against Jean Silva at Noche UFC 4",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNmM3RkFMTGxJUm1hNm9yVVJEUTljQzU5NkRqSDhxU2N3ZkowUmE0WVE4UmRtSXllc3JQZnpxM0NzTDBWUXNnejJmZVFmdm9wamxCa0x0U2VTNHZYOUpWdFVqZEx3YmZILTdySDVkV1pVUHRQSmxCUVlTcVN4ZUxtS21rLVVTRzA?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-21T21:52:51+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -1791,7 +1798,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiigFBVV95cUxQblVvV09JNUpFelVXRHRWVEtpRUJTR0xubnViY29RMWpRR05BN3lzUEJydUgxMTZRcFE5SkMyX0FoMUFXTkNVb0hhYVVIWk9mdnhIcXJxUGhRZVp0a0NadmFORkFaX19hZnQtSHYtc3hWX0M2NFhyeE1kR1N6N2hJQS1neEdSV2ZEVkE",
     "CBMixgFBVV95cUxNSWUwMlpYY2FtaFVpODJ3dVFVTWRqMVNfMVdYNERYMkNra3ZPczRpMXhYekRLa04taS1fdGtpSFFSOUR3OEQ5Nl9LWk1LVGJZbkJMMUlCRk5qRjJsOXNMWG1BVlhzUEJQcFBYVkMyUHA2U2lkUXB0YmQ0N29Lbk1wNVhiSU1NQmpxSzVxTHN2djA5ZzhlRGRrd044Ukx3endLa3F5R3BSZUFmdEcwQnYxY1JmTDBKRVQzbm1GazZUdmtJckNVMWc",
     "2090123381538787815",
     "CBMixgFBVV95cUxQLWhxZ1FzWmNIN0dLUW9aRDFBUDhSMkRhTmxhaXlLZm5FMTFLREQtbl9wVzF3Q0Y1ZU9jVm5TWEczRV8tR0FxSUJHd1JOTm03a2pTQ0I0b290SnhDTlNQQnE2cGFUY0ZXR3dNS01ndEd3QXM5RHNRSDhtdHBtTXNNVWpuM0lZMTBxRWVXYTZaOE5qOWw5TEUxcVlYX2lSWVhyRFJ0NUd3SHFLZDBPN3J1a1pLWGp4a25LeEVITVM5ZHlLVEMzcVE",
@@ -2990,7 +2996,8 @@
     "CBMib0FVX3lxTE54VU8zZFBYRVpBaWlmNVB5d2k2ZHBvdWg4Q0hNeVQ5Si1HYnZZQ2R3Nnl3c2FQNW1UQTktV1djQ1hTdzFfMk0zRlpkSHlSeUhvSEZDRkJhNVlCY1lWYkZGQlNYbjFjcFFVdXpWNHVTRQ",
     "CBMiaEFVX3lxTE1tQ1I2SmpJT1dGRjI0SnJyalZsTW53bkEtNmhWQzVqQTVZeUlaMkJvQldzQXA3RUUxY0lNNHF6enVRbzhzbEJpc3JUT3FzVk0yR3JiWjBJcE5UeVlDTDRoZ2JfeW1zNHdB",
     "CBMidkFVX3lxTE1YQ3ZPSHBYVWNoSkhta3JWWF9sZkx1akJ3eEF5akhZS2MzZDdzM2c4LTVQT28ydWIzTzA0YzZwMEk0bTNlaTYwTUhvUUVNQUtKclh1Tk9zX29XVEl2cEVCRDViTUU2a1FpMlN3WGN3YkNJbGFWeHc",
-    "CBMi-AFBVV95cUxPLW5Ia2hBbmFYbUR3UEFaT2VValBIeDBySWJwbzkxSE9SQ1EzN0dtd2NUVWo3cHFxMVpUUnpjb0VTRno1dy1NYksyaGd1ZFFQZkd5RWhaOWtTZGJxZjI4RXhPbDQweXlCM0g4TUxpOWdmaTlzcEcwQlNOVzJnVGMzaE43RHVKRUlfU3VxUzdwaGFUS1ZkVWJzYk5oeVFmMkpTQ21NeTVld2NmOFZHY2tQTzEyNm9CZEdzMmFZZDNFdXNtX3VBbWtBa19iNGRWZktOME5fUmx2M1E2TGFKdndMVm5ZZkxEVmZ0VG5ZRHFyVkY4b1UzbXZDNw"
+    "CBMi-AFBVV95cUxPLW5Ia2hBbmFYbUR3UEFaT2VValBIeDBySWJwbzkxSE9SQ1EzN0dtd2NUVWo3cHFxMVpUUnpjb0VTRno1dy1NYksyaGd1ZFFQZkd5RWhaOWtTZGJxZjI4RXhPbDQweXlCM0g4TUxpOWdmaTlzcEcwQlNOVzJnVGMzaE43RHVKRUlfU3VxUzdwaGFUS1ZkVWJzYk5oeVFmMkpTQ21NeTVld2NmOFZHY2tQTzEyNm9CZEdzMmFZZDNFdXNtX3VBbWtBa19iNGRWZktOME5fUmx2M1E2TGFKdndMVm5ZZkxEVmZ0VG5ZRHFyVkY4b1UzbXZDNw",
+    "CBMihwFBVV95cUxQNmM3RkFMTGxJUm1hNm9yVVJEUTljQzU5NkRqSDhxU2N3ZkowUmE0WVE4UmRtSXllc3JQZnpxM0NzTDBWUXNnejJmZVFmdm9wamxCa0x0U2VTNHZYOUpWdFVqZEx3YmZILTdySDVkV1pVUHRQSmxCUVlTcVN4ZUxtS21rLVVTRzA"
   ],
   "daily": {
     "d": "2026-08-21",
