@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Jon Jones weighs return after Francis Ngannou callout reignites fighting 'itch'",
-      "ts": "2026-08-21T06:34:50+00:00"
-    },
-    {
-      "t": "Paddy Pimblett Gave Hilarious Reaction to Carlos Prates’ Surprising Antics",
-      "ts": "2026-08-21T06:35:52+00:00"
-    },
-    {
       "t": "UFC Fans On Possibility of Islam Makhachev vs. Ilia Topuria",
       "ts": "2026-08-21T06:40:50+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Kamaru Usman Drops Interesting Challenge for Khamzat Chimaev’s UFC Future",
       "ts": "2026-08-21T10:45:57+00:00"
+    },
+    {
+      "t": "UFC Fans Drop Definitive Take on Whether Islam Makhachev vs. Ilia Topuria was Still Possible",
+      "ts": "2026-08-21T10:46:06+00:00"
+    },
+    {
+      "t": "Islam Makhachev Was Given Bizarre Explanation Ahead of His Final Round in UFC 330",
+      "ts": "2026-08-21T10:46:14+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Paddy Pimblett breaks down his UFC beefs: Why he respects Ilia Topuria, but not Arman Tsarukyan",
-      "url": "https://bloodyelbow.com/2026/08/20/paddy-pimblett-breaks-down-his-ufc-beefs-why-he-respects-ilia-topuria-but-not-arman-tsarukyan/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-20T19:00:00+00:00"
-    },
-    {
-      "title": "Islam Makhachev could’ve beaten Ian Machado Garry with zero takedowns at UFC 330, claims coach",
-      "url": "https://bloodyelbow.com/2026/08/20/islam-makhachev-couldve-beaten-ian-machado-garry-with-zero-takedowns-at-ufc-330-claims-coach/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-20T21:00:00+00:00"
-    },
     {
       "title": "Former UFC title challenger reportedly returns to face 3-ranked contender after over a year out",
       "url": "https://bloodyelbow.com/2026/08/20/former-ufc-title-challenger-reportedly-returns-to-face-3-ranked-contender-after-over-a-year-out/",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-21T10:45:57+00:00"
+    },
+    {
+      "title": "UFC Fans Drop Definitive Take on Whether Islam Makhachev vs. Ilia Topuria was Still Possible",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY1FEbXRnMmNpWUhYNzRzS1p6dmlKWmxmLUFXZi12aVRiY0U0N0gyaVlkUGhKLVFnaVV6ZnN6Y3hDMnpoQjBQMlJMUUYtS1ZqQS04cUoxeDZTSEhZUUJuRjVxZVRyeURocl9CV0JKMXVkWW1DNGVLZ3NOMjExV1d2b19SLUN3aTVqd1pNbVV5STdDQk5RU3ctbWRzWm02ZDRVTk5ybGdJRzhReWRvN2E3UHhsOGNIcDlXUE13?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-21T10:46:06+00:00"
+    },
+    {
+      "title": "Islam Makhachev Was Given Bizarre Explanation Ahead of His Final Round in UFC 330",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSDBxZFJlYkMwejMzTGhOMEJCeDZLNXN1RDE0WUw2QXJkY3JCNnE5MFhBQV9YOUtRelE5WUdFc000blNCU3VyTEtnekdxRm1md2VJMW1fdmhFTml4ZEozQzJyR1NzZEVoeC15STJDRFJ6MjdpT1dqeUI2UDZXdmJTZDRlV3lNQW14RUpyRnRsU0xvMVdxRjQwOUF6dm5aa0hSbWJXUjVEZWdLLUY1N184?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-21T10:46:14+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMijAFBVV95cUxPdkJxVUxxa0VzSW9yR0M2M1Zaa0RSSlE5WXFja2ZQUlQ1Uy03cVlQNldwMkk0cXM4ckMzMnBPZkFaZG1zQlVYOHZob202SlBfTFZ1dTFIbm5OdXI4SkRKRDhJWV9XVUtSNUxHOWdaeTNTQUJKVnViUEwyVC1zUUhNRUQzMlptR3ZMWFhWTg",
     "2089911801580491052",
     "2089912766232662465",
     "2089914139393302571",
@@ -3312,7 +3311,8 @@
     "CBMivwFBVV95cUxQX0hjNG5PdG1xbzVjSTUwVzlWV1VSZDE1MGxWVHhOaVFyQmkwdmVQeXdjZ2lYTEFlZkNfQlhsazN4bDBwWHZIdmZkTXl4RE5kT0w2SmdMRTRXT1l5cld2SHZ3bnhWYUNLellGbzNxeEdpcllnbWVscHk0X0h2SjB1Mi12TTFSU0FIWFZzUFkxN2J6aTRNUjRmNFZqQ2syQ0xpNlFMNTJ4OUc3b0FKSjFCcmZPUEprcnBiOWpVaFd2UQ",
     "CBMijwFBVV95cUxPTTJjbWItV0lYWWlOd2hwc2lIUEN3WFUxeGJWc21hdjRkTzcwMllwdzBRQU9hREk4Z180ZWdTdU9tam52OUdhMmlMQTNEcnZGYktfbGllT2xQSnJ3cUpVUVJMcDMxaHpDbTFHTzRkdE41RkFiQzJ6QlhKXy1RbThDaGlJWjUyOUszSnEyMFdEWQ",
     "CBMiqgFBVV95cUxNblctU1ZkYXVDLWE0MTAwNFhWQmlfZzg2ak9WSjg1VTNoZnF3ajhsM3dHM3hGNzUzN05hMFRXRFdlZVVBM3p5YnhQRnB0TTd1UWM2aG1YaEc0Zk42TjQzcFBiZ19jcHZ4MFRnSlllZTdQc2JvTXdEWkprNmJGQUlfVVExYTREVnFwOTlNdnRJR3g3ZFU5NzVKTFlYOHFUX0wzb1F6Q3I5MkZyUQ",
-    "CBMipwFBVV95cUxNYk94aU92WDlCSEE4U1ByaWl6QnQ1R1RhWW5melhZYzdRX3NZeWhmWjdKOHRKSGpPRnpCYVdDeXhTZWlQM2pObVFET2xKLXRia1ZjeGFpMnNUX2VUdlk0VzlBZUxYU3ZuWEUxQjF3SlRMMktpQmI4aElEY2ZuN1p1TEVyZkRoWXlJMEFkZVlaRzJreHN6V0hxcGNRN0FWeERma09vY29LRQ"
+    "CBMipwFBVV95cUxNYk94aU92WDlCSEE4U1ByaWl6QnQ1R1RhWW5melhZYzdRX3NZeWhmWjdKOHRKSGpPRnpCYVdDeXhTZWlQM2pObVFET2xKLXRia1ZjeGFpMnNUX2VUdlk0VzlBZUxYU3ZuWEUxQjF3SlRMMktpQmI4aElEY2ZuN1p1TEVyZkRoWXlJMEFkZVlaRzJreHN6V0hxcGNRN0FWeERma09vY29LRQ",
+    "CBMirwFBVV95cUxOSDBxZFJlYkMwejMzTGhOMEJCeDZLNXN1RDE0WUw2QXJkY3JCNnE5MFhBQV9YOUtRelE5WUdFc000blNCU3VyTEtnekdxRm1md2VJMW1fdmhFTml4ZEozQzJyR1NzZEVoeC15STJDRFJ6MjdpT1dqeUI2UDZXdmJTZDRlV3lNQW14RUpyRnRsU0xvMVdxRjQwOUF6dm5aa0hSbWJXUjVEZWdLLUY1N184"
   ],
   "daily": {
     "d": "2026-08-21",
