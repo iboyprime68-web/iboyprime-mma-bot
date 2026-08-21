@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Jon Jones takes advice from Joe Rogan regarding treatment as he hopes for UFC return",
-      "ts": "2026-08-20T16:34:38+00:00"
-    },
-    {
       "t": "Shavkat Rakhmonov will ‘never fight again’ according to fellow UFC contender who believes ‘he’s done’",
       "ts": "2026-08-20T18:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Lerryan Douglas | Return of 'The Gunslinger'",
       "ts": "2026-08-21T16:40:00+00:00"
+    },
+    {
+      "t": "Analyzing UFC Fight Predictions: Mason Jones vs. MarQuel Mederos",
+      "ts": "2026-08-21T16:47:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Mania Mailbag: Would you rather be Din Thomas or Dustin Poirier right now?",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTVFpZUJyOGwzVUtKTmRnZUtEWENiclRDSC1SaUM2VlpfbjRlUk1SblFCc3VESWM0ZGZveVpUWFU1bFNsS3oxaEpaRlgxbmRmVUVoLURWSG45MU53eHJVZlBGQzlOZzNMYThLOElGSkJSd3NnU1c1U21ndG1pTkpTdGZQRkJKLWN0ZnhJRjRrRk9vYlV3WW1nU25MeFAxUWpaQmp3VDJPdk1xYVN3QldxWXJud2tic2NxRmhlSGQzSlVKR0pSNDRqUk5PaDBKei1HaHF5Vg?oc=5",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-21T15:05:00+00:00"
-    },
     {
       "title": "LIVE! UFC Sacramento Early Weigh Ins Results!",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVjhCRnJzbDdTeEplUUppVXJUVkpmaWNESWZ2Snl6YTI1VnlMUnpOWjhaZ1pqY3M3SmR1R0FKYjRvZTBCZVhnM05HWkVWS1hlb1JMdTU1b3Y3a2dkRm95NTdtekRScW56c29iaUpOQTBGZDBsYS1temUtM0pKZ0V2ajAxXzFzQ1l3bExzNFg4allZT3BmMTZ3QzBTcTM5Y1RrNzVtSnNBZ1otRGQ0WG5mbndLMF8wSFVE?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-21T16:40:00+00:00"
+    },
+    {
+      "title": "Analyzing UFC Fight Predictions: Mason Jones vs. MarQuel Mederos",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMUxpUEdmUG1CczdyLUJpMU82VTVZaHdvQ0xNMmpzRVhDWTh1cDllTzIwQXJKWkpKNjhJYmZDc2ZZZVJwelZMWmJwTUlpUHhJUHhfaUIzTlQxZWZFM3ZLVjhxSF95OW9fcU5LbE9sb0E4enBXcVJYYXJFU0Z3Zm5rR0JYMlU0Z2U4ZXpUUHV5S29VZkpBY2p2RC11VE4wQ01heFRiVlZKd2h2VWdIN0VzSy1GUGU?oc=5",
+      "source": "SportsGrid",
+      "cat": "ufc",
+      "ts": "2026-08-21T16:47:00+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiXkFVX3lxTE1qWGFsSDR2SjlYcFJzRkpQNGJadktwd0toVHVNb2IwclhWUjdKMmlPa2l5MWRsbmEwakdPTjluTTVEM0VuQjBJdmp3V1Rub2FVZEVYc1dhdHQydEFHcVE",
     "CBMiiAFBVV95cUxQLXpzNmlUbWYwWGNDNG11RG9wcXRCUU8xcDlhbl95U1BwS3RPaTlFd3dDZFZ1MlZFRkpnNWRiMU8yaEhPeFRXZGdTa1YtT3Q5LVhrTmVUWHVVQTJyNE9lZ0RMS3lvNHY2ZzdpcFZ0QjlEWVFORlBrUmdwbmV6ZzNXMEV5T3A3YVZU",
     "CBMilwFBVV95cUxNeHlKb3dfSk50YWZoX3hTNTNOVEtRcHBSQ2l6a3EwdE5JcTIxSjRmZUxZa3ZRMGJoZlpPRTEtMVBMcWR2dEo3bFBvVFYwc2JjOV9YckVXNnhlVjdRZXRnR21EWHVIRFp4VDBxaFNtVEQwcXAtVWJIUWtSdzZhSS1qSjdqLUgxS1hydTFjZnFNVHlLZnV1R1pF",
     "CBMifEFVX3lxTFBIaF9fNE9MV0Z3VC0tQ1J3b2JNVkpwTl9HZExwM3o1S3FWdklldjRYLUFiT3VBc1ZiQ0Q0bEdSRGZIY0YyeENKRm5SczlxTmFYQU94VS03eU5qQWhrNmZILVhTcGJxemRfclpUUG9JSThCV3BReWQ3Z0lRSjA",
@@ -3312,7 +3311,8 @@
     "CBMiogFBVV95cUxPdW00SU5YZmxrempBeDNqbVc3VE9JNDlfQ2NTWkhoSG9QU245ZnhFSjBUX2d5UUZFTlN5eGlYVnUzcXhfTVl0TjNKMDJCT2RrR2dZU1lmYV9LMGJlWHREWEhkNnQwdHgwX0h5WWZTYXduRDQ3RVZpVGdVcUpwRXVRNFpPM0k5UlNLT1FXLTNpNWNXYU1DaVFJWkxnWXZITUxrWEE",
     "CBMiigFBVV95cUxQLU94Z0NVeVlzbnhEd3h6MGV2WVlJam1uVUU4Q3FlRUgyM2lQbnp1NGlyNmhuX3Rlbk5VX0VPbmVRVzNfYmZ1d2xuelpuT3BFclZfTWRrWHNuaXZGX2JVbklyT2xKMVVod0RGV0hhMHl3TzJQRUpuRFJkWHcwbzljVXpOYno3Uzlvb1E",
     "CBMitwFBVV95cUxQdnl6eEMxakowbjV2Mk0zcWJBSlE0R1JKZEt0ekljRU5nU2tOVFJ3bi1yeVFsMmh6Z09zTFBmek5DQ3VadnIwQkpWdlM0a3p2NmVUTUpkWXVHLUF1bGU4UGFNUnFpS3hmQVgwY01pb0Fnc1FNc3d5T1REcXQ5U3hvbGo3TElZWmNraVA2Y3VrWDV4WmNCNnJNNTI4QnhwZzlaS0xqcXFRTXQ2R2lVa1RtbF9UNlQ5SDQ",
-    "CBMihwFBVV95cUxQN0Z3UVJJY0llS1NhUWhkZzRpeDFINmpSOGdkZDhYVjN5NGF1Vmh0X3MzZGxMNTBuclBMVDc5bjZlX0I1eWcteWVRNnFGdjVfR3huT3ZKYi1GMjYxamV2dEo1ZjVuSkFxSkJVOE5KOUpFaTJOOXNDY3p2N25iak4zWmh6dXVnS28"
+    "CBMihwFBVV95cUxQN0Z3UVJJY0llS1NhUWhkZzRpeDFINmpSOGdkZDhYVjN5NGF1Vmh0X3MzZGxMNTBuclBMVDc5bjZlX0I1eWcteWVRNnFGdjVfR3huT3ZKYi1GMjYxamV2dEo1ZjVuSkFxSkJVOE5KOUpFaTJOOXNDY3p2N25iak4zWmh6dXVnS28",
+    "CBMitAFBVV95cUxOMUxpUEdmUG1CczdyLUJpMU82VTVZaHdvQ0xNMmpzRVhDWTh1cDllTzIwQXJKWkpKNjhJYmZDc2ZZZVJwelZMWmJwTUlpUHhJUHhfaUIzTlQxZWZFM3ZLVjhxSF95OW9fcU5LbE9sb0E4enBXcVJYYXJFU0Z3Zm5rR0JYMlU0Z2U4ZXpUUHV5S29VZkpBY2p2RC11VE4wQ01heFRiVlZKd2h2VWdIN0VzSy1GUGU"
   ],
   "daily": {
     "d": "2026-08-21",
