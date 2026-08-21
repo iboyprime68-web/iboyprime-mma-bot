@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Anthony Hernandez says Sean Strickland loss showed him what had to change",
-      "ts": "2026-08-21T02:27:01+00:00"
-    },
-    {
-      "t": "Khabib Nurmagomedov reveals the UFC fight that pushed him closest to his limit",
-      "ts": "2026-08-21T02:27:41+00:00"
-    },
-    {
       "t": "Khabib Nurmagomedov explains why people either love or hate Ali Abdelaziz",
       "ts": "2026-08-21T02:44:17+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Khabib Reveals Gaethje Pushed Him Closest To Limit",
       "ts": "2026-08-21T18:22:08+00:00"
+    },
+    {
+      "t": "Reinier de Ridder Slams Extreme Weight Cutting in The UFC: \"Weigh In at 185, Fight at 210\"",
+      "ts": "2026-08-21T18:49:47+00:00"
+    },
+    {
+      "t": "Paddy Pimblett On Why Braiding His Hair Became Necessary",
+      "ts": "2026-08-21T18:49:48+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Ex-NFL player Anthony Wint will have to overcome 35-pound weight difference in short notice UFC debut",
-      "url": "https://bloodyelbow.com/2026/08/21/ex-nfl-player-anthony-wint-will-have-to-overcome-35-pound-weight-difference-in-short-notice-ufc-debut/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-21T18:00:00+00:00"
-    },
-    {
-      "title": "Max Holloway responds to 'delusional' Conor McGregor and his injury after UFC 329: 'He looked old'",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX2JWdzBfVGNGUVFGSU9sWVFYdk5ES0dtd0hKTDlGMHlONS1RQ1JoQzhiTXcyWW5ZOEFCRVd4QUtnR0VraS16c2VTMXhYWjJENVZBc0JuYXdkM3hDOHRvd0dja0IwTXBJQURtR190YVhzeEkwTVlBWUllOGpzWmFqcHRCa0Q?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T17:44:23+00:00"
-    },
     {
       "title": "Aljamain Sterling Pays Price for Rejecting UFC Foe",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVQzMUVhNHVKSEVtNWYxdFVBSUpKQVpwdGdPY3hYd3FFQUVGZHgxS3lDeVpyTl84dlpJSmRycU5ESy1pbWFKTkVSX3FuUk9ad1RQU1VlMWI3SHNVZ2hsZ2tRVGJwbkEwU3J5V2E3NlBXQ2cxSkN6aE85U3JvcHBWRVpHaGVyVTlHVnBOckRWUFBlU2VDcEtaWjVFZ1ZLQmhfS3c?oc=5",
@@ -2105,6 +2091,20 @@
       "source": "Yardbarker",
       "cat": "ufc",
       "ts": "2026-08-21T18:22:08+00:00"
+    },
+    {
+      "title": "Reinier de Ridder Slams Extreme Weight Cutting in The UFC: \"Weigh In at 185, Fight at 210\"",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMU9uNThwQ3R0YkpBaHZ5YjEzLUIzNzhCaU1BT09TQTNRenZJcDRTdjgtd1hteU05TzE5MG5uZDhiM0NxWkZ2aXU5RTc0c00wblJkSE5FcS1ldFBvVGF6a0VyVmpCT20zZm10bmptZ3pzZlpXeUt3c1RieDFsSEVxdUZna2FaZ0xQc0dSaW00NkNFYk5ZZldWYmo4NzBnNXhGMmM3UjdxQnJXRjdiWlN3b3Zrdw?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-21T18:49:47+00:00"
+    },
+    {
+      "title": "Paddy Pimblett On Why Braiding His Hair Became Necessary",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOXFUNTFDTFBkMWVzYjdtZlNDSWREM2VDNnZ2M3dmdzVNMVVkWTlsenUxcHhXU19pdTQzWTcyUmltRlM5NHlHWTJxbGJIbnVfbTBhc0ZWWm43LUpWbl9kcXU5bFdPdDlUTUdVSTBVWUN4Uk14M09FYzRJRmhPdjdMLVFINXh1X1lWS253OUVGQk5XbnF1bThFNFZpNkxxcE9HU3B6a002MDg?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-21T18:49:48+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,8 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "CBMiqwFBVV95cUxNVmlJMTkzWGpUbnVqYlp3SDZwdlIyMWExNENWaERmR21TOGQ1ZFVRWFAxV296eGlqekRwajNQSjA3bGRCaGlVc3pYTy1TQk9BdG1MMnlzX2k4VjNYNEFqMnl4dDFiZUNsN3V0RWo3WGRIeFRoRTROQWRpZWFTNHJHR2ROVURJdEdHOWVFWk0xbWNTRm1UdUxNaEYzaVprX3pyZ1Y2cWJzOThMVTg",
-    "https://bloodyelbow.com/?p=327650",
     "CBMib0FVX3lxTE1MZURwZnJ5Z0lYSkM5NWw1dFExODN3bDRJMkRkUk96b0RsandrWDIyQmxKMjFkQTJGRWlCNmdPT3J2Vld2eWFCd09FaWFRTExlbWFmc3B6MEZtRFlKb0VlTEdBWm54UWtGRElEOVdXdw",
     "CBMiwgFBVV95cUxPTmtPZElWT09HUFpZR2JPZ3hIMjRWd0NuT010QzF1VDRqR0Z3b0t5MnR2aU5taHBVb3pkSkI2NEhCd3ZVc3pWY0ZUbU9iaWlOZkM4WWhNQTRBUmtXZ0VPQmFiRGhEd0UyMXpGSVNOVHNubTBWVVNZT2VrTWFVZGVKMVUyV2dsYk02NTE2WVNveVFPa1ZCdHJRRjNXdXFHWUJFNXh5RGtTSjNIbk9pRUUtVzVHN1JRY0xzUDVHdG5BWENiQQ",
     "CBMieEFVX3lxTFB2cWxsSXlhMzBJV0xHUFBKWDRQbmpnLW1rUktENDVYTWJHSDMyMXdaUFBfQ0gxcml4REE1ZV9wbUMteHNVazdkamdpaTNGcDVhWVR4NG9pUERYazF1OUY3bHYwVkdaZ280aTg0NE5yQXlOY1Z2SlFnWg",
@@ -3312,7 +3310,9 @@
     "904d187c-e538-464f-b58b-fbc360c33fc0",
     "CBMixAFBVV95cUxPQzFncEpwc2R2bTRmNHBJNlpfSzJUcmx6ZUVvWFlzY2JuandlOTVOdFlGc1NGQmstYVMzTTA1Nnlpdm4wTjBhWnJMVHd1Q2xScVNqdFg0a2RMQlJsMHc4TzN1eTJwbjJ2NUVUcjF4Q2FLVjRNRmoxVDBJN043TkhwTnNLalpJOXNuWXdZUmhxRXFkUHU3SFJRRk5KSndXTlJuS054al9UZ3VZV1FiOFJCd2l4OWtBMmMwcWlOX1JLd09yWTBG",
     "CBMimAFBVV95cUxNTnV3cXpSeFIyamlYYTVJVmFHNk1OZWRGY1E1RTJ5Um5sdTFJX21KNXV3SFBpWmpCT1cyMzZkTFRuZU52VzBWY0wzdlZySUlMM2puYVVOSnBsMjRibDlCZTBTYnRMWHFxQ3Q0SC1NSzY3Vnp6U09Ra3NaS2tHU0J1MmdyVjJUcnRRRmhCc2ZWeExtRkVLUG5HeA",
-    "CBMirAFBVV95cUxNZV80QWs4Z0pTdkQ2UWktZVZNNHBQLW80TDc1NmhRLXhKcWpZaUUtblJGUDUxZUFJaFZjNzBuUml4c2hMM2RDZng3ZVp3X0dVamQzNWllTFlIeVl4ekkxbXRWanpsbkRVU1BoMmU4cE9MMlZKQl9HUC1OdExVVUpzRmQ3TjAxVzZrMkpfMzhGSVRrZFRFNkE1VVdLZ2o3bHFjb1YyaTQzS3NIR3Vl"
+    "CBMirAFBVV95cUxNZV80QWs4Z0pTdkQ2UWktZVZNNHBQLW80TDc1NmhRLXhKcWpZaUUtblJGUDUxZUFJaFZjNzBuUml4c2hMM2RDZng3ZVp3X0dVamQzNWllTFlIeVl4ekkxbXRWanpsbkRVU1BoMmU4cE9MMlZKQl9HUC1OdExVVUpzRmQ3TjAxVzZrMkpfMzhGSVRrZFRFNkE1VVdLZ2o3bHFjb1YyaTQzS3NIR3Vl",
+    "CBMiswFBVV95cUxPMU9uNThwQ3R0YkpBaHZ5YjEzLUIzNzhCaU1BT09TQTNRenZJcDRTdjgtd1hteU05TzE5MG5uZDhiM0NxWkZ2aXU5RTc0c00wblJkSE5FcS1ldFBvVGF6a0VyVmpCT20zZm10bmptZ3pzZlpXeUt3c1RieDFsSEVxdUZna2FaZ0xQc0dSaW00NkNFYk5ZZldWYmo4NzBnNXhGMmM3UjdxQnJXRjdiWlN3b3Zrdw",
+    "CBMiqAFBVV95cUxQOXFUNTFDTFBkMWVzYjdtZlNDSWREM2VDNnZ2M3dmdzVNMVVkWTlsenUxcHhXU19pdTQzWTcyUmltRlM5NHlHWTJxbGJIbnVfbTBhc0ZWWm43LUpWbl9kcXU5bFdPdDlUTUdVSTBVWUN4Uk14M09FYzRJRmhPdjdMLVFINXh1X1lWS253OUVGQk5XbnF1bThFNFZpNkxxcE9HU3B6a002MDg"
   ],
   "daily": {
     "d": "2026-08-21",
