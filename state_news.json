@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Usman Advises Chimaev On Costa At Light Heavyweight",
-      "ts": "2026-08-21T19:00:39+00:00"
-    },
-    {
       "t": "Noche UFC takes a hit, Yair Rodriguez pulls out of main event",
       "ts": "2026-08-21T19:01:52+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "NSAC Pursues Holloway Purse After UFC 329 Win",
       "ts": "2026-08-21T21:30:24+00:00"
+    },
+    {
+      "t": "Sedalia’s Gauge Young eyes third straight UFC win after opponent swap",
+      "ts": "2026-08-21T21:47:00+00:00"
     }
   ],
   "digest_items": [
@@ -1741,6 +1741,13 @@
       "source": "boxingnews.com",
       "cat": "ufc",
       "ts": "2026-08-21T21:30:24+00:00"
+    },
+    {
+      "title": "Sedalia’s Gauge Young eyes third straight UFC win after opponent swap",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdGF4c2pSZGlOZjFFWWVSSGxzT09UQm15RHlxV3V6c0NjbjdKOURaYUNOUTNFNnNOQ1B3ckxaYWdJdFljMmJoaHdJVGMtZFVySTlQNXZyRFFqNU9ZemlOVVNTVHMwdzRUQzlEUWNNM0JfaFdPcFZkQ2J1elY2anBtSTNEdzlwVzFnLXAyNEItUjRQWkRQWmRhQnBxNzZieDI1bUVFZFJHOVhlSUFFX1E4ZDJPNA?oc=5",
+      "source": "Sedalia Democrat",
+      "cat": "ufc",
+      "ts": "2026-08-21T21:47:00+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -1749,7 +1756,6 @@
     10
   ],
   "yt_eval": [
-    "CBMiZkFVX3lxTE1aRDNOWFYwQk5DRWZlTWtDR1JaclY0UzZ5TDRKUjRtRHU4ZjRld3dRRmZ2RTVibXktaDNFTm1mVjhsd1Q2bFpSOGQtc3d1WTlzOFM4T1diTGl0aHlEOWNicmZ4ZEtFZw",
     "CBMiekFVX3lxTFBPTmZIRkZSbTFNVmx4eVFFTWxGVVlnVzVxNkVoSG43ZkZGME1HTm81OTJ2eVFRa0ozdXdqb19IS084M1cxcXZBQWJzMkNxeUQ1djNxR1k4OG9HdU9VOGJTUFRUbDV2czlMMmpjcU5JbEN6cVZmcnkyZ0xB",
     "CBMiigFBVV95cUxNWFM0dUR3a0xTNTZJTlgwQ2NRakkwaUt5Mzh1a0dUejFwalAwVzZ2eEJyVUNQZGlaYjVKVWsyZDlmX2FpR0UwNjA5QTQ5MXZrYlFaOU4tM3pHR2RjLW5DTkgtc05hcjJKeDdBaUhQSVA5QUZHclBMcDB2TnJNbjdWenB6QzhwVS14c3c",
     "CBMizgFBVV95cUxPX2ZQaUdWcUVyY2hZRHRPSTZoNUxzbFpnV3VZc3FpVkFoZHVzZzJPSkR3Zzh5SW9reDBxQzc5RDl0UmVSVUNrZjI3MktaV3QxS3h3UTBOZzkxXzZDX3ZiQmNORlJWaC15d1RFMW5XdzN4WldidjQ1azRDUUhnM20yVFV0NDBvRU5KM0xCekxvc2xZc2pIaEdCVk1UdjBVcXdQcWVfZHo1bFhLUFpaczlySVl4czEzMElmNFBKcjdBMmk3Ukg0a2xxLXg1bDU2Zw",
@@ -2948,7 +2954,8 @@
     "CBMiqwFBVV95cUxPQVhmUzhrYkd6MnBpSkJLUTlXM2VPTlFRUnRvc0RZOXV0Y2NlQUVrM0s4UHRUTVBSYTJSbUxtd2lGRG9FUXZnRkNyTXhfUnlEamNOVzVJX2dqRzN0VlhMNkZnelpSS3JHcEwtM2k0LUFsX1E4eDVFMGNDMlZaRjRfY24zcURDNFpvR2dHQnEzUENGd0VpM3FlTEM2NTk2ZmRNdi1GUW1vcDJPZHc",
     "7b75e390-c24e-328e-98a2-f0f9df953199",
     "CBMiqgFBVV95cUxQaGVtd1d4NTZiWWNwWThTVlVocUthSzFveEowR1JLektTbDRSbUI5LUpYVm5VYmw0bU1xYnA2M2NOMjhWZHU2U1kzWHZicmlFbGxTSm1udnk4dkJaNjA4OGdNVVd1YWFWbjlOcEdibXZXTnVnRF9YQ3VoNGItWjcxZzlnNUd1Q0lWMkoxXzhjZ2swWGRKQnFoLVphZ3hvMjNtd0dxLVNzaFI5dw",
-    "CBMia0FVX3lxTE9VSDZibENrRS1SeUIxS0JCay1OMmhkTktKdnh0eUhOSkc4Zk1YSnBFQUg5a3JQb0Y0NVA1dnV5VHVmRnVaM2lOUEJ0UUxkbXlHdS1mY2hKbEUyMktCRnZtMHpSNi14MGxHM1Fn"
+    "CBMia0FVX3lxTE9VSDZibENrRS1SeUIxS0JCay1OMmhkTktKdnh0eUhOSkc4Zk1YSnBFQUg5a3JQb0Y0NVA1dnV5VHVmRnVaM2lOUEJ0UUxkbXlHdS1mY2hKbEUyMktCRnZtMHpSNi14MGxHM1Fn",
+    "CBMiswFBVV95cUxQdGF4c2pSZGlOZjFFWWVSSGxzT09UQm15RHlxV3V6c0NjbjdKOURaYUNOUTNFNnNOQ1B3ckxaYWdJdFljMmJoaHdJVGMtZFVySTlQNXZyRFFqNU9ZemlOVVNTVHMwdzRUQzlEUWNNM0JfaFdPcFZkQ2J1elY2anBtSTNEdzlwVzFnLXAyNEItUjRQWkRQWmRhQnBxNzZieDI1bUVFZFJHOVhlSUFFX1E4ZDJPNA"
   ],
   "daily": {
     "d": "2026-08-21",
