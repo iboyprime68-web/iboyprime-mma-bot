@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=505993",
     "https://www.mmafighting.com/?p=506028",
     "https://www.mmafighting.com/?p=506055",
     "https://www.mmafighting.com/?p=506075",
@@ -909,6 +908,7 @@
     "https://www.sherdog.com/news/news/Daniel-Cormier-denies-exposing-chat-with-Eric-Trump-I-got-hacked-201543",
     "https://www.sherdog.com/news/news/Daniel-Cormier-reveals-UFC-White-House-salary-of-Alex-Pereira-201502",
     "https://www.sherdog.com/news/news/Daniel-Cormier-tells-Usman-Nurmagomedov-its-time-for-legacy-202396",
+    "https://www.sherdog.com/news/news/Daniel-Marcos-still-doesnt-know-why-UFC-released-him-following-51-run-202460",
     "https://www.sherdog.com/news/news/Daniel-Rodriguez-originally-hoped-to-face-Leon-Edwards-in-UFC-return-201699",
     "https://www.sherdog.com/news/news/Darren-Till-slams-UFCs-current-direction-cant-watch-Dana-White-interviews-anymore-201481",
     "https://www.sherdog.com/news/news/Despite-setbacks-Justin-Gaethje-never-lost-hope-of-becoming-undisputed-UFC-champ-201725",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "How a Chief Keef Producer Became a UFC Knockout Artist and Rising Prospect",
-      "ts": "2026-08-21T05:52:52+00:00"
-    },
     {
       "t": "UFC Fight Night Prospect to Watch Stream of MMA",
       "ts": "2026-08-21T12:54:58+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Tyler Biadasz Carted Off Field at Chargers Practice Stream of National Football League",
       "ts": "2026-08-21T16:10:33+00:00"
+    },
+    {
+      "t": "Daniel Marcos still doesn't know why UFC released him following 5-1 run",
+      "ts": "2026-08-21T00:01:57+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Wes Schultz vs Jackson McVey Prediction",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOGVVMGZDLUhraXh4VHEzeGhuUFBycjFZVWNFdkdJckRZcU1uc3pVWXlFOG05Z2tkdXZac0ROT0VLb3NPMHFoMm5xUHN0bDlpVW1iWWtNdXZXRC1HOUFXcFhybnlSZFBYVDFCQ21Kd0wtc3VBdFY5Y0RsOGNCdkVUTGd6R3kwb2U2SVE0?oc=5",
-      "source": "ATS.io",
-      "cat": "ufc",
-      "ts": "2026-08-21T15:16:40+00:00"
-    },
     {
       "title": "Ravena Oliveira Leaves UFC Roster After 0-4 Octagon Run Ends At UFC Vegas 120",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWEhLMzVNNkJubldvZmhodVFsdnpYV05hQ2NkMzF2SlpMRktEV2ZzeTZtMmNNOGtFQzNWbjROQ194TWNWY09iMDdPUXhCdTZ2cV80MWFfLWdKVlN5X1hSY2FxYnpBamxfcWFpWGwzSENPdl9vcGpEUEhKUDlFUkFiUmo1VQ?oc=5",
@@ -2105,15 +2098,21 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-21T16:10:33+00:00"
+    },
+    {
+      "title": "Daniel Marcos still doesn't know why UFC released him following 5-1 run",
+      "url": "https://www.sherdog.com/news/news/Daniel-Marcos-still-doesnt-know-why-UFC-released-him-following-51-run-202460",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-21T00:01:57+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
   "hour": [
     "2026-08-21T17",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMic0FVX3lxTE1pa2xkM3haSkxSbFRNS1ZZZHhONV9qVjlkUC1TZ0d6RXBHZjFRZzBBQlBTM0V3NEpMZEZkNEpNTFJMcVRmQ1pYcmVnSnF1a3AxMkxzVmZObDF5U2o4N2k1cHU5YU5EQkVTY25mR2lpZkloT0k",
     "CBMibEFVX3lxTFBpNEg5dWRXLUFHb0t1QnZlcFB3cmNtVTI0VlRXbXdWSU00RjJxQ3NzZm45NG1jX1lTUDhTNE9wZTJtLWpBLUxHXzZRSC1FWlA5aUMtYjJwRDNLM0x1YjNKLVY5ZS1IbXdhdXloWg",
     "CBMihAFBVV95cUxNODAybGo1cGdTS0VRWDJFbzRrd25jc3laSGNSbDNGdENWMDdMS2hjdjZyY05ycTN4UGtXN3RiM0wtNllHTEVVRjNleTlseWZYNnUxWUZWQkxkS0J0WFJ1SFBRd1pKMlI5TFI5TjVzdXd6VzR1a2Z2cWJyZG9JQmRmTUtDb2HSAYQBQVVfeXFMTTgwMmxqNXBnU0tFUVgyRW80a3duY3N5WkhjUmwzRnRDVjA3TEtoY3Y2cmNOcnEzeFBrVzd0YjNMLTZZR0xFVUYzZXk5bHlmWDZ1MVlGVkJMZEtCdFhSdUhQUXdaSjJSOUxSOU41c3V3elc0dWtmdnFicmRvSUJkZk1LQ29h",
     "CBMihwFBVV95cUxPenNIbzFiYTJvYzYyZUtTLUF4bUlXNjJaMlVwaFZsdTY4dUdCY0ViTmFuUjdOZHJKakE3eTlhWGtIbHVQcEpuLTJVN1JxcTkybUJMa1RyZTJYMHczMjBzci14dXpFdFVYNDVJcDVDX0FqLUVIVDY3LWM4WWhab2I3UElFaXZDb3M",
@@ -3312,7 +3311,8 @@
     "https://www.mmafighting.com/?p=506164",
     "CBMikAFBVV95cUxNeHN0Y2RPLVZNQ1pxZjlSOVNsUDZCWHM2ZnRQZ3V3NDJSd2piR3FxbXhUTmQtRHdyRlRndXBQb2hQSnBjQlJJNTRSQURSQW9JemliMHRaU0ZEYUpPaGtlM3NWay1kZmVMVWJPVDV0QVNuZl9zcDliZW02SHFTZ2VfNUxuaENnQXZLQnoybUw5a1M",
     "CBMidkFVX3lxTE1lVG9sa2c1RWFrT29fN2NqS21FZkRrSUMtWFlZU0hyNjBIVWc3Y1FlaktfT2FCWmoyOUh0ejZsdy1ZY1JyTjJoRmR4NWtnaE1xWmREcXp2OHdtc3MxR09UNzE1eTgtbTluRmdzb21WS3RiTE93UHc",
-    "CBMimAFBVV95cUxPaG5pdU9Gb1VMRzBZX2IzaGpTTTJKTGhMQThEQkh5NVpJN3dDVWpTYWFwTy1PSTFTS1plOXp0OG5DOHJHYzZqR0ZTckdhajA4Y0wwekRsZDhrc2Uzd1lGNDVUd3NrNExYY1RITE84TlJwM1VVeGxtbzZqaEhETnYwa2ZlbkxpTXBQSnNCRWxNbHJOeFpac0RxcQ"
+    "CBMimAFBVV95cUxPaG5pdU9Gb1VMRzBZX2IzaGpTTTJKTGhMQThEQkh5NVpJN3dDVWpTYWFwTy1PSTFTS1plOXp0OG5DOHJHYzZqR0ZTckdhajA4Y0wwekRsZDhrc2Uzd1lGNDVUd3NrNExYY1RITE84TlJwM1VVeGxtbzZqaEhETnYwa2ZlbkxpTXBQSnNCRWxNbHJOeFpac0RxcQ",
+    "https://www.sherdog.com/news/news/Daniel-Marcos-still-doesnt-know-why-UFC-released-him-following-51-run-202460"
   ],
   "daily": {
     "d": "2026-08-21",
