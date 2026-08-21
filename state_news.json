@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Cris Cyborg’s opponent still in disbelief about UFC decision to cut her: ‘It’s kind of unbelievable’",
-      "ts": "2026-08-21T16:00:00+00:00"
-    },
-    {
       "t": "UFC Sacramento weigh-in video: Hernandez vs. Rodrigues",
       "ts": "2026-08-21T14:26:23+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Former Champion Rafael Dos Anjos Returns After Almost Two Years",
       "ts": "2026-08-21T17:53:03+00:00"
+    },
+    {
+      "t": "Khabib Nurmagomedov’s Elite Skills Shocked Edson Barboza",
+      "ts": "2026-08-21T18:10:06+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Anthony Hernandez says Sean Strickland loss showed him what had to change",
-      "url": "https://www.sherdog.com/news/news/Anthony-Hernandez-says-Sean-Strickland-loss-showed-him-what-had-to-change-202467",
-      "source": "Sherdog",
-      "cat": "ufc",
-      "ts": "2026-08-21T02:27:01+00:00"
-    },
     {
       "title": "Khabib Nurmagomedov reveals the UFC fight that pushed him closest to his limit",
       "url": "https://www.sherdog.com/news/news/Khabib-Nurmagomedov-reveals-the-UFC-fight-that-pushed-him-closest-to-his-limit-202454",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-21T17:53:03+00:00"
+    },
+    {
+      "title": "Khabib Nurmagomedov’s Elite Skills Shocked Edson Barboza",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZXdLRlR0Mlk0dUxJNXNKNXpUajQ2OHVrdU5IUWdaeDdxdGZBX0xKY0QwMkFRWWpFVWZCdEY4NlZWeWVUckVCcXhfbzhaVmRoeTl3VDdhUG1BTEo1M2VyU2xmR3ZYYVFLSXQ2dWdKVUdNS1ZxMHhaUjYtcjRkcGVlVkUwRDUxMTNvNjlxdU5mcEljcDc1VWN2SUFDOEZnODJnRS0w?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-21T18:10:06+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMitgFBVV95cUxNODBoR1VKU0RqNTNBMi1HOHF0ZTkzZXJpd3dNUDN1NzNmc3hKOUJDOEZMd2pOVUtUX1J6U0Y4N1dCbWM4QlBTTTlaM3NYLVpqS2FyUFZTUGstcllDNkVZaGJUN0ZwWEhNbWQ3WHl6REJpemNEMHBfX2ZueXJjdG5VRVhxTlMtMGxST1BXb0VXazRDVnNnTXdLaTB6YUZSVFhYN1AyR2JMQ2IzRm82Z0tnLUllWVI2Zw",
     "CBMipgFBVV95cUxOSkk5bnhCb3Bjc3dmRGJUdkJLb1daU2Z1RThXOWphdU1JWTVwbmMyZ2R1QmJDNFBxQV9rTC1XWjRleFVzSWNvVzRiblJQUjdWMWxZOHpiWWpSTURyQi0yUjNOcjNCU01tLW15SHNodlFySGZsWHBWWTlFckFqNi1xLVZxaWRxa2x0WUJqREVHR1BRRnQ2WjE0S2RXdVNkUV9Kem5LS0h3",
     "2090068892945412522",
     "CBMigwFBVV95cUxNNDhaVFkzazJYMlVta0NUc2M3UVBNLVYyR3BKa2d3bHZ3aGNnc0NtYUhNR3ZZWHpTVjNvdHdTZmJoQXl5MWg3TkNpT2YtRDF3ZVg3ZzF6NGQzWWlhUWY0aDcxVnFkX1lZSllySHlYT2VPVnB3WUcwV241T1Etb2pzRDluOA",
@@ -3312,7 +3311,8 @@
     "CBMie0FVX3lxTE9uMDhHSnFWQ2VVVFhJVzFtdnpUOHJJS0NYUEwyb0dnbC1nc0N2djVUOTlFZEc4SWZVWm9MNjJKRnYtaHY4QjlhbmZoLXF5NTFycF91aTlzam1sdlpRcC1GM0oxUVl1UkU5clRITTZCcEJaQlBOaWlNcjRLNA",
     "CBMia0FVX3lxTE5GX2VqZmdYa1hMV3NZelc0ekk2ejBGTEFxSkliQUdVT05aYllIeV9sUzg3c3FlQ3N2NkxvXzVYWnBDQVBDeEtYb0dOMUVRNkFrWTlKcW9NMm1KcGVkYm56OXFoZEhUTFZsZXVF",
     "CBMingFBVV95cUxNNWk0cnd2UXdzbGVQMUFMNlUzc3lZVUhfY3VpM2lyODhjTldpRGdsTTZ2MnAzR09PLW5zRE1hMzJiMXNYWG9iSWczY20yeDcyZFVBVGJiTHg5S3RSTDY3LUtNZ3NrSXZvNzhSQjJhRmN2MjhpVGpsbXN4ODNaSzU5alYxSU5JUGtMWDFiWVB5dklLU2VzNUtlNmV6Y2p6dw",
-    "ace403e8-aece-3af3-82a4-3c99360a4195"
+    "ace403e8-aece-3af3-82a4-3c99360a4195",
+    "CBMiowFBVV95cUxPZXdLRlR0Mlk0dUxJNXNKNXpUajQ2OHVrdU5IUWdaeDdxdGZBX0xKY0QwMkFRWWpFVWZCdEY4NlZWeWVUckVCcXhfbzhaVmRoeTl3VDdhUG1BTEo1M2VyU2xmR3ZYYVFLSXQ2dWdKVUdNS1ZxMHhaUjYtcjRkcGVlVkUwRDUxMTNvNjlxdU5mcEljcDc1VWN2SUFDOEZnODJnRS0w"
   ],
   "daily": {
     "d": "2026-08-21",
