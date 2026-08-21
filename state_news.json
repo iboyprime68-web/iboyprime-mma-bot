@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento video: Anthony Hernandez, Gregory Rodrigues make weight",
-      "ts": "2026-08-21T17:02:21+00:00"
-    },
-    {
       "t": "UFC Sacramento preview and predictions: Anthony Hernandez or Gregory Rodrigues — who wins?",
       "ts": "2026-08-21T17:21:43+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "UFC Fight Night: Hernandez vs Rodrigues | UFC Sacramento",
       "ts": "2026-08-21T22:24:38+00:00"
+    },
+    {
+      "t": "UFC Sacramento Ceremonial Weigh-In Video",
+      "ts": "2026-08-21T22:28:00+00:00"
     }
   ],
   "digest_items": [
@@ -1839,6 +1839,13 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-21T22:24:38+00:00"
+    },
+    {
+      "title": "UFC Sacramento Ceremonial Weigh-In Video",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1idU1aZ2ROSGZRNHZBSldBTHRZM2tJRkJBT3llWlk1WmZOdjZQYnVsNjNfbEx2V0xFdlFBOVljVzZCUGl4c0I4QnkyTzdzOFR0djFOeUwyLWJESjFHU1Rjem14TEt4ZDF2cWhkYVV3ZEFxRU9XR1JhWDNoWQ?oc=5",
+      "source": "MMAWeekly.com",
+      "cat": "ufc",
+      "ts": "2026-08-21T22:28:00+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -1847,7 +1854,6 @@
     6
   ],
   "yt_eval": [
-    "2090123381538787815",
     "CBMixgFBVV95cUxQLWhxZ1FzWmNIN0dLUW9aRDFBUDhSMkRhTmxhaXlLZm5FMTFLREQtbl9wVzF3Q0Y1ZU9jVm5TWEczRV8tR0FxSUJHd1JOTm03a2pTQ0I0b290SnhDTlNQQnE2cGFUY0ZXR3dNS01ndEd3QXM5RHNRSDhtdHBtTXNNVWpuM0lZMTBxRWVXYTZaOE5qOWw5TEUxcVlYX2lSWVhyRFJ0NUd3SHFLZDBPN3J1a1pLWGp4a25LeEVITVM5ZHlLVEMzcVE",
     "CBMiiwFBVV95cUxPYV9NZkc0SG9zLVZyU2JiZFJDX3A0M1AzdDJiOWZ3djBjREVMS0hiWGdGZlVieGJPZXVuYUdNeWd2R1FHNWdtNHoxRi1TSHg1MkthbzZaWXRUc3QxNlZmcGJjQzd3NFpvbFYyOUgwTVFZTU9mNEFHdXlUTzJIRzk0WXFqY3JTemN1NUpN",
     "CBMiowFBVV95cUxPQ21HQlhSd1FLSFZ0aFMtRjc2UHRYdDUzdUZqdWxXWXdmdzZNbkt2Mmk0YUNPME5kcXM0ejFQTjlBdkVXcko4NDNTZTdzWVVObFFUdTBRLUlyaEY0U3EydWNQSDZKX0w0S1daSlIzaGZULTJTQ19SZjYwNlFqZGQ2LVhPSDRhbjl1RlVqb092U3Uzb0prNTVOUE5PdnJCaUo1VTFr",
@@ -3046,7 +3052,8 @@
     "CBMidkFVX3lxTE1YQ3ZPSHBYVWNoSkhta3JWWF9sZkx1akJ3eEF5akhZS2MzZDdzM2c4LTVQT28ydWIzTzA0YzZwMEk0bTNlaTYwTUhvUUVNQUtKclh1Tk9zX29XVEl2cEVCRDViTUU2a1FpMlN3WGN3YkNJbGFWeHc",
     "CBMi-AFBVV95cUxPLW5Ia2hBbmFYbUR3UEFaT2VValBIeDBySWJwbzkxSE9SQ1EzN0dtd2NUVWo3cHFxMVpUUnpjb0VTRno1dy1NYksyaGd1ZFFQZkd5RWhaOWtTZGJxZjI4RXhPbDQweXlCM0g4TUxpOWdmaTlzcEcwQlNOVzJnVGMzaE43RHVKRUlfU3VxUzdwaGFUS1ZkVWJzYk5oeVFmMkpTQ21NeTVld2NmOFZHY2tQTzEyNm9CZEdzMmFZZDNFdXNtX3VBbWtBa19iNGRWZktOME5fUmx2M1E2TGFKdndMVm5ZZkxEVmZ0VG5ZRHFyVkY4b1UzbXZDNw",
     "CBMihwFBVV95cUxQNmM3RkFMTGxJUm1hNm9yVVJEUTljQzU5NkRqSDhxU2N3ZkowUmE0WVE4UmRtSXllc3JQZnpxM0NzTDBWUXNnejJmZVFmdm9wamxCa0x0U2VTNHZYOUpWdFVqZEx3YmZILTdySDVkV1pVUHRQSmxCUVlTcVN4ZUxtS21rLVVTRzA",
-    "CBMigwFBVV95cUxNaE1TYWFtcGFwVUxqQmZKQ1lneDBtcktYRjVPamdnLVNOeFhoY1hUbkRFYU8xemFfY0FVUGZ5WnNMZllqVzJuRmIyY1pBNjNzTFJlTExYZHlDelBaZUJZWGszUlhFU2RSc3ZwQVM4QktWTko1MVJHUldDdFZRcEVVeC1FMA"
+    "CBMigwFBVV95cUxNaE1TYWFtcGFwVUxqQmZKQ1lneDBtcktYRjVPamdnLVNOeFhoY1hUbkRFYU8xemFfY0FVUGZ5WnNMZllqVzJuRmIyY1pBNjNzTFJlTExYZHlDelBaZUJZWGszUlhFU2RSc3ZwQVM4QktWTko1MVJHUldDdFZRcEVVeC1FMA",
+    "CBMie0FVX3lxTE1idU1aZ2ROSGZRNHZBSldBTHRZM2tJRkJBT3llWlk1WmZOdjZQYnVsNjNfbEx2V0xFdlFBOVljVzZCUGl4c0I4QnkyTzdzOFR0djFOeUwyLWJESjFHU1Rjem14TEt4ZDF2cWhkYVV3ZEFxRU9XR1JhWDNoWQ"
   ],
   "daily": {
     "d": "2026-08-21",
