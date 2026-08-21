@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/454940/mm-clone",
     "https://www.mmamania.com/455060/open-thread-july-4-2026",
     "https://www.mmamania.com/455214/rafael-fiziev-vs-manuel-torres-odds-full-fight-preview-and-prediction-ufc-baku",
     "https://www.mmamania.com/455226/king-green-vs-terrance-mckinney-odds-full-fight-preview-and-prediction-ufc-329",
@@ -1157,6 +1156,7 @@
     "https://www.sherdog.com/news/news/UFC-Baku-weighin-results-13-fights-set-201648",
     "https://www.sherdog.com/news/news/UFC-Edmonton-just-got-a-major-injection-of-Canadian-talent-202301",
     "https://www.sherdog.com/news/news/UFC-Sacramento-How-to-watch-Hernandez-vs-Rodrigues-start-time-202456",
+    "https://www.sherdog.com/news/news/UFC-Sacramento-weighin-results-Anthony-Hernandezs-Octagon-return-set-202472",
     "https://www.sherdog.com/news/news/UFC-Vegas-118-Muhammad-vs-Bonfim-playbyplay-results-round-scoring-201445",
     "https://www.sherdog.com/news/news/UFC-Vegas-118-Prelims-Alessandro-Costa-shines-on-finishheavy-undercard-201446",
     "https://www.sherdog.com/news/news/UFC-Vegas-118-bonuses-Four-earn-additional-36100K-201449",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Queen of Ridder vs Roman Dolidze Prediction & Picks - UFC Fight Night",
-      "ts": "2026-08-21T14:49:24+00:00"
-    },
     {
       "t": "Carli Judice vs Jeisla Chaves Prediction & Picks - UFC Fight Night",
       "ts": "2026-08-21T14:52:07+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Rafael dos Anjos set to face Alexander Hernandez at UFC 332",
       "ts": "2026-08-21T17:35:00+00:00"
+    },
+    {
+      "t": "UFC Sacramento weigh-in results: Anthony Hernandez's Octagon return set",
+      "ts": "2026-08-21T14:39:35+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Conor McGregor Hit With Brutal Criticism From Max Holloway",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdnl6eEMxakowbjV2Mk0zcWJBSlE0R1JKZEt0ekljRU5nU2tOVFJ3bi1yeVFsMmh6Z09zTFBmek5DQ3VadnIwQkpWdlM0a3p2NmVUTUpkWXVHLUF1bGU4UGFNUnFpS3hmQVgwY01pb0Fnc1FNc3d5T1REcXQ5U3hvbGo3TElZWmNraVA2Y3VrWDV4WmNCNnJNNTI4QnhwZzlaS0xqcXFRTXQ2R2lVa1RtbF9UNlQ5SDQ?oc=5",
-      "source": "Yardbarker",
-      "cat": "ufc",
-      "ts": "2026-08-21T16:28:29+00:00"
-    },
     {
       "title": "Lerryan Douglas Return of 'The Gunslinger'",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQN0Z3UVJJY0llS1NhUWhkZzRpeDFINmpSOGdkZDhYVjN5NGF1Vmh0X3MzZGxMNTBuclBMVDc5bjZlX0I1eWcteWVRNnFGdjVfR3huT3ZKYi1GMjYxamV2dEo1ZjVuSkFxSkJVOE5KOUpFaTJOOXNDY3p2N25iak4zWmh6dXVnS28?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-21T17:35:00+00:00"
+    },
+    {
+      "title": "UFC Sacramento weigh-in results: Anthony Hernandez's Octagon return set",
+      "url": "https://www.sherdog.com/news/news/UFC-Sacramento-weighin-results-Anthony-Hernandezs-Octagon-return-set-202472",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-21T14:39:35+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "CBMiigFBVV95cUxOc3IxVmIxMGYxUnNDQ2RCZHZLYzhkdnA1cGJYRF9JV011QWZKZEN6WWpvcWswQU9qLUI4X2VZZjN6OU1wcC1QMk9EZ1IyTGZMaW1wNnB4Ql9DOS1VRHRIajVOZlpGeXFJLW1ybTFjY0JaeGNDOVFtVjhTZDNFN2FkeE5wUXJvbjBabnc",
     "CBMihgFBVV95cUxPWThGdElRZ0laVHc5d2NWRk1jQWxsSkVXMzBsM1kxYjhnVXA2RG5WODk4TU5oNkFFT1lndlFVN3AyRUVuMkRMZjhSRVhyU0JMMm1pYjMwS2MtZ1hTVXBnTGdnSjFSTDdMZkx2MTZjc2xlZWRiWTJ1SGk3cF9oMVFSdFVhS2NaZw",
     "CBMivAFBVV95cUxPdWFydWg2cW5lbmVPdnBNUElyRmpnZktoYXE0YTVQNlAyMWFETER4SWFTTEMyejd3c013X3BIdm1teU1EdFIyTkhPRjhlNzlMQ3doSkdnNlozZElNZkZnaDd2RklpLUFJOWhtNEdCMUlNSzhEOXV5b1Y0YU1aWEV0OVNhV2VBdTE4WkZPZ1MwbUE2RWZjdG5CcFFOZkloZmpZUG1sR1ZqUy15YWxUd29XRTJFbnR3NEloeWNaSg",
     "CBMijwFBVV95cUxNakpRaFRBNmY3SnFneExQRTNwTFFFSjB1NUZ1Zm04MjhaWmRLS2QzUGRLWko1V2Z1TU85bjlRQXJsOGhiMXRWakR3dUVNSm92Rl9xVmlXLWNkcElkNFdzdzFVSVVOclItY3Q0MmdwaHRKWV90OXo4aDJtU3V4TTRrREZweUtPUEpqZ2NZUVZFbw",
@@ -3312,7 +3311,8 @@
     "1ef21202-14d0-3ba5-aad3-6a4758f127b7",
     "7a9905d0-0534-33ac-b68b-746e98dc9e7f",
     "CBMipAFBVV95cUxPb1F6akVzUW1qVVg3MXQyRnVhcHlXQTU2SFhfMnJhdGVrQTFqdWhfR1h1WXJoVkNTQV83YU5YYWVzSHlQcTU4dUFUWDNCS2FrMjNBWGNyb3FCd3VRLWdkMXNHN194N0ppYmFHRkJ3S2NZLWlvaXdySjRKUHM0VEpUam9KTU5kZEJFZm1IVHBBSGpNMzZCLTFDOVhKaFR2azFodll5RQ",
-    "CBMilAFBVV95cUxNOHdKRWJDRmdBU0pIdjVUQndMMnhlRVJOSzFCTHlYNnkta3RSaGc1MVFsMmNpcVFZS3EzZ2tHQTg3Z055NzJlWlB2d01Wc3RkeEhfRTl3ZEdzbE5ZNTJMc2xYQmV1T05rektOX2JubkZobnUzWWk0ajVOdDZLRkV3MTlidUxqSEhvRW14UE9sMERZWmdT"
+    "CBMilAFBVV95cUxNOHdKRWJDRmdBU0pIdjVUQndMMnhlRVJOSzFCTHlYNnkta3RSaGc1MVFsMmNpcVFZS3EzZ2tHQTg3Z055NzJlWlB2d01Wc3RkeEhfRTl3ZEdzbE5ZNTJMc2xYQmV1T05rektOX2JubkZobnUzWWk0ajVOdDZLRkV3MTlidUxqSEhvRW14UE9sMERZWmdT",
+    "https://www.sherdog.com/news/news/UFC-Sacramento-weighin-results-Anthony-Hernandezs-Octagon-return-set-202472"
   ],
   "daily": {
     "d": "2026-08-21",
