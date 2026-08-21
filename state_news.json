@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento weigh-in results: Anthony Hernandez's Octagon return set",
-      "ts": "2026-08-21T14:39:35+00:00"
-    },
-    {
       "t": "Ketlen Vieira Slams UFC Over Her Shocking Exit Now",
       "ts": "2026-08-21T17:39:58+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Anthony Wint",
       "ts": "2026-08-21T19:41:55+00:00"
+    },
+    {
+      "t": "UFC Sacramento: Exciting Aug. 22 Show Locked in Friday!",
+      "ts": "2026-08-21T19:48:17+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Jim West: Anthony Hernandez's loss to 'unicorn' Sean Strickland 'an outlier'",
-      "url": "https://sports.yahoo.com/articles/jim-west-anthony-hernandezs-loss-020045176.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T02:00:45+00:00"
-    },
     {
       "title": "New bowl! UFC BJJ 10 free live stream, results, video highlights Tackett vs. Gracie",
       "url": "https://sports.yahoo.com/articles/bowl-ufc-bjj-10-free-090343435.html",
@@ -2105,6 +2098,13 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-21T19:41:55+00:00"
+    },
+    {
+      "title": "UFC Sacramento: Exciting Aug. 22 Show Locked in Friday!",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYWkwU3NRQnU4WUpBOXdCcmsxaVZiOVRaTS1jNW12MEMzZmV5QzkwSFRnZkx4MVg1WE15X0pVRVlvMzlOMHdUNG14Z28yTENYcG9ZNzFENGxEdlQ4cGRjUVd1d3pVUDRzTE11MjVpc2JJblJyQnctMVZ1OS1YR2lIN1dqNk1BMm5Pb2Jyb2dSYXRvZl9qQTNTZW1rNnNiNWZWYjZpVnN3WW8xcEE?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-21T19:48:17+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMixwFBVV95cUxNYzdFOHc1bTVxOGI0TnNWSjdZel95V1puR3pVZUd3SzZUOGI1YTdMQVowMi1yejh4UVV4STJXRHNoNU9WRWJHZ1pQTmF5aDdlLXdWTEZ6Y3lGblFPSEJPOHF4X0ZSTFNwakR4OExET09peGxDQmtWX0xuVDdLSDVUcjZYeEFpeDdOWWJSSnhQZS1qVnExRGhwQmExRk5jdUpDeUk0WkZwb2ZueUt1V0lqeEJyV05XSTNGRTJ0MVVqN0tyNWRfcm9z",
     "CBMimgFBVV95cUxQTllHbFBNWVpDNW1QaGRhdHpCbEJJc1ppdDNQOG9CdXl2VmxSNmJQNHphcXVWV3RqM0hQbGQyY0RaLVZsc3lHYlREbkV5UWFheGdXY0thTndieXpGY0VNY3lPM0hCZl9acjBHX3lYZVRFUXQ2ZGQ2X05tV25KTll0X1M4S3NKRU43U2hiMXpxWnJNQm5RTWdTU0RR",
     "CBMi4wFBVV95cUxNLUxkOUpHWWRYSW1GVWc0amFFM1VONkR3N3JXcmhHZHJIdnNfRHZzZ2JSa0Vad1BRVVVVTlpDbUl4RVBVdUxmUzRqa2JoaE1zV3FPTS1ydjIydlBLeU4wZEJYYmZKOUFvcXRpRFRrLXk3U1A1VDh3dS1RTEJHeEZzSzJlQUJkUjktUnFySFBkTjR0b0pnQlNYQzU4bk45cmlRSnBFanR5NWxpeTBwWlhjLVZ0YXFzWXZpc1RjaUpZUktXYUp3dHI4YkV5R1U5Y2xySW9qbzg0UWpHYzJGZUNQVU1Uaw",
     "CBMizgFBVV95cUxPbmZqSXFDSWo4SmZraXZXcHJuV2FSbDN5UTdTN2FUX2JzaC1jalc3NnY5VDJON2lkbGpEVmw2NXpObTktcC1vYkhYSWdWaEZVQ1F5Wkt5ZmJsNU8wcUdXMkxpVjh1MVQydnhmREFnelFKSnFFSF9PN1BxN0swbENRcEUyX0x6TzVpMzdGaU14ejNyc3VhRmstRVVBdGw0UTR1ZGhyQl9XYUd6ZlZMQS0yN0R0ZFVuVm83RXFGdVlLMVNsYnpzSFZyZkx1SnZFZw",
@@ -3312,7 +3311,8 @@
     "CBMiiwFBVV95cUxOV252RzFMZDl2QThWUW5mYWhYU0ZMR2I0TWk5R2dOLUc4UHhPY21GUHp4VUdJaVZ2OXBqcm5KUzl4UFVNdmU2cUh0d3J3LV8yUGtWTnJrZ0VBdUxhSGNJbVJJajhHb19ESzFob29FalRlTV9YUlVvdEJCTGdSdkEwZjZENGo5NGhxV2VF",
     "86abbab0-593f-35d5-9bc5-58dd1913bdd7",
     "CBMixwFBVV95cUxPR0NpOUJBMElFeDZqa0FPLUFKc3dZVjhFZmJwMWQ2SnVDRDhIZTM1cnZJb1k4ZTRXN3JybVVBTHdDQ0hYcDRkY0FiU2J2alJZZGtmNlVYWVktNXFGMU9ERklCNGtUeTlwakkzTENiN1QwV1VJemRmN1U1T0VYbUFIRVo1LXU4Nmh1bjZPTjdRZ0FoekRYMjQ4UE53cWtXVWNIcWVickxQUGhqZ3NaUmdqbXhyVWRsSE9CTlhTT2ZRT2F2ZmRsME5Z",
-    "CBMi2gFBVV95cUxQTDBlZzZ6dDZKVnEtVlYwbnkwY2dsRWR3SVc2OXNzQndtdWN1NFprOHBJX2lFaXRDdVFQSlFFd0ZPdGJnemZnNzNwN1g0ZnVvWGlTU2N5eGhlcmU0cnkyeVJjMFhITjRWNGNZeEZ6cHFYZlVsT2Rxc2l6bTlUQzNfOVhJazNLSlJVbUFsV0tiYVc5YWtBdm5OSGV5ZDhCYS1hbzZxbTlZeXpMSS11SmNKRUM5R2FUQnpGTTE5dGN1MXUwNW5qYVVnWFJYS0x4eUlGVjFRd296SUVpUQ"
+    "CBMi2gFBVV95cUxQTDBlZzZ6dDZKVnEtVlYwbnkwY2dsRWR3SVc2OXNzQndtdWN1NFprOHBJX2lFaXRDdVFQSlFFd0ZPdGJnemZnNzNwN1g0ZnVvWGlTU2N5eGhlcmU0cnkyeVJjMFhITjRWNGNZeEZ6cHFYZlVsT2Rxc2l6bTlUQzNfOVhJazNLSlJVbUFsV0tiYVc5YWtBdm5OSGV5ZDhCYS1hbzZxbTlZeXpMSS11SmNKRUM5R2FUQnpGTTE5dGN1MXUwNW5qYVVnWFJYS0x4eUlGVjFRd296SUVpUQ",
+    "CBMiqwFBVV95cUxQYWkwU3NRQnU4WUpBOXdCcmsxaVZiOVRaTS1jNW12MEMzZmV5QzkwSFRnZkx4MVg1WE15X0pVRVlvMzlOMHdUNG14Z28yTENYcG9ZNzFENGxEdlQ4cGRjUVd1d3pVUDRzTE11MjVpc2JJblJyQnctMVZ1OS1YR2lIN1dqNk1BMm5Pb2Jyb2dSYXRvZl9qQTNTZW1rNnNiNWZWYjZpVnN3WW8xcEE"
   ],
   "daily": {
     "d": "2026-08-21",
