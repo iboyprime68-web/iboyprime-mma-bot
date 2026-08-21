@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Paramount+ September 2026 Movies, TV Shows, and Sports",
-      "ts": "2026-08-20T22:47:15+00:00"
-    },
-    {
       "t": "Bengals-Bears joint practice takeaways: Joe Burrow gets into rare scuffle, defense terrorizes Caleb Williams",
       "ts": "2026-08-20T22:54:20+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Paddy Pimblett Faces Criticism After Dishing On UFC 329",
       "ts": "2026-08-21T01:34:05+00:00"
+    },
+    {
+      "t": "Songchainoi's Warns Banluelok Ahead of The Inner Circle 27",
+      "ts": "2026-08-21T01:34:45+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "The Polar Bear is BACK 😁 Serghei Spivac is determined to come away with a win this weekend! [ UFCSacramento is LIVE AUG 22 at 8pmET ]",
-      "url": "https://nitter.net/ufc/status/2090484006626181198#m",
-      "source": "UFC on X",
-      "cat": "ufc",
-      "ts": "2026-08-20T17:00:01+00:00"
-    },
     {
       "title": "It didn’t take long 👏 Anthony Wint won on DWCS Week 1 in dominant fashion and now he makes his UFC debut at UFCSacramento! [ LIVE AUG 22 at 8pmET o…",
       "url": "https://nitter.net/ufc/status/2090499102500934126#m",
@@ -2105,6 +2098,13 @@
       "source": "MMANews.com",
       "cat": "ufc",
       "ts": "2026-08-21T01:34:05+00:00"
+    },
+    {
+      "title": "Songchainoi's Warns Banluelok Ahead of The Inner Circle 27",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMEtUMGZaUHBmOTYzZ1NTRjhoRjMtUlJteG56TnZ5eFVFN0FWZUl3alFobC1sVHdmUHNTOG8xRFJiTWZrVkVDMVhVSEZFTlZTWGo3S3Y5cXlRekpRUDFocXdpSU5saGJKbThIeHdHT3hwSGF4c09TUVhYc2Q5TW83aVh4TUNIdmFXdTZCS242b25DejVwTTNpSzZEclYzckhZNmotQUMyNGRJajNCWHNv?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-21T01:34:45+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2089835045393682759",
     "CBMimwFBVV95cUxPUEZhNDZ6cEhLYmxqRmdWOEJPb09LcmRyOHVKWWQ4QVNDM1EyeHJ6ZEJIVFAzTmZvSzBHSUlMOU9odWM5a3d5OHU5dXdDVGxSd2psWG1sN2RtcnVHXzhJSHpSYngwRFRYb19wTXkxalVtTXZVdWtmYTk1Y25hSG9hZGpjUXlDRThIMU5nMExianMwQlEtSEVRSzNoaw",
     "CBMi0AFBVV95cUxOdEU3cm1aOVhRdVdzbTB5cEVjNUNzVlR6UVEwWE5STDBHOXBZNllTRnd1SXhuRTgyMkVnZ2hOTUdhbGFGWVhMeEl5NjRZNVllZEVUODJmWW9Qa1c2ejdDSVVrYzB6a1FCakdyZTZOeFhEY2dXUWlYZkVIcWhleWhrVW41MkZybEEydnA3UDVrSERPS2xNaEx6THpfQWgwcVVLRFczTVc0LW96Z1d5aWdxdE1KX0hWLW1rdm9hbmM3M2hKZHRKLXdWMDBIS1dRWEp1",
     "CBMinAFBVV95cUxQbVNPa1liVkFzU1gtM0JxVGV2OEN0MVBXdjd0S191Y3B1QVlkSTE0UURfcVJxXzQ5SFZFNXRFVlRKQlVrSTNNcFEtY0xfUDQ4UGh3T2F5SjRJa1FjVkR6WHdZLTJpUzlTWTNRU085alhYQVFUeVBNWjJtcWRHcnpBamw4RlctZURlY1N5MHZnSGV1Ty1nU013OFd0Umk",
@@ -3312,11 +3311,12 @@
     "CBMic0FVX3lxTE5XbGhtUUdHN1F5dWJTalZmOTcwSnhCZVhrOWlWWV9UUWpudmdpMlVsVUhSN2dtUjhGUWExLWZVX2NnMWdoUTVKMkpkeTBmbXh0SnpJYVRxRl9GdU1rbUhFZ2g3ZlBGUEpBZWxERXlyOTI4ZjA",
     "CBMijwFBVV95cUxQN01KSk1vRm80MmFpQkdBelFrU2hqek5vckZ0dVVmaWl0d3lfLTV3MkxlRjdRRVE0MUlraE5ZOWo1eHNJbG5rNmhKWEFNN2gwaEF2WGVjMkNpTzE0elRkZThKNFFmalhaTVhGV2pKV1RaU09UeThNVnNGekJPbzV6NldfYWZleC1PV0EwWWc3aw",
     "CBMilwFBVV95cUxNa1pkQ0FWaFdjTTZ5R0JDWEd6Zy14N2JkZHlyNjlvUUpxOGZkYjZ3LXVJdFN5V0JxVHltQS1oVUZsdlJUc1ViUTR4cjEzTHQyaXNRckYtb3UtWG1aOFlTUEtDYTgwTnM0V0hpbEVTNEZ0bTE2VUV3aXlEay16WkNNUGt2SDNxOXRDN3M5ZENNa3YyWjk0NnJv",
-    "CBMilAFBVV95cUxQSXNFcmhkMHNVMVdtaG12TXNGb3JJaVZyTllUaUVpLUpOX0FGWjZBNTNHUHZaTWFsMHRyNjlUc1VJYnF0RHFoZW9lcTB0MF9xeUgxMDY4TTJDS1pzRXFoZ2lPbFp0YzNaczFqV1NfaUZPaEc1R1dpNTltckRKdHJETUNXaHdpbmdXMWlERGlEUEtUYkFn"
+    "CBMilAFBVV95cUxQSXNFcmhkMHNVMVdtaG12TXNGb3JJaVZyTllUaUVpLUpOX0FGWjZBNTNHUHZaTWFsMHRyNjlUc1VJYnF0RHFoZW9lcTB0MF9xeUgxMDY4TTJDS1pzRXFoZ2lPbFp0YzNaczFqV1NfaUZPaEc1R1dpNTltckRKdHJETUNXaHdpbmdXMWlERGlEUEtUYkFn",
+    "CBMirwFBVV95cUxPMEtUMGZaUHBmOTYzZ1NTRjhoRjMtUlJteG56TnZ5eFVFN0FWZUl3alFobC1sVHdmUHNTOG8xRFJiTWZrVkVDMVhVSEZFTlZTWGo3S3Y5cXlRekpRUDFocXdpSU5saGJKbThIeHdHT3hwSGF4c09TUVhYc2Q5TW83aVh4TUNIdmFXdTZCS242b25DejVwTTNpSzZEclYzckhZNmotQUMyNGRJajNCWHNv"
   ],
   "daily": {
     "d": "2026-08-21",
-    "ai": 25,
+    "ai": 26,
     "staged": 2
   },
   "staged_hist": [
