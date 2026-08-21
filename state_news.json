@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Morning Report &#124; Namo Fazil claims he was accosted by ‘15 Chechens’ before Contender Series loss",
-      "ts": "2026-08-20T02:48:56+00:00"
-    },
-    {
       "t": "Will UFC 332 Main Event Be Jiri Prochazka vs. Paulo Costa?",
       "ts": "2026-08-20T14:33:30+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Petrino vs. Spivac: A Heated UFC Heavyweight Clash",
       "ts": "2026-08-21T16:33:57+00:00"
+    },
+    {
+      "t": "MarQuel Mederos | 'Welcome To My Introduction’",
+      "ts": "2026-08-21T16:46:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "\"It was a fking blast\" - Anthony Hernandez heaps praise on Sean Strickland and his team ahead of Gregory Rodrigues fight",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdFptcV9adTJpLUhNNm5tUHA4LWd4Q1l4SlFPSVhzaXNKNnQ5U09hcWJic3FkYVVUamh1QVFkNDc2bFBKUnktUnVyak82OFdTUXUtVXNydUdxaUxWZWRGbHVBWnRMU1JzaWZRVmJJVlRZalRqZHFaYk5rUHBuWGlxUU51anpVNGNlR1JHejVVaTUwSEFRX182a1ZlWDJuS2FYdElSVUYtbk9Ha2NORldicXRxNmNaUzBKR09WUkgwX3k5Y0N6cFU3eE13VFF6b2c?oc=5",
-      "source": "Sportskeeda",
-      "cat": "ufc",
-      "ts": "2026-08-21T14:58:00+00:00"
-    },
     {
       "title": "Gauge Young vs Stan Dorsainvil Prediction",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYlJjZDhOanNhOWRHcjlsbTZhNXZodkhCbm9BdlI0NWlMajMxYmN5UTExUTJoRThjTkZPLTNZRlVvekhpYnRvMmVtZElPWGIxSnRhWHdBNHZVbjBoUkMzeHJSVVdFbTVGdFV0Mnh2cWFtVXAwLUJWTlpwVmVyMExIRVJVZlBCWWVwNlNfcWl3?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "SportsGrid",
       "cat": "ufc",
       "ts": "2026-08-21T16:33:57+00:00"
+    },
+    {
+      "title": "MarQuel Mederos 'Welcome To My Introduction’",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLU94Z0NVeVlzbnhEd3h6MGV2WVlJam1uVUU4Q3FlRUgyM2lQbnp1NGlyNmhuX3Rlbk5VX0VPbmVRVzNfYmZ1d2xuelpuT3BFclZfTWRrWHNuaXZGX2JVbklyT2xKMVVod0RGV0hhMHl3TzJQRUpuRFJkWHcwbzljVXpOYno3Uzlvb1E?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-21T16:46:00+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMihwFBVV95cUxONzd6WERiNldHRTMyM3F4ZkowRFQ4c1g0aENlSkdYekF4NmxXS3JCTm82UEM3ekdBTHdmTjM1TFY4SGZidGZyUzgwZHlGaVUxeWV2ay1Jd2ZEN21MV0NLZV9ZaTNMNHZ0cURUSnlkWkk2ay03V1FUVmxWNTdWTnZGSDNqMEF6cjA",
     "CBMirwFBVV95cUxPNXJOZU81VVFybERPYlBvYWdTekozam84WkRxeTNtUHNEN2d4a0oyeGYyVGc1d2JtaEozWmc2REFybjFqU2F3bml5d1BGMDFGY295SWx2c2RrYnhQdElPZkU5cjUwUW54ODlRNnVLcWxlZ3BiakYyY3JjYWpBdmNlTDZPT2pVMzVhMU1ZTFdfVkNVYmZDamxoMnlLdXlPeWhrZDNJU0hRampITWZOakc0",
     "CBMihAFBVV95cUxQWVB1bjlEM1VDWjd4NjlMZkZKeU9UTXY0R1Zicld4ZHRXOG1GSVpsbWhBQTZVUEZuRjNVU2ZQRWFacFhtWnMzMUxiQ0Ytak9NbEx2eUhSMUdHNXYwYXlLTzBNS2JpMHhmaXpVZkNleHBHcFdIRXktckJGUkp1NUs1VTgwZzg",
     "CBMiXkFVX3lxTE1qWGFsSDR2SjlYcFJzRkpQNGJadktwd0toVHVNb2IwclhWUjdKMmlPa2l5MWRsbmEwakdPTjluTTVEM0VuQjBJdmp3V1Rub2FVZEVYc1dhdHQydEFHcVE",
@@ -3312,7 +3311,8 @@
     "CBMiigFBVV95cUxOUW90UnB2cUdvcjNMNGdnVnhFWWhwZy15MWp4RjFEN1I3V05ydzJUN3ZsTEVsclhFLVZyTWNvUFBCUWxhcXhJN2JJMXdmVUJLMTdmSTB1OXMwamtfbXBOY092OFQtY3pIZXA5akRQVFFIV084RTdNWWt5Ql8ydGUyQkpCMVRHT1dOOGc",
     "c22d4ef0-1213-3cd6-9cb6-8cd44e96858a",
     "CBMib0FVX3lxTE8xQnJBUC1YSjE1QkVQUzR6bXBkUmpkd2RPdURNYksyVGFNd3E2WTFfOXpCVkpJeVFGaF9DNVdSNV91SV9wVEJWVFFJRU9LOG41bVFndnVVdWo1UElPbE92V1l4QkJvekM1NW5xUks3Zw",
-    "CBMiogFBVV95cUxPdW00SU5YZmxrempBeDNqbVc3VE9JNDlfQ2NTWkhoSG9QU245ZnhFSjBUX2d5UUZFTlN5eGlYVnUzcXhfTVl0TjNKMDJCT2RrR2dZU1lmYV9LMGJlWHREWEhkNnQwdHgwX0h5WWZTYXduRDQ3RVZpVGdVcUpwRXVRNFpPM0k5UlNLT1FXLTNpNWNXYU1DaVFJWkxnWXZITUxrWEE"
+    "CBMiogFBVV95cUxPdW00SU5YZmxrempBeDNqbVc3VE9JNDlfQ2NTWkhoSG9QU245ZnhFSjBUX2d5UUZFTlN5eGlYVnUzcXhfTVl0TjNKMDJCT2RrR2dZU1lmYV9LMGJlWHREWEhkNnQwdHgwX0h5WWZTYXduRDQ3RVZpVGdVcUpwRXVRNFpPM0k5UlNLT1FXLTNpNWNXYU1DaVFJWkxnWXZITUxrWEE",
+    "CBMiigFBVV95cUxQLU94Z0NVeVlzbnhEd3h6MGV2WVlJam1uVUU4Q3FlRUgyM2lQbnp1NGlyNmhuX3Rlbk5VX0VPbmVRVzNfYmZ1d2xuelpuT3BFclZfTWRrWHNuaXZGX2JVbklyT2xKMVVod0RGV0hhMHl3TzJQRUpuRFJkWHcwbzljVXpOYno3Uzlvb1E"
   ],
   "daily": {
     "d": "2026-08-21",
