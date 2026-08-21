@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Pre-Sale is now available for #UFC332! Use Code: UFC Social Get Tickets Here: https://UFC.ac/46euWUB",
-      "ts": "2026-08-20T16:00:02+00:00"
-    },
-    {
       "t": "The Polar Bear is BACK 😁 Serghei Spivac is determined to come away with a win this weekend! [ #UFCSacramento is LIVE AUG 22 at 8pmET ]",
       "ts": "2026-08-20T17:00:01+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "in-5 August 21, 2026: Can you guess this 3-time UFC title challenger in today’s in-5 trivia game?",
       "ts": "2026-08-21T09:05:41+00:00"
+    },
+    {
+      "t": "Paddy Pimblett dévoile le nom de celui qui détrônera Islam Makhachev",
+      "ts": "2026-08-21T09:07:48+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Ex-NFL Linebacker Anthony Wint Makes UFC Debut Days After Winning Contract by KO",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZTk1Db0lUaEtJRVRWT0laMDF4STdZblRLdDI4SFB0dlpjcm81WWtsaDM2UTJ6NGhYamlDLWhkaURreTRPdjV0V2lnXzZlUlg2aldzM25BV1hiLTNWSVM1UFp4cWV5dHN6OUxzT0k5NGxVOG4t?oc=5",
-      "source": "Athlon Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T07:39:16+00:00"
-    },
     {
       "title": "Jon Jones challenges Islam Makhachev's GOAT status",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeFJJbHRMN290Ql8wRnhZeDJMUkc2eDk0QTdkVXRPRzNrUVR4S205dVJTRXI4dW4xODF6XzYtcTJQTmtaM0FhRUl3a2lKV0IwSmNLZ1d4WFI0SHhUQXBrUHYxM2txano4Um90bmtWeExfQ3RnODFZbkdrOXlVWkp1TGVfR2tOaC1yVkRkbDNPQVBHMFppb1Rj?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-08-21T09:05:41+00:00"
+    },
+    {
+      "title": "Paddy Pimblett dévoile le nom de celui qui détrônera Islam Makhachev",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOME5Vd241NjE2LV9nMnZvYjRyQl9pdHd0aGF5dEhXVzRQcVVkWTU3NFlQTkZ3OVMyYktyT0U4YTlIQ3N2VklsQTZDbVNHZ2NvalZYbkhYd3ZNOEhteHlMWk9vQXJBMWozeUNfdTNOS1oxWks4d0lTLXQ3eFozVDJyaS1KSTNIOFA3Z1g3VU9YbkRPQnhBY015VW9hdWd2Z3RC?oc=5",
+      "source": "La Sueur",
+      "cat": "ufc",
+      "ts": "2026-08-21T09:07:48+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMimgFBVV95cUxNd0x1ZHAzOU5RUEJfODRiR1E1eWlqcnRWQm9XNm0wYW10TDJibWN4c3FLempaY1VVaUxwd2N1X1llZC1HVUpweFBqbHpramF6b29MTTg5b0djTFZ6blFJTl9XSE9KSE81ckVrbnJHNHdrSDIybFhDLXNtbE0tbVA3T2thakJMd3UxOUpxY3hvN0Z2ZHlqWG04SXFR",
     "CBMi6wFBVV95cUxORkpzRXUycXRyZ1BDaHAzT1NORlVCbVVJaGMzQlJ1QjFoTzRvVFh6YVhZNHc3X3dZN0VISlhMZVdKOV8tZW1uV1FOVXR0T3c2S19YNjVtUFBTakhvS2x6ck5raElJTVBDODRRUzRacmhKejQwMlItcUhpa3k4TmtFQWwxaW01cFlhbFpBOFJPLXRsdUlHZDRLcWphRENjWElLRDdTdHRpZmltYmhkWE1USDhzMHd5UXlHWVRPY1FFMk8xZkVOeFc3VGs4Y1Y1cjl5ODhvR1BDcG96Sks4Vjl6SjEtNnpIajNka1k0",
     "CBMihgFBVV95cUxPZUowRFFIOGgxd3hjWTVHdFNreThpOHRyWm9BODlacnVvZGNsVFFBZEVoV3NuMExxV0xuMHVhUVN3cE1MRHJVUS1ZaTJGQTdTNm9zSlRQV3Ytd0lGWG50bFlmbzdMM1dmSWwyOUxDSGNBRHM0cDJiV2FJbnViZjRrMl9ESUZQUQ",
     "06a4f19c-d214-3cd1-b6c9-2e0cd3dae988",
@@ -3312,7 +3311,8 @@
     "e3c57e73-cd49-3848-a16f-5d2871c43c10",
     "CBMikwFBVV95cUxPbkMxOHBHaHVGNF9lR2xjcmVPRjRuOXJscFh1a2NmVy1aeDAwRW1tQzh4TlhURDliT2FQLTlzV0RWZWEyUnZzRVQ0ZFlnMzB1RHQzLXlZb1VYSEZ4QTRTNTNvS1B5eFBLRWVvV2VxR0NoUkhfckdqdnVhbHg3Z3l0d1RsaHhOODlWelJaX3RUOHNzX1E",
     "CBMioAFBVV95cUxOYWRTZHM0MzU0aUp2dE9zZVZZVzNNRTNaTGkzakd1V0VxWElVdTlDWERIS1lXd0N2ZWFfc0FGVWY1eng2NmhDQWVNeTY3Z3dyS0lEeXZhOHNPQ25VcDdKTFhHc05vNWdzRlNTWXB5OVN1OWsyVFFlMWlHYno5ZklyaDJxRlRCbDZSOXdVVnRhaXRfdUdwQlRoUFZFZVoyVFhV",
-    "CBMiXkFVX3lxTE1TMl91T1hidUsyeWduWDhEaWJ4X0lxamxCdFI4TmpYSjJ3a3VOVVRvRHlnaEhJRFlNdlJMekwzeWhmYkw1akJ2aTI3TDhRVUQ3eC1zTnE1S25GVFNyWEE"
+    "CBMiXkFVX3lxTE1TMl91T1hidUsyeWduWDhEaWJ4X0lxamxCdFI4TmpYSjJ3a3VOVVRvRHlnaEhJRFlNdlJMekwzeWhmYkw1akJ2aTI3TDhRVUQ3eC1zTnE1S25GVFNyWEE",
+    "CBMioAFBVV95cUxOME5Vd241NjE2LV9nMnZvYjRyQl9pdHd0aGF5dEhXVzRQcVVkWTU3NFlQTkZ3OVMyYktyT0U4YTlIQ3N2VklsQTZDbVNHZ2NvalZYbkhYd3ZNOEhteHlMWk9vQXJBMWozeUNfdTNOS1oxWks4d0lTLXQ3eFozVDJyaS1KSTNIOFA3Z1g3VU9YbkRPQnhBY015VW9hdWd2Z3RC"
   ],
   "daily": {
     "d": "2026-08-21",
