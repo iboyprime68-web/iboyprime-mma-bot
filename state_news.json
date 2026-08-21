@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "The saga that is the making of AJ x Fury continues. The items listed below are accurate. I’m told they are from a recent Matchroom e-mail to SELA reg…",
-      "ts": "2026-08-20T20:47:49+00:00"
-    },
-    {
       "t": "UFC BJJ 10: Tackett vs Gracie Results",
       "ts": "2026-08-21T05:31:48+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Preseason Game Preview: Vikings at Giants Stream of National Football League",
       "ts": "2026-08-21T07:14:07+00:00"
+    },
+    {
+      "t": "Alexandre Pantoja has a problem with how his Joshua Van loss is remembered",
+      "ts": "2026-08-21T08:13:15+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Yair Rodriguez releases statement, explains Noche UFC withdrawal",
-      "url": "https://sports.yahoo.com/articles/yair-rodriguez-releases-statement-explains-193442182.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-20T19:34:42+00:00"
-    },
     {
       "title": "UFC 331’s Tai Tuivasa joins American Top Team amid seven-fight skid, hopes to listen to new coaches",
       "url": "https://sports.yahoo.com/articles/ufc-331-tai-tuivasa-joins-210000949.html",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-21T07:14:07+00:00"
+    },
+    {
+      "title": "Alexandre Pantoja has a problem with how his Joshua Van loss is remembered",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNEdYZTZNczNOT2pvTFJTbmpKV0duendOcmhNUEpxWUw5QnRPYjVQRUNSWUc3U3AtVmhOemV0WmlvWWprQVhRYVZqaVk0dTZIOFptRlhxWTdOUEVLUkZCc0ZRRUw4UFptTV96M0ZCci0za1UyTzNKTS1nSUxuM3NsenpkSF9NNEpjUmlLSVViMWJKMmVXc2s0eDdpeVZoYmhBQkxRRUZEbVl6SUlURjZCaHhYSnhRQQ?oc=5",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-21T08:13:15+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMifkFVX3lxTE9uT0RKZXlKdVJKa1A3cUNXR1JYeVhRcUU5SHRIWHZrWFdnWDFwMkVWb0owdTdOblFyMFdvSXFaN0dHTTJBbHlPT1Y2ZnROQVhjelFCTVFHdjFyYjVaekQtZWE4V2VDTS13Q0c3U1AtTnNYcG5PT0NSblE1TDRWUQ",
     "CBMiZ0FVX3lxTE5MYWpqdnpGdE5nLTRnWEpmdVByRkhSTVhaT1VqTVRHYmZVVFZEMzBfWHZvcDc3RC1VcnZuQzlEb2t3NHJMd19NTmF0T2lWdkEzTnc1SXFyUEJzenpzSklxTGFKQWZiZVk",
     "2089891452880855400",
     "2089888813791244406",
@@ -3312,7 +3311,8 @@
     "CBMingFBVV95cUxOUTVqREFTY0RId3FCMWNDcDNBWGdzb0djT3JTSHZvc3ZfX2ExTDlMZGN0cFd3MTBBQmh0cWlUMVIzUTM5T01WbUdXX1l1cXJFZ1hFN0RJWTFkSVRMemUzeGZEaDhBNGF2M0VxeFRIUmQxSG1IaGJjS0tJU0R2X29JaHlvU2tUOGJIaEp5TTZXZmZ0c2ZPZFZzVUdLYl9kdw",
     "CBMi3gFBVV95cUxPT184QkVDYlU2R2s4eXRJb2pKNFlLREd1eUU5bmRLcWZlTEpUeFM1QUIxZHd5TDEyOUJTeWRoUGFCaVV4MlhzMXNtNzMtbXFZeHdMM1FXTEs1YzR2MFpqQW5YbEpiUm9hTFBpMEFYOGdaSW84WXotZEJVR2JnZVF5RHBxanE5bkEzZFljTVNTek1ST05TdDhtalVPTk1Xc3B6Q0E0UWtvTnJ3QmJ4Vmc4RXpfakpNVmdrbXZRbjNxcnB6bXp4VUVDSTZGb09idnhJUUtYOHhGdi1RcVBDSEE",
     "CBMikgFBVV95cUxQbU9iOXQwODMydDVlZUlxMXk2ZzRwTjltTnRtNWQ4cWJlMkJYMWRLcWlhRGlNSnFNa044SHZmMEJsTWZwd3FJQnpOMUdSczlpdWlLcE9SZDBMdHdxeEtVNjFGRjFidV9DSktDeEYyUWs4dXZiUkxwVzdCalp1dXBzRHBjVGVxdDBSVXhkVUd3VTZzUQ",
-    "CBMitAFBVV95cUxPQjhYUUdMVUtyVk1YQXZGN3hjZ3dpYzBsWVQ0UVNZRm11TE9sRmNYa3RidXBwbXY1STJ1eEpqdl9tdTk5N0pSUk9kY01wSWotOGdIdk5yTVFob1BVNEtXUXA4T2stdm9WMjNDeWZ2X0Fla0hlRnJYYk9FNGlDaXUteVFCRnMxaHd2ZGF1UGJkb1dVdEh4N1ctbkYxSXdEdG5pZGZvcW4wOTRROEpXa0Z2YnpBeFE"
+    "CBMitAFBVV95cUxPQjhYUUdMVUtyVk1YQXZGN3hjZ3dpYzBsWVQ0UVNZRm11TE9sRmNYa3RidXBwbXY1STJ1eEpqdl9tdTk5N0pSUk9kY01wSWotOGdIdk5yTVFob1BVNEtXUXA4T2stdm9WMjNDeWZ2X0Fla0hlRnJYYk9FNGlDaXUteVFCRnMxaHd2ZGF1UGJkb1dVdEh4N1ctbkYxSXdEdG5pZGZvcW4wOTRROEpXa0Z2YnpBeFE",
+    "CBMitgFBVV95cUxNNEdYZTZNczNOT2pvTFJTbmpKV0duendOcmhNUEpxWUw5QnRPYjVQRUNSWUc3U3AtVmhOemV0WmlvWWprQVhRYVZqaVk0dTZIOFptRlhxWTdOUEVLUkZCc0ZRRUw4UFptTV96M0ZCci0za1UyTzNKTS1nSUxuM3NsenpkSF9NNEpjUmlLSVViMWJKMmVXc2s0eDdpeVZoYmhBQkxRRUZEbVl6SUlURjZCaHhYSnhRQQ"
   ],
   "daily": {
     "d": "2026-08-21",
