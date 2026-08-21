@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Paddy Pimblett Reignites Rivalry with Arman Tsarukyan with Scathing Take",
-      "ts": "2026-08-20T23:24:56+00:00"
-    },
-    {
-      "t": "UFC analyst reveals curious MMA Mt. Rushmore: 'I'll take heat for it' (via @MikeBohn) https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-…",
-      "ts": "2026-08-20T00:40:29+00:00"
-    },
-    {
       "t": "Kaik Brito was inundated with Namo Fazil fan messages before DWCS knockout https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/19/ufc-dana-white-…",
       "ts": "2026-08-20T01:25:59+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "LaTulip: Who must step up with David Mirkovic out Stream of General Videos",
       "ts": "2026-08-21T01:41:35+00:00"
+    },
+    {
+      "t": "Adele Fornarino Bowl Interview | UFC BJJ 10",
+      "ts": "2026-08-21T02:04:57+00:00"
+    },
+    {
+      "t": "Cassia Moura Bowl Interview | UFC BJJ 10",
+      "ts": "2026-08-21T02:10:44+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Arman Tsarukyan reveals emotional reason for wanting quick finish against Mauricio Ruffy",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYjN5RXZUTm5xcE1pU2d5VDFrZjFqWkd1V3BpNHNDNklLUk8wWUFCZ2p3ZzBFRnJlNWZIRFp0NHREbjZEdVh6MUFiaXRBb2lOenhiWmktSTl0WEc4ZHgwRXlOdmo4UVFaaUU0bGtqQW1scEdfTXVIS3gwUDlUUXhoV2poM2NiZVBsa21MZFphdENEazBTWDRKT3dsWVI1ZzVHbUtJenpTQW9fMy1zUFpGWXp0V2pqQQ?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-21T00:09:39+00:00"
-    },
-    {
-      "title": "Sean Brady: I don't think Shavkat Rakhmonov is 'ever going to fight again' https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/20/ufc-sean-brady-…",
-      "url": "https://nitter.net/MMAJunkie/status/2090586173051642110#m",
-      "source": "MMA Junkie on X",
-      "cat": "ufc",
-      "ts": "2026-08-20T23:45:59+00:00"
-    },
     {
       "title": "UFC vets Andre Fili, Kai Kamaka III set to throw down (via @mmakings) UFCVegas122 https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/20/ufc-ve…",
       "url": "https://nitter.net/MMAJunkie/status/2090590260203815045#m",
@@ -2105,6 +2091,20 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-21T01:41:35+00:00"
+    },
+    {
+      "title": "Adele Fornarino Bowl Interview UFC BJJ 10",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1fTlhHdkNINC1Lczc4OXUzNm9ab2NaQjZBMWtSdkpzTFJIOWZPU05tNFQ0WHB4dldScDNRc3hpWWJtM2VGdUxz?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-21T02:04:57+00:00"
+    },
+    {
+      "title": "Cassia Moura Bowl Interview UFC BJJ 10",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9KaDVHTmY3VjNlVGR2NGtpSkdfZm5GdlBYWWtzOGRTOTBVSG9ybWpyNWR6ZXJUZkptaEE2cUxnbmU1bHRGelY4?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-21T02:10:44+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "176afaa0-5301-3b2a-b97f-d9c414826eca",
-    "9fa89405-6579-386d-a822-6d5f0c0e1b78",
     "CBMihAFBVV95cUxQV2RUYXZxUG9mUkVGLXRCSkZ0dXZNRWhJVGRNeHk5RGhTcVFFZ1l5andLd0VNMURYVzBkWEw3UjVJR3FOT00wQk04OUF3TV9FT1NlVkFnNWg4VGllc2RGVkw2M3JieWQ3R014N1pPbmlxc1VGWVRSUzdGWUowei1GNzVzOUU",
     "2089836109320839342",
     "2089837388222562793",
@@ -3312,11 +3310,13 @@
     "CBMi_wFBVV95cUxQal9CdzJSZFJRNVF0LXQxa2wtSVpRVks3ZDk0Zzk0azh6WXJUbEY3Zzc1STc1N20tUm5BY1BxenhFOHBBMFZFajM1VU03VnI5YzFhMmRDR01iTVhTd0d1Yl9HN2FLY0pwWlFmdm1ZYWxGWWpzOUxiZERXMW9uamhwd2Q3WFF5NDlMM0ZKM0lkdE9ucEZUS2JaaFlvalVhYnloUWUtZXlQNlJyYllSemFNa2dha1FLNU10YWN5aUNyRkR2R2RwN3J0RjVGQ2pZeVQ0RHJyS05iT3JkSjlFWHRSaldXakd2U2VGU3R4Ql9qWnE0S3RrSjMtZXc4VVhKUHM",
     "CBMimgFBVV95cUxNVEItTEdsakp0dXhwQWZhXzl6SG44SE9CUUxMVDBRZDNKZDFaNV9PUkdyZHJWZWZjZkJlMEF4ZHlLaUluMDBsa0RnVzlmc2VaTkJaYXJLYmcxM0tjNGs2QUVsTEFHeW1uc1ZVTXF5amhXb2hjaVRJYUxrc1p1Qkk2eDh6ZkZCZUdCNXRxLUZRZXVPRjFrSzJtSFd3",
     "CBMiwgFBVV95cUxNcGJxcDVsYzZXYkJtbnB3TWZfR3I0TlI0ZmFMRUg4SXJoWDFBQkJTQXA3SF9meW16Z3pLZ1JtYVZmdUd3SEpLTlY3cDB4STduTWJYRnVURks1dmV3b3B0YjBZT0V5M3YtczJrcVNnWnAybnB6bmRIT1gyMXJmcWMyd1ltTkZDOHhuQXRlX3BCSTZQbWhzUVpHcGhIREZFNHFLSjc3Sk5jbURIeUZ2NThIbFNCWU1zR09mUHlwUGhQNlBUZw",
-    "CBMimgFBVV95cUxOMjlqTXlaUjN1RWVsV1lWbHBDRFdWcHQtVFNmblNvTGRvUW9TVlBQSzN3c1RvcjBoSjNlQU0xSWd6SWJTZ21wVndUSkJXb3FNN3ZEUEZ5MTdieE16VFBLZkhRSGhmdmN2ZzZwRk1ZcGZaaFRpNGN6VWRPaGpZUXhvMjg3THhNeHU2V2ZvOU4zRVJ0REJ2ME01NklB"
+    "CBMimgFBVV95cUxOMjlqTXlaUjN1RWVsV1lWbHBDRFdWcHQtVFNmblNvTGRvUW9TVlBQSzN3c1RvcjBoSjNlQU0xSWd6SWJTZ21wVndUSkJXb3FNN3ZEUEZ5MTdieE16VFBLZkhRSGhmdmN2ZzZwRk1ZcGZaaFRpNGN6VWRPaGpZUXhvMjg3THhNeHU2V2ZvOU4zRVJ0REJ2ME01NklB",
+    "CBMiR0FVX3lxTE1fTlhHdkNINC1Lczc4OXUzNm9ab2NaQjZBMWtSdkpzTFJIOWZPU05tNFQ0WHB4dldScDNRc3hpWWJtM2VGdUxz",
+    "CBMiR0FVX3lxTE9KaDVHTmY3VjNlVGR2NGtpSkdfZm5GdlBYWWtzOGRTOTBVSG9ybWpyNWR6ZXJUZkptaEE2cUxnbmU1bHRGelY4"
   ],
   "daily": {
     "d": "2026-08-21",
-    "ai": 37,
+    "ai": 39,
     "staged": 2
   },
   "staged_hist": [
