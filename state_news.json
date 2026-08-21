@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Devonta Smith Spotted at Eagles Practice Stream of National Football League",
-      "ts": "2026-08-21T10:21:11+00:00"
-    },
-    {
       "t": "Meta v 29 US states: What the trial might mean for Facebook and Instagram globally?",
       "ts": "2026-08-21T10:37:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Ketlen Vieira Shocked UFC Cut Her",
       "ts": "2026-08-21T14:13:47+00:00"
+    },
+    {
+      "t": "Rainbet Welcomes UFC Star Sean Strickland as New Ambassador",
+      "ts": "2026-08-21T14:16:55+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Releases 0-4 Women’s Fighter",
-      "url": "https://sports.yahoo.com/articles/ufc-releases-0-4-women-073247377.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T07:32:47+00:00"
-    },
     {
       "title": "Andrew Tackett calls out Paddy Pimblett after nasty UFC BJJ 10 win; Moura vs. Fornarino finals set",
       "url": "https://sports.yahoo.com/articles/andrew-tackett-calls-paddy-pimblett-041448977.html",
@@ -2105,6 +2098,13 @@
       "source": "heavy.com",
       "cat": "ufc",
       "ts": "2026-08-21T14:13:47+00:00"
+    },
+    {
+      "title": "Rainbet Welcomes UFC Star Sean Strickland as New Ambassador",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObHB1X2dJSkNEN2NXZWZ2dzhzTm5udE1SSG1NdWNtQ2ZuZ3dEUzdXUTdKVEQ5dkJaYk9VM25TbjBBNEJoWVRQZ0QyS3BWVklSd0V4dkpnZUVoSDdsdGNOd21XbHN0SGI1STVWa2FXNFFMQndUQmI0MVE0S1NjOWJLRWxWeTVna1ZpVUE?oc=5",
+      "source": "MyMMANews",
+      "cat": "ufc",
+      "ts": "2026-08-21T14:16:55+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMimgFBVV95cUxPSmJ2dGhXSFR3b0xybzh2Sm43R1UwWEhQcHZEWEptZlBtR3dkYWswN2ZEX3Y3S09Vem5STHN5cG1FYXZUN0dwazRqR0l5N2RqUlhQLVhMeFczcUpMc3dNcWxTMFhBY3N0bnE2UlJUUHU3Y3FIMDIzaGFZZzY1SFMxVC1hNmY0YkRCTnkydDEzT0NCM3RUQ2drZ0Vn",
     "CBMipwFBVV95cUxQM1M5Q1BKbklmdUE1X0R3VnRIaVRtYlozSXlzZGsteWJaTjNjcExQT1cyMDVURTVtVlM3YWFvNWNnRnB4QTk1bVowamRFMEZtcm91clpqeHJGdkIzRm5MS0Z1NFQ2WFhMU1RGWEh4UG1BRDNIR0tZaU5CNENoUmIybk1uZ1BEYXBkTzR3LUhicHZDODdWRFJySG0zM2NnT2k4b0lWd1FwQQ",
     "CBMibkFVX3lxTE5RdGxvSDN4d2Jaa3QzU0QyT1ktaElDcU1PMGIxSXhIZXpxenowN0t4dk44Z1dFMWRJUnJlQU15Q2ZqMTRFTE53U3RzQ1VTa1VGNGpLNFU1QUZWNjktS2EzblEyc0htOTRBZmZ2WFJ3",
     "CBMiekFVX3lxTE5GNHowazBtb1lqQXBMa3VUZG5wSDZ6ZmhKd2dQaWtrYjRxdzczZ2tjZGNFa0ZhMDZUZ1V4SHUzSnlfTk5QT3hwR05jZmpQQW5yVEprMlhRd08tcHVuMGZlWlgyWkVJZV96U0MwbnZqMV9uRmc3cnptV2Rn",
@@ -3312,7 +3311,8 @@
     "CBMigAFBVV95cUxPRWJabG1vMjB6VkNhTXBqNm9FREtua1ozT3hxOFFYc0ctVVVqeU5rRURxZEVmcUN4aFVDWWktM0lpVlE4clByanNKaHc1Z1dyT2xFaDRZUHg4ek8zUmlaVmZzTktNMjMwa01jNlB4c2FMZmdDWFp3Ty1DazJBRFdRYQ",
     "CBMiggFBVV95cUxOblBNRzRTQ2ZaTF9LTEpqTVJwYlRYM3d3VmdIWXZMRmN0TXhuYTRwRUNJUU1QRWMtaWk1TXJnZFduWTBiaUxXUzNFU1pBTXZDSnpET2stdm5OREFaWENFMEFjNmo1QzczeFAwV0dpQXlCSFBnblpXMG5vUVdTWGdkeVZB",
     "CBMi1wFBVV95cUxOR2VGbE1ReTdoWjJadlJzSG5ybS10WVh3S2R2QzBBa1R1NWhjYWppekdjTmdzbURuMjJtemlRa0pObExybTd3RHNNdzRNTmJFUHZDa21GamstWEIzNDI1ZXE5YjFWeUZncmFsNi1UUXdNRjV3N3NjVUlqSzNzYWxYUUVPT3RCZnp5SWhTbXBqSXVzYWptd19NSHY4RW5hMUJYeGNDYVlLdGFXR0FFT1FLMlZEendkNjZYbUlod0lqVWhkR0NJM3o2N3ZPY2RRUzhleDIwV1JYNA",
-    "CBMicEFVX3lxTE5yN0l0SVYtLXdNeVJ3TXBia00yNFNvWl8tTmxUZV9HWnZtT2p5bFBxQmFoUVBHSXdMSkVCbGY2OE5fcDNCeUpsdkJJa3YwTFRsQUhxRzQ5RWhGcUNGWndfSExMdTZiejBFYWZPNDd0Vk0"
+    "CBMicEFVX3lxTE5yN0l0SVYtLXdNeVJ3TXBia00yNFNvWl8tTmxUZV9HWnZtT2p5bFBxQmFoUVBHSXdMSkVCbGY2OE5fcDNCeUpsdkJJa3YwTFRsQUhxRzQ5RWhGcUNGWndfSExMdTZiejBFYWZPNDd0Vk0",
+    "CBMiigFBVV95cUxObHB1X2dJSkNEN2NXZWZ2dzhzTm5udE1SSG1NdWNtQ2ZuZ3dEUzdXUTdKVEQ5dkJaYk9VM25TbjBBNEJoWVRQZ0QyS3BWVklSd0V4dkpnZUVoSDdsdGNOd21XbHN0SGI1STVWa2FXNFFMQndUQmI0MVE0S1NjOWJLRWxWeTVna1ZpVUE"
   ],
   "daily": {
     "d": "2026-08-21",
