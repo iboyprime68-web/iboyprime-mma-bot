@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Ronald Humphrey vs Alexis Miranda Preview | DWCS Season 10, Week 3",
-      "ts": "2026-08-21T17:52:31+00:00"
-    },
-    {
-      "t": "Mario Piazzon vs Guilherme Uriel Preview | DWCS Season 10, Week 3",
-      "ts": "2026-08-21T17:52:34+00:00"
-    },
-    {
       "t": "Carlos Petruzzella vs Nick Galanti Preview | DWCS Season 10, Week 3",
       "ts": "2026-08-21T17:52:35+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "LeBron James Games To Watch: 76ers at Rockets Stream of National Basketball Association",
       "ts": "2026-08-21T19:46:51+00:00"
+    },
+    {
+      "t": "Former Raiders CEO Talks QB Battle Stream of National Football League",
+      "ts": "2026-08-21T19:56:51+00:00"
+    },
+    {
+      "t": "Hector Lombard attacks 'fake f*ck' Din Thomas on Instagram",
+      "ts": "2026-08-21T19:59:39+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Paddy Pimblett: 'I'm gonna absolutely rinse' Topuria and Tsarukyan's lives",
-      "url": "https://sports.yahoo.com/articles/paddy-pimblett-im-gonna-absolutely-125022122.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T12:50:22+00:00"
-    },
-    {
-      "title": "Mania Mailbag: Would you rather be Din Thomas or Dustin Poirier right now?",
-      "url": "https://sports.yahoo.com/articles/mania-mailbag-rather-din-thomas-150500579.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T15:05:00+00:00"
-    },
     {
       "title": "Henry Cejudo: Merab Dvalishvili RAF loss 'humbled the sht out of me'",
       "url": "https://sports.yahoo.com/articles/henry-cejudo-merab-dvalishvili-raf-152022238.html",
@@ -2105,6 +2091,20 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-21T19:46:51+00:00"
+    },
+    {
+      "title": "Former Raiders CEO Talks QB Battle Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOEJHVFpFdDMzd0xJaDF1czI1cDB3WmY2UnNjYW4wU2E4b1Q3ZXVlY19CUkF5elFuX1R6NlZ4N2stSkI3bzJXb0JqeTJEUWlmakR2R3ZPQXdZenZfSl9td3ZvOGV1RmRDUDA0cm9odFd4VWlMZTd3UGxncGtIWjkySHZFYjJaUVE?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-21T19:56:51+00:00"
+    },
+    {
+      "title": "Hector Lombard attacks 'fake fck' Din Thomas on Instagram",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNWEtTlVrclZTSW90OVQ0dVAxRDVnc3hFc1dxd2tUQ0c5Z2sxcF90R1lubUZVa2JmeUtMUTZiZ0pLTDA3LTZiM2d5Q0w2MEhaOC1CbEZLMmRkcVQ2NnhKcnlvSG42N3lNWFRteVFCOG52Q2JkekUxRFJIUkFEV3RicVNZOURsY0ZnTkloOA?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-21T19:59:39+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "705ec0ea-ba2c-3171-9ede-e9e49c4e7490",
     "3ca12a8d-4b29-32f0-9ee3-0742e1ef7ecb",
     "2090098968445276581",
     "CBMixAFBVV95cUxQbVU0ekFHaFBWeGVtU0lwVm1PTkxiQ1NqVzFQTTV1bnhMb3RuZ0JRSDN4M0RFLVZTNmxaM0ZZandibXMtQ3pad285NUpBQ2tRRmNPMVUwNy1ZN3FVSm9VTGI4Unp1Q2xXQy12UFlPSGRLQ1V6RTE1QW1md3pDMUZ4d21Gc2kwVFIxR19GRDJlcjltaE1xVU9CT1hfam1OZUxvRE1oZzc2N2otMFF6SEZkQXJLV2Nwdmw4UTlFcllyQl9QM2l4",
@@ -3312,7 +3311,8 @@
     "https://bloodyelbow.com/?p=328084",
     "CBMikAFBVV95cUxPUXFaOEx1UWc3aDNRczZWcW5lbXZnQVFxcnZUUFUtdGNHUVRrdHVtUjVkX1lmVjlIeDA0dl9LM1ZaQnhQTmk3cDUtaEhLV09hZWJHNXhUaFBpNFprMUY5NFhERjgteEcwSFpZZmRWTm9QdVc3MFhfQm1fZms0dVRUcEczNF9UVmdSS3NEWmVwclrSAZ4BQVVfeXFMTjNCd19Jem05dWc5NnlxREpiUzZFRlNQRzljRVVsWUJwNEd2NVgxaWZiaGdKMXdMWmpVeGpub290ZVgyRVZ3aGJWNHV3TVNrM2oxc3hvSWlmejQyaW5fU1diQmhfaVdDZ19iZ2ZONnRXdHdRZ0hidXNPSkFodGx0ZEZBUjQxV2plV2lDOU9VVk1SVDE1ZTI3WW1ZQnJXbUE",
     "CBMiXEFVX3lxTE1BdlVBM1RlMWMxUDZDMXVINFVrbHVCZHBGLVBQUUdpT2NsME0xUVRGSTFCTkQzbGRXSy1HNl9NOUlGcUhBUllWTkRZeVA0Z0FrYkJvWncwQ3ZET1Aw0gFkQVVfeXFMTTBleGxVMGtPcG01Q0FLTGZQd0VZZ3ZOUm9QTlFZUWhKRzgxYk0zWDVyTnJ1M3JYMW1TNzNEVTBvQW1nNFpuLWUwUWdBQ3c5N2NLdTJHUFNNQ3RzMFRraE1pS05IMQ",
-    "CBMijwFBVV95cUxOMWpGVHdJMGJpS2U5TzJSNF9wYkNnaElUb2RLUFNaVEtSYTVTZV9iMHhlS1JuQVNzcHhDMWxLeWR0dTRYejcxZXBOVE84bGIyVWgwbnlHcUdudUQyejV3UFNXRUJINjNFTFZXS2VjMEU1WHJkODMxVHpLdzVtVE90UFE2LURXTGhUUVZLb1ozTQ"
+    "CBMijwFBVV95cUxOMWpGVHdJMGJpS2U5TzJSNF9wYkNnaElUb2RLUFNaVEtSYTVTZV9iMHhlS1JuQVNzcHhDMWxLeWR0dTRYejcxZXBOVE84bGIyVWgwbnlHcUdudUQyejV3UFNXRUJINjNFTFZXS2VjMEU1WHJkODMxVHpLdzVtVE90UFE2LURXTGhUUVZLb1ozTQ",
+    "CBMihwFBVV95cUxQOEJHVFpFdDMzd0xJaDF1czI1cDB3WmY2UnNjYW4wU2E4b1Q3ZXVlY19CUkF5elFuX1R6NlZ4N2stSkI3bzJXb0JqeTJEUWlmakR2R3ZPQXdZenZfSl9td3ZvOGV1RmRDUDA0cm9odFd4VWlMZTd3UGxncGtIWjkySHZFYjJaUVE"
   ],
   "daily": {
     "d": "2026-08-21",
