@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmafighting.com/?p=505782",
     "https://www.mmafighting.com/?p=505789",
     "https://www.mmafighting.com/?p=505802",
     "https://www.mmafighting.com/?p=505831",
@@ -819,6 +818,7 @@
     "https://www.mmamania.com/?p=466076",
     "https://www.mmamania.com/?p=466079",
     "https://www.mmamania.com/?p=466145",
+    "https://www.mmamania.com/?p=466163",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Reinier de Ridder Aims for Comeback as He Returns to Light Heavyweight at UFC Fight Night 285",
-      "ts": "2026-08-21T04:57:33+00:00"
-    },
     {
       "t": "Anthony Hernandez vs. Gregory Rodrigues: Bloody Elbow staff predict the UFC Sacramento main event",
       "ts": "2026-08-21T05:00:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Jackson Ross highlights Aug. 20, 2026 Stream of General Videos",
       "ts": "2026-08-21T06:22:40+00:00"
+    },
+    {
+      "t": "41-year-old Rafael dos Anjos returns to action after two years at UFC 332",
+      "ts": "2026-08-21T05:53:44+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Heavyweight is Left Utterly Impressed with Islam Makhachev for One Reason",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQVJsdm9RbUdlUGtMa282ZDVXLTdCVnJNLXpidE91SnlhN3dYcWlEbnJVaWJyYXBtUFd3cDFjQmdleml1QVVyMi1jZ0cxQTZYR3NuQklsV01jT0dyMjg0enFTb0w0U0JBQVV6MUR2cURxUXM0TWt3VEdMR3l2b00xbFFERzlKSG83bkNQclBNQUNvaXU5Wng3RHVSREIzZzhxaUlLc21R?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-21T06:20:51+00:00"
-    },
     {
       "title": "Salut, Paris. 👊🇫🇷 The UFCParis fight poster is here!! Get tickets today: https://UFC.ac/4wJPPlM [ LIVE SEP 5 on @ParamountPlus ]",
       "url": "https://nitter.net/ufc/status/2090017177269407844#m",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-21T06:22:40+00:00"
+    },
+    {
+      "title": "41-year-old Rafael dos Anjos returns to action after two years at UFC 332",
+      "url": "https://www.mmamania.com/latest-news/466163/41-year-old-rafael-dos-anjos-returns-to-action-and-lightweight-after-two-years-at-ufc-332",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-21T05:53:44+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMif0FVX3lxTFBmX3p3WUpXWUJ5dDhMakRaWmFXSjlhR3YxVFJqTTFQdkpJT0pQeGdRbzNPV3h1TmZ6TUdoTXNKd1VkaWdCbDlHNlctMTk2QnpRRTdnZHhiZUFhZk1mSHljVHlQM1g4NVdER2JmQnlLN1dqem9tcUZKcVpDellaUWM",
     "CBMibEFVX3lxTE5mX1JLVldQeGdjSE9OZ3NBb2J3aVdEWW1KWTRGakpmSTgtMjRuTGRtWkdobHpEZmJLbmJnc0ZXWEFWcURHYUp3SFJkQkJqLUp0SUhjcmJDR2M2UjdJYXBWV1pZTzY0ODh2aFFaeg",
     "CBMiR0FVX3lxTE9qZFE4clBlMWhVUWJWQ0h6bGRlLU9jYmNnQXpLOFFGQ3YtcmtNa0RyeXZMLVdFMGlDNWpBUUN0Y2xyYmFucm93",
     "CBMibkFVX3lxTE9DZWdhT1VWYlozbzZ1dHk0Vy12ZGpDTWJIeERxdWNha2hHbUxqV01qUm9mZ2xIdy1qVGZFUnh4MlNmb3ZWRGJtRkV0Slpxak85djJHUEg5WGhBZ25tWmVRZ1ZDOVBfc2g5bUNBM05B",
@@ -3312,7 +3311,8 @@
     "CBMipwFBVV95cUxQWksyU3RVQ0lCal8yTTk0bjVtUHNKaTZ1QlJqb3JMNHNjZ05Mako0aTZWeXIzcmtubjVmUHhXNW9iNkhHbWhHdWZoeV9lMTl5WlJOT3I2d0Zqdkk0TnRFbEZRZmlUMmM5UnFkbExiNk1EU3lsSmhlV05GRThseUVMd0V1c1NtZm56dEhOamFCVFdLTXUyb0w1bmdXdXptNWM0SEpWa1Fkaw",
     "CBMirAFBVV95cUxOZWlCMHNoZVVjeGppZTVLYXZWaXVRZThwMTNPOU1pczRZR3dleEdqS2E2TjNRSks2ZEl6UUllWmZhY3dRUXQ5anhsOEU5TXdncFN4bl9EUHR0YkU2NzJDTHlYWFNMLVlPYmxnMmZkQ3N6UGpWeFdBQ1lLbHUtZFhLemczWk1idG1ZTUk2bHBFYXBNX3J3NTJPYWZ2ZWNBZFdlRVpqcUVSVVNNZWQ0",
     "CBMioAFBVV95cUxPWHhOcGVza2ZLMzJYZkFRTjZybzlaT0QzU1lhVnE4NXFWaDF2ZFZUenE4N3UtRVYyZ0pMS2NWZnAza0ZvZ0V2cE91eUtscGo3Yk81d25mN0Qwa2o5ejBuQ2hvWFlIeF81dU81dUZWb0d1b2V0Q0gwWENhMHJvNTgySXJzRkc2Q2d0MEhqY05kcTdlRVdQb0VTMjFFcXdpYnla",
-    "CBMiiAFBVV95cUxQZF9lN1FFUjhnS2lnWkY3TW9QSmNOWTgwUUJUaFZiTU9FSE5WeVg4d0M0T2xtYXRJYS1saVhOSEgzd0p3SFFXME9zb3N1R1d0RmhsWmZDaWR0VjdhWTZ6QnB5X1k2NWplQVR3bHhkVGhVQVVLN2l4QW9MMUE5RnJQU2RkaXFpc1py"
+    "CBMiiAFBVV95cUxQZF9lN1FFUjhnS2lnWkY3TW9QSmNOWTgwUUJUaFZiTU9FSE5WeVg4d0M0T2xtYXRJYS1saVhOSEgzd0p3SFFXME9zb3N1R1d0RmhsWmZDaWR0VjdhWTZ6QnB5X1k2NWplQVR3bHhkVGhVQVVLN2l4QW9MMUE5RnJQU2RkaXFpc1py",
+    "https://www.mmamania.com/?p=466163"
   ],
   "daily": {
     "d": "2026-08-21",
