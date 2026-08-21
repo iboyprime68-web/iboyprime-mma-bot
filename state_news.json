@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Pre-Sale is now available for #UFC332! Use Code: UFC Social Get Tickets Here: https://UFC.ac/46euWUB",
-      "ts": "2026-08-20T16:00:02+00:00"
-    },
-    {
       "t": "The Polar Bear is BACK 😁 Serghei Spivac is determined to come away with a win this weekend! [ #UFCSacramento is LIVE AUG 22 at 8pmET ]",
       "ts": "2026-08-20T17:00:01+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Tai Tuivasa Gets American Top Team Reset Before Robelis Despaigne Fight At UFC 331",
       "ts": "2026-08-21T03:11:15+00:00"
+    },
+    {
+      "t": "Jack Shore: Former UFC fighter turned coach promoting first event",
+      "ts": "2026-08-21T03:15:21+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "“One Isn’t Enough”: Javier Mendez Says Ilia Topuria Needs Multiple Wins Before Islam Makhachev Super Fight",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWUZkWkJ5cFh1SFZES3JfSTVXWi1INW45UGt4Y2hLNnZZZlUxSUdmMUt2WnFGa2xETHBtWFE0M0NwUGVPQ3ZKYndvZ1ZFNVk5M0FELUY1OFMwSjFOdmFCRU9tQnB2VzQwOVU1a1JkZUJtSHhGU3VOaVlOLXd0bnFrNWVDcHdod2xoUnh0WlVUZGJHZlJLUUhlR01uS2doaF9zaklfTFVmM2o3SGNGUkZHTHY5SFlqS3J6d1ByQlhIYWpfSGp4UGc?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-21T01:29:45+00:00"
-    },
     {
       "title": "Arman Tsarukyan Sizes Up Competition And Makes Bold Prediction Ahead Of UFC 331",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN01KSk1vRm80MmFpQkdBelFrU2hqek5vckZ0dVVmaWl0d3lfLTV3MkxlRjdRRVE0MUlraE5ZOWo1eHNJbG5rNmhKWEFNN2gwaEF2WGVjMkNpTzE0elRkZThKNFFmalhaTVhGV2pKV1RaU09UeThNVnNGekJPbzV6NldfYWZleC1PV0EwWWc3aw?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-21T03:11:15+00:00"
+    },
+    {
+      "title": "Jack Shore: Former UFC fighter turned coach promoting first event",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45Y2w1aDA2bmFKYUxfbHVncWhKRzA1dGt6VzhQUlBNTWktV09Na3dXZlN4Q3F6YU4zdUNSUjJ5bHNtWHdNY3kyOWViM1VNLWdQTW9KRUVnUFVnYk16WFAtb1ZiQnVCSjhOT1hpb2I0TTRIWnRsZkNV?oc=5",
+      "source": "BBC",
+      "cat": "ufc",
+      "ts": "2026-08-21T03:15:21+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiigFBVV95cUxPb1dubGFod1Boa2p4cXh3SnFxSHJEWXV4SUMwRWJFS2xzaWtvXzhiTVN6TnRiOUc2d0JEMkh1c0lCM3VrWTNzR213Y0pjWl9CYnVsMWJTOXF0WGFfblFUVzBLMFJYZWppNzR1MWZ5cEZEUXNKX1NaRjBtZThxT2E1dWRoSXJiX3Z6NUE",
     "https://bloodyelbow.com/?p=327599",
     "2089848818368160236",
     "CBMi3gFBVV95cUxNSWRqTDVvRFpLdkdzSDFIdmZjY1lwRUZLVmc5NzF4ZzJIRkNjbWRlYm5FTmlNaUdmdVZfQTNhTFhNSncxLTJwX1JZLWhwb00zQ1dpNEtGRDdycGY2NjY1ZVgya1Vlc0haVUxkb0hRVXI4VjFQOTlBOG1zUkQxaVNPM1ZHcmY5UHRmUFR4M3BxNUlLX1lnSVBRMzhaQmNaWGQ1c0NfOXhnSEIzdlVVdnI3dnBfQVRtTGlNRGZ3UzJXRVdvelNxUDhYb2I5bXJsbmxrdkFGSEdfUlk1a2ZRNXc",
@@ -3312,11 +3311,12 @@
     "CBMi8wFBVV95cUxONmZaSlhOemZqZ2V0U01wNGkybW5jVTFvaEo4TjA3SnhsdWNwVE93cE1zNGVuX2xRQTlMamhld3JYTFlYdlJZOEV6UXdyZE1DcG1MamE0ZE4tYy0xQlY1alNaNFA4UFFIOGNFM3RzaGNvYjNsWmpfZGs0VzJHMDJINm1YdjVEZ04xM3d6T09KLTZHTDNDNmZUSkFaYXBjdTZGXzF5NjdOWlUtSHNsR1R0N2VkTlkzNnVmTW1sSHhVcnFNektDdDJpVmZGVTVqTDgyNURMemlmTWNqRjduRWtsYkJFR2czdTNxNDAyU0x2eWFISFk",
     "CBMitgFBVV95cUxQcUd3Zl81TFRVM0M1TTdoTVRYc21XOTIxVF9rNWpqcHhzZXZDWVFiMzBrZk1QYldrVkJCRTk0WkFFcl8tZHYxSUZ3ZTZuNkhHdVp4VWhNRmVZMk16SkpGR1VBdm9YaVowbFFBbG5rMjhPY1hOVFVES19mWTZ5cTc3NEhiOHFMUGhYeHR0VGROVllYeW9ZOUdhQmdZNnF4OGF4RjFGekVNTW1ETS1qdWdqdFpzNEdvUQ",
     "CBMigAFBVV95cUxPNVpGMFcwM19lb19meC1sR1N3TnB2RUN4bktQRVRKLXNQSGlnMldRcWt4amdtNjZaVUhNeW1mSE5sd19iOThqaGlfUzYwQl9KVUotb0NLU2ZBdHYtMGZiblBOc2JrMXU4bGx5TEEwQ2JLaTB5dDVqOG5pWnZsdnhRMg",
-    "CBMilwFBVV95cUxNbUE5ejIzVFl5YUVpMVA4eEVhaVNuOXVCdEVPM2tFZG56RXFma2tCN2JOZlpESjFMR3lZMC1jZnNjUGpHTTJmbFBXb0ktdG1hNjhBQTdYenI0Mnh4UklLdkZJTU9LS1NsVWYzaTI4TDFkZDFCd3dsQWR4eFZlU0xBeXVZM2RZQURHOGo3YlVuTktGMlk3UGI4"
+    "CBMilwFBVV95cUxNbUE5ejIzVFl5YUVpMVA4eEVhaVNuOXVCdEVPM2tFZG56RXFma2tCN2JOZlpESjFMR3lZMC1jZnNjUGpHTTJmbFBXb0ktdG1hNjhBQTdYenI0Mnh4UklLdkZJTU9LS1NsVWYzaTI4TDFkZDFCd3dsQWR4eFZlU0xBeXVZM2RZQURHOGo3YlVuTktGMlk3UGI4",
+    "CBMid0FVX3lxTE45Y2w1aDA2bmFKYUxfbHVncWhKRzA1dGt6VzhQUlBNTWktV09Na3dXZlN4Q3F6YU4zdUNSUjJ5bHNtWHdNY3kyOWViM1VNLWdQTW9KRUVnUFVnYk16WFAtb1ZiQnVCSjhOT1hpb2I0TTRIWnRsZkNV"
   ],
   "daily": {
     "d": "2026-08-21",
-    "ai": 61,
+    "ai": 62,
     "staged": 5
   },
   "staged_hist": [
