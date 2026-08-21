@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev Was Given Bizarre Explanation During UFC 330",
-      "ts": "2026-08-21T06:25:51+00:00"
-    },
-    {
       "t": "Kamaru Usman Drops Interesting Challenge for Khamzat Chimaev’s UFC Future",
       "ts": "2026-08-21T06:25:53+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Hold'em, Fold'em or All In: Marlins Stream of Major League Baseball",
       "ts": "2026-08-21T08:52:02+00:00"
+    },
+    {
+      "t": "Rafael dos Anjos Returns To Fight Alexander Hernandez At UFC 332",
+      "ts": "2026-08-21T09:10:17+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Despite new sparring footage, Shavkat might be ‘done’ with UFC — ‘I don’t think he’s ever gonna fight again’",
-      "url": "https://sports.yahoo.com/articles/despite-sparring-footage-shavkat-might-201540664.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-20T20:15:40+00:00"
-    },
     {
       "title": "UFC BJJ 10's Danielle Kelly turned to jiu-jitsu to combat bullying",
       "url": "https://sports.yahoo.com/articles/ufc-bjj-10s-danielle-kelly-202026379.html",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-21T08:52:02+00:00"
+    },
+    {
+      "title": "Rafael dos Anjos Returns To Fight Alexander Hernandez At UFC 332",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZUVXZ29qYVBNcllFWTU5OFFXRmFpUzUxTlU3RWxHbEZhVmtxcWo0X3RKem9PNWYxVTVCRXYzWEZ6bm0xTk43QlNQaHNGcXVMLVdyMjMyRzcyVVVLRHJBenBYa2R6eWI5MXAtUVNfYlAyQmlNWVhEd3dyZ2dRWkY0Q19iNXIxYlJ0Y09TWi1NM2tXVlpscUZn?oc=5",
+      "source": "MMA Insight",
+      "cat": "ufc",
+      "ts": "2026-08-21T09:10:17+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMipwFBVV95cUxQM1M5Q1BKbklmdUE1X0R3VnRIaVRtYlozSXlzZGsteWJaTjNjcExQT1cyMDVURTVtVlM3YWFvNWNnRnB4QTk1bVowamRFMEZtcm91clpqeHJGdkIzRm5MS0Z1NFQ2WFhMU1RGWEh4UG1BRDNIR0tZaU5CNENoUmIybk1uZ1BEYXBkTzR3LUhicHZDODdWRFJySG0zM2NnT2k4b0lWd1FwQdIBrAFBVV95cUxOek9pbGphdFJ2dS1kQ1FJRVFQeklyZ0JzMWt4QXdNYkZzbG1DTWpJWVY4eUZlR1FDb2p6ZklwU1pTa1NXRGQzVlFnbjBqV3BCZkxaeTFFNmRQTzRvYXRISkhTMEZZZWRxenhpS1FQSEpCUExneU9WNXUxRGlTYjJxa1d2U1pjNU9Oc29ZWjZmUXVKajRESUlLbGdMQTlyQ21uYmNNZDNiRGY0aGlU",
     "CBMicEFVX3lxTFBXZUphSmpSWHNvSGE2dXBlaS10VmxRa0d0NXF2TnZ4d0dvODhiZUpaN0hoNUxEVE10YW55R1c2ZjRPUkFGYWhaV3lobm5qaHRRemtZaTI4RE82WnlxNUhOUWtTalVOeVFaX0Q5S3NfS3Q",
     "2089858701947781471",
     "2089898961892958495",
@@ -3312,7 +3311,8 @@
     "CBMizgFBVV95cUxNZW0tSlFnOUVMMzduYnZ6dUFQek1yMXJXb2FfQ0s0dlkzQ1U1Mm9UUmVlYldGMlpfNUJ4T0NYazZCeGgwU1RnYXpXNzFfTUNQVW1fOWU4RWd1Y0dpa2NJYUxyeVdzSHhCNW1tVTRLWmxtOEl3NFVIRG5SczJYc1BNX3FFSEFQVGtpdTUxRmd3czV6SUFDUFBYYS1DSzVfLXFVTGNfWXRxZFdkTEVsRTVGR0VPNGxOU2I0bjllcGp5NlNQSi1QOWp1WldDYlZidw",
     "CBMiiAFBVV95cUxPRl9qUjVZQi00RjczLUZMNTJFeVA2Z1FNV2l4aEljMjRwWXVoWllYMFdfZjVaamI5bVlxOTZveVQyVW8zeEdHaGpyWVk2SUxCaFo3SVh0YXJ4a2kxOGhwcFN2dHV4MDRMYVhPbHRhVEpZTVpPZXlWX0VNQzByNnprSWVtZ0trZXZD",
     "CBMiwgFBVV95cUxQTkk5bEJWdjlOWWsxdjB0RjIzZFhzT1Y4cTlBSFZqTXpkT1o5VnE5SWVma2R4bzgyOVJxd3BEZWVMRGt4UjcxbTRsVzRpaVdzWE51UVdQc1NYZHhkaVFlWllDUVd2bUhqZzVHMHpkbU5GRnZ1bUlZMFpmMGRoWHVIbnRWN0hKYlQ5bkR4UXlFWGdWcnRsYURMcEg3akhscWdSY0h1OHJ1WFNSc0hXbWQ1cXI4QnBUVVhwTUVNZVNDd0FKZw",
-    "CBMifkFVX3lxTE5YdzBQbjNKNG1PUzdtMDRwOG4xRjBMd1NOakdQQ3BZOXlyWDU4elZ2YkRGRWFJZ2dHUENlQnlzSkxmMGlqRFVtWi1QUG4xUkxGQ2tUdGdTd3JnU2xYN29jaTdRMlZxTzRXZkJkcnBlQUoxLXhRNEk2N0ZnMjhVdw"
+    "CBMifkFVX3lxTE5YdzBQbjNKNG1PUzdtMDRwOG4xRjBMd1NOakdQQ3BZOXlyWDU4elZ2YkRGRWFJZ2dHUENlQnlzSkxmMGlqRFVtWi1QUG4xUkxGQ2tUdGdTd3JnU2xYN29jaTdRMlZxTzRXZkJkcnBlQUoxLXhRNEk2N0ZnMjhVdw",
+    "CBMilwFBVV95cUxPZUVXZ29qYVBNcllFWTU5OFFXRmFpUzUxTlU3RWxHbEZhVmtxcWo0X3RKem9PNWYxVTVCRXYzWEZ6bm0xTk43QlNQaHNGcXVMLVdyMjMyRzcyVVVLRHJBenBYa2R6eWI5MXAtUVNfYlAyQmlNWVhEd3dyZ2dRWkY0Q19iNXIxYlJ0Y09TWi1NM2tXVlpscUZn"
   ],
   "daily": {
     "d": "2026-08-21",
