@@ -1,9 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/452905/mm-clone",
-    "https://www.mmamania.com/454268/ufc-328s-best-betting-props-parlays-and-picks-khamzat-vs-strickland",
-    "https://www.mmamania.com/454269/ufc-328-live-results-highlights-play-by-play-khamzat-vs-strickland",
-    "https://www.mmamania.com/454674/mania-mailbag-prates-or-prochazka-at-ufc-1",
     "https://www.mmamania.com/454899/open-thread-july-3-2026",
     "https://www.mmamania.com/454940/mm-clone",
     "https://www.mmamania.com/455060/open-thread-july-4-2026",
@@ -826,6 +822,7 @@
     "https://www.sherdog.com/news/news/Alexander-Volkanovski-open-to-challenging-Justin-Gaethje-at-lightweight-201605",
     "https://www.sherdog.com/news/news/Alexander-Volkanovski-supports-Alex-Pereiras-campaign-against-illegal-strikes-201634",
     "https://www.sherdog.com/news/news/Alexandre-Pantoja-coach-touts-Pantoja-20-ahead-of-UFC-331-202335",
+    "https://www.sherdog.com/news/news/Alexandre-Pantoja-has-a-problem-with-how-his-Joshua-Van-loss-is-remembered-202470",
     "https://www.sherdog.com/news/news/Alik-Lorenz-erases-DWCS-heartbreak-with-brutal-firstround-KO-202417",
     "https://www.sherdog.com/news/news/Anthony-Hernandez-I-want-to-hurt-somebody-at-UFC-Sacramento-202446",
     "https://www.sherdog.com/news/news/Anthony-Hernandez-praises-former-foe-Sean-Strickland-Hes-a-cool-dude-201695",
@@ -1008,6 +1005,7 @@
     "https://www.sherdog.com/news/news/Jon-Jones-responds-to-Alex-Pereiras-loss-against-Ciryl-Gane-201533",
     "https://www.sherdog.com/news/news/Jon-Jones-shares-pick-for-UFC-330-headliner-201671",
     "https://www.sherdog.com/news/news/Jon-Jones-shows-support-for-Dustin-Poirier-201667",
+    "https://www.sherdog.com/news/news/Jon-Jones-weighs-return-after-Francis-Ngannou-callout-reignites-fighting-itch-202464",
     "https://www.sherdog.com/news/news/Joseph-Kropschot-on-DWCS-graphic-armbar-injury-I-cannot-believe-he-didnt-tap-202320",
     "https://www.sherdog.com/news/news/Josh-Emmett-admits-145pound-cut-hurting-performance-targets-return-to-155-201744",
     "https://www.sherdog.com/news/news/Josh-Hokit-Alex-Pereira-gained-too-much-weight-for-heavyweight-transition-201532",
@@ -1048,6 +1046,7 @@
     "https://www.sherdog.com/news/news/Mario-Bautista-explains-why-he-is-hunting-finish-against-Cory-Sandhagen-201723",
     "https://www.sherdog.com/news/news/Marwan-Rahiki-Tommy-McMillens-punching-volume-shows-he-lacks-knockout-power-202316",
     "https://www.sherdog.com/news/news/Matt-Brown-We-cant-let-one-night-define-Dustin-Poirier-201710",
+    "https://www.sherdog.com/news/news/Mauricio-Ruffy-calls-Arman-Tsarukyan-toughest-challenger-ahead-of-UFC-331-202466",
     "https://www.sherdog.com/news/news/Mauricio-Ruffy-proposes-to-girlfriend-after-spectacular-win-at-UFC-White-House-201530",
     "https://www.sherdog.com/news/news/Max-Holloway-explains-why-he-never-wrestled-in-high-school-201716",
     "https://www.sherdog.com/news/news/Merab-Dvalishvili-lashes-out-over-disrespect-toward-fighters-201582",
@@ -1084,6 +1083,7 @@
     "https://www.sherdog.com/news/news/PFL-postpones-upcoming-event-in-Saudi-Arabia-201560",
     "https://www.sherdog.com/news/news/PFL-shifts-MENA-show-from-June-19-to-July-10-201645",
     "https://www.sherdog.com/news/news/PFL-signs-former-UFC-bantamweight-contender-201626",
+    "https://www.sherdog.com/news/news/Paddy-Pimblett-No-respect-for-Arman-Tsarukyan-Ilia-Topuria-beef-is-different-202462",
     "https://www.sherdog.com/news/news/Paddy-Pimbletts-worst-weightcutting-mishaps-201748",
     "https://www.sherdog.com/news/news/Patchy-Mix-set-for-second-bout-since-UFC-release-vows-to-show-true-form-201618",
     "https://www.sherdog.com/news/news/Paulo-Costa-frustrated-with-delay-in-booking-final-fight-on-current-UFC-deal-201691",
@@ -1204,22 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Where the Sharp Money Is Landing This Weekend At UFC Sacramento",
-      "ts": "2026-08-21T14:04:00+00:00"
-    },
-    {
-      "t": "Official Weigh-In Results | UFC Sacramento",
-      "ts": "2026-08-21T14:26:18+00:00"
-    },
-    {
-      "t": "Kamaru Usman wants Khamzat Chimaev to move up for 'heater' vs. Paulo Costa",
-      "ts": "2026-08-21T14:30:00+00:00"
-    },
-    {
-      "t": "Tsarukyan On Why He Wants Quick Ruffy Finish",
-      "ts": "2026-08-21T14:31:38+00:00"
-    },
     {
       "t": "Paddy Pimblett to find out latest opponent 'in next few days' after UFC 330 spat",
       "ts": "2026-08-21T14:27:00+00:00"
@@ -1683,37 +1667,25 @@
     {
       "t": "Sean Strickland Aligns with Rainbet for UFC Season",
       "ts": "2026-08-21T16:43:17+00:00"
+    },
+    {
+      "t": "Paddy Pimblett: 'No respect' for Arman Tsarukyan, Ilia Topuria beef is different",
+      "ts": "2026-08-21T05:53:49+00:00"
+    },
+    {
+      "t": "Jon Jones weighs return after Francis Ngannou callout reignites fighting 'itch'",
+      "ts": "2026-08-21T06:01:33+00:00"
+    },
+    {
+      "t": "Mauricio Ruffy calls Arman Tsarukyan ‘toughest challenger’ ahead of UFC 331",
+      "ts": "2026-08-21T07:23:42+00:00"
+    },
+    {
+      "t": "Alexandre Pantoja has a problem with how his Joshua Van loss is remembered",
+      "ts": "2026-08-21T07:47:24+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "We'll Fight For Your Brand: WWE Records $160M In Sponsorships 08/20/2026",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcFdNZG5QNDhmRDV3VzdkTnNzYXpoNmdDX245cmdDREY3UWxXR3RMU3FkLW9GVTdyc19xd2RuU3ZvZkYteTNvc0cwUngtemVfaVVIT1M3WElfY1pFa05xMWNpSkxWNjhYdXhEOEFnT0dTbWZ1YTlPT2hac21aM2hoY3FkNmx5bHg5ZjQ0Vm9Id1d2cEZvcWxNaHRCRVlwOU5NMW5yNXVPT3lidw?oc=5",
-      "source": "MediaPost",
-      "cat": "ufc",
-      "ts": "2026-08-21T15:26:59+00:00"
-    },
-    {
-      "title": "2026 PPR Superflex Fantasy Football LIVE Mock Draft! Fantasy Football Today Stream of National Football League",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbDNmYzUwaUU0aTFXd3VOSkktdVdaOE5YcXpfYUdtWWp5T1JNQ1dwRC0xNmtSWkg5X1NwZXlyNFAxVzVaN0Zwd1JNVC1oYW1NSTkyTE5MN1padUN1MGRUWFZLbm44Y1RqUUNpM19uNWgxSWpOT0h2R0lvSHZndU1FMFliSHhlUlc1Qm1MbUZwY1FWZFdZV051c3lQWTViTGlFbXplV3BNeTV6TU5IVjJ4bTJmU093bUk?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T15:31:20+00:00"
-    },
-    {
-      "title": "Henry Cejudo Says Merab Dvalishvili RAF Georgia Loss 'Humbled' Him Before RAF 12 Rematch",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOGVKWmRjSExtMFZWQ0dxZkRPaWhEcU1PbkJoWDBWWEFjU0pyVE91MWVzNjZLQjZjUHdVeVhSYTZteFhvcl84VHhPUEUwd20ybmpaLWE2NFNvUUxVdTBlUmJpUzQ3QUtFNzlwN2Q3VTFkOVVuU3BraXo1QlRtTFkzS2lvS3YydTFhMHptZFF3?oc=5",
-      "source": "MiddleEasy",
-      "cat": "ufc",
-      "ts": "2026-08-21T15:59:25+00:00"
-    },
-    {
-      "title": "TJ Dillashaw counters the narrative of Alexander Volkanovski vs. Movsar Evloev at UFC 333 being a potential FOTY",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSDlnZnhyLUdzSjhNVlo3RGdLSkRsRDZZNFhoaU5wRUV2Q21mY1hrS25YZ3pRSEdsVWVHc0NOWDU5MXl3c25lbm9IVzVxWXIzMGFzWUpPaVUzdnFQUVlsLVlhVmV2QnZ5dGcyREpqLXJmLTRlNllDUG9WNzJOSjZkRnY5MGdGYWRRcGJhSUJHY0dDbXRaQ21uVE5qMXJOMmRwbDdJYmFJUU5NVXpxV0UzbERfcGpoZw?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-21T16:04:34+00:00"
-    },
     {
       "title": "UFC x OVO 2026 Collection Pushes Fight Culture Further Into Lifestyle Fashion",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTzRlOUVrcDcyYklaUHhfdTdXVHFtRXpVR2hIQkJMTWRJd0ZOMHBrSE5uQXprdF9SSTRYM2RoV3RCekp6MzZvYWNjVkdRbGpxWEdpYUl3UElIdHFJNjlBYm5ISGNPT1lIX0tLMC1EQmp2d09ycG1WN3l6UV9hM3BwQjdfNWR5OG05dmg1TTV4VHhNVzV5Vy0xNW5aYTdDOTNxa1hkaXl2SVNpLUhhekE?oc=5",
@@ -2105,6 +2077,34 @@
       "source": "The Sun Nigeria",
       "cat": "ufc",
       "ts": "2026-08-21T16:43:17+00:00"
+    },
+    {
+      "title": "Paddy Pimblett: 'No respect' for Arman Tsarukyan, Ilia Topuria beef is different",
+      "url": "https://www.sherdog.com/news/news/Paddy-Pimblett-No-respect-for-Arman-Tsarukyan-Ilia-Topuria-beef-is-different-202462",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-21T05:53:49+00:00"
+    },
+    {
+      "title": "Jon Jones weighs return after Francis Ngannou callout reignites fighting 'itch'",
+      "url": "https://www.sherdog.com/news/news/Jon-Jones-weighs-return-after-Francis-Ngannou-callout-reignites-fighting-itch-202464",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-21T06:01:33+00:00"
+    },
+    {
+      "title": "Mauricio Ruffy calls Arman Tsarukyan ‘toughest challenger’ ahead of UFC 331",
+      "url": "https://www.sherdog.com/news/news/Mauricio-Ruffy-calls-Arman-Tsarukyan-toughest-challenger-ahead-of-UFC-331-202466",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-21T07:23:42+00:00"
+    },
+    {
+      "title": "Alexandre Pantoja has a problem with how his Joshua Van loss is remembered",
+      "url": "https://www.sherdog.com/news/news/Alexandre-Pantoja-has-a-problem-with-how-his-Joshua-Van-loss-is-remembered-202470",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-21T07:47:24+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,10 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=465856",
-    "CBMiakFVX3lxTE9tYnhtXzZTT3RMNnhIRU91UU03dURGelNaUzZxZUNNcUJsbU54M1psVUEyd1BhU18yWTdVX0wzMTkxOW02TzRkemJORXNfeWkxM0poSWl0Y0x1c1BmZWJGaGpDUjFZcC1ueWc",
-    "CBMic0FVX3lxTFBSc1lKYktrcFNYRmxqZVlJc1ljZW5YTDlVajFoR0V3VV9wNEFfTGFDcFlPZ1JtZmRfLTZoMXdnR1Q1VkpHTFQ1SUhyQy1NckR6Ykg5Q0UxOVZQQk13UTQ3M3dRbWMzVENkcVQtQ2dMYUFaYUU",
-    "CBMia0FVX3lxTE5SS2t0NVNRSV9laWRPTWticjU0ZFVJMGdIcjM4MHY5WHdValpfU3E3OWxBT056dXNTWDFvRmRvcUZJRlZKZzUtbHI5dllFQVBnYV94THFiSllFS3FVZUI0Q1dNQnpzSmxtWXdz",
     "CBMiqAFBVV95cUxNc09kZnI3eEdNWXdmVWZ2UEdDTDgyTnVwcllsZUNsdDZJZ09jYVpKSjFXWHhiazlQNTZjU0o1N1NtRkFTdUpxUE1Obm0wWFJGcXZ4S2hqS2hkTmtNLWduaXB3eHBySFlLX2xlUjlCVWdiZkNKb05yNGJRQmx2eW1hQnJmbWZqbUJhRGt6QTc4dmZqS0M5djYzUUNsWnh1VEVyS1doVkR4R1U",
     "CBMiywFBVV95cUxNTnFxLUg0VnVKcl9lWXBBQ0xnN3NJMUQtejc0Q1d1ajNmSF8wZVBuT0JmWUc1RXZzV1NlTzF5NE9VZ1AxaXJFX2M1VFAtSGxrUHN5RjMtV3YwT0VPX1Q4SVBCR1BmS2ZCb0RSMHZWdDNHWXFRcW9uVlVYMUduRFhBOUtEUWtDTDliQUxPb21PeUgyQ1FsaUh2cUFCanZvc0RZWlJDSVdzYlNnZWUwSmllWUdpalZlWVBxcE1YMVVPRENqcmZGX2M5aVM1MA",
     "CBMi0wFBVV95cUxPc0RHZjRLMW9nbGp0QXZBbjhrdWxCNmYyZzVkR01ZOVRjbFJ6TXJlRlFIdGktajdJNjg2ZDdDcUlFNkxSX3hVNENxSTUxNHAwZXJKTTk3WlUwWUVIQ0hhb2VhZXFQcm81OTZhVXNYVzlpTzhydXkzb0F5Y1JLNnkyNVNlYVdzSERwdU1jUWVSRzNnak1FNF83cnJEOEtZOTd3OV9HOGVJSG13bjdDbmxPMTNRZ1JOc3VBUFBEVEhabFEwQ0FkY3NZN3pJQmlmRUNGMmRv",
@@ -3312,7 +3308,11 @@
     "https://www.sherdog.com/news/news/Romero-vs-Lopez-How-to-watch-start-time-PPV-full-fight-card-202459",
     "https://www.sherdog.com/news/news/Din-Thomas-mocked-over-quickest-damn-retirement-from-UFC-cornering-202461",
     "CBMiigFBVV95cUxOYnN5MmV4TkFlX3BFbi1EaWpmMDVnMmFCSDZST2RjRTZtcHdYRUw4VHc3UFlVWVpZTTFhb3Z1Z0Y4c0xfeFdMWVA0UGZhdkhBLW5WVVhVTzM2OHE3RkpmTWFTUU5laVZnM05hTWlQWExaSnhEMFVYN242NVBXS3g1WmFzR05UemlwLXc",
-    "CBMieEFVX3lxTE5XcVVTTWVYU284aXMzM1VOMWhucXpXZWVkWmpsRFd4dk1xenJIeS13M1IyTFI4WWZ1WTc0RmJJMEhKcjB0bkJmVXRZWm11Y0lUMlQyXzhLUFh1WGM5eTRRcnFIbjdRQmFKblYxWGFHOEZiQkZtSDVaRdIBfkFVX3lxTE8zYnIxQTRkcVlzbGRJMTB4MURURjE2Qko1NlB0cURHNkpLYWYzbGI1aW5pbFMwNkpzeXQ5bWxFazF3c05fRjN6TVFmVkJSSU5JMXNCY1RINmRLR29nZWstTGUyRnNBd05HR1BuZlNqWlVpRjFHV0JFZ19hQ2g0QQ"
+    "CBMieEFVX3lxTE5XcVVTTWVYU284aXMzM1VOMWhucXpXZWVkWmpsRFd4dk1xenJIeS13M1IyTFI4WWZ1WTc0RmJJMEhKcjB0bkJmVXRZWm11Y0lUMlQyXzhLUFh1WGM5eTRRcnFIbjdRQmFKblYxWGFHOEZiQkZtSDVaRdIBfkFVX3lxTE8zYnIxQTRkcVlzbGRJMTB4MURURjE2Qko1NlB0cURHNkpLYWYzbGI1aW5pbFMwNkpzeXQ5bWxFazF3c05fRjN6TVFmVkJSSU5JMXNCY1RINmRLR29nZWstTGUyRnNBd05HR1BuZlNqWlVpRjFHV0JFZ19hQ2g0QQ",
+    "https://www.sherdog.com/news/news/Paddy-Pimblett-No-respect-for-Arman-Tsarukyan-Ilia-Topuria-beef-is-different-202462",
+    "https://www.sherdog.com/news/news/Jon-Jones-weighs-return-after-Francis-Ngannou-callout-reignites-fighting-itch-202464",
+    "https://www.sherdog.com/news/news/Mauricio-Ruffy-calls-Arman-Tsarukyan-toughest-challenger-ahead-of-UFC-331-202466",
+    "https://www.sherdog.com/news/news/Alexandre-Pantoja-has-a-problem-with-how-his-Joshua-Van-loss-is-remembered-202470"
   ],
   "daily": {
     "d": "2026-08-21",
