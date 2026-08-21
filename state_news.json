@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Bella Mir vs Alex Apodaca Preview | DWCS Season 10, Week 3",
-      "ts": "2026-08-21T17:52:40+00:00"
-    },
-    {
       "t": "Alexander Volkanovski Says UFC 333 Could Shape Retirement Call Before Movsar Evloev Title Fight",
       "ts": "2026-08-21T17:57:51+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "MLB Dangerous Teams To Watch: Los Angeles Dodgers Stream of Major League Baseball",
       "ts": "2026-08-21T20:03:59+00:00"
+    },
+    {
+      "t": "Steveson wants UFC title shot 'as fast as possible'",
+      "ts": "2026-08-21T20:07:23+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Max Holloway Wants UFC Title Shot Next",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HcFZ5RlIxRVVaM1hfTHhVU19WbXZLbWVaM3dOWWkxUk5NT1lrLUNoMjdJaUNacGltMUl5aUZyc3BXVXprME5DQ1dUOGZoTS01UXBkLXdPdVkwbUpzVEpsMTU5OFlQZ21WOG5PTW1LSG9rZw?oc=5",
-      "source": "heavy.com",
-      "cat": "ufc",
-      "ts": "2026-08-21T18:32:37+00:00"
-    },
     {
       "title": "Team Khabib's Manager Ali Abdelaziz Helps Islam Dulatov And Namo Fazil Bury The Hatchet",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUkNycjR3YzVJaWJORHExZWFoZUNaczBDbmYxOHlQLXVqd2ZoaGM1ZHZFTkJkQ1ppUWx0d1dKR2psZWNXNDZYdFhpUndMQXEteXd6dnJqczAwUjZHU3pMdlB6dnJ5UTNkN2dZdVFyc2xkMW55TnFIcHVTeXhVcFUyR2lhQ3BNenZfWDRRN0hydmlISzdoaTBvazNtS1JvM051TldLUEZIOHBJcjdqd2lwcVQyOA?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-21T20:03:59+00:00"
+    },
+    {
+      "title": "Steveson wants UFC title shot 'as fast as possible'",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbDFYdXU2NjBEMFUtZjBPcEhvT1FtMXdmbHZRUXpVckZORVRFUEhqa21EdjdFXzVfVTFVV0tjU1lIM05mQ1c3b2JZdlpCcmQ5UDVHQzk0bnBkZVRWZ3N5SzQxSk5jWHRjU1FkekI3XzlNd0R2ZUE2YXB4RWNtRUxhLThvZnZVeERPVDNwaUtJZnVvdTE3eVE?oc=5",
+      "source": "theScore",
+      "cat": "ufc",
+      "ts": "2026-08-21T20:07:23+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2090098968445276581",
     "CBMixAFBVV95cUxQbVU0ekFHaFBWeGVtU0lwVm1PTkxiQ1NqVzFQTTV1bnhMb3RuZ0JRSDN4M0RFLVZTNmxaM0ZZandibXMtQ3pad285NUpBQ2tRRmNPMVUwNy1ZN3FVSm9VTGI4Unp1Q2xXQy12UFlPSGRLQ1V6RTE1QW1md3pDMUZ4d21Gc2kwVFIxR19GRDJlcjltaE1xVU9CT1hfam1OZUxvRE1oZzc2N2otMFF6SEZkQXJLV2Nwdmw4UTlFcllyQl9QM2l4",
     "CBMirgFBVV95cUxOczBDeGtqNFdlSnhWcExpb0pfdktiWDd0TDFwZFd2SWRFM1VfcUtHNzloVHo5dXh0WWM4R0R5NGNwSHhweWxPemZxNFh4MEdsOTQyeklYVThNQXFGZS02MGlnd2FSWnJ0V2FienNFYUo0Nk5FN1Ywc3MxcHg2b0ZYOEdHQ0JfVkwwM1F6UXpfTlJkUUxhdFlhMFBaaW9iMTV4YUZSMG1VYXBVS2gxb0E",
     "CBMiekFVX3lxTE5FblJ0UGdKUTl6dGl6V09ySHRiUTkwYjNhTmZUNnBIY3hZQmJyOFdFT1ZyNzBDM1hQaWFVTWQ1QjMxaFVXMHZRYmZHX2ZMMm52UjVfZktWT2F0OFYwSms0eW1LbTltRXZuYWd0RUwwN1lGWlhnU3BfOUNR",
@@ -3312,7 +3311,8 @@
     "CBMiXEFVX3lxTE1BdlVBM1RlMWMxUDZDMXVINFVrbHVCZHBGLVBQUUdpT2NsME0xUVRGSTFCTkQzbGRXSy1HNl9NOUlGcUhBUllWTkRZeVA0Z0FrYkJvWncwQ3ZET1Aw0gFkQVVfeXFMTTBleGxVMGtPcG01Q0FLTGZQd0VZZ3ZOUm9QTlFZUWhKRzgxYk0zWDVyTnJ1M3JYMW1TNzNEVTBvQW1nNFpuLWUwUWdBQ3c5N2NLdTJHUFNNQ3RzMFRraE1pS05IMQ",
     "CBMijwFBVV95cUxOMWpGVHdJMGJpS2U5TzJSNF9wYkNnaElUb2RLUFNaVEtSYTVTZV9iMHhlS1JuQVNzcHhDMWxLeWR0dTRYejcxZXBOVE84bGIyVWgwbnlHcUdudUQyejV3UFNXRUJINjNFTFZXS2VjMEU1WHJkODMxVHpLdzVtVE90UFE2LURXTGhUUVZLb1ozTQ",
     "CBMihwFBVV95cUxQOEJHVFpFdDMzd0xJaDF1czI1cDB3WmY2UnNjYW4wU2E4b1Q3ZXVlY19CUkF5elFuX1R6NlZ4N2stSkI3bzJXb0JqeTJEUWlmakR2R3ZPQXdZenZfSl9td3ZvOGV1RmRDUDA0cm9odFd4VWlMZTd3UGxncGtIWjkySHZFYjJaUVE",
-    "CBMilAFBVV95cUxPdmZ4M3EzcWZJbjRWdlJ5UmMwZkJnc0ZzWl9YRklPQUpmakk3Q1NMWFZwQ1lqMUJRYkhpWW9JcFBqcXAwTGJFcnRpS0VLMnJiNy1pX0VjdG9ueFh6VzRWckp5dWFZVXJ0bVZNR1Bwc00xVWJfYVJnR2VMQ0JsdzBVeTZ5dVpxYXZNWWdFc2FCU2pWRnZo"
+    "CBMilAFBVV95cUxPdmZ4M3EzcWZJbjRWdlJ5UmMwZkJnc0ZzWl9YRklPQUpmakk3Q1NMWFZwQ1lqMUJRYkhpWW9JcFBqcXAwTGJFcnRpS0VLMnJiNy1pX0VjdG9ueFh6VzRWckp5dWFZVXJ0bVZNR1Bwc00xVWJfYVJnR2VMQ0JsdzBVeTZ5dVpxYXZNWWdFc2FCU2pWRnZo",
+    "CBMilgFBVV95cUxPbDFYdXU2NjBEMFUtZjBPcEhvT1FtMXdmbHZRUXpVckZORVRFUEhqa21EdjdFXzVfVTFVV0tjU1lIM05mQ1c3b2JZdlpCcmQ5UDVHQzk0bnBkZVRWZ3N5SzQxSk5jWHRjU1FkekI3XzlNd0R2ZUE2YXB4RWNtRUxhLThvZnZVeERPVDNwaUtJZnVvdTE3eVE"
   ],
   "daily": {
     "d": "2026-08-21",
