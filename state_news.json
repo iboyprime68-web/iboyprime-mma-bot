@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Aljamain Sterling left on sideline after turning down opponent outside the Top 10",
-      "ts": "2026-08-21T12:01:38+00:00"
-    },
-    {
       "t": "Paddy Pimblett Explains Why He Braids His Hair",
       "ts": "2026-08-21T15:53:04+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Holloway Rips McGregor After UFC 329 Injury",
       "ts": "2026-08-21T18:00:41+00:00"
+    },
+    {
+      "t": "Din Thomas Confirms He'll Corner Brady for Bonfim Fight",
+      "ts": "2026-08-21T18:04:43+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Former UFC fighter Markus Perez reportedly in ICE custody for more than a month",
-      "url": "https://www.sherdog.com/news/news/Former-UFC-fighter-Markus-Perez-reportedly-in-ICE-custody-for-more-than-a-month-202468",
-      "source": "Sherdog",
-      "cat": "ufc",
-      "ts": "2026-08-21T00:32:55+00:00"
-    },
     {
       "title": "Gregory Rodrigues carries his father’s dream into UFC main event",
       "url": "https://www.sherdog.com/news/news/Gregory-Rodrigues-carries-his-fathers-dream-into-UFC-main-event-202469",
@@ -2105,6 +2098,13 @@
       "source": "boxingnews.com",
       "cat": "ufc",
       "ts": "2026-08-21T18:00:41+00:00"
+    },
+    {
+      "title": "Din Thomas Confirms He'll Corner Brady for Bonfim Fight",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNWk0cnd2UXdzbGVQMUFMNlUzc3lZVUhfY3VpM2lyODhjTldpRGdsTTZ2MnAzR09PLW5zRE1hMzJiMXNYWG9iSWczY20yeDcyZFVBVGJiTHg5S3RSTDY3LUtNZ3NrSXZvNzhSQjJhRmN2MjhpVGpsbXN4ODNaSzU5alYxSU5JUGtMWDFiWVB5dklLU2VzNUtlNmV6Y2p6dw?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-21T18:04:43+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMibEFVX3lxTFB0UGtyS2tKbHZZWGhQWjRFbTRhVklsRlhZdGk5dGdSTGpOR0dkanAxLUtBekllbWZEaF82U01yNXlhei15NUdKcXJhdkpvcXNHbGs2TW84bVJrYnNIZUZwdFRzdDUtMk9WYXdEaA",
     "CBMioAFBVV95cUxORWtMc0hBM3llTW1XNE41MENZOFdDeURhVXhsdW96OXNPS0xBVksyd29CSllHM083N01Lbzg3SWVQSHVVYXo0ampPZGtrdlJQWEtWSzMwMVY2TFB1ZXhDc2x5U1NHSDVrWVRoa2x3amFFQ29wQS0zZXh3WFdsZldPMjJyUElDeU5LblR3eE5weVFrMFhCWE5aNVhiZW5aWkNR",
     "CBMitgFBVV95cUxNODBoR1VKU0RqNTNBMi1HOHF0ZTkzZXJpd3dNUDN1NzNmc3hKOUJDOEZMd2pOVUtUX1J6U0Y4N1dCbWM4QlBTTTlaM3NYLVpqS2FyUFZTUGstcllDNkVZaGJUN0ZwWEhNbWQ3WHl6REJpemNEMHBfX2ZueXJjdG5VRVhxTlMtMGxST1BXb0VXazRDVnNnTXdLaTB6YUZSVFhYN1AyR2JMQ2IzRm82Z0tnLUllWVI2Zw",
     "CBMipgFBVV95cUxOSkk5bnhCb3Bjc3dmRGJUdkJLb1daU2Z1RThXOWphdU1JWTVwbmMyZ2R1QmJDNFBxQV9rTC1XWjRleFVzSWNvVzRiblJQUjdWMWxZOHpiWWpSTURyQi0yUjNOcjNCU01tLW15SHNodlFySGZsWHBWWTlFckFqNi1xLVZxaWRxa2x0WUJqREVHR1BRRnQ2WjE0S2RXdVNkUV9Kem5LS0h3",
@@ -3312,7 +3311,8 @@
     "CBMihAFBVV95cUxQX2JWdzBfVGNGUVFGSU9sWVFYdk5ES0dtd0hKTDlGMHlONS1RQ1JoQzhiTXcyWW5ZOEFCRVd4QUtnR0VraS16c2VTMXhYWjJENVZBc0JuYXdkM3hDOHRvd0dja0IwTXBJQURtR190YVhzeEkwTVlBWUllOGpzWmFqcHRCa0Q",
     "CBMiogFBVV95cUxPZVQzMUVhNHVKSEVtNWYxdFVBSUpKQVpwdGdPY3hYd3FFQUVGZHgxS3lDeVpyTl84dlpJSmRycU5ESy1pbWFKTkVSX3FuUk9ad1RQU1VlMWI3SHNVZ2hsZ2tRVGJwbkEwU3J5V2E3NlBXQ2cxSkN6aE85U3JvcHBWRVpHaGVyVTlHVnBOckRWUFBlU2VDcEtaWjVFZ1ZLQmhfS3c",
     "CBMie0FVX3lxTE9uMDhHSnFWQ2VVVFhJVzFtdnpUOHJJS0NYUEwyb0dnbC1nc0N2djVUOTlFZEc4SWZVWm9MNjJKRnYtaHY4QjlhbmZoLXF5NTFycF91aTlzam1sdlpRcC1GM0oxUVl1UkU5clRITTZCcEJaQlBOaWlNcjRLNA",
-    "CBMia0FVX3lxTE5GX2VqZmdYa1hMV3NZelc0ekk2ejBGTEFxSkliQUdVT05aYllIeV9sUzg3c3FlQ3N2NkxvXzVYWnBDQVBDeEtYb0dOMUVRNkFrWTlKcW9NMm1KcGVkYm56OXFoZEhUTFZsZXVF"
+    "CBMia0FVX3lxTE5GX2VqZmdYa1hMV3NZelc0ekk2ejBGTEFxSkliQUdVT05aYllIeV9sUzg3c3FlQ3N2NkxvXzVYWnBDQVBDeEtYb0dOMUVRNkFrWTlKcW9NMm1KcGVkYm56OXFoZEhUTFZsZXVF",
+    "CBMingFBVV95cUxNNWk0cnd2UXdzbGVQMUFMNlUzc3lZVUhfY3VpM2lyODhjTldpRGdsTTZ2MnAzR09PLW5zRE1hMzJiMXNYWG9iSWczY20yeDcyZFVBVGJiTHg5S3RSTDY3LUtNZ3NrSXZvNzhSQjJhRmN2MjhpVGpsbXN4ODNaSzU5alYxSU5JUGtMWDFiWVB5dklLU2VzNUtlNmV6Y2p6dw"
   ],
   "daily": {
     "d": "2026-08-21",
