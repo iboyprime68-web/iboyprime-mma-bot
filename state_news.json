@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC x OVO 2026 Collection Pushes Fight Culture Further Into Lifestyle Fashion",
-      "ts": "2026-08-21T16:07:13+00:00"
-    },
-    {
       "t": "Transportation Secretary Says IndyCar Freedom 250 Event Will Bring US Together Amid ‘Political Divide’",
       "ts": "2026-08-21T16:03:21+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "PFL Tampa weigh-ins: Ketlen Vieira has massive miss for Cris Cyborg retirement",
       "ts": "2026-08-21T18:09:30+00:00"
+    },
+    {
+      "t": "Andrew Tackett targets Sean Brady and Paddy Pimblett after UFC BJJ 10 win",
+      "ts": "2026-08-21T18:19:46+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Romero vs. Lopez: How to watch, start time, PPV & full fight card",
-      "url": "https://www.sherdog.com/news/news/Romero-vs-Lopez-How-to-watch-start-time-PPV-full-fight-card-202459",
-      "source": "Sherdog",
-      "cat": "ufc",
-      "ts": "2026-08-21T04:34:55+00:00"
-    },
     {
       "title": "Jets' Biggest Issue Going into the Season Stream of National Football League",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYnN5MmV4TkFlX3BFbi1EaWpmMDVnMmFCSDZST2RjRTZtcHdYRUw4VHc3UFlVWVpZTTFhb3Z1Z0Y4c0xfeFdMWVA0UGZhdkhBLW5WVVhVTzM2OHE3RkpmTWFTUU5laVZnM05hTWlQWExaSnhEMFVYN242NVBXS3g1WmFzR05UemlwLXc?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-21T18:14:50+00:00"
+    },
+    {
+      "title": "Andrew Tackett targets Sean Brady and Paddy Pimblett after UFC BJJ 10 win",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZDBPMzF1VE5WNVNkdG5ubk03REtSRV9tbzZBQUc2VHB2LUpmTDc4TUUtOWRuak00U2NhYkpiZUtFWWZJZFJTWDNsSC1jNWlNMHlpNDY3VlRpYkw4S2RmVnVidTBfb1RlLU9WLXZtNlkxcWVjT1M0VXgyY18tVTY2dzJLSi1GaHdld2F2cFVldm5qY2g4YzVHMkRPMUpCejRhX2c?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-21T18:19:46+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiuwFBVV95cUxNNjE1cldHSzY1WnI1dDlLcXZ3RUZWNGlYY0Q5S2dMR1ZGMTJoSUFfZDJwdXNzVWNWYTgxcFFpLWYxZjV6OFhNRTJhNlJEdnJ3elZXMy0zTFU2ck1iYkxiLWJLWkZwdzhJZmxMUERHalpmX3lZOUpNZHFXTHZKWU44MG4zdEM4Q2hVcWJVVHJNSkU3T21DbHhZc2o4blk1VHV1RUI2UHdScGFEWDBCdjlZdlJzeXJwWW56S3lF",
     "CBMi2gFBVV95cUxORWwybjhpVnUtVmhPcU5sOEROc3ZuUTVfVFVMTFZxejNVSlFuTXdlMzUzRXRQQUFtMzI4SE55T2h0c21uVDlDUDd0dHJuUXdvTXFhbDg3NWFnM1lkUGJ4NEFHUXFJU1dwM2NHd1B1SUtUUWhTcGFUbWRxWmpIX0RYbUFWcmRqNzBrRE9CZHBHOHlQcjVqb0tWVDRCdHdHOEY5VkZxbjZLeldhd3l3LWNiSnZkUXJhRnBLZnQ5b1RpREhBTkFnYnlVV0JFTkt1Yk51R200NzBMc0ZwZw",
     "CBMipgFBVV95cUxNLW1uQlVnSXVUQlh6eXdoZWdEdjRGY2prMTZONmtyWnl0ZS01c2RKV0tDb3BxSk5vbWw2Uk5aRllWd2N1MmQ4VXdzX3hkZUlxaGYxSGRkM0piWHJsY0VOQk9zaHJ5Y1k2N1Y1clU4VC02RlRsbjViNzJmMEVqUFcwVzdDb2l1ZlZueUp6aF8wUllhTk12YXNxaGVXeC1xNE8tRE5rS3N3",
     "CBMidkFVX3lxTE1HOXBIVEh0bi1Gd3VaZk54eW5BdV8yVm1FXzRKS3lMRldNR3lTdjRKWDUzeGMzZ3FSYXFsVTVxMGRINEhwSU5XS0hvM21xcHhqOUVlaFdqbkdjUkxhcEdReWI5UDNSVHFPdmtLdjhXRnFGcjRucFE",
@@ -3312,7 +3311,8 @@
     "CBMiiAFBVV95cUxPRnpvTHF3RGVvSVQ1cHdhZjE1NE9wbUs0MDJidmxIUVloSGVWeGxCWE1vRzlHa0JjcG81RmJvRlVPdk1McW8yT0hjSVFwWEoxeXRwS19rMGFCbm02NUFIN2kxTkFEOXBCOFJfNVhyaXcwVHNBa1RvRjd4NUlhaXlSOTJ2SzRRdDJK",
     "CBMilwFBVV95cUxPY0djd2tVcWgwNGlZMVJLMlZ3cmFWZ0NaLUc1SE45ZVNSRlpWWVdBZXAyU2pyd3l0Q250UkV4WGpQWElPS19reDJyQjVJQU41R1BYRlZkNWEtVk5XaU1qMFpGaHNraFRHSjhERm1ua2hxOWFNVUxRQmVvdlBzOVZ2QWp5ZXhuMVIyMm1IdTJhTmlkSTgzWHFJ",
     "CBMirAFBVV95cUxPdnhLMXh1RmNJMjBkODAyanJ2Q3huOENUUGFVbDRlRllCQzVoMDloLUdtdVBxQVRHOFJpUEMxaTYwWWI3RTZhZ19vRlo5ZjJSX05yRmR6a2w0djNmNG56QnZPRDZxZnFldXMtaWZTUkg2M0x2QVJ1NFVWZ19GLUZlX0RmVlc1cnpkSTFyT2RTQ1A0YWZqa3JHOWIxQ1RJa1Zwczc5RVl4QXBja3da",
-    "af4db7ea-1af9-339f-80c7-801915f72dc5"
+    "af4db7ea-1af9-339f-80c7-801915f72dc5",
+    "CBMiogFBVV95cUxQZDBPMzF1VE5WNVNkdG5ubk03REtSRV9tbzZBQUc2VHB2LUpmTDc4TUUtOWRuak00U2NhYkpiZUtFWWZJZFJTWDNsSC1jNWlNMHlpNDY3VlRpYkw4S2RmVnVidTBfb1RlLU9WLXZtNlkxcWVjT1M0VXgyY18tVTY2dzJLSi1GaHdld2F2cFVldm5qY2g4YzVHMkRPMUpCejRhX2c"
   ],
   "daily": {
     "d": "2026-08-21",
