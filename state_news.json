@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "From #DWCS to the UFC 🤩 Anthony Wint makes the quick turnaround and kicks off our main card at #UFCSacramento! [ LIVE AUG 22 at 8pmET on @ParamountPl…",
-      "ts": "2026-08-20T02:00:01+00:00"
-    },
-    {
       "t": "Pre-Sale is now available for #UFC332! Use Code: UFC Social Get Tickets Here: https://UFC.ac/46euWUB",
       "ts": "2026-08-20T16:00:02+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "The Big Picture: Preseason football, the GOAT vs. the wunderkind, a rumble in South Philly, and a night of ‘Dreams’",
       "ts": "2026-08-21T09:01:01+00:00"
+    },
+    {
+      "t": "in-5 August 21, 2026: Can you guess this 3-time UFC title challenger in today’s in-5 trivia game?",
+      "ts": "2026-08-21T09:05:41+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Opening door for women in MMA my proudest moment - Cyborg",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVmFwR0Z0NnFLQk5NRzdNN1BpSC1ESjhmTzE5NlgxNGo2ZWlNR2ZuWUcxU09LY1RYdzFZWFpYWEdfbUJheER3SDZINnFjc3V4Skp3THdSbEVidEVFaFZoMjhzUW14YmlHWktiUDBrYWpvekFTYWw5Qzh1NzB2aXNRWGFuM2M0c2c?oc=5",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T06:57:00+00:00"
-    },
     {
       "title": "Ex-NFL Linebacker Anthony Wint Makes UFC Debut Days After Winning Contract by KO",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZTk1Db0lUaEtJRVRWT0laMDF4STdZblRLdDI4SFB0dlpjcm81WWtsaDM2UTJ6NGhYamlDLWhkaURreTRPdjV0V2lnXzZlUlg2aldzM25BV1hiLTNWSVM1UFp4cWV5dHN6OUxzT0k5NGxVOG4t?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Inquirer.com",
       "cat": "ufc",
       "ts": "2026-08-21T09:01:01+00:00"
+    },
+    {
+      "title": "in-5 August 21, 2026: Can you guess this 3-time UFC title challenger in today’s in-5 trivia game?",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TMl91T1hidUsyeWduWDhEaWJ4X0lxamxCdFI4TmpYSjJ3a3VOVVRvRHlnaEhJRFlNdlJMekwzeWhmYkw1akJ2aTI3TDhRVUQ3eC1zTnE1S25GVFNyWEE?oc=5",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-21T09:05:41+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "f2c1a752-f729-323c-a2e3-41c300a24062",
     "CBMimgFBVV95cUxNd0x1ZHAzOU5RUEJfODRiR1E1eWlqcnRWQm9XNm0wYW10TDJibWN4c3FLempaY1VVaUxwd2N1X1llZC1HVUpweFBqbHpramF6b29MTTg5b0djTFZ6blFJTl9XSE9KSE81ckVrbnJHNHdrSDIybFhDLXNtbE0tbVA3T2thakJMd3UxOUpxY3hvN0Z2ZHlqWG04SXFR",
     "CBMi6wFBVV95cUxORkpzRXUycXRyZ1BDaHAzT1NORlVCbVVJaGMzQlJ1QjFoTzRvVFh6YVhZNHc3X3dZN0VISlhMZVdKOV8tZW1uV1FOVXR0T3c2S19YNjVtUFBTakhvS2x6ck5raElJTVBDODRRUzRacmhKejQwMlItcUhpa3k4TmtFQWwxaW01cFlhbFpBOFJPLXRsdUlHZDRLcWphRENjWElLRDdTdHRpZmltYmhkWE1USDhzMHd5UXlHWVRPY1FFMk8xZkVOeFc3VGs4Y1Y1cjl5ODhvR1BDcG96Sks4Vjl6SjEtNnpIajNka1k0",
     "CBMihgFBVV95cUxPZUowRFFIOGgxd3hjWTVHdFNreThpOHRyWm9BODlacnVvZGNsVFFBZEVoV3NuMExxV0xuMHVhUVN3cE1MRHJVUS1ZaTJGQTdTNm9zSlRQV3Ytd0lGWG50bFlmbzdMM1dmSWwyOUxDSGNBRHM0cDJiV2FJbnViZjRrMl9ESUZQUQ",
@@ -3312,7 +3311,8 @@
     "CBMipwFBVV95cUxQd19sZ3FjcHFWSXp5QlB1U3dHbk90X0UtdzVWU3c0enN3NE1OZUZoS2lWLXE2Mmh3cG50UkNfQXhMMUJqMFE4c3BXTV93T0ZiNlV1Y1c2TGdxZ1dwTWc4THhJT3NVY0VCMDdFYnB0RmhZUThnZjFiUFQ5cHdaV1BWbzZfcU9meFAyUU40cHVMbjJFSWhvbEtfeU1iNHE4a2lSOW8tUzhYYw",
     "e3c57e73-cd49-3848-a16f-5d2871c43c10",
     "CBMikwFBVV95cUxPbkMxOHBHaHVGNF9lR2xjcmVPRjRuOXJscFh1a2NmVy1aeDAwRW1tQzh4TlhURDliT2FQLTlzV0RWZWEyUnZzRVQ0ZFlnMzB1RHQzLXlZb1VYSEZ4QTRTNTNvS1B5eFBLRWVvV2VxR0NoUkhfckdqdnVhbHg3Z3l0d1RsaHhOODlWelJaX3RUOHNzX1E",
-    "CBMioAFBVV95cUxOYWRTZHM0MzU0aUp2dE9zZVZZVzNNRTNaTGkzakd1V0VxWElVdTlDWERIS1lXd0N2ZWFfc0FGVWY1eng2NmhDQWVNeTY3Z3dyS0lEeXZhOHNPQ25VcDdKTFhHc05vNWdzRlNTWXB5OVN1OWsyVFFlMWlHYno5ZklyaDJxRlRCbDZSOXdVVnRhaXRfdUdwQlRoUFZFZVoyVFhV"
+    "CBMioAFBVV95cUxOYWRTZHM0MzU0aUp2dE9zZVZZVzNNRTNaTGkzakd1V0VxWElVdTlDWERIS1lXd0N2ZWFfc0FGVWY1eng2NmhDQWVNeTY3Z3dyS0lEeXZhOHNPQ25VcDdKTFhHc05vNWdzRlNTWXB5OVN1OWsyVFFlMWlHYno5ZklyaDJxRlRCbDZSOXdVVnRhaXRfdUdwQlRoUFZFZVoyVFhV",
+    "CBMiXkFVX3lxTE1TMl91T1hidUsyeWduWDhEaWJ4X0lxamxCdFI4TmpYSjJ3a3VOVVRvRHlnaEhJRFlNdlJMekwzeWhmYkw1akJ2aTI3TDhRVUQ3eC1zTnE1S25GVFNyWEE"
   ],
   "daily": {
     "d": "2026-08-21",
