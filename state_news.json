@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "\"I even apologize for saying it\" - Ketlen Vieira questions UFC's decision not to renew her contract with bold claim",
-      "ts": "2026-08-21T14:02:00+00:00"
-    },
-    {
       "t": "Broncos Plan to Play Bo Nix vs Packers Stream of National Football League",
       "ts": "2026-08-21T14:03:55+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Sacramento video: Anthony Hernandez, Gregory Rodrigues make weight",
       "ts": "2026-08-21T17:02:00+00:00"
+    },
+    {
+      "t": "Drew Allar and Will Howard To Get all Reps Against the Jets Stream of National Football League",
+      "ts": "2026-08-21T17:06:52+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Five weight cuts in one year broke UFC Sacramento’s Reinier de Ridder — ‘Took all the fun out of fighting’",
-      "url": "https://sports.yahoo.com/articles/five-weight-cuts-one-broke-232004540.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-20T23:20:04+00:00"
-    },
     {
       "title": "UFC BJJ 10: Tackett vs Gracie Full Event Live Stream",
       "url": "https://sports.yahoo.com/articles/ufc-bjj-10-tackett-vs-000903718.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie",
       "cat": "ufc",
       "ts": "2026-08-21T17:02:00+00:00"
+    },
+    {
+      "title": "Drew Allar and Will Howard To Get all Reps Against the Jets Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWk9YMjh5ajBCLTVya003b1Q3S010QWNuVXhjdXlrc0hfSTZZVEM0cmZ6eUhFQjJNS0VlS3Rpam9qXzJyd1Vyek9TLUI4R2szLVotLTktVTRUbUw3TDVuc2FJZ1lBNnM3SklFcHNPS2IyTG42RjZXQmNBYWY2eHVMQkZ5V0QtNHdHbjFkc3g5VmRwSGstTGpLT3RTLTNjNjdqazd5S05FZlY?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-21T17:06:52+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMipwFBVV95cUxQZ0hldjdXTTFaeGgyZ0ZCeXZUQmZOTlBCdldkTTNIc3d5eHhsUjd0WDEwU2hTUHpiRzhWRC16ZDBPQVdiNGRSb2MyS2ZGb1RuQ2ZhVHBTdDBXUjVPanZIX1RBdktVN2xhRGNsdlA2SC1qYXA4bk9nbFFNdEFmRFVRTjJXYmZDSnVuejFWcUpFT0hRVFpfZU82Tk01OWlkNG8xZVVVWS1JYw",
     "CBMi5gFBVV95cUxNYlFFRUZITmU2SkRsb1EtRGZMNklkbTFBa2dUTWNzX3EtY0M5OUFvWWhPRkhPT0VPMmJJWVZzRWYzUHdqOHlfS0hRRHlvVHgtR1Z0OUdDQndra0l0R0tSZlZaZU5rcHlnX1VGZjdNLTJDUEVDdElrZlFwVTg4SDJjZlNtX0NLT1ZhQjNQQkdvTHdsdWEzWG56alFSNXFTdVRIaXg3Vmk1THJRSC1zMVdpQ1NHekdpMU5Mb3Y3S0VBZnh5Y3VlQ29tSXgtc0c5SWwtNk4yYmEtbjZwRXFuUnlWX3IySkYtZw",
     "CBMi6gFBVV95cUxPcE5sV3pDMmdnWU1SY2EtQjBUUDI2OURJU2gtMFpwLVBKcDgzWFg5N2psOXlnXzhBcEQ2cGhRUDM5aHZzS1o1Y1ZDMnN6RVJPMFdzTnZfTFQ1eTlLRS1nTUl1dERoZXZEemM4U0JObmN5eFNJTzB0REU1UWpLNktrVFg4UGc1eEowX2NXY2hUVExfQU1HX2NpZDNSeFp2X1VTU1RuN1pObHlkTmpldmYwZmVSOG0td1hfVXZBUzZTVVVqZDRfS2VudU5Wa1dzMExFZWx4ZmtnUGFJWUVjdTgwVGJqMWp6VC1iWUE",
     "CBMilwFBVV95cUxPSFJoSzhKYzdiZFV4VWxIQkh4TTBEbGtnQ1JNemU4VVNLbmhsT1dZYm45blpsS3dLeXpWNVU2YlFoTnR6c1EzU0ItMjlZeVVkdE5pRklCS19jUllVbVRWRmgzbFhoTVBRVkExdGh3ZTlibFdIRXVCT2s1elZLOFVuazdQMmNxRE5nTUo4RVdQTjNPQlA3Vndj",
@@ -3312,7 +3311,8 @@
     "CBMirwFBVV95cUxOSlE3OGc2YWVrVnk1Vkd1S2tPR1NMS0NpWFJYZ0J4ZEJna0g5U0IzWUJ4QldrVXJoV0FrQTZ5MWlLV2EtTEVMZS1WbzJxTFdUcUloTU5JU0ZJTFdIYWVYQUhyS0s1M2twVGp6eWVBd3diS0ZMX0FIX0pBUHhScUZaRGNXVEFPNUp3YUxCVWtwXzN4MFBETjBITkdtN05jeFlCbU9zcUtFTFdveXBZLXlJ",
     "CBMi4wFBVV95cUxPaGJGUXVsMF94OFVJQ2J4Z2YydFBab2lsUEdqdVdVQnEtQVZ3Z2h4cGFhT0xDakppZVBnRHhGVXdTNC1aSGl4cWNkc282VXFwbEpfNUt6Y2JsZ3VNMlJvWU14N3Y5Tjh0dG5yaWlVRTJ4Q1lXeG5PWUZiLXdYc3VlOXlzU0htQ1ZJWTBVT2FXU1JuQW8zcW42eG5teTRGcW9NOUhPa0NXbUd5Q3pQR1J4TFJ1Nk1aV2VYUDhVX1BFaUtFRWtKcm9aVVNCT1c4eG1fQW0xS0NZb3Q4T2t2X3Nvc2ZBcw",
     "CBMihwFBVV95cUxQbzladzZFbnBRYWpjMEFIVGRpTUF4bVR0YS1rd05LejBrN1kyUHpCNy01TEtGMG1ERHByYTgtZ1YydExHNlRONm5BQUdJeHhmeDlDOWltTk8xY21xV2s1TnhiSDV0bVJzQzU3X2pWRGdaNGpjZUtyRUJaTWw0dGE4Z1pUYjJDTTQ",
-    "CBMi4AFBVV95cUxQOW1NX2FEVzR6SjY3Q3J4V0VIdXVVaEtyU2ROcDF3ZV92cG1rM3Q1ZW5NUUdWV2dNUGFwa1JiaWg0dUdHWTAyMEpYdkFCT2U0MHBvQzJsUENvdmc2VE1XWXQ3TU5oN1VpUW1FTUQwQy1sU2tMcVdFWXZjRzBBQlRubjBYb1Nqci1hTkQ1T3lkVVBWcnVWaU5NeEMxYWxNRFdVcV9wSmtBVzZQUFFodHhjek9wVzRBd0lCV3FuSE9UUFo3b2pSVS10ZWx4TTVKRlpPTzRqRXY4a3U1elRmRHJCTQ"
+    "CBMi4AFBVV95cUxQOW1NX2FEVzR6SjY3Q3J4V0VIdXVVaEtyU2ROcDF3ZV92cG1rM3Q1ZW5NUUdWV2dNUGFwa1JiaWg0dUdHWTAyMEpYdkFCT2U0MHBvQzJsUENvdmc2VE1XWXQ3TU5oN1VpUW1FTUQwQy1sU2tMcVdFWXZjRzBBQlRubjBYb1Nqci1hTkQ1T3lkVVBWcnVWaU5NeEMxYWxNRFdVcV9wSmtBVzZQUFFodHhjek9wVzRBd0lCV3FuSE9UUFo3b2pSVS10ZWx4TTVKRlpPTzRqRXY4a3U1elRmRHJCTQ",
+    "CBMiqAFBVV95cUxPWk9YMjh5ajBCLTVya003b1Q3S010QWNuVXhjdXlrc0hfSTZZVEM0cmZ6eUhFQjJNS0VlS3Rpam9qXzJyd1Vyek9TLUI4R2szLVotLTktVTRUbUw3TDVuc2FJZ1lBNnM3SklFcHNPS2IyTG42RjZXQmNBYWY2eHVMQkZ5V0QtNHdHbjFkc3g5VmRwSGstTGpLT3RTLTNjNjdqazd5S05FZlY"
   ],
   "daily": {
     "d": "2026-08-21",
