@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Tai Tuivasa trains with heavyweight Francis Ngannou KO’d in 1 round after changing teams for UFC 331",
-      "ts": "2026-08-21T14:00:00+00:00"
-    },
-    {
       "t": "Kamaru Usman wants Khamzat Chimaev to move up for 'heater' vs. Paulo Costa",
       "ts": "2026-08-21T14:30:57+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "No Bets Barred: Can Anthony Hernandez rebound at UFC Sacramento, or does Robocop march on?",
       "ts": "2026-08-21T23:02:21+00:00"
+    },
+    {
+      "t": "Video: UFC Sacramento full card faceoffs with Hernandez vs. Rodrigues",
+      "ts": "2026-08-21T23:44:00+00:00"
     }
   ],
   "digest_items": [
@@ -2063,6 +2063,13 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-08-21T23:02:21+00:00"
+    },
+    {
+      "title": "Video: UFC Sacramento full card faceoffs with Hernandez vs. Rodrigues",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObG1yMk5zNjZCclQwam9fdnNkLVRQdF9MMjk5dlFXYnQzMUlPdzYzLXllWU5oYm52SnRjQWYwa01FSERLeUtTc2t1YjMxdWkzWW4yclM4VTJnX20zNjN4Z3dpNTQxUENUVWdSTzB0cTI0QWlncFhaS0lxUXJIX3p5ZDU0X0MtNXV3X281YkUxY3l2S1VBaWs3azlwY3REM2U1QVdGekJNWjQ1c3VVSFBrTW5TcEV0RWkybXUyYkFyQ3ZPVTlISlc4X3QwaUEyLUk?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-21T23:44:00+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2071,7 +2078,6 @@
     7
   ],
   "yt_eval": [
-    "CBMihwFBVV95cUxQel9kMmtzQm5oendPbnJCRWs4aVZrX3NTbEhwSm1EQ0p0T0lXOFpESmNlR1lQTWZNN3JiZGlaQlBPVno1SGd0QUxxUVF3alltVi1yQ3FvbU1SSjlUQzhPbEpKZUNnVHZhYWd2bHNhSXpZdjNTLXBiaDFURFFSaEJZbzA2RVctTm8",
     "CBMilgFBVV95cUxQY2VjM245SzhqRWlzdk04bTRuQm96dW5ubHNKWHRxQUhaRFdJM3ZYdXYwRUg2bTV1SW1qQktQWkRIMDdfSW1iSW9QazNSY2tURjlkZGw3eW1lZUxadFNHZkdFT0RKX3hrSmdodXBQdnA0Y2VXTmNoMkxaSlEtLXNwX0lUQ2NvUTVqV1BxQTBRMDFUMUZodXc",
     "CBMilwFBVV95cUxNaTlPNlFGMmV2a2xJaC1aMTlSem9CV3FHRWVaVXg0VjhILTlXSWRIQ0pPTGN4ZTJNX1g5QTBxM1pPT2lVSlFYZXVzNUJSamMyZFFFOXNCSEI0OXRzaENJQVR3UzQ1SlVNUkxNWlNmRmZrUWZEZGtZcjdFYXpZVkRYenJQcjZzQjlOMFlGWTBQNGh1MVloZ3c4",
     "CBMipAFBVV95cUxNR3JpZG43b3lVWmhNbmJWd2Q3WHZwS0MyNWprOG9xSERhajVpYkYzVU81R013NElsQ08xUG1razdDd2U3Z21RS2hGQkdVSGNRSVRwcEd2d2xkd2RPRzNoZjlTeVBLR1JLSmhXRXZveEpYNGlXZWZUODBGcWhUdmpocFVId1ZXWURnT1dVVkE2c0Rza0JKbG1SN0gyU1kwVVhFNnlaUQ",
@@ -3270,7 +3276,8 @@
     "26dfb239-1152-3bc5-8271-159e96ca32a4",
     "61fe6eed-2ecd-359a-8f95-e4491c6e640c",
     "afa838d9-0030-436d-916d-6b873f0cd1a8",
-    "CBMixAFBVV95cUxOSlhCVTg5cjI5ZDVrMjNwd0hxTXVRZlNGRzhiSTZPVEwxTFJ6UEZ2SHB0aExfN2EzQk5LaUdNTy1nQkdXSGJpb2tWWWVmZTR0WDZHcEE5TFJxMXBJQnVCWXhFUlpYR1NKT2hzbXFTak1CRmowbzBZR2tSNUJobk9PbUlaTVJBdzJ4T0lUMXhwTWl3NzVkdThCY1pOZUlaLVI5M0pzRFNMSENCT1NKbTlTZGdTZ0pTTTI3aEc0U3ZfV2V3dlhT"
+    "CBMixAFBVV95cUxOSlhCVTg5cjI5ZDVrMjNwd0hxTXVRZlNGRzhiSTZPVEwxTFJ6UEZ2SHB0aExfN2EzQk5LaUdNTy1nQkdXSGJpb2tWWWVmZTR0WDZHcEE5TFJxMXBJQnVCWXhFUlpYR1NKT2hzbXFTak1CRmowbzBZR2tSNUJobk9PbUlaTVJBdzJ4T0lUMXhwTWl3NzVkdThCY1pOZUlaLVI5M0pzRFNMSENCT1NKbTlTZGdTZ0pTTTI3aEc0U3ZfV2V3dlhT",
+    "CBMizwFBVV95cUxObG1yMk5zNjZCclQwam9fdnNkLVRQdF9MMjk5dlFXYnQzMUlPdzYzLXllWU5oYm52SnRjQWYwa01FSERLeUtTc2t1YjMxdWkzWW4yclM4VTJnX20zNjN4Z3dpNTQxUENUVWdSTzB0cTI0QWlncFhaS0lxUXJIX3p5ZDU0X0MtNXV3X281YkUxY3l2S1VBaWs3azlwY3REM2U1QVdGekJNWjQ1c3VVSFBrTW5TcEV0RWkybXUyYkFyQ3ZPVTlISlc4X3QwaUEyLUk"
   ],
   "daily": {
     "d": "2026-08-21",
