@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Exploring Potential Alex Pereira vs. Josh Hokit Fight",
-      "ts": "2026-08-20T21:50:53+00:00"
-    },
-    {
       "t": "UFC Heavyweight is Left Utterly Impressed with Islam Makhachev for One Reason",
       "ts": "2026-08-21T10:43:46+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "MMA Mania Asks Fans About Moments That Got Them Off Their Seats",
       "ts": "2026-08-21T14:03:26+00:00"
+    },
+    {
+      "t": "Geno Smith Wants to Play Despite Ankle Injury Stream of National Football League",
+      "ts": "2026-08-21T14:05:35+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Anthony Hernandez vs. Gregory Rodrigues: Bloody Elbow staff predict the UFC Sacramento main event",
-      "url": "https://bloodyelbow.com/2026/08/21/anthony-hernandez-vs-gregory-rodrigues-bloody-elbow-staff-predict-the-ufc-sacramento-main-event/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-21T05:00:00+00:00"
-    },
     {
       "title": "Despite new sparring footage, Shavkat might be ‘done’ with UFC — ‘I don’t think he’s ever gonna fight again’",
       "url": "https://sports.yahoo.com/articles/despite-sparring-footage-shavkat-might-201540664.html",
@@ -2105,6 +2098,13 @@
       "source": "boxingnews.com",
       "cat": "ufc",
       "ts": "2026-08-21T14:03:26+00:00"
+    },
+    {
+      "title": "Geno Smith Wants to Play Despite Ankle Injury Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLTdneHN4aUF6TmxsRUVsX2VPdmQ0SElrRGdDTWhNYlNyaUFvancyVzdacm9yYVhtT3F3bHJ6V0hoeVFzeE53WUJSYjh4UFhyXzlCREpRSDFGV3pzWTdVVHhGWVJobVlZZzR4QlJURjNBaHFFenBhWFF1M1NHc1hQSUZQcTY0cEo2SFpHYmlBbmtmZlQ3WWc?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-21T14:05:35+00:00"
     }
   ],
   "digest_last": "2026-08-20 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMigwFBVV95cUxPWktxV2ItUGd0NFQzWlNKTVZ3MWNkeGNMOGhyOE5DY0hBUlp0YTQwTlotNGZJYW9PNHNZNU1tY3ZHcG5QcmNlbU1zS3FNcnZDd2N3ci1CaDR5QkJkRlFWcW8ybHBHbGp1VVA5b2pJMk9rWEltLVFfNk1tcjNxd3RHZjgtOA",
     "CBMimwFBVV95cUxNa0RvdW9lRDNQWDdveUM5ajdiVkp4N0s1VUtMTmNCVElKdTkxM3ZvaDJ0bHB1bVlaeEpOd3RhRlMxSGJsSkVYa20yZnNRU0hxNEpyTTFLYVFlb2Qyb2pqTmtwTmpEOXRzczlNdnVidDRPQ3BReGN2R3IwclBqUG1MbFNDY2RYeFdaNmNvM1Nxb3lpdFBObC1fYVI5aw",
     "https://www.sherdog.com/news/news/UFC-332-adds-four-bouts-as-Salt-Lake-City-card-takes-shape-202426",
     "CBMijwFBVV95cUxPYURnRGVmRlI0d3VvbF8zOVZfSk5Dd2RQcFF6RjZVcDh0ZkFHYWtsb3JSZmJ3TzNxTjdTTkMzQmR2S2ZKUXdhdkZUQl9jWXBhYjBvSmdjaHdod2hKeG90Q3VMNGxhNGVGRnNndzQzSUk3VUp0RnVKcWtsakdaNE1WTV9hVVVTWVdmLXl4UTVIaw",
@@ -3312,7 +3311,8 @@
     "CBMiqwFBVV95cUxQbG1VMFJUbFZhMTFFRF9lbThnRTR3MWh6UlVjazdtR1dWdTMxaFRJTVUyd2NFQ3BVOU9HMmQ1QWZBS2hDVkdZRTVZUnE1RVplOHZVX3JLX1NOV19BV0ZMSlE3bHJHTmNFT0drS3lkSDZvZFdsbGUxZ3VJMW9jSzJLQVlTaUtrVVBzQUJjM1RYSGVhNmlZU2pWQkdzajNtMlBDUEZIdS12YWNVUWs",
     "CBMijAFBVV95cUxNNWEtTlVrclZTSW90OVQ0dVAxRDVnc3hFc1dxd2tUQ0c5Z2sxcF90R1lubUZVa2JmeUtMUTZiZ0pLTDA3LTZiM2d5Q0w2MEhaOC1CbEZLMmRkcVQ2NnhKcnlvSG42N3lNWFRteVFCOG52Q2JkekUxRFJIUkFEV3RicVNZOURsY0ZnTkloOA",
     "CBMieEFVX3lxTE1kX25SSkF3TUItRTZ6dHU0R0V1VFdMMEhzYmdhdXlIbDVtbzd1djBrZlJIOUdwNE5Vd25fWmRPczBWckdwRVhwWGEwMFF5NHFLWU5rTGlFa0pnSFNyUWJ1U0cxZndIQ3FJY3ktcVN2Rjk2akpVLUpGSQ",
-    "CBMicEFVX3lxTFBBMVJMMWhENU5pb0U5TTM5MFBoOE9VOWRWdHlHWllZN0RyWmtiS2RrUXZ3VDloajN2S1p0djRTNWIzYnlhZXhwakJoSng5MW82ZllnX1B5U1J5MTJVRHM5M2F4LWRSTGljQjRORXY3dUk"
+    "CBMicEFVX3lxTFBBMVJMMWhENU5pb0U5TTM5MFBoOE9VOWRWdHlHWllZN0RyWmtiS2RrUXZ3VDloajN2S1p0djRTNWIzYnlhZXhwakJoSng5MW82ZllnX1B5U1J5MTJVRHM5M2F4LWRSTGljQjRORXY3dUk",
+    "CBMilgFBVV95cUxNLTdneHN4aUF6TmxsRUVsX2VPdmQ0SElrRGdDTWhNYlNyaUFvancyVzdacm9yYVhtT3F3bHJ6V0hoeVFzeE53WUJSYjh4UFhyXzlCREpRSDFGV3pzWTdVVHhGWVJobVlZZzR4QlJURjNBaHFFenBhWFF1M1NHc1hQSUZQcTY0cEo2SFpHYmlBbmtmZlQ3WWc"
   ],
   "daily": {
     "d": "2026-08-21",
