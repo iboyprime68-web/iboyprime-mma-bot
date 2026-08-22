@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento Preview Show: Can Anthony Hernandez get back on track against Gregory Rodrigues?",
-      "ts": "2026-08-21T19:56:54+00:00"
-    },
-    {
       "t": "Fantasy football rankings 2026: Breakouts by computer model that called Tetairoa McMillan's huge season",
       "ts": "2026-08-21T22:27:31+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Highlights: Lynx at Mystics (8/21) Stream of WNBA",
       "ts": "2026-08-22T03:20:14+00:00"
+    },
+    {
+      "t": "Josh Hokit Tells UFC To Strip Tom Aspinall, Calls For Ciryl Gane Fight In 2026",
+      "ts": "2026-08-22T03:35:48+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Vitaly and Larry Wheels weigh in almost 50lb apart ahead of Brand Risk Promotions fight",
-      "url": "https://bloodyelbow.com/2026/08/21/vitaly-and-larry-wheels-weigh-in-almost-50lb-apart-ahead-of-brand-risk-promotions-fight/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-22T00:50:08+00:00"
-    },
     {
       "title": "NSAC trying to withhold Max Holloway’s fight purse following UFC 329 win over Conor McGregor",
       "url": "https://sports.yahoo.com/articles/nsac-trying-withhold-max-holloway-210134513.html",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-22T03:20:14+00:00"
+    },
+    {
+      "title": "Josh Hokit Tells UFC To Strip Tom Aspinall, Calls For Ciryl Gane Fight In 2026",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTWZQdHoyZGZMUHUzRXIyc1RxdmJya1hOQTUxUjFwREhFU2sxNGJfU243YXBMR1ZCTTFXUUppYTZZLXdacGRybzR0R1JCTXpGR3F0b2xzdzNNQ1FJR0lZLWxIWFY5dmlUUlM3ZEg2ejVDbXpYbWc3eEF3NDdLOTczbWxfYzBQSjlSZ0k1ZGp6MUQ5Y0k?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-22T03:35:48+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMipwFBVV95cUxQSzBERjVhSGZCQllEeG5CR3hfMTlLRFBLdGpWa0pFX09zNDN6MTJab0JBMU9ReDNsZGtCc1VZc2NWMDJqcEYtVEt3RE1VUElSSl9iLVNyTXJpazV0cmdoOFAtM0l1dDJFQWNZMHdxNUFwSUlscXUtdzdhZnZnU1htLU1oSXFfejliWUI3LVZIeG8zbzdSM1EtRnlOM19Za1hDYlRwazBxbw",
     "CBMisgFBVV95cUxPZ0tBWFF4Z29Gd1V3T09XQkYyTGtsV1lZZC1fdURSZER2QzVCZy1GT3U0b3RDQVdvQTRGa1NLZlFvcnJWc1NXMUZaVnFhM1BDcDVJc3duZEk3UHRZcnMyajBIQWtkaTBPZGgwZDJ4RDM2a1gxclhSeWNwRUY4UEFwcUJQWUZ6WjlwRzFZU0t2S3c2ck9xcHB1ODJBU2Q5MVlPMHNROE91RmM3cXkzV09hNjRn",
     "CBMipgFBVV95cUxON2xQNjRCX1AtMlJhSW1WcTM1b2V5YlZkMlQwWU0zeENHd1I4Tk0tZl8xWkFyNXRDTk00cDZZMW9XRFlydkpXNUZFVWhwN21nOUlVUzJ6QW9lQzV1Mkd4bkxabXFRUTduTmJCSFdwRU5zVFhiNmZjdWM2dUpCRlN1T2IyT1BKNks5REpodXduZnQwY2tLMWdfQ2dRXzllamFHT0VhMTBR",
     "CBMifkFVX3lxTE9TRWdRTkx4dDdSWm1vYlZLVGVUbkxtWE8tTVFjcTViTWdHaEF3UWxUVHk4Z25ZZEs1dlppaHFhMFdKb0ZDajJac0pPRWpDbXFUV2JvbjNISkxOaDFNMDEweUZVQUZtUUZWUXh5aGg4UWpUSDlNSm9SVU9rVlJPdw",
@@ -3312,11 +3311,12 @@
     "CBMisAFBVV95cUxNbFZlUzlFWEJKRHFNSjVsQ1lfTWtaVkJsUUxIc281ZzFfdktzN3JxQ3cxbW9MX0V4N2lhaXBkYmN0TU85aGVIR0FHWGRNQUhWU3F3NGNqYVJDeXhEQjFnVUV5dV9DalJ6MkNFRFZSVEJLMnEweThGSjlXakExTHI2RDE4N0xjWEdURDFFZl9GZjB5bnBLTXNteDVFVElkTG41Vk5oNUpqZHBVRFhnaVQ3ag",
     "CBMif0FVX3lxTE1vaDgwenRaQWVQVnhscjlsa0RBWlRaOUdZTWg1MEE1QmplczF2d19hdll1RmJnbkZrZko0WkI2MEFyd1dTU1lTWHJGekJMY1NWMlFiQWVnQzVJWjlmZ3BDbm9VNExMVlVNUUljdWxoQWdHTjIxcnRGNHNKSkVHQW8",
     "CBMizgFBVV95cUxNT2ZidWh3QThvTGI1djhGc1VfcTVDTnZKU2l3dFpCX2xvaWxFSWpKV2Z5ZkEzYV9Sc29mZHluMHAtb20wNGswdXU5bFhMVS02NHRxQnR6aXVYOEtWQmM2cHd5ZTJ1NTNnQ05heXl0dHM3X3N1dzZ1My11aF9WeWNCMnFrWFUtQ0p4NURUT090NVZaUFNXZTk3Z3FOb2hPVFpJYUlJR0dmelBYREJrWmlRWnducDc2MUFIWFBvcUphd0NVSHA2SnlEaW9JTnR4QQ",
-    "CBMiggFBVV95cUxQOXlmMkRzSTNpcUU3UkJHenFRZUg4YUhMQTNyVUZTYjBxa3BUMGZZek91U1lLaGQzUGRjTUhHNl9fbkdRTjRVUEhfM2MyUFdXR0ZtVWs2S0dHT1RqaXJNVGcyaVU4cnhWaEprQzNlbmlOX1VyVlN1NC1qbDl3RFdaTW9R"
+    "CBMiggFBVV95cUxQOXlmMkRzSTNpcUU3UkJHenFRZUg4YUhMQTNyVUZTYjBxa3BUMGZZek91U1lLaGQzUGRjTUhHNl9fbkdRTjRVUEhfM2MyUFdXR0ZtVWs2S0dHT1RqaXJNVGcyaVU4cnhWaEprQzNlbmlOX1VyVlN1NC1qbDl3RFdaTW9R",
+    "CBMikwFBVV95cUxOTWZQdHoyZGZMUHUzRXIyc1RxdmJya1hOQTUxUjFwREhFU2sxNGJfU243YXBMR1ZCTTFXUUppYTZZLXdacGRybzR0R1JCTXpGR3F0b2xzdzNNQ1FJR0lZLWxIWFY5dmlUUlM3ZEg2ejVDbXpYbWc3eEF3NDdLOTczbWxfYzBQSjlSZ0k1ZGp6MUQ5Y0k"
   ],
   "daily": {
     "d": "2026-08-22",
-    "ai": 65,
+    "ai": 66,
     "staged": 5
   },
   "staged_hist": [
