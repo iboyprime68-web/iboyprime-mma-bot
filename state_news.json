@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Trump to star as motor race takes to streets of US capital",
-      "ts": "2026-08-22T03:12:24+00:00"
-    },
-    {
-      "t": "Andre Fili vs. Kai Kamaka III added to UFC Vegas 122",
-      "ts": "2026-08-22T03:13:53+00:00"
-    },
-    {
       "t": "Highlights: Blue Jays at Yankees (8/21) Stream of Major League Baseball",
       "ts": "2026-08-22T03:15:13+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Yair Rodriguez is no longer worth the trouble for the UFC",
       "ts": "2026-08-22T06:45:14+00:00"
+    },
+    {
+      "t": "MMA: Cris Cyborg's final fight almost cancelled over Ketlen Vieira's weight miss",
+      "ts": "2026-08-22T06:47:22+00:00"
+    },
+    {
+      "t": "Cyborg title not at stake as opponent misses weight",
+      "ts": "2026-08-22T06:47:26+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Max Holloway rips Conor McGregor for being 'delusional' about UFC 329 dud",
-      "url": "https://sports.yahoo.com/articles/max-holloway-rips-conor-mcgregor-193022804.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T19:30:22+00:00"
-    },
-    {
-      "title": "Merab Dvalishvili eyeing superfights should he win RAF 12 and UFC belts: 'I can fight at 155 too'",
-      "url": "https://sports.yahoo.com/mma/article/merab-dvalishvili-eyeing-superfights-should-he-win-raf-12-and-ufc-belts-i-can-fight-at-155-too-193446888.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T19:34:46+00:00"
-    },
     {
       "title": "Video: UFC Sacramento full card faceoffs with Hernandez vs. Rodrigues",
       "url": "https://sports.yahoo.com/articles/video-ufc-sacramento-full-card-234459090.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-22T06:45:14+00:00"
+    },
+    {
+      "title": "MMA: Cris Cyborg's final fight almost cancelled over Ketlen Vieira's weight miss",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB2RG1sUGNsMkJBdTdwSlozNXZHS2ZBX0lXVmdPa1h0aGhZM3NDc29HaHdTUFRxQ2pBMVJtVG1ybEU3a2lOak9XZHY3WG0tN1NXYjNYN1hPTEN5eWpEWGF2R0lDQm90N2MzMnFhYkpaS0JzUWJyQXVz?oc=5",
+      "source": "BBC",
+      "cat": "ufc",
+      "ts": "2026-08-22T06:47:22+00:00"
+    },
+    {
+      "title": "Cyborg title not at stake as opponent misses weight",
+      "url": "https://sports.yahoo.com/articles/cyborg-title-not-stake-opponent-064726016.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-22T06:47:26+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,8 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMixAFBVV95cUxQM0pSWmZibHZDRm9IcHR4V0h5eUlSZlpVajdrMnBWMnFjM0E2dWFqU1VZWDkyNEQweURlWkxlR1VNM1EyMWh1dXhFLU1vcjlzUWM3bldKMXZ6d3c4NFdIY1BzMkFpdXkzSHVjTWotazQ1ZHBISFR6VGZvUjRhYTFVbTU3ME9NUHdHZU15NVFKb2UxOXhaOUdUQm0wTUQzRDUtRXYyWUFBMkd0Nm5OcWRpc3RrbGpSSEdKaE5YVWZPUEN6dEtt",
-    "CBMikAFBVV95cUxPdG5BU0thMDQ1Y1VNUjV3THhCNDFSd2hqQmlzSFpkdW9EYlgyYWVSU2ZmRV9GQ0tzSExHZEVNbVlaLTVNLUJqUW9Pc0xKN19xazRkRk94TGZ2cnNMd3lkSWhEc2lLOHBrN3c3UG1VRWFVSnZjdjFNV0FXUjE0M19Hc3VRVnBNZWEyd0IyZE1ySWc",
     "CBMib0FVX3lxTFBnMk5LT2RLMktsM05oVmhTTmNSNWx5ajZYa1FrZ3A4UlNjX051WVZhX1FLdENick5qUC1FTlR2YS1iY3BQNENlckw3UG5Xb21nV1MydzI3dkxBVUlCOEp6WkxMcmxKNm1JbDFSZDA4TQ",
     "CBMiVEFVX3lxTE56dEwwdVdkejZkcE5sRHlKMmdRZVl4aUhMcFg4RGdJbFV2OWpENk9wVEMzeTNfR0lYRTQtbk1IeG9SR0ZrU2RTU3VTUzVJQ0ozYWNnUA",
     "CBMiuAFBVV95cUxNb1pLb0k1d21pcTlzT1Y5eFZEbDdnQjhhRVp3dFh1LVUxdHRkTDNMQ2lfSHp1Z3dVTFM4WE9lcnZQNXZBSmpzVW1waTFRZjkxc2NXblgxcDBMV1BxdmNoVF9mMFk1eE9wSWw3eDFrZ3hGUDFueTRhYWJUTXNqdEY5QzA4RkMtZUF6enNCWDhENmFSNUhMMzlJWU9SME5xVE9yenBQMzROUE9UamNMYkc3S0pYckFpVFFv",
@@ -3312,7 +3310,9 @@
     "a980ffde-27cc-3e9b-8237-0a1435091aec",
     "544e55f6-cca6-34c3-88b2-7467dad3fd24",
     "CBMiqAFBVV95cUxNanRpeEluelBwVjh2cE9TTV9BNVdhaEpqUWxlTW10VHEzeWtqY0RKRGZjV3Raek1mb3dqOFJRZG1ZbWFkNW9GR2NjWnRWV2hLRklrTGZESGxtcGpZVVA2OTgxTG5acUljZHNTWEdqQjhsZk1EQkZ0d1hjTHJjV2dtM0JSaHFLMm9TdUhZQTNveGM5X2lUTkJOejdWLXpLUFRENlBSemlLbHE",
-    "CBMiowFBVV95cUxQN0xsdlBrTk5waTZ2NkJtZGpJLUswMkpERGw4aXdNTi11Y0JEQ0JwcjQyQWNERl9BV2x0dFdoQ1BybDNUaU9uZ3JGZEZ2VktXV0ZMYWMwczk3eFVkQkRadjRZdlp3SFdqRXR4NUpkZHpjVDl5b0ZxN0lKUjE4X2lrME41N3JIdEo3QkVLUG1pb3NaOV9jeGhfQThFT2JlWVQ3aS1F"
+    "CBMiowFBVV95cUxQN0xsdlBrTk5waTZ2NkJtZGpJLUswMkpERGw4aXdNTi11Y0JEQ0JwcjQyQWNERl9BV2x0dFdoQ1BybDNUaU9uZ3JGZEZ2VktXV0ZMYWMwczk3eFVkQkRadjRZdlp3SFdqRXR4NUpkZHpjVDl5b0ZxN0lKUjE4X2lrME41N3JIdEo3QkVLUG1pb3NaOV9jeGhfQThFT2JlWVQ3aS1F",
+    "CBMid0FVX3lxTFB2RG1sUGNsMkJBdTdwSlozNXZHS2ZBX0lXVmdPa1h0aGhZM3NDc29HaHdTUFRxQ2pBMVJtVG1ybEU3a2lOak9XZHY3WG0tN1NXYjNYN1hPTEN5eWpEWGF2R0lDQm90N2MzMnFhYkpaS0JzUWJyQXVz",
+    "a180d99d-0b51-3547-b0f2-96e46a4f4cc8"
   ],
   "daily": {
     "d": "2026-08-22",
