@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Ex-UFC champ Tyron Woodley willing to wrestle for RAF, box, and do MMA",
-      "ts": "2026-08-21T22:01:02+00:00"
-    },
-    {
       "t": "UFC Sacramento Ceremonial Weigh-In Video",
       "ts": "2026-08-21T22:28:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Merab vs. Cejudo 3? Why Both Stars Want a Trilogy Match After RAF 12 Rematch",
       "ts": "2026-08-22T17:05:31+00:00"
+    },
+    {
+      "t": "Colby Covington signs with Hype Fighting Championship for submission grappling",
+      "ts": "2026-08-22T17:10:31+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "NSAC trying to withhold Max Holloway’s fight purse following UFC 329 win over Conor McGregor",
-      "url": "https://sports.yahoo.com/articles/nsac-trying-withhold-max-holloway-210134513.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T21:01:34+00:00"
-    },
     {
       "title": "UFC Sacramento weigh-in results: Anthony Hernandez's Octagon return set",
       "url": "https://sports.yahoo.com/articles/ufc-sacramento-weigh-results-anthony-143935563.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-22T17:05:31+00:00"
+    },
+    {
+      "title": "Colby Covington signs with Hype Fighting Championship for submission grappling",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSnV4aWQtMjRFVFV1RHFDQjJEd2VSeTk5dnpxQnNGLWhadHpDQUgyY3dlSEJiNHZmdzVkZVpVek1wMGFyMHlpQ19reERsTVpuSmNpREpuQWJwQXVQS205aHgtV2FPOFFhTEd0cC1oOGwxX0s5T1NhYmlNYWlpX1B6NEsyeW1pMkVkbUxfVkJXREcxVlM1Y1hIX2dvOUJ6SjM0Z1l1aGRZQ3A?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-22T17:10:31+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxNTmFoeVhXY3dTMVhEcEo4Qlg3OGwtSG1kVmxRVTIzVXJWaXJFczJROTNWN2RwUS11ZXRWQWpqM1ZrcnFtRW1VdzN3ZnB6ZktHMlY1X3d4ZXRZcl9CR0xIOG5MeGsyczI5UXlfejhVQWprNFhsWUR3U3gtRXFCRzFWLWxBQTRfUmdva0ttTGZ5eXUtaUd4eWU0Y3VMX1RtaWds",
     "CBMipwFBVV95cUxNVUxsTzFiNDllNFpPc2FXY3VvUDVfeEQyVFItQjdfazNBYjFSbERZODRKWHRua2NhRHVEQTJ2LXl3Tk9DbFpBVGpwR3VWb0Y3ZHFSaXB6Tm9vZlQxSDFXaWNoTURBVjZjbHlsX0dhMWpqVlY5ZG16NFlJN3pvbTJDcUtxRHdrWFBGRXRsWkkycEZEWm05WV9PQndrNnZuNHA0TmlUVTh6aw",
     "CBMinwFBVV95cUxQcWlvTDdEQkZwa3owU1VhajBjcHR1VG9oQXRJdkNnVjVYQ0ctb0dMMnZRai1YVkZpQUNBUTZ5OWYxWVJ6Tmdodl9rOEUyZDNLdUxIVUMyMWxxNXNvR3lnd3hSTzhxbS01Skg0WkFhRTQtNVlyc0dIMHh5Zm12RS1pT09BR0NzRHpvRlhQV0VUZkV6Umt5VWNWZGdKMjRUXzA",
     "CBMilAFBVV95cUxNeE5GUkhNNFZ4Rl84MXllbEFzbWdJTU5la0EtMTZ0amxEQ01tTGhMWjZvalA1MDB2bmkwdGZSLTVLd2Vnd3NUbXV2Y3pVTTB2NXNuRWNoRXRlOGVEc2p1QlZ4RDlkbDZHblRvQkg3T2ZOanFJcDRJbzJZd1hqN1ZRcTA1RnhmQk1zMmNwQzhnOXE0OUZP",
@@ -3312,7 +3311,8 @@
     "CBMimwFBVV95cUxOdHhqTHFTakZuWEk0dXRUYXZPbkdBbHFqOG51eHlOWDZ2RE5YQk9jOFB5aDNnYmFjQ1lnQ3YxNjBsREU3NUdyek5ac0ZsOGhsWHZaY2tQUlJ3cEpEUE5LZ1lEU2dNSWdadEttcFVST09vRHRvakhGQ1ptSFl6NVJHam9FZTVScTNIbzRXQlR1UzJpSURYQkxhVk9mWQ",
     "CBMi1gFBVV95cUxPRDJCdGRrQjhoTHE1ZkhvUFFqdGxuazNtcTg5V21JeHBhVDRibnVxd0JhVmZLVmV5a3JDNHptbjBObUM1SHdzamRhM0J6bkhodXVKWUU2RmJ1VkV4OHJtOHNoSGRrTkdzZGlhMVhrLTBqcGRzTzFCNzZuUDR6NW12QnFLcDJSaWgtaHZ1c2NoUDltRENpVVJIRnV4N2JHTXBDdjdaMVBCckZZMC1uLWltc25qdXVPd0ZRV3pSZ1NmS3o3STBDck8tV2h0Y2YtWklXR05ENkh3",
     "CBMic0FVX3lxTE5qOVpYdy1XZ1Z1Y2p3Z3BHaEpKLVVuSXc0dFBvTnlSZk5UYm9pcGNKRk9mM1NZOTBJVnBGQ0lpMjQtYnZ1SHBJdUpPcTlYOVNaWHhsa2lEVE5GSjc2aUgxdzROekE3Wjc5ak9mZTY4bjVMblk",
-    "CBMiowFBVV95cUxOd0lKdkJuTG5heWFVZTUtUXQ2T3AtcWhEcmdMMGlNNnhpNG9xd2w2bU1KQkJGVkZYVEM5YWc2d2prdDh5dE1vNFYwcGtsbW1QcDVRRlN1QUJZaktkUkxGQmNWdDQ0UVpZTkRjMUI0SDNYd3ZlSEdPVW55X2RhRHZoN0hNY2VoOTEtcEduZDBuUG1YRGlzR2RqRnhFaWxMLVJtbFBz"
+    "CBMiowFBVV95cUxOd0lKdkJuTG5heWFVZTUtUXQ2T3AtcWhEcmdMMGlNNnhpNG9xd2w2bU1KQkJGVkZYVEM5YWc2d2prdDh5dE1vNFYwcGtsbW1QcDVRRlN1QUJZaktkUkxGQmNWdDQ0UVpZTkRjMUI0SDNYd3ZlSEdPVW55X2RhRHZoN0hNY2VoOTEtcEduZDBuUG1YRGlzR2RqRnhFaWxMLVJtbFBz",
+    "CBMiqAFBVV95cUxQSnV4aWQtMjRFVFV1RHFDQjJEd2VSeTk5dnpxQnNGLWhadHpDQUgyY3dlSEJiNHZmdzVkZVpVek1wMGFyMHlpQ19reERsTVpuSmNpREpuQWJwQXVQS205aHgtV2FPOFFhTEd0cC1oOGwxX0s5T1NhYmlNYWlpX1B6NEsyeW1pMkVkbUxfVkJXREcxVlM1Y1hIX2dvOUJ6SjM0Z1l1aGRZQ3A"
   ],
   "daily": {
     "d": "2026-08-22",
