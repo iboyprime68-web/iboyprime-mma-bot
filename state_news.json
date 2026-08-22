@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/456152/open-thread-july-10-2026-who-was-your-worst-landlord",
     "https://www.mmamania.com/456156/mm-clone",
     "https://www.mmamania.com/456333/ufc-baku-results-sooo-about-last-night-fiziev-vs-torres",
     "https://www.mmamania.com/456336/bonuses-undefeated-sensation-abdul-rakhman-yakhyaev-banks-100k-for-eight-second-demolition-ufc-baku",
@@ -180,6 +179,7 @@
     "https://www.mmamania.com/465820/open-thread-august-18-2026-do-you-know-your-flags",
     "https://www.mmamania.com/465918/mackenzie-dern-vs-gillian-robertson-odds-full-fight-preview-and-prediction-ufc-330",
     "https://www.mmamania.com/465925/mm-clone",
+    "https://www.mmamania.com/465954/reinier-de-ridder-vs-roman-dolidze-odds-full-fight-preview-and-prediction-ufc-sacramento",
     "https://www.mmamania.com/465989/open-thread-august-19-2026-whats-your-dream-job",
     "https://www.mmamania.com/466083/open-thread-august-20-2026-potpourri",
     "https://www.mmamania.com/466212/ufc-abu-dhabi-start-time-full-fight-card-details-ankalaev-vs-guskov",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Kennedy Nzechukwu Is the UFC Underdog Bet You Should Know Tonight",
-      "ts": "2026-08-22T13:07:00+00:00"
-    },
-    {
       "t": "'Most punched on face in UFC history': Conor McGregor hits back at Max Holloway's 'slow' remark",
       "ts": "2026-08-22T13:24:13+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Fight Night Preview: Anthony Hernandez vs. Gregory Rodrigues Stream of UFC",
       "ts": "2026-08-22T16:31:35+00:00"
+    },
+    {
+      "t": "UFC Sacramento Predictions — Hernandez vs. Rodrigues & All Main Card Fights Toni",
+      "ts": "2026-08-22T16:32:46+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Preston North End vs. Wolves Live Stream of English Football League",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA0OVhqNXRVY0pXMmFfQWhEdENOdTVQMVlhalAxT2E5Slo2bzd3MFRNTTFMWkxQNVR5SUU3LTIyRUlBSW5JUGNHN25Oc1lCMEZ1RV9ydGR4ZXptWURxWEE?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-22T14:17:56+00:00"
-    },
     {
       "title": "UFC Fight Night: Hernandez vs. Rodrigues Live Fight Coverage",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPMGF6Tm5ZbkxCSmE3MDk4eFNkcmwyVHF3UDlYb0xVaUY4SkhfWktha2JKN2JUanBLWDBFS1JQU1RwekRuZGt3Yjh5ZG9WQ2RzWWh1TzYtNVY0VVBaSDV3V0VqdllTUlpUeERHNWFvU3pJQQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-22T16:31:35+00:00"
+    },
+    {
+      "title": "UFC Sacramento Predictions — Hernandez vs. Rodrigues & All Main Card Fights Toni",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZmUwU3dNcUpDQnlJcFNHWHhINEhjeUJ3MDNkSUJfMXE2akgtcG1RVE1OV0pJTU43VlczT0FTY3lSaDJweUxrUWtFT24xby14aGl5SkQ0QlFzeTdzMjV3T05tN3hXb3hqX3lvc01wVHFRM0F3U1NfV3dzaU9uZnk0dTFjQjlFUzFaNDM0YkZZdkZPSUxNNVlEaUsxR201ampXM0RZbGdjS2ZEMnpiWXg4aTVCSTdfMGp3NGJzcXFTWWVwT3E4VEpyZTR3?oc=5",
+      "source": "PrizePicks",
+      "cat": "ufc",
+      "ts": "2026-08-22T16:32:46+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMisgFBVV95cUxPN2QzbEVhbWZlVS1iYVFHZGFmR3VnamFGVkNWVmhSZ2FYTGlsMEp5c1cxZ0NhMWNMcVEzelNNZk44RkQ5QmdYZGZ4TlBtdWZmUHB6TWlFYzhuWGptN042OGxtUkItNTE3OHJzX1dDaXVZamdmYkcxaW9Zc1lRamhrdEtHNG9vUXhrcks3VVJVajZ3Ymw4TVp3WW9NaVBpWUZnbUFDV2JhV1J6V0lYbTVoNEZB",
     "CBMib0FVX3lxTE42ZzBWRzM2a2lfMnBVeGV5R2FWRFRDRUxoeWVKNnczMEpDSkNacnlOR0lHVHFLa3pvRWpwSjZ4MVR3c2phWXB3cjVpZ3pvNmpXSFpMejZxRlNLMV8xQzlGbkp4UnNkQ2dGaHpwZHlOUQ",
     "CBMie0FVX3lxTE54MHJzeENoTExTTUNwcG5aVzBqWnlhdy1oQkpKdnB6VmVfQWxhb2lZWDFUWm9RQ2V6bm9kZ0VrUk53SEJ0X3dzRlFQVjFVbmNJNElhWDAzWm1FR0M3YmNMSHgzRDBPTDQzZUNUQThkRDNOMHJIOEVVZTF3NA",
     "CBMimwFBVV95cUxPUEx6dFBBREloQUpURXhjNHBYN2RzM3I5TWRPTDBKUHBFNGVxS3JVZmRJX04xY2FLQVR0YWtGaGFMbG9kQ2FCRHFJOF8tWUl0RmdyTUs0OWpZZm05c1RVV21RUmdFZ3U0VVFaWWRHYkVza1QxSjlaTDZvbnd3NEhTY1lFeUEyOUJBS3hZbm5ER3ZmZU81aktFaXZ2OA",
@@ -3312,7 +3311,8 @@
     "CBMidEFVX3lxTFBGZTNEQVdWWWc5MUdmem84RTY2QkpIV3ZrRmxONmZ6Znd3a3JlX0YtdnJxVVN2a1ZHMy1WMm1RU0hLZVp2YUFPYlJSTkxUUHFHWFNHWS1GSHBQenBsU0RMZ2FmbkdMSlh0VHR1b2FYNVRmUUdN",
     "3add145d-b122-328c-823d-df6387f7ffed",
     "b0d73c61-bef9-3f70-abdd-6e295ca8a52a",
-    "CBMirAFBVV95cUxOY0RoOW1pNV9jSmlNLUZack9ZRk03d1VwWHl6dzFVbGdvUDhDTzJ3WWR0MGdCRk5hYW5xRERtdGlCQ1liMF9wSDZHcXlLQnNQMm9xajRsRVI3MklzTVJTRG1zZk5UOTREZ0NmSS1MNC1wbDUzZkszTThCTWJPRFptWVdlb1VDekxCWVFERVFteE9OOXZvdVRyVTlNTDhkQ3NMVVh0RW8wOG5pREZf"
+    "CBMirAFBVV95cUxOY0RoOW1pNV9jSmlNLUZack9ZRk03d1VwWHl6dzFVbGdvUDhDTzJ3WWR0MGdCRk5hYW5xRERtdGlCQ1liMF9wSDZHcXlLQnNQMm9xajRsRVI3MklzTVJTRG1zZk5UOTREZ0NmSS1MNC1wbDUzZkszTThCTWJPRFptWVdlb1VDekxCWVFERVFteE9OOXZvdVRyVTlNTDhkQ3NMVVh0RW8wOG5pREZf",
+    "CBMiygFBVV95cUxPZmUwU3dNcUpDQnlJcFNHWHhINEhjeUJ3MDNkSUJfMXE2akgtcG1RVE1OV0pJTU43VlczT0FTY3lSaDJweUxrUWtFT24xby14aGl5SkQ0QlFzeTdzMjV3T05tN3hXb3hqX3lvc01wVHFRM0F3U1NfV3dzaU9uZnk0dTFjQjlFUzFaNDM0YkZZdkZPSUxNNVlEaUsxR201ampXM0RZbGdjS2ZEMnpiWXg4aTVCSTdfMGp3NGJzcXFTWWVwT3E4VEpyZTR3"
   ],
   "daily": {
     "d": "2026-08-22",
