@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Fight Night 285 Results (Live)",
-      "ts": "2026-08-22T16:22:02+00:00"
-    },
-    {
       "t": "Prediction, pick for Jamall Emmers vs. Lerryan Douglas at UFC Sacramento",
       "ts": "2026-08-22T16:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Tyron Woodley Responds to Viral Mockery Over Song Lyrics",
       "ts": "2026-08-22T20:45:52+00:00"
+    },
+    {
+      "t": "UFC Sacramento live results, highlights and play-by-play",
+      "ts": "2026-08-22T20:45:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "RAF wants Khabib Nurmagomedov on board as an athlete",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSU9wYUFCQ2Y3MGp1WFF1U3BidWZkZmVHWEFKa2tILTA1WVpuY2k4Y2x1aHRrUjZBampiMXd6V0g3bnN6ZU5yWHY2VER6ZEhJNTM4dl9aUVJTbWs1MWJZdEZBbjJyME9FV0xWVl9pRHdRSG43ZVdKMURmcFNRSjBzd2VwUnBSZ2xI?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-22T18:23:27+00:00"
-    },
     {
       "title": "TKO Executives Attended AEW Dynamite In Las Vegas",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRm9WVWVzcTY5dG5wczU4MzByOWZNcFdFVFdnS3dDdUlwSFdMNktqcm1fSHVHRFpTcmZDcFFMdXR1bVFPaDNpZjZma2NuR0Y3VE0yblU3cjUwYXNaOWx2eG5kY2FJWVRFX2t5dHZYbTV0amZCZDFhS2lKc1hkUmowMzRqNVQ2Qkxv?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-22T20:45:52+00:00"
+    },
+    {
+      "title": "UFC Sacramento live results, highlights and play-by-play",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcFR0aHp5OVdXeFN3OWQ1SUQyU1NBVDNmVG9QLUtiWUZ5bzdKQS1kY2lqM0V6WTBiR29ILUFFOGM3WnVKQm1ieVhuUFBDbWpCUHBMam1nZlZBT3JYVkxrMGZlZThGajY0bmZvUEdfQk13UGtWcGJHMFhHTWRLbzBqbnptb05xTWp2azdVMGU4cGt0SHhFMmVnUmZjRldSNXJwX0VSdTcwUW9mNHl1SnI5cC1tZVNtOHg3aDdmNzRyYU84SkFoZFNHMDNuSk1UVmdoTFE?oc=5",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-22T20:45:00+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMivAFBVV95cUxNb1JoNHowSWVVYmNhbHlmXy1YZ2hELUxvOExYa0NHemlfdDJJT3QwR0NZRW1sWng4NDVJUHBZOUxCdi0zdEZKeXhNUExGYjJuQ2laYlpQeVY4WVZmTE1DbVg0OC13Z2g0SGhYdGhvV3FKTVZUbHVNOE1hNXN5bnhJYjZMdW1nWlpiNEcxOXFNMkhRbEVJLXhiNFpLQU1oQnY5M2dESUxLeUVvVU03aUNNZ19ZOXJVQlhMQ0huaw",
     "CBMiigFBVV95cUxQQjNVY3pIU1otVE1xZUF1QV9RUEdjRWFvak5HMkp4cGNXRlhTMnRmQXJwMGJDUmlEZHJ2dlAxSVJhTUhLYk1xV09weEFQejJyZXBGVlVSMllvSTBJS01DOTlNWnhjdk9mUXAxVERuczZOVFN6Y3JNekJlbi03RUh4cF9TZjZoRXZDYkE",
     "CBMic0FVX3lxTFBTXzQ1UlN5Vk9fTVUwelZfb2pRM3pvVktvaE81UTRhbHRMTVRmRmZ2N1RSM2ZMUDZOOExnZkQyN0VHZlg2V01LWnNlaVlvUmJxdU55ZXE1OTJtQVBuMjhBN1pkZGJNVXZTdThXVEhCb2hsTWc",
     "CBMidEFVX3lxTE8teTVodnBXVDlXNjhCVWxSeWIweVBLUy1oR2ZOVWM1QlBUZmc1aWQyM0ZWU0U3a3Zya2xBa0xpVnhLR3ZYUDdmY1o4NWo5TEFfZGJBa1ZrSkxYMVJSS25NZVJTbEs5bkV5Vk9SSFdKMzRRZTFF",
@@ -3312,7 +3311,8 @@
     "CBMiuAFBVV95cUxNT09NV1h6WTlOU3dHVHRfVVQ5UUFSRW5UVS15WXdfN0xrN1NWZzdVS0k2b0RXNEI4MkVCY2VuSHoxSWd4M3VsdzNOYjlkTGNobGctUWVRLWFCS2w3VkhfVTBJLUt2ek5fdkYzNGMxUWhMV2R2WHFmcnNseDJ1YnFNZnc1WDk5SGhyOUN1Ujc2WGEyOWtKZ2VlWG1SeDg4SXY5MkVaMll5Zjk1dHFlbTZBZ1J1dExWVHY2",
     "CBMiswFBVV95cUxObXlxTG9abnVWOGRYbElvQUlsTnVhMElNV05nTUd4RXplUDk0LTZzRUZYbkN6T3FsNWN3Yk10dTBBSzVDNm52Z1ZNeFdWNm1ENkd2ck9NMmVSVVVJai1sdGp0TlpLZUFUS2pNeDBMdU9mZVY2V2c0LWhYTXRtbXB6QzRMOXZ4bXBmUEFCTmlWMF9uXzlkSndwUXktTHk2d204a29wRTZtOFJteDdSOWoxR1Vocw",
     "CBMie0FVX3lxTE50QmtqdlZxR0NPSGxvTnVQUGZQcUFvMWNKV01DUk5HU0wtVVpULVNiTG1uQV83clV3UTI0WkZGMWsyZWs3SDkyZmt5c2ZmcE1vT3hzWlJJQWZCUDYxbnRybmFzRGdLc2x5ZlI0VmJBZWpFWDQzXzBrYURBVQ",
-    "CBMilgFBVV95cUxOMXYxU1lvSkQ4VzZXV0p2a2M0d1FzT1NqWmZWRGVxdnJzVkNQRmVMdVR6el9tSURzX3RDMHl3V09YWS1XWGFGTmhKMkR5blpkODdUMnM0Y01GUFlnZGlIWF9IVTZfanNuYlR0TWVWUE55SkJqbXJzNkp3bmpZRDZOMWIydHNGY0p5bDRGZEM1dlFXMnZrNHc"
+    "CBMilgFBVV95cUxOMXYxU1lvSkQ4VzZXV0p2a2M0d1FzT1NqWmZWRGVxdnJzVkNQRmVMdVR6el9tSURzX3RDMHl3V09YWS1XWGFGTmhKMkR5blpkODdUMnM0Y01GUFlnZGlIWF9IVTZfanNuYlR0TWVWUE55SkJqbXJzNkp3bmpZRDZOMWIydHNGY0p5bDRGZEM1dlFXMnZrNHc",
+    "CBMi0gFBVV95cUxNcFR0aHp5OVdXeFN3OWQ1SUQyU1NBVDNmVG9QLUtiWUZ5bzdKQS1kY2lqM0V6WTBiR29ILUFFOGM3WnVKQm1ieVhuUFBDbWpCUHBMam1nZlZBT3JYVkxrMGZlZThGajY0bmZvUEdfQk13UGtWcGJHMFhHTWRLbzBqbnptb05xTWp2azdVMGU4cGt0SHhFMmVnUmZjRldSNXJwX0VSdTcwUW9mNHl1SnI5cC1tZVNtOHg3aDdmNzRyYU84SkFoZFNHMDNuSk1UVmdoTFE"
   ],
   "daily": {
     "d": "2026-08-22",
