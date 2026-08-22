@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento weigh-in results: Anthony Hernandez's Octagon return set",
-      "ts": "2026-08-21T14:39:35+00:00"
-    },
-    {
       "t": "UFC Fight Night 285 weigh-in results: Smooth sailing in 'Sactown'",
       "ts": "2026-08-21T16:01:04+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Cold Open | UFC Sacramento",
       "ts": "2026-08-21T23:34:03+00:00"
+    },
+    {
+      "t": "Details On Where Ilja Dragunov Is Expected To Go After WWE Exit",
+      "ts": "2026-08-21T23:03:26+00:00"
     }
   ],
   "digest_items": [
@@ -2077,15 +2077,21 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-21T23:34:03+00:00"
+    },
+    {
+      "title": "Details On Where Ilja Dragunov Is Expected To Go After WWE Exit",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5kUEZtc282VkIyTHFzVkJuMVZqZUZCQlJxYlkxSzVHc3RpaW5NdEdLaXVpeEl6UjY1VWw3UEh4eExVNW1SR3NiOFRCT0N6TGozek9odldvVjg4Y2V2RENfY2NCbWZtVU1jYVVKTE5GalJmcTNrQkFxUDlQVXFVUQ?oc=5",
+      "source": "411Mania.",
+      "cat": "ufc",
+      "ts": "2026-08-21T23:03:26+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
   "hour": [
     "2026-08-22T00",
-    0
+    1
   ],
   "yt_eval": [
-    "CBMilwFBVV95cUxNaTlPNlFGMmV2a2xJaC1aMTlSem9CV3FHRWVaVXg0VjhILTlXSWRIQ0pPTGN4ZTJNX1g5QTBxM1pPT2lVSlFYZXVzNUJSamMyZFFFOXNCSEI0OXRzaENJQVR3UzQ1SlVNUkxNWlNmRmZrUWZEZGtZcjdFYXpZVkRYenJQcjZzQjlOMFlGWTBQNGh1MVloZ3c4",
     "CBMipAFBVV95cUxNR3JpZG43b3lVWmhNbmJWd2Q3WHZwS0MyNWprOG9xSERhajVpYkYzVU81R013NElsQ08xUG1razdDd2U3Z21RS2hGQkdVSGNRSVRwcEd2d2xkd2RPRzNoZjlTeVBLR1JLSmhXRXZveEpYNGlXZWZUODBGcWhUdmpocFVId1ZXWURnT1dVVkE2c0Rza0JKbG1SN0gyU1kwVVhFNnlaUQ",
     "CBMinwFBVV95cUxPc3A3RFM4ZHo2X2FkZ1VPNm9WaWpPekJmMzhGMVVhMFMybmZhc2VnMnVLWFUzd3FRdXBqNUpiem9PbE9ZZGdoRU5jRHNuLVZ0ZEVMU0FkbmxtVWtwandEdDFwX29pTjR4Z2Nfa0dwSk93TEw2U1VNcEdlZVoyX1RXMS1abmdfSWZ1SWdYY05qOWp2VVdUVXR1ZlhTYXBnc2s",
     "CBMiqAFBVV95cUxQX2tTWjBWU05veDV1MGQxRjF3UWJHaTN5LUwzXzVvMV9tVEllZ2pYTDFSNkQxUWRKRkstV2g4ZTUtVFVNOXNqSk9OS0FnRVhRT21BRG1PUVA2NUcwc0xoY1FPazZxcEVYbEZ0REVYT2k5MGVNemlCZE5uNkVjV2RrU2daT1otNHY3d1VQU1loYUNWaUMyQkpIdEhZNGlYRzFRTVB1NGg5TXM",
@@ -3284,12 +3290,13 @@
     "afa838d9-0030-436d-916d-6b873f0cd1a8",
     "CBMixAFBVV95cUxOSlhCVTg5cjI5ZDVrMjNwd0hxTXVRZlNGRzhiSTZPVEwxTFJ6UEZ2SHB0aExfN2EzQk5LaUdNTy1nQkdXSGJpb2tWWWVmZTR0WDZHcEE5TFJxMXBJQnVCWXhFUlpYR1NKT2hzbXFTak1CRmowbzBZR2tSNUJobk9PbUlaTVJBdzJ4T0lUMXhwTWl3NzVkdThCY1pOZUlaLVI5M0pzRFNMSENCT1NKbTlTZGdTZ0pTTTI3aEc0U3ZfV2V3dlhT",
     "CBMizwFBVV95cUxObG1yMk5zNjZCclQwam9fdnNkLVRQdF9MMjk5dlFXYnQzMUlPdzYzLXllWU5oYm52SnRjQWYwa01FSERLeUtTc2t1YjMxdWkzWW4yclM4VTJnX20zNjN4Z3dpNTQxUENUVWdSTzB0cTI0QWlncFhaS0lxUXJIX3p5ZDU0X0MtNXV3X281YkUxY3l2S1VBaWs3azlwY3REM2U1QVdGekJNWjQ1c3VVSFBrTW5TcEV0RWkybXUyYkFyQ3ZPVTlISlc4X3QwaUEyLUk",
-    "CBMiR0FVX3lxTE8tTjJyM1BGd2NTVDIyaU9SV0dXcFlCekhYbHR6VzJCTUg3T29kZUpaNDJYcU1kbkd2ZS1VYzh4TWNQaGhnOHpR"
+    "CBMiR0FVX3lxTE8tTjJyM1BGd2NTVDIyaU9SV0dXcFlCekhYbHR6VzJCTUg3T29kZUpaNDJYcU1kbkd2ZS1VYzh4TWNQaGhnOHpR",
+    "CBMifkFVX3lxTE5kUEZtc282VkIyTHFzVkJuMVZqZUZCQlJxYlkxSzVHc3RpaW5NdEdLaXVpeEl6UjY1VWw3UEh4eExVNW1SR3NiOFRCT0N6TGozek9odldvVjg4Y2V2RENfY2NCbWZtVU1jYVVKTE5GalJmcTNrQkFxUDlQVXFVUQ"
   ],
   "daily": {
-    "d": "2026-08-21",
-    "ai": 67,
-    "staged": 6
+    "d": "2026-08-22",
+    "ai": 1,
+    "staged": 0
   },
   "staged_hist": [
     {
