@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Conor McGregor takes aim at ‘most punched face in UFC history’ Max Holloway amid trilogy push",
-      "ts": "2026-08-22T00:11:15+00:00"
-    },
-    {
       "t": "Vitaly and Larry Wheels weigh in almost 50lb apart ahead of Brand Risk Promotions fight",
       "ts": "2026-08-22T00:50:08+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Rolly vs. Teofimo Results: Live updates of the undercard and main event",
       "ts": "2026-08-22T22:37:31+00:00"
+    },
+    {
+      "t": "UFC Sacramento: Marcio Barbosa Earns Second Straight Stoppage, Spoils Ryan Kuse's Debut",
+      "ts": "2026-08-22T22:36:40+00:00"
     }
   ],
   "digest_items": [
@@ -2021,6 +2021,13 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-08-22T22:37:31+00:00"
+    },
+    {
+      "title": "UFC Sacramento: Marcio Barbosa Earns Second Straight Stoppage, Spoils Ryan Kuse's Debut",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUng4MGdDY3hlMG11SGFLNm1odnhnMGdyS0g2bmxfUEJfQllqdE1LSU5lRVJkbkZzX2NHUkJkQ2ZHZURKYnJVNWQ5eGtzWDMtNnlUUC1LNHp6d0gtUzZlR1R4RzRQQTVYTmRKTE9wVE15YVJ5djREY2h4Mld2TzFSTm9qbFZ3TnB6UmRNMV9zcnRuRkItUUM5RXR0M1hPMnh6cGFFQW81d2J1MzJaUGpFZWJFekJCY0ZjUnBNZ1dnbw?oc=5",
+      "source": "Cageside Press",
+      "cat": "ufc",
+      "ts": "2026-08-22T22:36:40+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2029,7 +2036,6 @@
     6
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxPMU41UnZ5YjRRUm9KeWo2ZFhoZlY5QjBlSVNMSVlzS01qQXFoZUtwaHhxSGlsdDAyVU9HVElHM2VxbEs4VWhFLU80aFZMcTVjbzh5Vjh2Tm1NMDNwMWZlQmNLLWtkWEV6MWg5MEdieENfSTNwRExYWnc4Y2hacXFYaTdYcmVzWkFnT21iVXkyOG9nMEpwdjE0dGlwTk55ZGJS",
     "CBMickFVX3lxTE5oYndJdDl1Uk1GTmRHeEpjRmFQUXFiRVVQQlY1N25XQ0xVRGdpRkU1dTdPektZblgtWHY4V1ZSelp1WlgzOFBtV1RuV01UQ0VwZTZSMkhBeHZUQWxHczlzVFBTNlc3ZXdOWThtSExKaFNIZw",
     "CBMif0FVX3lxTE9Gd1huLS1rT3pjeF9JZEE4Z2szZE5JWjMyRmRFTkItMTdhX3ppN2RPZVRvdG1tRmZhR2ZhX185T29jNWNxZEI2SHZaRGdMajMwVTJIR0J2UE83T1RHbDdRWW4zV181SGo3RjhQY0ZjS1lyT1BQNks2MlVDT0dZMk0",
     "CBMiUEFVX3lxTE9jaXdRd3Y1TjRsOGFVb09NSC1Vek5YUmQ5VDI4OVZmOVEwSm52dEwwZnhZVjN2dkJweW1KVVRTaXhqWUIxTTdxRXBWeEV3VTRp",
@@ -3228,7 +3234,8 @@
     "CBMiigFBVV95cUxOdVdmYTJRaXMxX2hCUVVHNF8xZ0RoZXNXX0I0U2h1SW9PWFFXZUdKYy1kQUkwdktlX09KZkdUS2p1Q0U3dV8xX0MtNW1xUTlnclVpOExaWEJaMldqeEV0UFJoTlRxdGFqY3VQMmlrY0VfdzUxWHFud1FSMjZ4Z1pPVVV6Qy1RYXJRUmc",
     "CBMikAFBVV95cUxNeVRZZjNMSmJzbjZNVzA1RHVJUnY1dXV4aDBReUNZVUhrTzE4U2M4T2pETmN3LWh2dFFYVEt1cXhwX25NVzFlV1BQUWRkWGZ2dkZxUkJXTW5xMm5IWFF4NmFSME1mV0Jsa2hnU1BDR1VTSzJHYUJmYmZwS2lMWHNsVi12WGFKX2JzQ1ZCOU1GZnM",
     "CBMijAFBVV95cUxOOWF1cS02WGR3aXNUVE5obVptZ3UxTmxrdlg1emlCOTZmdExNZjcxd3ZXdENUdld6ek4xVlFOcGdJdmNWVEk3aS00UENBY05nYTZCeE95WWMtS2VvMy1mLWFraVdnSnNGNDJ3Y2xpalE2aWhPaTVVYUFVN1IyQUxFT1Azbk9HcUVMVEZIWg",
-    "CBMivwFBVV95cUxQSGlOMklrbXVwM1hSX0s0QXcyM0dUaVYyU25VOEdPVnBVUHpCZjYySzBSN0RiNzVaWmNhN0wySVE1U1VPN0k1Y1FUM1lfUXAyTlBVWHlQcVdQY1ljTWxDckZldVhHa1FIa3Jmc1l6dlBxVVVuenNQLUZKMGdiUENEeEVLMFJyOXZNSHB3OXJKNGo0VHRKLVJzRlZrTHZlOTRwaUhBVWk2dlRlM1hDWXdnNGdwYkNFQlRiUS1tWHdQcw"
+    "CBMivwFBVV95cUxQSGlOMklrbXVwM1hSX0s0QXcyM0dUaVYyU25VOEdPVnBVUHpCZjYySzBSN0RiNzVaWmNhN0wySVE1U1VPN0k1Y1FUM1lfUXAyTlBVWHlQcVdQY1ljTWxDckZldVhHa1FIa3Jmc1l6dlBxVVVuenNQLUZKMGdiUENEeEVLMFJyOXZNSHB3OXJKNGo0VHRKLVJzRlZrTHZlOTRwaUhBVWk2dlRlM1hDWXdnNGdwYkNFQlRiUS1tWHdQcw",
+    "CBMivwFBVV95cUxNUng4MGdDY3hlMG11SGFLNm1odnhnMGdyS0g2bmxfUEJfQllqdE1LSU5lRVJkbkZzX2NHUkJkQ2ZHZURKYnJVNWQ5eGtzWDMtNnlUUC1LNHp6d0gtUzZlR1R4RzRQQTVYTmRKTE9wVE15YVJ5djREY2h4Mld2TzFSTm9qbFZ3TnB6UmRNMV9zcnRuRkItUUM5RXR0M1hPMnh6cGFFQW81d2J1MzJaUGpFZWJFekJCY0ZjUnBNZ1dnbw"
   ],
   "daily": {
     "d": "2026-08-22",
