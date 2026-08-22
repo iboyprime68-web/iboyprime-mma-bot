@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "RAF 12 Results: Dvalishvili vs. Cejudo 2",
-      "ts": "2026-08-21T13:06:38+00:00"
-    },
-    {
       "t": "4 Late-Round SLEEPERS You NEED to Draft! | Fantasy Football Today Stream of National Football League",
       "ts": "2026-08-22T06:27:29+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Reinier de Ridder vs Roman Dolidze Set for UFC Sacramento Light Heavyweight Bout",
       "ts": "2026-08-22T11:45:06+00:00"
+    },
+    {
+      "t": "UFC Sacramento: Judice Opens as Heavy Favorite Over Unbeaten Chaves",
+      "ts": "2026-08-22T11:40:52+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Paddy Pimblett, Max Holloway, and Gable Steveson’s UFC 329 purses could be withheld as punishment",
-      "url": "https://bloodyelbow.com/2026/08/21/paddy-pimblett-max-holloway-and-gable-stevesons-ufc-329-purses-could-be-withheld-as-punishment/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-21T17:00:00+00:00"
-    },
     {
       "title": "T.J. Dillashaw: Ian Machado Garry was fighting to survive, not win at UFC 330",
       "url": "https://sports.yahoo.com/articles/t-j-dillashaw-ian-machado-170106303.html",
@@ -2105,6 +2098,13 @@
       "source": "The Body Lock",
       "cat": "ufc",
       "ts": "2026-08-22T11:45:06+00:00"
+    },
+    {
+      "title": "UFC Sacramento: Judice Opens as Heavy Favorite Over Unbeaten Chaves",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWllzR3VsUk5ZRXZtbTAzMWw1Rmc4Vk14NFl6VEg2ZWxJanozVER0Qm5JR3NqaTNKZXFVNGp1U09iRHFwa0FBUVZnU09aN0x3NWdxRG5FM3BxVGtfSzJlc3RUZl96STNiQVZ2Vm1WdkpJeVVVSDBha19vdlRaaW42cDZubUNEeFNibEtvQmRtV1E0aFVfaVY2Y1M5NGd2UzNlXzUyR1Vn?oc=5",
+      "source": "The Body Lock",
+      "cat": "ufc",
+      "ts": "2026-08-22T11:40:52+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi1gFBVV95cUxQZmlRRnFMeF9vYW1Sank2ZjdtU0FHYUhRZnFBbEpKS0JVdXZQamRib0RCbk5Dd180VUVoVGxra0pNMFUzUkR2MS05X0RITFBKR0FIcUJIRThVMkFheGtJWW5SbHk4ajZaSU9uSEVHUlIxU0xVU3BxZGw1UFgtYzM4Z3VMaGU2NVhSdGctSlVtWExKbWRZSmVXSzNwQ0FLTHdGZ2gxU3A0TzhRWVJGZTVBS1dtTnZsemthQTZpRXh2U3dkNUdtUHd5Sm1FSFhYdFJqSGlqeHZn",
     "2090235067926986863",
     "CBMiggFBVV95cUxOVm5tMi1hVE42Um5IWnJEY3p5UVlrVkdBTkt3amRfeXBVODBlWlFLNVk3dXZvaFFfbFR6Wm9XNUhNaEZtUjZHbDlxYm0xQUs5Ny1CTGdNZWJCcTUtMEhsLTlqSEFkYk83OXdPeW9Dd0FCSG91NlptSDR5RUluLXZSSEJR",
     "CBMiO0FVX3lxTFByV2tVMWhwcTlLTWVKNkNaSXFjRmRDWlN3VjdQOE91VGkyR1lLZ3gyYXJCSS1nR0pITEpN",
@@ -3312,7 +3311,8 @@
     "CBMipAFBVV95cUxOb0tCaU9Rck51ODN2RjRDWVZkcnU0LXFFQ2RxbWVOTW5NYlpVcVRTUkxIQk5wd1ZRVXk5UFF6OFlaNU4zZEE1QXNCVWczT1ZKUDlmekZGN1ZwTUJ2TDVmYkkxRVBIT1lROGU1ellzWDl5cDNJUGttX0ZlaEY0VFZrSlh3b1gwV1VUa2ZPdnRwVHBKd0ZZYlBlcmItVjZsZUk1WVRDLQ",
     "CBMivAFBVV95cUxNZTBHdkstUjVBU3lsUTRidFdMSERkOHUwM2FLSnBwbFZzZHRQdzhKSjFRQlE4MF9TTlJzbjJvVFpwR0l5ZEhvTlNtbFRNVDBuZDBzSGxadS13SDQtd3JVNzNYb3dJU1ZHWVRZUVUwdnFWTFRlUVNSamMwa3IzZmc1Q2pOYms1NURPYWk5S1dkcUt6RnJaVy1abllQYXhERGN3bDk2eHBubDl5em5NdzRYSXFUZFBGXzE1WTZ2UA",
     "CBMinwFBVV95cUxOaGl3WVd6VDl4QmN0bFpxMUU2ZENrLWxvS2I0Yk05aWhqN254ZzhCVkZPZ0FiblpoUVVYS2dPdE1XQTZXdHZSTEloTHJzUGpLU1AxenBRYk9XYVFteHdWTDUwSTZUOGRFeWRYVUg2OVdPWEZKZU55dWtkSHU1bTFLNmIzLWZTVnNVdW5xSGNWTDdkd3FuMEotUDNFT1FWMGc",
-    "CBMiuAFBVV95cUxPcWZMNktYT0MwUVhReVc2MzM5VU5QSU9kNml3dTJ6TGJjTlNsLVdYaWRObGJMOUp6aTY1cHR0Vy11RjREZXZvZmxRZXdBa3E5dnVCSGxUVkhkT0N4UXNnNGJsMWd4aXplajliVkV4NzJTUEJzeEVXSDl5ZldrajY3MHRaNkFaRnllV0lkRW1sN2Z6RHZuaUZtTXlLcU54LTd3aXNKdTdFd0ZMQktnMXlxcTdCWkVoTjhR"
+    "CBMiuAFBVV95cUxPcWZMNktYT0MwUVhReVc2MzM5VU5QSU9kNml3dTJ6TGJjTlNsLVdYaWRObGJMOUp6aTY1cHR0Vy11RjREZXZvZmxRZXdBa3E5dnVCSGxUVkhkT0N4UXNnNGJsMWd4aXplajliVkV4NzJTUEJzeEVXSDl5ZldrajY3MHRaNkFaRnllV0lkRW1sN2Z6RHZuaUZtTXlLcU54LTd3aXNKdTdFd0ZMQktnMXlxcTdCWkVoTjhR",
+    "CBMipgFBVV95cUxOWllzR3VsUk5ZRXZtbTAzMWw1Rmc4Vk14NFl6VEg2ZWxJanozVER0Qm5JR3NqaTNKZXFVNGp1U09iRHFwa0FBUVZnU09aN0x3NWdxRG5FM3BxVGtfSzJlc3RUZl96STNiQVZ2Vm1WdkpJeVVVSDBha19vdlRaaW42cDZubUNEeFNibEtvQmRtV1E0aFVfaVY2Y1M5NGd2UzNlXzUyR1Vn"
   ],
   "daily": {
     "d": "2026-08-22",
