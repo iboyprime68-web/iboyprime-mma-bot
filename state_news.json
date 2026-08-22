@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "\"Cringe\" - Michael Bisping cites \"caveat\" of Ian Machado Garry's behavior opposite Islam Makhachev at UFC 330",
-      "ts": "2026-08-21T22:53:19+00:00"
-    },
-    {
-      "t": "Fluffy vs. Robocop! UFC Fight Night returns to Sacramento, headlined by a local",
-      "ts": "2026-08-21T22:45:00+00:00"
-    },
-    {
       "t": "Ex-UFC title challenger survives trend of surprise roster removals by signing new 8-fight deal",
       "ts": "2026-08-21T23:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Serie A 2026/27 Season PREVIEW & Full Table PREDICTIONS - Morning Footy Stream of Soccer",
       "ts": "2026-08-22T03:26:42+00:00"
+    },
+    {
+      "t": "Highlights: Giants at Red Sox (8/21) Stream of Major League Baseball",
+      "ts": "2026-08-22T03:19:52+00:00"
+    },
+    {
+      "t": "“Cut Tom or strip him of his title” - Josh Hokit shares brutal four-point plan involving Tom Aspinall and Alex Pereira",
+      "ts": "2026-08-22T03:25:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "LIVE! Watch UFC Sacramento’s Ceremonial Weigh Ins",
-      "url": "https://sports.yahoo.com/articles/live-watch-ufc-sacramento-ceremonial-202553893.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T20:25:53+00:00"
-    },
-    {
-      "title": "Gilbert Burns open to wrestling Colby Covington in RAF: ‘That would be a good one’",
-      "url": "https://www.mmafighting.com/raf-wrestling/495252/gilbert-burns-open-to-wrestling-colby-covington-in-raf-that-would-be-a-good-one",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-21T20:51:37+00:00"
-    },
     {
       "title": "Rafael dos Anjos returns to fight Alexander Hernandez at UFC 332",
       "url": "https://www.mmafighting.com/ufc/506116/rafael-dos-anjos-returns-to-fight-alexander-hernandez-at-ufc-332",
@@ -2105,6 +2091,20 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-22T03:26:42+00:00"
+    },
+    {
+      "title": "Highlights: Giants at Red Sox (8/21) Stream of Major League Baseball",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vaDgwenRaQWVQVnhscjlsa0RBWlRaOUdZTWg1MEE1QmplczF2d19hdll1RmJnbkZrZko0WkI2MEFyd1dTU1lTWHJGekJMY1NWMlFiQWVnQzVJWjlmZ3BDbm9VNExMVlVNUUljdWxoQWdHTjIxcnRGNHNKSkVHQW8?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-22T03:19:52+00:00"
+    },
+    {
+      "title": "“Cut Tom or strip him of his title” - Josh Hokit shares brutal four-point plan involving Tom Aspinall and Alex Pereira",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNT2ZidWh3QThvTGI1djhGc1VfcTVDTnZKU2l3dFpCX2xvaWxFSWpKV2Z5ZkEzYV9Sc29mZHluMHAtb20wNGswdXU5bFhMVS02NHRxQnR6aXVYOEtWQmM2cHd5ZTJ1NTNnQ05heXl0dHM3X3N1dzZ1My11aF9WeWNCMnFrWFUtQ0p4NURUT090NVZaUFNXZTk3Z3FOb2hPVFpJYUlJR0dmelBYREJrWmlRWnducDc2MUFIWFBvcUphd0NVSHA2SnlEaW9JTnR4QQ?oc=5",
+      "source": "Sportskeeda",
+      "cat": "ufc",
+      "ts": "2026-08-22T03:25:00+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMihgFBVV95cUxOLVNuZFdGSENUSkgtc3o0eEpyd0pRYmUzT3lUVjFkblJrZ1I1dEJDZkxXZHkyVzlqaWZuM3d0WnRDQUdlcU1WSzg5ZUxsUWhieUE2SENYbmlzSFFYR3IxQ1N1ZldTZF95TFZrRjZUSmNzbGpHUm85SG5Ib2VBVUkyQU9jMENuUQ",
-    "CBMiigFBVV95cUxPbEVJOWpITFpLOTRvOVY4Q200M0ZBNFFkamlsNjI5cWdwZm1mTHZQTV9OTGZZLVFUUEM4Y1hTbkRhQU9lellyRHdod3J5RlpxZXJHOGo4Q1hGUmQ5TmhXOENYVWxTQlUteVZnYkp4R1RkY0NkY2NSbjJQWVl4bFJMQUE5MWc5SUpUcEE",
     "CBMixAFBVV95cUxQRElIcTd3Nl9RS0VvTkMyY08zQnBwcFVvdkRMbFZqaW9JUDJDbEYweXJUT2dmS29kMmY0UzAxQW5hTl92eDZfMzNxS3dDZ1ZTeVM2TkcteFZid3ZHdXBfWHFkSElveGo1Ymx5RURRQ2xta3Boa2w0dGJyRGJoQmhmdXg2RVZEVmlveGltOTJ1NkVnU1ZFbE5BMnNHUTRmTlVnWVlyVWtEN294M1R1X2wwYUFlMUhGR3I5QlA2OHo3TXpIcVJJ",
     "CBMipwFBVV95cUxQSzBERjVhSGZCQllEeG5CR3hfMTlLRFBLdGpWa0pFX09zNDN6MTJab0JBMU9ReDNsZGtCc1VZc2NWMDJqcEYtVEt3RE1VUElSSl9iLVNyTXJpazV0cmdoOFAtM0l1dDJFQWNZMHdxNUFwSUlscXUtdzdhZnZnU1htLU1oSXFfejliWUI3LVZIeG8zbzdSM1EtRnlOM19Za1hDYlRwazBxbw",
     "CBMisgFBVV95cUxPZ0tBWFF4Z29Gd1V3T09XQkYyTGtsV1lZZC1fdURSZER2QzVCZy1GT3U0b3RDQVdvQTRGa1NLZlFvcnJWc1NXMUZaVnFhM1BDcDVJc3duZEk3UHRZcnMyajBIQWtkaTBPZGgwZDJ4RDM2a1gxclhSeWNwRUY4UEFwcUJQWUZ6WjlwRzFZU0t2S3c2ck9xcHB1ODJBU2Q5MVlPMHNROE91RmM3cXkzV09hNjRn",
@@ -3312,11 +3310,13 @@
     "CBMiTkFVX3lxTE11aXpBeEhnU3J4ZWhXbzNELXRmdUpVQmwzdzFSLUQ3T3BFaUVZSmVlemVxWjhlY2xWZmRsMEVJcnc4ZTl4Yzh3Wmt5Sndkdw",
     "CBMigwFBVV95cUxQTm5SeEJRT0pEV2d6MVVKRzl3b2k5WjdLS29XTEFjYTBmVWpCaklNNFRmX3h4QUVjRFVGbnVpR1o1Z0REY2VKczFiUlBaYjZPbDRyOTF0UmVRZ3ZQUU5tYzl1YmdpMHBtTUEwSmM2T1A4SVZ5ZGNhYmlZZkpObmo5bFJtTQ",
     "CBMigwFBVV95cUxQNDQ4cWROelotWVZ0TUV3SlVONjBWVHc4T0pCRFNrU1ZuSnRRYXl1bTVzRnE2LWY1WGhBcDMwMGI4MFlfdW55ZW5qTm9DUUpOTHMwdG91X09UNUw4bGVBYmF0SHBEUThTTzVPb3VrbFQzT01hTWU5LUtHbmxMWnE4bWhOdw",
-    "CBMisAFBVV95cUxNbFZlUzlFWEJKRHFNSjVsQ1lfTWtaVkJsUUxIc281ZzFfdktzN3JxQ3cxbW9MX0V4N2lhaXBkYmN0TU85aGVIR0FHWGRNQUhWU3F3NGNqYVJDeXhEQjFnVUV5dV9DalJ6MkNFRFZSVEJLMnEweThGSjlXakExTHI2RDE4N0xjWEdURDFFZl9GZjB5bnBLTXNteDVFVElkTG41Vk5oNUpqZHBVRFhnaVQ3ag"
+    "CBMisAFBVV95cUxNbFZlUzlFWEJKRHFNSjVsQ1lfTWtaVkJsUUxIc281ZzFfdktzN3JxQ3cxbW9MX0V4N2lhaXBkYmN0TU85aGVIR0FHWGRNQUhWU3F3NGNqYVJDeXhEQjFnVUV5dV9DalJ6MkNFRFZSVEJLMnEweThGSjlXakExTHI2RDE4N0xjWEdURDFFZl9GZjB5bnBLTXNteDVFVElkTG41Vk5oNUpqZHBVRFhnaVQ3ag",
+    "CBMif0FVX3lxTE1vaDgwenRaQWVQVnhscjlsa0RBWlRaOUdZTWg1MEE1QmplczF2d19hdll1RmJnbkZrZko0WkI2MEFyd1dTU1lTWHJGekJMY1NWMlFiQWVnQzVJWjlmZ3BDbm9VNExMVlVNUUljdWxoQWdHTjIxcnRGNHNKSkVHQW8",
+    "CBMizgFBVV95cUxNT2ZidWh3QThvTGI1djhGc1VfcTVDTnZKU2l3dFpCX2xvaWxFSWpKV2Z5ZkEzYV9Sc29mZHluMHAtb20wNGswdXU5bFhMVS02NHRxQnR6aXVYOEtWQmM2cHd5ZTJ1NTNnQ05heXl0dHM3X3N1dzZ1My11aF9WeWNCMnFrWFUtQ0p4NURUT090NVZaUFNXZTk3Z3FOb2hPVFpJYUlJR0dmelBYREJrWmlRWnducDc2MUFIWFBvcUphd0NVSHA2SnlEaW9JTnR4QQ"
   ],
   "daily": {
     "d": "2026-08-22",
-    "ai": 62,
+    "ai": 64,
     "staged": 5
   },
   "staged_hist": [
