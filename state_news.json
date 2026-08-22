@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Aljamain Sterling left on sideline after turning down opponent outside the Top 10",
-      "ts": "2026-08-21T12:01:38+00:00"
-    },
-    {
-      "t": "Paddy Pimblett: 'I'm gonna absolutely rinse' Topuria and Tsarukyan's lives",
-      "ts": "2026-08-21T12:50:22+00:00"
-    },
-    {
       "t": "Mania Mailbag: Would you rather be Din Thomas or Dustin Poirier right now?",
       "ts": "2026-08-21T15:05:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Mike McCarthy Reunion: Green Bay vs Pittsburgh Stream of National Football League",
       "ts": "2026-08-22T01:28:07+00:00"
+    },
+    {
+      "t": "2026 BMW Championship Preview: Top 50 at Bellerive + Scottie puts it all together & U.S. Amateur | Scorecard",
+      "ts": "2026-08-22T01:56:29+00:00"
+    },
+    {
+      "t": "Dolphins Enter Complete ReBuild With Roster Overhaul Stream of National Football League",
+      "ts": "2026-08-22T02:01:28+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Yair Rodriguez injury causes UFC Noche main event shake-up",
-      "url": "https://sports.yahoo.com/articles/noche-ufc-takes-hit-yair-190120079.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T19:01:20+00:00"
-    },
-    {
-      "title": "Max Holloway rips Conor McGregor for being 'delusional' about UFC 329 dud",
-      "url": "https://sports.yahoo.com/articles/max-holloway-rips-conor-mcgregor-193022804.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T19:30:22+00:00"
-    },
     {
       "title": "Merab Dvalishvili eyeing superfights should he win RAF 12 and UFC belts: 'I can fight at 155 too'",
       "url": "https://sports.yahoo.com/mma/article/merab-dvalishvili-eyeing-superfights-should-he-win-raf-12-and-ufc-belts-i-can-fight-at-155-too-193446888.html",
@@ -2105,6 +2091,20 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-22T01:28:07+00:00"
+    },
+    {
+      "title": "2026 BMW Championship Preview: Top 50 at Bellerive + Scottie puts it all together & U.S. Amateur Scorecard",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZmotMTBXdDFmOFNiamhwSjZFSXo2WlEycWQxcy01NmxVSGtXOTFqWjRxQXFnbWlPaXdCWGhVWlZYRUJtdDN5dUZpaUtrSk5BRE1WeUpxMUNGRUVQZnprMDhWeUtyTlhlNlRBZ2RWaGRhTXZkVmp6V0c5VDNPZnlVTnAwMnVvTVNRbnFjWGR1Mk9rM2k5RTNOREhMSEdCX3Q4UDNvbmdSREpCU0Q5U0Z4TFFRN2x0WWp3T2xwa0Nzc0Z5VmNJNS1Pc2ViYUZ4NE9NVkhic3FDbTYxU3c?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-22T01:56:29+00:00"
+    },
+    {
+      "title": "Dolphins Enter Complete ReBuild With Roster Overhaul Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWDltQ3ZaVmR0Zi1sc2hZbDg4LVprUW96RjltWU5LdTh2OUJKbTJOVUZwYXlQWHczRnpXOWtjNExWYzJVeFdfNFQ3eVV2X01feHM5dTg4cTZpekhnbWpuSWJaSTdORy1TSGNnYmpkRnJJbjRBa2NpUWd2ZmxZOE5Kd3FEOFZJNXFjVi1HeDdYSlFvbHZGNGp2bXVR?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-22T02:01:28+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi3gFBVV95cUxPbjB6WDhjeXhfbnhlbUhvN0hCcE5xbmhDMGcweG5ZNE96SzZzZjBveUN2QnhQLTJhcVgwT2hDdU1RZHRucDdNZWFqSDVtQmRPbDZ4bnZWUzlKNzE4QTZuQzZibTF3UmRleWd3cE9FdVRXeU0zdWtRZ2NyeWs0b0REYzlkblpPR2ppc2dRUVFIcFk2dE03SGRKOHdpVVFXQ0VFYlI4QXBUX0liNV9oX3hWMzA2dWNtaVJwY085NUNBaHpzNHlOUXhNdXk5ZUlEMERmZXZWbnNaYnU0VUdrNUE",
     "CBMiogFBVV95cUxQRzB1VDdhUG9rQWc5anl6NElGOV9mVU5LUGRZc1RYaU85VC03TVFmZVJHM0dQNGIyOWJ1LWhnc2xmSlh5QVJhbk5HV2dJalNEVkl6dV9TLTFYYTh4SEh2NkVLaEJtZkdKTmEtVm9PRzVYNlBldjY5NmxqZnBCZkRDVUxkN2RLOEFsUkZHOWdhNE9jbjd6UVNuSll2QmEzVk5LOFE",
     "2090137359862169799",
     "2090144291041726801",
@@ -3312,11 +3311,12 @@
     "CBMif0FVX3lxTFBveGhseDRPUlJHNWVHY2RrZFRVUWV6MTQ4SEdsbV95ZWJkQ2p0RmtENjdiS05FNEc4U0s3RnBFcXVSUXo2Sl8wZTdxTS1vZWtOLWN0RFg0Mm9qbXNLZEtMQTZmRkE0a1Y5TXVLbTlQbG0zeTBSOC02dnMwNFpKc1E",
     "CBMiqgFBVV95cUxOTzFvbzBoUThCWHRldHo5UFAwQjZoV2FOMUVDNmxoRjVIMDhVcDFWelgyYjdadVdwWUYyWU9td2lMdWE2ZVZsamZ4QXppWVpNcDFLUmljMTByM2FsWkRFLUluSHZEYkNFNEV6Q0oxVzgxUUN6RnpSdEJES2dLdkdLM0wwTGJqSXA3bXA4RE1NNlBXT3Iwb042cTc5RkpaWkpkZ1JMSkpCMFVEZw",
     "CBMihAFBVV95cUxNbnI3ZnpXcFFwNWUwN3JyLS02OXpob3ByOHFJM2ZiSXZZRENCU29QdEVaN1RqcjF3QWJjMXJ0RnZEamZOYzVuY2cxcTJ1bFIyOGt3TGVTTmpOX0VEYVotYXRQRjZpZ2tIYVk3RjVMVDhKN2NCRFNIRTZUQTFYQnJGZnF4Z2Q",
-    "CBMi1gFBVV95cUxOdjhSUHB0X3lVWTE4OGljZnQ5ZllSam4yS3FkN2dXTHNsV1g1Y3pkNjFPOTUtdXJ6OTNzMHhYY1BnU2ZreGU0MDRhQ29jWE05aHdvZml1NHVFWkp6c01YSkVSRWxZZFljU29vSmcxSXlkdlowdnNhRW1mS0ZSaU5qQnVSWXp3ODBMcjlCTHVBeDhiYmlBWmlERUNMVWptRzlkWFlCSTh6T1hXRXAwWllIRENydDlKTFpCU25GbmZ3cWx6V0libEJsbURsZ3JCNGJTbU9oRmlB"
+    "CBMi1gFBVV95cUxOdjhSUHB0X3lVWTE4OGljZnQ5ZllSam4yS3FkN2dXTHNsV1g1Y3pkNjFPOTUtdXJ6OTNzMHhYY1BnU2ZreGU0MDRhQ29jWE05aHdvZml1NHVFWkp6c01YSkVSRWxZZFljU29vSmcxSXlkdlowdnNhRW1mS0ZSaU5qQnVSWXp3ODBMcjlCTHVBeDhiYmlBWmlERUNMVWptRzlkWFlCSTh6T1hXRXAwWllIRENydDlKTFpCU25GbmZ3cWx6V0libEJsbURsZ3JCNGJTbU9oRmlB",
+    "CBMimgFBVV95cUxOWDltQ3ZaVmR0Zi1sc2hZbDg4LVprUW96RjltWU5LdTh2OUJKbTJOVUZwYXlQWHczRnpXOWtjNExWYzJVeFdfNFQ3eVV2X01feHM5dTg4cTZpekhnbWpuSWJaSTdORy1TSGNnYmpkRnJJbjRBa2NpUWd2ZmxZOE5Kd3FEOFZJNXFjVi1HeDdYSlFvbHZGNGp2bXVR"
   ],
   "daily": {
     "d": "2026-08-22",
-    "ai": 37,
+    "ai": 38,
     "staged": 4
   },
   "staged_hist": [
