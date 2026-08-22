@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "'I want to inspire' - Shanelle Dyer hopes UFC career will motivate young kids on London council estate she grew up on",
-      "ts": "2026-08-22T06:31:19+00:00"
-    },
-    {
       "t": "Dunnigan native Anthony ‘Fluffy’ Hernandez returns home for UFC fight at Golden 1 Center",
       "ts": "2026-08-22T06:31:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Anthony Wint",
       "ts": "2026-08-22T10:53:42+00:00"
+    },
+    {
+      "t": "5 things to know about the Freedom 250 Grand Prix in Washington",
+      "ts": "2026-08-22T10:00:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Austin Springer",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45aU43c3BlTlU5ZUdiRlFoTFY2MXJhd082SjZwenVNNmZrRkhHUFVBVlNtNGVwNHRwRmFVajdtelR3UkM3bm1NaU1ObUt3TG91N3ItUFN3?oc=5",
-      "source": "UFC.com",
-      "cat": "ufc",
-      "ts": "2026-08-22T07:19:25+00:00"
-    },
     {
       "title": "2026 CFB Bowl Predictions Stream of General Videos",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1neHFqcTRmX1lHMU4wVDZUXzA4NGRodUQwa2dMRHVqQ2RWbzNfZHl3bVpIdUhGamRZemRkTlpmTGNkOTBEYjRZdkhQdXF6c2pIMW1NTENSbGNxYlZqRzNiQllLeXVWcEpNX2JkVW9VcHB1TTdycTFtd1dnbw?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-22T10:53:42+00:00"
+    },
+    {
+      "title": "5 things to know about the Freedom 250 Grand Prix in Washington",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeDNqdlVFaGQwRGJpU3B2MVNpQnNiczFNVHVhRVctN1lJY2tHYThsTUlRZk8yM3BfaS00bDA2SUpOM01xbEdSUVlGbmpkRmNCb0l6QzQwdjlTQmRoYldBNmY3Y2VaZG9XdHJaQU9rWGFNTXEyMWkwWmlpbF9JaFlVaHJQSW5aOEtMQzBGWW5QdGdCM2M4bzZCa0pyQnZZUdIBngFBVV95cUxPeDNqdlVFaGQwRGJpU3B2MVNpQnNiczFNVHVhRVctN1lJY2tHYThsTUlRZk8yM3BfaS00bDA2SUpOM01xbEdSUVlGbmpkRmNCb0l6QzQwdjlTQmRoYldBNmY3Y2VaZG9XdHJaQU9rWGFNTXEyMWkwWmlpbF9JaFlVaHJQSW5aOEtMQzBGWW5QdGdCM2M4bzZCa0pyQnZZUQ?oc=5",
+      "source": "The Hill",
+      "cat": "ufc",
+      "ts": "2026-08-22T10:00:00+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMigwFBVV95cUxQQ0VjM1dVb3Q3Rl9BR01XbGhBX3Zhc1pPQ0VCTUVNekNjV0JJSHBjcWZ5azRSNkllM0ZUVlJPNHlJVHNxeHFFU3h3THJFWUllS285NlpHSWoyNHdJV0luLUJCSk5Bd1FSS043SDFyWHBBUjYzb0NZUDd3c3E1MjhZMU01UQ",
     "CBMivwFBVV95cUxQbWxQOVBxU1MtZ2dGaDUxaGY2enVtS2dBTmZXOWxZTERwMVo2aldvUTZJMHZhLTREbTBoNDROeDhnVzhsZ3FPXzFNUW9teWxQaC0wUGJlRUM5alZ0VXJxaG9yOUxncU51R0haZ0VuOF9SWUt2NkhiTFlwTlFRQUllY0txa2l2eDZoSjFpVU5CSUpCQlNrNFlPdzlQVU1mZEE3V3hHOEVjX0VOcDJBckdoWTJqbksxa1J6X1NTZ2dBMA",
     "CBMihwFBVV95cUxOTU1QYmJIcnJaWndkdzZhQlFWdS1TdEdOOEhjbkdLNHVZR0kwTlNTUXZ5UHhtTHkzSG5sYnFTd1lpUE5DM2l6NFlIbEtnTElEN0NvLVdrNEk5SFM1NEkxMUlIc1lxQnB3OGN1V0ZGaVQyczJVVWZpYXVPR1B4cVhuajhCOEE5ejg",
     "CBMi7gFBVV95cUxONmRwdGJUd0x4MzRuMXpyc2pmU0dncVk4aW40cFNhRWJrNnQtN3JlVVBMdHFDcm5yaF9zNlZrX3d6cnVyeDJvRno0V093dXFqNjloTDAtZ1p0ZllNS1g0RmRCbUVJX2NaUTRFLWlvYmtaOGRSRFZZUmluT3RzZG16T042SnVGX195VEhMZ3JPN3RnZjlyVjVqQkZyQWpYa1J1aG5SeG1uRWdWdi1fb1p0WThHeVZUT1hfUWxCemh0RFJ0TWM5Yi1WUTRCLUdXcF9fMHhMLUhvTGd1bUt4dW9OX3Q1UGkxUjc3SzVYWjhR",
@@ -3312,7 +3311,8 @@
     "https://www.mmafighting.com/?p=506109",
     "CBMimAFBVV95cUxNQ0x1UlRfY2c4cGJhcVZXa29OeUlibGhfUEVFR284My1ibXVkb0MzRm9hT0htcjd1Ul9ZSGdJRkp3X194RGgta3VDQVlYWDlpZmFVRmJ2YUNmdWtKYl9wUTFNMUlWVFBaUHEzXy1iZFByNlBlZVVXRjRiSnRfOGlISXpfei1lMU5oc1JEVnBNSmZ6SUgzVEEtMw",
     "CBMimwFBVV95cUxOU2ttUDkyOVpvWU1haHVCY1phZDdKMzFnbXhMV2R3Nm83WDFiYXZEclV3LUcwY280M3diQ3BMRHZ5UDJLdEVkbWpwXzhNTjBQa25yUWtTeHA5cTdRRmI5TEJIZmpyblRzelBYRDM0a1JzcjhTZV9GTmZqSDEtbExycUV2dGJ4ZFB6RkE2XzlxUnJteDdkWDd5UUNCQQ",
-    "CBMiqAFBVV95cUxOQW1yMndob3gxbVNaYVN5N25EWW9pSkw1WmJtRTV1cWM0bklwWS15ekFCWUdNc0RsYjd2Q3duZjdjd0hpVnRlZ3h0MUE2cEtZR1pxbThUcVExSXBZdVdoa3lfOXV5OEtNbV9HT0loT0lhbXVfaW1NSXdFRUpOcUZVVngxbnEtUkVJT0o5Q1EwVzRtaGowOWx4N0ZldjVaQjJ6SGx3TnV4cjI"
+    "CBMiqAFBVV95cUxOQW1yMndob3gxbVNaYVN5N25EWW9pSkw1WmJtRTV1cWM0bklwWS15ekFCWUdNc0RsYjd2Q3duZjdjd0hpVnRlZ3h0MUE2cEtZR1pxbThUcVExSXBZdVdoa3lfOXV5OEtNbV9HT0loT0lhbXVfaW1NSXdFRUpOcUZVVngxbnEtUkVJT0o5Q1EwVzRtaGowOWx4N0ZldjVaQjJ6SGx3TnV4cjI",
+    "CBMingFBVV95cUxPeDNqdlVFaGQwRGJpU3B2MVNpQnNiczFNVHVhRVctN1lJY2tHYThsTUlRZk8yM3BfaS00bDA2SUpOM01xbEdSUVlGbmpkRmNCb0l6QzQwdjlTQmRoYldBNmY3Y2VaZG9XdHJaQU9rWGFNTXEyMWkwWmlpbF9JaFlVaHJQSW5aOEtMQzBGWW5QdGdCM2M4bzZCa0pyQnZZUdIBngFBVV95cUxPeDNqdlVFaGQwRGJpU3B2MVNpQnNiczFNVHVhRVctN1lJY2tHYThsTUlRZk8yM3BfaS00bDA2SUpOM01xbEdSUVlGbmpkRmNCb0l6QzQwdjlTQmRoYldBNmY3Y2VaZG9XdHJaQU9rWGFNTXEyMWkwWmlpbF9JaFlVaHJQSW5aOEtMQzBGWW5QdGdCM2M4bzZCa0pyQnZZUQ"
   ],
   "daily": {
     "d": "2026-08-22",
