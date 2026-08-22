@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Roman Puga aims to be 'household name' in UFC after DWCS contract win",
-      "ts": "2026-08-22T01:20:00+00:00"
-    },
-    {
       "t": "Mauricio Ruffy addresses wrestling concerns ahead of Arman Tsarukyan fight",
       "ts": "2026-08-22T01:20:23+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Sacramento live results: Anthony Hernandez vs. Gregory Rodrigues updates, round-by-round scoring and highlights",
       "ts": "2026-08-22T05:30:00+00:00"
+    },
+    {
+      "t": "UFC Best Bets - August 29, 2026",
+      "ts": "2026-08-22T05:31:53+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "‘What the fck are we doing?’: Reinier de Ridder says something has to be done about extreme weight cutting in MMA",
-      "url": "https://www.mmafighting.com/ufc/506111/what-the-fck-are-we-doing-reinier-de-ridder-says-something-has-to-be-done-about-extreme-weight-cutting-in-mma",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-21T13:13:07+00:00"
-    },
     {
       "title": "Missed Fists &124; ‘What the hell was this ref thinking?’: Pros react to referee freezing during brutal knockout beatdown",
       "url": "https://www.mmafighting.com/videos/505915/missed-fists-what-the-hell-was-this-ref-thinking-pros-react-to-referee-freezing-during-brutal-knockout-beatdown",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-22T05:30:00+00:00"
+    },
+    {
+      "title": "UFC Best Bets - August 29, 2026",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50SU1hX25QT0FBaTduTWZ0Q0hJaDFXd2ZBTEZZRnhPUnF2U1ZuUklncmgtQWZwYmNvZmdDZ0M3NTFDSDd4b1NabFk0RHR0eEc5Mi1zSXJwTlFoTWJrVFdsMkdJNC14c21R?oc=5",
+      "source": "Kingpin Sports",
+      "cat": "ufc",
+      "ts": "2026-08-22T05:31:53+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2090186027046719580",
     "CBMiqwFBVV95cUxPb0xWbjlScHNDZ0Vua2xzQnIzV1JJQmNQWm9Zdi16LXpZU3dFS0RNenJtZmc0S2VmLVF1Tnl2aUdOYlRteHFkQ3NyMzYtdjkyWXpBZV9EWE01SDVBQUE3bnhjSGl2eUxpSGJsM0plZVJQY1BQd0tTeFBPM2d3UVpBY0J5VDBxaUZWdUt6Y2F0UnNrX0ttdUtGU2Rad25RdDQwQU8wYlZscVg2NGs",
     "CBMingFBVV95cUxQMjdnTk9mY2hnS1hURGw1UENja1BIdE94M1dpZTdkUFJnU1pnUm85U1N0SGRkcjlDS1RPM0ZvQ29IcFk2aWxRV3FyRlBfd1NhWDdzdFNWbHJ3U216XzZtVWk4dmlIVUhQaW5MNmlKYWp3RDlSZW1mVG1fNm9nWXJSOHdWMEVXNkphZGtsQTRTcWxfVnEzSXNMQzNoT2F0UQ",
     "CBMimgFBVV95cUxPSk5hV0U3NWVfcDlwdFljWDRnNko2bnRzVUR3R2VQWUE5S1JWZ0ppd1NCNVV4TndMZHVIckRiclpwWnI0a3hYbjRNdVFxUjdXMU5DYmduc3kzd1AzRUdwLVJYOG5LSXJNTnNvWGNKWDVxUVVZaDBSemhaV2RaV0h2cGh6dWktMndfNGtLR1YwdUQ4Y3JTeVlrOG1n",
@@ -3312,11 +3311,12 @@
     "CBMiZkFVX3lxTE40cG5DZXFVVm8xX0pOclRpV3dqMzUtRkcyaC0zRXJETDNGWUs3VmlZc0w4TnMyamh5aUNtbXQwd0NhekVYblE2T01ZeTFSY0xzREdnVG5nSGZMRVJhcjZLdUhPTGdqZw",
     "CBMiogFBVV95cUxOSF9hU2pELWdrR2ZZM2JuWjhMQkM4XzRJbnlRRGNfcEFwR285ZHRJNDU4T0s2ZUUtR2ctc1R5cFl0T2x6eU5DdEIzdEVUMEZCWHJiOWpHeHYtMTVCOU5tUjI0SGVOUzFvWllnTmszUzhrdVRoRmduZDNDdmdVd0ZFTWlFNHJKTHp5Z2F4M3JuTXo5ZEdwQVpKQ2VGTHRWYzJmeVE",
     "CBMiuAFBVV95cUxPVmcxV1IwYnVzVUd2RUg1cEM2OUpjNlFRYS1Yei1KQ21tYU1HYm5aVGdjVGlzLUgyR3RCOHdOb3BDWHcwUHhUcFdiaHhlbEw3cEduZG5aTlVHLXJJUU1vVnFDYnh4dG9nVWNCVV9oVUNQR25OUld5cjJoZndwYWpuQ1JpeFJJNHVRSnpyVG1wYTE0dEY4TUc2Y1FJbWJIRHV4TUt5OTNIcnBuMnIyVi1zd0Rnbi1pSkJC",
-    "3e214dda-dad2-42fe-a942-3d58a751a702"
+    "3e214dda-dad2-42fe-a942-3d58a751a702",
+    "CBMiaEFVX3lxTE50SU1hX25QT0FBaTduTWZ0Q0hJaDFXd2ZBTEZZRnhPUnF2U1ZuUklncmgtQWZwYmNvZmdDZ0M3NTFDSDd4b1NabFk0RHR0eEc5Mi1zSXJwTlFoTWJrVFdsMkdJNC14c21R"
   ],
   "daily": {
     "d": "2026-08-22",
-    "ai": 93,
+    "ai": 94,
     "staged": 5
   },
   "staged_hist": [
