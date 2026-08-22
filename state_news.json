@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Aljamain Sterling Says He Turned Down UFC Fight",
-      "ts": "2026-08-21T17:02:21+00:00"
-    },
-    {
       "t": "UFC Sacramento Weigh-In Results",
       "ts": "2026-08-21T17:23:51+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dinamo Zagreb vs. Viking Live Stream of UEFA Champions League",
       "ts": "2026-08-22T07:55:54+00:00"
+    },
+    {
+      "t": "Texans' Jayden Higgins Suffers Torn ACL Stream of National Football League",
+      "ts": "2026-08-22T08:08:46+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 322 reportedly adds title fight following main event speculation for Salt Lake City",
-      "url": "https://bloodyelbow.com/2026/08/21/ufc-322-reportedly-adds-title-fight-following-main-event-speculation-for-salt-lake-city/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-21T12:00:00+00:00"
-    },
     {
       "title": "Paddy Pimblett wants UFC to create a new division that ‘freak athlete’ NFL stars would dominate",
       "url": "https://bloodyelbow.com/2026/08/21/paddy-pimblett-wants-ufc-to-create-a-new-division-that-freak-athlete-nfl-stars-would-dominate/",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-22T07:55:54+00:00"
+    },
+    {
+      "title": "Texans' Jayden Higgins Suffers Torn ACL Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZlhJVzNIQUZyS1BxamJBZzdZYmgtMlFNZ2w0LWJKZjhpM08ta0RvX195UzhoQWMyeHYzSzBCUHlYUTFuMDJwOERJMUgyRENsbkZkOThPR0VqZE5CWXc3Qk5tWmhBZHREOUdfbFhtQ3NTTUlCZkhuSVBGQUFEdlBuTjdFNDVYSEU?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-22T08:08:46+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMingFBVV95cUxQcmVkQVMta0dLOFNwSi13WFU5eWozRDNCUUlEMkxfVk5vS0FrWGdTQjJ1MUNPSHR6ZmRJa2RMNHNOLVdMTmpXWjBzNGpCT1lTTmhEd1FPYlNZOVBhS21GT2RzX09fS1c5dDU1djFJRkZiOXFmU1kzRzVNSExZY0ZzVzdtQ0ItcGtjNnBKMGlXbTd6VDhJZmZTZDlkZlVhQQ",
     "CBMiuAFBVV95cUxNVnRmYXh1RXVGaHhNUFZVNDdoenpkNEo4Z2pYb1YyMW5qRGJ3OVlFTThQQXdCMmpsSUE5dUFlWVVxSHBTc01VQ0VSSnFSUUxwTFN3R09BcnFPUHNUME9vOTVPV095V1ZScFE0NGMxMkg3b3FhNFo4NXRiOWxWUnQ2amd3SHVBNXBTaG0yZVlVekc2ZEZjT09iQVhicUVJa19ZSVJCVGEwd1JlMGxURW5NVlhJQkFwdGw5",
     "CBMiekFVX3lxTE5femQtVW44emNWckVSalNyZnY0VmpOMFAxVEgwMDExZy13M0lSakRYZWRoRU1Qc3lYdzJmazE5aUs4SHhVNUZwekZJZk9fRWFmSl9ObWVsb3VlaTVOeVRLQkJxQ2hQQ2hzTWd5bzk5UEE2OEVGOW5tLVVB",
     "CBMiiAFBVV95cUxQS19HbFBLOVhlS20zQzd5b00taVp5RjhHTVA3WlpEMHBrMzFfRzhnOTJRZV81dnlxZHUyYWF3aUh5Zm1uLUJuOEIxRlFnbDdvbmVEQzk2ZUlsUWZGLTRaZFVnQ01pcnptaUVPNC1uZ0VvU3VONGRrZUpfMWpqa05SNms5dDY5QUs2",
@@ -3312,7 +3311,8 @@
     "CBMingFBVV95cUxObUpfaDJ1Y3c4aGgybVdjQzJBMG9rT2luOVdleU52OHNxbUxDUXNfS2NnaW0tZ0RDRGRmcE40RjhaMjV1eXd2Y2RrSzdENlVrWHRMY1ZNNndOS0NVSVZmSjJmSUNQUWIwakpCeHpWYkNuNlphLWwwclF5MkV2amRRd0dsNlZheVdGT0xvZ0o5NVJGV2J4M1lzcm9VYlI4QQ",
     "09f89b6f-fe7b-3019-af15-9f86d0108536",
     "CBMioAFBVV95cUxNcThLZEZmMEx1SXpWaWdtZWQ2dnJ6TlZtczB4eEFvTHEzQ0U0cWNSUlY3QTZNWTlRWEhHbmdhVEdCSWFNMmdteUpJMjFqbkVRYVlEaDFBX1lpWjM5Vng0M3hfTXhKZC02Vm5fa1pqSzE0UTRyR3JrMTFqX0hsWDFzRExSbXJaOTd0T3VSYmFTeFZEUzAtN0pMRWdtZzlQV3hK",
-    "CBMib0FVX3lxTE80d1FYRkhKdXd4WUd3MTVWYkt4YlVPc05SX001SUlkcEZRMkhXRUYwWHI4VmZiR2JhNW9ZR1o4ZnVFZEpSY0oyTnpoOFAyaXRPd01FeUxfb3BscGZWSzVJZzc0YVN4NUdvSFVQbU52UQ"
+    "CBMib0FVX3lxTE80d1FYRkhKdXd4WUd3MTVWYkt4YlVPc05SX001SUlkcEZRMkhXRUYwWHI4VmZiR2JhNW9ZR1o4ZnVFZEpSY0oyTnpoOFAyaXRPd01FeUxfb3BscGZWSzVJZzc0YVN4NUdvSFVQbU52UQ",
+    "CBMihwFBVV95cUxOZlhJVzNIQUZyS1BxamJBZzdZYmgtMlFNZ2w0LWJKZjhpM08ta0RvX195UzhoQWMyeHYzSzBCUHlYUTFuMDJwOERJMUgyRENsbkZkOThPR0VqZE5CWXc3Qk5tWmhBZHREOUdfbFhtQ3NTTUlCZkhuSVBGQUFEdlBuTjdFNDVYSEU"
   ],
   "daily": {
     "d": "2026-08-22",
