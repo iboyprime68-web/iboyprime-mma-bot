@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/455545/mm-clone",
     "https://www.mmamania.com/455560/open-thread-july-7-2026",
     "https://www.mmamania.com/455809/mm-clone",
     "https://www.mmamania.com/455811/cory-sandhagen-vs-mario-bautista-2-odds-full-fight-preview-and-prediction-ufc-329",
@@ -1155,6 +1154,7 @@
     "https://www.sherdog.com/news/news/UFC-Baku-bonus-winner-promises-even-quicker-finish-in-next-fight-201673",
     "https://www.sherdog.com/news/news/UFC-Baku-weighin-results-13-fights-set-201648",
     "https://www.sherdog.com/news/news/UFC-Edmonton-just-got-a-major-injection-of-Canadian-talent-202301",
+    "https://www.sherdog.com/news/news/UFC-Sacramento-Hernandez-vs-Rodrigues-playbyplay-results-round-scoring-202479",
     "https://www.sherdog.com/news/news/UFC-Sacramento-How-to-watch-Hernandez-vs-Rodrigues-start-time-202456",
     "https://www.sherdog.com/news/news/UFC-Sacramento-weighin-results-Anthony-Hernandezs-Octagon-return-set-202472",
     "https://www.sherdog.com/news/news/UFC-Vegas-118-Muhammad-vs-Bonfim-playbyplay-results-round-scoring-201445",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Fantasy football rankings 2026: Breakouts by computer model that called Tetairoa McMillan's huge season",
-      "ts": "2026-08-21T22:27:31+00:00"
-    },
     {
       "t": "Join 411’s Live ROH Death Before Dishonor Coverage",
       "ts": "2026-08-21T22:33:39+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Josh Hokit Tells UFC To Strip Tom Aspinall, Calls For Ciryl Gane Fight In 2026",
       "ts": "2026-08-22T03:35:48+00:00"
+    },
+    {
+      "t": "UFC Sacramento ‘Hernandez vs. Rodrigues’ play-by-play, results & round scoring",
+      "ts": "2026-08-22T23:57:05+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "NSAC trying to withhold Max Holloway’s fight purse following UFC 329 win over Conor McGregor",
-      "url": "https://sports.yahoo.com/articles/nsac-trying-withhold-max-holloway-210134513.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T21:01:34+00:00"
-    },
     {
       "title": "Analyst confident in Ian Machado Garry's title future after UFC 330 loss",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSmNJVXl0VGNTSmJ3eGowamNjeTQ3UlNTbFFDR1NMU0NxbUJvUzJ0SkRETlhmZHhMYWtDck9HaW4tck5zRk9CSk93VUhkTV9MMTFUOFBOSlVsRGM5R1dnSEY5b3pWT1JpUUR6Q1R1TDhOM3BGbURVdTBNazczUDNXNjdHRks5SHZEX2pWR0YzTVI2cGVQM0RLTTRIZkpNTWdDS0xEdTNlb2Z6SjJXbTFtR2xFS2NDMU5Ed2VKSGx6bDEtRUdPMFh6cTJjQ0lMeW4yc0NJ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-22T03:35:48+00:00"
+    },
+    {
+      "title": "UFC Sacramento ‘Hernandez vs. Rodrigues’ play-by-play, results & round scoring",
+      "url": "https://www.sherdog.com/news/news/UFC-Sacramento-Hernandez-vs-Rodrigues-playbyplay-results-round-scoring-202479",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-22T23:57:05+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMisgFBVV95cUxPZ0tBWFF4Z29Gd1V3T09XQkYyTGtsV1lZZC1fdURSZER2QzVCZy1GT3U0b3RDQVdvQTRGa1NLZlFvcnJWc1NXMUZaVnFhM1BDcDVJc3duZEk3UHRZcnMyajBIQWtkaTBPZGgwZDJ4RDM2a1gxclhSeWNwRUY4UEFwcUJQWUZ6WjlwRzFZU0t2S3c2ck9xcHB1ODJBU2Q5MVlPMHNROE91RmM3cXkzV09hNjRn",
     "CBMipgFBVV95cUxON2xQNjRCX1AtMlJhSW1WcTM1b2V5YlZkMlQwWU0zeENHd1I4Tk0tZl8xWkFyNXRDTk00cDZZMW9XRFlydkpXNUZFVWhwN21nOUlVUzJ6QW9lQzV1Mkd4bkxabXFRUTduTmJCSFdwRU5zVFhiNmZjdWM2dUpCRlN1T2IyT1BKNks5REpodXduZnQwY2tLMWdfQ2dRXzllamFHT0VhMTBR",
     "CBMifkFVX3lxTE9TRWdRTkx4dDdSWm1vYlZLVGVUbkxtWE8tTVFjcTViTWdHaEF3UWxUVHk4Z25ZZEs1dlppaHFhMFdKb0ZDajJac0pPRWpDbXFUV2JvbjNISkxOaDFNMDEweUZVQUZtUUZWUXh5aGg4UWpUSDlNSm9SVU9rVlJPdw",
     "CBMitwFBVV95cUxPVHVWOFNZZHRjZFpidG9NY1dBVjB2VEhjbWlENzZ2ZmFQZ0JibmtzWVRQOU1wbmx0bkk1WnhIdmM0bGtBYllJT1Y0REQ2NUx3eUFYNk1MV0loOU5wNjBYODl4enl4VzFZdjkwVmpLNWtOOFhucXMxcmtacDE5Q2E2MXRCTTI0ZXlUREFwM1RkMFpwVHppaHV5TktmbUlkb3FFdjBhbDIyeFBGLXlBMnh0WlBKZ290N2s",
@@ -3312,11 +3311,12 @@
     "CBMif0FVX3lxTE1vaDgwenRaQWVQVnhscjlsa0RBWlRaOUdZTWg1MEE1QmplczF2d19hdll1RmJnbkZrZko0WkI2MEFyd1dTU1lTWHJGekJMY1NWMlFiQWVnQzVJWjlmZ3BDbm9VNExMVlVNUUljdWxoQWdHTjIxcnRGNHNKSkVHQW8",
     "CBMizgFBVV95cUxNT2ZidWh3QThvTGI1djhGc1VfcTVDTnZKU2l3dFpCX2xvaWxFSWpKV2Z5ZkEzYV9Sc29mZHluMHAtb20wNGswdXU5bFhMVS02NHRxQnR6aXVYOEtWQmM2cHd5ZTJ1NTNnQ05heXl0dHM3X3N1dzZ1My11aF9WeWNCMnFrWFUtQ0p4NURUT090NVZaUFNXZTk3Z3FOb2hPVFpJYUlJR0dmelBYREJrWmlRWnducDc2MUFIWFBvcUphd0NVSHA2SnlEaW9JTnR4QQ",
     "CBMiggFBVV95cUxQOXlmMkRzSTNpcUU3UkJHenFRZUg4YUhMQTNyVUZTYjBxa3BUMGZZek91U1lLaGQzUGRjTUhHNl9fbkdRTjRVUEhfM2MyUFdXR0ZtVWs2S0dHT1RqaXJNVGcyaVU4cnhWaEprQzNlbmlOX1VyVlN1NC1qbDl3RFdaTW9R",
-    "CBMikwFBVV95cUxOTWZQdHoyZGZMUHUzRXIyc1RxdmJya1hOQTUxUjFwREhFU2sxNGJfU243YXBMR1ZCTTFXUUppYTZZLXdacGRybzR0R1JCTXpGR3F0b2xzdzNNQ1FJR0lZLWxIWFY5dmlUUlM3ZEg2ejVDbXpYbWc3eEF3NDdLOTczbWxfYzBQSjlSZ0k1ZGp6MUQ5Y0k"
+    "CBMikwFBVV95cUxOTWZQdHoyZGZMUHUzRXIyc1RxdmJya1hOQTUxUjFwREhFU2sxNGJfU243YXBMR1ZCTTFXUUppYTZZLXdacGRybzR0R1JCTXpGR3F0b2xzdzNNQ1FJR0lZLWxIWFY5dmlUUlM3ZEg2ejVDbXpYbWc3eEF3NDdLOTczbWxfYzBQSjlSZ0k1ZGp6MUQ5Y0k",
+    "https://www.sherdog.com/news/news/UFC-Sacramento-Hernandez-vs-Rodrigues-playbyplay-results-round-scoring-202479"
   ],
   "daily": {
     "d": "2026-08-22",
-    "ai": 66,
+    "ai": 67,
     "staged": 5
   },
   "staged_hist": [
