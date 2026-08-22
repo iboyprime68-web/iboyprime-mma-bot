@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "EFC Moves EFC 138 Forward in 2026 Events Calendar Update",
-      "ts": "2026-08-21T23:40:02+00:00"
-    },
-    {
-      "t": "The People v. Gorilla Grodd Lands Eight-Episode Series Order From HBO Max",
-      "ts": "2026-08-21T23:52:46+00:00"
-    },
-    {
       "t": "IndyCar drivers amazed at downtown DC course: 'It's stuff that you dream of'",
       "ts": "2026-08-21T23:55:58+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Rolly vs. Teofimo Results: Live updates of the undercard and main event",
       "ts": "2026-08-22T04:17:54+00:00"
+    },
+    {
+      "t": "Athena Defeats Hazuki, Remains Women’s World Champion At ROH Death Before Dishonor",
+      "ts": "2026-08-22T04:11:30+00:00"
+    },
+    {
+      "t": "UFC Fight Night: Hernandez vs Rodrigues | UFC Sacramento",
+      "ts": "2026-08-22T04:24:52+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Carlos Prates issues warning to Michael Morales: ‘I will knock you out really fast’ after winning UFC title",
-      "url": "https://www.mmafighting.com/ufc/505770/carlos-prates-issues-warning-to-michael-morales-i-will-knock-you-out-really-fast-after-winning-ufc-title",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-21T13:49:48+00:00"
-    },
-    {
-      "title": "Paddy Pimblett wants UFC to create a new division that ‘freak athlete’ NFL stars would dominate",
-      "url": "https://bloodyelbow.com/2026/08/21/paddy-pimblett-wants-ufc-to-create-a-new-division-that-freak-athlete-nfl-stars-would-dominate/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-21T15:00:00+00:00"
-    },
     {
       "title": "Mania Mailbag: Would you rather be Din Thomas or Dustin Poirier right now?",
       "url": "https://sports.yahoo.com/articles/mania-mailbag-rather-din-thomas-150500579.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-08-22T04:17:54+00:00"
+    },
+    {
+      "title": "Athena Defeats Hazuki, Remains Women’s World Champion At ROH Death Before Dishonor",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVlRuMDgzM3Y3QUFRRUIxQXM3UGdTSktMSVRlRVZWd1dscmlrWDdRVk94c2d4Z2hyc05wZHluRUljYWFHckR4bVVIU3A4aUszdjI4c1lkd2QzRl9ScHJHdGpvU3ZBQkR0NFkyaEl6b2I1ZWxSMUlfMkFwaUZkT0tnbWtrdG1KbExjYmpFV1BJNFhFYWYtQjhid3llQnFYQkk?oc=5",
+      "source": "411Mania.",
+      "cat": "ufc",
+      "ts": "2026-08-22T04:11:30+00:00"
+    },
+    {
+      "title": "UFC Fight Night: Hernandez vs Rodrigues UFC Sacramento",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIZlVreGFCSWlYaWI2SGhRUUtuMlM2UjVNam9VdDBCS3FOZ3htTTh6TjZETzE0bmJxVWptTlhPVTR3NjFzejZ0MXc4WG9Cc05Tc3RHZlBpMnE0Vk9XTHhBQlYya2pKZWc?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-22T04:24:52+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMifkFVX3lxTFBqQkdGU3FUNzNSSU1hdUJEMTlNX2dCUWlNT0toQWdqVy1UMEo2bVI5ZFR3cEk5RDFOX2otXzQzc3pLd25POGJnX0ptd255RFNWeDlwMnJXZ1lrRURERXhLM3dBcmJqd1BCZW9lVWZfbHgwb0JMOWFVcWlxek5fdw",
     "CBMingFBVV95cUxNVDVIT2gxSUx1SURZRTc1Z0ZNR1dUaGZlQ0I4dkFDeExUMWhsamowYktFWm1BZlk0a25ra1U1SHFxaXk1b0dCcDhjOEo2NHYxM2VlUVZQSkNiQ2Jzak10ZnBtVEJyNm9RWlRvM0g1bmxQZmxOWUFFTWotMjNiQWFGYVRiQjlGVWVKNXBETnlqMGRIX0JIQ1hUQTJNVHpjQQ",
     "CBMiXkFVX3lxTFBRNUozdF9YNlZXZTZQMzU2cGw2UEdaN0ozR084dDJqVkF0d1hITTR2WkIybUJZTEdBekpiU0tNYzF0ekxLb2o1VUxPcTRNSnlXeUhXTC1XQmo1N3huNFE",
     "CBMiigFBVV95cUxNZGpWRTlXbnVabW1EdzliRlhROE1QblR1Zk9NWmpPaFhwRjVybWFtNWc4Vkh5eEhMVjAxbnNGTUlLdGp3M004SE1RQmoxd3Z4Xzdva3VpYWtMMkhjN3ROOV9JcHRXU0llOFhmUHYzWnVoSWJaY01mNDMxalRERlVZemkweUJ4RzQ4RXc",
@@ -3312,11 +3311,12 @@
     "CBMitwFBVV95cUxPYmxkR2pUekRoOFJvZnJodnJvWXN6Y2hreGdFbWhGMDRPdm43ejg0cUlYS3pPSVV2S0Z1bmxXSTl2Tm8zYnRLRzREUF9Cak9jdFZGUGdIYkpwUU0zcklWejdCVVY3RVJnaVE3bWQyTDhGVldMbHIzTXFueVJINW1jbUgtYVFXeUtBdTBFU0x4VlRIanhTTF96aGk5T3RsQUdtdHkxZ2xUMmFoVVNrUmdtQUUxZ2hBQTQ",
     "CBMiUkFVX3lxTE9qWkVxS2xELS1UNDMwbkxVMktzU1Nkd1ZXNXluRkZxYlBjZWVfOHEtYmtnRzk5dnI5U2RpS0ZETGtEa3N0ZTN3ZjB2dmZCakhJZVE",
     "CBMi2wFBVV95cUxNUXRzWERyMThsdk5adTRlZ29DbGxZZFg5Z1RMdnRTdTREZDE3aTY1bU8yWnc4MWd4S3c2M0RscnU0d2txZVhVV0lhYVZPODRYMjc3MWxMbXBhM0hGN2w4ZFdsbFR1Ykk2TE1lOGFtVzVUUEpqZ0l6alA2eHEwVklHRjBHT1Vuck1kRVlJLUpaX0lZVTV1Q19WU2xNd3hpcXZNUkVNVkZiN2VCYnZpdjBsQUwtREdQdk1EdFV2bFg2dkJfamJlMTNYa050aW81UmZKRFFQV3JXd1lyd1U",
-    "https://www.mmafighting.com/?p=506305"
+    "https://www.mmafighting.com/?p=506305",
+    "CBMinwFBVV95cUxQVlRuMDgzM3Y3QUFRRUIxQXM3UGdTSktMSVRlRVZWd1dscmlrWDdRVk94c2d4Z2hyc05wZHluRUljYWFHckR4bVVIU3A4aUszdjI4c1lkd2QzRl9ScHJHdGpvU3ZBQkR0NFkyaEl6b2I1ZWxSMUlfMkFwaUZkT0tnbWtrdG1KbExjYmpFV1BJNFhFYWYtQjhid3llQnFYQkk"
   ],
   "daily": {
     "d": "2026-08-22",
-    "ai": 81,
+    "ai": 82,
     "staged": 5
   },
   "staged_hist": [
