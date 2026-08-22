@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Merab vs. Cejudo 3? Why Both Stars Want a Trilogy Match After RAF 12 Rematch",
-      "ts": "2026-08-22T17:05:31+00:00"
-    },
-    {
       "t": "Colby Covington signs with Hype Fighting Championship for submission grappling",
       "ts": "2026-08-22T17:10:31+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Merab Dvalishvili reveals heartbreaking update on his dating life: “I Give Up\"",
       "ts": "2026-08-22T21:07:56+00:00"
+    },
+    {
+      "t": "Noche UFC main event: Jose Delgado to step in as replacement for Yair Rodriguez against Jean Silva",
+      "ts": "2026-08-22T21:08:48+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Tyron Woodley Defends Islam Makhachev’s GOAT Case With Brutal Take On Ilia Topuria and Alexander Volkanovski",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNUlINGxrOHpid21acFBhQ2p3bXpkaV9idGJHQk5YSk1ucDNwTnlhdjZQX1YzYnM5dkswYXRSLV9valNLRjhqZjI5YmtsSFppd0l3TGxOZTJybWVyRm9oWEY1UlBFMFBNZ2tvVmhVclg0WEdYendlQlowYWwxQk5mNEY5YUpldFVFMnV1ekdYbWZxbmFNcmw2QUthaUItOFA1RHhuYUd0YWRHeE1KcG5KVUp3VXJCZDJKcEtrYl9JaVZGVTEyZGc?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-22T19:05:25+00:00"
-    },
     {
       "title": "Louis Jourdain: UFC Record, Stats and Fighter Profile",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03Sl84cndfcVhlN08xMWxxcWxsUFc5NExjRVJXX3dDRDBrRVBkTXNVZVU1R2NYWG5DNVFsWkNaV2YxZlkzRjYtQWtyZkxsTEN6c3R0Y2tiRUo?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-22T21:00:00+00:00"
+    },
+    {
+      "title": "Noche UFC main event: Jose Delgado to step in as replacement for Yair Rodriguez against Jean Silva",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY1FiNjV0dFkyM25UQTI2QjY1RjZSME1UWVZfVWc4d1JWYWdYZ1ZVcUEwODNjdDBwbjczcF80TE84c19QVmJCYmQzdFN6RF9KTHZCSl9YYVpHcXU1VWgxbUtFTDgzM3JSOW9XQkpCSHA2NHNhUDFESnEyaEdYQV9JWkRRemJzck5UT3NLdWpvWExjdjZJT2t4QUhhWQ?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-22T21:08:48+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiY0FVX3lxTE1ZWkFyTmdselk1bmdmd0Y3U04tLWtKdnBHU1d6aTBZOW5FMzFBLUh2eDdKTW90VVoxYTNiWEQ5S3dvNVlMLW5VUnFIU3pJN2dZSEVfcmRiOGtKYXNTR2xhazdlQQ",
     "CBMiY0FVX3lxTE5ULUxYTXZuckZVWWdaV0dROUNDNFIteXBWR3VVYjlCOFRGS0tXbWxOOUJOTjBEV3kwN3IxbDJyZXpTUGVlX1k2YUVFUW12SG1vQnV3YWsxcjVFc3BQOVFwcTBjQQ",
     "CBMijwFBVV95cUxQTGFBV1N6cEdGczF0b3oxSVpPdDQwTkIzREhDNUhHaXNwMm1hR1RJU0R1bEp1RW1rMzVJSGpvb2FFaWhoNzNBcjZNMmZWcjhxZTBHTndaQXgyT0RkMlJpbnFrR3V3NEhzellORkdsVFR0ZFloR2IxX05HanBaOWxZRDB2STFEdjVFV3U0U0tpWQ",
     "CBMiqgFBVV95cUxNT0xHZUFGS3VPSXhHREtoTzVwN1Y5dkR0TlgwVTB3dUkyTE9XUjRORDBHOG1wd0pHMUJUOWNiZE9OcHp0dUJJLUhxSXdhSE8wT0YxVktrVDU1Y2JFTU1HN1RRTDh2cmY2Rno5dWkxaGRSSkd4Q1g4Z0Q3eHQzMW9HZlM2TmZ3UG5wX09tUE13U3UtTERrUVJQcUZhT0hEVWFaVDJvVUNUOV90UQ",
@@ -3312,7 +3311,8 @@
     "CBMi7wFBVV95cUxOb2pxalpPbUxSV25ONi13cUZNdHVXajNabGRtTTVvZjItekVjcFdLcm9pWFg2YzBVYUFucEs2UFpYc0M0OHE5VzI3dXhxc0Z4enVQUGp4akdfUGR2T0FkUnNsU1JYNXFsa2pCdXdEd3dlVWdKNXdYa09xU0lzdzBPMHdzNkt4MERQRlhSVTFFeUM5Qjd2YXBteHh1VjVESkQ5LW10U19PV3lQUi1WbWhRRk44WUlSTFNVOFJuYVFxY2lvZE4xYXlCQXkwVTIwUU5pdWJPY1ZXNjhEVzg4Y01YZjFvV3hET2NjeXRRN1pEWQ",
     "CBMiigFBVV95cUxOWU5JUWxoamZ6UTFHX1Z6ZTNCNHhieHBFVW5ySW1iMURxbTBQcnNkMTRwR3NlZHJ0N3UwVXF5eW5ia1pZRW5DVXBMT0FQWGtYbW9HUjlyTFF2RWRISmlWT0JUdE1ublVLa0Q4bVg5aWp6V1lzZ3k4TDNqNnhNLXh0R0x5OExOS3ptUmc",
     "CBMigwFBVV95cUxQOWhlVHVlandHZlFWc3U0MjduZXUyeGFRbkVFeE13dGxuakNxMDNMSkFDM0VCVVVzZ0FJNWpuWFNlbmk3UU1jY3Q2Q1VZajlqcWNZYl9XUWVZNkhIdk5ReW5ycW9qcm4xbjZvWkkzd21oRmJ4ckV0TWFCcXpOeERhVmJLQQ",
-    "CBMipAFBVV95cUxNZEpjVVNkak1lUHpsVVdFMHlYOXVkdThPQUtFM1pWR0U5SExCQ2VNUVZmeHh3cDgwLUUzRnYwLWlMeXhtazRUczVUWjAyOEF4OG9NT24wZ3VwdS1MS2gxQzlxcmtiUXZmc3pkV3JEc18xSGtkOWhEWjVIeGN4MjVMV1gyVktVdFMxMU5lbF96dG85TlZTbWJYelAySFFDQVIwT0lYeg"
+    "CBMipAFBVV95cUxNZEpjVVNkak1lUHpsVVdFMHlYOXVkdThPQUtFM1pWR0U5SExCQ2VNUVZmeHh3cDgwLUUzRnYwLWlMeXhtazRUczVUWjAyOEF4OG9NT24wZ3VwdS1MS2gxQzlxcmtiUXZmc3pkV3JEc18xSGtkOWhEWjVIeGN4MjVMV1gyVktVdFMxMU5lbF96dG85TlZTbWJYelAySFFDQVIwT0lYeg",
+    "CBMimwFBVV95cUxNY1FiNjV0dFkyM25UQTI2QjY1RjZSME1UWVZfVWc4d1JWYWdYZ1ZVcUEwODNjdDBwbjczcF80TE84c19QVmJCYmQzdFN6RF9KTHZCSl9YYVpHcXU1VWgxbUtFTDgzM3JSOW9XQkpCSHA2NHNhUDFESnEyaEdYQV9JWkRRemJzck5UT3NLdWpvWExjdjZJT2t4QUhhWQ"
   ],
   "daily": {
     "d": "2026-08-22",
