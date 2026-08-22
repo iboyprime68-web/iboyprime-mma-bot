@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Former UFC champion returns after two years out at UFC 332 despite fan calls for him to retire",
-      "ts": "2026-08-21T11:00:00+00:00"
-    },
-    {
       "t": "UFC 322 reportedly adds title fight following main event speculation for Salt Lake City",
       "ts": "2026-08-21T12:00:00+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "UFC Sacramento: Exciting Aug. 22 Show Locked in Friday!",
       "ts": "2026-08-22T01:48:18+00:00"
+    },
+    {
+      "t": "Alexander Volkanovski’s coach has doubts about his recent UFC 333 retirement admission",
+      "ts": "2026-08-22T02:00:00+00:00"
     }
   ],
   "digest_items": [
@@ -2109,11 +2109,10 @@
   ],
   "digest_last": "2026-08-21 21:30",
   "hour": [
-    "2026-08-22T01",
-    7
+    "2026-08-22T02",
+    1
   ],
   "yt_eval": [
-    "CBMiWkFVX3lxTE1jcWNwYXVzblBOTXl0ZGk1bWlQa1F6bzhNMXBvakt0aE04Z21wZFVrbUg4U25UampoMFd0ZjBwV3lJdXVHZlZScnQ3Z2VsMmhrbkVRczFZSlN2UQ",
     "CBMiwgFBVV95cUxNNlFjUUdTU0p5RzRwYXhnOWhhazRBMGtyS1NISC1ERDdCWnFGdl96YURiVTNyaF9lZl8yajhsZzJJWElwcHc0ZlRyYnZwTUFOUEVxeUdxc2RtX0Q5RDdUanROZnZBR1VSWFd1aUMzZEVOOVlQamMyQzJrektmR2lvMHRsQWxROU5tSVNjM2s2MkVIdXppOFFLMGxPamhYYWhDZFBXZXhCdWc0akc0Wl9SQTZpaFBfdVd5cEdQczV3Vk5wZw",
     "CBMipwFBVV95cUxPM1BnaE40dVJhdDl6T0dKR3J5SHN2SFNQXzJUaGVRanctX0EtQXh1SlUzbmpKODFRcEJ2aVl1OGNBX0d0M2N5aXhheWdQT1ZqQy1HMll1X0Yxb1I2TTB4YmlwMktWdlRSM3pmX0JMNU5IYm1ZOHo1MS1ReW1BYlozNzVNa0s4a1gtZ1NuRWM1SVNwa2VQQWlGa0EtYUlpRzV2YXJ6eTl3dw",
     "https://bloodyelbow.com/?p=327724",
@@ -3312,12 +3311,13 @@
     "CBMiwgFBVV95cUxOTFpkUFIxdEFJdEtUYUNXeUZQLWstLWphVjBkaFRydVlkV2RSaTZFMlRwQl9LLUkwVlBoWTVDZEMweW1WenVVckl4bjBJemEtRWctVTdXSFZyU3FzRUd4NnRKUExUZEdMMlRtMGgtNi1PemFBVXN3MllVQXk2RlFDeUE4Ymwxc1I3ZkFQUmRrN3Fwa0IwdzFDR0xqOUoyMnJMRnJOcmxUWkVJaWgxaktTZ1NuN2tZWTE5MDhCQ0JCeFIzUQ",
     "CBMiowFBVV95cUxQZXI2OERIczdYaTZ5dmNXOXpkb1RFUVlxNGpMTm0wLXZzVXk2OU83WlNtMVBfMHVTRHlsQ0lMMGF6eS1KbUw3cHhaRmhvak93OW90ZWlYc2ZqM0FVam9HbHJYNnI2T1dNelZod3JSVWJ1WlduS0R3SXNqb2VveU5Mcl9aX05Pc0wyNzk4ZkFxQy1oaUJXZ01aYWJpRzl6QWNsaUlF",
     "CBMiigFBVV95cUxNZU5nR0taTnNOQzV4SVFWZ3pwU0pSNjJCMFJ4c3FkZDJkeUFrbnlYczBESUtIXy1qWEFvN1owQnNqZHR4VnBrcVlTR2Fpb2tGclVEVW1rZlU3WDNPaGRlWHBqM21OTTdvdXlkMk0xNkZIZzJZQTBvRHU1eU9BN0dCdUppUWlkZTRiS1E",
-    "CBMifkFVX3lxTE9wRmxOMUptNEFkSHR0LU1QNXZVVGluclZGX3B2QmFSUlBnRm1mSElIMnItWU11bkdPa01zd3FPOFdnWEt5Sks0RjBLNHRzLXJRVGY0U3o2ME03Wjk3cTBvZzFSQ1hwSXl4V3huUWRYbkNaTnh3bjNZWUh6RGxaUQ"
+    "CBMifkFVX3lxTE9wRmxOMUptNEFkSHR0LU1QNXZVVGluclZGX3B2QmFSUlBnRm1mSElIMnItWU11bkdPa01zd3FPOFdnWEt5Sks0RjBLNHRzLXJRVGY0U3o2ME03Wjk3cTBvZzFSQ1hwSXl4V3huUWRYbkNaTnh3bjNZWUh6RGxaUQ",
+    "https://bloodyelbow.com/?p=328129"
   ],
   "daily": {
     "d": "2026-08-22",
-    "ai": 31,
-    "staged": 3
+    "ai": 32,
+    "staged": 4
   },
   "staged_hist": [
     {
@@ -3489,6 +3489,14 @@
         "volkanovski",
         "reflects",
         "potential"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-08-22T02:00:18.468453+00:00",
+      "t": "Alexander Volkanovski’s coach has doubts about his recent UFC 333 retirement admission",
+      "names": [
+        "volkanovski"
       ],
       "img": "photo"
     }
