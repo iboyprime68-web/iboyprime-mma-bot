@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/455947/paddy-pimblett-vs-benoit-saint-denis-odds-full-fight-preview-and-prediction-ufc-329",
     "https://www.mmamania.com/455953/open-thread-july-9-2026-name-a-movie-that-left-you-stunned",
     "https://www.mmamania.com/455957/mm-clone",
     "https://www.mmamania.com/456152/open-thread-july-10-2026-who-was-your-worst-landlord",
@@ -799,6 +798,7 @@
     "https://www.mmamania.com/?p=466336",
     "https://www.mmamania.com/?p=466447",
     "https://www.mmamania.com/?p=466460",
+    "https://www.mmamania.com/?p=466475",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Conor McGregor Fires Back At Max Holloway’s ‘Old And Slow’ Comments After UFC 329 Loss: Trilogy Fight, Injury Update, Return Plans",
-      "ts": "2026-08-22T09:23:16+00:00"
-    },
     {
       "t": "NFL Preseason Week 2 Storylines Stream of National Football League",
       "ts": "2026-08-22T09:27:30+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Fans React To ‘Disgusting’ Staph Infection, Slam CSAC For Approving Fight",
       "ts": "2026-08-22T13:49:11+00:00"
+    },
+    {
+      "t": "Worst ever? Fight fans react to ‘disgusting’ staph infection during LFA 239 main event, slam CSAC for allowing the fight",
+      "ts": "2026-08-22T13:49:11+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Lucia Szabova Gets Tainara Lisboa For Reported UFC Apex Debut On Oct. 31",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYWhZX3lGU01HN2xFVG8xdFBsNUNQLU04UGJaWVhrdnNpa01LdHU0V0xTcnJMc0RSMERsWHAyZkZmRXZJYV84d0lvTm8yeTBZRm5nOFpoZHJlTm9sZGNlMnRZQnpveW9mN1FYNVJrd3VBdzJSOTQ5V0FVSnp3dldZcVRQV3FaZ2s2a3YzTHU4Qk8?oc=5",
-      "source": "MiddleEasy",
-      "cat": "ufc",
-      "ts": "2026-08-22T11:27:15+00:00"
-    },
     {
       "title": "Shocking number of cocky Californians believe they could win against professional UFC athletes: survey",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWGhrbk93SHlmT084UmZqeU5qSDlzVG5pMlN5Uml5T3lfRThCZ0wxRGhfdlFBRC1QanBGb2dKc1hQQUd4eUpvY3hpOF9Jc0w2MzBpWVZ2aGdUM2lybDBQUlBuOWVNNmIzMEIwQy00SWpjN0NMbmJycW82Qjdnb3htckhsMmV0WXl6U2o4WEJZVEt0d1BYQ0tvQWMyaTZSWXFrNWlZ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-22T13:49:11+00:00"
+    },
+    {
+      "title": "Worst ever? Fight fans react to ‘disgusting’ staph infection during LFA 239 main event, slam CSAC for allowing the fight",
+      "url": "https://www.mmamania.com/latest-news/466475/worst-ever-fight-fans-react-to-disgusting-staph-infection-during-lfa-239-main-event-slam-csac-for-allowing-the-fight",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-22T13:49:11+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMi1wFBVV95cUxPLW5jNFgzcFllVGlRVE5PVE9pQUxQbXhOY05hT0ZZaGFsRFFzckpLc3JNUi1rMXdqaHJ0dnVMTFRjS3NNQjdRa3VlWDFzak5Oa3UyTHI5d0xmR0tKalJSY2lYVzlwd2Jyb25Ma1ZOLUV2ck16c2RHR3dLWmg0cFhnQ1BHNHFkVzlvQm1lMU9zeHVrZzk0UVE5OTIxSk1UdXNhM21VODRxSU9tQVphaV9lT1dxMHpRQzIxcXZlaGNBcVRHWVJMQ2V0R29pQURIQWhEcGQ0dFNpTQ",
     "CBMi5gFBVV95cUxPNGxrLXpoaU8zeTBsblE3Um5kYVM5UjF6MFZBZ28xZDlSbFNpNnpKTXZnY1pWQmdpbWtvWVVOR1QzVFRyVlNGRGpPLVN5cENCbm8yZDNwbWpmVklkSnpKRzZlNEhYRG80MUJrZXRVWnJUeU1wcERVU2kwZHBPeTVzeHRDNldyaXUxekRlMmdjNzFET3A0SGg2cUdlR0I5Zml0eU8xc0xwa2pRNXg0RVhqbmEybm9qS2xKLWRkdGFHYksyLS1LeXEyanc5R1ZfamZmOGxZRzhSVEY1dTU2cW9MS2NyV3pjdw",
     "CBMif0FVX3lxTE5oQjlDb3lxajl6LUhIaE1TRzNKUGxFS0FLNkpVZk4zcEk0QmxPZklkaDNRYk1oQ0xSbm8yMWUzTUxtNkcyOFpvb29Hd092UzVLdTlicHBpVlhrZmMxY0JGT2RCV281d2F5V1ZwUG9sazd4MUx3a3YtUWlfZnR3bFE",
     "CBMixAFBVV95cUxQY2o3TUp6Q0VVYnFVUG5Ua2tmcXFBSVNTaUdNbm1HbjVnNGRZUW1LM2xOZWc5S1RCTFZvanI1QW9haUtab2pVbzFjVkN2dkxvRWxoLXFCeVJEMDBJS3FnMEpRQXNvWmI0cHcyaHhsQklPWDVFUDdXbTU1T0RiaXdXNGJ5ZVpDekwwMEZTUkF3Q1FhaWpCenkyaFQxR0lRb3BXLU9MaGNzTF9rcEhIdlp4UG1TVFh3a1U1SVdob2F5a3FWUUtt",
@@ -3312,7 +3311,8 @@
     "CBMirAFBVV95cUxPX3Atc1dwRURRRDlzUGNmbTA2VTZzQ1ZXWWh1MnA4R2FYVGU1ZWtyaDg1SnJ6VmdjdWU2NEFwbkd1OXp6LW5jNjktVVBkUmlvUE9JRVA2Ynl5TVAyOFlGLWE2ZVR0Y1JjLW8taVd6OTZwNlllUTNLdlZqSGo2VTltVU9yY1ctUjBUcW81eEtGQ0t3QzByVWtyWVBwTzI4cThTQVJ3VGxZZkNGTFNI",
     "CBMivwFBVV95cUxPdjFGOWxkMUotLW1OVmdKR29meHlkRTE3dDhXdzlpN19uSDM1QnNZS19mYVNkNl9teHhXRzA2ZFU5RjFlNzNQYWh0NWE2a0JyZWNWUTgzQkRleTNPcE9MVkdUMWJYLWNQSm5nN3dMV3ZoQWlBTnFWbkdTVFZndUZyM2MtNUN3T3FrMm00MzFQRk42OGI3Nk9UODdNTDZDNjdZOVdGSmEzbUN4WTZlUmY5Vld0TFFpUnBkNmpaNGZoSQ",
     "CBMixwFBVV95cUxPZW5LTkhpeFJMbE11N3pCWTYwNlR4RDR0QVlfZE44TGtpRlZzX0JBaEFGZXpCOWpUcHRhQVNwaHhKZnM2d3dYUy1XMF9CTkgzaFZlRHV2UDVqSDJSVnhYTHVPdXpIUDNRQTRMQkRNS1dQV0RjUGpCbm5DbXRzOHk4bWxsTG9IblF0NV9mU3RHX3gzWXh6blRpTmZ4eGI1QmFIOVRVYWJ4c3hGYlBneW9teTlZaXhLbEpaaklvS2tpNTI4TjEyWFJn",
-    "CBMi8gFBVV95cUxPV0VZeE5jMHNlZ1hkOElOWHZPZDh3RjN2YVQ5SWt0SkI5Ukc1ZzIwSkFwZUFOSVJsZk1lSnUxOUtYbEluczBWbU1ER0ljUHZKX3ZKWlRUVlg3czZEQUx5NTBtRDdza0wwZF8xb1VfWTJmeXRlbUhzLVN5cmxRZEs2cTl0cHBldW01SE91Y3d0OEJqQmswbzVBTUJaTEdOVm1EeS1HWVZuR3M5WkNqcWxOSDYxMnpVUks0TC0xSVJhRXpUQ0lNanRvN2RwTnpCSzZJeVNYWU5PV2ZpWk9RUFhLSjdEVHBlc29uOW54RmM5MkZwUQ"
+    "CBMi8gFBVV95cUxPV0VZeE5jMHNlZ1hkOElOWHZPZDh3RjN2YVQ5SWt0SkI5Ukc1ZzIwSkFwZUFOSVJsZk1lSnUxOUtYbEluczBWbU1ER0ljUHZKX3ZKWlRUVlg3czZEQUx5NTBtRDdza0wwZF8xb1VfWTJmeXRlbUhzLVN5cmxRZEs2cTl0cHBldW01SE91Y3d0OEJqQmswbzVBTUJaTEdOVm1EeS1HWVZuR3M5WkNqcWxOSDYxMnpVUks0TC0xSVJhRXpUQ0lNanRvN2RwTnpCSzZJeVNYWU5PV2ZpWk9RUFhLSjdEVHBlc29uOW54RmM5MkZwUQ",
+    "https://www.mmamania.com/?p=466475"
   ],
   "daily": {
     "d": "2026-08-22",
