@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/456460/highlights-open-ufc-329",
     "https://www.mmamania.com/456461/highlights-open-ufc-329",
     "https://www.mmamania.com/456462/highlights-open-ufc-329",
     "https://www.mmamania.com/456465/time-check-official-ilia-topuria-vs-max-holloway-main-event-start-time-ufc-308",
@@ -183,6 +182,7 @@
     "https://www.mmamania.com/466589/highlights-open-ufc-sacramento",
     "https://www.mmamania.com/466626/highlights-open-ufc-sacramento",
     "https://www.mmamania.com/466637/live-official-brandrisk-14-video-stream-complete-fight-card-results-and-highlights-manziel-vs-menery",
+    "https://www.mmamania.com/466655/highlights-open-ufc-sacramento",
     "https://www.mmamania.com/?p=405991",
     "https://www.mmamania.com/?p=444863",
     "https://www.mmamania.com/?p=446488",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Bo Nickal wants to beat Khamzat Chimaev in two sports as both prepare for returns outside the UFC",
-      "ts": "2026-08-22T03:00:00+00:00"
-    },
-    {
       "t": "UFC Sacramento predictions",
       "ts": "2026-08-22T05:46:19+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Sacramento video: Shamil Gaziev makes Kennedy Nzechukwu pay for hands-down defense with 1-punch knockout",
       "ts": "2026-08-22T23:28:26+00:00"
+    },
+    {
+      "t": "Highlights! Shamil Gaziev knocks out Kennedy Nzechukwu with first punch of the fight &#124; UFC Sacramento",
+      "ts": "2026-08-22T23:24:02+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Former NY Jets linebacker Anthony Wint making UFC debut in Sacramento",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeVRZZjNMSmJzbjZNVzA1RHVJUnY1dXV4aDBReUNZVUhrTzE4U2M4T2pETmN3LWh2dFFYVEt1cXhwX25NVzFlV1BQUWRkWGZ2dkZxUkJXTW5xMm5IWFF4NmFSME1mV0Jsa2hnU1BDR1VTSzJHYUJmYmZwS2lMWHNsVi12WGFKX2JzQ1ZCOU1GZnM?oc=5",
-      "source": "The Big Lead",
-      "cat": "ufc",
-      "ts": "2026-08-22T22:34:12+00:00"
-    },
     {
       "title": "UFC Fight Night 284: Jose Montanha full post-fight interview",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOWF1cS02WGR3aXNUVE5obVptZ3UxTmxrdlg1emlCOTZmdExNZjcxd3ZXdENUdld6ek4xVlFOcGdJdmNWVEk3aS00UENBY05nYTZCeE95WWMtS2VvMy1mLWFraVdnSnNGNDJ3Y2xpalE2aWhPaTVVYUFVN1IyQUxFT1Azbk9HcUVMVEZIWg?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-08-22T23:28:26+00:00"
+    },
+    {
+      "title": "Highlights! Shamil Gaziev knocks out Kennedy Nzechukwu with first punch of the fight &124; UFC Sacramento",
+      "url": "https://www.mmamania.com/ufc-results/466655/highlights-shamil-gaziev-knocks-out-kennedy-nzechukwu-with-first-punch-of-the-fight-ufc-sacramento",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-22T23:24:02+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMizwFBVV95cUxOQTU1cEFkZmxsOXA1R3ZqRzFITWpTdHJSVjRRUnJBTW1YZHItdmh5MXdzRlU3NnpjZnY0dlNldEo0NHJNZjZVWkI5UElvd2owZV9nTW0tbHQ3R1ZBckhvU3JTWGxTSE1FdC1KNTlTbU9wdkM3aERHNjdMMTdoRGZNbTNXd1RlR1p5aHBkV3lrcWY5cTVmUWMtSlNkeXRIanU1UlRLYW5XaXhtc3JzTXZlYTFwOTVoYlBkTk45S1l0UDAtdlRrdFhLNW5TVEowWUU",
     "CBMiqwFBVV95cUxNV2RrT213WElaQWJQN0lYZ1pMRnFJVkx0RXc1bmNyQnNPQldMc0tOUFphaGJIMzM3N1RvOTNzMGxfM0JsLTZ0Ym1meXdac2xaUUNsRmpNZ3RTTFBLckt2aDMwZEhyWEZvRThPVXRJaGZJdWdEWGVxZlpkY1dmeENFZExkejB5b3ZiM3cwX29TT1JqVHVTUVRTdEtkVFluRXlxWFUzQ1dVbHROckU",
     "CBMi2AFBVV95cUxOWEhFdlVfTFRaNWo2dFkwYW0xZ2MxbHc4MS01bHIwOTNPbnk5aVo3VXNoODBLeEhOZV93dDdROWtqMklDMDVCT3pYeUszRUJ0aXlVUXdUeF9kMUppVDhTRWVabUFoVVl1empyN0NyZVhrWE9aQ1lzUWFtcW1qeVRqS0lrSnhQdkg4ZEF6NWlOSGEtRUN3NmdQdF9jX3VjTWQ0VFVMYUJwN1hiaTB4V045aktVdnpiY3lVeDRxWE1GVWhPY3M5UzhibTFmMEhUUUdkYW9icGRQTzU",
     "CBMirAFBVV95cUxQbVQyemtIX18ybGIzbGNIVERnN2xxYjQ1dEpJT0VtTUUtZWVGLW90M1N4STBfbnVic0xKMDVLOHlLRnZRYkdLSDRHOEdsc0RFa1JJeUVoZkZqU3Q0MldybDdvZDlpS2xndEtobEZNb3NkOFJPZWhKMG9CV25lVUx6MmY1VEtJcTlXU0JDcUhzRXhxcFFpdFBqbTRzcm82Xy1tVTRDY05oaHlNYTFF",
@@ -3312,7 +3311,8 @@
     "CBMikAFBVV95cUxNUG5kXzRiN1JRbHhzQ0cwdkNmZ2ZROUI4N3FseTdvUWpKZksyRGNyZmtfaXlJMUZ6VFR0UDQ3S29HenZpTmlLWUFxWm52N3ZjWEVoZ2RnZGpJX0ZhdWZPUEZRTVFTdTlya0huanRpRDVmeXkwTngtNjBXaHotSXdpVFlubGtyV2otUVp1dkpSQnI",
     "CBMi2gFBVV95cUxPMF9vLWZxTXJ0RUJwYWJpWUR4eE5aalpyYnhKT1Uxc3oyVFNERzMxbk42SFF0anNPQWxOUTIxMm93UlZQR1VCanBrZTRyenRwRDJWQm55OTJMa0lIS2NHQTZ1YXExWE5VeDZZUzJMTDFPWkVTb05xNTM5Qk93NnpBYlVhbWt4eE9hYkFrck9uUUp4UXRieWotcEQ1czFYNXNkcXlaRG84VjRsdlUxODZPTDRYY01HRHMyYUYxZzZXQ1VnMjlQbi1QNVVVVWg1Q2llQkY5VkN2QUlPQQ",
     "CBMiggFBVV95cUxOOENhN29HM0lYTzNqYS1zb0FGckt6V05wLURPbjgtUGZ1bmdheWtFdzI0MnZkQk5VWHA2dExKbjhvckRyWEVfcXdRbmR1UzNYWXVvOW84WjFRc3E3RHRNU2FRTE55MXZIdzZZM0pGUXMtT3RfaWNUNlN2WVlBOHpxeDhB",
-    "https://www.mmafighting.com/?p=506430"
+    "https://www.mmafighting.com/?p=506430",
+    "https://www.mmamania.com/466655/highlights-open-ufc-sacramento"
   ],
   "daily": {
     "d": "2026-08-22",
