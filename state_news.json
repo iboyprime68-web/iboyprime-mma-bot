@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Josh Hokit wants Tom Aspinall stripped, vows to 'reset' heavyweight",
-      "ts": "2026-08-21T22:50:00+00:00"
-    },
-    {
       "t": "Tyron Woodley Says He 'Never Retired' From MMA Before RAF 12 And Khamzat Chimaev Wrestling Run",
       "ts": "2026-08-21T22:52:44+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Andre Fili vs. Kai Kamaka III added to UFC Vegas 122",
       "ts": "2026-08-22T03:13:53+00:00"
+    },
+    {
+      "t": "Highlights: Blue Jays at Yankees (8/21) Stream of Major League Baseball",
+      "ts": "2026-08-22T03:15:13+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Ketlen Vieira Shocked UFC Cut Her",
-      "url": "https://sports.yahoo.com/articles/ketlen-vieira-shocked-ufc-cut-171347891.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-21T17:13:47+00:00"
-    },
     {
       "title": "Alexander Volkanovski reveals what it would take to retire after UFC 333",
       "url": "https://sports.yahoo.com/articles/alexander-volkanovski-reveals-retire-ufc-202030227.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-22T03:13:53+00:00"
+    },
+    {
+      "title": "Highlights: Blue Jays at Yankees (8/21) Stream of Major League Baseball",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNDQ4cWROelotWVZ0TUV3SlVONjBWVHc4T0pCRFNrU1ZuSnRRYXl1bTVzRnE2LWY1WGhBcDMwMGI4MFlfdW55ZW5qTm9DUUpOTHMwdG91X09UNUw4bGVBYmF0SHBEUThTTzVPb3VrbFQzT01hTWU5LUtHbmxMWnE4bWhOdw?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-22T03:15:13+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMi1gFBVV95cUxPSzE0UEk0UTRkdE5uZHdaUWVPWWZqZ3dxQ1N3V0hSM0s0M1ozVzJ5MjJwcVhuQVROVW9TVURYVVRMdXFZR3IwYWVFdkxfOXRlWE1jNXgybFdQYjdUVVpHMEF4d1NuVGVxQmE5aU41TFc4NEhCMk1PRW5mZzZuT2pGaWo5Njloa0VmWWJ1ampURl9WQklpWUVjcjc1NVJiVXZlRXhQdDhqbFRXOFpIU0FBVHdXUWs2d1V0T25ia0FBN3BSdVRmbi1OWkViN2VaUjliR1Utd2Jn",
     "CBMib0FVX3lxTE45UEFEa0w0RFl3bTNMUENtTzJaaVE4LTRXYV9lSWo1eHJ3YTdpSTBnYmE0Y0hmZTNNSFlEdll1enpHaU84N0dyTHNIMHpaczF4YU5xMkVWbk1Lb3NtMDI1RWJQWU1peVFlX21peGpzYw",
     "CBMihgFBVV95cUxOLVNuZFdGSENUSkgtc3o0eEpyd0pRYmUzT3lUVjFkblJrZ1I1dEJDZkxXZHkyVzlqaWZuM3d0WnRDQUdlcU1WSzg5ZUxsUWhieUE2SENYbmlzSFFYR3IxQ1N1ZldTZF95TFZrRjZUSmNzbGpHUm85SG5Ib2VBVUkyQU9jMENuUQ",
     "CBMiigFBVV95cUxPbEVJOWpITFpLOTRvOVY4Q200M0ZBNFFkamlsNjI5cWdwZm1mTHZQTV9OTGZZLVFUUEM4Y1hTbkRhQU9lellyRHdod3J5RlpxZXJHOGo4Q1hGUmQ5TmhXOENYVWxTQlUteVZnYkp4R1RkY0NkY2NSbjJQWVl4bFJMQUE5MWc5SUpUcEE",
@@ -3312,11 +3311,12 @@
     "CBMihwFBVV95cUxPV0IxaHVaSVViclVxTWd5ZUtQU0x4bnlDQV94ZzZzQ3lYa3Vzd0Item80YWNKb0lIQTVwdmdBVFlFTlNycGw1bE92M1ltNU52aU9UY3pTLXlWdXc3YWZLdXdBU21jUmEtQXNMWjBKQk1meGFLaFdVelpmcWtsOTV2QnFqUGZack0",
     "CBMirAFBVV95cUxQQ3JYSUpXN0JtdU50RmJhREx1dENJM09tVTJ2UjE2Sk9uLW00ME1QS18wMlpTRGFNVnUtZFdCNzEwUkZaQnZqaHZfRHdLR1dxMVlmb1NtelN3elh4VktvSElIX0Q1LVJkelozTEgzeTM5ODNFaU1yeHpuY0tncC12RkhkLXhETFdET0JIWVpJSVZrNFNJUDVHNVl4TXFuLXR6UmFSbXlVYjgyQVc3",
     "CBMiTkFVX3lxTE11aXpBeEhnU3J4ZWhXbzNELXRmdUpVQmwzdzFSLUQ3T3BFaUVZSmVlemVxWjhlY2xWZmRsMEVJcnc4ZTl4Yzh3Wmt5Sndkdw",
-    "CBMigwFBVV95cUxQTm5SeEJRT0pEV2d6MVVKRzl3b2k5WjdLS29XTEFjYTBmVWpCaklNNFRmX3h4QUVjRFVGbnVpR1o1Z0REY2VKczFiUlBaYjZPbDRyOTF0UmVRZ3ZQUU5tYzl1YmdpMHBtTUEwSmM2T1A4SVZ5ZGNhYmlZZkpObmo5bFJtTQ"
+    "CBMigwFBVV95cUxQTm5SeEJRT0pEV2d6MVVKRzl3b2k5WjdLS29XTEFjYTBmVWpCaklNNFRmX3h4QUVjRFVGbnVpR1o1Z0REY2VKczFiUlBaYjZPbDRyOTF0UmVRZ3ZQUU5tYzl1YmdpMHBtTUEwSmM2T1A4SVZ5ZGNhYmlZZkpObmo5bFJtTQ",
+    "CBMigwFBVV95cUxQNDQ4cWROelotWVZ0TUV3SlVONjBWVHc4T0pCRFNrU1ZuSnRRYXl1bTVzRnE2LWY1WGhBcDMwMGI4MFlfdW55ZW5qTm9DUUpOTHMwdG91X09UNUw4bGVBYmF0SHBEUThTTzVPb3VrbFQzT01hTWU5LUtHbmxMWnE4bWhOdw"
   ],
   "daily": {
     "d": "2026-08-22",
-    "ai": 60,
+    "ai": 61,
     "staged": 5
   },
   "staged_hist": [
