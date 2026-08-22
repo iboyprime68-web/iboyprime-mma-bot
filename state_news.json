@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Tony Khan Is Unsure About Ilja Dragunov WWE Contract Status",
-      "ts": "2026-08-22T15:50:06+00:00"
-    },
-    {
       "t": "Serrano draws 3.4m views on TikTok for 50th win",
       "ts": "2026-08-22T15:58:37+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Sean Brady aiming to score upset win over Jordan Burroughs",
       "ts": "2026-08-22T19:30:39+00:00"
+    },
+    {
+      "t": "Michael Bisping warns Arman Tsarukyan about \"mistake\" Michael Chandler made with Mauricio Ruffy before UFC 331",
+      "ts": "2026-08-22T19:45:28+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "‘Let’s beat the hell out of this guy’: Lerryan Douglas celebrates working with ‘real fighters’ like Marco Ruas ahead of UFC Sacramento",
-      "url": "https://sports.yahoo.com/articles/let-beat-hell-guy-lerryan-140000295.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-22T14:00:00+00:00"
-    },
     {
       "title": "Lucia Szabova signs with UFC, battles Lisboa in October",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZDduRGZFNVdTVUJDcWxYZ1JvMTJvbFNQYWpaakJ6ZDVkVkhRSkhSOFpNNTM3MjhUNlNhSDFDa2ZaX1hGMTFqVzBxcWo4b2pBWFBMY1dyUDB0cFBMd1VBTkxYQXNxRWsyQ0FxYjJqQnhTbWRuNjdNd0xIMG1ya0dpNVY3ekJqNmhZai1XWkk0dDNidnpa?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-22T19:30:39+00:00"
+    },
+    {
+      "title": "Michael Bisping warns Arman Tsarukyan about \"mistake\" Michael Chandler made with Mauricio Ruffy before UFC 331",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZHIzMmhiX0lDeWVWNzlETjVJZ3hFUlJEeGpYdXlRaUx0RXN3VFhfQ29TNWNLckhQa3RSbmc4T1psenpweGVhcXp1bjlHMjl6NFNuS1VRLTdsY2lvQkppNTA5RzlZZzZYSzRFU29UVUI3OHJPSTRnM0hTVDg5YjRaRE84OTQxRjZWSEVGYkJWcjhzMXh4OFJuaWpfeFZzUF9lS0h5ZHJOMlF0dFMzVloxLWg5cG81MFFQVF9qOGNDSDA?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-22T19:45:28+00:00"
     }
   ],
   "digest_last": "2026-08-21 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMicEFVX3lxTE04SDZiNlVGUjV4ckJoOGVXMWxMS0N5MDFvQi1sTXgzc05JejEwQ0M1eFUwN0t5MXhjTlpkckNrXzRuZFpNZlV3VUVIVG1QTlB1WXp0VG9UdUw1eU14Yjc4N3F0QVVVaUxLQTVsUW5MWmQ",
     "CBMiwgFBVV95cUxPN0NZT2FXcWFqc0RPaExFTFBTcWFfdXJhT0V4bTQzQ1JQNnNPSHNZUGxPYjlRTnlLTDVxWXlZbmJCTXd2V0Vzc2MwaURCdUlfdUNSb2g4Z0JRRmNzN0ZnbG1vUkNXNnRxRU8zVXlxSEN3MjVHLTk0Y1BKVDhSNzdtV2VmeEY2N3JrSHVreHlhMURwOWNiRi1NbkVuNEUxREVVZEZsWnNLeW9zS1p6b3RvVUhucUYwdzZHMkpUNnlMUXJIZw",
     "CBMiigFBVV95cUxOQ0tOZDRHVFhDZjZodGRsUlJJTnJvak5tM2ttdGd1OTRVZVh6TTFFZHc4VFpQVmJuTW5VbVBqSVE2QUFwYk5DeWVrV09ISC1WbGdVX2s4ZEtEcGhLdURaekoyMTNwSTI1d3BPcHZLbk91XzN0eXVUUTk0eHYzVUs0RnFuVU50SlVXYnc",
     "CBMidkFVX3lxTFB1Q3cxZXAtX0dvdldUSGdEN2xTeXFaREs3ZWlfdVBSNWx5dHNic2YtQ20wQW1QamV2M0pLNkhEWUo5S21vUHA4Mm9OdGxDcDlUaEJsYVhqYzVPZ0h4bUdlZi1jLV9yOFFRZnpkcTV4Nnl3VHp3UFE",
@@ -3312,7 +3311,8 @@
     "CBMiXkFVX3lxTE9oWDRxWmRRS0xsWjEyR0FRUWlYUEdnUE5DLV9wekM4QkhHc3g5WktsYmZTdHZxdGl3cDZ3NzN3eU1SdUlHRTFzaWIyRUhBWFFZajV1bmJrY05DQ1RMWFE",
     "CBMizAFBVV95cUxQOTlZQkFINVUzZVVfT1Qzc190d0RHdUcwN0MwWWllY3JfV0UyektLTjlEZDdtQ016MTlKQjU2VzdXVk9zOWZCS3ZZMmduSnVOWWQtZEs1eVp2YWszYkFZZXhkcFUza1ltdG8xSHYtLWpIVWhMZ05uUGtpcDBmUHdxSndvQjdpRExZQUdUOVdFSGQ5SG5LRUwtUzdVTm5iYjI0TldTWEY5V0hKUlhWM3E3Q2M0VFNsMXp3VmlWRWhlX0hCV19jZ0xITTcxQjQ",
     "CBMizAFBVV95cUxPc0FOREV3eUhaZC13SnpHcHNxa3liWFFYVjlfbG1EMmROLV9LaWdLODdzOGhiZG1KX09Wd1d1UEEtUU9Gc3JaZEFxNWl2cGlXMGhFQnJGeWJycjc2djdER1FQdWJQRld5VEYxVWRlcm0wSm1FSTlNQWRuRTh1aUw4b0Y0M1ZwR0JlQUJ1cXY4c1dHRVctNHc1dllLTUZabVVDamhLT3pLRnVkZUx3R3lfeDV1RHlFS1FkMnpvQUg0MlpDOXFwVzctSENQR28",
-    "CBMiiwFBVV95cUxPQkZGWmFpclM0bkxUejJqNV92UmV6RWxoa0VtMEkyTFMyYlJ3WEpINzJ6LUI5MzFDaDFMWnNldUpJNTRFZ1RjSEpnME4xQ1JWU2hZMURWUW8xclNOc2VkSHJiODBobUhhSkt4RXpzYnlyd195Y3dDYnFnUTRLd1c1ZkZIbnFoOTFwU1Q0"
+    "CBMiiwFBVV95cUxPQkZGWmFpclM0bkxUejJqNV92UmV6RWxoa0VtMEkyTFMyYlJ3WEpINzJ6LUI5MzFDaDFMWnNldUpJNTRFZ1RjSEpnME4xQ1JWU2hZMURWUW8xclNOc2VkSHJiODBobUhhSkt4RXpzYnlyd195Y3dDYnFnUTRLd1c1ZkZIbnFoOTFwU1Q0",
+    "CBMiwAFBVV95cUxQZHIzMmhiX0lDeWVWNzlETjVJZ3hFUlJEeGpYdXlRaUx0RXN3VFhfQ29TNWNLckhQa3RSbmc4T1psenpweGVhcXp1bjlHMjl6NFNuS1VRLTdsY2lvQkppNTA5RzlZZzZYSzRFU29UVUI3OHJPSTRnM0hTVDg5YjRaRE84OTQxRjZWSEVGYkJWcjhzMXh4OFJuaWpfeFZzUF9lS0h5ZHJOMlF0dFMzVloxLWg5cG81MFFQVF9qOGNDSDA"
   ],
   "daily": {
     "d": "2026-08-22",
