@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Liberty's Momentum After Winning Commissioner's Cup Stream of WNBA",
-      "ts": "2026-08-22T20:14:14+00:00"
-    },
-    {
-      "t": "Official Scorecards | UFC Sacramento",
-      "ts": "2026-08-22T20:22:45+00:00"
-    },
-    {
       "t": "Prelim Results | UFC Sacramento",
       "ts": "2026-08-22T21:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC Sacramento video: Shamil Gaziev shuts off Kennedy Nzechukwu with one punch",
       "ts": "2026-08-22T23:21:00+00:00"
+    },
+    {
+      "t": "UFC Sacramento: Shamil Gaziev Floors Kennedy Nzechukwu with Single Punch",
+      "ts": "2026-08-22T23:23:59+00:00"
+    },
+    {
+      "t": "Lucia Szabova signs with UFC, battles Lisboa in October",
+      "ts": "2026-08-22T23:25:33+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "How Good Is Gregory 'Robocop' Rodrigues, UFC Sacramento Headliner",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPY1BUMGh6MjdCX0ZIcV9sUHVNYm9WYzE2eVZoNENPa29XaHVHcEZjV3F1eUY4dTJjN3R2M3FoRTYxMzBKdTdVYXZEMWpPQ2NJai1meFVfa1pmaWFleVI0VFRGQUpKa2ZtdF9hU2wtUk5DOGJ5WHRVNFJleGY2ZGdHdWp0ckp3V0U2NVE?oc=5",
-      "source": "Yahoo Sports UK",
-      "cat": "ufc",
-      "ts": "2026-08-22T22:11:02+00:00"
-    },
-    {
-      "title": "Frankfort grad improves to 3-0 in pro MMA career",
-      "url": "https://sports.yahoo.com/articles/frankfort-grad-improves-3-0-221700374.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-22T22:17:00+00:00"
-    },
     {
       "title": "Vitaly v Larry Wheels and Austin McBroom v Temper LIVE STREAM, results and more from Adin Ross’ Brand Risk 15",
       "url": "https://bloodyelbow.com/2026/08/22/vitaly-v-larry-wheels-and-austin-mcbroom-v-temper-live-stream-results-and-more-from-adin-ross-brand-risk-15/",
@@ -2105,6 +2091,20 @@
       "source": "MMA Junkie",
       "cat": "ufc",
       "ts": "2026-08-22T23:21:00+00:00"
+    },
+    {
+      "title": "UFC Sacramento: Shamil Gaziev Floors Kennedy Nzechukwu with Single Punch",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUnBITXVnUGlyMG9LemFoVVBvODV4VDBjSVcyZXE5V3BmLUN2cF9MT2F1RWdSMUNORUZzdGs4V1EtMWduYWxoY1cwMVl4MGhVOV9ZOFFqYThUblluVjFrTHRvekxVdDE3THk4WlMzYkEtZVhTUHVzUzlQRW90LUxJdTBzcFppdGlocWc4bU80eTU4dGVsamNWTUxjTHF4MlB6UU9jaXY2bEpwLTY0SXc?oc=5",
+      "source": "Cageside Press",
+      "cat": "ufc",
+      "ts": "2026-08-22T23:23:59+00:00"
+    },
+    {
+      "title": "Lucia Szabova signs with UFC, battles Lisboa in October",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZFlWaVpuenE1VmtTc2pmMFdtMVYybXQtSUlCME9Na3Z2ZTU2bS0ya2VHQVFSTUg5dkFmY0lOaTN2TnZoaG5vYW5OeHF2WHRyQnFCRW1FTG5ZaEk4a2Q4Tkl6UkxObjNiNFBuak5OWC12YW15azVjcVBKRDdXMjM3b3RqMURLOUoxeV9RQjVCMTJsaE5YYVE?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-22T23:25:33+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiiwFBVV95cUxQU1pWYkR5SmVlWEZReFoxZEJmV2FXaHdnOU8tZF9LaWEyZkhXdDk1R0tYTmhZUDRBZldpVWNwd3A3RDJlU1M0MXFFTDZCa1VCOVZIbVVkTkRtaXhJc0pLb1JFQ3BILUVtUEZfRkx4U255ZkZIcWZBeEdjc0tOcmxyejMyRkVPQ0JCdjQ0",
-    "CBMi0wFBVV95cUxOMjY1VmxNeWFWd0xJNFFaTFloRWZHRnAwcjFyQ2dHTXdVVl8xY19mb0FXVkN6UklRUGE4MmNMNmlkakFGZ0dBMTdOWF9meVdwUGg0ZjhBR1RGOUhJTTJ6d0NEWGduYV9uOWMwbFo3UDBBcGFWV2NJZWJnclVhY2JBNEh4T2xTaHJjMEsxcWlmc3NRMUFTY1JjcDkyQnI3cEVGMFM4QVlrUlRQNEFnY1hIOFJZNk9yRlVLdEJ6bWljeEhEbjFHa184b0tlZ09feE5SVmlN",
     "CBMijwFBVV95cUxOTXlCOEVoSmRfblhvR0JrazJuNDB4LXQ2cGREY3NjTkdqTXZsY3ZScDh3QUZJNVY0eV9XdE80emxYNnJkUndMb1NsSmwtbTYzbDl6Y0N4VHdXYi1uWGxtNWVKUEZ4VVJ6dTZtLVYyUlVvSFFVbGlEUmRORER6X1JIS25ORVVieEhWeTRmLThxbw",
     "CBMijAFBVV95cUxNUEJPSHRjM3dmaTdBMHFiQ2liTGpQeGxQVWYwVlprbVNyV3Y5NS1wVkhjTnd2OVZQUUVnbS1URGRaRThYTHBXMWliSmJfcWVuRURfazJVMVRITnZ3azFoektiTHE4SzVtNm9ZRkJ4Tk81YUN2RDNPVENJeVpwQVNPTjJKT3R1MTJSTjdzSg",
     "CBMif0FVX3lxTE9OV2hxbFdmUGloeDBDZzdvejVwTVNCczcyU1RNcXJOc3dsWHNkVDMxVmJST2FQajBBQi1DaFZKZGJFUVQxeU9peWdjaDFiVjA3eENBZVd0RDRyeDBNV2syZzJTb3Rhdl9VWGhHd0hvc2hpYlU4VzJWeG1jaGhMSUU",
@@ -3312,7 +3310,9 @@
     "CBMiR0FVX3lxTE54Ri15VlZRb25KM0x5RS1MQy1uWXM4M0ZnZ0dJMndtRHZFX2JPNHZURC1LMHlYdldBckhlc3lKc0ZzN1g0SnVj",
     "1cfb51bd-3d45-397f-853a-da9cb7435a25",
     "CBMiwwFBVV95cUxNbjRHYzczLWVzX1VvY3d0a2o1azY2dFk4LUxsSDBoSjlEem5UcVhfajAxTXhhQ3pqVVhuYTd1MzhHdERrdEFYd1dTWTNILXZPNnVrR2l2cElEci1SVFVWeTdsb1NHbXRCMXZ5RWZYUXExX3lpcTAtc0MtMVBscWJRbk1JMk1Qd1BZOE1lenBWOGRwMjhOWUwycm1feGl4eEZFdXJKeG1PUG5FNkItSUI2YVFtcUEwZG51dWJ0RUgwYnJkSW8",
-    "CBMi3AFBVV95cUxQenlsVFItN3oxUjhqMzI2c0hjSE1KM3B0a0tWMnpjeC1IRjJQRnZPUll0Ti1FWHk3d2UyWkp0QzhiLTVzMmY4enZibHk4VnlITERhTUdNaV9BLU16X0ZORW9NNEZJbi1jX3FaaEVSTDBmSEY5SExrMHRQQllCNXVHRDJDM2p2LThtNEZ0RWtKRVh3c0tZcTF4SlJHMzBiVDhIXzBRQ1pBTWxSTnd6VERvMUZHanZUN3BCQWdzdXRzR0E0OHpFcXU2Q1JjeTY4ajRKaXM2T1dLSnVpSG1G"
+    "CBMi3AFBVV95cUxQenlsVFItN3oxUjhqMzI2c0hjSE1KM3B0a0tWMnpjeC1IRjJQRnZPUll0Ti1FWHk3d2UyWkp0QzhiLTVzMmY4enZibHk4VnlITERhTUdNaV9BLU16X0ZORW9NNEZJbi1jX3FaaEVSTDBmSEY5SExrMHRQQllCNXVHRDJDM2p2LThtNEZ0RWtKRVh3c0tZcTF4SlJHMzBiVDhIXzBRQ1pBTWxSTnd6VERvMUZHanZUN3BCQWdzdXRzR0E0OHpFcXU2Q1JjeTY4ajRKaXM2T1dLSnVpSG1G",
+    "CBMirgFBVV95cUxQUnBITXVnUGlyMG9LemFoVVBvODV4VDBjSVcyZXE5V3BmLUN2cF9MT2F1RWdSMUNORUZzdGs4V1EtMWduYWxoY1cwMVl4MGhVOV9ZOFFqYThUblluVjFrTHRvekxVdDE3THk4WlMzYkEtZVhTUHVzUzlQRW90LUxJdTBzcFppdGlocWc4bU80eTU4dGVsamNWTUxjTHF4MlB6UU9jaXY2bEpwLTY0SXc",
+    "CBMilgFBVV95cUxOZFlWaVpuenE1VmtTc2pmMFdtMVYybXQtSUlCME9Na3Z2ZTU2bS0ya2VHQVFSTUg5dkFmY0lOaTN2TnZoaG5vYW5OeHF2WHRyQnFCRW1FTG5ZaEk4a2Q4Tkl6UkxObjNiNFBuak5OWC12YW15azVjcVBKRDdXMjM3b3RqMURLOUoxeV9RQjVCMTJsaE5YYVE"
   ],
   "daily": {
     "d": "2026-08-22",
