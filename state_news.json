@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Tyron Woodley WINS: UFC legend scores first victory since 2018 in RAF Wrestling debut ahead of Khamzat Chimaev test",
-      "ts": "2026-08-23T00:45:18+00:00"
-    },
-    {
       "t": "Complete UFC Sacramento Results & Highlights: Gregory Rodrigues Outclasses Anthony Hernandez, Wins Fourth Straight",
       "ts": "2026-08-23T03:12:08+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Anthony Hernandez Accuses Gregory Rodrigues of Cheating During Epic UFC Sacramento Showdown",
       "ts": "2026-08-23T15:18:22+00:00"
+    },
+    {
+      "t": "Willow Nightingale Sends Message To Mercedes Mone After AEW Collision",
+      "ts": "2026-08-23T15:34:59+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 334 Hits Madison Square Garden As UFC 335 Lands In Las Vegas To Close 2026",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV25lYUNiVnV6UFd6OGtyZU43TFpYQkZPOWplZV9EV1ZJbnV5SHNnNnVGREd4V2xIdHdzRHg4Y0ZYUGVxLXZJRmdORzlLNUIySFRDQUM3bFZRUU11ZXNUVkE2QjhGV2NtbW5IeS1zYUVDWG1IR0V1Q2pLN0w1UGxsVUlKNi1YQklGZlRBM0xB?oc=5",
-      "source": "MiddleEasy",
-      "cat": "ufc",
-      "ts": "2026-08-23T13:59:29+00:00"
-    },
     {
       "title": "Gabe Silva Knocks Out Kimbo Slice Jr. In Round 2 At Brand Risk 15 – Highlights",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQd3dva0JRNzdYWTNiR3hHaE12QVFJOU8tSmI0a0dFM2dzaHN6WFFIZWpza0ladEwzU2Z3T0hYT1ZuUzJBaUM2THN5WXJ2b1Btd205Mi1KV2tuQ09PdWFTOHVVT05XZHRxaXF6OEJPT0FYdjNkNVBuOW52cG5oQmZtNFEzMG96WVBZTV8zWQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "NY Fights",
       "cat": "ufc",
       "ts": "2026-08-23T15:18:22+00:00"
+    },
+    {
+      "title": "Willow Nightingale Sends Message To Mercedes Mone After AEW Collision",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ3NPeE1yOWNKYUl2Zi1saTI1VW9WcmpkdFBpUlVKRUdESkFvZ3FlUlRLdGdwaU13ejZINE1CZHNuZUdXNEw1YWFLVTU5LXR2Nk9kdnI1SUNqaS0weld5WmtnUmNnQmF1YmlmUUhWQ0gxRWxzQnU0X09Tdjl0T0Vmbkp6UXBFeFFSaXY4T2FJdUVlQnhVSnJlVkhQS2otVWNqa0E?oc=5",
+      "source": "411MANIA",
+      "cat": "ufc",
+      "ts": "2026-08-23T15:34:59+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiX0FVX3lxTE91VG51dHVuNEtZdzJRTzZvYjk3clhJMXAtS2J2dHRWNXFCV25PeWdQbzdVaFdZS29CNTRxVWtTekpwY1VyOXdVdFpWQmhVVGZsTFR1WHk4Z21lTmk2RC1z",
     "CBMirAFBVV95cUxPU196SDI4dmpvckJVcjE1Z3k0a0g3aWowdzJCQ3Bjd20zYkFTU2pkVGdXd2FtZlBvZkdEM1RyTjRBM2laVHBHZ0g3Q3k4elFDMkVlU25RYkZ3SWVXRXpIUGRmeXRUZkpfVHpMZnE1QzJkZ1ZkN1ZxM285N3BmcW5Ia2J0Sjl0MkpPRHExR095RFdaWFI4VmlRd3hFc2J2c3k2SlN4MjZEZWx0UHN0",
     "CBMi0gFBVV95cUxNRzdvaGtQd2h4VTlLeTctcmJLX250NklNaGJzaHAxay1MOW5vZ3VFRGcxU1RwR0lZdFd0MmVYZWdiQWI3TWx2TE1RWlpzVS1XX0xsRVFhX2NaVG4xZ014TllHNlgxMTd2RGZCbXRqQndudzlGM3NENkc0Z1hqNGkzSTAyY3VBZ0pCLWF3VW4wMFVzQ3RtTmhlV3FfSUgyRTFGd2I4Q1FFLS0tVFQ2cjZsZS1fb29GTXZiOXRHYlBOVTY3ajViVFNzUnZYZVg1YXF3d1E",
     "CBMi4AFBVV95cUxPbWZ3OUVxalNBVy1BY3NVeF83VUkwdjFnYi02LXNGekFET1V2N2dxdVUtM1cxRWwzdXpBSzRpMkZIOHJacDJNWkZpV1JSZ1VCMzNCVjV5aC1zN1Y1VXBwX0FvbjZIWUZhM09SMU1Zcmt1N1FuTVgtRmhVVGtXenY5MDlKeV9pblp3YnlnOUYwV3IwSC0ybjIxbXExYXlXVVZEdzhDZFlBUzE1V25mU2RxR21PcFpIS3dYUERSa1dQVWcyaHoyczF5WnpOb2x1Z0lFQU5jOFE0M3poTjdhZ0pkWA",
@@ -3312,7 +3311,8 @@
     "CBMiuwFBVV95cUxNSjh0bkhJbG1UeTNTTldCaFhySGh0czlDeWgtLUNvbjhacWVwclMtQ3lzamRJcVpTS3RxUGlsNEZmV3d3dFF0WFhZT0dpUm0wa0p1S200YkpSVnJpR3RDdC1nTHVDdHcxM1dpZWVuZjUwT2ZBdnluSERpN2dQQjZEVDFrU05RbHdVZHJybmFQdHBkLUpNZTRvTjQ3dVNrdC13UXdBVDNic3J0UVpCR1Z1d1paTXBVUjN5LWFr0gHAAUFVX3lxTFBRZ09waU5KSU1sSkVEdjR1Tkd4NVlsRTFjUGVJbFFsbkxFQi1XWVQyMlNfNnFfdFJ2ZGRHWTlrLThxMktqZnBacnpXUkI2cEtveVltV3FxOFV1bDRTOVZMZnVCMjJCQTNwZjVnX2V5UW5oenBhejhDVnhKNjhRLXNXVXpHY2NzdDhuem1uZlBLMGJVOW1LTHdFV1pJVkJuRGQwTk1Ba1NHWF9hMUs4SWo1WHliTzNwUERkNzh5Sjl1UQ",
     "CBMirgFBVV95cUxQUEctMUFlSzQzalBuVzhYcTZNLVcxYzlkSVhrcGRRdnotQjBjajNGOFQ1SFN5RTRKcUFzNFozQjQ4Z3lUWUhFemRsTGJaYmptRnVoalFCbDl5LU5MVF9Vb2NQTi1XVmhrZkxsZzVCQ0Z2SjFEa1BRa2VFNXlNNkMtMXFXNVNFS1F3ak44OVE0Ymc1U1M0WGJKd3FXRVllTlI5WS1PY3l5bHhfRGFHamc",
     "CBMifkFVX3lxTE5MeGJPTUhZS2lHT3JqQ01hVGxZS3E3R05JVXJFY1BienlmdGpnRk9iTERSek94MHBVZHNFYUFkYm5mQkNuU0xnaUZxOUNUUHZ1UThTdnRnT0RRMU5hOFE0aHgwSXlZaEIwX2VyREpSTDdtRDlCbm9VdlY4VWZydw",
-    "CBMidEFVX3lxTFBYS2RWY0l0eXR0ZGxCSXBOU01Ld3pXeWliSjJNaFZQczJ1TGYzVmxlWkJtd3V3N29TbE9ELVZmckU0UG9pTWt4bmdRTUJhLWoxWmlkQW9ZdEpNd3hqMEtrbXR4djNHck5keFJfTU1OUlFJZHVh"
+    "CBMidEFVX3lxTFBYS2RWY0l0eXR0ZGxCSXBOU01Ld3pXeWliSjJNaFZQczJ1TGYzVmxlWkJtd3V3N29TbE9ELVZmckU0UG9pTWt4bmdRTUJhLWoxWmlkQW9ZdEpNd3hqMEtrbXR4djNHck5keFJfTU1OUlFJZHVh",
+    "CBMiogFBVV95cUxQQ3NPeE1yOWNKYUl2Zi1saTI1VW9WcmpkdFBpUlVKRUdESkFvZ3FlUlRLdGdwaU13ejZINE1CZHNuZUdXNEw1YWFLVTU5LXR2Nk9kdnI1SUNqaS0weld5WmtnUmNnQmF1YmlmUUhWQ0gxRWxzQnU0X09Tdjl0T0Vmbkp6UXBFeFFSaXY4T2FJdUVlQnhVSnJlVkhQS2otVWNqa0E"
   ],
   "daily": {
     "d": "2026-08-23",
