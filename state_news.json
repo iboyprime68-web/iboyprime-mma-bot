@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/456905/the-mania-mailbag-july-7-get-your-questions-in-now",
     "https://www.mmamania.com/456906/ufc-baku-live-results-highlights-play-by-play-fiziev-vs-torres",
     "https://www.mmamania.com/456907/ufc-bakus-best-betting-props-parlays-and-picks-fiziev-vs-torres",
     "https://www.mmamania.com/457045/mm-clone",
@@ -172,6 +171,7 @@
     "https://www.mmamania.com/466585/highlights-open-ufc-vegas-120",
     "https://www.mmamania.com/466588/highlights-open-ufc-sacramento",
     "https://www.mmamania.com/466589/highlights-open-ufc-sacramento",
+    "https://www.mmamania.com/466591/bonuses-paddy-pimbletts-shocking-submission-earns-extra-100k-ufc-329",
     "https://www.mmamania.com/466593/live-watch-ufc-329-post-fight-press-conference-video-stream-mcgregor-vs-holloway-2",
     "https://www.mmamania.com/466626/highlights-open-ufc-sacramento",
     "https://www.mmamania.com/466637/live-official-brandrisk-14-video-stream-complete-fight-card-results-and-highlights-manziel-vs-menery",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC News: Former New York Jets linebacker Anthony Wint notches win in UFC debut at UFC Sacramento",
-      "ts": "2026-08-23T00:34:56+00:00"
-    },
-    {
       "t": "UFC champion throws in the towel after fighter dislocates shoulder at event",
       "ts": "2026-08-23T00:42:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Tyron Woodley Storms Back From 8-1 Down To Beat Joaquin Buckley 14-8 At RAF 12 - Highlights",
       "ts": "2026-08-23T03:43:42+00:00"
+    },
+    {
+      "t": "Bonuses! Gregory Rodrigues banks bonus $100k for upsetting Anthony Hernandez &#124; UFC Sacramento",
+      "ts": "2026-08-23T03:43:56+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Bo Nickal and Sean Brady weigh in nearly a whole UFC weight class higher for RAF anniversary card",
-      "url": "https://bloodyelbow.com/2026/08/22/bo-nickal-and-sean-brady-weigh-in-nearly-a-whole-ufc-weight-class-higher-for-raf-anniversary-card/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-22T14:30:00+00:00"
-    },
     {
       "title": "Crowd throws objects at ex-UFC fighter for landing several punches after referee waved bout off",
       "url": "https://bloodyelbow.com/2026/08/22/crowd-throws-objects-at-ex-ufc-fighter-for-landing-several-punches-after-referee-waved-bout-off/",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-23T03:43:42+00:00"
+    },
+    {
+      "title": "Bonuses! Gregory Rodrigues banks bonus $100k for upsetting Anthony Hernandez &124; UFC Sacramento",
+      "url": "https://www.mmamania.com/ufc-bonuses-and-awards/466591/bonuses-gregory-rodrigues-banks-bonus-100k-for-upsetting-anthony-hernandez-ufc-sacramento",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-23T03:43:56+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMiqgFBVV95cUxPYVRtNE1xQjJreGF0VUpDWjNEN1A4SEo4aE5FYTNPN0tTcjU2LVRTYWFsSC0xMXhpMnhzWUxCc1JsYUR3N0g4RC0tWTBMdU1UTXp2NWhaUG9LaFc1V2tmY0w4aUwzS3FhSmIybWxBTDJiYXJFY19nOF83LWhWSW03WWxwZEVUalo2QU5TTzl6WV9pQ045a2ZoZ29HdXoyZkloRV8tWTVpY0VuZw",
     "CBMikAFBVV95cUxQMXF2RHlMdEZ4ZDRBeDZ6S1ZNRlo3RTFmM0JLcXBCM29qOVRTX0tBRENQNy1Wak5IMXl3U1hWR2pUcXhROWg3OUFJZE93NHVSVmc0Z3J2NGpqTTljd0ptMU5MakpRc01RT3FNcGpwbllFRGE2ZkNUdkVkal91aXB1MmFYQmlwcUtfZ3cwUGtiSkc",
     "CBMinwFBVV95cUxQUE80dER0QU9UU1pJaVNYemlRTG5fWEFEMDlSRGhKQUlaR2tzRnZxS0FZTzllcUxQalNDQ1pCdjVIZ1hUcGcxMXNna00ycWVDcHF2YmZUdlgwVjlEaWtmZUxQZmF1V25zaUNxRFJ5MlY3LUFHZGFPZ3ZkY3FpVHJyNm9Pd1FjaDVMTFFGUGRzVDhEUktsMzNWZEZ2NFYxOVE",
     "02e8f18c-bfd2-3b95-8ace-131127fa9081",
@@ -3312,11 +3311,12 @@
     "CBMitwFBVV95cUxOM3JDTVk4eThicTU5czNaX3UxRlBGSEZwQkFXVlZFcGxhdGJBclZUVmk5d2VtZUk3TXlmX2ctcWtoM2x2Z0JKOVRCb0lwTjZ5NjVEdTJad0JFN0xXWWh3VlI2ZkFIaXJJMDVGUUNqSnRsaG1QalFaSmdOR3oyLUxMN21nSl9udmJ3dWh0eXNKM2RqNksxZ0F3WUotTHA4Uy15OC0tcTRmUUY3SlZlX2F5cmFLSjZJdVU",
     "CBMiswFBVV95cUxNZ0JMZ0xjb1h4Z0VBSFNINk9mSFFWRkU5NS1VRGh3R29wY1lYNV9QN0VGUW91VUR4WF9TbnZ3eGxINFBBeEdVSzNVLW5hVFppVlFiRDBjRXR6ZzhsX04yeVYxa0pLX084YkNBWmpzM2VBdThDeDd4bUFIUGFxdTFlM3FPZXJIdEhJV0RuenJVQmZLWGFXbnpQUS1URzlPcnlzQWFwWlItZTBpQ3FvWFpFcVpEWQ",
     "CBMijAFBVV95cUxQd2hIMktTUGJURldFMGFTeUZDRU9LYzFoMFJSZzgxOE9mR25Nek1vR2pBQ3FncFRrVVZhbVpOZ25DNl9ZcERESHpNa29tYnA4UEVNWU9ES2c2akZybXBocmJ5MGIwU2hLUHRhWGtIVmUwVkdZUm9Ba09yS1R3V2VWZWhZUnVmbmdQaDFpTA",
-    "CBMihgFBVV95cUxPY2tIMnJhdkFKaDdXOGZ3anh4NFMwQmFiRW50ZWF5RlpjLUxOek5hd0tfOTFTSGNfc3VTQlhBUzNnaTZXd2VKcG5ZVkdwVV8xeTRBc0VyWG9VNi1lbmpyeW5Vd0JzQ3VCTEg0bHY4RmRNYXhEVUpEbjhQUG5BSFRmN2FsRFB5dw"
+    "CBMihgFBVV95cUxPY2tIMnJhdkFKaDdXOGZ3anh4NFMwQmFiRW50ZWF5RlpjLUxOek5hd0tfOTFTSGNfc3VTQlhBUzNnaTZXd2VKcG5ZVkdwVV8xeTRBc0VyWG9VNi1lbmpyeW5Vd0JzQ3VCTEg0bHY4RmRNYXhEVUpEbjhQUG5BSFRmN2FsRFB5dw",
+    "https://www.mmamania.com/466591/bonuses-paddy-pimbletts-shocking-submission-earns-extra-100k-ufc-329"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 109,
+    "ai": 110,
     "staged": 4
   },
   "staged_hist": [
