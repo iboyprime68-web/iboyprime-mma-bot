@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Anthony Smith Back Home After Arrest, Promises To Share His Side Of The Story Soon",
-      "ts": "2026-08-23T06:56:22+00:00"
-    },
-    {
-      "t": "Anthony Hernandez vs Gregory Rodrigues Fight Highlights",
-      "ts": "2026-08-23T06:52:11+00:00"
-    },
-    {
       "t": "Kai Trump picks McDonald’s like grandpa Donald Trump in Katie Pavlich rapid-fire",
       "ts": "2026-08-23T06:29:42+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "ARSENAL vs. COVENTRY CITY: Premier League Match REACTION - Scoreline Stream of Soccer",
       "ts": "2026-08-23T09:20:26+00:00"
+    },
+    {
+      "t": "UFC Fight Night: Hernandez vs. Rodrigues Fight Results",
+      "ts": "2026-08-23T10:13:46+00:00"
+    },
+    {
+      "t": "Trump caps summer of US 250th birthday with auto race through Washington",
+      "ts": "2026-08-23T10:14:15+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "USA Manager Mark DeRosa Feeling The Heat After USA Loss To Venezuela Stream of Major League Baseball",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1BUMVRVVkxoMHdmQmNaeE9KaS1NV3BlZVp3QUgtR1lsOE1uMTNUSU9jRFc0OHFYYmxoRm9iVFNHbzIzYXowWl9qRnZGN3BzOFN5dmZiSGpZbjcyWS1LN25yR0hndUhTYUxMNzdGV2JSMHZ0NmFjZmNSMFhNMlllanpndC0xUVZrMThzQVFmTVcxakotQktnRnlDQU45UDJvYXFhajJ4NFhITjRrTGpN?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T07:45:33+00:00"
-    },
-    {
-      "title": "Anthony Wint",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1kU0lLbGlOT3dXSHg3VURmUzlwbHhWaTMtWkRUSzJpbENxN25FSmZMT3ZUbHJWNlZicGxpOG5UY01xdW5yTVRoeUo1TnI5TmNydFE?oc=5",
-      "source": "UFC.com",
-      "cat": "ufc",
-      "ts": "2026-08-23T08:04:43+00:00"
-    },
     {
       "title": "TKO Executives Attend AEW Dynamite In Las Vegas",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQkZYU3R3SUN4QlpTaXlfNUV3OU1UYmZfLU5PWlZjRnVLa0djYzJWbGR4UkoxajkxT1NXaHFjdXdvTzlpejY2MFlHbk5pTDlmemlINVJWWE1WUldYQWVLajJqRFkzODhsR3FMcmlvRHJWVi11YjZFMDBuMjRkU2w2NGJOaWpPbHM3TVRyUWxUcnM?oc=5",
@@ -2105,6 +2091,20 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-23T09:20:26+00:00"
+    },
+    {
+      "title": "UFC Fight Night: Hernandez vs. Rodrigues Fight Results",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xQnJBUC1YSjE1QkVQUzR6bXBkUmpkd2RPdURNYksyVGFNd3E2WTFfOXpCVkpJeVFGaF9DNVdSNV91SV9wVEJWVFFJRU9LOG41bVFndnVVdWo1UElPbE92V1l4QkJvekM1NW5xUks3Zw?oc=5",
+      "source": "ESPN",
+      "cat": "ufc",
+      "ts": "2026-08-23T10:13:46+00:00"
+    },
+    {
+      "title": "Trump caps summer of US 250th birthday with auto race through Washington",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZHIxUU53bVlRLXJFa1liVHdfQ2ZhVjNFSGhBd0hqUGxmYmNPVW5JZ2pUYllDX1BrdlBxSW9WcDZVajFCdFMtVmU5V05yRXFUb184ZTRQS0s4VEtVZWk2UGxVXzhCbGhuUGpDQWwxT2pYMTBkZVpKM2N0NV9YOFVtTFpaQ0NsTXlZTUxpcTEtLWZkUkRyWUNpQnBLNTdVQzF1SkwzUlN3?oc=5",
+      "source": "WTVB",
+      "cat": "ufc",
+      "ts": "2026-08-23T10:14:15+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2090535779655159819",
     "2090561042925387847",
     "2090573578412449945",
     "https://bloodyelbow.com/?p=328017",
@@ -3312,7 +3311,8 @@
     "CBMisAFBVV95cUxOVDdhT1N4ZVlhVG01dkhhakQ2VFd6YWFMTndnOU55R3ZOSlNEb3QtUC0tM2hJZi0wdldvMGs2TEp1SUl4T3dLVThrd1VkeFVfdG9TLUFMZUVLUWF5VkNnaGRkNWFrMGt1LXNjTDc2YWxxN2phaDM1Q2oyb0MyRnZ3dE8wYkQySTk1VGowMmdCUTAtZGxiNzJFbGdQc0FpbXlyVG04V0hwWjUzaGJHcHlHbA",
     "CBMia0FVX3lxTE5hdEV4T3JpY2RPTHlEUTZYVXEyNVJMUm05Vy02NUZYdnNvTS1JeUdseTFvYlVNdldtYTZPdGVwUTJ5TEF1Zm1xTkRpMHdlUENIejV5VVpwTHZJc1pFNEVkUHd0aDhKem5laWpv",
     "CBMijwFBVV95cUxPWUYzdnhVdEdNTDNEQkZ2bTNUanZrR2hFSnB5bkhqeG9sZ0pCTzAzVWRTX0F1RWdtNGRZOFBISkdxSlZyUXFhVmMxMVZEaDFyU256ejg0WFlXNXBia3dIRGVxU1kwRGl4OVJrb3hUS2dLenU4d1E4Q0VwWnl0VGVJWDJKWmM2TGxJZXFDVGpHZw",
-    "CBMirgFBVV95cUxNR2dxM3dnNFR4elRhdVNQNXZrWGk4SmYzLTVfaGZDTG9nckxxZ1VoMzQtdGJUY0wydU0tVENYSThQQ0ROYWRpMVlhOVpNdnkxaHlNaUpMMUtldzN3N2lUVDlPUkR2Q0xES0VraXYtQ3BodjBqWndTQnZGYkFOVGMwMHNxTEJZcUZDQXNrSUNKZTZIV0Q0S2RKYUpZT0RpNE5KRVUzenMwaG9FZ1MyUlE"
+    "CBMirgFBVV95cUxNR2dxM3dnNFR4elRhdVNQNXZrWGk4SmYzLTVfaGZDTG9nckxxZ1VoMzQtdGJUY0wydU0tVENYSThQQ0ROYWRpMVlhOVpNdnkxaHlNaUpMMUtldzN3N2lUVDlPUkR2Q0xES0VraXYtQ3BodjBqWndTQnZGYkFOVGMwMHNxTEJZcUZDQXNrSUNKZTZIV0Q0S2RKYUpZT0RpNE5KRVUzenMwaG9FZ1MyUlE",
+    "CBMipgFBVV95cUxNZHIxUU53bVlRLXJFa1liVHdfQ2ZhVjNFSGhBd0hqUGxmYmNPVW5JZ2pUYllDX1BrdlBxSW9WcDZVajFCdFMtVmU5V05yRXFUb184ZTRQS0s4VEtVZWk2UGxVXzhCbGhuUGpDQWwxT2pYMTBkZVpKM2N0NV9YOFVtTFpaQ0NsTXlZTUxpcTEtLWZkUkRyWUNpQnBLNTdVQzF1SkwzUlN3"
   ],
   "daily": {
     "d": "2026-08-23",
