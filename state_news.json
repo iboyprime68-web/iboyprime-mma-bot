@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "RAF 12 live results: Merab Dvalishvili vs. Henry Cejudo 2 round-by-round updates for wrestling card",
-      "ts": "2026-08-22T06:30:00+00:00"
-    },
-    {
       "t": "Cyborg title not at stake as opponent misses weight",
       "ts": "2026-08-22T07:27:25+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Gable Steveson Shuts Out Anthony Cassioppi At RAF 12",
       "ts": "2026-08-23T03:18:39+00:00"
+    },
+    {
+      "t": "Gregory Rodrigues And Anthony Hernandez Go To War In A Brutal UFC Sacramento Classic",
+      "ts": "2026-08-23T03:16:31+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Video: UFC legend’s son survives early scare, knocks out Baby Slice",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGUwUUVXY3N0YXdpS0ExZ0FsWFk2YTNOSXBqbG5ydVNLNzF4cEpHdkptWlNrYS1FT045MmlVWmNDOWItMjF1OGhkWGY3clVSd3AtT1hDaDhreDVFc0RhSXltRl9raEM5b2VSb3lBb2JKWGlWY3dNbkhUNUZxcE1WdlJ5RVk?oc=5",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T01:58:00+00:00"
-    },
     {
       "title": "UFC Sacramento Results: Vitor Petrino defeats Serghei Spivac",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ3pkRkJzWXlqaThiQkR1b3F4bTZ2Ukp6MkhkOS1jS2lKVWxIMHpFd04zR2FGQXRmWlFmU0lhTUNTRHYwVXJZVXJ0eXI2RmpaSlJTTk8yR2VfcEpCbkQxVFl5SXdtalZHQUlsZV9uNW8wQXVERHhhNS1OZzBlNzlaYXE3anJpTnk5RngyTHQ1Z0plcllHZDJxUHN5R19Lbm93M0tBWnNkZk1lQQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMANews.com",
       "cat": "ufc",
       "ts": "2026-08-23T03:18:39+00:00"
+    },
+    {
+      "title": "Gregory Rodrigues And Anthony Hernandez Go To War In A Brutal UFC Sacramento Classic",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaTJyY1gycFpJdXdlSFFUdVRNZDNJVTNKUGlLU0pyT2ZLUUhiQVMyb2t6QU03YVJHempfYl9YSVpYdDNBbzBsdVFkSTNtekdKcmxPeUZGRGdxYUdyQjBrRWI2RkRZWjJubEN1eEQzWkZMejIyUXU0Y2M4NGROTTNNYlJzbU9uUllkUjFBSzhlN25UdTJZdHJKeFU0UXVOWTRSLUVvbElObXk4bEE5SkViRXdB?oc=5",
+      "source": "LowKickMMA.com",
+      "cat": "ufc",
+      "ts": "2026-08-23T03:16:31+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMitAFBVV95cUxPbW1fM3JaY051V2dmWHNXNVBtSVVJcG50VndoLWJFdHFPT1ZjbWhNSzRRZnJJSWpvUk1oRXRlb3lkUkJiUEYwRFY0ajQ3ZWtyaWc2dmd5MGlUYk82VndNRlRLdmlGdldnYjhYV2lsSldyTDBLSDNIWThBSWtFRVZKclFxZnZPOUFOR01jMFdZUHN6eUFWOEtVR1FGOUR1aFdEelZvaGIzOVpCOUtyS1FZd2hQdEQ",
     "2090455064397881738",
     "CBMiugFBVV95cUxPaUtBNTJpTXJuRkVXYjUyTGpvS0pFb29Wb0tURWJYV1gwRnNNQ2dYQXprUWhNWWlqZ282ZVE4VlZkMnJqUHZ6aGxoMy1udlB0UzYtTTkyWlUtQXg5UGlSWEpVTzZ1SkVvVUFHUWFFMHE2aDdmYVB0SXZnUmVwMkVyQjUwVUVfV1VYdVVfYkVsakt4X21Hc0ozalYzOVRxMkRydVV5UmR0S3RKTFp3V1lsR01KYUhHOGxvdmc",
     "CBMijwFBVV95cUxNQ0U0ZlRFZzduN3h6RTFnajlDbWFaNU9JeV9mWWo0cHZpN3pSbHc3dVotZDN1WEwyVUlDUjEwQl9fRTNKRmlpVk12bEMtWUlXMHNVMzJiUDFDWmJkSVVDRktBc1FTZkZCM3kwRWdEZzhHbERUMFRubE1obFpjMXhmTzN6NXdidkcyUV9NVUtGWQ",
@@ -3312,11 +3311,12 @@
     "CBMiqgFBVV95cUxQdjFKOE9DNEc4TnNYSkNLLUhLODJIaDRLWmgzMFJnMFIwbWlmUFlKMThQZ2FlXzRKam1ZcmYxekUyNG9lZkRGaWVYMnFBTTVfMF9pS1hpQm4zMEFCM0s3ZzhvVWRHMU5KQTBwOWtYZXgxWlZHMDk3b1pWX2RiMTI5aFVzOGl4MkRfbHpMdk42N29tM0RiZkwtaXBfSG1nelZpWkhCbFJmcFJzQQ",
     "CBMiggFBVV95cUxONGE1em1JUnl6VzVOOU5iVnhTT3B3dmg1SThZbHdlM1ZtYkNEdFN6cjdXcUlMQVpjZWhBZHVaTnRtUDlsYTFSbkxucUR5RGcwd3FoZktPZUZaaE1BUEhZNkxzTC1rRHdWUGdBcEhxOHRlVmJ0Z3RuZU1SaUowZXY0TVJ3",
     "CBMitgFBVV95cUxPTG8wcWxiaTZOTk5Pb25rZ1pXVVpKbHpWeGtlUlRrczdobkhiM0tSVkFVY19rbHRQX3RFQ0VLMlYxV3R4blRFNjZLVGp1dndLbzRPRFpUSURSS0Jra1owZmp4SkNrb0haVlNVSzgxcXFVTGFpVlRXTWs5ckZoMzMxcUZYMzFFS1NvZF9NTlhhYXUtQjNXYUVmZHc0X2w0aXlLOEpiSzJnM2JVU2JIOVRzbjlTUFIzdw",
-    "CBMiiAFBVV95cUxNdDVmQkxtRlA3QVpUWmJxNW1naTJlb05mdkZrOTNsWmJveU5YT1o0a2tJM3dfSGNscWFyTHIwRXhneWFESGF6MnhHWHljc1dLZXRjcEdUeWhlMGg0MVo4cG4zb1VjcklMRDI0M0U2WHdQMVVlMnNsYWljZ2d0bmI3YUt5UE9EZFFF"
+    "CBMiiAFBVV95cUxNdDVmQkxtRlA3QVpUWmJxNW1naTJlb05mdkZrOTNsWmJveU5YT1o0a2tJM3dfSGNscWFyTHIwRXhneWFESGF6MnhHWHljc1dLZXRjcEdUeWhlMGg0MVo4cG4zb1VjcklMRDI0M0U2WHdQMVVlMnNsYWljZ2d0bmI3YUt5UE9EZFFF",
+    "CBMisgFBVV95cUxQaTJyY1gycFpJdXdlSFFUdVRNZDNJVTNKUGlLU0pyT2ZLUUhiQVMyb2t6QU03YVJHempfYl9YSVpYdDNBbzBsdVFkSTNtekdKcmxPeUZGRGdxYUdyQjBrRWI2RkRZWjJubEN1eEQzWkZMejIyUXU0Y2M4NGROTTNNYlJzbU9uUllkUjFBSzhlN25UdTJZdHJKeFU0UXVOWTRSLUVvbElObXk4bEE5SkViRXdB"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 95,
+    "ai": 96,
     "staged": 2
   },
   "staged_hist": [
