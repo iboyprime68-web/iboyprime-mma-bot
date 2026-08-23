@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento Post-Fight Press Conference",
-      "ts": "2026-08-23T03:00:08+00:00"
-    },
-    {
       "t": "Gregory Rodrigues lights up Anthony Hernandez for UFC Sacramento upset",
       "ts": "2026-08-23T03:01:11+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Jordan Burroughs Dominates Sean Brady With 11-0 Tech Fall At RAF 12 – Highlights",
       "ts": "2026-08-23T14:21:32+00:00"
+    },
+    {
+      "t": "UFC Sacramento, The Morning After: Two All-Time Bad Game Plans Backfire Hilariously",
+      "ts": "2026-08-23T14:19:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White doubles down on Ian Machado Garry criticism in new rant about his behavior at UFC 330",
-      "url": "https://bloodyelbow.com/2026/08/23/dana-white-doubles-down-on-ian-machado-garry-criticism-in-new-rant-about-his-behavior-at-ufc-330/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-23T07:43:28+00:00"
-    },
     {
       "title": "RAF 12 results: Henry Cejudo exacts 36-second revenge on Merab Dvalishvili",
       "url": "https://sports.yahoo.com/articles/raf-12-results-henry-cejudo-034707578.html",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-23T14:21:32+00:00"
+    },
+    {
+      "title": "UFC Sacramento, The Morning After: Two All-Time Bad Game Plans Backfire Hilariously",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPLWFRYlRocU5kRmhWQWZEV0VpQ20zUEZVTmZPcVNxQlFiOWtuTHZPTHM0QURpQ2lCRHFjX3VnODNycFBpYmh6dk1lcFR1cnc4UFNkSkVROHpYSXRCMHc3dG1sY0FXSTYtbHVPUEgzbGpKZTY1ZF9TYkEzU1lNb29MSUpDWHl0cHZaYW52Ukh4eVFoc3R6RURRcWR2UkNKTFB5OGJEVnctd2NkbjNHX2lkYllXQkRrWktaWEc1UUdXamVNZ01ZUzVFaVNYQlNTNTZlRWJ6MEN0WQ?oc=5",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-23T14:19:00+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi8wFBVV95cUxONmZaSlhOemZqZ2V0U01wNGkybW5jVTFvaEo4TjA3SnhsdWNwVE93cE1zNGVuX2xRQTlMamhld3JYTFlYdlJZOEV6UXdyZE1DcG1MamE0ZE4tYy0xQlY1alNaNFA4UFFIOGNFM3RzaGNvYjNsWmpfZGs0VzJHMDJINm1YdjVEZ04xM3d6T09KLTZHTDNDNmZUSkFaYXBjdTZGXzF5NjdOWlUtSHNsR1R0N2VkTlkzNnVmTW1sSHhVcnFNektDdDJpVmZGVTVqTDgyNURMemlmTWNqRjduRWtsYkJFR2czdTNxNDAyU0x2eWFISFk",
     "CBMitgFBVV95cUxQcUd3Zl81TFRVM0M1TTdoTVRYc21XOTIxVF9rNWpqcHhzZXZDWVFiMzBrZk1QYldrVkJCRTk0WkFFcl8tZHYxSUZ3ZTZuNkhHdVp4VWhNRmVZMk16SkpGR1VBdm9YaVowbFFBbG5rMjhPY1hOVFVES19mWTZ5cTc3NEhiOHFMUGhYeHR0VGROVllYeW9ZOUdhQmdZNnF4OGF4RjFGekVNTW1ETS1qdWdqdFpzNEdvUQ",
     "CBMigAFBVV95cUxPNVpGMFcwM19lb19meC1sR1N3TnB2RUN4bktQRVRKLXNQSGlnMldRcWt4amdtNjZaVUhNeW1mSE5sd19iOThqaGlfUzYwQl9KVUotb0NLU2ZBdHYtMGZiblBOc2JrMXU4bGx5TEEwQ2JLaTB5dDVqOG5pWnZsdnhRMg",
     "CBMilwFBVV95cUxNbUE5ejIzVFl5YUVpMVA4eEVhaVNuOXVCdEVPM2tFZG56RXFma2tCN2JOZlpESjFMR3lZMC1jZnNjUGpHTTJmbFBXb0ktdG1hNjhBQTdYenI0Mnh4UklLdkZJTU9LS1NsVWYzaTI4TDFkZDFCd3dsQWR4eFZlU0xBeXVZM2RZQURHOGo3YlVuTktGMlk3UGI4",
@@ -3312,7 +3311,8 @@
     "CBMikAFBVV95cUxQTlJvbENYcmJIZThyakFCcmt2V2V1WnNGLW11RWhSWWt2eC10T0NjSVF1RzJxRmZFY0FtdkRQUHJPZ29SaFZHUU1yMTJkSmtWZTFsRWVSSnlBSENDc3FMNEVQSDAxcXRzYlVidDR6YmN1M3Z0MUVqVDBaSkdqSjdtTXY3WkpaQUNHMHd3R3R2U3A",
     "CBMioAFBVV95cUxOOHBKMXpZaXNjUndralZmbmN0LUNneHBVX0lXVy1qemk0TlpTdUdCLVNyUWcxMjgyM3A3WHVYaGtFZ0ZyZ0x3RHBZS1VGeXBDeC1sX2RGZTlMNXJ4UVhmU0RFWWdDaXNrUXhhQ1UyU2V4MTE3ZjJLUDhHbmlOUHBUVnFTbUlCYWxiYzFHV3pRbzhTbW9CYVRQZ1dhLXdQbGE1",
     "CBMi1AFBVV95cUxPRm9DSENUUlhPRk9MeTJ1eW45VklKLXRWMEVsYjBNbENHXzVjRlBUNjlXUlk3Rzkta0N0SXBCaC1KNmZXeWtkVk9JTXVBR2JLQXJmN0dvOG9JTlVVQUN1WVZpTXFkMTd1alBtSXlrU0tUeVBsdXJaWWJXcW9Hb25yOTh4MER5NG9CbE5tQS1NbVZ4VFFGclliOHhyaTJEYTRCWVpvd0c2dWtsTWRWaGhKTUVMUjljTnZPNmIzT3IycHFCM2UwRWREM0VTMU4tc0JmUFIwUtIB1AFBVV95cUxPRm9DSENUUlhPRk9MeTJ1eW45VklKLXRWMEVsYjBNbENHXzVjRlBUNjlXUlk3Rzkta0N0SXBCaC1KNmZXeWtkVk9JTXVBR2JLQXJmN0dvOG9JTlVVQUN1WVZpTXFkMTd1alBtSXlrU0tUeVBsdXJaWWJXcW9Hb25yOTh4MER5NG9CbE5tQS1NbVZ4VFFGclliOHhyaTJEYTRCWVpvd0c2dWtsTWRWaGhKTUVMUjljTnZPNmIzT3IycHFCM2UwRWREM0VTMU4tc0JmUFIwUg",
-    "CBMikAFBVV95cUxNN3hlVHlXTU1LNHJWUlJSeHVtTlY4cG56OUpTSEktbDhwanQtS2lSU3JzbEMyRnVUYWRFOHVjZWN0MEtnR3V3SlQ0cVRscGhXUnA2eUYtcjRfaVVtZkRLVE1tbnRxRnRJc0Z5LWN2TXpJRnc2aXFZZzdrcXViMjhaSF8tZ1RvYWZXUXJYY3NTRXQ"
+    "CBMikAFBVV95cUxNN3hlVHlXTU1LNHJWUlJSeHVtTlY4cG56OUpTSEktbDhwanQtS2lSU3JzbEMyRnVUYWRFOHVjZWN0MEtnR3V3SlQ0cVRscGhXUnA2eUYtcjRfaVVtZkRLVE1tbnRxRnRJc0Z5LWN2TXpJRnc2aXFZZzdrcXViMjhaSF8tZ1RvYWZXUXJYY3NTRXQ",
+    "CBMi1wFBVV95cUxPLWFRYlRocU5kRmhWQWZEV0VpQ20zUEZVTmZPcVNxQlFiOWtuTHZPTHM0QURpQ2lCRHFjX3VnODNycFBpYmh6dk1lcFR1cnc4UFNkSkVROHpYSXRCMHc3dG1sY0FXSTYtbHVPUEgzbGpKZTY1ZF9TYkEzU1lNb29MSUpDWHl0cHZaYW52Ukh4eVFoc3R6RURRcWR2UkNKTFB5OGJEVnctd2NkbjNHX2lkYllXQkRrWktaWEc1UUdXamVNZ01ZUzVFaVNYQlNTNTZlRWJ6MEN0WQ"
   ],
   "daily": {
     "d": "2026-08-23",
