@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Fight Night 285 Post-Fight Interviews",
-      "ts": "2026-08-23T10:58:35+00:00"
-    },
-    {
       "t": "Biggest Winners, Loser From UFC Sacramento",
       "ts": "2026-08-23T11:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Robert De Zerbi singles out 3 Tottenham players after Brentford defeat: ‘We have to understand this game better'",
       "ts": "2026-08-23T14:15:00+00:00"
+    },
+    {
+      "t": "Vitor Petrino Sweeps Serghei Spivac At UFC Sacramento – Highlights",
+      "ts": "2026-08-23T15:13:45+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Sacramento salaries: Gregory Rodrigues leads all fighters after main event win",
-      "url": "https://www.mmafighting.com/ufc/506363/ufc-sacramento-salaries-gregory-rodrigues-leads-all-fighters-after-main-event-win",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-23T04:52:15+00:00"
-    },
     {
       "title": "Rolly Romero vs. Teofimo Lopez full fight video highlights",
       "url": "https://www.mmafighting.com/boxing/506677/rolly-romero-vs-teofimo-lopez-full-fight-video-highlights-boxing",
@@ -2105,6 +2098,13 @@
       "source": "Operation Sports",
       "cat": "ufc",
       "ts": "2026-08-23T14:15:00+00:00"
+    },
+    {
+      "title": "Vitor Petrino Sweeps Serghei Spivac At UFC Sacramento – Highlights",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUU52dF84VW9vUEstdXVPVEE1SGM1TlJLTVBtTVJuQV9fV2xoTk5GbmZEc3AtdldRVjJxazJxWUd5V1o2ZFFOaVE1aHkzXzJhQ3NSQXZMY2xjZXpEd2IxemhTeEF6UHJiaGZDTlFYU0UtUDRKRjVvVDA2T2F0LVYtSEt6Q1dkbjZUWGdHTnZpME8?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-23T15:13:45+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiaEFVX3lxTFBJcHEwa3lIMFViV1V1SXhadkRwME85SGVPRFVlVFhicjZHeGdCSWJWOXQ1ZzR3WExKdFV4cEtnM1VMdk9BVG5kbnZlbEdBcmpqY3kwNWVvU3c3d2lxbUlrdC14WXBpYW5X",
     "CBMipwFBVV95cUxNbHpGOEhUYjExejAtVlIxVUx3QlZGWkFZYy0wVkpCLWdhNnBSYnZPUkJKNkxuXzRYVVFudk52aGRRZlVrZlNnVzFwblN3MXZHYXNEVUZwX0NiVkZXZmRLYXAzSVNpZnl1OUtMTnZ6RDZjaTRIQzVXTDV4b2RsUC0wcFZXcUFQS1FLa0ZJWTdqYkdXclRDMnM4TzZnb3RCS3lZR29vR01nSQ",
     "CBMidEFVX3lxTE9Ld0MxUnp6T0VGdzRQQUQ4VzNnb0NPZmp4N0NJSTQ1aHNBNFY4d3VSWkVpZGY1dEpaZ2ZoaU80SmhCODlGYmFDQUNLamJmMWthUmZKOXBBRURYaTdtTFNqRWZmbG15UUxCV2FoTU16cGFNZlZB",
     "CBMibkFVX3lxTFBCSHlYMjZpcHBKS2w1QUNfclBCTEJ1WDF6QloySzVxV3RBc3RwYVg2MFlSOWY1RHNuWTdTbHVaSXBYSEdjMzZBX1JtVEw4OWJzUnh6QmJ4UnpXLVhuSWNYeWRkVEtuQk9CbzJUaENn",
@@ -3312,7 +3311,8 @@
     "CBMiZEFVX3lxTE9UdUtlcU5qcUVHN1Z6eEdiQXVhSmZOaGJlM0tvNlZ0V1ZEMTVFSXpFRUlFWEhYdHlGN3FxT3hSTV90cEVVRUE3Mm16QUFUS1ZRM1o4VjFIenF5UkhPRmw0T0xKNmo",
     "CBMi5gFBVV95cUxNQWZVUXY2NW9BZFlrMXM1WGczREpXbEdQdFF6ZVQ0dW9ITktHZkJ6SElWQUZGeVBiRGN2MjhzdUprYk90Y3FfNnh1T1l3Q09CNFY0MjVDN25XYjR6RzAxc21ISXFBTFRndmE3US1fOFZ5MTdJRXZhWnZ0STlQTkozLUk4em1IRmVOcmNEX2F3NDZ3N3dyOU9iS0REOFVRbjFNZUExbWxEdjNKYzdWTkJ3MzVTWUJEQ3cwTmhKUXQ1Q1JQMW1TbWlsakVDYmxDZl9NRHhhc2FlVGU0T1ZiZ25QRE5LMlFZZw",
     "CBMioAFBVV95cUxNZ0UtdTJUSklfUlBXckZQbTNMYnJOWU53QzZXenp1S3lxWEJYUXBxU29LZUd6MzBELTYzU3BWUnVKcXhOeVJlTHUtS0FjSVY3dVZQa3VjSXBPdFB6aGhlcHgwVGc2am84MTltNTNBTGVoMGJzRlQyTDFEZndSbkdYTEwtZzhueVhTQTdtdzljQm5zdjI2MVl6Q0I1QUdVWDBs",
-    "CBMihwFBVV95cUxOeDhNQkNuWkNoZk9ySGdMS1JtYXozOFJqMVE0ZGMtcHBKNldUd1Y2RGtxQndRSTUzU3RfRFRxaFhYNzUzNWZrZXVMVVRDSktKMjdZMHBDU0dMcGs2TkVJY0wtcHdHbkhRZ1pKQUF2SGVhX2VBdUlldWM3eksxZHRxQ1hjMXV4eFU"
+    "CBMihwFBVV95cUxOeDhNQkNuWkNoZk9ySGdMS1JtYXozOFJqMVE0ZGMtcHBKNldUd1Y2RGtxQndRSTUzU3RfRFRxaFhYNzUzNWZrZXVMVVRDSktKMjdZMHBDU0dMcGs2TkVJY0wtcHdHbkhRZ1pKQUF2SGVhX2VBdUlldWM3eksxZHRxQ1hjMXV4eFU",
+    "CBMikAFBVV95cUxOUU52dF84VW9vUEstdXVPVEE1SGM1TlJLTVBtTVJuQV9fV2xoTk5GbmZEc3AtdldRVjJxazJxWUd5V1o2ZFFOaVE1aHkzXzJhQ3NSQXZMY2xjZXpEd2IxemhTeEF6UHJiaGZDTlFYU0UtUDRKRjVvVDA2T2F0LVYtSEt6Q1dkbjZUWGdHTnZpME8"
   ],
   "daily": {
     "d": "2026-08-23",
