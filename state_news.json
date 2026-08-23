@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Liver Kick Lands Quick Stoppage Win for Carli Judice",
-      "ts": "2026-08-23T00:58:26+00:00"
-    },
-    {
       "t": "Roman Puga sets ambitious goals after DWCS contract win",
       "ts": "2026-08-23T01:00:31+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Sacramento bonuses: Carli Judice, 3 fighters take home &#36;100K",
       "ts": "2026-08-22T23:57:11+00:00"
+    },
+    {
+      "t": "\"Where internet hasn't yet been invented\" - Josh Hokit takes wild dig at Islam Makhachev, claims Brock Lesnar isn't real",
+      "ts": "2026-08-23T03:47:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Bo Nickal Open to Khamzat Chimaev UFC Fight",
-      "url": "https://sports.yahoo.com/articles/bo-nickal-open-khamzat-chimaev-191948885.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-22T19:19:48+00:00"
-    },
     {
       "title": "MMA legend will be fighting for his career at UFC 331 after not having contract renewed yet",
       "url": "https://bloodyelbow.com/2026/08/22/mma-legend-will-be-fighting-for-his-career-at-ufc-331-after-not-having-contract-renewed-yet/",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-22T23:57:11+00:00"
+    },
+    {
+      "title": "\"Where internet hasn't yet been invented\" - Josh Hokit takes wild dig at Islam Makhachev, claims Brock Lesnar isn't real",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdDVyRFlhMUR0RmpNTnNqSGdOT3J4QzR4UWRTQzc5QTUwYTNGWlFHSUZhS3lwRy1McXJhR1NMT2RMcW9sWFp0WG9mM0sxT3RPRG1ZRkx6LVFZYVNCbk5vbmVoWHd1WVQ4clJwVEJzUlYwZjUtalJXSXRuNUNFbGJqR01mU09PX2dPeVVZOGZDakdjaWZWM18waE1BeExEeHFTczlQVHQxVHlLT2NuZzMzbjVrdFJNdW9rMVYwODZucHFlcF90UkY4c0pDaw?oc=5",
+      "source": "Sportskeeda",
+      "cat": "ufc",
+      "ts": "2026-08-23T03:47:00+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMixwFBVV95cUxOcy0wTEdKZDcyRkxUX2ZLbkRlRnAyalBMMEx5OWdiOTduUVc1bXlyY0lpNWxvUE04VDAwbTNTZmVsdDd4bFZlUXZBbVJwS20zY3lHVVBvclhVX3FoTmN6enFZUTdvZ2U1cktZS3VMNzdLNTJya1FwVXM4eldBZDVndUxsWkxITW5SSG84MGJjTFNCOFdpWkNLdXdnMjVEZEtKVzY0Ry1yZ3lWcFQ5WktQUFN6UGMwdlZ3dHY5WXMtUllYUTMyX1c4",
     "CBMisgFBVV95cUxNVlh2OHl5aG5sNEpPdmhNRVFSQVhXYUtSSmRvNm9QZ1EtTmlEbFo4Q1FTalZmcnFSbWdrWTJoOGVVc1dzbGNTc1dLRjNEZFNSenVyVVYxamV0TFBBZ2V0NV9TNlRjZGF0TERKRGVEUDkzWW12UmItZ1hUckdHejljSldsZ2RoQ0x2S2xLeU1xS3oyR2JCTEpMMG5LdlpyR21jVlc3dUdoRC1WSmpoeXhmM3hB",
     "CBMiqgFBVV95cUxPRHFyVGJkWk9NMnNoR3c0d2Q2ZjRqcVYyT2JVeVh6TUR4TlFkTW03cjdZZWpfYThqckJMcjVVZmVNenRXVTFkbXVqbXVjblgtMURfcl84bXd2bGpFS0VrMUttMWJSejlfQzc5dVVqMVJla2dnbV9UZ2dIdC1feDUyTW1ldVhiT0tQWWt4RkZRMUhjd24wSFdBalVCbmQ0SXZucDMxX2IyaEFkQQ",
     "CBMivwFBVV95cUxPSHl6Ulo0SmI3VHRRdXRpN2hsdkRITGNmM0hyWEhlUU5VLWpZbjhUUGFrM3lNNGI0YWZGaG5TQkNwX2QyM3VHalBmSUw5YTVQb3RmSjI5aWV3STQ1Z2FyZDJqWGRMS1ktR2tNTXFZREwwM3F1R1A3S3FGaFh5aVFfVnJ3Nk1pRm5ud2FJYnRlek1XRDFHWUJXdXNodlh2bjRtZmNXTGJiZDcxUEQyV0pJa1daV0VwS2xqOWFFYXZGSQ",
@@ -3312,11 +3311,12 @@
     "CBMiiAFBVV95cUxQbVJJLVN0NGtpUnh2LTM2VnBNOTBsTGhVdUtxQ3dLQ2dYakZVdVpZd215eXZSOUprQk1hV1dEeXg3Z3FHdXFnY0NYZ0tPazZZWTd4dWFkWXU4WkxDOVIyaGVRRDMtTjR4UEVDYVJGRXpvMmMxaVRxOEtOeWt2TXdXYnhaeVhLX24z",
     "CBMiWkFVX3lxTE81aGRoem1oaHdiQVczVGRDS200R2pibWpnTFN6RjVUZXJLODQxa1k3N1dXQ1RSNGtic09ZSUdETlFxYmdEU0E3YVdDbmVvUmUwemJQai1ZZXhBUQ",
     "https://bloodyelbow.com/?p=328346",
-    "https://www.sherdog.com/news/news/UFC-Sacramento-bonuses-Carli-Judice-3-fighters-take-home-36100K-202482"
+    "https://www.sherdog.com/news/news/UFC-Sacramento-bonuses-Carli-Judice-3-fighters-take-home-36100K-202482",
+    "CBMiywFBVV95cUxQdDVyRFlhMUR0RmpNTnNqSGdOT3J4QzR4UWRTQzc5QTUwYTNGWlFHSUZhS3lwRy1McXJhR1NMT2RMcW9sWFp0WG9mM0sxT3RPRG1ZRkx6LVFZYVNCbk5vbmVoWHd1WVQ4clJwVEJzUlYwZjUtalJXSXRuNUNFbGJqR01mU09PX2dPeVVZOGZDakdjaWZWM18waE1BeExEeHFTczlQVHQxVHlLT2NuZzMzbjVrdFJNdW9rMVYwODZucHFlcF90UkY4c0pDaw"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 117,
+    "ai": 118,
     "staged": 4
   },
   "staged_hist": [
