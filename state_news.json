@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Eric Bischoff Explains Ted DiBiase Joining nWo",
-      "ts": "2026-08-23T11:00:51+00:00"
-    },
-    {
       "t": "Report: Jets' Cade Klubnik Getting Reps With 1st Team Stream of National Football League",
       "ts": "2026-08-23T10:23:50+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Sacramento, The Morning After: Roman Dolidze, Kennedy Nzechukwu … and the worst gameplans of 2026",
       "ts": "2026-08-23T12:38:14+00:00"
+    },
+    {
+      "t": "Islam Makhachev vs. Ilia Topuria Is Closer Than Ever, Here’s Why",
+      "ts": "2026-08-23T14:39:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Eagles' Offense Under New OC Sean Mannion Stream of National Football League",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcG5jdFZwQ0pHVlpxSDZNNWJ0dHpETDQzclhibmZ5WXJTR29vTmNMY3REeHY4a2tPT2NTMVItbnJyX0lsYV9wbGxteHVvai1QNUtybExLenEweXgzdlNySUQ2MDZ6RUJ0M0pXbHFVTmN3eFRRdE9yNjZaNmhoeVJBY1BSbVRzSTdpNFE?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T12:31:47+00:00"
-    },
     {
       "title": "Polymarket Invite Code SBWIRE Deposit $10, Get $20 Bonus (August 23)",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb3BXcWlEYXJGcnNyNmp4alhjU0tfT0pJeFpYVm1NZkEta3BaLVVuWVRvd3dqcnhkQWRBb29QWVM1eVVvc2FvMmdJVzhGQktabVRBMjBYX3ppeFZBajFMa3F4U0xROFM2UU5uejN4Y0UtNTB6cWV0X0RwSk9jWTdVTTJfb3BDV2dya1VGbHlMZndHUnExdHYyYURaRFZnaVphV19UYTUzY3Q2MWc?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-23T12:38:14+00:00"
+    },
+    {
+      "title": "Islam Makhachev vs. Ilia Topuria Is Closer Than Ever, Here’s Why",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNb29LTk5tUm5zRFYzLUllMVlNTm1wXzNkeG9WLTBvTXJpRnVYT2dCT0NUY2JGWGZnM2Z3Q1I1bDNsNHI2RVdxOVJ3dV9jR2VRMGt5MkNQLWtrOHNJYXNXaUtnM3RyZmlrd3hkQTRXOGNPRmt6OGZoZlQ4WUN6b3RnUVgtWUowVEtScVQw?oc=5",
+      "source": "Deadspin",
+      "cat": "ufc",
+      "ts": "2026-08-23T14:39:00+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMipAFBVV95cUxOcHhxbTFkSnJ4a2hKSW1uaC1TdnRxdXU1WWdPNnFDaXJMTFkxUXZZMDVCQllGdTgtdEZySDFyUVZ2VDc0a05VOWVVMlYwUGxJSVF0aGpEelVBeExybmdvSnVPRmFCandXM2VUN2hDWG04X2I1dGVrcnQxNW82YU1uUkhlYWlaU2N0SFVXQUotQV9BVlFibUxfMThzTDBVNDh1aTN6SA",
     "CBMihAFBVV95cUxOYmRDOXF6RW9EcUppVEVfZ2NPNm9wbDhPUnhET3hpb1RLcEh2UV9MLTBMNHVPSFJQalBLZGU3YXhHMjFEc3VPYk9XY2gydVZyeF9BNmdqV0pZUGpjYVhYSC1RWXl2V0pzUjhTSVlmS1YtXzRRMUpYNjBJNUIzQ1JGVnlZVHE",
     "CBMihgFBVV95cUxOVDdRbHEybkcxM3Z4TGpzb3FUZDEyRTNJUlpLbjg4TWtTR3VnbkhZRE04U3VoV2hyZ0pkT1dDRUFZZ0JfRmY0ZmxnMjhjck5HbGNHVTBYbHFXWEMyZGJYRlc3cUVpb19peVVHaGUxdnRUYmdVYVF1Wk9VU3k0LXZSaWJVclBuZw",
     "CBMizAFBVV95cUxOUzFvbzV3X0pPcGExNDk1S3FaWk1yaEVoc3o5NGxxNVVuR3lHRnlUYmNOVS1sdVRYM3ZOMnNWa0g5dTlOejZKcFlxOHFzOWZvTU02U0tGa1I2OE9CbFBFNDJLVkNfTkpUQ09wVldHRFBJRVhWeGdXVm1LT0g2akc2YjJ1QkZxd1gxMlhrNFRXY3FQUmlIUUNfOUh4MkU5RkJEVkk4TGNfOFFWbXdFLUFtRzdTREhnRkl6YWlYOEx3SnBhSmV1NlBDQXRCcGE",
@@ -3312,7 +3311,8 @@
     "CBMi-wFBVV95cUxNQXNidXlIaTF1MTl6YUlsLXBwVE81RERVOU1ZSDVMUEdzVEN3TmhlNlZ2b3UzNHI4Y1hFV21TaloxOEw0SkZ0NHFJVnl6TlI4VExaa2lXcTAxMDFyU1l2OU5oc0paZ1c2TVUzcXFyVnZVVk1hRmZfZTZJQjlwRHJFcDVXSDZqNnNrUTdxUDJyczlIZ1ktMFRZbHpQOG9JRjBVU2xUVHdpdDQyVVE3eVZVcjBZcEw2dTBZQ0huZVVnRnRhQjZQNkVZeHg2eUk3ZDBiZ1NsTnUycjJ1c3drZlN3WGlxZ1ZGaVJ6VkJobU10anZUZ0lmeEw5dnNVbw",
     "CBMifkFVX3lxTE9EOHhySTk1M3g1MVNlYUZya1ZhM1N4VW1jQkhXSnR2dFlCQkUyMGdmVmpLTVljdUd1ZzFrQzBKUkc5SEZhdkVmR0d2akxvaWs4QXRTZmxzb2Z1UGR6SU84d1NuZ3Npa0dZQnhyandKd01KbHZGbGd6VzlteUNNUQ",
     "CBMikAFBVV95cUxQaWQ1VzhMOVVjbzEzS3l4ZWh3amthX0xCSElkLUZHUF9CaUN6UDBkZTVOUUV2Znp6ZTZ6TW1xX01DZ2FGTDdmbE5FTFI3aVQ4Slpha3lnWjdOVWtRTzBxdXdfckZOT0RvdHg0SmFhaHc1eTZndG9yX0Npd2dVY0J6VXRacnRsQjZjY2VQNThxbks",
-    "https://www.mmamania.com/?p=466890"
+    "https://www.mmamania.com/?p=466890",
+    "CBMiiwFBVV95cUxNb29LTk5tUm5zRFYzLUllMVlNTm1wXzNkeG9WLTBvTXJpRnVYT2dCT0NUY2JGWGZnM2Z3Q1I1bDNsNHI2RVdxOVJ3dV9jR2VRMGt5MkNQLWtrOHNJYXNXaUtnM3RyZmlrd3hkQTRXOGNPRmt6OGZoZlQ4WUN6b3RnUVgtWUowVEtScVQw"
   ],
   "daily": {
     "d": "2026-08-23",
