@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Gregory Rodrigues leaves UFC Sacramento in a wheelchair despite beating Anthony Hernandez",
-      "ts": "2026-08-23T07:14:46+00:00"
-    },
-    {
       "t": "UFC Sacramento Bonuses: Main event takes Fight of the Night",
       "ts": "2026-08-23T07:30:21+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Fantasy football 2026 rankings, draft prep: Model locks in best QB, RB, WR, TE picks, cheat sheets, ADP, tiers",
       "ts": "2026-08-23T14:57:35+00:00"
+    },
+    {
+      "t": "Dana White makes another brutal comment about Ian Machado Garry after Islam Makhachev defeat",
+      "ts": "2026-08-23T15:00:13+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Sacramento video: MarQuel Mederos first to stop Mason Jones in MMA",
-      "url": "https://sports.yahoo.com/articles/ufc-sacramento-video-marquel-mederos-011456511.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T01:14:56+00:00"
-    },
     {
       "title": "Austin McBroom scores terrifying knockout over Faze Temper in Brand Risk 15 main event",
       "url": "https://www.mmafighting.com/boxing/506708/austin-mcbroom-scores-terrifying-knockout-over-faze-temper-in-brand-risk-15-main-event",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-23T14:57:35+00:00"
+    },
+    {
+      "title": "Dana White makes another brutal comment about Ian Machado Garry after Islam Makhachev defeat",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ0UtdTJUSklfUlBXckZQbTNMYnJOWU53QzZXenp1S3lxWEJYUXBxU29LZUd6MzBELTYzU3BWUnVKcXhOeVJlTHUtS0FjSVY3dVZQa3VjSXBPdFB6aGhlcHgwVGc2am84MTltNTNBTGVoMGJzRlQyTDFEZndSbkdYTEwtZzhueVhTQTdtdzljQm5zdjI2MVl6Q0I1QUdVWDBs?oc=5",
+      "source": "SPORTbible",
+      "cat": "ufc",
+      "ts": "2026-08-23T15:00:13+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMihgFBVV95cUxQSmM3TnJtdkhFanZqM3Z6MW14MHl5VlRzVmRKWG4xMEx3M2xycnYzbHJCY0NSMHA2STBQaGRMTmQ4cWJCeWpYb3E5dDdTRWFjM2o1S2dySmpZT3hkNUVhQXRiX0RubllOUGJpS1RFSXRDdEhRVWpMczhNSDZVYVZGSE5aOUFCdw",
     "CBMi0wFBVV95cUxQNDJpVUp0U3ZQbHdKeEhYVTR4ejZTYTV1UHFNVmtIWFdWWWFmQlZlTUxVdkNUQ1lSdExzeFRpSE5ldm42cjhpNnA0bS12UVZmSjlZN3dyN1B2UmRwRGNzQWNHTDhwdFpTVFZ0YkJyNVA0WjVPa0h5TDBFYlloLXhqTWM3bG9TUEg1bWNEMUdpc25Od1hkMldZX0FIUVd1eWtzNzJtM3hxcUZCNXp2WFFMdHRFX0NhdGlxdmp3WE1Sd3MzNmFabXNPb1YwUV9xLXpxeU5Z",
     "CBMiaEFVX3lxTFBJcHEwa3lIMFViV1V1SXhadkRwME85SGVPRFVlVFhicjZHeGdCSWJWOXQ1ZzR3WExKdFV4cEtnM1VMdk9BVG5kbnZlbEdBcmpqY3kwNWVvU3c3d2lxbUlrdC14WXBpYW5X",
     "CBMipwFBVV95cUxNbHpGOEhUYjExejAtVlIxVUx3QlZGWkFZYy0wVkpCLWdhNnBSYnZPUkJKNkxuXzRYVVFudk52aGRRZlVrZlNnVzFwblN3MXZHYXNEVUZwX0NiVkZXZmRLYXAzSVNpZnl1OUtMTnZ6RDZjaTRIQzVXTDV4b2RsUC0wcFZXcUFQS1FLa0ZJWTdqYkdXclRDMnM4TzZnb3RCS3lZR29vR01nSQ",
@@ -3312,7 +3311,8 @@
     "CBMihgFBVV95cUxQczdVbm5kOXFJVGx1OTJMZ3VRY3U0aDdwLWVWVEVPSXBxWXpTY0pncjRBazRIdkhBN1Z5dllDQnJySUI3cXQwSElJZ3VEMHVhcDNmdDROdVlGZ3ZOQkxsdk5ybDZNU0tWZ3IyY2xWdzhIY09MbXYzNUl3dTlUTUpXMmhWbzhFdw",
     "CBMiiwFBVV95cUxPd1pSUll0VW00eXd5SGpqQkItUG9ZQy14blBJOHQ1TTJ4ZEhZeGtLLXM2OWFZVVhCSEFhb1drWmd6N0lkcDZxSGxzbGdVSjJMVTNsanhWWTFNWlIyMFdKeGZ4UFZIQmM5b0lvNGhIWGRlZGRoaXF3TmhGMFc1dzJXRDJ0WGp5LWlfRVlJ",
     "CBMiZEFVX3lxTE9UdUtlcU5qcUVHN1Z6eEdiQXVhSmZOaGJlM0tvNlZ0V1ZEMTVFSXpFRUlFWEhYdHlGN3FxT3hSTV90cEVVRUE3Mm16QUFUS1ZRM1o4VjFIenF5UkhPRmw0T0xKNmo",
-    "CBMi5gFBVV95cUxNQWZVUXY2NW9BZFlrMXM1WGczREpXbEdQdFF6ZVQ0dW9ITktHZkJ6SElWQUZGeVBiRGN2MjhzdUprYk90Y3FfNnh1T1l3Q09CNFY0MjVDN25XYjR6RzAxc21ISXFBTFRndmE3US1fOFZ5MTdJRXZhWnZ0STlQTkozLUk4em1IRmVOcmNEX2F3NDZ3N3dyOU9iS0REOFVRbjFNZUExbWxEdjNKYzdWTkJ3MzVTWUJEQ3cwTmhKUXQ1Q1JQMW1TbWlsakVDYmxDZl9NRHhhc2FlVGU0T1ZiZ25QRE5LMlFZZw"
+    "CBMi5gFBVV95cUxNQWZVUXY2NW9BZFlrMXM1WGczREpXbEdQdFF6ZVQ0dW9ITktHZkJ6SElWQUZGeVBiRGN2MjhzdUprYk90Y3FfNnh1T1l3Q09CNFY0MjVDN25XYjR6RzAxc21ISXFBTFRndmE3US1fOFZ5MTdJRXZhWnZ0STlQTkozLUk4em1IRmVOcmNEX2F3NDZ3N3dyOU9iS0REOFVRbjFNZUExbWxEdjNKYzdWTkJ3MzVTWUJEQ3cwTmhKUXQ1Q1JQMW1TbWlsakVDYmxDZl9NRHhhc2FlVGU0T1ZiZ25QRE5LMlFZZw",
+    "CBMioAFBVV95cUxNZ0UtdTJUSklfUlBXckZQbTNMYnJOWU53QzZXenp1S3lxWEJYUXBxU29LZUd6MzBELTYzU3BWUnVKcXhOeVJlTHUtS0FjSVY3dVZQa3VjSXBPdFB6aGhlcHgwVGc2am84MTltNTNBTGVoMGJzRlQyTDFEZndSbkdYTEwtZzhueVhTQTdtdzljQm5zdjI2MVl6Q0I1QUdVWDBs"
   ],
   "daily": {
     "d": "2026-08-23",
