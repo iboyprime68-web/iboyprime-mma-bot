@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "RAF 12: Dvalishvili vs. Cejudo 2 live results, highlights",
-      "ts": "2026-08-22T23:30:46+00:00"
-    },
-    {
       "t": "UFC Sacramento salaries: Gregory Rodrigues leads disclosed payouts",
       "ts": "2026-08-23T02:55:46+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White doubles down on Ian Machado Garry criticism: ‘He might never have that opportunity again’",
       "ts": "2026-08-23T13:30:00+00:00"
+    },
+    {
+      "t": "Islam Makhachev leaves teammate in agony as he tries to pop shoulder back in",
+      "ts": "2026-08-23T14:08:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Tyron Woodley WINS: UFC legend scores first victory since 2018 in RAF Wrestling debut ahead of Khamzat Chimaev test",
-      "url": "https://bloodyelbow.com/2026/08/22/tyron-woodley-wins-ufc-legend-scores-first-victory-since-2018-in-raf-wrestling-debut-ahead-of-khamzat-chimaev-test/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-23T00:45:18+00:00"
-    },
     {
       "title": "Complete UFC Sacramento Results & Highlights: Gregory Rodrigues Outclasses Anthony Hernandez, Wins Fourth Straight",
       "url": "https://sports.yahoo.com/articles/live-ufc-sacramento-hernandez-vs-170000245.html",
@@ -2105,6 +2098,13 @@
       "source": "Operation Sports",
       "cat": "ufc",
       "ts": "2026-08-23T13:30:00+00:00"
+    },
+    {
+      "title": "Islam Makhachev leaves teammate in agony as he tries to pop shoulder back in",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOHBKMXpZaXNjUndralZmbmN0LUNneHBVX0lXVy1qemk0TlpTdUdCLVNyUWcxMjgyM3A3WHVYaGtFZ0ZyZ0x3RHBZS1VGeXBDeC1sX2RGZTlMNXJ4UVhmU0RFWWdDaXNrUXhhQ1UyU2V4MTE3ZjJLUDhHbmlOUHBUVnFTbUlCYWxiYzFHV3pRbzhTbW9CYVRQZ1dhLXdQbGE1?oc=5",
+      "source": "Irish Star",
+      "cat": "ufc",
+      "ts": "2026-08-23T14:08:00+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiWEFVX3lxTE1IbW5VcTh5VlJBcFhnTUxfQkllNXBXWFByUnhEZXh3RnFFbHpyYmtNQmhYTmZRRmdsT0Y4TEUwcXZYd25QSmNWNWJLZ3Z0a2RVNjl6cGdqeXI",
     "CBMilgFBVV95cUxOa2NHWHNPUHV3dE9ZREJ0YkNLVy03REI0bG1KX0szVTVTRXk1UFVKMVNNNTdNdEMzRHR6aGZ0MEJCczdGeFVrU3RoZzU2RHJXa0lqdEdmWEpXSF9yV183SFlwZlNJc3JpQmlZN0QtVUMtZ3hZYThIdFdHSDJpRDY4Nkc1NE83ZzFtZGdWekhDNzQxOXFuS1E",
     "CBMimwFBVV95cUxORks3elRXbmd1ZTg0czBOb25qV0NQT05FZlBwSWNRdW1pQzFYYURfRnpkMUZ6czM1QkV6a1REZEg1eE1qUjVCNmF6QXZxQzF5bzZrNXl2bXYwMTlkY1RMSUxQYWxwNTMxa3FzNS03TmVGd1h2U1ZGdXBHS1NKV0ZSVFRXREZrTnMyaDRzTXFwQnE5ekV4ZFU0Ukw2Yw",
     "CBMi8wFBVV95cUxONmZaSlhOemZqZ2V0U01wNGkybW5jVTFvaEo4TjA3SnhsdWNwVE93cE1zNGVuX2xRQTlMamhld3JYTFlYdlJZOEV6UXdyZE1DcG1MamE0ZE4tYy0xQlY1alNaNFA4UFFIOGNFM3RzaGNvYjNsWmpfZGs0VzJHMDJINm1YdjVEZ04xM3d6T09KLTZHTDNDNmZUSkFaYXBjdTZGXzF5NjdOWlUtSHNsR1R0N2VkTlkzNnVmTW1sSHhVcnFNektDdDJpVmZGVTVqTDgyNURMemlmTWNqRjduRWtsYkJFR2czdTNxNDAyU0x2eWFISFk",
@@ -3312,7 +3311,8 @@
     "CBMiVkFVX3lxTE5FVXdwUVpCejRsRmFnTUxpajA1X0JUak1GYl9pRFJ1N2V0dUFVdFpXM3FrTmlBUjZsazlHVklkU2NUcVlEU3lXSjQzQmU0ZmdGbzFjbWJB",
     "CBMijgFBVV95cUxOV25lYUNiVnV6UFd6OGtyZU43TFpYQkZPOWplZV9EV1ZJbnV5SHNnNnVGREd4V2xIdHdzRHg4Y0ZYUGVxLXZJRmdORzlLNUIySFRDQUM3bFZRUU11ZXNUVkE2QjhGV2NtbW5IeS1zYUVDWG1IR0V1Q2pLN0w1UGxsVUlKNi1YQklGZlRBM0xB",
     "CBMijAFBVV95cUxQd3dva0JRNzdYWTNiR3hHaE12QVFJOU8tSmI0a0dFM2dzaHN6WFFIZWpza0ladEwzU2Z3T0hYT1ZuUzJBaUM2THN5WXJ2b1Btd205Mi1KV2tuQ09PdWFTOHVVT05XZHRxaXF6OEJPT0FYdjNkNVBuOW52cG5oQmZtNFEzMG96WVBZTV8zWQ",
-    "CBMikAFBVV95cUxQTlJvbENYcmJIZThyakFCcmt2V2V1WnNGLW11RWhSWWt2eC10T0NjSVF1RzJxRmZFY0FtdkRQUHJPZ29SaFZHUU1yMTJkSmtWZTFsRWVSSnlBSENDc3FMNEVQSDAxcXRzYlVidDR6YmN1M3Z0MUVqVDBaSkdqSjdtTXY3WkpaQUNHMHd3R3R2U3A"
+    "CBMikAFBVV95cUxQTlJvbENYcmJIZThyakFCcmt2V2V1WnNGLW11RWhSWWt2eC10T0NjSVF1RzJxRmZFY0FtdkRQUHJPZ29SaFZHUU1yMTJkSmtWZTFsRWVSSnlBSENDc3FMNEVQSDAxcXRzYlVidDR6YmN1M3Z0MUVqVDBaSkdqSjdtTXY3WkpaQUNHMHd3R3R2U3A",
+    "CBMioAFBVV95cUxOOHBKMXpZaXNjUndralZmbmN0LUNneHBVX0lXVy1qemk0TlpTdUdCLVNyUWcxMjgyM3A3WHVYaGtFZ0ZyZ0x3RHBZS1VGeXBDeC1sX2RGZTlMNXJ4UVhmU0RFWWdDaXNrUXhhQ1UyU2V4MTE3ZjJLUDhHbmlOUHBUVnFTbUlCYWxiYzFHV3pRbzhTbW9CYVRQZ1dhLXdQbGE1"
   ],
   "daily": {
     "d": "2026-08-23",
