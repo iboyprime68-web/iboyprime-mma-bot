@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UNLV Interim President Chris Heavey",
-      "ts": "2026-08-23T09:00:30+00:00"
-    },
-    {
       "t": "2026 MLB Mock Draft: Who Needs a Shortstop? Stream of Major League Baseball",
       "ts": "2026-08-23T09:14:16+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White Doubles Down On Ian Garry's Round 5 Approach",
       "ts": "2026-08-23T13:10:07+00:00"
+    },
+    {
+      "t": "Max Holloway Has Slammed Conor McGregor After His UFC 329 Comments",
+      "ts": "2026-08-23T13:15:09+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Sacramento results: Biggest winners, loser from ‘Hernandez vs. Rodriguez’ last night",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQ1g2Q0JzRjIyRERZUDM1czZZUmNObExxdnVuWlFnNEZzSVRJSGt6YnhDaXlhcmNkWlVxaVFNVWVpRGU5aXpUOHdPbnY2RUhQTlNkX2hhRGpzRW9fWWthVFhZWXNhV2hCQzd1SVZUTDY2NFp5ZUpGbXF2bkF4SGRGQWZ1eG5vaUxiM2lTdmhwWXEzTjRtZER2RFVucF9KR3lmUGVFWmdCOTRDeXVRcXo3Tkh6eUl1Mk05WEluNU9iMlg0TlFHYkE?oc=5",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-23T11:00:00+00:00"
-    },
     {
       "title": "Shanelle Dyer Picks Up Another Big Win -…",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYXhWQjZZWTgySXdwMWUxMkpIQ29mbmk3NEhXajc4S2dJOWJkSWtlVjFKOE5nYzdVcjBnNF82NFh3enY4bzRTNnExSnIwd2Jtd0x0am5ESGI4LU50VDMweGtESDZUZ2MtVnpodFVNTkFJcXJnY3g0eGFJUWdRVVdQZzR3?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMANews.com",
       "cat": "ufc",
       "ts": "2026-08-23T13:10:07+00:00"
+    },
+    {
+      "title": "Max Holloway Has Slammed Conor McGregor After His UFC 329 Comments",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN2s0b3dSWFh1UzRJMFUtMTBkamJKT1RiM2UydF8zRTg0a3llRFpqdjBlWF9Pc3JTMlZjSDNrczE5LVUwVFExUzhQVWZwMkhfcm85U2pqT1FpOHNaaWNSTUkxeXgybEZKYWFnR2dKcnNjS1BfSTh3c0UxOFVySHV3d21UY1hWYU90V3ludlNUMmJic1VReTVF?oc=5",
+      "source": "ClutchPoints",
+      "cat": "ufc",
+      "ts": "2026-08-23T13:15:09+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMimgFBVV95cUxOMjlqTXlaUjN1RWVsV1lWbHBDRFdWcHQtVFNmblNvTGRvUW9TVlBQSzN3c1RvcjBoSjNlQU0xSWd6SWJTZ21wVndUSkJXb3FNN3ZEUEZ5MTdieE16VFBLZkhRSGhmdmN2ZzZwRk1ZcGZaaFRpNGN6VWRPaGpZUXhvMjg3THhNeHU2V2ZvOU4zRVJ0REJ2ME01NklB",
     "CBMiR0FVX3lxTE1fTlhHdkNINC1Lczc4OXUzNm9ab2NaQjZBMWtSdkpzTFJIOWZPU05tNFQ0WHB4dldScDNRc3hpWWJtM2VGdUxz",
     "CBMiR0FVX3lxTE9KaDVHTmY3VjNlVGR2NGtpSkdfZm5GdlBYWWtzOGRTOTBVSG9ybWpyNWR6ZXJUZkptaEE2cUxnbmU1bHRGelY4",
     "CBMimAFBVV95cUxNRVlKNDQxdnlyTXhtYWx3UzZHZU1OQWFia2VsQlJnSTlMamtwZk1HdU84ellZSG9zcXJEY2tlV1NwZDRfc0Jiam9KdWdGTkxNV2dmZHVMdXByZDFWV1VHVi1rYlhiWGk3aWNrU3N4Nko5eGZ3Um4xN3p6VmZscjZGZ3Y5ZnNBeHllQTJ6bWlxMHljX0p2cGpxcQ",
@@ -3312,7 +3311,8 @@
     "CBMiiwFBVV95cUxPdTFtTmo0a0cxc1hqWllQcTZfT3RPSUNkVWZwLXRBMmpLYnpfc2ZaOHNVLWNzbU52ZHZ4N09Ma1BxOWNsQlhCU0V4Y1diQ2Z4MnJKOVo1bXBuOTg5QzN4YmZvS0lDWWw5VVRMRmFGd2pnOFhadkdhelBKNkRvUElfbGRpamFhVEd1OWo0",
     "CBMisgFBVV95cUxOMHl6eXgtbmxIcjAxeFdoZ0gxeGRqUkdVSU9RNnhVWWFKMkkwd1JRdUZ6UnJrSWNPM3d6WDJfeXVSNExjeEhrbHJfZHpMa3A3WkQwNFRpRUZiVmVsMklRWDEwNEpiRHM5aFlRRkNqdDFqak1mZkdQX2E2U0lGMjVXM0NYV1B3UUYzbUVyMEwxWVRhWXBmeUc3eVVkSzMzVnUwMkY4ZjJGRkZ1NEprSU5mRTRB",
     "CBMiqwFBVV95cUxPT21KU3BCTVprdW12eUR6d2VyYnR4cTZiYnpsR29rQ05DNGVfeTZFd1gybVBtY0l4RWo3THU2aFppZlhnLVVXYnF6Tkg4SXd0NngyRzAyVXhmNWlZYVJEamsyWVg4OG90dGtFOV91WjdXY0R3VlBXU0VNc19GUGo3V2RmWmFMY0lXYTZIYlQ5Nnp0b09LZXNDS0tDVlhnQ2RxTVNVYlhiZVhwcVE",
-    "CBMiigFBVV95cUxPYW9DSVVVOS1jdUxzZDE5Q01QVndtbGlQMmVOYy1peU9xWTRpb2FObmY3eXVlandjZ2Z5czlWRTBhbnBYYUtrbXZqR1o4V0VuZjFoUU45aEY3TzVKdHpaYUtQZkJKaEowZVB3S3M4eEVNcE42cGVudDRIb0RwS0sxcGwyZXA2Wnp6ZWc"
+    "CBMiigFBVV95cUxPYW9DSVVVOS1jdUxzZDE5Q01QVndtbGlQMmVOYy1peU9xWTRpb2FObmY3eXVlandjZ2Z5czlWRTBhbnBYYUtrbXZqR1o4V0VuZjFoUU45aEY3TzVKdHpaYUtQZkJKaEowZVB3S3M4eEVNcE42cGVudDRIb0RwS0sxcGwyZXA2Wnp6ZWc",
+    "CBMilwFBVV95cUxQN2s0b3dSWFh1UzRJMFUtMTBkamJKT1RiM2UydF8zRTg0a3llRFpqdjBlWF9Pc3JTMlZjSDNrczE5LVUwVFExUzhQVWZwMkhfcm85U2pqT1FpOHNaaWNSTUkxeXgybEZKYWFnR2dKcnNjS1BfSTh3c0UxOFVySHV3d21UY1hWYU90V3ludlNUMmJic1VReTVF"
   ],
   "daily": {
     "d": "2026-08-23",
