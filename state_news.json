@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento predictions",
-      "ts": "2026-08-22T13:00:00+00:00"
-    },
-    {
       "t": "How are we picking Anthony Hernandez vs. Gregory Rodrigues at UFC Sacramento?",
       "ts": "2026-08-22T13:01:38+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Sacramento Takeaways",
       "ts": "2026-08-23T03:10:00+00:00"
+    },
+    {
+      "t": "Jordan Burroughs Scores Easy Tech Fall Over Sean Brady",
+      "ts": "2026-08-23T03:28:47+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "RAF 12 results: Bo Nickal falls to 2026 NCAA champion Max McEnelly in first wrestling loss since 2020",
-      "url": "https://www.mmafighting.com/raf-wrestling/506572/raf-12-results-bo-nickal-falls-to-2026-ncaa-champion-max-mcenelly-in-first-wrestling-loss-since-2020",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-23T02:20:54+00:00"
-    },
     {
       "title": "Jean Silva vs. Jose Miguel Delgado Announced as New Noche UFC Main Event",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbEpGd0N3TElyeTlwekh5ZW1GM0tacGNtYlhURkJNZFdtSkxLaE5GUVhCVEFGME42c2p0MnVwaHhxMzlORDM1bDgtRnp5cWUxQ0pFekpwX3FzUTVpQmppUzk2MDhpM0lBZm82dHRQM2c2Z1lsaFdGUnNZWjZ6MmNzVTAwQy01eHJCc1h1dEpHWVl2eFhqQjJmYkVCNjNxZ285MWZTNXNFX1JiaHFpYkE?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "TWSN",
       "cat": "ufc",
       "ts": "2026-08-23T03:10:00+00:00"
+    },
+    {
+      "title": "Jordan Burroughs Scores Easy Tech Fall Over Sean Brady",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZC1MbUpkQzlTQXhrSWx1V0p5TlRaZk9Wd0J5UGdKS2oyM0hKVGFuQU91VVJRTC00cWZHWkNrSnlCbmRLVFo4djJndlhxNVlpZEF3b1FPXzBHNHJPc3UzOW9XdC00WW9YSWg1WFkwV3RrSF9ib0hoejVLTUtBVVR6M0N3?oc=5",
+      "source": "MMANews.com",
+      "cat": "ufc",
+      "ts": "2026-08-23T03:28:47+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMikgFBVV95cUxOaVlhcTl0TEhHN0o2Z05ELVlsOFhlSHhwOU5JbEtJekVCSW5BdHUyRm9SN3JQTzN3NUhycl9Za0NCUk1HSmpwdkJMbDFpSE1ldTFSV0U5b3hDdGZzUlBiZlVUY2k2VnIyLVFsb19neVRLaTNDVTZ6TDNYQ0NZbGF4MmJrSmkwbDllY3NjV0kyY2Qzdw",
     "CBMiiAFBVV95cUxNelJIVm0zNS1FU3V0eVp3VlVBZFdqLUdxU3ozZzZUeVhOZlR1ekl3UlV1eTRGSFpzZjJvLVM3N215Mk9nSVFfQXNkTHlSUTZveEtxalJpOXByQldodW1sMU9Dd29iTHpPQ2JUdEg5Tl9uOU5QQnlhVEI3RmFKX2Q5bXhUcXZfWTlv",
     "CBMioAFBVV95cUxQOVpiTVdrQU1hTU9lRjAtcE5BX05tNkx3QTNCM1JQRlNSSV8zQTdIQXdqMXo2ejJJYzJLbmpDUm5qU1daQms4NjR2LW9qWEdFYWhXampfc1hFRkc4MTZmV29hVzZieVdrNHgwZ3BhWUM0OWJMRHprZy1kdnZJQkVYVGdPQzlpdHNfQi05dFJQMmdPTGNlQTNaMHpPeVNtU1F6",
     "CBMiW0FVX3lxTE4tWk0wQmV1bnRsNTdpUDRHMExyZUowMDgzaGFYQmVQZThTWGxpU0t2eGkzREdNLWtBVWpfWHA5MV9lNmxKOW41cWVNVkxxenZ5R1EwZEQtbDA2d3M",
@@ -3312,11 +3311,12 @@
     "CBMixwFBVV95cUxOY29GV1FIOFVoamc1N2hyN2J0S1UwSUt2WkpiMkEwcjJJR01sb2lCMmRtM3V0WjUyNm95a2hrWmZPaExSUXd5TXZRc0FUM2x6RnRrbmNCVlc4dmR5SU5iZ1kwdlZDWWRVTDlJQ2t0aXQ3dmZ4MUlYeXdkV2ZaX2R4Z2JwRFZJR2tFSHZKeUVxTVJ0X1NhdmszekZ0YS1aRG12MUJHMnhGMlNzQmJ0dldBbkJsN3lDd0x1OW9EcnljTEtIUFpZUjI4",
     "CBMif0FVX3lxTE1Wd0xMU0pweERGeVpIRFhVd05SUVUxZVRZeDA5MmZ6VHhwTEt6OHN5eWxHRHVDX1hoUnhCT2kxbE5CSXVHTlVPVm1QN0N4MU9DRkpid1BpdmVuWDJHQ1oxTG1RWGVwelBJYmRBaXdHQnNQZE4tZHpjbUJBRnR5Z2s",
     "CBMiiAFBVV95cUxPQzc5ck54MFA3RXZ1Vnh5RFlhcjZsdTN6MDlJeWFDR2FqdUNDMWpMcGxXaFByM184YlQtWDgxRkJHZWltaUllaGpxYjFLUDlnNlhEaFJwbGF3Vy1ETXR3LWh3TFY3NF9lT3RxTzl5NGZOaFNLZmtvaGU5V0RfMXFVbTkxYW9tZkN3",
-    "CBMiYkFVX3lxTE5UZVhWNGdKbzRVZVRHRklBbFBXQ3FZYUh5ckd1Uy1Md2M0c0U0enRYWjQ5RDlOVnhUUDJObVNWd0hfd2dycjROcUhQQ3lWRlZ4akVoRVNTZlJXUHh4YmZQbnlR"
+    "CBMiYkFVX3lxTE5UZVhWNGdKbzRVZVRHRklBbFBXQ3FZYUh5ckd1Uy1Md2M0c0U0enRYWjQ5RDlOVnhUUDJObVNWd0hfd2dycjROcUhQQ3lWRlZ4akVoRVNTZlJXUHh4YmZQbnlR",
+    "CBMiggFBVV95cUxOZC1MbUpkQzlTQXhrSWx1V0p5TlRaZk9Wd0J5UGdKS2oyM0hKVGFuQU91VVJRTC00cWZHWkNrSnlCbmRLVFo4djJndlhxNVlpZEF3b1FPXzBHNHJPc3UzOW9XdC00WW9YSWg1WFkwV3RrSF9ib0hoejVLTUtBVVR6M0N3"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 101,
+    "ai": 102,
     "staged": 3
   },
   "staged_hist": [
