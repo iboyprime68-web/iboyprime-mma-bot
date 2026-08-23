@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Losers From NFL Preseason Week 2: Deshaun Watson Stream of National Football League",
-      "ts": "2026-08-23T15:38:37+00:00"
-    },
-    {
-      "t": "Winners From NFL Preseason Week 2: Shedeur Sanders Stream of National Football League",
-      "ts": "2026-08-23T15:38:37+00:00"
-    },
-    {
       "t": "UFC makes final two numbered events of '26 official in New York, Las Vegas",
       "ts": "2026-08-23T15:38:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Nasrat Haqparast Reacts to Submission Loss at UFC Sacramento",
       "ts": "2026-08-23T18:30:20+00:00"
+    },
+    {
+      "t": "Gregory Rodrigues Reacts to Main Event War At UFC Scramento",
+      "ts": "2026-08-23T18:50:36+00:00"
+    },
+    {
+      "t": "Gable Steveson outlines what a UFC fighter must do to dethrone Jon Jones as MMA GOAT",
+      "ts": "2026-08-23T18:52:36+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White Destroys Ian Machado Garry Again Over UFC Loss to Islam Makhachev",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMU00SkRrWnFaY2lpSEd1c2ZoVlMyY2dBdEJpelBxMDUtZjBkSjVSSUFxYV90MHl3Q05JZzR6X1lKOVRLVHQ4UFhuVzZZSlBiWHdBN01VU2pNRGVEajFmRGlvTWlSVU0xT2oteU54RTNzZXFhaDhDMThHbkpaNzd1Q29hQXRpXy1QQjFTVEtsampuWS0zM1Y4bnY4YjRqbVFpUUhORTdidUxZSHpQQXVzLVJtTEI?oc=5",
-      "source": "Sports Illustrated",
-      "cat": "ufc",
-      "ts": "2026-08-23T17:21:01+00:00"
-    },
-    {
-      "title": "Highlights! Wint Strangles Chatman For Second Win In 11 Days",
-      "url": "https://sports.yahoo.com/articles/highlights-wint-strangles-chatman-second-002813305.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T00:28:13+00:00"
-    },
     {
       "title": "UFC Sacramento video: Anthony Wint wins debut 11 days after DWCS finish",
       "url": "https://sports.yahoo.com/articles/ufc-sacramento-video-anthony-wint-002841035.html",
@@ -2105,6 +2091,20 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-23T18:30:20+00:00"
+    },
+    {
+      "title": "Gregory Rodrigues Reacts to Main Event War At UFC Scramento",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5xLVVENzlBRklILWg1OVUwRWJ2VkF4ekZUN2xoZU9QVndnNEM5VFpULUJzNnFaOVRRbXdFN3lwYkRubm82enpFbjVyX2lKZUhfWjdUbTZNbFYzakFfNzhMZlBlT2FnbkNEbFZfUGpsLXdUcjR2bWlsbkJnLUg?oc=5",
+      "source": "heavy.com",
+      "cat": "ufc",
+      "ts": "2026-08-23T18:50:36+00:00"
+    },
+    {
+      "title": "Gable Steveson outlines what a UFC fighter must do to dethrone Jon Jones as MMA GOAT",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMVdOZ3dLendDRHREcUtOMHgxZFc2OXJfbm9yY3JfQW1GdEVaWmxudHd1NFVkc0tTNXRkeS1maXQxRzd1YkNWYW5DTDQyMjZyNHBVWjVxeDM1U2Vtc3EwMGc0cXVFUldpZkNKVTNJdTJ0LWM5aEdOcjNfWE9rSXZYYmh4Wno0WGVxMkFZbi01S1JzYTFwSVFXdDM0ckhSbEhpalpyQ05mUURGVkFPSWN5WA?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-23T18:52:36+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiiwFBVV95cUxObF9rT0I5dzBsUm9iV3dnN1hhS205X2tHdUpUUG8xZ3cxSHVBUWk3WW5YUjR4c0NjMkNQb3h6RnBhN3NzTXhUSG5GcDJ1cy1ZLWNVV3QxRmJ2TllHRTBaMEpBMXJmQW83bERqSU8xQi1BdkppMkVmV21tQnByYW1Ga2NHZWlLMjZGYUJB",
     "CBMilwFBVV95cUxPVl9QVTYzN2NyeDdhVW5WLUNGWE84dW53bUpRcFM4X0F6cUxwbF9MN1Y1dnhaaGE4eTdrSWtIWWNSeW0xSTNPRDlFY3NubnhtNU9rcEwtWGdEa0NYemZzd0ZFMTQwUWx2RzdYYXVTcjdBZG5KWk9UUjNkNHF5Z3VIMVFvM1hVMTF4Y0JERkxwSi1IUU1IY1Mw",
     "CBMif0FVX3lxTFBLX3BUS05jRERzUjc5d3l6djB4OGlTTS10MkFRczE0aVlsSHViajdLczcyb0ljRHpvNGpuS3FWSVlVZDdkVi03dVVyUnVfWnE1MjdMejExU05UZExqTzV2VlpmOGk2c3d0cXNTYzZzZWxGVkJrX1hlR3AzLUptMWs",
     "CBMiSEFVX3lxTE16MXFBUWFralBpY09OQU44alVOUnpib08zYjJoYlZHaEh1VVZWZjgzTG11aktUQWc2VmRwNTdLdzJabnFfUkV4WNIBQkFVX3lxTE9faHljRzd4d0Y3YkxERVF5MXRhRmVzdE1PSHI1TEF6Rm85REZIdk5pTjZOZ3VmWmFQNnNBMVdnVDZUdw",
@@ -3312,7 +3311,8 @@
     "CBMivAFBVV95cUxQODNHbDFxcEJJbEN0YnFmYlZsRUprVVdiSmJEWXZTNy0wRFo1SkRFVVhmZUQxQ05Da3NyMy1MUDhUSU9Lb2pkaFFnanFqdG5KVTNEQnZra3VBdTE3Tzg2eGh3RVloWHhGM0RleFFEVjJWbXV6YWZESnVtMmF4U0xyTzFSYU9uSFR1Y1c4SVBrSHEwQXpwcEE5WGNhUXNBWGpFNThrRHZONGo2azluWlZHcDVpRi0wWVllbzVQbg",
     "CBMi2AFBVV95cUxNb3lHd2VkMkJVQ1dwVDhCUGJBbGxJN3dpQjhDM3cyVHd5bHBUNlBWblg4Y3hUVFk5cTN2cDNsd1kteW4xVWNiazQ4b1kzQVc4NE4xcVExR3hwVmdGV3ZaMDJPbE5fMS1qejI1SHZNTXVVaWlULWhIRFJ2eUZtQm04b1U5eGhMcXg5YVpRTEkwbzV0S2Nxc0tyQlJhSGFaYnhnTUFvdkxISnZicmVaZkVYT1B0NUlJWUlBaWsteWRSd19HQWtUN09xcGVFdUFzc3k3OFQ4YVZiank",
     "CBMi1gFBVV95cUxPU0Z1UXl1NFlNMExXa1RuZmM4NlVYWkVfQjVjR2NUODNzeVBRcUNwU3RkZ1pTcUVlTW1WRjNtYXlMLUhIbWVPYmZyYXQzMGk5X3JkWDNpdE9pSmFIZWZLU2lBQ3ZNQlBpczVpSk1ZdlhvZF95RlpkOGpKU2tNcUMydnpWc052M29XUnV0TjN2OG5DZEVNMFEtNGJVUXdmYlFwUEV3UkY4WnBjTVZiZlVCeUpjeDNaeGEyUnpzdE1HUGpXbzJJX05qMkZWNDR5SGlLWHM0aFBn",
-    "b01ea229-80a3-3fad-aa79-a402d43b96f7"
+    "b01ea229-80a3-3fad-aa79-a402d43b96f7",
+    "CBMifEFVX3lxTE5xLVVENzlBRklILWg1OVUwRWJ2VkF4ekZUN2xoZU9QVndnNEM5VFpULUJzNnFaOVRRbXdFN3lwYkRubm82enpFbjVyX2lKZUhfWjdUbTZNbFYzakFfNzhMZlBlT2FnbkNEbFZfUGpsLXdUcjR2bWlsbkJnLUg"
   ],
   "daily": {
     "d": "2026-08-23",
