@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Irish MMA fighter wants to take out his frustration in the Czech Republic",
-      "ts": "2026-08-23T16:15:59+00:00"
-    },
-    {
       "t": "Every Flyweight Title Fight to Main Event a Numbered UFC Card Before Alexandre Pantoja vs. Joshua Van 2",
       "ts": "2026-08-23T16:08:29+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White Warns Ian Machado Garry May Never Get Islam Makhachev Chance Again",
       "ts": "2026-08-23T20:08:43+00:00"
+    },
+    {
+      "t": "Headliner Takes FOTN, Judice Bags Another Bonus at UFC Sacramento",
+      "ts": "2026-08-23T20:20:14+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Cub Swanson Provides Medical Update on Lerryan Douglas",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NOURhLUMtX1Fmd2kxcW9jWlV4aHhid3BHOUNqTXZqaFpLTEYwSFJXdXB0QmdJckFUQUhRYk9DZVBKeE5wOFlYbUZ0ZkdMVUFBTUdfZkpIS3p0MWM1S1RtRUh3WEJoa1Ztd1FkYVA1QVUxbExDckV1T01ubjY?oc=5",
-      "source": "heavy.com",
-      "cat": "ufc",
-      "ts": "2026-08-23T18:16:05+00:00"
-    },
     {
       "title": "UFC Sacramento video: Shamil Gaziev shuts off Kennedy Nzechukwu with one punch",
       "url": "https://sports.yahoo.com/articles/ufc-sacramento-video-shamil-gaziev-232108718.html",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-23T20:08:43+00:00"
+    },
+    {
+      "title": "Headliner Takes FOTN, Judice Bags Another Bonus at UFC Sacramento",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaUpJMTQwdk04WGQtTTNvMjRDb2xqLWlVUE55bDhfUUxLZDg0S2NiUlNDSm1GMHNnc3FfRkxGYUdvS1BsQm4tcHpPUUFXTkl6bjhDNjVtMHRKRVNtSlVjTVBUa2NROVZQVXdSMThTZFJZS3FWNm81aEdacVh0eElfWXdfZXFGcHR3X1Z3d3dEVUZ5NXZtM3ViRmtlNXM4anFK?oc=5",
+      "source": "Cageside Press",
+      "cat": "ufc",
+      "ts": "2026-08-23T20:20:14+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMic0FVX3lxTE1HOWNCMTY2VjdGTHFRcmZrZ2tNUlFXTm9qbUpkckVYaEJPNDFoZzFyeEtWZ2hOQWhOOE9FZzBhRGhMLWJEcEJBQVpTLUNUQ01qZHVxczVuWEJaUG5jelphbU1fRE50NkhpTDU3ZmJibUFzSFE",
     "CBMiiwFBVV95cUxPb1Y0MlFwcHIzQ1Fhb2E1NlZSWm01NGJLMy1HTkxWV0lSQ1ZwSjF4UFVhLW55LUxZRnVoNjV3cFQwejlqU1RiZnhBeDFoMDlKemswUmZxRG9iOTByT2hKeXpabXhWUHlybnlaWXRTdUd5NWh1dUVHNGEyQTdZUnVzaFEweF9Jd0hEb19r",
     "CBMifEFVX3lxTFBmU3FWdDE0MlNhRGJRRFQ2aWtQdi0zc20ya3FRS3h3ekZ0Q0pOc3ZfZ2RZM1g3MGdjNFFfSHl0NmRMNHNaZFItRGdHdDg0bUN5N19ubk0xQURpM1lQX0R3MWE0eE5rM1ZKRmZfcjFYeWc5dnowbVI4ZDdLMjY",
     "CBMiiwFBVV95cUxQMFg1aENMd0xjSG1Fbjk3S25yRDVielg0T254anp2SE5ERFpEbkRGNTQyVlVyQTV4dEo1MTFXN0FkcmNfOE1SZTBTVlZud2dabW83akZ0VzduWUZCMVlUQkcyV0IyVjAtVElLUVNpeEJBTGM3ZEs2VWV3Q2haZVZFdzNPc0VOSEpVMW5j",
@@ -3312,7 +3311,8 @@
     "CBMimAFBVV95cUxPMHNydXFmb3RXdHYtbFpaV1Z4YVFqVE1zamtHZktlblJxU1dSN1IyQ21nbXk3RHRoQ0NHZ0k5X0liZElzUTRVUGZSUE5aR2k5YlFiWENqOG11ejB2OEJKTmg4alVicVl5YjVZV1RBTWtSaVhUN3ZXTVJhd2l1WjF2VUdjclVDZFRMMUdDYkFMRHJ3Ujdnd09CNw",
     "CBMitAFBVV95cUxOQS1TbUtBcElrZm1yUGswTjkwTEpfdFFjZklTR0dfb2N5eVpNZ0dweE9RNEdsWk1pS3BuVVVKNE52LU9iUmJnLTBDT2k4WUk1bF9oUjk0M2ZwZU1nMndic09wRGdWUWg1dy1NTDFwUkxXck1Od09BQURBclVOWkpGeXBxMmFkRVRlWGFEV0lIOC1fbHNhMWJ3c0FJZ1BJVVhpOW9UYmItU05KSXJzRFpWVXFzM3U",
     "CBMiugFBVV95cUxNYjB2cVY5QTBoREd5OGlsaDBIZXNSWU52ejhnazVSRUsyZFQtRjlucVVOeGsxVDBPN1dzSmdfTjV3UkFkcGdBY3JQdWpnaWRjc05wSDQzUmV2SDloZmxfYXgtNXV5UThadnpsdTlHdXM0UksyU3VmendSUzNUY1JUcEp3MkxTWmRjRGdhd0tXWmQ0bTVIVFdzZTVHcFEwbkxaOU9PY3NpckRWak4ySHFyaWNDTzZNbHhEX2c",
-    "CBMijAFBVV95cUxOX1ZSSm1TSThvblUtSjdpZkExYkIyem5YMm5mQ3RDT2lnSVRNeWVIRk5sMi1Qb1cwYmR0Q2tTU1h2OUg1VFRQNXhsMDVYWWFtd0MzWkJVN01QbVh4TEQ1ZnJKeGIyTVRJTkp4M0M2ZXQ5VmNiaUhrR0RuX1VjQ3JXTm5iN0dNWnJQUTh3Qg"
+    "CBMijAFBVV95cUxOX1ZSSm1TSThvblUtSjdpZkExYkIyem5YMm5mQ3RDT2lnSVRNeWVIRk5sMi1Qb1cwYmR0Q2tTU1h2OUg1VFRQNXhsMDVYWWFtd0MzWkJVN01QbVh4TEQ1ZnJKeGIyTVRJTkp4M0M2ZXQ5VmNiaUhrR0RuX1VjQ3JXTm5iN0dNWnJQUTh3Qg",
+    "CBMioAFBVV95cUxPaUpJMTQwdk04WGQtTTNvMjRDb2xqLWlVUE55bDhfUUxLZDg0S2NiUlNDSm1GMHNnc3FfRkxGYUdvS1BsQm4tcHpPUUFXTkl6bjhDNjVtMHRKRVNtSlVjTVBUa2NROVZQVXdSMThTZFJZS3FWNm81aEdacVh0eElfWXdfZXFGcHR3X1Z3d3dEVUZ5NXZtM3ViRmtlNXM4anFK"
   ],
   "daily": {
     "d": "2026-08-23",
