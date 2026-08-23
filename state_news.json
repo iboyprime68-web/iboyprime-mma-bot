@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Fighters react to Gregory Rodrigues beating Anthony Hernandez at UFC Sacramento",
-      "ts": "2026-08-23T03:07:04+00:00"
-    },
-    {
       "t": "Dana White addresses Namo Fazil allegedly being attacked before DWCS: ‘We handled it behind the scenes’",
       "ts": "2026-08-23T05:18:35+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Newly Booked UFC Fights: Week Ending 23 August 2026",
       "ts": "2026-08-23T22:25:09+00:00"
+    },
+    {
+      "t": "Gregory Rodrigues Reacts to Main Event War At UFC Scramento",
+      "ts": "2026-08-23T21:50:36+00:00"
     }
   ],
   "digest_items": [
@@ -1930,6 +1930,13 @@
       "source": "Fightomic",
       "cat": "ufc",
       "ts": "2026-08-23T22:25:09+00:00"
+    },
+    {
+      "title": "Gregory Rodrigues Reacts to Main Event War At UFC Scramento",
+      "url": "https://sports.yahoo.com/articles/gregory-rodrigues-reacts-main-event-215036688.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-23T21:50:36+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -1938,7 +1945,6 @@
     6
   ],
   "yt_eval": [
-    "CBMie0FVX3lxTFA3dzhCVUNmbGViWDlqcm96SEh1MDk2WGtPVjN2bzkxSVZ2Uk1CQ0d1WE5rVUdJWnJjRnhheHlzMEdvaWdQeHNHc0xrX3VtNVpTbzl2Sk5DWmVkZFhFYXF6QWNWYzRFYWZIT0FXTDljS1Z3YTdjbFVSWE4tcw",
     "CBMiqwFBVV95cUxNMWFpX0t5dEVzYVJXakc4Qm9saHBka01MbHJKeUVTSmNwVU53Sk5URG1VVDZZYVZOdWRuWDFYdVE2VmxWSlFuTHBlX3NtODluQ2I1WW53SFpNV3RncnktdWNYMFlTSXRtYVZyT0FXaEJwV3Z6aHpiaW5LeTNyc0JLOWtGZWFHdGhyZ1R5ZHItakFLaDhXSVZJRzVPYUlmaGExM0FsbEFXTHFEUlU",
     "CBMiswFBVV95cUxPUkNycjR3YzVJaWJORHExZWFoZUNaczBDbmYxOHlQLXVqd2ZoaGM1ZHZFTkJkQ1ppUWx0d1dKR2psZWNXNDZYdFhpUndMQXEteXd6dnJqczAwUjZHU3pMdlB6dnJ5UTNkN2dZdVFyc2xkMW55TnFIcHVTeXhVcFUyR2lhQ3BNenZfWDRRN0hydmlISzdoaTBvazNtS1JvM051TldLUEZIOHBJcjdqd2lwcVQyOA",
     "CBMiggJBVV95cUxPbGhiOE5WNG91MkFhY1prU3BmZFZBTUFDZGtrZXJrdHNDTl90dXFNT3dmeGJZUEU2T0hyR01PUThlV3FSeXpGLVF3cVJldG5MTnZaQmxSTmQzZUJHNUdPS1NPbXVjaE95ck55QUJSbnZCTUF2UWhZaHQ5WU53YngxLXRFa0ZBY0tkQTduaFVpdzV1SHZzaW0weXN0T1dkM0JUWG10bndqb2lmN1g0Q0Z4RnhaZmtsS1NVTUNzZW1vVXFiZjgwV2JvbVQ1LUk4RWVGMllLQTlwOU9laWpiS0k0NzJmTVVSVWFrdjUzSDNNX3VHZ3o2bWhjR2I5Q2xtQTM4VkE",
@@ -3137,7 +3143,8 @@
     "CBMijgFBVV95cUxQUk53T2VyZWJLeklQWjE4QW1nblhZYklvTGZNeWZ2VUNybVNfTVp1X0s5aFA3ZlE2MGZaWDNmWXpva3QyZ3NueWVibHZEUkZ3QTBQdjA1X1pYRUY1dDJUNW5JQndJZWdVTDZPNmRjOEx5eFh6Vm5uU3NHeEY5TTFCVzF3SGYwRzNGbWxsSjdB",
     "CBMiuwFBVV95cUxObkJBOGFsdUJ2UFFuSXl0WFNNUkZCanJVRDYyaFAtS0pzWk1IdUNIeF9sQWdsT2dIRUJzeEdBUkdBTEQ3Z01rQ3d5dTNpaXRCR2FYZHFnVzNkVzRRdUppOGM0Z2RoQjFlOTFrVU1qS1B2NUJoQ1hqbWo4bFRhMWxKajViQkNIazdqYTA0Si1Bakl6eUc4aGhzbENEX2VoVkZxVTNUVWFDUzRkMVN2a1E1V1NkX29PajAzMElv",
     "d4b1f9c4-a105-3e28-a683-c9f0f0a07481",
-    "CBMifkFVX3lxTE5EbXQ5Z09iT09RRFRGWDdLdWhYMktmdlkwS3VvUjJTSWxiMG1PNjM4OGYydGJXbm1fWlUzdWc5V0VTVF8tQlJGTWV1LURQR1ZuRVJ0WnF3ckc3eU5zalBfWU1Wam9NdVhqUVEwN3lldC03VUtEUHRDSmVUeDN1UQ"
+    "CBMifkFVX3lxTE5EbXQ5Z09iT09RRFRGWDdLdWhYMktmdlkwS3VvUjJTSWxiMG1PNjM4OGYydGJXbm1fWlUzdWc5V0VTVF8tQlJGTWV1LURQR1ZuRVJ0WnF3ckc3eU5zalBfWU1Wam9NdVhqUVEwN3lldC03VUtEUHRDSmVUeDN1UQ",
+    "b2a15eda-91a6-3215-b81d-7593f0dae128"
   ],
   "daily": {
     "d": "2026-08-23",
