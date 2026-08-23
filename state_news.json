@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Former UFC contender posts statement after losing to Cris Cyborg with a 7-pound weight advantage",
-      "ts": "2026-08-23T14:30:00+00:00"
-    },
-    {
       "t": "Swanson: Lerryan Douglas broke orbital bone in UFC Sacramento loss to Emmers",
       "ts": "2026-08-23T14:30:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Gregory Rodrigues Calls Out Superstar After UFC Sacramento",
       "ts": "2026-08-23T17:19:10+00:00"
+    },
+    {
+      "t": "Freedom 250 IndyCar Trump",
+      "ts": "2026-08-23T17:32:55+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Reinier de Ridder Has Next Callout Ready After UFC Sacramento",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PWjhpYndlVW1YLTh2bDVObkV5X2UyNnd6T2R3MGRNSGVKQmp6UVBqdEI2Ry1oRUZCbjlseUkyZjVsYlQ5SUhOZ1BfWWtQYy1oZEQ0eDRuQ1dSNThETHBzSnV6RGlEelg2c2dCT2hFbU5Ldw?oc=5",
-      "source": "heavy.com",
-      "cat": "ufc",
-      "ts": "2026-08-23T16:23:43+00:00"
-    },
     {
       "title": "Gable Steveson Reacts to Sean Sharaf Matchup at UFC 331",
       "url": "https://sports.yahoo.com/articles/gable-steveson-reacts-sean-sharaf-234315008.html",
@@ -2105,6 +2098,13 @@
       "source": "TWSN",
       "cat": "ufc",
       "ts": "2026-08-23T17:19:10+00:00"
+    },
+    {
+      "title": "Freedom 250 IndyCar Trump",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTjR5TVcyQlptSFlDaGlWMFpSbkl1Q1p5Qnp3d0FVQTlhUTJwR2ZQbjMzVVVmWHNyclFjY01VVjhMNmZmZ19TQmpJZlRCdW15T0ZpVHRzNU9iVzdOOUpaNWtDVS1icWNsenFSV3I3OEh3T01BRl9NT3VXX1NscHRnaHliX1hUMzZTT3hkVkJsemZRUEVvWkYzT09SUVVrSG5RbVVVdExQVWJhWHlWWGlKQzJtQ1A?oc=5",
+      "source": "Times Argus",
+      "cat": "ufc",
+      "ts": "2026-08-23T17:32:55+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMipwFBVV95cUxQWksyU3RVQ0lCal8yTTk0bjVtUHNKaTZ1QlJqb3JMNHNjZ05Mako0aTZWeXIzcmtubjVmUHhXNW9iNkhHbWhHdWZoeV9lMTl5WlJOT3I2d0Zqdkk0TnRFbEZRZmlUMmM5UnFkbExiNk1EU3lsSmhlV05GRThseUVMd0V1c1NtZm56dEhOamFCVFdLTXUyb0w1bmdXdXptNWM0SEpWa1Fkaw",
     "CBMirAFBVV95cUxOZWlCMHNoZVVjeGppZTVLYXZWaXVRZThwMTNPOU1pczRZR3dleEdqS2E2TjNRSks2ZEl6UUllWmZhY3dRUXQ5anhsOEU5TXdncFN4bl9EUHR0YkU2NzJDTHlYWFNMLVlPYmxnMmZkQ3N6UGpWeFdBQ1lLbHUtZFhLemczWk1idG1ZTUk2bHBFYXBNX3J3NTJPYWZ2ZWNBZFdlRVpqcUVSVVNNZWQ0",
     "CBMioAFBVV95cUxPWHhOcGVza2ZLMzJYZkFRTjZybzlaT0QzU1lhVnE4NXFWaDF2ZFZUenE4N3UtRVYyZ0pMS2NWZnAza0ZvZ0V2cE91eUtscGo3Yk81d25mN0Qwa2o5ejBuQ2hvWFlIeF81dU81dUZWb0d1b2V0Q0gwWENhMHJvNTgySXJzRkc2Q2d0MEhqY05kcTdlRVdQb0VTMjFFcXdpYnla",
     "CBMiiAFBVV95cUxQZF9lN1FFUjhnS2lnWkY3TW9QSmNOWTgwUUJUaFZiTU9FSE5WeVg4d0M0T2xtYXRJYS1saVhOSEgzd0p3SFFXME9zb3N1R1d0RmhsWmZDaWR0VjdhWTZ6QnB5X1k2NWplQVR3bHhkVGhVQVVLN2l4QW9MMUE5RnJQU2RkaXFpc1py",
@@ -3312,7 +3311,8 @@
     "fefc8332-f1ad-336f-bd2a-b3eedea973ce",
     "CBMi0AFBVV95cUxOX3pMckJnSlViUzd2d180NWVPaUtlT1Q4SmtqSDhqZjdPT3BPcjdPMVVhMllBOGctYlhzZG1NX1R1SzBFbnh6MllaNVQ4dGRmUUVNVWpXd0YyNUo0ZGE1M3E2NnRvMmhYX2QtX0RCQjVrNGItS3Fzb3BtaFRTMkVPcDZRc0gzTDR4WXdPT0VObWYySHVkVWlLeXNMSmVGTnJsTFVnMHZDai0ybkxZVGdvS2lCb1MydDd1S1dUN2J3akZzYkhSeGszNEZhUzJ5Tk5Q",
     "CBMifkFVX3lxTE5MdzFKQzgxMWJIV05zQ1ZJZ2tvZDVzaXUtTFhFUk1zMXNaTUd5a05HSC13MmIwTzRfMzNFc0VyWS15MEZGSzc1d0JlOHNneXRtdU1NalVTdTN6dHNFQS1SMnpsR3pkekpCVWU3LVdCS2lMc3hPbk4tTHZzbVdVUQ",
-    "CBMijwFBVV95cUxOSC1VS3hSRk5fZ0NoanlHOEFhUkV1ZTE4MEdEdVJEdngxYmVKdHhSNXVScEh2ZzZnU0pNX2E5cUtWYVlBMlZkY092Q1gxS214M2pfSnpxSVI1QUJMSUszb28zdHdVWWJlb2dMRm05SnJKVnlSUTh3Mm1hTjZ4Z0l6dTR4MVltT3Rady1leURfbw"
+    "CBMijwFBVV95cUxOSC1VS3hSRk5fZ0NoanlHOEFhUkV1ZTE4MEdEdVJEdngxYmVKdHhSNXVScEh2ZzZnU0pNX2E5cUtWYVlBMlZkY092Q1gxS214M2pfSnpxSVI1QUJMSUszb28zdHdVWWJlb2dMRm05SnJKVnlSUTh3Mm1hTjZ4Z0l6dTR4MVltT3Rady1leURfbw",
+    "CBMitAFBVV95cUxQTjR5TVcyQlptSFlDaGlWMFpSbkl1Q1p5Qnp3d0FVQTlhUTJwR2ZQbjMzVVVmWHNyclFjY01VVjhMNmZmZ19TQmpJZlRCdW15T0ZpVHRzNU9iVzdOOUpaNWtDVS1icWNsenFSV3I3OEh3T01BRl9NT3VXX1NscHRnaHliX1hUMzZTT3hkVkJsemZRUEVvWkYzT09SUVVrSG5RbVVVdExQVWJhWHlWWGlKQzJtQ1A"
   ],
   "daily": {
     "d": "2026-08-23",
