@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/457056/open-thread-july-13-2026-rip-dr-grant",
     "https://www.mmamania.com/457230/open-thread-july-14-2026-worst-cgi-ever",
     "https://www.mmamania.com/457451/mm-clone",
     "https://www.mmamania.com/457532/open-thread-july-15-2026-who-plays-a-villain-a-little-too-well",
@@ -169,6 +168,7 @@
     "https://www.mmamania.com/466589/highlights-open-ufc-sacramento",
     "https://www.mmamania.com/466591/bonuses-paddy-pimbletts-shocking-submission-earns-extra-100k-ufc-329",
     "https://www.mmamania.com/466593/live-watch-ufc-329-post-fight-press-conference-video-stream-mcgregor-vs-holloway-2",
+    "https://www.mmamania.com/466599/ufc-330-results-sooo-about-last-night-makhachev-vs-garry",
     "https://www.mmamania.com/466626/highlights-open-ufc-sacramento",
     "https://www.mmamania.com/466637/live-official-brandrisk-14-video-stream-complete-fight-card-results-and-highlights-manziel-vs-menery",
     "https://www.mmamania.com/466655/highlights-open-ufc-sacramento",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Paddy Pimblett’s manager demands ‘common sense’ after commission withholds his UFC 329 purse",
-      "ts": "2026-08-22T22:00:00+00:00"
-    },
-    {
       "t": "Shamil Gaziev returns to win column with terrifying one-punch KO at UFC Sacramento",
       "ts": "2026-08-22T23:36:44+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Cyborg set to delay retirement after narrow win",
       "ts": "2026-08-23T06:58:58+00:00"
+    },
+    {
+      "t": "UFC Sacramento results: Sooo &#8230; About last night &#124; Hernandez vs. Rodrigues",
+      "ts": "2026-08-23T03:30:44+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Gregory Rodrigues Sends Message to Dricus du Plessis",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9KcS0ycDdrTkl2em80OE1BWXRvLVc5UzVtS2dXSXRXVUFJZ1hNMDcxT0FnZDhNZHl1Sm4yY2hjZVV5Z1pTS3pKbWtCcFRUbEs4c1VIb2NBaWtMaEZyZHRybmpNOUpnVXlCN3RYQWw2Qll5a2lpeXZWeExnbHl4UQ?oc=5",
-      "source": "heavy.com",
-      "cat": "ufc",
-      "ts": "2026-08-23T05:03:28+00:00"
-    },
     {
       "title": "Anthony Smith Releases First Statement Since Arrest",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNR3JZaHZEYnFvbTE4eDE2VjUzX1A0WHIzMFB0WnlwNTZuc1hqT3lpM3c0WEZjdmRCczd6ZmozY09XRTM4MkZrZ2FpNnpta3BMcVZxZC1KbkFndmplTk5LTXhVNXBBN2Z0Uk1ZbmNCMjZKSGpiaV9SdnRVZFprVjVvQTBLMWFocURISmpsNFZHdDg?oc=5",
@@ -2105,15 +2098,21 @@
       "source": "news.meaww.com",
       "cat": "ufc",
       "ts": "2026-08-23T06:29:42+00:00"
+    },
+    {
+      "title": "UFC Sacramento results: Sooo &8230; About last night &124; Hernandez vs. Rodrigues",
+      "url": "https://www.mmamania.com/ufc-results/466599/ufc-sacramento-results-sooo-about-last-night-hernandez-vs-rodrigues",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-23T03:30:44+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
   "hour": [
     "2026-08-23T07",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMi2AFBVV95cUxNLW9iOVA0WEhOaDNTVjc2MGJkMWxSSkxTY2FNMmM3dHMwSVkyRkRMM19wem4yekJrUngwM2ltQ0pFT3JIY0wwVXRRU1FnUzctakUxSS1SMW1QZk94S1hyUDg4NFpEczNCQjdLeURmbldzT004WGgyMGRId2k0bmJBRDBMSHQ4dWE3MS0tQmExeUZIaTBreE5ocU9ZN19vM181YlN2VXppQVVyWUVReG13RkJfRFhZakdxZENtTzY4ejNTRFkyOVFUeUdFTE5jTmFBUTRETk1pcWY",
     "CBMijAFBVV95cUxNNjk4TWl4ZE9tUGVRbHhELUF0RDdubUxjVEhLLXpqa05EbUR4a0c3YXJjWHB6dThLeERYbGZnTE5nMjhkYWtDUkJDdTNSN1RvcVByZjJQNUkzc3NBekVCdmV3bUdtaDV2ZTJwRU4wQXRKNDk5aE9pXzFrYnZ6VTAyUHRydVFwLXppUDFRZQ",
     "CBMidEFVX3lxTE9wZ3FQTE9wMHRUSWY1b2htQ3JBMzhtd0pxcXU5XzFqc2FVM0ZwS1UxbzFDRHl2VGZpbzloMEpmNldlWV8tMmZ2Ty1WNzlLQ0dFUU1KWWRWSXE3LUR1Tkc3cDNGWWEyMTNwbUxUYlhMOFFGMXdF",
     "CBMiWkFVX3lxTE1WNHVZN0UyWkVraXgyLWtKTk9qUUE0ekVpQldMMHJIOWlCQjhlbnVGMGFxSTNQNjM4WE9fMDJESzU5ZzFHZ0F5b25LNHFNVTVCRV81ZGFTYzhXZw",
@@ -3312,7 +3311,8 @@
     "CBMiqwFBVV95cUxPU2V4WTlqazZWTUtDRXZxRnhQUHc5blBoOWxPb3B1WDJyQlhtT3R5Y0QyWkMxejJkY25wbkVzSzRaWXdab1lhTW41TV93TFcwWWtrRU5uWVlsWUREX2tsVGRsUjNrTmpYRDh0UTBUeU9LcjFPZTNpUXhROHJleU5nbEx4RlhoSjFtYV9FSnZBM3lKN3ZYM1RKZkJlQW55T2JBbnhQOGJtLVA1MUU",
     "CBMijwFBVV95cUxQT2tqZ0Rtcm1tQzVia21DcjRiRlNuamNFWmNBZmhGbDBSWU9xd21xcndiVWt0cUZhb3JuTjJjRDloVEU5QkVnbzdidC1yQmdTUTJEaUtKS0p6NlB1VnFEYWJrc29iLUI5S1J4engyUWpwdVJ1ZzlTTkdOT0VaQ21NZElMSGpTaDJGdkY2YUh1MA",
     "CBMipgFBVV95cUxONmJvOHJEdUcySlF3TWVHQ2t1bjVUVjNfb2pSN2U3R2wzTTFFVmRWMi1LOWN0bGRoMlhjQzV5V2lZbzl3NVVoUndNSGwxUkJWODVfdVppR1hLbTJDanVkR3gzWlN0XzVzaGxXbnlBTGR3SXhhY2d1dnQ4dWhsSW90VEhtV09vNHZuZUQtVlRjOG1CZXRzYVM1YnVoS185VU92cnlFT0Z3",
-    "85cd071f-e13d-3911-a8af-95c87e48f649"
+    "85cd071f-e13d-3911-a8af-95c87e48f649",
+    "https://www.mmamania.com/466599/ufc-330-results-sooo-about-last-night-makhachev-vs-garry"
   ],
   "daily": {
     "d": "2026-08-23",
