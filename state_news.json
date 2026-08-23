@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Henry Cejudo gets his revenge, pins Merab Dvalishvili in just 36 seconds in RAF 12 main event",
-      "ts": "2026-08-23T03:30:14+00:00"
-    },
-    {
-      "t": "Gregory Rodrigues Defeats Anthony Hernandez in Hard-Fought Headliner",
-      "ts": "2026-08-23T06:09:30+00:00"
-    },
-    {
       "t": "Island Boys’ KodiyakRedd TKO’d in a round against 4’5″ ‘World’s Strongest Dwarf’ Jeremy Smith",
       "ts": "2026-08-23T06:34:05+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Former UFC contender posts statement after losing to Cris Cyborg with a 7-pound weight advantage",
       "ts": "2026-08-23T14:30:00+00:00"
+    },
+    {
+      "t": "\"Keep making it up as you go\" - Anthony Smith posts picture with family and pushes back against reports",
+      "ts": "2026-08-23T14:28:00+00:00"
+    },
+    {
+      "t": "Silva Stops Kimbo Slice Jr At Brand Risk 15",
+      "ts": "2026-08-23T14:30:13+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Sacramento: Anthony Hernandez vs. Gregory Rodrigues expert pick",
-      "url": "https://sports.yahoo.com/articles/ufc-sacramento-anthony-hernandez-vs-044845169.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T04:48:45+00:00"
-    },
-    {
-      "title": "Gregory Rodrigues calls out Dricus Du Plessis after UFC Sacramento win",
-      "url": "https://sports.yahoo.com/articles/gregory-rodrigues-calls-dricus-du-045920350.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T04:59:20+00:00"
-    },
     {
       "title": "Dana White Goes on Another Long Rant About Ian Machado Garry",
       "url": "https://sports.yahoo.com/articles/dana-white-goes-another-long-072712173.html",
@@ -2105,6 +2091,20 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-23T14:30:00+00:00"
+    },
+    {
+      "title": "\"Keep making it up as you go\" - Anthony Smith posts picture with family and pushes back against reports",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOanhaRWxpOW0wYlN3SGdUSWI1bmw5TGFDcmhOYnJweXliQ3hycjIxM3k4elNQNkNOWGNlLVlCbFVTZjB0VXlsbV9VOVJ2OWQ0SVpOX2trWE5obEpfbkd4Z3pnR1lhRnZVT1hHMDlTQXF2aVdhY1c3SV9LcnQ5Y0g3cXQ5N2dnOHNfQXYxUng5REJ2WHN6TU42dENxUmVPLTM2ODItdXJ3YjRNQQ?oc=5",
+      "source": "Sportskeeda",
+      "cat": "ufc",
+      "ts": "2026-08-23T14:28:00+00:00"
+    },
+    {
+      "title": "Silva Stops Kimbo Slice Jr At Brand Risk 15",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9EOHhySTk1M3g1MVNlYUZya1ZhM1N4VW1jQkhXSnR2dFlCQkUyMGdmVmpLTVljdUd1ZzFrQzBKUkc5SEZhdkVmR0d2akxvaWs4QXRTZmxzb2Z1UGR6SU84d1NuZ3Npa0dZQnhyandKd01KbHZGbGd6VzlteUNNUQ?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-23T14:30:13+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMid0FVX3lxTE45Y2w1aDA2bmFKYUxfbHVncWhKRzA1dGt6VzhQUlBNTWktV09Na3dXZlN4Q3F6YU4zdUNSUjJ5bHNtWHdNY3kyOWViM1VNLWdQTW9KRUVnUFVnYk16WFAtb1ZiQnVCSjhOT1hpb2I0TTRIWnRsZkNV",
-    "97a38d45-092d-3ca9-ab1e-aa0f8ee10d0b",
     "CBMirwFBVV95cUxOSThnbm9yU0lKQndpYmt4Z0xTSk40NzNXb0FGT0cxaGMwVnpxQ3pkTm1NSjJNaUhjZlNpUUhYcGpOazh5LU5GeHp2MFU2TFFOSFlmckoxclZjSm5zYUtYaFBVVWNQSlNEVGI3RjFVeWdETmhUaWN2cUItbV9UMkZjRFZKSVNadU9ndXhpLUdrUXNsWWZvcFJua0lBelhFTE9pdnRXVGVGWkJpVTlOeGVZ",
     "CBMibEFVX3lxTE5pVHF2dkdWc2lqUmhOWHN4WnFBTjNmN1RLNnlKWlhaMWdWX1pMTnRCQmhyWWJQdmxaLUc4dUh5RGZ5bmhtSDBqRHRVaV93dWktam5KLVV4YW54VEZJWVRaX0V2cUl0em9YTHc1OQ",
     "CBMipAFBVV95cUxOcHhxbTFkSnJ4a2hKSW1uaC1TdnRxdXU1WWdPNnFDaXJMTFkxUXZZMDVCQllGdTgtdEZySDFyUVZ2VDc0a05VOWVVMlYwUGxJSVF0aGpEelVBeExybmdvSnVPRmFCandXM2VUN2hDWG04X2I1dGVrcnQxNW82YU1uUkhlYWlaU2N0SFVXQUotQV9BVlFibUxfMThzTDBVNDh1aTN6SA",
@@ -3312,7 +3310,9 @@
     "CBMi1wFBVV95cUxPLWFRYlRocU5kRmhWQWZEV0VpQ20zUEZVTmZPcVNxQlFiOWtuTHZPTHM0QURpQ2lCRHFjX3VnODNycFBpYmh6dk1lcFR1cnc4UFNkSkVROHpYSXRCMHc3dG1sY0FXSTYtbHVPUEgzbGpKZTY1ZF9TYkEzU1lNb29MSUpDWHl0cHZaYW52Ukh4eVFoc3R6RURRcWR2UkNKTFB5OGJEVnctd2NkbjNHX2lkYllXQkRrWktaWEc1UUdXamVNZ01ZUzVFaVNYQlNTNTZlRWJ6MEN0WQ",
     "https://www.mmamania.com/?p=466890",
     "CBMiogFBVV95cUxPNENiVGpqdEdORnAtUUhjMWhPTzdTdWE3ZW1kWFc5cWhmQUpMSHk0RlNTWTc5OXhZUVZLb3MtZF9zNm1JR1JBajkwYVctY0tEZEtJOEhlaHNid2ZEbHIxdEJtVGR3akJKeXh1WldGMXk2LU5GbjkyMXpvb3JNaVRWTnhuR3o1bTdVbnZoZU94Zlg1bUdmOXVNNnlKZi03NktOdVE",
-    "https://bloodyelbow.com/?p=328516"
+    "https://bloodyelbow.com/?p=328516",
+    "CBMiqgFBVV95cUxOanhaRWxpOW0wYlN3SGdUSWI1bmw5TGFDcmhOYnJweXliQ3hycjIxM3k4elNQNkNOWGNlLVlCbFVTZjB0VXlsbV9VOVJ2OWQ0SVpOX2trWE5obEpfbkd4Z3pnR1lhRnZVT1hHMDlTQXF2aVdhY1c3SV9LcnQ5Y0g3cXQ5N2dnOHNfQXYxUng5REJ2WHN6TU42dENxUmVPLTM2ODItdXJ3YjRNQQ",
+    "CBMifkFVX3lxTE9EOHhySTk1M3g1MVNlYUZya1ZhM1N4VW1jQkhXSnR2dFlCQkUyMGdmVmpLTVljdUd1ZzFrQzBKUkc5SEZhdkVmR0d2akxvaWs4QXRTZmxzb2Z1UGR6SU84d1NuZ3Npa0dZQnhyandKd01KbHZGbGd6VzlteUNNUQ"
   ],
   "daily": {
     "d": "2026-08-23",
