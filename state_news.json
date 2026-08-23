@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Cyborg title not at stake as opponent misses weight",
-      "ts": "2026-08-22T07:27:25+00:00"
-    },
-    {
       "t": "A whole bunch of unanimous picks for Cyborg’s PFL Tampa retirement",
       "ts": "2026-08-22T12:03:22+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Gregory Rodrigues And Anthony Hernandez Go To War In A Brutal UFC Sacramento Classic",
       "ts": "2026-08-23T03:16:31+00:00"
+    },
+    {
+      "t": "Henry Cejudo gets his revenge, pins Merab Dvalishvili in just 36 seconds in RAF 12 main event",
+      "ts": "2026-08-23T03:22:47+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Sacramento Results: Vitor Petrino defeats Serghei Spivac",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ3pkRkJzWXlqaThiQkR1b3F4bTZ2Ukp6MkhkOS1jS2lKVWxIMHpFd04zR2FGQXRmWlFmU0lhTUNTRHYwVXJZVXJ0eXI2RmpaSlJTTk8yR2VfcEpCbkQxVFl5SXdtalZHQUlsZV9uNW8wQXVERHhhNS1OZzBlNzlaYXE3anJpTnk5RngyTHQ1Z0plcllHZDJxUHN5R19Lbm93M0tBWnNkZk1lQQ?oc=5",
-      "source": "BJPenn.com",
-      "cat": "ufc",
-      "ts": "2026-08-23T02:08:18+00:00"
-    },
     {
       "title": "Vitor Petrino Defeats Spivac by Decision in UFC Sacramento Co-Main",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMFduWk1jQ19QSnBkX0txRU5MZjR2blM2TWdIWG83aWxJZDBuTGNyLW1yZDMzbTFrR2prOEZYM2RvaGg2VmVwSU1LWm84dE1SZURsandHX25pT2xBakN4MEViRlpWa01WYW44Tl82S1JpTTJWd1JiSlYweTI2RXMyajY0WWF6VzY2SHVySUVYRVgtTUpYR1BQWWtYSk9PaW1XRWZONlQwQQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "LowKickMMA.com",
       "cat": "ufc",
       "ts": "2026-08-23T03:16:31+00:00"
+    },
+    {
+      "title": "Henry Cejudo gets his revenge, pins Merab Dvalishvili in just 36 seconds in RAF 12 main event",
+      "url": "https://www.mmafighting.com/raf-wrestling/506626/henry-cejudo-gets-his-revenge-pins-merab-dvalishvili-in-just-36-seconds-in-raf-12-main-event",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-23T03:22:47+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "2090455064397881738",
     "CBMiugFBVV95cUxPaUtBNTJpTXJuRkVXYjUyTGpvS0pFb29Wb0tURWJYV1gwRnNNQ2dYQXprUWhNWWlqZ282ZVE4VlZkMnJqUHZ6aGxoMy1udlB0UzYtTTkyWlUtQXg5UGlSWEpVTzZ1SkVvVUFHUWFFMHE2aDdmYVB0SXZnUmVwMkVyQjUwVUVfV1VYdVVfYkVsakt4X21Hc0ozalYzOVRxMkRydVV5UmR0S3RKTFp3V1lsR01KYUhHOGxvdmc",
     "CBMijwFBVV95cUxNQ0U0ZlRFZzduN3h6RTFnajlDbWFaNU9JeV9mWWo0cHZpN3pSbHc3dVotZDN1WEwyVUlDUjEwQl9fRTNKRmlpVk12bEMtWUlXMHNVMzJiUDFDWmJkSVVDRktBc1FTZkZCM3kwRWdEZzhHbERUMFRubE1obFpjMXhmTzN6NXdidkcyUV9NVUtGWQ",
     "CBMitgFBVV95cUxNdFZ6M29raTJqdG01bGIweEZTWGpsRllIdDBiR2VWVEh2UW9UMDlNcGYzNlZCdkFvc0NFdk1HNE51V2RheTlqZ2lxTi1VYnU1Z2lybzd6Tk9Wd2IxZ0JMVlVheU5LNmJFOC13NnQ1Ny0tMWU1eXZaSWJtam1xczJ2MFpyM29QZ0hVMzhRb3dKWWJMTTZndThjZXBGWU56WjRNbU9rZXlnODUxTEZkb19ObTJRUjJOQQ",
@@ -3312,12 +3311,13 @@
     "CBMiggFBVV95cUxONGE1em1JUnl6VzVOOU5iVnhTT3B3dmg1SThZbHdlM1ZtYkNEdFN6cjdXcUlMQVpjZWhBZHVaTnRtUDlsYTFSbkxucUR5RGcwd3FoZktPZUZaaE1BUEhZNkxzTC1rRHdWUGdBcEhxOHRlVmJ0Z3RuZU1SaUowZXY0TVJ3",
     "CBMitgFBVV95cUxPTG8wcWxiaTZOTk5Pb25rZ1pXVVpKbHpWeGtlUlRrczdobkhiM0tSVkFVY19rbHRQX3RFQ0VLMlYxV3R4blRFNjZLVGp1dndLbzRPRFpUSURSS0Jra1owZmp4SkNrb0haVlNVSzgxcXFVTGFpVlRXTWs5ckZoMzMxcUZYMzFFS1NvZF9NTlhhYXUtQjNXYUVmZHc0X2w0aXlLOEpiSzJnM2JVU2JIOVRzbjlTUFIzdw",
     "CBMiiAFBVV95cUxNdDVmQkxtRlA3QVpUWmJxNW1naTJlb05mdkZrOTNsWmJveU5YT1o0a2tJM3dfSGNscWFyTHIwRXhneWFESGF6MnhHWHljc1dLZXRjcEdUeWhlMGg0MVo4cG4zb1VjcklMRDI0M0U2WHdQMVVlMnNsYWljZ2d0bmI3YUt5UE9EZFFF",
-    "CBMisgFBVV95cUxQaTJyY1gycFpJdXdlSFFUdVRNZDNJVTNKUGlLU0pyT2ZLUUhiQVMyb2t6QU03YVJHempfYl9YSVpYdDNBbzBsdVFkSTNtekdKcmxPeUZGRGdxYUdyQjBrRWI2RkRZWjJubEN1eEQzWkZMejIyUXU0Y2M4NGROTTNNYlJzbU9uUllkUjFBSzhlN25UdTJZdHJKeFU0UXVOWTRSLUVvbElObXk4bEE5SkViRXdB"
+    "CBMisgFBVV95cUxQaTJyY1gycFpJdXdlSFFUdVRNZDNJVTNKUGlLU0pyT2ZLUUhiQVMyb2t6QU03YVJHempfYl9YSVpYdDNBbzBsdVFkSTNtekdKcmxPeUZGRGdxYUdyQjBrRWI2RkRZWjJubEN1eEQzWkZMejIyUXU0Y2M4NGROTTNNYlJzbU9uUllkUjFBSzhlN25UdTJZdHJKeFU0UXVOWTRSLUVvbElObXk4bEE5SkViRXdB",
+    "https://www.mmafighting.com/?p=506626"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 96,
-    "staged": 2
+    "ai": 97,
+    "staged": 3
   },
   "staged_hist": [
     {
@@ -3542,6 +3542,15 @@
         "delgado",
         "announced",
         "noche"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-08-23T03:23:08.007763+00:00",
+      "t": "Henry Cejudo gets his revenge, pins Merab Dvalishvili in just 36 seconds in RAF 12 main event",
+      "names": [
+        "cejudo",
+        "dvalishvili"
       ],
       "img": "photo"
     }
