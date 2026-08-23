@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Vitor Petrino calls for main event slot after UFC Sacramento, open to Valter Walker fight",
-      "ts": "2026-08-22T05:51:26+00:00"
-    },
-    {
       "t": "Bo Nickal and Sean Brady weigh in nearly a whole UFC weight class higher for RAF anniversary card",
       "ts": "2026-08-22T14:30:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "RAF 12 results: Bo Nickal falls to 2026 NCAA champion Max McEnelly in first wrestling loss since 2020",
       "ts": "2026-08-23T02:20:54+00:00"
+    },
+    {
+      "t": "Jean Silva vs. Jose Miguel Delgado Announced as New Noche UFC Main Event",
+      "ts": "2026-08-23T02:18:13+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Sacramento predictions",
-      "url": "https://sports.yahoo.com/articles/ufc-sacramento-predictions-130000245.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-22T13:00:00+00:00"
-    },
     {
       "title": "How are we picking Anthony Hernandez vs. Gregory Rodrigues at UFC Sacramento?",
       "url": "https://sports.yahoo.com/articles/picking-anthony-hernandez-vs-gregory-130138602.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-08-23T02:20:54+00:00"
+    },
+    {
+      "title": "Jean Silva vs. Jose Miguel Delgado Announced as New Noche UFC Main Event",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbEpGd0N3TElyeTlwekh5ZW1GM0tacGNtYlhURkJNZFdtSkxLaE5GUVhCVEFGME42c2p0MnVwaHhxMzlORDM1bDgtRnp5cWUxQ0pFekpwX3FzUTVpQmppUzk2MDhpM0lBZm82dHRQM2c2Z1lsaFdGUnNZWjZ6MmNzVTAwQy01eHJCc1h1dEpHWVl2eFhqQjJmYkVCNjNxZ285MWZTNXNFX1JiaHFpYkE?oc=5",
+      "source": "Cageside Press",
+      "cat": "ufc",
+      "ts": "2026-08-23T02:18:13+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2090447752089964635",
     "2090454790635471271",
     "2090472896015585588",
     "CBMioAFBVV95cUxOWU00QXF0eXl3YVNCMnowTThMRHlLMXpIQ3psM243V0R4TVpZTDl3Vi1NWjVTUkxaZjlFaGdkTUdyRks4dXJ0bnloZEtrcEdVOGpRT3I0enZaN0Q3Z3ZpVkUtWG1wVGtuNlVLN1pUYjNqVFZFMjV4eHhXLWdqcEg2R3NtbWpZUnRmSEc5NlhabW1RYUVvYWpxbUJjQmRUMzFS",
@@ -3312,12 +3311,13 @@
     "CBMiiwFBVV95cUxNaHE3N3ZnZ3RoZ3p1dUdWd2xGRDRvclFpMm9weW51ZXVHRVgyY1YyM0t3clJtSDQxV2xCWkpyTUQ0cnBPVmxMUjVGVHVTQmljaUhxczQtYVZySElMZFZ3bnhDVEdnWDk1WUlZcmFQcnhVbVMzMm5CVmJjQnZlaGpDcjhiRHlLRzZreWZF",
     "CBMiR0FVX3lxTE1LNGV0czlKeTZ0WnVWbXNsLTRPdnRMMDJ0eG1jSVdIOGhRTVU4c2ZERlU3WFhTMmp4Q3hjamhldjdseVRRMXNv",
     "CBMiqwFBVV95cUxOS05zOEhkRXN6S1hXQ0xzNDZzNllYRmR2cU5CZ09CNW13aHhYNmJNRGE5U3lMT1dZY1EzMmpjR3B6UDE1Z2prWjEtUkxyLVE3VUhRX0lCX2hwME5CeHJZQUNrSW81ejhKeWRDTXBVZkU4TU5ZaEZHZzBEeDBGTDhfM0thT2laWXE3Y18wWF9ZblR1a1F2VkFGbEFrQmNJTmNWbXZHMjdWTVRKVG8",
-    "https://www.mmafighting.com/?p=506572"
+    "https://www.mmafighting.com/?p=506572",
+    "CBMirgFBVV95cUxQbEpGd0N3TElyeTlwekh5ZW1GM0tacGNtYlhURkJNZFdtSkxLaE5GUVhCVEFGME42c2p0MnVwaHhxMzlORDM1bDgtRnp5cWUxQ0pFekpwX3FzUTVpQmppUzk2MDhpM0lBZm82dHRQM2c2Z1lsaFdGUnNZWjZ6MmNzVTAwQy01eHJCc1h1dEpHWVl2eFhqQjJmYkVCNjNxZ285MWZTNXNFX1JiaHFpYkE"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 62,
-    "staged": 1
+    "ai": 63,
+    "staged": 2
   },
   "staged_hist": [
     {
@@ -3530,6 +3530,19 @@
       "ts": "2026-08-23T01:41:58.090429+00:00",
       "t": "UFC champion throws in the towel after fighter dislocates shoulder at event",
       "names": [],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-08-23T02:22:25.370637+00:00",
+      "t": "Jean Silva vs. Jose Miguel Delgado Announced as New Noche UFC Main Event",
+      "names": [
+        "silva",
+        "jose",
+        "miguel",
+        "delgado",
+        "announced",
+        "noche"
+      ],
       "img": "photo"
     }
   ]
