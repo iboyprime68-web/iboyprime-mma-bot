@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento video: Chris Padilla puts Nasrat Haqparast to sleep with shocking last-second choke-out",
-      "ts": "2026-08-22T23:15:09+00:00"
-    },
-    {
       "t": "Stan Dorsainvil Defeats Gauge Young at UFC Sacramento",
       "ts": "2026-08-22T22:32:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Anthony Wint",
       "ts": "2026-08-23T01:57:24+00:00"
+    },
+    {
+      "t": "Video: Anderson Silva’s son survives early scare, knocks out Baby Slice at Brand Risk 15",
+      "ts": "2026-08-23T01:58:44+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "5 Times Islam Makhachev SHOCKED The MMA World! Alessandro Tersigni (dRGccDc4Z2)",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55WG8wWXpITTJwZllIaGE2OHNydzdoRlAzaEVuc2hrZFZ4R3dwV182LUR5T0lnT3JkQ0tMUndjaFRTTW1kRDNiRjRvRVl6VzdTZW1jWkxleWhGdGc?oc=5",
-      "source": "Mshale",
-      "cat": "ufc",
-      "ts": "2026-08-22T23:32:23+00:00"
-    },
     {
       "title": "Amanda Serrano’s controversial win over Lucrecia Manzur draws over 3.4 million viewers on TikTok",
       "url": "https://bloodyelbow.com/2026/08/22/amanda-serranos-controversial-win-over-lucrecia-manzur-draws-over-3-4-million-viewers-on-tiktok/",
@@ -2105,6 +2098,13 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-23T01:57:24+00:00"
+    },
+    {
+      "title": "Video: Anderson Silva’s son survives early scare, knocks out Baby Slice at Brand Risk 15",
+      "url": "https://www.mmafighting.com/boxing/506540/video-anderson-silvas-son-survives-early-scare-knocks-out-baby-slice-at-brand-risk-15",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-23T01:58:44+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMilwFBVV95cUxQSlBzSWlTcElYamVVX3A4Z2RVQ3NpWnp2bngwTEpqZFBGRXNDMUkyNFJHUkRkc3lLVk1zWG9yU0RFVkRvU2lEUXRqbmRFWlJHY1NmT25XNU1pd0M5TEVBa2hQZDR0Mkhnd0V3MWdDUGtQVG90QkM4aS1PcklMT0F6UWJSQk83VUVIb0VUMGl3YVUzQXRmMEtr",
     "CBMiwwFBVV95cUxQaXNlWWpNSHdDbU1VUFVrODBtY3ZSb1NkbGp4Q2Y0Wmhmckl2X0ZpVGtSdzQ5YUdIbFl0M216WENzTXJlSmVGTjJ1dXFsTWF4OU0xUEFCZENUWVVEVGs3UkVId0kwRmUzNTItaEg5b05JU1ZtWDV4S3NvRHpQUlBMTXFCV3hrRC1uQmJnMWJ5WmNzYlp6MXZfRUxQelZUbVkzQXJKOTF1akl2QWdhZGdpTHNaLWpJM2ZUSW1kVnh5Qkw2aU0",
     "CBMia0FVX3lxTFBfS3R6Q3RRaXhfY1ZReXk4cU1KeU51b0t6bEY3SFpudmZrMGc5WWJINVVVa2pCMUJNM1lUbThySDNhRktRNEhlNWVQdUE0NUtKMExNUTJjZWJfODAyVnh4OVF2YkRMME9vWDdZ",
     "2090424167099494694",
@@ -3312,11 +3311,12 @@
     "CBMihgFBVV95cUxPSFZkMlByYWlwRnBpT3VXRFhnOFlQVEoxUjVVVlI5a0JwU0MxYVJFVENYcGpvTlZkQU0wZWhaT19aWDRqVkpYOXN3c19ORVRIX0pGWmVXLUhQLXBRVnlHbklNNUJzQmJ5UzdQXzRPelhrZXVXMDFQdm9IUGVKQzN3MnNaSDhPUQ",
     "CBMifEFVX3lxTFBaQVBjOEV5VHJOcDl5TW5Ya3d0QmNFdkpLejRrNjdnd0RQdFBoV0tTUHR4U0tQazZzRE1LQmtKTjZ3UmM3UlNfVFBDSXhlTzNMei1uUW1wZDF5UjFnb0xTUi1DZDh1Z1Z4U1pZT2pDdDN1NlZaMjFST1U1UGc",
     "CBMiR0FVX3lxTE5ja1RqU2RoMmMtMzNkRmowaG1fb1VlOG5IRVM4Nll3dVNXdFdPaVotNTl4dFdYOGlQSE40U1BJbzczTm5nLVJ3",
-    "CBMikwFBVV95cUxQVTlRVHNnbFJ2Z0JSSW9ROUFSNXBDQ0VaeEFjUG9ET0pqQ2cxbzBfOGl1d0RGMkZFaGdhTm9PUHcxUXZ4cXo2NUVuNmJsLVpiUDJNUS1NZDNhTmFNUnlPT0lydExWN29EZy1YWFFmUVBTNTlOMC1wS0hja25QTjF6Si1RZnliRzhhUlAwYWRFdkcwOHc"
+    "CBMikwFBVV95cUxQVTlRVHNnbFJ2Z0JSSW9ROUFSNXBDQ0VaeEFjUG9ET0pqQ2cxbzBfOGl1d0RGMkZFaGdhTm9PUHcxUXZ4cXo2NUVuNmJsLVpiUDJNUS1NZDNhTmFNUnlPT0lydExWN29EZy1YWFFmUVBTNTlOMC1wS0hja25QTjF6Si1RZnliRzhhUlAwYWRFdkcwOHc",
+    "https://www.mmafighting.com/?p=506540"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 49,
+    "ai": 50,
     "staged": 1
   },
   "staged_hist": [
