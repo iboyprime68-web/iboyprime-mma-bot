@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC champion throws in the towel after fighter dislocates shoulder at event",
-      "ts": "2026-08-23T00:42:00+00:00"
-    },
-    {
       "t": "Carli Judice TKO’s Jeisla Chaves With 1st Round Body Kick At UFC Fight Night 285",
       "ts": "2026-08-23T00:44:47+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Bonuses! Gregory Rodrigues banks bonus $100k for upsetting Anthony Hernandez &#124; UFC Sacramento",
       "ts": "2026-08-23T03:43:56+00:00"
+    },
+    {
+      "t": "Bonuses! Robocop Banks Bonus $100k For Fluffy Fireworks",
+      "ts": "2026-08-23T03:43:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Crowd throws objects at ex-UFC fighter for landing several punches after referee waved bout off",
-      "url": "https://bloodyelbow.com/2026/08/22/crowd-throws-objects-at-ex-ufc-fighter-for-landing-several-punches-after-referee-waved-bout-off/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-22T15:00:00+00:00"
-    },
     {
       "title": "UFC Sacramento Start Time, Full Fight Card Details",
       "url": "https://sports.yahoo.com/articles/ufc-sacramento-start-time-full-142900854.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-23T03:43:56+00:00"
+    },
+    {
+      "title": "Bonuses! Robocop Banks Bonus $100k For Fluffy Fireworks",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWEo4clFscXk3cWRrYmJtWGc1a3NFSl9QVTQ1SHhGaUItVWduTXdoWjdDaWNPdVlhYk9GeC0tUVJoa215WGNUcUxydnNHazM5alB2ZU91M0hCdDFnSkkyY3VIN0l1V2N2X1JjQ21zUUlpRFZ6TktCS2c4Y1h2ZGV3cW1DZzF4UUotcGtic0xEd2tpQ1FBRVFKb281ZF9rMzJHakJQRnJQeDg5RlpCZjNMS3dQaklqTVpMYkpkRGEtRlVvck5EMGFGcmp2cll3SGlXN1k1Tk1IVm41OS04?oc=5",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-23T03:43:00+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMikAFBVV95cUxQMXF2RHlMdEZ4ZDRBeDZ6S1ZNRlo3RTFmM0JLcXBCM29qOVRTX0tBRENQNy1Wak5IMXl3U1hWR2pUcXhROWg3OUFJZE93NHVSVmc0Z3J2NGpqTTljd0ptMU5MakpRc01RT3FNcGpwbllFRGE2ZkNUdkVkal91aXB1MmFYQmlwcUtfZ3cwUGtiSkc",
     "CBMinwFBVV95cUxQUE80dER0QU9UU1pJaVNYemlRTG5fWEFEMDlSRGhKQUlaR2tzRnZxS0FZTzllcUxQalNDQ1pCdjVIZ1hUcGcxMXNna00ycWVDcHF2YmZUdlgwVjlEaWtmZUxQZmF1V25zaUNxRFJ5MlY3LUFHZGFPZ3ZkY3FpVHJyNm9Pd1FjaDVMTFFGUGRzVDhEUktsMzNWZEZ2NFYxOVE",
     "02e8f18c-bfd2-3b95-8ace-131127fa9081",
     "CBMiiwFBVV95cUxNS1otaWl5VlRYaHgzWFQyd1FtUWlHS1JxMTBMdHQ1VGN4d0hQQkFCeUd4MDVSdGZJa2xVLWNoSllsaVpwbVNyU3ZLMGJMNWVnUFhCQkN1SDE3YlRqZWkwS1l2SVlyTU9OV2p1WTdzMFBqdFNlVjFlUkkxcmR0UUtacjRPS1NSY3pjdGU4",
@@ -3312,11 +3311,12 @@
     "CBMiswFBVV95cUxNZ0JMZ0xjb1h4Z0VBSFNINk9mSFFWRkU5NS1VRGh3R29wY1lYNV9QN0VGUW91VUR4WF9TbnZ3eGxINFBBeEdVSzNVLW5hVFppVlFiRDBjRXR6ZzhsX04yeVYxa0pLX084YkNBWmpzM2VBdThDeDd4bUFIUGFxdTFlM3FPZXJIdEhJV0RuenJVQmZLWGFXbnpQUS1URzlPcnlzQWFwWlItZTBpQ3FvWFpFcVpEWQ",
     "CBMijAFBVV95cUxQd2hIMktTUGJURldFMGFTeUZDRU9LYzFoMFJSZzgxOE9mR25Nek1vR2pBQ3FncFRrVVZhbVpOZ25DNl9ZcERESHpNa29tYnA4UEVNWU9ES2c2akZybXBocmJ5MGIwU2hLUHRhWGtIVmUwVkdZUm9Ba09yS1R3V2VWZWhZUnVmbmdQaDFpTA",
     "CBMihgFBVV95cUxPY2tIMnJhdkFKaDdXOGZ3anh4NFMwQmFiRW50ZWF5RlpjLUxOek5hd0tfOTFTSGNfc3VTQlhBUzNnaTZXd2VKcG5ZVkdwVV8xeTRBc0VyWG9VNi1lbmpyeW5Vd0JzQ3VCTEg0bHY4RmRNYXhEVUpEbjhQUG5BSFRmN2FsRFB5dw",
-    "https://www.mmamania.com/466591/bonuses-paddy-pimbletts-shocking-submission-earns-extra-100k-ufc-329"
+    "https://www.mmamania.com/466591/bonuses-paddy-pimbletts-shocking-submission-earns-extra-100k-ufc-329",
+    "CBMi3AFBVV95cUxPWEo4clFscXk3cWRrYmJtWGc1a3NFSl9QVTQ1SHhGaUItVWduTXdoWjdDaWNPdVlhYk9GeC0tUVJoa215WGNUcUxydnNHazM5alB2ZU91M0hCdDFnSkkyY3VIN0l1V2N2X1JjQ21zUUlpRFZ6TktCS2c4Y1h2ZGV3cW1DZzF4UUotcGtic0xEd2tpQ1FBRVFKb281ZF9rMzJHakJQRnJQeDg5RlpCZjNMS3dQaklqTVpMYkpkRGEtRlVvck5EMGFGcmp2cll3SGlXN1k1Tk1IVm41OS04"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 110,
+    "ai": 111,
     "staged": 4
   },
   "staged_hist": [
