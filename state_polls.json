@@ -2,10 +2,10 @@
   "v": 2,
   "cursor": 5,
   "staged_at": [
-    "2026-08-21T09:55:21.373193+00:00",
     "2026-08-21T16:56:24.794211+00:00",
     "2026-08-22T09:46:56.659781+00:00",
-    "2026-08-22T16:44:50.584406+00:00"
+    "2026-08-22T16:44:50.584406+00:00",
+    "2026-08-23T09:47:44.965214+00:00"
   ],
   "asked": [
     "Who is the most dangerous striker in the UFC right now?",
@@ -14,23 +14,24 @@
     "Who has the best chin the octagon has ever seen?",
     "Who is the most feared grappler in UFC history?",
     "Who is the most spoiled fighter in UFC history?",
-    "Who is the biggest robbery in UFC history?"
+    "Who is the biggest robbery in UFC history?",
+    "Who is the most exciting grappler in UFC history?"
   ],
   "last_entry": {
-    "q": "Who is the biggest robbery in UFC history?",
+    "q": "Who is the most exciting grappler in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Ross vs. Pichel",
-        "emoji": "🤔"
+        "label": "Charles Oliveira",
+        "emoji": "🐍"
       },
       {
-        "label": "Sanchez vs. Pearson",
-        "emoji": "😡"
+        "label": "Demian Maia",
+        "emoji": "🥋"
       },
       {
-        "label": "Hendricks vs. GSP",
-        "emoji": "😤"
+        "label": "Khabib Nurmagomedov",
+        "emoji": "🐻"
       },
       {
         "label": "Other (comment below)",
