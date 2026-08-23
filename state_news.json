@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento video: Anthony Wint wins debut 11 days after DWCS finish",
-      "ts": "2026-08-23T00:28:41+00:00"
-    },
-    {
       "t": "UFC News: Former New York Jets linebacker Anthony Wint notches win in UFC debut at UFC Sacramento",
       "ts": "2026-08-23T00:34:56+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Cris Cyborg defeats Ketlen Vieira in retirement fight",
       "ts": "2026-08-23T03:35:00+00:00"
+    },
+    {
+      "t": "Tyron Woodley Storms Back From 8-1 Down To Beat Joaquin Buckley 14-8 At RAF 12 - Highlights",
+      "ts": "2026-08-23T03:43:42+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "‘Let’s beat the hell out of this guy’: Lerryan Douglas celebrates working with ‘real fighters’ like Marco Ruas ahead of UFC Sacramento",
-      "url": "https://sports.yahoo.com/articles/let-beat-hell-guy-lerryan-140000295.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-22T14:00:00+00:00"
-    },
     {
       "title": "Bo Nickal and Sean Brady weigh in nearly a whole UFC weight class higher for RAF anniversary card",
       "url": "https://bloodyelbow.com/2026/08/22/bo-nickal-and-sean-brady-weigh-in-nearly-a-whole-ufc-weight-class-higher-for-raf-anniversary-card/",
@@ -2105,6 +2098,13 @@
       "source": "Cleveland.com",
       "cat": "ufc",
       "ts": "2026-08-23T03:27:00+00:00"
+    },
+    {
+      "title": "Tyron Woodley Storms Back From 8-1 Down To Beat Joaquin Buckley 14-8 At RAF 12 - Highlights",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPY2tIMnJhdkFKaDdXOGZ3anh4NFMwQmFiRW50ZWF5RlpjLUxOek5hd0tfOTFTSGNfc3VTQlhBUzNnaTZXd2VKcG5ZVkdwVV8xeTRBc0VyWG9VNi1lbmpyeW5Vd0JzQ3VCTEg0bHY4RmRNYXhEVUpEbjhQUG5BSFRmN2FsRFB5dw?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-23T03:43:42+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "a4bee5f5-337e-32da-a252-afa3296916f7",
     "CBMiqgFBVV95cUxPYVRtNE1xQjJreGF0VUpDWjNEN1A4SEo4aE5FYTNPN0tTcjU2LVRTYWFsSC0xMXhpMnhzWUxCc1JsYUR3N0g4RC0tWTBMdU1UTXp2NWhaUG9LaFc1V2tmY0w4aUwzS3FhSmIybWxBTDJiYXJFY19nOF83LWhWSW03WWxwZEVUalo2QU5TTzl6WV9pQ045a2ZoZ29HdXoyZkloRV8tWTVpY0VuZw",
     "CBMikAFBVV95cUxQMXF2RHlMdEZ4ZDRBeDZ6S1ZNRlo3RTFmM0JLcXBCM29qOVRTX0tBRENQNy1Wak5IMXl3U1hWR2pUcXhROWg3OUFJZE93NHVSVmc0Z3J2NGpqTTljd0ptMU5MakpRc01RT3FNcGpwbllFRGE2ZkNUdkVkal91aXB1MmFYQmlwcUtfZ3cwUGtiSkc",
     "CBMinwFBVV95cUxQUE80dER0QU9UU1pJaVNYemlRTG5fWEFEMDlSRGhKQUlaR2tzRnZxS0FZTzllcUxQalNDQ1pCdjVIZ1hUcGcxMXNna00ycWVDcHF2YmZUdlgwVjlEaWtmZUxQZmF1V25zaUNxRFJ5MlY3LUFHZGFPZ3ZkY3FpVHJyNm9Pd1FjaDVMTFFGUGRzVDhEUktsMzNWZEZ2NFYxOVE",
@@ -3312,11 +3311,12 @@
     "https://www.sherdog.com/news/news/Gregory-Rodrigues-survives-wild-Anthony-Hernandez-rally-at-UFC-Sacramento-202481",
     "CBMitwFBVV95cUxOM3JDTVk4eThicTU5czNaX3UxRlBGSEZwQkFXVlZFcGxhdGJBclZUVmk5d2VtZUk3TXlmX2ctcWtoM2x2Z0JKOVRCb0lwTjZ5NjVEdTJad0JFN0xXWWh3VlI2ZkFIaXJJMDVGUUNqSnRsaG1QalFaSmdOR3oyLUxMN21nSl9udmJ3dWh0eXNKM2RqNksxZ0F3WUotTHA4Uy15OC0tcTRmUUY3SlZlX2F5cmFLSjZJdVU",
     "CBMiswFBVV95cUxNZ0JMZ0xjb1h4Z0VBSFNINk9mSFFWRkU5NS1VRGh3R29wY1lYNV9QN0VGUW91VUR4WF9TbnZ3eGxINFBBeEdVSzNVLW5hVFppVlFiRDBjRXR6ZzhsX04yeVYxa0pLX084YkNBWmpzM2VBdThDeDd4bUFIUGFxdTFlM3FPZXJIdEhJV0RuenJVQmZLWGFXbnpQUS1URzlPcnlzQWFwWlItZTBpQ3FvWFpFcVpEWQ",
-    "CBMijAFBVV95cUxQd2hIMktTUGJURldFMGFTeUZDRU9LYzFoMFJSZzgxOE9mR25Nek1vR2pBQ3FncFRrVVZhbVpOZ25DNl9ZcERESHpNa29tYnA4UEVNWU9ES2c2akZybXBocmJ5MGIwU2hLUHRhWGtIVmUwVkdZUm9Ba09yS1R3V2VWZWhZUnVmbmdQaDFpTA"
+    "CBMijAFBVV95cUxQd2hIMktTUGJURldFMGFTeUZDRU9LYzFoMFJSZzgxOE9mR25Nek1vR2pBQ3FncFRrVVZhbVpOZ25DNl9ZcERESHpNa29tYnA4UEVNWU9ES2c2akZybXBocmJ5MGIwU2hLUHRhWGtIVmUwVkdZUm9Ba09yS1R3V2VWZWhZUnVmbmdQaDFpTA",
+    "CBMihgFBVV95cUxPY2tIMnJhdkFKaDdXOGZ3anh4NFMwQmFiRW50ZWF5RlpjLUxOek5hd0tfOTFTSGNfc3VTQlhBUzNnaTZXd2VKcG5ZVkdwVV8xeTRBc0VyWG9VNi1lbmpyeW5Vd0JzQ3VCTEg0bHY4RmRNYXhEVUpEbjhQUG5BSFRmN2FsRFB5dw"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 108,
+    "ai": 109,
     "staged": 4
   },
   "staged_hist": [
