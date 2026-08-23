@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White Goes on Another Long Rant About Ian Machado Garry",
-      "ts": "2026-08-23T07:27:12+00:00"
-    },
-    {
       "t": "MMA schedule and results 2026",
       "ts": "2026-08-23T07:31:45+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Jorge Masvidal’s Gamebred FC inks broadcast deal with DAZN, next 4 events announced",
       "ts": "2026-08-23T05:10:34+00:00"
+    },
+    {
+      "t": "411 Box Office Report: Spider-Man: Brand New Day Beats Insidious For Fourth Week At #1",
+      "ts": "2026-08-23T19:07:37+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Gable Steveson Says Islam Makhachev Must Pass Jon Jones' Championship Mark In MMA GOAT Race",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcEdndDJlQkY1NGxSUEVCSnJIUWNCYjZRMlpyNDF2M0t0b0V5YkE4bDVRMnZISWN6NV9Hc2M5VzVGRWZGalRRSGtsRDhJa1RIRThISUpTMklpT29HVEVRWU9LTWI0WHpTN2xIbGJMbUZ1X2F6Z2lUS01Hd1R0NGF0RG9NbExxZEJhZTZ2eEEtNHVabkIyYmxDLVVNMWZ6d2xtQUE?oc=5",
-      "source": "MiddleEasy",
-      "cat": "ufc",
-      "ts": "2026-08-23T18:00:00+00:00"
-    },
     {
       "title": "Jordan Burroughs Dominates Sean Brady With 11-0 Tech Fall At RAF 12 – Highlights",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNN3hlVHlXTU1LNHJWUlJSeHVtTlY4cG56OUpTSEktbDhwanQtS2lSU3JzbEMyRnVUYWRFOHVjZWN0MEtnR3V3SlQ0cVRscGhXUnA2eUYtcjRfaVVtZkRLVE1tbnRxRnRJc0Z5LWN2TXpJRnc2aXFZZzdrcXViMjhaSF8tZ1RvYWZXUXJYY3NTRXQ?oc=5",
@@ -2105,15 +2098,21 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-08-23T05:10:34+00:00"
+    },
+    {
+      "title": "411 Box Office Report: Spider-Man: Brand New Day Beats Insidious For Fourth Week At 1",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMHNydXFmb3RXdHYtbFpaV1Z4YVFqVE1zamtHZktlblJxU1dSN1IyQ21nbXk3RHRoQ0NHZ0k5X0liZElzUTRVUGZSUE5aR2k5YlFiWENqOG11ejB2OEJKTmg4alVicVl5YjVZV1RBTWtSaVhUN3ZXTVJhd2l1WjF2VUdjclVDZFRMMUdDYkFMRHJ3Ujdnd09CNw?oc=5",
+      "source": "411MANIA",
+      "cat": "ufc",
+      "ts": "2026-08-23T19:07:37+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
   "hour": [
     "2026-08-23T20",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMiwgFBVV95cUxQTkk5bEJWdjlOWWsxdjB0RjIzZFhzT1Y4cTlBSFZqTXpkT1o5VnE5SWVma2R4bzgyOVJxd3BEZWVMRGt4UjcxbTRsVzRpaVdzWE51UVdQc1NYZHhkaVFlWllDUVd2bUhqZzVHMHpkbU5GRnZ1bUlZMFpmMGRoWHVIbnRWN0hKYlQ5bkR4UXlFWGdWcnRsYURMcEg3akhscWdSY0h1OHJ1WFNSc0hXbWQ1cXI4QnBUVVhwTUVNZVNDd0FKZw",
     "CBMifkFVX3lxTE5YdzBQbjNKNG1PUzdtMDRwOG4xRjBMd1NOakdQQ3BZOXlyWDU4elZ2YkRGRWFJZ2dHUENlQnlzSkxmMGlqRFVtWi1QUG4xUkxGQ2tUdGdTd3JnU2xYN29jaTdRMlZxTzRXZkJkcnBlQUoxLXhRNEk2N0ZnMjhVdw",
     "CBMilwFBVV95cUxPZUVXZ29qYVBNcllFWTU5OFFXRmFpUzUxTlU3RWxHbEZhVmtxcWo0X3RKem9PNWYxVTVCRXYzWEZ6bm0xTk43QlNQaHNGcXVMLVdyMjMyRzcyVVVLRHJBenBYa2R6eWI5MXAtUVNfYlAyQmlNWVhEd3dyZ2dRWkY0Q19iNXIxYlJ0Y09TWi1NM2tXVlpscUZn",
     "CBMikAFBVV95cUxOSjA3by03QkNEWWhYQTYydGo3SFYtUWgwQjlQc0p3Uk9wRnR3MGtyeGtRdDlweTcyM1ZkY3pNSzJqY1ZyZm9sSTFRMGRxOUJMbDNWUmhkRHkyT2pCNG8wRDUxR2JCWU1IRWU2SC1wQTRFLXg5QjRRcTdPNU9BeGR3TlZ2MEZ4cFBHQXdwVi1vQy0",
@@ -3312,7 +3311,8 @@
     "CBMixwFBVV95cUxPZXJjTE1oTzFoMFloSnhJVWdmaHRTemRheWVrVE1DTEpjZ3hsZTVuOUVOV0tHUDlDa1RJN3pZSlROZ3JyUDNYMFUza0RzbDgtbjd5LTVLSHpzZHlVWk9XR3JoSDZjSFJNcUJSMW5USXVNUVNLOXNzaXhRVjd0UGlvajJhRmh1WUxDTlQ0eXJmbW1fbzFSTWMxQ2tDeG9CLTlEUWZKMGdGbUx2VDZ4N1VlNEsyMzQ1ekVKUzRseVd4bWd1WVJKMldv",
     "d97489b7-265d-33a2-ab62-0c86d1d6c2c4",
     "https://bloodyelbow.com/?p=328492",
-    "https://www.mmafighting.com/?p=506384"
+    "https://www.mmafighting.com/?p=506384",
+    "CBMimAFBVV95cUxPMHNydXFmb3RXdHYtbFpaV1Z4YVFqVE1zamtHZktlblJxU1dSN1IyQ21nbXk3RHRoQ0NHZ0k5X0liZElzUTRVUGZSUE5aR2k5YlFiWENqOG11ejB2OEJKTmg4alVicVl5YjVZV1RBTWtSaVhUN3ZXTVJhd2l1WjF2VUdjclVDZFRMMUdDYkFMRHJ3Ujdnd09CNw"
   ],
   "daily": {
     "d": "2026-08-23",
