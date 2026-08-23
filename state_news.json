@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Anthony Hernandez Calls Out Gregory Rodrigues For “Cheating” In UFC Sacramento",
-      "ts": "2026-08-23T07:57:23+00:00"
-    },
-    {
       "t": "Ja'Marr Chase Likes the New \"Mean Joe Burrow\" Stream of National Football League",
       "ts": "2026-08-23T07:41:34+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC BJJ Exec Claims They Have A Really Good Relationship With ADCC Following Announcement Jay Rod Is Out Of ADCC For UFC BJJ",
       "ts": "2026-08-23T12:03:47+00:00"
+    },
+    {
+      "t": "Allar Shows Flashes, Howard Struggles in Shutout Loss Stream of National Football League",
+      "ts": "2026-08-23T11:34:07+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dinamo Zagreb vs. Viking Live Stream of UEFA Champions League",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80d1FYRkhKdXd4WUd3MTVWYkt4YlVPc05SX001SUlkcEZRMkhXRUYwWHI4VmZiR2JhNW9ZR1o4ZnVFZEpSY0oyTnpoOFAyaXRPd01FeUxfb3BscGZWSzVJZzc0YVN4NUdvSFVQbU52UQ?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T09:59:04+00:00"
-    },
     {
       "title": "Lineup for Tonight’s TNA Lockdown: World Tag Team Title Match, More",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hdEV4T3JpY2RPTHlEUTZYVXEyNVJMUm05Vy02NUZYdnNvTS1JeUdseTFvYlVNdldtYTZPdGVwUTJ5TEF1Zm1xTkRpMHdlUENIejV5VVpwTHZJc1pFNEVkUHd0aDhKem5laWpv?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "BJJDOC",
       "cat": "ufc",
       "ts": "2026-08-23T12:03:47+00:00"
+    },
+    {
+      "title": "Allar Shows Flashes, Howard Struggles in Shutout Loss Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcFlqQmwtcHpuRGJnZVEzOXN0dW0zT1FPbXNCdUJMb0ZxU1I5MkVwN19hc1o1TW4teWlOdURrVDRma3ZTSm9wTFU4ZlpneVNENWJmRG9kSmF3blVqa0dmdFpfWnJ5eEJUaWpwdzZadzFHczcySzJjZElHRVdodmE0bnllZ1lpdWdFNERvWjhYaDJwaHA2ZFVmaGFR?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-23T11:34:07+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMilAFBVV95cUxObGVqQmVpVlI0R3k1MVloMTBITXYxQjdkWU52UE5MNEVDbGhlN0V4Q0RVU0NVaEpmZndUU212MGh3UEpWUDJ2Q0d2QnRIUUNCaXdENFFieU9DY3YyUVZIajRiOTRFTzhQRDF5QzBod3R0Vk9CT1JnTkZaQTJMSEYxTV80MVNab0IzV3JXVHZoRS0ybzFG",
     "CBMic0FVX3lxTE5XbGhtUUdHN1F5dWJTalZmOTcwSnhCZVhrOWlWWV9UUWpudmdpMlVsVUhSN2dtUjhGUWExLWZVX2NnMWdoUTVKMkpkeTBmbXh0SnpJYVRxRl9GdU1rbUhFZ2g3ZlBGUEpBZWxERXlyOTI4ZjA",
     "CBMijwFBVV95cUxQN01KSk1vRm80MmFpQkdBelFrU2hqek5vckZ0dVVmaWl0d3lfLTV3MkxlRjdRRVE0MUlraE5ZOWo1eHNJbG5rNmhKWEFNN2gwaEF2WGVjMkNpTzE0elRkZThKNFFmalhaTVhGV2pKV1RaU09UeThNVnNGekJPbzV6NldfYWZleC1PV0EwWWc3aw",
     "CBMilwFBVV95cUxNa1pkQ0FWaFdjTTZ5R0JDWEd6Zy14N2JkZHlyNjlvUUpxOGZkYjZ3LXVJdFN5V0JxVHltQS1oVUZsdlJUc1ViUTR4cjEzTHQyaXNRckYtb3UtWG1aOFlTUEtDYTgwTnM0V0hpbEVTNEZ0bTE2VUV3aXlEay16WkNNUGt2SDNxOXRDN3M5ZENNa3YyWjk0NnJv",
@@ -3312,7 +3311,8 @@
     "CBMi3wFBVV95cUxNcF9KdDQ2a3Q5NDM4Q1UzRmVhNEo2LWdrWU14SGItaVAxR201aFRMNnp3TDBfNVQ5RkcxeHRRQ0ZoNjU3OGs2MEFfQXNwTjd5LW5aV1BXRktZV2hTZjZoeDdJRjE5dGFidXNZRUppT0lPU1JqbGxtdkc0S3pmQWNtSzIyOTVGeENueDdaejFpcGFYdVdUUXhDVUhxVVpoOTA3TnYtbmhTNXE0YndqbHhveDlYUlpiX3RkNnFzMkFlekJka1lfbWZUNDhRSkZKUEduR0ZONWtTLWk2NEIweFJJ",
     "CBMifkFVX3lxTE5GSldBWmZkX0FkVTlVcWJMNFRiVGdNbEVsajZxV2hqcTAxNnpCb3Ixd2VEc0IxYnRoMVI5WnBPNjFVbnBQU21HUV9fcVBTelJCOUJDODVkNk5JYzV3RzdyNURpLWw4TXFKSjBVVzJjd2tFZ05WVjlQbDJfLUR5QQ",
     "CBMimAFBVV95cUxQNFR0ZDdOUk5MX2Q4NEdDUGZUNkg3aUhVcnVORTcxakdUYXhKNzRNU2Q3N0tlTWdoeklqR2pCck9adGJTU2RXcVE0Rlg1X0h3WlliX2V6U010UWJfZmFTU3otZE5LOG1qWnZoV2RBbUc2c1NHTXlWWTRBd2xHSHh1UE5LLXVHLWtSM2pNZE9OaDNSc0RubWJDSA",
-    "CBMi6wFBVV95cUxOeGZwTjZueUxSaUtHUEhwcVpscjR1YzFTR3Z5LVV5V3k4bzVlbVliMzdoSS1Bb0Uwem9qQ1BCUEdaMHdwZm1lSGg5aUJSUDVFQlpzOVJwWHB1M0lzeEJNQVA5SFhwd3g2dnpQMVVGQjF2bzJndUlRcmJVbmQxa2RLYUl1LTZkUjVQM3ZXVmxUNkR1YWgwNDBmT09DUmk1bVUzTUZYTWlxTmh6MmRQR0o5LV8tdEZBTWdIS3lCMTJFdXpYejhsN09Rb0NmVlJsUEtycF9CWXZPSGNVYXNsYVdlR0tOZDFWVlNJYjZz"
+    "CBMi6wFBVV95cUxOeGZwTjZueUxSaUtHUEhwcVpscjR1YzFTR3Z5LVV5V3k4bzVlbVliMzdoSS1Bb0Uwem9qQ1BCUEdaMHdwZm1lSGg5aUJSUDVFQlpzOVJwWHB1M0lzeEJNQVA5SFhwd3g2dnpQMVVGQjF2bzJndUlRcmJVbmQxa2RLYUl1LTZkUjVQM3ZXVmxUNkR1YWgwNDBmT09DUmk1bVUzTUZYTWlxTmh6MmRQR0o5LV8tdEZBTWdIS3lCMTJFdXpYejhsN09Rb0NmVlJsUEtycF9CWXZPSGNVYXNsYVdlR0tOZDFWVlNJYjZz",
+    "CBMimgFBVV95cUxOcFlqQmwtcHpuRGJnZVEzOXN0dW0zT1FPbXNCdUJMb0ZxU1I5MkVwN19hc1o1TW4teWlOdURrVDRma3ZTSm9wTFU4ZlpneVNENWJmRG9kSmF3blVqa0dmdFpfWnJ5eEJUaWpwdzZadzFHczcySzJjZElHRVdodmE0bnllZ1lpdWdFNERvWjhYaDJwaHA2ZFVmaGFR"
   ],
   "daily": {
     "d": "2026-08-23",
