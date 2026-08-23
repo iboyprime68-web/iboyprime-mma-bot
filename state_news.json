@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Former UFC contender posts statement after losing to Cris Cyborg with a 7-pound weight advantage",
-      "ts": "2026-08-23T14:30:00+00:00"
-    },
-    {
       "t": "Swanson: Lerryan Douglas broke orbital bone in UFC Sacramento loss to Emmers",
       "ts": "2026-08-23T14:30:43+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "UFC 330: Lucas Fernando styles on Rafael Tobias for debut TKO",
       "ts": "2026-08-23T21:42:45+00:00"
+    },
+    {
+      "t": "DWCS 89 Features Bella Mir in Search of UFC Deal Tuesday!",
+      "ts": "2026-08-23T21:57:48+00:00"
     }
   ],
   "digest_items": [
@@ -1769,6 +1769,13 @@
       "source": "AOL.com",
       "cat": "ufc",
       "ts": "2026-08-23T21:42:45+00:00"
+    },
+    {
+      "title": "DWCS 89 Features Bella Mir in Search of UFC Deal Tuesday!",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOenQzTER6OE5QSldIVjZna3RnU0poczRTeGlMVjNINTRiMUoyT29VdTVkR1dsTF9mamtNM1NIRkJFWHRMZW9kVThxa3NVSkNmc2NjUC1HUWptQ1FOSTkwQ2JpNVVHUG4wUnY5MXhpOUdZOXlxMjl2M0VqT1JTVzBSMzJYNm00NVVWVkxvWGt3YU9zNnR5SkIw?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-23T21:57:48+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -1777,7 +1784,6 @@
     6
   ],
   "yt_eval": [
-    "CBMilAFBVV95cUxOUDkwRURCS0tOZDFmRVRZbzN6RUNxdnVpX09fVU5pRzJLVndaUi1zS2JIVVduS05nYk80bnpCblBlRm5wS2FfcEZqcHJyeGZOWWMzdTRVWFk1YlBhV04tZGV2djNwOVNtTVJYd3hoZnQ3Y0RZZ2VsVWp6b0FwWDlYMXpTNkF5enhRWlBXSU05SFV6ckV2",
     "CBMiwAFBVV95cUxQWFNLR2dhVVJvYm1pN3EwUVNHOGZ4bHVnb1pTOFVGdG5kcnJuWjZ2VHh4UjAybm01am1LaWszbVRuOF9rNkc2V3lkZ3RIQmZleHZ3WUlYdEwyUU15X3NKSXhXZ3hfTzJsZVhHTEw2SUFUVGxDQThxTE10a1ZFYlVuSXpJRzJBeW1HYXNEUzV2dG5jbjBSR3NYX2VYM2JldEFCcXl5UEIxVTBpMW4tb1pDaXgybGlNQjVXSmFLMnVSb1A",
     "CBMihgFBVV95cUxPQ1NuV09QMks3UUkwZHNXNUFtaklpdVhQZUkwdlNBM1BrcnNmYU9Icm9zZk9SU0hOcnRvUUVVUVExQjZrT2VUaXBKNUdzR1dxa1VBNFFwbjdtZHl4T2VSV0ZhY1FRM0tHaGRzbW1ISThfMkFVRVVRNUIyLWpsSVo4dGJZeGU2UQ",
     "CBMiggFBVV95cUxPV21SemNreWQzTGtWVkdrS1JIOUJ5ZEZQaWdqOFpldll4ZU1mUkNxbERTNjBxRXBZVWthNERISy0wN1hMbzh4b292UENyYXRvMkRHSmVrSlpGOGR3X25LYWowRVE0NU9Memk3eEl4MjltRHhqS214MW01b3BKYXduc1ZR",
@@ -2976,7 +2982,8 @@
     "CBMiqgFBVV95cUxNUi01VFBZZGRvaTlyOVdCV1k0OW8yWHlTQXRRV3NqSHdEeEZkUDRMTlhTZDcwaHRCYlFrS3VqTDBUQm1EcDFicDlGSjBoN0Q2NjJPR3JRVENPckRtdU9sQ3FMbXFjd1dFazJrNDg4RGp2MzQ4b2hvbV9Na3VzYjRoZlZPSlRtTGg0ZzR4NjEwRlg2V1JYTmtoRVhuX0dTVFV5Z3ZTTjU3aHlHQQ",
     "CBMiqgFBVV95cUxOWFg3NGRlSUtDM1dSVlZ4U2ZHbk5Td0pDNkxRcldTVjhwUURHckVock9mN1JiOG5yMWhPeDNVQW9hUXp3cGVwOTNWbGNpNk9rTXFGYWFsbG9oanNDdFJiUmJrZ19JVkhJQU9jaDl5WmdlVExHcHRheWJtSDVzTmVjOEJuQ25xSVpEZXR2V2w0OXdMckhWcHJkbHp2UVFqSzg1dDhTR1lUTGhydw",
     "CBMimwFBVV95cUxOSDRXMVNZdy14cFRKVEZpNUU3UWVrdDJQMFVXWjkzY0w5S2hzNHAxOHJ4WlRWc2RWTThHcU1ZLXRULVp1QWw1a05ockFvbjU3TkFjRU9MczE0NlJfUjkwYm5mUkdkRndqV0RkdmMyS3dEQzVpV200d3VJQW1mR0FjMnJqdDRwcmNNU3pOVXRtMWxaWE5DWFFUWFlWNA",
-    "CBMifkFVX3lxTE1JSHRPRXdsMW5wWWJjNi1zdXUtNFdjUzQxbGdzY0tMTDJYRWZzUlF2aVZ1bXZtVE5HQjJaSHUtOEhKZzJGNXRpTkpVek1BVVpoUlJwekUwd2xfVndZMEN1ZjdZZnJzUF9pZXhPLWJlNjZ5d3lWRFk4aUZSUlBMQQ"
+    "CBMifkFVX3lxTE1JSHRPRXdsMW5wWWJjNi1zdXUtNFdjUzQxbGdzY0tMTDJYRWZzUlF2aVZ1bXZtVE5HQjJaSHUtOEhKZzJGNXRpTkpVek1BVVpoUlJwekUwd2xfVndZMEN1ZjdZZnJzUF9pZXhPLWJlNjZ5d3lWRFk4aUZSUlBMQQ",
+    "CBMilwFBVV95cUxOenQzTER6OE5QSldIVjZna3RnU0poczRTeGlMVjNINTRiMUoyT29VdTVkR1dsTF9mamtNM1NIRkJFWHRMZW9kVThxa3NVSkNmc2NjUC1HUWptQ1FOSTkwQ2JpNVVHUG4wUnY5MXhpOUdZOXlxMjl2M0VqT1JTVzBSMzJYNm00NVVWVkxvWGt3YU9zNnR5SkIw"
   ],
   "daily": {
     "d": "2026-08-23",
