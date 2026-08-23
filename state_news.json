@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Rafael dos Anjos returns against Alexander Hernandez at UFC 332",
-      "ts": "2026-08-21T22:21:18+00:00"
-    },
-    {
       "t": "UFC Sacramento weigh-in results: Anthony Hernandez's Octagon return set",
       "ts": "2026-08-21T23:41:53+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Video: UFC legend’s son survives early scare, knocks out Baby Slice",
       "ts": "2026-08-23T01:58:00+00:00"
+    },
+    {
+      "t": "UFC Sacramento Results: Vitor Petrino defeats Serghei Spivac",
+      "ts": "2026-08-23T02:08:18+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Paddy Pimblett’s manager demands ‘common sense’ after commission withholds his UFC 329 purse",
-      "url": "https://bloodyelbow.com/2026/08/22/paddy-pimbletts-manager-demands-common-sense-after-commission-withholds-his-ufc-329-purse/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-22T22:00:00+00:00"
-    },
     {
       "title": "RAF 12 live results: Merab Dvalishvili vs. Henry Cejudo 2 round-by-round updates for wrestling card",
       "url": "https://sports.yahoo.com/wrestling/live/raf-12-live-results-merab-dvalishvili-vs-henry-cejudo-2-round-by-round-updates-for-wrestling-card-063000012.html",
@@ -2105,15 +2098,21 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-23T01:58:00+00:00"
+    },
+    {
+      "title": "UFC Sacramento Results: Vitor Petrino defeats Serghei Spivac",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ3pkRkJzWXlqaThiQkR1b3F4bTZ2Ukp6MkhkOS1jS2lKVWxIMHpFd04zR2FGQXRmWlFmU0lhTUNTRHYwVXJZVXJ0eXI2RmpaSlJTTk8yR2VfcEpCbkQxVFl5SXdtalZHQUlsZV9uNW8wQXVERHhhNS1OZzBlNzlaYXE3anJpTnk5RngyTHQ1Z0plcllHZDJxUHN5R19Lbm93M0tBWnNkZk1lQQ?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-08-23T02:08:18+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
   "hour": [
     "2026-08-23T02",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMikwFBVV95cUxQOFpGVWMwMTE2QzR0OVlNV2xfOEplMWp2X215RUZvY3gtWlc2MjZFTXM0MUJaTVh2ZVQxUzBVcVpJd0dzTkhYWlZ4TWt5dzNnS2MtZG5KdXpmNnhvVXNqRzY2TUZVSmZ0V21OQWFzaDJqNmUzUHQzaXB0QTYwN2dNRUhXYzA1UW5mMW9MU0RVbHNkTHc",
     "CBMipgFBVV95cUxOUVowZTdQdWFCUGdObWFjYmNONmhQMFNpX182NF9jRzJkZTNGcmVDUldxdm56Rm1lNkhDdmVlLXRRLVNrSzFnMG5nMjBLLUlnSWxPY0t1aWg4YmxMX3lqM0ZwRVVDYVVnY20wcWtZTXFENzZDY0ZBRTUzMmdVVWIySW5aNjkzdlEtaVMzNm8xT2VXMmpTWUlYeGlMQ1BWWUNGTTZiS1hR0gGrAUFVX3lxTE5WcFpqZUl6X3FrYTloeExoQm9rbFpQTDMwOWFXOE9vaWdQNEdnX2dSUldTTC1mMG9HUjh0UVlvZU1hQXBHNDUxTTh5MTZWNmd1ZWdraEZ5c1hIcGdYZDRFNkRvemkxMG9rWFBxSEJnbG8yeHhjbmNRTlN6ME5iZDJxVnhTbUFvZ0R4MHJjZ05IbTJaeDRZN244N2J4bDhFRzVnSzN0YzRLTnlwYw",
     "CBMinAFBVV95cUxPR0h5VlptZEpnWFI5RWRIUWtoaGdOTmhITVp4akw2UDNOQlh4bV9vMDViVXN5QVprU0RUMmEzSGRHOVoxcDFUeC1jYXhBTEVheG1NTndTX01FbElVdk5oazc3LXZZNl9xNXJLYm5OZ2Ixd0ZnUEVrNDk3QkpNR204SDREZmliel9ObmZjVlNtRVZ3eFVmejh5ellwbG8",
     "CBMigwJBVV95cUxNV0ZUVk5keXlxZkx0aGNUYmRpWVBkSGNoaU5va25ia2JuaFIzQ3QyTk9xWDBXaElFOUs2eHc5Y3pFQUJXQzdzY0lWWmRTTGFhbmVnUVAwRW80ZmFrRG56ME1EdU5mV1JLaGUybzhwLTFFRVFoeV9Tdnk0MjFXRUk0MjNtV2RaQzJ3VHBRSy02STU2d1lEdEQzLWt2T1VnZk00azJENkxWSnd0SlJWalhGMHRSUmNqOG5mQ2x5ZW95d0JkMWRqYlhFbFd1ZGttUDl3RDZKOWlVbUM5Nk5sa01reVdIdEdPVlYxYWRKWENNUkpLMUx2aDFVXzh3QnJrOXZxS0M40gGIAkFVX3lxTE5qdkdNdDNKUFFzbHNkNURyUGZwWEZYcUxIbU53eHc4VG9nMzZGRURLa2pxVWF3ajdyUTF1VDFXOUNmRU1pajBDMXg5ckstTHRGdWRVNkd1VEdBcjNpZ1JOOUJnemlaVGJKYndLQkN6VnZQaFJfSVBXcUFiWDBzQVJocUllTzNMUWczNU04NlgwWlc2S1R4TE5UZ0QwNm1LdEd2X19QSFUyM0pyWXdzcVFRWjd5SUtHMnBRQnByTU4yTUl0WFI5Z2ljUmpORHBFUDdkMU14dEhHZXFCb1U1NHdfNjllU05HWmRyTUdiMVctdzFUSnRUUmRTa19xaE1tYU1nTFRCQkVuRg",
@@ -3312,11 +3311,12 @@
     "CBMiekFVX3lxTE5jV0Nqbkp2V2NRcDJqbXFOTkNtTk9OM2N5VzJ3RzRsTmFjX2FpVmJodmoxQ2VuNWxoUVNBQ1hObnRPVHVqMXBnMUV5Vjk1YjRpakpodXE3a0hFZGJFUTJhUUIzOEpaNFZ3cEk5cHJOdV9OQkx1RVZhZFlR",
     "CBMiggFBVV95cUxNY3NiYVRuNXduVlJpRzJBVmZ6Rnp3NkRFMnZ0VWQ0eGlqODZ6bnpYaFU4cVRVdUhTUFVvMUs1b3dyRmQ2SHNaRk5tbkNuaDZJa00yVmltSDk0QjR3MjlxWThhdHpwU2ZNSmZGY3dpY0xuZ3VhRjd0VEo4VV9qbUR3LXBn",
     "CBMi2AFBVV95cUxOTDJhbm55UHhjWVNycG5LRkdFZzFYbTVWT2twTU1GOWlXTnJONTktbUM2OXduaVE4aGJERl9JQzg3VFpkMXhzQ2lPYW9WTHlndERTbTdNMmx3QVl4dW1kWlRXV2gxNGhkZDJmUlJqbFV6N1k2VEM1TFlSSkRSOWh5RF9tZG5PUFJ2VWhtWkpqdU9vYUlJQ1N2WW9rNzNFWmdQNkRla24xODdfeW43LUcxOEtoZVRGVkFZWXBXTUxqZ3lmb18wdXFoN0dnWk5adjA4bnJwUlZIaFk",
-    "CBMihAFBVV95cUxOaGUwUUVXY3N0YXdpS0ExZ0FsWFk2YTNOSXBqbG5ydVNLNzF4cEpHdkptWlNrYS1FT045MmlVWmNDOWItMjF1OGhkWGY3clVSd3AtT1hDaDhreDVFc0RhSXltRl9raEM5b2VSb3lBb2JKWGlWY3dNbkhUNUZxcE1WdlJ5RVk"
+    "CBMihAFBVV95cUxOaGUwUUVXY3N0YXdpS0ExZ0FsWFk2YTNOSXBqbG5ydVNLNzF4cEpHdkptWlNrYS1FT045MmlVWmNDOWItMjF1OGhkWGY3clVSd3AtT1hDaDhreDVFc0RhSXltRl9raEM5b2VSb3lBb2JKWGlWY3dNbkhUNUZxcE1WdlJ5RVk",
+    "CBMiqgFBVV95cUxQQ3pkRkJzWXlqaThiQkR1b3F4bTZ2Ukp6MkhkOS1jS2lKVWxIMHpFd04zR2FGQXRmWlFmU0lhTUNTRHYwVXJZVXJ0eXI2RmpaSlJTTk8yR2VfcEpCbkQxVFl5SXdtalZHQUlsZV9uNW8wQXVERHhhNS1OZzBlNzlaYXE3anJpTnk5RngyTHQ1Z0plcllHZDJxUHN5R19Lbm93M0tBWnNkZk1lQQ"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 55,
+    "ai": 56,
     "staged": 1
   },
   "staged_hist": [
