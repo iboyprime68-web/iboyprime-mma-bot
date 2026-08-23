@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "How to use Kalshi and Polymarket for UFC Fight Night: Trade UFC prediction markets",
-      "ts": "2026-08-22T14:30:02+00:00"
-    },
-    {
       "t": "Brand Risk 15 Results: McBroom vs. Temperr",
       "ts": "2026-08-22T14:47:51+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "LIVE! Watch UFC Sacramento post-fight press conference video stream &#124; Hernandez vs. Rodrigues",
       "ts": "2026-08-23T00:04:01+00:00"
+    },
+    {
+      "t": "Vitor Petrino Octagon Interview | UFC Sacramento",
+      "ts": "2026-08-23T02:31:07+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Gable Steveson wants UFC title ‘as fast as possible,’ but doesn’t want to rush",
-      "url": "https://sports.yahoo.com/articles/gable-steveson-wants-ufc-title-160000923.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-22T16:00:00+00:00"
-    },
     {
       "title": "Mason Jones vs. MarQuel Mederos prediction, pick for UFC Fight Night 285",
       "url": "https://sports.yahoo.com/articles/mason-jones-vs-marquel-mederos-160046842.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-23T00:04:01+00:00"
+    },
+    {
+      "title": "Vitor Petrino Octagon Interview UFC Sacramento",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ISGN2LVpVdExKZmt0U2JpT2YzNk1vNks4SDZPMk42aC1LdE5HLTEwOXVLdm1LOXBqdkJMekxBbG0tMWM1RklV?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-23T02:31:07+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2090472896015585588",
     "CBMioAFBVV95cUxOWU00QXF0eXl3YVNCMnowTThMRHlLMXpIQ3psM243V0R4TVpZTDl3Vi1NWjVTUkxaZjlFaGdkTUdyRks4dXJ0bnloZEtrcEdVOGpRT3I0enZaN0Q3Z3ZpVkUtWG1wVGtuNlVLN1pUYjNqVFZFMjV4eHhXLWdqcEg2R3NtbWpZUnRmSEc5NlhabW1RYUVvYWpxbUJjQmRUMzFS",
     "https://bloodyelbow.com/?p=327985",
     "CBMikAFBVV95cUxPR3JBSEVWbEVHNEtSZnF6dG9XUVYtblpfX1J3czViaE1iVUhmU1dWd08zSDYwbl80MDlMbHBabERUZXpXNE1yS2xaSVQ4NEhqVVYzelZzRjVRN2tzNkxvX1FRc1Z4cHZtcS1ZNjVIc3dORHBVdXR3TTV0STdIU2otZFZ5MTgzaFhERTFzdkxUTEs",
@@ -3312,11 +3311,12 @@
     "CBMiqwFBVV95cUxOS05zOEhkRXN6S1hXQ0xzNDZzNllYRmR2cU5CZ09CNW13aHhYNmJNRGE5U3lMT1dZY1EzMmpjR3B6UDE1Z2prWjEtUkxyLVE3VUhRX0lCX2hwME5CeHJZQUNrSW81ejhKeWRDTXBVZkU4TU5ZaEZHZzBEeDBGTDhfM0thT2laWXE3Y18wWF9ZblR1a1F2VkFGbEFrQmNJTmNWbXZHMjdWTVRKVG8",
     "https://www.mmafighting.com/?p=506572",
     "CBMirgFBVV95cUxQbEpGd0N3TElyeTlwekh5ZW1GM0tacGNtYlhURkJNZFdtSkxLaE5GUVhCVEFGME42c2p0MnVwaHhxMzlORDM1bDgtRnp5cWUxQ0pFekpwX3FzUTVpQmppUzk2MDhpM0lBZm82dHRQM2c2Z1lsaFdGUnNZWjZ6MmNzVTAwQy01eHJCc1h1dEpHWVl2eFhqQjJmYkVCNjNxZ285MWZTNXNFX1JiaHFpYkE",
-    "https://www.mmamania.com/466593/live-watch-ufc-329-post-fight-press-conference-video-stream-mcgregor-vs-holloway-2"
+    "https://www.mmamania.com/466593/live-watch-ufc-329-post-fight-press-conference-video-stream-mcgregor-vs-holloway-2",
+    "CBMiR0FVX3lxTE1ISGN2LVpVdExKZmt0U2JpT2YzNk1vNks4SDZPMk42aC1LdE5HLTEwOXVLdm1LOXBqdkJMekxBbG0tMWM1RklV"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 64,
+    "ai": 65,
     "staged": 2
   },
   "staged_hist": [
