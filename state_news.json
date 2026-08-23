@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Jhonata Diniz: UFC Record, Stats and Fighter Profile",
-      "ts": "2026-08-22T23:59:23+00:00"
-    },
-    {
-      "t": "Gregory Rodrigues: UFC Record, Ranking and Fight Time",
-      "ts": "2026-08-22T23:15:36+00:00"
-    },
-    {
       "t": "Gable Steveson Reacts to Sean Sharaf Matchup at UFC 331",
       "ts": "2026-08-22T23:43:15+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Merab Dvalishvili reveals heartbreaking update on his dating life: “I Give Up\"",
       "ts": "2026-08-23T03:00:44+00:00"
+    },
+    {
+      "t": "RAF 12 results: Jordan Burroughs slams Sean Brady before winning 11-0 shutout victory",
+      "ts": "2026-08-23T03:02:38+00:00"
+    },
+    {
+      "t": "RAF 12 Results: Dvalishvili vs. Cejudo 2",
+      "ts": "2026-08-23T03:08:40+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Ex-NFL star lands Round One sub in UFC Sacramento debut 11 days after winning Dana White’s Contender Series contract",
-      "url": "https://bloodyelbow.com/2026/08/22/ex-nfl-star-lands-round-one-sub-in-ufc-sacramento-debut-11-days-after-winning-dana-whites-contender-series-contract/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-23T01:49:53+00:00"
-    },
-    {
-      "title": "Reinier de Ridder Succeeds In Light Heavyweight UFC Debut",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXVLdjVYZjE5Rno3bnZHdDZuOE1RalotbTd3WW9zRTVrVmZLdDZOVnJtN19JZUtsV3drdkZ4aExaeUJxeVF2ZDVVRnlSUkFWa3ZPOEFYajMwaU9lUzJ2TjVUUE5lZFlLRmtFWUoxS1NBdFkyRnYtYVpRSlBNWllUMUJ3?oc=5",
-      "source": "MMANews.com",
-      "cat": "ufc",
-      "ts": "2026-08-23T01:48:27+00:00"
-    },
     {
       "title": "MarQuel Mederos Batters Mason Jones For Round 2 TKO At UFC Sacramento – Highlights",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSFZkMlByYWlwRnBpT3VXRFhnOFlQVEoxUjVVVlI5a0JwU0MxYVJFVENYcGpvTlZkQU0wZWhaT19aWDRqVkpYOXN3c19ORVRIX0pGWmVXLUhQLXBRVnlHbklNNUJzQmJ5UzdQXzRPelhrZXVXMDFQdm9IUGVKQzN3MnNaSDhPUQ?oc=5",
@@ -2105,6 +2091,20 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-23T03:00:00+00:00"
+    },
+    {
+      "title": "RAF 12 results: Jordan Burroughs slams Sean Brady before winning 11-0 shutout victory",
+      "url": "https://www.mmafighting.com/raf-wrestling/506577/raf-12-results-jordan-burroughs-slams-sean-brady-before-winning-11-0-shutout-victory",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-23T03:02:38+00:00"
+    },
+    {
+      "title": "RAF 12 Results: Dvalishvili vs. Cejudo 2",
+      "url": "https://www.mmafighting.com/raf-wrestling/506099/raf-12-results-dvalishvili-vs-cejudo-2",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-23T03:08:40+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiiwFBVV95cUxNY0JIZWJUaXVDaXJpamxpN1IzUU5odWl2LWg3cU1OVW1wMEM4UVc1RjdaTHM4VUNNdWZfb3k4ZWpPWW5PYjdmSUxPdmZVLUNVUndGakxTdnhZU0Y0N1YtMHhsYUVXbXhCOVlLX3MyM0dkNTZxZHJtdkk5STJtUmZBUkIwdkFyR0MwcWhr",
     "CBMiqgFBVV95cUxQRVpGcGZIdmQwMEYtenphS0hyRHRqR0dndHNzQ0swOWtfU2JYcEtJalQyVHNoeE1IOFFSRlhiNzk3N2FUcFBTN0NLODVjckhwSzY3SDZ2RmpNd2diWnh3cjNJYWRoM3pjT0tJdUpkd25scEZZOVBpcVhhSjFlcjhGQURBYThrUmwzb2pqRUYyS3JQVlVVcFFiOHVwYVkzcGc0Y0lCNVRrUEVHZw",
     "CBMigAJBVV95cUxQdWs4eEFLc0ZUTVRDdm40ay1MUVB3NlNia05EUnNfSUdQQ2pFaEFrZVlOSUE3aGRKcjl3TE5LV0Q2WlJCMDZyQXdzYlJ1YXY4MmZOM0x3LWx6VEhOcmFKTWU5TG9BYl84MVJlT2toTWFCdk1GeTRjSWVIVF8xN1NkX2t4MTdwVGVnTnhyeS1DYjBhdWlFSmwzV0RsNUEydTlWN2pMNTNWeHlZUTNDelBHTVNyZFM0UncxOTgwUEJteTBzNTY1R1NvSkQzeEFTMUxpWjNMZnFEV1NGSlN1SkpDU2NrbnJmNHNEOTAzLWpxZ1lGZy14dW5ITVp1blM0TUZC",
     "CBMiS0FVX3lxTE56c1hEaWdtZXF6aUJYT1lTd1N4LWMwOVVYU0cwTXhZOUxnZVBIWTlmejdqZUh2dGk2YUk0bXJMSlhRUl9TLTg5UW16NA",
@@ -3312,11 +3311,12 @@
     "CBMiqAFBVV95cUxNMUkwWGdOaE9UWW10dmtzaFdrWnJXa3lRTnBpVzFSc2JBRUV3VWt3M0tOT0xFTVNQck00NUJsbmlYVEVFSGptZUYwREpqbF9MOEtVY0JoMW1sZ1dTUW5sMjBnSjN4ZEZ4US1lcHlJWFJKazhFSmN1U3FpdEl5V3dfWWRNRnM4Z29FTTgyb0NTNExrQ1E1ejdTQzlFWElmZmRKa0ZTTWNhc0I",
     "CBMid0FVX3lxTE9tcFhWSUR2cHZyOW5zaDJ4emlpY0p5MHl0Ukp2OWNqaS1Bd21XelRkQ3JkaTFaRjJwR0UxRjIxOG05V3JVdU9laTVVTlRpNU5PSlppenR5YzFtTGNtVkFXeXVDd3doZ0lCWTBwQ0ZDNGdPWkdDSC1n",
     "CBMisAFBVV95cUxQTHBCSm1NZllFNHcwTkN2TGpNTnR6SjllU3VvQUxTakloUElVYV9UeXlPd3FpMmlxdnRBV1lxRUJYVHhqRjQ5cG94UzhvRlc2RWUtVng3dkxkcWNQbExJXzdZODVVbjBaQjlEa2xuNW93bnZXaDc0UHhfOHlrbVllTDVfNElXQ0k5R3BIaUg4Z2tzUDFicDNYT2VnYjB2azE4V2kzeUczVFpoRmxGckJRSQ",
-    "CBMizgFBVV95cUxOZkF3amdKSFp0eHc0eHQ1aEp3Q1QyekJ2Wm9WcGR2RTBSSER5YlQwWERrRTltOGo1T0pMNlpmVjktc3YydUdlWE13Y1Z6T1RHUTVVZjNUREpWVHU1d3lMakxEc2VSZE9VeFJoTFZGQk10SC0ycGRlNVZaNjdTaWRiVVJUMGhnbndXUXNWY1F4MFgzUFg3V25pTmpWVkROUFdCWVY4MzBlRUVheHE2eGVtRW8tLUU4YjAwSTVXSmhMZnNnWWtGOVpjWVBwOThMdw"
+    "CBMizgFBVV95cUxOZkF3amdKSFp0eHc0eHQ1aEp3Q1QyekJ2Wm9WcGR2RTBSSER5YlQwWERrRTltOGo1T0pMNlpmVjktc3YydUdlWE13Y1Z6T1RHUTVVZjNUREpWVHU1d3lMakxEc2VSZE9VeFJoTFZGQk10SC0ycGRlNVZaNjdTaWRiVVJUMGhnbndXUXNWY1F4MFgzUFg3V25pTmpWVkROUFdCWVY4MzBlRUVheHE2eGVtRW8tLUU4YjAwSTVXSmhMZnNnWWtGOVpjWVBwOThMdw",
+    "https://www.mmafighting.com/?p=506577"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 83,
+    "ai": 84,
     "staged": 2
   },
   "staged_hist": [
