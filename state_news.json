@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/456906/ufc-baku-live-results-highlights-play-by-play-fiziev-vs-torres",
     "https://www.mmamania.com/456907/ufc-bakus-best-betting-props-parlays-and-picks-fiziev-vs-torres",
     "https://www.mmamania.com/457045/mm-clone",
     "https://www.mmamania.com/457049/ufc-baku-main-card-odds-breakdowns-and-predictions-x-factor",
@@ -1156,6 +1155,7 @@
     "https://www.sherdog.com/news/news/UFC-Edmonton-just-got-a-major-injection-of-Canadian-talent-202301",
     "https://www.sherdog.com/news/news/UFC-Sacramento-Hernandez-vs-Rodrigues-playbyplay-results-round-scoring-202479",
     "https://www.sherdog.com/news/news/UFC-Sacramento-How-to-watch-Hernandez-vs-Rodrigues-start-time-202456",
+    "https://www.sherdog.com/news/news/UFC-Sacramento-bonuses-Carli-Judice-3-fighters-take-home-36100K-202482",
     "https://www.sherdog.com/news/news/UFC-Sacramento-weighin-results-Anthony-Hernandezs-Octagon-return-set-202472",
     "https://www.sherdog.com/news/news/UFC-Vegas-118-Muhammad-vs-Bonfim-playbyplay-results-round-scoring-201445",
     "https://www.sherdog.com/news/news/UFC-Vegas-118-Prelims-Alessandro-Costa-shines-on-finishheavy-undercard-201446",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "“Sh-tty Sportsmanship”: Fans Slam Fighter for Pushing Opponent After the Bell at UFC Sacramento",
-      "ts": "2026-08-23T00:57:00+00:00"
-    },
     {
       "t": "Liver Kick Lands Quick Stoppage Win for Carli Judice",
       "ts": "2026-08-23T00:58:26+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Henry Cejudo finally defeats Merab Dvalishvili with 36-second beating to win RAF belt in trilogy",
       "ts": "2026-08-23T03:52:08+00:00"
+    },
+    {
+      "t": "UFC Sacramento bonuses: Carli Judice, 3 fighters take home &#36;100K",
+      "ts": "2026-08-22T23:57:11+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Vitor Petrino calls for main event slot after UFC Sacramento, open to Valter Walker fight",
-      "url": "https://sports.yahoo.com/articles/vitor-petrino-calls-main-event-190000984.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-22T19:00:00+00:00"
-    },
     {
       "title": "Bo Nickal Open to Khamzat Chimaev UFC Fight",
       "url": "https://sports.yahoo.com/articles/bo-nickal-open-khamzat-chimaev-191948885.html",
@@ -2105,6 +2098,13 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-23T03:52:08+00:00"
+    },
+    {
+      "title": "UFC Sacramento bonuses: Carli Judice, 3 fighters take home &36;100K",
+      "url": "https://www.sherdog.com/news/news/UFC-Sacramento-bonuses-Carli-Judice-3-fighters-take-home-36100K-202482",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-22T23:57:11+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMiuwFBVV95cUxQNU9RemVYWlctdlJfa3VSR1dHQ0RJME1tQWYydWFMMjlPcDZZSTI4VWJmVnlfTWFQZi1ocVFsSUY4THNmaDVlZjBKSFNocFVaclJEQU5PbGVjd1hMUkRrUFg0VzFrLXluT2ZVcHM2QVczMzZPREpTVG50bHdLYXlpbzN2LW1YZmJra25YMXd5U2NpYUZaS3pLZ25YSHhwZVYtc2laWElLU2xDS18zeldWVnNmNlZ4LW0tWElF",
     "CBMixwFBVV95cUxOcy0wTEdKZDcyRkxUX2ZLbkRlRnAyalBMMEx5OWdiOTduUVc1bXlyY0lpNWxvUE04VDAwbTNTZmVsdDd4bFZlUXZBbVJwS20zY3lHVVBvclhVX3FoTmN6enFZUTdvZ2U1cktZS3VMNzdLNTJya1FwVXM4eldBZDVndUxsWkxITW5SSG84MGJjTFNCOFdpWkNLdXdnMjVEZEtKVzY0Ry1yZ3lWcFQ5WktQUFN6UGMwdlZ3dHY5WXMtUllYUTMyX1c4",
     "CBMisgFBVV95cUxNVlh2OHl5aG5sNEpPdmhNRVFSQVhXYUtSSmRvNm9QZ1EtTmlEbFo4Q1FTalZmcnFSbWdrWTJoOGVVc1dzbGNTc1dLRjNEZFNSenVyVVYxamV0TFBBZ2V0NV9TNlRjZGF0TERKRGVEUDkzWW12UmItZ1hUckdHejljSldsZ2RoQ0x2S2xLeU1xS3oyR2JCTEpMMG5LdlpyR21jVlc3dUdoRC1WSmpoeXhmM3hB",
     "CBMiqgFBVV95cUxPRHFyVGJkWk9NMnNoR3c0d2Q2ZjRqcVYyT2JVeVh6TUR4TlFkTW03cjdZZWpfYThqckJMcjVVZmVNenRXVTFkbXVqbXVjblgtMURfcl84bXd2bGpFS0VrMUttMWJSejlfQzc5dVVqMVJla2dnbV9UZ2dIdC1feDUyTW1ldVhiT0tQWWt4RkZRMUhjd24wSFdBalVCbmQ0SXZucDMxX2IyaEFkQQ",
@@ -3312,11 +3311,12 @@
     "CBMivwFBVV95cUxPMUFrbFc0OTM0ZE5QRkxZc2RBbFVrdWREYzZtSXJqbDRaN3k5enBwQnpxV0x0bm9yLVF1WFNQVGotdkx0Ni05NjhSWkwtTXB6a1ZGQU52MXZEU3FXOEJqb3N2Q082SWJBSm9oczk1dmh6b2hQcWdxUGJRV0JqbFFWb0NlWWtjTDJMSTB5Z3BSUFd4dnVfSjBCSEZUQnMtaVZPbGJJZ0tYN1dUWElsMTJWWUxpcWZ6NVNVV2pRWEw5MA",
     "CBMiiAFBVV95cUxQbVJJLVN0NGtpUnh2LTM2VnBNOTBsTGhVdUtxQ3dLQ2dYakZVdVpZd215eXZSOUprQk1hV1dEeXg3Z3FHdXFnY0NYZ0tPazZZWTd4dWFkWXU4WkxDOVIyaGVRRDMtTjR4UEVDYVJGRXpvMmMxaVRxOEtOeWt2TXdXYnhaeVhLX24z",
     "CBMiWkFVX3lxTE81aGRoem1oaHdiQVczVGRDS200R2pibWpnTFN6RjVUZXJLODQxa1k3N1dXQ1RSNGtic09ZSUdETlFxYmdEU0E3YVdDbmVvUmUwemJQai1ZZXhBUQ",
-    "https://bloodyelbow.com/?p=328346"
+    "https://bloodyelbow.com/?p=328346",
+    "https://www.sherdog.com/news/news/UFC-Sacramento-bonuses-Carli-Judice-3-fighters-take-home-36100K-202482"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 116,
+    "ai": 117,
     "staged": 4
   },
   "staged_hist": [
