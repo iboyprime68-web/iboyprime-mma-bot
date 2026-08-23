@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "‘Disappointed’ Bo Nickal breaks his silence after suffering shock wrestling loss at RAF 12",
-      "ts": "2026-08-23T12:00:00+00:00"
-    },
-    {
       "t": "Islam Makhachev slammed by doctor for unsuccessful attempt at popping teammate’s shoulder back",
       "ts": "2026-08-23T16:00:00+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "UFC Sacramento winner reveals he will return to job at Home Depot after missing out on $100k bonus",
       "ts": "2026-08-23T23:00:00+00:00"
+    },
+    {
+      "t": "UFC announces dates for UFC 334, UFC 335 to close out 2026 slate",
+      "ts": "2026-08-23T15:21:36+00:00"
     }
   ],
   "digest_items": [
@@ -1993,15 +1993,21 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-23T23:00:00+00:00"
+    },
+    {
+      "title": "UFC announces dates for UFC 334, UFC 335 to close out 2026 slate",
+      "url": "https://www.mmafighting.com/ufc/506793/ufc-announces-dates-for-ufc-334-ufc-335-to-close-out-2026-slate",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-23T15:21:36+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
   "hour": [
     "2026-08-23T23",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMiwwFBVV95cUxQVzYxM0d3VjhlU3FBRXhkNmRtU0FXVXhSRzBtRjNLcE9YUVc5SXZSanZFbUNlblFWa3hMMTRreE5pcnZQVFVpY0hROW84QkczRkpnUnVqU1hLSVFLblh0MUM1VUFuT3hzLUNoX29wWllvc203UC0taHJjeG82VDNfNXY1RjYyNEVmZkh2M1ZMemNrTEd1ZUtHZzBaYWxTNXVabEt3Y1kxMkhxZEgxN3RnVkl5VDhDSlM3eVNtTTdNeGxGTkk",
     "CBMi0AFBVV95cUxPQkhFeExUdVhWdzNCUE9rZWtWRmRTNmRSdnRubGVINHg4M28xWmx3eF9GU0tqWDFZcENWVHQwY29uaUlBRDh2akthbFNGcXFURTJtYk1Qa0FHWFpvTGRTbm9yMjR4NUFQSXFDejRsc0pTYVFmTzhrVzBCRkNtNERDVXo0N2Q5NVVhdmhkam15NUMtR3M0bEpQQWFTbE9TUzFrZ2pkUU5iSnVUaW5yOFFISm1MRUMyNHZ0QnNLbW5nT3JGR25YeVhZNnhnVnEzeEJM",
     "CBMiygFBVV95cUxQT0J3MXFxa3lIYTJSTi12UnRscmVoWElTdkxWS0FLc29XS1duRDNraFBIamVpeTd6aHVndmtqUFZXRy1nUkpYbWNRRUNIVmhSTmt6UkxrRHBvS3YwcXhjTWdZMU1hNmZBRlo2a0VYdkR6U0lFNWs2RnhHRFhHcTVCWEFyNnJfeHlIYnhPYXgwMkY5c3pUMFFPQU5pZHMxYjRtTUJXQVJIbE5vSlphd0NpQUFXNWF2NDlyanA0Y2NTSTlVanZYTHp4elJR",
     "CBMimAFBVV95cUxNYzhIZ1h2ZjBiLUk5aDJWOGYxYjZ0REdPNFI3d184Z0piOGdhOFBIQVdxdmNfU2VEbGhWQklFOXZzY25BenU2RlVJRmpYS3VaYWtVOFBaOXBQdXNXVHEyaWNSa0wya0UyaWlPUGNVWXpxdmpJcUx3QUxVOUVjbm0zRFEyLXRrLWJudWpjYUFSQURUdWF3SzBIWg",
@@ -3200,7 +3206,8 @@
     "CBMidkFVX3lxTE9WbEZQOUlkc3pSYUpVa0Qzd3ZDUGhDMF9QcFpnZEVzUDR2aTdrVVVIRzNjRUpnSTc5MzlhVFdXNnlnTkVmT3pEclF2R1F3Y3NpSHFzblo2YnFUN0F3THJiVW9aeU5RMXdIdTNud2Etb1dTbjFEMlE",
     "CBMipAFBVV95cUxOTE41QTlmeXZwYVQ1NjlrSWQtRDlGNFZJRU9hQU9GM0dsd0VUQlBrVFBVdWdtQjU5WFJmc1hKaGc0WFc4dXRRMUs3MUFqdE1NV1JReVNpeXYwV1JneXU2XzRkelJhZGt0dHBGZWY2UGxFWU5TMlJqU0RQUlUwU3oxTVlMYTRWWFRRNGs2aEdnR0FCRGJnNzZBVVlvSFVkQW9Xa0htZg",
     "CBMirAFBVV95cUxQeVZBaVFfQndQbnMtVlFnSUY2VzhHZk9fQ3d6aHZmaHRoYjVRTUUzWHVhaEpKRDhTYno3TWJVUm1nUDB4VlNjWXR5U3dhQ0FPeDkzaVpOMVJrejBzT2Jlekk5X29XSl9RY2R0Umc5ekR5SmQ1TnYwOEMtRzNMUk02NFE4R0ktR1g0R0FuT0RBNXFwV09EMnlMVTdLT2xoaFI4Vll3Mjd4VFYwNnZ0",
-    "https://bloodyelbow.com/?p=328538"
+    "https://bloodyelbow.com/?p=328538",
+    "https://www.mmafighting.com/?p=506793"
   ],
   "daily": {
     "d": "2026-08-23",
