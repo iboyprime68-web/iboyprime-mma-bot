@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Trump to Kick Off Freedom 250 Grand Prix in the Beast Before Cars Zoom Through Washington's Streets",
-      "ts": "2026-08-23T12:16:54+00:00"
-    },
-    {
-      "t": "De Ridder Stops Dolidze After Two-Fight Skid",
-      "ts": "2026-08-23T12:30:14+00:00"
-    },
-    {
       "t": "Irish star lands 'knockout of the year contender' on American debut",
       "ts": "2026-08-23T12:38:48+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Anthony Hernandez blasts Gregory Rodrigues for 'cheating' at UFC Sacramento and Herb Dean for not stopping it",
       "ts": "2026-08-23T14:23:58+00:00"
+    },
+    {
+      "t": "Gophers’ Max McEnelly, Gable Steveson score big wins at RAF12",
+      "ts": "2026-08-23T15:36:24+00:00"
+    },
+    {
+      "t": "WWE NXT Live Results 8.22.26: Zaria Defends Women’s North American Title",
+      "ts": "2026-08-23T15:55:11+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "RAF 12: Dvalishvili vs. Cejudo 2 live results, highlights",
-      "url": "https://sports.yahoo.com/articles/raf-12-dvalishvili-vs-cejudo-233046085.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-22T23:30:46+00:00"
-    },
-    {
-      "title": "UFC Sacramento video: Reinier de Ridder thrashes Roman Dolidze",
-      "url": "https://sports.yahoo.com/articles/ufc-sacramento-video-reinier-ridder-014103330.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T01:41:03+00:00"
-    },
     {
       "title": "Ex-NFL star chokes rival unconscious in UFC Sacramento debut 11 days after winning Dana White’s Contender Series contract",
       "url": "https://bloodyelbow.com/2026/08/22/ex-nfl-star-lands-round-one-sub-in-ufc-sacramento-debut-11-days-after-winning-dana-whites-contender-series-contract/",
@@ -2105,6 +2091,20 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-23T14:23:58+00:00"
+    },
+    {
+      "title": "Gophers’ Max McEnelly, Gable Steveson score big wins at RAF12",
+      "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5WYXZ5NkRHLVpIV3NhV2tRdDBQc3NfUmRKWktVM3dHV1pPX0k4U2d6U1JmRkt4TThqWDQ0?oc=5",
+      "source": "t.co",
+      "cat": "ufc",
+      "ts": "2026-08-23T15:36:24+00:00"
+    },
+    {
+      "title": "WWE NXT Live Results 8.22.26: Zaria Defends Women’s North American Title",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWGZVM3ZEOGtlVEExWDVZNC1wUE4xOERTTkNLV1RjcWc5b3E2RlFteF80LVBibEFESjRVWW9BOEZoY1FSLUtucG56U2Y1WFZmNnRYa0xHWk5fcjQ5angxXzlTUlg3OHI1aTJBbFNyczhTWThnTDNWMHQ0ajFXYnZ6cGwwS1ZWVG1IWlVUaTIwVGhhRmNKa2prUUFR?oc=5",
+      "source": "411MANIA",
+      "cat": "ufc",
+      "ts": "2026-08-23T15:55:11+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMitAFBVV95cUxQTjhEVkhRSVRweVNnMTdoRTVhU3h0Y1hsNU1YTnNkUllnUWtyM2ZjN3AwYi1pUG5aTFZCUXpRMk5seUNnUHdyVkFyWndJUlo4TG1fZ0FYb2pPWHRnbXJmS1dRTTBQLXBhRUNVT2NwMHlYbUlTM0Z4RTlzcFZnUTcxSGNVV0xMb2tfbTBCYTVDU2dnT0t5UWRadmw4VGZaVjJqd3M5UXZkcWdmT3hjSzRtSnhxRWk",
-    "CBMiigFBVV95cUxPOVZxSmpiVHoyNWhDLUxCQl9wZWlYUTA1MTZFTm1MUFhUZF93Y1U5TGthblFKczZKUW4yV0hNVjRPS0pXNmJ5cHNnUF84SVpvRVh4NjVOOEh0ZjFtSGF0a2s5dWFacGNmSnAtTDdBSWZTSjd6Zk1zMk5vY2VaeHNrUVROSlVYWHI0N0E",
     "CBMiqwFBVV95cUxPTWl3UkI1OV9lcEFfdExRXzBFd1ZYWDg5R0d3X1JJVlRpU0tyM3RfaV9OTG9NNTgyVHZkOTZkTVJrRkpFNGZXOGx4cjFhc0Uycnp0cEZzbDFtWkZ0ZkMwR1hTS1FfWnZFYmpPN1pLalYxajdlOGlsTlBIazdyY2hnaDZ3cFNLYll5dmFhUnFqVGpnVF9BeGc4dlJJbUp4WFZQcDdRZEZ3b1VrTm8",
     "CBMiggFBVV95cUxOVHYzM2J3UXlaNWFVc0ljVGRiN3RUM3JKY0ZxT1prRXg0ZElIbi1BeERRdlFBMjNQbkJlM2Z6Qm8zMmk1WjAwMnAzdldYUFVtQi1iZnVmaG1zbmZLcW80Q3ZhLTNFS2ZMT3dSaExiQTZKc2xEN3VWY3Nqb1B2bF9DUWd3",
     "CBMigAFBVV95cUxOZVBOYXZXZGlJc0MxRHZpb0d5SmRuNnNjbVVQS3JGWjNkSW9lbzhhQmtOZ2tISW1rbGNIeXR4eFpyTlNpSVNObW9vbmwwVms3OVdXbEFVQlhWTVJhN2c0ci1vMFQzb3YwMTdnWnJ6UFYycGhBOVRQYnlLcXFKTEEyNw",
@@ -3312,7 +3310,9 @@
     "https://bloodyelbow.com/?p=328430",
     "CBMib0FVX3lxTFA1WHdZZjBUWFEwNWFlaHdPak1qVVY5ZmNqbGRGRjdrRzk4RHJxSDBEUFJtS29UQkg0bDhuY01sMGdTQkJiMWVJMU5FY21EdTk1blJtRi1pbVNBWHdYLWphTF9Kb0JxODQxV1JqWXFoWQ",
     "CBMi2AJBVV95cUxNWkdiODlfVHdzRW5MX25TWFdxbnJXSUR6NHlSeVlobEI5QXNVWWlGaEZiTjhTc0U5YlpzTjczMmthMHdjRjFLc0pWUjlNdnZ3aEdGaFIzczI0RkYyQ0JfUmRuZ1hlNTAzaDdZaWhHdEY5ZlYtVG5YeDZxWlgzQ3ZKcTAwSXI0Y1RaczA5V1F0bDYySmgwMDQ0TzRoZElYbEpnM25uRllROG1hWm5kWk1wZ3dDeWFZMHNvc2ZJWmZ3OEJlX3Z2WEVlNWI3UjZGX1RHR2tIcFBlTzRnUnhNMHJpUnY0TTRidnJPWWpKV2hnLVhCRnhnLTF0cFR2ZTV6dmxuYXhEcFVleUVvaXo5RTJDTXNELXNyNUIyUWpJNnh2TGNBcHpRcVBxMHpUY3dSQWxpN19xS29JWHBfTWg5VTN1NHNvMWx3TTlZbTZIVkJwc1pPdGhOZ0JabQ",
-    "https://www.mmamania.com/?p=467058"
+    "https://www.mmamania.com/?p=467058",
+    "CBMiO0FVX3lxTE5WYXZ5NkRHLVpIV3NhV2tRdDBQc3NfUmRKWktVM3dHV1pPX0k4U2d6U1JmRkt4TThqWDQ0",
+    "CBMimgFBVV95cUxNWGZVM3ZEOGtlVEExWDVZNC1wUE4xOERTTkNLV1RjcWc5b3E2RlFteF80LVBibEFESjRVWW9BOEZoY1FSLUtucG56U2Y1WFZmNnRYa0xHWk5fcjQ5angxXzlTUlg3OHI1aTJBbFNyczhTWThnTDNWMHQ0ajFXYnZ6cGwwS1ZWVG1IWlVUaTIwVGhhRmNKa2prUUFR"
   ],
   "daily": {
     "d": "2026-08-23",
