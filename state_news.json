@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "WWE NXT Live Results 8.22.26: Zaria Defends Women’s North American Title",
-      "ts": "2026-08-23T15:55:11+00:00"
-    },
-    {
       "t": "'There's zero chance you can play football': Eli Manning recalls telling Peyton Manning he was washed, before his brother proved him wrong",
       "ts": "2026-08-23T16:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Anthony Hernandez Issues Statement After UFC Sacramento Loss",
       "ts": "2026-08-23T18:44:38+00:00"
+    },
+    {
+      "t": "Odell Beckham Jr.'s Latest Comeback Attempt Stream of National Football League",
+      "ts": "2026-08-23T18:30:05+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Gregory Rodrigues Sends Message to Dricus du Plessis",
-      "url": "https://sports.yahoo.com/articles/gregory-rodrigues-sends-message-dricus-080328054.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T08:03:28+00:00"
-    },
     {
       "title": "UFC Sacramento purses: Rodrigues and De Ridder earn big as all 26 fighter payouts are revealed",
       "url": "https://bloodyelbow.com/2026/08/23/ufc-sacramento-purses-rodrigues-and-de-ridder-earn-big-as-all-26-fighter-payouts-are-revealed/",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-23T18:44:38+00:00"
+    },
+    {
+      "title": "Odell Beckham Jr.'s Latest Comeback Attempt Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcEhDemUxRjBWc3A3aWxLQkV5QWNTM2Nmc2tQTXNvTUpfT3d6TUZmelV6WU9OaEs3dnJpYVBvN043QlJwUHJjUEx3akpBbzM4ZF85VkNYdEx4TkJ2UC04SDFEVzZlTV9JYnlGd3ZVWXAyc1ZDNHgySjJ1M1JkdTVnbzAtcDFTcFBlXzFtbg?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-23T18:30:05+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMikwFBVV95cUxPbkMxOHBHaHVGNF9lR2xjcmVPRjRuOXJscFh1a2NmVy1aeDAwRW1tQzh4TlhURDliT2FQLTlzV0RWZWEyUnZzRVQ0ZFlnMzB1RHQzLXlZb1VYSEZ4QTRTNTNvS1B5eFBLRWVvV2VxR0NoUkhfckdqdnVhbHg3Z3l0d1RsaHhOODlWelJaX3RUOHNzX1E",
     "CBMioAFBVV95cUxOYWRTZHM0MzU0aUp2dE9zZVZZVzNNRTNaTGkzakd1V0VxWElVdTlDWERIS1lXd0N2ZWFfc0FGVWY1eng2NmhDQWVNeTY3Z3dyS0lEeXZhOHNPQ25VcDdKTFhHc05vNWdzRlNTWXB5OVN1OWsyVFFlMWlHYno5ZklyaDJxRlRCbDZSOXdVVnRhaXRfdUdwQlRoUFZFZVoyVFhV",
     "CBMiXkFVX3lxTE1TMl91T1hidUsyeWduWDhEaWJ4X0lxamxCdFI4TmpYSjJ3a3VOVVRvRHlnaEhJRFlNdlJMekwzeWhmYkw1akJ2aTI3TDhRVUQ3eC1zTnE1S25GVFNyWEE",
     "CBMioAFBVV95cUxOME5Vd241NjE2LV9nMnZvYjRyQl9pdHd0aGF5dEhXVzRQcVVkWTU3NFlQTkZ3OVMyYktyT0U4YTlIQ3N2VklsQTZDbVNHZ2NvalZYbkhYd3ZNOEhteHlMWk9vQXJBMWozeUNfdTNOS1oxWks4d0lTLXQ3eFozVDJyaS1KSTNIOFA3Z1g3VU9YbkRPQnhBY015VW9hdWd2Z3RC",
@@ -3312,7 +3311,8 @@
     "CBMi4gFBVV95cUxQMXA2cGJwUkRkU0V4cHBoYWZFUEhlaEkySzdpX01vSjQ1emtEUlQzWkxmM3ZMLUNrc3RHcC1OcTZ2Ri1lQXRUQ1ZHdGplWEMwQVY1V25jM3c0TWZ4ZjhqclNKbFVNVXljdzd4a2xZMUJ1bWQ5MzZtbzlJRnVGTldJUmJyWUZjU1hhdGE3NUs3a2ljdmFqa3d2ZjdNZGZpMmZ2S1VNeVpPQW9GWEVwOGxvLWdRS0l5VnV6VXQ3NW4xOS12ZGNvcjFBVDNyMUw1STUwTFBqX1VhN01IeEZJb1BlY1dB",
     "CBMi1AFBVV95cUxNUW1nb1ktT3F3UkpkQnlTNVJNX2FkWUhiSUNndGdOQzFuY3pTS09tdG9tbDN1MHZTaF9Hb0NVVkEtZk9Zel9DWkVXZTBIdlhMU3VKTWtiQzROd2x1RTAtZWhxSS0tMFVvNlFKQ3RBQ2xsVE5sVk1fWmlYcGM1SDhYVDRZd29hQWFoSkxOTjVGU0pCVUMwOUJQblJWcGM3WnVxV0tBeWdtZXVkQ1lhN2Z1TDBEOGJzblFWWnRqaWJlSlZZTHViOG5ZWkllRGRKWUJWRE9Law",
     "CBMiqgFBVV95cUxNWjhxdUhpS0w2bWd4d3d0elk4R29vTm11VmQweEtfalpjUDd3c2FtMHNuT2dhNlVvM09JSFE1ZkdHNnVZRkNtaWZSMHRZV2lQck9MREpxSGdPTDJ1bWo0Ql91R2hNYkE3eFk2a0ZvSl9fOVh1ckNTS2k4aERodV82SGQ1MEtIaWZsQmFtWFFKZzZab3l2Mk42dFFPQlJTWEVpaTcwVXlQUDJvQQ",
-    "f4044dee-d8f3-3a0c-8774-2968d19908ea"
+    "f4044dee-d8f3-3a0c-8774-2968d19908ea",
+    "CBMijAFBVV95cUxNcEhDemUxRjBWc3A3aWxLQkV5QWNTM2Nmc2tQTXNvTUpfT3d6TUZmelV6WU9OaEs3dnJpYVBvN043QlJwUHJjUEx3akpBbzM4ZF85VkNYdEx4TkJ2UC04SDFEVzZlTV9JYnlGd3ZVWXAyc1ZDNHgySjJ1M1JkdTVnbzAtcDFTcFBlXzFtbg"
   ],
   "daily": {
     "d": "2026-08-23",
