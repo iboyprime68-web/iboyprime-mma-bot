@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento video: Shanelle Dyer blasts Elise Reed – and boring women's fights",
-      "ts": "2026-08-22T21:43:47+00:00"
-    },
-    {
-      "t": "UFC Sacramento video: Shamil Gaziev shuts off Kennedy Nzechukwu with one punch",
-      "ts": "2026-08-22T23:21:08+00:00"
-    },
-    {
       "t": "UFC Sacramento video: Shamil Gaziev makes Kennedy Nzechukwu pay for hands-down defense with 1-punch knockout",
       "ts": "2026-08-22T23:28:26+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC Sacramento ‘Hernandez vs. Rodrigues’ play-by-play, results & round scoring",
       "ts": "2026-08-23T07:15:06+00:00"
+    },
+    {
+      "t": "UFC Sacramento highlight video: MarQuel Mederos decimates Mason Jones",
+      "ts": "2026-08-23T07:18:45+00:00"
+    },
+    {
+      "t": "Gregory Rodrigues Extends Win Streak to Four With Upset of Anthony Hernandez at UFC Sacramento",
+      "ts": "2026-08-23T07:23:26+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Reinier de Ridder vs. Roman Dolidze prediction, pick for UFC Fight Night 285",
-      "url": "https://sports.yahoo.com/articles/reinier-ridder-vs-roman-dolidze-150056454.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-22T15:00:56+00:00"
-    },
-    {
-      "title": "Josh Hokit explains why Alex Pereira actually isn’t his preferred next opponent: ‘I ain’t dodging’",
-      "url": "https://bloodyelbow.com/2026/08/22/josh-hokit-explains-why-alex-pereira-actually-isnt-his-preferred-next-opponent-i-aint-dodging/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-22T18:00:00+00:00"
-    },
     {
       "title": "Mauricio Ruffy’s coach not concerned about Arman Tsarukyan exploiting previous flaw: ‘Can’t see that’",
       "url": "https://bloodyelbow.com/2026/08/22/mauricio-ruffys-coach-not-concerned-about-arman-tsarukyan-exploiting-previous-flaw-cant-see-that/",
@@ -2105,6 +2091,20 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-23T07:15:06+00:00"
+    },
+    {
+      "title": "UFC Sacramento highlight video: MarQuel Mederos decimates Mason Jones",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSXFtX211MUlvMW5yVXRDS2loeDBxTVllVXlYQnpLajF6NnNEeUFxTkx2VVY2SGtiUWhRXzhZV3VJNW0yRHlac1ktUXBDSnhJMTFCdjF4U3kydThub2c2YWNCeFJMUk9sWGo2SmEzeGlVMmtINUliVjkyVy1nczJsZmZWOUo2MnI4MzBOcURybmcwbWV6dFB1Y1hmUjh6dEltSGNkUVRydk5RNkhRY3NLZGRR?oc=5",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-23T07:18:45+00:00"
+    },
+    {
+      "title": "Gregory Rodrigues Extends Win Streak to Four With Upset of Anthony Hernandez at UFC Sacramento",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12b0N3RG9WUkNiUEJxZVRCLWJOM09PQjg3elo1NWl1OUJneUNZVERIVzhqMUpoTGhpTjZWUWdBMEpkbVUyU0ZEdkdDWVRCdXo4VUotM1ZJZl9FRVUtUDJFQlNKb2MzUE5zaVlEeXdkWHVyYmVq?oc=5",
+      "source": "NY Fights",
+      "cat": "ufc",
+      "ts": "2026-08-23T07:23:26+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiowFBVV95cUxPUkhxdmJJSkltVk80bUVsdXJhMGdXcGFJcHAtZThNcEJZR1BrU3duaUlxVjBBMTZHV1BOc2ZpYUFFNXdrNndqY1JtSXhXTE9Kcm1lUUdsVEhncXNfakRHbXVockJncGN1Tk8yWWFJUkJNNlZIQXRfTW0wUV9LdjNOZVdYakpGd05MSk0xX2hVaTZjX3VocTM1Q0hibDRkTWlRZ1k4",
     "2090514110840516679",
     "2090541334192902540",
     "CBMirwFBVV95cUxQTDk2TURfUDUyNE1Rb2d0SjI5ZlZaRk9pbGthVGVxcWlvSm1VRkc0N21PX01SS29pdXVhZDFPS0dRZk5lZG9wSy1KUzd1M2VyR0E5RFpndGpEay1rR1ctczRTOWRhYWJTcE1BaElYZ3o0UkZJNUZTcjgyOEp6SlVQTFV3TDJjQmh4VWtSSm9OcHN2MDBKQjRxVDF0b1pvUDhFVTBYUWtZb2tPazZEZXJn",
@@ -3312,7 +3311,8 @@
     "https://bloodyelbow.com/?p=328380",
     "CBMihgFBVV95cUxQQzcwcHBlajYyclliZmFKYXlTRlhpQUw3dVBEMkFTTUZFbFY4VGM2bndKU19QTThhaEdWalQ5Qkc4WHRmeEdVNWl4R05xRWhmV1A3d3VZYmlhSk5GU3R2UmYwMVBXR0lnOExKUlluelVGYjV6dXVaemJLZGR1Vk5oLWVTRERLdw",
     "CBMiigFBVV95cUxOSk9yMnlZN1lnd203TlJCaTNJbTBJRWZwNG9md3JaVUJjR1ppd0xIWk1tRUdiaHpyb2FnSTh6ek9NVU8wREd2RnhlY3JhVVJhRGtQRzQxc1B4M3pDOXNFVURRRDdUdEtUd1d4cl9seHEzbGhlVTFESWVXRjMtWm1qdmtLbjR3YVlkeUE",
-    "CBMisAFBVV95cUxNOTJOZ2tFZWVMdWplVGhuTnc1dHQ4OTdGQVA5RHhpWEJIck1vZXZDQXR2dTZGZjlrOVhNNjRwcUxMQk1aQjdZMWdxS3c4QnA1WTk1eTZpV0swWDFxQm1na2plcHlqcGRMYWEtSE5DOUpCVE1mM0c3WVRMMkxpSG5KOXdObGxCSGxvcFRjak9yWmlwUl80Xy1UQjBBU3lobm9HWlUwcUIyUzNoSGZxZ3VCMtIBtgFBVV95cUxQYl9TOVdDdnhQSWhpSVpuWFFMdkJ6WC1najVxczc4RzBXQlpUZ3VMV1BabWVNbXR3RENtdmJRSlB3cWxuc09QdGZHemg0emJ1YUE2dG1ma3U1blNINnd2cTJuQlpsSFFSRWRqQzNwemVaQzBGTEpYRHAyVDE3bnp3Tm4yREJNdW5CdXpTb01TbVlNYl9Kdm9XZW1EZ25VMl8tNE5fNnhYQXliTDZvOUdWZEliNllUQQ"
+    "CBMisAFBVV95cUxNOTJOZ2tFZWVMdWplVGhuTnc1dHQ4OTdGQVA5RHhpWEJIck1vZXZDQXR2dTZGZjlrOVhNNjRwcUxMQk1aQjdZMWdxS3c4QnA1WTk1eTZpV0swWDFxQm1na2plcHlqcGRMYWEtSE5DOUpCVE1mM0c3WVRMMkxpSG5KOXdObGxCSGxvcFRjak9yWmlwUl80Xy1UQjBBU3lobm9HWlUwcUIyUzNoSGZxZ3VCMtIBtgFBVV95cUxQYl9TOVdDdnhQSWhpSVpuWFFMdkJ6WC1najVxczc4RzBXQlpUZ3VMV1BabWVNbXR3RENtdmJRSlB3cWxuc09QdGZHemg0emJ1YUE2dG1ma3U1blNINnd2cTJuQlpsSFFSRWRqQzNwemVaQzBGTEpYRHAyVDE3bnp3Tm4yREJNdW5CdXpTb01TbVlNYl9Kdm9XZW1EZ25VMl8tNE5fNnhYQXliTDZvOUdWZEliNllUQQ",
+    "CBMidEFVX3lxTE12b0N3RG9WUkNiUEJxZVRCLWJOM09PQjg3elo1NWl1OUJneUNZVERIVzhqMUpoTGhpTjZWUWdBMEpkbVUyU0ZEdkdDWVRCdXo4VUotM1ZJZl9FRVUtUDJFQlNKb2MzUE5zaVlEeXdkWHVyYmVq"
   ],
   "daily": {
     "d": "2026-08-23",
