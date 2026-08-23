@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Gable Steveson wants UFC title ‘as fast as possible,’ but doesn’t want to rush",
-      "ts": "2026-08-22T16:00:00+00:00"
-    },
-    {
-      "t": "Mason Jones vs. MarQuel Mederos prediction, pick for UFC Fight Night 285",
-      "ts": "2026-08-22T16:00:46+00:00"
-    },
-    {
       "t": "Terrance Chatman vs. Anthony Wint prediction, pick for UFC Fight Night 285",
       "ts": "2026-08-22T18:00:57+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Gregory Rodrigues Octagon Interview | UFC Sacramento",
       "ts": "2026-08-23T03:31:49+00:00"
+    },
+    {
+      "t": "UFC Sacramento live results, highlights and play-by-play",
+      "ts": "2026-08-23T03:01:00+00:00"
+    },
+    {
+      "t": "Henry Cejudo Earns Dominant Victory Over Merab Dvalishvili at RAF 12",
+      "ts": "2026-08-23T03:34:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "LIVE! Watch UFC Sacramento post-fight press conference video stream &124; Hernandez vs. Rodrigues",
-      "url": "https://www.mmamania.com/ufc-press-conference-video/466593/live-watch-ufc-sacramento-post-fight-press-conference-video-stream-hernandez-vs-rodrigues",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-23T00:04:01+00:00"
-    },
-    {
-      "title": "Vitor Petrino Octagon Interview UFC Sacramento",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ISGN2LVpVdExKZmt0U2JpT2YzNk1vNks4SDZPMk42aC1LdE5HLTEwOXVLdm1LOXBqdkJMekxBbG0tMWM1RklV?oc=5",
-      "source": "UFC.com",
-      "cat": "ufc",
-      "ts": "2026-08-23T02:31:07+00:00"
-    },
     {
       "title": "Josh Hokit Lashes Out at UFC Heavyweight Division",
       "url": "https://sports.yahoo.com/articles/josh-hokit-lashes-ufc-heavyweight-065636678.html",
@@ -2105,6 +2091,20 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-23T03:31:49+00:00"
+    },
+    {
+      "title": "UFC Sacramento live results, highlights and play-by-play",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcFR0aHp5OVdXeFN3OWQ1SUQyU1NBVDNmVG9QLUtiWUZ5bzdKQS1kY2lqM0V6WTBiR29ILUFFOGM3WnVKQm1ieVhuUFBDbWpCUHBMam1nZlZBT3JYVkxrMGZlZThGajY0bmZvUEdfQk13UGtWcGJHMFhHTWRLbzBqbnptb05xTWp2azdVMGU4cGt0SHhFMmVnUmZjRldSNXJwX0VSdTcwUW9mNHl1SnI5cC1tZVNtOHg3aDdmNzRyYU84SkFoZFNHMDNuSk1UVmdoTFE?oc=5",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-23T03:01:00+00:00"
+    },
+    {
+      "title": "Henry Cejudo Earns Dominant Victory Over Merab Dvalishvili at RAF 12",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUTZBRlJJcmtUV1F5S202bjlZLWhraUM5SEFGczhEUWxyQlJ5SEM2NndlY3N4QXdpUlIwX0p6RWFZTjlzLVMyQVpjam9kOXFXQXZoV295MWdJbU1hcmttRTBpVllxRmhtbXRSZlppODhxNFEycHB3RWJUbERZeU5yaQ?oc=5",
+      "source": "heavy.com",
+      "cat": "ufc",
+      "ts": "2026-08-23T03:34:00+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxQOVpiTVdrQU1hTU9lRjAtcE5BX05tNkx3QTNCM1JQRlNSSV8zQTdIQXdqMXo2ejJJYzJLbmpDUm5qU1daQms4NjR2LW9qWEdFYWhXampfc1hFRkc4MTZmV29hVzZieVdrNHgwZ3BhWUM0OWJMRHprZy1kdnZJQkVYVGdPQzlpdHNfQi05dFJQMmdPTGNlQTNaMHpPeVNtU1F6",
     "CBMiW0FVX3lxTE4tWk0wQmV1bnRsNTdpUDRHMExyZUowMDgzaGFYQmVQZThTWGxpU0t2eGkzREdNLWtBVWpfWHA5MV9lNmxKOW41cWVNVkxxenZ5R1EwZEQtbDA2d3M",
     "CBMiiwFBVV95cUxQMFV3cDllbzhaNHJOWFItY3BkbVhqQXJCNFVQR0JTY1k2eVBxSWFkQkhmTjhDX1ZBXy04NHBQVFphUS1CbFBVOEdybTJubmtrM3FTWWRhMzNkamd3aEZNci1fQndFN1AzWmRJTklMX2JBcGJKSWRmbi0xZEFBcF9lRGQzcjBwWE5ITkVN",
     "CBMikAFBVV95cUxQSm4wbkhhbGNqZEtGOXNxNS0taWs4aEN0bm50WVpfTGlzYVdXQmJiSkgyajktQUFBQUtMWlhHNFZFM3RmenozOXZDM2QtRmd2OVVxc3c4cEVwbGJnTXM3ZzJXaEdaRmo1dTBKYU5GdTUzV2lLRnZ4akkwTG1jRE9fLUk2TEkwU3hueG92dUtVYVU",
@@ -3312,11 +3311,12 @@
     "CBMiiAFBVV95cUxPQzc5ck54MFA3RXZ1Vnh5RFlhcjZsdTN6MDlJeWFDR2FqdUNDMWpMcGxXaFByM184YlQtWDgxRkJHZWltaUllaGpxYjFLUDlnNlhEaFJwbGF3Vy1ETXR3LWh3TFY3NF9lT3RxTzl5NGZOaFNLZmtvaGU5V0RfMXFVbTkxYW9tZkN3",
     "CBMiYkFVX3lxTE5UZVhWNGdKbzRVZVRHRklBbFBXQ3FZYUh5ckd1Uy1Md2M0c0U0enRYWjQ5RDlOVnhUUDJObVNWd0hfd2dycjROcUhQQ3lWRlZ4akVoRVNTZlJXUHh4YmZQbnlR",
     "CBMiggFBVV95cUxOZC1MbUpkQzlTQXhrSWx1V0p5TlRaZk9Wd0J5UGdKS2oyM0hKVGFuQU91VVJRTC00cWZHWkNrSnlCbmRLVFo4djJndlhxNVlpZEF3b1FPXzBHNHJPc3UzOW9XdC00WW9YSWg1WFkwV3RrSF9ib0hoejVLTUtBVVR6M0N3",
-    "CBMiR0FVX3lxTE1taC05cGhOczhfclkyWDRoblhLZll3aFk5bE9tbVpzR0MxeElLRm8tek9yRVktaV9yQUIxc3NFVTF0RWgyUU9r"
+    "CBMiR0FVX3lxTE1taC05cGhOczhfclkyWDRoblhLZll3aFk5bE9tbVpzR0MxeElLRm8tek9yRVktaV9yQUIxc3NFVTF0RWgyUU9r",
+    "CBMigAFBVV95cUxOUTZBRlJJcmtUV1F5S202bjlZLWhraUM5SEFGczhEUWxyQlJ5SEM2NndlY3N4QXdpUlIwX0p6RWFZTjlzLVMyQVpjam9kOXFXQXZoV295MWdJbU1hcmttRTBpVllxRmhtbXRSZlppODhxNFEycHB3RWJUbERZeU5yaQ"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 103,
+    "ai": 104,
     "staged": 3
   },
   "staged_hist": [
