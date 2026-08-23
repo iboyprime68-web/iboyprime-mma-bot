@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Analyst confident in Ian Machado Garry's title future after UFC 330 loss",
-      "ts": "2026-08-22T00:30:29+00:00"
-    },
-    {
-      "t": "Roman Puga aims to be 'household name' in UFC after DWCS contract win",
-      "ts": "2026-08-22T01:20:24+00:00"
-    },
-    {
       "t": "UFC Sacramento live results: Anthony Hernandez vs. Gregory Rodrigues updates, round-by-round scoring, highlights",
       "ts": "2026-08-22T05:30:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Vitor Petrino Outworks Serghei Spivac for Statement Win",
       "ts": "2026-08-23T02:13:45+00:00"
+    },
+    {
+      "t": "Reinier de Ridder Gets It Done In The First Against Roman Dolidze | UFC Sacramento",
+      "ts": "2026-08-23T02:02:59+00:00"
+    },
+    {
+      "t": "Vitor Petrino Beats Serghei Spivac By Unanimous Decision At UFC Fight Night 285",
+      "ts": "2026-08-23T02:07:29+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Tyron Woodley WINS: UFC legend scores first victory since 2018 in RAF Wrestling debut ahead of Khamzat Chimaev test",
-      "url": "https://bloodyelbow.com/2026/08/22/tyron-woodley-wins-ufc-legend-scores-first-victory-since-2018-in-raf-wrestling-debut-ahead-of-khamzat-chimaev-test/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-23T00:45:18+00:00"
-    },
-    {
-      "title": "RAF 12 results: Tyron Woodley storms back from 8 points down to beat Joaquin Buckley",
-      "url": "https://www.mmafighting.com/raf-wrestling/506496/raf-12-results-tyron-woodley-storms-back-from-8-points-down-to-beat-joaquin-buckley",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-23T00:52:06+00:00"
-    },
     {
       "title": "UFC Sacramento video: MarQuel Mederos out-slugs Mason Jones to pick up standing knockout",
       "url": "https://www.mmafighting.com/ufc/506519/ufc-sacramento-video-marquel-mederos-out-slugs-mason-jones-to-pick-up-standing-knockout",
@@ -2105,6 +2091,20 @@
       "source": "MMANews.com",
       "cat": "ufc",
       "ts": "2026-08-23T02:13:45+00:00"
+    },
+    {
+      "title": "Reinier de Ridder Gets It Done In The First Against Roman Dolidze UFC Sacramento",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1LNGV0czlKeTZ0WnVWbXNsLTRPdnRMMDJ0eG1jSVdIOGhRTVU4c2ZERlU3WFhTMmp4Q3hjamhldjdseVRRMXNv?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-23T02:02:59+00:00"
+    },
+    {
+      "title": "Vitor Petrino Beats Serghei Spivac By Unanimous Decision At UFC Fight Night 285",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS05zOEhkRXN6S1hXQ0xzNDZzNllYRmR2cU5CZ09CNW13aHhYNmJNRGE5U3lMT1dZY1EzMmpjR3B6UDE1Z2prWjEtUkxyLVE3VUhRX0lCX2hwME5CeHJZQUNrSW81ejhKeWRDTXBVZkU4TU5ZaEZHZzBEeDBGTDhfM0thT2laWXE3Y18wWF9ZblR1a1F2VkFGbEFrQmNJTmNWbXZHMjdWTVRKVG8?oc=5",
+      "source": "MMA Insight",
+      "cat": "ufc",
+      "ts": "2026-08-23T02:07:29+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2090409944268870067",
-    "2090422517722738914",
     "2090435182549504156",
     "2090447752089964635",
     "2090454790635471271",
@@ -3312,11 +3310,13 @@
     "CBMiqgFBVV95cUxQQ3pkRkJzWXlqaThiQkR1b3F4bTZ2Ukp6MkhkOS1jS2lKVWxIMHpFd04zR2FGQXRmWlFmU0lhTUNTRHYwVXJZVXJ0eXI2RmpaSlJTTk8yR2VfcEpCbkQxVFl5SXdtalZHQUlsZV9uNW8wQXVERHhhNS1OZzBlNzlaYXE3anJpTnk5RngyTHQ1Z0plcllHZDJxUHN5R19Lbm93M0tBWnNkZk1lQQ",
     "CBMipwFBVV95cUxPMFduWk1jQ19QSnBkX0txRU5MZjR2blM2TWdIWG83aWxJZDBuTGNyLW1yZDMzbTFrR2prOEZYM2RvaGg2VmVwSU1LWm84dE1SZURsandHX25pT2xBakN4MEViRlpWa01WYW44Tl82S1JpTTJWd1JiSlYweTI2RXMyajY0WWF6VzY2SHVySUVYRVgtTUpYR1BQWWtYSk9PaW1XRWZONlQwQQ",
     "CBMikAFBVV95cUxQejBkVXcxQ2tRRW5ibF9ydEtxZXQzTS1OTjhWRUFEVC1DUjlpNXgxOXM3R3pTYjB4T25qd3ZPZE1SbzFnQnJQcDZxbTczejV3OEMwOEs0NWtnNG5ITzJ1bm9COC1yZVViTm5GRVJpSnAzWUg5RmYyUzNiQ2lJakNVSU9qOUJPLVVHWk90LUE2QjY",
-    "CBMiiwFBVV95cUxNaHE3N3ZnZ3RoZ3p1dUdWd2xGRDRvclFpMm9weW51ZXVHRVgyY1YyM0t3clJtSDQxV2xCWkpyTUQ0cnBPVmxMUjVGVHVTQmljaUhxczQtYVZySElMZFZ3bnhDVEdnWDk1WUlZcmFQcnhVbVMzMm5CVmJjQnZlaGpDcjhiRHlLRzZreWZF"
+    "CBMiiwFBVV95cUxNaHE3N3ZnZ3RoZ3p1dUdWd2xGRDRvclFpMm9weW51ZXVHRVgyY1YyM0t3clJtSDQxV2xCWkpyTUQ0cnBPVmxMUjVGVHVTQmljaUhxczQtYVZySElMZFZ3bnhDVEdnWDk1WUlZcmFQcnhVbVMzMm5CVmJjQnZlaGpDcjhiRHlLRzZreWZF",
+    "CBMiR0FVX3lxTE1LNGV0czlKeTZ0WnVWbXNsLTRPdnRMMDJ0eG1jSVdIOGhRTVU4c2ZERlU3WFhTMmp4Q3hjamhldjdseVRRMXNv",
+    "CBMiqwFBVV95cUxOS05zOEhkRXN6S1hXQ0xzNDZzNllYRmR2cU5CZ09CNW13aHhYNmJNRGE5U3lMT1dZY1EzMmpjR3B6UDE1Z2prWjEtUkxyLVE3VUhRX0lCX2hwME5CeHJZQUNrSW81ejhKeWRDTXBVZkU4TU5ZaEZHZzBEeDBGTDhfM0thT2laWXE3Y18wWF9ZblR1a1F2VkFGbEFrQmNJTmNWbXZHMjdWTVRKVG8"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 59,
+    "ai": 61,
     "staged": 1
   },
   "staged_hist": [
