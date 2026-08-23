@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento video: Shamil Gaziev shuts off Kennedy Nzechukwu with one punch",
-      "ts": "2026-08-22T23:21:08+00:00"
-    },
-    {
       "t": "UFC Sacramento video: Shamil Gaziev makes Kennedy Nzechukwu pay for hands-down defense with 1-punch knockout",
       "ts": "2026-08-22T23:28:26+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Shanelle Dyer Picks Up Another Big Win -…",
       "ts": "2026-08-23T11:02:31+00:00"
+    },
+    {
+      "t": "Eric Bischoff Explains Ted DiBiase Joining nWo",
+      "ts": "2026-08-23T11:00:51+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UNLV Interim President Chris Heavey",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRVo1OG9ucGtWV3FWZm5HUmFrMXlXM3Z0MzFrdmJjTUtya1YxbUdLNS1vbTZFT3dJdDA0cDE3RXRaNVFzc18tNTVaajF3QVNqSHJCSHJ5RnN6LWQtZEhlTEU1ZW5tSkZtQnRFS0ZqXzMwUXRlZFlmLUtZZXptUW1iejhxSW9uRnNGczBGUGdmV3R4WXkz?oc=5",
-      "source": "Las Vegas Sun",
-      "cat": "ufc",
-      "ts": "2026-08-23T09:00:30+00:00"
-    },
     {
       "title": "2026 MLB Mock Draft: Who Needs a Shortstop? Stream of Major League Baseball",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOUNjZDlRdF82U19BTklCS21FR3dMZEJJeEswTXRnbDdSUzlta3h1VXE5aHBOMEFDOVNoQ3E2ZmZUa2pVeXFlR01waExfdUtqME1ZNE1keDBCcncxM05xQ2ZQd0xCM19wTmx1eDZFX0FZbEZ5Um1pTjIyOEFQTlNpRUZ0SWJXa3lxend3?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-23T11:02:31+00:00"
+    },
+    {
+      "title": "Eric Bischoff Explains Ted DiBiase Joining nWo",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JUnhnUzFVdWVRSGlfVFdRRE9XZzJOdjBCLWdSNEVTd0hDeFgzZDV3V0kyN3ZlTUFrcU41LWl1ZjhmTDNHT1VJVWMzNVBrTWhNeUhVSGgxNFh1MUVYUGtXN053d1hxMUVzWVhyQXNjazc3YkplTWlDUA?oc=5",
+      "source": "411MANIA",
+      "cat": "ufc",
+      "ts": "2026-08-23T11:00:51+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMijwFBVV95cUxQUG5ydS11azc5ZWgtR2UtVzdBU25uY0NfMUc1ME5TRlc3ZzZNV1NPZ1Q1MjdFZDFQRU9iZnA4Mjlmd2RhT1o2UEljeTI2WEM3XzFqejZ3QWVTdHpQRDVWZi14T3NjaW1QVEpwTXVNalNxSnBJLWV6R2pmb1R3cXJkUWwzQ000YkZKS0drWkhqRQ",
     "CBMi0gFBVV95cUxNUDFDU2JiOU1CTkhrN1ZTZ0RLUE9VNzNYZG5uRk9BMUR1RzJwRHI5NHg0U2RvQ3F6aGRuc3NfSlVTa2VodHVUZ0Y1MFFUakFTbExZUElHWlAtSkgwbjRMT296aDFCeUMxWEJGdGttYXpMbzcwUlNaUnRnakRTSWV3UDQwV1dmMVJKVU8xNHRZZFUzQU9LZkZQa2JOVWNROEo1dmdyazhhRDdnamF1UFJfZlI5Zkd5UlE3VGFraWVYTGVTSUFJbGxJekpKOVBMaEZLQ1E",
     "CBMitgFBVV95cUxPYjN5RXZUTm5xcE1pU2d5VDFrZjFqWkd1V3BpNHNDNklLUk8wWUFCZ2p3ZzBFRnJlNWZIRFp0NHREbjZEdVh6MUFiaXRBb2lOenhiWmktSTl0WEc4ZHgwRXlOdmo4UVFaaUU0bGtqQW1scEdfTXVIS3gwUDlUUXhoV2poM2NiZVBsa21MZFphdENEazBTWDRKT3dsWVI1ZzVHbUtJenpTQW9fMy1zUFpGWXp0V2pqQQ",
     "2090586173051642110",
@@ -3312,7 +3311,8 @@
     "https://bloodyelbow.com/?p=328396",
     "CBMirAFBVV95cUxQeTlrZGdtcDdvSkR4ZnRmQWo2TE1EblBtb3kxZHZQbjFUWk5zYnpPbWhOMllxd2xYLXQ5SmlMZWx6YnczaVRKenBabGhSdHlZblZYdUVyLS1DZ0N0TzNVR0ZIaWM1bFR0WE02al9TYzR1MFRLNExFWmhsX25jbng0VkFvY0ZISmhMeFAzd2RDNmNPTExpanNPQm1RSkZ4eVNCM2dmM2M2M0R5bnJ3",
     "CBMixgFBVV95cUxOQ1g2Q0JzRjIyRERZUDM1czZZUmNObExxdnVuWlFnNEZzSVRJSGt6YnhDaXlhcmNkWlVxaVFNVWVpRGU5aXpUOHdPbnY2RUhQTlNkX2hhRGpzRW9fWWthVFhZWXNhV2hCQzd1SVZUTDY2NFp5ZUpGbXF2bkF4SGRGQWZ1eG5vaUxiM2lTdmhwWXEzTjRtZER2RFVucF9KR3lmUGVFWmdCOTRDeXVRcXo3Tkh6eUl1Mk05WEluNU9iMlg0TlFHYkE",
-    "CBMiggFBVV95cUxOYXhWQjZZWTgySXdwMWUxMkpIQ29mbmk3NEhXajc4S2dJOWJkSWtlVjFKOE5nYzdVcjBnNF82NFh3enY4bzRTNnExSnIwd2Jtd0x0am5ESGI4LU50VDMweGtESDZUZ2MtVnpodFVNTkFJcXJnY3g0eGFJUWdRVVdQZzR3"
+    "CBMiggFBVV95cUxOYXhWQjZZWTgySXdwMWUxMkpIQ29mbmk3NEhXajc4S2dJOWJkSWtlVjFKOE5nYzdVcjBnNF82NFh3enY4bzRTNnExSnIwd2Jtd0x0am5ESGI4LU50VDMweGtESDZUZ2MtVnpodFVNTkFJcXJnY3g0eGFJUWdRVVdQZzR3",
+    "CBMieEFVX3lxTE5JUnhnUzFVdWVRSGlfVFdRRE9XZzJOdjBCLWdSNEVTd0hDeFgzZDV3V0kyN3ZlTUFrcU41LWl1ZjhmTDNHT1VJVWMzNVBrTWhNeUhVSGgxNFh1MUVYUGtXN053d1hxMUVzWVhyQXNjazc3YkplTWlDUA"
   ],
   "daily": {
     "d": "2026-08-23",
