@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Conor McGregor returns with Army armbush video shoot - days after he’s sued over tweet",
-      "ts": "2026-08-23T15:19:34+00:00"
-    },
-    {
       "t": "UFC Sacramento video: Shamil Gaziev shuts off Kennedy Nzechukwu with one punch",
       "ts": "2026-08-22T23:21:08+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Trump waves green flag to start IndyCar race in Washington, D.C.",
       "ts": "2026-08-23T18:03:51+00:00"
+    },
+    {
+      "t": "Fluffy and Robocop Proved They Both Belong at UFC Sacramento",
+      "ts": "2026-08-23T18:04:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Rodrigues, Hernandez have banged-up backstage meeting after UFC Sacramento",
-      "url": "https://sports.yahoo.com/articles/rodrigues-hernandez-banged-backstage-meeting-125016311.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T12:50:16+00:00"
-    },
     {
       "title": "'Look, mate, I'm not turning away': What's it like when Yoel Romero gazes into your soul? Darren Till knows",
       "url": "https://sports.yahoo.com/mma/article/darren-till-vs-yoel-romero-staredown-interview-bkfc-94-look-mate-im-not-turning-away-130000141.html",
@@ -2105,6 +2098,13 @@
       "source": "KZTV10",
       "cat": "ufc",
       "ts": "2026-08-23T18:03:51+00:00"
+    },
+    {
+      "title": "Fluffy and Robocop Proved They Both Belong at UFC Sacramento",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTmRQb0tuSmdnd2Y2eFZYVHg2eXo3LXBnZkNia1NHdzVoak9YaXdNSW1PU21id2NYeXF0bE5MRUhfc0h0TnBrTFhFSmlGYlBZN1MtX0VCTFNCNkl4SWNBQjNyOWlBQU1XcmZyZkJPdzIzSThQTm5mYWJUc29uN19adDdZWS1OcUVKOHc?oc=5",
+      "source": "Deadspin",
+      "cat": "ufc",
+      "ts": "2026-08-23T18:04:00+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "39001ce8-3f70-30a4-a3bd-54868c2dcb2f",
     "CBMie0FVX3lxTFA5Ry15V3dYOVludVgxQUJ1SzU2RmFydzhDbEhncGxISFBPZVk5ZXFuRnV2b2IyWmx2Mkw0LTBieE54VERpREJpSWMxVEE5UEpPUk5VMlplVkJMSlFxTGJUOERDZGxrSVZXeUhkbk1zQUlnZ3NnZ1NnSWpUYw",
     "CBMijAFBVV95cUxPbVhNdG5jYU1iNUtzUVVmdkZvM2xxaGRPNVdKd0NxRUR5UVhXTVlyX1Y0OGJzd1F5cHNtRkgxNDNSWVJhRW9SY0xvZHQyRnFmX29MbUtkcG5LWlprNVBuMVlrMHdMOFc2c2VjTjNRTDN1S2c0ZW0ySlUxb3diSGNQM01qeUltOXpYczdrRw",
     "CBMingFBVV95cUxOUTVqREFTY0RId3FCMWNDcDNBWGdzb0djT3JTSHZvc3ZfX2ExTDlMZGN0cFd3MTBBQmh0cWlUMVIzUTM5T01WbUdXX1l1cXJFZ1hFN0RJWTFkSVRMemUzeGZEaDhBNGF2M0VxeFRIUmQxSG1IaGJjS0tJU0R2X29JaHlvU2tUOGJIaEp5TTZXZmZ0c2ZPZFZzVUdLYl9kdw",
@@ -3312,7 +3311,8 @@
     "CBMiU0FVX3lxTE1HRm1YejI2YUVJeUNVNGpkSGhYdUczVlFkMHpEWDBoQW0xMVJMbS1HNEltaXhoZU5uMmJiUVhmXy00TmFkb0R4WXNMclpjQ3JIZWxz",
     "CBMivwFBVV95cUxOMzVmYW12WUFFTUg2OXBnRUIwbzBGZ3pfdllaSms5NS1VaGlRNjc1RHMzNXZ3LUJsQmdxQ3ZOYzU4QkRWQjljSXVCdlZuVDFWLXlQUndRdGZIT2hUSmZVWFVTYTRCVjlLaXVZM3Y1T3BJNXZDS3RfeE9FWUFZdzN2WnpxRFNaY1NvYWVMMHlYTnhVd2JsOElHcEJIczRLTXY1Y1Rsb3FoSmYtZWZ0WEdwRWVMUUV2VWpLT2hBVV9kMA",
     "CBMivAFBVV95cUxORFJxclJvbmg1NXZoSldNMXgwUXFBY05xVGJKM2tBY3JZc3ZhRkFZV3JISHpvTXFibHQ0Z1otSXMzR1M3NFMxSjlpSTB6SkdlRDh5WEVDZklkT3FPTmt3WWZsbEhsV3pQMEJRelcxd0FqS2p0SmZxUWd2VnBfczR5SGt3a0NNUXhiVWxtaWdXcGg5OGJpZ1dVMVlxNi1rQ3Myb3FHREJWZlBkTG1kbUh0UC1hY3FlcVpvSVJ1UQ",
-    "CBMirAFBVV95cUxOUlpLbmFDb1EtVmo1TGNoby1XWXU2YVF5SXBEMW1vdFV0Rl9hRUtOYjliTEoyT3hWZjVJNlNvRDc1MmE4MHhOeGV5QWJhd1J1WjR4VjRlWnJEbDhjQTlXWmllQ1FZVEJBUU93NWxXbTUzWU9RSjV5NVZZb21YcDJzTmhYR3ROMVl4TFJxTDhubE1iaEE0SzRBR2hKUl91R0czLWtFTlpqUldPeDVC"
+    "CBMirAFBVV95cUxOUlpLbmFDb1EtVmo1TGNoby1XWXU2YVF5SXBEMW1vdFV0Rl9hRUtOYjliTEoyT3hWZjVJNlNvRDc1MmE4MHhOeGV5QWJhd1J1WjR4VjRlWnJEbDhjQTlXWmllQ1FZVEJBUU93NWxXbTUzWU9RSjV5NVZZb21YcDJzTmhYR3ROMVl4TFJxTDhubE1iaEE0SzRBR2hKUl91R0czLWtFTlpqUldPeDVC",
+    "CBMiigFBVV95cUxNTmRQb0tuSmdnd2Y2eFZYVHg2eXo3LXBnZkNia1NHdzVoak9YaXdNSW1PU21id2NYeXF0bE5MRUhfc0h0TnBrTFhFSmlGYlBZN1MtX0VCTFNCNkl4SWNBQjNyOWlBQU1XcmZyZkJPdzIzSThQTm5mYWJUc29uN19adDdZWS1OcUVKOHc"
   ],
   "daily": {
     "d": "2026-08-23",
