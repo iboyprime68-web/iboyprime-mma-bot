@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Video: UFC Sacramento full card faceoffs with Hernandez vs. Rodrigues",
-      "ts": "2026-08-21T23:44:59+00:00"
-    },
-    {
-      "t": "Former UFC lightweight champion returns at UFC 332",
-      "ts": "2026-08-22T00:00:00+00:00"
-    },
-    {
       "t": "Analyst confident in Ian Machado Garry's title future after UFC 330 loss",
       "ts": "2026-08-22T00:30:29+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Vitor Petrino Defeats Spivac by Decision in UFC Sacramento Co-Main",
       "ts": "2026-08-23T02:10:08+00:00"
+    },
+    {
+      "t": "Anthony Wint vs Terrance Chatman - Highlight | UFC 2026",
+      "ts": "2026-08-23T01:23:48+00:00"
+    },
+    {
+      "t": "Vitor Petrino Outworks Serghei Spivac for Statement Win",
+      "ts": "2026-08-23T02:13:45+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Cyborg title not at stake as opponent misses weight",
-      "url": "https://sports.yahoo.com/articles/cyborg-title-not-stake-opponent-064726016.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-22T07:27:25+00:00"
-    },
-    {
-      "title": "Video: Islam Makhachev throws in the towel after fighter dislocates shoulder",
-      "url": "https://www.mmafighting.com/pfl/506477/video-islam-makhachev-throws-in-the-towel-after-fighter-dislocates-shoulder",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-23T00:42:51+00:00"
-    },
     {
       "title": "Tyron Woodley WINS: UFC legend scores first victory since 2018 in RAF Wrestling debut ahead of Khamzat Chimaev test",
       "url": "https://bloodyelbow.com/2026/08/22/tyron-woodley-wins-ufc-legend-scores-first-victory-since-2018-in-raf-wrestling-debut-ahead-of-khamzat-chimaev-test/",
@@ -2105,6 +2091,20 @@
       "source": "Cageside Press",
       "cat": "ufc",
       "ts": "2026-08-23T02:10:08+00:00"
+    },
+    {
+      "title": "Anthony Wint vs Terrance Chatman - Highlight UFC 2026",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQejBkVXcxQ2tRRW5ibF9ydEtxZXQzTS1OTjhWRUFEVC1DUjlpNXgxOXM3R3pTYjB4T25qd3ZPZE1SbzFnQnJQcDZxbTczejV3OEMwOEs0NWtnNG5ITzJ1bm9COC1yZVViTm5GRVJpSnAzWUg5RmYyUzNiQ2lJakNVSU9qOUJPLVVHWk90LUE2QjY?oc=5",
+      "source": "Vidio",
+      "cat": "ufc",
+      "ts": "2026-08-23T01:23:48+00:00"
+    },
+    {
+      "title": "Vitor Petrino Outworks Serghei Spivac for Statement Win",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaHE3N3ZnZ3RoZ3p1dUdWd2xGRDRvclFpMm9weW51ZXVHRVgyY1YyM0t3clJtSDQxV2xCWkpyTUQ0cnBPVmxMUjVGVHVTQmljaUhxczQtYVZySElMZFZ3bnhDVEdnWDk1WUlZcmFQcnhVbVMzMm5CVmJjQnZlaGpDcjhiRHlLRzZreWZF?oc=5",
+      "source": "MMANews.com",
+      "cat": "ufc",
+      "ts": "2026-08-23T02:13:45+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMinAFBVV95cUxPR0h5VlptZEpnWFI5RWRIUWtoaGdOTmhITVp4akw2UDNOQlh4bV9vMDViVXN5QVprU0RUMmEzSGRHOVoxcDFUeC1jYXhBTEVheG1NTndTX01FbElVdk5oazc3LXZZNl9xNXJLYm5OZ2Ixd0ZnUEVrNDk3QkpNR204SDREZmliel9ObmZjVlNtRVZ3eFVmejh5ellwbG8",
-    "CBMigwJBVV95cUxNV0ZUVk5keXlxZkx0aGNUYmRpWVBkSGNoaU5va25ia2JuaFIzQ3QyTk9xWDBXaElFOUs2eHc5Y3pFQUJXQzdzY0lWWmRTTGFhbmVnUVAwRW80ZmFrRG56ME1EdU5mV1JLaGUybzhwLTFFRVFoeV9Tdnk0MjFXRUk0MjNtV2RaQzJ3VHBRSy02STU2d1lEdEQzLWt2T1VnZk00azJENkxWSnd0SlJWalhGMHRSUmNqOG5mQ2x5ZW95d0JkMWRqYlhFbFd1ZGttUDl3RDZKOWlVbUM5Nk5sa01reVdIdEdPVlYxYWRKWENNUkpLMUx2aDFVXzh3QnJrOXZxS0M40gGIAkFVX3lxTE5qdkdNdDNKUFFzbHNkNURyUGZwWEZYcUxIbU53eHc4VG9nMzZGRURLa2pxVWF3ajdyUTF1VDFXOUNmRU1pajBDMXg5ckstTHRGdWRVNkd1VEdBcjNpZ1JOOUJnemlaVGJKYndLQkN6VnZQaFJfSVBXcUFiWDBzQVJocUllTzNMUWczNU04NlgwWlc2S1R4TE5UZ0QwNm1LdEd2X19QSFUyM0pyWXdzcVFRWjd5SUtHMnBRQnByTU4yTUl0WFI5Z2ljUmpORHBFUDdkMU14dEhHZXFCb1U1NHdfNjllU05HWmRyTUdiMVctdzFUSnRUUmRTa19xaE1tYU1nTFRCQkVuRg",
     "2090409944268870067",
     "2090422517722738914",
     "2090435182549504156",
@@ -3312,11 +3310,13 @@
     "CBMi2AFBVV95cUxOTDJhbm55UHhjWVNycG5LRkdFZzFYbTVWT2twTU1GOWlXTnJONTktbUM2OXduaVE4aGJERl9JQzg3VFpkMXhzQ2lPYW9WTHlndERTbTdNMmx3QVl4dW1kWlRXV2gxNGhkZDJmUlJqbFV6N1k2VEM1TFlSSkRSOWh5RF9tZG5PUFJ2VWhtWkpqdU9vYUlJQ1N2WW9rNzNFWmdQNkRla24xODdfeW43LUcxOEtoZVRGVkFZWXBXTUxqZ3lmb18wdXFoN0dnWk5adjA4bnJwUlZIaFk",
     "CBMihAFBVV95cUxOaGUwUUVXY3N0YXdpS0ExZ0FsWFk2YTNOSXBqbG5ydVNLNzF4cEpHdkptWlNrYS1FT045MmlVWmNDOWItMjF1OGhkWGY3clVSd3AtT1hDaDhreDVFc0RhSXltRl9raEM5b2VSb3lBb2JKWGlWY3dNbkhUNUZxcE1WdlJ5RVk",
     "CBMiqgFBVV95cUxQQ3pkRkJzWXlqaThiQkR1b3F4bTZ2Ukp6MkhkOS1jS2lKVWxIMHpFd04zR2FGQXRmWlFmU0lhTUNTRHYwVXJZVXJ0eXI2RmpaSlJTTk8yR2VfcEpCbkQxVFl5SXdtalZHQUlsZV9uNW8wQXVERHhhNS1OZzBlNzlaYXE3anJpTnk5RngyTHQ1Z0plcllHZDJxUHN5R19Lbm93M0tBWnNkZk1lQQ",
-    "CBMipwFBVV95cUxPMFduWk1jQ19QSnBkX0txRU5MZjR2blM2TWdIWG83aWxJZDBuTGNyLW1yZDMzbTFrR2prOEZYM2RvaGg2VmVwSU1LWm84dE1SZURsandHX25pT2xBakN4MEViRlpWa01WYW44Tl82S1JpTTJWd1JiSlYweTI2RXMyajY0WWF6VzY2SHVySUVYRVgtTUpYR1BQWWtYSk9PaW1XRWZONlQwQQ"
+    "CBMipwFBVV95cUxPMFduWk1jQ19QSnBkX0txRU5MZjR2blM2TWdIWG83aWxJZDBuTGNyLW1yZDMzbTFrR2prOEZYM2RvaGg2VmVwSU1LWm84dE1SZURsandHX25pT2xBakN4MEViRlpWa01WYW44Tl82S1JpTTJWd1JiSlYweTI2RXMyajY0WWF6VzY2SHVySUVYRVgtTUpYR1BQWWtYSk9PaW1XRWZONlQwQQ",
+    "CBMikAFBVV95cUxQejBkVXcxQ2tRRW5ibF9ydEtxZXQzTS1OTjhWRUFEVC1DUjlpNXgxOXM3R3pTYjB4T25qd3ZPZE1SbzFnQnJQcDZxbTczejV3OEMwOEs0NWtnNG5ITzJ1bm9COC1yZVViTm5GRVJpSnAzWUg5RmYyUzNiQ2lJakNVSU9qOUJPLVVHWk90LUE2QjY",
+    "CBMiiwFBVV95cUxNaHE3N3ZnZ3RoZ3p1dUdWd2xGRDRvclFpMm9weW51ZXVHRVgyY1YyM0t3clJtSDQxV2xCWkpyTUQ0cnBPVmxMUjVGVHVTQmljaUhxczQtYVZySElMZFZ3bnhDVEdnWDk1WUlZcmFQcnhVbVMzMm5CVmJjQnZlaGpDcjhiRHlLRzZreWZF"
   ],
   "daily": {
     "d": "2026-08-23",
-    "ai": 57,
+    "ai": 59,
     "staged": 1
   },
   "staged_hist": [
