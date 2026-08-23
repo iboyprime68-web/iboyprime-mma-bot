@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Ex-NFL star chokes rival unconscious in UFC Sacramento debut 11 days after winning Dana White’s Contender Series contract",
-      "ts": "2026-08-23T01:49:53+00:00"
-    },
-    {
-      "t": "RAF 12 results: Bo Nickal falls to 2026 NCAA champion Max McEnelly in first wrestling loss since 2020",
-      "ts": "2026-08-23T02:20:54+00:00"
-    },
-    {
       "t": "UFC Sacramento : Robocop vs. Fluffy – Tous les résultats",
       "ts": "2026-08-23T05:34:33+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "“Merab Is a Fraud”: Fans Tear Into Dvalishvili After 36-Second Loss Against Henry Cejudo at RAF 12",
       "ts": "2026-08-23T08:47:00+00:00"
+    },
+    {
+      "t": "2026 PPR Mock Draft Strategy – Picks 1 to 9 | Fantasy Football Today Stream of National Football League",
+      "ts": "2026-08-23T08:55:01+00:00"
+    },
+    {
+      "t": "Anthony Wint Points At Gable Steveson And Josh Hokit After UFC Sacramento Submission",
+      "ts": "2026-08-23T08:56:49+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Rafael dos Anjos returns to fight Alexander Hernandez at UFC 332",
-      "url": "https://www.mmafighting.com/ufc/506116/rafael-dos-anjos-returns-to-fight-alexander-hernandez-at-ufc-332",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-21T22:57:06+00:00"
-    },
-    {
-      "title": "Rolly vs. Teofimo Results: Live updates of the undercard and main event",
-      "url": "https://www.mmafighting.com/boxing/506305/rolly-vs-teofimo-results-live-updates-of-the-undercard-and-main-event",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-22T04:17:54+00:00"
-    },
     {
       "title": "UFC Sacramento predictions",
       "url": "https://www.mmafighting.com/ufc/505891/ufc-sacramento-predictions",
@@ -2105,6 +2091,20 @@
       "source": "EssentiallySports",
       "cat": "ufc",
       "ts": "2026-08-23T08:47:00+00:00"
+    },
+    {
+      "title": "2026 PPR Mock Draft Strategy – Picks 1 to 9 Fantasy Football Today Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWnR2Y0htUkVnbzR1WF9Db05Uc0w1THhBRVZrXzFpZ09xcnRZRTktME5xQ2FBSGpfMVBPR0pRcE1BeUxxb1NkeHV5eFdnUEZMWUZVakVCYmVqQlQ1d3l2b3Jmam1MQnZfVUlTUkp0RlpKZ3NtcXhZeFQ5TXRBX1YwVDZBSDhLVGZzaVFCNkRvWnozRDJXSzVGZlhCWXJZd1l1aEFKWlp4eW1OUQ?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-23T08:55:01+00:00"
+    },
+    {
+      "title": "Anthony Wint Points At Gable Steveson And Josh Hokit After UFC Sacramento Submission",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSmZnMXFCRWtwcEZNa0MwOXlaNzV1al9KTVMwQW1odmhibGVPMkZ2LTUzYWNvTmJSOU9EdHpkeHdIR2YzaThqV21IS2lUUnltUFVPeVhVUDlrT09WZFZzbm1tM09zMFljMG55Nkg3cGo5Ukc4RkNKWmJyNmt5RDAxS2dnZGpFNjB6eXBkR3dfMHdfcHNPVDBGZUhITVZRZw?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-23T08:56:49+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiigFBVV95cUxQZlkwMHl4SXQ4aWI3RXdveG15NzBkYW1KT3RCODdhOGFjV1ZRczJFTXBXdXZpWUUyejZvWU9Fd1BUYmpkTW13NHVBWXVWVTczSVd3VGVtSFE2bFpaZW9xOXkyeVR1Vjc2eGpBYWtSWHo4bVVMTE84SWhXZGVHeE5KWWQ5YjRFMlgzdUE",
-    "CBMiigFBVV95cUxQbmRFcXBYSUVmNkttc1J1MDFzVlRuOHg5RF9EVllxYmlLQnZTX1lJaFRKelY2QWVIXzN5UWR4dldhTE16eXNXV0taMDhWZmpTNk5EdDFSOHAwVW9pd3RrTTZJd0NVVV9abHJiVVhuMjB0VDJZcFhCb0hPYnR0SnBhNmlPUlVleEkxbEE",
     "CBMifEFVX3lxTE9rVks3b2Z6WXEwMzVQUWNVczd3ekRDUm1NNVFLcy14c0w5MkgxNGM1OUk0TERmZmdENDU3WE45bWdOcC1adUZQeV9Gb2ozeXBwbHJsZXBQSUQxRGlULW5EZWVFWF9IbjZfRW5samU4US1MTVRGYUFZMTVVb0o",
     "CBMia0FVX3lxTE9MdktOcjlzV21KNW9mdk9udG5VM1cycHFWaUpKOUI4VExxYURVZklCTFAxa3hhYktVVHpkOFNaZm03UlBNcElBbEpoRFRXQ2gtVVQ5NzZWazFGeHlyU0p4ekptcWJNa0paVE1j",
     "CBMizAFBVV95cUxOdV84QktyYUxOd0Y0dDRFRmh2NjZVWk95aEQtT2RBRVZEMzkzZkQ4M3d3aHhoQ3p6QThlZE5UWDlua1AyTzZIWjFkSWYyRlFhbG1tTmM2bHQ2WHRuR0pnZHV3TmRaaUJoNEY3azZkZ2FVbnFHT0RoeUh4RHdBelFRTW0xaWN2SXZSbTItUmNHMENQdXloTGNGNnYzd2FJcUszbzFzbzU5UHkwei1hbjRGVFQzUzllZEZGTDdHZk5NMk55dmJGWmNBUVBHSnQ",
@@ -3312,7 +3310,9 @@
     "9858e8c7-9217-3423-84b9-8efd0d4acf2e",
     "CBMiuwFBVV95cUxNT1J6cnRMcUk2V3dRYy04bXlMdE5fekZqOXl6T2ROeTM4NkRDcWxTcE5VTTc5dVNZUHFIY05TdmNtakMxTXdtS29razZiNjNqWGJVcXVERWpncG1MQTF3a2M5ZHBmUmFVbHNsRU1yS2ttTHFFc3RuVUFLLWprN3dsd0l2aHFXa29JdmxkTTFsd0JQVDFLWHhKRjRRTlZiN010TmdWdC0zLThSTndrUjl0MG8xdjVIY3UxNGQ4",
     "CBMid0FVX3lxTE14UlNXQzRBVmRaUTZqcmJMc2luWHFPYlJxUk9ybzNrNzBiVVR5UWdSUkY2QUN6dC02dE9VWlhyakoycGhmbXBzdVVuNjdFME00NmR2d05tU09iN2M4eXJ1TUMwdkNfUy1mMGRlSTVZcEVKOXhfSDJv",
-    "CBMi6wFBVV95cUxOYmtpcTA1WHdMZGRmQnE3cGRsV0VPU2NvUnE3UWI2REhpM1hXQkZoVXgtc2t0TEtzVTByeWkwVF9VTGtpcG9DNVdDekg2d1hGRFNtcTlIcjE5bFZqb1BwMk13THNaOEFEcHVOUmdIeXowUXRqUHNHMFd0Q0hIVmFQcGtRUVNsY2FLSVdCdmh6aVVrRDdlYmVGMXpVeGNKYW9rZE4wblNlRTlVMTJKY05GQVExU0pDVXdGcHc2b3hORkkwN3dnaEtZSll6Q0tnMDhGZ0ZyTmNwSHJQYV9PWF9YLXRvd21OYU9VMlBJ"
+    "CBMi6wFBVV95cUxOYmtpcTA1WHdMZGRmQnE3cGRsV0VPU2NvUnE3UWI2REhpM1hXQkZoVXgtc2t0TEtzVTByeWkwVF9VTGtpcG9DNVdDekg2d1hGRFNtcTlIcjE5bFZqb1BwMk13THNaOEFEcHVOUmdIeXowUXRqUHNHMFd0Q0hIVmFQcGtRUVNsY2FLSVdCdmh6aVVrRDdlYmVGMXpVeGNKYW9rZE4wblNlRTlVMTJKY05GQVExU0pDVXdGcHc2b3hORkkwN3dnaEtZSll6Q0tnMDhGZ0ZyTmNwSHJQYV9PWF9YLXRvd21OYU9VMlBJ",
+    "CBMiqgFBVV95cUxPWnR2Y0htUkVnbzR1WF9Db05Uc0w1THhBRVZrXzFpZ09xcnRZRTktME5xQ2FBSGpfMVBPR0pRcE1BeUxxb1NkeHV5eFdnUEZMWUZVakVCYmVqQlQ1d3l2b3Jmam1MQnZfVUlTUkp0RlpKZ3NtcXhZeFQ5TXRBX1YwVDZBSDhLVGZzaVFCNkRvWnozRDJXSzVGZlhCWXJZd1l1aEFKWlp4eW1OUQ",
+    "CBMingFBVV95cUxQSmZnMXFCRWtwcEZNa0MwOXlaNzV1al9KTVMwQW1odmhibGVPMkZ2LTUzYWNvTmJSOU9EdHpkeHdIR2YzaThqV21IS2lUUnltUFVPeVhVUDlrT09WZFZzbm1tM09zMFljMG55Nkg3cGo5Ukc4RkNKWmJyNmt5RDAxS2dnZGpFNjB6eXBkR3dfMHdfcHNPVDBGZUhITVZRZw"
   ],
   "daily": {
     "d": "2026-08-23",
