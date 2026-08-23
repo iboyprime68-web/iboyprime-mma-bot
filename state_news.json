@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento video: Shamil Gaziev makes Kennedy Nzechukwu pay for hands-down defense with 1-punch knockout",
-      "ts": "2026-08-22T23:28:26+00:00"
-    },
-    {
-      "t": "Shamil Gaziev returns to win column with terrifying one-punch KO at UFC Sacramento",
-      "ts": "2026-08-22T23:36:44+00:00"
-    },
-    {
       "t": "Gable Steveson Reacts to Sean Sharaf Matchup at UFC 331",
       "ts": "2026-08-22T23:43:15+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Eric Bischoff Explains Ted DiBiase Joining nWo",
       "ts": "2026-08-23T11:00:51+00:00"
+    },
+    {
+      "t": "Report: Jets' Cade Klubnik Getting Reps With 1st Team Stream of National Football League",
+      "ts": "2026-08-23T10:23:50+00:00"
+    },
+    {
+      "t": "Dana White UFC Fight Night 285 Post-Fight Interview",
+      "ts": "2026-08-23T11:00:50+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "2026 MLB Mock Draft: Who Needs a Shortstop? Stream of Major League Baseball",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOUNjZDlRdF82U19BTklCS21FR3dMZEJJeEswTXRnbDdSUzlta3h1VXE5aHBOMEFDOVNoQ3E2ZmZUa2pVeXFlR01waExfdUtqME1ZNE1keDBCcncxM05xQ2ZQd0xCM19wTmx1eDZFX0FZbEZ5Um1pTjIyOEFQTlNpRUZ0SWJXa3lxend3?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T09:14:16+00:00"
-    },
-    {
-      "title": "Josh Hokit explains why Alex Pereira actually isn’t his preferred next opponent: ‘I ain’t dodging’",
-      "url": "https://bloodyelbow.com/2026/08/22/josh-hokit-explains-why-alex-pereira-actually-isnt-his-preferred-next-opponent-i-aint-dodging/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-22T18:00:00+00:00"
-    },
     {
       "title": "Mauricio Ruffy’s coach not concerned about Arman Tsarukyan exploiting previous flaw: ‘Can’t see that’",
       "url": "https://bloodyelbow.com/2026/08/22/mauricio-ruffys-coach-not-concerned-about-arman-tsarukyan-exploiting-previous-flaw-cant-see-that/",
@@ -2105,6 +2091,20 @@
       "source": "411MANIA",
       "cat": "ufc",
       "ts": "2026-08-23T11:00:51+00:00"
+    },
+    {
+      "title": "Report: Jets' Cade Klubnik Getting Reps With 1st Team Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWmJ3a2JDc3pIaWl6VjJmLXRDbUprdFl2eXN6TGp6YUFMMWx5VVRKS25TRnpfRUxFNkcySWZxajhZaW0zUlZwbWtNQ3BLVGpCZ3lOazh4Xy1pQ0xjenh6ZE9jZlZWR0dkSWozNUxjd3ZwR0Z2RFdTaExSdjBCaTZkTnJ5SW82MDFqNWY2dmowN2hiUQ?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-23T10:23:50+00:00"
+    },
+    {
+      "title": "Dana White UFC Fight Night 285 Post-Fight Interview",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQjhFS3NtY3UwQWg4MGY4aTJzSkdhbHVlblIwdHBOaHFaWHpTVEZGNXNUcmdmQTRKZHRpQ0xOZzZ4YjMwREttUE9lTXFOODIzVGtoYmhGeHhWWS1TelNNVHZYWU9qTERMY3NJV1JJcGxnd0dOT0kwZjZKMml2R2hwWURDaXZNdw?oc=5",
+      "source": "MMA Insight",
+      "cat": "ufc",
+      "ts": "2026-08-23T11:00:50+00:00"
     }
   ],
   "digest_last": "2026-08-22 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi0gFBVV95cUxNUDFDU2JiOU1CTkhrN1ZTZ0RLUE9VNzNYZG5uRk9BMUR1RzJwRHI5NHg0U2RvQ3F6aGRuc3NfSlVTa2VodHVUZ0Y1MFFUakFTbExZUElHWlAtSkgwbjRMT296aDFCeUMxWEJGdGttYXpMbzcwUlNaUnRnakRTSWV3UDQwV1dmMVJKVU8xNHRZZFUzQU9LZkZQa2JOVWNROEo1dmdyazhhRDdnamF1UFJfZlI5Zkd5UlE3VGFraWVYTGVTSUFJbGxJekpKOVBMaEZLQ1E",
-    "CBMitgFBVV95cUxPYjN5RXZUTm5xcE1pU2d5VDFrZjFqWkd1V3BpNHNDNklLUk8wWUFCZ2p3ZzBFRnJlNWZIRFp0NHREbjZEdVh6MUFiaXRBb2lOenhiWmktSTl0WEc4ZHgwRXlOdmo4UVFaaUU0bGtqQW1scEdfTXVIS3gwUDlUUXhoV2poM2NiZVBsa21MZFphdENEazBTWDRKT3dsWVI1ZzVHbUtJenpTQW9fMy1zUFpGWXp0V2pqQQ",
     "2090586173051642110",
     "2090590260203815045",
     "https://bloodyelbow.com/?p=327982",
@@ -3312,7 +3310,9 @@
     "CBMirAFBVV95cUxQeTlrZGdtcDdvSkR4ZnRmQWo2TE1EblBtb3kxZHZQbjFUWk5zYnpPbWhOMllxd2xYLXQ5SmlMZWx6YnczaVRKenBabGhSdHlZblZYdUVyLS1DZ0N0TzNVR0ZIaWM1bFR0WE02al9TYzR1MFRLNExFWmhsX25jbng0VkFvY0ZISmhMeFAzd2RDNmNPTExpanNPQm1RSkZ4eVNCM2dmM2M2M0R5bnJ3",
     "CBMixgFBVV95cUxOQ1g2Q0JzRjIyRERZUDM1czZZUmNObExxdnVuWlFnNEZzSVRJSGt6YnhDaXlhcmNkWlVxaVFNVWVpRGU5aXpUOHdPbnY2RUhQTlNkX2hhRGpzRW9fWWthVFhZWXNhV2hCQzd1SVZUTDY2NFp5ZUpGbXF2bkF4SGRGQWZ1eG5vaUxiM2lTdmhwWXEzTjRtZER2RFVucF9KR3lmUGVFWmdCOTRDeXVRcXo3Tkh6eUl1Mk05WEluNU9iMlg0TlFHYkE",
     "CBMiggFBVV95cUxOYXhWQjZZWTgySXdwMWUxMkpIQ29mbmk3NEhXajc4S2dJOWJkSWtlVjFKOE5nYzdVcjBnNF82NFh3enY4bzRTNnExSnIwd2Jtd0x0am5ESGI4LU50VDMweGtESDZUZ2MtVnpodFVNTkFJcXJnY3g0eGFJUWdRVVdQZzR3",
-    "CBMieEFVX3lxTE5JUnhnUzFVdWVRSGlfVFdRRE9XZzJOdjBCLWdSNEVTd0hDeFgzZDV3V0kyN3ZlTUFrcU41LWl1ZjhmTDNHT1VJVWMzNVBrTWhNeUhVSGgxNFh1MUVYUGtXN053d1hxMUVzWVhyQXNjazc3YkplTWlDUA"
+    "CBMieEFVX3lxTE5JUnhnUzFVdWVRSGlfVFdRRE9XZzJOdjBCLWdSNEVTd0hDeFgzZDV3V0kyN3ZlTUFrcU41LWl1ZjhmTDNHT1VJVWMzNVBrTWhNeUhVSGgxNFh1MUVYUGtXN053d1hxMUVzWVhyQXNjazc3YkplTWlDUA",
+    "CBMikgFBVV95cUxPWmJ3a2JDc3pIaWl6VjJmLXRDbUprdFl2eXN6TGp6YUFMMWx5VVRKS25TRnpfRUxFNkcySWZxajhZaW0zUlZwbWtNQ3BLVGpCZ3lOazh4Xy1pQ0xjenh6ZE9jZlZWR0dkSWozNUxjd3ZwR0Z2RFdTaExSdjBCaTZkTnJ5SW82MDFqNWY2dmowN2hiUQ",
+    "CBMihgFBVV95cUxOQjhFS3NtY3UwQWg4MGY4aTJzSkdhbHVlblIwdHBOaHFaWHpTVEZGNXNUcmdmQTRKZHRpQ0xOZzZ4YjMwREttUE9lTXFOODIzVGtoYmhGeHhWWS1TelNNVHZYWU9qTERMY3NJV1JJcGxnd0dOT0kwZjZKMml2R2hwWURDaXZNdw"
   ],
   "daily": {
     "d": "2026-08-23",
