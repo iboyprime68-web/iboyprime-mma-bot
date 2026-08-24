@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/458296/ufc-329-results-sooo-about-last-night-mcgregor-vs-holloway-2",
     "https://www.mmamania.com/458314/ufc-baku-results-rafael-fiziev-rebounds-with-outrageous-spin-kick-ko-over-manuel-torres",
     "https://www.mmamania.com/458656/ufc-oklahoma-city-main-card-odds-breakdowns-and-predictions-x-factor",
     "https://www.mmamania.com/458695/mm-clone",
@@ -1091,6 +1090,7 @@
     "https://www.sherdog.com/news/news/Raul-Rosas-Jr-locks-in-first-UFC-main-event-against-Brazilian-veteran-202394",
     "https://www.sherdog.com/news/news/Reinier-de-Ridder-Weight-cuts-took-all-the-fun-out-of-fighting-202451",
     "https://www.sherdog.com/news/news/Reinier-de-Ridder-hopes-to-avoid-Robert-Whittaker-rematch-for-now-202438",
+    "https://www.sherdog.com/news/news/Reinier-de-Ridder-reveals-worst-fight-week-led-to-UFC-division-change-202496",
     "https://www.sherdog.com/news/news/Renato-Moicano-Tom-Aspinall-join-Poatan-in-criticizing-Herb-Deans-officiating-201684",
     "https://www.sherdog.com/news/news/Report-Chechen-MMA-fighter-Dzhihad-Yunusov-killed-in-RussiaUkraine-war-201750",
     "https://www.sherdog.com/news/news/Report-Dustin-Poirier-arrested-for-public-drunkenness-in-Georgia-201613",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Former UFC champion Tyron Woodley ends eight-year win drought with wild RAF 12 comeback",
-      "ts": "2026-08-23T22:42:27+00:00"
-    },
     {
       "t": "Jiri Prochazka Sets The Record Straight On His Next Fight Rumors, And Is 'Sure Of One Thing'",
       "ts": "2026-08-23T22:42:58+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "411’s WWE LFG Season Three Report: Episode Eighteen",
       "ts": "2026-08-24T03:46:52+00:00"
+    },
+    {
+      "t": "Reinier de Ridder reveals ‘worst fight week’ led to UFC division change",
+      "ts": "2026-08-24T03:42:34+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Complete UFC Sacramento Results & Highlights: Gregory Rodrigues Outclasses Anthony Hernandez, Wins Fourth Straight",
-      "url": "https://sports.yahoo.com/articles/live-ufc-sacramento-hernandez-vs-170000245.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T03:12:08+00:00"
-    },
     {
       "title": "Jorge Masvidal’s Gamebred FC inks broadcast deal with DAZN, next 4 events announced",
       "url": "https://www.mmafighting.com/latest-news/506384/jorge-masvidals-gamebred-fc-inks-broadcast-deal-with-dazn-next-4-events-announced",
@@ -2105,6 +2098,13 @@
       "source": "411MANIA",
       "cat": "ufc",
       "ts": "2026-08-24T03:46:52+00:00"
+    },
+    {
+      "title": "Reinier de Ridder reveals ‘worst fight week’ led to UFC division change",
+      "url": "https://www.sherdog.com/news/news/Reinier-de-Ridder-reveals-worst-fight-week-led-to-UFC-division-change-202496",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-24T03:42:34+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "8f7db4a0-4ad9-3b0a-83d0-cc0423fb6f1c",
     "CBMie0FVX3lxTE5MSm4wemw1MU1jQjVZbndzR1l1SEFTdG0wZlV0dzBqNE9tTzRmT0xGeDJVSkNwVlc2d2YzYjZvd3hGZ1dLUXBzOUsyN1pXUkdhWnU1YWoteGZLS2tfbjRxRmdSSVYwRW5ZN19sM3htcGlOdFpXNXNDZlpIZw",
     "https://bloodyelbow.com/?p=328073",
     "https://www.mmafighting.com/506135/ufc-belgrade-weigh-in-video-medic-vs-rodriguez",
@@ -3312,11 +3311,12 @@
     "CBMikgFBVV95cUxObDkyTjI1WnBfMmN5bDNkbmM4NXNHNHlYOUV2bVVkQ051Mk1LYUhIbEJHSEJxM1c4ZEVFQ00wSHFXbVc1SXhzdGZfVWZHemNjV0thaFNBMFRQM0xiS2VoMmF3WmhHQjVXNWFPUFZUN3NWX3h6QWd0b19KeF9La1FFV010dHpwQktDRUh3RnBiR1I5Zw",
     "https://www.sherdog.com/news/news/Jorge-Masvidal-teases-big-news-as-UFC-return-talks-heat-up-202494",
     "https://www.sherdog.com/news/news/Gilbert-Burns-names-UFCs-best-MMA-pure-jiujitsu-fighters-202495",
-    "CBMiiAFBVV95cUxNNHBUemo0RnFPb1RpWm4zZzZwUWh0THp2NUtaa3o4NUN5M3dMVEd4dE54bXdwemppdkt2Nzlyc2NjdDRZZllrbV9na3ZJWUU2ZmV5dTFnU3hoenE0Uy1Na3o1eElybDZqZEtUdW5NeTdDY05zb1NPSzZnVm5HQXkzN3JTcXp1Tmlh"
+    "CBMiiAFBVV95cUxNNHBUemo0RnFPb1RpWm4zZzZwUWh0THp2NUtaa3o4NUN5M3dMVEd4dE54bXdwemppdkt2Nzlyc2NjdDRZZllrbV9na3ZJWUU2ZmV5dTFnU3hoenE0Uy1Na3o1eElybDZqZEtUdW5NeTdDY05zb1NPSzZnVm5HQXkzN3JTcXp1Tmlh",
+    "https://www.sherdog.com/news/news/Reinier-de-Ridder-reveals-worst-fight-week-led-to-UFC-division-change-202496"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 44,
+    "ai": 45,
     "staged": 0
   },
   "staged_hist": [
