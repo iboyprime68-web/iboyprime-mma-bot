@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/458135/live-watch-ufc-perth-post-fight-press-conference-video-jdm-vs-prates",
     "https://www.mmamania.com/458251/open-thread-july-18-2026-backrooms",
     "https://www.mmamania.com/458254/ufc-oklahoma-live-results-highlights-play-by-play-du-plessis-vs-usman",
     "https://www.mmamania.com/458256/ufc-oklahoma-city-best-betting-props-parlays-and-picks-du-plessis-vs-usman",
@@ -1170,6 +1169,7 @@
     "https://www.sherdog.com/news/news/UFC-announces-intention-to-integrate-new-rankings-format-201459",
     "https://www.sherdog.com/news/news/UFC-champ-Tom-Aspinall-finds-common-ground-with-English-footballer-201519",
     "https://www.sherdog.com/news/news/UFC-champ-wants-to-fight-PFL-ace-Johnny-Eblen-for-the-title-201715",
+    "https://www.sherdog.com/news/news/UFC-debutant-admits-he-had-no-idea-how-to-defend-submission-What-defense-202492",
     "https://www.sherdog.com/news/news/UFC-fighter-accuses-failed-DWCS-hopeful-of-attacking-him-in-Thailand-202443",
     "https://www.sherdog.com/news/news/UFC-fighter-suffers-fractured-orbital-instantly-lost-vision-in-upset-loss-202489",
     "https://www.sherdog.com/news/news/UFC-heavyweight-contender-on-Alex-Pereira-Hes-scared-201507",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC Sacramento Post-Fight Show: Reaction to Gregory Rodrigues outlasting Anthony Hernandez",
-      "ts": "2026-08-23T05:58:11+00:00"
-    },
     {
       "t": "Anthony Smith issues first statement since his arrest: ‘I’ll be able to tell my story someday soon’",
       "ts": "2026-08-23T10:00:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Tyron Woodley beats Joaquin Buckley, then offers to help him win UFC gold",
       "ts": "2026-08-24T02:30:51+00:00"
+    },
+    {
+      "t": "UFC debutant admits he had no idea how to defend submission: ‘What defense?’",
+      "ts": "2026-08-24T02:38:31+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Matches To Make After UFC Sacramento",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV21WMEM0YnJwazlhT3ZhWndfVTN3UF9KdEx3a1A3cGZxRUJPZmlqLWFybUV2RVJlVDlmdm9ueVlRQTBUTnk2V2tKUDhjeWFBOHU3MC1BbTg3WkZBR2dCbGc2UzVDWGU3bEt1VF9zYmpWSTc0ZlJaaGZ1bDR6cHIyM1Yyd2VSUklsaXhva3pmWXd6RkRlY2g0LUw0SzZTSVJLS1BqZzBVcVctT2hZUW1lTHlPY0dwVV8tSkhSNDk4SWw0TVNYX2c?oc=5",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-23T23:30:00+00:00"
-    },
     {
       "title": "Dana White Warns Ian Machado Garry May Never Get Islam Makhachev Chance Again",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX1ZSSm1TSThvblUtSjdpZkExYkIyem5YMm5mQ3RDT2lnSVRNeWVIRk5sMi1Qb1cwYmR0Q2tTU1h2OUg1VFRQNXhsMDVYWWFtd0MzWkJVN01QbVh4TEQ1ZnJKeGIyTVRJTkp4M0M2ZXQ5VmNiaUhrR0RuX1VjQ3JXTm5iN0dNWnJQUTh3Qg?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-24T02:30:51+00:00"
+    },
+    {
+      "title": "UFC debutant admits he had no idea how to defend submission: ‘What defense?’",
+      "url": "https://www.sherdog.com/news/news/UFC-debutant-admits-he-had-no-idea-how-to-defend-submission-What-defense-202492",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-24T02:38:31+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMizwFBVV95cUxOdFptcV9adTJpLUhNNm5tUHA4LWd4Q1l4SlFPSVhzaXNKNnQ5U09hcWJic3FkYVVUamh1QVFkNDc2bFBKUnktUnVyak82OFdTUXUtVXNydUdxaUxWZWRGbHVBWnRMU1JzaWZRVmJJVlRZalRqZHFaYk5rUHBuWGlxUU51anpVNGNlR1JHejVVaTUwSEFRX182a1ZlWDJuS2FYdElSVUYtbk9Ha2NORldicXRxNmNaUzBKR09WUkgwX3k5Y0N6cFU3eE13VFF6b2c",
     "CBMijgFBVV95cUxOYlJjZDhOanNhOWRHcjlsbTZhNXZodkhCbm9BdlI0NWlMajMxYmN5UTExUTJoRThjTkZPLTNZRlVvekhpYnRvMmVtZElPWGIxSnRhWHdBNHZVbjBoUkMzeHJSVVdFbTVGdFV0Mnh2cWFtVXAwLUJWTlpwVmVyMExIRVJVZlBCWWVwNlNfcWl3",
     "CBMif0FVX3lxTE5zS2N1UlhEa1BXelU4NGVLdGFsLWY1RklaQzhLZzMtSzN4ZnYwSnVTU2FoV3NCTjlmWFh3UDhkUjVrVWlqWmRTX1JzVko0LWlmRzF5WlBXNW1DTkFvRTZudXJZX0FCSExZYkVkcGV0LW9JRTBfN19LSlRGSXVJNnc",
     "CBMi1AFBVV95cUxQTVFpZUJyOGwzVUtKTmRnZUtEWENiclRDSC1SaUM2VlpfbjRlUk1SblFCc3VESWM0ZGZveVpUWFU1bFNsS3oxaEpaRlgxbmRmVUVoLURWSG45MU53eHJVZlBGQzlOZzNMYThLOElGSkJSd3NnU1c1U21ndG1pTkpTdGZQRkJKLWN0ZnhJRjRrRk9vYlV3WW1nU25MeFAxUWpaQmp3VDJPdk1xYVN3QldxWXJud2tic2NxRmhlSGQzSlVKR0pSNDRqUk5PaDBKei1HaHF5Vg",
@@ -3312,11 +3311,12 @@
     "CBMieEFVX3lxTE8xWW1zZkdlMVI5Y0JuTlB1cjcxV0FvcXlJbURFVVR2el92MTZNMWlnMTlIOEpHT1JLUXN0VkJUanFTMHVqeEk1cTQxcWtNLXhWbzRFQ2RGaE5IWGFyRmwwOHR3VkxmekNlM0RoU2NVOGx4Q1NYUzdBaQ",
     "CBMixgFBVV95cUxQa3BaaEFBSU1ZYXRQTmQ3R3ZBTlhZa2VYOHpzVUVBZDQwX0tjTXpTaEZ2aVpYek5hU2NNNktSbGxPWkVUWWtWd3loRlFmV2lqZi00aVV4dkJCMEIwWUVUX09GV1pKSHp3U3VDZEZGNWlDYWlTbEJpOGI4ZHFCaklJc1FBMjJEMHY4cHZTNElhQXMtanBEeEhROXlFd1hGNDFTbVBraVZQeWJSTDdtZVBTcklFVGZBY2V4MGlKWmU5WURiYlJkZFE",
     "CBMitwFBVV95cUxOMzhZbk9tZkR4bUgtMVJzalN5Q0s4aWoweFN5MHpoZk1iVFNhYnJVaE1aazNuSlA5eUFmcjRCM01vZ2prblRnSXBiSWNQWEJpMEJpTG83N1dLY2tXVnlDQjJHb3Fza0tkZ0tWd0NDOWdjMUYxSXIyOE92UzVyUVhneGRpaGxtTURLd0VWLU85QXlLNlp4eDhHREZiX3JDZFVqcjZCYnlSNnJxR2lsQk5TRG51eDdoMVU",
-    "https://www.sherdog.com/news/news/Tyron-Woodley-beats-Joaquin-Buckley-then-offers-to-help-him-win-UFC-gold-202491"
+    "https://www.sherdog.com/news/news/Tyron-Woodley-beats-Joaquin-Buckley-then-offers-to-help-him-win-UFC-gold-202491",
+    "https://www.sherdog.com/news/news/UFC-debutant-admits-he-had-no-idea-how-to-defend-submission-What-defense-202492"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 30,
+    "ai": 31,
     "staged": 0
   },
   "staged_hist": [
