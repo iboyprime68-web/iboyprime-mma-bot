@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Jorge Masvidal’s Gamebred FC inks broadcast deal with DAZN, next 4 events announced",
-      "ts": "2026-08-23T05:10:34+00:00"
-    },
-    {
-      "t": "Dana White Goes on Another Long Rant About Ian Machado Garry",
-      "ts": "2026-08-23T07:27:12+00:00"
-    },
-    {
       "t": "MMA schedule and results 2026",
       "ts": "2026-08-23T07:31:45+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "2026 Contender Series Week 3 early weigh ins live results &#124; Mir vs. Apodaca",
       "ts": "2026-08-24T06:26:21+00:00"
+    },
+    {
+      "t": "There is one thing that makes Trump worse than Nixon: biographer",
+      "ts": "2026-08-24T15:13:00+00:00"
+    },
+    {
+      "t": "Conor McGregor says a 'Stone Cold' and Vince McMahon clip was ‘literally identical’ to his month of August",
+      "ts": "2026-08-24T15:30:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Jorge Masvidal Hints at UFC Comeback Against Leon Edwards",
-      "url": "https://sports.yahoo.com/articles/jorge-masvidal-hints-ufc-comeback-050125106.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T05:01:25+00:00"
-    },
-    {
-      "title": "Drew Dober Calls Out Michael Chandler",
-      "url": "https://sports.yahoo.com/articles/drew-dober-calls-michael-chandler-051944244.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T05:19:44+00:00"
-    },
     {
       "title": "Anthony Smith breaks silence following arrest and felony charges",
       "url": "https://sports.yahoo.com/articles/anthony-smith-breaks-silence-following-072932009.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-24T06:26:21+00:00"
+    },
+    {
+      "title": "There is one thing that makes Trump worse than Nixon: biographer",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBazNmRGVoTV9uQkIxNUxMSXdHYkEzaUVWeHlSS0R3VmYzUUVQVHpoMklUNWZ5ZFNQazVpVldmS081SWVURThVZDFmNUs4Q1UweWI2ZkI2anY4X2hu?oc=5",
+      "source": "AlterNet",
+      "cat": "ufc",
+      "ts": "2026-08-24T15:13:00+00:00"
+    },
+    {
+      "title": "Conor McGregor says a 'Stone Cold' and Vince McMahon clip was ‘literally identical’ to his month of August",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVkNLRVVFaVV0Yk5Bd1BVaXhxLTdQTV9tNGg3alllcFRxT2IwS0lOekdFNUF3N1A3UHlLSU5jU2s3SUotZ1dDNU9mNnJwcmNGR0tNcEowRGxPc1owaFRDZktZS1pKQXdKTGRIbm9leHdpM2hWZTVxMVFjdkFXajFoa2tMRmZIejF0Y1QwRHRxbFZNSk1nUURDdTlEc1hGOWhRQ3pvZUJadU9rMTVXdkJsMUVXT2hpdWtweERF?oc=5",
+      "source": "Sportskeeda",
+      "cat": "ufc",
+      "ts": "2026-08-24T15:30:00+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiowFBVV95cUxQQWNhcXV5S2VjaVNDN1ptY2x0bnp2ZDlzemFpcDltVF9FbEw3VE5xR1k1aTUyOW43bG42OTlLQWlHanVkcExBTXpBM3JpOGlJX0k0S2pRSWF1a19vb3JEeXhVMXVaNDdhQjE4b0F6dTRDYU5xS2JCanpqOFlTTDRsNkNwVTBBOEtMUjd1VnYxaWNLZ0dLVmh0Ymk0S2NNVHlJdnBN",
-    "CBMi-AFBVV95cUxOaW9KbnQwWlAtT3dIODg2OTk1ZlkwR3htdnliZ3QtTllWbGszMHQyQUF6U2cydFY5aHF2bVVPQzV2WjNwZW9DcVpBVHdxN1BmbFlYS1hTNDZrQW9iLVluQTRzMzU1TWc0OGJzdzJaY0dtR2Y0UjdEMWc5VERKeGZnZmFuYUNNOUNhbHpfOXhyZHJkY1VSUk9SNGRjV0M5MjQ3RDdMS0NhQ01sTEV1cG1tOThoa2UwR1dMRjQ5M0RGYU80ck1vQ2tvUzhJbHVsMHU1M0NJYlQ5ZE10bnk0aFJVVWxpX0pwcXNGUm1JUDZuemFia1JmclBkQQ",
     "CBMiSEFVX3lxTE5Ec2daNkdXazZYejh6cndyZngzT3FXQktTVm13R0o5Q3RWbDd5UUl1OE1rTldEVlZBWDdRaTNsV1Q4c2dEUHFKQtIBQkFVX3lxTFBJQkw0SVpHNjRLLXA3amJQU1ZUOVJSVnU1d3dSbFo1ckJXZWpUZ2hzbURZTWRsU1Mxdy10eG9XSzdZQQ",
     "CBMiqwFBVV95cUxPQVhmUzhrYkd6MnBpSkJLUTlXM2VPTlFRUnRvc0RZOXV0Y2NlQUVrM0s4UHRUTVBSYTJSbUxtd2lGRG9FUXZnRkNyTXhfUnlEamNOVzVJX2dqRzN0VlhMNkZnelpSS3JHcEwtM2k0LUFsX1E4eDVFMGNDMlZaRjRfY24zcURDNFpvR2dHQnEzUENGd0VpM3FlTEM2NTk2ZmRNdi1GUW1vcDJPZHc",
     "7b75e390-c24e-328e-98a2-f0f9df953199",
@@ -3312,7 +3310,9 @@
     "CBMib0FVX3lxTE14RTdqUWlWdV9iOEM3RXlpVUhvekJ5d2lHaEdybS00VHpUOGZ3Y0NubjFhSHlWYzZ6Z2owQlZpdkpoLW9xUzJrYkRRd0xwakNfNXluZTVzR25hNW1ibVlIWHNERlV4dEl0RjU4RFJvTQ",
     "CBMidkFVX3lxTFBpaVlscjNncE9LOEhXaUY5VVIza201SkFlTjgxNDdMMUNKa1VMVmtlTHpKOVVZSUZhbWxMN1J6OUhGcXU2ai1zYU1UY1JGaGVtejZKWjVERlRTdlQxRzVwaXVhNzNZSnROcGpNUFB0S2owSlV1UFE",
     "CBMiogFBVV95cUxQNVZ2MldtZUFTZUlNSXRQZHFPVnloZGhUQVJhTFhoQXhaZTBwbUN0ejdwWGo5T1ljSUU4WHZ4YUl1dlVKbTdjVlJqc3Zxbko1MzVjSHFDenZadC1KTWxxMk9lLUtKM1dHSTZSN3BoalAxblhtc2pXczdfYnRfa0thZUVkaWM1cGt2VElwczFLNHRHOFdZWFppdlpSODVhLUhpLVE",
-    "https://www.mmamania.com/?p=467167"
+    "https://www.mmamania.com/?p=467167",
+    "CBMiXEFVX3lxTFBBazNmRGVoTV9uQkIxNUxMSXdHYkEzaUVWeHlSS0R3VmYzUUVQVHpoMklUNWZ5ZFNQazVpVldmS081SWVURThVZDFmNUs4Q1UweWI2ZkI2anY4X2hu",
+    "CBMiuwFBVV95cUxNVkNLRVVFaVV0Yk5Bd1BVaXhxLTdQTV9tNGg3alllcFRxT2IwS0lOekdFNUF3N1A3UHlLSU5jU2s3SUotZ1dDNU9mNnJwcmNGR0tNcEowRGxPc1owaFRDZktZS1pKQXdKTGRIbm9leHdpM2hWZTVxMVFjdkFXajFoa2tMRmZIejF0Y1QwRHRxbFZNSk1nUURDdTlEc1hGOWhRQ3pvZUJadU9rMTVXdkJsMUVXT2hpdWtweERF"
   ],
   "daily": {
     "d": "2026-08-24",
