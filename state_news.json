@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/458117/highlights-open-ufc-oklahoma",
     "https://www.mmamania.com/458119/highlights-open-ufc-oklahoma",
     "https://www.mmamania.com/458121/highlights-open-ufc-oklahoma",
     "https://www.mmamania.com/458135/live-watch-ufc-perth-post-fight-press-conference-video-jdm-vs-prates",
@@ -1172,6 +1171,7 @@
     "https://www.sherdog.com/news/news/UFC-champ-Tom-Aspinall-finds-common-ground-with-English-footballer-201519",
     "https://www.sherdog.com/news/news/UFC-champ-wants-to-fight-PFL-ace-Johnny-Eblen-for-the-title-201715",
     "https://www.sherdog.com/news/news/UFC-fighter-accuses-failed-DWCS-hopeful-of-attacking-him-in-Thailand-202443",
+    "https://www.sherdog.com/news/news/UFC-fighter-suffers-fractured-orbital-instantly-lost-vision-in-upset-loss-202489",
     "https://www.sherdog.com/news/news/UFC-heavyweight-contender-on-Alex-Pereira-Hes-scared-201507",
     "https://www.sherdog.com/news/news/UFC-heavyweight-vows-to-break-Josh-Hokits-foot-if-they-fight-201722",
     "https://www.sherdog.com/news/news/UFC-officially-launches-Metabased-rankings-system-201615",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Umar Nurmagomedov Shuts Down Privilege Claims From Public",
-      "ts": "2026-08-23T21:36:12+00:00"
-    },
     {
       "t": "Dana White Rips Ian Garry for Being \"Too Nice\" to Islam Makhachev in Title Defeat",
       "ts": "2026-08-23T21:36:15+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Jorge Masvidal Names Leon Edwards For UFC Return As Old ‘Three-Piece’ Beef Wakes Up",
       "ts": "2026-08-24T02:15:56+00:00"
+    },
+    {
+      "t": "UFC fighter suffers fractured orbital, ‘instantly lost vision’ in upset loss",
+      "ts": "2026-08-24T02:04:29+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Sacramento main event loser calls Gregory Rodrigues out for ‘cheating’ in Fight of the Night",
-      "url": "https://bloodyelbow.com/2026/08/23/ufc-sacramento-main-event-loser-calls-gregory-rodrigues-out-for-cheating-in-fight-of-the-night/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-23T11:00:00+00:00"
-    },
     {
       "title": "‘Disappointed’ Bo Nickal breaks his silence after suffering shock wrestling loss at RAF 12",
       "url": "https://bloodyelbow.com/2026/08/23/disappointed-bo-nickal-breaks-his-silence-after-suffering-shock-wrestling-loss-at-raf-12/",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-24T02:15:56+00:00"
+    },
+    {
+      "title": "UFC fighter suffers fractured orbital, ‘instantly lost vision’ in upset loss",
+      "url": "https://www.sherdog.com/news/news/UFC-fighter-suffers-fractured-orbital-instantly-lost-vision-in-upset-loss-202489",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-24T02:04:29+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi7gFBVV95cUxNbkhFQW1MX0RsQU1UaGtXS3JZb3FYM0lSanNOMlNEeFhUVzEzUXBDMXQyaXZJUzFTY0QxbkVxVjZCa3lXc1VDYVo5N01lLUYzMkM1YnZOZnEtU0xJY2wwN0JSdEhaQjdIMURWWmEtMGM2WExKU3AwUzg1dEtVVTZ5Nlo3cW9KQ2MxVW9CWjRTVllvT09vS2tET2lDRHpyM2RzNnBtaDNCeEtJNFhrQjNQRDZ5a0gta25FRVlxT0g2NWp1NFo5cTJzNnlVOXZGLWZSX3Z1azljZVB4WEpMNmRyRDY3NnNSdG5GNUJ6OGRB",
     "CBMickFVX3lxTE43RzZCVzVxWXNlNE9oRlYyRXhSb1RqdFo2bzNEanBZTzUzdHE0TE9lT1VfcEthZDZiN2s3QWdIR3F6aTFWZHZOS3NyZEJZNmtrcV90WS1HN3hEUkJ2OHo4bWlTUHFIYlBhRERhQWRiX29oQQ",
     "CBMijwFBVV95cUxNR3ZRWkd6Q0F1RnBFVDNaUTU2dzdUbDlUMS1HanFNWUpDSnFDb1ZlWGRjQ3YtN1BxM3hqamhqbkxfaElJV1Byb3N4b0VhZjRHUjY5NGdJNEJxV21rOGR1Y2I0U0tkbVMwLWxTZ0NjN2xteDlpelRuU1J6UzJkWnVoNXhqb0k1dnJkR3pNRUk3b9IBlAFBVV95cUxNT0NvcUJJeXlhQmJFSXZIOFQwNjdsMnBpQnpnTUg4R2pIZ0NyRHplVWdlM3pLYVhmU2V0ZDZaMzhHM2tzRVVYLWswYUVEMFliMzhkM0R6dEJzOHJQVWpsVWpjQmR6T1BiTDJFelZ3dkZIbTQya2dvRWJMVzdSeHBfa09xMUNpSzVBdW56c19EcWxhZ1Bj",
     "CBMikgFBVV95cUxPb1NDU05kZXg1Qml5NGhONUZMNkdlMFFQbV9HSFNHZ0NraWZQbllUMGxWcm9JbW5zVGRxcXBfNmJoMXVUYWVKZkxTbjRGUVlSS2JVQi1oNldIMC1VQ2VWQy13dGxRLWIxVzhWV1RSRVJWX1h2R01JM3ZSMlc5Um1HY3FwMlJEeG5LbmNaQWFTYnRfQQ",
@@ -3312,11 +3311,12 @@
     "CBMifEFVX3lxTE1zaEVpU1VDQzNhTmNJU0J6Ni1qUE5rR242M2hTQ0NaZkVtWllvMTMxZDVBSkVJeXdILXFWOVZEVWhFT3VUZEVYUFljMGoydlg1OHprQzBtRU9CcmdXQlRQZHhhTjE4cFVrRDA0M0c2SkJQZzI4SDdISlhLVm4",
     "CBMifEFVX3lxTE9rS0UwV3BXT0YxX1BRRXpsOFpvZ2RtVzl6aERDaHFjSnFzdjBLOEVjREU4Y0I1UEJoajFCVkdlZV9salFJTnAxelJMWnVvUU1pd0lzaW1xT0Nzb1dnaEJKdmV4bk5MLWRRWThoaGxsM3dEbE5ZVHBwTS1NNFU",
     "CBMiekFVX3lxTE9yMHhaOHVtMF8wS0lIbldwTnN1bGJXWFFtYVdWanhvV2RiQTdUVlRLMXU5cDluTmNGcEhjejFTS3hlV1ZCR0VJcDZRLS13dzZONHhOQmJZTUZ0ZWxIS2l0VFNLVzQ2UXQ4cUdDckYtamhWWDYyU0tDMkdn",
-    "CBMie0FVX3lxTFBEbUlHelJQajFTVjVOMGR1UmwzQzZiMzdYUTgwRTZ0Z2ZCVnFfNFRJYXc5S1NqWEwzVzVEdEJWNFVTeWRvMHNyZzZmamFFUlUyVmpUZ1JLNkZKcl9FdXJYWXVjZUhaTUE3LXY3eXd2eGRuRmNmMHhVaU1HVQ"
+    "CBMie0FVX3lxTFBEbUlHelJQajFTVjVOMGR1UmwzQzZiMzdYUTgwRTZ0Z2ZCVnFfNFRJYXc5S1NqWEwzVzVEdEJWNFVTeWRvMHNyZzZmamFFUlUyVmpUZ1JLNkZKcl9FdXJYWXVjZUhaTUE3LXY3eXd2eGRuRmNmMHhVaU1HVQ",
+    "https://www.sherdog.com/news/news/UFC-fighter-suffers-fractured-orbital-instantly-lost-vision-in-upset-loss-202489"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 20,
+    "ai": 21,
     "staged": 0
   },
   "staged_hist": [
