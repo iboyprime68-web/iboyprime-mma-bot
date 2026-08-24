@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento medical suspensions: Both main eventers dealing with possible broken leg after 5-round war",
-      "ts": "2026-08-24T19:48:21+00:00"
-    },
-    {
       "t": "Umar Nurmagomedov vs Song Yadong Preview | UFC Fight Night Shanghai | Deep Waters Stream of UFC",
       "ts": "2026-08-24T20:59:10+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Kennedy Nzechukwu Vs Shamil Gaziev FULL FIGHT HIGHLIGHTS | UFC Sacramento Cryptocurrency (IduYdyOWoB)",
       "ts": "2026-08-24T22:49:15+00:00"
+    },
+    {
+      "t": "Alex Apodaca motivated by Bella Mir hype: 'Let's rise to some occasions here'",
+      "ts": "2026-08-24T23:40:31+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White: Heavyweight division on the rise after becoming ‘a little stale’",
-      "url": "https://www.mmafighting.com/ufc/506705/dana-white-heavyweight-division-on-the-rise-after-becoming-a-little-stale",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-24T13:17:54+00:00"
-    },
     {
       "title": "UFC 332 star Mick Parkin opens up about ‘nightmare’ 18-month layoff after his first career loss",
       "url": "https://bloodyelbow.com/2026/08/24/ufc-332-star-mick-parkin-opens-up-about-nightmare-18-month-layoff-after-his-first-career-loss/",
@@ -2105,6 +2098,13 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-24T22:49:15+00:00"
+    },
+    {
+      "title": "Alex Apodaca motivated by Bella Mir hype: 'Let's rise to some occasions here'",
+      "url": "https://sports.yahoo.com/articles/alex-apodaca-motivated-bella-mir-234031622.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-24T23:40:31+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMihwFBVV95cUxPclZmX0FKTEdIdmxQUU5QSFU1c3RJVDEycHZEaUpVeW5PTHI4N2pkNGRxYURadFBmemdCemVhVHg3Z25sQUtGZE56bzNnOGlycFZ3Q3hRdG9SMFB2UEV2R1FXOEVSc0tpU2NHMUg3UXY0T0NBV3pvNFp0aElhNUhRUXRDb0pLUnfSAYwBQVVfeXFMUDFDNVF6V3JqYXZTX1U1djJULWRIOHRrV0ozUWhNLWxKSE1hTUtNdU0zUkhBTzNkOVU5ZnViemhtMGZTbk1TSjFTWE4zWWxOakpGdDhFVWlkOUEyN3J1MU13TWl2UTFtV1JiMDF1UmEtam1FWVJjUzM3eXczQ0syeUdJc2Nwdmx0TEtaeVo",
     "CBMi7AFBVV95cUxOSGRFN1FoNFNzbXJqbm5semd5NzVBTHBJelQ3a3BGLS1la1Eyal9mRDI1THFQYzctNEVYcVlxdURYQzlzcHdXa0VnZm5NdkNNRzJOclBGY3VGWUdLXzhLejlLZkRjZ291QzZseWlKRmpPeHh5WmZ5SUNVa2dVVG1uX19pTVllQldGQTFQcnJLV1A4VW1OS0Eyd01hbThhZ0ZNY2NNZzJsenJHX3NDX014czAzUVR1OG5MalFqQmZkR09HRXh5dlhoWEQ4dWFWbXoxTmotTGc3cUg3eUlKemxTakJ2bFpUNXF1clZzRQ",
     "CBMirwFBVV95cUxOM1dVZ3pnbWFRZ1V0REoxbXZ0TkdsUXp4X1VOTnlTZkZfYnBXSzRFRzNnSEsyUlgtMDVrZVdpbnRfa2N5M19kTFRXSVRjS0F0Wk5wb291YUxPbVI3ZTVyYnlOb2hqT3hWdnk2Zm1VMzVwczQxd2dNUjZyTHpDYThHcXpOZ19YakpXaW1qSnZoZDRuMVNZRnJCZ2REdklrQVVCenN5SkZ5RldTMTRJUjk0",
     "CBMirgFBVV95cUxQbXNLYmZSdmZoZkZGeEl4cWkwQVQ1MWt1YnFhYXlTNmVETlRndm9FdTJHdTVaclNlRzYtUUtIbTEzMnNMUDJSTi11UEN1b0U1ckFNQU9qUEdyN25TZm1QMEo5bVBwcmlXVzBaTTR5RGh1eXVOSDBHM0d1dzZSd04zWE4tUG9uMXhvRWhxbFJHSDZJQml4RjBCRzVTYmlUVE5xRGl1bUp3YTBtaGZpc2c",
@@ -3312,7 +3311,8 @@
     "CBMingFBVV95cUxPMzlEem8wVEpxR2VvbUllSC1oeExQeGJlWHRiZFRXMHUtU2swWVpLdThNTXNidUdwcmRyY2xOQmU0RmNscHEteTN0ZDd0ZzZMMVl6Y2VneGJJQ29ZNTdZZVlqLWs0T3pQZW9aLXltTTRudFlwU19QX0xLYWxkU3FYblRtczNSMTRQdHhnMV9pTHo0aDRDaGV5aFYwYlJmdw",
     "CBMihgFBVV95cUxQaVBiQ3B0ZUhZbTh1NTBlTFlKdVk1RTFHbThBbmYzZEFwZWNDcEJQZk1JV2FVWWJxUjlJMjVWLU9qNjgxbFY4MjJpSDAxUlZ1YTVJcl9tMXAxOE12UG41M1YyQ3F0TWdrYXZLZG9Yc0E3eU9STlU4VGFmRDVfUi13d3RDSGpfQQ",
     "CBMiW0FVX3lxTE9QZWszT3dJRElSSEhOOG1WRkNjM25ndWp1VllndU5MWlNId2hKb3ZhX3RuX1c0aWltOGpKQ2FaNUgwZm9uNEhwakJrUDBUdXNiUXpUSjJqQkJzMVk",
-    "CBMiW0FVX3lxTE9CVmRKQnRRZzJTYUVxSmRTYmlsclgwSmtRRGxKYTUxUHc2dUZ3VnBvWXJmRzhZSnh3R1dxM2d4OTJQRW1sTjNEVXVFWHJIYWFlTVRtRThFalJENkE"
+    "CBMiW0FVX3lxTE9CVmRKQnRRZzJTYUVxSmRTYmlsclgwSmtRRGxKYTUxUHc2dUZ3VnBvWXJmRzhZSnh3R1dxM2d4OTJQRW1sTjNEVXVFWHJIYWFlTVRtRThFalJENkE",
+    "6347df4d-42a8-3392-a553-a8e3cb5b023e"
   ],
   "daily": {
     "d": "2026-08-24",
