@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Former UFC contender posts statement after losing to Cris Cyborg with a 7-pound weight advantage",
-      "ts": "2026-08-23T14:30:00+00:00"
-    },
-    {
       "t": "UFC Sacramento loser set to see specialist after ‘instantly’ losing vision due to a broken orbital",
       "ts": "2026-08-23T15:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "‘We handled it behind the scenes’: Dana White addresses backstage incident",
       "ts": "2026-08-24T08:48:45+00:00"
+    },
+    {
+      "t": "NFL Preseason Highlights: Chiefs at Buccaneers (8/22) Stream of National Football League",
+      "ts": "2026-08-24T08:01:18+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Koen Mazoudier expected to face Jermall Charlo if he beats Sam Beck",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYWhiT0d4cktkMkVjLUtDaC15SF9LMUZMbDdibTRFWkFCblpyTEtja3I3dGhYdUxnYnJYWmF2THBNTFNlVTEtbUhicmVqaHI0U1NHcWtHOEo5ZTNSM19GSmdPTURPZjlTV0tWU3lpZG9mOWZiZXl1dTY2VGljdzVKeVM4S0VzSkIxdGtwbVhwX1MxWEdKZGNqUQ?oc=5",
-      "source": "Fightmag",
-      "cat": "ufc",
-      "ts": "2026-08-24T06:19:47+00:00"
-    },
     {
       "title": "Anthony Smith breaks silence following arrest: ‘I’ll be able to tell my story’",
       "url": "https://www.sherdog.com/news/news/Anthony-Smith-breaks-silence-following-arrest-Ill-be-able-to-tell-my-story-202502",
@@ -2105,6 +2098,13 @@
       "source": "The Mac Life",
       "cat": "ufc",
       "ts": "2026-08-24T08:48:45+00:00"
+    },
+    {
+      "title": "NFL Preseason Highlights: Chiefs at Buccaneers (8/22) Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT2l4c09mejRLajRqNWdYSFhIU2dCWmxCZTFLTmhrbEZWcERqZzd5M0R6cVhYYy1nWS1xbmMyUS11SGItTkNUdllQTk5Td01OQ2dQNVR6b0VqRTJ0WEZ3ZXdPXzNSU19CNHhzYWtxVFFNc08xZFcxeHBQWkZsbnlnd1ZJeWIweWRiMTBoMmxRNTRwN3RGd1E?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-24T08:01:18+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "e3bfb417-e0ac-3ded-afa3-71fb4e0a030e",
     "1ef21202-14d0-3ba5-aad3-6a4758f127b7",
     "7a9905d0-0534-33ac-b68b-746e98dc9e7f",
     "CBMipAFBVV95cUxPb1F6akVzUW1qVVg3MXQyRnVhcHlXQTU2SFhfMnJhdGVrQTFqdWhfR1h1WXJoVkNTQV83YU5YYWVzSHlQcTU4dUFUWDNCS2FrMjNBWGNyb3FCd3VRLWdkMXNHN194N0ppYmFHRkJ3S2NZLWlvaXdySjRKUHM0VEpUam9KTU5kZEJFZm1IVHBBSGpNMzZCLTFDOVhKaFR2azFodll5RQ",
@@ -3312,11 +3311,12 @@
     "CBMitgFBVV95cUxOcXJOdzNDU0RjTjBSaVJqN3Z6VE9mcnBGelRIQjFLQlVQT3ZrSXlBUkEwSzF3dlFKZ0FBRUk3VWVCMTR6dnFzTFE2NUZ6UDhUZ3NHWnBUTDJuSkQtTGNNUzZkUW5PeHNYcXBNYjQzQjUybGFUbURVMWR3VTg1QlA0MWxSN3V4OG4xTjVTN1Y0QTdpSjFtMWREbE54T1JNMnRBZmF1cnRpMkl3MjRUUkhjSTFnUmdZdw",
     "CBMimwFBVV95cUxQd1dDelYyOXdFYmg4SG9tN1BrNmF1dm9kbDJkc0lRQjFabDc5cm9mYi1qRmxwWnJhQVI4eTZGQjBaREE4c2ZCSVBMSnN6UGtIV1FoeG1JYVR4RVhWMjRpekJvSVByZmF2R2FvWUlmSWVoS1Q0b3RidXNnc0tDeWc1d2VTeUJ1SklPTEZEQ3pNcENUVlFDbk5OZFpnVQ",
     "CBMidkFVX3lxTE92eHFnWHBmUzVjWHlqaXBZSkpJMWt5Z19TZnE3eHBaVEZrQU9XWGxjTF9EdTZKUnZpM3ktdGpRRkRNaDE2ZjNmRi1rc24xci1IN2RaMnRIX1hvY0NSNWdtYTRMMGFXdTUyWVUxQkFjWHBVWTJqTlE",
-    "CBMiqgFBVV95cUxNVkVJbVNQajdvRENJdjZnTkpUX2tCVWFhX3o5RUlBUk5zWUFRRjUycjRmMmNHb1N4eEtoc3dtZjZkTzRQY2dpR0JYaUhnRzV6X08xcVJ6VlNOMjQwNjVZb2lRVUJMalhpTERqMU53b0dJS3Y1NXB3TW4zYUROQkNjc203QkY4UktEWnpHX2lnVzF6MDdyX2FfUlJFaUNoX0tPVGMxNW5RSm9GZw"
+    "CBMiqgFBVV95cUxNVkVJbVNQajdvRENJdjZnTkpUX2tCVWFhX3o5RUlBUk5zWUFRRjUycjRmMmNHb1N4eEtoc3dtZjZkTzRQY2dpR0JYaUhnRzV6X08xcVJ6VlNOMjQwNjVZb2lRVUJMalhpTERqMU53b0dJS3Y1NXB3TW4zYUROQkNjc203QkY4UktEWnpHX2lnVzF6MDdyX2FfUlJFaUNoX0tPVGMxNW5RSm9GZw",
+    "CBMilgFBVV95cUxNT2l4c09mejRLajRqNWdYSFhIU2dCWmxCZTFLTmhrbEZWcERqZzd5M0R6cVhYYy1nWS1xbmMyUS11SGItTkNUdllQTk5Td01OQ2dQNVR6b0VqRTJ0WEZ3ZXdPXzNSU19CNHhzYWtxVFFNc08xZFcxeHBQWkZsbnlnd1ZJeWIweWRiMTBoMmxRNTRwN3RGd1E"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 106,
+    "ai": 107,
     "staged": 3
   },
   "staged_hist": [
