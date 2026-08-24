@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento: Anthony Hernandez vs. Gregory Rodrigues expert pick",
-      "ts": "2026-08-23T04:48:45+00:00"
-    },
-    {
       "t": "Gregory Rodrigues calls out Dricus Du Plessis after UFC Sacramento win",
       "ts": "2026-08-23T04:59:20+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Carlos Prates Calls Out Islam Makhachev for UFC 334",
       "ts": "2026-08-24T15:25:59+00:00"
+    },
+    {
+      "t": "'Those days are gone': Former Fox Sports manager outraged after Donald Trump announcement",
+      "ts": "2026-08-24T15:27:34+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC debutant admits he had no idea how to defend submission: ‘What defense?’",
-      "url": "https://sports.yahoo.com/articles/ufc-debutant-admits-had-no-023831820.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T02:38:31+00:00"
-    },
     {
       "title": "Gilbert Burns names UFC’s best MMA & pure jiu-jitsu fighters",
       "url": "https://sports.yahoo.com/articles/gilbert-burns-names-ufc-best-032418615.html",
@@ -2105,6 +2098,13 @@
       "source": "heavy.com",
       "cat": "ufc",
       "ts": "2026-08-24T15:25:59+00:00"
+    },
+    {
+      "title": "'Those days are gone': Former Fox Sports manager outraged after Donald Trump announcement",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNVZ2MldtZUFTZUlNSXRQZHFPVnloZGhUQVJhTFhoQXhaZTBwbUN0ejdwWGo5T1ljSUU4WHZ4YUl1dlVKbTdjVlJqc3Zxbko1MzVjSHFDenZadC1KTWxxMk9lLUtKM1dHSTZSN3BoalAxblhtc2pXczdfYnRfa0thZUVkaWM1cGt2VElwczFLNHRHOFdZWFppdlpSODVhLUhpLVE?oc=5",
+      "source": "thecomeback.com",
+      "cat": "ufc",
+      "ts": "2026-08-24T15:27:34+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMimAFBVV95cUxQdkF5YlFfMzlVXzk3ZnA5NmE5NVlDQzk3VFluaW9JejBhQjhxeHZZeFVqb2l1NUNyUkJDaEJGRGhGTTFTSTY2ZEdIaFBzSFgycVdlQ25hdXFpUGlucG40UVVuMTNaeGloeXBYLXNOWm51ZjFYNzY3SERmMlhpdXJzMGJRVlBKLUJvcDBLaXljQzR6U2NFdGdybg",
     "CBMivgFBVV95cUxOUEVXeXBFOXlTRjIzSmpFMTBjMlNXWExNS3Jqc1Y4UmZtdU1zNkZhN3Y5WlQ5NER4RGRiWDMyYnI2OHJscTE2LWtqOENrbVpFdFo3QVZXbG9GdktJcVB6amxIZDRGckZNa1drTUY2SjlPUWhjZjg3d3N4Wm81aDVUVDdEX2UtbmJiWjllTkFVZGprVWI4U0MyOS05Yzl3Vl9IN2c4VGFRS1lJVmNFU2pGd2Y4WlpLUzRDV3g0U1ZR",
     "CBMiowFBVV95cUxQQWNhcXV5S2VjaVNDN1ptY2x0bnp2ZDlzemFpcDltVF9FbEw3VE5xR1k1aTUyOW43bG42OTlLQWlHanVkcExBTXpBM3JpOGlJX0k0S2pRSWF1a19vb3JEeXhVMXVaNDdhQjE4b0F6dTRDYU5xS2JCanpqOFlTTDRsNkNwVTBBOEtMUjd1VnYxaWNLZ0dLVmh0Ymk0S2NNVHlJdnBN",
     "CBMi-AFBVV95cUxOaW9KbnQwWlAtT3dIODg2OTk1ZlkwR3htdnliZ3QtTllWbGszMHQyQUF6U2cydFY5aHF2bVVPQzV2WjNwZW9DcVpBVHdxN1BmbFlYS1hTNDZrQW9iLVluQTRzMzU1TWc0OGJzdzJaY0dtR2Y0UjdEMWc5VERKeGZnZmFuYUNNOUNhbHpfOXhyZHJkY1VSUk9SNGRjV0M5MjQ3RDdMS0NhQ01sTEV1cG1tOThoa2UwR1dMRjQ5M0RGYU80ck1vQ2tvUzhJbHVsMHU1M0NJYlQ5ZE10bnk0aFJVVWxpX0pwcXNGUm1JUDZuemFia1JmclBkQQ",
@@ -3312,7 +3311,8 @@
     "CBMiuAFBVV95cUxNX2ZjLXh0bkhncUtyV01ERzBYNWlyNE5sMjBMWnQ2c0JHYnVWcTRGQzk0VlM0NUJZUHZpaVpwSkJuck43SmZMT0xiTnYzMGFfR1RLa3FlbmVaZE5kbkF5cl9VNTF1cTlGY3c0Zy1KdUMycXFwRk02eF84X2RCLTVETUZXUnI1SktNTTZSa1BkanhMOFVCbDcyanZvMnd0TkJsZlczamZzbWZ6QkJiX2UybGZwTk81ODFt",
     "CBMiugFBVV95cUxOUEpEaVJwNGp5cUpCSUlILW03SHAzNVdjNmQyWlBxSkd2Rmx3SEg3VE44TGRFZ3ZEZERjTDV5NjVfTEtKdVVhNWpTT3FRTlRUaTFQQ0M5VDc5cUZjeU5SOUMxY19TQURMQnZiVEFTSkdzNElqams1NTJydzhfOHBfV2MtSUc4X1ppMFFJVkJqOXB1emxWc3RyVXMyc0x2S1h5dG9Id3QyMDVzNUlYSmF0bDdSQWIwLVhyS1E",
     "CBMib0FVX3lxTE14RTdqUWlWdV9iOEM3RXlpVUhvekJ5d2lHaEdybS00VHpUOGZ3Y0NubjFhSHlWYzZ6Z2owQlZpdkpoLW9xUzJrYkRRd0xwakNfNXluZTVzR25hNW1ibVlIWHNERlV4dEl0RjU4RFJvTQ",
-    "CBMidkFVX3lxTFBpaVlscjNncE9LOEhXaUY5VVIza201SkFlTjgxNDdMMUNKa1VMVmtlTHpKOVVZSUZhbWxMN1J6OUhGcXU2ai1zYU1UY1JGaGVtejZKWjVERlRTdlQxRzVwaXVhNzNZSnROcGpNUFB0S2owSlV1UFE"
+    "CBMidkFVX3lxTFBpaVlscjNncE9LOEhXaUY5VVIza201SkFlTjgxNDdMMUNKa1VMVmtlTHpKOVVZSUZhbWxMN1J6OUhGcXU2ai1zYU1UY1JGaGVtejZKWjVERlRTdlQxRzVwaXVhNzNZSnROcGpNUFB0S2owSlV1UFE",
+    "CBMiogFBVV95cUxQNVZ2MldtZUFTZUlNSXRQZHFPVnloZGhUQVJhTFhoQXhaZTBwbUN0ejdwWGo5T1ljSUU4WHZ4YUl1dlVKbTdjVlJqc3Zxbko1MzVjSHFDenZadC1KTWxxMk9lLUtKM1dHSTZSN3BoalAxblhtc2pXczdfYnRfa0thZUVkaWM1cGt2VElwczFLNHRHOFdZWFppdlpSODVhLUhpLVE"
   ],
   "daily": {
     "d": "2026-08-24",
