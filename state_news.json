@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Video, poll: Did the right finishes get the big bonuses at UFC Sacramento?",
-      "ts": "2026-08-23T17:50:28+00:00"
-    },
-    {
       "t": "Gregory Rodrigues Reacts to Main Event War At UFC Scramento",
       "ts": "2026-08-23T21:50:36+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Heavyweight Admits He Doesn't Know How To Defend The Kimura After Coming Close To Getting His Arm Broken",
       "ts": "2026-08-24T09:10:33+00:00"
+    },
+    {
+      "t": "Cris Cyborg wants Claressa Shields and Kayla Harrison next",
+      "ts": "2026-08-24T09:13:41+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Anthony Hernandez claims Gregory Rodrigues was ‘cheating,’ grabbing his gloves in UFC Sacramento main event",
-      "url": "https://www.mmafighting.com/ufc/506768/anthony-hernandez-claims-gregory-rodriguez-was-cheating-grabbing-his-gloves-in-ufc-sacramento-main-event",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-23T14:01:44+00:00"
-    },
     {
       "title": "RAF 12 results: Henry Cejudo exacts 36-second revenge on Merab Dvalishvili",
       "url": "https://sports.yahoo.com/articles/raf-12-results-henry-cejudo-034707578.html",
@@ -2105,6 +2098,13 @@
       "source": "BJJDOC",
       "cat": "ufc",
       "ts": "2026-08-24T09:10:33+00:00"
+    },
+    {
+      "title": "Cris Cyborg wants Claressa Shields and Kayla Harrison next",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV21ySmpTVFdQLVA4Rl9UUHJOLWE2TFI2MWhQeWpVbHpFTDU2QVd2SHBYcllYWjZ2cFRNNWJmU0RscFl3UHU2bktSelplZjh4NnpnbHdXcWVMWkYyYWtDLUxIWmlNZHJjUmNZZ0REVVhvSUtiQ1R1b3ZJTmpxclE3UVpRNGV3SlY5STdQcA?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-24T09:13:41+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiywFBVV95cUxQRVNObnFKbEZieW43eWJWeUc2QlJra0xyU01yYVdOVjJOLVJsaG1NQmpDTEhsTlBFNlBXWUxVX2pvbVpkeU8zdDhlWjBuSlZMWDdYR0lIY1FMS0F0Ukw0Zk1QSGdhRlVGSGFYZEZNdUZzb1lWSFBPMnNEZGVwelJIbDgtQ08zM2tvZlQzb3lnUlExYlNTX2ltRS1HbkZBNTBSWG55TVFuSUZ5RnBpZDRJX2dCLXgzZjkyR3B2Qmw2a2Q1dFg5TXRBc05MNNIBywFBVV95cUxPbzhWR2dqa3VNeG5IZzFmUkN3UGdlM2N1QTRlQ0R2SWtqWElCSXQ5aTJsWXlGMEpWeENLZG5lOW1OdjcyRWNfOV9hc3FaczYtNFA2Yk80eTFocWdjdnFvUHItMkxLQm9tMVFFb25NNkU1RmMtQURSeHhfSDhTQ1AzX0JLRWwzeE96Y2I0QUJXZ3BXY19OdWhYbDVGdkVYMnhUekdhMWlycGhNYVJsaTFJT0R4eXBZOTNYUkx5dmduWmFvS0JmVElPd20tWQ",
     "3f2a19ce-52c9-3ffa-8f2d-ff4e49b7367b",
     "CBMivAFBVV95cUxQc0FSZkFQTjVHNkxoZXVNUWxudFZNTDJRRFljOWlzT0ZXWVR3UjYzVGw3SllReHhKdTd3aWJRNjhCTU5FWU9MY2NUTXdBVnJ5dGF0SW56bXpiQzRuUHA2NW5IcXdneGVCWWFwSDVkSGxpM1VnWjRCUXRKelQ3bTFQQy1qSUxPZ0RtNFVheTBoQWhrSENmNzhtMGZETFVJa291U0FmRGtwamtUcVZ3SlJpSXV4c3B5NURSYXBPWQ",
     "CBMi3wFBVV95cUxNUjdfMUw1a1lPSVkzWDdMang5NHlNVjZUeU9sQWZJUEFfTHNVXzNnTkRTeGFzOGowWC03Ums0THMxMjJMR0x4R2ZtOC1ZUDJtZU5STDlEZzh6R1VhTVhaenlmZjFiQzFGcXVSLXRTQU9mUE12cjl2dnFMRTBDVVlEaVhqQ2tBOWFaU3hGR21vaVZfRXFPWXVFTGVoUmpnRFZXSTd5Yk1EY0hXOTMzT0JvMm0yMzlUZHNxX1Jfb3B0Y0tCTHJzcVZjTExWRHN0alNDMWt3MmlEN1pHem0wMm9F",
@@ -3312,11 +3311,12 @@
     "CBMiowFBVV95cUxPRk5lRUNkRFJ2N3BWUDI2MFlzR1QwQnNVSXhxM05Md3FtRmlqaWYwcExHZTJpRHNzSlQwWEwzNzhneGRSX3ExMUl1N3VlZHhucjZuSkFXZzRwOU0yRnA5SXc5YTlqUXRINnpqUEw2LUt3VDJ5MFU5THVhd2RHdTZYRTdEbkdRYnZHNjgyLS1wbkZiXzVtNk9oekRUcEpyVkItV05F",
     "CBMiigFBVV95cUxPaS1CNXU3b0VvaFRPX2RPdDlCemVranpiWUtESWY3bjBBTEUxUDFBZDVrdlMya1Nfc2lGVTN0T3BQOHE1ak5UdlhKVnpUNDR6UFBVMS1zNkFxeG8zNkIxLUhzSEloZFFNaHlpbVE5NVlEWjd1MUlYc3pTWURxZkRPb01uQmVJdEVvUWc",
     "CBMiogFBVV95cUxPSnBkbmdVSkt5LUFBRDlqZkZxeHRtN1hzNmtzcm8xWEd5eVNWZUVUMHNpYWhBTzEtNWZLNmtFY1BvVlQtRG1McGtYMDNCdTVBUlhJdXBUbS1NVklmUFRYM0diMGxPZzB2N3BSOUZVbVJZLVN2clRtN0FmTnRhVG1Gc3RTMzNGbVEwd0hmbE9wdVBfWFFqMDRlbWFkYW9pVXRuWkE",
-    "CBMi1AFBVV95cUxOWHZDVFdyNGxBZUtkcGU2Yy1PV0ZDUkxIZXBNZTg0b0I4OEdKdmp2aHhwNkxydV9JbDVaUEp0NWYzRUpEdHlQZjNaTVNZNElfRXZoWUU2TkdYTTY1WGVQNEJ1MkFpNFZldzlvTml0MC1SN1NoVnQ2SFlhTm04blRGMTNoNFdMWWRFRk5uaDR4NnhUYXFYczR0RG92MHlUS1plVGV6OVRLeVZ5TjZ6Q0h1TWc1THZFb0lTNnhuVE1vb3ZES1JUaWdzaGRIdms4NnZQYmZxWA"
+    "CBMi1AFBVV95cUxOWHZDVFdyNGxBZUtkcGU2Yy1PV0ZDUkxIZXBNZTg0b0I4OEdKdmp2aHhwNkxydV9JbDVaUEp0NWYzRUpEdHlQZjNaTVNZNElfRXZoWUU2TkdYTTY1WGVQNEJ1MkFpNFZldzlvTml0MC1SN1NoVnQ2SFlhTm04blRGMTNoNFdMWWRFRk5uaDR4NnhUYXFYczR0RG92MHlUS1plVGV6OVRLeVZ5TjZ6Q0h1TWc1THZFb0lTNnhuVE1vb3ZES1JUaWdzaGRIdms4NnZQYmZxWA",
+    "CBMijAFBVV95cUxQV21ySmpTVFdQLVA4Rl9UUHJOLWE2TFI2MWhQeWpVbHpFTDU2QVd2SHBYcllYWjZ2cFRNNWJmU0RscFl3UHU2bktSelplZjh4NnpnbHdXcWVMWkYyYWtDLUxIWmlNZHJjUmNZZ0REVVhvSUtiQ1R1b3ZJTmpxclE3UVpRNGV3SlY5STdQcA"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 113,
+    "ai": 114,
     "staged": 3
   },
   "staged_hist": [
