@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Merab Dvalishvili admits Petr Yan could ‘beat the s—‘ out of him in UFC 333 trilogy",
-      "ts": "2026-08-24T20:19:59+00:00"
-    },
-    {
       "t": "Coach: Mauricio Ruffy's improvements from first UFC loss are 'chalk and cheese'",
       "ts": "2026-08-24T20:20:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Merab Dvalishvili Shares Prediction For UFC Shanghai Main Event Between Umar Nurmagomedov And Song Yadong",
       "ts": "2026-08-24T23:07:26+00:00"
+    },
+    {
+      "t": "Fighters on the Rise | UFC Shanghai",
+      "ts": "2026-08-24T22:42:41+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "“The belt is secondary”: Merab Dvalishvili puts beating Petr Yan above winning the title",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMEpzZlN2S2R6bnZOMHpQMUJWeEY0Ym0zRUlFblFDSWY1ZV9PVTlpQ3l0ZDg0ZjlsLVd1SEs1VERkMVVYRkhidXNfSzlyN3hmZzdDaFVwaGwyZWVjSXhrZ3ROZ1dRZDQ4VDN5VTFsalFwMXZxejMtWUJLZm5iWW1rel9XalRKMnBwSnZhcDZrLUx6VFBxWFNGU0pHSFk4U2Qta285amJsenRibUlkV09lakhR?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-24T21:39:05+00:00"
-    },
     {
       "title": "Jorge Masvidal Teases UFC Return Against Leon Edwards in Long-Awaited Rubber Match",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zWTIwT3pGWnFmS2xUOFBOZV9ZbzcwUUpBVDcxNGtpTXI2eTZTdG1kcDczZjI4MXczSmxfMTRYT3lOaVVwREdWWF9tR1A2R04wRDl2S0hINEJlenNQdVdhcVFkOWYtczR5MzVj?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "LowKickMMA.com",
       "cat": "ufc",
       "ts": "2026-08-24T23:07:26+00:00"
+    },
+    {
+      "title": "Fighters on the Rise UFC Shanghai",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9BeFlqRElRM2dlZFpRZkUwWVBjRU4ydERmOWlZWlp0MGYzRjhMYk5CbVJIcVdiNzVlTVZzQUdaTFdSZGJaSUtya0l5Q245WTVkREJ6R01jV3luY1FFSGd5Zw?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-24T22:42:41+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMingFBVV95cUxOVHBLeXEzaTNvT2R1UWpNNWZBNFE4Y0ZKaFBXeGFCbnNrMVhSbmxxRlFhNnFUVmNMbUNDSXd3dmJPUW9oMGJLVHlrbjZKUU5kNnA3bVNSZkpoT2FXRGpLOEIxaUotU0lzbDk3WVh5bll2UTZZaEdNUExROWpacDVTUG1kdm51WnFTcW9NenBMYk5QZ0hlbWNyOTk2U0ZvZw",
     "CBMilAFBVV95cUxONlVQZjZqTnBiWmt2NUtDU0tVaHZ1THl4d01mWWFTY1RSUVRWR0gyeXFDY1ZhUHAxcEdFamg4ODhKSkgtZFBOc3dGNUJETjNrakROak5TSklLVWxzYVA4aU9PM1hJUGhRU1YzdGx3dmpTMkhIbVpETVJWcnEtN2x6VDlFVnF5WnFfQVNEcGxPdW9USG9n",
     "CBMirgFBVV95cUxQTEZNN2lkMmFoQmd5bnNjTGw2bVhYcTRLdDFzOUY5cGlQbW9QUTRoYWlfRVNmU1dpR01HcUg1eTkyZ1lVVWkxUmtqOGxlYWZIOG4yRjhrdTNEOUt1U2YzOUJVOFU0SnBqQm9PcEthWXpBMllzQ0ZNMGpjWC1hTFQ4cVNIU243N1NTVExzRm9pOV90dlFJU2JEOFNPbm51MkZkc3EwWEdRZHBzRjVLWkE",
     "CBMihAFBVV95cUxOanZYYXRuVnR2cC1YVnRpdVRJT3RKb1ctVjAwQU1TdHJKMFF2WHVlU1hyZDFURVNKSUgyNWRjazhkbTZ4X0VNYS02US1DUUVNUWZTekEtQVl1R05yRS13allYVC1KNExIbmVQSVdoSTJUOTFablpwSGktTUxveDlXR0JxSEc",
@@ -3312,7 +3311,8 @@
     "https://www.mmafighting.com/?p=506878",
     "CBMiYEFVX3lxTE5QSXVfRVZkbWdnR2dsa05fdFREbGhiZUcweGRsb0FaTXFOUUZkbjFTZThZaWdVaElCWlVsLWR4aDJpSHV1ZVEtMnJZTDk1dExkQjFvWnFzaEREM3BVYjUyRw",
     "CBMi0gFBVV95cUxQZkcwelZLYjBDUkdfODdNM3FEZkNEOXZKUXJQdnJsVnN5TDZmSTdjWkRQREF2SzN0alR4amxSUUlIWWZ1cGdTb3BfZ1VlcjRVNzV3NklWMTZTVVFXcF83Z3FTMHh1VHY2Nkp2MzRPYW5NVF9XT2VsX1FDX0dPYUxFWWN3Y2wzMklIVXg4R2N6S1BzRjJHX0trWFVVWms4YVVCLTFmdjZ6WFRUMGFBVC1UNEY0M1NLVDV6MkkzVXB3ckloUUxxZHo1MV9tX09tSEpfV1E",
-    "CBMif0FVX3lxTE1QX1NKOG5GaXJ1UXBUUzFPclp1bEM0S2VmVDRVY0Q1SWtGVWItR1pqVTJBT3VLRFBBNEw2cHNZUXRQYlhCaU9jbFN0WWlGNk9TWmpyb2NhcTBjN0xGUnBGTjFjSTA3SHVGN3Q3UDU1U095bE9oMFNnWkx3N1JUVHM"
+    "CBMif0FVX3lxTE1QX1NKOG5GaXJ1UXBUUzFPclp1bEM0S2VmVDRVY0Q1SWtGVWItR1pqVTJBT3VLRFBBNEw2cHNZUXRQYlhCaU9jbFN0WWlGNk9TWmpyb2NhcTBjN0xGUnBGTjFjSTA3SHVGN3Q3UDU1U095bE9oMFNnWkx3N1JUVHM",
+    "CBMiYEFVX3lxTE9BeFlqRElRM2dlZFpRZkUwWVBjRU4ydERmOWlZWlp0MGYzRjhMYk5CbVJIcVdiNzVlTVZzQUdaTFdSZGJaSUtya0l5Q245WTVkREJ6R01jV3luY1FFSGd5Zw"
   ],
   "daily": {
     "d": "2026-08-24",
