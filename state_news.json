@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Donald Trump Race Car Go ZHOOOOM ZHOOOOOOM!",
-      "ts": "2026-08-24T16:37:29+00:00"
-    },
-    {
       "t": "Gillian Robertson’s UFC 330 Performance Falls Short of Expectations",
       "ts": "2026-08-24T16:53:15+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Adam Pearce On Potential In-Ring Return: ‘Less Than Zero Interest’",
       "ts": "2026-08-24T19:41:15+00:00"
+    },
+    {
+      "t": "What’s Next: UFC Sacramento Losers",
+      "ts": "2026-08-24T20:05:49+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "\"For the fans\", Drew Dober calls for the Chandler fight",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMUdMZWxQVktGaVJ3NTVUVUtzS2V4Z2l1dFRWT19ObW1UM2kyZ0ZCbnJ3ekJneHRuY2Y2a3VCNzBKQXd5R0M2Vlo1UkJtcGMwcUdVbnhPanZDSUZFbHVrZEJDWFlrek5uOElURjNpbzkxbUZQdWdrMHlrQ1p4Z05wM1JPRlNZOUtiYzNyVjJnQXNrSVJRZUE?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-24T18:28:53+00:00"
-    },
     {
       "title": "Dana White addresses Namo Fazil allegedly being attacked before DWCS: ‘We handled it behind the scenes’",
       "url": "https://www.mmafighting.com/ufc/506696/dana-white-addresses-namo-fazil-allegedly-being-attacked-before-dwcs-we-handled-it-behind-the-scenes",
@@ -2105,6 +2098,13 @@
       "source": "411Mania",
       "cat": "ufc",
       "ts": "2026-08-24T19:41:15+00:00"
+    },
+    {
+      "title": "What’s Next: UFC Sacramento Losers",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5UWDVWcWluM1hTOWhibnVtYVdidWlrSUF3Z1c0a1luRHJVQ19ValZtb3BZTFZYdXRsNjViTElWbUVZVlVmVlcyMFp5Tk5SbWxRTzlHT1hQQ0RzbXdIMk5KWDRtdDNtSmRzRzBPRlNIQlVCLXEyWTJRYWh3?oc=5",
+      "source": "Cageside Press",
+      "cat": "ufc",
+      "ts": "2026-08-24T20:05:49+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "2a3d2b91-53e4-3331-bad0-49144d654ec3",
     "CBMifEFVX3lxTE4yNmVVeTVtVW9tYnFmNnl3VEUtcHhSMkEwZ2JrM0o1UnlkNUt1X2djWWxDZzltSGZKRnVtaFkzcXA1Slk4cm9RejFGZ1RBb0MwSWdpTVVMa3F5SEZEQzU3Q3owWDAyWkNic0p5dFhKb3NtZ0p3ODFNV3lCRUU",
     "CBMihgFBVV95cUxNWUlHWVJUNUs2Vlp5ZXhONVVESU0wTFpEYUM3b21Xa3p0QnlWUnJoUnR2QXpqTElUbDQ0aFRWdUpEYXVicEd1QzRSRW1fMWRNNjAtTF9sTW9lbmtlUW9VUzdZcVNHay16V3NtcXV0RU9iZnVPY1h1b3JGaXRNNWppWHlvSldPdw",
     "CBMinAFBVV95cUxOTTFHN29lUlY3bTNCU3p1SWhKZWI2dHVDUlBvMVMxdjBuT3ZCSXBVUy1GbGdmUmVITW1uS0lyX0J2Zjl0ZVVfQXdscE42UmV5VWZka3lsSFkzbGtWWGhnaUtMV2Vqb3ZUYmo5OVB4LWVpYnpiYnFfdFFUc3JRcUFRTVN1UzU3VTlfaTA0WUE1MEpFTVJLeHREY2FZS0Q",
@@ -3312,7 +3311,8 @@
     "CBMiX0FVX3lxTE1wS28ySDFPUTZ4dWFRQTZESW9RSUV2SXNJMll5OUh0ajhKUlhDVWFldWVGNzkyN1dWbGs3SmNybDFlakxsbUdFRFFMMjhUby1nTzJ3bFA4T2gwWnRxWENV",
     "CBMisAFBVV95cUxNZGVsNV9oX3o1N3JUaXVBZ3FocXZuNXQzN05DMFY1Q0JxWV9ZS3RfclJsZEhqUDNaVS0tMkRpYlB3YjZHY3o3Q0U0QUVIS25uejRKTXJVUFhnNDdMblRtbk8yNE1udXhxbmwtQlFmanhqUjk0VVlsbFNLVzRoQW9EUjVhYl9WWHg0QTZzazZHOHlIaXZWLXJ0NklfVTdtQTVIOEVWei1wTkQwOFNYMk14dw",
     "CBMirAFBVV95cUxOcnJONFUySXJWTnJMZUhJOUVCek9ITFVMVXZ1dzB2QkZGSFBLaTJvakt3ZnFYWFZzREFlcXdRQ0NkMDc2UFJoMXQxa0NKX2pFRFJkR1RlLUpnZGZSdkhMUkFIMjhLQmh2Z1hRTkhxWVlMQTN5M0pib2JKM3FJSDJRVXdBR2hiM09YdzhpSEx5b3plMDNuMlpienR2UERIQjhtdFJsVGJwMThBdmpS",
-    "CBMimwFBVV95cUxQRjBEUk1VcFR2Umdid1AycTliV01wcXlvQW5IN0tCTHhvUENkd0UydG5SQWhUM2lXckttcEtBUU5LQmphVHdyZXRYNmNNY1pTczJyS2pFbl9mUUNYVUpwS241UTRZM085TFJ1cHlTd0p1b1ExdmRHaU0tRUJKRmJlTExxZ05ZTVM1dXpGclZUNXlQSFktZEdZRl9SMA"
+    "CBMimwFBVV95cUxQRjBEUk1VcFR2Umdid1AycTliV01wcXlvQW5IN0tCTHhvUENkd0UydG5SQWhUM2lXckttcEtBUU5LQmphVHdyZXRYNmNNY1pTczJyS2pFbl9mUUNYVUpwS241UTRZM085TFJ1cHlTd0p1b1ExdmRHaU0tRUJKRmJlTExxZ05ZTVM1dXpGclZUNXlQSFktZEdZRl9SMA",
+    "CBMiekFVX3lxTE5UWDVWcWluM1hTOWhibnVtYVdidWlrSUF3Z1c0a1luRHJVQ19ValZtb3BZTFZYdXRsNjViTElWbUVZVlVmVlcyMFp5Tk5SbWxRTzlHT1hQQ0RzbXdIMk5KWDRtdDNtSmRzRzBPRlNIQlVCLXEyWTJRYWh3"
   ],
   "daily": {
     "d": "2026-08-24",
