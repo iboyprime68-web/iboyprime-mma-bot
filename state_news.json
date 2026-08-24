@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC fighter gained over 25 pounds after UFC Sacramento weigh-ins",
-      "ts": "2026-08-24T17:17:28+00:00"
-    },
-    {
-      "t": "Front Office Decisions After Second Preseason Game Stream of National Football League",
-      "ts": "2026-08-24T16:28:09+00:00"
-    },
-    {
       "t": "CeeDee Lamb robbed of more than $300,000 worth of belongings. And he’s now on an infamous list of NFL players",
       "ts": "2026-08-24T16:30:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Colby Covington Claims He Dominated Arman Tsarukyan in Training: \"I Was Levels Above Him\"",
       "ts": "2026-08-24T20:19:02+00:00"
+    },
+    {
+      "t": "Anthony Hernandez, Gregory Rodrigues suspended six-months following UFC Sacramento",
+      "ts": "2026-08-24T20:19:01+00:00"
+    },
+    {
+      "t": "Dana White To Auction Two Ram Trucks For Charity",
+      "ts": "2026-08-24T20:20:22+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Mick Maynard's Shoes: What's next for Gregory Rodrigues after UFC Sacramento win?",
-      "url": "https://sports.yahoo.com/articles/mick-maynards-shoes-whats-next-184025083.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T18:40:25+00:00"
-    },
-    {
-      "title": "Anthony Hernandez Issues Statement After UFC Sacramento Loss",
-      "url": "https://sports.yahoo.com/articles/anthony-hernandez-issues-statement-ufc-184438242.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T18:44:38+00:00"
-    },
     {
       "title": "‘I’m still alive’… KO of the Year victim reacts to Conor McGregor’s teammate putting him to sleep",
       "url": "https://bloodyelbow.com/2026/08/23/im-still-alive-ko-of-the-year-victim-reacts-to-conor-mcgregors-teammate-putting-him-to-sleep/",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-24T20:19:02+00:00"
+    },
+    {
+      "title": "Anthony Hernandez, Gregory Rodrigues suspended six-months following UFC Sacramento",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOLVllWTVoSjNfZE5sZm9fbm9tTGNXUmdYSjZENnBla1FBeWFvT205TjFfckJrMlNFdkhjWEwtTGxyLVowRk92MnBaY0NPOEpseDd6bmtxX01Bd01ETE9tamRSMWJFbW9rc3lKQWhTTnlrU0pVS3BRN2lIczVDS1BROW5rNVRzWHAxQzNLalRRVm9SMERGUXloWHdsX2RWRDV5Zk1GU3d3Y19MSWc2a3JrclhsdE8ySmN1dExoVWhjZkpEX01EbFFsZW9tWFB6Zk1rWmdacG91cw?oc=5",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-24T20:19:01+00:00"
+    },
+    {
+      "title": "Dana White To Auction Two Ram Trucks For Charity",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1taWZTREJDc3RzbUNuWXZMYnQzdElwc1RkVlNIYWpvVHpieWl1bGlza0Z1VE5EbWdIM0VYWS15OS11UXBPTGlod2NHakhSSkJ3bTFXemZQS0Z5SEFrMGdsdlJROXRVV1V0Rlp2N3VWX0MtWHZU?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-08-24T20:20:22+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMitwFBVV95cUxPYmxkR2pUekRoOFJvZnJodnJvWXN6Y2hreGdFbWhGMDRPdm43ejg0cUlYS3pPSVV2S0Z1bmxXSTl2Tm8zYnRLRzREUF9Cak9jdFZGUGdIYkpwUU0zcklWejdCVVY3RVJnaVE3bWQyTDhGVldMbHIzTXFueVJINW1jbUgtYVFXeUtBdTBFU0x4VlRIanhTTF96aGk5T3RsQUdtdHkxZ2xUMmFoVVNrUmdtQUUxZ2hBQTQ",
-    "CBMiUkFVX3lxTE9qWkVxS2xELS1UNDMwbkxVMktzU1Nkd1ZXNXluRkZxYlBjZWVfOHEtYmtnRzk5dnI5U2RpS0ZETGtEa3N0ZTN3ZjB2dmZCakhJZVE",
     "CBMi2wFBVV95cUxNUXRzWERyMThsdk5adTRlZ29DbGxZZFg5Z1RMdnRTdTREZDE3aTY1bU8yWnc4MWd4S3c2M0RscnU0d2txZVhVV0lhYVZPODRYMjc3MWxMbXBhM0hGN2w4ZFdsbFR1Ykk2TE1lOGFtVzVUUEpqZ0l6alA2eHEwVklHRjBHT1Vuck1kRVlJLUpaX0lZVTV1Q19WU2xNd3hpcXZNUkVNVkZiN2VCYnZpdjBsQUwtREdQdk1EdFV2bFg2dkJfamJlMTNYa050aW81UmZKRFFQV3JXd1lyd1U",
     "https://www.mmafighting.com/?p=506305",
     "CBMinwFBVV95cUxQVlRuMDgzM3Y3QUFRRUIxQXM3UGdTSktMSVRlRVZWd1dscmlrWDdRVk94c2d4Z2hyc05wZHluRUljYWFHckR4bVVIU3A4aUszdjI4c1lkd2QzRl9ScHJHdGpvU3ZBQkR0NFkyaEl6b2I1ZWxSMUlfMkFwaUZkT0tnbWtrdG1KbExjYmpFV1BJNFhFYWYtQjhid3llQnFYQkk",
@@ -3312,7 +3310,9 @@
     "CBMivgFBVV95cUxPLXpOejhJSjdlOU9nS25zY2tuZzBkX3g3aXZBbGJMZ3lFQ3U2ZkxBVnlNU0tWX1FLVkF1UndLZWFFN1hYNUwta1p0OGhYbVNlOHNXX3pjUVc0Y0dLcm1MUkR6ci1Nd3J3eklzdDN6VmtYMVowRUpDdlZqMVhaUW4ycjUwZ0VCb3B5NTcxWEdfb2t4RXl1UlJKUkc3MExsRVJUREN2clNDU1ZFazBCMS1sVTlITTAxYmFQN0l2MXhB",
     "CBMiZ0FVX3lxTE4zZFpPY1dEMGVDV0Q1UHFUcW5ycDZ3VHZuazI0QlZ3aHNxeUxiMFRSOGFzNVM5Q0dNSTI4UWp3a1gwbk9KMUV3MDFzUXpFZi1EUkoyOG1IUjdEbEtqYjNIUExrNjhwbDQ",
     "CBMi0wFBVV95cUxPUjZBU1dJQmtZckRkajFUeGpCaVp1cTRFa3Z3X0syeFY0STI3d2lPcm53Q0VFekRkSTE0akFLdjlOY1ZzcXRRRjNULXdhdWxoZTZ4SWpQXzhiTktUSlo0SjMwNFI4ZlY1Z0xvR1IxY2VmY2RiU1pJR2hHdzRnenpMQUVua1gwa0VmVk5kYm9IWkF2OTVsWEwzQXRzQ1d6N3JJWlpXY0tpVXdhR3ZTbXk5WjRIZVlVVDM5MkhMOVZHSkZXSVFubzJjOEdZUjN2V3YxSWpJ",
-    "CBMisgFBVV95cUxOdzVablcxRVZyODlVZ2ZJYllTUDltcmYzeDJGMmpFdTQwUTk4dEkxajNfRlZGLVRZaTJ4TFY1dS1GX2VBNWVYVlhuT2FzLVRkV3N6eDlFTkhVQWl2N0Q4Q3hSYWROV0xDR1ltbUV5QjJNVXlzZUViX0dYSTFUZkhQUmRpLU5wZzdoZ0xRSWc2QmZ3bE40OGFvOTJmaWJJVDV0d1l5Vnc2T19BWVIxSUtXaFRn"
+    "CBMisgFBVV95cUxOdzVablcxRVZyODlVZ2ZJYllTUDltcmYzeDJGMmpFdTQwUTk4dEkxajNfRlZGLVRZaTJ4TFY1dS1GX2VBNWVYVlhuT2FzLVRkV3N6eDlFTkhVQWl2N0Q4Q3hSYWROV0xDR1ltbUV5QjJNVXlzZUViX0dYSTFUZkhQUmRpLU5wZzdoZ0xRSWc2QmZ3bE40OGFvOTJmaWJJVDV0d1l5Vnc2T19BWVIxSUtXaFRn",
+    "CBMi1wFBVV95cUxOLVllWTVoSjNfZE5sZm9fbm9tTGNXUmdYSjZENnBla1FBeWFvT205TjFfckJrMlNFdkhjWEwtTGxyLVowRk92MnBaY0NPOEpseDd6bmtxX01Bd01ETE9tamRSMWJFbW9rc3lKQWhTTnlrU0pVS3BRN2lIczVDS1BROW5rNVRzWHAxQzNLalRRVm9SMERGUXloWHdsX2RWRDV5Zk1GU3d3Y19MSWc2a3JrclhsdE8ySmN1dExoVWhjZkpEX01EbFFsZW9tWFB6Zk1rWmdacG91cw",
+    "CBMidEFVX3lxTE1taWZTREJDc3RzbUNuWXZMYnQzdElwc1RkVlNIYWpvVHpieWl1bGlza0Z1VE5EbWdIM0VYWS15OS11UXBPTGlod2NHakhSSkJ3bTFXemZQS0Z5SEFrMGdsdlJROXRVV1V0Rlp2N3VWX0MtWHZU"
   ],
   "daily": {
     "d": "2026-08-24",
