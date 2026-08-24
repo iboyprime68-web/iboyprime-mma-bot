@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Jiri Prochazka Shuts Down UFC 332 Rumors As Paulo Costa Interim Buzz Spins",
-      "ts": "2026-08-24T06:48:43+00:00"
-    },
-    {
       "t": "Chris Padilla grew up watching Jim Miller; now he wants to fight him",
       "ts": "2026-08-24T06:51:37+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "2026 PPR Superflex Fantasy Football LIVE Mock Draft! | Fantasy Football Today Stream of National Football League",
       "ts": "2026-08-24T11:22:53+00:00"
+    },
+    {
+      "t": "UFC Fight Night 286 How to Watch",
+      "ts": "2026-08-24T12:04:48+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Sacramento winner reveals he will return to job at Home Depot after missing out on $100k bonus",
-      "url": "https://bloodyelbow.com/2026/08/23/ufc-sacramento-winner-reveals-he-will-return-to-job-at-home-depot-after-missing-out-on-100k-bonus/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-23T23:00:00+00:00"
-    },
     {
       "title": "Gilbert Burns names UFC’s best MMA & pure jiu-jitsu fighters",
       "url": "https://sports.yahoo.com/articles/gilbert-burns-names-ufc-best-032418615.html",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-24T11:22:53+00:00"
+    },
+    {
+      "title": "UFC Fight Night 286 How to Watch",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdWpndHF0Vmotc1dYLUxiMUwxeXRNVkZiaG5paUlpdXRyYTZqckh3ZFZQbVg1bUdyZ3k1Rks2dG5ITnlWVUp6LXVUMDkzeEp3aWI0RXBxZzdaR2tCcmFrdzZDQXAwcS1kZWphNk1nYW5XclNCVDVGZTdWbjQyYTlfSHdld3V3eGdZeHRXRWM1Z2NhNzVCc1JwTlBOamtsbTJ4VExITUpObk5Bc1poZnNwNlpLYndkZ1JnR1UyRS1kaDA4azhRYm1rYlhB?oc=5",
+      "source": "The Lufkin Daily News",
+      "cat": "ufc",
+      "ts": "2026-08-24T12:04:48+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiowFBVV95cUxNcHliZ0NZRFpCdk1oc18wMzRVNkJsazZNOGYzZlpnMTVyYXAtSHAyclJqRmw1RmpMY1E4Y0ZNMl9mQzZuYXZSSldHd3ZldFpsNG4zQWRXNWNtZ0VwTThBYWx4bzg3S0FGSnJYemNIc1lqMjVGemNvNUoyMTdMVmFDWWJ1TlU1LUZGa3phNzlMWTlPWlV5cnFjZmJwTTJCdUZsNWVv",
     "CBMipAFBVV95cUxNVGNxRWNaSGFleEVuT0xBX1UyVnp4b3JDUXJ6VWNfakxCWVVxSEhzejZCRTA2TGN4eDltaDF0alJCQ1pvdHI2cWZMQjN5aVF5bUcyZHMxVnZiNmREc0pvQjFlRzdFc1d3RFMxNWJvZ2l6ZnA2NDdFT0s1UVc2SWpxRmJpU2drS0wwY1duZUVmVDFkNmFCbFpaZE5DLWhWc2g1TFVHQQ",
     "CBMipgFBVV95cUxOcjZfekl1bS0yYlhTTkhxOHBkWWZyazNLNHoyYjlfWko5LTA1MkF1ZTFXY1Rka3N6TUtBOHFPbUE1X2V0aGpSSlR4X2VIUFVsYms3VkxnWTFDMm5RczdlQTNLX1o5WGg3QUtObGVmbDJ0TWNBdG1oTFBHcjRzLUE5b3pOZlI3NDFUcEF5dWthc05VY3I5Yy1HS1NGRVlrMUxIb3I3RVpR",
     "CBMipwFBVV95cUxPTm1NVWVnd1FKUk5EWFZUbmNTb2YzUzFjUjlYQXFuUExOamVsVHREcE9RYS1Hb2J3LTNOUjBZM25MVUdjaVhiNUZHSE0xMUFQYXBVMUltcU5SbzRNdm9RNFpINEZ2NjR3Sk1vM3hhTDhmQUxpMnhmSy03R3JmajRoRm9RZVlNNmRULVZxbG1NNjJDRjBfTGpEeHkyVU1mZ2JGbUQzVnZPWQ",
@@ -3312,7 +3311,8 @@
     "CBMioAFBVV95cUxPUXdtQVhSN0FWMkxjLTNoWkVDbkRhYkZYWTdlZXBTaTAxMll3WjN5eExwaFMybmhXUV93bmVid0o5cVhwNGlpck9FZmlBcnBFQjhLMWJmMTNUN0RSMWl2aHpzSVdMQTJGTWM4OGNTYlNYOVhMa2d2YS00TkdJc1pRUkQ0NEJmb0R6emhhSzlWTnZnSmlGWjhMSzNuZ1RiNk9W",
     "CBMiW0FVX3lxTE9sMDNTV2l6Ql9jUTZjMDV0Q1M3bW4ySUdWbFZyQWF0cElVdERXNVhTLTJHYlRiSnBKWnRnU3VhQnhMbFF4Zy1oUzk1Tlp2eG1MVDRuRURTRjFEdGM",
     "CBMi5wFBVV95cUxPQ3lqZXFWdHRtYUVFSGRLYk5vODlSWVdWcm1YamVJY0ZmSjZwTlFJVWVPSWdhS1ZtSThxdFdPWTUzYlAzWFR4eDZpYU5pdW82NTczTWtNT2xVTTlzMXhpaFJOZXpEbzNma3ZZU1VoaGdBd1lDd01LWEtOZFB2TWxUdFVaN0RUXzhycjZqcTNYT2w0ZHJkcGdPbENTSmg5cGRlVWs2cTJkU3J5c29LdFgwU0ZudGsya2xiUkFxQmJfdDI0TkdQb21SdklQdFRHa1NDZTlQTkQwUFp2WThMbFduUGx1V1Rfb0E",
-    "CBMitwFBVV95cUxPbDNmYzUwaUU0aTFXd3VOSkktdVdaOE5YcXpfYUdtWWp5T1JNQ1dwRC0xNmtSWkg5X1NwZXlyNFAxVzVaN0Zwd1JNVC1oYW1NSTkyTE5MN1padUN1MGRUWFZLbm44Y1RqUUNpM19uNWgxSWpOT0h2R0lvSHZndU1FMFliSHhlUlc1Qm1MbUZwY1FWZFdZV051c3lQWTViTGlFbXplV3BNeTV6TU5IVjJ4bTJmU093bUk"
+    "CBMitwFBVV95cUxPbDNmYzUwaUU0aTFXd3VOSkktdVdaOE5YcXpfYUdtWWp5T1JNQ1dwRC0xNmtSWkg5X1NwZXlyNFAxVzVaN0Zwd1JNVC1oYW1NSTkyTE5MN1padUN1MGRUWFZLbm44Y1RqUUNpM19uNWgxSWpOT0h2R0lvSHZndU1FMFliSHhlUlc1Qm1MbUZwY1FWZFdZV051c3lQWTViTGlFbXplV3BNeTV6TU5IVjJ4bTJmU093bUk",
+    "CBMiygFBVV95cUxPdWpndHF0Vmotc1dYLUxiMUwxeXRNVkZiaG5paUlpdXRyYTZqckh3ZFZQbVg1bUdyZ3k1Rks2dG5ITnlWVUp6LXVUMDkzeEp3aWI0RXBxZzdaR2tCcmFrdzZDQXAwcS1kZWphNk1nYW5XclNCVDVGZTdWbjQyYTlfSHdld3V3eGdZeHRXRWM1Z2NhNzVCc1JwTlBOamtsbTJ4VExITUpObk5Bc1poZnNwNlpLYndkZ1JnR1UyRS1kaDA4azhRYm1rYlhB"
   ],
   "daily": {
     "d": "2026-08-24",
