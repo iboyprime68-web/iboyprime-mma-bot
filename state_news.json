@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Gillian Robertson’s UFC 330 Performance Falls Short of Expectations",
-      "ts": "2026-08-24T16:53:15+00:00"
-    },
-    {
       "t": "Two Championship-Style Trucks from Ram, UFC, and RealTruck to Be Auctioned for Charity During Barrett-Jackson's 2026 Las Vegas Auction",
       "ts": "2026-08-24T17:01:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "What’s Next: UFC Sacramento Losers",
       "ts": "2026-08-24T20:05:49+00:00"
+    },
+    {
+      "t": "Jorge Masvidal Announces ‘Next Chapter’ With DAZN Deal",
+      "ts": "2026-08-24T20:09:02+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White addresses Namo Fazil allegedly being attacked before DWCS: ‘We handled it behind the scenes’",
-      "url": "https://www.mmafighting.com/ufc/506696/dana-white-addresses-namo-fazil-allegedly-being-attacked-before-dwcs-we-handled-it-behind-the-scenes",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-23T05:18:35+00:00"
-    },
     {
       "title": "Swanson: Lerryan Douglas broke orbital bone in UFC Sacramento loss to Emmers",
       "url": "https://sports.yahoo.com/articles/swanson-lerryan-douglas-broke-orbital-143043874.html",
@@ -2105,6 +2098,13 @@
       "source": "Cageside Press",
       "cat": "ufc",
       "ts": "2026-08-24T20:05:49+00:00"
+    },
+    {
+      "title": "Jorge Masvidal Announces ‘Next Chapter’ With DAZN Deal",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS0ZVX1lGbDR0aXFraERWVDdCT3NwQzUyZlJMMnBpMDVnbE5rRVNHTXpJNDRyZ1p1WmJVMjlpcnRtMWpwZllYUklzUnYzMUU5a3BSclZfcmJqYkE5N0NGRU9pMTNtZkpPVUdkY1hWZ3hfa0dYWU5nclREb2hORHVZLXpCUV85eXk3VER1MG5JRlJkclc5VzRFMUNxd005TW9P?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-24T20:09:02+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMifEFVX3lxTE4yNmVVeTVtVW9tYnFmNnl3VEUtcHhSMkEwZ2JrM0o1UnlkNUt1X2djWWxDZzltSGZKRnVtaFkzcXA1Slk4cm9RejFGZ1RBb0MwSWdpTVVMa3F5SEZEQzU3Q3owWDAyWkNic0p5dFhKb3NtZ0p3ODFNV3lCRUU",
     "CBMihgFBVV95cUxNWUlHWVJUNUs2Vlp5ZXhONVVESU0wTFpEYUM3b21Xa3p0QnlWUnJoUnR2QXpqTElUbDQ0aFRWdUpEYXVicEd1QzRSRW1fMWRNNjAtTF9sTW9lbmtlUW9VUzdZcVNHay16V3NtcXV0RU9iZnVPY1h1b3JGaXRNNWppWHlvSldPdw",
     "CBMinAFBVV95cUxOTTFHN29lUlY3bTNCU3p1SWhKZWI2dHVDUlBvMVMxdjBuT3ZCSXBVUy1GbGdmUmVITW1uS0lyX0J2Zjl0ZVVfQXdscE42UmV5VWZka3lsSFkzbGtWWGhnaUtMV2Vqb3ZUYmo5OVB4LWVpYnpiYnFfdFFUc3JRcUFRTVN1UzU3VTlfaTA0WUE1MEpFTVJLeHREY2FZS0Q",
     "CBMifkFVX3lxTE1KUlh6bDM3Y3hpTVh6WHJoekNsREZCUTJtdENRUG41dXBSVVhrN2xVMGE0SkZJY1dwVkI0NkdOTHZtVUpSRGxMbFowc1ZDeEZ4NEFVcHN5MUhtQ1dpcTRPeWo4RjVrdjJnQzZWU1RmbmJBNnExellQRWVyVVdidw",
@@ -3312,7 +3311,8 @@
     "CBMisAFBVV95cUxNZGVsNV9oX3o1N3JUaXVBZ3FocXZuNXQzN05DMFY1Q0JxWV9ZS3RfclJsZEhqUDNaVS0tMkRpYlB3YjZHY3o3Q0U0QUVIS25uejRKTXJVUFhnNDdMblRtbk8yNE1udXhxbmwtQlFmanhqUjk0VVlsbFNLVzRoQW9EUjVhYl9WWHg0QTZzazZHOHlIaXZWLXJ0NklfVTdtQTVIOEVWei1wTkQwOFNYMk14dw",
     "CBMirAFBVV95cUxOcnJONFUySXJWTnJMZUhJOUVCek9ITFVMVXZ1dzB2QkZGSFBLaTJvakt3ZnFYWFZzREFlcXdRQ0NkMDc2UFJoMXQxa0NKX2pFRFJkR1RlLUpnZGZSdkhMUkFIMjhLQmh2Z1hRTkhxWVlMQTN5M0pib2JKM3FJSDJRVXdBR2hiM09YdzhpSEx5b3plMDNuMlpienR2UERIQjhtdFJsVGJwMThBdmpS",
     "CBMimwFBVV95cUxQRjBEUk1VcFR2Umdid1AycTliV01wcXlvQW5IN0tCTHhvUENkd0UydG5SQWhUM2lXckttcEtBUU5LQmphVHdyZXRYNmNNY1pTczJyS2pFbl9mUUNYVUpwS241UTRZM085TFJ1cHlTd0p1b1ExdmRHaU0tRUJKRmJlTExxZ05ZTVM1dXpGclZUNXlQSFktZEdZRl9SMA",
-    "CBMiekFVX3lxTE5UWDVWcWluM1hTOWhibnVtYVdidWlrSUF3Z1c0a1luRHJVQ19ValZtb3BZTFZYdXRsNjViTElWbUVZVlVmVlcyMFp5Tk5SbWxRTzlHT1hQQ0RzbXdIMk5KWDRtdDNtSmRzRzBPRlNIQlVCLXEyWTJRYWh3"
+    "CBMiekFVX3lxTE5UWDVWcWluM1hTOWhibnVtYVdidWlrSUF3Z1c0a1luRHJVQ19ValZtb3BZTFZYdXRsNjViTElWbUVZVlVmVlcyMFp5Tk5SbWxRTzlHT1hQQ0RzbXdIMk5KWDRtdDNtSmRzRzBPRlNIQlVCLXEyWTJRYWh3",
+    "CBMioAFBVV95cUxNS0ZVX1lGbDR0aXFraERWVDdCT3NwQzUyZlJMMnBpMDVnbE5rRVNHTXpJNDRyZ1p1WmJVMjlpcnRtMWpwZllYUklzUnYzMUU5a3BSclZfcmJqYkE5N0NGRU9pMTNtZkpPVUdkY1hWZ3hfa0dYWU5nclREb2hORHVZLXpCUV85eXk3VER1MG5JRlJkclc5VzRFMUNxd005TW9P"
   ],
   "daily": {
     "d": "2026-08-24",
