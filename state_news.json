@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "‘I’m still alive’… KO of the Year victim reacts to Conor McGregor’s teammate putting him to sleep",
-      "ts": "2026-08-23T19:00:00+00:00"
-    },
-    {
       "t": "Daniel Cormier says the rule Paddy Pimblett and Gable Steveson broke is ‘the most ridiculous in MMA’",
       "ts": "2026-08-23T20:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Shanghai Card Set For Aug. 29 On Paramount+",
       "ts": "2026-08-24T14:00:15+00:00"
+    },
+    {
+      "t": "Grappling Bulletin: Gabi At ADCC, Jiu-Jitsu Con, UFC BJJ, & More",
+      "ts": "2026-08-24T14:08:01+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Mick Maynard's Shoes: What's next for Anthony Hernandez after UFC Sacramento loss?",
-      "url": "https://sports.yahoo.com/articles/mick-maynards-shoes-whats-next-202015530.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T20:20:15+00:00"
-    },
     {
       "title": "Dana White reacts to two retired fighters playing unexpected roles at UFC Sacramento",
       "url": "https://bloodyelbow.com/2026/08/23/dana-white-reacts-to-two-retired-fighters-playing-unexpected-roles-at-ufc-sacramento/",
@@ -2105,6 +2098,13 @@
       "source": "boxingnews.com",
       "cat": "ufc",
       "ts": "2026-08-24T14:00:15+00:00"
+    },
+    {
+      "title": "Grappling Bulletin: Gabi At ADCC, Jiu-Jitsu Con, UFC BJJ, & More",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU2xqbDY4cXVmNVB2RHRVN2ZoX3FxNFhoQ3BOUnVfOWVpSkw1bTNJYjU3RVhUd0hCc1lkMlRpY1F5NE1Iak1JdDhFYjJXVUUxakY3NFhXMFJfRXZEMHRHZ0JMdVUtSWwxek1WUlA3OXVhVlplZG5PM1lRcDNIOG1lNmxfS0V6WUc1Q1ZBNHhWTTFQQ2puRTVMTFcyVmdFWmdZbng0ckotWXE?oc=5",
+      "source": "FloGrappling",
+      "cat": "ufc",
+      "ts": "2026-08-24T14:08:01+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMikgFBVV95cUxQUTB5WXRYTDJzSjVXV1RUSTU0RFVoRWJ4bmZUWlY5aWFjTkdDWEJQXzFOck5NQ00xU3VLTUswMU1ncktEeGVMSDNRTjRrS05weGJuZXpJcmUtNWxBSWVoVTBBd1ZrRF9QZnNvcVZ2YU1NMXE0dFBSbU5ad05BczZaLTJXbHlaWldpMUFBV2R2cERUQQ",
     "CBMilwFBVV95cUxNLVF1MXlUTjNFUXJRVUlyWV9kcjIzSWlFX0VGYXZoZWQ2eDZYOUhvRWFQXzZTRGw1RTZkVW5pWDJnUlU3UWlVeDRkZkFYRmpwNHNkanBGdTNpZm1BY2wyWEZ3cllOMjk4N3Bxb19XdXpDb1REWWRQc0xqalFDaG5hWV8xTllKZmRxNW8wMy1yUmozdTFTSjh3",
     "CBMi2wFBVV95cUxPRGFJMDJIVVhMdDIxRVdiR1VxQUx4MnQteU42eEg0RklHNGNiRjBhNHNHUE52TkF4c0NfQ0ZQYnRwazlTUS1vTWRXV2ppZmFJWlNSTDJLRWJoektRbW52cFFLRkcwLVFhZDBNWUJVektCUkF3bkw3dEQ0SGFOTTBsYVRzaXpVLUtaM3VoaVd4YndJUVdsTVBNa04tLUhDX2VuTktETTBJdWhid294LVFGYmhfOVFMWjBwX2RQQkpDd3VPN3FaRENGNmlwNmVFRWUzTFJvejN2M1EyMDg",
     "CBMivgFBVV95cUxQdnZlYTk5a0N2YU84T3o2Q1hPNkUwRnJWaHlYbl9nUjJEVDQ4UjJlOW1QaG5mY05aNnQ2dXJhNmo5WEw5SEtYLUxNMi1pQWhpaXptckZuNnRoNWo3T0FCRXdXSUxHbDZPQkdWQ3B1ZUUtd01TWGdqbUk5MTlRa2R2R3dDbDZVUDlTUTRRbHVaWlpqRHNsX0Fqb0x5bHFSWnB4bVNLdVBnZ1VxTXRIVlhyWTVuemJBMThmLThGbjB3",
@@ -3312,7 +3311,8 @@
     "CBMilwFBVV95cUxNNDl3S0x0eXJtUTdFYUFVSWNoLWpoLXdHMTFNNTlxUzBuZ1A5SjBoZ1E3RFA5UnRPRkpIOHdxSURVWGJ1eElsenRTcFNubnllNFltaGt6S0x3Vnl0dGZkalduU0hQeVNFRVFVTDJmdTJZdVVrLUQ1eHAwUkp0c092Xy1vcjh1bk8zYmtyOVc0UWVmS250TGFR",
     "CBMinAFBVV95cUxOWk9DT1ZOdTFiNFQ1aDRhTTF5aWpvXzZjSi1tYm5RYUhKUmp6NnhUT25USTVDcjFQcjZuR2JBR3g3SnFIMFI1b3lxOTk5N08wQnpvLVNHS1hTbUUxNVgwSC05UmJfT2xJd3V6YVVGdmtsdlBGamIxSTJrWm9qbnRVT1NXamxmb1dJNEFCUXJVUmJ0UnVBR09VU3E5eXc",
     "CBMipgFBVV95cUxQUDFHV3RXTmF2eXlOelhfcElfRW02RGtEWnR1TUFfb3Fac015WGhNWVZOY2VlU0E5a1pGTkE0cVo4QVpNOXN0eTloNXN4YzJuTTloLVVHUkVSaXo4MW1zM1NOd3VVOWpHUGRSNWJyTkVIV1BDcWZlRkFhaTBFWVUteWF1M25idGMxdTZXYk1teGdxLWRqajNTcm5EUmdmd2FaQ1pVMWJB",
-    "CBMiekFVX3lxTFBYczlwNE92UmlpMWVGc01vR1gybGVpOURXYjRQbTBwMEtwV3REcGg1QjZINzc3WlI0M0NmbWdQZDRCak5xM2tXek9YR3gyODNCZ25YQy1YeFgyaXNUN1p5c3RuRnltNEdFWmpTbEVhd2RCaVJFb2h4ZkZn"
+    "CBMiekFVX3lxTFBYczlwNE92UmlpMWVGc01vR1gybGVpOURXYjRQbTBwMEtwV3REcGg1QjZINzc3WlI0M0NmbWdQZDRCak5xM2tXek9YR3gyODNCZ25YQy1YeFgyaXNUN1p5c3RuRnltNEdFWmpTbEVhd2RCaVJFb2h4ZkZn",
+    "CBMiqAFBVV95cUxNU2xqbDY4cXVmNVB2RHRVN2ZoX3FxNFhoQ3BOUnVfOWVpSkw1bTNJYjU3RVhUd0hCc1lkMlRpY1F5NE1Iak1JdDhFYjJXVUUxakY3NFhXMFJfRXZEMHRHZ0JMdVUtSWwxek1WUlA3OXVhVlplZG5PM1lRcDNIOG1lNmxfS0V6WUc1Q1ZBNHhWTTFQQ2puRTVMTFcyVmdFWmdZbng0ckotWXE"
   ],
   "daily": {
     "d": "2026-08-24",
