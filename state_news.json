@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Swanson: Lerryan Douglas broke orbital bone in UFC Sacramento loss to Emmers",
-      "ts": "2026-08-23T14:30:43+00:00"
-    },
-    {
       "t": "UFC makes final two numbered events of '26 official in New York, Las Vegas",
       "ts": "2026-08-23T15:38:27+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Five best female MMA fighters in the world right now ft. Valentina Shevchenko, Cris Cyborg & more",
       "ts": "2026-08-24T17:30:00+00:00"
+    },
+    {
+      "t": "Carlos Prates targets NYC showdown with Islam Makhachev in November: \"And New\"",
+      "ts": "2026-08-24T17:38:58+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Bella Mir Makes Weight For Contender Series Debut",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yc1ZpclpHZW5wZWJoaHBsWV9KOHRvQTdLSFF5dGJoSzZHc1lPWTM3NVB6REtsY1pfMXBFSktFUk90UERVQVNuTGY5VHNqaTNEQktDT1RKNF9rYmRBYXBSU1BLcGRHNkRCbHpLaG9MdElZdw?oc=5",
-      "source": "boxingnews.com",
-      "cat": "ufc",
-      "ts": "2026-08-24T16:30:28+00:00"
-    },
     {
       "title": "Charles Oliveira Addresses Diego Lopes BMF Title Fight Rumors for UFC 334",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBjSzVfcktDQmwxclRiV1RzSGJPRmRnckFib0xueGdLNlRQeUF1Yk11SkRiQ3BYbnU3ZUFtZEpPa3o3VmtTVzRpMHBmcGVvWi1XTEc1aUdsd1MySkx0azZIRlJxYXZJY1otallSTDMtdTNlcG8?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Khel Now",
       "cat": "ufc",
       "ts": "2026-08-24T17:30:00+00:00"
+    },
+    {
+      "title": "Carlos Prates targets NYC showdown with Islam Makhachev in November: \"And New\"",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMmh3dEVHVThMRU9zUW9aZG5VLXVfaXZSMU56dk9UWmdtTHU1c2ZMYW1SMFN0MzZPVnoyMEJYSjFRNTAtRURFX096UHRER3BJNWxCZmo4YzdwV0dpejg0T3F0TjAxSEtLaHhyZTNld09jeHhRUGdvMnRDSlhfM3Y0RndLaHE4M0NrVTNSeUZJc0ZHanBZZVdDSEF4Zk9GS2dQTjY4S1V5QVRSSWxRb2VIdF93?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-08-24T17:38:58+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "0743aa9b-0126-3ed4-bc1a-3b71834ffaf5",
     "e78346b4-9eb6-3952-bf30-717c848f1762",
     "https://www.mmafighting.com/?p=506116",
     "https://bloodyelbow.com/?p=328135",
@@ -3312,7 +3311,8 @@
     "CBMikAFBVV95cUxQaGUtVkUyYVRUcGVyODJuZUliRTlEaGtYSnFDWjhTaGJ1WkdiaVcwbEpMckRINFh6U1Fqa3hFMWVPMkdBSUhUX3hyZmhDaV9PQVYteVBsY01XZGMtYkhEdzZ1azk4M1VzR0h4cmpiVWRwUkZ5Z0xxa3hONEJWbG5WUWFXWEZ6VmJLMTYtNGZYNVQ",
     "c57fb16d-fa43-3f3c-8f43-3bd6ddd4a682",
     "CBMipAJBVV95cUxOWFNyQk9ickNBZjh3d2FwYVB5S3phOWxvX1ZoRkpMdlJ1ZUswQzlVeG4xR3ptajBNWmhEdk5IeUtBZkFfcTc3ZDBGY3ZtZkRkM0NXb2RMSXR3Q180N2I2NmlQMVZIYVlDN2h6NkloMkxyRXUxYUZOeE9MbDViUmp5blBYWjBKM3Bxa1NwZTBUbVV6Z3BJMEx3c2l6ckwxM214ZnFqLW9lNWUxTnptUGpDZzdGX2pvRUNFbnQtVm5iTXIzdU9JNU1Za0Vhc0NKVXJxMEhEWWNlMTQyTUlQSFplY3F2WlpWUGJDRk9GTDRnOWlCOXNwSzQwNUF2TjNlMzhiOUw1QzNxcUQ3WXJYMmdzMGJWWFRNUl81QUtMUDRWVTlmX2dW0gGqAkFVX3lxTE9ydWQteERabXZEZV9WdE9HeFRVNlZBY2wzM0sxQnhod081a0NaUjh2V0VGZ1dtMmdEblo5cld2U0U4dF9NU2JJa1RiRU9EY3lDYTkxM2x1UGNaZS1hYjJfNGljTkUtLUxaZzhBekpJTXN3OThDUm9Xc1VOVnQ4WUdvWTVhMndCRk1xcmxMV3JPaE9NRjNiUVRzbnBjUkc5WUVNMm95QzA1Sm9SdGdWWE9KcWF6YkhHNjVMekZkWWtOcE9wMjR6UkJYOVU3YjFHZTdSdkF0U0tNekxqbmhQRGZWajdlT2N2ZkNkbWtjY3c4dmdwRElCcDhYbHVXVDZSUUJpWHNwWHZrbzQzU2Z6SThJNnk4Y3dMT3ZyeXJzell0X2gzdi14c3hVM1E",
-    "CBMid0FVX3lxTE8tRWx2bjJvdHJ2c05wSzFkUWp5NHBjc01OVkd0eG9QTjBrTmgyUDMwUWZTaU9hV1JVZURuUXQ2TGtUUkV1WXZWZEtGRzFVUTVLQkgwMmJ1SUpEdnJqUU5zQTJ5NWx0TDV2MTRYb3FqLW84SEJlVHU0"
+    "CBMid0FVX3lxTE8tRWx2bjJvdHJ2c05wSzFkUWp5NHBjc01OVkd0eG9QTjBrTmgyUDMwUWZTaU9hV1JVZURuUXQ2TGtUUkV1WXZWZEtGRzFVUTVLQkgwMmJ1SUpEdnJqUU5zQTJ5NWx0TDV2MTRYb3FqLW84SEJlVHU0",
+    "CBMisgFBVV95cUxPMmh3dEVHVThMRU9zUW9aZG5VLXVfaXZSMU56dk9UWmdtTHU1c2ZMYW1SMFN0MzZPVnoyMEJYSjFRNTAtRURFX096UHRER3BJNWxCZmo4YzdwV0dpejg0T3F0TjAxSEtLaHhyZTNld09jeHhRUGdvMnRDSlhfM3Y0RndLaHE4M0NrVTNSeUZJc0ZHanBZZVdDSEF4Zk9GS2dQTjY4S1V5QVRSSWxRb2VIdF93"
   ],
   "daily": {
     "d": "2026-08-24",
