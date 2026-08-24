@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/458695/mm-clone",
     "https://www.mmamania.com/458700/open-thread-july-19-2026-worst-first-days",
     "https://www.mmamania.com/458701/the-mania-mailbag-july-13-get-your-questions-in-now",
     "https://www.mmamania.com/458831/open-thread-july-20-2026-whats-your-favorite-sequel-ever",
@@ -811,6 +810,7 @@
     "https://www.sherdog.com/news/news/Anthony-Hernandez-says-Sean-Strickland-loss-showed-him-what-had-to-change-202467",
     "https://www.sherdog.com/news/news/Anthony-Hernandez-trains-with-Sean-Strickland-ahead-of-UFC-Sacramento-201708",
     "https://www.sherdog.com/news/news/Anthony-Joshua-fight-delayed-while-Tyson-Fury-takes-tuneup-bout-201703",
+    "https://www.sherdog.com/news/news/Anthony-Smith-breaks-silence-following-arrest-Ill-be-able-to-tell-my-story-202502",
     "https://www.sherdog.com/news/news/Anthony-Smith-pleads-not-guilty-to-four-felony-charges-in-Nebraska-202408",
     "https://www.sherdog.com/news/news/Anthony-Wint-sends-Dana-White-wild-ultimatum-after-earning-UFC-contract-202326",
     "https://www.sherdog.com/news/news/Ariane-Lipski-eyes-PFL-title-after-turbulent-UFC-run-201652",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Rodrigues, Hernandez have banged-up backstage meeting after UFC Sacramento",
-      "ts": "2026-08-23T12:50:16+00:00"
-    },
     {
       "t": "'Look, mate, I'm not turning away': What's it like when Yoel Romero gazes into your soul? Darren Till knows",
       "ts": "2026-08-23T13:00:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Koen Mazoudier expected to face Jermall Charlo if he beats Sam Beck",
       "ts": "2026-08-24T06:19:47+00:00"
+    },
+    {
+      "t": "Anthony Smith breaks silence following arrest: ‘I’ll be able to tell my story’",
+      "ts": "2026-08-24T06:07:57+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Anthony Smith issues first statement since his arrest: ‘I’ll be able to tell my story someday soon’",
-      "url": "https://bloodyelbow.com/2026/08/23/anthony-smith-issues-first-statement-since-his-arrest-ill-be-able-to-tell-my-story-someday-soon/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-23T10:00:00+00:00"
-    },
     {
       "title": "Former UFC contender posts statement after losing to Cris Cyborg with a 7-pound weight advantage",
       "url": "https://bloodyelbow.com/2026/08/23/former-ufc-contender-posts-statement-after-losing-to-cris-cyborg-with-a-7-pound-weight-advantage/",
@@ -2105,6 +2098,13 @@
       "source": "Fightmag",
       "cat": "ufc",
       "ts": "2026-08-24T06:19:47+00:00"
+    },
+    {
+      "title": "Anthony Smith breaks silence following arrest: ‘I’ll be able to tell my story’",
+      "url": "https://www.sherdog.com/news/news/Anthony-Smith-breaks-silence-following-arrest-Ill-be-able-to-tell-my-story-202502",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-24T06:07:57+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMigwFBVV95cUxNazlsbzc4SzJsNnE0elRJSllZMFBxUzYyVGpUSkp2eXRYVnc4bmlqcmJPZVlYRzh6TlF6VTVESTJLd1BuMldDTllUWXRqNXFMcWk5WnBWYktzU1IwQU56ZENocmw4RFotSlFsNmRnR1NzU3BFWXNPaEpEc3FwcGdkT0VMZw",
     "CBMirwFBVV95cUxOSlE3OGc2YWVrVnk1Vkd1S2tPR1NMS0NpWFJYZ0J4ZEJna0g5U0IzWUJ4QldrVXJoV0FrQTZ5MWlLV2EtTEVMZS1WbzJxTFdUcUloTU5JU0ZJTFdIYWVYQUhyS0s1M2twVGp6eWVBd3diS0ZMX0FIX0pBUHhScUZaRGNXVEFPNUp3YUxCVWtwXzN4MFBETjBITkdtN05jeFlCbU9zcUtFTFdveXBZLXlJ",
     "CBMi4wFBVV95cUxPaGJGUXVsMF94OFVJQ2J4Z2YydFBab2lsUEdqdVdVQnEtQVZ3Z2h4cGFhT0xDakppZVBnRHhGVXdTNC1aSGl4cWNkc282VXFwbEpfNUt6Y2JsZ3VNMlJvWU14N3Y5Tjh0dG5yaWlVRTJ4Q1lXeG5PWUZiLXdYc3VlOXlzU0htQ1ZJWTBVT2FXU1JuQW8zcW42eG5teTRGcW9NOUhPa0NXbUd5Q3pQR1J4TFJ1Nk1aV2VYUDhVX1BFaUtFRWtKcm9aVVNCT1c4eG1fQW0xS0NZb3Q4T2t2X3Nvc2ZBcw",
     "CBMihwFBVV95cUxQbzladzZFbnBRYWpjMEFIVGRpTUF4bVR0YS1rd05LejBrN1kyUHpCNy01TEtGMG1ERHByYTgtZ1YydExHNlRONm5BQUdJeHhmeDlDOWltTk8xY21xV2s1TnhiSDV0bVJzQzU3X2pWRGdaNGpjZUtyRUJaTWw0dGE4Z1pUYjJDTTQ",
@@ -3312,11 +3311,12 @@
     "CBMikwFBVV95cUxNZnc2RC1Xbkl5RnBHeURNTGJmd0VwOGNNX3hqdFRudTBtOWRwU09iSTd3cUEtQ1Zoa1VnblFnX0tScGxsRjAzOFNHVHB4WkRoaThMOWdLRElwYzBPNTJxeENBbFRhM05xUWhteWJla0tnYy1xd1hLNnVNYnkwVEpqMGViS3lWUXNIS0ZOeEw4M3NaTUE",
     "https://www.sherdog.com/news/news/Dana-White-confirms-UFC-handled-crazy-behindthescenes-incident-202501",
     "22d9226a-9ee7-3458-ad03-11e4607935b4",
-    "CBMimAFBVV95cUxNYWhiT0d4cktkMkVjLUtDaC15SF9LMUZMbDdibTRFWkFCblpyTEtja3I3dGhYdUxnYnJYWmF2THBNTFNlVTEtbUhicmVqaHI0U1NHcWtHOEo5ZTNSM19GSmdPTURPZjlTV0tWU3lpZG9mOWZiZXl1dTY2VGljdzVKeVM4S0VzSkIxdGtwbVhwX1MxWEdKZGNqUQ"
+    "CBMimAFBVV95cUxNYWhiT0d4cktkMkVjLUtDaC15SF9LMUZMbDdibTRFWkFCblpyTEtja3I3dGhYdUxnYnJYWmF2THBNTFNlVTEtbUhicmVqaHI0U1NHcWtHOEo5ZTNSM19GSmdPTURPZjlTV0tWU3lpZG9mOWZiZXl1dTY2VGljdzVKeVM4S0VzSkIxdGtwbVhwX1MxWEdKZGNqUQ",
+    "https://www.sherdog.com/news/news/Anthony-Smith-breaks-silence-following-arrest-Ill-be-able-to-tell-my-story-202502"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 75,
+    "ai": 76,
     "staged": 0
   },
   "staged_hist": [
