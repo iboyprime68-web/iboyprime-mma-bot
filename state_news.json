@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "What’s Next: UFC Sacramento Losers",
-      "ts": "2026-08-24T20:05:49+00:00"
-    },
-    {
       "t": "Jorge Masvidal Announces ‘Next Chapter’ With DAZN Deal",
       "ts": "2026-08-24T20:09:02+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Olympic legend Jordan Burroughs calls out Georges St-Pierre, Islam Makhachev for RAF 'dream' matches after dominant debut",
       "ts": "2026-08-24T22:36:45+00:00"
+    },
+    {
+      "t": "Anthony Hernandez suspended for six months after UFC Sacramento homecoming loss",
+      "ts": "2026-08-24T22:37:41+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Gilbert Burns names UFC’s best MMA & pure jiu-jitsu fighters",
-      "url": "https://sports.yahoo.com/articles/gilbert-burns-names-ufc-best-032418615.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T03:24:18+00:00"
-    },
     {
       "title": "Jorge Masvidal Hints at UFC Comeback Against Leon Edwards",
       "url": "https://sports.yahoo.com/articles/jorge-masvidal-hints-ufc-comeback-050125106.html",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports UK",
       "cat": "ufc",
       "ts": "2026-08-24T22:36:45+00:00"
+    },
+    {
+      "title": "Anthony Hernandez suspended for six months after UFC Sacramento homecoming loss",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQ0tnVm5FeUE2dENjUXkyenMxZmFQZTdaRFNTdThfWnVrdzZWTkV1c25zSXA0cVc1Zk5WRlZfREZFS0V1Q0lJc2J0ZThZd1RmT0FienRGb3lpemtXNnN4blFMSWVtUXRkV1c4V3loanZZcTcwSkU0UGdZWXRwbTRlSi1pUjRWX2dpUFpSbGVYeElRT2w0eHdOcTByYnItc05JUndBcjBkUQ?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-08-24T22:37:41+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMicEFVX3lxTE8wQnloUkh4YV8tU0huSVRJQ2JsbkdzYUk1UmNMc2k2X1l0eTIxZW9kLWx4SGJkR3ZOa2hvOFdHV056SlF5WHJlWXRfRTVfRXVFVjRXYS16WGhITEQyRXNWSW9jT1VJeE5KMkRRQmJJaWE",
     "CBMiZ0FVX3lxTE9fMlFCcGN3NnotZ2dYbTVpRjdPZXRRanJ6b01jWFppbFFfUE43eUFsWVhzWXdtNzEtTmI4c1RpR3pRYURZcnZ5bzZ6aUlPcFNKd2RxNlE0czJpMzJpLXM0VjNldmd4ZUk",
     "CBMingFBVV95cUxObUpfaDJ1Y3c4aGgybVdjQzJBMG9rT2luOVdleU52OHNxbUxDUXNfS2NnaW0tZ0RDRGRmcE40RjhaMjV1eXd2Y2RrSzdENlVrWHRMY1ZNNndOS0NVSVZmSjJmSUNQUWIwakpCeHpWYkNuNlphLWwwclF5MkV2amRRd0dsNlZheVdGT0xvZ0o5NVJGV2J4M1lzcm9VYlI4QQ",
     "09f89b6f-fe7b-3019-af15-9f86d0108536",
@@ -3312,7 +3311,8 @@
     "fcab2531-ed02-3896-ace5-05fbc4deb0a6",
     "CBMikAFBVV95cUxNdEo2empEWVlmVEZyOE5NNDRtTlhjVzhuSjZiTk41QnRHX0Y5aDF2WnNaR3B5RFBGbk1mWmVfNG52Yk5fWS0yT21FRlcxbTdLc0tybnBwdDJtZUY3VFIxSEF2Mm1na0ZMOUVodUhCVElDRllFSG4zNEVkQ0lFSHNLVmlVb3hnc0hpbjM1U2JKbUU",
     "CBMiakFVX3lxTE1wYVBwQlR4cHRITGc5WVJXb1BvTUN1LVkwbVFYZktZSkQ3VHlGbnVhV2lPY255VDZiMkhpTW5RNF9wNDNFdDVyS3A2eElYaGJ1SEt6UHY1VGotWERKTm1JUVlPSzZDdXBBblE",
-    "CBMi-gFBVV95cUxOeEk5bkNZN2NhcWpITmhYeVFTUVlOX3pCM3JZVEhJZS1MU3JCV1dPU0s0OHRIY2t0MkZySXktMi1ScVhjWERiaE1FWUhuREQ4RjVLZ2d3Z0RkNm9LcnVZa1oyYlJvaDZBMTV5eGkxbm5HX3FhelhBc2tMZm9FcFcxa3FjNGFuTlBRZTFLQlR6aVd3RWZPUFFZYkJiZkREbUNwM2VyTlZDX2lTV1hVZEowTWVQMDhMQ2pKSS1WR0Nia3ltcFAzNk13RUJmVjRKNnl6cFFxa3Bnd1FmWE9KYVc5R3FpTmFMcEVhamc4aFFmV0JGbVFoV2FmNWZ3"
+    "CBMi-gFBVV95cUxOeEk5bkNZN2NhcWpITmhYeVFTUVlOX3pCM3JZVEhJZS1MU3JCV1dPU0s0OHRIY2t0MkZySXktMi1ScVhjWERiaE1FWUhuREQ4RjVLZ2d3Z0RkNm9LcnVZa1oyYlJvaDZBMTV5eGkxbm5HX3FhelhBc2tMZm9FcFcxa3FjNGFuTlBRZTFLQlR6aVd3RWZPUFFZYkJiZkREbUNwM2VyTlZDX2lTV1hVZEowTWVQMDhMQ2pKSS1WR0Nia3ltcFAzNk13RUJmVjRKNnl6cFFxa3Bnd1FmWE9KYVc5R3FpTmFMcEVhamc4aFFmV0JGbVFoV2FmNWZ3",
+    "CBMipwFBVV95cUxNQ0tnVm5FeUE2dENjUXkyenMxZmFQZTdaRFNTdThfWnVrdzZWTkV1c25zSXA0cVc1Zk5WRlZfREZFS0V1Q0lJc2J0ZThZd1RmT0FienRGb3lpemtXNnN4blFMSWVtUXRkV1c4V3loanZZcTcwSkU0UGdZWXRwbTRlSi1pUjRWX2dpUFpSbGVYeElRT2w0eHdOcTByYnItc05JUndBcjBkUQ"
   ],
   "daily": {
     "d": "2026-08-24",
