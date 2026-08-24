@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Brandon Marcello's Preseason Top 30 Stream of General Videos",
-      "ts": "2026-08-24T20:16:44+00:00"
-    },
-    {
-      "t": "Rookie Report Card: Grading all Octagon newcomers UFC Sacramento post-mortem",
-      "ts": "2026-08-24T21:00:00+00:00"
-    },
-    {
       "t": "Dana White’s Contender Series Season 10, Week 3 Weigh-In Results",
       "ts": "2026-08-24T21:00:58+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "CFB Season Preview: Indiana Hoosiers Stream of General Videos",
       "ts": "2026-08-24T22:52:30+00:00"
+    },
+    {
+      "t": "Is Julián Álvarez Yet to Deliver for Atlético Madrid? Stream of Soccer",
+      "ts": "2026-08-24T23:24:05+00:00"
+    },
+    {
+      "t": "Conor McGregor shares lopsided prediction for Mike Perry vs. Dillon Danis MMA fight",
+      "ts": "2026-08-24T23:49:56+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Mario Piazzon likes ‘hostile atmosphere’ with intense DWCS face-off, vows to ‘slice’ opponent’s face",
-      "url": "https://www.mmafighting.com/ufc/506860/mario-piazzon-likes-hostile-atmosphere-with-intense-dwcs-face-off-vows-to-slice-opponents-face",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-24T18:33:53+00:00"
-    },
-    {
-      "title": "Jorge Masvidal definitely wants to close out Leon Edwards chapter in UFC return",
-      "url": "https://sports.yahoo.com/articles/jorge-masvidal-definitely-wants-close-184016566.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T18:40:16+00:00"
-    },
     {
       "title": "UFC 334: Five titles fights that could headline show at Madison Square Garden",
       "url": "https://bloodyelbow.com/2026/08/24/ufc-334-five-titles-fights-that-could-headline-show-at-madison-square-garden/",
@@ -2105,6 +2091,20 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-24T22:52:30+00:00"
+    },
+    {
+      "title": "Is Julián Álvarez Yet to Deliver for Atlético Madrid? Stream of Soccer",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTkFqRndhbU5rRDVHZW9IcDlEQnBnOEV6OWd4V2dxX0o4NmVuT0Q4U19xN0I2Qi0zMDAzMkVnT1JJaG1VZk9ONHU1b1B1OWtsejNzXzVCc3JiRHc1R2F4TUpnd0ZQUnpJUjZaWlN4YlZFa2pKNjBMU1dQX3NHektsallpa2c2QXZxejllX0lYT0V4WjZtV3JXc2Q2eDl4dw?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-24T23:24:05+00:00"
+    },
+    {
+      "title": "Conor McGregor shares lopsided prediction for Mike Perry vs. Dillon Danis MMA fight",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORVVDQ09iWjl1blVMUzR3bXNlM0VBR1FxMXJsV0ROVjdudkNKY1EtbmpvSkstS1dWLVVOQXNVTHNHaWdfVWlkaExvNHFWaEhqcnpSUFl4TjltM0NydVJwOUxMbUl5YTBLQ21CVXA3SWQ5cDBMTGtYcmRhaU9KTG1acmswVjlqSVFTRWNncUhzSWtyVzN6S29MR2w0d29LYmc?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-08-24T23:49:56+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMirwFBVV95cUxOM1dVZ3pnbWFRZ1V0REoxbXZ0TkdsUXp4X1VOTnlTZkZfYnBXSzRFRzNnSEsyUlgtMDVrZVdpbnRfa2N5M19kTFRXSVRjS0F0Wk5wb291YUxPbVI3ZTVyYnlOb2hqT3hWdnk2Zm1VMzVwczQxd2dNUjZyTHpDYThHcXpOZ19YakpXaW1qSnZoZDRuMVNZRnJCZ2REdklrQVVCenN5SkZ5RldTMTRJUjk0",
-    "CBMirgFBVV95cUxQbXNLYmZSdmZoZkZGeEl4cWkwQVQ1MWt1YnFhYXlTNmVETlRndm9FdTJHdTVaclNlRzYtUUtIbTEzMnNMUDJSTi11UEN1b0U1ckFNQU9qUEdyN25TZm1QMEo5bVBwcmlXVzBaTTR5RGh1eXVOSDBHM0d1dzZSd04zWE4tUG9uMXhvRWhxbFJHSDZJQml4RjBCRzVTYmlUVE5xRGl1bUp3YTBtaGZpc2c",
     "c9bb63a5-859f-33fc-8021-7557db521dc5",
     "CBMikAFBVV95cUxPYWhZX3lGU01HN2xFVG8xdFBsNUNQLU04UGJaWVhrdnNpa01LdHU0V0xTcnJMc0RSMERsWHAyZkZmRXZJYV84d0lvTm8yeTBZRm5nOFpoZHJlTm9sZGNlMnRZQnpveW9mN1FYNVJrd3VBdzJSOTQ5V0FVSnp3dldZcVRQV3FaZ2s2a3YzTHU4Qk8",
     "CBMiowFBVV95cUxOWGhrbk93SHlmT084UmZqeU5qSDlzVG5pMlN5Uml5T3lfRThCZ0wxRGhfdlFBRC1QanBGb2dKc1hQQUd4eUpvY3hpOF9Jc0w2MzBpWVZ2aGdUM2lybDBQUlBuOWVNNmIzMEIwQy00SWpjN0NMbmJycW82Qjdnb3htckhsMmV0WXl6U2o4WEJZVEt0d1BYQ0tvQWMyaTZSWXFrNWlZ",
@@ -3312,7 +3310,9 @@
     "CBMiW0FVX3lxTE9QZWszT3dJRElSSEhOOG1WRkNjM25ndWp1VllndU5MWlNId2hKb3ZhX3RuX1c0aWltOGpKQ2FaNUgwZm9uNEhwakJrUDBUdXNiUXpUSjJqQkJzMVk",
     "CBMiW0FVX3lxTE9CVmRKQnRRZzJTYUVxSmRTYmlsclgwSmtRRGxKYTUxUHc2dUZ3VnBvWXJmRzhZSnh3R1dxM2d4OTJQRW1sTjNEVXVFWHJIYWFlTVRtRThFalJENkE",
     "6347df4d-42a8-3392-a553-a8e3cb5b023e",
-    "CBMiiAFBVV95cUxNdUxoMU9heUJHVnloZ19zNmExbE8welJzZ3Y0WEZKVHZuMU82MjdxZ3ZoLUN6Z1pXR2ZsNzNIV1E2RkNGdGFZNnFBWVFtN3FRRGlzbk1GSHZzN2gzYmNxN2RWS1Rlb2lDNlYzQ3phSHFCb18tQmN0VXFLcjRnUFBNYm5kaExRZFJW"
+    "CBMiiAFBVV95cUxNdUxoMU9heUJHVnloZ19zNmExbE8welJzZ3Y0WEZKVHZuMU82MjdxZ3ZoLUN6Z1pXR2ZsNzNIV1E2RkNGdGFZNnFBWVFtN3FRRGlzbk1GSHZzN2gzYmNxN2RWS1Rlb2lDNlYzQ3phSHFCb18tQmN0VXFLcjRnUFBNYm5kaExRZFJW",
+    "CBMingFBVV95cUxQTkFqRndhbU5rRDVHZW9IcDlEQnBnOEV6OWd4V2dxX0o4NmVuT0Q4U19xN0I2Qi0zMDAzMkVnT1JJaG1VZk9ONHU1b1B1OWtsejNzXzVCc3JiRHc1R2F4TUpnd0ZQUnpJUjZaWlN4YlZFa2pKNjBMU1dQX3NHektsallpa2c2QXZxejllX0lYT0V4WjZtV3JXc2Q2eDl4dw",
+    "CBMinwFBVV95cUxORVVDQ09iWjl1blVMUzR3bXNlM0VBR1FxMXJsV0ROVjdudkNKY1EtbmpvSkstS1dWLVVOQXNVTHNHaWdfVWlkaExvNHFWaEhqcnpSUFl4TjltM0NydVJwOUxMbUl5YTBLQ21CVXA3SWQ5cDBMTGtYcmRhaU9KTG1acmswVjlqSVFTRWNncUhzSWtyVzN6S29MR2w0d29LYmc"
   ],
   "daily": {
     "d": "2026-08-24",
