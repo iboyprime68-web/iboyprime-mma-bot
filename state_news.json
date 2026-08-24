@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Jiri Prochazka shuts down recent rumors of upcoming title fight which had fans complaining",
-      "ts": "2026-08-24T14:00:00+00:00"
-    },
-    {
       "t": "“Great character”: McIlroy’s verdict after Clark survives dramatic collapse",
       "ts": "2026-08-24T13:07:09+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Spurs \"CATASTROPHIC\" start to Premier League season in 3-0 Loss - Scoreline Stream of Soccer",
       "ts": "2026-08-24T16:27:18+00:00"
+    },
+    {
+      "t": "UFC Sacramento fight night weights: Gregory Rodrigues only weighed just 2 pounds more than Anthony Hernandez",
+      "ts": "2026-08-24T17:17:28+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Mississippi State's Jett Jefferson details cornerback battle Stream of General Videos",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa0U5NGJTV1E4UmpkbjVpeTVvRnVLbHJvY3pWREtWYjNfQWxPSUlxSllYT2V4aDVfUmpLYWxQMjZ6VDR2NG5rR0FtdEdLZ0FQaGlzSWYteVExcFR4OHlwMzhjeUc3cTMyZE8zdGdhTEVuY0RxQmhjUHc4a2NzcGhBUDA4THl0RXBncEE5LUctSTk5RlZrVzVYOFZOOTl4RUpsR2JDZVdFckU?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T14:53:58+00:00"
-    },
     {
       "title": "Dana White's Contender Series 89 weigh-in results",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS2p5aE8zeVNmWnI0amJGN0VTZkIwZGtwQXJzUDB5SHFPVG51NnJEWTlFbHV3eEVSZDFaWnlUYjNOb21ndlhPZW0wbU1sOUlZcFlyVVhkekhhSzc0Z1Ftd29fR0E3LWJsc2hNTHNRMjBaRnlUQ3pZY0d4NllYdi1tMnJ5bjJWOW9XTDBnMHNzZTlTS1dzaHpKd3dWVHRmSDltenQ4Zy1iWDZxZzFudk8zVjRLVlpsZHZENkh4V2xrc2N3WGxXTjF3?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-24T16:27:18+00:00"
+    },
+    {
+      "title": "UFC Sacramento fight night weights: Gregory Rodrigues only weighed just 2 pounds more than Anthony Hernandez",
+      "url": "https://www.mmafighting.com/ufc/506861/ufc-sacramento-fight-night-weights-gregory-rodrigues-only-weighed-just-2-pounds-more-than-anthony-hernandez",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-24T17:17:28+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMijwFBVV95cUxNSXhveDdKbWpXa2VQQjh2NlJIZFZRNDhSLW9QTkc3TUhaMWtXUEdLaXFaUFl5UE1xdG5NbHNSSFY4a3FTZkE0OGx2aC1YWnFpbnhEYjNBcHdvNENCcVhJZmFubllaaE54SWVvSUI0ZzZhUE81UVVucy00NkRhc2ZXM1pWUzNhNmNBNF9BdVFQVQ",
     "CBMijAFBVV95cUxQQkdWMzJGX3Rsb1ZqVHMtSVJtWV91T0FqMGt5YWlDdmczektraE1sNlNqbWVkOGNSZlBNX293R0o4c0tIYnBzanFFNjJmSE5xRmlVSFlhanVTNEl2UzRYZmN2SmY4dDg1cmNFSHU2dVhrQ2kxbVV6Y0t4aEJNaHNod0tGNmQ5bHMzeGsxZA",
     "CBMiiwFBVV95cUxOMTZtSG9lLXJaYllxZjM2R292d2N1MDNtUzNORkwwN2JBQUEwWGMxQy0zaEUtQ1M3MDhqcm0tc3N1Ul9RN3dqR3EwZTJ0NTJZaTd3Y1JuXzU0T0ZQdG9fRW5rQ3FHV0FSMG1aaXN5UlBPU0FyQ2RzRDNVSm9vbm50ZUV0Sk45a2VpdEdn",
     "CBMinAFBVV95cUxOR3htbmk4b0YzSExzNk1iUnlXLUJXSWExNERmcGRTTDFfdko4dk83SnJCU3hNeGZHSVhNcVI5ZlJvd2pVRzZ6ZkNzS1VjaHk4VTR5aFk3VWdBX28ydFBNRnFoUzBDV0RsbHpSeVhCT2Rnd2tvaEVNckVzXzdvM1FCempEeUx1LVdoNHV0Zlgtcm9fNWVkckRfV3p5akg",
@@ -3312,7 +3311,8 @@
     "CBMilgJBVV95cUxOLUNJcG9zM3NJc01oQXMza3pwNUZiRF9pWFJ5My05em0zWTYtLVlGbXBnZ3YybVRONW1XMnVFbVEzQlpJaUlxWkRwd1gxUVhvT2ZhcXNyMGtmV1J5LXcxcHgzT2RpT1FzZnhoSk5fZ3V3c3ladldURXBYcVZRWG02WHVkcmhXeVV5R2F2VkxYLVVZYUdGdzV6djlfdkJvQUZMT000NXd5X01Ea1lXZ3Bxam1xQ2QwTVF2b1Z4blhXMkZCWWJlVVpLQkdYTlFNengtRzRGdXZWeFNxdm9XaVNnbFB2ZjFpZDVTMDAzV3dSWlpwTWJBRmFtaDd6LW5hTEVkWUFxczlkSHR4Y01MUUk3b0Zac3NXQQ",
     "CBMizwFBVV95cUxQak45d2xKdDFwVDM5Z1ppMUVWdkwwM0V6NDRSS19mRm9UYXNRUkRhZ0c1N19JRDdFZ0Rmd1BhMjY4ZUt1SWxZSkpOTnJpYnVqVnl4ejNDcnVWbjFDSG9EdUtIUUV1QnNRaHdNYTdIZ0dUSTNTenNYVnQ2WW12dFFPWGFDWWdMbVVqSEoxX1otVFlYZ3NoSmQxT3haOGlVYWlYRTFDYlBscGNwUU80MUdQdHNCcnNob1NtNWdhMGZoQmktc2QyUzdhWWtORDhaWVE",
     "CBMi_gFBVV95cUxNcVZJZGFvZW1DbkUxbllWRUJ1TW9haDZrbF8xTjNJeFZUa1oyZjhvbjdEdzdoNFZiME1EZ3JWdU9jLXZhdGZkb1FkdU9GdkdIMHhfMEdERERWQi02R0QzZ19wbDgzNk5qQjZxektRR2FxMkdlSWN2Q1N5UTFjSUNPQmxSRDJDV25wRkh3LUF4dDZOeV9QcEFXNklPenBlOE5SZGtDQ204SkFZSG91SXlUZ3dpLWhQcjQxdXVHcVJaU3VUVDJIaGRkZXBBR3lZdl94d1QyeVlpWWdnS1o5eWpnXzlfNFF1UVlSOHdaX0dRS0RFUUlXM2RwWENlcUQydw",
-    "CBMitwFBVV95cUxQYVl6S0FrTXhXXzdJTHZwTEVXSkZHMWdGZDQzRkh4WXI1WFFRWlBudHRhT3VZek9lLWphbUNEdmVrQ2kxSVdXSFh0T3BSeGU0MW5VZ1lOOTBHRTFNbVBldm50czVKcXIxcHJUWXdhTlVYU0F4Ym5sbkZacDVXbFFlMWNLTTdibTh0X2tDZzFsMGxqZ2RaN2UzbERab1lfWW5UdnZMNjZscmJOQVEzMGxfcDU4OEI0bTQ"
+    "CBMitwFBVV95cUxQYVl6S0FrTXhXXzdJTHZwTEVXSkZHMWdGZDQzRkh4WXI1WFFRWlBudHRhT3VZek9lLWphbUNEdmVrQ2kxSVdXSFh0T3BSeGU0MW5VZ1lOOTBHRTFNbVBldm50czVKcXIxcHJUWXdhTlVYU0F4Ym5sbkZacDVXbFFlMWNLTTdibTh0X2tDZzFsMGxqZ2RaN2UzbERab1lfWW5UdnZMNjZscmJOQVEzMGxfcDU4OEI0bTQ",
+    "https://www.mmafighting.com/?p=506861"
   ],
   "daily": {
     "d": "2026-08-24",
