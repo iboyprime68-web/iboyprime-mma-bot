@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Anthony Smith issues first statement since his arrest: ‘I’ll be able to tell my story someday soon’",
-      "ts": "2026-08-23T10:00:00+00:00"
-    },
-    {
       "t": "UFC Sacramento, The Morning After: Two All-Time Bad Game Plans Backfire Hilariously",
       "ts": "2026-08-23T14:19:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC debutant admits he had no idea how to defend submission: ‘What defense?’",
       "ts": "2026-08-24T02:38:31+00:00"
+    },
+    {
+      "t": "Patricio Freire Wants New UFC Deal After Doo Ho Choi Fight At UFC 331",
+      "ts": "2026-08-24T03:18:06+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White Warns Ian Machado Garry May Never Get Islam Makhachev Chance Again",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX1ZSSm1TSThvblUtSjdpZkExYkIyem5YMm5mQ3RDT2lnSVRNeWVIRk5sMi1Qb1cwYmR0Q2tTU1h2OUg1VFRQNXhsMDVYWWFtd0MzWkJVN01QbVh4TEQ1ZnJKeGIyTVRJTkp4M0M2ZXQ5VmNiaUhrR0RuX1VjQ3JXTm5iN0dNWnJQUTh3Qg?oc=5",
-      "source": "MiddleEasy",
-      "cat": "ufc",
-      "ts": "2026-08-23T23:37:08+00:00"
-    },
     {
       "title": "UFC Sacramento results: Matches to make for ‘Hernandez vs. Rodrigues’ main card winners",
       "url": "https://www.mmamania.com/ufc-results/467085/ufc-sacramento-results-matches-to-make-for-hernandez-vs-rodrigues-main-card-winners",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-24T02:38:31+00:00"
+    },
+    {
+      "title": "Patricio Freire Wants New UFC Deal After Doo Ho Choi Fight At UFC 331",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUzlvdi1oVXdpT1VTbTFISV9Ra25iZ0ZpVUNqUGt2Xzhzb2wzTmE4aVNSOHJ0UFppR09JaHFldTFlczk1QWEtdW04ZXdtbURBTS1zd2RqVENySGlfZjVRUnlBdkt4THNTenh4Z2c4Q1FqWVpFMFVob29aT3NfZ3hpNGN4NA?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-24T03:18:06+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMijgFBVV95cUxOYlJjZDhOanNhOWRHcjlsbTZhNXZodkhCbm9BdlI0NWlMajMxYmN5UTExUTJoRThjTkZPLTNZRlVvekhpYnRvMmVtZElPWGIxSnRhWHdBNHZVbjBoUkMzeHJSVVdFbTVGdFV0Mnh2cWFtVXAwLUJWTlpwVmVyMExIRVJVZlBCWWVwNlNfcWl3",
     "CBMif0FVX3lxTE5zS2N1UlhEa1BXelU4NGVLdGFsLWY1RklaQzhLZzMtSzN4ZnYwSnVTU2FoV3NCTjlmWFh3UDhkUjVrVWlqWmRTX1JzVko0LWlmRzF5WlBXNW1DTkFvRTZudXJZX0FCSExZYkVkcGV0LW9JRTBfN19LSlRGSXVJNnc",
     "CBMi1AFBVV95cUxQTVFpZUJyOGwzVUtKTmRnZUtEWENiclRDSC1SaUM2VlpfbjRlUk1SblFCc3VESWM0ZGZveVpUWFU1bFNsS3oxaEpaRlgxbmRmVUVoLURWSG45MU53eHJVZlBGQzlOZzNMYThLOElGSkJSd3NnU1c1U21ndG1pTkpTdGZQRkJKLWN0ZnhJRjRrRk9vYlV3WW1nU25MeFAxUWpaQmp3VDJPdk1xYVN3QldxWXJud2tic2NxRmhlSGQzSlVKR0pSNDRqUk5PaDBKei1HaHF5Vg",
     "CBMiuAFBVV95cUxOVjhCRnJzbDdTeEplUUppVXJUVkpmaWNESWZ2Snl6YTI1VnlMUnpOWjhaZ1pqY3M3SmR1R0FKYjRvZTBCZVhnM05HWkVWS1hlb1JMdTU1b3Y3a2dkRm95NTdtekRScW56c29iaUpOQTBGZDBsYS1temUtM0pKZ0V2ajAxXzFzQ1l3bExzNFg4allZT3BmMTZ3QzBTcTM5Y1RrNzVtSnNBZ1otRGQ0WG5mbndLMF8wSFVE",
@@ -3312,11 +3311,12 @@
     "CBMixgFBVV95cUxQa3BaaEFBSU1ZYXRQTmQ3R3ZBTlhZa2VYOHpzVUVBZDQwX0tjTXpTaEZ2aVpYek5hU2NNNktSbGxPWkVUWWtWd3loRlFmV2lqZi00aVV4dkJCMEIwWUVUX09GV1pKSHp3U3VDZEZGNWlDYWlTbEJpOGI4ZHFCaklJc1FBMjJEMHY4cHZTNElhQXMtanBEeEhROXlFd1hGNDFTbVBraVZQeWJSTDdtZVBTcklFVGZBY2V4MGlKWmU5WURiYlJkZFE",
     "CBMitwFBVV95cUxOMzhZbk9tZkR4bUgtMVJzalN5Q0s4aWoweFN5MHpoZk1iVFNhYnJVaE1aazNuSlA5eUFmcjRCM01vZ2prblRnSXBiSWNQWEJpMEJpTG83N1dLY2tXVnlDQjJHb3Fza0tkZ0tWd0NDOWdjMUYxSXIyOE92UzVyUVhneGRpaGxtTURLd0VWLU85QXlLNlp4eDhHREZiX3JDZFVqcjZCYnlSNnJxR2lsQk5TRG51eDdoMVU",
     "https://www.sherdog.com/news/news/Tyron-Woodley-beats-Joaquin-Buckley-then-offers-to-help-him-win-UFC-gold-202491",
-    "https://www.sherdog.com/news/news/UFC-debutant-admits-he-had-no-idea-how-to-defend-submission-What-defense-202492"
+    "https://www.sherdog.com/news/news/UFC-debutant-admits-he-had-no-idea-how-to-defend-submission-What-defense-202492",
+    "CBMigwFBVV95cUxOUzlvdi1oVXdpT1VTbTFISV9Ra25iZ0ZpVUNqUGt2Xzhzb2wzTmE4aVNSOHJ0UFppR09JaHFldTFlczk1QWEtdW04ZXdtbURBTS1zd2RqVENySGlfZjVRUnlBdkt4THNTenh4Z2c4Q1FqWVpFMFVob29aT3NfZ3hpNGN4NA"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 31,
+    "ai": 32,
     "staged": 0
   },
   "staged_hist": [
