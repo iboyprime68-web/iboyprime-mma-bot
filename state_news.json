@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Natasha Cloud erupts at Enes Kanter Freedom courtside. And security has to intervene between them",
-      "ts": "2026-08-24T16:15:00+00:00"
-    },
-    {
-      "t": "Carlos Prates Teases Massive UFC Plan Involving Islam Makhachev",
-      "ts": "2026-08-24T16:25:12+00:00"
-    },
-    {
       "t": "Full Fight | Song Yadong vs Julio Arce",
       "ts": "2026-08-24T16:11:32+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "It's about time people hopped onto the Jorge Masvidal train. Growing up street fighting in Kimbo Slice's backyard, Masvidal has been known to never back down from a fight. He's fought a who's-who in the sport across many major organizations, but finally got h",
       "ts": "2026-08-24T18:40:16+00:00"
+    },
+    {
+      "t": "UFC ‘Gunslinger’ hospitalized in Sacramento ‘instantly lost vision’ due to fractured orbital",
+      "ts": "2026-08-24T19:06:08+00:00"
+    },
+    {
+      "t": "Carlos Prates Targets Islam Makhachev At UFC 334 In New York After Welterweight Title Shakeout",
+      "ts": "2026-08-24T19:07:51+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Tyron Woodley beats Joaquin Buckley, then offers to help him win UFC gold",
-      "url": "https://sports.yahoo.com/articles/tyron-woodley-beats-joaquin-buckley-023051526.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T02:30:51+00:00"
-    },
-    {
-      "title": "UFC debutant admits he had no idea how to defend submission: ‘What defense?’",
-      "url": "https://sports.yahoo.com/articles/ufc-debutant-admits-had-no-023831820.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T02:38:31+00:00"
-    },
     {
       "title": "Gilbert Burns names UFC’s best MMA & pure jiu-jitsu fighters",
       "url": "https://sports.yahoo.com/articles/gilbert-burns-names-ufc-best-032418615.html",
@@ -2105,6 +2091,20 @@
       "source": "The Lufkin Daily News",
       "cat": "ufc",
       "ts": "2026-08-24T18:40:16+00:00"
+    },
+    {
+      "title": "UFC ‘Gunslinger’ hospitalized in Sacramento ‘instantly lost vision’ due to fractured orbital",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQmhTeHFUeTMtVVg2aWVxSkIzcnRoaW90UV9fZDd6Q3JOZVlzN00tOTdhaW1lMWNyQmZGMGFlZnFsTExLYVVTSnZDWER4VUczc2E5di1QZndORmxQdGdET2pQSnNDdlJwRWZ5TUJIdWFCWlJCSWh2eTRBYVZjX0ZhRE5NZ2t6QUdMdDF3cmF6bWowa3pHZ2NoVGl6TEtjSzlDMXVEUlc4WFNyUE1OSlcyLTJmcnJSbmJZRy02REtCZW8?oc=5",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-24T19:06:08+00:00"
+    },
+    {
+      "title": "Carlos Prates Targets Islam Makhachev At UFC 334 In New York After Welterweight Title Shakeout",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNM3NMYUVsQTdRUjNfU2hyc3lSRWYzR2lJT0dsRjVMMHV2TUFiSDE3SnE5bnpLZU9wY1FVV3RnbUNWRkR2VkNmdmpYNUVCaGlXdGVTZGl6RksxWVRpWlJmNnktaHZvck5RXzJKUGt3cFBhQjFHOEptOWh0MTBiRWtEakFCNG4?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-24T19:07:51+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiggFBVV95cUxNOGFSVmlqRkhxeHROUlhSenU1NlBESmNWSFY5TGZaRG9aM05pV2hPN2dpZEJYRUtBY1NDSF9Ibm5WMmZVZGVDMF9vNXA4ZzJHY1k0Z0tVdzJxVU5pN2xoZFdrZnJZSHJVU2ZjNjJQWm1ZSDMzU2VhbEJNYkhFSXhCNkhn",
-    "CBMigAFBVV95cUxNM0ZLYW5xR2c5T2swZ05LTDB5dzJObXYzZHd4dWRnc2hTQWpPNHQ4TjdidS1obXNQNTVJbGdsNW0yLVcwZlJFeno3YU8zb2lhRGFSbFdWTmZ2ZmdERFZlYmNjUm1JcEZoVjUwWFc2Z1ZGU3J0ODRGYVhhSlNBYnN2VQ",
     "CBMihwFBVV95cUxNdjl1SXg3LWp5ZmxQTVpzNEdVUVlINHRCLWl5UVFBWUVVeFJudzdDVV9FVTZKaE5DaldNUG5MSmtEcFVaSDRBTjFJbmNUUmdnY1VTRXNXTEVMUV9vb1VfaVRMZFNtczY1VVBjZHJydHJwV3o5Z3RXLVM4MTdINTdFQWFaS3NqbzQ",
     "CBMikwFBVV95cUxPSDdkUkp6OTNLQkZUX2h6S1Z4cUFYSHkwTW1RZEV6VG9DcUEzeGE5SDVLZFlUbS1qdFBZOFhVQ19jcExDRTczRTJFOGg2M1lNVExKSS15NXNVdUJGN01KN1BZTzNoN2dPblNSMUx4d2h0alQ0Yk9sVVJ2cGphb1p2YjZBeTVpRHpYam84bzBMeUcxNm8",
     "CBMikgFBVV95cUxQV3RwTjlaS0VGN0ZRMFhrQV9XbWdlUDFhQWpjWDFDRFZIV1p1RlQxazFpNnVaTUVLZTBia1FFeVZhd0lUUnQzWTZtWWF4blcxMFRIenFyeWV6TllXWUR5MW5QckhJNWx2VkJPOU9nNTlmNGpkN3RVMnlKLWN2X1hYZGswTFBoRTFpZzVqazlmMlcwdw",
@@ -3312,7 +3310,9 @@
     "https://www.mmafighting.com/?p=506860",
     "https://bloodyelbow.com/?p=328646",
     "CBMikgFBVV95cUxONjk5dWpyVU5fZkFwLTF5ZmZpRHhnWlVjYU93dHlzdFYyZGd3SFpoc2FTSUdvT1BUa2FNZW9UQ3g1V1pvOXhWTHdKdkpPVmFPeDgzVkJka3MyWjZ5NnRNSlpQSEswWHk5UVlNTmxCaDQzWlpJWVlkODdmRGg5djVXVExTTkRJbUUzYmt6QXpXcVo2dw",
-    "CBMilAJBVV95cUxNRllNUVljQUsxVUxZQmRjaG1VdWhVZzloRjVqMGlDRDZmaHlUWVBncVZ4YWd0bXdjNkQxWFdlZUhPMjRKamhsT1IwMXpKd3V1cE5vdUlpQnk5QUl5VW03WGdTNTFVWHQtUlNqVUtMQlRTTlNoSnh3aEFYLWhqNF9RdTZTTDFrcGU4MEdTMEEwclY1Wm4tSlFLNHZUX0JxLU1vblh0bzQ0eV92Mm1KZEUwcUhyQzFJcC12RFRGZ29zTDhLM190Vnk0TjNHX1A2SmM2N0JTd2RpUWxxLTExelNQcFZGd1FDMGVhdVJQbnBUQWwtR194X09rUGtZQmlFVjlPSHEtbHVJYTFCbS1qN3dBSXVoVW0"
+    "CBMilAJBVV95cUxNRllNUVljQUsxVUxZQmRjaG1VdWhVZzloRjVqMGlDRDZmaHlUWVBncVZ4YWd0bXdjNkQxWFdlZUhPMjRKamhsT1IwMXpKd3V1cE5vdUlpQnk5QUl5VW03WGdTNTFVWHQtUlNqVUtMQlRTTlNoSnh3aEFYLWhqNF9RdTZTTDFrcGU4MEdTMEEwclY1Wm4tSlFLNHZUX0JxLU1vblh0bzQ0eV92Mm1KZEUwcUhyQzFJcC12RFRGZ29zTDhLM190Vnk0TjNHX1A2SmM2N0JTd2RpUWxxLTExelNQcFZGd1FDMGVhdVJQbnBUQWwtR194X09rUGtZQmlFVjlPSHEtbHVJYTFCbS1qN3dBSXVoVW0",
+    "CBMiwAFBVV95cUxQQmhTeHFUeTMtVVg2aWVxSkIzcnRoaW90UV9fZDd6Q3JOZVlzN00tOTdhaW1lMWNyQmZGMGFlZnFsTExLYVVTSnZDWER4VUczc2E5di1QZndORmxQdGdET2pQSnNDdlJwRWZ5TUJIdWFCWlJCSWh2eTRBYVZjX0ZhRE5NZ2t6QUdMdDF3cmF6bWowa3pHZ2NoVGl6TEtjSzlDMXVEUlc4WFNyUE1OSlcyLTJmcnJSbmJZRy02REtCZW8",
+    "CBMihAFBVV95cUxNM3NMYUVsQTdRUjNfU2hyc3lSRWYzR2lJT0dsRjVMMHV2TUFiSDE3SnE5bnpLZU9wY1FVV3RnbUNWRkR2VkNmdmpYNUVCaGlXdGVTZGl6RksxWVRpWlJmNnktaHZvck5RXzJKUGt3cFBhQjFHOEptOWh0MTBiRWtEakFCNG4"
   ],
   "daily": {
     "d": "2026-08-24",
