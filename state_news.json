@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Cris Cyborg claims Ronda Rousey has been dodging her for years: “Don’t think she wants the smoke”",
-      "ts": "2026-08-23T21:36:13+00:00"
-    },
-    {
       "t": "Newly Booked UFC Fights: Week Ending 23 August 2026",
       "ts": "2026-08-23T22:25:09+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Freire Confirms UFC 331 Final Fight On Contract",
       "ts": "2026-08-24T03:11:07+00:00"
+    },
+    {
+      "t": "Usman Nurmagomedov drops two-word Dagestan comment on Erling Haaland’s new haircut",
+      "ts": "2026-08-24T03:34:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Manchester City vs. Bournemouth: Premier League Match Highlights (8/23) - Scoreline Stream of Soccer",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNTVhTTNpeXdNM1JBWjhaeWFmNzhCM3hhQ0J1MXUzc3NTREpVaUhnS0dVcUdaWWowY3FnaXdDWndXNnV4cVNKbEhTZk5EUS00R19CbGtGUm4wOEJFbGktd0xaTGRyZ0FHV0FwQ0xzN2ZQVGxrQUdfcHZBQkZjQnd1R1hXQ3RlTzNyTGZ5S2Y4cUY3VS1IeHQwNExSNThMV2VjaTNoTXdRTkY1WlZ6RTh6UnQxVzRoVGVLS1RFd2xn?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T23:43:16+00:00"
-    },
     {
       "title": "Jose Delgado Reacts to Jean Silva Booking at Noche UFC",
       "url": "https://sports.yahoo.com/articles/jose-delgado-reacts-jean-silva-233630949.html",
@@ -2105,6 +2098,13 @@
       "source": "Yardbarker",
       "cat": "ufc",
       "ts": "2026-08-24T03:11:07+00:00"
+    },
+    {
+      "title": "Usman Nurmagomedov drops two-word Dagestan comment on Erling Haaland’s new haircut",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMFlHeHFvQUVwVGZWRlBaWXpkbjk1TTZveDBZdHhfWGR6QzhiRjJqbmlJWXhJMzVrLUxBU1h4SU9qRjl0a3pfcHp1bmNqRkxNdkFFTVNVTGEwU0syU1RVRFBNbWJ6VXBGdlVWR0k5bXY1QU5KSHlQU2Z6Nmx3QjV5VTBPY2RsTy1EZjI4T1pSN1ZSRmNPaThBV1U5bVJCamtkd2ZjX3EyWHpBN2N2cnZrWldYeERxWmM?oc=5",
+      "source": "Sportskeeda",
+      "cat": "ufc",
+      "ts": "2026-08-24T03:34:00+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMifEFVX3lxTE9QTkpaLVdYaU9SZk1BRy12aXJDVG9pMjlPX0xIZUl3UVRIT2gtLUdzbllLU2VfVERCd3JBX0RYNzlDLWdWRjhiZElkaDlXZTN5SDB2X2ZmQUU5bEFlVzJPUHhLbHVkd292VEg3c0RYclc5UVB2bzVxMG1YdHQ",
     "CBMigwFBVV95cUxPUVJCV25iQXBpdG5yNHV1M3Bhc0tQOEFocnZRZlAxTmJVZjJZTTdWVlNtalloXzlvZFZWT2x5QjZTYUt6ZHJtLW85R1JFT2E4ai1JbE9SdGxaN0RGQ1hHTzFobXlsM3JES1FQQ2IwNzU2MWtwbFR5X2RqZzA2dGlTdFlMVQ",
     "CBMiiwFBVV95cUxQOGVVMGZDLUhraXh4VHEzeGhuUFBycjFZVWNFdkdJckRZcU1uc3pVWXlFOG05Z2tkdXZac0ROT0VLb3NPMHFoMm5xUHN0bDlpVW1iWWtNdXZXRC1HOUFXcFhybnlSZFBYVDFCQ21Kd0wtc3VBdFY5Y0RsOGNCdkVUTGd6R3kwb2U2SVE0",
     "CBMiygFBVV95cUxQV0Y4ck9xZDFOVkQ1TzBoWnAyMVhyU2FxUUw2djFIaTFoTDJiZHpyQkN2ekc0bHZ4ZnZSRGdGNlp6SjZBTmw5NzBOcXRyQnROYXl0MEZNMGdNdUZwdHBnZEMxMzVQd0gwQ0xEMTFscXQzOUwtQXctTlNIWFR4d0hIMEtTWnU3ZGRkTGxKaXU5N01IODlrZ3NJN3JrVTd4QlYxYWo1QlJkMTFQVnFvUW02S1o2WXlrcWs4eUlVb3dqdnZCR2Z1eTY1VkxB",
@@ -3312,11 +3311,12 @@
     "https://www.sherdog.com/news/news/Roman-Dolidze-on-3rd-straight-UFC-loss-I-did-not-lose-my-dignity-202493",
     "CBMia0FVX3lxTE82UWVPVDRJd0dJQ2JVa2tCOWhmMjNmVkQ0MjF5aEt5THpRU1pGNGtPbFY4RDhmZmlSMmpDNUZ1TkhfNjVLTkwyR2h3YkJvdGR6eDhVVXVENEhWbC10TEdZQkI4T1pKMDI2NGF3",
     "CBMickFVX3lxTE45VkJqQnNPUTBpQWZpWGRaa2JqYTFPNFNUUnoyVGM4VUZHcXo4X2MtT2xtTFhyb2Nqd0JEU1RoZmpsNkJwUnQtWTB1dEx4TFhGZjRqV0VmampwcFpNSE1oN0VodWpsdVhiNHZWU0VLVnpLQQ",
-    "CBMiqAFBVV95cUxPdW44cUpBYUNFNEdiREhvU1U2d1A4XzZSUDVEM1RYUUVmZ3dPRmhqWXZhdi01TXBGOTdiTmxpa0E4b1ljMUNvZ2lES1lFSHVudWJGNDREUzgzcG1pNkhEd1ZPSDJCd2RRVjJ3bGM2d1pZZ1BoT3VqeFVSQWJRdVpXYTMwR0lyS0tDSHNIS2JhZU9fVUMwRzU2NnpmcTRNMFJJby1ueFZqd3E"
+    "CBMiqAFBVV95cUxPdW44cUpBYUNFNEdiREhvU1U2d1A4XzZSUDVEM1RYUUVmZ3dPRmhqWXZhdi01TXBGOTdiTmxpa0E4b1ljMUNvZ2lES1lFSHVudWJGNDREUzgzcG1pNkhEd1ZPSDJCd2RRVjJ3bGM2d1pZZ1BoT3VqeFVSQWJRdVpXYTMwR0lyS0tDSHNIS2JhZU9fVUMwRzU2NnpmcTRNMFJJby1ueFZqd3E",
+    "CBMitwFBVV95cUxPMFlHeHFvQUVwVGZWRlBaWXpkbjk1TTZveDBZdHhfWGR6QzhiRjJqbmlJWXhJMzVrLUxBU1h4SU9qRjl0a3pfcHp1bmNqRkxNdkFFTVNVTGEwU0syU1RVRFBNbWJ6VXBGdlVWR0k5bXY1QU5KSHlQU2Z6Nmx3QjV5VTBPY2RsTy1EZjI4T1pSN1ZSRmNPaThBV1U5bVJCamtkd2ZjX3EyWHpBN2N2cnZrWldYeERxWmM"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 38,
+    "ai": 39,
     "staged": 0
   },
   "staged_hist": [
