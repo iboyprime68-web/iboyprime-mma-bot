@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Jorge Masvidal’s Gamebred FC inks broadcast deal with DAZN, next 4 events announced",
-      "ts": "2026-08-23T05:10:34+00:00"
-    },
-    {
       "t": "Anthony Hernandez claims Gregory Rodrigues was ‘cheating,’ grabbing his gloves in UFC Sacramento main event",
       "ts": "2026-08-23T14:01:44+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Masvidal Confirms UFC Talks On Edwards Fight",
       "ts": "2026-08-24T11:30:14+00:00"
+    },
+    {
+      "t": "Lando Norris 'phones President Trump' after Dutch GP win - fans convinced after footage emerges",
+      "ts": "2026-08-24T11:31:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Jared Kushner meets with Democratic leader Jeffries with House control at stake in November",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaS1CNXU3b0VvaFRPX2RPdDlCemVranpiWUtESWY3bjBBTEUxUDFBZDVrdlMya1Nfc2lGVTN0T3BQOHE1ak5UdlhKVnpUNDR6UFBVMS1zNkFxeG8zNkIxLUhzSEloZFFNaHlpbVE5NVlEWjd1MUlYc3pTWURxZkRPb01uQmVJdEVvUWc?oc=5",
-      "source": "Hot Springs Sentinel Record",
-      "cat": "ufc",
-      "ts": "2026-08-24T09:00:00+00:00"
-    },
     {
       "title": "The Baltimore Ravens Training Camp Interview: Lamar Jackson Stream of National Football League",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSnBkbmdVSkt5LUFBRDlqZkZxeHRtN1hzNmtzcm8xWEd5eVNWZUVUMHNpYWhBTzEtNWZLNmtFY1BvVlQtRG1McGtYMDNCdTVBUlhJdXBUbS1NVklmUFRYM0diMGxPZzB2N3BSOUZVbVJZLVN2clRtN0FmTnRhVG1Gc3RTMzNGbVEwd0hmbE9wdVBfWFFqMDRlbWFkYW9pVXRuWkE?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "boxingnews.com",
       "cat": "ufc",
       "ts": "2026-08-24T11:30:14+00:00"
+    },
+    {
+      "title": "Lando Norris 'phones President Trump' after Dutch GP win - fans convinced after footage emerges",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSkx6YUVVcmNjXzNVRHBVaWt2bFRqNzdGTm05X0s5eGQwQWcxbi0wMlhHNlRZR2EwQktWajRYT1NhUmVySUlWZFNWbmRzUXhGMXBFemlwTkpCZHBuVWhMR0paQlJmQ0d1ejJ5Q25WRTUyNTlmbTNmTnRQNDB0ZjA4eU9GR0VUcUotYWl0YjFWVUtMSi1obFBlblIyTy15VktSSWJ6Q0FpVjRUNWh6eHpIdUJ3?oc=5",
+      "source": "GPblog",
+      "cat": "ufc",
+      "ts": "2026-08-24T11:31:00+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxNSXBra1Q0ZlVRN1BKamtWdkRKTHFOX2pmZUV2MUVvLVZIYlFIMzY1TExPaVhvUFNIOWZBS2hjemxjNW5PYTREY3ViQnNEVnA4YXIwc2dVUndoR0xHSFlqRFZwcVppUWNuT1NQQU95QWN6S1FWN1lsNS1uVURaNXFjdXFQRDlLM3VKNVQwUTJ3SF9jV1hOTzBzQ1d5MnVmdXJX",
     "CBMi7gFBVV95cUxPLTR2VzN1RDJHN2I2NW1tVjdmREpxR19yUTRLUnF6OWVFbFRJc2prSUtTd0dXUm5OWUtReC1qdktWYmk0S0hSdml5Y044TGNfQW9PalBwSk5LWElNc2tUWnhtYWdodVpUXzU3dk9mRTJVLURpODN2OHhSUURpVFpjWXlUaC1MRjFLZVFaRWFZWXRDc2E2U0c4cTNTVUVBdmtYMmV0cWRkUy0xQTl4NDI2VGRRVGsxUlRRWE43bHhWczlqVzZuUklCSVdocE9xVTRyUXlObVZ6VFZzREtQa3duTHdQWi1oMHJ3OFZjM3hR",
     "f3791c6b-dba5-3868-b98a-478bf267ce6b",
     "6c89985e-1e35-32a1-b9e1-6752748df736",
@@ -3312,7 +3311,8 @@
     "CBMiqwFBVV95cUxOUlFMbWNtNS1rbDVNUzB6dkdJdk16VkpKQ0FIVGNzbG9SZFVxU2VlN3hlc3F0WWllUmNaMFRJQUZJdUlYUzluTi1jcl9VczlvTnZuZDRPVW00ckZYUXo0czkxb2ZkbGk3NTNBQ3FoVzlYeV9uSF96Nm5ld0xOdWhpbXAyRTNoV1lsZXJvSVNkM2hRTVpDbkxaSkpRUlFhM0FTRC1SVEYtS1RkZVnSAaoBQVVfeXFMUFRhc3d4ZnNDTkZvSXdPX2lFcXJHazBod2pST2g2V2YybWJlWktqRDRZczVEMFM1VGRNR1Fma1Zrdm90Zk0yZlgtaUxTTDRuUmE0Q2o5WWlxbXRmaGRybHd1Y2habjZBV19ZdGJ0STFDSkJKdU9oTGZpYVBnMVBDUFRzUDBxM1VaYXNEdmtJU2dOUk5OSXJWa01WaHpVTlFuNFJ5a2I5RUVyREE",
     "CBMiW0FVX3lxTE8zVmZMOXNadGR0bkZjTmpXOWNDdzhlbE93WFhucWZjV0paOHBBUDRXY3JZbGJfOFBtMXdmTmpYY2lJQllycVRjYkhOUVQtZ0Z3ZHlxZmlCR2I4OGs",
     "CBMizwFBVV95cUxPd1Z3ZUxCNmQwOUVtS1IzOHNqb2ZoSVhjbFc0MVg3enppQ1k3VEtkNWpONTQxdTYtVWpJRnNtVzM1VW93Sy01ZTdpN19RYzBWNmpUMUVWQXNRV3FLZ2xFOF9BZWhlaENrbzRIQzR3UGI2eERhNzV6aVM3MFI4OGVDNFgxNzRuYkJRbE1VM3ZOWnh0OFE2Q1VxZ011VVZqT0VjaUM3WTZMNXJYU0JWSjZISE9xZFZGbjV6NUpnUmVKeEh1RlVQa3BSVHVCbGhZZ3M",
-    "CBMibEFVX3lxTE9RbmdGNElOSjZ6UHlnMThZcnZEWlFhT3FTWkJpdUdxS0FaalhROHEtWkVVTUFoOE9TbVBybXFSN1lYem56NlhLSDNCVU0yVWtwSnFLdlRaUl9LaE94emV5Q28tNW16OENwbXdrdw"
+    "CBMibEFVX3lxTE9RbmdGNElOSjZ6UHlnMThZcnZEWlFhT3FTWkJpdUdxS0FaalhROHEtWkVVTUFoOE9TbVBybXFSN1lYem56NlhLSDNCVU0yVWtwSnFLdlRaUl9LaE94emV5Q28tNW16OENwbXdrdw",
+    "CBMisgFBVV95cUxPSkx6YUVVcmNjXzNVRHBVaWt2bFRqNzdGTm05X0s5eGQwQWcxbi0wMlhHNlRZR2EwQktWajRYT1NhUmVySUlWZFNWbmRzUXhGMXBFemlwTkpCZHBuVWhMR0paQlJmQ0d1ejJ5Q25WRTUyNTlmbTNmTnRQNDB0ZjA4eU9GR0VUcUotYWl0YjFWVUtMSi1obFBlblIyTy15VktSSWJ6Q0FpVjRUNWh6eHpIdUJ3"
   ],
   "daily": {
     "d": "2026-08-24",
