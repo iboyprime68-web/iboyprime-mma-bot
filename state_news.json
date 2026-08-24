@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "RDR Eyes Rountree, Stirling for Next Light Heavyweight Bout",
-      "ts": "2026-08-23T21:36:16+00:00"
-    },
-    {
       "t": "\"Post the Entire Message\": Tyron Woodley Responds to Sean Strickland Leaked DMs",
       "ts": "2026-08-23T21:36:19+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Highlights: Racing Louisville FC at Chicago Stars FC (8/23) Stream of Soccer",
       "ts": "2026-08-24T02:16:09+00:00"
+    },
+    {
+      "t": "Drew Dober Calls Out Michael Chandler",
+      "ts": "2026-08-24T02:19:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev slammed by doctor for unsuccessful attempt at popping teammate’s shoulder back",
-      "url": "https://bloodyelbow.com/2026/08/23/islam-makhachev-slammed-by-doctor-for-unsuccessful-attempt-at-popping-teammates-shoulder-back/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-23T16:00:00+00:00"
-    },
     {
       "title": "‘I’m still alive’… KO of the Year victim reacts to Conor McGregor’s teammate putting him to sleep",
       "url": "https://bloodyelbow.com/2026/08/23/im-still-alive-ko-of-the-year-victim-reacts-to-conor-mcgregors-teammate-putting-him-to-sleep/",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-24T02:16:09+00:00"
+    },
+    {
+      "title": "Drew Dober Calls Out Michael Chandler",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zeVdTRVhHSFN1MHRzMy1HY2ttdWFybW1pTzNGOS1hbHRwcDM5NUoyV25qZEVteER3TE84amc5dWxjc1ZKQU1maENXTVE4aHh0em9mSkktNmsxM0hhREh2Zy1GNkFkT2RrSXQ1a256YW54V3YybEE?oc=5",
+      "source": "heavy.com",
+      "cat": "ufc",
+      "ts": "2026-08-24T02:19:00+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMijwFBVV95cUxNR3ZRWkd6Q0F1RnBFVDNaUTU2dzdUbDlUMS1HanFNWUpDSnFDb1ZlWGRjQ3YtN1BxM3hqamhqbkxfaElJV1Byb3N4b0VhZjRHUjY5NGdJNEJxV21rOGR1Y2I0U0tkbVMwLWxTZ0NjN2xteDlpelRuU1J6UzJkWnVoNXhqb0k1dnJkR3pNRUk3b9IBlAFBVV95cUxNT0NvcUJJeXlhQmJFSXZIOFQwNjdsMnBpQnpnTUg4R2pIZ0NyRHplVWdlM3pLYVhmU2V0ZDZaMzhHM2tzRVVYLWswYUVEMFliMzhkM0R6dEJzOHJQVWpsVWpjQmR6T1BiTDJFelZ3dkZIbTQya2dvRWJMVzdSeHBfa09xMUNpSzVBdW56c19EcWxhZ1Bj",
     "CBMikgFBVV95cUxPb1NDU05kZXg1Qml5NGhONUZMNkdlMFFQbV9HSFNHZ0NraWZQbllUMGxWcm9JbW5zVGRxcXBfNmJoMXVUYWVKZkxTbjRGUVlSS2JVQi1oNldIMC1VQ2VWQy13dGxRLWIxVzhWV1RSRVJWX1h2R01JM3ZSMlc5Um1HY3FwMlJEeG5LbmNaQWFTYnRfQQ",
     "CBMiigFBVV95cUxPblpPZUpXYjVnWWJSUTlqRVB5a3Zua05FdFpSNjNNSmJCZHlXVmsySVExcnJSVU9xNGdLczJNVEJmdWpZYlhEbFZ1dnhOd0tsRnZTaGwydnVvb0RDVlR0aEdKc0xjeGFaNTRkWnlLbks5SVlWQXJxd0J3c1FIbTI2MUhZUkdtQmwtUGc",
     "CBMinAFBVV95cUxPQnQ2Y2d3SDJ4UjVyZngxYzcyTlhiR1YwME9Hb1BxZHlnZ2tFeUZQWFZ6bGxnOEFaWGNwTlpXczZ3TDRJdjdEYUFUeWtuZVk5Y2N0NF9JX3dEZkl4MjJOeVdZcGNFVXhGc21XemVQcVpHNXZOMHh1S205WkpLNEJxUUR6dFJXanYxWEZuODNHRlNNV3RSblR6eUM5OGI",
@@ -3312,11 +3311,12 @@
     "CBMiekFVX3lxTE9yMHhaOHVtMF8wS0lIbldwTnN1bGJXWFFtYVdWanhvV2RiQTdUVlRLMXU5cDluTmNGcEhjejFTS3hlV1ZCR0VJcDZRLS13dzZONHhOQmJZTUZ0ZWxIS2l0VFNLVzQ2UXQ4cUdDckYtamhWWDYyU0tDMkdn",
     "CBMie0FVX3lxTFBEbUlHelJQajFTVjVOMGR1UmwzQzZiMzdYUTgwRTZ0Z2ZCVnFfNFRJYXc5S1NqWEwzVzVEdEJWNFVTeWRvMHNyZzZmamFFUlUyVmpUZ1JLNkZKcl9FdXJYWXVjZUhaTUE3LXY3eXd2eGRuRmNmMHhVaU1HVQ",
     "https://www.sherdog.com/news/news/UFC-fighter-suffers-fractured-orbital-instantly-lost-vision-in-upset-loss-202489",
-    "CBMiugFBVV95cUxPdWEwU3JyMGdoVkFiYnl2N21JNmdxT0Z1aF95cmxkT1VnRU5HVmI3ZFVnZG1YOU1KTjAxTXRJcExXM05ueE00U05yX29VSjVsQXhVaTVLTjhUcVBfakRZQmlBUWFHRGYyTzRnbU5Ua3FyVUZHT2xZS0lrdEJhVFlTblZzVENvMTlNUDNnWVVhcklrcy1jcUlybVNOYWNTRE0ybklRR1NCZVh6TWE0UWpQV0paVTlMSmZhb1E"
+    "CBMiugFBVV95cUxPdWEwU3JyMGdoVkFiYnl2N21JNmdxT0Z1aF95cmxkT1VnRU5HVmI3ZFVnZG1YOU1KTjAxTXRJcExXM05ueE00U05yX29VSjVsQXhVaTVLTjhUcVBfakRZQmlBUWFHRGYyTzRnbU5Ua3FyVUZHT2xZS0lrdEJhVFlTblZzVENvMTlNUDNnWVVhcklrcy1jcUlybVNOYWNTRE0ybklRR1NCZVh6TWE0UWpQV0paVTlMSmZhb1E",
+    "CBMidkFVX3lxTE1zeVdTRVhHSFN1MHRzMy1HY2ttdWFybW1pTzNGOS1hbHRwcDM5NUoyV25qZEVteER3TE84amc5dWxjc1ZKQU1maENXTVE4aHh0em9mSkktNmsxM0hhREh2Zy1GNkFkT2RrSXQ1a256YW54V3YybEE"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 22,
+    "ai": 23,
     "staged": 0
   },
   "staged_hist": [
