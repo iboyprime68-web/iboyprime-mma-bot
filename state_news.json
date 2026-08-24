@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Reinier de Ridder Has Next Callout Ready After UFC Sacramento",
-      "ts": "2026-08-23T19:23:43+00:00"
-    },
-    {
       "t": "Rewatch Rodrigues-Hernandez: How did you score the UFC Sacramento main event?",
       "ts": "2026-08-23T19:30:26+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Sen. Moreno says discussion of White House aide ‘super misogynistic’",
       "ts": "2026-08-24T05:22:00+00:00"
+    },
+    {
+      "t": "Gilbert Burns Names Charles Oliveira And Diego Lopes In UFC Jiu-Jitsu Split",
+      "ts": "2026-08-24T05:26:29+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Leslie Smith",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5saWxKMVVjSUptT2hGQjFaU2k5Sml5bTFQdTBHcl96NXNva2pqRnNTdUxqTEQ0SUdnNy1PbG81bzVRSWlJRzFTTFJhdlRGamxib3c?oc=5",
-      "source": "UFC.com",
-      "cat": "ufc",
-      "ts": "2026-08-24T02:17:55+00:00"
-    },
     {
       "title": "Patricio Freire makes UFC contract intentions clear ahead of final fight on deal",
       "url": "https://sports.yahoo.com/articles/patricio-freire-makes-ufc-contract-022228058.html",
@@ -2105,6 +2098,13 @@
       "source": "tippahnews.com",
       "cat": "ufc",
       "ts": "2026-08-24T05:22:00+00:00"
+    },
+    {
+      "title": "Gilbert Burns Names Charles Oliveira And Diego Lopes In UFC Jiu-Jitsu Split",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORXdlbTVReGw5U2F4NEF0TDFmSHhRdHhFNGRRcFhjQ1Qtc0xSLUxzc1llSGdEWUROenNCeVJYcVc5bXd0UEVCTjg2MlpFc0tid2pxc2NDZVNHTEtiUjdCLWdLQUZJOVpLWm5ldHhReUpoNWVGZG9DQkZBcmtrWmxoTWozSDJuSXlpNkRQWWFzdzJYVDA?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-24T05:26:29+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=328114",
     "https://www.mmafighting.com/?p=506164",
     "CBMikAFBVV95cUxNeHN0Y2RPLVZNQ1pxZjlSOVNsUDZCWHM2ZnRQZ3V3NDJSd2piR3FxbXhUTmQtRHdyRlRndXBQb2hQSnBjQlJJNTRSQURSQW9JemliMHRaU0ZEYUpPaGtlM3NWay1kZmVMVWJPVDV0QVNuZl9zcDliZW02SHFTZ2VfNUxuaENnQXZLQnoybUw5a1M",
     "CBMidkFVX3lxTE1lVG9sa2c1RWFrT29fN2NqS21FZkRrSUMtWFlZU0hyNjBIVWc3Y1FlaktfT2FCWmoyOUh0ejZsdy1ZY1JyTjJoRmR4NWtnaE1xWmREcXp2OHdtc3MxR09UNzE1eTgtbTluRmdzb21WS3RiTE93UHc",
@@ -3312,11 +3311,12 @@
     "CBMiakFVX3lxTFBZSVhoWmVDdnRDQUVDQVg3STJUS2hQbUh3a1hzaDJUYlFfYzg5dnk2c3FnNGpzWldYRldCdjE5ckFSNHdiejdiLUE3RlBuSjNJNzg0VFVPcG1XM2cyU3ZaVmFTN2FhMERITHc",
     "CBMivAFBVV95cUxNVl8zX2hFaUF1cGtFam0zeWlhS0V1ZE4xVHZGNm9jck5DbDNhSjJOazBGZThLNWxVOFQ4UkdrU3lWVW5aNGFLb0ozUXZvMHZHakllX3lrbUo5UkFkVXNBQy1kbUl4Um5hai1ySi10YWlHRU1JMkpoM0Z1Zm1sRDhpZTV3YUo2eWh4cERSX2hGVGg1cGgyTnd5YzRkcVNfczllUlppTlVPdDRzOFZMck9QNGVIQ1FLZmZRTDlBTQ",
     "CBMixAFBVV95cUxOVXQzTllRRzVPeWFqLWdVZm9uQzJ1YWxpQUN6dTdkak1YSVNGVDNpZllJOXpidlZYelNjZVItYzBzU3NwTEp6YW85RjkzUGNEWk1MWWlmTzRJQ0lPbUduM1I1NnlVVEVYNU5oMGZxZ3B4Um9IQUFqbnZFb1RrRDlieEg4N01EUW94dWY0R1NUMXJOSlBfb0xJd083cVZYRVJkRUlDWWhyNWdIU0RGaVZ6aDcyQzZDMFRxci1vcml4SV81OVc5",
-    "CBMipgFBVV95cUxQSlcxMFhJcmhqaU1QTTh3aVozSG5iM1pjcVR4a19aa2xTVkpYb1Joczl6dDhBdHg3ZFFyekFUWF9ZdlgzTk0tYWpHQWdjc2VDZERfSHZPZUVHc0haV0M1cHBkU2xhazhHbmVNazRBQThxRV8wYVFUUlo2LXJELThadkFkb2RqWTdOSEpPWXRqY1AyYnd1SVpydWxXRHk0cUFXYUMtMUl3"
+    "CBMipgFBVV95cUxQSlcxMFhJcmhqaU1QTTh3aVozSG5iM1pjcVR4a19aa2xTVkpYb1Joczl6dDhBdHg3ZFFyekFUWF9ZdlgzTk0tYWpHQWdjc2VDZERfSHZPZUVHc0haV0M1cHBkU2xhazhHbmVNazRBQThxRV8wYVFUUlo2LXJELThadkFkb2RqWTdOSEpPWXRqY1AyYnd1SVpydWxXRHk0cUFXYUMtMUl3",
+    "CBMikwFBVV95cUxORXdlbTVReGw5U2F4NEF0TDFmSHhRdHhFNGRRcFhjQ1Qtc0xSLUxzc1llSGdEWUROenNCeVJYcVc5bXd0UEVCTjg2MlpFc0tid2pxc2NDZVNHTEtiUjdCLWdLQUZJOVpLWm5ldHhReUpoNWVGZG9DQkZBcmtrWmxoTWozSDJuSXlpNkRQWWFzdzJYVDA"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 65,
+    "ai": 66,
     "staged": 0
   },
   "staged_hist": [
