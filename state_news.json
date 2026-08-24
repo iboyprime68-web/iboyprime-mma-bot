@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Gilbert Burns Names Charles Oliveira And Diego Lopes In UFC Jiu-Jitsu Split",
-      "ts": "2026-08-24T18:00:00+00:00"
-    },
-    {
       "t": "Jiri Prochazka urges fans to not believe \"bullsh*t\" amid Paulo Costa fight rumors: \"Fight is not confirmed yet\"",
       "ts": "2026-08-24T18:04:16+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White’s Contender Series Season 10, Week 3 Weigh-In Results",
       "ts": "2026-08-24T21:00:58+00:00"
+    },
+    {
+      "t": "UFC 46 (preliminar) Marvin Vettori Vs Sean Strickland Michelle Williams (I1w9IF8wPv)",
+      "ts": "2026-08-24T20:43:06+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Carlos Prates Calls Out Islam Makhachev for UFC 334",
-      "url": "https://sports.yahoo.com/articles/carlos-prates-calls-islam-makhachev-182557430.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T18:25:57+00:00"
-    },
     {
       "title": "UFC Lightweight Division Faces Major Shakeup as Top Contender Waits on Contract",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TcVdvZE5tY1BoalZfMmxsTGRwajI0bl8xS2VoTFJqYzNEMTctSVFFZ1lwai12T05WMGRDTmJiWkRlaUNDQVhkZnFfTDZlYUV5ZThEV2NFZ0dPTFBEV0RxZWFWZ2pYbFRqWHV0V3liOWpEMk1RejAw?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Cageside Press",
       "cat": "ufc",
       "ts": "2026-08-24T21:00:58+00:00"
+    },
+    {
+      "title": "UFC 46 (preliminar) Marvin Vettori Vs Sean Strickland Michelle Williams (I1w9IF8wPv)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TREQtdjE0TGxqU2taTVptNnZFTXVaMW9HYlVWd21IalhOR01aQkREcUJpTXRBRUFjZDFTWXJEOGFYdU02dTNDYzJlUXZTMEN2WngxckdKQlc2cVE?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-24T20:43:06+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMipwFBVV95cUxNa2lsdlNRS0loZVFTV0lNaDd1dW51dUFwSmlRTUUwMG0wSmg1eU1GQ2hiWmVVNzNwcVdHNjN2c3A3QjRnNmRmaFZlaUE1aHhfSV9JazcxWUx2U19sMEJRbngzX0xxX09xZmlUSjdjYnpZVzdJTzk5Y2laZjhNMWRraXdIRUZhX2Ntblp3OFl4X0VJamVyeGpqMkpkazAzVWNpSGlRM09UOA",
     "CBMimAFBVV95cUxOM21JcmZPWG9ZVmUxNTh2bmRwN2UwVUZ4WkJNdEYyRGN1TjlRY3AwZU13WnNWalE1ZnB6VThkT3pzLW54aGRwVHZVb3Z4TFphSFJET2VHY0d4SHI5VVQ4NzBxdzkxWmJPVm1PQ3Fyc1N1d09YcUlqOWd6SUc5LXR2RXJaUDI3NUN3cWlqYkZ0OFhia0tJSmRIUw",
     "CBMiW0FVX3lxTFBRUzZmM19kaVo3X3ZfLWNmS2w1cWRDT09aTFp5LXVoM1ZZNUxGWVYxcDVwNThmdDBVelFiYW5YaVBxSFFSOV92bzM1Q00wNjF2RjlYdWFmSVB0WTA",
     "CBMi4wFBVV95cUxOaFZyMEFpT19mVUhjWWVUZ2p3cVhKUFQ5SG9Nc2lLVE5mdzVucjRjU1U5Tk11YU9fQmZUZUJELVZwa1JaRHhPV1J5RXZ5X0FfdjRuQUIyeXA1RS0yQzI4cVlnRUt6U2ZzTkxPY1hzd0RDS3JhSTV1QmY3Ynl6TU1hbjUzUUtUd1RtZHNqT3lDSVVud0psZC1BVTZUM0RWYTRRQ3ZHSHRsMk9ETkRJVFdlNWxCMkJHMnllcnRmQ1Jia2VENV9wR0ZKOUtIamtZWVJ5ZlFUMktNSXFzX0RPYTRMR3RpQQ",
@@ -3312,7 +3311,8 @@
     "CBMi2wFBVV95cUxQLVljYzE2UTlFdC1RakpzR3ZQcml5QXRoY1ZVMUhQcVBQYVI0alctZmVoN1Y2Rk8tbXdOal9ZUnF1eVNMdThsdTctaFZqR1dIQzNQbjVqVE5sd29uU2JpRmdsOUN4Ukl0dWs3WUMycjFFSXRtbEpaS0VuYVE0ODdvM2JhV2d4eTdPd19vdTBxSFhqRWZsd1lUSVhpQXdwZF8xWE1adXhYNjNjSElZRHZHbUVvb2lTRVpEd29MNzY5ZVJNOWVuRzJIbnRQMVVxSm4zQlcwTUVKTko2N28",
     "CBMihwFBVV95cUxNbnRFVFBmRG9YMVZCazZQZG9hYTBnYkRlYldjTVZ6T05oZk5EVkdnV25zTHRoSW1OY2ppcnFSYnBSMlhrQzVfMnNadTRlWVpqYVNTdDA3VmRHQ283ZTNRV1pWRWNLUHJHQ3lhak9ZeGk0VHBMalpFc0J4cloxZHU4cVNhOC0wN1U",
     "CBMiuwFBVV95cUxOS1E5QzJMUFZWT1dGakJucXUtWTB0VGVYaGczeUtReUVQOWp0U0lNNEpkQTNMRUtyZjVnWmpabGNjMjVnVmlvYnlDTXdmdkl0ZXFhT3BxYVdWTjNCSTRkQ2JrMFllZmVnSTVqaHUzcnZwSmhYU3lKeDBGWmU5SEV1RHdCNTAtV09nRVdTelRiU2FqOTdKdzVHei0xWWhCQ2NGaXVLbGVVdGhsV0g3UDJwR1NZRWdPVUlrcjNn",
-    "CBMiogFBVV95cUxQZ1pQX1R5Y2QzQTNNMS1lUVNTVHlIUV9USkpUZGQtMVJKY0ZMZkg0d2MwMDkta2sxcklrUGwyTUttcGxqSktFdlpGeE5TWmdRY2gyTUU4TlVEVHI4blZCQndBaE9JbU9zR1VhUFFOOUdGZ19lRzRHVGFDUHJ0cUU0TkZoVVBkT3MzVjdqRHFYaTE3T25IUXZsTzlzNm1hVjFIdGc"
+    "CBMiogFBVV95cUxQZ1pQX1R5Y2QzQTNNMS1lUVNTVHlIUV9USkpUZGQtMVJKY0ZMZkg0d2MwMDkta2sxcklrUGwyTUttcGxqSktFdlpGeE5TWmdRY2gyTUU4TlVEVHI4blZCQndBaE9JbU9zR1VhUFFOOUdGZ19lRzRHVGFDUHJ0cUU0TkZoVVBkT3MzVjdqRHFYaTE3T25IUXZsTzlzNm1hVjFIdGc",
+    "CBMiW0FVX3lxTE9TREQtdjE0TGxqU2taTVptNnZFTXVaMW9HYlVWd21IalhOR01aQkREcUJpTXRBRUFjZDFTWXJEOGFYdU02dTNDYzJlUXZTMEN2WngxckdKQlc2cVE"
   ],
   "daily": {
     "d": "2026-08-24",
