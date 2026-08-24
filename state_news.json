@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento winner reveals he will return to job at Home Depot after missing out on $100k bonus",
-      "ts": "2026-08-23T23:00:00+00:00"
-    },
-    {
       "t": "UFC analyst: Michael Morales poses 'big problem' for Islam Makhachev",
       "ts": "2026-08-23T22:40:15+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Joe Lopez: Alexander Volkanovski's retirement claim 'two-edged sword'",
       "ts": "2026-08-24T13:01:50+00:00"
+    },
+    {
+      "t": "Shanelle Dyer tired of ‘UFC BJJ’ in strawweight division, promises more KOs",
+      "ts": "2026-08-24T13:47:44+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dae'Quan Wright Agrees to Play at LSU Stream of General Videos",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSTVTRkQ2Y2dHSDBqWjRVbWg4SkNMTzhaYmJDLUJSQ2Z2VVVmU09SY0FVSkt0RTJsSHRXemxiUFJaRXNpQ0NsLUZrSUtfQmxyaWJOUHZOc2M5dHZwM3BROFp5UnpVdDd3eTJHSzA5bkRnTGdxVUZ0VktGSFVGSlQyRXBQNXhYRFp0dWc?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T14:48:45+00:00"
-    },
     {
       "title": "Michael Morales could be a problem for Islam Makhachev, claims UFC analyst",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3htQmZuVncwQV93QU1CRmR2S2VfNjhGcU55dmRmTk5fVnBBSkNLTEFGU0NuNUVtWjhyWkY3Z0gzNk5vYzRlcTQ1MHpmNFBLbDJ6bGVfV2ZKR2NvWVRzQUlKUEVjQjZnTWNmUjY5MTl4d3FIcVdLbWxoTF81eXhIR3FsbGZhX2Z0cjlWYVRHbVFNNGpDd05SRG1ZYWpjRXR4S1VCRU1qR0pDRjlsbUFrMk5URi1iQUV2WnF2MDdB?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-24T13:00:00+00:00"
+    },
+    {
+      "title": "Shanelle Dyer tired of ‘UFC BJJ’ in strawweight division, promises more KOs",
+      "url": "https://sports.yahoo.com/articles/shanelle-dyer-tired-ufc-bjj-134744701.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-24T13:47:44+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiW0FVX3lxTE5HU2VCa0xUWGplbFFUeXBBelA1T18yY01CSXBTTjAtS243OTlqTHpjdDYzS2JjaDZUODRwSVUyTTlVRVlwLS1KODEwTGtCZDlrRElJQ1g3czVDS1E",
     "CBMiswFBVV95cUxQb1Q4ay1zejQxaFNQZmlGYUY2NVprTjlYRDRMNFo1VF9rNmM4UVNfcnA4TmV2NW5XTENENE94cXNuZVdoQ0RGYnI1SU1LTzlJZThhS1JZTXI5OTlpOXl1ZXA4ZUUzQkZvdDFXaEp5ZVF1ck5Kc2w4cHVhVEZrUWFKZEt5QWRWQUFsYzBvenBIUEZCYkd5SW5XbjhWTDEzNjVoUERaQmNFUlItY0xUV1gxMk1aSQ",
     "CBMigwFBVV95cUxNNDhsemRCM1A4eWhlYWJCMTAxUFFfT3VMbXVQWFVBR2pYU2dIYzUtRlVlaTQwTWRlZEV5LTVHSzhvcW5tZHcxaGJUd3lyenAxdjhjZEEwLXRpMU5yeGp6dGFkQkJpQjhGdDY2eElZdXR6QVhFTWlVNzRnZHA5b1RQN3lxUQ",
     "CBMilgFBVV95cUxOZnFGXzRuZzJuWG1jN3F0d01Oc21sejZPVzFQdEN0VzVLVHEtZWNoZ2tuRTFrRW04R08wd2dXY2swOTNXR0xnQjJjaGVNSlNpT3RZUUI0bUliRm1PZFVDQmJ5cTEtbk80WUo1MXFtaE1GM0RjTWx5bVU3cElDbWphX2xoS2tJdElxdExmS2lQTTZLcS1icGc",
@@ -3312,7 +3311,8 @@
     "CBMic0FVX3lxTFBjSzVfcktDQmwxclRiV1RzSGJPRmRnckFib0xueGdLNlRQeUF1Yk11SkRiQ3BYbnU3ZUFtZEpPa3o3VmtTVzRpMHBmcGVvWi1XTEc1aUdsd1MySkx0azZIRlJxYXZJY1otallSTDMtdTNlcG8",
     "CBMie0FVX3lxTE1kaDZoUVNZTWRZMW9TTHlNNU55ZVhvZzVlTnAyM0d4WVZ0c2YtMjFWYUNobTVZX2w1anpDaWxYeDR5enE1MFpFeTJ2LTdXdHNkM2pURnZNZngwS0dvTUpUZ3l3NzlzNUR1dkV0eXRpOFY5dFptcTF3V1FkSQ",
     "dca2d8fa-3b6a-3a63-adb3-0f4813472b8a",
-    "f198ffb7-9a50-35a0-9966-7a2eaec0850b"
+    "f198ffb7-9a50-35a0-9966-7a2eaec0850b",
+    "64851e39-b087-3e30-b88e-6a13a544abf5"
   ],
   "daily": {
     "d": "2026-08-24",
