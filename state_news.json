@@ -1,7 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/458119/highlights-open-ufc-oklahoma",
-    "https://www.mmamania.com/458121/highlights-open-ufc-oklahoma",
     "https://www.mmamania.com/458135/live-watch-ufc-perth-post-fight-press-conference-video-jdm-vs-prates",
     "https://www.mmamania.com/458251/open-thread-july-18-2026-backrooms",
     "https://www.mmamania.com/458254/ufc-oklahoma-live-results-highlights-play-by-play-du-plessis-vs-usman",
@@ -1082,6 +1080,7 @@
     "https://www.sherdog.com/news/news/Paddy-Pimblett-No-respect-for-Arman-Tsarukyan-Ilia-Topuria-beef-is-different-202462",
     "https://www.sherdog.com/news/news/Paddy-Pimbletts-worst-weightcutting-mishaps-201748",
     "https://www.sherdog.com/news/news/Patchy-Mix-set-for-second-bout-since-UFC-release-vows-to-show-true-form-201618",
+    "https://www.sherdog.com/news/news/Patricio-Freire-makes-UFC-contract-intentions-clear-ahead-of-final-fight-on-deal-202490",
     "https://www.sherdog.com/news/news/Paulo-Costa-frustrated-with-delay-in-booking-final-fight-on-current-UFC-deal-201691",
     "https://www.sherdog.com/news/news/Pedro-Rizzo-Loss-of-reach-advantage-biggest-issue-for-Alex-Pereira-at-heavyweight-201606",
     "https://www.sherdog.com/news/news/Petr-Yan-claims-he-agreed-to-fight-Sean-OMalley-at-UFC-White-House-201541",
@@ -1135,6 +1134,7 @@
     "https://www.sherdog.com/news/news/Tom-Pagliarulo-overcomes-fear-earns-UFC-contract-at-DWCS-2026-Week-1-202323",
     "https://www.sherdog.com/news/news/Trent-Miller-earns-UFC-deal-with-rare-DWCS-shoulder-choke-202422",
     "https://www.sherdog.com/news/news/Two-title-fights-official-for-UFC-330-in-Philadelphia-201562",
+    "https://www.sherdog.com/news/news/Tyron-Woodley-beats-Joaquin-Buckley-then-offers-to-help-him-win-UFC-gold-202491",
     "https://www.sherdog.com/news/news/UFC-329-Shakeup-late-replacement-steps-in-to-face-Cody-Durden-201730",
     "https://www.sherdog.com/news/news/UFC-329-loses-upandcoming-prospect-due-to-injury-201690",
     "https://www.sherdog.com/news/news/UFC-330-Makhachev-vs-Garry-playbyplay-results-round-scoring-202361",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Henry Cejudo reacts to stunning 36-second victory over Merab Dvalishvli at RAF 12: ‘I’m excited for the trilogy’",
-      "ts": "2026-08-23T05:18:11+00:00"
-    },
     {
       "t": "UFC Sacramento Post-Fight Show: Reaction to Gregory Rodrigues outlasting Anthony Hernandez",
       "ts": "2026-08-23T05:58:11+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "How to Draft From Picks 10 to 12 + Training Camp Buzz! | Fantasy Football Today Stream of National Football League",
       "ts": "2026-08-24T03:04:01+00:00"
+    },
+    {
+      "t": "Tyron Woodley beats Joaquin Buckley, then offers to help him win UFC gold",
+      "ts": "2026-08-24T02:30:51+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "9 UFC Records That May Never Be Broken",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIRTA2OW5IRFB5TEZtU24zUG1jSTEtSVBHVTdVREJ5R1dOc1JXRzgzMlI4UEF4a1JaZldVVkVsNVNqZmlqZ0VsSENXaWV4S2cwbEF1Nm9ocjdJbktyZHRpbHpZQQ?oc=5",
-      "source": "NY Fights",
-      "cat": "ufc",
-      "ts": "2026-08-23T23:00:14+00:00"
-    },
     {
       "title": "Matches To Make After UFC Sacramento",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV21WMEM0YnJwazlhT3ZhWndfVTN3UF9KdEx3a1A3cGZxRUJPZmlqLWFybUV2RVJlVDlmdm9ueVlRQTBUTnk2V2tKUDhjeWFBOHU3MC1BbTg3WkZBR2dCbGc2UzVDWGU3bEt1VF9zYmpWSTc0ZlJaaGZ1bDR6cHIyM1Yyd2VSUklsaXhva3pmWXd6RkRlY2g0LUw0SzZTSVJLS1BqZzBVcVctT2hZUW1lTHlPY0dwVV8tSkhSNDk4SWw0TVNYX2c?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-24T03:04:01+00:00"
+    },
+    {
+      "title": "Tyron Woodley beats Joaquin Buckley, then offers to help him win UFC gold",
+      "url": "https://www.sherdog.com/news/news/Tyron-Woodley-beats-Joaquin-Buckley-then-offers-to-help-him-win-UFC-gold-202491",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-24T02:30:51+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxNY1RYMDFERkR5b05PZTUzaHBYeGpWeldRZ3dxdUtBQlR2RHpjTDAxSndBODN2blZENm5SWHl0NXNmYm1ycEtlX2Q5YWRUYW5WVFl6cXd1LXpDTWFqQ05yaHhLVlJIdDRZNXNCbUVZeHpqbERwTXFBV1N3a1Y0c1ptZEp1dTE5aE16cmRNeU9ycWpzZDQ2OTBiRUV6Z0tIUDUy",
     "CBMizwFBVV95cUxOdFptcV9adTJpLUhNNm5tUHA4LWd4Q1l4SlFPSVhzaXNKNnQ5U09hcWJic3FkYVVUamh1QVFkNDc2bFBKUnktUnVyak82OFdTUXUtVXNydUdxaUxWZWRGbHVBWnRMU1JzaWZRVmJJVlRZalRqZHFaYk5rUHBuWGlxUU51anpVNGNlR1JHejVVaTUwSEFRX182a1ZlWDJuS2FYdElSVUYtbk9Ha2NORldicXRxNmNaUzBKR09WUkgwX3k5Y0N6cFU3eE13VFF6b2c",
     "CBMijgFBVV95cUxOYlJjZDhOanNhOWRHcjlsbTZhNXZodkhCbm9BdlI0NWlMajMxYmN5UTExUTJoRThjTkZPLTNZRlVvekhpYnRvMmVtZElPWGIxSnRhWHdBNHZVbjBoUkMzeHJSVVdFbTVGdFV0Mnh2cWFtVXAwLUJWTlpwVmVyMExIRVJVZlBCWWVwNlNfcWl3",
     "CBMif0FVX3lxTE5zS2N1UlhEa1BXelU4NGVLdGFsLWY1RklaQzhLZzMtSzN4ZnYwSnVTU2FoV3NCTjlmWFh3UDhkUjVrVWlqWmRTX1JzVko0LWlmRzF5WlBXNW1DTkFvRTZudXJZX0FCSExZYkVkcGV0LW9JRTBfN19LSlRGSXVJNnc",
@@ -3312,11 +3311,12 @@
     "CBMigwFBVV95cUxPQXhKLXdYVzN5U0Z4TURjWERwbk1PRjVtYVBESUppeWNDQ3ZoY20tMXloS1ZKWkNOZmNaNU9OdVl1dnBYNTJ4M3dWOURWRHozRG53bDR0RGhuWDl4dzFyOEVrcktQVFdlNFN5RWc3YllUYnpKVE9yY0VSU3JsNGpyYXJLNA",
     "CBMieEFVX3lxTE8xWW1zZkdlMVI5Y0JuTlB1cjcxV0FvcXlJbURFVVR2el92MTZNMWlnMTlIOEpHT1JLUXN0VkJUanFTMHVqeEk1cTQxcWtNLXhWbzRFQ2RGaE5IWGFyRmwwOHR3VkxmekNlM0RoU2NVOGx4Q1NYUzdBaQ",
     "CBMixgFBVV95cUxQa3BaaEFBSU1ZYXRQTmQ3R3ZBTlhZa2VYOHpzVUVBZDQwX0tjTXpTaEZ2aVpYek5hU2NNNktSbGxPWkVUWWtWd3loRlFmV2lqZi00aVV4dkJCMEIwWUVUX09GV1pKSHp3U3VDZEZGNWlDYWlTbEJpOGI4ZHFCaklJc1FBMjJEMHY4cHZTNElhQXMtanBEeEhROXlFd1hGNDFTbVBraVZQeWJSTDdtZVBTcklFVGZBY2V4MGlKWmU5WURiYlJkZFE",
-    "CBMitwFBVV95cUxOMzhZbk9tZkR4bUgtMVJzalN5Q0s4aWoweFN5MHpoZk1iVFNhYnJVaE1aazNuSlA5eUFmcjRCM01vZ2prblRnSXBiSWNQWEJpMEJpTG83N1dLY2tXVnlDQjJHb3Fza0tkZ0tWd0NDOWdjMUYxSXIyOE92UzVyUVhneGRpaGxtTURLd0VWLU85QXlLNlp4eDhHREZiX3JDZFVqcjZCYnlSNnJxR2lsQk5TRG51eDdoMVU"
+    "CBMitwFBVV95cUxOMzhZbk9tZkR4bUgtMVJzalN5Q0s4aWoweFN5MHpoZk1iVFNhYnJVaE1aazNuSlA5eUFmcjRCM01vZ2prblRnSXBiSWNQWEJpMEJpTG83N1dLY2tXVnlDQjJHb3Fza0tkZ0tWd0NDOWdjMUYxSXIyOE92UzVyUVhneGRpaGxtTURLd0VWLU85QXlLNlp4eDhHREZiX3JDZFVqcjZCYnlSNnJxR2lsQk5TRG51eDdoMVU",
+    "https://www.sherdog.com/news/news/Tyron-Woodley-beats-Joaquin-Buckley-then-offers-to-help-him-win-UFC-gold-202491"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 29,
+    "ai": 30,
     "staged": 0
   },
   "staged_hist": [
