@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Jorge Masvidal insists UFC return is ‘close’, targets Leon Edwards grudge match",
-      "ts": "2026-08-24T20:57:08+00:00"
-    },
-    {
-      "t": "UFC Shanghai: Umar Nurmagomedov vs Song Yadong’ main card predictions",
-      "ts": "2026-08-24T20:46:31+00:00"
-    },
-    {
       "t": "UFC Sacramento medical suspensions: Both main eventers dealing with possible broken leg after 5-round war",
       "ts": "2026-08-24T19:48:21+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "‘I lean left on a lot of things’: Dana White shares shocking political revelation",
       "ts": "2026-08-24T23:27:08+00:00"
+    },
+    {
+      "t": "Reinier De Ridder On Fights UFC Bout At Light Heavyweight | UFC Sacramento Flau'jae Johnson (MY5a8qrFBP)",
+      "ts": "2026-08-24T22:48:31+00:00"
+    },
+    {
+      "t": "Kennedy Nzechukwu Vs Shamil Gaziev FULL FIGHT HIGHLIGHTS | UFC Sacramento Cryptocurrency (IduYdyOWoB)",
+      "ts": "2026-08-24T22:49:15+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Gregory Rodrigues Reacts to Main Event War At UFC Scramento",
-      "url": "https://sports.yahoo.com/articles/gregory-rodrigues-reacts-main-event-215036688.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T21:50:36+00:00"
-    },
-    {
-      "title": "Carlos Prates suggests fight date and famous location in new message to Islam Makhachev",
-      "url": "https://bloodyelbow.com/2026/08/24/carlos-prates-suggests-fight-date-and-famous-location-in-new-message-to-islam-makhachev/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-24T11:00:00+00:00"
-    },
     {
       "title": "Dana White: Heavyweight division on the rise after becoming ‘a little stale’",
       "url": "https://www.mmafighting.com/ufc/506705/dana-white-heavyweight-division-on-the-rise-after-becoming-a-little-stale",
@@ -2105,6 +2091,20 @@
       "source": "thecomeback.com",
       "cat": "ufc",
       "ts": "2026-08-24T23:27:08+00:00"
+    },
+    {
+      "title": "Reinier De Ridder On Fights UFC Bout At Light Heavyweight UFC Sacramento Flau'jae Johnson (MY5a8qrFBP)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QZWszT3dJRElSSEhOOG1WRkNjM25ndWp1VllndU5MWlNId2hKb3ZhX3RuX1c0aWltOGpKQ2FaNUgwZm9uNEhwakJrUDBUdXNiUXpUSjJqQkJzMVk?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-24T22:48:31+00:00"
+    },
+    {
+      "title": "Kennedy Nzechukwu Vs Shamil Gaziev FULL FIGHT HIGHLIGHTS UFC Sacramento Cryptocurrency (IduYdyOWoB)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CVmRKQnRRZzJTYUVxSmRTYmlsclgwSmtRRGxKYTUxUHc2dUZ3VnBvWXJmRzhZSnh3R1dxM2d4OTJQRW1sTjNEVXVFWHJIYWFlTVRtRThFalJENkE?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-24T22:49:15+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=328155",
-    "CBMieEFVX3lxTE5OWFVyUm1BSTJHZE9HV2RMSXI5bE1EX3Nta2FINzRybGZYUERkTDZYMHlLRFFOUmdSaXhQLUFYQTZjX1FyRXJneEw4U0VlYlNBYWJsUFNZNU1BNk1mSDFBRG5vZ0JzMGF2SGpKbXNfN05XWFI1aEl4Qg",
     "CBMihwFBVV95cUxPclZmX0FKTEdIdmxQUU5QSFU1c3RJVDEycHZEaUpVeW5PTHI4N2pkNGRxYURadFBmemdCemVhVHg3Z25sQUtGZE56bzNnOGlycFZ3Q3hRdG9SMFB2UEV2R1FXOEVSc0tpU2NHMUg3UXY0T0NBV3pvNFp0aElhNUhRUXRDb0pLUnfSAYwBQVVfeXFMUDFDNVF6V3JqYXZTX1U1djJULWRIOHRrV0ozUWhNLWxKSE1hTUtNdU0zUkhBTzNkOVU5ZnViemhtMGZTbk1TSjFTWE4zWWxOakpGdDhFVWlkOUEyN3J1MU13TWl2UTFtV1JiMDF1UmEtam1FWVJjUzM3eXczQ0syeUdJc2Nwdmx0TEtaeVo",
     "CBMi7AFBVV95cUxOSGRFN1FoNFNzbXJqbm5semd5NzVBTHBJelQ3a3BGLS1la1Eyal9mRDI1THFQYzctNEVYcVlxdURYQzlzcHdXa0VnZm5NdkNNRzJOclBGY3VGWUdLXzhLejlLZkRjZ291QzZseWlKRmpPeHh5WmZ5SUNVa2dVVG1uX19pTVllQldGQTFQcnJLV1A4VW1OS0Eyd01hbThhZ0ZNY2NNZzJsenJHX3NDX014czAzUVR1OG5MalFqQmZkR09HRXh5dlhoWEQ4dWFWbXoxTmotTGc3cUg3eUlKemxTakJ2bFpUNXF1clZzRQ",
     "CBMirwFBVV95cUxOM1dVZ3pnbWFRZ1V0REoxbXZ0TkdsUXp4X1VOTnlTZkZfYnBXSzRFRzNnSEsyUlgtMDVrZVdpbnRfa2N5M19kTFRXSVRjS0F0Wk5wb291YUxPbVI3ZTVyYnlOb2hqT3hWdnk2Zm1VMzVwczQxd2dNUjZyTHpDYThHcXpOZ19YakpXaW1qSnZoZDRuMVNZRnJCZ2REdklrQVVCenN5SkZ5RldTMTRJUjk0",
@@ -3312,7 +3310,9 @@
     "CBMisgFBVV95cUxPRElOR05Ma1BlR000RC1DZ1c4SklnNmxpc2pDU200RzRaYTdfbjk0U2U3Z2s0TnRZaWVjYVhoUWJxUEJSZFlTYlduc0dQOGJYeDJMVFMwc0RhZWZZanVPYjNIUXYwRzVERHZlODVCTUI0NDlNblZhUEVMdzlxUkxhZms1ZmhWaW5zcnNwM2lfMjNqVE9wSS14LU9FaDlvQVA2RHZNaXB2cEN0ZmxjQTl4NW1B",
     "CBMijgFBVV95cUxNLXZhWmNwUW1ZSm0yM21IRWpZMUF1QXN1cE5Ua0I3Z000VXdvUFhBVEZFZGV4bGR3NU5DaHN5cmlKVzBJZlJRWS0ySDFQZkdpVUN6LXBXU0FKTVdQbHptWVlqc2piWEFkeDdya0FtbE5hRmtKT0RaV3RqRERTaS01dG1wb01LMXdYZjhwX2Fn",
     "CBMingFBVV95cUxPMzlEem8wVEpxR2VvbUllSC1oeExQeGJlWHRiZFRXMHUtU2swWVpLdThNTXNidUdwcmRyY2xOQmU0RmNscHEteTN0ZDd0ZzZMMVl6Y2VneGJJQ29ZNTdZZVlqLWs0T3pQZW9aLXltTTRudFlwU19QX0xLYWxkU3FYblRtczNSMTRQdHhnMV9pTHo0aDRDaGV5aFYwYlJmdw",
-    "CBMihgFBVV95cUxQaVBiQ3B0ZUhZbTh1NTBlTFlKdVk1RTFHbThBbmYzZEFwZWNDcEJQZk1JV2FVWWJxUjlJMjVWLU9qNjgxbFY4MjJpSDAxUlZ1YTVJcl9tMXAxOE12UG41M1YyQ3F0TWdrYXZLZG9Yc0E3eU9STlU4VGFmRDVfUi13d3RDSGpfQQ"
+    "CBMihgFBVV95cUxQaVBiQ3B0ZUhZbTh1NTBlTFlKdVk1RTFHbThBbmYzZEFwZWNDcEJQZk1JV2FVWWJxUjlJMjVWLU9qNjgxbFY4MjJpSDAxUlZ1YTVJcl9tMXAxOE12UG41M1YyQ3F0TWdrYXZLZG9Yc0E3eU9STlU4VGFmRDVfUi13d3RDSGpfQQ",
+    "CBMiW0FVX3lxTE9QZWszT3dJRElSSEhOOG1WRkNjM25ndWp1VllndU5MWlNId2hKb3ZhX3RuX1c0aWltOGpKQ2FaNUgwZm9uNEhwakJrUDBUdXNiUXpUSjJqQkJzMVk",
+    "CBMiW0FVX3lxTE9CVmRKQnRRZzJTYUVxSmRTYmlsclgwSmtRRGxKYTUxUHc2dUZ3VnBvWXJmRzhZSnh3R1dxM2d4OTJQRW1sTjNEVXVFWHJIYWFlTVRtRThFalJENkE"
   ],
   "daily": {
     "d": "2026-08-24",
