@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "MMA schedule and results 2026",
-      "ts": "2026-08-23T07:31:45+00:00"
-    },
-    {
       "t": "Rodrigues, Hernandez have banged-up backstage meeting after UFC Sacramento",
       "ts": "2026-08-23T12:50:16+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Anthony Hernandez accuses Gregory Rodrigues of cheating",
       "ts": "2026-08-24T06:12:43+00:00"
+    },
+    {
+      "t": "Koen Mazoudier expected to face Jermall Charlo if he beats Sam Beck",
+      "ts": "2026-08-24T06:19:47+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Sacramento Post-Fight Show: Reaction to Gregory Rodrigues outlasting Anthony Hernandez",
-      "url": "https://www.mmafighting.com/ufc/506753/ufc-sacramento-post-fight-show-reaction-to-gregory-rodrigues-outlasting-anthony-hernandez",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-23T05:58:11+00:00"
-    },
     {
       "title": "Anthony Smith issues first statement since his arrest: ‘I’ll be able to tell my story someday soon’",
       "url": "https://bloodyelbow.com/2026/08/23/anthony-smith-issues-first-statement-since-his-arrest-ill-be-able-to-tell-my-story-someday-soon/",
@@ -2105,15 +2098,21 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-24T06:12:43+00:00"
+    },
+    {
+      "title": "Koen Mazoudier expected to face Jermall Charlo if he beats Sam Beck",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYWhiT0d4cktkMkVjLUtDaC15SF9LMUZMbDdibTRFWkFCblpyTEtja3I3dGhYdUxnYnJYWmF2THBNTFNlVTEtbUhicmVqaHI0U1NHcWtHOEo5ZTNSM19GSmdPTURPZjlTV0tWU3lpZG9mOWZiZXl1dTY2VGljdzVKeVM4S0VzSkIxdGtwbVhwX1MxWEdKZGNqUQ?oc=5",
+      "source": "Fightmag",
+      "cat": "ufc",
+      "ts": "2026-08-24T06:19:47+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
   "hour": [
     "2026-08-24T06",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMirgFBVV95cUxNZUJCaHpIX2JoMTMtcldLTVgyNjF5VU9JRVh2QWN4cHVRV0ZfdU5kX2VPOGpNSV9TWXpqam9BY01YSnhBQnNuYVF0TW9VeEhLeFlmV1pfMjRiaFRJOUY5cnBvVGJYZ2NrMGFmcGx4OVhYX0hVeHZPdWtnazdkZ1FXTzctVFl2czdETHgzYi00UVZSbUtqaTFyTWxCQVZUaFc3dm5iWkdJYzV5RjdhMlE",
     "CBMigwFBVV95cUxNazlsbzc4SzJsNnE0elRJSllZMFBxUzYyVGpUSkp2eXRYVnc4bmlqcmJPZVlYRzh6TlF6VTVESTJLd1BuMldDTllUWXRqNXFMcWk5WnBWYktzU1IwQU56ZENocmw4RFotSlFsNmRnR1NzU3BFWXNPaEpEc3FwcGdkT0VMZw",
     "CBMirwFBVV95cUxOSlE3OGc2YWVrVnk1Vkd1S2tPR1NMS0NpWFJYZ0J4ZEJna0g5U0IzWUJ4QldrVXJoV0FrQTZ5MWlLV2EtTEVMZS1WbzJxTFdUcUloTU5JU0ZJTFdIYWVYQUhyS0s1M2twVGp6eWVBd3diS0ZMX0FIX0pBUHhScUZaRGNXVEFPNUp3YUxCVWtwXzN4MFBETjBITkdtN05jeFlCbU9zcUtFTFdveXBZLXlJ",
     "CBMi4wFBVV95cUxPaGJGUXVsMF94OFVJQ2J4Z2YydFBab2lsUEdqdVdVQnEtQVZ3Z2h4cGFhT0xDakppZVBnRHhGVXdTNC1aSGl4cWNkc282VXFwbEpfNUt6Y2JsZ3VNMlJvWU14N3Y5Tjh0dG5yaWlVRTJ4Q1lXeG5PWUZiLXdYc3VlOXlzU0htQ1ZJWTBVT2FXU1JuQW8zcW42eG5teTRGcW9NOUhPa0NXbUd5Q3pQR1J4TFJ1Nk1aV2VYUDhVX1BFaUtFRWtKcm9aVVNCT1c4eG1fQW0xS0NZb3Q4T2t2X3Nvc2ZBcw",
@@ -3312,11 +3311,12 @@
     "CBMirwFBVV95cUxNNnBkZWEyNklaUW1reXBCVFN6ODdNME1aTHBUYWZiS3ZrSmkzOWJvUlJ5Z3Nma2FvQTFaWmxMbnl6cGR6NGFnUXZzTC1GZUx6S3R0ZW5IRVJBTzBCUjJVWkZYeVRIZGtLdDBBM0dNTnFNSG5kb2ZjczM5NXFUcUFPRndzNFdRMWpsRUI0eDg4bERlQy1mZkViU20zSEZ4YjlNZ1JGNkFhQTF1LTlpVFI4",
     "CBMikwFBVV95cUxNZnc2RC1Xbkl5RnBHeURNTGJmd0VwOGNNX3hqdFRudTBtOWRwU09iSTd3cUEtQ1Zoa1VnblFnX0tScGxsRjAzOFNHVHB4WkRoaThMOWdLRElwYzBPNTJxeENBbFRhM05xUWhteWJla0tnYy1xd1hLNnVNYnkwVEpqMGViS3lWUXNIS0ZOeEw4M3NaTUE",
     "https://www.sherdog.com/news/news/Dana-White-confirms-UFC-handled-crazy-behindthescenes-incident-202501",
-    "22d9226a-9ee7-3458-ad03-11e4607935b4"
+    "22d9226a-9ee7-3458-ad03-11e4607935b4",
+    "CBMimAFBVV95cUxNYWhiT0d4cktkMkVjLUtDaC15SF9LMUZMbDdibTRFWkFCblpyTEtja3I3dGhYdUxnYnJYWmF2THBNTFNlVTEtbUhicmVqaHI0U1NHcWtHOEo5ZTNSM19GSmdPTURPZjlTV0tWU3lpZG9mOWZiZXl1dTY2VGljdzVKeVM4S0VzSkIxdGtwbVhwX1MxWEdKZGNqUQ"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 74,
+    "ai": 75,
     "staged": 0
   },
   "staged_hist": [
