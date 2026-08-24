@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento fight night weights: Gregory Rodrigues only weighed just 2 pounds more than Anthony Hernandez",
-      "ts": "2026-08-24T17:17:28+00:00"
-    },
-    {
       "t": "UFC fighter gained over 25 pounds after UFC Sacramento weigh-ins",
       "ts": "2026-08-24T17:17:28+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Freshman year for Kai Trump, who plays golf for the University of Miami",
       "ts": "2026-08-24T20:14:00+00:00"
+    },
+    {
+      "t": "Colby Covington Claims He Dominated Arman Tsarukyan in Training: \"I Was Levels Above Him\"",
+      "ts": "2026-08-24T20:19:02+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Nasrat Haqparast Reacts to Submission Loss at UFC Sacramento",
-      "url": "https://sports.yahoo.com/articles/nasrat-haqparast-reacts-submission-loss-183020311.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T18:30:20+00:00"
-    },
     {
       "title": "Mick Maynard's Shoes: What's next for Gregory Rodrigues after UFC Sacramento win?",
       "url": "https://sports.yahoo.com/articles/mick-maynards-shoes-whats-next-184025083.html",
@@ -2105,6 +2098,13 @@
       "source": "Marco Eagle",
       "cat": "ufc",
       "ts": "2026-08-24T20:14:00+00:00"
+    },
+    {
+      "title": "Colby Covington Claims He Dominated Arman Tsarukyan in Training: \"I Was Levels Above Him\"",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdzVablcxRVZyODlVZ2ZJYllTUDltcmYzeDJGMmpFdTQwUTk4dEkxajNfRlZGLVRZaTJ4TFY1dS1GX2VBNWVYVlhuT2FzLVRkV3N6eDlFTkhVQWl2N0Q4Q3hSYWROV0xDR1ltbUV5QjJNVXlzZUViX0dYSTFUZkhQUmRpLU5wZzdoZ0xRSWc2QmZ3bE40OGFvOTJmaWJJVDV0d1l5Vnc2T19BWVIxSUtXaFRn?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-24T20:19:02+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMirgFBVV95cUxOV0xWMEczLUhXbU9EVXczQ1hYdVBXdmE3UzlReWhXQ19FVUoxSnlCdUJleWVpb21nVTdnYUpBUjBnY1pkZXExVmw2UDcwd0ZvVHZOWnNhUmRzSmlvc1BpM19OMmxMc2o2LVJjdkRsNWhQYzNWSnlnS0hpVzgyRHJxS0N3NzJrOXYwUVlsN25UY3pERWVMZDJUcE5IX1FwSWJkSVBsNjhkenlqNmNOdFE",
     "CBMitwFBVV95cUxPYmxkR2pUekRoOFJvZnJodnJvWXN6Y2hreGdFbWhGMDRPdm43ejg0cUlYS3pPSVV2S0Z1bmxXSTl2Tm8zYnRLRzREUF9Cak9jdFZGUGdIYkpwUU0zcklWejdCVVY3RVJnaVE3bWQyTDhGVldMbHIzTXFueVJINW1jbUgtYVFXeUtBdTBFU0x4VlRIanhTTF96aGk5T3RsQUdtdHkxZ2xUMmFoVVNrUmdtQUUxZ2hBQTQ",
     "CBMiUkFVX3lxTE9qWkVxS2xELS1UNDMwbkxVMktzU1Nkd1ZXNXluRkZxYlBjZWVfOHEtYmtnRzk5dnI5U2RpS0ZETGtEa3N0ZTN3ZjB2dmZCakhJZVE",
     "CBMi2wFBVV95cUxNUXRzWERyMThsdk5adTRlZ29DbGxZZFg5Z1RMdnRTdTREZDE3aTY1bU8yWnc4MWd4S3c2M0RscnU0d2txZVhVV0lhYVZPODRYMjc3MWxMbXBhM0hGN2w4ZFdsbFR1Ykk2TE1lOGFtVzVUUEpqZ0l6alA2eHEwVklHRjBHT1Vuck1kRVlJLUpaX0lZVTV1Q19WU2xNd3hpcXZNUkVNVkZiN2VCYnZpdjBsQUwtREdQdk1EdFV2bFg2dkJfamJlMTNYa050aW81UmZKRFFQV3JXd1lyd1U",
@@ -3312,7 +3311,8 @@
     "CBMiiwVBVV95cUxPdmM4T1p5aXg3OWdMSkxUbjJCUmNIZTVtT0c2N05YcFN5RWhNVW1ndzNRYWl4MFpOMjd2bl9HZVVMNmhXV2Qzc0VyTXExdFVBanlJeVNKb0tDRG9hTlZIeHVhQTA1LUc5N19CeVgwVnoxN3JINThKVGZoVkdNdmJEMHN5QlNOSW5pU1RuWmxmZC1YVENRSFp6VDVha180YWxvOHRFQzlyR0h1U3VlcHNEcWNKMW14aEo4MUJQZU9BNUtEVnVNNjB3Wl9jS1dMaGVkY0k0LS1FNWtCN1h6aEZubTJONWc5RFljMDJrOUhGeGN6ZC16am5zRXZDNDBnWkJmQXliSE1jM2MtYkNwOGRnZXhyZzVrcWJqa0VydGU4aG1LWm5kbjl5WElxVjVVaC13WkVsTWRMUHZ4dmNTbTdlN1g2SFJCQ0RveTZkODdTTXI1cGJySS1ZWGxwR3JPUE12azRyVWZJaDY4U1FDcWZYc3lZcHRxRXRYRVNYTWVNUTJfdWNMMThnYXVRMTc0RGM5dk5TRG1RT2dQckhxYmNXajVkejNKczlwSzNRZmsyUlpuamU0cVB3Y1lyeFNzZXZhRlAwWUI2cDczRUxncDlQZ3Jyc3dFalpUVm15Tk5TSVBoNnlRdXJBX3EzYzU1bHVrWDcwNDdWZ1VtcS1CdXF0dkNwdEVoOGRhclBCMER2NTNXUHhzQklWS3lsV0YyZjloZVhIRVhMalpjRi1BdDV1YTVxSnF6ZDFzTEhpRk5qckthbTJoQjJGdWZESGI5S2piMTFBblR6LWp0SFlISjJjQk5OZnc2d3hzN2FrTy1NaVdFak5HRkhrSEs1aEVoNkRweXZfMWUyblNrMTQ",
     "CBMivgFBVV95cUxPLXpOejhJSjdlOU9nS25zY2tuZzBkX3g3aXZBbGJMZ3lFQ3U2ZkxBVnlNU0tWX1FLVkF1UndLZWFFN1hYNUwta1p0OGhYbVNlOHNXX3pjUVc0Y0dLcm1MUkR6ci1Nd3J3eklzdDN6VmtYMVowRUpDdlZqMVhaUW4ycjUwZ0VCb3B5NTcxWEdfb2t4RXl1UlJKUkc3MExsRVJUREN2clNDU1ZFazBCMS1sVTlITTAxYmFQN0l2MXhB",
     "CBMiZ0FVX3lxTE4zZFpPY1dEMGVDV0Q1UHFUcW5ycDZ3VHZuazI0QlZ3aHNxeUxiMFRSOGFzNVM5Q0dNSTI4UWp3a1gwbk9KMUV3MDFzUXpFZi1EUkoyOG1IUjdEbEtqYjNIUExrNjhwbDQ",
-    "CBMi0wFBVV95cUxPUjZBU1dJQmtZckRkajFUeGpCaVp1cTRFa3Z3X0syeFY0STI3d2lPcm53Q0VFekRkSTE0akFLdjlOY1ZzcXRRRjNULXdhdWxoZTZ4SWpQXzhiTktUSlo0SjMwNFI4ZlY1Z0xvR1IxY2VmY2RiU1pJR2hHdzRnenpMQUVua1gwa0VmVk5kYm9IWkF2OTVsWEwzQXRzQ1d6N3JJWlpXY0tpVXdhR3ZTbXk5WjRIZVlVVDM5MkhMOVZHSkZXSVFubzJjOEdZUjN2V3YxSWpJ"
+    "CBMi0wFBVV95cUxPUjZBU1dJQmtZckRkajFUeGpCaVp1cTRFa3Z3X0syeFY0STI3d2lPcm53Q0VFekRkSTE0akFLdjlOY1ZzcXRRRjNULXdhdWxoZTZ4SWpQXzhiTktUSlo0SjMwNFI4ZlY1Z0xvR1IxY2VmY2RiU1pJR2hHdzRnenpMQUVua1gwa0VmVk5kYm9IWkF2OTVsWEwzQXRzQ1d6N3JJWlpXY0tpVXdhR3ZTbXk5WjRIZVlVVDM5MkhMOVZHSkZXSVFubzJjOEdZUjN2V3YxSWpJ",
+    "CBMisgFBVV95cUxOdzVablcxRVZyODlVZ2ZJYllTUDltcmYzeDJGMmpFdTQwUTk4dEkxajNfRlZGLVRZaTJ4TFY1dS1GX2VBNWVYVlhuT2FzLVRkV3N6eDlFTkhVQWl2N0Q4Q3hSYWROV0xDR1ltbUV5QjJNVXlzZUViX0dYSTFUZkhQUmRpLU5wZzdoZ0xRSWc2QmZ3bE40OGFvOTJmaWJJVDV0d1l5Vnc2T19BWVIxSUtXaFRn"
   ],
   "daily": {
     "d": "2026-08-24",
