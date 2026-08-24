@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Johnny Gargano WWE Exit Rumors Debunked After Sharing Post of His Surprise WWE Raw Return From 2022",
-      "ts": "2026-08-23T21:02:59+00:00"
-    },
-    {
       "t": "Nattie Neidhart Predicts Solo Sikoa Will Be WWE’s Next Big Top Babyface",
       "ts": "2026-08-23T21:12:59+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "MMA Main Card Pick of the Week: UFC Shanghai",
       "ts": "2026-08-24T00:04:15+00:00"
+    },
+    {
+      "t": "Patrick Cantlay Finishes Runner-Up at BMW Championship Stream of Golf",
+      "ts": "2026-08-23T23:25:12+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Gregory Rodrigues Reacts to Main Event War At UFC Scramento",
-      "url": "https://sports.yahoo.com/articles/gregory-rodrigues-reacts-main-event-215036688.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T21:50:36+00:00"
-    },
     {
       "title": "UFC Hall of Famer: Ian Machado Garry's friendliness 'a sign of weakness'",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0ZWk2N1dNMmI3TXFtejRfOTBFVWFrcGhtZkwtQk1kcFJoZ1FndmJhT3NSWThZdl9OeVpVSi1mX3pBZm9fcTc4a2JLVW1nb1JZMXpfVVJFN01xazY2MFRnTzQzSXdUSXlqRVVTZ0RPMnhDTzZKX1dGOHN3?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sports Gambling Podcast Network",
       "cat": "ufc",
       "ts": "2026-08-24T00:04:15+00:00"
+    },
+    {
+      "title": "Patrick Cantlay Finishes Runner-Up at BMW Championship Stream of Golf",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRkNsTTkyczVkTlQ4V1d1dXI1NlZiZ0R3MXZLeWpSQ3ZJQXBiV0VXa3Jxa2dNSTB4Qk1kdXltOVBBT2NDWmY0N0RLcTYtemUyanY3MjE1Q0x0LUdHbTJUYVFDRXVGLU5ZM1hxbXdDSkZ6Snk0TjV6TGZGMzg4WFMzRm5QZlY2T0RCdkZQUTlOS1Zsa0ZDZVBxeTNYSXZhdw?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-23T23:25:12+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMixwFBVV95cUxPV0gyS2o1ZjVKOUFRYUZqTUZ2dF8xQ29JUlJGeDFnVFhpcXZTMmo3UjlCdnFWcm9lWUZhSm92WHVnZ1pzYjdGS2xkWU45OEN4VEtWNzZFb0hnWklmTWVvUVJGRV81VnY1aEgzQWNvNU1xRmFzNmx4QnI4TFl6QnREZ01zVTRmVXVIYl9PRktVRVhDUGxDOFQzYXFyS0g2UTFmRlZFaXJLemRsVkE3dFhMZkpMWTRWUGVYeXBZbmp5dTlWNWdSeFZB",
     "CBMijAFBVV95cUxNMExENWZJNUZoQmFqSGxqVS1KSzktYmxYVDJ6ODhzMW5pVGVDeG9hMGwzY200OWg2TkFWSTc0cGl3cFFlWU9VX3hGT3p2WUFJVFhLM3F5d2RaTVU2TzNEbUlseldKWVNLazZNVGltekFuNjd4MjloSkRNTUUtMDA2NW9qT2JjdTlha1dfRQ",
     "CBMigAFBVV95cUxNSVdOcGVzZjQyVHdDT0hmLS0zcHU3WXNaYTRGZkFyUDFyRmVyS2o4SUVSWHlTWTJaSy1jSXh6U0NFTGlyX3FrVUN1cFE3OVpybmdOY1ZBTDdUM3E3LWdGN1N0WXBVaGNybUZ2bEoxeTlDZUNaQ3l2UmtURmhSZDZuUw",
     "CBMigAFBVV95cUxPRWJabG1vMjB6VkNhTXBqNm9FREtua1ozT3hxOFFYc0ctVVVqeU5rRURxZEVmcUN4aFVDWWktM0lpVlE4clByanNKaHc1Z1dyT2xFaDRZUHg4ek8zUmlaVmZzTktNMjMwa01jNlB4c2FMZmdDWFp3Ty1DazJBRFdRYQ",
@@ -3312,11 +3311,12 @@
     "c178022f-1ae5-3051-830f-179798b4e2cd",
     "CBMihAFBVV95cUxPNkE0empIUUIxOHYwR0N4UENiT0o2NURydGdlU0hBXzVNVl8tVjBfaEp5MVBvd05RclJPRDdsR1VnMDBEU08yenUzRmlIaklzYzNPektLR2hINU5IWHE3ZFhCVmJCYkhSUnQ5Y1UxdEFNbFNZTHpqZC03cjFlUzNZT04yUUI",
     "CBMitgFBVV95cUxOdDVfUm1PUzh5Z0JVLTdIS0cwSWtCX1dfT3NBRkN3QjVIRHZxSDZYOC04M2E2bk5NTjBRYlJ5N0xlZFRwdWg3RWdjeDRnd3l6QUh3MFJNVG5sUVJfX1NqUWJtdTdNOTlIcWFNZVZ5QXNxaHh5TzQwbnppNXhDVGg4N0R3WGh6UDRxSnhGYy1POHdrZHltVFo1M0hkbGh0TWYwem91NndvbHNNb1JBYVZoVVlUR29LQQ",
-    "CBMimwFBVV95cUxPTW9JSmZyZG9yc3ZsdVI3ZG5mUVdWZ0ZWQmowbDF3bG4zQ24wMXhCVlZ3ZnVHZjd4SWQyZkJuakR0RUQxbzRDbk5uSy02Mk4xOHJhU3ViWk8yM2FDSWQtTFJtTWJOUmZrUDl2XzJtaEtZbW1Mb01XeDlZbDRnTF8tWk5VN19QZlVyLUx6XzNsUDkwUHlMNzk5M3RRaw"
+    "CBMimwFBVV95cUxPTW9JSmZyZG9yc3ZsdVI3ZG5mUVdWZ0ZWQmowbDF3bG4zQ24wMXhCVlZ3ZnVHZjd4SWQyZkJuakR0RUQxbzRDbk5uSy02Mk4xOHJhU3ViWk8yM2FDSWQtTFJtTWJOUmZrUDl2XzJtaEtZbW1Mb01XeDlZbDRnTF8tWk5VN19QZlVyLUx6XzNsUDkwUHlMNzk5M3RRaw",
+    "CBMingFBVV95cUxQRkNsTTkyczVkTlQ4V1d1dXI1NlZiZ0R3MXZLeWpSQ3ZJQXBiV0VXa3Jxa2dNSTB4Qk1kdXltOVBBT2NDWmY0N0RLcTYtemUyanY3MjE1Q0x0LUdHbTJUYVFDRXVGLU5ZM1hxbXdDSkZ6Snk0TjV6TGZGMzg4WFMzRm5QZlY2T0RCdkZQUTlOS1Zsa0ZDZVBxeTNYSXZhdw"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 6,
+    "ai": 7,
     "staged": 0
   },
   "staged_hist": [
