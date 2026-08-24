@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Joe Lopez: Alexander Volkanovski's retirement claim 'two-edged sword'",
-      "ts": "2026-08-24T13:01:00+00:00"
-    },
-    {
       "t": "“Dricus Du Plessis, I want you”: Rodrigues demands title eliminator",
       "ts": "2026-08-24T13:01:06+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Natasha Cloud erupts at Enes Kanter Freedom courtside. And security has to intervene between them",
       "ts": "2026-08-24T16:15:00+00:00"
+    },
+    {
+      "t": "Carlos Prates Teases Massive UFC Plan Involving Islam Makhachev",
+      "ts": "2026-08-24T16:25:12+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Former UFC contender posts statement after losing to Cris Cyborg with a 7-pound weight advantage",
-      "url": "https://bloodyelbow.com/2026/08/23/former-ufc-contender-posts-statement-after-losing-to-cris-cyborg-with-a-7-pound-weight-advantage/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-23T14:30:00+00:00"
-    },
     {
       "title": "UFC Sacramento loser set to see specialist after ‘instantly’ losing vision due to a broken orbital",
       "url": "https://bloodyelbow.com/2026/08/23/ufc-sacramento-loser-set-to-see-specialist-after-instantly-losing-vision-due-to-a-broken-orbital/",
@@ -2105,6 +2098,13 @@
       "source": "Operation Sports",
       "cat": "ufc",
       "ts": "2026-08-24T16:15:00+00:00"
+    },
+    {
+      "title": "Carlos Prates Teases Massive UFC Plan Involving Islam Makhachev",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUzB3TExnYmZBdEFab0dPSmIyZGs3NVdhQkROZW1nUjhBRVpaX25VRF96THlHZmhwdmY1NGZ5a01qNjQyTjU1N3RUd1kxQXo0WW9EZ0dVU3dPQUZ3OXF2RkkxXzN5SlFlWUtQYmVBOVl6SkwtYmVDR2FVTUx2X3J0TlI5NEhSUmdxenlwSmJDUkxFRUY2ZW56eGlPQWM0UUl4XzZZ?oc=5",
+      "source": "Sports Illustrated",
+      "cat": "ufc",
+      "ts": "2026-08-24T16:25:12+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiygFBVV95cUxPUEYtZURZLVUxME8xbWtpNi03bi15R2VSV3NUTkx4Zk9ZTGF5Qlk1S3o2T1lnS2NydzhEeEdZS0dtNmtkTzFVWXZpT2xUajk3WURHMzY5ZDM0UjZLMmdycGtKSEZVbGp5QmRTVHIwX0U5dEJRZmt1TU9lMEZ1V2FPVjNqY1pBemZubGZVOVFyb3dyTTBKSzJ3anZWbTJhRl9xeWk1S1dCNDBzVFB4NGt2bmhmelY2a3QyQlM0Ry1ZWnRVUjR5MmRUOEN3",
     "CBMijwFBVV95cUxONFZwdlA2V1hEQTh3d2poeGlnSmhtRlF5WGJzV1lBeG9QTl92dk1DTzhOS1V6eWVXZ1N2T056MjktazVpcGdpZzZUYUswSW13aDV4TTUwNG9VZERYVlI3bDBjNjNBQzIwbnU0MlJ5MVhZcTVKOFh6emNxUzJqSmtEamZPNzRVaXhBM0cwU1psSQ",
     "CBMiwwFBVV95cUxPRE9aTHQ3TEFxZ0xQemVHaDE3V2t4YWd1VGhqZVdXNnEwNnNzSGNfeFlKQ3BLODcyTDJOTTR6RGRlckJTY2RvYWV2cmVRUzFLVkJuLXU3eDNoWGJzMU9OREd4UXV2TnZ0UVVPUVYtakdDSjlPRUpHZF9ScUtoV0RHeXBPSmhPRThRSUZ1TFFtNnB6SzFLeGpzMnVlV1A1WF9QSlBVU1ROVHJ5amp4eDV4Zk8xZWZJejBGLW04RUNzUzczN00",
     "CBMiZkFVX3lxTFBseTFnN0w2WDVJVnRyMXl5MG9nRlRNWWpPQnN2RGtlbGg3LXhJd3JHQ3VlZGRHWkZzNXN6TFUyNGVzZjhHa3JTM3MxUXZrdU1sa01aQXFUQm1VSVU1VjZlUDBuN3hzUdIBZkFVX3lxTE90M1Z2dTZvTkViVGJNZE1ueU9vcDJKdVRvMlRwR1FNR2FPeVJNeGVrMmEtZTN0RUhqWmhvODRabEx2MWpxWG9sUnM3TkpqclJwRThVVGZRX2dSZmNTSE1uVmRvc1V2UQ",
@@ -3312,7 +3311,8 @@
     "CBMifEFVX3lxTFBObHNnRjJyQkdMZWNvc3p3dXdoc1c2WU9VbnVFTnB6dDNlUmxtYUNVekNMV1FYdEdKenVqUjZ2Si10T0pnQ01zMTA2bnFRREVwVkduVmpZcmV0M3RJRmlpakFUU2VVdDFlbHVJeHE3SU15aWU0bE5yby12aHA",
     "CBMitwFBVV95cUxQZnBWa2YybTIxay1xMWh2YTA5d2hrbTR4T0hPVUdZT1pIdlhxSVJhRlJtYnQ5OW5EZmFjTmxUU2tvRTJMOWxpSXRETHVWQnk4c21QNElBUElMQ2J0dDduX0dpaElBV1RjT0Y0NWV1UTJrUDAweGVwTlZ1MHdveVNtZl9laDZMV0F6SHc3RWZUb3ROTE8wdzdtcmE2MEpUUmtfZG8xVkZSdmVsYnZ4N1MzSVFQSHhCOEE",
     "CBMiygFBVV95cUxPTG1IUkZ2QnJpNW1vRWs4MUJEaTd1SUpwWFVrb3FJRG5NOUJhMEY2TkluUFF4alF4cUdMRFc3dndnaHlXTWdTVTA2d0lxOTNJTWJGeTFVbzdGUGRnelZtRUdpTVhuaVdBNE1JU2xYbXJJZEJLVTZkQW5JWHhIZGZDVElKanZFUWNfM2tPVDVQQjMzeENqOWJlRGpfdWUyajhNcDluMUszSzNDTWJhMkFkQjktNURSdU9Jb3l4Mks1UFpvSE5tTk10bXln",
-    "CBMiyAFBVV95cUxOdzBMcW5fTE1JWENMcW5DWXRMQUJVaHB4ZnV0SHJjSTlvbkpYTGlROHRPai1GWDVUQm9xX3Z4eGZLOXJpcnBYOGFpZDREM0FPRmw3Y2ZvUnpIanNqaFFaZ1hfS1NubEk3OUl2dGxYZ0FYRVloeTNRRFExS2pRdkw1Tl9JYm41OXhlbFpwd2JoemMyT3JzOExZMEdDcDRHeTQydXNFZklDZUNXbkQ5dFlIQ1hzQ2VKUHIzTjJoVzNBYlhoSXFPTFp0bQ"
+    "CBMiyAFBVV95cUxOdzBMcW5fTE1JWENMcW5DWXRMQUJVaHB4ZnV0SHJjSTlvbkpYTGlROHRPai1GWDVUQm9xX3Z4eGZLOXJpcnBYOGFpZDREM0FPRmw3Y2ZvUnpIanNqaFFaZ1hfS1NubEk3OUl2dGxYZ0FYRVloeTNRRFExS2pRdkw1Tl9JYm41OXhlbFpwd2JoemMyT3JzOExZMEdDcDRHeTQydXNFZklDZUNXbkQ5dFlIQ1hzQ2VKUHIzTjJoVzNBYlhoSXFPTFp0bQ",
+    "CBMiowFBVV95cUxOUzB3TExnYmZBdEFab0dPSmIyZGs3NVdhQkROZW1nUjhBRVpaX25VRF96THlHZmhwdmY1NGZ5a01qNjQyTjU1N3RUd1kxQXo0WW9EZ0dVU3dPQUZ3OXF2RkkxXzN5SlFlWUtQYmVBOVl6SkwtYmVDR2FVTUx2X3J0TlI5NEhSUmdxenlwSmJDUkxFRUY2ZW56eGlPQWM0UUl4XzZZ"
   ],
   "daily": {
     "d": "2026-08-24",
