@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/458656/ufc-oklahoma-city-main-card-odds-breakdowns-and-predictions-x-factor",
     "https://www.mmamania.com/458695/mm-clone",
     "https://www.mmamania.com/458700/open-thread-july-19-2026-worst-first-days",
     "https://www.mmamania.com/458701/the-mania-mailbag-july-13-get-your-questions-in-now",
@@ -873,6 +872,7 @@
     "https://www.sherdog.com/news/news/Dana-White-addresses-Khamzat-Chimaevs-potential-UFC-333-return-202425",
     "https://www.sherdog.com/news/news/Dana-White-awards-six-UFC-contracts-after-historic-DWCS-Week-2-202420",
     "https://www.sherdog.com/news/news/Dana-White-backs-Bella-Mirs-UFC-Olympics-and-boxing-ambitions-202332",
+    "https://www.sherdog.com/news/news/Dana-White-confirms-UFC-handled-crazy-behindthescenes-incident-202501",
     "https://www.sherdog.com/news/news/Dana-White-denounces-Josh-Hokits-derogatory-remarks-toward-Michelle-Obama-201534",
     "https://www.sherdog.com/news/news/Dana-White-has-stopped-listening-to-Eddie-Hearn-amid-FuryJoshua-talks-202424",
     "https://www.sherdog.com/news/news/Dana-White-lashes-back-at-Eddie-Hearns-call-for-Tom-Aspinalls-release-201463",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Gregory Rodrigues calls out Dricus Du Plessis after UFC Sacramento win",
-      "ts": "2026-08-23T04:59:20+00:00"
-    },
     {
       "t": "Dana White Goes on Another Long Rant About Ian Machado Garry",
       "ts": "2026-08-23T07:27:12+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Paris 5 – On connait désormais toute la carte et l’ordre des combats",
       "ts": "2026-08-24T06:03:52+00:00"
+    },
+    {
+      "t": "Dana White confirms UFC handled ‘crazy’ behind-the-scenes incident",
+      "ts": "2026-08-24T05:58:24+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Sacramento Post-Fight Press Conference",
-      "url": "https://sports.yahoo.com/articles/ufc-sacramento-post-fight-press-030008212.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-23T03:00:08+00:00"
-    },
     {
       "title": "Henry Cejudo reacts to stunning 36-second victory over Merab Dvalishvli at RAF 12: ‘I’m excited for the trilogy’",
       "url": "https://www.mmafighting.com/raf-wrestling/506747/henry-cejudo-reacts-to-stunning-36-second-victory-over-merab-dvalishvli-at-raf-12-im-excited-for-the-trilogy",
@@ -2105,15 +2098,21 @@
       "source": "La Sueur",
       "cat": "ufc",
       "ts": "2026-08-24T06:03:52+00:00"
+    },
+    {
+      "title": "Dana White confirms UFC handled ‘crazy’ behind-the-scenes incident",
+      "url": "https://www.sherdog.com/news/news/Dana-White-confirms-UFC-handled-crazy-behindthescenes-incident-202501",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-24T05:58:24+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
   "hour": [
     "2026-08-24T06",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMiugFBVV95cUxOQzRkRURzUUMxdkVLWGtnOXpaWXdHQzVycjBZUUp0aThCSXphdjBJM1h2dkRDZUJ1OXdrUzR5QndKMGFOSzR6NWlfenJYSlVUTXRaLS1henNjTGlCX3pqLXRSXy1sQzg4SV9OckZfMDE3RkRTVnExaXFucDd4Z2wwenVpSl8xMi15MmNVX1cyMzBUTUlYbngxRDF2ZEl6bmY5dXQ0aVhYMnJQcGtRUkVIYVVBZ0t2eG1tZVE",
     "CBMi2AFBVV95cUxQT3E4QmhZV1R0Y2xlQjdWOHdfN0xHenJwMGUwSFM3MVR4M3dCRDNiUWRXMWstaUY0dk9Pdlh6Vk0zaUJ6MXRVUVBzeWluS2J5a1d5TVNoZE83RnE5Y0tzTDVZQlhKZ0pSZC1YaUFxdnVGbjZMRC13Zm0xMnRIVml6SlZVY3dzVEFwV2dKVWVCZW01d2Y5NGo2NGlHZGl2WTJ4Rl9ZSXE4Sm5GOVhPVVdlcjJPN0M0cnk3TnlhaTJEclNYNTZWR3RKQlpncHZVQTc0UEJNZEkwN2U",
     "CBMirgFBVV95cUxNZUJCaHpIX2JoMTMtcldLTVgyNjF5VU9JRVh2QWN4cHVRV0ZfdU5kX2VPOGpNSV9TWXpqam9BY01YSnhBQnNuYVF0TW9VeEhLeFlmV1pfMjRiaFRJOUY5cnBvVGJYZ2NrMGFmcGx4OVhYX0hVeHZPdWtnazdkZ1FXTzctVFl2czdETHgzYi00UVZSbUtqaTFyTWxCQVZUaFc3dm5iWkdJYzV5RjdhMlE",
     "CBMigwFBVV95cUxNazlsbzc4SzJsNnE0elRJSllZMFBxUzYyVGpUSkp2eXRYVnc4bmlqcmJPZVlYRzh6TlF6VTVESTJLd1BuMldDTllUWXRqNXFMcWk5WnBWYktzU1IwQU56ZENocmw4RFotSlFsNmRnR1NzU3BFWXNPaEpEc3FwcGdkT0VMZw",
@@ -3312,11 +3311,12 @@
     "CBMijAFBVV95cUxOc0dlanlaOHJ2ZUNFVi16WTg3eGxSdGxpdGsyNi1XdnJ5M2RyMkpLejJKNjZWa1d4cExoeENOdjIwVTZmM3Y4aWsyWnY4SW8yQmpiSi1IYmhEenVrZFZseUh4SERxNEk1aTNqRGwtb3d4SURFUFVtYjJjY2FNaHFDX01TZ25FOXNzN3RQaA",
     "CBMiggFBVV95cUxOVHYzM2J3UXlaNWFVc0ljVGRiN3RUM3JKY0ZxT1prRXg0ZElIbi1BeERRdlFBMjNQbkJlM2Z6Qm8zMmk1WjAwMnAzdldYUFVtQi1iZnVmaG1zbmZLcW80Q3ZhLTNFS2ZMT3dSaExiQTZKc2xEN3VWY3Nqb1B2bF9DUWd3",
     "CBMirwFBVV95cUxNNnBkZWEyNklaUW1reXBCVFN6ODdNME1aTHBUYWZiS3ZrSmkzOWJvUlJ5Z3Nma2FvQTFaWmxMbnl6cGR6NGFnUXZzTC1GZUx6S3R0ZW5IRVJBTzBCUjJVWkZYeVRIZGtLdDBBM0dNTnFNSG5kb2ZjczM5NXFUcUFPRndzNFdRMWpsRUI0eDg4bERlQy1mZkViU20zSEZ4YjlNZ1JGNkFhQTF1LTlpVFI4",
-    "CBMikwFBVV95cUxNZnc2RC1Xbkl5RnBHeURNTGJmd0VwOGNNX3hqdFRudTBtOWRwU09iSTd3cUEtQ1Zoa1VnblFnX0tScGxsRjAzOFNHVHB4WkRoaThMOWdLRElwYzBPNTJxeENBbFRhM05xUWhteWJla0tnYy1xd1hLNnVNYnkwVEpqMGViS3lWUXNIS0ZOeEw4M3NaTUE"
+    "CBMikwFBVV95cUxNZnc2RC1Xbkl5RnBHeURNTGJmd0VwOGNNX3hqdFRudTBtOWRwU09iSTd3cUEtQ1Zoa1VnblFnX0tScGxsRjAzOFNHVHB4WkRoaThMOWdLRElwYzBPNTJxeENBbFRhM05xUWhteWJla0tnYy1xd1hLNnVNYnkwVEpqMGViS3lWUXNIS0ZOeEw4M3NaTUE",
+    "https://www.sherdog.com/news/news/Dana-White-confirms-UFC-handled-crazy-behindthescenes-incident-202501"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 72,
+    "ai": 73,
     "staged": 0
   },
   "staged_hist": [
