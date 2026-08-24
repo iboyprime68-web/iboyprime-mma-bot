@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento main event loser calls Gregory Rodrigues out for ‘cheating’ in Fight of the Night",
-      "ts": "2026-08-23T11:00:00+00:00"
-    },
-    {
       "t": "‘Disappointed’ Bo Nickal breaks his silence after suffering shock wrestling loss at RAF 12",
       "ts": "2026-08-23T12:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Alberto Blas Vows To \"Destroy You In A Minute\" At BKB 58",
       "ts": "2026-08-24T10:31:39+00:00"
+    },
+    {
+      "t": "UFC: KO! brings a punchy new UFC experience to iOS",
+      "ts": "2026-08-24T10:34:07+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC shows out on Fight Night at Golden 1 Center",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBQSFlrbW1NdERTcG9JekJPeWo0TENKdDljcmd5Yl80dVFObktvUnVtbGpKTnBvVk1rcDk1QVFGREtuQzVqaG9NaG9jOU1xMzdqZndsalptckl3elI2T0pDTEhCeWc2dW8?oc=5",
-      "source": "Sacramento Bee",
-      "cat": "ufc",
-      "ts": "2026-08-24T07:35:18+00:00"
-    },
     {
       "title": "1 minute with Kirby Moore on reaction to student turnout for open practice Stream of General Videos",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbUk4bE4yWXdFWm5BZ3JzWlBLY1pqQ0dTd18zVE9NOXBaanlXMGMwNzdQOE9pUm9yelBkUGtmNWljT3Z4a2NvY1h2TmdqMHJMXzJ6dm1PZWIyWkExNklHT19FM2xONWlZd2Q5Nm1OUmt0MHlSMVVzMFFJNkFnS1FxSDNWYmpWZ2RVNnBqRllJVW9YSHhGRHFlX3FvdURGRkxWOUFlOVlWY1A0SWtNbXhHVTI1dEFMdkgtVGFUSw?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "LowKickMMA.com",
       "cat": "ufc",
       "ts": "2026-08-24T10:31:39+00:00"
+    },
+    {
+      "title": "UFC: KO! brings a punchy new UFC experience to iOS",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMGtWeGJWRGVGMDhEcTJRSHVZS1RxaTFlSEw0T3BCemhpS2xxbW9GdTVlMXpzcWxtd254QlpGbGZMNk1sWC1vcFlZaDNmRlRkb0Q4V0hBd3lXZnVJWG9XNXBjOG1VUnpSQnh4RW12cXdGOFRTZ2JhM2ppN3R1VEJwQXNyYktyRU0?oc=5",
+      "source": "GamingonPhone",
+      "cat": "ufc",
+      "ts": "2026-08-24T10:34:07+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiogFBVV95cUxPZVQzMUVhNHVKSEVtNWYxdFVBSUpKQVpwdGdPY3hYd3FFQUVGZHgxS3lDeVpyTl84dlpJSmRycU5ESy1pbWFKTkVSX3FuUk9ad1RQU1VlMWI3SHNVZ2hsZ2tRVGJwbkEwU3J5V2E3NlBXQ2cxSkN6aE85U3JvcHBWRVpHaGVyVTlHVnBOckRWUFBlU2VDcEtaWjVFZ1ZLQmhfS3c",
     "CBMie0FVX3lxTE9uMDhHSnFWQ2VVVFhJVzFtdnpUOHJJS0NYUEwyb0dnbC1nc0N2djVUOTlFZEc4SWZVWm9MNjJKRnYtaHY4QjlhbmZoLXF5NTFycF91aTlzam1sdlpRcC1GM0oxUVl1UkU5clRITTZCcEJaQlBOaWlNcjRLNA",
     "CBMia0FVX3lxTE5GX2VqZmdYa1hMV3NZelc0ekk2ejBGTEFxSkliQUdVT05aYllIeV9sUzg3c3FlQ3N2NkxvXzVYWnBDQVBDeEtYb0dOMUVRNkFrWTlKcW9NMm1KcGVkYm56OXFoZEhUTFZsZXVF",
     "CBMingFBVV95cUxNNWk0cnd2UXdzbGVQMUFMNlUzc3lZVUhfY3VpM2lyODhjTldpRGdsTTZ2MnAzR09PLW5zRE1hMzJiMXNYWG9iSWczY20yeDcyZFVBVGJiTHg5S3RSTDY3LUtNZ3NrSXZvNzhSQjJhRmN2MjhpVGpsbXN4ODNaSzU5alYxSU5JUGtMWDFiWVB5dklLU2VzNUtlNmV6Y2p6dw",
@@ -3312,7 +3311,8 @@
     "CBMiswFBVV95cUxPSmUzTjFCU3ZfMUEyN1pFc0xUdE5LLTlkYWU4TEw3THFRcTJsR1ZnX3o2ZVprSDVxNk9tN2FXa1RJSjEyVEFKcG9zNkdFTC1RY0JNc0JIaXdYclVPcElLN1VYUHpjbDdlaDdVS2Z5a0xlX2pIVkFiTFBvTUNjUHNNQ1hRcmdzUmxQb01GYXJRTDNJNklZNHlNSktvRjhHdEVPdDlnNEMzTDZyUG4yclNSVzNzbw",
     "CBMimgFBVV95cUxOMU9tWmVpTy1XdVIxNmhCRWRVR3RkNmREeTVrWF8wcmY0WWNVUU13U2oxTHlpU0dRMm1iSHhfbV9JYU1KN3pLYmhWNE5QT2E3WDBTN0I2SVJ5bGlqZENiTHVrRjFDZ1gycUU5b0dORV9oUzJXRGNVci1uUHQ4Y2hpYzV1akUtcG5nNElxR3hvQnVSTVZGM1BhVmxB",
     "CBMimAFBVV95cUxNbWJ6V2NjOWtibm9Cc1FiT1ZjOWNHRzdjVUZ3Z3lrSWhjZTNGRmJrQUZyLWp0VWZvX3R1TEYzMTFhdTNBZjhKakczdmZJalY2anEzcFlyZHAycnZ0V1k5OVpyOTk4Y1FwaW5fTXJJSnVvZVo3eWw1SHRnWkxCaDFQNU00YV9HanlDamxNc0RQMVZRQ1pJYnozSQ",
-    "CBMiigFBVV95cUxONTZCOU84c2dsTkZUUkJYTW5jcV9sbGY1a1k0dWQxWVBreEdjNnFhanJXYl9BMktPMXFZVldDV3k3Z0RjaVpCWmdyUkljNkpTT3d3X0VUUUlqb1RwSTJWMnA5UGlSSmhPMHVFODRrNzNWY3c3UFkxdjBqdkFwelJnMm9aQWtpanpTaGc"
+    "CBMiigFBVV95cUxONTZCOU84c2dsTkZUUkJYTW5jcV9sbGY1a1k0dWQxWVBreEdjNnFhanJXYl9BMktPMXFZVldDV3k3Z0RjaVpCWmdyUkljNkpTT3d3X0VUUUlqb1RwSTJWMnA5UGlSSmhPMHVFODRrNzNWY3c3UFkxdjBqdkFwelJnMm9aQWtpanpTaGc",
+    "CBMihwFBVV95cUxQMGtWeGJWRGVGMDhEcTJRSHVZS1RxaTFlSEw0T3BCemhpS2xxbW9GdTVlMXpzcWxtd254QlpGbGZMNk1sWC1vcFlZaDNmRlRkb0Q4V0hBd3lXZnVJWG9XNXBjOG1VUnpSQnh4RW12cXdGOFRTZ2JhM2ppN3R1VEJwQXNyYktyRU0"
   ],
   "daily": {
     "d": "2026-08-24",
