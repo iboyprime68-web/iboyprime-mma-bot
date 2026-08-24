@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento, The Morning After: Two All-Time Bad Game Plans Backfire Hilariously",
-      "ts": "2026-08-23T14:19:00+00:00"
-    },
-    {
       "t": "Former UFC contender posts statement after losing to Cris Cyborg with a 7-pound weight advantage",
       "ts": "2026-08-23T14:30:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Patricio Freire Wants New UFC Deal After Doo Ho Choi Fight At UFC 331",
       "ts": "2026-08-24T03:18:06+00:00"
+    },
+    {
+      "t": "No. 3 Pick Jeremiyah Love Set For Cardinals Debut Stream of National Football League",
+      "ts": "2026-08-24T02:29:07+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Sacramento results: Matches to make for ‘Hernandez vs. Rodrigues’ main card winners",
-      "url": "https://www.mmamania.com/ufc-results/467085/ufc-sacramento-results-matches-to-make-for-hernandez-vs-rodrigues-main-card-winners",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-23T22:53:44+00:00"
-    },
     {
       "title": "Wyndham Clark Wins First FedExCup Playoff Event Stream of Golf",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLUhNckMwd2ZLRjZoSVZneVRZOEI1QTV1bU1lNkxtVlJPaWk1MHlVRkMyRTJPR3FxbDZyekJVanVZdGhYM3RTcmU0ZHBaY0NDOE1QX3p4MV8zM1VqN0UweGdOMllLSF9XdDgzSl8wSUhwRy0tWHFFbXJjbmsxaVVyX2NkVFJQVkxCNE93ZjdPSUNtVEd5?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-24T03:18:06+00:00"
+    },
+    {
+      "title": "No. 3 Pick Jeremiyah Love Set For Cardinals Debut Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaEFzeVhlZ0huTmkzVWhYTkNpbTM2ak1aVnk4UE1VNXVpdDNtUmU2eFJfN3A2OWptMl81SHpXT2xfQVI4eTVfekRka0lOS3JQcU16YURRUXg5MjZwQ21WQzVsMHRCTFRUNEhzZGNaV0ZkeEl1SXd2aUh0eHJqblZOYjRqNzVOM1FVWWZJR3lUMVdyZ1FG?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-24T02:29:07+00:00"
     }
   ],
   "digest_last": "2026-08-23 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMif0FVX3lxTE5zS2N1UlhEa1BXelU4NGVLdGFsLWY1RklaQzhLZzMtSzN4ZnYwSnVTU2FoV3NCTjlmWFh3UDhkUjVrVWlqWmRTX1JzVko0LWlmRzF5WlBXNW1DTkFvRTZudXJZX0FCSExZYkVkcGV0LW9JRTBfN19LSlRGSXVJNnc",
     "CBMi1AFBVV95cUxQTVFpZUJyOGwzVUtKTmRnZUtEWENiclRDSC1SaUM2VlpfbjRlUk1SblFCc3VESWM0ZGZveVpUWFU1bFNsS3oxaEpaRlgxbmRmVUVoLURWSG45MU53eHJVZlBGQzlOZzNMYThLOElGSkJSd3NnU1c1U21ndG1pTkpTdGZQRkJKLWN0ZnhJRjRrRk9vYlV3WW1nU25MeFAxUWpaQmp3VDJPdk1xYVN3QldxWXJud2tic2NxRmhlSGQzSlVKR0pSNDRqUk5PaDBKei1HaHF5Vg",
     "CBMiuAFBVV95cUxOVjhCRnJzbDdTeEplUUppVXJUVkpmaWNESWZ2Snl6YTI1VnlMUnpOWjhaZ1pqY3M3SmR1R0FKYjRvZTBCZVhnM05HWkVWS1hlb1JMdTU1b3Y3a2dkRm95NTdtekRScW56c29iaUpOQTBGZDBsYS1temUtM0pKZ0V2ajAxXzFzQ1l3bExzNFg4allZT3BmMTZ3QzBTcTM5Y1RrNzVtSnNBZ1otRGQ0WG5mbndLMF8wSFVE",
     "CBMiiAFBVV95cUxPUi1OOS1OMlJKb1lNcHpUNF9LNFB0MHJnX0wzWHhUMHBBMGtmRlR6M3E5Z1Z6MHdtYWlkeVFrS05NY0wxMEtBOUxKVHJTTmRraEpKVWZvbXVYSllDZHNraWxrWkwyQTR4X1RveVJXU211ZW5iSXNPQlRLOVdZajB3a3RYd1VRWUFn",
@@ -3312,11 +3311,12 @@
     "CBMitwFBVV95cUxOMzhZbk9tZkR4bUgtMVJzalN5Q0s4aWoweFN5MHpoZk1iVFNhYnJVaE1aazNuSlA5eUFmcjRCM01vZ2prblRnSXBiSWNQWEJpMEJpTG83N1dLY2tXVnlDQjJHb3Fza0tkZ0tWd0NDOWdjMUYxSXIyOE92UzVyUVhneGRpaGxtTURLd0VWLU85QXlLNlp4eDhHREZiX3JDZFVqcjZCYnlSNnJxR2lsQk5TRG51eDdoMVU",
     "https://www.sherdog.com/news/news/Tyron-Woodley-beats-Joaquin-Buckley-then-offers-to-help-him-win-UFC-gold-202491",
     "https://www.sherdog.com/news/news/UFC-debutant-admits-he-had-no-idea-how-to-defend-submission-What-defense-202492",
-    "CBMigwFBVV95cUxOUzlvdi1oVXdpT1VTbTFISV9Ra25iZ0ZpVUNqUGt2Xzhzb2wzTmE4aVNSOHJ0UFppR09JaHFldTFlczk1QWEtdW04ZXdtbURBTS1zd2RqVENySGlfZjVRUnlBdkt4THNTenh4Z2c4Q1FqWVpFMFVob29aT3NfZ3hpNGN4NA"
+    "CBMigwFBVV95cUxOUzlvdi1oVXdpT1VTbTFISV9Ra25iZ0ZpVUNqUGt2Xzhzb2wzTmE4aVNSOHJ0UFppR09JaHFldTFlczk1QWEtdW04ZXdtbURBTS1zd2RqVENySGlfZjVRUnlBdkt4THNTenh4Z2c4Q1FqWVpFMFVob29aT3NfZ3hpNGN4NA",
+    "CBMilAFBVV95cUxNaEFzeVhlZ0huTmkzVWhYTkNpbTM2ak1aVnk4UE1VNXVpdDNtUmU2eFJfN3A2OWptMl81SHpXT2xfQVI4eTVfekRka0lOS3JQcU16YURRUXg5MjZwQ21WQzVsMHRCTFRUNEhzZGNaV0ZkeEl1SXd2aUh0eHJqblZOYjRqNzVOM1FVWWZJR3lUMVdyZ1FG"
   ],
   "daily": {
     "d": "2026-08-24",
-    "ai": 32,
+    "ai": 33,
     "staged": 0
   },
   "staged_hist": [
