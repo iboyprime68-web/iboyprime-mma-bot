@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/460820/open-thread-july-28-2026-tanks-muay-thai-and-chickpeas",
     "https://www.mmamania.com/461020/open-thread-july-29-2026-what-do-you-want-to-talk-about",
     "https://www.mmamania.com/461049/magomed-ankalaev-vs-bogdan-guskov-odds-full-fight-preview-and-prediction-ufc-abu-dhabi",
     "https://www.mmamania.com/461078/conor-mcgregor-blames-fog-machine-dry-ice-for-ufc-329-injury-its-a-no-contest-now",
@@ -120,6 +119,7 @@
     "https://www.mmamania.com/466800/highlights-open-ufc-sacramento",
     "https://www.mmamania.com/467080/open-thread-august-22-2026-summer-check-in-hows-everyone-doing",
     "https://www.mmamania.com/467177/the-mania-mailbag-august-17-get-your-questions-in-now",
+    "https://www.mmamania.com/467251/open-thread-august-24-2026-who-what-make-you-laugh",
     "https://www.mmamania.com/?p=405991",
     "https://www.mmamania.com/?p=444863",
     "https://www.mmamania.com/?p=446488",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Sacramento fight night weights: Gregory Rodrigues only weighed just 2 pounds more than Anthony Hernandez",
-      "ts": "2026-08-24T17:17:28+00:00"
-    },
-    {
       "t": "Michael Bisping leaks potential Paddy Pimblett title fight to take place at UFC 334",
       "ts": "2026-08-24T18:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Reinier De Ridder overtakes former champion in light heavyweight rankings after divisional debut win",
       "ts": "2026-08-25T13:00:00+00:00"
+    },
+    {
+      "t": "Open Thread, August 25, 2026: Most boring movie ever?",
+      "ts": "2026-08-25T12:01:10+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Paddy Pimblett's 'ridiculous' UFC 329 rule breach leads to disciplinary hearing and withheld purse",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUFVKaHZvNF9oM2UxczNMT2RjTGgwbXhEOXFUVDhsNmV1bnE2XzhTV1JqbmhpWkExVFdiMWE2RWg3QXNKSnB1SEY5Y0lPNTB6cXNMU1Bvc2pPYUhhMllsUTh6Mkd4NXVMb1BxV045VWtOZ2ptVjZuRmlYeEtUWXVMcmthNDRhVkZ4UkJaNEpIZDdaQQ?oc=5",
-      "source": "talkSPORT",
-      "cat": "ufc",
-      "ts": "2026-08-25T09:46:38+00:00"
-    },
     {
       "title": "Conor McGregor Backs Jordan Burroughs After Olympic Gold Medalist Explains Why MMA Dream Died Before RAF Moscow",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORlRPUXo5YjZuWWYwb25SWHJKMjJ5NWVCT1FxYWRsLTZTZUpMYTFTZ2ZuaVlneUxQRmNWWFRUWlZEUlZkcFZtWjY1N3I0M1h6QXF5amlua0pjRmVBS0liYk1jNEJKbF9zRFZKLU9NVVh0RkpnZHl6eVB5WkdjVWVNRmFuTVBVZWFvei05eEVB?oc=5",
@@ -2105,15 +2098,21 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-25T13:00:00+00:00"
+    },
+    {
+      "title": "Open Thread, August 25, 2026: Most boring movie ever?",
+      "url": "https://www.mmamania.com/daily_mania_ufc_mma/467251/open-thread-august-25-2026-most-boring-movie-ever",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-25T12:01:10+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
   "hour": [
     "2026-08-25T13",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMipwFBVV95cUxPNE81R25CYW1obTJHeGhRdHBYbzcxM2FqZ3M2SGNDSzZlNWhSc1pQcll4T1YyNE9jb1I4UFJXVjBCX3YzQ0dvdGdWU3RRZ0dVNWFpMUlPM09JX2NxWUQ1ZTdlczdOTUlIckNIbmhWTmpkeXA1QXpIYVZDWHRxMFlHYXc1T2lnSnVKdTVRU2xsanNhelZQQW9KaDliVHVpeFM2MkdmWUs4aw",
     "CBMie0FVX3lxTE9rYmZDZnRvbUVJY1F4V2lBV2hLdWQtdXFQaWdtTXZkYldfSXpMWHJrUDBIOHh3cWlKZW1ENGZGcTUzNVpFS3N6WEhWdFdJeGx5alpBNm1aQkZndTRMc0N5NzVubTNXTHJzZVpBWUxzbk53ek42R0NCWXpjZw",
     "CBMirwFBVV95cUxPM2F5b0h4S0JwbzBQWUFrVlJQczBtbm4yaXR0MTRlTGZ2TmFGcXRwX1UyNHd0LUNmYnVhZXhNQmk4cFdCeVNRVlJzcG1UNnh0VnNYbjV0eXFGZ1F0VVZaSl9idTRRTjJqQ2ZBb2E1SHo3dXBtMk5Vc3pYdFIwQnl1anRuTVM5ZE1MN3FQTWF2WkkxbVh2VWlRVTRyMlZBNjhGcWVXR2pERnE3LTVOX3J3",
     "CBMi5AFBVV95cUxNeHBUYWNmSXlGeXZiVW9JenFRbjVxSnZKWWVMdGVQTHB5U042VDJSRjNrLVBjRFlsRGdxQkV1SzJrd2FXeUo1SW5GMkVzZ0FTSXRsNlFsbXJNZmVIaVotTERPV0JJek5lSUZOTnU5NUZYaFR2TFF0UUNscEZ3TlZuX3p6bG9mWGxZMUFsWHIwWUEtcm4xR2t1MW82ZHdCTHBFcnkzcFl4TGgzSHhobWZZVWJlVEJaNndDVUZNRm1HTnI3c25taVE1T2huMkZYRjBqaF94bTE2a1RadUhLYlVSM3RwWEY",
@@ -3312,7 +3311,8 @@
     "CBMiqwFBVV95cUxOZEJxM01mREdFSGRkQnVXY25taXRFYzNfaTEzVU0zSm16UXhuV05QZXRwLWt6OFNaeWMyMkdDSW9heTk2MEZDTnZqN0RJcEcyWi11bWNIMTdrWW9HUTZFTVFLTXVuSGxoZkxtN201U2prOXNHS2tfTWNwOWR5TUxWa1pTaXd0dENrRUVndUJuSUhxdjdpcGdSTm1RTHRId0JsNnRndTNFZ2RkMHfSAbABQVVfeXFMT0dxN3Bpd0xLY25PM2FEMnBoYzRlbHVtNFdvQU53UHA1TEVuaGJnR2wwZWxnMFV2eUhUY1N0Q3pqTHo4X2hIYWFLZE1GVGVOOVl3aHl1UWE3aWxmdmdwVWFRYVZSbXdZTklNSEFnNXZQWE1YTThSUmJVeTVMakpzQjRCXy1nbDBTOTRTRWtyRTNsN0VqWnAxdzdTc1p1dUFRZGgwdWlBdjBZMk5HQWFRdXA",
     "7423752a-ecc1-3ac0-bc84-82b1f8030167",
     "https://www.mmamania.com/?p=467296",
-    "https://bloodyelbow.com/?p=328729"
+    "https://bloodyelbow.com/?p=328729",
+    "https://www.mmamania.com/467251/open-thread-august-24-2026-who-what-make-you-laugh"
   ],
   "daily": {
     "d": "2026-08-25",
