@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Charles Oliveira reveals plans for 2026 UFC return but claims he has yet to receive a fight offer",
-      "ts": "2026-08-24T05:00:00+00:00"
-    },
-    {
       "t": "Jorge Masvidal Hints at UFC Comeback Against Leon Edwards",
       "ts": "2026-08-24T05:01:25+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Who is Jason Alexander? Britney's first husband, and the 50-hour marriage",
       "ts": "2026-08-25T12:09:41+00:00"
+    },
+    {
+      "t": "Gregory Rodrigues Denies Anthony Hernandez Cheating Claim After UFC Sacramento Glove Grab Firestorm",
+      "ts": "2026-08-25T12:22:21+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "RAF 12: Dvalishvili vs. Cejudo 2 Full Event Replay",
-      "url": "https://sports.yahoo.com/articles/raf-12-dvalishvili-vs-cejudo-031933380.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-25T03:19:33+00:00"
-    },
     {
       "title": "Edson Barboza calls UFC 331 star an ‘improved version of me’",
       "url": "https://sports.yahoo.com/articles/edson-barboza-calls-ufc-331-061310295.html",
@@ -2105,6 +2098,13 @@
       "source": "Legit News",
       "cat": "ufc",
       "ts": "2026-08-25T12:09:41+00:00"
+    },
+    {
+      "title": "Gregory Rodrigues Denies Anthony Hernandez Cheating Claim After UFC Sacramento Glove Grab Firestorm",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVV9xNjh0YVZLdlR3VjdqdzNaZEt0Q3gzQmlSTVQ3czBYSjNNWmFPcnFFc2diVmFVZDZZM0FmbHNYelpIcW9ZWVhmTEtZUG1wYmNLc29nY1NIQ3FWTHBBUUo2SEl0RDZMZlNSVnBjVE5WV29MenVnUzNLYTd6MTBwUmFDY3BXVG9qSUR1R0Q2N1d0UWhZQWF5d3hoN0lNRzg?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-25T12:22:21+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiwAFBVV95cUxPTmFYTjZ1VEFPZnJIQ09lYW5LR0ZLblB6MlAtRS0zcUNtbFRBS1o4cTRWTTNkeGNGUTBTQXBmbHowakR4WTM2d2FKSGxXZUZJVHFYb1pIcXZWVG9YeE1CZTBGNkVtMEEtQnRUNTRqbXBPMEhZam5TcTgwNFJwN1hnV0dlLUtrXzZsalh3d2RQZFBmOVJkOTgxNWpQdHBUZTFhdVZmMnU4UnBCaWZ4YkNRQXR3X2ZQdDRjTG80LVNhVE0",
     "https://bloodyelbow.com/?p=328286",
     "CBMilgFBVV95cUxQSWRVOVYxNFkya0xOSm0zcnhMdVNUVlY5Ynl2Wmh3bkRDd2ctNkYyb1g5RkZTbTRGZmp5V3gtQjR1QzJpUG1jZGd2b2ZuV2VGWEY1YTY5YnJyRzF1Yno2Y0gtVnNqVkxoYWZ4LTQ5RjJvOEJCTHpCNlBteDQzcURFb3J1ZmFJRmM4Mzlzd09yM003bU9NelE",
     "CBMiugFBVV95cUxQbXZPN0FSajN1dFFOVEhUbG1yY1pMRWlsSjdpUkxlUVlSekxkbG9TVlVJdklUd2VrRXY2TkZZZDVlek4zMzRsMHA1U0c3d2JPT1NkWEg0bTdhS3ZwRWs4OGFUUTRZcF8yRmE0VWx0dGNYSjN5TXBvSlVUbGtTRklaWE5DTTJham83d19ieWx0a0hJRUhjaUczYWJ5LTBYTmdGSDJuY0o1T1VuWUZPcTVRYnYzaENCNTk4a0E",
@@ -3312,7 +3311,8 @@
     "CBMiwgFBVV95cUxQcnZFY3hCT25FTVBubWtjeTNMMEdOeXFVVU5XampUODV5Y1JsVktOZ01IM1E0bVNBVFpmcl9JZnJuZTE1VDloWElfSjBXZ2tKWElLUTZFZlJiRDdjX1NWdHpFWTNVand1b2Zha2xUOExpT0ZuemFnVm1KcnRodG5MMEpQMHpVakc3Tlh4dC1RVmtqTGc0cEFsWDloNGIyZkFqeURLbGhxLVRJVzRaVWdtTDBvVDFtZjZOZFhhVzFMN1doUQ",
     "CBMi0AFBVV95cUxPSk5JQkdJT0JmbG81ZjFYaWRJa0kxbS03RG1wRDI1aS1vYmVSd3VGeWo0MndjQUtnVzhrRFZ3VndVcE1pUzhHM01ubTl2aXZZLWF3TWxTQTBzNDFQdUtKcUtaVThQbzg4ZDRSQnI2UHBYQnpwbHBzV2FhNWRxeGxtX0RlQ3dzVTNSUVNJcy1XWnNaUXI5SWkycnFPTklxRVZtbE9IeEVjX0dfZVllN2JUUWR2WVNTUktidnlFSEpxZnVPSTlEZW1vX1RiemVzeVhT",
     "CBMidkFVX3lxTE5jUUVNMXJMMTIwRWNoZ1VvTEx2VWE2MTFHelpDQUxyZWdiT2VRTk85NUdzMXlkc3ZHYmhkRkV4N29pN2NTTTlocklIRGo5V1BldTNlbEtIRWZmN01UTkFZdHU2T29HQ19RUTVRTEV1T0otOEgxSnc",
-    "CBMiugFBVV95cUxQN1VqdnktMjVUc0RRZUtobmgtbHF3LWtjMzFYV1Y2WnVvTDFVZlk3R09raFNTRVJWOHhacnZSS1V1Z3M4d3B6VHNmRXFGdGZEV1lkVEsyRFNvWWFrZS05OFRJbThlQWozZzRrY1RSMVZlY25VT2NEY0dfN2tXUlRwV0xuREhOOTdEenZieDJVaTZxcGI1eXhYVDF2ek9obXo4cE1JRkVfTFFzWV9Ja2ZaeXNYaDB2N0tHR3c"
+    "CBMiugFBVV95cUxQN1VqdnktMjVUc0RRZUtobmgtbHF3LWtjMzFYV1Y2WnVvTDFVZlk3R09raFNTRVJWOHhacnZSS1V1Z3M4d3B6VHNmRXFGdGZEV1lkVEsyRFNvWWFrZS05OFRJbThlQWozZzRrY1RSMVZlY25VT2NEY0dfN2tXUlRwV0xuREhOOTdEenZieDJVaTZxcGI1eXhYVDF2ek9obXo4cE1JRkVfTFFzWV9Ja2ZaeXNYaDB2N0tHR3c",
+    "CBMinwFBVV95cUxNVV9xNjh0YVZLdlR3VjdqdzNaZEt0Q3gzQmlSTVQ3czBYSjNNWmFPcnFFc2diVmFVZDZZM0FmbHNYelpIcW9ZWVhmTEtZUG1wYmNLc29nY1NIQ3FWTHBBUUo2SEl0RDZMZlNSVnBjVE5WV29MenVnUzNLYTd6MTBwUmFDY3BXVG9qSUR1R0Q2N1d0UWhZQWF5d3hoN0lNRzg"
   ],
   "daily": {
     "d": "2026-08-25",
