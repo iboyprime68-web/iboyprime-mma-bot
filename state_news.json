@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "The Ultimate Insider: Behind the scenes of The Ultimate Fighter 34’s wild celebration, contestant’s drunken antics",
-      "ts": "2026-08-24T17:52:43+00:00"
-    },
-    {
       "t": "Carlos Prates Calls Out Islam Makhachev for UFC 334",
       "ts": "2026-08-24T18:25:57+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Islam Makhachev reveals minimum number of UFC fights left in him",
       "ts": "2026-08-25T15:20:00+00:00"
+    },
+    {
+      "t": "SEC Leaders Discuss Future of CFB Stream of NCAA Football",
+      "ts": "2026-08-25T14:56:47+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Daniel Cormier calls Nevada cage rule ‘ridiculous’ after UFC 329",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYmlONzkxSTIzbHZwSXltWFdrVzc2V2thdTFzcnAtWkt3X0FtOGExUVZvLVdXRC14bzFobHotaGN0aXBMOGlhWFpWeVdLS2RtdXlFMm84NlRKQnlRX29kM21OUm9DSHR4X1dORG1OTms3NUl2ajN0SlZBbzdtNTFNejFTWjY5dWdWZWFHM2tyZmV1cGxiNjhiNlBLeFc?oc=5",
-      "source": "Field Level Media",
-      "cat": "ufc",
-      "ts": "2026-08-25T13:18:45+00:00"
-    },
     {
       "title": "5 Jorge Masvidal UFC Opponent Ideas With Return News Expected 'Soon', Including Max Holloway",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91X21zMGowS1FlelRhT1J5M2lxSnAxcTM3MTF1ay1ncXV4QzBKWTNJbmJ1VnJEVGJ6R28yaTlrOG9jektNX1ZyY0tuUzFEc0czWkJRazJ6blRkeWlINEY5TVpnM0VqR3hDYVA0LWZEQmJQN3J6WmVVX251NHVfX28?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie",
       "cat": "ufc",
       "ts": "2026-08-25T15:20:00+00:00"
+    },
+    {
+      "title": "SEC Leaders Discuss Future of CFB Stream of NCAA Football",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWTVTbXZXYmpPQ1JtaWRFOElJbEZYR3NwTWVPcUgtcXFvOFVXM1ZadlkwUlgyXzlVbHZnVzZXWlpqYkJnSUltbUV3endoT1pPVnQ2N0RzWUJIVDVOVkVYOTdfMkVWNmpqQUlydTNKX3FrRk5XMzBKVlM2Rk5iTmNOSEN4ZUM2eW5LSEl3cklWakI2dw?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-25T14:56:47+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMitwFBVV95cUxNdzlERndCTzRHLURRNUhxOUJvZEw3NHFvN2RNb0VJN3Y5SlRCUlBOUWJ5Z1dzemRkUnRJZVdkMENEYVBTaHV4di1jOU5xVDB4N0FxOENPa0d2QmRUd2hZbWRaZ1o3OXBlSHBtVUpmeVVNUmJfbW8wbkJJQlJ6WEFGb2hhUDhuQU1XNnVmZTFsSjBTZXZua19GaDhFbEdCZTJmYThYQ20wYjFVTFdWZDhIdmR4U01ZWjg",
     "CBMi4AFBVV95cUxQdndidkd3dW1nellzVkZFZExDQ2hLem1sdTBMQ3g2RUplVTVuaWJkOUhVeVFPTExzUHM0d1VqZDNDd0UybjhFTDBYMG16VVdmMEtXbVlmTVd6YlB5OUxsRXViQ2wyN3oxSld5UHpuY1FlNG1Mc0Z5bVhXMXpNTWZPWUdjUG9qbG1DRkVMbGl4eVdYNDg3VGFaTWtOVTFUOWowd0lMZ0luWjFySFg4Q1Fad0swNmtZNW56VW41NUptbVp4Y1pPc3UzT1hIWUpnU21nVHBKRENKb1BPS2E1amVGcA",
     "CBMiqwFBVV95cUxNME50SE94TExabEFRbHFDcC1FdFJKZ25CZWdmbEZHbmJqcFRUQi14cVoxeDFTc21MZkZoclB3TGFSZGgzY3FhM2E3OUIxT1haQ0twZzYtZXlzbTd3TmVMYzM2OGxXWXdfMjhZbEpfRVhKS1RxcWFGSVl5RUFNSzBTNjF6Rk44XzRucTZBSktsbEVKNi1iXy1LMlN0eC1QN3NnLUdJdU5sbEdkcFU",
     "CBMitwFBVV95cUxPd2R3WmtTRk9SdlNEQVdydWI5Y0dCUXo0X3NJSVdETHZJMWlNU0dkeDdjM3hqMXFfRzlRa3YtN1FRVndkMUxhOXVWMHAwa2pITi1HbnJxZklHZElQd1hSZlVpNzFNNy1IT3B3ck5nUE5SMkVTU3JOWk52M3NObjdqaTdCd091eGczc25CMk9SOFhJc0RQdm9pX1hTNXpUT0d5VlBwdXBGb2xjb0FodGZxdnkxc3dCdms",
@@ -3312,7 +3311,8 @@
     "CBMiogFBVV95cUxOSTMwemtnSi14N092Z1pWcERwNW81X2NVTTdFZEMteVJORjdQY2lmQUpUazFobTBiT2pDamdacEhMZENhckRHcjVhR2YtczNsUE5BUm9BM2FfMEEtVDR2V19TT2RESVF3NGpaZFl0U01OZmNKT09xbHltX2JwLWRzc2hIVk1NWnRRdHFhVElkQ2FVVDg1bnpZQzB4Mmh6TWhfTGc",
     "CBMioAFBVV95cUxPSTJHWUVPN19qNzZkMGhrRkVFLVBlbUFDMjE0R2pnMEJuajhiZXdHQWVNWk4yNE8tdXhRRmNJUkpVVjBIbjdsVmE0LUxxMDYxRVMyRVNIVVItM1p0LWRJVThZTWw1VGdFNUlRTUcyYmwwZktpTjVLVnlzOHNUX2drYTFTbWNQRGxxdkdGa0QxNjZoZV9YWGRUUFJDYXcxcVZt",
     "CBMinAFBVV95cUxOMnJSU2V4Z3ZLVDRPOFZycmdjZUdmaE5Ia2lBd0JDS1hBbXV3WjVhWFFBWjJ0V05OcGV3YkFlSHZESHMtdFRvX3pKRk1ZVnVBMnRkVVpmZURMLTZmYnVVbTBhajlzT19qRzh6cFVrNW80a1dYQmFCX2tyQ0NaY3JNTmc1Vzd1SWRhblJMUE9jMHZZb29DUGF0T2JfbzM",
-    "CBMiwgFBVV95cUxQS05xdzBnTEthbVhDS2o1Wnh5d1ZsMXlWODBiTjU0ODk1TGZFeHN6d2xBMjN4amtMazhMYXlhajBLNXJuTUNtMTc5bHRRM0RRTTFTT3BIUGdTajNYUFNrYk1OYURQQjh1dlFKV2NGMjhTVWZvVGIxcHRqWDF5SDhFT3VjV0R1MGE4SUpFYmhsZUwzdVF3WkIwSHF6MHhLVGxYaEdFYmw1WGU1RVBBOTRROVNXTTVuUnlqb1RwcDBDWkJOUQ"
+    "CBMiwgFBVV95cUxQS05xdzBnTEthbVhDS2o1Wnh5d1ZsMXlWODBiTjU0ODk1TGZFeHN6d2xBMjN4amtMazhMYXlhajBLNXJuTUNtMTc5bHRRM0RRTTFTT3BIUGdTajNYUFNrYk1OYURQQjh1dlFKV2NGMjhTVWZvVGIxcHRqWDF5SDhFT3VjV0R1MGE4SUpFYmhsZUwzdVF3WkIwSHF6MHhLVGxYaEdFYmw1WGU1RVBBOTRROVNXTTVuUnlqb1RwcDBDWkJOUQ",
+    "CBMikgFBVV95cUxOWTVTbXZXYmpPQ1JtaWRFOElJbEZYR3NwTWVPcUgtcXFvOFVXM1ZadlkwUlgyXzlVbHZnVzZXWlpqYkJnSUltbUV3endoT1pPVnQ2N0RzWUJIVDVOVkVYOTdfMkVWNmpqQUlydTNKX3FrRk5XMzBKVlM2Rk5iTmNOSEN4ZUM2eW5LSEl3cklWakI2dw"
   ],
   "daily": {
     "d": "2026-08-25",
