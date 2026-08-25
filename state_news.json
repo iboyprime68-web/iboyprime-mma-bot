@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Open Thread, August 25, 2026: Most boring movie ever?",
-      "ts": "2026-08-25T12:01:10+00:00"
-    },
-    {
-      "t": "Anthony Smith breaks silence following arrest and felony charges",
-      "ts": "2026-08-24T07:29:32+00:00"
-    },
-    {
       "t": "Doctor insists Larry Wheels could’ve kept fighting, doesn’t require surgery on injury suffered at Brand Risk 15",
       "ts": "2026-08-24T13:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "BREAKING: Major update on The Rock's WWE status for WrestleMania 43 - Report",
       "ts": "2026-08-25T15:53:00+00:00"
+    },
+    {
+      "t": "Dave Meltzer Shares Update on The Rock at WrestleMania 43",
+      "ts": "2026-08-25T15:56:15+00:00"
+    },
+    {
+      "t": "“I think I’m next for the title”: Charles Oliveira calls for Justin Gaethje fight and offers BMF title",
+      "ts": "2026-08-25T16:01:29+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 332 star Mick Parkin opens up about ‘nightmare’ 18-month layoff after his first career loss",
-      "url": "https://bloodyelbow.com/2026/08/24/ufc-332-star-mick-parkin-opens-up-about-nightmare-18-month-layoff-after-his-first-career-loss/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-24T15:00:00+00:00"
-    },
-    {
-      "title": "On To the Next One: Matches to make after UFC Sacramento",
-      "url": "https://www.mmafighting.com/ufc/506878/on-to-the-next-one-matches-to-make-after-ufc-sacramento",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-24T18:32:02+00:00"
-    },
     {
       "title": "UFC 334: Five titles fights that could headline show at Madison Square Garden",
       "url": "https://bloodyelbow.com/2026/08/24/ufc-334-five-titles-fights-that-could-headline-show-at-madison-square-garden/",
@@ -2105,6 +2091,20 @@
       "source": "Elite Sports NY",
       "cat": "ufc",
       "ts": "2026-08-25T15:48:24+00:00"
+    },
+    {
+      "title": "Dave Meltzer Shares Update on The Rock at WrestleMania 43",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSzFORTNXS0lYYTlMWDR1a09IZkZSamUyWEMtd0NyMDlqdGJiZ1hVdkpsdl9Ed1o2WU55eTc3Sk5RVlA4NFVhaU5Uczl5VmpnUlhxSi16eUxTaWU1SHY2bElvcGZLc3BHTFJkZy1JaTZ0MjZiNFF3azFibjZLU2s3QmRQMGpLbFFGWUhKcm5mc0lTSDhBWTVETEVXbVZ1Mlo0TEpQc3ljbVF4bm42?oc=5",
+      "source": "411MANIA",
+      "cat": "ufc",
+      "ts": "2026-08-25T15:56:15+00:00"
+    },
+    {
+      "title": "“I think I’m next for the title”: Charles Oliveira calls for Justin Gaethje fight and offers BMF title",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQUdtUWVCYkNWbGloLVRfY0twdWhUSE5rMnFDRzdNRDVhNFAxZk1ZMkJZQ3VrNWhjVTFlbG56QlJhTUlUQjNCTEJaQjVhUlJMMGFxVGtyczloQ0pXYkpVQTNXdFF2V1diMWZFaWdmcWpUZ2dfVzZvZE1KcXF5SHRpSUxaamU1MGNVZFJNVlNJOFl5b2NDX3A2VGxtSzZFd0UyczVHWEhhREo3VWl4N09CSEdjRWUxcDNuenNkTjctajJsZEk?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-25T16:01:29+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMihAFBVV95cUxOaGUwUUVXY3N0YXdpS0ExZ0FsWFk2YTNOSXBqbG5ydVNLNzF4cEpHdkptWlNrYS1FT045MmlVWmNDOWItMjF1OGhkWGY3clVSd3AtT1hDaDhreDVFc0RhSXltRl9raEM5b2VSb3lBb2JKWGlWY3dNbkhUNUZxcE1WdlJ5RVk",
-    "CBMiqgFBVV95cUxQQ3pkRkJzWXlqaThiQkR1b3F4bTZ2Ukp6MkhkOS1jS2lKVWxIMHpFd04zR2FGQXRmWlFmU0lhTUNTRHYwVXJZVXJ0eXI2RmpaSlJTTk8yR2VfcEpCbkQxVFl5SXdtalZHQUlsZV9uNW8wQXVERHhhNS1OZzBlNzlaYXE3anJpTnk5RngyTHQ1Z0plcllHZDJxUHN5R19Lbm93M0tBWnNkZk1lQQ",
     "CBMipwFBVV95cUxPMFduWk1jQ19QSnBkX0txRU5MZjR2blM2TWdIWG83aWxJZDBuTGNyLW1yZDMzbTFrR2prOEZYM2RvaGg2VmVwSU1LWm84dE1SZURsandHX25pT2xBakN4MEViRlpWa01WYW44Tl82S1JpTTJWd1JiSlYweTI2RXMyajY0WWF6VzY2SHVySUVYRVgtTUpYR1BQWWtYSk9PaW1XRWZONlQwQQ",
     "CBMikAFBVV95cUxQejBkVXcxQ2tRRW5ibF9ydEtxZXQzTS1OTjhWRUFEVC1DUjlpNXgxOXM3R3pTYjB4T25qd3ZPZE1SbzFnQnJQcDZxbTczejV3OEMwOEs0NWtnNG5ITzJ1bm9COC1yZVViTm5GRVJpSnAzWUg5RmYyUzNiQ2lJakNVSU9qOUJPLVVHWk90LUE2QjY",
     "CBMiiwFBVV95cUxNaHE3N3ZnZ3RoZ3p1dUdWd2xGRDRvclFpMm9weW51ZXVHRVgyY1YyM0t3clJtSDQxV2xCWkpyTUQ0cnBPVmxMUjVGVHVTQmljaUhxczQtYVZySElMZFZ3bnhDVEdnWDk1WUlZcmFQcnhVbVMzMm5CVmJjQnZlaGpDcjhiRHlLRzZreWZF",
@@ -3312,7 +3310,9 @@
     "CBMirwFBVV95cUxNSVZ1QThUTGZocVh6MFhjdnEwbjNBZC1oY1ZEY1BCb2ZBTmMwT1V2amFjTDRxRDhxNTFvUmJncllzY3VFYmp5N0hoMDZvQVBtQ0ppVkVIaUxGcDN3cDhHR3dsQWpyWHpOb3BhdUNKRTRiMmN0MnlaMFBXREdjWk8xNng2blV4RTZnSm9IclBJUkFFc2lOY2Y5VjJVUDE3VXVwYWZtSFpYdUFVelJqNG5B",
     "CBMie0FVX3lxTE43aXZwLVBZUnBTS2xsRzRQMklhNnFRZVhyT0d6eTZ3R2h2LTNWUVNsLVVTZlVScThXTEJCa1hrYTRLVWYwVDZNM1M1V211WUhYc28xRlhXTFZqOUtQMVRld3JHRUx4emVYaWxiUmgtTjQtQ0NRekNzcENPUQ",
     "CBMiZEFVX3lxTE1HT1U2ZGItOVp0Vm5VZHlNNnJKZjItWDhETDM2VFNTREwzNGtFT3JnV0xzVUdwZElueTBlZmxZbE9JMnZIWTg5YlMzNkFTakhwWkNlTl9veDJnNmkwdWJ6dUMweWs",
-    "CBMipwFBVV95cUxNclBObGlmT05TeThSblg5T2hYVWpyUUdxRUNOcWtMNGZ3c21VbEF0OU1uOGRjRlRUOV9WWGRsMVhFdHF1TFRMWThHSzI2MUNLRTlGSTlWSG0weF8yLXYxZTJDcGgtZHVNeE5yZk92V2hpZmZBSERtcHZ6SGRhTExHa3ZRR2VjR0pkM2pibG5yZjBZdzVPQURNRDZHbEg3OU9ZWWF2S3VkZw"
+    "CBMipwFBVV95cUxNclBObGlmT05TeThSblg5T2hYVWpyUUdxRUNOcWtMNGZ3c21VbEF0OU1uOGRjRlRUOV9WWGRsMVhFdHF1TFRMWThHSzI2MUNLRTlGSTlWSG0weF8yLXYxZTJDcGgtZHVNeE5yZk92V2hpZmZBSERtcHZ6SGRhTExHa3ZRR2VjR0pkM2pibG5yZjBZdzVPQURNRDZHbEg3OU9ZWWF2S3VkZw",
+    "CBMirAFBVV95cUxOSzFORTNXS0lYYTlMWDR1a09IZkZSamUyWEMtd0NyMDlqdGJiZ1hVdkpsdl9Ed1o2WU55eTc3Sk5RVlA4NFVhaU5Uczl5VmpnUlhxSi16eUxTaWU1SHY2bElvcGZLc3BHTFJkZy1JaTZ0MjZiNFF3azFibjZLU2s3QmRQMGpLbFFGWUhKcm5mc0lTSDhBWTVETEVXbVZ1Mlo0TEpQc3ljbVF4bm42",
+    "CBMiwwFBVV95cUxPQUdtUWVCYkNWbGloLVRfY0twdWhUSE5rMnFDRzdNRDVhNFAxZk1ZMkJZQ3VrNWhjVTFlbG56QlJhTUlUQjNCTEJaQjVhUlJMMGFxVGtyczloQ0pXYkpVQTNXdFF2V1diMWZFaWdmcWpUZ2dfVzZvZE1KcXF5SHRpSUxaamU1MGNVZFJNVlNJOFl5b2NDX3A2VGxtSzZFd0UyczVHWEhhREo3VWl4N09CSEdjRWUxcDNuenNkTjctajJsZEk"
   ],
   "daily": {
     "d": "2026-08-25",
