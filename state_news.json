@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Daniel Cormier: UFC 329 stars having purses withheld for celebrating is 'ridiculous'",
-      "ts": "2026-08-24T14:30:45+00:00"
-    },
-    {
       "t": "DWCS 89 faceoff highlights video, photo gallery from Las Vegas",
       "ts": "2026-08-24T17:05:19+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Joe Rogan uses Mike Tyson as example in blunt warning to Conor McGregor",
       "ts": "2026-08-25T03:41:00+00:00"
+    },
+    {
+      "t": "Blast From The Past Reviews: First Blood",
+      "ts": "2026-08-25T04:12:57+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Bella Mir Set to Fight for UFC Contract on Dana White’s Contender Series",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZEVYLXYycTBiZE9kU0JEckZfWFlWN3I1MlFJdkNWQkdKQ2Y4N2ptejBrai1WYTl6ZkpvUWNMaWx3YldGN0VhQlNQQ3ZadEpXN2RSTmhaYXJHTWpNR3Yzck9ZTTk5NElJN3V6Sm1FUlE3ZjVuN2QzYUIxOS1neHBFV3BxVlVjOUJWY0xOcU5iTUN4WWY0NkxqSTNn?oc=5",
-      "source": "MyMMANews",
-      "cat": "ufc",
-      "ts": "2026-08-25T02:53:29+00:00"
-    },
     {
       "title": "UNSC reforms",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PMWNtblBiakE3UkpoRDVoeTJGMkh6YUY2dVhLOWxWa3lic08zUXdsWmlpZ2JXVXVxV0pqYloxXzZROTh6SjdwaW02bTAxbktHd0l2VEozUlN0d9IBTkFVX3lxTE96T2NYemc1S1JDZVpqeDd3aHdUaDVTOG5abnhCMDhOSzZlMFVrek1yMG1VZWU4NkJ0bTNRTlpzZTB5MG8xV3JTdUF0d1lxdw?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Irish Star",
       "cat": "ufc",
       "ts": "2026-08-25T03:41:00+00:00"
+    },
+    {
+      "title": "Blast From The Past Reviews: First Blood",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5IUHc4YjNrS3Ewd2IyaFJKNldVVU1jdElDelMzTUVmWDJYVVo2NUJpTkVxU0NBaWhvU0tsU25lZ21heUJOeDczUVRxdG02S0Z4QzhydkhYYVUwMHl1NWloeEsyRUdvSk5ZZFdjU3FIcjkyZ2JvSGxz?oc=5",
+      "source": "411MANIA",
+      "cat": "ufc",
+      "ts": "2026-08-25T04:12:57+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi1gFBVV95cUxPRDJCdGRrQjhoTHE1ZkhvUFFqdGxuazNtcTg5V21JeHBhVDRibnVxd0JhVmZLVmV5a3JDNHptbjBObUM1SHdzamRhM0J6bkhodXVKWUU2RmJ1VkV4OHJtOHNoSGRrTkdzZGlhMVhrLTBqcGRzTzFCNzZuUDR6NW12QnFLcDJSaWgtaHZ1c2NoUDltRENpVVJIRnV4N2JHTXBDdjdaMVBCckZZMC1uLWltc25qdXVPd0ZRV3pSZ1NmS3o3STBDck8tV2h0Y2YtWklXR05ENkh3",
     "CBMic0FVX3lxTE5qOVpYdy1XZ1Z1Y2p3Z3BHaEpKLVVuSXc0dFBvTnlSZk5UYm9pcGNKRk9mM1NZOTBJVnBGQ0lpMjQtYnZ1SHBJdUpPcTlYOVNaWHhsa2lEVE5GSjc2aUgxdzROekE3Wjc5ak9mZTY4bjVMblk",
     "CBMiowFBVV95cUxOd0lKdkJuTG5heWFVZTUtUXQ2T3AtcWhEcmdMMGlNNnhpNG9xd2w2bU1KQkJGVkZYVEM5YWc2d2prdDh5dE1vNFYwcGtsbW1QcDVRRlN1QUJZaktkUkxGQmNWdDQ0UVpZTkRjMUI0SDNYd3ZlSEdPVW55X2RhRHZoN0hNY2VoOTEtcEduZDBuUG1YRGlzR2RqRnhFaWxMLVJtbFBz",
     "CBMiqAFBVV95cUxQSnV4aWQtMjRFVFV1RHFDQjJEd2VSeTk5dnpxQnNGLWhadHpDQUgyY3dlSEJiNHZmdzVkZVpVek1wMGFyMHlpQ19reERsTVpuSmNpREpuQWJwQXVQS205aHgtV2FPOFFhTEd0cC1oOGwxX0s5T1NhYmlNYWlpX1B6NEsyeW1pMkVkbUxfVkJXREcxVlM1Y1hIX2dvOUJ6SjM0Z1l1aGRZQ3A",
@@ -3312,11 +3311,12 @@
     "CBMiYEFVX3lxTE5LMkg1MkNRQzAwelhVZ0xZY21sVkxVcGF0UlBzWVg2MEFWcVJMb1NVb3EyWEc5S2NRaUNlVzVEMkZubk44R1JscHFEbmJ2VlBadDdqekNrcmVwZ1lhQjB6Vw",
     "CBMiwAFBVV95cUxPT09kVmVodWVNQkhUc0VSUmRUdEZXYlZnRk83dDljcVVlV0tGZTloX1JFNFA3MXdBWnJtaXJtcHVGSW9KbU9YSXVwZFpHXzl2OWZxckF2S3lielBUVHZCZ3FMMUVZQUo5ZTc1RmtEVi1mWXk2a2FIbXhVbDZqdl84UXJLeEdTdm8wV1puZDdVUlRYNGpRcEJfeWlITHA4RlBHY21TT3JIa1c3SHk0eVpXcmZKYTFUS3laWnlfbFBzVjg",
     "https://www.sherdog.com/news/news/Former-NFL-player-reveals-moment-he-knew-MMA-was-his-future-202518",
-    "CBMijwFBVV95cUxPWmEzc1YwM1ZVbUdaNElQRTNpVXRaQTRhTTY0TTR4VnZoZU94WHJpUGJiZzVwa0NIc2h2UUFLUmxPZExLRnFId3laMzBsalNrdDFkQkM1OGh0QkZHYzV4X05HUDZmSTlTWDhPWjlwWjVpWWtKMDVYSFZOc05OMS1zbmJiMC1jUUhXMmhsdlIwONIBlAFBVV95cUxQZXB3WnM1dTRNOEpJYU1yNzRRcEo0RktzaFE4Qmg1czY1MGM3ZWV1eV93d1o2TDZRZG85VmJZNHlabVJiSWpwT3B6ckhmeEpqUVNaNU15NDUzNEpKSkZRV1pCdzRlQVdXLW0tUFdaWTd1aGVmN0dwVzhzbUd2MFFhbDlPekNHOHNjYWJVczVpSDVqbGE5"
+    "CBMijwFBVV95cUxPWmEzc1YwM1ZVbUdaNElQRTNpVXRaQTRhTTY0TTR4VnZoZU94WHJpUGJiZzVwa0NIc2h2UUFLUmxPZExLRnFId3laMzBsalNrdDFkQkM1OGh0QkZHYzV4X05HUDZmSTlTWDhPWjlwWjVpWWtKMDVYSFZOc05OMS1zbmJiMC1jUUhXMmhsdlIwONIBlAFBVV95cUxQZXB3WnM1dTRNOEpJYU1yNzRRcEo0RktzaFE4Qmg1czY1MGM3ZWV1eV93d1o2TDZRZG85VmJZNHlabVJiSWpwT3B6ckhmeEpqUVNaNU15NDUzNEpKSkZRV1pCdzRlQVdXLW0tUFdaWTd1aGVmN0dwVzhzbUd2MFFhbDlPekNHOHNjYWJVczVpSDVqbGE5",
+    "CBMid0FVX3lxTE5IUHc4YjNrS3Ewd2IyaFJKNldVVU1jdElDelMzTUVmWDJYVVo2NUJpTkVxU0NBaWhvU0tsU25lZ21heUJOeDczUVRxdG02S0Z4QzhydkhYYVUwMHl1NWloeEsyRUdvSk5ZZFdjU3FIcjkyZ2JvSGxz"
   ],
   "daily": {
     "d": "2026-08-25",
-    "ai": 98,
+    "ai": 99,
     "staged": 4
   },
   "staged_hist": [
