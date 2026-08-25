@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev set for potential blockbuster fight, with rival naming the date he wants to face the icon",
-      "ts": "2026-08-25T00:02:20+00:00"
-    },
-    {
       "t": "Whittaker Vs De Ridder Is NOT A Close Fight Khamzat Chimaev (9tl8fA4UYa)",
       "ts": "2026-08-24T23:29:27+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Fighter gained a whopping 25.5 pounds before stepping into cage",
       "ts": "2026-08-25T03:27:28+00:00"
+    },
+    {
+      "t": "How to watch DWCS 2026 Week 3: Bella Mir headlines Tuesday card",
+      "ts": "2026-08-25T03:43:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Must-Draft List",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc1pkd2hWVE1rQWdwd0tzRDF6b1V6bS0xNTB6cWU1QVFNX2U3dC15bnNFcmNsNHR2SVRkdHZlYS1UV05sNUVLanZQUVJUUHEwVFlVSmNObXhqNmVIR29DRXk2VkhEZzRXeC15c18xNEtadmpka0JMaXdiTkowMXBoeg?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-25T01:24:29+00:00"
-    },
     {
       "title": "Ronda Rousey Sees Holly Holm As A Big Threat Union Station (rCiZ9zrnx2)",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51UjVyRm5NM2dRRlRnZFh2aThoS1lBVWRFQWVHVXMtMnhDRDNTbXduaklXa2hfQzZXRkVWbi1QZFRYQUY2UVNhTjlUeUxEaU1JdXpjVG5ESXNObDg?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-25T03:27:28+00:00"
+    },
+    {
+      "title": "How to watch DWCS 2026 Week 3: Bella Mir headlines Tuesday card",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNkk2WHBuMTB3QWJTcmt5cWFMeXQ2UnJQaGFGZUxGMExuUGk3emt4eWh4b0UyeXNHTmlYZXdCcS1SSmlNVXFhNkN6cEdibWxCLXZzbGkxVDNLdVU4TTd5MDh6TEU4VGJuTmVtaHpFeHo1WnJCR3VhWHkyM1IzZEdQdjlXMkd6MnRDaE9oVFJodk5SZ09KbFBRUjQ1MzgxOGVhcmhHTi1FS0VjWnPSAbABQVVfeXFMUFlGdWVZbDc2QXRWc21NR184bG00NHpaTHU2YWdWYWdRRDFSVTZidDlZb1E1TndCM2U1M3ZUemd4OXBNWUtHRXdjbHhsaVZGTHZGZ1ZXSWxkdGFyS01kZ1A3NE9oY3V4M0xydUUxVFJtWUp1bi12M3B3V0h1Rzh6Y0pIUlBzY0hMYVBHaG9yZlpjSGJ3NG5HTEdGNnJKdERyNXFaMkJJU1BqbWExVUlKQUw?oc=5",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-25T03:43:00+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMi1wFBVV95cUxPb1ZNTlQ1MmZ6djljVDd5WVdCODRudE1XLTZWcWVZMnc5dnJvTEpKREtrdXdlclNtTmgyaFFCV2U5OVZNenhLWkRoVlF1ZmRCVWY4Y2RzdFVUVDBoVVpJUHpFa0NQZXdXYkdZLVVFQm9RZTgybkZGaC1MQ18xeEFTc1BHQ1VmaHVfSi1TUzJySjlGVGZuQmhWNnh5WTRzSjIzRWJMZHphWTBpc3FNTlJfNlJ4Um5FY05UckQ4T0IxYkFCQTZzUVI2aTZyWEF3WGVHbXBJV2taZw",
     "CBMitgFBVV95cUxPN2ZLOEdQazZqUnhGZnlBNG9VLWUwOEN0UG5qZ0VVYkZKT25tSVJUbjNJaVNUeHhNaDVzMGNORXRiZ1VjUXZnUnV1ZFowc251em5iSGJyZjRlYlo2U2E1bTRBbHN0QUx4eDJBUHBKaHg4bkxGaVByY1ppNWw2QzlHZmV6VmRqcFNaalJTcUpYbk4xRzJsbDh1RDA5OVpsbEVaUnh4S0ExTExnR2o4WTFPZHNnTHgtdw",
     "CBMijAFBVV95cUxPV0prV2pqZDRWS3VtZ21YT2RfOVFDb254UExEZGJzQ2xaOUhKeEhwaGl5TlI5b05lcEZNRWg2aFFRSmkxZXNvREZvdFNqTGRiM1UtRVpmZExsOHlLZ3NJLUkwQ2Q2SnBoNEdOQXM4VmxQRzRsWDYxQjN2VXNpRjUybE9VWVNFQXd1UmRORw",
     "CBMilwFBVV95cUxQWUxqcmNuZk9UTFBfT3NEYXFXN0ZfM3dfUEE5WnhIenlFWFVBR0t2Q04tMUFfUWNGdFhXNG5zeXlrajVzOGs4ak1YaHVUV2M3UDNkY3ZEZlJXdklpTUdDeXhNWC01cVdrdjJhd2s1NVJiTUU2RlJrX2hpZHB2TDBxRmVNLXBHOEx1VkVlUUVMLWFIT0FQaWRF",
@@ -3312,11 +3311,12 @@
     "CBMi4gFBVV95cUxQQ2tiT1JndzdBWUZLS1V2US1wQTNUUE5MMVNIWENDanhXNzZWRnNQdi05QlA3VE0wTG9Nb3Y0ZktXcmhTT2ZndWRONzZvQ3hTLUVpaFRRLThlYXdsRU1CUXgyM3RBSTV4TGFMc0RlOF9HZWhPNy1XeU9EZzJPUUFsWW1qWXNCWm83c0ptRTlDc3AxSzZRcTNWWmt4d0NJTy1Fc2xRSW1aMzY5LW1HRmhYTDloNDhSdmZnNkNtWjhBNlVRYmZtZTdoMFB0a3dQUEdIMWgtb2g3VjExVEtlcDlnN05R",
     "CBMiW0FVX3lxTFBwTTdocmxJSG1lZTYwVHB2V1B5NmxmTkFrX2V4endFcUt6VGtFcVhoSV80d3NRRWo0WWlfVjlLQmtHcmRjeDNMLVJWaHQ3Y1JPM2xGbXZUaHNwMDg",
     "CBMiV0FVX3lxTE54aHBRNUtiNWpUUmZMWlFfYmhXczFwT0hpV2FyR1JrU2hiUU15THUyalJ5Um5JUDdGUnVPcFg1NUs4SGJHcFlQLWc1U1JCbE5iSld3QmV6Yw",
-    "https://www.sherdog.com/news/news/UFC-Fighter-gained-a-whopping-255-pounds-before-stepping-into-cage-202514"
+    "https://www.sherdog.com/news/news/UFC-Fighter-gained-a-whopping-255-pounds-before-stepping-into-cage-202514",
+    "CBMiqwFBVV95cUxNNkk2WHBuMTB3QWJTcmt5cWFMeXQ2UnJQaGFGZUxGMExuUGk3emt4eWh4b0UyeXNHTmlYZXdCcS1SSmlNVXFhNkN6cEdibWxCLXZzbGkxVDNLdVU4TTd5MDh6TEU4VGJuTmVtaHpFeHo1WnJCR3VhWHkyM1IzZEdQdjlXMkd6MnRDaE9oVFJodk5SZ09KbFBRUjQ1MzgxOGVhcmhHTi1FS0VjWnPSAbABQVVfeXFMUFlGdWVZbDc2QXRWc21NR184bG00NHpaTHU2YWdWYWdRRDFSVTZidDlZb1E1TndCM2U1M3ZUemd4OXBNWUtHRXdjbHhsaVZGTHZGZ1ZXSWxkdGFyS01kZ1A3NE9oY3V4M0xydUUxVFJtWUp1bi12M3B3V0h1Rzh6Y0pIUlBzY0hMYVBHaG9yZlpjSGJ3NG5HTEdGNnJKdERyNXFaMkJJU1BqbWExVUlKQUw"
   ],
   "daily": {
     "d": "2026-08-25",
-    "ai": 79,
+    "ai": 80,
     "staged": 4
   },
   "staged_hist": [
