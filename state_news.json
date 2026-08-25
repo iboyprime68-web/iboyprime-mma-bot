@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White addresses Namo Fazil allegedly being attacked before DWCS: ‘We handled it behind the scenes’",
-      "ts": "2026-08-23T05:18:35+00:00"
-    },
-    {
-      "t": "Anthony Smith releases first statement since July arrest for multiple felony charges",
-      "ts": "2026-08-23T13:25:00+00:00"
-    },
-    {
       "t": "Anthony Hernandez claims Gregory Rodrigues was ‘cheating,’ grabbing his gloves in UFC Sacramento main event",
       "ts": "2026-08-23T14:01:44+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "The Mixed Martial Arts (MMA) competition TFC 24 will be held on Friday, October 23, at the event hal..",
       "ts": "2026-08-25T01:17:22+00:00"
+    },
+    {
+      "t": "Can Anyone Steal PGA Tour Player of the Year? Stream of Golf",
+      "ts": "2026-08-25T00:46:20+00:00"
+    },
+    {
+      "t": "DWCS 89: Where You can Stream and Full Fight Card",
+      "ts": "2026-08-25T01:44:12+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Whittaker Vs De Ridder Is NOT A Close Fight Khamzat Chimaev (9tl8fA4UYa)",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UZXlrVTMzdXRURU1FYXZtMzQ3N0RIT20wX1pmNi1QeFA0bnMteXNwU1hqSnQ3V2hFNDdnRHRMU3NFNll1emJlZU0taHpQRDJsM2p2QVBzdG9QMHM?oc=5",
-      "source": "Mshale",
-      "cat": "ufc",
-      "ts": "2026-08-24T23:29:27+00:00"
-    },
-    {
-      "title": "Barbosa Packs On 25 Pounds After Weigh-In At UFC Sacramento",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcG5RYVZ2dERuSTh3Q09ZLUFUekp4Z0JnVTlBaFQ4NXdJQldtMGx3QW5jNlZnZ1NKX2x5TWQ5R0NxSEduMmlxT1Vub204NFRsbEpjZ3c4bUFVVUFnWm5NdUxmb3pTWndmYUV4Qk5USmJrVW9Od2J5aEh1U2oyZDdtRmRzLTRKcHptZllLUkN0Si15cHRSOGpKc1hxbWQyazZKbmtjZXpITnZCNWRTRklERW1sVzFmSWdN?oc=5",
-      "source": "Yardbarker",
-      "cat": "ufc",
-      "ts": "2026-08-24T23:39:31+00:00"
-    },
     {
       "title": "Malik Nabers Injury Update Stream of National Football League",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1PeFpMZVBXSU9WNm4zcURIWmlJR1h0RWF4b0szQ0FuYmFQZnFTSGxqWmFuU3VuV3daTUdxY3RKVmpFT21JMjFmRHVnNUJId1ViX3Vsc3ZoTUVaaFdNalNMTVZzakNZZ1VDN3RuaEkza3ZaZWZYaHdZ?oc=5",
@@ -2105,6 +2091,20 @@
       "source": "매일경제",
       "cat": "ufc",
       "ts": "2026-08-25T01:17:22+00:00"
+    },
+    {
+      "title": "Can Anyone Steal PGA Tour Player of the Year? Stream of Golf",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU1ZxX1haRGZuLTVINXZiTTE4dkRhcXMzWkxiNmFfN21xRVdtbVlQdkFJZ0YzRURDa00xcTVwNlRMRkc3TlZpWDA2NTJVWDNfdTJGLWwwZVBOcWpUNjYyZnhkako0Vm5CMzJUUE96RUtEUlVCUjJPbnpCbFNiNkNZdlBKcHM3VFZNRXkyYlRSSTQ?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-25T00:46:20+00:00"
+    },
+    {
+      "title": "DWCS 89: Where You can Stream and Full Fight Card",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5uT1B2SGQ1N1pMUDQ2WVJrN3dNRUFFdDdRNW9QdTlKcEhFbmNQV2VFVDFnaHBwRmhzZnlaMWg4d3V2RFRleml4VE5FNzA2Q29ZNmlDcjVOUW56YnBKbHZYWGg4VzhJamJFQUd3UjBuaXZDZG0tMnowa3h2WQ?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-25T01:44:12+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,8 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "CBMivwFBVV95cUxPdjFGOWxkMUotLW1OVmdKR29meHlkRTE3dDhXdzlpN19uSDM1QnNZS19mYVNkNl9teHhXRzA2ZFU5RjFlNzNQYWh0NWE2a0JyZWNWUTgzQkRleTNPcE9MVkdUMWJYLWNQSm5nN3dMV3ZoQWlBTnFWbkdTVFZndUZyM2MtNUN3T3FrMm00MzFQRk42OGI3Nk9UODdNTDZDNjdZOVdGSmEzbUN4WTZlUmY5Vld0TFFpUnBkNmpaNGZoSQ",
-    "CBMixwFBVV95cUxPZW5LTkhpeFJMbE11N3pCWTYwNlR4RDR0QVlfZE44TGtpRlZzX0JBaEFGZXpCOWpUcHRhQVNwaHhKZnM2d3dYUy1XMF9CTkgzaFZlRHV2UDVqSDJSVnhYTHVPdXpIUDNRQTRMQkRNS1dQV0RjUGpCbm5DbXRzOHk4bWxsTG9IblF0NV9mU3RHX3gzWXh6blRpTmZ4eGI1QmFIOVRVYWJ4c3hGYlBneW9teTlZaXhLbEpaaklvS2tpNTI4TjEyWFJn",
     "CBMi8gFBVV95cUxPV0VZeE5jMHNlZ1hkOElOWHZPZDh3RjN2YVQ5SWt0SkI5Ukc1ZzIwSkFwZUFOSVJsZk1lSnUxOUtYbEluczBWbU1ER0ljUHZKX3ZKWlRUVlg3czZEQUx5NTBtRDdza0wwZF8xb1VfWTJmeXRlbUhzLVN5cmxRZEs2cTl0cHBldW01SE91Y3d0OEJqQmswbzVBTUJaTEdOVm1EeS1HWVZuR3M5WkNqcWxOSDYxMnpVUks0TC0xSVJhRXpUQ0lNanRvN2RwTnpCSzZJeVNYWU5PV2ZpWk9RUFhLSjdEVHBlc29uOW54RmM5MkZwUQ",
     "https://www.mmamania.com/?p=466475",
     "https://www.mmafighting.com/?p=505906",
@@ -3312,11 +3310,13 @@
     "CBMiW0FVX3lxTE51UjVyRm5NM2dRRlRnZFh2aThoS1lBVWRFQWVHVXMtMnhDRDNTbXduaklXa2hfQzZXRkVWbi1QZFRYQUY2UVNhTjlUeUxEaU1JdXpjVG5ESXNObDg",
     "CBMirgFBVV95cUxQQ1ZNTnFOR1Uxa3Y2amlVSVk0QVNFZ1VZYVBkc1lvREM4UnlqTGpZcUxYNUNyUmtISVpSQ25VSTVjQzR5ZHpFYmJlYVVtcXc4WnBLV3pRTFh4RjR3cVQ1RV85ZTNac2FteVk0QXBsNm02THNBdi1BWkhDc3FwOHFPZE1pbFJTaHlwSDJONEl2ZEZkXzZxX2d0eUx6X0JVenBremJCR2hXTDFCNEo3eVE",
     "CBMiW0FVX3lxTE5QcTlaM0h6TkJXV3RLZ19TYnUtSFJhSGE5RkJfWmpETEFySXFUOHQtVkpTSXpTYkJyVjNEc3FPTG45bmNTaFhoU0htM0ZvemF1dnpPd3J2SXZGTlU",
-    "CBMiUEFVX3lxTE9EVko2cG1vZmhIdjJaemZDQVA3N1U1UFhla1NpOF81ckd0TTZGc3JjT0xGU0dvcC1OREtnTGpaa2xQYXF0VUhzSXVwRUdQZTFh"
+    "CBMiUEFVX3lxTE9EVko2cG1vZmhIdjJaemZDQVA3N1U1UFhla1NpOF81ckd0TTZGc3JjT0xGU0dvcC1OREtnTGpaa2xQYXF0VUhzSXVwRUdQZTFh",
+    "CBMikAFBVV95cUxQU1ZxX1haRGZuLTVINXZiTTE4dkRhcXMzWkxiNmFfN21xRVdtbVlQdkFJZ0YzRURDa00xcTVwNlRMRkc3TlZpWDA2NTJVWDNfdTJGLWwwZVBOcWpUNjYyZnhkako0Vm5CMzJUUE96RUtEUlVCUjJPbnpCbFNiNkNZdlBKcHM3VFZNRXkyYlRSSTQ",
+    "CBMie0FVX3lxTE5uT1B2SGQ1N1pMUDQ2WVJrN3dNRUFFdDdRNW9QdTlKcEhFbmNQV2VFVDFnaHBwRmhzZnlaMWg4d3V2RFRleml4VE5FNzA2Q29ZNmlDcjVOUW56YnBKbHZYWGg4VzhJamJFQUd3UjBuaXZDZG0tMnowa3h2WQ"
   ],
   "daily": {
     "d": "2026-08-25",
-    "ai": 34,
+    "ai": 36,
     "staged": 3
   },
   "staged_hist": [
