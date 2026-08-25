@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC And Ram Team Up To Auction Off 900-HP Ram Rumble Bee For Charity",
-      "ts": "2026-08-25T06:05:00+00:00"
-    },
-    {
       "t": "\"The wife got to sit in a corner\" - Colby Covington rips into Ian Machado Garry in light of UFC 330 loss to Islam Makhachev",
       "ts": "2026-08-25T06:05:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Former NFL player reveals moment he knew MMA was his future",
       "ts": "2026-08-25T04:27:15+00:00"
+    },
+    {
+      "t": "Gilbert Burns Skips Over Buchecha And Rodolfo Vieira, Names UFC Star As Best Example Of Pure Jiu-Jitsu",
+      "ts": "2026-08-25T08:49:57+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Paulo Costa says UFC is ‘lost’ without Dana White more involved",
-      "url": "https://sports.yahoo.com/articles/paulo-costa-says-ufc-lost-034110081.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-25T03:41:10+00:00"
-    },
     {
       "title": "Michael Bisping rips ‘ridiculous’ reason Paddy Pimblett’s UFC purse is withheld",
       "url": "https://sports.yahoo.com/articles/michael-bisping-rips-ridiculous-reason-035736826.html",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-25T04:27:15+00:00"
+    },
+    {
+      "title": "Gilbert Burns Skips Over Buchecha And Rodolfo Vieira, Names UFC Star As Best Example Of Pure Jiu-Jitsu",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcnZCTF9ydUVocm8yalBfSnViMTNMYTFVSEJFU05FdThrZHNneGNZd0VPTG1BeHVjSmxoUW13dk44aURNNUhOMWVHNlhoaUFPcVdCTHFuRV8zZm5KM21xV0NOeXNHSlRTd3JrNlM5eVNXdWxLaklhOU9pZTY0SGRfVFoxakVVS2ZMR1pIWmh5NjEwMFhJX0dWN3BIWm43QWEtWTdEQW5PRk5QM2pzZUg3Qmhka2hrQVd0V05Ob2xTLTBjWHpjYTZ5Yzk3Qko?oc=5",
+      "source": "BJJDOC",
+      "cat": "ufc",
+      "ts": "2026-08-25T08:49:57+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMi3gFBVV95cUxOMkh6VC0yaXNsQ0taQ3VxOXFocU1sZlUwYi15a2padVBsUHlGa2dQbVlfWjBBOUhiV0E1azc1bEpZUXMtc0RienpBeEdDZThLaldhTEYyRFpmYzBqS0pWbGxkcm9PYm94RWU4VEtqdk0tY3ZKbF81aTZlOGdOakphWEFBU2dIR2pYMEYxbjBaUE11bUJ1YWw4TU1WMFlfNGRUYXlxUkJ4VUFndjM1Q1JOSHBkZl9tSFVuc3hvX0pMdkNwTXRqdVFNckZvWWlRTUV0OGtqZVp5U0pWRXZpYlE",
     "CBMirwFBVV95cUxPeXhqd2RRT0NwR0xqRGJ4UzlHNXZtVFB2RzBWdlBoWTFsWkFKcGczRDlYLXdpdzc3Sy12dWRTQzAyY1I1OTVYUVZfb293OWVXLURLeS1RX3lvSU8zMmEyWXhrUEJBRWNvcHM1UFV5SGJXSkFqNTVpYzEzTC13d3JQazR6ZW41eVFvQTkwZGpOOHJhZE9ZejFJMHRNdFNPUzc3VGhCMGpuMHE4MjR2ZnRR",
     "CBMiggFBVV95cUxNbHdWNU1zY1NuNkpOazZnaV84ZjBncEV1ZGQ0VzZnbkdjQTBnX2laVWlJN3U2ckh6WndlTWZuNHdXb0FveV9ORVJsN3hwS0ZCQVZpS080NUc2QTNGM2wtWjRJaTRUMVpiVG5yTDBYWThvOUdDUDdCVHdFNEw0YUt6Q2p3",
     "CBMisAFBVV95cUxNOTJOZ2tFZWVMdWplVGhuTnc1dHQ4OTdGQVA5RHhpWEJIck1vZXZDQXR2dTZGZjlrOVhNNjRwcUxMQk1aQjdZMWdxS3c4QnA1WTk1eTZpV0swWDFxQm1na2plcHlqcGRMYWEtSE5DOUpCVE1mM0c3WVRMMkxpSG5KOXdObGxCSGxvcFRjak9yWmlwUl80Xy1UQjBBU3lobm9HWlUwcUIyUzNoSGZxZ3VCMg",
@@ -3312,7 +3311,8 @@
     "CBMigAFBVV95cUxOZGFiT3g1amtMaVZ6ZG1jaW0zbmpzTGdEVHUxcUlnOWhGeGN2N2hyRDJEWFFkTFZGSjRST0VnZnRiTXB4TlhDeGhMQ0Q1bmZIUWt0SXV0NzQtM3VfcUU3eDRtRUpUQ01tdFp6QThoY2hvMXlQaEZ1QUVLbV9wTDQ0NA",
     "7a1dfd12-98e4-3553-b2dd-0b62e4f2082d",
     "20a12304-2794-376b-a556-931dc4bdf6e1",
-    "2d1a945b-4f01-3dbf-9a2c-94458db10498"
+    "2d1a945b-4f01-3dbf-9a2c-94458db10498",
+    "CBMizAFBVV95cUxOcnZCTF9ydUVocm8yalBfSnViMTNMYTFVSEJFU05FdThrZHNneGNZd0VPTG1BeHVjSmxoUW13dk44aURNNUhOMWVHNlhoaUFPcVdCTHFuRV8zZm5KM21xV0NOeXNHSlRTd3JrNlM5eVNXdWxLaklhOU9pZTY0SGRfVFoxakVVS2ZMR1pIWmh5NjEwMFhJX0dWN3BIWm43QWEtWTdEQW5PRk5QM2pzZUg3Qmhka2hrQVd0V05Ob2xTLTBjWHpjYTZ5Yzk3Qko"
   ],
   "daily": {
     "d": "2026-08-25",
