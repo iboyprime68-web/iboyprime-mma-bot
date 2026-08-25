@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Should 41-year-old Jorge Masvidal UFC Comeback Fight Be vs. Leon Edwards?",
-      "ts": "2026-08-25T14:33:00+00:00"
-    },
-    {
       "t": "Carlos Prates suggests fight date and famous location in new message to Islam Makhachev",
       "ts": "2026-08-24T11:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Tyron Woodley Says Khamzat Chimaev Is The Easier RAF Moscow Match After Joaquin Buckley Comeback",
       "ts": "2026-08-25T17:26:34+00:00"
+    },
+    {
+      "t": "Merab Dvalishvili Drops Cautious Approach Ahead of Petr Yan Matchup",
+      "ts": "2026-08-25T17:26:56+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Fox Sports Posts A Trump Video That's 'Propaganda At Its Finest,' Critics Say",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOVd4eUtpU1NxaUw0cW9RdnBpbjdDeXhfMTJZV09VaGFZczR2RFFLTWxjUmpDWEttRDctcDFPUUN0VW9HQ2Q2SW9TV2RIYWtIdTZrQmIweGFSZVhzMTVEbDQ3dnlETDQwaldmVTgxNjVKUnNyNVdJcWtfYlRSMkQwWXRZTFEtYmRfcFFxSm1vWENEQQ?oc=5",
-      "source": "Yahoo",
-      "cat": "ufc",
-      "ts": "2026-08-25T15:24:00+00:00"
-    },
     {
       "title": "Jelly Roll Calls Out President Donald Trump’s Size After His Own Weight-Loss Journey",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSVZ1QThUTGZocVh6MFhjdnEwbjNBZC1oY1ZEY1BCb2ZBTmMwT1V2amFjTDRxRDhxNTFvUmJncllzY3VFYmp5N0hoMDZvQVBtQ0ppVkVIaUxGcDN3cDhHR3dsQWpyWHpOb3BhdUNKRTRiMmN0MnlaMFBXREdjWk8xNng2blV4RTZnSm9IclBJUkFFc2lOY2Y5VjJVUDE3VXVwYWZtSFpYdUFVelJqNG5B?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-25T17:26:34+00:00"
+    },
+    {
+      "title": "Merab Dvalishvili Drops Cautious Approach Ahead of Petr Yan Matchup",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcVZFUk9DWUpxYzlVVTE2eUN2Z0VIeGt5a2xGUk95b3d4UTRwUDFEM2k3RktCWDlLSVJLWFJabXJxMmRwdTdZWkN5LWdnOVQyWXdPclpQU3dxVzE3dmo3RDQ0dTRQZ3hiREhXV29pYmJmWXRJTFdSOFY0bmh1a2k3Qjd3X2IwRkEtdkJMRUNHdzZzU3F4OUNhZVhIMjM?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-25T17:26:56+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiqgFBVV95cUxQdjFKOE9DNEc4TnNYSkNLLUhLODJIaDRLWmgzMFJnMFIwbWlmUFlKMThQZ2FlXzRKam1ZcmYxekUyNG9lZkRGaWVYMnFBTTVfMF9pS1hpQm4zMEFCM0s3ZzhvVWRHMU5KQTBwOWtYZXgxWlZHMDk3b1pWX2RiMTI5aFVzOGl4MkRfbHpMdk42N29tM0RiZkwtaXBfSG1nelZpWkhCbFJmcFJzQQ",
     "CBMiggFBVV95cUxONGE1em1JUnl6VzVOOU5iVnhTT3B3dmg1SThZbHdlM1ZtYkNEdFN6cjdXcUlMQVpjZWhBZHVaTnRtUDlsYTFSbkxucUR5RGcwd3FoZktPZUZaaE1BUEhZNkxzTC1rRHdWUGdBcEhxOHRlVmJ0Z3RuZU1SaUowZXY0TVJ3",
     "CBMitgFBVV95cUxPTG8wcWxiaTZOTk5Pb25rZ1pXVVpKbHpWeGtlUlRrczdobkhiM0tSVkFVY19rbHRQX3RFQ0VLMlYxV3R4blRFNjZLVGp1dndLbzRPRFpUSURSS0Jra1owZmp4SkNrb0haVlNVSzgxcXFVTGFpVlRXTWs5ckZoMzMxcUZYMzFFS1NvZF9NTlhhYXUtQjNXYUVmZHc0X2w0aXlLOEpiSzJnM2JVU2JIOVRzbjlTUFIzdw",
     "CBMiiAFBVV95cUxNdDVmQkxtRlA3QVpUWmJxNW1naTJlb05mdkZrOTNsWmJveU5YT1o0a2tJM3dfSGNscWFyTHIwRXhneWFESGF6MnhHWHljc1dLZXRjcEdUeWhlMGg0MVo4cG4zb1VjcklMRDI0M0U2WHdQMVVlMnNsYWljZ2d0bmI3YUt5UE9EZFFF",
@@ -3312,7 +3311,8 @@
     "CBMiY0FVX3lxTFBYb2tJRHhGcUkxQk9MNWxXM3NLLVVkWXFVWXotbXVCcGx4Z0c0bEhWcGliT2ZuNlBzSEVxblREUUtyalVib0tSNWcxbkJrTXFDQW83SlAwSGZVb19LZnFNc0FXbw",
     "CBMisgFBVV95cUxOcHNTTXhFN053VHl0Rk1hYzMzNXhpNnV6d2tJOVQweUM5VHBpT2JsXzI3MmJnOU1wUElIMG9HY2xKYjBObnp1d191VWpBakJmcEwzNUtKTHVxMTQ5MFpEVEFIV3gyakZlUXhEUzN6cXpTcjZXdzhvSVlRSE9GblE2MnpldmdlR3RhOE1SaTJFcnB5ZkdpR0tQMVpNSk94QWd2dWdEdG1QOHpzVlZqRDJvbkRn",
     "CBMi7wFBVV95cUxON0hzNmVDM25CeW9wOWhSa1NaanI1Qi10aTJMRXN6TzNSaE56VjVMcXNia1M3Vkt5cFhkRlo4R2dpdlJRQVhzYjg0RG9Sd3lQaW5EZnpPM3VkMkpFLVhJWERnVWRKZ0dHdzl3WnJEMllPWWpGRXFFY3ZIZ3p5d09UbDhRV3dVWC1Yb25iRzQ1NnpRbks2Y3g3TTNkUjJOSTVrbmRJRDNnUWVJTjVCTmxOclAwVkd3cHVDRTNUTDg4YzZMSDl0dF9tdFprOW1OT1lnTVhCTjAzQ3ZVSmtuOGZHM05iSjlrdklsVmstUEF3RQ",
-    "CBMikwFBVV95cUxPWDBaVzNoVDhTaHVybkVBdkppTWI1Sk9DNU5ZYXVQUkJJeXd4akswcUg3RjRORFVOcWpZal9KNWt0SFhRNmxpd0NRdnJxbGE3ZnZkNmdpWm5ENUlNSEpUOWNZN0VhZHgweGtvOHkwSHFnSHVxSFc1R2J2M3M4WTVETnA0c3dYYkw2WG9EVHRkaVNzTjg"
+    "CBMikwFBVV95cUxPWDBaVzNoVDhTaHVybkVBdkppTWI1Sk9DNU5ZYXVQUkJJeXd4akswcUg3RjRORFVOcWpZal9KNWt0SFhRNmxpd0NRdnJxbGE3ZnZkNmdpWm5ENUlNSEpUOWNZN0VhZHgweGtvOHkwSHFnSHVxSFc1R2J2M3M4WTVETnA0c3dYYkw2WG9EVHRkaVNzTjg",
+    "CBMinAFBVV95cUxPcVZFUk9DWUpxYzlVVTE2eUN2Z0VIeGt5a2xGUk95b3d4UTRwUDFEM2k3RktCWDlLSVJLWFJabXJxMmRwdTdZWkN5LWdnOVQyWXdPclpQU3dxVzE3dmo3RDQ0dTRQZ3hiREhXV29pYmJmWXRJTFdSOFY0bmh1a2k3Qjd3X2IwRkEtdkJMRUNHdzZzU3F4OUNhZVhIMjM"
   ],
   "daily": {
     "d": "2026-08-25",
