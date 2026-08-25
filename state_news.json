@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dillon Danis reveals how ‘Gypsy Crusader’ cost him and Mike Perry DAZN headliner",
-      "ts": "2026-08-25T01:00:00+00:00"
-    },
-    {
-      "t": "Joe Lopez: Alexander Volkanovski's retirement claim 'two-edged sword'",
-      "ts": "2026-08-24T13:01:50+00:00"
-    },
-    {
       "t": "Shanelle Dyer tired of ‘UFC BJJ’ in strawweight division, promises more KOs",
       "ts": "2026-08-24T13:47:44+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Tyron Woodley: Khamzat Chimaev will be 'easy' to beat in RAF compared to Joaquin Buckley",
       "ts": "2026-08-25T16:32:16+00:00"
+    },
+    {
+      "t": "Islam Makhachev Says There’s Still 3 Big Fights For Him At 170lbs",
+      "ts": "2026-08-25T16:18:20+00:00"
+    },
+    {
+      "t": "Gregory Rodrigues Reveals Health Issues Before UFC Sacramento",
+      "ts": "2026-08-25T16:35:14+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Umar Nurmagomedov makes Petr Yan vs. Merab Dvalishvili prediction for UFC 333",
-      "url": "https://sports.yahoo.com/articles/umar-nurmagomedov-makes-petr-yan-003020556.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-25T00:30:20+00:00"
-    },
-    {
-      "title": "Relive Sean O'Malley's split decision win over Petr Yan Full Fight Video",
-      "url": "https://sports.yahoo.com/articles/relive-sean-omalleys-split-decision-003337764.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-25T00:33:37+00:00"
-    },
     {
       "title": "The Thrill and Agony: UFC Fight Night 285 winner and loser reactions",
       "url": "https://sports.yahoo.com/articles/thrill-agony-ufc-fight-night-022119740.html",
@@ -2105,6 +2091,20 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-25T16:32:16+00:00"
+    },
+    {
+      "title": "Islam Makhachev Says There’s Still 3 Big Fights For Him At 170lbs",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMndsNEt0a3gyVjhKQ2ktV2tRZF9OcnJlTzZfTElrNFdyQ3pSREpLNkx0ZDlVdS1Bb0V4MURvdDZBVm92V3NrTlJtWTJKQk5DMHhMTG9zVjNvbHA3VmxHeG96TVM4SXc4UHhNb1hyaHM0cTR1OTBLcnlRN3pyV0VsV3FsQzBZeDNIcmRYRHZmTzJ6N2FhZWtF?oc=5",
+      "source": "MMA Insight",
+      "cat": "ufc",
+      "ts": "2026-08-25T16:18:20+00:00"
+    },
+    {
+      "title": "Gregory Rodrigues Reveals Health Issues Before UFC Sacramento",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZGhMbVZWS2RNU0Y1Mld5N2tNNWViczFWLWV2aWhWYTZyTUJhVGFKN2NlZ3c1M0Z2VXkydkNxTUxXd1VESEZhdm05RzlGTnZ3UGxJaTRFTW9ZbmxINWdrVXlBYWlZWUNQY2Z1OF9EUFA5dzV6QjRNaENHOUZRb0NPbVpB?oc=5",
+      "source": "heavy.com",
+      "cat": "ufc",
+      "ts": "2026-08-25T16:35:14+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiR0FVX3lxTE1ISGN2LVpVdExKZmt0U2JpT2YzNk1vNks4SDZPMk42aC1LdE5HLTEwOXVLdm1LOXBqdkJMekxBbG0tMWM1RklV",
-    "b8f707b9-f2bf-3da7-ab45-8d846be030f8",
     "5b178c47-d24c-3bb6-a2d1-7e3edb74ddf4",
     "7327d964-8c23-3d61-837e-c862f66d61dc",
     "37ea23c5-698f-34d1-9184-d015b807edf8",
@@ -3312,7 +3310,9 @@
     "CBMitgFBVV95cUxNSnE0OG9lUEZwbEhvVkJCeFBSclVTakJBZGUyNk5RSy1LQU03N2lDV0o4NnNJcDFWTG5SazVkTHQ4VUpEQTh1TDJ2bE9wVFdmVEhhMTlzTWtFZGx3THJWZjRNZU9sdlFkeFdLN3RJXzlhU0ZwVHVWblRtVzdZaV9NcTMwNW9GTTJTUHdxOHB2eVZNcy0yYTdzeU1jSUVrOURsLURfLXF2Q0J5MTBaczl4Y1lDV1QtQQ",
     "CBMiUkFVX3lxTE5xQ1A0eGhkOWotTlB4Y3V1Z0N6WlRKQmM4dFB0Z0tNV0xhNHpWYUlIM0h0V2NXR1NSNzdjV1E1QkR1bmdTaFRaaFprZkx2ZklpSWc",
     "CBMiygFBVV95cUxPaXlZVW1YOWx1ZkUyNUZ3ZzNEbjBLUzF2SUdxZFA5NHZ2V3BMeDJtMGZHVWZWSVh0OXdaYVRucVJGYUpCTG9LZ1ZLWVdSY3YtRlRxckRXNXFyLTdHQ05MQ1U2cU9ZRDZYZ2dGVUxmMzlzeFpyU3JGNGlOT2Vqd3lXXzI2UUdaOXRxYlRfYU81M0xxNHd1TWJ5ME5Ub1dKdmJzN3Yza0ZYTnQycWJWUmM2TWtOQmdWT2kyNHphSE5wLTNfa1JMWGxjQmRR",
-    "88543144-be2e-40d6-9fba-45e3d5d59b12"
+    "88543144-be2e-40d6-9fba-45e3d5d59b12",
+    "CBMilwFBVV95cUxQMndsNEt0a3gyVjhKQ2ktV2tRZF9OcnJlTzZfTElrNFdyQ3pSREpLNkx0ZDlVdS1Bb0V4MURvdDZBVm92V3NrTlJtWTJKQk5DMHhMTG9zVjNvbHA3VmxHeG96TVM4SXc4UHhNb1hyaHM0cTR1OTBLcnlRN3pyV0VsV3FsQzBZeDNIcmRYRHZmTzJ6N2FhZWtF",
+    "CBMiggFBVV95cUxNZGhMbVZWS2RNU0Y1Mld5N2tNNWViczFWLWV2aWhWYTZyTUJhVGFKN2NlZ3c1M0Z2VXkydkNxTUxXd1VESEZhdm05RzlGTnZ3UGxJaTRFTW9ZbmxINWdrVXlBYWlZWUNQY2Z1OF9EUFA5dzV6QjRNaENHOUZRb0NPbVpB"
   ],
   "daily": {
     "d": "2026-08-25",
