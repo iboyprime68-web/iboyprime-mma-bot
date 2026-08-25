@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS 89: Where You can Stream and Full Fight Card",
-      "ts": "2026-08-25T07:44:12+00:00"
-    },
-    {
       "t": "Morning Report &#124; Jiri Prochazka shoots down fight rumors: ‘Don’t believe to every bullsh*t on internet’",
       "ts": "2026-08-24T11:52:33+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Champion Alexander Volkanovski Is Hosting An Aussie-Style Tailgate In Melbourne And You Can Join",
       "ts": "2026-08-25T10:14:56+00:00"
+    },
+    {
+      "t": "Europa and Conference League Draw: Who Could Face Who?",
+      "ts": "2026-08-25T10:20:57+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Conor McGregor makes ‘under two minutes’ prediction for Dillon Danis vs Mike Perry grudge fight",
-      "url": "https://bloodyelbow.com/2026/08/24/conor-mcgregor-makes-under-two-minutes-prediction-for-dillon-danis-vs-mike-perry-grudge-fight/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-24T21:30:00+00:00"
-    },
     {
       "title": "Dillon Danis reveals how ‘Gypsy Crusader’ cost him and Mike Perry DAZN headliner",
       "url": "https://bloodyelbow.com/2026/08/24/dillon-danis-reveals-how-gypsy-crusader-cost-him-and-mike-perry-dazn-headliner/",
@@ -2105,6 +2098,13 @@
       "source": "Urban List",
       "cat": "ufc",
       "ts": "2026-08-25T10:14:56+00:00"
+    },
+    {
+      "title": "Europa and Conference League Draw: Who Could Face Who?",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oLTdWV0d2OWhWak9QdFB0blpIY1lVTFo5SzdXdG5LeDRnOFVLcm5tWU4yQ3pOenRzdk43RV9wdXBuVlB5bllYMUFQUVJ0cGVReURCNS1oaFRRZVZKVl91NWF0OWI1T0VXMjAtNDNOZ2Q?oc=5",
+      "source": "World in Sport",
+      "cat": "ufc",
+      "ts": "2026-08-25T10:20:57+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMixgFBVV95cUxQS1prQWliTl9aaWxOc3lubFZVd1Fjci1XVG9URlloeEE4T0Zkb0xoeWxRZzhxT3A2b1JVelk1a003MVZXNFFtNVpfLTdPRG4zOHIwVndZRk8tNEhLU2ZyM3Y0V0ljUUxWdnBvTEFKMEdhTzFpSXZINUY0N3pMQXdrQUFmWV9zUUZLRzQ4b0VMdHVfZ0ZJN0pGQnNUUE5pdVBFLUp4MkFWNWV4a1ZJOUhLZDV2dXhsdkRkT3R0dEtLR2pNcGYySWc",
     "CBMi_gFBVV95cUxPMkdLWVJMWkRMTWM3TTRxN2M5Y2V1SDdLcHctR0pXajYtczlQcmhuaWxFaFJzQ19xbEQ4M1FISl9DcGljaFpqMmhhb1VsSk1GMGxvTEpId05wMDRCbUJMOHpnRGlQb2dpMHVnNUlFX1M3bURQd2R5ZDY3RjMzdThld2h5eU5ETkwwc1YtMXBVM0tHUDMyZjRSeXpnNlMyRFVqNnJIRU45TC1IVUk5ZWdYenJwTEhZYmpObjRKZlRZSGxiNkhiTENKOTR4V19VTG9kYkkzSDMxTWJCcHZ6TXZTbW9HV3dTVlNiLUx5OENuV0VrSDdWMDY2VDVOSG14UQ",
     "CBMijAJBVV95cUxNZVB5U0hESjNCRXJjM0owTVRLVDhMTlJsTXp4RWI0ZTA3a0VQRkQ3Mm5YWUtGaWhydTUxNVJfUC1kaE1nS050T1RETm45cHlqdUVfN05WWFl3VGRzTEVVOVJ2NlNJVmhzcmMzMVZ0bThGSEdFTjM0OXZSN2lzeUNIdWttTFN0aHNCQnNwMnJnLVk1N1BoODRWV0F6bXRuaWdVODhzdmJzSnVtRHZtVTVpSU02RlBqYjVSdl9mSHJ2TnpzeHRuV2x2N3k2Q05qQXJTRHpIdG9tMHZOYlFldnVjbmRxcXkyem54SktTSkt5cmJHR2pudkZFUHctUk1hUHFIUkdCMm5hT01JSWtO",
     "CBMifEFVX3lxTE1zYzhuVjNvano3dnFfS2kxMW5pdnBCOEhRZW1TVFRVYmprRzNsV1Qxb1hLMHdtZ0hxdEZKQmtaWEFxUlVFQjR4dEM1NFZ5X3l5TGphWmcteHFmcXpoUUR3S1N3dFg3OEhFN290WXQybXFxOWlYaHEtM1FidFU",
@@ -3312,7 +3311,8 @@
     "CBMiwAFBVV95cUxONHNTLW5CQ2xNMmFRZUJkdGN5Z2ZJOEk3TndYZFlOSjNZamFFM01VVFJtbHl5ZEd1T0pSaUswZVNOYmZUWlJhWW1QVVB4OWFtbGkzMDlyeU5TTkFlejVzNG5VTDZjTi1tUWR2QnpYdGJGeld2SmgtangteGVFQUNkaFRndUR1OFg2M3BvbTdFZXZja3NWMmFaRnpNOTBBSGhKX1ZPNGlveGtjTG9lbUlubEcyS0NHcFJHZ2ltMkw0WWY",
     "CBMi0AFBVV95cUxQRGdiRnVScmxvSlNYWHprMy1zRTJLcGZSVmVLQ01GN2xab2s1NmQ4LURXVjNiOU52a21WU1BFWXAtZXN6cEQ3WEt5VzJYaG11ZWhvOTNTM1p2dWdCeWc3aC1mcUdmOVplQTVmV0hDVlFLeENhLVBqTkd5NTFhUjl4ME8wc0lJcWNSeFBkRTJDUzFScHlHZ0M4RU9iTHVISW9ucUJFSnNkRGVpMGRSNmVwVzNIaFRQbjFSQzA1WjJxVlQtLUV2LUpxSTJmRXFrSzBZ",
     "CBMi0gFBVV95cUxQcnlWcUV1V05sR2d0WDZRRUliYkFsdDMzYmZ5cFFObGNEX2VUaEd6MmNvSDZQcFFvRVkxUk0zZFBaN21sWEhVUXpXZGFGaUdwNlQ4YUpTcFFZUkVSbHFQaFM5NnRleFNxbDhxMWxfNFV4djNHS0dZT05kZjB5VDQwX0ZKbFRKUy02UlM4TG1hSERldDJEbUtiNHlaUHFXYlBpZ1dnNnIwb09Wb1gtaXRQQ1BBbEs2OFlnT3FRN183X01wZ0h6Y3Izcjctc1RBd3VXdlE",
-    "CBMifkFVX3lxTE5FR1JrNHJPVkdHeG1uNl9lbHBBckprclp3d01xSFJsZkhnTHpoYUVESm9HLU1pcm8xQU5aZ2JaRWRMWVpBeUFmazl6ZGFNeGQ0d3lxdXY4RjB4ajItbmdWRjc2OWNsV3EtT1JHLVBUMWZWUXBPbTVscU42UHhiZw"
+    "CBMifkFVX3lxTE5FR1JrNHJPVkdHeG1uNl9lbHBBckprclp3d01xSFJsZkhnTHpoYUVESm9HLU1pcm8xQU5aZ2JaRWRMWVpBeUFmazl6ZGFNeGQ0d3lxdXY4RjB4ajItbmdWRjc2OWNsV3EtT1JHLVBUMWZWUXBPbTVscU42UHhiZw",
+    "CBMicEFVX3lxTE1oLTdWV0d2OWhWak9QdFB0blpIY1lVTFo5SzdXdG5LeDRnOFVLcm5tWU4yQ3pOenRzdk43RV9wdXBuVlB5bllYMUFQUVJ0cGVReURCNS1oaFRRZVZKVl91NWF0OWI1T0VXMjAtNDNOZ2Q"
   ],
   "daily": {
     "d": "2026-08-25",
