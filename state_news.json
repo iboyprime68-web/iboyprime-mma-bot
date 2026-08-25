@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "\"For the fans\", Drew Dober calls for the Chandler fight",
-      "ts": "2026-08-24T22:28:36+00:00"
-    },
-    {
       "t": "Frank Mir’s Daughter, Dana White’s Prodigy? Why Bella Mir Could Be UFC’s Next Big Thing",
       "ts": "2026-08-24T22:28:37+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC owner Dana White relies on AI to establish political truth",
       "ts": "2026-08-25T01:31:05+00:00"
+    },
+    {
+      "t": "Must-Draft List",
+      "ts": "2026-08-25T01:24:29+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Deshaun Watson Named Browns Starting QB for 2026 Stream of National Football League",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbE9ZS3NqaE1iczV2d2dldm1IV09Bc3RpUnhOdHhBczYwZEJJekh3WWt3TEVZeU5YQk80Z1hIWWYyYkNySk40WlRkbjA5LWNlVFMyRC14LXFXa2ZVXzNzMF9tVmlwTG84ZlJFOTZETkh4d3JabHVJNXFFM2E1aDVqQzU1aWowbGtIeEd3dUdaVXFLdVpITkJ4Y2Vn?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T23:32:58+00:00"
-    },
     {
       "title": "Would Browns be better off with Shedeur Sanders or Arch Manning? Stream of National Football League",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUlNJUmVOUElRRmxYcmlLbkRmSWxkYWw2QVdLOFRIQVFJblBFUWliS0hvdHpLUGNPVUY5S05XdUJBMk1feU9WQkdOTkVjQzQ1bXlDWGU2RXE0UkZ2YktfRm04dGRKY3FXbHVSMzFYbnRYaDZwczlJRmlkS1JpLWFPUGJDamdxN2pIbVFMUA?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "thecomeback.com",
       "cat": "ufc",
       "ts": "2026-08-25T01:31:05+00:00"
+    },
+    {
+      "title": "Must-Draft List",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc1pkd2hWVE1rQWdwd0tzRDF6b1V6bS0xNTB6cWU1QVFNX2U3dC15bnNFcmNsNHR2SVRkdHZlYS1UV05sNUVLanZQUVJUUHEwVFlVSmNObXhqNmVIR29DRXk2VkhEZzRXeC15c18xNEtadmpka0JMaXdiTkowMXBoeg?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-25T01:24:29+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "CBMikgFBVV95cUxOSHZDdGJLc3pNWkJsTnoxNkM0OXhYR05MNjJGeHY3d2Z2VXpzY1pXUV96b1FzRmhiYzJXd2ViejJ1cDAtaml1N0VWVmNuTWlZRGRDTmVzSjFmWnJLcVpTTGVrbkpvUDZZZVRxZzBaN2V4akJUUWxleUJGa1I4dFI2UE94QjI0d01vX1VNazluY1hmdw",
     "CBMiwwFBVV95cUxQRDlFYzQ4c2N1MVN1SWdVVVphU2lOUmIyUms4Q3h0Y3BXeTZ6TlZ0UjdCQVdhd085MDQza1ZfcEx6N1IyR2ZuRUJOei1FQ1RHOUs5b0paV2V4eUpKdTJ2YlFXZTZPeDVJVHVjVzctb1pxSEpDNzgyaU1JRDl6MU9Xb1hDVmNFRHlFVF82T2doVE1WZm80czV0X3hNbUszWGdITGY3YjVESmtfM0dQYWs5SDZObWN2YjlydXVBVVdEcTBCZTA",
     "CBMihwFBVV95cUxNUWhmcFVXeVlXMC1RNm1aQWxrRlR5cTNFWUFjZmJRZ2ZEbUFUdmpTMWVNNUtkZ0lwSHVzVU50aWlSckwtSjB1eTg2ZkVKelRxTTBLTloxb2MycEg5U0F5UFdwTFFiVUwtUDZNOWxlNEdIZmtWNkpMM25sOUpseGs0a0l3WXpIWGM",
     "CBMikAFBVV95cUxPRDN5M00tQVoxTTJyN1E4cmRtZERnZ0NxM3ZUY0puaXkzWGJpZmtvekdWU1R4ekRBay0yVTZSZjQ0LXRNSUc0Q1FheXZFOEtRcEZZa3Jla1dEWnBXV0pVaWZOR2FWQ0pMMW1jRzJmajJjbkNsZ25BaTBrVEo2eTdWZlVvbDd5TDlrUngxbVRlMjc",
@@ -3312,11 +3311,12 @@
     "CBMilwFBVV95cUxPVkNHTl9VSGJaVDFCVDBMeHU5cDVrNmozV1BmTWlTZ0t5V0FKcGdhQlpNTHpNQl9pbFE3Z0lCcDBaTElUUVJ2UnpuU3hGelVOVE9GdlJTdWl0UFRoYkFuMjA2MGRtOEZqQW5mTW0wRktuaHFZQmNBTENUaUtiQXdYTkdBbFNVbDJsWWVsNElTOC1nSEhNajlN",
     "CBMivwFBVV95cUxQU2Y1U0RtbzY0Ym9Rb1llUlVNOFlOOFNsVjBXSmZ2NWVuMU5tLXF5cGd6WmREQlZOSzUzTGREX1NEODVvRDIzVFpjMV9mcFppbS00RnBZcFNRNU40YmlfT05kWGhIUTBtaHVsZUlIcHBYWmxCakVnUXVaLW9vYjR2ajl0bkhBMC1UcUFpYklwazRQMXduVnlsZzFCVHlzSjRBNHI4TWdPaDgzZkNUR0d4bENCRXZxc29Ealhfa1hMQQ",
     "CBMinAFBVV95cUxQYmlONzkxSTIzbHZwSXltWFdrVzc2V2thdTFzcnAtWkt3X0FtOGExUVZvLVdXRC14bzFobHotaGN0aXBMOGlhWFpWeVdLS2RtdXlFMm84NlRKQnlRX29kM21OUm9DSHR4X1dORG1OTms3NUl2ajN0SlZBbzdtNTFNejFTWjY5dWdWZWFHM2tyZmV1cGxiNjhiNlBLeFc",
-    "CBMimwFBVV95cUxQM29ZOW9xRmJmM3B4UWZxTEJCUTM5OE5hSENlWWFTbHpYWWstaWJHLW84OEpwaUIxM1lUVVBUUlJfaU5FLTlFblRHeGtuNnM2OUN4Y2diOWpPYlBHODBrVUtWWUdkcHphcGRfbXpOYmZrV1dIYkFvNEFFMVVWZ0lPT1RBbGpiVVI5MlRZeUtVZWgwNnFEV2pGdHR4dw"
+    "CBMimwFBVV95cUxQM29ZOW9xRmJmM3B4UWZxTEJCUTM5OE5hSENlWWFTbHpYWWstaWJHLW84OEpwaUIxM1lUVVBUUlJfaU5FLTlFblRHeGtuNnM2OUN4Y2diOWpPYlBHODBrVUtWWUdkcHphcGRfbXpOYmZrV1dIYkFvNEFFMVVWZ0lPT1RBbGpiVVI5MlRZeUtVZWgwNnFEV2pGdHR4dw",
+    "CBMigAFBVV95cUxQc1pkd2hWVE1rQWdwd0tzRDF6b1V6bS0xNTB6cWU1QVFNX2U3dC15bnNFcmNsNHR2SVRkdHZlYS1UV05sNUVLanZQUVJUUHEwVFlVSmNObXhqNmVIR29DRXk2VkhEZzRXeC15c18xNEtadmpka0JMaXdiTkowMXBoeg"
   ],
   "daily": {
     "d": "2026-08-25",
-    "ai": 29,
+    "ai": 30,
     "staged": 3
   },
   "staged_hist": [
