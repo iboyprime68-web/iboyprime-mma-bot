@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Michael Bisping leaks potential Paddy Pimblett title fight to take place at UFC 334",
-      "ts": "2026-08-24T18:00:00+00:00"
-    },
-    {
       "t": "Carlos Prates Calls Out Islam Makhachev for UFC 334",
       "ts": "2026-08-24T18:25:57+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Merab Dvalishvili makes an honest admission to explain why he lost to Henry Cejudo in 36 seconds",
       "ts": "2026-08-25T22:00:00+00:00"
+    },
+    {
+      "t": "DWCS Results: Mir vs. Apodaca",
+      "ts": "2026-08-25T16:00:00+00:00"
     }
   ],
   "digest_items": [
@@ -1881,15 +1881,21 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-25T22:00:00+00:00"
+    },
+    {
+      "title": "DWCS Results: Mir vs. Apodaca",
+      "url": "https://www.mmafighting.com/ufc/507005/dwcs-results-mir-vs-apodaca",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-25T16:00:00+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
   "hour": [
     "2026-08-25T22",
-    1
+    2
   ],
   "yt_eval": [
-    "5f373159-76bf-3b78-909c-430cae6c5765",
     "22ea8c80-961d-3f73-9b02-e6354f78f5c6",
     "f1361a66-fa0d-350b-9609-96b95491feb5",
     "CBMingFBVV95cUxPamRfSnRJUG1qMHUwb19lamllbElsaXlXVE4tbjRXUlhmYmlCRnNCaHB0SF81d2FSdmhxWW1pSThJYmZMX3VrY2pwUTdRUm5MXzhxdU5TbFhwNnJYZVlLNkRNOTAya0I5Zjc3VjBTRjRXZUJJWU43NDIzSUlvSS0xVXNQRnpYTU1XbVFTNGNudGR3R3hfaXc2T0d6em5IUQ",
@@ -3088,7 +3094,8 @@
     "CBMisgFBVV95cUxNTXZycFBXV3MxeGFZeVJ1aE1BTGhkbk5fZ1dGMXlkRHVlS0pzWWtiNEYyNjZDc3cyV1NMNkRCTk5vRGVvOUxmSHZ2bmE1eVJrUGZ4czVGQzNXcU9QSkdtYW5KcHgtY25jTXRxRGp1clNoV0oxSlppOGgzVklXWGlwUVRaSkFCcVZBSUNJMEZDZmlIM0xMbE0xUjV3QU9CdGItcE9rSC0xMENyQWF0WWhyY1RB",
     "CBMif0FVX3lxTFB1QUZ3T0J2UmdVOGJ0V2N1SWlwN3BKSVhpX1I2MngtclJ4WV9BVWtaNG00cEs3MnlsS1lpRFdZbXBUNktFODducGJPa2M5b0w5ZUNCTG50U2lYSURDNmhpSGZWdzB4c0pVQmgtSkZ4MG5DNGR1SVZpbXNUVU5YRnc",
     "CBMigAFBVV95cUxPZGVxOG42UHBrNXR2ZWhNMEpSVWV1OUY3YmdybF82Ynp5bVMyc0kzRmZvUjJRejdfYVhldkI0QXl3bzJjSHFKWEpMNVlJQldVUGlybDRtc2ZMSkNsOFM2X2l4MGVXS3RSYjJ5dF9SODdNVHRUN1N3bmdCNmpJN3h4Tw",
-    "https://bloodyelbow.com/?p=328827"
+    "https://bloodyelbow.com/?p=328827",
+    "https://www.mmafighting.com/?p=507005"
   ],
   "daily": {
     "d": "2026-08-25",
