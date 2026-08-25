@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "RAF 12: Dvalishvili vs. Cejudo 2 Full Event Replay",
-      "ts": "2026-08-25T03:19:33+00:00"
-    },
-    {
       "t": "Edson Barboza calls UFC 331 star an ‘improved version of me’",
       "ts": "2026-08-25T06:13:10+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Carlos Prates disses Islam Makhachev's fighting style as he eyes UFC title shot",
       "ts": "2026-08-25T14:21:14+00:00"
+    },
+    {
+      "t": "Dana White’s Contender Series Picks & Predictions (Week 3)",
+      "ts": "2026-08-25T14:22:51+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "How to watch Mike Perry vs. Dillon Danis at Duel Arena 1: Time, streaming, fight card",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSk5JQkdJT0JmbG81ZjFYaWRJa0kxbS03RG1wRDI1aS1vYmVSd3VGeWo0MndjQUtnVzhrRFZ3VndVcE1pUzhHM01ubTl2aXZZLWF3TWxTQTBzNDFQdUtKcUtaVThQbzg4ZDRSQnI2UHBYQnpwbHBzV2FhNWRxeGxtX0RlQ3dzVTNSUVNJcy1XWnNaUXI5SWkycnFPTklxRVZtbE9IeEVjX0dfZVllN2JUUWR2WVNTUktidnlFSEpxZnVPSTlEZW1vX1RiemVzeVhT?oc=5",
-      "source": "MMA Junkie",
-      "cat": "ufc",
-      "ts": "2026-08-25T12:01:00+00:00"
-    },
     {
       "title": "Makhachev Anticipates Three More Difficult Fights",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5jUUVNMXJMMTIwRWNoZ1VvTEx2VWE2MTFHelpDQUxyZWdiT2VRTk85NUdzMXlkc3ZHYmhkRkV4N29pN2NTTTlocklIRGo5V1BldTNlbEtIRWZmN01UTkFZdHU2T29HQ19RUTVRTEV1T0otOEgxSnc?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "AOL.com",
       "cat": "ufc",
       "ts": "2026-08-25T14:21:14+00:00"
+    },
+    {
+      "title": "Dana White’s Contender Series Picks & Predictions (Week 3)",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeDhla2J5NGd5TjR4d2xmWUpmM0l4dXQ5MTNvTzJFNThPZDdadFNTVVRsWDF1aUZucHJ2NnRuOVpBUU5EcDdMeXg1VUtaZGlpN2t2R0dUZVkzR0FPU0VGcVNSa2tkNWFzYTJsQm41Sldjb2hMaFNMSVZmVk0wQ0hRTXhyNDU2VkJ4MUJnbmcwOEJNdncxdVZwZ9IBngFBVV95cUxPcUtPU0dfdGJ0eW05RVF4UUpaWjVBZE9CWDBwLVdvVVQycWszTnNnSDJRQVROcVZlLUgzSi1teGZickxRcFBMQ1hyOGh0eFczRmN6d0drMm4wTk8zUV9raHdCcExDeVRLc1d0WEpUNzY2UEt3TXhfcmZjbUpiYXdMTG5ULWtJNDNyMEVFTnZhVkY4OWx0dFRua3ZjdGpOUQ?oc=5",
+      "source": "BettingPros",
+      "cat": "ufc",
+      "ts": "2026-08-25T14:22:51+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "abaf7a20-b651-390c-9a24-0db5c5cf6fb3",
     "1289a7e2-711f-3109-9061-2a4e9e8932d3",
     "CBMiigFBVV95cUxPcHM1ZzA4enlhb0dwX3JuNlJpQ1hpbjV2M0o0cjZ6VDVmaXUzWF9ldnhCUTNJdGFKRGJ2enZ1VHpINUlxdFZmRGNGRERRZEVlTGpkRHYtWTZpMlBDc1M5YzYzNGdXMDZhVC1qNmt4aE9NMHhOdkowY3NVUlRURklDVXZkXzliYWlCdlE",
     "CBMiqwFBVV95cUxNWDFxaWI2cUwxYUhTa0h2MjV2c0hkbDE2ODBxNVJ3MjBybmx3eHpqdUtac1BTWHdRdWE0LUFpQkVzRzBKb2J3UGNaa1VoODA5MUtiZEdkeXRualJMOXVIZU1Rd3EtZnB6TFREVC01ckJFTkNjdUY4X3YtT2M4YktJR25FR24zakp6U0U4UjVsTjZ3OVhCVC1EV09FTVBFVDJncFVFSzU0OExDd1k",
@@ -3312,7 +3311,8 @@
     "CBMihAFBVV95cUxOd0xwOE90LXdzeE51V09nTE9ia1JaOVVhb2NWeW1DZ1k4ZE9kR1prcmpDRFVRU2pYQXhCRHZVMGM3TFJ5SzhHYnc5c3M2VzZ6SW42eXM1LUJpaXVvSFo5UHlvYlFDRGVaTzB0T0JXZ1NNUW9lWTNWdURkWjVHSWVjbi1hbVg",
     "CBMivwFBVV95cUxQWnhGYVJtMlE4VUdDQ0lNN0RZWEw4ZGFBQ3JBQkVZeTVhdnVJNU01Q0xOam9IU2JaaGhKaW5UczZSdko0Mzh2anRiZ09EcDhvOXJoR054Z21MMERSc2VVZGFfNUFkN3ZyaEpDbEg2MndZTE5BNUNtVEM4OTI5d1M2WXpDck9IQ09VbDJQREs5S1FfdW5DWEVIQjlULUNMa1NIN3lickljOVNMemljcEhXaEc1X1JmbEViRU1HOVc5MA",
     "CBMipwFBVV95cUxQeDJtYjViVm10LW8tc2lCZ01idTYxYXZnaGxUZ2l6QWZPbkJRSk93eU1MZjd0RVZIbDR3XzhldzAtQzhPVF9jSEk1MVY5TTJRdU1GNmJzYXp6cXM0Tm9jRTJJalY0Z2wyZE9kQl85bERYMThESWVwOXlPVGVVeVhSaWhaeUxLZ1VnM1hieVBSaDI1bnU1S3RTZ0UyZ2lnS09tc0N3WmNTWQ",
-    "CBMilwFBVV95cUxOSHlId1VxSTNLOUZldm5nbGVXOTlrZHF1MUdSYVNHdnNMSEg3bjhiN2pvOE1TRmxpQUVGY3FBTTFkYkVWN0F5R1lNUFE5YW1CNF9vaHBzQlg4RDRSa2QzS2pBM1hjNWRRT3ZKN2Q0TUpzdFdSTjRWVXJtdXlEUmFTLWt3OXVHdVFjZG11WEU2cnpmOG9RT3lB"
+    "CBMilwFBVV95cUxOSHlId1VxSTNLOUZldm5nbGVXOTlrZHF1MUdSYVNHdnNMSEg3bjhiN2pvOE1TRmxpQUVGY3FBTTFkYkVWN0F5R1lNUFE5YW1CNF9vaHBzQlg4RDRSa2QzS2pBM1hjNWRRT3ZKN2Q0TUpzdFdSTjRWVXJtdXlEUmFTLWt3OXVHdVFjZG11WEU2cnpmOG9RT3lB",
+    "CBMimAFBVV95cUxNeDhla2J5NGd5TjR4d2xmWUpmM0l4dXQ5MTNvTzJFNThPZDdadFNTVVRsWDF1aUZucHJ2NnRuOVpBUU5EcDdMeXg1VUtaZGlpN2t2R0dUZVkzR0FPU0VGcVNSa2tkNWFzYTJsQm41Sldjb2hMaFNMSVZmVk0wQ0hRTXhyNDU2VkJ4MUJnbmcwOEJNdncxdVZwZ9IBngFBVV95cUxPcUtPU0dfdGJ0eW05RVF4UUpaWjVBZE9CWDBwLVdvVVQycWszTnNnSDJRQVROcVZlLUgzSi1teGZickxRcFBMQ1hyOGh0eFczRmN6d0drMm4wTk8zUV9raHdCcExDeVRLc1d0WEpUNzY2UEt3TXhfcmZjbUpiYXdMTG5ULWtJNDNyMEVFTnZhVkY4OWx0dFRua3ZjdGpOUQ"
   ],
   "daily": {
     "d": "2026-08-25",
