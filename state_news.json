@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/461080/mm-clone",
     "https://www.mmamania.com/461091/open-thread-july-30-2026-whats-your-favorite-sports-movie",
     "https://www.mmamania.com/461092/mania-mailbag-how-good-is-dricus-du-plessis-really",
     "https://www.mmamania.com/461355/highlights-open-ufc-belgrade",
@@ -765,6 +764,7 @@
     "https://www.mmamania.com/?p=467312",
     "https://www.mmamania.com/?p=467315",
     "https://www.mmamania.com/?p=467319",
+    "https://www.mmamania.com/?p=467331",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Jamey Eisenberg's 2026 All-Sleeper Team! 7 Players You NEED to Know! | Fantasy Football Today",
-      "ts": "2026-08-25T16:29:04+00:00"
-    },
     {
       "t": "Tyron Woodley: Khamzat Chimaev will be 'easy' to beat in RAF compared to Joaquin Buckley",
       "ts": "2026-08-25T16:32:16+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Prediction, pick for Gary Balletto vs. Sean Clancy Jr. at DWCS Season 10, Week 3",
       "ts": "2026-08-25T19:00:00+00:00"
+    },
+    {
+      "t": "Michael Bisping calls Paddy Pimblett’s UFC 329 purse punishment “utterly ridiculous” as NSAC hearing appr",
+      "ts": "2026-08-25T18:56:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev: ‘I have at least 3 more very hard and exciting fights waiting for me’",
-      "url": "https://www.mmafighting.com/ufc/506920/islam-makhachev-i-have-at-least-3-more-very-hard-and-exciting-fights-waiting-for-me",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-25T02:23:19+00:00"
-    },
     {
       "title": "Gregory Rodrigues responds to Anthony Hernandez cheating allegations",
       "url": "https://sports.yahoo.com/articles/gregory-rodrigues-responds-anthony-hernandez-023240174.html",
@@ -2105,15 +2098,21 @@
       "source": "DraftKings Network",
       "cat": "ufc",
       "ts": "2026-08-25T19:00:00+00:00"
+    },
+    {
+      "title": "Michael Bisping calls Paddy Pimblett’s UFC 329 purse punishment “utterly ridiculous” as NSAC hearing appr",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPVlNTaWJndWlicXBTRklzR29iQ2dKdW95U2o5blN0QnlvZFVQRlF5QjBhVlVHZlZkSm02MU5Od0tlbGMzVUFuY01QZVhMTndTN3RLUnluRzRlaHFrMlh2ai1pam4zc1B6azkzaVBvajR2cEtpMFIxblRDazk1U0pWR0FueXlsWTNDbGtYVllNQ2xCbE9yQ1ZwNmRMLUdCTmgyN3ItV3lUZXJHc3ViNWQxU2FGQTZNLWd2OHl3Mk9vdXVyWkZ2ak9PaHg1MGhfVk52RU90eVhMYkl4WjBJM3dZbV9yWEw3bHotc0pua3RRdG1qS2RpYjFCdkhreEZYc0tPSmFaN21uUUg0aGhRNHRNZTN2MFV6OWpKZUR6ZVZnanpFczZV0gGqAkFVX3lxTE1qcVlOVmRlOHJneWxHcVh0XzZodTBDUzVkUm5OV09iNVd2VWxMOGZoRGV1anZkcm9sN0VQSXVGX1JJbDBNQ1JLc29aWXRWMkZYSm1aM0JzWWVrOUp0QjNUanB1TDlHT2h3Sl9FN21KTlBRUGpRS2xfV1BxaTRGNzB4NkVrWFRMYTNqZ3k4YnE3eG56ZHdMS29BeFpJTHgtajZMYzZhWmMtaTh0bmNsUWN2c0hMSXZ2anhlN1RYdkdHZlBvZGl0bFRpTFB6aUV1cE00OHF3VnRXcTczNE1IcDIzTHBKN0Y1RlJRX1BsT0ZEM2ZXQkxHa0Z1NFN0SnlTWDVyaWljRlhGUGwzbWRPc1hrcmZIOVVVVUZtRDUyaG4xZF9rcGk0SFdOdlE?oc=5",
+      "source": "The Times of India",
+      "cat": "ufc",
+      "ts": "2026-08-25T18:56:00+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
   "hour": [
     "2026-08-25T19",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMi4wFBVV95cUxNRjE1WDV0MmYta2dvczhPWDZ1LXoyM054OEdzZVY3RzFrb29DU3dpMC16Z2UyeE42U24tOTlOV1RIWFY1clpxMGRqbkNxdDRTUnJzMUdzbXJYTVpZQ3g4Vm5IU0lpOTVUNHIxYUhDeE4xaFJlaFlqMmYzeGlISTY1emJlRUh0LWQwWmpFZXZWWnFINUl1ZmY0aWUzQnhjcWxFd1FCZExZR2xCTl9VTG9xVlpNb2tCMEN4aWVnSWUyajhHa0FqbEpKX0J2aWJDLWJuWnRvS0d3MWM4M1FwdnJXS0h6SQ",
     "CBMihgJBVV95cUxQNThDQnItTjMybEhCM2taUWpZd09BWHhuUTYzeWRQQVNZdnVlUG9TRXlON1RsZHpNVURobFdyZWRWNXltd3hVMG1DVm85Q3dVc2ptaW1XZGUxT3lkbUt2QmZtbkFZNVBtcUFKZUZELUlSaVZaSkU2dnN1RnFfcTloc29xM2FzRzhVa1JBczF3M3FLbU14VDM1eTZYbEhUZUYxc0w5LVRFZmQ0VEFZYkI3ODQwZk9VT2l3dnhWei14T3hJRFpvVUtfTnk3WG5pOVcyRHN3R0U2aG1QM0hJRzBlT3BwQXY2djJXLXVrdUc1Zmxjdzl2M0hyRmVxYy1IQ2F0TjVmdW53",
     "CBMicEFVX3lxTE5NRWR6NG9HcVFDbmJ3RExDSzhVRG0wZF9KbmxfQ0NiR2hUaDEtdnlyZFFCRzlKUXZXbkdNWlY1eXIzQmR0MUVaLTJnNEpkSzBQU2VZTDM2LTdvdi1hOXBOekxXZEdqQ2RCaWRSaF91ZFY",
     "CBMisgFBVV95cUxQdldaY3pQZGUxZmFmTzdZOEJIV2V2bUFmT01aVHdfdWw0aFVXZGVTWHEtSHNwZWZwbGJHR2ozYzlXUHRsTkNtbU4tMGsycGZ5SVQ2RzBHejY5TTh2dTZtb0JkLUN6UnRWY0wzemZrUEJQN2lwNWlCUHIzQzRrWjYtY05oc28tYkZFZ29wN2dMeWVWdVh1Vl9waUtRSGdkT1kyV1dTU3lpV2Z6UVdKbzJWdVFn",
@@ -3312,7 +3311,8 @@
     "CBMizAFBVV95cUxQM1dkOE9lVnpEckxtcThQdmY0NFZBaUR3TWpUTmlldDMwc1JXa3daekVwYTA0Y2xaRkxNVzNkQmRwX3ZkX3d3UW5qUzFsNlpWRHkwYy0tWm5VRGdkX0dLa3hBWXZTMUF6MWJrOXpfY0RiYTdZZzlmX2R2aGtPWnpfV1FRNk9TLXNMZ0hEMGIxTUthQk16eU52aWZQc015MF8tTHl2cjRUV2RhNWR1d1FnblppTzhSSXpnWUc4d1FPNFRlckJiR0RscDV4X0o",
     "https://bloodyelbow.com/?p=328785",
     "https://www.mmafighting.com/?p=507031",
-    "CBMivgFBVV95cUxNS3Z5S001bXpCWS1TR2RBQTN6MUpySjlYLS1WX1FZVzNEckRNc1RXV1ExeTJ4Q2hXZUtCMFBuZHlpdTcyaXhuZXFUeTJLdWZMNnEwSk0wTkZYTFFBd0VJSUt2cTQ0TzBMamhkYVpEcGZ4WGRBeTY3V2JCT1VjZU9JOWp4dGNHbWJvZVQzeDJyUVAtNTBWbDZGM0xkNllUNHA4emZVZDJwenVCMUFnRE9icU90Q0RfNnNKRGR6cDdB"
+    "CBMivgFBVV95cUxNS3Z5S001bXpCWS1TR2RBQTN6MUpySjlYLS1WX1FZVzNEckRNc1RXV1ExeTJ4Q2hXZUtCMFBuZHlpdTcyaXhuZXFUeTJLdWZMNnEwSk0wTkZYTFFBd0VJSUt2cTQ0TzBMamhkYVpEcGZ4WGRBeTY3V2JCT1VjZU9JOWp4dGNHbWJvZVQzeDJyUVAtNTBWbDZGM0xkNllUNHA4emZVZDJwenVCMUFnRE9icU90Q0RfNnNKRGR6cDdB",
+    "CBMipAJBVV95cUxPVlNTaWJndWlicXBTRklzR29iQ2dKdW95U2o5blN0QnlvZFVQRlF5QjBhVlVHZlZkSm02MU5Od0tlbGMzVUFuY01QZVhMTndTN3RLUnluRzRlaHFrMlh2ai1pam4zc1B6azkzaVBvajR2cEtpMFIxblRDazk1U0pWR0FueXlsWTNDbGtYVllNQ2xCbE9yQ1ZwNmRMLUdCTmgyN3ItV3lUZXJHc3ViNWQxU2FGQTZNLWd2OHl3Mk9vdXVyWkZ2ak9PaHg1MGhfVk52RU90eVhMYkl4WjBJM3dZbV9yWEw3bHotc0pua3RRdG1qS2RpYjFCdkhreEZYc0tPSmFaN21uUUg0aGhRNHRNZTN2MFV6OWpKZUR6ZVZnanpFczZV0gGqAkFVX3lxTE1qcVlOVmRlOHJneWxHcVh0XzZodTBDUzVkUm5OV09iNVd2VWxMOGZoRGV1anZkcm9sN0VQSXVGX1JJbDBNQ1JLc29aWXRWMkZYSm1aM0JzWWVrOUp0QjNUanB1TDlHT2h3Sl9FN21KTlBRUGpRS2xfV1BxaTRGNzB4NkVrWFRMYTNqZ3k4YnE3eG56ZHdMS29BeFpJTHgtajZMYzZhWmMtaTh0bmNsUWN2c0hMSXZ2anhlN1RYdkdHZlBvZGl0bFRpTFB6aUV1cE00OHF3VnRXcTczNE1IcDIzTHBKN0Y1RlJRX1BsT0ZEM2ZXQkxHa0Z1NFN0SnlTWDVyaWljRlhGUGwzbWRPc1hrcmZIOVVVVUZtRDUyaG4xZF9rcGk0SFdOdlE"
   ],
   "daily": {
     "d": "2026-08-25",
