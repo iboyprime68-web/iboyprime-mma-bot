@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Merab Dvalishvili Explains His RAF Loss To Henry Cejudo",
-      "ts": "2026-08-25T17:31:56+00:00"
-    },
-    {
-      "t": "“He’s a Fraud”: Colby Covington Unloads Explosive Rant on Bo Nickal",
-      "ts": "2026-08-25T17:31:57+00:00"
-    },
-    {
       "t": "Daniel Cormier: UFC 329 stars having purses withheld for celebrating is 'ridiculous'",
       "ts": "2026-08-24T14:30:45+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "DWCS 89 Staff Picks: Bella Mir Takes Center Stage",
       "ts": "2026-08-25T20:21:56+00:00"
+    },
+    {
+      "t": "Billy Edwards Jr. To Start For UNC at QB Stream of General Videos",
+      "ts": "2026-08-25T19:47:18+00:00"
+    },
+    {
+      "t": "Umar Nurmagomedov wants Merab Dvalishvili win or lose at UFC 333: 'Now it's personal'",
+      "ts": "2026-08-25T20:20:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev reveals minimum number of UFC fights left in him",
-      "url": "https://sports.yahoo.com/articles/islam-makhachev-reveals-minimum-number-152020265.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-25T15:20:20+00:00"
-    },
-    {
-      "title": "Lawrence Lui: ‘I Belong Here’",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XR0h4M1FqbXo4R0s0cGp2eG1YWEViOWFiX2dXUXdRQzZRMHk3UC1taHVKdEJWM3ZQZHdXWEZZMm5Nd0p5YXM5VEtSazZxVVFaTWtJMzQ2TTRib3NiZGdoUEJrZ01jZlhpX0lQcjJQT1oxQQ?oc=5",
-      "source": "UFC.com",
-      "cat": "ufc",
-      "ts": "2026-08-25T18:07:12+00:00"
-    },
     {
       "title": "Nurmagomedov vs. Song: Preview, How to Watch, Fight Card",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMWVRZUdUaEFMUFJRcHJkbkhaTjRxT214NGk2ak5UcVlGdU1MT2xxYk9NbldBNUVJV2x3WEVjdkxnUW9zWG5ZLWlvMVY0Zm8yckhTcWo2Z2hicXp4NXN6MlVMckRocTNsZzg3aTNsbHd6cEJ3cGFlaTdfMzR5dmxWZnp2bm93NWVwVlNrcDVPeFpoZFRjR25ZY3NUaGNVby1zRC11cmtlazg2NGo0SDcw?oc=5",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-25T20:21:56+00:00"
+    },
+    {
+      "title": "Billy Edwards Jr. To Start For UNC at QB Stream of General Videos",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNekpWcno0UmFHR19sbS1TOXJaZTIzZ3N3NnREdDIzejA3TFRybEtzWTFKdnQyYXdYblV1ckR2M3VucUFBNkttNW1CWnFKOUppN2FBN2RibEdiTk5qcmR1Y09acGRIRGFoNGZYbzdTdUQzTzlVQlBaQWVCcUhKNDZ0YjNxdVA1cUk4UW5Vam5B?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-25T19:47:18+00:00"
+    },
+    {
+      "title": "Umar Nurmagomedov wants Merab Dvalishvili win or lose at UFC 333: 'Now it's personal'",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNVNnaG9xZXVTalpDLVNoVV9OUmhabUdfNGZERF9yREZYeVNBRzlfdFB0cVg2NlMxTmxhX2x5RkhxWEoyUUl6WjlmUzl4VDVrb1ZnaTA1R296ZTM1engxdGtWTzdlM1l4VFdMYm4xUVlXZTgwMW82TzBQZnJmZjA1SVRmTE50eFJ6b3lIOTNHNHhRSXBJZjNuWXRDN2ViUFNZakxrVVNSRl92VVZEU095aHJHbXlsREZFRXpYVVpEMDh6MnVjSEpwTFlwRGpkNVFxSXlyU213?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-25T20:20:00+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMi6gFBVV95cUxON3czWUM2LVlfOXNXNmxhSWllWGtLUzN1MkQxNDJ4RGNEaDJiNEVTRmdnYzFMR2dwdUJkQ181X1d6V25sS1ozNFp3NTNwUFhNTkFreEE5R19xRWtYcVh4NUNCLUYyeDFEQVNGRGNLUzdDWEM2aEdIbTkxR3FBMmlaZHdRQ1hxQ0dkOWJKa01vMUxOajY4MGs2b1ZHT0ZGZjlmNDFPTjItWTJ2V1dnNm9IY1JlVDhJamdiU1lBS1lzSUtsSm90MllfcWotRGotUG1aRnhLcFhXbU4tZ0pjVkN1aWZiZFZjS0pXaVE",
-    "CBMi4wFBVV95cUxNOHlVTGxXVFliYkJVWDBVanpKTDlTdDZFbkVqUjhyUEVlSjNDV3A1X28xRVp1NEFnNmw2UFBPd2RXVzVwNkxQdjZPeGZXcVZxcDhUZUpVandJbFBuekZDdkcyYTExMk5HUkJYX3MtVVR0NmFDUkpNc0pfYXRLS2FKX0tOMTloMmhDUnB5MEFoczFQSVdWbGIxMHhWOFAzanc4a1kwNkFDWUc4TmNFRXF6M1R6azhvb2NlUDZ4RWNacUtaRnM2czJ0U2VDQk1aUHFvWTVhcTBFdmhOcUVCby0wSW9EMA",
     "CBMingFBVV95cUxQVUNDXzFfMDNrUGNsdkc3anQtMG5uZ3BQeHdoRTdmUGFCR2ZBUmFkY0ZDTndzbnN5cnZYejY5aW0tNVZKM3F4Rmk5Vl91cE85ZHc4WVhQVHltR2pRdjBNZDJpcXV6b242M2htbWxXY0lBMVFGRzFqd2hZYUVxV1p6cExxSWF4X2llVnZUcGtuYnR4WnhGNUF0RmVNU3VTQQ",
     "CBMiZ0FVX3lxTFBQSFlrbW1NdERTcG9JekJPeWo0TENKdDljcmd5Yl80dVFObktvUnVtbGpKTnBvVk1rcDk1QVFGREtuQzVqaG9NaG9jOU1xMzdqZndsalptckl3elI2T0pDTEhCeWc2dW8",
     "CBMiowFBVV95cUxQd2pIeldvUU53MVc3dVNQV2E5OEUtd0FQMGJReWJnbmc2cjV5eVV6WWY4c2lWNUk3NmpvZHJUdFA0b2JPeW1fMFo3SG1OeldWZWxyMjBXZ19zakFUNzJIdXp5NEZpWW5JUGQyYWJaendkNjBCeFAyc2tvR05MVXFHbi1aelpDUG9FZGRnekp1OEpramozZF8xb1QyVmcwcm1xby1N",
@@ -3312,7 +3310,9 @@
     "CBMia0FVX3lxTE80X0hUTWY2bnNpbWZfRkU3ck15c1JuQk1DaUtvRnBKVENfWFNleE9kd2hlZFVFdk1xZ05RM0ZobVVLRmZnSzFCdEx5SWNTRlE0ZXY4eVlMbnh5Smg2bHAyWkF0bTh0TVVhamFV",
     "CBMingFBVV95cUxNOGgwWWxkcmk0SGVCQVgtVHhZQVZKR1VrUmRoR1ZjZ0JyUERva1BrT284dXhBR3FMelRGY1JVRlFpV3NtWm9ERGZFLWVHRlM5ejlDbXdnMmk2a0ZLRWNELVVVTC1QUkhLTU5BRmtYVWRUbUQwSTB2SWtnTXZZRkZsMU84enlhMDZIMXgydnBFWlRVSHd5alhnLW1CbWpJQQ",
     "CBMimgFBVV95cUxQR2hXd3dQMGQyRVZTaDJnSHNmQ2RJZ0JkbFdhMC1ham9DLV8tSE9hVFdxQ0tHYXR5YldpVWxQQVc1SWZQODBxRURkYnRkY09EMDR3MnFTeThocElSNkRXVXNzSHQ1U05SWEdrcEpnZ1lsTE12aGpLSzdRaUE1QS05WlB6WGRBVXBXZ2hFLUZENHJ0UHRQenhUNjNB",
-    "CBMiigFBVV95cUxNY1oyaXBzemxVU1k1N1EyMnE5Z2did2xlUFlRM0d1VXNCMVFiQlZrQmtwV1J2dTFmYnZLNjcxOWtWYmszT05uajF0cEZCam1QWW9jWlhSMVc4VmZpTWFtZ01lbEI0YTdURWJFdFdPSUpqcF9nLU1aeW44aGR0Q3Q1SGc0WmJsNDU1Mnc"
+    "CBMiigFBVV95cUxNY1oyaXBzemxVU1k1N1EyMnE5Z2did2xlUFlRM0d1VXNCMVFiQlZrQmtwV1J2dTFmYnZLNjcxOWtWYmszT05uajF0cEZCam1QWW9jWlhSMVc4VmZpTWFtZ01lbEI0YTdURWJFdFdPSUpqcF9nLU1aeW44aGR0Q3Q1SGc0WmJsNDU1Mnc",
+    "CBMijgFBVV95cUxNekpWcno0UmFHR19sbS1TOXJaZTIzZ3N3NnREdDIzejA3TFRybEtzWTFKdnQyYXdYblV1ckR2M3VucUFBNkttNW1CWnFKOUppN2FBN2RibEdiTk5qcmR1Y09acGRIRGFoNGZYbzdTdUQzTzlVQlBaQWVCcUhKNDZ0YjNxdVA1cUk4UW5Vam5B",
+    "CBMi1gFBVV95cUxPNVNnaG9xZXVTalpDLVNoVV9OUmhabUdfNGZERF9yREZYeVNBRzlfdFB0cVg2NlMxTmxhX2x5RkhxWEoyUUl6WjlmUzl4VDVrb1ZnaTA1R296ZTM1engxdGtWTzdlM1l4VFdMYm4xUVlXZTgwMW82TzBQZnJmZjA1SVRmTE50eFJ6b3lIOTNHNHhRSXBJZjNuWXRDN2ViUFNZakxrVVNSRl92VVZEU095aHJHbXlsREZFRXpYVVpEMDh6MnVjSEpwTFlwRGpkNVFxSXlyU213"
   ],
   "daily": {
     "d": "2026-08-25",
