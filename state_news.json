@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Bella Mir overtakes Valentina Shevchenko’s sister to make history on Dana White’s Contender Series",
-      "ts": "2026-08-24T16:00:00+00:00"
-    },
-    {
       "t": "The Ultimate Insider: Behind the scenes of The Ultimate Fighter 34’s wild celebration, contestant’s drunken antics",
       "ts": "2026-08-24T17:52:43+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "3 UFC fighters face a disciplinary hearing and a withheld purse for climbing the cage following their victories",
       "ts": "2026-08-25T15:21:04+00:00"
+    },
+    {
+      "t": "Islam Makhachev reveals minimum number of UFC fights left in him",
+      "ts": "2026-08-25T15:20:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Bo Nickal suffers first wrestling loss in years at RAF 12",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbzNSSzgxRUlzaHBubVhRUGdmZWd4R2hFSkJGYTB4andTeGRaMnF3MkY2aEZrVmZSTWdHRlRrZG80SW10aDBzbVBzZkVPa1NWenoxUVFpME95VGF6X01laG8yWkl5cDNqaTBIankteW9hbm9vN2dnWUkzcjhvbC1pNG5Ud0pyMjRmNzZ1NHhsR2hPZk16MGl6UFBlRUU?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-25T13:16:13+00:00"
-    },
     {
       "title": "Daniel Cormier calls Nevada cage rule ‘ridiculous’ after UFC 329",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYmlONzkxSTIzbHZwSXltWFdrVzc2V2thdTFzcnAtWkt3X0FtOGExUVZvLVdXRC14bzFobHotaGN0aXBMOGlhWFpWeVdLS2RtdXlFMm84NlRKQnlRX29kM21OUm9DSHR4X1dORG1OTms3NUl2ajN0SlZBbzdtNTFNejFTWjY5dWdWZWFHM2tyZmV1cGxiNjhiNlBLeFc?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sport Resolutions",
       "cat": "ufc",
       "ts": "2026-08-25T15:21:04+00:00"
+    },
+    {
+      "title": "Islam Makhachev reveals minimum number of UFC fights left in him",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQS05xdzBnTEthbVhDS2o1Wnh5d1ZsMXlWODBiTjU0ODk1TGZFeHN6d2xBMjN4amtMazhMYXlhajBLNXJuTUNtMTc5bHRRM0RRTTFTT3BIUGdTajNYUFNrYk1OYURQQjh1dlFKV2NGMjhTVWZvVGIxcHRqWDF5SDhFT3VjV0R1MGE4SUpFYmhsZUwzdVF3WkIwSHF6MHhLVGxYaEdFYmw1WGU1RVBBOTRROVNXTTVuUnlqb1RwcDBDWkJOUQ?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-25T15:20:00+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiR0FVX3lxTFBudGR6OHVpcUJNLTRLZTFKMlF1UVNmV095bW5vMmJNT3ZRaklHVXRUMWQwRzZzeDVudnN1UGwxanhKWFhnYUVV",
     "CBMitwFBVV95cUxNdzlERndCTzRHLURRNUhxOUJvZEw3NHFvN2RNb0VJN3Y5SlRCUlBOUWJ5Z1dzemRkUnRJZVdkMENEYVBTaHV4di1jOU5xVDB4N0FxOENPa0d2QmRUd2hZbWRaZ1o3OXBlSHBtVUpmeVVNUmJfbW8wbkJJQlJ6WEFGb2hhUDhuQU1XNnVmZTFsSjBTZXZua19GaDhFbEdCZTJmYThYQ20wYjFVTFdWZDhIdmR4U01ZWjg",
     "CBMi4AFBVV95cUxQdndidkd3dW1nellzVkZFZExDQ2hLem1sdTBMQ3g2RUplVTVuaWJkOUhVeVFPTExzUHM0d1VqZDNDd0UybjhFTDBYMG16VVdmMEtXbVlmTVd6YlB5OUxsRXViQ2wyN3oxSld5UHpuY1FlNG1Mc0Z5bVhXMXpNTWZPWUdjUG9qbG1DRkVMbGl4eVdYNDg3VGFaTWtOVTFUOWowd0lMZ0luWjFySFg4Q1Fad0swNmtZNW56VW41NUptbVp4Y1pPc3UzT1hIWUpnU21nVHBKRENKb1BPS2E1amVGcA",
     "CBMiqwFBVV95cUxNME50SE94TExabEFRbHFDcC1FdFJKZ25CZWdmbEZHbmJqcFRUQi14cVoxeDFTc21MZkZoclB3TGFSZGgzY3FhM2E3OUIxT1haQ0twZzYtZXlzbTd3TmVMYzM2OGxXWXdfMjhZbEpfRVhKS1RxcWFGSVl5RUFNSzBTNjF6Rk44XzRucTZBSktsbEVKNi1iXy1LMlN0eC1QN3NnLUdJdU5sbEdkcFU",
@@ -3312,7 +3311,8 @@
     "CBMimwFBVV95cUxOYnhIY2c3WFVuV3ZNTGVDcWJzR0luamVUTVNJd09RRTBOZFBhcXhrd05YVzhkM2ZKUVdlbldSdFRLdXVXWEJFQ0g2OHc1aFVoaUZ4cTcwckJUZ1hKcDhBZy10UDlGdGltV3gzaEpVY0hLa0pGSU9iMTh2RGhMeEI3WEFLeVlpSnpyUVBLRm52YXliUXpQWEduemQ1SQ",
     "CBMiogFBVV95cUxOSTMwemtnSi14N092Z1pWcERwNW81X2NVTTdFZEMteVJORjdQY2lmQUpUazFobTBiT2pDamdacEhMZENhckRHcjVhR2YtczNsUE5BUm9BM2FfMEEtVDR2V19TT2RESVF3NGpaZFl0U01OZmNKT09xbHltX2JwLWRzc2hIVk1NWnRRdHFhVElkQ2FVVDg1bnpZQzB4Mmh6TWhfTGc",
     "CBMioAFBVV95cUxPSTJHWUVPN19qNzZkMGhrRkVFLVBlbUFDMjE0R2pnMEJuajhiZXdHQWVNWk4yNE8tdXhRRmNJUkpVVjBIbjdsVmE0LUxxMDYxRVMyRVNIVVItM1p0LWRJVThZTWw1VGdFNUlRTUcyYmwwZktpTjVLVnlzOHNUX2drYTFTbWNQRGxxdkdGa0QxNjZoZV9YWGRUUFJDYXcxcVZt",
-    "CBMinAFBVV95cUxOMnJSU2V4Z3ZLVDRPOFZycmdjZUdmaE5Ia2lBd0JDS1hBbXV3WjVhWFFBWjJ0V05OcGV3YkFlSHZESHMtdFRvX3pKRk1ZVnVBMnRkVVpmZURMLTZmYnVVbTBhajlzT19qRzh6cFVrNW80a1dYQmFCX2tyQ0NaY3JNTmc1Vzd1SWRhblJMUE9jMHZZb29DUGF0T2JfbzM"
+    "CBMinAFBVV95cUxOMnJSU2V4Z3ZLVDRPOFZycmdjZUdmaE5Ia2lBd0JDS1hBbXV3WjVhWFFBWjJ0V05OcGV3YkFlSHZESHMtdFRvX3pKRk1ZVnVBMnRkVVpmZURMLTZmYnVVbTBhajlzT19qRzh6cFVrNW80a1dYQmFCX2tyQ0NaY3JNTmc1Vzd1SWRhblJMUE9jMHZZb29DUGF0T2JfbzM",
+    "CBMiwgFBVV95cUxQS05xdzBnTEthbVhDS2o1Wnh5d1ZsMXlWODBiTjU0ODk1TGZFeHN6d2xBMjN4amtMazhMYXlhajBLNXJuTUNtMTc5bHRRM0RRTTFTT3BIUGdTajNYUFNrYk1OYURQQjh1dlFKV2NGMjhTVWZvVGIxcHRqWDF5SDhFT3VjV0R1MGE4SUpFYmhsZUwzdVF3WkIwSHF6MHhLVGxYaEdFYmw1WGU1RVBBOTRROVNXTTVuUnlqb1RwcDBDWkJOUQ"
   ],
   "daily": {
     "d": "2026-08-25",
