@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Umar Nurmagomedov reveals Merab Dvalishvili feud has become personal: “For all Dagestan”",
-      "ts": "2026-08-25T20:06:57+00:00"
-    },
-    {
       "t": "Kevin Vallejos looking to leapfrog Jean Silva for UFC featherweight title shot",
       "ts": "2026-08-25T20:11:15+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Rongzhu Octagon Interview | Road To UFC Season 2 Finals Labor (I1TUFuNjY4)",
       "ts": "2026-08-25T21:48:06+00:00"
+    },
+    {
+      "t": "Islam Makhachev Wonders What UFC Records Are Left to Break, Reveals At Least Three Tough Challengers Ahead",
+      "ts": "2026-08-25T21:50:33+00:00"
     }
   ],
   "digest_items": [
@@ -2070,6 +2070,13 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-25T21:48:06+00:00"
+    },
+    {
+      "title": "Islam Makhachev Wonders What UFC Records Are Left to Break, Reveals At Least Three Tough Challengers Ahead",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6bDdoUnFPTzZjd2xMejBaZk5Da0lpOEUzbVo0RU9TcERkV0x1N0oyUUJzRVpFeldjS21pRE1jenBMT0lMZUxJY0IzQU1EOVVqMW8zVmtRVzhRUHQ0cmoyUV9oMHlxTzFiYlJoNjEwUGlmSEV3MnlTWTZ3?oc=5",
+      "source": "NY Fights",
+      "cat": "ufc",
+      "ts": "2026-08-25T21:50:33+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2078,7 +2085,6 @@
     6
   ],
   "yt_eval": [
-    "9858e8c7-9217-3423-84b9-8efd0d4acf2e",
     "CBMiuwFBVV95cUxNT1J6cnRMcUk2V3dRYy04bXlMdE5fekZqOXl6T2ROeTM4NkRDcWxTcE5VTTc5dVNZUHFIY05TdmNtakMxTXdtS29razZiNjNqWGJVcXVERWpncG1MQTF3a2M5ZHBmUmFVbHNsRU1yS2ttTHFFc3RuVUFLLWprN3dsd0l2aHFXa29JdmxkTTFsd0JQVDFLWHhKRjRRTlZiN010TmdWdC0zLThSTndrUjl0MG8xdjVIY3UxNGQ4",
     "CBMid0FVX3lxTE14UlNXQzRBVmRaUTZqcmJMc2luWHFPYlJxUk9ybzNrNzBiVVR5UWdSUkY2QUN6dC02dE9VWlhyakoycGhmbXBzdVVuNjdFME00NmR2d05tU09iN2M4eXJ1TUMwdkNfUy1mMGRlSTVZcEVKOXhfSDJv",
     "CBMi6wFBVV95cUxOYmtpcTA1WHdMZGRmQnE3cGRsV0VPU2NvUnE3UWI2REhpM1hXQkZoVXgtc2t0TEtzVTByeWkwVF9VTGtpcG9DNVdDekg2d1hGRFNtcTlIcjE5bFZqb1BwMk13THNaOEFEcHVOUmdIeXowUXRqUHNHMFd0Q0hIVmFQcGtRUVNsY2FLSVdCdmh6aVVrRDdlYmVGMXpVeGNKYW9rZE4wblNlRTlVMTJKY05GQVExU0pDVXdGcHc2b3hORkkwN3dnaEtZSll6Q0tnMDhGZ0ZyTmNwSHJQYV9PWF9YLXRvd21OYU9VMlBJ",
@@ -3277,7 +3283,8 @@
     "CBMi4AFBVV95cUxOZXVHRExXZUdOTF9YTDBMUXhrZ0NJdGs3SVRjay1yMUx6Q2ZBc0h3S3MyOEJHRzdhRnJrTExoaFpQekp1RWkwUXpxb0ROUFdQckp1bjJkbVhzam5udnJ4amVaN2xibE5MeGJndi03LVNOQ2o2SkdoNjdjQVRlaDJITEE4VWJtUTAyTjVqeWpyYW44RUhHU0Qwbi1KNURjd25YZFo1MVJTMFVzSmNaWGRPWl9CdlQxNjFWRTJXWFR3R0FFLUNpYm96SVg1S3VWVmZoN0M2S253RC00cWRCLU9Xbg",
     "CBMiaEFVX3lxTE9qbU9BTzRIdDBSUWM0RnVmZzl4dkV5c3JTdWQxbU91Qk4xZlZHaVFxMlV3ZDNiRTFYMFpuMzdGeVUyZm5qZDFYX2ttOUdLQzZFVE5fVmdLYWZKaG9yTnBuYkh6UWlENVVJ",
     "CBMitAFBVV95cUxPeGUtOER4d0pkZlh5YjY3M0ptZEtXNVV4ODhHWVlwXzg2V2x2cF92eTc2bkVXaE1SQ09PM2FkbFVlY3dhMXpndnM4ZHJsZ052dHNrMnhkV1Y1RW5WUV8wZ0htbF9yUU1nVE81SFpUdlQ0Q1lLSEhDbG9CRW4wcDNsdDU4S1RLangwUFo2dWFPMFQyWmRjUDJNMHotNnVraGFZcTRVV2doRzlGLWx5SDF5UjFCekc",
-    "CBMiW0FVX3lxTE1UdXh6Y3VjRlpnU1BiQnhrazZLNklXRHgxUlpDV0lzTmhOQjRIaXRPMEJES3NPNG1sVzE2Sm0wRnZUTE0xZW92VjVVa3I5RlBUeTZmRGVRa25MVTQ"
+    "CBMiW0FVX3lxTE1UdXh6Y3VjRlpnU1BiQnhrazZLNklXRHgxUlpDV0lzTmhOQjRIaXRPMEJES3NPNG1sVzE2Sm0wRnZUTE0xZW92VjVVa3I5RlBUeTZmRGVRa25MVTQ",
+    "CBMiekFVX3lxTFB6bDdoUnFPTzZjd2xMejBaZk5Da0lpOEUzbVo0RU9TcERkV0x1N0oyUUJzRVpFeldjS21pRE1jenBMT0lMZUxJY0IzQU1EOVVqMW8zVmtRVzhRUHQ0cmoyUV9oMHlxTzFiYlJoNjEwUGlmSEV3MnlTWTZ3"
   ],
   "daily": {
     "d": "2026-08-25",
