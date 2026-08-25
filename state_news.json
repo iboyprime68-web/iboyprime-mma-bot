@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Merab Dvalishvili Predicts Dominant Return For Ilia Topuria",
-      "ts": "2026-08-25T07:09:24+00:00"
-    },
-    {
-      "t": "Song Yadong: 'With This Fight I Will Get A Title Shot' | UFC Shanghai",
-      "ts": "2026-08-25T07:14:34+00:00"
-    },
-    {
       "t": "Yan Xiaonan: 'Stylewise, I Love This Opponent' | UFC Shanghai",
       "ts": "2026-08-25T07:14:34+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "L'UFC Sacramento tourne au carnage : grosses suspensions médicales pour Robocop et Fluffy",
       "ts": "2026-08-25T09:33:45+00:00"
+    },
+    {
+      "t": "Islam Makhachev reveals what makes Khabib Nurmagomedov so valuable in his corner",
+      "ts": "2026-08-25T09:46:20+00:00"
+    },
+    {
+      "t": "Two Championship-Style Trucks from Ram, UFC, and RealTruck to Be Auctioned for Charity During Barrett-Jackson’s 2026 Las Vegas Auction",
+      "ts": "2026-08-25T09:47:44+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Chris Padilla grew up watching Jim Miller; now he wants to fight him",
-      "url": "https://sports.yahoo.com/articles/chris-padilla-grew-watching-jim-065137766.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T06:51:37+00:00"
-    },
-    {
-      "title": "Anthony Smith breaks silence following arrest and felony charges",
-      "url": "https://sports.yahoo.com/articles/anthony-smith-breaks-silence-following-072932009.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T07:29:32+00:00"
-    },
     {
       "title": "Doctor insists Larry Wheels could’ve kept fighting, doesn’t require surgery on injury suffered at Brand Risk 15",
       "url": "https://bloodyelbow.com/2026/08/24/doctor-insists-larry-wheels-couldve-kept-fighting-doesnt-require-surgery-on-injury-suffered-at-brand-risk-15/",
@@ -2105,6 +2091,20 @@
       "source": "La Sueur",
       "cat": "ufc",
       "ts": "2026-08-25T09:33:45+00:00"
+    },
+    {
+      "title": "Islam Makhachev reveals what makes Khabib Nurmagomedov so valuable in his corner",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYk9XUnhDNE9JenlFeDRsOGpSVDRfVnFockJ0US1QZU1XWGNObFpBWkRVTHRndFJsZmRtelJ2RTB0X3V5Tl9mLU9RLUJtaXRLay01ejhRMVZSTEdGMFZlc2Z5S0sxRVNqN2x3cGN3SUE3TGNGbXhUTE1vb3FIVVBYU29GaGw1YzFkNWgyQzZrX3l0RXZFYldNbFNaMWNlRm43OFk3WE9BTFAzdw?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-25T09:46:20+00:00"
+    },
+    {
+      "title": "Two Championship-Style Trucks from Ram, UFC, and RealTruck to Be Auctioned for Charity During Barrett-Jackson’s 2026 Las Vegas Auction",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE10bnRqN2lWMkpTVHJFQXU5eXNHM2VhQkJyTzk1Vlp3Q2I2VFhWd0Z5VEJOejhleWVyanduTVRyUzhiMWswV3FZSkthTUZ6SENMQVlpUEtMNWo5VTFuSWlHQ2pVLW9qNjFSa1pnRFdoSQ?oc=5",
+      "source": "WebWire",
+      "cat": "ufc",
+      "ts": "2026-08-25T09:47:44+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMikAFBVV95cUxNeVRZZjNMSmJzbjZNVzA1RHVJUnY1dXV4aDBReUNZVUhrTzE4U2M4T2pETmN3LWh2dFFYVEt1cXhwX25NVzFlV1BQUWRkWGZ2dkZxUkJXTW5xMm5IWFF4NmFSME1mV0Jsa2hnU1BDR1VTSzJHYUJmYmZwS2lMWHNsVi12WGFKX2JzQ1ZCOU1GZnM",
-    "CBMijAFBVV95cUxOOWF1cS02WGR3aXNUVE5obVptZ3UxTmxrdlg1emlCOTZmdExNZjcxd3ZXdENUdld6ek4xVlFOcGdJdmNWVEk3aS00UENBY05nYTZCeE95WWMtS2VvMy1mLWFraVdnSnNGNDJ3Y2xpalE2aWhPaTVVYUFVN1IyQUxFT1Azbk9HcUVMVEZIWg",
     "CBMivwFBVV95cUxQSGlOMklrbXVwM1hSX0s0QXcyM0dUaVYyU25VOEdPVnBVUHpCZjYySzBSN0RiNzVaWmNhN0wySVE1U1VPN0k1Y1FUM1lfUXAyTlBVWHlQcVdQY1ljTWxDckZldVhHa1FIa3Jmc1l6dlBxVVVuenNQLUZKMGdiUENEeEVLMFJyOXZNSHB3OXJKNGo0VHRKLVJzRlZrTHZlOTRwaUhBVWk2dlRlM1hDWXdnNGdwYkNFQlRiUS1tWHdQcw",
     "CBMivwFBVV95cUxNUng4MGdDY3hlMG11SGFLNm1odnhnMGdyS0g2bmxfUEJfQllqdE1LSU5lRVJkbkZzX2NHUkJkQ2ZHZURKYnJVNWQ5eGtzWDMtNnlUUC1LNHp6d0gtUzZlR1R4RzRQQTVYTmRKTE9wVE15YVJ5djREY2h4Mld2TzFSTm9qbFZ3TnB6UmRNMV9zcnRuRkItUUM5RXR0M1hPMnh6cGFFQW81d2J1MzJaUGpFZWJFekJCY0ZjUnBNZ1dnbw",
     "https://www.mmamania.com/466589/highlights-open-ufc-sacramento",
@@ -3312,7 +3310,9 @@
     "dc737ba0-02a0-386c-ba01-498e8c7c7c97",
     "CBMikwFBVV95cUxNVUtITDFHSlhRVHZEbDJHZ2dGd21BNGhoSnJwMTJFbHVJWmRXTExyVzRVQWZScElwYi1VR082aU1qcVJreEJ1aWwzYjU4clFiaGtHdlpSeUNkVW0xd2NZT2pZaDRPQmtvVlFDQ294TEpnbkhSTFo3d0JtN2I2a3dsdUlDRi1tbmlDc1pUV0prX3p5cjQ",
     "CBMisAFBVV95cUxPTjRqTU8ybTV3NzFmRnJtT3ZVWDFBbU9XT0NlVWplOHl2YmVZSlpINGtMc0NBSEZzbDFLRlNYU21vZW9STm1rLWt6a1c1RzdlSHNZSTNwUHNyaHFkbVdZc2hSeUdvbFVNTENxQjZ5anA1VXpBc0loOXhXVkV6OFlEZnAyd2Z0akhJenZFbHFSaFEwNk1VWEV5WFNTNEVLREFTd2lXNklLVEtPd0FuNVFXVA",
-    "CBMiuAFBVV95cUxPLVJPUVRabllydTdIbUZMT2w5SmZLQjhiN0FYYjFIU21qNURYWnFPSXp4NG1DdjZ3eldVV1NkaEgtVW1hVnhNdW1fUzRVQVFGZ3VQS3FRN05qRmpqd1R6dDY3X2Ric2NaMVFLYThDaF9XUF94ZkN3Q25BSExyd3Zmdk44OEpzazZrZ0RGRWdscFBDNlU0aGczTnluVmxETjZnemI1cVJUcjdjUzd2QndkX25pdFd5VjFT"
+    "CBMiuAFBVV95cUxPLVJPUVRabllydTdIbUZMT2w5SmZLQjhiN0FYYjFIU21qNURYWnFPSXp4NG1DdjZ3eldVV1NkaEgtVW1hVnhNdW1fUzRVQVFGZ3VQS3FRN05qRmpqd1R6dDY3X2Ric2NaMVFLYThDaF9XUF94ZkN3Q25BSExyd3Zmdk44OEpzazZrZ0RGRWdscFBDNlU0aGczTnluVmxETjZnemI1cVJUcjdjUzd2QndkX25pdFd5VjFT",
+    "CBMiqgFBVV95cUxPYk9XUnhDNE9JenlFeDRsOGpSVDRfVnFockJ0US1QZU1XWGNObFpBWkRVTHRndFJsZmRtelJ2RTB0X3V5Tl9mLU9RLUJtaXRLay01ejhRMVZSTEdGMFZlc2Z5S0sxRVNqN2x3cGN3SUE3TGNGbXhUTE1vb3FIVVBYU29GaGw1YzFkNWgyQzZrX3l0RXZFYldNbFNaMWNlRm43OFk3WE9BTFAzdw",
+    "CBMib0FVX3lxTE10bnRqN2lWMkpTVHJFQXU5eXNHM2VhQkJyTzk1Vlp3Q2I2VFhWd0Z5VEJOejhleWVyanduTVRyUzhiMWswV3FZSkthTUZ6SENMQVlpUEtMNWo5VTFuSWlHQ2pVLW9qNjFSa1pnRFdoSQ"
   ],
   "daily": {
     "d": "2026-08-25",
