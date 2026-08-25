@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/459915/ufc-oklahoma-city-results-dricus-du-plessis-bludgeons-insanely-tough-kamaru-usman-for-five-full-rounds",
     "https://www.mmamania.com/460047/highlights-valter-walker-finally-breaks-insane-heel-hook-streak-still-turns-in-epic-calf-slicer-submission-ufc-abu-dhabi",
     "https://www.mmamania.com/460302/open-thread-july-25-2026-horrible-movies-you-love",
     "https://www.mmamania.com/460394/ufc-abu-dhabi-main-card-odds-breakdowns-and-predictions-x-factor",
@@ -1078,6 +1077,7 @@
     "https://www.sherdog.com/news/news/Patchy-Mix-set-for-second-bout-since-UFC-release-vows-to-show-true-form-201618",
     "https://www.sherdog.com/news/news/Patricio-Freire-makes-UFC-contract-intentions-clear-ahead-of-final-fight-on-deal-202490",
     "https://www.sherdog.com/news/news/Paulo-Costa-frustrated-with-delay-in-booking-final-fight-on-current-UFC-deal-201691",
+    "https://www.sherdog.com/news/news/Paulo-Costa-says-UFC-is-lost-without-Dana-White-more-involved-202515",
     "https://www.sherdog.com/news/news/Pedro-Rizzo-Loss-of-reach-advantage-biggest-issue-for-Alex-Pereira-at-heavyweight-201606",
     "https://www.sherdog.com/news/news/Petr-Yan-claims-he-agreed-to-fight-Sean-OMalley-at-UFC-White-House-201541",
     "https://www.sherdog.com/news/news/Professional-Fighters-League-inks-undefeated-lightweight-for-Long-Island-card-201567",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "UFC debutant admits he had no idea how to defend submission: ‘What defense?’",
-      "ts": "2026-08-24T02:38:31+00:00"
-    },
     {
       "t": "Gilbert Burns names UFC’s best MMA & pure jiu-jitsu fighters",
       "ts": "2026-08-24T03:24:18+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Alessandro Costa Vs Jorge Calvo | LUX 13 | 07.05.2021 Meteo Trieste (ZWwVnMy3FV)",
       "ts": "2026-08-25T03:04:49+00:00"
+    },
+    {
+      "t": "Paulo Costa says UFC is ‘lost’ without Dana White more involved",
+      "ts": "2026-08-25T03:41:10+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Hall’s AEW Brawl In The Ballpark Review",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoUldvVlkwdFJpMGswQ29Ld2R1MERlb21yRkhSS2k1WXNKUUxlYkI0ZFgyMzNwS1ZLeVpEVkdVdFNfVjNQejAzNUJpTGdjU1pXM3lOUjQ0cW5MazEwVVA2NXlLbTNSUmJkSnpGRlZnWHc?oc=5",
-      "source": "411MANIA",
-      "cat": "ufc",
-      "ts": "2026-08-25T01:45:15+00:00"
-    },
     {
       "title": "Gregory Rodrigues Reacts to Main Event War At UFC Scramento",
       "url": "https://sports.yahoo.com/articles/gregory-rodrigues-reacts-main-event-215036688.html",
@@ -2105,15 +2098,21 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-25T03:04:49+00:00"
+    },
+    {
+      "title": "Paulo Costa says UFC is ‘lost’ without Dana White more involved",
+      "url": "https://www.sherdog.com/news/news/Paulo-Costa-says-UFC-is-lost-without-Dana-White-more-involved-202515",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-25T03:41:10+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
   "hour": [
     "2026-08-25T04",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMilwFBVV95cUxQWUxqcmNuZk9UTFBfT3NEYXFXN0ZfM3dfUEE5WnhIenlFWFVBR0t2Q04tMUFfUWNGdFhXNG5zeXlrajVzOGs4ak1YaHVUV2M3UDNkY3ZEZlJXdklpTUdDeXhNWC01cVdrdjJhd2s1NVJiTUU2RlJrX2hpZHB2TDBxRmVNLXBHOEx1VkVlUUVMLWFIT0FQaWRF",
     "CBMiwAFBVV95cUxOS3VFdGdXVzhxUjZHS05YOEJfa244bFF2b2l2OEhqNnl2eV9pQzVITkg3QURHRGVTTkV4Ml9uX05STWRwTk9tRWVGYjFaNUZuLXQ4SVhsNVY0aXZhUU1yYWJXaXBmSWNwUFJWalpZcFpjcHdnZHZxNE8zOWJrRzc2UUgzeEp4U0xtUkl4X3pNUS1CcFh6YWc1cXA2RjhlN2gxSzdVVlk1ZG51Ri1xYVZ2dXNWNlUxNnlUTVVrWmR0c2g",
     "CBMidEFVX3lxTFBGZTNEQVdWWWc5MUdmem84RTY2QkpIV3ZrRmxONmZ6Znd3a3JlX0YtdnJxVVN2a1ZHMy1WMm1RU0hLZVp2YUFPYlJSTkxUUHFHWFNHWS1GSHBQenBsU0RMZ2FmbkdMSlh0VHR1b2FYNVRmUUdN",
     "3add145d-b122-328c-823d-df6387f7ffed",
@@ -3312,11 +3311,12 @@
     "https://www.sherdog.com/news/news/UFC-Fighter-gained-a-whopping-255-pounds-before-stepping-into-cage-202514",
     "CBMiqwFBVV95cUxNNkk2WHBuMTB3QWJTcmt5cWFMeXQ2UnJQaGFGZUxGMExuUGk3emt4eWh4b0UyeXNHTmlYZXdCcS1SSmlNVXFhNkN6cEdibWxCLXZzbGkxVDNLdVU4TTd5MDh6TEU4VGJuTmVtaHpFeHo1WnJCR3VhWHkyM1IzZEdQdjlXMkd6MnRDaE9oVFJodk5SZ09KbFBRUjQ1MzgxOGVhcmhHTi1FS0VjWnPSAbABQVVfeXFMUFlGdWVZbDc2QXRWc21NR184bG00NHpaTHU2YWdWYWdRRDFSVTZidDlZb1E1TndCM2U1M3ZUemd4OXBNWUtHRXdjbHhsaVZGTHZGZ1ZXSWxkdGFyS01kZ1A3NE9oY3V4M0xydUUxVFJtWUp1bi12M3B3V0h1Rzh6Y0pIUlBzY0hMYVBHaG9yZlpjSGJ3NG5HTEdGNnJKdERyNXFaMkJJU1BqbWExVUlKQUw",
     "CBMiW0FVX3lxTFB4bW9Zb1ZnY1U4ZG9KSUNnVVlpeG1lRm9faGlnaDBERTdWTlIzcF80dEdTWHdmSVA3RFhIOXdKNXUzQzRjX043ZTB0ZmZ1U21tcDJKZ2lzSXMxd00",
-    "CBMiW0FVX3lxTE1KYkRYbXhtNmN0R2NQaUpQbnFwZ0RxbFZDazdhTXdqaDQyUzF2ZHFLdWpKX0MzVUFJeWtGaHA2WnoyY2NjWkhrYkZRRXM1R0hKVVRzQ3pKeDVKX2s"
+    "CBMiW0FVX3lxTE1KYkRYbXhtNmN0R2NQaUpQbnFwZ0RxbFZDazdhTXdqaDQyUzF2ZHFLdWpKX0MzVUFJeWtGaHA2WnoyY2NjWkhrYkZRRXM1R0hKVVRzQ3pKeDVKX2s",
+    "https://www.sherdog.com/news/news/Paulo-Costa-says-UFC-is-lost-without-Dana-White-more-involved-202515"
   ],
   "daily": {
     "d": "2026-08-25",
-    "ai": 82,
+    "ai": 83,
     "staged": 4
   },
   "staged_hist": [
