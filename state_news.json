@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "‘I lean left on a lot of things’: Dana White shares shocking political revelation",
-      "ts": "2026-08-24T23:27:08+00:00"
-    },
-    {
       "t": "Reinier De Ridder On Fights UFC Bout At Light Heavyweight | UFC Sacramento Flau'jae Johnson (MY5a8qrFBP)",
       "ts": "2026-08-24T22:48:31+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Joanna Jedrzejczyk Vs Juliana Lima UFC Fight Night FULL FIGHT Champions Disney Plus (xFOJhEZiXD)",
       "ts": "2026-08-25T02:38:48+00:00"
+    },
+    {
+      "t": "RAF 12: Dvalishvili vs. Cejudo 2 Full Event Replay",
+      "ts": "2026-08-25T03:19:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Henry Cejudo Gets His Revenge on Merab Dvalishvili; Now He Wants Trilogy",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUmM0cEVtT1R4RmJETDZJcnd4XzdWMEl4ZEJjcHJFLXlLWktXVmtNXzVpV0tmczVBSDJ1eVlrNlQyXzJmT01iUE5pTnpaeFJZcVRQRE54YWMxUzIyVzdHZDV4LWl5NTZvUW5Dd0c4ZmtHSEY0OERkTFo2Z2JWd0gtbDBlc2Y2eHh1ODNGTTNpbjUxR0NxTDB2QW1JOGxHS1E?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-25T00:33:56+00:00"
-    },
     {
       "title": "Merab Dvalishvili Breaks Silence After RAF 12 Loss to Henry Cejudo",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZFpkeHRuN3JjTU42cWQyQ0Y5ZzNCODc0YmQ2VGI2N1RjdFZzNnZOTktjQVBBTi1sR2pGY3h5bmdSS3JvYmF2UE00UkxlNWhMQXJPdjhEZ2Z6UG42dUt1cXFseEdJN25QMm1odmtzYXB2SFEwWGdNay0wWDl0aGtER2NoZDNTM1ZEbUVaQ1p3?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-25T02:38:48+00:00"
+    },
+    {
+      "title": "RAF 12: Dvalishvili vs. Cejudo 2 Full Event Replay",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdlRxMEJQMzFQb0F1T203YmdsWjNHanRwUC1lV2tCM25Ddy1CMDQxYVFtRS0xdTl0dEZPZnFKUVg1b1JWR0tnTGtEMEp1WUFhQUJMa0cwclhZaU01d1NfTlB5b0t5UzFxaG5IdUgwTS1WbFdrN00teTdBNGQtX1ZndThQcU1nbXM?oc=5",
+      "source": "MMAWeekly.com",
+      "cat": "ufc",
+      "ts": "2026-08-25T03:19:00+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMizgFBVV95cUxOXzFSR2tMVzdGNXNaUjlLM0xoMlp5Nk5rY2hQa1VTYmJKNThqcnBnMEVNMFB1N3JZZTZ5dzhycU1yNExDMXlqam5fWHpha3BCNFIzOEZmMTlkd0hPRHdIY3V1MnFSczRJVzF6ejg2WllaUmF2a3pYbjFmbnFhOXhxT2poMnl5TzZLVU9mQlMwUHM4VW5PaS1FTk5qemE0bzVqOWJ6QzR1NzJoRC1XR3ZfWTVUNmZ1dExudm5nUlZPY2ZaendnRVdqdUU5YTZodw",
     "CBMiZEFVX3lxTFBDNTJXNXpjTWNPODJ2MGpKY0lTQjlGZTc0S25lOW1zY24zOUUzYllPTkZweElvc20yU3JWR3RlRjFncW1fcGlhcWtXeFBRYWV1eGxOcUlNSnh0ZF9Bem44SjF1czI",
     "CBMiqwFBVV95cUxQSEd4Sy1FVjZXNDNTeFFfLVF6Vk51dFRPNGsxaGtzYW5rZXhvdXByeEo2YXQ4VlNZSkV0VWFZTVo2R0RsSERpd0g5b1VDaVM4ZC10NktBS3hicUx6UC1jZUpvWmVXYXIwbW1CUGMwVDhmaDZad250bzdPa2pZaG9DdVhLWWU3QUltX2pjbUxieWRtWFpxLUZscUxHUkhlbG1YdVUxRGJIUzg0VUk",
     "CBMizgFBVV95cUxNaGJ3LWhPdW5XUWlRcmJRcWVFanQ4UXR6S0FxWkxmcXBEaDgtY3Z1U2FkVGFwRkF3ZE1WaFQ0UFYtN2lPY3hRR2E5ZlI5cEpmeFZnWXhkRk9fOVdoYjBPazc4TkxpUlROMzJTVTBNMl9VTXpkVTc2NHZPOFVLVjVZTDBXVlo3T0dKa1dnVjdsX1pqMU9CdjQ1dVJkRTJ5bmI1bmNkNE5WSi1zOUpvTENpMjg5c2dKSWh6ZHpRWERFdXFhNUE3Yk91V0wtUENrdw",
@@ -3312,11 +3311,12 @@
     "CBMiVEFVX3lxTFBkTGJqeFVXeHYyNGhOVG5EaTU2Ym9XOVhKMjZPcmRiMU5LR2ZHR21zTHpaOFJwemtvVVpZajB4cGJrNjlLM18tMUR6MTByZ2N1bjFPUQ",
     "https://www.sherdog.com/news/news/Islam-Makhachev-says-Alexander-Volkanovski-is-no-longer-at-his-peak-202513",
     "CBMi4AFBVV95cUxQdWRDQnlsN2U2V1hZZmh1cDFQVnM5NzMtUTRuR1JPVW1JZ1U4Z2hEdVZUTk5Td2FVMlhyUWpnX3JUbGk5S3A0Mkh0eWlrdUtkU0ZxMERIc3YxQlZneHJPdURJMWxELTJXSG1ZT1JZanExaXRTbmFFdXQ4VmJoLUlyUnkyS2hKUlBqTlM4TnUwMGk3OFl4bmpMQlRhaVBrWG05OFNxUklQR2tZVU5JTFM4UDQ5NldnVmg4TmllMjl3YllqRnlDVjByd2d1Ulh4YlJiT25WTC1jQ1lKZjNLcncwXw",
-    "CBMiYEFVX3lxTFAxZlBtSTloY0dhOEl0OFJ4Mlhzb1dYN0dDU2pub0NQQ2tEY3pzWmZkcVZySlZwdHFBdnRXYjNpVmpranFHM0swZENSZGpQZktOQVptdDg2RlJfWUVfM3JCVg"
+    "CBMiYEFVX3lxTFAxZlBtSTloY0dhOEl0OFJ4Mlhzb1dYN0dDU2pub0NQQ2tEY3pzWmZkcVZySlZwdHFBdnRXYjNpVmpranFHM0swZENSZGpQZktOQVptdDg2RlJfWUVfM3JCVg",
+    "CBMihwFBVV95cUxNdlRxMEJQMzFQb0F1T203YmdsWjNHanRwUC1lV2tCM25Ddy1CMDQxYVFtRS0xdTl0dEZPZnFKUVg1b1JWR0tnTGtEMEp1WUFhQUJMa0cwclhZaU01d1NfTlB5b0t5UzFxaG5IdUgwTS1WbFdrN00teTdBNGQtX1ZndThQcU1nbXM"
   ],
   "daily": {
     "d": "2026-08-25",
-    "ai": 69,
+    "ai": 70,
     "staged": 4
   },
   "staged_hist": [
