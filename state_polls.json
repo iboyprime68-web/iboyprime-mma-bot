@@ -2,10 +2,10 @@
   "v": 2,
   "cursor": 5,
   "staged_at": [
-    "2026-08-23T09:47:44.965214+00:00",
     "2026-08-23T16:46:50.851768+00:00",
     "2026-08-24T10:07:45.181440+00:00",
-    "2026-08-24T16:59:43.931491+00:00"
+    "2026-08-24T16:59:43.931491+00:00",
+    "2026-08-25T09:55:26.997065+00:00"
   ],
   "asked": [
     "Who is the most dangerous striker in the UFC right now?",
@@ -18,23 +18,24 @@
     "Who is the most exciting grappler in UFC history?",
     "Who has the best boxing in the UFC right now?",
     "Who is the best pure jiu-jitsu fighter in the UFC right now?",
-    "Who is the most dangerous grappler in the UFC right now?"
+    "Who is the most dangerous grappler in the UFC right now?",
+    "Who is the most feared wrestler in UFC history?"
   ],
   "last_entry": {
-    "q": "Who is the most dangerous grappler in the UFC right now?",
+    "q": "Who is the most feared wrestler in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Khamzat Chimaev",
-        "emoji": "🐺"
+        "label": "Khabib Nurmagomedov",
+        "emoji": "🐻"
       },
       {
         "label": "Islam Makhachev",
-        "emoji": "🏆"
+        "emoji": "⚔️"
       },
       {
-        "label": "Charles Oliveira",
-        "emoji": "🦅"
+        "label": "Georges St-Pierre",
+        "emoji": "🇨🇦"
       },
       {
         "label": "Other (comment below)",
