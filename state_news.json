@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "The Thrill and Agony: UFC Fight Night 285 winner and loser reactions",
-      "ts": "2026-08-25T02:21:19+00:00"
-    },
-    {
-      "t": "RAF 12: Dvalishvili vs. Cejudo 2 Full Event Replay",
-      "ts": "2026-08-25T03:19:33+00:00"
-    },
-    {
       "t": "Former NFL player reveals moment he knew MMA was his future",
       "ts": "2026-08-25T04:27:15+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Bisping Slams NSAC For Withholding UFC 329 Purses",
       "ts": "2026-08-25T17:30:24+00:00"
+    },
+    {
+      "t": "Should 41-year-old Jorge Masvidal UFC Comeback Fight Be vs. Leon Edwards?",
+      "ts": "2026-08-25T14:33:00+00:00"
+    },
+    {
+      "t": "Colby Covington Takes Brutal Personal Shot at Ian Garry Following Islam Makhachev Defeat",
+      "ts": "2026-08-25T17:36:56+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Gregory Rodrigues Reveals Health Issues Before UFC Sacramento",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZGhMbVZWS2RNU0Y1Mld5N2tNNWViczFWLWV2aWhWYTZyTUJhVGFKN2NlZ3c1M0Z2VXkydkNxTUxXd1VESEZhdm05RzlGTnZ3UGxJaTRFTW9ZbmxINWdrVXlBYWlZWUNQY2Z1OF9EUFA5dzV6QjRNaENHOUZRb0NPbVpB?oc=5",
-      "source": "heavy.com",
-      "cat": "ufc",
-      "ts": "2026-08-25T16:35:14+00:00"
-    },
-    {
-      "title": "Doctor insists Larry Wheels could’ve kept fighting, doesn’t require surgery on injury suffered at Brand Risk 15",
-      "url": "https://bloodyelbow.com/2026/08/24/doctor-insists-larry-wheels-couldve-kept-fighting-doesnt-require-surgery-on-injury-suffered-at-brand-risk-15/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-24T13:00:00+00:00"
-    },
     {
       "title": "Jiri Prochazka shuts down recent rumors of upcoming title fight which had fans complaining",
       "url": "https://bloodyelbow.com/2026/08/24/jiri-prochazka-shuts-down-recent-rumors-of-upcoming-title-fight-which-had-fans-complaining/",
@@ -2105,6 +2091,20 @@
       "source": "boxingnews.com",
       "cat": "ufc",
       "ts": "2026-08-25T17:30:24+00:00"
+    },
+    {
+      "title": "Should 41-year-old Jorge Masvidal UFC Comeback Fight Be vs. Leon Edwards?",
+      "url": "https://sports.yahoo.com/articles/41-old-jorge-masvidal-ufc-143300790.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-25T14:33:00+00:00"
+    },
+    {
+      "title": "Colby Covington Takes Brutal Personal Shot at Ian Garry Following Islam Makhachev Defeat",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMVBvbkJVSEtieTVhUl9PaENXaDctaDVHNXRLRWV6ZjZxQUFEN1liMFZBYlJDYXVzWmVTZkluYWJWallSVWZWSEQ2VGUteUhXNENxdFg5SFZFc1VBMGZhUVdMS2tVVlRQYzVZNW9kMG95WGZHSk1MRlZDcWQycnpYMkdUdTFEcVdpQkRFM2lXQV9CMlZMdG1xai11cGgtUnI1MTExNUJLaTNKRWpkMldPQzRHSE03dw?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-25T17:36:56+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMif0FVX3lxTE1Wd0xMU0pweERGeVpIRFhVd05SUVUxZVRZeDA5MmZ6VHhwTEt6OHN5eWxHRHVDX1hoUnhCT2kxbE5CSXVHTlVPVm1QN0N4MU9DRkpid1BpdmVuWDJHQ1oxTG1RWGVwelBJYmRBaXdHQnNQZE4tZHpjbUJBRnR5Z2s",
-    "CBMiiAFBVV95cUxPQzc5ck54MFA3RXZ1Vnh5RFlhcjZsdTN6MDlJeWFDR2FqdUNDMWpMcGxXaFByM184YlQtWDgxRkJHZWltaUllaGpxYjFLUDlnNlhEaFJwbGF3Vy1ETXR3LWh3TFY3NF9lT3RxTzl5NGZOaFNLZmtvaGU5V0RfMXFVbTkxYW9tZkN3",
     "CBMiYkFVX3lxTE5UZVhWNGdKbzRVZVRHRklBbFBXQ3FZYUh5ckd1Uy1Md2M0c0U0enRYWjQ5RDlOVnhUUDJObVNWd0hfd2dycjROcUhQQ3lWRlZ4akVoRVNTZlJXUHh4YmZQbnlR",
     "CBMiggFBVV95cUxOZC1MbUpkQzlTQXhrSWx1V0p5TlRaZk9Wd0J5UGdKS2oyM0hKVGFuQU91VVJRTC00cWZHWkNrSnlCbmRLVFo4djJndlhxNVlpZEF3b1FPXzBHNHJPc3UzOW9XdC00WW9YSWg1WFkwV3RrSF9ib0hoejVLTUtBVVR6M0N3",
     "CBMiR0FVX3lxTE1taC05cGhOczhfclkyWDRoblhLZll3aFk5bE9tbVpzR0MxeElLRm8tek9yRVktaV9yQUIxc3NFVTF0RWgyUU9r",
@@ -3312,7 +3310,9 @@
     "79681dbd-c2d5-32d5-b9d8-e0f2cc860f7e",
     "c104c901-f4b0-31bd-9f0b-625db251ac04",
     "7d08cd52-4dbe-3d90-b619-09c8928629ca",
-    "CBMibkFVX3lxTE41WkxocmlMdmNFVVlUT2Z2bFBDUm9hMDBjTWtPcXRaN3NuX2RNSk5BT19EdWFZOURtcTZsV29zbG9PVmRBSlBQeHB1dEdlLW1DVHpvSDU2SFVvbmZFdzlUYUllU3dwZkVqeWswTzJR"
+    "CBMibkFVX3lxTE41WkxocmlMdmNFVVlUT2Z2bFBDUm9hMDBjTWtPcXRaN3NuX2RNSk5BT19EdWFZOURtcTZsV29zbG9PVmRBSlBQeHB1dEdlLW1DVHpvSDU2SFVvbmZFdzlUYUllU3dwZkVqeWswTzJR",
+    "6e451ca3-eddd-389a-9fcb-f8faba4d29c6",
+    "CBMitgFBVV95cUxQMVBvbkJVSEtieTVhUl9PaENXaDctaDVHNXRLRWV6ZjZxQUFEN1liMFZBYlJDYXVzWmVTZkluYWJWallSVWZWSEQ2VGUteUhXNENxdFg5SFZFc1VBMGZhUVdMS2tVVlRQYzVZNW9kMG95WGZHSk1MRlZDcWQycnpYMkdUdTFEcVdpQkRFM2lXQV9CMlZMdG1xai11cGgtUnI1MTExNUJLaTNKRWpkMldPQzRHSE03dw"
   ],
   "daily": {
     "d": "2026-08-25",
