@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/459914/ufc-oklahoma-city-results-sooo-about-last-night-du-plessis-vs-usman",
     "https://www.mmamania.com/459915/ufc-oklahoma-city-results-dricus-du-plessis-bludgeons-insanely-tough-kamaru-usman-for-five-full-rounds",
     "https://www.mmamania.com/460047/highlights-valter-walker-finally-breaks-insane-heel-hook-streak-still-turns-in-epic-calf-slicer-submission-ufc-abu-dhabi",
     "https://www.mmamania.com/460302/open-thread-july-25-2026-horrible-movies-you-love",
@@ -1151,6 +1150,7 @@
     "https://www.sherdog.com/news/news/UFC-Baku-bonus-winner-promises-even-quicker-finish-in-next-fight-201673",
     "https://www.sherdog.com/news/news/UFC-Baku-weighin-results-13-fights-set-201648",
     "https://www.sherdog.com/news/news/UFC-Edmonton-just-got-a-major-injection-of-Canadian-talent-202301",
+    "https://www.sherdog.com/news/news/UFC-Fighter-gained-a-whopping-255-pounds-before-stepping-into-cage-202514",
     "https://www.sherdog.com/news/news/UFC-Sacramento-Hernandez-vs-Rodrigues-playbyplay-results-round-scoring-202479",
     "https://www.sherdog.com/news/news/UFC-Sacramento-How-to-watch-Hernandez-vs-Rodrigues-start-time-202456",
     "https://www.sherdog.com/news/news/UFC-Sacramento-bonuses-Carli-Judice-3-fighters-take-home-36100K-202482",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Gregory Rodrigues And Anthony Hernandez Face 180-Day UFC Sacramento Medical Suspensions After Five-Round War",
-      "ts": "2026-08-25T00:03:11+00:00"
-    },
     {
       "t": "Islam Makhachev set for potential blockbuster fight, with rival naming the date he wants to face the icon",
       "ts": "2026-08-25T00:02:20+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "“The belt is secondary”: Merab Dvalishvili puts beating Petr Yan above winning the title",
       "ts": "2026-08-25T03:39:05+00:00"
+    },
+    {
+      "t": "UFC Fighter gained a whopping 25.5 pounds before stepping into cage",
+      "ts": "2026-08-25T03:27:28+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC owner Dana White relies on AI to establish political truth",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM29ZOW9xRmJmM3B4UWZxTEJCUTM5OE5hSENlWWFTbHpYWWstaWJHLW84OEpwaUIxM1lUVVBUUlJfaU5FLTlFblRHeGtuNnM2OUN4Y2diOWpPYlBHODBrVUtWWUdkcHphcGRfbXpOYmZrV1dIYkFvNEFFMVVWZ0lPT1RBbGpiVVI5MlRZeUtVZWgwNnFEV2pGdHR4dw?oc=5",
-      "source": "thecomeback.com",
-      "cat": "ufc",
-      "ts": "2026-08-25T01:31:05+00:00"
-    },
     {
       "title": "Must-Draft List",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc1pkd2hWVE1rQWdwd0tzRDF6b1V6bS0xNTB6cWU1QVFNX2U3dC15bnNFcmNsNHR2SVRkdHZlYS1UV05sNUVLanZQUVJUUHEwVFlVSmNObXhqNmVIR29DRXk2VkhEZzRXeC15c18xNEtadmpka0JMaXdiTkowMXBoeg?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-25T03:39:05+00:00"
+    },
+    {
+      "title": "UFC Fighter gained a whopping 25.5 pounds before stepping into cage",
+      "url": "https://www.sherdog.com/news/news/UFC-Fighter-gained-a-whopping-255-pounds-before-stepping-into-cage-202514",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-25T03:27:28+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMid0FVX3lxTE9fTTdLX3hlb1JzdU9nTl9pOGhCMXdLU1JWSDhmTy1UYTNiQnF1SENmbHFnbzlORXUzTkVGNG1xdFNaM1Y2RGk3UWVQWmlsRXRWVWdieHlrR3R6YnJ5MHoxaUw4d2VQLXp6dzNma0RNZkRqLWtHV1JR",
     "CBMi1wFBVV95cUxPb1ZNTlQ1MmZ6djljVDd5WVdCODRudE1XLTZWcWVZMnc5dnJvTEpKREtrdXdlclNtTmgyaFFCV2U5OVZNenhLWkRoVlF1ZmRCVWY4Y2RzdFVUVDBoVVpJUHpFa0NQZXdXYkdZLVVFQm9RZTgybkZGaC1MQ18xeEFTc1BHQ1VmaHVfSi1TUzJySjlGVGZuQmhWNnh5WTRzSjIzRWJMZHphWTBpc3FNTlJfNlJ4Um5FY05UckQ4T0IxYkFCQTZzUVI2aTZyWEF3WGVHbXBJV2taZw",
     "CBMitgFBVV95cUxPN2ZLOEdQazZqUnhGZnlBNG9VLWUwOEN0UG5qZ0VVYkZKT25tSVJUbjNJaVNUeHhNaDVzMGNORXRiZ1VjUXZnUnV1ZFowc251em5iSGJyZjRlYlo2U2E1bTRBbHN0QUx4eDJBUHBKaHg4bkxGaVByY1ppNWw2QzlHZmV6VmRqcFNaalJTcUpYbk4xRzJsbDh1RDA5OVpsbEVaUnh4S0ExTExnR2o4WTFPZHNnTHgtdw",
     "CBMijAFBVV95cUxPV0prV2pqZDRWS3VtZ21YT2RfOVFDb254UExEZGJzQ2xaOUhKeEhwaGl5TlI5b05lcEZNRWg2aFFRSmkxZXNvREZvdFNqTGRiM1UtRVpmZExsOHlLZ3NJLUkwQ2Q2SnBoNEdOQXM4VmxQRzRsWDYxQjN2VXNpRjUybE9VWVNFQXd1UmRORw",
@@ -3312,11 +3311,12 @@
     "CBMifkFVX3lxTE5ERHIzSUI2eHBKcXJ5dkFqeVJyV3R0dWppWnZ0bjYtenhmT19lcm1ZUlF6d0s5NWlpenJRMTZoM0dlcXFIdWNCbDVjZFZDYlBRRXFiU2hSS3JCZ2tfb3hTYlVmYk93dTVkNm52QnB3ODM1U3MwYldzVy1KaXE4QQ",
     "CBMi4gFBVV95cUxQQ2tiT1JndzdBWUZLS1V2US1wQTNUUE5MMVNIWENDanhXNzZWRnNQdi05QlA3VE0wTG9Nb3Y0ZktXcmhTT2ZndWRONzZvQ3hTLUVpaFRRLThlYXdsRU1CUXgyM3RBSTV4TGFMc0RlOF9HZWhPNy1XeU9EZzJPUUFsWW1qWXNCWm83c0ptRTlDc3AxSzZRcTNWWmt4d0NJTy1Fc2xRSW1aMzY5LW1HRmhYTDloNDhSdmZnNkNtWjhBNlVRYmZtZTdoMFB0a3dQUEdIMWgtb2g3VjExVEtlcDlnN05R",
     "CBMiW0FVX3lxTFBwTTdocmxJSG1lZTYwVHB2V1B5NmxmTkFrX2V4endFcUt6VGtFcVhoSV80d3NRRWo0WWlfVjlLQmtHcmRjeDNMLVJWaHQ3Y1JPM2xGbXZUaHNwMDg",
-    "CBMiV0FVX3lxTE54aHBRNUtiNWpUUmZMWlFfYmhXczFwT0hpV2FyR1JrU2hiUU15THUyalJ5Um5JUDdGUnVPcFg1NUs4SGJHcFlQLWc1U1JCbE5iSld3QmV6Yw"
+    "CBMiV0FVX3lxTE54aHBRNUtiNWpUUmZMWlFfYmhXczFwT0hpV2FyR1JrU2hiUU15THUyalJ5Um5JUDdGUnVPcFg1NUs4SGJHcFlQLWc1U1JCbE5iSld3QmV6Yw",
+    "https://www.sherdog.com/news/news/UFC-Fighter-gained-a-whopping-255-pounds-before-stepping-into-cage-202514"
   ],
   "daily": {
     "d": "2026-08-25",
-    "ai": 78,
+    "ai": 79,
     "staged": 4
   },
   "staged_hist": [
