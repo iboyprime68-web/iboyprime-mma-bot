@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Petr Yan will defeat Merab Dvalishvili again, Umar Nurmagomedov predicts",
-      "ts": "2026-08-25T14:34:18+00:00"
-    },
-    {
       "t": "RJ Luis Jr. Cleared to Play for LSU Stream of General Videos",
       "ts": "2026-08-25T14:10:03+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Charles Oliveira Pitches Shocking Gamble for UFC Rematch vs. Justin Gaethje",
       "ts": "2026-08-25T17:15:28+00:00"
+    },
+    {
+      "t": "For Bella Mir, there's no such thing as being just another UFC prospect",
+      "ts": "2026-08-25T17:23:08+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Colby Covington launches scathing attack on Ian Machado Garry following recent UFC 330 loss",
-      "url": "https://bloodyelbow.com/2026/08/25/colby-covington-launches-scathing-attack-on-ian-machado-garry-following-recent-ufc-330-loss/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-25T16:00:00+00:00"
-    },
     {
       "title": "MVP Blames TNA’s Downfall On “Gross, Gross Mismanagement”",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUFJjSzdzSjdhTGtCVzIxY3RiU0RTLXdRTldIYUtsU3F0R012R25FRi1zSExUNnZ5THE4MUhzMDdPamkwYURQdG91aHQ3WEpzVW92NUxUdkswWHFjeUJPZWlZWG0zRUphSVRIMFRRN014b25Yamt6N0VzRFo3aU5ZX2hYNEtRNUxQV0dZN0p30gGTAUFVX3lxTE5CWWpTeVYzQXBRTXpsYURoUlFaTW5IbUs1WjlYWkVNN05MZzkxcEYxdTExam80bENRMFE4WnEyVHFINlQzRUp2b3dndUZYSTU3aXRCS2hmSjlFUW5OeHk1XzFScWxKRFhSS0xkQVRodm54bl9xMWprNER4ZXN6emVqVWRaWlhKSkhRMUg2ZWJiQ3hzZw?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sports Illustrated",
       "cat": "ufc",
       "ts": "2026-08-25T17:15:28+00:00"
+    },
+    {
+      "title": "For Bella Mir, there's no such thing as being just another UFC prospect",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxON0hzNmVDM25CeW9wOWhSa1NaanI1Qi10aTJMRXN6TzNSaE56VjVMcXNia1M3Vkt5cFhkRlo4R2dpdlJRQVhzYjg0RG9Sd3lQaW5EZnpPM3VkMkpFLVhJWERnVWRKZ0dHdzl3WnJEMllPWWpGRXFFY3ZIZ3p5d09UbDhRV3dVWC1Yb25iRzQ1NnpRbks2Y3g3TTNkUjJOSTVrbmRJRDNnUWVJTjVCTmxOclAwVkd3cHVDRTNUTDg4YzZMSDl0dF9tdFprOW1OT1lnTVhCTjAzQ3ZVSmtuOGZHM05iSjlrdklsVmstUEF3RQ?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-25T17:23:08+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi6gFBVV95cUxQV1dOSjRiaVIxLUMwV1FraHJwa3k0bVRZeUtqcEdJT05hS1ptd3QyZGVoSXdMQnc1Y1BuUF9KMDBlb2toZTB6RnBhZDYxcGs1TkRBMjNMTGRfX3lfUWwwelJ0ZTNjYVJMc2dVRnFMVk5UeTU3bE9jNmJsYXc1TnVBNUlwZG95Q1BCYW1EX082bmlrUVZoTGZhb0E4TUdBdU52U0VDalB3cGhoMkJaVktFekszajhNQlJYQnFrTUF6MVFtTmd1MHRrWmNJWjZ2UmZ1QkRJdTdST3o1Y1p1VFdFT3hJQ0xhR3F5Vnc",
     "CBMiiwFBVV95cUxQdTc4WVJoMHVxRzdRbk1sbmVSZ2tLeTd5ZVZ4VzhGLVZ5RlpLTlc5T2tiNnNhaHdpYVhUZGhOLVYzY3pyaTVuX2pfaVVxcUIxSUF2VXJrY2UyTzBFSnBIY0Ztcl9IVVBHa3JoX3hEUE9DNzdLaVpRa0htMVVPVjJSeVlHV09kR2h4YVNF",
     "CBMiqgFBVV95cUxQdjFKOE9DNEc4TnNYSkNLLUhLODJIaDRLWmgzMFJnMFIwbWlmUFlKMThQZ2FlXzRKam1ZcmYxekUyNG9lZkRGaWVYMnFBTTVfMF9pS1hpQm4zMEFCM0s3ZzhvVWRHMU5KQTBwOWtYZXgxWlZHMDk3b1pWX2RiMTI5aFVzOGl4MkRfbHpMdk42N29tM0RiZkwtaXBfSG1nelZpWkhCbFJmcFJzQQ",
     "CBMiggFBVV95cUxONGE1em1JUnl6VzVOOU5iVnhTT3B3dmg1SThZbHdlM1ZtYkNEdFN6cjdXcUlMQVpjZWhBZHVaTnRtUDlsYTFSbkxucUR5RGcwd3FoZktPZUZaaE1BUEhZNkxzTC1rRHdWUGdBcEhxOHRlVmJ0Z3RuZU1SaUowZXY0TVJ3",
@@ -3312,7 +3311,8 @@
     "CBMixwFBVV95cUxOY1Nya2xVQkk5U0lVUUwwLUlkTnBybnFwTkZUTXgtMG14dENFVGZDUU9fRGtmMFlIYTdUWHlGcTlteXdnalJzSDBhZklheDJSS2hDRWl1SzZYTmNfTC1idFNRRUpyYjZTUk8zZXJ6NEJfWEJUMzV5SFE3ekFGYVdHOXU1LTZ6TFZoUXBQYXhLdmY0MzdnUzFLMGNvOHNPV25kX0E4RWR3RDdvSDh0SEFkZktGc1FrTUFnNVpaV19aYXY5UXVuQTZJ",
     "CBMidkFVX3lxTE9QLUJvZ3hhN2JvZjBpM2NFRll3c3VIWjlrZkUtZV9fLU15UU5NLVFUNTRuWUstbU9JN2JLbkZQM0haQUUwNUxYZS1JVUE2NlJ5NjRTVjA3emR0VzZvZXF3Vzg5V3FPcVBsTmc1TFducHFFNU15NUE",
     "CBMiY0FVX3lxTFBYb2tJRHhGcUkxQk9MNWxXM3NLLVVkWXFVWXotbXVCcGx4Z0c0bEhWcGliT2ZuNlBzSEVxblREUUtyalVib0tSNWcxbkJrTXFDQW83SlAwSGZVb19LZnFNc0FXbw",
-    "CBMisgFBVV95cUxOcHNTTXhFN053VHl0Rk1hYzMzNXhpNnV6d2tJOVQweUM5VHBpT2JsXzI3MmJnOU1wUElIMG9HY2xKYjBObnp1d191VWpBakJmcEwzNUtKTHVxMTQ5MFpEVEFIV3gyakZlUXhEUzN6cXpTcjZXdzhvSVlRSE9GblE2MnpldmdlR3RhOE1SaTJFcnB5ZkdpR0tQMVpNSk94QWd2dWdEdG1QOHpzVlZqRDJvbkRn"
+    "CBMisgFBVV95cUxOcHNTTXhFN053VHl0Rk1hYzMzNXhpNnV6d2tJOVQweUM5VHBpT2JsXzI3MmJnOU1wUElIMG9HY2xKYjBObnp1d191VWpBakJmcEwzNUtKTHVxMTQ5MFpEVEFIV3gyakZlUXhEUzN6cXpTcjZXdzhvSVlRSE9GblE2MnpldmdlR3RhOE1SaTJFcnB5ZkdpR0tQMVpNSk94QWd2dWdEdG1QOHpzVlZqRDJvbkRn",
+    "CBMi7wFBVV95cUxON0hzNmVDM25CeW9wOWhSa1NaanI1Qi10aTJMRXN6TzNSaE56VjVMcXNia1M3Vkt5cFhkRlo4R2dpdlJRQVhzYjg0RG9Sd3lQaW5EZnpPM3VkMkpFLVhJWERnVWRKZ0dHdzl3WnJEMllPWWpGRXFFY3ZIZ3p5d09UbDhRV3dVWC1Yb25iRzQ1NnpRbks2Y3g3TTNkUjJOSTVrbmRJRDNnUWVJTjVCTmxOclAwVkd3cHVDRTNUTDg4YzZMSDl0dF9tdFprOW1OT1lnTVhCTjAzQ3ZVSmtuOGZHM05iSjlrdklsVmstUEF3RQ"
   ],
   "daily": {
     "d": "2026-08-25",
