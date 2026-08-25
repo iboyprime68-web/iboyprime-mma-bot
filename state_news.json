@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Shanghai: Dominick Cruz previews Umar Nurmagomedov vs. Song Yadong",
-      "ts": "2026-08-25T20:40:11+00:00"
-    },
-    {
       "t": "Polymarket Referral Code SBWIRE: $20 Bonus for NFL, UFC, Crypto & More (August 2026)",
       "ts": "2026-08-25T20:54:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Interview With UFC's Alden Coria De'aaron Fox (SEVtufreyT)",
       "ts": "2026-08-25T23:03:32+00:00"
+    },
+    {
+      "t": "Andre Lima expects quick UFC return to make a difference",
+      "ts": "2026-08-25T23:47:04+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev tells Merab Dvalishvili to ‘stay quiet’ after Russian flag remark",
-      "url": "https://bloodyelbow.com/2026/08/25/islam-makhachev-tells-merab-dvalishvili-to-stay-quiet-after-russian-flag-remark/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-25T11:00:00+00:00"
-    },
     {
       "title": "Aljamain Sterling has humble reason for why he would ‘absolutely not’ have taken Jean Silva fight at Noche UFC",
       "url": "https://www.mmafighting.com/ufc/507031/aljamain-sterling-has-humble-reason-for-why-he-would-absolutely-not-have-taken-jean-silva-fight-at-noche-ufc",
@@ -2105,6 +2098,13 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-25T23:03:32+00:00"
+    },
+    {
+      "title": "Andre Lima expects quick UFC return to make a difference",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNckZWT2tYZE9wMU1pVEFjeGdtVjBpUVFTTURpZEFJTnppbVFuV2YyZEJkOTF1SGpORHZBZ3pMeEdsN2F5bGM5c0VpTFFUQm5IT05zdUg3S3BFOVp0VVpjS2FidXRkWHJPdEljQUV5LUl5MHAxYnU3MGxnR3pFcGhUMHZjWElmeU9Qb0dQMTc0N2U2Qnc4ZGd5TXdmcWhFMEE?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-25T23:47:04+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMixgFBVV95cUxNWDlhN2o0SFVpQ1F5UDIyX1hYOUNxX3U5Z0ZzUWxWUkxQV3BqeGpuZGhVdnNCcTBaaVdsV0V0dnRleEN5VEFBWlBSZWM4bzVCSk9qdFZ2YTVyRk9MaXlpUjVzXzVMNUZkaEVsMjBDV2xaTzJ2VmxBa3VYMS15T1pHZVFRWTAxdFRUdFpBRWJtNk9NYWhLT0doeW0tWnFRNU5WbjJFOHZJdWgxUVBCUUQ3RGRhbVZiSk9jcnpkZ25pcENVQjBnelE",
     "CBMipAFBVV95cUxNeG1HRWxkRUEyM1pYeDN0SG0yUXgzYW1DNlB1S0puRGJZMFdzNHB2VlgwdC1YSkdxZTI5WmtKbFM5OGxnQUpWbjVZYy1uSUdFSHhWUW9WWWdObXdudTlJMzZHR2I0enlXb2plQTVrdzk3elRya3J6SzZFTlNWeXBUUTdRaWk5aXk0aF9NeE54a2NYSEJ2TUpzY1JqdWY0cklFeDk4bA",
     "CBMibEFVX3lxTE5NVEpaeVZlaUJCcm5TMWloSzhROGU1eUN4czRiZTRGa1VYemVWWVk4LXF5MGxCMkNud1g3LVlQajhQMzBXeUJHd1pPRVl5NG5QZ0ZXd2NPbHp5YTdUT2EwaE5MeFRrUlBiaUtKVA",
     "CBMixgFBVV95cUxQR2s1YmVBaXhYTk1pdXpMU0lKMVJ5enhIclJ6NjZuS2dGMGNvbFB5bUhzRmU5Qnc1cTRvQWdIZ3E1Yi0wNC1UVTBUeTFNVTFNZUJRUU9jWGYyZUhyeGxSQnZWVUpsMkdDOWRsV3lSeHB4cFc4cXlMeTNoSHpIWEx5QmFKQlA2ZXlWTFdXWmpiV3V6cWJVVXV6Q1duV3VtbjJYTUYxVkJkOTBZdEVEb0wtZ19heG02bFVYS1NZVHZpVTlYaThDd1E",
@@ -3312,7 +3311,8 @@
     "CBMi5AFBVV95cUxQWHk4Rk4ydk9DRW9pa3lFUGpFQ2JZNjFVdXR0LVlOSG9xYkxQRFJ4anBwbGdNS2x4V3FWdVdhY0JCbWhkSlVQTTQzaVljNlB5RXpVX1BjcmxLQngzcVJzT1laNkVJekJpTGJIQkJ5WEhhenVhTlA5blpPU0lSdUp2eWpwTVpCWG1OZmVETlo1emdKd1l3ZzR2ZXVWVi1XRDJ4Zjh3eUMyLXNRc0FHcmg0ZzV2VVZ5UEpzNDdldEFkckpsbkp5SkZnTW5qYzJWdTRCTm5rZzRCUXotaW0tYkQ3eVc0dF8",
     "CBMiYEFVX3lxTE9ueGx5blZEVkFrNTZmRmlKTnFIaE1kMnBacTdycjlHQnpyVVlTTGx0dzFHLVZyV3RZY3AtNWFScEt3cGpuTDQxVGNObGtWODhXcWNadWgwQzU3c0VzMWpLVg",
     "CBMiYEFVX3lxTE1ZMjBYbWs0NUlXTGN1Tk9iaTVpaW1jWkl3OUdaWDlTQkR5UE1jUVA2bGRqbnJFNFBrdEgzRDlneUc4Wk9Vdkl1SW5zX3dZSy1JYUJ2MDhhUHpEcWJTLVM1OA",
-    "CBMiW0FVX3lxTFBkbklRZVR1NWN2N0RDRFpCMGV6cTVDTjRnc1VBQVhveExyaVNsdGJIcnZpVlhyQTF1bFI5WG1TaWF2ZXY2dmJWSVJsVVRmMld4S3dOWDFWYm5vSFE"
+    "CBMiW0FVX3lxTFBkbklRZVR1NWN2N0RDRFpCMGV6cTVDTjRnc1VBQVhveExyaVNsdGJIcnZpVlhyQTF1bFI5WG1TaWF2ZXY2dmJWSVJsVVRmMld4S3dOWDFWYm5vSFE",
+    "CBMinwFBVV95cUxNckZWT2tYZE9wMU1pVEFjeGdtVjBpUVFTTURpZEFJTnppbVFuV2YyZEJkOTF1SGpORHZBZ3pMeEdsN2F5bGM5c0VpTFFUQm5IT05zdUg3S3BFOVp0VVpjS2FidXRkWHJPdEljQUV5LUl5MHAxYnU3MGxnR3pFcGhUMHZjWElmeU9Qb0dQMTc0N2U2Qnc4ZGd5TXdmcWhFMEE"
   ],
   "daily": {
     "d": "2026-08-25",
