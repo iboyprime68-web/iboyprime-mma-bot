@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Doctor insists Larry Wheels could’ve kept fighting, doesn’t require surgery on injury suffered at Brand Risk 15",
-      "ts": "2026-08-24T13:00:00+00:00"
-    },
-    {
       "t": "Bella Mir confirms plans to conquer multiple sports with Dana White’s full support: ‘I want to be legendary’",
       "ts": "2026-08-24T13:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "“I think I’m next for the title”: Charles Oliveira calls for Justin Gaethje fight and offers BMF title",
       "ts": "2026-08-25T16:01:29+00:00"
+    },
+    {
+      "t": "UFC Shanghai: Umar Nurmagomedov says 'it's personal' with Merab Dvalishvili",
+      "ts": "2026-08-25T15:44:12+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC 334: Five titles fights that could headline show at Madison Square Garden",
-      "url": "https://bloodyelbow.com/2026/08/24/ufc-334-five-titles-fights-that-could-headline-show-at-madison-square-garden/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-24T19:00:00+00:00"
-    },
     {
       "title": "Charles Oliveira Shares Timeline for UFC Return Fight",
       "url": "https://sports.yahoo.com/articles/charles-oliveira-shares-timeline-ufc-193014067.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-25T16:01:29+00:00"
+    },
+    {
+      "title": "UFC Shanghai: Umar Nurmagomedov says 'it's personal' with Merab Dvalishvili",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWGZ2RkQtLVp2WVRhRFFQT21uaDVHUWtvR0ZrWXlXaEMtNThBS0FEYVRuWkJ6dF9WZng1UzNvNV9rTUFtRmdUU0lHOTk1cFMyVGF5N2RkMmlVWnFGWXBHcmtMOHN6bGJXVFNidEZpUXhJc1Y1R3p3anQ0TC1HZGJKUG9ITVhYVkJNWFE?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-25T15:44:12+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMipwFBVV95cUxPMFduWk1jQ19QSnBkX0txRU5MZjR2blM2TWdIWG83aWxJZDBuTGNyLW1yZDMzbTFrR2prOEZYM2RvaGg2VmVwSU1LWm84dE1SZURsandHX25pT2xBakN4MEViRlpWa01WYW44Tl82S1JpTTJWd1JiSlYweTI2RXMyajY0WWF6VzY2SHVySUVYRVgtTUpYR1BQWWtYSk9PaW1XRWZONlQwQQ",
     "CBMikAFBVV95cUxQejBkVXcxQ2tRRW5ibF9ydEtxZXQzTS1OTjhWRUFEVC1DUjlpNXgxOXM3R3pTYjB4T25qd3ZPZE1SbzFnQnJQcDZxbTczejV3OEMwOEs0NWtnNG5ITzJ1bm9COC1yZVViTm5GRVJpSnAzWUg5RmYyUzNiQ2lJakNVSU9qOUJPLVVHWk90LUE2QjY",
     "CBMiiwFBVV95cUxNaHE3N3ZnZ3RoZ3p1dUdWd2xGRDRvclFpMm9weW51ZXVHRVgyY1YyM0t3clJtSDQxV2xCWkpyTUQ0cnBPVmxMUjVGVHVTQmljaUhxczQtYVZySElMZFZ3bnhDVEdnWDk1WUlZcmFQcnhVbVMzMm5CVmJjQnZlaGpDcjhiRHlLRzZreWZF",
     "CBMiR0FVX3lxTE1LNGV0czlKeTZ0WnVWbXNsLTRPdnRMMDJ0eG1jSVdIOGhRTVU4c2ZERlU3WFhTMmp4Q3hjamhldjdseVRRMXNv",
@@ -3312,7 +3311,8 @@
     "CBMiZEFVX3lxTE1HT1U2ZGItOVp0Vm5VZHlNNnJKZjItWDhETDM2VFNTREwzNGtFT3JnV0xzVUdwZElueTBlZmxZbE9JMnZIWTg5YlMzNkFTakhwWkNlTl9veDJnNmkwdWJ6dUMweWs",
     "CBMipwFBVV95cUxNclBObGlmT05TeThSblg5T2hYVWpyUUdxRUNOcWtMNGZ3c21VbEF0OU1uOGRjRlRUOV9WWGRsMVhFdHF1TFRMWThHSzI2MUNLRTlGSTlWSG0weF8yLXYxZTJDcGgtZHVNeE5yZk92V2hpZmZBSERtcHZ6SGRhTExHa3ZRR2VjR0pkM2pibG5yZjBZdzVPQURNRDZHbEg3OU9ZWWF2S3VkZw",
     "CBMirAFBVV95cUxOSzFORTNXS0lYYTlMWDR1a09IZkZSamUyWEMtd0NyMDlqdGJiZ1hVdkpsdl9Ed1o2WU55eTc3Sk5RVlA4NFVhaU5Uczl5VmpnUlhxSi16eUxTaWU1SHY2bElvcGZLc3BHTFJkZy1JaTZ0MjZiNFF3azFibjZLU2s3QmRQMGpLbFFGWUhKcm5mc0lTSDhBWTVETEVXbVZ1Mlo0TEpQc3ljbVF4bm42",
-    "CBMiwwFBVV95cUxPQUdtUWVCYkNWbGloLVRfY0twdWhUSE5rMnFDRzdNRDVhNFAxZk1ZMkJZQ3VrNWhjVTFlbG56QlJhTUlUQjNCTEJaQjVhUlJMMGFxVGtyczloQ0pXYkpVQTNXdFF2V1diMWZFaWdmcWpUZ2dfVzZvZE1KcXF5SHRpSUxaamU1MGNVZFJNVlNJOFl5b2NDX3A2VGxtSzZFd0UyczVHWEhhREo3VWl4N09CSEdjRWUxcDNuenNkTjctajJsZEk"
+    "CBMiwwFBVV95cUxPQUdtUWVCYkNWbGloLVRfY0twdWhUSE5rMnFDRzdNRDVhNFAxZk1ZMkJZQ3VrNWhjVTFlbG56QlJhTUlUQjNCTEJaQjVhUlJMMGFxVGtyczloQ0pXYkpVQTNXdFF2V1diMWZFaWdmcWpUZ2dfVzZvZE1KcXF5SHRpSUxaamU1MGNVZFJNVlNJOFl5b2NDX3A2VGxtSzZFd0UyczVHWEhhREo3VWl4N09CSEdjRWUxcDNuenNkTjctajJsZEk",
+    "CBMiigFBVV95cUxNWGZ2RkQtLVp2WVRhRFFQT21uaDVHUWtvR0ZrWXlXaEMtNThBS0FEYVRuWkJ6dF9WZng1UzNvNV9rTUFtRmdUU0lHOTk1cFMyVGF5N2RkMmlVWnFGWXBHcmtMOHN6bGJXVFNidEZpUXhJc1Y1R3p3anQ0TC1HZGJKUG9ITVhYVkJNWFE"
   ],
   "daily": {
     "d": "2026-08-25",
