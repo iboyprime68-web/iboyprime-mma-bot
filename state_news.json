@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/460594/mm-clone",
     "https://www.mmamania.com/460689/ufc-abu-dhabi-start-time-full-fight-card-details-ankalaev-vs-guskov",
     "https://www.mmamania.com/460695/mm-clone",
     "https://www.mmamania.com/460820/open-thread-july-28-2026-tanks-muay-thai-and-chickpeas",
@@ -1114,6 +1113,7 @@
     "https://www.sherdog.com/news/news/Shanelle-Dyer-Elise-Reed-is-very-susceptible-to-a-knockout-202450",
     "https://www.sherdog.com/news/news/Shara-Bullet-slams-hypocrite-Michel-Pereira-ahead-of-UFC-Baku-fight-201604",
     "https://www.sherdog.com/news/news/Shara-Bullet-surprised-to-see-Sean-Strickland-become-UFC-champion-201609",
+    "https://www.sherdog.com/news/news/Shara-Bullet-vs-Neiman-Gracie-booked-for-grappling-contest-202523",
     "https://www.sherdog.com/news/news/Sharabutdin-Magomedov-slams-domestic-champion-Sean-Strickland-201685",
     "https://www.sherdog.com/news/news/Stephen-Thompson-issues-warning-about-Shavkat-Rakhmonovs-return-202419",
     "https://www.sherdog.com/news/news/Stephen-Thompson-wants-barnburner-at-MSG-for-final-fight-on-UFC-deal-202321",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Coach: Mauricio Ruffy's improvements from first UFC loss are 'chalk and cheese'",
-      "ts": "2026-08-24T20:20:30+00:00"
-    },
     {
       "t": "Alex Apodaca motivated by Bella Mir hype: 'Let's rise to some occasions here'",
       "ts": "2026-08-24T23:40:31+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Islam Makhachev Reveals What's Left Of His UFC Career",
       "ts": "2026-08-25T06:54:23+00:00"
+    },
+    {
+      "t": "Shara Bullet vs. Neiman Gracie booked for grappling contest",
+      "ts": "2026-08-25T06:40:01+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Umar Nurmagomedov makes Petr Yan vs. Merab Dvalishvili prediction for UFC 333",
-      "url": "https://sports.yahoo.com/articles/umar-nurmagomedov-makes-petr-yan-003020556.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-25T00:30:20+00:00"
-    },
     {
       "title": "Relive Sean O'Malley's split decision win over Petr Yan Full Fight Video",
       "url": "https://sports.yahoo.com/articles/relive-sean-omalleys-split-decision-003337764.html",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-25T06:54:23+00:00"
+    },
+    {
+      "title": "Shara Bullet vs. Neiman Gracie booked for grappling contest",
+      "url": "https://www.sherdog.com/news/news/Shara-Bullet-vs-Neiman-Gracie-booked-for-grappling-contest-202523",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-25T06:40:01+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=506334",
     "CBMidEFVX3lxTFBsbXZOaXlVZ2JWS3JNcWN1cnlIeDJrX3JTaGRmdHhiWF9aaFhSM0NJd1otNmZXQzQ4dU1RZlVmQXFGd0FhX0d0VWJLSTVHS01RbGE2d1N5RXhKcFJmS3JZWG9GUnllV2hLUkwtVG9hUnVLcXVv",
     "CBMid0FVX3lxTE5JZjRacjJONTZ5RVFUcXJ3S3lMS1JFMWZTVGlNRHJDWFgxcWlUd0tETERCSnZnWGVrcy1BQnhHaFFVUVdwVEU0aDEtakJ4Wk5VSWh4eEl3VVhLWkJMX3dFdVdQOFp0SnlnQUdsd09PWHExNm9Pak00",
     "CBMivwFBVV95cUxPb1o1ZkRNcjQ0QnpOVmZFOXRfX08xaWxpVGx6UHl4RWkwTzZndkFMR0hXT2tZVUNwS25JUFlDNUE5SHptQ0xJdW1fR2Juakl5ZDBYOVJhSW5nZV8wbnVOUWUxbTJUTGdjLUcxVlEwdHg4clhycXhUYThJMGpKbmNiRi1YeGkzLUhEZUVoQkdiTnlpZXpPaEkxdF85S2JqYTVNeDFwc2tFaDRKcHdwcVM1WWZybHlfN0ZFZjZab2ctTQ",
@@ -3312,7 +3311,8 @@
     "CBMiYEFVX3lxTE5JeG1RUFgzMndmQ2JqUHhHallRTkxqTXlheFQ5Unh3VkN5UmUxcnhhMWRwMGVLNkdQMUNHOXBfdTJYM29UUXBYbFJFQWE5dTluYzZIYmZyUXkwa3dYRHhTaA",
     "CBMiYEFVX3lxTE12U05tZmR6WnA2RVlqZWZ4WmlyelVEV09jTkFNbnRzQTZWVEZwTkpPY3pWak54WGFJN0IzaEhDdDhicGQzYXptVTIyaEEtWTBDcEtyZzFqSGdaTGNnZHBMbg",
     "CBMihgFBVV95cUxQdmFqc25XYVY3bFpTYzVWOU1SRUV3TEhMXzNkaUFxQU04ZDFJTWpaVXpfbkIwdlVEekFLRDczYUxKR1BEVHFvUFJoSkZVZU5FTjZjeVZvZFloZXVtemVQRHUtNnZsRzIxaFdGMWJhU0g2VTVCQk1rUmk4dG15RlJQSGRvMDczUQ",
-    "CBMilAFBVV95cUxOQ0dTTmVmc2tWVE5kamo0eEpCazAxT1BSTW92NUpVYnoxNjkybUpGTG04TkVqRVkxMWhUOWVLZW13ZTQ1NmVVbmpBeWJtWjMxWUJRQnZvY1BKSGlfT3RmNFBhM3JBdjJRMFBjRTFDVG1GeGJJMUVQRERKQ3RyMmNRSHBZUFdLMWlrc1kwclctNTdjOHFN"
+    "CBMilAFBVV95cUxOQ0dTTmVmc2tWVE5kamo0eEpCazAxT1BSTW92NUpVYnoxNjkybUpGTG04TkVqRVkxMWhUOWVLZW13ZTQ1NmVVbmpBeWJtWjMxWUJRQnZvY1BKSGlfT3RmNFBhM3JBdjJRMFBjRTFDVG1GeGJJMUVQRERKQ3RyMmNRSHBZUFdLMWlrc1kwclctNTdjOHFN",
+    "https://www.sherdog.com/news/news/Shara-Bullet-vs-Neiman-Gracie-booked-for-grappling-contest-202523"
   ],
   "daily": {
     "d": "2026-08-25",
