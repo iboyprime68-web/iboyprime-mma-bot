@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Kevin Vallejos looking to leapfrog Jean Silva for UFC featherweight title shot",
-      "ts": "2026-08-25T20:11:15+00:00"
-    },
-    {
       "t": "Oliveira Wants a Rematch with Gaethje",
       "ts": "2026-08-25T20:02:56+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Islam Makhachev Wonders What UFC Records Are Left to Break, Reveals At Least Three Tough Challengers Ahead",
       "ts": "2026-08-25T21:50:33+00:00"
+    },
+    {
+      "t": "Colby Covington says Bo Nickal lost 'mystique,' changes tune on potential RAF match",
+      "ts": "2026-08-25T22:50:19+00:00"
     }
   ],
   "digest_items": [
@@ -2077,6 +2077,13 @@
       "source": "NY Fights",
       "cat": "ufc",
       "ts": "2026-08-25T21:50:33+00:00"
+    },
+    {
+      "title": "Colby Covington says Bo Nickal lost 'mystique,' changes tune on potential RAF match",
+      "url": "https://sports.yahoo.com/articles/colby-covington-says-bo-nickal-225019899.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-25T22:50:19+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2085,7 +2092,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiuwFBVV95cUxNT1J6cnRMcUk2V3dRYy04bXlMdE5fekZqOXl6T2ROeTM4NkRDcWxTcE5VTTc5dVNZUHFIY05TdmNtakMxTXdtS29razZiNjNqWGJVcXVERWpncG1MQTF3a2M5ZHBmUmFVbHNsRU1yS2ttTHFFc3RuVUFLLWprN3dsd0l2aHFXa29JdmxkTTFsd0JQVDFLWHhKRjRRTlZiN010TmdWdC0zLThSTndrUjl0MG8xdjVIY3UxNGQ4",
     "CBMid0FVX3lxTE14UlNXQzRBVmRaUTZqcmJMc2luWHFPYlJxUk9ybzNrNzBiVVR5UWdSUkY2QUN6dC02dE9VWlhyakoycGhmbXBzdVVuNjdFME00NmR2d05tU09iN2M4eXJ1TUMwdkNfUy1mMGRlSTVZcEVKOXhfSDJv",
     "CBMi6wFBVV95cUxOYmtpcTA1WHdMZGRmQnE3cGRsV0VPU2NvUnE3UWI2REhpM1hXQkZoVXgtc2t0TEtzVTByeWkwVF9VTGtpcG9DNVdDekg2d1hGRFNtcTlIcjE5bFZqb1BwMk13THNaOEFEcHVOUmdIeXowUXRqUHNHMFd0Q0hIVmFQcGtRUVNsY2FLSVdCdmh6aVVrRDdlYmVGMXpVeGNKYW9rZE4wblNlRTlVMTJKY05GQVExU0pDVXdGcHc2b3hORkkwN3dnaEtZSll6Q0tnMDhGZ0ZyTmNwSHJQYV9PWF9YLXRvd21OYU9VMlBJ",
     "CBMiqgFBVV95cUxPWnR2Y0htUkVnbzR1WF9Db05Uc0w1THhBRVZrXzFpZ09xcnRZRTktME5xQ2FBSGpfMVBPR0pRcE1BeUxxb1NkeHV5eFdnUEZMWUZVakVCYmVqQlQ1d3l2b3Jmam1MQnZfVUlTUkp0RlpKZ3NtcXhZeFQ5TXRBX1YwVDZBSDhLVGZzaVFCNkRvWnozRDJXSzVGZlhCWXJZd1l1aEFKWlp4eW1OUQ",
@@ -3284,7 +3290,8 @@
     "CBMiaEFVX3lxTE9qbU9BTzRIdDBSUWM0RnVmZzl4dkV5c3JTdWQxbU91Qk4xZlZHaVFxMlV3ZDNiRTFYMFpuMzdGeVUyZm5qZDFYX2ttOUdLQzZFVE5fVmdLYWZKaG9yTnBuYkh6UWlENVVJ",
     "CBMitAFBVV95cUxPeGUtOER4d0pkZlh5YjY3M0ptZEtXNVV4ODhHWVlwXzg2V2x2cF92eTc2bkVXaE1SQ09PM2FkbFVlY3dhMXpndnM4ZHJsZ052dHNrMnhkV1Y1RW5WUV8wZ0htbF9yUU1nVE81SFpUdlQ0Q1lLSEhDbG9CRW4wcDNsdDU4S1RLangwUFo2dWFPMFQyWmRjUDJNMHotNnVraGFZcTRVV2doRzlGLWx5SDF5UjFCekc",
     "CBMiW0FVX3lxTE1UdXh6Y3VjRlpnU1BiQnhrazZLNklXRHgxUlpDV0lzTmhOQjRIaXRPMEJES3NPNG1sVzE2Sm0wRnZUTE0xZW92VjVVa3I5RlBUeTZmRGVRa25MVTQ",
-    "CBMiekFVX3lxTFB6bDdoUnFPTzZjd2xMejBaZk5Da0lpOEUzbVo0RU9TcERkV0x1N0oyUUJzRVpFeldjS21pRE1jenBMT0lMZUxJY0IzQU1EOVVqMW8zVmtRVzhRUHQ0cmoyUV9oMHlxTzFiYlJoNjEwUGlmSEV3MnlTWTZ3"
+    "CBMiekFVX3lxTFB6bDdoUnFPTzZjd2xMejBaZk5Da0lpOEUzbVo0RU9TcERkV0x1N0oyUUJzRVpFeldjS21pRE1jenBMT0lMZUxJY0IzQU1EOVVqMW8zVmtRVzhRUHQ0cmoyUV9oMHlxTzFiYlJoNjEwUGlmSEV3MnlTWTZ3",
+    "4fb4a973-52fc-3bc7-afe6-9c1d385ccce3"
   ],
   "daily": {
     "d": "2026-08-25",
