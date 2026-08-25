@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/460695/mm-clone",
     "https://www.mmamania.com/460820/open-thread-july-28-2026-tanks-muay-thai-and-chickpeas",
     "https://www.mmamania.com/461020/open-thread-july-29-2026-what-do-you-want-to-talk-about",
     "https://www.mmamania.com/461049/magomed-ankalaev-vs-bogdan-guskov-odds-full-fight-preview-and-prediction-ufc-abu-dhabi",
@@ -765,6 +764,7 @@
     "https://www.mmamania.com/?p=467243",
     "https://www.mmamania.com/?p=467246",
     "https://www.mmamania.com/?p=467291",
+    "https://www.mmamania.com/?p=467296",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Jiri Prochazka shuts down recent rumors of upcoming title fight which had fans complaining",
-      "ts": "2026-08-24T14:00:00+00:00"
-    },
     {
       "t": "What rule did Paddy Pimblett break at UFC 329? Why pay has been withheld after 52-second win",
       "ts": "2026-08-24T17:00:00+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "The incredible rise of RAF and why the UFC needs wrestling league to thrive",
       "ts": "2026-08-25T08:22:04+00:00"
+    },
+    {
+      "t": "Paulo Costa criticizes MMA fighters for accepting 'any crap deal that's thrown their way'",
+      "ts": "2026-08-25T12:46:19+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Islam Makhachev reveals what makes Khabib Nurmagomedov so valuable in his corner",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYk9XUnhDNE9JenlFeDRsOGpSVDRfVnFockJ0US1QZU1XWGNObFpBWkRVTHRndFJsZmRtelJ2RTB0X3V5Tl9mLU9RLUJtaXRLay01ejhRMVZSTEdGMFZlc2Z5S0sxRVNqN2x3cGN3SUE3TGNGbXhUTE1vb3FIVVBYU29GaGw1YzFkNWgyQzZrX3l0RXZFYldNbFNaMWNlRm43OFk3WE9BTFAzdw?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-25T09:46:20+00:00"
-    },
     {
       "title": "Two Championship-Style Trucks from Ram, UFC, and RealTruck to Be Auctioned for Charity During Barrett-Jackson’s 2026 Las Vegas Auction",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE10bnRqN2lWMkpTVHJFQXU5eXNHM2VhQkJyTzk1Vlp3Q2I2VFhWd0Z5VEJOejhleWVyanduTVRyUzhiMWswV3FZSkthTUZ6SENMQVlpUEtMNWo5VTFuSWlHQ2pVLW9qNjFSa1pnRFdoSQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-25T08:22:04+00:00"
+    },
+    {
+      "title": "Paulo Costa criticizes MMA fighters for accepting 'any crap deal that's thrown their way'",
+      "url": "https://www.mmamania.com/ufc-news/467296/paulo-costa-criticizes-mma-fighters-for-accepting-any-crap-deal-thats-thrown-their-way",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-25T12:46:19+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMitwFBVV95cUxQa0NTMHJndUtDdlhCWlptdEFMQlBCME1TWGo5WUVUdjJsaHc3OVNybG9mZGl2NzNZMjcxQUxtNGVIQnQ1V0pHbUE5bnA2aHN2MDFmclo3akdMYkFLMzZrRVlsRlBHajU0OTlsdUt0eXMweWNPVERsYkpHVzdwRk9HWlh4TXpsT3owUnY2d3Z4TE9FR2wyRGF5aGVnVnZsUEQyMlNhc01pZUVzMEdpdG9XeEVSY19RaWs",
     "CBMijwFBVV95cUxOUVFmdnpxWmxyNnE3aU9UQXE4NDBfYnZYcllPZEItRHRrLTZNb0FWWWJlR1RnUlhZalpjX0p5N0o2SEEtOXRqbmIwMlF3UFRTUnFQdWFXNWozQkUyZGgzZ2VKRnduZHljZHVNUUZJSzU3Nlo1eUZYUzMzZEFncV9kdzBIY2lMSFFwc0pIalFyVQ",
     "CBMipwFBVV95cUxPNE81R25CYW1obTJHeGhRdHBYbzcxM2FqZ3M2SGNDSzZlNWhSc1pQcll4T1YyNE9jb1I4UFJXVjBCX3YzQ0dvdGdWU3RRZ0dVNWFpMUlPM09JX2NxWUQ1ZTdlczdOTUlIckNIbmhWTmpkeXA1QXpIYVZDWHRxMFlHYXc1T2lnSnVKdTVRU2xsanNhelZQQW9KaDliVHVpeFM2MkdmWUs4aw",
     "CBMie0FVX3lxTE9rYmZDZnRvbUVJY1F4V2lBV2hLdWQtdXFQaWdtTXZkYldfSXpMWHJrUDBIOHh3cWlKZW1ENGZGcTUzNVpFS3N6WEhWdFdJeGx5alpBNm1aQkZndTRMc0N5NzVubTNXTHJzZVpBWUxzbk53ek42R0NCWXpjZw",
@@ -3312,7 +3311,8 @@
     "CBMijwFBVV95cUxNWlItV083c0tKOTM4dVp6S2dfb2taa28xWE9RRlZBVVkzSnZpS0dlQjhDWjZWZGZzMHp6Q3ZPREV1a05ia2tveW83VHZfT1FORUF3VUxndFBKUkVGVDJOaWozYTFHbG9NaUd4X2ljdHNrOWdwQWtVMXFJQ3V2dWJjc1V6OThfU2RlNXE3RkRRY9IBlAFBVV95cUxOUGRIb0JUb3VZNUJQbDdlbUt0M00tZXZMT2s1RmRNaUpMamVsUlduNUtUYnF6N2hINVh6MU5zTGZhU1JKYW0yNFY3bGYxOWJMb2ViT0tjcXJtQVpMLW5zczFhQmZKeExpYXVVSGxLZHcxeVV4QTlHd0hMUHhQZm9fT1BwaFYxTG5hS1lrOFVPLVF5NUh6",
     "CBMipwFBVV95cUxNM0pORTFRYTNxUzVkb1BobzRSRDNKWDRkalNVQk05VkdqUVpXQU5DSkJyd0JaallONDdVUlpjdEUwQjJtU21jQnR0aXRnT3BmVDBzT2ZuNXFWMHpOV3dLc2FBMWViQkF1QmlMclNQV1lqNVBPSmNKRTRqNDJvRXZGQ0FZYTVwLWsxUURWaW9aTGVCVDBoQkdfRmx3NHY5UktScms0ei1pbw",
     "CBMiqwFBVV95cUxOZEJxM01mREdFSGRkQnVXY25taXRFYzNfaTEzVU0zSm16UXhuV05QZXRwLWt6OFNaeWMyMkdDSW9heTk2MEZDTnZqN0RJcEcyWi11bWNIMTdrWW9HUTZFTVFLTXVuSGxoZkxtN201U2prOXNHS2tfTWNwOWR5TUxWa1pTaXd0dENrRUVndUJuSUhxdjdpcGdSTm1RTHRId0JsNnRndTNFZ2RkMHfSAbABQVVfeXFMT0dxN3Bpd0xLY25PM2FEMnBoYzRlbHVtNFdvQU53UHA1TEVuaGJnR2wwZWxnMFV2eUhUY1N0Q3pqTHo4X2hIYWFLZE1GVGVOOVl3aHl1UWE3aWxmdmdwVWFRYVZSbXdZTklNSEFnNXZQWE1YTThSUmJVeTVMakpzQjRCXy1nbDBTOTRTRWtyRTNsN0VqWnAxdzdTc1p1dUFRZGgwdWlBdjBZMk5HQWFRdXA",
-    "7423752a-ecc1-3ac0-bc84-82b1f8030167"
+    "7423752a-ecc1-3ac0-bc84-82b1f8030167",
+    "https://www.mmamania.com/?p=467296"
   ],
   "daily": {
     "d": "2026-08-25",
