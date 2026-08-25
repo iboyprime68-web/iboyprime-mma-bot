@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "2026 PPR Superflex Fantasy Football LIVE Mock Draft! | Fantasy Football Today Stream of National Football League",
-      "ts": "2026-08-25T03:12:09+00:00"
-    },
-    {
-      "t": "Makhachev On Volkanovski's Peak Ahead Of UFC 333",
-      "ts": "2026-08-25T03:30:16+00:00"
-    },
-    {
       "t": "Canaan Kawaihae",
       "ts": "2026-08-25T02:47:29+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "“Herb Dean would say something” - Gregory Rodrigues dismisses cheating allegations made by Anthony Hernandez",
       "ts": "2026-08-25T06:07:00+00:00"
+    },
+    {
+      "t": "Dominick Cruz Walkout UFC Fight Night San Diego Alaskaair (wv8dsheKE3)",
+      "ts": "2026-08-25T05:32:26+00:00"
+    },
+    {
+      "t": "Diyar Nurgozhay Vs Brendson Ribeiro - UFC Fight Night 254 Prediction & Breakdown Darren Thorpe Omaze Winner (73e6AGPDvT)",
+      "ts": "2026-08-25T05:33:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Anthony Smith breaks silence following arrest and felony charges",
-      "url": "https://sports.yahoo.com/articles/anthony-smith-breaks-silence-following-072932009.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T07:29:32+00:00"
-    },
-    {
-      "title": "Doctor insists Larry Wheels could’ve kept fighting, doesn’t require surgery on injury suffered at Brand Risk 15",
-      "url": "https://bloodyelbow.com/2026/08/24/doctor-insists-larry-wheels-couldve-kept-fighting-doesnt-require-surgery-on-injury-suffered-at-brand-risk-15/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-24T13:00:00+00:00"
-    },
     {
       "title": "Bella Mir confirms plans to conquer multiple sports with Dana White’s full support: ‘I want to be legendary’",
       "url": "https://sports.yahoo.com/articles/bella-mir-confirms-plans-conquer-130000650.html",
@@ -2105,6 +2091,20 @@
       "source": "Sportskeeda",
       "cat": "ufc",
       "ts": "2026-08-25T06:07:00+00:00"
+    },
+    {
+      "title": "Dominick Cruz Walkout UFC Fight Night San Diego Alaskaair (wv8dsheKE3)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54V1ZOWUpnM1ZIbXdRWUpXeGh4c2ZGanQ3dHVteEhaR0hLcl9OeUVwVnVkYVNQSV9odURyeWNWRU8taE93TEZxR2tYeG9KektWR0poVjNWM1RZc3c?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-25T05:32:26+00:00"
+    },
+    {
+      "title": "Diyar Nurgozhay Vs Brendson Ribeiro - UFC Fight Night 254 Prediction & Breakdown Darren Thorpe Omaze Winner (73e6AGPDvT)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90bGllSkdHYm1kLW5lNDNUamNjMVJRWFlqZXVWUFhwREpOemkxNG5BVVY1VThrcmJ1eWtLRHBacUNPMmFDZ2h6X0JfcnFJMWpqWWl3OUUtbWFmWmc?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-25T05:33:00+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=505878",
-    "CBMixwFBVV95cUxPMW1pbEZVQ3h0a2l2YXA1T2NCbjlwX2FuR1lUTkZCSE5VaE9JMUJ3NTRaanBCSTBwOTV5T0htdFluVzhETElFekhpRVkzcnRDSzlSQURtczJWUmtlNDFHczBpbzlpY0tCbUNJTjY2bWNMTk11Wi04cEgzejdpVTZDRWpNcG5XeFd2T0RSMThwQUk0XzVYOFUxMjdvVU81Qzk2RzdkOEVVTVVjZVNHemUxZ2dFcUFqWlV0ODhoMmJ3QWlEZm8xUUFZ",
     "CBMiWEFVX3lxTE03Sl84cndfcVhlN08xMWxxcWxsUFc5NExjRVJXX3dDRDBrRVBkTXNVZVU1R2NYWG5DNVFsWkNaV2YxZlkzRjYtQWtyZkxsTEN6c3R0Y2tiRUo",
     "CBMie0FVX3lxTFBTamdvNVQ5eFY4NDRhNmZCc3NxUWQyR1d6bEJBTG96d1loRlBqdjl5Qm9HeW9yVTFlWmVnVFBsaTJ3UTc1S0FlMkdzQThjb3lOb21LajZWekdpZkpBSFdJSVJNRTZtQTVKS3hjWVpPOUtyNTc2TVJkRVJ4MA",
     "CBMiigFBVV95cUxQT1BaSURsX3FYUUVuLXFIamRnWGsyZWhpNl80cmNWT2xlNGNnX3BaaElPQy1RRlEwSGNGMFpVTlpuekpXQ1hxVzhtbnBHQ2MzTmZTdVgzOEZpT1h1bFNMNWJCa1pPZDdydDVzbE9WX3c1blFnLU5hMlphYzJaUWtjUXZsWVlJQUhzSEE",
@@ -3312,7 +3310,9 @@
     "CBMidEFVX3lxTFBIRVdIMUVPQUxBZWNGcnpNUTFFVm5GWXJ4RGtsOE9iUVZTY0NlU2tvNzl1OFhLMmo5eUhWNjBidmsyUmVKc0ZNeGw0UjFzMlprVWlhRGlvQmpkQlg0Z3kwSmJnZVpjdVFKV0FZQnB5dHlOUV9P",
     "CBMizwFBVV95cUxNbkdhQXdONUJ1U051WFRiUDRWVGRlcEtCNWM4ZE1NckFsQWhtS2JGcHJxeWY1VVZwdEhrT2hGdWN4RlE1WkwtTHpwNmRBbHk0a0o3Si1peVN0cTI1aC1XN3BmcGdDNUJocWVvd0k3ZjRpWFlYSFpnTWdodVZHSktWTWJ4OU4tYS1GOUFnVVU4dlY5SmdPWm9MNFRvT3NyM2xrQ1ZJTi1FblRoXy1vSmxCSHpJZ2ZZRmtIT01lNS1UNlV1SlVFbTdRak1GZldncms",
     "CBMiiAFBVV95cUxPV0dXYVBTMDc2aTl1bzBWQ2RLNkllMnBjOUExWXQwclZCeG5tbFRWb25QaFN0anFtelg4Zm9QTThiYVJHdUpTQXdaVXdqSS1ydjN6Y0hORVoycmZfOGIwSmVVRDNfWFpUOUFfQ19DVHFhSXR4N3I4Q0JXR0pJb0xQaW1oNHFRa05a",
-    "CBMizAFBVV95cUxQUDRGOEdST1l4WG5LM1A2Q0ZIRG9TS2F0TzdCRU5kbUs3M3dfNjAxSnh4OWpfYjN0dTYxMDhfel9mNFpGaGpmdHRWVGphVHl2S19PUVZHZ3JjWDEzV3AtVFlVczhaM3B6cFRyTzlQZm45MEZIVVlkakdlU3hISS1qeHVudWpKalNXNjB3ZGhib2NCcWlONXZJTUViZTdrclJGeFZielMwSXJyVFZINWdMVGllRk1mRzVaSk1rUTZ0Vm1rVHRhcnJ0Yk5WNVE"
+    "CBMizAFBVV95cUxQUDRGOEdST1l4WG5LM1A2Q0ZIRG9TS2F0TzdCRU5kbUs3M3dfNjAxSnh4OWpfYjN0dTYxMDhfel9mNFpGaGpmdHRWVGphVHl2S19PUVZHZ3JjWDEzV3AtVFlVczhaM3B6cFRyTzlQZm45MEZIVVlkakdlU3hISS1qeHVudWpKalNXNjB3ZGhib2NCcWlONXZJTUViZTdrclJGeFZielMwSXJyVFZINWdMVGllRk1mRzVaSk1rUTZ0Vm1rVHRhcnJ0Yk5WNVE",
+    "CBMiW0FVX3lxTE54V1ZOWUpnM1ZIbXdRWUpXeGh4c2ZGanQ3dHVteEhaR0hLcl9OeUVwVnVkYVNQSV9odURyeWNWRU8taE93TEZxR2tYeG9KektWR0poVjNWM1RZc3c",
+    "CBMiW0FVX3lxTE90bGllSkdHYm1kLW5lNDNUamNjMVJRWFlqZXVWUFhwREpOemkxNG5BVVY1VThrcmJ1eWtLRHBacUNPMmFDZ2h6X0JfcnFJMWpqWWl3OUUtbWFmWmc"
   ],
   "daily": {
     "d": "2026-08-25",
