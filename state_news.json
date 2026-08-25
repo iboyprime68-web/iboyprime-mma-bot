@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Anthony Smith breaks silence following arrest and felony charges",
-      "ts": "2026-08-24T07:29:32+00:00"
-    },
-    {
       "t": "Doctor insists Larry Wheels could’ve kept fighting, doesn’t require surgery on injury suffered at Brand Risk 15",
       "ts": "2026-08-24T13:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Michael Bisping rips ‘ridiculous’ reason Paddy Pimblett’s UFC purse is withheld",
       "ts": "2026-08-25T03:57:36+00:00"
+    },
+    {
+      "t": "The Ultimate Fighter 34 Ep. 12: That’s a Wrap!",
+      "ts": "2026-08-25T04:15:29+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Jorge Masvidal definitely wants to close out Leon Edwards chapter in UFC return",
-      "url": "https://sports.yahoo.com/articles/jorge-masvidal-definitely-wants-close-184016566.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-24T18:40:16+00:00"
-    },
     {
       "title": "UFC 334: Five titles fights that could headline show at Madison Square Garden",
       "url": "https://bloodyelbow.com/2026/08/24/ufc-334-five-titles-fights-that-could-headline-show-at-madison-square-garden/",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-25T03:57:36+00:00"
+    },
+    {
+      "title": "The Ultimate Fighter 34 Ep. 12: That’s a Wrap!",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbVpqdEYzSUlhQkxEbzdDUzBTamp4QnZiWEFhX2EzN3FMb25pZC1jOTRlTkJ2RUtJQzNrRTlBblY1eHJaYnFFNzBxM1JTdHBoZnMwbFd4X21oQmRzWUtoWC1jRlZweHdrNnQzQWplX2g4c3hyTTF6eVl5bGlwSEszVXNfMngzRDA?oc=5",
+      "source": "Cageside Press",
+      "cat": "ufc",
+      "ts": "2026-08-25T04:15:29+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiygFBVV95cUxPZmUwU3dNcUpDQnlJcFNHWHhINEhjeUJ3MDNkSUJfMXE2akgtcG1RVE1OV0pJTU43VlczT0FTY3lSaDJweUxrUWtFT24xby14aGl5SkQ0QlFzeTdzMjV3T05tN3hXb3hqX3lvc01wVHFRM0F3U1NfV3dzaU9uZnk0dTFjQjlFUzFaNDM0YkZZdkZPSUxNNVlEaUsxR201ampXM0RZbGdjS2ZEMnpiWXg4aTVCSTdfMGp3NGJzcXFTWWVwT3E4VEpyZTR3",
     "CBMibEFVX3lxTE10M05SZzFXa1F5RS1SM1ZaWHllUEpxeWhCSlRkMlVOX1paZjBJQkhFcXI3YWNoNGdLYWhSSXQ0cGV4Z2tPa1NJNWZfUUFxOVZoN3Nqd3dSZzlwX21BREI2UG5ONVExV1ZfdThWMQ",
     "CBMitgFBVV95cUxNVElWNHFMYXJKVHk4YWVxT3JZRGRCeW5HbHN6enU4NWx3MWJfMXRBbGx4SGd5SkN4WThyWTF5YmxldUpxU25peV8yWWd1YllFWXJ3RG5MeVZjV1NJWlQ1d1FjTUJ3ZGtUbm1aTWhUa203WUZlaDdRd0lpM2lvb21hMXNFZ1Z1TWdyajRJYi1wa3Jtc1dzWW9XcERMMXNMWmVIMzh3WEdscFhaVTVSeUxQbUNxTVVPQQ",
     "CBMitgFBVV95cUxOQ2lIYWl6dXoydGpqd3NrR3hZZmdNQUZhcFFHS0ZKekFvMFcxTWM5aEpONjdtbXJlR3NMREFUTnJzWDI1V0VyNVFDVElRcFNfdHhEU003X0pRM3h1Sjh5TFR1NnFyUWxxSFdRbmRXd2FCZUtkY3JsSXNHeHA3MXgyLVhHXzhWeHhsenBhWlhqYm9qQldFMHJxNkZqMnlKOE4xcy1ObVVYUXpRTndoNUVhdFp3ajE3QQ",
@@ -3312,11 +3311,12 @@
     "CBMi3gFBVV95cUxNTnZnQmpieHBfUEMxYllWQ3JMeDR0MTlhZWpWbVZQWmpPalhyc2E2TUtQM2ZRaC10bVBqT1gxM2g0MXBOcHI3MjdwUlRhMHl3WnhpMEE4R1lMQUxmVXVSQVlxNjIzZzNSWlNKUkp5R2dnVUlvNjNhRXotemM4VFpKOTMyN0NRU2JBSFdPX1hJUlZCM2Utd0xSZnptWmhpZ21lN0pVdThEU21pQVd5ZVZKZFpYM2xtQ1hBcHVRQndYTkd1cjY3Vk40VmgxNno4V2hhVEVyc0lVMklZZ1liX0E",
     "CBMib0FVX3lxTFBKZVR0R2NBLXhUb3NNMW4xNlhybzVSQ3FrUjJLU0lDNzRyZUM4RTZrRVBzR2dUdUNsSzdBM1cxY2Y0QXdoRWdhdEJaN3FNTkt5UHFPTm40aU96cW9DR08zOTF0aTZuYzltM1dwcW9sMA",
     "CBMiW0FVX3lxTE9SNFEzSTh2TnE4QUVsZUZOTkJmbXdISk1IN0tfSlZvb016YzE1UXNFOVU1Umx6aDAzZzZNMm9XNVJteUlxYm9NYUlhOGVrRWRER3U1dXE3dGNlUkU",
-    "https://www.sherdog.com/news/news/Michael-Bisping-rips-ridiculous-reason-Paddy-Pimbletts-UFC-purse-is-withheld-202516"
+    "https://www.sherdog.com/news/news/Michael-Bisping-rips-ridiculous-reason-Paddy-Pimbletts-UFC-purse-is-withheld-202516",
+    "CBMihwFBVV95cUxQbVpqdEYzSUlhQkxEbzdDUzBTamp4QnZiWEFhX2EzN3FMb25pZC1jOTRlTkJ2RUtJQzNrRTlBblY1eHJaYnFFNzBxM1JTdHBoZnMwbFd4X21oQmRzWUtoWC1jRlZweHdrNnQzQWplX2g4c3hyTTF6eVl5bGlwSEszVXNfMngzRDA"
   ],
   "daily": {
     "d": "2026-08-25",
-    "ai": 88,
+    "ai": 89,
     "staged": 4
   },
   "staged_hist": [
