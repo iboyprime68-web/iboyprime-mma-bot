@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Shanghai: Make predictions for Umar Nurmagomedov vs. Song Yadong",
-      "ts": "2026-08-24T21:05:46+00:00"
-    },
-    {
-      "t": "Merab Dvalishvili admits he underprepared for RAF loss as Petr Yan looms: 'He will beat the s*** out of me again'",
-      "ts": "2026-08-24T21:48:24+00:00"
-    },
-    {
       "t": "Umar Nurmagomedov makes Petr Yan vs. Merab Dvalishvili prediction for UFC 333",
       "ts": "2026-08-25T00:30:20+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Julia Polastri | Fight Like No One’s Watching",
       "ts": "2026-08-25T20:33:33+00:00"
+    },
+    {
+      "t": "Umar Nurmagomedov Wants Revenge Against Merab Dvalishvili: 'Now It's Personal for All Dagestan'",
+      "ts": "2026-08-25T21:12:42+00:00"
+    },
+    {
+      "t": "Darren Till Teases Return to MMA",
+      "ts": "2026-08-25T21:16:47+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Paddy Pimblett’s withheld UFC 329 purse branded a ‘crime’ in passionate rant by Michael Bisping",
-      "url": "https://bloodyelbow.com/2026/08/25/paddy-pimbletts-withheld-ufc-329-purse-branded-a-crime-in-passionate-rant-by-michael-bisping/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-25T20:00:00+00:00"
-    },
-    {
-      "title": "Duel Arena fight card, start time: Mike Perry vs. Dillon Danis",
-      "url": "https://www.mmafighting.com/latest-news/507045/duel-arena-fight-card-start-time-mike-perry-vs-dillon-danis",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-25T19:41:11+00:00"
-    },
     {
       "title": "Rams QB2 Battle: Ty Simpson vs. Stetson Bennett Stream of National Football League",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNGxnV3paU0ZENUUxbHJDOFplanhLTWRXVFVXamhjNTI5bWZ3bHBtNDJnSGxiekJKNGhCczd0SUk0M1gzTU9GN2VxM3lLaS1Pb1hYNmxTOFhVTmw0WkljZW5NM3ZISk5Ic2hfVmJ6SkxUUzgtSVBBZTY4SEtETTBMWGpDRjRBYTdtX29ONTJ0SDZYaGRvS2c?oc=5",
@@ -2105,6 +2091,20 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-25T20:33:33+00:00"
+    },
+    {
+      "title": "Umar Nurmagomedov Wants Revenge Against Merab Dvalishvili: 'Now It's Personal for All Dagestan'",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcXRrTEJjRWtfNFZkaHI3cGVuOFhQR2VLUkFERl91TS15cnVRYW50aDV0ZVA0XzNuWUN6bEliZXRzbGYwUlhzWGNDYUZjVGNudVdFbGlfc2hfYkRSUEY2bXZQR3NtMmxqUk5EM2tORHRzRHlvX0hMOFJEbGpnV2hJZ09xcnc1MmRjNlF4aTJ3a1UtbFJ0ZEYtUTk4Z2lIa3hzQW1Xal9odE1vVS00RWRGZWYwOFF5QnJaR0VEdUxKNzJ1RzN1WmNNTEFtMV8?oc=5",
+      "source": "The Body Lock",
+      "cat": "ufc",
+      "ts": "2026-08-25T21:12:42+00:00"
+    },
+    {
+      "title": "Darren Till Teases Return to MMA",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MSWxzTml2YXpqNGNrRXdSWHVNb2FYM3lOd0cxblVyUVRWaURIa3RQTXhoNjRyRXF6ZmYtWlRvM1lYb2ZOb1d2WEJrS0V3X25JMkJiRHl5a01pR2QyMjM4Rk1xRmk2MExLTVFlT29Obw?oc=5",
+      "source": "heavy.com",
+      "cat": "ufc",
+      "ts": "2026-08-25T21:16:47+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMivwFBVV95cUxOb1FfdHY5aFpxaTNsTDdjN2ZkQ3BjYWVnaWtqN2xub0M2eWU4ajBNQkgtYUllNVU3WmNIMTlxbHgzWjZELVQ2d1FINmZTMEVjRC02azB1MVJYYmZ5cl83c09pZ1hYS3loSFVEcTlydkdvQjBFNGNxUFoxZmR6d3Fnb3JSTGRod0FjYVN2ZUExUlItOEtrZlhjbFIxV0txVnFBdzMzSndQUGNmR2VNaUMzc2p5MzBtU0xMLWxYT0tXUQ",
-    "CBMidEFVX3lxTE5CaGlydjRwUG5VRnZSSUN6Q2dnQTBYTVJMS0JqVzA5YWNZU08ySS1nekRNQS1BTVVfUTc4N1RSVEtqVTFib0tMdnNWUWNVU2pIYlBwX2doUzdKem51UHhBV3ZqM1VDVGRjaWlOYV8wVW1VcE1X",
     "CBMirAFBVV95cUxQTmNtMVBzbGpWZ0FwR1Z2T0c1YVVxVk5Ha01qcnZVZXVQbDRSZHFDNmR6WDJSdUw1UWp1VFNTYnhuUjJnU0ZVNHFnSFo1NTEwQzMxMVV5N05KQ0xiUUVjaFZPMDJfeXBNMmpQeTNiXzdDMXc1Q3AxUS1RczdnR0t0bU1FSGZELVh1S0NlLTJja2REZ3R1eHJkZF81RGZKal90ZWM1ZkVzczB5TXkw",
     "b79d631a-1555-3fc8-845d-df87f9c7ba23",
     "e7d1aa2e-6eff-352c-a9dd-48b5e15320a4",
@@ -3312,7 +3310,9 @@
     "CBMisAFBVV95cUxOM2M5VENiUWgxYXZFaDBMOUx3RjRfSk1LTHhvSW1vQnBJM1BCT29IMFhoQU9EQ2JDaFpFYmVRaGtYOHR0UjJnZE03TDUtV3BjMUMyTmZmd3hNdFhsam05dUhoZG1ERFA4ZUUzT0N3ak44TnlVUjRPVmxwWkVOdzEyTDJhV2E1RUVlUGJUUmlseFM4LXNuNE05aVVNSjU2cS1mMHpYdVJlT1RyM3NGdUIzWA",
     "CBMizgFBVV95cUxOYko4SWt3dVQzdFdRaW5nQUtkZEN3WEp1ZHNHSnkyTU5hQ2JmQkl5MnpIRGNyTmJQYS1iRXlaRmVtdlJHc1MxM2JiVzJGTHljemh3a1RRQjJwUmpXMkhqM29NT2lQdjVvaWx6QzE5NmhtSEJTVmxnOHo2MG1GTDJVNTZCUHBKT2plcVYyc29ZNWF2eFNqWG1GaHlodWszT3FYQkRVbUVkdmktU0U4c19XLXEzVFNsd3pfYXRGblJ5VzRkMjFtTE9PZmRwakZ5QQ",
     "CBMijwFBVV95cUxORkZQZTR0UXZaVkp1c3F2TVE2dUtYNFdYM2ZyRzRadjVMSmloVVhXbUNVVnRDOV9NbUNBS2g1TG5RTEVyanltdDF3MWZiNnMwWG9EWnJDa1ZIZ0p3TVRYa0k5VUFlSmJZQWY3VkZzbGcyVlFBRFJTc3I1Mi0wN3YxUVMxRUdGeGdGR0RfMnFYTQ",
-    "CBMif0FVX3lxTE5QTE1Da3lSNWpjZU12Q3JOWWZWOVctMEo4d0NQS1VMZU5laTBpaG54SFJiWGFacXk0NF9SVTZSZGdQQmR2Z0lRRURMb2Q0SldTU1NNNVpnenpGdnFXQ082Z1lIMXVRc256M2pLUURQajFzbGhxZjg0NGdPdExEV2M"
+    "CBMif0FVX3lxTE5QTE1Da3lSNWpjZU12Q3JOWWZWOVctMEo4d0NQS1VMZU5laTBpaG54SFJiWGFacXk0NF9SVTZSZGdQQmR2Z0lRRURMb2Q0SldTU1NNNVpnenpGdnFXQ082Z1lIMXVRc256M2pLUURQajFzbGhxZjg0NGdPdExEV2M",
+    "CBMizAFBVV95cUxOcXRrTEJjRWtfNFZkaHI3cGVuOFhQR2VLUkFERl91TS15cnVRYW50aDV0ZVA0XzNuWUN6bEliZXRzbGYwUlhzWGNDYUZjVGNudVdFbGlfc2hfYkRSUEY2bXZQR3NtMmxqUk5EM2tORHRzRHlvX0hMOFJEbGpnV2hJZ09xcnc1MmRjNlF4aTJ3a1UtbFJ0ZEYtUTk4Z2lIa3hzQW1Xal9odE1vVS00RWRGZWYwOFF5QnJaR0VEdUxKNzJ1RzN1WmNNTEFtMV8",
+    "CBMib0FVX3lxTE1MSWxzTml2YXpqNGNrRXdSWHVNb2FYM3lOd0cxblVyUVRWaURIa3RQTXhoNjRyRXF6ZmYtWlRvM1lYb2ZOb1d2WEJrS0V3X25JMkJiRHl5a01pR2QyMjM4Rk1xRmk2MExLTVFlT29Obw"
   ],
   "daily": {
     "d": "2026-08-25",
