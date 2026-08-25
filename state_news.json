@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC analyst: Michael Morales poses 'big problem' for Islam Makhachev",
-      "ts": "2026-08-23T22:40:15+00:00"
-    },
-    {
       "t": "Patricio Freire makes UFC contract intentions clear ahead of final fight on deal",
       "ts": "2026-08-24T02:22:28+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Barbosa Packs On 25 Pounds After Weigh-In At UFC Sacramento",
       "ts": "2026-08-24T23:39:31+00:00"
+    },
+    {
+      "t": "Malik Nabers Injury Update Stream of National Football League",
+      "ts": "2026-08-25T00:12:14+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Henry Cejudo reacts to stunning 36-second victory over Merab Dvalishvli at RAF 12: ‘I’m excited for the trilogy’",
-      "url": "https://www.mmafighting.com/raf-wrestling/506747/henry-cejudo-reacts-to-stunning-36-second-victory-over-merab-dvalishvli-at-raf-12-im-excited-for-the-trilogy",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-23T05:18:11+00:00"
-    },
     {
       "title": "Dana White addresses Namo Fazil allegedly being attacked before DWCS: ‘We handled it behind the scenes’",
       "url": "https://www.mmafighting.com/ufc/506696/dana-white-addresses-namo-fazil-allegedly-being-attacked-before-dwcs-we-handled-it-behind-the-scenes",
@@ -2105,6 +2098,13 @@
       "source": "Yardbarker",
       "cat": "ufc",
       "ts": "2026-08-24T23:39:31+00:00"
+    },
+    {
+      "title": "Malik Nabers Injury Update Stream of National Football League",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1PeFpMZVBXSU9WNm4zcURIWmlJR1h0RWF4b0szQ0FuYmFQZnFTSGxqWmFuU3VuV3daTUdxY3RKVmpFT21JMjFmRHVnNUJId1ViX3Vsc3ZoTUVaaFdNalNMTVZzakNZZ1VDN3RuaEkza3ZaZWZYaHdZ?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-25T00:12:14+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMipgFBVV95cUxOWllzR3VsUk5ZRXZtbTAzMWw1Rmc4Vk14NFl6VEg2ZWxJanozVER0Qm5JR3NqaTNKZXFVNGp1U09iRHFwa0FBUVZnU09aN0x3NWdxRG5FM3BxVGtfSzJlc3RUZl96STNiQVZ2Vm1WdkpJeVVVSDBha19vdlRaaW42cDZubUNEeFNibEtvQmRtV1E0aFVfaVY2Y1M5NGd2UzNlXzUyR1Vn",
     "CBMixwJBVV95cUxOcUV1VXVvYUczSDlxcE1iQW1CVWs4TW5CaGVaV0JDaDRnUmcwNXZnM0pwM0lnbGlPX3ZCc2V2bFVIMmwwUzhBY2FiUkpvUHJLZkladzJ6TmtjQWVrdHJ6bDAteXk5dGV6bFhoS3M0emFFdFc4RDllMUFZQ1VjV1I4Umtpa0FvVHN3Tmd4SVk5MlFlMTY2WVMxck9OeXJXQTduMUthQ2ZtSHhwNnpfd0NfWC1kZ2M4ZUxMTG02eWVYcmpBYlpRdGdXTHQtNzc1Q3hQR0ZOS0ppY19MY1hLczU0dUlVWXR6LTl6VGJaQ3lDZndJQ3p5U0RFNkdqTkl3TWhQQkgyNzRSMzBjSXhxOVdxUnNsMkVjVTdDdjRYVXlEelZYVHNwR0lGa3RHOThzMFFucVYyQmZrQ19NRUJsRlBNM3U3NWNzX2vSAcwCQVVfeXFMTk1nZDdpVE1IVDEtSUtrRm1FZkhoM3FEaHhNVm01OXJhSVFob0ZkNmR3c0Y1UjhfUzNtNG5IME5TaUJCQnliWXA5R0tUMGtaZ0ZQUUM3amRRby1XNnVUVHdkdVZ0RzdfZE5tNndEZXdfVnRoajRtdS0yX0VfVEJNMk5xY0dTMVc3cFFHUE5LbFBCWkN0SVdIekZfOUxVemVIRGNkbUZiWm9ZM0VRSGJSeURTLW1wSWhlUURZMUdMS0JyTExlblJMV3NTazVEcmdZeTZkcUt1MW5SNXVKS3VJYlFkcjRDUGJWVzk3SURUR043NGRTc1dTVFV0VVJENUl5NktUTkRPeHlIYXlYM0ZQRWRhUUJBaV84c0RDdEtEdXM4Q2tNRk5zTFdKZkc4enY5ZUNqSlVjU3FkX1Nac0trQl9rb09MeW1SZWFpdVk",
     "CBMiqwFBVV95cUxQanlabTgzZ1hQNEtFUEZ3bnc3bHJYVjg5ampubzE1alBUUGhtVzdady1qampRc2pDSmZtMUZBRXFwTzdzTWNoNy1vVmMxMG9uVU1zTTBpVE8zdGZIZUFZUE5sQjE1bFdLdTZfOU1MMnY5el9KYTF1bGY3ZmJCVlJLY1o4T2F6QU8zbU5ucVBDQXJLS19PaVRDbXRySnprcW5DUnBXeFN0T1pYM1k",
     "https://bloodyelbow.com/?p=328176",
@@ -3312,11 +3311,12 @@
     "CBMipgFBVV95cUxONlM4TUtOTHhxSXRWMmRvY3pMMkJ4QmlyVEZ5M3E4LXRlNjJuMGJtRmxqOEhkdjJtQ2ltdGgzamY4Q2hLOHZXVV9YbFJGaGVBLWFib1hOUWJMYzlLZk0wR3Rkd0tiMWFhQ1NlcmhsalpkZDlFMEJOa2R6eG90RGU5WHoyZ01FWENjZkxQTmhzSnNZMXZzd1NvS2dyamxCaHo1Wi15bWF3",
     "CBMixgFBVV95cUxORmVLNUtWTGZoVGp2QUhBY0lZUkZEbldDTW5VVXJxeWpEUWQwY2RRcWUwSzdPa1g0NG9adUY1b2IzQVVrRVRFRkpjcVI3RUsweWo4amJvcDVKUzV1emxMOHhlM1VfS3FqVzNCUTVRTWZ5VTJlYXRYZjV5TXJzQVFXWWFNcUs3dXBxTjFsdWpuYzl4ajZyQ0d6dXRNcUVPSnFsWUV0MTIwSHFlc0dmdGFFUjNMMTJTWlJtdlFUNEUwTC03Mm9lY2c",
     "CBMiW0FVX3lxTE5UZXlrVTMzdXRURU1FYXZtMzQ3N0RIT20wX1pmNi1QeFA0bnMteXNwU1hqSnQ3V2hFNDdnRHRMU3NFNll1emJlZU0taHpQRDJsM2p2QVBzdG9QMHM",
-    "CBMiuAFBVV95cUxQcG5RYVZ2dERuSTh3Q09ZLUFUekp4Z0JnVTlBaFQ4NXdJQldtMGx3QW5jNlZnZ1NKX2x5TWQ5R0NxSEduMmlxT1Vub204NFRsbEpjZ3c4bUFVVUFnWm5NdUxmb3pTWndmYUV4Qk5USmJrVW9Od2J5aEh1U2oyZDdtRmRzLTRKcHptZllLUkN0Si15cHRSOGpKc1hxbWQyazZKbmtjZXpITnZCNWRTRklERW1sVzFmSWdN"
+    "CBMiuAFBVV95cUxQcG5RYVZ2dERuSTh3Q09ZLUFUekp4Z0JnVTlBaFQ4NXdJQldtMGx3QW5jNlZnZ1NKX2x5TWQ5R0NxSEduMmlxT1Vub204NFRsbEpjZ3c4bUFVVUFnWm5NdUxmb3pTWndmYUV4Qk5USmJrVW9Od2J5aEh1U2oyZDdtRmRzLTRKcHptZllLUkN0Si15cHRSOGpKc1hxbWQyazZKbmtjZXpITnZCNWRTRklERW1sVzFmSWdN",
+    "CBMid0FVX3lxTE1PeFpMZVBXSU9WNm4zcURIWmlJR1h0RWF4b0szQ0FuYmFQZnFTSGxqWmFuU3VuV3daTUdxY3RKVmpFT21JMjFmRHVnNUJId1ViX3Vsc3ZoTUVaaFdNalNMTVZzakNZZ1VDN3RuaEkza3ZaZWZYaHdZ"
   ],
   "daily": {
     "d": "2026-08-25",
-    "ai": 8,
+    "ai": 9,
     "staged": 1
   },
   "staged_hist": [
