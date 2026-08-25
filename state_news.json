@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "NFL star who criticized Lane Kiffin set for history-making LSU move in dramatic U-turn",
-      "ts": "2026-08-25T11:45:00+00:00"
-    },
-    {
       "t": "Paddy Pimblett could face hefty fine for actions after latest UFC win",
       "ts": "2026-08-25T12:16:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Ilimbek Akylbek Uulu Meets Mehemmedeli Osmanli In TUF 34 Finale At UFC Vegas 121",
       "ts": "2026-08-25T15:49:55+00:00"
+    },
+    {
+      "t": "ONE Friday Fights 170 adds three Muay Thai bouts, including Yonis Anane vs. Ricardo Sanchez, on September 11",
+      "ts": "2026-08-25T15:48:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Cris Cyborg Flexes A Khabib Nurmagomedov-Like Level Of Dominance",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdUVGU0wzQUlqY0RwU0FQb1hxdGlIYTNIcG5KckRPREZRXy02RFlLcmtCUG1LWmhlZldhSFJSYjJlY2ItSUJiTnpNMjREcTRRN2QyV0lnNU9GdDdoYThHalNkZDY0MFFZN2huZXEtOEd4N25janZaazI0Y1BZTW5SWUJyNEN1RHNmRFBYS3ZDWmFWZC1l?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-25T14:26:19+00:00"
-    },
     {
       "title": "‘I Want to Fight Again’: Charles Oliveira Reveals His UFC Return Plans",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRFFxdzNaME1fY2xvdmV5OTM3U0FJZUZUZWdMc0FoY0lxbHdjMldYOERrcHFIVll6dG95dEpERzJOY3BzREpmdmFJNGVSNm0zRzNvNmR5Zi1tWjdQYl9YUHFjbWcyN2xUVldRWmNWYVlFM1NFalQ4Q08zdnk0S24tV0MxeGxKOVlyZ1NzUFdmZ1lfZ0tCQXhoQlR3?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-25T15:49:55+00:00"
+    },
+    {
+      "title": "ONE Friday Fights 170 adds three Muay Thai bouts, including Yonis Anane vs. Ricardo Sanchez, on September 11",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOT1l0MV9Qc3ItakxYRlhDRHBGXzRtRUVFRk00THRLRTFfOHhDX0c4YjlKZkxTWk1rUURncXZ1LWVtaV9NVXlDXzAyVy1WM1ZpUXpncXdRUl9odDU3YTJnZEVwbTQ1cWN3QVNxek9DQ0ZwRW1yWGVZZGJsYk9YWWdKNkRHX01ia1BNZmw1TU4tV0ZRY2tCUkxFU3hMV1ZjVkZUVDhKUGJ3MExzUFRiN0NvU2NfWV80SGtwQmc3ODNaS0VYcjBJZXBvYWNWTEFnQ3BScXh2emFR?oc=5",
+      "source": "Sportskeeda",
+      "cat": "ufc",
+      "ts": "2026-08-25T15:48:00+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMihgFBVV95cUxPSFZkMlByYWlwRnBpT3VXRFhnOFlQVEoxUjVVVlI5a0JwU0MxYVJFVENYcGpvTlZkQU0wZWhaT19aWDRqVkpYOXN3c19ORVRIX0pGWmVXLUhQLXBRVnlHbklNNUJzQmJ5UzdQXzRPelhrZXVXMDFQdm9IUGVKQzN3MnNaSDhPUQ",
     "CBMifEFVX3lxTFBaQVBjOEV5VHJOcDl5TW5Ya3d0QmNFdkpLejRrNjdnd0RQdFBoV0tTUHR4U0tQazZzRE1LQmtKTjZ3UmM3UlNfVFBDSXhlTzNMei1uUW1wZDF5UjFnb0xTUi1DZDh1Z1Z4U1pZT2pDdDN1NlZaMjFST1U1UGc",
     "CBMiR0FVX3lxTE5ja1RqU2RoMmMtMzNkRmowaG1fb1VlOG5IRVM4Nll3dVNXdFdPaVotNTl4dFdYOGlQSE40U1BJbzczTm5nLVJ3",
     "CBMikwFBVV95cUxQVTlRVHNnbFJ2Z0JSSW9ROUFSNXBDQ0VaeEFjUG9ET0pqQ2cxbzBfOGl1d0RGMkZFaGdhTm9PUHcxUXZ4cXo2NUVuNmJsLVpiUDJNUS1NZDNhTmFNUnlPT0lydExWN29EZy1YWFFmUVBTNTlOMC1wS0hja25QTjF6Si1RZnliRzhhUlAwYWRFdkcwOHc",
@@ -3312,7 +3311,8 @@
     "CBMiugFBVV95cUxNV2pZeEZJV2IyaGVscmtNM3JPOTIzcWg5QVQzS0ZWUGRHcENwMTBHNkZCOGF6WGg5UG0wNjdZZVVXYi1YVmczTkJ2QlhKOHVvQW5ncTJEOHU1Y0RveUtUMWIwU19DdTdHYWlBSTcxWFp5OGpwLTZZRG9ZNHVwc3lrRzQ0QkJVSXF2eGhpcFlta1R1Y1lDNy1kd2l3azE1UnJKVVlmN3ZiQVdHTGNFVEpOa0RWdnFoVjJJTmc",
     "cbbc45d2-3907-3e57-a888-3ff79792a0c7",
     "CBMiqwFBVV95cUxNVjJjUnhVTjlBbkVDSVE2WkRvU244Qm5OczkwWWpMTS1oRUlVYTIwNUxIeS14bHdCR29sWEFUTXRDQ1RaZEdqUjJ3eTREUGhyZHJSdndvT0dWbUVFZWNNQU5HeDExOEo4M3JIcHE5alB5eXRfbk4ybVc5UG9OVXZ4TTZJejlybnE2aHZISnFYVmxzQ1VxYk5XTENfNDlZODVwWmVTT0F3MkdEc1k",
-    "CBMimAFBVV95cUxQWm1URDhzQm10WFRtd1RsVl9WWWFNb3AtWUhZSTZTOW51N25JMlBQNDJlcVBoQ1d2cW1fbUlqY19IcFZEWGtQQjRGSWdVQU5WVmQtTnpDcktybGhRUnRFdzZTT2k5dk84UjJJVlExMVYxekVNb3VXT1JXZVhtcm5aTVJUanF2Z0FBREhCYXRfMDFNRmh5MVhSYQ"
+    "CBMimAFBVV95cUxQWm1URDhzQm10WFRtd1RsVl9WWWFNb3AtWUhZSTZTOW51N25JMlBQNDJlcVBoQ1d2cW1fbUlqY19IcFZEWGtQQjRGSWdVQU5WVmQtTnpDcktybGhRUnRFdzZTT2k5dk84UjJJVlExMVYxekVNb3VXT1JXZVhtcm5aTVJUanF2Z0FBREhCYXRfMDFNRmh5MVhSYQ",
+    "CBMi1gFBVV95cUxOT1l0MV9Qc3ItakxYRlhDRHBGXzRtRUVFRk00THRLRTFfOHhDX0c4YjlKZkxTWk1rUURncXZ1LWVtaV9NVXlDXzAyVy1WM1ZpUXpncXdRUl9odDU3YTJnZEVwbTQ1cWN3QVNxek9DQ0ZwRW1yWGVZZGJsYk9YWWdKNkRHX01ia1BNZmw1TU4tV0ZRY2tCUkxFU3hMV1ZjVkZUVDhKUGJ3MExzUFRiN0NvU2NfWV80SGtwQmc3ODNaS0VYcjBJZXBvYWNWTEFnQ3BScXh2emFR"
   ],
   "daily": {
     "d": "2026-08-25",
