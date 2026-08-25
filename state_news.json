@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Shanghai video: Umar Nurmagomedov, Song Yadong have first fight week faceoff",
-      "ts": "2026-08-25T13:40:00+00:00"
-    },
-    {
       "t": "UFC Fight Night",
       "ts": "2026-08-25T13:40:41+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Who's Next for Mackenzie Dern?",
       "ts": "2026-08-25T16:41:06+00:00"
+    },
+    {
+      "t": "Ram reveals bespoke trucks for 9/11 charity auction in Las Vegas",
+      "ts": "2026-08-25T16:41:35+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "C. Carolina vs. Delaware Live Stream of NCAA Football",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5HRHVCblhzM3E4Tm8wMV9rZk1ORmxzdHZLdVVQRkRfWGlHQlQ0Sl9BejQ5U0xWYzc3Z3poM1dyTDB1aEhPNlZ5VzVHNzBZNGhnMGZiZ2gtVk84WUlEMHJmUktkTGdFdU9jVHp5V2FjQQ?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-25T15:31:47+00:00"
-    },
     {
       "title": "Lopez On Ruffy's Defensive Wrestling For Tsarukyan",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBFNk8yYUlHS0duQkNlYjNxWXB4eG91eFRxa2NSVVhiTzFxa3gyZFBhQjNwN2xwd085WktxckxQRHdFLUFYREpDUXVGN2dta0FLWGRJVGpEemFMMUVGcEh6bFpfdTdhb243MUNncGZRZU95bmVqM0xQVUh3?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-25T16:41:06+00:00"
+    },
+    {
+      "title": "Ram reveals bespoke trucks for 9/11 charity auction in Las Vegas",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUGtsRUVtTXZiTG94UUJjdHFCZHBfQ2ZzZGJsSzJzd0R1YUVqQTNVc1E3SGNoWHZBb0c0SVk2dlpvUng2TVExQ0pYcjFCZmp6Rm14bkZNMkdVTjNabjhWNENsdndjTnlqc1pzeXdCX0dQVWUyQmlWVVNCTFptd0R1ZmpqRnpDZHFOY1VJ?oc=5",
+      "source": "Motoring Research",
+      "cat": "ufc",
+      "ts": "2026-08-25T16:41:35+00:00"
     }
   ],
   "digest_last": "2026-08-24 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "3afd68de-1d1a-3d03-afb9-75853cd758ca",
     "f48c341c-b06c-3418-b1e5-cb2c9ad08d6e",
     "CBMihgFBVV95cUxOMVl6VHJmNG9UZXg2WmJYM24tcnd1YlVNbEhvcmk0X1M0WGtxVHZMRzJkSE9sVnkzQ1BrWmwtUVk3YVYzbUxrUkc0SENNbVlBQ0xVb0Q5Tm1lODN5aDhZdjB1N0NHR2VUbW1nODZNZmpYb1dlQ01Fa0dBSVJubXRHQWFDYzNJdw",
     "CBMiVkFVX3lxTE42UFFCWjlxRFJaTW9EaXdBbnREM09kYldGLTBhOVgxdUNwMUZtVUhBeThMYWFnWTZ6Z3ItakQ2MWFQYm9aU21XdnR3OVpFSE9qd0EzVDl3",
@@ -3312,7 +3311,8 @@
     "CBMiggFBVV95cUxNZGhMbVZWS2RNU0Y1Mld5N2tNNWViczFWLWV2aWhWYTZyTUJhVGFKN2NlZ3c1M0Z2VXkydkNxTUxXd1VESEZhdm05RzlGTnZ3UGxJaTRFTW9ZbmxINWdrVXlBYWlZWUNQY2Z1OF9EUFA5dzV6QjRNaENHOUZRb0NPbVpB",
     "69d5e67d-48cf-3a72-aec3-43830425727a",
     "ef88be6d-748c-38f9-91f4-61fd376777ea",
-    "CBMipgJBVV95cUxOMm81ZlBzb3ZNZTRFZ0dLU3hXZzE4dVB2Y1RIT1hfNlkzcWtjTXFrdG05OVBBcTRMUHkxcVEyLVNBVjE5UmlvU2Y4UVJ3WlRwRFRZdnBFWkVJWVR4aExwV3dYZ2FtSGlXSFVTanEyVm5qcmFPODVOMUJQWFE5RExCdG5PbDdFLTgtMHh1dmhidDBrSW1mODVtZmRNN0xIX1RGS1JWYmxja3VlUWo0U010QlJsMmRVcFlaOERoRU1KTGFvS3o3b0lEX1FTempGbEptdUREaHJJNk9zeTM2QWVqYWxlRW9KdnZtLW9UYmFqaGRMNWYxMzc4SVp6eUszeThmSTRIUmMtV0p0TVNxUWVRVTlJdEFxVXRPdDFhRHpVMl9YUlZLbkHSAasCQVVfeXFMTnRUXzJjVmpJY2Z0SmVUdU1zcmlVQVN3R2RaMXhHZGpKUFFNLTRHb3ctT1BkRlZvOXQzcjU1STQ2T212VjF4ZzBvSmZmVWI2cU9vaDRGR29yRGJDVXpaaFNxeUREZ2JwNmJfN0J5dWR5OWRleHVXaFpBYWxZcTlYVFp3OUxkbzA3SFUxUlIxSThobXUxLWZBdW1BTmNPQzBRZkN4MFhSUzRfWTdqaGhoNHA2VWFGWjRrMEZfT3hFN2VUa2FGU2xUZnBEWkpscFhhcmlaaU0tUG55bGU3MXRwNXlZRmctdmt0ZVFnWkFnMGkxT0ROYXdsRm9UNXFSZjVWTFBOaHNmeUctZFJoQVlSNENZMzRzTWc4cG5kelcyVEN3MkRETjVHaEZ0a0E"
+    "CBMipgJBVV95cUxOMm81ZlBzb3ZNZTRFZ0dLU3hXZzE4dVB2Y1RIT1hfNlkzcWtjTXFrdG05OVBBcTRMUHkxcVEyLVNBVjE5UmlvU2Y4UVJ3WlRwRFRZdnBFWkVJWVR4aExwV3dYZ2FtSGlXSFVTanEyVm5qcmFPODVOMUJQWFE5RExCdG5PbDdFLTgtMHh1dmhidDBrSW1mODVtZmRNN0xIX1RGS1JWYmxja3VlUWo0U010QlJsMmRVcFlaOERoRU1KTGFvS3o3b0lEX1FTempGbEptdUREaHJJNk9zeTM2QWVqYWxlRW9KdnZtLW9UYmFqaGRMNWYxMzc4SVp6eUszeThmSTRIUmMtV0p0TVNxUWVRVTlJdEFxVXRPdDFhRHpVMl9YUlZLbkHSAasCQVVfeXFMTnRUXzJjVmpJY2Z0SmVUdU1zcmlVQVN3R2RaMXhHZGpKUFFNLTRHb3ctT1BkRlZvOXQzcjU1STQ2T212VjF4ZzBvSmZmVWI2cU9vaDRGR29yRGJDVXpaaFNxeUREZ2JwNmJfN0J5dWR5OWRleHVXaFpBYWxZcTlYVFp3OUxkbzA3SFUxUlIxSThobXUxLWZBdW1BTmNPQzBRZkN4MFhSUzRfWTdqaGhoNHA2VWFGWjRrMEZfT3hFN2VUa2FGU2xUZnBEWkpscFhhcmlaaU0tUG55bGU3MXRwNXlZRmctdmt0ZVFnWkFnMGkxT0ROYXdsRm9UNXFSZjVWTFBOaHNmeUctZFJoQVlSNENZMzRzTWc4cG5kelcyVEN3MkRETjVHaEZ0a0E",
+    "CBMiiwFBVV95cUxOUGtsRUVtTXZiTG94UUJjdHFCZHBfQ2ZzZGJsSzJzd0R1YUVqQTNVc1E3SGNoWHZBb0c0SVk2dlpvUng2TVExQ0pYcjFCZmp6Rm14bkZNMkdVTjNabjhWNENsdndjTnlqc1pzeXdCX0dQVWUyQmlWVVNCTFptd0R1ZmpqRnpDZHFOY1VJ"
   ],
   "daily": {
     "d": "2026-08-25",
