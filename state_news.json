@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "'The Ultimate Fighter 34' final matchups set for upcoming UFC event",
-      "ts": "2026-08-25T17:01:00+00:00"
-    },
-    {
-      "t": "Islam Makhachev called out in wrestling by six-time world champion who vows to ‘send him for a ride’",
-      "ts": "2026-08-25T21:00:00+00:00"
-    },
-    {
       "t": "‘It’s on you’… UFC legend offers tough love to Tracy Cortez amid losing streak",
       "ts": "2026-08-26T04:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "TKO Set to Become Minority Stakeholder in DAZN",
       "ts": "2026-08-26T14:05:21+00:00"
+    },
+    {
+      "t": "Kai Asakura Promises Knockout With Never-Before-Seen Striking in Shanghai",
+      "ts": "2026-08-26T14:05:08+00:00"
+    },
+    {
+      "t": "Marvin Vettori is a victim of overachievement in the UFC",
+      "ts": "2026-08-26T14:09:42+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Aljamain Sterling has humble reason for why he would ‘absolutely not’ have taken Jean Silva fight at Noche UFC",
-      "url": "https://www.mmafighting.com/ufc/507031/aljamain-sterling-has-humble-reason-for-why-he-would-absolutely-not-have-taken-jean-silva-fight-at-noche-ufc",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-25T18:30:07+00:00"
-    },
-    {
-      "title": "Islam Makhachev Reveals How Many UFC Fights He Has Left",
-      "url": "https://sports.yahoo.com/articles/islam-makhachev-reveals-many-ufc-235136023.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-25T23:51:36+00:00"
-    },
     {
       "title": "DWCS 10 - Week 3 Highlights Video",
       "url": "https://sports.yahoo.com/articles/dwcs-10-week-3-highlights-020135712.html",
@@ -2105,6 +2091,20 @@
       "source": "411MANIA",
       "cat": "ufc",
       "ts": "2026-08-26T14:05:21+00:00"
+    },
+    {
+      "title": "Kai Asakura Promises Knockout With Never-Before-Seen Striking in Shanghai",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR3E0VGs4dXp4Rk9CRXYzTVdoU3dSck5USlhnWDFYMzRYLVlqa0Y2eno0Rk5sNFJPNWVTVlY0T2pQZGpqMS02eTJud2Y0bFpvRHgzWU1kY2F1VUtOX3gtX1pJR05rSFlabEcxb0QzVGpocnZYcWhNN056U1VmTjdlTU9LUHRkZDRHREtKRThRRE53Y2hVVWVFUjhtWXNpWWR6OF9TUjQtTUlyc18waVE2S3ppOU8?oc=5",
+      "source": "The Body Lock",
+      "cat": "ufc",
+      "ts": "2026-08-26T14:05:08+00:00"
+    },
+    {
+      "title": "Marvin Vettori is a victim of overachievement in the UFC",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUDNsRlotdl81RjNERGZpeE1ocjJjelEtVlBZcElSZlRoS1dZNk1Ja3pNYk9CNWtzalpXaEIwOFc4ZFk2MjctSmI1djRONE9jY3BBa3pIdFdiMHlQQlJUaUEwU1EwNl85eGY3czZicnFCNk9ic245R04xMkhFLTAxT25rcw?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-26T14:09:42+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=328524",
     "CBMivgFBVV95cUxNNTVhTTNpeXdNM1JBWjhaeWFmNzhCM3hhQ0J1MXUzc3NTREpVaUhnS0dVcUdaWWowY3FnaXdDWndXNnV4cVNKbEhTZk5EUS00R19CbGtGUm4wOEJFbGktd0xaTGRyZ0FHV0FwQ0xzN2ZQVGxrQUdfcHZBQkZjQnd1R1hXQ3RlTzNyTGZ5S2Y4cUY3VS1IeHQwNExSNThMV2VjaTNoTXdRTkY1WlZ6RTh6UnQxVzRoVGVLS1RFd2xn",
     "c178022f-1ae5-3051-830f-179798b4e2cd",
     "CBMihAFBVV95cUxPNkE0empIUUIxOHYwR0N4UENiT0o2NURydGdlU0hBXzVNVl8tVjBfaEp5MVBvd05RclJPRDdsR1VnMDBEU08yenUzRmlIaklzYzNPektLR2hINU5IWHE3ZFhCVmJCYkhSUnQ5Y1UxdEFNbFNZTHpqZC03cjFlUzNZT04yUUI",
@@ -3312,7 +3311,8 @@
     "CBMiqwFBVV95cUxQdUxKaWJyYmhqWjVmbGlDYVh2cy1RMlE1YktFTnVvNmJJTUtZeWlCZXVKeXV2Y20tYVVEVmhoQXZVdlNYbFBzSWJVOFJ6WldqRzZzLXg0b1lxTW9FM1RGSTF4NHdqQXdNYk9Za3ZERDhwLWFqTUYxaXY1by1NUDE4UUFsc1BHa3pIN2tINFBQcFdFdnZVNUJKX0FTTlV6bVlxTk5TaDkwVUt2Mmc",
     "CBMicEFVX3lxTFBON1JNc3VObTh6S3VKRVdxU0x0dFkyNGZpQ1NEOV81YUFmMTNSemF2cW5Mblo1dTEyekczUXFSdUNfTzhJdzFmMXRuYm9MbVk1ZEJUbG5PY0lmVVJNcUVxV3A1V1ZQeXlyaGlIeE85eEY",
     "CBMipwFBVV95cUxNXzRDQUljUlc1Q0ZETGtDUWdoLVNXZUF4RnJtUmdqYUw1dWdZbFQ1d0FzU3J4bGdUU2hCMFlnMjZmbmhaTDhOZllvcGQxc3JTVko3cURvb3U1d3VfSDJaV2NyTk10NG5Yc1V1WVNTXzVHeU9BaXNuMV85Vk9OaWhubDNyV2tVNUN1OXBZT0d1clhsUXIyN01hT21LNHlweUdjOEEtZ21Fbw",
-    "CBMihAFBVV95cUxPcXFzbm0wZHNvdC1kVnN1QWt2Wi1lRVBiQXQtUW5ocmRPS3FwdTZia1dRT1J3WVZiOXRQeGVrNUJBUFpmTVpPZzdTRW43Wks4eWdVM1JySWdxcEY0RlpxbkFfdGF1ekFkdE1yYkFuQ1p0NXh0VU5BTkd6OTY0bmx0RVpRSHM"
+    "CBMihAFBVV95cUxPcXFzbm0wZHNvdC1kVnN1QWt2Wi1lRVBiQXQtUW5ocmRPS3FwdTZia1dRT1J3WVZiOXRQeGVrNUJBUFpmTVpPZzdTRW43Wks4eWdVM1JySWdxcEY0RlpxbkFfdGF1ekFkdE1yYkFuQ1p0NXh0VU5BTkd6OTY0bmx0RVpRSHM",
+    "CBMitAFBVV95cUxQR3E0VGs4dXp4Rk9CRXYzTVdoU3dSck5USlhnWDFYMzRYLVlqa0Y2eno0Rk5sNFJPNWVTVlY0T2pQZGpqMS02eTJud2Y0bFpvRHgzWU1kY2F1VUtOX3gtX1pJR05rSFlabEcxb0QzVGpocnZYcWhNN056U1VmTjdlTU9LUHRkZDRHREtKRThRRE53Y2hVVWVFUjhtWXNpWWR6OF9TUjQtTUlyc18waVE2S3ppOU8"
   ],
   "daily": {
     "d": "2026-08-26",
