@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/461688/ufc-abu-dhabi-results-sooo-about-last-night-ankalaev-vs-guskov",
     "https://www.mmamania.com/461702/ufc-belgrade-live-results-highlights-streaming-play-by-play-updates-medic-vs-rodriguez",
     "https://www.mmamania.com/461703/ufc-belgrade-best-betting-props-parlays-and-picks-medic-vs-rodriguez",
     "https://www.mmamania.com/461704/ufc-329-live-results-highlights-play-by-play-mcgregor-vs-holloway-2",
@@ -1044,6 +1043,7 @@
     "https://www.sherdog.com/news/news/New-UFC-signing-sends-warning-to-entire-welterweight-division-202528",
     "https://www.sherdog.com/news/news/New-photo-sheds-light-on-how-Ilia-Topuria-looks-two-weeks-after-title-loss-201709",
     "https://www.sherdog.com/news/news/Next-up-Islam-Makhachev-names-most-deserving-title-challenger-202385",
+    "https://www.sherdog.com/news/news/Nick-Galanti-credits-former-UFC-fighter-following-35second-DWCS-knockout-202527",
     "https://www.sherdog.com/news/news/Nina-Drama-says-Dana-White-helped-get-stalker-put-on-nofly-list-202526",
     "https://www.sherdog.com/news/news/No-corners-cut-for-Conor-McGregor-201746",
     "https://www.sherdog.com/news/news/Octagon-newcomer-learned-twister-submission-technique-from-exUFC-standout-201596",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Breaking Down the Falcons QB Competition Stream of National Football League",
-      "ts": "2026-08-25T23:37:30+00:00"
-    },
     {
       "t": "Dana White Contender Series/UFC Vegas 97 Live Stream #7 Vietnam War (38hI1ZKdlG)",
       "ts": "2026-08-25T23:08:19+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "New UFC signing sends warning to entire welterweight division",
       "ts": "2026-08-26T02:30:35+00:00"
+    },
+    {
+      "t": "Nick Galanti credits former UFC fighter following 35-second DWCS knockout",
+      "ts": "2026-08-26T02:17:16+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Bella Mir Loses to Alex Apodaca in Historic DWCS Upset",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNYkItSW1BbkRoM0tDMU1Ld2h4UHZYTTVaQkVrclh2TGdxSk84cU1FTW1YQ1gweVhJX0RKN0NzSjA3d2hEMmx1a1dITF9DRXlwNlUzc1lYSGVDSU1mNUxLVGY0b0ZsLU1KODNodDhSRFNHN295QnBKZnVCakdkT2xpVi1ESjdiVDF5U21jbEUwRjlSMHhEcF9fVDhXM1dXd1cyYW9pMGdLU2R4MnU3VVU1Y2F5WGF2LXJMZkFhbkVkTUIyd2R2OVY1NnVzZGhHZmQxVmdrQlV0U0NTV1BOWURQWFlRXzAxRXhUVzNQd2hCaTNPaHh5YlZjYWxLY0lPYXhOZFFwbkRxM3kyUmhDc0dhRg?oc=5",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-26T01:14:00+00:00"
-    },
     {
       "title": "Shara Magomedov vs. Neiman Gracie set for RAF Moscow",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVU5mVU1nZF9xaWJ4RFFPcjZQVllNc0t6VE55U1NrQWtlb3AxODdEUVYzeW8tYlJDUWNlTDZQR09BTHB3MXBBdDZRX3NNV3FVb0ZtZ2diSzN3M3YyekNRRV8xcC1iVHB1MFotZGI3VUMyVUpWQUlNa1daYW1kTUc0WHY5MDk?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-26T02:30:35+00:00"
+    },
+    {
+      "title": "Nick Galanti credits former UFC fighter following 35-second DWCS knockout",
+      "url": "https://www.sherdog.com/news/news/Nick-Galanti-credits-former-UFC-fighter-following-35second-DWCS-knockout-202527",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-26T02:17:16+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiiwFBVV95cUxPd1pSUll0VW00eXd5SGpqQkItUG9ZQy14blBJOHQ1TTJ4ZEhZeGtLLXM2OWFZVVhCSEFhb1drWmd6N0lkcDZxSGxzbGdVSjJMVTNsanhWWTFNWlIyMFdKeGZ4UFZIQmM5b0lvNGhIWGRlZGRoaXF3TmhGMFc1dzJXRDJ0WGp5LWlfRVlJ",
     "CBMiZEFVX3lxTE9UdUtlcU5qcUVHN1Z6eEdiQXVhSmZOaGJlM0tvNlZ0V1ZEMTVFSXpFRUlFWEhYdHlGN3FxT3hSTV90cEVVRUE3Mm16QUFUS1ZRM1o4VjFIenF5UkhPRmw0T0xKNmo",
     "CBMi5gFBVV95cUxNQWZVUXY2NW9BZFlrMXM1WGczREpXbEdQdFF6ZVQ0dW9ITktHZkJ6SElWQUZGeVBiRGN2MjhzdUprYk90Y3FfNnh1T1l3Q09CNFY0MjVDN25XYjR6RzAxc21ISXFBTFRndmE3US1fOFZ5MTdJRXZhWnZ0STlQTkozLUk4em1IRmVOcmNEX2F3NDZ3N3dyOU9iS0REOFVRbjFNZUExbWxEdjNKYzdWTkJ3MzVTWUJEQ3cwTmhKUXQ1Q1JQMW1TbWlsakVDYmxDZl9NRHhhc2FlVGU0T1ZiZ25QRE5LMlFZZw",
     "CBMioAFBVV95cUxNZ0UtdTJUSklfUlBXckZQbTNMYnJOWU53QzZXenp1S3lxWEJYUXBxU29LZUd6MzBELTYzU3BWUnVKcXhOeVJlTHUtS0FjSVY3dVZQa3VjSXBPdFB6aGhlcHgwVGc2am84MTltNTNBTGVoMGJzRlQyTDFEZndSbkdYTEwtZzhueVhTQTdtdzljQm5zdjI2MVl6Q0I1QUdVWDBs",
@@ -3312,7 +3311,8 @@
     "CBMilgFBVV95cUxOdVh1aHdldm8wSEphWUJnUjd6al9LTjAyeEJDbTliRXFrcjQzaUhzV3A1YmlsaE1zUF9NS3lRYXRKNEl4X0ZGRlBNRHpvZUVBeXNHMU44Y1VnSnRTeU1DbjBHYlNzZzM2OVlfN2gzdi13Z1ZLSGljV25RMUhzbnZIenliU3RhNWd5eklMVjNTQVJOd19YdHc",
     "CBMiekFVX3lxTE1TNUwtamVjWjRid1ZKcHdiU2pHVHJSbVVTQVVYSFRRaEVrWlNEWlVsbFd4WnZLNU5VNGUzdTJ1S0hLT0kwWWNpRldMb1hYVFAyNHlTUkhxSFBIUy1IWkZCdUQtT0U4SDJNRFVUUGNhSU43TE1HZC1XRVRn",
     "CBMipAFBVV95cUxQaUtxekg1WTJzMkQ5OERrRDlJV2ZzOGk2UUotN1JDSHI1YnFMX0NOUGRSLVdDeHdHVGYzUDJHRUJfaWlFZ3hCTDhBSHpNZklUeWtuU3o1Yk9MYWlQQUpGVS1RZUtXQS1uckp1cy1nMm5rclNfc3M4eUdRNHJ3S2habE94S3p2LWIwQ0ZBLTlLeXpiQ3NUQnZuVzVQSy12NWMxUEhGOA",
-    "https://www.sherdog.com/news/news/New-UFC-signing-sends-warning-to-entire-welterweight-division-202528"
+    "https://www.sherdog.com/news/news/New-UFC-signing-sends-warning-to-entire-welterweight-division-202528",
+    "https://www.sherdog.com/news/news/Nick-Galanti-credits-former-UFC-fighter-following-35second-DWCS-knockout-202527"
   ],
   "daily": {
     "d": "2026-08-26",
