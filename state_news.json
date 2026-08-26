@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev is building his MMA GOAT case by risking it all — and that kind of audacity is in short supply",
-      "ts": "2026-08-25T22:24:40+00:00"
-    },
-    {
       "t": "Colby Covington says Bo Nickal lost 'mystique,' changes tune on potential RAF match",
       "ts": "2026-08-25T22:50:19+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Will Ilia Topuria Return Into Championship Territory Again?",
       "ts": "2026-08-26T07:07:15+00:00"
+    },
+    {
+      "t": "Is Umar Nurmagomedov Favored Due To Khabib’s Name?",
+      "ts": "2026-08-26T07:17:14+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "‘It’s on you’… UFC legend offers tough love to Tracy Cortez amid losing streak",
-      "url": "https://bloodyelbow.com/2026/08/26/its-on-you-ufc-legend-offers-tough-love-to-tracy-cortez-amid-losing-streak/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-26T04:00:00+00:00"
-    },
     {
       "title": "The ‘Indian Rhino’ Chungreng Koren finds his way back with a UFC contract within reach",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOYU5PTEhWNDlmNmVMaVl5ZVBXR19UUks1dUFIamZVT1BqU0p6TXhrTnY4b1BZTkpwVFhVaGZkS3lUczJlOWtSSk9OQ1ZJRTlBN3BVOGkzdHJyYjBtVUd1ZF9RZ2J1VnlXMGw2LTJPSkFvOFJZNkoyWmFsQmkyUmkzSDNZM3g1R0lpaVo4NW1sX1R4ZS11VVVpMnlacTVUUXg0Z2tOalFVNEMzUEZKWUhCZ3FUcWFFRk80eW5kdERpT2pKcWFNaEVFVV9ZX3pkX01MZHdXU2lkcEpEcldsaDI5WnVqUk1zZHl2Mjc0RmdNZXJ0Vk5E?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-26T07:07:15+00:00"
+    },
+    {
+      "title": "Is Umar Nurmagomedov Favored Due To Khabib’s Name?",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWTZ6aTZZaE16WVpOY3liVGF1bFoyN0t6MWpGN203eDByb0F5NGY5ZjBHcS1zc3FTbTc5YVl4eGx0LS1BMk56a0pmVGlHTlp6eWpSbUR3NzAwSjN3aDZBc1V6TnI4WS1abTF3cTBwVW9INjFyMFhGNWhrOEx4bVpCRVF1bXQwWXlBcVdMaWZmMEVSTV9YajhNYzVGRWQ?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-26T07:17:14+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=328451",
     "https://www.mmafighting.com/?p=506747",
     "CBMiU0FVX3lxTE1HRm1YejI2YUVJeUNVNGpkSGhYdUczVlFkMHpEWDBoQW0xMVJMbS1HNEltaXhoZU5uMmJiUVhmXy00TmFkb0R4WXNMclpjQ3JIZWxz",
     "CBMivwFBVV95cUxOMzVmYW12WUFFTUg2OXBnRUIwbzBGZ3pfdllaSms5NS1VaGlRNjc1RHMzNXZ3LUJsQmdxQ3ZOYzU4QkRWQjljSXVCdlZuVDFWLXlQUndRdGZIT2hUSmZVWFVTYTRCVjlLaXVZM3Y1T3BJNXZDS3RfeE9FWUFZdzN2WnpxRFNaY1NvYWVMMHlYTnhVd2JsOElHcEJIczRLTXY1Y1Rsb3FoSmYtZWZ0WEdwRWVMUUV2VWpLT2hBVV9kMA",
@@ -3312,7 +3311,8 @@
     "CBMiiwFBVV95cUxPd1pSUll0VW00eXd5SGpqQkItUG9ZQy14blBJOHQ1TTJ4ZEhZeGtLLXM2OWFZVVhCSEFhb1drWmd6N0lkcDZxSGxzbGdVSjJMVTNsanhWWTFNWlIyMFdKeGZ4UFZIQmM5b0lvNGhIWGRlZGRoaXF3TmhGMFc1dzJXRDJ0WGp5LWlfRVlJ",
     "CBMinwFBVV95cUxNYmUtTEdZYTcxdDF1dVlnV2VYbEtjWUg3QmcxQU11VkNINE1VRDdoLTQzTXo3WU5CN1lJQ0d1Tms5Zm9JX1pReHhHV1pFTkFYT1drajk1Y0pRMUU4dTI5enRqcDNlLVo3V3FQYTBTVlhhT1pFNGh0eVlnV1JVODVUSEF0SDFTOVJZM0FVbTdBSnR1aEVUU3ZqQVNEOE45dUE",
     "CBMicEFVX3lxTE1JVWo3RHZkOTZxamJRNUFYUTR3S1lha0NHcm5Rbi1ncnVURUxSTFRtUE1ocTBNWlIyUEJEMjFGZ3pJYjlLUlp4RzR2cENNaUtTUk5UOG5EMjNsUVpjb0xUUTdPclhGM2o2NE16cEJFbTk",
-    "CBMikAFBVV95cUxPS0RmSVZMMmxlWW5oVU9uek1TTXpfZVFGdEdzVnhiZjFaaU9FNlhPQWlZZFBmZWdneE1wdVhxQzBpMG9WVFdwTlRlVWFmbEJYNHNNV1VIT2NHUzBESDhvTGdWYWxydjFPTnI0Y3BRakdHbGR6NlZ2aGVQejlVS2RRN19NaDN2eEw0ak04NUZqdW8"
+    "CBMikAFBVV95cUxPS0RmSVZMMmxlWW5oVU9uek1TTXpfZVFGdEdzVnhiZjFaaU9FNlhPQWlZZFBmZWdneE1wdVhxQzBpMG9WVFdwTlRlVWFmbEJYNHNNV1VIT2NHUzBESDhvTGdWYWxydjFPTnI0Y3BRakdHbGR6NlZ2aGVQejlVS2RRN19NaDN2eEw0ak04NUZqdW8",
+    "CBMinAFBVV95cUxNWTZ6aTZZaE16WVpOY3liVGF1bFoyN0t6MWpGN203eDByb0F5NGY5ZjBHcS1zc3FTbTc5YVl4eGx0LS1BMk56a0pmVGlHTlp6eWpSbUR3NzAwSjN3aDZBc1V6TnI4WS1abTF3cTBwVW9INjFyMFhGNWhrOEx4bVpCRVF1bXQwWXlBcVdMaWZmMEVSTV9YajhNYzVGRWQ"
   ],
   "daily": {
     "d": "2026-08-26",
