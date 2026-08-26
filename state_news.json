@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Bella Mir stunned in historic DWCS upset as Dana White awards five contracts",
-      "ts": "2026-08-26T02:44:06+00:00"
-    },
-    {
       "t": "Five UFC contracts awarded after DWCS 10 – Week 3",
       "ts": "2026-08-26T02:51:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Fighter Calls Michael Jackson Birthday Debut a ‘Prophecy’",
       "ts": "2026-08-26T07:09:43+00:00"
+    },
+    {
+      "t": "Frank Mir's Daughter Suffers Shocking Loss to Underdog on DWCS, Misses Out on UFC Contract",
+      "ts": "2026-08-26T07:31:05+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Nurmagomedov On Song Ahead Of UFC Shanghai",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kdE9nQXZKTTc4eTA0bkZpdkhkUG5OWXhocEFYc2NhOGMydWR3ZDlQQmU1aGpVU1V6NTVXRHZXNlEya3BqcEZuc3YzNTB4ZnJsMkd3U0tXenRHSmYzcVV5b255MFVNVkpnVjNr?oc=5",
-      "source": "boxingnews.com",
-      "cat": "ufc",
-      "ts": "2026-08-26T05:30:14+00:00"
-    },
     {
       "title": "Charles Oliveira Drops Honest Take on Arman Tsarukyan Face-Off",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSGUzNWp1R3hRQjE2R0hJeG9XWVR1U25OTlBhV0JlV1Z1UklhOFZuWk4zOFdzRUVVMTUyakJYTEVMZ05BTEcwSERVX0VadFVkQXJpQVhYcnpNWnltWDBQQW1xcXFZQWp0UkhWUmM4YVJmZ1lVSUc5dWxRUS1nWll5M1FmUVE4SXI4RmFtZnZlczJoTXc?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MJVibe",
       "cat": "ufc",
       "ts": "2026-08-26T07:09:43+00:00"
+    },
+    {
+      "title": "Frank Mir's Daughter Suffers Shocking Loss to Underdog on DWCS, Misses Out on UFC Contract",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNN3FHcWtqNG5tc21yVGJoV0ZmVW1FV3NuelNoYUppaGpxZUhMYXBNdkU1SjFBOGw1TjRwQS1FdVJGOFdqeWRkVVp6NHF6U0dLV1Boa0prbS1UTlVobXp5UUFXcjREaXF2M3g3eFhTZklqUmJFS1Rjcy1ucll6ZWFVX0lRcktfUVd4YkxlZFI5ek5nejQ2eWZ2SjVpcFFHbHFTUHhqOEdkTEl6WEt1UjlTVXRNY3pER2JQc2tQQ1EyUXpsZ3dSZkE?oc=5",
+      "source": "Telecom Asia Sport",
+      "cat": "ufc",
+      "ts": "2026-08-26T07:31:05+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMirAFBVV95cUxOUlpLbmFDb1EtVmo1TGNoby1XWXU2YVF5SXBEMW1vdFV0Rl9hRUtOYjliTEoyT3hWZjVJNlNvRDc1MmE4MHhOeGV5QWJhd1J1WjR4VjRlWnJEbDhjQTlXWmllQ1FZVEJBUU93NWxXbTUzWU9RSjV5NVZZb21YcDJzTmhYR3ROMVl4TFJxTDhubE1iaEE0SzRBR2hKUl91R0czLWtFTlpqUldPeDVC",
     "CBMiigFBVV95cUxNTmRQb0tuSmdnd2Y2eFZYVHg2eXo3LXBnZkNia1NHdzVoak9YaXdNSW1PU21id2NYeXF0bE5MRUhfc0h0TnBrTFhFSmlGYlBZN1MtX0VCTFNCNkl4SWNBQjNyOWlBQU1XcmZyZkJPdzIzSThQTm5mYWJUc29uN19adDdZWS1OcUVKOHc",
     "CBMifEFVX3lxTE9NOURhLUMtX1Fmd2kxcW9jWlV4aHhid3BHOUNqTXZqaFpLTEYwSFJXdXB0QmdJckFUQUhRYk9DZVBKeE5wOFlYbUZ0ZkdMVUFBTUdfZkpIS3p0MWM1S1RtRUh3WEJoa1Ztd1FkYVA1QVUxbExDckV1T01ubjY",
     "554340a9-6cb8-3f7a-98d2-0d7af8a27894",
@@ -3312,7 +3311,8 @@
     "CBMizgFBVV95cUxQRExKR3VTSHBSdVJiWFRnWDBIaEtuOF9vb3RWeTVpTVdUUzFhSS05Sk5TUlJPaFpHd3VVTW5SUUE3aTh5MWhXS25EdWQ0Q0VtTkd4MFNzc3ZPRVVrbnp4TGdrS0U5NGp2Q1p5dDVFTk1za1BBZERtVmlJaFVIWVJoeU0wQ3VrOGhhclVPVThTNHg3YlZHeUZIYnN4LXdMemF6VXM5a3AyNkdZY01EOHQzRFV6dGR1M3dUbTI4dm5IT0xrNTZKNVdsTEN2R2F4dw",
     "CBMiwwFBVV95cUxOVTNLamZsVks1WDlCUXZPU1VjVU5Fa0YxS0JOaGV6bmFxa2ZLSnZtMGNDN2VNRU4tMkhNaXloclpVendoRWhjSHQyOXZvbVJPREsyV0tsdFBNWERNZ0FQNlBITUY4QzRyc1gzSlJFLXRXbFpaSDVidHNYLTBTZlpiNGhyLXdxajBiR1Ywb21QSERGTGQ5NGhrMlFxMUd2a214REplX1dreHdNendROTVKQzI2Z2ZvM2lnUmZVR0ViUzF2NG8",
     "CBMidkFVX3lxTE5UYWZrbl94amJZNUxlbEZWTWRaTXh2c05zRmdReDBxU1dDLWxDQmxfbkRaM1dYbnNkUmx0eE44czlYakotb1dHc2FVQ1VEeXpDeWFHWG12bk82RTQ0ZE5iMjdFLVduaW1jZTlNTm5pdHlzQlZ5Q2c",
-    "CBMiiwFBVV95cUxOOTlPd09KSVgyZmNZRjhBdmVvallfelVBN09OakpNN3AxZVpOYWZpVWlJX0dRRGtKWWZsdDg4WGNpSVNMRmNoOUdqNU94eF9xZXlpaTRpSlJtOVR2aEJZM2RMMWVuU1BPaElTYTdDQ3hRUTBoMzNJeVRIVVlTOWpKNWdKUGVKcHFHdmFJ"
+    "CBMiiwFBVV95cUxOOTlPd09KSVgyZmNZRjhBdmVvallfelVBN09OakpNN3AxZVpOYWZpVWlJX0dRRGtKWWZsdDg4WGNpSVNMRmNoOUdqNU94eF9xZXlpaTRpSlJtOVR2aEJZM2RMMWVuU1BPaElTYTdDQ3hRUTBoMzNJeVRIVVlTOWpKNWdKUGVKcHFHdmFJ",
+    "CBMixgFBVV95cUxNN3FHcWtqNG5tc21yVGJoV0ZmVW1FV3NuelNoYUppaGpxZUhMYXBNdkU1SjFBOGw1TjRwQS1FdVJGOFdqeWRkVVp6NHF6U0dLV1Boa0prbS1UTlVobXp5UUFXcjREaXF2M3g3eFhTZklqUmJFS1Rjcy1ucll6ZWFVX0lRcktfUVd4YkxlZFI5ek5nejQ2eWZ2SjVpcFFHbHFTUHhqOEdkTEl6WEt1UjlTVXRNY3pER2JQc2tQQ1EyUXpsZ3dSZkE"
   ],
   "daily": {
     "d": "2026-08-26",
