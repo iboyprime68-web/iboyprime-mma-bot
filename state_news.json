@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "For Bella Mir, there's no such thing as being just another UFC prospect",
-      "ts": "2026-08-25T17:23:08+00:00"
-    },
-    {
       "t": "Dana White’s Contender Series 89 live stream, fight card, watch Bella Mir UFC tryout online",
       "ts": "2026-08-25T21:02:54+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Islam Makhachev Reveals Retirement Timeline After Record-Breaking Win",
       "ts": "2026-08-26T14:10:40+00:00"
+    },
+    {
+      "t": "“Very Difficult to Manage”: Alex Apodaca, Nick Galanti Open Up About Their Day Jobs After Dana White Awards UFC Contracts",
+      "ts": "2026-08-26T14:15:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Alex Apodaca reacts to historic DWCS upset over -6000 favorite Bella Mir",
-      "url": "https://sports.yahoo.com/articles/alex-apodaca-reacts-historic-dwcs-040808632.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-26T04:08:08+00:00"
-    },
     {
       "title": "\"Thank god for Dana\" - Sean Strickland reacts to Nina-Marie Daniele crediting Dana White for helping deal with crazy stalker",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQelBxcU9lXzRvXzBTYVZSMXdkWHFRYWxxdlFfODlnb25DYzRSblVQd1pjN0oyaEFhdVFqRG9vTG9FOVNNMlVvLVFwUnE5Q1AzUnJNUzUtUlI5RzY3bWtpNkREMG5jcl9wbHF1QWRXaFY1U3JPelBFNnpqYXZzRExEd0p0X2ZISDFidG5hNUhjMDdvTFF0MUN1N3FPZVJSSDhjYnM4VWdXaHRtRV9NeGpITEd2VUVwcm9LMFlwOGk2bzFLR2ZQNWRZLXg1OWpRbEN5MXdJU21JWUo?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-26T13:46:55+00:00"
+    },
+    {
+      "title": "“Very Difficult to Manage”: Alex Apodaca, Nick Galanti Open Up About Their Day Jobs After Dana White Awards UFC Contracts",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd1Z1V3FHbEVibVdoeE5UeGltQ1dXYWRNXzZSVG04aERCb3NCOG80TzY5WnJQaGg1YUR6QWhDSVBqRlNvVk9JZjJnVVBJZ0sySHRwbFEyYkJYOWhCQ2MtdG9kTnNURkZaQzNfaGg1VUxxSTMwVnBha0Uyc0h2bE9QNFJRa2JWVVFWakVKLWZTb0lJdGI1Nm0xSWxWYUc4aDM4QXQwLXkzd2NTVUluOG13WFFnTWxsOWd3dkczMC1XbFJrQWpMVlpDSWZrRGxjRmYyRVZKTWhCUExQaE9vcnhpekYtQXNndTdpeHRNcDZQQ0V0QThHN09JSQ?oc=5",
+      "source": "EssentiallySports",
+      "cat": "ufc",
+      "ts": "2026-08-26T14:15:00+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMihAFBVV95cUxPNkE0empIUUIxOHYwR0N4UENiT0o2NURydGdlU0hBXzVNVl8tVjBfaEp5MVBvd05RclJPRDdsR1VnMDBEU08yenUzRmlIaklzYzNPektLR2hINU5IWHE3ZFhCVmJCYkhSUnQ5Y1UxdEFNbFNZTHpqZC03cjFlUzNZT04yUUI",
     "CBMitgFBVV95cUxOdDVfUm1PUzh5Z0JVLTdIS0cwSWtCX1dfT3NBRkN3QjVIRHZxSDZYOC04M2E2bk5NTjBRYlJ5N0xlZFRwdWg3RWdjeDRnd3l6QUh3MFJNVG5sUVJfX1NqUWJtdTdNOTlIcWFNZVZ5QXNxaHh5TzQwbnppNXhDVGg4N0R3WGh6UDRxSnhGYy1POHdrZHltVFo1M0hkbGh0TWYwem91NndvbHNNb1JBYVZoVVlUR29LQQ",
     "CBMimwFBVV95cUxPTW9JSmZyZG9yc3ZsdVI3ZG5mUVdWZ0ZWQmowbDF3bG4zQ24wMXhCVlZ3ZnVHZjd4SWQyZkJuakR0RUQxbzRDbk5uSy02Mk4xOHJhU3ViWk8yM2FDSWQtTFJtTWJOUmZrUDl2XzJtaEtZbW1Mb01XeDlZbDRnTF8tWk5VN19QZlVyLUx6XzNsUDkwUHlMNzk5M3RRaw",
     "CBMingFBVV95cUxQRkNsTTkyczVkTlQ4V1d1dXI1NlZiZ0R3MXZLeWpSQ3ZJQXBiV0VXa3Jxa2dNSTB4Qk1kdXltOVBBT2NDWmY0N0RLcTYtemUyanY3MjE1Q0x0LUdHbTJUYVFDRXVGLU5ZM1hxbXdDSkZ6Snk0TjV6TGZGMzg4WFMzRm5QZlY2T0RCdkZQUTlOS1Zsa0ZDZVBxeTNYSXZhdw",
@@ -3312,7 +3311,8 @@
     "CBMihAFBVV95cUxPcXFzbm0wZHNvdC1kVnN1QWt2Wi1lRVBiQXQtUW5ocmRPS3FwdTZia1dRT1J3WVZiOXRQeGVrNUJBUFpmTVpPZzdTRW43Wks4eWdVM1JySWdxcEY0RlpxbkFfdGF1ekFkdE1yYkFuQ1p0NXh0VU5BTkd6OTY0bmx0RVpRSHM",
     "CBMitAFBVV95cUxQR3E0VGs4dXp4Rk9CRXYzTVdoU3dSck5USlhnWDFYMzRYLVlqa0Y2eno0Rk5sNFJPNWVTVlY0T2pQZGpqMS02eTJud2Y0bFpvRHgzWU1kY2F1VUtOX3gtX1pJR05rSFlabEcxb0QzVGpocnZYcWhNN056U1VmTjdlTU9LUHRkZDRHREtKRThRRE53Y2hVVWVFUjhtWXNpWWR6OF9TUjQtTUlyc18waVE2S3ppOU8",
     "CBMijgFBVV95cUxPb1N3SmVEZG8wQlhnNUZRN2R3cnIwdmc5eXZZMmpjRGFUTlVkOWx3cUo3MVhZUU1mTWtwTmhfTEZQMjBrNm1fWm13cmZHdGdRTFA5azRzanJoT0JpNGZPZmQ1UEg3aVN3ajB0c2V4UG5MWE9SaENfcG5FSlJrenZyTXlGVFhkbG11X0dOOVln",
-    "CBMirwFBVV95cUxNaXhOR3p4aFNFUGxzNDBIRFJIZU9iUkxPLXRjR2RzeTNOV19rcHdVcHBwTk5wbEhBX3h5d1RYcjR3M3FLakFXSFRZOGNlN2RJYU9xU0dSeHhjRnJ3NE9sY2EyOVE1dkRQUTZReUxtOFBNbXpDTENCQWJGQWUwVTJSbGZNWVJSTndJMEdvak43UDBDNjBaSl9POGRaZ3gzYWJBSUhVSnk3emwyR1lRRFBR"
+    "CBMirwFBVV95cUxNaXhOR3p4aFNFUGxzNDBIRFJIZU9iUkxPLXRjR2RzeTNOV19rcHdVcHBwTk5wbEhBX3h5d1RYcjR3M3FLakFXSFRZOGNlN2RJYU9xU0dSeHhjRnJ3NE9sY2EyOVE1dkRQUTZReUxtOFBNbXpDTENCQWJGQWUwVTJSbGZNWVJSTndJMEdvak43UDBDNjBaSl9POGRaZ3gzYWJBSUhVSnk3emwyR1lRRFBR",
+    "CBMi-AFBVV95cUxOd1Z1V3FHbEVibVdoeE5UeGltQ1dXYWRNXzZSVG04aERCb3NCOG80TzY5WnJQaGg1YUR6QWhDSVBqRlNvVk9JZjJnVVBJZ0sySHRwbFEyYkJYOWhCQ2MtdG9kTnNURkZaQzNfaGg1VUxxSTMwVnBha0Uyc0h2bE9QNFJRa2JWVVFWakVKLWZTb0lJdGI1Nm0xSWxWYUc4aDM4QXQwLXkzd2NTVUluOG13WFFnTWxsOWd3dkczMC1XbFJrQWpMVlpDSWZrRGxjRmYyRVZKTWhCUExQaE9vcnhpekYtQXNndTdpeHRNcDZQQ0V0QThHN09JSQ"
   ],
   "daily": {
     "d": "2026-08-26",
