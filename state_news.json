@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "2026 DWCS Week 3 highlight video: Nick Galanti clobbers Carlos Petruzzella",
-      "ts": "2026-08-25T23:50:53+00:00"
-    },
-    {
       "t": "Golazo of the Day (8/25/26) - Scoreline Stream of Soccer",
       "ts": "2026-08-25T23:43:18+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Sean Clancy Jr. explains why he waited until Round 2 to finish Gary Balletto Jr.",
       "ts": "2026-08-26T03:25:20+00:00"
+    },
+    {
+      "t": "Balletto earns shot at UFC contract",
+      "ts": "2026-08-26T03:45:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Colby Covington Explains Why Carlos Prates and Michael Morales Can’t Beat Islam Makhachev",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN2tmZzhPSC1mak5tOGlGSUNRUkhVb3hVY1lWUC01bWZxamk1T0k2X1o0VWx4SlducTFEZi11Rnh1eXZMY0xQaVVYUFRLTjdKckE1cFdJVTBRWXR3bWRRb0VHd24tY2t2YmZIRnZfVm0ycG9oblhUQ3FrYkFpUHo1ajl6dVpLMGF0b3d6MjNfQzJLYmRxQU9weVR0bllYdmtsMXpKWjUwWDV2NFJLYUE3TmlqX0N1UQ?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-08-26T01:19:27+00:00"
-    },
     {
       "title": "Umar Nurmagomedov predicts Petr Yan vs. Merab Dvalishvili outcome and reveals how UFC could book their rematch",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZHpyMWlIcDJCOHdDRHg5b0VpNFM0bkRQeE41RFBJYVlDUGdxMHd5RmtWTm5vdTBMUFhJQ2VwZ1ZMUm1paFZ4UTcwSTNGZ0paYzJ5c2d5cG9PU0pBMW1FNlQyaUhLRjVOSjBocldEeF9ObG9qYVdQWFZBYmNPTUgtMUhhUjlKcy11eXdKdGJkQTZhWm5TOW9vRXFpWndyeU5FZnVwYUNHOXpFdXpSb1ZOQ2lsY0UyNnF2djZybzdzLXFuVkFvZEE?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-26T03:25:20+00:00"
+    },
+    {
+      "title": "Balletto earns shot at UFC contract",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdFViNzlNNnlPbGhFbFl5TFpzRFVjT1FaVVdwN1psUTZrVWRLbGZGd2VQMW5aVEN3WU8wTGtOUkpyRzNKdGtxYnVuLXc3SUdBNDJ4U2FaTEdkSEo3RWtKakhuYnJIQVRtLTVQMU1lZUlpUEh2LVlGY25HYXpfYkkwTGNRUHhCVzhfU25PcDh3LWFxT2R1dURzZEgwNkNwcFhrU1lyTFBZQmFhWVN0eHpTZTFQYnBkd2Uyb2M3TXdKRFc?oc=5",
+      "source": "cranstononline.com",
+      "cat": "ufc",
+      "ts": "2026-08-26T03:45:00+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMi5gFBVV95cUxNQWZVUXY2NW9BZFlrMXM1WGczREpXbEdQdFF6ZVQ0dW9ITktHZkJ6SElWQUZGeVBiRGN2MjhzdUprYk90Y3FfNnh1T1l3Q09CNFY0MjVDN25XYjR6RzAxc21ISXFBTFRndmE3US1fOFZ5MTdJRXZhWnZ0STlQTkozLUk4em1IRmVOcmNEX2F3NDZ3N3dyOU9iS0REOFVRbjFNZUExbWxEdjNKYzdWTkJ3MzVTWUJEQ3cwTmhKUXQ1Q1JQMW1TbWlsakVDYmxDZl9NRHhhc2FlVGU0T1ZiZ25QRE5LMlFZZw",
     "CBMioAFBVV95cUxNZ0UtdTJUSklfUlBXckZQbTNMYnJOWU53QzZXenp1S3lxWEJYUXBxU29LZUd6MzBELTYzU3BWUnVKcXhOeVJlTHUtS0FjSVY3dVZQa3VjSXBPdFB6aGhlcHgwVGc2am84MTltNTNBTGVoMGJzRlQyTDFEZndSbkdYTEwtZzhueVhTQTdtdzljQm5zdjI2MVl6Q0I1QUdVWDBs",
     "CBMihwFBVV95cUxOeDhNQkNuWkNoZk9ySGdMS1JtYXozOFJqMVE0ZGMtcHBKNldUd1Y2RGtxQndRSTUzU3RfRFRxaFhYNzUzNWZrZXVMVVRDSktKMjdZMHBDU0dMcGs2TkVJY0wtcHdHbkhRZ1pKQUF2SGVhX2VBdUlldWM3eksxZHRxQ1hjMXV4eFU",
     "CBMikAFBVV95cUxOUU52dF84VW9vUEstdXVPVEE1SGM1TlJLTVBtTVJuQV9fV2xoTk5GbmZEc3AtdldRVjJxazJxWUd5V1o2ZFFOaVE1aHkzXzJhQ3NSQXZMY2xjZXpEd2IxemhTeEF6UHJiaGZDTlFYU0UtUDRKRjVvVDA2T2F0LVYtSEt6Q1dkbjZUWGdHTnZpME8",
@@ -3312,7 +3311,8 @@
     "CBMipAFBVV95cUxQaUtxekg1WTJzMkQ5OERrRDlJV2ZzOGk2UUotN1JDSHI1YnFMX0NOUGRSLVdDeHdHVGYzUDJHRUJfaWlFZ3hCTDhBSHpNZklUeWtuU3o1Yk9MYWlQQUpGVS1RZUtXQS1uckp1cy1nMm5rclNfc3M4eUdRNHJ3S2habE94S3p2LWIwQ0ZBLTlLeXpiQ3NUQnZuVzVQSy12NWMxUEhGOA",
     "https://www.sherdog.com/news/news/New-UFC-signing-sends-warning-to-entire-welterweight-division-202528",
     "https://www.sherdog.com/news/news/Nick-Galanti-credits-former-UFC-fighter-following-35second-DWCS-knockout-202527",
-    "https://www.sherdog.com/news/news/Sean-Clancy-Jr-explains-why-he-waited-until-Round-2-to-finish-Gary-Balletto-Jr-202530"
+    "https://www.sherdog.com/news/news/Sean-Clancy-Jr-explains-why-he-waited-until-Round-2-to-finish-Gary-Balletto-Jr-202530",
+    "CBMiwAFBVV95cUxOdFViNzlNNnlPbGhFbFl5TFpzRFVjT1FaVVdwN1psUTZrVWRLbGZGd2VQMW5aVEN3WU8wTGtOUkpyRzNKdGtxYnVuLXc3SUdBNDJ4U2FaTEdkSEo3RWtKakhuYnJIQVRtLTVQMU1lZUlpUEh2LVlGY25HYXpfYkkwTGNRUHhCVzhfU25PcDh3LWFxT2R1dURzZEgwNkNwcFhrU1lyTFBZQmFhWVN0eHpTZTFQYnBkd2Uyb2M3TXdKRFc"
   ],
   "daily": {
     "d": "2026-08-26",
