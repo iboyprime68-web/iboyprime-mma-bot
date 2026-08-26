@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Shanghai preview: Start time, full card and how to watch Umar Nurmagomedov vs. Song Yadong",
-      "ts": "2026-08-24T23:00:00+00:00"
-    },
-    {
       "t": "Islam Makhachev: ‘I have at least 3 more very hard and exciting fights waiting for me’",
       "ts": "2026-08-25T02:23:19+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "TMI - Behind the Uniform with Andrew Babalola - Savion Hiter, more passing, Bryce Underwood breakout",
       "ts": "2026-08-26T05:30:55+00:00"
+    },
+    {
+      "t": "Warning not to give 'baby pouches' to children under a year old",
+      "ts": "2026-08-26T05:38:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Whoops? Wrecked RoboCop accidentally leaks (then deletes) pre-fight herpes outbreak following UFC Sacramento",
-      "url": "https://sports.yahoo.com/articles/whoops-wrecked-robocop-accidentally-leaks-230000059.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-25T23:00:00+00:00"
-    },
     {
       "title": "DWCS 89 video: Nick Galanti scores brutal 35-second knockout",
       "url": "https://sports.yahoo.com/articles/dwcs-89-video-nick-galanti-233101857.html",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-26T05:30:55+00:00"
+    },
+    {
+      "title": "Warning not to give 'baby pouches' to children under a year old",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY0c2SDZiamFzdjEyX2VZX2EwNl9YeXk3V0l6YzdNUUw2RzlBRVpxR2syZGdFbjhKcHBSNmNEdEZkZDRFbG9Kbm9sZlVyTElWTUYwU0NlTXV4NnlLb2NvbGd6S1ZRZGk1WmU1Nk9aWmdCLW1iQ1ZYTTk4dFFEQ2RLZ2Rpc1ExQdIBiwFBVV95cUxQWDU0d0F5OEFLVlRERzlDMXRrRHZfYkpUZGlCYUpVN0VlaEJSaDFScWJYNHhpVkFWd290c2pBMFI3RVY5aVRlUUhkRDN4Y2xVZjJsZ3J4WGg5UFd2SU9KaDBOOTlyeWN2VTlGSTc4NFhvNEItblNUQWtnYk5TaDZZdjJDUkFwRTJaNTZv?oc=5",
+      "source": "Chronicle Live",
+      "cat": "ufc",
+      "ts": "2026-08-26T05:38:00+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiaEFVX3lxTFBNRGllTl9RR0dLdGp6OWtMX2lZdEl4czBGZFh4TnowNUV1dUlLNGs1SmZoRHpKSlRDNlYwWWM5LUV2clk5bDlZTjFReGQ4TzJGRnEyUTdxMFNfQ2xENldCZjlkX2hmQ09T",
     "CBMidEFVX3lxTE1IdWwyb2RQWElaRHJwY2JIRmVmX2ZMUlJ5QWtGNmxmS1U1T3hlOEZIY3VVTkdfc3ByTnMwZkYtTGtlbDF1c3YwTlZpSUVtSlpYNTdYRDI3aTdWV2dRcm1TdGk0R25jUzRxVktLajFPS241LXZf",
     "CBMihgFBVV95cUxPWXVfUUdOd1d6RkdBb2t1VGxwYUhHcHgzeUNDZUxPYVlBUFYtS25DQmJOUWFaTndXZHdWQzJQZU9GZmFwZXFMeF9pZWpNdkE0QkhyUEZZR181YkNmdW1ZTGViOFJYRDgtcmpWY2ZRZmRnZ2FYRGNLSl93dHJicGR0N3NkNkMxUQ",
     "CBMitAFBVV95cUxOMU00SkRrWnFaY2lpSEd1c2ZoVlMyY2dBdEJpelBxMDUtZjBkSjVSSUFxYV90MHl3Q05JZzR6X1lKOVRLVHQ4UFhuVzZZSlBiWHdBN01VU2pNRGVEajFmRGlvTWlSVU0xT2oteU54RTNzZXFhaDhDMThHbkpaNzd1Q29hQXRpXy1QQjFTVEtsampuWS0zM1Y4bnY4YjRqbVFpUUhORTdidUxZSHpQQXVzLVJtTEI",
@@ -3312,7 +3311,8 @@
     "CBMi8AFBVV95cUxNR0RheGQzQVgyaGJ3OEprZFBfTExRbmM4MmExeDhGX0V6VTZGeTc0TmtfWGkxdWZXY3NRMno0ejVfZXM0a1JIVUxtMm45Y2tsRWZyTU11SjRDdGZpa2pKN05qR2hOQS1hcmNBTlRvQnZ3UlBBeTZ0b3RBeTgyaTJZMmdVREhWbEtaQ1Y0YV81UXZKNk8yWkNXMkNQT0o0aHc3Zi16czBxcjZhbWN5cmo1Z2Q2Q0NENG9qR2NGN3NVbllHeFN5RDVYVXdrTGxITDk4WTBfcnpNZ1ZlU3ZObWZ3M0hOUGFsNExpd2FwZDZYTUk",
     "https://www.sherdog.com/news/news/Kai-Asakura-vows-to-show-new-combination-in-UFC-Shanghai-KO-bid-202537",
     "https://www.sherdog.com/news/news/Yadong-Song-went-to-Georgia-to-prepare-for-Umar-Nurmagomedovs-wrestling-202538",
-    "CBMi4wFBVV95cUxQa0dYMWJBa3RSRkRtS3pXaFNyOGFaQUJSV0I1aDQwbV85Z3BzVTVJeTRocU9YN2N0U0pMWFdOVTc4Q3BhN0dZNXM4YUx4bXhxSUNHXzM5TXNoTV9ib2U2aDNldkxEZ2tGWVRqa2ZNdTBoZHF0b1dma2czTXhfeEQ0ejZOYmFxT2VkV2xSNHdyS090cnFBQldUNjAxWlZibUVZM1Vhd1VlempiVzFzTmdIZ0NCZGQ5Mnd3UERudTVRTjdPbVQzM1pVbHRzeHhJNThJWkpyNktqZzBZeGZDdzVuRlRTYw"
+    "CBMi4wFBVV95cUxQa0dYMWJBa3RSRkRtS3pXaFNyOGFaQUJSV0I1aDQwbV85Z3BzVTVJeTRocU9YN2N0U0pMWFdOVTc4Q3BhN0dZNXM4YUx4bXhxSUNHXzM5TXNoTV9ib2U2aDNldkxEZ2tGWVRqa2ZNdTBoZHF0b1dma2czTXhfeEQ0ejZOYmFxT2VkV2xSNHdyS090cnFBQldUNjAxWlZibUVZM1Vhd1VlempiVzFzTmdIZ0NCZGQ5Mnd3UERudTVRTjdPbVQzM1pVbHRzeHhJNThJWkpyNktqZzBZeGZDdzVuRlRTYw",
+    "CBMihgFBVV95cUxOY0c2SDZiamFzdjEyX2VZX2EwNl9YeXk3V0l6YzdNUUw2RzlBRVpxR2syZGdFbjhKcHBSNmNEdEZkZDRFbG9Kbm9sZlVyTElWTUYwU0NlTXV4NnlLb2NvbGd6S1ZRZGk1WmU1Nk9aWmdCLW1iQ1ZYTTk4dFFEQ2RLZ2Rpc1ExQdIBiwFBVV95cUxQWDU0d0F5OEFLVlRERzlDMXRrRHZfYkpUZGlCYUpVN0VlaEJSaDFScWJYNHhpVkFWd290c2pBMFI3RVY5aVRlUUhkRDN4Y2xVZjJsZ3J4WGg5UFd2SU9KaDBOOTlyeWN2VTlGSTc4NFhvNEItblNUQWtnYk5TaDZZdjJDUkFwRTJaNTZv"
   ],
   "daily": {
     "d": "2026-08-26",
