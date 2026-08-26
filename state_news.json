@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS 89 video: Bella Mir shocked by Alex Apodaca in all-time MMA upset",
-      "ts": "2026-08-26T01:11:02+00:00"
-    },
-    {
       "t": "DWCS 10, Week 3 Results: Alex Apodaca upsets Bella Mir",
       "ts": "2026-08-26T01:12:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Why Is Frankie Muniz Mad At Scottsdale? | The Conversation Ufc 328 (OTnKxaBqDJ)",
       "ts": "2026-08-26T05:24:51+00:00"
+    },
+    {
+      "t": "UFC Fans Slam Charles Oliveira’s Justin Gaethje Callout",
+      "ts": "2026-08-26T05:27:15+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Week 3 Results + Scorecards Dana White's Contender Series Season 10",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWmhTTmlWZ2hMR1RPbmRDY1QwWi1YRVdJYUVkbHM1RXBoRjg0SDdDeUF2ODRIRFNrMGpuaWZWU0llaGE4c0JjeEJreElFUmZfT2d1VVY1S2hraFpKNF9pRXVWTkVwa1NBZXZlb0tCOUg1MzR0MjhiS2FiTGtXWkhEWWRpd1A?oc=5",
-      "source": "UFC.com",
-      "cat": "ufc",
-      "ts": "2026-08-26T02:15:00+00:00"
-    },
     {
       "title": "Charles Oliveira Wants Justin Gaethje’s BMF Belt Added To UFC Lightweight Title Fight",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSG84eWx2MXpiZkpUbWhQc1EzWEFmWGZDTG9rdTFObndIcnJfXy14S0JKOWxRUk1qNm1SeTh6TlJVV0F0YlVRQ3M2QmJaZS1uRGdoZGVJUHdUd1FwY0N0WmZRYWVpclhndFEzdlNqVGhKVFR4V0RjTkp4WnZjRm13emlJUWxZVGlhV0dNOUJVS2V1MGQ4VkVZ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-26T05:24:51+00:00"
+    },
+    {
+      "title": "UFC Fans Slam Charles Oliveira’s Justin Gaethje Callout",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT1dkajdRU2ItOUxMcnFLZFNsMEVSeGJwTlkwRTZKdTRaMjRBeGM2c1BDc2RqQzljRDNwakhFX3NsczJwNXcyX0huSGlheV9SZFNfU2pvM2twMkl2ajdTVEJMd2JmRnFyODVpVmFBUGxRejVuMHd3Ulpmb1RhVXRzU0k3Z3otNDBaZEJEYzRhX05SdlVuU1Vv?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-26T05:27:15+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi_wFBVV95cUxPREdRRXVQUlF4U3hPSXpYWmktZmVwdmFPRkt3MXM0MWNXbzI4eG5tQzliWGg1ZTdkaXBhSnBMYldQcURibHpMZnZFZk5PT25fNnRqQnpYNDNLdGltbEZOejVRMzRIQUtGWVNkZ2dpQnI2RGplSGpNbFlyWXVfSTNyeHJoS3FRTW85Q1dqVjFnQ3JwMEpJWUloRF9aWTNmMGc3eFVLS0pSSWlJWWpVNDZjV0xDejBrMHZFc3lVYS12M2hUajdGNkxZaTY1eExOOHhhaHAxdHZIZURiZnBZcEZ1dDN3Zzd2MjB6Q180dXdqNjdvOUlkc1JTLWw5alJDLTg",
     "CBMi0gFBVV95cUxNb2ZaRFM2M2NtZFVZUW1qSHk1c3JFMXEtZVVqZktGZHBaN3Z6X0oyM2xhYktScURkYWN3Q2tpVnUzWnl0UnpCYUlRaXZ4OXE0N0dKWmRPUW1DRUpKSFYzYjlucWxJQ01WX3VXa1FBczJzSkk5eENVOXZVR3A2YzQwX0xnZi1JMnpNLU13cG9NbGZqa1BXTlNaTHZXYmRnVXdKN0lRbFRxakVZTFRRdWF1cTJfXzl0QTYyQXNWNERMRG5ZQjdXWm5ON3VKTktQUks2eUE",
     "CBMie0FVX3lxTE1MWE9HMUZqYkZFWUZCU0ZJaXRaYThzbDhnRU51VVlqQVRMbk55X3RVRVhjQ042QUV6bG1CY0xvaURBN1RBNVpaUDhwZDJWSTZuNXdCeXZhMlVCbmFxNXl2eWpMRTQ5TFpQdHVZNkNlTG1wNmR3NnZsZmt4dw",
     "CBMickFVX3lxTE1PWjhpYndlVW1YLTh2bDVObkV5X2UyNnd6T2R3MGRNSGVKQmp6UVBqdEI2Ry1oRUZCbjlseUkyZjVsYlQ5SUhOZ1BfWWtQYy1oZEQ0eDRuQ1dSNThETHBzSnV6RGlEelg2c2dCT2hFbU5Ldw",
@@ -3312,7 +3311,8 @@
     "https://bloodyelbow.com/?p=328881",
     "CBMi9AFBVV95cUxOYU5PTEhWNDlmNmVMaVl5ZVBXR19UUks1dUFIamZVT1BqU0p6TXhrTnY4b1BZTkpwVFhVaGZkS3lUczJlOWtSSk9OQ1ZJRTlBN3BVOGkzdHJyYjBtVUd1ZF9RZ2J1VnlXMGw2LTJPSkFvOFJZNkoyWmFsQmkyUmkzSDNZM3g1R0lpaVo4NW1sX1R4ZS11VVVpMnlacTVUUXg0Z2tOalFVNEMzUEZKWUhCZ3FUcWFFRk80eW5kdERpT2pKcWFNaEVFVV9ZX3pkX01MZHdXU2lkcEpEcldsaDI5WnVqUk1zZHl2Mjc0RmdNZXJ0Vk5E",
     "CBMipwFBVV95cUxNQkVtZFhENmF3cnNuaHk1M3RlLXpXYjFaYzhWRnlKYmJneXY2NnB4VXhZNlktTngySkhRZlRTVk83QUI3d1IzdnIwR2dmSUlKd2J4bDJiZWlWazRkQVQwc0pYblJ4SE8wdmJnSkdMRlZ0bkpyR3hfcmFDcXhqUTJYMUZGcXhJb190V3VPUjViY2g2THpVcUI4cmRYTzdNMlcwSW1HTmo3Zw",
-    "CBMiW0FVX3lxTE80NnVGZC1ELVZfN0NWS08zM2hsX0xzQVV3SkNBaXoweWktMFItSUVvcEZtNW94LXVwWlhodHQ1U3FHcWxhdjRBQmhlMEpQT1JQa25RTTFsOWI1d2s"
+    "CBMiW0FVX3lxTE80NnVGZC1ELVZfN0NWS08zM2hsX0xzQVV3SkNBaXoweWktMFItSUVvcEZtNW94LXVwWlhodHQ1U3FHcWxhdjRBQmhlMEpQT1JQa25RTTFsOWI1d2s",
+    "CBMilwFBVV95cUxQT1dkajdRU2ItOUxMcnFLZFNsMEVSeGJwTlkwRTZKdTRaMjRBeGM2c1BDc2RqQzljRDNwakhFX3NsczJwNXcyX0huSGlheV9SZFNfU2pvM2twMkl2ajdTVEJMd2JmRnFyODVpVmFBUGxRejVuMHd3Ulpmb1RhVXRzU0k3Z3otNDBaZEJEYzRhX05SdlVuU1Vv"
   ],
   "daily": {
     "d": "2026-08-26",
