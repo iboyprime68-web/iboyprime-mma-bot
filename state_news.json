@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "'The Ultimate Fighter 34' final matchups set for upcoming UFC event",
-      "ts": "2026-08-25T17:01:00+00:00"
-    },
-    {
       "t": "For Bella Mir, there's no such thing as being just another UFC prospect",
       "ts": "2026-08-25T17:23:08+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC legend's daughter, 23, misses out on Dana White contract in historic upset",
       "ts": "2026-08-26T10:23:50+00:00"
+    },
+    {
+      "t": "Khabib Nurmagomedov's Cousin Abubakar Gets Chance To Avenge UFC Defeat",
+      "ts": "2026-08-26T10:34:13+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Charles Oliveira maintains he’s next for Justin Gaethje as rejects Paddy Pimblett fight: ‘I’ll wait’",
-      "url": "https://bloodyelbow.com/2026/08/25/charles-oliveira-maintains-hes-next-for-justin-gaethje-as-rejects-paddy-pimblett-fight-ill-wait/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-25T14:58:21+00:00"
-    },
     {
       "title": "Shara Bullet draws Gracie family star for RAF Moscow debut",
       "url": "https://www.mmafighting.com/raf-wrestling/506986/shara-bullet-draws-gracie-family-star-for-raf-moscow-debut",
@@ -2105,15 +2098,21 @@
       "source": "talkSPORT",
       "cat": "ufc",
       "ts": "2026-08-26T10:23:50+00:00"
+    },
+    {
+      "title": "Khabib Nurmagomedov's Cousin Abubakar Gets Chance To Avenge UFC Defeat",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMXduc2JidDdId3dHMGU0d2F3VGdVSHU2UFBVNGVwTGhqak81Y3VJM1ZuNldZTHgwOFBfOTFTbTlMMHg2MXg3RC1sT3RuTm90bFcyQXV6SDdGQWFUTmc2OUJ1b0c0b3VhYUs5Zi1YWHRmbVFwQnFvcXN1ejFPeTM5SWFUX1lMaEpqRXVmZ25XWWZIUHF2c1NqUmFqXzFLb2VSTW1UaXgxckFZUQ?oc=5",
+      "source": "MMANews.com",
+      "cat": "ufc",
+      "ts": "2026-08-26T10:34:13+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
   "hour": [
     "2026-08-26T10",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMimAFBVV95cUxPMHNydXFmb3RXdHYtbFpaV1Z4YVFqVE1zamtHZktlblJxU1dSN1IyQ21nbXk3RHRoQ0NHZ0k5X0liZElzUTRVUGZSUE5aR2k5YlFiWENqOG11ejB2OEJKTmg4alVicVl5YjVZV1RBTWtSaVhUN3ZXTVJhd2l1WjF2VUdjclVDZFRMMUdDYkFMRHJ3Ujdnd09CNw",
     "CBMitAFBVV95cUxOQS1TbUtBcElrZm1yUGswTjkwTEpfdFFjZklTR0dfb2N5eVpNZ0dweE9RNEdsWk1pS3BuVVVKNE52LU9iUmJnLTBDT2k4WUk1bF9oUjk0M2ZwZU1nMndic09wRGdWUWg1dy1NTDFwUkxXck1Od09BQURBclVOWkpGeXBxMmFkRVRlWGFEV0lIOC1fbHNhMWJ3c0FJZ1BJVVhpOW9UYmItU05KSXJzRFpWVXFzM3U",
     "CBMiugFBVV95cUxNYjB2cVY5QTBoREd5OGlsaDBIZXNSWU52ejhnazVSRUsyZFQtRjlucVVOeGsxVDBPN1dzSmdfTjV3UkFkcGdBY3JQdWpnaWRjc05wSDQzUmV2SDloZmxfYXgtNXV5UThadnpsdTlHdXM0UksyU3VmendSUzNUY1JUcEp3MkxTWmRjRGdhd0tXWmQ0bTVIVFdzZTVHcFEwbkxaOU9PY3NpckRWak4ySHFyaWNDTzZNbHhEX2c",
     "CBMijAFBVV95cUxOX1ZSSm1TSThvblUtSjdpZkExYkIyem5YMm5mQ3RDT2lnSVRNeWVIRk5sMi1Qb1cwYmR0Q2tTU1h2OUg1VFRQNXhsMDVYWWFtd0MzWkJVN01QbVh4TEQ1ZnJKeGIyTVRJTkp4M0M2ZXQ5VmNiaUhrR0RuX1VjQ3JXTm5iN0dNWnJQUTh3Qg",
@@ -3312,7 +3311,8 @@
     "58bef27d-e23c-303a-92ce-ddac6caaa8fa",
     "CBMilgFBVV95cUxNWUFidnEtZHNSNTRTYi1lcVdTLXFtbDJyYUhZQ1QyZWN0THd6S0VGQ3JXNlljVXZjcnRUcWlsdGdITWg1TUE2QW5Oc2NiT3BHN0tMZlVMTnphVzEyckFYNUx5ZXI3VmdjNjllQlVrWVJWbXAzZm12ZGRHbW1ocDMyZzZXMUNwZ1JQWE1EVnV1Vnd3ZlF2YXfSAZIBQVVfeXFMTk1FSHlsbkNqaFRqSHFkZlExLVpOcHZZNTM5N3pwQ0pQMWp3cU9TRW10RUQ4NVJUWFFDV0c1SWhfZk9sQWFYcmttakN3NU5rdU1ZdFFJempGMFBKeTJXWWVtWHB0V3prTzBIM3lRLVllbFVzZXJoTEFmQm40SEh4cjBmcE52UWtXTVpFMUV4ZDFpSXc",
     "CBMihAFBVV95cUxOT0Rycjh4b3JhR0RURjl1ZWFhRlNJeHA0eFR6SXJvdlZNY0VMTGtCbzRhcE1xMDZiWWktQTZhTTdPV0oxbnQtM2VBcnBxRElkSnhySXRKclpoYWRPXzVUWlh3Z2VnQktGTkFBVG1wRE1UMVJsS09oYzA2YjFvYzEzbkQ0aG7SAYoBQVVfeXFMTl91SFRkUEFzV09ITWltT3dCZUhfMmhJRENWZnF5WjJqQVEteTZRUGRMM3RIZWxQdkN1SVNnOXFOT1R5RnJHbmtVZHdGYjhjZ2tIQ2Y4akNZOEZvaXFsUDMzMnBmc0NiVUpvZXZkaEw1NllpT2p0TXRaT0VmZlh4ZmNIM2ZtOUlkd2J3",
-    "CBMilwFBVV95cUxOb1ZEcHhhd3dPaUs0bEZZMVFWTHRmekg3UWtjZTNWUjAxVXRVSWI4dm9BX2t6YXZ3T1VHNmF3WDVyZjNkTVBMbFVSd1RuMndFblRDam1UcE9uaDY3NG53blZWR2ZfX1JnQnBwTlVzNVdCQWVjdWFNVmtBdmEzNWQ5OWx0NkwzT2hKbWg4aDk3UVYwTzJrcGNN"
+    "CBMilwFBVV95cUxOb1ZEcHhhd3dPaUs0bEZZMVFWTHRmekg3UWtjZTNWUjAxVXRVSWI4dm9BX2t6YXZ3T1VHNmF3WDVyZjNkTVBMbFVSd1RuMndFblRDam1UcE9uaDY3NG53blZWR2ZfX1JnQnBwTlVzNVdCQWVjdWFNVmtBdmEzNWQ5OWx0NkwzT2hKbWg4aDk3UVYwTzJrcGNN",
+    "CBMiqgFBVV95cUxNMXduc2JidDdId3dHMGU0d2F3VGdVSHU2UFBVNGVwTGhqak81Y3VJM1ZuNldZTHgwOFBfOTFTbTlMMHg2MXg3RC1sT3RuTm90bFcyQXV6SDdGQWFUTmc2OUJ1b0c0b3VhYUs5Zi1YWHRmbVFwQnFvcXN1ejFPeTM5SWFUX1lMaEpqRXVmZ25XWWZIUHF2c1NqUmFqXzFLb2VSTW1UaXgxckFZUQ"
   ],
   "daily": {
     "d": "2026-08-26",
