@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Islam Makhachev tells Merab Dvalishvili to ‘stay quiet’ after Russian flag remark",
-      "ts": "2026-08-25T11:00:00+00:00"
-    },
-    {
       "t": "Charles Oliveira maintains he’s next for Justin Gaethje as rejects Paddy Pimblett fight: ‘I’ll wait’",
       "ts": "2026-08-25T14:58:21+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Will Ospreay On Why He Turned Down WWE Offer, Says He’s Never Been A WWE Guy",
       "ts": "2026-08-26T12:05:04+00:00"
+    },
+    {
+      "t": "5 Takeaways from Dana White’s Contender Series Week 3",
+      "ts": "2026-08-26T12:00:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White admits he was ‘insanely biased’ before Bella Mir’s shock Contender Series defeat",
-      "url": "https://bloodyelbow.com/2026/08/25/dana-white-admits-he-was-insanely-biased-before-bella-mirs-shock-contender-series-defeat/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-26T03:00:00+00:00"
-    },
     {
       "title": "DWCS winner Joseph Kropschot lands UFC debut just weeks after earning contract",
       "url": "https://sports.yahoo.com/articles/dwcs-winner-joseph-kropschot-lands-035529987.html",
@@ -2105,6 +2098,13 @@
       "source": "411MANIA",
       "cat": "ufc",
       "ts": "2026-08-26T12:05:04+00:00"
+    },
+    {
+      "title": "5 Takeaways from Dana White’s Contender Series Week 3",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQjVWVnQ3ZF90UVRlbm1YcllrdTNHdGFKVnVBRkh6c0pTMXlPcXVRX3hCWUQwWGlubEZlZ214RWw1Y0c5blZLMzEzZjRUdGdfOUt6LWlVX0tnQ1lfQWlMUzMyTTFwMmdCcEhkU0t5TWhiT2ZlUEk5MkNodVdQQWdlTHlzeXMwUm8?oc=5",
+      "source": "TWSN",
+      "cat": "ufc",
+      "ts": "2026-08-26T12:00:00+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMidEFVX3lxTE51ZTNPQmRWQjhLb3F4YkM1eVBkSU9fczFsbTRfZDg0RDdoMDJlWkY2cE9QRmdpUnBqcF9rbzFFXzdfeGVFSlI2RVJFN05jZ3RuendUeHVhZF9acW9EcjBha1pIaDVyUDVXTF9Va0MxR1NPRmx4",
     "CBMihAFBVV95cUxNQ1dyZFo0RjFVdENXZ1duX2NENkExY01IVWdrRVNOMzFtOG9xU05xdEU4UUVVeWh1VHBIWWRiTVdQRUU4REN0d1ZQcFpoeVVZajJlcE4tX0lXTktlaWVSM3VfOFo2N3Y5end3VEZrR29wZkhTT0FBVzlRdTFpUFZPVEdCaFg",
     "CBMirAFBVV95cUxQRFExN0VEYnpjMF9YMC1vMGRVZnBQZERsZElYaEdubzBOZkh6VUlzS1AxekZsWjUxZG5qNEY2dXNyc21xaE13QXo2aDdRN1djZ3dtM1RNWV94bFU5Y0RSVWVTcko5T3BfRzZPMmZ2am5sbk95anl5a19IZ3AwRmhvbGlNS0U4QWZyY2pEMjlsdkJjWWpudGlqQUgtaHViaTJxNmhCaTlyYVNVTVZB",
     "CBMiqgFBVV95cUxNUi01VFBZZGRvaTlyOVdCV1k0OW8yWHlTQXRRV3NqSHdEeEZkUDRMTlhTZDcwaHRCYlFrS3VqTDBUQm1EcDFicDlGSjBoN0Q2NjJPR3JRVENPckRtdU9sQ3FMbXFjd1dFazJrNDg4RGp2MzQ4b2hvbV9Na3VzYjRoZlZPSlRtTGg0ZzR4NjEwRlg2V1JYTmtoRVhuX0dTVFV5Z3ZTTjU3aHlHQQ",
@@ -3312,7 +3311,8 @@
     "CBMinwFBVV95cUxOUVFYY2MxZkVKaEFROElRYndPM3FIOE5VWVctMS1NRDh4ZjVhVHVLRDBISjdOMUFnT2V2OXlKay1xRzdra0JWd3RlSHczc0RWMjRXMWZNWkRIbFRKRnMyTFV0bHp2S2pPYVZteVFKcjRZbGRRM3U0YUlpOU9fbmtPVWZEQUtSRmhnVUdGNFVuUTQ3dHBaSE5BSTVJb1lEd2s",
     "CBMizAFBVV95cUxPcmFkUDkyWWtnYnFvNDNXVjhkajRWdU5lY1kwQ3dsY1kyQnoyM2JISzBqb20yMlVKMm9HemFyaF96YzRKOFFsU3pILU9GdW8zVVJBb1VWNHRlVUg5RVdabFM3SlUzamc4MDludE1vNVVIS2E2M0REMm5jcHlrQ3NfWTBIWVh3aXNsTUFIbkl4dTY4UV91elA1RHNubGtJUk9VenFYc2tZaWZXaGQtWkJnRnFRZnlaWUt1NE0wY01yQkVpTVByQlRIY2d5VzE",
     "CBMisgFBVV95cUxQdlJzX2k4MEc0VndVWTlUSHRBRk84cjE0X2VDd0RZNFFZWlZacU8tMkhGSUVNYWEtYkdRRG41cFJmVzg1R2FlSnhyRXBGRmRPUmtRbTUzZ1h2ZURGb0NhTktoTXh2a2JCLXZBWGZkTDlkalJiZFROU01fdFZ4c0tWbnRlT19VQldTcGJXRTBPQzlyU2lsaGhoOVg5Y3BKNF9WWWQyRWVWbkJ4RmdMOUpVM2xB",
-    "CBMihAFBVV95cUxNUjVWdTMyQXhTdUU0ZEQ0S19teGk0Vk1SeW0zZU9HemdPa1dtVDBfZDFOdXJ6YTlUSVhYcEhKVl9iR0lWSmI0UmdJVk9ldzZvanhtUkY0OGo1QUpyOVhiX21qOXVRRHUzbXozU2JGbE5EaS12ZUhqdHpaMFE2QnUxbmprSEQ"
+    "CBMihAFBVV95cUxNUjVWdTMyQXhTdUU0ZEQ0S19teGk0Vk1SeW0zZU9HemdPa1dtVDBfZDFOdXJ6YTlUSVhYcEhKVl9iR0lWSmI0UmdJVk9ldzZvanhtUkY0OGo1QUpyOVhiX21qOXVRRHUzbXozU2JGbE5EaS12ZUhqdHpaMFE2QnUxbmprSEQ",
+    "CBMihwFBVV95cUxNQjVWVnQ3ZF90UVRlbm1YcllrdTNHdGFKVnVBRkh6c0pTMXlPcXVRX3hCWUQwWGlubEZlZ214RWw1Y0c5blZLMzEzZjRUdGdfOUt6LWlVX0tnQ1lfQWlMUzMyTTFwMmdCcEhkU0t5TWhiT2ZlUEk5MkNodVdQQWdlTHlzeXMwUm8"
   ],
   "daily": {
     "d": "2026-08-26",
