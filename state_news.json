@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Guilherme Uriel Scores Standing Guillotine Submission | Dana White's Contender Series, Season 10, Week 3",
-      "ts": "2026-08-26T01:17:38+00:00"
-    },
-    {
       "t": "Dana White's Contender Series Season 10, Episode 3 Highlights: Alex Apodaca Scores Record-Breaking Upset",
       "ts": "2026-08-26T01:19:24+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Charles Oliveira Drops Honest Take on Arman Tsarukyan Face-Off",
       "ts": "2026-08-26T05:32:12+00:00"
+    },
+    {
+      "t": "\"I was extremely biased\" - Dana White admits heartbreak over Bella Mir's Contender Series upset",
+      "ts": "2026-08-26T05:30:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Five UFC contracts awarded after DWCS 10 – Week 3",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPV09KR2lqMWdqOVh3SlhDOTNsclhEeXdjV08zb1VhSmRuTXBFVFhoenkxSi13eGthdV85Q2hOQ0MzdWs5WW9FWW9YNkVGaWIzTjVha2t3Z2t6UllZTHlBOWpxSWluSHljNVh4blY5UEhXU0syc1QzbVczRFNuclpLN0pVSnc?oc=5",
-      "source": "MMAWeekly.com",
-      "cat": "ufc",
-      "ts": "2026-08-26T02:51:00+00:00"
-    },
     {
       "title": "For Conor McGregor's return \"something [was] going to happen, for sure\", per BKB 58 champ with McGregor ties",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZ1AweVBCWUpIRjFqeGVNZUlpY0wtUTdXZ25ZVnA0RWM0Xy0zVjEtS2xRVV9QOFA5emZnbzBmUEJLVDlQek4xNUtkZ3J6LWsxaWozTGRIMEVGTWxNMk9KVWd6UGJGYzJtNVVxOG9qeHdWcnVSLTJiOTZIalRsNGRkWDYtLVVCM0I4X0w4S2dQYkxDcnRRcl8tcnN6a0U5SFltVWoxVk90eTdvb0ZnbXpMVXh3SW9PdkJ3NDFOY2loaGJJNTZfWjRyMk9UU2pidGc1SlZFb3JVWVFNU3hFa1kyTXg3cw?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-26T05:32:12+00:00"
+    },
+    {
+      "title": "\"I was extremely biased\" - Dana White admits heartbreak over Bella Mir's Contender Series upset",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT2NTREFZcjFXNFp3Z3F5Wm5sUWZRdGhLMFpfSDNpRDBKUVBxSWo4QjRUVlNzZ3dJR1BHMEV1SGl6bEVhWFh4WTFzdTRXcWVBUWdpMzhPZ0hoeUFPVk8wejZQQWtyVkxRNDJuLUZoZV84LWE2NS1oTGZMVU9hbkxVZnJXVElOVTVIODlqN0NtX2Jfb3pyRUdtUmMyYy1SQlg3bnMyd0duNmNOUTlCM3k1SHpnX3ZISk9LSmJr?oc=5",
+      "source": "Sportskeeda",
+      "cat": "ufc",
+      "ts": "2026-08-26T05:30:00+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMif0FVX3lxTE55X203VE9QanlTTzFjRjRYa3FaWUJoTDJLUXFJWG50c3BtQjI3UDJES2ZTSXpta0JGVUIwaHRhRWdTR1Q1enI0VzNiSDBGNVdHTE5XelIzekExVGRtUGxhNU54NU1jWGFNZ3VsdVBpR2hnWDQzZ2wyenZMeXp6UlXSAYQBQVVfeXFMTXBWckp1dU52NXlOUFR0a0hzcWJBY25hS1h4c2tTQlY5LUZZR2VQaDhMTzZaQ2tCYnV0UDRHdDZ5NmpxNF9BYXJaamEyYm9nZTE1Z0ZIVXg0bVFFZ1c4dDI4NEpwMUt0VzFFUC1CQ1FVRGhMVHk4QTQ5Y1YtRjBOb0RRbS1L",
     "CBMib0FVX3lxTE9wOVNCQUFQSlpYN2ZyenpqaVQzanVfSmJXVW5kc0FHSmdWUURsTmhEVVB2d1Q3Sno2aGY0eUFBTTJpOFNLSERuaVBucU1uVDJ2YnloYmxjbldYVGdBWU9hNHltVWYtZFBzYUVhWVhLYw",
     "CBMilgFBVV95cUxNS2NHVWxCcjIyU1NfNkJmbmw5d0JlVXJfT2lObGt5WjJOWFgxRjFhQ1c5UHhkQ3VWamczdHlWRHBYSVpUR3o4LU5hYXVoS0dxUTlCQlN0TjhRTS1HMzVOUE1pTXpFYmlvbmJQWDIzX1BiRU9jZjgwT1RBSGlHeXd2eXhYSy01X1RMYzFSSG1uOGp0S0FiT3c",
     "CBMikAFBVV95cUxQZ3VHbHFIMEFjeFJPS2VwRkhRcDNSbWxTVlZjSkZsdndXQnNCTUQ0dm9KQy1FWHZsOTY3MU9oeUdsdzA2RUg4NmZRQUxzUy15UjFzV08zMnRFSG92OGVtYnpxYXNVa0c3QmJVNmZ5UVFRRTFGT3pTTnFSaTgwdkJKQVpwQUpQUWFVR1RXWmFlQko",
@@ -3312,7 +3311,8 @@
     "https://bloodyelbow.com/?p=328885",
     "https://www.sherdog.com/news/news/Umar-Nurmagomedov-not-taking-Yadong-Song-lightly-Not-an-easy-fight-202535",
     "CBMia0FVX3lxTE5kdE9nQXZKTTc4eTA0bkZpdkhkUG5OWXhocEFYc2NhOGMydWR3ZDlQQmU1aGpVU1V6NTVXRHZXNlEya3BqcEZuc3YzNTB4ZnJsMkd3U0tXenRHSmYzcVV5b255MFVNVkpnVjNr",
-    "CBMikwFBVV95cUxNSGUzNWp1R3hRQjE2R0hJeG9XWVR1U25OTlBhV0JlV1Z1UklhOFZuWk4zOFdzRUVVMTUyakJYTEVMZ05BTEcwSERVX0VadFVkQXJpQVhYcnpNWnltWDBQQW1xcXFZQWp0UkhWUmM4YVJmZ1lVSUc5dWxRUS1nWll5M1FmUVE4SXI4RmFtZnZlczJoTXc"
+    "CBMikwFBVV95cUxNSGUzNWp1R3hRQjE2R0hJeG9XWVR1U25OTlBhV0JlV1Z1UklhOFZuWk4zOFdzRUVVMTUyakJYTEVMZ05BTEcwSERVX0VadFVkQXJpQVhYcnpNWnltWDBQQW1xcXFZQWp0UkhWUmM4YVJmZ1lVSUc5dWxRUS1nWll5M1FmUVE4SXI4RmFtZnZlczJoTXc",
+    "CBMiuwFBVV95cUxQT2NTREFZcjFXNFp3Z3F5Wm5sUWZRdGhLMFpfSDNpRDBKUVBxSWo4QjRUVlNzZ3dJR1BHMEV1SGl6bEVhWFh4WTFzdTRXcWVBUWdpMzhPZ0hoeUFPVk8wejZQQWtyVkxRNDJuLUZoZV84LWE2NS1oTGZMVU9hbkxVZnJXVElOVTVIODlqN0NtX2Jfb3pyRUdtUmMyYy1SQlg3bnMyd0duNmNOUTlCM3k1SHpnX3ZISk9LSmJr"
   ],
   "daily": {
     "d": "2026-08-26",
