@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Song Prepares for Nurmagomedov Wrestling at Georgian Training Camp",
-      "ts": "2026-08-26T14:46:11+00:00"
-    },
-    {
       "t": "Merab Dvalishvili hits back at Islam Makhachev and reveals two reasons behind Russian flag comments",
       "ts": "2026-08-26T14:53:03+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC fighters fined for climbing octagon fence after victories",
       "ts": "2026-08-26T18:56:00+00:00"
+    },
+    {
+      "t": "Middlesbrough vs. Burnley Live Stream of English Football League",
+      "ts": "2026-08-26T18:29:25+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Tigres UANL vs. Santos Laguna Live Stream of Liga MX",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE54SHQ0OWttSlNkZVpSaFJhcjRlLXVzY25zZnIzRS0zTllFWXRYRzVrSDhmb1FXZDAxRjZKSzJqUVNUTXo2S2FORUNwd2FESk0tS0E2emxWT1MxeVJtOENLdE12bw?oc=5",
-      "source": "CBS Sports",
-      "cat": "ufc",
-      "ts": "2026-08-26T16:13:48+00:00"
-    },
     {
       "title": "UFC officially adds four more Meta APEX events to 2026 schedule",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9yOGJYZDJWM1hvcHRYRWxJczNwamMtOEZwQ1pVQXBfbDJOa21fejJoanpHeUgybWY2Q0JQTkJjcXFkM1Izb0lsNnlqRlliVHNjMUJDWHRPVFFicGRUc1llTGZLX0NQemprSW5TbnI4SmRRNnloX2NpalZScUM?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "USA Today",
       "cat": "ufc",
       "ts": "2026-08-26T18:56:00+00:00"
+    },
+    {
+      "title": "Middlesbrough vs. Burnley Live Stream of English Football League",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE55bE9mcTdaRWpnODBMYnNDdEZSN29hd1ItenpUV3BKWHpBN3pURHVLOEhvOHZkbHB6T1pBYkYyZGgzNFdpMmJIcDNvWmRpcU9DRTdUV2Q0SHRVOHJibkE?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-26T18:29:25+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMilgFBVV95cUxNT2l4c09mejRLajRqNWdYSFhIU2dCWmxCZTFLTmhrbEZWcERqZzd5M0R6cVhYYy1nWS1xbmMyUS11SGItTkNUdllQTk5Td01OQ2dQNVR6b0VqRTJ0WEZ3ZXdPXzNSU19CNHhzYWtxVFFNc08xZFcxeHBQWkZsbnlnd1ZJeWIweWRiMTBoMmxRNTRwN3RGd1E",
     "CBMi2gFBVV95cUxPeXoxdVhUN3drYTZJUlBxRFdBdW15R1pzcUwxR2NxWTdfb0pxaEdwb3h4WjN0bkYxYkVPckE3QzJSdXpvM1V1eGk4NXhIeTRSeExaSmxOY1A1S1lULXRubHB0WDF0ckMtekozVU5JelRUZldrMXM3UFZFeFV6ZmRtMjZWRE9ya2V2TjJzWDZGSjVYdFNhZE5XV1dWbExHWkV2a2oxaHc4N0RBQ0VmeDBkSEdCUUIyQkF6VnRLU25GT1lyY3ltaVpKV1c4VUJGc2NzdmZ3WTltcDdtdw",
     "CBMioAFBVV95cUxQNUVORkFOZ1FxTUtQdTN3OWEwNHVyWlA1a1g3YlBfNHowQmpUM2d5RXdSS0t4bUh4TTBkc0FYVWZ4NjJqSWhLS2xpdkRKSkhKa3FtYTZ3SVRSaWRScVNZSE5KOFVNeVdMcUhjVDRpUllwZkx4Z0RodXRvbjdNWXEtYWxWbU93SGdmaXhqRWJ6X2Q4YUhRRWxERF9IVXhYQmY3",
     "CBMiowFBVV95cUxPRk5lRUNkRFJ2N3BWUDI2MFlzR1QwQnNVSXhxM05Md3FtRmlqaWYwcExHZTJpRHNzSlQwWEwzNzhneGRSX3ExMUl1N3VlZHhucjZuSkFXZzRwOU0yRnA5SXc5YTlqUXRINnpqUEw2LUt3VDJ5MFU5THVhd2RHdTZYRTdEbkdRYnZHNjgyLS1wbkZiXzVtNk9oekRUcEpyVkItV05F",
@@ -3312,7 +3311,8 @@
     "CBMijAFBVV95cUxQMFpCTnJjSmtTcGE1ZEdRWVdhTGhuSnMyb0o4dE81Y2ZKWjFRS0Y0TjFKM1Zxc1Z0RUF0bnEyeHdWUFltVFc3eEhDdlUwc3lUVVBONmpwa3BDOWNzX1BaenRWbmQ0OTJvTUlRbWpadFdvTkFTN2gtNmpnWlBaUmVwenFfY25FN0dyelluMQ",
     "CBMipwFBVV95cUxPajlGQVJZWklVeVg3X081RjFPN2owdEhwM1dRdzdnak1fdFFhN2o5aWM4Q0xLMmFfRS04elIzOW8wRG9YQ3lCZGdTbnV3ZDcxaTFDTlVBUDFMTWpzejBwUkFHM2piNlJPeGhJdWJkTVVyYjlpZnF6WFhLVWMzYzdjeUU1aFR2OE01ZU1wazBxckZ5SUd2Ui13TlZZVWNhcE4xem5WZUNKNA",
     "CBMivAFBVV95cUxNOFI2QnFUZEUyYkY2XzhEbVZJSFU3cm5VNW9QMzZyWFBSSDFmNGJwdkNKYjVvU05HeVF0dzdyZ0F6c3NQQWp3akIyMFFRUG1zbDFwYnlianlGa0Fmb1hlRFBWZDJwMGNhWmdzZFpKRGVmLVNXdk5DY2w5YzROdHFuQmx4UEI5WktMMXYzU2RnMnF3RmZudHhQeUJKYmlPemlES0dfaHd0N2haaTBTWU1ldlBFSkFBdHZxSDlXZg",
-    "CBMivwFBVV95cUxPTnVCRXd6M29IY01TNElUY2VEVjdOel9RWlpPODNqTkpyalFKSlVOVTV5T3VCbmJqeG5JeERLZ2xJU0FES25qN3NZck8yNTl0dzM3WFh2dUw0RHYzSzJSMTN6RjRRSF9GYkxxNHdqdmVhMjY1LWRwdWMzSGY0Q0dJeXE5eUtDRk9ETFZBcmFWXzlfRGRUNTBnNjFjRS15NV8xM3V2TW5jVmNtNWpPSWVXYVJrQkJZczhvcDN6ZFBfVQ"
+    "CBMivwFBVV95cUxPTnVCRXd6M29IY01TNElUY2VEVjdOel9RWlpPODNqTkpyalFKSlVOVTV5T3VCbmJqeG5JeERLZ2xJU0FES25qN3NZck8yNTl0dzM3WFh2dUw0RHYzSzJSMTN6RjRRSF9GYkxxNHdqdmVhMjY1LWRwdWMzSGY0Q0dJeXE5eUtDRk9ETFZBcmFWXzlfRGRUNTBnNjFjRS15NV8xM3V2TW5jVmNtNWpPSWVXYVJrQkJZczhvcDN6ZFBfVQ",
+    "CBMiXkFVX3lxTE55bE9mcTdaRWpnODBMYnNDdEZSN29hd1ItenpUV3BKWHpBN3pURHVLOEhvOHZkbHB6T1pBYkYyZGgzNFdpMmJIcDNvWmRpcU9DRTdUV2Q0SHRVOHJibkE"
   ],
   "daily": {
     "d": "2026-08-26",
