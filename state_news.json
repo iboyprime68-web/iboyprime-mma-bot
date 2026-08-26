@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC legend Ronda Rousey returns to training to help dethrone champion she beat 13 years ago",
-      "ts": "2026-08-26T14:00:00+00:00"
-    },
-    {
       "t": "Braves Take Series Opener vs. Dodgers Stream of Major League Baseball",
       "ts": "2026-08-26T13:48:04+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Charles Oliveira net worth in 2026: How much is the UFC star worth? Inside his journey from Brazilian jiu",
       "ts": "2026-08-26T16:30:00+00:00"
+    },
+    {
+      "t": "Max Holloway, Paddy Pimblett, and Gable Steveson fined for jumping outside the octagon at UFC 329",
+      "ts": "2026-08-26T16:41:28+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Edmonton Card Set For Oct. 17 On Paramount+",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOalZ2VTQwaFd6QTJvMzVNMmlBWE1vOXVLdV83cm9Vd2hkMjkxclRuOXFreWZmenJoZkhRUExUZlZYSUp3X3pSRWhRdTFHX0VfWGFZMFdXOXZpeEVxUFBoT2V5MV9xbkJDSFVBWVRNY05uUVN0azQtcWpfUU5pZkFLMg?oc=5",
-      "source": "boxingnews.com",
-      "cat": "ufc",
-      "ts": "2026-08-26T15:00:26+00:00"
-    },
     {
       "title": "One Night Only with Mark Coleman",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SbE9mR1BXdDBoVklqQXY0OTYtY0VpOUZ6OWo0TTA1dzBQX3VwZE11NUJxSlo4cE5nRXllU0xjd282UmFjZW15MUllUExONG10MGdXR01GVWdSb1puYV9MTGZvSHB0dV9ibHFUb1BiRQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "The Times of India",
       "cat": "ufc",
       "ts": "2026-08-26T16:30:00+00:00"
+    },
+    {
+      "title": "Max Holloway, Paddy Pimblett, and Gable Steveson fined for jumping outside the octagon at UFC 329",
+      "url": "https://www.mmafighting.com/ufc/507202/max-holloway-paddy-pimblett-and-gable-steveson-fined-for-jumping-outside-the-octagon-at-ufc-329",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-26T16:41:28+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMi6wFBVV95cUxPRW1Udk1xODNmdDNFMDBiM191ODNldWFncndkRUlQaDIyTEk0c2Fwd0hmendLNm9fUFY2N0FBanMwRTNBMFlUUUFQSlk3NmJPUFBKNTVHQzNzUTBGRzNDQTI5SEJBQ1BzZk90UVIwUXNfS19HZkFwUFcyWVRnQ2JlcEM4bWNYUTI2cGl5QUpmVlJtMVdOb3g3ZHFheE1mQVhRSlVEMDVOUEdDakxxc1RwRDBta002Y0RVMS05MTJKRG9qWEsyR0RtNTRUS2RnQlRCYlVNUEV1WnRCS0ttRndnbDV6T2pLSENheU5F",
     "CBMirAFBVV95cUxQUzFpYTFvMURVdHgzOUtZdElpaUdQSjVXZENQeFZZR1hmM2l5bWNfaVFkdkdrRmctR1lFNHB0a0hva0xMYlYxcXdmdHJ4cUFTcngycEhaeE9aYTIyR1dhRkRYNG5JUUZJZWZpMmVWeE9HR01MWHZtY1l5UlptbDJhU1RYT1ctLXRZVzMtOFRvSWt5WnRnQzZHbVJyalpsV1ltWkNESjVoTlhJd19s",
     "CBMijAFBVV95cUxOc0dlanlaOHJ2ZUNFVi16WTg3eGxSdGxpdGsyNi1XdnJ5M2RyMkpLejJKNjZWa1d4cExoeENOdjIwVTZmM3Y4aWsyWnY4SW8yQmpiSi1IYmhEenVrZFZseUh4SERxNEk1aTNqRGwtb3d4SURFUFVtYjJjY2FNaHFDX01TZ25FOXNzN3RQaA",
     "CBMiggFBVV95cUxOVHYzM2J3UXlaNWFVc0ljVGRiN3RUM3JKY0ZxT1prRXg0ZElIbi1BeERRdlFBMjNQbkJlM2Z6Qm8zMmk1WjAwMnAzdldYUFVtQi1iZnVmaG1zbmZLcW80Q3ZhLTNFS2ZMT3dSaExiQTZKc2xEN3VWY3Nqb1B2bF9DUWd3",
@@ -3312,7 +3311,8 @@
     "CBMixgFBVV95cUxNTVc4djVvYW9vMXRDM1R5U01wOW1kRHRyakxfQXNEOGNmdUZBM3o0Q21mVlNsSXlfSnRBb3REQjhadlR6dFpkMWhKVWxhU1lMRWxlTUVuYUFEeW5pV3FzRzI3Z0tQdE1EUENNVS12SmExTUNLR0hwd1paeDNHbWRtY2JfN2ZaWXVlWDRrTENRTTJ3b3dJcTk1NldKWXZCQmU4ck8tWm41T3Y5aFkzcUtJQ2NQejBSbFFiTEVaVWZXc3ZheHRXekE",
     "CBMipwFBVV95cUxQWlRCbkNtOWdnZ0luVmNEYXU3TU1LUFJvaUQxSmxjMFNQOU5UYU4xdXVkaEV3XzRzODVjRmsyRE5XSkxmbU50WHhQTnQxbzZ0ZXRYT2FrbVdHRVZtemU1MS1GUW51ejVQZDZfMWpMLVBzVDh1UlFrMC1uYWEzYlhVbi16VG1GcTQ1Rzdja3VuT1Z5bVZZeHFSMzBFck9KanlwZHlKOFVfWQ",
     "CBMi9gFBVV95cUxOQzIyTGxaSTBWQThPM0tQVE1OMUVlblJYZEF1bXF2a2tQSzJ6VFZBTEx3OXdaTnVueWFMUG82UjlxeTN2Ulcxay1Mb3ZrRHpfbEFrMUNLaW4xS3NxMGEwVUlBQVpfYWNFTDdpM0xXaS10T0dHUW9LOTFQUW9SZ1pkdnpHSC12VzVPeFdtcDB4UmZkelEwUjFaQ0R3NHFiZTlMZ0M4OTUwTHA4c3R1OG4xM2xzTGZDSHBiV3MwOVpsU2FCeTczX1JXWjM3NWhFNXF6bVo2SVVFbGNYM1RQRENaRGlkNmNWckkxYUFoOGpqdENySHQ3OUE",
-    "CBMirwJBVV95cUxOWDVVTFF5MHM5S2dBMDRlNWJEbmxlVUpDQzJHN214UXhpb3FfUkNuVGREdGJweE5aQndPbXdEeTFiMFBjSkM0S044LXBnQkw3VFRRSXVBQ2Z1c2hzWUdDV0RCcXpBamNOaENET3F1Rk1RSHUxQnN6Tm5ON0pFdjNuOEozbklvdGJYel8zZC1vQkdZb2xBMlZWQ1h4M29YNEtrUzZ3U0tBeUU1LUNCajBCbmxLb2xsWS1zZnZiMi1PR0lVaEVJbWE1Z1dDWXNjZkN3OU1iV3ZyQmd1Nzl0cWljZnNKRUJkRVktSDlGM0NTYVRjR09YYkxpMTVuVnhKNjJYX2VKTi05YXZYU0cwMjdfZ1hKVGEyVVRES0U3dk5vZWItUTE2X245bzdZaW1MazjSAbQCQVVfeXFMUGZvdjlRVENZOWxvZm9WRkppWUhqZUNESnlSN2NodXpPV3JEcnIySzExbDdEOHYwajh4a0tzcDlkbXpyb01ld2dzRFdBTjAteDE3MmV4Y25VcDFQWHBKWThsNmRzeGcyMEl5MXFUaXdhdkZBd1RXN0pUa0pBc0VfbFM4RjlYQ2dCN2R1Z0k4ZlJSclJYMG1vem1hV0l4bmxkUm5SdDQ2aHNzRks0ZF9oa092TkMxWF9XczN6NXY0SC0tWEVNUTA2bHhSQWY5MFlMLTJ6WVprenJaU3FEUmk5Mmt2M2szdG1JR093SWhxNmR0T1ZzNV94RXBYMDNwZ0Jhdll2Mi1odHJ2eHh3bTFjVHRhdVR6aXB2X0JrU3QtYVVQOTVHcWF1NmJzenhQN0RYc1BSdzQ"
+    "CBMirwJBVV95cUxOWDVVTFF5MHM5S2dBMDRlNWJEbmxlVUpDQzJHN214UXhpb3FfUkNuVGREdGJweE5aQndPbXdEeTFiMFBjSkM0S044LXBnQkw3VFRRSXVBQ2Z1c2hzWUdDV0RCcXpBamNOaENET3F1Rk1RSHUxQnN6Tm5ON0pFdjNuOEozbklvdGJYel8zZC1vQkdZb2xBMlZWQ1h4M29YNEtrUzZ3U0tBeUU1LUNCajBCbmxLb2xsWS1zZnZiMi1PR0lVaEVJbWE1Z1dDWXNjZkN3OU1iV3ZyQmd1Nzl0cWljZnNKRUJkRVktSDlGM0NTYVRjR09YYkxpMTVuVnhKNjJYX2VKTi05YXZYU0cwMjdfZ1hKVGEyVVRES0U3dk5vZWItUTE2X245bzdZaW1MazjSAbQCQVVfeXFMUGZvdjlRVENZOWxvZm9WRkppWUhqZUNESnlSN2NodXpPV3JEcnIySzExbDdEOHYwajh4a0tzcDlkbXpyb01ld2dzRFdBTjAteDE3MmV4Y25VcDFQWHBKWThsNmRzeGcyMEl5MXFUaXdhdkZBd1RXN0pUa0pBc0VfbFM4RjlYQ2dCN2R1Z0k4ZlJSclJYMG1vem1hV0l4bmxkUm5SdDQ2aHNzRks0ZF9oa092TkMxWF9XczN6NXY0SC0tWEVNUTA2bHhSQWY5MFlMLTJ6WVprenJaU3FEUmk5Mmt2M2szdG1JR093SWhxNmR0T1ZzNV94RXBYMDNwZ0Jhdll2Mi1odHJ2eHh3bTFjVHRhdVR6aXB2X0JrU3QtYVVQOTVHcWF1NmJzenhQN0RYc1BSdzQ",
+    "https://www.mmafighting.com/?p=507202"
   ],
   "daily": {
     "d": "2026-08-26",
