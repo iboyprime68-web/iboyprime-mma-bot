@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/461513/open-thread-july-31-2026-whats-the-best-show-on-tv-right-now",
     "https://www.mmamania.com/461688/ufc-abu-dhabi-results-sooo-about-last-night-ankalaev-vs-guskov",
     "https://www.mmamania.com/461702/ufc-belgrade-live-results-highlights-streaming-play-by-play-updates-medic-vs-rodriguez",
     "https://www.mmamania.com/461703/ufc-belgrade-best-betting-props-parlays-and-picks-medic-vs-rodriguez",
@@ -1042,6 +1041,7 @@
     "https://www.sherdog.com/news/news/Navajo-Stirling-admits-to-facing-most-adversity-in-MMA-career-vs-Ion-Cutelaba-201594",
     "https://www.sherdog.com/news/news/Neil-Magny-closes-in-on-Jim-Millers-alltime-UFC-wins-record-202384",
     "https://www.sherdog.com/news/news/Neil-Magny-just-joined-Charles-Oliveira-in-rare-UFC-company-202375",
+    "https://www.sherdog.com/news/news/New-UFC-signing-sends-warning-to-entire-welterweight-division-202528",
     "https://www.sherdog.com/news/news/New-photo-sheds-light-on-how-Ilia-Topuria-looks-two-weeks-after-title-loss-201709",
     "https://www.sherdog.com/news/news/Next-up-Islam-Makhachev-names-most-deserving-title-challenger-202385",
     "https://www.sherdog.com/news/news/Nina-Drama-says-Dana-White-helped-get-stalker-put-on-nofly-list-202526",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Molcan A. @ Ruusuvuori E. [Melbourne 2022] | 7.1.22 | AO Tennis 2 - Live Angeline Boucher Calgary (cloERJXp2j)",
-      "ts": "2026-08-25T23:03:24+00:00"
-    },
     {
       "t": "Breaking Down the Falcons QB Competition Stream of National Football League",
       "ts": "2026-08-25T23:37:30+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "DWCS Week 3 Highlights: Ronald Humphrey vs. Alexis Miranda Stream of UFC",
       "ts": "2026-08-26T03:33:01+00:00"
+    },
+    {
+      "t": "New UFC signing sends warning to entire welterweight division",
+      "ts": "2026-08-26T02:30:35+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Fight Night 267: Dana White full post-fight interview",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTnNmTHhXc0kxZ1NNU09tajMzaXU3NXFzMS1DT19VS2RfT1N5QzVOSGNLaERNMTl4SlJMb2x2ckh5T1dKN1Q2eURzTVVBbkNMWk5sb0xDMFF0WWxrdHRCVUdQRlRZV1VoaGhHYi0yUWZLX1NGUFpXQ3NJcUkzSXRWUVJrYlJzXy1iYjU3aQ?oc=5",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-26T00:55:52+00:00"
-    },
     {
       "title": "Bella Mir Loses to Alex Apodaca in Historic DWCS Upset",
       "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNYkItSW1BbkRoM0tDMU1Ld2h4UHZYTTVaQkVrclh2TGdxSk84cU1FTW1YQ1gweVhJX0RKN0NzSjA3d2hEMmx1a1dITF9DRXlwNlUzc1lYSGVDSU1mNUxLVGY0b0ZsLU1KODNodDhSRFNHN295QnBKZnVCakdkT2xpVi1ESjdiVDF5U21jbEUwRjlSMHhEcF9fVDhXM1dXd1cyYW9pMGdLU2R4MnU3VVU1Y2F5WGF2LXJMZkFhbkVkTUIyd2R2OVY1NnVzZGhHZmQxVmdrQlV0U0NTV1BOWURQWFlRXzAxRXhUVzNQd2hCaTNPaHh5YlZjYWxLY0lPYXhOZFFwbkRxM3kyUmhDc0dhRg?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-26T03:33:01+00:00"
+    },
+    {
+      "title": "New UFC signing sends warning to entire welterweight division",
+      "url": "https://www.sherdog.com/news/news/New-UFC-signing-sends-warning-to-entire-welterweight-division-202528",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-26T02:30:35+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMihgFBVV95cUxQczdVbm5kOXFJVGx1OTJMZ3VRY3U0aDdwLWVWVEVPSXBxWXpTY0pncjRBazRIdkhBN1Z5dllDQnJySUI3cXQwSElJZ3VEMHVhcDNmdDROdVlGZ3ZOQkxsdk5ybDZNU0tWZ3IyY2xWdzhIY09MbXYzNUl3dTlUTUpXMmhWbzhFdw",
     "CBMiiwFBVV95cUxPd1pSUll0VW00eXd5SGpqQkItUG9ZQy14blBJOHQ1TTJ4ZEhZeGtLLXM2OWFZVVhCSEFhb1drWmd6N0lkcDZxSGxzbGdVSjJMVTNsanhWWTFNWlIyMFdKeGZ4UFZIQmM5b0lvNGhIWGRlZGRoaXF3TmhGMFc1dzJXRDJ0WGp5LWlfRVlJ",
     "CBMiZEFVX3lxTE9UdUtlcU5qcUVHN1Z6eEdiQXVhSmZOaGJlM0tvNlZ0V1ZEMTVFSXpFRUlFWEhYdHlGN3FxT3hSTV90cEVVRUE3Mm16QUFUS1ZRM1o4VjFIenF5UkhPRmw0T0xKNmo",
     "CBMi5gFBVV95cUxNQWZVUXY2NW9BZFlrMXM1WGczREpXbEdQdFF6ZVQ0dW9ITktHZkJ6SElWQUZGeVBiRGN2MjhzdUprYk90Y3FfNnh1T1l3Q09CNFY0MjVDN25XYjR6RzAxc21ISXFBTFRndmE3US1fOFZ5MTdJRXZhWnZ0STlQTkozLUk4em1IRmVOcmNEX2F3NDZ3N3dyOU9iS0REOFVRbjFNZUExbWxEdjNKYzdWTkJ3MzVTWUJEQ3cwTmhKUXQ1Q1JQMW1TbWlsakVDYmxDZl9NRHhhc2FlVGU0T1ZiZ25QRE5LMlFZZw",
@@ -3312,7 +3311,8 @@
     "CBMib0FVX3lxTE1OdmJxU2ZNbk1FTEV1MkxmVVEzcGx5OFBBRXJqTTdKNWNVd1BTWEduRkdrZWlzTEZzRklhOWNSaFBsRW10ZE1LdDdQYUp0MWxBLVdHc1NBa2x6X3RYR3J4dVdqV2JUMFJ2M3FRa2RMVQ",
     "CBMilgFBVV95cUxOdVh1aHdldm8wSEphWUJnUjd6al9LTjAyeEJDbTliRXFrcjQzaUhzV3A1YmlsaE1zUF9NS3lRYXRKNEl4X0ZGRlBNRHpvZUVBeXNHMU44Y1VnSnRTeU1DbjBHYlNzZzM2OVlfN2gzdi13Z1ZLSGljV25RMUhzbnZIenliU3RhNWd5eklMVjNTQVJOd19YdHc",
     "CBMiekFVX3lxTE1TNUwtamVjWjRid1ZKcHdiU2pHVHJSbVVTQVVYSFRRaEVrWlNEWlVsbFd4WnZLNU5VNGUzdTJ1S0hLT0kwWWNpRldMb1hYVFAyNHlTUkhxSFBIUy1IWkZCdUQtT0U4SDJNRFVUUGNhSU43TE1HZC1XRVRn",
-    "CBMipAFBVV95cUxQaUtxekg1WTJzMkQ5OERrRDlJV2ZzOGk2UUotN1JDSHI1YnFMX0NOUGRSLVdDeHdHVGYzUDJHRUJfaWlFZ3hCTDhBSHpNZklUeWtuU3o1Yk9MYWlQQUpGVS1RZUtXQS1uckp1cy1nMm5rclNfc3M4eUdRNHJ3S2habE94S3p2LWIwQ0ZBLTlLeXpiQ3NUQnZuVzVQSy12NWMxUEhGOA"
+    "CBMipAFBVV95cUxQaUtxekg1WTJzMkQ5OERrRDlJV2ZzOGk2UUotN1JDSHI1YnFMX0NOUGRSLVdDeHdHVGYzUDJHRUJfaWlFZ3hCTDhBSHpNZklUeWtuU3o1Yk9MYWlQQUpGVS1RZUtXQS1uckp1cy1nMm5rclNfc3M4eUdRNHJ3S2habE94S3p2LWIwQ0ZBLTlLeXpiQ3NUQnZuVzVQSy12NWMxUEhGOA",
+    "https://www.sherdog.com/news/news/New-UFC-signing-sends-warning-to-entire-welterweight-division-202528"
   ],
   "daily": {
     "d": "2026-08-26",
