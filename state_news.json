@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Drake's Lifestyle Brand OVO Drops UFC Collab, With Famous Fighters Front and Center on New Merch",
-      "ts": "2026-08-25T22:19:14+00:00"
-    },
-    {
       "t": "Jon Jones’ UFC Comeback Could Be Closer Than Anyone Expected",
       "ts": "2026-08-25T22:19:26+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White Reacts After Bella Mir Loses as Big Favorite on DWCS",
       "ts": "2026-08-26T01:40:00+00:00"
+    },
+    {
+      "t": "UFC Fight Night 267: Dana White full post-fight interview",
+      "ts": "2026-08-26T00:55:52+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Interview With UFC's Alden Coria De'aaron Fox (SEVtufreyT)",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkbklRZVR1NWN2N0RDRFpCMGV6cTVDTjRnc1VBQVhveExyaVNsdGJIcnZpVlhyQTF1bFI5WG1TaWF2ZXY2dmJWSVJsVVRmMld4S3dOWDFWYm5vSFE?oc=5",
-      "source": "Mshale",
-      "cat": "ufc",
-      "ts": "2026-08-25T23:03:32+00:00"
-    },
     {
       "title": "Andre Lima expects quick UFC return to make a difference",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNckZWT2tYZE9wMU1pVEFjeGdtVjBpUVFTTURpZEFJTnppbVFuV2YyZEJkOTF1SGpORHZBZ3pMeEdsN2F5bGM5c0VpTFFUQm5IT05zdUg3S3BFOVp0VVpjS2FidXRkWHJPdEljQUV5LUl5MHAxYnU3MGxnR3pFcGhUMHZjWElmeU9Qb0dQMTc0N2U2Qnc4ZGd5TXdmcWhFMEE?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "heavy.com",
       "cat": "ufc",
       "ts": "2026-08-26T01:40:00+00:00"
+    },
+    {
+      "title": "UFC Fight Night 267: Dana White full post-fight interview",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTnNmTHhXc0kxZ1NNU09tajMzaXU3NXFzMS1DT19VS2RfT1N5QzVOSGNLaERNMTl4SlJMb2x2ckh5T1dKN1Q2eURzTVVBbkNMWk5sb0xDMFF0WWxrdHRCVUdQRlRZV1VoaGhHYi0yUWZLX1NGUFpXQ3NJcUkzSXRWUVJrYlJzXy1iYjU3aQ?oc=5",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-26T00:55:52+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMisgFBVV95cUxOMHl6eXgtbmxIcjAxeFdoZ0gxeGRqUkdVSU9RNnhVWWFKMkkwd1JRdUZ6UnJrSWNPM3d6WDJfeXVSNExjeEhrbHJfZHpMa3A3WkQwNFRpRUZiVmVsMklRWDEwNEpiRHM5aFlRRkNqdDFqak1mZkdQX2E2U0lGMjVXM0NYV1B3UUYzbUVyMEwxWVRhWXBmeUc3eVVkSzMzVnUwMkY4ZjJGRkZ1NEprSU5mRTRB",
     "CBMiqwFBVV95cUxPT21KU3BCTVprdW12eUR6d2VyYnR4cTZiYnpsR29rQ05DNGVfeTZFd1gybVBtY0l4RWo3THU2aFppZlhnLVVXYnF6Tkg4SXd0NngyRzAyVXhmNWlZYVJEamsyWVg4OG90dGtFOV91WjdXY0R3VlBXU0VNc19GUGo3V2RmWmFMY0lXYTZIYlQ5Nnp0b09LZXNDS0tDVlhnQ2RxTVNVYlhiZVhwcVE",
     "CBMiigFBVV95cUxPYW9DSVVVOS1jdUxzZDE5Q01QVndtbGlQMmVOYy1peU9xWTRpb2FObmY3eXVlandjZ2Z5czlWRTBhbnBYYUtrbXZqR1o4V0VuZjFoUU45aEY3TzVKdHpaYUtQZkJKaEowZVB3S3M4eEVNcE42cGVudDRIb0RwS0sxcGwyZXA2Wnp6ZWc",
     "CBMilwFBVV95cUxQN2s0b3dSWFh1UzRJMFUtMTBkamJKT1RiM2UydF8zRTg0a3llRFpqdjBlWF9Pc3JTMlZjSDNrczE5LVUwVFExUzhQVWZwMkhfcm85U2pqT1FpOHNaaWNSTUkxeXgybEZKYWFnR2dKcnNjS1BfSTh3c0UxOFVySHV3d21UY1hWYU90V3ludlNUMmJic1VReTVF",
@@ -3312,11 +3311,12 @@
     "67d28f23-248b-46df-baf2-ae474278ff59",
     "CBMiggFBVV95cUxOWi1iRWdYTlJRWDVfU3BqdXlfNjd3SWNqaXlnWlhYMHpFSnJWYjFvTXk3WDVJUURORnZZS2F6WXRGVnBsXzhtQW03WEpHY09pNGwyTGYtaW1RZkE5YXlVVTd6WlNvdTJQd2t4R1ZVSUIwQjdvTzItNEx4Sm5VU0RDOWVB",
     "CBMikgFBVV95cUxQbGU4S0RhM3lTTUd1SEo1TEZWS2RhaUh0OE5pS29UbVVsRFpQdWpQeVBEdWRyT2hlNGRhT1Fjb2YtRko4S0x4WXFvR3VHSTdqZTJ0UG8zdzNVSEFUa2M2bjdRUXNGTHZycmlTMUJpWGFUa003c0I2Y2hrdVlJRHlocmIzS0d6WUExemZIc1hWejZRUQ",
-    "CBMib0FVX3lxTFByNmlJTXJSWmFhT0pNVHNHRmdYUVVNMDBQamdoVlNPUVVacFF1Y1ZveXgxOU1uY0hYM0FkOEVfaHBNalNIZG1pN0ZOaGllU0Z1cVJBSHpoMVZud0hrM2RkX1VHTzVHODNYd1MyeTRxMA"
+    "CBMib0FVX3lxTFByNmlJTXJSWmFhT0pNVHNHRmdYUVVNMDBQamdoVlNPUVVacFF1Y1ZveXgxOU1uY0hYM0FkOEVfaHBNalNIZG1pN0ZOaGllU0Z1cVJBSHpoMVZud0hrM2RkX1VHTzVHODNYd1MyeTRxMA",
+    "CBMijAFBVV95cUxNTnNmTHhXc0kxZ1NNU09tajMzaXU3NXFzMS1DT19VS2RfT1N5QzVOSGNLaERNMTl4SlJMb2x2ckh5T1dKN1Q2eURzTVVBbkNMWk5sb0xDMFF0WWxrdHRCVUdQRlRZV1VoaGhHYi0yUWZLX1NGUFpXQ3NJcUkzSXRWUVJrYlJzXy1iYjU3aQ"
   ],
   "daily": {
     "d": "2026-08-26",
-    "ai": 34,
+    "ai": 35,
     "staged": 3
   },
   "staged_hist": [
