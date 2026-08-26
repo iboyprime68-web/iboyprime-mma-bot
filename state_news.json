@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS 89 video: Sean Clancy Jr. makes UFC contract bid with ferocious TKO",
-      "ts": "2026-08-26T00:16:15+00:00"
-    },
-    {
-      "t": "UFC Sacramento star jumped three weight classes in one night before landing stunning first round KO",
-      "ts": "2026-08-26T02:00:00+00:00"
-    },
-    {
       "t": "Dana White admits he was ‘insanely biased’ before Bella Mir’s shock Contender Series defeat",
       "ts": "2026-08-26T03:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Major tease on The Rock’s possible WWE return",
       "ts": "2026-08-26T08:37:31+00:00"
+    },
+    {
+      "t": "UFC: Bella Mir suffers shock defeat on Dana White's Contender Series",
+      "ts": "2026-08-26T08:43:34+00:00"
+    },
+    {
+      "t": "Jorge Masvidal calls out Leon Edwards as UFC comeback talks progress",
+      "ts": "2026-08-26T08:52:35+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White's Contender Series 10, Week 3 Post-Fight Press Conference",
-      "url": "https://sports.yahoo.com/articles/dana-whites-contender-series-10-012302955.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-26T01:23:02+00:00"
-    },
-    {
-      "title": "Bella Mir, daughter of MMA legend Frank Mir, suffers historic upset as -6000 favorite on UFC's Contender Series",
-      "url": "https://sports.yahoo.com/mma/article/bella-mir-daughter-of-mma-legend-frank-mir-suffers-historic-upset-as--6000-favorite-on-ufcs-contender-series-013206937.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-26T01:32:06+00:00"
-    },
     {
       "title": "DWCS 10 - Week 3 Highlights Video",
       "url": "https://sports.yahoo.com/articles/dwcs-10-week-3-highlights-020135712.html",
@@ -2105,6 +2091,20 @@
       "source": "Khel Now",
       "cat": "ufc",
       "ts": "2026-08-26T08:37:31+00:00"
+    },
+    {
+      "title": "UFC: Bella Mir suffers shock defeat on Dana White's Contender Series",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOMDhjRkRoMkMxaWNTRTBLd0w0X21GWlkzRjZTaE1oZl80MjROTGxfajUxb0xrQ0RGanNsV3lQREVaOFBJcWtfOUd0eDhSR1Y1TWpYQUgzeENGWTZveC11VWx0VUZubXZONEZLMHJBR3EyOC1uMWhqbkdDX0VWR3hWR1R1UnBERjl2bTRUcm1qalA5SE1vaVpqMXRrX3hkb2dmVGJPWGpuV1d0NXdGWENEbk5nYklOLWk3VE50LVlhOHRhNGNlVjFEX19ZOFo5REZDZzBNTzFzNU5FdlVUQldLUlY3bjhZcnVzRFdkdzMxWTNsYW4ta2VDczBKMHdJQQ?oc=5",
+      "source": "BBC",
+      "cat": "ufc",
+      "ts": "2026-08-26T08:43:34+00:00"
+    },
+    {
+      "title": "Jorge Masvidal calls out Leon Edwards as UFC comeback talks progress",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORTRheWZpY3J3cjMyS2cxa2dOT0ZmLXgtR3BNemI1MDlMbjQwdWJXUGR4bjEyRmZXV09aUmFtVkN4dUZVenFyR3JFdTd6MmxQOG9wNUZSSFJoU2lzUTA1cDRNMU9iUV91MEdxaTJTUFU4RUV3SzQ5N0w3SklEbWp1YWd4eDZuTExES0Itakxqck01S1pTc0hBUTJGWXQ2bXdQOTRjRmg4QmxoM3ZZTV9LY2pnTno4WG8?oc=5",
+      "source": "DAZN",
+      "cat": "ufc",
+      "ts": "2026-08-26T08:52:35+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=328497",
-    "CBMitgFBVV95cUxPWXRsUHdHMW1UU18xd2xzYzlyamNrY3AxTmN0VDJ2QXJfV3VFY2gyT2RpeldWYXkxcUlkQTFHM0FzMV9OYVp5VnBkMno2UURYNmdWeGYwOHNCWUhwRjAtUWpzancyeFpqc1F6UVFSNThudWJGV28welJrZWg5RllhWTdDZU9yM2x1aGdoMjBEMi1hd0RiaWV2a0owLVJKUE1tOEVkTGlpWEsxdFpmLURGOWV3alFVdw",
     "CBMixgFBVV95cUxQSUNXWXNsdGx2cl90cWduUUczanpaNkltd0QtenU3OFF0T0ZsYk5qVGtGUTZuNmdNYk14d3NVUXFTTXc5RFRndWlOeUwta1FiUU10dDFsY0tJczQwWTVtdVBlU2xUOWVMWGcxT3VjbWYxN3NfN0djLTdGRFBqc2NleVJPUlJmOGw3aTVzTVVQU09iR1h4eTBqMlJCTUxEa3U2QmRrU2V0UzRudVB4Z1NraXNiOXJrRmhBMXJzeDNmX1NlbzBoMnc",
     "CBMi4gFBVV95cUxQMXA2cGJwUkRkU0V4cHBoYWZFUEhlaEkySzdpX01vSjQ1emtEUlQzWkxmM3ZMLUNrc3RHcC1OcTZ2Ri1lQXRUQ1ZHdGplWEMwQVY1V25jM3c0TWZ4ZjhqclNKbFVNVXljdzd4a2xZMUJ1bWQ5MzZtbzlJRnVGTldJUmJyWUZjU1hhdGE3NUs3a2ljdmFqa3d2ZjdNZGZpMmZ2S1VNeVpPQW9GWEVwOGxvLWdRS0l5VnV6VXQ3NW4xOS12ZGNvcjFBVDNyMUw1STUwTFBqX1VhN01IeEZJb1BlY1dB",
     "CBMi1AFBVV95cUxNUW1nb1ktT3F3UkpkQnlTNVJNX2FkWUhiSUNndGdOQzFuY3pTS09tdG9tbDN1MHZTaF9Hb0NVVkEtZk9Zel9DWkVXZTBIdlhMU3VKTWtiQzROd2x1RTAtZWhxSS0tMFVvNlFKQ3RBQ2xsVE5sVk1fWmlYcGM1SDhYVDRZd29hQWFoSkxOTjVGU0pCVUMwOUJQblJWcGM3WnVxV0tBeWdtZXVkQ1lhN2Z1TDBEOGJzblFWWnRqaWJlSlZZTHViOG5ZWkllRGRKWUJWRE9Law",
@@ -3312,7 +3310,9 @@
     "CBMi5gFBVV95cUxNc3FfZ1NWLUFnQ2gzczVVdlZTX0pqc1dybFN4NzdsakQ2bl9iSkhNcXNCcmlySG9Rcy1VcXJIcndVeUQtNS1jQUk5VlRESkd4NmdDanVKeGJKbXNsZV9pNmk1cW1rMjdBWVpQZTNlZ0ZQYWRZRmUtYnE3Q0QwSGNBOWZyQjJzbG9kSmR0QWJVZlhSZHNvY3R6VHcybVJsSXB1cXoxSEhRYTVRMG51U0hYQ3gzLU9tdXVVSC1WNFFyclR1dUl1NUZTTHU5UEdPVWJfMUtpeThTVGR4Q3JhM3hTLVdqRGRRQQ",
     "CBMipgFBVV95cUxPcnhzY3MwTl9nTDdPWm1xV0xTNFpFaEkxd0hOSkNUcG1IampNUHhFT1NiNFFZX1g5WGx0Tk9lRUZiMzhLaUJJc0kwVEdTenJsQ0VyRlNYRVEwam1uVHdfVUJaWVY1ajJzTHVLZmVMczFUYlNMMVJMajVfUFQ4eWlJV05zcVZCSk04RWxYel9PU0Rrc2JubW1BLTNCOFNGZ3NDNGxnYTJn",
     "CBMihgFBVV95cUxQQ1FhcHRTWHpoQWV0ZWFMYjJtWHZiX0U5RHFnRHJRYjF1aDdaUTNvS1d5MTVHeklNTUZVRDAxSld1MjkwSDdjQWhiYndmQlVNNkdzbVgtYjhYYl8tR2oyVW5oSWJVeUIweHFGOWVObzhQR2dEYkxyX0dLVVJPejdZcXFpOFB6dw",
-    "CBMid0FVX3lxTE5ZWGhBUXMwUVFqbFBRMHc4YjlJSVY0QkxISHpkeWx1elF2bDc5OWthWTJtakQ3T3MtNVB0NWhXWFZuMkRRbm1aX3JWVzk5OE9Kbkl4S3hJbF9ublRxdjZLRTk1d2RDY05VWjZGNFgwaDItRjV1ZG84"
+    "CBMid0FVX3lxTE5ZWGhBUXMwUVFqbFBRMHc4YjlJSVY0QkxISHpkeWx1elF2bDc5OWthWTJtakQ3T3MtNVB0NWhXWFZuMkRRbm1aX3JWVzk5OE9Kbkl4S3hJbF9ublRxdjZLRTk1d2RDY05VWjZGNFgwaDItRjV1ZG84",
+    "CBMi_gFBVV95cUxOMDhjRkRoMkMxaWNTRTBLd0w0X21GWlkzRjZTaE1oZl80MjROTGxfajUxb0xrQ0RGanNsV3lQREVaOFBJcWtfOUd0eDhSR1Y1TWpYQUgzeENGWTZveC11VWx0VUZubXZONEZLMHJBR3EyOC1uMWhqbkdDX0VWR3hWR1R1UnBERjl2bTRUcm1qalA5SE1vaVpqMXRrX3hkb2dmVGJPWGpuV1d0NXdGWENEbk5nYklOLWk3VE50LVlhOHRhNGNlVjFEX19ZOFo5REZDZzBNTzFzNU5FdlVUQldLUlY3bjhZcnVzRFdkdzMxWTNsYW4ta2VDczBKMHdJQQ",
+    "CBMitwFBVV95cUxORTRheWZpY3J3cjMyS2cxa2dOT0ZmLXgtR3BNemI1MDlMbjQwdWJXUGR4bjEyRmZXV09aUmFtVkN4dUZVenFyR3JFdTd6MmxQOG9wNUZSSFJoU2lzUTA1cDRNMU9iUV91MEdxaTJTUFU4RUV3SzQ5N0w3SklEbWp1YWd4eDZuTExES0Itakxqck01S1pTc0hBUTJGWXQ2bXdQOTRjRmg4QmxoM3ZZTV9LY2pnTno4WG8"
   ],
   "daily": {
     "d": "2026-08-26",
