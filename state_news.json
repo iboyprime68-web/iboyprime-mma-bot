@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/461836/highlights-gilbert-urbina-plays-spoiler-stuns-serbian-favorite-with-early-61-second-tko-ufc-belgrade",
     "https://www.mmamania.com/461866/highlights-navajo-stirling-ices-jan-blachowicz-with-record-setting-first-round-knockout-ufc-belgrade",
     "https://www.mmamania.com/462028/open-thread-august-1-2026-any-big-plans-for-this-month",
     "https://www.mmamania.com/462149/open-thread-august-2-2026-rainy-days",
@@ -995,6 +994,7 @@
     "https://www.sherdog.com/news/news/Justin-Gaethje-dismisses-immediate-rematch-with-Ilia-Topuria-201600",
     "https://www.sherdog.com/news/news/Justin-Gaethje-unlikely-to-fight-again-in-2026-201586",
     "https://www.sherdog.com/news/news/Justin-Gaethjes-coach-Trevor-Wittman-defends-Aleksandre-Topurias-stoppage-of-Ilia-Topuria-201718",
+    "https://www.sherdog.com/news/news/Kai-Asakura-vows-to-show-new-combination-in-UFC-Shanghai-KO-bid-202537",
     "https://www.sherdog.com/news/news/Kaik-Brito-had-one-more-trick-saved-for-Dana-White-and-it-was-brutal-202423",
     "https://www.sherdog.com/news/news/Kamaru-Usman-confident-he-can-beat-Islam-Makhachev-Styles-make-fights-202398",
     "https://www.sherdog.com/news/news/Kevin-Vallejos-sees-UFC-title-shot-opening-up-with-Noche-UFC-shakeup-202441",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Maliek Collins 2026 Practice Montage Stream of National Football League",
-      "ts": "2026-08-26T01:31:21+00:00"
-    },
     {
       "t": "Aberdeen vs. Rangers Live Stream of Scottish Professional Football League",
       "ts": "2026-08-26T02:27:32+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "TMI - Behind the Uniform with Andrew Babalola - Dom Nichols, JJ Buchanan, and Benny Patterson breakout players",
       "ts": "2026-08-26T05:30:55+00:00"
+    },
+    {
+      "t": "Kai Asakura vows to show ‘new combination’ in UFC Shanghai KO bid",
+      "ts": "2026-08-26T05:56:27+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Paddy Pimblett’s withheld UFC 329 purse branded a ‘crime’ in passionate rant by Michael Bisping",
-      "url": "https://bloodyelbow.com/2026/08/25/paddy-pimbletts-withheld-ufc-329-purse-branded-a-crime-in-passionate-rant-by-michael-bisping/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-25T20:00:00+00:00"
-    },
     {
       "title": "Umar Nurmagomedov wants Merab Dvalishvili win or lose at UFC 333: 'Now it's personal'",
       "url": "https://sports.yahoo.com/articles/umar-nurmagomedov-wants-merab-dvalishvili-202016029.html",
@@ -2105,15 +2098,21 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-26T05:30:55+00:00"
+    },
+    {
+      "title": "Kai Asakura vows to show ‘new combination’ in UFC Shanghai KO bid",
+      "url": "https://www.sherdog.com/news/news/Kai-Asakura-vows-to-show-new-combination-in-UFC-Shanghai-KO-bid-202537",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-26T05:56:27+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
   "hour": [
     "2026-08-26T06",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMi3wFBVV95cUxNRk1fV3IwZ3JYTXlTbDBOMnRfeV9uMEMtRllIOGhablYtT2M2dDJnS2NFRXdrLVpQXzVyTjZVYTBDcDJ3UFlOcUxjZVRydzFhdXVNLVhWd1RUaGc3Y25PaTZOdEVZQ21sMWdvM2hqR3pKZ3M0aU13cXBnVWJ0dUZYc095Mmplc2pKQzhUMHhMclg5a01SQWRaZWRMNklmUHhMZnFyc0Z5TE5aaVlWZ3A0WlFvVTZIWmp0ZGZnOGJZQ1RVLVVsUVJFRHMyaFRRQzF0bWM3akxKU2tpZy1Qc1Zj",
     "CBMivwFBVV95cUxOb04xdktqZkdTRzlzSW8xa01pWHhfSjlGVWRpLUg0OW9feldtVFhMbk1SQkwwcEZjdkJXLUMxNU9IYlN6eXFiUE13cmpwWl9MMF9ZZEk3N3ZubXdLOVQwemhDVmtUNTVEX1liaUdjOURiY0RHYkVzLW5nd0FVNklvOW5LRnc3SEs4NkR3cnpDOEtPbXdwa2hiaGt6WXJRVlBnT0RubGFwOG9uWnFiVElUWGkxTUFkNDg5eEc1cm1Tdw",
     "CBMihgFBVV95cUxOc05qSGJzV2tINV9hQ3Z5STliRnNlRnpJdG82Y1VjYzVESE1TVTFaemxmMHVCZkUzQzdRbUdkdjNwaHJTcXZ0cXowWU43c2VkYlFBMzVFbWREV2tfVnEySG1oWjFJTkNHVmNFcGpicV9URjJaTGNISXhWSzFKdHFrdWV0cjZodw",
     "CBMiaEFVX3lxTFBNRGllTl9RR0dLdGp6OWtMX2lZdEl4czBGZFh4TnowNUV1dUlLNGs1SmZoRHpKSlRDNlYwWWM5LUV2clk5bDlZTjFReGQ4TzJGRnEyUTdxMFNfQ2xENldCZjlkX2hmQ09T",
@@ -3312,7 +3311,8 @@
     "CBMivAFBVV95cUxNVnBqQ3VqVEc3Z3BtMnFjZEY3NU5uR0FNTGhQSm9oT2VkcTF1MnFIcmpSWFhSaVlzdkNYX3djcXBBY19zZk5CLVpUZm54ZmsxeFBUUktxRm8wVUM5ZFJlNW1nTUt3ZnVRdGZXenlYbGNPb1RwQS1ZdWMycEgzSlpiekFobmhZRFdaUFBCYXRVTjBlQUVaV1ZBNzIxSlRmWTh3alRoMGdrdXJtTEJSMkpEd2pTVTlMclRGREhoUA",
     "CBMilAFBVV95cUxPSm5LeURPX3dfcjI2YXJoR1VMYTNBMjVyOVBpNHJENXFuZ1pIUUw3UXBFQXU0dzF2c2tKb2ZPTkIzLWRQMGxDQ2FKVUR5a2swY0pLVDJvbEM3ZHVCR3YwWVQyQmNIS0QzNHJLZjktWVYzS29zeHVPcEpXdVZxbGdWbmxvclNaTUFPcGJYSk5oV29HSnlh",
     "CBMi5AFBVV95cUxPVzFuRHd1QV83bkREYUwxb2JnR3JoS1ViYnR4dnAtblpHU2JxYzRaaHd6aExCengzNmRyejY0dXZZQ1ZiOXpLRHktUllaM05jYy1jdkhMYy05azNocHpXLUVEbTctNHBIY1RKN0hqOHBSMlpEYlBab3E1MFk2Z0pIakhubDRpenRqR2tzdlRic21SaFlmVnctdldyZUV5UlhHcFMyWjBlTEgtMlJ4NTBaNWN3azhNbjA5RjdSWExfcUpEd1ViZERQN0Nqc0IzVENmeVVnM1pQa1JJZ0ZpWEVwWGZSSkw",
-    "CBMi8AFBVV95cUxNR0RheGQzQVgyaGJ3OEprZFBfTExRbmM4MmExeDhGX0V6VTZGeTc0TmtfWGkxdWZXY3NRMno0ejVfZXM0a1JIVUxtMm45Y2tsRWZyTU11SjRDdGZpa2pKN05qR2hOQS1hcmNBTlRvQnZ3UlBBeTZ0b3RBeTgyaTJZMmdVREhWbEtaQ1Y0YV81UXZKNk8yWkNXMkNQT0o0aHc3Zi16czBxcjZhbWN5cmo1Z2Q2Q0NENG9qR2NGN3NVbllHeFN5RDVYVXdrTGxITDk4WTBfcnpNZ1ZlU3ZObWZ3M0hOUGFsNExpd2FwZDZYTUk"
+    "CBMi8AFBVV95cUxNR0RheGQzQVgyaGJ3OEprZFBfTExRbmM4MmExeDhGX0V6VTZGeTc0TmtfWGkxdWZXY3NRMno0ejVfZXM0a1JIVUxtMm45Y2tsRWZyTU11SjRDdGZpa2pKN05qR2hOQS1hcmNBTlRvQnZ3UlBBeTZ0b3RBeTgyaTJZMmdVREhWbEtaQ1Y0YV81UXZKNk8yWkNXMkNQT0o0aHc3Zi16czBxcjZhbWN5cmo1Z2Q2Q0NENG9qR2NGN3NVbllHeFN5RDVYVXdrTGxITDk4WTBfcnpNZ1ZlU3ZObWZ3M0hOUGFsNExpd2FwZDZYTUk",
+    "https://www.sherdog.com/news/news/Kai-Asakura-vows-to-show-new-combination-in-UFC-Shanghai-KO-bid-202537"
   ],
   "daily": {
     "d": "2026-08-26",
