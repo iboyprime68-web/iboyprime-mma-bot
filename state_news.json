@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Shanghai: How to Watch and Full Fight Card",
-      "ts": "2026-08-26T07:37:06+00:00"
-    },
-    {
       "t": "UFC Fighter Calls Michael Jackson Birthday Debut a ‘Prophecy’",
       "ts": "2026-08-26T07:09:43+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "‘I have work in the morning’… Alex Apodaca returns to her day job after beating 60-1 favorite Bella Mir",
       "ts": "2026-08-26T12:00:00+00:00"
+    },
+    {
+      "t": "Morning Report: Michael Bisping calls it ‘a crime’ for NSAC to withhold UFC 329 fighter salaries for celebrations",
+      "ts": "2026-08-26T03:13:20+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "DWCS 89 video: Nick Galanti scores brutal 35-second knockout",
-      "url": "https://sports.yahoo.com/articles/dwcs-89-video-nick-galanti-233101857.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-25T23:31:01+00:00"
-    },
     {
       "title": "DWCS 89 video: Ronald Humphrey takes aim at 170 division after bloodbath win",
       "url": "https://sports.yahoo.com/articles/dwcs-89-video-ronald-humphrey-235311150.html",
@@ -2105,15 +2098,21 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-26T12:00:00+00:00"
+    },
+    {
+      "title": "Morning Report: Michael Bisping calls it ‘a crime’ for NSAC to withhold UFC 329 fighter salaries for celebrations",
+      "url": "https://www.mmafighting.com/ufc/506983/morning-report-michael-bisping-calls-it-a-crime-for-nsac-to-withhold-ufc-329-fighter-salaries-for-celebrations",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-26T03:13:20+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
   "hour": [
     "2026-08-26T12",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMirAFBVV95cUxQZkxCREhvYXVBSmotT0dqSElrTkFYeTNSTUJueF9YVlB0eVJhTUhzZUU4X01UMXRTZzZOMmxldWlna3gwemNjZ2xyQVlKN1B0Tjg5Y2gyVzFwRG91UGNLQmhlXzBfZXE4WnZld1RMSElVVWxVaW1rV3ZCS0w5cmxUNkYtdURsYmNpYjdyU3Fwb1l2ZW9DLWJ0eldBOWtqNTJadTI1Mjk3VGxBRlNo",
     "CBMihAFBVV95cUxQWk5FU0k5UVFEMDRCYXpwZS01cEp2dFQ2MlUyLVBGMEF5czZ1Vmd2Z3oybERhUm1aS3B1MVlLTkYyb2xyMzJfd1RoWUlFNkY1NS1rVjNLOHBBLVp2TmxMcmY4Ymc0dTJxN0UyUlZNakJneVkxVHZpcXQ0WjR5MU9xR3AzVmo",
     "CBMilwFBVV95cUxQcGoteEQxSm9aU3BldkNjMl9fRkQyMnZTX3ozM0J2UWxaMVFtTXVhbDREWEd3Mk54RENWRnpuSC02WnZnc25NeVRNdV9vUkZfNFdwbmhlOFk2dkl1SVhOWkQ4b3NPS1BqZXRvUEdCMTBxSWwxUE84TXhDdTRSbmtZQW50bnhTYzR3azlCVk9xQlJpdjdoZ3lB",
     "CBMilAFBVV95cUxQRU9PamVadklsMFdJS1ZrVGM3VEd3Qy1BREdPSU1NVDk4bmNmZUtBQmhydkVsamNxWWFqb1lPeHNBUXcxTERsN1U5VFI4SllPTHpJbzNNVXV6N2k5Y1JSMUtMUy1jaG5VbFBUUnBEUkxwOHo0WktpbjZ0XzA4TElDZFZ2eGF3T3kxV2NET2dXdGhZQWNr",
@@ -3312,7 +3311,8 @@
     "CBMijAFBVV95cUxORE1DdTh1U0tqR1hQLUloeDdOdzd5NlowMzAxdzZxb2hwQzhQbFZkazk1aFA5VFJ0T21FUUZ0ZEdfSDBHOUF4dUkyaHB2RGxQVkV3WWVxVC1Da3BnRTJDWk1ZT3ZXSUVEV3ZvRXNjY0wwR3JvRmpvc2NVU3FNWkxVaWZpbThTeG9OR1pTTQ",
     "CBMinAFBVV95cUxObEI1VGk0c3VwTVNsUFF2ck9fQ2NrZ0tYaWZwUkliYmtUSWF5Um11RGR2RkhxbzMyTlVFdlM4VUhpUWhnSFEyU1BzN3ozcS0wSC1HQzQ4WjQ1MjJtX2ZRU2FRcDVkRGU3NjF2ZEc5eUVYbkJOM0c4dXdrQUJTLW10TGNYZlVlMmVxblJGZFEyd29nTWtkTHV1VzZBdEc",
     "CBMisgFBVV95cUxNb1ltcEx6dVVwWl93dm94eEJXZElPUzBSQ282eTNHTXZPSWZWNkVzWEpJdFVJWlBkNGp4MERaTjRlT3dacUJtemJibUdkTG1waDBwX2JsR3hJZTFFc2xxOTFsZUF5VFB1ZWI5LWYzMGpKQ1dZc3Q5OUdJcEQ2SGo4bmk4eGs5N3p4cUVSamdYRHJmWURuOHZtbE5QRVFuWC02THJNMjE0Mk9jaHl2Wk1hNkRB",
-    "https://bloodyelbow.com/?p=328899"
+    "https://bloodyelbow.com/?p=328899",
+    "https://www.mmafighting.com/506983/dnp-morning-report-template-dnp"
   ],
   "daily": {
     "d": "2026-08-26",
