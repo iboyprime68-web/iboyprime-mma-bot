@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Cyborg Secures ESPN P4P Top 10 Spot At 41",
-      "ts": "2026-08-26T15:00:15+00:00"
-    },
-    {
       "t": "UFC Edmonton Card Set For Oct. 17 On Paramount+",
       "ts": "2026-08-26T15:00:26+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Chris Barnett Signs with Power Slap after UFC Stint",
       "ts": "2026-08-26T19:48:12+00:00"
+    },
+    {
+      "t": "Charles Oliveira Calls for One of the Biggest Rematches of 2026",
+      "ts": "2026-08-26T19:45:50+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "\"He looks dangerous\" - Worapon refuses to underestimate Lenny Blasi's versatile Muay Thai arsenal",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTVc4djVvYW9vMXRDM1R5U01wOW1kRHRyakxfQXNEOGNmdUZBM3o0Q21mVlNsSXlfSnRBb3REQjhadlR6dFpkMWhKVWxhU1lMRWxlTUVuYUFEeW5pV3FzRzI3Z0tQdE1EUENNVS12SmExTUNLR0hwd1paeDNHbWRtY2JfN2ZaWXVlWDRrTENRTTJ3b3dJcTk1NldKWXZCQmU4ck8tWm41T3Y5aFkzcUtJQ2NQejBSbFFiTEVaVWZXc3ZheHRXekE?oc=5",
-      "source": "Sportskeeda",
-      "cat": "ufc",
-      "ts": "2026-08-26T16:27:00+00:00"
-    },
     {
       "title": "Bella Mir Loses Historic Upset to Alex Apodaca at Meta Apex",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWlRCbkNtOWdnZ0luVmNEYXU3TU1LUFJvaUQxSmxjMFNQOU5UYU4xdXVkaEV3XzRzODVjRmsyRE5XSkxmbU50WHhQTnQxbzZ0ZXRYT2FrbVdHRVZtemU1MS1GUW51ejVQZDZfMWpMLVBzVDh1UlFrMC1uYWEzYlhVbi16VG1GcTQ1Rzdja3VuT1Z5bVZZeHFSMzBFck9KanlwZHlKOFVfWQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-26T19:48:12+00:00"
+    },
+    {
+      "title": "Charles Oliveira Calls for One of the Biggest Rematches of 2026",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRTZYN093eTA4ODVkTi1wRWNGVVNoS2hhSlZVNkI0bU8zVjBpSlNQU0RaelZWaGtSUWROU0FpUGJGMHJnT3QyeGx3QzlISUpYRnZkcWd5MGUwMUNJUV9HQ1UxVlNCWnB0dXB4TVVxZmQwcERtXzBEQmItRmRhUnlLRGpmc3RtVXo2akc2Y09BMzJnOXVtVGc?oc=5",
+      "source": "TWSN",
+      "cat": "ufc",
+      "ts": "2026-08-26T19:45:50+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMi1AFBVV95cUxOWHZDVFdyNGxBZUtkcGU2Yy1PV0ZDUkxIZXBNZTg0b0I4OEdKdmp2aHhwNkxydV9JbDVaUEp0NWYzRUpEdHlQZjNaTVNZNElfRXZoWUU2TkdYTTY1WGVQNEJ1MkFpNFZldzlvTml0MC1SN1NoVnQ2SFlhTm04blRGMTNoNFdMWWRFRk5uaDR4NnhUYXFYczR0RG92MHlUS1plVGV6OVRLeVZ5TjZ6Q0h1TWc1THZFb0lTNnhuVE1vb3ZES1JUaWdzaGRIdms4NnZQYmZxWA",
     "CBMijAFBVV95cUxQV21ySmpTVFdQLVA4Rl9UUHJOLWE2TFI2MWhQeWpVbHpFTDU2QVd2SHBYcllYWjZ2cFRNNWJmU0RscFl3UHU2bktSelplZjh4NnpnbHdXcWVMWkYyYWtDLUxIWmlNZHJjUmNZZ0REVVhvSUtiQ1R1b3ZJTmpxclE3UVpRNGV3SlY5STdQcA",
     "CBMigAJBVV95cUxNeWI5TmVweTA4SkFHV2hqVW0yZUc2bXNGeVdqaGE5TFk0cVJtQUJXVTNVR1V0YUV6dlhabFVnY3ltQ3hISEl4dTg3LWZZVzh3eGpoTTduSWZ1ZXpFT29ETTdjeXdiZUNrMXFxVmtZMFBhRzVBcmlPVEZ4Y0pITlNNNUhIZjdKdGxxZktzcTBwekFyVUxwZkoybzFmRktMaHlTbEdrMlROVHEtTV9wTnNUemZlLURiNXpveWstYmNZOF9MZHZtdGdfRU9PcC1JVEZwRWI1cEZlNWktUWJGck5KR0VQTzhkNGJ0UUpqeEpTRlJzdm9fbDQ2ekl2ZnVpcEJS",
     "CBMiowJBVV95cUxQRzhNZk0tZEppam9kdTc0eGRNZHc4VW5UdUp1Qlc4WE93YnVaOGk0LVRXQTFvQmt1WDBKUnZkNDYtc0ZhU1IyNFJ2blZaYmk5Q08xemRTdG9naUVSNTlUTEIwYUlfcHhvWkdkelhMTHNoVndXdlRwa1RCTllKNTI0czBuTzN0bk5Fb2hfcGE0S2lWVjBRR3A0dENGVkJBUWlza1VOUHNkSG5qU1V2QlN2eEVjQjNMZjU4QkVhNGhYSGR5OTNuYnRiR2tGRVlLSnlNWU1DbHlCcklXLXNXSlJlRnJDRVYxcHdJMW1vRl8wYjQtNTB4WnhUcUJ1cFJ1MTE5QTI3RmItYnBydGRyc1F6MEE1YktDNGxIX0pLWU5FOGFHLWfSAagCQVVfeXFMTjhndGdCcUN5R2RTUzEtQ2RYLTJ4QWxnc2VvY3RNRmY1dC11M0ZTZWpDVTJkY2UzX3V6UUp4blhzZlJVeHNtenIwMzhaZThoLVVab0FoUXN2cDMzc0RIQzBWNHZ0ek41U2VNRF9YVEtDM3hFb0tpdVZaRFNCM1RYUV9sQXhJRlR1TWdGTk10SlM2NjFTOVh4TUtjOTBCU2FPcno2TGt0N1BXODBNMlZEZXlqbnlsaURvN1dYSzVEc1AtZmtSODhMa3lFUUhHNTJoSF9iTk5yeHZfVjczNHRoNEl4Z1hGYW0ydEZqdi04cnFEOXFhVDFmSG95SlRXX0pVV3pRakxLbEVFY284Z3pPanZJbkdSQ3h4Q282Vlo4dW8yVXRqczBCMDM",
@@ -3312,7 +3311,8 @@
     "CBMimgFBVV95cUxNNnJpdDV2Vk1ZXy1VTWFLTjJhc1I3X3lPaU1WUWtMYmhENHhQVHRMVjdJMGkyZk54TGhIeEJ4c3VJYXd2X2toRGswQmpUOWd6VTlYQXMxelp6STFacE9UVnhXUEUwYmwteG1zbjM2NExmU1NtU2lZTEx4Z19PYTFHUm5RdWtCVEpQWFhuLWpEalF0RWVPSWFyMzhR",
     "CBMisAFBVV95cUxPNGJmNEJTY19TbDJtQmNySnBHNFQ4OTFNYlhiUy05b2EzSjFBSkVlTUtkT1FzbnNoQWE4QUxGTEEyVnplTUpHNE56T0pNMzFUd2pwWG1yam1yTEluQ25GcmdtWHVJOFFZRGVqNkYyZGx3N0pNQ3g4cVU2akpRdTFmbmszLXItRnZpWVhaRTBMNVhWcmZ3dk5yNzNvcmpQSjF1eHd2UDZqc0N0bV9MbTdJdA",
     "https://www.mmamania.com/?p=467509",
-    "CBMiXkFVX3lxTE9HMjdpT1V3dHU5ckZHeTFlTk02bE1kSTByQ1BibGxuZ2dnQ1k1R0pBeWRSb2dDa0hLaWtsQ2tmX2NTalduREkteXE2Q3oteDhfYTAyNGdJT1Y5c2ZyaFE"
+    "CBMiXkFVX3lxTE9HMjdpT1V3dHU5ckZHeTFlTk02bE1kSTByQ1BibGxuZ2dnQ1k1R0pBeWRSb2dDa0hLaWtsQ2tmX2NTalduREkteXE2Q3oteDhfYTAyNGdJT1Y5c2ZyaFE",
+    "CBMilgFBVV95cUxNRTZYN093eTA4ODVkTi1wRWNGVVNoS2hhSlZVNkI0bU8zVjBpSlNQU0RaelZWaGtSUWROU0FpUGJGMHJnT3QyeGx3QzlISUpYRnZkcWd5MGUwMUNJUV9HQ1UxVlNCWnB0dXB4TVVxZmQwcERtXzBEQmItRmRhUnlLRGpmc3RtVXo2akc2Y09BMzJnOXVtVGc"
   ],
   "daily": {
     "d": "2026-08-26",
