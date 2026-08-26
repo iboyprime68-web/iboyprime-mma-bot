@@ -1,8 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/461361/highlights-open-ufc-belgrade",
-    "https://www.mmamania.com/461363/highlights-open-ufc-belgrade",
-    "https://www.mmamania.com/461409/mm-clone",
     "https://www.mmamania.com/461513/open-thread-july-31-2026-whats-the-best-show-on-tv-right-now",
     "https://www.mmamania.com/461688/ufc-abu-dhabi-results-sooo-about-last-night-ankalaev-vs-guskov",
     "https://www.mmamania.com/461702/ufc-belgrade-live-results-highlights-streaming-play-by-play-updates-medic-vs-rodriguez",
@@ -809,6 +806,7 @@
     "https://www.sherdog.com/news/news/BKFC-to-hold-event-at-famous-MLB-stadium-201614",
     "https://www.sherdog.com/news/news/Beatriz-Mesquita-explains-callout-of-Ailin-Perez-201592",
     "https://www.sherdog.com/news/news/Bella-Mir-makes-weight-for-DWCS-headliner-as-5fight-card-becomes-official-202510",
+    "https://www.sherdog.com/news/news/Bella-Mir-stunned-in-historic-DWCS-upset-as-Dana-White-awards-five-contracts-202529",
     "https://www.sherdog.com/news/news/Bia-Mesquita-The-Octagon-is-no-place-to-be-twerking-and-showing-your-butt-201621",
     "https://www.sherdog.com/news/news/Bilal-Hasan-justifies-historic-5000-odds-with-45second-DWCS-knockout-202324",
     "https://www.sherdog.com/news/news/Bo-Nickal-feels-he-receives-undeserved-hate-from-fans-201470",
@@ -956,6 +954,7 @@
     "https://www.sherdog.com/news/news/Islam-Makhachev-recalls-epic-school-fight-alongside-Khabib-Nurmagomedov-201520",
     "https://www.sherdog.com/news/news/Islam-Makhachev-recalls-taking-wrong-pills-after-Arman-Tsarukyan-fight-201522",
     "https://www.sherdog.com/news/news/Islam-Makhachev-reels-in-shark-ahead-of-UFC-330-title-fight-202330",
+    "https://www.sherdog.com/news/news/Islam-Makhachev-reveals-how-many-fights-he-has-left-before-retirement-202525",
     "https://www.sherdog.com/news/news/Islam-Makhachev-reveals-most-enjoyable-fight-of-career-201457",
     "https://www.sherdog.com/news/news/Islam-Makhachev-says-Alexander-Volkanovski-is-no-longer-at-his-peak-202513",
     "https://www.sherdog.com/news/news/Islam-Makhachev-shares-his-prediction-for-UFC-White-House-main-event-201474",
@@ -1045,6 +1044,7 @@
     "https://www.sherdog.com/news/news/Neil-Magny-just-joined-Charles-Oliveira-in-rare-UFC-company-202375",
     "https://www.sherdog.com/news/news/New-photo-sheds-light-on-how-Ilia-Topuria-looks-two-weeks-after-title-loss-201709",
     "https://www.sherdog.com/news/news/Next-up-Islam-Makhachev-names-most-deserving-title-challenger-202385",
+    "https://www.sherdog.com/news/news/Nina-Drama-says-Dana-White-helped-get-stalker-put-on-nofly-list-202526",
     "https://www.sherdog.com/news/news/No-corners-cut-for-Conor-McGregor-201746",
     "https://www.sherdog.com/news/news/Octagon-newcomer-learned-twister-submission-technique-from-exUFC-standout-201596",
     "https://www.sherdog.com/news/news/Oleksandr-Usyk-to-vacate-all-belts-seeks-one-last-dance-retirement-match-201655",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Austin Bashi Vs. Christian Rodriguez: Rising Star Vs. Hype Killer At UFC Fight Night 249 Rangers Team Today (tig0qq1FVy)",
-      "ts": "2026-08-25T22:47:56+00:00"
-    },
     {
       "t": "UFC Fight Night: Alden Coria Vs Luis Gurule Ascoli Calcio (XZugP6LHvF)",
       "ts": "2026-08-25T22:54:10+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Las Vegas native, hyped prospect, suffers one of biggest upsets in MMA history",
       "ts": "2026-08-26T03:03:17+00:00"
+    },
+    {
+      "t": "Nina Drama says Dana White helped get stalker put on no-fly list",
+      "ts": "2026-08-26T02:00:58+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White’s Contender Series 10, Week 3 Post-Fight Press Conference",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdmVWSXlRd3RPNGJXVUhnVTRZT1ZnU0tTS1lUSXp4NFFWQUY3bndITmhOcEp4TTNMbzJybGs4c1FmN2M3ODF3d3RnNXlDcTRBNDhIN1V4bV80TTZFdmlSMFY1Q0VVSFFTeVV2WkJEZDJyeXlBRGZNdXpFZk8yYWxpVzhNaVFELVFkZHM0UFBTSWlKZ3dHQ25QZUlPQWczZw?oc=5",
-      "source": "MMAWeekly.com",
-      "cat": "ufc",
-      "ts": "2026-08-26T01:23:00+00:00"
-    },
     {
       "title": "60-1 favorite Bella Mir suffers shocking loss on Contender Series",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9xN2htNWVPcldTZXhnQUhQZ3VEQVJ2VWV5X0JvMFFJWk1OdjB5M1Eta2pMc1FGSGJ6VE1uQlRJNFFzcHBQbHhtS3daREMyUQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Las Vegas Review-Journal",
       "cat": "ufc",
       "ts": "2026-08-26T03:03:17+00:00"
+    },
+    {
+      "title": "Nina Drama says Dana White helped get stalker put on no-fly list",
+      "url": "https://www.sherdog.com/news/news/Nina-Drama-says-Dana-White-helped-get-stalker-put-on-nofly-list-202526",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-26T02:00:58+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMifkFVX3lxTE9EOHhySTk1M3g1MVNlYUZya1ZhM1N4VW1jQkhXSnR2dFlCQkUyMGdmVmpLTVljdUd1ZzFrQzBKUkc5SEZhdkVmR0d2akxvaWs4QXRTZmxzb2Z1UGR6SU84d1NuZ3Npa0dZQnhyandKd01KbHZGbGd6VzlteUNNUQ",
     "CBMikAFBVV95cUxQaWQ1VzhMOVVjbzEzS3l4ZWh3amthX0xCSElkLUZHUF9CaUN6UDBkZTVOUUV2Znp6ZTZ6TW1xX01DZ2FGTDdmbE5FTFI3aVQ4Slpha3lnWjdOVWtRTzBxdXdfckZOT0RvdHg0SmFhaHc1eTZndG9yX0Npd2dVY0J6VXRacnRsQjZjY2VQNThxbks",
     "https://www.mmamania.com/?p=466890",
     "CBMiiwFBVV95cUxNb29LTk5tUm5zRFYzLUllMVlNTm1wXzNkeG9WLTBvTXJpRnVYT2dCT0NUY2JGWGZnM2Z3Q1I1bDNsNHI2RVdxOVJ3dV9jR2VRMGt5MkNQLWtrOHNJYXNXaUtnM3RyZmlrd3hkQTRXOGNPRmt6OGZoZlQ4WUN6b3RnUVgtWUowVEtScVQw",
@@ -3312,7 +3311,8 @@
     "CBMigwFBVV95cUxOWHhraDJJTUJJRHRMSy05TGkzZzExc2JXUnp3NUY4VTRUOGZVdDdUV285ZWxnRDQtWW5SMkhxSlBidGlfQWlFVlAzbE0zU20taDU1TGlFbzZwQzhqTkVfclViZFhCdm9TMkVhdVU1UGE5ZjREdVdaNjY1Vy0telJZbXhkTQ",
     "CBMivAFBVV95cUxQWlhzUjNfSXhQSWxXUjlqS3RESkd1cngxZ1NHWXlJYTFUYnF4NWZhVC1aMGpSaFE4OXVnZjgxcU9qUlF6S1ZkSW5VdVJrcFZLU01iVFdhQjRNLXZMalZDQ0VKZkl6UE1UdDZEVWh3aldXaWR5bEw4eWllSU5YN0VwbU5VVnhxeWZraU9DTVh5V1BDb05lRmhlNXVsdmFhVlhJdWFsNjdzTERyNmFGSllwejJGVHNtYUlxZUNQTA",
     "CBMivgFBVV95cUxOVGlzSnVUSUFncS1KcDlTTEF0YmRucFFJY09NQ3FicThuMnBIZUdsYTdGM3ItZl9PWjA4ZmRHVnlwVGlDazhhaWYtQ3FBQVdmVTIxSm0xUjN0SW9vOThjR0ZDS1Rzdi1QYm9CYzdsbUtqekQ4OVZIcktsb09BVlc5cGUySlhOMlNfakhyeEV1bHI5cmk4Y0lQTU80NnpOSlVoTGd5Z01BRGpYMUh5b2lGNkFSLUlvX1dnNHczRDln",
-    "CBMitANBVV95cUxQTWNZOVNDcHY5RXVtY0cya2F1YUxTS2Z3R3VKY0FjNE1FMEZ6OTQzd3k0c3ZyT2dzUGlOdTVRcmZDbWxNMGtUbVgxXzV2ZHBMa215OWFXVXNTcmR1WENqT1l4NzZMQi1BY1RkVUM5c3o0SnFzR25qeFJZbzFkR0o1T1dsTDV5RzhGOTBnVEYzTU04WV9yVFRyeE93OUlqcnMxTlEtem84ZHlzdTMxRnd3d0hqc0w3LTU1bEhmSTN1Z0lEcExnUEFBQzJSYll4V0stOHhDN05EOHF1ZnEwdTA0UXUyM19nRVFMLURPamdiT3hZVUl3M3g1WlVHeGRGN2dQT0dnTDB4aUdBQS1jQlM0cUxUMGRIZkFHZDJSbTVJR2hDM0xqUWpUdEFTY3BlNjBKSk42aWE4TXQ4aHJlTm9pdFljT28yTks0N3dTNHp4LWM2VWFlSXhLVUxaanhMU0tuYVFkbHN3b2ZPNmNyS2pKc1VrQ2x0ZU5VNlVDbGJLT1B5N2k5bGNQb2NxMlJOMmJDVXNUSGdHT0NwQVdDT0VKSm9QTVVHT2tBeXlVTUhFQkVpUncx"
+    "CBMitANBVV95cUxQTWNZOVNDcHY5RXVtY0cya2F1YUxTS2Z3R3VKY0FjNE1FMEZ6OTQzd3k0c3ZyT2dzUGlOdTVRcmZDbWxNMGtUbVgxXzV2ZHBMa215OWFXVXNTcmR1WENqT1l4NzZMQi1BY1RkVUM5c3o0SnFzR25qeFJZbzFkR0o1T1dsTDV5RzhGOTBnVEYzTU04WV9yVFRyeE93OUlqcnMxTlEtem84ZHlzdTMxRnd3d0hqc0w3LTU1bEhmSTN1Z0lEcExnUEFBQzJSYll4V0stOHhDN05EOHF1ZnEwdTA0UXUyM19nRVFMLURPamdiT3hZVUl3M3g1WlVHeGRGN2dQT0dnTDB4aUdBQS1jQlM0cUxUMGRIZkFHZDJSbTVJR2hDM0xqUWpUdEFTY3BlNjBKSk42aWE4TXQ4aHJlTm9pdFljT28yTks0N3dTNHp4LWM2VWFlSXhLVUxaanhMU0tuYVFkbHN3b2ZPNmNyS2pKc1VrQ2x0ZU5VNlVDbGJLT1B5N2k5bGNQb2NxMlJOMmJDVXNUSGdHT0NwQVdDT0VKSm9QTVVHT2tBeXlVTUhFQkVpUncx",
+    "https://www.sherdog.com/news/news/Nina-Drama-says-Dana-White-helped-get-stalker-put-on-nofly-list-202526"
   ],
   "daily": {
     "d": "2026-08-26",
