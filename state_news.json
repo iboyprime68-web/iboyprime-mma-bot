@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "\"I have Italy on my shoulder\" - Lenny Blasi embraces the honor of representing his country at The Inner Circle 28",
-      "ts": "2026-08-26T14:23:00+00:00"
-    },
-    {
       "t": "Ronda Rousey is back training months after her MMA retirement",
       "ts": "2026-08-26T13:56:30+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Shanghai Fast Facts Ahead of Exciting Aug. 29 Fights",
       "ts": "2026-08-26T17:03:08+00:00"
+    },
+    {
+      "t": "'It just can't happen anymore': Nevada fines UFC 329 stars for celebrations",
+      "ts": "2026-08-26T17:07:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Shara Bullet draws Gracie family star for RAF Moscow debut",
-      "url": "https://www.mmafighting.com/raf-wrestling/506986/shara-bullet-draws-gracie-family-star-for-raf-moscow-debut",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-25T15:15:29+00:00"
-    },
     {
       "title": "Aljamain Sterling has humble reason for why he would ‘absolutely not’ have taken Jean Silva fight at Noche UFC",
       "url": "https://www.mmafighting.com/ufc/507031/aljamain-sterling-has-humble-reason-for-why-he-would-absolutely-not-have-taken-jean-silva-fight-at-noche-ufc",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-26T17:03:08+00:00"
+    },
+    {
+      "title": "'It just can't happen anymore': Nevada fines UFC 329 stars for celebrations",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRFZCUGhzcV8yb0ptcEJvcXdLelFOVTdnMHMwSkdoRW05RF9obFRpSTRSMnhBLXFhb2YzeHFZeUxnaVNLLUpPM0pMZ21JWUpkWmpzTWJqVnVCb1ZDMF9aeEFPc2NPNWh3WnNnc1lwQWhMOVdFZVdfdnBla2ZUYWVhNkl4R18xMG1wXzF5Y1N2VDNYbnpFaklwYnJKYlF5S21MVXhjVnJCcFBobmt3SWZpQUJpV193aTl0NnNvN1R4Y0pRVHEwU1o3OFZB?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-26T17:07:00+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "c47c748b-2fb7-3793-be79-02d6a41cafb5",
     "CBMif0FVX3lxTE5fS2pBQUVhQ1I2LTczdnJmTGZEX2lFcXpVWUxBYWcwYjZRTFpoU1czNmNvTXpWemhONHhCV3pkcE91d3NITTVJQ1BhdzB3RmNIZHhnV0l0UjUzdl9lT1lEeDJKSXR1RFpESFJDeklyVlBDTk1YV0ljRkMtSk5ZVTQ",
     "4b63dfbd-b51d-36b0-a035-8f41934493b6",
     "CBMi4gFBVV95cUxQYXk0X2hIeGJ5dkZJWkI4b0FVN2pZUVNEcFJfMG5VVU9FMzNySW4yaWtTRkxfeWRYUG9OSDAwcFk1MzhNQW10bVBfc0p1Y1l2Zm5GRlRaeXBPMUN2MFZacGFFREZocE1HS09YOWxVQmlJMF9ubkZfZ1pRSWFncnM3YlIxbmF4b0xfeG82LTZMQ1dVQ3NrbDMwbkY5OG1jb2ZDREd4VkJ3bUpLQWhCVDkxS2RuUFM0bmZuSDR4dnpEMG9qdnVCU1pkTGVrSDlza0VnX1BDUTFNQi0xYVJIR183MGpR",
@@ -3312,7 +3311,8 @@
     "CBMickFVX3lxTE9iSE05c042QW1fSHZyRnRyaDR3TU1ONHZZM0w5ZlhCdkp6bjFqb3lwN1Z4MmJqNDU2MXU0WWREb1R6Z2NXcGRPMDdGblJDSGJCcVdrbXVINTlnMG5HX2NOZ3BlZ2xtRk5fY1dQcHQ5Q2RlZw",
     "CBMipAFBVV95cUxOUXBlVkU1cTJiUzgzMVRvX2otVGNnZVVIYUxkRDZ5aXdIRkpuMnVVcklwbWZoZXN3OXJfN2o2VFdobGZXbXczblVEaHlZQWpLa0JVSnJXNGs0TkIzamZDT2pBRjJNald5aFZmT0Z0MUx2ZklBM3RHQ0pxTmhnZHY4TkgtR2xkOGFGTTVETlhlbzZqalJJVFRxcTBvMW5XTE8zaUVyeg",
     "CBMipAFBVV95cUxNd3ZiYzV0ZG9CTk9HTV90V2JnYzJHb2tTSlNmdjJSMjRCQ2FRWDBQQlZ0WHAwUmFrNlRLNERhbFZZOGlGOXV3elpEZEJQQmpNOUVOOVRsRFlrUWRvTURvVDJ4WjBxRWppSnF4TEF4enVUNXYtd2s2b1RlQWNwSy1qSGRaSzd4YUlzQUlyWkVRdTgxMjBwcFNMYTczZzIwVXlMc2ozdg",
-    "CBMiqAFBVV95cUxPUFN3cmFSOEd4SEU3OE9JQ3owMGt3MzRhVF9GdGhqRzVGSnpQZGd2SWRqaXQ4YVd0aHMwb0p1RlpZOFp6cVBudTV3RW42Y3d4MHV0a1lOa2I3QUMyVXUtQk9mVlJNZkliU3pHSUZNbnFQR3VXeng5S3loNlVLYnpwYjEtc3RRUlVITEFRRTNkXzM3Y25BNnBBTEJucEJRcmh6RWh1b1NqUGo"
+    "CBMiqAFBVV95cUxPUFN3cmFSOEd4SEU3OE9JQ3owMGt3MzRhVF9GdGhqRzVGSnpQZGd2SWRqaXQ4YVd0aHMwb0p1RlpZOFp6cVBudTV3RW42Y3d4MHV0a1lOa2I3QUMyVXUtQk9mVlJNZkliU3pHSUZNbnFQR3VXeng5S3loNlVLYnpwYjEtc3RRUlVITEFRRTNkXzM3Y25BNnBBTEJucEJRcmh6RWh1b1NqUGo",
+    "CBMiygFBVV95cUxQRFZCUGhzcV8yb0ptcEJvcXdLelFOVTdnMHMwSkdoRW05RF9obFRpSTRSMnhBLXFhb2YzeHFZeUxnaVNLLUpPM0pMZ21JWUpkWmpzTWJqVnVCb1ZDMF9aeEFPc2NPNWh3WnNnc1lwQWhMOVdFZVdfdnBla2ZUYWVhNkl4R18xMG1wXzF5Y1N2VDNYbnpFaklwYnJKYlF5S21MVXhjVnJCcFBobmt3SWZpQUJpV193aTl0NnNvN1R4Y0pRVHEwU1o3OFZB"
   ],
   "daily": {
     "d": "2026-08-26",
