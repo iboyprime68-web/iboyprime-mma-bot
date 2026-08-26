@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/461735/ufc-abu-dhabi-results-magomed-ankalaev-pounds-out-exhausted-bogdan-guskov-in-main-event-snoozer",
     "https://www.mmamania.com/461742/ufc-belgrade-results-jan-blachowicz-navajo-stirling",
     "https://www.mmamania.com/461836/highlights-gilbert-urbina-plays-spoiler-stuns-serbian-favorite-with-early-61-second-tko-ufc-belgrade",
     "https://www.mmamania.com/461866/highlights-navajo-stirling-ices-jan-blachowicz-with-record-setting-first-round-knockout-ufc-belgrade",
@@ -1096,6 +1095,7 @@
     "https://www.sherdog.com/news/news/Roman-Dolidze-says-hes-much-more-powerful-than-Reinier-de-Ridder-202452",
     "https://www.sherdog.com/news/news/Romero-vs-Lopez-How-to-watch-start-time-PPV-full-fight-card-202459",
     "https://www.sherdog.com/news/news/Ronda-Rousey-Jake-Paul-react-to-UFC-White-House-viewership-numbers-201581",
+    "https://www.sherdog.com/news/news/Ronda-Rousey-Trains-With-Jena-Bishop-Ahead-of-Liz-Carmouche-Rematch-202536",
     "https://www.sherdog.com/news/news/Santiago-Ponzinibbio-returns-against-British-finisher-at-UFC-Abu-Dhabi-201758",
     "https://www.sherdog.com/news/news/Sean-Brady-says-Belal-Muhammad-loss-left-him-randomly-crying-202437",
     "https://www.sherdog.com/news/news/Sean-Clancy-Jr-explains-why-he-waited-until-Round-2-to-finish-Gary-Balletto-Jr-202530",
@@ -1204,14 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Guilherme Uriel Grabs 50-Second Standing Guillotine At DWCS 89 – Highlights",
-      "ts": "2026-08-26T01:54:13+00:00"
-    },
-    {
-      "t": "UFC Sacramento medical suspensions: Both main eventers dealing with possible broken leg after 5-round war",
-      "ts": "2026-08-24T19:48:21+00:00"
-    },
     {
       "t": "DWCS 10 – Week 3 Highlights Video",
       "ts": "2026-08-26T02:01:00+00:00"
@@ -1683,23 +1675,17 @@
     {
       "t": "Andre Lima expects quick UFC return to make difference after first loss",
       "ts": "2026-08-26T05:47:04+00:00"
+    },
+    {
+      "t": "Ronda Rousey Trains With Jena Bishop Ahead of Liz Carmouche Rematch",
+      "ts": "2026-08-26T05:31:41+00:00"
+    },
+    {
+      "t": "Josh Hokit takes aim at Tom Aspinall after English UFC icon Michael Bisping's eye poke remarks",
+      "ts": "2026-08-26T05:52:13+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Colby Covington launches scathing attack on Ian Machado Garry following recent UFC 330 loss",
-      "url": "https://bloodyelbow.com/2026/08/25/colby-covington-launches-scathing-attack-on-ian-machado-garry-following-recent-ufc-330-loss/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-25T16:00:00+00:00"
-    },
-    {
-      "title": "Duel Arena fight card, start time: Mike Perry vs. Dillon Danis",
-      "url": "https://www.mmafighting.com/latest-news/507045/duel-arena-fight-card-start-time-mike-perry-vs-dillon-danis",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-25T19:41:11+00:00"
-    },
     {
       "title": "UFC Fight Night 286 broadcast team set: New commentator joins booth",
       "url": "https://sports.yahoo.com/articles/ufc-fight-night-286-broadcast-161026997.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-26T05:47:04+00:00"
+    },
+    {
+      "title": "Ronda Rousey Trains With Jena Bishop Ahead of Liz Carmouche Rematch",
+      "url": "https://www.sherdog.com/news/news/Ronda-Rousey-Trains-With-Jena-Bishop-Ahead-of-Liz-Carmouche-Rematch-202536",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-26T05:31:41+00:00"
+    },
+    {
+      "title": "Josh Hokit takes aim at Tom Aspinall after English UFC icon Michael Bisping's eye poke remarks",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVnBqQ3VqVEc3Z3BtMnFjZEY3NU5uR0FNTGhQSm9oT2VkcTF1MnFIcmpSWFhSaVlzdkNYX3djcXBBY19zZk5CLVpUZm54ZmsxeFBUUktxRm8wVUM5ZFJlNW1nTUt3ZnVRdGZXenlYbGNPb1RwQS1ZdWMycEgzSlpiekFobmhZRFdaUFBCYXRVTjBlQUVaV1ZBNzIxSlRmWTh3alRoMGdrdXJtTEJSMkpEd2pTVTlMclRGREhoUA?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-26T05:52:13+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi-AFBVV95cUxPNUl2V04zcm1QSEhQZHhVQ2JxZnJ4Rktjb2RZdzVBYVFuNUFPdmRwRDByOGV2ZUVqNEFuYW8xdjA5dDlvZ1dzUDViakZFbGFKSzJadTdHRzIzZlNKbVMwSUc1OGlnNEQtWkpLSXdhUFh0SF9tWXpxc25VZXhGaXE4Tnp1VjJxU0xqMlNjQk9pRThqSmRHRS0wSGhTTEM5V05QZDY3UVh2R043a3UxWXNOeHhaRHVIVkYweEtNUThGNWZ5UFB2eVlqbWwweWxNVXdHajlCbXltVWYycjZTVFZteExuak91aFZYQUh6RHBxUTJ4Z1FsR3dTUA",
-    "CBMiYEFVX3lxTE40Z080RUItcjFBU2FxUXY1UHkwWmREY2RzSzZvZUJRSjB1dVlkbkdyeWlnV3ZJMElld3NWZXFkMGdybm5hUExBZXNVclRFWmYyN2pkbG8zdHd2akItaE5Ncg",
     "CBMi3gFBVV95cUxOUXA4WGtINEFZWXN5clJSelJWS2RwSkNVc1I3dUdNX0JMZnpzZHd5TU1FWHNiNzZueDRtSElQdVp2NzRYR3lsWFNXZkNqNnZudFAzX1lBc0JScmlMYUZ1RXdoNlpLS09SaTFVRnh0blF1ekFwS0g0WjJaVlNQV25BQ09QaElfMVB0bnRKd0g2Y3dUczk1WVFaRVVXNC1mTGppWGhJSWV4MXpsbUxSeWlyVW16S1NFWm8xYVZ0Z1d5ODFtNTRxOW9ZWUlkVnFhYlR5YVQ4ODdCdldiMy1Gdnc",
     "CBMi0gFBVV95cUxQZFdRc0hXck1tX2hCc0xDZ3NnclM3UFVGbGhvb3pYd1VMdUJnWlA1N0F6TW92bjJoWThTdjlETWlZRF93cV9BSjFYbUZ0bE5QWVVYVU9tblQwMHZBUWhlOFlNTXNYUGgtdzFGMDZZbGNZaE8xYnNUaU9hOEJBZEJEZ2NaSXB3ZHZOeWVWWS1lLUVSM1JaYmpfdzBGeGJYR0dnak1jckFBZ2Y1b3ZnMEs2U1pkS0NWQXpvLUdkN0J1SlNkTWp5TVpEMXpVaDFoM0staVE",
     "CBMirAFBVV95cUxPOVdPTk9Jel9MZ0JTWEhiX0o0U2g2ZDBYcEduaFlHb1BJbzV6cE1kcGxTbnZWUHlYYWg3dHNENVpFQktXYkw0VVNXLVZ5d1Y0T1hzd3paSHB1S0FPZlltSGYtYWkxc21kLWhzcVRkUFNGazBYdnVvejdoV2R5SFdVdEREbWVsR2ZBVFpLNk80UWdmY1p1Q2FpSVFOQ0RYdWczR0NVOHlseHVKTGVi",
@@ -3312,7 +3310,9 @@
     "74f52cbf-b49f-3713-a68e-504e804d3ff4",
     "CBMimwFBVV95cUxObVhMNW1GMnNieFBXZW03MkVraXZhczBEVmZLQVFmZjNteWNadklDMUlQSUJuVnJsQ3pBYUhtMlBPOHpYdUVBYnB5X2hEUUhWcnotc2RkSWJxWVE4VjBWYXZxVk80SzB1TWliZlJ5cU1pcGp0VjF0MEVSQmQ4dnF4Z0ZDVFk4bkxQcjF5OVo4YlpzWlBVRnZZR1dpUQ",
     "CBMiiwFBVV95cUxNNGhHWF9LQldpM3BCd2g5TVl1QVhTVWhjUzdLMVk2Z0RuZ2stQTZpYXJ0WlRlNHBOZGdGeVByTzZSb2pQMzdUa1dZRzZwcjFZQy0tYURBM3dxcjZhU24xYzk3VVJVUlNPS281V1RMUERGVG1jc09WTjc0SjVpOXRiNS03eU5qdnd6M0t3",
-    "CBMiwgFBVV95cUxPal9PdTBYRElSQTgzRmZoV1k1aU0tTFU1Nkc0WEZxRUNRdVd5TWNnVXd6c0N5T0lkeHhXRTB3UFNrWXZIU1EwSUd2N1FZQlA1aDNFVUpGS3E0Ml9XNk90RjVRX0JqWWZOWDRlVG9DTWhQenRuc0FRcjB4azVKa3hiSG8wUVhmalJVb0M5aHFLQlJpamhOZGlNNWwyMEdNQnR1ZTNMODFIZEQwNHZPWkdxZE5DUENNalNTUWVHN2pBVlpJdw"
+    "CBMiwgFBVV95cUxPal9PdTBYRElSQTgzRmZoV1k1aU0tTFU1Nkc0WEZxRUNRdVd5TWNnVXd6c0N5T0lkeHhXRTB3UFNrWXZIU1EwSUd2N1FZQlA1aDNFVUpGS3E0Ml9XNk90RjVRX0JqWWZOWDRlVG9DTWhQenRuc0FRcjB4azVKa3hiSG8wUVhmalJVb0M5aHFLQlJpamhOZGlNNWwyMEdNQnR1ZTNMODFIZEQwNHZPWkdxZE5DUENNalNTUWVHN2pBVlpJdw",
+    "https://www.sherdog.com/news/news/Ronda-Rousey-Trains-With-Jena-Bishop-Ahead-of-Liz-Carmouche-Rematch-202536",
+    "CBMivAFBVV95cUxNVnBqQ3VqVEc3Z3BtMnFjZEY3NU5uR0FNTGhQSm9oT2VkcTF1MnFIcmpSWFhSaVlzdkNYX3djcXBBY19zZk5CLVpUZm54ZmsxeFBUUktxRm8wVUM5ZFJlNW1nTUt3ZnVRdGZXenlYbGNPb1RwQS1ZdWMycEgzSlpiekFobmhZRFdaUFBCYXRVTjBlQUVaV1ZBNzIxSlRmWTh3alRoMGdrdXJtTEJSMkpEd2pTVTlMclRGREhoUA"
   ],
   "daily": {
     "d": "2026-08-26",
