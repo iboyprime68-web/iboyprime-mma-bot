@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Lea Salonga on unfollowing BTS's RM and J-Hope after Chris Brown backlash: 'I was waking up sad'",
-      "ts": "2026-08-26T04:47:13+00:00"
-    },
-    {
       "t": "Highlights: Fire at Wings (8/25) Stream of WNBA",
       "ts": "2026-08-26T04:12:54+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Kai Asakura Promises New Knockout Combination For Aoriqileng At UFC Shanghai",
       "ts": "2026-08-26T09:19:25+00:00"
+    },
+    {
+      "t": "Makhachev vs. Machado Garry: What's On the Line? Stream of MMA",
+      "ts": "2026-08-26T08:47:42+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "70-Year-Old Sugar Ray Leonard Fire Hands At Jon Jones - Here’s How His Prime Speed Stacks Up Today",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUjRYbDFKVEZid0pTX0dJQ2FDaVJ6bTNnMlZ5N19JNENQdWNCWTUyS0FfdmpRSzdyaFh4a2pJVVFUY1dadDE4bFd3MEdZUTdQNnNzRXh3RGJ5Zml0bmVRaDZJYl9wSzJSbVBwX3NpME51ZnotMHoyak5qVWVELWdGZ2RJR3U3ZnVSdnpJUFhLTUZQLTdCcUZYY294ZHpTSVlDVlhyUTY2LWdua3ppLWdhUWdKXzBrMEJRclZud0RmX0tSWnZkeWJJdmMzWjhPQ2RIbmxJTENMQUEtUQ?oc=5",
-      "source": "boxingnewsandviews.com",
-      "cat": "ufc",
-      "ts": "2026-08-26T06:32:48+00:00"
-    },
     {
       "title": "\"I knew it then\" - Alex Apodaca details exact moment that she had Bella Mir beat at DWCS 89",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSVJTNEUtUTZPZ1JkTUZTZU1xTmdMXy0yei14M2xJaU1UVWpKbThQR0ZKaU9xQ3ltWTE0U2lBT0ZRSFZ6TW9kb2hFSWZIUTJabVFkd3ZKVVhBRzBJM3ZtTkthTUNYRmhfYzdXZ0lOendRWHNGV0VLNVZReXFmNVRLbDFnY1RjR3AtYmtCbjA5VnZiekdLeFBDQnVpSk4tN1JiSjdhYnNTUHY?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-26T09:19:25+00:00"
+    },
+    {
+      "title": "Makhachev vs. Machado Garry: What's On the Line? Stream of MMA",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ05WcVpSZm9jZ1hON1pMamxtMGpRS296cWpHMjZNY1A5WVpoLUF0aFpFaVotc0NEYTRGM2ZJamFGejhvX1QwRjlrX0VMTm5DVTQxWVpjWDZPR0tVWS15ekRyWTFzZjZVb3hBbDJqQ2l0MGRuUWhEQ1R3WGZWQlZLMzhlWlEtUzIyVDhhTDFlMA?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-26T08:47:42+00:00"
     }
   ],
   "digest_last": "2026-08-25 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi_wFBVV95cUxORGhoa0VnYWlYZDBuQ3NiMTNxRnQ4S2RrbkpUaUFacnlpVUJhWUFmdlRmVEl3YndLLVE5eWx2VFdRTDBDdVo4czUtdzA2Y1ZXZDdmUmZGQW1KeHdRSWxJa215bDVkUlM5X2xSRUE3cFdzOXBtaExFTXVrelBuVHNtQzIxaUVBREtEc3FnMVRLTmRicEFYU2tJaDZTWGYyOU1xbnQ3RFNqY1F4Q2U3YW5wOXJPYXg2bEd3WXhicG9TMFIzV0U5cFRTbGFXZ2FUNlMtNG8wUlhhWEI1azIyei05U3JCU0EyVXV5bTktXzI4aDZkSUs3UjVmQWprLVg4QTQ",
     "CBMidEFVX3lxTE5jemUwbnJxX3FWOXIyVXVtczZXM0VLVUM2MHNnZkNRTVRCV2xZQWJHZW10cDFCZjlIQVlaNFVzeXJ0V0hoUDdVNTZqeXFPUHg3cVlZWjNNTEdzVVE5N3FNcEFXZmduMS1HaHpDakVJTFdfYjdW",
     "CBMixwFBVV95cUxPZXJjTE1oTzFoMFloSnhJVWdmaHRTemRheWVrVE1DTEpjZ3hsZTVuOUVOV0tHUDlDa1RJN3pZSlROZ3JyUDNYMFUza0RzbDgtbjd5LTVLSHpzZHlVWk9XR3JoSDZjSFJNcUJSMW5USXVNUVNLOXNzaXhRVjd0UGlvajJhRmh1WUxDTlQ0eXJmbW1fbzFSTWMxQ2tDeG9CLTlEUWZKMGdGbUx2VDZ4N1VlNEsyMzQ1ekVKUzRseVd4bWd1WVJKMldv",
     "d97489b7-265d-33a2-ab62-0c86d1d6c2c4",
@@ -3312,7 +3311,8 @@
     "CBMiigFBVV95cUxNSjNramotZmpfZjhPaVVCdFZ2UndqYlVtLU01bUh6MUhuME9kQ1VRcDVVQjFIbXBlQUdwd290cGxiaGtFWDBHSC1vZHB4TkQ5UUdnd2hLbU8zRzY4anNScmhXMnIzN0ZFUndXTkZCWE5VZ2ViOE96eDJjd09pay1HS3BoYWZUYzFZNWc",
     "CBMi7gFBVV95cUxNWFY0TEdrSGFnQ1JURk9KSVotZHd4Nm16RGNmNTNTN0wwb24yZXk4aWUzNEN3Z0tjeUFNaXFZOHdLbkJrQUZnVGZnUWNSVk41REZDaGdFMlVFejJKbjJlejgzcVlfLWs1cE1KWnU3NERlYUhDeVF2LXRGZjNIdUoyQzNvQmZSaE5WOFJEbDgyMW9zLWY1amZnQTJIalk3TmFpVThEOU53d3BOU0d2el8zaHZQUFZKd1FyTk96WDJQT1lpVDlvTzFqODJ4VnJyb1A0R1BLalJndmtRcFVaaFVxNi11RWJrMFNsYXBlaS1B",
     "CBMiR0FVX3lxTE5xSTdqekRuUXJHS205R05YRGZUWXZZVEwwcUxyVjNHVjB4TnMtbkl2Vy1NUmoycU9rT25PcFZQQ1NXMUw0ODVN",
-    "CBMijAFBVV95cUxNdl91Sl83bGJTNkFFanFqMmZ3WG9wcVRjakVLcnU3N1ZlbWdkbWxaTzdZNWkzRG8yOGNUNXJWOUVoU2NUWm5iU3JVbEdqdGpDWXJUdERSTnQtUENNZVJnc1hfUWltS0oxZVFxdnBWYk12QmtCWkhmb3U5b3I2aTJVc1d0cl9mYTY4dk5tNA"
+    "CBMijAFBVV95cUxNdl91Sl83bGJTNkFFanFqMmZ3WG9wcVRjakVLcnU3N1ZlbWdkbWxaTzdZNWkzRG8yOGNUNXJWOUVoU2NUWm5iU3JVbEdqdGpDWXJUdERSTnQtUENNZVJnc1hfUWltS0oxZVFxdnBWYk12QmtCWkhmb3U5b3I2aTJVc1d0cl9mYTY4dk5tNA",
+    "CBMijwFBVV95cUxPZ05WcVpSZm9jZ1hON1pMamxtMGpRS296cWpHMjZNY1A5WVpoLUF0aFpFaVotc0NEYTRGM2ZJamFGejhvX1QwRjlrX0VMTm5DVTQxWVpjWDZPR0tVWS15ekRyWTFzZjZVb3hBbDJqQ2l0MGRuUWhEQ1R3WGZWQlZLMzhlWlEtUzIyVDhhTDFlMA"
   ],
   "daily": {
     "d": "2026-08-26",
