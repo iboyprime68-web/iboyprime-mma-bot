@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "NSAC doubles down on punishment for UFC 329 fighters, fines Paddy Pimblett and two other big names",
-      "ts": "2026-08-26T18:29:06+00:00"
-    },
-    {
       "t": "NSAC Fines Pimblett After UFC 329 Cage Exit",
       "ts": "2026-08-26T18:30:16+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White Makes Reporter Go Viral, Drops Surprising Admission Following Bella Mir's DWCS Loss",
       "ts": "2026-08-27T04:36:15+00:00"
+    },
+    {
+      "t": "Aspinall sends clear message to UFC world: ‘I’m not leaving – and I’m coming back’",
+      "ts": "2026-08-27T04:41:09+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC’s Kevin Holland denies being Dana White’s ‘$11 million man’ — then kinda admits it",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcGtkRlFKZF9Tb05xVFdMd29lNUw3TWNZTXZRa0Y0Z1FNOGdJa1c2bXlhZ212VWFRWEdub3JRa09qR0lTZW9xWEY4OWY3bUNZY3BDaUdRcHBTenZVbXBjcFNRWWtFSlpZeF96Ni1xS21GOE5BWDBmLW9OSFJBTE1Lc1hpbk5fR2xYZnp2R2RYTFhTWTVnNXRkQTZ1RlJHTVZOemk4MjdyT1g5N093T0hzWkxyOHYyVDBvZGNHVUxfQmE?oc=5",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-26T23:30:24+00:00"
-    },
     {
       "title": "Real Madrid vs. Real Sociedad: La Liga Match Highlights (8/25) - Scoreline Stream of Soccer",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSXhqTmNmc1JrcVlHaFZMMERvN1dORTdiN1hFT19KZU1ma2VXQmNHaW42MnJtQ2ZJUGRxR3hoVTFWaUIwLWxwUzFvV3FYU0hZWk82bzVXVi1lRmNKWkRMWHk2YklzZm53bHV3VnJVbzlUbGZwUTFLNGV2amNSaVpaTVlzVGp0bFNpbTQyMmljTkNEYUR2TUk0Q0FHS3B0MXBkdGJkSTFiRDRyQmRXS3BVWVREbFkwbERJRmlYN05jQnB6LTNwVHRxY0VfUFRrdw?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMANews.com",
       "cat": "ufc",
       "ts": "2026-08-27T04:36:15+00:00"
+    },
+    {
+      "title": "Aspinall sends clear message to UFC world: ‘I’m not leaving – and I’m coming back’",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOFhKS1pUUzVFckJGQ01EMVRCR1Z6OEdESlJZS3o3NGE0WFZaQ2NINjl0dDF2WEtrUEF6ZUx5MnZTYjRGQlFuejhONmRxOEhXRTJvVXZaeUx4bVZ0bnR0eFNEQmN4Mmpsa3JtOEdkZV9EcC05VmFuQWFGQ0w0ck9OMExwcElZUEY4ck02NlNabE1IaVFuRE5JTWJVem1WY0podnFPSFJfMA?oc=5",
+      "source": "Lente Desportiva",
+      "cat": "ufc",
+      "ts": "2026-08-27T04:41:09+00:00"
     }
   ],
   "digest_last": "2026-08-26 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMilwFBVV95cUxNNDl3S0x0eXJtUTdFYUFVSWNoLWpoLXdHMTFNNTlxUzBuZ1A5SjBoZ1E3RFA5UnRPRkpIOHdxSURVWGJ1eElsenRTcFNubnllNFltaGt6S0x3Vnl0dGZkalduU0hQeVNFRVFVTDJmdTJZdVVrLUQ1eHAwUkp0c092Xy1vcjh1bk8zYmtyOVc0UWVmS250TGFR",
     "CBMinAFBVV95cUxOWk9DT1ZOdTFiNFQ1aDRhTTF5aWpvXzZjSi1tYm5RYUhKUmp6NnhUT25USTVDcjFQcjZuR2JBR3g3SnFIMFI1b3lxOTk5N08wQnpvLVNHS1hTbUUxNVgwSC05UmJfT2xJd3V6YVVGdmtsdlBGamIxSTJrWm9qbnRVT1NXamxmb1dJNEFCUXJVUmJ0UnVBR09VU3E5eXc",
     "CBMipgFBVV95cUxQUDFHV3RXTmF2eXlOelhfcElfRW02RGtEWnR1TUFfb3Fac015WGhNWVZOY2VlU0E5a1pGTkE0cVo4QVpNOXN0eTloNXN4YzJuTTloLVVHUkVSaXo4MW1zM1NOd3VVOWpHUGRSNWJyTkVIV1BDcWZlRkFhaTBFWVUteWF1M25idGMxdTZXYk1teGdxLWRqajNTcm5EUmdmd2FaQ1pVMWJB",
     "CBMiekFVX3lxTFBYczlwNE92UmlpMWVGc01vR1gybGVpOURXYjRQbTBwMEtwV3REcGg1QjZINzc3WlI0M0NmbWdQZDRCak5xM2tXek9YR3gyODNCZ25YQy1YeFgyaXNUN1p5c3RuRnltNEdFWmpTbEVhd2RCaVJFb2h4ZkZn",
@@ -3312,11 +3311,12 @@
     "https://www.sherdog.com/news/news/Merab-Dvalishvili-clears-air-on-Islam-Makhachev-Russian-flag-controversy-202552",
     "https://www.sherdog.com/news/news/UFCs-newest-fighter-had-a-730-am-work-call-following-historic-upset-202554",
     "CBMiT0FVX3lxTE5wUGZXbVpSc3F6V0t6SXVzRTlfOHdFTURVaXRHVVBnWjRoX3ZhNWdzaHp5cDB0cEg3QkFxZ0RCRHdIT3ZmaDRrVS1oS2Y3RW8",
-    "CBMikgFBVV95cUxPMHhyMEVVeEJyaWs5N1lXOEV3VVU5OHBBV2VRUmpPUHplSzlSLUlwOTB0UjQtQkJEQ3QzSWFyZm54TXdabXUwTDFEcURXZmNlaWRHLU4yOFhVeTR5VkV5T2hYMmNmdmhnRHQ4eEswc3NyakpIUkJFWE9EUElTWk1HazduSGpoa0JGS3JjX0FBcmJGUQ"
+    "CBMikgFBVV95cUxPMHhyMEVVeEJyaWs5N1lXOEV3VVU5OHBBV2VRUmpPUHplSzlSLUlwOTB0UjQtQkJEQ3QzSWFyZm54TXdabXUwTDFEcURXZmNlaWRHLU4yOFhVeTR5VkV5T2hYMmNmdmhnRHQ4eEswc3NyakpIUkJFWE9EUElTWk1HazduSGpoa0JGS3JjX0FBcmJGUQ",
+    "CBMipwFBVV95cUxOOFhKS1pUUzVFckJGQ01EMVRCR1Z6OEdESlJZS3o3NGE0WFZaQ2NINjl0dDF2WEtrUEF6ZUx5MnZTYjRGQlFuejhONmRxOEhXRTJvVXZaeUx4bVZ0bnR0eFNEQmN4Mmpsa3JtOEdkZV9EcC05VmFuQWFGQ0w0ck9OMExwcElZUEY4ck02NlNabE1IaVFuRE5JTWJVem1WY0podnFPSFJfMA"
   ],
   "daily": {
     "d": "2026-08-27",
-    "ai": 44,
+    "ai": 45,
     "staged": 1
   },
   "staged_hist": [
