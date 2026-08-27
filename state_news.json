@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Ronda Rousey trains with Jena Bishop ahead of Liz Carmouche rematch",
-      "ts": "2026-08-26T05:31:41+00:00"
-    },
-    {
       "t": "Dana White claims unnamed DWCS star with zero UFC title fights has earned $11 million",
       "ts": "2026-08-26T11:21:41+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Bella Mir Reveals UFC Status And Surprising Mindset Following DWCS Loss",
       "ts": "2026-08-27T16:43:04+00:00"
+    },
+    {
+      "t": "\"This is It? Not Yet\": Rafael dos Anjos Details Brutal Three-Surgery Ordeal Since Last UFC Fight",
+      "ts": "2026-08-27T16:47:56+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Sean Strickland makes controversial remark after fan brings up Bella Mir's mother possibly being a coach",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYlIxbEdudTNzeW56akFXSWozN016ZVduS3RwX0p4akJSeVVFZ2V1QWpZMnJESUZwSlNtNTNDVHpVWTlWalFyNXlmLUVzQVBhNlRYOG9RS2N2ODFjMGVZMHpBZURyQWhQdjB1SkR2RmxJYUJkTE4zT1pIWWFWbWxreUhCZ243RzVCZWpOUVVpQ0FiQlBiTFVIUWRfaTVBYk8tQlRhV0hvemJlZ3JCS2l2OUVBZGdwakZseU4wdk8xUWdxQQ?oc=5",
-      "source": "Sportskeeda",
-      "cat": "ufc",
-      "ts": "2026-08-27T04:42:00+00:00"
-    },
     {
       "title": "Tom Aspinall releases statement on claims of his leaving the UFC",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeG1MMGd5bUJzd0ZHZ1hfWHdmM2xiSWlqRWRMeUdBeEI5ZE4tdUk3SW5nc04xOVFyRms3LTFJbTdHT2FrZEtDQ1U2X1VfakwxNHVidHg3Ukh1SzFQRHE5OFFRT2RwNjlCZk5oaTVuendjRUxBQktfcGxteG85UlVpbGljZk1tbzJHWWlTdW1IOTBscFFKSXc?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMANews.com",
       "cat": "ufc",
       "ts": "2026-08-27T16:43:04+00:00"
+    },
+    {
+      "title": "\"This is It? Not Yet\": Rafael dos Anjos Details Brutal Three-Surgery Ordeal Since Last UFC Fight",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUC04MW9lNm9aZG1DR0xKM2hrcTJ5RVF1LWgwQXBrR0tkbk1HWTBoX05weFltakM1cmNvY3BiZ0R2dkVsbVdxcEpwRGpCNFEtQ0JVTDZsSHJRTGlramlRZmJkU21RTmVOS2xRYVFHQWNTX1FiRjZNQjVhSzQ3TDVPVDVKMWJaUmZobGk4LVo3ejRBaFhjU3JNQllpYVRqWE5ka3J3Zm5IRG5WMlZjRjhKWkRCaDlSMHVDV3J3?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-27T16:47:56+00:00"
     }
   ],
   "digest_last": "2026-08-26 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "dca2d8fa-3b6a-3a63-adb3-0f4813472b8a",
     "f198ffb7-9a50-35a0-9966-7a2eaec0850b",
     "64851e39-b087-3e30-b88e-6a13a544abf5",
     "CBMidEFVX3lxTE1YNVJ5VjNmMFFyLXctNnhLdkstTkE3S3NFcDNPWDE4VUpfd0J0XzhTT1RlMkdJMkFWMHpjaFdWalh3MTExek1UOHNYVFJLVm9Rd1dDVklBUXNOZVNDODJZRmgwazM3SnNYRVN6bzc3NThFZnJO",
@@ -3312,7 +3311,8 @@
     "CBMivgFBVV95cUxPNVZ0MEpqV3RLY2RVbzktUEFrSVIwdFJWZWJYWndOZjFSWTlGdVREWlMzd3lFMzExY1c0dFVYVlhPdzdSOTFvOUNXMUhqZHBNckZTc3lzWnNqQlZjX1ZwRGJxc0pWRVl0UU5Bck9jSjRlN0tmYnFQeFVsb1RiT05jVWNuTi1sMzBSeEdRcndxQ3VaZ2YtTHdXUHhPZ0tpaVVSLTBIR1BtbHNtX3dDeUNYNGtaNmtxdWR5WXB6RENn",
     "CBMib0FVX3lxTE5PVDZDc1MyeGU1RC00c1Bld3RYa1hDMlVQSUFFeWJfVUV2NTN3Q3I3LUVWVm81TUllM0NUY3dYTTRibVhBQ3RJRjVtU3dCdmdTV0V6OTdnMGJkTUoyVnJ2dXFaZVpoeEVvZEtveGVxYw",
     "CBMiiAFBVV95cUxNLTVRVzI3aWJsdGpGOU0wV0dKN2hFeVFEZ1cyMlUtWFFucEZ2ZkVXSDFPSzVMV1VLZGdjUHFOV0wtX0QxSWlNMExxOXlCTl9aR3k4NDU2c3Z2Rm1sLVlfc0lmNDlIMmNfR0MtZ1RXeUhNSFlmUkl0bXpNZUxvbGJCeU1DTjN0RUNV",
-    "CBMipgFBVV95cUxNVGtwbi1ncExlX1JRaVVpNXVzcl9feE1VNXpPSXVjeGxHUFo4VnpjNm5IRU1RMmg3NnFYNmRjQkIyMWJTSkg0Z3NOWGFGYVlYaWVNUlhxc1dlUVFucXBHMUNBT0tTMGctTnpSTFF3SkRVODkwQWxhNmhkenhMck5MaENpeDVWTUlSODdOT1N0UlVzNmNvRjJnZnd3bkFfcmVFaDF1ZkN3"
+    "CBMipgFBVV95cUxNVGtwbi1ncExlX1JRaVVpNXVzcl9feE1VNXpPSXVjeGxHUFo4VnpjNm5IRU1RMmg3NnFYNmRjQkIyMWJTSkg0Z3NOWGFGYVlYaWVNUlhxc1dlUVFucXBHMUNBT0tTMGctTnpSTFF3SkRVODkwQWxhNmhkenhMck5MaENpeDVWTUlSODdOT1N0UlVzNmNvRjJnZnd3bkFfcmVFaDF1ZkN3",
+    "CBMiuwFBVV95cUxOUC04MW9lNm9aZG1DR0xKM2hrcTJ5RVF1LWgwQXBrR0tkbk1HWTBoX05weFltakM1cmNvY3BiZ0R2dkVsbVdxcEpwRGpCNFEtQ0JVTDZsSHJRTGlramlRZmJkU21RTmVOS2xRYVFHQWNTX1FiRjZNQjVhSzQ3TDVPVDVKMWJaUmZobGk4LVo3ejRBaFhjU3JNQllpYVRqWE5ka3J3Zm5IRG5WMlZjRjhKWkRCaDlSMHVDV3J3"
   ],
   "daily": {
     "d": "2026-08-27",
