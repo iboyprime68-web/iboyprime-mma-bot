@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White Used His \"Counter Terrorism\" Connection After Crazy Stalker Harassed Nina Drama",
-      "ts": "2026-08-26T18:23:25+00:00"
-    },
-    {
       "t": "NSAC doubles down on punishment for UFC 329 fighters, fines Paddy Pimblett and two other big names",
       "ts": "2026-08-26T18:29:06+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "John Allan",
       "ts": "2026-08-27T03:48:12+00:00"
+    },
+    {
+      "t": "Dana White Makes Reporter Go Viral, Drops Surprising Admission Following Bella Mir's DWCS Loss",
+      "ts": "2026-08-27T04:36:15+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Phoenix Suns Veterans Take Part in Unconventional Team Workout",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTjlkZl9TN2NGUDBpTmVKaTFCbW5zdWdlWER2U2RiQXR6bFMtLXdkSHlBSV8wb1NIejJVVU9FVHdsUTJPSGgwTnBJdDgtajZIdTZyYnJYUVBjM0ZZaWtMa2FHeXZvc2JQWFFUdTZxZTFLNFRVeVpmUHFXeEk1c1p0Q1BsV3dVZ3dSVmRXWFNfLThFajk3X0R1Xzg5QktGbmdSYm1EUDY2S0Q?oc=5",
-      "source": "roundtable.io",
-      "cat": "ufc",
-      "ts": "2026-08-26T23:32:02+00:00"
-    },
     {
       "title": "UFC’s Kevin Holland denies being Dana White’s ‘$11 million man’ — then kinda admits it",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcGtkRlFKZF9Tb05xVFdMd29lNUw3TWNZTXZRa0Y0Z1FNOGdJa1c2bXlhZ212VWFRWEdub3JRa09qR0lTZW9xWEY4OWY3bUNZY3BDaUdRcHBTenZVbXBjcFNRWWtFSlpZeF96Ni1xS21GOE5BWDBmLW9OSFJBTE1Lc1hpbk5fR2xYZnp2R2RYTFhTWTVnNXRkQTZ1RlJHTVZOemk4MjdyT1g5N093T0hzWkxyOHYyVDBvZGNHVUxfQmE?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-27T03:48:12+00:00"
+    },
+    {
+      "title": "Dana White Makes Reporter Go Viral, Drops Surprising Admission Following Bella Mir's DWCS Loss",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMHhyMEVVeEJyaWs5N1lXOEV3VVU5OHBBV2VRUmpPUHplSzlSLUlwOTB0UjQtQkJEQ3QzSWFyZm54TXdabXUwTDFEcURXZmNlaWRHLU4yOFhVeTR5VkV5T2hYMmNmdmhnRHQ4eEswc3NyakpIUkJFWE9EUElTWk1HazduSGpoa0JGS3JjX0FBcmJGUQ?oc=5",
+      "source": "MMANews.com",
+      "cat": "ufc",
+      "ts": "2026-08-27T04:36:15+00:00"
     }
   ],
   "digest_last": "2026-08-26 21:30",
@@ -2113,7 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMiqgFBVV95cUxQdFBkNzA3Q0hidXZva3ZCdzBrelFTa2xaUE9INGpBaVZva0ZXNGtPbGZsYXh3SlNGRzV0UUVTQmFPX2RLVFk1ck1TZnRBQTE1ZWJRQ1pObWRKQllZaHhNemk1ZE9MTWhGMkp4VW1CVWRUNzlFN2RlUExqeFptRUZDcTYzUFNrRU1pMDRqNkZHWEZRUkNVbTdoZ3puMTA2UnJTcktRYlFqU3djUQ",
     "CBMilwFBVV95cUxNNDl3S0x0eXJtUTdFYUFVSWNoLWpoLXdHMTFNNTlxUzBuZ1A5SjBoZ1E3RFA5UnRPRkpIOHdxSURVWGJ1eElsenRTcFNubnllNFltaGt6S0x3Vnl0dGZkalduU0hQeVNFRVFVTDJmdTJZdVVrLUQ1eHAwUkp0c092Xy1vcjh1bk8zYmtyOVc0UWVmS250TGFR",
     "CBMinAFBVV95cUxOWk9DT1ZOdTFiNFQ1aDRhTTF5aWpvXzZjSi1tYm5RYUhKUmp6NnhUT25USTVDcjFQcjZuR2JBR3g3SnFIMFI1b3lxOTk5N08wQnpvLVNHS1hTbUUxNVgwSC05UmJfT2xJd3V6YVVGdmtsdlBGamIxSTJrWm9qbnRVT1NXamxmb1dJNEFCUXJVUmJ0UnVBR09VU3E5eXc",
     "CBMipgFBVV95cUxQUDFHV3RXTmF2eXlOelhfcElfRW02RGtEWnR1TUFfb3Fac015WGhNWVZOY2VlU0E5a1pGTkE0cVo4QVpNOXN0eTloNXN4YzJuTTloLVVHUkVSaXo4MW1zM1NOd3VVOWpHUGRSNWJyTkVIV1BDcWZlRkFhaTBFWVUteWF1M25idGMxdTZXYk1teGdxLWRqajNTcm5EUmdmd2FaQ1pVMWJB",
@@ -3312,11 +3311,12 @@
     "https://www.sherdog.com/news/news/Rafael-dos-Anjos-nearly-retired-after-three-surgeries-Man-this-is-it-202550",
     "https://www.sherdog.com/news/news/Merab-Dvalishvili-clears-air-on-Islam-Makhachev-Russian-flag-controversy-202552",
     "https://www.sherdog.com/news/news/UFCs-newest-fighter-had-a-730-am-work-call-following-historic-upset-202554",
-    "CBMiT0FVX3lxTE5wUGZXbVpSc3F6V0t6SXVzRTlfOHdFTURVaXRHVVBnWjRoX3ZhNWdzaHp5cDB0cEg3QkFxZ0RCRHdIT3ZmaDRrVS1oS2Y3RW8"
+    "CBMiT0FVX3lxTE5wUGZXbVpSc3F6V0t6SXVzRTlfOHdFTURVaXRHVVBnWjRoX3ZhNWdzaHp5cDB0cEg3QkFxZ0RCRHdIT3ZmaDRrVS1oS2Y3RW8",
+    "CBMikgFBVV95cUxPMHhyMEVVeEJyaWs5N1lXOEV3VVU5OHBBV2VRUmpPUHplSzlSLUlwOTB0UjQtQkJEQ3QzSWFyZm54TXdabXUwTDFEcURXZmNlaWRHLU4yOFhVeTR5VkV5T2hYMmNmdmhnRHQ4eEswc3NyakpIUkJFWE9EUElTWk1HazduSGpoa0JGS3JjX0FBcmJGUQ"
   ],
   "daily": {
     "d": "2026-08-27",
-    "ai": 43,
+    "ai": 44,
     "staged": 1
   },
   "staged_hist": [
