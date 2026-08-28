@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "MMA Junkie Radio #3698: Guests Aspen Ladd, Ian Heinisch, UFC Shanghai preview",
-      "ts": "2026-08-27T22:01:08+00:00"
-    },
-    {
       "t": "Alex Apodaca sees Bella Mir criticism as unfair, shrugs off Jennifer Mir comments",
       "ts": "2026-08-27T22:41:31+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "WWE Live-Action Microdrama Wraps Filming, Potentially Freeing Up Stars For Returns",
       "ts": "2026-08-28T14:18:18+00:00"
+    },
+    {
+      "t": "Spaten Fight Night 3 weigh-in results: Glover Teixeira 10 pounds heavier than Shogun Rua",
+      "ts": "2026-08-28T16:46:15+00:00"
     }
   ],
   "digest_items": [
@@ -1706,15 +1706,21 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-28T14:18:18+00:00"
+    },
+    {
+      "title": "Spaten Fight Night 3 weigh-in results: Glover Teixeira 10 pounds heavier than Shogun Rua",
+      "url": "https://www.mmafighting.com/boxing/507487/spaten-fight-night-3-weigh-in-results-glover-teixeira-10-pounds-heavier-than-shogun-rua",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-28T16:46:15+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
   "hour": [
     "2026-08-28T23",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMif0FVX3lxTE1QX1NKOG5GaXJ1UXBUUzFPclp1bEM0S2VmVDRVY0Q1SWtGVWItR1pqVTJBT3VLRFBBNEw2cHNZUXRQYlhCaU9jbFN0WWlGNk9TWmpyb2NhcTBjN0xGUnBGTjFjSTA3SHVGN3Q3UDU1U095bE9oMFNnWkx3N1JUVHM",
     "CBMiYEFVX3lxTE9BeFlqRElRM2dlZFpRZkUwWVBjRU4ydERmOWlZWlp0MGYzRjhMYk5CbVJIcVdiNzVlTVZzQUdaTFdSZGJaSUtya0l5Q245WTVkREJ6R01jV3luY1FFSGd5Zw",
     "CBMiW0FVX3lxTE14SVdGS2RldUFYTXhjVzdZS3BPM25JbnlONFBBR1M5X0p1Z3ZZZkdvTGE3SkpfazNQcm1lZ0tVSkZmT3hlMjFUbzdDNU5SMnAtbVZfSWwtOWZNdkE",
     "CBMihwFBVV95cUxORjVqdXBiTlB4aHQzQU4ydHlYNFpGNkdWWHBkdzRpUGJJeVlHZG04OVpKS1N3MkZ3SFpZdjlic1czWEdOd1M2dzc5bjZrell5T2NBY3I5Mm0tbGJwRDZ6Ni1jTEwyQ3N6Y1FJdGJrdXJ5QkFrOFdZdHpoOHNOaW1yWGtmSnJjNE0",
@@ -2913,7 +2919,8 @@
     "https://www.mmamania.com/467403/mania-mailbag-would-you-rather-be-din-thomas-or-dustin-poirier-right-now",
     "https://bloodyelbow.com/?p=329307",
     "https://www.mmafighting.com/?p=507317",
-    "47c1191f-e2c2-3ca9-a259-411fa460457d"
+    "47c1191f-e2c2-3ca9-a259-411fa460457d",
+    "https://www.mmafighting.com/?p=507487"
   ],
   "daily": {
     "d": "2026-08-28",
