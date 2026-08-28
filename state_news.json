@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Open Thread, August 27, 2026: Favorite Tim Curry performance?",
-      "ts": "2026-08-27T11:21:20+00:00"
-    },
-    {
       "t": "Bella Mir’s boozy mom quits social media, blames toxic UFC fans for ‘out-of-line’ rant against Alex Apodaca",
       "ts": "2026-08-27T13:44:46+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Jose Aldo Announces Return to Action Against Ex-UFC Title Challenger 11 Months After MMA Retirement",
       "ts": "2026-08-28T13:15:00+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan makes $50k deal to have previously kicked out streamer N3on corner him at UFC 331",
+      "ts": "2026-08-28T14:00:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Liu Ce vs Levi Rodrigues Jr. Prediction & Preview - 8/29/2026",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVDliOHgtOGUzdVZuR0plb3dQY04wdHNWUzRuSWVzcTNGVWJzR2tKR2FmVFh6UmZFVGdiamhmY3RhVXJiQjR3emZUelA2MDhMdFBXYk5nWms1bFBONjI2am12Z2FZZnJEXzdyRzV2SVd2Z3p4dHZSWVJKa0JCMWg4MlBR?oc=5",
-      "source": "ATS.io",
-      "cat": "ufc",
-      "ts": "2026-08-28T01:01:56+00:00"
-    },
     {
       "title": "Umar Nurmagomedov Says Islam Makhachev Needed Rest Before UFC Shanghai, Still Calls From Home",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ0tWZmp6V19QYWZoT3dST3NWTlRSVkVqeDh3UGNRdUNQT2FvZlVNbzRWTGZrRlB2ZGoweFRHWDEySlo2VVVxR0xJSTBuMmY1WnBsbHhRd1RDS0JGVzFKYmhwbmNsSXlodjVCRlVZS2l4QS1rMXk2OS05TEp0UzVNRFMtdzBIMDh4MlBUcWlJVlg?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "BJPenn.com",
       "cat": "ufc",
       "ts": "2026-08-28T13:12:55+00:00"
+    },
+    {
+      "title": "Arman Tsarukyan makes $50k deal to have previously kicked out streamer N3on corner him at UFC 331",
+      "url": "https://bloodyelbow.com/2026/08/28/arman-tsarukyan-makes-50k-deal-to-have-previously-kicked-out-streamer-n3on-corner-him-at-ufc-331/",
+      "source": "Bloody Elbow",
+      "cat": "ufc",
+      "ts": "2026-08-28T14:00:00+00:00"
     }
   ],
   "digest_last": "2026-08-26 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMihwFBVV95cUxNbnRFVFBmRG9YMVZCazZQZG9hYTBnYkRlYldjTVZ6T05oZk5EVkdnV25zTHRoSW1OY2ppcnFSYnBSMlhrQzVfMnNadTRlWVpqYVNTdDA3VmRHQ283ZTNRV1pWRWNLUHJHQ3lhak9ZeGk0VHBMalpFc0J4cloxZHU4cVNhOC0wN1U",
     "CBMiuwFBVV95cUxOS1E5QzJMUFZWT1dGakJucXUtWTB0VGVYaGczeUtReUVQOWp0U0lNNEpkQTNMRUtyZjVnWmpabGNjMjVnVmlvYnlDTXdmdkl0ZXFhT3BxYVdWTjNCSTRkQ2JrMFllZmVnSTVqaHUzcnZwSmhYU3lKeDBGWmU5SEV1RHdCNTAtV09nRVdTelRiU2FqOTdKdzVHei0xWWhCQ2NGaXVLbGVVdGhsV0g3UDJwR1NZRWdPVUlrcjNn",
     "CBMiogFBVV95cUxQZ1pQX1R5Y2QzQTNNMS1lUVNTVHlIUV9USkpUZGQtMVJKY0ZMZkg0d2MwMDkta2sxcklrUGwyTUttcGxqSktFdlpGeE5TWmdRY2gyTUU4TlVEVHI4blZCQndBaE9JbU9zR1VhUFFOOUdGZ19lRzRHVGFDUHJ0cUU0TkZoVVBkT3MzVjdqRHFYaTE3T25IUXZsTzlzNm1hVjFIdGc",
     "CBMiW0FVX3lxTE9TREQtdjE0TGxqU2taTVptNnZFTXVaMW9HYlVWd21IalhOR01aQkREcUJpTXRBRUFjZDFTWXJEOGFYdU02dTNDYzJlUXZTMEN2WngxckdKQlc2cVE",
@@ -3312,7 +3311,8 @@
     "e06ab46b-0ba3-3a39-9358-7a116a061d82",
     "https://www.mmafighting.com/?p=507242",
     "CBMiwAFBVV95cUxQdVE3NlBrbEpKajdPRkhTc2hPNUZIQk9LeUhZNUNydTBUdW1Qc21qUFhUcFBxUElpV1ZzaGxJTFNMMk1aeDYzY0hsNC1lakVEUnVzRUctM0ppUmVoZzN4aDM1allkeVotZlB1MDVDWVZoYTlDSEZrWlcyREEzdlpraS1pVVZSb2NGNExOMjVkY3QzS0JWb3h4OFBnTFNCQ3llRl9rbjI4anBnX2tnLUJVWEJzenRNb3pDRXNzU0p1aEs",
-    "CBMi5gFBVV95cUxQNHR5d3Vkb2JGbjlmNWJ0NTFnYVZTYU10by1NMGdkSnZLY1A0eVRsazZTbVg5X0p0WS1VMXBpemZyYVl6QmRtbHo0Mm51ZktxdlRQWWExeTVhWWN1eUs0cU9ucW9KVEM5MEhmSFMtLTNkcTlUS25PRDFiSVFQa3hucXFlc29GZFpCUlVKdUc4VGRlRE1Jc2xYSkhBVFNhWEd0R3UzOWIyd2lGTnB4OWg5RnZZaWExRm5zazNEV3pCeXo4TXVHdHl1aUJyeHFxa3haRHgtR2RBY0NzZTZEVndlamVqRVRYZw"
+    "CBMi5gFBVV95cUxQNHR5d3Vkb2JGbjlmNWJ0NTFnYVZTYU10by1NMGdkSnZLY1A0eVRsazZTbVg5X0p0WS1VMXBpemZyYVl6QmRtbHo0Mm51ZktxdlRQWWExeTVhWWN1eUs0cU9ucW9KVEM5MEhmSFMtLTNkcTlUS25PRDFiSVFQa3hucXFlc29GZFpCUlVKdUc4VGRlRE1Jc2xYSkhBVFNhWEd0R3UzOWIyd2lGTnB4OWg5RnZZaWExRm5zazNEV3pCeXo4TXVHdHl1aUJyeHFxa3haRHgtR2RBY0NzZTZEVndlamVqRVRYZw",
+    "https://bloodyelbow.com/?p=329300"
   ],
   "daily": {
     "d": "2026-08-28",
