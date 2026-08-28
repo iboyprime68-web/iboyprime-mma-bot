@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White reacts to Bella Mir’s shocking upset loss on Contender Series: ‘She didn’t have deep water experience’",
-      "ts": "2026-08-26T13:00:00+00:00"
-    },
-    {
       "t": "Dana White reacts to Bella Mir's stunning loss: 'I was extremely bias'",
       "ts": "2026-08-26T13:40:27+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "TUF Finalist Makes UFC Comeback After More Than Two Years on the Sidelines",
       "ts": "2026-08-27T17:42:49+00:00"
+    },
+    {
+      "t": "Kevin Holland reverses course, now claims he is the $11 million man from DWCS",
+      "ts": "2026-08-27T18:40:59+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Ex-UFC heavyweight signs with PowerSlap",
-      "url": "https://sports.yahoo.com/articles/ex-ufc-heavyweight-signs-powerslap-192028228.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-26T19:20:28+00:00"
-    },
     {
       "title": "Aljamain Sterling Explains Not Fighting Jean Silva on Short Notice",
       "url": "https://sports.yahoo.com/articles/aljamain-sterling-explains-not-fighting-210748015.html",
@@ -2105,15 +2098,21 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-27T17:42:49+00:00"
+    },
+    {
+      "title": "Kevin Holland reverses course, now claims he is the $11 million man from DWCS",
+      "url": "https://www.mmafighting.com/ufc/507274/kevin-holland-reverses-course-now-claims-he-is-the-11-million-man-from-dwcs",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-08-27T18:40:59+00:00"
     }
   ],
   "digest_last": "2026-08-26 21:30",
   "hour": [
     "2026-08-28T01",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMi3wFBVV95cUxQclJGY1pZRWVYNEVPNzQ0MWFmZkRqeW5fVHZxLVlUQUNzaUVtWXk1RlJWRXdGRk5xM25ENDZlYkhFOHNKc3h0UWF4eXJFWl9BQVFMZ1ExWWR5aWNpaGYyWERWNGc2TUFFb1duS2hoMFpCQ2lYSW93LTkxLXo1WFEtRlA0YjRaaGExZnFFYXBGN0dpdGtwR29iRjFpcjNRT0tqTW5kS0U4SllfZmhMSXhRRzQ3ZVhISEhNdHNXWTJ0UjdGc1BKQjk2TkFENVZLUndvOHNsLXMtWVJDVUpYdk9v",
     "CBMi1AFBVV95cUxObjRZMVhKRU1Pb014dU56aDBpTkFVekZON2lxcklWbWV0ZEdILXA2WVFBR2tFbURSdDZJVHU1V3YzQm4tWE41aTl5WDg5VXJ0Uk5GMVFUZlhkUTAtQUJsNmhrOW5NbERXRkhmSVFvdmxYenpWM3NleTZXYXpqSFlLNGIwQWhETmRtQ2ZTYlpzMVJLd2RyVEw0dzBMZXNGa1dsdlhrdzV3WUlLdDh5eXg2OEgxZFMyOFhETWpXTFN6blRLdnJ6bksyN0FtMEVsLV8xdVpLNA",
     "CBMi7AFBVV95cUxNLXJhb1NZSWxtUXE1Yks5X0hkVzFEaDU2cS1DNTNBS0pKcWVqYWNnMi0xWVNZWndLTFBNbTRsVnVMRTRMYWNXOXdPVVhsMjlaeFhnTjU4a1BFcnFJQXRuRkx3RmhzUFZFYnlRblBHSmtORldzbGJETktEd1pTakRPMGZINldkcUtiejZfTEhqM1BHQkZlYnpCOTlHQkhyOHVTb0hiRXcwdEZmTzZ5cXVKYUdreVkzQnJIM01rOEUwekVsaEgwWTFDa2lMVWxDMjI0VC1JUGhwNDlnNVZORXpwbDNTNTVpSkR3Ui1CUw",
     "CBMi0wFBVV95cUxOSHpmY0ZkN09JRTFUYUVLRDVac1VPWnBjbHJOeHVZYjIyZjJuSzlqaFJnY2xULXc4bUV3bXJTOGo2V1RmY0xDWTR4UXRCWWhZcjFtSGc3MTJKM1JNLUVkLWRVMFBUU1lGT0tDZWRvOVR2ZXFSSS0ybXFleWJqeE1NRTRwMi1YbTJ1cXFMVWdMZTJNR05peXAzcjVWa2I1SzZ2YVlJMG1helAyTkE2bmxqSm4tZUNuMW01WDV2ZXlhTU41TWhIM2NQSkpmN05DcjhHQUlr",
@@ -3312,11 +3311,12 @@
     "CBMiqwFBVV95cUxOaWh3VW5EVW9tN3FVZ3NJcm9Samt2VmdxSUVlcVRFaTJlNjk5X2p0a0tRMlFjaC1nVE5XZmF4SmxiMS1lX2phbF94MUl6MEowcE5fTGhlWG5EMkdlMTRLbEctSUdSeHpfaTNJYXBXdmRaNVZFRFVzQ3hlMEYzc2NRZFFjeVJEa3djT3FNY3l4UlFXcV92SHNmNDRvQnJhdGttbFF4ZzNjUGFtdDg",
     "CBMirwFBVV95cUxQMXktNGRPVXUtVDlzcG1lekFPQm5UYjY0dVllNEM3TXFKdm90QVhwaXVmdGwzYzY2QjVSbG5wQzd6aXVQRVBGU1UtczdkQjRLckJHcnFyenN2SG0wYnRiaGNqZjRuVFVXakxib2VaRWhJRUVCMDNGVUFtYTlsNGlFekl0NktQZm1BcWRadEJ4aWw0cXptbzR1RmdWU24xd3ZwbmlWQ0lHWlpFWTBkZm1J",
     "https://www.mmafighting.com/?p=507336",
-    "b9a1acd6-b495-3736-97e5-2748f6cd9bcb"
+    "b9a1acd6-b495-3736-97e5-2748f6cd9bcb",
+    "https://www.mmafighting.com/?p=507274"
   ],
   "daily": {
     "d": "2026-08-28",
-    "ai": 2,
+    "ai": 3,
     "staged": 0
   },
   "staged_hist": [
