@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White hopes ex-NFL player Anthony Wint keeps building UFC momentum",
-      "ts": "2026-08-27T18:40:17+00:00"
-    },
-    {
-      "t": "Inside BKFC’s ground-breaking world championship fight night at Fenway Park",
-      "ts": "2026-08-27T19:30:00+00:00"
-    },
-    {
       "t": "‘Why are you going to cry?’: Umar Nurmagomedov responds to Merab Dvalishvili as their feud continues",
       "ts": "2026-08-27T20:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Usman Nurmagomedov refutes claim that you're only high level if you're in UFC",
       "ts": "2026-08-28T14:30:00+00:00"
+    },
+    {
+      "t": "\"You look like white guy\" - Arman Tsarukyan trolls N3on over potential GTA 6 reference",
+      "ts": "2026-08-28T14:30:00+00:00"
+    },
+    {
+      "t": "Coach of Charles Oliveira Reveals Potential Next UFC Opponent",
+      "ts": "2026-08-28T14:33:30+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Umar Nurmagomedov vs Song Yadong: Bloody Elbow staff predict the UFC Shanghai main event",
-      "url": "https://bloodyelbow.com/2026/08/28/umar-nurmagomedov-vs-song-yadong-bloody-elbow-staff-predict-the-ufc-shanghai-main-event/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-28T05:00:00+00:00"
-    },
-    {
-      "title": "Dillon Danis shares gruesome footage that explains why he withdrew from Mike Perry MMA fight",
-      "url": "https://bloodyelbow.com/2026/08/28/dillon-danis-shares-gruesome-footage-that-explains-why-he-withdrew-from-mike-perry-mma-fight/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-28T07:34:35+00:00"
-    },
     {
       "title": "UFC Fight Night 286 weigh-in results: Multiple misses in Shanghai",
       "url": "https://sports.yahoo.com/articles/ufc-fight-night-286-weigh-025649820.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Junkie",
       "cat": "ufc",
       "ts": "2026-08-28T14:30:00+00:00"
+    },
+    {
+      "title": "\"You look like white guy\" - Arman Tsarukyan trolls N3on over potential GTA 6 reference",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcngwMFZwRnNzUnZfaE13YUF1UnJ1eXl6dFBSRnNMUnVkbzBia1ZVZEhxblpGZDhmbEhlOVlPaVhjbWZDRU5qdWxDMVVSTmZOXzhjTVd3Rm9naHR2QWx3YlZZMkVIMGdvYUNBUlFhc3RYZDEzOURzMTJ2TFQyVXB1eXVtUUNuWVhXNm5FclUxcGVxTzRwMU5LNmFMcXBWM0kxamtxVXhMTzI0Yzc3YXJnV2Q5TzY?oc=5",
+      "source": "Sportskeeda",
+      "cat": "ufc",
+      "ts": "2026-08-28T14:30:00+00:00"
+    },
+    {
+      "title": "Coach of Charles Oliveira Reveals Potential Next UFC Opponent",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbVVuajA4RXV1Y3FpV3NYcmdRZW10S2JGQTFoUUh3WlpmMkcxamtoQXkzLXlPNmt3SVBLX3VKazFwalVfSndObU9EcjNOd19weS1zbUlqckI3VFhzcTQxMUh1RXNXMjFwNjFoZ0JCZ3laN2tSMy1oVjBESVhDd0JnVDcxMjNHZw?oc=5",
+      "source": "heavy.com",
+      "cat": "ufc",
+      "ts": "2026-08-28T14:33:30+00:00"
     }
   ],
   "digest_last": "2026-08-26 21:30",
@@ -2113,8 +2113,6 @@
     8
   ],
   "yt_eval": [
-    "CBMiYEFVX3lxTE56SHFqYVZmWlJUWF81ZEJhLUI1SF9qZV9TSURNbTAzaklWTTVYZDg1N0FBWmRKZ3dPM2d6OTduWm05ZUd5WUtSLU9OeFViYkZTNDFVdFY5em42M09PU3U2bg",
-    "CBMiW0FVX3lxTE8zaUVKMWE5YWs5d3BwZ1B0c0ZEc0tBSlNoNEl3cDZTTDJOOG9Vc2VQNmIteGxvYk1rN2Rjc3RfLVplYmVZM2FjaG4wcEhsUnVpbllZbm5RalM3RE0",
     "CBMilAFBVV95cUxPbFF5eGVZWnZTTzdSMmxYOHAxS1pDSm1zRUxRRXE3Ull0NVBaUXhGR3gtRE5nZW9CeE5rMDY0bDl0RGt6T2ZDUFBmZTNnS3BkMnJGOHd3Q0hGZURSNDZwUndpd2R4UHpfSmY0VExnM0xOMVg1Ny00WlBMdXc3VS1GbzlGSWlXaXdaZy1yU2EtT0o5VGVE",
     "CBMiuAFBVV95cUxQS05RRjk5a0k4YTUyNTdTaEpXVDViQ05IUTVPS2Jhc2x2bGFwanR6RmhtWWJBWEYwVXozZUo2SWpjbmYtUGlKaFZfZmNaYnQ2WUNhZTlZQkdGa05pNkZ1aU03VFl1Yy1DdEtVU3FveU1ZU0RoYmFyRVpfVEpnLV9vRnBLd0tOcUt2UTR4N05idWN4WGRyVXU4eUFSQ3hveEpRMFVvVFF6YlloMXhpWXlVallGT2lhNmtG",
     "CBMixAFBVV95cUxPa2twWV95NXpxMERCOVlwaThKMUV6OFVLYU1IS3lFT0VuRjdTTjF2RmQ5enpEdVA4VS1qT1ZxV3RjUFdkMGdNbkZKRTdVMWowOGJOb3lRdHZ0QzdYbU9fQjlTczUtSHN4bXc1S2FmOHl5M0x2RHlMOW1mMEFVcUdWaEFpWjVnckxNdUE2TWoybF84eGE4ZDVzVGVEUVZCUzJibVQzUnFYcDhMSDdlak1HYV9TQ1JwWDd5SEVqSUVESGNvWVFa",
@@ -3312,7 +3310,9 @@
     "CBMiqwFBVV95cUxNZk9GQ1A0c1ZoX0JSS2dVRzlzRUJzTlQ3OEtZYmtyeEs0bW9sVS1XTElScUI2Q2tBa3NPaDRPUXZ0VnFBa3ZEMmRjalhMMDZ3RWZpbWZMbko1cGFSUGtOWnFSNTZfaGplUE54YXpoaUV1UmlXdnBrVnpPd0RPOHN4UHdOdElvenl3R1dfRmR1Vk14UGtPWEMyZTFSUlYxRWFSQ19XWmZubktZSTQ",
     "CBMiuAFBVV95cUxOTm01bG5MdUtMcXFuTVhGYXYzeVpCNzQ0bFZrelljMF9TX21fVS00Ni11X3FMYXNEeWFHMTlyZmNlV09UZ3ljYjJ2bDhlQTJ3elYycjQ1VU9tVmN5b0RYVGVpR1RRLTNkTVJOeEFKLUJYWmVSVmNzblo3MEdPZzktUjlGLXZGbHF4dUljd2NsZ0JYQkVNZ2wxSmI4cks0V0c1SFdrODA4UUtkSW1jczNUTlpfVjFuR0lT",
     "CBMia0FVX3lxTFBsU2k1ZFlScTVCWWdHRjRmYTE2N3dCSXlINEJDNG9wcjBmTTcxc1hRQWFlb0lDWXFBMVdiZE5yaGsxZlp1UUJ2SGFXNlAwaFVqWEhOQUwyTVhjNXNVZm5UTFRKSG5DRXVJaUZF",
-    "CBMi-wFBVV95cUxONTgybUl2eGpTMTdsODhUeWNVc2R4MUl4SXVLanBqY0FXSG1xRjh2Z0ctNTcxUEs2X2s3bzdPQVkzNWVsWE9CTGdXYzZtU0FxS3JpRDVnY2EwVUtzT1J2bWN3SktSTlR2Wnc3TzFaWllRNng4dUVpWGxQN3M2c25YXzhpVFY1NC1sTFliVGZIa0hnUmliMUJGRXBxYnFIQ2FGZ3o0azhkUE92SS1PUXFJLWxsdmxMME9WRW5pbXF6NHA0X2hFUnZNeW0yYW43SGhBR3Q2OEdFaXRKeHRzelB2bDV4OUJyZGtIUW9uVmtXb1l4Q3Jpbm9yT20wMA"
+    "CBMi-wFBVV95cUxONTgybUl2eGpTMTdsODhUeWNVc2R4MUl4SXVLanBqY0FXSG1xRjh2Z0ctNTcxUEs2X2s3bzdPQVkzNWVsWE9CTGdXYzZtU0FxS3JpRDVnY2EwVUtzT1J2bWN3SktSTlR2Wnc3TzFaWllRNng4dUVpWGxQN3M2c25YXzhpVFY1NC1sTFliVGZIa0hnUmliMUJGRXBxYnFIQ2FGZ3o0azhkUE92SS1PUXFJLWxsdmxMME9WRW5pbXF6NHA0X2hFUnZNeW0yYW43SGhBR3Q2OEdFaXRKeHRzelB2bDV4OUJyZGtIUW9uVmtXb1l4Q3Jpbm9yT20wMA",
+    "CBMitAFBVV95cUxPcngwMFZwRnNzUnZfaE13YUF1UnJ1eXl6dFBSRnNMUnVkbzBia1ZVZEhxblpGZDhmbEhlOVlPaVhjbWZDRU5qdWxDMVVSTmZOXzhjTVd3Rm9naHR2QWx3YlZZMkVIMGdvYUNBUlFhc3RYZDEzOURzMTJ2TFQyVXB1eXVtUUNuWVhXNm5FclUxcGVxTzRwMU5LNmFMcXBWM0kxamtxVXhMTzI0Yzc3YXJnV2Q5TzY",
+    "CBMihgFBVV95cUxPbVVuajA4RXV1Y3FpV3NYcmdRZW10S2JGQTFoUUh3WlpmMkcxamtoQXkzLXlPNmt3SVBLX3VKazFwalVfSndObU9EcjNOd19weS1zbUlqckI3VFhzcTQxMUh1RXNXMjFwNjFoZ0JCZ3laN2tSMy1oVjBESVhDd0JnVDcxMjNHZw"
   ],
   "daily": {
     "d": "2026-08-28",
