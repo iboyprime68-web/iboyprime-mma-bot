@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "RAF 13, RAF 14 move to new dates, promotion announces",
-      "ts": "2026-08-27T21:38:47+00:00"
-    },
-    {
       "t": "MMA Junkie Radio #3698: Guests Aspen Ladd, Ian Heinisch, UFC Shanghai preview",
       "ts": "2026-08-27T22:01:08+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Hector Santiago debuts at UFC Shanghai hoping to once again share card with Alex Pereira",
       "ts": "2026-08-28T16:31:48+00:00"
+    },
+    {
+      "t": "WWE Live-Action Microdrama Wraps Filming, Potentially Freeing Up Stars For Returns",
+      "ts": "2026-08-28T14:18:18+00:00"
     }
   ],
   "digest_items": [
@@ -1699,15 +1699,21 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-08-28T16:31:48+00:00"
+    },
+    {
+      "title": "WWE Live-Action Microdrama Wraps Filming, Potentially Freeing Up Stars For Returns",
+      "url": "https://sports.yahoo.com/articles/wwe-live-action-microdrama-wraps-141818205.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-28T14:18:18+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
   "hour": [
     "2026-08-28T23",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMi0gFBVV95cUxQZkcwelZLYjBDUkdfODdNM3FEZkNEOXZKUXJQdnJsVnN5TDZmSTdjWkRQREF2SzN0alR4amxSUUlIWWZ1cGdTb3BfZ1VlcjRVNzV3NklWMTZTVVFXcF83Z3FTMHh1VHY2Nkp2MzRPYW5NVF9XT2VsX1FDX0dPYUxFWWN3Y2wzMklIVXg4R2N6S1BzRjJHX0trWFVVWms4YVVCLTFmdjZ6WFRUMGFBVC1UNEY0M1NLVDV6MkkzVXB3ckloUUxxZHo1MV9tX09tSEpfV1E",
     "CBMif0FVX3lxTE1QX1NKOG5GaXJ1UXBUUzFPclp1bEM0S2VmVDRVY0Q1SWtGVWItR1pqVTJBT3VLRFBBNEw2cHNZUXRQYlhCaU9jbFN0WWlGNk9TWmpyb2NhcTBjN0xGUnBGTjFjSTA3SHVGN3Q3UDU1U095bE9oMFNnWkx3N1JUVHM",
     "CBMiYEFVX3lxTE9BeFlqRElRM2dlZFpRZkUwWVBjRU4ydERmOWlZWlp0MGYzRjhMYk5CbVJIcVdiNzVlTVZzQUdaTFdSZGJaSUtya0l5Q245WTVkREJ6R01jV3luY1FFSGd5Zw",
     "CBMiW0FVX3lxTE14SVdGS2RldUFYTXhjVzdZS3BPM25JbnlONFBBR1M5X0p1Z3ZZZkdvTGE3SkpfazNQcm1lZ0tVSkZmT3hlMjFUbzdDNU5SMnAtbVZfSWwtOWZNdkE",
@@ -2906,7 +2912,8 @@
     "CBMif0FVX3lxTFBhYUZhTDBHd2VHbkl3c3F3ZUFrQTh5a1JKX1dKc2ZGWEFvajNaWUpkNG1NcjhrT2hQLXRxc19WYlFxaDFfS0tBS0VzanF3YUNEcEJqbDJFTVljUGNsb1FiRkhoMUVsdE1LN2FOSnU0anJNWWh5cDJXTHZFOE1Cd0E",
     "https://www.mmamania.com/467403/mania-mailbag-would-you-rather-be-din-thomas-or-dustin-poirier-right-now",
     "https://bloodyelbow.com/?p=329307",
-    "https://www.mmafighting.com/?p=507317"
+    "https://www.mmafighting.com/?p=507317",
+    "47c1191f-e2c2-3ca9-a259-411fa460457d"
   ],
   "daily": {
     "d": "2026-08-28",
