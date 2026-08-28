@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Ex-UFC heavyweight signs with PowerSlap",
-      "ts": "2026-08-26T19:20:28+00:00"
-    },
-    {
       "t": "Aljamain Sterling Explains Not Fighting Jean Silva on Short Notice",
       "ts": "2026-08-26T21:07:48+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Sean Brady reveals whether Din Thomas will corner him after controversial Gillian Robertson remarks",
       "ts": "2026-08-28T02:12:17+00:00"
+    },
+    {
+      "t": "WWE Merger Lawsuit Settlement Takes Major Step Toward Resolution",
+      "ts": "2026-08-28T02:10:30+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "\"Spinning attacks\" - Ubaid Hussain plans a flashy showcase of new weapons against Isannuea",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMXktNGRPVXUtVDlzcG1lekFPQm5UYjY0dVllNEM3TXFKdm90QVhwaXVmdGwzYzY2QjVSbG5wQzd6aXVQRVBGU1UtczdkQjRLckJHcnFyenN2SG0wYnRiaGNqZjRuVFVXakxib2VaRWhJRUVCMDNGVUFtYTlsNGlFekl0NktQZm1BcWRadEJ4aWw0cXptbzR1RmdWU24xd3ZwbmlWQ0lHWlpFWTBkZm1J?oc=5",
-      "source": "Sportskeeda",
-      "cat": "ufc",
-      "ts": "2026-08-27T17:05:00+00:00"
-    },
     {
       "title": "Bella Mir releases statement following disappointing Contender Series loss",
       "url": "https://www.mmafighting.com/ufc/507278/bella-mir-releases-statement-following-disappointing-contender-series-loss",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-28T02:12:17+00:00"
+    },
+    {
+      "title": "WWE Merger Lawsuit Settlement Takes Major Step Toward Resolution",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZFBmSUV6b2MzUExOTF85VTdWeXBSTUstVnlrbV8tQW9pc3pWRkpQMUxKRmw4M1FMSUM2RWxIVG9aSFA1dUd4dnBVbm5ySEt6N2hUX2xzVGlXNzJBUHAyRHEtaVowQXN3aDdtcTFjLW5xM2FURE9zaXNDM09SZVZldDMwNnBTNC1nNEtXcWZrQUQzNC15WVBWREkzMA?oc=5",
+      "source": "ITR Wrestling",
+      "cat": "ufc",
+      "ts": "2026-08-28T02:10:30+00:00"
     }
   ],
   "digest_last": "2026-08-26 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMilAFBVV95cUxPR25nSzlNODZ0c3QwZjRPSFc5OU9UYkZ2YjVTVFBsMEZ3Y0NtcE9pZDhjT2daNjIxNGIxejFrYWtSZFlJM2JZeUwxTFVheHVvVE5SRGdWYXhzODg2bXlGdWhHWVlaOHlKeXd2TVZIeHlFN3BkUkVWVzRxc0dyaTV5Q2JJUU5mbkREVnJYQ1BOZkFNV09M",
     "https://bloodyelbow.com/?p=328683",
     "https://www.mmafighting.com/506802/the-ultimate-insider-behind-the-scenes-of-tuf-34-injury-woes-a-lot-of-bad-sht-that-started-happening",
     "CBMiX0FVX3lxTE1wS28ySDFPUTZ4dWFRQTZESW9RSUV2SXNJMll5OUh0ajhKUlhDVWFldWVGNzkyN1dWbGs3SmNybDFlakxsbUdFRFFMMjhUby1nTzJ3bFA4T2gwWnRxWENV",
@@ -3312,7 +3311,8 @@
     "CBMiekFVX3lxTE5zSllvUWFLcmJDM2tKTmw0TFd4UEt3ZEFhUkx4X0FtUXNIZHBncm1sTF9VOENUWHFTa0VxclNpT3lScEt2dGRzdGI4dF9wLXNQcGNBamVwM1ZRM1NDUlhPOXBzR09KbDcwcC1tVlFrQ0dYUzZBZlVLV0xB",
     "3f5d7c0a-f843-3d65-a092-d6d13ad7a7b4",
     "CBMimAFBVV95cUxPU2hGc2VlS3hndFdka3JDWm1vLW05WHNHcVhTUnJDb2dKam1KbmVEUUlCaDRNbUY1MVJNZWxzQlROUmFJN1Z6VGUtOXV2OUFtQWFITmFOSlRMYk1PeHRpMTc2MXdYUGFIYzR1RFltRnlrRUZtSTUzQ01PR2dvVkdWT3lkREV5TDhobzBBZmVrR2FXVjNJeHFCTA",
-    "CBMixAFBVV95cUxPYkFnc1V4cUZJc2o4b0w2SWg3cVNNNjJ1RElhMndxdmx5MDBqdHlLbjhLLUY4TWpEM1lLdXUxS3M1dXFwLU1rUE01TGRhWUQxZlUwSnhVd3NDam9uSkE5dzFtcUg3dTFMS3N1NzVQeXhtWU9nVWJzX1l6QS16SGktQWdIWXI5aGZ0WmZEOW5zNnpZMnB4TGQ0Wk80ZDFLMXQzdnJiRHFhQWNaNWxDaGlKS0FBS2FFQmdBeGVmeGk5OFJ6WnZj"
+    "CBMixAFBVV95cUxPYkFnc1V4cUZJc2o4b0w2SWg3cVNNNjJ1RElhMndxdmx5MDBqdHlLbjhLLUY4TWpEM1lLdXUxS3M1dXFwLU1rUE01TGRhWUQxZlUwSnhVd3NDam9uSkE5dzFtcUg3dTFMS3N1NzVQeXhtWU9nVWJzX1l6QS16SGktQWdIWXI5aGZ0WmZEOW5zNnpZMnB4TGQ0Wk80ZDFLMXQzdnJiRHFhQWNaNWxDaGlKS0FBS2FFQmdBeGVmeGk5OFJ6WnZj",
+    "CBMimwFBVV95cUxPZFBmSUV6b2MzUExOTF85VTdWeXBSTUstVnlrbV8tQW9pc3pWRkpQMUxKRmw4M1FMSUM2RWxIVG9aSFA1dUd4dnBVbm5ySEt6N2hUX2xzVGlXNzJBUHAyRHEtaVowQXN3aDdtcTFjLW5xM2FURE9zaXNDM09SZVZldDMwNnBTNC1nNEtXcWZrQUQzNC15WVBWREkzMA"
   ],
   "daily": {
     "d": "2026-08-28",
