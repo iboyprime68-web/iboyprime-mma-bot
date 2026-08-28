@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC fighters fined for climbing octagon fence after victories",
-      "ts": "2026-08-26T18:56:49+00:00"
-    },
-    {
       "t": "Ex-UFC heavyweight signs with PowerSlap",
       "ts": "2026-08-26T19:20:28+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Alexander Volkanovski Promises Prime Version vs. Movsar Evloev",
       "ts": "2026-08-28T01:52:00+00:00"
+    },
+    {
+      "t": "Sean Brady reveals whether Din Thomas will corner him after controversial Gillian Robertson remarks",
+      "ts": "2026-08-28T02:12:17+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Patrick Mahomes' status for Week 1 is still up in the air: Why Chiefs QB isn't a lock to play vs. the Broncos",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaWh3VW5EVW9tN3FVZ3NJcm9Samt2VmdxSUVlcVRFaTJlNjk5X2p0a0tRMlFjaC1nVE5XZmF4SmxiMS1lX2phbF94MUl6MEowcE5fTGhlWG5EMkdlMTRLbEctSUdSeHpfaTNJYXBXdmRaNVZFRFVzQ3hlMEYzc2NRZFFjeVJEa3djT3FNY3l4UlFXcV92SHNmNDRvQnJhdGttbFF4ZzNjUGFtdDg?oc=5",
-      "source": "247Sports",
-      "cat": "ufc",
-      "ts": "2026-08-27T16:40:09+00:00"
-    },
     {
       "title": "\"Spinning attacks\" - Ubaid Hussain plans a flashy showcase of new weapons against Isannuea",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMXktNGRPVXUtVDlzcG1lekFPQm5UYjY0dVllNEM3TXFKdm90QVhwaXVmdGwzYzY2QjVSbG5wQzd6aXVQRVBGU1UtczdkQjRLckJHcnFyenN2SG0wYnRiaGNqZjRuVFVXakxib2VaRWhJRUVCMDNGVUFtYTlsNGlFekl0NktQZm1BcWRadEJ4aWw0cXptbzR1RmdWU24xd3ZwbmlWQ0lHWlpFWTBkZm1J?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-28T01:52:00+00:00"
+    },
+    {
+      "title": "Sean Brady reveals whether Din Thomas will corner him after controversial Gillian Robertson remarks",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYkFnc1V4cUZJc2o4b0w2SWg3cVNNNjJ1RElhMndxdmx5MDBqdHlLbjhLLUY4TWpEM1lLdXUxS3M1dXFwLU1rUE01TGRhWUQxZlUwSnhVd3NDam9uSkE5dzFtcUg3dTFMS3N1NzVQeXhtWU9nVWJzX1l6QS16SGktQWdIWXI5aGZ0WmZEOW5zNnpZMnB4TGQ0Wk80ZDFLMXQzdnJiRHFhQWNaNWxDaGlKS0FBS2FFQmdBeGVmeGk5OFJ6WnZj?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-28T02:12:17+00:00"
     }
   ],
   "digest_last": "2026-08-26 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi4gFBVV95cUxQSVF0VEtyV2QxbUJFcEI1eEM0R0ZuYVU0anJFbWlqZ05oa1VmdFI1X2V6ZW13cVVXUHF6dkQ3ZW9XRkZSMDFCYlhCdDVlaWJBRk4ydTB6d1JvT2pqLVNYMGkzQ3BCM0dNWXQyS3BLb2lqTGlleFhjRWFNMDRpOUxFUXpmVlp6dm51RlhNenMzV1czbjBGMWx1WUV4Q3JSVjFDMmdYYXc3SjZ3U1ZkQTJlYlJGeHl3SzZHTDFjTWNpOUtVV2g1eWNDaElkUS1NVjUwQWJNWHNtSDRPUEI4MTlpQTFn",
     "CBMilAFBVV95cUxPR25nSzlNODZ0c3QwZjRPSFc5OU9UYkZ2YjVTVFBsMEZ3Y0NtcE9pZDhjT2daNjIxNGIxejFrYWtSZFlJM2JZeUwxTFVheHVvVE5SRGdWYXhzODg2bXlGdWhHWVlaOHlKeXd2TVZIeHlFN3BkUkVWVzRxc0dyaTV5Q2JJUU5mbkREVnJYQ1BOZkFNV09M",
     "https://bloodyelbow.com/?p=328683",
     "https://www.mmafighting.com/506802/the-ultimate-insider-behind-the-scenes-of-tuf-34-injury-woes-a-lot-of-bad-sht-that-started-happening",
@@ -3312,7 +3311,8 @@
     "CBMi7gFBVV95cUxPVHk4N19MaGVwbV9jdFlpRjFuZmVXRDFuanpxVlczTjNyNlRqN19INWZwcGNuQ1Fhd3huVk00RUNYWmtjUkRfUEE0VEVJdDNYSUtEc2EtcEZ1TXJraVlwNF9pUmNGTi10bEs1LXdMaUttZVFzTU81VjRON0VzRU9wUTBMbkoycGRkb1NoTGJud3VwR0UtYm1mRlNHZXpDQTNzTXJyX2lqVXRtb3EwMWRIaUdmUzRXcTJua2QwblAwUTZaclAzdXpUVTFIYWwtbkk5WUpVQUdTNjNYemUxZDZ1UjlCNUk2Tlc3M2RpVjJ30gH0AUFVX3lxTFA5TDljOGppUjN2RHVzRE14bWZwRUZmR3FZZnNNUHR5ZGw4ajFLazd6Nm5GT0tqaE50U0k0aWhsbVdMWDBXVUhMSXVENzItVTM2bmRLMXEtcXF1QW95bnJONEM5b0NxWVNWNXdqb1NNSFhkWDd2MThRa2NtTzF1NUM4YzVnLXZXZXdhZUZ3VFFaRjZMS2hJTUpZbVZUX3AyQUlabXo3NmRyMzYxOWlROEdNZm1KcGVXdTlON3hXY1pPUzd4SHNEWkd5TEUyZVJrbE5VLV85M3lRYm92Qk5yV1NLNUxzSERhSHF4Vi1lZXF2eS1YRi0",
     "CBMiekFVX3lxTE5zSllvUWFLcmJDM2tKTmw0TFd4UEt3ZEFhUkx4X0FtUXNIZHBncm1sTF9VOENUWHFTa0VxclNpT3lScEt2dGRzdGI4dF9wLXNQcGNBamVwM1ZRM1NDUlhPOXBzR09KbDcwcC1tVlFrQ0dYUzZBZlVLV0xB",
     "3f5d7c0a-f843-3d65-a092-d6d13ad7a7b4",
-    "CBMimAFBVV95cUxPU2hGc2VlS3hndFdka3JDWm1vLW05WHNHcVhTUnJDb2dKam1KbmVEUUlCaDRNbUY1MVJNZWxzQlROUmFJN1Z6VGUtOXV2OUFtQWFITmFOSlRMYk1PeHRpMTc2MXdYUGFIYzR1RFltRnlrRUZtSTUzQ01PR2dvVkdWT3lkREV5TDhobzBBZmVrR2FXVjNJeHFCTA"
+    "CBMimAFBVV95cUxPU2hGc2VlS3hndFdka3JDWm1vLW05WHNHcVhTUnJDb2dKam1KbmVEUUlCaDRNbUY1MVJNZWxzQlROUmFJN1Z6VGUtOXV2OUFtQWFITmFOSlRMYk1PeHRpMTc2MXdYUGFIYzR1RFltRnlrRUZtSTUzQ01PR2dvVkdWT3lkREV5TDhobzBBZmVrR2FXVjNJeHFCTA",
+    "CBMixAFBVV95cUxPYkFnc1V4cUZJc2o4b0w2SWg3cVNNNjJ1RElhMndxdmx5MDBqdHlLbjhLLUY4TWpEM1lLdXUxS3M1dXFwLU1rUE01TGRhWUQxZlUwSnhVd3NDam9uSkE5dzFtcUg3dTFMS3N1NzVQeXhtWU9nVWJzX1l6QS16SGktQWdIWXI5aGZ0WmZEOW5zNnpZMnB4TGQ0Wk80ZDFLMXQzdnJiRHFhQWNaNWxDaGlKS0FBS2FFQmdBeGVmeGk5OFJ6WnZj"
   ],
   "daily": {
     "d": "2026-08-28",
