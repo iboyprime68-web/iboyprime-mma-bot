@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Usman Nurmagomedov roasts UFC lightweights ahead of potential move: ‘Pimblett lost to a 37-year-old’",
-      "ts": "2026-08-27T22:00:00+00:00"
-    },
-    {
       "t": "Dillon Danis out of MMA return against Mike Perry as new fight gets made on two days’ notice",
       "ts": "2026-08-27T23:01:25+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Polymarket $20 Promo Code SPORTS for UFC: Nurmagomedov vs Song on August 29th",
       "ts": "2026-08-28T14:04:56+00:00"
+    },
+    {
+      "t": "'Difficult' - Islam Makhachev reveals how many fights he has left in huge retirement update after UFC 330 title defence",
+      "ts": "2026-08-28T14:52:01+00:00"
     }
   ],
   "digest_items": [
@@ -2110,10 +2110,9 @@
   "digest_last": "2026-08-26 21:30",
   "hour": [
     "2026-08-28T14",
-    8
+    9
   ],
   "yt_eval": [
-    "fcab2531-ed02-3896-ace5-05fbc4deb0a6",
     "CBMikAFBVV95cUxNdEo2empEWVlmVEZyOE5NNDRtTlhjVzhuSjZiTk41QnRHX0Y5aDF2WnNaR3B5RFBGbk1mWmVfNG52Yk5fWS0yT21FRlcxbTdLc0tybnBwdDJtZUY3VFIxSEF2Mm1na0ZMOUVodUhCVElDRllFSG4zNEVkQ0lFSHNLVmlVb3hnc0hpbjM1U2JKbUU",
     "CBMiakFVX3lxTE1wYVBwQlR4cHRITGc5WVJXb1BvTUN1LVkwbVFYZktZSkQ3VHlGbnVhV2lPY255VDZiMkhpTW5RNF9wNDNFdDVyS3A2eElYaGJ1SEt6UHY1VGotWERKTm1JUVlPSzZDdXBBblE",
     "CBMi-gFBVV95cUxOeEk5bkNZN2NhcWpITmhYeVFTUVlOX3pCM3JZVEhJZS1MU3JCV1dPU0s0OHRIY2t0MkZySXktMi1ScVhjWERiaE1FWUhuREQ4RjVLZ2d3Z0RkNm9LcnVZa1oyYlJvaDZBMTV5eGkxbm5HX3FhelhBc2tMZm9FcFcxa3FjNGFuTlBRZTFLQlR6aVd3RWZPUFFZYkJiZkREbUNwM2VyTlZDX2lTV1hVZEowTWVQMDhMQ2pKSS1WR0Nia3ltcFAzNk13RUJmVjRKNnl6cFFxa3Bnd1FmWE9KYVc5R3FpTmFMcEVhamc4aFFmV0JGbVFoV2FmNWZ3",
@@ -3312,7 +3311,8 @@
     "CBMihgFBVV95cUxPbVVuajA4RXV1Y3FpV3NYcmdRZW10S2JGQTFoUUh3WlpmMkcxamtoQXkzLXlPNmt3SVBLX3VKazFwalVfSndObU9EcjNOd19weS1zbUlqckI3VFhzcTQxMUh1RXNXMjFwNjFoZ0JCZ3laN2tSMy1oVjBESVhDd0JnVDcxMjNHZw",
     "9ab8ad1e-a75b-36dc-b595-b49d6641e68a",
     "CBMikAFBVV95cUxOMlctNi1xV0s1OVUtTmV0MFUxNkJZR1BwVnV5TnZfMzJFbWNDSkxndVQxcUN3d1B5UTFqMlBMeGRnUzF6a3BfcXM3SXJzcVJxbHRuM2lQMlpVa29hQTR4N1Y2WnZlUlhmelZMQ1hYeG5YeE05a3lwYmtDRTc0TUxJX2txb0Voa0NIQ3NCSjJMQTQ",
-    "CBMirgFBVV95cUxPUG90UWVZWTJ1LWluelhNc0c0MGNpVkY2SUI4WUg3eHo0eVF4SXlqZGJKNTRpazhhdGhHbkx3UGx1ZnFXbHpfS2V2SzhlSEgwMkwyUThReDlCY25wVVMwVTlIMmVKS1c5VmhYdUNlbFBGcFZyQzY0UTRpMU5LUS15c1ZyVHI1TzFvWXNWeDcwdnM2cmhCVFMxMmNsNnhxa0hXaUZ0ZmZZRmF0M2Rhcnc"
+    "CBMirgFBVV95cUxPUG90UWVZWTJ1LWluelhNc0c0MGNpVkY2SUI4WUg3eHo0eVF4SXlqZGJKNTRpazhhdGhHbkx3UGx1ZnFXbHpfS2V2SzhlSEgwMkwyUThReDlCY25wVVMwVTlIMmVKS1c5VmhYdUNlbFBGcFZyQzY0UTRpMU5LUS15c1ZyVHI1TzFvWXNWeDcwdnM2cmhCVFMxMmNsNnhxa0hXaUZ0ZmZZRmF0M2Rhcnc",
+    "CBMikwFBVV95cUxNTGNrVkdLcVc4RHZkdUxpS0VtTUlQQkNnV3pCWU9XWXRyU05RYXQwM2hoclV6RjQyOF82S2ptSnUwM3dVZHd4Z09XdjEwc1o0WTVZdTF2UkowSjJCOW12OWhiY3BmSUQ0MnRkMjEyTTJTSnB5cUFmNTM2ZXIzREZIaHgxbXNfYU1EOWlYOG1yMDAzNEE"
   ],
   "daily": {
     "d": "2026-08-28",
