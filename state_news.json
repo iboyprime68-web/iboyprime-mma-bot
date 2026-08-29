@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Shanghai Predictions for Nurmagomedov vs. Song",
-      "ts": "2026-08-28T14:36:32+00:00"
-    },
-    {
       "t": "Polymarket $20 Promo Code SPORTS for UFC: Nurmagomedov vs Song on August 29th",
       "ts": "2026-08-28T14:04:56+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "\"Mount Rushmore?\" - Fans react to impossible UFC event Dana White is working on",
       "ts": "2026-08-29T06:46:00+00:00"
+    },
+    {
+      "t": "Dana White’s Mount Rushmore Reaction Fuels Speculation Over UFC’s Next ‘Impossible Event’",
+      "ts": "2026-08-29T06:51:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Zhang Weili Gets UFC Hall Of Fame Trophy During UFC Shanghai Fight Week",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObzBMSWFpbDJCOXBFX3Z3dTliN0xjZExfNlhHV2NVMzlya2ttNXhhZEVweWs3dDFtSWQ2ZmxOOUxsMDBqZkEzREZqR244SWxEMGFxX2tUSGtOMnU2U0IxQjlqQzcza2xhckhfYmJJb3FvSzNHSTRFamM0N3h0MHVIVVBabw?oc=5",
-      "source": "MiddleEasy",
-      "cat": "ufc",
-      "ts": "2026-08-28T23:33:43+00:00"
-    },
     {
       "title": "Nate Diaz, Dillon Danis trade social media barbs after Duel Arena 1 fight cancellation",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUE5YN3k4aktuRTBxbFk4U1BuSlBMSl9fajAtemZQSWRUYkNVcEU2dlJTVkxpVXhmcVhOd09KdmV6bDhxOGpjRlp3b1JITXFPaEIxZ21wUjROQ2xHT2luM0M2NDRWLVUyU1ZWM2pDeGkwU2dDald1NGg0dkhxR2h3Y0thZEFZRkN0cm9xcEtIVnNEa0ZpTHFpZnd1SmYyUXdKRVNqTWJQYWdkcDVyMjlR?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sportskeeda",
       "cat": "ufc",
       "ts": "2026-08-29T06:46:00+00:00"
+    },
+    {
+      "title": "Dana White’s Mount Rushmore Reaction Fuels Speculation Over UFC’s Next ‘Impossible Event’",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPd1pRN0tYY1pxcjIyTElkVm5rcENVRWpTR2M5VmFFbGM1eWRtTnZQYnVRc2FTaG1qT2VPc2FxRUQtWTZmYzRveHU3dE1Kc0p2UU05MDNlblNraWwzQUlBbjJrbVhRRlJacFBCZUpnNnpmVkxNdkc1MF9BcWlwVUNmUHY5NkdmNmxueDNwcTd5amlPY3VXTVdkUnRRQzJFZ3Vzak9PajBQUGt2dy1FdmpGNGNZWHJLU09DWmpXeFB4eEdqdnl0cnE5UWM3dWlOZw?oc=5",
+      "source": "EssentiallySports",
+      "cat": "ufc",
+      "ts": "2026-08-29T06:51:00+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiW0FVX3lxTFB4bW9Zb1ZnY1U4ZG9KSUNnVVlpeG1lRm9faGlnaDBERTdWTlIzcF80dEdTWHdmSVA3RFhIOXdKNXUzQzRjX043ZTB0ZmZ1U21tcDJKZ2lzSXMxd00",
     "CBMiW0FVX3lxTE1KYkRYbXhtNmN0R2NQaUpQbnFwZ0RxbFZDazdhTXdqaDQyUzF2ZHFLdWpKX0MzVUFJeWtGaHA2WnoyY2NjWkhrYkZRRXM1R0hKVVRzQ3pKeDVKX2s",
     "https://www.sherdog.com/news/news/Paulo-Costa-says-UFC-is-lost-without-Dana-White-more-involved-202515",
     "CBMimwFBVV95cUxQa0VBaFplMGJMSjZFNmxZZzJHeDZoQUYzaTVvamRMazZBZ3ZtQk9QYzVHWUZjX0Zwc0o5N2Y1ZmgxdGkzU2VrMVdMSWF6cUE5bW1vcWswTzVuX0RZWFNzMVdBY0FZZEFxbGpJZGl0VV81OFltUU5NSmJhbC1rR2JEeWZ3cGxPV1dFM0dyaGtmSDhsM25mZ1J4czRkdw",
@@ -3312,11 +3311,12 @@
     "CBMiywFBVV95cUxQaGUzbk5yOHFSNnh0WnozNHdJQU9VbkVUdWk3Zkd0djFyXzdkSi1FbXFyb1pCajRZMzVrSi1jWmpiVUlFeTN5Vk53TF9tdC1hTDhKLWlRak5kQUdrTjE4cmVXMWI0ZzJkQTBmd2VBTVVOUXpsSnJ1RFRoNXRUak1HY0x2M09Qemd6MWV4RjF0R016aG1oZVhPc3h1bjd0TW9COWVNTFZhTlRXcHBiYk9NQ3puc19LYVkyX3RqaS1nMWs5Q25BT3Z1ZGlxcw",
     "CBMi5gFBVV95cUxPSF9jaDBaa0hUZTQtLW1RcmRwR0pNdkNxTEZ5akl3cUVfa0cyWU96SnI4YVVRSDBReHc2SG1naFJQaHR4ZThTd0ZQcmhUdXlYQTZNYnRVcXVjT3FPelMyTEdYYVJabUdiUE9LTnhYUVBMMDdxRjRiSFNyblBCd2xmWFpEcmtOOVIzc1FjVU9ueVNRODQtV0h2TTZHVTRhWUNnUnlkb2p0ZXpEOFU5b1BnYjIwTGdqQWhFNVZVcDliQ05TbXo2bi1SRjlBVXhZZzNkVmxXbWU5cXJFRF9Uc3FyVndGXzB6QdIB6wFBVV95cUxOWnNiZktTajNJSVBnb2ctaE1feWxBekZnV3RERVhKb2RKZ3dGVDBJbi1EU2pybllHTkFteks4NTMwZHVXQ2UxRlRYOTZRRVVIeFgzY0ZzX3p2ZktkdEtNRGYwU0ZfajkzNWYybWw4RXRQTGhZd1ZVMUcxckxuT2tiNGdiUGh3S2FuRWF1eU5PQUdMUUhRVHFCWVZnbkxtc0h6U3J1bDRnaEJyOXRmemRVcGdHbzFfX2xQcWo2N2pjc291QWx3R3d0MGJjRjY5eHZReHZVdnQyZlhUWHRQdnBrUTVhOXFqS1p5WmUw",
     "CBMiXkFVX3lxTFBzRk40cWhKRlBvNk83S3FPa3FkbzBqeHIwTTF2aGFVbjV0QlZqd2dvbVlnWDBINUFoX3N3d1ZYQ284aUNLSlNQQk1PVmIwbjI2M09CbGZ0SWxkRXNHakE",
-    "CBMipAFBVV95cUxQRVRNOEROOVFlaTNzcnRjUGQ1b3ljWXR4aS1OeDNFaWRzQnBFWmNQS0JIZGhKOWZjZmZQWnlDbGZsbkloRjlfVm5OajFDSGpBZUlrZWRiclVxSGcwLTZYdmluYUpXLXlzYUVvUGFtRU9wVm5feUpQXy1XZ0U3bTlScHY5M0N2QzNrcko2VjBDa1A1TlFLenhRNmtaUk1XZ1k2d29ZMw"
+    "CBMipAFBVV95cUxQRVRNOEROOVFlaTNzcnRjUGQ1b3ljWXR4aS1OeDNFaWRzQnBFWmNQS0JIZGhKOWZjZmZQWnlDbGZsbkloRjlfVm5OajFDSGpBZUlrZWRiclVxSGcwLTZYdmluYUpXLXlzYUVvUGFtRU9wVm5feUpQXy1XZ0U3bTlScHY5M0N2QzNrcko2VjBDa1A1TlFLenhRNmtaUk1XZ1k2d29ZMw",
+    "CBMizgFBVV95cUxPd1pRN0tYY1pxcjIyTElkVm5rcENVRWpTR2M5VmFFbGM1eWRtTnZQYnVRc2FTaG1qT2VPc2FxRUQtWTZmYzRveHU3dE1Kc0p2UU05MDNlblNraWwzQUlBbjJrbVhRRlJacFBCZUpnNnpmVkxNdkc1MF9BcWlwVUNmUHY5NkdmNmxueDNwcTd5amlPY3VXTVdkUnRRQzJFZ3Vzak9PajBQUGt2dy1FdmpGNGNZWHJLU09DWmpXeFB4eEdqdnl0cnE5UWM3dWlOZw"
   ],
   "daily": {
     "d": "2026-08-29",
-    "ai": 49,
+    "ai": 50,
     "staged": 0
   },
   "staged_hist": [
