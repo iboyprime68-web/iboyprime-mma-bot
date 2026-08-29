@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Mania Mailbag: Which Fight That Got Away Irks You The Most?",
-      "ts": "2026-08-28T12:32:55+00:00"
-    },
-    {
       "t": "Dillon Danis vs Arman Tsarukyan gets delayed amid his withdrawal from Mike Perry clash due to injury",
       "ts": "2026-08-28T16:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Charles Oliveira Calls for Justin Gaethje Rematch: ‘What Bigger Story Is There?’",
       "ts": "2026-08-29T06:25:58+00:00"
+    },
+    {
+      "t": "Mick Terrill jokes saving BKB 58 main event ‘ruined his Miami holiday’ during intense face-off with Gustavo Trujillo",
+      "ts": "2026-08-29T05:00:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Alex Perez vs. Su Mudaerji prediction, pick for UFC Fight Night 286",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ2tvTXBnV1NSWVM2aTZtOGYyM0RXWkNFeFNOakVkR1o3VXJMVjg5QjA2NnV2d1g0ZGF4empSb2loZlhGaXMwYkNPeFhpTTBxZEdLRzRqNDhqTHo2QVpRakpGamtaTmdKNjB4VC10UnBIaW44UjBsRXRHTDJlX28xNjQ1MzJnTFQ1YWxFakU4ZXFQUER3dTRnYkJQS0R1SmhlQi1LSXdTQUJDaEZZRHV1VVRuQnJvd1pFTFFYMDFWN25YS1M1VkktYWZPc1pSdw?oc=5",
-      "source": "MMA Junkie",
-      "cat": "ufc",
-      "ts": "2026-08-29T00:00:00+00:00"
-    },
     {
       "title": "Mike Perry promises ‘blood sacrifice’ at Dual Arena even without Dillon Danis",
       "url": "https://www.mmafighting.com/ufc/507530/mike-perry-promises-blood-sacrifice-at-dual-arena-even-without-dillon-danis",
@@ -2105,6 +2098,13 @@
       "source": "Fighters Only",
       "cat": "ufc",
       "ts": "2026-08-29T06:25:58+00:00"
+    },
+    {
+      "title": "Mick Terrill jokes saving BKB 58 main event ‘ruined his Miami holiday’ during intense face-off with Gustavo Trujillo",
+      "url": "https://bloodyelbow.com/2026/08/29/mick-terrill-jokes-saving-bkb-58-main-event-ruined-his-miami-holiday-during-intense-face-off-with-gustavo-trujillo/",
+      "source": "Bloody Elbow",
+      "cat": "ufc",
+      "ts": "2026-08-29T05:00:00+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMihwFBVV95cUxQbVpqdEYzSUlhQkxEbzdDUzBTamp4QnZiWEFhX2EzN3FMb25pZC1jOTRlTkJ2RUtJQzNrRTlBblY1eHJaYnFFNzBxM1JTdHBoZnMwbFd4X21oQmRzWUtoWC1jRlZweHdrNnQzQWplX2g4c3hyTTF6eVl5bGlwSEszVXNfMngzRDA",
     "CBMiqwFBVV95cUxONlZlZUF5ejlCdHl3eFF0Wk1OZmNJTmVCVVVPUm8zQUVINE4xVmVleW9EOVRnak8xQ2tDRjFoUjVMTkJIc3VLZ3U2S1d3MzVwUkJwWVR0T0dDYXAtQVJPa1Q0UFk2SENsYzQ0bm1pRVdDWlZORlFOaWhuWE8xeUY4cGVlX2JyYU85WTIwNHdSVGwxVXBXQXBKb2lDOG1rbGF3amR3YThnbUlYNWM",
     "CBMioAFBVV95cUxQODJzN2stRkkyc0xIZ3VkalRnOEU0dnFYbUwwUlhKQUxXQjNPbldUTi1McFIyUnA3alEtcVo3R2h4aWxZUE42ZXVnTzRpTzVvaHBaTmJiRUVVRlhTLTF1VTZHOFl2V000SFRRVk56R2U0Q1NqOWs3clotZTB0b3lOQ1lhQ25TLWNjQXNaZGFqN2lmS24yWVhBaE9Ba3h6TVI1",
     "CBMiiwFBVV95cUxOa21DTmpyVUVEVkNQQk5HaG96dlZSYnptQlVwenkxLUVwNkFiMkptTWNiTHhXRkN0c0p2dFV5dHB5dlVFRThFLXRodmt5LUpJNGZXN2szYklHakpWWVZRTWY3cU5FUFNlOEZVWDJXWGRiamIyLTB5cjR2NnlWaGJwVUdjTi1Rd0pBNTVv",
@@ -3312,11 +3311,12 @@
     "5d80baa2-fd56-3dec-ac59-8541fdb7ddd9",
     "CBMiW0FVX3lxTFA4QVllcEJpTEJLYmhoOFJJXzVyandfZkJIRDZIR3hjZWVCeVpUemFULTFCNktFMU55YW05eE42N0NpZW4tVnFrMmRfWV9pRk90aVY3QWVvSEI4clU",
     "CBMiigFBVV95cUxQa1JIM204Tnp6R3kxRzY1cG5HWnAxaTZrY3FUN3pHZVlKbG5GRFZRaTVZNVBtaVZHTmxhbU1MRXJ3cnY1M0dNcmh0UUwyWlhtVThoMXJYZXFnRHJKMUM2VmFUeklfWTM0eE13UVBhTE83YUpacVVyMGtVeERIM19KNUY0ZTFnUTlPZEHSAY8BQVVfeXFMTTJzSW93VkhBLWVxNVNEQ1lRY1F6UV9wQ00tUE9yN21WNlBHWm9DejZOeXFYNDdWZFV0UnR3cnhSc0JNcmVVMW1CSjNwYmg1NGpEbFlpX29iSE5aNTBLSXdkZkFYR3NCNXp5RjBXRm1fZ0xSS1R0S1pNbkRIdXlhZ2taSnBrTmh6LThpN0xYN2s",
-    "CBMiVEFVX3lxTE5TTFdQLU9MV1dmUVdzX05jZnJBS3ppb3F4TS1COWQzRDlXcUxmMXJRcEVFU1RkQk9weHlMa0hmeS1FcW9WSEROTkY2ZFI3UDllc0VBRw"
+    "CBMiVEFVX3lxTE5TTFdQLU9MV1dmUVdzX05jZnJBS3ppb3F4TS1COWQzRDlXcUxmMXJRcEVFU1RkQk9weHlMa0hmeS1FcW9WSEROTkY2ZFI3UDllc0VBRw",
+    "https://bloodyelbow.com/?p=329380"
   ],
   "daily": {
     "d": "2026-08-29",
-    "ai": 57,
+    "ai": 58,
     "staged": 0
   },
   "staged_hist": [
