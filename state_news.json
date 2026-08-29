@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Road to the UFC 5 Semifinals: Best photos from Shanghai",
-      "ts": "2026-08-28T14:15:00+00:00"
-    },
-    {
       "t": "Split Charlotte Flair And Alexa Bliss, Then Turn The Queen Heel",
       "ts": "2026-08-28T14:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Como vs. Napoli Live Stream of Italian Serie A",
       "ts": "2026-08-29T06:09:48+00:00"
+    },
+    {
+      "t": "Mike Perry vs. Brandon Jenkins live results: Updates, round-by-round scoring and highlights for Duel: Arena fight",
+      "ts": "2026-08-29T06:30:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Bella Mir Vs Alexis Gomez Daughter Of UFC Legend's RAF Debut RAF 03 Playstation Plus Extra (qkILQRHayY)",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94S0ZQUnZVSTk5bC1sRWoyNmZVWk5OZTN1TmRrN1dEcjl5NVNaOTJmSF9NcTlncEM2SEVLdDlMSzFiclhCUU5aZWlSel9mb1lwMzFDX3dMbTJaWlE?oc=5",
-      "source": "Mshale",
-      "cat": "ufc",
-      "ts": "2026-08-28T23:03:14+00:00"
-    },
     {
       "title": "LFA 240 Results: Gomez vs. Sanders Fight Night Results from Clarksville",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9DbV91ZFpnYjgzUEViLVNVMHRYTC0waU9mcGI1ckxheXlhS3RCZUFYb0FUbi1sNjRKaFljZ2pCUFJOazZ2S2h2SjRvTTFtVHZDc1d1Wlh6WFZtMW44WU0xdkxaeFp6Z0FPY1FTVEVSTQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-29T06:09:48+00:00"
+    },
+    {
+      "title": "Mike Perry vs. Brandon Jenkins live results: Updates, round-by-round scoring and highlights for Duel: Arena fight",
+      "url": "https://sports.yahoo.com/mma/live/duel-arena-live-results-mike-perry-vs-brandon-jenkins-updates-round-by-round-scoring-and-highlights-063000872.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-29T06:30:00+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiYEFVX3lxTE5ZY1NrSElPXzRjSlVMTjhtMmNzaXJBM0pPUENNNFRuOFlkaG10S253SGlGVUN5WGVBekdKeF9lRVRNTFVpWUdVZkR0ZENPNGJ3dlJ2dHhPbGdDaGVEM2VnUw",
     "CBMib0FVX3lxTE1lWVVuSHN5X3J2Qk0xN1dMREhvSWpYMXhmVFRyWWhpTVRuS29JSVoyR1JZck45b3F2ZTZKa3hLX2E2dVAwZXVKWlFzMWhkOEdCWER5YjJkWnBjVlhXeUVkc3FPbGl0MWZPUTV1YzlxMA",
     "CBMiVkFVX3lxTE1kRW1VTUl1aHVhRDd6N3Q1dDNWQmlhLVhhd0pMWk1UcW5TUjBjbXhkYUtaQncycEhSTUpfSlMtc0hGVlRLa2FyTnRGLXBhc1h6bTUtNTJB",
     "CBMihAFBVV95cUxQdU5Sc2pMT1hzODdyV1FpQVRCYnQwREk0MkNSX3lENnZ4NGdGSjdSRmUzakpZT0RSU09QMWVraVZ5N3g3QzQ2UEtlblluYVk2aUkzWElLSWtlZDVyZXJlcV9QRWIwRHVVMzVqc2dzTmNZQXlyLU5iOXV0ZmgxRnE4aVRTTkE",
@@ -3312,11 +3311,12 @@
     "CBMingFBVV95cUxQanc2cHRCWTYtbmdOLU1lV2c5X1huOXpRWE4xSkZ6ZHE5Q3R5aURubjM5MmFDTkhjV3hzMms1cEQ4cHNyXzdUbzN5SGJvNGlYSEZ3S1dVRUd3R0VXcmNRV1doeUZKZTNNR3RqOEplcHhIM0hNLWdaNmJXc2JDSzlYQ3lpWUhiSFUzMkdUbE1mT25iTmNvaHlaSzRHQ0ROUQ",
     "CBMijAFBVV95cUxQTW4wazZuaVlWek53Sm56SjNfUEdud0lxRU1sOVFZVVJWeGIxRmpseW8zbGZ6bDBxXzA4N3h3cmswRmxQYUNvQlZKMUo5dVAxd2VPWlpqNHlWcGE2ZkNITDRWUFV3Vlhvd3dOVnpNQ3pHY2hNMTlUTWY5UzU0SDJsMWpFNXFFTW1sS2xOWA",
     "CBMigAFBVV95cUxQYU1KcXVtcU83YmFNNHVvaHB3RTlXWDBHcmdPNVhkTTFtdnZBSHlwc3lXR2tGMWd4UlllQWFyRHlnTzhTWl94OHBIRmk2aFJuWDltRGxXVFh5OUZsOHdZUkd6RGtZaFZVVXY5bzY1LVRkTVhwQU5tbUJUWFZab21oZQ",
-    "CBMiY0FVX3lxTFByRWVXWWpXTExPNzI0OEpGT2VZSnh4Mk5RWlJoN0dEeUlsVzdQSW0yQk1yLUo5M1dCMWlXTUVzUzZQQ2RVeTJUcGpqZ09IekRvSk5id0YxRUgtdW5xU0xrQXRCOA"
+    "CBMiY0FVX3lxTFByRWVXWWpXTExPNzI0OEpGT2VZSnh4Mk5RWlJoN0dEeUlsVzdQSW0yQk1yLUo5M1dCMWlXTUVzUzZQQ2RVeTJUcGpqZ09IekRvSk5id0YxRUgtdW5xU0xrQXRCOA",
+    "de6d1b7d-f453-4447-84ba-5803b42efbe8"
   ],
   "daily": {
     "d": "2026-08-29",
-    "ai": 39,
+    "ai": 40,
     "staged": 0
   },
   "staged_hist": [
