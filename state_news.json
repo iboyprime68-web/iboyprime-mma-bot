@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Most Confident Picks For Dana White’s Contender Series (Season 10, Week 1) | VOICE OF MMA Richard Gere (koIHTG5IfH)",
-      "ts": "2026-08-28T23:42:30+00:00"
-    },
-    {
-      "t": "Leah Letson",
-      "ts": "2026-08-28T23:47:40+00:00"
-    },
-    {
       "t": "Kamaru Usman Suggests Bo Nickal’s Next UFC Fight",
       "ts": "2026-08-28T23:50:14+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC Shanghai highlight video: Yadong Song overwhelms Umar Nurmagomedov with a KO",
       "ts": "2026-08-29T13:08:12+00:00"
+    },
+    {
+      "t": "Open Thread, August 29, 2026: Hardest quiz yet?",
+      "ts": "2026-08-29T13:05:00+00:00"
+    },
+    {
+      "t": "UFC Shanghai video: Song Yadong KOs Umar Nurmagomedov, calls for title shot",
+      "ts": "2026-08-29T13:07:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Shanghai predictions",
-      "url": "https://www.mmafighting.com/ufc/507474/ufc-shanghai-predictions",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-28T23:15:53+00:00"
-    },
-    {
-      "title": "UFC Shanghai video: Julia Polastri flattens Xiong Jingnan with brutal head-kick knockout",
-      "url": "https://www.mmafighting.com/ufc/507559/ufc-shanghai-video-julia-polastri-flattens-xiong-jingnan-with-brutal-head-kick-knockout",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-29T08:01:54+00:00"
-    },
     {
       "title": "UFC Shanghai video: Hector Santiago shines in debut, KOs Lawrence Lui",
       "url": "https://sports.yahoo.com/articles/ufc-shanghai-video-hector-santiago-081950701.html",
@@ -2105,6 +2091,20 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-29T13:08:12+00:00"
+    },
+    {
+      "title": "Open Thread, August 29, 2026: Hardest quiz yet?",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdTM0amh0UlNBWk04NVltQzFDLWM4ZjRiMklTZ2ZHbzQ2eG9jbHlnSmNTTE1UTXJ1VlRTQXNLQXhVeXBBMkhyNmpJTXdrMjJpS2lzVE1tMndmdG5Lbk5WREViRFVMaFhSd3JwcXZCZHEtXzBzT0hXOEptUHo0Q3dCTHVaSWpWMW9leTVFRWdrZC1nN0NuYjlKejVQWQ?oc=5",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-29T13:05:00+00:00"
+    },
+    {
+      "title": "UFC Shanghai video: Song Yadong KOs Umar Nurmagomedov, calls for title shot",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMVN6bWlDSFNBb0UxMzlId0N3N1ktMG85dEJjck1jZXlHWkVsTnRPZFlpTGMtYWhTSGVLUlJGLVFaSUNEbS1ib0lEejZCdkFjazU2cDl3cE5ZZ3poRkxUb1c2dVdLWW1ybXJLRkxlaFlsbllvVTNHV0FwbGs0VjcyVlVsMFhmNkVPWmlNaUZLTE81bG1hRy1LMWd5MWpUNERfOXI4UFN4ZDluMXptd24zb3hNZ2JMNXY5RWtVamNLWHJIMk5rRXBXeHJ3RWtHX2xYNDE3cQ?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-29T13:07:00+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMickFVX3lxTE5IcGVpV0hreF90aHZ3YVRtQzdRMmp6bkpvejNSWXRqcEhMY1lsZ05Zc04yUVk5VFRGZFdacWdwQndWMmNmdE5kbTBLYXJyNGVSRWk5ZUxmZldrODlGdnI2N3A5TFhTX0dfWUI0bnRlUkpjUQ",
-    "CBMigAFBVV95cUxOYmVCWmNva0lSdjhGc053VHBLUHVKejJja19xbkF1YU80Yi1Jdm5XemlaYkhQYXFqNnlBT1F0dTVpX1JZX01lbXpEWHlJVkJENVp5S29XWjhFMllQekZkWDNrMFN0LVdyWUlwMjRTdFViUWdZS2g0YzN4Qk5qMENWSA",
     "CBMijwFBVV95cUxNZmF1Z2FxTDd1a1J0dmJ6X3JUN0tCTnMwQlR3RmxEZEVnNDZ6LWRabU1DOUVncTU1S21WOVRMN1ZDejBYcmRGdmZESC1HNHRwTHMzTXlTbjV5OWFodnR1R3lucW5MS0c3ZTZKV3JybnFlRjA0cnBpaWthUVl5SHVodkRqMldydTlZRDFNZ1NYRQ",
     "CBMiW0FVX3lxTE5jeWhfZGtxSzlzZmJVQXBIdTJFSjdvQWVxNi1JMm1FSllMWGJDQlFrTmlDWjZWVjV0RURYZzZfTmhzWmRHZm9SUWJaZzV6cXRZb21jS0F6T2RnazA",
     "CBMijwFBVV95cUxOTzI0V1NJSGtacjZ4UFRhWThHNEpzRFdnTFdhX2tFWExNci1sNmFra2tMOWJOWE1tZGtmQlNYWGd5cE1uT21LbUNNV3pIbzhfMDVXQ3lsc3g0Snd2V0FKZVRMVDR1d2VQOXA5WXhpQ054TjZwMGh5VFkzSml5TG9ZZlRyMFIzdDNHT1dTdVRSaw",
@@ -3312,7 +3310,9 @@
     "https://www.mmamania.com/468102/highlights-open-ufc-shanghai",
     "https://www.mmamania.com/468104/highlights-open-ufc-shanghai",
     "https://www.mmamania.com/468147/ufc-vegas-120-results-quillan-salkilld-strangles-bloodied-mateusz-gamrot-inside-a-round",
-    "CBMiwAFBVV95cUxQNVFLS05oZm1tcHk3aEs0NEpzSEctYUFkZldtTGQzQ1VvTE9nYk9IX05WQUpQa2ZEU2NGeU93YVBXb3dYbDFqdnZrZEctclNHOXlaSlRYZWFpT1BNRTBvNDhfTEhzLUJmODk0T19uMGxISWJiLTVGSkNtRFk0cjZ4T0xDa3JOWEZNLVNVU1VvZnNCV01tYnBNcW1GZ1VHUndXSmdGaERDV1NSYVpvWkx5ODNJdENwWmlkYnFEUUJzWmU"
+    "CBMiwAFBVV95cUxQNVFLS05oZm1tcHk3aEs0NEpzSEctYUFkZldtTGQzQ1VvTE9nYk9IX05WQUpQa2ZEU2NGeU93YVBXb3dYbDFqdnZrZEctclNHOXlaSlRYZWFpT1BNRTBvNDhfTEhzLUJmODk0T19uMGxISWJiLTVGSkNtRFk0cjZ4T0xDa3JOWEZNLVNVU1VvZnNCV01tYnBNcW1GZ1VHUndXSmdGaERDV1NSYVpvWkx5ODNJdENwWmlkYnFEUUJzWmU",
+    "CBMimwFBVV95cUxQdTM0amh0UlNBWk04NVltQzFDLWM4ZjRiMklTZ2ZHbzQ2eG9jbHlnSmNTTE1UTXJ1VlRTQXNLQXhVeXBBMkhyNmpJTXdrMjJpS2lzVE1tMndmdG5Lbk5WREViRFVMaFhSd3JwcXZCZHEtXzBzT0hXOEptUHo0Q3dCTHVaSWpWMW9leTVFRWdrZC1nN0NuYjlKejVQWQ",
+    "CBMi1AFBVV95cUxOMVN6bWlDSFNBb0UxMzlId0N3N1ktMG85dEJjck1jZXlHWkVsTnRPZFlpTGMtYWhTSGVLUlJGLVFaSUNEbS1ib0lEejZCdkFjazU2cDl3cE5ZZ3poRkxUb1c2dVdLWW1ybXJLRkxlaFlsbllvVTNHV0FwbGs0VjcyVlVsMFhmNkVPWmlNaUZLTE81bG1hRy1LMWd5MWpUNERfOXI4UFN4ZDluMXptd24zb3hNZ2JMNXY5RWtVamNLWHJIMk5rRXBXeHJ3RWtHX2xYNDE3cQ"
   ],
   "daily": {
     "d": "2026-08-29",
