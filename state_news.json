@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC commentator calls for Shanghai co-main event winner to get a title shot after elbow KO",
-      "ts": "2026-08-29T12:38:22+00:00"
-    },
-    {
-      "t": "“Most Beautiful Champion I’ve Ever Seen” — Mackenzie Dern’s Skimpy Swimsuit Video Goes Viral",
-      "ts": "2026-08-29T12:41:32+00:00"
-    },
-    {
       "t": "Dana White issues official statement on Tom Aspinall's next fight amid bitter Eddie Hearn feud and UFC exit rumours",
       "ts": "2026-08-29T12:42:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "UFC Fight Night - Mason Jones Vs Axel Sola Who Wins? Slushi Twist (8JjETqE0xN)",
       "ts": "2026-08-29T17:09:42+00:00"
+    },
+    {
+      "t": "Liverpool Fail To Win AGAIN | Liverpool 2-2 Nottingham Forest RECAP - Golazo Matchday Stream of Soccer",
+      "ts": "2026-08-29T17:51:16+00:00"
+    },
+    {
+      "t": "UFC Fight Night Highlights: Bilal Hasan vs Nilson Rojas Stream of UFC",
+      "ts": "2026-08-29T17:51:17+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Aori Qileng vs. Kai Asakura prediction, pick for UFC Fight Night 286",
-      "url": "https://sports.yahoo.com/articles/aori-qileng-vs-kai-asakura-233038658.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-28T23:30:38+00:00"
-    },
-    {
-      "title": "Ex-WWE star Velveteen Dream throws punch at podcaster Ryan Pownall in final face-off",
-      "url": "https://bloodyelbow.com/2026/08/28/ex-wwe-star-velveteen-dream-throws-punch-at-podcaster-ryan-pownall-in-final-face-off/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-29T02:30:00+00:00"
-    },
     {
       "title": "UFC Shanghai Results: Nurmagomedov vs. Song",
       "url": "https://www.mmafighting.com/ufc/507466/ufc-shanghai-results-nurmagomedov-vs-song",
@@ -2105,6 +2091,20 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-08-29T17:09:42+00:00"
+    },
+    {
+      "title": "Liverpool Fail To Win AGAIN Liverpool 2-2 Nottingham Forest RECAP - Golazo Matchday Stream of Soccer",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQemVuQzRyTndTektUN2FvU2RBTUlhXzF3Wld1YUkzekVJV3dIQzRMMzlsSEk0ZWtaZUNNRldPcFE3cUZTS3M0NTFWal8tUXNjVUU0MDEzcmlwRTU3OG9qTXYxa21tUGNPLTNYSHhvaUR0YktCWFFFUFRPNVB6QUloMVdIanAtT1Y5RWVMVTRSSGZBWC16YVF5WVZjcHF5Ykw3bEppOHZiOHhEVHA3azhRcl9jQ2pQaW9sTElISVB6c2VSOFJv?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-29T17:51:16+00:00"
+    },
+    {
+      "title": "UFC Fight Night Highlights: Bilal Hasan vs Nilson Rojas Stream of UFC",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOby1zUURWY0dBNUhTMWc3VHJuS3QzcHZMemhqaGYwUVl4bWVSMDZVRnlaQVRMMlNHS3NTS0Z1dTBiYkNyMlpHV1lwejk1eVZoeXhYbGotUTBMZVl4M0FVc2MzdXpONk9YM2FUbU9ucEdHUENFN1I3LWtEOXU3bFpnUHlPcmpDenN5bGgtVEtXcTJYVkg4VTB2Nk1ocTc?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-29T17:51:17+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMipAFBVV95cUxNM1kwNlV0c1Z2Qjl2OXZxcDhvUWlKWHJHek0tMXVCZEUwQUZhdzFGYVdNcDNTc2o4cWdsTVAwa3pjVzdsSk5nTWpYak5UR0RYXzBkRzUwbnhFTElxRGF2aDM4TXFERS15V0dILVJ5VlhvdkJjUUpCM19Xa1dNdjdqelR4eVZ1c1pQaTVfeEY4R2ZBa2ttcHNaYi1aWHdlTjRFSmxpbQ",
-    "CBMirgFBVV95cUxPY2N4SG9FQjAwRU9kMjdGczd3LWNkQ0lNOTA0bTgwenRTcTlJenNmbGMzbVgweUpwU3p3NThzVjZxYTN1eGwxLU9vczFaVnkwQi0tMTl0cU1pREFSdy1JckRkX2hiU2JjTUxxTlBVUE9LVFFGTVIzQ0FpbzB1YmE3NDlvUTZtMG9LaWpidTR3WGR6Z2ZwNEVGbHlncXp1U1BrdlRZSkgwVzFnZ2VCMFE",
     "CBMiS0FVX3lxTE5fZy1tZXcyYjJCeXAwX0M2ZGtwWVp2R1U1SXkxbzZMcWtmNmJ4cGVCSE10NWhLVm9BQzVlQWRocmhfdkR3UldacHplZw",
     "CBMiY0FVX3lxTE9BQkY5UlpGN3dMczBtdFl3czN2cjdnVWVWSnFSaTd4RktjZk9mWW5JemctbDRQZXdUNTdkd0NGU2FsRDFsRldaRzhCZ0xYaVFBWDkwdDdOZ1VPN3F0b0Q2X05BMA",
     "CBMivgFBVV95cUxOM3pHNTA1LXFYRGR3dF9rdVdpUmhxR3V2dVVqdWdncXhYbnl1MW15NDM0QXpJME1uS2cwR0hBN2tkUFo2dUdscVdETHotUGJLYTJfTjhxOERCNzh4WEg0QzdSNFpwekE4UHB1LVpOWHRMZWowLWRXRUsxRU16eG0weXhBNEttUlNZb0xmajBka2F2TndNYWV6NHZtNUZGcGxBekVvRUhoLXpUQldIS00tcGswckJSMDV2el9SYmlB",
@@ -3312,7 +3310,9 @@
     "CBMickFVX3lxTE9pWHZNdi1OV1RVcmZVeUIxd2V4RnFKTkg0NXRmNENuNU90MnFqU0VhZXZIRHlOR0JzOXVkVEdFUHJrNVhnQjJ6WnVCNTNZZjJ1SjBoQ0phczV1Y1MwWElCazlhbnZnbWhRWS1lUjNfakl5dw",
     "CBMi3AFBVV95cUxQQVB1dktLNXFlT3c3eEtGUThGTFNEalZTSTZpV25hdml4RTlDTWdQbHctdnFpUFctUzB6VUFrdUN4VENuZXVQMDhvQmMwZi1tWGNvaGdLeE1xV2dSSmIxUUwtbENGbjl6aVBBbldZSTN4QlQ5VmlpNjBQRHQtcXU3SEZudDU0MlVyZEh5TXhNZm1WbmZtRWpqX2ZhaHpHVUNpQjdnZXZYenBYRnNnOWN6bVRtRy1DLUZFWktXLTZTRU9ZQ2VxUlcwekFISWJlMF8yUjBvajFUZ3pXMlVq0gHcAUFVX3lxTFBBUHV2S0s1cWVPdzd4S0ZROEZMU0RqVlNJNmlXbmF2aXhFOUNNZ1Bsdy12cWlQVy1TMHpVQWt1Q3hUQ25ldVAwOG9CYzBmLW1YY29oZ0t4TXFXZ1JKYjFRTC1sQ0ZuOXppUEFuV1lJM3hCVDlWaWk2MFBEdC1xdTdIRm50NTQyVXJkSHlNeE1mbVZuZm1FampfZmFoekdVQ2lCN2dldlh6cFhGc2c5Y3ptVG1HLUMtRkVaS1ctNlNFT1lDZXFSVzB6QUhJYmUwXzJSMG9qMVRnelcyVWo",
     "CBMie0FVX3lxTE02MVhmUS1SS09fV2VHN0Nmd3BUdEFLZlJ6ZFIxNm96RURnX0J1NzNvaU1CZ0ZfTHlHWUNzWUdQMG92SUh4NlBnbHFETnJfUXBFTFhyNUw4YXd2Q1RCS2VVdFBqUmpEa21FWFpiUTF4UHAzQ1lUcEd4aTNxSQ",
-    "CBMiYEFVX3lxTE5vQVdZUTM1UHlUMUNnYlVJbmNpZkdRUDY2ZElqQWZVVGlLM3h1VnVHMG5udy1mMFNTUHFIWFZkZklBUUsza3hTbnBLcUxMY2ZpTU1mQi0zbnltVlZPbi1LMA"
+    "CBMiYEFVX3lxTE5vQVdZUTM1UHlUMUNnYlVJbmNpZkdRUDY2ZElqQWZVVGlLM3h1VnVHMG5udy1mMFNTUHFIWFZkZklBUUsza3hTbnBLcUxMY2ZpTU1mQi0zbnltVlZPbi1LMA",
+    "CBMixAFBVV95cUxQemVuQzRyTndTektUN2FvU2RBTUlhXzF3Wld1YUkzekVJV3dIQzRMMzlsSEk0ZWtaZUNNRldPcFE3cUZTS3M0NTFWal8tUXNjVUU0MDEzcmlwRTU3OG9qTXYxa21tUGNPLTNYSHhvaUR0YktCWFFFUFRPNVB6QUloMVdIanAtT1Y5RWVMVTRSSGZBWC16YVF5WVZjcHF5Ykw3bEppOHZiOHhEVHA3azhRcl9jQ2pQaW9sTElISVB6c2VSOFJv",
+    "CBMinAFBVV95cUxOby1zUURWY0dBNUhTMWc3VHJuS3QzcHZMemhqaGYwUVl4bWVSMDZVRnlaQVRMMlNHS3NTS0Z1dTBiYkNyMlpHV1lwejk1eVZoeXhYbGotUTBMZVl4M0FVc2MzdXpONk9YM2FUbU9ucEdHUENFN1I3LWtEOXU3bFpnUHlPcmpDenN5bGgtVEtXcTJYVkg4VTB2Nk1ocTc"
   ],
   "daily": {
     "d": "2026-08-29",
