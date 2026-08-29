@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Belal Muhammad: Umar Nurmagomedov down to fight anyone, not getting any layups",
-      "ts": "2026-08-28T12:03:36+00:00"
-    },
-    {
       "t": "UFC veterans in combat sports action Aug. 28-30",
       "ts": "2026-08-28T12:50:42+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Shanghai ‘Nurmagomedov vs. Song’ play-by-play, results & round scoring",
       "ts": "2026-08-29T00:22:03+00:00"
+    },
+    {
+      "t": "Dana White Responds To Rumors Of Tom Aspinall Leaving UFC",
+      "ts": "2026-08-29T00:30:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Shanghai preview and predictions: Umar Nurmagomedov or Song Yadong — who wins?",
-      "url": "https://sports.yahoo.com/mma/article/ufc-shanghai-preview-and-predictions-umar-nurmagomedov-or-song-yadong--who-wins-163311576.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-28T16:33:11+00:00"
-    },
     {
       "title": "ONE Friday Fights 168 Co-Main Event Result: Brazil Drops Petphupa To Claim Unanimous Decision In Thriller",
       "url": "https://sports.yahoo.com/articles/one-friday-fights-168-co-164853593.html",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-29T00:22:03+00:00"
+    },
+    {
+      "title": "Dana White Responds To Rumors Of Tom Aspinall Leaving UFC",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVm5FTVE0eEZLWV9YdDV2RTMwZm1iX0hkVFRJc1ZMQUVjOUdfWHJobGdCUUtnSXRhZVhzQkxnR01nalZjbjhFcGd2N29BX3l2MFFtNm0wQlN1elNkSzNWV0N5eGFIVmRaQU1pUjNIR2YyNnotR19WdHh4cGs2RVo4eEdKZ1VURzFVX0hLZTBQQ2RLUndyMzBjbm5zdDA3M3Y5MndMc3NGTFltS3NYc0FGMUlGNWoxQUpxblZtRVNpejl0c1FOeDcxMUNHdWE2bnUxMi1aay12aDVZaWRWcFNBUk5B?oc=5",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-29T00:30:00+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiUEFVX3lxTE9XSUk0RDJwR1JMY19ZMjlFdDJTdDE5aUk3ZmZxV1JoRXVpSThqRG53RS0zTUV3YWg4V3JBS1NLT2llak1tTDNzQmR5cTM3Tm44",
     "CBMi3wFBVV95cUxPY3gyMHp1TU5XTk5QNHBWcmdsWXA5VVlZbkdTMVZWVlY1MG5GUmxYYkZlWXh1emwyWllnNXdQb0F2NTFrV3d5UnlKOEtPMHBWN0kwM3E2SWxpVWEwTnFaWjJNbVNTbWxkanl3N0ZDUnJCbUtMV3pDS29zNHI5WEktOWpFelR0VHU0akI2R2VDMUQydDNtMkhhU29jME9wejhDdFl3Nkl5YVd0ZzdQTGFwMVYyMWJ4N1NCZFRaQk5aNkJjdmhqalVqV1JYRkFjUF9hVFhqUWRrdHd2WXBfTzlr",
     "CBMiiAFBVV95cUxNeG5fbjVLaVMtM3hrLXZ1M0NDTTV6YXNDTGNtTVMtRlh2LWRCRXlGX011aE91WjZNaXhFZzR6M3dkX2JnTG5aS20wd1FmTGs4STNOUDNERjdUdTh6X0ZwUlN3OEp3UW84RGpRZmh0c29iajcxNGJzZlB2OVlsc1BzeHdpbXVvLXdE",
     "CBMiywFBVV95cUxOTkNEYUx4SnM3QU5taThNd082bVN0U0d5eXBTay04dFcwbDdiejdiR3JpZjJmU2RIcnREWi04REc4WWZ5RUIzMUhMR2RqZF9QQjgyT3YwdFpDNUE3bHlDdXhXZG1lWlpPVHdSN0ZIN2RiLXQtRlBHb1ZSSE55R0dTbjhpclNMZ3hIbVlYVEx5Z1cwTzFtd1IxeXlfOE1nWTVXMnVPRm1YemZsZ3Bzc2hELUVFR0VwakN2MnBQbGJ4M2YyMzhMa2IwQ0RCdw",
@@ -3312,11 +3311,12 @@
     "CBMiW0FVX3lxTE1zU1lab0dQUGM4Ym5TSnJtZEhlRFVGeHRSYVZkM1NrODFBZGdBNVdUR29Yd04zTUJXdTFhb0JvdjU0RXFGb2lHQjBoWS1WckUzNlQyd05Cdlc3RVU",
     "CBMiUEFVX3lxTE9jaXdRd3Y1TjRsOGFVb09NSC1Vek5YUmQ5VDI4OVZmOVEwSm52dEwwZnhZVjN2dkJweW1KVVRTaXhqWUIxTTdxRXBWeEV3VTRp",
     "cf2e67ff-f522-323f-b271-e5b97137b269",
-    "https://www.sherdog.com/news/news/UFC-Shanghai-Nurmagomedov-vs-Song-playbyplay-results-round-scoring-202569"
+    "https://www.sherdog.com/news/news/UFC-Shanghai-Nurmagomedov-vs-Song-playbyplay-results-round-scoring-202569",
+    "CBMi4gFBVV95cUxQVm5FTVE0eEZLWV9YdDV2RTMwZm1iX0hkVFRJc1ZMQUVjOUdfWHJobGdCUUtnSXRhZVhzQkxnR01nalZjbjhFcGd2N29BX3l2MFFtNm0wQlN1elNkSzNWV0N5eGFIVmRaQU1pUjNIR2YyNnotR19WdHh4cGs2RVo4eEdKZ1VURzFVX0hLZTBQQ2RLUndyMzBjbm5zdDA3M3Y5MndMc3NGTFltS3NYc0FGMUlGNWoxQUpxblZtRVNpejl0c1FOeDcxMUNHdWE2bnUxMi1aay12aDVZaWRWcFNBUk5B"
   ],
   "daily": {
     "d": "2026-08-29",
-    "ai": 15,
+    "ai": 16,
     "staged": 0
   },
   "staged_hist": [
