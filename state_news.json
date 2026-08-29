@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Sumudaerji Outworks Alex Perez In UFC Shanghai Rematch – Highlights",
-      "ts": "2026-08-29T12:31:05+00:00"
-    },
-    {
       "t": "Kai Asakura Crushes Aoriqileng, Now 2-0 At Bantamweight",
       "ts": "2026-08-29T12:31:10+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Lightweight Championship Picture Complex Before UFC 331",
       "ts": "2026-08-29T17:22:44+00:00"
+    },
+    {
+      "t": "Ankalaev X Bogdan Guskov NOW UFC Today 25/07 In Live - Ankalaev Vs Guskov La Verità (HyYFGa05bj)",
+      "ts": "2026-08-29T16:44:44+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Liu Ce knocks out opponent in 1st round of UFC debut in Shanghai (Video)",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONWxYUE5nZEVhajFaQ0JjdUh2cVJLNl9RSGxUNFlpcnFXQ2VueHU1SnhJOTgyLWZELVIybVpnTWFjQ0ZsWW5SWXBVZy1EeTVySC0tbl9saUpUeTd6RXRtRFJLNG5jS1BzNTRyZG1pNzU4TV9tbmc0X3dKSU8wVldITl9uZ21iMDFEZjh2VFhIY2lHZENWSUV1bXItb2ozQTRTVWpkdzJKMUEzQllaNmNPY0NR?oc=5",
-      "source": "Zamin.uz",
-      "cat": "ufc",
-      "ts": "2026-08-29T13:34:00+00:00"
-    },
     {
       "title": "UFC Shanghai Highlights: Song Yadong stops Umar Nurmagomedov in China",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWmdkN3FmNWpIR21jN0NYYlB4MnNqWlpnS25jN1U3bWxuQjlVcjl1d0I1RmJ6aHBYZFR3UXItU0k2SHRuN3FDbUxzeVBJSk9hYXFpcmdOazg4cEtuUEU2V0hEVlV5VFlHMHRKbExZSDRQOF9kZ1lBcWtJM2t5TXYwZUNtb3gxT0c1Y3lxVQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-29T17:22:44+00:00"
+    },
+    {
+      "title": "Ankalaev X Bogdan Guskov NOW UFC Today 25/07 In Live - Ankalaev Vs Guskov La Verità (HyYFGa05bj)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjTUVHWldQSjFLMnZfcUZBQWxWYmswWkF1b1ROZVBjSWt6OS1PVjNOT2dXM1NTQ0ROaFV5dlNKaXZrWjRmWGY3OGJ0aTN0aDlqS2Z2NlJxQU44cTQ?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-29T16:44:44+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=328714",
     "CBMimAFBVV95cUxOODFMazd5c3U2enJEWnhGOGxOeXVBRGRDY0s0WURQWFR4UWZ2X25yVlVRZ2NMeEJzVkxFUEdDd0l3MmtwdTFLQnBCMWFhY1pLaDBlWXJPYkVPb3VaNTd5emVWcUNTaXp0RzZaQzcyQzJQR1NMYVp2SzlCS2xqclAxTWlYOU1iV1NmVEdHQ3lVV1luaVpDTksyQQ",
     "CBMikAFBVV95cUxQUUM2NV9Oc1J3cFRqdDhEdjJ3czlVdFk3Zm12WHFvNmxyNHcwX1kzRm1hYmR5M2ZUV2ViRERYZS1UU2NMYTQ1UjM3amhCS3ZBOTBnSndFbGRVcmFzdjhETkR4N21ZQnFWUExMdTUzZnptZHdUdnZuRlE0NFZQdzJhZ0tuaDNZRzFaSGpiX3RfRG0",
     "CBMimwFBVV95cUxNaE45TmFpdjNJQ1dyekNWWjVHZjRJM3JBLVNPT3czeHV3NExBbzRPUFhhR0RXS2Y3ajdlUndkTjFsanVVZDJhUy1EZ3l6OE1SSVNuNWlGeWpOSDA0NEtFdDVEbVk4b3NsWnJVRmlDMzV4SXRnU2VSVHFtWXBJT0tic2NoeEpubjhOWXNaNFZhb0lEUkZVWDNiSFN3MA",
@@ -3312,7 +3311,8 @@
     "CBMivgFBVV95cUxOX2NNdU1UZVdvNkNQQ29JYVpBTGFjS3ltN0xXS0xwV1c2VFdNcDRsYlIyYkFaME5LNUdjMEVJWGU3YW0xM2dLLVVIT28wdUg1VTRWbFYtbERjMW1qeHExVHkyZUhoSTZlb0VpN3daUnZXWjN4Tk5nWlVTZ1lhTmRfUlZXV2ZPZ3hwQTc1Q0FSeUxZM0FjWWVDb01WcDY1OUs3X0gyY0g5cWhZMXp1eWJRRWRRZ3FZWmRqUlZZcUpR",
     "CBMixgFBVV95cUxOdjMyMTNBTndNWERZSHN5d1ViWnBvQ01nR1dNb05iOFU5RnJyS0hwcGtqbVlRaFNERWxhWHVxMlE5YUxMNWctT0tfV3J5QUFuSWJ6OFZTaVlmUzNlaTg0WEJYZDNnWloxdzZlNzZSMUNSVzJZU1FidThieHZqQUU4WllaNkRMMWNMVW12VjhleEl2Q2JSendDOTRHMEhFcG5FVHRUdFMzZGczdlhPdzJDam9WMnlkSkhYSi1VR203NFNQRjRiLWc",
     "CBMiYEFVX3lxTE92MkZCa1hURXBMRWowVVY0WWdBajZhblR3cXdXOXdfMFlqQzZYX1dWUXUxejVrOEFJOGpNNGctMzRQT283dTg2QjVVMTBlV2I5NWkwdEN6cldrOWg3X2c4eg",
-    "CBMijgFBVV95cUxNZjRaV29GX2FKU2dROUc0Z0tnbGxVeHkyblN2OWJmdTF2a09tdjNJcEk2dEc1RHV0Q09qRkt3bk1RclB4UXFELTh0bWltVHUtQUJPX1AyaG01VFRnVl9vSlVfZDRtVjNkbW5ldUMtd21Hb3ppdVB2Zm9Hbmt3R1Y2QTBMT2hRTU4tZVR5UGln"
+    "CBMijgFBVV95cUxNZjRaV29GX2FKU2dROUc0Z0tnbGxVeHkyblN2OWJmdTF2a09tdjNJcEk2dEc1RHV0Q09qRkt3bk1RclB4UXFELTh0bWltVHUtQUJPX1AyaG01VFRnVl9vSlVfZDRtVjNkbW5ldUMtd21Hb3ppdVB2Zm9Hbmt3R1Y2QTBMT2hRTU4tZVR5UGln",
+    "CBMiW0FVX3lxTFBjTUVHWldQSjFLMnZfcUZBQWxWYmswWkF1b1ROZVBjSWt6OS1PVjNOT2dXM1NTQ0ROaFV5dlNKaXZrWjRmWGY3OGJ0aTN0aDlqS2Z2NlJxQU44cTQ"
   ],
   "daily": {
     "d": "2026-08-29",
