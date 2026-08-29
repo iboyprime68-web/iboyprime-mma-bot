@@ -2,10 +2,10 @@
   "v": 2,
   "cursor": 5,
   "staged_at": [
-    "2026-08-26T10:01:25.421305+00:00",
     "2026-08-26T18:08:10.987036+00:00",
     "2026-08-27T19:53:00.534882+00:00",
-    "2026-08-28T20:56:37.994548+00:00"
+    "2026-08-28T20:56:37.994548+00:00",
+    "2026-08-29T14:33:35.209443+00:00"
   ],
   "asked": [
     "Who is the most dangerous striker in the UFC right now?",
@@ -24,23 +24,24 @@
     "Who is the best lightweight in UFC history?",
     "Who is the most exciting fighter in UFC history?",
     "Who is the most underrated fighter in UFC history?",
-    "Who is the most feared heavyweight in UFC history?"
+    "Who is the most feared heavyweight in UFC history?",
+    "Who is the most impressive KO artist in UFC history?"
   ],
   "last_entry": {
-    "q": "Who is the most feared heavyweight in UFC history?",
+    "q": "Who is the most impressive KO artist in UFC history?",
     "type": "poll",
     "options": [
       {
         "label": "Ngannou",
+        "emoji": "🥊"
+      },
+      {
+        "label": "Masvidal",
         "emoji": "💥"
       },
       {
-        "label": "Cain Velasquez",
-        "emoji": "🐻"
-      },
-      {
-        "label": "Stipe Miocic",
-        "emoji": "🏆"
+        "label": "Pereira",
+        "emoji": "🔥"
       },
       {
         "label": "Other (comment below)",
