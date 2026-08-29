@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White issues official statement on Tom Aspinall's next fight amid bitter Eddie Hearn feud and UFC exit rumours",
-      "ts": "2026-08-29T12:42:00+00:00"
-    },
-    {
       "t": "“70-30 in Alexander’s Favor”: Susurkaev on the Volkov vs. Kuniev Fight",
       "ts": "2026-08-29T12:49:26+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Fight Night Highlights: Bilal Hasan vs Nilson Rojas Stream of UFC",
       "ts": "2026-08-29T17:51:17+00:00"
+    },
+    {
+      "t": "UFC Shanghai Post-Event Facts: Song Extends Bonus History",
+      "ts": "2026-08-29T17:57:32+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Shanghai Results: Nurmagomedov vs. Song",
-      "url": "https://www.mmafighting.com/ufc/507466/ufc-shanghai-results-nurmagomedov-vs-song",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-29T13:24:59+00:00"
-    },
     {
       "title": "Kamaru Usman Suggests Bo Nickal’s Next UFC Fight",
       "url": "https://sports.yahoo.com/articles/kamaru-usman-suggests-bo-nickal-235014049.html",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-29T17:51:17+00:00"
+    },
+    {
+      "title": "UFC Shanghai Post-Event Facts: Song Extends Bonus History",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZVZHQUZvM0dUaVlzRE5MeXFRTWlxaDhLUS1mVTdvS2FCbWRwY1M5YzJoYW9LVFNtbGdnNUdXZ0J2VzBUMExsMnk3bzBKcmpsLWNEUU9iZ25PZlZIbXhRNnZUOHNFclllNUFjMm00OE56R25TQUxGVFRuczl1Qk92eEsyNlVOYXhud2I3NFk2VEhvTkdnU01hMDNscFI?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-29T17:57:32+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiS0FVX3lxTE5fZy1tZXcyYjJCeXAwX0M2ZGtwWVp2R1U1SXkxbzZMcWtmNmJ4cGVCSE10NWhLVm9BQzVlQWRocmhfdkR3UldacHplZw",
     "CBMiY0FVX3lxTE9BQkY5UlpGN3dMczBtdFl3czN2cjdnVWVWSnFSaTd4RktjZk9mWW5JemctbDRQZXdUNTdkd0NGU2FsRDFsRldaRzhCZ0xYaVFBWDkwdDdOZ1VPN3F0b0Q2X05BMA",
     "CBMivgFBVV95cUxOM3pHNTA1LXFYRGR3dF9rdVdpUmhxR3V2dVVqdWdncXhYbnl1MW15NDM0QXpJME1uS2cwR0hBN2tkUFo2dUdscVdETHotUGJLYTJfTjhxOERCNzh4WEg0QzdSNFpwekE4UHB1LVpOWHRMZWowLWRXRUsxRU16eG0weXhBNEttUlNZb0xmajBka2F2TndNYWV6NHZtNUZGcGxBekVvRUhoLXpUQldIS00tcGswckJSMDV2el9SYmlB",
     "CBMikAFBVV95cUxOa0hwdm9XTUJRclhiLWQ2SnNETWlkaTM2azhMb19ReTVkS1o3ZXVpVE1lQkptWk5TLW9TQm9VMFlvdWYyTU9zUTgya2FYUmJhUFR2MjhycVdKZGlTMkh1MTBIVGhnWDkzbDB5M3FpTzVYZWVwWm9CS20wekhyajVKVTQxZTdCdU0wNmlpc05hN18",
@@ -3312,7 +3311,8 @@
     "CBMie0FVX3lxTE02MVhmUS1SS09fV2VHN0Nmd3BUdEFLZlJ6ZFIxNm96RURnX0J1NzNvaU1CZ0ZfTHlHWUNzWUdQMG92SUh4NlBnbHFETnJfUXBFTFhyNUw4YXd2Q1RCS2VVdFBqUmpEa21FWFpiUTF4UHAzQ1lUcEd4aTNxSQ",
     "CBMiYEFVX3lxTE5vQVdZUTM1UHlUMUNnYlVJbmNpZkdRUDY2ZElqQWZVVGlLM3h1VnVHMG5udy1mMFNTUHFIWFZkZklBUUsza3hTbnBLcUxMY2ZpTU1mQi0zbnltVlZPbi1LMA",
     "CBMixAFBVV95cUxQemVuQzRyTndTektUN2FvU2RBTUlhXzF3Wld1YUkzekVJV3dIQzRMMzlsSEk0ZWtaZUNNRldPcFE3cUZTS3M0NTFWal8tUXNjVUU0MDEzcmlwRTU3OG9qTXYxa21tUGNPLTNYSHhvaUR0YktCWFFFUFRPNVB6QUloMVdIanAtT1Y5RWVMVTRSSGZBWC16YVF5WVZjcHF5Ykw3bEppOHZiOHhEVHA3azhRcl9jQ2pQaW9sTElISVB6c2VSOFJv",
-    "CBMinAFBVV95cUxOby1zUURWY0dBNUhTMWc3VHJuS3QzcHZMemhqaGYwUVl4bWVSMDZVRnlaQVRMMlNHS3NTS0Z1dTBiYkNyMlpHV1lwejk1eVZoeXhYbGotUTBMZVl4M0FVc2MzdXpONk9YM2FUbU9ucEdHUENFN1I3LWtEOXU3bFpnUHlPcmpDenN5bGgtVEtXcTJYVkg4VTB2Nk1ocTc"
+    "CBMinAFBVV95cUxOby1zUURWY0dBNUhTMWc3VHJuS3QzcHZMemhqaGYwUVl4bWVSMDZVRnlaQVRMMlNHS3NTS0Z1dTBiYkNyMlpHV1lwejk1eVZoeXhYbGotUTBMZVl4M0FVc2MzdXpONk9YM2FUbU9ucEdHUENFN1I3LWtEOXU3bFpnUHlPcmpDenN5bGgtVEtXcTJYVkg4VTB2Nk1ocTc",
+    "CBMinAFBVV95cUxQZVZHQUZvM0dUaVlzRE5MeXFRTWlxaDhLUS1mVTdvS2FCbWRwY1M5YzJoYW9LVFNtbGdnNUdXZ0J2VzBUMExsMnk3bzBKcmpsLWNEUU9iZ25PZlZIbXhRNnZUOHNFclllNUFjMm00OE56R25TQUxGVFRuczl1Qk92eEsyNlVOYXhud2I3NFk2VEhvTkdnU01hMDNscFI"
   ],
   "daily": {
     "d": "2026-08-29",
