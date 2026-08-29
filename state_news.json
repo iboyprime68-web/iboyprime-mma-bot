@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/466588/highlights-open-ufc-sacramento",
     "https://www.mmamania.com/466589/highlights-open-ufc-sacramento",
     "https://www.mmamania.com/466591/bonuses-paddy-pimbletts-shocking-submission-earns-extra-100k-ufc-329",
     "https://www.mmamania.com/466593/live-watch-ufc-329-post-fight-press-conference-video-stream-mcgregor-vs-holloway-2",
@@ -1195,6 +1194,7 @@
     "https://www.sherdog.com/news/news/Why-Islam-Makhachev-prefers-fighting-undefeated-contender-over-Ian-Garry-201512",
     "https://www.sherdog.com/news/news/Why-Tom-Aspinall-backs-Islam-Makhachev-to-beat-Ian-Garry-at-UFC-330-202300",
     "https://www.sherdog.com/news/news/Why-Tracy-Cortez-left-Fight-Ready-team-ahead-of-UFC-329-201751",
+    "https://www.sherdog.com/news/news/Yadong-Song-crushes-Umar-Nurmagomedov-in-big-upset-at-UFC-Shanghai-202570",
     "https://www.sherdog.com/news/news/Yadong-Song-went-to-Georgia-to-prepare-for-Umar-Nurmagomedovs-wrestling-202538",
     "https://www.sherdog.com/news/news/Yair-Rodriguez-out-Jose-Delgado-steps-in-against-Jean-Silva-at-Noche-UFC-4-202433",
     "https://www.sherdog.com/news/news/Youssef-Zalal-wants-to-give-Kevin-Vallejos-a-reality-check-201556",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Perry Promises Blood Sacrifice At Dual Arena 1",
-      "ts": "2026-08-29T00:31:49+00:00"
-    },
     {
       "t": "UFC Gamrot Vs Salkilld Full Card Predictions & Breakdown Anna Seebacher (IxPvPtLsmz)",
       "ts": "2026-08-28T23:52:53+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Denise Gomes Post-Fight Interview | UFC Shanghai",
       "ts": "2026-08-29T13:15:57+00:00"
+    },
+    {
+      "t": "Yadong Song crushes Umar Nurmagomedov in big upset at UFC Shanghai",
+      "ts": "2026-08-29T15:00:12+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Shanghai video: Undefeated Bilal Hasan debuts with spectacular 1-punch knockout, nails Michael Jackson moves",
-      "url": "https://www.mmafighting.com/ufc/507607/ufc-shanghai-video-undefeated-bilal-hasan-debuts-with-spectacular-1-punch-knockout-nails-michael-jackson-moves",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-29T10:47:33+00:00"
-    },
     {
       "title": "UFC Shanghai video: Liu Ce scores face-plant knockout over Levi Rodrigues Jr. after back-and-forth war",
       "url": "https://www.mmafighting.com/ufc/507619/ufc-shanghai-video-liu-ce-scores-face-plant-knockout-over-levi-rodrigues-jr-after-back-and-forth-war",
@@ -2105,6 +2098,13 @@
       "source": "UFC.com",
       "cat": "ufc",
       "ts": "2026-08-29T13:15:57+00:00"
+    },
+    {
+      "title": "Yadong Song crushes Umar Nurmagomedov in big upset at UFC Shanghai",
+      "url": "https://www.sherdog.com/news/news/Yadong-Song-crushes-Umar-Nurmagomedov-in-big-upset-at-UFC-Shanghai-202570",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-29T15:00:12+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMibkFVX3lxTE9tYUc1Rjk1QWdrc2dVWXAyc3g4d1V0N3FsMk43UHB6bFpHelBpQ0s0aEVxN2hSRnpXYUE5ZlRGb3RPdXR2TjVmSUEyQlhZODQ5aHlyYzMwYWkyd0t0d1htY2FRWUdWTDMyQkVkOVB3",
     "CBMiW0FVX3lxTFB3cHVoUmxuazFJRmhRZkhZZDh2bElFRVRCb09WdTBIazE3cllrVGhmQ3VuNUlINVBJc1BCdG1GY1JXUnBodUpfdlF2anRYZW9CX1V4Q2VLSV9acFk",
     "CBMiYEFVX3lxTE1iWVBKNVBOSGJHbzVGQ1BtNUszNmFYcFAtX1pPTjk2OG5IMFdrRU1YZ29VZjRWaWtaMTlzQW9yWEp0Wnh0aEFTS0xCS3ZNNUdRMmpKckliTUI3RFhMT2U4VA",
     "CBMiW0FVX3lxTE9FREJfQ3ZCYzhXblNEalBjcEliYW5rbDc3NERVRVY0enJUcF9RbWg2aEdpWkpEbElRNWoyVjdhd1VYVnJrcXRYMVY5TTRYZThjWjAzS0l2SlpfR0U",
@@ -3312,7 +3311,8 @@
     "CBMiW0FVX3lxTE43MEtOaXh5dGVUU2dDdkVEaS1ZTHVIMDE4d0VLbmZsc2xhVFBzMDJTRExpUEtQTDE1ZlQ2NVVEMVkzRVNQZlBDb05zeHVVb0d1UVhqaWJTTHJkbm8",
     "CBMigwFBVV95cUxNQTdGb2FxNHB2Ql9ENjE4Q0dfRDgzdHMwTVB4dkY5aEF4TWpUUmFFamNRNlhoWGxLc3pKUzVUcU1meVRUTl8yaDRab2V6bWE5U2ZteTdOMFQ0MDRVSEhTLXFTUGFzWjZnVEZpZ0xuYnQ5MElmNTNIa2dwRFRFOG53Vm00WQ",
     "CBMikAJBVV95cUxNNVFQX2ZtMVdheXVibk95c1gwMzk2TXljWXJrWVl5QjF1Rjctdnd3M3NxdmpMZ2U0MWsyWldVanE0T1ZLMFNQM1ZacnA3U0Y3bHlIRVhFMHQ5THN4UVYzREd6Y2FIcDFucXd0UDZNM2ZYNWRzQnpJcFBmbFRPNHpLSGtPSW1xSHBhSVJIMi1fdXQzdHRHNEFBTGxmTVZxazUyOWdmc1hoQUlSWjNycE1NYy1WRFoyNUYtU3dEZXM0Qjh3cE1VeV9tU2U1bXR2VmpPNlBRY2pWUFZRejZaVF9QR2t3Q1JraERwSmJnVDdfVXdEVjNEb25OVXpTSDVTSVNOWkE0czRTVnE0a0RPWGVWX9IBlgJBVV95cUxPVWUzZEVDX1dOYV9rY0xuaEc1YmVqV0xua1VHdVpCOTBvRE1RMnZ3STNBTWRiQ0dlUzZRdmllay05Q0tfYlJvRnM4c2hucUs1dy1IODdMdy1TMDBlQVZvYVVBandEV3NqUnNRdDVudS1jMjhYSDBPYTM4YXZtaEg2OVF2UHlqVG1nRkhhZ05tSWY0dURnbXo0ck9kWFVZU25nbl82NmgwdmtQdUNPLVBDNEhmcXZhbHY2NU4zRGQ5bUw3ZEIyckhGRUdOVllYVUlWUHJmejgwdEU2YlZvamJqWmkzVnpXWGtzQlJsQ0N1ZXowbEE2WG1yRlVnektPVXZvOTRyZVBhX1FQXzRRVjdBdlpicVdjUQ",
-    "CBMiR0FVX3lxTFBIRmJmN2tXVkNranlMWGFVU0RyT3NuU3d1Q2FHOGxxZGJBMDItVnp1QW1lYU9tRG9FY0hIeTNPWVVUWWdmZnB3"
+    "CBMiR0FVX3lxTFBIRmJmN2tXVkNranlMWGFVU0RyT3NuU3d1Q2FHOGxxZGJBMDItVnp1QW1lYU9tRG9FY0hIeTNPWVVUWWdmZnB3",
+    "https://www.sherdog.com/news/news/Yadong-Song-crushes-Umar-Nurmagomedov-in-big-upset-at-UFC-Shanghai-202570"
   ],
   "daily": {
     "d": "2026-08-29",
