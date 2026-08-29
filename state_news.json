@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dillon Danis vs Arman Tsarukyan gets delayed amid his withdrawal from Mike Perry clash due to injury",
-      "ts": "2026-08-28T16:00:00+00:00"
-    },
-    {
-      "t": "Hector Santiago debuts at UFC Shanghai hoping to once again share card with Alex Pereira",
-      "ts": "2026-08-28T16:31:48+00:00"
-    },
-    {
       "t": "WWE Live-Action Microdrama Wraps Filming, Potentially Freeing Up Stars For Returns",
       "ts": "2026-08-28T14:18:18+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Mick Terrill jokes saving BKB 58 main event ‘ruined his Miami holiday’ during intense face-off with Gustavo Trujillo",
       "ts": "2026-08-29T05:00:00+00:00"
+    },
+    {
+      "t": "Prelim Results | UFC Shanghai",
+      "ts": "2026-08-29T07:07:30+00:00"
+    },
+    {
+      "t": "Official Scorecards | UFC Shanghai",
+      "ts": "2026-08-29T07:07:30+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Mike Perry promises ‘blood sacrifice’ at Dual Arena even without Dillon Danis",
-      "url": "https://www.mmafighting.com/ufc/507530/mike-perry-promises-blood-sacrifice-at-dual-arena-even-without-dillon-danis",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-29T00:07:57+00:00"
-    },
-    {
-      "title": "Oumar Sy Stops Brendson Ribeiro With Ground And Pound In Round 1 UFC FN Paris Man City Vs Palace (OHDpQMy7nI)",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5wOVRxeUxIN1dncDdlem5uRW9hSElHRXlxZnhpeFV1aUZYbWhXSG9rNXhobzl4S1RxYnlyQ1RvdTNZNzEyOGM2R3dWaW5Md1lwMWltZXZvTWlRXzJmWDQ2ZA?oc=5",
-      "source": "Mshale",
-      "cat": "ufc",
-      "ts": "2026-08-28T23:27:50+00:00"
-    },
     {
       "title": "Umar Nurmagomedov Mocks Merab Dvalishvili With a New Nickname Ahead of UFC Shanghai",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT2RwSmVyT3RSVW5pVFVRZmVFSkZFcDRNeXV2ckdqdndCUmNCczNwN0w1cTlDLWpOMWloNGN1bTlwQm9GVDZsTWRHS0hyMHZWRWYyQmowTHBNUDUtc2FjaXB4dS1OTFEwUTlyU1c0Qmh5YWdycHdpSmFHVUY1MHh3Nw?oc=5",
@@ -2105,6 +2091,20 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-29T05:00:00+00:00"
+    },
+    {
+      "title": "Prelim Results UFC Shanghai",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1UeUpMOTFpeGt1OG1rc1FXellqTkVuMGpSdzlDV3hqenBZdG5QV2ViUWVpZGNRV2tITC1JRGRlSWxYYUhSNHJCZGJsam1NNi1SY3R5OHFzU0VNY2tlcGhxUl9tN1FYQm1XLVJQbnBraFNIV3BzN0piTi1SRkZhdw?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-29T07:07:30+00:00"
+    },
+    {
+      "title": "Official Scorecards UFC Shanghai",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNanZBN01NZHJhWDkxR1V0R2RaT2M4cDdKYUxyN0hyM1dxVDJOYkx3ODFLTGxEdmRBNXF3alZlRDFSVGJLS0RyX001SkpKNFFpdm4ydUxkNDVfMTFVRDUwdFpURGl2Z2k2QzhHdFZKSEthZUNMRFBUVkVqT3R0ejZ2RHRFcHc?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-08-29T07:07:30+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiqwFBVV95cUxONlZlZUF5ejlCdHl3eFF0Wk1OZmNJTmVCVVVPUm8zQUVINE4xVmVleW9EOVRnak8xQ2tDRjFoUjVMTkJIc3VLZ3U2S1d3MzVwUkJwWVR0T0dDYXAtQVJPa1Q0UFk2SENsYzQ0bm1pRVdDWlZORlFOaWhuWE8xeUY4cGVlX2JyYU85WTIwNHdSVGwxVXBXQXBKb2lDOG1rbGF3amR3YThnbUlYNWM",
-    "CBMioAFBVV95cUxQODJzN2stRkkyc0xIZ3VkalRnOEU0dnFYbUwwUlhKQUxXQjNPbldUTi1McFIyUnA3alEtcVo3R2h4aWxZUE42ZXVnTzRpTzVvaHBaTmJiRUVVRlhTLTF1VTZHOFl2V000SFRRVk56R2U0Q1NqOWs3clotZTB0b3lOQ1lhQ25TLWNjQXNaZGFqN2lmS24yWVhBaE9Ba3h6TVI1",
     "CBMiiwFBVV95cUxOa21DTmpyVUVEVkNQQk5HaG96dlZSYnptQlVwenkxLUVwNkFiMkptTWNiTHhXRkN0c0p2dFV5dHB5dlVFRThFLXRodmt5LUpJNGZXN2szYklHakpWWVZRTWY3cU5FUFNlOEZVWDJXWGRiamIyLTB5cjR2NnlWaGJwVUdjTi1Rd0pBNTVv",
     "https://www.sherdog.com/news/news/Jiri-Prochazka-shuts-down-Paulo-Costa-UFC-interim-title-fight-rumors-202517",
     "CBMiYEFVX3lxTFBjOEx4RnFTUG1EQzZyMFJPcFhpNGdicURLX1huWG1hRmpyZ0FfRTRYN0QwV3o5S0dvWG9kdVhZdUNVeEpOOXl5QUxHdllCLUM1NDNHQXl3M0JWSHpSdU5KdQ",
@@ -3312,11 +3310,13 @@
     "CBMiW0FVX3lxTFA4QVllcEJpTEJLYmhoOFJJXzVyandfZkJIRDZIR3hjZWVCeVpUemFULTFCNktFMU55YW05eE42N0NpZW4tVnFrMmRfWV9pRk90aVY3QWVvSEI4clU",
     "CBMiigFBVV95cUxQa1JIM204Tnp6R3kxRzY1cG5HWnAxaTZrY3FUN3pHZVlKbG5GRFZRaTVZNVBtaVZHTmxhbU1MRXJ3cnY1M0dNcmh0UUwyWlhtVThoMXJYZXFnRHJKMUM2VmFUeklfWTM0eE13UVBhTE83YUpacVVyMGtVeERIM19KNUY0ZTFnUTlPZEHSAY8BQVVfeXFMTTJzSW93VkhBLWVxNVNEQ1lRY1F6UV9wQ00tUE9yN21WNlBHWm9DejZOeXFYNDdWZFV0UnR3cnhSc0JNcmVVMW1CSjNwYmg1NGpEbFlpX29iSE5aNTBLSXdkZkFYR3NCNXp5RjBXRm1fZ0xSS1R0S1pNbkRIdXlhZ2taSnBrTmh6LThpN0xYN2s",
     "CBMiVEFVX3lxTE5TTFdQLU9MV1dmUVdzX05jZnJBS3ppb3F4TS1COWQzRDlXcUxmMXJRcEVFU1RkQk9weHlMa0hmeS1FcW9WSEROTkY2ZFI3UDllc0VBRw",
-    "https://bloodyelbow.com/?p=329380"
+    "https://bloodyelbow.com/?p=329380",
+    "CBMifkFVX3lxTE1UeUpMOTFpeGt1OG1rc1FXellqTkVuMGpSdzlDV3hqenBZdG5QV2ViUWVpZGNRV2tITC1JRGRlSWxYYUhSNHJCZGJsam1NNi1SY3R5OHFzU0VNY2tlcGhxUl9tN1FYQm1XLVJQbnBraFNIV3BzN0piTi1SRkZhdw",
+    "CBMihAFBVV95cUxNanZBN01NZHJhWDkxR1V0R2RaT2M4cDdKYUxyN0hyM1dxVDJOYkx3ODFLTGxEdmRBNXF3alZlRDFSVGJLS0RyX001SkpKNFFpdm4ydUxkNDVfMTFVRDUwdFpURGl2Z2k2QzhHdFZKSEthZUNMRFBUVkVqT3R0ejZ2RHRFcHc"
   ],
   "daily": {
     "d": "2026-08-29",
-    "ai": 58,
+    "ai": 60,
     "staged": 0
   },
   "staged_hist": [
