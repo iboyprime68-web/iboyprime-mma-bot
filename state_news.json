@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/465796/mm-clone",
     "https://www.mmamania.com/465820/open-thread-august-18-2026-do-you-know-your-flags",
     "https://www.mmamania.com/465918/mackenzie-dern-vs-gillian-robertson-odds-full-fight-preview-and-prediction-ufc-330",
     "https://www.mmamania.com/465925/mm-clone",
@@ -1149,6 +1148,7 @@
     "https://www.sherdog.com/news/news/UFC-Sacramento-How-to-watch-Hernandez-vs-Rodrigues-start-time-202456",
     "https://www.sherdog.com/news/news/UFC-Sacramento-bonuses-Carli-Judice-3-fighters-take-home-36100K-202482",
     "https://www.sherdog.com/news/news/UFC-Sacramento-weighin-results-Anthony-Hernandezs-Octagon-return-set-202472",
+    "https://www.sherdog.com/news/news/UFC-Shanghai-Nurmagomedov-vs-Song-playbyplay-results-round-scoring-202569",
     "https://www.sherdog.com/news/news/UFC-Shanghai-weighin-results-Main-event-set-3-fighters-miss-weight-202562",
     "https://www.sherdog.com/news/news/UFC-Vegas-118-Muhammad-vs-Bonfim-playbyplay-results-round-scoring-201445",
     "https://www.sherdog.com/news/news/UFC-Vegas-118-Prelims-Alessandro-Costa-shines-on-finishheavy-undercard-201446",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "Mikaela Mayer vs. Chantelle Cameron press conference quotes and fight prediction",
-      "ts": "2026-08-28T12:00:57+00:00"
-    },
     {
       "t": "Belal Muhammad: Umar Nurmagomedov down to fight anyone, not getting any layups",
       "ts": "2026-08-28T12:03:36+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Kamaru Usman Suggests Bo Nickal’s Next UFC Fight",
       "ts": "2026-08-28T23:50:14+00:00"
+    },
+    {
+      "t": "UFC Shanghai ‘Nurmagomedov vs. Song’ play-by-play, results & round scoring",
+      "ts": "2026-08-29T00:22:03+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Daniel Cormier: UFC what Tom Aspinall needs to make big money consistently",
-      "url": "https://sports.yahoo.com/articles/daniel-cormier-ufc-tom-aspinall-161031445.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-28T16:10:31+00:00"
-    },
     {
       "title": "UFC Shanghai preview and predictions: Umar Nurmagomedov or Song Yadong — who wins?",
       "url": "https://sports.yahoo.com/mma/article/ufc-shanghai-preview-and-predictions-umar-nurmagomedov-or-song-yadong--who-wins-163311576.html",
@@ -2105,6 +2098,13 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-28T23:50:14+00:00"
+    },
+    {
+      "title": "UFC Shanghai ‘Nurmagomedov vs. Song’ play-by-play, results & round scoring",
+      "url": "https://www.sherdog.com/news/news/UFC-Shanghai-Nurmagomedov-vs-Song-playbyplay-results-round-scoring-202569",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-08-29T00:22:03+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMicEFVX3lxTFBoUldvVlkwdFJpMGswQ29Ld2R1MERlb21yRkhSS2k1WXNKUUxlYkI0ZFgyMzNwS1ZLeVpEVkdVdFNfVjNQejAzNUJpTGdjU1pXM3lOUjQ0cW5MazEwVVA2NXlLbTNSUmJkSnpGRlZnWHc",
     "CBMiUEFVX3lxTE9XSUk0RDJwR1JMY19ZMjlFdDJTdDE5aUk3ZmZxV1JoRXVpSThqRG53RS0zTUV3YWg4V3JBS1NLT2llak1tTDNzQmR5cTM3Tm44",
     "CBMi3wFBVV95cUxPY3gyMHp1TU5XTk5QNHBWcmdsWXA5VVlZbkdTMVZWVlY1MG5GUmxYYkZlWXh1emwyWllnNXdQb0F2NTFrV3d5UnlKOEtPMHBWN0kwM3E2SWxpVWEwTnFaWjJNbVNTbWxkanl3N0ZDUnJCbUtMV3pDS29zNHI5WEktOWpFelR0VHU0akI2R2VDMUQydDNtMkhhU29jME9wejhDdFl3Nkl5YVd0ZzdQTGFwMVYyMWJ4N1NCZFRaQk5aNkJjdmhqalVqV1JYRkFjUF9hVFhqUWRrdHd2WXBfTzlr",
     "CBMiiAFBVV95cUxNeG5fbjVLaVMtM3hrLXZ1M0NDTTV6YXNDTGNtTVMtRlh2LWRCRXlGX011aE91WjZNaXhFZzR6M3dkX2JnTG5aS20wd1FmTGs4STNOUDNERjdUdTh6X0ZwUlN3OEp3UW84RGpRZmh0c29iajcxNGJzZlB2OVlsc1BzeHdpbXVvLXdE",
@@ -3312,11 +3311,12 @@
     "CBMiYEFVX3lxTE1STzVMVHVYU3ZSRFZrcFNLTXY1bjQza0dtUlAzNTJMcll0M21OWmdiMWV4MjJEQy1zMnh3RHVSTWlIbXAtMFF0Y1RXODhDOHNtM1dGUXlXNzl5dmloZmNoUA",
     "CBMiW0FVX3lxTE1zU1lab0dQUGM4Ym5TSnJtZEhlRFVGeHRSYVZkM1NrODFBZGdBNVdUR29Yd04zTUJXdTFhb0JvdjU0RXFGb2lHQjBoWS1WckUzNlQyd05Cdlc3RVU",
     "CBMiUEFVX3lxTE9jaXdRd3Y1TjRsOGFVb09NSC1Vek5YUmQ5VDI4OVZmOVEwSm52dEwwZnhZVjN2dkJweW1KVVRTaXhqWUIxTTdxRXBWeEV3VTRp",
-    "cf2e67ff-f522-323f-b271-e5b97137b269"
+    "cf2e67ff-f522-323f-b271-e5b97137b269",
+    "https://www.sherdog.com/news/news/UFC-Shanghai-Nurmagomedov-vs-Song-playbyplay-results-round-scoring-202569"
   ],
   "daily": {
     "d": "2026-08-29",
-    "ai": 14,
+    "ai": 15,
     "staged": 0
   },
   "staged_hist": [
