@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Ex-WWE star Velveteen Dream throws punch at podcaster Ryan Pownall in final face-off",
-      "ts": "2026-08-29T02:30:00+00:00"
-    },
-    {
-      "t": "Duel Arena Results: Perry vs. Jenkins",
-      "ts": "2026-08-29T03:16:43+00:00"
-    },
-    {
       "t": "Midnight Mania! Aldo Vs. Vera 2 Booked For Ecuador",
       "ts": "2026-08-29T03:59:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Song Yadong Nukes Umar Nurmagomedov With Round 2 Uppercut At UFC Shanghai - Highlights",
       "ts": "2026-08-29T13:35:30+00:00"
+    },
+    {
+      "t": "UFC Shanghai Highlights: Denise Gomes brutally KOs Yan Xiaonan",
+      "ts": "2026-08-29T13:33:10+00:00"
+    },
+    {
+      "t": "Fans react as Bilal Hasan scores clean KO against Nilson Rojas at UFC Shanghai: “Future star for sure”",
+      "ts": "2026-08-29T13:39:15+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Shanghai live blog: Umar Nurmagomedov vs. Song Yadong",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmxQQkUwdzBDUWVrSHUzTmpjSXI3MThseGFiaVpYWGRseXZPbWdQdjFfYlJ2Xy1NeGMyYzZFU3R6V3pESmtwUEhULXZVVVcyb0t2VkxtcUQxSVlQak5OVVNTYUZuc3pZMDFvb3lJZ3RXYV9OWDR3NDNsSTJ2X3llRzRGaDJrVXdVZmJUWUZiNUdEb3dsdmpIMlNB?oc=5",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-29T12:18:33+00:00"
-    },
-    {
-      "title": "Join 411’s Live UFC Fight Night: Nurmagomedov vs. Song Coverage",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS3RtdDBrNkppVlBNT0dsOHdsSHRLcFZLTGY3b2pRd01SU094ZFNzZ3dCQWJNUHVLaWtGVWhnNGQ3QURFbE1PUDNJV3hBeGdyNHNFSGtaRDlmSDNWdWQ0YUs2LUJFd3ZPT09iY0RfWG1UM041NEhqd3VkZFVNWlhaY3gzZXVLemlNNzQ4SHoxTQ?oc=5",
-      "source": "411Mania",
-      "cat": "ufc",
-      "ts": "2026-08-29T12:19:04+00:00"
-    },
     {
       "title": "Denise Gomes knocks Yan Xiaonan out in UFC Shanghai co-main event",
       "url": "https://sports.yahoo.com/articles/denise-gomes-knocks-yan-xiaonan-122004214.html",
@@ -2105,6 +2091,20 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-29T13:35:30+00:00"
+    },
+    {
+      "title": "UFC Shanghai Highlights: Denise Gomes brutally KOs Yan Xiaonan",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOckVJN2QyU3hQV3VBR3UyY1A2WU5QZ3dFVXpuQ3gyLUhjSkk0WXo3SkNPX1R6ZWYxZERIbHlybFVQbGd1Ni1BcW9YUnJyMUYtcW5CUFRSNGdvRjh6TjZsdGFIRzB0a1ZzVFNQX2dQSnF6d0tlY2h6NFVDVlpmUGo0UjVIV2c4OW1mVXM3T1pFUW1kYVhaajVJ?oc=5",
+      "source": "MMAWeekly.com",
+      "cat": "ufc",
+      "ts": "2026-08-29T13:33:10+00:00"
+    },
+    {
+      "title": "Fans react as Bilal Hasan scores clean KO against Nilson Rojas at UFC Shanghai: “Future star for sure”",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSWVwckI4bWx3VlJMYi1EdTZHajVMeDVHb0NvTEdNYnpVMWZ3cFdja0pkakx2N3ZWaWdUSUNNSFZ0LXRuZGh2S0thRHBXUm9JTlBHdklZdGwyTEdUeEk5V2NLNDZJNTRQdnZiSlR1TVBWNFYxY1lpYWJWU1g1LWhmc0Y3R1Jrc1J3UlFPX3JlZ1h4clZyTUpZVlBwcHd5VjVVVzFBTFlUOFUwOWFBV1lObnFSYnc2eEJJWmlWTlNuUkJfTktm?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-08-29T13:39:15+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMixAFBVV95cUxPZ0ViTnF3c2FoaUcwOHlHVVl4X1FrX290QkZBTmxZNTlBOXZ1RmJ6Z3NmRGxmck8wSDJhTmhFbDl4T0p2U0swZ3M2ZUd0a0RObDhXYlF1Uzc3UC1PNXQxcU8taDVFZ0xLd2dzOXNRT3djZ2dabnN4SXZXdmRYcUpJbnNCZklNQk5QMW41Q3FoMDhNcGltdG5VbWMwXzE5eWxmV0c4ZHRLOVhxb3FoRlc5LTJ1cUsyZW1nMHMzZlc4ZzRZdDRj",
-    "CBMiYEFVX3lxTE1hdWpqQXRxMnZpci1GVVZZdkR4MURUakVMcXVCeHl4bjJvMlAtSVZYUXZBVWUzYkxtXzdiSTRMd0dpT1F6R2hlSEpXLWswbkpUclZJNHBiVGxZZ1ZLREpHYw",
     "CBMiYEFVX3lxTE42RzhxNnlfd3dDcm5jdkUwaEw1WjNPN3dwQkhCQzJKcklYS2NNWWVod05qVU9oSFNXSTRkaGc2ZExaSW9ncUIyQk01emNZTzA4WF9yN0hadmd1a0txVjVhbw",
     "CBMihwJBVV95cUxPbnhxRjk1M3JGQkJpWXlkNzkzVGRVRTA2eW0xQjN0akNvR0YzOFlJRGR6eDhGMzQ0NUFfRGM5WDh3MTBiX3EzVW9qZUtSa0R0Rl9JdHZfMDVVVUhjYkJOS19meDNrcGY1a1QweDczX2FCNENXeDI5cVUzVVE2azNnMnNKaG5ESEEwTDFYUUtLYXN0eGNjbmlsaVR3aDVCMUF3UVlxNS1Cd3FfNVM1NlE1aDdlZXU5Vng4TlZWTkUzd2xEazNxOXZyenBCYzkyVm1TblJmRlVIYkFzNVZwZm50bXpSbkFSTlRWa1hVeGIwTUVBSk1SazZpTEkxYjBmN0FvVEk0UVRFQdIBjAJBVV95cUxNNWZmd0tuLVF5OW9tM3RFZDZ1LU9FTW43aXpzMGllakpyVUJjR0hlNmRFYk1rblhOUFJxdUJkeDhmZU9TRVE4cWFHQ002am5jZ2I2d3J0aktrNy11c3Jpc0V1WnR5cmtJd0kxYUpaWmtnQ3JVR2I4S3ZObkhDNTNqZ2NMc0N3T0F4N0Vrb2c0TGpvcEpCMEJLVVdUTzMwdWgwVmIyaHRDZWxYYjhaa3NNdXIxN0FPMHFmVUVFcmVPaVlDTGl5bDN5b0tZdXNzRlhDT3FQM0Z2OUhxeHAzaWtaV0ZiZTZBVE9qVHVrZFctUXlsRXZueHh4ZGxUbHE1ejVULWNSSzRhcXQwemdv",
     "CBMijAFBVV95cUxNdU41UGpucHNaUVp5dXhld3ZqQ05ZWV9hS1NjOEJWUlFTRVl5cFNyT1drYk8xZ0FDc3lCRlIxWmdhWGZtQ2ZpcmVSM2I5bGN3R0J4NVJfS0N4UmdpZDRuUzRxSmYyOVFHYmVmd2E1aTBiTXhpQ3ZSZlF6cWFWeHg4a3h3OF95LUlwc0kwSw",
@@ -3312,7 +3310,9 @@
     "CBMipAFBVV95cUxONGR4cGRtdllZazlBVHUyTUx4N0QxMUw0bnFlUFl0QlV5SmFmMk5aV0tZMHhheEo5WUlVUW5RUnFoMTc5YnM0YVBIOUlUTUgxaHBGVWcwMDBSSmN6bFlLaG1RZVRoTTdjbmxuVEhwalowTUxBREFWNEFyRG9ZMl9HYzg3eUpvV2xDLVJuRlBSVnBDRTExeU45N0k3N2s5cndvUXVhTw",
     "CBMijgFBVV95cUxQcXZDamZlRmozN2ZGTnBqMzlQZkdDVWNBZzlkc3c1SFBXcko5dXBHU3ZnZTFVRzlPWmh1ZkkyeUprZlIteDdUTnFRQ3BRc3RVMXU3a0U4TFNKaFc3Xzc5TE5iVGRJam0tOUo4c2NrRkJIamZhZ2hDd0FPRDJCdkNpY2NXZmRPMEpNWVV0aWhB",
     "CBMi1gFBVV95cUxOSV8yTXZGWkNMZVVKOUV3S2s1Ylc0Ti02bHBTbW8yNXdYTTgxRHJBd0Y4YWpjVGpvX3JtN3lpa0lhcFBETGZOaVdtNXI1LTJlUnZiT3llMWs5ZjFEdTNNUkRRVUxFdjI4V3FkX2VwYUFrRmRFeHZ6OG9MRFVpQWJRQlpzTklJWlotR1NURUtsN0VwMy05VUE1Y2NaNVM5Yy1sU25oSkF4bzcyWmhTejgwRDJiY2l2UzRYakN5TXUtZTk1MTdBVEJiTGxPdURaSG9WMFlBVUdB",
-    "CBMinwFBVV95cUxQcDhsbGprblMyR2hDQWgwQWhGZGFPLTVyTFBDRy1KWGpnT0tTdkFWSmxZQVBfSWh3RUdlY1h4NEpGd09IYlB4NEdBWDR6OHhFTk80QklMc3BMREo4bHNDR0JjQkhJdEp6QVdlZkxwd1JKNWVLTHV4SWJGWjk1Zl8zQzh0cm1xSFVrTVFaSnRtdWw4a1MzM1kySmxIdERhOGc"
+    "CBMinwFBVV95cUxQcDhsbGprblMyR2hDQWgwQWhGZGFPLTVyTFBDRy1KWGpnT0tTdkFWSmxZQVBfSWh3RUdlY1h4NEpGd09IYlB4NEdBWDR6OHhFTk80QklMc3BMREo4bHNDR0JjQkhJdEp6QVdlZkxwd1JKNWVLTHV4SWJGWjk1Zl8zQzh0cm1xSFVrTVFaSnRtdWw4a1MzM1kySmxIdERhOGc",
+    "CBMilwFBVV95cUxOckVJN2QyU3hQV3VBR3UyY1A2WU5QZ3dFVXpuQ3gyLUhjSkk0WXo3SkNPX1R6ZWYxZERIbHlybFVQbGd1Ni1BcW9YUnJyMUYtcW5CUFRSNGdvRjh6TjZsdGFIRzB0a1ZzVFNQX2dQSnF6d0tlY2h6NFVDVlpmUGo0UjVIV2c4OW1mVXM3T1pFUW1kYVhaajVJ",
+    "CBMixAFBVV95cUxOSWVwckI4bWx3VlJMYi1EdTZHajVMeDVHb0NvTEdNYnpVMWZ3cFdja0pkakx2N3ZWaWdUSUNNSFZ0LXRuZGh2S0thRHBXUm9JTlBHdklZdGwyTEdUeEk5V2NLNDZJNTRQdnZiSlR1TVBWNFYxY1lpYWJWU1g1LWhmc0Y3R1Jrc1J3UlFPX3JlZ1h4clZyTUpZVlBwcHd5VjVVVzFBTFlUOFUwOWFBV1lObnFSYnc2eEJJWmlWTlNuUkJfTktm"
   ],
   "daily": {
     "d": "2026-08-29",
