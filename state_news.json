@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Mike Perry promises ‘blood sacrifice’ at Dual Arena 1, even without Dillon Danis",
-      "ts": "2026-08-29T00:07:57+00:00"
-    },
-    {
       "t": "UFC Shanghai results: Song Yadong KOs Umar Nurmagomedov for shocking upset in homecoming bout",
       "ts": "2026-08-29T00:30:00+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "UFC Shanghai Results: Nurmagomedov vs. Song",
       "ts": "2026-08-29T13:24:59+00:00"
+    },
+    {
+      "t": "'LFG': Fighters react to Song Yadong's KO of Umar Nurmagomedov at UFC Shanghai",
+      "ts": "2026-08-29T12:58:40+00:00"
     }
   ],
   "digest_items": [
@@ -1727,15 +1727,21 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-08-29T13:24:59+00:00"
+    },
+    {
+      "title": "'LFG': Fighters react to Song Yadong's KO of Umar Nurmagomedov at UFC Shanghai",
+      "url": "https://sports.yahoo.com/articles/lfg-fighters-react-song-yadongs-125840299.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-29T12:58:40+00:00"
     }
   ],
   "digest_last": "2026-08-29 21:30",
   "hour": [
     "2026-08-29T23",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMipwFBVV95cUxQeDJtYjViVm10LW8tc2lCZ01idTYxYXZnaGxUZ2l6QWZPbkJRSk93eU1MZjd0RVZIbDR3XzhldzAtQzhPVF9jSEk1MVY5TTJRdU1GNmJzYXp6cXM0Tm9jRTJJalY0Z2wyZE9kQl85bERYMThESWVwOXlPVGVVeVhSaWhaeUxLZ1VnM1hieVBSaDI1bnU1S3RTZ0UyZ2lnS09tc0N3WmNTWQ",
     "CBMilwFBVV95cUxOSHlId1VxSTNLOUZldm5nbGVXOTlrZHF1MUdSYVNHdnNMSEg3bjhiN2pvOE1TRmxpQUVGY3FBTTFkYkVWN0F5R1lNUFE5YW1CNF9vaHBzQlg4RDRSa2QzS2pBM1hjNWRRT3ZKN2Q0TUpzdFdSTjRWVXJtdXlEUmFTLWt3OXVHdVFjZG11WEU2cnpmOG9RT3lB",
     "CBMimAFBVV95cUxNeDhla2J5NGd5TjR4d2xmWUpmM0l4dXQ5MTNvTzJFNThPZDdadFNTVVRsWDF1aUZucHJ2NnRuOVpBUU5EcDdMeXg1VUtaZGlpN2t2R0dUZVkzR0FPU0VGcVNSa2tkNWFzYTJsQm41Sldjb2hMaFNMSVZmVk0wQ0hRTXhyNDU2VkJ4MUJnbmcwOEJNdncxdVZwZ9IBngFBVV95cUxPcUtPU0dfdGJ0eW05RVF4UUpaWjVBZE9CWDBwLVdvVVQycWszTnNnSDJRQVROcVZlLUgzSi1teGZickxRcFBMQ1hyOGh0eFczRmN6d0drMm4wTk8zUV9raHdCcExDeVRLc1d0WEpUNzY2UEt3TXhfcmZjbUpiYXdMTG5ULWtJNDNyMEVFTnZhVkY4OWx0dFRua3ZjdGpOUQ",
     "CBMilAFBVV95cUxOdUVGU0wzQUlqY0RwU0FQb1hxdGlIYTNIcG5KckRPREZRXy02RFlLcmtCUG1LWmhlZldhSFJSYjJlY2ItSUJiTnpNMjREcTRRN2QyV0lnNU9GdDdoYThHalNkZDY0MFFZN2huZXEtOEd4N25janZaazI0Y1BZTW5SWUJyNEN1RHNmRFBYS3ZDWmFWZC1l",
@@ -2934,7 +2940,8 @@
     "CBMiSkFVX3lxTE4wNkVTcDF2Vl8tWmVzWVBBLUhhY2wtRWlpTVdnMXNOemVoaHJHeVFiOGdvVVBHWkJzX1NaVk0ydktJTk5BVzlBWFRB",
     "CBMivgFBVV95cUxOWXA0c0NNR25DenhpTGRLbHpvXzlpYWhhYXB6aml3ZVktMEprWDU3ZWk2c2x3enJQWVliYlBzS01SbGFqaDlBZG1DRUFiUk1GbWZscnVsc0RvTEJFeUFYRkJiR3hEWWVZc3N0dUpwaVlDQV9MbFdsUGkxTF9TVk82aTBYT2VCWW1NU1V5VkNKTHdjNmJEdmJ5ZkNJbWZhc0RzUkpuTnFwMVQxVFhyYjR4dXdrTlZneGxyUWtGQWxR",
     "CBMiiwFBVV95cUxPNHBPVVFLcUl6cnhveWktMU1hZmZlcFRsN1dYNllmVXFzcmFkS2Vqb3lfZWdSX29yQWFmSjlqdWMyYVVmZU1wQ1I1M3VLMml4S3ZhTkFLU3VsUUE0YkUtV2RKMklIODZTQ05taXp2T2RBQkhodHRLOGxmaDJXMFBqRFhIV2U4YjE2VVdn",
-    "0ed60c77-4eaf-3b65-86b0-07a3855a5288"
+    "0ed60c77-4eaf-3b65-86b0-07a3855a5288",
+    "d797d902-e764-3af6-bad7-179c78161d53"
   ],
   "daily": {
     "d": "2026-08-29",
