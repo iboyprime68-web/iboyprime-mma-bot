@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/465820/open-thread-august-18-2026-do-you-know-your-flags",
     "https://www.mmamania.com/465918/mackenzie-dern-vs-gillian-robertson-odds-full-fight-preview-and-prediction-ufc-330",
     "https://www.mmamania.com/465925/mm-clone",
     "https://www.mmamania.com/465954/reinier-de-ridder-vs-roman-dolidze-odds-full-fight-preview-and-prediction-ufc-sacramento",
@@ -729,6 +728,7 @@
     "https://www.mmamania.com/?p=467842",
     "https://www.mmamania.com/?p=467844",
     "https://www.mmamania.com/?p=467869",
+    "https://www.mmamania.com/?p=467871",
     "https://www.mmamania.com/?p=467881",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Open Thread, August 28, 2026: What’s your favorite reality show? (other than TUF, of course)",
-      "ts": "2026-08-28T13:05:00+00:00"
-    },
-    {
       "t": "Charles Oliveira’s coach names opponents worthy of BMF title fights, and why Arman Tsarukyan isn’t one",
       "ts": "2026-08-28T13:12:11+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Shanghai: Nurmagomedov vs. Song Set for Exciting Fight Card",
       "ts": "2026-08-29T00:35:05+00:00"
+    },
+    {
+      "t": "‘He’s not going anywhere’ — Dana White responds to rumors of heavyweight champion Tom Aspinall leaving UFC &#124; Video",
+      "ts": "2026-08-28T22:22:11+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Fight Night 286: Umar Nurmagomedov vs. Song Yadong expert pick",
-      "url": "https://sports.yahoo.com/articles/ufc-fight-night-286-umar-170056240.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-28T17:00:56+00:00"
-    },
     {
       "title": "Huckster Floyd Mayweather launches ‘The Money Team Legal Network’",
       "url": "https://www.yahoo.com/entertainment/celebrity/articles/huckster-floyd-mayweather-launches-money-170642531.html",
@@ -2105,6 +2098,13 @@
       "source": "SSBCrack",
       "cat": "ufc",
       "ts": "2026-08-29T00:35:05+00:00"
+    },
+    {
+      "title": "‘He’s not going anywhere’ — Dana White responds to rumors of heavyweight champion Tom Aspinall leaving UFC &124; Video",
+      "url": "https://www.mmamania.com/ufc-news/467871/hes-not-going-anywhere-dana-white-responds-to-rumors-of-heavyweight-champion-tom-aspinall-leaving-ufc-video",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-28T22:22:11+00:00"
     }
   ],
   "digest_last": "2026-08-28 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiywFBVV95cUxOTkNEYUx4SnM3QU5taThNd082bVN0U0d5eXBTay04dFcwbDdiejdiR3JpZjJmU2RIcnREWi04REc4WWZ5RUIzMUhMR2RqZF9QQjgyT3YwdFpDNUE3bHlDdXhXZG1lWlpPVHdSN0ZIN2RiLXQtRlBHb1ZSSE55R0dTbjhpclNMZ3hIbVlYVEx5Z1cwTzFtd1IxeXlfOE1nWTVXMnVPRm1YemZsZ3Bzc2hELUVFR0VwakN2MnBQbGJ4M2YyMzhMa2IwQ0RCdw",
     "https://bloodyelbow.com/?p=328706",
     "CBMic0FVX3lxTFBSMzZpbmc0OWNGMU90b3ZweEVnVVlrMGYtazFIaF96ZlVNMEJJdUF3cEhQRFl3WHNJNmV5azN3RHBkb0pFcHNfRzVEYTFnSDAtaWxFWV80YXJTYTlLUTVQaDY3bkNoaUc2V0dxeHh1Z0VXSnM",
     "CBMioAFBVV95cUxNUFhmWVJSYmxhcVJrRXlRUDdOVUVRZVlYX0Y0WHQwdmZ2S0RWcjJzbjB4S2Z0WlJzTHFIMHBvZG9HcklwX21meXg2alNoR2o1eHZlVWhMMHh0Z192Z3lzelZWQ3VNcUlzWUhIVWxpNHJja0FqdDdTLVFUa0M1NXhId1pPbHg5YW0yUjlncU1DczZsWmpIZEZnLUVPOW96WW1m",
@@ -3312,11 +3311,12 @@
     "https://www.sherdog.com/news/news/UFC-Shanghai-Nurmagomedov-vs-Song-playbyplay-results-round-scoring-202569",
     "CBMi4gFBVV95cUxQVm5FTVE0eEZLWV9YdDV2RTMwZm1iX0hkVFRJc1ZMQUVjOUdfWHJobGdCUUtnSXRhZVhzQkxnR01nalZjbjhFcGd2N29BX3l2MFFtNm0wQlN1elNkSzNWV0N5eGFIVmRaQU1pUjNIR2YyNnotR19WdHh4cGs2RVo4eEdKZ1VURzFVX0hLZTBQQ2RLUndyMzBjbm5zdDA3M3Y5MndMc3NGTFltS3NYc0FGMUlGNWoxQUpxblZtRVNpejl0c1FOeDcxMUNHdWE2bnUxMi1aay12aDVZaWRWcFNBUk5B",
     "06e26a75-0442-4a1c-91c4-4bc74033bb43",
-    "CBMikgFBVV95cUxOODlINjFBdzFSMlI3NDhJTlotSnFvUVhUeWd5Qi10bXhIbkVUTWxJeXNDWUswaUlrNDZwNjRsbjRRd293ODRIemRkN0dTaHZUNVdKQ0NsejhtN2p3aElOZ3hPMDhsbWVfaHlvLXBxdkQ2YmpkVThEYmJIcjZYd2wwbDNGVmRmRVlqZ05tVzFvRWR4dw"
+    "CBMikgFBVV95cUxOODlINjFBdzFSMlI3NDhJTlotSnFvUVhUeWd5Qi10bXhIbkVUTWxJeXNDWUswaUlrNDZwNjRsbjRRd293ODRIemRkN0dTaHZUNVdKQ0NsejhtN2p3aElOZ3hPMDhsbWVfaHlvLXBxdkQ2YmpkVThEYmJIcjZYd2wwbDNGVmRmRVlqZ05tVzFvRWR4dw",
+    "https://www.mmamania.com/?p=467871"
   ],
   "daily": {
     "d": "2026-08-29",
-    "ai": 18,
+    "ai": 19,
     "staged": 0
   },
   "staged_hist": [
