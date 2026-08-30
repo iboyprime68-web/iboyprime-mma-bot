@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Shanghai video: Andre Lima submits Namsrai Batbayar with mounted guillotine",
-      "ts": "2026-08-29T10:11:20+00:00"
-    },
-    {
       "t": "Duel Arena 1 Start Time, Full Fight Card Details",
       "ts": "2026-08-29T14:29:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Champion Justin Gaethje Provides Latest Health Update",
       "ts": "2026-08-30T19:29:15+00:00"
+    },
+    {
+      "t": "Justin Gaethje Seems to Have Given Up on a UFC Showdown With Conor McGregor",
+      "ts": "2026-08-30T19:58:59+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Daniel Cormier defends Usman Nurmagomedov after UFC Shanghai shenanigans: 'I'm inclined to give him grace'",
-      "url": "https://www.mmamania.com/ufc-news/468589/daniel-cormier-defends-usman-nurmagomedov-after-ufc-shanghai-shenanigans-im-inclined-to-give-him-grace",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-30T13:15:52+00:00"
-    },
     {
       "title": "UFC Shanghai, The Morning After: Dagestan dominance suffers a major blow at hands of Song Yadong",
       "url": "https://www.mmamania.com/ufc-results/468321/ufc-shanghai-the-morning-after-dagestan-dominance-suffers-a-major-blow-at-hands-of-song-yadong",
@@ -2105,15 +2098,21 @@
       "source": "Yahoo Sports",
       "cat": "ufc",
       "ts": "2026-08-30T19:29:15+00:00"
+    },
+    {
+      "title": "Justin Gaethje Seems to Have Given Up on a UFC Showdown With Conor McGregor",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaU1RVlV3QXJuam5aTVVOZWNFbUM2OEZ0T2kzN3dES2ljUm1TVFY2bXNuZnJ0TGpuWkhnVzRqV2lYRXNiaHRJaU5aOUhKZEJhTDlZaF9lV0dzelIzWTM0WUVGb1hVN0IxNHIweDBpSU1sbXN1Y0N2RmRNaERaMG4zcjJR?oc=5",
+      "source": "Last Word On Sports",
+      "cat": "ufc",
+      "ts": "2026-08-30T19:58:59+00:00"
     }
   ],
   "digest_last": "2026-08-29 21:30",
   "hour": [
     "2026-08-30T20",
-    2
+    3
   ],
   "yt_eval": [
-    "cc000daf-b186-391a-ab1c-d3b6f0bb3f07",
     "CBMimwFBVV95cUxPWnRFalVzMV96QzUyZHBUSGdtSjd6NWNTa0lKS3NnXzVpTUY5N2JPZmxSb3I2VXROLXczbDFlMXI4M3FrcHROV2kya2NCRHhtWXBFMFlDV1dqTHhOZW9MMXlWVU5HRjdJZVVESmZlY2JxTUJSVXNkNGxqZGVueGNoSVVad2p3SG5zWElUMXdKcDBrWEQ3ZjVpWVJYUQ",
     "CBMie0FVX3lxTE5wTXNZbWhwSHhZaFhIRnl4ZzNhLVNGVW5qbHNuSGJBNk9Na29vcE1zV1ZMZ00xU3ZaQWQ2d1Z3X2Q1bTI5Wlo1cFFyZE9ZSnpNUG9ScjhVQlpoMnJ1STZvRU5SQ2x4dUFIcm5qMDBCOWRkVS1jZ3hmSTZjQQ",
     "CBMi5wFBVV95cUxNQXJTWmRsUjZObHpsazVLM1R0NTltaXotSHZ1VVpweXFpOFRIdzRTT251Y2pZT3Y2cy16SGhfNUJBaHE5SXB2MmUycEt4OVphMzJNMnBlbWY2RVBja0ZXWXROV2l4X2cza2NyOVk0ZEpCN1c5OFhiRDNPTXNRelNETGJESTFGVnZaLWNxUFd3VGxpb3VVNGRXa1VtcjR6c3BSMHc5LWdhOFNHaUNwUEdyWjlPMHE5NC1YSjJnWGtFNHZlRVNJcXZ0aEt4dzRIYkxoLXFWXzRSUDBJZlR1LVVWQXh5U3lVMm8",
@@ -3312,11 +3311,12 @@
     "CBMi3AFBVV95cUxOYUstUmc2R2J2OHQxcXJuNk9LX1RKNDdqbXJWVzVWenFtUzVvQ1BfcG9KWEpfWkwtSUF2VXpUT1h1anZlR2dQTmg4RE5wS01sRVBxX0xzQkx0MnNYTldNcTBTVllpZDlkeWpmQzBzWVpuNXdfanFMOElQOXFFc2NRNDZBRGIxNUtQTG5wSlYyMG1QZTZoRTB1TkV1QUlBNG13bjJHbmVSMnNabER0aEoxSmRnWndQTlZfSmlYZlNaWDh5Z0FKUlZJYno2VEpGYWtRbDhlOWhJNTY1Q2hP",
     "CBMimAFBVV95cUxQR0duWWVhNWctMXhmMFJhemdxMXRRaHhDUHRCUHA4SFhCOV96X2xVMXJIenBtWElFUWkyaFNKNzlhczh1RFFwVERMeW44amRDaFVlM2xWQ0pjM3FMaHAyVzFCY0lxTW51R2tIbUNJckcxQUl1TUJBLURzNk5Ddzctd1Bab1dkSjFMM01qQ0lfUDJuSEpoNXZGdg",
     "https://bloodyelbow.com/?p=329751",
-    "b59c328a-e28d-3bce-a951-239977216eee"
+    "b59c328a-e28d-3bce-a951-239977216eee",
+    "CBMiggFBVV95cUxQaU1RVlV3QXJuam5aTVVOZWNFbUM2OEZ0T2kzN3dES2ljUm1TVFY2bXNuZnJ0TGpuWkhnVzRqV2lYRXNiaHRJaU5aOUhKZEJhTDlZaF9lV0dzelIzWTM0WUVGb1hVN0IxNHIweDBpSU1sbXN1Y0N2RmRNaERaMG4zcjJR"
   ],
   "daily": {
     "d": "2026-08-30",
-    "ai": 118,
+    "ai": 119,
     "staged": 3
   },
   "staged_hist": [
