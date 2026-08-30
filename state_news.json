@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Duel Arena 1 Start Time, Full Fight Card Details",
-      "ts": "2026-08-29T14:29:00+00:00"
-    },
-    {
       "t": "Umar Nurmagomedov issues statement after KO loss at UFC Shanghai",
       "ts": "2026-08-29T17:34:53+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Justin Gaethje Seems to Have Given Up on a UFC Showdown With Conor McGregor",
       "ts": "2026-08-30T19:58:59+00:00"
+    },
+    {
+      "t": "Spaten Fight Night 3 Results: Shogun vs. Teixeira",
+      "ts": "2026-08-30T01:21:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Shanghai, The Morning After: Dagestan dominance suffers a major blow at hands of Song Yadong",
-      "url": "https://www.mmamania.com/ufc-results/468321/ufc-shanghai-the-morning-after-dagestan-dominance-suffers-a-major-blow-at-hands-of-song-yadong",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-30T14:49:08+00:00"
-    },
     {
       "title": "Bilal Hasan won’t stop till he gets enough UFC Shanghai-like highlights",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcjZocEtlNzBNVnJ3bVVwOHJqLVNOR2VQeXhRWEFMUGNTNTEzWDZVZUpBbldVUV9XVU5CbzhvMWJha0ZNNjhReXk5ZW9iaTBCUXJRZXNMQUh4eUw2WGxHaFB1WVlGeEhXM2Q2YURiQWFSNERmZEVFTk5ST0ZVS2JiS3RZTnI2bXFMVXpsR2pDXzV3WFJJWXBseTNDMVFsRU9CNFA2SWpMMHJ2Skd6OFVCYjlFZzZoWGZpRndSSTJYZVVpMGlCOTMxZ21SanR2STgySkFiSlRrTjR6QQ?oc=5",
@@ -2105,15 +2098,21 @@
       "source": "Last Word On Sports",
       "cat": "ufc",
       "ts": "2026-08-30T19:58:59+00:00"
+    },
+    {
+      "title": "Spaten Fight Night 3 Results: Shogun vs. Teixeira",
+      "url": "https://sports.yahoo.com/articles/spaten-fight-night-3-results-200000037.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-08-30T01:21:00+00:00"
     }
   ],
   "digest_last": "2026-08-29 21:30",
   "hour": [
-    "2026-08-30T20",
-    3
+    "2026-08-30T22",
+    1
   ],
   "yt_eval": [
-    "CBMimwFBVV95cUxPWnRFalVzMV96QzUyZHBUSGdtSjd6NWNTa0lKS3NnXzVpTUY5N2JPZmxSb3I2VXROLXczbDFlMXI4M3FrcHROV2kya2NCRHhtWXBFMFlDV1dqTHhOZW9MMXlWVU5HRjdJZVVESmZlY2JxTUJSVXNkNGxqZGVueGNoSVVad2p3SG5zWElUMXdKcDBrWEQ3ZjVpWVJYUQ",
     "CBMie0FVX3lxTE5wTXNZbWhwSHhZaFhIRnl4ZzNhLVNGVW5qbHNuSGJBNk9Na29vcE1zV1ZMZ00xU3ZaQWQ2d1Z3X2Q1bTI5Wlo1cFFyZE9ZSnpNUG9ScjhVQlpoMnJ1STZvRU5SQ2x4dUFIcm5qMDBCOWRkVS1jZ3hmSTZjQQ",
     "CBMi5wFBVV95cUxNQXJTWmRsUjZObHpsazVLM1R0NTltaXotSHZ1VVpweXFpOFRIdzRTT251Y2pZT3Y2cy16SGhfNUJBaHE5SXB2MmUycEt4OVphMzJNMnBlbWY2RVBja0ZXWXROV2l4X2cza2NyOVk0ZEpCN1c5OFhiRDNPTXNRelNETGJESTFGVnZaLWNxUFd3VGxpb3VVNGRXa1VtcjR6c3BSMHc5LWdhOFNHaUNwUEdyWjlPMHE5NC1YSjJnWGtFNHZlRVNJcXZ0aEt4dzRIYkxoLXFWXzRSUDBJZlR1LVVWQXh5U3lVMm8",
     "CBMitgFBVV95cUxOanJzYzFwb3Q4X01CemNpNXJ2MXZPOHJkT0owcERJNTZibTY3ZGd0NHF5eEtoN2lBN18tZkVFd1BKU1UxNktxRHZMLTZFc2stc0NGWVRudWVyRXlqM2hndFozal9PMTNZdGYyaVo4bXdnbEMzYUJTU2g3LTRiTVl6RFkwYUs1NDZwbVFvQmFVZ0lDbU41dFFqYk5QcjFmSkJCNlh0b1Jkdk8tWG1zaUZ1a1BDQVZKUQ",
@@ -3312,11 +3311,12 @@
     "CBMimAFBVV95cUxQR0duWWVhNWctMXhmMFJhemdxMXRRaHhDUHRCUHA4SFhCOV96X2xVMXJIenBtWElFUWkyaFNKNzlhczh1RFFwVERMeW44amRDaFVlM2xWQ0pjM3FMaHAyVzFCY0lxTW51R2tIbUNJckcxQUl1TUJBLURzNk5Ddzctd1Bab1dkSjFMM01qQ0lfUDJuSEpoNXZGdg",
     "https://bloodyelbow.com/?p=329751",
     "b59c328a-e28d-3bce-a951-239977216eee",
-    "CBMiggFBVV95cUxQaU1RVlV3QXJuam5aTVVOZWNFbUM2OEZ0T2kzN3dES2ljUm1TVFY2bXNuZnJ0TGpuWkhnVzRqV2lYRXNiaHRJaU5aOUhKZEJhTDlZaF9lV0dzelIzWTM0WUVGb1hVN0IxNHIweDBpSU1sbXN1Y0N2RmRNaERaMG4zcjJR"
+    "CBMiggFBVV95cUxQaU1RVlV3QXJuam5aTVVOZWNFbUM2OEZ0T2kzN3dES2ljUm1TVFY2bXNuZnJ0TGpuWkhnVzRqV2lYRXNiaHRJaU5aOUhKZEJhTDlZaF9lV0dzelIzWTM0WUVGb1hVN0IxNHIweDBpSU1sbXN1Y0N2RmRNaERaMG4zcjJR",
+    "db2f3915-fed8-302b-a1fd-74f8cfa09b25"
   ],
   "daily": {
     "d": "2026-08-30",
-    "ai": 119,
+    "ai": 120,
     "staged": 3
   },
   "staged_hist": [
