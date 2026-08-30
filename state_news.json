@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Daniel Cormier defends Usman Nurmagomedov’s UFC Shanghai actions when arguing Umar deserves credit",
-      "ts": "2026-08-29T23:00:00+00:00"
-    },
-    {
       "t": "Umar Nurmagomedov breaks silence after brutal knockout loss at UFC Shanghai: ‘I will work on the mistakes’",
       "ts": "2026-08-29T21:06:47+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Mount Rushmore? Dana White Sparks Speculation About Promotion’s Next Mega-Event",
       "ts": "2026-08-30T15:25:58+00:00"
+    },
+    {
+      "t": "UFC Has Found New Brazilian Superstar With Denise Gomes",
+      "ts": "2026-08-30T15:18:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "“Would for Sure Help Elevate the Game”: Joe Rogan’s Surprise Commentary Appearance at US Open Pool Has Fans Wanting More",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNWTMzRS1wMGNaRmlXdnZMZ1dSalVHcGFnY19OdnRtRnFha0FhYXBlcEhiNGRkMEdWNUZ0SFJQM2VfNmVsenZPUmJOTFluNWVXVnRqWm9jWjFJdEo5ZUJxSjdESHRUUjlXMHBjSkZTQTVGSlBUTFQyYVlvLWNCbnd3d1hTMzdNSDJGeEozT3hudWpKUUQ2alp3dVVDY0twbFBkQkljbS0zdUFab2tHYjhxekpXdjZzTTJwNWVYQzRocXlfNkttNFV5blFqa054U3Q3QjNidWFwc1otZEc0NmpQNVNrck1Bal9INUZlSnFuMkNVSmJCNWVj?oc=5",
-      "source": "EssentiallySports",
-      "cat": "ufc",
-      "ts": "2026-08-30T10:17:00+00:00"
-    },
     {
       "title": "UNC-TCU: Marshall Newhouse Talks Belichick Stream of General Videos",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMFRCX0RaRUlIY2RpOEZOZk0xTl9IYnFkMU5aRGs2LUNwSXI0bWlibzhzRHVsRHZ4S0pITC1DZ25ISnRjRUI5a1lhOVlPX2FzR0x4RTUtOGNiWG9FTm0tU0luVlFTM1RtX2U0UUpZc3lmazZ6emNzTm5MNXJjQmYwOXRDa3NQaURzTTZ1MGY5bHk?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MyMMANews",
       "cat": "ufc",
       "ts": "2026-08-30T15:25:58+00:00"
+    },
+    {
+      "title": "UFC Has Found New Brazilian Superstar With Denise Gomes",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcjA3QWZURUMyMHdNZ3doRXM1UTRGcnJYdlpIOW1kaklmOUFpUE8zbngwdG5LOW9HNzhsNThLMzhwTFVLZXRHeW5KZmRsdmR1Z2Q5VUxETjNmRUM5QkE1UkVyR2JlTjF1U2lXdDU5YnF3LTRoWHJfYUhMYU1fM2trcEhtNnlvRThDRXdyWlI3eXFCU3NyLTFRYw?oc=5",
+      "source": "lindyssports.com",
+      "cat": "ufc",
+      "ts": "2026-08-30T15:18:00+00:00"
     }
   ],
   "digest_last": "2026-08-29 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiUEFVX3lxTE9OVUhTRXFuYlg5QjRyRGJxOHBRbmk2Z0NPUTJhTVhUZm9sb2swdXBVcElxZEhxaVNyMERkUlVnbVQtNGlpV1dHZFhmOFRKMnhl",
     "CBMingFBVV95cUxPZHVSU1FZcVh5aWpGYm5USXdrb2lkMWZvOTZqVllxOVdIbmRWb01ZRk12WmhPaEpuVnhDeHlSNk5tLWZySUJybXFWWDdQZzlsOVhEZVo2RndpNzF1b016Qmt5SWZfOGtZMnRIR1JteGZ1RTNYZV84WWozLWpidHVwZk1WWkEtT1BvTGhRYkpQNkRYS0g5dG43dm8zUTBGZw",
     "CBMitgFBVV95cUxPU05GNURPLUxXdzd5bDVoVi1wMzZQLVlWZ3dlVktQYVdJMVc0ZFYxWmpRQjFJU0hTdTBXdXNlckNwOGxEMzBfcXZxZzVIVUdOY2RjOUVwS29YV3Y5eTlDU1lLWFctd1M5N1FBX3N5WTNRR2J4enFsTW5mWUxBNUoyNUV0NEZFVmREZ2p5MVVkWlhiVTNaODdFOV9INzN6T09PYTVlZ1BkS2p4dUc5R2R4ZGhYWWQ4dw",
     "CBMitgFBVV95cUxQN2tmZzhPSC1mak5tOGlGSUNRUkhVb3hVY1lWUC01bWZxamk1T0k2X1o0VWx4SlducTFEZi11Rnh1eXZMY0xQaVVYUFRLTjdKckE1cFdJVTBRWXR3bWRRb0VHd24tY2t2YmZIRnZfVm0ycG9oblhUQ3FrYkFpUHo1ajl6dVpLMGF0b3d6MjNfQzJLYmRxQU9weVR0bllYdmtsMXpKWjUwWDV2NFJLYUE3TmlqX0N1UQ",
@@ -3312,11 +3311,12 @@
     "CBMi2gFBVV95cUxPcjZocEtlNzBNVnJ3bVVwOHJqLVNOR2VQeXhRWEFMUGNTNTEzWDZVZUpBbldVUV9XVU5CbzhvMWJha0ZNNjhReXk5ZW9iaTBCUXJRZXNMQUh4eUw2WGxHaFB1WVlGeEhXM2Q2YURiQWFSNERmZEVFTk5ST0ZVS2JiS3RZTnI2bXFMVXpsR2pDXzV3WFJJWXBseTNDMVFsRU9CNFA2SWpMMHJ2Skd6OFVCYjlFZzZoWGZpRndSSTJYZVVpMGlCOTMxZ21SanR2STgySkFiSlRrTjR6QQ",
     "CBMiYEFVX3lxTE5lVzFxaEd0YlowMDdaenRoM3lYU3RNUWkyZkZXcmVmeWhhSWJHNU52YmZzRGMyZU1CV3BIQzNyM1hpX1AxZmVwMndkSWx4YWd6S3JyY0hEaHhkRDZ5TllzYw",
     "CBMiZEFVX3lxTE5SQUdXemgtSm1DeFVvUm1rUlFybklUQkR1WWVLN3c2a1VzLXYyYTZOZHp0TU9qRUFLMy1kYV8tdC1iRVRjR1JqZ1lxc3o1NmVHUk5DY083QlZJelRtQk1KT0plR1A",
-    "CBMipwFBVV95cUxNWXJkRXlVMElrUjYyV3FnMjc1RHNxVGEzbGRYLVFFZk5Mazlna2ItS1RGNjcwQkFhMjEyMk52Q29NLWd1VTFoY21fbUtGSGdPZ09MMzE3aXJLbXR6SVViRGdja2FsSGVLYlBfbkp5N2pkSnFjZXNjUVB5QzBvYjJEd0xyMjlHN09zMXdjbGx4M1J1Zll5LWF5NE13RDNTektldEFYeGxvbw"
+    "CBMipwFBVV95cUxNWXJkRXlVMElrUjYyV3FnMjc1RHNxVGEzbGRYLVFFZk5Mazlna2ItS1RGNjcwQkFhMjEyMk52Q29NLWd1VTFoY21fbUtGSGdPZ09MMzE3aXJLbXR6SVViRGdja2FsSGVLYlBfbkp5N2pkSnFjZXNjUVB5QzBvYjJEd0xyMjlHN09zMXdjbGx4M1J1Zll5LWF5NE13RDNTektldEFYeGxvbw",
+    "CBMimAFBVV95cUxOcjA3QWZURUMyMHdNZ3doRXM1UTRGcnJYdlpIOW1kaklmOUFpUE8zbngwdG5LOW9HNzhsNThLMzhwTFVLZXRHeW5KZmRsdmR1Z2Q5VUxETjNmRUM5QkE1UkVyR2JlTjF1U2lXdDU5YnF3LTRoWHJfYUhMYU1fM2trcEhtNnlvRThDRXdyWlI3eXFCU3NyLTFRYw"
   ],
   "daily": {
     "d": "2026-08-30",
-    "ai": 86,
+    "ai": 87,
     "staged": 1
   },
   "staged_hist": [
