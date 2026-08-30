@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Denise Gomes knocks Yan Xiaonan out in UFC Shanghai co-main event",
-      "ts": "2026-08-29T12:20:04+00:00"
-    },
-    {
-      "t": "UFC Shanghai video: Denise Gomes scores highlight reel KO of Yan Xiaonan",
-      "ts": "2026-08-29T12:30:30+00:00"
-    },
-    {
       "t": "UFC Shanghai video: Denise Gomes crushes Yan Xiaonan with knockout elbow in Round 1",
       "ts": "2026-08-29T12:34:18+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "“Would for Sure Help Elevate the Game”: Joe Rogan’s Surprise Commentary Appearance at US Open Pool Has Fans Wanting More",
       "ts": "2026-08-30T10:17:00+00:00"
+    },
+    {
+      "t": "UNC-TCU: Marshall Newhouse Talks Belichick Stream of General Videos",
+      "ts": "2026-08-30T09:38:34+00:00"
+    },
+    {
+      "t": "Dylan Crews And Nationals Square Off Against Marlins On Aug. 30",
+      "ts": "2026-08-30T10:24:26+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Daniel Cormier defends Usman Nurmagomedov’s UFC Shanghai actions when arguing Umar deserves credit",
-      "url": "https://bloodyelbow.com/2026/08/29/daniel-cormier-defends-usman-nurmagomedovs-ufc-shanghai-actions-when-arguing-umar-deserves-credit/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-29T23:00:00+00:00"
-    },
-    {
-      "title": "Umar Nurmagomedov breaks silence after brutal knockout loss at UFC Shanghai: ‘I will work on the mistakes’",
-      "url": "https://www.mmamania.com/ufc-paramount-plus-news-hub-fight-cards-schedule/468446/umar-nurmagomedov-breaks-silence-after-brutal-knockout-loss-at-ufc-shanghai-song-yadong-results",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-29T21:06:47+00:00"
-    },
     {
       "title": "Mike Perry's bad weekend gets worse, Duel Arena fight with Brandon Jenkins ends in early injury",
       "url": "https://sports.yahoo.com/mma/live/duel-arena-live-results-round-by-round-scoring-live-stream-for-tonights-mike-perry-vs-brandon-jenkins-fight-063000872.html",
@@ -2105,6 +2091,20 @@
       "source": "EssentiallySports",
       "cat": "ufc",
       "ts": "2026-08-30T10:17:00+00:00"
+    },
+    {
+      "title": "UNC-TCU: Marshall Newhouse Talks Belichick Stream of General Videos",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMFRCX0RaRUlIY2RpOEZOZk0xTl9IYnFkMU5aRGs2LUNwSXI0bWlibzhzRHVsRHZ4S0pITC1DZ25ISnRjRUI5a1lhOVlPX2FzR0x4RTUtOGNiWG9FTm0tU0luVlFTM1RtX2U0UUpZc3lmazZ6emNzTm5MNXJjQmYwOXRDa3NQaURzTTZ1MGY5bHk?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-08-30T09:38:34+00:00"
+    },
+    {
+      "title": "Dylan Crews And Nationals Square Off Against Marlins On Aug. 30",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb2pmd1JGMkhQcnFtN0JjcVMwRHRtVEl1ZENQVE4zZEFOSGpqaklUZWRJeENBM3RKNXgxaFFRX2MzYzNYTnFvV0o4QzlKTnFxNExYQU9uNXlFVnZXckt1cTRwSjZWWjhmT1NTenloWl95UlN4UFJLZzlaX045dlpQUEw4Z0ZWMlg5bHFvYTdPQkxGQzBmWDVoWUZYQkNlT09DYXJxUVNQaER6NjBpOGtiYzBvaGhsaHJhaHc?oc=5",
+      "source": "FanDuel",
+      "cat": "ufc",
+      "ts": "2026-08-30T10:24:26+00:00"
     }
   ],
   "digest_last": "2026-08-29 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "ef88be6d-748c-38f9-91f4-61fd376777ea",
-    "CBMipgJBVV95cUxOMm81ZlBzb3ZNZTRFZ0dLU3hXZzE4dVB2Y1RIT1hfNlkzcWtjTXFrdG05OVBBcTRMUHkxcVEyLVNBVjE5UmlvU2Y4UVJ3WlRwRFRZdnBFWkVJWVR4aExwV3dYZ2FtSGlXSFVTanEyVm5qcmFPODVOMUJQWFE5RExCdG5PbDdFLTgtMHh1dmhidDBrSW1mODVtZmRNN0xIX1RGS1JWYmxja3VlUWo0U010QlJsMmRVcFlaOERoRU1KTGFvS3o3b0lEX1FTempGbEptdUREaHJJNk9zeTM2QWVqYWxlRW9KdnZtLW9UYmFqaGRMNWYxMzc4SVp6eUszeThmSTRIUmMtV0p0TVNxUWVRVTlJdEFxVXRPdDFhRHpVMl9YUlZLbkHSAasCQVVfeXFMTnRUXzJjVmpJY2Z0SmVUdU1zcmlVQVN3R2RaMXhHZGpKUFFNLTRHb3ctT1BkRlZvOXQzcjU1STQ2T212VjF4ZzBvSmZmVWI2cU9vaDRGR29yRGJDVXpaaFNxeUREZ2JwNmJfN0J5dWR5OWRleHVXaFpBYWxZcTlYVFp3OUxkbzA3SFUxUlIxSThobXUxLWZBdW1BTmNPQzBRZkN4MFhSUzRfWTdqaGhoNHA2VWFGWjRrMEZfT3hFN2VUa2FGU2xUZnBEWkpscFhhcmlaaU0tUG55bGU3MXRwNXlZRmctdmt0ZVFnWkFnMGkxT0ROYXdsRm9UNXFSZjVWTFBOaHNmeUctZFJoQVlSNENZMzRzTWc4cG5kelcyVEN3MkRETjVHaEZ0a0E",
     "CBMiiwFBVV95cUxOUGtsRUVtTXZiTG94UUJjdHFCZHBfQ2ZzZGJsSzJzd0R1YUVqQTNVc1E3SGNoWHZBb0c0SVk2dlpvUng2TVExQ0pYcjFCZmp6Rm14bkZNMkdVTjNabjhWNENsdndjTnlqc1pzeXdCX0dQVWUyQmlWVVNCTFptd0R1ZmpqRnpDZHFOY1VJ",
     "CBMiwgFBVV95cUxPNVJoSjRLUTNwSlFMdURicXBZLV9ialUtV2ZWVXhPdERVa011cjFteGhnTWpmdmN6OC0zbV91ODJTQ05OMVJqSFItaFBzb3UyRG5JQnRpRUpIc1MtVEJKNldKeUFZUUJDNkM5UkUwRy1wMHNjTkktZFozN1ZVcWxJY2N3cUY1cFJVNUVBckxxM0kxUlN3T1FJOWRtRjNiQjRGYUtLbDlzT1FuaW95WWZNQW1oOExmWUpGTTVsT0J1MmQ2Zw",
     "CBMiyAFBVV95cUxPNkdMNkJFbWRscGJPc3IzRzFOM1pBVV9vWk1MRTAzSmdsS3ZnYlUzeUZ2R0FiMlVrUklsZkx6WEd6X3lVUmpFM1pja3ZLSV9ENW9hUC1abU9pZ1VjbnNIT1dfZ1ZYR1U4dy13YWtJU2h4RGdQWFBwS1pXQksyN29QRVUzOFNkSEN3YUs3Y05GYTE5VnM0bG1sMEJqQW1GVzBKVHhxNW9ybkRzMTR0RU1yXzlkXy1vRjNhSzAtaWI5c0FhYjF6N3FqSQ",
@@ -3312,11 +3310,13 @@
     "ae33ec40-c265-3776-ad19-3680e7e16a11",
     "CBMivAFBVV95cUxQYU9VSjlRWUg3TF9qNGNwUHZmSHJOQzloTndmbkZRMEkzWjVzazQ4RkdlN1dJRVl6OVQzakkzMnN2MHJ4dXQ3WjZOMWI3LUtXXzFCMS1qSHhGQUxjZjF0R0VPaUFRX1NvVjdzLTlKengxSmJyQzBxeXg5UHRidmVoTjh2VkNsNF9MYUpZeDBXdmhkU2JuRnY2MW9UMkhieTNTeXZSbGJWUlZ1aWRxdFhNNlZmZVRDSFNFaUhjYg",
     "CBMiUEFVX3lxTE5uRlNrajNFQTIyU1dOSnVMTy12YlJVbnRKOFhQM0UxOWx6M3ZCRlNOZVVOSFhabVVuUEJTNTNEUXBoaWlMcEktN0NZVmVTLXBn",
-    "CBMi9wFBVV95cUxNWTMzRS1wMGNaRmlXdnZMZ1dSalVHcGFnY19OdnRtRnFha0FhYXBlcEhiNGRkMEdWNUZ0SFJQM2VfNmVsenZPUmJOTFluNWVXVnRqWm9jWjFJdEo5ZUJxSjdESHRUUjlXMHBjSkZTQTVGSlBUTFQyYVlvLWNCbnd3d1hTMzdNSDJGeEozT3hudWpKUUQ2alp3dVVDY0twbFBkQkljbS0zdUFab2tHYjhxekpXdjZzTTJwNWVYQzRocXlfNkttNFV5blFqa054U3Q3QjNidWFwc1otZEc0NmpQNVNrck1Bal9INUZlSnFuMkNVSmJCNWVj"
+    "CBMi9wFBVV95cUxNWTMzRS1wMGNaRmlXdnZMZ1dSalVHcGFnY19OdnRtRnFha0FhYXBlcEhiNGRkMEdWNUZ0SFJQM2VfNmVsenZPUmJOTFluNWVXVnRqWm9jWjFJdEo5ZUJxSjdESHRUUjlXMHBjSkZTQTVGSlBUTFQyYVlvLWNCbnd3d1hTMzdNSDJGeEozT3hudWpKUUQ2alp3dVVDY0twbFBkQkljbS0zdUFab2tHYjhxekpXdjZzTTJwNWVYQzRocXlfNkttNFV5blFqa054U3Q3QjNidWFwc1otZEc0NmpQNVNrck1Bal9INUZlSnFuMkNVSmJCNWVj",
+    "CBMikAFBVV95cUxQMFRCX0RaRUlIY2RpOEZOZk0xTl9IYnFkMU5aRGs2LUNwSXI0bWlibzhzRHVsRHZ4S0pITC1DZ25ISnRjRUI5a1lhOVlPX2FzR0x4RTUtOGNiWG9FTm0tU0luVlFTM1RtX2U0UUpZc3lmazZ6emNzTm5MNXJjQmYwOXRDa3NQaURzTTZ1MGY5bHk",
+    "CBMiugFBVV95cUxQb2pmd1JGMkhQcnFtN0JjcVMwRHRtVEl1ZENQVE4zZEFOSGpqaklUZWRJeENBM3RKNXgxaFFRX2MzYzNYTnFvV0o4QzlKTnFxNExYQU9uNXlFVnZXckt1cTRwSjZWWjhmT1NTenloWl95UlN4UFJLZzlaX045dlpQUEw4Z0ZWMlg5bHFvYTdPQkxGQzBmWDVoWUZYQkNlT09DYXJxUVNQaER6NjBpOGtiYzBvaGhsaHJhaHc"
   ],
   "daily": {
     "d": "2026-08-30",
-    "ai": 36,
+    "ai": 38,
     "staged": 0
   },
   "staged_hist": [
