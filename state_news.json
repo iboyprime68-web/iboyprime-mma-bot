@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Shanghai Post Show: Reaction to Song Yadong's stunning win over Umar Nurmagomedov",
-      "ts": "2026-08-29T15:49:08+00:00"
-    },
-    {
       "t": "UFC Shanghai Bonuses! Yadong, Hasan Lead $100K Winners With Sick KOs",
       "ts": "2026-08-29T18:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Hector Santiago Sleeps Lawrence Lui In Round 2 At UFC Shanghai – Highlights",
       "ts": "2026-08-30T10:41:15+00:00"
+    },
+    {
+      "t": "Andre Lima Mounts Late Guillotine To Submit Namsrai Batbayar At UFC Shanghai - Highlights",
+      "ts": "2026-08-30T10:41:15+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White announces UFC Shanghai ‘smashed’ four records in reaction to action-packed card",
-      "url": "https://bloodyelbow.com/2026/08/29/dana-white-announces-ufc-shanghai-smashed-four-records-in-reaction-to-action-packed-card/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-29T15:00:00+00:00"
-    },
     {
       "title": "UFC Shanghai video: Song Yadong collides with Usman Nurmagomedov after insane knockout over Umar Nurmagomedov",
       "url": "https://www.mmafighting.com/ufc/507730/ufc-shanghai-video-song-yadong-collides-with-usman-nurmagomedov-after-insane-knockout-over-umar-nurmagomedov",
@@ -2105,6 +2098,13 @@
       "source": "MiddleEasy",
       "cat": "ufc",
       "ts": "2026-08-30T10:41:15+00:00"
+    },
+    {
+      "title": "Andre Lima Mounts Late Guillotine To Submit Namsrai Batbayar At UFC Shanghai - Highlights",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU1JWUHhwcVhkdi04cXdwS3BTZWlRNlBxbUVJOHVLRlVBV1hONloxVnpVeEZZUTI1aVNtZFVyZkpPcnhZaHltOUlqRGpCVVUxbzZOZnYweWNuMk50WVZnU2NPUGo3SENSX0hRMjRtcDlRbmI3Z0hVNWJ3MzlXSEZxTE91TlV1RHo0dHBRUHlmOTlFR1lheGcza0NJZw?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-30T10:41:15+00:00"
     }
   ],
   "digest_last": "2026-08-29 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMivAFBVV95cUxNOGFya3hvTjI1dGNnYkM5SnlsdFk0dnBFZjdzbEYyeWU4RlNrWnZNWkRKQjlwU0oxVXRFVWdDdUFsRzBkRm9oalB6S21sWHotT1MzTEtiYklZdTNGRFlOQlNId1pUeHdQUEtpd1BxVjE5OWdxNFM2TmRSaFkyRTZjNUxlSURaUDNRUU03VkpMSmpZZzI1RTJ4NmdQU190UXE2MTNoc01yMktTekpZLVdOSHVhcUt3Y1FlTDg5VQ",
     "CBMiigFBVV95cUxQZFAtX3J6bGhRdGxqV0ZDSVJWVFFfRnhSeE1GRkFpSlVqaExYWFBiVFZpRmgxVUJhRmFtRVNfWlFWQl83SjE3QTE3cU9qV2VGTmp0TlpzdkRHX01HUk5jbWFZcDZWZGFYRDUzMXRvX1RYYklDOXJTUzRrT0F6bGhyYmM5N0RBLWdmeHc",
     "CBMid0FVX3lxTFBXM1Y1Qk5UTGdLNXhaWE9DUDRDc0lRdTRqNThoRDhFeEZWSWlhTnBvWS1iWWJ4bWdLUFRuN3FlNDVpc0Y4cVRzczRHZi15Ui1oNmZad3BHTDhBcG5mQ0loZWFMY045STlzTXkwRFV6N1hsTF9tX2Rj",
     "https://bloodyelbow.com/?p=328766",
@@ -3312,11 +3311,12 @@
     "CBMiW0FVX3lxTE9FUDFZeWdxQUpzUVdHLTY1LUNjOG95eF9RLTltcnJLbEVaOGV2R3VTSU9rcEdycHp3UjB3a1ZuRk9XR2xnWVB6dEVPUFA1dWU4cFNZQkhxWndoV1k",
     "CBMipwFBVV95cUxOck1pY3RsNF8xLUc5eTExRHBTSElzVVY0dmctZzJmUjJCcjhmMFRXWmRxelhwb3YzN2JETlRiS1ZTcENZWjNPS2pBQkZHdXY2ek1zbURvUkVkM3pMemxuRTFKcVhLYU9PS1VkT0lMemhmTnJJcHVBWHk1LV9fbG5ZNHNuNUJfRlB2TTBraWFBaWVGTUdybjhGdUotZ0tQWnRDMkFXdC1wbw",
     "CBMifEFVX3lxTE92TGZHOGZrQ1JrVjNVZzdQV3FUNWZfbHdaQnY5ODJzdTZoU2JqMHl0eU1DUFAxdWxEdXJES01kMFh6NmRCcDJ5aDI0aW95bFo0RmJRMkNLMmNoR3VyMzJTSzYyTUJ3Nzkzc0ZKOHNOS2JpUExsUVBOMHljVTE",
-    "CBMiiwFBVV95cUxOM05kRDd3bmdvZVNTTFhYYzVXU2p1Z2Zuc01udnM2aTFTd3dBZm10R3pYWVprWDVkMVhXWEVMZGJtUWJoaHJjUlc4MHItMU50OHh0Z2U1QXJIemllSWd0VkZDRVh6VGk0cnhQMzRRNzhvN3RxSGhOdmVkVzB2ZEo0Y1NLckVvYXRUNHVZ"
+    "CBMiiwFBVV95cUxOM05kRDd3bmdvZVNTTFhYYzVXU2p1Z2Zuc01udnM2aTFTd3dBZm10R3pYWVprWDVkMVhXWEVMZGJtUWJoaHJjUlc4MHItMU50OHh0Z2U1QXJIemllSWd0VkZDRVh6VGk0cnhQMzRRNzhvN3RxSGhOdmVkVzB2ZEo0Y1NLckVvYXRUNHVZ",
+    "CBMimwFBVV95cUxOU1JWUHhwcVhkdi04cXdwS3BTZWlRNlBxbUVJOHVLRlVBV1hONloxVnpVeEZZUTI1aVNtZFVyZkpPcnhZaHltOUlqRGpCVVUxbzZOZnYweWNuMk50WVZnU2NPUGo3SENSX0hRMjRtcDlRbmI3Z0hVNWJ3MzlXSEZxTE91TlV1RHo0dHBRUHlmOTlFR1lheGcza0NJZw"
   ],
   "daily": {
     "d": "2026-08-30",
-    "ai": 42,
+    "ai": 43,
     "staged": 0
   },
   "staged_hist": [
