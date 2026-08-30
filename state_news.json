@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Shanghai live updates: Umar Nurmagomedov vs. Song Yadong results",
-      "ts": "2026-08-29T06:00:32+00:00"
-    },
-    {
-      "t": "Ex-UFC star returns from retirement to finally win again six years after 7-fight losing streak began",
-      "ts": "2026-08-29T09:30:00+00:00"
-    },
-    {
       "t": "Arman Tsarukyan Predicts Violent Finish Over Mauricio Ruffy",
       "ts": "2026-08-29T06:42:39+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "‘Such a C**k’ – Daniel Cormier Under Fire for Defending Usman Nurmagomedov’s UFC Shanghai Cage Jump",
       "ts": "2026-08-30T05:12:32+00:00"
+    },
+    {
+      "t": "UFC Fight Night: Nurmagomedov vs. Song Fight Results",
+      "ts": "2026-08-30T05:15:31+00:00"
+    },
+    {
+      "t": "Usman Nurmagomedov issues statement, says 'calm down' after UFC Shanghai cage-rush",
+      "ts": "2026-08-30T05:16:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Song Yadong lands unbelievable knockout uppercut to upset Umar Nurmagomedov in UFC Shanghai main event",
-      "url": "https://www.mmafighting.com/ufc/507679/song-yadong-lands-unbelievable-knockout-uppercut-to-upset-umar-nurmagomedov-in-ufc-shanghai-main-event",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-29T15:31:38+00:00"
-    },
-    {
-      "title": "UFC Shanghai video: Song Yadong KOs Umar Nurmagomedov, calls for title shot",
-      "url": "https://sports.yahoo.com/articles/ufc-shanghai-video-song-yadong-130740426.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-29T13:07:40+00:00"
-    },
     {
       "title": "UFC Shanghai Highlights: Kai Asakura overwhelms Aori Qileng",
       "url": "https://sports.yahoo.com/articles/ufc-shanghai-highlights-kai-asakura-132853449.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-30T05:12:32+00:00"
+    },
+    {
+      "title": "UFC Fight Night: Nurmagomedov vs. Song Fight Results",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16MHZhNjlrSmcyUGxpR2hSekdIRTBtTlhHb21QYnY3cGhqX2ZYcWJXMVpSWHBCd3UxcXFlLUVQOUJINnpBUGttdXZUd3p1bFFOV0VtNE9ndkpNUkhsaVNaQ29YbHNldHNkdEpyOWVn?oc=5",
+      "source": "espn.in",
+      "cat": "ufc",
+      "ts": "2026-08-30T05:15:31+00:00"
+    },
+    {
+      "title": "Usman Nurmagomedov issues statement, says 'calm down' after UFC Shanghai cage-rush",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNb1UxTXVYMTNtV2ZxZmhOREl3ZHdvR3liQS1DRHltVW5zMDQ1aWU3YWEtQzlGV1UyVG5ydlJ3aW1SZHdSYk1uZjlmdGZXU0VvRVZUcG9lbjVJc3NzQkRCOFFHRVFQblM1TE5NQkowX1FZcVE2OUpYTGlZcFdvLU1NT2JMOGkycVZoNmJpTFdBLWRXUUlhcnZCS2N1aGRlcHVaXzZrQktja3I1NGVOQmlGdmV5aGx5RDZmSmRwVEhORHQ0eEJXWDV4QTh3?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-30T05:16:00+00:00"
     }
   ],
   "digest_last": "2026-08-29 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiywFBVV95cUxPLTk4OVZfX3RjTHpjdVFPRWsxQVduckU3a3IyU29SVEdvb013Y0hLdWZUR2NjWWdxSlhaUkotbWRDSkZVNnJ1S08waHQ3b3BucVEteG1ydm5QYzBaNXlPUzNEd0MwU1pqSUZnVFNoemRsSmtkMUJIaGVNZmo0czFrWlI4WnowTDJrSVNaQWl3c0Qyc3prUUppRUdfdHZsb1NoSXZLczkwNVlyZHdZOHFRVzRTcEJYRTBDbTdpcUxzWWVpMGRZcE8zZW1hYw",
-    "CBMickFVX3lxTFAwU2xPdGc3WWlFOEcxX2lvM09xVEplWk9SUGZfcEx2dnZYTnJoTklNSXotQ3RVMVI2QzljUDFrZ21iUlBXcTlZSERFTGtxRnJFdmtMU0o3dEdBT1duTlpZLWNUN0N1aDZzcEJXTGg1cHNOQQ",
     "CBMitgFBVV95cUxNSnE0OG9lUEZwbEhvVkJCeFBSclVTakJBZGUyNk5RSy1LQU03N2lDV0o4NnNJcDFWTG5SazVkTHQ4VUpEQTh1TDJ2bE9wVFdmVEhhMTlzTWtFZGx3THJWZjRNZU9sdlFkeFdLN3RJXzlhU0ZwVHVWblRtVzdZaV9NcTMwNW9GTTJTUHdxOHB2eVZNcy0yYTdzeU1jSUVrOURsLURfLXF2Q0J5MTBaczl4Y1lDV1QtQQ",
     "CBMiUkFVX3lxTE5xQ1A0eGhkOWotTlB4Y3V1Z0N6WlRKQmM4dFB0Z0tNV0xhNHpWYUlIM0h0V2NXR1NSNzdjV1E1QkR1bmdTaFRaaFprZkx2ZklpSWc",
     "CBMiygFBVV95cUxPaXlZVW1YOWx1ZkUyNUZ3ZzNEbjBLUzF2SUdxZFA5NHZ2V3BMeDJtMGZHVWZWSVh0OXdaYVRucVJGYUpCTG9LZ1ZLWVdSY3YtRlRxckRXNXFyLTdHQ05MQ1U2cU9ZRDZYZ2dGVUxmMzlzeFpyU3JGNGlOT2Vqd3lXXzI2UUdaOXRxYlRfYU81M0xxNHd1TWJ5ME5Ub1dKdmJzN3Yza0ZYTnQycWJWUmM2TWtOQmdWT2kyNHphSE5wLTNfa1JMWGxjQmRR",
@@ -3312,11 +3310,13 @@
     "CBMirgFBVV95cUxObllfWXdzcDV1Qm05azJPMEc2NGdrTGVwS1d6VUJXMnBDWHpid3J0dW01MTlBMzJQcUpid1IySjZReTNSOHRfbkR4Qzl6aE5HWkZtZEhZdFVhUFNxVTEzR0E4ZkQ4YkFSbWplZUNYVXZ2WGVOLXhoa3BUdHNBcllVQnN5UUwzaWxhdm1PNGk0Q21LT0xvbUVqOFJBbHBwMnpsVzBvRWFubVZNOTNzRmc",
     "CBMiXkFVX3lxTE8xaXFydmttZmwtMEdmSlNVN25zY1JCR09Fd21PeVdhS3Q0ZzFJc29rSy1lekMyMmdDM2NjV1lzVDZpcjVJRHlTOUZqMlBISFZSemhnaFlTNUQ0VjF3OHc",
     "CBMi1wFBVV95cUxPUnJSYS1aTnZrc2VneXpmR2NZa0RudTdpcTZEYV8tWnEyMEhVQlZzZHR2elZNUVFvaFJ6RmV3NTNmOWFtTkp2aUZrdDNNMTZ2V2ZibEtxYWFRaGdJTk9pYVBIUW1acVBVNzI0RDJBWEF5d0szMUlURnk0S280cGxmWDh5NmV0eFFKN3NLRF9BV3c2QkZZNlNYYmlYN1M1ZU1oM3hqZ2NiWjBkSmpoSUpwNzJRWVhER1U2M2gyU0J4LTNKM1VkV1dST0FGSU43TFNKZjVxZkNlYw",
-    "CBMiuwFBVV95cUxQOW8xZE4wd0hUM3R5cHRiVmM4a0I2SVRBX0xxYmNKUlFmMlh4Wk1WWnQ0dElnX0xPUk1UZ3hzZWgzRmNUWE5hVzhPM0d0N1FBSFBBclZJV3lSdHN0eWNCOEdSNW5HYlAzMXBBMTU5Wnp1ZDJKWFpGdW0xZ3h0MDNUektqbGc0TnF3S0RhYkhaQWc3Qkg4N0FfZi1jdGZoM1pYZEZtZHZmNWxwQ3ozam9MVk10c2ZRcEZoTzlJ"
+    "CBMiuwFBVV95cUxQOW8xZE4wd0hUM3R5cHRiVmM4a0I2SVRBX0xxYmNKUlFmMlh4Wk1WWnQ0dElnX0xPUk1UZ3hzZWgzRmNUWE5hVzhPM0d0N1FBSFBBclZJV3lSdHN0eWNCOEdSNW5HYlAzMXBBMTU5Wnp1ZDJKWFpGdW0xZ3h0MDNUektqbGc0TnF3S0RhYkhaQWc3Qkg4N0FfZi1jdGZoM1pYZEZtZHZmNWxwQ3ozam9MVk10c2ZRcEZoTzlJ",
+    "CBMibkFVX3lxTE16MHZhNjlrSmcyUGxpR2hSekdIRTBtTlhHb21QYnY3cGhqX2ZYcWJXMVpSWHBCd3UxcXFlLUVQOUJINnpBUGttdXZUd3p1bFFOV0VtNE9ndkpNUkhsaVNaQ29YbHNldHNkdEpyOWVn",
+    "CBMiygFBVV95cUxNb1UxTXVYMTNtV2ZxZmhOREl3ZHdvR3liQS1DRHltVW5zMDQ1aWU3YWEtQzlGV1UyVG5ydlJ3aW1SZHdSYk1uZjlmdGZXU0VvRVZUcG9lbjVJc3NzQkRCOFFHRVFQblM1TE5NQkowX1FZcVE2OUpYTGlZcFdvLU1NT2JMOGkycVZoNmJpTFdBLWRXUUlhcnZCS2N1aGRlcHVaXzZrQktja3I1NGVOQmlGdmV5aGx5RDZmSmRwVEhORHQ0eEJXWDV4QTh3"
   ],
   "daily": {
     "d": "2026-08-30",
-    "ai": 27,
+    "ai": 29,
     "staged": 0
   },
   "staged_hist": [
