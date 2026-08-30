@@ -1,7 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/466637/live-official-brandrisk-14-video-stream-complete-fight-card-results-and-highlights-manziel-vs-menery",
-    "https://www.mmamania.com/466655/highlights-open-ufc-sacramento",
     "https://www.mmamania.com/466667/open-thread-august-22-2026-summer-check-in-hows-everyone-doing",
     "https://www.mmamania.com/466696/highlights-open-ufc-sacramento",
     "https://www.mmamania.com/466697/highlights-open-ufc-sacramento",
@@ -719,6 +717,8 @@
     "https://www.mmamania.com/?p=467817",
     "https://www.mmamania.com/?p=467842",
     "https://www.mmamania.com/?p=467844",
+    "https://www.mmamania.com/?p=467856",
+    "https://www.mmamania.com/?p=467867",
     "https://www.mmamania.com/?p=467869",
     "https://www.mmamania.com/?p=467871",
     "https://www.mmamania.com/?p=467881",
@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Umar Nurmagomedov issues statement after KO loss at UFC Shanghai",
-      "ts": "2026-08-29T17:34:00+00:00"
-    },
-    {
-      "t": "Bella Mir Talks Shocking DWCS Loss to Apodca Aug. 25",
-      "ts": "2026-08-29T17:37:32+00:00"
-    },
-    {
       "t": "Middlesbrough vs. Burnley Live Stream of English Football League",
       "ts": "2026-08-29T16:49:03+00:00"
     },
@@ -1683,6 +1675,14 @@
     {
       "t": "Usman Nurmagomedov Has Statement on UFC Shanghai Incident",
       "ts": "2026-08-30T04:41:42+00:00"
+    },
+    {
+      "t": "Highlights! Filip Hrgovic shows off iron chin, leaves Moses Itauma in a stretcher after late corner stoppage &#124; DAZN PPV",
+      "ts": "2026-08-30T00:07:26+00:00"
+    },
+    {
+      "t": "Highlights! Mike Perry suffers gnarly injury during shocking knockout loss to short-notice replacement Brandon Jenkins &#124; Duel Arena 1",
+      "ts": "2026-08-30T02:37:54+00:00"
     }
   ],
   "digest_items": [
@@ -2077,6 +2077,20 @@
       "source": "heavy.com",
       "cat": "ufc",
       "ts": "2026-08-30T04:41:42+00:00"
+    },
+    {
+      "title": "Highlights! Filip Hrgovic shows off iron chin, leaves Moses Itauma in a stretcher after late corner stoppage &124; DAZN PPV",
+      "url": "https://www.mmamania.com/boxing/467856/watch-video-highlights-itauma-vs-hrgovic-dazn-ppv-results-heavyweight",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-30T00:07:26+00:00"
+    },
+    {
+      "title": "Highlights! Mike Perry suffers gnarly injury during shocking knockout loss to short-notice replacement Brandon Jenkins &124; Duel Arena 1",
+      "url": "https://www.mmamania.com/latest-news/466590/highlights-mike-perry-suffers-gnarly-injury-during-shocking-knockout-loss-to-short-notice-replacement-brandon-jenkins-duel-arena-1",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-30T02:37:54+00:00"
     }
   ],
   "digest_last": "2026-08-29 21:30",
@@ -2085,8 +2099,6 @@
     6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=328746",
-    "CBMijgFBVV95cUxNUFJjSzdzSjdhTGtCVzIxY3RiU0RTLXdRTldIYUtsU3F0R012R25FRi1zSExUNnZ5THE4MUhzMDdPamkwYURQdG91aHQ3WEpzVW92NUxUdkswWHFjeUJPZWlZWG0zRUphSVRIMFRRN014b25Yamt6N0VzRFo3aU5ZX2hYNEtRNUxQV0dZN0p30gGTAUFVX3lxTE5CWWpTeVYzQXBRTXpsYURoUlFaTW5IbUs1WjlYWkVNN05MZzkxcEYxdTExam80bENRMFE4WnEyVHFINlQzRUp2b3dndUZYSTU3aXRCS2hmSjlFUW5OeHk1XzFScWxKRFhSS0xkQVRodm54bl9xMWprNER4ZXN6emVqVWRaWlhKSkhRMUg2ZWJiQ3hzZw",
     "CBMikgFBVV95cUxOOVd4eUtpU1NxaUw0cW9RdnBpbjdDeXhfMTJZV09VaGFZczR2RFFLTWxjUmpDWEttRDctcDFPUUN0VW9HQ2Q2SW9TV2RIYWtIdTZrQmIweGFSZVhzMTVEbDQ3dnlETDQwaldmVTgxNjVKUnNyNVdJcWtfYlRSMkQwWXRZTFEtYmRfcFFxSm1vWENEQQ",
     "CBMirwFBVV95cUxNSVZ1QThUTGZocVh6MFhjdnEwbjNBZC1oY1ZEY1BCb2ZBTmMwT1V2amFjTDRxRDhxNTFvUmJncllzY3VFYmp5N0hoMDZvQVBtQ0ppVkVIaUxGcDN3cDhHR3dsQWpyWHpOb3BhdUNKRTRiMmN0MnlaMFBXREdjWk8xNng2blV4RTZnSm9IclBJUkFFc2lOY2Y5VjJVUDE3VXVwYWZtSFpYdUFVelJqNG5B",
     "CBMie0FVX3lxTE43aXZwLVBZUnBTS2xsRzRQMklhNnFRZVhyT0d6eTZ3R2h2LTNWUVNsLVVTZlVScThXTEJCa1hrYTRLVWYwVDZNM1M1V211WUhYc28xRlhXTFZqOUtQMVRld3JHRUx4emVYaWxiUmgtTjQtQ0NRekNzcENPUQ",
@@ -3284,11 +3296,13 @@
     "CBMinAFBVV95cUxQYmlONzkxSTIzbHZwSXltWFdrVzc2V2thdTFzcnAtWkt3X0FtOGExUVZvLVdXRC14bzFobHotaGN0aXBMOGlhWFpWeVdLS2RtdXlFMm84NlRKQnlRX29kM21OUm9DSHR4X1dORG1OTms3NUl2ajN0SlZBbzdtNTFNejFTWjY5dWdWZWFHM2tyZmV1cGxiNjhiNlBLeFc",
     "https://www.mmafighting.com/?p=507829",
     "CBMiekFVX3lxTE14d0g4bWJuQUxuMklkRFNjV2wxa05ORjZiZllpWjM2dURZM0NFU0tGNmw1OEdzTmhzWkRqMWFkSEFIVnZmaGFBSmpyd0Q4VFFxYTVQSUEzVWVfY0w1VVM2cFgwS0RqeFNFcDV6SDhfTVNWY1gtTVFIanNR",
-    "CBMihwFBVV95cUxOWHJmVDhZN0xnSDlXTnZEcERTTko1a1BhQ0w2NTE2ZHZOcnI4Q1AwSlBGVDJpRHdCXzBwMGlmRnpjMlI4bGRXQjNoekJ1R2ZBeHBFNGExTFl1NDFQNmhMTkhNQkZ4YmhVR0dQamJWTFpXTzZaM1ZKWDd3Ty0wM18yMzc4TEFTelk"
+    "CBMihwFBVV95cUxOWHJmVDhZN0xnSDlXTnZEcERTTko1a1BhQ0w2NTE2ZHZOcnI4Q1AwSlBGVDJpRHdCXzBwMGlmRnpjMlI4bGRXQjNoekJ1R2ZBeHBFNGExTFl1NDFQNmhMTkhNQkZ4YmhVR0dQamJWTFpXTzZaM1ZKWDd3Ty0wM18yMzc4TEFTelk",
+    "https://www.mmamania.com/?p=467856",
+    "https://www.mmamania.com/466590/highlights-open-ufc-sacramento"
   ],
   "daily": {
     "d": "2026-08-30",
-    "ai": 16,
+    "ai": 18,
     "staged": 0
   },
   "staged_hist": [
