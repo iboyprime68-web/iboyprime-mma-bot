@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Spaten Fight Night 3 Results: Shogun vs. Teixeira",
-      "ts": "2026-08-30T04:42:52+00:00"
-    },
-    {
       "t": "Usman Nurmagomedov denies throwing elbow at Song Yadong in statement after UFC Shanghai controversy",
       "ts": "2026-08-30T09:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Justin Gaethje's hands still hurt from beating Ilia Topuria so badly",
       "ts": "2026-08-30T14:48:55+00:00"
+    },
+    {
+      "t": "The Fighters With the Most Knockouts in UFC Strawweight History",
+      "ts": "2026-08-30T19:13:59+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "DJ turns famous Paddy Pimblett quote into dance track at iconic festival attended by 80,000 ravers",
-      "url": "https://bloodyelbow.com/2026/08/30/dj-turns-famous-paddy-pimblett-quote-into-dance-track-at-iconic-festival-attended-by-80000-ravers/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-30T15:00:00+00:00"
-    },
     {
       "title": "UFC Legend Daniel Cormier Reacts To Near-Brawl Following Song Yadong's TKO Win",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSHhqNEdRODJPQkpRTkVHaXd0ODdIQmNsMVN5UlI0NHp4bE44RUktQWEtR0NzWlRjMFhQbTIzdEt2WERFWEd1OGZvSGtMOUFGS1RqN0NtbTMwOEFDLWxfZEVqY0trNWdNaWF3VXRjTVVwNmIwMVNsOFNpZExWRzNQcE1XYkoyWEttQ3l2QnpOZnBqLXh3RTZnT053c2cyejBGRDcxOFBsSDdNVUtFb2JaMWZlOHk?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-30T14:48:55+00:00"
+    },
+    {
+      "title": "The Fighters With the Most Knockouts in UFC Strawweight History",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMU4zbjVPaGtiRGRfdklmZ3hTTV9abGNLX3FCNGhWQlNQSVdCSXFzRGZVUklicTJGdWdaTmsxVnN4a25GLXhPc1hKX0xiSll5U0FZU2VFSzRBZHAzaDR0bDJZVU1BY3A4RkNWYkpNV051blF2cnI2U1JndDRVYXB1Tg?oc=5",
+      "source": "Last Word On Sports",
+      "cat": "ufc",
+      "ts": "2026-08-30T19:13:59+00:00"
     }
   ],
   "digest_last": "2026-08-29 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiiAFBVV95cUxPeHJOX3F0RUF5d0QyQ0tfSWI1S0ljZmpYMzdxWlRXM1FISVZPc1BKeXZiYmtmellRcFZ5VnVtNWdVWl9hR0VoZXFkT21Dd014RG5jYk1lVjVNRk1DeFJfU0dfNWx6bXZzc3BtNmhuSnBiQUROQmRnejQ4VXZleldvanpieDVPeWFD",
     "CBMingFBVV95cUxOejctdk1JWktEVWxCc2p1NnRKdnZYTnBMWGFaRG92UGZlUGVnRjNkLThDRUZzX00xaXBrSXotaHFYbUh2V0h2N1pidENla01xNHIwZ1NNa1dvbVhfNW9hV1BEN0JuNHY5ZkpIemNORnFlWlpXYXBoLTNQemFjTDNlMkY1R1A4TnZSZk9BTXVjcWJRaTRBOHowY2VxWWRQQQ",
     "CBMilwFBVV95cUxQY1B6X1RzWFJoVHl3QXZsMURwMXduYi1OMjNod25CYk9MRldvMFZtTnVCRzlNVURUcjlJV1QwbnUxZS1URFZMaUdDZXlFeFBDcmM1NVFsdzV3YkVncnVPRF92Qm1GYXR2RG4yNHlMT3VsZXBXMkpoMUJnVjZYc1N5dzFtTXVtV0o5aGhxaVlWNk1pTXJDMGFN",
     "CBMimAFBVV95cUxNZHBvUlpGSEFLdHp1RDNCekhQTTFHN3I2NkkwZjhxNkpDWXkxS0dOX2pPTjk1MjRNd0RGbmxMNWxIVk5OTXVZRVFnN0JzcmZWeFhYSzMyTm5FOWxENFJZQ2t2bnZ0Slg4NWhTTDZ0MFFDLURzYzM0eEcwSXhfSVNRYTNGaWhWZlZnU3U1NWRwZXJmSHlHNUdHMg",
@@ -3312,11 +3311,12 @@
     "CBMi3gFBVV95cUxOaTE3Uy1fNlA0M2RFLU9raURGaHIxUy1FQzFiSUdLQjN5UzlRbGJtV1loMnFyc0ZrMUNBcTFaNFpzOUtSaFd6UU1KSTAzRkFzZkgzQ3piODEtUXZZVjhxYTdjOU92MGZWc3JoRkJoQWFlMFA1SGxWYU1yTDlCQlBIZEh3WHY5Tk10WG1TSWR2RlFYWjM1Ym8wN05uU1lBbmdBYXF2VUJmUnpBSVpnbWNDN1RBX0xyeGN3djhaUmh1RnYzcENvLVU1ZFpvc1JFcWx0RS12N0tZcWI2Nl9vWEE",
     "CBMiekFVX3lxTE5WSk56S2VJVElIOTY1RGxGUmI5LWlWYy1vYm4tQThZUFdDMVdFZDg4M3JNNUFDNWVuMTRSZmxkam5GVnI3SGdOUmg2Z1ZZMTRpUW5VaTZiWUNyNFFWTnlyeEtCbXVhbmo1Y0pXWkw0Mm9Ka1lDcHRBc05n",
     "https://www.mmamania.com/?p=468597",
-    "https://www.mmamania.com/?p=468594"
+    "https://www.mmamania.com/?p=468594",
+    "CBMigAFBVV95cUxOMU4zbjVPaGtiRGRfdklmZ3hTTV9abGNLX3FCNGhWQlNQSVdCSXFzRGZVUklicTJGdWdaTmsxVnN4a25GLXhPc1hKX0xiSll5U0FZU2VFSzRBZHAzaDR0bDJZVU1BY3A4RkNWYkpNV051blF2cnI2U1JndDRVYXB1Tg"
   ],
   "daily": {
     "d": "2026-08-30",
-    "ai": 112,
+    "ai": 113,
     "staged": 3
   },
   "staged_hist": [
