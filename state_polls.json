@@ -2,10 +2,10 @@
   "v": 2,
   "cursor": 6,
   "staged_at": [
-    "2026-08-27T19:53:00.534882+00:00",
     "2026-08-28T20:56:37.994548+00:00",
     "2026-08-29T14:33:35.209443+00:00",
-    "2026-08-29T19:26:18.053868+00:00"
+    "2026-08-29T19:26:18.053868+00:00",
+    "2026-08-30T14:26:49.383631+00:00"
   ],
   "asked": [
     "Who is the most dangerous striker in the UFC right now?",
@@ -26,27 +26,28 @@
     "Who is the most underrated fighter in UFC history?",
     "Who is the most feared heavyweight in UFC history?",
     "Who is the most impressive KO artist in UFC history?",
-    "Whose gas tank betrays them first in a five round war?"
+    "Whose gas tank betrays them first in a five round war?",
+    "Who is the most disrespected UFC champion of the last decade?"
   ],
   "last_entry": {
-    "q": "Whose gas tank betrays them first in a five round war?",
+    "q": "Who is the most disrespected UFC champion of the last decade?",
     "type": "poll",
     "options": [
       {
-        "label": "Derrick Lewis",
-        "emoji": "💨"
+        "label": "Glover Teixeira",
+        "emoji": "🐐"
       },
       {
-        "label": "Paddy Pimblett",
-        "emoji": "🫠"
+        "label": "Rose Namajunas",
+        "emoji": "🌹"
       },
       {
-        "label": "Michael Chandler",
-        "emoji": "⛽"
+        "label": "Kamaru Usman",
+        "emoji": "👑"
       },
       {
-        "label": "Marlon Vera",
-        "emoji": "🐢"
+        "label": "Other (comment below)",
+        "emoji": "💬"
       }
     ]
   }
