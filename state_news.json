@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC Shanghai video: Julia Polastri's head kick leaves Xiong Jingnan stiff",
-      "ts": "2026-08-29T07:59:27+00:00"
-    },
-    {
       "t": "UFC Shanghai video: Hector Santiago shines in debut, KOs Lawrence Lui",
       "ts": "2026-08-29T08:19:50+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Zabit Magomedsharipov calls Song Yadong’s stunning KO of Umar Nurmagomedov a “lucky punch”",
       "ts": "2026-08-30T19:17:36+00:00"
+    },
+    {
+      "t": "Julia Polastri expected KO vs. Nan – or two hospital trips at UFC Shanghai",
+      "ts": "2026-08-30T19:30:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Song Yadong Stops Umar Nurmagomedov In Upset",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9WNWxNTVRHX0NHTkthbEVqbS1TcEM2bkZJUTZGRHUzVXZhM194UUM0OW5RX2NSczEwcE1DZTFUZWU1akFDdzl3X3NjaDFiOFNCS245ZEZ4Zmt0YU9RSUltX25ZdElrNjgxcXoyVlNqLVl5N3djSWc0bzhB?oc=5",
-      "source": "boxingnews.com",
-      "cat": "ufc",
-      "ts": "2026-08-30T15:01:38+00:00"
-    },
     {
       "title": "Usman Nurmagomedov denies trying to elbow Song Yadong at UFC Shanghai — ‘If I had wanted to, I would have hit him’",
       "url": "https://www.mmamania.com/ufc-results/468557/usman-nurmagomedov-denies-trying-to-elbow-song-yadong-at-ufc-shanghai-if-i-had-wanted-to-i-would-have-hit-him",
@@ -2105,6 +2098,13 @@
       "source": "MMA Sucka",
       "cat": "ufc",
       "ts": "2026-08-30T19:17:36+00:00"
+    },
+    {
+      "title": "Julia Polastri expected KO vs. Nan – or two hospital trips at UFC Shanghai",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOYUstUmc2R2J2OHQxcXJuNk9LX1RKNDdqbXJWVzVWenFtUzVvQ1BfcG9KWEpfWkwtSUF2VXpUT1h1anZlR2dQTmg4RE5wS01sRVBxX0xzQkx0MnNYTldNcTBTVllpZDlkeWpmQzBzWVpuNXdfanFMOElQOXFFc2NRNDZBRGIxNUtQTG5wSlYyMG1QZTZoRTB1TkV1QUlBNG13bjJHbmVSMnNabER0aEoxSmRnWndQTlZfSmlYZlNaWDh5Z0FKUlZJYno2VEpGYWtRbDhlOWhJNTY1Q2hP?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-08-30T19:30:00+00:00"
     }
   ],
   "digest_last": "2026-08-29 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMilwFBVV95cUxQY1B6X1RzWFJoVHl3QXZsMURwMXduYi1OMjNod25CYk9MRldvMFZtTnVCRzlNVURUcjlJV1QwbnUxZS1URFZMaUdDZXlFeFBDcmM1NVFsdzV3YkVncnVPRF92Qm1GYXR2RG4yNHlMT3VsZXBXMkpoMUJnVjZYc1N5dzFtTXVtV0o5aGhxaVlWNk1pTXJDMGFN",
     "CBMimAFBVV95cUxNZHBvUlpGSEFLdHp1RDNCekhQTTFHN3I2NkkwZjhxNkpDWXkxS0dOX2pPTjk1MjRNd0RGbmxMNWxIVk5OTXVZRVFnN0JzcmZWeFhYSzMyTm5FOWxENFJZQ2t2bnZ0Slg4NWhTTDZ0MFFDLURzYzM0eEcwSXhfSVNRYTNGaWhWZlZnU3U1NWRwZXJmSHlHNUdHMg",
     "CBMilwFBVV95cUxPMzRQc1FtX3BDMFJPVkRiZkNHZWhfLTdsN3dUVk1Lb3NVWWJFMjlfRUZUMGtBY3VGdk5YcUxweDZnN2dCbTAxQ3JGT05XRXpKMFRISTREYWZralBqWE9sWWlJb0paMUdTSk9WS0psUmpKRTlpZS12NFNOX3lqQXBDVkMzSjU2ajhnVzNPdEJCNWp2cGpDWURv",
     "fe8c373b-127e-3a40-8ef9-75f1ef0dfc55",
@@ -3312,11 +3311,12 @@
     "https://www.mmamania.com/?p=468597",
     "https://www.mmamania.com/?p=468594",
     "CBMigAFBVV95cUxOMU4zbjVPaGtiRGRfdklmZ3hTTV9abGNLX3FCNGhWQlNQSVdCSXFzRGZVUklicTJGdWdaTmsxVnN4a25GLXhPc1hKX0xiSll5U0FZU2VFSzRBZHAzaDR0bDJZVU1BY3A4RkNWYkpNV051blF2cnI2U1JndDRVYXB1Tg",
-    "CBMitAFBVV95cUxNZ3pCY1NDTzh6QVhvYW9zN0NBV3gzYlJXVWZwX0NHU3ZiX1RkYzAtUGVPa0NRdmJBelZtbWtnaWFVS09nS0lfWmd0UWxscFdCSFc2WC0yVllZYTNBUjE5Szk4S19aczctZ3d4UTd2UkNNRXZmZVFSUTZGeGI5a09ndzBGaEwwZ3Npc0JHMmZJcnNrZS05X0k4WVFEakliLWtKNjhzWHJoZjhPX0gyZUF3MVNaT0c"
+    "CBMitAFBVV95cUxNZ3pCY1NDTzh6QVhvYW9zN0NBV3gzYlJXVWZwX0NHU3ZiX1RkYzAtUGVPa0NRdmJBelZtbWtnaWFVS09nS0lfWmd0UWxscFdCSFc2WC0yVllZYTNBUjE5Szk4S19aczctZ3d4UTd2UkNNRXZmZVFSUTZGeGI5a09ndzBGaEwwZ3Npc0JHMmZJcnNrZS05X0k4WVFEakliLWtKNjhzWHJoZjhPX0gyZUF3MVNaT0c",
+    "CBMi3AFBVV95cUxOYUstUmc2R2J2OHQxcXJuNk9LX1RKNDdqbXJWVzVWenFtUzVvQ1BfcG9KWEpfWkwtSUF2VXpUT1h1anZlR2dQTmg4RE5wS01sRVBxX0xzQkx0MnNYTldNcTBTVllpZDlkeWpmQzBzWVpuNXdfanFMOElQOXFFc2NRNDZBRGIxNUtQTG5wSlYyMG1QZTZoRTB1TkV1QUlBNG13bjJHbmVSMnNabER0aEoxSmRnWndQTlZfSmlYZlNaWDh5Z0FKUlZJYno2VEpGYWtRbDhlOWhJNTY1Q2hP"
   ],
   "daily": {
     "d": "2026-08-30",
-    "ai": 114,
+    "ai": 115,
     "staged": 3
   },
   "staged_hist": [
