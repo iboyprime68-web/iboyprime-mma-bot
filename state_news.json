@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Norwich City vs. Stoke City Live Stream of English Football League",
-      "ts": "2026-08-30T15:54:04+00:00"
-    },
-    {
       "t": "Justin Gaethje still recovering from UFC White House, won’t return until 2027: ‘I still can’t punch anything’",
       "ts": "2026-08-30T03:02:36+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Duel Arena commentator apologizes to fans as he brands event ‘worst he’s ever worked’",
       "ts": "2026-08-31T02:00:00+00:00"
+    },
+    {
+      "t": "‘Compounding harm’: eSafety warning on smart glasses",
+      "ts": "2026-08-31T01:58:37+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Usman Nurmagomedov denies throwing elbow at Song Yadong in statement after UFC Shanghai controversy",
-      "url": "https://bloodyelbow.com/2026/08/30/usman-nurmagomedov-denies-throwing-elbow-at-song-yadong-in-statement-after-ufc-shanghai-controversy/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-08-30T09:00:00+00:00"
-    },
     {
       "title": "Song Yadong calls knocking out Umar Nurmagomedov at UFC Shanghai ‘the best moment of my life’",
       "url": "https://www.mmafighting.com/ufc/507934/song-yadong-calls-knocking-out-umar-nurmagomedov-at-ufc-shanghai-the-best-moment-of-my-life",
@@ -2105,15 +2098,21 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-08-31T02:00:00+00:00"
+    },
+    {
+      "title": "‘Compounding harm’: eSafety warning on smart glasses",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTTZpTTlOeE5Vd1dSTTVNc0V6b3ZCVXd0ckhiUWd5UVJwbFM0OXJsYzRHWlFrbHRWdmdFc2ZhYVhxOGFFUjlNMWFQWWNaZG1MSjJBTHcyampMSDFlbTJ1T0pZY3dqUUlHYVVQbnBRS0VqMlZ2MDRncU5wczNPNjg1Y2w3RHpHMDIyQlhjWUJMQWpLUQ?oc=5",
+      "source": "The Mandarin",
+      "cat": "ufc",
+      "ts": "2026-08-31T01:58:37+00:00"
     }
   ],
   "digest_last": "2026-08-30 21:30",
   "hour": [
     "2026-08-31T02",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMijwFBVV95cUxORkZQZTR0UXZaVkp1c3F2TVE2dUtYNFdYM2ZyRzRadjVMSmloVVhXbUNVVnRDOV9NbUNBS2g1TG5RTEVyanltdDF3MWZiNnMwWG9EWnJDa1ZIZ0p3TVRYa0k5VUFlSmJZQWY3VkZzbGcyVlFBRFJTc3I1Mi0wN3YxUVMxRUdGeGdGR0RfMnFYTQ",
     "CBMif0FVX3lxTE5QTE1Da3lSNWpjZU12Q3JOWWZWOVctMEo4d0NQS1VMZU5laTBpaG54SFJiWGFacXk0NF9SVTZSZGdQQmR2Z0lRRURMb2Q0SldTU1NNNVpnenpGdnFXQ082Z1lIMXVRc256M2pLUURQajFzbGhxZjg0NGdPdExEV2M",
     "CBMizAFBVV95cUxOcXRrTEJjRWtfNFZkaHI3cGVuOFhQR2VLUkFERl91TS15cnVRYW50aDV0ZVA0XzNuWUN6bEliZXRzbGYwUlhzWGNDYUZjVGNudVdFbGlfc2hfYkRSUEY2bXZQR3NtMmxqUk5EM2tORHRzRHlvX0hMOFJEbGpnV2hJZ09xcnc1MmRjNlF4aTJ3a1UtbFJ0ZEYtUTk4Z2lIa3hzQW1Xal9odE1vVS00RWRGZWYwOFF5QnJaR0VEdUxKNzJ1RzN1WmNNTEFtMV8",
     "CBMib0FVX3lxTE1MSWxzTml2YXpqNGNrRXdSWHVNb2FYM3lOd0cxblVyUVRWaURIa3RQTXhoNjRyRXF6ZmYtWlRvM1lYb2ZOb1d2WEJrS0V3X25JMkJiRHl5a01pR2QyMjM4Rk1xRmk2MExLTVFlT29Obw",
@@ -3312,11 +3311,12 @@
     "CBMifkFVX3lxTE1uc1FKNmp3VER6OGs3eGEzdWQ3bWhJbHctS1RKYWNudmZWdVBSTjBqT3M2dHJKRzJBRmRXMUNMOHVKMjVuWFRFMjZfZjVRNzBsY0FTbE1QdlBNTTdITTB3VW1oSmJLQ1MwckpGYmFPVFZ0cUN6MEhMNGVOY1M4UQ",
     "CBMi3wFBVV95cUxNSXZxSVVjUVRQLWNIaGZMd2FLRUE3cHRNdW1tSkUzYjNyLXF1c1lXemRSZVpzcTd6Z201ZmJZeWxHSDl5YmtJMDVMSC14UXZyZzNrMUVGS3ROZVd5aXdQM0NqV0M0LWt0TGN0Z01FLUtjc1EzdWNzbmtrU0NRQXMzazhsdkpfRURxVUNoSW1NY0dvYTQzTFZSMTZsNVdtNS1HcE5KdlQ4WmZxeTF3LXl0ZmVybnVHelUwSHUxY3I4VjFmSTRfd0Zzdkx2VndsYkdUa2JHajBsNWgxOUFYRXRj0gHfAUFVX3lxTE1JdnFJVWNRVFAtY0hoZkx3YUtFQTdwdE11bW1KRTNiM3ItcXVzWVd6ZFJlWnNxN3pnbTVmYll5bEdIOXlia0kwNUxILXhRdnJnM2sxRUZLdE5lV3lpd1AzQ2pXQzQta3RMY3RnTUUtS2NzUTN1Y3Nua2tTQ1FBczNrOGx2Sl9FRHFVQ2hJbU1jR29hNDNMVlIxNmw1V201LUdwTkp2VDhaZnF5MXcteXRmZXJudUd6VTBIdTFjcjhWMWZJNF93RnN2THZWd2xiR1RrYkdqMGw1aDE5QVhFdGM",
     "CBMiU0FVX3lxTE10UVMwVXhXNW12ZGwxdFVYMjVtQXJ0Rlp4ZXZCV1l1YWsyWEhUSkt1UTJweF9RaTZMbTMyVXNPVHNiVlQ1YlVrMG1GaFFxam9xdW5v0gFmQVVfeXFMT25NTFBCMDBWNlVJZHpZRFZIWUxTRDVKTEw2MEYxa2RLSW1vN1cxWjR6QV9seU9OUHktckFYVm16c05VOEtxSngwU1FrV2xNYzZWbUdkQkhfWXFLMUhGa0RvZVM2ZlZ3",
-    "https://bloodyelbow.com/?p=329797"
+    "https://bloodyelbow.com/?p=329797",
+    "CBMikgFBVV95cUxPTTZpTTlOeE5Vd1dSTTVNc0V6b3ZCVXd0ckhiUWd5UVJwbFM0OXJsYzRHWlFrbHRWdmdFc2ZhYVhxOGFFUjlNMWFQWWNaZG1MSjJBTHcyampMSDFlbTJ1T0pZY3dqUUlHYVVQbnBRS0VqMlZ2MDRncU5wczNPNjg1Y2w3RHpHMDIyQlhjWUJMQWpLUQ"
   ],
   "daily": {
     "d": "2026-08-31",
-    "ai": 15,
+    "ai": 16,
     "staged": 1
   },
   "staged_hist": [
