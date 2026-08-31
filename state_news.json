@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Umar Nurmagomedov called Song Yadong a ‘punching bag’ months before getting KO’d at UFC Shanghai",
-      "ts": "2026-08-30T23:00:00+00:00"
-    },
-    {
       "t": "Brandon Jenkins explains wild journey to Mike Perry upset knockout: ‘I heard Nick Diaz got the call’",
       "ts": "2026-08-30T15:21:14+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Mike Perry Reacts to TKO Loss to Brandon Jenkins at Duel Arena 1",
       "ts": "2026-08-31T16:54:24+00:00"
+    },
+    {
+      "t": "Anthony Pettis Joins Jose Delgado’s Corner For Jean Silva Noche UFC 4 Fight",
+      "ts": "2026-08-31T16:55:49+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC newcomer wants to 'settle the score' following brutal debut KO",
-      "url": "https://www.sherdog.com/news/news/UFC-newcomer-wants-to-settle-the-score-following-brutal-debut-KO-202584",
-      "source": "Sherdog",
-      "cat": "ufc",
-      "ts": "2026-08-31T03:21:14+00:00"
-    },
     {
       "title": "Dan Hooker doubts Ilia Topuria would risk Usman Nurmagomedov fight",
       "url": "https://www.sherdog.com/news/news/Dan-Hooker-doubts-Ilia-Topuria-would-risk-Usman-Nurmagomedov-fight-202585",
@@ -2105,6 +2098,13 @@
       "source": "heavy.com",
       "cat": "ufc",
       "ts": "2026-08-31T16:54:24+00:00"
+    },
+    {
+      "title": "Anthony Pettis Joins Jose Delgado’s Corner For Jean Silva Noche UFC 4 Fight",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd0lqVEV1TmF2bERwTlZ5Q3V2b3Y2LW04SWd3SndLbUg5Y05Qd2loaDFPUVQ0NDVvVTl1MlBMVmFhalNzZDZsU1hMdmtISGMyS0NOd01vWUhDcllWWGdyaHlJRDg3NmNqU0N5ekNxMHpHMnBLdnNhd0gwSzhDdVl1M2xmNkIydlFLYk5hcGZOWU53TXBV?oc=5",
+      "source": "MiddleEasy",
+      "cat": "ufc",
+      "ts": "2026-08-31T16:55:49+00:00"
     }
   ],
   "digest_last": "2026-08-30 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMigwFBVV95cUxNcWxiVGdqREJzRXJjNGI5OFpvZGMwNkZ3ZkFZQm13OXNzZHFOTmgyMWlNR0RvblA5ZUdYaFVJZ1lnUE1oY09uSWsxU29JOGpyaXFIclZwcm1ubUtJLUpfTU1Zd0RURG5PNmZ1M2NidV9zdm9KVXZjSDZFSVpMSWdSMVNYRQ",
     "CBMiywFBVV95cUxPMjdXVl8zaVRNMkpjT0NjdXo5eDBmcXJQMUcwYjJqeEJRZUZGcm9fSzZYN2dJRjJGMnRPUjhRVHAya0xjX1JZb1Q3VHVXZjJNLVNmbHVlQlA4ZTRWTnJhdWZYMUdLTWVXM1pSMEdadWxncENNSVpGYmdoZ2NNT013ZkVNWDFrQWpJWmZFMF9mdGR2ZVA3aXRrY1ozb2tfOGFHWFpIejdOR1RtWUNfRnRabEMtN3hmaUFDRk5ET2RFWkFnYUVTbWZvYkMyTQ",
     "CBMiR0FVX3lxTE9mVFlqUXhHTjNHaE9oZVdWalBBRVZSTjdBZWlPS0pmQXhmbDZyUHpuaG1GOVd3ZGs4RGp2ajZJemJKckhZbFI0",
     "12ff664f-6c26-3b92-a6f5-65859b627ba4",
@@ -3312,11 +3311,12 @@
     "CBMib0FVX3lxTE42VlpFeXhHVXFMdkNhWkdSaXZraDNwY0cwUTB3bGFuR1hSTFNLdGhFZ2R4RzgydHBoY3JndW1NRWdmUU1pTFJIZmNqV2lUbTVpdGRwQTBVMVNlQXF0MV8wcmJiLXFBUUhEVEhWYmRuQQ",
     "CBMisAFBVV95cUxPMjg4NFRZdlhfY0x2WnN3ZnJVVjRuYzVTWGNGVml6U05sZC1FaVdTLU1HRE5sSGVJSWZGOVh3MHRTdno4RnZ5YnYyTG1Ddm85MlJZVjZkdXpuS0tGdW9CYVVRd0VfelgxbTBRWEMzRG1jT0VaLW9zVl8tRnYyMXNOVk13dk5WWDVka1QtMzI3cmlZYW9ZN3VIMXpaOEpKOWUyVXVDOUJwcmN0UWVzcW45VA",
     "CBMipwFBVV95cUxQSTk1cGQ4LThHNTJxSEpod1JWQ05jekVoY2pnS2JjTjBQMWxSa0ZFMFRlNDVobEdLekt5TVF6cHNMNlJpSkVJNDVsQU5uSVh0U0d1cVRuT2R1QlFwVlEtUWwxTDZlM1hET3JiT2pVaDVLZkp5SzFXT1I2ZjJla1NaTFpoQzh4YUxWb1NUS2g0dHAzbDdPT2Q2U1pRYWc1LW1pYm9tVnRrRQ",
-    "CBMic0FVX3lxTFAyVlVGRG5Mdkg1SFhLb2l0OE5HeDJjYVVkZU5ZMFRpdDEzMC0xSm5iVldSQXd3U1hKMUYxa0JySFcxWktlRG94Tm9maXpEYUVUMXNIZy1zSThHR2FLTzA1U2hqdGNCbmliZUUtdzBrNV9CdTQ"
+    "CBMic0FVX3lxTFAyVlVGRG5Mdkg1SFhLb2l0OE5HeDJjYVVkZU5ZMFRpdDEzMC0xSm5iVldSQXd3U1hKMUYxa0JySFcxWktlRG94Tm9maXpEYUVUMXNIZy1zSThHR2FLTzA1U2hqdGNCbmliZUUtdzBrNV9CdTQ",
+    "CBMilAFBVV95cUxQd0lqVEV1TmF2bERwTlZ5Q3V2b3Y2LW04SWd3SndLbUg5Y05Qd2loaDFPUVQ0NDVvVTl1MlBMVmFhalNzZDZsU1hMdmtISGMyS0NOd01vWUhDcllWWGdyaHlJRDg3NmNqU0N5ekNxMHpHMnBLdnNhd0gwSzhDdVl1M2xmNkIydlFLYk5hcGZOWU53TXBV"
   ],
   "daily": {
     "d": "2026-08-31",
-    "ai": 82,
+    "ai": 83,
     "staged": 4
   },
   "staged_hist": [
