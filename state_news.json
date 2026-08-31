@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Hibernian vs. Heart of Midlothian Live Stream of Scottish Professional Football League",
-      "ts": "2026-08-30T14:37:50+00:00"
-    },
-    {
-      "t": "Ranking the Best Week 1 NFL Games No. 4: Saints at Lions Stream of National Football League",
-      "ts": "2026-08-30T15:51:14+00:00"
-    },
-    {
       "t": "Charleston Battery vs. Hartford Athletic Live Stream of USL Championship",
       "ts": "2026-08-30T15:53:38+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Falkirk vs. Rangers Live Stream of Scottish Professional Football League",
       "ts": "2026-08-31T00:54:02+00:00"
+    },
+    {
+      "t": "Song stuns world in massive UFC upset",
+      "ts": "2026-08-31T01:21:32+00:00"
+    },
+    {
+      "t": "Maheshate makes winning return, as Meng books RTU final berth",
+      "ts": "2026-08-31T01:23:17+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Mike Perry dislocates shoulder, Brandon Jenkins delivers upset victory at Brand Duel",
-      "url": "https://www.mmafighting.com/latest-news/507829/mike-perry-dislocates-shoulder-brandon-jenkins-delivers-upset-victory-with-first-round-finish",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-30T04:21:40+00:00"
-    },
-    {
-      "title": "Glover Teixeira scores early knockdown, dominates ‘Shogun’ Rua across 8 rounds to win decision",
-      "url": "https://www.mmafighting.com/ufc/507849/glover-teixeira-scores-early-knockdown-dominates-shogun-rua-across-8-rounds-to-win-decision",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-30T05:08:24+00:00"
-    },
     {
       "title": "Glover Teixeira brutally batters Shogun Rua in battle of MMA legends at Spaten Fight Night 3",
       "url": "https://sports.yahoo.com/mma/article/glover-teixeira-brutally-batters-shogun-rua-in-battle-of-mma-legends-at-spaten-fight-night-3-050522061.html",
@@ -2105,6 +2091,20 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-08-31T00:54:02+00:00"
+    },
+    {
+      "title": "Song stuns world in massive UFC upset",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pOHFFd2NIQXNTSmVIYTFRQXAweGVpdzdnMk5EcXpCTGJwOU5QbTVDS2dlclFDc0tSQ2x4UU9LeHpldFJsSjRpVXZFT2lPZFJRZjQ1emluQllUOFE5R3BWT2tzeHBRLVhtYXFOYVE2QWJEcldzWmJiOHZ3dno1dw?oc=5",
+      "source": "China Daily",
+      "cat": "ufc",
+      "ts": "2026-08-31T01:21:32+00:00"
+    },
+    {
+      "title": "Maheshate makes winning return, as Meng books RTU final berth",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uc1FKNmp3VER6OGs3eGEzdWQ3bWhJbHctS1RKYWNudmZWdVBSTjBqT3M2dHJKRzJBRmRXMUNMOHVKMjVuWFRFMjZfZjVRNzBsY0FTbE1QdlBNTTdITTB3VW1oSmJLQ1MwckpGYmFPVFZ0cUN6MEhMNGVOY1M4UQ?oc=5",
+      "source": "China Daily",
+      "cat": "ufc",
+      "ts": "2026-08-31T01:23:17+00:00"
     }
   ],
   "digest_last": "2026-08-30 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMif0FVX3lxTE9zbVM3SWhiZjBxZUE1M3JpbUp4akoybEs1SDBWY1FJc2MyY1hQc2RYdmM1amlTVHlrNzFuS1RPMEpZRUFCdk5iZGFZY1FPOEdRcE1zQy1LWXFSODVsamdDSkpaYmZqdy1NQVJDbWlSUFNPNWtIUFB1eFNNSlhUOFE",
-    "b6b6ca3b-d43d-3c1c-9c04-61953147cc2a",
     "CBMiaEFVX3lxTE1HeUtPLUlCckRFV1hTRTNlTm9sb0NXeWlCVDVmZmFib2dKcHBDS0RKOGt0UGtwTzI4Rzhqa01zVmtpbFZJRjdESGhnd2VYQlFwY0h1OWUzVTE5OE9NWlhhSTE2NXBuUFZi",
     "CBMisAFBVV95cUxOM2M5VENiUWgxYXZFaDBMOUx3RjRfSk1LTHhvSW1vQnBJM1BCT29IMFhoQU9EQ2JDaFpFYmVRaGtYOHR0UjJnZE03TDUtV3BjMUMyTmZmd3hNdFhsam05dUhoZG1ERFA4ZUUzT0N3ak44TnlVUjRPVmxwWkVOdzEyTDJhV2E1RUVlUGJUUmlseFM4LXNuNE05aVVNSjU2cS1mMHpYdVJlT1RyM3NGdUIzWA",
     "CBMizgFBVV95cUxOYko4SWt3dVQzdFdRaW5nQUtkZEN3WEp1ZHNHSnkyTU5hQ2JmQkl5MnpIRGNyTmJQYS1iRXlaRmVtdlJHc1MxM2JiVzJGTHljemh3a1RRQjJwUmpXMkhqM29NT2lQdjVvaWx6QzE5NmhtSEJTVmxnOHo2MG1GTDJVNTZCUHBKT2plcVYyc29ZNWF2eFNqWG1GaHlodWszT3FYQkRVbUVkdmktU0U4c19XLXEzVFNsd3pfYXRGblJ5VzRkMjFtTE9PZmRwakZ5QQ",
@@ -3312,22 +3310,16 @@
     "66098109-4735-31ca-a017-212009178986",
     "CBMijwFBVV95cUxOSzBaZjVBUF9SY1dpQ2FZaDdlellKdmVpUmdPY1R5RjRITWo0NEN2MHVjOWN3dnBjVWxCZk9faTg0MDUtVHBzTjBjSzJiUl95N3dPcUg2SFZwOHl3Y3pMRHJmZkFwWTZuRjBpV3h5RjJSUkR1UUFrTE5XOV96c21zaVhIaGl4encyclMtaVBPWQ",
     "CBMiowFBVV95cUxNTXctZ1dxX1JlUmFSejNEWHE5OEFjeW9FT0lVUjdJUjUwbG9EY3JBUEtKNmJXLThCQS1UZ2VDQWFhVGRnYnlWV0FBUEtCVERkZ1BneVN0b2ZKM1FsLWVDSU1aTGIyX3dCUXJjbjlEbV9ob3BVLXk1QnhVbVR5QnZnWGhPUEdDU0dKbzBydDE3aFoyeURfeklHXzl6RUFvZTYyTC1n",
-    "CBMikwFBVV95cUxPYl9JWHdHZ3NKZ3E5S2FKamRNQ3d5VTA4ZGdZYjF4UldTd1lyOXl0T2dXa01fdFFtNjJya2ktRFhENUh2dXRJSGhOQVlRdHRJSmtmVW5RVy1tMjJJVkRsYlVFWmdULUs0Ni11dERvdXFPMWhSREZvLWtnSk4xLUtVdnpnQWdVekpBbUxoU1JPLXlSYVE"
+    "CBMikwFBVV95cUxPYl9JWHdHZ3NKZ3E5S2FKamRNQ3d5VTA4ZGdZYjF4UldTd1lyOXl0T2dXa01fdFFtNjJya2ktRFhENUh2dXRJSGhOQVlRdHRJSmtmVW5RVy1tMjJJVkRsYlVFWmdULUs0Ni11dERvdXFPMWhSREZvLWtnSk4xLUtVdnpnQWdVekpBbUxoU1JPLXlSYVE",
+    "CBMifkFVX3lxTE9pOHFFd2NIQXNTSmVIYTFRQXAweGVpdzdnMk5EcXpCTGJwOU5QbTVDS2dlclFDc0tSQ2x4UU9LeHpldFJsSjRpVXZFT2lPZFJRZjQ1emluQllUOFE5R3BWT2tzeHBRLVhtYXFOYVE2QWJEcldzWmJiOHZ3dno1dw",
+    "CBMifkFVX3lxTE1uc1FKNmp3VER6OGs3eGEzdWQ3bWhJbHctS1RKYWNudmZWdVBSTjBqT3M2dHJKRzJBRmRXMUNMOHVKMjVuWFRFMjZfZjVRNzBsY0FTbE1QdlBNTTdITTB3VW1oSmJLQ1MwckpGYmFPVFZ0cUN6MEhMNGVOY1M4UQ"
   ],
   "daily": {
     "d": "2026-08-31",
-    "ai": 10,
-    "staged": 0
+    "ai": 12,
+    "staged": 1
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-24T07:34:09.982554+00:00",
-      "t": "Anthony Smith breaks silence following arrest and felony charges",
-      "names": [
-        "smith"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-08-24T08:55:13.104854+00:00",
       "t": "Jorge Masvidal Hints at UFC Comeback Against Leon Edwards",
@@ -3754,6 +3746,14 @@
         "out",
         "jumping",
         "cage"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-08-31T01:40:15.182108+00:00",
+      "t": "Song stuns world in massive UFC upset",
+      "names": [
+        "song"
       ],
       "img": "photo"
     }
