@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Charleston Battery vs. Hartford Athletic Live Stream of USL Championship",
-      "ts": "2026-08-30T15:53:38+00:00"
-    },
-    {
       "t": "First P.E.I.-born athlete to compete in UFC wins debut fight by unanimous decision",
       "ts": "2026-08-30T15:54:22+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Maheshate makes winning return, as Meng books RTU final berth",
       "ts": "2026-08-31T01:23:17+00:00"
+    },
+    {
+      "t": "‘Another 10 years’: Volk opens up on title epic as Aussie icon out to change the conversation",
+      "ts": "2026-08-31T01:35:40+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Glover Teixeira brutally batters Shogun Rua in battle of MMA legends at Spaten Fight Night 3",
-      "url": "https://sports.yahoo.com/mma/article/glover-teixeira-brutally-batters-shogun-rua-in-battle-of-mma-legends-at-spaten-fight-night-3-050522061.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-30T05:05:22+00:00"
-    },
     {
       "title": "Usman Nurmagomedov issues statement, says 'calm down' after UFC Shanghai cage-rush",
       "url": "https://sports.yahoo.com/articles/usman-nurmagomedov-issues-statement-says-051304042.html",
@@ -2105,6 +2098,13 @@
       "source": "China Daily",
       "cat": "ufc",
       "ts": "2026-08-31T01:23:17+00:00"
+    },
+    {
+      "title": "‘Another 10 years’: Volk opens up on title epic as Aussie icon out to change the conversation",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSXZxSVVjUVRQLWNIaGZMd2FLRUE3cHRNdW1tSkUzYjNyLXF1c1lXemRSZVpzcTd6Z201ZmJZeWxHSDl5YmtJMDVMSC14UXZyZzNrMUVGS3ROZVd5aXdQM0NqV0M0LWt0TGN0Z01FLUtjc1EzdWNzbmtrU0NRQXMzazhsdkpfRURxVUNoSW1NY0dvYTQzTFZSMTZsNVdtNS1HcE5KdlQ4WmZxeTF3LXl0ZmVybnVHelUwSHUxY3I4VjFmSTRfd0Zzdkx2VndsYkdUa2JHajBsNWgxOUFYRXRj0gHfAUFVX3lxTE1JdnFJVWNRVFAtY0hoZkx3YUtFQTdwdE11bW1KRTNiM3ItcXVzWVd6ZFJlWnNxN3pnbTVmYll5bEdIOXlia0kwNUxILXhRdnJnM2sxRUZLdE5lV3lpd1AzQ2pXQzQta3RMY3RnTUUtS2NzUTN1Y3Nua2tTQ1FBczNrOGx2Sl9FRHFVQ2hJbU1jR29hNDNMVlIxNmw1V201LUdwTkp2VDhaZnF5MXcteXRmZXJudUd6VTBIdTFjcjhWMWZJNF93RnN2THZWd2xiR1RrYkdqMGw1aDE5QVhFdGM?oc=5",
+      "source": "Fox Sports",
+      "cat": "ufc",
+      "ts": "2026-08-31T01:35:40+00:00"
     }
   ],
   "digest_last": "2026-08-30 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMiaEFVX3lxTE1HeUtPLUlCckRFV1hTRTNlTm9sb0NXeWlCVDVmZmFib2dKcHBDS0RKOGt0UGtwTzI4Rzhqa01zVmtpbFZJRjdESGhnd2VYQlFwY0h1OWUzVTE5OE9NWlhhSTE2NXBuUFZi",
     "CBMisAFBVV95cUxOM2M5VENiUWgxYXZFaDBMOUx3RjRfSk1LTHhvSW1vQnBJM1BCT29IMFhoQU9EQ2JDaFpFYmVRaGtYOHR0UjJnZE03TDUtV3BjMUMyTmZmd3hNdFhsam05dUhoZG1ERFA4ZUUzT0N3ak44TnlVUjRPVmxwWkVOdzEyTDJhV2E1RUVlUGJUUmlseFM4LXNuNE05aVVNSjU2cS1mMHpYdVJlT1RyM3NGdUIzWA",
     "CBMizgFBVV95cUxOYko4SWt3dVQzdFdRaW5nQUtkZEN3WEp1ZHNHSnkyTU5hQ2JmQkl5MnpIRGNyTmJQYS1iRXlaRmVtdlJHc1MxM2JiVzJGTHljemh3a1RRQjJwUmpXMkhqM29NT2lQdjVvaWx6QzE5NmhtSEJTVmxnOHo2MG1GTDJVNTZCUHBKT2plcVYyc29ZNWF2eFNqWG1GaHlodWszT3FYQkRVbUVkdmktU0U4c19XLXEzVFNsd3pfYXRGblJ5VzRkMjFtTE9PZmRwakZ5QQ",
     "CBMijwFBVV95cUxORkZQZTR0UXZaVkp1c3F2TVE2dUtYNFdYM2ZyRzRadjVMSmloVVhXbUNVVnRDOV9NbUNBS2g1TG5RTEVyanltdDF3MWZiNnMwWG9EWnJDa1ZIZ0p3TVRYa0k5VUFlSmJZQWY3VkZzbGcyVlFBRFJTc3I1Mi0wN3YxUVMxRUdGeGdGR0RfMnFYTQ",
@@ -3312,11 +3311,12 @@
     "CBMiowFBVV95cUxNTXctZ1dxX1JlUmFSejNEWHE5OEFjeW9FT0lVUjdJUjUwbG9EY3JBUEtKNmJXLThCQS1UZ2VDQWFhVGRnYnlWV0FBUEtCVERkZ1BneVN0b2ZKM1FsLWVDSU1aTGIyX3dCUXJjbjlEbV9ob3BVLXk1QnhVbVR5QnZnWGhPUEdDU0dKbzBydDE3aFoyeURfeklHXzl6RUFvZTYyTC1n",
     "CBMikwFBVV95cUxPYl9JWHdHZ3NKZ3E5S2FKamRNQ3d5VTA4ZGdZYjF4UldTd1lyOXl0T2dXa01fdFFtNjJya2ktRFhENUh2dXRJSGhOQVlRdHRJSmtmVW5RVy1tMjJJVkRsYlVFWmdULUs0Ni11dERvdXFPMWhSREZvLWtnSk4xLUtVdnpnQWdVekpBbUxoU1JPLXlSYVE",
     "CBMifkFVX3lxTE9pOHFFd2NIQXNTSmVIYTFRQXAweGVpdzdnMk5EcXpCTGJwOU5QbTVDS2dlclFDc0tSQ2x4UU9LeHpldFJsSjRpVXZFT2lPZFJRZjQ1emluQllUOFE5R3BWT2tzeHBRLVhtYXFOYVE2QWJEcldzWmJiOHZ3dno1dw",
-    "CBMifkFVX3lxTE1uc1FKNmp3VER6OGs3eGEzdWQ3bWhJbHctS1RKYWNudmZWdVBSTjBqT3M2dHJKRzJBRmRXMUNMOHVKMjVuWFRFMjZfZjVRNzBsY0FTbE1QdlBNTTdITTB3VW1oSmJLQ1MwckpGYmFPVFZ0cUN6MEhMNGVOY1M4UQ"
+    "CBMifkFVX3lxTE1uc1FKNmp3VER6OGs3eGEzdWQ3bWhJbHctS1RKYWNudmZWdVBSTjBqT3M2dHJKRzJBRmRXMUNMOHVKMjVuWFRFMjZfZjVRNzBsY0FTbE1QdlBNTTdITTB3VW1oSmJLQ1MwckpGYmFPVFZ0cUN6MEhMNGVOY1M4UQ",
+    "CBMi3wFBVV95cUxNSXZxSVVjUVRQLWNIaGZMd2FLRUE3cHRNdW1tSkUzYjNyLXF1c1lXemRSZVpzcTd6Z201ZmJZeWxHSDl5YmtJMDVMSC14UXZyZzNrMUVGS3ROZVd5aXdQM0NqV0M0LWt0TGN0Z01FLUtjc1EzdWNzbmtrU0NRQXMzazhsdkpfRURxVUNoSW1NY0dvYTQzTFZSMTZsNVdtNS1HcE5KdlQ4WmZxeTF3LXl0ZmVybnVHelUwSHUxY3I4VjFmSTRfd0Zzdkx2VndsYkdUa2JHajBsNWgxOUFYRXRj0gHfAUFVX3lxTE1JdnFJVWNRVFAtY0hoZkx3YUtFQTdwdE11bW1KRTNiM3ItcXVzWVd6ZFJlWnNxN3pnbTVmYll5bEdIOXlia0kwNUxILXhRdnJnM2sxRUZLdE5lV3lpd1AzQ2pXQzQta3RMY3RnTUUtS2NzUTN1Y3Nua2tTQ1FBczNrOGx2Sl9FRHFVQ2hJbU1jR29hNDNMVlIxNmw1V201LUdwTkp2VDhaZnF5MXcteXRmZXJudUd6VTBIdTFjcjhWMWZJNF93RnN2THZWd2xiR1RrYkdqMGw1aDE5QVhFdGM"
   ],
   "daily": {
     "d": "2026-08-31",
-    "ai": 12,
+    "ai": 13,
     "staged": 1
   },
   "staged_hist": [
