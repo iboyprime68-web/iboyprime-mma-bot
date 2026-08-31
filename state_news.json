@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Song Yadong’s Return to China Cements his Place atop the Bantamweight Rankings",
-      "ts": "2026-08-31T00:40:15+00:00"
-    },
-    {
-      "t": "Ex-UFC Veteran Returns To Win Column With Brutal KO Victory",
-      "ts": "2026-08-31T00:54:36+00:00"
-    },
-    {
       "t": "Usman Nurmagomedov Tells Critics To “Calm Down” on IG",
       "ts": "2026-08-31T00:54:36+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Restless Khamzat adds three top names to middleweight hit list for UFC return — ‘I’m ready’",
       "ts": "2026-08-31T17:27:52+00:00"
+    },
+    {
+      "t": "Khamzat Chimaev Vs Ilia Topuria Full Fight - UFC 5 Fight Night Toronto Vs Inter Miami (H4Ld7AHH5q)",
+      "ts": "2026-08-31T16:38:40+00:00"
+    },
+    {
+      "t": "GLOVES OFF: Arman Tsarukyan’s BRUTAL Training With Khamzat For Mauricio Ruffy | Episode 4 Better Call Saul (ZwjcUEbdmk)",
+      "ts": "2026-08-31T16:42:16+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Song Yadong Jumps Into Title Contention With Massive Upset At UFC Shanghai",
-      "url": "https://sports.yahoo.com/articles/song-yadong-jumps-title-contention-010848574.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-30T01:08:48+00:00"
-    },
-    {
-      "title": "Opinion: Justin Gaethje’s UFC title demands are getting harder to defend",
-      "url": "https://sports.yahoo.com/articles/opinion-justin-gaethje-ufc-title-143812780.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-30T14:38:12+00:00"
-    },
     {
       "title": "Video: Glover Teixeira drops UFC Hall of Famer 'Shogun' Rua, wins decision",
       "url": "https://sports.yahoo.com/articles/video-glover-teixeira-drops-ufc-161038220.html",
@@ -2105,6 +2091,20 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-08-31T17:27:52+00:00"
+    },
+    {
+      "title": "Khamzat Chimaev Vs Ilia Topuria Full Fight - UFC 5 Fight Night Toronto Vs Inter Miami (H4Ld7AHH5q)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82RXZBc183QS02Z2wtWDE2WHpWVEw3My1jYTFPRnhyUlVBZE1GUFVYaWZWcU1BRlVzbnlKbzM2NHpGSEhrM192ZGFPYzVsS1YyWl9vQlpBVzdGVkU?oc=5",
+      "source": "mshale.com",
+      "cat": "ufc",
+      "ts": "2026-08-31T16:38:40+00:00"
+    },
+    {
+      "title": "GLOVES OFF: Arman Tsarukyan’s BRUTAL Training With Khamzat For Mauricio Ruffy Episode 4 Better Call Saul (ZwjcUEbdmk)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yNlZhcVNCZk83ZHEyXzdZR3kzLW9kRFJTLWhDbGpIRkZ1SGNWdzVkUS1YYjZldzVPWHhjZDBNdzZVNUlZWG80bkhHcEtLdlppNGZRZDVIa2EzYlE?oc=5",
+      "source": "mshale.com",
+      "cat": "ufc",
+      "ts": "2026-08-31T16:42:16+00:00"
     }
   ],
   "digest_last": "2026-08-30 21:30",
@@ -2113,8 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMib0FVX3lxTFByNmlJTXJSWmFhT0pNVHNHRmdYUVVNMDBQamdoVlNPUVVacFF1Y1ZveXgxOU1uY0hYM0FkOEVfaHBNalNIZG1pN0ZOaGllU0Z1cVJBSHpoMVZud0hrM2RkX1VHTzVHODNYd1MyeTRxMA",
-    "CBMijAFBVV95cUxNTnNmTHhXc0kxZ1NNU09tajMzaXU3NXFzMS1DT19VS2RfT1N5QzVOSGNLaERNMTl4SlJMb2x2ckh5T1dKN1Q2eURzTVVBbkNMWk5sb0xDMFF0WWxrdHRCVUdQRlRZV1VoaGhHYi0yUWZLX1NGUFpXQ3NJcUkzSXRWUVJrYlJzXy1iYjU3aQ",
     "CBMikAJBVV95cUxNYkItSW1BbkRoM0tDMU1Ld2h4UHZYTTVaQkVrclh2TGdxSk84cU1FTW1YQ1gweVhJX0RKN0NzSjA3d2hEMmx1a1dITF9DRXlwNlUzc1lYSGVDSU1mNUxLVGY0b0ZsLU1KODNodDhSRFNHN295QnBKZnVCakdkT2xpVi1ESjdiVDF5U21jbEUwRjlSMHhEcF9fVDhXM1dXd1cyYW9pMGdLU2R4MnU3VVU1Y2F5WGF2LXJMZkFhbkVkTUIyd2R2OVY1NnVzZGhHZmQxVmdrQlV0U0NTV1BOWURQWFlRXzAxRXhUVzNQd2hCaTNPaHh5YlZjYWxLY0lPYXhOZFFwbkRxM3kyUmhDc0dhRg",
     "CBMihAFBVV95cUxPVU5mVU1nZF9xaWJ4RFFPcjZQVllNc0t6VE55U1NrQWtlb3AxODdEUVYzeW8tYlJDUWNlTDZQR09BTHB3MXBBdDZRX3NNV3FVb0ZtZ2diSzN3M3YyekNRRV8xcC1iVHB1MFotZGI3VUMyVUpWQUlNa1daYW1kTUc0WHY5MDk",
     "CBMisgFBVV95cUxQa1RmZ1lfZHBjZXNpVlNmMkRqMHNRQU9yQ2pHMlM0SHJ3aWhabUw3YmltclNBV3BGYmxzMjZ6MVhlRWNSQmZacm1ON0RacWp1ZVhnajhWWVNyRjdBbVRzUEZwb1BYTmg4OTE1d2hyanpNWGhBNGVoVmJKU25YU0FLZ0tpZ2NUQk43ckNoVmQ2YzBXWUx5d2s3ZURMUWJnV0JWbHZZMGh2OHB2SG03SkN5Y2NR",
@@ -3312,7 +3310,9 @@
     "https://bloodyelbow.com/?p=329840",
     "https://www.mmamania.com/468153/ufc-sacramento-results-sooo-about-last-night-hernandez-vs-robocop",
     "CBMifEFVX3lxTE5Ud2d3ZGJGYVJHa0V1clVqbDBFWTdmandJbGFhaERmangzajdTZlJaTEJWajJNRE9ORzNRblpWYWppX2VXWDY1dVZJRXdxWmM2TzR3QWJ0U3lUWUh2TGdGWmlmejM3UHp1c3hUVnl0UlBxblRlX2dCdDR1V00",
-    "CBMitwFBVV95cUxPa2ZMcFptbXhFQWZPZ1FZeDVBR3hqT2FGa1pFcnl5NDVfU1R6VkVscEppVlFVOFZlay1ERlhMRlhabU1iZFU0Z0pSTnZiQ2xHM01rbklwS0RQeC15Z3VKZDlrT213b1Q5aUw3bWtDQmg5cDMxVkcxdDR5c05Jck4zelRnU0pfb2V6RG9FLXR6RlF1Tjk0c081ekhveEhYZDcySlI2SVhBQzFvUTRlVWlTQUVicnlmT2c"
+    "CBMitwFBVV95cUxPa2ZMcFptbXhFQWZPZ1FZeDVBR3hqT2FGa1pFcnl5NDVfU1R6VkVscEppVlFVOFZlay1ERlhMRlhabU1iZFU0Z0pSTnZiQ2xHM01rbklwS0RQeC15Z3VKZDlrT213b1Q5aUw3bWtDQmg5cDMxVkcxdDR5c05Jck4zelRnU0pfb2V6RG9FLXR6RlF1Tjk0c081ekhveEhYZDcySlI2SVhBQzFvUTRlVWlTQUVicnlmT2c",
+    "CBMiW0FVX3lxTE82RXZBc183QS02Z2wtWDE2WHpWVEw3My1jYTFPRnhyUlVBZE1GUFVYaWZWcU1BRlVzbnlKbzM2NHpGSEhrM192ZGFPYzVsS1YyWl9vQlpBVzdGVkU",
+    "CBMiW0FVX3lxTE9yNlZhcVNCZk83ZHEyXzdZR3kzLW9kRFJTLWhDbGpIRkZ1SGNWdzVkUS1YYjZldzVPWHhjZDBNdzZVNUlZWG80bkhHcEtLdlppNGZRZDVIa2EzYlE"
   ],
   "daily": {
     "d": "2026-08-31",
