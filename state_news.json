@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Video: Glover Teixeira drops UFC Hall of Famer 'Shogun' Rua, wins decision",
-      "ts": "2026-08-30T16:10:38+00:00"
-    },
-    {
       "t": "Sean Shelby's Shoes: What's next for Song Yadong after UFC Shanghai win?",
       "ts": "2026-08-30T17:00:43+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Kai Asakura finds new life in UFC following rocky flyweight start",
       "ts": "2026-08-31T06:44:59+00:00"
+    },
+    {
+      "t": "In The Corner: Ishmael Davis - Episode 1 Ufc 329 (OWjSeniDLt)",
+      "ts": "2026-08-31T07:48:14+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "ACBJJ 22 results: Zabit Magomedsharipov defeats Youssef Zalal, Belal Muhammad strangles opponent",
-      "url": "https://www.mmamania.com/bjj-news/468668/acbjj-22-results-zabit-magomedsharipov-defeats-youssef-zalal-belal-muhammad-strangles-opponent",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-30T22:51:15+00:00"
-    },
     {
       "title": "Salcedo FC vs. Mount Pleasant FA Live Stream of CONCACAF Champions Cup",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9nMnhadTRZcXpOUHZXSllVakxIRHhkNFRZVnNmcXpNWHRTVFNxRGtPR0RhYVE0ZTljYmNpSXlhanVIVVNMX2hCTUpidHl0VTdLUVJvZjNvX1N2dHlCTFc3dHNvMFkzTllnNE1kZEp3dHNTeVhEWW1R?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-08-31T06:44:59+00:00"
+    },
+    {
+      "title": "In The Corner: Ishmael Davis - Episode 1 Ufc 329 (OWjSeniDLt)",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wU3ZFY0xXTm5aTENGQXp2RWNROWl6UGdMV1FUcmdfOWRRcGJMR25OMEs4VTZlWjFWdC1ZNFdLQnVVYkhnNFdkMDV2RlRYNFFvUU1Pa04yUWItV3U1SEZNNA?oc=5",
+      "source": "Mshale",
+      "cat": "ufc",
+      "ts": "2026-08-31T07:48:14+00:00"
     }
   ],
   "digest_last": "2026-08-30 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMi7AFBVV95cUxPNmNoZjAzeHhFMlZ2VnRtU1lKdG5Td2hKYzFwbU9oQjllT3ZMOEJKTEV6UUdra0JBUEN3YnhqcG1iMGxySmY0OFR0Z0RDS0NPb1plSFBfbVlZZlFnRGZJUmk2azNlVjc0aUJPTDQ5MTdUcXVuTHBpQUUwRC16QVV0SVFBLTgyV1BPclphSzU3STlqd1AxZ0RuSWhMcHZiQnR6VEZKTnN3ZXlVZXdpRDBvTDJnWnhyeUdrWXc5MmQ4V01idDRhOWd3bXZsVTFpVVY3ZGN6aG04LTlLaEJJZnNBQWFicmNJdDFqWkFWNA",
     "CBMi-AFBVV95cUxPVk5lX0NQeE54MHRGaXRveENqaW1EUWZnVHdLWEU3M2lib1NGaVhWSEFvRXB0X0NFLWxMejVXTE5RSjVMVWc0TEpUS19DWng1c2xwa1JuZXByaUJDVDBZTkNYeUpsM2RuZUVnMFV3ZTRhb1ZzdnFUZEpaME1YX1pRVVNicmw0RjVpSFpJcXBmaEprbkd2c2JzaWdzclZ4bjFTanIxMTNsQW1GLUVId2N0dHRjdHI2T1ZsZU9RQlA1T1RvNFY3UjhDeVNjSVBWSXFlTUFIYU1ra2MwaE9OX1MxR1lCY0xld3hrenNUSnRoM1lwdVpSNDVuOA",
     "CBMi4AFBVV95cUxOZXVHRExXZUdOTF9YTDBMUXhrZ0NJdGs3SVRjay1yMUx6Q2ZBc0h3S3MyOEJHRzdhRnJrTExoaFpQekp1RWkwUXpxb0ROUFdQckp1bjJkbVhzam5udnJ4amVaN2xibE5MeGJndi03LVNOQ2o2SkdoNjdjQVRlaDJITEE4VWJtUTAyTjVqeWpyYW44RUhHU0Qwbi1KNURjd25YZFo1MVJTMFVzSmNaWGRPWl9CdlQxNjFWRTJXWFR3R0FFLUNpYm96SVg1S3VWVmZoN0M2S253RC00cWRCLU9Xbg",
     "CBMiaEFVX3lxTE9qbU9BTzRIdDBSUWM0RnVmZzl4dkV5c3JTdWQxbU91Qk4xZlZHaVFxMlV3ZDNiRTFYMFpuMzdGeVUyZm5qZDFYX2ttOUdLQzZFVE5fVmdLYWZKaG9yTnBuYkh6UWlENVVJ",
@@ -3312,11 +3311,12 @@
     "https://www.sherdog.com/news/news/ExUFC-fighter-Sedriques-Dumas-takes-down-costumed-fan-in-arena-brawl-202588",
     "https://www.sherdog.com/news/news/Yadong-Songs-team-predicted-exact-uppercut-KO-of-Umar-Nurmagomedov-202590",
     "https://www.sherdog.com/news/news/Two-knockouts-in-18-days-but-Bilal-Hasan-is-fighting-for-something-more-202592",
-    "https://www.sherdog.com/news/news/Kai-Asakura-finds-new-life-in-UFC-following-rocky-flyweight-start-202593"
+    "https://www.sherdog.com/news/news/Kai-Asakura-finds-new-life-in-UFC-following-rocky-flyweight-start-202593",
+    "CBMiYEFVX3lxTE0wU3ZFY0xXTm5aTENGQXp2RWNROWl6UGdMV1FUcmdfOWRRcGJMR25OMEs4VTZlWjFWdC1ZNFdLQnVVYkhnNFdkMDV2RlRYNFFvUU1Pa04yUWItV3U1SEZNNA"
   ],
   "daily": {
     "d": "2026-08-31",
-    "ai": 38,
+    "ai": 39,
     "staged": 3
   },
   "staged_hist": [
