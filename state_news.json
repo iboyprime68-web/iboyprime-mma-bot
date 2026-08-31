@@ -1,9 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/?p=454646",
-    "https://www.mmamania.com/?p=454741",
-    "https://www.mmamania.com/?p=454775",
-    "https://www.mmamania.com/?p=454778",
     "https://www.mmamania.com/?p=454780",
     "https://www.mmamania.com/?p=454800",
     "https://www.mmamania.com/?p=454822",
@@ -713,6 +709,8 @@
     "https://www.mmamania.com/?p=468759",
     "https://www.mmamania.com/?p=468774",
     "https://www.mmamania.com/?p=468780",
+    "https://www.mmamania.com/?p=468795",
+    "https://www.mmamania.com/?p=468801",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -817,6 +815,7 @@
     "https://www.sherdog.com/news/news/Dana-White-lashes-back-at-Eddie-Hearns-call-for-Tom-Aspinalls-release-201463",
     "https://www.sherdog.com/news/news/Dana-White-rewards-Roman-Puga-Taner-Trembley-following-DWCS-war-202416",
     "https://www.sherdog.com/news/news/Dana-White-says-Raiders-edge-rusher-Maxx-Crosby-could-be-UFC-world-champion-202327",
+    "https://www.sherdog.com/news/news/Dana-Whites-Contender-Series-Week-4-weighin-results-5-fights-set-202596",
     "https://www.sherdog.com/news/news/Daniel-Cormier-Ian-Garrys-prediction-could-backfire-against-Islam-Makhachev-201755",
     "https://www.sherdog.com/news/news/Daniel-Cormier-at-last-recalls-why-Brock-Lesnar-superfight-collapsed-201729",
     "https://www.sherdog.com/news/news/Daniel-Cormier-denies-exposing-chat-with-Eric-Trump-I-got-hacked-201543",
@@ -1172,6 +1171,7 @@
     "https://www.sherdog.com/news/news/Umar-Nurmagomedov-not-taking-Yadong-Song-lightly-Not-an-easy-fight-202535",
     "https://www.sherdog.com/news/news/Umar-Nurmagomedov-to-headline-UFC-Shanghai-on-Aug-29-against-Chinese-foe-201737",
     "https://www.sherdog.com/news/news/Umar-Nurmagomedov-wants-Merab-Dvalishvili-next-Now-its-personal-202534",
+    "https://www.sherdog.com/news/news/Undefeated-PFL-Champion-returns-to-fight-after-being-shot-5-times-202597",
     "https://www.sherdog.com/news/news/Undefeated-PFL-debutant-discusses-overcoming-opioid-addiction-201702",
     "https://www.sherdog.com/news/news/Undefeated-PFL-prospect-accuses-Ian-Garry-of-lying-201583",
     "https://www.sherdog.com/news/news/Undefeated-UFC-fighter-AbdulRakhman-Yakhyaev-responds-to-MrBeast-lookalike-claims-201720",
@@ -1204,14 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "‘No One Wants to Take That Risk’: Dan Hooker Says Ilia Topuria Won’t Fight Usman Nurmagomedov",
-      "ts": "2026-08-31T09:12:41+00:00"
-    },
-    {
-      "t": "Top 15 UFC star believes he will be Usman Nurmagomedov’s first opponent in the octagon",
-      "ts": "2026-08-31T11:00:00+00:00"
-    },
     {
       "t": "Carlos Prates confident he knocks out Islam Makhachev after getting ‘smashed’ early",
       "ts": "2026-08-30T01:20:10+00:00"
@@ -1683,6 +1675,14 @@
     {
       "t": "Klaudia Syguła Looks to Continue UFC Rise Against Nora Cornolle at UFC Paris",
       "ts": "2026-08-31T21:45:02+00:00"
+    },
+    {
+      "t": "Carlos Prates admits he’ll get ‘smashed’ by Islam Makhachev, win UFC title anyway",
+      "ts": "2026-08-31T19:47:19+00:00"
+    },
+    {
+      "t": "Moses Itauma reacts to massive upset loss &#8211; ‘Attempted greatness and just fell short’",
+      "ts": "2026-08-31T20:21:07+00:00"
     }
   ],
   "digest_items": [
@@ -1979,6 +1979,20 @@
       "source": "MyMMANews",
       "cat": "ufc",
       "ts": "2026-08-31T21:45:02+00:00"
+    },
+    {
+      "title": "Carlos Prates admits he’ll get ‘smashed’ by Islam Makhachev, win UFC title anyway",
+      "url": "https://www.mmamania.com/ufc-news/468795/carlos-prates-smashed-islam-makhachev-win-ufc-title-anyway",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-31T19:47:19+00:00"
+    },
+    {
+      "title": "Moses Itauma reacts to massive upset loss &8211; ‘Attempted greatness and just fell short’",
+      "url": "https://www.mmamania.com/boxing/468801/moses-itauma-reacts-to-massive-upset-loss-attempted-greatness-and-just-fell-short",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-08-31T20:21:07+00:00"
     }
   ],
   "digest_last": "2026-08-31 21:30",
@@ -1987,8 +2001,6 @@
     6
   ],
   "yt_eval": [
-    "CBMilgFBVV95cUxQRzFEZDV3QnpSRy1ROGRzTlpidExXY0NZZFBlWE1LU0l1UndfakNlXzF0ZkxkVldqUXdjUVRDZGZ0QkJqZm52bkFad2k2UEozd1RKbDdLSWw3c0FDcVZpNEdFanBOTVBMUWxhdjJoRW1hMW9aN2dKMzE1b1RyQm5GTzdLN2JxSFNkVEkzazF0VGdfTW9BOEHSAZsBQVVfeXFMUElkeGhtYUZWWWVtREV1UmUwSGg4RHFiQ0V0VkkyVVFsS1dpSmNYTnI3aEZQU0VrRnJkWjFDelVEX1MyazZtRGRRakEyeVcxY0RGcnhhVEJJWkM5ZjlGZHVKNjNoYjJFa2pLejVfSlpmS2VkWTdxeUlTZURWazlNT2h3MFhZR3RsdGZ2NEJfaEhxQ2NoUS1CRE5mclU",
-    "CBMib0FVX3lxTE1OdmJxU2ZNbk1FTEV1MkxmVVEzcGx5OFBBRXJqTTdKNWNVd1BTWEduRkdrZWlzTEZzRklhOWNSaFBsRW10ZE1LdDdQYUp0MWxBLVdHc1NBa2x6X3RYR3J4dVdqV2JUMFJ2M3FRa2RMVQ",
     "CBMilgFBVV95cUxOdVh1aHdldm8wSEphWUJnUjd6al9LTjAyeEJDbTliRXFrcjQzaUhzV3A1YmlsaE1zUF9NS3lRYXRKNEl4X0ZGRlBNRHpvZUVBeXNHMU44Y1VnSnRTeU1DbjBHYlNzZzM2OVlfN2gzdi13Z1ZLSGljV25RMUhzbnZIenliU3RhNWd5eklMVjNTQVJOd19YdHc",
     "CBMiekFVX3lxTE1TNUwtamVjWjRid1ZKcHdiU2pHVHJSbVVTQVVYSFRRaEVrWlNEWlVsbFd4WnZLNU5VNGUzdTJ1S0hLT0kwWWNpRldMb1hYVFAyNHlTUkhxSFBIUy1IWkZCdUQtT0U4SDJNRFVUUGNhSU43TE1HZC1XRVRn",
     "CBMipAFBVV95cUxQaUtxekg1WTJzMkQ5OERrRDlJV2ZzOGk2UUotN1JDSHI1YnFMX0NOUGRSLVdDeHdHVGYzUDJHRUJfaWlFZ3hCTDhBSHpNZklUeWtuU3o1Yk9MYWlQQUpGVS1RZUtXQS1uckp1cy1nMm5rclNfc3M4eUdRNHJ3S2habE94S3p2LWIwQ0ZBLTlLeXpiQ3NUQnZuVzVQSy12NWMxUEhGOA",
@@ -3186,7 +3198,9 @@
     "CBMimAFBVV95cUxQUWtZWWc3VmNrWGczYXJoLUs3SDE0SEJEOEt1bm9qZVMzZGVMcUh2YmlSd2dsYnJTQ2dTYXMzQWFKaWMzR1JFcUpHdHV1TEcxY0RZYXdiR21aRVRaaGhmOEJaZVJnZjhwVWtQVmZmSzNzU0Rxc0RaYzVfTFhVT1J4ODZPVFJGeUZMbE11X3pGdjRLUC1OM3JaYg",
     "https://bloodyelbow.com/?p=329856",
     "CBMivAFBVV95cUxNMVM0Z0sxdjZJR3Z3dFM4U2dkdjZySVR5YWQweG1WaVpFclhyR1NtSUpJS213U1lOMXV0OWxxNmQ1eXRmQ2dWOUladVB4QW11RFZybEE5VVVlQVRaWEZkVXZMdDVLRldOVFN4R2ZSVWItTVM0dXg2QXlBZmx6bWg5SFg1QlFrOWcwWm1XU3RqNFBPd3hZM2w3dnI4bXhqeko1V3ZmUXdjYnVoa01oSDBoWDVfSnl6VWYwTUNwYw",
-    "CBMioAFBVV95cUxNczBGd0o0ODAyZENOWWh4V3JCQXFOa0kwakpSc1BQa3ExWDZYVTJqeVhIVXl1NnhJWmE1ZGNOZDl3a3B6Q3dFeEptYm1ndkp6S29WdnpBZ2ZDLWphbkw5NnY5UjV1MEdnaExiSXNmTkMwN3AyWlMyQVE1djgxYU0xOEk5UDZIYU5MZGIwckZGdkhJSlZpQ0NLYjNIUGFrMWx1"
+    "CBMioAFBVV95cUxNczBGd0o0ODAyZENOWWh4V3JCQXFOa0kwakpSc1BQa3ExWDZYVTJqeVhIVXl1NnhJWmE1ZGNOZDl3a3B6Q3dFeEptYm1ndkp6S29WdnpBZ2ZDLWphbkw5NnY5UjV1MEdnaExiSXNmTkMwN3AyWlMyQVE1djgxYU0xOEk5UDZIYU5MZGIwckZGdkhJSlZpQ0NLYjNIUGFrMWx1",
+    "https://www.mmamania.com/?p=468795",
+    "https://www.mmamania.com/?p=468801"
   ],
   "daily": {
     "d": "2026-08-31",
