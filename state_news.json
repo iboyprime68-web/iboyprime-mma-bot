@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC power rankings following Fight Night 286 in Shanghai, China",
-      "ts": "2026-08-31T13:54:49+00:00"
-    },
-    {
       "t": "Muhammad Mokaev sends message to Dana White after winning MMA and BJJ titles outside of the UFC",
       "ts": "2026-08-31T14:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Jonny Parsons: UFC Record, MMA Stats and Fighter Profile",
       "ts": "2026-08-31T22:33:05+00:00"
+    },
+    {
+      "t": "What’s Next: UFC Shanghai Losers",
+      "ts": "2026-08-31T22:40:34+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Song Yadong Calls for UFC Bantamweight Title Shot",
-      "url": "https://sports.yahoo.com/articles/song-yadong-calls-ufc-bantamweight-065722278.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-30T06:57:22+00:00"
-    },
     {
       "title": "Mike Perry’s opponent takes credit for ‘causing the dislocation’ with a shot most fans missed",
       "url": "https://bloodyelbow.com/2026/08/30/mike-perrys-opponent-takes-credit-for-causing-the-dislocation-with-a-shot-most-fans-missed/",
@@ -2105,6 +2098,13 @@
       "source": "Fightomic",
       "cat": "ufc",
       "ts": "2026-08-31T22:33:05+00:00"
+    },
+    {
+      "title": "What’s Next: UFC Shanghai Losers",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA3UDI3bjNfUUpMVDdrZk8xaGtlVzFZRUZoOEhnX19BUUg4Zmswb1JjcHJHNzlYZ1NxQnB0NlFjc1ZvdHpaTUJfdDAyM0twbENVNEIwZEFfRFAycnFPbGN5aDNUM1lZVi02ZWJEdDR1Q1hXRmVNdDUzaTBR?oc=5",
+      "source": "Cageside Press",
+      "cat": "ufc",
+      "ts": "2026-08-31T22:40:34+00:00"
     }
   ],
   "digest_last": "2026-08-31 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMigAFBVV95cUxOSEQwVXlXNDBqSjYwUlA1QmNhYmdMVGJPMjZ5STdoQmJzaFJuUExlaUxrV3c2RTVVVkw5Y3dDZmk2MTg4M0VGTm9GYzFTaDhkYVJac3JVWjFicDFEWHROcklzY3h1N0laT3JIZFdSSHR1c3EtRUlxTENqLXdJNFJiZg",
     "CBMijAFBVV95cUxPMTBCSGJfMEFodGUzR01PTl9RZlR4djE3MVQwcTJRYkZyRkZjNllQdmZrVzVNZWxDaVFkZnpkZ3c3cm1CSUI1WERMOXp0b3EyVlEwV185N1pvWGZqbkxFLVBMSWhGY0VEWjRyYS1Ca29nZVNIaFdOdjh4MHJHcXNHQ25lRDZ2Yk9KUHdUeA",
     "CBMingFBVV95cUxPekllWElCMWVha2FtVmMycEhUWTBBRXFwZ0I2YnlIXzF1SzVHZDMxUzhESVVraV9TenRJeXVJejlCLXBQMno5ckZubzZRTDVyTGhXeV9tRmZYV1lkRUx1YzM3eVBfVWVyQUdZak5PNTV5cmQwWmd1ZFJZQkVHQkhLTVJqMGNxTFFqREhoSi1KNHRVVzdRUy1TSVNONGZsdw",
     "CBMipwFBVV95cUxNdEQ4ZFlnS2VPWUpKdU5oLUgtMDFRTkkxU0pod25vczJqRjd6dWlnRDZ6QjJORGVxdWdaXzRfMkVvMkZoRU9mZzZTcWtOQ2dSRG9nQ0tZVWNfUm5KTEtlaTBHZHcxZU8tY3hteXlaVFRzdjRuRE0zSmc4M3VfV3ZWUU5fVzZSR2hIOTlva284b2xjdzA5ZTlBaXV1V3N0XzVlM0pCZHJXVdIBrAFBVV95cUxPR0VMNE1iWEJKM3k1OURyZVhyQmZyMDRlUm1YTGNMN1Nrb09QS2QxN0RfN0hyYWxyWkh2cHRjMS12NTB0OWIwYVdxR3VBbjA3RzVtZkM3NElBSjloMHI3eU5IdHFSWDFRLVBwWUlDemdsbkFVOWtpNUJRN0FhZXVMU0JPRjJBaVU3M05qQzY2Zy1peUh5cENEb1VzbDBUVG9jekM5ZG1HVXA4NWx2",
@@ -3312,7 +3311,8 @@
     "CBMiW0FVX3lxTE5wd0VrcWFac29DY294RWp3Y3FHRnpDaElIckJjV1UxbFJCVFZ3MnppbF80NDFhMTA1a0Y2ZFN0UDBtOHJWeWFuU2F2WlE4U0xpR2NRR1cwVURLY1k",
     "CBMibkFVX3lxTE53cTJsOHdoaVBOcTJGVG1ZUGU0aHYxSldCZWE5a1hhX0ZLTHF1aEtNSGFUMWJqZ0Y4SjBpYnJvUklzNVhzcFpjUGFSMzdTOXVIQWZrNU03V2tYZTZmamRsQjA4SkJXbHM5dHBKdEln",
     "CBMiWEFVX3lxTE1QY25SM3NFZXpGMmRqMFY4WlpjYldXdXdwdDQ4dGhqY21tcVNqbURRQ3BBOVRTSW1ZZWcwMTVadWRhalB4Y3VnekxYZlJ3b0JUc1NyWXVSMk8",
-    "CBMiV0FVX3lxTE5LMHJkRzc3eGstdUUxa0x4MXAzZkttWVJWcHhRamxHUVNtbHp5MTFwZ1d3NTkwbDFaWmQ1eTZCamg5bjBBYVJtdjFhb3g2dC1fTVpRS1ktSQ"
+    "CBMiV0FVX3lxTE5LMHJkRzc3eGstdUUxa0x4MXAzZkttWVJWcHhRamxHUVNtbHp5MTFwZ1d3NTkwbDFaWmQ1eTZCamg5bjBBYVJtdjFhb3g2dC1fTVpRS1ktSQ",
+    "CBMiekFVX3lxTFA3UDI3bjNfUUpMVDdrZk8xaGtlVzFZRUZoOEhnX19BUUg4Zmswb1JjcHJHNzlYZ1NxQnB0NlFjc1ZvdHpaTUJfdDAyM0twbENVNEIwZEFfRFAycnFPbGN5aDNUM1lZVi02ZWJEdDR1Q1hXRmVNdDUzaTBR"
   ],
   "daily": {
     "d": "2026-08-31",
