@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/?p=455306",
     "https://www.mmamania.com/?p=455345",
     "https://www.mmamania.com/?p=455350",
     "https://www.mmamania.com/?p=455354",
@@ -696,6 +695,7 @@
     "https://www.mmamania.com/?p=468889",
     "https://www.mmamania.com/?p=468906",
     "https://www.mmamania.com/?p=468956",
+    "https://www.mmamania.com/?p=468960",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Khamzat Chimaev 'ready' for UFC return, names four possible fights",
-      "ts": "2026-08-31T22:00:23+00:00"
-    },
-    {
       "t": "8-0 prospect set for short-notice debut against top 15 contender at UFC Paris",
       "ts": "2026-08-31T22:30:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "BREAKING: UFC 332 Main Event In Jeopardy After Fighter Suffers Injury",
       "ts": "2026-09-01T20:04:26+00:00"
+    },
+    {
+      "t": "Latest UFC Vegas 122 fight card, start time, date and location &#124; Allen vs. Duncan",
+      "ts": "2026-09-01T19:05:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Nathaniel Wood Draws Undefeated Newcomer at UFC Paris",
-      "url": "https://sports.yahoo.com/articles/nathaniel-wood-draws-undefeated-newcomer-234230891.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-08-31T23:42:30+00:00"
-    },
     {
       "title": "MMA Junkie's Submission of the Month for August: A surprise Scottish Twister",
       "url": "https://sports.yahoo.com/articles/mma-junkies-submission-month-august-011515441.html",
@@ -2105,6 +2098,13 @@
       "source": "BJPenn.com",
       "cat": "ufc",
       "ts": "2026-09-01T20:00:20+00:00"
+    },
+    {
+      "title": "Latest UFC Vegas 122 fight card, start time, date and location &124; Allen vs. Duncan",
+      "url": "https://www.mmamania.com/ufc-fight-cards/468960/latest-ufc-vegas-122-fight-card-start-time-date-location-allen-vs-duncan",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-09-01T19:05:00+00:00"
     }
   ],
   "digest_last": "2026-08-31 21:30",
@@ -2113,7 +2113,6 @@
     9
   ],
   "yt_eval": [
-    "CBMi-AFBVV95cUxOd1Z1V3FHbEVibVdoeE5UeGltQ1dXYWRNXzZSVG04aERCb3NCOG80TzY5WnJQaGg1YUR6QWhDSVBqRlNvVk9JZjJnVVBJZ0sySHRwbFEyYkJYOWhCQ2MtdG9kTnNURkZaQzNfaGg1VUxxSTMwVnBha0Uyc0h2bE9QNFJRa2JWVVFWakVKLWZTb0lJdGI1Nm0xSWxWYUc4aDM4QXQwLXkzd2NTVUluOG13WFFnTWxsOWd3dkczMC1XbFJrQWpMVlpDSWZrRGxjRmYyRVZKTWhCUExQaE9vcnhpekYtQXNndTdpeHRNcDZQQ0V0QThHN09JSQ",
     "CBMiyAFBVV95cUxNR3Jmbk5LNjdzTFV2alp5WlpfNUpzYWF0Y0dwbVI5TWtOejFVTzg5ZVdmREh6Z3B2Y3RZLTI0Y20wTXFmWXdDMzZYUkk3ai1HT0pXbURURXRWOTZCMTVjRlNnOEZYQ2dBRUdTeDFhQUw4aWEyRFFINHRSWGFiY0w2T29vdWNWNzNjal9VeHJ5Z3VtSXpLdjFydmJPYTRPVDFKRU1XWUNNOXdiZWZKQUdud3Y0MlNGRVNxeGZRVEVMUUVRTGI5SEVaWg",
     "CBMi0AFBVV95cUxNLXNwNFN2dWZ5S0I1S1cxenBKQlNtRHdEMjVvdDJNS1F3N0dCVVoyTFFheDBNT0JUdkdtR3NGaVZmVXR6cXdheG1oSDB5aWxmaGZRQ0dJVzI1V0dCNWxweDNDZ25vUnRoY0Z5VjNuZ3NSNXE5VXpQOGJ6dVdPODdzTzBPZmxuWlFLb0lPQWNxTzFFMVNQWXlta2c5cktnUFN5dWhrU1BJcHVEZnktSlk3NFJ0R0pDblRMa0NmVG9FLXR0ek1zcE5OejNHYUl6cXhV",
     "CBMivgFBVV95cUxPUG5DYWVvOGVzMW5yWFpxN3QtMWFBYWRDb2FJbGJGX0dueVR2dUVrcUs2ckdwSEhsZjZidldEeDlNVnczRzZwVnd4Ym5RbklYUmltcjcwMkNsSmNLNVY0cTY3VWp3YXQxbmxqMWpfWGpkd0FJTnlhcnJrWkQ2RTU1VUN1cWxtcU5kdnVxcy0zNjFQYTg0ZjhyTmhCVC1zRnA4TUNCSndoV2c5Zmt3NEh5SzRqZkYzMTlNTEp4OUhR",
@@ -3312,7 +3311,8 @@
     "CBMi7AFBVV95cUxPallMbmdFQW4xNWFCUkkycjBJVThmalphSkdlazBTTVZoYkFqandyVTY3QmVtd2xGdlpNQm1fSlM1aHB2eXVwVmNMSlFZY0lxVFRXY1RkV1VPXzZXV1gxRkVsMjVCbDVqNWpFNzhCbmxFMTlNSGlBOU5yWnNBOHdVNTF2Z2ZhU2ZGMjN3b2plY0dQLW9CTlprTnFqWU5pNzc0OE5PMk41MHFfOVdzNmdLcVo3am9kcE5CVVpYVVlhaGN4MVlkb2hZV3lpSjFKeTlld1R3MDJ2UUYwcE5GNzVTaS1MRXE4Q2ZWUHNIeg",
     "CBMitgFBVV95cUxQNjh5dnJaWmlUbW5MQ3JoU0pfMnY1V0hNOFhwTTlnMXd0aVFnN3RZbXJxUDVCLXlkRjhOV280R2VvcW4zSWR6ZzZPNTBILVR1MkpUQmthX3ZJdFl1SU9Hd28tZ0s4N0hGYzZGZjFRM0ZkSFRiNTZIUG54MXQ2bFVPa0p1VVRJOGNyY24zMFNER1U0TUdDckI0TG9GU05vTnNncTNvaDI3Rk1UWEljckRkVElLNVlidw",
     "CBMif0FVX3lxTE9tSEQ4MzZ6MF9WSXU4aGJORnBsY3g5VldIQWhyeUFzRW5SbzNkQWNYZlBhdVVCSlU0S01RTGNtMjFzQ2laVU9qMVhOTGprLWNFUjc4a01RbXNwSEl6SGtvLWw1NEJtbkxPcXUtNUFTeHB6dXY1OGFCZmQzNTNLNkk",
-    "CBMidkFVX3lxTE44ZTl0SDRKRjRkbUFzZ3o1MmxCMVFib2hQRHZ6clNPV1NwaTktSklUQU1UcHlPX2dQaGkzZ2lNQ0NUUXJGSVY4Vzh6dEFmYlhXRXRhMzJOWkoyaC1BeFdpVFFDc0xtN3FmX2FyMk5CcHBmXzNJT0E"
+    "CBMidkFVX3lxTE44ZTl0SDRKRjRkbUFzZ3o1MmxCMVFib2hQRHZ6clNPV1NwaTktSklUQU1UcHlPX2dQaGkzZ2lNQ0NUUXJGSVY4Vzh6dEFmYlhXRXRhMzJOWkoyaC1BeFdpVFFDc0xtN3FmX2FyMk5CcHBmXzNJT0E",
+    "https://www.mmamania.com/?p=468960"
   ],
   "daily": {
     "d": "2026-09-01",
