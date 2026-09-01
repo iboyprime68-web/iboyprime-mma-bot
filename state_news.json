@@ -1,8 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/?p=455188",
-    "https://www.mmamania.com/?p=455220",
-    "https://www.mmamania.com/?p=455234",
     "https://www.mmamania.com/?p=455246",
     "https://www.mmamania.com/?p=455255",
     "https://www.mmamania.com/?p=455268",
@@ -613,6 +610,7 @@
     "https://www.mmamania.com/?p=467218",
     "https://www.mmamania.com/?p=467227",
     "https://www.mmamania.com/?p=467233",
+    "https://www.mmamania.com/?p=467236",
     "https://www.mmamania.com/?p=467243",
     "https://www.mmamania.com/?p=467246",
     "https://www.mmamania.com/?p=467291",
@@ -696,6 +694,8 @@
     "https://www.mmamania.com/?p=468817",
     "https://www.mmamania.com/?p=468824",
     "https://www.mmamania.com/?p=468858",
+    "https://www.mmamania.com/?p=468862",
+    "https://www.mmamania.com/?p=468866",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "It’s Time To Admit We Overrated Anthony Hernandez Fever Vs Sparks (NattqMjYN8)",
-      "ts": "2026-09-01T00:16:58+00:00"
-    },
-    {
       "t": "Song Yadong calls Umar Nurmagomedov knockout the best moment of his life",
       "ts": "2026-09-01T00:22:45+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Islam Makhachev SHUTS DOWN Joe Rogan's COMMENTS! Dana White RELEASES MULTIPLE FIGHTERS! UFC 330 Spire Healthcare (JHlJZWNaqr)",
       "ts": "2026-09-01T13:17:46+00:00"
+    },
+    {
+      "t": "Song Yadong defends Usman Nurmagomedov after UFC Shanghai: ‘Actually, I understand’",
+      "ts": "2026-09-01T12:02:46+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Lucky shot? Henry Cejudo argues that Umar Nurmagomedov defeats Song Yadong ‘9 out of 10 times’",
-      "url": "https://www.mmamania.com/latest-news/468858/lucky-shot-henry-cejudo-argues-that-umar-nurmagomedov-defeats-song-yadong-9-out-of-10-times",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-09-01T04:22:30+00:00"
-    },
     {
       "title": "Umar Nurmagomedov sends defiant message after first knockout loss",
       "url": "https://www.sherdog.com/news/news/Umar-Nurmagomedov-sends-defiant-message-after-first-knockout-loss-202608",
@@ -2105,6 +2098,13 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-09-01T13:17:46+00:00"
+    },
+    {
+      "title": "Song Yadong defends Usman Nurmagomedov after UFC Shanghai: ‘Actually, I understand’",
+      "url": "https://www.mmamania.com/ufc-news/468862/song-yadong-defends-usman-nurmagomedov-after-ufc-shanghai-actually-i-understand",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-09-01T12:02:46+00:00"
     }
   ],
   "digest_last": "2026-08-31 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=467424",
     "CBMijgFBVV95cUxNdlhONllYRTdQcW05b0VfT1ZNcm9lQ2F3cU5qYVNSc3VJV2dLaEt0ckNKR0NneEV6aVhJQkVVYUVHSXBySmZHQk0xNktSUG9sbllVeFFFNGtxaklUdDh4ZFV5ajRfU1JkbFY3aUllbjhiZkJOa0ZldGVFaUt0eVE3VTBDLU5Pczk2ZnlOaktB",
     "CBMijwFBVV95cUxPVWhHYUN4YWtDY0Q2bG5FdlBiblkwRmo1VFdqTjladHlSaHlPOFNCM2J5cERQZVA3ay1vWTU2Ym5MWHZ0TGoxY0V6MkZ1MXlCNlVTQkYweHBzdm50c0dFUU5BbUxiQ3pLemQ2VXVidzZtLVl1VkZZSWhIcll3cG1KSTJmN3hvLXJBemdjanY2bw",
     "CBMi0AFBVV95cUxPdGVuSW9PajZkeDdSMHlVUklrRjExcGViaEphNmdBb29YMGFrNVhEWnB6VURiR09aMUlmUHlhTEhBT29vS19Ud3VqcW9IVGVxdDhmU19BUW9iWm5SVGJ6aWx1NDRQME4yZTdwTmUtZC00V2I3STU4ZGphSkNZOWtMQ3NjNEJ5OTVEVTdvX1MzZnJtZWpYYW85R0MxVTVfa2ljM216WTNMcG05UktLdHV2TVRQdENjWjA2WnNfRW9KZ2pJOUxHYWVYUXFsWlUzZDBQ",
@@ -3312,11 +3311,12 @@
     "CBMi3gFBVV95cUxOSjV0RGhrWVQ1azNCV3NrRXp6Qlo2c0dxNWJCTVB1T1RvcW1QTVVwZVhPMnU5S3l5Z0hMSFBaZ0IwY2xWdXp2SmNiWGVUQzFFMjBXWm9YbXBMSzZDcUs5SVV1cTVxUnlBZUhWRUUzNmhBVHNod0Rkd1h6dm9IMVdmSmt1UVdIZlB2dGk1ZlJpaVpfc293TklOSk94aTY0WXN5S2NwVEI0SWFTRXVKYUZ5TE42MjY3dXV1V3hxUWJvRFpIenhOckg4VlpmTUlwU2p0b09OOEpZWVIxbGZRc1E",
     "CBMic0FVX3lxTE1NOFhKdEF1RFpsRXc4bUlNanBZVTFRSmFGUXlMOVpPLVRzVnR0WXQ1QmlrVlZKVXBLQjI3NUItNVJKU1d4TkZqN0ZRUHpKaThQYlVrdUpDV1BEMHpmNUpMZHRVRklRREtCdUhHbFRPdnI2R3c",
     "CBMivgFBVV95cUxQakRWblkxN2xhVWtrTUtpc1YxWkdyLVVPTG9McnNic2ExclRtc1prVDJSLW8wMm9lRGFjMjA0ZUpkUFRFVHdyTTJHWHZaZkUtQmZERk9PcXBzaXA1V0M0Y0ZtdzQ4U05JdE9UX2hvWkxOMmtBMlZYZTgtMC12XzNDWDNtQ3hJalNUMjVhclN1Wk11SmhnOER2UTRIT1B1MHhvdE0tSjNxTDhfcTU2UmxyMTVac3hxVks5THpNZ0ZR",
-    "CBMiW0FVX3lxTE5BME9oMldzbW9mYTNkNS0tVlF1TFNqQXdmc0R5akJnM2xZWllPOFFEM2dFOFJoZVp4QU9ZN3hOejJmSjl5R1NqbmlreGhJMFVUWlNjWEJqTkZjcTA"
+    "CBMiW0FVX3lxTE5BME9oMldzbW9mYTNkNS0tVlF1TFNqQXdmc0R5akJnM2xZWllPOFFEM2dFOFJoZVp4QU9ZN3hOejJmSjl5R1NqbmlreGhJMFVUWlNjWEJqTkZjcTA",
+    "https://www.mmamania.com/?p=468862"
   ],
   "daily": {
     "d": "2026-09-01",
-    "ai": 95,
+    "ai": 96,
     "staged": 3
   },
   "staged_hist": [
