@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Alexey Oleinik",
-      "ts": "2026-08-31T21:36:38+00:00"
-    },
-    {
       "t": "Sean O’Malley claims Song Yadong’s KO improves his own title shot case",
       "ts": "2026-08-31T22:07:43+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Gonzalez and Witherspoon Seeking New Deals | HQ Stream of National Football League",
       "ts": "2026-09-01T07:58:44+00:00"
+    },
+    {
+      "t": "Dana White's Contender Series: Liam McCracken to fight for UFC contract after near-fatal bus crash",
+      "ts": "2026-09-01T08:14:34+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "“My mouth just dropped”: Javier Mendez admits shock after Song Yadong’s stunning Umar Nurmagomedov KO",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLWRkTW8wMkdWMEFBNFlJeGozZUIzOHZGTTI2RklkMDBYazhoaUhxc2MtWHFSSlhDblhqd2tGUDNEenc5RE5MdDlWUWJZZXpUN2NZQ24zVFRpVmtIc0VyaUpKSmFySF9kMUJXYVMxd2lFWkYwOFJzLWJfOEJpbE92cGdnNDF4MEx2OHFrbXNTWGpqV0YtaHVRalJYcFc3NURNaVBTNE93VG5JWVgwRkl0SDRmV0I3M1VSOTFpQzVlZ2V1Zw?oc=5",
-      "source": "MMA Sucka",
-      "cat": "ufc",
-      "ts": "2026-09-01T01:17:44+00:00"
-    },
     {
       "title": "Open Thread, August 31, 2026: Star Trek or Star Wars?",
       "url": "https://www.mmamania.com/daily_mania_ufc_mma/468732/open-thread-august-31-2026-star-trek-or-star-wars",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-09-01T07:58:44+00:00"
+    },
+    {
+      "title": "Dana White's Contender Series: Liam McCracken to fight for UFC contract after near-fatal bus crash",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9KVmFBREkwNFBnV2FvZGNadWZjel9DU2NyUHBGRFliOWFqVEtRVERqVjVwbnUzTFR5N2J6TmIwcTZuQTJXZEtNbExrc3BHUmViM1RBRF8xUWlVY1pRMm4xV2pDQ3JGd1BHa19aTmUwNEFCLWhy?oc=5",
+      "source": "BBC",
+      "cat": "ufc",
+      "ts": "2026-09-01T08:14:34+00:00"
     }
   ],
   "digest_last": "2026-08-31 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMikgFBVV95cUxPRjlOcXJhel9HOVE4T1VpSkhqVGttVFZPTmV2Mzc5aDdjbWtmaHM2cnZhSjJSQUxFU252djlqU3dOVEt2TDR2OHZKczhPWjhGQ18tUEZNN2FENHBxTHh5NEJweTk4eVdNeU1zUzdGdkpwd0R2Vno2MTA5c3RwRlg5N2o3NEkzd1pwbjloUXFjaHRyZw",
     "CBMisgFBVV95cUxQVl9ULVZxOWhOdDNvZmdaS2x0OXZxQ25hSjFnRU01YWJ1ZF9zV2VQOS1YcTNxWjZwb1lHYk00UUtXTzA3UFhOdnJjVUNPZC1YWTVaMVQ2MHNvcm1BS0hVbklxUHRnSjFjUmZ6MWR4UXFMa3EwS29MSm0wQWR5emNOWVBSZWtwdlducnJuT3I4X2RYM0xvcHhtdHRHX1BlOTlseXBjXzBFdWRuRmVveGRMOEZn",
     "CBMixgFBVV95cUxPazN0RVhCUVRwdDJVMkltSDBSVjFJT0QzT0JTclJwQW1qQVgta2dVX1VvNVFicDVTV0ZtOUlSLUtVbU04UXl1ZFo2NV9ZMFUtT2piUk15dGU4UUJxdEhfNHNqTVZLOWZEdjVFaE9iUGJLcG5RdkZwWW5xUk1DWVJIV01KYTVlczVSQ2ItMS10cmV1RS1aZkxTdDhTb1I1SEhtVEVmdkU0WjFZa0tuaVloQ0dxcUFqNEZGZW82bDFDWkFtNmY4Wmc",
     "CBMiigFBVV95cUxNSjNramotZmpfZjhPaVVCdFZ2UndqYlVtLU01bUh6MUhuME9kQ1VRcDVVQjFIbXBlQUdwd290cGxiaGtFWDBHSC1vZHB4TkQ5UUdnd2hLbU8zRzY4anNScmhXMnIzN0ZFUndXTkZCWE5VZ2ViOE96eDJjd09pay1HS3BoYWZUYzFZNWc",
@@ -3312,11 +3311,12 @@
     "CBMijAFBVV95cUxONkRCU3FmcFRXN21JSk4tRmN5bEpfLWdXSzZNdFRiampDUmxqVGQzTWU4aUtLdWlYR0c4eGpTdXNZVWNJclRXYkgyTC1DWVJHWkdCdFNKWlVHb1ZsX0lKa0ZYaDZKTUlkSzJ0QVB0S3ZKNG9HV2I1NVo2R1AtV3BwMlNWQWc2NnNKSzRVVQ",
     "CBMiYEFVX3lxTE9BRHVGMjVYNTZXMGR1MUVLUTIwcGNsUFhycXhpRkRCSXVCNkJYNVlvcWlYTWpaSV80RGtYRUtaektrUHluZXQ4MFVTVDZBaEQ2Rnd5elg2OWhUWEJXX1RabQ",
     "CBMiyAFBVV95cUxONjgyNXZFMUNHQ29jVzhNVnFWaTdUbnJwVk5PUExDd05RMnMxaHZsZ1lzSVcyd0R3LUJpTEhwVXl5bUIwRkt2cF9hZHVHcDlabG9iUjltdmplWS1GTmEtZlNWejc4UER0MG5lallQQThhUTY1TDkxRHRJZTZqdTl0UVZxcG9HZlNGWmxLT0FFaVloT3JjZVhxb2MxZnNNUDdDNU5MeHVsS09EXzNIVVVoU2ZFdnZHUjQwcS11QzlsZlFCNExTak8xYQ",
-    "CBMikAFBVV95cUxPSUFTVzktYzlNSlJJbDljYm81aXZoUEF4ZHZsYjcwdmllbEdaQ1dWVGw0UHdEdjlHc2FpS0pQQURaTGt6WFpFaXczMF9vekpXYmh6QkpFUWg0dG5zdFZaYkhKNU12RndPY0QzSndhSmJVZHBBOTN5SkxiZGpmdl92bkNYbkRQd2hmUkNYSEZaRDc"
+    "CBMikAFBVV95cUxPSUFTVzktYzlNSlJJbDljYm81aXZoUEF4ZHZsYjcwdmllbEdaQ1dWVGw0UHdEdjlHc2FpS0pQQURaTGt6WFpFaXczMF9vekpXYmh6QkpFUWg0dG5zdFZaYkhKNU12RndPY0QzSndhSmJVZHBBOTN5SkxiZGpmdl92bkNYbkRQd2hmUkNYSEZaRDc",
+    "CBMidEFVX3lxTE9KVmFBREkwNFBnV2FvZGNadWZjel9DU2NyUHBGRFliOWFqVEtRVERqVjVwbnUzTFR5N2J6TmIwcTZuQTJXZEtNbExrc3BHUmViM1RBRF8xUWlVY1pRMm4xV2pDQ3JGd1BHa19aTmUwNEFCLWhy"
   ],
   "daily": {
     "d": "2026-09-01",
-    "ai": 73,
+    "ai": 74,
     "staged": 3
   },
   "staged_hist": [
