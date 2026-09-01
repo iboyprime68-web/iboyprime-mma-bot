@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Restless Khamzat adds three top names to middleweight hit list for UFC return — ‘I’m ready’",
-      "ts": "2026-08-31T17:27:52+00:00"
-    },
-    {
       "t": "Khamzat Chimaev Vs Ilia Topuria Full Fight - UFC 5 Fight Night Toronto Vs Inter Miami (H4Ld7AHH5q)",
       "ts": "2026-08-31T16:38:40+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White's Contender Series: Season 10, Week 4 Live Fight Coverage",
       "ts": "2026-09-01T00:45:50+00:00"
+    },
+    {
+      "t": "Song Yadong surprisingly defends Usman Nurmagomedov charging the cage after UFC Shanghai finish",
+      "ts": "2026-09-01T01:06:56+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Six MMA free agents UFC should sign before the end of 2026",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb00yMGhBRjJ6eWJpUTFpYUhtbjRHN1FPamZ2OUJwSjA5T1RtQmVGcVFsaGtoZXM4WEt3dWJEbHc3WndxNmtmOHBMNWJqa19Nc0VSclhQYk4zQVRvQVU1R0MwZUxsNjRnbkRHRXpDTjZqV3FQb1RtanVzUkVVNHhZSzlsQjZXZ1F6T2lLUWNnb21HNWRBazVCQzRhZWJPVXM?oc=5",
-      "source": "MMA Mania",
-      "cat": "ufc",
-      "ts": "2026-08-31T21:58:16+00:00"
-    },
     {
       "title": "Khamzat Chimaev 'ready' for UFC return, names four possible fights",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaXRVRDIxeVBSTEFTWmFILVFtQ0luTUdYb0VSWFdRMWc5RDZfMEZ5ZHhUbUxTb2pkY2tVT0J3ZHRZOEV3X2lJX1FQUncteWxoVmc4OTBoQWlKdXpHVlV4REZDY25kbjVEOXFZaW1Pemd2T0oyT241dG1CN19EZHdWVXNIeXJjNXk1bHc1Yng5SXNPbEs2YWhYdnpyTzVHZVZ2bENvUGFiT3huNE80Sk84S005YWpkcm1STkN6cW1R?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "ESPN",
       "cat": "ufc",
       "ts": "2026-09-01T00:45:50+00:00"
+    },
+    {
+      "title": "Song Yadong surprisingly defends Usman Nurmagomedov charging the cage after UFC Shanghai finish",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTlB3QTdtM0tNcUNDajVBc3pTVjVMbjBtRkJqV29kZ1J0M09Ic1Q2UDFuTWNEQ0ZXVURINFh5X0RpYUpyODFJOXBZaWZBM2plRnFRX195ZTUwSE9hODdmXzI3SnVDSzZ3aGo3aGYzRENzWDE1UHZ4Z2NGZ2dDSkNQcXlteEhqazZHZ3poUVhXMUtUU0JCQ0dfTDBiTVhCNXp2MXVUenBBZXg?oc=5",
+      "source": "BJPenn.com",
+      "cat": "ufc",
+      "ts": "2026-09-01T01:06:56+00:00"
     }
   ],
   "digest_last": "2026-08-31 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "faca5f93-28a6-372c-893c-183df961589c",
     "https://www.mmafighting.com/?p=507072",
     "74f52cbf-b49f-3713-a68e-504e804d3ff4",
     "CBMimwFBVV95cUxObVhMNW1GMnNieFBXZW03MkVraXZhczBEVmZLQVFmZjNteWNadklDMUlQSUJuVnJsQ3pBYUhtMlBPOHpYdUVBYnB5X2hEUUhWcnotc2RkSWJxWVE4VjBWYXZxVk80SzB1TWliZlJ5cU1pcGp0VjF0MEVSQmQ4dnF4Z0ZDVFk4bkxQcjF5OVo4YlpzWlBVRnZZR1dpUQ",
@@ -3312,11 +3311,12 @@
     "CBMiiAFBVV95cUxNWjNVVVlzYnpsVmpEaGdWQnRGUld3RlRKWEIxdzJlWEsxYTlQSXphX3R2UUtCQ2x2ODBvalY0TC10c0Zyd1NuWXlheTFJbHJHdHhZMEZIeG1ZZWRoU2lvREZDcmVGUWZZZ1NITUhzV25vMGVoa2Y3b0EzN0VDa2hMSXZsRDhtMTQ1",
     "CBMiiwFBVV95cUxPUE9BVGVkOWpSYXdrSExZTU05MjNDRXFlLTltbEQ0ekNaLU4zRHRJZE9ENHhHV2JtZzZYOUZPR2JTTzNwRHlnVDRVU1JxUHdjVW9IclhWM204eTJWNzlqSndNY0tCMWxjTnFNWlZ0TE9SSUV2U2FaUFc4RzJWa3RSQjFTNmM1YXR5blhR0gGLAUFVX3lxTE9QT0FUZWQ5alJhd2tITFlNTTkyM0NFcWUtOW1sRDR6Q1otTjNEdElkT0Q0eEdXYm1nNlg5Rk9HYlNPM3BEeWdUNFVTUnFQd2NVb0hyWFYzbTh5MlY3OWpKd01jS0IxbGNOcU1aVnRMT1JJRXZTYVpQVzhHMlZrdFJCMVM2YzVhdHluWFE",
     "CBMiiAFBVV95cUxNaEQwUUM2YjRRV3BNUkdkcWJnaDhQR1dxMzhXZjlmZUFWVkxpRjgxWmtldVNqYk9qQU94bjdJZi1WdWZRNmJSN1NQY1NlWUFGS1lFSUU3dmZlRV9sUm5fRlU3aUNraTVtUlFsc2owTHExcklzWmVvMm1uMXZTby1UWXBDN1JIa0ly",
-    "CBMib0FVX3lxTFBsWVJ5VkJfMlBucGh3VlczbzVreld1VnRxMGhMSi1kbTM4Y3poUjN1cTRybzIxMGlpMTV2djYyNGluakRsc2h6M0NHNjFnZFhkdGNPeGVaRDJlYnFhNU1vUjVGd20zM1RCRHhjZXhhZw"
+    "CBMib0FVX3lxTFBsWVJ5VkJfMlBucGh3VlczbzVreld1VnRxMGhMSi1kbTM4Y3poUjN1cTRybzIxMGlpMTV2djYyNGluakRsc2h6M0NHNjFnZFhkdGNPeGVaRDJlYnFhNU1vUjVGd20zM1RCRHhjZXhhZw",
+    "CBMiqAFBVV95cUxQTlB3QTdtM0tNcUNDajVBc3pTVjVMbjBtRkJqV29kZ1J0M09Ic1Q2UDFuTWNEQ0ZXVURINFh5X0RpYUpyODFJOXBZaWZBM2plRnFRX195ZTUwSE9hODdmXzI3SnVDSzZ3aGo3aGYzRENzWDE1UHZ4Z2NGZ2dDSkNQcXlteEhqazZHZ3poUVhXMUtUU0JCQ0dfTDBiTVhCNXp2MXVUenBBZXg"
   ],
   "daily": {
     "d": "2026-09-01",
-    "ai": 19,
+    "ai": 20,
     "staged": 2
   },
   "staged_hist": [
