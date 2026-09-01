@@ -1,11 +1,11 @@
 {
   "v": 2,
-  "cursor": 6,
+  "cursor": 7,
   "staged_at": [
-    "2026-08-30T14:26:49.383631+00:00",
     "2026-08-30T19:21:23.346101+00:00",
     "2026-08-31T17:06:59.392957+00:00",
-    "2026-09-01T14:11:40.607826+00:00"
+    "2026-09-01T14:11:40.607826+00:00",
+    "2026-09-01T19:26:09.200550+00:00"
   ],
   "asked": [
     "Who is the most dangerous striker in the UFC right now?",
@@ -30,27 +30,28 @@
     "Who is the most disrespected UFC champion of the last decade?",
     "What is the most devastating KO in UFC history?",
     "Who is the most improved fighter in the UFC right now?",
-    "Who has the most questionable title reign in UFC history?"
+    "Who has the most questionable title reign in UFC history?",
+    "Who is the smoothest striker to ever do it?"
   ],
   "last_entry": {
-    "q": "Who has the most questionable title reign in UFC history?",
+    "q": "Who is the smoothest striker to ever do it?",
     "type": "poll",
     "options": [
       {
-        "label": "Bisping",
-        "emoji": "👑"
+        "label": "Anderson Silva",
+        "emoji": "🕷️"
       },
       {
-        "label": "GSP",
-        "emoji": "🐐"
+        "label": "Israel Adesanya",
+        "emoji": "🎨"
       },
       {
-        "label": "Woodley",
-        "emoji": "💪"
+        "label": "Max Holloway",
+        "emoji": "🌺"
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "💬"
+        "label": "Jose Aldo",
+        "emoji": "🦵"
       }
     ]
   }
