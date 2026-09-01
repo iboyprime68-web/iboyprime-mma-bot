@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Song Yadong defends Usman Nurmagomedov after UFC Shanghai: ‘Actually, I understand’",
-      "ts": "2026-09-01T12:02:46+00:00"
-    },
-    {
       "t": "PlayStation 5 Gets Free Live TV in the U.S., Canada Launch Planned",
       "ts": "2026-09-01T12:25:11+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC 332 Left Without Main Event After Valentina Shevchenko Pulls Out With Injury",
       "ts": "2026-09-01T21:11:34+00:00"
+    },
+    {
+      "t": "“One or two more”: Caio Borralho reveals how close he is to UFC middleweight title shot",
+      "ts": "2026-09-01T21:13:24+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Prediction, pick for Brandon Holmes vs Modestino Rodrigues at DWCS Season 10, Week 4",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZkZzdmNIbjBPcURJb1BrZ0NydmwyN2duZVNId0JxZDFMUUctcXYwc0pZTFdLeDNMSC1PTUlIUHBtYlVkc2syWERwekd0RzFnVlJmSnJWZ3REbl91NUhIZ1o5bEZBdzdYUmc2ekJXYXBCS0tialRLclB4VnhYREJfSnRtWjFHM0htanlMdjZxVEZReWRoR3RIaklYcmJYMUx4Y18zYWU5aEE1bWdPSWczZnRPaVJFcGdJOVZZQnZIbFRsOFZ5VlE?oc=5",
-      "source": "DraftKings Network",
-      "cat": "ufc",
-      "ts": "2026-09-01T17:30:00+00:00"
-    },
     {
       "title": "Hooker On Parnasse: 'Only One Dumb Enough' To Fight Him",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBnYmRKSm5EVU50SW93cEotZGtIb0RFUkcyOWVMYWxGZXdMZGg2LXhocGNDck1WbVJOTENOcThGanJsbUw5VGtzTDNtS2lqeGFaZU56VkRfaUNCNWZjd3NzdmZJWGhGa1BaTU10YWFBSQ?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-09-01T21:00:00+00:00"
+    },
+    {
+      "title": "“One or two more”: Caio Borralho reveals how close he is to UFC middleweight title shot",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX2tfbUVhZ1l6TVR2MjhpS2cyX05lY19od3BZTWJ2TTlVbzhmd01XN0dyX2JVR0F6UGFsc2djY1djRUlmS0c4TzU2MS1xcC1qWnBodlRRQmxhOVd4SzkwaVMwWWY2NEVVNU93T1FZcndjTUtyajFsMi1MNDFUWHo3SzE5YUFhNTZnZG9MeFBsMnF2cllHVmtQalpUWE1rMU9hY0dLM21ESG9DSmZ2a0tOaQ?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-09-01T21:13:24+00:00"
     }
   ],
   "digest_last": "2026-08-31 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiowFBVV95cUxNVmJoTmh2MmZCclBGU2liMHYyUm1KZnpHb19KWFY1VXJxU2ZXMHZCSHZxeThCS3lFb205RE40NDcxYUgtVHBSWXVsYmNMRElIbmFiY0R6SXNjb3F0WGFaVnBrVkJOQy03OEtTVTBWR2hoeEZ4UkdSeGxQVWZmWFFyY1U1MnBac282c1FOdHRycF9yVEx0aWtlV1lvLW9ZUTdzX2pn",
     "CBMiqwFBVV95cUxNRS1TckJjaEhodXU2NUpiMEtyX3Z6NV84UGRxd3UxZVRkb3pYSU1YeWFtNkJHUDNza3lCS3l0aDNDRjF4aWFKWVJTVlQwWkV6LWJlUl81VVNZZ21EUTZSXzhhVWdxdXVYOW5HRXdYdlVsSlN4T0pjek9TWWZWenZPZ1BjN2s5ajVNVXFwbTl6SXhockV0c0xmQURWZ0djSnVwUmpKR3lYRFZKWlE",
     "https://bloodyelbow.com/?p=328920",
     "CBMicEFVX3lxTE1YZkx4cUxpRWVuQTAzRlpZdm1oMTdnWkhDbUVhVE42aVowV0l4QzFkWVFUSnhlV01XZ1NlVjhpZ2VBQXdyT2lWdWNPNjhWclh3X0prZkQwN281UDRWMVdDb1lURFdHYzN5dWt1YWFKWVk",
@@ -3312,7 +3311,8 @@
     "CBMi-wFBVV95cUxNUXpEZ2szMy0wWVR5MnlIV054bHlNMFNOSzVrY3pmZUUtdndQdmI1cWg1NDVGZEVaaVhqUEwxeVJHLXhGOU5aZzlmQXN3dU1vY3c4bzRydlpIQ21UYi00OEh2RldMMjlwSVVOVDljWDhhU1k0WFg2WnhvaFhlb0pTTENFazhYWEEyUVZ1bXpheWk3V0dhYUpYZFdGNEdEU3Ria0RIOFpieVBuakh0RTBvREpyWHU3M1kySjNxRjJsSGlibWZiYWp2Z1JRWGhhZDdJMVpkNE5MSE5XZTcwRkhOXzRPRE43LUppVXdIeGRxTC04TVhlRHdtY2MxTQ",
     "CBMigwFBVV95cUxOekljb2VUODBsX1htM2Jfd2IxNEVYRllBODktd05fN2RHRWplcGFYd1VMV0E2aXJUOEc5UGlCbUNheG1rTVhYc1ZKX3paWXFKbEllWWh2U3pJTTh5b0ZtaURUcHRhTEJFUmM0SnVkM2xkSG5ENkFDdkoxNy1pcE44ek5BWQ",
     "CBMimgFBVV95cUxPVXppeWh6d3R0T2g5U2dKdjJwOEpaNnN4elRPMVFyVmZCRDA1R0pjWDA0OHpFVWd0THR4MmhfN0ZWZktsdHZQcHVfT0t3TmhQN1BnejJCaTdsYnBRY3YwaEw1eTktTUNCVFJtMVk2dWt3ckN5eHhDT2RrVVBkRU16RTFidHJma21pRWdJSVlkWVp0bFhwaDJDdktR",
-    "CBMieEFVX3lxTE8xaUZxWlN6WUcxdW9XSGFmVU9NdzRpeFNzQUo1ZGh2bkQzQ1RPRlZqb3MyeGdmSjVBVElPZDRqeFBsWjl6YzBOdk9tczVIXzJLdW5NYUtuMkl0cmt5WUxLbXh0aFlSWW5ZQUV5NW9SS1ZfbUhBalRZbw"
+    "CBMieEFVX3lxTE8xaUZxWlN6WUcxdW9XSGFmVU9NdzRpeFNzQUo1ZGh2bkQzQ1RPRlZqb3MyeGdmSjVBVElPZDRqeFBsWjl6YzBOdk9tczVIXzJLdW5NYUtuMkl0cmt5WUxLbXh0aFlSWW5ZQUV5NW9SS1ZfbUhBalRZbw",
+    "CBMisAFBVV95cUxOX2tfbUVhZ1l6TVR2MjhpS2cyX05lY19od3BZTWJ2TTlVbzhmd01XN0dyX2JVR0F6UGFsc2djY1djRUlmS0c4TzU2MS1xcC1qWnBodlRRQmxhOVd4SzkwaVMwWWY2NEVVNU93T1FZcndjTUtyajFsMi1MNDFUWHo3SzE5YUFhNTZnZG9MeFBsMnF2cllHVmtQalpUWE1rMU9hY0dLM21ESG9DSmZ2a0tOaQ"
   ],
   "daily": {
     "d": "2026-09-01",
