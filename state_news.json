@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Song Yadong calls knocking out Umar Nurmagomedov at UFC Shanghai ‘the best moment of my life’",
-      "ts": "2026-08-30T19:23:39+00:00"
-    },
-    {
-      "t": "Song Yadong Calls for UFC Bantamweight Title Shot",
-      "ts": "2026-08-30T06:57:22+00:00"
-    },
-    {
       "t": "Mike Perry’s opponent takes credit for ‘causing the dislocation’ with a shot most fans missed",
       "ts": "2026-08-30T20:00:00+00:00"
     },
@@ -1683,23 +1675,17 @@
     {
       "t": "Emotional Gary Woodland In Tears As He Receives PGA Tour Courage Award Jose Ochoa Ufc (Rdf7rnZiIY)",
       "ts": "2026-09-01T00:54:48+00:00"
+    },
+    {
+      "t": "Rocklin man in court over alleged plot to attack UFC at White House",
+      "ts": "2026-09-01T01:26:00+00:00"
+    },
+    {
+      "t": "Rocklin man indicted in connection with UFC event attack plot pleads not guilty",
+      "ts": "2026-09-01T01:40:22+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Jonny Parsons: UFC Record, MMA Stats and Fighter Profile",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5LMHJkRzc3eGstdUUxa0x4MXAzZkttWVJWcHhRamxHUVNtbHp5MTFwZ1d3NTkwbDFaWmQ1eTZCamg5bjBBYVJtdjFhb3g2dC1fTVpRS1ktSQ?oc=5",
-      "source": "Fightomic",
-      "cat": "ufc",
-      "ts": "2026-08-31T22:33:05+00:00"
-    },
-    {
-      "title": "What’s Next: UFC Shanghai Losers",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA3UDI3bjNfUUpMVDdrZk8xaGtlVzFZRUZoOEhnX19BUUg4Zmswb1JjcHJHNzlYZ1NxQnB0NlFjc1ZvdHpaTUJfdDAyM0twbENVNEIwZEFfRFAycnFPbGN5aDNUM1lZVi02ZWJEdDR1Q1hXRmVNdDUzaTBR?oc=5",
-      "source": "Cageside Press",
-      "cat": "ufc",
-      "ts": "2026-08-31T22:40:34+00:00"
-    },
     {
       "title": "Carlos Prates confident he knocks out Islam Makhachev after getting ‘smashed’ early",
       "url": "https://www.mmafighting.com/ufc/507444/carlos-prates-confident-he-knocks-out-islam-makhachev-after-getting-smashed-early",
@@ -2105,6 +2091,20 @@
       "source": "Mshale",
       "cat": "ufc",
       "ts": "2026-09-01T00:54:48+00:00"
+    },
+    {
+      "title": "Rocklin man in court over alleged plot to attack UFC at White House",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbXc1c3ZlcjFsaC00UG12QmNWMjRzSFBYUVZNWEhlWTZjMjBNX0ZPM09YaWN5dmRac2tFdENsVEw5Y3VrV3FzVEpreVRJSHdTU1p0QW9WQ0tMMXkyWW9PaFVua3F2a3c2ODFueDU0RmxtT3kwd0FTRFpEZ2Z6cHZZbkl6OVZfanNHRGxienIxYnVJb1FxWV9ScUdQeU9mX1VjRVdRX2IwZElZY0VvbTdTRS10Vi1lSWxJeHVWN181MFNNNVN0R3VXS2ZYTWpzaUtpYVI4dUtGZFdCcGJta2R0TTU5Nlp4UQ?oc=5",
+      "source": "Action News Now",
+      "cat": "ufc",
+      "ts": "2026-09-01T01:26:00+00:00"
+    },
+    {
+      "title": "Rocklin man indicted in connection with UFC event attack plot pleads not guilty",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWjNQUk1UckJFOFphdjhWVF9ZNnF1TUd1M3p3d2ZqNVAwTTg0b0dmT0dzRXhzaktIMmplSUVKd3A0bW1BQmY2a3pMc3JSdlRZYVdqQVk2YkR5aDBjTjcwZFo4VjBzdi03a1F3V0tTTnlNeTdyS19yTmY2d05yZDIxbnAtUXpXdmhSUVNoLWI5WEtZcE8ycmxKb2hrMl9NY2NTeDY0cTZmYWZKbkx6RWQ4bUQ2STJtMGJzX3Q1UHJLXzI?oc=5",
+      "source": "kcra.com",
+      "cat": "ufc",
+      "ts": "2026-09-01T01:40:22+00:00"
     }
   ],
   "digest_last": "2026-08-31 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMi8AFBVV95cUxNR0RheGQzQVgyaGJ3OEprZFBfTExRbmM4MmExeDhGX0V6VTZGeTc0TmtfWGkxdWZXY3NRMno0ejVfZXM0a1JIVUxtMm45Y2tsRWZyTU11SjRDdGZpa2pKN05qR2hOQS1hcmNBTlRvQnZ3UlBBeTZ0b3RBeTgyaTJZMmdVREhWbEtaQ1Y0YV81UXZKNk8yWkNXMkNQT0o0aHc3Zi16czBxcjZhbWN5cmo1Z2Q2Q0NENG9qR2NGN3NVbllHeFN5RDVYVXdrTGxITDk4WTBfcnpNZ1ZlU3ZObWZ3M0hOUGFsNExpd2FwZDZYTUk",
     "https://www.sherdog.com/news/news/Kai-Asakura-vows-to-show-new-combination-in-UFC-Shanghai-KO-bid-202537",
     "https://www.sherdog.com/news/news/Yadong-Song-went-to-Georgia-to-prepare-for-Umar-Nurmagomedovs-wrestling-202538",
     "CBMi4wFBVV95cUxQa0dYMWJBa3RSRkRtS3pXaFNyOGFaQUJSV0I1aDQwbV85Z3BzVTVJeTRocU9YN2N0U0pMWFdOVTc4Q3BhN0dZNXM4YUx4bXhxSUNHXzM5TXNoTV9ib2U2aDNldkxEZ2tGWVRqa2ZNdTBoZHF0b1dma2czTXhfeEQ0ejZOYmFxT2VkV2xSNHdyS090cnFBQldUNjAxWlZibUVZM1Vhd1VlempiVzFzTmdIZ0NCZGQ5Mnd3UERudTVRTjdPbVQzM1pVbHRzeHhJNThJWkpyNktqZzBZeGZDdzVuRlRTYw",
@@ -3312,11 +3311,12 @@
     "CBMingFBVV95cUxPdU91RVVIRzI3NzlsNDFhYnJTM09jeWZZZnRCMTdlV2JyaWhZTWlnZHF3dlJMUVRVMzFOeTVBQmFWWDVFNFVRVVRVWG8tdEFmcGJvY0JxTjduQi1kMDZWbzRybTNuSmUyakVRNVhGOEpWYzdBV1NUQ2tSb29LSXNwTkdhMmJ3My1YMEJmZHdjZTNDWTNqTFF3VTcyZUlyZw",
     "4e51e111-a437-350e-9d68-386bb9dc9001",
     "CBMiW0FVX3lxTFBkMldCRFpUQllPTkI2QzI2LTBzWnc3QVlsN2VrckFKMy1pZERvbHZraWN1MzM1TEhfYlFsSlR5TGtYUDM3QWEtZlRsbjJoMFVxc3llTnRPYk8xVVk",
-    "CBMiW0FVX3lxTE9uQWdyYWlyY1pSVmpRc0VPUk9tV1FxcEtZek1ramZqWldBV2tFVWplRlU1RzJfcmxBNW45MWJIWkpYc3hZSGJhTXlhUzd3bW95cVNvODlQaXJpMzQ"
+    "CBMiW0FVX3lxTE9uQWdyYWlyY1pSVmpRc0VPUk9tV1FxcEtZek1ramZqWldBV2tFVWplRlU1RzJfcmxBNW45MWJIWkpYc3hZSGJhTXlhUzd3bW95cVNvODlQaXJpMzQ",
+    "CBMi5gFBVV95cUxPbXc1c3ZlcjFsaC00UG12QmNWMjRzSFBYUVZNWEhlWTZjMjBNX0ZPM09YaWN5dmRac2tFdENsVEw5Y3VrV3FzVEpreVRJSHdTU1p0QW9WQ0tMMXkyWW9PaFVua3F2a3c2ODFueDU0RmxtT3kwd0FTRFpEZ2Z6cHZZbkl6OVZfanNHRGxienIxYnVJb1FxWV9ScUdQeU9mX1VjRVdRX2IwZElZY0VvbTdTRS10Vi1lSWxJeHVWN181MFNNNVN0R3VXS2ZYTWpzaUtpYVI4dUtGZFdCcGJta2R0TTU5Nlp4UQ"
   ],
   "daily": {
     "d": "2026-09-01",
-    "ai": 29,
+    "ai": 30,
     "staged": 2
   },
   "staged_hist": [
