@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dana White saw Ian Garry as too passive; Javier Mendez saw ‘genius’",
-      "ts": "2026-09-01T03:49:48+00:00"
-    },
-    {
       "t": "Lucky shot? Henry Cejudo argues that Umar Nurmagomedov defeats Song Yadong ‘9 out of 10 times’",
       "ts": "2026-09-01T04:22:30+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "UFC Confirms Huge Fight as Main Event for UFC Fight Night Card in October",
       "ts": "2026-09-01T17:45:58+00:00"
+    },
+    {
+      "t": "Farès Ziam : « Je m’en fiche d’affronter un Français »",
+      "ts": "2026-09-01T17:48:34+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "PlayStation 5 Gets Free Live TV in the U.S., Canada Launch Planned",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQW9Ga3lmRmVwY2RPX1hNZzZTMFlKRGcyektISnI0V2xmc0VQcmJFazRzeDR2SlZkMjIzUWNlcDVNWmRlZ0tjUGJtb2NoZHdmeE42QlZ4UUJjSDdsRkhINGw5TzJiTHU0cl9lZHNnNGZucXhnVTN6RWNQTWphbDBLTmQ0THhCZFZ6T2ZaXzc1ZFhfajF2RUVyMQ?oc=5",
-      "source": "iphoneincanada.ca",
-      "cat": "ufc",
-      "ts": "2026-09-01T12:25:11+00:00"
-    },
     {
       "title": "アンガールズ田中母守る Southwest Airlines Bwi Wing Clip (CuIgSamqw6)",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lYXFOMlRRRUFXTW1Zc2xfZUJKbEVkd1VjbTRfNGZFVUpRdFhVb3g1M3M4LVAwUG9FYWdXM0tDamF6LTlUWUpNekpmSWtXWGI3amZEZnl5MlR2QzA?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sports Illustrated",
       "cat": "ufc",
       "ts": "2026-09-01T17:45:58+00:00"
+    },
+    {
+      "title": "Farès Ziam : « Je m’en fiche d’affronter un Français »",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRF9VbHRBblV4UTBUM1Z5OXY1LVRRdnBvcnMxZVdianlRYUJSblN4dDV1OEM0SzRsTWtydUdoRDN3THZYY0Y5WWZOS2VlVmpfSEpXZGVlMTdqaTFkd0lNd1NfV3hfNGlOTGs0US1SQ05hODlzandhT1ZnUlpLMlgwag?oc=5",
+      "source": "La Sueur",
+      "cat": "ufc",
+      "ts": "2026-09-01T17:48:34+00:00"
     }
   ],
   "digest_last": "2026-08-31 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMi5wFBVV95cUxQU1lERHlSR2RqdXBJM2V0YThoTGZ6dF9ReVJ1bHJpdU1rU2JWcGFEOEphNVloM0g5S2hPWVdfR1BjY0RRd1hyd2JSNFhoVFZzZnltTVB0ajQyX0o5dXNVNkFXTEdFaXMyaExXRno2elBDMHVYNURSMENPN1NfMHJXZ1RoWlA2YlRSRkN2V2pPZWE3Y0lFS2hORk85cUJwOXNRV1JELThNWDFyUWo1ZDg2VmVJMFBpRUNnV2lwMGFXUXZUQlNEd01DLTBoREpaU3VneEZQNVFndnd4UHBiWGg5d3Z5ZTlXOTQ",
     "CBMikAFBVV95cUxNUnJuMkk2S0xrT1IxdXE1RHZWbUVMSzhlTjIzc29TQzI3ejZXWFV1el82LWRxbkU1LWlERW0yQkhfQVdWUjFQOURQUWozVTl4WEhhWEhjWHFZdm1SNnJLcEhBMkFnMU9jTzdSMEpLeUR4THUtcHhwY0gxRXFjZG1MT0JGdUZtTnUtM0xWbDNyR0s",
     "CBMigwFBVV95cUxNcm92Y2tQdlc4SzJodmZQZDRfb0xwVF9vdkV2WEhlYlROYnVhankxNmk5MkdSRkdicFVNYWtGRGZMVmVqT2Q4bnJVWjg2TzhYOHlWUWlDR1k5aEpobnY5VGg4NE5RaTNCLWZ0ZE9qQ1g4SEFkcEZEZExfZjZoekctbUpsRQ",
     "CBMiwgFBVV95cUxNQnBsQnh3bHp6aHVhcE8zRmZGRG9waWU1Wm56U0hrblZtdzNLcndxMjFtTzBNOXlONG5naEZnNWpoUFNMdklIb3N6bXhKNlJiVXdyemw1azl5bzktWHdLQVhsS2RxLXFnY3N5U29fTkpmeDk3dklTZkZDbU5hNlRYMi1pT0E4SElIeUZyeXNiUnBIWUFHdzlMUmlYTGtnUjR2LTlTMlRGYkhVYUJ6dVpVbGk4YmtlY2NRUldkeldPelotZw",
@@ -3312,7 +3311,8 @@
     "CBMixgFBVV95cUxQZkZzdmNIbjBPcURJb1BrZ0NydmwyN2duZVNId0JxZDFMUUctcXYwc0pZTFdLeDNMSC1PTUlIUHBtYlVkc2syWERwekd0RzFnVlJmSnJWZ3REbl91NUhIZ1o5bEZBdzdYUmc2ekJXYXBCS0tialRLclB4VnhYREJfSnRtWjFHM0htanlMdjZxVEZReWRoR3RIaklYcmJYMUx4Y18zYWU5aEE1bWdPSWczZnRPaVJFcGdJOVZZQnZIbFRsOFZ5VlE",
     "CBMib0FVX3lxTFBnYmRKSm5EVU50SW93cEotZGtIb0RFUkcyOWVMYWxGZXdMZGg2LXhocGNDck1WbVJOTENOcThGanJsbUw5VGtzTDNtS2lqeGFaZU56VkRfaUNCNWZjd3NzdmZJWGhGa1BaTU10YWFBSQ",
     "CBMijwFBVV95cUxPbW9ISjdxb09fTmd3YV9BTnE2S2dWSHprWHFqZXdVeGNiQnQ2RUZkbWxjRnhBem9WQjk5WWJpSmptS0RVYzQxTzJoN0FLbjNBX3UwUnRUUElURnJZUkV4TU5rdFFwNnJnTXQyWUEzWDVuOFJ5cGpJRE5pZG5Mb0FhbUxCVU9RRkc1enBJSjh3Yw",
-    "CBMitAFBVV95cUxPX2RYRXg4NXlaUVI1XzRuVTBrTzV1eE9NOHhhc041MFNiTWdzUWRqVG5tY29mS3FJWl9JeUtudEdXdVZDOUk1VmpVRDVYeWw2V3FicXV4cUt6dU9LU3lMZXBfeXlFbTdhSER6SXRJXzF2QlFRSURKY2l0Q2lTUlhTZmdjRjMyazdKaTNjeGIwSGwwSExxWENWYUNjMnMtVW5PRGUycTczTkVCR0U3N3k1NnZfQ0Y"
+    "CBMitAFBVV95cUxPX2RYRXg4NXlaUVI1XzRuVTBrTzV1eE9NOHhhc041MFNiTWdzUWRqVG5tY29mS3FJWl9JeUtudEdXdVZDOUk1VmpVRDVYeWw2V3FicXV4cUt6dU9LU3lMZXBfeXlFbTdhSER6SXRJXzF2QlFRSURKY2l0Q2lTUlhTZmdjRjMyazdKaTNjeGIwSGwwSExxWENWYUNjMnMtVW5PRGUycTczTkVCR0U3N3k1NnZfQ0Y",
+    "CBMigAFBVV95cUxQRF9VbHRBblV4UTBUM1Z5OXY1LVRRdnBvcnMxZVdianlRYUJSblN4dDV1OEM0SzRsTWtydUdoRDN3THZYY0Y5WWZOS2VlVmpfSEpXZGVlMTdqaTFkd0lNd1NfV3hfNGlOTGs0US1SQ05hODlzandhT1ZnUlpLMlgwag"
   ],
   "daily": {
     "d": "2026-09-01",
