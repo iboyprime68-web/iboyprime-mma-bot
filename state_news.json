@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/?p=455491",
     "https://www.mmamania.com/?p=455500",
     "https://www.mmamania.com/?p=455519",
     "https://www.mmamania.com/?p=455524",
@@ -743,6 +742,7 @@
     "https://www.sherdog.com/news/news/Bilal-Hasan-sees-prophecy-in-UFC-debut-on-Michael-Jacksons-birthday-202539",
     "https://www.sherdog.com/news/news/Bo-Nickal-feels-he-receives-undeserved-hate-from-fans-201470",
     "https://www.sherdog.com/news/news/Bout-order-official-for-Conor-McGregors-return-at-UFC-329-201676",
+    "https://www.sherdog.com/news/news/Brendan-Allen-Christian-Leroy-Duncan-collide-in-UFC-Vegas-122-main-event-202624",
     "https://www.sherdog.com/news/news/Brendan-Allen-I-can-beat-Sean-Strickland-in-every-aspect-201510",
     "https://www.sherdog.com/news/news/Caio-Borralho-says-Khamzat-Chimaev-doesnt-deserve-UFC-title-shot-202612",
     "https://www.sherdog.com/news/news/California-commission-to-run-special-July-25-combat-sports-fundraising-event-201739",
@@ -1204,10 +1204,6 @@
   "initialized": true,
   "v": 3,
   "recent": [
-    {
-      "t": "NFL Fact or Fiction: Justin Herbert Wins 2026 NFL MVP Stream of National Football League",
-      "ts": "2026-09-01T21:00:00+00:00"
-    },
     {
       "t": "UFC 332 Left Without Main Event After Valentina Shevchenko Pulls Out With Injury",
       "ts": "2026-09-01T21:11:34+00:00"
@@ -1683,16 +1679,13 @@
     {
       "t": "Enhance Raises $18.2M to Scale Gym Personal Training Software in US",
       "ts": "2026-09-02T04:32:56+00:00"
+    },
+    {
+      "t": "Brendan Allen, Christian Leroy Duncan collide in UFC Vegas 122 main event",
+      "ts": "2026-09-02T03:58:04+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Khamzat Chimaev calls for fights with Sean Strickland, 3 others for UFC return",
-      "url": "https://www.mmafighting.com/ufc/508015/khamzat-chimaev-calls-for-fights-with-sean-strickland-3-others-for-ufc-return",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-08-31T20:21:29+00:00"
-    },
     {
       "title": "Brendan Allen faces top middleweight in UFC Vegas 122 main event",
       "url": "https://www.mmafighting.com/ufc/508060/brendan-allen-faces-top-middleweight-in-ufc-vegas-122-main-event",
@@ -2105,6 +2098,13 @@
       "source": "Athletech News",
       "cat": "ufc",
       "ts": "2026-09-02T04:32:56+00:00"
+    },
+    {
+      "title": "Brendan Allen, Christian Leroy Duncan collide in UFC Vegas 122 main event",
+      "url": "https://www.sherdog.com/news/news/Brendan-Allen-Christian-Leroy-Duncan-collide-in-UFC-Vegas-122-main-event-202624",
+      "source": "Sherdog",
+      "cat": "ufc",
+      "ts": "2026-09-02T03:58:04+00:00"
     }
   ],
   "digest_last": "2026-09-01 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMizwFBVV95cUxNUVZtOGJJdjRJSXdmV0lScW82UVEtZk9CNGtCNTQ2azBuUEFXV1RXd2ZCcWV4N0l1cGNORHd3blB2bmZGRTBJYW9ub3A0c1YtV3FZeTUyMzBibFlsb0ZIR1dCYlplck9YNThkZUNOa19maG5sREEweWVXVEE4NFBkZ0FLTjNSOEotUFJIb0tkb1NsSmtCVGt4X1lBTzNXb2FVemxkeG5kenVDZjEwZXpzc1dDTW1Ya2RGNkhNc1ZCYmlNc29KR0M3aUhfc3VtZ1U",
     "CBMiZ0FVX3lxTE1oelFwRDNPa1FQalIxS01RNW9Ic09DeFFPTjRkeElqVWY0N2UzRHVjYUpxUDlEb1VKeE1FbzRjSUVTbDUtS29IUDlyY1JJSlVWM0ZCYy1SWWQyZE1xQTBnQUQ1WXZjQTQ",
     "CBMihAFBVV95cUxPM1Fva3VwbDRqS0M2NER4dzdndUEtSXh4M0k5bDVlQ1VtZk5lRFNMS2NZbXNlcUxBLWNyRHJvQWVGdF9tdEN0QVU2SURyZWlRMzBBVG82WV9HT2FjWldnOXZMNWhXY0NLRzQzc1YySWlsTGdVeEVUTUdoMnhlWkcxTDVXVFA",
     "CBMijgFBVV95cUxQTWVvZmgxUEdZRXNQcDFPQ2FUMWY1dThEMHdUTDl4VFhTbUtZbWpFNWFCaExhRnRZVjZ3a0VwcjNsOXJXeUs4eFBDYVlZQ05SeHhCaDlIclBCbHJaUEpNVmlMSXljUUNUTm1MM0VPSDQ2TUlIUlc2cElCbFBrM1RGN1lzM202STNEVk9ibkZ3",
@@ -3312,11 +3311,12 @@
     "CBMinAFBVV95cUxQVE5XRWxFb1JHNEdLUFJJYUVROGNzM3hjazFNNkxwdjBSR3pjdWJJZ1E4eHpSUk1NQnlVVzJFYlpiSGpqTGEyUkd1NWJ1OWZOZGIyMWlxZGVOdVhJVjBxR21uVTRwMTZ4MTVPcHdxbzJkelllQkNibmNPalV4VWVkWllUT2djZ3M2UHpXSEtsQ0FIYWRsTVQwT0hTbVI",
     "CBMi4AFBVV95cUxNS0htNFNRT1d2Y1EtZ3VMT2xmaE5rUVVYTWN6d3h2Z3Y5NG4tcjh3dllPQTgzTWdFTWd4dGU4aUtqRGc1M25OQXdSWXJ3M1FZSDZqTUpZU2p1TGh3UnZKd3ZpcmlnVkcyWUNSS2lVMnJNUGtsYmxSY1JBMGsxQ1pqS1NGWHJiejN0TEt5M0FPd1NLSzFNUDlKU2xBVzJ4eUpORWJ3OUtwQmR4QWtJN3FsQUgtdUtrcWJaUW9XamZoM25jd1RRcWNsVkNMRm5IUF9YYjYtMHRUSDhkbVBqTUZLZA",
     "CBMimAFBVV95cUxNUDdMYkhIbEtTR05vWkNwSFR5dWJNMkpFb0tBeTlVWXF1X09EMHM3Z1o4cGtLS1RBRlg5UHRBS0xtaXhqZHJIQzdJTDJrTUZ3NUxHczhLQlZFTnRCT1R1aWNGZ1ItTlZZcmxXemxIREZva2ZkYWZqa3pwRFpGU3IzX1liai04NkpzemYwR2xORkY5LTVPOE5PNA",
-    "CBMinwFBVV95cUxNVXNhTXI4NnV0YW9mc19SaXZObG9JdDZtUmRoYUduRkx4dG5ZZmVkbUZjQzI3MWxBQThheFBDWm5aVW96MlI3ck0wYmktYXlCTzRDZlhmM1I4WTJnNmM5dlpwdnlmdERrdUNqMG5mNUZRU0VCcWhadFdFRTRPZmxMVDFvSk9TVnNSTW1oV0hQMHN2bkxlVG1tZlJXYmEtanM"
+    "CBMinwFBVV95cUxNVXNhTXI4NnV0YW9mc19SaXZObG9JdDZtUmRoYUduRkx4dG5ZZmVkbUZjQzI3MWxBQThheFBDWm5aVW96MlI3ck0wYmktYXlCTzRDZlhmM1I4WTJnNmM5dlpwdnlmdERrdUNqMG5mNUZRU0VCcWhadFdFRTRPZmxMVDFvSk9TVnNSTW1oV0hQMHN2bkxlVG1tZlJXYmEtanM",
+    "https://www.sherdog.com/news/news/Brendan-Allen-Christian-Leroy-Duncan-collide-in-UFC-Vegas-122-main-event-202624"
   ],
   "daily": {
     "d": "2026-09-02",
-    "ai": 43,
+    "ai": 44,
     "staged": 2
   },
   "staged_hist": [
