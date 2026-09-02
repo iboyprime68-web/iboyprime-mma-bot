@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Midnight Mania Highlights! Contender Series Co-Main Ends In 15 Seconds",
-      "ts": "2026-09-02T03:59:00+00:00"
-    },
-    {
       "t": "Highlights: Tigers at Twins (9/1) Stream of Major League Baseball",
       "ts": "2026-09-02T03:32:14+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "RATING Manchester City's Summer Transfer Window - Morning Footy Stream of Soccer",
       "ts": "2026-09-02T17:43:48+00:00"
+    },
+    {
+      "t": "Pro-Trump group releases first general election midterm ad",
+      "ts": "2026-09-02T17:34:00+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Morning Report &124; Joe Rogan says UFC should have stuck with Michael Chandler for Conor McGregor comeback fight",
-      "url": "https://www.mmafighting.com/ufc/508044/morning-report-joe-rogan-says-ufc-should-have-stuck-with-michael-chandler-for-conor-mcgregor-comeback-fight",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-09-02T12:26:57+00:00"
-    },
     {
       "title": "Anthony Smith booked for Gamebred FC headliner after recent arrest",
       "url": "https://sports.yahoo.com/articles/anthony-smith-booked-gamebred-fc-120409549.html",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-09-02T17:43:48+00:00"
+    },
+    {
+      "title": "Pro-Trump group releases first general election midterm ad",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQmZRMUtMdFpYWUlqQnNQaFU3UTIwbkkzTzVpLTJUNkhQam51RnhlWnZ0Zl9XM29oYS1TUWF2VlBaVDdCS3NfcE4zeUQ3RTlYTVRPY2YtbHdVNng4cC1zaW51TEJUYU9iTlV2eUluSVp6ckVIbU1DNmR3bGp5eWZRc19nUDUxbEhVck5GRGwwQWktZFZGX2EwTjJmVDBiZnBqN3MyT3dHRFnSAa4BQVVfeXFMTXR0M0JHRXNqRFMwZFFzM1VGRXRWRW1UdExkYlE1amxiOUJCUWJRZWVRQnhpSXBOQmRhSHB3dWUzNVNyQlZhM0s4R1VNYjByX0hPTDA4RlFYbVdqeEd5bWN5V3pweEd1YWlBV2gzTlY3QW1DNGtsdEg3R1BZWDJuVlhVZkZ5WkhiWUl4MTJHUVJUaXBpTjFMeGVsNnczOEJZSnBBWFFpMGo4cUwweXVn?oc=5",
+      "source": "The Hill",
+      "cat": "ufc",
+      "ts": "2026-09-02T17:34:00+00:00"
     }
   ],
   "digest_last": "2026-09-01 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMidkFVX3lxTE1yazkyeGlYeDc2cFNsdEEzSlNZbWx5cnhvLWF2UllrNlgzclE0NVNwQVlTZmlCWEQzVXE4OHpmd0NCMEJfcEhPaFpIN3ZDNVJwVkw4dDVGcmI3dGtjT2VXOW1hNkNxcGV6SVhNUWZQV1hKSzVUYUE",
     "CBMieEFVX3lxTE5EMnVqVk5ZLU54VTlyMkFZbHktX1Q5MDhXU3c5YkctOVNZQTNuV3dISEt3bC1HbFkwbkFsR0RQQzlkMng1b1lVcm5vQ0w0TWpTWHpzYnFvWVhuQkh0MGdGelFlNnl3Wi1iWWFWdlpETE5EOWE1NmlTSA",
     "CBMixwFBVV95cUxNTXA1N2I1bC03QnZxVDh4OFpkZ1RFY3VoUTh1TTJuMFhwb0p2TzJHdEUwMFNCN25FLS1vbmh0SHZBWm4xaVlxSU11MTNLSFRWMEpsa0RaU05OYzFBYWpRY2VFZGU5UlBDbTFFRFkxVzlZRDQtRE9XSUFhQW82Qnl4MWZLWGtJeUd6djRUa1lOMFZ5ZXNNVU91Mm9UQXZGZXFUOFAxc2JGVmE4UUZmV3JRQ2ZZS2wzZUllQi1PcTNQQ1pRMUZyRmpF",
     "CBMigwFBVV95cUxQU3lKMHczWC00YUo4Q3I1dGQwS0pfM0dLdE1BMGhGb1dabWxjSndJRjVHUkxtM1JRYjJtUzVPVVVBNmM2SjFMNUxwRlhQMnlMT1ZXNEVJSUFHNGFtYXo1QjdweVRIREs0d3JTN1RfQkVXN0pmWmRPMmRFalhfTjZzdDlLRQ",
@@ -3312,7 +3311,8 @@
     "CBMiqgFBVV95cUxNOTYxcUJCRzhtc2kwMk83TWVSVW45ZmRXVl9sUDVDQWxYaTVwWHhkMUg2YjdZWEFvZUk2T3FETGd0SGs5MjZOdnZFUVVjVG1sVDBudUx3OGZzalBjMk43ZG1kS3JXR1FNYURjSGhsZmJadHM0Z1B0amI0ZHdYYUxQNW5yblVfRnBBTWdJUmR6alpkRHBLdjBEalBlWlpEYXdVNmV5UDBUS0prZw",
     "CBMibEFVX3lxTE1paFl2MXhJcGlqZVYwcElmSm53OUV5bS1wakU1U1NjWFR0WF9CVTc4T3NaQk1GMnUxMFd6YlNpYjZKRzVRamUzSXd5T25QUW94b24yWnhlaUkzeHpPZlZmZy1FMjkwNEJOMkN6Rg",
     "https://bloodyelbow.com/?p=329980",
-    "CBMiqAFBVV95cUxQZDlhTHdmTk9VcThVZjFvRFgxRmtfWU5Lc1B4MjFNWEdNS1QxQ3ZIN2Z1VHNXOF9lT1JiNXkxWVo1blJibENWS3YwQndWNTJUYnVHSkRxeFZZU2otRFNKRk4tdGhXTVBZX1ZPMTlRb3laMjg2eldkQmV2SlRTa2FqNkpBUGszeG4zbEdlUENjUlVXRHV0RWQ3S0tlNnVvN1JGajU3cHVPN2U"
+    "CBMiqAFBVV95cUxQZDlhTHdmTk9VcThVZjFvRFgxRmtfWU5Lc1B4MjFNWEdNS1QxQ3ZIN2Z1VHNXOF9lT1JiNXkxWVo1blJibENWS3YwQndWNTJUYnVHSkRxeFZZU2otRFNKRk4tdGhXTVBZX1ZPMTlRb3laMjg2eldkQmV2SlRTa2FqNkpBUGszeG4zbEdlUENjUlVXRHV0RWQ3S0tlNnVvN1JGajU3cHVPN2U",
+    "CBMiqAFBVV95cUxPQmZRMUtMdFpYWUlqQnNQaFU3UTIwbkkzTzVpLTJUNkhQam51RnhlWnZ0Zl9XM29oYS1TUWF2VlBaVDdCS3NfcE4zeUQ3RTlYTVRPY2YtbHdVNng4cC1zaW51TEJUYU9iTlV2eUluSVp6ckVIbU1DNmR3bGp5eWZRc19nUDUxbEhVck5GRGwwQWktZFZGX2EwTjJmVDBiZnBqN3MyT3dHRFnSAa4BQVVfeXFMTXR0M0JHRXNqRFMwZFFzM1VGRXRWRW1UdExkYlE1amxiOUJCUWJRZWVRQnhpSXBOQmRhSHB3dWUzNVNyQlZhM0s4R1VNYjByX0hPTDA4RlFYbVdqeEd5bWN5V3pweEd1YWlBV2gzTlY3QW1DNGtsdEg3R1BZWDJuVlhVZkZ5WkhiWUl4MTJHUVJUaXBpTjFMeGVsNnczOEJZSnBBWFFpMGo4cUwweXVn"
   ],
   "daily": {
     "d": "2026-09-02",
