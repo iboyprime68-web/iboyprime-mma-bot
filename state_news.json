@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Javier Mendez Has Three Names in Mind for Islam Makhachev",
-      "ts": "2026-09-01T20:57:48+00:00"
-    },
-    {
       "t": "Will No. 3 Georgia Cover -47.5 vs. Tennessee St? Stream of NCAA Football",
       "ts": "2026-09-01T20:04:31+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "White Hands UFC Deal To Rodrigues After 15-Second KO",
       "ts": "2026-09-02T04:00:55+00:00"
+    },
+    {
+      "t": "Dana White responds to Justin Gaethje retirement rumors after UFC Freedom 250 win",
+      "ts": "2026-09-02T03:59:00+00:00"
     }
   ],
   "digest_items": [
@@ -2110,10 +2110,9 @@
   "digest_last": "2026-09-01 21:30",
   "hour": [
     "2026-09-02T04",
-    2
+    3
   ],
   "yt_eval": [
-    "66a117da-3887-36ce-9bc8-df025589bd9b",
     "6bf664c9-b54d-41a5-9120-723f02b9080f",
     "c6198090-8c13-3033-bfa9-6b51cefba879",
     "CBMie0FVX3lxTE5rLXd1dVNsRTFFRERjV01na2pWLUNQalA5RnhJMFhFQ0prdVRJVFRucUdVVkNNd3JzOExfME52YVlobWs2NHFPZVpLVDhUenYtd0I0Ym1taVFjT2tkU2VWZTNOTmthSGYyWkZ2N3NQdWJKQ3FoVW9jbDBfOA",
@@ -3312,27 +3311,15 @@
     "CBMifkFVX3lxTE84Q01pYkh4RXdEMWRYenVCbm9OZTVXdjJsOGptWEYwbUU3NEFSbDE3dzJSSVNDNmFZa0pOSEtqZVh5bm1ibWswQnBwbFdWZ2xPZzMzWGQ1clNpUnZiQjBKY1NzbWExenlSTldaWVhkSk9wdTNXTWtOU0JlMURhZw",
     "https://www.sherdog.com/news/news/New-UFC-fighter-predicted-his-signing-8-years-ago-UFC-or-nothing-else-202623",
     "CBMi6gFBVV95cUxNa1ZLS0puTHJuN0JZQmRMaGYzckp6bXJuSjhXLVBkeG93WWVaZElhdU53QWN1X3dEMEVjcDV3NkQyeDU5R19mV21oU28xbzdiWUlKbGFIMklXY21jVDhtN3J0Tmc4S2FRWExYeU5PWlU3Ung2ZXlvMzRieTV4bmppblZ3aVZFMU9pWDJOU0ViUXJsakRWZFc1YVhIVkY5eG4yTjZCTlgtdnlmeUY5dENHSXA5ZFQ1dktCUU5JbnV4Nk5GRW9vNW9QZEJ1Z0dUWC01bExGVUctOS1GaXlNVDlmQjhYVVFYNXBLWFE",
-    "CBMibEFVX3lxTE5fRnlqR1VleV9HTWZTWUhOWHotWFM4T3dtV25KbEJOX1MxWHFqdWpuNGpfMlU3dU1iMkJUSmQzeWRBQ1p0ZDJlcWVWQkNMbmZHTDh3MnhVNzFUUTA5MzhFcXJKUWplU1NtUzhpSg"
+    "CBMibEFVX3lxTE5fRnlqR1VleV9HTWZTWUhOWHotWFM4T3dtV25KbEJOX1MxWHFqdWpuNGpfMlU3dU1iMkJUSmQzeWRBQ1p0ZDJlcWVWQkNMbmZHTDh3MnhVNzFUUTA5MzhFcXJKUWplU1NtUzhpSg",
+    "CBMirgFBVV95cUxOd0s4NXRMUlZmal9LdHdjZERVcmk3dDVISHFhUXpvNDRZRXkzMnpjd2NoVkJJNE40anpjc1BfV2FVOHVTbFowdFBNeE9GbTQxdUIwU2ZDcTM1V3NsYkwtei1xelVJQU1GQnhHazdxMDZvV20wX0lwVjlneFdqSHBUcTBrWjJiREpNT3dNYUVmVm55YXNER21fWXN3MkRva3dJa1I0X1BnV1VnTUdILUE"
   ],
   "daily": {
     "d": "2026-09-02",
-    "ai": 35,
-    "staged": 1
+    "ai": 36,
+    "staged": 2
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-26T00:21:43.072469+00:00",
-      "t": "Charles Oliveira Calls for UFC Rematch With Justin Gaethje",
-      "names": [
-        "charles",
-        "oliveira",
-        "calls",
-        "rematch",
-        "justin",
-        "gaethje"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-08-26T01:39:16.124647+00:00",
       "t": "Dana White's Contender Series Season 10, Episode 3 Highlights: Alex Apodaca Scores Record-Breaking Upset",
@@ -3749,6 +3736,16 @@
         "shevchenko"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-02T04:05:53.842869+00:00",
+      "t": "Dana White responds to Justin Gaethje retirement rumors after UFC Freedom 250 win",
+      "names": [
+        "white",
+        "gaethje",
+        "freedom"
+      ],
+      "img": "cutout:justin-gaethje"
     }
   ]
 }
