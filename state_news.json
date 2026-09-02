@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS 90 Staff Picks: Welterweight Prospects Collide",
-      "ts": "2026-09-01T20:47:50+00:00"
-    },
-    {
       "t": "Contender Series miracle: Liam McCracken fights for UFC contract three years after horrific bus accident",
       "ts": "2026-09-01T20:58:27+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Dana White not willing to admit Kevin Holland as the $11 million dollar man",
       "ts": "2026-09-02T03:33:34+00:00"
+    },
+    {
+      "t": "Highlights: Giants at Pirates (9/1) Stream of Major League Baseball",
+      "ts": "2026-09-02T03:53:26+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Bengals' Defensive Additions Will Make or Break Season Stream of National Football League",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY1pRaVJRNkpUcko4eEZONEg0aDN1NmlPamgteXk0SW53VWZaUkZ4bng0Q1Z6Z3gyTENOaXlaa3RNZ05aaVFjY29KbUNwRkdNMnpCRE9OcWJxQzBtYUNTUkR6YkpiUzhJLXg3NENwd3lxNER2V1hlTEdoSjF1XzFFRUpGUkFxWFFFNk1ZSVdsWmxrLVZCMTE3VllUcw?oc=5",
-      "source": "cbssports.com",
-      "cat": "ufc",
-      "ts": "2026-09-01T23:04:56+00:00"
-    },
     {
       "title": "Will These Clubs REGRET Their Transfer Window? - Scoreline Stream of Soccer",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMU4zdWNvMlQxLVUyT3pORm1uT2pvYUJackFsd3VXTWRrTjZuRmlMcVI2U1JzZnpnT3QwQ0xHRW5FY01qcGJ6aGVjVDRCZjV1WFExWjNfTmY2eUxDTGNXcko0OXVPWGZZLV9zRWZwRWtKbk82dHdGeE43bXhtcXB6UmNtRUQ4QVJvREFoOXRGSF8tNW9HQWk5VTlLZjJhR21heEE?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "MMA Junkie",
       "cat": "ufc",
       "ts": "2026-09-02T03:33:34+00:00"
+    },
+    {
+      "title": "Highlights: Giants at Pirates (9/1) Stream of Major League Baseball",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUDdMYkhIbEtTR05vWkNwSFR5dWJNMkpFb0tBeTlVWXF1X09EMHM3Z1o4cGtLS1RBRlg5UHRBS0xtaXhqZHJIQzdJTDJrTUZ3NUxHczhLQlZFTnRCT1R1aWNGZ1ItTlZZcmxXemxIREZva2ZkYWZqa3pwRFpGU3IzX1liai04NkpzemYwR2xORkY5LTVPOE5PNA?oc=5",
+      "source": "CBS Sports",
+      "cat": "ufc",
+      "ts": "2026-09-02T03:53:26+00:00"
     }
   ],
   "digest_last": "2026-09-01 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMigwFBVV95cUxPcUExa2xMbDlUWWk0UUhRbUtLME5WRlBNSEJnWmllaXNtQ1FETVQzZVItMWJqMzJnNEFhNGRnMVVrS2FVT3c5RDd6SW1vLU9RZ0txUmthaGRWMWRINl9KdGVWTjF0U1dYTE1ROHlWdnB0RWttYWJncGRtcXZ2N1F4X3g4dw",
     "CBMidkFVX3lxTE5ral9nUDlQMTNBTFVJTmJQLVUwR01CN3RYekIzc2RpWk9ka19RemFJa0drbTc4TTRIaEJsOEd1TUZhV24yS195Y0xpZ2VlOHhUekVkTWFLc0NCeHE2dzhmSGczc3dWYUpDMnBERnRLd19welc2UkE",
     "CBMizwFBVV95cUxNUVZtOGJJdjRJSXdmV0lScW82UVEtZk9CNGtCNTQ2azBuUEFXV1RXd2ZCcWV4N0l1cGNORHd3blB2bmZGRTBJYW9ub3A0c1YtV3FZeTUyMzBibFlsb0ZIR1dCYlplck9YNThkZUNOa19maG5sREEweWVXVEE4NFBkZ0FLTjNSOEotUFJIb0tkb1NsSmtCVGt4X1lBTzNXb2FVemxkeG5kenVDZjEwZXpzc1dDTW1Ya2RGNkhNc1ZCYmlNc29KR0M3aUhfc3VtZ1U",
     "CBMiZ0FVX3lxTE1oelFwRDNPa1FQalIxS01RNW9Ic09DeFFPTjRkeElqVWY0N2UzRHVjYUpxUDlEb1VKeE1FbzRjSUVTbDUtS29IUDlyY1JJSlVWM0ZCYy1SWWQyZE1xQTBnQUQ1WXZjQTQ",
@@ -3312,11 +3311,12 @@
     "CBMi7AFBVV95cUxQSnExTGhBWUlnTTlNR2dGSVVqdGhyay1mSlM2SDhaT2ZqWk1wN1RDTk03R0JVdFRsdzFRLXNOdUtPT2M1Qjc5UmRTN2Rwc1UwRV9ZWGUyRGx3aTZ4TVpkWjI5M0xJd096OVFXSFZSZEZhUlhDZUFQQjZ1eFA3RjU2cnFXRUhXcl9IQUtkd1lfWmFzRmV0OGx4UHRUNVduNExWMzB4b0lGT0xHMGFTZzREX1pkbVJEaHJ2NG1YcDNTQlVqUS1IMVNnNkFWQ3pScDVMZ1hTU1laRG9SSGY0NXZfSFdCODVUam44MGtkTNIB7AFBVV95cUxQSnExTGhBWUlnTTlNR2dGSVVqdGhyay1mSlM2SDhaT2ZqWk1wN1RDTk03R0JVdFRsdzFRLXNOdUtPT2M1Qjc5UmRTN2Rwc1UwRV9ZWGUyRGx3aTZ4TVpkWjI5M0xJd096OVFXSFZSZEZhUlhDZUFQQjZ1eFA3RjU2cnFXRUhXcl9IQUtkd1lfWmFzRmV0OGx4UHRUNVduNExWMzB4b0lGT0xHMGFTZzREX1pkbVJEaHJ2NG1YcDNTQlVqUS1IMVNnNkFWQ3pScDVMZ1hTU1laRG9SSGY0NXZfSFdCODVUam44MGtkTA",
     "CBMilgFBVV95cUxOYzVpV3diamxXOTd2QTk0Nl80ZDMwY0VBRWxQRFZoemxBcGxPRnR6bjBHbTNyblNycmlReV9senV2UGh1bG16MGVaOUxhRlJhaFBsYldiWTVnQjdwVzBLRi1hTG84MVV0RmRVdlVNQlY2WENWaFVqRnE1NUpIS19oeWhSMDVldi1kYVp6QVdZeXB0a0d5WWc",
     "CBMinAFBVV95cUxQVE5XRWxFb1JHNEdLUFJJYUVROGNzM3hjazFNNkxwdjBSR3pjdWJJZ1E4eHpSUk1NQnlVVzJFYlpiSGpqTGEyUkd1NWJ1OWZOZGIyMWlxZGVOdVhJVjBxR21uVTRwMTZ4MTVPcHdxbzJkelllQkNibmNPalV4VWVkWllUT2djZ3M2UHpXSEtsQ0FIYWRsTVQwT0hTbVI",
-    "CBMi4AFBVV95cUxNS0htNFNRT1d2Y1EtZ3VMT2xmaE5rUVVYTWN6d3h2Z3Y5NG4tcjh3dllPQTgzTWdFTWd4dGU4aUtqRGc1M25OQXdSWXJ3M1FZSDZqTUpZU2p1TGh3UnZKd3ZpcmlnVkcyWUNSS2lVMnJNUGtsYmxSY1JBMGsxQ1pqS1NGWHJiejN0TEt5M0FPd1NLSzFNUDlKU2xBVzJ4eUpORWJ3OUtwQmR4QWtJN3FsQUgtdUtrcWJaUW9XamZoM25jd1RRcWNsVkNMRm5IUF9YYjYtMHRUSDhkbVBqTUZLZA"
+    "CBMi4AFBVV95cUxNS0htNFNRT1d2Y1EtZ3VMT2xmaE5rUVVYTWN6d3h2Z3Y5NG4tcjh3dllPQTgzTWdFTWd4dGU4aUtqRGc1M25OQXdSWXJ3M1FZSDZqTUpZU2p1TGh3UnZKd3ZpcmlnVkcyWUNSS2lVMnJNUGtsYmxSY1JBMGsxQ1pqS1NGWHJiejN0TEt5M0FPd1NLSzFNUDlKU2xBVzJ4eUpORWJ3OUtwQmR4QWtJN3FsQUgtdUtrcWJaUW9XamZoM25jd1RRcWNsVkNMRm5IUF9YYjYtMHRUSDhkbVBqTUZLZA",
+    "CBMimAFBVV95cUxNUDdMYkhIbEtTR05vWkNwSFR5dWJNMkpFb0tBeTlVWXF1X09EMHM3Z1o4cGtLS1RBRlg5UHRBS0xtaXhqZHJIQzdJTDJrTUZ3NUxHczhLQlZFTnRCT1R1aWNGZ1ItTlZZcmxXemxIREZva2ZkYWZqa3pwRFpGU3IzX1liai04NkpzemYwR2xORkY5LTVPOE5PNA"
   ],
   "daily": {
     "d": "2026-09-02",
-    "ai": 41,
+    "ai": 42,
     "staged": 2
   },
   "staged_hist": [
