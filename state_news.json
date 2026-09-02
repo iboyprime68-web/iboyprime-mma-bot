@@ -1205,14 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Song Yadong breaks silence on Usman Nurmagomedov interaction inside the Octagon and elbow debate",
-      "ts": "2026-09-01T14:00:00+00:00"
-    },
-    {
-      "t": "‘I will honor his name’: Chute Boxe pays tribute to late UFC fighter Allan Nascimento",
-      "ts": "2026-09-01T15:34:43+00:00"
-    },
-    {
       "t": "Bella Mir: Mother 'raging out' after DWCS loss 'protected me'",
       "ts": "2026-09-01T22:00:33+00:00"
     },
@@ -1683,6 +1675,14 @@
     {
       "t": "Finalized RAF Moscow card, start time, date and location &#124; Khamzat vs. Woodley",
       "ts": "2026-09-02T21:24:52+00:00"
+    },
+    {
+      "t": "UFC Paris Delivers Exciting Prelims Labor Day Weekend!",
+      "ts": "2026-09-02T21:29:47+00:00"
+    },
+    {
+      "t": "Vera Opens Up On Mental Health During UFC Skid",
+      "ts": "2026-09-02T21:30:40+00:00"
     }
   ],
   "digest_items": [
@@ -1699,6 +1699,20 @@
       "source": "MMA Mania",
       "cat": "ufc",
       "ts": "2026-09-02T21:24:52+00:00"
+    },
+    {
+      "title": "UFC Paris Delivers Exciting Prelims Labor Day Weekend!",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSEdGTGJydUtNRDMycU9NTUx1UFlFdS1VTjJjRFgxdjVUaWVZSkYySk8yMDM0Yy1JXzc5eW9EZU5KNGppcXhTazdDZXhXakZqRTNXRnpHLXNXSUpheGNXQllFOHUyX01tQWNHVmt1cGJXMmZpVHRzbGJoM1NjZFlwLTJsTmhHb2hyRnBZbw?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-09-02T21:29:47+00:00"
+    },
+    {
+      "title": "Vera Opens Up On Mental Health During UFC Skid",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBPVVdZZ29KbUw2X0YxWDNING10OTllbXowc1RqcUFIcEJjSnVqalc5TU9jdGlCMXFmeTVpZXdQR2pqaGJfSE9NcGg2YlhmSGpfOVliRU1NYWNxU2V4Wk9TWGRkRFRfMFV5cUtYUUlhRVBnaHMzZE5uTkVKWUU?oc=5",
+      "source": "boxingnews.com",
+      "cat": "ufc",
+      "ts": "2026-09-02T21:30:40+00:00"
     }
   ],
   "digest_last": "2026-09-02 21:30",
@@ -1707,8 +1721,6 @@
     6
   ],
   "yt_eval": [
-    "1ddf6d12-c60f-3655-be89-97270cf407e2",
-    "e64e01cd-f153-3674-b532-2cc969fcdc35",
     "CBMisAFBVV95cUxPa1ZJbUtoMjllQ0xpd3NWa0tkSWY5eHBDaGthU2xyd2xsZy1Tc2xMRDRBbmNOQWZuQ1R2X2tmdjB6cHM5dmN4aVFpY3lWVVFySjhYTVk0SlBsa2dUYVVrSldRQXo3VFpCUVdjZTg5N2x5WmdXSkg4R0cxbFYzSW9KWWJOV2xMbFNLM3ZKQ0hwelNGSnhydEs2alY2SzNDOGJpRjhmdXhOQk40OTE2aGRkMQ",
     "CBMisgFBVV95cUxOUEpoVkJNV1IzOHVxUVRVNmNaYXh2Z0NEVVZVQTY4TDNqVlRCeDBmZVAxU0hHZmFiRG9yS0lOY2Zua1k1YmFTWmlvcXFDdUdmaVlqVVcxTFNzdFRKWVlHWVNMZjJlNHBJT0FvSlFsaEpBV21QSVYtdWZpQzBITGRPUXpfUU8yVFZVY1NMRnk2TVRPNk9nNFdmTURRT25TVmZwanFTOWZNeW82enhvdWFVVVVB",
     "CBMi1wFBVV95cUxQSUhjU29ZUHFocDd0blRhRjZqcEJYLWVnRG42Nm9sVnhQTXNOQ1VHSUpMUUsxdU9DdDl6X1pSZm01Zm5QamN6MVc4TWI3VklUYVpWNDV3S2Z5MlRoVFpNZFM4RHV0cGc2dm9DMGhHZzVkUGo3dUN0UUtjWl9KbVNXaHpfZUpNUTF5YWZ1MllVSkRSNVE2dW03aUFackdtcm5RQzAzdkRoTEtPeVlEdWZQdk9Iak1vMmprOW1IakxVRWtwYVU5a1BTTWp2N2xJM1c0UzR5V2VLVQ",
@@ -2906,7 +2918,9 @@
     "CBMi0AFBVV95cUxNT2RicXpNV2ZCNmxXR25HcEYwMW8wSTY1blRzZGJUX1FONWthMWw0X0F5dWFoNm1hUkp1T2t4eWo2ejNvdWdSUTVuMEx0ZGx4NkVrbV90b0FVWjluWFplNjFqWkdJLXpBdk9FaExUNWdIa19YeWVoUjJqV2dmMi1qQW1fRTJValRValBBTWFrU0V5TFFEY2p5UFh1Vm9Yb0NYMkViYWJxVFAtTDdKT05zcXRJMmNQQmRPWXBORUFmbHUxTHJKaWktaExvRTI3andr",
     "66ea4e2c-c740-3872-8b5d-d473b60aadb9",
     "CBMigwFBVV95cUxOYmtmYnA0U1NPZkdlUE5aZWpra2xIa2h5WFZPOWM3aURmbi1GTG9hVDFfOE85dTYteEZfdVdJOWF5ZlpYMnA3OERJOGk0NS1CanNDSjI1eGdNZHRxMUVyXzd3dFRfMEE3b0NtSlQ4cVBsU3RfaXpzVWpUQWNyRm1MaWpNNA",
-    "https://www.mmamania.com/?p=469159"
+    "https://www.mmamania.com/?p=469159",
+    "CBMijAFBVV95cUxNSEdGTGJydUtNRDMycU9NTUx1UFlFdS1VTjJjRFgxdjVUaWVZSkYySk8yMDM0Yy1JXzc5eW9EZU5KNGppcXhTazdDZXhXakZqRTNXRnpHLXNXSUpheGNXQllFOHUyX01tQWNHVmt1cGJXMmZpVHRzbGJoM1NjZFlwLTJsTmhHb2hyRnBZbw",
+    "CBMifEFVX3lxTFBPVVdZZ29KbUw2X0YxWDNING10OTllbXowc1RqcUFIcEJjSnVqalc5TU9jdGlCMXFmeTVpZXdQR2pqaGJfSE9NcGg2YlhmSGpfOVliRU1NYWNxU2V4Wk9TWGRkRFRfMFV5cUtYUUlhRVBnaHMzZE5uTkVKWUU"
   ],
   "daily": {
     "d": "2026-09-02",
