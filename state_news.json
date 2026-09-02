@@ -1,7 +1,5 @@
 {
   "seen": [
-    "https://www.mmamania.com/?p=455595",
-    "https://www.mmamania.com/?p=455601",
     "https://www.mmamania.com/?p=455609",
     "https://www.mmamania.com/?p=455716",
     "https://www.mmamania.com/?p=455773",
@@ -680,6 +678,8 @@
     "https://www.mmamania.com/?p=468991",
     "https://www.mmamania.com/?p=469025",
     "https://www.mmamania.com/?p=469060",
+    "https://www.mmamania.com/?p=469092",
+    "https://www.mmamania.com/?p=469099",
     "https://www.mmamania.com/?post_type=vm_stream&p=456381",
     "https://www.mmamania.com/?post_type=vm_stream&p=464934",
     "https://www.sherdog.com/news/news/27fight-UFC-vet-bonus-magnet-signs-with-BKFC-to-compete-at-Fenway-Park-201658",
@@ -1205,18 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Dan Hooker willing to welcome Usman Nurmagomedov to UFC because 'no one else will'",
-      "ts": "2026-08-31T23:40:28+00:00"
-    },
-    {
-      "t": "Nathaniel Wood Draws Undefeated Newcomer at UFC Paris",
-      "ts": "2026-08-31T23:42:30+00:00"
-    },
-    {
-      "t": "MMA Junkie's Submission of the Month for August: A surprise Scottish Twister",
-      "ts": "2026-09-01T01:15:15+00:00"
-    },
-    {
       "t": "Jiri Prochazka Teases UFC Fight News",
       "ts": "2026-09-01T03:29:58+00:00"
     },
@@ -1683,30 +1671,21 @@
     {
       "t": "UFC Paris: Michael Page addresses final fight on current contract",
       "ts": "2026-09-02T13:20:15+00:00"
+    },
+    {
+      "t": "UFC ‘Contender Series’ results, live coverage and full fight highlights (5 Contracts) &#124; Season 10, Ep. 4",
+      "ts": "2026-09-02T01:32:30+00:00"
+    },
+    {
+      "t": "ADCC 2026 fight card: List of confirmed BJJ stars invited to the ADCC World Championships",
+      "ts": "2026-09-02T09:56:11+00:00"
+    },
+    {
+      "t": "Anthony Smith books Gamebred Bareknuckle MMA fight following felony domestic violence charges",
+      "ts": "2026-09-02T12:12:16+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Muhammad Mokaev answers Dana White's challenge in push for UFC return",
-      "url": "https://sports.yahoo.com/articles/muhammad-mokaev-answers-dana-whites-041908291.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-09-01T04:19:08+00:00"
-    },
-    {
-      "title": "UFC Paris preview: Start time, full card and how to watch Salahdine Parnasse’s debut vs Dan Hooker",
-      "url": "https://bloodyelbow.com/2026/09/01/ufc-paris-preview-start-time-full-card-and-how-to-watch-salahdine-parnasses-debut-vs-dan-hooker/",
-      "source": "Bloody Elbow",
-      "cat": "ufc",
-      "ts": "2026-09-01T05:00:00+00:00"
-    },
-    {
-      "title": "Arman Tsarukyan wants ‘at least 5’ lightweight title defenses to break Islam Makhachev’s UFC record",
-      "url": "https://www.mmafighting.com/ufc/508050/arman-tsarukyan-wants-at-least-5-lightweight-title-defenses-to-break-islam-makhachevs-ufc-record",
-      "source": "MMA Fighting",
-      "cat": "ufc",
-      "ts": "2026-09-01T17:02:11+00:00"
-    },
     {
       "title": "Caio Borralho Calls for Fight at UFC 334",
       "url": "https://sports.yahoo.com/articles/caio-borralho-calls-fight-ufc-054841611.html",
@@ -2105,6 +2084,27 @@
       "source": "Yahoo Sports Canada",
       "cat": "ufc",
       "ts": "2026-09-02T13:20:15+00:00"
+    },
+    {
+      "title": "UFC ‘Contender Series’ results, live coverage and full fight highlights (5 Contracts) &124; Season 10, Ep. 4",
+      "url": "https://www.mmamania.com/ufc-contender-series-dana-white/468987/ufc-contender-series-results-live-coverage-and-full-fight-highlights-season-10-ep-4",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-09-02T01:32:30+00:00"
+    },
+    {
+      "title": "ADCC 2026 fight card: List of confirmed BJJ stars invited to the ADCC World Championships",
+      "url": "https://www.mmamania.com/bjj-news/405991/adcc-2026-fight-card-list-of-confirmed-bjj-stars-invited-to-the-adcc-world-championships",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-09-02T09:56:11+00:00"
+    },
+    {
+      "title": "Anthony Smith books Gamebred Bareknuckle MMA fight following felony domestic violence charges",
+      "url": "https://www.mmamania.com/latest-news/469099/anthony-smith-books-gamebred-bareknuckle-mma-fight-following-felony-domestic-violence-charges",
+      "source": "MMA Mania",
+      "cat": "ufc",
+      "ts": "2026-09-02T12:12:16+00:00"
     }
   ],
   "digest_last": "2026-09-01 21:30",
@@ -2113,8 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiqAFBVV95cUxNTjlkZl9TN2NGUDBpTmVKaTFCbW5zdWdlWER2U2RiQXR6bFMtLXdkSHlBSV8wb1NIejJVVU9FVHdsUTJPSGgwTnBJdDgtajZIdTZyYnJYUVBjM0ZZaWtMa2FHeXZvc2JQWFFUdTZxZTFLNFRVeVpmUHFXeEk1c1p0Q1BsV3dVZ3dSVmRXWFNfLThFajk3X0R1Xzg5QktGbmdSYm1EUDY2S0Q",
-    "CBMiwAFBVV95cUxQcGtkRlFKZF9Tb05xVFdMd29lNUw3TWNZTXZRa0Y0Z1FNOGdJa1c2bXlhZ212VWFRWEdub3JRa09qR0lTZW9xWEY4OWY3bUNZY3BDaUdRcHBTenZVbXBjcFNRWWtFSlpZeF96Ni1xS21GOE5BWDBmLW9OSFJBTE1Lc1hpbk5fR2xYZnp2R2RYTFhTWTVnNXRkQTZ1RlJHTVZOemk4MjdyT1g5N093T0hzWkxyOHYyVDBvZGNHVUxfQmE",
     "CBMizgFBVV95cUxQSXhqTmNmc1JrcVlHaFZMMERvN1dORTdiN1hFT19KZU1ma2VXQmNHaW42MnJtQ2ZJUGRxR3hoVTFWaUIwLWxwUzFvV3FYU0hZWk82bzVXVi1lRmNKWkRMWHk2YklzZm53bHV3VnJVbzlUbGZwUTFLNGV2amNSaVpaTVlzVGp0bFNpbTQyMmljTkNEYUR2TUk0Q0FHS3B0MXBkdGJkSTFiRDRyQmRXS3BVWVREbFkwbERJRmlYN05jQnB6LTNwVHRxY0VfUFRrdw",
     "CBMiugFBVV95cUxPRnBPZ3pxeDJTdzVobTF1Um1WRU5XYnlSZS1VQlRrWHJNaTBPZ09FNm4wR3ZaaFNib0V3UjB6cnVYY0t2VGJjbUdFZHlKUWotdUlHTDNVNk9aRnJXdWQ3XzBCbkE3bHBwNzdSTU9sWHRMOFBVZThmX0JmQnlENGhLUWdkQTcySFhEQjFQUjg1OWc4RjZTdXYwTl94YWpGTnB4ZXVHLTl5T3hwMkRfUFpMODN4d2pPR25YSFE",
     "CBMi0wFBVV95cUxQYmo4Q09vTjlYSEhEOHRyZDg1OFdCR3hIbHcyQl9XUmFGVTRBeTViNHRzWXJJTjRETUdZaXRLNmZJd3lwODM3OEtFSnhVWXhlNmNjNXJyS2p1VGxpbHFFaWFDV19MYVBib3NjQVAxVzZQQVpTQ0xEZVdjU3htMDlmRDR2ZHZMS1BWUEwyS2JkNEh5ek1lT1dZbW1NRnZ4dGZES3NVMXdMLTNRQkEzRTBzSWI3aS1FbVhnZEdHaW05SXFUT1o1SDN4LWVMZFdiOWxSUXIw",
@@ -3312,23 +3310,16 @@
     "CBMivwFBVV95cUxOTjl4TXZQckZFZk1yd3RNQWR6LU9DUmpnXzZUYWM0M3lscXFMYmJQaFNReG1TaWVndFZ0bHg2TEE4VF94bjVGVW5ISERRU0RRTTAtdGhrOTVoR0R3SkN5a09HWW5ldFBabENVZUQ2YWljZzhPSlphbUdIN2NLSVI0Z01NYnYxOVV5OHZTUlJJRmNqdmVZaVdiMW4wTUxaQURMWXk3RVU2eE92bklwQnRFcnVCVFA1U3owbTdHWUJjVQ",
     "CBMingFBVV95cUxPa0p1RXE2ZjBZcnJCanVhbW1mNGFCX1lyR1ozdmVEbVhwWE9UdHA3QmpaMnFUZWZVVWF6VWtfM1plYWNSZ0pvbnVMSkpib0MydzBrQXpIRDNiRXNyXzh3Sk9vNmJsZHRiQWVZWXVGUWpnMm5fa3YxMUhMVXYyd0tNT3Z6NjYyXzhXMVZiSm5BX1E5U09lV21yTDI4QkZsdw",
     "CBMiygFBVV95cUxOTkFzYVIzY0FNcHZaejJPaFAtMDctdmdhVnc0R191UE9LNjBNVEFhZ3F1aEU1eHlmSHA2RWl1a1VCMTN1UGdYOVZSRFVjYUdqZktOeDlTTE03VllrZnh2b0xjTlBBSzItNVNsbC1PYUlYSFRLU2JxdkJSZjFTSkszRWczaHRTSWJqcnhfRFZQNENtMHVpemM0U2pyT291aEFTVkUyUkVwS1duWGVFY0M0N3gyUXlDaDh2VXhYREZrN2RLMGMyR3lIQUVB",
-    "CBMiiAFBVV95cUxQVy1XQkx4cEhhQkJMMEdZdmFUSklIcUMzZEVrb01ITnU3c2djQm9HT21vV3c4Qlo0djZqT1ZZdkxWeldDeUlPUDBaeVN4RmdsZk9WT0FKeHR6empaNHJ6WTJJVXk5WVNvUHNnT0o4OE9TVUhZMXMzbnowUFdGc1NiQ2xLLVVzMGd6"
+    "CBMiiAFBVV95cUxQVy1XQkx4cEhhQkJMMEdZdmFUSklIcUMzZEVrb01ITnU3c2djQm9HT21vV3c4Qlo0djZqT1ZZdkxWeldDeUlPUDBaeVN4RmdsZk9WT0FKeHR6empaNHJ6WTJJVXk5WVNvUHNnT0o4OE9TVUhZMXMzbnowUFdGc1NiQ2xLLVVzMGd6",
+    "https://www.mmamania.com/?p=405991",
+    "https://www.mmamania.com/?p=469099"
   ],
   "daily": {
     "d": "2026-09-02",
-    "ai": 88,
-    "staged": 5
+    "ai": 90,
+    "staged": 6
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-26T03:13:35.837710+00:00",
-      "t": "Las Vegas native, hyped prospect, suffers one of biggest upsets in MMA history",
-      "names": [
-        "vegas",
-        "prospect"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-08-27T04:27:29.582607+00:00",
       "t": "Islam Makhachev reveals how many fights he has left before retirement",
@@ -3739,6 +3730,15 @@
       "names": [
         "ankalaev",
         "costa"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-02T13:30:46.010716+00:00",
+      "t": "Anthony Smith books Gamebred Bareknuckle MMA fight following felony domestic violence charges",
+      "names": [
+        "smith",
+        "bareknuckle"
       ],
       "img": "photo"
     }
