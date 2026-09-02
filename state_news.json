@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Brendan Allen, Christian Leroy Duncan collide in UFC Vegas 122 main event",
-      "ts": "2026-09-02T03:58:04+00:00"
-    },
-    {
       "t": "Alex Pereira coach Plinio Cruz and UFC legend Tony Ferguson join Deen The Great vs Henry Cejudo card",
       "ts": "2026-09-01T00:00:00+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "No. 14 BYU begins Big 12 title chase against Utah Tech",
       "ts": "2026-09-02T17:48:00+00:00"
+    },
+    {
+      "t": "Argentina villain Leandro Paredes hints at international retirement after 10-game ban",
+      "ts": "2026-09-02T17:06:00+00:00"
     }
   ],
   "digest_items": [
@@ -2110,10 +2110,9 @@
   "digest_last": "2026-09-01 21:30",
   "hour": [
     "2026-09-02T18",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMifkFVX3lxTE5oRFQ0ZkRqVk9uMFFrSEVLOTVfRTZPQU5EczhzMmhHalRhSUdhMmdRTlh4Zm1CdnJhNlU3QnNIY29YZUZnMW5xSDZMTGlWUV9SZkNRcU1DZDNlb0ZkQlk4QUJORjdqQVpPRWphUWtSR2g5RE5lS1JYMUFENW43UQ",
     "CBMinAFBVV95cUxQZnpzMnM0Tjg3emhHWUlTQmN0V1hsSGJVVWhhYmFMSFp2ZFdMRFVtbGl3Y3VrRVVMZm9tMkF4M2w0RnAyN2VZSXlFbS1peDNCRV9JY3M0SjlneUtGa19tQkU0TWFCUHdvRnRPTFBtdWZ2cGxJaVJsUnF0dkZOYUhlaUQtYnl0ZmlUbWp5OHl0ZXF1elEwRXB0Tmg1Mkc",
     "https://www.mmamania.com/467470/rolly-romero-vs-teofimo-lopez-full-fight-card-dazn-ppv-start-time-put-up-or-shut-up",
     "https://www.mmamania.com/?p=467540",
@@ -3312,7 +3311,8 @@
     "CBMirgFBVV95cUxNdHhVOTRSd2N4elVjSzNtWW1aZnhNaThwMU1PZlJEbVhNXzMtM29mT1VjNjhjRVg0X1pGdW0zeDhPWDFXWlVMdmNHaFVNZEZfaVFHVVBmWnpPdC1KTm55VHB4V2JMNXdGdmdzczV2QTdfVTNjZHBKZENpUlpQWVBBc20tT1Z2bmd6eUFheGFsU0VvNnlRTTdUQ25UZFlBcW9RTFNiaXBTanEyOVM5VlE",
     "CBMi1wFBVV95cUxOSE9HSmpIclByUWh5VVBNakxQc2JIb2FxR1dmRzhLcHJQTVJJLTlGR2t6UHFIWGctZ3k4UjkzVUVUYTVEWFB5YXhTMjBKZHJtd0ZPRjRDTGM0LUp0MzN2TXdWT0xtN0s0QnVTd0x5TUNwWDRKMnRKMEpnQ1ctYlZDT2pPOGd1S19ucGM3LWV1VEhWUHEza09iQjRMUWJRZDRORHNySDdaWEFIelNoNlFJZWNSQXdRNlJuZ2haVnp2YVQwRGNyRGRnVEFxM1FPX1RBTkN6YnNBZw",
     "https://www.mmafighting.com/?p=508288",
-    "CBMi9AFBVV95cUxQdFNGQ0xwS25FSk5BYzhBRHFXbDJodS1SUmJCTkRZSV9DZzZad01aSjRlSVd2eVhNWm9xVEFLSXE3WEdUeUZ3OFlsQTg0NUtLSV8tUVpNc0lNMWNtbVZENXFwSVVOamIzNTdTd0dDM09HMUloQXRFbVg3Zm1PQkRuQndjVl9YLWdZOXdpcmJMV2R1NmpfRHdrN293VVVlRFFuckhwcVMxaVdhZzUwSktielNJeGtwV3NJLWc2b18wT0l6TVNqU0M4aWk5dmFiT0JzRFQ5clNUeDFTdFJuckd2aktvZnhSbTNsQ0RUd1h5TzNCRjRu"
+    "CBMi9AFBVV95cUxQdFNGQ0xwS25FSk5BYzhBRHFXbDJodS1SUmJCTkRZSV9DZzZad01aSjRlSVd2eVhNWm9xVEFLSXE3WEdUeUZ3OFlsQTg0NUtLSV8tUVpNc0lNMWNtbVZENXFwSVVOamIzNTdTd0dDM09HMUloQXRFbVg3Zm1PQkRuQndjVl9YLWdZOXdpcmJMV2R1NmpfRHdrN293VVVlRFFuckhwcVMxaVdhZzUwSktielNJeGtwV3NJLWc2b18wT0l6TVNqU0M4aWk5dmFiT0JzRFQ5clNUeDFTdFJuckd2aktvZnhSbTNsQ0RUd1h5TzNCRjRu",
+    "CBMilAFBVV95cUxPQ0ZtNndsdnRoU1ZSZGtlOThqUTlLcE5vZ3lpWWU2cGxNU3VxVXlxSnMwTUxCeE5zN0Jva0dyT0h6OHFzUkFER3VUZUFfQVJOQmxVQWJBTFA0YnZhcUNuTlVLaERvN3UyeS0xcGVibVJPSmNSdnhvWnRTTDd3cFBZS3pBaHdfZTEzLXA4cjNPRWJqbUhv0gGUAUFVX3lxTE9DRm02d2x2dGhTVlJka2U5OGpROUtwTm9neWlZZTZwbE1TdXFVeXFKczBNTEJ4TnM3Qm9rR3JPSHo4cXNSQURHdVRlQV9BUk5CbFVBYkFMUDRidmFxQ25OVUtoRG83dTJ5LTFwZWJtUk9KY1J2eG9adFNMN3dwUFlLekFod19lMTMtcDhyM09FYmptSG8"
   ],
   "daily": {
     "d": "2026-09-02",
