@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Matt Brown backs Usman Nurmagomedov after altercation with Song Yadong: ‘It’s an absolutely intense, crazy situation’",
-      "ts": "2026-09-01T12:26:24+00:00"
-    },
-    {
       "t": "Expected UFC 332 main event reported as promotion’s original plan didn’t come together",
       "ts": "2026-09-01T12:30:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Valentina Shevchenko Withdraws from UFC 332 Due to Injury",
       "ts": "2026-09-02T08:28:58+00:00"
+    },
+    {
+      "t": "UFC: Alex Pereira's Aline Pereira sister to fight for UFC contract in October",
+      "ts": "2026-09-02T08:32:30+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White's Contender Series Week 4 Results: Highly-touted Adam Darby shines in main event",
-      "url": "https://sports.yahoo.com/articles/dana-whites-contender-series-week-011816767.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-09-02T01:18:16+00:00"
-    },
     {
       "title": "USA TODAY Sports/MMA Junkie rankings, Sept. 1: Song Yadong enters top 5",
       "url": "https://sports.yahoo.com/articles/usa-today-sports-mma-junkie-022649623.html",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-09-02T08:22:47+00:00"
+    },
+    {
+      "title": "UFC: Alex Pereira's Aline Pereira sister to fight for UFC contract in October",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YOXl0QUJkdV9mVlRLYjdQLVhhMmRwU1ctSmNpMkdtVng3dXpWQ29YTEw1MER4T1lPb2VlREFmWFplX2NZN1FRX2xRUC02cW0xNkFxbVVBTGVKLXNEdHM2M1k5d2pxRDBINkM1UGlyX2U4M1kz?oc=5",
+      "source": "BBC",
+      "cat": "ufc",
+      "ts": "2026-09-02T08:32:30+00:00"
     }
   ],
   "digest_last": "2026-09-01 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "CBMilgFBVV95cUxNRTZYN093eTA4ODVkTi1wRWNGVVNoS2hhSlZVNkI0bU8zVjBpSlNQU0RaelZWaGtSUWROU0FpUGJGMHJnT3QyeGx3QzlISUpYRnZkcWd5MGUwMUNJUV9HQ1UxVlNCWnB0dXB4TVVxZmQwcERtXzBEQmItRmRhUnlLRGpmc3RtVXo2akc2Y09BMzJnOXVtVGc",
     "CBMiW0FVX3lxTE1HazFCanFHUy1USF84VjZNX0ZpZlBVY09HdzZvMlpicm1PQkNmcE9BQ3ozOGZuWE5Oa1AzSUZHVk8zRWkxWWs3ZWYzUG8yZEVZNXQ1ZUxNaVZZdnM",
     "CBMipwFBVV95cUxObk80aHA0SktRaUJULWdfNm02X2pXMTNHV3ZFdUVqV3dfZU4tN204MGF0NnZnd2lDY1RkeTB2ZW0tSEZvbU9JajRLaTZOZkpLb002cjV0NFdEeGlPaF80VGFCV0hnR0xlbk02d3ZJUFNBbk5ONnJTVmFydVhiODgzTGxZbFJpYnpRcHhFMnM1UjE5Und4TGRZU2FQdU5udWNSY3NzQVdJQQ",
     "https://bloodyelbow.com/?p=329038",
@@ -3312,11 +3311,12 @@
     "CBMirgFBVV95cUxQN1JjNXFQOWg5WG5ocGdpdG0tRmhTOHRrak1lcWczUWRBZGZ5WkdFSDFmRV83dzNSdlZUTGRFWm9YYUFMQXdUSzJQSEtWTTYwa0FyMGNfWlVkYnNPRmpnSkZzWVlkNklZakpFVkplc1VHVTdScjNaMUFTZ1U2R1NXdlZJbEtWdEY3eWRvV1dDenhLZENyR1Q5bzd1QzZCSmIzWkx0dzkweUw0U2M1c2c",
     "CBMibEFVX3lxTE1xNW9NcV96OEVJYW51N2hwLWNLSTZsRmx4THNtQmE2TlN1OTdJcGUxTWZGV0Q0ejVyazZNYmstNkpuVXlURlFxb1BjUWdMWTlMZmp6bnYxYXhTQ3hCaHJ0ZW8yazhSdlpRbWVJcw",
     "CBMie0FVX3lxTE1DYmZxTzduRVh1Vl9uTFkxTnkwZXRsZFhCM3VvbjZURXlsR2xpWHRSSkxhQlVCUnY4a3dJY1IwTVJPQ2VZQkFpbVRFNy0tT1dGNTVJdkFDUlg4bHBlQ2hnNGRGX3NMNUVSdld3bE9CaTNPN3JvQldjTk0xZw",
-    "CBMiiwFBVV95cUxQeG55MEVBckExMEdwdEdFUnUyYk1Jei1KMWhVS1JxbTNrUFU2d0JDMzg0WGxjY1U4MGRsSGoteGtka0hrbzRFaTdzZE1FZTZhUnQxMDlIVkd4VlJvcUhLQTlNMndwNG45X1dSZXNBa3pZak5WVy1YQWVaTmp4NGdlb2pkWkV1eFY1VXlF"
+    "CBMiiwFBVV95cUxQeG55MEVBckExMEdwdEdFUnUyYk1Jei1KMWhVS1JxbTNrUFU2d0JDMzg0WGxjY1U4MGRsSGoteGtka0hrbzRFaTdzZE1FZTZhUnQxMDlIVkd4VlJvcUhLQTlNMndwNG45X1dSZXNBa3pZak5WVy1YQWVaTmp4NGdlb2pkWkV1eFY1VXlF",
+    "CBMidEFVX3lxTE9YOXl0QUJkdV9mVlRLYjdQLVhhMmRwU1ctSmNpMkdtVng3dXpWQ29YTEw1MER4T1lPb2VlREFmWFplX2NZN1FRX2xRUC02cW0xNkFxbVVBTGVKLXNEdHM2M1k5d2pxRDBINkM1UGlyX2U4M1kz"
   ],
   "daily": {
     "d": "2026-09-02",
-    "ai": 58,
+    "ai": 59,
     "staged": 3
   },
   "staged_hist": [
