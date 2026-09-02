@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Arman Tsarukyan wants ‘at least 5’ lightweight title defenses to break Islam Makhachev’s UFC record",
-      "ts": "2026-09-01T17:02:11+00:00"
-    },
-    {
       "t": "Arman Tsarukyan pitches UFC rule change that supports Joe Rogan issue by removing rounds",
       "ts": "2026-09-01T18:00:00+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "TUF winner out of UFC Paris, undefeated knockout artist steps in on short notice",
       "ts": "2026-08-31T23:11:02+00:00"
+    },
+    {
+      "t": "DWCS Season 10, Week 4 results: 5 UFC contracts handed out after night of finishes",
+      "ts": "2026-09-02T01:37:32+00:00"
     }
   ],
   "digest_items": [
@@ -2070,6 +2070,13 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-09-01T23:00:00+00:00"
+    },
+    {
+      "title": "DWCS Season 10, Week 4 results: 5 UFC contracts handed out after night of finishes",
+      "url": "https://www.mmafighting.com/ufc/508166/dwcs-season-10-week-4-results-5-ufc-contracts-handed-out-after-night-of-finishes",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-09-02T01:37:32+00:00"
     }
   ],
   "digest_last": "2026-09-01 21:30",
@@ -2078,7 +2085,6 @@
     7
   ],
   "yt_eval": [
-    "CBMiY0FVX3lxTE54SHQ0OWttSlNkZVpSaFJhcjRlLXVzY25zZnIzRS0zTllFWXRYRzVrSDhmb1FXZDAxRjZKSzJqUVNUTXo2S2FORUNwd2FESk0tS0E2emxWT1MxeVJtOENLdE12bw",
     "CBMifEFVX3lxTE9yOGJYZDJWM1hvcHRYRWxJczNwamMtOEZwQ1pVQXBfbDJOa21fejJoanpHeUgybWY2Q0JQTkJjcXFkM1Izb0lsNnlqRlliVHNjMUJDWHRPVFFicGRUc1llTGZLX0NQemprSW5TbnI4SmRRNnloX2NpalZScUM",
     "CBMinwFBVV95cUxOMTdZR3M3cDZsWHZtSzEwak0wazBTYU1PaDZja3R2aWI2MjNIZ3NHVFhVUUY1ckQwOFNRLWRKLVBpajlwTjVMZjhCOFpYV01HdUtfVjNTZEo3OFRwYWtqX1ZfWlZiYTBIZmtsMTFVNjZrOE9jLTk3TU9mSmR4VVhSUmYtMloyMFczVkF4Mm9ERDhFbTBHdzZrN0xmV2F2ZVU",
     "CBMiwwFBVV95cUxOb0pLN1Nfa3pNZmZZNUg1eDJYekRRaElIQ3pBSDV4WTZVQ1BwQjNiR2dhMmdzMF9iQjhFdHg1em5EUDdQYlI4aGtoVEZxWXp3bk5teEJ1WklnVGQtSXB1Vm5lRHNVTEtMWXhkc3lGWHgxcnNheHZwa0RrcF9iZTlPcklZVzVTOFUzanhvQXVFOFFYM0tOV2JLUU5jaTZVQjc2NEpTX2s2SURtWXRlR0p4ZzhUUURnUkFqa19YSEFkclNiT2M",
@@ -3277,11 +3283,12 @@
     "CBMimwFBVV95cUxQY1pRaVJRNkpUcko4eEZONEg0aDN1NmlPamgteXk0SW53VWZaUkZ4bng0Q1Z6Z3gyTENOaXlaa3RNZ05aaVFjY29KbUNwRkdNMnpCRE9OcWJxQzBtYUNTUkR6YkpiUzhJLXg3NENwd3lxNER2V1hlTEdoSjF1XzFFRUpGUkFxWFFFNk1ZSVdsWmxrLVZCMTE3VllUcw",
     "CBMiogFBVV95cUxOMU4zdWNvMlQxLVUyT3pORm1uT2pvYUJackFsd3VXTWRrTjZuRmlMcVI2U1JzZnpnT3QwQ0xHRW5FY01qcGJ6aGVjVDRCZjV1WFExWjNfTmY2eUxDTGNXcko0OXVPWGZZLV9zRWZwRWtKbk82dHdGeE43bXhtcXB6UmNtRUQ4QVJvREFoOXRGSF8tNW9HQWk5VTlLZjJhR21heEE",
     "CBMiW0FVX3lxTE5NWUZtanBvRnpkUlQySHlCbWcxT3BuTDVBWWNES1U4QzFDYmJ1T093YThJZVRJY2Q1aGN1dGNuUDFjWnBkRW45QkNOdlJtd3ZiQVZtTGlhcnU2RkE",
-    "https://bloodyelbow.com/?p=329927"
+    "https://bloodyelbow.com/?p=329927",
+    "https://www.mmafighting.com/?p=508166"
   ],
   "daily": {
     "d": "2026-09-02",
-    "ai": 1,
+    "ai": 2,
     "staged": 1
   },
   "staged_hist": [
