@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Cyborg Offers To Save UFC 332 With Nunes Rematch",
-      "ts": "2026-09-01T22:31:39+00:00"
-    },
-    {
       "t": "Rivera Faces Darby In UFC Contender Series Main Event",
       "ts": "2026-09-01T22:31:48+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "I booked a £768 holiday then was told 'pay £7,860 more or don't come'",
       "ts": "2026-09-02T07:56:00+00:00"
+    },
+    {
+      "t": "Axel Sola: “I Have My Destiny In My Hands” | UFC Paris",
+      "ts": "2026-09-02T08:53:03+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "DWCS 90: Silvestre Sanchez post-fight interview",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbEdKZE83M2dBRVRLWl9FM05fenpWdjdHc21pbDF5WWNnd1F2T3BrQi03eVI1SEZBTUV0R0dTSWtUQ0dlUEhmUzBLRURtX0x1N05UbjZSa1Q3dU12Qm9ZQ3NiQnpwVWRfS3lLOFFMckk5V1ViaGc5dUF1aG4zd2tkTXhWU0VuSEJOS3A1NWlXMUFVMmVCUC1Wek1zQ3QwUFdtVmlzSmZnTUpweWlway1PZ202RQ?oc=5",
-      "source": "USA Today",
-      "cat": "ufc",
-      "ts": "2026-09-02T03:15:55+00:00"
-    },
     {
       "title": "Modestino Rodrigues Books Ticket to UFC with Emphatic Win!",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbU1PU2I1SFlldzlKSGl0OGxmbnpnVVItbERST2dnMXBON29qS2RycDhWZk8tbDd6QjAycGhoSkkyZGl1cnNtcWVuWnIxamhObnRzaVdBRThzbU5Rd0hJRldpdHZNMGlndmpHZVFNQjYtdE5UMkswck9ZZE5zbzhRbU1UaDctNGtDb2JCNWpnbw?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "The Mirror",
       "cat": "ufc",
       "ts": "2026-09-02T07:56:00+00:00"
+    },
+    {
+      "title": "Axel Sola: “I Have My Destiny In My Hands” UFC Paris",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5zSTN1bF8tWnRNTDhad1daMURlZHdvdmdGZlVUVC1hanV1a1JESEk3VEcwZ0tKLWxodURqQU5rMXNkdFNpRTZR?oc=5",
+      "source": "UFC.com",
+      "cat": "ufc",
+      "ts": "2026-09-02T08:53:03+00:00"
     }
   ],
   "digest_last": "2026-09-01 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "7f602514-179f-386d-ac8c-2a2f93a80928",
     "CBMifkFVX3lxTFBseEdmdVh2TUZJUHNiTVBKaVp1aDhNVjlxX2t1N0VGbWEyT1lvQkJNa2JSeEgxWWs1QXNzbnp3RG1VSGxVZGRiRTllZ0N0N1p1RXh3NkU0SWpwZ2YxY1JMMnZoa1lyQmt0QlV2VHFkZGFvc1BxdENrc1I4MTlNUQ",
     "CBMi_AFBVV95cUxONFlVakhqMEZaWnVvX1ZSOTduZ1F4c2RoUk5nYjhJS1VKcjMySlM0WHc1SXZnWTRmRWtKTWF5dUhqLWgtTkxObXN5cEI0VkhtblJ4NXlWR0hjZU9SYV81Z1hpT0NlWEw1VUNmZTRFUy1MR0tpYS16cVdNUVlvTmlVWl91bWhuV0s1dThYNlpDeXlac3Q5a0tTLUFtUlBVRFI3UHJDWVF5emxySTk3eTR4ZTV5QUZwdFhqTFBDeGc4bGR2QlhkemlkZURuc0ZjcW10bWJlTWNnQlFoZEo1WFB5eUluQ0VXQVQyVGNiQzR5S0VER1otN3o2dDdscGw",
     "CBMihAFBVV95cUxQNWVyWmZWLTRqRU5qY3R2U0FZQ0VSZGcxcVNNTzJKc3pfaEFEQVF2Wm9tb183VGQ0MmZFaXg0NXNSLTlMeDlDUktkWllsemhtQ19UeXRZSkNucE5kMi1DUWNuMlIzbWgxWmNHOUlMT21NZ3VHQzlLY3poOGw3UXRxaVRVYVI",
@@ -3312,11 +3311,12 @@
     "https://www.sherdog.com/news/news/Dan-Hooker-admits-distractions-crept-in-before-recent-UFC-struggles-202628",
     "https://www.sherdog.com/news/news/Alex-Apodaca-defends-Bella-Mir-on-heels-of-historic-DWCS-upset-backlash-202629",
     "CBMirAFBVV95cUxPZGd4Y2p2eTNUalZ3SC1oaUlsX3lHNVpkTVg1a3JvQnplTEEzNVh0NU9lRjhNcVRMczA3amhfcWhkWlNfeUtWWGlzUGduOVFBZi16bU5LRU44T250NS1LOHRqSEQwT3BwQ2gzamRMMGNTalhzbnVBZTVQbjdCTy1lenc5MGFEWjNUY2dMMnFkRHp5WGtxeHZHZ2F4WHdRVDNUU2lyYmtPZ3RiUkc3",
-    "CBMifEFVX3lxTE1BVUkzZG80Z1JFQ3VZc2w1Y1dZTUxaMXpPalNyZGdSVnhuUTVCcVFzWUtGMHYtWU84R3F0WDRJOWQ4d1hUMmVXS3FuVlRQT3cxZmM0c2huNHZHTndMWHBjYXJBMlM1LUIzY2VraHQ3cWI3dmlVS1ZDWVZGcGTSAXxBVV95cUxNQVVJM2RvNGdSRUN1WXNsNWNXWU1MWjF6T2pTcmRnUlZ4blE1QnFRc1lLRjB2LVlPOEdxdFg0STlkOHdYVDJlV0txblZUUE93MWZjNHNobjR2R053TFhwY2FyQTJTNS1CM2Nla2h0N3FiN3ZpVUtWQ1lWRnBk"
+    "CBMifEFVX3lxTE1BVUkzZG80Z1JFQ3VZc2w1Y1dZTUxaMXpPalNyZGdSVnhuUTVCcVFzWUtGMHYtWU84R3F0WDRJOWQ4d1hUMmVXS3FuVlRQT3cxZmM0c2huNHZHTndMWHBjYXJBMlM1LUIzY2VraHQ3cWI3dmlVS1ZDWVZGcGTSAXxBVV95cUxNQVVJM2RvNGdSRUN1WXNsNWNXWU1MWjF6T2pTcmRnUlZ4blE1QnFRc1lLRjB2LVlPOEdxdFg0STlkOHdYVDJlV0txblZUUE93MWZjNHNobjR2R053TFhwY2FyQTJTNS1CM2Nla2h0N3FiN3ZpVUtWQ1lWRnBk",
+    "CBMiR0FVX3lxTE5zSTN1bF8tWnRNTDhad1daMURlZHdvdmdGZlVUVC1hanV1a1JESEk3VEcwZ0tKLWxodURqQU5rMXNkdFNpRTZR"
   ],
   "daily": {
     "d": "2026-09-02",
-    "ai": 67,
+    "ai": 68,
     "staged": 3
   },
   "staged_hist": [
