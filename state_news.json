@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "DWCS Season 10, Week 4 Live Results: Round-by-Round",
-      "ts": "2026-09-01T22:30:23+00:00"
-    },
-    {
       "t": "Dana White's Contender Series 90 live updates, round-by-round coverage",
       "ts": "2026-09-01T22:30:28+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Alex Apodaca defends Bella Mir on heels of historic DWCS upset backlash",
       "ts": "2026-09-02T05:25:49+00:00"
+    },
+    {
+      "t": "‘That Was Awesome’: Chael Sonnen Defends Usman Nurmagomedov’s Wild Cage Jump for Umar",
+      "ts": "2026-09-02T08:42:03+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Dana White Blasts UFC Referee for Two ‘Horrible Stoppages’ During DWCS",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdng2MGVMZXRBWW9oT2k2TGRUQXBTWFU3V1BqNWM4MjdqLWFOVWlPemxkeVRFeVBsMmVLNU9QV1dkOTE3UDV4aElGNnhZTGJXeUJ1SFZvS0dPd3dWc1hsbG1pSTZRdldrRDU0OTM0SUlsZmdobU02aHBLYi01cDFvSFZnMjJfcG5LYjhrN01oc2pZYldzakJON2VnNXh6WW5nWlE?oc=5",
-      "source": "Athlon Sports",
-      "cat": "ufc",
-      "ts": "2026-09-02T03:13:00+00:00"
-    },
     {
       "title": "UFC Paris preview: Can Salahdine Parnasse make an instant impact vs. Dan Hooker?",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWmxpemJyTWw0MFE0WWsybU1VdlB4VTRYd2FMc2wzeVdMUWtSSVdDbkJqV1lYcU5VdkhHaFpYcDNwRXZTbXRFdlVVMXdwYV8tU0UyYk5EYXFieEFmR1NVclMycjdpM245RXNndVZ6eGR5WDFIa0IzUWhrNU91c1h1NGFfc1JGZUF1Q0VCb1g3SUE1T2lwbnpESl94NnBXUktNbTdLVEZkaFNEM2tRbmhYQXJod0pSaHZrYWRRRXRsT1kyVWhRaGc?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-09-02T05:25:49+00:00"
+    },
+    {
+      "title": "‘That Was Awesome’: Chael Sonnen Defends Usman Nurmagomedov’s Wild Cage Jump for Umar",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZGd4Y2p2eTNUalZ3SC1oaUlsX3lHNVpkTVg1a3JvQnplTEEzNVh0NU9lRjhNcVRMczA3amhfcWhkWlNfeUtWWGlzUGduOVFBZi16bU5LRU44T250NS1LOHRqSEQwT3BwQ2gzamRMMGNTalhzbnVBZTVQbjdCTy1lenc5MGFEWjNUY2dMMnFkRHp5WGtxeHZHZ2F4WHdRVDNUU2lyYmtPZ3RiUkc3?oc=5",
+      "source": "MMA Sucka",
+      "cat": "ufc",
+      "ts": "2026-09-02T08:42:03+00:00"
     }
   ],
   "digest_last": "2026-09-01 21:30",
@@ -2113,7 +2113,6 @@
     7
   ],
   "yt_eval": [
-    "eb01392c-f96b-44e2-a2dc-4e18a87259cb",
     "94112495-4cc9-32b6-bf63-6014597ee91d",
     "7f602514-179f-386d-ac8c-2a2f93a80928",
     "CBMifkFVX3lxTFBseEdmdVh2TUZJUHNiTVBKaVp1aDhNVjlxX2t1N0VGbWEyT1lvQkJNa2JSeEgxWWs1QXNzbnp3RG1VSGxVZGRiRTllZ0N0N1p1RXh3NkU0SWpwZ2YxY1JMMnZoa1lyQmt0QlV2VHFkZGFvc1BxdENrc1I4MTlNUQ",
@@ -3312,11 +3311,12 @@
     "https://www.sherdog.com/news/news/Tommy-McMillen-takes-aim-at-unbeaten-UFC-rival-He-runs-his-mouth-202626",
     "https://www.sherdog.com/news/news/Justin-Gaethje-says-his-UFC-legacy-is-fulfilled-after-Topuria-win-202627",
     "https://www.sherdog.com/news/news/Dan-Hooker-admits-distractions-crept-in-before-recent-UFC-struggles-202628",
-    "https://www.sherdog.com/news/news/Alex-Apodaca-defends-Bella-Mir-on-heels-of-historic-DWCS-upset-backlash-202629"
+    "https://www.sherdog.com/news/news/Alex-Apodaca-defends-Bella-Mir-on-heels-of-historic-DWCS-upset-backlash-202629",
+    "CBMirAFBVV95cUxPZGd4Y2p2eTNUalZ3SC1oaUlsX3lHNVpkTVg1a3JvQnplTEEzNVh0NU9lRjhNcVRMczA3amhfcWhkWlNfeUtWWGlzUGduOVFBZi16bU5LRU44T250NS1LOHRqSEQwT3BwQ2gzamRMMGNTalhzbnVBZTVQbjdCTy1lenc5MGFEWjNUY2dMMnFkRHp5WGtxeHZHZ2F4WHdRVDNUU2lyYmtPZ3RiUkc3"
   ],
   "daily": {
     "d": "2026-09-02",
-    "ai": 65,
+    "ai": 66,
     "staged": 3
   },
   "staged_hist": [
