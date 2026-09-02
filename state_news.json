@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Muhammad Mokaev answers Dana White's challenge in push for UFC return",
-      "ts": "2026-09-01T04:19:08+00:00"
-    },
-    {
       "t": "UFC Paris preview: Start time, full card and how to watch Salahdine Parnasse’s debut vs Dan Hooker",
       "ts": "2026-09-01T05:00:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Rankings Shakeup: Is Song Yadong beating Umar Nurmagomedov the upset of the year?",
       "ts": "2026-09-02T16:50:30+00:00"
+    },
+    {
+      "t": "Anthony Smith’s next fight set in Gamebred FC, promotion releases statement explaining decision to book him",
+      "ts": "2026-09-02T17:27:47+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "UFC Paris: Dan Hooker vs Salahdine Parnasse Preview & Storylines",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTkFzYVIzY0FNcHZaejJPaFAtMDctdmdhVnc0R191UE9LNjBNVEFhZ3F1aEU1eHlmSHA2RWl1a1VCMTN1UGdYOVZSRFVjYUdqZktOeDlTTE03VllrZnh2b0xjTlBBSzItNVNsbC1PYUlYSFRLU2JxdkJSZjFTSkszRWczaHRTSWJqcnhfRFZQNENtMHVpemM0U2pyT291aEFTVkUyUkVwS1duWGVFY0M0N3gyUXlDaDh2VXhYREZrN2RLMGMyR3lIQUVB?oc=5",
-      "source": "Yardbarker",
-      "cat": "ufc",
-      "ts": "2026-09-02T13:19:55+00:00"
-    },
     {
       "title": "UFC Paris: Michael Page addresses final fight on current contract",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVy1XQkx4cEhhQkJMMEdZdmFUSklIcUMzZEVrb01ITnU3c2djQm9HT21vV3c4Qlo0djZqT1ZZdkxWeldDeUlPUDBaeVN4RmdsZk9WT0FKeHR6empaNHJ6WTJJVXk5WVNvUHNnT0o4OE9TVUhZMXMzbnowUFdGc1NiQ2xLLVVzMGd6?oc=5",
@@ -2105,15 +2098,21 @@
       "source": "MMA Fighting",
       "cat": "ufc",
       "ts": "2026-09-02T16:50:30+00:00"
+    },
+    {
+      "title": "Anthony Smith’s next fight set in Gamebred FC, promotion releases statement explaining decision to book him",
+      "url": "https://www.mmafighting.com/ufc/508302/anthony-smiths-next-fight-set-in-gamebred-fc-promotion-releases-statement-explaining-decision-to-book-him",
+      "source": "MMA Fighting",
+      "cat": "ufc",
+      "ts": "2026-09-02T17:27:47+00:00"
     }
   ],
   "digest_last": "2026-09-01 21:30",
   "hour": [
     "2026-09-02T20",
-    2
+    3
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/BKB-signee-Aspen-Ladd-blasts-UFCs-handling-of-womens-MMA-Not-much-care-202542",
     "https://www.mmamania.com/467567/mm-clone",
     "https://www.sherdog.com/news/news/Sean-Brady-disagrees-with-Din-Thomas-handling-of-UFC-330-backlash-202545",
     "https://www.sherdog.com/news/news/New-UFC-fighter-says-he-sizes-up-Whole-Foods-shoppers-for-a-fight-202549",
@@ -3312,7 +3311,8 @@
     "CBMilAFBVV95cUxPQ0ZtNndsdnRoU1ZSZGtlOThqUTlLcE5vZ3lpWWU2cGxNU3VxVXlxSnMwTUxCeE5zN0Jva0dyT0h6OHFzUkFER3VUZUFfQVJOQmxVQWJBTFA0YnZhcUNuTlVLaERvN3UyeS0xcGVibVJPSmNSdnhvWnRTTDd3cFBZS3pBaHdfZTEzLXA4cjNPRWJqbUhv0gGUAUFVX3lxTE9DRm02d2x2dGhTVlJka2U5OGpROUtwTm9neWlZZTZwbE1TdXFVeXFKczBNTEJ4TnM3Qm9rR3JPSHo4cXNSQURHdVRlQV9BUk5CbFVBYkFMUDRidmFxQ25OVUtoRG83dTJ5LTFwZWJtUk9KY1J2eG9adFNMN3dwUFlLekFod19lMTMtcDhyM09FYmptSG8",
     "CBMigAFBVV95cUxOOXh6LWpCUDNCODNVeHVuSGFPX0JrVVYxQWlvTXFqakdZSXI1ck91Q3dUa3JienJTT0wzUjNlcnFxSzRNRGRveXM3aEVuQVpLT0M3MUt3cXlmNVQ1VS1YYVBoWXNVeFZRaGluRi1wMmxmVHRYWF95cEJNeDRsR0YyNw",
     "CBMisgFBVV95cUxONW10dUl2aUtlVnFtSWFoN1phUlE5ckJBZHFlZ3NhS1hUOUhpWEJGeFFud3V5dGg4WGloLThsd0lvRTVLYkt1TjZoeW05SzVSeWRTay1fN1ZwNUIxdXZkUWsxS0VqQWQ0cDVWOTAxZ1N0bUxObFdYR194N2pzc3RwQmIzWl9kQ3RMYjVjTDZVcGFBMzg0TkFqRmk2bUU5RWdVSXdUWEJDMWRPLWhOdTcxbXZB",
-    "https://www.mmafighting.com/?p=508080"
+    "https://www.mmafighting.com/?p=508080",
+    "https://www.mmafighting.com/?p=508302"
   ],
   "daily": {
     "d": "2026-09-02",
