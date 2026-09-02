@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "UFC veteran rips into 'potato head' Daniel Cormier for defending Usman Nurmagomedov",
-      "ts": "2026-09-01T17:50:00+00:00"
-    },
-    {
       "t": "Packers vs. Vikings Live Stream of National Football League",
       "ts": "2026-09-01T17:15:59+00:00"
     },
@@ -1683,6 +1679,10 @@
     {
       "t": "Khamzat Chimaev receives response to four-man middleweight hit list: ‘Finally someone called my name’",
       "ts": "2026-09-01T16:30:00+00:00"
+    },
+    {
+      "t": "Embattled UFC 332 loses main event as Valentina Shevchenko forced out with injury",
+      "ts": "2026-09-01T23:00:00+00:00"
     }
   ],
   "digest_items": [
@@ -2063,15 +2063,21 @@
       "source": "Bloody Elbow",
       "cat": "ufc",
       "ts": "2026-09-01T16:30:00+00:00"
+    },
+    {
+      "title": "Embattled UFC 332 loses main event as Valentina Shevchenko forced out with injury",
+      "url": "https://bloodyelbow.com/2026/09/01/embattled-ufc-332-loses-main-event-as-valentina-shevchenko-forced-out-with-injury/",
+      "source": "Bloody Elbow",
+      "cat": "ufc",
+      "ts": "2026-09-01T23:00:00+00:00"
     }
   ],
   "digest_last": "2026-09-01 21:30",
   "hour": [
     "2026-09-02T03",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMiuwFBVV95cUxPajRHZE05SHduajg5TXhDUGtpUzlrSDdJTk53M1RNOFVHeG1Fc0t4U0dsQ3pZWkpTY2ZraXU5OGs3bUQydHgwcWFocldNRGZ6aXg5OW5XZmRjdGJvUzhUNkVmT0w4WGt3aEV3YjRGSGZrNm9pd2lkdDdrenhhSnQ0bzNQVXlKc214b3pVMkJUQkR1b0FaSklFLVVMYlVXNmRGWFNVNnBhZ0tOaDdaZWtHVmlJSzlCQ0dqR19B",
     "CBMiY0FVX3lxTE54SHQ0OWttSlNkZVpSaFJhcjRlLXVzY25zZnIzRS0zTllFWXRYRzVrSDhmb1FXZDAxRjZKSzJqUVNUTXo2S2FORUNwd2FESk0tS0E2emxWT1MxeVJtOENLdE12bw",
     "CBMifEFVX3lxTE9yOGJYZDJWM1hvcHRYRWxJczNwamMtOEZwQ1pVQXBfbDJOa21fejJoanpHeUgybWY2Q0JQTkJjcXFkM1Izb0lsNnlqRlliVHNjMUJDWHRPVFFicGRUc1llTGZLX0NQemprSW5TbnI4SmRRNnloX2NpalZScUM",
     "CBMinwFBVV95cUxOMTdZR3M3cDZsWHZtSzEwak0wazBTYU1PaDZja3R2aWI2MjNIZ3NHVFhVUUY1ckQwOFNRLWRKLVBpajlwTjVMZjhCOFpYV01HdUtfVjNTZEo3OFRwYWtqX1ZfWlZiYTBIZmtsMTFVNjZrOE9jLTk3TU9mSmR4VVhSUmYtMloyMFczVkF4Mm9ERDhFbTBHdzZrN0xmV2F2ZVU",
@@ -3270,27 +3276,15 @@
     "CBMiqAFBVV95cUxNU2JHOWxKNmJ4T005NHRLU2FqbXZUYzVfbnRsQzFQWS1vd2FPWkVUOWpqaWd0ZU9RLW12YXhRaGFaRGlzU1R2VWVJTWtXZ0hVbm1YWU4wUjFicmFCNy1lR2NaRFUyZkhTS1g2STYtalBHTGFNUEpaa3hVQVdhSkJEekc2eVhEemFZWDVfRE9WZngzZk1va2FkUllKZ3RFeVVMTUQ2ZnhNSzQ",
     "CBMimwFBVV95cUxQY1pRaVJRNkpUcko4eEZONEg0aDN1NmlPamgteXk0SW53VWZaUkZ4bng0Q1Z6Z3gyTENOaXlaa3RNZ05aaVFjY29KbUNwRkdNMnpCRE9OcWJxQzBtYUNTUkR6YkpiUzhJLXg3NENwd3lxNER2V1hlTEdoSjF1XzFFRUpGUkFxWFFFNk1ZSVdsWmxrLVZCMTE3VllUcw",
     "CBMiogFBVV95cUxOMU4zdWNvMlQxLVUyT3pORm1uT2pvYUJackFsd3VXTWRrTjZuRmlMcVI2U1JzZnpnT3QwQ0xHRW5FY01qcGJ6aGVjVDRCZjV1WFExWjNfTmY2eUxDTGNXcko0OXVPWGZZLV9zRWZwRWtKbk82dHdGeE43bXhtcXB6UmNtRUQ4QVJvREFoOXRGSF8tNW9HQWk5VTlLZjJhR21heEE",
-    "CBMiW0FVX3lxTE5NWUZtanBvRnpkUlQySHlCbWcxT3BuTDVBWWNES1U4QzFDYmJ1T093YThJZVRJY2Q1aGN1dGNuUDFjWnBkRW45QkNOdlJtd3ZiQVZtTGlhcnU2RkE"
+    "CBMiW0FVX3lxTE5NWUZtanBvRnpkUlQySHlCbWcxT3BuTDVBWWNES1U4QzFDYmJ1T093YThJZVRJY2Q1aGN1dGNuUDFjWnBkRW45QkNOdlJtd3ZiQVZtTGlhcnU2RkE",
+    "https://bloodyelbow.com/?p=329927"
   ],
   "daily": {
-    "d": "2026-09-01",
-    "ai": 120,
-    "staged": 6
+    "d": "2026-09-02",
+    "ai": 1,
+    "staged": 1
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-26T00:02:09.186845+00:00",
-      "t": "Breaking Down the Falcons QB Competition Stream of National Football League",
-      "names": [
-        "down",
-        "falcons",
-        "stream",
-        "national",
-        "football",
-        "league"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-08-26T00:21:43.072469+00:00",
       "t": "Charles Oliveira Calls for UFC Rematch With Justin Gaethje",
@@ -3709,6 +3703,15 @@
       "names": [
         "jeopardy",
         "injury"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-02T03:46:09.176899+00:00",
+      "t": "Embattled UFC 332 loses main event as Valentina Shevchenko forced out with injury",
+      "names": [
+        "embattled",
+        "shevchenko"
       ],
       "img": "photo"
     }
