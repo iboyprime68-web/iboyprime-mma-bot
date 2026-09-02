@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Polymarket Invite Code SBWIRE: $50 Bonus for NFL Week 1, College Football, Crypto & More",
-      "ts": "2026-09-01T20:40:00+00:00"
-    },
-    {
       "t": "DWCS 90 Staff Picks: Welterweight Prospects Collide",
       "ts": "2026-09-01T20:47:50+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Carson Beck's Opportunity to Impress the Cardinals Stream of National Football League",
       "ts": "2026-09-02T03:31:45+00:00"
+    },
+    {
+      "t": "Dana White not willing to admit Kevin Holland as the $11 million dollar man",
+      "ts": "2026-09-02T03:33:34+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Julian Alvarez STAYS at Atletico Madrid! What's Next? - Scoreline Stream of Soccer",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU2JHOWxKNmJ4T005NHRLU2FqbXZUYzVfbnRsQzFQWS1vd2FPWkVUOWpqaWd0ZU9RLW12YXhRaGFaRGlzU1R2VWVJTWtXZ0hVbm1YWU4wUjFicmFCNy1lR2NaRFUyZkhTS1g2STYtalBHTGFNUEpaa3hVQVdhSkJEekc2eVhEemFZWDVfRE9WZngzZk1va2FkUllKZ3RFeVVMTUQ2ZnhNSzQ?oc=5",
-      "source": "cbssports.com",
-      "cat": "ufc",
-      "ts": "2026-09-01T23:37:30+00:00"
-    },
     {
       "title": "Bengals' Defensive Additions Will Make or Break Season Stream of National Football League",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY1pRaVJRNkpUcko4eEZONEg0aDN1NmlPamgteXk0SW53VWZaUkZ4bng0Q1Z6Z3gyTENOaXlaa3RNZ05aaVFjY29KbUNwRkdNMnpCRE9OcWJxQzBtYUNTUkR6YkpiUzhJLXg3NENwd3lxNER2V1hlTEdoSjF1XzFFRUpGUkFxWFFFNk1ZSVdsWmxrLVZCMTE3VllUcw?oc=5",
@@ -2105,6 +2098,13 @@
       "source": "CBS Sports",
       "cat": "ufc",
       "ts": "2026-09-02T03:31:45+00:00"
+    },
+    {
+      "title": "Dana White not willing to admit Kevin Holland as the $11 million dollar man",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNS0htNFNRT1d2Y1EtZ3VMT2xmaE5rUVVYTWN6d3h2Z3Y5NG4tcjh3dllPQTgzTWdFTWd4dGU4aUtqRGc1M25OQXdSWXJ3M1FZSDZqTUpZU2p1TGh3UnZKd3ZpcmlnVkcyWUNSS2lVMnJNUGtsYmxSY1JBMGsxQ1pqS1NGWHJiejN0TEt5M0FPd1NLSzFNUDlKU2xBVzJ4eUpORWJ3OUtwQmR4QWtJN3FsQUgtdUtrcWJaUW9XamZoM25jd1RRcWNsVkNMRm5IUF9YYjYtMHRUSDhkbVBqTUZLZA?oc=5",
+      "source": "MMA Junkie",
+      "cat": "ufc",
+      "ts": "2026-09-02T03:33:34+00:00"
     }
   ],
   "digest_last": "2026-09-01 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "CBMipAFBVV95cUxOQkdUV3RTNkJxMkgxU2JzbS1uR1U2NWR1QkFPX2wwaERhbHhYMWxMYzR3UDFSbm4zUWw4cGhGWTNJYUI4YWlLS0ZLbVl2S3lVU1E2NmZyVWxIRDFMelU5bTN1RHczb1B5WVRGcEotMWRFQ0E2SWJkeTBtbnoyTGhVZHQ5c3dkSndBR1F3Mi15R1k5MERFMy1yV29PN2YyUVpqeU5oSw",
     "CBMigwFBVV95cUxPcUExa2xMbDlUWWk0UUhRbUtLME5WRlBNSEJnWmllaXNtQ1FETVQzZVItMWJqMzJnNEFhNGRnMVVrS2FVT3c5RDd6SW1vLU9RZ0txUmthaGRWMWRINl9KdGVWTjF0U1dYTE1ROHlWdnB0RWttYWJncGRtcXZ2N1F4X3g4dw",
     "CBMidkFVX3lxTE5ral9nUDlQMTNBTFVJTmJQLVUwR01CN3RYekIzc2RpWk9ka19RemFJa0drbTc4TTRIaEJsOEd1TUZhV24yS195Y0xpZ2VlOHhUekVkTWFLc0NCeHE2dzhmSGczc3dWYUpDMnBERnRLd19welc2UkE",
     "CBMizwFBVV95cUxNUVZtOGJJdjRJSXdmV0lScW82UVEtZk9CNGtCNTQ2azBuUEFXV1RXd2ZCcWV4N0l1cGNORHd3blB2bmZGRTBJYW9ub3A0c1YtV3FZeTUyMzBibFlsb0ZIR1dCYlplck9YNThkZUNOa19maG5sREEweWVXVEE4NFBkZ0FLTjNSOEotUFJIb0tkb1NsSmtCVGt4X1lBTzNXb2FVemxkeG5kenVDZjEwZXpzc1dDTW1Ya2RGNkhNc1ZCYmlNc29KR0M3aUhfc3VtZ1U",
@@ -3312,11 +3311,12 @@
     "CBMinAFBVV95cUxOa3BsQ3R3bm1YWlNyODJnN3BKYWlHVGhCUmItV1RPbmNCbTBpU0ZHWnAtcFRTMWhvMVRtcU5ickhTX0kwLUVUWDN2alJTZGpHbnl5YjNod0J0bUctbmtMeWdqSWhsTEZ1cG9VaFp6bTkwQ1IxRnFscHdsTGtETmN4UVhwRzNtaC1IMENwVjdLZ0lxU0p1bFVJS29xQ0o",
     "CBMi7AFBVV95cUxQSnExTGhBWUlnTTlNR2dGSVVqdGhyay1mSlM2SDhaT2ZqWk1wN1RDTk03R0JVdFRsdzFRLXNOdUtPT2M1Qjc5UmRTN2Rwc1UwRV9ZWGUyRGx3aTZ4TVpkWjI5M0xJd096OVFXSFZSZEZhUlhDZUFQQjZ1eFA3RjU2cnFXRUhXcl9IQUtkd1lfWmFzRmV0OGx4UHRUNVduNExWMzB4b0lGT0xHMGFTZzREX1pkbVJEaHJ2NG1YcDNTQlVqUS1IMVNnNkFWQ3pScDVMZ1hTU1laRG9SSGY0NXZfSFdCODVUam44MGtkTNIB7AFBVV95cUxQSnExTGhBWUlnTTlNR2dGSVVqdGhyay1mSlM2SDhaT2ZqWk1wN1RDTk03R0JVdFRsdzFRLXNOdUtPT2M1Qjc5UmRTN2Rwc1UwRV9ZWGUyRGx3aTZ4TVpkWjI5M0xJd096OVFXSFZSZEZhUlhDZUFQQjZ1eFA3RjU2cnFXRUhXcl9IQUtkd1lfWmFzRmV0OGx4UHRUNVduNExWMzB4b0lGT0xHMGFTZzREX1pkbVJEaHJ2NG1YcDNTQlVqUS1IMVNnNkFWQ3pScDVMZ1hTU1laRG9SSGY0NXZfSFdCODVUam44MGtkTA",
     "CBMilgFBVV95cUxOYzVpV3diamxXOTd2QTk0Nl80ZDMwY0VBRWxQRFZoemxBcGxPRnR6bjBHbTNyblNycmlReV9senV2UGh1bG16MGVaOUxhRlJhaFBsYldiWTVnQjdwVzBLRi1hTG84MVV0RmRVdlVNQlY2WENWaFVqRnE1NUpIS19oeWhSMDVldi1kYVp6QVdZeXB0a0d5WWc",
-    "CBMinAFBVV95cUxQVE5XRWxFb1JHNEdLUFJJYUVROGNzM3hjazFNNkxwdjBSR3pjdWJJZ1E4eHpSUk1NQnlVVzJFYlpiSGpqTGEyUkd1NWJ1OWZOZGIyMWlxZGVOdVhJVjBxR21uVTRwMTZ4MTVPcHdxbzJkelllQkNibmNPalV4VWVkWllUT2djZ3M2UHpXSEtsQ0FIYWRsTVQwT0hTbVI"
+    "CBMinAFBVV95cUxQVE5XRWxFb1JHNEdLUFJJYUVROGNzM3hjazFNNkxwdjBSR3pjdWJJZ1E4eHpSUk1NQnlVVzJFYlpiSGpqTGEyUkd1NWJ1OWZOZGIyMWlxZGVOdVhJVjBxR21uVTRwMTZ4MTVPcHdxbzJkelllQkNibmNPalV4VWVkWllUT2djZ3M2UHpXSEtsQ0FIYWRsTVQwT0hTbVI",
+    "CBMi4AFBVV95cUxNS0htNFNRT1d2Y1EtZ3VMT2xmaE5rUVVYTWN6d3h2Z3Y5NG4tcjh3dllPQTgzTWdFTWd4dGU4aUtqRGc1M25OQXdSWXJ3M1FZSDZqTUpZU2p1TGh3UnZKd3ZpcmlnVkcyWUNSS2lVMnJNUGtsYmxSY1JBMGsxQ1pqS1NGWHJiejN0TEt5M0FPd1NLSzFNUDlKU2xBVzJ4eUpORWJ3OUtwQmR4QWtJN3FsQUgtdUtrcWJaUW9XamZoM25jd1RRcWNsVkNMRm5IUF9YYjYtMHRUSDhkbVBqTUZLZA"
   ],
   "daily": {
     "d": "2026-09-02",
-    "ai": 40,
+    "ai": 41,
     "staged": 2
   },
   "staged_hist": [
