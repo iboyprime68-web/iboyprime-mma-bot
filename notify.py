@@ -55,10 +55,27 @@ DEFAULTS = {
     # One story, one buzz. The studio staging pings at its own threshold and both
     # read the same ledger, so a big story cannot notify twice.
     "dedupe_hours": 6,
+    # ...and one buzz per STORY, not per URL. A big story arrives from four
+    # outlets under four guids: measured on real traffic, one Shevchenko
+    # withdrawal produced four separate alerts. A ping is a stronger action than
+    # a post, so it dedupes harder than the channel does (the channel's
+    # similar_threshold is 0.6).
+    "similar_threshold": 0.45,
+    # The last resort, and the one that actually works on real traffic. Four
+    # rewrites of one withdrawal share almost no wording ("Shevchenko out of
+    # UFC 332 in October" vs "Shevchenko Withdraws Due to Injury" score 0.23 on
+    # token overlap) but they all share the fighter's name. Two ALERTS naming the
+    # same person inside this window are the same story to a reader, so the
+    # second one does not buzz. The story still POSTS - only the interruption is
+    # suppressed. This mirrors ytposts.stage_gate's subject_cooldown_hours, which
+    # exists for exactly the same reason on the studio side.
+    "subject_hours": 6,
 }
 
-LEDGER_KEY = "pinged"        # {sha1(guid)[:16]: epoch} inside state_news.json
+LEDGER_KEY = "pinged"          # {sha1(guid)[:16]: epoch} inside state_news.json
+TITLE_KEY = "pinged_titles"    # [[title, epoch, [names]], ...] cross-outlet guard
 LEDGER_CAP = 400
+TITLE_CAP = 60
 
 
 def config(cfg):
@@ -90,7 +107,7 @@ def tier(score, breaking, ncfg):
     return ALERT if int(score or 0) >= int(c["alert_threshold"]) else QUIET
 
 
-def claim(state, guid, now_epoch, ncfg):
+def claim(state, guid, now_epoch, ncfg, title="", similar=None, subject=None):
     """Reserve the single buzz for this story. True exactly once per story.
 
     Both news_bot and ytposts call this before pinging. Without it a story
@@ -112,6 +129,35 @@ def claim(state, guid, now_epoch, ncfg):
     window = float(c["dedupe_hours"]) * 3600.0
     if k in led and (now_epoch - float(led[k] or 0)) < window:
         return False
+
+    # Cross-outlet guard. `similar` is injected (newsconfig.similar) rather than
+    # imported so this module stays a leaf that anything can depend on.
+    titles = state.get(TITLE_KEY)
+    if not isinstance(titles, list):
+        titles = []
+    titles = [t for t in titles
+              if isinstance(t, (list, tuple)) and len(t) >= 2
+              and (now_epoch - float(t[1] or 0)) < window]
+    if title and callable(similar):
+        thr = float(c["similar_threshold"])
+        for old in titles:
+            try:
+                if similar(title, old[0]) >= thr:
+                    return False
+            except Exception:
+                pass
+
+    # Same-subject guard. `subject` is a set of name tokens supplied by the
+    # caller (ytposts.name_tokens) - injected, not imported, because ytposts
+    # imports THIS module.
+    subj = {str(x).lower() for x in (subject or ()) if x}
+    if subj:
+        sw = float(c["subject_hours"]) * 3600.0
+        for old in titles:
+            if (now_epoch - float(old[1] or 0)) >= sw:
+                continue
+            if subj & {str(x).lower() for x in (old[2] if len(old) > 2 else [])}:
+                return False
     day = [1 for v in led.values() if (now_epoch - float(v or 0)) < 86400.0]
     if len(day) >= int(c["max_alerts_per_day"]):
         return False
@@ -119,6 +165,9 @@ def claim(state, guid, now_epoch, ncfg):
     if len(led) > LEDGER_CAP:
         led = dict(sorted(led.items(), key=lambda kv: kv[1], reverse=True)[:LEDGER_CAP])
     state[LEDGER_KEY] = led
+    if title:
+        titles.append([title, float(now_epoch), sorted(subj)])
+        state[TITLE_KEY] = titles[-TITLE_CAP:]
     return True
 
 
