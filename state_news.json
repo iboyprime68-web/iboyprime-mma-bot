@@ -1359,7 +1359,8 @@
     "045fa05858ac81c1": 1788458383.1704578,
     "ed3c7d630e78dbfd": 1788458383.1707358,
     "c596cd575d2027dd": 1788458384.461736,
-    "fe829b910c37329b": 1788458427.201723
+    "fe829b910c37329b": 1788458427.201723,
+    "81ee40de05af2c66": 1788468274.538753
   },
   "initialized": true,
   "v": 4,
@@ -1391,10 +1392,6 @@
     {
       "t": "Khamzat Chimaev drops major hint about next opponent",
       "ts": "2026-09-02T21:22:02+00:00"
-    },
-    {
-      "t": "OKTAGON co-founder reflects on what went wrong with attempted UK expansion: ‘It was a big lesson’",
-      "ts": "2026-09-01T19:30:00+00:00"
     },
     {
       "t": "Islam Makhachev warned he’s next after Umar Nurmagomedov’s loss revealed ‘blueprint’ to beat him",
@@ -1839,13 +1836,17 @@
     {
       "t": "Eddie Hearn Says Tom Aspinall Needs More Eye Testing Before UFC Return",
       "ts": "2026-09-03T17:51:56+00:00"
+    },
+    {
+      "t": "Dana White teases UFC finally going to Hawaii with new arena being built",
+      "ts": "2026-09-03T16:15:34+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-03T18",
-    0
+    "2026-09-03T20",
+    1
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=329262",
@@ -3055,7 +3056,9 @@
   "daily": {
     "d": "2026-09-03",
     "ai": 35,
-    "staged": 6
+    "staged": 6,
+    "prio": 0,
+    "lost": 0
   },
   "staged_hist": [
     {
