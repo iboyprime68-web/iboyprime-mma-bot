@@ -188,9 +188,25 @@ ROLES_KEEP = [
     # Gateway Intents). Without it GET /guilds/{id}/members returns 403 and the bot
     # logs why and exits cleanly.
     ("🤝 Member",    0x95A5A6, True, False),
+    # The owner's own news alert role (Sept 2026). He asked for a role rather than
+    # a direct user mention so members are never dragged into it: only he holds it,
+    # so only his phone buzzes.
+    #
+    # NOT hoisted (it would add a one-person section to the member list) and NOT
+    # mentionable (nobody but the bot should be able to fire it - the bot has
+    # Administrator, so allowed_mentions is enough).
+    #
+    # Do NOT rename this to "📰 News Pings": that name is in ROLES_DELETE and the
+    # deploy actively deletes it on every run.
+    ("🔔 News Alerts", 0x9B59B6, False, False),
 ]
 
 MEMBER_ROLE = "🤝 Member"
+
+# Held by the owner alone. news_bot pings it for a big story; everything else
+# stays silent. If the role is missing, news_bot degrades to silent-for-everything
+# rather than failing - the same shape as the old news_pings handling.
+NEWS_ALERT_ROLE = "🔔 News Alerts"
 
 # bots_config.json role key -> role name
 ROLE_KEYS = {
@@ -198,6 +214,7 @@ ROLE_KEYS = {
     "admin":  "🛡️ Admin",
     "mod":    "🔨 Moderator",
     "member": MEMBER_ROLE,
+    "news_alerts": NEWS_ALERT_ROLE,
 }
 
 # Every role the declutter removes. The deploy actively deletes these, and a
