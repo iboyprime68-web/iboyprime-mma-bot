@@ -170,11 +170,16 @@
     "point spread",
     "wager"
   ],
+  "notify": {
+    "enabled": true,
+    "alert_threshold": 85,
+    "alert_on_breaking": true,
+    "max_alerts_per_day": 12,
+    "dedupe_hours": 6
+  },
   "always_allow": [],
   "digest": {
-    "times_utc": [
-      "21:30"
-    ],
+    "times_utc": [],
     "min_items": 3,
     "ping": true
   },
