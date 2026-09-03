@@ -174,11 +174,25 @@ def base_defaults():
         "breaking_keywords": list(_DEFAULT_BREAKING),
         "breaking_ignores_filters": True,   # a major story alerts even if its category is off
         "exclude_keywords": list(_DEFAULT_EXCLUDE),
+        # Who gets pinged for a story, and how often. See notify.py.
+        # Turning `enabled` off returns the wire to silent-for-everything without
+        # a redeploy - it is the rollback for the whole notification phase.
+        "notify": {
+            "enabled": True,
+            "alert_threshold": 85,      # deterministic heuristic score, not the AI one
+            "alert_on_breaking": True,  # the keyword net is an OR, not a bonus
+            "max_alerts_per_day": 12,   # hard ceiling; overflow posts silently
+            "dedupe_hours": 6,          # one buzz per story across news AND studio
+        },
         # Extra full names the topic gate should always accept. mma_roster.json
         # is seeded from the rankings at deploy time and DECAYS between deploys,
         # so a fighter who debuts afterwards is unknown to it. Add them here.
         "always_allow": [],
-        "digest": {"times_utc": ["21:30"], "min_items": 3, "ping": True},
+        # OFF since Sept 2026. The digest existed to surface stories the
+        # hourly cap had diverted away from the channel; that cap is gone, so
+        # every story posts live and a nightly recap would just repeat the day.
+        # Put a time back to re-enable - nothing else has to change.
+        "digest": {"times_utc": [], "min_items": 3, "ping": True},
         # Hot-word emphasis on the staged poster (see EMPHASIS_MODES).
         "emphasis": "color",
         # AI story scoring for the YouTube staging pipeline (scorer.py). Works
