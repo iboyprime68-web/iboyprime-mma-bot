@@ -296,6 +296,10 @@ NEWS_OVERRIDE = {"sources": {"mma_fighting": {"enabled": True, "url": "http://fe
                              "x_mmafighting": {"enabled": False},
                              "x_mmajunkie":   {"enabled": False},
                              "x_ufc":         {"enabled": False}},
+                 # The digest ships OFF (times_utc = []) now that every story
+                 # posts live, so these suites turn it back on explicitly - they
+                 # test the machinery, not the default.
+                 "digest": {"times_utc": ["21:30"], "min_items": 3, "ping": True},
                  "scoring": {"enabled": False}}   # staging has its own suite
 
 def news_feed(items):
@@ -500,6 +504,17 @@ _bm_c, _bm_e, _bm_m, _ = news_bot.build_message(
 check("build_message content has no markdown", _bm_c == "Huge news link here (Sherdog)")
 
 # near-instant delivery: tight poll cadence across a long, cron-requeued window
+# The digest itself is OFF by default now: it existed to surface stories the
+# hourly cap had diverted, and that cap is gone, so a nightly recap would just
+# repeat the day's channel. The machinery above still works when a time is set.
+check("the digest ships disabled in BOTH the defaults and the live json",
+      newsconfig.base_defaults()["digest"]["times_utc"] == []
+      and _NJSON["digest"]["times_utc"] == [])
+check("with no digest time configured nothing is queued, so the state file "
+      "does not grow a dead queue on every cycle",
+      "if not digest_on(cfg_for_queue[0]):" in
+      open(os.path.join(_SRC, "news_bot.py"), encoding="utf-8").read())
+
 check("news polls every ~20s across a ~55-min window",
       news_bot.POLL_SECONDS <= 30 and news_bot.WINDOW_SECONDS >= 1800)
 
@@ -783,6 +798,159 @@ check("the roster holds public fighter names only - nothing that could be a secr
       all(len(n) < 60 and " " in n for n in
           _njson_mod.load(open(os.path.join(_SRC, "mma_roster.json"),
                                encoding="utf-8"))["fighters"]))
+
+
+
+# ─────────────── 3g. notifications: the owner's phone ─────────────────────
+print("\n[notifications]")
+import notify
+import layout as _nt_layout
+import ytposts as _nt_yt
+import inspect as _insp
+layout = _nt_layout          # the [layout] suite re-imports this later; same module
+
+# THE BUG. Since the Aug 2026 declutter deleted the news_pings role,
+#   silent = (mode == "hybrid" and not (breaking and news_rid))
+# had news_rid permanently None, so `silent` was a constant True and the owner's
+# phone never buzzed for a story - including breaking ones. He read that as the
+# news being late. This is the check that would have caught it.
+_nb_all = open(os.path.join(_SRC, "news_bot.py"), encoding="utf-8").read()
+check("news_bot reads the owner's alert role from bots_config",
+      'roles.get("news_alerts")' in _nb_all)
+check("the loud path no longer depends on the DELETED news_pings role",
+      'silent = (mode == "hybrid" and not (breaking and news_rid))' not in _nb_all)
+check("a post is silent if and only if it is not loud "
+      "(flag 4096 mutes a mention, so the two must never combine)",
+      "silent = not loud" in _nb_all)
+
+# The role itself. The owner asked for a role rather than a direct user mention so
+# that members are never dragged into his alerts.
+check("the alert role is in ROLES_KEEP and NOT in ROLES_DELETE",
+      layout.NEWS_ALERT_ROLE in [r[0] for r in layout.ROLES_KEEP]
+      and layout.NEWS_ALERT_ROLE not in layout.ROLES_DELETE)
+check("it does not reuse the old '📰 News Pings' name, which the deploy deletes "
+      "on every run",
+      layout.NEWS_ALERT_ROLE != "📰 News Pings"
+      and "📰 News Pings" in layout.ROLES_DELETE)
+_alert_spec = next(r for r in layout.ROLES_KEEP if r[0] == layout.NEWS_ALERT_ROLE)
+check("the alert role is NOT mentionable (only the bot may fire it) and NOT "
+      "hoisted (it would add a one-person section to the member list)",
+      _alert_spec[3] is False and _alert_spec[2] is False)
+check("bots_config exposes it under a stable key", layout.ROLE_KEYS["news_alerts"]
+      == layout.NEWS_ALERT_ROLE)
+_bs_all = open(os.path.join(_SRC, "bots_setup.py"), encoding="utf-8").read()
+check("bots_setup CREATES the alert role and GRANTS it to the guild owner "
+      "(a ping role nobody holds is a silent no-op that looks like it works)",
+      "layout.NEWS_ALERT_ROLE" in _bs_all
+      and "/guilds/%s/members/%s/roles/%s" in _bs_all)
+
+# Tiering. Two tiers only: a story is either worth interrupting him for or not.
+check("a high score alerts, a low one does not",
+      notify.tier(90, False, {}) == notify.ALERT
+      and notify.tier(40, False, {}) == notify.QUIET)
+check("breaking is an OR, not a bonus (the keyword net works with no AI key)",
+      notify.tier(10, True, {}) == notify.ALERT)
+check("the threshold is configurable from newsconfig",
+      notify.tier(50, False, {"notify": {"alert_threshold": 40}}) == notify.ALERT)
+check("notify.enabled false returns the wire to silent-for-everything "
+      "(this is the rollback, and it needs no redeploy)",
+      notify.tier(99, True, {"notify": {"enabled": False}}) == notify.QUIET)
+
+# One buzz per story, across BOTH the news wire and the studio staging.
+_nt_state, _nt_now = {}, 1_000_000.0
+_nt_cfg = {"notify": {"max_alerts_per_day": 3}}
+check("a story claims its single buzz exactly once",
+      notify.claim(_nt_state, "g1", _nt_now, _nt_cfg) is True
+      and notify.claim(_nt_state, "g1", _nt_now, _nt_cfg) is False)
+check("the daily ceiling holds (the model is documented handing 85+ to rehash)",
+      notify.claim(_nt_state, "g2", _nt_now, _nt_cfg) is True
+      and notify.claim(_nt_state, "g3", _nt_now, _nt_cfg) is True
+      and notify.claim(_nt_state, "g4", _nt_now, _nt_cfg) is False)
+check("an overflowed alert still POSTS, it just does not interrupt him "
+      "(the ceiling is on the buzz, never on the story)",
+      "silent = not loud" in _nb_all and "continue" not in
+      _nb_all.split("loud = (_tier == notify.ALERT")[1].split("silent = not loud")[0])
+check("yesterday's buzzes do not count against today's ceiling",
+      notify.claim(_nt_state, "g5", _nt_now + 90000.0, _nt_cfg) is True)
+check("the ledger is capped so it cannot grow without bound in a public state file",
+      notify.LEDGER_CAP <= 1000)
+_nt_big = {}
+for _i in range(notify.LEDGER_CAP + 50):
+    notify.claim(_nt_big, "x%d" % _i, _nt_now + _i,
+                 {"notify": {"max_alerts_per_day": 99999, "dedupe_hours": 0.0001}})
+check("the ledger prunes NEWEST-first, like `seen` (never alphabetically)",
+      len(_nt_big[notify.LEDGER_KEY]) <= notify.LEDGER_CAP)
+
+check("a mention is never emitted without a role to carry it",
+      notify.role_mention("") == ("", None)
+      and notify.role_mention("R1") == ("<@&R1> ", {"parse": [], "roles": ["R1"]}))
+
+# The studio side reads the same ledger, so a big story cannot buzz twice.
+# The mocks further down MUST mirror this signature. When they did not, the real
+# call raised TypeError, maybe_stage swallowed it, staging silently stopped, and
+# every test still passed its own unrelated assertion - the same shape as the
+# mod-patrol mock that carried a `member` key the REST API never returns.
+check("stage_story takes `state` so it can consult the shared ping ledger",
+      "state" in _insp.signature(_nt_yt.stage_story).parameters)
+# ...and this suite's OWN mocks must accept every parameter the real one takes,
+# or the call raises and maybe_stage swallows it.
+_nt_self = open(os.path.abspath(__file__), encoding="utf-8").read()
+_nt_params = set(_insp.signature(_nt_yt.stage_story).parameters)
+_nt_mocks = _pf_re.findall(r"ytposts\.stage_story = lambda ([^:]+):", _nt_self)
+check("every stage_story mock in this file mirrors the real signature",
+      _nt_mocks and all(
+          _nt_params <= {p.split("=")[0].strip() for p in m.split(",")}
+          or len(m.split(",")) == len(_nt_params)
+          for m in _nt_mocks))
+_yt_all = open(os.path.join(_SRC, "ytposts.py"), encoding="utf-8").read()
+check("the studio ping goes through notify.claim, not straight to a mention",
+      "notify.claim(" in _yt_all
+      and _yt_all.index("notify.claim(") < _yt_all.index('ping_uid = str(cfg_bots.get("owner_id"'))
+check("notify.py is uploaded ABOVE both modules that import it",
+      (not _up_db) or (
+          [d for _s, d in _up_db.UPLOADS].index("notify.py")
+          < [d for _s, d in _up_db.UPLOADS].index("news_bot.py")
+          and [d for _s, d in _up_db.UPLOADS].index("notify.py")
+          < [d for _s, d in _up_db.UPLOADS].index("ytposts.py")))
+check("the notify block ships in BOTH the python defaults and the live json "
+      "(deep_merge means a stale json key silently wins)",
+      NCFG["notify"]["enabled"] is True and _NJSON["notify"]["enabled"] is True
+      and NCFG["notify"]["alert_threshold"] == _NJSON["notify"]["alert_threshold"])
+
+
+# ─────────────── 3h. slow work leaves the posting path ────────────────────
+print("\n[news latency]")
+_poll = _nb_all.split("def poll_once")[1]
+# Staging ran INLINE, before the post: an AI call up to ~41s, a Google News decode
+# up to 24s, an 8MB photo download, two octagon calls up to ~40s, a Pillow render
+# and two uploads - all in front of the news message, inside a cycle that
+# run_loop then adds its 20s sleep to.
+check("the posting loop QUEUES staging instead of running it inline",
+      "stage_queue.append(" in _poll and "maybe_stage(it, cat, breaking, cfg)" not in _poll)
+check("the queue is drained after the LOOP, not after each POST "
+      "(staging sat above both divert branches, so per-post draining would have "
+      "silently stopped staging every diverted story)",
+      _poll.index("for _sit, _scat, _sbrk in stage_queue:") > _poll.index("for it in fresh:"))
+check("the tier decision uses the free deterministic heuristic, never the AI call "
+      "that this phase exists to move off the critical path",
+      "scorer.heuristic_score(" in _poll and "score_story_budgeted" not in _poll)
+
+# The staging budget used to burn the guid BEFORE checking the cap, so after six
+# staged posts every later story was marked "evaluated" without ever being scored
+# and could never be scored again on any run.
+_ms = _nb_all.split("def maybe_stage")[1].split("def keep(")[0]
+check("the daily staged cap is checked BEFORE the guid is burned in yt_eval",
+      _ms.index('scorer.under_cap(') < _ms.index('state.setdefault("yt_eval", []).append'))
+
+# A job with no timeout inherits GitHub's 360-MINUTE default. A wedged run would
+# hold the bot-news concurrency group for six hours, cancelling every pending tick
+# behind it - and GitHub mails "All jobs were cancelled" for each one.
+_news_yml = open(os.path.join(_SRC, ".github", "workflows", "news.yml"),
+                 encoding="utf-8").read()
+_tmo = _pf_re.search(r"timeout-minutes:\s*(\d+)", _news_yml)
+check("news.yml has an explicit timeout that expires before the next cron tick",
+      _tmo is not None and int(_tmo.group(1)) * 60 > news_bot.WINDOW_SECONDS
+      and int(_tmo.group(1)) < 60)
 
 
 # ───────────────────────── 4. calm-mode post formats ──────────────────────
@@ -3195,7 +3363,7 @@ print("\n[yt staging]")
 _real_stage2 = ytposts.stage_story
 _real_score2 = scorer.score_story
 _STG = []
-ytposts.stage_story = lambda it, score, why, cb, nc, hist=None: (_STG.append(
+ytposts.stage_story = lambda it, score, why, cb, nc, hist=None, state=None: (_STG.append(
     {"guid": it["guid"], "score": score,
      "studio": (cb.get("channels", {}) or {}).get("studio"),
      "owner": cb.get("owner_id")})
@@ -3247,7 +3415,7 @@ check("scoring disabled: nothing staged, news still posts",
 
 # -- the emphasis setting rides from newsconfig to the staged post ----------
 _YT_IT = []
-ytposts.stage_story = lambda it, score, why, cb, nc, hist=None: (
+ytposts.stage_story = lambda it, score, why, cb, nc, hist=None, state=None: (
     _YT_IT.append(dict(it))
     or {"status": "staged (HTTP 200)", "img": "wash", "ok": True})
 scorer.score_story = lambda title, desc, source, cat, cfg: {
