@@ -44,7 +44,7 @@ export const STUDIO_HTML = `<!doctype html>
   --bg:#08080C; --card:#12121B; --card2:#181823; --sunk:#0D0D14;
   --line:#242433; --line2:#38384f;
   --text:#F3F2F7; --dim:#9997AC; --faint:#6E6C80;
-  --accent:#8B70FF; --hot:#A45CFF; --deep:#5B3DF5; --ok:#63E3AE;
+  --accent:#8B70FF; --hot:#6A49EC; --deep:#5B3DF5; --ok:#63E3AE;
   --r:16px; --rs:11px; --ar:.8;
   --shadow:0 14px 40px rgba(0,0,0,.5);
 }
@@ -226,6 +226,26 @@ input[type=range]::-moz-range-thumb{
   background:#000;touch-action:none;
 }
 @media(min-width:960px){.canvas-wrap{max-width:min(452px, calc(58vh * var(--ar)))}}
+/* With one step showing instead of thirteen cards, the right column is about a
+   third of its old height and the left column no longer needs a ~390px empty
+   gutter beside a 417px poster. 68vh keeps the toolbar, the poster and the
+   export buttons together above the fold at 1440x900. */
+@media(min-width:960px){html[data-shell=steps] .canvas-wrap{max-width:min(600px, calc(68vh * var(--ar)))}}
+@media(min-width:1180px){html[data-shell=steps] main{max-width:1400px}}
+/* The left column was minmax(0,1fr): it stretched to fill whatever was left and
+   parked a ~410px empty gutter beside a poster that could not grow into it
+   (the canvas is height-capped, not width-capped). Sizing the column to the
+   poster and centring the pair removes the gutter instead of hiding it. */
+@media(min-width:960px){
+  html[data-shell=steps] .split{grid-template-columns:auto 452px;justify-content:center}
+  /* ...and the column has to be told what "auto" means. The canvas is capped,
+     but its siblings (the export buttons, the hint, the composer link) have no
+     intrinsic width, so the track resolved to the full remaining space and the
+     gutter came straight back. Cap the whole stage at the poster's width: the
+     buttons then sit under the poster at exactly its width, which is also
+     tidier than a 900px button row under a 488px card. */
+  html[data-shell=steps] .stage{max-width:min(600px, calc(68vh * var(--ar)));margin:0 auto}
+}
 #cv{width:100%;height:auto;display:block;cursor:grab}
 #cv:active{cursor:grabbing}
 #cv:focus-visible{outline:2px solid var(--hot);outline-offset:-2px}
@@ -305,6 +325,49 @@ input[type=range]::-moz-range-thumb{
 .pb.on u{background:var(--ok);box-shadow:0 0 9px rgba(99,227,174,.8)}
 .pb.on em{color:var(--ok)}
 
+/* ---- the 1-2-3-4 workflow ----------------------------------------------
+   Only the ACTIVE step's cards are shown. Written as a display:none on the
+   INACTIVE ones and never a display:block on the active ones: several cards
+   carry the [hidden] attribute from the template logic, and an author
+   display:block would beat the UA [hidden] rule and un-hide them. */
+.steps{display:flex;gap:6px;margin:0 0 12px;padding:4px;background:var(--card2);border:1px solid var(--line);border-radius:13px}
+.steps button{
+  flex:1;min-height:44px;border:0;border-radius:10px;background:transparent;color:var(--dim);
+  font:inherit;font-size:12px;font-weight:700;letter-spacing:.2px;cursor:pointer;padding:6px 4px;
+  display:flex;flex-direction:column;align-items:center;gap:2px;transition:.15s;
+}
+.steps button b{font-size:15px;font-weight:900;line-height:1}
+.steps button:hover{color:var(--text)}
+.steps button[aria-current=true]{background:var(--hot);color:#fff}
+.steps button[aria-current=true] b{color:#fff}
+html[data-shell=steps] .panel > .card[data-step]{display:none}
+html[data-shell=steps] .panel[data-step="1"] > .card[data-step="1"],
+html[data-shell=steps] .panel[data-step="2"] > .card[data-step="2"],
+html[data-shell=steps] .panel[data-step="3"] > .card[data-step="3"],
+html[data-shell=steps] .panel[data-step="4"] > .card[data-step="4"]{display:block}
+/* ...and the [hidden] attribute still wins over that, which is what keeps the
+   template-specific cards (Matchup, Stat, Panels...) hidden inside step 2. */
+html[data-shell=steps] .panel > .card[data-step][hidden]{display:none}
+html[data-shell=classic] .steps{display:none}
+/* PHONE. Below 960px .stage{display:contents} flattens everything into one
+   column and the panel lands after the poster and the export buttons, so an
+   in-flow step bar sat about 950px down - reachable, but only after scrolling
+   past the thing you were trying to edit. Pin it to the bottom instead, the way
+   every phone app puts its primary switcher, so all four steps are one tap away
+   wherever you are on the page. */
+@media(max-width:959px){
+  html[data-shell=steps] .steps{
+    position:fixed;left:0;right:0;bottom:0;z-index:45;margin:0;border-radius:0;
+    border-left:0;border-right:0;border-bottom:0;
+    background:rgba(12,12,18,.96);backdrop-filter:blur(10px);
+    padding:4px 6px calc(4px + env(safe-area-inset-bottom));
+  }
+  html[data-shell=steps] main{padding-bottom:86px}
+  /* the panel is a third of its old height now, so the poster can take more of
+     the screen than the 44vh it was capped at */
+  html[data-shell=steps] .canvas-wrap{max-width:min(100%, calc(52vh * var(--ar)))}
+}
+
 /* ---- staged rail + drafts ---- */
 .rail{display:flex;gap:10px;overflow-x:auto;padding:2px 2px 8px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
 .rail::-webkit-scrollbar{height:6px}
@@ -316,6 +379,13 @@ input[type=range]::-moz-range-thumb{
 .railitem:hover{border-color:var(--accent)}
 .railitem[aria-pressed=true]{border-color:var(--hot);box-shadow:0 0 0 1px var(--hot) inset}
 .railitem .ph{width:100%;height:100px;background:#0A0A11 center/cover no-repeat;display:block;position:relative}
+/* A tile that is still fetching shimmers; one that gave up says so. Before this
+   both states were an identical flat black rectangle, which is why a slow rail
+   was indistinguishable from a broken one. */
+.railitem .ph.loading{background:linear-gradient(100deg,#141420,#1D1D2B,#141420);background-size:220% 100%;animation:sh 1.3s linear infinite}
+.railitem .ph.failed{background:#141420}
+.railitem .ph.failed::after{content:"preview unavailable";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:10px;color:var(--faint);letter-spacing:.3px}
+@media(prefers-reduced-motion:reduce){.railitem .ph.loading{animation:none}}
 .railitem .score{
   position:absolute;top:6px;left:6px;background:rgba(8,8,12,.8);border-radius:7px;padding:2px 7px;
   font-size:10.5px;font-weight:800;color:var(--hot);letter-spacing:.4px;
@@ -451,12 +521,31 @@ input[type=range]::-moz-range-thumb{
 
     <div class="panel">
 
-      <div class="card">
+      <!-- 1 PICK / 2 WORDS / 3 PICTURE / 4 EXPORT. The owner asked for "a proper
+           workflow where I could go from one two three four"; the panel used to
+           be thirteen cards stacked in creation order, about 2300px tall, with
+           the staged queue and the caption furthest from the top. Each card now
+           declares which step it belongs to and the CSS shows one step at a
+           time. ?shell=classic (or the Settings toggle) brings the old single
+           column straight back. -->
+      <nav class="steps" id="stepbar" aria-label="Workflow"></nav>
+
+      <div class="card" data-step="1">
+        <div class="chead">
+          <h2>Staged by the bot</h2>
+          <span class="grow"></span>
+          <button class="mini" id="railReload" type="button">Refresh</button>
+        </div>
+        <div class="rail" id="rail"></div>
+        <p class="note" id="railNote">Loading what the bot staged in Discord.</p>
+      </div>
+
+      <div class="card" data-step="1">
         <div class="chead"><h2>Template</h2></div>
         <div class="tpl" id="tpl"></div>
       </div>
 
-      <div class="card" id="cardWash">
+      <div class="card" data-step="1" id="cardWash">
         <div class="chead"><h2>Background and color</h2></div>
         <div class="field swrow">
           <label class="lbl">Colorway</label>
@@ -477,7 +566,7 @@ input[type=range]::-moz-range-thumb{
         <p class="note">The wash carries photoless posters and announcement panels: a bold color with the texture hidden inside it. Tint washes your photos toward the colorway so they sit in the same scene.</p>
       </div>
 
-      <div class="card" id="cardPanels" hidden>
+      <div class="card" data-step="2" id="cardPanels" hidden>
         <div class="chead">
           <h2>Panels</h2>
           <span class="grow"></span>
@@ -491,7 +580,7 @@ input[type=range]::-moz-range-thumb{
         <p class="note" style="margin-top:8px">Each panel takes its own color, a big line (SEPT 12, or NAME VS NAME), a small event label and two photos. One panel makes the classic fight poster and can carry a bottom chip.</p>
       </div>
 
-      <div class="card" id="cardLine">
+      <div class="card" data-step="2" id="cardLine">
         <div class="chead"><h2>The line</h2></div>
         <div class="field">
           <label class="lbl" for="line">Poster line</label>
@@ -505,7 +594,7 @@ input[type=range]::-moz-range-thumb{
         <p class="note">Highlight style and color sit in the bar above the poster.</p>
       </div>
 
-      <div class="card" id="cardAttr">
+      <div class="card" data-step="2" id="cardAttr">
         <div class="chead"><h2>Attribution</h2></div>
         <div class="field">
           <label class="lbl" for="speaker">Speaker</label>
@@ -523,7 +612,7 @@ input[type=range]::-moz-range-thumb{
         </div>
       </div>
 
-      <div class="card" id="cardVersus" hidden>
+      <div class="card" data-step="2" id="cardVersus" hidden>
         <div class="chead"><h2>Matchup</h2></div>
         <div class="two">
           <div class="field"><label class="lbl" for="vLeft">Left name</label><input id="vLeft" type="text" autocomplete="off" placeholder="MAKHACHEV"></div>
@@ -535,7 +624,7 @@ input[type=range]::-moz-range-thumb{
         </div>
       </div>
 
-      <div class="card" id="cardStat" hidden>
+      <div class="card" data-step="2" id="cardStat" hidden>
         <div class="chead"><h2>Stat compare</h2></div>
         <div class="field"><label class="lbl" for="sTitle">Title band</label><input id="sTitle" type="text" autocomplete="off" placeholder="LAST 10 WINS"></div>
         <div class="two">
@@ -548,7 +637,7 @@ input[type=range]::-moz-range-thumb{
         </div>
       </div>
 
-      <div class="card" id="cardTn" hidden>
+      <div class="card" data-step="2" id="cardTn" hidden>
         <div class="chead"><h2>Then and now</h2></div>
         <div class="field"><label class="lbl" for="tnTitle">Title strip</label><input id="tnTitle" type="text" autocomplete="off" placeholder="THE SAME MAN"></div>
         <div class="two">
@@ -562,7 +651,7 @@ input[type=range]::-moz-range-thumb{
         <p class="note">The top photo is the Left slot, the bottom one is the Right slot.</p>
       </div>
 
-      <div class="card" id="cardList" hidden>
+      <div class="card" data-step="2" id="cardList" hidden>
         <div class="chead">
           <h2>Ranked list</h2>
           <span class="grow"></span>
@@ -573,7 +662,7 @@ input[type=range]::-moz-range-thumb{
         <p class="note" style="margin-top:8px">Numbers are drawn for you. Six rows is the ceiling.</p>
       </div>
 
-      <div class="card" id="cardCal" hidden>
+      <div class="card" data-step="2" id="cardCal" hidden>
         <div class="chead">
           <h2>Event calendar</h2>
           <span class="grow"></span>
@@ -584,7 +673,7 @@ input[type=range]::-moz-range-thumb{
         <p class="note" style="margin-top:8px">Date on the left, the matchup on the right. Five bands is the ceiling.</p>
       </div>
 
-      <div class="card">
+      <div class="card" data-step="3">
         <div class="chead"><h2>Photos</h2></div>
         <div id="photoSingle">
           <div class="field">
@@ -639,7 +728,7 @@ input[type=range]::-moz-range-thumb{
         </div>
       </div>
 
-      <div class="card">
+      <div class="card" data-step="3">
         <div class="chead">
           <h2>Adjust</h2>
           <span class="grow"></span>
@@ -657,33 +746,25 @@ input[type=range]::-moz-range-thumb{
         </div>
       </div>
 
-      <div class="card">
+      <div class="card" data-step="4">
         <div class="chead"><h2>Caption</h2></div>
         <textarea id="caption" rows="5" placeholder="The caption you paste under the image"></textarea>
+      </div>
+
+      <div class="card" data-step="4">
+        <div class="chead">
+          <h2>Drafts</h2>
+          <span class="grow"></span>
+          <button class="mini" id="saveDraft" type="button">Save a draft</button>
+        </div>
+        <div class="drafts" id="drafts"></div>
+        <p class="note" id="draftNote" style="margin-top:8px">Your work saves itself, so a refresh brings it back.</p>
       </div>
 
     </div>
   </div>
 
-  <div class="card" style="margin-top:14px">
-    <div class="chead">
-      <h2>Staged by the bot</h2>
-      <span class="grow"></span>
-      <button class="mini" id="railReload" type="button">Refresh</button>
-    </div>
-    <div class="rail" id="rail"></div>
-    <p class="note" id="railNote">Loading what the bot staged in Discord.</p>
-  </div>
 
-  <div class="card">
-    <div class="chead">
-      <h2>Drafts</h2>
-      <span class="grow"></span>
-      <button class="mini" id="saveDraft" type="button">Save a draft</button>
-    </div>
-    <div class="drafts" id="drafts"></div>
-    <p class="note" id="draftNote" style="margin-top:8px">Your work saves itself, so a refresh brings it back.</p>
-  </div>
 </section>
 
 <!-- ============================ POLLS ============================ -->
@@ -724,6 +805,12 @@ input[type=range]::-moz-range-thumb{
 <!-- ============================ SETTINGS ============================ -->
 <section class="view" id="view-set" role="tabpanel" aria-labelledby="tab-set" hidden>
   <div class="stack" style="max-width:560px;margin:0 auto">
+    <div class="card">
+      <div class="chead"><h2>Layout</h2></div>
+      <p class="note" id="shellNote" style="margin-bottom:12px"></p>
+      <button class="mini" id="shellToggle" type="button"></button>
+    </div>
+
     <div class="card">
       <div class="chead"><h2>AI key</h2></div>
       <p class="note" style="margin-bottom:12px">The bot uses this key when it scores stories. It is stored server side and never shown back to this page. Nothing on this page calls the model.</p>
@@ -771,18 +858,18 @@ input[type=range]::-moz-range-thumb{
 var W = 1080, H = 1350;
 var ASPECTS = { "4:5": 1350, "1:1": 1080, "9:16": 1920 };
 var PAL = {
-  accent: "#8B70FF", hot: "#A45CFF", deep: "#5B3DF5",
+  accent: "#8B70FF", hot: "#6A49EC", deep: "#5B3DF5",
   ink: "#0B0B0E", inkSoft: "#17141F", paper: "#F5F4F6", dim: "#B9B5C4"
 };
 /* Colorway washes - mirrors postcard.COLORWAYS. The background of a photoless
    poster or an announcement panel is a bold single-hue duotone with an arena
    texture hidden inside it (the owner's att-8 law: never a flat gradient). */
 var CW = [
-  { id: "purple", label: "Purple", deep: "#0E0720", mid: "#5B3DF5", hot: "#8B70FF" },
-  { id: "red",    label: "Red",    deep: "#1A0404", mid: "#C81A10", hot: "#FF4438" },
-  { id: "blue",   label: "Blue",   deep: "#040A1C", mid: "#1E52D0", hot: "#3D7BFF" },
-  { id: "green",  label: "Green",  deep: "#03140A", mid: "#0FA050", hot: "#2BD973" },
-  { id: "gold",   label: "Gold",   deep: "#1C0F03", mid: "#D0740F", hot: "#FFA032" }
+  { id: "purple", label: "Purple", deep: "#0E0720", mid: "#5B3DF5", hot: "#8B70FF", glyph: "#6A49EC" },
+  { id: "red",    label: "Red",    deep: "#1A0404", mid: "#C81A10", hot: "#FF4438", glyph: "#FF4438" },
+  { id: "blue",   label: "Blue",   deep: "#040A1C", mid: "#1E52D0", hot: "#3D7BFF", glyph: "#3D7BFF" },
+  { id: "green",  label: "Green",  deep: "#03140A", mid: "#0FA050", hot: "#2BD973", glyph: "#2BD973" },
+  { id: "gold",   label: "Gold",   deep: "#1C0F03", mid: "#D0740F", hot: "#FFA032", glyph: "#FFA032" }
 ];
 function cwOf(id) {
   for (var i = 0; i < CW.length; i++) if (CW[i].id === id) return CW[i];
@@ -800,7 +887,7 @@ var BGS = [
 ];
 var S = {
   margin: 112, lines: 3,
-  lineMax: 175, lineMaxSolo: 240, lineMin: 64,
+  lineMax: 175, lineMaxSolo: 300, lineMin: 64,
   track: 0.030, wordSpace: 1.28, squeeze: 0.90, spacing: 0.98, ascent: 1.05,
   seamReach: 470, seamMax: 0.92, seamTint: "24,19,51",
   band: 0.30, vignette: 0.14, topScrim: 0.16, sideScrim: 0.20,
@@ -835,7 +922,7 @@ function tplDef(id) {
 /* the highlight palette. The references use red and orange, the brand is purple,
    and white pairs with a dimmed rest-of-line so it still reads as a highlight. */
 var HL = [
-  { id: "purple", label: "Brand", hex: "#A45CFF" },
+  { id: "purple", label: "Brand", hex: "#6A49EC" },
   { id: "red",    label: "Red",   hex: "#FF3B30" },
   { id: "orange", label: "Orange",hex: "#FF8A1F" },
   { id: "blue",   label: "Blue",  hex: "#3D7BFF" },
@@ -847,6 +934,22 @@ function hlHex() {
   return HL[0].hex;
 }
 function baseHex() { return state.hlColor === "white" ? "rgba(245,244,246,0.52)" : "#FFFFFF"; }
+/* Mirrors postcard.render_news. Only the BRAND entry is derived from the
+   colorway; red/orange/blue/green/white are the owner's explicit picks and are
+   returned untouched. */
+function newsHotHex(hasPhoto) {
+  if (state.hlColor !== "purple") return hlHex();
+  var cw = cwOf(state.colorway);
+  if (hasPhoto) return cw.glyph || cw.hot;
+  return mixHex(cw.hot, PAL.paper, 0.75);       /* purple -> #DAD3F8 */
+}
+/* The all-hot ("solo") line. Python flips every word to plain white and moves
+   the colour into ONE bar under the last line: a fully coloured statement line
+   lost its emphasis, because when everything is highlighted nothing is. */
+function soloBarHex(hasPhoto) {
+  var cw = cwOf(state.colorway);
+  return hasPhoto ? cw.hot : mixHex(cw.hot, PAL.paper, 0.55);
+}
 function blockH() { return Math.round(H * 0.385); }
 
 /* ================= assets =================
@@ -898,7 +1001,7 @@ function blankState() {
     caption: "",
     clean: false, fitMode: "punch",
     colorway: "purple", bg: "arena", tint: 0,
-    photo: { id: null, zoom: 1, panX: 0, panY: 0 },
+    photo: { id: null, zoom: 1, panX: 0, panY: 0, kind: "photo" },
     inset: { id: null, dx: S.insetDx, dy: 0, scale: 1, shape: "square" },
     left: { id: null, zoom: 1, panX: 0, panY: 0 },
     right: { id: null, zoom: 1, panX: 0, panY: 0 },
@@ -1200,6 +1303,27 @@ function drawPhoto(ctx, img, ps, dx, dy, dw, dh, mode) {
   tintPass(ctx, dx, dy, dw, dh);
 }
 function mainMode() { return state.fitMode === "fit" ? "fit" : "punch"; }
+/* A cut-out subject standing on the wash: contained (never cropped), bottom
+   anchored, sitting above the text block, with a neutral-dark pool behind the
+   feet so it does not float. Mirrors postcard._news_cutout. No rim light - the
+   blind rounds rejected it as a "sticker halo". */
+function drawCutout(ctx, img, ps) {
+  var iw = img.naturalWidth || img.width, ih = img.naturalHeight || img.height;
+  if (!iw || !ih) return;
+  var boxH = H * 0.72, boxW = W * 0.86;
+  var sc = Math.min(boxW / iw, boxH / ih) * (ps.zoom || 1);
+  var w = iw * sc, h = ih * sc;
+  var x = (W - w) / 2 + (ps.panX || 0);
+  var y = H * 0.70 - h + (ps.panY || 0);
+  var g = ctx.createRadialGradient(W / 2, H * 0.70, 0, W / 2, H * 0.70, W * 0.42);
+  g.addColorStop(0, "rgba(8,8,14,0.55)");
+  g.addColorStop(1, "rgba(8,8,14,0)");
+  ctx.save(); ctx.fillStyle = g; ctx.fillRect(0, H * 0.34, W, H * 0.52); ctx.restore();
+  ctx.save();
+  if (supportsFilter && !state.clean) ctx.filter = "contrast(1.05) saturate(1.02)";
+  ctx.drawImage(img, x, y, w, h);
+  ctx.restore();
+}
 function halfMode() { return state.fitMode === "fit" ? "fit" : "cover"; }
 function photoDressing(ctx) {
   ctx.save();
@@ -1549,7 +1673,13 @@ function drawBlock(ctx, lines, size, cx, top, tr, lh, isHot, mode, hot, base) {
   }
   ctx.restore();
   // the returned box is the drawn INK, so centring it centres what the eye sees
-  if (!lines.length || inkTop === null) return { x: cx - 1, y: top, w: 2, h: Math.max(1, lh) };
+  if (!lines.length || inkTop === null) {
+    // A 2px-wide box is unhittable: with the canvas displayed at ~420px that is
+    // under one real pixel. Give an empty line a real target so the owner can
+    // still grab and move it.
+    var eW = Math.max(240, W * 0.35);
+    return { x: cx - eW / 2, y: top, w: eW, h: Math.max(lh, 40) };
+  }
   return { x: minX, y: inkTop, w: Math.max(1, maxX - minX), h: Math.max(1, inkBot - inkTop) };
 }
 
@@ -1700,7 +1830,11 @@ function drawNews(ctx) {
     ph = get(state.photo.id);
     layout.photo = { x: 0, y: 0, w: W, h: H };
     layout.left = null; layout.right = null;
-    if (ph) {
+    if (ph && state.photo.kind === "cutout") {
+      // scene first, subject on top - the postcard order
+      washField(ctx, 0, 0, W, H, cwOf(state.colorway), state.bg);
+      drawCutout(ctx, ph, state.photo);
+    } else if (ph) {
       drawPhoto(ctx, ph, state.photo, 0, 0, W, H, mainMode());
       if (!state.clean) photoDressing(ctx);
     } else washField(ctx, 0, 0, W, H, cwOf(state.colorway), state.bg);
@@ -1763,24 +1897,45 @@ function drawNews(ctx) {
   }
 
   layout.text = drawBlock(ctx, lines, size, cx, hy, tr, lh,
-    function (i) { return !!state.hot[keys[i]]; },
-    state.hlMode, hlHex(), baseHex());
+    /* solo: no per-word highlight at all - the bar below carries it */
+    function (i) { return !allHot && !!state.hot[keys[i]]; },
+    state.hlMode, newsHotHex(!!ph), baseHex());
+
+  if (allHot && lines.length) {
+    /* one bar under the last line, scaled to the word so a giant statement line
+       does not carry a timid sliver (postcard.render_news, solo branch) */
+    setFont(ctx, 900, size);
+    var dwSolo = trackedW(ctx, lines[lines.length - 1], tr) * sq;
+    var uw = Math.max(S.ruleW, Math.round(dwSolo * 0.44));
+    var uh = Math.max(6, Math.round(size * 0.055));
+    var uy = layout.text.y + layout.text.h + Math.max(12, Math.round(size * 0.12));
+    roundRect(ctx, cx - uw / 2, uy, uw, uh, uh / 2);
+    ctx.fillStyle = soloBarHex(!!ph); ctx.fill();
+  }
 
   if (footY !== null) drawFooter(ctx, segs, footY, dx);
 }
 
 /* ================= stat compare ================= */
+/* The texture chips used to do NOTHING on Quote-2-shots, Stat compare, Versus
+   and Then-and-now, because this path filled with ink and never called
+   washField. No error, no note, just a control that did not work - part of the
+   owner's "these effects don't actually work". */
 function pairBackground(ctx) {
+  washField(ctx, 0, 0, W, H, cwOf(state.colorway), state.bg);
   var l = get(state.left.id), r = get(state.right.id);
   layout.left = { x: 0, y: 0, w: W / 2, h: H };
   layout.right = { x: W / 2, y: 0, w: W / 2, h: H };
   layout.photo = layout.left;
-  ctx.fillStyle = PAL.ink; ctx.fillRect(0, 0, W, H);
+  // NO full-canvas ink fill here any more: it painted straight over the wash
+  // that was just drawn. An empty half now shows the colored scene instead of a
+  // flat slab, which is what the texture chips are for.
   if (l) drawPhoto(ctx, l, state.left, 0, 0, W / 2, H, halfMode());
-  else { ctx.fillStyle = PAL.inkSoft; ctx.fillRect(0, 0, W / 2, H); }
+  else { ctx.save(); ctx.globalAlpha = 0.45; ctx.fillStyle = PAL.inkSoft;
+         ctx.fillRect(0, 0, W / 2, H); ctx.restore(); }
   if (r) drawPhoto(ctx, r, state.right, W / 2, 0, W / 2, H, halfMode());
-  else { ctx.fillStyle = PAL.inkSoft; ctx.fillRect(W / 2, 0, W / 2, H); }
-  if (!l && !r) glowField(ctx);
+  else { ctx.save(); ctx.globalAlpha = 0.45; ctx.fillStyle = PAL.inkSoft;
+         ctx.fillRect(W / 2, 0, W / 2, H); ctx.restore(); }
   var ink = rgbOf(PAL.ink);
   var g = ctx.createLinearGradient(W / 2 - 130, 0, W / 2 + 130, 0);
   g.addColorStop(0, "rgba(" + ink + ",0)");
@@ -1953,12 +2108,16 @@ function pairBackgroundY(ctx) {
   layout.left = { x: 0, y: 0, w: W, h: H / 2 };
   layout.right = { x: 0, y: H / 2, w: W, h: H / 2 };
   layout.photo = layout.left;
-  ctx.fillStyle = PAL.ink; ctx.fillRect(0, 0, W, H);
+  // Same fix as pairBackground: the wash goes down first, and the full-canvas
+  // ink fill that used to paint straight over it is gone, so the texture chips
+  // do something on Then-and-now too.
+  washField(ctx, 0, 0, W, H, cwOf(state.colorway), state.bg);
   if (a) drawPhoto(ctx, a, state.left, 0, 0, W, H / 2, halfMode());
-  else { ctx.fillStyle = PAL.inkSoft; ctx.fillRect(0, 0, W, H / 2); }
+  else { ctx.save(); ctx.globalAlpha = 0.45; ctx.fillStyle = PAL.inkSoft;
+         ctx.fillRect(0, 0, W, H / 2); ctx.restore(); }
   if (b) drawPhoto(ctx, b, state.right, 0, H / 2, W, H / 2, halfMode());
-  else { ctx.fillStyle = PAL.inkSoft; ctx.fillRect(0, H / 2, W, H / 2); }
-  if (!a && !b) glowField(ctx);
+  else { ctx.save(); ctx.globalAlpha = 0.45; ctx.fillStyle = PAL.inkSoft;
+         ctx.fillRect(0, H / 2, W, H / 2); ctx.restore(); }
   var ink = rgbOf(PAL.ink), reach = Math.round(H * 0.11);
   var g = ctx.createLinearGradient(0, H / 2 - reach, 0, H / 2 + reach);
   g.addColorStop(0, "rgba(" + ink + ",0)");
@@ -2493,6 +2652,17 @@ var SNAP_PX = 12;
 var guides = { v: [], h: [] };
 var altHeld = false, gridCount = 0;
 
+/* Is this layer actually present on the CURRENT template? The active layer is
+   remembered across template switches, so "right" can still be selected on a
+   single-photo template - dragging it would then move nothing and look broken. */
+function layerExists(k) {
+  var d = tplDef();
+  if (k === "text") return !!layout.text;
+  if (k === "inset") return !!d.inset && !!layout.inset;
+  if (k === "right") return d.photos === "pair";
+  if (panelKey(k)) return d.photos === "panels";
+  return true;                      /* "photo" always exists */
+}
 function layerRect(k) {
   if (k === "text") return layout.text;
   if (k === "inset") return layout.inset;
@@ -2798,15 +2968,15 @@ function resetLayer(k, quiet) {
 
 /* ================= template picker ================= */
 var ART = {
-  quote: '<rect x="2" y="2" width="30" height="38" rx="4" fill="#20202E"/><rect x="2" y="24" width="30" height="16" rx="0" fill="#12121B"/><circle cx="15" cy="20" r="1.6" fill="#A45CFF"/><circle cx="19" cy="20" r="1.6" fill="#A45CFF"/><rect x="6" y="26" width="22" height="4" rx="1.4" fill="#EDEBF1"/><rect x="9" y="32" width="16" height="4" rx="1.4" fill="#A45CFF"/>',
-  inset: '<rect x="2" y="2" width="30" height="38" rx="4" fill="#20202E"/><rect x="18" y="14" width="12" height="12" rx="2.5" fill="#EDEBF1"/><rect x="20" y="16" width="8" height="8" rx="1.5" fill="#5B3DF5"/><rect x="6" y="29" width="22" height="4" rx="1.4" fill="#EDEBF1"/><rect x="9" y="35" width="16" height="3" rx="1.4" fill="#A45CFF"/>',
-  state: '<rect x="2" y="2" width="30" height="38" rx="4" fill="#20202E"/><rect x="4" y="16" width="26" height="9" rx="2" fill="#EDEBF1"/><rect x="10" y="27" width="14" height="3" rx="1.5" fill="#A45CFF"/>',
-  stat: '<rect x="2" y="2" width="14" height="38" rx="4" fill="#20202E"/><rect x="18" y="2" width="14" height="38" rx="4" fill="#20202E"/><rect x="3" y="17" width="28" height="7" rx="2" fill="#EDEBF1"/><rect x="4" y="28" width="10" height="4" rx="1.4" fill="#A45CFF"/><rect x="20" y="28" width="10" height="4" rx="1.4" fill="#A45CFF"/><rect x="4" y="34" width="10" height="3" rx="1.4" fill="#7B7A8C"/><rect x="20" y="34" width="10" height="3" rx="1.4" fill="#7B7A8C"/>',
-  versus: '<rect x="2" y="2" width="14" height="38" rx="4" fill="#20202E"/><rect x="18" y="2" width="14" height="38" rx="4" fill="#20202E"/><rect x="5" y="22" width="24" height="5" rx="1.6" fill="#EDEBF1"/><rect x="12" y="29" width="10" height="3" rx="1.4" fill="#A45CFF"/><rect x="5" y="34" width="24" height="4" rx="1.6" fill="#EDEBF1"/>',
-  duo: '<rect x="2" y="2" width="14" height="24" rx="3" fill="#20202E"/><rect x="18" y="2" width="14" height="24" rx="3" fill="#20202E"/><circle cx="15" cy="29" r="1.5" fill="#A45CFF"/><circle cx="19" cy="29" r="1.5" fill="#A45CFF"/><rect x="4" y="33" width="26" height="4" rx="1.4" fill="#EDEBF1"/><rect x="9" y="38.5" width="16" height="2.4" rx="1.2" fill="#7B7A8C"/>',
-  thennow: '<rect x="2" y="2" width="30" height="18" rx="3" fill="#20202E"/><rect x="2" y="22" width="30" height="18" rx="3" fill="#20202E"/><rect x="2" y="20.4" width="30" height="1.6" fill="#A45CFF"/><rect x="9" y="13" width="16" height="4" rx="1.4" fill="#EDEBF1"/><rect x="9" y="25" width="16" height="4" rx="1.4" fill="#EDEBF1"/>',
-  list: '<rect x="2" y="2" width="30" height="38" rx="4" fill="#20202E"/><rect x="10" y="6" width="14" height="4" rx="1.4" fill="#EDEBF1"/><rect x="5" y="14" width="4" height="4" rx="1.2" fill="#A45CFF"/><rect x="11" y="14" width="18" height="4" rx="1.4" fill="#EDEBF1"/><rect x="5" y="22" width="4" height="4" rx="1.2" fill="#A45CFF"/><rect x="11" y="22" width="18" height="4" rx="1.4" fill="#EDEBF1"/><rect x="5" y="30" width="4" height="4" rx="1.2" fill="#A45CFF"/><rect x="11" y="30" width="18" height="4" rx="1.4" fill="#EDEBF1"/>',
-  cal: '<rect x="2" y="2" width="30" height="38" rx="4" fill="#20202E"/><rect x="5" y="8" width="24" height="8" rx="2.4" fill="#5B3DF5"/><rect x="5" y="19" width="24" height="8" rx="2.4" fill="#8B70FF"/><rect x="5" y="30" width="24" height="8" rx="2.4" fill="#A45CFF" opacity="0.62"/><rect x="8" y="11" width="6" height="2.6" rx="1.2" fill="#FFFFFF"/><rect x="8" y="22" width="6" height="2.6" rx="1.2" fill="#FFFFFF"/><rect x="8" y="33" width="6" height="2.6" rx="1.2" fill="#FFFFFF"/>',
+  quote: '<rect x="2" y="2" width="30" height="38" rx="4" fill="#20202E"/><rect x="2" y="24" width="30" height="16" rx="0" fill="#12121B"/><circle cx="15" cy="20" r="1.6" fill="#6A49EC"/><circle cx="19" cy="20" r="1.6" fill="#6A49EC"/><rect x="6" y="26" width="22" height="4" rx="1.4" fill="#EDEBF1"/><rect x="9" y="32" width="16" height="4" rx="1.4" fill="#6A49EC"/>',
+  inset: '<rect x="2" y="2" width="30" height="38" rx="4" fill="#20202E"/><rect x="18" y="14" width="12" height="12" rx="2.5" fill="#EDEBF1"/><rect x="20" y="16" width="8" height="8" rx="1.5" fill="#5B3DF5"/><rect x="6" y="29" width="22" height="4" rx="1.4" fill="#EDEBF1"/><rect x="9" y="35" width="16" height="3" rx="1.4" fill="#6A49EC"/>',
+  state: '<rect x="2" y="2" width="30" height="38" rx="4" fill="#20202E"/><rect x="4" y="16" width="26" height="9" rx="2" fill="#EDEBF1"/><rect x="10" y="27" width="14" height="3" rx="1.5" fill="#6A49EC"/>',
+  stat: '<rect x="2" y="2" width="14" height="38" rx="4" fill="#20202E"/><rect x="18" y="2" width="14" height="38" rx="4" fill="#20202E"/><rect x="3" y="17" width="28" height="7" rx="2" fill="#EDEBF1"/><rect x="4" y="28" width="10" height="4" rx="1.4" fill="#6A49EC"/><rect x="20" y="28" width="10" height="4" rx="1.4" fill="#6A49EC"/><rect x="4" y="34" width="10" height="3" rx="1.4" fill="#7B7A8C"/><rect x="20" y="34" width="10" height="3" rx="1.4" fill="#7B7A8C"/>',
+  versus: '<rect x="2" y="2" width="14" height="38" rx="4" fill="#20202E"/><rect x="18" y="2" width="14" height="38" rx="4" fill="#20202E"/><rect x="5" y="22" width="24" height="5" rx="1.6" fill="#EDEBF1"/><rect x="12" y="29" width="10" height="3" rx="1.4" fill="#6A49EC"/><rect x="5" y="34" width="24" height="4" rx="1.6" fill="#EDEBF1"/>',
+  duo: '<rect x="2" y="2" width="14" height="24" rx="3" fill="#20202E"/><rect x="18" y="2" width="14" height="24" rx="3" fill="#20202E"/><circle cx="15" cy="29" r="1.5" fill="#6A49EC"/><circle cx="19" cy="29" r="1.5" fill="#6A49EC"/><rect x="4" y="33" width="26" height="4" rx="1.4" fill="#EDEBF1"/><rect x="9" y="38.5" width="16" height="2.4" rx="1.2" fill="#7B7A8C"/>',
+  thennow: '<rect x="2" y="2" width="30" height="18" rx="3" fill="#20202E"/><rect x="2" y="22" width="30" height="18" rx="3" fill="#20202E"/><rect x="2" y="20.4" width="30" height="1.6" fill="#6A49EC"/><rect x="9" y="13" width="16" height="4" rx="1.4" fill="#EDEBF1"/><rect x="9" y="25" width="16" height="4" rx="1.4" fill="#EDEBF1"/>',
+  list: '<rect x="2" y="2" width="30" height="38" rx="4" fill="#20202E"/><rect x="10" y="6" width="14" height="4" rx="1.4" fill="#EDEBF1"/><rect x="5" y="14" width="4" height="4" rx="1.2" fill="#6A49EC"/><rect x="11" y="14" width="18" height="4" rx="1.4" fill="#EDEBF1"/><rect x="5" y="22" width="4" height="4" rx="1.2" fill="#6A49EC"/><rect x="11" y="22" width="18" height="4" rx="1.4" fill="#EDEBF1"/><rect x="5" y="30" width="4" height="4" rx="1.2" fill="#6A49EC"/><rect x="11" y="30" width="18" height="4" rx="1.4" fill="#EDEBF1"/>',
+  cal: '<rect x="2" y="2" width="30" height="38" rx="4" fill="#20202E"/><rect x="5" y="8" width="24" height="8" rx="2.4" fill="#5B3DF5"/><rect x="5" y="19" width="24" height="8" rx="2.4" fill="#8B70FF"/><rect x="5" y="30" width="24" height="8" rx="2.4" fill="#6A49EC" opacity="0.62"/><rect x="8" y="11" width="6" height="2.6" rx="1.2" fill="#FFFFFF"/><rect x="8" y="22" width="6" height="2.6" rx="1.2" fill="#FFFFFF"/><rect x="8" y="33" width="6" height="2.6" rx="1.2" fill="#FFFFFF"/>',
   panels: '<rect x="2" y="2" width="30" height="11.5" rx="2.4" fill="#C81A10"/><rect x="2" y="15.5" width="30" height="11.5" rx="2.4" fill="#1E52D0"/><rect x="2" y="29" width="30" height="11" rx="2.4" fill="#0FA050"/><rect x="10" y="6" width="14" height="3.6" rx="1.4" fill="#FFFFFF"/><rect x="10" y="19.5" width="14" height="3.6" rx="1.4" fill="#FFFFFF"/><rect x="10" y="33" width="14" height="3.6" rx="1.4" fill="#FFFFFF"/>'
 };
 function buildTpl() {
@@ -3151,9 +3321,15 @@ function buildWashCard() {
   // applies the moment the photo is removed.
   var bn = $("bgNote");
   if (bn) {
+    // It used to appear ONLY for quote/inset/state WITH a photo, so on every
+    // other template a chip that looked inert had nothing explaining it.
     var newsFamily = (state.template === "quote" || state.template === "inset"
                       || state.template === "state");
-    bn.hidden = !(newsFamily && !!get(state.photo.id));
+    var covered = newsFamily && !!get(state.photo.id) && state.photo.kind !== "cutout";
+    bn.hidden = false;
+    bn.textContent = covered
+      ? "A full-bleed photo covers the scene. Remove it, or switch the subject to a cut-out, to see the texture."
+      : "The colored scene shows behind the poster. Cut-out subjects stand in front of it.";
   }
   var seg = $("tintSeg").querySelectorAll("button");
   for (var i = 0; i < seg.length; i++) {
@@ -3396,6 +3572,10 @@ function paintDrop(dropId, url, empty) {
 }
 function setPhoto(slot, im, url) {
   state[slot].id = im ? put(im, { data: toData(im) }, url) : null;
+  // a photo the owner drops himself is a PHOTO: only the bot stages cut-outs,
+  // and leaving the previous post's cutout flag on would stand his own
+  // photograph on a wash instead of filling the frame
+  if (slot === "photo") state.photo.kind = "photo";
   // buildWashCard keeps the bgNote honest: it shows/hides with the photo,
   // and this is the one choke point every photo add/remove goes through
   syncDrops(); buildWashCard(); drawNow();
@@ -3414,10 +3594,20 @@ function inside(rect, p, pad) {
   pad = pad || 0;
   return p.x >= rect.x - pad && p.x <= rect.x + rect.w + pad && p.y >= rect.y - pad && p.y <= rect.y + rect.h + pad;
 }
+/* The hit pad, in CANVAS units, derived from a real screen distance. The canvas
+   is 1080 wide and displays at about 420px, so the old flat 26 canvas px was
+   about 10 REAL pixels - smaller than a fingertip, and the reason the owner had
+   to resize the photo until the dashed box moved off the text before he could
+   grab the words again. */
+function hitPad(screenPx) {
+  var r = cv.getBoundingClientRect();
+  var scale = (r.width ? W / r.width : 1);
+  return Math.max(18, (screenPx || 22) * scale);
+}
 function pickLayer(p) {
-  var d = tplDef(), pick = "photo";
+  var d = tplDef(), pick = "photo", pad = hitPad(22);
   if (d.photos === "panels") {
-    if (inside(layout.text, p, 26)) return "text";
+    if (inside(layout.text, p, pad)) return "text";
     var geo = panelGeom();
     for (var i = 0; i < geo.length; i++) {
       if (p.y >= geo[i].y && p.y <= geo[i].y + geo[i].h) {
@@ -3427,8 +3617,11 @@ function pickLayer(p) {
     return "text";
   }
   if (d.photos === "pair") pick = (d.axis === "y" ? p.y > H / 2 : p.x > W / 2) ? "right" : "photo";
-  if (d.inset && inside(layout.inset, p, 10)) pick = "inset";
-  else if (inside(layout.text, p, 26)) pick = "text";
+  // smallest target first: the inset and the text sit ON the photo, which is the
+  // whole canvas, so a photo-first test can never lose but is never what the
+  // user meant either
+  if (d.inset && inside(layout.inset, p, hitPad(14))) pick = "inset";
+  else if (inside(layout.text, p, pad)) pick = "text";
   return pick;
 }
 var dragging = null;
@@ -3441,13 +3634,18 @@ cv.addEventListener("pointerdown", function (e) {
   // preventDefault below cancels the browser's own click-to-focus, which used
   // to leave the arrow keys dead after a tap on the poster. Focus by hand.
   try { cv.focus({ preventScroll: true }); } catch (err0) { try { cv.focus(); } catch (err1) { /* no focus */ } }
-  var pick = pickLayer(p);
-  setLayer(pick);
+  // DRAG MOVES THE ACTIVE LAYER. SELECTION CHANGES ON A TAP (see pointerup).
+  // This used to be setLayer(pickLayer(p)) on every press, so the Text/Photo
+  // chip was overwritten by the very next touch of the poster, and any press
+  // outside the ~10px text box silently reverted to the photo. That is the
+  // "when I select the photo I can no longer select the text" the owner hit.
+  var pick = layerExists(layer) ? layer : pickLayer(p);
+  if (pick !== layer) setLayer(pick);
   snap();
   altHeld = !!e.altKey;
   var pos = layerPos(pick), r = layerRect(pick);
   dragging = {
-    px: p.x, py: p.y, layer: pick, moved: false,
+    px: p.x, py: p.y, layer: pick, moved: false, downAt: p,
     baseX: pos.x, baseY: pos.y,
     rect: r ? { x: r.x, y: r.y, w: r.w, h: r.h } : null
   };
@@ -3494,7 +3692,14 @@ cv.addEventListener("pointermove", function (e) {
 });
 function endDrag(e) {
   if (!dragging) return;
-  if (!dragging.moved) hist.pop();
+  if (!dragging.moved) {
+    hist.pop();
+    // A TAP (no movement) is a SELECTION, not a move. This is the other half of
+    // the fix: the toolbar chip survives a drag, and a deliberate tap on the
+    // words picks the words even while the photo is the active layer.
+    var tapPick = pickLayer(dragging.downAt || { x: 0, y: 0 });
+    if (tapPick !== dragging.layer) setLayer(tapPick);
+  }
   if (dragging.layer === "text") parkLayout();
   guides.v = []; guides.h = [];
   dragging = null;
@@ -3866,15 +4071,112 @@ function shortWhen(ts) {
   if (isNaN(d.getTime())) return "";
   return when(d.getTime());
 }
+/* THUMBNAIL LOADING.
+
+   What it used to do: set a CSS background-image on every tile the moment the
+   rail rendered. With up to 25 staged posts that is 25 simultaneous requests,
+   and each one makes the Worker call Discord's REST API before it can send a
+   single byte (measured: 0.33s of server work per tile, 38 tiles live). Discord
+   rate-limits, the proxy answered 404, a 404 is never retried, and the tile
+   stayed blank for ever. The owner reasonably concluded the app was broken; it
+   was still loading, and some tiles never finished at all.
+
+   What it does now: three at a time, only for tiles actually on screen, with a
+   real placeholder, a retry on 503/5xx that honours Retry-After, and a visible
+   failure state instead of a silent blank. */
+var IMG_MAX_INFLIGHT = 3;
+var imgQueue = [], imgInflight = 0, imgDone = Object.create(null);
+
+function pumpImages() {
+  while (imgInflight < IMG_MAX_INFLIGHT && imgQueue.length) {
+    imgInflight++;
+    loadThumb(imgQueue.shift(), 0);
+  }
+}
+function loadThumb(job, attempt) {
+  var el0 = job.el;
+  if (!el0 || !el0.isConnected) { imgInflight--; pumpImages(); return; }
+  fetch(job.url, { credentials: "same-origin" }).then(function (r) {
+    if (r.status === 503 || r.status >= 500) {
+      var wait = Number(r.headers.get("retry-after") || 0);
+      if (!wait || isNaN(wait)) wait = 2;
+      if (attempt < 3) {
+        setTimeout(function () { loadThumb(job, attempt + 1); },
+                   Math.min(15000, wait * 1000 * (attempt + 1)));
+        return null;
+      }
+      throw new Error("busy");
+    }
+    if (!r.ok) throw new Error("gone");
+    return r.blob();
+  }).then(function (b) {
+    if (!b) return;                          /* a retry is pending, keep the slot */
+    var u = URL.createObjectURL(b);
+    imgDone[job.url] = u;
+    if (el0.isConnected) {
+      el0.style.backgroundImage = "url(" + JSON.stringify(u) + ")";
+      el0.classList.remove("loading");
+    }
+    imgInflight--; pumpImages();
+  }).catch(function () {
+    if (el0 && el0.isConnected) {
+      el0.classList.remove("loading");
+      el0.classList.add("failed");
+      el0.title = "The preview did not load. Tapping the card still works.";
+    }
+    imgInflight--; pumpImages();
+  });
+}
+
+var railObserver = null;
+function watchThumb(ph, url) {
+  if (!url) { ph.classList.remove("loading"); return; }
+  if (imgDone[url]) {                        /* already fetched this session */
+    ph.style.backgroundImage = "url(" + JSON.stringify(imgDone[url]) + ")";
+    ph.classList.remove("loading");
+    return;
+  }
+  ph.dataset.src = url;
+  if (!("IntersectionObserver" in window)) {
+    imgQueue.push({ el: ph, url: url }); pumpImages(); return;
+  }
+  if (!railObserver) {
+    railObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        railObserver.unobserve(e.target);
+        imgQueue.push({ el: e.target, url: e.target.dataset.src });
+        pumpImages();
+      });
+    }, { root: $("rail"), rootMargin: "300px" });
+  }
+  railObserver.observe(ph);
+}
+
+/* Reconcile by id instead of wiping innerHTML. renderRail used to run on every
+   pick just to move the selected ring, and the wipe aborted every download still
+   in flight, which then restarted from scratch. */
 function renderRail(items) {
   var rail = $("rail");
-  rail.innerHTML = "";
+  var have = Object.create(null);
+  Array.prototype.forEach.call(rail.children, function (c) {
+    if (c.dataset && c.dataset.sid) have[c.dataset.sid] = c;
+  });
+  var keep = Object.create(null);
   items.forEach(function (p) {
-    var b = el("button", "railitem");
+    keep[p.id] = 1;
+    var b = have[p.id];
+    if (b) {                                 /* keep the node, move the ring */
+      b.setAttribute("aria-pressed", stagedPick === p.id ? "true" : "false");
+      rail.appendChild(b);
+      return;
+    }
+    b = el("button", "railitem");
     b.type = "button";
+    b.dataset.sid = p.id;
     b.setAttribute("aria-pressed", stagedPick === p.id ? "true" : "false");
-    var ph = el("span", "ph");
-    if (p.image) ph.style.backgroundImage = "url(" + JSON.stringify(p.image) + ")";
+    var ph = el("span", "ph loading");
+    watchThumb(ph, p.image);
     if (p.score != null) ph.appendChild(el("span", "score", String(p.score)));
     var w = shortWhen(p.timestamp);
     if (w) ph.appendChild(el("span", "when", w));
@@ -3884,6 +4186,10 @@ function renderRail(items) {
     b.appendChild(el("span", "why", p.why || (p.speaker ? p.speaker + (p.source ? ", via " + p.source : "") : "")));
     b.addEventListener("click", function () { pickStaged(p); });
     rail.appendChild(b);
+  });
+  Array.prototype.slice.call(rail.children).forEach(function (c) {
+    if (c.classList && c.classList.contains("skel")) { rail.removeChild(c); return; }
+    if (c.dataset && c.dataset.sid && !keep[c.dataset.sid]) rail.removeChild(c);
   });
 }
 function railSkeleton() {
@@ -3911,7 +4217,18 @@ function pickFromHash() {
   pickedHash = m[1];
   toast("That staged post is not in the queue any more - staged copies are tidied out after a couple of days.");
 }
-window.addEventListener("hashchange", function () { loadStaged(); });
+window.addEventListener("hashchange", function () {
+  /* Re-fetching the whole rail here wiped every tile already on screen and
+     restarted all their downloads. Only go back to the server when the post the
+     link names is not in the list we already hold. */
+  var m = /[#&]s=(\\d{15,21})/.exec(location.hash || "");
+  if (m) {
+    for (var i = 0; i < staged.length; i++) {
+      if (staged[i].id === m[1]) { pickedHash = m[1]; pickStaged(staged[i]); return; }
+    }
+  }
+  loadStaged();
+});
 function loadStaged() {
   railSkeleton();
   $("railNote").textContent = "Loading what the bot staged in Discord.";
@@ -3982,6 +4299,13 @@ function pickStaged(p) {
   // even for the moment the new one spends in flight, or forever when its
   // fetch fails - quietly renders the new words over the old story's picture.
   var src = p.photo || "";
+  // A CUTOUT IS NOT A PHOTO. postcard composites a cut-out fighter OVER the
+  // wash; the studio dropped it into the plain photo slot, which takes the
+  // full-bleed branch and never calls washField at all. That is the owner's
+  // "these images have a background, but in the app they don't" - the texture
+  // was not broken, it was being covered by a subject that should have been
+  // standing IN FRONT of it.
+  state.photo.kind = (p.photoKind === "cutout") ? "cutout" : "photo";
   state.photo.id = null;
   renderRail(staged);
   syncInputs(); syncDrops(); buildWashCard(); drawNow();
@@ -3989,6 +4313,7 @@ function pickStaged(p) {
     if (p.spec) toast("Loaded. This one is a wash poster - the colored scene IS the design. Drop a photo only if you want one.");
     else if (p.image) toast("Words loaded. This post predates the round-trip, so its image has the text baked in - drop a fresh photo.");
     else toast("Loaded the words. Add a photo when you have one.");
+    stepAfterPick();
     scheduleSave();
     return;
   }
@@ -3997,9 +4322,11 @@ function pickStaged(p) {
     state.photo.id = put(o.img, data ? { data: data } : { url: src }, o.url);
     syncDrops(); buildWashCard(); drawNow(); scheduleSave();
     toast("Loaded with the raw " + (p.photoKind === "cutout" ? "cutout" : "photo") + ". Change one thing and export.");
+    stepAfterPick();
   }).catch(function () {
     syncDrops(); buildWashCard(); drawNow(); scheduleSave();
     toast("The photo would not load, so the words sit on the wash for now.");
+    stepAfterPick();
   });
 }
 
@@ -4845,6 +5172,102 @@ restore().then(function (ok) {
   loadPoll();
   refreshDrafts();
 });
+
+/* ================= the 1-2-3-4 workflow =================
+   The owner: "why don't you make it like a proper workflow where I could go
+   from one two three four... there's so much wasted space". The renderer is
+   untouched; only the shell around it changed.
+
+   The escape hatch ships WITH the change, not after it: ?shell=classic in the
+   url, or the Settings toggle, restores the old single column immediately. A
+   redesign he cannot back out of is a redesign he has to live with. */
+var STEPS = [
+  { n: 1, label: "Pick" },
+  { n: 2, label: "Words" },
+  { n: 3, label: "Picture" },
+  { n: 4, label: "Export" }
+];
+var shellMode = "steps", stepNow = 1;
+
+/* The canvas cap changes with the shell, and the sticky toolbar offset is
+   measured from the real topbar height. Both live in other scopes, so this
+   nudges them the way a resize would - and swallows anything missing, because a
+   layout helper must never be able to abort the boot sequence (referencing a
+   non-global fit() here did exactly that, and the whole redesign silently did
+   nothing while the step bar looked fine). */
+function relayout() {
+  try { window.dispatchEvent(new Event("resize")); } catch (e) { /* older engine */ }
+  try { if (typeof requestDraw === "function") requestDraw(); } catch (e) { /* not ready yet */ }
+}
+
+function readShellPref() {
+  try {
+    if (/[?&]shell=classic/.test(location.search)) return "classic";
+    if (/[?&]shell=steps/.test(location.search)) return "steps";
+    var v = localStorage.getItem("studio.shell");
+    if (v === "classic" || v === "steps") return v;
+  } catch (e) { /* private window: fall through to the default */ }
+  return "steps";
+}
+function applyShell(mode) {
+  shellMode = (mode === "classic") ? "classic" : "steps";
+  document.documentElement.setAttribute("data-shell", shellMode);
+  try { localStorage.setItem("studio.shell", shellMode); } catch (e) { /* nothing to persist to */ }
+  var t = $("shellToggle");
+  if (t) t.textContent = shellMode === "steps" ? "Switch to the old single page"
+                                               : "Switch to the 1-2-3-4 workflow";
+  var n = $("shellNote");
+  if (n) n.textContent = shellMode === "steps"
+    ? "Four steps: pick a story, write the words, set the picture, export."
+    : "Every panel on one page, the way it was before.";
+  if (shellMode === "steps") setStep(stepNow);
+  relayout();
+}
+function setStep(n) {
+  n = Math.min(4, Math.max(1, Number(n) || 1));
+  stepNow = n;
+  var panel = document.querySelector(".panel");
+  if (panel) panel.setAttribute("data-step", String(n));
+  var bar = $("stepbar");
+  if (bar) {
+    Array.prototype.forEach.call(bar.children, function (b) {
+      b.setAttribute("aria-current", Number(b.dataset.step) === n ? "true" : "false");
+    });
+  }
+  try { localStorage.setItem("studio.step", String(n)); } catch (e) { /* not persisted */ }
+  relayout();
+}
+function buildSteps() {
+  var bar = $("stepbar");
+  if (!bar) return;
+  bar.innerHTML = "";
+  STEPS.forEach(function (st) {
+    var b = el("button", "");
+    b.type = "button";
+    b.dataset.step = String(st.n);
+    b.appendChild(el("b", "", String(st.n)));
+    b.appendChild(el("span", "", st.label));
+    b.addEventListener("click", function () { setStep(st.n); });
+    bar.appendChild(b);
+  });
+  var saved = 1;
+  try { saved = Number(localStorage.getItem("studio.step")) || 1; } catch (e) { saved = 1; }
+  setStep(saved);
+}
+/* Tapping a staged post is step 1's whole job, so it hands the owner straight
+   on to the words rather than making him find the next step himself. */
+function stepAfterPick() { if (shellMode === "steps" && stepNow === 1) setStep(2); }
+
+buildSteps();
+(function () {
+  var t = $("shellToggle");
+  if (t) t.addEventListener("click", function () {
+    applyShell(shellMode === "steps" ? "classic" : "steps");
+    toast(shellMode === "steps" ? "Four steps." : "Back to the single page.");
+  });
+})();
+applyShell(readShellPref());
+
 loadStaged();
 loadLimits();
 loadKeyState();
