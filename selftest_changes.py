@@ -515,6 +515,43 @@ check("with no digest time configured nothing is queued, so the state file "
       "if not digest_on(cfg_for_queue[0]):" in
       open(os.path.join(_SRC, "news_bot.py"), encoding="utf-8").read())
 
+# A flat 3300s window is right only for a job the cron started at :04. A run
+# dispatched by hand at :28 asked for the same 55 minutes, overran the next tick,
+# left it PENDING on the bot-news group, and GitHub cancels a pending run when
+# the tick after that arrives - mailing "All jobs were cancelled" for a run that
+# never failed. That is why news.yml was pulled out of the deploy's dispatch
+# list; sizing the window to the time actually available makes a manual run safe
+# again, which matters because GitHub honours only ~40% of the hourly ticks and
+# a hand-started run is the recovery.
+_wf_bad = []
+for _h in range(24):
+    for _m in range(60):
+        _st = common.datetime.datetime(2026, 9, 3, _h, _m,
+                                       tzinfo=common.datetime.timezone.utc)
+        _end = _st + common.datetime.timedelta(seconds=news_bot.window_for(_st))
+        _t = _st.replace(minute=news_bot.CRON_MINUTE, second=0, microsecond=0)
+        while _t <= _st:
+            _t += common.datetime.timedelta(hours=1)
+        _w = news_bot.window_for(_st)
+        _t2 = _t + common.datetime.timedelta(hours=1)
+        # The invariant that matters: a run can NEVER still be going when the
+        # tick AFTER next arrives, because that is what cancels a pending run and
+        # mails the owner. A window pinned to the 120s floor may overlap the very
+        # next tick by up to two minutes; that one just queues and starts.
+        if _end >= _t2:
+            _wf_bad.append("spans two ticks at " + _st.strftime("%H:%M"))
+        elif _end >= _t and _w > 120:
+            _wf_bad.append("overruns at " + _st.strftime("%H:%M"))
+check("no window can ever span two cron ticks, and only a floored window may "
+      "overlap the next one at all (1440 start times checked)", not _wf_bad)
+check("a job started on the cron still gets the full window",
+      news_bot.window_for(common.datetime.datetime(
+          2026, 9, 3, 8, 5, tzinfo=common.datetime.timezone.utc)) == news_bot.WINDOW_SECONDS)
+_news_yml_src = open(os.path.join(_SRC, ".github", "workflows", "news.yml"),
+                     encoding="utf-8").read()
+check("news_bot.CRON_MINUTE matches the cron in news.yml",
+      ("'%d * * * *'" % news_bot.CRON_MINUTE) in _news_yml_src)
+
 check("news polls every ~20s across a ~55-min window",
       news_bot.POLL_SECONDS <= 30 and news_bot.WINDOW_SECONDS >= 1800)
 
