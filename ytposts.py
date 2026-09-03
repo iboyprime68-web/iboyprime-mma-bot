@@ -171,7 +171,18 @@ def fighter_cutout(text, hist=None, now=None, days=7):
 # save(). Measured against the live studio channel on Aug 19 2026, these gates
 # turn the 5 Makhachev posts staged in 26h into 2, and kill both duplicated
 # Magny/Barboza pairs - exactly the owner's complaint.
-STAGED_HIST_CAP = 40
+# Sized from the LONGEST cooldown that reads this list times the daily ceiling,
+# never a bare round number. cutout_blocked rests a fighter's promo mugshot for
+# cutout_cooldown_days (7) but can only see fighters still inside this window,
+# and news_bot.save() prunes by COUNT. At the old ceiling of 6 staged posts a
+# day, 40 entries covered 6.7 days - already short of 7. The priority lane
+# raises the ceiling to max_staged_per_day + max_priority_staged_per_day = 9,
+# which would have cut the window to 4.4 days and quietly let one champion's
+# cutout front two posters inside a week again. 7 * (6 + 5) = 77, so 80 with
+# slack; the entries are small and fixed-shape, so the file stays a bounded
+# ~22KB. A selftest derives the requirement from the live config, so raising a
+# cap without raising this fails CI rather than silently shrinking the window.
+STAGED_HIST_CAP = 80
 
 GATE_DEFAULTS = {
     "stage_max_age_hours": 36,      # older stories never stage (rehash net #1)
@@ -243,6 +254,64 @@ def name_tokens(text):
             if len(lw) >= 3 and lw not in out:
                 out.append(lw)
     return out[:8]
+
+
+# ---- the priority lane (the "it never reached the studio" fix) ------------
+# Sept 3 2026. A Yahoo Sports story the owner called the best headline of the
+# day reached the news channel at 17:45 UTC, with a phone alert, and never
+# reached the studio. It was not filtered and not a repeat: the six slots of
+# max_staged_per_day had been spent between 03:44 and 08:35 by six ordinary
+# stories, and scorer.under_cap refused this one BEFORE it was ever scored.
+# A daily budget that is first-come-first-served is spent by breakfast.
+#
+# So the hot tier gets a budget of its own. What counts as hot is the
+# DETERMINISTIC heuristic, never the model score, for the same reason
+# notify.py gives:
+#   * measured on 700 real stories, DeepSeek hands 82-85 to almost everything,
+#     so it ranks nothing;
+#   * the heuristic separates cleanly - 58% of stories sit at its floor of 35,
+#     and only 3.6 a day reach 80. BOTH stories that have ever buzzed the
+#     owner's phone scored exactly 80.
+#
+# TWO THINGS ARE DELIBERATELY NOT THE TRIGGER, and both were measured before
+# being rejected:
+#
+# 1. The bare `breaking` flag. Over those 700 stories the keyword net fired 70
+#    times, 47 of them on the word "retirement" alone ("teases retirement",
+#    "retirement claim", "what retirement looks like"). Breaking already adds
+#    30 points, so a breaking story carrying real news reaches 80 on its own
+#    and one carrying only the word does not, which is the correct outcome.
+#
+# 2. The phone alert itself. "It buzzed his phone so it belongs in the studio"
+#    is a tempting invariant and it is wrong, because notify.tier alerts on
+#    `breaking` with NO score floor. Simulating notify.claim over the same 700
+#    stories: 50 stories claimed a buzz, and the 28 of them scoring under 80
+#    are eight copies of "Islam Makhachev teases retirement", a Dolly Parton
+#    tribute, The Rock's WWE status, a guillotine on a pickup truck and an
+#    Argentina footballer's international retirement. Admitting those to a
+#    RESERVED lane would hand the scarce slots to exactly the drip the Aug 19
+#    staging memory exists to stop. A buzz is a news interruption; the studio
+#    is content selection; they are different jobs. The alert still decides
+#    DRAIN ORDER in news_bot, which is the honest use of it.
+PRIORITY_THRESHOLD = 80
+
+
+def is_priority(heur_score, scfg):
+    """True when this story takes the priority staging lane: the deterministic
+    heuristic reaches scoring.priority_threshold.
+
+    scoring.priority_threshold of 0 turns the lane off entirely; a junk value
+    falls back to the default rather than raising. Pure."""
+    try:
+        thr = int((scfg or {}).get("priority_threshold", PRIORITY_THRESHOLD))
+    except (TypeError, ValueError):
+        thr = PRIORITY_THRESHOLD
+    if thr <= 0:
+        return False
+    try:
+        return int(heur_score or 0) >= thr
+    except (TypeError, ValueError):
+        return False
 
 
 def stage_gate(it, score, breaking, hist, now, scfg):
