@@ -531,7 +531,10 @@ def stage_story(it, score, why, cfg_bots, newscfg, hist=None, state=None):
             # the fast alert is the one that fires. `state` is optional so the
             # existing test callers and any direct use keep working unchanged.
             if state is None or notify.claim(state, it.get("guid", ""),
-                                             time.time(), newscfg):
+                                             time.time(), newscfg,
+                                             title=it.get("title", ""),
+                                             similar=newsconfig.similar,
+                                             subject=name_tokens(it.get("title", ""))):
                 ping_uid = str(cfg_bots.get("owner_id", "") or "")
 
         caption = build_caption(it.get("title"), it.get("desc"), it.get("source"))
