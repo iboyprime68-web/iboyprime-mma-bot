@@ -881,6 +881,43 @@ for _i in range(notify.LEDGER_CAP + 50):
 check("the ledger prunes NEWEST-first, like `seen` (never alphabetically)",
       len(_nt_big[notify.LEDGER_KEY]) <= notify.LEDGER_CAP)
 
+# Cross-outlet dedupe. A big story arrives under four guids from four outlets;
+# keying the ledger on the guid alone buzzed four times for one withdrawal
+# (measured on real traffic). Both extra guards suppress only the INTERRUPTION -
+# the story still posts.
+_x = {}
+check("a near-identical rewrite from another outlet does not buzz again",
+      notify.claim(_x, "gA", 1e6, {}, title="Shevchenko pulls out of UFC 332 with injury",
+                   similar=newsconfig.similar) is True
+      and notify.claim(_x, "gB", 1e6, {}, title="Shevchenko pulls out of UFC 332 injury",
+                       similar=newsconfig.similar) is False)
+# Token overlap alone cannot see these two: measured Jaccard 0.23.
+_y = {}
+_t1 = "Valentina Shevchenko out of UFC 322 Main Event in October"
+_t2 = "Valentina Shevchenko Withdraws from UFC 332 Due to Injury"
+check("wording-different rewrites of one story score BELOW the token threshold "
+      "(which is why the name guard exists)",
+      newsconfig.similar(_t1, _t2) < 0.45)
+check("the same fighter inside the subject window does not buzz twice",
+      notify.claim(_y, "g1", 1e6, {}, title=_t1, similar=newsconfig.similar,
+                   subject=_nt_yt.name_tokens(_t1)) is True
+      and notify.claim(_y, "g2", 1e6 + 600, {}, title=_t2, similar=newsconfig.similar,
+                       subject=_nt_yt.name_tokens(_t2)) is False)
+check("...but a genuine later beat about the same fighter DOES buzz",
+      notify.claim(_y, "g3", 1e6 + 7 * 3600, {}, title=_t2, similar=newsconfig.similar,
+                   subject=_nt_yt.name_tokens(_t2)) is True)
+check("two different fighters in the same window both buzz",
+      notify.claim({}, "g4", 1e6, {}, title="Gaethje retires",
+                   similar=newsconfig.similar,
+                   subject=_nt_yt.name_tokens("Justin Gaethje retires")) is True)
+check("a title with no recognisable name is never suppressed by the name guard",
+      notify.claim(dict(_y), "g9", 1e6 + 60, {}, title="Card shuffled again",
+                   similar=newsconfig.similar, subject=set()) is True)
+check("the title ledger is capped and survives junk entries in a committed file",
+      notify.TITLE_CAP <= 100
+      and notify.claim({"pinged_titles": ["junk", 5, {"a": 1}]}, "g", 1e6, {},
+                       title="A story", similar=newsconfig.similar) is True)
+
 check("a mention is never emitted without a role to carry it",
       notify.role_mention("") == ("", None)
       and notify.role_mention("R1") == ("<@&R1> ", {"parse": [], "roles": ["R1"]}))
