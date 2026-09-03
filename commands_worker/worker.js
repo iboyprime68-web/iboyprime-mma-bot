@@ -328,6 +328,14 @@ function applyNewsChange(newscfg, group, sub, a) {
     if (sub === "add") { if (w && !arr.includes(w)) arr.push(w); }
     else if (key === "exclude_keywords" && PROTECTED_EXCLUDES.includes(w)) {
       newscfg._refused = "protected";      // read by the caller, never persisted
+    } else if (key === "breaking_keywords"
+               && !arr.filter(x => x !== w).some(x => String(x).trim())) {
+      // The LAST breaking word may not be removed. newsconfig.validate_newsconfig
+      // blocks this for MOD_PANEL, but nothing here calls the validator, so the
+      // guard has to exist on both sides or the Worker is a hole straight through
+      // it. An empty list costs 30 of the heuristic's 100 points on every story,
+      // which silently ends both the phone alerts and the studio's priority lane.
+      newscfg._refused = "last-breaking";
     } else newscfg[key] = arr.filter(x => x !== w);
   }
   return newscfg;
@@ -557,6 +565,11 @@ const COMMANDS = {
       return msg("\u26D4 `" + (opts.word || "").toLowerCase().trim() + "` is part of the no-gambling rule and can't be removed. "
                + "You can still add your own words. The filter also runs in code, so betting content is blocked "
                + "whether or not it's in this list.", true);
+    }
+    if (updated._refused === "last-breaking") {
+      return msg("\u26D4 That's the last breaking keyword, so it can't be removed. The list decides which stories "
+               + "reach your phone and which get a studio poster, and an empty list quietly switches both off. "
+               + "Add a replacement word first, then remove this one.", true);
     }
     delete updated._refused;
     const saved = await saveRepoJson(env, "newsconfig.json", updated, sha, `news: ${group ? group + "/" : ""}${sub}`);
