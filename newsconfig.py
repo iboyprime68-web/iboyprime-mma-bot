@@ -20,6 +20,8 @@ Delivery modes:
 """
 import re
 import common
+import promofilter                 # the no-gambling rule, enforced in code
+import topicgate                   # the positive "is this actually MMA" gate
 from modconfig import deep_merge   # generic dict merge - reuse, don't duplicate
 
 NEWSCONFIG_FILE = "newsconfig.json"
@@ -47,8 +49,10 @@ except Exception:                                  # pragma: no cover
 EMPHASIS_MODES = ["color", "underline", "auto"]
 
 _DEFAULT_SOURCES = {
-    "mma_fighting":  {"label": "MMA Fighting", "url": "https://www.mmafighting.com/rss/current.xml", "enabled": True},
-    "bloody_elbow":  {"label": "Bloody Elbow", "url": "https://www.bloodyelbow.com/feed/",           "enabled": True},
+    "mma_fighting":  {"label": "MMA Fighting", "url": "https://www.mmafighting.com/rss/current.xml", "enabled": True,
+                      "trusted": True},
+    "bloody_elbow":  {"label": "Bloody Elbow", "url": "https://www.bloodyelbow.com/feed/",           "enabled": True,
+                      "trusted": True},
     # MMA Mania (SBNation, same feed shape as MMA Fighting) replaced MMA Junkie in
     # July 2026 - the Junkie publication left Gannett and archived its site, so
     # mmajunkie.usatoday.com now 404s and mmajunkie.com 307-redirects everything
@@ -56,7 +60,7 @@ _DEFAULT_SOURCES = {
     # Measured Aug 13 2026: this feed's CDN served a 5.9-HOUR-old snapshot (Age
     # header 21117s), so tight polling buys nothing - min_poll keeps it cheap and
     # Google News surfaces Mania stories hours before Mania's own feed does.
-    "mma_mania":     {"label": "MMA Mania",    "url": "https://www.mmamania.com/rss/current.xml",    "enabled": True,
+    "mma_mania":     {"label": "MMA Mania",    "url": "https://www.mmamania.com/rss/current.xml",    "enabled": True, "trusted": True,
                       "min_poll": 300},
     # THE SPEED LAYER (Aug 2026, all verified live with the bot's own client):
     # Google News indexes every MMA outlet at once and had a story 0.9 MINUTES
@@ -78,21 +82,32 @@ _DEFAULT_SOURCES = {
     # even with a plain urllib UA. Enabled tolerantly - if Actions IPs are still
     # blocked the fetch skips silently and the failure backoff keeps it cheap.
     "sherdog":       {"label": "Sherdog",      "url": "https://www.sherdog.com/rss/news.xml",
-                      "enabled": True, "min_poll": 300},
+                      "enabled": True, "trusted": True, "min_poll": 300},
     # X insiders via nitter.net RSS - the ONLY tweet-time-speed path that exists
     # keyless in 2026, and the layer the big YouTube news channels actually read.
     # FRAGILE BY NATURE: public Nitter has died before and can again, so these
-    # ship with flavor "nitter" (1 try, short timeout, retweets dropped) and MUST
+    # DISABLED Sept 2026: nitter.net still serves its home page (HTTP 200) but
+    # every /<account>/rss endpoint now returns 410 Gone - a deliberate shutdown
+    # of the RSS surface, not an outage. Verified on all four accounts. Leaving
+    # them enabled costs a failed fetch plus a 300s backoff every cycle and makes
+    # the health report look broken. There is no free replacement: the X API is
+    # paid, and scraping with cookies violates the ToS with the channel as the
+    # collateral. Re-enable only if the endpoints come back.
+    # They ship with flavor "nitter" (1 try, short timeout, retweets dropped) and MUST
     # only ever fail silent - never alert, never email. Do not build anything
     # that depends on them.
     "x_helwani":     {"label": "Ariel Helwani", "url": "https://nitter.net/arielhelwani/rss",
-                      "enabled": True, "flavor": "nitter", "min_poll": 90},
+                      "enabled": False, "flavor": "nitter", "trusted": True,
+                      "min_poll": 90},
     "x_mmafighting": {"label": "MMA Fighting on X", "url": "https://nitter.net/MMAFighting/rss",
-                      "enabled": True, "flavor": "nitter", "min_poll": 90},
+                      "enabled": False, "flavor": "nitter", "trusted": True,
+                      "min_poll": 90},
     "x_mmajunkie":   {"label": "MMA Junkie on X", "url": "https://nitter.net/mmajunkie/rss",
-                      "enabled": True, "flavor": "nitter", "min_poll": 90},
+                      "enabled": False, "flavor": "nitter", "trusted": True,
+                      "min_poll": 90},
     "x_ufc":         {"label": "UFC on X",      "url": "https://nitter.net/ufc/rss",
-                      "enabled": True, "flavor": "nitter", "min_poll": 90},
+                      "enabled": False, "flavor": "nitter", "trusted": True,
+                      "min_poll": 90},
     # Boxing feeds ship DISABLED (owner is UFC-focused). Bad Left Hook is a Vox
     # feed (same shape as MMA Fighting). Verify boxingscene's feed shape before
     # ever enabling it.
@@ -104,15 +119,20 @@ _DEFAULT_SOURCES = {
 SOURCE_FLAVORS = ("", "google_news", "nitter")
 
 # Titles are classified by FIRST category whose keyword hits (check order below).
-# Anything unmatched falls back to default_category - the feeds are UFC-dominant,
-# so general MMA stories count as "ufc" and survive UFC-only filtering, while
-# stories explicitly about other orgs / boxing get their own category and can be
-# toggled off.
+# Anything unmatched falls back to default_category.
+#
+# That fallback used to be the contamination hole: nothing checked a story was
+# combat sports at all, so MLB, college football, soccer and adverts were all
+# labelled "ufc" and passed the UFC-only filter (measured live, Sept 2026).
+# It is safe again ONLY because topicgate.is_mma() now runs BEFORE classify() in
+# news_bot.keep(). A story reaching the fallback has already proved it is MMA;
+# the fallback only decides which colour and label it gets. Do not remove the
+# topic gate and leave the fallback, and do not reorder them.
 _DEFAULT_CATEGORIES = {
     "boxing":    {"label": "Boxing", "enabled": False, "color": 0xFFD700,
                   "keywords": ["boxing", "boxer", "wbc ", "wba ", " ibf", " wbo",
                                "canelo", "tyson fury", "usyk", "anthony joshua"]},
-    "mma_other": {"label": "MMA", "enabled": False, "color": 0xE67E22,
+    "mma_other": {"label": "MMA", "enabled": True, "color": 0xE67E22,
                   "keywords": ["bellator", "pfl", "one championship", "one fc",
                                "bkfc", "rizin", "cage warriors", "invicta",
                                "karate combat", "glory kickboxing"]},
@@ -154,6 +174,10 @@ def base_defaults():
         "breaking_keywords": list(_DEFAULT_BREAKING),
         "breaking_ignores_filters": True,   # a major story alerts even if its category is off
         "exclude_keywords": list(_DEFAULT_EXCLUDE),
+        # Extra full names the topic gate should always accept. mma_roster.json
+        # is seeded from the rankings at deploy time and DECAYS between deploys,
+        # so a fighter who debuts afterwards is unknown to it. Add them here.
+        "always_allow": [],
         "digest": {"times_utc": ["21:30"], "min_items": 3, "ping": True},
         # Hot-word emphasis on the staged poster (see EMPHASIS_MODES).
         "emphasis": "color",
@@ -268,8 +292,45 @@ def is_breaking(title, cfg):
     return _hit(title, cfg.get("breaking_keywords"))
 
 
-def is_excluded(title, cfg):
+def is_excluded(title, cfg, desc=""):
+    """Owner keyword list OR the hard no-gambling/no-advertising floor.
+
+    promofilter runs UNCONDITIONALLY and is not read from config. exclude_keywords
+    is therefore purely ADDITIVE: the owner can add terms from the panel or
+    /news, but "no betting/gambling anywhere" cannot be edited away. That matters
+    because `/news keyword remove betting` deletes a term and deep_merge replaces
+    a list wholesale, so nothing ever put it back - and because the seventeen
+    words in that list matched neither of the two gambling promos that reached
+    the channel in Sept 2026."""
+    blocked, why = promofilter.is_promo(title, desc)
+    if blocked:
+        return True
     return _hit(title, cfg.get("exclude_keywords"))
+
+
+def exclude_reason(title, cfg, desc=""):
+    """Same decision as is_excluded, but says which rule fired. Used for the job
+    log so a wrong drop can be diagnosed without re-running the filter by hand."""
+    blocked, why = promofilter.is_promo(title, desc)
+    if blocked:
+        return "promo/gambling:" + why
+    return "keyword" if _hit(title, cfg.get("exclude_keywords")) else ""
+
+
+def source_trusted(key, cfg):
+    """True for MMA-only publications. Untrusted sources (search feeds and
+    aggregators) must earn each story through topicgate. Absent flag = untrusted:
+    guessing wrong that way puts one extra MMA word in the way of a real story,
+    while the other way puts a baseball score in the channel."""
+    return bool(((cfg.get("sources", {}) or {}).get(key) or {}).get("trusted"))
+
+
+def is_on_topic(title, desc, cfg, source_key):
+    """(keep, reason) - the positive MMA gate. Single entry point so news_bot and
+    any future transport ask the same question the same way."""
+    return topicgate.is_mma(title, desc,
+                            trusted=source_trusted(source_key, cfg),
+                            extra=cfg.get("always_allow") or ())
 
 
 def category_enabled(cat_key, cfg):
