@@ -921,9 +921,10 @@ const STUDIO_CSP = [
   "base-uri 'none'",
   "frame-ancestors 'none'",
 ].join("; ");
-function studioJson(obj, status) {
+function studioJson(obj, status, extra) {
   return new Response(JSON.stringify(obj), { status: status || 200,
-    headers: { "content-type": "application/json; charset=utf-8", ...STUDIO_HEADERS } });
+    headers: { "content-type": "application/json; charset=utf-8", ...STUDIO_HEADERS,
+               ...(extra || {}) } });
 }
 function studioText(text, status) {
   return new Response(text, { status: status || 200,
@@ -1236,8 +1237,28 @@ async function studioImg(env, mid, idx) {
   if (!me) return studioJson({ error: "could not identify the bot user" }, 502);
   const now = Date.now();
   let hit = _imgMsgCache[String(mid)];
-  if (!hit || now - hit.at > 300000) {                 // 5 min: urls stay fresh
+  if (!hit || now - hit.at > 3600000) {                // 1 h: the CDN url is
+                                                      // re-derived on every hit,
+                                                      // so a longer cache costs
+                                                      // nothing and removes a
+                                                      // Discord call per tile
     const r = await dapi(env, "GET", "/channels/" + ch + "/messages/" + mid);
+    // A THROTTLED REQUEST IS NOT A MISSING IMAGE. This returned 404 for ANY
+    // non-ok response, so one Discord 429 turned a real thumbnail into a
+    // permanent blank tile: the page has no reason to retry a 404, and the tile
+    // stayed empty until a manual Refresh. A cold rail fires up to 25 of these at
+    // once, so 429s are the normal case, not the exception. 503 + Retry-After
+    // tells the page to come back.
+    if (r && r.status === 429) {
+      let wait = 2;
+      try {
+        const b = await r.clone().json();
+        if (b && typeof b.retry_after === "number") wait = Math.min(30, Math.max(1, Math.ceil(b.retry_after)));
+      } catch (e) { /* header fallback below */ }
+      const hdr = r.headers && r.headers.get("retry-after");
+      if (hdr && !isNaN(Number(hdr))) wait = Math.min(30, Math.max(1, Math.ceil(Number(hdr))));
+      return studioJson({ error: "rate limited, retry" }, 503, { "retry-after": String(wait) });
+    }
     if (!r || !r.ok) return studioJson({ error: "not found" }, 404);
     let msg = null;
     try { msg = await r.json(); } catch (e) { msg = null; }
@@ -1254,7 +1275,16 @@ async function studioImg(env, mid, idx) {
       })),
     };
     const keys = Object.keys(_imgMsgCache);
-    if (keys.length >= IMG_MSG_CACHE_CAP) delete _imgMsgCache[keys[0]];
+    if (keys.length >= IMG_MSG_CACHE_CAP) {
+      // evict the OLDEST, not whichever key insertion order puts first - the
+      // latter can drop an entry that was just fetched
+      let oldK = keys[0], oldT = Infinity;
+      for (const kk of keys) {
+        const at = (_imgMsgCache[kk] || {}).at || 0;
+        if (at < oldT) { oldT = at; oldK = kk; }
+      }
+      delete _imgMsgCache[oldK];
+    }
     _imgMsgCache[String(mid)] = hit;
   }
   const att = hit.atts[Number(idx)];
@@ -1262,6 +1292,9 @@ async function studioImg(env, mid, idx) {
   if (!u) return studioJson({ error: "not found" }, 404);
   let up = null;
   try { up = await fetch(u); } catch (e) { up = null; }
+  if (up && up.status === 429) {
+    return studioJson({ error: "rate limited, retry" }, 503, { "retry-after": "3" });
+  }
   if (!up || !up.ok) return studioJson({ error: "image unavailable" }, 502);
   const raw = (att.ct && /^image\//.test(att.ct)) ? att.ct
             : String(up.headers.get("content-type") || "");
