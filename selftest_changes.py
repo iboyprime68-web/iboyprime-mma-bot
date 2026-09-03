@@ -174,6 +174,71 @@ check("the shipped newsconfig.json carries both caps and the emphasis key "
       _NJSON.get("emphasis") == "color" and
       _NJSON["scoring"]["max_ai_calls_per_day"] == 120 and
       _NJSON["scoring"]["max_staged_per_day"] == 6)
+# -- the priority lane (Sept 3 2026) -----------------------------------------
+check("the priority lane ships in BOTH the py defaults and the json - a key "
+      "present in only one of them is silently overridden by deep_merge",
+      NCFG["scoring"]["max_priority_staged_per_day"]
+      == _NJSON["scoring"]["max_priority_staged_per_day"] == 5
+      and NCFG["scoring"]["priority_threshold"]
+      == _NJSON["scoring"]["priority_threshold"] == 80)
+import ytposts as _nc_yt
+check("the shipped priority_threshold is the value ytposts falls back to, so "
+      "a config that omits the key behaves identically to one that ships it",
+      NCFG["scoring"]["priority_threshold"] == _nc_yt.PRIORITY_THRESHOLD)
+check("the staging memory outlives the longest cooldown that reads it, at the "
+      "NEW daily ceiling - a 40-entry window covered 6.7 days at 6 posts a day "
+      "and only 4.4 at 9, which would let one fighter's cutout front two "
+      "posters inside the 7-day rest",
+      _nc_yt.STAGED_HIST_CAP
+      >= NCFG["scoring"]["cutout_cooldown_days"]
+      * (NCFG["scoring"]["max_staged_per_day"]
+         + NCFG["scoring"]["max_priority_staged_per_day"]))
+check("the priority lane is SMALLER than the routine one - it is a rescue "
+      "lane for the day's few hot stories, not a second firehose",
+      0 < NCFG["scoring"]["max_priority_staged_per_day"]
+      < NCFG["scoring"]["max_staged_per_day"])
+check("the priority bar sits above the stage bar (a lane that admits anything "
+      "the routine lane admits is not a lane)",
+      NCFG["scoring"]["priority_threshold"] > NCFG["scoring"]["stage_threshold"])
+_bad = newsconfig.base_defaults(); _bad["scoring"]["max_priority_staged_per_day"] = -2
+check("a negative priority cap is flagged",
+      any("max_priority_staged_per_day" in p
+          for p in newsconfig.validate_newsconfig(_bad)))
+_bad = newsconfig.base_defaults(); _bad["scoring"]["priority_threshold"] = 140
+check("a priority_threshold above 100 is flagged (it would silently disable "
+      "the lane rather than tighten it)",
+      any("priority_threshold" in p for p in newsconfig.validate_newsconfig(_bad)))
+_bad = newsconfig.base_defaults(); _bad["scoring"]["priority_threshold"] = "hot"
+check("a non-numeric priority_threshold is flagged",
+      any("priority_threshold" in p for p in newsconfig.validate_newsconfig(_bad)))
+# The lane's one silent kill switch: MOD_PANEL rebuilds breaking_keywords
+# wholesale from a textarea, and a breaking hit is 30 of the heuristic's 100
+# points. Measured on 700 real stories, emptying the list takes the
+# heuristic-80 tier from 3.6 a day to 0.3 - the phone alerts and the priority
+# lane would both stop, with nothing reporting a fault.
+for _bkbad in ([], ["", "   "], "retires", None):
+    _bad = newsconfig.base_defaults(); _bad["breaking_keywords"] = _bkbad
+    check("an empty or malformed breaking list is refused (%r)" % (_bkbad,),
+          any("breaking_keywords" in p
+              for p in newsconfig.validate_newsconfig(_bad)))
+check("removing SOME breaking words is still allowed - he may tune the list, "
+      "he may not empty it",
+      not any("breaking_keywords" in p for p in newsconfig.validate_newsconfig(
+          dict(newsconfig.base_defaults(), breaking_keywords=["withdraws"]))))
+# bool is an int subclass, so `true` reads as 1 - and a priority_threshold of 1
+# puts EVERY story in the lane (the heuristic floor is 35), silently restoring
+# first-come-first-served. Same trap quiet_hours_utc documents.
+for _bk, _bv in (("priority_threshold", True), ("max_priority_staged_per_day", True),
+                 ("max_staged_per_day", False)):
+    _bad = newsconfig.base_defaults(); _bad["scoring"][_bk] = _bv
+    check("a boolean %s is refused, not silently read as %d"
+          % (_bk, int(_bv)),
+          any(_bk in p for p in newsconfig.validate_newsconfig(_bad)))
+_ok = newsconfig.base_defaults(); _ok["scoring"]["priority_threshold"] = 0
+check("a priority_threshold of 0 is LEGAL - it means only stories that "
+      "actually buzzed the owner take the lane",
+      not any("priority_threshold" in p
+              for p in newsconfig.validate_newsconfig(_ok)))
 # -- the staging-memory gates + quiet hours + studio_url (Aug 19 2026) --------
 check("every gate key ships in the py defaults AND the json, with equal values",
       all(NCFG["scoring"][k] == _NJSON["scoring"][k] == v
@@ -986,6 +1051,33 @@ check("notify.py is uploaded ABOVE both modules that import it",
           < [d for _s, d in _up_db.UPLOADS].index("news_bot.py")
           and [d for _s, d in _up_db.UPLOADS].index("notify.py")
           < [d for _s, d in _up_db.UPLOADS].index("ytposts.py")))
+# ...and the same rule for EVERY uploaded module, derived from the real import
+# lines rather than a hand-kept list. A deploy is ~30 sequential commits and a
+# cron can fire in the middle of one, so for a few minutes the runner checks out
+# a tree with a NEW importer and an OLD module. news_bot calls
+# ytposts.is_priority and scorer's lane counters; against the old files that is
+# an AttributeError inside maybe_stage's `except`, which prints one line and
+# stops staging silently for the rest of a 55-minute window. Uploading every
+# module after the ones it imports makes the only possible interleaving safe.
+# Checked Sept 2026: news_bot sat ABOVE scorer/ytposts and ytposts above gnews.
+_uo_names = [d for _s, d in (_up_db.UPLOADS if _up_db else [])]
+_uo_py = set(n for n in _uo_names if n.endswith(".py"))
+_uo_bad = []
+for _n in _uo_py:
+    try:
+        _src = open(os.path.join(_SRC, _n), encoding="utf-8").read()
+    except OSError:
+        continue
+    for _m in _pf_re.findall(r"^\s*import\s+([A-Za-z_][\w, ]*)", _src, _pf_re.M):
+        for _one in [w.strip().split(" as ")[0] for w in _m.split(",")]:
+            _dep = _one + ".py"
+            if _dep in _uo_py and _uo_names.index(_dep) > _uo_names.index(_n):
+                _uo_bad.append("%s imports %s but uploads first" % (_n, _one))
+check("every uploaded module is uploaded AFTER the modules it imports, so a "
+      "cron tick landing mid-deploy can never see a new importer with an old "
+      "dependency%s" % ((" [" + "; ".join(sorted(set(_uo_bad))[:3]) + "]")
+                        if _uo_bad else ""),
+      (not _up_db) or not _uo_bad)
 check("the notify block ships in BOTH the python defaults and the live json "
       "(deep_merge means a stale json key silently wins)",
       NCFG["notify"]["enabled"] is True and _NJSON["notify"]["enabled"] is True
@@ -1000,11 +1092,16 @@ _poll = _nb_all.split("def poll_once")[1]
 # and two uploads - all in front of the news message, inside a cycle that
 # run_loop then adds its 20s sleep to.
 check("the posting loop QUEUES staging instead of running it inline",
-      "stage_queue.append(" in _poll and "maybe_stage(it, cat, breaking, cfg)" not in _poll)
+      "stage_queue.append(" in _poll and "maybe_stage(it, cat, breaking, cfg)" not in _poll
+      and "maybe_stage(job, cfg)" not in _poll)
 check("the queue is drained after the LOOP, not after each POST "
       "(staging sat above both divert branches, so per-post draining would have "
       "silently stopped staging every diverted story)",
-      _poll.index("for _sit, _scat, _sbrk in stage_queue:") > _poll.index("for it in fresh:"))
+      _poll.index("for _job in stage_queue:") > _poll.index("for it in fresh:"))
+check("the drain is ordered hot-first, so digest mode - where the whole feed "
+      "lands in one queue - cannot hand the day's slots to whichever stories "
+      "happen to be oldest",
+      _poll.index("stage_queue.sort(") < _poll.index("for _job in stage_queue:"))
 check("the tier decision uses the free deterministic heuristic, never the AI call "
       "that this phase exists to move off the critical path",
       "scorer.heuristic_score(" in _poll and "score_story_budgeted" not in _poll)
@@ -1809,7 +1906,7 @@ if mod_panel:
              "breaking": "Retires\n  dies \n",
              "exclude": "clickbait\n",
              "digest_times": "09:00, 21:30", "min_items": "2", "digest_ping": False,
-             "max_per_hour": "4", "dedupe": True}
+             "staged_per_day": "5", "priority_per_day": "2", "dedupe": True}
     _newscfg = newsconfig.base_defaults()
     _out = mod_panel.collect_news(_newscfg, _form)
     check("news tab: mode + toggles applied",
@@ -1821,7 +1918,25 @@ if mod_panel:
           all(w in _out["exclude_keywords"] for w in ("betting", "odds", "parlay", "gambling")))
     check("news tab: digest + caps applied",
           _out["digest"]["times_utc"] == ["09:00", "21:30"] and _out["digest"]["min_items"] == 2 and
-          _out["digest"]["ping"] is False and _out["max_per_hour"] == 4)
+          _out["digest"]["ping"] is False)
+    check("news tab: the studio budget is editable from the panel, so the owner "
+          "can set the volume himself instead of asking for a code change",
+          _out["scoring"]["max_staged_per_day"] == 5
+          and _out["scoring"]["max_priority_staged_per_day"] == 2)
+    check("news tab: the rest of the scoring block survives the merge (the tab "
+          "owns two keys, not the block)",
+          _out["scoring"]["stage_threshold"]
+          == newsconfig.base_defaults()["scoring"]["stage_threshold"]
+          and _out["scoring"]["priority_threshold"] == 80)
+    _blank = mod_panel.collect_news(_newscfg, dict(_form, staged_per_day="",
+                                                   priority_per_day="lots"))
+    check("news tab: a blank or junk budget keeps what is configured rather than "
+          "silently zeroing the studio",
+          _blank["scoring"]["max_staged_per_day"] == 6
+          and _blank["scoring"]["max_priority_staged_per_day"] == 5)
+    check("news tab: max_per_hour is DEAD but still carried, so the save still "
+          "passes the validator that checks its range",
+          _out["max_per_hour"] == _newscfg["max_per_hour"])
     check("news tab: source dict untouched otherwise",
           _out["sources"]["mma_mania"]["enabled"] is True and _newscfg["mode"] == "hybrid")
     check("news tab result validates clean", newsconfig.validate_newsconfig(_out) == [])
@@ -2749,6 +2864,70 @@ common.post_file = _yt_pf_real
 ytposts.og_image = _yt_og_real
 ytposts.fighter_cutout = _yt_fc_real
 
+# ── the priority lane predicate (Sept 3 2026) ───────────────────────
+# The owner: a Yahoo Sports headline he called the best of the day reached the
+# news channel with a phone alert and never reached the studio. Six ordinary
+# stories had spent max_staged_per_day by 08:35 UTC and under_cap refused it at
+# 17:45 before it was ever scored. is_priority is what gives that tier a budget
+# the routine tier cannot touch.
+print("\n[priority lane]")
+import scorer as _pl_scorer
+_PL_BK = newsconfig.base_defaults()["breaking_keywords"]
+def _pl_heur(t):
+    return _pl_scorer.heuristic_score(t, "", "MMA Mania", "ufc",
+                                      _PL_BK)["score"]
+_PL = {"priority_threshold": 80}
+check("a story at the bar takes the lane",
+      ytposts.is_priority(80, _PL) is True)
+check("a story below the bar does not",
+      ytposts.is_priority(79, _PL) is False)
+check("the bar is configurable from newsconfig",
+      ytposts.is_priority(65, {"priority_threshold": 65}) is True
+      and ytposts.is_priority(65, {"priority_threshold": 66}) is False)
+check("a threshold of 0 turns the lane OFF (0 must not read as 'every story "
+      "is hot', which is the obvious way to write it wrong)",
+      ytposts.is_priority(100, {"priority_threshold": 0}) is False)
+check("a junk threshold falls back to the default instead of raising",
+      ytposts.is_priority(80, {"priority_threshold": "hot"}) is True
+      and ytposts.is_priority(20, {"priority_threshold": "hot"}) is False)
+check("junk inputs never raise (this runs inside the news loop)",
+      ytposts.is_priority(None, None) is False
+      and ytposts.is_priority("x", {}) is False)
+check("an omitted threshold uses PRIORITY_THRESHOLD",
+      ytposts.is_priority(ytposts.PRIORITY_THRESHOLD, {}) is True
+      and ytposts.is_priority(ytposts.PRIORITY_THRESHOLD - 1, {}) is False)
+# The phone alert is NOT an admitter, and this is the check that says why.
+# notify.tier alerts on `breaking` with no score floor, so simulating
+# notify.claim over the 700 real stories produced 50 buzzes of which 28 scored
+# under 80: eight copies of "Islam Makhachev teases retirement", a Dolly Parton
+# tribute, The Rock's WWE status, a guillotine on a pickup truck. Admitting
+# those to a RESERVED lane hands its scarce slots to the exact drip the Aug 19
+# staging memory exists to stop.
+check("is_priority takes the score and the config, and nothing else - there is "
+      "no alert parameter that could re-admit the bare breaking tier",
+      list(_insp.signature(ytposts.is_priority).parameters) == ["heur_score", "scfg"])
+for _abt in ("Islam Makhachev teases retirement as he reveals how many fights "
+             "he has left", "Ronda Rousey is back training months after her MMA "
+             "retirement", "Conor McGregor and others pay tribute to Dolly Parton"):
+    check("a keyword-only alert does not reach the bar: %r" % _abt[:38],
+          not ytposts.is_priority(_pl_heur(_abt), _PL))
+# Measured on the 700 stories the wire really posted between Aug 25 and Sept 3:
+# the deterministic heuristic put 58% of them at its floor of 35 and only 3.6 a
+# day at 80, while the breaking-keyword net fired 70 times - 47 of those on the
+# word "retirement" alone. That is why the lane keys off the heuristic and NOT
+# off `breaking`, and why the bar is 80.
+
+check("the bare breaking net is NOT the trigger: a headline that merely says "
+      "'retirement' scores below the bar, while a real withdrawal clears it",
+      _pl_heur("Volkanovski's coach on his retirement talk")
+      < ytposts.PRIORITY_THRESHOLD
+      and _pl_heur("Champion withdraws from UFC 332 with injury")
+      >= ytposts.PRIORITY_THRESHOLD)
+check("the owner's own story - the one that started this - clears the bar",
+      _pl_heur("Movsar Evloev wants to kick women out of UFC because their "
+               "fights stink") >= ytposts.PRIORITY_THRESHOLD)
+
+
 # ───────────────────────── stage gates (the staging memory) ─────────────────
 # Pure functions - no mocks needed. The scenario data mirrors the REAL staged
 # posts read back from the live studio channel on Aug 19 2026: five Makhachev
@@ -3357,15 +3536,30 @@ check("the output budget did not grow", scorer.DEFAULTS["max_tokens"] == 220)
 
 # -- daily budget: caps, reset, and a state block that cannot grow ------------
 print("\n[scoring caps]")
-check("DEFAULTS carry both caps (120 AI calls, 6 staged posts a day)",
+check("DEFAULTS carry all three caps (120 AI calls, 6 routine staged posts, "
+      "5 priority ones)",
       scorer.DEFAULTS["max_ai_calls_per_day"] == 120
-      and scorer.DEFAULTS["max_staged_per_day"] == 6)
+      and scorer.DEFAULTS["max_staged_per_day"] == 6
+      and scorer.DEFAULTS["max_priority_staged_per_day"] == 5)
+check("every cap key names a real counter and no two counters share one "
+      "(a shared key would silently make one lane spend the other's budget); "
+      "'lost' is deliberately capless - it is a tally, not a budget",
+      set(scorer.CAP_KEYS) < set(scorer.COUNTERS)
+      and len(set(scorer.CAP_KEYS.values())) == len(scorer.CAP_KEYS)
+      and set(scorer.COUNTERS) - set(scorer.CAP_KEYS) == {"lost"}
+      and all(k in scorer.DEFAULTS for k in scorer.CAP_KEYS.values()))
 _bcfg = scorer.scoring_config({"scoring": {"max_ai_calls_per_day": 2,
                                            "max_staged_per_day": 1}})
 _bst = {}
 check("a fresh state opens today's block at zero",
       scorer.daily_block(_bst, "2026-08-13") == {"d": "2026-08-13", "ai": 0,
-                                                 "staged": 0})
+                                                 "staged": 0, "prio": 0,
+                                                 "lost": 0})
+check("a block written before the priority counter existed opens it at zero "
+      "instead of needing a migration in a public state file",
+      scorer.daily_block({"daily": {"d": "2026-08-13", "ai": 4, "staged": 2}},
+                         "2026-08-13")
+      == {"d": "2026-08-13", "ai": 4, "staged": 2, "prio": 0, "lost": 0})
 check("under_cap is True while there is budget left",
       scorer.under_cap(_bst, _bcfg, "2026-08-13", "ai")
       and scorer.under_cap(_bst, _bcfg, "2026-08-13", "staged"))
@@ -3377,9 +3571,15 @@ scorer.spend(_bst, "2026-08-13", "ai")
 check("counters are independent",
       scorer.under_cap(_bst, _bcfg, "2026-08-13", "ai")
       and not scorer.under_cap(_bst, _bcfg, "2026-08-13", "staged"))
-check("a new UTC date resets both counters",
+check("a new UTC date resets every counter",
       scorer.daily_block(_bst, "2026-08-14") == {"d": "2026-08-14", "ai": 0,
-                                                 "staged": 0})
+                                                 "staged": 0, "prio": 0,
+                                                 "lost": 0})
+check("the priority lane has its OWN budget - spending it does not touch the "
+      "routine one, which is the whole point of the lane",
+      (lambda st: (scorer.spend(st, "2026-08-14", "prio"),
+                   st["daily"] == {"d": "2026-08-14", "ai": 0, "staged": 0,
+                                   "prio": 1, "lost": 0})[1])({}))
 check("a cap of 0 blocks everything (spend nothing today)",
       not scorer.under_cap({}, scorer.scoring_config(
           {"scoring": {"max_staged_per_day": 0}}), "2026-08-14", "staged"))
@@ -3393,14 +3593,15 @@ for _d in range(1, 31):
     for _i in range(30):
         scorer.spend(_grow, _day, "ai")
         scorer.spend(_grow, _day, "staged")
-check("the counter block keeps ONE day and exactly three keys - 1800 spends "
-      "over 30 days cannot grow the state file, and a stray key is dropped",
+check("the counter block keeps ONE day and exactly the COUNTERS keys - 1800 "
+      "spends over 30 days cannot grow the state file, and a stray key is dropped",
       list(_grow) == ["daily"]
-      and _grow["daily"] == {"d": "2026-09-30", "ai": 30, "staged": 30})
+      and _grow["daily"] == {"d": "2026-09-30", "ai": 30, "staged": 30,
+                             "prio": 0, "lost": 0})
 check("corrupt counter values are clamped, never trusted",
       scorer.daily_block({"daily": {"d": "2026-08-13", "ai": -9,
-                                    "staged": "x"}}, "2026-08-13")
-      == {"d": "2026-08-13", "ai": 0, "staged": 0})
+                                    "staged": "x", "prio": None}}, "2026-08-13")
+      == {"d": "2026-08-13", "ai": 0, "staged": 0, "prio": 0, "lost": 0})
 
 # score_story_budgeted: charge only for real calls, then fall back for free
 os.environ["DEEPSEEK_API_KEY"] = "ds-test-key"
@@ -3467,7 +3668,12 @@ check("a staging-only cycle still saves state (source pin: without this, a "
 check("a failed stage burns NO daily slot and enters NO memory (source pin)",
       'if res_stage.get("ok"):' in _nb_src
       and _nb_src.index('if res_stage.get("ok"):')
-          < _nb_src.index('scorer.spend(state, today, "staged")'))
+          < _nb_src.index('scorer.spend(state, today, lane)'))
+check("the slot is charged to the LANE the story actually took, never to a "
+      "hard-coded counter (charging a priority stage to the routine budget "
+      "would re-create the very starvation the lane exists to fix)",
+      'scorer.spend(state, today, lane)' in _nb_src
+      and 'scorer.spend(state, today, "staged")' not in _nb_src)
 
 _STG[:] = []
 scorer.score_story = lambda title, desc, source, cat, cfg: {"score": 40, "why": "test", "ai": False}
@@ -3512,23 +3718,95 @@ check("with no emphasis configured the staged post still asks for COLOR",
       len(_YT_IT) == 1 and _YT_IT[0].get("emphasis") == "color")
 
 # -- the daily caps (owner: seven staged posts in one evening was a lot) ----
+# Both headlines here are deliberately ORDINARY - scorer.heuristic_score puts
+# them under ytposts.PRIORITY_THRESHOLD - so this exercises the routine lane
+# and nothing else. The priority lane gets its own block below.
 _YT_IT[:] = []
 reset_news(state={"v": 4, "initialized": True, "seen": {}, "seed_pending": [], "recent": [],
                   "digest_items": [], "digest_last": "", "hour": ["", 0]})
 STORE["newsconfig.json"]["scoring"] = {"enabled": True, "max_staged_per_day": 1}
-news_feed([("Champion crowned in a title classic", "http://g", "y7",
+news_feed([("Fighter reflects on a long training camp", "http://g", "y7",
             "Mon, 01 Jan 2024 16:00:00 GMT"),
-           ("New champion crowned again tonight", "http://h", "y8",
+           ("Coach talks about the gym atmosphere", "http://h", "y8",
             "Mon, 01 Jan 2024 17:00:00 GMT")])
 LOOP_N[0] = 2
 news_bot.main()
+check("the routine headlines used here really are below the priority bar, so "
+      "this block tests the routine cap and not the lane",
+      all(scorer.heuristic_score(t, "", "MMA Fighting", "ufc",
+                                 newsconfig.base_defaults()["breaking_keywords"]
+                                 )["score"] < ytposts.PRIORITY_THRESHOLD
+          for t in ("Fighter reflects on a long training camp",
+                    "Coach talks about the gym atmosphere")))
 check("the daily staged cap skips the second post of the day, silently",
       [i["guid"] for i in _YT_IT] == ["y7"])
 check("the day's counter is ONE bounded block in state_news.json",
       STORE["state_news.json"].get("daily")
-      == {"d": _NOON.strftime("%Y-%m-%d"), "ai": 0, "staged": 1})
+      == {"d": _NOON.strftime("%Y-%m-%d"), "ai": 0, "staged": 1, "prio": 0,
+          "lost": 0})
 check("a capped story does not block the news post itself",
-      any("crowned again" in c for _ch, c in POSTS))
+      any("gym atmosphere" in c for _ch, c in POSTS))
+
+# -- THE PRIORITY LANE (Sept 3 2026) ----------------------------------------
+# The bug, measured live: six ordinary stories spent max_staged_per_day between
+# 03:44 and 08:35 UTC, and at 17:45 the best headline of the day - one that DID
+# buzz the owner's phone in the news channel - was refused by under_cap before
+# it was ever scored. The owner: "it's still not there... make sure that
+# breaking news and stuff gets to studio right away."
+_YT_IT[:] = []
+reset_news(state={"v": 4, "initialized": True, "seen": {}, "seed_pending": [], "recent": [],
+                  "digest_items": [], "digest_last": "", "hour": ["", 0]})
+STORE["newsconfig.json"]["scoring"] = {"enabled": True, "max_staged_per_day": 1}
+news_feed([("Fighter enjoys a quiet week at the gym", "http://k", "y11",
+            "Mon, 01 Jan 2024 16:00:00 GMT"),
+           ("Champion withdraws from UFC 332 with an injury", "http://l", "y12",
+            "Mon, 01 Jan 2024 17:00:00 GMT")])
+LOOP_N[0] = 2
+news_bot.main()
+check("a hot story still reaches the studio after the routine cap is spent "
+      "(this is the owner's Evloev story, and it is the whole point of the lane)",
+      [i["guid"] for i in _YT_IT] == ["y11", "y12"])
+check("the hot story was charged to the PRIORITY counter, not the routine one",
+      STORE["state_news.json"].get("daily")
+      == {"d": _NOON.strftime("%Y-%m-%d"), "ai": 0, "staged": 1, "prio": 1,
+          "lost": 0})
+
+# ...and the lane has a ceiling of its own, so it can never become a flood.
+_YT_IT[:] = []
+reset_news(state={"v": 4, "initialized": True, "seen": {}, "seed_pending": [], "recent": [],
+                  "digest_items": [], "digest_last": "", "hour": ["", 0]})
+STORE["newsconfig.json"]["scoring"] = {"enabled": True, "max_staged_per_day": 0,
+                                       "max_priority_staged_per_day": 1}
+news_feed([("Champion withdraws from UFC 340 with an injury", "http://m", "y13",
+            "Mon, 01 Jan 2024 16:00:00 GMT"),
+           ("Title challenger pulls out of UFC 341 after arrest", "http://n", "y14",
+            "Mon, 01 Jan 2024 17:00:00 GMT")])
+LOOP_N[0] = 2
+news_bot.main()
+check("the priority lane has its own ceiling - two hot stories, a lane of one, "
+      "one staged",
+      [i["guid"] for i in _YT_IT] == ["y13"])
+check("an over-ceiling hot story still POSTS to the news channel; only the "
+      "studio copy is skipped",
+      any("pulls out of UFC 341" in c for _ch, c in POSTS))
+check("the `lost` tally is charged at most once per guid (a cap-refused story "
+      "is never burned into yt_eval and is only added to `seen` on a successful "
+      "post, so while Discord 5xxs the same story returns every 20s cycle - "
+      "without the guard the tally climbs per cycle AND forces a git push each "
+      "time)",
+      "lost_seen" in _nb_src and 'it["guid"] not in lost_seen' in _nb_src)
+check("a hot story the day refused is TALLIED, so the next 'it never reached "
+      "the studio' report is answered from state instead of a live dig",
+      STORE["state_news.json"]["daily"]["lost"] == 1
+      and STORE["state_news.json"]["daily"]["prio"] == 1)
+check("...and the tally alone is enough to make the cycle save its state "
+      "(without stage_work the counter would be lost with the process)",
+      "lost" in _nb_src.split("def maybe_stage")[1].split("def keep(")[0])
+check("the alert flag is recorded BEFORE the post, not after a 200 - a loud "
+      "post that fails has already burned its ledger entry, so losing the "
+      "studio lane too would punish one Discord blip twice",
+      _nb_src.index('job["alerted"] = bool(loud)')
+      < _nb_src.index("code, _ = common.post_message(chan, content"))
 
 # -- the staging memory rides news_bot end to end ----------------------------
 _YT_IT[:] = []
