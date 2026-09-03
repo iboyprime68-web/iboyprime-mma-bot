@@ -20,6 +20,12 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
+    # The window is 3300s (55 min) plus ~90s of runner setup. Without a timeout
+    # GitHub's default is 360 MINUTES, so a job wedged on a hanging feed would sit
+    # on the `bot-news` concurrency group for six hours, cancelling every pending
+    # tick behind it and mailing the owner for each one. 56 kills it before the
+    # next tick can queue.
+    timeout-minutes: 56
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
