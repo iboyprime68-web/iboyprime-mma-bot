@@ -48,7 +48,7 @@ while the job runs (panel Save & Deploy, /news) apply almost immediately. Free
 because the repo is public. Run locally it is still a single pass.
 """
 import datetime, email.utils, hashlib, time, xml.etree.ElementTree as ET
-import common, layout, newsconfig, scorer, ytposts
+import common, layout, newsconfig, notify, scorer, ytposts
 
 PACE_PER_CYCLE = 1     # at most ONE realtime post per cycle - never a burst
 SEED_POST      = 5     # on the very first run, post this many latest
@@ -350,6 +350,13 @@ def main():
         print("No mma_news channel in config - run bots_setup.py."); return
     roles = cfg_bots.get("roles", {}) or {}
     news_rid, digest_rid = roles.get("news_pings"), roles.get("digest_ping")
+    # The owner's own alert role. He holds it alone, so pinging it reaches exactly
+    # one phone and no member is ever dragged into it. Absent -> everything stays
+    # silent, which is the old behaviour, not a crash.
+    alert_rid = roles.get("news_alerts")
+    if not alert_rid:
+        print("no 🔔 News Alerts role in bots_config - every post will be silent. "
+              "Run a deploy to create it.")
     state = migrate_state(common.load_json(common.state_path(STATE_FILE), {}))
     seen = SeenSet(state.get("seen"))
 
@@ -422,6 +429,17 @@ def main():
     # job re-scored and re-staged the same story - a duplicate studio post,
     # the exact class the staging memory exists to prevent.
     stage_work = [0]
+    # Staging used to run INLINE, before the post: an AI call (up to ~41s), a
+    # Google News link decode (up to 24s), an og:image fetch, a photo download of
+    # up to 8MB, two octagon-api calls (up to ~40s), a Pillow render and two
+    # uploads - all in front of the news message, and all inside a cycle that
+    # common.run_loop then adds its 20s sleep to. Work is queued here and drained
+    # after the posting loop instead.
+    #
+    # It is drained after the LOOP, not after each POST: maybe_stage sat above
+    # both divert branches, so "after the post" would have silently stopped
+    # staging every diverted story.
+    stage_queue = []
 
     # Same reason as stage_work above: the cutover backfill writes `seen` and
     # `seed_pending` but posts nothing, so without its own flag the save gate
@@ -440,15 +458,20 @@ def main():
                 return
             if it["guid"] in state.get("yt_eval", []):
                 return
-            state.setdefault("yt_eval", []).append(it["guid"])
-            stage_work[0] += 1
             scfg = scorer.scoring_config(cfg)
             scfg["breaking_keywords"] = cfg.get("breaking_keywords") or []
             today = common.now_utc().strftime("%Y-%m-%d")
+            # THE CAP CHECK COMES FIRST, AND ONLY THEN IS THE GUID BURNED.
+            # It used to be the other way round: the guid was appended to yt_eval
+            # before under_cap, so once six posts had been staged that day every
+            # later story was marked "evaluated" without ever being scored, and
+            # could never be scored again on any future run.
             if not scorer.under_cap(state, scfg, today, "staged"):
                 print("  yt: daily staged cap reached, skipping: %s"
                       % it["title"][:60])
                 return
+            state.setdefault("yt_eval", []).append(it["guid"])
+            stage_work[0] += 1
             res = scorer.score_story_budgeted(it["title"], it.get("desc", ""),
                                               it["source"], cat, scfg,
                                               state, today)
@@ -476,7 +499,7 @@ def main():
                 print("  yt: gate skip (%s): %s" % (why_not, it["title"][:60]))
                 return
             res_stage = ytposts.stage_story(sit, score, why, cfg_bots, cfg,
-                                            hist=hist)
+                                            hist=hist, state=state)
             status = res_stage.get("status", "")
             # only a post that actually LANDED enters the staging memory or
             # burns a daily slot - a Discord blip or a missing studio channel
@@ -527,7 +550,18 @@ def main():
         state.setdefault("digest_items", [])
         return cat
 
+    def digest_on(cfg):
+        """The digest existed to surface stories the hourly cap had DIVERTED away
+        from the channel. That cap is gone, so every story now posts live and a
+        nightly recap is just the same 60 headlines a second time. It ships off
+        (digest.times_utc = []), and this stops the queue quietly growing to its
+        cap inside a state file that is committed to a public repo every cycle.
+        Re-enable by putting a time back - the machinery is untouched."""
+        return bool((cfg.get("digest", {}) or {}).get("times_utc"))
+
     def queue_digest(it, cat):
+        if not digest_on(cfg_for_queue[0]):
+            return
         state.setdefault("digest_items", []).append(
             {"title": common.strip_markdown(it["title"]), "url": it["link"],
              "source": it["source"], "cat": cat, "ts": it["when"].isoformat()})
@@ -538,12 +572,14 @@ def main():
                            if (common.parse_iso(r.get("ts")) or now) >= horizon]
 
     cycle = [0]
+    cfg_for_queue = [{}]      # queue_digest reads the live config through this
 
     def poll_once():
         cycle[0] += 1
         if cycle[0] % REFRESH_EVERY == 1:      # ~1/min: pick up config edits mid-run
             common.refresh_checkout()
         cfg = newsconfig.load()
+        cfg_for_queue[0] = cfg
         mode = cfg.get("mode", "hybrid")
         now = common.now_utc()
         first_run = not state.get("initialized")
@@ -605,7 +641,7 @@ def main():
                 print("  skip (dup story): %s" % it["title"][:60])
                 continue
             cat = newsconfig.classify(it["title"], cfg)
-            maybe_stage(it, cat, breaking, cfg)
+            stage_queue.append((dict(it), cat, breaking))
             if mode == "digest" and not breaking:
                 seen.add(it["guid"]); remember(it, cat); queue_digest(it, cat); queued += 1
                 continue
@@ -617,13 +653,25 @@ def main():
             # good. The owner asked for news as fast as possible; silently holding
             # most of a fight-week hour for up to 23.5 hours is the opposite.
             # Volume control, if it is ever wanted again, is disabling a source.
-            content, embeds, mentions, cat = build_message(it, cfg, breaking,
-                                                           news_rid if breaking else None)
-            # A post is only worth being "loud" if it actually pings someone. The
-            # 📰 News Pings / 🗞️ Digest Ping roles were deleted in the Aug 2026
-            # declutter, so news_rid is None and even breaking stories post silently -
-            # a loud message with no mention is just an unread badge anyway.
-            silent = (mode == "hybrid" and not (breaking and news_rid))
+            # ---- does this one interrupt him? -----------------------------
+            # The tier uses the DETERMINISTIC heuristic score, never the AI one.
+            # The AI call is an HTTP round trip of up to ~41s and the whole point
+            # of this phase was getting it out from in front of the post; the
+            # heuristic is pure, free and instant. The AI score still gets its say
+            # later, through the studio staging ping, and notify.claim guarantees
+            # the two cannot both fire for one story.
+            _h = scorer.heuristic_score(it["title"], it.get("desc", ""), it["source"],
+                                        cat, cfg.get("breaking_keywords") or [])
+            _tier = notify.tier(_h.get("score", 0), breaking, cfg)
+            loud = (_tier == notify.ALERT and alert_rid
+                    and notify.claim(state, it["guid"], time.time(), cfg))
+            _pre, _am = notify.role_mention(alert_rid) if loud else ("", None)
+            content, embeds, mentions, cat = build_message(it, cfg, breaking, None)
+            if loud:
+                content, mentions = _pre + content, _am
+            # NEVER silent together with a mention: flag 4096 mutes the mention and
+            # produces a message that is loud in the code and silent on the device.
+            silent = not loud
             code, _ = common.post_message(chan, content, allowed_mentions=mentions,
                                           embeds=embeds, silent=silent)
             if code in (200, 201):
@@ -634,6 +682,11 @@ def main():
                                              it["source"], it["title"][:70]))
             else:
                 print("post failed (%s), will retry: %s" % (code, it["title"][:60]))
+        # ---- drain the staging queue (slow work, out of the posting path) ----
+        for _sit, _scat, _sbrk in stage_queue:
+            maybe_stage(_sit, _scat, _sbrk, cfg)
+        stage_queue[:] = []
+
         if posted or queued or skipped or stage_work[0] or seed_work[0]:
             save()
             stage_work[0] = 0
