@@ -57,6 +57,8 @@ SEEN_CAP       = 2500  # cap on the dedupe memory (see SeenSet)
 EVAL_CAP       = 1500  # cap on yt_eval. Its OWN cap on purpose: sharing one
                        # constant with SEEN_CAP meant raising the dedupe memory
                        # silently doubled the staging ledger too.
+CRON_MINUTE    = 4     # must match the cron in news.yml (a selftest pins it)
+GUARD_SECONDS  = 180   # end this far before the next tick, so nothing queues
 SEED_SKIP_MIN  = 90    # on the v3->v4 cutover, items older than this are marked
                        # seen instead of posted. Wide enough to cover a delayed
                        # first tick (measured median gap 13.8 min, worst 712),
@@ -316,6 +318,34 @@ def digest_due(now, times_utc, last_stamp):
         if hhmm >= t:
             due = "%s %s" % (now.strftime("%Y-%m-%d"), t)
     return due if (due and due != last_stamp) else None
+
+
+def window_for(now, cron_minute=CRON_MINUTE, guard=GUARD_SECONDS):
+    """How long this job may run so it ENDS before the next cron tick.
+
+    The window used to be a flat 3300s. That is right for a job the cron itself
+    started at :04, and wrong for every other start: a run dispatched by hand at
+    :28 would still ask for 55 minutes, overrun the next tick, leave it PENDING
+    on the bot-news concurrency group, and GitHub cancels a pending run the
+    moment the tick after that arrives - mailing the owner "All jobs were
+    cancelled" for a run that never failed. That is the documented reason
+    news.yml was removed from the deploy's dispatch list in the first place.
+
+    Sizing the window to the time actually available makes a manual run safe,
+    which matters because GitHub honours only about 40% of the hourly ticks and
+    kicking one off by hand is the recovery.
+    """
+    mins = (cron_minute - now.minute) % 60
+    secs = mins * 60 - now.second
+    if secs <= 0:                          # we ARE the tick, or just past it
+        secs += 3600
+    # Always aim at the NEXT tick, never the one after. An earlier version
+    # skipped an imminent tick and asked for the full window instead, so a job
+    # starting at :01 ran straight through the :04 tick - the exact overrun this
+    # function exists to prevent. A floor of 120s can overlap by at most ~2
+    # minutes, which cannot cause a cancellation: that needs a THIRD tick inside
+    # the window, and the next one is an hour away.
+    return max(120, min(WINDOW_SECONDS, secs - guard))
 
 
 def migrate_state(state):
@@ -726,7 +756,8 @@ def main():
         print("cycle done. posted=%d queued=%d skipped=%d backlog~%d"
               % (posted, queued, skipped, max(0, len(fresh) - posted - queued - skipped)))
 
-    common.run_loop(poll_once, duration=WINDOW_SECONDS, interval=POLL_SECONDS)
+    common.run_loop(poll_once, duration=window_for(common.now_utc()),
+                    interval=POLL_SECONDS)
 
 
 if __name__ == "__main__":
