@@ -295,6 +295,18 @@ function applyModChange(modcfg, group, sub, a) {
 // Pure: apply one /news edit to a newsconfig object and return the new one.
 // The Python side (newsconfig.py) owns the schema; this only flips the simple
 // booleans/lists a staff slash-command can reach.
+// The seventeen betting words the owner can edit from /news and the panel. The
+// REAL no-gambling rule lives in Python (bots_github/promofilter.py) and runs
+// unconditionally, so removing one of these no longer opens a hole - but letting
+// the removal appear to succeed would tell the owner something false about what
+// his server is filtering. Refuse it here and say why.
+//
+// Keep this list equal to newsconfig._DEFAULT_EXCLUDE. A selftest pins the two
+// byte for byte, the same way SOCIALS_FALLBACK is pinned to welcomeconfig.
+const PROTECTED_EXCLUDES = ["betting", "odds", "parlay", "dfs", "sportsbook",
+  "gambling", "draftkings", "fanduel", "prizepicks", "betmgm", "bet365",
+  "bovada", "daily fantasy", "moneyline", "prop bet", "point spread", "wager"];
+
 function applyNewsChange(newscfg, group, sub, a) {
   newscfg = JSON.parse(JSON.stringify(newscfg));
   if (group === null && sub === "mode") {
@@ -314,7 +326,9 @@ function applyNewsChange(newscfg, group, sub, a) {
     const w = (a.word || "").toLowerCase().trim();
     const arr = (newscfg[key] = newscfg[key] || []);
     if (sub === "add") { if (w && !arr.includes(w)) arr.push(w); }
-    else newscfg[key] = arr.filter(x => x !== w);
+    else if (key === "exclude_keywords" && PROTECTED_EXCLUDES.includes(w)) {
+      newscfg._refused = "protected";      // read by the caller, never persisted
+    } else newscfg[key] = arr.filter(x => x !== w);
   }
   return newscfg;
 }
@@ -539,6 +553,12 @@ const COMMANDS = {
     const { obj: newscfg, sha } = await loadRepoJson(env, "newsconfig.json");
     if (!newscfg) return msg("newsconfig.json isn't in the repo yet \u2014 run a deploy first.", true);
     const updated = applyNewsChange(newscfg, group, sub, opts);
+    if (updated._refused === "protected") {
+      return msg("\u26D4 `" + (opts.word || "").toLowerCase().trim() + "` is part of the no-gambling rule and can't be removed. "
+               + "You can still add your own words. The filter also runs in code, so betting content is blocked "
+               + "whether or not it's in this list.", true);
+    }
+    delete updated._refused;
     const saved = await saveRepoJson(env, "newsconfig.json", updated, sha, `news: ${group ? group + "/" : ""}${sub}`);
     return msg(saved ? "\u2705 Saved \u2014 the news bot picks it up within ~5 minutes (no restart needed)."
                      : "Couldn't save the config (GitHub write failed \u2014 check the GITHUB_TOKEN repo scope).", true);
@@ -1912,7 +1932,7 @@ export default {
 
 // exported for offline tests (harmless in the Worker runtime)
 export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildPoll, fighterEmbed, avatarUrl, snowflakeDate, fmtBouts, EIGHTBALL,
-  subPath, isStaffFromRoles, applyModChange, applyNewsChange, resolveCats, MOD_CATEGORIES, MEDIA_POLICIES,
+  subPath, isStaffFromRoles, applyModChange, applyNewsChange, PROTECTED_EXCLUDES, resolveCats, MOD_CATEGORIES, MEDIA_POLICIES,
   socialLines, SOCIALS_FALLBACK, COMMANDS, CONTEXT, isSnowflake, safeApiPath, uidKey, userWarns, ADMIN_UP,
   own, safeKey, optMap,
   // /studio
