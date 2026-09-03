@@ -143,7 +143,12 @@ _DEFAULT_CATEGORIES = {
 _CLASSIFY_ORDER = ["boxing", "mma_other", "ufc"]   # specific orgs first, UFC last
 
 _DEFAULT_BREAKING = [
-    "breaking", "dies", "dead at", "passes away", "retires", "retirement",
+    # "breaking" on its own matched "breaking Makhachev's record" and "on the
+    # brink of breaking" - measured firing twice in 31 hours of real traffic, and
+    # now that these alerts reach the owner's phone a false friend costs a buzz.
+    # The news marker is the punctuation or the phrase, never the bare verb.
+    "breaking:", "breaking news", "breaking -",
+    "dies", "dead at", "passes away", "retires", "retirement",
     "arrested", "stripped of", "pulls out", "withdraws", "out of ufc",
     "off the card", "officially announced", "signs with the ufc", "new champion",
 ]
@@ -183,6 +188,11 @@ def base_defaults():
             "alert_on_breaking": True,  # the keyword net is an OR, not a bonus
             "max_alerts_per_day": 12,   # hard ceiling; overflow posts silently
             "dedupe_hours": 6,          # one buzz per story across news AND studio
+            "similar_threshold": 0.45,  # ...and across outlets: four write-ups of
+                                        # one withdrawal must buzz once, not four
+                                        # times (stricter than the channel's 0.6)
+            "subject_hours": 6,         # two alerts naming the same fighter in
+                                        # this window are one story to a reader
         },
         # Extra full names the topic gate should always accept. mma_roster.json
         # is seeded from the rankings at deploy time and DECAYS between deploys,
