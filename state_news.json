@@ -1205,10 +1205,6 @@
   "v": 3,
   "recent": [
     {
-      "t": "Isaac Moreno",
-      "ts": "2026-09-02T17:05:07+00:00"
-    },
-    {
       "t": "Anderson Silva advises fellow UFC legend to retire from fighting after his fourth loss in a row",
       "ts": "2026-09-02T17:30:00+00:00"
     },
@@ -1683,16 +1679,13 @@
     {
       "t": "Tom Aspinall’s UFC return hits medical roadblock due to eye injury",
       "ts": "2026-09-03T02:09:42+00:00"
+    },
+    {
+      "t": "First UFC 334 fight revealed for Madison Square Garden card",
+      "ts": "2026-09-03T03:39:29+00:00"
     }
   ],
   "digest_items": [
-    {
-      "title": "Khamzat Chimaev drops major hint about next opponent",
-      "url": "https://sports.yahoo.com/articles/khamzat-chimaev-drops-major-hint-212202175.html",
-      "source": "Yahoo Sports",
-      "cat": "ufc",
-      "ts": "2026-09-02T21:22:02+00:00"
-    },
     {
       "title": "‘I will honor his name’: Chute Boxe pays tribute to late UFC fighter Allan Nascimento",
       "url": "https://www.mmafighting.com/ufc/508064/i-will-honor-his-name-chute-boxe-pays-tribute-to-late-ufc-fighter-allan-nascimento",
@@ -2105,6 +2098,13 @@
       "source": "Sherdog",
       "cat": "ufc",
       "ts": "2026-09-03T02:09:42+00:00"
+    },
+    {
+      "title": "First UFC 334 fight revealed for Madison Square Garden card",
+      "url": "https://sports.yahoo.com/articles/first-ufc-334-fight-revealed-033929866.html",
+      "source": "Yahoo Sports",
+      "cat": "ufc",
+      "ts": "2026-09-03T03:39:29+00:00"
     }
   ],
   "digest_last": "2026-09-02 21:30",
@@ -2113,7 +2113,6 @@
     6
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=507274",
     "https://bloodyelbow.com/?p=329164",
     "43aa9a30-820c-3cdd-98e4-35c38f80028d",
     "1d2e14df-a7cf-3377-a36c-59322fff8b1c",
@@ -3312,11 +3311,12 @@
     "CBMiqAFBVV95cUxOblRUU1J4Vk9ORW10cl9xRWdJUnMyZWVaT3FrYjg0Q1JNTFZoZ2lnYkRPeEt1SlY0TmRFZ3FSRWJONVhmaWdVYzAzbUpiUUd1VXdEY2J2S0l5UWZaRTlDZjRDMEtGMW1zWkgtZDl3eDhDelZUSnc1VzNOaEVDZ2FuYlJabnd2U3pIcWxWc09qMDBrUmtOT0JReWQzLXNMekptZTdDbkFmdjDSAa4BQVVfeXFMTWhhZ1NUZG5YWkVLUm9wZGV6ZW1lb3ZPRENXa1NSVnJKVHdiTUdxbjdnOGdoT1BRQWNhbmdRbUtpb1NwWC1NQVZvU1JzTFZHakFGM1lrd2ZxZHVGYl8zYlRuZFhBYXp5WlllZmdqc1lkSzRpTjB5VTVkeEhGcGdwUzd5UU9GN0g3TGFaSktIZjdqdlVJa1VqUnBiM3IwVjNqMU5FYmhDNU1Fd1huS1dB",
     "https://www.sherdog.com/news/news/Marlon-Vera-made-difficult-change-to-avoid-one-regret-at-end-of-UFC-career-202634",
     "https://www.sherdog.com/news/news/Anthony-Smith-set-to-return-Oct-2-amid-four-felony-charges-202632",
-    "https://www.sherdog.com/news/news/Tom-Aspinalls-UFC-return-hits-medical-roadblock-due-to-eye-injury-202633"
+    "https://www.sherdog.com/news/news/Tom-Aspinalls-UFC-return-hits-medical-roadblock-due-to-eye-injury-202633",
+    "31fcaa8d-7985-3a66-a3b4-229eb9701052"
   ],
   "daily": {
     "d": "2026-09-03",
-    "ai": 21,
+    "ai": 22,
     "staged": 3
   },
   "staged_hist": [
