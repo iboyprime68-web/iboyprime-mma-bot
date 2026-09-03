@@ -1466,5 +1466,261 @@ check("the password only ever reaches the SHA-256 compare, a presence check or t
   !/ctEq\(supplied, env\.STUDIO_PASSWORD\)/.test(code) &&
   !/JSON\.stringify\([^)]*STUDIO_PASSWORD/.test(code));
 
+
+// ===== studio page harness =====================================================
+// The studio page had ZERO test coverage: worker.test.js only ever checked the
+// auth gate and the JSON contracts, so every DOM, canvas and regex bug in a
+// 4900-line file shipped unexamined. These checks are cheap and catch the two
+// failure classes this file has actually produced.
+const _spSrc = readFileSync(fileURLToPath(new URL("./studio_page.js", import.meta.url)), "utf8");
+const _spScript = (STUDIO_HTML.match(/<script>([\s\S]*)<\/script>/) || [])[1] || "";
+
+check("the page carries an inline script", _spScript.length > 10000);
+
+// 1. THE BACKSLASH TRAP. studio_page.js is one big template literal, so every
+//    backslash meant for the PAGE must be doubled in the source. A single \d
+//    silently becomes a literal "d" and the regex matches nothing - no error, no
+//    warning, just a feature that quietly stops working. This shipped twice.
+check("the page's inline script actually parses", (() => {
+  try { new Function(_spScript); return true; } catch (e) { return false; }
+})());
+
+const _lone = [];
+const _loneRe = /(^|[^\\])\\([dswbDSWB])/g;
+let _lm;
+while ((_lm = _loneRe.exec(_spSrc)) !== null) {
+  _lone.push(_spSrc.slice(Math.max(0, _lm.index - 40), _lm.index + 40));
+}
+check("no single-backslash regex class survives in the template literal "
+  + "(a lone " + String.fromCharCode(92) + "d becomes a literal d on the page)",
+  _lone.length === 0);
+
+// 2. (There was a per-literal regex compile check here. It is redundant -
+//     JavaScript parses regex literals at PARSE time, so an invalid one
+//     already fails the new Function() check above - and a naive extractor
+//     cannot tell a regex literal from a division, so it reported false
+//     failures on ordinary arithmetic.)
+// 3. The deep link is how the owner opens a staged post from Discord. Both places
+//    that read it must use the SAME pattern - one of them lost its backslashes.
+const _hashRes = _spScript.match(/\[#&\]s=\([^)]{1,14}\)/g) || [];
+check("every deep-link hash regex on the page is identical and matches a snowflake",
+  _hashRes.length >= 2 && _hashRes.every(r => r === _hashRes[0])
+  && new RegExp(_hashRes[0]).test("#s=1544916839560257617"));
+
+// 4. Duplicate element ids silently break $() lookups.
+const _ids = (STUDIO_HTML.match(/\sid="([A-Za-z0-9_-]+)"/g) || []).map(s => s.split('"')[1]);
+const _dupIds = _ids.filter((v, i) => _ids.indexOf(v) !== i);
+check(`no duplicate element ids in the page (${_ids.length} ids)`, _dupIds.length === 0);
+
+// 5. THUMBNAIL LOADING. A cold rail used to fire up to 25 simultaneous proxy
+//    requests, each triggering a live Discord call, with no retry and no
+//    placeholder - so a rate-limited tile stayed blank for ever and the owner
+//    concluded the app was broken.
+check("thumbnails are fetched through a bounded queue, not all at once",
+  /IMG_MAX_INFLIGHT\s*=\s*[1-5]\b/.test(_spScript) && /imgInflight/.test(_spScript));
+check("thumbnails load lazily, only for tiles on screen",
+  /IntersectionObserver/.test(_spScript) && /railObserver/.test(_spScript));
+check("a throttled thumbnail is retried with a backoff that honours Retry-After",
+  /retry-after/i.test(_spScript) && /loadThumb\(job, attempt \+ 1\)/.test(_spScript));
+check("a tile that is still loading looks different from one that failed "
+  + "(they used to be the same flat black rectangle)",
+  /ph\.loading/.test(STUDIO_HTML) && /ph\.failed/.test(STUDIO_HTML)
+  && /preview unavailable/.test(STUDIO_HTML));
+check("renderRail reconciles by id instead of wiping innerHTML "
+  + "(the wipe aborted every download still in flight, on every pick)",
+  /dataset\.sid/.test(_spScript)
+  && !/function renderRail\(items\) \{\s*var rail = \$\("rail"\);\s*rail\.innerHTML = "";/.test(_spScript));
+check("a hashchange opens an already-loaded post instead of refetching the rail",
+  /hashchange[\s\S]{0,400}pickStaged\(staged\[i\]\)/.test(_spScript));
+
+// 6. Server side: a 429 is a "come back", not a "gone".
+check("the image proxy answers 503 + Retry-After on a Discord 429, never 404 "
+  + "(a 404 is never retried, so the tile stayed blank until a manual refresh)",
+  /r\.status === 429/.test(workerSrc) && /"rate limited, retry" \}, 503/.test(workerSrc));
+check("the proxy's message cache evicts the OLDEST entry, not an arbitrary one",
+  /oldT = Infinity/.test(workerSrc));
+
+
+// ===== renderer colour parity (JS studio  <->  python postcard) ===============
+// The owner reported "the font color is different for the post I get on Discord
+// than the one I get on the app". It was: the studio painted #A45CFF, which
+// postcard.py records BY NAME as one of three swatches he REJECTED ("too
+// magenta") before picking #6A49EC off a rendered sheet.
+//
+// The values below are pinned against bots_github/postcard.py by the Python
+// suite (selftest_changes.py, [renderer parity]); this side pins that the page
+// actually carries them and computes the derived ones the same way. Same shape
+// as the SOCIALS_FALLBACK <-> welcomeconfig.DEFAULT_LINKS pin, which is the
+// precedent for catching exactly this class of drift.
+const _pcw = (() => {
+  const grab = (name) => {
+    const i = _spScript.indexOf("function " + name + "(");
+    if (i === -1) return "";
+    let depth = 0, started = false;
+    for (let j = i; j < _spScript.length; j++) {
+      const c = _spScript[j];
+      if (c === "{") { depth++; started = true; }
+      else if (c === "}") { depth--; if (started && depth === 0) return _spScript.slice(i, j + 1); }
+    }
+    return "";
+  };
+  const src = [grab("clamp"), grab("rgb3"), grab("mixHex")].join("\n")
+    + "\n" + (_spScript.match(/var PAL = \{[\s\S]*?\};/) || [""])[0]
+    + "\n" + (_spScript.match(/var CW = \[[\s\S]*?\];/) || [""])[0]
+    + "\nreturn { mixHex: mixHex, CW: CW, PAL: PAL };";
+  try { return new Function(src)(); } catch (e) { return null; }
+})();
+
+check("the studio's colour helpers are extractable and run", !!_pcw && !!_pcw.mixHex);
+
+if (_pcw) {
+  const purple = _pcw.CW.find(c => c.id === "purple");
+  check("the hot-word glyph is the owner's chosen #6A49EC, not the rejected #A45CFF",
+    purple.glyph === "#6A49EC" && _pcw.PAL.hot === "#6A49EC");
+  check("no rejected swatch survives anywhere on the page "
+    + "(#A45CFF was 'too magenta', #D2ADFF 'too pale', #8A6FFA 'too light')",
+    !/A45CFF/i.test(STUDIO_HTML) && !/D2ADFF/i.test(STUDIO_HTML) && !/8A6FFA/i.test(STUDIO_HTML));
+  check("every colorway carries a glyph, like postcard.COLORWAYS",
+    _pcw.CW.length === 5 && _pcw.CW.every(c => typeof c.glyph === "string" && /^#[0-9A-F]{6}$/i.test(c.glyph)));
+  // Derived values, computed the same way on both sides.
+  // Within one level per channel, not byte-equal: python's round() is banker's
+  // rounding and JavaScript's Math.round is half-up, so a blend landing on an
+  // exact .5 differs by 1/255 (here #DBD3F8 vs #DAD3F8). That is invisible, and
+  // forcing either side to match would mean changing a mix helper every gradient
+  // on the poster depends on. What matters is that the wash LIFTS the hot word
+  // to near-paper instead of leaving it on its own hue's field, which is what
+  // the round-4 blind test rejected.
+  const _near = (a, b) => {
+    const A = a.replace("#", "").match(/../g).map(h => parseInt(h, 16));
+    const B = b.replace("#", "").match(/../g).map(h => parseInt(h, 16));
+    return A.every((v, i) => Math.abs(v - B[i]) <= 1);
+  };
+  check("a photoless wash lifts hot words to near-paper #DAD3F8, as python does "
+    + "(a colorway accent on its own hue's field vanished in the round-4 blind)",
+    _near(_pcw.mixHex(purple.hot, _pcw.PAL.paper, 0.75), "#DAD3F8"));
+  check("the solo bar over a wash is #C5B9FA, as python computes it",
+    _near(_pcw.mixHex(purple.hot, _pcw.PAL.paper, 0.55), "#C5B9FA"));
+}
+
+check("the news family picks its hot colour by ROLE (photo vs wash), not one constant",
+  /function newsHotHex\(hasPhoto\)/.test(_spScript)
+  && /newsHotHex\(!!ph\)/.test(_spScript));
+check("only the BRAND entry is derived - the owner's red/orange/blue/green/white "
+  + "picks are returned untouched",
+  /if \(state\.hlColor !== "purple"\) return hlHex\(\);/.test(_spScript));
+check("an all-hot line flips to white words plus ONE bar, as python does "
+  + "(when everything is highlighted, nothing is)",
+  /function soloBarHex/.test(_spScript) && /!allHot && !!state\.hot\[keys\[i\]\]/.test(_spScript));
+check("lineMaxSolo matches python's 300 (its own comment records 240 as rejected, "
+  + "'half the reference's scale')",
+  /lineMaxSolo: 300\b/.test(_spScript));
+
+
+// ===== studio: textures and layer selection ===================================
+// Both of these were reported as "it doesn't work" and both were real.
+
+// TEXTURES. A cut-out subject was dropped into the plain photo slot, which takes
+// the full-bleed branch and never calls washField - so the scene the Discord
+// card clearly shows was simply covered up in the app.
+check("a cut-out is remembered as a cut-out, not as a photograph",
+  /state\.photo\.kind = \(p\.photoKind === "cutout"\)/.test(_spScript)
+  && /kind: "photo"/.test(_spScript));
+check("a cut-out draws the wash FIRST and stands the subject on it, "
+  + "the postcard order",
+  /state\.photo\.kind === "cutout"[\s\S]{0,200}washField\([\s\S]{0,120}drawCutout\(/.test(_spScript));
+check("the cut-out painter contains the subject instead of cropping it, "
+  + "and adds no rim light (the blind rounds called that a sticker halo)",
+  /function drawCutout/.test(_spScript)
+  && /Math\.min\(boxW \/ iw, boxH \/ ih\)/.test(_spScript)
+  && !/rimLight|shadowColor: *PAL\.rim/.test(_spScript.match(/function drawCutout[\s\S]*?\n}/)[0]));
+check("a photo the owner drops himself resets the slot to a photograph",
+  /if \(slot === "photo"\) state\.photo\.kind = "photo";/.test(_spScript));
+check("the pair templates paint the wash, so the texture chips are no longer "
+  + "inert on Quote-2-shots, Stat, Versus and Then-and-now",
+  /function pairBackground\(ctx\) \{\s*washField\(/.test(_spScript)
+  && !/layout\.photo = layout\.left;\s*ctx\.fillStyle = PAL\.ink; ctx\.fillRect\(0, 0, W, H\);/.test(_spScript));
+check("the background note is always visible and says what it actually does",
+  /bn\.hidden = false;/.test(_spScript) && /stand in front of it/.test(_spScript));
+
+// LAYER SELECTION. pickLayer defaulted to "photo" and every pointerdown
+// overwrote the toolbar chip, with a text target about 10 real pixels wide.
+check("a drag moves the ACTIVE layer instead of re-selecting on every press",
+  /var pick = layerExists\(layer\) \? layer : pickLayer\(p\);/.test(_spScript)
+  && !/var pick = pickLayer\(p\);\s*setLayer\(pick\);/.test(_spScript));
+check("a TAP (no movement) is what changes the selection",
+  /if \(!dragging\.moved\) \{[\s\S]{0,400}setLayer\(tapPick\)/.test(_spScript));
+check("the hit pad is derived from a real screen distance, not a flat canvas number "
+  + "(26 canvas px was about 10 real px on the phone)",
+  /function hitPad\(screenPx\)/.test(_spScript)
+  && /W \/ r\.width/.test(_spScript.match(/function hitPad[\s\S]*?\n}/)[0])
+  && !/inside\(layout\.text, p, 26\)/.test(_spScript));
+check("an empty line still has a grabbable box (it used to collapse to 2px)",
+  /Math\.max\(240, W \* 0\.35\)/.test(_spScript)
+  && !/return \{ x: cx - 1, y: top, w: 2, h: Math\.max\(1, lh\) \};/.test(_spScript));
+check("a layer that the current template does not have is never made active",
+  /function layerExists\(k\)/.test(_spScript));
+check("the smaller target wins the hit test (the inset sits ON the photo, "
+  + "which is the whole canvas)",
+  /d\.inset && inside\(layout\.inset, p, hitPad\(14\)\)/.test(_spScript));
+
+
+// ===== studio: the 1-2-3-4 workflow ===========================================
+// The owner: "why don't you make it like a proper workflow where I could go from
+// one two three four... there's so much wasted space". Measured before: the
+// panel was thirteen cards in creation order, about 2300px tall; the staged
+// queue he needs FIRST started about 2400px down, after the closing .split, and
+// the caption about 2200px down. Measured after, at 1440x900: queue at 217px,
+// caption at 201px, document 2987px -> 1165px, poster 416px -> 488px wide, and
+// the empty gutter beside the poster 412px -> 2px.
+check("the page declares four named steps",
+  /\{ n: 1, label: "Pick" \}/.test(_spScript) && /\{ n: 4, label: "Export" \}/.test(_spScript));
+check("every panel card is assigned to a step",
+  (STUDIO_HTML.match(/<div class="card" data-step="\d"/g) || []).length >= 13);
+check("the staged queue moved INTO the panel as step 1, and no longer sits after "
+  + "the closing .split where it started 2400px down",
+  /<div class="card" data-step="1">[\s\S]{0,220}Staged by the bot/.test(STUDIO_HTML));
+check("the caption and drafts are step 4, not the last cards of a 2300px column",
+  /<div class="card" data-step="4">[\s\S]{0,120}Caption/.test(STUDIO_HTML)
+  && /<div class="card" data-step="4">[\s\S]{0,200}Drafts/.test(STUDIO_HTML));
+
+// Visibility is expressed as display:none on the INACTIVE cards and never
+// display:block on the active ones: several cards carry [hidden] from the
+// template logic, and an author display:block would beat the UA [hidden] rule
+// and un-hide Matchup, Stat and Panels on templates that do not have them.
+check("[hidden] still wins inside a step (Matchup/Stat/Panels stay hidden)",
+  /html\[data-shell=steps\] \.panel > \.card\[data-step\]\[hidden\]\{display:none\}/.test(STUDIO_HTML));
+
+// The escape hatch ships WITH the redesign, not after it.
+check("?shell=classic and a Settings toggle restore the old single page",
+  /shell=classic/.test(_spScript) && /id="shellToggle"/.test(STUDIO_HTML)
+  && /html\[data-shell=classic\] \.steps\{display:none\}/.test(STUDIO_HTML));
+check("the shell choice survives a reload, and a private window cannot break boot",
+  /localStorage\.setItem\("studio\.shell"/.test(_spScript)
+  && /try \{[^}]*localStorage\.getItem\("studio\.shell"\)/.test(_spScript.replace(/\n/g, " ")));
+
+// This one shipped broken for a few minutes and is exactly the class of bug the
+// harness exists for: setStep referenced `fit`, a var local to the toolbar
+// wiring, so it threw a ReferenceError that aborted the boot BEFORE applyShell
+// ran. data-shell was never set, every step rule was inert, and the page looked
+// completely unchanged while the step bar sat on top of it working perfectly.
+check("no layout helper references a non-global fit()",
+  !/requestAnimationFrame\(fit\)/.test(_spScript));
+check("the layout nudge cannot abort the boot sequence",
+  /function relayout\(\)[\s\S]{0,320}catch \(e\)/.test(_spScript));
+
+// Space.
+check("the poster grows into the gutter the panel used to need",
+  /html\[data-shell=steps\] \.canvas-wrap\{max-width:min\(600px/.test(STUDIO_HTML));
+check("the stage column is capped to the poster so 'auto' cannot re-open the gutter "
+  + "(the export buttons have no intrinsic width and stretched the track to 900px)",
+  /html\[data-shell=steps\] \.stage\{max-width:min\(600px/.test(STUDIO_HTML)
+  && /html\[data-shell=steps\] \.split\{grid-template-columns:auto 452px;justify-content:center\}/.test(STUDIO_HTML));
+check("on a phone the step bar is pinned within reach instead of sitting ~950px down",
+  /html\[data-shell=steps\] \.steps\{[\s\S]{0,120}position:fixed[\s\S]{0,120}bottom:0/.test(STUDIO_HTML)
+  && /html\[data-shell=steps\] main\{padding-bottom:86px\}/.test(STUDIO_HTML));
+check("picking a staged post hands the owner on to the words",
+  /function stepAfterPick\(\)/.test(_spScript)
+  && (_spScript.match(/stepAfterPick\(\);/g) || []).length >= 3);
+
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
 process.exit(fail ? 1 : 0);
