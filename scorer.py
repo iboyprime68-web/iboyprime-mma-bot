@@ -50,6 +50,18 @@ DEFAULTS = {
     # daily budget, counted per UTC date in the caller's state file
     "max_ai_calls_per_day": 120,   # paid calls; over the cap -> free heuristic
     "max_staged_per_day": 6,       # studio posts; over the cap -> skipped
+    # THE PRIORITY LANE (Sept 3 2026). max_staged_per_day is first-come-first-
+    # served, so on a measured day the six slots were spent by 08:35 UTC on six
+    # stories the model scored 82-85, and the best headline of the day - the one
+    # that buzzed the owner's phone at 17:45 - was refused before it was ever
+    # scored. These two keys give the hot tier a budget the routine tier can
+    # never consume. See ytposts.is_priority for what "hot" means and why it is
+    # the deterministic heuristic rather than the model score.
+    "max_priority_staged_per_day": 5,   # sized against the RESIDUAL, not the rate:
+                                        # replayed on 700 real stories a cap of
+                                        # 3 still refused 0.7 hot stories a day
+                                        # and 5 refuses 0.1, for 0.3 extra posts
+    "priority_threshold": 80,           # heuristic score; 0 disables the tier
 }
 
 # ---- the provider table ----------------------------------------------------
@@ -293,19 +305,32 @@ def provider(pref=""):
 #                         keeps working, it just stops spending.
 #   max_staged_per_day    studio posts. Over the cap the caller skips the
 #                         story and prints a note.
+#   max_priority_staged_per_day   the hot tier's own budget, which the routine
+#                         tier can never spend. A story the routine cap would
+#                         refuse still stages if ytposts.is_priority says so
+#                         and this counter has room.
 #
 # UNBOUNDED COUNTERS ARE THE OBVIOUS TRAP HERE: a dict keyed by date grows a
 # row a day forever inside a file that is committed to the repo every five
-# minutes. daily_block keeps ONE day and exactly three keys, rebuilt from
-# scratch the moment the date rolls over, so the block is a fixed ~40 bytes no
-# matter how long the bot runs.
+# minutes. daily_block keeps ONE day and exactly the COUNTERS keys, rebuilt
+# from scratch the moment the date rolls over, so the block is a fixed ~50
+# bytes no matter how long the bot runs.
 DAILY_KEY = "daily"
-COUNTERS = ("ai", "staged")
+# Everything counted per UTC day. "lost" is a TALLY, not a budget: it has no
+# cap key and under_cap is never asked about it. It exists so the next "the
+# studio never got that story" report can be answered from state_news.json
+# instead of a fresh live measurement - it is the count of hot stories the day
+# refused, and it costs one integer in a block that is rebuilt daily anyway.
+COUNTERS = ("ai", "staged", "prio", "lost")
+# counter name -> the config key that caps it. A subset of COUNTERS.
+CAP_KEYS = {"ai": "max_ai_calls_per_day",
+            "staged": "max_staged_per_day",
+            "prio": "max_priority_staged_per_day"}
 
 
 def _cap(cfg, which):
     """The configured cap for one counter, clamped to >= 0. Junk -> default."""
-    key = "max_ai_calls_per_day" if which == "ai" else "max_staged_per_day"
+    key = CAP_KEYS.get(which, "max_staged_per_day")
     try:
         return max(0, int((cfg or {}).get(key, DEFAULTS[key])))
     except (TypeError, ValueError):
@@ -314,11 +339,17 @@ def _cap(cfg, which):
 
 def daily_block(state, today):
     """Today's counter block in `state`, reset whenever the UTC date changes.
-    Exactly {"d", "ai", "staged"} and nothing else survives, so the state file
-    can never grow with history. Mutates and returns the block."""
+    Exactly {"d"} plus the COUNTERS keys and nothing else survives, so the
+    state file can never grow with history. A block written before a counter
+    existed simply opens that counter at zero - no migration is needed, and
+    none may be added: this file is committed to a public repo every run.
+    Mutates and returns the block."""
     blk = state.get(DAILY_KEY)
     if not isinstance(blk, dict) or blk.get("d") != today:
-        blk = {"d": today, "ai": 0, "staged": 0}
+        # derived from COUNTERS, never a hand-written literal: a new counter
+        # added to the tuple and forgotten here would be missing from every
+        # fresh day's block while quietly present on a carried-over one
+        blk = dict({"d": today}, **{k: 0 for k in COUNTERS})
     else:
         clean = {"d": today}
         for k in COUNTERS:
