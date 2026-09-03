@@ -521,19 +521,37 @@ def main():
     # The baseline member role is the only one this script CREATES. Everything else in
     # ROLES_KEEP predates the restructure; a missing one means something is wrong and
     # should be visible, not silently papered over.
-    if layout.MEMBER_ROLE not in roles_by_name:
-        spec = next((r for r in layout.ROLES_KEEP if r[0] == layout.MEMBER_ROLE), None)
-        if spec:
-            name, color, hoist, mentionable = spec
-            _, r = api("POST", "/guilds/%s/roles" % GUILD_ID,
-                       {"name": name, "color": color, "hoist": hoist,
-                        "mentionable": mentionable, "permissions": "0"})
-            if isinstance(r, dict) and r.get("id"):
-                roles_by_name[name] = r["id"]
-                note("created role: %s (hoisted, no extra permissions)" % name)
-                pause(0.3)
+    for _auto in (layout.MEMBER_ROLE, layout.NEWS_ALERT_ROLE):
+        if _auto in roles_by_name:
+            continue
+        spec = next((r for r in layout.ROLES_KEEP if r[0] == _auto), None)
+        if not spec:
+            continue
+        name, color, hoist, mentionable = spec
+        _, r = api("POST", "/guilds/%s/roles" % GUILD_ID,
+                   {"name": name, "color": color, "hoist": hoist,
+                    "mentionable": mentionable, "permissions": "0"})
+        if isinstance(r, dict) and r.get("id"):
+            roles_by_name[name] = r["id"]
+            note("created role: %s (no extra permissions)" % name)
+            pause(0.3)
 
     check_member_role_rank(roles_by_name)
+
+    # The alert role exists so ONE person gets pinged. Grant it to the owner here
+    # rather than asking him to click: member_bot only backfills the baseline role,
+    # and a ping role nobody holds is a silent no-op that looks like it works.
+    _alert_rid = roles_by_name.get(layout.NEWS_ALERT_ROLE)
+    _owner_uid = str((guild or {}).get("owner_id") or "")
+    if _alert_rid and _owner_uid and not DRY:
+        code, _ = api("PUT", "/guilds/%s/members/%s/roles/%s"
+                      % (GUILD_ID, _owner_uid, _alert_rid))
+        if code in (200, 201, 204):
+            note("granted %s to the server owner (nobody else holds it, so nobody "
+                 "else is pinged)" % layout.NEWS_ALERT_ROLE)
+        else:
+            note("could not grant %s to the owner (HTTP %s) - news alerts will stay "
+                 "silent until it is granted by hand" % (layout.NEWS_ALERT_ROLE, code))
 
     out_roles = {}
     for key, name in layout.ROLE_KEYS.items():
