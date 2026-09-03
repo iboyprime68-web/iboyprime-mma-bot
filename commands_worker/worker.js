@@ -1878,6 +1878,61 @@ const STUDIO_LIMITS = {
 // Every /studio path is answered here and returns. The Discord interaction endpoint is
 // below this in fetch(), so no request to a /studio route can reach a command handler,
 // signed or not.
+
+/* ---------- /news/egress-probe -------------------------------------------
+   Everything about moving the news poller onto a Cloudflare cron rests on one
+   unverified assumption: that Cloudflare's datacenter IPs can reach the feeds at
+   all. Every freshness figure in this project was measured from the owner's
+   laptop, and Google News in particular is documented behaving differently
+   server-side. This route fetches each feed FROM the Worker and reports what
+   came back, so the answer is measured instead of assumed.
+
+   Read-only, posts nothing, and gated on a secret that exists only for this. It
+   returns 404 when the key is unset, so there is nothing to find on a Worker
+   that was never set up for it. */
+const PROBE_FEEDS = Object.freeze([
+  ["google_news_ufc", "https://news.google.com/rss/search?q=UFC+when:1h&hl=en-US&gl=US&ceid=US:en"],
+  ["yahoo_mma",       "https://sports.yahoo.com/mma/rss.xml"],
+  ["mma_fighting",    "https://www.mmafighting.com/rss/current.xml"],
+  ["bloody_elbow",    "https://www.bloodyelbow.com/feed/"],
+  ["mma_mania",       "https://www.mmamania.com/rss/current.xml"],
+  ["sherdog",         "https://www.sherdog.com/rss/news.xml"],
+]);
+async function newsEgressProbe(env, url) {
+  if (!env.NEWS_PROBE_KEY) return new Response("not found", { status: 404 });
+  const given = url.searchParams.get("k") || "";
+  if (!ctEq(given, env.NEWS_PROBE_KEY)) {
+    return new Response("not found", { status: 404 });
+  }
+  const out = [];
+  for (const [key, feedUrl] of PROBE_FEEDS) {
+    const t0 = Date.now();
+    let row = { key: key, status: 0, bytes: 0, ms: 0, newest: "", note: "" };
+    try {
+      const r = await fetch(feedUrl, {
+        headers: { "user-agent": "Mozilla/5.0 (compatible; iboyprime-newsbot/1.0)",
+                   "accept": "application/rss+xml, application/xml, text/xml, */*" },
+      });
+      row.status = r.status;
+      row.etag = r.headers.get("etag") || "";
+      row.lastMod = r.headers.get("last-modified") || "";
+      row.age = r.headers.get("age") || "";
+      const body = await r.text();
+      row.bytes = body.length;
+      const m = body.match(/<(?:pubDate|published|updated)>([^<]{6,60})</);
+      row.newest = m ? m[1] : "";
+      row.items = (body.match(/<(?:item|entry)[\s>]/g) || []).length;
+    } catch (e) {
+      row.note = String(e && e.message || e).slice(0, 120);
+    }
+    row.ms = Date.now() - t0;
+    out.push(row);
+  }
+  return new Response(JSON.stringify({ at: new Date().toISOString(), feeds: out }, null, 1),
+    { status: 200, headers: { "content-type": "application/json; charset=utf-8",
+                              "cache-control": "no-store" } });
+}
+
 async function studioRouter(request, env, url) {
   // Normalise before matching so "/studio/" and "/studio//api/staged" cannot slip past
   // a route check and land on the catch-all with a different answer.
@@ -1931,6 +1986,9 @@ export default {
     // /studio, signed or not, can never run a command handler.
     if (url.pathname === "/studio" || url.pathname.startsWith("/studio/")) {
       return await studioRouter(request, env, url);
+    }
+    if (url.pathname === "/news/egress-probe" && request.method === "GET") {
+      return await newsEgressProbe(env, url);
     }
     if (request.method !== "POST") return new Response("Slash commands \u2014 online.");
     const body = await request.text();
