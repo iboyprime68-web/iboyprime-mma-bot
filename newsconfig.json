@@ -5,17 +5,20 @@
     "mma_fighting": {
       "label": "MMA Fighting",
       "url": "https://www.mmafighting.com/rss/current.xml",
-      "enabled": true
+      "enabled": true,
+      "trusted": true
     },
     "bloody_elbow": {
       "label": "Bloody Elbow",
       "url": "https://www.bloodyelbow.com/feed/",
-      "enabled": true
+      "enabled": true,
+      "trusted": true
     },
     "mma_mania": {
       "label": "MMA Mania",
       "url": "https://www.mmamania.com/rss/current.xml",
       "enabled": true,
+      "trusted": true,
       "min_poll": 300
     },
     "google_news_ufc": {
@@ -35,34 +38,39 @@
       "label": "Sherdog",
       "url": "https://www.sherdog.com/rss/news.xml",
       "enabled": true,
+      "trusted": true,
       "min_poll": 300
     },
     "x_helwani": {
       "label": "Ariel Helwani",
       "url": "https://nitter.net/arielhelwani/rss",
-      "enabled": true,
+      "enabled": false,
       "flavor": "nitter",
+      "trusted": true,
       "min_poll": 90
     },
     "x_mmafighting": {
       "label": "MMA Fighting on X",
       "url": "https://nitter.net/MMAFighting/rss",
-      "enabled": true,
+      "enabled": false,
       "flavor": "nitter",
+      "trusted": true,
       "min_poll": 90
     },
     "x_mmajunkie": {
       "label": "MMA Junkie on X",
       "url": "https://nitter.net/mmajunkie/rss",
-      "enabled": true,
+      "enabled": false,
       "flavor": "nitter",
+      "trusted": true,
       "min_poll": 90
     },
     "x_ufc": {
       "label": "UFC on X",
       "url": "https://nitter.net/ufc/rss",
-      "enabled": true,
+      "enabled": false,
       "flavor": "nitter",
+      "trusted": true,
       "min_poll": 90
     },
     "bad_left_hook": {
@@ -96,7 +104,7 @@
     },
     "mma_other": {
       "label": "MMA",
-      "enabled": false,
+      "enabled": true,
       "color": 15105570,
       "keywords": [
         "bellator",
@@ -162,6 +170,7 @@
     "point spread",
     "wager"
   ],
+  "always_allow": [],
   "digest": {
     "times_utc": [
       "21:30"
