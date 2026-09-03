@@ -47,14 +47,25 @@ The loop also git-pulls the checkout ~once a minute so newsconfig.json edits mad
 while the job runs (panel Save & Deploy, /news) apply almost immediately. Free
 because the repo is public. Run locally it is still a single pass.
 """
-import datetime, email.utils, time, xml.etree.ElementTree as ET
+import datetime, email.utils, hashlib, time, xml.etree.ElementTree as ET
 import common, layout, newsconfig, scorer, ytposts
 
 PACE_PER_CYCLE = 1     # at most ONE realtime post per cycle - never a burst
 SEED_POST      = 5     # on the very first run, post this many latest
-MAX_SEEN       = 1200  # cap state size
+STATE_VERSION  = 4     # v4: `seen` is a time-ordered map, not an alphabetical list
+SEEN_CAP       = 2500  # cap on the dedupe memory (see SeenSet)
+EVAL_CAP       = 1500  # cap on yt_eval. Its OWN cap on purpose: sharing one
+                       # constant with SEEN_CAP meant raising the dedupe memory
+                       # silently doubled the staging ledger too.
+SEED_SKIP_MIN  = 90    # on the v3->v4 cutover, items older than this are marked
+                       # seen instead of posted. Wide enough to cover a delayed
+                       # first tick (measured median gap 13.8 min, worst 712),
+                       # narrow enough that a story breaking during the cutover
+                       # still reaches the channel.
 MAX_RECENT     = 120   # cap the similarity window size
-MAX_DIGEST     = 60    # cap the digest queue
+MAX_DIGEST     = 250   # cap the digest queue. Was 60 and the live queue sat AT
+                       # it, so everything past the 60th story of the day was
+                       # dropped on the floor. 250 clears the worst measured day.
 STATE_FILE     = "state_news.json"
 POLL_SECONDS   = 20    # feed check cadence inside one job ("pretty much instant")
 WINDOW_SECONDS = 3300  # ~55 min per job. The CRON is what had to change (news.yml is
@@ -62,6 +73,59 @@ WINDOW_SECONDS = 3300  # ~55 min per job. The CRON is what had to change (news.y
                        # left a run pending on the concurrency group, and GitHub
                        # cancels a pending run the moment a third tick arrives.
 REFRESH_EVERY  = 3     # git-pull the checkout every N cycles (~1/min) for config edits
+
+
+def _skey(guid):
+    """Stable short key for a story. Hashing keeps the state file small and, more
+    importantly, makes every source's keys the same shape - the v3 bug was a
+    direct consequence of raw URLs having different alphabetical prefixes."""
+    return hashlib.sha1((guid or "").encode("utf-8")).hexdigest()[:16]
+
+
+class SeenSet(object):
+    """Time-ordered memory of stories already handled.
+
+    THE BUG THIS REPLACES. v3 stored raw URL guids and pruned with
+    `sorted(seen)[-1200:]` - alphabetically. Measured on the live state file
+    (Sept 2026): all 1200 surviving entries were www.mmamania.com (674) and
+    www.sherdog.com (526), and nothing else, because "https://news.google.com/",
+    "https://sports.yahoo.com/" and "https://www.mmafighting.com/" all sort below
+    "https://www.mmamania.com/". Eight of the ten enabled sources therefore had
+    ZERO dedupe memory and reposted freely - which is exactly the "I get repeated
+    posts" the owner reported.
+
+    Prune by insertion time, newest first. Never sort keys again.
+    """
+
+    def __init__(self, raw=None, cap=SEEN_CAP):
+        self.cap = cap
+        self._d = {}
+        if isinstance(raw, dict):                      # v4
+            for k, v in raw.items():
+                try:
+                    self._d[str(k)] = float(v)
+                except (TypeError, ValueError):
+                    self._d[str(k)] = 0.0
+        elif isinstance(raw, (list, tuple)):           # v3 list of raw guids
+            for g in raw:
+                self._d[_skey(g)] = 0.0                # 0.0 = migrated, evicted first
+
+    def __contains__(self, guid):
+        return _skey(guid) in self._d
+
+    def __len__(self):
+        return len(self._d)
+
+    def add(self, guid, ts=None):
+        self._d[_skey(guid)] = float(ts if ts is not None else time.time())
+
+    def dump(self):
+        """Newest `cap` entries. Migrated entries carry ts 0.0 so they are the
+        first to go, which is right: they are the only ones we know are stale."""
+        if len(self._d) <= self.cap:
+            return dict(self._d)
+        newest = sorted(self._d.items(), key=lambda kv: kv[1], reverse=True)[:self.cap]
+        return dict(newest)
 
 
 def _local(tag):
@@ -92,16 +156,29 @@ def _find_link(item):
 
 
 def _pubdate(item):
+    """Parsed publication time, or None when the feed did not give a usable one.
+
+    It used to return now_utc() for BOTH a missing field and a parse failure, so
+    an undated item was indistinguishable from a brand-new one. That mattered on
+    the v3->v4 cutover: undated items would have looked fresh, skipped seeding
+    and been posted as new. Future timestamps are clamped for the same reason -
+    Sherdog was measured serving a pubDate four hours ahead, which reads as
+    permanently "just published" and sorts to the front of every cycle."""
     raw = _find_text(item, {"pubdate", "published", "updated", "date"})
     if not raw:
-        return common.now_utc()
+        return None
+    dt = None
     try:
         dt = email.utils.parsedate_to_datetime(raw)
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=datetime.timezone.utc)
-        return dt.astimezone(datetime.timezone.utc)
+        dt = dt.astimezone(datetime.timezone.utc)
     except Exception:
-        return common.parse_iso(raw) or common.now_utc()
+        dt = common.parse_iso(raw)
+    if dt is None:
+        return None
+    now = common.now_utc()
+    return now if dt > now else dt
 
 
 def parse_feed(text):
@@ -120,8 +197,13 @@ def parse_feed(text):
         if not title or not link:
             continue
         desc = common.truncate(common.clean(_find_text(el, {"description", "summary"})), 220)
+        when = _pubdate(el)
         items.append({"guid": guid, "title": title, "link": link,
-                      "when": _pubdate(el), "desc": desc,
+                      # `when` still gets a value so ordering works; `undated`
+                      # is what the cutover seeding reads, so an unparseable
+                      # date is treated as OLD rather than as breaking news.
+                      "when": when or common.now_utc(), "undated": when is None,
+                      "desc": desc,
                       "src_name": common.clean(_find_text(el, {"source"}))})
     return items
 
@@ -237,13 +319,27 @@ def digest_due(now, times_utc, last_stamp):
 
 
 def migrate_state(state):
-    """v2 -> v3 keeps `seen` intact (NO repost storm). Fresh/legacy states fall
-    through to the normal first-run seeding path."""
-    if state.get("v") == 3:
+    """Upgrade in place, NEVER re-seed a healthy state - a `v != N` first-run
+    check is the repost-storm trap this project already hit once (CLAUDE.md s4).
+
+    v2 -> v3 kept `seen` intact.
+    v3 -> v4 converts `seen` from a list of raw guids to {hash: timestamp} and
+    arms a one-time per-source backfill. The backfill is NOT optional: the v3
+    list only ever held mmamania and sherdog keys, so without it the other eight
+    feeds would look entirely new on the first v4 cycle and dump their whole
+    backlog into the channel. See `seed_pending` in main().
+    """
+    if state.get("v") == STATE_VERSION:
         return state
     if state.get("v") == 2 and state.get("initialized"):
         state.update({"v": 3, "recent": [], "digest_items": [], "digest_last": "",
                       "hour": ["", 0]})
+    if state.get("v") == 3 and state.get("initialized"):
+        seen = SeenSet(state.get("seen", []))
+        state["v"] = STATE_VERSION
+        state["seen"] = seen.dump()
+        state["seed_pending"] = None          # filled from the live config on cycle 1
+        state["seed_deadline"] = 0.0          # set on cycle 1; expiry unwedges it
     return state
 
 
@@ -255,7 +351,7 @@ def main():
     roles = cfg_bots.get("roles", {}) or {}
     news_rid, digest_rid = roles.get("news_pings"), roles.get("digest_ping")
     state = migrate_state(common.load_json(common.state_path(STATE_FILE), {}))
-    seen = set(state.get("seen", []))
+    seen = SeenSet(state.get("seen"))
 
     next_ok = {}   # source key -> monotonic time before which we skip it
 
@@ -280,10 +376,28 @@ def main():
             next_ok[key] = now_m + float(opts.get("min_poll", 0) or 0)
             items = apply_flavor(parse_feed(text), flavor, label)
             print("  %s: %d items" % (label, len(items)))
+            # ---- one-time v3->v4 backfill, PER SOURCE --------------------
+            # Only a source that just answered 200 is marked done. Seeding all
+            # ten on whichever cycle happens to run first would leave a feed
+            # that was down (nitter, a blocking CDN) unseeded, and it would then
+            # dump its entire backlog on the next cycle.
+            seeding = key in (state.get("seed_pending") or ())
+            if seeding:
+                cutoff = common.now_utc() - datetime.timedelta(minutes=SEED_SKIP_MIN)
+                n_seed = 0
+                for it in items:
+                    if it.get("undated") or it["when"] < cutoff:
+                        seen.add(it["guid"], ts=0.0)   # migrated: evicted first
+                        n_seed += 1
+                state["seed_pending"] = [k for k in state["seed_pending"] if k != key]
+                seed_work[0] += 1
+                print("  seeded %s: %d older item(s) marked seen, %d left to seed"
+                      % (label, n_seed, len(state["seed_pending"])))
             for it in items:
                 if it["guid"] in seen:
                     continue
                 it["source"] = it.get("display_source") or label
+                it["source_key"] = key
                 fresh.append(it)
         uniq = {}
         for it in fresh:
@@ -291,12 +405,12 @@ def main():
         return sorted(uniq.values(), key=lambda x: x["when"])
 
     def save():
-        state["seen"] = sorted(seen)[-MAX_SEEN:]
+        state["seen"] = seen.dump()          # time-ordered; NEVER sorted by key
         state["initialized"] = True
-        state["v"] = 3
+        state["v"] = STATE_VERSION
         state["recent"] = state.get("recent", [])[-MAX_RECENT:]
         state["digest_items"] = state.get("digest_items", [])[-MAX_DIGEST:]
-        state["yt_eval"] = state.get("yt_eval", [])[-MAX_SEEN:]
+        state["yt_eval"] = state.get("yt_eval", [])[-EVAL_CAP:]
         state["staged_hist"] = state.get("staged_hist", [])[-ytposts.STAGED_HIST_CAP:]
         common.save_json(common.state_path(STATE_FILE), state)
         common.persist_state(STATE_FILE)       # durable now, so a crash won't re-post
@@ -308,6 +422,12 @@ def main():
     # job re-scored and re-staged the same story - a duplicate studio post,
     # the exact class the staging memory exists to prevent.
     stage_work = [0]
+
+    # Same reason as stage_work above: the cutover backfill writes `seen` and
+    # `seed_pending` but posts nothing, so without its own flag the save gate
+    # skips it, the state file never advances to v4, and every subsequent job
+    # re-runs the whole migration.
+    seed_work = [0]
 
     def maybe_stage(it, cat, breaking, cfg):
         """Score a new kept story and stage it for YouTube when it clears the
@@ -370,11 +490,24 @@ def main():
             print("  yt: staging error (%s), news unaffected" % type(e).__name__)
 
     def keep(it, cfg):
-        """Apply exclude/category filters. Returns (keep?, breaking?, reason)."""
-        title = it["title"]
-        if newsconfig.is_excluded(title, cfg):
-            return False, False, "excluded"
+        """(keep?, breaking?, reason). Three gates, in this order:
+
+        1. The promo/gambling floor. Enforced in code (promofilter), never
+           config, and NOT overridable by `breaking` - a gambling promo with the
+           word "breaking" in it is still a gambling promo.
+        2. The positive MMA topic gate. Runs BEFORE classify() so
+           `default_category` can no longer wave through baseball.
+        3. The owner's category toggles, unchanged.
+        """
+        title, desc = it["title"], it.get("desc", "")
+        why = newsconfig.exclude_reason(title, cfg, desc)
+        if why:
+            return False, False, why
         breaking = newsconfig.is_breaking(title, cfg)
+        on_topic, topic_why = newsconfig.is_on_topic(title, desc, cfg,
+                                                     it.get("source_key", ""))
+        if not on_topic:
+            return False, breaking, topic_why
         cat = newsconfig.classify(title, cfg)
         if not newsconfig.category_enabled(cat, cfg):
             if not (breaking and cfg.get("breaking_ignores_filters", True)):
@@ -414,6 +547,27 @@ def main():
         mode = cfg.get("mode", "hybrid")
         now = common.now_utc()
         first_run = not state.get("initialized")
+
+        # The v3->v4 backfill is ARMED here, not in migrate_state(), because the
+        # source list comes from the live config. Without it the eight sources the
+        # old alphabetical prune had already evicted would all look brand new on
+        # the first v4 cycle and dump their entire backlog into the channel.
+        # `seed_deadline` is the unwedge: if a feed stays down we stop waiting for
+        # it rather than seeding forever.
+        if first_run:
+            state["seed_pending"] = []        # the first-run path does its own seeding
+        elif state.get("seed_pending") is None:
+            state["seed_pending"] = [k for k, _l, _u in newsconfig.enabled_sources(cfg)]
+            state["seed_deadline"] = time.time() + 1800
+            seed_work[0] += 1
+            print("cutover: backfilling dedupe memory for %d source(s)"
+                  % len(state["seed_pending"]))
+        elif state.get("seed_pending") and time.time() > float(state.get("seed_deadline") or 0):
+            print("cutover: seeding deadline passed, giving up on %s"
+                  % ", ".join(state["seed_pending"]))
+            state["seed_pending"] = []
+            seed_work[0] += 1
+
         fresh = fetch_fresh(cfg)
 
         if first_run:
@@ -455,11 +609,14 @@ def main():
             if mode == "digest" and not breaking:
                 seen.add(it["guid"]); remember(it, cat); queue_digest(it, cat); queued += 1
                 continue
-            if not breaking and hour[1] >= int(cfg.get("max_per_hour", 6)):
-                if mode == "hybrid":                           # overflow -> digest, channel stays calm
-                    seen.add(it["guid"]); remember(it, cat); queue_digest(it, cat); queued += 1
-                    continue
-                break                                          # realtime: drain next hour
+            # THE HOURLY CAP IS GONE (Sept 2026). It read
+            #     if not breaking and hour[1] >= cap: ... queue_digest(); continue
+            # so story #7 of any UTC hour was never posted to the channel at all -
+            # it went into a once-a-day 21:30 digest whose own queue was capped at
+            # 60 and was measured sitting AT that cap, discarding the rest for
+            # good. The owner asked for news as fast as possible; silently holding
+            # most of a fight-week hour for up to 23.5 hours is the opposite.
+            # Volume control, if it is ever wanted again, is disabling a source.
             content, embeds, mentions, cat = build_message(it, cfg, breaking,
                                                            news_rid if breaking else None)
             # A post is only worth being "loud" if it actually pings someone. The
@@ -477,9 +634,10 @@ def main():
                                              it["source"], it["title"][:70]))
             else:
                 print("post failed (%s), will retry: %s" % (code, it["title"][:60]))
-        if posted or queued or skipped or stage_work[0]:
+        if posted or queued or skipped or stage_work[0] or seed_work[0]:
             save()
             stage_work[0] = 0
+            seed_work[0] = 0
 
         # ---- daily digest (catch-up: a delayed cron posts late, never twice) ----
         if mode in ("hybrid", "digest"):
@@ -492,10 +650,20 @@ def main():
                     code, _ = common.post_message(chan, content, allowed_mentions=mentions,
                                                   embeds=embeds, silent=not digest_rid)
                     print("digest posted (%d stories): HTTP %s" % (len(items), code))
+                    if code in (200, 201):
+                        state["digest_items"] = []
+                        state["digest_last"] = stamp
+                    else:
+                        # A failed post must not consume the window AND the queue.
+                        print("digest post failed, keeping the queue for a retry.")
                 else:
-                    print("digest window %s: only %d item(s), skipping." % (stamp, len(items)))
-                state["digest_last"] = stamp
-                state["digest_items"] = []
+                    # Claim the window so we do not retry all night, but KEEP the
+                    # stories. The old code cleared the queue here, silently
+                    # deleting every story on a quiet day - they were never posted
+                    # to the channel and never appeared in any digest either.
+                    print("digest window %s: only %d item(s), holding them for the next window."
+                          % (stamp, len(items)))
+                    state["digest_last"] = stamp
                 save()
         print("cycle done. posted=%d queued=%d skipped=%d backlog~%d"
               % (posted, queued, skipped, max(0, len(fresh) - posted - queued - skipped)))
