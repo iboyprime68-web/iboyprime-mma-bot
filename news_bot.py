@@ -472,6 +472,10 @@ def main():
     # It is drained after the LOOP, not after each POST: maybe_stage sat above
     # both divert branches, so "after the post" would have silently stopped
     # staging every diverted story.
+    # Each entry is a JOB dict rather than a tuple because the drain now needs
+    # two more facts the posting loop already computed for free: the
+    # deterministic heuristic score, and whether this story actually claimed
+    # the phone alert. Both feed the priority lane (ytposts.is_priority).
     stage_queue = []
 
     # Same reason as stage_work above: the cutover backfill writes `seen` and
@@ -479,13 +483,22 @@ def main():
     # skips it, the state file never advances to v4, and every subsequent job
     # re-runs the whole migration.
     seed_work = [0]
+    # Guids already counted in the `lost` tally this run. A cap-refused story is
+    # deliberately NOT burned into yt_eval (it was never scored), and a story is
+    # only added to `seen` once its news post lands - so while Discord is
+    # returning 5xx the same story is re-queued every 20s cycle. Without this
+    # set the tally would climb by one per cycle AND stage_work would force a
+    # git commit+push each time, turning one Discord blip into a stream of state
+    # commits on a public repo.
+    lost_seen = set()
 
-    def maybe_stage(it, cat, breaking, cfg):
+    def maybe_stage(job, cfg):
         """Score a new kept story and stage it for YouTube when it clears the
         bar. One evaluation per guid ever (yt_eval); never raises, never blocks
         news delivery. Breaking stories always stage - the keyword net is a
         strong signal even when no AI key is configured."""
         try:
+            it, cat, breaking = job["it"], job["cat"], job["breaking"]
             sc_cfg = cfg.get("scoring", {}) or {}
             if not sc_cfg.get("enabled", True):
                 return
@@ -499,9 +512,28 @@ def main():
             # before under_cap, so once six posts had been staged that day every
             # later story was marked "evaluated" without ever being scored, and
             # could never be scored again on any future run.
-            if not scorer.under_cap(state, scfg, today, "staged"):
-                print("  yt: daily staged cap reached, skipping: %s"
-                      % it["title"][:60])
+            #
+            # THE LANE (Sept 3 2026). max_staged_per_day is first-come-first-
+            # served, so it was reliably spent by breakfast on ordinary stories
+            # and the day's best headline was refused hours later without ever
+            # being scored. A hot story now draws on a budget of its own first,
+            # and falls back to the routine budget when that lane is full - so
+            # adding the lane can never stage FEWER stories than before.
+            prio = ytposts.is_priority(job.get("heur", 0), scfg)
+            if prio and scorer.under_cap(state, scfg, today, "prio"):
+                lane = "prio"
+            elif scorer.under_cap(state, scfg, today, "staged"):
+                lane = "staged"
+            else:
+                if prio and it["guid"] not in lost_seen:
+                    # a tally, never a budget: this is the number to read the
+                    # next time a hot story is reported missing from the studio
+                    lost_seen.add(it["guid"])
+                    scorer.spend(state, today, "lost")
+                    stage_work[0] += 1
+                print("  yt: %s, skipping: %s"
+                      % ("both daily caps reached (routine + priority)" if prio
+                         else "daily staged cap reached", it["title"][:60]))
                 return
             state.setdefault("yt_eval", []).append(it["guid"])
             stage_work[0] += 1
@@ -540,8 +572,10 @@ def main():
             # eat the whole max_staged_per_day budget on nothing
             if res_stage.get("ok"):
                 ytposts.remember_staged(state, sit, res_stage.get("img", "none"), now)
-                scorer.spend(state, today, "staged")
-            print("  yt: %s [%d] %s" % (status, score, it["title"][:60]))
+                scorer.spend(state, today, lane)
+            print("  yt: %s [%d%s] %s"
+                  % (status, score, " PRIORITY" if lane == "prio" else "",
+                     it["title"][:60]))
         except Exception as e:
             print("  yt: staging error (%s), news unaffected" % type(e).__name__)
 
@@ -674,7 +708,16 @@ def main():
                 print("  skip (dup story): %s" % it["title"][:60])
                 continue
             cat = newsconfig.classify(it["title"], cfg)
-            stage_queue.append((dict(it), cat, breaking))
+            # The deterministic heuristic is pure, free and instant, and it is
+            # the only ranker this pipeline trusts (the model was measured
+            # handing 82-85 to almost every story). It decides two things: the
+            # alert tier below, and the studio's priority lane. Computed HERE,
+            # above the digest divert, so a diverted story still carries it.
+            _h = scorer.heuristic_score(it["title"], it.get("desc", ""), it["source"],
+                                        cat, cfg.get("breaking_keywords") or [])
+            job = {"it": dict(it), "cat": cat, "breaking": breaking,
+                   "heur": _h.get("score", 0), "alerted": False}
+            stage_queue.append(job)
             if mode == "digest" and not breaking:
                 seen.add(it["guid"]); remember(it, cat); queue_digest(it, cat); queued += 1
                 continue
@@ -693,13 +736,20 @@ def main():
             # heuristic is pure, free and instant. The AI score still gets its say
             # later, through the studio staging ping, and notify.claim guarantees
             # the two cannot both fire for one story.
-            _h = scorer.heuristic_score(it["title"], it.get("desc", ""), it["source"],
-                                        cat, cfg.get("breaking_keywords") or [])
-            _tier = notify.tier(_h.get("score", 0), breaking, cfg)
+            _tier = notify.tier(job["heur"], breaking, cfg)
             loud = (_tier == notify.ALERT and alert_rid
                     and notify.claim(state, it["guid"], time.time(), cfg,
                                      title=it["title"], similar=newsconfig.similar,
                                      subject=ytposts.name_tokens(it["title"])))
+            # Recorded for DRAIN ORDER only - a story that interrupted him is
+            # drained first when a cycle holds several. It deliberately does
+            # NOT admit to the priority lane: notify.tier alerts on `breaking`
+            # with no score floor, and the alerted-but-low tier measures out as
+            # eight copies of one Makhachev quote plus a Dolly Parton tribute
+            # (see ytposts.is_priority). Recorded from the claim that actually
+            # WON, because notify.claim is single-shot and asking it a second
+            # time answers False for the very story that just alerted.
+            job["alerted"] = bool(loud)
             _pre, _am = notify.role_mention(alert_rid) if loud else ("", None)
             content, embeds, mentions, cat = build_message(it, cfg, breaking, None)
             if loud:
@@ -718,8 +768,14 @@ def main():
             else:
                 print("post failed (%s), will retry: %s" % (code, it["title"][:60]))
         # ---- drain the staging queue (slow work, out of the posting path) ----
-        for _sit, _scat, _sbrk in stage_queue:
-            maybe_stage(_sit, _scat, _sbrk, cfg)
+        # Hot stories drain FIRST. In hybrid mode the queue holds one job per
+        # cycle so the order is moot, but in DIGEST mode the posting loop runs
+        # the whole feed without ever incrementing `posted`, so the queue holds
+        # the entire batch - and draining that in feed order hands the day's
+        # scarce slots to whichever stories happen to be oldest.
+        stage_queue.sort(key=lambda j: (not j.get("alerted"), -int(j.get("heur", 0))))
+        for _job in stage_queue:
+            maybe_stage(_job, cfg)
         stage_queue[:] = []
 
         if posted or queued or skipped or stage_work[0] or seed_work[0]:
