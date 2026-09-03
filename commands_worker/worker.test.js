@@ -78,6 +78,25 @@ check("news keyword remove drops it", !n5.breaking_keywords.includes("stripped o
 const n6 = applyNewsChange(nc, "keyword", "add", { list: "exclude", word: "parlay" });
 check("news exclude list is separate", n6.exclude_keywords.includes("parlay") && !n6.breaking_keywords.includes("parlay"));
 
+// The no-gambling rule used to live ONLY in this deletable list, and
+// /news keyword remove betting would quietly empty it (deep_merge replaces a list
+// wholesale, so nothing ever put it back). The rule now runs in code
+// (bots_github/promofilter.py); this guard stops the UI reporting a removal that
+// did not and must not happen.
+const n7 = applyNewsChange(nc, "keyword", "remove", { list: "exclude", word: "betting" });
+check("a protected betting term cannot be removed, and the refusal is reported",
+  n7._refused === "protected" && n7.exclude_keywords.includes("betting"));
+const n8 = applyNewsChange(n6, "keyword", "remove", { list: "exclude", word: "parlay" });
+check("a protected term is refused even when the owner added it himself",
+  n8._refused === "protected" && n8.exclude_keywords.includes("parlay"));
+const n9 = applyNewsChange({ exclude_keywords: ["kittens"] }, "keyword", "remove",
+  { list: "exclude", word: "kittens" });
+check("the owner's OWN non-protected words are still removable",
+  !n9._refused && !n9.exclude_keywords.includes("kittens"));
+check("PROTECTED_EXCLUDES holds the full seventeen-word floor",
+  _test.PROTECTED_EXCLUDES.length === 17 && _test.PROTECTED_EXCLUDES.includes("polymarket") === false
+  && _test.PROTECTED_EXCLUDES.includes("betting"));
+
 const spn = subPath({ data: { options: [ { type: 2, name: "keyword", options: [ { type: 1, name: "add",
   options: [ { name: "list", value: "breaking" }, { name: "word", value: "dies" } ] } ] } ] } });
 check("subPath handles /news keyword add", spn.group === "keyword" && spn.sub === "add" &&
