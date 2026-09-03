@@ -93,6 +93,28 @@ const n9 = applyNewsChange({ exclude_keywords: ["kittens"] }, "keyword", "remove
   { list: "exclude", word: "kittens" });
 check("the owner's OWN non-protected words are still removable",
   !n9._refused && !n9.exclude_keywords.includes("kittens"));
+// The LAST breaking keyword is a floor too, for a different reason: a breaking
+// hit is 30 of the heuristic's 100 points, and both the phone alerts and the
+// studio's priority lane are keyed off that score. Measured on 700 real
+// stories, an empty list takes the heuristic-80 tier from 3.6 a day to 0.3 -
+// so emptying the list silently ends both. newsconfig.validate_newsconfig
+// blocks it for MOD_PANEL, but nothing here calls the validator.
+const nb1 = applyNewsChange({ breaking_keywords: ["withdraws", "retires"] },
+  "keyword", "remove", { list: "breaking", word: "retires" });
+check("a breaking word is removable while others remain",
+  !nb1._refused && nb1.breaking_keywords.join() === "withdraws");
+const nb2 = applyNewsChange({ breaking_keywords: ["withdraws"] },
+  "keyword", "remove", { list: "breaking", word: "withdraws" });
+check("the LAST breaking word is refused, and the list survives intact",
+  nb2._refused === "last-breaking" && nb2.breaking_keywords.join() === "withdraws");
+const nb3 = applyNewsChange({ breaking_keywords: ["withdraws", "  "] },
+  "keyword", "remove", { list: "breaking", word: "withdraws" });
+check("a list left holding only blanks counts as empty, not as one word",
+  nb3._refused === "last-breaking");
+const nb4 = applyNewsChange({ breaking_keywords: ["withdraws"] },
+  "keyword", "add", { list: "breaking", word: "dies" });
+check("adding is never refused - he may tune the list, he may not empty it",
+  !nb4._refused && nb4.breaking_keywords.length === 2);
 check("PROTECTED_EXCLUDES holds the full seventeen-word floor",
   _test.PROTECTED_EXCLUDES.length === 17 && _test.PROTECTED_EXCLUDES.includes("polymarket") === false
   && _test.PROTECTED_EXCLUDES.includes("betting"));
