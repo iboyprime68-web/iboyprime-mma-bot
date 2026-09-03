@@ -134,7 +134,9 @@
   },
   "default_category": "ufc",
   "breaking_keywords": [
-    "breaking",
+    "breaking:",
+    "breaking news",
+    "breaking -",
     "dies",
     "dead at",
     "passes away",
@@ -175,7 +177,9 @@
     "alert_threshold": 85,
     "alert_on_breaking": true,
     "max_alerts_per_day": 12,
-    "dedupe_hours": 6
+    "dedupe_hours": 6,
+    "similar_threshold": 0.45,
+    "subject_hours": 6
   },
   "always_allow": [],
   "digest": {
