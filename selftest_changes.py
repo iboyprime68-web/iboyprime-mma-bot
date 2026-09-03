@@ -109,15 +109,30 @@ import json as _njson_mod
 with open(os.path.join(_SRC, "newsconfig.json"), encoding="utf-8") as _njf:
     _NJSON = _njson_mod.load(_njf)
 check("default mode is hybrid", NCFG["mode"] == "hybrid")
-check("10 sources enabled (3 feeds + speed layer); boxing feeds disabled",
-      len(newsconfig.enabled_sources(NCFG)) == 10 and
+check("6 sources enabled (4 MMA feeds + Google News + Yahoo); boxing feeds disabled",
+      len(newsconfig.enabled_sources(NCFG)) == 6 and
       not NCFG["sources"]["bad_left_hook"]["enabled"] and not NCFG["sources"]["boxing_scene"]["enabled"])
-check("speed layer present: google news + yahoo + sherdog + 4 nitter accounts",
+check("speed layer present: google news + yahoo + sherdog",
       NCFG["sources"]["google_news_ufc"]["enabled"] and
       NCFG["sources"]["yahoo_mma"]["enabled"] and
-      NCFG["sources"]["sherdog"]["enabled"] and
-      all(NCFG["sources"][k]["flavor"] == "nitter"
+      NCFG["sources"]["sherdog"]["enabled"])
+# nitter.net still serves its home page but every /<account>/rss returns 410 Gone
+# (verified on all four accounts, Sept 2026). Leaving them on costs a failed fetch
+# plus a 300s backoff every cycle and makes the health report look broken.
+check("the dead nitter X sources are OFF in BOTH the defaults and the live json",
+      all(not NCFG["sources"][k]["enabled"] and not _NJSON["sources"][k]["enabled"]
           for k in ("x_helwani", "x_mmafighting", "x_mmajunkie", "x_ufc")))
+# The trust split is what stops an aggregator's general-sports output reaching the
+# channel: search feeds must earn each story through topicgate, MMA-only outlets
+# are taken at their word.
+check("Google News and Yahoo are UNTRUSTED; every MMA-only outlet is trusted",
+      not NCFG["sources"]["google_news_ufc"].get("trusted") and
+      not NCFG["sources"]["yahoo_mma"].get("trusted") and
+      all(NCFG["sources"][k].get("trusted")
+          for k in ("mma_fighting", "bloody_elbow", "mma_mania", "sherdog")) and
+      newsconfig.source_trusted("mma_fighting", NCFG) and
+      not newsconfig.source_trusted("google_news_ufc", NCFG) and
+      not newsconfig.source_trusted("unknown_source", NCFG))
 check("google news query pins when:1h and the US locale params",
       "when:1h" in NCFG["sources"]["google_news_ufc"]["url"] and
       "ceid=US:en" in NCFG["sources"]["google_news_ufc"]["url"] and
@@ -214,10 +229,11 @@ check("a non-numeric retention is flagged",
       any("studio_retention_days" in p for p in newsconfig.validate_newsconfig(_bad)))
 check("MMA Junkie removed (archived), MMA Mania added",
       "mma_junkie" not in NCFG["sources"] and NCFG["sources"]["mma_mania"]["enabled"])
-check("UFC on, other orgs + boxing off (owner's pick)",
+check("UFC and all MMA on, boxing off (owner's pick, Sept 2026)",
       newsconfig.category_enabled("ufc", NCFG) and
-      not newsconfig.category_enabled("mma_other", NCFG) and
-      not newsconfig.category_enabled("boxing", NCFG))
+      newsconfig.category_enabled("mma_other", NCFG) and
+      not newsconfig.category_enabled("boxing", NCFG) and
+      _NJSON["categories"]["mma_other"]["enabled"] is True)
 check("explicit UFC title -> ufc", newsconfig.classify("Jon Jones eyes UFC 330 return", NCFG) == "ufc")
 check("Bellator/PFL title -> mma_other", newsconfig.classify("PFL finalizes Bellator merger card", NCFG) == "mma_other")
 check("boxing title -> boxing", newsconfig.classify("Tyson Fury teases boxing comeback", NCFG) == "boxing")
@@ -286,6 +302,20 @@ def news_feed(items):
     common.get_text = lambda url, headers=None, tries=4, timeout=30: \
         (200, rss(items)) if url == "http://feed" else (404, "")
 
+def _seenmap(*guids):
+    """A v4 `seen` map. v3 stored raw guids in a list and pruned them
+    alphabetically, which is why eight of ten sources lost their dedupe memory
+    in production; v4 stores {sha1(guid)[:16]: timestamp} and prunes newest
+    first. Fixtures build the map through the real key function so a change to
+    the hashing can never quietly desync the tests from the bot."""
+    return {news_bot._skey(g): 1.0 for g in guids}
+
+
+def _seen_has(*guids):
+    m = STORE["state_news.json"]["seen"]
+    return all(news_bot._skey(g) in m for g in guids)
+
+
 def reset_news(state=None):
     STORE.clear(); POSTS.clear(); POSTS_FULL.clear(); PERSISTS.clear(); LOOP_N[0] = 1
     STORE["newsconfig.json"] = copy.deepcopy(NEWS_OVERRIDE)
@@ -300,8 +330,12 @@ THREE = [("Volkanovski defends belt in Sydney thriller", "http://a", "g1", "Mon,
 reset_news(); news_feed(THREE)
 news_bot.main()
 check("first run posts the latest few (3)", len(POSTS) == 3)
-check("first run marks all seen", set(STORE["state_news.json"]["seen"]) == {"g1", "g2", "g3"})
-check("state upgraded to v3", STORE["state_news.json"]["v"] == 3)
+check("first run marks all seen", _seen_has("g1", "g2", "g3")
+      and len(STORE["state_news.json"]["seen"]) == 3)
+check("state is v4 and `seen` is a time-ordered MAP, never a sortable list",
+      STORE["state_news.json"]["v"] == 4
+      and isinstance(STORE["state_news.json"]["seen"], dict)
+      and all(isinstance(v, float) for v in STORE["state_news.json"]["seen"].values()))
 check("hybrid seed posts are silent", all(p["silent"] for p in POSTS_FULL))
 check("content is 'Headline (Source)' (no markdown, no URL, no em dash)",
       POSTS_FULL[0]["content"] == "Volkanovski defends belt in Sydney thriller (MMA Fighting)")
@@ -313,11 +347,34 @@ check("link + footer live in the embed",
 reset_news({"seen": ["g1", "g2", "g3"], "initialized": True, "v": 2})
 news_feed(THREE); news_bot.main()
 check("v2 state migrates with zero reposts", len(POSTS) == 0)
+check("the cutover backfill completed and was PERSISTED "
+      "(without its own save-gate flag the state never reaches v4 on disk "
+      "and every job redoes the whole migration)",
+      STORE["state_news.json"]["v"] == 4
+      and STORE["state_news.json"]["seed_pending"] == []
+      and _seen_has("g1"))
+# The backfill covers what the feeds are serving AT the moment of cutover - that
+# is the whole point, since the old alphabetical prune had already forgotten eight
+# of the ten sources and they would otherwise dump their whole backlog at once.
+# Anything that appears afterwards is genuinely new and posts normally.
 FOUR = THREE + [("Prochazka finishes rival in rematch", "http://d", "g4", "Mon, 01 Jan 2024 13:00:00 GMT")]
 news_feed(FOUR); news_bot.main()
-check("migrated state still posts the genuinely new item", len(POSTS) == 1)
-check("post-migration state is v3 and keeps old seen",
-      STORE["state_news.json"]["v"] == 3 and "g1" in STORE["state_news.json"]["seen"])
+check("a story that appears AFTER the cutover posts normally", len(POSTS) == 1)
+
+# The carve-out: a story published inside the last SEED_SKIP_MIN minutes is NOT
+# seeded, so a scoop that breaks during the migration still reaches the channel.
+# _pubdate returning now_utc() on a parse failure used to defeat this - an undated
+# item looked brand new and skipped seeding, which is why parse_feed now marks it.
+_fresh_dt = (_NOON - common.datetime.timedelta(minutes=5)).strftime("%a, %d %b %Y %H:%M:%S GMT")
+reset_news({"seen": _seenmap("old1"), "initialized": True, "v": 3})
+news_feed([("Yesterday's recap piece", "http://o", "go", "Mon, 01 Jan 2024 10:00:00 GMT"),
+           ("Champion vacates the belt", "http://n", "gn", _fresh_dt)])
+news_bot.main()
+check("the cutover seeds the backlog but lets a story breaking DURING it through",
+      len(POSTS) == 1 and POSTS_FULL[0]["embeds"][0]["url"] == "http://n"
+      and _seen_has("go"))
+check("post-migration state is v4 and keeps the pre-migration guids (hashed)",
+      STORE["state_news.json"]["v"] == 4 and _seen_has("old1"))
 check("routine hybrid post is silent", POSTS_FULL[-1]["silent"])
 check("persisted after posting", "state_news.json" in PERSISTS)
 
@@ -325,13 +382,15 @@ check("persisted after posting", "state_news.json" in PERSISTS)
 SEVEN = FOUR + [("Aspinall calls for title unification", "http://e", "g5", "Mon, 01 Jan 2024 14:00:00 GMT"),
                 ("Merab dominates in Abu Dhabi", "http://f", "g6", "Mon, 01 Jan 2024 15:00:00 GMT"),
                 ("Topuria eyes lightweight double", "http://g", "g7", "Mon, 01 Jan 2024 16:00:00 GMT")]
-reset_news({"seen": ["g1", "g2", "g3", "g4"], "initialized": True, "v": 3,
-            "recent": [], "digest_items": [], "digest_last": "", "hour": ["", 0]})
+reset_news({"seen": _seenmap("g1", "g2", "g3", "g4"), "initialized": True, "v": 4,
+            "recent": [], "digest_items": [], "digest_last": "", "hour": ["", 0],
+            "seed_pending": []})
 news_feed(SEVEN); LOOP_N[0] = 1
 news_bot.main()
 check("steady state posts at most 1/cycle", len(POSTS) == 1)
-reset_news({"seen": ["g1", "g2", "g3", "g4"], "initialized": True, "v": 3,
-            "recent": [], "digest_items": [], "digest_last": "", "hour": ["", 0]})
+reset_news({"seen": _seenmap("g1", "g2", "g3", "g4"), "initialized": True, "v": 4,
+            "recent": [], "digest_items": [], "digest_last": "", "hour": ["", 0],
+            "seed_pending": []})
 news_feed(SEVEN); LOOP_N[0] = 3
 news_bot.main()
 check("3 cycles drain 3 backlog items in order", len(POSTS) == 3 and
@@ -340,8 +399,9 @@ check("hybrid queues posted items for the digest",
       len(STORE["state_news.json"]["digest_items"]) == 3)
 
 # breaking: loud + pings the news role, bypasses silence
-reset_news({"seen": [], "initialized": True, "v": 3, "recent": [],
-            "digest_items": [], "digest_last": "", "hour": ["", 0]})
+reset_news({"seen": {}, "initialized": True, "v": 4, "recent": [],
+            "digest_items": [], "digest_last": "", "hour": ["", 0],
+            "seed_pending": []})
 news_feed([("Champion retires after shock loss", "http://brk", "gb", "Mon, 01 Jan 2024 10:00:00 GMT")])
 news_bot.main()
 check("breaking story still posts", len(POSTS_FULL) == 1)
@@ -358,41 +418,51 @@ check("build_message still supports a ping role if one is ever re-added",
       _bc.startswith("<@&NR> ") and _bm == {"parse": [], "roles": ["NR"]})
 
 # filters: betting content excluded (hard rule); disabled category dropped
-reset_news({"seen": [], "initialized": True, "v": 3, "recent": [],
-            "digest_items": [], "digest_last": "", "hour": ["", 0]})
+reset_news({"seen": {}, "initialized": True, "v": 4, "recent": [],
+            "digest_items": [], "digest_last": "", "hour": ["", 0],
+            "seed_pending": []})
+# Bellator is KEPT now that the owner picked "UFC and all MMA", so the
+# off-category fixture is a boxing story, which is the category still switched off.
 news_feed([("Best betting odds for fight night", "http://x1", "gx1", "Mon, 01 Jan 2024 10:00:00 GMT"),
-           ("Bellator signs new heavyweight prospect", "http://x2", "gx2", "Mon, 01 Jan 2024 11:00:00 GMT")])
+           ("Canelo and Tyson Fury headline a boxing card", "http://x2", "gx2", "Mon, 01 Jan 2024 11:00:00 GMT")])
 LOOP_N[0] = 2
 news_bot.main()
 check("betting + off-category items post nothing", len(POSTS) == 0)
-check("filtered items are marked seen (no retry loop)",
-      {"gx1", "gx2"} <= set(STORE["state_news.json"]["seen"]))
+check("filtered items are marked seen (no retry loop)", _seen_has("gx1", "gx2"))
 
 # duplicate story from a second outlet is collapsed
-reset_news({"seen": [], "initialized": True, "v": 3,
+reset_news({"seen": {}, "initialized": True, "v": 4,
             "recent": [{"t": "Jon Jones announces retirement from MMA",
                         "ts": "2024-01-02T11:00:00+00:00"}],
-            "digest_items": [], "digest_last": "", "hour": ["", 0]})
+            "digest_items": [], "digest_last": "", "hour": ["", 0],
+            "seed_pending": []})
 news_feed([("Jon Jones announces MMA retirement", "http://dup", "gd", "Mon, 01 Jan 2024 10:00:00 GMT")])
 news_bot.main()
-check("same story from another outlet is collapsed", len(POSTS) == 0 and
-      "gd" in STORE["state_news.json"]["seen"])
+check("same story from another outlet is collapsed", len(POSTS) == 0 and _seen_has("gd"))
 
-# hour cap in hybrid: overflow diverts to the digest, never posts
-reset_news({"seen": [], "initialized": True, "v": 3, "recent": [],
-            "digest_items": [], "digest_last": "",
-            "hour": [_NOON.strftime("%Y-%m-%dT%H"), 6]})
+# THE HOURLY CAP IS GONE (Sept 2026). It used to divert story #7 of any UTC hour
+# into a once-a-day digest whose own queue was capped at 60 and was measured
+# sitting AT that cap, so the overflow was destroyed. The owner asked for news as
+# fast as possible. This check is the inverse of the one it replaces: an hour
+# already well past the old cap must still post.
+reset_news({"seen": {}, "initialized": True, "v": 4, "recent": [],
+            "digest_items": [], "digest_last": "", "seed_pending": [],
+            "hour": [_NOON.strftime("%Y-%m-%dT%H"), 99]})
 news_feed([("Volkanovski defends belt in Sydney thriller", "http://h1", "gh1", "Mon, 01 Jan 2024 10:00:00 GMT")])
 news_bot.main()
-check("hour-capped routine item is queued for digest, not posted",
-      len(POSTS) == 0 and len(STORE["state_news.json"]["digest_items"]) == 1)
+check("no hourly cap: the 100th story of the hour still reaches the channel",
+      len(POSTS) == 1 and _seen_has("gh1"))
+_nb_poll = open(os.path.join(_SRC, "news_bot.py"), encoding="utf-8").read().split("def poll_once")[1]
+check("news_bot no longer reads max_per_hour anywhere in the posting loop",
+      'cfg.get("max_per_hour"' not in _nb_poll)
 
 # digest: fires once after its UTC time, pings the digest role, clears the queue
 _D_ITEMS = [{"title": "Story %d" % i, "url": "http://s%d" % i, "source": "MMA Fighting",
              "cat": "ufc", "ts": "2024-01-02T10:00:00+00:00"} for i in range(4)]
 common.now_utc = lambda: common.datetime.datetime(2024, 1, 2, 22, 0, tzinfo=common.datetime.timezone.utc)
-reset_news({"seen": [], "initialized": True, "v": 3, "recent": [],
-            "digest_items": copy.deepcopy(_D_ITEMS), "digest_last": "", "hour": ["", 0]})
+reset_news({"seen": {}, "initialized": True, "v": 4, "recent": [],
+            "digest_items": copy.deepcopy(_D_ITEMS), "digest_last": "", "hour": ["", 0],
+            "seed_pending": []})
 news_feed([])
 news_bot.main()
 check("digest posts after 21:30 UTC", len(POSTS) == 1)
@@ -408,7 +478,7 @@ news_bot.main()
 check("digest never double-posts the same day", len(POSTS) == 0)
 
 # digest with too few items: skipped but still stamped (no late-night trickle)
-reset_news({"seen": [], "initialized": True, "v": 3, "recent": [],
+reset_news({"seen": {}, "initialized": True, "v": 4, "recent": [], "seed_pending": [],
             "digest_items": _D_ITEMS[:1], "digest_last": "", "hour": ["", 0]})
 news_feed([])
 news_bot.main()
@@ -434,6 +504,286 @@ check("news polls every ~20s across a ~55-min window",
       news_bot.POLL_SECONDS <= 30 and news_bot.WINDOW_SECONDS >= 1800)
 
 common.now_utc = _real_now
+
+
+# ─────────────── 3b. the no-gambling floor (promofilter) ──────────────────
+print("\n[gambling floor]")
+import promofilter
+
+# Every headline in the corpus must be blocked. The first three are verbatim from
+# the live channel: the wire posted them to an MMA server whose owner set a
+# no-betting rule at the start of the project.
+_pf_missed = [h for h in promofilter.PROMO_HEADLINES if not promofilter.is_promo(h)[0]]
+check("every known promo/gambling headline is blocked (%d of them)"
+      % len(promofilter.PROMO_HEADLINES), not _pf_missed)
+check("the two headlines that actually reached the channel are blocked",
+      promofilter.is_promo("Polymarket Invite Code SBWIRE: $50 Bonus for NFL Week 1, College Football")[0]
+      and promofilter.is_promo("Will No. 3 Georgia Cover -47.5 vs. Tennessee St?")[0])
+
+# A detector count, not just a boolean. Without this a detector that silently
+# stops matching is invisible - its neighbour still blocks the headline and the
+# boolean test still passes.
+_pf_thin = [h for h, n in promofilter.MIN_DETECTORS.items()
+            if len(promofilter.detectors(h)) < n]
+check("each real offender still trips MULTIPLE independent detectors "
+      "(so one dying pattern cannot hide behind another)", not _pf_thin)
+
+_pf_fp = [(h, promofilter.detectors(h)) for h in promofilter.SAFE_HEADLINES
+          if promofilter.is_promo(h)[0]]
+check("ordinary MMA coverage survives (%d headlines, 0 false positives)"
+      % len(promofilter.SAFE_HEADLINES), not _pf_fp)
+
+# "Underdog stuns champion at UFC 320" is normal fight coverage and the server's
+# own free prediction polls use this language.
+_pf_bare = [w for w in promofilter.NEVER_BLOCK
+            if promofilter.is_promo("Fighter %s at UFC 320" % w)[0]]
+check("no bare word in NEVER_BLOCK can block a story on its own", not _pf_bare)
+
+# Fight records and weight cuts share the shape of a betting line.
+check("a fight record and a weight are not read as odds",
+      not promofilter.is_promo("Gaethje improves to 26-5 with win over Tsarukyan")[0]
+      and not promofilter.is_promo("Makhachev misses weight by 1.5 pounds")[0]
+      and not promofilter.is_promo("Jones weighs in at 248 pounds")[0])
+
+# The floor is CODE, not config. This is the check that matters: the old
+# implementation was a JSON list the owner could delete from /news, and
+# deep_merge replaces a list wholesale so nothing ever put it back.
+_pf_empty = newsconfig.base_defaults(); _pf_empty["exclude_keywords"] = []
+check("gambling is blocked even with exclude_keywords emptied "
+      "(the rule is enforced in code, the list is only additive)",
+      newsconfig.is_excluded("DraftKings promo code: bet $5, get $200", _pf_empty)
+      and newsconfig.is_excluded("UFC 332 betting odds: Pereira opens as -250 favorite", _pf_empty))
+check("the owner's own added words still work on top of the floor",
+      newsconfig.is_excluded("A story about kittens",
+                             dict(_pf_empty, exclude_keywords=["kittens"])))
+
+# The description ships verbatim inside the embed, so a clean headline over
+# betting copy would still put gambling text in front of the owner.
+check("betting copy in the description is caught too",
+      newsconfig.is_excluded("A perfectly normal headline", _pf_empty,
+                             desc="Get your DraftKings promo code before the main card"))
+check("exclude_reason names which rule fired",
+      newsconfig.exclude_reason("Polymarket Invite Code SBWIRE: $50 Bonus", NCFG)
+      .startswith("promo/gambling:"))
+
+# Cross-language pin, the same shape as SOCIALS_FALLBACK <-> welcomeconfig.
+import re as _pf_re
+_pf_wjs_path = os.path.join(_HERE, "commands_worker", "worker.js")
+if os.path.exists(_pf_wjs_path):
+    _pf_wjs = open(_pf_wjs_path, encoding="utf-8").read()
+    _pe = _pf_re.search(r"const PROTECTED_EXCLUDES = \[(.*?)\];", _pf_wjs, _pf_re.S)
+    _pe_list = _pf_re.findall(r'"([^"]+)"', _pe.group(1)) if _pe else []
+    check("worker.js PROTECTED_EXCLUDES matches newsconfig._DEFAULT_EXCLUDE exactly",
+          _pe_list == list(newsconfig._DEFAULT_EXCLUDE))
+    check("worker.js refuses to remove a protected term instead of pretending it worked",
+          '_refused === "protected"' in _pf_wjs
+          and 'newscfg._refused = "protected"' in _pf_wjs)
+else:
+    print("  SKIP: commands_worker/worker.js not in this checkout")
+
+
+# ───────────────── 3c. the positive MMA topic gate ────────────────────────
+print("\n[topic gate]")
+import topicgate
+
+# The classifier's default_category used to wave anything unrecognised through as
+# "ufc". These ten are verbatim from the live MMA channel.
+_tg_leak = [(h, topicgate.is_mma(h, "", trusted=False)[1])
+            for h in topicgate.OFFTOPIC_HEADLINES if topicgate.is_mma(h, "", trusted=False)[0]]
+check("no off-topic story survives an untrusted aggregator (%d headlines)"
+      % len(topicgate.OFFTOPIC_HEADLINES), not _tg_leak)
+
+_tg_lost = [(h, topicgate.is_mma(h, "", trusted=False)[1])
+            for h in topicgate.ONTOPIC_HEADLINES if not topicgate.is_mma(h, "", trusted=False)[0]]
+check("every real MMA story survives an untrusted aggregator (%d headlines)"
+      % len(topicgate.ONTOPIC_HEADLINES), not _tg_lost)
+
+check("a trusted MMA outlet is taken at its word",
+      topicgate.is_mma("A headline with no obvious markers at all", "", trusted=True)[0]
+      and not topicgate.is_mma("A headline with no obvious markers at all", "", trusted=False)[0])
+check("even a trusted outlet cannot post a hard other-sport story",
+      not topicgate.is_mma("Super Bowl LX preview: every quarterback ranked", "", trusted=True)[0])
+
+# The roster holds Hill, Allen, Smith, Jones, Harrison and Green. Matching a bare
+# surname would let a football story through on a name alone.
+check("ONE bare surname is not a signal (Tyreek Hill stays out)",
+      not topicgate.is_mma("Tyreek Hill wants out of Miami after another outburst", "", trusted=False)[0])
+check("TWO roster surnames are a signal (headline writers drop first names)",
+      topicgate.is_mma("Till Roasts Cormier Over Nurmagomedov Defense", "", trusted=False)[0])
+check("a weak signal loses to a hard other-sport marker",
+      not topicgate.is_mma("Josh Allen and Micah Parsons headline the NFL season opener",
+                           "", trusted=False)[0])
+check("surnames that are ordinary English words never count",
+      topicgate.AMBIGUOUS_SURNAMES & topicgate.surnames() == set())
+check("the owner can extend the roster from newsconfig always_allow",
+      not topicgate.is_mma("Nobody Mcnobody signs a four-fight deal", "", trusted=False)[0]
+      and topicgate.is_mma("Nobody Mcnobody signs a four-fight deal", "", trusted=False,
+                           extra=["Nobody Mcnobody"])[0])
+
+# Word boundaries. newsconfig._hit is a padded substring test, so a marker "nfl"
+# would match "inflict" and "conflict" - both ordinary MMA words.
+check("other-sport markers are boundary-safe (nfl does not match inflict)",
+      not topicgate.other_sport("Pereira inflicts more damage in the conflict of styles"))
+check("the roster ships and is non-trivial",
+      len(topicgate.roster()) > 150 and "islam makhachev" in topicgate.roster())
+check("a missing roster weakens the gate but never raises",
+      isinstance(topicgate.roster(), set))
+
+# Ordering: the gate must run BEFORE classify(), or default_category is a hole again.
+_nb_src = open(os.path.join(_SRC, "news_bot.py"), encoding="utf-8").read()
+_keep_body = _nb_src.split("def keep(it, cfg):")[1].split("def is_dup")[0]
+check("keep() runs the promo floor, then the topic gate, THEN classify()",
+      _keep_body.index("newsconfig.exclude_reason(")
+      < _keep_body.index("newsconfig.is_on_topic(")
+      < _keep_body.index("newsconfig.classify("))
+
+
+# ─────────────── 3d. the dedupe memory that caused the repeats ────────────
+print("\n[dedupe memory]")
+
+# THE BUG. v3 pruned with sorted(seen)[-1200:] over raw URL guids. Measured on the
+# live state file: all 1200 survivors were mmamania.com and sherdog.com, because
+# news.google.com, sports.yahoo.com and mmafighting.com all sort below them.
+# Eight of ten sources had no dedupe memory at all.
+_v3_guids = (["https://news.google.com/rss/articles/%04d" % i for i in range(400)] +
+             ["https://sports.yahoo.com/mma/%04d" % i for i in range(400)] +
+             ["https://www.mmamania.com/?p=%04d" % i for i in range(400)] +
+             ["https://www.sherdog.com/news/%04d" % i for i in range(400)])
+_v3_kept = sorted(_v3_guids)[-1200:]
+_v3_hosts = {g.split("/")[2] for g in _v3_kept}
+# The live state file showed the end state of this: 1200 entries, two hosts,
+# 674 mmamania + 526 sherdog, every google/yahoo/mmafighting key gone.
+check("the OLD alphabetical prune evicted an ENTIRE source, not a fair share "
+      "(this is the repeats bug, reproduced)",
+      "news.google.com" not in _v3_hosts and len(_v3_hosts) < 4
+      and sum(1 for g in _v3_kept if "google" in g) == 0)
+
+_ss = news_bot.SeenSet({}, cap=1200)
+for i, g in enumerate(_v3_guids):
+    _ss.add(g, ts=float(i))
+_v4_hosts = {g for g in ("news.google.com", "sports.yahoo.com", "www.mmamania.com",
+                         "www.sherdog.com")}
+_v4_kept = _ss.dump()
+check("the NEW time-ordered prune keeps the newest regardless of source",
+      len(_v4_kept) == 1200
+      and all(news_bot._skey(g) in _v4_kept for g in _v3_guids[-1200:])
+      and not any(news_bot._skey(g) in _v4_kept for g in _v3_guids[:400]))
+
+check("SeenSet membership works on raw guids and never collides",
+      "https://a/1" in news_bot.SeenSet(["https://a/1"])
+      and "https://a/2" not in news_bot.SeenSet(["https://a/1"]))
+check("migrated v3 entries carry ts 0.0 so they are evicted FIRST "
+      "(they are the only ones we know are stale)",
+      set(news_bot.SeenSet(["x", "y"]).dump().values()) == {0.0})
+check("`seen` and `yt_eval` have SEPARATE caps "
+      "(one shared constant meant raising the dedupe memory doubled the ledger)",
+      news_bot.SEEN_CAP != news_bot.EVAL_CAP and news_bot.SEEN_CAP >= 2000)
+check("save() never sorts the seen map by key again",
+      'state["seen"] = sorted(' not in _nb_src
+      and 'state["seen"] = seen.dump()' in _nb_src)
+
+import xml.etree.ElementTree as ET
+# Dates. _pubdate returned now_utc() for BOTH a missing field and a parse failure,
+# so an undated item was indistinguishable from a brand-new one - and Sherdog was
+# measured serving a pubDate hours in the FUTURE, which reads as permanently new.
+check("an unparseable or missing date returns None, not 'now'",
+      news_bot._pubdate(ET.fromstring("<item><title>t</title></item>")) is None
+      and news_bot._pubdate(ET.fromstring("<item><pubDate>not a date</pubDate></item>")) is None)
+_future = "<item><pubDate>Tue, 01 Jan 2999 10:00:00 GMT</pubDate></item>"
+check("a future pubDate is clamped to now (Sherdog serves them)",
+      news_bot._pubdate(ET.fromstring(_future)) <= common.now_utc())
+_undated = news_bot.parse_feed(
+    "<rss><channel><item><title>T</title><link>http://u</link></item></channel></rss>")
+check("parse_feed marks an undated item so the cutover treats it as OLD",
+      _undated and _undated[0]["undated"] is True)
+
+# The v3 -> v4 cutover must not replay the backlog of the eight unseeded sources.
+check("migrate_state upgrades v3 in place and arms a per-source backfill",
+      news_bot.migrate_state({"v": 3, "initialized": True, "seen": ["a", "b"]})["v"] == 4)
+_mig = news_bot.migrate_state({"v": 3, "initialized": True, "seen": ["a"]})
+check("the backfill is armed unset, to be filled from the LIVE source list",
+      _mig["seed_pending"] is None and "seed_deadline" in _mig)
+check("migration is idempotent (a v4 state is returned untouched)",
+      news_bot.migrate_state(dict(_mig, v=4, seed_pending=[]))["seed_pending"] == [])
+check("a source is only marked seeded after it answers 200 "
+      "(a feed that was down must not dump its backlog on the next cycle)",
+      'state["seed_pending"] = [k for k in state["seed_pending"] if k != key]' in _nb_src
+      and _nb_src.index("next_ok[key] = now_m + FAIL_BACKOFF")
+          < _nb_src.index('seeding = key in (state.get("seed_pending") or ())'))
+check("the backfill has a deadline so a permanently dead feed cannot wedge it",
+      "seeding deadline passed" in _nb_src)
+
+
+# ─────────────── 3e. stories are never silently destroyed ─────────────────
+print("\n[no silent story loss]")
+_poll_body = _nb_src.split("def poll_once")[1]
+check("the hourly cap and its digest divert are GONE from the posting loop",
+      'cfg.get("max_per_hour"' not in _poll_body and "overflow -> digest" not in _poll_body)
+check("a digest below min_items KEEPS its stories (it used to clear the queue, "
+      "deleting every story on a quiet day)",
+      "holding them for the next window" in _poll_body
+      and _poll_body.index("holding them for the next window")
+          < _poll_body.index('state["digest_last"] = stamp\n                save()'))
+check("a FAILED digest post keeps both the window and the queue for a retry",
+      "keeping the queue for a retry" in _poll_body)
+check("the digest queue cap clears the worst measured day (it sat AT 60)",
+      news_bot.MAX_DIGEST >= 200)
+
+# Live behaviour: a quiet day must not lose the two stories it did have.
+reset_news({"seen": {}, "initialized": True, "v": 4, "recent": [], "seed_pending": [],
+            "digest_items": [{"title": "Story 1", "url": "http://s1", "source": "MMA Fighting",
+                              "cat": "ufc", "ts": "2024-01-02T10:00:00+00:00"},
+                             {"title": "Story 2", "url": "http://s2", "source": "MMA Fighting",
+                              "cat": "ufc", "ts": "2024-01-02T10:00:00+00:00"}],
+            "digest_last": "", "hour": ["", 0]})
+common.now_utc = lambda: common.datetime.datetime(2024, 1, 2, 22, 0,
+                                                  tzinfo=common.datetime.timezone.utc)
+news_feed([]); news_bot.main()
+check("a below-minimum digest window posts nothing AND keeps both stories",
+      len(POSTS) == 0 and len(STORE["state_news.json"]["digest_items"]) == 2)
+common.now_utc = lambda: _NOON
+
+
+# ─────────────── 3f. every uploaded bot's imports are uploaded ────────────
+print(chr(10) + "[upload completeness]")
+try:
+    import deploy_bots as _up_db
+except ImportError:
+    _up_db = None
+    print("  SKIP: deploy_bots.py not in this checkout (local-only deploy)")
+
+if _up_db:
+    _up = {dst for _src_p, dst in _up_db.UPLOADS}
+    _order = [dst for _src_p, dst in _up_db.UPLOADS]
+    _missing_imports = []
+    # selftest_changes.py is excluded on purpose: it imports mod_panel inside a
+    # try/except and prints SKIP in CI, which is the documented arrangement.
+    for _dst in sorted(d for d in _up
+                       if d.endswith(".py") and "selftest" not in d):
+        _txt = open(os.path.join(_SRC, _dst), encoding="utf-8").read()
+        for _m in _pf_re.findall(r"^\s*(?:import|from)\s+([a-z_][a-z0-9_]*)",
+                                 _txt, _pf_re.M):
+            if os.path.exists(os.path.join(_SRC, _m + ".py")) and _m + ".py" not in _up:
+                _missing_imports.append((_dst, _m))
+    # A module an uploaded bot imports but that never reaches the repo is a
+    # ModuleNotFoundError on the runner: the bot stops AND GitHub emails the owner
+    # once per cron tick. Whole-tree check, so a future module cannot repeat it.
+    check("every local module imported by an uploaded bot is itself uploaded",
+          not _missing_imports)
+    check("promofilter, topicgate and the roster all ship",
+          {"promofilter.py", "topicgate.py", "mma_roster.json"} <= _up)
+    check("promofilter and topicgate upload BEFORE newsconfig.py (it imports them, "
+          "and a late arrival reds every job that reads the news config)",
+          _order.index("promofilter.py") < _order.index("newsconfig.py")
+          and _order.index("topicgate.py") < _order.index("newsconfig.py")
+          and _order.index("mma_roster.json") < _order.index("news_bot.py"))
+
+# The roster is uploaded to a PUBLIC repo, so it must hold nothing but names.
+check("the roster holds public fighter names only - nothing that could be a secret",
+      all(len(n) < 60 and " " in n for n in
+          _njson_mod.load(open(os.path.join(_SRC, "mma_roster.json"),
+                               encoding="utf-8"))["fighters"]))
+
 
 # ───────────────────────── 4. calm-mode post formats ──────────────────────
 print("\n[calm formats]")
@@ -1905,6 +2255,11 @@ check("stage_story reports ok + what fronted the card (the staging memory "
            or str(_st.get("img")).startswith("cutout:")))
 check("caption rides in a copyable code block",
       "```" in _msg["content"] and "Big story" in _msg["content"])
+# PIN THE CLOCK. This block read the REAL wall clock, so quiet_now() returned
+# True and this check FAILED for every run between 21:00 and 07:59 UTC - a
+# nightly red CI run, and an email to the owner, for a bug that did not exist.
+# Caught Sept 2026 at 07:15 UTC. Quiet hours have their own dedicated tests below.
+common.now_utc = lambda: _NOON
 ytposts.stage_story({"title": "Huge story", "desc": "", "source": "ESPN", "link": ""},
                     90, "ai", _yt_bots, _yt_ncfg)
 _msg2 = (_SF[-1] if _SF else POSTS_FULL[-1])
@@ -2850,7 +3205,7 @@ scorer.score_story = lambda title, desc, source, cat, cfg: {
 common.load_config = lambda: {"channels": {"mma_news": "C", "studio": "ST"},
                               "roles": {}, "owner_id": "OWNER1"}
 common.now_utc = lambda: _NOON
-reset_news(state={"v": 3, "initialized": True, "seen": [], "recent": [],
+reset_news(state={"v": 4, "initialized": True, "seen": {}, "seed_pending": [], "recent": [],
                   "digest_items": [], "digest_last": "", "hour": ["", 0]})
 STORE["newsconfig.json"]["scoring"] = {"enabled": True}
 news_feed([("New champion crowned at UFC 331", "http://a", "y1", "Mon, 01 Jan 2024 10:00:00 GMT"),
@@ -2916,7 +3271,7 @@ check("with no emphasis configured the staged post still asks for COLOR",
 
 # -- the daily caps (owner: seven staged posts in one evening was a lot) ----
 _YT_IT[:] = []
-reset_news(state={"v": 3, "initialized": True, "seen": [], "recent": [],
+reset_news(state={"v": 4, "initialized": True, "seen": {}, "seed_pending": [], "recent": [],
                   "digest_items": [], "digest_last": "", "hour": ["", 0]})
 STORE["newsconfig.json"]["scoring"] = {"enabled": True, "max_staged_per_day": 1}
 news_feed([("Champion crowned in a title classic", "http://g", "y7",
@@ -2935,7 +3290,7 @@ check("a capped story does not block the news post itself",
 
 # -- the staging memory rides news_bot end to end ----------------------------
 _YT_IT[:] = []
-reset_news(state={"v": 3, "initialized": True, "seen": [], "recent": [],
+reset_news(state={"v": 4, "initialized": True, "seen": {}, "seed_pending": [], "recent": [],
                   "digest_items": [], "digest_last": "", "hour": ["", 0]})
 STORE["newsconfig.json"]["scoring"] = {"enabled": True}
 news_feed([("Pantoja injured during training camp", "http://i", "y9",
