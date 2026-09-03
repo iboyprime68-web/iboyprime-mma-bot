@@ -394,7 +394,9 @@ def main():
                 n_seed = 0
                 for it in items:
                     if it.get("undated") or it["when"] < cutoff:
-                        seen.add(it["guid"], ts=0.0)   # migrated: evicted first
+                        # a REAL timestamp: these are live in the feed right now,
+                        # and evicting them early would repost them
+                        seen.add(it["guid"])
                         n_seed += 1
                 state["seed_pending"] = [k for k in state["seed_pending"] if k != key]
                 seed_work[0] += 1
@@ -416,7 +418,8 @@ def main():
         state["initialized"] = True
         state["v"] = STATE_VERSION
         state["recent"] = state.get("recent", [])[-MAX_RECENT:]
-        state["digest_items"] = state.get("digest_items", [])[-MAX_DIGEST:]
+        state["digest_items"] = (state.get("digest_items", [])[-MAX_DIGEST:]
+                                 if digest_on(cfg_for_queue[0]) else [])
         state["yt_eval"] = state.get("yt_eval", [])[-EVAL_CAP:]
         state["staged_hist"] = state.get("staged_hist", [])[-ytposts.STAGED_HIST_CAP:]
         common.save_json(common.state_path(STATE_FILE), state)
@@ -664,7 +667,9 @@ def main():
                                         cat, cfg.get("breaking_keywords") or [])
             _tier = notify.tier(_h.get("score", 0), breaking, cfg)
             loud = (_tier == notify.ALERT and alert_rid
-                    and notify.claim(state, it["guid"], time.time(), cfg))
+                    and notify.claim(state, it["guid"], time.time(), cfg,
+                                     title=it["title"], similar=newsconfig.similar,
+                                     subject=ytposts.name_tokens(it["title"])))
             _pre, _am = notify.role_mention(alert_rid) if loud else ("", None)
             content, embeds, mentions, cat = build_message(it, cfg, breaking, None)
             if loud:
