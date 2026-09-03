@@ -225,6 +225,16 @@ def base_defaults():
         #   max_staged_per_day    studio posts. Over the cap the story is
         #                         skipped with a printed note.
         #
+        # The PRIORITY LANE (Sept 3 2026 - the owner's best headline of the day
+        # reached the news channel with a phone alert and never reached the
+        # studio, because six ordinary stories had spent max_staged_per_day by
+        # breakfast):
+        #   priority_threshold    heuristic score at which a story takes the
+        #                         hot lane instead. 0 leaves only the
+        #                         "it buzzed his phone" rule.
+        #   max_priority_staged_per_day   that lane's own budget, which routine
+        #                         stories can never spend.
+        #
         # The staging-memory gates (ytposts.stage_gate / GATE_DEFAULTS - the
         # Aug 19 2026 "same old news over and over" fix):
         #   stage_max_age_hours     a story older than this never stages
@@ -240,6 +250,7 @@ def base_defaults():
         "scoring": {"enabled": True, "stage_threshold": 70, "ping_threshold": 85,
                     "provider": "", "model": "", "max_tokens": 220, "timeout": 20,
                     "max_ai_calls_per_day": 120, "max_staged_per_day": 6,
+                    "max_priority_staged_per_day": 5, "priority_threshold": 80,
                     "stage_max_age_hours": 36, "subject_cooldown_hours": 12,
                     "story_cooldown_hours": 72, "staged_similar": 0.5,
                     "cutout_cooldown_days": 7, "quiet_hours_utc": [21, 8]},
@@ -394,15 +405,53 @@ def validate_newsconfig(cfg, secret_values=()):
     except (TypeError, ValueError):
         problems.append("studio_retention_days must be a whole number")
     for key in ("max_ai_calls_per_day", "max_staged_per_day",
+                "max_priority_staged_per_day",
                 "stage_max_age_hours", "subject_cooldown_hours",
                 "story_cooldown_hours", "cutout_cooldown_days"):
         if key not in sc:
+            continue
+        # bool is an int subclass, so `true` would pass int() and read as 1 -
+        # the same trap quiet_hours_utc documents. A cap of 1 is a real value,
+        # so this must be caught here rather than by a range check.
+        if isinstance(sc[key], bool):
+            problems.append("scoring %s must be a whole number, not true/false"
+                            % key)
             continue
         try:
             if int(sc[key]) < 0:
                 problems.append("scoring %s must be >= 0" % key)
         except (TypeError, ValueError):
             problems.append("scoring %s must be a whole number" % key)
+    # An EMPTY breaking list is a silent kill switch for two things at once.
+    # MOD_PANEL's News tab rebuilds breaking_keywords wholesale from a textarea
+    # and /news keyword remove deletes one term at a time, so clearing the box
+    # is one click. scorer.heuristic_score awards 30 of its 100 points for a
+    # breaking hit, and BOTH the phone-alert tier and the studio's priority
+    # lane are keyed off that score: measured on 700 real stories, an empty
+    # list takes the heuristic-80 tier from 3.6 stories a day to 0.3, so the
+    # owner would stop being alerted and the studio would stop rescuing hot
+    # stories, with nothing anywhere reporting a fault. He may edit the list
+    # freely; he may not empty it by accident.
+    bk = cfg.get("breaking_keywords")
+    if not isinstance(bk, list) or not [w for w in bk if str(w).strip()]:
+        problems.append("breaking_keywords cannot be empty - it feeds the phone "
+                        "alerts and the studio's priority lane. Remove single "
+                        "words if you want, but leave at least one.")
+    if "priority_threshold" in sc:
+        # 0 is legal and means "only the phone-alert rule". Anything above 100
+        # would silently disable the lane instead, which is the failure this
+        # check exists to make loud.
+        if isinstance(sc["priority_threshold"], bool):
+            problems.append("scoring priority_threshold must be a whole "
+                            "number, not true/false (true reads as 1, which "
+                            "puts every story in the lane)")
+            sc = dict(sc, priority_threshold=80)
+        try:
+            if not (0 <= int(sc["priority_threshold"]) <= 100):
+                problems.append("scoring priority_threshold must be 0-100 "
+                                "(0 = only stories that alerted take the lane)")
+        except (TypeError, ValueError):
+            problems.append("scoring priority_threshold must be a whole number")
     if "staged_similar" in sc:
         try:
             if not (0.0 < float(sc["staged_similar"]) <= 1.0):
