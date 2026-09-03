@@ -29,9 +29,9 @@ hours (quiet_now).
 Std-lib only at import time. Pillow is required only at render time; when it
 is missing the story stages as text-only (caption, no graphic).
 """
-import hashlib, json, os, re, tempfile, urllib.request
+import hashlib, json, os, re, tempfile, time, urllib.request
 
-import common, gnews, newsconfig, scorer
+import common, gnews, newsconfig, notify, scorer
 
 # Hosts whose article links cannot be resolved server-side (Google News links
 # only resolve in a real browser; nitter pages are not the story itself).
@@ -506,7 +506,7 @@ def _deep_link(chan, resp, body, newscfg):
         pass
 
 
-def stage_story(it, score, why, cfg_bots, newscfg, hist=None):
+def stage_story(it, score, why, cfg_bots, newscfg, hist=None, state=None):
     """Render + post one staged story to the studio channel. Returns
     {"status": short ASCII string, "img": what fronted the card - "photo",
     "cutout:<octagon id>", "wash", or "none" (text-only stage)}; NEVER raises
@@ -524,7 +524,15 @@ def stage_story(it, score, why, cfg_bots, newscfg, hist=None):
         # in the studio silently and is waiting in the morning (the owner was
         # pinged at 4:21am, which is what this exists to stop)
         if score >= int(scoring.get("ping_threshold", 85)) and not quiet_now(scoring, now):
-            ping_uid = str(cfg_bots.get("owner_id", "") or "")
+            # ONE BUZZ PER STORY. The news wire alerts on the same story from its
+            # own (heuristic) tier, so without this shared ledger a story scoring
+            # 92 produced a news mention AND a studio mention - two notifications
+            # for one piece of news. The news post drains first and claims it, so
+            # the fast alert is the one that fires. `state` is optional so the
+            # existing test callers and any direct use keep working unchanged.
+            if state is None or notify.claim(state, it.get("guid", ""),
+                                             time.time(), newscfg):
+                ping_uid = str(cfg_bots.get("owner_id", "") or "")
 
         caption = build_caption(it.get("title"), it.get("desc"), it.get("source"))
         mentions = ({"parse": [], "users": [ping_uid]} if ping_uid else None)
