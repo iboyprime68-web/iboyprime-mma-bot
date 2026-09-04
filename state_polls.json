@@ -2,10 +2,10 @@
   "v": 2,
   "cursor": 7,
   "staged_at": [
-    "2026-09-02T13:43:50.690860+00:00",
     "2026-09-02T19:25:18.369579+00:00",
     "2026-09-03T13:39:06.459276+00:00",
-    "2026-09-03T19:19:47.486459+00:00"
+    "2026-09-03T19:19:47.486459+00:00",
+    "2026-09-04T13:35:35.968854+00:00"
   ],
   "asked": [
     "Who is the most dangerous striker in the UFC right now?",
@@ -35,23 +35,24 @@
     "Who is the worst referee stoppage in UFC history?",
     "Who is the most exciting fighter in the UFC right now?",
     "Who is the most gifted athlete in UFC history?",
-    "Who is the most boring fighter in the UFC right now?"
+    "Who is the most boring fighter in the UFC right now?",
+    "Who is the most impressive UFC debut of the last five years?"
   ],
   "last_entry": {
-    "q": "Who is the most boring fighter in the UFC right now?",
+    "q": "Who is the most impressive UFC debut of the last five years?",
     "type": "poll",
     "options": [
       {
-        "label": "Movsar Evloev",
-        "emoji": "😴"
+        "label": "Khamzat Chimaev",
+        "emoji": "🐺"
       },
       {
-        "label": "Belal Muhammad",
-        "emoji": "🛡️"
+        "label": "Paddy Pimblett",
+        "emoji": "🍔"
       },
       {
-        "label": "Merab Dvalishvili",
-        "emoji": "🐢"
+        "label": "Alex Pereira",
+        "emoji": "💥"
       },
       {
         "label": "Other (comment below)",
