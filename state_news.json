@@ -1561,15 +1561,12 @@
     "f7fdbac64839521a": 1788542953.6132011,
     "ebf2fbc7906791b6": 1788542978.3797655,
     "3deeb5706aa99098": 1788543001.903901,
-    "ae982d2766517753": 1788543028.678453
+    "ae982d2766517753": 1788543028.678453,
+    "fe7862a40a6c830e": 1788543059.0351381
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Tom Aspinall UFC return hurdle revealed as medical update issued by insider",
-      "ts": "2026-09-03T20:09:00+00:00"
-    },
     {
       "t": "Eddie Hearn Addresses Tom Aspinall's Injury Severity After Four Surgeries, Slams UFC Business Model",
       "ts": "2026-09-03T20:10:08+00:00"
@@ -2045,13 +2042,17 @@
     {
       "t": "Ilia Topuria breaks silence in 1st post since aftermath of UFC White House loss",
       "ts": "2026-09-04T16:33:26+00:00"
+    },
+    {
+      "t": "Noche UFC hit with fight cancellation blow",
+      "ts": "2026-09-04T14:48:23+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-04T17",
-    6
+    7
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=329262",
@@ -3348,12 +3349,13 @@
     "https://bloodyelbow.com/?p=330188",
     "c92986fe-4d0f-3ef5-9c99-501fcbe78271",
     "https://bloodyelbow.com/?p=330196",
-    "https://www.mmafighting.com/?p=508504"
+    "https://www.mmafighting.com/?p=508504",
+    "6911d022-9807-3a9a-980e-313e8134d224"
   ],
   "daily": {
     "d": "2026-09-04",
-    "ai": 92,
-    "staged": 3,
+    "ai": 93,
+    "staged": 4,
     "prio": 0,
     "lost": 0
   },
@@ -3799,6 +3801,15 @@
         "topuria",
         "house",
         "gaethje"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-04T17:30:59.877350+00:00",
+      "t": "Noche UFC hit with fight cancellation blow",
+      "names": [
+        "noche",
+        "peru"
       ],
       "img": "photo"
     }
