@@ -1464,15 +1464,12 @@
     "e1cff58e669145c3": 1788511453.1011317,
     "d13a1bb35969bc76": 1788511520.0850925,
     "0838bd4cd042a990": 1788511544.7322478,
-    "4ce518b7dbe9c5e5": 1788511590.7798557
+    "4ce518b7dbe9c5e5": 1788511590.7798557,
+    "e02e2634da696392": 1788511656.6953075
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Sadykhov Confirms Nascimento Fight At UFC 334",
-      "ts": "2026-09-03T04:01:41+00:00"
-    },
     {
       "t": "Justin Gaethje names Conor McGregor as his preferred first UFC title challenger, says it will be ‘fun to shut him up’",
       "ts": "2026-09-03T03:58:43+00:00"
@@ -1948,13 +1945,17 @@
     {
       "t": "Movsar Evloev has a blunt response to Alexander Volkanovski’s UFC 333 plan",
       "ts": "2026-09-04T06:34:37+00:00"
+    },
+    {
+      "t": "Cris Cyborg wants to ‘save’ UFC 332 with Amanda Nunes revenge fight",
+      "ts": "2026-09-04T06:51:52+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-04T08",
-    8
+    9
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=329262",
@@ -3189,12 +3190,13 @@
     "f114a0fe-947a-31b4-b274-3445ca2b7076",
     "a7a8b268-7d72-3b64-b0c2-216a622f2e8e",
     "https://www.mmamania.com/469279/mm-clone",
-    "8c724e79-5c02-3332-87db-c84adbbf6440"
+    "8c724e79-5c02-3332-87db-c84adbbf6440",
+    "c6b92441-2503-37a8-a587-7939e4ddb95d"
   ],
   "daily": {
     "d": "2026-09-04",
-    "ai": 30,
-    "staged": 1,
+    "ai": 31,
+    "staged": 2,
     "prio": 0,
     "lost": 0
   },
@@ -3623,6 +3625,15 @@
         "middleweight"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-04T08:47:38.003223+00:00",
+      "t": "Cris Cyborg wants to ‘save’ UFC 332 with Amanda Nunes revenge fight",
+      "names": [
+        "cyborg",
+        "nunes"
+      ],
+      "img": "wash"
     }
   ],
   "seed_pending": [],
