@@ -2,10 +2,10 @@
   "v": 2,
   "cursor": 7,
   "staged_at": [
-    "2026-09-02T19:25:18.369579+00:00",
     "2026-09-03T13:39:06.459276+00:00",
     "2026-09-03T19:19:47.486459+00:00",
-    "2026-09-04T13:35:35.968854+00:00"
+    "2026-09-04T13:35:35.968854+00:00",
+    "2026-09-04T19:01:03.631852+00:00"
   ],
   "asked": [
     "Who is the most dangerous striker in the UFC right now?",
@@ -36,27 +36,28 @@
     "Who is the most exciting fighter in the UFC right now?",
     "Who is the most gifted athlete in UFC history?",
     "Who is the most boring fighter in the UFC right now?",
-    "Who is the most impressive UFC debut of the last five years?"
+    "Who is the most impressive UFC debut of the last five years?",
+    "Who deserves an immediate rematch after losing their title?"
   ],
   "last_entry": {
-    "q": "Who is the most impressive UFC debut of the last five years?",
+    "q": "Who deserves an immediate rematch after losing their title?",
     "type": "poll",
     "options": [
       {
-        "label": "Khamzat Chimaev",
-        "emoji": "🐺"
+        "label": "Topuria",
+        "emoji": "👑"
       },
       {
-        "label": "Paddy Pimblett",
-        "emoji": "🍔"
+        "label": "Strickland",
+        "emoji": "🗣️"
       },
       {
-        "label": "Alex Pereira",
-        "emoji": "💥"
+        "label": "Ngannou",
+        "emoji": "💪"
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "💬"
+        "label": "Other (comment)",
+        "emoji": "👇"
       }
     ]
   }
