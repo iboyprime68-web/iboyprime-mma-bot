@@ -1863,15 +1863,12 @@
     "20f92bfafdc2035a": 1788648592.3106894,
     "0e3961018727a831": 1788648614.544021,
     "d9ee6676620c03cb": 1788648636.6098707,
-    "f05205ccb3115d48": 1788648659.788039
+    "f05205ccb3115d48": 1788648659.788039,
+    "b3d4812194dc0309": 1788648682.0312123
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Belal Muhammad: Song Yadong knocking out Umar Nurmagomedov ‘broke my heart’",
-      "ts": "2026-09-04T20:14:32+00:00"
-    },
     {
       "t": "Noche UFC 4 loses Rodrigo Vera vs. Ramiro Jimenez fight due to visa issues",
       "ts": "2026-09-04T22:12:11+00:00"
@@ -2347,13 +2344,17 @@
     {
       "t": "Khamzat Chimaev makes easy work of Tyron Woodley at RAF Moscow",
       "ts": "2026-09-05T19:50:46+00:00"
+    },
+    {
+      "t": "Katie Taylor vs Flora Pili result: Boxing legend retires undisputed in front of 83,000 at Croke Park",
+      "ts": "2026-09-05T21:43:46+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-05T22",
-    13
+    14
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=329262",
@@ -3806,13 +3807,14 @@
     "https://www.mmamania.com/469572/highlights-open-ufc-paris",
     "CBMiuAFBVV95cUxQd3R3MmJPQW81RFBNSmNPeWFteDl0R3JKUnVYV2dxSU5COG5sOVZGT1d3UVFKbTQxalItblgwU1RRWGFnZGxlN2JiVmUtZ0VGRTIwTjd2TUlHUjUwd2J0NzZva1pUaFU1aFFaZnJERFlaTWpFNzdJS3ZtS1VGWVpmM0VuSmtrb0RZeFl3LTcyMG1iYUxOZHNwcG1fNlBaNUFPZmE4Y0wwOVJ5MlJ0SFlXQmI3enVORl9H",
     "CBMivwFBVV95cUxNclI1QVNlZzJHWkQzZ2o3TjVjT1drb1VpMmxsNWFxbW9KNk5QNUp5NE9INjllaGlqYnZzOU9XWEVid3pPc21PR3ozWTlUajkzcC03RF9DN20tQTVOM0hXZTBpei12Vk40UFRhenJTR2t1enJVUk9PLVB0bFJsa3Rrcm4zcnU1OHpoYUREam9BSFlxRXhJVElhOThrSWlZMENOeXJ0QzJ0VVFzUnlpOHEwNnExaFlKR0s2S0NhQ3dlSQ",
-    "CBMiywFBVV95cUxPQ3A4ZkFiaFB0cXJsa3Y4M2ZWT2lqZnJJdVA4eDF6RWZLRVQ4NnNWWGxEUDRqOS1sUng4SVlqTkZPOVRwTTB0N3NFb29hX1hFV0pweGtSTmNYeFM1Y2w4QUFmWDFYOE5mT2JHT3RFbFdLWWdFZExYS1BEajAxVDZocUJEMUZZTGN0eHl2VlFLQUNrdjRqWXZmVkVKaVVDalN4NzJVVEJpUmRYZ1VaVHFnM2oxY0dzN2NTREd0azdpZ1Jsbmd6TEJ5SnBPVQ"
+    "CBMiywFBVV95cUxPQ3A4ZkFiaFB0cXJsa3Y4M2ZWT2lqZnJJdVA4eDF6RWZLRVQ4NnNWWGxEUDRqOS1sUng4SVlqTkZPOVRwTTB0N3NFb29hX1hFV0pweGtSTmNYeFM1Y2w4QUFmWDFYOE5mT2JHT3RFbFdLWWdFZExYS1BEajAxVDZocUJEMUZZTGN0eHl2VlFLQUNrdjRqWXZmVkVKaVVDalN4NzJVVEJpUmRYZ1VaVHFnM2oxY0dzN2NTREd0azdpZ1Jsbmd6TEJ5SnBPVQ",
+    "https://bloodyelbow.com/?p=330491"
   ],
   "daily": {
     "d": "2026-09-05",
-    "ai": 86,
+    "ai": 87,
     "staged": 6,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
@@ -4344,6 +4346,18 @@
         "montenegro"
       ],
       "img": "wash"
+    },
+    {
+      "ts": "2026-09-05T22:51:22.994894+00:00",
+      "t": "Katie Taylor vs Flora Pili result: Boxing legend retires undisputed in front of 83,000 at Croke Park",
+      "names": [
+        "taylor",
+        "pili",
+        "boxing",
+        "croke",
+        "park"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -4354,29 +4368,18 @@
     "2e54d53caa4a8685": 1788543109.7343233,
     "6771246f5403e46b": 1788603459.7285097,
     "3681ab12811d1a2d": 1788616220.2137976,
-    "ff07b66135ce27df": 1788626364.6622412
+    "ff07b66135ce27df": 1788626364.6622412,
+    "b3d4812194dc0309": 1788648681.698924
   },
   "pinged_titles": [
     [
-      "Fury Credits White For Getting Joshua Super Fight ‘Over The Line’",
-      1788616220.2137976,
+      "Katie Taylor vs Flora Pili result: Boxing legend retires undisputed in front of 83,000 at Croke Park",
+      1788648681.698924,
       [
-        "credits",
-        "for",
-        "fury",
-        "getting",
-        "joshua",
-        "line",
-        "super",
-        "white"
-      ]
-    ],
-    [
-      "Dan Hooker responds to death threats ahead of UFC Paris",
-      1788626364.6622412,
-      [
-        "hooker",
-        "paris"
+        "boxing",
+        "park",
+        "pili",
+        "taylor"
       ]
     ]
   ]
