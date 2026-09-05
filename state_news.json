@@ -1799,15 +1799,12 @@
     "e765626a568bbaca": 1788616675.5759802,
     "6043f333f3dd9ab2": 1788616802.3469782,
     "026425e7ef21986a": 1788616825.3200839,
-    "702ab42cc722273b": 1788616849.0535092
+    "702ab42cc722273b": 1788616849.0535092,
+    "ff07b66135ce27df": 1788626363.363713
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Topuria Breaks Silence After UFC White House Loss",
-      "ts": "2026-09-04T17:01:00+00:00"
-    },
     {
       "t": "Dan Hooker vs. Salahdine Parnasse, UFC Fight Night 287 ceremonial weigh-ins faceoff",
       "ts": "2026-09-04T17:04:13+00:00"
@@ -2283,13 +2280,17 @@
     {
       "t": "Dan Hooker responds to death threats he received ahead of UFC Paris: ‘Nothing they can do but shut the f*ck up’",
       "ts": "2026-09-04T11:55:04+00:00"
+    },
+    {
+      "t": "Dan Hooker responds to death threats ahead of UFC Paris",
+      "ts": "2026-09-05T14:02:57+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-05T14",
-    2
+    "2026-09-05T16",
+    1
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=329262",
@@ -3724,12 +3725,13 @@
     "CBMioAFBVV95cUxNZzVtWVR5NjI3XzVIbWJnLU1PdkJadG5oaG9zdGxjSmtJb0JudWFFOENhOXRUSC1lRkRUYjlTbEJvUWROaGlTV2N2MmFzMThOZjFyZ3huc3NWeDFkVXdDVDEyRTREbjMxbWdwMjN3eDA0d2NYaWVKY3JOSFB0Y09MTG5uTm5pczlqYmNhY2xsR3BJUEd3eXpGemRTQzhrOWNI",
     "CBMi4wFBVV95cUxOMFROZ0gyWi0wLUZ4QmJOdlBfdHJMcU4tSHFpTmo4c1hIaTNaekFOQzR4enhxcE9neWZsYUpCV2lyemlaamtWblRHcTROT2tuMW54dER5bi1RT045RnQxUGR0cnFfV0dYbm44eDdJc0lVa1h0TnJyZ0VDMnEybGMwMXlCOS1KdVhDb2hSRTB1TDVzVy1EZ3o1a2dwMG9LcjVOTnF6eEtSMEUxTlhrR0QzU2tGUTUxa295dlZ2bUdWU0NTaF9ScUFHMEhXcXJaMTBQREZkZU14NF9HR1g4QWFCb0ZIcw",
     "https://bloodyelbow.com/?p=330361",
-    "https://www.mmafighting.com/?p=508323"
+    "https://www.mmafighting.com/?p=508323",
+    "abb8177b-7e65-30b6-9018-897dbea84ebc"
   ],
   "daily": {
     "d": "2026-09-05",
-    "ai": 68,
-    "staged": 4,
+    "ai": 69,
+    "staged": 5,
     "prio": 0,
     "lost": 0
   },
@@ -4242,6 +4244,15 @@
         "line"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-05T16:39:24.660791+00:00",
+      "t": "Dan Hooker responds to death threats ahead of UFC Paris",
+      "names": [
+        "hooker",
+        "paris"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -4251,20 +4262,10 @@
     "f26b1dcc3e7df30f": 1788457559.8365097,
     "2e54d53caa4a8685": 1788543109.7343233,
     "6771246f5403e46b": 1788603459.7285097,
-    "3681ab12811d1a2d": 1788616220.2137976
+    "3681ab12811d1a2d": 1788616220.2137976,
+    "ff07b66135ce27df": 1788626364.6622412
   },
   "pinged_titles": [
-    [
-      "Chimaev Faces Woodley in Thrilling RAF Moscow Main Event",
-      1788603459.7285097,
-      [
-        "chimaev",
-        "faces",
-        "moscow",
-        "thrilling",
-        "woodley"
-      ]
-    ],
     [
       "Fury Credits White For Getting Joshua Super Fight ‘Over The Line’",
       1788616220.2137976,
@@ -4277,6 +4278,14 @@
         "line",
         "super",
         "white"
+      ]
+    ],
+    [
+      "Dan Hooker responds to death threats ahead of UFC Paris",
+      1788626364.6622412,
+      [
+        "hooker",
+        "paris"
       ]
     ]
   ]
