@@ -1692,15 +1692,13 @@
     "c104c599b2116ea4": 1788569325.3057852,
     "695f5f3be0094adb": 1788569325.625649,
     "1d378f2a24a16a1f": 1788569369.5118632,
-    "9d5758cb91995a8d": 1788569393.2988684
+    "9d5758cb91995a8d": 1788569393.2988684,
+    "cb21b16e78a9a90c": 1788569458.5690162,
+    "89e4aeccd64832cf": 1788569458.8302298
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Video: UFC Paris live preview show with Farah Hannoun, Mike Bohn",
-      "ts": "2026-09-04T12:03:29+00:00"
-    },
     {
       "t": "Salahdine Parnasse: Usman Nurmagomedov fight ‘a possibility’ with UFC Paris win",
       "ts": "2026-09-04T12:38:33+00:00"
@@ -2176,13 +2174,17 @@
     {
       "t": "Matthieu Duclos",
       "ts": "2026-09-05T00:02:10+00:00"
+    },
+    {
+      "t": "Zabit Magomedsharipov returns after 7 years, beats UFC featherweight",
+      "ts": "2026-09-05T00:23:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-05T00",
-    7
+    8
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=329262",
@@ -3556,12 +3558,13 @@
     "CBMipAFBVV95cUxPaHpBTi1rS3IwbGh0MUtMUnlMeFdIRG1NOU1xNkM3dERMdVgySnRycGhyc2J1SjBwT3hnRVQ3LVRIVUh2bWdXNjNxUVVRV05MdWhNLUJTdXFGTUFEQXFTX1p3MGN4R0E2NkZUM0lOSFZfYi1qMVZnRVdSdERLWl9VR3FvV2NZSmxMNkNLckMyY1kzNm9DUVNacVdGd2xHdTZHYldqVtIBqgFBVV95cUxPMVB5S2FyalU1dUtLTE53ZjlrX2JaLU5rVG9aWjdTU3pDRjBkV3dhWVA2SjZtZmEyVnY5ZjZvaGpwb2xmSmNLZ0ZzTGpsakI1TGMtQ2hqZTBCMVdZWTNkYXFTZkNDclZIOFlUVmRPb19UNGx2YU5jcGdwSFJDX1Q0UERwNF9La2Y1eDgwSXB0MjB5cmVldHgyZks0c2N5cFRUVGhTZ0hSNWRIZw",
     "CBMihgFBVV95cUxNamlMVnhXUHpRcW5SRkEzYWtQQnJrMUZEcUtYMmtFQ0dhVTFqdlRldm1Nd3U1UEFzeHBobHJYZEhXOTJ4S2s4My1aa2pHN0Ftai1lS2xpZjJ5bWRWNXlJOHlBbmFmR3hXT2FfaGtlUkVveFRCUnhJT1VCV1hISkwySkVvYjl5dw",
     "CBMifkFVX3lxTE5ZdHFBRDNSRlNMdFFBbXVXQWx6clZyYWFmU0plQjVNZXNaZ0NOVG9wanJ5T0dDNXVuWFUyT0VOU2E0S2M1MFdqMWdaaXZUbmthM29UY1dXa25QZjNQVkJXSWlTYVVPNHZOME5sUUV3U19FTUhqUFJjajZlTExNQQ",
-    "CBMiXkFVX3lxTE5FVzFYeUtPVlVBcFh1OFJVVXBWZjYta1VWa2dZNklfZ3kxYldLRGVWa1otYmdzTDRfbjU4dkNkQm5TVEExb1EtNWJuQ2RLMG83cnFVTjgwOTFScDExd3c"
+    "CBMiXkFVX3lxTE5FVzFYeUtPVlVBcFh1OFJVVXBWZjYta1VWa2dZNklfZ3kxYldLRGVWa1otYmdzTDRfbjU4dkNkQm5TVEExb1EtNWJuQ2RLMG83cnFVTjgwOTFScDExd3c",
+    "CBMijAFBVV95cUxNV0xEZ2N3RC0tZ1RzMEhwNjJxT2RUMjNrZ2JUSlBBZzd4Z2gtY2dZalBnTEh4VFR0SWduWFl2YTQwME9zMDRKaXJqX2F0Z3BNSXIzMGhaTVIyMEgtc09YNWV1bmVTelVsNXhFT0NMc2h4MDBfamVFR3RrZ1ZUa3lvMTNBZmFYQVNGY0tNZw"
   ],
   "daily": {
     "d": "2026-09-05",
-    "ai": 7,
-    "staged": 0,
+    "ai": 8,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
@@ -4025,6 +4028,15 @@
       "names": [
         "imavov",
         "strickland"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-05T00:50:59.631125+00:00",
+      "t": "Zabit Magomedsharipov returns after 7 years, beats UFC featherweight",
+      "names": [
+        "magomedsharipov",
+        "zabit"
       ],
       "img": "photo"
     }
