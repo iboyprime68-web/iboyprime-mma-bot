@@ -2,10 +2,10 @@
   "v": 2,
   "cursor": 7,
   "staged_at": [
-    "2026-09-03T19:19:47.486459+00:00",
     "2026-09-04T13:35:35.968854+00:00",
     "2026-09-04T19:01:03.631852+00:00",
-    "2026-09-05T12:48:20.907043+00:00"
+    "2026-09-05T12:48:20.907043+00:00",
+    "2026-09-05T18:23:53.484411+00:00"
   ],
   "asked": [
     "Who is the most dangerous striker in the UFC right now?",
@@ -38,26 +38,27 @@
     "Who is the most boring fighter in the UFC right now?",
     "Who is the most impressive UFC debut of the last five years?",
     "Who deserves an immediate rematch after losing their title?",
-    "Who is the greatest UFC featherweight of all time?"
+    "Who is the greatest UFC featherweight of all time?",
+    "Who is the most impressive UFC Paris finisher this weekend?"
   ],
   "last_entry": {
-    "q": "Who is the greatest UFC featherweight of all time?",
+    "q": "Who is the most impressive UFC Paris finisher this weekend?",
     "type": "poll",
     "options": [
       {
-        "label": "Aldo",
+        "label": "Benouaich",
+        "emoji": "🩸"
+      },
+      {
+        "label": "Parnasse",
         "emoji": "🥊"
       },
       {
-        "label": "Holloway",
-        "emoji": "🔥"
+        "label": "Yadong",
+        "emoji": "🀄"
       },
       {
-        "label": "Volkanovski",
-        "emoji": "🦘"
-      },
-      {
-        "label": "Other",
+        "label": "Other (comment below)",
         "emoji": "💬"
       }
     ]
