@@ -1822,15 +1822,12 @@
     "aa932e5c30be1ae4": 1788626957.5243778,
     "015a086a2e75303d": 1788626980.6325142,
     "44ec0294a68ac0e6": 1788627025.2723641,
-    "fc37ec09ad4e9550": 1788627089.3627653
+    "fc37ec09ad4e9550": 1788627089.3627653,
+    "7f9b84f0d5567640": 1788627153.6398191
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Felipe Lima glad to be back from 'a dark place' at UFC Paris",
-      "ts": "2026-09-04T18:40:14+00:00"
-    },
     {
       "t": "Youssef Zalal announces split from Factory X, interested in Trevor Wittman",
       "ts": "2026-09-04T19:30:38+00:00"
@@ -2306,13 +2303,17 @@
     {
       "t": "UFC Fight Night start time for Dan Hooker vs. Salahdine Parnasse: Where to watch live on Paramount+",
       "ts": "2026-09-05T16:30:00+00:00"
+    },
+    {
+      "t": "UFC Paris video: Delphine Benouaich bloodies, chokes out Sofia Montenegro",
+      "ts": "2026-09-05T16:34:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-05T16",
-    17
+    18
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=329262",
@@ -3764,12 +3765,13 @@
     "CBMiR0FVX3lxTE5XRTZ0Rl9ULXNaOEtMWGFoTGo2dktwakd0S2FiWnA3aGhtZ3Z4ay1yMHlRaXRLcjRib0o1VVFkMVJUOUd6cnl3",
     "https://www.mmamania.com/469572/highlights-open-ufc-paris",
     "CBMiuAFBVV95cUxQd3R3MmJPQW81RFBNSmNPeWFteDl0R3JKUnVYV2dxSU5COG5sOVZGT1d3UVFKbTQxalItblgwU1RRWGFnZGxlN2JiVmUtZ0VGRTIwTjd2TUlHUjUwd2J0NzZva1pUaFU1aFFaZnJERFlaTWpFNzdJS3ZtS1VGWVpmM0VuSmtrb0RZeFl3LTcyMG1iYUxOZHNwcG1fNlBaNUFPZmE4Y0wwOVJ5MlJ0SFlXQmI3enVORl9H",
-    "CBMivwFBVV95cUxNclI1QVNlZzJHWkQzZ2o3TjVjT1drb1VpMmxsNWFxbW9KNk5QNUp5NE9INjllaGlqYnZzOU9XWEVid3pPc21PR3ozWTlUajkzcC03RF9DN20tQTVOM0hXZTBpei12Vk40UFRhenJTR2t1enJVUk9PLVB0bFJsa3Rrcm4zcnU1OHpoYUREam9BSFlxRXhJVElhOThrSWlZMENOeXJ0QzJ0VVFzUnlpOHEwNnExaFlKR0s2S0NhQ3dlSQ"
+    "CBMivwFBVV95cUxNclI1QVNlZzJHWkQzZ2o3TjVjT1drb1VpMmxsNWFxbW9KNk5QNUp5NE9INjllaGlqYnZzOU9XWEVid3pPc21PR3ozWTlUajkzcC03RF9DN20tQTVOM0hXZTBpei12Vk40UFRhenJTR2t1enJVUk9PLVB0bFJsa3Rrcm4zcnU1OHpoYUREam9BSFlxRXhJVElhOThrSWlZMENOeXJ0QzJ0VVFzUnlpOHEwNnExaFlKR0s2S0NhQ3dlSQ",
+    "CBMiywFBVV95cUxPQ3A4ZkFiaFB0cXJsa3Y4M2ZWT2lqZnJJdVA4eDF6RWZLRVQ4NnNWWGxEUDRqOS1sUng4SVlqTkZPOVRwTTB0N3NFb29hX1hFV0pweGtSTmNYeFM1Y2w4QUFmWDFYOE5mT2JHT3RFbFdLWWdFZExYS1BEajAxVDZocUJEMUZZTGN0eHl2VlFLQUNrdjRqWXZmVkVKaVVDalN4NzJVVEJpUmRYZ1VaVHFnM2oxY0dzN2NTREd0azdpZ1Jsbmd6TEJ5SnBPVQ"
   ],
   "daily": {
     "d": "2026-09-05",
-    "ai": 85,
-    "staged": 5,
+    "ai": 86,
+    "staged": 6,
     "prio": 0,
     "lost": 0
   },
@@ -4291,6 +4293,17 @@
         "paris"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-05T16:52:34.727842+00:00",
+      "t": "UFC Paris video: Delphine Benouaich bloodies, chokes out Sofia Montenegro",
+      "names": [
+        "paris",
+        "benouaich",
+        "sofia",
+        "montenegro"
+      ],
+      "img": "wash"
     }
   ],
   "seed_pending": [],
