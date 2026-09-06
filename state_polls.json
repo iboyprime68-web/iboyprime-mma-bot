@@ -1,11 +1,11 @@
 {
   "v": 2,
-  "cursor": 7,
+  "cursor": 8,
   "staged_at": [
-    "2026-09-04T13:35:35.968854+00:00",
     "2026-09-04T19:01:03.631852+00:00",
     "2026-09-05T12:48:20.907043+00:00",
-    "2026-09-05T18:23:53.484411+00:00"
+    "2026-09-05T18:23:53.484411+00:00",
+    "2026-09-06T12:55:44.126491+00:00"
   ],
   "asked": [
     "Who is the most dangerous striker in the UFC right now?",
@@ -39,27 +39,28 @@
     "Who is the most impressive UFC debut of the last five years?",
     "Who deserves an immediate rematch after losing their title?",
     "Who is the greatest UFC featherweight of all time?",
-    "Who is the most impressive UFC Paris finisher this weekend?"
+    "Who is the most impressive UFC Paris finisher this weekend?",
+    "Gun to your head, one fighter wins a street fight for your life. Who?"
   ],
   "last_entry": {
-    "q": "Who is the most impressive UFC Paris finisher this weekend?",
+    "q": "Gun to your head, one fighter wins a street fight for your life. Who?",
     "type": "poll",
     "options": [
       {
-        "label": "Benouaich",
-        "emoji": "🩸"
+        "label": "Jon Jones",
+        "emoji": "😈"
       },
       {
-        "label": "Parnasse",
-        "emoji": "🥊"
+        "label": "Francis Ngannou",
+        "emoji": "🦍"
       },
       {
-        "label": "Yadong",
-        "emoji": "🀄"
+        "label": "Khamzat Chimaev",
+        "emoji": "🐺"
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "💬"
+        "label": "Khabib Nurmagomedov",
+        "emoji": "🦅"
       }
     ]
   }
