@@ -1967,15 +1967,12 @@
     "6743ed9c3e78e0d5": 1788714058.072927,
     "bf64c2a58bfe1c11": 1788720992.4741032,
     "22d82e03785fce8f": 1788721016.5801039,
-    "f2c95cfa9281057d": 1788721061.6215045
+    "f2c95cfa9281057d": 1788721061.6215045,
+    "19fddf4ea151084f": 1788721127.4155972
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Post-Fight Press Conference | UFC Paris",
-      "ts": "2026-09-05T16:16:50+00:00"
-    },
     {
       "t": "Yikes! Delphine Benouaich sparks UFC Paris with blood-splattering elbows and submission finish &#124; Video",
       "ts": "2026-09-05T16:41:49+00:00"
@@ -2451,16 +2448,19 @@
     {
       "t": "New French Star Salahdine Parnasse Calls Out Holloway at UFC Paris",
       "ts": "2026-09-06T14:39:57+00:00"
+    },
+    {
+      "t": "Islam Makhachev and Olympic legend ignite fight talks",
+      "ts": "2026-09-06T16:00:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-06T18",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMifkFVX3lxTE8walJUZ1ZHM25wV1I4YnpTVVRTekYxMVdvdGowWEt5NHhTXzI4Wi1GOWwtcGNRYTdnQ2JqSUsyd1hXeEVnd2t5WHItMUlnZ3NzazFCTGM1U2U3cC1sV1pwZ1NhNlpFdjVSbEVhbHlOdlJ2bzNLSDhlOUdyUEMtUQ",
     "f6125631-88dd-32ff-8c61-7adaecf2ab50",
     "https://bloodyelbow.com/?p=329200",
     "CBMihwFBVV95cUxNU0RCQmFXZUZZRmt1ZzhubEhPOFJPS1FpVzJUb0VxR25IOVJLeG5sb1hEbGJsRVZLN0tlWElyWFZJS1JrS1l6VlFzaFpkcjNNWEtjYkpJNkVqOVJtcWRDTWRQcE54RHNQWl9qYWxKSkFCeDhPWWpHbHJlZTV3NmVFME9ybXZvSWM",
@@ -3959,12 +3959,13 @@
     "d69e5ba7-53eb-3bab-ac23-2fa9bee74dd7",
     "https://www.mmafighting.com/?p=508580",
     "https://bloodyelbow.com/?p=330625",
-    "cf15a2b9-5ed9-34ce-92b2-9f93350a8b59"
+    "cf15a2b9-5ed9-34ce-92b2-9f93350a8b59",
+    "3b129375-37b9-33aa-a424-f14e5043c923"
   ],
   "daily": {
     "d": "2026-09-06",
-    "ai": 65,
-    "staged": 4,
+    "ai": 66,
+    "staged": 5,
     "prio": 4,
     "lost": 0
   },
@@ -4589,6 +4590,15 @@
         "conor",
         "taylor",
         "u-turn"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-06T18:58:48.436345+00:00",
+      "t": "Islam Makhachev and Olympic legend ignite fight talks",
+      "names": [
+        "makhachev",
+        "olympic"
       ],
       "img": "photo"
     }
