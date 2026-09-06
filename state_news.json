@@ -2003,15 +2003,13 @@
     "8eaafd0a179260e9": 1788730089.0087333,
     "532f8fa74226ccf0": 1788730089.0116591,
     "9c8203b90c9f5974": 1788730089.013478,
-    "e4e81ec0f95b3993": 1788730089.7827592
+    "e4e81ec0f95b3993": 1788730089.7827592,
+    "f139a5d046518fe5": 1788730132.8012986,
+    "6819a74e06fb8b70": 1788730133.3762417
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "‘Best celebration ever’… Star UFC signing Losene Keita produces walk-off KO to win fans over",
-      "ts": "2026-09-05T19:56:45+00:00"
-    },
     {
       "t": "UFC 332 main event confirmed: Valentina Shevchenko vacates as contenders fight for her title",
       "ts": "2026-09-05T20:21:36+00:00"
@@ -2487,16 +2485,19 @@
     {
       "t": "Michael Bisping: Salahdine Parnasse put 'division on notice' in UFC Paris debut",
       "ts": "2026-09-06T21:10:00+00:00"
+    },
+    {
+      "t": "UFC Paris results: Biggest winners, losers from ‘Hooker vs. Parnasse’ yesterday",
+      "ts": "2026-09-06T13:06:56+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-06T21",
-    23
+    24
   ],
   "yt_eval": [
-    "CBMiekFVX3lxTE5zSllvUWFLcmJDM2tKTmw0TFd4UEt3ZEFhUkx4X0FtUXNIZHBncm1sTF9VOENUWHFTa0VxclNpT3lScEt2dGRzdGI4dF9wLXNQcGNBamVwM1ZRM1NDUlhPOXBzR09KbDcwcC1tVlFrQ0dYUzZBZlVLV0xB",
     "3f5d7c0a-f843-3d65-a092-d6d13ad7a7b4",
     "CBMimAFBVV95cUxPU2hGc2VlS3hndFdka3JDWm1vLW05WHNHcVhTUnJDb2dKam1KbmVEUUlCaDRNbUY1MVJNZWxzQlROUmFJN1Z6VGUtOXV2OUFtQWFITmFOSlRMYk1PeHRpMTc2MXdYUGFIYzR1RFltRnlrRUZtSTUzQ01PR2dvVkdWT3lkREV5TDhobzBBZmVrR2FXVjNJeHFCTA",
     "CBMixAFBVV95cUxPYkFnc1V4cUZJc2o4b0w2SWg3cVNNNjJ1RElhMndxdmx5MDBqdHlLbjhLLUY4TWpEM1lLdXUxS3M1dXFwLU1rUE01TGRhWUQxZlUwSnhVd3NDam9uSkE5dzFtcUg3dTFMS3N1NzVQeXhtWU9nVWJzX1l6QS16SGktQWdIWXI5aGZ0WmZEOW5zNnpZMnB4TGQ0Wk80ZDFLMXQzdnJiRHFhQWNaNWxDaGlKS0FBS2FFQmdBeGVmeGk5OFJ6WnZj",
@@ -3995,11 +3996,12 @@
     "CBMickFVX3lxTE0yYy1iZlJSdi1xemdMSHFIdjdXQWpSb1RpQkIxSF95ZDVvWjdkVkFia1hRQzdreXBkM1JUT1BhUk15ZUZPWXpRR3F0UmlPOXhnaTZkSDhFcXFIQWQ2aHhfVXpQM1RaT2NudjR6My1OZDRtUQ",
     "CBMi3wFBVV95cUxQRHoyV3NWT2RnZTZOM2pGbjVoM2pBaFRkam1YQXl4bDBkWEV5WmVadXNMemtEekhYdGhTaUlISmJ1T3NQa2JGMjN5MGd0cnhrNmFYcElJbzQ4MzI4ejVOZXR2WjlDVG1mRko4allrbnhZUmE4di1uSWl2V0hyd2ZJLTZrbnZ0dFpMcWI3ZVE0US05bnVibWZjV05zUmMxeE52YjB3VmU5a1ptVDh1d2xFYlgteG1wOEV0clAtWDNhbnh2dGFfanh6d3hqVjlBSGJNMTZVZDRnMEk5WkREbkgw",
     "CBMinwFBVV95cUxNMXphWFp1alVtajVEdkNqWXVlcjA1dkdJVVVrX0JaNndWQl92S1RjZzB3VTd6a0p4QkpXVjNQamV1ZFBBZElQV0k5aWZPdnViYXBDYkZNSHhKM0FMYklBNVBNdEd6bE00R0NBcnVjRUxLMW9PRW1BV1Q2WTg5UmtCenVITWJzaTg5bHdZN3VoOHc4ZzdjcWRubVJjWUdqNTg",
-    "CBMi1gFBVV95cUxQeHl6Q3pRMXk1OVZJSHJjaDZsdDNYUjQzOEV1TmlQQmRNUTBzVzRhVDgzTkFqOFRzSDRCeVlSazFLOV9Ma2Y1d0Yzc3pGUXJaWmFvaTY2UXNGNmF5cUpWdWZoV3VCLUo5WTU5QlNjRHRUMm85SEgtNTJnT1A0QmRpY2pmSWdidS1oQlJEUkN2ZmRvd0VGbGc2OWM0V1N5YkptaUJUekhyNVdiWlJ6YW5GczE3M3hwYjBMXzlGaGNqQmZNQjZ2NEJKekxHU3dwZkR3RDNNb2RR"
+    "CBMi1gFBVV95cUxQeHl6Q3pRMXk1OVZJSHJjaDZsdDNYUjQzOEV1TmlQQmRNUTBzVzRhVDgzTkFqOFRzSDRCeVlSazFLOV9Ma2Y1d0Yzc3pGUXJaWmFvaTY2UXNGNmF5cUpWdWZoV3VCLUo5WTU5QlNjRHRUMm85SEgtNTJnT1A0QmRpY2pmSWdidS1oQlJEUkN2ZmRvd0VGbGc2OWM0V1N5YkptaUJUekhyNVdiWlJ6YW5GczE3M3hwYjBMXzlGaGNqQmZNQjZ2NEJKekxHU3dwZkR3RDNNb2RR",
+    "https://www.mmamania.com/?p=470015"
   ],
   "daily": {
     "d": "2026-09-06",
-    "ai": 91,
+    "ai": 92,
     "staged": 5,
     "prio": 4,
     "lost": 0
