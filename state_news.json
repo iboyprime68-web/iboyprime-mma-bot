@@ -1911,15 +1911,12 @@
     "3f066ba2e1c94db7": 1788673269.9123425,
     "a8644713ab9a21dd": 1788673316.307677,
     "58317a8504658ff5": 1788673380.6981466,
-    "36dd4c010eb97e62": 1788673444.6045847
+    "36dd4c010eb97e62": 1788673444.6045847,
+    "d865aed2f0827a2b": 1788673509.8123271
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Cody Chovancek: UFC Record, Stats and Fighter Profile",
-      "ts": "2026-09-05T09:34:55+00:00"
-    },
     {
       "t": "“Gotta Be Illegal”: Fans Skeptical After MMA Fighter vs. Chimpanzee Reports Go Viral",
       "ts": "2026-09-05T09:52:00+00:00"
@@ -2395,13 +2392,17 @@
     {
       "t": "UFC Hopeful Makes Bold Plea to Dana White After Viral Submission Victory",
       "ts": "2026-09-06T00:24:15+00:00"
+    },
+    {
+      "t": "Silva Vs. Cong Main Events UFC 332 After Shevchenko Stripped Of Title",
+      "ts": "2026-09-06T01:00:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-06T05",
-    5
+    6
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=329262",
@@ -3881,13 +3882,14 @@
     "https://bloodyelbow.com/?p=330469",
     "0f4b1323-e165-37e7-b28c-18d9a80918c4",
     "63cacb29-3bc5-35ec-a7c2-44d52e951d79",
-    "b76984ad-b090-3d51-a232-600279024755"
+    "b76984ad-b090-3d51-a232-600279024755",
+    "fe7544f5-1d8b-32e3-ba16-0474a1962c13"
   ],
   "daily": {
     "d": "2026-09-06",
-    "ai": 26,
+    "ai": 27,
     "staged": 2,
-    "prio": 1,
+    "prio": 2,
     "lost": 0
   },
   "staged_hist": [
@@ -4466,6 +4468,17 @@
         "makhachev"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-06T05:45:10.762151+00:00",
+      "t": "Silva Vs. Cong Main Events UFC 332 After Shevchenko Stripped Of Title",
+      "names": [
+        "silva",
+        "cong",
+        "events",
+        "stripped"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -4477,17 +4490,18 @@
     "6771246f5403e46b": 1788603459.7285097,
     "3681ab12811d1a2d": 1788616220.2137976,
     "ff07b66135ce27df": 1788626364.6622412,
-    "b3d4812194dc0309": 1788648681.698924
+    "b3d4812194dc0309": 1788648681.698924,
+    "d865aed2f0827a2b": 1788673508.6909556
   },
   "pinged_titles": [
     [
-      "Katie Taylor vs Flora Pili result: Boxing legend retires undisputed in front of 83,000 at Croke Park",
-      1788648681.698924,
+      "Silva Vs. Cong Main Events UFC 332 After Shevchenko Stripped Of Title",
+      1788673508.6909556,
       [
-        "boxing",
-        "park",
-        "pili",
-        "taylor"
+        "cong",
+        "events",
+        "silva",
+        "stripped"
       ]
     ]
   ]
