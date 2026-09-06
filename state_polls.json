@@ -2,10 +2,10 @@
   "v": 2,
   "cursor": 8,
   "staged_at": [
-    "2026-09-04T19:01:03.631852+00:00",
     "2026-09-05T12:48:20.907043+00:00",
     "2026-09-05T18:23:53.484411+00:00",
-    "2026-09-06T12:55:44.126491+00:00"
+    "2026-09-06T12:55:44.126491+00:00",
+    "2026-09-06T18:24:22.540638+00:00"
   ],
   "asked": [
     "Who is the most dangerous striker in the UFC right now?",
@@ -40,27 +40,28 @@
     "Who deserves an immediate rematch after losing their title?",
     "Who is the greatest UFC featherweight of all time?",
     "Who is the most impressive UFC Paris finisher this weekend?",
-    "Gun to your head, one fighter wins a street fight for your life. Who?"
+    "Gun to your head, one fighter wins a street fight for your life. Who?",
+    "Who is the most delusional fighter in the UFC right now?"
   ],
   "last_entry": {
-    "q": "Gun to your head, one fighter wins a street fight for your life. Who?",
+    "q": "Who is the most delusional fighter in the UFC right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Jon Jones",
-        "emoji": "😈"
+        "label": "Ian Garry",
+        "emoji": "😏"
       },
       {
-        "label": "Francis Ngannou",
-        "emoji": "🦍"
+        "label": "Tony Ferguson",
+        "emoji": "🤪"
       },
       {
-        "label": "Khamzat Chimaev",
-        "emoji": "🐺"
+        "label": "Cris Cyborg",
+        "emoji": "🦁"
       },
       {
-        "label": "Khabib Nurmagomedov",
-        "emoji": "🦅"
+        "label": "Other (comment below)",
+        "emoji": "🗣️"
       }
     ]
   }
