@@ -1946,15 +1946,12 @@
     "d07e92b7a8db1282": 1788691965.2326899,
     "23607205573f4d0c": 1788692421.7041113,
     "4c6c38222edccff0": 1788703306.748561,
-    "2ab2dc47a32ddf72": 1788703330.061378
+    "2ab2dc47a32ddf72": 1788703330.061378,
+    "334a62a400960b38": 1788703353.4214883
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC Paris Underdog of the Week: Axel Sola Is Worth a Look at Plus Money",
-      "ts": "2026-09-05T13:01:00+00:00"
-    },
     {
       "t": "Open Thread, September 5, 2026: Wes Anderson - genius or nah?",
       "ts": "2026-09-05T13:05:00+00:00"
@@ -2430,13 +2427,17 @@
     {
       "t": "UFC Paris main event winner Salahdine Parnasse calls Max Holloway ‘my dream fight’",
       "ts": "2026-09-06T04:59:00+00:00"
+    },
+    {
+      "t": "Conor McGregor tells Katie Taylor to make retirement U-turn after farewell fight at his dream venue",
+      "ts": "2026-09-06T12:00:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-06T14",
-    2
+    3
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=329262",
@@ -3935,13 +3936,14 @@
     "CBMic0FVX3lxTFAzVmMzbVpXdHlVZFdKbXl2anM0Y0tpdzdfcHdWaEh4QTJsX2NlaUZldVZWcENWQ3lVUU9YdGVtZkRRY2xSRXBqX092MVBQTjUxVlNzZlpWQi1sSGNMNlNVRW8wZE9pNndLeFBrQlhKcUd1YU0",
     "https://bloodyelbow.com/?p=330562",
     "https://www.mmafighting.com/?p=508980",
-    "https://www.mmafighting.com/?p=508977"
+    "https://www.mmafighting.com/?p=508977",
+    "https://bloodyelbow.com/?p=330551"
   ],
   "daily": {
     "d": "2026-09-06",
-    "ai": 45,
+    "ai": 46,
     "staged": 4,
-    "prio": 3,
+    "prio": 4,
     "lost": 0
   },
   "staged_hist": [
@@ -4557,6 +4559,16 @@
         "parnasse"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-06T14:02:34.677232+00:00",
+      "t": "Conor McGregor tells Katie Taylor to make retirement U-turn after farewell fight at his dream venue",
+      "names": [
+        "conor",
+        "taylor",
+        "u-turn"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -4570,23 +4582,23 @@
     "ff07b66135ce27df": 1788626364.6622412,
     "b3d4812194dc0309": 1788648681.698924,
     "d865aed2f0827a2b": 1788673508.6909556,
-    "714ca0ab32f8970a": 1788691336.179349
+    "714ca0ab32f8970a": 1788691336.179349,
+    "334a62a400960b38": 1788703352.8240044
   },
   "pinged_titles": [
-    [
-      "Silva Vs. Cong Main Events UFC 332 After Shevchenko Stripped Of Title",
-      1788673508.6909556,
-      [
-        "cong",
-        "events",
-        "silva",
-        "stripped"
-      ]
-    ],
     [
       "UFC champion forced to vacate belt as immediate title fight confirmed",
       1788691336.179349,
       []
+    ],
+    [
+      "Conor McGregor tells Katie Taylor to make retirement U-turn after farewell fight at his dream venue",
+      1788703352.8240044,
+      [
+        "conor",
+        "taylor",
+        "u-turn"
+      ]
     ]
   ]
 }
