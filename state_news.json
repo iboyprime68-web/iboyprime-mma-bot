@@ -2106,15 +2106,12 @@
     "094e2aab293a58fb": 1788772443.2995124,
     "5923e1c181206fed": 1788772507.8746722,
     "effd55f2923fdc77": 1788772572.0822248,
-    "eb4e37f39e4c44c3": 1788772636.8100681
+    "eb4e37f39e4c44c3": 1788772636.8100681,
+    "9ff3049fa2948d2d": 1788772660.1624749
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Pavel Andrusca",
-      "ts": "2026-09-06T05:16:17+00:00"
-    },
     {
       "t": "Natalia Silva vs. Wang Cong title fight to main event UFC 332, injured Valentina Shevchenko stripped of Flyweight crown",
       "ts": "2026-09-06T02:37:59+00:00"
@@ -2590,16 +2587,19 @@
     {
       "t": "Dana White’s Contender Series: Quentin Pasley vs Arlind Berisha Preview & Prediction",
       "ts": "2026-09-07T08:36:00+00:00"
+    },
+    {
+      "t": "Paddy Pimblett responds to rumored December Ilia Topuria fight",
+      "ts": "2026-09-07T03:34:49+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-07T09",
-    11
+    12
   ],
   "yt_eval": [
-    "CBMingFBVV95cUxNdmZybDJMdFdWWXd4ZzBzaGtzTGlRcmtuNUNTTFVYTzFHci1pV2JNWmpiaGRCam9hYldQRHJEYnVmVHMtblVpV1FUTEJjNVViU21qVkd0N0xManY1TDhYZE9wdnJYcUYwSU4wbjlmSFFIZVRubU92TDlHZl9ldFlfZjRpR1lXM1lCYmxmZzh2cDdvanlPTXhyek5NZnpsZw",
     "CBMihwFBVV95cUxObWdsTDFaMENnMGpid0M3ZDlDeDY4U200a2paWUptelhyZjZxMkxOcXdnNHhvTWtTYlR2bWwyd2QwRDRacU5sRldwYXdDME1SSlpaYlg0dTBFZVEyRG5hMWxfenByMUVKREpJOHZmNlhrRk1QTEdHMXhiWi1Bb0xpYWM0TDV5UGs",
     "CBMi0gFBVV95cUxNQ2hqeTZzRW1QMzg5cVZVMzhMYldOcmt4Y0NZNkJrbURUNHQ3REZFcERqYmRsX3NyMTd3LUxwbUF4ZWYwNlM2VWRqd3hHdmc0ZjU3VFVXOV8tNTJkTnl5SkxUT2hWX053SU1NbUpENndxNUQ5TDlGVWpQWVRpNEk1N1JUbEFVY2U0ZjZWaXJmUWRLcUplLTd1ZjMzbGRKWXdId00tS1k3cXNFbU9yc2cwdUtuZ1ptenBjTzFiV2QyWWxSaHRzSVJueElLTzBzMkZ6MkE",
     "2edcca5b-149e-3a1d-8e1e-f45e84ae579f",
@@ -4098,11 +4098,12 @@
     "CBMivAFBVV95cUxNTUxoWF9XVWp5ZTdOeFJjU0g3ajEyMzVZNXJDa2Z4Q005VzFsdFgzMlhJOVRyZVVjNFZZZEduSkxjX3JPd09KbmJyNFJVVXJlMlhIbEFyNHFNYW16SzBPR3dpRzFoWnNzN2VwUUF4QTI1YzItMExhRldoTndweXR3LU9wQnNTTXVDNFpuR2w1bVpCeEJJWC1Qa2VzTW5YUFFTbm9uQ0w3eFhZaG1sT1AyY2l2czRvNURXVDR3NA",
     "CBMiugFBVV95cUxNWDZxdU44RzFJRWNnS0ZfejlGcnF3NHN1UkJ6anU4cUlzeTFPcUNKQjNRWUZqcU4tcUNDME5PczUwRzEtUkNoTDNEQzlfOWlCclBWNExVMktoN01NSk9XdmtKLUh0TTVpR1ZBZlcwYzBEN2hTT24wYk5paWNxeVNuQjdBVzM2SGl1bldQcUNtdjcyNVZiNlBidDBFRkRQTGdmbkxJOG9sV296LWFIVjBnSTBmT0k4V0NJTEE",
     "CBMiuwFBVV95cUxNWkZuT1BDX29jT2xyc0tLWFNkSUsteFBES0Q0TEpVWHktUGJHSHR4UGNoZGZ0TzI3RUhOQ0Q3WG5tMFhRdFpydjY0TWxMSUpLUnFOVktXQk82YkRlQWkxcU1IcTNMY1BnS29jMGFmaGxQV0xXTnNqZXJ6Wkh2OHF4cV9wWUpncUplSURydGM0NEpvQjdoWHBrSmdQOGVISmNuLW5tZjlsTk5Dd2Y0b3BiOXRDeFVQQnZXMW9J",
-    "CBMitwFBVV95cUxPYWg1bEU5Y0U4SmY3cmZGOTlCRmtwOXo3cHZmTWpWTW94VmtvVlNxVUJsR3UxLVRPelcxNTRRWlo0U2xVMjF1NGU4cjlJcWtQdU9LWUtNYU90TVBoWXFLcC1VUWNSYmJscWlfbVJlXzNVUWY4VFRfV1ViWjJoMzBfTy1MQnR4VDI0bDh1S3ZZLW11NXVEUWFjWWhvZVFtNHN3cGRtUHV5R1p3Q0RaSGp3MEh6Mkd4RkE"
+    "CBMitwFBVV95cUxPYWg1bEU5Y0U4SmY3cmZGOTlCRmtwOXo3cHZmTWpWTW94VmtvVlNxVUJsR3UxLVRPelcxNTRRWlo0U2xVMjF1NGU4cjlJcWtQdU9LWUtNYU90TVBoWXFLcC1VUWNSYmJscWlfbVJlXzNVUWY4VFRfV1ViWjJoMzBfTy1MQnR4VDI0bDh1S3ZZLW11NXVEUWFjWWhvZVFtNHN3cGRtUHV5R1p3Q0RaSGp3MEh6Mkd4RkE",
+    "https://www.sherdog.com/news/news/Paddy-Pimblett-responds-to-rumored-December-Ilia-Topuria-fight-202688"
   ],
   "daily": {
     "d": "2026-09-07",
-    "ai": 30,
+    "ai": 31,
     "staged": 3,
     "prio": 1,
     "lost": 0
