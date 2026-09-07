@@ -2,10 +2,10 @@
   "v": 2,
   "cursor": 8,
   "staged_at": [
-    "2026-09-05T18:23:53.484411+00:00",
     "2026-09-06T12:55:44.126491+00:00",
     "2026-09-06T18:24:22.540638+00:00",
-    "2026-09-07T15:06:20.874542+00:00"
+    "2026-09-07T15:06:20.874542+00:00",
+    "2026-09-07T20:00:40.524624+00:00"
   ],
   "asked": [
     "Who is the most dangerous striker in the UFC right now?",
@@ -42,23 +42,24 @@
     "Who is the most impressive UFC Paris finisher this weekend?",
     "Gun to your head, one fighter wins a street fight for your life. Who?",
     "Who is the most delusional fighter in the UFC right now?",
-    "Who is the most likely to beat Islam Makhachev right now?"
+    "Who is the most likely to beat Islam Makhachev right now?",
+    "Who should Alex Pereira fight next?"
   ],
   "last_entry": {
-    "q": "Who is the most likely to beat Islam Makhachev right now?",
+    "q": "Who should Alex Pereira fight next?",
     "type": "poll",
     "options": [
       {
-        "label": "Ilia Topuria",
-        "emoji": "👑"
+        "label": "Ciryl Gane",
+        "emoji": "🥊"
       },
       {
-        "label": "Arman Tsarukyan",
-        "emoji": "🐻"
+        "label": "Tom Aspinall",
+        "emoji": "💪"
       },
       {
-        "label": "Shavkat Rakhmonov",
-        "emoji": "🐍"
+        "label": "Magomed Ankalaev",
+        "emoji": "🔥"
       },
       {
         "label": "Other (comment below)",
