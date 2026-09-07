@@ -2143,15 +2143,12 @@
     "dc51b37b3a356321": 1788795581.551829,
     "63886185d50e4a5f": 1788795581.8387973,
     "2be4a038f5d21dd2": 1788795605.504872,
-    "dab91e26726b501b": 1788795605.9983246
+    "dab91e26726b501b": 1788795605.9983246,
+    "0b4b564154b159d8": 1788795628.98542
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 332: Natalia Silva Vs. Cong Wang Does Not Deserve All The Hate",
-      "ts": "2026-09-06T13:00:12+00:00"
-    },
     {
       "t": "Michael Page wants to have 'honest conversation' after fighting out UFC contract",
       "ts": "2026-09-06T13:40:22+00:00"
@@ -2627,16 +2624,19 @@
     {
       "t": "Fares Ziam praises Axel Sola for respect after knockout loss at UFC Paris",
       "ts": "2026-09-07T13:40:16+00:00"
+    },
+    {
+      "t": "Leaked email suggests Michael ‘Venom’ Page has been released following his win at UFC Paris",
+      "ts": "2026-09-07T14:52:10+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-07T15",
-    7
+    8
   ],
   "yt_eval": [
-    "https://www.mmamania.com/467403/mania-mailbag-would-you-rather-be-din-thomas-or-dustin-poirier-right-now",
     "https://bloodyelbow.com/?p=329307",
     "https://www.mmafighting.com/?p=507317",
     "47c1191f-e2c2-3ca9-a259-411fa460457d",
@@ -4135,12 +4135,13 @@
     "20fc6459-a431-3fb0-bde5-64fd93838166",
     "https://www.mmafighting.com/?p=508377",
     "https://bloodyelbow.com/?p=330718",
-    "5cdb07b9-761b-3d30-a24c-6f7f0851fefe"
+    "5cdb07b9-761b-3d30-a24c-6f7f0851fefe",
+    "https://bloodyelbow.com/?p=330736"
   ],
   "daily": {
     "d": "2026-09-07",
-    "ai": 52,
-    "staged": 3,
+    "ai": 53,
+    "staged": 4,
     "prio": 1,
     "lost": 0
   },
@@ -4817,6 +4818,18 @@
         "yan",
         "set",
         "former"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-07T15:40:30.161247+00:00",
+      "t": "Leaked email suggests Michael ‘Venom’ Page has been released following his win at UFC Paris",
+      "names": [
+        "leaked",
+        "michael",
+        "venom",
+        "page",
+        "paris"
       ],
       "img": "photo"
     }
