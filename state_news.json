@@ -2184,15 +2184,12 @@
     "5073ba5b1bac5dc9": 1788810185.7103674,
     "243255b13445a650": 1788810209.314727,
     "f96537f201677317": 1788810233.6128287,
-    "d474096c70d3bdcf": 1788810256.740906
+    "d474096c70d3bdcf": 1788810256.740906,
+    "a00940f178b4b2a1": 1788810288.3333442
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Stripped? Valentina Shevchenko’s coach explains what happened to her women’s flyweight title",
-      "ts": "2026-09-06T19:36:43+00:00"
-    },
     {
       "t": "“BREAKING!” Conor McGregor Confirms Huge UFC Comeback Announcement 🚨 Día De La Madre (Nz21OhQGEM)",
       "ts": "2026-09-06T20:21:56+00:00"
@@ -2668,16 +2665,19 @@
     {
       "t": "Valentina Shevchenko’s coach reveals injury that forced Shevchenko to vacate flyweight title",
       "ts": "2026-09-07T16:48:35+00:00"
+    },
+    {
+      "t": "Alex Pereira seeking Ciryl Gane rematch for his next fight: ‘From what I’m seeing, it’s something that’s going to happen’",
+      "ts": "2026-09-07T17:47:57+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-07T19",
-    5
+    6
   ],
   "yt_eval": [
-    "616b61dd-7ead-35ef-afd1-d742213a27ba",
     "https://bloodyelbow.com/?p=329346",
     "https://bloodyelbow.com/?p=329343",
     "a6ad5539-8443-377e-a4ba-a24c5e30bdeb",
@@ -4176,12 +4176,13 @@
     "https://www.mmafighting.com/?p=509090",
     "https://bloodyelbow.com/?p=330731",
     "5198571e-da33-3177-8813-7403a752b201",
-    "https://www.mmafighting.com/?p=509041"
+    "https://www.mmafighting.com/?p=509041",
+    "https://www.mmafighting.com/?p=509132"
   ],
   "daily": {
     "d": "2026-09-07",
-    "ai": 80,
-    "staged": 5,
+    "ai": 81,
+    "staged": 6,
     "prio": 1,
     "lost": 0
   },
@@ -4878,6 +4879,15 @@
       "t": "Valentina Shevchenko’s coach reveals injury that forced Shevchenko to vacate flyweight title",
       "names": [
         "shevchenko"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-07T19:44:49.432689+00:00",
+      "t": "Alex Pereira seeking Ciryl Gane rematch for his next fight: ‘From what I’m seeing, it’s something that’s going to happen’",
+      "names": [
+        "pereira",
+        "gane"
       ],
       "img": "photo"
     }
