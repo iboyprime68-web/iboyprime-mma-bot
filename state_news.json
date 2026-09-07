@@ -2183,15 +2183,12 @@
     "7a96896ce54717ca": 1788810161.7570252,
     "5073ba5b1bac5dc9": 1788810185.7103674,
     "243255b13445a650": 1788810209.314727,
-    "f96537f201677317": 1788810233.6128287
+    "f96537f201677317": 1788810233.6128287,
+    "d474096c70d3bdcf": 1788810256.740906
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Open Thread, September 6, 2026: Sunday check in",
-      "ts": "2026-09-06T12:32:25+00:00"
-    },
     {
       "t": "Stripped? Valentina Shevchenko’s coach explains what happened to her women’s flyweight title",
       "ts": "2026-09-06T19:36:43+00:00"
@@ -2667,16 +2664,19 @@
     {
       "t": "Daniel Cormier on Parnasse: I don't think we've seen a more impressive UFC debut",
       "ts": "2026-09-07T16:10:28+00:00"
+    },
+    {
+      "t": "Valentina Shevchenko’s coach reveals injury that forced Shevchenko to vacate flyweight title",
+      "ts": "2026-09-07T16:48:35+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-07T19",
-    4
+    5
   ],
   "yt_eval": [
-    "1c500688-2625-3fa1-b17e-faca3822492a",
     "616b61dd-7ead-35ef-afd1-d742213a27ba",
     "https://bloodyelbow.com/?p=329346",
     "https://bloodyelbow.com/?p=329343",
@@ -4175,12 +4175,13 @@
     "https://www.mmamania.com/?p=470227",
     "https://www.mmafighting.com/?p=509090",
     "https://bloodyelbow.com/?p=330731",
-    "5198571e-da33-3177-8813-7403a752b201"
+    "5198571e-da33-3177-8813-7403a752b201",
+    "https://www.mmafighting.com/?p=509041"
   ],
   "daily": {
     "d": "2026-09-07",
-    "ai": 79,
-    "staged": 4,
+    "ai": 80,
+    "staged": 5,
     "prio": 1,
     "lost": 0
   },
@@ -4871,6 +4872,14 @@
         "paris"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-07T19:44:17.780981+00:00",
+      "t": "Valentina Shevchenko’s coach reveals injury that forced Shevchenko to vacate flyweight title",
+      "names": [
+        "shevchenko"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -4886,16 +4895,15 @@
     "d865aed2f0827a2b": 1788673508.6909556,
     "714ca0ab32f8970a": 1788691336.179349,
     "334a62a400960b38": 1788703352.8240044,
-    "b48307ebd962f299": 1788752799.1748478
+    "b48307ebd962f299": 1788752799.1748478,
+    "d474096c70d3bdcf": 1788810257.7832947
   },
   "pinged_titles": [
     [
-      "Conor McGregor calls for his own Croke Park night after Katie Taylor retires in front of 83,000",
-      1788752799.1748478,
+      "Valentina Shevchenko’s coach reveals injury that forced Shevchenko to vacate flyweight title",
+      1788810257.7832947,
       [
-        "conor",
-        "park",
-        "taylor"
+        "shevchenko"
       ]
     ]
   ]
