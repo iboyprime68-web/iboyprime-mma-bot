@@ -2320,15 +2320,12 @@
     "e87e19109d0734d8": 1788893261.5784645,
     "f72fb948cb1f8c19": 1788893262.0329664,
     "52f867d7ef1359b7": 1788893326.99044,
-    "c564d00f42218cf9": 1788893350.6173346
+    "c564d00f42218cf9": 1788893350.6173346,
+    "a3955175d026e417": 1788893395.1800802
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Michael ‘Venom’ Page oblique kick sends Nursulton Ruziboev to hospital after UFC Paris",
-      "ts": "2026-09-07T11:51:27+00:00"
-    },
     {
       "t": "Michael \"Venom\" Page removed from UFC rankings",
       "ts": "2026-09-07T14:39:42+00:00"
@@ -2804,16 +2801,19 @@
     {
       "t": "Valentina Shevchenko’s coach reveals injury behind ‘long’ UFC hiatus",
       "ts": "2026-09-08T05:35:49+00:00"
+    },
+    {
+      "t": "Jon Anik drops major Justin Gaethje vs Ilia Topuria 2 hint as Conor McGregor enters UFC title picture",
+      "ts": "2026-09-08T17:50:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-08T18",
-    30
+    31
   ],
   "yt_eval": [
-    "CBMihwFBVV95cUxPQ0stMzZWb25wY0Q4VnlMYTFFOVc3U2ZVQU9oNzNPbTFCNVZfb2RhNmw0dnJmTk9pSnN6T19zNWhoQ25rWGF3R1NjU0Z1MWVnU3FvQTd0dXd4ckdaV3hEaWFVZjUzTWQ3Q0tfbGl1MWhJUTVESXJmRThlSUhDUGFyeU5femd4bVk",
     "CBMingFBVV95cUxQanc2cHRCWTYtbmdOLU1lV2c5X1huOXpRWE4xSkZ6ZHE5Q3R5aURubjM5MmFDTkhjV3hzMms1cEQ4cHNyXzdUbzN5SGJvNGlYSEZ3S1dVRUd3R0VXcmNRV1doeUZKZTNNR3RqOEplcHhIM0hNLWdaNmJXc2JDSzlYQ3lpWUhiSFUzMkdUbE1mT25iTmNvaHlaSzRHQ0ROUQ",
     "CBMijAFBVV95cUxQTW4wazZuaVlWek53Sm56SjNfUEdud0lxRU1sOVFZVVJWeGIxRmpseW8zbGZ6bDBxXzA4N3h3cmswRmxQYUNvQlZKMUo5dVAxd2VPWlpqNHlWcGE2ZkNITDRWUFV3Vlhvd3dOVnpNQ3pHY2hNMTlUTWY5UzU0SDJsMWpFNXFFTW1sS2xOWA",
     "CBMigAFBVV95cUxQYU1KcXVtcU83YmFNNHVvaHB3RTlXWDBHcmdPNVhkTTFtdnZBSHlwc3lXR2tGMWd4UlllQWFyRHlnTzhTWl94OHBIRmk2aFJuWDltRGxXVFh5OUZsOHdZUkd6RGtZaFZVVXY5bzY1LVRkTVhwQU5tbUJUWFZab21oZQ",
@@ -4312,12 +4312,13 @@
     "f90c0ba6-495d-365e-a6a0-0a54ff429290",
     "CBMif0FVX3lxTE53bmpqMXczN05TNFk5aWZTR0RrY2lMaWxvSGtWUW16bFZyT01QUnhMTWdVZXNvZFRtV1hCTGQwaU9KNTd3bjhzRDA4QlZVdmpZcTRWVzhJdXhTNE1zM3RYOVdjR2FzaGNUdUlFZE9TdGFaN3QwUXJQd3ZtTGlJOTA",
     "CBMixwFBVV95cUxNVHBzWEljMkh1cExQRW9fMFRyajZqclZGY1ZhOHEzVGRCVEVtNXRMNlVlOTFxUlhDY1RlaHhvcUNTNWt0TkVaaWhYUENRS2Q4d2VwZWJ3Qm44OHZFMTNWUDl0M1A2VVFwNXhCYUJzcGMzbklhOGpWWi1mVnY0c2w4M2RTdTgxbEMxNUJoWmtFMmZVVnRnaXJYRVlhUFg4NzJQdU9wMzc2bG5Fd2pXSjR4QlRvOGZjUDVkSXZFY3lqRVZBVnNVdUxZ",
-    "https://www.sherdog.com/news/news/Valentina-Shevchenkos-coach-reveals-injury-behind-long-UFC-hiatus-202708"
+    "https://www.sherdog.com/news/news/Valentina-Shevchenkos-coach-reveals-injury-behind-long-UFC-hiatus-202708",
+    "CBMimwJBVV95cUxNenBzM1NjY1ZFeVB5WDU1b1NQQ1JMOUx2bFRPVmdrelRnSFlCeXRBWm5LRko3V3o3a0FRQjkybC1oQjV1NHh2ZmFMdDJReTZ4WWl6UXFfaEtkQmswT1JFbkNxalVIMFI1eEU0UmtieVdOS19KZkhWRTZ2OFZIRzBvZWNwM200MF93WmdTYldYaUxFdThTcVJXS1FhYXNKaEliakJPV24wbC1RZDRuQVd5eHRsOUlGby1La3Exc0Y1Z29qRWVtX0VvcERWQzRHY1NVaWJSWF9jVXNEdUt6aDJrekxBRGVmd0pzbm4teU1sMmhvejAyLU9hcnNnQTUtTFdIZ1ZlQ0tWRE4xUENBUWtDcE9IR3ItVGFKVkRr0gGgAkFVX3lxTE1nZEl4UmpoY3dLOWlKRldGczBTVXFnRU9ZVGxLX2k1eU5NV2NGb1NnRVZad3BLdjBlMEhHZmZBWU5sZklNQVRsdEZPTFBnUEZ6WmFsaVo0YkZZWUFBd2hDWGVOYkZzRllPRllHQUtjXzBKOHBUZVU0OGE3YUpHTThHNlRTRDREZmpOaWhIVVRZWEVPNjduZnRZYjJCZ1FNZUVvOFZ1NllZaTM4NVFwYmhPTXJVNEhYSTV3dFF0MkpDTDVwbnlTeUZ1a3ZlcXRKME1iTmNFVTkxaTJSdHhCanpkaDBhTldvcTh1bDBCZGhHU2xpemxuVVppeEVEbWVody04MG13b0Nub0Fzb3pycFl6aENQOWFXbWxDd3paaFVTYg"
   ],
   "daily": {
     "d": "2026-09-08",
-    "ai": 60,
-    "staged": 2,
+    "ai": 61,
+    "staged": 3,
     "prio": 0,
     "lost": 0
   },
@@ -5043,6 +5044,17 @@
         "retired",
         "sanchez",
         "mexico"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-08T18:49:56.562132+00:00",
+      "t": "Jon Anik drops major Justin Gaethje vs Ilia Topuria 2 hint as Conor McGregor enters UFC title picture",
+      "names": [
+        "anik",
+        "gaethje",
+        "topuria",
+        "conor"
       ],
       "img": "photo"
     }
