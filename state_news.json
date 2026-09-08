@@ -2334,15 +2334,12 @@
     "03a800b58062a9c9": 1788893792.3439507,
     "084ad724e15b186d": 1788893792.3458948,
     "ff125e695490a152": 1788893793.3273647,
-    "6120f4a4e9339239": 1788893858.4074771
+    "6120f4a4e9339239": 1788893858.4074771,
+    "71838b1c8d211a88": 1788893930.107405
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "“Give me a tougher opponent!”: Michael Page after the fight with Nursulton Ruziboev",
-      "ts": "2026-09-07T15:17:00+00:00"
-    },
     {
       "t": "Former UFC Fighter Marlon Moraes Captured on Video Restraining Man During Traffic Stop",
       "ts": "2026-09-07T15:19:11+00:00"
@@ -2818,16 +2815,19 @@
     {
       "t": "UFC Star Diego Sanchez Arrested",
       "ts": "2026-09-08T18:05:04+00:00"
+    },
+    {
+      "t": "Khaos Williams acknowledges Roberto Soldic's danger ahead of UFC 332",
+      "ts": "2026-09-08T18:08:01+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-08T18",
-    38
+    39
   ],
   "yt_eval": [
-    "CBMi3wFBVV95cUxPcmdRdExJMjJBMldnd19xT0hDdjcwdk5reVJpQWhOX3BSN1Zhb3pTWWR4ZGJnVlAwQl94OWFaVTVNd01SWllIZGt6X0hLcEZnXzVSa3NFd2k4bUNPMmtHT1h3T3psd0VVUEdyZW8tYm9zZWs5TmhiMlVNVEJTVWh6bGxuVkt2dU13S1pQZVRkUV9IeUFVOTRHR21wdVpieV9rYk9Xd1FnZXJpOTFtclF0S0tVZi1adHhKSmxnZ0R1ZjhQMTFtSURrTktCbXVSSzVidDA2T2xrWlhfT3ppeUIw",
     "CBMiqwFBVV95cUxQV2VmeE8xOTc4bW9RRk1wQnNrQk04WjhUZHZHUXdMM0R6ZUNTcERraWt1YlJDOGI2RWZjcmJEOENiUnFIanpIUEIwb2RxMUhTVFlpVXBZcnk0NkFsaHhPcFMzd0NrV2ZiREJObXo3MkZYRE9Pd2xqckYxOVFiNE1TZ3Z5QUx5SXJwZzFZSXBTQk9TTzdEd0xJa3Flb194T1k3bGtvZjI0QlpMMVU",
     "CBMiwwFBVV95cUxPeW1kUDRwLXlHU0Y0UXVmQXNaazQ4YXNIUEtONGV6RV9YVUNfZ1hfa2h5ZGZjaW1zbUw0N3VqMnVydkFsN3JPNkNTZE1yaXBDNUJYNk1WY3NaRkFoeTRMMUlWVXZzNTBWOThtRVZ5ejgyaTJkSXh1Um52ZVJWTzFhVFlUekhrNlVua2JTMk9hUGtvSWVweWpzVDVXcmdVLVotRU0yM0hsZzR3TDlQc3I0b0lPQkJ5eWo3QWNxbnAzZm4zbzA",
     "CBMiywFBVV95cUxQaGUzbk5yOHFSNnh0WnozNHdJQU9VbkVUdWk3Zkd0djFyXzdkSi1FbXFyb1pCajRZMzVrSi1jWmpiVUlFeTN5Vk53TF9tdC1hTDhKLWlRak5kQUdrTjE4cmVXMWI0ZzJkQTBmd2VBTVVOUXpsSnJ1RFRoNXRUak1HY0x2M09Qemd6MWV4RjF0R016aG1oZVhPc3h1bjd0TW9COWVNTFZhTlRXcHBiYk9NQ3puc19LYVkyX3RqaS1nMWs5Q25BT3Z1ZGlxcw",
@@ -4326,11 +4326,12 @@
     "https://www.sherdog.com/news/news/Ian-Garry-names-only-opponent-that-makes-sense-for-him-and-its-not-Islam-Makhachev-202710",
     "CBMiywFBVV95cUxPNTFpQ3BkQjVkQnpiTVhQUmhMRE5vWnBsdFo2OFhPZVMtcjl3c0RXWUtvS056alVTYVN3Y19qWFN3M1AxZF9EZTBUTnV0QTdEa05IVGsydUgtYlItYWdjSks2eWRtN3pEdjNJRGZuUlRhbDc5dHRFcWEyVzF5Ukc1TldvTEhGa0dNWWhkaks5QVJraXl4SGE5MlFrUy1CT0FWejBFbm96RkhVRFljbV9OZVIyQTcxM1lfM0lrbTM5RHRCVzNVYk5HdzExVQ",
     "CBMidEFVX3lxTE00TGRFYzhqTl9YMmtLNFNQM1FCUmt4bktwQ0xreVRVdWxDNUY3ZmJJS2FlLVlhSUhud0JRR0lWVFRtb0t3N2RFeF9zX3RzblVRZTZJNDcyejBSN1J2TEpwR2xvOUFxbDZoOUtKUVVzUUwzaG4x",
-    "CBMikwFBVV95cUxOWks3T0pOOEd4ODBEckRKUENVMElHRW9oMTlsUnJONnZMNWMyYnJqV3ZlbWM0WVQ2bUctYU5jbGRsbEVTYXM5MUVwMUoxUkQ2Qy13a0d0dWpSZmlnekpmdkJ0ZUNwUzBFd01tSDNfMTd2LXVZOV9PYjNoTkh3V3dsWEJjcTl6V2RMZy1jdTNyalU2TnM"
+    "CBMikwFBVV95cUxOWks3T0pOOEd4ODBEckRKUENVMElHRW9oMTlsUnJONnZMNWMyYnJqV3ZlbWM0WVQ2bUctYU5jbGRsbEVTYXM5MUVwMUoxUkQ2Qy13a0d0dWpSZmlnekpmdkJ0ZUNwUzBFd01tSDNfMTd2LXVZOV9PYjNoTkh3V3dsWEJjcTl6V2RMZy1jdTNyalU2TnM",
+    "CBMimgFBVV95cUxNSGVFcUF6VlF3TF85ZWFibXE2OTdKWWFTTlUyc1VZZkdYSGJka0pIZWlYN05uU29Ea09yaVpXcnJaeVZOeGVDUk51a3R1NTBRWHlEZ0ZwakJWeXZjYzA3ZGM3RHMtUjNPa3Uyb3hZRjRCRTZZOUlXbWxhNk5IcFEwdTVvOUhwSmVmcGp0cjhjUnhhZTNyX192bmlR"
   ],
   "daily": {
     "d": "2026-09-08",
-    "ai": 68,
+    "ai": 69,
     "staged": 5,
     "prio": 0,
     "lost": 0
