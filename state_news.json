@@ -2277,15 +2277,12 @@
     "6599e3706e73b955": 1788865032.2441282,
     "91fa0c84f1fb1912": 1788865098.0953178,
     "14731278561a01bc": 1788865164.2437065,
-    "cdd3be3df973046d": 1788865210.4222171
+    "cdd3be3df973046d": 1788865210.4222171,
+    "c55a54fd856b60a4": 1788865236.5550482
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Michael Page says he’s ‘holding back’ after UFC Paris decision win",
-      "ts": "2026-09-07T03:47:12+00:00"
-    },
     {
       "t": "Salahdine Parnasse calls out Max Holloway following showstopping UFC debut",
       "ts": "2026-09-07T04:20:01+00:00"
@@ -2761,16 +2758,19 @@
     {
       "t": "Fares Ziam reacts to shocking UFC Paris knockout loss: ‘We’ll come back stronger’",
       "ts": "2026-09-08T02:10:24+00:00"
+    },
+    {
+      "t": "UFC legend Diego Sanchez arrested in New Mexico",
+      "ts": "2026-09-08T05:54:23+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-08T11",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMilgFBVV95cUxOdUhxb3JVRGx1aHVPbzBwWGltSkJKOTVyZzdHekFrM0V4MHdvYjhYeGFfRFBZVXpOWnd4dVctYTRYVDZjYkVMSWR3RHExb3k2VV9makExeDBKS2U5dG43MVZoRG5qdE9sSkxSemt5Qm1FVWIyT1RxcF8xUnBkX2hPUENmaTdYUFFRQ3E1eDZZUFktMTNTSGc",
     "CBMiiwFBVV95cUxPWldfSlREb09xS3NnXzJsT2JmRTFjSXpRa0lVdVMxeG80Ty1ZblZxR3VMVndTZVVyVW12NnA3aGNiQ0JhVmVJaVlKNWZqNXdYbXYxcE1NRU5mRDdidVUxZk5xZDhWTDVZYmh3eWRWb2JqWDlwMTZtRUpWY043T2pETmJGSlg1aVhfRDNJ",
     "https://bloodyelbow.com/?p=329363",
     "CBMiXkFVX3lxTFBMYnRsSVJvTkpQM2R3Yk94Vmo3Ri1FSWpuTVBtYWVST1hkX3ZWc1U4ZTEyQ3dMNnl2bU1WOW5STW0zczNFbE5ZcF9Kb2dtWU9fRXpoa1FJNmFtQ0dIOUE",
@@ -4269,12 +4269,13 @@
     "14857b54-10f4-3eca-972b-4ca272ed61bd",
     "2eccdd6c-574b-31a9-9764-885930dcf24f",
     "99bd03be-2f22-3784-bfb5-f8c256f6afd7",
-    "https://www.mmamania.com/470330/mm-clone"
+    "https://www.mmamania.com/470330/mm-clone",
+    "c5ef9c67-5a25-3471-93c0-509935f94594"
   ],
   "daily": {
     "d": "2026-09-08",
-    "ai": 24,
-    "staged": 0,
+    "ai": 25,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
@@ -4982,6 +4983,16 @@
         "gane"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-08T11:00:37.952314+00:00",
+      "t": "UFC legend Diego Sanchez arrested in New Mexico",
+      "names": [
+        "sanchez",
+        "new",
+        "mexico"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -4999,23 +5010,16 @@
     "334a62a400960b38": 1788703352.8240044,
     "b48307ebd962f299": 1788752799.1748478,
     "d474096c70d3bdcf": 1788810257.7832947,
-    "d9e623b336b29f9d": 1788821054.1587582
+    "d9e623b336b29f9d": 1788821054.1587582,
+    "c55a54fd856b60a4": 1788865236.2175922
   },
   "pinged_titles": [
     [
-      "Valentina Shevchenko’s coach reveals injury that forced Shevchenko to vacate flyweight title",
-      1788810257.7832947,
+      "UFC legend Diego Sanchez arrested in New Mexico",
+      1788865236.2175922,
       [
-        "shevchenko"
-      ]
-    ],
-    [
-      "BREAKING: Michael ‘Venom’ Page removed from UFC after latest lackluster win",
-      1788821054.1587582,
-      [
-        "michael",
-        "page",
-        "venom"
+        "mexico",
+        "sanchez"
       ]
     ]
   ]
