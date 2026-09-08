@@ -2292,15 +2292,12 @@
     "5d3c460773b8d484": 1788892213.5539901,
     "736c69fe3c9754bd": 1788892238.5635693,
     "6ddd1085a1d67cc6": 1788892262.5144818,
-    "194d7a6c244af7e5": 1788892289.7127352
+    "194d7a6c244af7e5": 1788892289.7127352,
+    "7208998b68744b35": 1788892313.230292
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Malykhin: Loss to Yadong Will Make Nurmagomedov More Hungry",
-      "ts": "2026-09-07T08:53:57+00:00"
-    },
     {
       "t": "Islam Makhachev accepts Jordan Burroughs' callout with one condition",
       "ts": "2026-09-07T03:58:38+00:00"
@@ -2776,16 +2773,19 @@
     {
       "t": "Ian Machado Garry calls Michael Morales ‘only fight that makes sense right now’",
       "ts": "2026-09-08T16:10:07+00:00"
+    },
+    {
+      "t": "Retired UFC fighter Diego Sanchez arrested for drunk driving",
+      "ts": "2026-09-08T16:17:09+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-08T18",
-    8
+    9
   ],
   "yt_eval": [
-    "CBMiUEFVX3lxTE9jaXdRd3Y1TjRsOGFVb09NSC1Vek5YUmQ5VDI4OVZmOVEwSm52dEwwZnhZVjN2dkJweW1KVVRTaXhqWUIxTTdxRXBWeEV3VTRp",
     "cf2e67ff-f522-323f-b271-e5b97137b269",
     "https://www.sherdog.com/news/news/UFC-Shanghai-Nurmagomedov-vs-Song-playbyplay-results-round-scoring-202569",
     "CBMi4gFBVV95cUxQVm5FTVE0eEZLWV9YdDV2RTMwZm1iX0hkVFRJc1ZMQUVjOUdfWHJobGdCUUtnSXRhZVhzQkxnR01nalZjbjhFcGd2N29BX3l2MFFtNm0wQlN1elNkSzNWV0N5eGFIVmRaQU1pUjNIR2YyNnotR19WdHh4cGs2RVo4eEdKZ1VURzFVX0hLZTBQQ2RLUndyMzBjbm5zdDA3M3Y5MndMc3NGTFltS3NYc0FGMUlGNWoxQUpxblZtRVNpejl0c1FOeDcxMUNHdWE2bnUxMi1aay12aDVZaWRWcFNBUk5B",
@@ -4284,12 +4284,13 @@
     "https://bloodyelbow.com/?p=330767",
     "https://www.mmafighting.com/?p=509209",
     "cd8a3a2a-a557-343a-a56f-50f4974385cf",
-    "https://www.mmafighting.com/?p=509203"
+    "https://www.mmafighting.com/?p=509203",
+    "https://www.mmafighting.com/?p=509229"
   ],
   "daily": {
     "d": "2026-09-08",
-    "ai": 38,
-    "staged": 1,
+    "ai": 39,
+    "staged": 2,
     "prio": 0,
     "lost": 0
   },
@@ -5007,6 +5008,16 @@
         "mexico"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-08T18:31:54.057226+00:00",
+      "t": "Retired UFC fighter Diego Sanchez arrested for drunk driving",
+      "names": [
+        "retired",
+        "sanchez",
+        "mexico"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -5025,14 +5036,15 @@
     "b48307ebd962f299": 1788752799.1748478,
     "d474096c70d3bdcf": 1788810257.7832947,
     "d9e623b336b29f9d": 1788821054.1587582,
-    "c55a54fd856b60a4": 1788865236.2175922
+    "c55a54fd856b60a4": 1788865236.2175922,
+    "7208998b68744b35": 1788892312.6087925
   },
   "pinged_titles": [
     [
-      "UFC legend Diego Sanchez arrested in New Mexico",
-      1788865236.2175922,
+      "Retired UFC fighter Diego Sanchez arrested for drunk driving",
+      1788892312.6087925,
       [
-        "mexico",
+        "retired",
         "sanchez"
       ]
     ]
