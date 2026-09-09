@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0d98d6ae627ce54a": 1788987459.08803,
     "be1d3cd85d6fd80f": 1788987394.4666042,
     "5c1ec2f8d1e4b926": 1788987394.0798523,
     "2005ec6e935cc8d1": 1788987329.447711,
@@ -2498,16 +2499,11 @@
     "c275b4ad44089134": 0.0,
     "88bcbf37dd680856": 0.0,
     "19d3b438f8e4ef6c": 0.0,
-    "7c378ebadef03c2f": 0.0,
-    "709a646969df80c7": 0.0
+    "7c378ebadef03c2f": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Fight news: Two exciting prospects on tap for UFC Vegas 124 on Nov. 7",
-      "ts": "2026-09-08T20:44:14+00:00"
-    },
     {
       "t": "APAC North ENC Qualifiers Finals! - Watch Party Ufc 6 (bFjIkof2z7)",
       "ts": "2026-09-08T20:48:22+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "DWCS star Anthony Wint set for second fight in 43 days at UFC 332",
       "ts": "2026-09-09T20:27:16+00:00"
+    },
+    {
+      "t": "Jon Anik drops major update on UFC lightweight championship",
+      "ts": "2026-09-09T20:27:25+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-09T20",
-    18
+    19
   ],
   "yt_eval": [
-    "CBMi2wFBVV95cUxPejVqaWxUZVJNa0JpZXUyRUdFOHZoY3E4dGJPaWFHY3FXVUhBMXhLMHlBbDhEMTBvVkR3SnRvbWhBd01JTXVSSW9KTUgwZzI1ZlJRVWYtZFlxWjRwNHc2WEtVc0VQMlNlVWdZZWIyVkFzQ3NFS1NnVnYtSUo0RjBSUnlEelhtRlNwT1hxaFlZdUNQbjBKZ3hnS1JuSk9pRmNLZUgyRUFDN3U4TF85QXRuRkFmaG1nbjRUU25Ib1YxbGpjZmhhNTd1ekZDTFRyRG9XWjFJbUZ3QkZ0bmM",
     "CBMi0wFBVV95cUxOTUViU2RXVmtOUmlVLWZWakVuYkJncmY4TWNRSkhNRkhaNVppRWhJWXYtbklNWGR4V3FOVXVNemN0ZDNvdHZZY05wa1lwOW5memV3ZlcxMkpNYmRNdi1Fb0czV0cweGpCTk5pbndlejRRZjRhWHlvb3JyUnUyS29mdXpEVFhUNVVKREFNNVVrTzM5YllhUF9SaDYzelhPTV9rVmNuNmh5aHpwc2dDUVIxbHBROXExc3JpZzZQMzhNYWs0Y3BlU3RMcjhqSlJ2Vkcyc3Qw",
     "CBMixgFBVV95cUxQNUhmUm92TWJDMTNTd1NBYlNXdjVHTHJRcjZ1VUVlejRDYkRrdHRMWmI2TkdFVUhSaTVmd3RQeE9KTVkyY040MzZtOEZOYlN6WEVsUGlKVmdQZmNoVExvN1I0UC1VdkZGa2l6OHRCYjQwekF1ZGprNzFSUjJrdTlnb1JKM1dJQTJqSk5JTkc4QWNFVkV5V2FlNDJMSnVOLU1nSnM2RTYxaEZuMW1ucHBIaGF4RG55LThNX0tBaEV6clFUb1dFWnc",
     "CBMiwwFBVV95cUxNRXc3UVFXWGdCUlhJb1dvMmZBb1lfR1B2ZjZPQURGcUFrSWxGOUw3T3FvM1NPQzNzRnNLd3dXbnBPRDVhYmdwUlNJeVA4OGZLanVKMXN6aklrRDNHRC1tdnUyb05EVUVoZ3o5cm4yVzdxSWtIYjFTbkpJR1BxVTN6bDljaTRsNVA2X2RGaUxjTDVzdVhxUDJZZTNRSGpMbjBMYklBNWNuZVpvVVhYMXVQSGN0WW0zV2xKZENOVHZSSDlqQkE",
@@ -4491,11 +4490,12 @@
     "https://www.sherdog.com/news/news/BKFC-boss-says-promotion-can-force-excitement-out-of-Michael-Page-202728",
     "CBMinwFBVV95cUxPYXR6YjJvWGVrM0E4azI2YW0wWGdvSlFkWlJwZWNaWk5oMDVrUmh0MU9FX0FFWHBobGY4SmlNQnFzd01OX0gxYUVFd2RsV3FJaGZNN3o1aWN3VlR3dmlBNElxV1c2b0E0U01sbWk4Mko4elhmQUJDdnlLQWEwY3oybUFwbjUwUnFDUC1ObkRhbVFkZTFpZkhaM1dlNDZPZ1U",
     "CBMiyAFBVV95cUxNT29GbXJFNENISDRDLWh1NGJMSXRsQlYxSm1zTUw1ZlZTeEdGSVZVamFWRHpRRmRzT0pzRjNNLVJydld0eVhKQnRWTmxqTVFlT2YyZnFRcmJPQWpvRTYyTXJQWUswVEVMeUpBd3JkZTBMYUVMdk84Um1lckozdC1VQ1BiWmlWYW16WE00eERiU2s5RlFNVG1hZk90QXZjX1RlZXZuajh4OHF2R0ZJbUVsbG96MHY0c0lTdHRnSF9zc21Fb3VjRjRjWQ",
-    "CBMikAFBVV95cUxQdHo4MHhOX21pb0hQQkVoZGdQblctbGZLay1XXzJoUjZtYmhoTlRraGRuY2xMdng5V0lzYmZzUHA2Zi0tRUVoeXNUdDhwNkNzNTBDdHFOY1d5bl9zMXRVOEhiOXhxX1B6b19TZ1dfWXpMaDRxWEF1WHdTY2J3bDFKV2ZSOF9NVHlRUm11N0loUlo"
+    "CBMikAFBVV95cUxQdHo4MHhOX21pb0hQQkVoZGdQblctbGZLay1XXzJoUjZtYmhoTlRraGRuY2xMdng5V0lzYmZzUHA2Zi0tRUVoeXNUdDhwNkNzNTBDdHFOY1d5bl9zMXRVOEhiOXhxX1B6b19TZ1dfWXpMaDRxWEF1WHdTY2J3bDFKV2ZSOF9NVHlRUm11N0loUlo",
+    "CBMifkFVX3lxTFBkUEF2cmVqaUN0YlFaa1l3VDlkOU12OUIyY0V4TllwaHkwb1Rpa1owdjVXR3VLemx0VHNmYXVxSHNCcFFxSERrcEQ0T1c2V0tlS3hMXzdNTlRJY0NWdU9FOWk1OENkLUN5QkliMFFoWVhjQjhPVWR2REp1UFZkQQ"
   ],
   "daily": {
     "d": "2026-09-09",
-    "ai": 101,
+    "ai": 102,
     "staged": 4,
     "prio": 0,
     "lost": 0
