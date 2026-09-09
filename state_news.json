@@ -2432,15 +2432,12 @@
     "8883ccdb6344451f": 1788961439.7451391,
     "346cc584d21943e5": 1788961504.728941,
     "112e302d4cb1df2d": 1788961504.9796362,
-    "d185db8b2dd575db": 1788961570.2777631
+    "d185db8b2dd575db": 1788961570.2777631,
+    "3cea80720175ffce": 1788961635.9184864
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "When Is The Next UFC? Date, Start Times, Full Schedule",
-      "ts": "2026-09-08T04:26:27+00:00"
-    },
     {
       "t": "Michael Page Shares Cryptic Social Post Following UFC Paris",
       "ts": "2026-09-08T05:25:26+00:00"
@@ -2916,16 +2913,19 @@
     {
       "t": "Dana White Provides Latest Health Update on Tom Aspinall",
       "ts": "2026-09-09T05:16:51+00:00"
+    },
+    {
+      "t": "RAF 13 full card confirmed with Covington-Muhammad, Chimaev-Burns",
+      "ts": "2026-09-09T06:30:53+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-09T13",
-    17
+    18
   ],
   "yt_eval": [
-    "CBMi3gFBVV95cUxOelJkZDJPbnk5ZkxFOFlQVEJoVWdZSlhzNGRjaWQxZDktUkRBd3hZTERjaVVRajdHNVBOYjgwOFFKNnNXVnlhNzFqWUpTTkVDRnFDM01ZbXJCT3lCY1VPT2ZHQWZCLWIwRldyUGFwZGh0X3VqSHI5T3Bja0p5WUJiN3BJWHpQNkE1WVBKS3RzUkJNV3VmNk9XeGNtSE9CSzk5Q2I1dEtqSzl6V2RORlZuajZWaE1WY2dSQndfVi1MMVhxNWJPaHQ3dEUtUjVDcTU3WGVoa01LdDNXaE9BYXc",
     "CBMipgFBVV95cUxPTDFIVzFURGNsREM0Nkk4R3FwNHVtejR0ai1OWDI3bkxUVG13U0VfMzM3T0dERkJ2THI4bEZEVXZGcU5ZYklnV2NabUhpTnNzUjZmVmNNQ2xVNWtrVF9mNG1ScHd0WGZhdXpDUWkzdnhoS2JSZlpoYlRZbmxTWGFKeHFzUU1oWG1lOEF3NzJWSUE2MmNRY01pTEFZNWN2MlBHSGdEbHZn",
     "CBMiR0FVX3lxTFBDZjZuRFMzZ29JTDhha1hjRUYyU0hOcHV4WE1VbXAzZWw4X0cxRk9obTBTY0JUMS1ra1ZSZ0NITV9IX1dlM09j",
     "CBMipgFBVV95cUxNSjF5M0Rvc0ZHWTZvNWRyTHpDSHh2cTdHcTdXd09hS3J0X2tIZ0lrd1p0MFM3X0JCSVBCVVB6TVQ3M0c0UER6MmRqWnpGb2VTR0xucTE3d1lHcVJJTkh6ZVkwanhrREZUcGx0NUE5M1dWNjN0REhVaUNrYWdLOHJzM2hsUkpGR0NIMUF5RVNhU2F6dE9qVXFyVmxZbjFseS1CU1ZuRHZ3",
@@ -4424,11 +4424,12 @@
     "10483281-db09-36af-b461-eba7c3f61810",
     "96307620-5506-31d4-a999-1882af97299b",
     "https://www.sherdog.com/news/news/PFL-tournament-winner-Oleg-Popov-draws-unbeaten-finisher-in-Dubai-202715",
-    "48e53c4d-bd98-36b7-acba-7869ac3c5137"
+    "48e53c4d-bd98-36b7-acba-7869ac3c5137",
+    "5e98bc40-03bb-3e5c-8e47-fae6a62a466b"
   ],
   "daily": {
     "d": "2026-09-09",
-    "ai": 42,
+    "ai": 43,
     "staged": 1,
     "prio": 0,
     "lost": 0
