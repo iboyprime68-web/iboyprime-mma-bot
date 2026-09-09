@@ -2418,15 +2418,12 @@
     "593c5876ed3c8cd5": 1788960940.5936024,
     "b315c64a96f47a7d": 1788960965.2920103,
     "957e85066727ad7e": 1788960988.806919,
-    "edaa80d0749cf046": 1788961012.9460545
+    "edaa80d0749cf046": 1788961012.9460545,
+    "91cacfc1edd03c7c": 1788961037.902804
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "MMA Junkie Radio #3701: UFC Paris recap, guests Adam Darby, Marcus McGhee",
-      "ts": "2026-09-08T00:30:16+00:00"
-    },
     {
       "t": "UFC contender Youssef Zalal leaves longtime gym, eyes move to Trevor Wittman",
       "ts": "2026-09-07T23:46:39+00:00"
@@ -2902,16 +2899,19 @@
     {
       "t": "A decade later, Shinya Aoki returns to RIZIN looking for full closure",
       "ts": "2026-09-09T12:23:43+00:00"
+    },
+    {
+      "t": "Dana White indicates UFC done with Michael Page: 'It's pretty obvious'",
+      "ts": "2026-09-09T02:10:17+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-09T13",
-    6
+    7
   ],
   "yt_eval": [
-    "CBMiggFBVV95cUxPZmJZeFFiMXVIUTk3ZXJZQnJuMHQzczVjN3QyN2VkeXhxVVBwc2VucmdJbFVPUnVSa0o1OFFTOGpJU3JUOUtWMGpoS2djRXBYTWdIRXZXaVY0aXMyYWFhRzlQNG5DUXRnS0Fhb3VBYW9paGhDY1RaWlh1Qk9UeUhpc3ZB",
     "https://bloodyelbow.com/?p=329456",
     "CBMipAFBVV95cUxQZXNMd2lVZFZyd2tWbTNxTURiQWpjSU9XZV93V0I4Wl9tV193cURYc083MzFrOEhMaU5sdko5VkhCT1lTOTZ4VnJHZlVRLTNuS2lKdDlaRlowQ0xJYnNJRmpUYjdsSXE4S3JESENPZDQxSG96eGpWbW9qQ25ySkZlTlVrQkc1cFo0aUxENWkzekxfU1IzTVFxS1ozbVB2YW1fUXJTZg",
     "CBMivAFBVV95cUxOUVdHRUdtY2QzcHpjb3h6SGRSVFpTM3E4ekJjNFNYNlM1Ri1hUDZ4emNlZG8yRktuQy00T3ZfS0RpMmVCcjItcHFsSnpScXNHTjJsUVJCbThId3pjTGttcll4Mk5WQXQzdlNHaWZHRmo2LU4tbU4xYU1pdVlIU18xdi02LWRyeXJacUNDV29PZmlXdV9YM2RXakJacXp1T0JGZTJsT2pKWDBjZGpaU0d4MTVobUdUN0ZaYU54RA",
@@ -4410,12 +4410,13 @@
     "https://www.mmafighting.com/509184/dnp-morning-report-template-dnp",
     "165a1c9d-db28-34a5-8d61-97a90754c3b0",
     "https://bloodyelbow.com/?p=330887",
-    "https://www.mmafighting.com/?p=509212"
+    "https://www.mmafighting.com/?p=509212",
+    "c3fadcdb-d9a1-3914-b7a2-5e88ef5b10b9"
   ],
   "daily": {
     "d": "2026-09-09",
-    "ai": 31,
-    "staged": 0,
+    "ai": 32,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
@@ -5187,6 +5188,15 @@
       "names": [
         "former",
         "mexico"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-09T13:37:18.908265+00:00",
+      "t": "Dana White indicates UFC done with Michael Page: 'It's pretty obvious'",
+      "names": [
+        "white",
+        "page"
       ],
       "img": "photo"
     }
