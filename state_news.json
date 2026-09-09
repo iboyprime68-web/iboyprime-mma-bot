@@ -1,5 +1,7 @@
 {
   "seen": {
+    "a98031598d29b8e2": 1788987199.7708979,
+    "ba67954e0d3bc923": 1788987199.4278498,
     "2b804f40291862e5": 1788987134.350496,
     "3dff894d6b46bbc2": 1788987134.0244472,
     "15e5f3ed1392e4d4": 1788987070.129172,
@@ -2497,17 +2499,11 @@
     "580efe31d36f8eda": 0.0,
     "a4d22c5122c0367a": 0.0,
     "ba76fd8aaa2e338e": 0.0,
-    "2a241c2f79df3906": 0.0,
-    "38e540fa7ddee945": 0.0,
-    "aacc45354fa3abc7": 0.0
+    "2a241c2f79df3906": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Joe Rogan expresses concern for 'mistake' Ilia Topuria could be making",
-      "ts": "2026-09-08T19:30:35+00:00"
-    },
     {
       "t": "If this is it for Michael Page in UFC, it's one of the most successful unsuccessful runs we've ever seen",
       "ts": "2026-09-08T20:19:07+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Jake Paul expresses interest in Michael Page after UFC exit — ‘MVP to MVP’",
       "ts": "2026-09-09T20:06:03+00:00"
+    },
+    {
+      "t": "BKFC boss says promotion can ‘force excitement’ out of Michael Page",
+      "ts": "2026-09-09T06:06:32+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-09T20",
-    14
+    15
   ],
   "yt_eval": [
-    "CBMilwFBVV95cUxOckVJN2QyU3hQV3VBR3UyY1A2WU5QZ3dFVXpuQ3gyLUhjSkk0WXo3SkNPX1R6ZWYxZERIbHlybFVQbGd1Ni1BcW9YUnJyMUYtcW5CUFRSNGdvRjh6TjZsdGFIRzB0a1ZzVFNQX2dQSnF6d0tlY2h6NFVDVlpmUGo0UjVIV2c4OW1mVXM3T1pFUW1kYVhaajVJ",
     "CBMixAFBVV95cUxOSWVwckI4bWx3VlJMYi1EdTZHajVMeDVHb0NvTEdNYnpVMWZ3cFdja0pkakx2N3ZWaWdUSUNNSFZ0LXRuZGh2S0thRHBXUm9JTlBHdklZdGwyTEdUeEk5V2NLNDZJNTRQdnZiSlR1TVBWNFYxY1lpYWJWU1g1LWhmc0Y3R1Jrc1J3UlFPX3JlZ1h4clZyTUpZVlBwcHd5VjVVVzFBTFlUOFUwOWFBV1lObnFSYnc2eEJJWmlWTlNuUkJfTktm",
     "CBMihgFBVV95cUxPMTRub2JfQndMR0w0M25FbVVwcmhZU0NGNkRuNkhCSFFNS2Y1Q0JXZW9JSk0xODZDbGdSYTRDNjRFUzI0aFVDeDBlZUgtQXhUOHJEdU5kZmZtUWh4LUhzN1hyQXJjbXNBcVNORTlhM1h5anY2TnJlbzNUT3NWZUx2cjhGMFhqZw",
     "CBMikwFBVV95cUxOQmVJeTkzR1d0azVXc3Fkblk5YUFMSFU4WWc0elVYYW9HZThGTEstUGMzcElKZE5WQUxuaXM1Z1BvMFdtd3BwajhmR1kwNDZPOHYtczFMN2l5SnNHNEtCZFJtWXV3cklqMjNBdDdaanphaFlqR0NISmV4ckNTa210aUY1ejFtWllNcXdrTHhsejlZV2c",
@@ -4491,11 +4490,12 @@
     "eb76aec4-08fa-39a1-93c9-2b78092f6e8b",
     "CBMijgFBVV95cUxNWE80NjRTdThrQks1bEpUSWd1NFNBYnhXY0xyV0doUmFqbWp2ekNsN2plMkFSc095SDlNeWVqc0oyLUtCa0RncFpSb1k0YXRkVl9FTFVvb2dOOEtNTGlPa0Ytam4yN1VZOTdvQW9yUWtCQUJHLUF6d1dLbmxJS1A3aWlUcWdOdWQyVzYwWDln",
     "CBMi7wJBVV95cUxPTFVsLWtvWTNBeUpxZDV2UlhNTGNGYWhXb0kwbzlCckpNRlI0cTE3WkZIcGVsMXlSNVpRUFdwSFB4aFR5VDE4VndfX3NYZjZIZ25ERjUwZzF3MDh6WnkxZ251TncxUHhYTExWUlJncnNWd3AwM1kxLUdMTHI0SnNMU1RuUEhIY05yNFZ5TVZPeWRmUHNCVGRBNjNYVFJzdG1YWHh2THpJUmhtSDJoaWlnQmJDMHVqbTNKemlIMkxxR2diT3dJZ2JTLUYtQzVNZzhyOHBFYnF6XzJCdG9lZ0M3UmRSM3pFUWtwb3h4OE82aFVfRXZ6Sl9sNDRTRFJLU1E5RUhVSmhNdm9UUTc0aU1SVU84X1BISG42bmJaVkNTTU9KOHBaYnlVMngyZkdfQTBXUm5uQ2JORHhGVWQ3d1hoczRLVzcxYllubVNWN0pITDlJTExvN2wtZnhZVktRcGRRTDhGR1Q0d2J6SFR1X1lz",
-    "CBMiiwFBVV95cUxOZElIOGk1MHdzVDhOc3FnaFJMUVZyMFR0VzFKSzZ4YVR6QXBjYlFkTDltRUhyNlgzRENlcE1yWWxuZVNqN3hYT25kLXBoQTBoejhvWXJnWWlva2VKQVpFeWNzbEpxNlp6YkdLd192bWRKbnhaMUxoeFlUNzliVENBVG1XSGFZaGplS1FR"
+    "CBMiiwFBVV95cUxOZElIOGk1MHdzVDhOc3FnaFJMUVZyMFR0VzFKSzZ4YVR6QXBjYlFkTDltRUhyNlgzRENlcE1yWWxuZVNqN3hYT25kLXBoQTBoejhvWXJnWWlva2VKQVpFeWNzbEpxNlp6YkdLd192bWRKbnhaMUxoeFlUNzliVENBVG1XSGFZaGplS1FR",
+    "https://www.sherdog.com/news/news/BKFC-boss-says-promotion-can-force-excitement-out-of-Michael-Page-202728"
   ],
   "daily": {
     "d": "2026-09-09",
-    "ai": 97,
+    "ai": 98,
     "staged": 4,
     "prio": 0,
     "lost": 0
