@@ -1,5 +1,7 @@
 {
   "seen": {
+    "14c390f6465311a0": 1788987264.1063156,
+    "1280bb85e0ce595d": 1788987263.8015995,
     "a98031598d29b8e2": 1788987199.7708979,
     "ba67954e0d3bc923": 1788987199.4278498,
     "2b804f40291862e5": 1788987134.350496,
@@ -2497,17 +2499,11 @@
     "0f6a40ec30543daf": 0.0,
     "2f798b11b6582430": 0.0,
     "580efe31d36f8eda": 0.0,
-    "a4d22c5122c0367a": 0.0,
-    "ba76fd8aaa2e338e": 0.0,
-    "2a241c2f79df3906": 0.0
+    "a4d22c5122c0367a": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "If this is it for Michael Page in UFC, it's one of the most successful unsuccessful runs we've ever seen",
-      "ts": "2026-09-08T20:19:07+00:00"
-    },
     {
       "t": "Ian Machado Garry's heart tells him Carlos Prates can beat Islam Makhachev",
       "ts": "2026-09-08T20:20:15+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "BKFC boss says promotion can ‘force excitement’ out of Michael Page",
       "ts": "2026-09-09T06:06:32+00:00"
+    },
+    {
+      "t": "Justin Gaethje explains how he easily game-planned for Ilia Topuria",
+      "ts": "2026-09-09T20:19:46+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-09T20",
-    15
+    16
   ],
   "yt_eval": [
-    "CBMixAFBVV95cUxOSWVwckI4bWx3VlJMYi1EdTZHajVMeDVHb0NvTEdNYnpVMWZ3cFdja0pkakx2N3ZWaWdUSUNNSFZ0LXRuZGh2S0thRHBXUm9JTlBHdklZdGwyTEdUeEk5V2NLNDZJNTRQdnZiSlR1TVBWNFYxY1lpYWJWU1g1LWhmc0Y3R1Jrc1J3UlFPX3JlZ1h4clZyTUpZVlBwcHd5VjVVVzFBTFlUOFUwOWFBV1lObnFSYnc2eEJJWmlWTlNuUkJfTktm",
     "CBMihgFBVV95cUxPMTRub2JfQndMR0w0M25FbVVwcmhZU0NGNkRuNkhCSFFNS2Y1Q0JXZW9JSk0xODZDbGdSYTRDNjRFUzI0aFVDeDBlZUgtQXhUOHJEdU5kZmZtUWh4LUhzN1hyQXJjbXNBcVNORTlhM1h5anY2TnJlbzNUT3NWZUx2cjhGMFhqZw",
     "CBMikwFBVV95cUxOQmVJeTkzR1d0azVXc3Fkblk5YUFMSFU4WWc0elVYYW9HZThGTEstUGMzcElKZE5WQUxuaXM1Z1BvMFdtd3BwajhmR1kwNDZPOHYtczFMN2l5SnNHNEtCZFJtWXV3cklqMjNBdDdaanphaFlqR0NISmV4ckNTa210aUY1ejFtWllNcXdrTHhsejlZV2c",
     "CBMi2wFBVV95cUxPejVqaWxUZVJNa0JpZXUyRUdFOHZoY3E4dGJPaWFHY3FXVUhBMXhLMHlBbDhEMTBvVkR3SnRvbWhBd01JTXVSSW9KTUgwZzI1ZlJRVWYtZFlxWjRwNHc2WEtVc0VQMlNlVWdZZWIyVkFzQ3NFS1NnVnYtSUo0RjBSUnlEelhtRlNwT1hxaFlZdUNQbjBKZ3hnS1JuSk9pRmNLZUgyRUFDN3U4TF85QXRuRkFmaG1nbjRUU25Ib1YxbGpjZmhhNTd1ekZDTFRyRG9XWjFJbUZ3QkZ0bmM",
@@ -4491,11 +4490,12 @@
     "CBMijgFBVV95cUxNWE80NjRTdThrQks1bEpUSWd1NFNBYnhXY0xyV0doUmFqbWp2ekNsN2plMkFSc095SDlNeWVqc0oyLUtCa0RncFpSb1k0YXRkVl9FTFVvb2dOOEtNTGlPa0Ytam4yN1VZOTdvQW9yUWtCQUJHLUF6d1dLbmxJS1A3aWlUcWdOdWQyVzYwWDln",
     "CBMi7wJBVV95cUxPTFVsLWtvWTNBeUpxZDV2UlhNTGNGYWhXb0kwbzlCckpNRlI0cTE3WkZIcGVsMXlSNVpRUFdwSFB4aFR5VDE4VndfX3NYZjZIZ25ERjUwZzF3MDh6WnkxZ251TncxUHhYTExWUlJncnNWd3AwM1kxLUdMTHI0SnNMU1RuUEhIY05yNFZ5TVZPeWRmUHNCVGRBNjNYVFJzdG1YWHh2THpJUmhtSDJoaWlnQmJDMHVqbTNKemlIMkxxR2diT3dJZ2JTLUYtQzVNZzhyOHBFYnF6XzJCdG9lZ0M3UmRSM3pFUWtwb3h4OE82aFVfRXZ6Sl9sNDRTRFJLU1E5RUhVSmhNdm9UUTc0aU1SVU84X1BISG42bmJaVkNTTU9KOHBaYnlVMngyZkdfQTBXUm5uQ2JORHhGVWQ3d1hoczRLVzcxYllubVNWN0pITDlJTExvN2wtZnhZVktRcGRRTDhGR1Q0d2J6SFR1X1lz",
     "CBMiiwFBVV95cUxOZElIOGk1MHdzVDhOc3FnaFJMUVZyMFR0VzFKSzZ4YVR6QXBjYlFkTDltRUhyNlgzRENlcE1yWWxuZVNqN3hYT25kLXBoQTBoejhvWXJnWWlva2VKQVpFeWNzbEpxNlp6YkdLd192bWRKbnhaMUxoeFlUNzliVENBVG1XSGFZaGplS1FR",
-    "https://www.sherdog.com/news/news/BKFC-boss-says-promotion-can-force-excitement-out-of-Michael-Page-202728"
+    "https://www.sherdog.com/news/news/BKFC-boss-says-promotion-can-force-excitement-out-of-Michael-Page-202728",
+    "CBMinwFBVV95cUxPYXR6YjJvWGVrM0E4azI2YW0wWGdvSlFkWlJwZWNaWk5oMDVrUmh0MU9FX0FFWHBobGY4SmlNQnFzd01OX0gxYUVFd2RsV3FJaGZNN3o1aWN3VlR3dmlBNElxV1c2b0E0U01sbWk4Mko4elhmQUJDdnlLQWEwY3oybUFwbjUwUnFDUC1ObkRhbVFkZTFpZkhaM1dlNDZPZ1U"
   ],
   "daily": {
     "d": "2026-09-09",
-    "ai": 98,
+    "ai": 99,
     "staged": 4,
     "prio": 0,
     "lost": 0
