@@ -1,5 +1,6 @@
 {
   "seen": {
+    "41078c369e18dcb9": 1788986738.3345842,
     "babdfca6aae45c3f": 1788986712.898122,
     "08f004e4a2cb517f": 1788986688.9059734,
     "6c42acb4c5aa706b": 1788986665.5371542,
@@ -2498,16 +2499,11 @@
     "021c5432a41c396d": 0.0,
     "5ff5880a22af9ac6": 0.0,
     "35d9a0e002856eca": 0.0,
-    "de813516646164f8": 0.0,
-    "35b2fcf03162b188": 0.0
+    "de813516646164f8": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC Star Diego Sanchez Arrested",
-      "ts": "2026-09-08T18:05:04+00:00"
-    },
     {
       "t": "Khaos Williams acknowledges Roberto Soldic's danger ahead of UFC 332",
       "ts": "2026-09-08T18:08:01+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Justin Gaethje reveals preference for Arman Tsarukyan vs Mauricio Ruffy: ‘I hope Arman gets hit hard’",
       "ts": "2026-09-09T20:00:00+00:00"
+    },
+    {
+      "t": "Justin Gaethje confirms no UFC title defense this year",
+      "ts": "2026-09-09T17:27:01+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-09T20",
-    6
+    7
   ],
   "yt_eval": [
-    "CBMiowFBVV95cUxNVXRxY3d3dXd6anFFX2ZRakFJYW1ERVpSWTliekNsWGpoc3cyUG13enBuakhMV00tQTNRUzRBcFBXOGYyTW5XWFVvaUUzNDN2MEhOLTgtTkUwUXpoWTNrOWRGWVp3RTVEeDhaSG5idDhVM0dRazBiSzBvc1NTQ0g1SVZ0VVRJd0VDNC1ibWRqc0JVLTJOalhYaTAtbEd0dElXc29r",
     "https://bloodyelbow.com/?p=329477",
     "CBMiR0FVX3lxTE5ER1MxSDNUa0h2WEVOVVZQdzlMU1JlS0c0eEdLYzJSRU1iYTk0aWFidmo3eXNKYXY4WVFKT3VLdnBfOVRxMGNR",
     "CBMiiwFBVV95cUxQSUY4RVZJU2NmVXBRYnk1WHF3TlhBdkdLbk1JTlBaY0MwZnIyMUJjNjFtaGNiVXlzY0w0X09vbW9NOG5zVlN1elc1QUoxRnJsalJXT29wS3V5azlMTVp4a2U4R0tUUzR2clU5R3huSnk4VVRvdzhhbkk4TnplMnJlZm1hODNZOVRvLVl3",
@@ -4491,12 +4490,13 @@
     "https://www.mmafighting.com/?p=509265",
     "7d9fad5d-95e9-37fc-b65a-1639b7b48cab",
     "https://bloodyelbow.com/?p=330943",
-    "https://bloodyelbow.com/?p=330957"
+    "https://bloodyelbow.com/?p=330957",
+    "f355026a-1974-34b8-8a3c-835c90a06b17"
   ],
   "daily": {
     "d": "2026-09-09",
-    "ai": 89,
-    "staged": 3,
+    "ai": 90,
+    "staged": 4,
     "prio": 0,
     "lost": 0
   },
@@ -5301,6 +5301,14 @@
         "heavyweight"
       ],
       "img": "cutout:tom-aspinall"
+    },
+    {
+      "ts": "2026-09-09T20:45:39.566187+00:00",
+      "t": "Justin Gaethje confirms no UFC title defense this year",
+      "names": [
+        "gaethje"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -5323,17 +5331,10 @@
     "7208998b68744b35": 1788892312.6087925,
     "55813cb1d5033638": 1788893997.9696724,
     "b700fbabfadc66f9": 1788962424.352041,
-    "b2ef376e48d4f20b": 1788976569.152932
+    "b2ef376e48d4f20b": 1788976569.152932,
+    "41078c369e18dcb9": 1788986739.5688174
   },
   "pinged_titles": [
-    [
-      "Former UFC star Diego Sanchez arrested on aggravated DWI charge",
-      1788962424.352041,
-      [
-        "former",
-        "sanchez"
-      ]
-    ],
     [
       "It’s Time For Tom Aspinall to Vacate the UFC Heavyweight Title",
       1788976569.152932,
@@ -5344,6 +5345,13 @@
         "time",
         "tom",
         "vacate"
+      ]
+    ],
+    [
+      "Justin Gaethje confirms no UFC title defense this year",
+      1788986739.5688174,
+      [
+        "gaethje"
       ]
     ]
   ]
