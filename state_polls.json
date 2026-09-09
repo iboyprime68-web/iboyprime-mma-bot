@@ -2,10 +2,10 @@
   "v": 2,
   "cursor": 8,
   "staged_at": [
-    "2026-09-07T20:00:40.524624+00:00",
     "2026-09-08T13:41:45.853257+00:00",
     "2026-09-08T19:27:46.039823+00:00",
-    "2026-09-09T13:46:29.314375+00:00"
+    "2026-09-09T13:46:29.314375+00:00",
+    "2026-09-09T19:20:18.805837+00:00"
   ],
   "asked": [
     "Who is the most dangerous striker in the UFC right now?",
@@ -46,26 +46,27 @@
     "Who should Alex Pereira fight next?",
     "Who is the most exciting UFC flyweight of all time?",
     "Who is the most deserving of a UFC title shot right now?",
-    "Who is the most underrated fighter in the UFC right now?"
+    "Who is the most underrated fighter in the UFC right now?",
+    "Who is the worst main event in UFC history?"
   ],
   "last_entry": {
-    "q": "Who is the most underrated fighter in the UFC right now?",
+    "q": "Who is the worst main event in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Michael Page",
-        "emoji": "🃏"
+        "label": "UFC 332",
+        "emoji": "🍿"
       },
       {
-        "label": "Shinya Aoki",
-        "emoji": "🐐"
+        "label": "UFC 149",
+        "emoji": "😴"
       },
       {
-        "label": "Tom Aspinall",
-        "emoji": "💪"
+        "label": "UFC 33",
+        "emoji": "🥱"
       },
       {
-        "label": "Other (comment below)",
+        "label": "Other (comment)",
         "emoji": "💬"
       }
     ]
