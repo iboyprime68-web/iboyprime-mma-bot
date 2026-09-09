@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b740f3fd1d305898": 1788995775.0702567,
     "f3b8f97a96683e03": 1788995711.1808968,
     "9a98e413c77834ea": 1788995710.9137843,
     "010d2972bd87766d": 1788995647.1023803,
@@ -2498,16 +2499,11 @@
     "e08b23c465a3be80": 0.0,
     "2c56b2325c515614": 0.0,
     "8adf9a6141a707a8": 0.0,
-    "19aab6beb25ed113": 0.0,
-    "b65e3c919b1f2728": 0.0
+    "19aab6beb25ed113": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Salahdine Parnasse returns to training just days after vicious KO in UFC Paris main event",
-      "ts": "2026-09-08T23:45:00+00:00"
-    },
     {
       "t": "DWCS Season 10, Week 5 results: Four more contracts awarded, with Dana White comparing one signee to Jon Jones",
       "ts": "2026-09-09T01:37:39+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Soldic On Wasting Prime Years In ONE Championship",
       "ts": "2026-09-09T22:30:44+00:00"
+    },
+    {
+      "t": "Injured UFC champion Islam Makhachev hopes to defend Welterweight title next before Ramadan … 2027?",
+      "ts": "2026-09-09T22:37:48+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-09T23",
-    16
+    17
   ],
   "yt_eval": [
-    "CBMiW0FVX3lxTE1WWDZRMkRVc3M0aks1cGZJRkJJWXhxU2I4c3ZvZ2xCSWFjSjdlSTB0N19vcmJiTmF1MkpiS0ZaakpPWktBLVo1THUyZzYxc0ZMLTVCcVVpNmFudVE",
     "CBMiW0FVX3lxTE9QcmlnQVEwU3FKb0ZWV05aQnMwcHpPdzc2RnUxX1JMQUFpT3NfTGNVRGJfLXZYM3IybkJWYVhSc0dqcllvRlRtT0RpeEJSdUpzc3pyYjRzdHprVVk",
     "aa666814-8b40-3754-97a0-9070a6b9ff02",
     "https://www.mmafighting.com/507466/ufc-macau-results-song-vs-figueiredo",
@@ -4491,25 +4490,17 @@
     "https://bloodyelbow.com/?p=330946",
     "https://www.mmamania.com/?p=470612",
     "https://www.mmafighting.com/?p=509409",
-    "https://bloodyelbow.com/?p=330978"
+    "https://bloodyelbow.com/?p=330978",
+    "CBMi1wFBVV95cUxNWUxsbHJ0RnQtMFgtV3dXdHNLSkhzcVBtQnI5R0lGX2VST1NndDJYTTdOcEdUazRmMW9VUnI5eTNyX3BpWTJsaVk3OE5GWWdLWGdYQmxHM1BXY3dCUjNIcklLYm9yQXVZbm5HMU5DSDdCRVlCQjhzcEowUkNrMk1HRW8tR1d2bC1qR0F0OF9takJRODBfc204YmJLVTF0NG9FQXJjR2tjdmstQXE1RFAxTmRnd0F0Tk9DUUtfQmVOZXhmck1MbE5NalU4UUIxZmgtX0lybDRVTQ"
   ],
   "daily": {
     "d": "2026-09-09",
-    "ai": 109,
+    "ai": 110,
     "staged": 6,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-28T01:24:38.764275+00:00",
-      "t": "Inside BKFC’s ground-breaking world championship fight night at Fenway Park",
-      "names": [
-        "inside",
-        "park"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-08-28T01:25:08.201694+00:00",
       "t": "Alexander Volkanovski says fans will think ‘this looks like Volk in his prime’ when he’s beating down Movsar Evloev",
@@ -5325,6 +5316,17 @@
         "costa",
         "eddie",
         "hearn"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-09T23:16:16.488472+00:00",
+      "t": "Injured UFC champion Islam Makhachev hopes to defend Welterweight title next before Ramadan … 2027?",
+      "names": [
+        "injured",
+        "makhachev",
+        "welterweight",
+        "ramadan"
       ],
       "img": "photo"
     }
