@@ -2,10 +2,10 @@
   "v": 2,
   "cursor": 8,
   "staged_at": [
-    "2026-09-07T15:06:20.874542+00:00",
     "2026-09-07T20:00:40.524624+00:00",
     "2026-09-08T13:41:45.853257+00:00",
-    "2026-09-08T19:27:46.039823+00:00"
+    "2026-09-08T19:27:46.039823+00:00",
+    "2026-09-09T13:46:29.314375+00:00"
   ],
   "asked": [
     "Who is the most dangerous striker in the UFC right now?",
@@ -45,23 +45,24 @@
     "Who is the most likely to beat Islam Makhachev right now?",
     "Who should Alex Pereira fight next?",
     "Who is the most exciting UFC flyweight of all time?",
-    "Who is the most deserving of a UFC title shot right now?"
+    "Who is the most deserving of a UFC title shot right now?",
+    "Who is the most underrated fighter in the UFC right now?"
   ],
   "last_entry": {
-    "q": "Who is the most deserving of a UFC title shot right now?",
+    "q": "Who is the most underrated fighter in the UFC right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Ilia Topuria",
-        "emoji": "👑"
-      },
-      {
-        "label": "Justin Gaethje",
-        "emoji": "🔥"
-      },
-      {
         "label": "Michael Page",
-        "emoji": "💥"
+        "emoji": "🃏"
+      },
+      {
+        "label": "Shinya Aoki",
+        "emoji": "🐐"
+      },
+      {
+        "label": "Tom Aspinall",
+        "emoji": "💪"
       },
       {
         "label": "Other (comment below)",
