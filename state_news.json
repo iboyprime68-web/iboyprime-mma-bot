@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e978f22f6fd6adab": 1789019232.1343317,
     "614a72d9e05144e5": 1789019208.0077698,
     "acc15eafc84c38b9": 1789019184.505646,
     "594c745860e8593d": 1789019183.6447368,
@@ -2498,16 +2499,11 @@
     "69e068df5f54bfb0": 0.0,
     "3bc24bc131aa7945": 0.0,
     "bdab9c9b518b63e4": 0.0,
-    "26ceb8b21b41bc4f": 0.0,
-    "e8ddb22aebcfd2fb": 0.0
+    "26ceb8b21b41bc4f": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC sign 4-0 prospect Dana White compared to Jon Jones after savage knockout",
-      "ts": "2026-09-09T13:00:00+00:00"
-    },
     {
       "t": "'Uncrowned champion' of ONE Akbar Abdullaev gets new opponent for DWCS",
       "ts": "2026-09-09T02:59:45+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Roberto Soldic admits UFC contract is ‘not even close’ to what he made in ONE Championship",
       "ts": "2026-09-10T02:00:00+00:00"
+    },
+    {
+      "t": "21-fight UFC veteran ends short-lived retirement to make Octagon return after broken promise",
+      "ts": "2026-09-10T03:00:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-10T05",
-    2
+    3
   ],
   "yt_eval": [
-    "959d0c2d-1ab8-38e4-84cc-3b90424a8888",
     "2519cc37-7888-3f17-b1eb-d1c60737e287",
     "https://bloodyelbow.com/?p=329480",
     "a407a0ca-bb78-39aa-abcc-90abdd629d03",
@@ -4491,28 +4490,17 @@
     "https://bloodyelbow.com/?p=330962",
     "CBMi2wFBVV95cUxQWmpMWHlXSUIwaEFXSUNERHdkTEI2Tk8tclF1VDA3TEg1SlNvN29sanoxVF9aRlpqWkZFV2ZwbDBjSG9KUTUzalNUNm1oOUlnUW4tcHVQYWs2NEpES0lwMHpmSHFUTUpMWFVDZ0cwNGZRRFpJWkNBYnhqMW1tVG5TUVg2Q1BzQ2ZLYlF5bGh1OVpiYWRxa3FCMHFsaTd3ajhsbm9fZGN0bHJwZTNzZkZBdGlFR2RVUExqNThMREVtd3VDNmI2WGxZNEt5SmtSUTRDQ3hBY3R4WktOM1k",
     "0233716e-190f-4224-9830-393a09cf3a94",
-    "https://bloodyelbow.com/?p=330980"
+    "https://bloodyelbow.com/?p=330980",
+    "https://bloodyelbow.com/?p=330974"
   ],
   "daily": {
     "d": "2026-09-10",
-    "ai": 6,
-    "staged": 0,
+    "ai": 7,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-28T01:25:08.201694+00:00",
-      "t": "Alexander Volkanovski says fans will think ‘this looks like Volk in his prime’ when he’s beating down Movsar Evloev",
-      "names": [
-        "volkanovski",
-        "volk",
-        "movsar",
-        "evloev",
-        "october"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-08-28T01:25:19.572634+00:00",
       "t": "Dillon Danis out of MMA return against Mike Perry as new fight gets made on two days’ notice",
@@ -5329,6 +5317,15 @@
         "ramadan"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-10T05:47:13.369887+00:00",
+      "t": "21-fight UFC veteran ends short-lived retirement to make Octagon return after broken promise",
+      "names": [
+        "octagon",
+        "price"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -5353,36 +5350,15 @@
     "b700fbabfadc66f9": 1788962424.352041,
     "b2ef376e48d4f20b": 1788976569.152932,
     "41078c369e18dcb9": 1788986739.5688174,
-    "fcfce8131ef2a8ef": 1788995191.9190924
+    "fcfce8131ef2a8ef": 1788995191.9190924,
+    "e978f22f6fd6adab": 1789019231.0862243
   },
   "pinged_titles": [
     [
-      "It’s Time For Tom Aspinall to Vacate the UFC Heavyweight Title",
-      1788976569.152932,
+      "21-fight UFC veteran ends short-lived retirement to make Octagon return after broken promise",
+      1789019231.0862243,
       [
-        "aspinall",
-        "for",
-        "heavyweight",
-        "time",
-        "tom",
-        "vacate"
-      ]
-    ],
-    [
-      "Justin Gaethje confirms no UFC title defense this year",
-      1788986739.5688174,
-      [
-        "gaethje"
-      ]
-    ],
-    [
-      "Fan Favorite Returns After Brief Retirement",
-      1788995191.9190924,
-      [
-        "fan",
-        "favorite",
-        "retirement",
-        "returns"
+        "octagon"
       ]
     ]
   ]
