@@ -1,5 +1,6 @@
 {
   "seen": {
+    "fbe8a70fdae5cc9e": 1789052427.32342,
     "3136ac7f2073f3e2": 1789052360.555352,
     "b500ff4dddf94b87": 1789052332.914721,
     "064692ee89e9ec83": 1789052308.249472,
@@ -2498,16 +2499,11 @@
     "d2ac994f6cb26d69": 0.0,
     "cb1479b02b009415": 0.0,
     "08125747d7454a30": 0.0,
-    "9b371a6b168ff6c9": 0.0,
-    "252734e1b0363ac2": 0.0
+    "9b371a6b168ff6c9": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Dana White's Contender Series winner not leaning into Jon Jones comparison",
-      "ts": "2026-09-09T14:30:49+00:00"
-    },
     {
       "t": "‘I’m Mexican!’ Edgar Chairez not happy with Tommy McMillen making Noche UFC 4’s main card",
       "ts": "2026-09-09T15:00:00+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Super RIZIN 5 results: Razhabali Shaydullaev outworks A.J. McKee, claims Rizin, PFL belts",
       "ts": "2026-09-10T13:00:49+00:00"
+    },
+    {
+      "t": "Paulo Costa calls for release after not getting interim title fight at UFC 332",
+      "ts": "2026-09-10T13:40:30+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-10T14",
-    10
+    "2026-09-10T15",
+    1
   ],
   "yt_eval": [
-    "CBMivgFBVV95cUxOX2NNdU1UZVdvNkNQQ29JYVpBTGFjS3ltN0xXS0xwV1c2VFdNcDRsYlIyYkFaME5LNUdjMEVJWGU3YW0xM2dLLVVIT28wdUg1VTRWbFYtbERjMW1qeHExVHkyZUhoSTZlb0VpN3daUnZXWjN4Tk5nWlVTZ1lhTmRfUlZXV2ZPZ3hwQTc1Q0FSeUxZM0FjWWVDb01WcDY1OUs3X0gyY0g5cWhZMXp1eWJRRWRRZ3FZWmRqUlZZcUpR",
     "CBMixgFBVV95cUxOdjMyMTNBTndNWERZSHN5d1ViWnBvQ01nR1dNb05iOFU5RnJyS0hwcGtqbVlRaFNERWxhWHVxMlE5YUxMNWctT0tfV3J5QUFuSWJ6OFZTaVlmUzNlaTg0WEJYZDNnWloxdzZlNzZSMUNSVzJZU1FidThieHZqQUU4WllaNkRMMWNMVW12VjhleEl2Q2JSendDOTRHMEhFcG5FVHRUdFMzZGczdlhPdzJDam9WMnlkSkhYSi1VR203NFNQRjRiLWc",
     "CBMiYEFVX3lxTE92MkZCa1hURXBMRWowVVY0WWdBajZhblR3cXdXOXdfMFlqQzZYX1dWUXUxejVrOEFJOGpNNGctMzRQT283dTg2QjVVMTBlV2I5NWkwdEN6cldrOWg3X2c4eg",
     "CBMijgFBVV95cUxNZjRaV29GX2FKU2dROUc0Z0tnbGxVeHkyblN2OWJmdTF2a09tdjNJcEk2dEc1RHV0Q09qRkt3bk1RclB4UXFELTh0bWltVHUtQUJPX1AyaG01VFRnVl9vSlVfZDRtVjNkbW5ldUMtd21Hb3ppdVB2Zm9Hbmt3R1Y2QTBMT2hRTU4tZVR5UGln",
@@ -4491,24 +4490,17 @@
     "911c5099-5664-338d-8638-6e2c57eef4bb",
     "https://bloodyelbow.com/?p=331026",
     "https://www.mmafighting.com/?p=509449",
-    "0d78970d-413a-3b2a-9f8d-add443fa0775"
+    "0d78970d-413a-3b2a-9f8d-add443fa0775",
+    "8548620a-eaa4-3701-a528-7fbdb6ce96f0"
   ],
   "daily": {
     "d": "2026-09-10",
-    "ai": 40,
-    "staged": 2,
+    "ai": 41,
+    "staged": 3,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-28T01:25:25.622057+00:00",
-      "t": "Jose Aldo to face ex-UFC title challenger in first match since his second MMA retirement",
-      "names": [
-        "aldo"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-08-28T01:25:59.499851+00:00",
       "t": "UFC Shanghai’s Song Yadong believes beating Umar Nurmagomedov guarantees title shot",
@@ -5330,6 +5322,14 @@
         "first",
         "career",
         "loss"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-10T15:00:28.695831+00:00",
+      "t": "Paulo Costa calls for release after not getting interim title fight at UFC 332",
+      "names": [
+        "costa"
       ],
       "img": "photo"
     }
