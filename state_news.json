@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ec2106579f38ba0c": 1789064104.2522943,
     "95319c6f061dcf39": 1789064080.6652973,
     "875e96a818d0502f": 1789064056.8629274,
     "a183c709858ca076": 1789064027.8277202,
@@ -2498,16 +2499,11 @@
     "f1f1f1031c4eb0d4": 0.0,
     "805cb5a5f6bb759e": 0.0,
     "c235dabe5899a5b6": 0.0,
-    "30c756a7369f48ea": 0.0,
-    "134449693a2fb26d": 0.0
+    "30c756a7369f48ea": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC's newest fighter announces he's getting married just hours after DWCS win",
-      "ts": "2026-09-09T03:48:03+00:00"
-    },
     {
       "t": "Video: Ryan Garcia vs. Conor Benn media day live stream",
       "ts": "2026-09-09T17:00:44+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Jake Paul, Logan Paul set to lead new fight competition reality show on Hulu, ESPN",
       "ts": "2026-09-10T16:00:55+00:00"
+    },
+    {
+      "t": "Jake Paul launches his own The Ultimate Fighter-like reality TV show with Logan Paul",
+      "ts": "2026-09-10T16:46:56+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-10T18",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMixAFBVV95cUxPd3IxQTItZE1UTnlKSzJSVmh4eDlpNXdSemJuNDNfZnFKV1NyMUlrWVVUVjBQdlJQSXZIOUg5d1E4Wks0b1pFSHpwZzhxTFRWWmtIUm56OGlZd19GWlBTRHl4c042M2NMckU4MFp2VzFwdHRsbExxY0RVVWVuT2xzS2wxQzdEZ0dVVXBIV2xvTE1GVXRDR1lPMmE0MFZSQ25YVmpHNDZxUFEwV3pyUFV2NzRqWjlxYXFfUWNIaGc4Tmx2SWNM",
     "CBMickFVX3lxTE9pWHZNdi1OV1RVcmZVeUIxd2V4RnFKTkg0NXRmNENuNU90MnFqU0VhZXZIRHlOR0JzOXVkVEdFUHJrNVhnQjJ6WnVCNTNZZjJ1SjBoQ0phczV1Y1MwWElCazlhbnZnbWhRWS1lUjNfakl5dw",
     "CBMi3AFBVV95cUxQQVB1dktLNXFlT3c3eEtGUThGTFNEalZTSTZpV25hdml4RTlDTWdQbHctdnFpUFctUzB6VUFrdUN4VENuZXVQMDhvQmMwZi1tWGNvaGdLeE1xV2dSSmIxUUwtbENGbjl6aVBBbldZSTN4QlQ5VmlpNjBQRHQtcXU3SEZudDU0MlVyZEh5TXhNZm1WbmZtRWpqX2ZhaHpHVUNpQjdnZXZYenBYRnNnOWN6bVRtRy1DLUZFWktXLTZTRU9ZQ2VxUlcwekFISWJlMF8yUjBvajFUZ3pXMlVq0gHcAUFVX3lxTFBBUHV2S0s1cWVPdzd4S0ZROEZMU0RqVlNJNmlXbmF2aXhFOUNNZ1Bsdy12cWlQVy1TMHpVQWt1Q3hUQ25ldVAwOG9CYzBmLW1YY29oZ0t4TXFXZ1JKYjFRTC1sQ0ZuOXppUEFuV1lJM3hCVDlWaWk2MFBEdC1xdTdIRm50NTQyVXJkSHlNeE1mbVZuZm1FampfZmFoekdVQ2lCN2dldlh6cFhGc2c5Y3ptVG1HLUMtRkVaS1ctNlNFT1lDZXFSVzB6QUhJYmUwXzJSMG9qMVRnelcyVWo",
     "CBMie0FVX3lxTE02MVhmUS1SS09fV2VHN0Nmd3BUdEFLZlJ6ZFIxNm96RURnX0J1NzNvaU1CZ0ZfTHlHWUNzWUdQMG92SUh4NlBnbHFETnJfUXBFTFhyNUw4YXd2Q1RCS2VVdFBqUmpEa21FWFpiUTF4UHAzQ1lUcEd4aTNxSQ",
@@ -4491,11 +4490,12 @@
     "https://bloodyelbow.com/?p=331040",
     "https://bloodyelbow.com/?p=331063",
     "6a3540eb-e53c-4e22-a5e8-dcb302776493",
-    "https://www.mmafighting.com/?p=509482"
+    "https://www.mmafighting.com/?p=509482",
+    "https://bloodyelbow.com/?p=331091"
   ],
   "daily": {
     "d": "2026-09-10",
-    "ai": 47,
+    "ai": 48,
     "staged": 4,
     "prio": 0,
     "lost": 0
