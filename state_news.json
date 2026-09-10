@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7505ae3ca871b6df": 1789052455.771768,
     "fbe8a70fdae5cc9e": 1789052427.32342,
     "3136ac7f2073f3e2": 1789052360.555352,
     "b500ff4dddf94b87": 1789052332.914721,
@@ -2498,16 +2499,11 @@
     "298353de373da01c": 0.0,
     "d2ac994f6cb26d69": 0.0,
     "cb1479b02b009415": 0.0,
-    "08125747d7454a30": 0.0,
-    "9b371a6b168ff6c9": 0.0
+    "08125747d7454a30": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "‘I’m Mexican!’ Edgar Chairez not happy with Tommy McMillen making Noche UFC 4’s main card",
-      "ts": "2026-09-09T15:00:00+00:00"
-    },
     {
       "t": "Robert Whittaker admits he ‘didn't even want to watch’ Michael Page",
       "ts": "2026-09-09T03:38:21+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Paulo Costa calls for release after not getting interim title fight at UFC 332",
       "ts": "2026-09-10T13:40:30+00:00"
+    },
+    {
+      "t": "Justin Gaethje claims Arman Tsarukyan blew his title shot because ‘he wasn’t going to make weight so he dropped out’",
+      "ts": "2026-09-09T22:43:59+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-10T15",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMixgFBVV95cUxOdjMyMTNBTndNWERZSHN5d1ViWnBvQ01nR1dNb05iOFU5RnJyS0hwcGtqbVlRaFNERWxhWHVxMlE5YUxMNWctT0tfV3J5QUFuSWJ6OFZTaVlmUzNlaTg0WEJYZDNnWloxdzZlNzZSMUNSVzJZU1FidThieHZqQUU4WllaNkRMMWNMVW12VjhleEl2Q2JSendDOTRHMEhFcG5FVHRUdFMzZGczdlhPdzJDam9WMnlkSkhYSi1VR203NFNQRjRiLWc",
     "CBMiYEFVX3lxTE92MkZCa1hURXBMRWowVVY0WWdBajZhblR3cXdXOXdfMFlqQzZYX1dWUXUxejVrOEFJOGpNNGctMzRQT283dTg2QjVVMTBlV2I5NWkwdEN6cldrOWg3X2c4eg",
     "CBMijgFBVV95cUxNZjRaV29GX2FKU2dROUc0Z0tnbGxVeHkyblN2OWJmdTF2a09tdjNJcEk2dEc1RHV0Q09qRkt3bk1RclB4UXFELTh0bWltVHUtQUJPX1AyaG01VFRnVl9vSlVfZDRtVjNkbW5ldUMtd21Hb3ppdVB2Zm9Hbmt3R1Y2QTBMT2hRTU4tZVR5UGln",
     "CBMiW0FVX3lxTFBjTUVHWldQSjFLMnZfcUZBQWxWYmswWkF1b1ROZVBjSWt6OS1PVjNOT2dXM1NTQ0ROaFV5dlNKaXZrWjRmWGY3OGJ0aTN0aDlqS2Z2NlJxQU44cTQ",
@@ -4491,27 +4490,17 @@
     "https://bloodyelbow.com/?p=331026",
     "https://www.mmafighting.com/?p=509449",
     "0d78970d-413a-3b2a-9f8d-add443fa0775",
-    "8548620a-eaa4-3701-a528-7fbdb6ce96f0"
+    "8548620a-eaa4-3701-a528-7fbdb6ce96f0",
+    "https://www.mmafighting.com/?p=509421"
   ],
   "daily": {
     "d": "2026-09-10",
-    "ai": 41,
-    "staged": 3,
+    "ai": 42,
+    "staged": 4,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-28T01:25:59.499851+00:00",
-      "t": "UFC Shanghai’s Song Yadong believes beating Umar Nurmagomedov guarantees title shot",
-      "names": [
-        "shanghai",
-        "yadong",
-        "nurmagomedov",
-        "umar"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-08-28T01:26:30.600135+00:00",
       "t": "Dillon Danis Withdraws From Mike Perry Fight, Brandon Jenkins Replaces Him At Duel Arena 1",
@@ -5330,6 +5319,15 @@
       "t": "Paulo Costa calls for release after not getting interim title fight at UFC 332",
       "names": [
         "costa"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-10T15:00:57.065765+00:00",
+      "t": "Justin Gaethje claims Arman Tsarukyan blew his title shot because ‘he wasn’t going to make weight so he dropped out’",
+      "names": [
+        "gaethje",
+        "tsarukyan"
       ],
       "img": "photo"
     }
