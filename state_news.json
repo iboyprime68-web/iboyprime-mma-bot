@@ -1,5 +1,7 @@
 {
   "seen": {
+    "59ac32bdbd973564": 1789064343.5046372,
+    "d80ef8fb67409a70": 1789064343.233748,
     "219be832842117b5": 1789064299.0212815,
     "ee8549ddd5794ca7": 1789064298.4983315,
     "d2de6fe7139a89bc": 1789064274.6390245,
@@ -2497,17 +2499,11 @@
     "7e6da4978b9332a6": 0.0,
     "8283a3c212e81f43": 0.0,
     "551e64129179dbd7": 0.0,
-    "d40313d8cbb0db05": 0.0,
-    "bb5cf5bf348d2e15": 0.0,
-    "010bc37f65e41ad7": 0.0
+    "d40313d8cbb0db05": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Salahdine Parnasse previously turning UFC down resulted in him having the third biggest debut ever",
-      "ts": "2026-09-09T18:00:00+00:00"
-    },
     {
       "t": "Dana White Pinpoints Salahdine Parnasse as One of the Most Viral UFC Signings Ever",
       "ts": "2026-09-09T17:12:09+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Justin Gaethje went from 80 cents to not touching his UFC title paycheck",
       "ts": "2026-09-10T03:16:37+00:00"
+    },
+    {
+      "t": "Dana White outlines dream plans for UFC Hawaii",
+      "ts": "2026-09-10T15:30:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-10T18",
-    13
+    14
   ],
   "yt_eval": [
-    "009d955e-d2a7-31fa-81a8-926b2322a79f",
     "https://www.mmafighting.com/?p=507502",
     "2708a003-243e-3aa4-8ecd-6b4517e48948",
     "e10d08d0-4d2d-38f9-8b18-4321ddb65331",
@@ -4491,11 +4490,12 @@
     "2c73124d-b252-3bb3-b730-36b0eebffd5e",
     "https://bloodyelbow.com/?p=331069",
     "453ab62c-ec10-388f-b745-a9a7253b8504",
-    "https://www.sherdog.com/news/news/Justin-Gaethje-went-from-80-cents-to-not-touching-his-UFC-title-paycheck-202736"
+    "https://www.sherdog.com/news/news/Justin-Gaethje-went-from-80-cents-to-not-touching-his-UFC-title-paycheck-202736",
+    "68196dc8-c273-3c01-b3f3-efed4cb6bc08"
   ],
   "daily": {
     "d": "2026-09-10",
-    "ai": 55,
+    "ai": 56,
     "staged": 5,
     "prio": 0,
     "lost": 0
