@@ -1,5 +1,7 @@
 {
   "seen": {
+    "903568f5cc8fa886": 1789064667.3945618,
+    "34e784d27f60fcda": 1789064667.1423364,
     "22ec7c8ba9af0fb9": 1789064602.885275,
     "65d86a088ca6b9b3": 1789064537.5663726,
     "0d8ff770454e6f74": 1789064473.0870738,
@@ -2497,17 +2499,11 @@
     "cc055e0b8b7f859b": 0.0,
     "585f9796617dd039": 0.0,
     "8c2c7042444b5a9f": 0.0,
-    "a933bc6a1d942bd8": 0.0,
-    "6869c43cd1932630": 0.0,
-    "57956a1753d38a29": 0.0
+    "a933bc6a1d942bd8": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Jake Paul Teases Michael Page Signing for MVP MMA",
-      "ts": "2026-09-09T17:17:21+00:00"
-    },
     {
       "t": "Islam Makhachev provides fresh update on Usman Nurmagomedov’s potential UFC signing",
       "ts": "2026-09-09T19:00:00+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Justin Gaethje questions Arman Tsarukyan’s UFC 311 injury claim",
       "ts": "2026-09-10T03:52:09+00:00"
+    },
+    {
+      "t": "Islam Makhachev Reveals Minor Spine Issues Following Three MRIs After UFC 330",
+      "ts": "2026-09-10T17:29:27+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-10T18",
-    18
+    19
   ],
   "yt_eval": [
-    "f5521649-4ff8-31eb-9ba4-e7ea4ed78aa6",
     "https://www.mmafighting.com/?p=507654",
     "https://www.mmafighting.com/?p=507734",
     "28f00338-da4a-3eb1-a1af-a7636b49a1e2",
@@ -4491,24 +4490,17 @@
     "9b569b72-8152-3100-a179-fffea5833266",
     "fe742760-0da7-3f7a-8b99-006fa1d95e86",
     "fbb417eb-bea5-3a1c-b5da-998e93b4b5c9",
-    "https://www.sherdog.com/news/news/Justin-Gaethje-questions-Arman-Tsarukyans-UFC-311-injury-claim-202737"
+    "https://www.sherdog.com/news/news/Justin-Gaethje-questions-Arman-Tsarukyans-UFC-311-injury-claim-202737",
+    "CBMijgFBVV95cUxPeTh2U3h3UXhtMnFDY3NQU0hlanZlZzhiVzV2QjFNOWhTcWUzT3VXSkJLR2MyZXl6c0tZLVI2UE9IMVBKc3JfcTZMZVZzSzF1S0FkZng2N0tKM0ZSb2xxSDNaelpzbTlxQ2RmbmhwNUI2cUVLYTZXM2hvV0ZRdTNSQ1RYZ2dRUFYwQ2NRT293"
   ],
   "daily": {
     "d": "2026-09-10",
-    "ai": 60,
-    "staged": 5,
+    "ai": 61,
+    "staged": 6,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-29T13:05:26.437349+00:00",
-      "t": "Ex-UFC star returns from retirement to finally win again six years after 7-fight losing streak began",
-      "names": [
-        "moraes"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-08-29T13:06:16.559710+00:00",
       "t": "ONE Champion brutally KO’d at UFC Shanghai; Rei Tsuruya puts on a show | Videos",
@@ -5322,6 +5314,21 @@
       "names": [
         "gaethje",
         "topuria"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-10T18:24:28.424975+00:00",
+      "t": "Islam Makhachev Reveals Minor Spine Issues Following Three MRIs After UFC 330",
+      "names": [
+        "islam",
+        "makhachev",
+        "reveals",
+        "minor",
+        "spine",
+        "issues",
+        "following",
+        "three"
       ],
       "img": "photo"
     }
