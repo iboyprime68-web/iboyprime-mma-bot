@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4501efbba7e17187": 1789168496.6121407,
     "3ef4b71ea6ac6b22": 1789168473.9426472,
     "a6f1fa576b6c611f": 1789168409.6766942,
     "fdffcc2c60ec1195": 1789168346.2334936,
@@ -2498,16 +2499,11 @@
     "cb2804e0b23d173c": 0.0,
     "1cee1d740f80fbaa": 0.0,
     "f5055e2827271848": 0.0,
-    "8b19d378d51f3c1a": 0.0,
-    "01c0b074956cb241": 0.0
+    "8b19d378d51f3c1a": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Jean Silva predicts early end to Noche UFC 4 main event",
-      "ts": "2026-09-11T06:35:55+00:00"
-    },
     {
       "t": "Ex-UFC Champion Reveals Biggest Mistake Ilia Topuria Made Against Justin Gaethje",
       "ts": "2026-09-11T07:04:42+00:00"
@@ -2983,13 +2979,17 @@
     {
       "t": "Regina Tarin Is Ready For Her Encore",
       "ts": "2026-09-11T22:14:47+00:00"
+    },
+    {
+      "t": "Snubbed knockout artist Niko Price returns from retirement for last dance at UFC Vegas 122",
+      "ts": "2026-09-11T18:02:59+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-11T23",
-    16
+    17
   ],
   "yt_eval": [
     "cb884d0b-4157-395a-bf01-c022761def3b",
@@ -5348,7 +5348,8 @@
     "71a125752a15831b": 1789098697.9546227,
     "751471093b4a35fa": 1789116378.2867088,
     "4dbdb5c09e1ff998": 1789133340.499635,
-    "97f512aa1ae9d960": 1789168042.6899266
+    "97f512aa1ae9d960": 1789168042.6899266,
+    "4501efbba7e17187": 1789168496.0871997
   },
   "pinged_titles": [
     [
@@ -5356,6 +5357,15 @@
       1789168042.6899266,
       [
         "translator"
+      ]
+    ],
+    [
+      "Snubbed knockout artist Niko Price returns from retirement for last dance at UFC Vegas 122",
+      1789168496.0871997,
+      [
+        "price",
+        "snubbed",
+        "vegas"
       ]
     ]
   ]
