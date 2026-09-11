@@ -1,5 +1,6 @@
 {
   "seen": {
+    "89e71f1ba30f9f5b": 1789116425.4437697,
     "751471093b4a35fa": 1789116378.6949472,
     "37d9a8eaa5e863f8": 1789116354.805122,
     "c6227e2ac84788f5": 1789099240.604894,
@@ -2498,16 +2499,11 @@
     "78ef7cbc9814c5ff": 0.0,
     "541fd879b6186e58": 0.0,
     "7d8667358680a723": 0.0,
-    "ee8a856a0e5791a8": 0.0,
-    "d1e7d67da0548a14": 0.0
+    "ee8a856a0e5791a8": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Jean Silva warns Jose Delgado over 'coward' jab before Noche UFC: 'He's on the wrong path'",
-      "ts": "2026-09-10T13:47:29+00:00"
-    },
     {
       "t": "Jake Paul, Logan Paul set to lead new fight competition reality show on Hulu, ESPN",
       "ts": "2026-09-10T16:00:55+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Terence Crawford says he will come out of retirement as he calls out undefeated champion",
       "ts": "2026-09-11T05:00:00+00:00"
+    },
+    {
+      "t": "Paulo Costa Frustrated After UFC Turns Down Interim 205lbs Title Fight, Rejects Release Request",
+      "ts": "2026-09-11T03:21:38+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-11T08",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMimgFBVV95cUxOWUJvQzBxOVM4ZlZKYWg0Z1l6VFlhZFJzYjJURVBCN1VTWkcxZE1zQk52MWhmSnRneHlKU0FzdTB5a0w0aEdMRmw3R2x3QWVMVHlscHdMZTQzVjZSX1pQYXRkS1N2MnhQUkdQT09GeFV6SnExZnJkaC0tMFRfUlkydi1qUTVYOE5qM2RFZ041QVZPNzBGRjBsVFVB",
     "CBMitgFBVV95cUxPTkhVb3FaakNwNzh6Q0lxWEN6MmFpTEZnVjczYWp3M1pkeU1kdUJINHNMSXJ3c3RBSUd5SDdTRHNBQUpub1Fsa2hFTjZzWmFtZjFlc3hHMk9PUjJSemkyQnpTZFdGZFpWczhXcHE0a18zbUxnQndXcVQxY01QckNIbURfWV9UVjhyOU15a1hrUXM3WXZDT2pLNEVlZjFrUXhxTUlRNzFsWHFkWlByY2Nady1jb24wQQ",
     "CBMiwwFBVV95cUxPdHltM2RxWWdHLVpqaDNmWmQxbUtaRTBueDgybGNfUUlnQVN4by1sQXRLRTEzU1ZKYWFEZGlEbXVYUVdhN2V1SE1BMTZpTmFRRmIzX0J4STVBSWtqWWNKQnVGMGpUU0FwdE4zRDJJRUoyb2xFbTVSWkZlQXlfeHc2SUpxejhmOTRnZ29YdTd4cGlBZmdYY0NiU01rQzBXUEZLNm83TmxBZmUySUd2d1A3c1dEczdzVmNyT2JPUEhvXy1ZaWc",
     "CBMiVkFVX3lxTE45aU43c3BlTlU5ZUdiRlFoTFY2MXJhd082SjZwenVNNmZrRkhHUFVBVlNtNGVwNHRwRmFVajdtelR3UkM3bm1NaU1ObUt3TG91N3ItUFN3",
@@ -4491,28 +4490,17 @@
     "CBMirAFBVV95cUxQbUNkeUdPRlpJd19ZT0NJZWFMTE41ZnVsaHdxUWFGZ2NTUVhFSUZsQy1pNjlKRk5RS1Jvay1YeFJvdm4wTmx5X0VNQzRTdVRSYVVlcjc4UjBVQjh5SzhIRDljWkpvR29nQzhJczJOVm1la3JBRmhUMU1VWFJYS0NZOE9rOVRTUDdnSjU0SXk0aDAyY1drTzVWOUNqZEV0aFFfTzl4OFFWc0lxSnE4",
     "https://www.sherdog.com/news/news/Sean-Strickland-rips-Justin-Gaethjes-continued-Trump-support-202755",
     "https://www.sherdog.com/news/news/Zabit-Magomedsharipovs-undefeated-brother-gets-biggest-test-yet-at-PFL-Dubai-202751",
-    "https://bloodyelbow.com/?p=331109"
+    "https://bloodyelbow.com/?p=331109",
+    "216bcfd1-57d7-3150-a5f1-8d6fa7e7896d"
   ],
   "daily": {
     "d": "2026-09-11",
-    "ai": 17,
-    "staged": 3,
+    "ai": 18,
+    "staged": 4,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-29T13:07:17.885192+00:00",
-      "t": "Song Sleeps Nurmagomedov In Massive Upset",
-      "names": [
-        "song",
-        "sleeps",
-        "nurmagomedov",
-        "massive",
-        "upset"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-08-30T11:00:10.594436+00:00",
       "t": "Glover Teixeira wins first fight since retirement in ‘brutal to watch’ beatdown of fellow UFC legend",
@@ -5317,6 +5305,21 @@
         "crawford"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-11T08:47:06.801479+00:00",
+      "t": "Paulo Costa Frustrated After UFC Turns Down Interim 205lbs Title Fight, Rejects Release Request",
+      "names": [
+        "paulo",
+        "costa",
+        "frustrated",
+        "turns",
+        "down",
+        "interim",
+        "rejects",
+        "release"
+      ],
+      "img": "cutout:paulo-costa"
     }
   ],
   "seed_pending": [],
