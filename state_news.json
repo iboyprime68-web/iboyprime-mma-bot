@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1e40765f2a5ff71f": 1789133045.327083,
     "ddc24181773c354f": 1789133021.8425012,
     "2f0d64c89dfb50c7": 1789132998.2714844,
     "49fc1a573167b708": 1789132997.1338284,
@@ -2498,16 +2499,11 @@
     "a397b16ebaf601b0": 0.0,
     "a63585a9a0a5c211": 0.0,
     "df093795fedc037c": 0.0,
-    "65c0fcf944d54583": 0.0,
-    "bf5558c449d9c4d7": 0.0
+    "65c0fcf944d54583": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Un ancien champion UFC demande à Tom Aspinall d’abandonner sa ceinture",
-      "ts": "2026-09-10T17:39:41+00:00"
-    },
     {
       "t": "UFC star and Liverpool fan Paddy Pimblett admits he wants to 'beat up' Premier League boss",
       "ts": "2026-09-10T17:40:00+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "UFC security spoiled Ryan Garcia’s plan for Conor Benn face-off before Dana White cut it short",
       "ts": "2026-09-11T11:00:00+00:00"
+    },
+    {
+      "t": "Prominent UFC manager releases statement after record database flags fake fight against fake opponent",
+      "ts": "2026-09-11T12:00:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-11T13",
-    2
+    3
   ],
   "yt_eval": [
-    "0ed60c77-4eaf-3b65-86b0-07a3855a5288",
     "d797d902-e764-3af6-bad7-179c78161d53",
     "87e16ace-d100-35be-8712-4217e7612cb2",
     "bbdf728f-cf9d-3e88-85f8-3c144547ae91",
@@ -4491,11 +4490,12 @@
     "CBMitgFBVV95cUxQVDB6M0lNRmltOXR2OGlmNnZsZVpxY0UyTTVvd0NOaEt2Z1dZLVhrSUhQUWtpU2xtbzBPV3J3SHVHNG80Vkx0XzQwNHoxRVRDeUZ3SlJwcTNzWHZCamdRNzVjSlVfNkt4UHVNY0hRanNwX3YtNXVPWWtrTGw5OUktdmtrcGpFUmFjSXJUS1dFZkxuN2hITDUxZ1NJQ0taZUE1bWlJbDQ0VlBrNURaTkJUNndjUzVTd9IBuwFBVV95cUxPbXRKRDExYWVLVXY1enQzeUNwYk1yMWNQbllid2Q2SGxxRk5yWVBRNWFobmhUZEhCY29lakg5MTBmZTh6d2R0bHVBaGtLUGJYdXlGZ3FGZThSVTJuWXNldURTUTRwMnBlQW9ILW9KekNUOVR5cHVlZUhCa0JtMldqOXJhODEyNlJYYVJIdFZWNjRtV2NoaXkyVVphZ0FOX1cwem45ajNBOUNrd1ZtODRyNzZBZS1qVjNQSmxV",
     "CBMiYkFVX3lxTFAyZzBuUkNNeTB3V2xSNThBT3J5WmFCS0xzU0hjYTkwVnE0LWV0S3BxMG5ZYnEwM2MtUG9teEhHMTdmVEhNT0RiVktOaElWckh1UWtMcV9YUlU4M3F2c2UwTXJ3",
     "https://www.sherdog.com/news/news/Eddie-Alvarez-Ilia-Topuria-not-gonna-be-the-same-after-Gaethje-loss-202754",
-    "https://bloodyelbow.com/?p=331132"
+    "https://bloodyelbow.com/?p=331132",
+    "https://bloodyelbow.com/?p=331138"
   ],
   "daily": {
     "d": "2026-09-11",
-    "ai": 34,
+    "ai": 35,
     "staged": 5,
     "prio": 1,
     "lost": 0
