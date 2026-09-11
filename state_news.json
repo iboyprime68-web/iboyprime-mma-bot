@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b81eef94446729a8": 1789117147.0904238,
     "832d38a4193613c2": 1789117082.844393,
     "70485fb31655648b": 1789117019.2310057,
     "8c9cf97a69f8337d": 1789116974.8688233,
@@ -2498,16 +2499,11 @@
     "684bc2021c4afae1": 0.0,
     "74627216893718fa": 0.0,
     "1cfa76fc8a33253b": 0.0,
-    "d5d5761aa96937e3": 0.0,
-    "d91f9896693cc18f": 0.0
+    "d5d5761aa96937e3": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Justin Gaethje welcomes Islam Makhachev mega fight, but doubts champion returns to lightweight",
-      "ts": "2026-09-10T17:02:16+00:00"
-    },
     {
       "t": "Justin Gaethje questions Arman Tsarukyan’s UFC 311 injury claim",
       "ts": "2026-09-10T03:52:09+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "'He's a Bad Guy' - Dana White Names the 1 UFC Fighter He Never Wants to Work With Again",
       "ts": "2026-09-11T08:22:47+00:00"
+    },
+    {
+      "t": "Manon Fiorot: UFC says Alexa Grasso fight will decide next title challenger",
+      "ts": "2026-09-11T08:02:06+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-11T08",
-    15
+    16
   ],
   "yt_eval": [
-    "CBMihAJBVV95cUxQMTdwUkkyc29nVUt5V0FVZVlZbmh5WG1BZXZ4b2VlNVdJb05sNHhFMjRGYk95VmRRWVNkeDVNU29YeDRJU05TeENNUWY0VVRpVWxGVVowQ2ltVnJDMTZNZEo4SS1YdmVraDdwbnNaVHZLWE5JMUVYNDdLUkttdXNTZ1RZei01MFM5WDJzeF9MYm9reEVHNHk4N3JRM0RSSHpBTVRpV2dNSkhCZVNsT09ZcHV0QnoyQ0xqRUZpeVhCM0F5WDhEdVN5emlsRmJZSi02WGxmTG83V3Jsa3NUNEttYlQ5UFZBb3FCNnduTVdvejhaa2Z1WEhTZmFoUHdLX250T0xQQQ",
     "CBMiSkFVX3lxTE4wNkVTcDF2Vl8tWmVzWVBBLUhhY2wtRWlpTVdnMXNOemVoaHJHeVFiOGdvVVBHWkJzX1NaVk0ydktJTk5BVzlBWFRB",
     "CBMivgFBVV95cUxOWXA0c0NNR25DenhpTGRLbHpvXzlpYWhhYXB6aml3ZVktMEprWDU3ZWk2c2x3enJQWVliYlBzS01SbGFqaDlBZG1DRUFiUk1GbWZscnVsc0RvTEJFeUFYRkJiR3hEWWVZc3N0dUpwaVlDQV9MbFdsUGkxTF9TVk82aTBYT2VCWW1NU1V5VkNKTHdjNmJEdmJ5ZkNJbWZhc0RzUkpuTnFwMVQxVFhyYjR4dXdrTlZneGxyUWtGQWxR",
     "CBMiiwFBVV95cUxPNHBPVVFLcUl6cnhveWktMU1hZmZlcFRsN1dYNllmVXFzcmFkS2Vqb3lfZWdSX29yQWFmSjlqdWMyYVVmZU1wQ1I1M3VLMml4S3ZhTkFLU3VsUUE0YkUtV2RKMklIODZTQ05taXp2T2RBQkhodHRLOGxmaDJXMFBqRFhIV2U4YjE2VVdn",
@@ -4491,24 +4490,17 @@
     "CBMihgFBVV95cUxPc1lyUUhLMU5qM2xrT0dzdldVdzd2S3RfalFyaWU1RkVPY3U2WGpSQl9PMDlHZlJyNUJncGFvdVVSdUU5NmY3X1JVOUxqQ19aM1BRQUtJRnJZRVhNVmNEQkRNY0RUd1hIckxmN1AxamktV3VvbW9yQWVoWXUyMmh6Nk90TS12dw",
     "https://www.sherdog.com/news/news/UFC-champ-Justin-Gaethje-stumps-for-Trump-at-GOP-midterm-convention-202753",
     "CBMipwFBVV95cUxQNURMMjlEY3BDNXlLQUlmUTdaeUM0WXlBaGIyN09RU0xLR1NhS0h6RW1fbGIzU2xMVFpERGpjeGhmZ2lxLXg0a0gyUG5lOWkyNGJZem1vZnB5VFJkMFZVTGdaaEthZENFWU5iVmdDVlZIVWtQdkZNN2JaQ3BIcHd3WkpXMUZiSGdWTE0wMUJsUnRVSWxvX2tDSWFKMEpQYktPVTF0UkNZZw",
-    "CBMioAFBVV95cUxOMlRnc2dVM1dLd3IxTkJESmRtV1luMDVhTjlNTFpsQlJFUEtlcjZfb0E5dmZCNzRZVjFGU1ZLRF9ET19iN2F2NzM4X1VPYVJBeXpUNGtnZXlUYnFhUk15SmFCaDJUek13NlAzVE5IMHRLYUpqaXZqeWRDTlM1ZXhqcTJhN0QxQ2t0WHJ1Q2lqQ2NNeEpTTzJ0M3dzaEFJMHNR"
+    "CBMioAFBVV95cUxOMlRnc2dVM1dLd3IxTkJESmRtV1luMDVhTjlNTFpsQlJFUEtlcjZfb0E5dmZCNzRZVjFGU1ZLRF9ET19iN2F2NzM4X1VPYVJBeXpUNGtnZXlUYnFhUk15SmFCaDJUek13NlAzVE5IMHRLYUpqaXZqeWRDTlM1ZXhqcTJhN0QxQ2t0WHJ1Q2lqQ2NNeEpTTzJ0M3dzaEFJMHNR",
+    "CBMitgFBVV95cUxQVDB6M0lNRmltOXR2OGlmNnZsZVpxY0UyTTVvd0NOaEt2Z1dZLVhrSUhQUWtpU2xtbzBPV3J3SHVHNG80Vkx0XzQwNHoxRVRDeUZ3SlJwcTNzWHZCamdRNzVjSlVfNkt4UHVNY0hRanNwX3YtNXVPWWtrTGw5OUktdmtrcGpFUmFjSXJUS1dFZkxuN2hITDUxZ1NJQ0taZUE1bWlJbDQ0VlBrNURaTkJUNndjUzVTd9IBuwFBVV95cUxPbXRKRDExYWVLVXY1enQzeUNwYk1yMWNQbllid2Q2SGxxRk5yWVBRNWFobmhUZEhCY29lakg5MTBmZTh6d2R0bHVBaGtLUGJYdXlGZ3FGZThSVTJuWXNldURTUTRwMnBlQW9ILW9KekNUOVR5cHVlZUhCa0JtMldqOXJhODEyNlJYYVJIdFZWNjRtV2NoaXkyVVphZ0FOX1cwem45ajNBOUNrd1ZtODRyNzZBZS1qVjNQSmxV"
   ],
   "daily": {
     "d": "2026-09-11",
-    "ai": 30,
-    "staged": 4,
+    "ai": 31,
+    "staged": 5,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-30T11:00:10.594436+00:00",
-      "t": "Glover Teixeira wins first fight since retirement in ‘brutal to watch’ beatdown of fellow UFC legend",
-      "names": [
-        "teixeira"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-08-30T19:15:49.316857+00:00",
       "t": "Video: UFC fighter Sedriques Dumas attacks fan in Joker costume at Duel Arena 1",
@@ -5320,6 +5312,15 @@
         "release"
       ],
       "img": "cutout:paulo-costa"
+    },
+    {
+      "ts": "2026-09-11T08:59:08.368670+00:00",
+      "t": "Manon Fiorot: UFC says Alexa Grasso fight will decide next title challenger",
+      "names": [
+        "fiorot",
+        "grasso"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
