@@ -1,5 +1,6 @@
 {
   "seen": {
+    "253f862de5185345": 1789116669.148605,
     "424016f112d20e23": 1789116625.7156296,
     "4493c541d40e6354": 1789116560.2080138,
     "b393b70993eed289": 1789116494.544522,
@@ -2498,16 +2499,11 @@
     "80d398def66aae3c": 0.0,
     "316f7ed2d855af5c": 0.0,
     "f2078f5be13f2578": 0.0,
-    "5f5b26f176a2b2db": 0.0,
-    "78ef7cbc9814c5ff": 0.0
+    "5f5b26f176a2b2db": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Justin Gaethje provides new retirement update with Ilia Topuria rematch rumors continuing to circulate",
-      "ts": "2026-09-10T17:30:00+00:00"
-    },
     {
       "t": "Between the Links: Salahdine Parnasse shines, MVP’s UFC exit, UFC 332 reveal",
       "ts": "2026-09-10T17:46:09+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Waldo Cortes Acosta Trashes UFC Champion Tom Aspinall",
       "ts": "2026-09-11T04:52:10+00:00"
+    },
+    {
+      "t": "Jake Paul and ESPN team up for new TUF clone: ‘Primal survivor meets fighting’",
+      "ts": "2026-09-11T02:44:14+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-11T08",
-    6
+    7
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=468333",
     "https://www.mmamania.com/468159/highlights-open-ufc-shanghai",
     "CBMiXkFVX3lxTE5VV2owenI1RTNqU0dVZG1rSHR1VERQYTZhY25lUVdRRWhaV0Rsb0o2alV0anNwVVVBRnJKT0lFZGZNU0NxUzNLMzRDZ2QwNFA3LXNpalpkaWtzUDhuV2c",
     "https://bloodyelbow.com/?p=329543",
@@ -4491,11 +4490,12 @@
     "216bcfd1-57d7-3150-a5f1-8d6fa7e7896d",
     "f5ad80ec-120d-3adf-8590-bdef8c8fa73e",
     "f70f53db-d212-342e-ae52-e13216104443",
-    "4503a736-e4a5-3462-89e7-c6f2e70d4dc1"
+    "4503a736-e4a5-3462-89e7-c6f2e70d4dc1",
+    "https://www.mmamania.com/471009/mm-clone"
   ],
   "daily": {
     "d": "2026-09-11",
-    "ai": 21,
+    "ai": 22,
     "staged": 4,
     "prio": 1,
     "lost": 0
