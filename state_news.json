@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0e4608be7f8ea97e": 1789098727.1679604,
     "71a125752a15831b": 1789098701.373239,
     "5d61965bdf4a953e": 1789098697.9518096,
     "81aeebf30d07e25b": 1789098672.1636698,
@@ -2498,16 +2499,11 @@
     "bca93ff80048927a": 0.0,
     "a62f7516f336ae5f": 0.0,
     "f9b54d6071d370d9": 0.0,
-    "e2f29c6d0ace87ea": 0.0,
-    "b1f210eae8004fd9": 0.0
+    "e2f29c6d0ace87ea": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC Fight Night 288 broadcast team set with double 'DC' in booth",
-      "ts": "2026-09-10T12:00:48+00:00"
-    },
     {
       "t": "Tommy McMillen offers to be backup for Alexander Volkanovski vs. Movsar Evloev title fight, ‘dust any of those boys’ at UFC 333",
       "ts": "2026-09-10T12:46:14+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Dana White weighs in on Justin Gaethje retirement rumors",
       "ts": "2026-09-11T00:00:00+00:00"
+    },
+    {
+      "t": "UFC commentator Jon Anik identifies the three title fights that could happen at UFC 334 and UFC 335",
+      "ts": "2026-09-11T03:00:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-11T03",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMidkFVX3lxTE1KMGMwM0syTjZZcGZGTW00aEdlbGZIY3k5bFZVemFleEx5VTV5RVZxYkw4RFphU2gwdS1GZ1I0Y2cxbWJxWkZycTd0dUx0UmJuMGl6eVNaUUxFaUJWY05MaFNPem9IbFluMGNBU3pub1lrQzZHWFE",
     "CBMingFBVV95cUxNSGt2Q1RzUVZmZnlRZ2ZUTUtOT001dzNUM3dPaWY5Zng0dm9nU3JiQklJS3llUVhwZHk2V2ZfTm9UNExFLXZjcklJb3puSVE0WGVJZ2VZZW9wcWRDZ3NNRUFSSmF6MlRPaVpNeVJXOGNBSFUxRmltZnE1QWtJTEV2M0FvcGtCUjFkX252Y3dldzFhYUVmTEFqS0ktNzlHdw",
     "CBMifkFVX3lxTE9VWjZ2Sk9ZcjJHLU8wWGNET0NSdTRONGVxN043YnRNZnZBcmJIOS1vUTVQQWhSX0xWTXFncjh0VW5MX1dFZzhLVzE3TGRCc0xOR2NZVTNWUWFBZmg1bnYwLWMzeFNDYkI5Q3VhaFZlRVh6SzZCTVJOSG5YX3lhUQ",
     "CBMixgFBVV95cUxPZjZKaHJ6dDFHVnU4VURvaVNoV1lpdkpsMFgyWWpYX1dzQ0drWlJlakxKaDNZeTZEQUZ4UWdYNEZtWEJYWVMyLWktUjNCeGp6ODNYbE5nRDE4MFVJLXotbGl3Q2oxYk5BaTYzQnp5ZTE0SW41cF8yak05NmEwYklOUy1qQ3BsZmJJTy1tdnRKTVhvdE0yaEVFRTV6U1ZhNEtjRngxSURmS1MweS1PWFJSRlFDdjVBTWVHTGh4eEoycV90OGVVbVE",
@@ -4491,11 +4490,12 @@
     "https://www.mmamania.com/?p=470990",
     "https://www.mmafighting.com/?p=509519",
     "https://bloodyelbow.com/?p=331095",
-    "be016ba1-4607-3a0a-9968-140c912518b1"
+    "be016ba1-4607-3a0a-9968-140c912518b1",
+    "https://bloodyelbow.com/?p=331107"
   ],
   "daily": {
     "d": "2026-09-11",
-    "ai": 5,
+    "ai": 6,
     "staged": 2,
     "prio": 0,
     "lost": 0
