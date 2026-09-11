@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4dbdb5c09e1ff998": 1789133340.8710496,
     "ca7a9ffd8089d00e": 1789133297.536206,
     "c716ffeec1aa54cd": 1789133267.9550996,
     "5d2b5a05979e83d1": 1789133202.9667954,
@@ -2498,16 +2499,11 @@
     "b9f03a6ba6bc3b4d": 0.0,
     "ed07b5eff75390ac": 0.0,
     "185d0ab2fbf27a65": 0.0,
-    "b8a3a754d6d5f267": 0.0,
-    "27502b186426262b": 0.0
+    "b8a3a754d6d5f267": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Nathaniel Wood's UFC Treatment Explained",
-      "ts": "2026-09-10T17:42:47+00:00"
-    },
     {
       "t": "Islam Makhachev says there’s a ‘90&#37;’ chance Usman Nurmagomedov joins UFC",
       "ts": "2026-09-10T05:50:56+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Dana White says Terence Crawford would fight again under one condition",
       "ts": "2026-09-11T04:04:31+00:00"
+    },
+    {
+      "t": "UFC Champion Justin Gaethje Contemplates Retirement",
+      "ts": "2026-09-11T12:35:26+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-11T13",
-    9
+    10
   ],
   "yt_eval": [
-    "b0e51e72-a056-3938-8d15-4415df8a4d7f",
     "c3cc0dd5-e244-3c01-b470-a0f3f4d79785",
     "da205b30-c4a9-398a-9426-8bdcc17a55c6",
     "cb884d0b-4157-395a-bf01-c022761def3b",
@@ -4491,25 +4490,17 @@
     "https://bloodyelbow.com/?p=331154",
     "52059b8b-d878-3e1a-af70-03fcc0d92ba5",
     "CBMipAFBVV95cUxNS3p3eEtudEFSU3lKRjBaX0lKOHM2YVU4Ni10Vk9ZX1ZCeEhyUWhKSmpOTnNMa1dkdTdGWW0wdVgwaHA4RjdmMFFLcmx6TV91eUZpUTNTdzZUb2l0QVFuT0N2Q3VwWURtNjE4T0cyamJFMjhXS0NNWlg5Ri13dnpXY0ktOWd4d2xwRnpNTDJvcklDSGhJMmJyTnd0WG1zUHZNdldHMQ",
-    "CBMinwJBVV95cUxNcEsxNGRJS0gxc3RZS3RvSXlkalhjWTZSank1Y1RsU0JsOHkxN0lQa1pWWnNVOHNaSkY3Zlk2eUl3NzJ1OXVINC1LeW1VTDRIYVZ1dVNhdm1xLWxwOXcwSFhpVUt5NGdWekM0dVE3SWZXTXNpcEV3akFxZy1wV2NrUjZZV25oVkZONUZqVzFydmF3RzNGeHJsTlU4bDliSXhocDNUcTgyX0pvSktKUnNmTWRFb0lpM1dRcEg1elRwejg2enhFMUVId3Atb1cxbEdMRG41VmtfZ0JKZERhNlFsYm9QN1dWWG9CajVVSVdxMUJyM0M2d1JtUThFWkhucU9zOTFJMmdKYlZGYnVZN3dGZ25UVE9DRFBvTmxlRXd6c9IBpAJBVV95cUxPTVJFSGotaDdxRU0zVkxacEtfT3p5VmpGSUhzZS05QW5ZYkFpejdrM1pGcWllYjhyTmVUbzBZbzZRbXNkNUNZTjd6S2ZhQzR0WWdJdlVtczhJY3ctM0luckpETGxYMjMxajhqNnBmMUVvX3RTc2RxeHVkY1gwN0NPQXRjZ1VyMUdjdDhjZUp0ZmFOYlBBVHhrSWpZVE5CeFZaQjZtblNJZ0RKdkZkUmNXcFdva0R6ZTc2UnpTRFlidHZwaWtCRkhxODVDZjk0VG95cVBBTmVSN1JMNm9HZkNXX2YtZlJSZFhzcVFSb0RKM2dkNzFlWF9tMGxWTUVsb0lHMXl1VXREdXlwMEVjS05lQU5KRWZUYk14YzRoSzJ6ZWRjcmd3"
+    "CBMinwJBVV95cUxNcEsxNGRJS0gxc3RZS3RvSXlkalhjWTZSank1Y1RsU0JsOHkxN0lQa1pWWnNVOHNaSkY3Zlk2eUl3NzJ1OXVINC1LeW1VTDRIYVZ1dVNhdm1xLWxwOXcwSFhpVUt5NGdWekM0dVE3SWZXTXNpcEV3akFxZy1wV2NrUjZZV25oVkZONUZqVzFydmF3RzNGeHJsTlU4bDliSXhocDNUcTgyX0pvSktKUnNmTWRFb0lpM1dRcEg1elRwejg2enhFMUVId3Atb1cxbEdMRG41VmtfZ0JKZERhNlFsYm9QN1dWWG9CajVVSVdxMUJyM0M2d1JtUThFWkhucU9zOTFJMmdKYlZGYnVZN3dGZ25UVE9DRFBvTmxlRXd6c9IBpAJBVV95cUxPTVJFSGotaDdxRU0zVkxacEtfT3p5VmpGSUhzZS05QW5ZYkFpejdrM1pGcWllYjhyTmVUbzBZbzZRbXNkNUNZTjd6S2ZhQzR0WWdJdlVtczhJY3ctM0luckpETGxYMjMxajhqNnBmMUVvX3RTc2RxeHVkY1gwN0NPQXRjZ1VyMUdjdDhjZUp0ZmFOYlBBVHhrSWpZVE5CeFZaQjZtblNJZ0RKdkZkUmNXcFdva0R6ZTc2UnpTRFlidHZwaWtCRkhxODVDZjk0VG95cVBBTmVSN1JMNm9HZkNXX2YtZlJSZFhzcVFSb0RKM2dkNzFlWF9tMGxWTUVsb0lHMXl1VXREdXlwMEVjS05lQU5KRWZUYk14YzRoSzJ6ZWRjcmd3",
+    "CBMiggFBVV95cUxPYnRVZGRZVm9CTlZBVzh6cUVhd0Nka1R2d21DTXBieXNNcmluY0dCY2NTWXFwb2VGbGpqaUJMdl8yOW5wVFFJcjIxbGFKdlhBZDVOZG1jYXF5SmlZdXhlUC15TVE2R0Nma2YxYmNQWDdGVGxOMG5VTWZGRldrelpUcVZB"
   ],
   "daily": {
     "d": "2026-09-11",
-    "ai": 40,
+    "ai": 41,
     "staged": 6,
-    "prio": 1,
+    "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-30T19:15:53.526220+00:00",
-      "t": "Justin Gaethje's hands still hurt from beating Ilia Topuria so badly",
-      "names": [
-        "gaethje",
-        "topuria"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-08-30T22:34:39.463260+00:00",
       "t": "Usman Nurmagomedov Once Got Escorted Out of UFC 302 After Jumping the Cage for Islam Makhachev",
@@ -5321,6 +5312,17 @@
         "you"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-11T13:29:02.140251+00:00",
+      "t": "UFC Champion Justin Gaethje Contemplates Retirement",
+      "names": [
+        "justin",
+        "gaethje",
+        "contemplates",
+        "retirement"
+      ],
+      "img": "cutout:justin-gaethje"
     }
   ],
   "seed_pending": [],
@@ -5350,29 +5352,25 @@
     "ad3d9749a25dd815": 1789064152.158193,
     "81aeebf30d07e25b": 1789098671.9209988,
     "71a125752a15831b": 1789098697.9546227,
-    "751471093b4a35fa": 1789116378.2867088
+    "751471093b4a35fa": 1789116378.2867088,
+    "4dbdb5c09e1ff998": 1789133340.499635
   },
   "pinged_titles": [
-    [
-      "BKFC star Connor Tierney explains decision to cut retirement short after having his jaw split in two",
-      1789098671.9209988,
-      [
-        "tierney"
-      ]
-    ],
-    [
-      "Dana White weighs in on Justin Gaethje retirement rumors",
-      1789098697.9546227,
-      [
-        "gaethje",
-        "white"
-      ]
-    ],
     [
       "Terence Crawford says he will come out of retirement as he calls out undefeated champion",
       1789116378.2867088,
       [
         "crawford"
+      ]
+    ],
+    [
+      "UFC Champion Justin Gaethje Contemplates Retirement",
+      1789133340.499635,
+      [
+        "contemplates",
+        "gaethje",
+        "justin",
+        "retirement"
       ]
     ]
   ]
