@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c4cc19ac2c59a0d6": 1789148296.125332,
     "b22eb5f1d63e3795": 1789148273.8842938,
     "da04770e8f327546": 1789135252.8482287,
     "67549445be76ba1a": 1789135229.5499327,
@@ -2498,16 +2499,11 @@
     "3fe7b97e1b25eb8c": 0.0,
     "c4c9644f796a716e": 0.0,
     "6db902952dd5aaff": 0.0,
-    "6a6203596d8eb3d5": 0.0,
-    "a07c5a938efd92b0": 0.0
+    "6a6203596d8eb3d5": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Dana White: Ilia Topuria ‘ready to fight’ but no decision yet on potential opponents",
-      "ts": "2026-09-10T17:17:05+00:00"
-    },
     {
       "t": "Ryan Garcia doesn’t want to ‘hear any crybaby s—t’ from Conor Benn over weight issues",
       "ts": "2026-09-10T11:12:46+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Brandon Moreno makes candid ‘worst enemy’ admission after 2 UFC losses",
       "ts": "2026-09-11T06:19:27+00:00"
+    },
+    {
+      "t": "Dana White shoots down Francis Ngannou UFC return talk: ‘I just don’t want to do business with bad guys’",
+      "ts": "2026-09-11T14:01:26+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-11T17",
-    1
+    2
   ],
   "yt_eval": [
-    "da205b30-c4a9-398a-9426-8bdcc17a55c6",
     "cb884d0b-4157-395a-bf01-c022761def3b",
     "05d5401a-d1d1-3437-97e5-cb94776dca7f",
     "e77570cf-613f-3b71-97c4-6c39356e0e37",
@@ -4491,24 +4490,17 @@
     "CBMipAFBVV95cUxNS3p3eEtudEFSU3lKRjBaX0lKOHM2YVU4Ni10Vk9ZX1ZCeEhyUWhKSmpOTnNMa1dkdTdGWW0wdVgwaHA4RjdmMFFLcmx6TV91eUZpUTNTdzZUb2l0QVFuT0N2Q3VwWURtNjE4T0cyamJFMjhXS0NNWlg5Ri13dnpXY0ktOWd4d2xwRnpNTDJvcklDSGhJMmJyTnd0WG1zUHZNdldHMQ",
     "CBMinwJBVV95cUxNcEsxNGRJS0gxc3RZS3RvSXlkalhjWTZSank1Y1RsU0JsOHkxN0lQa1pWWnNVOHNaSkY3Zlk2eUl3NzJ1OXVINC1LeW1VTDRIYVZ1dVNhdm1xLWxwOXcwSFhpVUt5NGdWekM0dVE3SWZXTXNpcEV3akFxZy1wV2NrUjZZV25oVkZONUZqVzFydmF3RzNGeHJsTlU4bDliSXhocDNUcTgyX0pvSktKUnNmTWRFb0lpM1dRcEg1elRwejg2enhFMUVId3Atb1cxbEdMRG41VmtfZ0JKZERhNlFsYm9QN1dWWG9CajVVSVdxMUJyM0M2d1JtUThFWkhucU9zOTFJMmdKYlZGYnVZN3dGZ25UVE9DRFBvTmxlRXd6c9IBpAJBVV95cUxPTVJFSGotaDdxRU0zVkxacEtfT3p5VmpGSUhzZS05QW5ZYkFpejdrM1pGcWllYjhyTmVUbzBZbzZRbXNkNUNZTjd6S2ZhQzR0WWdJdlVtczhJY3ctM0luckpETGxYMjMxajhqNnBmMUVvX3RTc2RxeHVkY1gwN0NPQXRjZ1VyMUdjdDhjZUp0ZmFOYlBBVHhrSWpZVE5CeFZaQjZtblNJZ0RKdkZkUmNXcFdva0R6ZTc2UnpTRFlidHZwaWtCRkhxODVDZjk0VG95cVBBTmVSN1JMNm9HZkNXX2YtZlJSZFhzcVFSb0RKM2dkNzFlWF9tMGxWTUVsb0lHMXl1VXREdXlwMEVjS05lQU5KRWZUYk14YzRoSzJ6ZWRjcmd3",
     "CBMiggFBVV95cUxPYnRVZGRZVm9CTlZBVzh6cUVhd0Nka1R2d21DTXBieXNNcmluY0dCY2NTWXFwb2VGbGpqaUJMdl8yOW5wVFFJcjIxbGFKdlhBZDVOZG1jYXF5SmlZdXhlUC15TVE2R0Nma2YxYmNQWDdGVGxOMG5VTWZGRldrelpUcVZB",
-    "CBMiugFBVV95cUxQcTF6NFVUUE9FMjFHa2d5TmNmNW1hOUF0ZWZ5SHdYR3hKM1JqeUd1Wm9OUkIyamR1Y25GS2ZIbUU4TGhsOFZHQUoxMzRIUzdwYjJuZVBPcGxmdjFFUnBKWHFnSk9DeUJlNUt5d2YxeklYbi1fQ0RweE95R0U1cTYtakxIMW5ybGQyTkNGUi1pNnEyTEdpbkltT2tZTUxhNWlNaGczX0VEc3ljak1LT29JTmdXSnhFMFpLakE"
+    "CBMiugFBVV95cUxQcTF6NFVUUE9FMjFHa2d5TmNmNW1hOUF0ZWZ5SHdYR3hKM1JqeUd1Wm9OUkIyamR1Y25GS2ZIbUU4TGhsOFZHQUoxMzRIUzdwYjJuZVBPcGxmdjFFUnBKWHFnSk9DeUJlNUt5d2YxeklYbi1fQ0RweE95R0U1cTYtakxIMW5ybGQyTkNGUi1pNnEyTEdpbkltT2tZTUxhNWlNaGczX0VEc3ljak1LT29JTmdXSnhFMFpLakE",
+    "https://www.mmafighting.com/?p=509550"
   ],
   "daily": {
     "d": "2026-09-11",
-    "ai": 42,
+    "ai": 43,
     "staged": 6,
-    "prio": 3,
+    "prio": 4,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-31T01:40:15.182108+00:00",
-      "t": "Song stuns world in massive UFC upset",
-      "names": [
-        "song"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-08-31T02:06:59.887969+00:00",
       "t": "Man Who Targeted White House UFC Event Also Planned To Attack Bay Area Data Centers: Feds",
@@ -5314,6 +5306,15 @@
       "t": "UFC champion Justin Gaethje provides update on possible MMA retirement",
       "names": [
         "gaethje"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-11T17:38:17.569784+00:00",
+      "t": "Dana White shoots down Francis Ngannou UFC return talk: ‘I just don’t want to do business with bad guys’",
+      "names": [
+        "white",
+        "ngannou"
       ],
       "img": "photo"
     }
