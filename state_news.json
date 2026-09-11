@@ -1,5 +1,7 @@
 {
   "seen": {
+    "71a125752a15831b": 1789098701.373239,
+    "5d61965bdf4a953e": 1789098697.9518096,
     "81aeebf30d07e25b": 1789098672.1636698,
     "864b06c3092de5c3": 1789098648.9229481,
     "bfce219aefe88ffa": 1789098625.5658865,
@@ -2497,17 +2499,11 @@
     "a62f7516f336ae5f": 0.0,
     "f9b54d6071d370d9": 0.0,
     "e2f29c6d0ace87ea": 0.0,
-    "b1f210eae8004fd9": 0.0,
-    "dd2b2635eb9a54ff": 0.0,
-    "7c0ca9699ad51a83": 0.0
+    "b1f210eae8004fd9": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "43-year-old MMA legend knocked out by Floyd Mayweather’s former opponent in late stoppage",
-      "ts": "2026-09-10T12:19:51+00:00"
-    },
     {
       "t": "UFC Fight Night 288 broadcast team set with double 'DC' in booth",
       "ts": "2026-09-10T12:00:48+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "BKFC star Connor Tierney explains decision to cut retirement short after having his jaw split in two",
       "ts": "2026-09-11T01:00:00+00:00"
+    },
+    {
+      "t": "Dana White weighs in on Justin Gaethje retirement rumors",
+      "ts": "2026-09-11T00:00:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-11T03",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMiW0FVX3lxTE5wSWZKMmZXb0UxTHBfSVJIOERoeXc3ZEZwLUc1UUNsLTZBZmlwc01sSWtuTmFYcldOUEx6ZDhJcEozSHYwVjB6UzVfaE91OTNiY2tISVBrcVdJZ0E",
     "CBMidkFVX3lxTE1KMGMwM0syTjZZcGZGTW00aEdlbGZIY3k5bFZVemFleEx5VTV5RVZxYkw4RFphU2gwdS1GZ1I0Y2cxbWJxWkZycTd0dUx0UmJuMGl6eVNaUUxFaUJWY05MaFNPem9IbFluMGNBU3pub1lrQzZHWFE",
     "CBMingFBVV95cUxNSGt2Q1RzUVZmZnlRZ2ZUTUtOT001dzNUM3dPaWY5Zng0dm9nU3JiQklJS3llUVhwZHk2V2ZfTm9UNExFLXZjcklJb3puSVE0WGVJZ2VZZW9wcWRDZ3NNRUFSSmF6MlRPaVpNeVJXOGNBSFUxRmltZnE1QWtJTEV2M0FvcGtCUjFkX252Y3dldzFhYUVmTEFqS0ktNzlHdw",
     "CBMifkFVX3lxTE9VWjZ2Sk9ZcjJHLU8wWGNET0NSdTRONGVxN043YnRNZnZBcmJIOS1vUTVQQWhSX0xWTXFncjh0VW5MX1dFZzhLVzE3TGRCc0xOR2NZVTNWUWFBZmg1bnYwLWMzeFNDYkI5Q3VhaFZlRVh6SzZCTVJOSG5YX3lhUQ",
@@ -4491,31 +4490,17 @@
     "https://www.mmafighting.com/?p=509413",
     "https://www.mmamania.com/?p=470990",
     "https://www.mmafighting.com/?p=509519",
-    "https://bloodyelbow.com/?p=331095"
+    "https://bloodyelbow.com/?p=331095",
+    "be016ba1-4607-3a0a-9968-140c912518b1"
   ],
   "daily": {
     "d": "2026-09-11",
-    "ai": 4,
-    "staged": 1,
+    "ai": 5,
+    "staged": 2,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-29T13:06:45.034809+00:00",
-      "t": "Denise Gomes Lands Highlight Reel Finish Against Yan Xiaonan | UFC Shanghai",
-      "names": [
-        "denise",
-        "gomes",
-        "lands",
-        "highlight",
-        "reel",
-        "finish",
-        "against",
-        "yan"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-08-29T13:07:04.750446+00:00",
       "t": "Dana White issues official statement on Tom Aspinall's next fight amid bitter Eddie Hearn feud and UFC exit rumours",
@@ -5327,6 +5312,15 @@
         "tierney"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-11T03:51:42.584335+00:00",
+      "t": "Dana White weighs in on Justin Gaethje retirement rumors",
+      "names": [
+        "white",
+        "gaethje"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -5354,7 +5348,8 @@
     "fcfce8131ef2a8ef": 1788995191.9190924,
     "e978f22f6fd6adab": 1789019231.0862243,
     "ad3d9749a25dd815": 1789064152.158193,
-    "81aeebf30d07e25b": 1789098671.9209988
+    "81aeebf30d07e25b": 1789098671.9209988,
+    "71a125752a15831b": 1789098697.9546227
   },
   "pinged_titles": [
     [
@@ -5362,6 +5357,14 @@
       1789098671.9209988,
       [
         "tierney"
+      ]
+    ],
+    [
+      "Dana White weighs in on Justin Gaethje retirement rumors",
+      1789098697.9546227,
+      [
+        "gaethje",
+        "white"
       ]
     ]
   ]
