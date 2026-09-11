@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 9,
   "staged_at": [
-    "2026-09-09T13:46:29.314375+00:00",
     "2026-09-09T19:20:18.805837+00:00",
     "2026-09-10T13:40:23.205019+00:00",
-    "2026-09-10T19:09:11.376099+00:00"
+    "2026-09-10T19:09:11.376099+00:00",
+    "2026-09-11T13:38:42.183342+00:00"
   ],
   "asked": [
-    "Who is the most overrated fighter in the UFC right now?",
     "Who has the best chin the octagon has ever seen?",
     "Who is the most feared grappler in UFC history?",
     "Who is the most spoiled fighter in UFC history?",
@@ -47,27 +46,20 @@
     "Who is the most underrated fighter in the UFC right now?",
     "Who is the worst main event in UFC history?",
     "Who is the best commentator in UFC history?",
-    "Who is the most complete fighter in the UFC right now?"
+    "Who is the most complete fighter in the UFC right now?",
+    "Who wins the UFC 333 trilogy, Yan or Merab?"
   ],
   "last_entry": {
-    "q": "Who is the most complete fighter in the UFC right now?",
+    "q": "Who wins the UFC 333 trilogy, Yan or Merab?",
     "type": "poll",
     "options": [
       {
-        "label": "Ilia Topuria",
-        "emoji": "🔥"
+        "label": "Petr Yan",
+        "emoji": "🐺"
       },
       {
-        "label": "Islam Makhachev",
-        "emoji": "🐐"
-      },
-      {
-        "label": "Alex Pereira",
-        "emoji": "🗿"
-      },
-      {
-        "label": "Other (comment below)",
-        "emoji": "💬"
+        "label": "Merab Dvalishvili",
+        "emoji": "🦅"
       }
     ]
   }
