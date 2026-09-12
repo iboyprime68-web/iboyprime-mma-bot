@@ -1,5 +1,12 @@
 {
   "seen": {
+    "3dd65fb0d2c2d362": 1789217575.9939227,
+    "e123d450ec215154": 1789217575.7212858,
+    "75be65c632a803f9": 1789217575.720913,
+    "80e264996abedb0d": 1789217575.7205603,
+    "a2b6ae22006e5cd3": 1789217575.7190003,
+    "434ae5f4390ed606": 1789217575.7156527,
+    "937ef90889d1d4c2": 1789217575.7153182,
     "fd18f4584d6d3d13": 1789217511.532471,
     "df932dbc57aad306": 1789217511.2752872,
     "cf19c99e29838522": 1789217511.2733147,
@@ -2492,22 +2499,11 @@
     "f082f6324367e0fd": 0.0,
     "d428dd1be08394c5": 0.0,
     "9878e8af944aa4a7": 0.0,
-    "2798eacfed472fba": 0.0,
-    "aca34eaaa7121db2": 0.0,
-    "29f6224aef89df23": 0.0,
-    "5167c78ed205d5fc": 0.0,
-    "d730a9d0a3ee9b48": 0.0,
-    "0ad61fa20bbb1719": 0.0,
-    "78848406e8f8c017": 0.0,
-    "c28e5cd18d693319": 0.0
+    "2798eacfed472fba": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Dana White Explains Valentina Shevchenko Losing UFC Title",
-      "ts": "2026-09-11T17:20:44+00:00"
-    },
     {
       "t": "Logan Paul calls for Conor McGregor crossover fight: 'I think we'd have a competitive bout'",
       "ts": "2026-09-11T11:40:40+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Conor McGregor reveals wild plan for Max Holloway at UFC 329 that ended in disaster as fight ended in jus",
       "ts": "2026-09-12T11:54:00+00:00"
+    },
+    {
+      "t": "UFC CEO Rules Out Return For Ex-Champion Francis Ngannou",
+      "ts": "2026-09-12T12:00:19+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-12T12",
-    10
+    11
   ],
   "yt_eval": [
-    "CBMikAFBVV95cUxQMFRCX0RaRUlIY2RpOEZOZk0xTl9IYnFkMU5aRGs2LUNwSXI0bWlibzhzRHVsRHZ4S0pITC1DZ25ISnRjRUI5a1lhOVlPX2FzR0x4RTUtOGNiWG9FTm0tU0luVlFTM1RtX2U0UUpZc3lmazZ6emNzTm5MNXJjQmYwOXRDa3NQaURzTTZ1MGY5bHk",
     "CBMiugFBVV95cUxQb2pmd1JGMkhQcnFtN0JjcVMwRHRtVEl1ZENQVE4zZEFOSGpqaklUZWRJeENBM3RKNXgxaFFRX2MzYzNYTnFvV0o4QzlKTnFxNExYQU9uNXlFVnZXckt1cTRwSjZWWjhmT1NTenloWl95UlN4UFJLZzlaX045dlpQUEw4Z0ZWMlg5bHFvYTdPQkxGQzBmWDVoWUZYQkNlT09DYXJxUVNQaER6NjBpOGtiYzBvaGhsaHJhaHc",
     "CBMiW0FVX3lxTE9FUDFZeWdxQUpzUVdHLTY1LUNjOG95eF9RLTltcnJLbEVaOGV2R3VTSU9rcEdycHp3UjB3a1ZuRk9XR2xnWVB6dEVPUFA1dWU4cFNZQkhxWndoV1k",
     "CBMipwFBVV95cUxOck1pY3RsNF8xLUc5eTExRHBTSElzVVY0dmctZzJmUjJCcjhmMFRXWmRxelhwb3YzN2JETlRiS1ZTcENZWjNPS2pBQkZHdXY2ek1zbURvUkVkM3pMemxuRTFKcVhLYU9PS1VkT0lMemhmTnJJcHVBWHk1LV9fbG5ZNHNuNUJfRlB2TTBraWFBaWVGTUdybjhGdUotZ0tQWnRDMkFXdC1wbw",
@@ -4491,26 +4490,17 @@
     "CBMiigFBVV95cUxNTy1RTWJ5UksxOWN1WUQyZXlTbVFvOFZ2RXVmWlpyek04TlNTQzRLSFNYQ3E1dFBUVjdNczFRb1JuNTRGMVpNdzFwSC1OZkYySFZTc2lzWDZDXzRLT3dnS1hFQWVIamtzOUx4VGNpdm10YzVrNFByM3gxaTFLZ0tiWUU3RkY2dHYwNUE",
     "CBMigwFBVV95cUxOVERjWWhfMGdndl94Zk1XNHh0Q19fNVRaalNOVE9qTHR5aWxGM1BjVjdwbDVjUnlaRFdzQmVKTXNrZGJKNEpPcGd3RmhpNExXZlh2ajFzSnRIVnEwVklOblRwZ2dGN001T1J1MnVPX1VzZVctX0Q2MVVFdUxTVFBobWdaSQ",
     "CBMif0FVX3lxTE9oUHItWGVCVS10anRKOU03QmUxOTJlTDBsUHg4dXlEcWNSei1ZeXRrUEhOaW03QkVDV3VadnVJYVp2bVk4TFpQdDROWDlZQmdWTVBFVkp4SFVCSVlNMk52RFBQZHNBcjdObDRnVlNlVjNHOE80b1FNUEVzLXFHbmc",
-    "CBMisAJBVV95cUxOOW5zdnlqQmZqbTdiUm9ka1VkUXVVVlBXUGZoRFhfR0JTLUlxNmM5LVhFR05jVGJZNGlJRFZaWFBodmNReU9WZVpJVUcxT3h3Y0lrcFo2QkdnUm1velVmM2NianFYSlcyaEpHYWNWZUdSTHFhaWFyYWxGNWJHMjhrbVhGWnA1eEowQ2JPWTItaWtacDRscXpRaEdGeEg3ZzVabVhCVll0NTNOdzNxYlRFTVJydnZwb2ViYjJTdTh5QXlOUmkwLXNIZThnX3BQcUFjenVHS3l0WHVhRjRWTDBkS0JwV1MtOHpNSjRSbkcwVlVJNVpHQVdrUi1COFpsNFplRzFucVNrdTNNSUhJZFVLLUlpU0FkNHllUi1DS2IxMDUxQkloblFEQXhPSjFxZk1r0gG2AkFVX3lxTE9PazQ0b2FBZmtzVFFmWGZuckVRMHR3Ym8xUG8wVTgtWEJqQkNlVHd4YkZrZ1o2RDF3VWM0blh4U1dlYXE2RHBHMmpNdGlpWnZpb2JZbzU5djVVOTNiSXRIR2JSR3A0Vnp4bUZNQWJuZFZjZTVQbXJud28zMHpkeG1MQnMydWZXNUlPRFRYck41WTVkNlpMTXlSOTVncEEtbWhHSnRBSGpjSnllcjd2SkZBWHV3NEpWcGtvclFkdVdtdlh5LXRMTjhSN0VOZ2RXTUh3eDBHTUJlSEQ2R2xoOERvT044RmVocEhEakE3WVNWV3I2MGZPTTV6WXo4M0puMF94SDBvWGRVRkFJQXpsaDBnV25YWEFKallQYWM3ZmZtck84bG5pVE45UWhXcVY3V2hFT2xwWUE"
+    "CBMisAJBVV95cUxOOW5zdnlqQmZqbTdiUm9ka1VkUXVVVlBXUGZoRFhfR0JTLUlxNmM5LVhFR05jVGJZNGlJRFZaWFBodmNReU9WZVpJVUcxT3h3Y0lrcFo2QkdnUm1velVmM2NianFYSlcyaEpHYWNWZUdSTHFhaWFyYWxGNWJHMjhrbVhGWnA1eEowQ2JPWTItaWtacDRscXpRaEdGeEg3ZzVabVhCVll0NTNOdzNxYlRFTVJydnZwb2ViYjJTdTh5QXlOUmkwLXNIZThnX3BQcUFjenVHS3l0WHVhRjRWTDBkS0JwV1MtOHpNSjRSbkcwVlVJNVpHQVdrUi1COFpsNFplRzFucVNrdTNNSUhJZFVLLUlpU0FkNHllUi1DS2IxMDUxQkloblFEQXhPSjFxZk1r0gG2AkFVX3lxTE9PazQ0b2FBZmtzVFFmWGZuckVRMHR3Ym8xUG8wVTgtWEJqQkNlVHd4YkZrZ1o2RDF3VWM0blh4U1dlYXE2RHBHMmpNdGlpWnZpb2JZbzU5djVVOTNiSXRIR2JSR3A0Vnp4bUZNQWJuZFZjZTVQbXJud28zMHpkeG1MQnMydWZXNUlPRFRYck41WTVkNlpMTXlSOTVncEEtbWhHSnRBSGpjSnllcjd2SkZBWHV3NEpWcGtvclFkdVdtdlh5LXRMTjhSN0VOZ2RXTUh3eDBHTUJlSEQ2R2xoOERvT044RmVocEhEakE3WVNWV3I2MGZPTTV6WXo4M0puMF94SDBvWGRVRkFJQXpsaDBnV25YWEFKallQYWM3ZmZtck84bG5pVE45UWhXcVY3V2hFT2xwWUE",
+    "CBMihwFBVV95cUxQS3NBY29LVWRQOEFQR1FRMndKQmhYaXpCcmtFVDg1X3NXTkkwc28zUVJmOF95b3hDRTFxV3RjcTRWdEdDVm1aNjFuZWRpdDBZM3VTX1JXb0gzRGJTODg3amlHNlJNNkdQUF91VmlCUmNtMmUyVkQwc1BPbnIwTE1kQVBkZUN1MjA"
   ],
   "daily": {
     "d": "2026-09-12",
-    "ai": 46,
-    "staged": 4,
+    "ai": 47,
+    "staged": 5,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-31T17:07:20.302619+00:00",
-      "t": "Alexander Volkanovski HINTS At RETIREMENT Before Movsar Evloev At UFC 333 Tracy Morgan (fxZPWmz7hg)",
-      "names": [
-        "volkanovski",
-        "evloev",
-        "morgan"
-      ],
-      "img": "cutout:alexander-volkanovski"
-    },
     {
       "ts": "2026-09-01T01:08:54.915971+00:00",
       "t": "Justin Gaethje still recovering from UFC White House, won’t return until 2027: ‘I still can’t punch anything’",
@@ -5314,6 +5304,18 @@
       "names": [
         "conor",
         "one"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-12T12:52:57.179229+00:00",
+      "t": "UFC CEO Rules Out Return For Ex-Champion Francis Ngannou",
+      "names": [
+        "rules",
+        "out",
+        "return",
+        "for",
+        "ngannou"
       ],
       "img": "photo"
     }
