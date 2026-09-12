@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a55f968da6514742": 1789202762.3164115,
     "890bdbcc4ffefb95": 1789202714.9453387,
     "8751e2d36f558008": 1789202642.6030715,
     "e9dfc66da46be159": 1789202576.7451525,
@@ -2498,16 +2499,11 @@
     "c5ab6a05931dce17": 0.0,
     "e52dad34b763fab0": 0.0,
     "64653f3b8b8699ac": 0.0,
-    "9cc5cc49ef6d9e9e": 0.0,
-    "65236e3298d0d0bf": 0.0
+    "9cc5cc49ef6d9e9e": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Garcia vs. Benn weigh-in results: Perfect and quick session in Vegas",
-      "ts": "2026-09-11T15:50:52+00:00"
-    },
     {
       "t": "Can Jose Delgado pull off short-notice stunner vs. Jean Silva at Noche UFC?",
       "ts": "2026-09-11T16:10:16+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "UFC Noche – Silva vs. Delgado + Fiorot vs Grasso : Tous les résultats",
       "ts": "2026-09-12T08:31:49+00:00"
+    },
+    {
+      "t": "Conor McGregor ‘can’t wait’ to fight in BKFC: ‘One more to go and the Mac Daddy is free’",
+      "ts": "2026-09-12T05:20:26+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-12T08",
-    18
+    19
   ],
   "yt_eval": [
-    "CBMivwFBVV95cUxQTS1JTTN4NWlGVjBNNGpZdFEyRDlVWnZNU0VHeXNqdFY5cW1FZlFiMy1WSmtmRHRaWXdKSjI4aEtuN3NNNTJpTGFGYkhBeHA0Tk9FT2k0TGpoVGczQTZzaUZhVWttQnotX3JRajhnVzczQ3dTOEprRzVwODQ1TFlsM2hyWnVvR0ppOW5DMDNpOGVXb3hLNjJ2djBTOTBFeHNNcTloMlNkWGp2amFxekNfYkNmdHU3a1FucEU5TDFBNA",
     "CBMie0FVX3lxTE8xMk9FbUtMeW5HRl9KNnJvQkFNUmJFdmtRaWJobmIzdTlxNk9aZ3NGQlQ2OXVzWklOWEVCWmx1SGVUdzN5akdYY3NvTF9BYWlsSEZnOXdNaXdzS21kSzd4TTRYM19MdlZUeWxkU1NWS1NxZ25VbEtZQ1pycw",
     "CBMirgFBVV95cUxObllfWXdzcDV1Qm05azJPMEc2NGdrTGVwS1d6VUJXMnBDWHpid3J0dW01MTlBMzJQcUpid1IySjZReTNSOHRfbkR4Qzl6aE5HWkZtZEhZdFVhUFNxVTEzR0E4ZkQ4YkFSbWplZUNYVXZ2WGVOLXhoa3BUdHNBcllVQnN5UUwzaWxhdm1PNGk0Q21LT0xvbUVqOFJBbHBwMnpsVzBvRWFubVZNOTNzRmc",
     "CBMiXkFVX3lxTE8xaXFydmttZmwtMEdmSlNVN25zY1JCR09Fd21PeVdhS3Q0ZzFJc29rSy1lekMyMmdDM2NjV1lzVDZpcjVJRHlTOUZqMlBISFZSemhnaFlTNUQ0VjF3OHc",
@@ -4491,11 +4490,12 @@
     "CBMivwFBVV95cUxONDFDVTQyOFVWdGhZRmpoYnFDVTlqRUZOeVZnYm5TdXRFaVA2VE5zODBzUHYxME55dkxrTlBjTTVjek1MOGE1VXBxWmhFSUxsNC1WdDBiWGs0bmg2WXpKdGZmaE5kQ3RBUG5uem1XeHVOTHh2aFVZZUU4NDJNVjJ5ZmpUd2NZZ2Z0RlVEQ2paS1FKOU5SZzVWblNvZ1BfaGxIVHdqZklZaDYwYzEzU0tEekVJUjlsTUVyTkFyZ0Qzbw",
     "CBMigAFBVV95cUxOSXgwbjVqWmt0S25pejJLdmdjR3FXN0l5YnhxSDFZbElYTC1oYzAzX3RDaWxCNk9fc2c2bjJqNEwtR3NQcGVMNUFPYlNOd1hRS2c4ZWJlN2lTalB1NG56REFKSGFLYlFrdFVZdnBCUWZrcmZ5OTRyeTVoRHQ5dkpjcQ",
     "CBMihAFBVV95cUxORERnMzFnM09DQWlGTUVvTWJKSW5lNUpWVHowZ0hjNkpRM1BHMVBQUVh2TDR2LVB6a3hRdi1ZWXdpMkxEZkRBZldJUVJUcVJaREhDOFBBeEdKWWVTRGpSZ1lRam1mSjNBLWU1VHlSVW1vY05BQy15NThKVVI4NXhLbFkzb3A",
-    "CBMimgFBVV95cUxQMkJPV2ppaVlRTGs2RTdEZ2FlcTE2dHFnMVdram5NdHBBbnFjTk9VN3NxTHBoQ2hQWnY5dnAtSDh5a1IxcUgxRmZBb1AycU9RZEd4Y3FSYmNmRGROaW54R0I3OGRjUGtaWnFsRGJSMTZKbi1US3BpREpvVkNYdllMZ3k1cVctZVMtRW4ybFpYTVBDUFRHWnI5SDdn"
+    "CBMimgFBVV95cUxQMkJPV2ppaVlRTGs2RTdEZ2FlcTE2dHFnMVdram5NdHBBbnFjTk9VN3NxTHBoQ2hQWnY5dnAtSDh5a1IxcUgxRmZBb1AycU9RZEd4Y3FSYmNmRGROaW54R0I3OGRjUGtaWnFsRGJSMTZKbi1US3BpREpvVkNYdllMZ3k1cVctZVMtRW4ybFpYTVBDUFRHWnI5SDdn",
+    "https://www.mmamania.com/?p=471374"
   ],
   "daily": {
     "d": "2026-09-12",
-    "ai": 31,
+    "ai": 32,
     "staged": 3,
     "prio": 0,
     "lost": 0
