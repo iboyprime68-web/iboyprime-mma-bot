@@ -1,5 +1,6 @@
 {
   "seen": {
+    "116b2f5e01bd3d0f": 1789201976.3710892,
     "e7805e99dd209f0a": 1789201928.904546,
     "e51a24c5d925425f": 1789201905.588005,
     "b7ca9896b0cb539a": 1789201881.6278973,
@@ -2498,16 +2499,11 @@
     "1171b5990dc0fb4c": 0.0,
     "9bb98ce0d23ddd23": 0.0,
     "f92f61f0663461a6": 0.0,
-    "dfe147bd985eab18": 0.0,
-    "8ec06db333586def": 0.0
+    "dfe147bd985eab18": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Alex Pereira says he’ll ‘mess Paulo Costa’s life up’ in 205 return if heavyweight goal doesn’t happen",
-      "ts": "2026-09-11T14:00:00+00:00"
-    },
     {
       "t": "Brandon Moreno makes candid ‘worst enemy’ admission after 2 UFC losses",
       "ts": "2026-09-11T06:19:27+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "‘Missing out’… Full footage of Dustin Poirier Father’s Day arrest emerges",
       "ts": "2026-09-12T05:00:00+00:00"
+    },
+    {
+      "t": "Michael Page Reacts After Being Released by the UFC",
+      "ts": "2026-09-12T03:11:38+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-12T08",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMiugFBVV95cUxNUHBSX194MmJHbHJubm9ZcnMzSTR5emdIM1Fqd1hsSmpZOFVXdklzNFRlekNuMmtPX1VRajJwcVNvdk9Zbjc3b1pzWnlvaGVsRXFCT2pmUE9Za0Y5X0F3U1c4aG4wMTc0d2V5ZFNDRzNkbU96Wko4c2ppNWoyS1pGRlRod2g2VDg1V3BPYjhWbEZUeFZkR3pvbm45dWRKOXFVdTRPVFI4YlY1eXJUcnI4SHFqcmFfZ0U0b2c",
     "CBMizAFBVV95cUxPQ1l2NWtFVFFXZlFVZ0Mwb25mX24xcnpZQTVQU1hxU0RKWHNjemRudExJdE1nckJJWWY1MnVySHhSSVlaakYwX3o3UGlQZ29oVTRSemg3dEFWMEVRUXRReW9HX1Z3enU0dkw3ZldBRTBKRVEzejQ0ZFJsSFdmd19yOHZWeFdmUTRaZHdoOG41eTVKQ2V2cmRFMXRwNWIwZXJ4S2dCZUpIdUw1NUN1dDVPUlBsVGpsSGk1Q2Y2RWhEUGhFQUZESE5hcVhXd0M",
     "CBMibEFVX3lxTE9vQ1RVREw4MndZV0VFblhwazNSejNRUWh3SFZnQXFGZ0FaYldiaFhCaV9zZ29TQ1ZZVU83ZERXSXQtaEdpUW1kdENfMl9RQ1UtSU4wSUVrYk1XdUVKS3hKN3ZXYlBJOVR0VHpMaA",
     "CBMiaEFVX3lxTFBLMWZHRGxaOEk2bkltTTk1cDd4aVg4c1I4YUYyMU8wWHkwM1hkYXVzUUprMzF5VC1Ib1RzcGFoLTg3b2FTb2gxZXpYODhkNmpfQTZKdUZHT1V4NmV0NnZlMU1TT2dEbFlm",
@@ -4491,25 +4490,17 @@
     "https://www.mmafighting.com/?p=509572",
     "https://www.mmafighting.com/?p=509607",
     "11a9969e-2f5e-32a7-9d94-1b972dcc8438",
-    "https://bloodyelbow.com/?p=331239"
+    "https://bloodyelbow.com/?p=331239",
+    "83cddd2f-a5dc-3020-9bd1-2431495c9bf5"
   ],
   "daily": {
     "d": "2026-09-12",
-    "ai": 18,
-    "staged": 1,
+    "ai": 19,
+    "staged": 2,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-08-31T08:25:39.519028+00:00",
-      "t": "Zabit Magomedsharipov returns after 7 years, beats UFC featherweight",
-      "names": [
-        "magomedsharipov",
-        "zabit"
-      ],
-      "img": "wash"
-    },
     {
       "ts": "2026-08-31T16:56:53.539603+00:00",
       "t": "“I’m ready”: Khamzat Chimaev calls out Sean Strickland and three middleweight contenders",
@@ -5314,6 +5305,17 @@
         "day",
         "footage",
         "atlanta"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-12T08:32:57.677894+00:00",
+      "t": "Michael Page Reacts After Being Released by the UFC",
+      "names": [
+        "michael",
+        "page",
+        "reacts",
+        "released"
       ],
       "img": "photo"
     }
