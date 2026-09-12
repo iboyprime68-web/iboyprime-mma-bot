@@ -1,5 +1,10 @@
 {
   "seen": {
+    "4e8443dd2e2463a1": 1789229691.5228722,
+    "9d2afefa6c86082b": 1789229691.210514,
+    "554794d73f032f88": 1789229691.209786,
+    "4e002e3a1abb992f": 1789229691.2067695,
+    "55e9b393a899b7c0": 1789229691.2064648,
     "8b934bc482352825": 1789229626.2529964,
     "20ccb72cd32e39c0": 1789229626.0523612,
     "5a7a85ecbb78d173": 1789229626.0491188,
@@ -2494,20 +2499,11 @@
     "d30352a6a135f947": 0.0,
     "a11a2efa947eee41": 0.0,
     "61851283ba50dafc": 0.0,
-    "0a4f99b8abc3af72": 0.0,
-    "f231b3b0c5a6c1f4": 0.0,
-    "201a4577029cdbba": 0.0,
-    "5b79951f868ae1ce": 0.0,
-    "bee562a7187d086a": 0.0,
-    "344658761a4ea810": 0.0
+    "0a4f99b8abc3af72": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Undefeated prospect set for Madison Square Garden debut at UFC 334",
-      "ts": "2026-09-11T19:59:29+00:00"
-    },
     {
       "t": "Take That L, Dana!",
       "ts": "2026-09-11T20:00:00+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Noche UFC Entrance Music: What Songs Jean Silva, Jose Delgado, Alexa Grasso, And Other Fighters Walked Out To",
       "ts": "2026-09-12T15:23:07+00:00"
+    },
+    {
+      "t": "Din Thomas explains why Brandon Moreno is on \"do-or-die\" situation against Joseph Morales ahead of Noche UFC",
+      "ts": "2026-09-12T15:30:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-12T16",
-    14
+    15
   ],
   "yt_eval": [
-    "CBMigAFBVV95cUxOZkFhVGtvMTNCREgtME1OaDJ2Nm0yUFBtd3pjbUh4X0FKVk9ORHFSX1Z3dTE3VzZNc0dXOF9za0pxREtvUVhaTllGYWRjeEpvLXhPejBNTFljdDhjQW5PaGxxZGZIYjZEck5yUDVlOFluZTVIRkxXMS1DSkdKMTg1cA",
     "CBMixwFBVV95cUxPQ1FIYUdkbmFaNF9DWGNuNnFad1R4OXhTVXgyU01Lc2EyMlNGdW1ZcVF3UVJhVHFmZ2FPMWwwQWtMenl4YVQ1UnMxOWpIcE5uNG5lS1VFcU4xNFY1VlJFLTc5MGxlOU5TUlAxOEJSTk1YSzhzSFN2SThxZmpDZTFKUUJOTm4wTUZhd3J6X1drZDk3ZTB2TnRFZ0dnWkxKbTJKWmw5N0lBb3R1MXNoNF9LbDJyeDFNaFdpSGxZUUdOdzNaTlU4RUdF",
     "CBMiggFBVV95cUxQMWxNUzBxTkhWdDFGaE55Z0FiLW5rMENBa3FwM1d1aElFYks1RzZ2bDJQaHU5aW1PVzVFakhsTGpXQkxWYVB0VGQ2Qm5lNExkWWZvZm9Odk40WUFTeF9IVkhwNVFkSWlpb2ZHV2x0NHZsZGFvMGFUQ1QxM3VIRlIteE13",
     "CBMijwFBVV95cUxPRGNoMVBtWXFaSm94Qm1ObHJScW56aW1PVzNQcUIzQ2J2QU1PamJyTHlwdERkWElYUFlXb0tGVzQwZWZhOGhJcjEyYVgyd2gwWUpRVkJXQkJJTmozRTN3OEdrcmZGMGhjZzZWRi1oaG1GeDk1ZHN0eWxhcDFZOXZyb0FkVDdyV3AwTXYxUmU3dw",
@@ -4491,11 +4490,12 @@
     "https://www.mmamania.com/471465/open-thread-september-11-2026-do-you-play-fantasy-sports",
     "87268ed0-69a3-3fa9-94fc-9d0932255187",
     "CBMi9wFBVV95cUxPV2NyYXRtNS03QUpsZm4xU0NKTl9TV3RteW9CTE5wYXE0R1ZzMFlPS2lEdDd5UjZtUTlQTE5tNHBSQU1kN3pVUWhPV0RGN0xObmNlY1BraDJHTGFtMS1rd3JrTndQX3ItSmVjZmVkR1VqVWI1bXdZR2R6RkV6VV9UWDk1UG1HYXZhRlVkWnotSjNNejltUE54a1NQZC03NTRsUFBRdFdtYnR5M3JxNjM2aWNaOGp4a0FrRzY4b1V0SWx4LXkyMFFZQXN6NFBnQklTRFpvckhQam9tdXhKdXdXMlJlbDUwZmFqV3FCbjRjaGpQREh2Ry1R",
-    "CBMiYEFVX3lxTE1oTUd2MGc1OVdEcnNMU3dSa0pCSlBSdmZ5bFBJaEo4U1JoQy1qcDRYSmRSelFfdlJkZkVBLThNZzYtdEp2T2hBb2xlSDljMkxoeWZYbjFtNTU5MkNoVE0wLQ"
+    "CBMiYEFVX3lxTE1oTUd2MGc1OVdEcnNMU3dSa0pCSlBSdmZ5bFBJaEo4U1JoQy1qcDRYSmRSelFfdlJkZkVBLThNZzYtdEp2T2hBb2xlSDljMkxoeWZYbjFtNTU5MkNoVE0wLQ",
+    "CBMivwFBVV95cUxOX0k3YV8xMGl2ZmdqZ0FGRHJPZC1mSUZfQ3JIMlZmcnVFTUhJNEQ0R1RRMDFITE9FRGh2bjlhVmpZdy1BUGJ5RnlKWi1CcnNPOE5ScHMzczBOemJfYklHRVZpS0hFbFdUOFRCS2tWYW1GSndPcFo1YWNBMUw3Q2tsU09US1pjQVhKakRWUEJRNk5qV3VJcDhYNGhCX21zN0ZKMk1PaGQ3blRZS3MwbUdzUmdzZUZxeEF3U3pxN00wcw"
   ],
   "daily": {
     "d": "2026-09-12",
-    "ai": 70,
+    "ai": 71,
     "staged": 5,
     "prio": 0,
     "lost": 0
