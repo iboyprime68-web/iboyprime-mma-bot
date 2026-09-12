@@ -1,5 +1,6 @@
 {
   "seen": {
+    "fe67dd47d686ce5f": 1789230082.5308726,
     "35f2dad9f4d45c30": 1789230017.729152,
     "30a39d7ddf4bc954": 1789230017.288462,
     "146994f253cb618e": 1789229952.2713802,
@@ -2498,16 +2499,11 @@
     "48e0054a5c1b2789": 0.0,
     "497a10c5037a1b54": 0.0,
     "d2ef4b49c8661414": 0.0,
-    "c9607ddf4c24f82c": 0.0,
-    "090fed1e5fffb618": 0.0
+    "c9607ddf4c24f82c": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Fernando Meets Elekana At UFC Vegas 124",
-      "ts": "2026-09-11T20:12:31+00:00"
-    },
     {
       "t": "Live: Ryan Garcia vs. Conor Benn early weigh ins results from Las Vegas &#124; video",
       "ts": "2026-09-11T16:17:01+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Dan Ige vs. David Martinez prediction, pick, time for Noche UFC",
       "ts": "2026-09-12T16:10:00+00:00"
+    },
+    {
+      "t": "Gordon Ryan attacked in massive brawl at ADCC 2026 &#124; Video",
+      "ts": "2026-09-12T15:25:05+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-12T16",
-    21
+    22
   ],
   "yt_eval": [
-    "CBMixAFBVV95cUxOakgwNlZnS3ZVWFBGLWZiYmNYTEoyZS1GWUpOVnRWRTFkUjItMURTRXVXdFA2eUtOdTI3aG1BRTZJMlNpVkRqQVdndnlIZjBHOFVRX1ZKY2JjU1RMcUxRZnNWOWZhWkRya3Zra01CMzdhMWMxbmhCYmxHTzVzdVJQVmVRMzkwX1VBYjYtUlFBSTI1WG95OFVFRml1U2ZMSFMtNkNQN0VTdTRCM2JSRlpBZ3BFOUdVczZVLUVxSzJWeWdFU3M0",
     "CBMiW0FVX3lxTE1FSGF4TFBLalkwbXFKSFFJcWhvZlRYRHZPWVJ3Qm16a25Yb2xMejFMNzFHYllhRWJjaUlhRjBkcXZHdnVDUHdTQk04OEs0LVFhaDE4OTdlcWVrOXc",
     "https://www.mmafighting.com/?p=507807",
     "CBMifkFVX3lxTE1UTFdKa3dYZ1ZKRmJnZjJCbVpOWUxCNVZWRk8yQ3U2WjdYMG50Q1lVd1V3dXJqQjJVQktDVVYzRjVUUjBIclFkeVpBbTFmOTRJSlU4TnkxYWhrbG94cWNBUVcwS3hMbXZHUjBnU2JXdzVDTEZMT2d1V2kxaVZFZw",
@@ -4491,11 +4490,12 @@
     "CBMikAFBVV95cUxQb21ZejZuS3pfRUhqQ1U3Q3hncG84eUtFT3kxOTVISVhXeHlxRGxMRGMxRFFvaDBNbEpvemc0SmFYTlZ5Z3RmOGlnWG1xYS1SU2tnVlRVZnNZVURhNkxKcjU3bWhXYzVHRTJhTjJVYlBOT29TczRCNmV6ZlctNW40QkNQNnUzeEhGM2dnU0Fwb0o",
     "CBMirwFBVV95cUxQOU1zVnAxblMxa3FQNk9TZ3pZbGJWY2ppYkdENG5fWjVqTDZTVTBzQlM3TDR1azRvMTR0dnRLdHFwUjF2WEdLc1ZHdWFmc1NwRFJUVjlPdlNwTFo0cEt6MDdJUGFLeFYzQ2FUWGVPbW9PYTEzUzdteUtKUWg4NlNDMF8wNnNmWkgxaHBKSDNEVXRIYjB4eEhEQmFpNEVBUS0za0czR2hRRFVoelVmbFdF",
     "CBMiqgFBVV95cUxQRjR3NGNZU2t4V09hMDd6dTVNWFVRdURvN1NBRFFFeEhFbDNGSVRidkFWMWpRX2lqdnN0Y0dkejkxUVRLcVRfNFNHNVpJUWI3SWdTMy1JUHpseUktYkpIMnRiZHg2dDVRREZGXzdjb2lJTlpYcWpHcFlSOXhFeG9zbmZacG8xTjRwN0JwRWU5ZVV3U0swcVBTbFlqRExGZXMxZmdfT0thN1hJZw",
-    "CBMi5wFBVV95cUxOX1JORzNiTXFXVFQwbW9obnFwWk1IRzZ3UWpydWxsTVE5NzBNVGFWbFJ5X0ZITWhvSnJ0eHFnTGxhcG1HYi1uSEtpMjlUUVRRei1jdDJ4eldsUWhkNldZMTdySFJ1b3hMOEdUZVpOc1JSdmFrSGp3ZWdyU3JOSmQ5dmFjekRKVkVLcDQzWUhWWC1RQ04tbVRBdk5WRnJMWDduSDVQcmdNa2x3SEhkWXdfbVhVQWN6WVlrb0EyQjRRRUdPb2FjcmNxc3BTT1p6eUU3enVFVW1ScXhXUkJ4eWdrZmw0cHVFOXM"
+    "CBMi5wFBVV95cUxOX1JORzNiTXFXVFQwbW9obnFwWk1IRzZ3UWpydWxsTVE5NzBNVGFWbFJ5X0ZITWhvSnJ0eHFnTGxhcG1HYi1uSEtpMjlUUVRRei1jdDJ4eldsUWhkNldZMTdySFJ1b3hMOEdUZVpOc1JSdmFrSGp3ZWdyU3JOSmQ5dmFjekRKVkVLcDQzWUhWWC1RQ04tbVRBdk5WRnJMWDduSDVQcmdNa2x3SEhkWXdfbVhVQWN6WVlrb0EyQjRRRUdPb2FjcmNxc3BTT1p6eUU3enVFVW1ScXhXUkJ4eWdrZmw0cHVFOXM",
+    "https://www.mmamania.com/?p=471520"
   ],
   "daily": {
     "d": "2026-09-12",
-    "ai": 77,
+    "ai": 78,
     "staged": 5,
     "prio": 0,
     "lost": 0
