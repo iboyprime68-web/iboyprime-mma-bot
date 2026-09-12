@@ -1,5 +1,7 @@
 {
   "seen": {
+    "c2771ad7760bb32b": 1789202445.740588,
+    "e04ca73614ef1733": 1789202445.4638073,
     "64eb0fc8b1747f42": 1789202379.4157207,
     "c6ed19af88e09798": 1789202313.230524,
     "a75432f0d77cf440": 1789202247.6678095,
@@ -2497,17 +2499,11 @@
     "6bac5ebeb845b8ed": 0.0,
     "ba86f427d87d3f91": 0.0,
     "d09d1dcda5ddf32a": 0.0,
-    "dede82cb17b5223b": 0.0,
-    "aeeae329255ca3f7": 0.0,
-    "9b21938ebaf2a4f9": 0.0
+    "dede82cb17b5223b": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Conor Benn and Ryan Garcia both make weight for world title fight after brutal cuts",
-      "ts": "2026-09-11T16:46:06+00:00"
-    },
     {
       "t": "Dana White reveals all about 'bad guy' Francis Ngannou",
       "ts": "2026-09-11T14:46:55+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "David Martinez Favored Over Dan Ige at UFC Noche in Glendale",
       "ts": "2026-09-12T07:52:17+00:00"
+    },
+    {
+      "t": "Alex Pereira Open to Light Heavyweight Return for Paulo Costa Fight",
+      "ts": "2026-09-12T07:53:25+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-12T08",
-    13
+    14
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=467856",
     "https://www.mmamania.com/466590/highlights-open-ufc-sacramento",
     "CBMihwFBVV95cUxNOGNsT3Z2UzNXNUdBdEt1NnJxV0JEZmpuVXRCcnlxUTlvOHgydUhpbGJVYjZRSF8tNlk1UE5LN1FjUDEtNzJ3bDJVanlRZG1SQUlzYkhjVV9WWWxfd3gzQl9ZVmVJMHNjcHBoeG1UbmJvemxLT3p6eFNlTWlfNmtvQkVUSFV3ZEU",
     "https://www.mmafighting.com/?p=507849",
@@ -4491,11 +4490,12 @@
     "CBMi8gFBVV95cUxQbUJQbmFBTDlfcmhuZWw2X29LWTVwVGhHekt1Wi1BU0xRWUsyUzl2YUU0N21zN1pFSk9OY3RPVThDV2tMX0k3OTY0dkFBWnVuekdRVFRhYjhBNE82OE52OENIdnBqNFROejN1SkNENGMxeEJ3WEx4WWl4SlVfdGlmYktFb2c4TmVLR0l2WmxIb2xNRnk3ZC1sdU14QjVlTlAtWFdyTEc3dHBVd202SktjUi1GOXpKM296Wlk1ZHlxVEtoME1EWjhVejlVakF2OHpqTERRVUJNb2JVd3ZWdURiTmNsZEluQ20xRnc1RkdmdzVRdw",
     "CBMisAFBVV95cUxNd3FJYU9yeC1BaUpGd1VHY1N5WHBrcXNCYXJwdkpvZkF6MXZoZEtBcWNZb0Juc0RmYy11ZEFGU0RiSWkxdTRYS09zdmhPX0RUamtXUWcwbUtONUZTX0tGTVcxSV8tQ0dEdF8wMGpKc1hLSlJxbUNNa25teG4yVFR4NUM4WnBWWExGRTlkQV9DVW1ZLTRqWGwxNmFsMk5sTjhoODkxdWVGTklFWGNOX0x0eQ",
     "CBMikwFBVV95cUxOTXJNVVBoaGhIRWVRYjVxR3hyTmgxQVpoQzJxNXB0LVE4QWJkMmhoTFExbkZOTlVscnNIQ3NkcEJYUThYZnRLUV9OZkVDaGM1N25fZnRTNTZHNWNxeERYMjdiLVh4Z0VaRW1XSDdsbnhpb2ROM0dhb1Q3UUNrU2ZrZjd2OEV4NjNGZlBBc1d0b2JjV1U",
-    "CBMingFBVV95cUxNX21tWHdjZHhlWVVwS29iNzhNYi1EQjl0aG9MWm5RbDdPM0N1M01oZV85eFBSSUNsXzBpbksyQnhRbWxVN2ZXdnZxdG5mWFJ5ZXlVdHJzekdGbHMydVRVOEZyNTl1NnMwZkVweEpUU3g4R3V5QnhKRDFrQWhnajlaS1Y2clRVU0lfX0JfZlZrcmhETlpyWEhjQWNZcS1UUQ"
+    "CBMingFBVV95cUxNX21tWHdjZHhlWVVwS29iNzhNYi1EQjl0aG9MWm5RbDdPM0N1M01oZV85eFBSSUNsXzBpbksyQnhRbWxVN2ZXdnZxdG5mWFJ5ZXlVdHJzekdGbHMydVRVOEZyNTl1NnMwZkVweEpUU3g4R3V5QnhKRDFrQWhnajlaS1Y2clRVU0lfX0JfZlZrcmhETlpyWEhjQWNZcS1UUQ",
+    "CBMikAFBVV95cUxNR1ZIeDNRYVU4QXgwdjJobnhUQmE0VHQ4Y0hXWGxhVW1hMldpY19xdFVGdWdoeDM5bEwtN3psaWhuUnU4Z251eFJrdmdhTHBaOV9PZWZNM0tPaVF1R2Fhakd1SURTcmxlVHF3cXJKVGcwcDdZcnNhR2U0TEI1a2I2a2NodXEwaDFHWXdhMWYtQW0"
   ],
   "daily": {
     "d": "2026-09-12",
-    "ai": 26,
+    "ai": 27,
     "staged": 2,
     "prio": 0,
     "lost": 0
