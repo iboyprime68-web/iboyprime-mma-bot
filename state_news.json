@@ -1,5 +1,6 @@
 {
   "seen": {
+    "20b60533cdfc1dfc": 1789308783.2446046,
     "b55b1c761732f733": 1789308759.9401999,
     "034fce2987556260": 1789308736.507989,
     "4343b08a7f7f6649": 1789308712.0094228,
@@ -2498,16 +2499,11 @@
     "5dd788960a6f44c7": 0.0,
     "02b6b5921a83ae1c": 0.0,
     "4d84bbe73329ddd3": 0.0,
-    "07399fde9e6938c6": 0.0,
-    "852fcb5d57480d6d": 0.0
+    "07399fde9e6938c6": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC Fight Night 288 Results (Live)",
-      "ts": "2026-09-12T16:21:54+00:00"
-    },
     {
       "t": "“Do-or-die”: UFC analyst highlights what’s at stake for Brandon Moreno against Joseph Morales",
       "ts": "2026-09-12T16:40:56+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Chris Eubank Jr. reacts to Conor Benn’s brutal title loss against Ryan Garcia",
       "ts": "2026-09-13T11:00:00+00:00"
+    },
+    {
+      "t": "‘It’s a little strange’… Khamzat Chimaev leaks Sean Strickland’s next opponent after being snubbed",
+      "ts": "2026-09-13T12:00:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-13T14",
-    5
+    6
   ],
   "yt_eval": [
-    "761b4acc-df38-39ce-a753-29b1139fcc7a",
     "c3da32c7-6b72-3c5c-bb31-10b575b5f8d8",
     "https://bloodyelbow.com/?p=329802",
     "CBMinwFBVV95cUxNcGlyNng5anJBVnVMeWljbllwM183bmowSThQRzRUd1pMU1VnUUItQ1VCaVlsTDVmeEJEc3hLbHlDcW85T2pCUnBBZDZ1X0x2NlFTQ0tPbV8zUUk2bjdMY1ZQM19Cck9fYXMyYmU1YUpZYkVSTXNGVnRrQzdhbDFzVUpkOEdzTXcxdVNOLWQyY2xOc1ZKNDZXMmI5clFDRXc",
@@ -4491,11 +4490,12 @@
     "https://www.mmafighting.com/?p=510114",
     "https://www.mmafighting.com/?p=510135",
     "6288ddce-a076-3b0c-857c-fdc61e378b6d",
-    "https://bloodyelbow.com/?p=331439"
+    "https://bloodyelbow.com/?p=331439",
+    "https://bloodyelbow.com/?p=331433"
   ],
   "daily": {
     "d": "2026-09-13",
-    "ai": 50,
+    "ai": 51,
     "staged": 2,
     "prio": 0,
     "lost": 0
