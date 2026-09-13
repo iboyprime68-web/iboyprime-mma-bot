@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bbdb321f11c1585d": 1789340441.7307734,
     "e17d5a4f40e9ec0e": 1789333249.3984256,
     "625002975bb0ec56": 1789333225.9550602,
     "95fda5e8fb8d3505": 1789333038.0539424,
@@ -2498,16 +2499,11 @@
     "ac6efde36bc6d587": 0.0,
     "3a50c63446609395": 0.0,
     "ea07974b11a25e19": 0.0,
-    "609047aa06b3db8c": 0.0,
-    "b77fd4bfd7b3b031": 0.0
+    "609047aa06b3db8c": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Noche UFC results: Curtis Blaydes outpoints Waldo Cortes Acosta in lackluster outing",
-      "ts": "2026-09-12T22:30:48+00:00"
-    },
     {
       "t": "Noche UFC live blog: Jean Silva vs. Jose Miguel Delgado",
       "ts": "2026-09-12T23:52:56+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Khamzat Chimaev hopes Sean Strickland loses first title defense: ‘All fighters are better than him’",
       "ts": "2026-09-13T21:00:00+00:00"
+    },
+    {
+      "t": "It's Time To Give Jean Silva a UFC Title Shot",
+      "ts": "2026-09-13T18:00:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-13T21",
-    2
+    "2026-09-13T23",
+    1
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Dan-Hooker-doubts-Ilia-Topuria-would-risk-Usman-Nurmagomedov-fight-202585",
     "https://www.sherdog.com/news/news/Usman-Nurmagomedov-fires-back-over-Yadong-Song-incident-at-UFC-Shanghai-202587",
     "https://www.sherdog.com/news/news/ExUFC-fighter-Sedriques-Dumas-takes-down-costumed-fan-in-arena-brawl-202588",
     "https://www.sherdog.com/news/news/Yadong-Songs-team-predicted-exact-uppercut-KO-of-Umar-Nurmagomedov-202590",
@@ -4491,11 +4490,12 @@
     "CBMiugFBVV95cUxNNF85X0ZNM2VtZTdaa0stZ2F1ZXhleGctSjZVVk5LN0IzUWt3dWtueVpOVEQ4dUF0M18zTmxPSl84cF85eGhyUms2T2EtcUpiRTk4dVE4UVdxLUFHbGdTTExDOEpqWXg0TEFfVmg1V0FjRUZnXzluVS1Yb0g4NnlyeHk2V0FIYlJhT1RDR2Jia3FsNjdqRTRMWHZlVWJuYldVVzY2UV9vTnVPMjVsVXZISzZzSGFoWnktdXc",
     "CBMid0FVX3lxTFBSdDVjRl9odXUydlVZMUpZcWpKUjlhMUZjdUpiOGtqZzA4YVFUV2hzYzh3RTJTenlDN3FyYVVLZmlGWG0tY25vMGlTb011UnN2NVh4OG1aMFV1ckJRbHkxYUU5b0k4Qi1jX3hIY09zNnpvYWZ5dGlN",
     "https://www.mmafighting.com/?p=510157",
-    "https://bloodyelbow.com/?p=331495"
+    "https://bloodyelbow.com/?p=331495",
+    "70f5c912-9e08-3902-8f3a-481a219dcac1"
   ],
   "daily": {
     "d": "2026-09-13",
-    "ai": 112,
+    "ai": 113,
     "staged": 4,
     "prio": 1,
     "lost": 0
