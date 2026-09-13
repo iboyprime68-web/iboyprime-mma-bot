@@ -1,5 +1,8 @@
 {
   "seen": {
+    "76c8030780407519": 1789332974.2220032,
+    "122b5414434e0bc8": 1789332973.8651853,
+    "3652019a0a0e1938": 1789332973.8625395,
     "5851fce3d07f64aa": 1789332909.2921739,
     "c516e41e9996baa7": 1789332844.876119,
     "1ecdc89f056a0837": 1789332844.3464708,
@@ -2496,18 +2499,11 @@
     "9ede64cfa83c890c": 0.0,
     "81fcd4d8c6d7526c": 0.0,
     "a648b48f20c79303": 0.0,
-    "ab1017f46bf2eec4": 0.0,
-    "aa7584009fe79030": 0.0,
-    "a80a01e3ccd40ab2": 0.0,
-    "1abed18524963ee6": 0.0
+    "ab1017f46bf2eec4": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Noche UFC results: Alexa Grasso comes out guns blazing to win decision over Manon Fiorot",
-      "ts": "2026-09-12T22:50:50+00:00"
-    },
     {
       "t": "Justin Gaethje Blames Arman Tsarukyan for His Title Woes, Still Backs Him to Win at UFC 331",
       "ts": "2026-09-12T22:16:22+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Sean Shelby's Shoes: What's next for Jean Silva after Noche UFC win?",
       "ts": "2026-09-13T20:20:00+00:00"
+    },
+    {
+      "t": "Mauricio Ruffy opens up about his training with MMA legend Alexander Volkanovski for UFC 331",
+      "ts": "2026-09-13T20:29:45+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-13T20",
-    25
+    26
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Sean-OMalley-Yadong-Song-is-a-problem-for-Merab-Dvalishvili-202579",
     "https://www.sherdog.com/news/news/Islam-Makhachev-Belal-Muhammad-rally-around-Umar-Nurmagomedov-after-brutal-KO-202580",
     "https://www.sherdog.com/news/news/Usman-Nurmagomedov-bought-one-of-Petr-Yans-rarest-possessions-202583",
     "https://www.sherdog.com/news/news/UFC-newcomer-wants-to-settle-the-score-following-brutal-debut-KO-202584",
@@ -4491,11 +4490,12 @@
     "CBMilAFBVV95cUxNQlc2UHJrUjYyZ2ZENG5pNGVWS0NteTh5QWF0MHVsMEFDWmlCdk5TRTBWSGkxYWhLY3gxdFdvakJfdVhBUkRGZDV3YTRzX1ljNXRKNDRQUVZSYUd4TWlrRXRGS3lhdDc1VXVjMjdXM0ZrQlVmZm9NcDJjMzcySlUyanFVNlRvZVo1R0twZWZvUkRYQU5x",
     "CBMiugFBVV95cUxQZzVyaXV1X25yQWkxWU80NlF2MkYtelZBTl85TlhSRnc0WFUwd2NWWGFDM2FvRS1xajk1Y0Ftd2F0YTNuMFlxOXpIWUpNbGRsbjhSNjhpSS0wX3pmNFJna3JQdXZRdUhCWG1kbjJseTRQbG1oTDlZa2xONHdfMjJ2Q29WVmlOZ0RFa1kxcUpaN3ZEVV8yYlFnQlltNTFLMlBBdUNQMGlKNWptS21WeXNNY3czazI1em5zVkE",
     "CBMimAFBVV95cUxOYUx5RDJFM3YxRVVmZ0hyNlRKdE5tUFJ3bV9GczhYeEVxUEUyZUM5ZXo3VVdMdVIxZ0E2dHVyOWlJWnJOVFlxdTE0MkxobGFtNkQ3RDRmTlFJZ0ZsSHkxLU1OcEQyU3RxcGRzUU1WY1lJdXg2aF9na2N2RUNPem1LaDNzeVNfa0RHaDZCWmlSUi1SdXVlRk5hdg",
-    "CBMi0wFBVV95cUxOcFd0ZDJ2cnlFbm9JSkhNZV92R1hUNmoxMDR6cDRtcUJVcl9yU3BvOE1OTFdLeDVrOHIxeEJ5ZUk2OVFXWWVER25jcnJkTmg5aTRwRDVQRW5iRnJMYjQzU2JIMjF5QkY4ZG5wX016TTFnOXA1a1JfaXBwWWJ3b0F6V2EwanZMWHhTTTQ1cjBkTGFrT3hGLWtFX1Y5UUx6dFdaVjBaU2Ywbk02MjVLdnRsMzlnNEwzUlh6UUplV2ZyQlVPeDcxOVc0bFNxSnNIanhqLWxn"
+    "CBMi0wFBVV95cUxOcFd0ZDJ2cnlFbm9JSkhNZV92R1hUNmoxMDR6cDRtcUJVcl9yU3BvOE1OTFdLeDVrOHIxeEJ5ZUk2OVFXWWVER25jcnJkTmg5aTRwRDVQRW5iRnJMYjQzU2JIMjF5QkY4ZG5wX016TTFnOXA1a1JfaXBwWWJ3b0F6V2EwanZMWHhTTTQ1cjBkTGFrT3hGLWtFX1Y5UUx6dFdaVjBaU2Ywbk02MjVLdnRsMzlnNEwzUlh6UUplV2ZyQlVPeDcxOVc0bFNxSnNIanhqLWxn",
+    "CBMiugFBVV95cUxNNF85X0ZNM2VtZTdaa0stZ2F1ZXhleGctSjZVVk5LN0IzUWt3dWtueVpOVEQ4dUF0M18zTmxPSl84cF85eGhyUms2T2EtcUpiRTk4dVE4UVdxLUFHbGdTTExDOEpqWXg0TEFfVmg1V0FjRUZnXzluVS1Yb0g4NnlyeHk2V0FIYlJhT1RDR2Jia3FsNjdqRTRMWHZlVWJuYldVVzY2UV9vTnVPMjVsVXZISzZzSGFoWnktdXc"
   ],
   "daily": {
     "d": "2026-09-13",
-    "ai": 108,
+    "ai": 109,
     "staged": 4,
     "prio": 1,
     "lost": 0
