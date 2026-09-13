@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b238b3a6a7111a0a": 1789331729.2019393,
     "f98202a9c0f5d9c0": 1789322490.0827773,
     "8c6a7d3a7c96f61c": 1789322466.2627466,
     "7522845f6fb6c634": 1789322439.9470735,
@@ -2498,16 +2499,11 @@
     "e1e9c231b64f3038": 0.0,
     "cbdf8355bc386f09": 0.0,
     "9f87c82de3945d9f": 0.0,
-    "5c41eff1b7dbdfa0": 0.0,
-    "79da5858bcc0ad2b": 0.0
+    "5c41eff1b7dbdfa0": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Arman Tsarukyan acknowledges the danger of Mauricio Ruffy's striking, their UFC 331 matchup's magnitude",
-      "ts": "2026-09-12T20:57:11+00:00"
-    },
     {
       "t": "Manon Fiorot Vs. Alexa Grasso: What AI Predicted and What Happened? Highlights and Results",
       "ts": "2026-09-12T20:58:35+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Eddie Hearn perfectly predicted Conor Benn’s loss to Ryan Garcia after star left him for Dana White",
       "ts": "2026-09-13T16:00:00+00:00"
+    },
+    {
+      "t": "Arman Tsarukyan in do-or-die situation at UFC 331: ‘If I lose this fight, I’m never going to see a title fight’",
+      "ts": "2026-09-12T21:42:34+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-13T18",
-    4
+    "2026-09-13T20",
+    1
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329790",
     "CBMif0FVX3lxTE9mZjBfclZ1dENFTl8yZGgwdlpseFB1eHlMQzNqNW5mS2lQY2NNTy0yWlIwaEMwVmtXaUE5cVBORTVvMEZDVUhfX2ZnTXFZWndiV0VnMnlQc2JraHBvSUFTSTZkaG1tcjBoZTNBVElhbnFhZnhZUDREMDJtdWEwWHc",
     "CBMikgFBVV95cUxPUWlZMWJ3WFNsRVhMWldXQ1BsRGs4WXJ6NmZBdmt2M3RWaXo4bVlVdUJoUmJOUjJ4VE51aFB6Rm8wc0tRRzd5bGFSc2dwLVIzUV9MMDJXUTFKMUJ6MVE3U052XzRVcE1HS05Ma2xEcm1oZ2lneklBajFXQmYtOXpjbXhXV2hZWmNPZ0lhWVk4THFnZw",
     "66098109-4735-31ca-a017-212009178986",
@@ -4491,25 +4490,17 @@
     "https://www.mmafighting.com/?p=507991",
     "https://bloodyelbow.com/?p=331449",
     "847d3d0d-34ab-3409-a1a0-c1aa0683354b",
-    "https://bloodyelbow.com/?p=331469"
+    "https://bloodyelbow.com/?p=331469",
+    "https://www.mmafighting.com/?p=509827"
   ],
   "daily": {
     "d": "2026-09-13",
-    "ai": 83,
-    "staged": 3,
+    "ai": 84,
+    "staged": 4,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-01T20:52:51.294035+00:00",
-      "t": "BREAKING: UFC 332 Main Event In Jeopardy After Fighter Suffers Injury",
-      "names": [
-        "jeopardy",
-        "injury"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-02T03:46:09.176899+00:00",
       "t": "Embattled UFC 332 loses main event as Valentina Shevchenko forced out with injury",
@@ -5325,6 +5316,14 @@
         "opponent"
       ],
       "img": "cutout:khamzat-chimaev"
+    },
+    {
+      "ts": "2026-09-13T20:35:30.242185+00:00",
+      "t": "Arman Tsarukyan in do-or-die situation at UFC 331: ‘If I lose this fight, I’m never going to see a title fight’",
+      "names": [
+        "tsarukyan"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
