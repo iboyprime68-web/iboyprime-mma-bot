@@ -1,5 +1,7 @@
 {
   "seen": {
+    "f314453b2a3eedec": 1789292886.7125711,
+    "c5ebca4fc2fd14f6": 1789292886.5028627,
     "8deac891364eccf2": 1789292819.163704,
     "d60368dc4efe514a": 1789292794.4389067,
     "7bc7d6934066ca86": 1789292749.704004,
@@ -2497,17 +2499,11 @@
     "4f984a2a6e04dbbd": 0.0,
     "1348b58c32303c72": 0.0,
     "5a21e83fb24ae949": 0.0,
-    "c768d3d8142b91c6": 0.0,
-    "69213c5beda3019d": 0.0,
-    "dec9c187c387c57e": 0.0
+    "c768d3d8142b91c6": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Noche UFC Entrance Music: What Songs Jean Silva, Jose Delgado, Alexa Grasso, And Other Fighters Walked Out To",
-      "ts": "2026-09-12T15:23:07+00:00"
-    },
     {
       "t": "Din Thomas explains why Brandon Moreno is on \"do-or-die\" situation against Joseph Morales ahead of Noche UFC",
       "ts": "2026-09-12T15:30:00+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Noche UFC Bonuses Revealed Following Card",
       "ts": "2026-09-13T03:48:18+00:00"
+    },
+    {
+      "t": "UFC could urge Aspinall to vacate heavyweight title",
+      "ts": "2026-09-13T06:51:39+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-13T09",
-    31
+    32
   ],
   "yt_eval": [
-    "CBMi3AFBVV95cUxOYUstUmc2R2J2OHQxcXJuNk9LX1RKNDdqbXJWVzVWenFtUzVvQ1BfcG9KWEpfWkwtSUF2VXpUT1h1anZlR2dQTmg4RE5wS01sRVBxX0xzQkx0MnNYTldNcTBTVllpZDlkeWpmQzBzWVpuNXdfanFMOElQOXFFc2NRNDZBRGIxNUtQTG5wSlYyMG1QZTZoRTB1TkV1QUlBNG13bjJHbmVSMnNabER0aEoxSmRnWndQTlZfSmlYZlNaWDh5Z0FKUlZJYno2VEpGYWtRbDhlOWhJNTY1Q2hP",
     "CBMimAFBVV95cUxQR0duWWVhNWctMXhmMFJhemdxMXRRaHhDUHRCUHA4SFhCOV96X2xVMXJIenBtWElFUWkyaFNKNzlhczh1RFFwVERMeW44amRDaFVlM2xWQ0pjM3FMaHAyVzFCY0lxTW51R2tIbUNJckcxQUl1TUJBLURzNk5Ddzctd1Bab1dkSjFMM01qQ0lfUDJuSEpoNXZGdg",
     "https://bloodyelbow.com/?p=329751",
     "b59c328a-e28d-3bce-a951-239977216eee",
@@ -4491,11 +4490,12 @@
     "4607437f-1ef5-3e4d-ad2b-2ff203c0bf7a",
     "51f008bb-b2a7-33d1-8659-64b934855800",
     "https://www.mmamania.com/471619/highlights-open-noche-ufc-4",
-    "dcc9a045-2f7f-3290-913e-218b4b23b4f9"
+    "dcc9a045-2f7f-3290-913e-218b4b23b4f9",
+    "3cf12f78-6c28-32fe-bc5e-84f8b99e0934"
   ],
   "daily": {
     "d": "2026-09-13",
-    "ai": 39,
+    "ai": 40,
     "staged": 1,
     "prio": 0,
     "lost": 0
