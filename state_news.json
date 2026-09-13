@@ -1,5 +1,7 @@
 {
   "seen": {
+    "f7528983ad8c4e5b": 1789309528.1974666,
+    "62d1c0c200bafea8": 1789309527.9870548,
     "c10be3f5df6c2a8e": 1789309463.7671614,
     "34d3d942d6b8aef2": 1789309463.5206106,
     "045d66cf6bcd6c84": 1789309399.3302522,
@@ -2497,17 +2499,11 @@
     "5970f283830f55d1": 0.0,
     "c5ea2c3b899fa1d3": 0.0,
     "7a40488721aebf45": 0.0,
-    "83931e54f0ac46af": 0.0,
-    "3c5b918cca44d55d": 0.0,
-    "15884fdb722ebda5": 0.0
+    "83931e54f0ac46af": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Former top-10 UFC heavyweight loses first fight since he was controversially cut by Dana White",
-      "ts": "2026-09-12T20:01:43+00:00"
-    },
     {
       "t": "Noche UFC video: Sean King III debuts with 36-second slam knockout",
       "ts": "2026-09-12T18:56:48+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "UFC Paris results – Hooker vs. Parnasse",
       "ts": "2026-09-13T13:31:11+00:00"
+    },
+    {
+      "t": "UFC champion could be stripped of title due to horror eye injury",
+      "ts": "2026-09-13T13:45:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-13T14",
-    20
+    21
   ],
   "yt_eval": [
-    "CBMiO0FVX3lxTFA3YUgwNlhqdjgzTUNycUFpVlVpaW95Szc2MnhSZkZGdWFMZW5GYXNhSUtKOXJBRVRVVlh3",
     "CBMiiAFBVV95cUxQREtHU3l1T3YyVHkwRkhpS3NsY01wNEFtc0QwTThPT0Zvb2xTdmZwM3FVRUVPY1lscnMzamhrd2Mya3ZXa1c2aTViWHVVblJYbFNHeXVaa0xPaGpzNmR0bkJwMDdCV1lOUDNoenRfQTdtRjFBUXBXMzVIU3pHYk9wQlJBNjVCMDZt",
     "CBMingFBVV95cUxQSC1SVUF3cWM2ODNZTGJjZEZGT3hIcEs0dlFfdDFwRTY1cXFsUnBHTHZmWmEyREM1S2ZVeGw2VmMyblRGeWE1MFh2T01iMUJFUlhRWG1ZS2NNdFoxaC1nVzByb3RYMXh5ckZwQjZoVEFBZEZPZlBsQUxxWUpXVjN1WGhhR190YkVMdmFtbWIwb0lQeVpuZVJZeFppRTdlQQ",
     "d2f8ad3a-c9ec-399c-8172-c6164bf37539",
@@ -4491,25 +4490,17 @@
     "https://www.mmamania.com/?p=472031",
     "CBMi9wFBVV95cUxQSEw3S3VfbnA2ajZkanRIcUFqQXlQQjY3NVdhcFhCQTdxdlpJY2RSZndGOTZNeUtJNkIwbEpyYTR3VlowdWtfZHFhN1Rja3FSeE1LY1kySDBhTWNLc2xkOEROaS1xUEkwd2paZXRTbW1PVjFqekNyTG9sbld4c1hRZkJHRlI5WE96Tk5YSkRmUDc5NHhGRktSSWRBNkNleXFCZHJoZDBSMFEwSklCMUFSTGtfR0xWYUFybUxCSWZCVG5DTjNrV0lYWmdSanFPa2FrSXEtc1dTc2s4U1g4NVZaSW1HU3plbkp0c3gwdEJFaHpSNEwzVjNv",
     "CBMihwFBVV95cUxPS3M0VW0yNFR0SFFQMG44THl1c0JweDByUHQ5OG9Wc2o4UWV3QjRzT3hoeW1XNUtwLVZfYVNscHh0MTRDdnRNTHZaMTFkdmYzUTVfblhhU21zN01WLVZMZnR1UVhyLU9TWWxKTDR3bmQxYkdYZ0FFSlRNWGo2eEk5LV80cjVlQlk",
-    "CBMia0FVX3lxTE5TZlhaenlqRXRNWUtiTF90cU9qNHdNWW9uRmpCS2FYYm5ob1QxNW5waTZKZG9rOXVHX0F6djBzdG5qODZTU3JkeWVOX2did1BUZDBSU0o0SWZCRVk4Wk9NajVrbzN1UDdZQkhR"
+    "CBMia0FVX3lxTE5TZlhaenlqRXRNWUtiTF90cU9qNHdNWW9uRmpCS2FYYm5ob1QxNW5waTZKZG9rOXVHX0F6djBzdG5qODZTU3JkeWVOX2did1BUZDBSU0o0SWZCRVk4Wk9NajVrbzN1UDdZQkhR",
+    "CBMijwFBVV95cUxNTnpmb2oxeXU5X2JRZnUxdGdVeHhSSGVaRVctMTZEU0hYOXcwZ1drb3RYM0tVODRKcEw3WjNGaC02RmRaX21Dc3AxYXZsaDZRVDNEYkllOU9GN1F4S0FaRDdhZTloUGdMY2l2RTlycV9GNVV6d011MGdGRlhsVmlBUnUyTTl2bVpFM2FYMjRYSQ"
   ],
   "daily": {
     "d": "2026-09-13",
-    "ai": 65,
+    "ai": 66,
     "staged": 2,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-01T20:50:33.329488+00:00",
-      "t": "Arman Tsarukyan not interested in welterweight before breaking Islam Makhachev's UFC record: \"At least five title defenses\"",
-      "names": [
-        "tsarukyan",
-        "makhachev"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-01T20:51:42.419865+00:00",
       "t": "Tsarukyan On Breaking Makhachev's UFC Record",
@@ -5324,6 +5315,12 @@
         "finish"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-13T14:25:29.537688+00:00",
+      "t": "UFC champion could be stripped of title due to horror eye injury",
+      "names": [],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -5359,7 +5356,8 @@
     "4501efbba7e17187": 1789168496.0871997,
     "822dd78108d3958e": 1789217096.7372422,
     "a7d1d1bae75ae00f": 1789232283.7078793,
-    "d3a2ac00482e5625": 1789291916.5302384
+    "d3a2ac00482e5625": 1789291916.5302384,
+    "f7528983ad8c4e5b": 1789309527.9902766
   },
   "pinged_titles": [
     [
@@ -5369,6 +5367,11 @@
         "aspinall",
         "white"
       ]
+    ],
+    [
+      "UFC champion could be stripped of title due to horror eye injury",
+      1789309527.9902766,
+      []
     ]
   ]
 }
