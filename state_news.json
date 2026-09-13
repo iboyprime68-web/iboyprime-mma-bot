@@ -1,5 +1,8 @@
 {
   "seen": {
+    "fd690ec7d7f5bae8": 1789309334.8472073,
+    "3ba3a4d5d2c333f8": 1789309334.6601112,
+    "a4cba20a5696a102": 1789309334.6579921,
     "ed24dfc16d8433b7": 1789309269.9775035,
     "5a629a608d7903c2": 1789309269.7380311,
     "01079fb492c3e368": 1789309204.4625056,
@@ -2496,18 +2499,11 @@
     "603387f43b8df54d": 0.0,
     "470fd76729599a53": 0.0,
     "7ef87d8811dd3a14": 0.0,
-    "718469746be62b5c": 0.0,
-    "6fc83551e8248d99": 0.0,
-    "46c3847dce5963b6": 0.0,
-    "884ace9399cc40d4": 0.0
+    "718469746be62b5c": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Watch Raul Rosas Jr’s brother get knocked out cold by a slam in 36 seconds at Noche UFC",
-      "ts": "2026-09-12T19:00:56+00:00"
-    },
     {
       "t": "Featherweight Contender Predicts Noche UFC Headliner",
       "ts": "2026-09-12T17:05:19+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Noche UFC 4’s Tommy McMillen vows he can’t be knocked out — ‘You have to kill me … bring a gun next time’",
       "ts": "2026-09-13T05:43:59+00:00"
+    },
+    {
+      "t": "Brandon Moreno surprised by split decision scoring in Noche UFC win: 'What the f*ck?'",
+      "ts": "2026-09-13T13:40:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-13T14",
-    17
+    18
   ],
   "yt_eval": [
-    "CBMivwFBVV95cUxNY0pINWczTXU4VmNRTGxjTmJzSUtpMl83MGlib0xoQ3FMQ29VTG1NT0N3MGlsRkprM1ZSbE51UUdCcDRMWnpuNGdCSnlOMnRta1h1emp1ckRLWFl0SlhSZnJnWXlhcVZHLWdjX3hVTHV6WElKaWZ5SC1XLVNDdW40WU5INTVHcWJrcWY5VjlLTTU3QlA2REt6REZUZ3NiREdERTJ0V2xOWnpoX3VxR1lCeU1RRlZQUTFFMmhyQkY5WQ",
     "CBMinAFBVV95cUxOUjlGZHhOa1JzN1VrRVJIdnVBSDhFN1A1eUhFWV9kR1lpS1JTMGpreGpENENRcGozazI0Z1FNbkUxeVRkRWw4NUtxQTBMc3ozYlppbHBOVkxvWFl2Y3NpZEtnak0xN2RtNEx1WUV6cF9xN1Q1a25HTUNlUWdGOGJFYTZyWGRjakh5ZDF4bmVzRkNCOXM2Umx3SUdsOGQ",
     "https://www.mmamania.com/?p=468665",
     "CBMiO0FVX3lxTFA3YUgwNlhqdjgzTUNycUFpVlVpaW95Szc2MnhSZkZGdWFMZW5GYXNhSUtKOXJBRVRVVlh3",
@@ -4491,11 +4490,12 @@
     "CBMif0FVX3lxTFBfY1c4bXB5d2FXS1N3d09na2RlcVVwSVF5elhFZzE5YkllTTMySExpRDZRVXM4S0hlRHpQREk1ZU40eEhkNlBVS1VYM1hmTU9oSEktdGc1ZkYtSDBYdmJwR2x0VUpZVld6WndZWUtpRllhNDFRMlpqVFl4UElGWG8",
     "CBMiggFBVV95cUxPUlpqU2F5MlNhRmJSdG1fRDdPVThpNG9TendjM0xla1VkQlFWU2cwN2RVa3Nhb0F0NjNSYTRVVHMwVXV3bi1tNjVXSXllWXpaSTgwRGxMWjd1ZDF0bU5OVmNpRWdOY3NWY1FlNDE1QkxtZXI5cFhZX29mNXpwUTh5c2Nn",
     "CBMi9wFBVV95cUxNWF9rLUt0UHdoaGFUNHVvZGJiU3gxcGRKTjZMRG9KaTg3OFE2cm1HYWJ1RjRJR2plX1czMUUyQUk5V014ekJnUVlGVlF5WkVZMi1Bem9YWGRleHlJVXlDSUJlTkZSelZYYU96US0xYURsam8zWW5wTmh2Z3AtbDYtTWVZREdNWHJod2dkZ2FJTFhmR3FRWGxHWGlUTE9GLTdOYWpUSlJSV0dDbGFlekNnbm94Tmh1ZXA2YW1EMnFnMzNpdFd6X3N5YjR2SjhjeExRSmdaMnlDb0JwZmkwTGdXR1JmN1F3ZmxGemcwRk5wMmJwb2s2WVFV0gH8AUFVX3lxTE9JSkg1NFpXakNidVpKOWJRRWowdEgyNExhUkwxSjJXemNEQUZNcXU4OC1nZFBLc0tCMW1VSGlOdkFJOU80MHVDMk5PMTlVOE5td25qVHFVZ1JaR1BaSjJ3VnlQdVNKTklmQjF6Q09xQXBqUFZMWGNYa3V0aF9xNUhqdktiOVRIUFF0cFFjTmNKX2p6UjNlVlFIWEFOWHFFZkVKSURRUi1ud1JLV3pndTE2LVpxYmJaWFpvcUhLYkxvUkpHdHQ5R3paVW5RLW9pbElNNFA2UHJrVmFHaWtEUzZ5WE8zQi1qRE1tNWd5cUJwWXNDYjJ0QTV1Y3JiSA",
-    "https://www.mmamania.com/?p=472031"
+    "https://www.mmamania.com/?p=472031",
+    "CBMi9wFBVV95cUxQSEw3S3VfbnA2ajZkanRIcUFqQXlQQjY3NVdhcFhCQTdxdlpJY2RSZndGOTZNeUtJNkIwbEpyYTR3VlowdWtfZHFhN1Rja3FSeE1LY1kySDBhTWNLc2xkOEROaS1xUEkwd2paZXRTbW1PVjFqekNyTG9sbld4c1hRZkJHRlI5WE96Tk5YSkRmUDc5NHhGRktSSWRBNkNleXFCZHJoZDBSMFEwSklCMUFSTGtfR0xWYUFybUxCSWZCVG5DTjNrV0lYWmdSanFPa2FrSXEtc1dTc2s4U1g4NVZaSW1HU3plbkp0c3gwdEJFaHpSNEwzVjNv"
   ],
   "daily": {
     "d": "2026-09-13",
-    "ai": 62,
+    "ai": 63,
     "staged": 2,
     "prio": 0,
     "lost": 0
