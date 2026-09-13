@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d3a2ac00482e5625": 1789291915.5503566,
     "f1149621b8b98289": 1789291891.712983,
     "219f969ba161b269": 1789291868.056049,
     "762c3712e05d6bad": 1789291867.778021,
@@ -2498,16 +2499,11 @@
     "8d3ceaddd76ae88d": 0.0,
     "eb87907c6d33f53a": 0.0,
     "45d647523a424e02": 0.0,
-    "d34ed5891dc84197": 0.0,
-    "be0cb513fd502903": 0.0
+    "d34ed5891dc84197": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Belal Muhammad Doesn’t Want Topuria vs. Gaethje UFC Rematch",
-      "ts": "2026-09-12T12:12:20+00:00"
-    },
     {
       "t": "Best Arizona Prediction Markets for NFL Week 1 & Noche UFC",
       "ts": "2026-09-12T12:14:00+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Alex Pereira’s trainer Plinio Cruz announces Chase DeMoor fight is cancelled amid injury uncertainty",
       "ts": "2026-09-13T05:19:18+00:00"
+    },
+    {
+      "t": "Dana White reveals UFC ‘will be talking about’ stripping Tom Aspinall of heavyweight title",
+      "ts": "2026-09-13T05:51:35+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-13T09",
-    11
+    12
   ],
   "yt_eval": [
-    "82333b08-c868-3401-b8c8-c26acdf84c8a",
     "https://bloodyelbow.com/?p=329716",
     "https://bloodyelbow.com/?p=329741",
     "https://bloodyelbow.com/?p=329786",
@@ -4491,25 +4490,17 @@
     "4d7a7c82-ddb1-3a95-9571-93ca858575fe",
     "https://bloodyelbow.com/?p=331404",
     "24f5f335-0641-330e-ac43-b55687411e96",
-    "https://bloodyelbow.com/?p=331410"
+    "https://bloodyelbow.com/?p=331410",
+    "https://bloodyelbow.com/?p=331415"
   ],
   "daily": {
     "d": "2026-09-13",
-    "ai": 19,
-    "staged": 0,
+    "ai": 20,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-01T01:09:01.032935+00:00",
-      "t": "TUF winner out of UFC Paris, undefeated knockout artist steps in on short notice",
-      "names": [
-        "paris",
-        "santos"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-01T07:36:21.001659+00:00",
       "t": "Umar Nurmagomedov sends defiant message after first knockout loss",
@@ -5322,6 +5313,15 @@
         "snub"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-13T09:31:56.527605+00:00",
+      "t": "Dana White reveals UFC ‘will be talking about’ stripping Tom Aspinall of heavyweight title",
+      "names": [
+        "white",
+        "aspinall"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -5356,26 +5356,16 @@
     "97f512aa1ae9d960": 1789168042.6899266,
     "4501efbba7e17187": 1789168496.0871997,
     "822dd78108d3958e": 1789217096.7372422,
-    "a7d1d1bae75ae00f": 1789232283.7078793
+    "a7d1d1bae75ae00f": 1789232283.7078793,
+    "d3a2ac00482e5625": 1789291916.5302384
   },
   "pinged_titles": [
     [
-      "Conor McGregor rules out re-signing with UFC as he looks forward to being ‘free’: ‘One more to go’",
-      1789217096.7372422,
+      "Dana White reveals UFC ‘will be talking about’ stripping Tom Aspinall of heavyweight title",
+      1789291916.5302384,
       [
-        "conor",
-        "one"
-      ]
-    ],
-    [
-      "Niko Price Set for Second Retirement Fight After UFC Seattle Snub",
-      1789232283.7078793,
-      [
-        "niko",
-        "price",
-        "retirement",
-        "set",
-        "snub"
+        "aspinall",
+        "white"
       ]
     ]
   ]
