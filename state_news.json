@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b0793c28de5098d6": 1789340489.0240958,
     "90bbb748f94c359f": 1789340465.133016,
     "bbdb321f11c1585d": 1789340441.7307734,
     "e17d5a4f40e9ec0e": 1789333249.3984256,
@@ -2498,16 +2499,11 @@
     "11c458484411c84c": 0.0,
     "6c2283f35ff178c5": 0.0,
     "ac6efde36bc6d587": 0.0,
-    "3a50c63446609395": 0.0,
-    "ea07974b11a25e19": 0.0
+    "3a50c63446609395": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Noche UFC results: Alexa Grasso drops Manon Fiorot, wins decision",
-      "ts": "2026-09-12T22:51:21+00:00"
-    },
     {
       "t": "Curtis Blaydes def. Waldo Cortes-Acosta, Noche UFC: Best photos",
       "ts": "2026-09-12T23:01:00+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Arman Tsarukyan to earn $50,000 by having streamer corner him at UFC 331 as N3on claims it’s official",
       "ts": "2026-09-13T22:00:00+00:00"
+    },
+    {
+      "t": "Khamzat Chimaev says if he doesn’t get a fight by December, he’s taking time off: ‘I have a lot of injuries’",
+      "ts": "2026-09-13T22:04:17+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-13T23",
-    2
+    3
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/ExUFC-fighter-Sedriques-Dumas-takes-down-costumed-fan-in-arena-brawl-202588",
     "https://www.sherdog.com/news/news/Yadong-Songs-team-predicted-exact-uppercut-KO-of-Umar-Nurmagomedov-202590",
     "https://www.sherdog.com/news/news/Two-knockouts-in-18-days-but-Bilal-Hasan-is-fighting-for-something-more-202592",
     "https://www.sherdog.com/news/news/Kai-Asakura-finds-new-life-in-UFC-following-rocky-flyweight-start-202593",
@@ -4491,11 +4490,12 @@
     "https://www.mmafighting.com/?p=510157",
     "https://bloodyelbow.com/?p=331495",
     "70f5c912-9e08-3902-8f3a-481a219dcac1",
-    "https://bloodyelbow.com/?p=331498"
+    "https://bloodyelbow.com/?p=331498",
+    "https://www.mmafighting.com/?p=510184"
   ],
   "daily": {
     "d": "2026-09-13",
-    "ai": 114,
+    "ai": 115,
     "staged": 4,
     "prio": 1,
     "lost": 0
