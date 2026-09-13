@@ -1,5 +1,6 @@
 {
   "seen": {
+    "77a3f946475ccca4": 1789292360.655974,
     "55fab654f1b30a84": 1789292296.157922,
     "224cda27a5a7659d": 1789292230.4594097,
     "719957c07bb81cc2": 1789292186.1262095,
@@ -2498,16 +2499,11 @@
     "063152f7b4620827": 0.0,
     "c25c029f1895dcf5": 0.0,
     "75ae6af2c221ea59": 0.0,
-    "3706cb58b9df5fb4": 0.0,
-    "5ba40435a1e6e082": 0.0
+    "3706cb58b9df5fb4": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC broadcast officially confirms title shot is on the line in Noche UFC main card matchup",
-      "ts": "2026-09-12T15:00:00+00:00"
-    },
     {
       "t": "Mateusz Gamrot suffers third rear-naked choke loss in a year at event featuring Gordon Ryan brawl",
       "ts": "2026-09-12T15:30:00+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Noche UFC bonuses: Slick Silva sub snags six figures",
       "ts": "2026-09-13T01:32:50+00:00"
+    },
+    {
+      "t": "Noche UFC Results: Jean Silva Submits Jose Miguel Delgado With Vicious One-Arm Rear-Naked Choke",
+      "ts": "2026-09-13T01:44:46+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-13T09",
-    22
+    23
   ],
   "yt_eval": [
-    "CBMiugFBVV95cUxQOU1FSlA1MXdBdkZVMTlYY3VSelF0aHE5bXRfZS1zU2o2MW5yb3QzTmo3bGZ0alpYUk9USGtfWVVSS3dfajVPWnNTUG1iZ2tBNGF0Q2QxY3BGalAzNlQtWG5BeFkzSWpPVTIxQV9jQWs4OUlQWDZsYjBiMjFHUUQ3d29BaXNfR0VCLWZNRG44TlBtZDB6dGJCNmQ4cjFEMFVUMFVQc0JDOUdORjROYmFvMWE4b3lzS0J1ZVE",
     "CBMi7gFBVV95cUxNR3Nsck0tdm9NLWhjakt0dFZGcnBORExMd2dzMXRQQ1BRa1IyU0JXdkw1dklTeF9nN0ZuZUhtekd5U0g0ZnZDSGhwS1lIa1N3YmEzZ0hPQ01kdGhOaGxkclNsaE02bk1rbWRVVW1pTXRBRnJpVURSQ09SeUx1ei0tU0s3OFZoN2hWZUxFNmc0V0V5YThPNVRnRXRYQzFyRVFVLVA0UHZhYWJxNklreVNLdHk2S2RVVXliMDdWYmtsekpzdXhGTTdTbURDUFlBUzM1VnpWOTFqVVFKbnBoVEVhbmQ4RThaQ21oRm9abWF3",
     "CBMixgFBVV95cUxQUjdXcHZORF9IZGh3RV9FWlhwUms5RzZNOE00aEpGVHVOV09qOXlsaUVUUGVmWGdtWjRBN2s4MVNFYjM3VVNkR1hzYlRrajl5MXJxWGdxa0syOUJYLUhzNE5HcjFqM2hBcUNkQlJXZHZJbjZ0TFRfV1FuS3B2cUpaNzdia2JtVUtwWjJiN01jUUw3V3IteE9rS3lHUEJqTVp0MkRZXzZKX08tZ3VnSWRTdmFpdGo1OWxINnRPN0Uzdkd1d0liNkE",
     "CBMi3gFBVV95cUxOaTE3Uy1fNlA0M2RFLU9raURGaHIxUy1FQzFiSUdLQjN5UzlRbGJtV1loMnFyc0ZrMUNBcTFaNFpzOUtSaFd6UU1KSTAzRkFzZkgzQ3piODEtUXZZVjhxYTdjOU92MGZWc3JoRkJoQWFlMFA1SGxWYU1yTDlCQlBIZEh3WHY5Tk10WG1TSWR2RlFYWjM1Ym8wN05uU1lBbmdBYXF2VUJmUnpBSVpnbWNDN1RBX0xyeGN3djhaUmh1RnYzcENvLVU1ZFpvc1JFcWx0RS12N0tZcWI2Nl9vWEE",
@@ -4491,11 +4490,12 @@
     "f9717cd7-84d1-327f-9b0d-aac8e295ddf0",
     "https://www.mmamania.com/471683/ufc-paris-results-sooo-about-last-night-hooker-vs-parnasse",
     "b8e834da-150b-3311-8214-b11935aa97d1",
-    "da837aad-06cd-3dbd-88a3-d16d13ae8334"
+    "da837aad-06cd-3dbd-88a3-d16d13ae8334",
+    "8e776d2b-13c1-3be4-b7d3-20213931add1"
   ],
   "daily": {
     "d": "2026-09-13",
-    "ai": 30,
+    "ai": 31,
     "staged": 1,
     "prio": 0,
     "lost": 0
