@@ -1,5 +1,6 @@
 {
   "seen": {
+    "23391b30ff05ed6e": 1789347420.8523803,
     "9c210d7194b7fcf7": 1789347354.767863,
     "c1ea622912acac92": 1789347354.4361882,
     "6c9f965eb4e2c8e5": 1789347309.8305032,
@@ -2498,16 +2499,11 @@
     "4964c7d70be6f518": 0.0,
     "dff2f87b1c1f66b1": 0.0,
     "7971d59ffe403a68": 0.0,
-    "eb9f112fbe040cad": 0.0,
-    "044a51136207aa3d": 0.0
+    "eb9f112fbe040cad": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Alexa Grasso def. Manon Fiorot, Noche UFC: Best photos",
-      "ts": "2026-09-12T23:13:00+00:00"
-    },
     {
       "t": "Noche UFC results: Brandon Moreno shows off slick striking and grappling to beat Joseph Morales",
       "ts": "2026-09-12T23:59:42+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Video, poll: What was the best stoppage at Noche UFC?",
       "ts": "2026-09-13T22:00:33+00:00"
+    },
+    {
+      "t": "Islam Makhachev claims cheater Jon Jones is excluded from GOAT conversation",
+      "ts": "2026-09-13T22:25:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T00",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMiugFBVV95cUxQWXgwYWpZc1czU2lfaXEyYjhlQmFQaTRhWGprSFh3OHNoVUhyRFNQWEVSUklhWFJReEVZTDhZY0FIdzV1UGtkZ0UxbWdTN19QNTNnTDVuWG1iOEdWUmsxSmVIeURVQVI1NjNLQmVhajJGSEhFZmRyaXlNNHJzYnBaOXRhNTZESTNuTFdaMzhaNEwxVmhDSk9MMUxLSXMzdG5UcmlPSjJCNllFMjdmb0M4ZXRzOFliVGlhU1E",
     "CBMimwFBVV95cUxPV21HZWFfd0t1cGU4U05zTEgyR21NV256ajJXUV9iVXdwM1hIQWFURkE3LVI0WE9lVHNFSUJELU9FRzBIMHRoVTFhR1NpNmJISV9sS0ZweXRjcVJ0OHNlcE1ZWk5yOFVvZ0luVXhPTy0zZWJZYnFQay0tTEhCX2Q5UjlhMWQ3dXAtdmh3LXZwOThwNXJoelF6SnBaOA",
     "CBMiW0FVX3lxTFBFcmVraVpxTThwcUJjZEtyd2NDR0FvLXFHckhWOXVaTnNMU3B1aFlpejNvTDdoeG52RDA4Zl8zTGVPRW5TdDkyQkFabWc5dGFDYnRQalh5Q0JreVE",
     "CBMihAFBVV95cUxQcFF6QmM1OXRVNC1Sa054T0VGWkZ0WW9NQnlXLU5RQXB1OTBTV0UwcXhIbk9pYks0Y1dUdlNOLWFhcURlYWczYkZSWGo2RE44VmpWVlM0ZFJrZ1BCNGpxZUcwdEZsZFBBTDJsY1Y4WTZJYXQ1RnU5bXlmQk9WcnN0SVNhc2s",
@@ -4491,26 +4490,17 @@
     "https://bloodyelbow.com/?p=331501",
     "https://www.mmamania.com/?p=472179",
     "https://bloodyelbow.com/?p=331504",
-    "de6aa0af-b24c-3ce8-9f98-09a7c88ff758"
+    "de6aa0af-b24c-3ce8-9f98-09a7c88ff758",
+    "10f829eb-a666-3e25-91ef-a302564c0314"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 3,
-    "staged": 0,
+    "ai": 4,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-02T04:05:53.842869+00:00",
-      "t": "Dana White responds to Justin Gaethje retirement rumors after UFC Freedom 250 win",
-      "names": [
-        "white",
-        "gaethje",
-        "freedom"
-      ],
-      "img": "cutout:justin-gaethje"
-    },
     {
       "ts": "2026-09-02T08:39:11.191499+00:00",
       "t": "Valentina Shevchenko Withdraws from UFC 332 Due to Injury",
@@ -5322,6 +5312,15 @@
       "names": [
         "van",
         "pantoja"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-14T00:57:01.959914+00:00",
+      "t": "Islam Makhachev claims cheater Jon Jones is excluded from GOAT conversation",
+      "names": [
+        "makhachev",
+        "jones"
       ],
       "img": "photo"
     }
