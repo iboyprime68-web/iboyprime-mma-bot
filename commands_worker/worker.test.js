@@ -1499,6 +1499,17 @@ const _spScript = (STUDIO_HTML.match(/<script>([\s\S]*)<\/script>/) || [])[1] ||
 
 check("the page carries an inline script", _spScript.length > 10000);
 
+// The fit/line caches held exactly ONE entry each, so any frame fitting more
+// than one string (panels, versus, poll tiles) had a 0% hit rate and re-ran the
+// size sweep plus the combinatorial balancer on every drag frame.
+check("the canvas fit caches hold more than one entry",
+  /var fitCache = lru\(\d+\), lineCache = lru\(\d+\)/.test(_spScript)
+  && /function lru\(limit\)/.test(_spScript));
+check("the LRU evicts, so a long session cannot grow it without bound",
+  /if \(order\.length > limit\) delete m\[order\.shift\(\)\]/.test(_spScript));
+check("invalidation clears BOTH caches (the old code nulled a single key)",
+  (_spScript.match(/fitCache\.clear\(\); lineCache\.clear\(\);/g) || []).length >= 2);
+
 // The staged rail used to have NO automatic refresh at all: loadStaged() ran at
 // boot, on the Refresh button, and on a deep-link miss. A post staged while the
 // app was open never appeared until the owner reloaded, which reads as "the
