@@ -12,11 +12,25 @@ on:
                              # "Run failed: All jobs were cancelled" each time (10 in one day).
                              # Never point a cron shorter than the window at this workflow.
   workflow_dispatch:
+    inputs:
+      reason:
+        description: 'What triggered this run (doorbell | manual)'
+        required: false
+        default: 'manual'
 permissions:
   contents: write
 concurrency:
   group: bot-news
   cancel-in-progress: false
+  # queue: max (GitHub Actions, May 2026) allows up to 100 QUEUED runs per group
+  # and cancels none of them. Without it a group keeps exactly one pending run
+  # and CANCELS that pending run the moment a newer one arrives - and GitHub
+  # mails "Run failed: All jobs were cancelled" for it, worded and weighted
+  # exactly like a real failure. That single line is what makes it safe for this
+  # workflow to be triggered more often than it finishes, which is the whole
+  # premise of moving the trigger off GitHub's throttled scheduler.
+  # It may NOT be combined with cancel-in-progress: true (validation error).
+  queue: max
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -38,6 +52,7 @@ jobs:
         run: pip install -r requirements-post.txt || echo "Pillow install failed - staging text-only this run"
       - name: Poll MMA feeds and post new articles
         env:
+          NEWS_REASON: ${{ inputs.reason || 'schedule' }}
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           # One line per scorer.PROVIDERS entry. An unset secret expands to an
           # empty string, which scorer.provider() reads as "no key", so listing
