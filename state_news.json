@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f314f070a81edb28": 1789388302.54976,
     "16f14ab5a2670a5c": 1789388277.7593293,
     "403965b188e8bf0d": 1789388253.5017748,
     "f50e248511d7e888": 1789388229.8966095,
@@ -2498,16 +2499,11 @@
     "14ce81c74a83ddf9": 0.0,
     "90aac68b07011d6e": 0.0,
     "4c3aa752386d1809": 0.0,
-    "71d72214b2f541e7": 0.0,
-    "4f53c729901a0523": 0.0
+    "71d72214b2f541e7": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Matches to make after Noche UFC 4",
-      "ts": "2026-09-12T23:57:12+00:00"
-    },
     {
       "t": "Dana White shuts down reports Oscar De La Hoya was denied access to Ryan Garcia v Conor Benn",
       "ts": "2026-09-13T04:50:12+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Tom Aspinall vacates UFC heavyweight title: ‘Absolute nightmare’",
       "ts": "2026-09-14T11:37:52+00:00"
+    },
+    {
+      "t": "Khamzat Chimaev sees massive gap in Arman Tsarukyan-Mauricio Ruffy fight",
+      "ts": "2026-09-14T03:05:24+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T12",
-    6
+    7
   ],
   "yt_eval": [
-    "388feba9-8b5a-3490-b4ba-866fc96113bd",
     "https://www.mmafighting.com/?p=507965",
     "https://bloodyelbow.com/?p=329826",
     "d82eb59e-b0dc-3328-89bc-efad03616b19",
@@ -4491,11 +4490,12 @@
     "https://bloodyelbow.com/?p=331523",
     "b4464128-9fad-3ba0-ac32-ad1168a1f252",
     "https://bloodyelbow.com/?p=331529",
-    "https://www.mmafighting.com/?p=510226"
+    "https://www.mmafighting.com/?p=510226",
+    "cd67e5bc-8ef7-311f-a3b6-f982889b8406"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 19,
+    "ai": 20,
     "staged": 3,
     "prio": 0,
     "lost": 0
