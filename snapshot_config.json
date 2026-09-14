@@ -115,6 +115,12 @@
           "type": 0,
           "allow": "1024",
           "deny": "0"
+        },
+        {
+          "id": "1549127161385066506",
+          "type": 0,
+          "allow": "4398083211776",
+          "deny": "0"
         }
       ]
     },
@@ -123,7 +129,7 @@
       "name": "💬┊chat",
       "type": 0,
       "parent_id": "1515436381382643882",
-      "position": 2,
+      "position": 0,
       "topic": "General chat. Anything that fits the rules.",
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -141,7 +147,7 @@
       "name": "😂┊memes",
       "type": 0,
       "parent_id": "1515436381382643882",
-      "position": 3,
+      "position": 1,
       "topic": "A bot posts a meme here every day. Post your own too.",
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -159,7 +165,7 @@
       "name": "🤖┊commands",
       "type": 0,
       "parent_id": "1515436381382643882",
-      "position": 4,
+      "position": 2,
       "topic": "Bot commands. Type / to see the list.",
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -205,6 +211,12 @@
           "type": 0,
           "allow": "1024",
           "deny": "0"
+        },
+        {
+          "id": "1549127161385066506",
+          "type": 0,
+          "allow": "4398083211776",
+          "deny": "0"
         }
       ]
     },
@@ -213,7 +225,7 @@
       "name": "🎮┊lfg",
       "type": 0,
       "parent_id": "1515436399246049334",
-      "position": 5,
+      "position": 0,
       "topic": "Post the game and platform you are on to find people to play with.",
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -277,6 +289,12 @@
           "type": 0,
           "allow": "1024",
           "deny": "0"
+        },
+        {
+          "id": "1549127161385066506",
+          "type": 0,
+          "allow": "4398083211776",
+          "deny": "0"
         }
       ]
     },
@@ -285,7 +303,7 @@
       "name": "🥊┊mma",
       "type": 0,
       "parent_id": "1515436415435931762",
-      "position": 6,
+      "position": 0,
       "topic": "Fight talk: debates, takes and predictions.",
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -317,29 +335,11 @@
       ]
     },
     {
-      "id": "1515436428920885430",
-      "name": "🔊 MMA VOICE",
-      "type": 4,
-      "parent_id": null,
-      "position": 4,
-      "topic": null,
-      "rate_limit_per_user": 0,
-      "nsfw": false,
-      "overwrites": [
-        {
-          "id": "1502831752702464113",
-          "type": 0,
-          "allow": "1024",
-          "deny": "2097152"
-        }
-      ]
-    },
-    {
       "id": "1515436432217473155",
       "name": "🔊┊North Korea",
       "type": 2,
-      "parent_id": "1515436428920885430",
-      "position": 0,
+      "parent_id": "1515436415435931762",
+      "position": 3,
       "topic": null,
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -361,6 +361,12 @@
           "type": 0,
           "allow": "0",
           "deny": "4398048608768"
+        },
+        {
+          "id": "1549127161385066506",
+          "type": 0,
+          "allow": "4398083211776",
+          "deny": "0"
         }
       ]
     },
@@ -379,6 +385,12 @@
           "type": 0,
           "allow": "3146752",
           "deny": "0"
+        },
+        {
+          "id": "1549127161385066506",
+          "type": 0,
+          "allow": "4398083211776",
+          "deny": "0"
         }
       ]
     },
@@ -387,7 +399,7 @@
       "name": "💤┊AFK",
       "type": 2,
       "parent_id": "1539698577306030121",
-      "position": 1,
+      "position": 0,
       "topic": null,
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -396,6 +408,12 @@
           "id": "1502831752702464113",
           "type": 0,
           "allow": "3146752",
+          "deny": "0"
+        },
+        {
+          "id": "1549127161385066506",
+          "type": 0,
+          "allow": "4398083211776",
           "deny": "0"
         }
       ]
@@ -441,7 +459,7 @@
       "name": "📋┊staff",
       "type": 0,
       "parent_id": "1515436448592040099",
-      "position": 9,
+      "position": 0,
       "topic": "Staff coordination.",
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -477,7 +495,7 @@
       "name": "🗒️┊modlog",
       "type": 0,
       "parent_id": "1515436448592040099",
-      "position": 10,
+      "position": 1,
       "topic": "AutoMod blocks and patrol reports, posted automatically.",
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -513,7 +531,7 @@
       "name": "🎟️┊tickets",
       "type": 0,
       "parent_id": "1515436448592040099",
-      "position": 11,
+      "position": 2,
       "topic": "Member reports and the staff follow-up on each one.",
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -549,7 +567,7 @@
       "name": "🔒┊Staff",
       "type": 2,
       "parent_id": "1515436448592040099",
-      "position": 4,
+      "position": 5,
       "topic": null,
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -585,7 +603,7 @@
       "name": "📅┊upcoming",
       "type": 15,
       "parent_id": "1515436415435931762",
-      "position": 8,
+      "position": 2,
       "topic": "Upcoming UFC, PFL and Bellator cards. One thread per event.",
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -621,7 +639,7 @@
       "name": "📰┊news",
       "type": 0,
       "parent_id": "1515436415435931762",
-      "position": 7,
+      "position": 1,
       "topic": "MMA headlines, posted automatically. This channel never pings anyone.",
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -657,7 +675,7 @@
       "name": "🎬┊studio",
       "type": 0,
       "parent_id": "1515436448592040099",
-      "position": 12,
+      "position": 3,
       "topic": "Staged YouTube posts. Each message has the graphic and a copy-ready caption. Post or schedule it in the YouTube app.",
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -703,6 +721,12 @@
           "type": 0,
           "allow": "1024",
           "deny": "0"
+        },
+        {
+          "id": "1549127161385066506",
+          "type": 0,
+          "allow": "4398083211776",
+          "deny": "0"
         }
       ]
     },
@@ -710,8 +734,8 @@
       "id": "1539698580196163685",
       "name": "🔊┊General",
       "type": 2,
-      "parent_id": "1539698577306030121",
-      "position": 0,
+      "parent_id": "1515436381382643882",
+      "position": 3,
       "topic": null,
       "rate_limit_per_user": 0,
       "nsfw": false,
@@ -720,6 +744,120 @@
           "id": "1502831752702464113",
           "type": 0,
           "allow": "3146752",
+          "deny": "0"
+        },
+        {
+          "id": "1549127161385066506",
+          "type": 0,
+          "allow": "4398083211776",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1549127175276466276",
+      "name": "🔊┊North Korea 2",
+      "type": 2,
+      "parent_id": "1515436415435931762",
+      "position": 4,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "3146752",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1549127161385066506",
+          "type": 0,
+          "allow": "4398083211776",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1549127178564796446",
+      "name": "🔊┊North Korea 3",
+      "type": 2,
+      "parent_id": "1515436415435931762",
+      "position": 5,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "3146752",
+          "deny": "0"
+        },
+        {
+          "id": "1515427303419678860",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427305164378143",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1515427307626692631",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1549127161385066506",
+          "type": 0,
+          "allow": "4398083211776",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1549127181798477865",
+      "name": "💡┊ideas",
+      "type": 0,
+      "parent_id": "1515436448592040099",
+      "position": 4,
+      "topic": "Poll questions and engagement posts for the YouTube channel. Nothing here is deleted automatically, so it builds into a bank to pick from.",
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": [
+        {
+          "id": "1502831752702464113",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "278312400061726731",
+          "type": 1,
+          "allow": "117824",
           "deny": "0"
         }
       ]
@@ -784,6 +922,15 @@
       "id": "1544974698750672919",
       "name": "🔔 News Alerts",
       "color": 10181046,
+      "hoist": false,
+      "mentionable": false,
+      "permissions": "0",
+      "position": 1
+    },
+    {
+      "id": "1549127161385066506",
+      "name": "🎙️ Speaker",
+      "color": 1752220,
       "hoist": false,
       "mentionable": false,
       "permissions": "0",
