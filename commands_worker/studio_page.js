@@ -4230,6 +4230,7 @@ window.addEventListener("hashchange", function () {
   loadStaged();
 });
 function loadStaged() {
+  lastStagedLoad = Date.now();
   railSkeleton();
   $("railNote").textContent = "Loading what the bot staged in Discord.";
   api("/studio/api/staged").then(function (r) {
@@ -5271,7 +5272,28 @@ applyShell(readShellPref());
 loadStaged();
 loadLimits();
 loadKeyState();
-loadUsage();
+// NOT loadUsage(): it costs up to four outbound Worker calls (Cloudflare
+// GraphQL, the GitHub secret list, a provider balance endpoint, repo
+// visibility) for a tab that starts hidden, and showTab() already lazy-loads
+// it the first time the owner opens Settings.
+
+// The rail never refreshed by itself: a post staged while the app was open
+// only appeared on a manual Refresh or a full reload, which reads as "the
+// studio is slow" or "my post isn't there". Refresh when the tab comes back
+// to the foreground, and poll gently while it is visible. Both paths are
+// skipped while the tab is hidden, so a phone left open costs nothing.
+var STAGED_POLL_MS = 90000;
+var lastStagedLoad = Date.now();
+function refreshStagedIfStale(minAge) {
+  if (document.hidden) return;
+  if (Date.now() - lastStagedLoad < (minAge || 0)) return;
+  lastStagedLoad = Date.now();
+  loadStaged();
+}
+document.addEventListener("visibilitychange", function () {
+  refreshStagedIfStale(20000);
+});
+setInterval(function () { refreshStagedIfStale(STAGED_POLL_MS); }, 30000);
 
 if (document.fonts && document.fonts.ready) {
   Promise.all([
