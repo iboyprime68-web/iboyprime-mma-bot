@@ -5220,6 +5220,122 @@ check("the title row is released too, so the similarity net stops suppressing "
       and _nr.claim({}, "guid-2", 1003.0, {},
                     title="Aspinall vacates the title") is True)
 
+# ------------------- story dedupe (one story, one post) -------------------
+print("\n[story dedupe]")
+import storykey as _sk
+import datetime as _sk_dt
+_SKU = _sk_dt.timezone.utc
+
+
+def _sk_T(h, m, d=14):
+    return _sk_dt.datetime(2026, 9, d, h, m, tzinfo=_SKU)
+
+
+def _sk_run(seq, cfg=None):
+    """Feed titles through the real gate in order; return the ones KEPT."""
+    recent, kept = [], []
+    for title, src, when in seq:
+        dup, _why = _sk.is_duplicate(title, src, when, recent, cfg)
+        if not dup:
+            kept.append(title)
+            _sk.remember(recent, title, src, when, cfg=cfg)
+    return kept, recent
+
+
+# The owner's actual complaint, with the real headlines that landed.
+_SK_FLOOD = [
+    ("Tom Aspinall vacates UFC heavyweight title after suffering further damage to his eye in training", "Bloody Elbow", _sk_T(12, 16)),
+    ("Tom Aspinall vacates UFC heavyweight title: Absolute nightmare", "MMA Fighting", _sk_T(12, 17)),
+    ("Tom Aspinall vacates UFC heavyweight title in bombshell statement as eye issues continue", "Yahoo Sports", _sk_T(12, 25)),
+    ("Tom Aspinall vacates UFC title after ongoing complications with his eyes", "Yahoo Sports", _sk_T(12, 28)),
+    ("Tom Aspinall vacates UFC heavyweight title after eye complications once again delay comeback", "The Times of India", _sk_T(12, 29)),
+    ("Why Did Tom Aspinall Vacate The UFC Heavyweight Title?", "LowKickMMA.com", _sk_T(12, 35)),
+    ("UFC news: Tom Aspinall officially vacates Heavyweight Championship", "Yahoo Sports", _sk_T(12, 38)),
+    ("Why Did Tom Aspinall Vacate UFC Heavyweight Title? 33-Year-Old Reveals Absolute Nightmare Condition", "NDTV Sports", _sk_T(12, 45)),
+]
+_sk_kept, _sk_recent = _sk_run(_SK_FLOOD)
+check("the twelve-outlet Aspinall flood collapses to ONE post",
+      len(_sk_kept) == 1)
+check("...and the outlet that BROKE it is the one that survives",
+      _sk_kept and _sk_kept[0].startswith("Tom Aspinall vacates UFC heavyweight "
+                                          "title after suffering"))
+
+# The old net could not see any of this.
+check("the Jaccard net this replaces scores two of them at 0.22, which is why "
+      "every copy got through",
+      newsconfig.similar(_SK_FLOOD[2][0], _SK_FLOOD[7][0]) < 0.35)
+
+# Recall is the metric that matters: a dropped DISTINCT story is the failure.
+_SK_DISTINCT = [
+    ("Tom Aspinall vacates UFC heavyweight title after suffering further damage to his eye", "Bloody Elbow", _sk_T(12, 16)),
+    ("Josh Hokit demands heavyweight title shot against Ciryl Gane after Tom Aspinall vacates UFC belt", "MMA Mania", _sk_T(12, 48)),
+    ("Five reasons why Tom Aspinall is the unluckiest fighter in UFC history", "Bloody Elbow", _sk_T(12, 50)),
+    ("Conor McGregor spotted on crutches following ACL surgery", "Sherdog", _sk_T(12, 57)),
+    ("Jean Silva claims his victory over Jose Delgado unfolded as his team predicted", "Sherdog", _sk_T(13, 5)),
+]
+_sk_k2, _ = _sk_run(_SK_DISTINCT)
+check("five genuinely DIFFERENT stories all survive (a dropped distinct story "
+      "is the failure the owner would notice)",
+      len(_sk_k2) == 5)
+
+# Two different events about the same person, a day apart, are two stories.
+_sk_k3, _ = _sk_run([
+    ("UFC could urge Aspinall to vacate heavyweight title", "Yahoo Sports", _sk_T(9, 48, d=13)),
+    ("Tom Aspinall vacates UFC heavyweight title", "Bloody Elbow", _sk_T(12, 16, d=14)),
+])
+check("a story 26h later about the same person is NOT folded into the first "
+      "(the prototype merged these two)",
+      len(_sk_k3) == 2)
+
+# The switch the owner can reach.
+_sk_k4, _ = _sk_run(_SK_FLOOD, cfg={"enabled": False})
+check("dedupe disabled posts everything, exactly as before this module",
+      len(_sk_k4) == len(_SK_FLOOD))
+
+# state_news.json is committed to a PUBLIC repo every few minutes.
+_sk_rec = []
+_sk.remember(_sk_rec, "Tom Aspinall vacates UFC heavyweight title", "Bloody Elbow", _sk_T(12, 16))
+_sk.is_duplicate("Tom Aspinall vacates the UFC belt", "Yahoo", _sk_T(12, 20), _sk_rec)
+_sk_raised = False
+try:
+    _pl_json.dumps(_sk_rec)
+except TypeError:
+    _sk_raised = True
+check("the feature cache is NOT serialisable, so save() must strip it "
+      "(leaving it in makes save_json raise and write NOTHING, losing the "
+      "whole dedupe memory)",
+      _sk_raised)
+_sk.strip_cache(_sk_rec)
+check("strip_cache makes the window committable again",
+      isinstance(_pl_json.dumps(_sk_rec), str))
+check("news_bot.save strips the cache before writing",
+      "storykey.strip_cache" in open(os.path.join(_SRC, "news_bot.py"),
+                                     encoding="utf-8").read())
+
+# The rows are read by news_bot's Jaccard backstop and by pollgen.recent_titles,
+# both of which index "t".
+check("a remembered row keeps the 't' key every existing reader uses",
+      _sk_rec and "t" in _sk_rec[0] and "ts" in _sk_rec[0])
+
+# Degenerate input must never take the wire down.
+_sk_crash = []
+for _bad in ("", "   ", "UFC", "a", "x" * 400, "123 456", chr(0x200b)):
+    try:
+        _sk.is_duplicate(_bad, "src", _sk_T(11, 0), [])
+    except Exception as _e:
+        _sk_crash.append((_bad[:12], type(_e).__name__))
+check("empty, one-word and junk headlines never raise", _sk_crash == [])
+
+# The deep-merge law: a block in the defaults and absent from the json (or the
+# reverse) is the documented drift trap.
+check("the dedupe block exists in BOTH newsconfig.py defaults and the json",
+      isinstance(newsconfig.base_defaults().get("dedupe"), dict)
+      and isinstance(_pl_json.load(open(os.path.join(_SRC, "newsconfig.json"),
+                                        encoding="utf-8")).get("dedupe"), dict))
+check("MAX_RECENT matches the window the deduper is configured to scan",
+      news_bot.MAX_RECENT >= int((newsconfig.load().get("dedupe") or {})
+                                 .get("recent_cap", 0)))
+
 print("\n[caption quality]")
 import ytposts as _cq_yt
 import news_bot as _cq_nb
