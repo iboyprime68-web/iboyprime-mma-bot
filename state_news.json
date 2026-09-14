@@ -1,5 +1,8 @@
 {
   "seen": {
+    "194d23ad588d2ff0": 1789424639.7581863,
+    "43fb8c5550f95011": 1789424639.4084017,
+    "fb66b2902f405a1a": 1789424639.4033034,
     "7224119bb704d5de": 1789424615.351907,
     "c32718554baadab9": 1789424592.00259,
     "4ee018c4491b508d": 1789424568.8132615,
@@ -2496,10 +2499,7 @@
     "c29ac8ae602e9769": 0.0,
     "7bf1d5ab45cfe8e4": 0.0,
     "e3d241ef9afe5b2a": 0.0,
-    "bc797ff110f4df24": 0.0,
-    "7dd3dfba374c6a5d": 0.0,
-    "e22bdf3788e12789": 0.0,
-    "80df5e17e5961bef": 0.0
+    "bc797ff110f4df24": 0.0
   },
   "initialized": true,
   "v": 4,
@@ -3019,16 +3019,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-14T22:00:00+00:00",
       "cluster": "cd89de64548"
+    },
+    {
+      "t": "Henry Cejudo shares 'the perfect match' for Ilia Topuria's UFC return",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-14T19:30:19+00:00",
+      "cluster": "c21815d78c8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T22",
-    6
+    7
   ],
   "yt_eval": [
-    "CBMijwFBVV95cUxOMDI1MXVBRFZfMHFJV3ZIMDNkdm5mbEZGbWczcENsbDE0QmlmRGN0VldGLUc3RXAyVTdFcERLWU8zUm1HUTNRY3dKZHI2TURlSktTTWFmZU9fZ1o2NWlYZVItSTZfZV9ZWDVzcTQwX2NJVG5vVnFSOVFzUm1yS3Joblg3ZWI4b3RKdHRISjdZQQ",
     "https://www.mmafighting.com/?p=508011",
     "CBMirgFBVV95cUxPWHg0U1FiVWJFTlZJTUROVExQWEtlczFCOTVsVTBHMWtNLVlUMldCUnlpaDloMkFUYVpRVk5Zd3VvZHhPSUVJV1NhZUk5Y01FSmI2V2E4WEw3VVREbmM5MGFWRGVCWkhveFJiTzV5Q1pwRmxPbG5CTXl5WWwwMFd0TUJ5Z05rZjZJY2xOSXM0ZlpFWFJCc0NiTzE1TjJmbk9SQmhqZFVaTEhQYnZLcUE",
     "CBMizwFBVV95cUxNZkFCcDhBSmF3S2xUdEh5eDJUaHhhb290bG9UQXItX0tLV0pIWFdFa0ttcmNWalVlYmJmUGoxcTg2TnVpYXkzaU0tTG1OZlY4OTEtZHF5bHFmczNzN2dZWGszUkNEejF1aE93NDBKajVmV19lZWwwYUctd3pCdWx0RG1jaklrckh2MEg2ZWdCczZhMGlPR1pFTldpckZpelpOQXhUWGtJWUpQQXJ5OEZmVW9QUS1SQzlVd25MRExHd2Z5Mk93Z2dyRE1jelJtUjQ",
@@ -4527,11 +4532,12 @@
     "https://bloodyelbow.com/?p=331589",
     "aa64e4cb-1b16-3e2c-aa54-7af2bb1610d8",
     "https://bloodyelbow.com/?p=331578",
-    "https://bloodyelbow.com/?p=331606"
+    "https://bloodyelbow.com/?p=331606",
+    "c4295335-06f9-3fc9-baaa-58d59dba0cf2"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 105,
+    "ai": 106,
     "staged": 5,
     "prio": 1,
     "lost": 0
