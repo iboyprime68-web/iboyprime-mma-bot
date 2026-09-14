@@ -1,5 +1,6 @@
 {
   "seen": {
+    "fa274ebd3d3522e7": 1789426334.543787,
     "ed87e79d5979d3a7": 1789425941.6869626,
     "37e2d809bb154209": 1789425816.6280625,
     "3b4a915e1921dedc": 1789425752.8616219,
@@ -2498,8 +2499,7 @@
     "e9f0ceb1f8293e2d": 1788424407.8651404,
     "b42edd9a97a57def": 1788424407.8651392,
     "5ebd4ee4401827ff": 1788424407.8651383,
-    "c706310b953972b8": 1788424407.8651366,
-    "ab56842ba21e664e": 1788424407.8651314
+    "c706310b953972b8": 1788424407.8651366
   },
   "initialized": true,
   "v": 4,
@@ -3151,13 +3151,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-14T22:37:05+00:00",
       "cluster": "cb3ed9c36dc"
+    },
+    {
+      "t": "Scott Coker announcement: Watch new global MMA promotion LIVE reveal TODAY at 6pm ET (Video)",
+      "source": "MMA Mania",
+      "ts": "2026-09-14T20:38:21+00:00",
+      "cluster": "c5d1ab03738"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T22",
-    28
+    29
   ],
   "yt_eval": [
     "b42cc320-f4e6-39e9-ae57-aecd554ec9ae",
