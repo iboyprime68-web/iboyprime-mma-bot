@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f50e248511d7e888": 1789388229.8966095,
     "6914395cb37aebf5": 1789388202.907663,
     "c8710d71ea5a2964": 1789388179.044741,
     "0615c0c131e259f0": 1789388154.7932162,
@@ -2498,16 +2499,11 @@
     "71d72214b2f541e7": 0.0,
     "4f53c729901a0523": 0.0,
     "a6e9db60adc23293": 0.0,
-    "3dd6fd305e650c13": 0.0,
-    "d056aae102e95002": 0.0
+    "3dd6fd305e650c13": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Ryan Garcia demolishes Conor Benn inside 2 rounds, calls out Teofimo Lopez and Devin Haney",
-      "ts": "2026-09-13T03:52:43+00:00"
-    },
     {
       "t": "Noche UFC 4 bonuses: Tommy McMillen, 3 more fighters earn &#36;100K",
       "ts": "2026-09-12T23:57:10+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Tom Aspinall vacates UFC heavyweight title after suffering ‘further damage’ to his eye in training",
       "ts": "2026-09-14T08:14:28+00:00"
+    },
+    {
+      "t": "Jean Silva says he has no memory of brutal Diego Lopes loss",
+      "ts": "2026-09-14T02:52:25+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T12",
-    3
+    4
   ],
   "yt_eval": [
-    "575d6f85-de73-3a88-ade4-b52cf6cec9ea",
     "298427cd-0fff-3676-bad1-1a8179040c9c",
     "302a635f-3447-30e2-be58-96ea360fc869",
     "388feba9-8b5a-3490-b4ba-866fc96113bd",
@@ -4491,11 +4490,12 @@
     "31b90ba3-3f0d-3f93-aa66-8b0394dd0750",
     "https://www.sherdog.com/news/news/Tommy-McMillen-says-UFC-rival-was-pleading-for-respect-after-war-202782",
     "https://bloodyelbow.com/?p=331519",
-    "https://bloodyelbow.com/?p=331523"
+    "https://bloodyelbow.com/?p=331523",
+    "b4464128-9fad-3ba0-ac32-ad1168a1f252"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 16,
+    "ai": 17,
     "staged": 3,
     "prio": 0,
     "lost": 0
