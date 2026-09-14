@@ -1,5 +1,7 @@
 {
   "seen": {
+    "dd794b51f702baf5": 1789424792.7183418,
+    "842c3465dbb59b25": 1789424792.476994,
     "d3e87fbb5ac26c5c": 1789424769.4643414,
     "0bcd40da63463274": 1789424769.1780922,
     "e130a6c218b5bd96": 1789424769.1610694,
@@ -2497,9 +2499,7 @@
     "4b8b3c3bfe237a38": 0.0,
     "dba7fb04c7cafaa0": 0.0,
     "8fc5dc192e6ed616": 0.0,
-    "3bc34328dcea5c22": 0.0,
-    "96a982a60d53114c": 0.0,
-    "1e4e7e943bb7d6d6": 0.0
+    "3bc34328dcea5c22": 0.0
   },
   "initialized": true,
   "v": 4,
@@ -3037,16 +3037,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-14T20:17:52+00:00",
       "cluster": "cff71d62f4d"
+    },
+    {
+      "t": "DWCS 2026 Week 6 weigh-in results: All 10 fighters make weight",
+      "source": "Sherdog",
+      "ts": "2026-09-14T18:15:12+00:00",
+      "cluster": "cd77b16d8e1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T22",
-    9
+    10
   ],
   "yt_eval": [
-    "CBMizwFBVV95cUxNZkFCcDhBSmF3S2xUdEh5eDJUaHhhb290bG9UQXItX0tLV0pIWFdFa0ttcmNWalVlYmJmUGoxcTg2TnVpYXkzaU0tTG1OZlY4OTEtZHF5bHFmczNzN2dZWGszUkNEejF1aE93NDBKajVmV19lZWwwYUctd3pCdWx0RG1jaklrckh2MEg2ZWdCczZhMGlPR1pFTldpckZpelpOQXhUWGtJWUpQQXJ5OEZmVW9QUS1SQzlVd25MRExHd2Z5Mk93Z2dyRE1jelJtUjQ",
     "CBMinwFBVV95cUxNb00yMGhBRjJ6eWJpUTFpYUhtbjRHN1FPamZ2OUJwSjA5T1RtQmVGcVFsaGtoZXM4WEt3dWJEbHc3WndxNmtmOHBMNWJqa19Nc0VSclhQYk4zQVRvQVU1R0MwZUxsNjRnbkRHRXpDTjZqV3FQb1RtanVzUkVVNHhZSzlsQjZXZ1F6T2lLUWNnb21HNWRBazVCQzRhZWJPVXM",
     "CBMivgFBVV95cUxNaXRVRDIxeVBSTEFTWmFILVFtQ0luTUdYb0VSWFdRMWc5RDZfMEZ5ZHhUbUxTb2pkY2tVT0J3ZHRZOEV3X2lJX1FQUncteWxoVmc4OTBoQWlKdXpHVlV4REZDY25kbjVEOXFZaW1Pemd2T0oyT241dG1CN19EZHdWVXNIeXJjNXk1bHc1Yng5SXNPbEs2YWhYdnpyTzVHZVZ2bENvUGFiT3huNE80Sk84S005YWpkcm1STkN6cW1R",
     "CBMiogFBVV95cUxNNkh5X1NMdzNiWER4WmpRM1Q3S1M2dHlmV09SVTZsNThHVTF0dU9jN0UxMmtvMzdUQzRrbWx3NzVKZzlabGF4YUhzQUh5V1A1TF9zajZxUkVxaFNoZFZ2enRSYVhBNlpzVS15VDBlMzA4bWJkUjlQc04zNjFaU1F3Qjctdm8xQ2lta01DLUdqSnUtcVBvbW9WZU9sY1kzN3RHa0E",
@@ -4545,11 +4550,12 @@
     "https://bloodyelbow.com/?p=331606",
     "c4295335-06f9-3fc9-baaa-58d59dba0cf2",
     "9d9731d8-3664-43d0-a05e-74fefa917f88",
-    "55b8e6c6-4266-36f7-b88b-c5682e0220a3"
+    "55b8e6c6-4266-36f7-b88b-c5682e0220a3",
+    "https://www.sherdog.com/news/news/DWCS-2026-Week-6-weighin-results-All-10-fighters-make-weight-202799"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 108,
+    "ai": 109,
     "staged": 5,
     "prio": 1,
     "lost": 0
