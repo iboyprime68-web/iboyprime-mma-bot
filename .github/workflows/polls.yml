@@ -19,13 +19,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install render deps (pinned; non-fatal)
-        # Pillow powers the 640x640 option tiles (postcard.py). If this step
-        # ever fails the poll must still stage - polls_bot degrades to a
-        # text-only stage and the job stays green; a red cron run emails the
-        # owner.
-        run: pip install -r requirements-post.txt || echo "Pillow install failed - staging without tiles this run"
-      - name: Stage one YouTube poll to the studio channel
+      # No pip step. The 640x640 option tiles were removed in Sept 2026 at the
+      # owner's request, which took Pillow (and postcard, and the octagon-api
+      # lookup) out of this bot entirely. polls_bot is stdlib-only again.
+      - name: Stage one YouTube poll to the owner's ideas channel
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           # One line per scorer.PROVIDERS entry, same as news.yml: pollgen
