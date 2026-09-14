@@ -37,10 +37,11 @@ class Ch(object):
     that must point at the same id (e.g. the merged welcome channel is still the
     `rules` channel as far as mod_setup and Discord's Community mode care)."""
 
-    __slots__ = ("key", "name", "ctype", "read_only", "topic", "old_names", "aliases")
+    __slots__ = ("key", "name", "ctype", "read_only", "topic", "old_names",
+                 "aliases", "owner_only")
 
     def __init__(self, key, name, ctype=TEXT, read_only=False, topic="",
-                 old_names=(), aliases=()):
+                 old_names=(), aliases=(), owner_only=False):
         self.key = key
         self.name = name
         self.ctype = ctype
@@ -48,6 +49,12 @@ class Ch(object):
         self.topic = topic
         self.old_names = tuple(old_names)
         self.aliases = tuple(aliases)
+        # owner_only: visible to the GUILD OWNER ALONE, by user id, plus the bot.
+        # Deliberately NOT a role check. Measured on the live guild: the
+        # "Owner" role is held by TWO accounts and "Admin" by five, so a
+        # role-gated channel would leak to the owner's friends. Only a member
+        # overwrite on guild.owner_id says what he actually asked for.
+        self.owner_only = bool(owner_only)
 
     @property
     def is_voice(self):
@@ -107,6 +114,12 @@ CATEGORIES = [
         Ch("bot_commands", "🤖┊commands", TEXT, False,
            "Bot commands. Type / to see the list.",
            old_names=["🤖-bot-commands"]),
+        # Voice lives WITH the text it belongs to (owner's ask, Sept 2026). It
+        # used to sit in two voice-only categories at the bottom, which is what
+        # he meant by "all the voice channels are separated from everything
+        # else". Discord still renders voice below text inside a category.
+        Ch(None, "🔊┊General", VOICE, False, "",
+           old_names=["🔊 General"]),
     ]),
 
     Cat("🎮 GAMING", [
@@ -127,10 +140,20 @@ CATEGORIES = [
         Ch("upcoming", "📅┊upcoming", FORUM, False,
            "Upcoming UFC, PFL and Bellator cards. One thread per event.",
            old_names=["🥊-upcoming-fights"]),
+        # The owner named these himself and set the speaking restriction on the
+        # first one by hand, so the exact names are HIS - including the space,
+        # which validate() allows on a voice channel. North Korea 1 keeps his
+        # "Member cannot speak" overwrite; 2 and 3 are open to everyone. He
+        # hands out the Speaker role to let someone talk in the restricted one.
+        # NO old_names: the live channel ALREADY carries this exact name (it is
+        # the original "🔊 General" he renamed), so the new-name lookup finds
+        # it and it is MOVED, never recreated - its history survives.
+        Ch(None, "🔊┊North Korea", VOICE, False, ""),
+        Ch(None, "🔊┊North Korea 2", VOICE, False, ""),
+        Ch(None, "🔊┊North Korea 3", VOICE, False, ""),
     ], old_names=["🥊 MMA & COMBAT SPORTS"]),
 
     Cat("🔊 VOICE", [
-        Ch(None, "🔊┊General", VOICE, False, "", old_names=["🔊 General"]),
         Ch(None, "💤┊AFK", VOICE, False, "", old_names=["💤 AFK"]),
     ], old_names=["🔊 VOICE CHANNELS"]),
 
@@ -146,6 +169,10 @@ CATEGORIES = [
         Ch("studio", "🎬┊studio", TEXT, False,
            "Staged YouTube posts. Each message has the graphic and a "
            "copy-ready caption. Post or schedule it in the YouTube app."),
+        Ch("ideas", "💡┊ideas", TEXT, False,
+           "Poll questions and engagement posts for the YouTube channel. "
+           "Nothing here is deleted automatically, so it builds into a bank "
+           "to pick from.", owner_only=True),
         Ch(None, "🔒┊Staff", VOICE, False, "", old_names=["🔒 Staff VC"]),
     ]),
 ]
@@ -171,7 +198,13 @@ DELETE_CHANNELS = [
     "🔔-notify-setup",
 ]
 
-DELETE_CATEGORIES = ["📺 CONTENT & STREAMS", "📰 MMA FEEDS"]
+# "🔊 MMA VOICE" is the ORIGINAL voice category. The owner renamed it by hand,
+# so the next deploy matched it by neither its new nor its old name and CREATED A
+# DUPLICATE "🔊 VOICE" alongside it - the rename-duplication trap this file
+# exists to prevent. Its one channel ("🔊┊North Korea", itself the renamed
+# "🔊 General") is reparented into MMA above BEFORE this delete runs.
+DELETE_CATEGORIES = ["📺 CONTENT & STREAMS", "📰 MMA FEEDS",
+                     "🔊 MMA VOICE"]
 
 # --------------------------------------------------------------------------
 # ROLES
@@ -199,9 +232,21 @@ ROLES_KEEP = [
     # Do NOT rename this to "📰 News Pings": that name is in ROLES_DELETE and the
     # deploy actively deletes it on every run.
     ("🔔 News Alerts", 0x9B59B6, False, False),
+    # Sept 2026. The owner restricts speaking in the North Korea voice channel by
+    # denying SPEAK to "Member", which every human holds. Discord applies role
+    # ALLOWS after role DENIES, so an explicit SPEAK allow on this role beats
+    # that deny - documented behaviour, pinned by a selftest. Guild permissions
+    # stay 0: this role grants nothing anywhere except the voice overwrites the
+    # deploy writes, which is exactly what he asked for ("I want to be able to
+    # give people a role which allows them to speak... not admin access").
+    ("🎙️ Speaker", 0x1ABC9C, False, False),
 ]
 
 MEMBER_ROLE = "🤝 Member"
+
+# Held by whoever the owner trusts to talk in a locked voice channel, and nothing
+# else. See the ROLES_KEEP comment for why an allow overwrite beats the deny.
+SPEAKER_ROLE = "🎙️ Speaker"
 
 # Held by the owner alone. news_bot pings it for a big story; everything else
 # stays silent. If the role is missing, news_bot degrades to silent-for-everything
