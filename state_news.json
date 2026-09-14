@@ -1,5 +1,7 @@
 {
   "seen": {
+    "62e6ebf33b846a6d": 1789390443.282946,
+    "d5abe7c58daa6b46": 1789390443.021845,
     "b85f4824b824397c": 1789390377.316805,
     "97675b0e3821c6d7": 1789390377.023701,
     "d05f1ab0df7dab37": 1789390377.0226061,
@@ -2497,17 +2499,11 @@
     "da33ffde72c64a8d": 0.0,
     "237de0fd5c41fc11": 0.0,
     "d1ee57637996d83d": 0.0,
-    "2815bcb898713204": 0.0,
-    "a778ddc32f0a44b2": 0.0,
-    "1cb807573dcdacd6": 0.0
+    "2815bcb898713204": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC to explore whether to strip Tom Aspinall of his heavyweight title",
-      "ts": "2026-09-13T12:00:50+00:00"
-    },
     {
       "t": "UFC Fight Night 288 Promotional Guidelines Compliance pay: Two ex-champs surpassed",
       "ts": "2026-09-13T12:02:58+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Former UFC Fighter Magomedov: “Almeida Is Not a UFC Top-10 Fighter”",
       "ts": "2026-09-14T12:33:15+00:00"
+    },
+    {
+      "t": "Josh Hokit reacts to heavyweight title chaos: ‘I’ll give Ciryl what he has coming’",
+      "ts": "2026-09-14T12:40:38+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T12",
-    45
+    46
   ],
   "yt_eval": [
-    "CBMi3gFBVV95cUxNZ2RIbEpqenBIV2xiMElMa1lfakVYcWtwMFY2aHNlWXlRX29TbEl0dnBQX3h6Tl9yLVFoZVVsQnpEQnlmZjRRSzNIVmpQMnMzMWd0dGR3RzJYZ3V3WndrSFdUbllOOExPUHhGSmNRVDNjSUJpVm85cE1LVXdZYllpM0FYckFCWW51MXJpRVpPQm8tRFVEdl82ckN3dzZzU2FsRnJwSXg4dE9SNUdwOXZhUVBPcWNHUE01SGFuVVRxRWlUUjlqbFlKZl9CQmkycGdFVDRRQjVLRjJqbmFLRmc",
     "CBMidkFVX3lxTE1mYkNZSUQtbWZLWVNiVFh6UGNBb1RYaUo1ZmFzY3RsdXJQcUxrY0dieWR6ZmwzTmRUa0stcmhEZFliaGNVc2NwQkkwYXN0emxNeElZaXZvT2lJYW9pc1BwYWlzYnBwSGlXd0UtTmpBZVRpUS0xR0E",
     "CBMifkFVX3lxTE9tcG9SeWZaWDBPdHE0Nk4wb196VGkyTUlZbjNGcC1FWnhkTDJvUUk4a0F2b0RyNWVaTC1qMFlHVXRhem5NSVo5dzZLY1QyWElGMUxzTkVsVWVIcjIxcTlWMTdZZFJyd0YwOFhLZUw4R25fTHhMSFdvcHpISFVmZw",
     "CBMiwAFBVV95cUxQWjNQUk1UckJFOFphdjhWVF9ZNnF1TUd1M3p3d2ZqNVAwTTg0b0dmT0dzRXhzaktIMmplSUVKd3A0bW1BQmY2a3pMc3JSdlRZYVdqQVk2YkR5aDBjTjcwZFo4VjBzdi03a1F3V0tTTnlNeTdyS19yTmY2d05yZDIxbnAtUXpXdmhSUVNoLWI5WEtZcE8ycmxKb2hrMl9NY2NTeDY0cTZmYWZKbkx6RWQ4bUQ2STJtMGJzX3Q1UHJLXzI",
@@ -4491,11 +4490,12 @@
     "CBMimAJBVV95cUxQOV9wVW8zUmNGbnQ3T1g0UF9ad3VRWHltRjVlUWJrdmtIQjU1cGtKVnRoYUJyN0x5SS1aVHhzVUE0VUZEclNTbWtoT0Mya1Z4NElkM0NHVDd4ZGs0Q25nZEdEMDhreWhGQ2xBQTQyUzhjcXdSTlgzaHJBTEo3WFkzN09oT0lLT1d2cG5iNUdmb2hCa0pFYl9aVk1TS2h5YU5aMm5lLXoxQnk3VmVLTlFTUUJCcE92Sm5mUmFjZXlpM0tyOFRudTctUU9BWFZNaFRfY0F1dGNKX2NQeGRrckc2cEVMUV9Pb1p1QzFkLUlrTnhpTHZjLUJ2cmRkWmM2YVFVSC1aWVVsVURNWTBVRDI2T0lZVjA2ZEVr0gGeAkFVX3lxTE45OXZfWm1BRHdnVFphbElnYm9sMnBfU2pfNDhOVVV1X0tpQVJNNDBIdzJLRVZLMDktQ0MzYTBRNWxrZl9KQnlfOWxIVklKOHJsT1VYbm8yQUoxSWlVZnA3TDVkMlM5cnVUUWU1MTFRX3dubHppdVprdFhrS2FTc05PRS1BUXhiOW0zV0xIUkhUZ1R0Tzg2WHFIdUFidnYwdlJFSE5lcUtzUk1LaVB0bFlfYjN1QUhyYWF5Vmd1bDNrOXBpdWxnM3BEQ0xMcnVvaUR0NUhqVnVsUndVelJtaGxycjU1bkswcUZYb1pMbnJ4cE9wQVN2WVlxelM3ZFBkZXpGa2xhUzVJQzZyVzViVUYyN2V0MWlPZEJESmVXWnc",
     "CBMikAFBVV95cUxOVjNMOXJFQTlSOS0wVE1FdHBpZi1tZGtIbWViNFJ3enk1NGxjVUphbXU1eE1DNnpJNFBYNzY4VDNtaG95U1VDZElid015U3FVS0VieHJMMjZneHBzYjhFVjI0VERJY3l3dEFhZ2FpS1M2V1JwTVh3WDhZel9ubE9GNTNVOWp5OWh5anJ4aVRNSnU",
     "https://www.sherdog.com/news/news/Carlos-Prates-sends-Islam-Makhachev-a-chilling-somebody-is-going-to-pay-warning-202792",
-    "CBMipAFBVV95cUxOdTVOd01wN0lXaHFNUm15MnhReGFUNmpLY0pTMUVrN05BRzhvYTJha1RFc0JlU24zbVVILWtucHg3UjFkT1lBX21xQjNVV0tfQzdLYVBfY0ZWeFhrRXhVZjJpVGtfZGZsZnlaczd4N19GWF96ZjhNVnoxeDB0MzlkSGVtbmIzOW1JZWdpZ0JsYnI0cUg5cmwwcThpeFZ3QVdVZ0lEZQ"
+    "CBMipAFBVV95cUxOdTVOd01wN0lXaHFNUm15MnhReGFUNmpLY0pTMUVrN05BRzhvYTJha1RFc0JlU24zbVVILWtucHg3UjFkT1lBX21xQjNVV0tfQzdLYVBfY0ZWeFhrRXhVZjJpVGtfZGZsZnlaczd4N19GWF96ZjhNVnoxeDB0MzlkSGVtbmIzOW1JZWdpZ0JsYnI0cUg5cmwwcThpeFZ3QVdVZ0lEZQ",
+    "CBMiuwFBVV95cUxPaTUxblFUUmlOOVJGWWJmNUhocWhqZG5qMTlqaEFtMk0tTnl2VHZWSElRUDJaRE5zb3Y3RktMQnE3aEl4dVMwNkc1X3oxQWpxX1Z1Vlc4dk12S3VJYkhLU0NPU21zVm51QnZwREpxY0Q3UUFSSE1WNU5CTVNpd0xhRXZYRDVsbzBYQWpQaDFSYmFOaUJEV280d3FjczQ0NlZMRE4xWUU3MkxibGlCYWRlbEc1UWlBSU1pUWpV"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 58,
+    "ai": 59,
     "staged": 3,
     "prio": 0,
     "lost": 0
