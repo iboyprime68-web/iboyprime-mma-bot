@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6914395cb37aebf5": 1789388202.907663,
     "c8710d71ea5a2964": 1789388179.044741,
     "0615c0c131e259f0": 1789388154.7932162,
     "8a3ce5ca414168b7": 1789365602.5204067,
@@ -2498,16 +2499,11 @@
     "4f53c729901a0523": 0.0,
     "a6e9db60adc23293": 0.0,
     "3dd6fd305e650c13": 0.0,
-    "d056aae102e95002": 0.0,
-    "63194d3fcf5d6344": 0.0
+    "d056aae102e95002": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Ryan Garcia vs. Conor Benn full fight video highlights",
-      "ts": "2026-09-13T03:35:55+00:00"
-    },
     {
       "t": "Ryan Garcia demolishes Conor Benn inside 2 rounds, calls out Teofimo Lopez and Devin Haney",
       "ts": "2026-09-13T03:52:43+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Islam Makhachev claimed he could choke out a gorilla weeks before MMA fighter’s viral ‘chimp fight’ stunt",
       "ts": "2026-09-14T05:00:00+00:00"
+    },
+    {
+      "t": "Tom Aspinall vacates UFC heavyweight title after suffering ‘further damage’ to his eye in training",
+      "ts": "2026-09-14T08:14:28+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T12",
-    2
+    3
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329821",
     "575d6f85-de73-3a88-ade4-b52cf6cec9ea",
     "298427cd-0fff-3676-bad1-1a8179040c9c",
     "302a635f-3447-30e2-be58-96ea360fc869",
@@ -4491,27 +4490,17 @@
     "3d2dc89c-43aa-3f16-b805-dbc23b963505",
     "31b90ba3-3f0d-3f93-aa66-8b0394dd0750",
     "https://www.sherdog.com/news/news/Tommy-McMillen-says-UFC-rival-was-pleading-for-respect-after-war-202782",
-    "https://bloodyelbow.com/?p=331519"
+    "https://bloodyelbow.com/?p=331519",
+    "https://bloodyelbow.com/?p=331523"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 15,
-    "staged": 2,
+    "ai": 16,
+    "staged": 3,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-02T13:28:07.142203+00:00",
-      "t": "Valentina Shevchenko pulls out of UFC 332, leaving Salt Lake City without a championship fight",
-      "names": [
-        "shevchenko",
-        "salt",
-        "lake",
-        "city"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-02T13:29:21.306278+00:00",
       "t": "Magomed Ankalaev accuses Paulo Costa of declining fight thrice amid rumors of UFC 332 interim title clash",
@@ -5323,6 +5312,14 @@
         "garden"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-14T12:16:43.970951+00:00",
+      "t": "Tom Aspinall vacates UFC heavyweight title after suffering ‘further damage’ to his eye in training",
+      "names": [
+        "aspinall"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -5359,21 +5356,16 @@
     "822dd78108d3958e": 1789217096.7372422,
     "a7d1d1bae75ae00f": 1789232283.7078793,
     "d3a2ac00482e5625": 1789291916.5302384,
-    "f7528983ad8c4e5b": 1789309527.9902766
+    "f7528983ad8c4e5b": 1789309527.9902766,
+    "6914395cb37aebf5": 1789388203.97258
   },
   "pinged_titles": [
     [
-      "Dana White reveals UFC ‘will be talking about’ stripping Tom Aspinall of heavyweight title",
-      1789291916.5302384,
+      "Tom Aspinall vacates UFC heavyweight title after suffering ‘further damage’ to his eye in training",
+      1789388203.97258,
       [
-        "aspinall",
-        "white"
+        "aspinall"
       ]
-    ],
-    [
-      "UFC champion could be stripped of title due to horror eye injury",
-      1789309527.9902766,
-      []
     ]
   ]
 }
