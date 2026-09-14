@@ -1499,6 +1499,24 @@ const _spScript = (STUDIO_HTML.match(/<script>([\s\S]*)<\/script>/) || [])[1] ||
 
 check("the page carries an inline script", _spScript.length > 10000);
 
+// The staged rail used to have NO automatic refresh at all: loadStaged() ran at
+// boot, on the Refresh button, and on a deep-link miss. A post staged while the
+// app was open never appeared until the owner reloaded, which reads as "the
+// studio is slow" or "my post isn't in there".
+check("the rail refreshes when the tab comes back to the foreground",
+  /addEventListener\("visibilitychange"/.test(_spScript)
+  && /refreshStagedIfStale/.test(_spScript));
+check("the rail also polls gently while the tab is visible",
+  /setInterval\([\s\S]{0,80}?refreshStagedIfStale/.test(_spScript)
+  && /STAGED_POLL_MS\s*=\s*\d+/.test(_spScript));
+check("neither refresh path runs while the tab is hidden (a phone left open "
+  + "must not burn Worker requests)",
+  /if \(document\.hidden\) return;/.test(_spScript));
+check("boot does NOT call loadUsage - it costs four outbound Worker calls for "
+  + "a hidden tab that showTab already lazy-loads",
+  !/^loadUsage\(\);/m.test(_spScript)
+  && /if \(id === "tab-set" && !usageLoaded\) loadUsage\(\);/.test(_spScript));
+
 // 1. THE BACKSLASH TRAP. studio_page.js is one big template literal, so every
 //    backslash meant for the PAGE must be doubled in the source. A single \d
 //    silently becomes a literal "d" and the regex matches nothing - no error, no
