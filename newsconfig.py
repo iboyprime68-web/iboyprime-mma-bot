@@ -267,6 +267,30 @@ def base_defaults():
         "dedupe_similar": True,
         "similar_threshold": 0.6,
         "recent_hours": 48,
+    # --- story-level dedupe (storykey.py, Sept 2026) ----------------------
+    # The owner: "sometimes i even get repetitions or repeated posts". Measured:
+    # TWELVE near-identical posts of Tom Aspinall vacating the heavyweight title
+    # landed in 29 minutes from Bloody Elbow, MMA Fighting, Yahoo x5, the Times
+    # of India, the Daily Mail, LowKickMMA, the New York Times and NDTV. The
+    # Jaccard net above scored two of them at 0.22 and let every one through.
+    #
+    # Overrides for storykey.DEFAULTS. Only the values that differ from the
+    # module's own defaults live here, so the tuning the blind judges arrived at
+    # stays in one place. Replayed over 600 real posts: 600 in, 533 kept, 67
+    # dropped, and the twelve-post flood collapses to the ONE outlet that broke
+    # it. This block must also exist in newsconfig.json (the deep-merge law).
+    "dedupe": {
+        "enabled": True,
+        # 48h, not the module's 72h: news_bot already prunes `recent` at
+        # recent_hours (48) and a longer memory here would look for rows the
+        # other pruner has already deleted.
+        "exact_hours": 48.0,
+        # Matched to news_bot.MAX_RECENT. Measured on the replay: a 400-row
+        # window catches every duplicate an unbounded one does, while 120 (the
+        # old cap) misses five of them.
+        "recent_cap": 400,
+        "max_candidates": 400,
+    },
         "_note": ("Words, numbers and public URLs only. NEVER paste a bot token, "
                   "GitHub token, or any config.txt value here - it's uploaded to "
                   "the public repo."),
