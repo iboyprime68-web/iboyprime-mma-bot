@@ -463,18 +463,62 @@ def fetch_bytes(url, timeout=10, cap=8 * 1024 * 1024):
         return None
 
 
+# A sentence end: . ! or ? plus any closing quote/bracket, followed by a space
+# or the end of the string. "U.S." style abbreviations are handled by requiring
+# whitespace after, which "U.S. Open" satisfies - acceptable, because the cost of
+# an early cut is a shorter caption, never a broken one.
+_SENT_END = re.compile(r"[.!?][\"'’”\)\]]*(?=\s|$)")
+
+# A period after one of these is an abbreviation, not the end of a sentence.
+# Without this the cutter stopped a caption at "he's just clumsy. The No." -
+# "No." being "No. 6-ranked featherweight". Single letters cover initials.
+_ABBREV = frozenset("""
+mr mrs ms dr prof sr jr st no vs v inc ltd co corp dept est approx
+jan feb mar apr jun jul aug sep sept oct nov dec
+mon tue tues wed thu thur thurs fri sat sun
+ariz calif colo conn fla ga ill ind kan ky la mass mich minn miss mo mont
+neb nev okla ore pa penn tenn tex va vt wash wis wyo
+lbs kg ft alt approx max min etc al
+""".split())
+
+
+def _is_abbrev(t, dot):
+    """True when the '.' at index `dot` closes an abbreviation or an initial."""
+    i = dot
+    while i > 0 and (t[i - 1].isalnum() or t[i - 1] == "."):
+        i -= 1
+    word = t[i:dot].replace(".", "").lower()
+    return bool(word) and (len(word) == 1 or word in _ABBREV)
+
+
 def _sentence_trim(text, cap):
-    """Trim to cap, preferring a sentence boundary. Pure."""
-    t = (text or "").strip()
-    if len(t) <= cap:
-        return t
-    cut = t[:cap]
-    for mark in (". ", "? "):
-        pos = cut.rfind(mark)
-        if pos > cap // 2:
-            return cut[: pos + 1].strip()
-    pos = cut.rfind(" ")
-    return (cut[:pos] if pos > 0 else cut).rstrip(",;: ") + "..."
+    """Trim to cap on a COMPLETE sentence boundary. Pure.
+
+    Never emits a partial sentence. The owner reported pasting a caption that
+    read "...despite being knocked out at the White House. Former
+    light-heavyweight..." into YouTube and having to rewrite it. Two things
+    produced that: the publisher's own excerpt marker (common.strip_truncation
+    now removes it) and this function, which used to require the sentence
+    boundary to land past cap//2 and otherwise cut mid-sentence at a word and
+    append "...". For that story the boundary sat at index 132 with cap//2 =
+    150, so a perfectly good full sentence was rejected in favour of a fragment.
+
+    Now: keep the last sentence that fits entirely. If not one sentence fits,
+    return "" and let build_caption drop the body - a headline with no blurb is
+    postable, a headline with half a sentence is not. The one exception is a
+    summary containing no sentence punctuation at all, which is a short complete
+    clause rather than a fragment, so it is kept whole when it fits."""
+    t = " ".join((text or "").split())
+    if not t:
+        return ""
+    ends = [m.end() for m in _SENT_END.finditer(t)
+            if not _is_abbrev(t, m.start())]
+    if not ends:
+        return t if len(t) <= cap else ""
+    fits = [e for e in ends if e <= cap]
+    if not fits:
+        return ""
+    return t[:fits[-1]].strip()
 
 
 def _echoes(head, body):
@@ -494,7 +538,9 @@ def build_caption(title, desc, source):
     headline, one or two context sentences, attribution, one hashtag."""
     head = common.strip_markdown(title or "").strip()
     lines = [head]
-    body = _sentence_trim(common.strip_markdown(desc or ""), CAPTION_MAX_DESC)
+    body = _sentence_trim(
+        common.tidy_summary(common.strip_markdown(desc or "")),
+        CAPTION_MAX_DESC)
     # Many feeds set the summary to the headline again, sometimes with the site
     # name glued on ("... against Islam Makhachev BJPenn.com"), which printed
     # the same sentence twice in the staged caption. Exact equality was not
@@ -614,6 +660,7 @@ def stage_story(it, score, why, cfg_bots, newscfg, hist=None, state=None):
         photo_path = ""
         cutout_path = ""
         cut_fid = ""
+        photo_name = "photo.jpg"
         plate = pick_plate(it.get("guid"))
         try:
             # Google News links only resolve in a browser; decode() turns one
@@ -624,7 +671,14 @@ def stage_story(it, score, why, cfg_bots, newscfg, hist=None, state=None):
             if photo_url:
                 raw = fetch_bytes(photo_url)
                 if raw:
-                    fd, photo_path = tempfile.mkstemp(suffix=".img")
+                    # Name it by its real magic number, not by the URL and not
+                    # by a hard-coded ".jpg". common.post_file derives the
+                    # multipart content type from this extension, Discord
+                    # records that, and the studio trusts Discord - so a WebP
+                    # mislabelled image/jpeg simply fails to decode in the app.
+                    _ext, _ = common.sniff_image(raw)
+                    fd, photo_path = tempfile.mkstemp(suffix="." + (_ext or "img"))
+                    photo_name = "photo." + (_ext or "jpg")
                     with os.fdopen(fd, "wb") as f:
                         f.write(raw)
             if not photo_path:
@@ -661,6 +715,10 @@ def stage_story(it, score, why, cfg_bots, newscfg, hist=None, state=None):
         except Exception as e:
             img_path = ""
             print("  stage render failed (%s), staging text-only" % type(e).__name__)
+        # A failed render used to discard an already-downloaded subject too,
+        # because the upload sat behind `if img_path:`. The owner then got a
+        # text-only post with no round-trip payload even though the photo was
+        # in hand. Ship whatever we have.
 
         # the raw subject rides as a SECOND attachment so the studio can
         # re-render the poster with the text still live (the round-trip fix:
@@ -673,12 +731,14 @@ def stage_story(it, score, why, cfg_bots, newscfg, hist=None, state=None):
                             retention_note(newscfg),
                             spec_json=studio_spec(it, raw_kind if img_path else "",
                                                   bg="" if photo_path else plate))
+        files = []
         if img_path:
-            files = [(img_path, "post.png")]
-            if photo_path:
-                files.append((photo_path, "photo.jpg"))
-            elif cutout_path:
-                files.append((cutout_path, "cutout.png"))
+            files.append((img_path, "post.png"))
+        if photo_path:
+            files.append((photo_path, photo_name))
+        elif cutout_path:
+            files.append((cutout_path, "cutout.png"))
+        if files:
             code, resp = common.post_file(chan, body, files,
                                           allowed_mentions=mentions, silent=silent)
         else:
