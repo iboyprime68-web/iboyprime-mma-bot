@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3a3e4f471d783eed": 1789412134.1033545,
     "e8f29937c6591552": 1789412065.4808297,
     "72e1adca78ef953f": 1789412065.2190585,
     "c16d69fa8c81a62e": 1789412065.2172916,
@@ -2498,16 +2499,11 @@
     "00901c98a4200500": 0.0,
     "26e17b486e890a81": 0.0,
     "f354f24b450688a0": 0.0,
-    "fd20ff1463559652": 0.0,
-    "ca0f1c5003eb2840": 0.0
+    "fd20ff1463559652": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Ryan Garcia calls for title unification bout vs. Teofimo Lopez: 'That's the move'",
-      "ts": "2026-09-13T16:10:18+00:00"
-    },
     {
       "t": "Horrific submission sequence leaves fighter with snapped arm | Video",
       "ts": "2026-09-13T17:00:00+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Is Natalia Silva vs. Wang Cong at UFC 332 the Worst Main Event in UFC History?",
       "ts": "2026-09-14T18:05:35+00:00"
+    },
+    {
+      "t": "UFC 331 fight card, start time, date and location &#124; Van vs. Pantoja 2",
+      "ts": "2026-09-14T14:02:41+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T18",
-    31
+    32
   ],
   "yt_eval": [
-    "CBMingFBVV95cUxNajdlQ0daX3YwOXR0ZEpDZFFHZVdxYVgwUndpRHNjU2RvVkZXX0k5dlVhTmYxZFVjajB3Z0Vyc2oxWjdlclhhdHg1NDNqZ1ZPYzNXOG5oQUxKRXBkQ3I0Q1htNEN1Q0VzcWxZaGtKMXFsQUNlUzFMMVFaQ1hpZFhNSTVndjFZVUJGS3RVSjFqbDRSNVVGdklmdHI0eXBhZw",
     "CBMi5wFBVV95cUxOcjJGeG8yTzFqSm5hazBMUzFUTnhIbmNfX2ZNOE1DRzFEcmtsTWpjejVtek5JUDJ0T3Vpb1BjeW1tXzh1ZV9WaGw5SWtVWmpWTEFfN19GcmxfOEw1WTVraHJPUnBZY0ZNWjVFU3V3RFhoaTgxS0x5UzNaYkYwRTZ4djVGRDBDZElUUlZxOFZfRU9NRmVPSkVvRFVSdGtTOWxGWVFVVTR6T3ZZWWh1S0hlTWFFNzlSWGhQejEzMjVmYXNra3VDazBzWkdlV3E2SURtNmcxZjNVZFI3REpsMGZUc2NMeDkydDg",
     "CBMikgFBVV95cUxPeW56TlRQaWFKdHF4Rk41VVIwVGZ5eUR4aU9Nb1ZYYlR0dm9tWGQ5dkRjcGIxSDFQbU9FVEo0WnBoVEtuX2NaRWNnWkFSd2hSTDQ4OWxVa2UtTldRdnVyaEtvZV9mSFZYb2tkZDN6WklxVnZtYkg2RTNYVU1OLTVUejBsYmlaRndKWHRnYlJyZ2F4QQ",
     "CBMilwFBVV95cUxNUkM3c2pObUMybVpBQzZoMVNKOEd0Q2EycDc0ajNKdlBqeGdvaGI5TmFJZTR4dGtacmdhOEc1WjNEbkhrQXFPTkZGZXdiek53MWJzcGhVanpUTXFBRWtrUTJRS2g3UUwyUGdJTEFLSXN2V090U1ptTlN6azRyYktnVGtta0ZvVEhxOVFyQldGVmRlX3p4VkM4",
@@ -4491,11 +4490,12 @@
     "CBMipwFBVV95cUxQNEktcWROTlNWaTczUGFqMVJ1bXJfSndzbmZRb0dlLXRBdW5hUFNwa0lCam9xbkN6VUM2OGpFT05lWjJzQ0ZYcUlRaE1VSHNZMDJPZWVsOGJjNnJYQzQyak5MZklLQm1TZDU3NVMza0YyLVFxbnJsLVRoQU54TDhnUmdOU0RwQ3lHTERFZUVCQ3ctMFEtUlBwblBldllVS1lWaDFHQjJlSQ",
     "CBMiuwFBVV95cUxNXy1EbmNzOFNPTDBxaWFWMTFmSnlQTTZveXNYTWwyRTJHdnRDeDFUeXZuam1DbXFqS1JkS3ZPY2s2bGVpb3BhT3ZUVF85ajlPcVQxNDlnYVZidW5lOE5ib2V0ZVZmWFdwYmN5T1RkX2J6ZW9EQXBYMVNQUW1SbnE3WnV1Zll6VGhxcXFwNzhJQ01rZ01sNFlkWmdrTEZhc2pJa0JqTEpkVWtPTTczM3Brdms3UG9WSkMzeHVR",
     "CBMirgFBVV95cUxOdGtyMjlaWmV0ZkhVcXoyLUMxLUdzVElURENScVo3cnN3TlBnUVJmN0tPcnl0ZGVZOGEzcmhwOGphTE11QlJZam5fZy04cFlZUTh6RVpzU2JuU3pfblZ0aW1FdU8tcHp2ZTFGWDF6cVp5RlU0NGxwOEhGM2dRd2h2bFlhYkpudGczNnJGODVnYzV0M0h5czhLbThuNW9zZVA4Z2ZRODhpa0VVRm5fb0E",
-    "CBMibkFVX3lxTE9WZUF5MzVWd1BfdktaRlZsempYYWFMbUQ1NlpYdkVWWlFfYkZzaTlMVmQycUZUcFpHaXV2dHluRklERHFWTzMzck5UdkpmWDVsM1Vzd24zUGpDcFN6djFKNHNYWUQ2NThnQ3RnQ0ZB"
+    "CBMibkFVX3lxTE9WZUF5MzVWd1BfdktaRlZsempYYWFMbUQ1NlpYdkVWWlFfYkZzaTlMVmQycUZUcFpHaXV2dHluRklERHFWTzMzck5UdkpmWDVsM1Vzd24zUGpDcFN6djFKNHNYWUQ2NThnQ3RnQ0ZB",
+    "https://www.mmamania.com/?p=462735"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 93,
+    "ai": 94,
     "staged": 5,
     "prio": 0,
     "lost": 0
