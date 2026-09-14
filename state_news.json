@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bb331e403a2afb67": 1789424905.1998055,
     "c7cf26d37de92415": 1789424860.2271962,
     "fa332da213cfad99": 1789424836.932282,
     "715b1a7acbe394e8": 1789424836.640607,
@@ -2498,8 +2499,7 @@
     "b2fb3fcd04014426": 0.0,
     "ad7d1f1722180313": 0.0,
     "0952f63ff72a522e": 0.0,
-    "ba98dc62c411bc80": 0.0,
-    "4b8b3c3bfe237a38": 0.0
+    "ba98dc62c411bc80": 0.0
   },
   "initialized": true,
   "v": 4,
@@ -3055,16 +3055,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-14T22:26:43+00:00",
       "cluster": "c3b2913693d"
+    },
+    {
+      "t": "Michael Chandler reignites interest in Conor McGregor fight",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-14T21:05:25+00:00",
+      "cluster": "ce015090263"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T22",
-    12
+    13
   ],
   "yt_eval": [
-    "CBMiogFBVV95cUxNNkh5X1NMdzNiWER4WmpRM1Q3S1M2dHlmV09SVTZsNThHVTF0dU9jN0UxMmtvMzdUQzRrbWx3NzVKZzlabGF4YUhzQUh5V1A1TF9zajZxUkVxaFNoZFZ2enRSYVhBNlpzVS15VDBlMzA4bWJkUjlQc04zNjFaU1F3Qjctdm8xQ2lta01DLUdqSnUtcVBvbW9WZU9sY1kzN3RHa0E",
     "CBMiygFBVV95cUxPLVBCVTdxWUdhS3lzZTNfd3kzOW5tVGRNcUhzbEZQVV9xWWR2c1hzU1JkUzNPWFZVLTAxNDMzYUlEVDh1RXRfbEZNOUx0eUhvZWkwaGJKdVlPV3lBQV9HaUJiUXNwXy1SOFBwc0FRclRpTEZJbXdoSjhYT19XOHUxejNhUks3dzdONTdKYWpWQl9sVXkyNmRRa2t4WEtoSG9vQ1lFTkV5eTRLeUdjUExCYUNnWklBSnllemFvbXQxQVQxV3NZZ3g1R2ZB",
     "CBMiVEFVX3lxTE5LeHJJQVk1aGZpcXFMeEJyOTd2VG0zUDNzSlpTRXdoT0ptLU9fNlJRQU0tOFUtV3dTQXNmaThOcmpsZzQzSU1PUE5NSXhWeTJxSEhBeQ",
     "CBMinwFBVV95cUxOcnNRaFAxSWxLWWF0WGRZRC1RaGFJNmRhT0NPXzZYTm9oYjZCYm84MHpFOGZKVnRrWUtuajM4LUtmR3dqa3ZQcVRJeEpRdVhWVmVrYzRqcVE3S0xMeHhDVVRDY252U1EzU2NpU3k3V2lCZDA5UGJ5RXJuVUFxSjA3eXdESjc3UHhPczVJYjVWNFhrWVF1ZTU2WjFwV3FfUkU",
@@ -4563,11 +4568,12 @@
     "55b8e6c6-4266-36f7-b88b-c5682e0220a3",
     "https://www.sherdog.com/news/news/DWCS-2026-Week-6-weighin-results-All-10-fighters-make-weight-202799",
     "be660dae-dcf2-41f4-ae1a-f838c7e8adc1",
-    "https://www.mmafighting.com/?p=510309"
+    "https://www.mmafighting.com/?p=510309",
+    "e5afea44-692d-3046-a491-2c20a06c8733"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 111,
+    "ai": 112,
     "staged": 5,
     "prio": 1,
     "lost": 0
