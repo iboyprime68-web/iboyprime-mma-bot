@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c026185b7bc5f6e4": 1789389399.457858,
     "840ac41b4b692e1d": 1789389374.0454524,
     "9b661f9cfbe93fde": 1789389306.6820395,
     "50741cf1ab1a4b23": 1789389306.4297533,
@@ -2498,16 +2499,11 @@
     "147b707c9106b33e": 0.0,
     "64fa907a1cdd74e0": 0.0,
     "7b43ba8e64498d73": 0.0,
-    "0fa3ac902a6f9af5": 0.0,
-    "b2888ee09c066540": 0.0
+    "0fa3ac902a6f9af5": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "'Premature stoppage': 'Fighters react to Ryan Garcia's TKO of Conor Benn",
-      "ts": "2026-09-13T03:44:28+00:00"
-    },
     {
       "t": "Bonuses! Tommy McMillen banks another $100K for incredible three-round slugfest &#124; Noche UFC 4",
       "ts": "2026-09-13T01:24:39+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Dana White plans talks on UFC heavyweight title as Aspinall faces risk of being stripped",
       "ts": "2026-09-14T11:45:00+00:00"
+    },
+    {
+      "t": "Merab Dvalishvili wasn’t happy to see rival Umar Nurmagomedov get stopped",
+      "ts": "2026-09-14T03:39:40+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T12",
-    27
+    28
   ],
   "yt_eval": [
-    "CBMiwAFBVV95cUxNbDR6OGlCMkNuUjg2WmZqYmVaRHJybnZ2dGJWRlg0cGlHalBUNlJCZHl0OXdiNFI3QUgzOFRSM1dRRkU0X0VLOE1FZF9wWkF6MWdkRzlxYWltVXNRMkJ0VEVPN05DN1VqSVMtYzFJbVh5aHRuUDJUV0w3MjJVbGFnNVJERVozeENtcnlSTkdjR0VBUjdDY1VXbDNJdUJ4bmxsTE0zWHBQa1VOMVRuSVpzaUtQOEdYcUJLWUtIN3JWczQ",
     "CBMib0FVX3lxTE42VlpFeXhHVXFMdkNhWkdSaXZraDNwY0cwUTB3bGFuR1hSTFNLdGhFZ2R4RzgydHBoY3JndW1NRWdmUU1pTFJIZmNqV2lUbTVpdGRwQTBVMVNlQXF0MV8wcmJiLXFBUUhEVEhWYmRuQQ",
     "CBMisAFBVV95cUxPMjg4NFRZdlhfY0x2WnN3ZnJVVjRuYzVTWGNGVml6U05sZC1FaVdTLU1HRE5sSGVJSWZGOVh3MHRTdno4RnZ5YnYyTG1Ddm85MlJZVjZkdXpuS0tGdW9CYVVRd0VfelgxbTBRWEMzRG1jT0VaLW9zVl8tRnYyMXNOVk13dk5WWDVka1QtMzI3cmlZYW9ZN3VIMXpaOEpKOWUyVXVDOUJwcmN0UWVzcW45VA",
     "CBMipwFBVV95cUxQSTk1cGQ4LThHNTJxSEpod1JWQ05jekVoY2pnS2JjTjBQMWxSa0ZFMFRlNDVobEdLekt5TVF6cHNMNlJpSkVJNDVsQU5uSVh0U0d1cVRuT2R1QlFwVlEtUWwxTDZlM1hET3JiT2pVaDVLZkp5SzFXT1I2ZjJla1NaTFpoQzh4YUxWb1NUS2g0dHAzbDdPT2Q2U1pRYWc1LW1pYm9tVnRrRQ",
@@ -4491,11 +4490,12 @@
     "CBMi-wFBVV95cUxNYml4YkFnc051SEdjZmZOcnZZTnpxalNWbm1WRkx1TDJsVm42V2plZmNLajk3YXIwYVpQcWJWTlZtcDdBUDREYmNmQjY4Z29LQ1ZSYTVpTmNUcVd4QWN2bmVnTkwyOXFESGtpajNHRFN4UlNXX1N4UWtRel92VkY4MUd4VWZnb2VHU0x2TVE1LVJJUW1OUW5tRmtFUlY5TFl1MnlzY3BHSk4xVEpGVG9tS2l2WlRqTV8xbkk1TjVQaEZuNkpsNmhpenl4SEZzMElLeEJUVnlELUN3clI0cndhSXV1RDNJNjJZdjItVlhlSXlwejYyQkgxOFJYbw",
     "CBMi6wFBVV95cUxOWnV4VHE4ZFdZSFZ6THQyRDlVX1NlQVB1MHB0ZFZFeW1aQlIwMjNEOEtmYUoxVWt3ZEl0SkdYV2F5a3dNMlFVNmlpYVlEUEdKbVJyeWxhSy1GZmxUdXFkR2o3V0F5eHZnRnlwQXFINllzUmdLczhFbnVFei1IYlBNNF9yRS04Y0w2Ulk2VTJwVDhLRTRCNFh1NzdEOVp4V1FsTWExQlNaMkp1alRTUXdYQnhtckZuMXhGcjJKbGxoR1o2eWo3VnhYQTVORnpNbkpJRnVVT3BYSC1JRmJGenlqaEYyZy1uOWhza3BB",
     "CBMif0FVX3lxTE9ZZUp2eURzRUFUOS1CYzduNENmXzZ1R3dycTJfUlR6SHpLRjF2bjFoSHBYQ00yV1ZDaElyU3pGSkZzaHZfUlptWGFrc091Yi12bFplWnFEdklQZFQ3WFJWek9kMUw1V1ZqNjRxLW93cGJsZWszVHdHdmc2ZkxEQ0k",
-    "CBMiuAFBVV95cUxPNXB0RlJlMERidGVqOExzazVXa1Z6M2pNUndGNnU2TnhuN2JNZTJvVzRNQV9oRnVKbnhjMDBSLTJjTHVPc0liLTRpT0ZoMEJvWmdJTkRyQjAyZE9jUHhOcHZxNUNwaDZNR0F3WV9ReDRVRkxjbVJmX3JZSzJYdlNRYmpyTTB2el9Zb0U1UjZTWXd5MmluTWItNUoyY2RiSC1wM0t4RnlqYlh1NW03T3hDQU9RWjZrZ243"
+    "CBMiuAFBVV95cUxPNXB0RlJlMERidGVqOExzazVXa1Z6M2pNUndGNnU2TnhuN2JNZTJvVzRNQV9oRnVKbnhjMDBSLTJjTHVPc0liLTRpT0ZoMEJvWmdJTkRyQjAyZE9jUHhOcHZxNUNwaDZNR0F3WV9ReDRVRkxjbVJmX3JZSzJYdlNRYmpyTTB2el9Zb0U1UjZTWXd5MmluTWItNUoyY2RiSC1wM0t4RnlqYlh1NW03T3hDQU9RWjZrZ243",
+    "https://www.sherdog.com/news/news/Merab-Dvalishvili-wasnt-happy-to-see-rival-Umar-Nurmagomedov-get-stopped-202788"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 40,
+    "ai": 41,
     "staged": 3,
     "prio": 0,
     "lost": 0
