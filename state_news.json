@@ -1,5 +1,8 @@
 {
   "seen": {
+    "d1b203c5609987e5": 1789388969.8355548,
+    "fc2d1939664a7fbf": 1789388969.4348533,
+    "8f00d9c17189e833": 1789388969.433567,
     "06cc5cf178b7ab91": 1789388903.6678417,
     "1306af922b4a5922": 1789388903.4109037,
     "1ce506068e88b4f2": 1789388837.6909046,
@@ -2496,18 +2499,11 @@
     "747c2a17127a89c9": 0.0,
     "1feef2b413e6dea1": 0.0,
     "06eea37c1d0ad8f0": 0.0,
-    "cba7308ff2c81597": 0.0,
-    "10edf213dfb205fc": 0.0,
-    "648b639ca9a04f79": 0.0,
-    "a031074e9c0cb915": 0.0
+    "cba7308ff2c81597": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Noche UFC Post-Fight Press Conference Video",
-      "ts": "2026-09-13T01:22:19+00:00"
-    },
     {
       "t": "Noche UFC bonuses: Slick Silva sub snags six figures",
       "ts": "2026-09-13T01:32:50+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Tom Aspinall vacates UFC title after 'ongoing complications' with his eyes",
       "ts": "2026-09-14T09:34:48+00:00"
+    },
+    {
+      "t": "Tom Aspinall vacates UFC heavyweight title after eye complications once again delay comeback, fans await",
+      "ts": "2026-09-14T11:32:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T12",
-    19
+    20
   ],
   "yt_eval": [
-    "CBMirgFBVV95cUxNS0VfZkhtTnQyRnpVbUdtTzFWQXRhT3pUdmNFV3Z6clAtUkNVUmdIaGxVZkRTX3R1SVExYml1MlRpcnJtM18zVzB0Y2hOMEZqdWk0UlhZVG81YzdKb2J0NnFPX2lXc0NHVkRmdmN6bW5faHB0bFd6U3dwNjFvcktOZzYyUDVjMVR2azVSUFBZX1hnampkMUNyZGNPaXVrWm9aajViMVR3SXJxdlFEYUE",
     "CBMi1AFBVV95cUxQMDc5azFfa0hldW9OZmxUWnBMV3VjbFBBRW0tZFljSkdwdmcxRlFKWXRzWmZ3bFllQlVfUzRaLXlua0FlT0NiMDE1WlpBSFJNN1NPbThMU2ZKWFJBMzZaX1Z0WnRLdWxQRUlwaG1ZQlFPT3RfeExZQzFHVl9SdEpyQzJXaV91emZza2MyblIzZlZUa0p6SU1ST2lHUE9Jekc1ZldLSjZlVVN0QWEzWjlMQm9zUnFkWWIzQWxieVV2Y1gwVmlObmxBTXlmeFhIWE1yNkRaQg",
     "CBMiekFVX3lxTE9fWDhRbWJKdVhGdUJOTXNwSE1aYVR2WFhlaEV5a0RRVjNNWVRpaU5kUVM0WWN6N1NTMFhMLWtoSXNXdmNwcEFWWjVmX1BzUzlrcndNcTVEcTVIM2poUVU0QU1zQXNIYWJodlpmV1VMXzNubFN4RlF3MllB",
     "CBMiiAFBVV95cUxNNjRkVmRSRG9lRVlJSDF1ckhMaUdfb2tibG8zZjVicWx5QUFLQ2VSaHk3Tmowb3l4MWdPbEhOcDJpc3F3bncwNE1NdmUwbEFmNzQ4VnpaS0NjTE5Hak1ZNnFEdTBfaGVBYTU5N1NPZnNGaTBKUHZpaWNfa1hmaVMtakJIU2E2NTVK",
@@ -4491,11 +4490,12 @@
     "477db843-3b1a-397e-8ab7-7a35f24fdc8f",
     "https://www.sherdog.com/news/news/Ryan-Garcia-wanted-Oscar-De-La-Hoya-for-his-walkout-So-where-was-he-202786",
     "b10e3afa-2484-372a-bcd4-ac8a03402c32",
-    "73862bb8-ed67-316a-b9e5-17f9d61c9b37"
+    "73862bb8-ed67-316a-b9e5-17f9d61c9b37",
+    "CBMiqgJBVV95cUxQZWdDZWtXczBsME5ET19WeGs0cTloNUdhNXUtZW1tLVhNbW5MS3BqeTF4REVhYWhLbDZKS2UzS0lTbGtzMjJvaGMzWEhoZVBuTVhpMTM1Umw1enZZYldKdUR6Skt4bVVmeXpaRUQxbUZZclNSdjk1OGJmNW1aa01JZEEza1BOU0NBR1JXQUdSOTZhZmphcDhRR1hXOGRUaWg2aWJ0TmRyMUpsNTVPei1SaFB6Q3JvZFEzV1h4SnBvMUVVUHM2UG53bXN1Y25QQlpBTmtwbmRLVkhWcUtQVE0tcVRHS0ZNWk1xVnhQbFV3Zi00cmJidG12ZGFQVE4xTjZVMVdRWUZ0M3Q2M19ZRU41ajJEdlZBbXp6ZFdKZ0lHd09VT2R1OEpoTW9R0gGvAkFVX3lxTFB6SUJuUXRLQ3NKc01PYk1MUy1uMUc2Rko3YUp6Vmw3MmJ3OHZEY3ctc0pHcFEyVFdjWjBGWTgxcWJWTkxsTFJoM3hNVWRuVU8xa0hqUFdzd3FUVWtNVV9NWkNkVU9NWDhRSmVPaE5vaXR1Zll0bkRHX2JOWGYxX3pfWk8wY2VybGRVZlp3S0VyNFgyWnBTSmw4WENoLW5KWEh3WmZHNlRiYUtKN01SUE9ZbG40Z29FcVV2Q2lYb2M3Q1pNMkk1SmdDbl9IaFdwLTNQODFjREpaUk40YWx4LXU2d2VEc3hqbGY4RUtROHQyRnR0M3A1TjROZnpoQXNOUTdNa0N3SEg0UjVFOV9ocUhwREdLNkplb3ZFTDB2WDNERGFMX3RMeVVBU0J6bU9uOA"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 32,
+    "ai": 33,
     "staged": 3,
     "prio": 0,
     "lost": 0
