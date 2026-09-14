@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c5758a28a9b2386c": 1789425706.9434562,
     "a5de708fc2a01502": 1789425684.396824,
     "dd44a6f7b231716e": 1789425684.1648588,
     "0ca782de23bedc32": 1789425620.4563758,
@@ -2498,8 +2499,7 @@
     "003cd4d686fec355": 1788424407.86513,
     "61f339e9845290d7": 1788424407.8651288,
     "72688259455a2dbb": 1788424407.865127,
-    "624e93c3a301d39b": 1788424407.8651254,
-    "8745dda5999505ac": 1788424407.8651085
+    "624e93c3a301d39b": 1788424407.8651254
   },
   "initialized": true,
   "v": 4,
@@ -3139,16 +3139,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-14T22:34:47+00:00",
       "cluster": "cb6a4f7d243"
+    },
+    {
+      "t": "BKB 60 fight card finalized for Oct. 10 debut in Newcastle",
+      "source": "MMA Mania",
+      "ts": "2026-09-14T20:09:25+00:00",
+      "cluster": "ca609cbcdb5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T22",
-    26
+    27
   ],
   "yt_eval": [
-    "e9aea6f8-6573-3608-8d1b-c554067cd375",
     "b42cc320-f4e6-39e9-ae57-aecd554ec9ae",
     "6e4ae91e-e50b-3770-bfc4-d39374522313",
     "CBMiW0FVX3lxTE90ajFESExfd1FiZVZQeEFGQ0liMEVUTThkLXhsTUxTaXZRRmtXOWhQdGZlOFRYZDNEaGw0ck55R1lXcWFTZWtJMGsxb2YwWEtaZ0Nwb0xkLWdUTFk",
@@ -4647,26 +4652,17 @@
     "CBMi2wFBVV95cUxOU3BVY1A5MEM5bGZTRkZSSHIzVzVtNHQ0eWYwbmQ4RzBpeE44cjlnR0hSRTZuNUZKU0cwWUwwTGY1YUw5enFGWERJRzE2bEY1RTQtaWlzUklERHFBcXRHY044Sjh3WnBFUTh3TVMzN2xsRHJYZjV1c05namk3UE5KQmVKNDRKWEdROVlSUl9LVjMxOE5fWUlkYTRRMXFfSVFld0RzNXNZSndVLUU4OWU4YU1NUDdjRlJVbnJmek1xNnZDaWJHYUtmbU5PX3hmal9rc29sZHNkZlJ6R3M",
     "CBMioAFBVV95cUxPbWJBNlFLMXRVSElEcWlYX0FMMFJGTTNZbi02cUpaUl9xQ0F2T0RHS2VkeF9FdzBlRXBoRWFxWV81WDRLbUVnX3BnMHFOQ3NtLXpMZ2pGOHZvUXVyUU1pdkVJMVZkNGtsakcxYlk4T3FTdUJ2dDhHYWdNZkJlUDBqci1NQ0lGZFctdFB6YmhYSDZldHBxT2I3cGdDbmJnZmYx",
     "CBMiuwFBVV95cUxOUGQ2SjY4aW5TdEM0NDZiNllKLXNDcG5PR3R5QlZmVHRyUGluRDBUY0hXbEJnUkVIWGZDVEQ3Qjc4YU83UUM3cUMyRGl6RmZVYTZNNHpYUXlfQTFTWjAzOXVjZ2FKUU16MEFzOFdfN29DaENqeXpIZHR2N3d2VjNVQW02MVQyb0cyWGc1SEFubjhxeDd2QUIyOFJRU3FwRndzSTRzV2NSai1oTmw2M3dlYmhpY2ZIUGlsd29J",
-    "CBMi1wFBVV95cUxOWWhhRS03MnBOQzRnS25BNU5DRUhMeno3SEVHQkhOVkI3YTRHUFlSTlJET29OYWxvUjJkX0NVMmtxd091VGZ6bzUzVnd3VF92ZldVTmlhWXpuRWR1c2tnRVRhckFUbUEtaGN0V2pJbzlINEg5ekhMblVITHpoY0NJWmR3VFZ3c2hCM2JiaVB4MnQ5bE9ZOUFrQmtQUFVqSV9HSTkzRUFTRms1dXZSRHNrdmtnRFNZZ1JubkNOY1M3M2VtelJZT3RaLTN5dWFaSjB0QTVBXzRBaw"
+    "CBMi1wFBVV95cUxOWWhhRS03MnBOQzRnS25BNU5DRUhMeno3SEVHQkhOVkI3YTRHUFlSTlJET29OYWxvUjJkX0NVMmtxd091VGZ6bzUzVnd3VF92ZldVTmlhWXpuRWR1c2tnRVRhckFUbUEtaGN0V2pJbzlINEg5ekhMblVITHpoY0NJWmR3VFZ3c2hCM2JiaVB4MnQ5bE9ZOUFrQmtQUFVqSV9HSTkzRUFTRms1dXZSRHNrdmtnRFNZZ1JubkNOY1M3M2VtelJZT3RaLTN5dWFaSjB0QTVBXzRBaw",
+    "https://www.mmamania.com/?p=472387"
   ],
   "daily": {
     "d": "2026-09-14",
     "ai": 120,
-    "staged": 5,
+    "staged": 6,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-03T03:47:54.453301+00:00",
-      "t": "Anthony Smith set to return Oct. 2 amid four felony charges",
-      "names": [
-        "smith",
-        "oct",
-        "october"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-03T03:47:59.457706+00:00",
       "t": "Tom Aspinall’s UFC return hits medical roadblock due to eye injury",
@@ -5472,6 +5468,15 @@
       "names": [
         "pereira",
         "gane"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-14T22:41:46.944956+00:00",
+      "t": "BKB 60 fight card finalized for Oct. 10 debut in Newcastle",
+      "names": [
+        "oct",
+        "newcastle"
       ],
       "img": "photo"
     }
