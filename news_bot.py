@@ -64,6 +64,9 @@ SEED_SKIP_MIN  = 90    # on the v3->v4 cutover, items older than this are marked
                        # first tick (measured median gap 13.8 min, worst 712),
                        # narrow enough that a story breaking during the cutover
                        # still reaches the channel.
+DESC_MAX       = 700   # chars of summary kept from a feed. Must stay ABOVE
+                       # ytposts.CAPTION_MAX_DESC (a selftest pins it) so the
+                       # sentence-aware cutter, not a blind slice, ends the text.
 MAX_RECENT     = 120   # cap the similarity window size
 MAX_DIGEST     = 250   # cap the digest queue. Was 60 and the live queue sat AT
                        # it, so everything past the 60th story of the day was
@@ -141,6 +144,20 @@ def _find_text(item, names):
     return ""
 
 
+# Feeds carry the summary in up to three places. <content:encoded> is the whole
+# article body; <description> is often a word-count EXCERPT the publisher has
+# already truncated mid-sentence. Measured on Bloody Elbow the same item served
+# a 138-char cut-off <description> and a 1637-char complete <content:encoded>,
+# and we were reading the short one - which is why staged captions ended in
+# "...". Prefer the long form and let one cutter decide where to stop.
+_DESC_RICH = {"encoded", "content"}
+_DESC_PLAIN = {"description", "summary", "subtitle"}
+
+
+def _find_desc(item):
+    return _find_text(item, _DESC_RICH) or _find_text(item, _DESC_PLAIN)
+
+
 def _find_link(item):
     # RSS: <link>url</link>  |  Atom: <link href=".." rel="alternate"/>
     atom = None
@@ -198,7 +215,11 @@ def parse_feed(text):
         guid = _find_text(el, {"guid", "id"}) or link
         if not title or not link:
             continue
-        desc = common.truncate(common.clean(_find_text(el, {"description", "summary"})), 220)
+        # DESC_MAX sits well above ytposts.CAPTION_MAX_DESC on purpose: the old
+        # 220 here was BELOW it, so _sentence_trim could never fire and the one
+        # clause-aware cutter in the project was dead code.
+        desc = common.truncate(
+            common.tidy_summary(common.clean(_find_desc(el))), DESC_MAX)
         when = _pubdate(el)
         items.append({"guid": guid, "title": title, "link": link,
                       # `when` still gets a value so ordering works; `undated`
@@ -321,31 +342,31 @@ def digest_due(now, times_utc, last_stamp):
 
 
 def window_for(now, cron_minute=CRON_MINUTE, guard=GUARD_SECONDS):
-    """How long this job may run so it ENDS before the next cron tick.
+    """How long this job may poll for.
 
-    The window used to be a flat 3300s. That is right for a job the cron itself
-    started at :04, and wrong for every other start: a run dispatched by hand at
-    :28 would still ask for 55 minutes, overrun the next tick, leave it PENDING
-    on the bot-news concurrency group, and GitHub cancels a pending run the
-    moment the tick after that arrives - mailing the owner "All jobs were
-    cancelled" for a run that never failed. That is the documented reason
-    news.yml was removed from the deploy's dispatch list in the first place.
+    It used to size the window to end before the NEXT cron tick, so that an
+    overrunning run could never leave a pending run for a later tick to cancel.
+    That was correct while a concurrency group kept one pending run and killed
+    it on the next arrival - the "All jobs were cancelled" emails of Aug 2026.
 
-    Sizing the window to the time actually available makes a manual run safe,
-    which matters because GitHub honours only about 40% of the hourly ticks and
-    kicking one off by hand is the recovery.
+    news.yml now carries `queue: max`, which lets the group hold up to 100
+    queued runs and cancels none of them, so an overrun costs nothing at all.
+    Meanwhile the old sizing was costing a great deal: GitHub delivers the tick
+    LATE (measured: the 22:04 tick arriving at 23:00), and the window was then
+    sized to the stub of an hour that remained. Measured over 100 real runs the
+    job durations were 2, 2, 2, 4, 6, 8, 10, 15, 17, 26, 31, 36, 38, 45, 50 and
+    55 minutes - live coverage of the day collapsed to 9.7%.
+
+    So: always ask for the full window. With ~6.2 honoured ticks a day that
+    takes coverage from 9.7% to roughly 24%, for one line of YAML and this
+    change. It does NOT fix the dead gaps between honoured ticks - only moving
+    the trigger off GitHub's scheduler does that.
+
+    `guard` and `cron_minute` are kept in the signature because the selftests
+    and any future caller still pass them, and because a caller that genuinely
+    needs to stop before a deadline can still compute one.
     """
-    mins = (cron_minute - now.minute) % 60
-    secs = mins * 60 - now.second
-    if secs <= 0:                          # we ARE the tick, or just past it
-        secs += 3600
-    # Always aim at the NEXT tick, never the one after. An earlier version
-    # skipped an imminent tick and asked for the full window instead, so a job
-    # starting at :01 ran straight through the :04 tick - the exact overrun this
-    # function exists to prevent. A floor of 120s can overlap by at most ~2
-    # minutes, which cannot cause a cancellation: that needs a THIRD tick inside
-    # the window, and the next one is an hour away.
-    return max(120, min(WINDOW_SECONDS, secs - guard))
+    return WINDOW_SECONDS
 
 
 def migrate_state(state):
@@ -766,6 +787,14 @@ def main():
                 print("posted%s: %s - %s" % (" BREAKING" if breaking else ("" if not silent else " (silent)"),
                                              it["source"], it["title"][:70]))
             else:
+                # Put the phone alert back. claim() reserves a story's ONE buzz
+                # BEFORE the post, because the decision has to ride the message;
+                # if the post then fails, the reservation stayed burned for ever
+                # and the retry went out silent. That is how the biggest story of
+                # a day could land with no notification at all.
+                if loud:
+                    notify.release(state, it["guid"], it["title"])
+                    job["alerted"] = False
                 print("post failed (%s), will retry: %s" % (code, it["title"][:60]))
         # ---- drain the staging queue (slow work, out of the posting path) ----
         # Hot stories drain FIRST. In hybrid mode the queue holds one job per
