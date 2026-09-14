@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7224119bb704d5de": 1789424615.351907,
     "c32718554baadab9": 1789424592.00259,
     "4ee018c4491b508d": 1789424568.8132615,
     "c0aa6fc87ac8bff1": 1789424539.7837496,
@@ -2498,8 +2499,7 @@
     "bc797ff110f4df24": 0.0,
     "7dd3dfba374c6a5d": 0.0,
     "e22bdf3788e12789": 0.0,
-    "80df5e17e5961bef": 0.0,
-    "676bd323aeb486df": 0.0
+    "80df5e17e5961bef": 0.0
   },
   "initialized": true,
   "v": 4,
@@ -3013,16 +3013,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-14T20:30:00+00:00",
       "cluster": "cae622cf475"
+    },
+    {
+      "t": "Watch Scott Coker announce his new MMA venture LIVE at New York press conference",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-14T22:00:00+00:00",
+      "cluster": "cd89de64548"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T22",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMi5AFBVV95cUxQb0U4TktVVXMwdEdFazh4SS1fNEFhSnF0ZmtwX2gtR3BxcXBNSkE3OUxTaTE5MkRBZVBUMWY0WDBtdGNfQU5BS0cyWGYyZlZFWFAzWjBDQjBmUkRqZzQwTzV4MmN6NWJMZ2xFSVZua3lIV1Vmak1aUzVCeW1VT2IzaHk1a0U3R3ljY2R6OFB3OXZiZHJlN29RUHJwc3NhaDBHRHBiSUFNYjBLRkJtbnk0bFRjaHRXUk9YU3p2V21EbVZ1SWpfVjhIWkR1LVQwV2xtdkJxcWNhMnBjOWhQY3UyUFYzaXA",
     "CBMijwFBVV95cUxOMDI1MXVBRFZfMHFJV3ZIMDNkdm5mbEZGbWczcENsbDE0QmlmRGN0VldGLUc3RXAyVTdFcERLWU8zUm1HUTNRY3dKZHI2TURlSktTTWFmZU9fZ1o2NWlYZVItSTZfZV9ZWDVzcTQwX2NJVG5vVnFSOVFzUm1yS3Joblg3ZWI4b3RKdHRISjdZQQ",
     "https://www.mmafighting.com/?p=508011",
     "CBMirgFBVV95cUxPWHg0U1FiVWJFTlZJTUROVExQWEtlczFCOTVsVTBHMWtNLVlUMldCUnlpaDloMkFUYVpRVk5Zd3VvZHhPSUVJV1NhZUk5Y01FSmI2V2E4WEw3VVREbmM5MGFWRGVCWkhveFJiTzV5Q1pwRmxPbG5CTXl5WWwwMFd0TUJ5Z05rZjZJY2xOSXM0ZlpFWFJCc0NiTzE1TjJmbk9SQmhqZFVaTEhQYnZLcUE",
@@ -4521,11 +4526,12 @@
     "https://www.mmafighting.com/?p=510269",
     "https://bloodyelbow.com/?p=331589",
     "aa64e4cb-1b16-3e2c-aa54-7af2bb1610d8",
-    "https://bloodyelbow.com/?p=331578"
+    "https://bloodyelbow.com/?p=331578",
+    "https://bloodyelbow.com/?p=331606"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 104,
+    "ai": 105,
     "staged": 5,
     "prio": 1,
     "lost": 0
