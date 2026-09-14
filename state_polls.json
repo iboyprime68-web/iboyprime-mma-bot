@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 9,
+  "cursor": 10,
   "staged_at": [
-    "2026-09-12T18:28:54.581587+00:00",
     "2026-09-13T13:49:57.853101+00:00",
     "2026-09-13T18:49:54.978309+00:00",
-    "2026-09-14T15:55:27.338883+00:00"
+    "2026-09-14T15:55:27.338883+00:00",
+    "2026-09-14T18:57:47.295677+00:00"
   ],
   "asked": [
-    "Who is the best pure jiu-jitsu fighter in the UFC right now?",
     "Who is the most dangerous grappler in the UFC right now?",
     "Who is the most feared wrestler in UFC history?",
     "Who is the best active UFC wrestler right now?",
@@ -47,27 +46,28 @@
     "Who is the greatest UFC flyweight of all time?",
     "Who is the most must-watch fighter in the UFC right now?",
     "Who is the most frustrating inactive UFC champion of the last decade?",
-    "With the heavyweight belt now vacant, who should fight for it first?"
+    "With the heavyweight belt now vacant, who should fight for it first?",
+    "Which ref call makes you throw the remote?"
   ],
   "last_entry": {
-    "q": "With the heavyweight belt now vacant, who should fight for it first?",
+    "q": "Which ref call makes you throw the remote?",
     "type": "poll",
     "options": [
       {
-        "label": "Ciryl Gane",
-        "emoji": "🇫🇷"
+        "label": "Early stoppage",
+        "emoji": "🛑"
       },
       {
-        "label": "Josh Hokit",
-        "emoji": "💪"
+        "label": "Late stoppage",
+        "emoji": "😬"
       },
       {
-        "label": "Jailton Almeida",
-        "emoji": "🐍"
+        "label": "Missed fence grab",
+        "emoji": "🤏"
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "💬"
+        "label": "Pointless stand up",
+        "emoji": "🧍"
       }
     ]
   }
