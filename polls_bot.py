@@ -17,7 +17,7 @@ argument (the owner: "it doesn't have to be polls").
 The formula (decoded from the biggest MMA poll channels, 91K-175K votes per
 poll, and confirmed by the owner's own numbers): a superlative question fans
 already argue about, named fighters or fights as options so each can carry a
-photo, one emoji per option, and an "Other (comment below)" final option on
+one emoji per option, and an "Other (comment below)" final option on
 open-ended questions - the comments are where the channel grows.
 
 State (cursor, slot stamp, used questions) is saved AND committed BEFORE
@@ -25,26 +25,29 @@ anything posts - a crash mid-stage must skip one question, never repeat one
 (the quiz bot hit exactly this trap; its fix is the law here). The same-SLOT
 guard means a re-run or a manual dispatch can never stage twice in one slot.
 
-Option images: each option carries (or, when AI-written, guesses) an
-octagon-api fighter slug. The bot reads that fighter's imgUrl, downloads the
-photo and renders a 640x640 tile through postcard.render("poll_option", ...).
-postcard is imported lazily because Pillow is not stdlib, and EVERY image
-step degrades to a text-only stage on failure. Routine failures print and
-exit 0 - a red cron run emails the owner.
+No images. The per-option fighter tiles were removed in Sept 2026 at the
+owner's request - he writes his own thumbnails and the tiles were noise, one
+extra Discord message per option. That took the octagon-api lookup, the photo
+download and the Pillow render out of this bot, so it is stdlib-only again.
+Routine failures print and exit 0 - a red cron run emails the owner.
+
+Everything stages into the OWNER-ONLY ideas channel, which nothing cleans up,
+so the questions accumulate as a bank rather than expiring after two days.
 
 Std-lib only at import time.
 """
-import os, tempfile, urllib.request
-
 import common, newsconfig, pollgen
 
 STATE_FILE   = "state_polls.json"
 DATA_FILE    = "polls_data.json"
 STATE_V      = 2      # v1 -> v2 migrates in place (keeps the cursor - the
                       # v != N reseed trap is the law, see CLAUDE.md 4)
-FIGHTER_API  = "https://api.octagon-api.com/fighter/%s"
-FETCH_CAP    = 8 * 1024 * 1024
 OPTION_COUNT = 4
+# Sept 2026: the per-option fighter tiles are GONE at the owner's request ("I
+# know you tried to give me images, you don't need to do that... you can get rid
+# of that as for the polls"). That removed the octagon-api lookup, the photo
+# download and the Pillow render from this bot entirely, so it is stdlib-only
+# again and polls.yml no longer installs anything.
 
 
 MAX_PER_DAY = 2            # the owner's ask: two staged polls a day
@@ -97,76 +100,6 @@ def _ascii(s):
     return (s or "").encode("ascii", "replace").decode("ascii")
 
 
-def fighter_image_url(fid):
-    """octagon-api imgUrl for a fighter id, or ''. Never raises - a retired
-    or renamed fighter 404s and the option simply stages without a tile."""
-    try:
-        code, data = common.get_json(FIGHTER_API % fid)
-        if code != 200 or not isinstance(data, dict):
-            print("  fighter %s: HTTP %s - no tile" % (fid, code))
-            return ""
-        url = data.get("imgUrl") or ""
-        return url if url.startswith("http") else ""
-    except Exception as e:
-        print("  fighter %s lookup failed (%s) - no tile" % (fid, type(e).__name__))
-        return ""
-
-
-def fetch_bytes(url, timeout=10, cap=FETCH_CAP):
-    """Download binary content (the fighter photo). Returns bytes or None.
-    Same shape as ytposts.fetch_bytes: stdlib urllib, hard timeout, size cap."""
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": common.BROWSER_UA})
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            data = r.read(cap + 1)
-        if not data or len(data) > cap:
-            return None
-        return data
-    except Exception:
-        return None
-
-
-def render_tile(photo, label):
-    """Render one 640x640 option tile from raw photo bytes -> temp png path,
-    or '' on ANY failure, missing Pillow included. postcard is imported
-    lazily: the cron bots stay stdlib-only and this one must stage text-only
-    whenever the workflow's non-fatal pip step failed."""
-    photo_path = img_path = ""
-    try:
-        fd, photo_path = tempfile.mkstemp(suffix=".img")
-        with os.fdopen(fd, "wb") as f:
-            f.write(photo)
-        import postcard                          # lazy: needs Pillow
-        if postcard._load_photo(photo_path) is None:
-            # Unreadable bytes would render postcard's dark placeholder tile,
-            # and the whole formula is RAW photos - stage without one instead.
-            print("  photo bytes unreadable - staging without this tile")
-            return ""
-        img = postcard.render("poll_option", {"photo_path": photo_path,
-                                              "label": label})
-        fd, img_path = tempfile.mkstemp(suffix=".png")
-        os.close(fd)
-        img.save(img_path, "PNG")
-        return img_path
-    except SystemExit:                           # postcard raises it sans Pillow
-        print("  Pillow missing - staging without tiles")
-        return ""
-    except Exception as e:
-        if img_path:
-            try:
-                os.remove(img_path)
-            except OSError:
-                pass
-        print("  tile render failed (%s) - staging without this tile" % type(e).__name__)
-        return ""
-    finally:
-        if photo_path:
-            try:
-                os.remove(photo_path)
-            except OSError:
-                pass
-
-
 def option_line(opt):
     """One 'emoji label' line, exactly as it goes into the YouTube composer."""
     emoji = (opt.get("emoji") or "").strip()
@@ -189,9 +122,7 @@ def build_spec(entry, origin):
             "%s\n%s\n\n"
             "Paste into the YouTube poll composer:\n"
             "```\n%s\n```\n"
-            "Swap or trim options freely - the question is the engine. "
-            "Option tiles follow where a fighter image exists; raw iconic "
-            "photos out-pull designed graphics on these polls."
+            "Swap or trim options freely. The question is the engine."
             % (origin, q, "\n".join(lines), block))
 
 
@@ -208,9 +139,13 @@ def build_post_spec(text, origin):
 
 def main():
     cfg = common.load_config()
-    chan = cfg.get("channels", {}).get("studio")
+    # The owner-only ideas channel, NOT the studio. Two reasons he gave: the
+    # polls were mixed in with the news graphics, and he wants them to build up
+    # ("I don't want you to delete anything... they don't disappear"). Nothing
+    # cleans this channel - studio_clean only ever touches channels.studio.
+    chan = cfg.get("channels", {}).get("ideas")
     if not chan:
-        print("No studio channel in bots_config.json - run DEPLOY.bat so "
+        print("No ideas channel in bots_config.json - run DEPLOY.bat so "
               "bots_setup adds it, then re-run.")
         return
 
@@ -298,33 +233,7 @@ def main():
     print("staged poll (%s): %s" % (_ascii(origin),
                                     _ascii(entry.get("q", ""))[:70]))
 
-    tiles = 0
-    for i, opt in enumerate(entry.get("options", [])[:OPTION_COUNT]):
-        fid = (opt.get("img") or "").strip()
-        if not fid:
-            continue
-        label = (opt.get("label") or "").strip()
-        url = fighter_image_url(fid)
-        if not url:
-            continue
-        raw = fetch_bytes(url)
-        if raw is None:
-            print("  photo download failed for %s - no tile" % fid)
-            continue
-        path = render_tile(raw, label)
-        if not path:
-            continue
-        code, _ = common.post_file(chan, "Option %d tile - %s" % (i + 1, _ascii(label)),
-                                   path, filename="option%d.png" % (i + 1), silent=True)
-        try:
-            os.remove(path)
-        except OSError:
-            pass
-        if code in (200, 201):
-            tiles += 1
-        else:
-            print("  tile upload failed for option %d: HTTP %s" % (i + 1, code))
-    print("Done. tiles=%d" % tiles)
+    print("Done.")
 
 
 if __name__ == "__main__":
