@@ -1,5 +1,7 @@
 {
   "seen": {
+    "d1814edde215d992": 1789427191.6871998,
+    "0be1a1b4a95927ac": 1789427190.885422,
     "da8b792405a05b2c": 1789426880.3269124,
     "bd03a0dba3d20e22": 1789426880.3249333,
     "40196642b0ae6d5d": 1789426880.3086357,
@@ -2497,9 +2499,7 @@
     "db5629bda606916f": 1788424408.3120236,
     "2cfd88b3c72d7eb1": 1788424408.3120222,
     "b26f07bf7675ada4": 1788424408.312021,
-    "d76b878bcfc249e0": 1788424408.312019,
-    "1cae4a5fa92fdb07": 1788424408.3120172,
-    "c1ec799ab5de13e0": 1788424408.3120148
+    "d76b878bcfc249e0": 1788424408.312019
   },
   "initialized": true,
   "v": 4,
@@ -3175,13 +3175,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-14T23:00:00+00:00",
       "cluster": "cf0b78dba31"
+    },
+    {
+      "t": "Cage or ring? Scott Coker reveals new MMA promotion’s name, massive 32-man Grand Prix",
+      "source": "MMA Mania",
+      "ts": "2026-09-14T23:02:10+00:00",
+      "cluster": "ce6af5bc673"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T23",
-    1
+    2
   ],
   "yt_eval": [
     "b42cc320-f4e6-39e9-ae57-aecd554ec9ae",
