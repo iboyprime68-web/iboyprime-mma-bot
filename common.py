@@ -122,6 +122,31 @@ def _file_ctype(fn):
             "webp": "image/webp", "gif": "image/gif"}.get(ext, "image/png")
 
 
+# Magic-number -> (extension, media type). An og:image is frequently WebP or PNG
+# even when the URL says .jpg, and the staged photo used to be uploaded as
+# "photo.jpg" regardless. Discord then records content_type image/jpeg, the
+# studio trusts that, wraps the bytes in a Blob of the wrong type, and the photo
+# will not decode - which is a large part of "the images just don't load".
+_MAGIC = (
+    (b"\x89PNG\r\n\x1a\n", "png", "image/png"),
+    (b"\xff\xd8\xff", "jpg", "image/jpeg"),
+    (b"GIF87a", "gif", "image/gif"),
+    (b"GIF89a", "gif", "image/gif"),
+)
+
+
+def sniff_image(data):
+    """(extension, media type) from the bytes themselves, or ("", "") when the
+    bytes are not a raster image we can name. Pure."""
+    b = data or b""
+    for magic, ext, ct in _MAGIC:
+        if b.startswith(magic):
+            return ext, ct
+    if b[:4] == b"RIFF" and b[8:12] == b"WEBP":
+        return "webp", "image/webp"
+    return "", ""
+
+
 def post_file(channel_id, content, file_path, filename=None, allowed_mentions=None, embeds=None, silent=False):
     """POST a message with local file(s) attached (multipart/form-data, stdlib).
 
@@ -252,27 +277,51 @@ def refresh_checkout():
 
 
 def persist_state(filename, message=None):
-    """Commit + push ONE state file immediately (mid-loop), so a long-running
-    job that posts at minute 1 doesn't re-post if it dies before minute 5.
-    No-op unless in Actions (local/test runs never touch git). Every git step is
-    guarded - a failure here must never break posting; the workflow's end-of-job
-    'Save state' step is the backstop. Mirrors that step (pull --rebase handles
-    pushes from other bot workflows)."""
+    """Commit + push ONE state file immediately (mid-loop), so a long-running job
+    that posts at minute 1 does not re-post if it dies before minute 5. No-op
+    unless in Actions. Returns True when the push landed, False otherwise.
+
+    It used to run six git commands and check NONE of their return codes, so a
+    rebase that wedged on a conflicting state file disabled persistence for the
+    whole remaining window while printing nothing. The bot then re-posted from a
+    stale `seen` on the next run and re-buzzed the owner's phone - a silent
+    durability failure presenting as "why did I get that twice". The push is now
+    retried with a pull between attempts, and an exhausted retry prints a GitHub
+    ::warning:: so it is visible in the run summary instead of only in the log.
+    A failure still never raises: the workflow's end-of-job Save state step is
+    the backstop, and posting must not stop because git is unhappy."""
     if not in_ci():
-        return
+        return False
     msg = message or ("%s [skip ci]" % filename)
-    for cmd in (
-        ["git", "config", "user.name", "iboyprime-bot"],
-        ["git", "config", "user.email", "bot@users.noreply.github.com"],
-        ["git", "add", filename],
-        ["git", "commit", "-m", msg],
-        ["git", "pull", "--rebase", "--autostash"],
-        ["git", "push"],
-    ):
+
+    def run(cmd):
         try:
-            subprocess.run(cmd, cwd=HERE, capture_output=True, timeout=90)
+            r = subprocess.run(cmd, cwd=HERE, capture_output=True, timeout=90)
+            return r.returncode, (r.stderr or b"").decode("utf-8", "replace")[:300]
         except Exception as e:
-            print("  persist_state(%s): %s -> %s" % (filename, " ".join(cmd[:2]), e))
+            return 1, "%s -> %s" % (" ".join(cmd[:2]), e)
+
+    run(["git", "config", "user.name", "iboyprime-bot"])
+    run(["git", "config", "user.email", "bot@users.noreply.github.com"])
+    rc, err = run(["git", "add", filename])
+    if rc:
+        print("  persist_state(%s): add failed: %s" % (filename, err))
+        return False
+    rc, err = run(["git", "commit", "-m", msg])
+    if rc:
+        # "nothing to commit" is the normal no-change case, not a failure.
+        return True
+    for attempt in range(3):
+        run(["git", "pull", "--rebase", "--autostash"])
+        rc, err = run(["git", "push"])
+        if rc == 0:
+            return True
+        print("  persist_state(%s): push attempt %d failed: %s"
+              % (filename, attempt + 1, err))
+    print("::warning::persist_state could not push %s after 3 attempts - this "
+          "run's dedupe memory may be lost, which can re-post and re-alert."
+          % filename)
+    return False
 
 
 # ---- time / text helpers ---------------------------------------------------
@@ -316,12 +365,109 @@ def clean(s):
            .replace("&rdquo;", '"').replace("&nbsp;", " ").replace("&hellip;", "...")
            .replace("&#8217;", "'").replace("&#8216;", "'").replace("&#8220;", '"')
            .replace("&#8221;", '"').replace("&mdash;", "-").replace("&ndash;", "-"))
+    s = re.sub(r"[﻿​‌‍⁠]", "", s)
     return re.sub(r"\s+", " ", s).strip()
 
 
 def truncate(s, n):
     s = s or ""
     return s if len(s) <= n else s[:n - 1].rstrip() + "…"
+
+
+# A publisher's own excerpt marker, at the very end of a feed summary. WordPress
+# feeds (Bloody Elbow, MMA Mania) publish <description> as a word-count excerpt
+# ending in &hellip;, which clean() decodes to three ASCII dots - and that is
+# what shipped a caption reading "...Former light-heavyweight..." into the
+# owner's YouTube composer. Stripping the marker is only half the fix: the
+# dangling clause in front of it has to go too, which _sentence_trim does.
+_TRUNC_TAIL = re.compile(r"(?:\[\s*(?:\.{2,}|…)\s*\]|\.{2,}|…)\s*$")
+_READ_MORE = re.compile(
+    r"\s*(?:read\s+more|continue\s+reading|read\s+the\s+full\s+(?:story|article)"
+    r"|the\s+post\s+.{0,160}?appeared\s+first\s+on\s+.{0,80})\s*[.…]*\s*$",
+    re.I)
+
+
+# Reading <content:encoded> gets the whole article, and syndicated MMA feeds open
+# it with the hero image's Getty dateline + caption + credit, glued to the first
+# real sentence. Measured shapes:
+#   "GLENDALE, ARIZONA - SEPTEMBER 12: Jean Silva of Brazil reacts after his
+#    submission victory ... (Photo by Jeff Bottari/Zuffa LLC) Jean Silva is not..."
+#   "Ryan Garcia punches Conor Benn Photo by Al Powers/Zuffa Boxing via Getty
+#    Images) Conor Benn is taking some time off."
+#   "Islam Makhachev UFC GettyUFC welterweight champion Islam Makhachev broke..."
+# The owner would have to delete that out of every caption by hand. Anchored at
+# the START and requiring a credit keyword, so it cannot eat prose further in.
+_MEDIA_CREDIT = re.compile(
+    r"^.{0,400}?(?:photo\s*(?:by|credit)|getty\s+images|zuffa\s+llc|"
+    r"images?\s+via|via\s+getty)[^.!?]{0,200}?\)\s*", re.I | re.S)
+# The same credit with no closing paren at all.
+# Agency tags repeat, separated by a pipe or dash:
+#   "Photo by Steve Marcus/Getty Images | Getty Images It was an action-packed..."
+_AGENCY = r"(?:getty\s+images|zuffa\s+llc|imagn|usa\s+today\s+sports|ap\s+photo)"
+_MEDIA_CREDIT_BARE = re.compile(
+    r"^.{0,200}?photo\s*by\s[^.!?)]{0,140}?" + _AGENCY +
+    r"(?:\s*[|/–—-]?\s*" + _AGENCY + r")*\s*[|/–—:-]?\s*", re.I)
+# A trailing agency tag glued straight onto the first word: "... UFC GettyUFC".
+# The credit with no "Photo by" and no parens at all, ending the opening caption
+# fragment: "Tom Aspinall at a UFC 321 press conference Jeff Bottari, Zuffa LLC
+# Henry Cejudo has had enough..." and "Islam Makhachev UFC GettyUFC welterweight".
+# [^.!?] keeps this inside the first unpunctuated run, so it can only ever eat a
+# caption fragment, never a sentence of real prose.
+_AGENCY_GLUE = re.compile(
+    r"^[^.!?]{0,160}?(?<![A-Za-z])(?:Getty(?:\s+Images)?|Imagn|USA\s+TODAY\s+Sports"
+    r"|Zuffa(?:\s+LLC)?|AP\s+Photo)\s*(?=[A-Z])")
+# Syndication glues sentences with no space ("...title Monday.Aspinall relinquished").
+# Requires a lowercase/quote/digit before the stop so "U.S. Open" and initials survive.
+_GLUED = re.compile(r"(?<=[a-z0-9\"'’\)])([.!?])(?=[A-Z])")
+
+
+def strip_media_credit(s):
+    """Drop a leading image dateline / alt text / photo credit. Pure."""
+    s = (s or "").strip()
+    s = _MEDIA_CREDIT.sub("", s, count=1).strip()
+    s = _MEDIA_CREDIT_BARE.sub("", s, count=1).strip()
+    s = _AGENCY_GLUE.sub("", s, count=1).strip()
+    s = re.sub(r"^[|/–—:\-\s]+", "", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def unglue_sentences(s):
+    """Put back the space syndication strips between sentences. Pure."""
+    return _GLUED.sub(r"\1 ", s or "")
+
+
+_HAS_SENT_END = re.compile(r"[.!?]")
+
+
+def tidy_summary(s):
+    """One entry point for turning a raw feed summary into caption-ready prose:
+    drop the photo credit, restore sentence spacing, drop the publisher's own
+    excerpt marker. Order matters - the marker check runs last, after the text
+    it terminates has been normalised.
+
+    When a marker WAS present and nothing with a sentence end survives, the
+    whole summary is dropped. Removing a trailing "..." leaves a dangling
+    clause, and a dangling clause is exactly what the owner could not paste
+    into YouTube - a headline on its own is fine, half a sentence is not."""
+    cleaned = unglue_sentences(strip_media_credit(s))
+    trimmed = strip_truncation(cleaned)
+    if trimmed != cleaned and not _HAS_SENT_END.search(trimmed):
+        return ""
+    return trimmed
+
+
+def strip_truncation(s):
+    """Drop a publisher's trailing excerpt marker ("...", "…", "[...]",
+    "Read more", "The post X appeared first on Y"). Pure. Loops because feeds
+    stack them ("... Read more...")."""
+    s = (s or "").strip()
+    for _ in range(4):
+        before = s
+        s = _READ_MORE.sub("", s).strip()
+        s = _TRUNC_TAIL.sub("", s).strip()
+        if s == before:
+            break
+    return s
 
 
 def strip_markdown(s):
