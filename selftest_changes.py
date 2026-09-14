@@ -55,13 +55,57 @@ os.environ.pop("GITHUB_ACTIONS", None)
 print("\n[persist_state]")
 _real_run = common.subprocess.run
 git_calls = []
-common.subprocess.run = lambda *a, **k: git_calls.append(a[0] if a else None)
+
+
+class _FakeProc(object):
+    """Mirrors the real subprocess.run return shape. The old mock returned None,
+    which meant persist_state could not have its return codes checked at all -
+    the mock was hiding the very bug the checks below now cover."""
+
+    def __init__(self, rc=0, err=b""):
+        self.returncode = rc
+        self.stderr = err
+        self.stdout = b""
+
+
+_git_rc = {}
+
+
+def _fake_run(*a, **k):
+    cmd = a[0] if a else None
+    git_calls.append(cmd)
+    key = " ".join(cmd[:2]) if cmd else ""
+    return _FakeProc(*_git_rc.get(key, (0, b"")))
+
+
+common.subprocess.run = _fake_run
 os.environ.pop("GITHUB_ACTIONS", None)
-common.persist_state("state_news.json")
-check("no-op (no git) when local", git_calls == [])
+check("no-op (no git) when local",
+      common.persist_state("state_news.json") is False and git_calls == [])
 os.environ["GITHUB_ACTIONS"] = "true"
-common.persist_state("state_news.json")
-check("runs git steps in CI", len(git_calls) >= 4)
+check("runs git steps in CI and reports success",
+      common.persist_state("state_news.json") is True and len(git_calls) >= 4)
+
+# A wedged push used to be completely silent: six commands ran, none of their
+# return codes were read, and persistence was dead for the rest of the window
+# while the bot happily kept posting from a `seen` that would never be saved.
+git_calls[:] = []
+_git_rc["git push"] = (1, b"rejected")
+_ps_out = []
+_ps_prev_print = __builtins__["print"] if isinstance(__builtins__, dict) else print
+check("a failing push is reported, not swallowed",
+      common.persist_state("state_news.json") is False)
+check("a failing push is RETRIED with a pull in between, not given up on",
+      sum(1 for c in git_calls if c and c[:2] == ["git", "push"]) == 3
+      and sum(1 for c in git_calls if c and c[:2] == ["git", "pull"]) == 3)
+_git_rc.clear()
+
+git_calls[:] = []
+_git_rc["git commit"] = (1, b"nothing to commit")
+check("'nothing to commit' is success, not a failure (no push is attempted)",
+      common.persist_state("state_news.json") is True
+      and not any(c and c[:2] == ["git", "push"] for c in git_calls))
+_git_rc.clear()
 git_calls.clear()
 os.environ.pop("GITHUB_ACTIONS", None)
 common.refresh_checkout()
@@ -588,27 +632,25 @@ check("with no digest time configured nothing is queued, so the state file "
 # list; sizing the window to the time actually available makes a manual run safe
 # again, which matters because GitHub honours only ~40% of the hourly ticks and
 # a hand-started run is the recovery.
-_wf_bad = []
+# queue: max (news.yml) lets the concurrency group hold up to 100 QUEUED runs and
+# cancels none of them, so an overrunning run no longer costs a cancelled pending
+# run - which was the only reason the window was ever shortened. The old sizing
+# was expensive: GitHub delivers the tick late (the 22:04 tick observed arriving
+# at 23:00) and the window was then sized to the stub of the hour that was left,
+# giving real measured runs of 2, 2, 2, 4 and 6 minutes and collapsing live
+# coverage of the day to 9.7%.
+_wf_lens = set()
 for _h in range(24):
     for _m in range(60):
         _st = common.datetime.datetime(2026, 9, 3, _h, _m,
                                        tzinfo=common.datetime.timezone.utc)
-        _end = _st + common.datetime.timedelta(seconds=news_bot.window_for(_st))
-        _t = _st.replace(minute=news_bot.CRON_MINUTE, second=0, microsecond=0)
-        while _t <= _st:
-            _t += common.datetime.timedelta(hours=1)
-        _w = news_bot.window_for(_st)
-        _t2 = _t + common.datetime.timedelta(hours=1)
-        # The invariant that matters: a run can NEVER still be going when the
-        # tick AFTER next arrives, because that is what cancels a pending run and
-        # mails the owner. A window pinned to the 120s floor may overlap the very
-        # next tick by up to two minutes; that one just queues and starts.
-        if _end >= _t2:
-            _wf_bad.append("spans two ticks at " + _st.strftime("%H:%M"))
-        elif _end >= _t and _w > 120:
-            _wf_bad.append("overruns at " + _st.strftime("%H:%M"))
-check("no window can ever span two cron ticks, and only a floored window may "
-      "overlap the next one at all (1440 start times checked)", not _wf_bad)
+        _wf_lens.add(news_bot.window_for(_st))
+check("every start time now gets the FULL window, whenever GitHub happens to "
+      "deliver the tick (1440 start times checked)",
+      _wf_lens == {news_bot.WINDOW_SECONDS})
+check("the window is still shorter than the job timeout, so the runner is never "
+      "killed mid-cycle",
+      news_bot.WINDOW_SECONDS < 56 * 60)
 check("a job started on the cron still gets the full window",
       news_bot.window_for(common.datetime.datetime(
           2026, 9, 3, 8, 5, tzinfo=common.datetime.timezone.utc)) == news_bot.WINDOW_SECONDS)
@@ -1156,7 +1198,10 @@ _cats = set(layout.all_category_names())
 # The naming rule the owner asked for: <emoji>┊<one word>, no dashes anywhere.
 import re as _re
 _TEXT_RX = _re.compile(r"^[^\w\s]{1,3}┊[a-z0-9]+$")
-_VOICE_RX = _re.compile(r"^[^\w\s]{1,3}┊[A-Za-z0-9]+$")
+# A voice name may carry spaces and capitals: the owner named the North Korea
+# rooms himself and those words are HIS, so the deploy matches his names rather
+# than renaming his channels. Text channels stay strictly one lowercase word.
+_VOICE_RX = _re.compile(r"^[^\w\s]{1,3}┊[A-Za-z0-9]+(?: [A-Za-z0-9]+)*$")
 _bad = [c.name for c in layout.all_channels()
         if not (_VOICE_RX if c.is_voice else _TEXT_RX).match(c.name)]
 check("every channel is <emoji>┊<word> (offenders: %s)" % _bad[:3], not _bad)
@@ -2257,6 +2302,27 @@ if _WF_DIRS:
                 _tight.append("%s: %ss job on a %ss cron" % (_b, _job, _period))
     check("no workflow cancels a run to make room for another (offenders: %s)" % _cip,
           not _cip)
+    # queue: max is now load-bearing. It is what lets news.yml be triggered more
+    # often than it finishes without minting a cancelled run, and it is the
+    # precondition for the window going back to its full length (window_for) and
+    # for any external trigger firing workflow_dispatch. Removing it silently
+    # restores both the 9.7%-coverage bug and the email flood.
+    _news_raw = next((open(_p, encoding="utf-8").read() for _p in _wf_files
+                      if os.path.basename(_p) == "news.yml"), "")
+    # Comments must be stripped before matching: the file EXPLAINS that queue:
+    # max cannot be paired with cancel-in-progress: true, and that sentence
+    # matched the check that was looking for the pairing.
+    _news_yml = "\n".join(l for l in _news_raw.splitlines()
+                          if not l.strip().startswith("#"))
+    check("news.yml queues pending runs instead of cancelling them (queue: max)",
+          "queue: max" in _news_yml)
+    check("queue: max is never paired with cancel-in-progress: true (GitHub "
+          "rejects the workflow outright)",
+          not ("queue: max" in _news_yml
+               and _re.search(r"cancel-in-progress:\s*true", _news_yml)))
+    check("news.yml takes a trigger reason, so a doorbell run is "
+          "distinguishable from a cron run in the logs",
+          "NEWS_REASON" in _news_yml and "reason:" in _news_yml)
     check("no workflow runs longer than the cron that re-triggers it, so a tick can "
           "never land as a pending run (offenders: %s)" % _tight, not _tight)
     # Pin the specific regression: news_bot's window is far longer than any */N cron,
@@ -2554,8 +2620,11 @@ check("short text passes through the sentence trim",
 _long = ("First sentence is here. " * 8) + "Tail without an ending"
 check("long text cuts at a sentence boundary",
       ytposts._sentence_trim(_long, 120).endswith("."))
-check("no sentence boundary cuts at a word with ellipsis",
-      ytposts._sentence_trim("word " * 100, 50).endswith("..."))
+check("a run too long to fit one whole sentence yields NOTHING, never a "
+      "word-boundary cut with an ellipsis (this test used to assert the bug "
+      "the owner reported pasting into YouTube)",
+      ytposts._sentence_trim("word. " * 100, 3) == ""
+      and not ytposts._sentence_trim("word " * 100, 50).endswith("..."))
 
 _cap = ytposts.build_caption("Makhachev out of UFC 331",
                              "He withdrew with an injury. The card is being reworked.",
@@ -4389,9 +4458,10 @@ check("every option carries one emoji",
       all(o.get("emoji") and len(o["emoji"]) <= 3 and
           all(ord(c) > 127 for c in o["emoji"])
           for e in _pl_bank for o in e["options"]))
-check("img is empty or an octagon-api slug",
-      all(_pl_re.fullmatch(r"[a-z0-9-]*", o.get("img", "")) is not None
-          for e in _pl_bank for o in e["options"]))
+import pollgen as _pl_gen
+check("the AI poll writer no longer emits an image slug",
+      not hasattr(_pl_gen, "slugify")
+      and all("img" not in o for e in _pl_bank for o in e["options"]))
 
 # -- staging mechanics on a controlled 3-question bank ----------------------
 _pl_mini = [
@@ -4419,8 +4489,6 @@ _pl_prev_pf = common.post_file
 _pl_prev_gj = common.get_json
 _pl_prev_now = common.now_utc
 _pl_prev_cfg = common.load_config
-_pl_prev_fb = polls_bot.fetch_bytes
-_pl_prev_rt = polls_bot.render_tile
 
 common.post_message = lambda *a, **k: (_pl_events.append("post"),
                                        _pl_prev_post(*a, **k))[1]
@@ -4435,10 +4503,8 @@ common.post_file = lambda chan, content, path, filename=None, allowed_mentions=N
     (200, {"id": "PL%d" % len(_PL_FILES)}))[2]
 common.get_json = lambda url, headers=None, tries=4, timeout=30: \
     (200, {"imgUrl": "https://img.example/f.png"})
-common.load_config = lambda: {"channels": {"studio": "ST"}}
-polls_bot.fetch_bytes = lambda url, timeout=10, cap=polls_bot.FETCH_CAP: b"PHOTOBYTES"
-polls_bot.render_tile = lambda photo, label: "tile_%s.png" % "".join(
-    c for c in label.lower() if c.isalnum())
+# The polls now stage into the OWNER-ONLY ideas channel, never the studio.
+common.load_config = lambda: {"channels": {"studio": "ST", "ideas": "ID"}}
 _pl_day = [_pl_dt.datetime(2026, 8, 13, 12, 0, tzinfo=_pl_dt.timezone.utc)]
 common.now_utc = lambda: _pl_day[0]
 # The mechanics tests run the BANK path: the generator is stubbed to "no key"
@@ -4455,8 +4521,8 @@ check("staged message carries the question and all 4 option lines",
       POSTS_FULL and _pl_mini[0]["q"] in POSTS_FULL[0]["content"] and
       all(("%s %s" % (o["emoji"], o["label"])) in POSTS_FULL[0]["content"]
           for o in _pl_mini[0]["options"]))
-check("staged message is SILENT in the studio channel with no pings",
-      POSTS_FULL[0]["chan"] == "ST" and POSTS_FULL[0]["silent"] is True and
+check("staged message is SILENT in the OWNER-ONLY ideas channel with no pings",
+      POSTS_FULL[0]["chan"] == "ID" and POSTS_FULL[0]["silent"] is True and
       POSTS_FULL[0]["mentions"] is None)
 check("cursor is persisted BEFORE anything posts (a crash cannot repeat a question)",
       "persist" in _pl_events and "post" in _pl_events and
@@ -4471,9 +4537,16 @@ check("state advanced: v2, cursor 1, stamp recorded, question remembered, "
       _pl_state.get("last_entry", {}).get("q") == _pl_mini[0]["q"] and
       [o["label"] for o in _pl_state["last_entry"]["options"]]
       == [o["label"] for o in _pl_mini[0]["options"]])
-check("one tile posted for the one fighter-image option, silent",
-      len(_PL_FILES) == 1 and _PL_FILES[0]["filename"] == "option1.png" and
-      _PL_FILES[0]["silent"] is True and _PL_FILES[0]["chan"] == "ST")
+check("NO option tiles are posted any more (the owner asked for the fighter "
+      "images to go; each one was an extra Discord message per option)",
+      _PL_FILES == [])
+check("the poll bot no longer carries an image chain at all",
+      not hasattr(polls_bot, "fetch_bytes")
+      and not hasattr(polls_bot, "render_tile")
+      and not hasattr(polls_bot, "fighter_image_url"))
+check("polls never land in the studio channel - that one is auto-deleted "
+      "after 2 days, and the ideas bank is kept for ever",
+      all(_p["chan"] == "ID" for _p in POSTS_FULL))
 
 # gap guard: a re-run (or a manual dispatch) minutes later stages nothing
 _pl_n = len(POSTS_FULL)
@@ -4597,8 +4670,6 @@ common.post_file = _pl_prev_pf
 common.get_json = _pl_prev_gj
 common.now_utc = _pl_prev_now
 common.load_config = _pl_prev_cfg
-polls_bot.fetch_bytes = _pl_prev_fb
-polls_bot.render_tile = _pl_prev_rt
 pollgen.generate = _pl_prev_gen
 
 # ──────────────────────── pollgen (the AI poll writer) ──────────────────────
@@ -4617,11 +4688,6 @@ check("the brief keeps the injection defence and the strict-JSON contract",
 check("the brief bans em dashes and exclamation marks in its own voice too",
       chr(0x2014) not in pollgen.SYSTEM_PROMPT and "!" not in pollgen.SYSTEM_PROMPT)
 
-check("slugify shapes octagon-api ids",
-      pollgen.slugify("Islam Makhachev") == "islam-makhachev"
-      and pollgen.slugify("Sean O'Malley") == "sean-omalley"
-      and pollgen.slugify("Other (comment below)") == "other-comment-below"
-      and pollgen.slugify("") == "")
 
 _pg_ok = {"type": "poll", "q": "Who is the scariest man in the UFC right now?",
           "options": [{"label": "Tom Aspinall", "emoji": "💥"},
@@ -4688,10 +4754,12 @@ _pg_reply = _pl_json.dumps({"choices": [{"message": {"content": _pl_json.dumps({
                 {"label": "Silva vs Belfort", "emoji": "🦵"},
                 {"label": "Other (comment below)", "emoji": "🤔"}]})}}]})
 _pg_parsed = pollgen.parse_reply(_pg_reply)
-check("a good reply parses with slug guesses on every option",
+check("the generated options carry NO image slug (the tiles are gone, and a "
+      "leftover slug would tempt a future change into bringing them back)",
+      all("img" not in o for o in (_pg_parsed or {}).get("options", [])))
+check("a good reply parses into label+emoji options and nothing else",
       _pg_parsed["type"] == "poll" and len(_pg_parsed["options"]) == 3
-      and _pg_parsed["options"][0]["img"] == "ngannou-vs-overeem"
-      and _pg_parsed["options"][2]["img"] == "other-comment-below")
+      and set(_pg_parsed["options"][0]) == {"label", "emoji"})
 check("junk replies parse to None, never raise",
       pollgen.parse_reply("") is None and pollgen.parse_reply("{nope") is None
       and pollgen.parse_reply(_pl_json.dumps({"choices": []})) is None)
@@ -5129,6 +5197,112 @@ try:
     os.unlink(_rt_f1.name); os.unlink(_rt_f2.name)
 finally:
     common.http = _rt_prev_http
+
+
+# --------------- caption quality (the owner's cut-off report) -------------
+print("\n[alert release]")
+import notify as _nr
+_nr_state = {}
+check("a story claims its ONE phone alert",
+      _nr.claim(_nr_state, "guid-1", 1000.0, {}, title="Aspinall vacates") is True)
+check("...and cannot claim it twice",
+      _nr.claim(_nr_state, "guid-1", 1001.0, {}, title="Aspinall vacates") is False)
+check("releasing a claim whose post failed puts the alert back",
+      _nr.release(_nr_state, "guid-1", "Aspinall vacates") is True
+      and _nr.claim(_nr_state, "guid-1", 1002.0, {},
+                    title="Aspinall vacates") is True)
+check("releasing an unknown story is a harmless no-op",
+      _nr.release(_nr_state, "never-seen", "x") is False
+      and _nr.release(None, "guid-1") is False)
+check("the title row is released too, so the similarity net stops suppressing "
+      "the retry",
+      _nr.release(_nr_state, "guid-1", "Aspinall vacates") is True
+      and _nr.claim({}, "guid-2", 1003.0, {},
+                    title="Aspinall vacates the title") is True)
+
+print("\n[caption quality]")
+import ytposts as _cq_yt
+import news_bot as _cq_nb
+
+# The exact text the owner pasted, with Bloody Elbow's own &hellip; marker.
+_CQ_RAW = ("Alex Pereira continues to insist that he's due a shot at the interim "
+           "heavyweight title, despite being knocked out at the White House. "
+           "Former light-heavyweight&hellip;")
+_cq_cap = _cq_yt.build_caption(
+    "Alex Pereira calls his shot for Madison Square Garden comeback",
+    common.clean(_CQ_RAW), "Bloody Elbow")
+_cq_parts = _cq_cap.split("\nvia ")[0].split("\n\n")
+_cq_blurb = (_cq_parts[1] if len(_cq_parts) > 1 else "").strip()
+check("the owner's caption no longer ends mid-sentence",
+      _cq_blurb.endswith("knocked out at the White House."))
+check("no caption ends in an ellipsis",
+      not _cq_blurb.endswith("...") and not _cq_blurb.endswith("\u2026"))
+check("a clause the publisher truncated yields NO body, not a fragment",
+      common.tidy_summary("Former light-heavyweight champion who...") == "")
+check("an untruncated clause with no full stop is still usable",
+      common.tidy_summary("Former light-heavyweight champion")
+      == "Former light-heavyweight champion")
+check("the last COMPLETE sentence inside the cap wins",
+      _cq_yt._sentence_trim("One. Two. Three.", 9) == "One. Two.")
+check("a sentence boundary in the first half is accepted (the pos>cap//2 bug)",
+      _cq_yt._sentence_trim("Short. " + "x" * 200, 300) == "Short.")
+check("an unpunctuated short summary is kept whole",
+      _cq_yt._sentence_trim("A complete clause with no full stop", 300)
+      == "A complete clause with no full stop")
+check("an abbreviation does not end a sentence",
+      _cq_yt._sentence_trim("He is clumsy. The No. 6 contender fought.", 300)
+      == "He is clumsy. The No. 6 contender fought.")
+check("an initial does not end a sentence", _cq_yt._is_abbrev("J. Smith won.", 1))
+check("the publisher's own excerpt marker is stripped",
+      common.strip_truncation("Manchester native...") == "Manchester native"
+      and common.strip_truncation("as a\u2026") == "as a"
+      and common.strip_truncation("body [...]") == "body")
+check("a Read more tail is stripped",
+      common.strip_truncation("He fought on. Read more") == "He fought on.")
+check("a Getty dateline + photo credit is dropped",
+      common.strip_media_credit(
+          "GLENDALE, ARIZONA - SEPTEMBER 12: Jean Silva of Brazil reacts after his "
+          "submission victory. (Photo by Jeff Bottari/Zuffa LLC) "
+          "Jean Silva is not a psychopath.").startswith("Jean Silva is not"))
+check("a repeated agency tag behind a pipe is dropped",
+      common.strip_media_credit(
+          "Photo by Steve Marcus/Getty Images | Getty Images It was an action-packed "
+          "weekend.").startswith("It was an action-packed"))
+check("a parenless credit glued to the first word is dropped",
+      common.strip_media_credit(
+          "Tom Aspinall at a UFC 321 press conference | Jeff Bottari, Zuffa LLC "
+          "Henry Cejudo has had enough.").startswith("Henry Cejudo"))
+check("real prose containing a bare agency name is NOT eaten",
+      common.strip_media_credit("Dana White spoke first. Zuffa LLC declined.")
+      == "Dana White spoke first. Zuffa LLC declined.")
+check("syndication-glued sentences get their space back",
+      common.unglue_sentences("title Monday.Aspinall relinquished")
+      == "title Monday. Aspinall relinquished")
+check("unglue KEEPS the full stop it splits on (a mangled backreference "
+      "silently replaced it with a control character)",
+      "." in common.unglue_sentences("a.B")
+      and not any(ord(c) < 9 for c in common.unglue_sentences("a.B")))
+check("an initial is not unglued", common.unglue_sentences("J.Smith") == "J.Smith")
+check("the parser prefers the full article body over a truncated excerpt",
+      _cq_nb._DESC_RICH == {"encoded", "content"}
+      and "description" in _cq_nb._DESC_PLAIN)
+check("DESC_MAX stays above the caption cap so the sentence cutter can fire",
+      _cq_nb.DESC_MAX > _cq_yt.CAPTION_MAX_DESC)
+
+# The backslash trap that bit studio_page.js (CLAUDE.md 0i) bites .py edits too:
+# a mangled \\b became chr(8) and a mangled \\1 became chr(1), which turned
+# unglue_sentences into a full-stop DELETER while every caption test still passed.
+_cq_ctrl = []
+for _cq_f in ("common.py", "news_bot.py", "ytposts.py", "scorer.py", "newsconfig.py"):
+    _cq_p = os.path.join(_SRC, _cq_f)
+    if not os.path.exists(_cq_p):
+        continue
+    with open(_cq_p, encoding="utf-8") as _cq_fh:
+        _cq_txt = _cq_fh.read()
+    if any(ord(c) < 9 or 13 < ord(c) < 32 for c in _cq_txt):
+        _cq_ctrl.append(_cq_f)
+check("no bot source carries a control character from a mangled escape",
+      _cq_ctrl == [])
 
 
 print("\n==== %d passed, %d failed ====" % (PASS, FAIL))
