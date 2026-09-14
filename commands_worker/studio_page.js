@@ -1555,25 +1555,46 @@ function fitLine(ctx, text, maxW, maxH, maxLines, hi, lo) {
 /* Dragging a layer changes position only, so the expensive size search and the
    line balancer are memoised on everything that actually affects them. A drag
    frame reuses both and costs one repaint. */
-var fitCache = { k: null, v: null }, lineCache = { k: null, v: null };
+/* Both caches held exactly ONE entry, which is a 0% hit rate on any frame that
+   fits more than one string - the panels template, the versus grid and the poll
+   tiles all do. Each miss re-runs fitLine's size sweep and the combinatorial
+   balancer, so a drag on those templates recomputed everything every frame.
+   A small LRU is enough: the working set per frame is a handful of strings. */
+function lru(limit) {
+  var m = Object.create(null), order = [];
+  return {
+    get: function (k) { return m[k]; },
+    set: function (k, v) {
+      if (!(k in m)) {
+        order.push(k);
+        if (order.length > limit) delete m[order.shift()];
+      }
+      m[k] = v;
+      return v;
+    },
+    clear: function () { m = Object.create(null); order = []; }
+  };
+}
+var fitCache = lru(24), lineCache = lru(24);
 function cachedFit(text, maxW, maxH, maxLines, hi, lo) {
   var k = [text, maxW, maxH, maxLines, hi, lo, fontsReady].join("|");
-  if (fitCache.k === k) return fitCache.v;
-  fitCache.k = k; fitCache.v = fitLine(ctx, text, maxW, maxH, maxLines, hi, lo);
+  var hit = fitCache.get(k);
+  if (hit) return hit;
   fitCount++;
-  return fitCache.v;
+  return fitCache.set(k, fitLine(ctx, text, maxW, maxH, maxLines, hi, lo));
 }
 function cachedLines(text, size, maxW) {
   var k = [text, size, maxW, fontsReady].join("|");
-  if (lineCache.k === k) return lineCache.v;
+  var hitL = lineCache.get(k);
+  if (hitL) return hitL;
   setFont(ctx, 900, size);
   var tr = -Math.round(size * S.track);
   var ls = wrap(ctx, text, maxW, tr);
   var bal = balance(ctx, text.split(" "), ls.length, maxW, tr);
   if (bal) ls = bal;
-  lineCache.k = k; lineCache.v = { lines: ls, tr: tr };
+  lineCache.set(k, { lines: ls, tr: tr });
   wrapCount++;
-  return lineCache.v;
+  return lineCache.get(k);
 }
 function fitSingle(ctx, text, weight, maxW, hi, lo, trackFrac) {
   text = (text || "").toUpperCase().replace(/\\s+/g, " ").trim();
@@ -2819,7 +2840,7 @@ function applyAspect() {
     H = h;
     cv.width = W; cv.height = H;
     sv.width = W; sv.height = H;
-    fitCache.k = null; lineCache.k = null;
+    fitCache.clear(); lineCache.clear();
   }
   document.documentElement.style.setProperty("--ar", (W / H).toFixed(4));
   var seg = $("aspSeg").querySelectorAll("button");
@@ -5305,7 +5326,7 @@ if (document.fonts && document.fonts.ready) {
     return document.fonts.ready;
   }).then(function () {
     fontsReady = true;
-    fitCache.k = null; lineCache.k = null;
+    fitCache.clear(); lineCache.clear();
     drawNow();
     drawAllPolls();
   }).catch(function () { });
