@@ -48,7 +48,7 @@ while the job runs (panel Save & Deploy, /news) apply almost immediately. Free
 because the repo is public. Run locally it is still a single pass.
 """
 import datetime, email.utils, hashlib, time, xml.etree.ElementTree as ET
-import common, layout, newsconfig, notify, scorer, ytposts
+import common, layout, newsconfig, notify, scorer, storykey, ytposts
 
 PACE_PER_CYCLE = 1     # at most ONE realtime post per cycle - never a burst
 SEED_POST      = 5     # on the very first run, post this many latest
@@ -67,7 +67,11 @@ SEED_SKIP_MIN  = 90    # on the v3->v4 cutover, items older than this are marked
 DESC_MAX       = 700   # chars of summary kept from a feed. Must stay ABOVE
                        # ytposts.CAPTION_MAX_DESC (a selftest pins it) so the
                        # sentence-aware cutter, not a blind slice, ends the text.
-MAX_RECENT     = 120   # cap the similarity window size
+MAX_RECENT     = 400   # cap the similarity window size. Raised from 120 with
+                       # storykey: measured on a 600-post replay, a 400-row
+                       # window catches every duplicate an unbounded one does
+                       # and 120 misses five. Keep it equal to the dedupe
+                       # block's recent_cap.
 MAX_DIGEST     = 250   # cap the digest queue. Was 60 and the live queue sat AT
                        # it, so everything past the 60th story of the day was
                        # dropped on the floor. 250 clears the worst measured day.
@@ -468,6 +472,12 @@ def main():
         state["seen"] = seen.dump()          # time-ordered; NEVER sorted by key
         state["initialized"] = True
         state["v"] = STATE_VERSION
+        # storykey caches a parsed Story object on each row to avoid re-deriving
+        # its features every comparison. That object is NOT JSON-serialisable,
+        # and save_json would raise TypeError and write NOTHING - losing the
+        # whole dedupe memory, which is the one failure this file is built to
+        # prevent. Strip it before every write; it is cheap and idempotent.
+        storykey.strip_cache(state.get("recent", []))
         state["recent"] = state.get("recent", [])[-MAX_RECENT:]
         state["digest_items"] = (state.get("digest_items", [])[-MAX_DIGEST:]
                                  if digest_on(cfg_for_queue[0]) else [])
@@ -626,15 +636,46 @@ def main():
         return True, breaking, ""
 
     def is_dup(it, cfg):
+        """True when this story has already been posted, by any outlet.
+
+        TWO independent nets, both additive - neither may drop a story the
+        other would keep:
+          1. storykey: story-level clustering (IDF-weighted rare tokens, shared
+             people, character n-grams, event class, with vetoes). This is what
+             collapses one story arriving from twelve outlets.
+          2. the original token-Jaccard, kept as a cheap backstop for the
+             near-verbatim case and for when the dedupe block is switched off.
+        """
+        recent = state.get("recent", [])
+        dcfg = cfg.get("dedupe") or {}
+        if dcfg.get("enabled", True):
+            try:
+                dup, why = storykey.is_duplicate(
+                    it["title"], it.get("source", ""), it["when"], recent, dcfg)
+                if dup:
+                    print("  deduped: %s  [%s]" % (it["title"][:60], str(why)[:110]))
+                    return True
+            except Exception as e:
+                # Never let the deduper take the wire down: a crash here must
+                # degrade to the old behaviour, not stop the news.
+                print("  storykey error (%s), falling back to Jaccard" % type(e).__name__)
         if not cfg.get("dedupe_similar", True):
             return False
         thr = float(cfg.get("similar_threshold", 0.6))
         return any(newsconfig.similar(it["title"], r.get("t", "")) >= thr
-                   for r in state.get("recent", []))
+                   for r in recent)
 
     def remember(it, cat):
-        state.setdefault("recent", []).append(
-            {"t": it["title"], "ts": it["when"].isoformat()})
+        # storykey.remember writes the row AND prunes the window by age and cap.
+        # It emits the same "t"/"ts" keys the state has always used, plus the
+        # cluster id its anchor check needs.
+        try:
+            storykey.remember(state.setdefault("recent", []), it["title"],
+                              it.get("source", ""), it["when"],
+                              cfg=(newsconfig.load().get("dedupe") or {}))
+        except Exception:
+            state.setdefault("recent", []).append(
+                {"t": it["title"], "ts": it["when"].isoformat()})
         state.setdefault("digest_items", [])
         return cat
 
