@@ -216,5 +216,11 @@
   "dedupe_similar": true,
   "similar_threshold": 0.6,
   "recent_hours": 48,
+  "dedupe": {
+    "enabled": true,
+    "exact_hours": 48.0,
+    "recent_cap": 400,
+    "max_candidates": 400
+  },
   "_note": "Words, numbers and public URLs only. NEVER paste a bot token, GitHub token, or any config.txt value here - it's uploaded to the public repo."
 }
