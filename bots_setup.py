@@ -58,6 +58,26 @@ P = {n: 1 << b for n, b in {
     "ATTACH_FILES": 15, "READ_HISTORY": 16, "CONNECT": 20, "SPEAK": 21,
     "CREATE_PUB_THREAD": 35, "CREATE_PRIV_THREAD": 36, "SEND_IN_THREADS": 38,
 }.items()}
+# Voice bits. USE_SOUNDBOARD is bit 42, which is why permissions are strings in
+# the API - they exceed 2^53 and would lose precision as a JSON number.
+STREAM = 1 << 9
+CONNECT = 1 << 20
+SPEAK = 1 << 21
+USE_VAD = 1 << 25
+USE_SOUNDBOARD = 1 << 42
+# Exactly the set the owner denies to "Member" on the locked voice channel, plus
+# the two it takes to be in the room at all. An explicit role ALLOW beats a role
+# DENY in Discord's documented order of operations, so this is what lets a
+# Speaker talk where a plain Member cannot.
+# NOTE the absence of VIEW_CHANNEL. This role is about being allowed to TALK,
+# never about being allowed IN. Granting VIEW here would have handed every
+# Speaker sight of the staff voice channel, which is hidden by an @everyone VIEW
+# deny that an explicit role allow would have overridden. The public voice
+# channels are already visible to @everyone, so CONNECT alone is enough.
+SPEAKER_ALLOW = CONNECT | SPEAK | STREAM | USE_VAD | USE_SOUNDBOARD
+OWNER_ALLOW = (P["VIEW_CHANNEL"] | P["READ_HISTORY"] | P["SEND_MESSAGES"]
+               | P["EMBED_LINKS"] | P["ATTACH_FILES"] | P["ADD_REACTIONS"])
+
 READ = P["VIEW_CHANNEL"] | P["READ_HISTORY"] | P["ADD_REACTIONS"] | P["SEND_IN_THREADS"]
 NO_NEW = P["CREATE_PUB_THREAD"] | P["CREATE_PRIV_THREAD"]
 NO_SEND = P["SEND_MESSAGES"] | NO_NEW
@@ -157,7 +177,7 @@ def sync_categories(cats_by_name, staff_ids, bots_role, everyone):
     return out
 
 
-def sync_channels(chans_by_name, cat_ids, staff_ids, everyone):
+def sync_channels(chans_by_name, cat_ids, staff_ids, everyone, owner_uid=""):
     """Resolve every ChannelSpec to a live channel id. Returns {spec_name: id}.
 
     Lookup order is what makes the ┊ rename safe:
@@ -206,6 +226,10 @@ def sync_channels(chans_by_name, cat_ids, staff_ids, everyone):
             body["topic"] = spec.topic
         if spec.ctype == layout.FORUM:
             body["permission_overwrites"] = forum_ow
+        elif getattr(spec, "owner_only", False) and owner_uid:
+            # Born locked. sync_access re-asserts this every deploy, but creating
+            # it open would show it to five admins until that pass runs.
+            body["permission_overwrites"] = owner_only_overwrites(owner_uid, everyone)
         elif spec.read_only and not layout.is_staff_channel(spec):
             body["permission_overwrites"] = read_only_ow
         _, c = api("POST", "/guilds/%s/channels" % GUILD_ID, body)
@@ -213,6 +237,104 @@ def sync_channels(chans_by_name, cat_ids, staff_ids, everyone):
         note("created channel: " + spec.name)
         pause(0.45)
     return out
+
+
+# ---------------------------------------------------------------------------
+# [2b] access - the ONE pass that repairs permissions on every deploy
+# ---------------------------------------------------------------------------
+# sync_channels writes permission_overwrites only on the CREATE branch, so until
+# now a permission set by hand in Discord (or an older deploy) was never
+# corrected. These two rules are security-relevant enough to re-assert every run.
+def owner_only_overwrites(owner_uid, everyone):
+    """@everyone cannot see it; the guild owner can. Pure.
+
+    A member overwrite (type 1), NOT a role check. Measured on the live guild:
+    the "Owner" ROLE is held by two accounts and "Admin" by five, and the Owner
+    role does not carry ADMINISTRATOR - so role-gating would have shown this
+    channel to five other people. The bot reaches the channel through its own
+    ADMINISTRATOR, which bypasses overwrites, so it needs no entry here."""
+    return [
+        {"id": str(everyone), "type": 0, "allow": "0",
+         "deny": str(P["VIEW_CHANNEL"])},
+        {"id": str(owner_uid), "type": 1, "allow": str(OWNER_ALLOW), "deny": "0"},
+    ]
+
+
+def with_speaker(overwrites, speaker_rid):
+    """Return `overwrites` with the Speaker role allowed to talk. Pure.
+
+    Adds, never replaces: the owner's own hand-set denies on the channel are
+    left exactly as they are, and the Speaker allow overrides them at evaluation
+    time because Discord applies role allows after role denies."""
+    out = [dict(o) for o in (overwrites or [])]
+    for o in out:
+        if str(o.get("id")) == str(speaker_rid):
+            o["allow"] = str(int(o.get("allow") or 0) | SPEAKER_ALLOW)
+            o["deny"] = str(int(o.get("deny") or 0) & ~SPEAKER_ALLOW)
+            return out
+    out.append({"id": str(speaker_rid), "type": 0,
+                "allow": str(SPEAKER_ALLOW), "deny": "0"})
+    return out
+
+
+def _ow_sig(overwrites):
+    """Order-independent comparable form, so a no-op deploy sends no PATCH."""
+    return sorted((str(o.get("id")), str(o.get("type")),
+                   str(int(o.get("allow") or 0)), str(int(o.get("deny") or 0)))
+                  for o in (overwrites or []))
+
+
+def sync_access(ids_by_name, cat_ids, speaker_rid, owner_uid, everyone):
+    """Re-assert the owner-only channels and the Speaker role, every deploy."""
+    _, live = api("GET", "/guilds/%s/channels" % GUILD_ID)
+    by_id = {str(c["id"]): c for c in live}
+
+    owner_only = [sp for sp in layout.all_channels() if getattr(sp, "owner_only", False)]
+    for spec in owner_only:
+        cid = ids_by_name.get(spec.name)
+        ch = by_id.get(str(cid)) if cid else None
+        if not ch:
+            continue
+        if not owner_uid:
+            note("! %s: no guild owner id, leaving its permissions alone"
+                 % spec.name)
+            continue
+        want = owner_only_overwrites(owner_uid, everyone)
+        if _ow_sig(ch.get("permission_overwrites")) == _ow_sig(want):
+            continue
+        api("PATCH", "/channels/%s" % cid, {"permission_overwrites": want})
+        note("%s: locked to the server owner alone" % spec.name)
+        pause()
+
+    if not speaker_rid:
+        note("! the Speaker role is missing - voice channels left as they are")
+        return
+    # Every voice channel in the layout, plus the categories holding them, so the
+    # allow lands whether or not a given channel is synced to its category.
+    # Staff is excluded outright, belt-and-braces alongside SPEAKER_ALLOW not
+    # carrying VIEW_CHANNEL. The staff voice room stays staff-only.
+    targets = []
+    for spec in layout.all_channels():
+        if (spec.ctype == layout.VOICE and ids_by_name.get(spec.name)
+                and not layout.is_staff_channel(spec)):
+            targets.append((spec.name, ids_by_name[spec.name]))
+    for cat in layout.all_categories():
+        if cat.name == layout.STAFF_CATEGORY:
+            continue
+        if any(c.ctype == layout.VOICE for c in cat.channels) and cat_ids.get(cat.name):
+            targets.append((cat.name, cat_ids[cat.name]))
+
+    for name, cid in targets:
+        ch = by_id.get(str(cid))
+        if not ch:
+            continue
+        cur = ch.get("permission_overwrites") or []
+        want = with_speaker(cur, speaker_rid)
+        if _ow_sig(cur) == _ow_sig(want):
+            continue
+        api("PATCH", "/channels/%s" % cid, {"permission_overwrites": want})
+        note("%s: %s may speak here" % (name, layout.SPEAKER_ROLE))
+        pause()
 
 
 # ---------------------------------------------------------------------------
@@ -463,6 +585,30 @@ def check_member_role_rank(roles_by_name):
           % (bot_role.get("name") or "the bot role"))
 
 
+# The roles this script CREATES. Everything else in ROLES_KEEP predates the
+# restructure; a missing one means something is wrong and should be visible.
+_AUTO_ROLES = (layout.MEMBER_ROLE, layout.NEWS_ALERT_ROLE, layout.SPEAKER_ROLE)
+
+
+def ensure_roles(roles_by_name):
+    """Create any missing auto-role. Idempotent by name."""
+    for name in _AUTO_ROLES:
+        if name in roles_by_name:
+            continue
+        spec = next((r for r in layout.ROLES_KEEP if r[0] == name), None)
+        if not spec:
+            continue
+        _n, color, hoist, mentionable = spec
+        _, r = api("POST", "/guilds/%s/roles" % GUILD_ID,
+                   {"name": name, "color": color, "hoist": hoist,
+                    "mentionable": mentionable, "permissions": "0"})
+        if isinstance(r, dict) and r.get("id"):
+            roles_by_name[name] = r["id"]
+            note("created role: %s (no extra permissions)" % name)
+            pause(0.3)
+    return roles_by_name
+
+
 # ---------------------------------------------------------------------------
 def main():
     layout.validate()
@@ -479,6 +625,10 @@ def main():
     chans_by_name = {c["name"]: c for c in chan_list if c.get("type") != layout.CATEGORY}
     cats_by_name = {c["name"]: c for c in chan_list if c.get("type") == layout.CATEGORY}
 
+    # Roles first: step [2b] needs the Speaker role id to write voice overwrites,
+    # and creating a role is idempotent by name.
+    ensure_roles(roles_by_name)
+
     print("[0] Disabling Discord Onboarding (the invisible-channel fix)...")
     disable_onboarding()
 
@@ -486,7 +636,9 @@ def main():
     cat_ids = sync_categories(cats_by_name, staff_ids, bots_role, everyone)
 
     print("[2] Channels (rename in place, create only what's missing)...")
-    ids_by_name = sync_channels(chans_by_name, cat_ids, staff_ids, everyone)
+    _owner_uid = str((guild or {}).get("owner_id") or "")
+    ids_by_name = sync_channels(chans_by_name, cat_ids, staff_ids, everyone,
+                                owner_uid=_owner_uid)
 
     ids_by_key = {}
     for spec in layout.all_channels():
@@ -494,6 +646,10 @@ def main():
         for k in spec.keys:
             if k and cid:
                 ids_by_key[k] = cid
+
+    print("[2b] Access (owner-only channels, who may speak in voice)...")
+    sync_access(ids_by_name, cat_ids, roles_by_name.get(layout.SPEAKER_ROLE),
+                _owner_uid, everyone)
 
     print("[3] Guild pointers (rules / public-updates / join messages)...")
     repoint_guild_pointers(guild, ids_by_key)
@@ -521,7 +677,7 @@ def main():
     # The baseline member role is the only one this script CREATES. Everything else in
     # ROLES_KEEP predates the restructure; a missing one means something is wrong and
     # should be visible, not silently papered over.
-    for _auto in (layout.MEMBER_ROLE, layout.NEWS_ALERT_ROLE):
+    for _auto in _AUTO_ROLES:
         if _auto in roles_by_name:
             continue
         spec = next((r for r in layout.ROLES_KEEP if r[0] == _auto), None)
