@@ -69,8 +69,8 @@ SYSTEM_PROMPT = (
     "history, right now, of the decade, in the division) - like 'What is "
     "the worst judging robbery in UFC history?' or 'Who is the most "
     "overrated fighter in the UFC right now?'. Every option must be a "
-    "NAMED fighter, fight or moment that has a face, because each option "
-    "gets a photo. Three concrete options plus a final option exactly like "
+    "NAMED fighter, fight or moment. Three concrete options plus a final "
+    "option exactly like "
     "'Other (comment below)' when the question is open-ended - that last "
     "option is what fills the comments; a strict head-to-head question may "
     "use two to four concrete options and skip it. One emoji per option, "
@@ -124,16 +124,6 @@ def _clean(s, cap):
     s = re.sub(r"\s+", " ", str(s or "")).strip()
     s = s.replace(chr(0x2014), "-").replace(chr(0x2013), "-")
     return s[:cap]
-
-
-def slugify(label):
-    """A label -> octagon-api-shaped slug ('Islam Makhachev' ->
-    'islam-makhachev'). Used to TRY a fighter photo for each generated
-    option; a wrong guess 404s and the option stages without a tile, which
-    is exactly the bank's own behaviour for a retired fighter. Pure."""
-    s = str(label or "").lower().replace(chr(0x2019), "").replace("'", "")
-    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
-    return s
 
 
 def validate(gen, asked=()):
@@ -199,8 +189,7 @@ def parse_reply(text):
             label = _clean(o.get("label"), LABEL_MAX + 20)
             emoji = _clean_emoji(o.get("emoji"))
             if label:
-                opts.append({"label": label, "emoji": emoji,
-                             "img": slugify(label)})
+                opts.append({"label": label, "emoji": emoji})
         gen["options"] = opts
     return gen
 
