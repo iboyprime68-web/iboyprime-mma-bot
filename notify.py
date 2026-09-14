@@ -171,6 +171,42 @@ def claim(state, guid, now_epoch, ncfg, title="", similar=None, subject=None):
     return True
 
 
+def release(state, guid, title=""):
+    """Undo a claim that never turned into a post. Pure apart from `state`.
+
+    claim() reserves a story's ONE phone alert BEFORE the message is sent,
+    because the alert decision has to ride the post itself. If that post then
+    fails (a Discord 5xx, a rate limit that outlives the retries), the reservation
+    stayed burned for ever and the story could never alert again - the biggest
+    news of the day silently downgraded to a routine post on the retry. Calling
+    this on a non-2xx puts the slot back.
+
+    Removing the ledger entry is enough on its own; the title row is dropped too
+    so the similarity net does not keep suppressing the retry."""
+    if not isinstance(state, dict):
+        return False
+    # The ledger is keyed by _key(guid), NOT the raw guid: it stores
+    # sha1(guid)[:16] so a public state file carries no story urls. Releasing by
+    # the raw guid silently did nothing.
+    k = _key(guid)
+    led = state.get(LEDGER_KEY)
+    hit = False
+    if isinstance(led, dict) and k in led:
+        del led[k]
+        state[LEDGER_KEY] = led
+        hit = True
+    t = str(title or "").strip()
+    if t:
+        rows = state.get(TITLE_KEY)
+        if isinstance(rows, list):
+            kept = [r for r in rows
+                    if not (isinstance(r, (list, tuple)) and r and str(r[0]) == t)]
+            if len(kept) != len(rows):
+                state[TITLE_KEY] = kept
+                hit = True
+    return hit
+
+
 def role_mention(role_id):
     """(prefix, allowed_mentions) for a loud post, or ("", None) when there is no
     role to ping. Never returns a mention without a role id: a loud message that
