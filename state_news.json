@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6681e1189a7a65a2": 1789425163.824457,
     "0fa992e594bf317a": 1789425098.641542,
     "8256370ef0a794d9": 1789425033.8539314,
     "778800c45cfd49ca": 1789424969.747286,
@@ -2498,8 +2499,7 @@
     "816a787250526c96": 0.0,
     "5d0ccd3cd23476bc": 0.0,
     "81cfbbbf2b2f3520": 0.0,
-    "1f668f1c4fc6abde": 0.0,
-    "b2fb3fcd04014426": 0.0
+    "1f668f1c4fc6abde": 0.0
   },
   "initialized": true,
   "v": 4,
@@ -3079,16 +3079,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-14T15:18:29+00:00",
       "cluster": "c8c91772143"
+    },
+    {
+      "t": "Glendale arena shatters single-day gross record as UFC draws 16,900 fans",
+      "source": "The Business Journals",
+      "ts": "2026-09-14T21:32:00+00:00",
+      "cluster": "cb2e4a3fb73"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T22",
-    16
+    17
   ],
   "yt_eval": [
-    "CBMiwwFBVV95cUxOa1RBZUI3UWVkbXg3SWw1ZEo1N0pwUUhmWmdoRTdYSlFEeERKVmcxc0xJRl91Wjl4OXVic3BqY184OGxpaTN6Z0F4elMzV3gxZkRTNlR0OWFla181dXFfaUNBcjVNa21MRWpWQVUwV0RORFNkalNpZGZEUGZGM1k5bEt3Q1hfWkx0T1VZRGZpS3RCWXViU2dCS0RBbE5mZFlGNlEwWlNJbFVEUkpGbVlZX2RoTU9rekd5SlBVQVAzbXJyMDg",
     "CBMiwAFBVV95cUxNYm1RWkpQSWxRSmJUTmUwYzNmNm9yS3hQb19Rd1VmQzhtLWNNazZtdjdXa05aTVRwYVd5SXFXU2hRNWxUQWtjWlRFNDNtby03RUxxR2Z6Wm92dE42T0NwMy1kR0k4LU1GWXpyU1ZscW54UGdNYWpQUmZ1UDF0UDBNdzVLZE5KSU5LSDFOdm12X0lJczRVZ21aRDlUcWx5WTZpcVRIaFpPUm9MVHl1WGd0WklDRllEbVBFMVlQMFMzcDM",
     "https://bloodyelbow.com/?p=329881",
     "CBMiW0FVX3lxTE5wd0VrcWFac29DY294RWp3Y3FHRnpDaElIckJjV1UxbFJCVFZ3MnppbF80NDFhMTA1a0Y2ZFN0UDBtOHJWeWFuU2F2WlE4U0xpR2NRR1cwVURLY1k",
@@ -4587,11 +4592,12 @@
     "e5afea44-692d-3046-a491-2c20a06c8733",
     "41ae67c6-c7d0-3075-8150-3380e5093516",
     "3056ad20-9744-3218-861b-53a5136287c0",
-    "https://www.mmamania.com/?p=472363"
+    "https://www.mmamania.com/?p=472363",
+    "CBMiqgFBVV95cUxQTzBsUVpzS1dtakNYS3ctSWQ5ODJBWnVuMERIQzMyVWkySzVSSVRfNWZJSjVaMFhoOGFVVWVyaGlnRWNETVpCTlJpZ0JxLU5RSDdtUXUwMzFDbHlCbHpXNktYQnBlTHFHUXlqN2duZ1puOVJhTjRjZl9RazgyZ25wTG96NENrWVZBVm1MT3FGVFN2bTZoZi1QbmNEbWM5SkVMV1VROWpNbVg4QQ"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 115,
+    "ai": 116,
     "staged": 5,
     "prio": 1,
     "lost": 0
