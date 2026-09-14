@@ -1,5 +1,6 @@
 {
   "seen": {
+    "778800c45cfd49ca": 1789424969.747286,
     "bb331e403a2afb67": 1789424905.1998055,
     "c7cf26d37de92415": 1789424860.2271962,
     "fa332da213cfad99": 1789424836.932282,
@@ -2498,8 +2499,7 @@
     "1f668f1c4fc6abde": 0.0,
     "b2fb3fcd04014426": 0.0,
     "ad7d1f1722180313": 0.0,
-    "0952f63ff72a522e": 0.0,
-    "ba98dc62c411bc80": 0.0
+    "0952f63ff72a522e": 0.0
   },
   "initialized": true,
   "v": 4,
@@ -3061,16 +3061,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-14T21:05:25+00:00",
       "cluster": "ce015090263"
+    },
+    {
+      "t": "Video: Scott Coker press conference live stream to unveil new MMA promotion",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-14T21:10:17+00:00",
+      "cluster": "c889c13e201"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T22",
-    13
+    14
   ],
   "yt_eval": [
-    "CBMiygFBVV95cUxPLVBCVTdxWUdhS3lzZTNfd3kzOW5tVGRNcUhzbEZQVV9xWWR2c1hzU1JkUzNPWFZVLTAxNDMzYUlEVDh1RXRfbEZNOUx0eUhvZWkwaGJKdVlPV3lBQV9HaUJiUXNwXy1SOFBwc0FRclRpTEZJbXdoSjhYT19XOHUxejNhUks3dzdONTdKYWpWQl9sVXkyNmRRa2t4WEtoSG9vQ1lFTkV5eTRLeUdjUExCYUNnWklBSnllemFvbXQxQVQxV3NZZ3g1R2ZB",
     "CBMiVEFVX3lxTE5LeHJJQVk1aGZpcXFMeEJyOTd2VG0zUDNzSlpTRXdoT0ptLU9fNlJRQU0tOFUtV3dTQXNmaThOcmpsZzQzSU1PUE5NSXhWeTJxSEhBeQ",
     "CBMinwFBVV95cUxOcnNRaFAxSWxLWWF0WGRZRC1RaGFJNmRhT0NPXzZYTm9oYjZCYm84MHpFOGZKVnRrWUtuajM4LUtmR3dqa3ZQcVRJeEpRdVhWVmVrYzRqcVE3S0xMeHhDVVRDY252U1EzU2NpU3k3V2lCZDA5UGJ5RXJuVUFxSjA3eXdESjc3UHhPczVJYjVWNFhrWVF1ZTU2WjFwV3FfUkU",
     "CBMiwwFBVV95cUxOa1RBZUI3UWVkbXg3SWw1ZEo1N0pwUUhmWmdoRTdYSlFEeERKVmcxc0xJRl91Wjl4OXVic3BqY184OGxpaTN6Z0F4elMzV3gxZkRTNlR0OWFla181dXFfaUNBcjVNa21MRWpWQVUwV0RORFNkalNpZGZEUGZGM1k5bEt3Q1hfWkx0T1VZRGZpS3RCWXViU2dCS0RBbE5mZFlGNlEwWlNJbFVEUkpGbVlZX2RoTU9rekd5SlBVQVAzbXJyMDg",
@@ -4569,11 +4574,12 @@
     "https://www.sherdog.com/news/news/DWCS-2026-Week-6-weighin-results-All-10-fighters-make-weight-202799",
     "be660dae-dcf2-41f4-ae1a-f838c7e8adc1",
     "https://www.mmafighting.com/?p=510309",
-    "e5afea44-692d-3046-a491-2c20a06c8733"
+    "e5afea44-692d-3046-a491-2c20a06c8733",
+    "41ae67c6-c7d0-3075-8150-3380e5093516"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 112,
+    "ai": 113,
     "staged": 5,
     "prio": 1,
     "lost": 0
