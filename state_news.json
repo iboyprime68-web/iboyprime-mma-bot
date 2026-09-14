@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c0aa6fc87ac8bff1": 1789424539.7837496,
     "e040303e510fa7ef": 1789424516.774906,
     "d0f124fa2a0960a9": 1789424493.3605664,
     "87565b56306077a5": 1789412454.8531446,
@@ -2498,8 +2499,7 @@
     "80df5e17e5961bef": 0.0,
     "676bd323aeb486df": 0.0,
     "81cd68db3f68e568": 0.0,
-    "57b9f62518735b8f": 0.0,
-    "2b3e24376e0f5ccd": 0.0
+    "57b9f62518735b8f": 0.0
   },
   "initialized": true,
   "v": 4,
@@ -2995,16 +2995,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-14T15:15:19+00:00",
       "cluster": "cf541acf525"
+    },
+    {
+      "t": "Alex Pereira is frontrunner to fight Ciryl Gane for undisputed UFC heavyweight title, says legend",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-14T19:30:00+00:00",
+      "cluster": "ca6628daf0c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T22",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxNczBGd0o0ODAyZENOWWh4V3JCQXFOa0kwakpSc1BQa3ExWDZYVTJqeVhIVXl1NnhJWmE1ZGNOZDl3a3B6Q3dFeEptYm1ndkp6S29WdnpBZ2ZDLWphbkw5NnY5UjV1MEdnaExiSXNmTkMwN3AyWlMyQVE1djgxYU0xOEk5UDZIYU5MZGIwckZGdkhJSlZpQ0NLYjNIUGFrMWx1",
     "https://www.mmamania.com/?p=468795",
     "https://www.mmamania.com/?p=468801",
     "CBMi5AFBVV95cUxQb0U4TktVVXMwdEdFazh4SS1fNEFhSnF0ZmtwX2gtR3BxcXBNSkE3OUxTaTE5MkRBZVBUMWY0WDBtdGNfQU5BS0cyWGYyZlZFWFAzWjBDQjBmUkRqZzQwTzV4MmN6NWJMZ2xFSVZua3lIV1Vmak1aUzVCeW1VT2IzaHk1a0U3R3ljY2R6OFB3OXZiZHJlN29RUHJwc3NhaDBHRHBiSUFNYjBLRkJtbnk0bFRjaHRXUk9YU3p2V21EbVZ1SWpfVjhIWkR1LVQwV2xtdkJxcWNhMnBjOWhQY3UyUFYzaXA",
@@ -4503,25 +4508,17 @@
     "CBMirwFBVV95cUxNaGExbG5KMDVXaDhPQmxFN0lYRkFzakZIQjIxa3NsYzE4OU9jM3ItS2NxakxsX1BtZUlPV2ZLVlAtVXdIOUQ0WGJnM3dLTDEtQS11UERIeklhR1h0SXNTLU1ld0VYVTFJcjNKM29qdWgyVV9ITEc2TEdieC1hZU50LTRjR29uSHU1Q1FLYjJVVmRzZ19hUURvY1JTTDN1M1lOdXBiVzdwdE1mczhlRHU4",
     "https://www.mmamania.com/?p=472254",
     "https://www.mmafighting.com/510145/on-to-the-next-one-matches-to-make-after-ufc-paris",
-    "https://www.mmafighting.com/?p=510269"
+    "https://www.mmafighting.com/?p=510269",
+    "https://bloodyelbow.com/?p=331589"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 101,
+    "ai": 102,
     "staged": 5,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-03T03:44:14.123569+00:00",
-      "t": "Movsar Evloev clarifies UFC 333 retirement comment when revealing inevitable lightweight plans",
-      "names": [
-        "evloev",
-        "volkanovski"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-03T03:47:54.453301+00:00",
       "t": "Anthony Smith set to return Oct. 2 amid four felony charges",
@@ -5328,6 +5325,15 @@
       "t": "Khamzat Chimaev may step away from UFC if year-end fight falls through",
       "names": [
         "chimaev"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-14T22:22:20.769592+00:00",
+      "t": "Alex Pereira is frontrunner to fight Ciryl Gane for undisputed UFC heavyweight title, says legend",
+      "names": [
+        "pereira",
+        "gane"
       ],
       "img": "photo"
     }
