@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c7cf26d37de92415": 1789424860.2271962,
     "fa332da213cfad99": 1789424836.932282,
     "715b1a7acbe394e8": 1789424836.640607,
     "dd794b51f702baf5": 1789424792.7183418,
@@ -2498,8 +2499,7 @@
     "ad7d1f1722180313": 0.0,
     "0952f63ff72a522e": 0.0,
     "ba98dc62c411bc80": 0.0,
-    "4b8b3c3bfe237a38": 0.0,
-    "dba7fb04c7cafaa0": 0.0
+    "4b8b3c3bfe237a38": 0.0
   },
   "initialized": true,
   "v": 4,
@@ -3049,16 +3049,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-14T20:28:09+00:00",
       "cluster": "c6e04f6c2d6"
+    },
+    {
+      "t": "Scott Coker reveals new name for MMA organization, launch plans and details for Grand Prix in 2027",
+      "source": "MMA Fighting",
+      "ts": "2026-09-14T22:26:43+00:00",
+      "cluster": "c3b2913693d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T22",
-    11
+    12
   ],
   "yt_eval": [
-    "CBMivgFBVV95cUxNaXRVRDIxeVBSTEFTWmFILVFtQ0luTUdYb0VSWFdRMWc5RDZfMEZ5ZHhUbUxTb2pkY2tVT0J3ZHRZOEV3X2lJX1FQUncteWxoVmc4OTBoQWlKdXpHVlV4REZDY25kbjVEOXFZaW1Pemd2T0oyT241dG1CN19EZHdWVXNIeXJjNXk1bHc1Yng5SXNPbEs2YWhYdnpyTzVHZVZ2bENvUGFiT3huNE80Sk84S005YWpkcm1STkN6cW1R",
     "CBMiogFBVV95cUxNNkh5X1NMdzNiWER4WmpRM1Q3S1M2dHlmV09SVTZsNThHVTF0dU9jN0UxMmtvMzdUQzRrbWx3NzVKZzlabGF4YUhzQUh5V1A1TF9zajZxUkVxaFNoZFZ2enRSYVhBNlpzVS15VDBlMzA4bWJkUjlQc04zNjFaU1F3Qjctdm8xQ2lta01DLUdqSnUtcVBvbW9WZU9sY1kzN3RHa0E",
     "CBMiygFBVV95cUxPLVBCVTdxWUdhS3lzZTNfd3kzOW5tVGRNcUhzbEZQVV9xWWR2c1hzU1JkUzNPWFZVLTAxNDMzYUlEVDh1RXRfbEZNOUx0eUhvZWkwaGJKdVlPV3lBQV9HaUJiUXNwXy1SOFBwc0FRclRpTEZJbXdoSjhYT19XOHUxejNhUks3dzdONTdKYWpWQl9sVXkyNmRRa2t4WEtoSG9vQ1lFTkV5eTRLeUdjUExCYUNnWklBSnllemFvbXQxQVQxV3NZZ3g1R2ZB",
     "CBMiVEFVX3lxTE5LeHJJQVk1aGZpcXFMeEJyOTd2VG0zUDNzSlpTRXdoT0ptLU9fNlJRQU0tOFUtV3dTQXNmaThOcmpsZzQzSU1PUE5NSXhWeTJxSEhBeQ",
@@ -4557,11 +4562,12 @@
     "9d9731d8-3664-43d0-a05e-74fefa917f88",
     "55b8e6c6-4266-36f7-b88b-c5682e0220a3",
     "https://www.sherdog.com/news/news/DWCS-2026-Week-6-weighin-results-All-10-fighters-make-weight-202799",
-    "be660dae-dcf2-41f4-ae1a-f838c7e8adc1"
+    "be660dae-dcf2-41f4-ae1a-f838c7e8adc1",
+    "https://www.mmafighting.com/?p=510309"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 110,
+    "ai": 111,
     "staged": 5,
     "prio": 1,
     "lost": 0
