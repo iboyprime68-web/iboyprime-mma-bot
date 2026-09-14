@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b2f2758aa36a366b": 1789365415.9874113,
     "f40b84580ea23db4": 1789365392.850795,
     "e0858f4a0ed395ec": 1789347622.3990247,
     "cbe6383b1e9ceb56": 1789347555.6973803,
@@ -2498,16 +2499,11 @@
     "69c004eda82272ba": 0.0,
     "65d918377b7f43dd": 0.0,
     "cfd274987526dcb1": 0.0,
-    "501511108a98de31": 0.0,
-    "c8e9193c7f3c0da0": 0.0
+    "501511108a98de31": 0.0
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Jean Silva vs Jose Delgado result: Submission ends exciting Noche UFC main event",
-      "ts": "2026-09-13T00:33:19+00:00"
-    },
     {
       "t": "Tommy McMillen weathers early storm for comeback-of-the-year win at Noche UFC",
       "ts": "2026-09-12T23:28:02+00:00"
@@ -2983,16 +2979,19 @@
     {
       "t": "Islam Makhachev explains why he views Jon Jones' UFC win streak as invalid",
       "ts": "2026-09-14T00:30:19+00:00"
+    },
+    {
+      "t": "Alex Pereira calls his shot for Madison Square Garden comeback that he ‘deserves’",
+      "ts": "2026-09-14T01:00:00+00:00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T05",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMiW0FVX3lxTE12M3NIczRWa2pTWGJFREQ2MVdaY2hmU2xjWHdzRlg4NkUxY2U0SWR5bTNQY09yNzhMMGtQZ050MENMRFl0QW9vZzI5QXlhR251VzJ4a091WW9xZnc",
     "CBMiYEFVX3lxTE1UMFN1YmxRR0NLRTRIOW9CX0lNMTJFQTdmeHpucHVXVXFyV2ZMOFhCYS1BbTFOZl9tdTNXbk03WmliMEdpZ24tWmVOaFdudEJONlJBOXJSMHZTSlNiQmo5TA",
     "CBMiW0FVX3lxTE1mQ3lrYm44c0s0WGg5SFB1Rl9ITVRxa2lzYklQWkQ2ekVKYjVYN0xQTm1Rb0ZHaTlzTUh1U0FEcWhwaEIwVHhTaTNpLXIyUUNIM1hFVks2d25BN3M",
     "CBMitwFBVV95cUxPOVhOS29hZkdhUlRSMEpVZEVyaEx4R1c3SnF5QUl1MHJuSHZDZU9xR24wdDJySVp0anZCRTUzMTlmdEQxNVBaakpraWx1MDFGZG9lRy1wd0FsLXRnSVl5bWg2aTZra05CMmg0bzVseHdjNV9mdWE5ZlVpOVFodWdvaXR0VUQzc2hyNFRfallBQTVFUUNFU1FGc1p0XzRobTRpSXprMUtFMlN2a21SQzJsUmExNzNMd1E",
@@ -4491,27 +4490,17 @@
     "47948bb7-8d87-3c1a-9879-d341c9d9d41e",
     "1f30dd5e-93b7-382b-a03e-35ccd23e65e9",
     "0359ee3a-f328-375a-8a43-ca8a0f357ae1",
-    "dbba886f-2ade-365f-a06f-0147faca0bd8"
+    "dbba886f-2ade-365f-a06f-0147faca0bd8",
+    "https://bloodyelbow.com/?p=331508"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 8,
-    "staged": 1,
+    "ai": 9,
+    "staged": 2,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-02T08:39:11.191499+00:00",
-      "t": "Valentina Shevchenko Withdraws from UFC 332 Due to Injury",
-      "names": [
-        "valentina",
-        "shevchenko",
-        "withdraws",
-        "due"
-      ],
-      "img": "cutout:valentina-shevchenko"
-    },
     {
       "ts": "2026-09-02T13:28:07.142203+00:00",
       "t": "Valentina Shevchenko pulls out of UFC 332, leaving Salt Lake City without a championship fight",
@@ -5321,6 +5310,17 @@
       "names": [
         "makhachev",
         "jones"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-14T05:56:57.544059+00:00",
+      "t": "Alex Pereira calls his shot for Madison Square Garden comeback that he ‘deserves’",
+      "names": [
+        "pereira",
+        "madison",
+        "square",
+        "garden"
       ],
       "img": "photo"
     }
