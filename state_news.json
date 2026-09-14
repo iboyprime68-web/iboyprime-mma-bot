@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c32718554baadab9": 1789424592.00259,
     "4ee018c4491b508d": 1789424568.8132615,
     "c0aa6fc87ac8bff1": 1789424539.7837496,
     "e040303e510fa7ef": 1789424516.774906,
@@ -2498,8 +2499,7 @@
     "7dd3dfba374c6a5d": 0.0,
     "e22bdf3788e12789": 0.0,
     "80df5e17e5961bef": 0.0,
-    "676bd323aeb486df": 0.0,
-    "81cd68db3f68e568": 0.0
+    "676bd323aeb486df": 0.0
   },
   "initialized": true,
   "v": 4,
@@ -3007,16 +3007,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-14T18:40:46+00:00",
       "cluster": "cb98e7f8ac1"
+    },
+    {
+      "t": "Gervonta Davis lays out key Ryan Garcia rematch clause after Conor Benn KO",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-14T20:30:00+00:00",
+      "cluster": "cae622cf475"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-14T22",
-    4
+    5
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=468801",
     "CBMi5AFBVV95cUxQb0U4TktVVXMwdEdFazh4SS1fNEFhSnF0ZmtwX2gtR3BxcXBNSkE3OUxTaTE5MkRBZVBUMWY0WDBtdGNfQU5BS0cyWGYyZlZFWFAzWjBDQjBmUkRqZzQwTzV4MmN6NWJMZ2xFSVZua3lIV1Vmak1aUzVCeW1VT2IzaHk1a0U3R3ljY2R6OFB3OXZiZHJlN29RUHJwc3NhaDBHRHBiSUFNYjBLRkJtbnk0bFRjaHRXUk9YU3p2V21EbVZ1SWpfVjhIWkR1LVQwV2xtdkJxcWNhMnBjOWhQY3UyUFYzaXA",
     "CBMijwFBVV95cUxOMDI1MXVBRFZfMHFJV3ZIMDNkdm5mbEZGbWczcENsbDE0QmlmRGN0VldGLUc3RXAyVTdFcERLWU8zUm1HUTNRY3dKZHI2TURlSktTTWFmZU9fZ1o2NWlYZVItSTZfZV9ZWDVzcTQwX2NJVG5vVnFSOVFzUm1yS3Joblg3ZWI4b3RKdHRISjdZQQ",
     "https://www.mmafighting.com/?p=508011",
@@ -4515,11 +4520,12 @@
     "https://www.mmafighting.com/510145/on-to-the-next-one-matches-to-make-after-ufc-paris",
     "https://www.mmafighting.com/?p=510269",
     "https://bloodyelbow.com/?p=331589",
-    "aa64e4cb-1b16-3e2c-aa54-7af2bb1610d8"
+    "aa64e4cb-1b16-3e2c-aa54-7af2bb1610d8",
+    "https://bloodyelbow.com/?p=331578"
   ],
   "daily": {
     "d": "2026-09-14",
-    "ai": 103,
+    "ai": 104,
     "staged": 5,
     "prio": 1,
     "lost": 0
