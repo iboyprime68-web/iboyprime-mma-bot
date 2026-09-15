@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8cae7709bd4561f6": 1789435152.191134,
     "95f14b6027eee87b": 1789435086.2578976,
     "f57415af43c3c00e": 1789435062.4151022,
     "54ca9ce5b09d44ed": 1789435029.8058112,
@@ -2498,8 +2499,7 @@
     "2fbb5135f088e78a": 1788424408.3120434,
     "88b905224a812f48": 1788424408.3120425,
     "b338d2072106655d": 1788424408.31204,
-    "bb68e1d07eca2903": 1788424408.3120391,
-    "c9c1b439136d5b3b": 1788424408.312038
+    "bb68e1d07eca2903": 1788424408.3120391
   },
   "initialized": true,
   "v": 4,
@@ -3205,16 +3205,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-14T23:40:24+00:00",
       "cluster": "cc49a3cc6fc"
+    },
+    {
+      "t": "Ki MMA is born: Here's everything we learned about Scott Coker's new MMA promotion for 2027",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-14T23:42:56+00:00",
+      "cluster": "c2d253dba30"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T01",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxOV3hlVmZoVWNqMzJYUUZybzltbElwdFdLSFlsZEl0S2gtRmxIZGp1WFlkNnlsX0dXRjIwX0RjWVNQeDhuVDRyZnJLdGhROUZLMnB3V2g0M0E0VWNxLXZnbW5xQXJYX3JlMU0xLWpWc1oweEVweTVmT1BUTHF2VFZwbGpPX19iLW5FVURFQXV5QUh6UlFrZ1NmWDRaSjdKNGc2",
     "CBMijgFBVV95cUxNN3kwLVI2VFZwbGlZN2pFbHVqZ3ZLUjIxNjRKQ3JFbWtJcTJEWkdJcFduQnRfckZnU0t5UW1VQnlVZW82OXgwdDBiLW56NTdTSGZXRF9PeHZCdGxjWUJ4X2ZwX25NVm9paG9GRmtLTlVIcTFqVEtzNElVUVBKZXVGc2VQVU83aHRfekxMRnpR",
     "CBMigAFBVV95cUxOWGxFYmVRcnJjOVF5MWZhTlUyZlhPWUNUV2ZZa3d1RDNHM3A0V2ZzeU4xWXFaOEpvMEtoVVo4cVl5OEw5b09ycUd2NXA2bkR5bmUtVjNWQzRmbTVic3ptR1YzWDkwMGJxUk9HM0hZTmx4dkVRYUNCMXl1YzNkb0Fwag",
     "CBMikAFBVV95cUxQUFFpMWlCeGMxd29LUXo4YjNHSkVhbnk4VFI0aEZGekU0UGd6THZQemU0QlI0MVhuUVl0ZTZsWDE2QVZHa3hsLWR5YXlHd21JS2g3RXJ1UzY5aVZ3YXFTVkVTZGRCUjJRUkltczc4cEdab2d5VmVWY2ZvT2h3eU5Pd21vWEczRlpVUlB3ZDNITjU",
@@ -4713,11 +4718,12 @@
     "https://www.mmamania.com/?p=472387",
     "166b3b75-b33a-3353-bb09-4c36f2687d6e",
     "https://www.mmafighting.com/?p=510318",
-    "0e1e1920-d7a7-3156-aedb-ec35dabf2f24"
+    "0e1e1920-d7a7-3156-aedb-ec35dabf2f24",
+    "f63f3203-78ae-4e21-9954-380a3359d83e"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 3,
+    "ai": 4,
     "staged": 1,
     "prio": 0,
     "lost": 0
