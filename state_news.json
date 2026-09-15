@@ -1,5 +1,6 @@
 {
   "seen": {
+    "85b64bae55f99db4": 1789457544.2734132,
     "11c5cf1bef972916": 1789457499.4950504,
     "bad9850f858fc7f3": 1789457499.1773465,
     "4d3a9c46938becf5": 1789457499.1708415,
@@ -2498,8 +2499,7 @@
     "a54a2ddcbce28610": 1788424408.803424,
     "fd6cc5edc22e8211": 1788424408.803423,
     "5b1e51bc5d85a4c7": 1788424408.803422,
-    "1a52065841fe09ba": 1788424408.8034208,
-    "12b398e8737436a8": 1788424408.8034196
+    "1a52065841fe09ba": 1788424408.8034208
   },
   "initialized": true,
   "v": 4,
@@ -3379,16 +3379,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-15T03:20:17+00:00",
       "cluster": "c65bb92175b"
+    },
+    {
+      "t": "Ryan Garcia’s message to Oscar De La Hoya: ‘Where’s your maturity?’",
+      "source": "Sherdog",
+      "ts": "2026-09-15T01:59:16+00:00",
+      "cluster": "c16afd20abb"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T07",
-    6
+    7
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329876",
     "a47a91f7-ccdf-3a42-9580-abab4afedb50",
     "6f09848b-58b1-38ff-a70d-ece39478c94c",
     "https://bloodyelbow.com/?p=329844",
@@ -4887,11 +4892,12 @@
     "6c825acb-2583-3e1f-bc00-2e52c2de2c68",
     "a1350f2a-149d-3147-9378-c140ce960b6f",
     "9ec79a03-6c37-3b3d-bcb9-386f2bf7bd82",
-    "076d8c35-8b9c-3105-be64-7829d5ef48c2"
+    "076d8c35-8b9c-3105-be64-7829d5ef48c2",
+    "https://www.sherdog.com/news/news/Ryan-Garcias-message-to-Oscar-De-La-Hoya-Wheres-your-maturity-202805"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 32,
+    "ai": 33,
     "staged": 2,
     "prio": 3,
     "lost": 0
