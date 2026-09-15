@@ -1,5 +1,6 @@
 {
   "seen": {
+    "89900afa1bf9181e": 1789495627.7578843,
     "71256cc328cfecd0": 1789495562.5985806,
     "88230ab7bd15ef34": 1789495516.92844,
     "a9a7d94321ac5cbc": 1789495491.3685582,
@@ -2498,8 +2499,7 @@
     "39cb5ccb1171967c": 1788476786.1510618,
     "4471d10106c27321": 1788476763.9528618,
     "6d7d6e096e1f1809": 1788476741.4891489,
-    "3a8abec06f737411": 1788469248.5756142,
-    "38206d46a0f37ba2": 1788469225.2804334
+    "3a8abec06f737411": 1788469248.5756142
   },
   "initialized": true,
   "v": 4,
@@ -3677,16 +3677,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-15T14:31:57+00:00",
       "cluster": "c08bd91bd0c"
+    },
+    {
+      "t": "Michael Bisping empathizes with Tom Aspinall, hopes ex-UFC champ fights again",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-15T15:20:31+00:00",
+      "cluster": "c70ceb009cf"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T18",
-    9
+    10
   ],
   "yt_eval": [
-    "CBMiaEFVX3lxTFBoRF9TN2huc2lEOG1vd1V0UWltQzBTWG12VU5SQ1plVzNYc0lmOHJNNUV5WjdfWUxtYUdhcUhBV01qdFpvVUZ3QmhMeHBJVUNzZl9DQVJIdHZVZ1liUGRIUjQtVXZ1emUy",
     "CBMipAFBVV95cUxQNHR4SC1HVEhwbHVJVEpuSVJBYThFVTN1aHJoa2VWUVZYSUxCblZSU2QzZ1NGaXR4SzBCNTE3MTd3eW5tc3AzTmx1ZG1iZFo0TXkzdVIzcmJNOVNRRTRjUWZhWVloNDRTU0tnTlpBSnExc0NXdzJqTk9pNGttLVBZRzdRUDA2ODdZWGsxbWtIZDlxcEx1R2xMSGg3eWpfRGpkYzIxXw",
     "CBMiR0FVX3lxTE5fUW1JTnZoYnhhenJUZEZYWDg0ZkQtanpTSlB5YTFrRW5PazZGeUFDb2VCQmdNUFcyaUtjUGJCMUFpVzRYRmVz",
     "CBMiogFBVV95cUxPSHUwdzczMnNIMmVsY3hjbl9LRVAtM3ZlNGRHVG5HVmZKTlh2OG91M2thU0xrT0FPb3Q3UW13UUJ0RU8taUNfZlNZODJ0WVdaVElXaWNWQ3JiREpDempZZmc5dC11azRmcGhyYTdBdzhPQWM0TV9DX0dOdmtmRWZvdk5EWG1jdFpodlY1c1dubzNlX1RzTUp4bElJU3lyMnZLaUE",
@@ -5185,11 +5190,12 @@
     "https://bloodyelbow.com/?p=331680",
     "d98d9b61-f10e-3d9e-b2c9-ab0348347e6b",
     "https://bloodyelbow.com/?p=331734",
-    "fa2a21b8-b297-3a28-bd08-7c9a05435830"
+    "fa2a21b8-b297-3a28-bd08-7c9a05435830",
+    "46e502d6-c0cf-3e97-8355-27b9567e5fb9"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 83,
+    "ai": 84,
     "staged": 5,
     "prio": 5,
     "lost": 0
