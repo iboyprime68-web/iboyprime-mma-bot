@@ -1,5 +1,9 @@
 {
   "seen": {
+    "f81976e6199921c7": 1789495693.8242576,
+    "44b91ad53f595965": 1789495692.3184845,
+    "7bade2f8468775fc": 1789495692.3150096,
+    "f2254c530fe107f0": 1789495692.2950792,
     "89900afa1bf9181e": 1789495627.7578843,
     "71256cc328cfecd0": 1789495562.5985806,
     "88230ab7bd15ef34": 1789495516.92844,
@@ -2495,11 +2499,7 @@
     "39d3e0ca4f8caa4e": 1788476875.3948047,
     "01e147b18298dae7": 1788476875.1457448,
     "d716f0cd85e45e6d": 1788476831.6033168,
-    "e01a509420b5c33a": 1788476809.415805,
-    "39cb5ccb1171967c": 1788476786.1510618,
-    "4471d10106c27321": 1788476763.9528618,
-    "6d7d6e096e1f1809": 1788476741.4891489,
-    "3a8abec06f737411": 1788469248.5756142
+    "e01a509420b5c33a": 1788476809.415805
   },
   "initialized": true,
   "v": 4,
@@ -3683,16 +3683,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-15T15:20:31+00:00",
       "cluster": "c70ceb009cf"
+    },
+    {
+      "t": "UFC analyst makes compelling case for Josh Hokit title shot: 'No doubt in my mind'",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-15T16:10:27+00:00",
+      "cluster": "c197526954a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T18",
-    10
+    11
   ],
   "yt_eval": [
-    "CBMipAFBVV95cUxQNHR4SC1HVEhwbHVJVEpuSVJBYThFVTN1aHJoa2VWUVZYSUxCblZSU2QzZ1NGaXR4SzBCNTE3MTd3eW5tc3AzTmx1ZG1iZFo0TXkzdVIzcmJNOVNRRTRjUWZhWVloNDRTU0tnTlpBSnExc0NXdzJqTk9pNGttLVBZRzdRUDA2ODdZWGsxbWtIZDlxcEx1R2xMSGg3eWpfRGpkYzIxXw",
     "CBMiR0FVX3lxTE5fUW1JTnZoYnhhenJUZEZYWDg0ZkQtanpTSlB5YTFrRW5PazZGeUFDb2VCQmdNUFcyaUtjUGJCMUFpVzRYRmVz",
     "CBMiogFBVV95cUxPSHUwdzczMnNIMmVsY3hjbl9LRVAtM3ZlNGRHVG5HVmZKTlh2OG91M2thU0xrT0FPb3Q3UW13UUJ0RU8taUNfZlNZODJ0WVdaVElXaWNWQ3JiREpDempZZmc5dC11azRmcGhyYTdBdzhPQWM0TV9DX0dOdmtmRWZvdk5EWG1jdFpodlY1c1dubzNlX1RzTUp4bElJU3lyMnZLaUE",
     "CBMijAFBVV95cUxQenRXQ1ZkMW96RC1nUTdvZzdOUzMzTUpsMm94MldwWlBzYzdnS3AtTE04YVloT2hSZjVfUjJUVVdvUnp2S216QV9ZUHl2U1hBa1hES2ZaQmRrUnZQdkFPemlMU1pfbVNWUkY0RnpqOXlOMFhRWXFlQVRqZUFKSUg0T3Nxb1U4bnh6T251Sw",
@@ -5191,11 +5196,12 @@
     "d98d9b61-f10e-3d9e-b2c9-ab0348347e6b",
     "https://bloodyelbow.com/?p=331734",
     "fa2a21b8-b297-3a28-bd08-7c9a05435830",
-    "46e502d6-c0cf-3e97-8355-27b9567e5fb9"
+    "46e502d6-c0cf-3e97-8355-27b9567e5fb9",
+    "faa52cb4-0a53-30b3-8ab4-df3b3e7df54a"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 84,
+    "ai": 85,
     "staged": 5,
     "prio": 5,
     "lost": 0
