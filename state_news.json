@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4e2995d45049610a": 1789478661.147537,
     "a4a4b0d106db3d6c": 1789478636.4063425,
     "9284ee0722013bf8": 1789478591.7640665,
     "0d0165111d665d51": 1789478526.3330116,
@@ -2498,8 +2499,7 @@
     "b1206c12f4c6033b": 1788443029.9723701,
     "4d642db714c3379a": 1788443029.9698322,
     "29735406a280cf28": 1788442966.8728135,
-    "e9aef8ee523e0cb2": 1788442902.6885188,
-    "d24748877ef325b8": 1788442838.9944108
+    "e9aef8ee523e0cb2": 1788442902.6885188
   },
   "initialized": true,
   "v": 4,
@@ -3481,16 +3481,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-15T11:12:26+00:00",
       "cluster": "cb0fe6e9d12"
+    },
+    {
+      "t": "Dana White announces huge bonus surprise for UFC 331!",
+      "source": "TodayPress.tv",
+      "ts": "2026-09-15T12:25:27+00:00",
+      "cluster": "cc9704942e4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T13",
-    9
+    10
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Khamzat-Chimaev-names-4-UFC-targets-Caio-Borralho-answers-the-call-202602",
     "https://www.sherdog.com/news/news/Undefeated-finisher-gets-UFC-debut-vs-Nathaniel-Wood-on-5-days-notice-202603",
     "https://www.sherdog.com/news/news/Undefeated-prospect-loses-second-DWCS-shot-due-to-Visa-issue-202605",
     "https://www.sherdog.com/news/news/Dana-White-saw-Ian-Garry-as-too-passive-Javier-Mendez-saw-genius-202606",
@@ -4989,11 +4994,12 @@
     "ef2bef2a-a0ee-3a31-874d-fcaf9faae553",
     "CBMiuwFBVV95cUxPUVdqTHJCaDBkbThKSVpoNWdVYmdGWHRtU3VNYkIxM1gxeVJFYlluSFpUOHZJYWRTcTRaS3FnSjJNQlhYczAyYmlHeU1sQzk4SnBXZnd3Y0dGaXU0R080YVcyazM4ZVZ1YUFMckhCUHFreEl5NUdtelRfTWpxc0lMVjVMal9TR1BtdnNSVVYzZ3RDN3p6V1kxQ1AwX3U3eUtJSF8zXzF3bVlBbzBoU3ZPWllGeWxrNG9JTE1Z0gHAAUFVX3lxTE5CQTAyWmJRWHRydnE3YTBSNWM3LWUyU3NxdmV3Y1FmQUkxdVJyY3M3UnZzOTZlYm8yYzFxQU5QWmoyYm1GRHhOM0huOXlIOEczc2NNVVdiX0NwOTM3WmI0SHM0NGZOdEFVNkQ4MnNrTUVMMzlfRDNTbHlIRk9KYVBDM19xZHAxeS1WOW9MTzZ6TXoyRUdwLUl1X2pfVmVGMUo3RE5nQTNiRFo2YU5tck94OVhXRjJtajVfM19lQ25Bdw",
     "CBMikwFBVV95cUxPYjVsZklOblhJSlU3WkVVUENfMzRCZmU0dVdFNUtUYl9hQ1o5cHJYYnlSWm1CZFJvRU82TWd5ZjF1bDd1Vm1QSlVNQ0d6VWNWanZ6ckZ2Z285cVpkam10TkdaUzBUd25kMmd4TWtUbnpaX0JCSzRnVGxZV0JSeGpnY01yRU1qMldzZW5CNjdybUl2dkU",
-    "https://www.mmamania.com/?p=472471"
+    "https://www.mmamania.com/?p=472471",
+    "CBMiiAFBVV95cUxNZlNNMzVQMUZ6cDdZNGxMSXBTVHc5bVpZOTRzTE40a0xmb0hfVklQWFZ3Xy1oajJpTklqU2cwUG80VFZNYUNJWV9tTzV4MDBLVVQyQUc3b25NeUNNbGs0ZHo2cGZxbS1vQTJpSnpOcUZTcGZCUjV1SUZFWC1iNlIzbUd5NnFKVlhs"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 49,
+    "ai": 50,
     "staged": 3,
     "prio": 3,
     "lost": 0
