@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e33f932a488bdaff": 1789478321.6005194,
     "31aa504e40417c71": 1789460029.5416834,
     "5eab1e34c7a6782d": 1789459964.2890105,
     "c1cf117b7163e7a8": 1789459709.264661,
@@ -2498,8 +2499,7 @@
     "1c6d4c037b494b71": 1788441902.2192452,
     "92dcf83ba80c97cf": 1788441879.3038576,
     "9cc563df317f3127": 1788441856.9954264,
-    "c33cb985b8ff6e76": 1788441856.703628,
-    "fa6c8b9425537f17": 1788441834.5798774
+    "c33cb985b8ff6e76": 1788441856.703628
   },
   "initialized": true,
   "v": 4,
@@ -3427,16 +3427,21 @@
       "source": "ESPN",
       "ts": "2026-09-15T08:10:33+00:00",
       "cluster": "ce267000024"
+    },
+    {
+      "t": "Matt Brown argues Tom Aspinall vacating heavyweight title creates more problems than it solves",
+      "source": "MMA Fighting",
+      "ts": "2026-09-15T06:26:47+00:00",
+      "cluster": "ce2d19153f5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-15T08",
-    2
+    "2026-09-15T13",
+    1
   ],
   "yt_eval": [
-    "CBMi6gFBVV95cUxQSGZqek05NjN2QW5RcEtDOXhaMGVWUzZOQXVrMmExa2V1YzMwNHA2eUhtVmpQYWs5djdkUTZvbzhZWUU4VHAyamU0QkU0TmttNVRxUXBPc3FVanBpWEUwZEhtb0ZYeHlzUktjVEw2U3BoNmx4V2FlZnFsaUpOdlE3NmdyQzJ1d2JUSjhlRDc1b2lvTXE1U0RCY2k4MllkbEZzMFBvYW41bG1ySDk5dnRfTnJYTDgtV2tlaW9yRHh2YUFsLVd4TXhhdHd6NzBDVGxYLUtWaTh3Yi1lbjl0TC1Sa2d1TWhjNEEwekE",
     "CBMi0AFBVV95cUxOeXN4b19ZeTc1QmxUXzZxUGo4cGJvUEpnVHFCbjlxemF2S3ZwTWlUeWpHUGNwZUhqMkFlYzJyUjVMUVZ5ckhSMEhBTUZMX3JvZWI2eDNTZVp2UTQ2R0FPZXJUSVJRMmNlb3E2SXQxRUlDQTFMMHRkckN0OUs3WjliaGlweUg5am5zS000Z2lveXZOUkt5REhTcXF0LXZlZnBCSmlDWFdoM1ZGVWRyN2JtblVvTGpSSkgwbTM4OVFxRHNjX0diVnJ4Z2h3aTVTUUMw",
     "CBMiekFVX3lxTE43VXFueDJLUGsxTDE5N0lya0U1TFdLNGwtN3dGdWVHakdnQmhNRE5GZy1rZnVCajFyX050MU5aVGJRM3I0a1J6MFYwUjIyWEFVYklVV2JPQ05yaF83OVhjcWJiSFZQSzdTa2tYcUFHT25ydWM4ODFlaWV3",
     "CBMiuAFBVV95cUxOWGhPR3RYRGRsUHNCS2xtd0VHZkJuMDB4XzZoY2xveHVfLUlEaWExYTlET0FQbUxtMGkwRU9oYVFoUGdCdFNBUUYxalpDYVF1d1I3ZlF0N0FQOFBLUGxNb1ZJUm5FZG1Tb1FlMzdoX21LRVI0MV9UeTdUR0tJVzNtZUhfa0k1NG1ZSVNEVmlqTGYybHJRQ005NGJuRFo3M3JGRFlVUFl4SWdqNEJKaDZSUGd4bU1NRHpZ",
@@ -4935,11 +4940,12 @@
     "CBMiZkFVX3lxTE1JQlpXLUhqRXRtNFlhV2Z2WDB3LXFHbFhONEdkbWY5VDhmQjlkZnlmTmRtTUdkQ2tna09IdUhrNmU5OFczS2Y3c3V5MkRfem93d2lrQ3djQk5PUzh0dm40OHh4VWNYUQ",
     "https://www.sherdog.com/news/news/Tom-Aspinalls-UFC-exit-opens-door-for-Josh-Hokits-bold-title-demand-202803",
     "CBMikwFBVV95cUxOWnVFd1oyQ1YwY1pPTVZJMWJjZVJaNm5qR0R4QThkT0tKcFZMQ29BMWVKNXlhYlpOSVdWYTg3eEItUUxZaTJ6NlFJVHdQOXJkUWFzUUdQZVdhazZJVFpMSFU5TE1lYzBYV05YUnU5aWFyRE9LWDFrSzNtLXF4QmdWTXY0T0NTSHVySVlfSUsyczRhV0E",
-    "CBMib0FVX3lxTE5WZjBOb012U25Tamlkc3JITFByU3pqQVR2aUs5VFZaaGlyNEpqUUd2eGIxcldLN1RxRU1ocHhfU1YzUm5Ja3hQVEVQVDRadHdpajFlNGhiRlRUVVlaWFNWelVBQXAxbEhpQmlSYzRVdw"
+    "CBMib0FVX3lxTE5WZjBOb012U25Tamlkc3JITFByU3pqQVR2aUs5VFZaaGlyNEpqUUd2eGIxcldLN1RxRU1ocHhfU1YzUm5Ja3hQVEVQVDRadHdpajFlNGhiRlRUVVlaWFNWelVBQXAxbEhpQmlSYzRVdw",
+    "https://www.mmafighting.com/?p=510353"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 40,
+    "ai": 41,
     "staged": 3,
     "prio": 3,
     "lost": 0
