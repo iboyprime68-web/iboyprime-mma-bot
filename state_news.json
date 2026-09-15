@@ -1,5 +1,8 @@
 {
   "seen": {
+    "95c905822beda3c1": 1789479123.605424,
+    "86561c25173d6488": 1789479123.3190541,
+    "b63befd1fe92c7ab": 1789479123.3172336,
     "f188b20d9d01d816": 1789479058.586521,
     "85226f9920a9c3c5": 1789478993.007289,
     "51793e060cef59e5": 1789478947.5271819,
@@ -2496,10 +2499,7 @@
     "4d1d303ab9a201e0": 1788444013.935537,
     "088a3271a9f33e1a": 1788443539.4615595,
     "fbdf7e18e2885ec7": 1788443476.1244721,
-    "6fda2d8629d927c7": 1788443412.0101917,
-    "3f82b854e948b2de": 1788443348.0854156,
-    "d24e9cbfe97ec4cd": 1788443160.8773026,
-    "68a83ec6a3a37bf1": 1788443095.738861
+    "6fda2d8629d927c7": 1788443412.0101917
   },
   "initialized": true,
   "v": 4,
@@ -3529,16 +3529,21 @@
       "source": "Ilford Recorder",
       "ts": "2026-09-15T12:41:17+00:00",
       "cluster": "c8a67a1ff78"
+    },
+    {
+      "t": "UFC 331 broadcast team set: Lead trio with Joe Rogan calls return to L.A.",
+      "source": "Central Oregon Daily",
+      "ts": "2026-09-15T12:50:29+00:00",
+      "cluster": "ca0032bc106"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T13",
-    17
+    18
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Javier-Mendez-spots-Umar-Nurmagomedovs-crucial-mistake-in-KO-loss-202611",
     "https://www.sherdog.com/news/news/Caio-Borralho-says-Khamzat-Chimaev-doesnt-deserve-UFC-title-shot-202612",
     "https://www.sherdog.com/news/news/UFC-stars-recall-the-wildest-places-USADA-testers-tracked-them-down-202613",
     "CBMiiAFBVV95cUxPNktoNUd6T2lESEpXSjN4SW05T2xyb0RFa2JyVkJaZm1oV0ZjTHcxWDBXYzAzVDgwZV9fM0ljZ3QxRjJpdEQ1cXl3UU5oUHZiUDJjMmNFa3pBZWJidm5ZMFpHUGZidEp5cW1ySVdocFIwLW0taXF5cU02TFZZRXFuV2s4UlBUb1Qy",
@@ -5037,11 +5042,12 @@
     "CBMif0FVX3lxTFBKbVpRMmR0Mld3eUFqTWtPaU05dmFpQlRvR0VkdEttNHhNZGIxMlR1ZVRDaDRfVHZoSVdTTVlGdFJUbHZHYTlmZThQODRuSmNRTi1VV1VhUGlxZUp3UGdEVzVkaFVCMDd1bWt6LV92OGt3YVR0UDhTaGVsYm9nTHM",
     "https://www.mmamania.com/?p=472475",
     "CBMi2AFBVV95cUxOWFBSY3VRUnhEcGVqeWhxaldfZWlxam5QcXpqU3phT1I2a2NvRm1fQl9CbFFJOUtfN014azBzQ0VqVDdaeW5GQUdFRnpIX0U4WExZX3RHLXhJM3FSZjc0WGVsTjliV3c0QWpLSTJBb0FZYm1tYnloT2p4Q18zTFo2amhieFFXV2dwcC1LWDl5SElBaVlZVGg0c1hsWHpQMUxfV1RlbHhMbTU1OHkycVpnRllzZXA3UFVCQ2Jidm0wRjhnWUIzMVNKbXBuaUhSbE1MVU1HYnZVSlM",
-    "CBMioAFBVV95cUxQRnZIeHhXc2hjeFg3cDJpVko1LTNNMURuQVpmVFVVVjBIbFk4YjREdi1sVWxvTHNaYkJsTDdjRkFMQnc0My15YWo4eXVhN09pdkFyVXdrXzlPOG14RjlfT0VzNjF2OGtMSjJnbGtJaGdxSjRBMDVDaDJlMnkzdTVuM2FESXNZcjVHMUdxYUx1RGh4TGNsdVBVLTdJVnIzOUFO"
+    "CBMioAFBVV95cUxQRnZIeHhXc2hjeFg3cDJpVko1LTNNMURuQVpmVFVVVjBIbFk4YjREdi1sVWxvTHNaYkJsTDdjRkFMQnc0My15YWo4eXVhN09pdkFyVXdrXzlPOG14RjlfT0VzNjF2OGtMSjJnbGtJaGdxSjRBMDVDaDJlMnkzdTVuM2FESXNZcjVHMUdxYUx1RGh4TGNsdVBVLTdJVnIzOUFO",
+    "CBMi9gFBVV95cUxPYnJSLWMyZzh6WFZCZ1RyRFpPck1VaFpHc0RCcUZTbVl0eXJ3cVVqOWZJWTBDR1B0enZRTDFWakxCNmp1SGVoeU96Y05EZlVjSjRoSDlCNmZyamN6UWxQa2lvc29fbl80Nld3SGw0LWo5cGs5NVVBX2stT01Nc2lOVG1Yc0syRVlGaFhOWUszd0NKSjl2clJGTi1kRTZITEZQSFB4c2ZQVUVENGlGOHV3VnN3NkxKZlNJd2kyUG5VbnY4X2U2UC14WXBLLTI4REpkMHlhWVh4LUVGN2t4MkZIVDFLR3dHelY2WjZmYUxFUmFMYTdHQUE"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 57,
+    "ai": 58,
     "staged": 3,
     "prio": 3,
     "lost": 0
