@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0aaa917badef6b08": 1789496545.233754,
     "7e86e6d4b07d0fbf": 1789496479.9619694,
     "45e59ec4bfbd2aa3": 1789496414.9097426,
     "497ccf2f8b140ab6": 1789496414.4105883,
@@ -2498,8 +2499,7 @@
     "ebb42168e8b32788": 1788478647.5058928,
     "5631d573709855ff": 1788478275.237221,
     "e1ab987ef1d2d196": 1788478149.084009,
-    "c335dea126c09ef6": 1788478024.5921977,
-    "c59beefe0ed1f152": 1788477980.9177504
+    "c335dea126c09ef6": 1788478024.5921977
   },
   "initialized": true,
   "v": 4,
@@ -3767,16 +3767,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-15T18:01:12+00:00",
       "cluster": "c5fa109e197"
+    },
+    {
+      "t": "Brian Ortega Withdraws from Renato Moicano Rematch Again After Eyebrow Injury",
+      "source": "MMA Sucka",
+      "ts": "2026-09-15T18:01:13+00:00",
+      "cluster": "c33ada7f3e3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T18",
-    24
+    25
   ],
   "yt_eval": [
-    "CBMitgJBVV95cUxPTi1SeEJsbTNBNjhCSHdXSjBkTTgxTnVIMGRwQjhmVXdTLVRQdHY1dm12YVBVX1Z4ODh4ekk1MzlJdnpPWUdzM3ZmdGxxZ2tOdzN1NldTWE9yci13dnhIZURtZ1RDZmxzQnRLd2NiRFRINmNMbnd4YVBIZEVLZDRCR1FtQ1VMdGVWdXNYWjdFUjFXSGVNVGlNeWtRNEVuU2N3UWxBY3BXakFQUkppVzZsdW05azI2NGY4ckpDRjRXMjU1QTFyV25NZWJXc20xVjNIRkRHYXNhY3NxdXBPOVFkLTY5cXNCelFqeVMxcGJKRGRyZE1hOFQ5TE9aOThyTXN4bkk0QllPTXptbUxCNklQM2RkcDJPeDhLQmh0N3FVOGlybko1bGl0ZEVTYzBSMGtlZ1BNNlV30gG7AkFVX3lxTFBWUFprV2lxblR6Z2xyaDlzVXdTVUdxT3puZHMtaGJsY3EwZ1NtVV9QOFh1T21VWVV1TVBHSFJ3M1VvQU1VWm95eVFDRUpVY21WcEIxVzBiVnl4eVlTWnRPN3UwOHd2aWdQZTlMWGdLaVVuN3BQLUNlaVNmUU1Ca0VBVlRxZkw0X09XaGhPYTdCSTNwZ1Q1UTlJVFB5R3g0ZkFSd3o4TDRCV1JjTDhjU19RS0FoSlFyaUJXenVPb2VjcnJPblF3VU9xNjFLTDV5dVQtamotVTBMZWNlejZNLXE3VnNuRW9NUVZqOHhkWDdfTjB3MzM0ZFJmNXNXQnJqSGtwQlprMGVDUE1OY3pDcERveU5heVdySWlTMTNITXJ5bkJwVEp3OWp2aWFxOThQVnhJNFB2QUJFUmNaMA",
     "CBMib0FVX3lxTE9RS1k3WC1jelZnNnZoUXllWDVfMFNpUVN4RFZubGRQY1VoSTgyR2M1M1ZCN2VyWUppMnhwZHBMbGY4Rmg1aENpdFlhZXdMWk5vWVNySDFMYXltVnBibmxIQllNNUc1WjNHb1VhTjQ2VQ",
     "CBMid0FVX3lxTE55M2VfYkxEUzNaTmY3SzhMcENpc09MbnU2dVd3ZTVTcS15WW5tLXRiSnZ0NWh1ZzBpMzNJOWVIRC0taXJ1WmhtSGVrYkJZM3FWY1oyNUZrMnB1b1RNREZ0RkNZaXRWVGlCemVrQXNsTS1DcXBINU1N0gF3QVVfeXFMTnkzZV9iTERTM1pOZjdLOExwQ2lzT0xudTZ1V3dlNVNxLXlZbm0tdGJKdnQ1aHVnMGkzM0k5ZUhELS1pcnVaaG1IZWtiQlkzcVZjWjI1RmsycHVvVE1ERnRGQ1lpdFZUaUJ6ZWtBc2xNLUNxcEg1TU0",
     "CBMie0FVX3lxTFBZQ0lQX0hYZ01FNXU1SDBDbTlFNE9lVU0zNnRCa0NJZUtCeE9TLTJHLXlIQWVCM2Q1VEFfaDktZG1tOGR2ejh1OXZsbVVXUFh3NUl1MzhoX3pzNlhvbFN3NGlqaUY3Yzd6SkJtUzZvR0ZGbmFoYTFPZ2sxOA",
@@ -5275,27 +5280,17 @@
     "CBMiggFBVV95cUxNdDczaXRZWVp1R2QxT2hLdFVxaDVPb2wtbXBGZkN4N2JELW52OVI0YTJQRlFIRmZhdUxJUGVwWExzRHBxeGlwUkZNQ212OUdyTlhfeXA0VksyZDJpRGRPVXA0dm0xZDRrTFdsRmR0UVJ4T1g4MWxpa3hsMTkyRjJiYk1n",
     "CBMiiAFBVV95cUxPem9kZTE1UGdEQ2lRZWhGek5GZjE2VTEzTmVlZlBLVlNwaF9ZXzFsZURvUEpTMWN4N2V2MDFOMGd0OGJTcnFMVHY1LWExN0l5aTB2QnZxZDRCQ2I2NTlxZ0RPTlhUMlNMSXMtaW5aVGh5UXFuZ3RBWDA2b2dQRzVIZHZfU3hxOFoz",
     "CBMiogFBVV95cUxOYlNWOV9iRkhGZ3g2MWhqYVJCVHg5aDIzZlZHajhjQ3Q5SFYxWVhBTHRQZERtZ0hQY1lMa0ZXLUZ6blFOaEhQS2VjVU4wUjdTNUlNSXh2cTBJbF9HcXlhNkdrVk16SjY3OWZhVDNiYlZFTmRtSk9EQ1dyd1pWbXNMOXJLUXk4N3lLb1ljc1lFQXNINEkyay1wOHJfbGlRQUZMUUE",
-    "CBMioAFBVV95cUxOcjRROWxMZ3UtMl8xVFF4YzRJbHppTmJ4N0tRMkV2a1dua1I3TUxManNRUVR6LWtSVFpjcVcydk1ReTlYM2VaclVLamhvNjczSldvVmJWeUNIN2RMenBnaElwOHYwTlZ3STlWZ25RcG9FSU1XdGt3czY4alNCVHJHU3VSS1NqeFkxVnFiWGVhaUJhT2V5VEd3WEJGOXZjYUVK"
+    "CBMioAFBVV95cUxOcjRROWxMZ3UtMl8xVFF4YzRJbHppTmJ4N0tRMkV2a1dua1I3TUxManNRUVR6LWtSVFpjcVcydk1ReTlYM2VaclVLamhvNjczSldvVmJWeUNIN2RMenBnaElwOHYwTlZ3STlWZ25RcG9FSU1XdGt3czY4alNCVHJHU3VSS1NqeFkxVnFiWGVhaUJhT2V5VEd3WEJGOXZjYUVK",
+    "CBMipwFBVV95cUxPM2tWTkYxNno2VG5qOF9IMGM5c1FRb21EbUpkV2VZZWFnMVBHTlh5aGpPMHhUYlp0a0pGVEIxX01MVmtpU1EtdE9LTUF1Nm1VUjk1SnVBUEl6V1kzc2xwLTZyb0hCdnlzcnloWDJKOW1zMFo5Q1Q2bjZPMThTN1dGYWZqenJCYzNpMXBMaXUzQUpnLUh0SkFucE9ORHI2Q1d0Z1VUM29HNA"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 98,
-    "staged": 5,
+    "ai": 99,
+    "staged": 6,
     "prio": 5,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-05T01:00:05.423866+00:00",
-      "t": "Former KSW double champ who knocked out Dricus du Plessis finally signs with UFC",
-      "names": [
-        "former",
-        "dricus",
-        "plessis",
-        "soldic"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-05T10:17:39.726621+00:00",
       "t": "Chimaev Faces Woodley in Thrilling RAF Moscow Main Event",
@@ -6106,6 +6101,21 @@
       "names": [
         "moicano",
         "ortega"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-15T18:22:26.136990+00:00",
+      "t": "Brian Ortega Withdraws from Renato Moicano Rematch Again After Eyebrow Injury",
+      "names": [
+        "brian",
+        "ortega",
+        "withdraws",
+        "renato",
+        "moicano",
+        "rematch",
+        "again",
+        "eyebrow"
       ],
       "img": "photo"
     }
