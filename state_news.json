@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1e79d3c4dadf4acc": 1789480094.1678774,
     "59492649b773d8e9": 1789479968.9256809,
     "8e2f500b1fc52ada": 1789479968.9224665,
     "cb54afd5dfe7e17d": 1789479842.428424,
@@ -2498,8 +2499,7 @@
     "351527990311119d": 1788458319.6761398,
     "1b4f62a7152c10be": 1788458256.3316247,
     "821879f96a328a6b": 1788458191.0999699,
-    "35465535171c4641": 1788458190.7404652,
-    "9e9f22dcffbac407": 1788458002.8589418
+    "35465535171c4641": 1788458190.7404652
   },
   "initialized": true,
   "v": 4,
@@ -3601,16 +3601,21 @@
       "source": "MMA Junkie",
       "ts": "2026-09-15T13:40:00+00:00",
       "cluster": "ce2e59a5d66"
+    },
+    {
+      "t": "Brian Ortega Issues Statement After Pulling Out of UFC 331",
+      "source": "heavy.com",
+      "ts": "2026-09-15T13:44:52+00:00",
+      "cluster": "c93e9f57dd0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T13",
-    29
+    30
   ],
   "yt_eval": [
-    "CBMikAFBVV95cUxPSUFTVzktYzlNSlJJbDljYm81aXZoUEF4ZHZsYjcwdmllbEdaQ1dWVGw0UHdEdjlHc2FpS0pQQURaTGt6WFpFaXczMF9vekpXYmh6QkpFUWg0dG5zdFZaYkhKNU12RndPY0QzSndhSmJVZHBBOTN5SkxiZGpmdl92bkNYbkRQd2hmUkNYSEZaRDc",
     "CBMidEFVX3lxTE9KVmFBREkwNFBnV2FvZGNadWZjel9DU2NyUHBGRFliOWFqVEtRVERqVjVwbnUzTFR5N2J6TmIwcTZuQTJXZEtNbExrc3BHUmViM1RBRF8xUWlVY1pRMm4xV2pDQ3JGd1BHa19aTmUwNEFCLWhy",
     "9cc1b79b-2770-3718-a860-c239459e8fb8",
     "2d36e5f5-b2de-306c-9720-c92f2605b5ed",
@@ -5109,25 +5114,17 @@
     "CBMitwFBVV95cUxNdVlZejQ3V2FoTElvLUdVRTNIVm9BMVFuR2k5cHlwTmc0VkxRa3N1NWNkUC1oNVRQUkdmRFVoOW92VnJqYW5WMFRkckM0RUlpV1Q1anhqa0pueG50ckFSWGhfUmtpblFCQ2pLanNTcmtCM1FFZXMyS0Vjc2JHa25DSWVfUGtjSTdpZlFaTGxxaDctalRCOVpsSFM4Z3BJWFhFN28xWndKWG5kTHNla2FiM0E4dHFVeG8",
     "CBMibkFVX3lxTE01bHN0TEZlSjZiWndhTjZDM2NhN1BKQkNaSDR1R1psd29KOGNQYzB2YzhaZldOekJjM1RhckNzWUx4cUhESk50OUs5V2hkOGpKR0hET1F2TkNJVExEV1lqZkF4QzFXVC1xR2I2UXNR",
     "CBMib0FVX3lxTE5XWFNuYzJZRF84UFBJMS1RaGR1MjMzM0NQT1Y5NGxaUUd3aDFYZVliWHp3ODY1S1I2NHpmcFRLR0lQR2xQdTZkM3kteTZIdTVMREJoaDUyajZLdFZ6bGxsUjdKVUVKZy1Sb25yYmkwUQ",
-    "CBMi2AFBVV95cUxOcTYxN1ZLX0RQM19ib1J6cUJvaHpEU0NTeUhHdjhhcTg4UnVGWFpsMkdiUGN6UklDQXJEWGVET2VnUVFiSG5tRzBmaHZRSTFNWmRfTi13c0dZVFRidENNa2NjZkU4OVlMWS03cnQ0YzVieUg1ZDNGdzZkY09kVjlQX1JfSTd3TVJaLWRjOFVyNDRYeDNENm1NdTRhNnNpTXpMZllxY2xUVjFRWktLeWd4bHVqdkJLNUY1XzBWY3J4M2FxUGRBNlZRVWpBRENwWDg3eGYwZXJzUHE"
+    "CBMi2AFBVV95cUxOcTYxN1ZLX0RQM19ib1J6cUJvaHpEU0NTeUhHdjhhcTg4UnVGWFpsMkdiUGN6UklDQXJEWGVET2VnUVFiSG5tRzBmaHZRSTFNWmRfTi13c0dZVFRidENNa2NjZkU4OVlMWS03cnQ0YzVieUg1ZDNGdzZkY09kVjlQX1JfSTd3TVJaLWRjOFVyNDRYeDNENm1NdTRhNnNpTXpMZllxY2xUVjFRWktLeWd4bHVqdkJLNUY1XzBWY3J4M2FxUGRBNlZRVWpBRENwWDg3eGYwZXJzUHE",
+    "CBMidkFVX3lxTFA0RFpKM1NOcllMQTN1NDRBSWhZbjFaM3ZzajNwSUxHQklzQkZZaDhtUGNKVGVzaURDRno5ZlFsVDhiM3dmV2tHOEVpTVhWNk9KMGFLTEc0cFpwdVRhbVpyMHJqaHRGUzkxMFdmLWg2NUFmRDROc3c"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 69,
+    "ai": 70,
     "staged": 3,
-    "prio": 4,
+    "prio": 5,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-04T17:30:59.877350+00:00",
-      "t": "Noche UFC hit with fight cancellation blow",
-      "names": [
-        "noche",
-        "peru"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-04T17:31:49.732762+00:00",
       "t": "‘I know the date’… Nassourdine Imavov confirms he’ll face Sean Strickland for the UFC middleweight title next",
@@ -5940,6 +5937,18 @@
         "ortega"
       ],
       "img": "cutout:renato-moicano"
+    },
+    {
+      "ts": "2026-09-15T13:48:15.101308+00:00",
+      "t": "Brian Ortega Issues Statement After Pulling Out of UFC 331",
+      "names": [
+        "brian",
+        "ortega",
+        "issues",
+        "statement",
+        "out"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
