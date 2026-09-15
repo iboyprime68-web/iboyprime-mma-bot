@@ -1,5 +1,6 @@
 {
   "seen": {
+    "88230ab7bd15ef34": 1789495516.92844,
     "a9a7d94321ac5cbc": 1789495491.3685582,
     "d605b2d3ab711585": 1789495464.0266588,
     "c9426051264c4e63": 1789495463.5267289,
@@ -2498,8 +2499,7 @@
     "6d7d6e096e1f1809": 1788476741.4891489,
     "3a8abec06f737411": 1788469248.5756142,
     "38206d46a0f37ba2": 1788469225.2804334,
-    "545c2917f7c144e7": 1788469182.6546347,
-    "953338cba5acd5e4": 1788469117.7394252
+    "545c2917f7c144e7": 1788469182.6546347
   },
   "initialized": true,
   "v": 4,
@@ -3665,16 +3665,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-15T14:30:33+00:00",
       "cluster": "caafa6d6b79"
+    },
+    {
+      "t": "Arman Tsarukyan and Joshua Van become the latest fighters to receive custom shorts ahead of UFC 331",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-15T18:00:00+00:00",
+      "cluster": "cfe517e46cf"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T18",
-    7
+    8
   ],
   "yt_eval": [
-    "CBMijwFBVV95cUxNQWpJdzZWNVFGX0lhVkJVZlJTQmd2NkFmampXRUc2emI1cWsydjBSYVU4RmFBRFFicWlCVFFUdDE2RE81SHpkY3hjbVdmS0JoNzRKZG1PYWF4MXhiZ3lncDluRjdlb3psTFY4Vm9ETEVsRlR6N29sR3lnWGlKR21jUEI0SFJzd3AzVEJ4U2ctdw",
     "https://bloodyelbow.com/?p=329895",
     "CBMiaEFVX3lxTFBoRF9TN2huc2lEOG1vd1V0UWltQzBTWG12VU5SQ1plVzNYc0lmOHJNNUV5WjdfWUxtYUdhcUhBV01qdFpvVUZ3QmhMeHBJVUNzZl9DQVJIdHZVZ1liUGRIUjQtVXZ1emUy",
     "CBMipAFBVV95cUxQNHR4SC1HVEhwbHVJVEpuSVJBYThFVTN1aHJoa2VWUVZYSUxCblZSU2QzZ1NGaXR4SzBCNTE3MTd3eW5tc3AzTmx1ZG1iZFo0TXkzdVIzcmJNOVNRRTRjUWZhWVloNDRTU0tnTlpBSnExc0NXdzJqTk9pNGttLVBZRzdRUDA2ODdZWGsxbWtIZDlxcEx1R2xMSGg3eWpfRGpkYzIxXw",
@@ -5173,11 +5178,12 @@
     "https://bloodyelbow.com/?p=331715",
     "https://bloodyelbow.com/?p=331669",
     "https://bloodyelbow.com/?p=331680",
-    "d98d9b61-f10e-3d9e-b2c9-ab0348347e6b"
+    "d98d9b61-f10e-3d9e-b2c9-ab0348347e6b",
+    "https://bloodyelbow.com/?p=331734"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 81,
+    "ai": 82,
     "staged": 5,
     "prio": 5,
     "lost": 0
