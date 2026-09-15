@@ -1,5 +1,7 @@
 {
   "seen": {
+    "d605b2d3ab711585": 1789495464.0266588,
+    "c9426051264c4e63": 1789495463.5267289,
     "0579c159380d3a2b": 1789495440.5989072,
     "2206e0709885d8ba": 1789495440.199659,
     "d42d63e09f541592": 1789495416.9871979,
@@ -2497,9 +2499,7 @@
     "38206d46a0f37ba2": 1788469225.2804334,
     "545c2917f7c144e7": 1788469182.6546347,
     "953338cba5acd5e4": 1788469117.7394252,
-    "543ed69de4f08213": 1788469051.804162,
-    "75c3a560e020318e": 1788468988.0148547,
-    "b29208c15b3e4c43": 1788468923.6041224
+    "543ed69de4f08213": 1788469051.804162
   },
   "initialized": true,
   "v": 4,
@@ -3653,16 +3653,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-15T15:00:00+00:00",
       "cluster": "cba2025b2d3"
+    },
+    {
+      "t": "Renato Moicano reacts to losing ‘easiest money fight’ as Brian Ortega withdraws from UFC 331",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-15T17:00:00+00:00",
+      "cluster": "c87f78fbe97"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T18",
-    5
+    6
   ],
   "yt_eval": [
-    "39ad46c3-2aef-35a0-9b30-9392030d36fa",
     "https://www.mmafighting.com/?p=508017",
     "CBMijwFBVV95cUxNQWpJdzZWNVFGX0lhVkJVZlJTQmd2NkFmampXRUc2emI1cWsydjBSYVU4RmFBRFFicWlCVFFUdDE2RE81SHpkY3hjbVdmS0JoNzRKZG1PYWF4MXhiZ3lncDluRjdlb3psTFY4Vm9ETEVsRlR6N29sR3lnWGlKR21jUEI0SFJzd3AzVEJ4U2ctdw",
     "https://bloodyelbow.com/?p=329895",
@@ -5161,25 +5166,17 @@
     "https://www.mmafighting.com/?p=510390",
     "https://www.mmafighting.com/?p=510396",
     "https://bloodyelbow.com/?p=331715",
-    "https://bloodyelbow.com/?p=331669"
+    "https://bloodyelbow.com/?p=331669",
+    "https://bloodyelbow.com/?p=331680"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 79,
-    "staged": 4,
+    "ai": 80,
+    "staged": 5,
     "prio": 5,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-05T00:50:59.631125+00:00",
-      "t": "Zabit Magomedsharipov returns after 7 years, beats UFC featherweight",
-      "names": [
-        "magomedsharipov",
-        "zabit"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-05T01:00:05.423866+00:00",
       "t": "Former KSW double champ who knocked out Dricus du Plessis finally signs with UFC",
@@ -5991,6 +5988,15 @@
       "ts": "2026-09-15T18:02:23.911661+00:00",
       "t": "Brian Ortega shows cut that forced him out of UFC 331, teases new fight booked for November",
       "names": [
+        "ortega"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-15T18:04:25.112262+00:00",
+      "t": "Renato Moicano reacts to losing ‘easiest money fight’ as Brian Ortega withdraws from UFC 331",
+      "names": [
+        "moicano",
         "ortega"
       ],
       "img": "photo"
