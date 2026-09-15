@@ -1,5 +1,10 @@
 {
   "seen": {
+    "5122a2e17d0ffc28": 1789495758.7114956,
+    "c78b50653a70c4df": 1789495758.3908992,
+    "ffd0132514254fae": 1789495758.3727114,
+    "b409b52cc20f4766": 1789495758.3685024,
+    "7480d0f56d7feccb": 1789495758.3644364,
     "f81976e6199921c7": 1789495693.8242576,
     "44b91ad53f595965": 1789495692.3184845,
     "7bade2f8468775fc": 1789495692.3150096,
@@ -2494,12 +2499,7 @@
     "eb99ff631f49d89d": 1788477133.3261156,
     "3f33cfac54cdadf7": 1788477070.1417186,
     "1f155317049f6e24": 1788477046.8702927,
-    "94409bafefc72252": 1788477003.9139848,
-    "9cd99d4f486a8781": 1788476939.2759974,
-    "39d3e0ca4f8caa4e": 1788476875.3948047,
-    "01e147b18298dae7": 1788476875.1457448,
-    "d716f0cd85e45e6d": 1788476831.6033168,
-    "e01a509420b5c33a": 1788476809.415805
+    "94409bafefc72252": 1788477003.9139848
   },
   "initialized": true,
   "v": 4,
@@ -3689,16 +3689,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-15T16:10:27+00:00",
       "cluster": "c197526954a"
+    },
+    {
+      "t": "Michael Page doesn't hold back on 'quite disrespectful' UFC departure",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-15T17:01:04+00:00",
+      "cluster": "cc826f0adc0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T18",
-    11
+    12
   ],
   "yt_eval": [
-    "CBMiR0FVX3lxTE5fUW1JTnZoYnhhenJUZEZYWDg0ZkQtanpTSlB5YTFrRW5PazZGeUFDb2VCQmdNUFcyaUtjUGJCMUFpVzRYRmVz",
     "CBMiogFBVV95cUxPSHUwdzczMnNIMmVsY3hjbl9LRVAtM3ZlNGRHVG5HVmZKTlh2OG91M2thU0xrT0FPb3Q3UW13UUJ0RU8taUNfZlNZODJ0WVdaVElXaWNWQ3JiREpDempZZmc5dC11azRmcGhyYTdBdzhPQWM0TV9DX0dOdmtmRWZvdk5EWG1jdFpodlY1c1dubzNlX1RzTUp4bElJU3lyMnZLaUE",
     "CBMijAFBVV95cUxQenRXQ1ZkMW96RC1nUTdvZzdOUzMzTUpsMm94MldwWlBzYzdnS3AtTE04YVloT2hSZjVfUjJUVVdvUnp2S216QV9ZUHl2U1hBa1hES2ZaQmRrUnZQdkFPemlMU1pfbVNWUkY0RnpqOXlOMFhRWXFlQVRqZUFKSUg0T3Nxb1U4bnh6T251Sw",
     "CBMi3gFBVV95cUxOSjV0RGhrWVQ1azNCV3NrRXp6Qlo2c0dxNWJCTVB1T1RvcW1QTVVwZVhPMnU5S3l5Z0hMSFBaZ0IwY2xWdXp2SmNiWGVUQzFFMjBXWm9YbXBMSzZDcUs5SVV1cTVxUnlBZUhWRUUzNmhBVHNod0Rkd1h6dm9IMVdmSmt1UVdIZlB2dGk1ZlJpaVpfc293TklOSk94aTY0WXN5S2NwVEI0SWFTRXVKYUZ5TE42MjY3dXV1V3hxUWJvRFpIenhOckg4VlpmTUlwU2p0b09OOEpZWVIxbGZRc1E",
@@ -5197,11 +5202,12 @@
     "https://bloodyelbow.com/?p=331734",
     "fa2a21b8-b297-3a28-bd08-7c9a05435830",
     "46e502d6-c0cf-3e97-8355-27b9567e5fb9",
-    "faa52cb4-0a53-30b3-8ab4-df3b3e7df54a"
+    "faa52cb4-0a53-30b3-8ab4-df3b3e7df54a",
+    "c2f185d8-ad73-333b-86e0-c00202d54e80"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 85,
+    "ai": 86,
     "staged": 5,
     "prio": 5,
     "lost": 0
