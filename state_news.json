@@ -1,5 +1,6 @@
 {
   "seen": {
+    "95f14b6027eee87b": 1789435086.2578976,
     "f57415af43c3c00e": 1789435062.4151022,
     "54ca9ce5b09d44ed": 1789435029.8058112,
     "7a56c435c9aa71e2": 1789435029.5159023,
@@ -2498,8 +2499,7 @@
     "88b905224a812f48": 1788424408.3120425,
     "b338d2072106655d": 1788424408.31204,
     "bb68e1d07eca2903": 1788424408.3120391,
-    "c9c1b439136d5b3b": 1788424408.312038,
-    "ce521d2a838b82ad": 1788424408.3120363
+    "c9c1b439136d5b3b": 1788424408.312038
   },
   "initialized": true,
   "v": 4,
@@ -3199,16 +3199,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-15T00:48:22+00:00",
       "cluster": "c6143b93824"
+    },
+    {
+      "t": "Khamzat Chimaev: Nassourdine Imavov 'technically' much better than Sean Strickland",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-14T23:40:24+00:00",
+      "cluster": "cc49a3cc6fc"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T01",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMiW0FVX3lxTE90ajFESExfd1FiZVZQeEFGQ0liMEVUTThkLXhsTUxTaXZRRmtXOWhQdGZlOFRYZDNEaGw0ck55R1lXcWFTZWtJMGsxb2YwWEtaZ0Nwb0xkLWdUTFk",
     "CBMioAFBVV95cUxOV3hlVmZoVWNqMzJYUUZybzltbElwdFdLSFlsZEl0S2gtRmxIZGp1WFlkNnlsX0dXRjIwX0RjWVNQeDhuVDRyZnJLdGhROUZLMnB3V2g0M0E0VWNxLXZnbW5xQXJYX3JlMU0xLWpWc1oweEVweTVmT1BUTHF2VFZwbGpPX19iLW5FVURFQXV5QUh6UlFrZ1NmWDRaSjdKNGc2",
     "CBMijgFBVV95cUxNN3kwLVI2VFZwbGlZN2pFbHVqZ3ZLUjIxNjRKQ3JFbWtJcTJEWkdJcFduQnRfckZnU0t5UW1VQnlVZW82OXgwdDBiLW56NTdTSGZXRF9PeHZCdGxjWUJ4X2ZwX25NVm9paG9GRmtLTlVIcTFqVEtzNElVUVBKZXVGc2VQVU83aHRfekxMRnpR",
     "CBMigAFBVV95cUxOWGxFYmVRcnJjOVF5MWZhTlUyZlhPWUNUV2ZZa3d1RDNHM3A0V2ZzeU4xWXFaOEpvMEtoVVo4cVl5OEw5b09ycUd2NXA2bkR5bmUtVjNWQzRmbTVic3ptR1YzWDkwMGJxUk9HM0hZTmx4dkVRYUNCMXl1YzNkb0Fwag",
@@ -4707,11 +4712,12 @@
     "CBMi1wFBVV95cUxOWWhhRS03MnBOQzRnS25BNU5DRUhMeno3SEVHQkhOVkI3YTRHUFlSTlJET29OYWxvUjJkX0NVMmtxd091VGZ6bzUzVnd3VF92ZldVTmlhWXpuRWR1c2tnRVRhckFUbUEtaGN0V2pJbzlINEg5ekhMblVITHpoY0NJWmR3VFZ3c2hCM2JiaVB4MnQ5bE9ZOUFrQmtQUFVqSV9HSTkzRUFTRms1dXZSRHNrdmtnRFNZZ1JubkNOY1M3M2VtelJZT3RaLTN5dWFaSjB0QTVBXzRBaw",
     "https://www.mmamania.com/?p=472387",
     "166b3b75-b33a-3353-bb09-4c36f2687d6e",
-    "https://www.mmafighting.com/?p=510318"
+    "https://www.mmafighting.com/?p=510318",
+    "0e1e1920-d7a7-3156-aedb-ec35dabf2f24"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 2,
+    "ai": 3,
     "staged": 1,
     "prio": 0,
     "lost": 0
