@@ -1,5 +1,7 @@
 {
   "seen": {
+    "0f46a7d651830127": 1789507741.1081111,
+    "8003adaa59f9b1a0": 1789507740.8167276,
     "359e61c021fca739": 1789507676.1954396,
     "be58343e149a2fc6": 1789507675.3477163,
     "cec61920a7d53fda": 1789507611.3322334,
@@ -2497,9 +2499,7 @@
     "b4dd82a9eaa8b51f": 1788528003.560854,
     "525edca687ea307f": 1788527980.146455,
     "cae67b77d1f8abdf": 1788527955.922029,
-    "7aafa1bdb5aa62b6": 1788527932.6397874,
-    "1511193f25fa1743": 1788527909.6050532,
-    "bd15e1fb29d45d44": 1788512462.1132946
+    "7aafa1bdb5aa62b6": 1788527932.6397874
   },
   "initialized": true,
   "v": 4,
@@ -2515,10 +2515,6 @@
     {
       "t": "UFC veteran argues Tommy McMillen vs Marwan Rahiki is a ‘slippery slope’ despite Dana White praise",
       "ts": "2026-09-13T23:00:00+00:00"
-    },
-    {
-      "t": "Noche UFC 4 results: Matches to make for ‘Silva vs. Delgado’ main card winners",
-      "ts": "2026-09-13T21:28:33+00:00"
     },
     {
       "t": "Islam Makhachev dismisses ‘nightmare’ matchup when naming who will be the next welterweight champion",
@@ -3901,13 +3897,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-15T21:10:23+00:00",
       "cluster": "cc1c2ccedd6"
+    },
+    {
+      "t": "Alexandre Pantoja: 'I Want To Show Everybody I Am The Best' | Crypto.com UFC 331",
+      "source": "UFC.com",
+      "ts": "2026-09-15T21:15:52+00:00",
+      "cluster": "c6aea482706"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T21",
-    19
+    20
   ],
   "yt_eval": [
     "CBMib0FVX3lxTE9RS1k3WC1jelZnNnZoUXllWDVfMFNpUVN4RFZubGRQY1VoSTgyR2M1M1ZCN2VyWUppMnhwZHBMbGY4Rmg1aENpdFlhZXdMWk5vWVNySDFMYXltVnBibmxIQllNNUc1WjNHb1VhTjQ2VQ",
