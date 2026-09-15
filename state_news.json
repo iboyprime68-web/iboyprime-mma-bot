@@ -1,5 +1,6 @@
 {
   "seen": {
+    "11d525fa83d91360": 1789478462.0986862,
     "becda001d7a79ffc": 1789478416.986933,
     "446da0f2783c0041": 1789478393.6851037,
     "4216358540b31622": 1789478369.143984,
@@ -2498,8 +2499,7 @@
     "d24748877ef325b8": 1788442838.9944108,
     "7851f0d018a6dfe5": 1788442775.3977377,
     "bc51032223ab6c00": 1788442464.4001174,
-    "168601d9204947fb": 1788442154.4840736,
-    "a3bf293cad79dc18": 1788442029.0148637
+    "168601d9204947fb": 1788442154.4840736
   },
   "initialized": true,
   "v": 4,
@@ -3457,16 +3457,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-15T13:00:31+00:00",
       "cluster": "c74547dd213"
+    },
+    {
+      "t": "Matheus Camilo plans to respect Jai Herbert's experience at UFC Vegas 122",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-15T12:00:52+00:00",
+      "cluster": "c7be4ad7da6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T13",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMikAFBVV95cUxNdVZUOXAtQzRBZ2RfZTlJTnBNNGltTW9vOEpFMFAwc2pTQ2xZU3NXbUlodVFkczZuRUFETFIxUGdYSkNQUnkxaXZLdkpxa244ZUhBZC1DemZxUTk2b0hJMlhVa2FyY1RnX0w4ei10SElJbkkyYVRya283QTh5b3BZU2JWUG5mbGJJckktamtkekQ",
     "https://www.sherdog.com/news/news/Jiri-Prochazka-teases-new-challenge-as-UFC-return-takes-shape-202599",
     "https://www.sherdog.com/news/news/Yadong-Song-defends-Usman-Nurmagomedov-after-bizarre-UFC-cage-incident-202600",
     "https://www.sherdog.com/news/news/Mike-Perry-breaks-silence-following-shocking-upset-loss-to-Brandon-Jenkins-202601",
@@ -4965,11 +4970,12 @@
     "https://bloodyelbow.com/?p=331666",
     "https://bloodyelbow.com/?p=331675",
     "83c11d08-21ee-3417-a445-18d1604603e2",
-    "https://www.mmafighting.com/510158/dnp-morning-report-template-dnp"
+    "https://www.mmafighting.com/510158/dnp-morning-report-template-dnp",
+    "ef2bef2a-a0ee-3a31-874d-fcaf9faae553"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 45,
+    "ai": 46,
     "staged": 3,
     "prio": 3,
     "lost": 0
