@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4fdcefa51c646c54": 1789495342.8284929,
     "268451620b8a48db": 1789481612.9929583,
     "3d2410587ccd7c0f": 1789481363.5724351,
     "681457efff94c1d1": 1789481297.9946632,
@@ -2498,8 +2499,7 @@
     "bc3df76691a639f4": 1788468857.637059,
     "0bb313738855630a": 1788468857.6340556,
     "f0340f09c875b897": 1788468794.1006885,
-    "cea42f8879fbbf14": 1788468793.798,
-    "296760f47a3d33a3": 1788468730.249589
+    "cea42f8879fbbf14": 1788468793.798
   },
   "initialized": true,
   "v": 4,
@@ -2561,16 +2561,8 @@
       "ts": "2026-09-13T20:30:41+00:00"
     },
     {
-      "t": "Jean Silva reveals has no memory of loss to Diego Lopes at Noche UFC last year",
-      "ts": "2026-09-13T16:11:37+00:00"
-    },
-    {
       "t": "Khamzat Chimaev hopes Sean Strickland loses first title defense: ‘All fighters are better than him’",
       "ts": "2026-09-13T21:00:00+00:00"
-    },
-    {
-      "t": "It's Time To Give Jean Silva a UFC Title Shot",
-      "ts": "2026-09-13T18:00:00+00:00"
     },
     {
       "t": "Arman Tsarukyan to earn $50,000 by having streamer corner him at UFC 331 as N3on claims it’s official",
@@ -3631,16 +3623,21 @@
       "source": "wrestling-world.com",
       "ts": "2026-09-15T14:00:59+00:00",
       "cluster": "c0601bdbbdf"
+    },
+    {
+      "t": "Brian Ortega shows cut that forced him out of UFC 331, teases new fight booked for November",
+      "source": "MMA Fighting",
+      "ts": "2026-09-15T13:24:50+00:00",
+      "cluster": "c9202192a17"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-15T14",
-    3
+    "2026-09-15T18",
+    1
   ],
   "yt_eval": [
-    "33b66fae-28a9-39c8-b1a2-46a52f81aabc",
     "e2cfacbe-8469-371b-83ac-d277f8fce749",
     "https://bloodyelbow.com/?p=329892",
     "https://www.mmafighting.com/?p=507987",
@@ -5139,25 +5136,17 @@
     "CBMiugFBVV95cUxOX09HVFdRdnNEVUZQX1JFdkt6Y1V2azVXLVM0N2tYSjRkeWpBdU9KS2c2enhaQ0F0a1FDbDh5WWw4OTkwdC1vdl9tZUlGOFJSMHE1a24ydXdIYjBueXVOaGd5NUpPRkZ5T3hHX2kzZm04RXhMWF9UbklteFozLUpudUgwa3NyMEdVeG56OElvZGdJM2ZjS2JWcXplYVNyRGt0elBNamlZOUhQemJWZ1lGcmxQM3R6S2ZUclE",
     "https://bloodyelbow.com/?p=331672",
     "https://www.mmafighting.com/?p=510373",
-    "CBMixAFBVV95cUxOQUNIUFcwZmUtal9Cdlh2SU0wTkx6NmlMYnRYS3pnOUk3eTFVaThJM04tX2VsSVBYeFgyQ3ZKMEdtSzBleC1GdGZITEtUN3VmSU8weldyWFJVSGV1a0JnZHg3T3JtSTJZTXNna0pvTzhPZ2xURlNkMjdKNTBtQkRCT3FjOG1YUy1ZR2ZnV1dCemFYb3VCbjBpcnU2aVlmd0U1V1UyaHRERGwtQWllYVIxOUV6WHIxS0p3RWNxbE1GdUtZTTNC"
+    "CBMixAFBVV95cUxOQUNIUFcwZmUtal9Cdlh2SU0wTkx6NmlMYnRYS3pnOUk3eTFVaThJM04tX2VsSVBYeFgyQ3ZKMEdtSzBleC1GdGZITEtUN3VmSU8weldyWFJVSGV1a0JnZHg3T3JtSTJZTXNna0pvTzhPZ2xURlNkMjdKNTBtQkRCT3FjOG1YUy1ZR2ZnV1dCemFYb3VCbjBpcnU2aVlmd0U1V1UyaHRERGwtQWllYVIxOUV6WHIxS0p3RWNxbE1GdUtZTTNC",
+    "https://www.mmafighting.com/?p=510378"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 74,
-    "staged": 3,
+    "ai": 75,
+    "staged": 4,
     "prio": 5,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-04T17:31:49.732762+00:00",
-      "t": "‘I know the date’… Nassourdine Imavov confirms he’ll face Sean Strickland for the UFC middleweight title next",
-      "names": [
-        "imavov",
-        "strickland"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-05T00:50:59.631125+00:00",
       "t": "Zabit Magomedsharipov returns after 7 years, beats UFC featherweight",
@@ -5971,6 +5960,14 @@
         "issues",
         "statement",
         "out"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-15T18:02:23.911661+00:00",
+      "t": "Brian Ortega shows cut that forced him out of UFC 331, teases new fight booked for November",
+      "names": [
+        "ortega"
       ],
       "img": "photo"
     }
