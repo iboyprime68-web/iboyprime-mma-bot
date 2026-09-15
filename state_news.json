@@ -1,5 +1,6 @@
 {
   "seen": {
+    "71256cc328cfecd0": 1789495562.5985806,
     "88230ab7bd15ef34": 1789495516.92844,
     "a9a7d94321ac5cbc": 1789495491.3685582,
     "d605b2d3ab711585": 1789495464.0266588,
@@ -2498,8 +2499,7 @@
     "4471d10106c27321": 1788476763.9528618,
     "6d7d6e096e1f1809": 1788476741.4891489,
     "3a8abec06f737411": 1788469248.5756142,
-    "38206d46a0f37ba2": 1788469225.2804334,
-    "545c2917f7c144e7": 1788469182.6546347
+    "38206d46a0f37ba2": 1788469225.2804334
   },
   "initialized": true,
   "v": 4,
@@ -3671,16 +3671,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-15T18:00:00+00:00",
       "cluster": "cfe517e46cf"
+    },
+    {
+      "t": "Nate Diaz open to joining new Ki MMA promotion",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-15T14:31:57+00:00",
+      "cluster": "c08bd91bd0c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T18",
-    8
+    9
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329895",
     "CBMiaEFVX3lxTFBoRF9TN2huc2lEOG1vd1V0UWltQzBTWG12VU5SQ1plVzNYc0lmOHJNNUV5WjdfWUxtYUdhcUhBV01qdFpvVUZ3QmhMeHBJVUNzZl9DQVJIdHZVZ1liUGRIUjQtVXZ1emUy",
     "CBMipAFBVV95cUxQNHR4SC1HVEhwbHVJVEpuSVJBYThFVTN1aHJoa2VWUVZYSUxCblZSU2QzZ1NGaXR4SzBCNTE3MTd3eW5tc3AzTmx1ZG1iZFo0TXkzdVIzcmJNOVNRRTRjUWZhWVloNDRTU0tnTlpBSnExc0NXdzJqTk9pNGttLVBZRzdRUDA2ODdZWGsxbWtIZDlxcEx1R2xMSGg3eWpfRGpkYzIxXw",
     "CBMiR0FVX3lxTE5fUW1JTnZoYnhhenJUZEZYWDg0ZkQtanpTSlB5YTFrRW5PazZGeUFDb2VCQmdNUFcyaUtjUGJCMUFpVzRYRmVz",
@@ -5179,11 +5184,12 @@
     "https://bloodyelbow.com/?p=331669",
     "https://bloodyelbow.com/?p=331680",
     "d98d9b61-f10e-3d9e-b2c9-ab0348347e6b",
-    "https://bloodyelbow.com/?p=331734"
+    "https://bloodyelbow.com/?p=331734",
+    "fa2a21b8-b297-3a28-bd08-7c9a05435830"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 82,
+    "ai": 83,
     "staged": 5,
     "prio": 5,
     "lost": 0
