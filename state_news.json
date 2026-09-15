@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f33c0a7daa348b2c": 1789457256.466596,
     "29a8bb2d240fd922": 1789457232.3864217,
     "d9683da6594c0a2b": 1789457231.0501757,
     "36d0d834e5edba80": 1789438140.2992883,
@@ -2498,8 +2499,7 @@
     "3a72de6805dd2bbb": 1788424408.8034146,
     "441c3c227a385738": 1788424408.8034134,
     "76124f2a9fc16c33": 1788424408.8034124,
-    "a44d4780a7282cdb": 1788424408.8034115,
-    "8514552a97cb0bd2": 1788424408.8034103
+    "a44d4780a7282cdb": 1788424408.8034115
   },
   "initialized": true,
   "v": 4,
@@ -3349,16 +3349,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-15T00:58:01+00:00",
       "cluster": "cdd0e7da791"
+    },
+    {
+      "t": "Matchmaking the UFC heavyweight division following Tom Aspinall’s title vacation",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-15T04:00:00+00:00",
+      "cluster": "c5b74d7b009"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T07",
-    1
+    2
   ],
   "yt_eval": [
-    "f3d2597c-93bf-3234-a395-763914259c55",
     "c77a67c0-87ce-3a17-bec4-8058dc76c33d",
     "65f85b0f-2a24-3da6-9b9f-dd7b9c0dcd7b",
     "d10b3bb9-7cd6-388d-a1d1-e4c09d05c28c",
@@ -4857,27 +4862,17 @@
     "https://bloodyelbow.com/?p=331624",
     "065d9aaf-a5f6-3917-82eb-20c2890fc23e",
     "CBMimwFBVV95cUxNYVQ4SlU2QjJjN1piblpmY3Q2Mnk3MHlVRkVTdThXZGlKNU44VDhjYjdub1lOTnByV3oxVDJIRU80MjVzZjJvdHU2c3pHZ3hvQ0xmc2lDY1NIRUhFVWNpRmFCb0lDYk1TOTJMVEZpVFJQNkNmRVNDU1lXM2l2QXBNYU9zbzJOSEVfcUdSY0JfMFVPRWVUY0QyU3FfYw",
-    "cc3ded71-e19f-3c30-8cea-86eb6de6b049"
+    "cc3ded71-e19f-3c30-8cea-86eb6de6b049",
+    "https://bloodyelbow.com/?p=331635"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 27,
+    "ai": 28,
     "staged": 2,
-    "prio": 2,
+    "prio": 3,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-04T08:43:04.667748+00:00",
-      "t": "Khamzat Chimaev Hints at UFC Middleweight Title Bout",
-      "names": [
-        "khamzat",
-        "chimaev",
-        "hints",
-        "middleweight"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-04T08:47:38.003223+00:00",
       "t": "Cris Cyborg wants to ‘save’ UFC 332 with Amanda Nunes revenge fight",
@@ -5684,6 +5679,15 @@
         "moicano"
       ],
       "img": "cutout:brian-ortega"
+    },
+    {
+      "ts": "2026-09-15T07:27:37.492314+00:00",
+      "t": "Matchmaking the UFC heavyweight division following Tom Aspinall’s title vacation",
+      "names": [
+        "matchmaking",
+        "aspinall"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -5723,7 +5727,8 @@
     "f7528983ad8c4e5b": 1789309527.9902766,
     "6914395cb37aebf5": 1789388203.97258,
     "0608909dc2825a33": 1789436016.2950168,
-    "da749be7d0994efd": 1789436412.5203252
+    "da749be7d0994efd": 1789436412.5203252,
+    "f33c0a7daa348b2c": 1789457256.0912993
   },
   "pinged_titles": [
     [
@@ -5740,6 +5745,14 @@
       [
         "moicano",
         "ortega"
+      ]
+    ],
+    [
+      "Matchmaking the UFC heavyweight division following Tom Aspinall’s title vacation",
+      1789457256.0912993,
+      [
+        "aspinall",
+        "matchmaking"
       ]
     ]
   ]
