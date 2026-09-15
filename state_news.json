@@ -1,5 +1,8 @@
 {
   "seen": {
+    "65abf423053eb4a1": 1789496742.4770827,
+    "a2ce3b73a2201905": 1789496741.9692893,
+    "2bb3f0cdbfc2009c": 1789496741.9684117,
     "cefce6f1f769b1e2": 1789496678.0482123,
     "fe5bc5f1204b2520": 1789496614.2201912,
     "0aaa917badef6b08": 1789496545.233754,
@@ -2496,10 +2499,7 @@
     "eddf6c3176a65e9b": 1788479948.2926152,
     "407c0723b052135b": 1788479884.959694,
     "5e453a7dc2d14f61": 1788478897.1605146,
-    "d10f8fb71b0dd144": 1788478772.41631,
-    "6ca92f17517e54a8": 1788478647.5083396,
-    "ebb42168e8b32788": 1788478647.5058928,
-    "5631d573709855ff": 1788478275.237221
+    "d10f8fb71b0dd144": 1788478772.41631
   },
   "initialized": true,
   "v": 4,
@@ -3785,13 +3785,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-15T18:01:24+00:00",
       "cluster": "c64c49df135"
+    },
+    {
+      "t": "UFC 331 fight card -- Joshua Van vs. Alexandre Pantoja 2: Five biggest storylines to follow in Los Angeles",
+      "source": "CBS Sports",
+      "ts": "2026-09-15T18:05:27+00:00",
+      "cluster": "cf037a284ef"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T18",
-    27
+    28
   ],
   "yt_eval": [
     "CBMib0FVX3lxTE9RS1k3WC1jelZnNnZoUXllWDVfMFNpUVN4RFZubGRQY1VoSTgyR2M1M1ZCN2VyWUppMnhwZHBMbGY4Rmg1aENpdFlhZXdMWk5vWVNySDFMYXltVnBibmxIQllNNUc1WjNHb1VhTjQ2VQ",
