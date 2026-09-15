@@ -1,5 +1,7 @@
 {
   "seen": {
+    "42c38ddfa6ee8b5d": 1789457433.6144967,
+    "2d80e8476ca1b2f8": 1789457433.3186672,
     "35b8feec7fd34299": 1789457368.6432827,
     "e95b5a8f027db98c": 1789457303.3800852,
     "f33c0a7daa348b2c": 1789457256.466596,
@@ -2497,9 +2499,7 @@
     "12b398e8737436a8": 1788424408.8034196,
     "6225a95234449712": 1788424408.8034182,
     "dcd6a23c0037ca5d": 1788424408.8034167,
-    "00eedf70ed5b9c08": 1788424408.8034155,
-    "3a72de6805dd2bbb": 1788424408.8034146,
-    "441c3c227a385738": 1788424408.8034134
+    "00eedf70ed5b9c08": 1788424408.8034155
   },
   "initialized": true,
   "v": 4,
@@ -3367,16 +3367,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-15T02:51:17+00:00",
       "cluster": "c9c0fa76eaf"
+    },
+    {
+      "t": "The Thrill and Agony: UFC Fight Night 288 winner and loser reactions",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-15T03:00:31+00:00",
+      "cluster": "c7459a1c25a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T07",
-    4
+    5
   ],
   "yt_eval": [
-    "d10b3bb9-7cd6-388d-a1d1-e4c09d05c28c",
     "54072127-0553-3b11-ae86-17a28366f19c",
     "https://bloodyelbow.com/?p=329876",
     "a47a91f7-ccdf-3a42-9580-abab4afedb50",
@@ -4875,11 +4880,12 @@
     "cc3ded71-e19f-3c30-8cea-86eb6de6b049",
     "https://bloodyelbow.com/?p=331635",
     "6c825acb-2583-3e1f-bc00-2e52c2de2c68",
-    "a1350f2a-149d-3147-9378-c140ce960b6f"
+    "a1350f2a-149d-3147-9378-c140ce960b6f",
+    "9ec79a03-6c37-3b3d-bcb9-386f2bf7bd82"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 30,
+    "ai": 31,
     "staged": 2,
     "prio": 3,
     "lost": 0
