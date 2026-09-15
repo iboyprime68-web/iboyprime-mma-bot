@@ -1,5 +1,7 @@
 {
   "seen": {
+    "55e6fd098049b149": 1789507015.3864963,
+    "416dd9971a6262e5": 1789507014.1347148,
     "df3b1ed92a3db213": 1789506949.7245905,
     "29572bd66c71ab85": 1789506949.4029806,
     "856a9dd90ca11992": 1789506949.402141,
@@ -2497,9 +2499,7 @@
     "d13a1bb35969bc76": 1788511520.0850925,
     "e1cff58e669145c3": 1788511453.1011317,
     "f15c5bc38441c87a": 1788511452.6282778,
-    "4e9c62f20415a240": 1788511383.5813081,
-    "1d6c33c119e86ffe": 1788511317.5261862,
-    "e47c69f4c75f7848": 1788511317.271206
+    "4e9c62f20415a240": 1788511383.5813081
   },
   "initialized": true,
   "v": 4,
@@ -3829,13 +3829,19 @@
       "source": "RMU Sentry Media",
       "ts": "2026-09-15T20:17:53+00:00",
       "cluster": "c9836d1ead7"
+    },
+    {
+      "t": "Yoel Romero: 'Of course I'm finishing' Darren Till at BKFC 94",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-15T20:20:30+00:00",
+      "cluster": "c6781700dd8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T21",
-    7
+    8
   ],
   "yt_eval": [
     "CBMib0FVX3lxTE9RS1k3WC1jelZnNnZoUXllWDVfMFNpUVN4RFZubGRQY1VoSTgyR2M1M1ZCN2VyWUppMnhwZHBMbGY4Rmg1aENpdFlhZXdMWk5vWVNySDFMYXltVnBibmxIQllNNUc1WjNHb1VhTjQ2VQ",
