@@ -1,5 +1,6 @@
 {
   "seen": {
+    "becda001d7a79ffc": 1789478416.986933,
     "446da0f2783c0041": 1789478393.6851037,
     "4216358540b31622": 1789478369.143984,
     "5e9f7fdd23e45c8b": 1789478345.4023573,
@@ -2498,8 +2499,7 @@
     "7851f0d018a6dfe5": 1788442775.3977377,
     "bc51032223ab6c00": 1788442464.4001174,
     "168601d9204947fb": 1788442154.4840736,
-    "a3bf293cad79dc18": 1788442029.0148637,
-    "673eacb289759b90": 1788441965.9971836
+    "a3bf293cad79dc18": 1788442029.0148637
   },
   "initialized": true,
   "v": 4,
@@ -3451,16 +3451,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-15T11:11:13+00:00",
       "cluster": "cc995fd0ce9"
+    },
+    {
+      "t": "Morning Report &#124; Ryan Garcia was ‘disappointed’ Oscar De La Hoya didn’t show up for his fight with Conor Benn",
+      "source": "MMA Fighting",
+      "ts": "2026-09-15T13:00:31+00:00",
+      "cluster": "c74547dd213"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T13",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMijAFBVV95cUxQcXhCNUMxeUppbnZsMWV3WHBrOEJRMmFKZnNUOERGNDV5ZE9oREpEQ3JoWm9Dbkg2LUtLNUw1UW1hWlN4UE9wdUdYZG5jb0dWaFB5Nnl6R3lOakZKSTVzSzdCNHhiZ01JUzRrN0dhYXl0SUdNa25JZjgzeVg3WmlUTnRFOGFoR3lENDhGTg",
     "CBMikAFBVV95cUxNdVZUOXAtQzRBZ2RfZTlJTnBNNGltTW9vOEpFMFAwc2pTQ2xZU3NXbUlodVFkczZuRUFETFIxUGdYSkNQUnkxaXZLdkpxa244ZUhBZC1DemZxUTk2b0hJMlhVa2FyY1RnX0w4ei10SElJbkkyYVRya283QTh5b3BZU2JWUG5mbGJJckktamtkekQ",
     "https://www.sherdog.com/news/news/Jiri-Prochazka-teases-new-challenge-as-UFC-return-takes-shape-202599",
     "https://www.sherdog.com/news/news/Yadong-Song-defends-Usman-Nurmagomedov-after-bizarre-UFC-cage-incident-202600",
@@ -4959,11 +4964,12 @@
     "https://www.mmafighting.com/?p=510353",
     "https://bloodyelbow.com/?p=331666",
     "https://bloodyelbow.com/?p=331675",
-    "83c11d08-21ee-3417-a445-18d1604603e2"
+    "83c11d08-21ee-3417-a445-18d1604603e2",
+    "https://www.mmafighting.com/510158/dnp-morning-report-template-dnp"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 44,
+    "ai": 45,
     "staged": 3,
     "prio": 3,
     "lost": 0
