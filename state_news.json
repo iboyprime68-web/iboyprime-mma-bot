@@ -1,5 +1,6 @@
 {
   "seen": {
+    "446da0f2783c0041": 1789478393.6851037,
     "4216358540b31622": 1789478369.143984,
     "5e9f7fdd23e45c8b": 1789478345.4023573,
     "8c2b81490d2e91db": 1789478345.048929,
@@ -2498,8 +2499,7 @@
     "bc51032223ab6c00": 1788442464.4001174,
     "168601d9204947fb": 1788442154.4840736,
     "a3bf293cad79dc18": 1788442029.0148637,
-    "673eacb289759b90": 1788441965.9971836,
-    "0d3324932e170c47": 1788441965.7898095
+    "673eacb289759b90": 1788441965.9971836
   },
   "initialized": true,
   "v": 4,
@@ -3445,16 +3445,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-15T13:00:00+00:00",
       "cluster": "c0febd233aa"
+    },
+    {
+      "t": "Jon Jones taunts Tom Aspinall as old rival gives up UFC title",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-15T11:11:13+00:00",
+      "cluster": "cc995fd0ce9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T13",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMiuAFBVV95cUxOWGhPR3RYRGRsUHNCS2xtd0VHZkJuMDB4XzZoY2xveHVfLUlEaWExYTlET0FQbUxtMGkwRU9oYVFoUGdCdFNBUUYxalpDYVF1d1I3ZlF0N0FQOFBLUGxNb1ZJUm5FZG1Tb1FlMzdoX21LRVI0MV9UeTdUR0tJVzNtZUhfa0k1NG1ZSVNEVmlqTGYybHJRQ005NGJuRFo3M3JGRFlVUFl4SWdqNEJKaDZSUGd4bU1NRHpZ",
     "CBMijAFBVV95cUxQcXhCNUMxeUppbnZsMWV3WHBrOEJRMmFKZnNUOERGNDV5ZE9oREpEQ3JoWm9Dbkg2LUtLNUw1UW1hWlN4UE9wdUdYZG5jb0dWaFB5Nnl6R3lOakZKSTVzSzdCNHhiZ01JUzRrN0dhYXl0SUdNa25JZjgzeVg3WmlUTnRFOGFoR3lENDhGTg",
     "CBMikAFBVV95cUxNdVZUOXAtQzRBZ2RfZTlJTnBNNGltTW9vOEpFMFAwc2pTQ2xZU3NXbUlodVFkczZuRUFETFIxUGdYSkNQUnkxaXZLdkpxa244ZUhBZC1DemZxUTk2b0hJMlhVa2FyY1RnX0w4ei10SElJbkkyYVRya283QTh5b3BZU2JWUG5mbGJJckktamtkekQ",
     "https://www.sherdog.com/news/news/Jiri-Prochazka-teases-new-challenge-as-UFC-return-takes-shape-202599",
@@ -4953,11 +4958,12 @@
     "CBMib0FVX3lxTE5WZjBOb012U25Tamlkc3JITFByU3pqQVR2aUs5VFZaaGlyNEpqUUd2eGIxcldLN1RxRU1ocHhfU1YzUm5Ja3hQVEVQVDRadHdpajFlNGhiRlRUVVlaWFNWelVBQXAxbEhpQmlSYzRVdw",
     "https://www.mmafighting.com/?p=510353",
     "https://bloodyelbow.com/?p=331666",
-    "https://bloodyelbow.com/?p=331675"
+    "https://bloodyelbow.com/?p=331675",
+    "83c11d08-21ee-3417-a445-18d1604603e2"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 43,
+    "ai": 44,
     "staged": 3,
     "prio": 3,
     "lost": 0
