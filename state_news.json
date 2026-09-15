@@ -1,5 +1,8 @@
 {
   "seen": {
+    "ad295f57ec8484cd": 1789435005.8196237,
+    "51500f88731bf44c": 1789435005.335394,
+    "f332b473d98cb118": 1789435005.332097,
     "aae1d1368d1ec67d": 1789427631.5019417,
     "008c8fd2b15d572c": 1789427587.5395007,
     "100a1f7dd76852eb": 1789427442.3276281,
@@ -2496,10 +2499,7 @@
     "ce521d2a838b82ad": 1788424408.3120363,
     "a81527c09de9064d": 1788424408.3120346,
     "6939e54b5d754aad": 1788424408.3120327,
-    "80e5ea263488914b": 1788424408.3120315,
-    "e9402335e8daa943": 1788424408.3120296,
-    "621d0ee9cd64464b": 1788424408.3120284,
-    "6c670177068c4dc9": 1788424408.3120267
+    "80e5ea263488914b": 1788424408.3120315
   },
   "initialized": true,
   "v": 4,
@@ -3187,16 +3187,21 @@
       "source": "MMAWeekly.com",
       "ts": "2026-09-14T23:10:01+00:00",
       "cluster": "c9a00208f3c"
+    },
+    {
+      "t": "Jon Jones fires back at Islam Makhachev's disrespect",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-14T23:34:36+00:00",
+      "cluster": "cbb2cf6f54f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-14T23",
-    3
+    "2026-09-15T01",
+    1
   ],
   "yt_eval": [
-    "b42cc320-f4e6-39e9-ae57-aecd554ec9ae",
     "6e4ae91e-e50b-3770-bfc4-d39374522313",
     "CBMiW0FVX3lxTE90ajFESExfd1FiZVZQeEFGQ0liMEVUTThkLXhsTUxTaXZRRmtXOWhQdGZlOFRYZDNEaGw0ck55R1lXcWFTZWtJMGsxb2YwWEtaZ0Nwb0xkLWdUTFk",
     "CBMioAFBVV95cUxOV3hlVmZoVWNqMzJYUUZybzltbElwdFdLSFlsZEl0S2gtRmxIZGp1WFlkNnlsX0dXRjIwX0RjWVNQeDhuVDRyZnJLdGhROUZLMnB3V2g0M0E0VWNxLXZnbW5xQXJYX3JlMU0xLWpWc1oweEVweTVmT1BUTHF2VFZwbGpPX19iLW5FVURFQXV5QUh6UlFrZ1NmWDRaSjdKNGc2",
@@ -4695,13 +4700,14 @@
     "CBMioAFBVV95cUxPbWJBNlFLMXRVSElEcWlYX0FMMFJGTTNZbi02cUpaUl9xQ0F2T0RHS2VkeF9FdzBlRXBoRWFxWV81WDRLbUVnX3BnMHFOQ3NtLXpMZ2pGOHZvUXVyUU1pdkVJMVZkNGtsakcxYlk4T3FTdUJ2dDhHYWdNZkJlUDBqci1NQ0lGZFctdFB6YmhYSDZldHBxT2I3cGdDbmJnZmYx",
     "CBMiuwFBVV95cUxOUGQ2SjY4aW5TdEM0NDZiNllKLXNDcG5PR3R5QlZmVHRyUGluRDBUY0hXbEJnUkVIWGZDVEQ3Qjc4YU83UUM3cUMyRGl6RmZVYTZNNHpYUXlfQTFTWjAzOXVjZ2FKUU16MEFzOFdfN29DaENqeXpIZHR2N3d2VjNVQW02MVQyb0cyWGc1SEFubjhxeDd2QUIyOFJRU3FwRndzSTRzV2NSai1oTmw2M3dlYmhpY2ZIUGlsd29J",
     "CBMi1wFBVV95cUxOWWhhRS03MnBOQzRnS25BNU5DRUhMeno3SEVHQkhOVkI3YTRHUFlSTlJET29OYWxvUjJkX0NVMmtxd091VGZ6bzUzVnd3VF92ZldVTmlhWXpuRWR1c2tnRVRhckFUbUEtaGN0V2pJbzlINEg5ekhMblVITHpoY0NJWmR3VFZ3c2hCM2JiaVB4MnQ5bE9ZOUFrQmtQUFVqSV9HSTkzRUFTRms1dXZSRHNrdmtnRFNZZ1JubkNOY1M3M2VtelJZT3RaLTN5dWFaSjB0QTVBXzRBaw",
-    "https://www.mmamania.com/?p=472387"
+    "https://www.mmamania.com/?p=472387",
+    "166b3b75-b33a-3353-bb09-4c36f2687d6e"
   ],
   "daily": {
-    "d": "2026-09-14",
-    "ai": 120,
-    "staged": 6,
-    "prio": 1,
+    "d": "2026-09-15",
+    "ai": 1,
+    "staged": 0,
+    "prio": 0,
     "lost": 0
   },
   "staged_hist": [
