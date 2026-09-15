@@ -1,5 +1,7 @@
 {
   "seen": {
+    "8f8f88ead3a3a2e4": 1789498256.6384184,
+    "cd4af35789f354f0": 1789498256.041819,
     "77fbfad4621395c8": 1789497944.2505808,
     "4207f8371eec7a29": 1789497944.23271,
     "0835366be95e99cf": 1789497818.6180465,
@@ -2497,9 +2499,7 @@
     "573bc635fe62154c": 1788494087.9336805,
     "2c491d9be017d972": 1788494087.6319258,
     "49c3d124a8e8464c": 1788494087.6298273,
-    "3b0f754c57ead744": 1788494021.7305586,
-    "71ec14fb6ee880d2": 1788493955.7649453,
-    "fa80881eeaa439d6": 1788493889.658884
+    "3b0f754c57ead744": 1788494021.7305586
   },
   "initialized": true,
   "v": 4,
@@ -3833,13 +3833,19 @@
       "source": "Marco Eagle",
       "ts": "2026-09-15T18:33:00+00:00",
       "cluster": "c1d3aee012a"
+    },
+    {
+      "t": "UFC Featherweight Rankings 2025",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-15T18:40:10+00:00",
+      "cluster": "c544db8fdde"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T18",
-    35
+    36
   ],
   "yt_eval": [
     "CBMib0FVX3lxTE9RS1k3WC1jelZnNnZoUXllWDVfMFNpUVN4RFZubGRQY1VoSTgyR2M1M1ZCN2VyWUppMnhwZHBMbGY4Rmg1aENpdFlhZXdMWk5vWVNySDFMYXltVnBibmxIQllNNUc1WjNHb1VhTjQ2VQ",
