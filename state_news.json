@@ -1,5 +1,9 @@
 {
   "seen": {
+    "681457efff94c1d1": 1789481297.9946632,
+    "0aa2ba7a2572eea3": 1789481297.6586852,
+    "af08b10b8e810009": 1789481297.6414053,
+    "c23f222905cf511c": 1789481297.6239667,
     "483ad900b46bd66c": 1789481110.501136,
     "98dbb0180332e501": 1789481046.7684538,
     "028f0eefcbee0728": 1789481046.7641854,
@@ -2495,11 +2499,7 @@
     "cea42f8879fbbf14": 1788468793.798,
     "296760f47a3d33a3": 1788468730.249589,
     "e75f9967a93fab1a": 1788468666.1812313,
-    "ed883a11bd72dd7d": 1788468602.43021,
-    "3b8b2b08b4302801": 1788468579.3436172,
-    "2434f2d7b743ff16": 1788468535.5405927,
-    "4b97992df3c62584": 1788468471.7661028,
-    "e324ea47b8533cf8": 1788468407.8552706
+    "ed883a11bd72dd7d": 1788468602.43021
   },
   "initialized": true,
   "v": 4,
@@ -3625,16 +3625,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-15T13:23:44+00:00",
       "cluster": "caee0891646"
+    },
+    {
+      "t": "Tom Aspinall Vacates UFC Title After Devastating Injury Setback",
+      "source": "wrestling-world.com",
+      "ts": "2026-09-15T14:00:59+00:00",
+      "cluster": "c0601bdbbdf"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T14",
-    2
+    3
   ],
   "yt_eval": [
-    "9ea98d2c-d6d3-3647-8ecf-7e99f1fbb2ae",
     "33b66fae-28a9-39c8-b1a2-46a52f81aabc",
     "e2cfacbe-8469-371b-83ac-d277f8fce749",
     "https://bloodyelbow.com/?p=329892",
@@ -5133,11 +5138,12 @@
     "CBMidkFVX3lxTFA0RFpKM1NOcllMQTN1NDRBSWhZbjFaM3ZzajNwSUxHQklzQkZZaDhtUGNKVGVzaURDRno5ZlFsVDhiM3dmV2tHOEVpTVhWNk9KMGFLTEc0cFpwdVRhbVpyMHJqaHRGUzkxMFdmLWg2NUFmRDROc3c",
     "CBMiugFBVV95cUxOX09HVFdRdnNEVUZQX1JFdkt6Y1V2azVXLVM0N2tYSjRkeWpBdU9KS2c2enhaQ0F0a1FDbDh5WWw4OTkwdC1vdl9tZUlGOFJSMHE1a24ydXdIYjBueXVOaGd5NUpPRkZ5T3hHX2kzZm04RXhMWF9UbklteFozLUpudUgwa3NyMEdVeG56OElvZGdJM2ZjS2JWcXplYVNyRGt0elBNamlZOUhQemJWZ1lGcmxQM3R6S2ZUclE",
     "https://bloodyelbow.com/?p=331672",
-    "https://www.mmafighting.com/?p=510373"
+    "https://www.mmafighting.com/?p=510373",
+    "CBMixAFBVV95cUxOQUNIUFcwZmUtal9Cdlh2SU0wTkx6NmlMYnRYS3pnOUk3eTFVaThJM04tX2VsSVBYeFgyQ3ZKMEdtSzBleC1GdGZITEtUN3VmSU8weldyWFJVSGV1a0JnZHg3T3JtSTJZTXNna0pvTzhPZ2xURlNkMjdKNTBtQkRCT3FjOG1YUy1ZR2ZnV1dCemFYb3VCbjBpcnU2aVlmd0U1V1UyaHRERGwtQWllYVIxOUV6WHIxS0p3RWNxbE1GdUtZTTNC"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 73,
+    "ai": 74,
     "staged": 3,
     "prio": 5,
     "lost": 0
