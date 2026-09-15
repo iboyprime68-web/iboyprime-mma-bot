@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 10,
+  "cursor": 11,
   "staged_at": [
-    "2026-09-13T13:49:57.853101+00:00",
     "2026-09-13T18:49:54.978309+00:00",
     "2026-09-14T15:55:27.338883+00:00",
-    "2026-09-14T18:57:47.295677+00:00"
+    "2026-09-14T18:57:47.295677+00:00",
+    "2026-09-15T14:21:49.839146+00:00"
   ],
   "asked": [
-    "Who is the most dangerous grappler in the UFC right now?",
     "Who is the most feared wrestler in UFC history?",
     "Who is the best active UFC wrestler right now?",
     "Who is the best lightweight in UFC history?",
@@ -47,27 +46,28 @@
     "Who is the most must-watch fighter in the UFC right now?",
     "Who is the most frustrating inactive UFC champion of the last decade?",
     "With the heavyweight belt now vacant, who should fight for it first?",
-    "Which ref call makes you throw the remote?"
+    "Which ref call makes you throw the remote?",
+    "Which ref do you trust with a title fight?"
   ],
   "last_entry": {
-    "q": "Which ref call makes you throw the remote?",
+    "q": "Which ref do you trust with a title fight?",
     "type": "poll",
     "options": [
       {
-        "label": "Early stoppage",
-        "emoji": "🛑"
+        "label": "Herb Dean",
+        "emoji": "⚖️"
       },
       {
-        "label": "Late stoppage",
-        "emoji": "😬"
+        "label": "Marc Goddard",
+        "emoji": "🛡️"
       },
       {
-        "label": "Missed fence grab",
-        "emoji": "🤏"
+        "label": "Jason Herzog",
+        "emoji": "✅"
       },
       {
-        "label": "Pointless stand up",
-        "emoji": "🧍"
+        "label": "Big John McCarthy",
+        "emoji": "🚨"
       }
     ]
   }
