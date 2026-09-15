@@ -1,5 +1,7 @@
 {
   "seen": {
+    "29a8bb2d240fd922": 1789457232.3864217,
+    "d9683da6594c0a2b": 1789457231.0501757,
     "36d0d834e5edba80": 1789438140.2992883,
     "c2f3dda177b4d982": 1789438139.9387665,
     "d42bdbf359432759": 1789438073.2330332,
@@ -2497,9 +2499,7 @@
     "441c3c227a385738": 1788424408.8034134,
     "76124f2a9fc16c33": 1788424408.8034124,
     "a44d4780a7282cdb": 1788424408.8034115,
-    "8514552a97cb0bd2": 1788424408.8034103,
-    "348d9e1b970c799d": 1788424408.803409,
-    "78ca98cc070692bf": 1788424408.8034077
+    "8514552a97cb0bd2": 1788424408.8034103
   },
   "initialized": true,
   "v": 4,
@@ -3343,16 +3343,21 @@
       "source": "FASTBREAK.com.ph",
       "ts": "2026-09-15T02:03:37+00:00",
       "cluster": "c5e6aad3fe6"
+    },
+    {
+      "t": "DWCS Season 10, Episode 6: Akbar Abdullaev vs. Ednilson Santos AI Prediction, Results and Highlights",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-15T00:58:01+00:00",
+      "cluster": "cdd0e7da791"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-15T02",
-    3
+    "2026-09-15T07",
+    1
   ],
   "yt_eval": [
-    "CBMi5gFBVV95cUxPbXc1c3ZlcjFsaC00UG12QmNWMjRzSFBYUVZNWEhlWTZjMjBNX0ZPM09YaWN5dmRac2tFdENsVEw5Y3VrV3FzVEpreVRJSHdTU1p0QW9WQ0tMMXkyWW9PaFVua3F2a3c2ODFueDU0RmxtT3kwd0FTRFpEZ2Z6cHZZbkl6OVZfanNHRGxienIxYnVJb1FxWV9ScUdQeU9mX1VjRVdRX2IwZElZY0VvbTdTRS10Vi1lSWxJeHVWN181MFNNNVN0R3VXS2ZYTWpzaUtpYVI4dUtGZFdCcGJta2R0TTU5Nlp4UQ",
     "f3d2597c-93bf-3234-a395-763914259c55",
     "c77a67c0-87ce-3a17-bec4-8058dc76c33d",
     "65f85b0f-2a24-3da6-9b9f-dd7b9c0dcd7b",
@@ -4851,11 +4856,12 @@
     "CBMipAFBVV95cUxNdllIZk5Da0hqdG1OMGtSdTNjYVVqbHpQLW1hRVd1MmlvZl9CRjUycVVaSE15SVRCTXlCOW40WThtR0thVFJHZWNTMGdjdjVSNUYwUDNtREF0Z0ZjR2NhME0xZGJiajBDNXE0TDk4S2UwVDd5bE4zLWJWNDRQZmY0WDBpUElBMzRWa3BKRlFLeDZIQmIyZnROazdscXdWYXE2QlNXeQ",
     "https://bloodyelbow.com/?p=331624",
     "065d9aaf-a5f6-3917-82eb-20c2890fc23e",
-    "CBMimwFBVV95cUxNYVQ4SlU2QjJjN1piblpmY3Q2Mnk3MHlVRkVTdThXZGlKNU44VDhjYjdub1lOTnByV3oxVDJIRU80MjVzZjJvdHU2c3pHZ3hvQ0xmc2lDY1NIRUhFVWNpRmFCb0lDYk1TOTJMVEZpVFJQNkNmRVNDU1lXM2l2QXBNYU9zbzJOSEVfcUdSY0JfMFVPRWVUY0QyU3FfYw"
+    "CBMimwFBVV95cUxNYVQ4SlU2QjJjN1piblpmY3Q2Mnk3MHlVRkVTdThXZGlKNU44VDhjYjdub1lOTnByV3oxVDJIRU80MjVzZjJvdHU2c3pHZ3hvQ0xmc2lDY1NIRUhFVWNpRmFCb0lDYk1TOTJMVEZpVFJQNkNmRVNDU1lXM2l2QXBNYU9zbzJOSEVfcUdSY0JfMFVPRWVUY0QyU3FfYw",
+    "cc3ded71-e19f-3c30-8cea-86eb6de6b049"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 26,
+    "ai": 27,
     "staged": 2,
     "prio": 2,
     "lost": 0
