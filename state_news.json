@@ -1,5 +1,6 @@
 {
   "seen": {
+    "56bb8c275875591e": 1789480830.5215762,
     "2b5b921c1d2e9f17": 1789480725.0613801,
     "f97960ffdc1aa992": 1789480725.0610807,
     "60c831206cb0a338": 1789480537.985375,
@@ -2498,8 +2499,7 @@
     "c596cd575d2027dd": 1788458384.461736,
     "ed3c7d630e78dbfd": 1788458383.1707358,
     "045fa05858ac81c1": 1788458383.1704578,
-    "a5ad7cf3658774da": 1788458383.1688676,
-    "b51b643e082f92e2": 1788458383.167547
+    "a5ad7cf3658774da": 1788458383.1688676
   },
   "initialized": true,
   "v": 4,
@@ -3613,16 +3613,21 @@
       "source": "LowKickMMA.com",
       "ts": "2026-09-15T13:48:58+00:00",
       "cluster": "c2bacb0554e"
+    },
+    {
+      "t": "New Tom Aspinall recovery timeline revealed after injury canceled Ciryl Gane rematch at UFC 334",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-15T14:00:00+00:00",
+      "cluster": "cca23d8a3a3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-15T13",
-    31
+    "2026-09-15T14",
+    1
   ],
   "yt_eval": [
-    "9cc1b79b-2770-3718-a860-c239459e8fb8",
     "2d36e5f5-b2de-306c-9720-c92f2605b5ed",
     "9ea98d2c-d6d3-3647-8ecf-7e99f1fbb2ae",
     "33b66fae-28a9-39c8-b1a2-46a52f81aabc",
@@ -5121,11 +5126,12 @@
     "CBMib0FVX3lxTE5XWFNuYzJZRF84UFBJMS1RaGR1MjMzM0NQT1Y5NGxaUUd3aDFYZVliWHp3ODY1S1I2NHpmcFRLR0lQR2xQdTZkM3kteTZIdTVMREJoaDUyajZLdFZ6bGxsUjdKVUVKZy1Sb25yYmkwUQ",
     "CBMi2AFBVV95cUxOcTYxN1ZLX0RQM19ib1J6cUJvaHpEU0NTeUhHdjhhcTg4UnVGWFpsMkdiUGN6UklDQXJEWGVET2VnUVFiSG5tRzBmaHZRSTFNWmRfTi13c0dZVFRidENNa2NjZkU4OVlMWS03cnQ0YzVieUg1ZDNGdzZkY09kVjlQX1JfSTd3TVJaLWRjOFVyNDRYeDNENm1NdTRhNnNpTXpMZllxY2xUVjFRWktLeWd4bHVqdkJLNUY1XzBWY3J4M2FxUGRBNlZRVWpBRENwWDg3eGYwZXJzUHE",
     "CBMidkFVX3lxTFA0RFpKM1NOcllMQTN1NDRBSWhZbjFaM3ZzajNwSUxHQklzQkZZaDhtUGNKVGVzaURDRno5ZlFsVDhiM3dmV2tHOEVpTVhWNk9KMGFLTEc0cFpwdVRhbVpyMHJqaHRGUzkxMFdmLWg2NUFmRDROc3c",
-    "CBMiugFBVV95cUxOX09HVFdRdnNEVUZQX1JFdkt6Y1V2azVXLVM0N2tYSjRkeWpBdU9KS2c2enhaQ0F0a1FDbDh5WWw4OTkwdC1vdl9tZUlGOFJSMHE1a24ydXdIYjBueXVOaGd5NUpPRkZ5T3hHX2kzZm04RXhMWF9UbklteFozLUpudUgwa3NyMEdVeG56OElvZGdJM2ZjS2JWcXplYVNyRGt0elBNamlZOUhQemJWZ1lGcmxQM3R6S2ZUclE"
+    "CBMiugFBVV95cUxOX09HVFdRdnNEVUZQX1JFdkt6Y1V2azVXLVM0N2tYSjRkeWpBdU9KS2c2enhaQ0F0a1FDbDh5WWw4OTkwdC1vdl9tZUlGOFJSMHE1a24ydXdIYjBueXVOaGd5NUpPRkZ5T3hHX2kzZm04RXhMWF9UbklteFozLUpudUgwa3NyMEdVeG56OElvZGdJM2ZjS2JWcXplYVNyRGt0elBNamlZOUhQemJWZ1lGcmxQM3R6S2ZUclE",
+    "https://bloodyelbow.com/?p=331672"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 71,
+    "ai": 72,
     "staged": 3,
     "prio": 5,
     "lost": 0
