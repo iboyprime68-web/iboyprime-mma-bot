@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cd98442535e1b135": 1789495392.804102,
     "c888b62f9dbeb8ab": 1789495369.2882345,
     "4fdcefa51c646c54": 1789495342.8284929,
     "268451620b8a48db": 1789481612.9929583,
@@ -2498,8 +2499,7 @@
     "b29208c15b3e4c43": 1788468923.6041224,
     "9ebb1e0be2d1c541": 1788468858.0419273,
     "bc3df76691a639f4": 1788468857.637059,
-    "0bb313738855630a": 1788468857.6340556,
-    "f0340f09c875b897": 1788468794.1006885
+    "0bb313738855630a": 1788468857.6340556
   },
   "initialized": true,
   "v": 4,
@@ -3635,16 +3635,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-15T13:49:07+00:00",
       "cluster": "c771b2e589c"
+    },
+    {
+      "t": "Renato Moicano goes off on Brian Ortega after he ‘chickened out’ of UFC 331: ‘Nobody is ever going to trust you again’",
+      "source": "MMA Fighting",
+      "ts": "2026-09-15T13:51:08+00:00",
+      "cluster": "c6a4bc11d0b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T18",
-    2
+    3
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329892",
     "https://www.mmafighting.com/?p=507987",
     "1f7c9104-2dbf-30a7-b5d4-67f3ad2073be",
     "39ad46c3-2aef-35a0-9b30-9392030d36fa",
@@ -5143,11 +5148,12 @@
     "https://www.mmafighting.com/?p=510373",
     "CBMixAFBVV95cUxOQUNIUFcwZmUtal9Cdlh2SU0wTkx6NmlMYnRYS3pnOUk3eTFVaThJM04tX2VsSVBYeFgyQ3ZKMEdtSzBleC1GdGZITEtUN3VmSU8weldyWFJVSGV1a0JnZHg3T3JtSTJZTXNna0pvTzhPZ2xURlNkMjdKNTBtQkRCT3FjOG1YUy1ZR2ZnV1dCemFYb3VCbjBpcnU2aVlmd0U1V1UyaHRERGwtQWllYVIxOUV6WHIxS0p3RWNxbE1GdUtZTTNC",
     "https://www.mmafighting.com/?p=510378",
-    "https://www.mmafighting.com/?p=510390"
+    "https://www.mmafighting.com/?p=510390",
+    "https://www.mmafighting.com/?p=510396"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 76,
+    "ai": 77,
     "staged": 4,
     "prio": 5,
     "lost": 0
