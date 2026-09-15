@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7f7196d88457c5d0": 1789478725.5921795,
     "4e2995d45049610a": 1789478661.147537,
     "a4a4b0d106db3d6c": 1789478636.4063425,
     "9284ee0722013bf8": 1789478591.7640665,
@@ -2498,8 +2499,7 @@
     "3598513aabdcfd6c": 1788443029.9742558,
     "b1206c12f4c6033b": 1788443029.9723701,
     "4d642db714c3379a": 1788443029.9698322,
-    "29735406a280cf28": 1788442966.8728135,
-    "e9aef8ee523e0cb2": 1788442902.6885188
+    "29735406a280cf28": 1788442966.8728135
   },
   "initialized": true,
   "v": 4,
@@ -3487,16 +3487,21 @@
       "source": "TodayPress.tv",
       "ts": "2026-09-15T12:25:27+00:00",
       "cluster": "cc9704942e4"
+    },
+    {
+      "t": "“It’s a shame”: Why did Michael Page feel disrespected at the end of his UFC journey despite a 5-1 record",
+      "source": "The Times of India",
+      "ts": "2026-09-15T12:30:00+00:00",
+      "cluster": "c5470b7232f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T13",
-    10
+    11
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Undefeated-finisher-gets-UFC-debut-vs-Nathaniel-Wood-on-5-days-notice-202603",
     "https://www.sherdog.com/news/news/Undefeated-prospect-loses-second-DWCS-shot-due-to-Visa-issue-202605",
     "https://www.sherdog.com/news/news/Dana-White-saw-Ian-Garry-as-too-passive-Javier-Mendez-saw-genius-202606",
     "https://www.mmamania.com/?p=468858",
@@ -4995,11 +5000,12 @@
     "CBMiuwFBVV95cUxPUVdqTHJCaDBkbThKSVpoNWdVYmdGWHRtU3VNYkIxM1gxeVJFYlluSFpUOHZJYWRTcTRaS3FnSjJNQlhYczAyYmlHeU1sQzk4SnBXZnd3Y0dGaXU0R080YVcyazM4ZVZ1YUFMckhCUHFreEl5NUdtelRfTWpxc0lMVjVMal9TR1BtdnNSVVYzZ3RDN3p6V1kxQ1AwX3U3eUtJSF8zXzF3bVlBbzBoU3ZPWllGeWxrNG9JTE1Z0gHAAUFVX3lxTE5CQTAyWmJRWHRydnE3YTBSNWM3LWUyU3NxdmV3Y1FmQUkxdVJyY3M3UnZzOTZlYm8yYzFxQU5QWmoyYm1GRHhOM0huOXlIOEczc2NNVVdiX0NwOTM3WmI0SHM0NGZOdEFVNkQ4MnNrTUVMMzlfRDNTbHlIRk9KYVBDM19xZHAxeS1WOW9MTzZ6TXoyRUdwLUl1X2pfVmVGMUo3RE5nQTNiRFo2YU5tck94OVhXRjJtajVfM19lQ25Bdw",
     "CBMikwFBVV95cUxPYjVsZklOblhJSlU3WkVVUENfMzRCZmU0dVdFNUtUYl9hQ1o5cHJYYnlSWm1CZFJvRU82TWd5ZjF1bDd1Vm1QSlVNQ0d6VWNWanZ6ckZ2Z285cVpkam10TkdaUzBUd25kMmd4TWtUbnpaX0JCSzRnVGxZV0JSeGpnY01yRU1qMldzZW5CNjdybUl2dkU",
     "https://www.mmamania.com/?p=472471",
-    "CBMiiAFBVV95cUxNZlNNMzVQMUZ6cDdZNGxMSXBTVHc5bVpZOTRzTE40a0xmb0hfVklQWFZ3Xy1oajJpTklqU2cwUG80VFZNYUNJWV9tTzV4MDBLVVQyQUc3b25NeUNNbGs0ZHo2cGZxbS1vQTJpSnpOcUZTcGZCUjV1SUZFWC1iNlIzbUd5NnFKVlhs"
+    "CBMiiAFBVV95cUxNZlNNMzVQMUZ6cDdZNGxMSXBTVHc5bVpZOTRzTE40a0xmb0hfVklQWFZ3Xy1oajJpTklqU2cwUG80VFZNYUNJWV9tTzV4MDBLVVQyQUc3b25NeUNNbGs0ZHo2cGZxbS1vQTJpSnpOcUZTcGZCUjV1SUZFWC1iNlIzbUd5NnFKVlhs",
+    "CBMiiwJBVV95cUxQX28zUm5NMHM1a1NTLXY1S2VfTHJlVlZZV0d3R1FMN2RTMG5JeEtVbGV2ejV4S194amdfaEJUWjR3TVlERnpzZURxMW41dG5TdEFYTGlmMnNkZW9TU2xRRkgzR2ZzVnhSZkgxWXpvNVJkUlE5RXozcVhLQ1FYWjZFTXdTRFZfQ1VSSXhzaTRzaE55ODZnRVp4N2c3ZHktSVg0T0RMQjc1djVkeFZCR1dWM09vcjhtRDFzaERRaTJDdENVM0NLOEs2TllvajBEMVJqbnNrZzZLRXpvdUp0NXk2OFNSejhRVTMzWkt3NDI3a2Q1azJOQlo5Um43UUpjRVpzRjRmNlJEb05YQmfSAZACQVVfeXFMTmVicklkdUN4d2xVdXAtNnNqZmRUMnNuNGlDbGQ0VmI1R2NieHJBbk1qU2lhUlNoQkZuNmR1UDhTYnY3NFpnU3B0a1pCZGpmNGxFTTZucERJWW11T2dwdGNtSEdEeTVvRFR3bG1Id3l6Ny14dUlaZUdfSzlFUmJneTRNZUZSTVQwQ3JQbkEwWXNlNDFBdGpuZnZXVFhpcWRhMHQxbHdZeTJ5SGNWN2EwOUFERzJkSHZaVWt6YlRFd2RTQ01mZHJGb04wYktnNW5aZUlabkpEX2xVbU1mVDFCUW4yNGV4T0pLT0tKTUJDOGRtcHVFRkxKQmtJTmZtX1M3bzFMSXE2SFBnY1VMMmNqbkI"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 50,
+    "ai": 51,
     "staged": 3,
     "prio": 3,
     "lost": 0
