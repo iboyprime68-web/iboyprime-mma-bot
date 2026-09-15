@@ -1,5 +1,8 @@
 {
   "seen": {
+    "5e9f7fdd23e45c8b": 1789478345.4023573,
+    "8c2b81490d2e91db": 1789478345.048929,
+    "21caff47791250a3": 1789478345.0468135,
     "e33f932a488bdaff": 1789478321.6005194,
     "31aa504e40417c71": 1789460029.5416834,
     "5eab1e34c7a6782d": 1789459964.2890105,
@@ -2496,10 +2499,7 @@
     "a3bf293cad79dc18": 1788442029.0148637,
     "673eacb289759b90": 1788441965.9971836,
     "0d3324932e170c47": 1788441965.7898095,
-    "1c6d4c037b494b71": 1788441902.2192452,
-    "92dcf83ba80c97cf": 1788441879.3038576,
-    "9cc563df317f3127": 1788441856.9954264,
-    "c33cb985b8ff6e76": 1788441856.703628
+    "1c6d4c037b494b71": 1788441902.2192452
   },
   "initialized": true,
   "v": 4,
@@ -3433,16 +3433,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-15T06:26:47+00:00",
       "cluster": "ce2d19153f5"
+    },
+    {
+      "t": "Nate Diaz ‘100%’ interested in signing for new UFC rival after turning Octagon return down",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-15T12:00:00+00:00",
+      "cluster": "c6dbd652913"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T13",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMi0AFBVV95cUxOeXN4b19ZeTc1QmxUXzZxUGo4cGJvUEpnVHFCbjlxemF2S3ZwTWlUeWpHUGNwZUhqMkFlYzJyUjVMUVZ5ckhSMEhBTUZMX3JvZWI2eDNTZVp2UTQ2R0FPZXJUSVJRMmNlb3E2SXQxRUlDQTFMMHRkckN0OUs3WjliaGlweUg5am5zS000Z2lveXZOUkt5REhTcXF0LXZlZnBCSmlDWFdoM1ZGVWRyN2JtblVvTGpSSkgwbTM4OVFxRHNjX0diVnJ4Z2h3aTVTUUMw",
     "CBMiekFVX3lxTE43VXFueDJLUGsxTDE5N0lya0U1TFdLNGwtN3dGdWVHakdnQmhNRE5GZy1rZnVCajFyX050MU5aVGJRM3I0a1J6MFYwUjIyWEFVYklVV2JPQ05yaF83OVhjcWJiSFZQSzdTa2tYcUFHT25ydWM4ODFlaWV3",
     "CBMiuAFBVV95cUxOWGhPR3RYRGRsUHNCS2xtd0VHZkJuMDB4XzZoY2xveHVfLUlEaWExYTlET0FQbUxtMGkwRU9oYVFoUGdCdFNBUUYxalpDYVF1d1I3ZlF0N0FQOFBLUGxNb1ZJUm5FZG1Tb1FlMzdoX21LRVI0MV9UeTdUR0tJVzNtZUhfa0k1NG1ZSVNEVmlqTGYybHJRQ005NGJuRFo3M3JGRFlVUFl4SWdqNEJKaDZSUGd4bU1NRHpZ",
     "CBMijAFBVV95cUxQcXhCNUMxeUppbnZsMWV3WHBrOEJRMmFKZnNUOERGNDV5ZE9oREpEQ3JoWm9Dbkg2LUtLNUw1UW1hWlN4UE9wdUdYZG5jb0dWaFB5Nnl6R3lOakZKSTVzSzdCNHhiZ01JUzRrN0dhYXl0SUdNa25JZjgzeVg3WmlUTnRFOGFoR3lENDhGTg",
@@ -4941,11 +4946,12 @@
     "https://www.sherdog.com/news/news/Tom-Aspinalls-UFC-exit-opens-door-for-Josh-Hokits-bold-title-demand-202803",
     "CBMikwFBVV95cUxOWnVFd1oyQ1YwY1pPTVZJMWJjZVJaNm5qR0R4QThkT0tKcFZMQ29BMWVKNXlhYlpOSVdWYTg3eEItUUxZaTJ6NlFJVHdQOXJkUWFzUUdQZVdhazZJVFpMSFU5TE1lYzBYV05YUnU5aWFyRE9LWDFrSzNtLXF4QmdWTXY0T0NTSHVySVlfSUsyczRhV0E",
     "CBMib0FVX3lxTE5WZjBOb012U25Tamlkc3JITFByU3pqQVR2aUs5VFZaaGlyNEpqUUd2eGIxcldLN1RxRU1ocHhfU1YzUm5Ja3hQVEVQVDRadHdpajFlNGhiRlRUVVlaWFNWelVBQXAxbEhpQmlSYzRVdw",
-    "https://www.mmafighting.com/?p=510353"
+    "https://www.mmafighting.com/?p=510353",
+    "https://bloodyelbow.com/?p=331666"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 41,
+    "ai": 42,
     "staged": 3,
     "prio": 3,
     "lost": 0
