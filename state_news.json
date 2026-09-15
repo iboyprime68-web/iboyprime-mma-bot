@@ -1,5 +1,7 @@
 {
   "seen": {
+    "0579c159380d3a2b": 1789495440.5989072,
+    "2206e0709885d8ba": 1789495440.199659,
     "d42d63e09f541592": 1789495416.9871979,
     "cd98442535e1b135": 1789495392.804102,
     "c888b62f9dbeb8ab": 1789495369.2882345,
@@ -2497,9 +2499,7 @@
     "953338cba5acd5e4": 1788469117.7394252,
     "543ed69de4f08213": 1788469051.804162,
     "75c3a560e020318e": 1788468988.0148547,
-    "b29208c15b3e4c43": 1788468923.6041224,
-    "9ebb1e0be2d1c541": 1788468858.0419273,
-    "bc3df76691a639f4": 1788468857.637059
+    "b29208c15b3e4c43": 1788468923.6041224
   },
   "initialized": true,
   "v": 4,
@@ -3647,16 +3647,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-15T14:29:36+00:00",
       "cluster": "c8d1224aa01"
+    },
+    {
+      "t": "Ilia Topuria’s coach pushes back on Dana White’s claim he’s ready to fight: ‘That’s news to me’",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-15T15:00:00+00:00",
+      "cluster": "cba2025b2d3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T18",
-    4
+    5
   ],
   "yt_eval": [
-    "1f7c9104-2dbf-30a7-b5d4-67f3ad2073be",
     "39ad46c3-2aef-35a0-9b30-9392030d36fa",
     "https://www.mmafighting.com/?p=508017",
     "CBMijwFBVV95cUxNQWpJdzZWNVFGX0lhVkJVZlJTQmd2NkFmampXRUc2emI1cWsydjBSYVU4RmFBRFFicWlCVFFUdDE2RE81SHpkY3hjbVdmS0JoNzRKZG1PYWF4MXhiZ3lncDluRjdlb3psTFY4Vm9ETEVsRlR6N29sR3lnWGlKR21jUEI0SFJzd3AzVEJ4U2ctdw",
@@ -5155,11 +5160,12 @@
     "https://www.mmafighting.com/?p=510378",
     "https://www.mmafighting.com/?p=510390",
     "https://www.mmafighting.com/?p=510396",
-    "https://bloodyelbow.com/?p=331715"
+    "https://bloodyelbow.com/?p=331715",
+    "https://bloodyelbow.com/?p=331669"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 78,
+    "ai": 79,
     "staged": 4,
     "prio": 5,
     "lost": 0
