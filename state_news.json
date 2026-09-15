@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1b6560c137165101": 1789458267.025692,
     "f779edaef8ded7ab": 1789458160.3985324,
     "67f4e4c117cb5aff": 1789458137.607945,
     "5a335b24a8d87024": 1789457845.2164073,
@@ -2498,8 +2499,7 @@
     "2c14d538b0da6ddc": 1788424408.8034406,
     "77ea1241459376ae": 1788424408.8034394,
     "c3713e7852177ab1": 1788424408.8034384,
-    "01b009aeee61ec10": 1788424408.8034375,
-    "a8e235cf0889a2ef": 1788424408.8034363
+    "01b009aeee61ec10": 1788424408.8034375
   },
   "initialized": true,
   "v": 4,
@@ -3403,16 +3403,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-15T04:19:10+00:00",
       "cluster": "c3562187a87"
+    },
+    {
+      "t": "Dana White Pays $1.5 Million For First Ram Rumble Bee SRT",
+      "source": "Motor1.com",
+      "ts": "2026-09-15T07:37:00+00:00",
+      "cluster": "caa73fd98b7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T07",
-    10
+    11
   ],
   "yt_eval": [
-    "919433bb-3b50-3bff-9573-5d0349aee41b",
     "https://bloodyelbow.com/?p=329749",
     "17f23ad5-345a-3d2a-8d69-cf1f2bc657cb",
     "CBMifkFVX3lxTFBlWEhVUTYxRXlHV24wQV9MMDlGTU9iV0hOdTFrTkdUTHhzUTRFX1VrWDdUWEx2VWdKMmRLSk1CeWJNTHQ0MHpZN1h5bXlfYWlCZjF2XzdnZ3V2MWRpcFFoTktuQ1FwMUNOQmpYUWRzLWc2ek5XSUwwdUlJUGJtUQ",
@@ -4911,11 +4916,12 @@
     "https://www.sherdog.com/news/news/Ryan-Garcias-message-to-Oscar-De-La-Hoya-Wheres-your-maturity-202805",
     "CBMiwAFBVV95cUxOUnAyejR1dDFUYzJOYS1sLTg2NjhJU2ZZcmpXMDNGVHR3TWVPeFcxQlJWWWlXVnQwZV9CUzFFVXNvdGNHdXJRcEJXd1VfUld2c2o4MGFFblVrc0hFWUJPYmxyc0toazhTNThDLW9VZXVNTDlDaTZLWllFSWtkaGhJRk5lSTFLVUY1dXBaR2dkN29KYU1veGFhUjNfaEJCWU1SaTV0bEFzbjgxS0JrWnpzbEhOVnpwYzdzdUcyTlRqU3Y",
     "https://www.mmamania.com/472437/mm-clone",
-    "https://www.mmamania.com/?p=472451"
+    "https://www.mmamania.com/?p=472451",
+    "CBMiZkFVX3lxTE1JQlpXLUhqRXRtNFlhV2Z2WDB3LXFHbFhONEdkbWY5VDhmQjlkZnlmTmRtTUdkQ2tna09IdUhrNmU5OFczS2Y3c3V5MkRfem93d2lrQ3djQk5PUzh0dm40OHh4VWNYUQ"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 36,
+    "ai": 37,
     "staged": 2,
     "prio": 3,
     "lost": 0
