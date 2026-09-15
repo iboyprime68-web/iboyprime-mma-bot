@@ -1,5 +1,7 @@
 {
   "seen": {
+    "bc3a12105821dc65": 1789507218.1290522,
+    "df33ee87595335dd": 1789507217.4723446,
     "810f2ab3a1ee6a39": 1789507152.9672666,
     "61a67543756c8966": 1789507124.5638754,
     "d842f238668242a3": 1789507080.3786805,
@@ -2497,9 +2499,7 @@
     "231cfb7ebb8b3458": 1788511925.371211,
     "ac1e6da6f45ece7d": 1788511859.260626,
     "02c871e02665c817": 1788511858.8643377,
-    "d85a21407aa58af4": 1788511791.8847506,
-    "31a027968fb05537": 1788511725.795586,
-    "e02e2634da696392": 1788511656.6953075
+    "d85a21407aa58af4": 1788511791.8847506
   },
   "initialized": true,
   "v": 4,
@@ -3853,13 +3853,19 @@
       "source": "GB News",
       "ts": "2026-09-15T20:24:10+00:00",
       "cluster": "c63797c0c23"
+    },
+    {
+      "t": "Islam Makhachev Ready to Box Conor McGregor Without Big Payday",
+      "source": "The Body Lock",
+      "ts": "2026-09-15T20:28:57+00:00",
+      "cluster": "cb8446519b9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T21",
-    11
+    12
   ],
   "yt_eval": [
     "CBMib0FVX3lxTE9RS1k3WC1jelZnNnZoUXllWDVfMFNpUVN4RFZubGRQY1VoSTgyR2M1M1ZCN2VyWUppMnhwZHBMbGY4Rmg1aENpdFlhZXdMWk5vWVNySDFMYXltVnBibmxIQllNNUc1WjNHb1VhTjQ2VQ",
