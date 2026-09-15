@@ -1,5 +1,6 @@
 {
   "seen": {
+    "da749be7d0994efd": 1789436412.896708,
     "fd77bb7a33d2d86e": 1789436285.7899652,
     "36a435bbda3452ec": 1789436285.7881122,
     "ced1b1307503d3a4": 1789436152.3393526,
@@ -2498,8 +2499,7 @@
     "a0307ceb2bc5e2d4": 1788424408.8033957,
     "d0ba7c206c99e593": 1788424408.8033946,
     "0baad923a75646f6": 1788424408.8033934,
-    "dcae53c9de63277e": 1788424408.8033922,
-    "f014e66e6c7327c4": 1788424408.8033903
+    "dcae53c9de63277e": 1788424408.8033922
   },
   "initialized": true,
   "v": 4,
@@ -3307,16 +3307,21 @@
       "source": "NickALive!",
       "ts": "2026-09-15T01:20:00+00:00",
       "cluster": "c6d603b64a1"
+    },
+    {
+      "t": "Brian Ortega out of UFC 331 fight with injury, Renato Moicano gets new opponent",
+      "source": "MMAWeekly.com",
+      "ts": "2026-09-15T01:32:00+00:00",
+      "cluster": "cf81153cbb3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T01",
-    20
+    21
   ],
   "yt_eval": [
-    "CBMiwgFBVV95cUxPLWRkTW8wMkdWMEFBNFlJeGozZUIzOHZGTTI2RklkMDBYazhoaUhxc2MtWHFSSlhDblhqd2tGUDNEenc5RE5MdDlWUWJZZXpUN2NZQ24zVFRpVmtIc0VyaUpKSmFySF9kMUJXYVMxd2lFWkYwOFJzLWJfOEJpbE92cGdnNDF4MEx2OHFrbXNTWGpqV0YtaHVRalJYcFc3NURNaVBTNE93VG5JWVgwRkl0SDRmV0I3M1VSOTFpQzVlZ2V1Zw",
     "CBMiuwFBVV95cUxQYXIzelYwN1dZdTQ3MmF6YmNGdVlXOGJuc0NwSDc0dkZ5RnhRUFZwd2FjX1M3bDUwOGRvSnV6cjdjemhEQlJNcVhPekhfWEFrVzhFQkN6dnRMN2xrU0ZRM0hoVW1IZDdMbmRIMGZocTFGRkVRblV6WGd1Nnh3WldZR29uQ05UdzdWMW1aTFpVYzlTOTNfVkNsRlB6Z3V1aGxKdkt0MFctZV9tcVN3Qi10NmJMMnVtU3dhQ1Zn",
     "CBMingFBVV95cUxPdU91RVVIRzI3NzlsNDFhYnJTM09jeWZZZnRCMTdlV2JyaWhZTWlnZHF3dlJMUVRVMzFOeTVBQmFWWDVFNFVRVVRVWG8tdEFmcGJvY0JxTjduQi1kMDZWbzRybTNuSmUyakVRNVhGOEpWYzdBV1NUQ2tSb29LSXNwTkdhMmJ3My1YMEJmZHdjZTNDWTNqTFF3VTcyZUlyZw",
     "4e51e111-a437-350e-9d68-386bb9dc9001",
@@ -4815,26 +4820,17 @@
     "CBMirAFBVV95cUxQVm9LVmdxZ0RRVDFRVWdaNHAtaWNnOGIzaFVWa2VRNkoxSDNvUFhRUHZFcmZhMFZMY0U1WnMyelVWNGxkd2VLMDd3MEhqRWpqaDdZbmpaeWpycDFnd2YtR1FtOWJ2VEw3XzN6YldwMUxlM0JLNllVZFhEQThpTmVUMnRFeGMzd2MwcTlZSXd2QmwxQ0xfZDVyR0ktTFhHSHlvTU43aVZWRHpCRFF3",
     "2a8c35b6-9479-333f-9dd3-d2f5f3630150",
     "CBMid0FVX3lxTFBZR1JGZUFHLWhncXNQbDBKa1JfSFRjM0ZlQnljU3JDOGlMVTJmMmNiLWltenloTDBYRkZYMUNqLTY3MjhyTUExV1ZlUWJIVzg4MDN4eTVWdUlPTlUzVkxKcHdBbWJuVFJrWUdxV3lJVWRKaGhtSTRv",
-    "CBMihAFBVV95cUxPR3Z1VmNON3dVWFBKRlNqM2ZPN1JuX05rN0dkUzhwQU9wZWVuU0RrNlZyWVZEaGdIQmVHZ0V0WXRmczI1WFNwTFNIUEVNdVNyN2t5LXpKMzBGN2VIZlhQU1ktT19Tck5peTZxMHMxRnkyd0RqbWw0TElUSXFJZ095Nkg2bTc"
+    "CBMihAFBVV95cUxPR3Z1VmNON3dVWFBKRlNqM2ZPN1JuX05rN0dkUzhwQU9wZWVuU0RrNlZyWVZEaGdIQmVHZ0V0WXRmczI1WFNwTFNIUEVNdVNyN2t5LXpKMzBGN2VIZlhQU1ktT19Tck5peTZxMHMxRnkyd0RqbWw0TElUSXFJZ095Nkg2bTc",
+    "CBMirgFBVV95cUxOek1UUm5CSUEySkk0SFk0dWcxYkE4VHlFWjJrSmtyOFlqdVc1eWZ0c2tYWTVHbGNfYzJDNTJXdnhYUHhrNHdnLWU2OEpUWXQ0NEJhbHBxR2xaUHpleVZGSW4yZVlVWW5GSWpqU1FaeE8xakpZN2NQUmlKTlBCU2JHaHU4MThqd2trY0dCUTI0VnQ3c2c0MkkzUHZvVFlKbGJzUUlTSDBSQmdrUktaRVE"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 20,
+    "ai": 21,
     "staged": 2,
-    "prio": 1,
+    "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-03T08:35:44.261084+00:00",
-      "t": "Khamzat Chimaev booked to rematch old UFC rival on card headlined by Colby Covington",
-      "names": [
-        "chimaev",
-        "colby",
-        "covington"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-04T08:43:04.667748+00:00",
       "t": "Khamzat Chimaev Hints at UFC Middleweight Title Bout",
@@ -5643,6 +5639,15 @@
         "both"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-15T01:40:14.304842+00:00",
+      "t": "Brian Ortega out of UFC 331 fight with injury, Renato Moicano gets new opponent",
+      "names": [
+        "ortega",
+        "moicano"
+      ],
+      "img": "cutout:brian-ortega"
     }
   ],
   "seed_pending": [],
@@ -5681,7 +5686,8 @@
     "d3a2ac00482e5625": 1789291916.5302384,
     "f7528983ad8c4e5b": 1789309527.9902766,
     "6914395cb37aebf5": 1789388203.97258,
-    "0608909dc2825a33": 1789436016.2950168
+    "0608909dc2825a33": 1789436016.2950168,
+    "da749be7d0994efd": 1789436412.5203252
   },
   "pinged_titles": [
     [
@@ -5690,6 +5696,14 @@
       [
         "crawford",
         "white"
+      ]
+    ],
+    [
+      "Brian Ortega out of UFC 331 fight with injury, Renato Moicano gets new opponent",
+      1789436412.5203252,
+      [
+        "moicano",
+        "ortega"
       ]
     ]
   ]
