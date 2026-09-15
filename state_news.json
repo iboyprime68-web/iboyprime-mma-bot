@@ -1,5 +1,6 @@
 {
   "seen": {
+    "da3cdb964912da92": 1789479642.8615403,
     "f885de71e84f87a5": 1789479578.262901,
     "c9d4129da2e0d2cd": 1789479578.0173624,
     "100b9312cdd1aadf": 1789479577.998154,
@@ -2498,8 +2499,7 @@
     "321751f37c551dc0": 1788457938.8608596,
     "5168b17f8943dd10": 1788457938.8585153,
     "7b0e45c1bc737634": 1788457938.8572037,
-    "3e633b522a9f36ed": 1788457853.9574053,
-    "300fca9eab2035c3": 1788457749.2859786
+    "3e633b522a9f36ed": 1788457853.9574053
   },
   "initialized": true,
   "v": 4,
@@ -3577,16 +3577,21 @@
       "source": "heavy.com",
       "ts": "2026-09-15T13:20:24+00:00",
       "cluster": "c9edf9a5190"
+    },
+    {
+      "t": "\"Enough to make your blood boil\" - Renato Moicano goes nuclear on Brian Ortega over pulling out of UFC 331",
+      "source": "Sportskeeda",
+      "ts": "2026-09-15T13:30:00+00:00",
+      "cluster": "c6040c76598"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T13",
-    25
+    26
   ],
   "yt_eval": [
-    "CBMilgFBVV95cUxOT3RuTTY1S0ZjSld5SDdHTnFnVFkxWGhXWnFhU09sWFEzbmJrWVVmbFNCTkw1OF9TS3o4T2lkOFZUcUZYZnBXODdMam9MWnVXT1ZxeFZOaUlWeXF6WXd2akxua0dwa0FIb1pzSmRucUZpSlEyUHZOV0YtQ25DQnpDX01XMXFjX2RGdGxzOThNVlpZN3dNVXc",
     "CBMijAFBVV95cUxONkRCU3FmcFRXN21JSk4tRmN5bEpfLWdXSzZNdFRiampDUmxqVGQzTWU4aUtLdWlYR0c4eGpTdXNZVWNJclRXYkgyTC1DWVJHWkdCdFNKWlVHb1ZsX0lKa0ZYaDZKTUlkSzJ0QVB0S3ZKNG9HV2I1NVo2R1AtV3BwMlNWQWc2NnNKSzRVVQ",
     "CBMiYEFVX3lxTE9BRHVGMjVYNTZXMGR1MUVLUTIwcGNsUFhycXhpRkRCSXVCNkJYNVlvcWlYTWpaSV80RGtYRUtaektrUHluZXQ4MFVTVDZBaEQ2Rnd5elg2OWhUWEJXX1RabQ",
     "CBMiyAFBVV95cUxONjgyNXZFMUNHQ29jVzhNVnFWaTdUbnJwVk5PUExDd05RMnMxaHZsZ1lzSVcyd0R3LUJpTEhwVXl5bUIwRkt2cF9hZHVHcDlabG9iUjltdmplWS1GTmEtZlNWejc4UER0MG5lallQQThhUTY1TDkxRHRJZTZqdTl0UVZxcG9HZlNGWmxLT0FFaVloT3JjZVhxb2MxZnNNUDdDNU5MeHVsS09EXzNIVVVoU2ZFdnZHUjQwcS11QzlsZlFCNExTak8xYQ",
@@ -5085,26 +5090,17 @@
     "CBMif0FVX3lxTFBaRXdVQm9pMjRGWWpXZXlCYlJJSXl1dUw5MHZLalBQWHBoTUNvWXBNZWFMenpNaHNCcVZzak5KZGZSc3RKVGlSck5HSi1HRDdZbUZsYzl0b25uaWw2RXNzN1YzdURNUjNUSklOWWNuaHFSWHg4NTNkbjBvOXF1Tlk",
     "CBMisgFBVV95cUxNMk1yWURycnpCbHpwbEQxTWxVNmlXc00xdGs3ajk3YkpsZngzc3NIM1ZKTWRUYUpxeWZsbENpZUpsNndzeWNXR2V0cEhDWk1kWEhRS2V6bGhmdzNTYzA1MWhVaEFiMWZwWGRDVGZxREx2b0s1a1hGRkNZeUJ0UHQ3T0YwRC1DRk1PY3hXMGJVMXZOV2F6Y0VZZkFDeVhqdFVvQnRBZXFGU0xyV2F2bUlvZWdB",
     "CBMicEFVX3lxTFBDcUlvMUg0WmtnbjU5dTQ1WjUzMW9FNXFuM0ZUUmhiSThwVDZ4OUhmODBSYUZRT2dhLTVaWmI4d2VScVZyaG1aT3R2ak5DUy0tQ2hfMFc0VjJIdVVWcEtOeUhsdkFTZzlKQ3RJMFM2N3Y",
-    "CBMib0FVX3lxTE9mdVNqRVVWNk02eVdEUlljTmdIR29HUkFZSmp6aHNOcTV3XzBaTVkwVVRLUWRjZy1SNFBSU1JQM2ptdUZ5UFRhT05TbGRxUzV3cXY1cmJ3M1VYLURzcnZmTkx0OG1od2g4Z051dDg1VQ"
+    "CBMib0FVX3lxTE9mdVNqRVVWNk02eVdEUlljTmdIR29HUkFZSmp6aHNOcTV3XzBaTVkwVVRLUWRjZy1SNFBSU1JQM2ptdUZ5UFRhT05TbGRxUzV3cXY1cmJ3M1VYLURzcnZmTkx0OG1od2g4Z051dDg1VQ",
+    "CBMitwFBVV95cUxNdVlZejQ3V2FoTElvLUdVRTNIVm9BMVFuR2k5cHlwTmc0VkxRa3N1NWNkUC1oNVRQUkdmRFVoOW92VnJqYW5WMFRkckM0RUlpV1Q1anhqa0pueG50ckFSWGhfUmtpblFCQ2pLanNTcmtCM1FFZXMyS0Vjc2JHa25DSWVfUGtjSTdpZlFaTGxxaDctalRCOVpsSFM4Z3BJWFhFN28xWndKWG5kTHNla2FiM0E4dHFVeG8"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 65,
+    "ai": 66,
     "staged": 3,
-    "prio": 3,
+    "prio": 4,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-04T17:30:29.508156+00:00",
-      "t": "Ilia Topuria breaks silence in 1st post since aftermath of UFC White House loss",
-      "names": [
-        "topuria",
-        "house",
-        "gaethje"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-04T17:30:59.877350+00:00",
       "t": "Noche UFC hit with fight cancellation blow",
@@ -5916,6 +5912,16 @@
         "reaction"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-15T13:40:44.139382+00:00",
+      "t": "\"Enough to make your blood boil\" - Renato Moicano goes nuclear on Brian Ortega over pulling out of UFC 331",
+      "names": [
+        "enough",
+        "moicano",
+        "ortega"
+      ],
+      "img": "cutout:renato-moicano"
     }
   ],
   "seed_pending": [],
@@ -5957,17 +5963,10 @@
     "0608909dc2825a33": 1789436016.2950168,
     "da749be7d0994efd": 1789436412.5203252,
     "f33c0a7daa348b2c": 1789457256.0912993,
-    "c1cf117b7163e7a8": 1789459710.5344546
+    "c1cf117b7163e7a8": 1789459710.5344546,
+    "da3cdb964912da92": 1789479642.546479
   },
   "pinged_titles": [
-    [
-      "Matchmaking the UFC heavyweight division following Tom Aspinall’s title vacation",
-      1789457256.0912993,
-      [
-        "aspinall",
-        "matchmaking"
-      ]
-    ],
     [
       "Jon Jones Has Caused a Stir With His Three-Word Reaction to Tom Aspinall Vacating the Heavyweight Title",
       1789459710.5344546,
@@ -5980,6 +5979,15 @@
         "stir",
         "three",
         "word"
+      ]
+    ],
+    [
+      "\"Enough to make your blood boil\" - Renato Moicano goes nuclear on Brian Ortega over pulling out of UFC 331",
+      1789479642.546479,
+      [
+        "enough",
+        "moicano",
+        "ortega"
       ]
     ]
   ]
