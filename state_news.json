@@ -1,5 +1,9 @@
 {
   "seen": {
+    "df3b1ed92a3db213": 1789506949.7245905,
+    "29572bd66c71ab85": 1789506949.4029806,
+    "856a9dd90ca11992": 1789506949.402141,
+    "3e8ab18ac55ae07a": 1789506949.4014819,
     "1b63b5776719d498": 1789506925.8057036,
     "2b1b30f2bd0af5b6": 1789506899.4608583,
     "17e42b5c4b540021": 1789506875.9793293,
@@ -2495,11 +2499,7 @@
     "f15c5bc38441c87a": 1788511452.6282778,
     "4e9c62f20415a240": 1788511383.5813081,
     "1d6c33c119e86ffe": 1788511317.5261862,
-    "e47c69f4c75f7848": 1788511317.271206,
-    "87dc77a30a8dd67d": 1788511267.3994622,
-    "87956c21bfba605d": 1788511243.205654,
-    "8720adf6f3a3a4a6": 1788494426.5121741,
-    "84b31f42bf457031": 1788494426.2466621
+    "e47c69f4c75f7848": 1788511317.271206
   },
   "initialized": true,
   "v": 4,
@@ -3823,13 +3823,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-15T21:00:00+00:00",
       "cluster": "cf53b7cd9ce"
+    },
+    {
+      "t": "Opinion: TKO is killing WWE",
+      "source": "RMU Sentry Media",
+      "ts": "2026-09-15T20:17:53+00:00",
+      "cluster": "c9836d1ead7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T21",
-    6
+    7
   ],
   "yt_eval": [
     "CBMib0FVX3lxTE9RS1k3WC1jelZnNnZoUXllWDVfMFNpUVN4RFZubGRQY1VoSTgyR2M1M1ZCN2VyWUppMnhwZHBMbGY4Rmg1aENpdFlhZXdMWk5vWVNySDFMYXltVnBibmxIQllNNUc1WjNHb1VhTjQ2VQ",
