@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d9f3cc62cb28367f": 1789435308.1659212,
     "8c3f700e066b1d2d": 1789435284.252003,
     "304879fe104d896b": 1789435283.910233,
     "e814414bfd76de8a": 1789435217.8693519,
@@ -2498,8 +2499,7 @@
     "a30bbf34c5364c1a": 1788424408.3120513,
     "0feb398a18c2dacb": 1788424408.3120499,
     "a80d81cb17c0edde": 1788424408.3120484,
-    "c0f6704d13f24245": 1788424408.3120465,
-    "c2942cf67a44786c": 1788424408.3120453
+    "c0f6704d13f24245": 1788424408.3120465
   },
   "initialized": true,
   "v": 4,
@@ -3223,16 +3223,21 @@
       "source": "Cageside Press",
       "ts": "2026-09-15T00:23:48+00:00",
       "cluster": "cb81dd1cc71"
+    },
+    {
+      "t": "Ryan Garcia suffered more damage in post-fight bareknuckle brawl with friend than in Conor Benn fight",
+      "source": "MMA Mania",
+      "ts": "2026-09-14T23:05:03+00:00",
+      "cluster": "c6eed2f87bc"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T01",
-    6
+    7
   ],
   "yt_eval": [
-    "CBMikAFBVV95cUxQUFFpMWlCeGMxd29LUXo4YjNHSkVhbnk4VFI0aEZGekU0UGd6THZQemU0QlI0MVhuUVl0ZTZsWDE2QVZHa3hsLWR5YXlHd21JS2g3RXJ1UzY5aVZ3YXFTVkVTZGRCUjJRUkltczc4cEdab2d5VmVWY2ZvT2h3eU5Pd21vWEczRlpVUlB3ZDNITjU",
     "CBMie0FVX3lxTE5vR2ZDdGs3ZGxOZ2xQdVJycG52VElULWZhZUxMVC1VOHUyY0diOGVmeEpzM3Y4UFlfWlo0b0UxaGZqWE1nZzl5LWZIaWpjNkpqRGpGdVg5QThEQ2hVNS1oRTV5VEVTZ3B4Q2RKSEtjc3MxVFhwMHRrOXE0bw",
     "CBMidEFVX3lxTFBldVhWREdVLTNkR1dZWEhsdERfMUlqUEthU3VBd1h5cGE5dzJsRnJyVUhYdTlGcDc1SjBBUFdRcU1ZaUZCVkpqZXpNYmhlalc5dHNROTJ1Ul95eFFiVUlBZmdKWFlaT2RRSVhDZHdpZi1ONU43",
     "CBMilgFBVV95cUxNbWZ6dXFXVnZDeUpyd1hSTW5qY0wyS0xURkVUaGRaNzV0VnpRU0lyN21RN0FWdThIVzlUMlhiOGhSMVN6TlpvYi1HX2xQUlFsbXVxdENoS2VHdDZhc21OcTQ2MjI0N1RoV1dYbVdTMW1uVXQtc0pkLWVEN3VDVEVSblI5MFJjeVBHOGVsN3dJNnc1a2Fia1E",
@@ -4731,11 +4736,12 @@
     "0e1e1920-d7a7-3156-aedb-ec35dabf2f24",
     "f63f3203-78ae-4e21-9954-380a3359d83e",
     "5518185e-0a14-350a-bfcc-535b47369e0a",
-    "CBMid0FVX3lxTE1DSHk2eW9fZGthZFZnemRpakt0ZGVxamF0d2tXOHNELXNGVVUzTGp4ejZsTnlIeGZmeHJIc3ViWE5oWlhiTUdQTzlZVXpnMGtTNThZYUdyYWtrVHJwRXNRV0NmcmdmbTFER1ppSE02djB2dklkMVVV"
+    "CBMid0FVX3lxTE1DSHk2eW9fZGthZFZnemRpakt0ZGVxamF0d2tXOHNELXNGVVUzTGp4ejZsTnlIeGZmeHJIc3ViWE5oWlhiTUdQTzlZVXpnMGtTNThZYUdyYWtrVHJwRXNRV0NmcmdmbTFER1ppSE02djB2dklkMVVV",
+    "https://www.mmamania.com/?p=472408"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 6,
+    "ai": 7,
     "staged": 1,
     "prio": 0,
     "lost": 0
