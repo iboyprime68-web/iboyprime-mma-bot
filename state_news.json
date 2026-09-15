@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9284ee0722013bf8": 1789478591.7640665,
     "0d0165111d665d51": 1789478526.3330116,
     "11d525fa83d91360": 1789478462.0986862,
     "becda001d7a79ffc": 1789478416.986933,
@@ -2498,8 +2499,7 @@
     "29735406a280cf28": 1788442966.8728135,
     "e9aef8ee523e0cb2": 1788442902.6885188,
     "d24748877ef325b8": 1788442838.9944108,
-    "7851f0d018a6dfe5": 1788442775.3977377,
-    "bc51032223ab6c00": 1788442464.4001174
+    "7851f0d018a6dfe5": 1788442775.3977377
   },
   "initialized": true,
   "v": 4,
@@ -3469,16 +3469,21 @@
       "source": "KRQE",
       "ts": "2026-09-15T12:21:44+00:00",
       "cluster": "cd3cb214e0b"
+    },
+    {
+      "t": "Demetrious Johnson Believes Tom Aspinall May Never Fight Again",
+      "source": "MMA Sucka",
+      "ts": "2026-09-15T12:25:22+00:00",
+      "cluster": "c1c49cc3460"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T13",
-    7
+    8
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Yadong-Song-defends-Usman-Nurmagomedov-after-bizarre-UFC-cage-incident-202600",
     "https://www.sherdog.com/news/news/Mike-Perry-breaks-silence-following-shocking-upset-loss-to-Brandon-Jenkins-202601",
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-names-4-UFC-targets-Caio-Borralho-answers-the-call-202602",
     "https://www.sherdog.com/news/news/Undefeated-finisher-gets-UFC-debut-vs-Nathaniel-Wood-on-5-days-notice-202603",
@@ -4977,11 +4982,12 @@
     "83c11d08-21ee-3417-a445-18d1604603e2",
     "https://www.mmafighting.com/510158/dnp-morning-report-template-dnp",
     "ef2bef2a-a0ee-3a31-874d-fcaf9faae553",
-    "CBMiuwFBVV95cUxPUVdqTHJCaDBkbThKSVpoNWdVYmdGWHRtU3VNYkIxM1gxeVJFYlluSFpUOHZJYWRTcTRaS3FnSjJNQlhYczAyYmlHeU1sQzk4SnBXZnd3Y0dGaXU0R080YVcyazM4ZVZ1YUFMckhCUHFreEl5NUdtelRfTWpxc0lMVjVMal9TR1BtdnNSVVYzZ3RDN3p6V1kxQ1AwX3U3eUtJSF8zXzF3bVlBbzBoU3ZPWllGeWxrNG9JTE1Z0gHAAUFVX3lxTE5CQTAyWmJRWHRydnE3YTBSNWM3LWUyU3NxdmV3Y1FmQUkxdVJyY3M3UnZzOTZlYm8yYzFxQU5QWmoyYm1GRHhOM0huOXlIOEczc2NNVVdiX0NwOTM3WmI0SHM0NGZOdEFVNkQ4MnNrTUVMMzlfRDNTbHlIRk9KYVBDM19xZHAxeS1WOW9MTzZ6TXoyRUdwLUl1X2pfVmVGMUo3RE5nQTNiRFo2YU5tck94OVhXRjJtajVfM19lQ25Bdw"
+    "CBMiuwFBVV95cUxPUVdqTHJCaDBkbThKSVpoNWdVYmdGWHRtU3VNYkIxM1gxeVJFYlluSFpUOHZJYWRTcTRaS3FnSjJNQlhYczAyYmlHeU1sQzk4SnBXZnd3Y0dGaXU0R080YVcyazM4ZVZ1YUFMckhCUHFreEl5NUdtelRfTWpxc0lMVjVMal9TR1BtdnNSVVYzZ3RDN3p6V1kxQ1AwX3U3eUtJSF8zXzF3bVlBbzBoU3ZPWllGeWxrNG9JTE1Z0gHAAUFVX3lxTE5CQTAyWmJRWHRydnE3YTBSNWM3LWUyU3NxdmV3Y1FmQUkxdVJyY3M3UnZzOTZlYm8yYzFxQU5QWmoyYm1GRHhOM0huOXlIOEczc2NNVVdiX0NwOTM3WmI0SHM0NGZOdEFVNkQ4MnNrTUVMMzlfRDNTbHlIRk9KYVBDM19xZHAxeS1WOW9MTzZ6TXoyRUdwLUl1X2pfVmVGMUo3RE5nQTNiRFo2YU5tck94OVhXRjJtajVfM19lQ25Bdw",
+    "CBMikwFBVV95cUxPYjVsZklOblhJSlU3WkVVUENfMzRCZmU0dVdFNUtUYl9hQ1o5cHJYYnlSWm1CZFJvRU82TWd5ZjF1bDd1Vm1QSlVNQ0d6VWNWanZ6ckZ2Z285cVpkam10TkdaUzBUd25kMmd4TWtUbnpaX0JCSzRnVGxZV0JSeGpnY01yRU1qMldzZW5CNjdybUl2dkU"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 47,
+    "ai": 48,
     "staged": 3,
     "prio": 3,
     "lost": 0
