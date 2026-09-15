@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5a335b24a8d87024": 1789457845.2164073,
     "efe2e37a1d24d580": 1789457822.2157652,
     "0fda540607fe5bc5": 1789457633.7440574,
     "b5f5426ccd3d9d60": 1789457569.1080344,
@@ -2498,8 +2499,7 @@
     "01b009aeee61ec10": 1788424408.8034375,
     "a8e235cf0889a2ef": 1788424408.8034363,
     "a0ac3d4af604162c": 1788424408.803435,
-    "0b9a83da002a043e": 1788424408.8034337,
-    "59bab618d4fe1131": 1788424408.8034322
+    "0b9a83da002a043e": 1788424408.8034337
   },
   "initialized": true,
   "v": 4,
@@ -3391,16 +3391,21 @@
       "source": "Sportskeeda",
       "ts": "2026-09-15T07:00:00+00:00",
       "cluster": "ce5b3732518"
+    },
+    {
+      "t": "Ryan Garcia slams ‘jealous’ Terence Crawford: ‘I wanna beat his ass’",
+      "source": "MMA Mania",
+      "ts": "2026-09-15T03:20:27+00:00",
+      "cluster": "c9de67ef2ef"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T07",
-    8
+    9
   ],
   "yt_eval": [
-    "6f09848b-58b1-38ff-a70d-ece39478c94c",
     "https://bloodyelbow.com/?p=329844",
     "919433bb-3b50-3bff-9573-5d0349aee41b",
     "https://bloodyelbow.com/?p=329749",
@@ -4899,11 +4904,12 @@
     "9ec79a03-6c37-3b3d-bcb9-386f2bf7bd82",
     "076d8c35-8b9c-3105-be64-7829d5ef48c2",
     "https://www.sherdog.com/news/news/Ryan-Garcias-message-to-Oscar-De-La-Hoya-Wheres-your-maturity-202805",
-    "CBMiwAFBVV95cUxOUnAyejR1dDFUYzJOYS1sLTg2NjhJU2ZZcmpXMDNGVHR3TWVPeFcxQlJWWWlXVnQwZV9CUzFFVXNvdGNHdXJRcEJXd1VfUld2c2o4MGFFblVrc0hFWUJPYmxyc0toazhTNThDLW9VZXVNTDlDaTZLWllFSWtkaGhJRk5lSTFLVUY1dXBaR2dkN29KYU1veGFhUjNfaEJCWU1SaTV0bEFzbjgxS0JrWnpzbEhOVnpwYzdzdUcyTlRqU3Y"
+    "CBMiwAFBVV95cUxOUnAyejR1dDFUYzJOYS1sLTg2NjhJU2ZZcmpXMDNGVHR3TWVPeFcxQlJWWWlXVnQwZV9CUzFFVXNvdGNHdXJRcEJXd1VfUld2c2o4MGFFblVrc0hFWUJPYmxyc0toazhTNThDLW9VZXVNTDlDaTZLWllFSWtkaGhJRk5lSTFLVUY1dXBaR2dkN29KYU1veGFhUjNfaEJCWU1SaTV0bEFzbjgxS0JrWnpzbEhOVnpwYzdzdUcyTlRqU3Y",
+    "https://www.mmamania.com/472437/mm-clone"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 34,
+    "ai": 35,
     "staged": 2,
     "prio": 3,
     "lost": 0
