@@ -1,5 +1,7 @@
 {
   "seen": {
+    "060eba1e383a5178": 1789496936.7751427,
+    "e0bec5a45217d63d": 1789496936.4104936,
     "90db4a387973b3a6": 1789496872.2554615,
     "abd74f0944d3c5d6": 1789496807.7836947,
     "65abf423053eb4a1": 1789496742.4770827,
@@ -2497,9 +2499,7 @@
     "30ddeda933d31431": 1788493526.347893,
     "3ab791e9ec75f179": 1788493502.9466004,
     "4b13868d8e479e03": 1788493477.9796042,
-    "511950f407b7d9a1": 1788480012.2328196,
-    "eddf6c3176a65e9b": 1788479948.2926152,
-    "407c0723b052135b": 1788479884.959694
+    "511950f407b7d9a1": 1788480012.2328196
   },
   "initialized": true,
   "v": 4,
@@ -3803,13 +3803,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-15T18:10:50+00:00",
       "cluster": "c2ac244bd38"
+    },
+    {
+      "t": "Tom Aspinall Denied Medical Clearance for UFC 334 Return",
+      "source": "MMA Sucka",
+      "ts": "2026-09-15T18:12:51+00:00",
+      "cluster": "cee1d8707d3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T18",
-    30
+    31
   ],
   "yt_eval": [
     "CBMib0FVX3lxTE9RS1k3WC1jelZnNnZoUXllWDVfMFNpUVN4RFZubGRQY1VoSTgyR2M1M1ZCN2VyWUppMnhwZHBMbGY4Rmg1aENpdFlhZXdMWk5vWVNySDFMYXltVnBibmxIQllNNUc1WjNHb1VhTjQ2VQ",
