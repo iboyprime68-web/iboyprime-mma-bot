@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0608909dc2825a33": 1789436016.691708,
     "4dd478dc2bc50dbb": 1789435950.3320494,
     "ea5c6757416f8f8c": 1789435949.7704608,
     "ea237d5a57dae6a4": 1789435883.7000456,
@@ -2498,8 +2499,7 @@
     "8d5d34d0f91e8b2d": 1788424408.8033748,
     "73388193533db5e4": 1788424408.312085,
     "ab99560a96d961f4": 1788424408.3120835,
-    "148a2942c72d39d4": 1788424408.3120823,
-    "09a150c144731624": 1788424408.3120809
+    "148a2942c72d39d4": 1788424408.3120823
   },
   "initialized": true,
   "v": 4,
@@ -3289,16 +3289,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-15T01:19:56+00:00",
       "cluster": "c76f0e1e3a4"
+    },
+    {
+      "t": "Dana White: Terence Crawford needs 'the right fight' to end retirement",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-15T01:20:21+00:00",
+      "cluster": "cc53b6edf1d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T01",
-    17
+    18
   ],
   "yt_eval": [
-    "CBMi4gFBVV95cUxQejFTM0xLQnlFT0Z4M0owMnpfLW9UMDRWN1ppRTZSRjA5bmRwZmhBV0JUNWUzVGh6Q1RxdlFyQU04TXI1bkpqbERQMXRrRGNJbXZVSERqLWJRT2FtUmVCU1NkamZwRmdhaU5SaUY4cm9pMGpoVC1BdldzcUFvRWlWMGk2NDZnS1YwdDNCQm5IcUNlT2RfNkUyNlBEN3FJMnNENjdUSTFSQkVrUTVZX0ViTThVQnE5RVV6cWZiMTFhTXBjNE9tc1M5bXQ0ODlYeHdIMkdrQUNHY2EzZnlTNUJ2eXNB",
     "CBMickFVX3lxTE80XzEtS3J4Qm9KdDNfdXRxTlJfTm43eVZaZ0hkT0tyS3NRbE4yXzFKSVdUTDlhR2dWeUNfbE5sZXhKWHJYTGVYRjF4RVcwa3lXZU50YVV3SkEwbXpTYUd5bm5GVHFEMEZSYmswQWpPeU9PQQ",
     "CBMi1gFBVV95cUxNT1dxdEIzbEo0MGtqSnpaZ3BDMDlGTy1MUDZFaUZ3akRCNE4wQzZ5MHd3dDRUZDNmYUNhUTVCUkx0TmFfTjBsbmxBVDRCdWYzNEpqZURMZlRHYzNxNTJYZTF0bG1ld09lcEFyX2tKTS1vcHZRWll0cTk5Z0gwTWpaaUxNdHhqcXZ6VnhOR0RLekZYOWZreURFb1k0OU1zekNuY0NaZWVrN05ZZUtDcDluV2ZlU1Q1NGNtdkZjbHdZazNmeV9PMkRKWDVGZDBUYTlrTEU4OExB",
     "CBMiwgFBVV95cUxPLWRkTW8wMkdWMEFBNFlJeGozZUIzOHZGTTI2RklkMDBYazhoaUhxc2MtWHFSSlhDblhqd2tGUDNEenc5RE5MdDlWUWJZZXpUN2NZQ24zVFRpVmtIc0VyaUpKSmFySF9kMUJXYVMxd2lFWkYwOFJzLWJfOEJpbE92cGdnNDF4MEx2OHFrbXNTWGpqV0YtaHVRalJYcFc3NURNaVBTNE93VG5JWVgwRkl0SDRmV0I3M1VSOTFpQzVlZ2V1Zw",
@@ -4797,25 +4802,17 @@
     "a1f3860e-f1a2-426a-ba6d-d41b5dce02f3",
     "CBMiowFBVV95cUxNZzlvZEpBRk81aXBtNHRWTUlwWGw0a3FQYnBIRTZKM2IyRUk0Ri0tQkE1UUJVeENINXFQS00yQVB4ZnQ0eVg0aGJ2R3NFZWFKb2wyV1lNSzFManlvdXg4bklrbFZCMXQwd2czb3hJcVVBSHBUZjlnbENkWDFPT1kwZzRpUWdUV1RuNlM4cm9faGs0dV81V2hZb0t1SmJhSG12dGkw",
     "CBMigwFBVV95cUxOWWhPeG9FNVVpS3RzaWRKRS1vdFBYb29PS08xM0Y1cWJGNVdIQ1lCVElsSVNKU1lQNlVCWkdjcDBVOVVFQlZZVXJFc2R5ZTdqeWdScUd4TEhjeHRvc05aeWlCQnZJVVVrTzM3MkFFZml4MWlBcjdOUEZlMV9wbHpXbnBIdw",
-    "CBMirAFBVV95cUxQVm9LVmdxZ0RRVDFRVWdaNHAtaWNnOGIzaFVWa2VRNkoxSDNvUFhRUHZFcmZhMFZMY0U1WnMyelVWNGxkd2VLMDd3MEhqRWpqaDdZbmpaeWpycDFnd2YtR1FtOWJ2VEw3XzN6YldwMUxlM0JLNllVZFhEQThpTmVUMnRFeGMzd2MwcTlZSXd2QmwxQ0xfZDVyR0ktTFhHSHlvTU43aVZWRHpCRFF3"
+    "CBMirAFBVV95cUxQVm9LVmdxZ0RRVDFRVWdaNHAtaWNnOGIzaFVWa2VRNkoxSDNvUFhRUHZFcmZhMFZMY0U1WnMyelVWNGxkd2VLMDd3MEhqRWpqaDdZbmpaeWpycDFnd2YtR1FtOWJ2VEw3XzN6YldwMUxlM0JLNllVZFhEQThpTmVUMnRFeGMzd2MwcTlZSXd2QmwxQ0xfZDVyR0ktTFhHSHlvTU43aVZWRHpCRFF3",
+    "2a8c35b6-9479-333f-9dd3-d2f5f3630150"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 17,
+    "ai": 18,
     "staged": 1,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-03T04:06:34.105674+00:00",
-      "t": "Justin Gaethje names Conor McGregor as his preferred first UFC title challenger, says it will be ‘fun to shut him up’",
-      "names": [
-        "gaethje",
-        "conor"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-03T08:34:35.286774+00:00",
       "t": "Shevchenko Out of UFC 332, Wang Cong-Silva Reportedly Targeted as New Main Event",
@@ -5625,6 +5622,15 @@
         "nolan"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-15T01:33:38.031983+00:00",
+      "t": "Dana White: Terence Crawford needs 'the right fight' to end retirement",
+      "names": [
+        "white",
+        "crawford"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -5662,14 +5668,16 @@
     "a7d1d1bae75ae00f": 1789232283.7078793,
     "d3a2ac00482e5625": 1789291916.5302384,
     "f7528983ad8c4e5b": 1789309527.9902766,
-    "6914395cb37aebf5": 1789388203.97258
+    "6914395cb37aebf5": 1789388203.97258,
+    "0608909dc2825a33": 1789436016.2950168
   },
   "pinged_titles": [
     [
-      "Tom Aspinall vacates UFC heavyweight title after suffering ‘further damage’ to his eye in training",
-      1789388203.97258,
+      "Dana White: Terence Crawford needs 'the right fight' to end retirement",
+      1789436016.2950168,
       [
-        "aspinall"
+        "crawford",
+        "white"
       ]
     ]
   ]
