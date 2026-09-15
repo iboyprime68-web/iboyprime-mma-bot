@@ -1,5 +1,9 @@
 {
   "seen": {
+    "29879e6271f31f4c": 1789507414.4520433,
+    "8bd7929ed14233e6": 1789507414.0681832,
+    "bc6e7b1e82363857": 1789507414.0561142,
+    "2df7be465ad7d81a": 1789507414.055945,
     "6f05a6404ee614b4": 1789507349.124797,
     "acd30bb834b1fa93": 1789507348.8191638,
     "7bb9f155c337e4db": 1789507283.9010842,
@@ -2495,11 +2499,7 @@
     "60fd7f4a54c67687": 1788512262.3141253,
     "1f89c83c27854010": 1788512196.143298,
     "ad02d814593ce49e": 1788512170.6197236,
-    "4023ee2540736e07": 1788512170.1423044,
-    "5e88aa60d2832c21": 1788512125.4107888,
-    "d218b5fc1903e4ff": 1788512125.153836,
-    "f2cf9dd3843b81f7": 1788512058.7255137,
-    "8c0c04ef1fd6bc4c": 1788511992.197931
+    "4023ee2540736e07": 1788512170.1423044
   },
   "initialized": true,
   "v": 4,
@@ -3871,13 +3871,19 @@
       "source": "The Body Lock",
       "ts": "2026-09-15T20:32:53+00:00",
       "cluster": "cc7ea74b829"
+    },
+    {
+      "t": "The undefeated fighter (and cop) Sean Strickland assaulted competes on Contender Series tonight",
+      "source": "MMA Mania",
+      "ts": "2026-09-15T21:00:00+00:00",
+      "cluster": "c2315d8b4f5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T21",
-    14
+    15
   ],
   "yt_eval": [
     "CBMib0FVX3lxTE9RS1k3WC1jelZnNnZoUXllWDVfMFNpUVN4RFZubGRQY1VoSTgyR2M1M1ZCN2VyWUppMnhwZHBMbGY4Rmg1aENpdFlhZXdMWk5vWVNySDFMYXltVnBibmxIQllNNUc1WjNHb1VhTjQ2VQ",
