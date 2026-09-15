@@ -1,5 +1,7 @@
 {
   "seen": {
+    "e814414bfd76de8a": 1789435217.8693519,
+    "eec8761977b3b90e": 1789435217.4971266,
     "8cae7709bd4561f6": 1789435152.191134,
     "95f14b6027eee87b": 1789435086.2578976,
     "f57415af43c3c00e": 1789435062.4151022,
@@ -2497,9 +2499,7 @@
     "c0f6704d13f24245": 1788424408.3120465,
     "c2942cf67a44786c": 1788424408.3120453,
     "2fbb5135f088e78a": 1788424408.3120434,
-    "88b905224a812f48": 1788424408.3120425,
-    "b338d2072106655d": 1788424408.31204,
-    "bb68e1d07eca2903": 1788424408.3120391
+    "88b905224a812f48": 1788424408.3120425
   },
   "initialized": true,
   "v": 4,
@@ -3211,16 +3211,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-14T23:42:56+00:00",
       "cluster": "c2d253dba30"
+    },
+    {
+      "t": "UFC 331 loses main card bout days before event; one fighter gets future main event",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-15T00:03:57+00:00",
+      "cluster": "c0fc962ab03"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T01",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMijgFBVV95cUxNN3kwLVI2VFZwbGlZN2pFbHVqZ3ZLUjIxNjRKQ3JFbWtJcTJEWkdJcFduQnRfckZnU0t5UW1VQnlVZW82OXgwdDBiLW56NTdTSGZXRF9PeHZCdGxjWUJ4X2ZwX25NVm9paG9GRmtLTlVIcTFqVEtzNElVUVBKZXVGc2VQVU83aHRfekxMRnpR",
     "CBMigAFBVV95cUxOWGxFYmVRcnJjOVF5MWZhTlUyZlhPWUNUV2ZZa3d1RDNHM3A0V2ZzeU4xWXFaOEpvMEtoVVo4cVl5OEw5b09ycUd2NXA2bkR5bmUtVjNWQzRmbTVic3ptR1YzWDkwMGJxUk9HM0hZTmx4dkVRYUNCMXl1YzNkb0Fwag",
     "CBMikAFBVV95cUxQUFFpMWlCeGMxd29LUXo4YjNHSkVhbnk4VFI0aEZGekU0UGd6THZQemU0QlI0MVhuUVl0ZTZsWDE2QVZHa3hsLWR5YXlHd21JS2g3RXJ1UzY5aVZ3YXFTVkVTZGRCUjJRUkltczc4cEdab2d5VmVWY2ZvT2h3eU5Pd21vWEczRlpVUlB3ZDNITjU",
     "CBMie0FVX3lxTE5vR2ZDdGs3ZGxOZ2xQdVJycG52VElULWZhZUxMVC1VOHUyY0diOGVmeEpzM3Y4UFlfWlo0b0UxaGZqWE1nZzl5LWZIaWpjNkpqRGpGdVg5QThEQ2hVNS1oRTV5VEVTZ3B4Q2RKSEtjc3MxVFhwMHRrOXE0bw",
@@ -4719,11 +4724,12 @@
     "166b3b75-b33a-3353-bb09-4c36f2687d6e",
     "https://www.mmafighting.com/?p=510318",
     "0e1e1920-d7a7-3156-aedb-ec35dabf2f24",
-    "f63f3203-78ae-4e21-9954-380a3359d83e"
+    "f63f3203-78ae-4e21-9954-380a3359d83e",
+    "5518185e-0a14-350a-bfcc-535b47369e0a"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 4,
+    "ai": 5,
     "staged": 1,
     "prio": 0,
     "lost": 0
