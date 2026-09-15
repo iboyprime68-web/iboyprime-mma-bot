@@ -1,5 +1,6 @@
 {
   "seen": {
+    "97ee7dcbcd1bafa2": 1789478790.6946588,
     "7f7196d88457c5d0": 1789478725.5921795,
     "4e2995d45049610a": 1789478661.147537,
     "a4a4b0d106db3d6c": 1789478636.4063425,
@@ -2498,8 +2499,7 @@
     "4e908a3176a332e9": 1788443031.5768423,
     "3598513aabdcfd6c": 1788443029.9742558,
     "b1206c12f4c6033b": 1788443029.9723701,
-    "4d642db714c3379a": 1788443029.9698322,
-    "29735406a280cf28": 1788442966.8728135
+    "4d642db714c3379a": 1788443029.9698322
   },
   "initialized": true,
   "v": 4,
@@ -3493,16 +3493,21 @@
       "source": "The Times of India",
       "ts": "2026-09-15T12:30:00+00:00",
       "cluster": "c5470b7232f"
+    },
+    {
+      "t": "UFC star Max Holloway hilariously uses Family Guy to troll Conor McGregor’s injury",
+      "source": "ClutchPoints",
+      "ts": "2026-09-15T12:33:08+00:00",
+      "cluster": "c61d26b9669"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-15T13",
-    11
+    12
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Undefeated-prospect-loses-second-DWCS-shot-due-to-Visa-issue-202605",
     "https://www.sherdog.com/news/news/Dana-White-saw-Ian-Garry-as-too-passive-Javier-Mendez-saw-genius-202606",
     "https://www.mmamania.com/?p=468858",
     "https://www.sherdog.com/news/news/Umar-Nurmagomedov-sends-defiant-message-after-first-knockout-loss-202608",
@@ -5001,11 +5006,12 @@
     "CBMikwFBVV95cUxPYjVsZklOblhJSlU3WkVVUENfMzRCZmU0dVdFNUtUYl9hQ1o5cHJYYnlSWm1CZFJvRU82TWd5ZjF1bDd1Vm1QSlVNQ0d6VWNWanZ6ckZ2Z285cVpkam10TkdaUzBUd25kMmd4TWtUbnpaX0JCSzRnVGxZV0JSeGpnY01yRU1qMldzZW5CNjdybUl2dkU",
     "https://www.mmamania.com/?p=472471",
     "CBMiiAFBVV95cUxNZlNNMzVQMUZ6cDdZNGxMSXBTVHc5bVpZOTRzTE40a0xmb0hfVklQWFZ3Xy1oajJpTklqU2cwUG80VFZNYUNJWV9tTzV4MDBLVVQyQUc3b25NeUNNbGs0ZHo2cGZxbS1vQTJpSnpOcUZTcGZCUjV1SUZFWC1iNlIzbUd5NnFKVlhs",
-    "CBMiiwJBVV95cUxQX28zUm5NMHM1a1NTLXY1S2VfTHJlVlZZV0d3R1FMN2RTMG5JeEtVbGV2ejV4S194amdfaEJUWjR3TVlERnpzZURxMW41dG5TdEFYTGlmMnNkZW9TU2xRRkgzR2ZzVnhSZkgxWXpvNVJkUlE5RXozcVhLQ1FYWjZFTXdTRFZfQ1VSSXhzaTRzaE55ODZnRVp4N2c3ZHktSVg0T0RMQjc1djVkeFZCR1dWM09vcjhtRDFzaERRaTJDdENVM0NLOEs2TllvajBEMVJqbnNrZzZLRXpvdUp0NXk2OFNSejhRVTMzWkt3NDI3a2Q1azJOQlo5Um43UUpjRVpzRjRmNlJEb05YQmfSAZACQVVfeXFMTmVicklkdUN4d2xVdXAtNnNqZmRUMnNuNGlDbGQ0VmI1R2NieHJBbk1qU2lhUlNoQkZuNmR1UDhTYnY3NFpnU3B0a1pCZGpmNGxFTTZucERJWW11T2dwdGNtSEdEeTVvRFR3bG1Id3l6Ny14dUlaZUdfSzlFUmJneTRNZUZSTVQwQ3JQbkEwWXNlNDFBdGpuZnZXVFhpcWRhMHQxbHdZeTJ5SGNWN2EwOUFERzJkSHZaVWt6YlRFd2RTQ01mZHJGb04wYktnNW5aZUlabkpEX2xVbU1mVDFCUW4yNGV4T0pLT0tKTUJDOGRtcHVFRkxKQmtJTmZtX1M3bzFMSXE2SFBnY1VMMmNqbkI"
+    "CBMiiwJBVV95cUxQX28zUm5NMHM1a1NTLXY1S2VfTHJlVlZZV0d3R1FMN2RTMG5JeEtVbGV2ejV4S194amdfaEJUWjR3TVlERnpzZURxMW41dG5TdEFYTGlmMnNkZW9TU2xRRkgzR2ZzVnhSZkgxWXpvNVJkUlE5RXozcVhLQ1FYWjZFTXdTRFZfQ1VSSXhzaTRzaE55ODZnRVp4N2c3ZHktSVg0T0RMQjc1djVkeFZCR1dWM09vcjhtRDFzaERRaTJDdENVM0NLOEs2TllvajBEMVJqbnNrZzZLRXpvdUp0NXk2OFNSejhRVTMzWkt3NDI3a2Q1azJOQlo5Um43UUpjRVpzRjRmNlJEb05YQmfSAZACQVVfeXFMTmVicklkdUN4d2xVdXAtNnNqZmRUMnNuNGlDbGQ0VmI1R2NieHJBbk1qU2lhUlNoQkZuNmR1UDhTYnY3NFpnU3B0a1pCZGpmNGxFTTZucERJWW11T2dwdGNtSEdEeTVvRFR3bG1Id3l6Ny14dUlaZUdfSzlFUmJneTRNZUZSTVQwQ3JQbkEwWXNlNDFBdGpuZnZXVFhpcWRhMHQxbHdZeTJ5SGNWN2EwOUFERzJkSHZaVWt6YlRFd2RTQ01mZHJGb04wYktnNW5aZUlabkpEX2xVbU1mVDFCUW4yNGV4T0pLT0tKTUJDOGRtcHVFRkxKQmtJTmZtX1M3bzFMSXE2SFBnY1VMMmNqbkI",
+    "CBMikwFBVV95cUxNSi1LRGhkUHNpM0xjMjJrVy1UQzFXdzZMV0Vxd28tRTllOTZOd3VkeHJKT3BNRWFodjNGX3N3WDI0b3Z2Zlc5UU0tcG1nblNuT2lZWllxQzVWelBjVVAtb3FXcFBzQnU3WkFJeHoyOWEwMUVFMTV6emZDSFozN3d3ZjYzclp1OV9hMG9LdjZpdlA1UE0"
   ],
   "daily": {
     "d": "2026-09-15",
-    "ai": 51,
+    "ai": 52,
     "staged": 3,
     "prio": 3,
     "lost": 0
