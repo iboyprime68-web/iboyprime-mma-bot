@@ -1,5 +1,8 @@
 {
   "seen": {
+    "2f3038c02259777e": 1789570802.1205943,
+    "0f61bdbefbcdf12c": 1789570801.805093,
+    "e59f42111e93f419": 1789570801.8041532,
     "fd7d25575efa7ecf": 1789570735.8620267,
     "e0e5790522147245": 1789570710.6256862,
     "a207d6b9f82bbfc8": 1789570665.9470663,
@@ -2496,18 +2499,11 @@
     "b407a551d28e88dd": 1788585932.817281,
     "a8749875715a001b": 1788585909.2151403,
     "62b6d6338cb930b5": 1788570033.2261407,
-    "950efeac4e653c48": 1788570004.462608,
-    "3112c0da2bacb455": 1788569918.2005527,
-    "1cd1596ec4200991": 1788569917.8408341,
-    "2a814acb63bc33f7": 1788569684.8465016
+    "950efeac4e653c48": 1788570004.462608
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Tom Aspinall re-injured himself while training for UFC comeback before giving up heavyweight title",
-      "ts": "2026-09-14T15:00:00+00:00"
-    },
     {
       "t": "Conor Benn releases first statement since knockout loss to Ryan Garcia",
       "ts": "2026-09-14T15:08:16+00:00"
@@ -2591,10 +2587,6 @@
     {
       "t": "Justin Gaethje Uncertain About Fighting Future After Championship Win",
       "ts": "2026-09-14T18:15:34+00:00"
-    },
-    {
-      "t": "What’s next for Ryan Garcia, Jai Opetaia after big knockout wins in Las Vegas?",
-      "ts": "2026-09-14T14:59:34+00:00"
     },
     {
       "t": "Video: Scott Coker set to announce details of new promotion",
@@ -4341,16 +4333,21 @@
       "source": "boxingnews.com",
       "ts": "2026-09-16T14:20:47+00:00",
       "cluster": "cb7824e7e89"
+    },
+    {
+      "t": "5 Fights the UFC Needs To Make Next After UFC Noche",
+      "source": "Deadspin",
+      "ts": "2026-09-16T14:26:00+00:00",
+      "cluster": "c03ef14856f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-16T14",
-    22
+    "2026-09-16T15",
+    1
   ],
   "yt_eval": [
-    "547f4a49-2490-36e5-b7c6-062f82a4e51f",
     "8810fe13-1691-3715-95e4-a041492f2108",
     "ab4b85c5-6617-3159-9a1c-3bf37b65c05d",
     "3f95ab57-4d19-36ba-934c-afb05e710d51",
@@ -5849,11 +5846,12 @@
     "CBMiakFVX3lxTFBCSTRJZ0JPU1lwbVJzaXVyWXlwX2kzcHJidlJqaFRjT29pTkoyVDVBYXI3bkE0bHhOZUhMQ0M5SzBhWHNyWm1Zdkw4Z0J3MDJGREZtRURhejVYSlczd08wYWw0c1VVY3UzOXc",
     "CBMiogFBVV95cUxPeGR3Q21iVlRPTFZ4M2Z3MkxVTGUydUVHTFBEazB1aUpEMnYyelZzb3RlZ2lSX3BkYURuVTFsX2ltQ1V1UGlhQW12ckJfR2t5WVRLWjlxUnF6MFNfNmhNcXZQOGcteXRHTzFwNTJMcXFwNG4wRUJ3SXMwdFp1LUtfVFVjR1QyUFRDbUduSEwzckM2Q3VYT2V4bUloVHVRMXBYZ0E",
     "https://www.mmamania.com/?p=472686",
-    "CBMicEFVX3lxTE9iRkFsN3RHOHhrdnJxUjBrZE1NOFRmT3BVU2Y5QTcybzhqOXdqTkJhY3k0aHV0bE1mRXZQdFczOGhwR1BsRXAxQzh3aDMxYjlZQmxjVjVhbUlEZXZCQzRZd2UxOFROVURpMjl5cUlOZXk"
+    "CBMicEFVX3lxTE9iRkFsN3RHOHhrdnJxUjBrZE1NOFRmT3BVU2Y5QTcybzhqOXdqTkJhY3k0aHV0bE1mRXZQdFczOGhwR1BsRXAxQzh3aDMxYjlZQmxjVjVhbUlEZXZCQzRZd2UxOFROVURpMjl5cUlOZXk",
+    "CBMifkFVX3lxTE5ralRSQ040SzJDTEQxaHBENHVkLUJPOC1wamozVmVUanVUNEhBOWNZTVM2QmVSUW1CREVUaHBrTVVLY1I4WDlvNnE5MlRfWm84OHFmTzkxejhPSzE0blN4c3Z1ODFjZEVWSUdRbEs1RElRUUpPSkRxNk1Ha3d4dw"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 117,
+    "ai": 118,
     "staged": 2,
     "prio": 1,
     "lost": 0
