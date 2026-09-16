@@ -1,5 +1,7 @@
 {
   "seen": {
+    "3936edf36c464893": 1789570201.1359417,
+    "0b5ebf3666d61bfa": 1789570200.5500953,
     "d33a4adbdee597a5": 1789570131.4400022,
     "bffeb231ed9c52d2": 1789570085.7777634,
     "c4fe9a6cb86218f8": 1789570085.2957635,
@@ -2497,9 +2499,7 @@
     "695f5f3be0094adb": 1788569325.625649,
     "c104c599b2116ea4": 1788569325.3057852,
     "4a5cb581f53147d3": 1788569325.3055434,
-    "47ea5f79304a0872": 1788569259.7841644,
-    "a2414ef19819d25f": 1788569259.4655724,
-    "e20fa40f147bca9f": 1788569194.2436578
+    "47ea5f79304a0872": 1788569259.7841644
   },
   "initialized": true,
   "v": 4,
@@ -4281,16 +4281,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T12:50:29+00:00",
       "cluster": "c7985d1c4ae"
+    },
+    {
+      "t": "Dana White's Contender Series 92: Grading new UFC contract winners",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T13:40:30+00:00",
+      "cluster": "c8ab6c31f99"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T14",
-    12
+    13
   ],
   "yt_eval": [
-    "CBMigwFBVV95cUxOd0FDU2o2Qkw0QVpPRFl1NE5jd24zekdRQllTaEF0WEVudXN1Sk9oYmdTYXdxWGhkeWdabUxSX3RMcEM3ZC1EOWhDb2p0Y1JVSzhWcTA4cU9yTnJmY3hsdmpvWFR2YU5NLUJaQ1ZqLTh2NmVpX3d3ZmpVVFZsb3M5aGMtTQ",
     "CBMiXkFVX3lxTE8zam40UXFxaWt2RFpFZGFCX1dZVzU4RTdXYUtfUUN2WUVtTlJxa0lXRzNlZjZUZEtiVno4WGhGZnhTaUpxYTRPS25HYndYZ2ZPdXVLX2s2SjRvMTZNLXc",
     "CBMiqAFBVV95cUxNU2JHOWxKNmJ4T005NHRLU2FqbXZUYzVfbnRsQzFQWS1vd2FPWkVUOWpqaWd0ZU9RLW12YXhRaGFaRGlzU1R2VWVJTWtXZ0hVbm1YWU4wUjFicmFCNy1lR2NaRFUyZkhTS1g2STYtalBHTGFNUEpaa3hVQVdhSkJEekc2eVhEemFZWDVfRE9WZngzZk1va2FkUllKZ3RFeVVMTUQ2ZnhNSzQ",
     "CBMimwFBVV95cUxQY1pRaVJRNkpUcko4eEZONEg0aDN1NmlPamgteXk0SW53VWZaUkZ4bng0Q1Z6Z3gyTENOaXlaa3RNZ05aaVFjY29KbUNwRkdNMnpCRE9OcWJxQzBtYUNTUkR6YkpiUzhJLXg3NENwd3lxNER2V1hlTEdoSjF1XzFFRUpGUkFxWFFFNk1ZSVdsWmxrLVZCMTE3VllUcw",
@@ -5789,11 +5794,12 @@
     "30fae80f-8cc2-3b7f-bd0f-62d27dbd3d74",
     "d8a79f47-77e0-393c-ad22-e4567e9b40e0",
     "https://www.mmamania.com/?p=472680",
-    "d508bd5b-f8f4-378a-82a7-034e66fb4091"
+    "d508bd5b-f8f4-378a-82a7-034e66fb4091",
+    "26e58cea-7dc4-3d9c-947e-3f6adeb79184"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 107,
+    "ai": 108,
     "staged": 2,
     "prio": 1,
     "lost": 0
