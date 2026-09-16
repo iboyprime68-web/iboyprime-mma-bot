@@ -1,5 +1,6 @@
 {
   "seen": {
+    "66b2923fe66ba100": 1789596066.267841,
     "095b0f0a358b799d": 1789596022.1224813,
     "4a1bcc3fd05301e1": 1789595998.7441418,
     "f6bf0eb377a2912f": 1789595998.3804197,
@@ -2498,8 +2499,7 @@
     "0a55d7611bdac519": 1788627600.955602,
     "241bebbe57f2e367": 1788627536.9337366,
     "d5390be9a7af2ac7": 1788627472.8211377,
-    "cedc9db8cb68a7c2": 1788627410.144191,
-    "45d6080303363171": 1788627409.945497
+    "cedc9db8cb68a7c2": 1788627410.144191
   },
   "initialized": true,
   "v": 4,
@@ -4537,16 +4537,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-16T22:00:00+00:00",
       "cluster": "c27fe7e859d"
+    },
+    {
+      "t": "UFC excitedly shares Silva-Wang poster for UFC 332 — only to get creamed by fed-up fight fans",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T20:39:29+00:00",
+      "cluster": "c0d8f70e9d0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T22",
-    1
+    2
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329956",
     "d22a760f-96ce-3ec8-bcfc-12360114b178",
     "https://bloodyelbow.com/?p=329960",
     "https://www.mmafighting.com/508044/dnp-morning-report-template-dnp",
@@ -6045,7 +6050,8 @@
     "https://bloodyelbow.com/?p=331954",
     "https://www.mmafighting.com/?p=510574",
     "0de6608a-e457-349a-80d3-213cbc8670ab",
-    "https://bloodyelbow.com/?p=331917"
+    "https://bloodyelbow.com/?p=331917",
+    "dd4e97a4-c955-34e8-b9b1-327caf2d6843"
   ],
   "daily": {
     "d": "2026-09-16",
