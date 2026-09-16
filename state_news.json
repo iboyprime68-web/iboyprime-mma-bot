@@ -1,5 +1,6 @@
 {
   "seen": {
+    "fc7dd67448ae6bef": 1789534924.8305643,
     "00628b0f506d4da7": 1789534878.9702764,
     "a549272721d6075d": 1789534854.5002396,
     "4ce3fbe501d59fdf": 1789534852.2905748,
@@ -2498,8 +2499,7 @@
     "dff97b592163812f": 1788544382.079048,
     "9d2323ef1f939b82": 1788544381.845406,
     "4490466409d91577": 1788544381.8450286,
-    "5aa2cbbdead33149": 1788544318.190066,
-    "9116854c1b675534": 1788544317.852704
+    "5aa2cbbdead33149": 1788544318.190066
   },
   "initialized": true,
   "v": 4,
@@ -4185,16 +4185,21 @@
       "source": "Sherdog",
       "ts": "2026-09-16T02:56:00+00:00",
       "cluster": "c09d476f79e"
+    },
+    {
+      "t": "Islam Makhachev Says Ian Machado Garry Will Be Champion",
+      "source": "Yardbarker",
+      "ts": "2026-09-16T04:14:21+00:00",
+      "cluster": "ce80da8c750"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T05",
-    2
+    3
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329908",
     "f09f1ab8-bc83-3df4-b4dc-e931e4a5c244",
     "CBMiowFBVV95cUxPZlJzNzRZYWNJcTZ2cEFjc0xYRk5mejE0akJBS0V2Tzk1bmtKQ0pZbHlOQ2xvejFNZ09rYXZlQUU2ZlZaY0J5a1RUSThGSXZvalYxYkVaakNHRUdQa2dCZEhhdDJMNzFmN2xwYkJWUEppYU5SaUFxWFJDVnVJUFVBLVR3UUhaODQzbHRwUE1wOFBNTDlWTV9LYnl6OWotZldkRUlV",
     "CBMi7AFBVV95cUxPallMbmdFQW4xNWFCUkkycjBJVThmalphSkdlazBTTVZoYkFqandyVTY3QmVtd2xGdlpNQm1fSlM1aHB2eXVwVmNMSlFZY0lxVFRXY1RkV1VPXzZXV1gxRkVsMjVCbDVqNWpFNzhCbmxFMTlNSGlBOU5yWnNBOHdVNTF2Z2ZhU2ZGMjN3b2plY0dQLW9CTlprTnFqWU5pNzc0OE5PMk41MHFfOVdzNmdLcVo3am9kcE5CVVpYVVlhaGN4MVlkb2hZV3lpSjFKeTlld1R3MDJ2UUYwcE5GNzVTaS1MRXE4Q2ZWUHNIeg",
@@ -5693,11 +5698,12 @@
     "CBMilAFBVV95cUxPZkMyYjdsZHVJaTRFMGdBaFJhRnRoTFc3TTNTeFlDa3FVZUhrRm9lRExraU9jMHlKVGx2MjJ3RW0zeVltM19KZmRMdURGQnE0VlhiT2ZieEs3allEd2poZC1vYnZld0p2dVZoaUhJVGVZTHZ4aG1QYkxKclhtcGdqaTVSa1dfQ1F6YS1CV1EyeU9sd05i",
     "CBMiigFBVV95cUxNVjVVSmV0aE5DY08tbGRIc1hIQXFzZ0IyUFY1Z3puMXY4YWk2R0plbGtKdjh0MkV5WUQxM3dQYjlqR0dpRTZDZTBXMnBETUVIUTNnMzByRVRuM3RETi1VdDR5M3A1c2ExUEo0ZnZyZy1ISjk3YXlRUm14QkhiYkFCYnlSRHk3T2xRVXc",
     "CBMiowFBVV95cUxOeTdCNDV6dmZwbTVtdUJYeHF6dUlFYm1BQ0p5SElKZ1NKd1JUVGhEenZaZVBmZU50aVNaemJ2Nmh2TklIaEVZbVB2M3dkWHpEUFR5NGRSbXVpRE5la0xGOWNiajZGc3d4cXktRF9YQzEyeHFyZ0FGRVJmdHZFMGVIZmc1am5SWDU1UVJybWtNU0FCdzhRWmxmblRCREZMWUJMUkdZ",
-    "https://www.sherdog.com/news/news/Renato-Moicano-rips-Brian-Ortega-for-UFC-331-withdrawal-202815"
+    "https://www.sherdog.com/news/news/Renato-Moicano-rips-Brian-Ortega-for-UFC-331-withdrawal-202815",
+    "CBMiswFBVV95cUxQZ3NPSy0tbXRFX0p3UzJobzNUejdIdmlwZXBBZ2IwcmNEVUxwZWk4VzBoZE9ZVnNpYms5TjZ1YU9VNGdRdUk0dHBzOGhidnhiUmlPMzZmRDBYSU13cE1FdXlFS3RDdmo2WjAwSTIxTzVjYVdka01GdjRPWmthRTl0Zlo0QU5JbTZaMUROaWJtb25ySzVVS3FOdTQzSjVDOWVUckZZQTB4VXk2VVY0aHRfM1UyOA"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 55,
+    "ai": 56,
     "staged": 0,
     "prio": 1,
     "lost": 0
