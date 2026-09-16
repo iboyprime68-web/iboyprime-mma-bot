@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5813651a740c7cc3": 1789535593.1215537,
     "9ff64fd56d3248cf": 1789535526.7141113,
     "01b9185785d6f549": 1789535526.3268116,
     "90647dbf6503f3b9": 1789535501.212498,
@@ -2498,8 +2499,7 @@
     "4bef94c2dba44d4e": 1788554227.0620656,
     "27d274d1b8c93100": 1788554225.929455,
     "26890c2b5347646d": 1788554202.7779317,
-    "ad4ef9bdf253c61c": 1788554160.2506204,
-    "e397c00287215d98": 1788554096.9296777
+    "ad4ef9bdf253c61c": 1788554160.2506204
   },
   "initialized": true,
   "v": 4,
@@ -2523,10 +2523,6 @@
     {
       "t": "Conor Benn reveals what’s next after getting knocked out by Ryan Garcia in less than five minutes",
       "ts": "2026-09-14T12:00:00+00:00"
-    },
-    {
-      "t": "“He Was Caught Doping Twice” – Islam Makhachev Dismisses Jon Jones’ UFC Winning Streak Over Failed Drug Tests",
-      "ts": "2026-09-14T05:12:39+00:00"
     },
     {
       "t": "Alex Pereira Wants Ciryl Gane Rematch at MSG",
@@ -4251,16 +4247,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-16T04:51:07+00:00",
       "cluster": "c819392ce3e"
+    },
+    {
+      "t": "\"You're never the one to be blamed\" - Islam Makhachev responds to Jon Jones defending his legacy against doping allegations",
+      "source": "Sportskeeda",
+      "ts": "2026-09-16T04:52:00+00:00",
+      "cluster": "c150112bfc1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T05",
-    13
+    14
   ],
   "yt_eval": [
-    "CBMivAFBVV95cUxPcDJxazVacko4eldDUndwOEhYQ04yS2ZNTGlhc0pOdU52eXdLazhMUXhCallGRE9BMS1kdGh0cXVkT0xYdkRycXdGNFlQZFQ2Y1c3MXBETVFIX1JfbElpTVBVTUZYak91RXlySFBHWGg2S0Z3XzlaeGUtOGY3dHQtYWp1aklNXzhvbnU5elhIYVg1OXZQSHF4Vjd6QkwyOWthckVFMVZzVDRaY3FSYWpKTnA3YUQ2bnpnM29OVw",
     "CBMipgFBVV95cUxPVmNMNkdCX0dpeUItYVBrSVd1VGtScG9mZlFINjBBRzZMbDlESFBzdUw1YmR1ZUhXZ1N3bGJIczhXeXRYaGhEWTVUbm1FSUwzVTV5MnFGay1fbEhaSjBtV0p6Y2gtVENpRnlEOXJaU1FUVHFkVzVxR3d0QkY2WGpjTDUyTEtmbUtnSFBic1BlU2NKc2ZpMWNPTzhoNklUN2JLS1VIam53",
     "CBMipgFBVV95cUxNLUtLeU83UTltdGZWeVdHVGtYVF9YQkh3b0xLTERKb1gyNEJCWEdZOXBzMVVqVU9vNElySU9TVzRmYldUVGZlU3lzbkpNbmVXQTZ4TUYzSUYyLWZwUFN6REVLV29fb0NNY3hmX3ZURkY0ME5pLWdWQlhzVHViX2lIbk1iNDdtNUFYMUxESERtVVpjN0REUHpjdzU3VDdlLWhaQmZsa0h3",
     "CBMinwFBVV95cUxNMDB2aFhwdkxvblpqd3djOURYTVRBNU5sVlRTZ2F0TjIyVnBUNmFNOTg3Ymx0SjdleXY3aDItV2pqNktlbUVMcDRFNHh5UFFrcUk1cVEzWnppczZ2MjRLTWtxdzIwQ2xMNldHbktFeTlqaFF1cFVOSzJ2d2JXWFBHRzd3X2pBV2xxZy1Vbkswc2Y4dlVHNEtZVWxBbHd3MGs",
@@ -5759,11 +5760,12 @@
     "CBMiiAFBVV95cUxNcGhZZFN3UGY3a2tHRXZVcDZXWU0zRnpkWkpnemh5M2ltZDBTbkJrRjdsSlcyZmRxVVpVakR0Vms5VnVvLTg1S0lpcm1uUllWM2ZPOVhaYVZ2NUZIOGtCeU9IYXZXUEQwWmFQUUxkSWY3SDR2RXJFelNPN3pMem1uWGROQ0w1ckZZ",
     "CBMikAFBVV95cUxOQ3A5RHQ5QnFZWXYxNEdEVF9pUm15aHItbWZ1a3l1T0E2N2ZLLW1DaFNDN01qNmRfaWlPNmxQNmlMN2tBTEtteUxqM0l3eG1qQkd4eXU4T1ZTcGFFUGlDcFMtR01TZ1o1S2lmX21Bbk5YdG1pczlTT1BfTEJTOXc0UUE3MTQ0WFhHZmVHSl9Samg",
     "https://www.sherdog.com/news/news/Arman-Tsarukyan-is-Mauricio-Ruffys-worst-stylistic-matchup-coach-says-202818",
-    "CBMikwFBVV95cUxOLTdpZWFWbTdmRFdlOEdxdW16d1d2T1dqdzBsWHpZV1daVU4yTFEwSWo1eHAtNUt2em91bU5WZFk0OU4tREk0Ym9sZTRtZC13eW9DQUFtSVkzMkpmeHFmSS1Iak9uSm5Bd0dheWo2ZjdTdUxJVmI5Qlh2cVhuRVFlN1NaRjFuU2lKNE1kQUlDRHNzaDA"
+    "CBMikwFBVV95cUxOLTdpZWFWbTdmRFdlOEdxdW16d1d2T1dqdzBsWHpZV1daVU4yTFEwSWo1eHAtNUt2em91bU5WZFk0OU4tREk0Ym9sZTRtZC13eW9DQUFtSVkzMkpmeHFmSS1Iak9uSm5Bd0dheWo2ZjdTdUxJVmI5Qlh2cVhuRVFlN1NaRjFuU2lKNE1kQUlDRHNzaDA",
+    "CBMiywFBVV95cUxOVEgxNExzdXh1X19mRjlyeGV2aHFzR0lGbUtjbW9weE1Edm92ZktiTk9fdlBaS1hxY1ZNRm9aUEU3VFJrNGQwTEZXdDVsNkY4WXJvQ1JMdV9VRzNlT1llcTJDSkl3d2dkbUFDVkg0bEJfX0xkZlNvTGktYmFNVEZfc2xuR0FSN1BjOGxuX3RUc3ZhSEJieXdFOUZUNmlJajNmaW9LTEI0dGZPY2FHTTd5TDdKRC1VbVRDcTc2ZHpSd3JqMlpGaHpRTHpaUQ"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 66,
+    "ai": 67,
     "staged": 0,
     "prio": 1,
     "lost": 0
