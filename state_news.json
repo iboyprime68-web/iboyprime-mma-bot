@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4385b9a029a0db24": 1789570872.8350723,
     "905d0bc3bf4bf0ff": 1789570827.3956125,
     "2f3038c02259777e": 1789570802.1205943,
     "0f61bdbefbcdf12c": 1789570801.805093,
@@ -2498,8 +2499,7 @@
     "aa17c31a5988854a": 1788585981.2279756,
     "ed8d842a96b13801": 1788585956.367334,
     "b407a551d28e88dd": 1788585932.817281,
-    "a8749875715a001b": 1788585909.2151403,
-    "62b6d6338cb930b5": 1788570033.2261407
+    "a8749875715a001b": 1788585909.2151403
   },
   "initialized": true,
   "v": 4,
@@ -4339,16 +4339,21 @@
       "source": "Deadspin",
       "ts": "2026-09-16T14:26:00+00:00",
       "cluster": "c03ef14856f"
+    },
+    {
+      "t": "Michael Chandler: Ruffy 'better than a lot of people think,' beats Tsarukyan",
+      "source": "MMA Junkie",
+      "ts": "2026-09-16T14:30:00+00:00",
+      "cluster": "c602c403b16"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T15",
-    1
+    2
   ],
   "yt_eval": [
-    "8810fe13-1691-3715-95e4-a041492f2108",
     "ab4b85c5-6617-3159-9a1c-3bf37b65c05d",
     "3f95ab57-4d19-36ba-934c-afb05e710d51",
     "d3a647a2-6d79-3b51-a414-817da1bbb7d7",
@@ -5847,11 +5852,12 @@
     "CBMiogFBVV95cUxPeGR3Q21iVlRPTFZ4M2Z3MkxVTGUydUVHTFBEazB1aUpEMnYyelZzb3RlZ2lSX3BkYURuVTFsX2ltQ1V1UGlhQW12ckJfR2t5WVRLWjlxUnF6MFNfNmhNcXZQOGcteXRHTzFwNTJMcXFwNG4wRUJ3SXMwdFp1LUtfVFVjR1QyUFRDbUduSEwzckM2Q3VYT2V4bUloVHVRMXBYZ0E",
     "https://www.mmamania.com/?p=472686",
     "CBMicEFVX3lxTE9iRkFsN3RHOHhrdnJxUjBrZE1NOFRmT3BVU2Y5QTcybzhqOXdqTkJhY3k0aHV0bE1mRXZQdFczOGhwR1BsRXAxQzh3aDMxYjlZQmxjVjVhbUlEZXZCQzRZd2UxOFROVURpMjl5cUlOZXk",
-    "CBMifkFVX3lxTE5ralRSQ040SzJDTEQxaHBENHVkLUJPOC1wamozVmVUanVUNEhBOWNZTVM2QmVSUW1CREVUaHBrTVVLY1I4WDlvNnE5MlRfWm84OHFmTzkxejhPSzE0blN4c3Z1ODFjZEVWSUdRbEs1RElRUUpPSkRxNk1Ha3d4dw"
+    "CBMifkFVX3lxTE5ralRSQ040SzJDTEQxaHBENHVkLUJPOC1wamozVmVUanVUNEhBOWNZTVM2QmVSUW1CREVUaHBrTVVLY1I4WDlvNnE5MlRfWm84OHFmTzkxejhPSzE0blN4c3Z1ODFjZEVWSUdRbEs1RElRUUpPSkRxNk1Ha3d4dw",
+    "CBMigAJBVV95cUxQSE1EeU82TjVOYnJMREVWYlZQcUNINzVlWUZqQVNoYjVsU3NGcDJjU21jd0EzSGJQRmQydklVdm5rYVE3d0VMN0NudzVQaUlhZ2dLZXhabFV6ZzNsOTJnUTA1b0ViTF9JaUpMNHd0cmVqRXpnZDhqMGY3Zlkya2dQNEUtQ1V5ZmZMcU93UkxoSVk2R2FMaHFfV2tiWGNNeXZKajl0RmFmSExDTGNRMDNDemVURGlqSlpSVk96b0ozcWZkcVJteEpuMXl0SHpSRnhMR0ZGclh5N1VJUmtJeGhtWU9qWERjZDdGUWJHdU5paWowc0xKV2hOV1RzRzdGOGxp"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 118,
+    "ai": 119,
     "staged": 2,
     "prio": 1,
     "lost": 0
