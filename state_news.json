@@ -1,5 +1,7 @@
 {
   "seen": {
+    "df763791077706fe": 1789595974.627889,
+    "d12ce63ab2298f34": 1789595974.1232572,
     "bf5c9b2bc542909e": 1789595951.5417888,
     "c8a08b16cdbd6b66": 1789595928.6180747,
     "6e0df92453ada722": 1789595904.8124423,
@@ -2497,9 +2499,7 @@
     "45d6080303363171": 1788627409.945497,
     "97c61b3fad62434d": 1788627346.934554,
     "832ec11f446b91d3": 1788627284.0241077,
-    "5255507d6ccdf794": 1788627220.2530413,
-    "04c7a922e0922254": 1788627219.9943542,
-    "7f9b84f0d5567640": 1788627153.6398191
+    "5255507d6ccdf794": 1788627220.2530413
   },
   "initialized": true,
   "v": 4,
@@ -4525,16 +4525,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-16T20:24:39+00:00",
       "cluster": "c11f54b90da"
+    },
+    {
+      "t": "‘I’m back’: Ilia Topuria reveals he’s been cleared to return to action after brutal UFC White House loss; Justin Gaethje responds",
+      "source": "MMA Fighting",
+      "ts": "2026-09-16T21:54:44+00:00",
+      "cluster": "c1e43dc3295"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T21",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMidkFVX3lxTE1ObVNmUWZNTy1fQXk3cXExU3Y2Y3RtYWRoamVvMnlPZG9XQXVIZWdvQ2tTeEVFNUl2cmtmSVVyVGVVNGJTVWdEN05DUXRHc0FrUmdDbEdmQlpBVWtQVlJzNVptR3VlSVZlam1CNlJDSUNHM3BWcHc",
     "https://www.mmafighting.com/?p=508064",
     "833cd2d7-6240-3fe1-bbc1-b2c9638b9998",
     "https://bloodyelbow.com/?p=329956",
@@ -6033,7 +6038,8 @@
     "https://www.mmafighting.com/?p=510561",
     "https://bloodyelbow.com/?p=331886",
     "c4d5cc7c-3801-373d-b7a9-08b6cbbfa64a",
-    "https://bloodyelbow.com/?p=331954"
+    "https://bloodyelbow.com/?p=331954",
+    "https://www.mmafighting.com/?p=510574"
   ],
   "daily": {
     "d": "2026-09-16",
