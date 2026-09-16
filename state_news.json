@@ -1,5 +1,6 @@
 {
   "seen": {
+    "88634cc22815614c": 1789552736.1611276,
     "a48b668388600c6c": 1789552670.5864985,
     "0b8e1d8165e426d7": 1789552605.5746696,
     "ec95284f416950fb": 1789552560.1316557,
@@ -2498,8 +2499,7 @@
     "a0494ff48a45a56f": 1788555501.1384954,
     "790f63bff2886285": 1788555501.1371272,
     "21f70c59eab270aa": 1788555501.1363146,
-    "252c4c8b9eb82cd3": 1788555437.8579252,
-    "9c4a9a3ca990d6c4": 1788555374.441129
+    "252c4c8b9eb82cd3": 1788555437.8579252
   },
   "initialized": true,
   "v": 4,
@@ -4325,16 +4325,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-16T09:45:50+00:00",
       "cluster": "c48ca081f62"
+    },
+    {
+      "t": "Brandon Moreno Reflects On Missed Chance At Noche UFC 2024",
+      "source": "MMA Sucka",
+      "ts": "2026-09-16T09:50:47+00:00",
+      "cluster": "cd017139dbb"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T09",
-    15
+    16
   ],
   "yt_eval": [
-    "CBMidEFVX3lxTE4zQzAyZm03RERqQ0E3Qi0yREdKTWpLaE1OdldZQlJRWHJrZ0lNSmNjWjlkR1RzdDJYTFVTMVJFajJrQ3cteFp0dXE4bl9jMVBIam9kYy1sSFFCQzdZU1RtWW13bDN6alhCLUF4andJX1pmSFRv",
     "CBMiXkFVX3lxTE1SN243QXJZWHlWWGtaMzl5dGRPNGxlRG9mUXBfTjNUajI2NnhKc0xFb0Mwc0p1OUlCbEFDNFo3UHdxakJLcEpCVmhWNUpISmh6NmlBN1F0SE5IVXlCRFE",
     "8df2ffb3-273f-368d-8204-a4a2c66f23e2",
     "54351a33-414d-382a-acb6-1fbcc18d1220",
@@ -5833,11 +5838,12 @@
     "CBMiwgFBVV95cUxONzhhVWR3V0Y5TUIwazN4N2JsdGZQdm1UUmU4ZjI0Z3ZXakdyMU5pQ2lsd0I5M1VhRFJkTDVfYmpka0FTalBBNlMwTFFuai16d09oM2Fsb243czIwel8wbkZzTm5CRVZyaFlOWXhBNHdEYU16Ny14OWlMdGpwWEo0UmRjMHhmcVlxbTVNNnlPejcweUc0RURqMHVwSkZucnc3T1lrWkd5cloxR1ZGVm9XQUp2ZDUwamh4bmNhQ0RlU1p0Zw",
     "https://www.sherdog.com/news/news/Alexander-Volkanovski-chokes-out-6Foot8-Eagles-star-Jordan-Mailata-202823",
     "CBMi6AFBVV95cUxObnVLM0tkZE53UWl2bVlQVkt6QlpMVko1c0MzMi16bHd4czVpRWloanhhS2w2OURFWXk1WkM1ZWJOaVRDVEJrS1JsOWQya0ZTVHRTeEdCR3BkSFBORkd3MU5SWGdCNWdOOFdxZEZsdGFLZzVEZENjZ2NiUVF3SWltdTFCeU1PMlQyRGVITldXQ181ZXptTUlrODNvTHY5bHBNeWJBRm5SbHpJOEtibHFoMUxfUjliYzkyRFJmdmFaeTJKbUdmeXVMWkMyclJxWG9ra1daMmMzdUN1bGF1VUlPNnZJMVIyYUR2",
-    "CBMijgFBVV95cUxQSWlsR2t6a2xEeGRJa2ZzMUI5M0ZIVWN2eGNaVnRTams4TFIzQnVyNlh3Q0cyOFZWRDVrLVU1aV9LRTdkeU9YQVdsRjBhUU1lSWJ1TGN1WHJoeklKdmktQXI1QjE0clphbGNXR3ZDbm56UGhLV0hZekxMYlQ4cm9LMjA4dVI2SnhUWUFEWUp3"
+    "CBMijgFBVV95cUxQSWlsR2t6a2xEeGRJa2ZzMUI5M0ZIVWN2eGNaVnRTams4TFIzQnVyNlh3Q0cyOFZWRDVrLVU1aV9LRTdkeU9YQVdsRjBhUU1lSWJ1TGN1WHJoeklKdmktQXI1QjE0clphbGNXR3ZDbm56UGhLV0hZekxMYlQ4cm9LMjA4dVI2SnhUWUFEWUp3",
+    "CBMijAFBVV95cUxNSVBkRmNZNGlobndWV0lyV1ZpTDNxWTF3N0RpbGdMUGZ4cjRRYmpOc19GNEVVSjgtUHhxWTdKN3hmSVlNLWNHNE1FSHBSYkEwLXRTbkY1Z2N5NnRuNnNYSllIbjZNc3Z0SUcwNFhHdDJSWXNvZGtaRXBkXzJaRHJGSm10ZllINllURk9lMA"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 85,
+    "ai": 86,
     "staged": 0,
     "prio": 1,
     "lost": 0
