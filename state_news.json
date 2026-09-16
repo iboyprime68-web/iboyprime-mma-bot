@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a51142c7e6bd8766": 1789534052.55156,
     "dad0b33279e2f886": 1789533986.199418,
     "dc25a96fd68c0ab6": 1789533985.7623422,
     "a09b78873bf16804": 1789533939.8545792,
@@ -2498,8 +2499,7 @@
     "1904a307bd22ec50": 1788543790.0424702,
     "b433e73a7af25ca4": 1788543789.7195153,
     "63d5bb5ec8a22177": 1788543725.6478972,
-    "35b7983ff7db2a2e": 1788543725.2094076,
-    "36537472d2be905e": 1788543660.5112355
+    "35b7983ff7db2a2e": 1788543725.2094076
   },
   "initialized": true,
   "v": 4,
@@ -4099,16 +4099,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T01:45:07+00:00",
       "cluster": "ce1d565aaae"
+    },
+    {
+      "t": "Nate Diaz Trashes ‘Punching Bag’ Ilia Topuria",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T02:07:17+00:00",
+      "cluster": "cce833a8d5b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T04",
-    10
+    11
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329905",
     "CBMi2wFBVV95cUxNejF3S3l1VkM1bnVrX2U1czhlQWxCTU9yYTdjaGUwVy1KMk9wdlVWOFRPeVR0UWdCQUdvWVItMVMtQXI3VzQ4V0M5Y01zT3dHbUJwVFZtcVpiUUZRNW5MRVJPenZ3ZjNJdndwLTRpRndIQkFvOVFRS3RsLVMtTkpLam1mbE1hdjhSOUVHM3E4TW1hSXhSRHEyYUlxZnp0YWNWcG9vM2ZPRXlEZExoVU91YUNlUlVYek5uMlBMVDluN3BkU0FsbGRfU2V4T25Db09IZFVjY0RhU1ZxaFk",
     "CBMiugFBVV95cUxNVlJKYXNlaUszdldpVW5ocGwyUVhURmNUbS1ETWd2WVJrZlR2cklOVG5uRm56MFQzSHlxWTlYNFg0TXFWU3lNdGdJX0JDRnhyYThiemUyWXk0Y2ItNlU1YVc1SlhLN0RrV21Hd2ZXWk02VEtJY2tPcGNISlc0ejNzaFNqMVpmUjZSYkVBQVZ4UEhHNFNRUkk4MXJmamRtM2dITE4yOWlTcWVscUlzc0VPSWdzby1vaGh6LWc",
     "CBMiS0FVX3lxTFB5M1VFMXpZdWN3UFJaRkdEcXc2clhHSWs3SGdJTU9oZjA5aTBsMElzWTdMT2xfNzJTVG1EXzgxUkxtQWtrN2JtODVIaw",
@@ -5607,11 +5612,12 @@
     "3d157a3d-0066-3236-bbe9-5df828853158",
     "3ac16c6e-3bc6-3b0e-b142-d2157998fcf7",
     "https://www.sherdog.com/news/news/Jon-Jones-piles-on-Tom-Aspinall-following-UFC-heavyweight-title-exit-202811",
-    "14d93a4a-b492-3164-bf6c-28942e169bc8"
+    "14d93a4a-b492-3164-bf6c-28942e169bc8",
+    "92a94368-e690-3903-aac0-63f8dfa9c099"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 40,
+    "ai": 41,
     "staged": 0,
     "prio": 1,
     "lost": 0
