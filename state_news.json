@@ -1,5 +1,6 @@
 {
   "seen": {
+    "095b0f0a358b799d": 1789596022.1224813,
     "4a1bcc3fd05301e1": 1789595998.7441418,
     "f6bf0eb377a2912f": 1789595998.3804197,
     "df763791077706fe": 1789595974.627889,
@@ -2498,18 +2499,11 @@
     "241bebbe57f2e367": 1788627536.9337366,
     "d5390be9a7af2ac7": 1788627472.8211377,
     "cedc9db8cb68a7c2": 1788627410.144191,
-    "45d6080303363171": 1788627409.945497,
-    "97c61b3fad62434d": 1788627346.934554
+    "45d6080303363171": 1788627409.945497
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Watch Scott Coker announce his new MMA venture LIVE at New York press conference",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-14T22:00:00+00:00",
-      "cluster": "cd89de64548"
-    },
     {
       "t": "Scott Coker reveals new name for MMA organization, launch plans and details for Grand Prix in 2027",
       "source": "MMA Fighting",
@@ -4537,16 +4531,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T20:20:17+00:00",
       "cluster": "c14a573eb2a"
+    },
+    {
+      "t": "UFC ‘begging’ Khamzat Chimaev to move up claims rival coach when plotting revenge plan",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-16T22:00:00+00:00",
+      "cluster": "c27fe7e859d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-16T21",
-    7
+    "2026-09-16T22",
+    1
   ],
   "yt_eval": [
-    "833cd2d7-6240-3fe1-bbc1-b2c9638b9998",
     "https://bloodyelbow.com/?p=329956",
     "d22a760f-96ce-3ec8-bcfc-12360114b178",
     "https://bloodyelbow.com/?p=329960",
@@ -6045,7 +6044,8 @@
     "c4d5cc7c-3801-373d-b7a9-08b6cbbfa64a",
     "https://bloodyelbow.com/?p=331954",
     "https://www.mmafighting.com/?p=510574",
-    "0de6608a-e457-349a-80d3-213cbc8670ab"
+    "0de6608a-e457-349a-80d3-213cbc8670ab",
+    "https://bloodyelbow.com/?p=331917"
   ],
   "daily": {
     "d": "2026-09-16",
