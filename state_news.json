@@ -1,5 +1,6 @@
 {
   "seen": {
+    "68ea6bfaf8df360d": 1789517312.1533086,
     "b5b4ef7a72318538": 1789517267.1489718,
     "373490057d7b516b": 1789517201.5621302,
     "b743032cf6596e5a": 1789517135.2809684,
@@ -2498,8 +2499,7 @@
     "bf399b7065f50256": 1788529300.726465,
     "4c29dbf968bfd447": 1788529300.4908688,
     "782102501fe71a31": 1788529236.32888,
-    "65ed5d63ffed67a1": 1788529236.0969436,
-    "caec01d0144d4a0d": 1788529236.096143
+    "65ed5d63ffed67a1": 1788529236.0969436
   },
   "initialized": true,
   "v": 4,
@@ -3969,16 +3969,21 @@
       "source": "Yardbarker",
       "ts": "2026-09-15T23:09:14+00:00",
       "cluster": "cd7ba9ace3f"
+    },
+    {
+      "t": "UFC ‘Contender Series’ results, live coverage and full fight highlights&#124; Season 10, Ep. 6",
+      "source": "MMA Mania",
+      "ts": "2026-09-16T00:02:09+00:00",
+      "cluster": "c53c8a198fe"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T00",
-    7
+    8
   ],
   "yt_eval": [
-    "CBMiiwFBVV95cUxNeE1DaWcxSkM4OUVnQUluT2FFTTdWTkNfNHVPN3dGWW41VzZiSmRpNE9PMGJuNTVpak1GRnlNTTZlY0lPXy1CQWVlVnlHYlZuQ1dMOTlXb2tkM0NsOEc2STFieFEtYXh0RGxtTU1jTWJnanVjOS1peWwybm40eDkwRjR0cFM5RVFRb0RZ",
     "CBMijgFBVV95cUxOZEUxSHVURFpSVm5rVWlIQy1GcTlIZFQyUHpVX2x4QWxYVkZlV0JJSG1Cd0ZXLVY4NkVieFhuWVpZVHRmT0Y1UHF1VUotV3p5Vmp4ZUhhV0lySnR1VDgwRnBFQlNrWnZhN3VaYlJuU09NSnpiTWxHTzV4ZDl1bEdkUDBESm0weU95NTgyemt3",
     "CBMiywFBVV95cUxNMVMyM1pIYWx2Y3Z3b3RVVmx5Z0QybU8yMjZlTXZ2dXFDUlJRUXJ4NlBhdTM4aW1WRXhpYy14akZ3Rm1leS1aZXdBeTlDbHdXcDkxOUZVOHB4RnhmMkxKNzRmTEZjNFNCQ3pGM3A4blhveWc1TndTZF96M1RtU3A0a1NrU3IyYlA4TnQ1VjRLZGJhenp1Wlc3ZkVZWHVLWml2Y3JoZHBrWDR1VkIteENoWDF6SDVsaTVHUUpOZW11b3N1RFZJaWpFSldWOA",
     "CBMiZEFVX3lxTE93VDBqZUdpOWNWei05NDhRc1Utam5HNExoQ05HdkZaMTVXdXNkUF9tdWdhZVhia0ZlWkU4cGI1eFk2Rmk2S1pBUjU0ZGJ2ZDVRaENOcmUyd2lOYTdoYWJCOXFOZko",
@@ -5477,11 +5482,12 @@
     "142eb027-908d-3419-958d-7011f1849661",
     "a61388e2-fdc0-3b26-ba61-c681f9c4110d",
     "CBMinAFBVV95cUxOZFAwR1lRLUM5VWhneWN0bGd4WGw4OEFFNk5vRFBkRjdYZ0w3VzJjc3ZnQkJhQ2kwSWFiQk9ZN2s4T2RtUDZ2emNQMEc5SEVmamc2ZEQzRHU3bTR2VmRNWmtzN2hCbUpEYnBUUFR6ak9mV2xLdFQybUdTdEZFUjhTMlFrTDFEVXBNN3RIektNbVNfODlmcC0yeTRISXk",
-    "CBMilAFBVV95cUxOSjFELUlvZmhDazY3c2YwSzJFS3lZclJzWEVhWWphWEJsWE9ubDlZRTNoVDZVeld2YzVjdmptc2tWZnNjcWtYT3MzcnBWYWx6RFZVXzF1Nm94bER4SlJrTk9XSXpMVmdOazJrdEE4TXNyZTFEdWVPb21KMS1hNkRSdDRENlhMVE1oRmRaaEFMREpoMkZ5"
+    "CBMilAFBVV95cUxOSjFELUlvZmhDazY3c2YwSzJFS3lZclJzWEVhWWphWEJsWE9ubDlZRTNoVDZVeld2YzVjdmptc2tWZnNjcWtYT3MzcnBWYWx6RFZVXzF1Nm94bER4SlJrTk9XSXpMVmdOazJrdEE4TXNyZTFEdWVPb21KMS1hNkRSdDRENlhMVE1oRmRaaEFMREpoMkZ5",
+    "https://www.mmamania.com/472560/ufc-contender-series-results-live-coverage-and-full-fight-highlights-4-contracts-awarded-season-10-ep-5"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 7,
+    "ai": 8,
     "staged": 0,
     "prio": 0,
     "lost": 0
