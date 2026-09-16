@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 11,
+  "cursor": 12,
   "staged_at": [
-    "2026-09-14T18:57:47.295677+00:00",
     "2026-09-15T14:21:49.839146+00:00",
     "2026-09-15T19:43:58.494323+00:00",
-    "2026-09-16T14:14:24.665520+00:00"
+    "2026-09-16T14:14:24.665520+00:00",
+    "2026-09-16T19:35:54.676997+00:00"
   ],
   "asked": [
-    "Who is the best lightweight in UFC history?",
     "Who is the most exciting fighter in UFC history?",
     "Who is the most underrated fighter in UFC history?",
     "Who is the most feared heavyweight in UFC history?",
@@ -47,27 +46,28 @@
     "Which ref call makes you throw the remote?",
     "Which ref do you trust with a title fight?",
     "What is the biggest what if in UFC heavyweight history?",
-    "With Tom Aspinall vacating the heavyweight title, who should fight for the vacant belt first?"
+    "With Tom Aspinall vacating the heavyweight title, who should fight for the vacant belt first?",
+    "Who has the highest fight IQ of all time?"
   ],
   "last_entry": {
-    "q": "With Tom Aspinall vacating the heavyweight title, who should fight for the vacant belt first?",
+    "q": "Who has the highest fight IQ of all time?",
     "type": "poll",
     "options": [
       {
-        "label": "Jon Jones",
-        "emoji": "🐐"
+        "label": "Georges St-Pierre",
+        "emoji": "🧠"
       },
       {
-        "label": "Ciryl Gane",
-        "emoji": "🇫🇷"
+        "label": "Demetrious Johnson",
+        "emoji": "🎮"
       },
       {
-        "label": "Alexander Volkov",
-        "emoji": "🐻"
+        "label": "Islam Makhachev",
+        "emoji": "♟️"
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "💬"
+        "label": "Alexander Volkanovski",
+        "emoji": "🎯"
       }
     ]
   }
