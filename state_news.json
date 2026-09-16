@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3af23e9254140665": 1789584432.9109473,
     "f4d96c3f843d6edf": 1789584409.8471506,
     "589e6cfb9cbc63c5": 1789584409.472081,
     "113db2dc3424ad42": 1789584380.840047,
@@ -2498,8 +2499,7 @@
     "551c085a0ba8ffc7": 1788603663.380661,
     "65c139831c6f347a": 1788603638.3218915,
     "121c489d62636103": 1788603593.4086492,
-    "f30debad21877710": 1788603527.779555,
-    "d570c90e6fa2f82c": 1788603527.4259574
+    "f30debad21877710": 1788603527.779555
   },
   "initialized": true,
   "v": 4,
@@ -4381,16 +4381,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T16:10:27+00:00",
       "cluster": "cf9f191799b"
+    },
+    {
+      "t": "Arman Tsarukyan defends Jon Jones after his legacy was questioned by Islam Makhachev",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-16T17:00:00+00:00",
+      "cluster": "c620a35b6e9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T18",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMiiAFBVV95cUxON2swc3RKT2ZiTnIxdVNGZlFkdjB3SUZsZnpod3BwVXhPbVBtay1FSGNhNVZia0Q3bFVxNjZIUzNFdUVvcF8yRVJFcDFuMHRiM1M4VVd5WXNYZ21LTVpKNF9XT2RhX1JCUXZyMnJaMXVyRFpSbWdXbGl4ZjVzSDlyQkl4c3JNMjVW",
     "CBMifkFVX3lxTE84Q01pYkh4RXdEMWRYenVCbm9OZTVXdjJsOGptWEYwbUU3NEFSbDE3dzJSSVNDNmFZa0pOSEtqZVh5bm1ibWswQnBwbFdWZ2xPZzMzWGQ1clNpUnZiQjBKY1NzbWExenlSTldaWVhkSk9wdTNXTWtOU0JlMURhZw",
     "https://www.sherdog.com/news/news/New-UFC-fighter-predicted-his-signing-8-years-ago-UFC-or-nothing-else-202623",
     "CBMi6gFBVV95cUxNa1ZLS0puTHJuN0JZQmRMaGYzckp6bXJuSjhXLVBkeG93WWVaZElhdU53QWN1X3dEMEVjcDV3NkQyeDU5R19mV21oU28xbzdiWUlKbGFIMklXY21jVDhtN3J0Tmc4S2FRWExYeU5PWlU3Ung2ZXlvMzRieTV4bmppblZ3aVZFMU9pWDJOU0ViUXJsakRWZFc1YVhIVkY5eG4yTjZCTlgtdnlmeUY5dENHSXA5ZFQ1dktCUU5JbnV4Nk5GRW9vNW9QZEJ1Z0dUWC01bExGVUctOS1GaXlNVDlmQjhYVVFYNXBLWFE",
@@ -5889,7 +5894,8 @@
     "https://www.mmafighting.com/?p=510295",
     "https://bloodyelbow.com/?p=331861",
     "https://bloodyelbow.com/?p=331930",
-    "2f1eb86a-0e15-34ea-acf4-94fd3ee82ec7"
+    "2f1eb86a-0e15-34ea-acf4-94fd3ee82ec7",
+    "https://bloodyelbow.com/?p=331874"
   ],
   "daily": {
     "d": "2026-09-16",
