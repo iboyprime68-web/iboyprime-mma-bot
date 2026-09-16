@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f0055261fd664791": 1789587157.4408069,
     "4c9a510794ad0f12": 1789586966.154406,
     "6f37db188785deb1": 1789586838.3343198,
     "405ed9e3d73c53ef": 1789586837.7140942,
@@ -2498,18 +2499,11 @@
     "6cdcf92853ac415b": 1788626634.5174997,
     "420004ef68d5aea7": 1788626634.1098583,
     "2f225e5ac663dc06": 1788626568.5687225,
-    "4e3c18c0c97b1182": 1788626568.386024,
-    "71f7eca459c3d2b9": 1788626568.3831906
+    "4e3c18c0c97b1182": 1788626568.386024
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Alex Pereira is frontrunner to fight Ciryl Gane for undisputed UFC heavyweight title, says legend",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-14T19:30:00+00:00",
-      "cluster": "ca6628daf0c"
-    },
     {
       "t": "Gervonta Davis lays out key Ryan Garcia rematch clause after Conor Benn KO",
       "source": "Bloody Elbow",
@@ -2521,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-14T22:00:00+00:00",
       "cluster": "cd89de64548"
-    },
-    {
-      "t": "Henry Cejudo shares 'the perfect match' for Ilia Topuria's UFC return",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-14T19:30:19+00:00",
-      "cluster": "c21815d78c8"
     },
     {
       "t": "Tom Aspinall couldn't escape the curse of the UFC heavyweight championship",
@@ -4549,16 +4537,21 @@
       "source": "BJPenn.com",
       "ts": "2026-09-16T19:24:47+00:00",
       "cluster": "c1d282d242b"
+    },
+    {
+      "t": "Alex Pereira relance le clash avec Ciryl Gane",
+      "source": "La Sueur",
+      "ts": "2026-09-16T19:29:27+00:00",
+      "cluster": "cc5e524a9bd"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T19",
-    14
+    15
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=469060",
     "https://www.sherdog.com/news/news/Glover-Teixeira-says-Alex-Pereira-would-KO-Josh-Hokit-in-Round-1-202625",
     "https://www.sherdog.com/news/news/Tommy-McMillen-takes-aim-at-unbeaten-UFC-rival-He-runs-his-mouth-202626",
     "https://www.sherdog.com/news/news/Justin-Gaethje-says-his-UFC-legacy-is-fulfilled-after-Topuria-win-202627",
@@ -6057,7 +6050,8 @@
     "CBMiwgFBVV95cUxPSG9lZHhOMmJMd2U4dTllMDc0dkhsMUNwbTMxYW50UVJtLWN2WnptcTBNc1JVZXI0T3dVS29fTGtRMzJLdkluQ2gtaVRYVXpzeFY3cWY1eFlqNS12MTJ0Q1BnaW5ZNnNOZVBWb3lodzdzWFhzZEZFTUt5aFY3OGs0MkUtLWlFVEFTd1hjcHZ0MjRrNndXWlJMUmx6cnk0LXFkcTJaYlZpd2N5dGI2VHUzUHNxS1BqcC1ZSEJiVEUxMVdZdw",
     "CBMimgFBVV95cUxOWXhIdlFOd01MbjdiODZPZE0tMVY4cWU0eVZMSG02VENDTFJlUXpuWmRyWGM1T1piWkF1dG5OdEdzcnA0R05iVXlleWFsajRPV3BRdFMtLWh4cGhkRFZTRHF4TWtJa0FwN0tZV2JCOEZocXZUNlA4aTIzMndVTDlSSWFrUEc2TWxUb0s5ZUpFZVlNVmNQcHByendB",
     "CBMirwFBVV95cUxQbTJOWS1MZmx1OVJmVzJZY0lTeUNJMlNfR0ZoSTBveVQyM3VwMUs3Y0JNRVNiZXRYQWdOZWZsN29XQUJwQm9iQzVmWHJHU3pzc201aF9zNDMyWmd4SG5KS3ZoUFBxb2RzNHk1OWVWWExXemZfbzk0RHd2RklYYjg1SnpiOG1XV3c0RnFySkJ5ZHlyTktjMFlqdGZQQUJreUpKcGw4YWpnV1JRVmlJbWVj",
-    "CBMi-gFBVV95cUxOcGEwV3VqSEY4VE1JLTRVMnVFOFVFcXNIOG5GYm12b3JybTB2ekVFVEVpTFA3V2FsSzA0T0NUV2hqTGxyMlE1WnVPTWRxeUdiRVN6NWUzUzhhY254VWxNd1Y2REVGU2M5MW94U243Q21hdFRKR0ttLTFDbUFGZFBWVWFfOTh2MFhHeFRDTC1lZ2FVUkNIVzhFSVFocTA0dm52d2JqeFkwc08wcExXWkpaYVNteVYyZXpqd3dxdWFCdmpGZXZJOEZZNTNaSWRsTkVUc1hTUktiT25wWkRSNm9RUFQ1UUZRb09aeGltY3AxeGp2MHNvVGVsdWNn"
+    "CBMi-gFBVV95cUxOcGEwV3VqSEY4VE1JLTRVMnVFOFVFcXNIOG5GYm12b3JybTB2ekVFVEVpTFA3V2FsSzA0T0NUV2hqTGxyMlE1WnVPTWRxeUdiRVN6NWUzUzhhY254VWxNd1Y2REVGU2M5MW94U243Q21hdFRKR0ttLTFDbUFGZFBWVWFfOTh2MFhHeFRDTC1lZ2FVUkNIVzhFSVFocTA0dm52d2JqeFkwc08wcExXWkpaYVNteVYyZXpqd3dxdWFCdmpGZXZJOEZZNTNaSWRsTkVUc1hTUktiT25wWkRSNm9RUFQ1UUZRb09aeGltY3AxeGp2MHNvVGVsdWNn",
+    "CBMifEFVX3lxTE1uR0JIeG5NVlM1U2Q4QTBnUzY5cGJucFp6ekxyM0xPdkwtZS1sVTZUZTkwTlEwNkdBLVJyM1pma3VPclBScnRKUzJqckREZEV0ZTZUSHo0THVpOTZyMmJReWtzVWFfLTNYN1A0aTYyVkJtOFJTb0NWcnBUQ3Q"
   ],
   "daily": {
     "d": "2026-09-16",
