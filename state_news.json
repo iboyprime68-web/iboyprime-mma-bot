@@ -1,5 +1,8 @@
 {
   "seen": {
+    "5512d39d6029690f": 1789535814.2229948,
+    "b094feed6d31adbb": 1789535811.4668176,
+    "fc72bc4836bc2fe8": 1789535811.4444242,
     "ced20ee501d1cce7": 1789535725.7139888,
     "b4f6c75aa1daa723": 1789535659.6502168,
     "f8e7abb33ebbfbba": 1789535659.1654243,
@@ -2496,10 +2499,7 @@
     "2b2690fbe2145664": 1788554505.0521126,
     "024a68a86cd55f9b": 1788554482.7665713,
     "4604ebd2e2c969bd": 1788554481.640749,
-    "88e924491734d0b1": 1788554418.0537052,
-    "8fc9167d882797f9": 1788554354.8172753,
-    "69b4f4a10f779d47": 1788554290.9859886,
-    "4bef94c2dba44d4e": 1788554227.0620656
+    "88e924491734d0b1": 1788554418.0537052
   },
   "initialized": true,
   "v": 4,
@@ -4259,16 +4259,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-16T05:00:00+00:00",
       "cluster": "cb397bdc11a"
+    },
+    {
+      "t": "Islam Makhachev, Jon Jones ignite a very personal UFC legacy feud",
+      "source": "Sherdog",
+      "ts": "2026-09-16T05:16:51.416873+00:00",
+      "cluster": "c24f276c928"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T05",
-    15
+    16
   ],
   "yt_eval": [
-    "CBMipgFBVV95cUxNLUtLeU83UTltdGZWeVdHVGtYVF9YQkh3b0xLTERKb1gyNEJCWEdZOXBzMVVqVU9vNElySU9TVzRmYldUVGZlU3lzbkpNbmVXQTZ4TUYzSUYyLWZwUFN6REVLV29fb0NNY3hmX3ZURkY0ME5pLWdWQlhzVHViX2lIbk1iNDdtNUFYMUxESERtVVpjN0REUHpjdzU3VDdlLWhaQmZsa0h3",
     "CBMinwFBVV95cUxNMDB2aFhwdkxvblpqd3djOURYTVRBNU5sVlRTZ2F0TjIyVnBUNmFNOTg3Ymx0SjdleXY3aDItV2pqNktlbUVMcDRFNHh5UFFrcUk1cVEzWnppczZ2MjRLTWtxdzIwQ2xMNldHbktFeTlqaFF1cFVOSzJ2d2JXWFBHRzd3X2pBV2xxZy1Vbkswc2Y4dlVHNEtZVWxBbHd3MGs",
     "https://bloodyelbow.com/?p=329914",
     "CBMi2AFBVV95cUxPdGhuc3gtRHZLUmhzN2h6Tk9ZSHE2RTNacFZtU3dHdnpZem1CeHdIS3JNV2NTcjVqTXk4TjF0OUlzVHQtY3lxQXVySW55WTVaeVlIVGNvWUdWUFViYWMzMEV3S0J4SFljSzRfdWdITHRteThzSHNqUW1uMF9UTW16UzJ0V21nSDFOS1JkVXNYLV9EcHpEYWpqN19nU3dIaVFxaXRkczJBUVlkbUZ0c01jVVBZSTFvek1KRTh2SXladmpreE56VzcyS09reHJSdnhYUnBMS3p5WHU",
@@ -5767,11 +5772,12 @@
     "https://www.sherdog.com/news/news/Arman-Tsarukyan-is-Mauricio-Ruffys-worst-stylistic-matchup-coach-says-202818",
     "CBMikwFBVV95cUxOLTdpZWFWbTdmRFdlOEdxdW16d1d2T1dqdzBsWHpZV1daVU4yTFEwSWo1eHAtNUt2em91bU5WZFk0OU4tREk0Ym9sZTRtZC13eW9DQUFtSVkzMkpmeHFmSS1Iak9uSm5Bd0dheWo2ZjdTdUxJVmI5Qlh2cVhuRVFlN1NaRjFuU2lKNE1kQUlDRHNzaDA",
     "CBMiywFBVV95cUxOVEgxNExzdXh1X19mRjlyeGV2aHFzR0lGbUtjbW9weE1Edm92ZktiTk9fdlBaS1hxY1ZNRm9aUEU3VFJrNGQwTEZXdDVsNkY4WXJvQ1JMdV9VRzNlT1llcTJDSkl3d2dkbUFDVkg0bEJfX0xkZlNvTGktYmFNVEZfc2xuR0FSN1BjOGxuX3RUc3ZhSEJieXdFOUZUNmlJajNmaW9LTEI0dGZPY2FHTTd5TDdKRC1VbVRDcTc2ZHpSd3JqMlpGaHpRTHpaUQ",
-    "CBMi2AFBVV95cUxObWdSSUxnS0pJcEloTnZGeGZXY2Y0Q3pHcHNvREN1LTUtY0VJRndpZEJRaE9ja2pJOVAyWi1lWFpucUFwQzloX0RLalduV2NqQm00RFhNLVVyU2tEX3IzT3Q0RmNXYVBSOFAza3Z6d2hvMWozNW9OVWJTdnN6SWg4SkNjOHZJeG9pN0ZyemtsOU5iTGtoZjVyWmc4VHZab0tfQ2JmSktjVkNmX25PV0RXVjlVT0FiR0xXMktyNG90RmpXSGJXZUtzZWhTRkZ3WHF3M013WDgwUnE"
+    "CBMi2AFBVV95cUxObWdSSUxnS0pJcEloTnZGeGZXY2Y0Q3pHcHNvREN1LTUtY0VJRndpZEJRaE9ja2pJOVAyWi1lWFpucUFwQzloX0RLalduV2NqQm00RFhNLVVyU2tEX3IzT3Q0RmNXYVBSOFAza3Z6d2hvMWozNW9OVWJTdnN6SWg4SkNjOHZJeG9pN0ZyemtsOU5iTGtoZjVyWmc4VHZab0tfQ2JmSktjVkNmX25PV0RXVjlVT0FiR0xXMktyNG90RmpXSGJXZUtzZWhTRkZ3WHF3M013WDgwUnE",
+    "https://www.sherdog.com/news/news/Islam-Makhachev-Jon-Jones-ignite-a-very-personal-UFC-legacy-feud-202812"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 68,
+    "ai": 69,
     "staged": 0,
     "prio": 1,
     "lost": 0
