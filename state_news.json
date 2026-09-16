@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e23f6d5cf4d4cad5": 1789569995.4007225,
     "4599243ad5aab140": 1789569948.2320933,
     "206306e546dccb40": 1789569924.6108098,
     "c0886e05fc8591de": 1789569898.661014,
@@ -2498,8 +2499,7 @@
     "97e32b9279b1abe4": 1788569128.165358,
     "b5ab45824d2829b8": 1788569128.162568,
     "a11582a65d4b6356": 1788569083.498069,
-    "57fe885461e5de03": 1788569059.7346134,
-    "bb39309bd23398e7": 1788562857.763654
+    "57fe885461e5de03": 1788569059.7346134
   },
   "initialized": true,
   "v": 4,
@@ -4261,16 +4261,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-16T14:00:00+00:00",
       "cluster": "c667bd71334"
+    },
+    {
+      "t": "Arman Tsarukyan weighs in on Jon Jones and Islam Makhachev feud",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T12:00:00+00:00",
+      "cluster": "ccba9d537f9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T14",
-    8
+    9
   ],
   "yt_eval": [
-    "https://www.mmamania.com/468987/ufc-contender-series-results-live-coverage-and-full-fight-highlights-season-10-ep-3",
     "CBMie0FVX3lxTE9rVjBVXzIwV3FqRDhlSmlKRUoxTFFRZElHc0lQWExqY01YS2pacFVOVHc4ZEdJS0JoeVFsUXlXLThNREtENzFPYVptOFZob2RkMGx3dGV1Z1VNOTctU0lRclY3Q3M5bEtTeXdJZkdmUmRwMGRoUWNJSkhPUQ",
     "CBMijAFBVV95cUxNaFE4WWhxQXhGZWJXRFlYQ3RwM2lfcFhVMlNkT2g3RVU3NkxGNHBqRzNweVNQZVBhbWtzVUtINE1GdGpIU1p4aFhpVEd1VFJlNWVUZUVjNHZJcHZGdWpieEUwanZld2RJR3pwVktBaDByVWtTXzVITGNzcGhJRUI5d1FGRlA0dGZtN0JmTA",
     "CBMisAFBVV95cUxQdk12RVFubzBJTm13c1l3Z2p1eTVmRkQ3UVdZM190cUpIYWg1OHlvTjVqUzM1STk3ZjNpcUJ6RGhNTG4tTHZ6WW05QzctM1FIczNwclJ1ZFJmMUpFdTFaTDBkcXhNZDdTZnlmMUxzb1BXM1UtdzZMRlJvempTb18xb2l5RE9oeURWMTVEajZYYm1yc3BFSTZ0Nmg0ZWh5dHVKM3A4STEzQkhNQ1NaYVZuTA",
@@ -5769,11 +5774,12 @@
     "https://www.mmafighting.com/509515/ufc-330-roundtable-is-islam-makhachev-the-next-pound-for-pound-great-to-fall",
     "https://www.mmafighting.com/?p=510451",
     "1411ced9-3c29-3317-a60a-b9ca8b5e228c",
-    "https://bloodyelbow.com/?p=331839"
+    "https://bloodyelbow.com/?p=331839",
+    "30fae80f-8cc2-3b7f-bd0f-62d27dbd3d74"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 103,
+    "ai": 104,
     "staged": 1,
     "prio": 1,
     "lost": 0
