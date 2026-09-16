@@ -1,5 +1,6 @@
 {
   "seen": {
+    "de91f5fad63455a2": 1789534185.1548488,
     "028acae6f51fe331": 1789534119.094347,
     "a51142c7e6bd8766": 1789534052.55156,
     "dad0b33279e2f886": 1789533986.199418,
@@ -2498,8 +2499,7 @@
     "4ff1a119f72dddd9": 1788543857.7495723,
     "6719a84978e7726a": 1788543833.5219984,
     "1904a307bd22ec50": 1788543790.0424702,
-    "b433e73a7af25ca4": 1788543789.7195153,
-    "63d5bb5ec8a22177": 1788543725.6478972
+    "b433e73a7af25ca4": 1788543789.7195153
   },
   "initialized": true,
   "v": 4,
@@ -4111,16 +4111,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T02:43:11+00:00",
       "cluster": "c675d1a9b8a"
+    },
+    {
+      "t": "Michael Page calls UFC exit ‘disrespectful’ After 5-1 run",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T03:09:50+00:00",
+      "cluster": "c5e4b7b47ee"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T04",
-    12
+    13
   ],
   "yt_eval": [
-    "CBMiugFBVV95cUxNVlJKYXNlaUszdldpVW5ocGwyUVhURmNUbS1ETWd2WVJrZlR2cklOVG5uRm56MFQzSHlxWTlYNFg0TXFWU3lNdGdJX0JDRnhyYThiemUyWXk0Y2ItNlU1YVc1SlhLN0RrV21Hd2ZXWk02VEtJY2tPcGNISlc0ejNzaFNqMVpmUjZSYkVBQVZ4UEhHNFNRUkk4MXJmamRtM2dITE4yOWlTcWVscUlzc0VPSWdzby1vaGh6LWc",
     "CBMiS0FVX3lxTFB5M1VFMXpZdWN3UFJaRkdEcXc2clhHSWs3SGdJTU9oZjA5aTBsMElzWTdMT2xfNzJTVG1EXzgxUkxtQWtrN2JtODVIaw",
     "CBMi1AFBVV95cUxNR3llM0JFM2VrQ2ZuTnFVVThyVlE1U3FkR1RUa2ZjanlpallJV1VWZnkzWHlmVTZOWVNxa3lET1FDUGtTWjNWamdjTkROcnhlNDlwc3hBZmRiNHBhVEctRElxSThvcHJfb01LWnV1Rko3U1k2aTBBTUpyc21ua3Y2aUlBbG9oUTlSUE1xQlF2MFFMM0RyaE51NGU2R3Y5VS1SckRDNnJwV3o1UGRJakM1aUdkR0hKdkhiMGRxazVsSjhiTXNhNWpON1hfSXltbTZ0eWhYQg",
     "CBMiuAFBVV95cUxPWThjUUt6LVJEOFpuWlV2SU5MRmd6OGxNTHNzV3lJU0ZSSUk1eTA3NFZuWXBiOU1KdDVVX2o3VG5SZE5fTk5pQXR2NGNseE5NU2JNcUlyOGVKd1FjTzBXUXZRbnp2VDlLckE0akpVQ25ydWpWdDJBRHFLSjlvVkVWX2pBTm5HcXVoblVQQzJremZMTnJDOHlkQl9pTEhMRGYtSGlvYkpOT0tRQW9MSTYxNmV5bVc3YThK",
@@ -5619,11 +5624,12 @@
     "https://www.sherdog.com/news/news/Jon-Jones-piles-on-Tom-Aspinall-following-UFC-heavyweight-title-exit-202811",
     "14d93a4a-b492-3164-bf6c-28942e169bc8",
     "92a94368-e690-3903-aac0-63f8dfa9c099",
-    "90e35ad6-495e-3a9c-ace5-b150a181a670"
+    "90e35ad6-495e-3a9c-ace5-b150a181a670",
+    "931a64b9-f80a-3636-b0e4-b14f6672ee6b"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 42,
+    "ai": 43,
     "staged": 0,
     "prio": 1,
     "lost": 0
