@@ -1,5 +1,6 @@
 {
   "seen": {
+    "952f118babc75d1d": 1789570468.9006371,
     "2610e05ec378339c": 1789570403.4665976,
     "e8d5486cffa52e3d": 1789570335.9062772,
     "2b3a7645d826d616": 1789570269.055759,
@@ -2498,8 +2499,7 @@
     "89e4aeccd64832cf": 1788569458.8302298,
     "cb21b16e78a9a90c": 1788569458.5690162,
     "9d5758cb91995a8d": 1788569393.2988684,
-    "1d378f2a24a16a1f": 1788569369.5118632,
-    "695f5f3be0094adb": 1788569325.625649
+    "1d378f2a24a16a1f": 1788569369.5118632
   },
   "initialized": true,
   "v": 4,
@@ -4305,16 +4305,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-16T13:03:49+00:00",
       "cluster": "c863cd282a3"
+    },
+    {
+      "t": "Michael Venom Page and the 5 UFC Stars That Should Jump to MVP MMA",
+      "source": "Bleacher Report",
+      "ts": "2026-09-16T13:58:10+00:00",
+      "cluster": "ce1f51c4fa3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T14",
-    16
+    17
   ],
   "yt_eval": [
-    "CBMiogFBVV95cUxOMU4zdWNvMlQxLVUyT3pORm1uT2pvYUJackFsd3VXTWRrTjZuRmlMcVI2U1JzZnpnT3QwQ0xHRW5FY01qcGJ6aGVjVDRCZjV1WFExWjNfTmY2eUxDTGNXcko0OXVPWGZZLV9zRWZwRWtKbk82dHdGeE43bXhtcXB6UmNtRUQ4QVJvREFoOXRGSF8tNW9HQWk5VTlLZjJhR21heEE",
     "CBMiW0FVX3lxTE5NWUZtanBvRnpkUlQySHlCbWcxT3BuTDVBWWNES1U4QzFDYmJ1T093YThJZVRJY2Q1aGN1dGNuUDFjWnBkRW45QkNOdlJtd3ZiQVZtTGlhcnU2RkE",
     "https://bloodyelbow.com/?p=329927",
     "https://www.mmafighting.com/?p=508166",
@@ -5813,11 +5818,12 @@
     "26e58cea-7dc4-3d9c-947e-3f6adeb79184",
     "CBMilAFBVV95cUxQWXhqcjdEVjM2RGl4VllEVGxJZXZVc3dRNF9mSVFyTmdmUlMwU0U3ejBwUnA4d285Nkd0SWRBVjd4T0pBY1R1b3JQSGc2UG5sbWJWbC1Ic2hENFc0WXFTaWhJa2NGQVN0LWo2MkFBa0tCV2QwUXNOZnR5dFB4eWZxbURBdWE5YkhPN0w0NUJWS1lRMlhN",
     "CBMidkFVX3lxTE4zMjJfVHRfZDg4WF9jbllRRlQ1S1NaRzVTc1BuUGczMmFqWG5PSmRvSDNPd3ZqMlZlX2NOUHJReU5wcDZ2bVYyd2g1eXlhVVlLeUtvZ3NpU0tBYXZ5THZrbVUtTUItM3hTQUJpNlBlRkMzdlFSUnc",
-    "https://www.mmamania.com/472685/open-thread-september-15-2026-any-opinions-on-the-emmy-winners"
+    "https://www.mmamania.com/472685/open-thread-september-15-2026-any-opinions-on-the-emmy-winners",
+    "CBMioAFBVV95cUxPUk9VVkdQcEVpbG40SXQxdUlzdHVYU250ZlNMZnlBdHFyc0NyS3F3MmhINDZ5d1VHOEViUDllTUdWRWFBcTBSc0Y0TmJObHo4OGROcGtxRndOQlJDT3JfUmVpMUZWYjVSZV9EM1RnYzdGbHlhZk5hcFJvY281dXZjS0pscG0wMDFVMkR0Nzl2bk10X2pJMUJBdEthb0owLXBT"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 111,
+    "ai": 112,
     "staged": 2,
     "prio": 1,
     "lost": 0
