@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4ff6f018043a1645": 1789552014.5539095,
     "0e2357826d17aff4": 1789551970.8719203,
     "ef5120f8efda427f": 1789551946.6923568,
     "4dae712afa0f4997": 1789551946.1763132,
@@ -2498,8 +2499,7 @@
     "bd6d92593b9e4b22": 1788554675.1637197,
     "1dd1e1c84e4560a2": 1788554674.9723058,
     "af4fa11e81809b0b": 1788554674.9704869,
-    "92f0b3311555de3a": 1788554612.1536317,
-    "04e16f873354e05e": 1788554611.8507876
+    "92f0b3311555de3a": 1788554612.1536317
   },
   "initialized": true,
   "v": 4,
@@ -4247,16 +4247,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-16T08:00:00+00:00",
       "cluster": "c6559bf3554"
+    },
+    {
+      "t": "Scott Coker says Ki MMA can build a star in just 1 year",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T05:35:14+00:00",
+      "cluster": "c28f4fef4d1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T09",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMijwFBVV95cUxON09QY1ZNZkxEbU1yN0JRbE9GOVRBby1kQjZnckFvU1JwXzdadlJyUk5ZdXZkUnZiZFhHTjVQZktpWU5CRGdTLVhkMkk4UHVBUUlPaWFjQ1pZcTNvNFdMcFdzbFRJN05YM2QwWlNuMkZIeDFjVG1PcVBPd0JtVFVzSGF5NFYwWkd5aXlRYnRYcw",
     "CBMirgFBVV95cUxNNElPSHMtbUpKX1plZzAwVlZlX0VLN3VHT2lLTk1NVkNwSmJXQ013SFBWdktCbmdSemJtMVRhb3JUWmVmOGw3YjZTNEp3ZmNxaGt0akZJVlIyNFhYY1Q5VHFDVmliQzR6VnVqclM4QUpHTndnQmxIZTVFREJ3Rlp5a0lpaFAzRnFlcWZzNDhwVnZKckYtaGh4SDA5QW9aSVdnWGtNRTZVaHVuZnFBWWc",
     "CBMijAFBVV95cUxQSHpxOFRRdGw0eVFVZFJ0ZHM1N0RHWUx0Z1NaV21qWEFIS0pvMGlEZW1XVThTeXpGX1V0UDBjVUJxSGJNOHByaWdDRDZQRFBlZERMcFV5S050WE9qWE5zdUwzRlhrOG13MjNaSFE3dkNiWDhOUXFhcWo5ejFDOFBMd2t6aWlTYW9MN3oyUw",
     "CBMi-wFBVV95cUxNUXpEZ2szMy0wWVR5MnlIV054bHlNMFNOSzVrY3pmZUUtdndQdmI1cWg1NDVGZEVaaVhqUEwxeVJHLXhGOU5aZzlmQXN3dU1vY3c4bzRydlpIQ21UYi00OEh2RldMMjlwSVVOVDljWDhhU1k0WFg2WnhvaFhlb0pTTENFazhYWEEyUVZ1bXpheWk3V0dhYUpYZFdGNEdEU3Ria0RIOFpieVBuakh0RTBvREpyWHU3M1kySjNxRjJsSGlibWZiYWp2Z1JRWGhhZDdJMVpkNE5MSE5XZTcwRkhOXzRPRE43LUppVXdIeGRxTC04TVhlRHdtY2MxTQ",
@@ -5755,11 +5760,12 @@
     "https://www.sherdog.com/news/news/Islam-Makhachev-Jon-Jones-ignite-a-very-personal-UFC-legacy-feud-202812",
     "CBMiwgFBVV95cUxQQlUzb0FTdEkzaWY3M0JMSXphZUZNOHVRMjlobWdjc01HdHQyY3JoWEFfZWtYVVZTMXBROFQwSVZPcnpfakpJcVRSRzgzR01reWNNWVhjRU9uUXROMFRVTmpScU1SSUlFU0ZmTkZyY1BGV1c2d29kSnlJNXZ4ZnZLNGREbHZZdXFjUjFUMnRLOGkwTklsamM4clo3czl5SFl6MWhwbnA3UURRVzVBRVJoQ00wMnRVYWdhSmJPb1Z5MHktQQ",
     "https://bloodyelbow.com/?p=331797",
-    "https://bloodyelbow.com/?p=331802"
+    "https://bloodyelbow.com/?p=331802",
+    "28b0a15d-83bf-32c9-b9c7-b2b1c512185d"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 72,
+    "ai": 73,
     "staged": 0,
     "prio": 1,
     "lost": 0
