@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5583989fdd6bfc88": 1789534318.7959354,
     "962b702d43129dca": 1789534252.6428776,
     "de91f5fad63455a2": 1789534185.1548488,
     "028acae6f51fe331": 1789534119.094347,
@@ -2498,8 +2499,7 @@
     "085f7b363ff9537c": 1788543923.540124,
     "288f66ecb8d0bb16": 1788543858.0888343,
     "4ff1a119f72dddd9": 1788543857.7495723,
-    "6719a84978e7726a": 1788543833.5219984,
-    "1904a307bd22ec50": 1788543790.0424702
+    "6719a84978e7726a": 1788543833.5219984
   },
   "initialized": true,
   "v": 4,
@@ -4123,16 +4123,21 @@
       "source": "Sherdog",
       "ts": "2026-09-16T02:34:53+00:00",
       "cluster": "c683612a233"
+    },
+    {
+      "t": "Renato Moicano Lost the \"Easiest Fight\" in His Division—Then UFC Sent Him to the Apex",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T03:53:37+00:00",
+      "cluster": "c1462ab9334"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T04",
-    14
+    15
   ],
   "yt_eval": [
-    "CBMi1AFBVV95cUxNR3llM0JFM2VrQ2ZuTnFVVThyVlE1U3FkR1RUa2ZjanlpallJV1VWZnkzWHlmVTZOWVNxa3lET1FDUGtTWjNWamdjTkROcnhlNDlwc3hBZmRiNHBhVEctRElxSThvcHJfb01LWnV1Rko3U1k2aTBBTUpyc21ua3Y2aUlBbG9oUTlSUE1xQlF2MFFMM0RyaE51NGU2R3Y5VS1SckRDNnJwV3o1UGRJakM1aUdkR0hKdkhiMGRxazVsSjhiTXNhNWpON1hfSXltbTZ0eWhYQg",
     "CBMiuAFBVV95cUxPWThjUUt6LVJEOFpuWlV2SU5MRmd6OGxNTHNzV3lJU0ZSSUk1eTA3NFZuWXBiOU1KdDVVX2o3VG5SZE5fTk5pQXR2NGNseE5NU2JNcUlyOGVKd1FjTzBXUXZRbnp2VDlLckE0akpVQ25ydWpWdDJBRHFLSjlvVkVWX2pBTm5HcXVoblVQQzJremZMTnJDOHlkQl9pTEhMRGYtSGlvYkpOT0tRQW9MSTYxNmV5bVc3YThK",
     "CBMiakFVX3lxTE8yVUtkYmRsVXFHdjdTLVI1ZFRSM3ZMSURtQ25KYWN4dWNZdFVGRUdTbU1NdEVPb3pRS2h5VUh1cG9OaHZaS29USjNKTWlnQ0lLbE8xYWVhb01vOWNpTjZYSzZ3UEgxNE9heXc",
     "CBMiqgFBVV95cUxNZlE1dEVUdmc1ekhsS3A5LTEtX3hyaE5YYmlQWEwzVk55OVBfeGV6UUtGMWk3elc3RXZqU3pxeEt3YlkyZjlTdndDaGt0Ym5sUXpMWURJUTBnY25wSTNlcmFXSmNQRHNEZERWT3VfNnM5Q3B2S25oRk5RcHhEdkFmUHVkZENEMWliRVNoSTdQaUdHenJWcWtOOUNwVlUyR2hzOXNJMnBaSVQ4Z9IBqgFBVV95cUxNZlE1dEVUdmc1ekhsS3A5LTEtX3hyaE5YYmlQWEwzVk55OVBfeGV6UUtGMWk3elc3RXZqU3pxeEt3YlkyZjlTdndDaGt0Ym5sUXpMWURJUTBnY25wSTNlcmFXSmNQRHNEZERWT3VfNnM5Q3B2S25oRk5RcHhEdkFmUHVkZENEMWliRVNoSTdQaUdHenJWcWtOOUNwVlUyR2hzOXNJMnBaSVQ4Zw",
@@ -5631,11 +5636,12 @@
     "92a94368-e690-3903-aac0-63f8dfa9c099",
     "90e35ad6-495e-3a9c-ace5-b150a181a670",
     "931a64b9-f80a-3636-b0e4-b14f6672ee6b",
-    "https://www.sherdog.com/news/news/Dana-White-hails-greatest-talent-in-DWCS-history-after-19second-KO-202813"
+    "https://www.sherdog.com/news/news/Dana-White-hails-greatest-talent-in-DWCS-history-after-19second-KO-202813",
+    "CBMiigFBVV95cUxNalJWTFFrLW9PM19tUThTLTROb3l1eVlkMjF5RkxoYlpwemxYLVp3aFptN0tKMXZnYldFQ0E0RjRBeEVveGRUdWdoRE1lZkhBQTRJOGVHZjljZG5BTEcwa0FFcFU5X0xudnFOTVd6WGdlbGQ0UWdyaEI2VERDTWVtYW9OeFZaU2s3UVE"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 44,
+    "ai": 45,
     "staged": 0,
     "prio": 1,
     "lost": 0
