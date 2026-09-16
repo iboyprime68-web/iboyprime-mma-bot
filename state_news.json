@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a09b78873bf16804": 1789533939.8545792,
     "c590ef16f23649d7": 1789533915.6886516,
     "5ff3af718e2c3823": 1789533849.0028412,
     "4fc8a0d930a0aeac": 1789533779.8579426,
@@ -2498,8 +2499,7 @@
     "35b7983ff7db2a2e": 1788543725.2094076,
     "36537472d2be905e": 1788543660.5112355,
     "01d48704b68c66fb": 1788543595.4714046,
-    "70b6dd79d1db9644": 1788543595.2011635,
-    "9e31c5579054e8f3": 1788543595.1985786
+    "70b6dd79d1db9644": 1788543595.2011635
   },
   "initialized": true,
   "v": 4,
@@ -2635,10 +2635,6 @@
     {
       "t": "Unbeaten heavyweight makes plea to fight for Tom Aspinall’s vacated UFC title",
       "ts": "2026-09-14T12:30:42+00:00"
-    },
-    {
-      "t": "Carlos Prates sends Islam Makhachev a chilling ‘somebody is going to pay’ warning",
-      "ts": "2026-09-14T04:45:28+00:00"
     },
     {
       "t": "Former UFC Fighter Magomedov: “Almeida Is Not a UFC Top-10 Fighter”",
@@ -4091,16 +4087,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T01:12:02+00:00",
       "cluster": "c44378fcebd"
+    },
+    {
+      "t": "Jon Jones piles on Tom Aspinall following UFC heavyweight title exit",
+      "source": "Sherdog",
+      "ts": "2026-09-16T02:03:07+00:00",
+      "cluster": "c6121554111"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T04",
-    8
+    9
   ],
   "yt_eval": [
-    "CBMiXkFVX3lxTFBjdnlmUkRCdktDSExxNnl1Tm9qSHZJczMxSjVVZDhPOGxWVlVpR3dJX0p6Q1VkNktpY2lZNlV2alVCeVBXVkNoSDR6ckJJb1ZJUGoyOW42VFpNd2gyVmc",
     "https://www.mmafighting.com/?p=508050",
     "https://bloodyelbow.com/?p=329905",
     "CBMi2wFBVV95cUxNejF3S3l1VkM1bnVrX2U1czhlQWxCTU9yYTdjaGUwVy1KMk9wdlVWOFRPeVR0UWdCQUdvWVItMVMtQXI3VzQ4V0M5Y01zT3dHbUJwVFZtcVpiUUZRNW5MRVJPenZ3ZjNJdndwLTRpRndIQkFvOVFRS3RsLVMtTkpLam1mbE1hdjhSOUVHM3E4TW1hSXhSRHEyYUlxZnp0YWNWcG9vM2ZPRXlEZExoVU91YUNlUlVYek5uMlBMVDluN3BkU0FsbGRfU2V4T25Db09IZFVjY0RhU1ZxaFk",
@@ -5599,11 +5600,12 @@
     "https://bloodyelbow.com/?p=331787",
     "649d0ddb-651c-33db-8ac1-49611c0ebfa4",
     "3d157a3d-0066-3236-bbe9-5df828853158",
-    "3ac16c6e-3bc6-3b0e-b142-d2157998fcf7"
+    "3ac16c6e-3bc6-3b0e-b142-d2157998fcf7",
+    "https://www.sherdog.com/news/news/Jon-Jones-piles-on-Tom-Aspinall-following-UFC-heavyweight-title-exit-202811"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 38,
+    "ai": 39,
     "staged": 0,
     "prio": 1,
     "lost": 0
