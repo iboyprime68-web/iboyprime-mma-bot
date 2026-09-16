@@ -1,5 +1,6 @@
 {
   "seen": {
+    "89129660f02fc0c3": 1789553302.398084,
     "1e20844c54d80740": 1789553237.5580668,
     "32afca46a9c204a3": 1789553173.1641822,
     "405f0dd94ce01f82": 1789552862.0464876,
@@ -2498,8 +2499,7 @@
     "84a6d7a30dfb915e": 1788562393.1102092,
     "f3f30f5f26dc9a78": 1788555628.056531,
     "41052c8aea2042a3": 1788555564.8249288,
-    "90e24f9324053b4c": 1788555501.392285,
-    "ba4e240cb2d52fdf": 1788555501.1407053
+    "90e24f9324053b4c": 1788555501.392285
   },
   "initialized": true,
   "v": 4,
@@ -4343,16 +4343,21 @@
       "source": "NEWS.am Sport - Ամենը՝ սպորտի մասին",
       "ts": "2026-09-16T10:03:56+00:00",
       "cluster": "c4779165fa4"
+    },
+    {
+      "t": "Jon Jones keen on UFC return after Tom Aspinall relinquished Heavyweight Title, claims Gable Steveson",
+      "source": "Khel Now",
+      "ts": "2026-09-16T09:58:55+00:00",
+      "cluster": "c29504babeb"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T10",
-    3
+    4
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329922",
     "CBMingFBVV95cUxPTlNvakhrSEtZVm1aTTdxRjk0Wi1KOXFnd0k1elplaVBpOXVHeEt1T0pKME9Tak40UDM4Q05VUS1VOWNTdkQwZG9OM0ZXX2R5SUZLX2xkajdWb00ydHNQVkJWN2xyNnh5MzhRMkJzdkdOYk1ZR1FTLTRWLXEtUzB2SkhLYWIxR0ZQSGM5QlRXdFBNazlmaVRidFlJVk5kUQ",
     "CBMi-AFBVV95cUxORXFLZ2kzdHZNWGlDa091RldKN19fekg4OWo1UHZNNlhFQWdoODVQX1FtdlY5QmMtVlJpMkpuakZCYlB6RWZwY3RGcWM5SWQ5Z214MjFXWGllazhWQ0FpMk9vTVdPZnQwdTdJVm5QaE9WWExpUWZFVGpHT25ZVHJVVURCSTBUUm1ZaFFoOU5pWWZNWHM5ZHBvanhaZDlpZkJORFZrUWJ2aWhQa3BTSnppbEdRTkRLcmVocDhZZ25UVmtpcGFlTnJjUFdWaFA0T0dsQUlUUzVUOVJORm1ER3hnMl9kb0MwM280TFV6ajRzSHBaemxnTnlHbQ",
     "38c1f82c-8d4d-3a7b-95de-c36af21359f1",
@@ -5851,11 +5856,12 @@
     "CBMijAFBVV95cUxNSVBkRmNZNGlobndWV0lyV1ZpTDNxWTF3N0RpbGdMUGZ4cjRRYmpOc19GNEVVSjgtUHhxWTdKN3hmSVlNLWNHNE1FSHBSYkEwLXRTbkY1Z2N5NnRuNnNYSllIbjZNc3Z0SUcwNFhHdDJSWXNvZGtaRXBkXzJaRHJGSm10ZllINllURk9lMA",
     "https://www.sherdog.com/news/news/Igor-Cavalcanti-erases-DWCS-heartbreak-with-98second-TKO-202825",
     "https://www.sherdog.com/news/news/Dade-County-police-officer-stays-perfect-earns-UFC-contract-on-DWCS-202826",
-    "CBMikwFBVV95cUxNM0UxZ1hmU09keDV0V1c5RjEtcnotX3plREplb2kwNWRzdHVNZFFndFpic2Y1S3ZfSlFDd05fZ05rcElpSFY4LThuTm1lR2YxMzRFbzE4ekNIYWxNMDAzcW16UGpZU2VnckNMNVoyLVY3M051RHhVdHRhYUpJQmlST25LZ3ZSZ213Ty1SN1NIVThiWkE"
+    "CBMikwFBVV95cUxNM0UxZ1hmU09keDV0V1c5RjEtcnotX3plREplb2kwNWRzdHVNZFFndFpic2Y1S3ZfSlFDd05fZ05rcElpSFY4LThuTm1lR2YxMzRFbzE4ekNIYWxNMDAzcW16UGpZU2VnckNMNVoyLVY3M051RHhVdHRhYUpJQmlST25LZ3ZSZ213Ty1SN1NIVThiWkE",
+    "CBMia0FVX3lxTE1ZVGpIX0U4bUxRbzJVamNLbkZMVXZkSTdRUXlHZ1hOWl8tdTJDUHUxdjVIX1ZHZ2VlamcyaGpXNFU5RTFKaVNvaUM1cTJGZTk3RnBCWkdWQ2hXaEFmeWU4T3dBNmJycnZXc0Zv"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 89,
+    "ai": 90,
     "staged": 0,
     "prio": 1,
     "lost": 0
