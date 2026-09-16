@@ -1,5 +1,7 @@
 {
   "seen": {
+    "ec95284f416950fb": 1789552560.1316557,
+    "53d7517ffd825013": 1789552558.7258754,
     "65422f5923d0ffd7": 1789552535.3646286,
     "4fc40a2d3236a473": 1789552470.880756,
     "37b8ddc4642884eb": 1789552405.6520345,
@@ -2497,9 +2499,7 @@
     "252c4c8b9eb82cd3": 1788555437.8579252,
     "9c4a9a3ca990d6c4": 1788555374.441129,
     "a1bc70cec653381c": 1788555311.0924537,
-    "8c230ddd35856d58": 1788555310.712109,
-    "b826ae9292a3f521": 1788555123.263752,
-    "b7dd42df85e54b32": 1788555060.1022794
+    "8c230ddd35856d58": 1788555310.712109
   },
   "initialized": true,
   "v": 4,
@@ -4307,16 +4307,21 @@
       "source": "Yardbarker",
       "ts": "2026-09-16T09:24:03+00:00",
       "cluster": "cc5ddbbfd7f"
+    },
+    {
+      "t": "Alexander Volkanovski chokes out 6-Foot-8 Eagles star Jordan Mailata",
+      "source": "Sherdog",
+      "ts": "2026-09-16T05:43:53+00:00",
+      "cluster": "cbbf4592165"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T09",
-    12
+    13
   ],
   "yt_eval": [
-    "CBMiWEFVX3lxTE1wSWo2YVVrZTk2Rkh4ckJSRWZVMXFZUkppUkRqMTJqWGxyaXBQYWlaYlhmTnk1bW12WWdhMjBqbG1rci1CX2FUdFJYeC1ueU9lcFA4T09veWs",
     "1ef6d200-1eb6-33ac-ac1c-5f6d994dd874",
     "CBMiwgFBVV95cUxQdEdLT2dXbGZHUVZlUms3RWFuMTczN0g0ZG9udDFRcVB6cUZhTlpnZ2RkSUJrMU4yVDA2MFRyZTZwS2t4a1Y2RlpCcXVfcjFHeU1QSmo0cTQya1pXdmZrdGozN1hCel9qWHVGMTJtQUhzdDVPOHQ3V2x0aFAxU3JuVG5xRmVPSVpEdGljODU3UlVjcmp1M1o0NDNFNjVkMGhacHpFSnZxZ1pYb2w3N2lGX2lBRElqQW0ydjJaMXF2V2k1dw",
     "CBMidEFVX3lxTE4zQzAyZm03RERqQ0E3Qi0yREdKTWpLaE1OdldZQlJRWHJrZ0lNSmNjWjlkR1RzdDJYTFVTMVJFajJrQ3cteFp0dXE4bl9jMVBIam9kYy1sSFFCQzdZU1RtWW13bDN6alhCLUF4andJX1pmSFRv",
@@ -5815,11 +5820,12 @@
     "CBMihwFBVV95cUxPNWhIelM3ZlB3UzRPWHBGWHpveUNxTXBjTzlqTzY2dGE3OThiaWRCR3p6aXdkUzQ0NDNja1lUNnVldC1BSTRHUF9OOE82U0swSXVHRURoNmtHN182NWU3eVJKNlBuWHpBT1Z4bGFYd2hUQjZ0eGpLXzU4SnZucV9UdWNYTnAxSGs",
     "CBMia0FVX3lxTFBRdGZnWC0xcExINGE1a0NFSlJkWkNDM0Zlb21RTHpxMTZGMjRqRFVqTHBiaTFuVGFlaXFFUTduN0FjalladWFXTkNqcEp3VFlfdWN1cGZQZWtELU5lT0pwdEY4MDVmZy1qekpn",
     "CBMiqgFBVV95cUxPZkF0RmJmVG1kV0pfOHAwVWdTQkQ2dEV3R0s5ejFzeFdmbmJsaTV5ejdqdEYyUGw4VW9fMHRMSFItODhjV1I1LXE1MEI5MVM2NnZoTFFpeEEteUhnRjdqREo5SnFFVzdiRXRjY0l4WDdPc0FPQ2lUSlBSTWt6b0VoMUxLd3B6cXVVeHBjYm1ZSjNEN1k4SXp1b0wyaFMwZFc1R0ZUeDN4dEtpUQ",
-    "CBMiwgFBVV95cUxONzhhVWR3V0Y5TUIwazN4N2JsdGZQdm1UUmU4ZjI0Z3ZXakdyMU5pQ2lsd0I5M1VhRFJkTDVfYmpka0FTalBBNlMwTFFuai16d09oM2Fsb243czIwel8wbkZzTm5CRVZyaFlOWXhBNHdEYU16Ny14OWlMdGpwWEo0UmRjMHhmcVlxbTVNNnlPejcweUc0RURqMHVwSkZucnc3T1lrWkd5cloxR1ZGVm9XQUp2ZDUwamh4bmNhQ0RlU1p0Zw"
+    "CBMiwgFBVV95cUxONzhhVWR3V0Y5TUIwazN4N2JsdGZQdm1UUmU4ZjI0Z3ZXakdyMU5pQ2lsd0I5M1VhRFJkTDVfYmpka0FTalBBNlMwTFFuai16d09oM2Fsb243czIwel8wbkZzTm5CRVZyaFlOWXhBNHdEYU16Ny14OWlMdGpwWEo0UmRjMHhmcVlxbTVNNnlPejcweUc0RURqMHVwSkZucnc3T1lrWkd5cloxR1ZGVm9XQUp2ZDUwamh4bmNhQ0RlU1p0Zw",
+    "https://www.sherdog.com/news/news/Alexander-Volkanovski-chokes-out-6Foot8-Eagles-star-Jordan-Mailata-202823"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 82,
+    "ai": 83,
     "staged": 0,
     "prio": 1,
     "lost": 0
