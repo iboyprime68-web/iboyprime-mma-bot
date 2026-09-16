@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6294734451835d61": 1789552252.4468968,
     "053ebeb61c191680": 1789552208.5820918,
     "0ca4ff4ea6d21aea": 1789552144.2529998,
     "6f5f04e7c37d3b32": 1789552079.4670234,
@@ -2498,8 +2499,7 @@
     "6d9cd0af4e5bee12": 1788554929.0910523,
     "340d799903974fbf": 1788554866.256312,
     "45f74cc215c30b63": 1788554801.562727,
-    "014c6b1b439533c1": 1788554738.0597534,
-    "bd6d92593b9e4b22": 1788554675.1637197
+    "014c6b1b439533c1": 1788554738.0597534
   },
   "initialized": true,
   "v": 4,
@@ -4271,16 +4271,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T06:04:50+00:00",
       "cluster": "c2edd26138a"
+    },
+    {
+      "t": "Conspiracy! Nate Diaz believes ‘embarrassing’ Dillon Danis ‘cut himself open’ to avoid Mike Perry",
+      "source": "MMA Mania",
+      "ts": "2026-09-16T03:45:17+00:00",
+      "cluster": "cee07feeb76"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T09",
-    6
+    7
   ],
   "yt_eval": [
-    "CBMigwFBVV95cUxOekljb2VUODBsX1htM2Jfd2IxNEVYRllBODktd05fN2RHRWplcGFYd1VMV0E2aXJUOEc5UGlCbUNheG1rTVhYc1ZKX3paWXFKbEllWWh2U3pJTTh5b0ZtaURUcHRhTEJFUmM0SnVkM2xkSG5ENkFDdkoxNy1pcE44ek5BWQ",
     "CBMimgFBVV95cUxPVXppeWh6d3R0T2g5U2dKdjJwOEpaNnN4elRPMVFyVmZCRDA1R0pjWDA0OHpFVWd0THR4MmhfN0ZWZktsdHZQcHVfT0t3TmhQN1BnejJCaTdsYnBRY3YwaEw1eTktTUNCVFJtMVk2dWt3ckN5eHhDT2RrVVBkRU16RTFidHJma21pRWdJSVlkWVp0bFhwaDJDdktR",
     "CBMieEFVX3lxTE8xaUZxWlN6WUcxdW9XSGFmVU9NdzRpeFNzQUo1ZGh2bkQzQ1RPRlZqb3MyeGdmSjVBVElPZDRqeFBsWjl6YzBOdk9tczVIXzJLdW5NYUtuMkl0cmt5WUxLbXh0aFlSWW5ZQUV5NW9SS1ZfbUhBalRZbw",
     "CBMisAFBVV95cUxOX2tfbUVhZ1l6TVR2MjhpS2cyX05lY19od3BZTWJ2TTlVbzhmd01XN0dyX2JVR0F6UGFsc2djY1djRUlmS0c4TzU2MS1xcC1qWnBodlRRQmxhOVd4SzkwaVMwWWY2NEVVNU93T1FZcndjTUtyajFsMi1MNDFUWHo3SzE5YUFhNTZnZG9MeFBsMnF2cllHVmtQalpUWE1rMU9hY0dLM21ESG9DSmZ2a0tOaQ",
@@ -5779,11 +5784,12 @@
     "28b0a15d-83bf-32c9-b9c7-b2b1c512185d",
     "4e8ebcee-8a4c-3a19-a52d-8da6a91b4be8",
     "7881e41f-21fa-3cb8-9221-86d7e1e02737",
-    "cb5c7080-c5ae-33ca-89d1-4dc319cf36d4"
+    "cb5c7080-c5ae-33ca-89d1-4dc319cf36d4",
+    "https://www.mmamania.com/?p=472659"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 76,
+    "ai": 77,
     "staged": 0,
     "prio": 1,
     "lost": 0
