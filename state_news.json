@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0fd978be32060541": 1789569825.6284761,
     "9030d9690c330ac1": 1789569798.8985205,
     "fac94ba8837ff930": 1789569798.4627225,
     "3212c55e4243ec3c": 1789569774.8211641,
@@ -2498,8 +2499,7 @@
     "51f1716c61edd1e3": 1788562811.1600258,
     "23ddebdae1a5fecf": 1788562788.3234084,
     "60a1b72ab73129f1": 1788562787.9885848,
-    "459535476b109664": 1788562787.9862003,
-    "8cb53a1598400551": 1788562723.831611
+    "459535476b109664": 1788562787.9862003
   },
   "initialized": true,
   "v": 4,
@@ -4229,16 +4229,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-16T12:00:00+00:00",
       "cluster": "c580a395894"
+    },
+    {
+      "t": "Dana White brands DWCS star ‘greatest talent ever’ after 19-second win over Alex Pereira’s teammate",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-16T13:00:00+00:00",
+      "cluster": "cc68c8303fc"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T14",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxQa1psMndnTGFEeWZGTkpCaW4ybUpUZWQzNmhHdHBlN0E4YVZTVDR4ZlpVa2pkWnpyZzczcmtFMnd5dVc4eGtaTjlaN2hKaE1KYzhWeklaTGl2OE43M28xdEJuS3A3VE9obG1TUmJtMGF6WWlHUUVERXlGMVhTZnVCeU1Db1o1cngzQk03eV9laVMwUGhfd2RRQ1RRbTJMNHVl",
     "CBMinwFBVV95cUxNNVJadmFxeUZmTVpIUFYtRnVJVWk5dkRaVDdYblBtZkZpQUh6M21OZlB4LW9NTU11MVEyUkpoYjEwUE51UzNMRE1jaXFRdnQ4LWRPb1FvQmlHSFVaU1ZlQTFBbWhFamdaZ0FJeXI2d0JKY0l0Mm5oSldZR3E5cTU0X2J3QVBpMUdaQmxRNjdFd0x6RS1RRFJpeUV2d1QwLU0",
     "https://www.mmafighting.com/?p=508104",
     "CBMigwFBVV95cUxQTE1XbGhaYjhvcjVGTF9lZHZ5TGhub3NEb0pRc2ZabEZ0T2NQZVJrTzgzMmRpX3FHb0hGaFpyTVl3SjBPWlFrc2RRRDRzNWo1YWV2RG1lUWtndmg3LTc1bHlmNkU1UnctdGx3dUlXSjZRNm56cmFneU9KZzlJN0FXc0R2OA",
@@ -5737,11 +5742,12 @@
     "CBMipwFBVV95cUxNVllIUlhuMlNWMEZjdHRlZ0k5YndhWVlCem9NRVJyRG9HRDRMbG5fZDBvQ2NfWW5VN01YYjNldDZEUk81REd0UldzTGc2RTY2bHFBbUMwYWVNNzg3QUh5bWJDR1VhMEVRTl9odnZvV3NvNWk5dUdJR2N2QjJQdXU0RF9ILUlQWFV0SkVROEdvbHB2SEdYM2NzdXJPXzN5Z1kxVGV2cURTcw",
     "CBMijgFBVV95cUxPdFBZNVF0SW92VVNjM1lQejhEMEZkX3h5ck1Jd0UtRTg1SnFmZjc1MUV6bDVsTmF0NmcydDA1OXJuVWZKUGhVdVplRmctaWhUTjlsV2lSSzd0NURvSmdrM05SWVplMFFjU284T25TQ04zdHM0aUoxNmxMT1IxTWtqeDBwT3RTM1lEaThQOGNB",
     "https://bloodyelbow.com/?p=331808",
-    "https://bloodyelbow.com/?p=331829"
+    "https://bloodyelbow.com/?p=331829",
+    "https://bloodyelbow.com/?p=331827"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 97,
+    "ai": 98,
     "staged": 1,
     "prio": 1,
     "lost": 0
