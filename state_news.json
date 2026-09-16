@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e0e5790522147245": 1789570710.6256862,
     "a207d6b9f82bbfc8": 1789570665.9470663,
     "3711c2c9e4d3476b": 1789570665.6799822,
     "125461b8a52281c7": 1789570600.450981,
@@ -2498,8 +2499,7 @@
     "3112c0da2bacb455": 1788569918.2005527,
     "1cd1596ec4200991": 1788569917.8408341,
     "2a814acb63bc33f7": 1788569684.8465016,
-    "e43f53450f06aff5": 1788569660.385438,
-    "51a25b435dd93375": 1788569660.104704
+    "e43f53450f06aff5": 1788569660.385438
   },
   "initialized": true,
   "v": 4,
@@ -4329,16 +4329,21 @@
       "source": "Yardbarker",
       "ts": "2026-09-16T14:14:55+00:00",
       "cluster": "c71aa4b2113"
+    },
+    {
+      "t": "UFC 331 stats called into question after suspicious staredown between Arman and Ruffy (Video)",
+      "source": "MMA Mania",
+      "ts": "2026-09-16T13:28:10+00:00",
+      "cluster": "c1c6e18ca23"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T14",
-    20
+    21
   ],
   "yt_eval": [
-    "37af5de5-0355-32b2-8c71-bf7c47a9f323",
     "fddcfbc0-0f7e-3cdd-b16d-482b3952a66d",
     "547f4a49-2490-36e5-b7c6-062f82a4e51f",
     "8810fe13-1691-3715-95e4-a041492f2108",
@@ -5837,11 +5842,12 @@
     "CBMioAFBVV95cUxPUk9VVkdQcEVpbG40SXQxdUlzdHVYU250ZlNMZnlBdHFyc0NyS3F3MmhINDZ5d1VHOEViUDllTUdWRWFBcTBSc0Y0TmJObHo4OGROcGtxRndOQlJDT3JfUmVpMUZWYjVSZV9EM1RnYzdGbHlhZk5hcFJvY281dXZjS0pscG0wMDFVMkR0Nzl2bk10X2pJMUJBdEthb0owLXBT",
     "448f316d-a462-44d8-ad61-83dea9bf7630",
     "CBMiakFVX3lxTFBCSTRJZ0JPU1lwbVJzaXVyWXlwX2kzcHJidlJqaFRjT29pTkoyVDVBYXI3bkE0bHhOZUhMQ0M5SzBhWHNyWm1Zdkw4Z0J3MDJGREZtRURhejVYSlczd08wYWw0c1VVY3UzOXc",
-    "CBMiogFBVV95cUxPeGR3Q21iVlRPTFZ4M2Z3MkxVTGUydUVHTFBEazB1aUpEMnYyelZzb3RlZ2lSX3BkYURuVTFsX2ltQ1V1UGlhQW12ckJfR2t5WVRLWjlxUnF6MFNfNmhNcXZQOGcteXRHTzFwNTJMcXFwNG4wRUJ3SXMwdFp1LUtfVFVjR1QyUFRDbUduSEwzckM2Q3VYT2V4bUloVHVRMXBYZ0E"
+    "CBMiogFBVV95cUxPeGR3Q21iVlRPTFZ4M2Z3MkxVTGUydUVHTFBEazB1aUpEMnYyelZzb3RlZ2lSX3BkYURuVTFsX2ltQ1V1UGlhQW12ckJfR2t5WVRLWjlxUnF6MFNfNmhNcXZQOGcteXRHTzFwNTJMcXFwNG4wRUJ3SXMwdFp1LUtfVFVjR1QyUFRDbUduSEwzckM2Q3VYT2V4bUloVHVRMXBYZ0E",
+    "https://www.mmamania.com/?p=472686"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 115,
+    "ai": 116,
     "staged": 2,
     "prio": 1,
     "lost": 0
