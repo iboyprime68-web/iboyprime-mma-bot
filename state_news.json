@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5f101bdb0534b9e5": 1789571781.2754676,
     "de610425238656fb": 1789571654.3146176,
     "0169b70f89981fda": 1789571589.2598448,
     "609b230e17ba4160": 1789571525.1384394,
@@ -2498,8 +2499,7 @@
     "c46f7147adc3f8c4": 1788587142.7966418,
     "c6b02c7babeabd31": 1788587037.2594452,
     "bbfd63de077bd5c1": 1788586847.3288295,
-    "ba4f98c920e95281": 1788586781.5214412,
-    "aec345ff30423af5": 1788586781.2495885
+    "ba4f98c920e95281": 1788586781.5214412
   },
   "initialized": true,
   "v": 4,
@@ -2511,10 +2511,6 @@
     {
       "t": "Jean Silva called out for a wrestling match by former UFC star who was axed from promotion",
       "ts": "2026-09-14T17:00:00+00:00"
-    },
-    {
-      "t": "Dana White's Contender Series 92 weigh-in results",
-      "ts": "2026-09-14T15:15:29+00:00"
     },
     {
       "t": "Eddie Hearn releases statement after Tom Aspinall vacates UFC title",
@@ -2583,12 +2579,6 @@
     {
       "t": "Justin Gaethje Uncertain About Fighting Future After Championship Win",
       "ts": "2026-09-14T18:15:34+00:00"
-    },
-    {
-      "t": "Video: Scott Coker set to announce details of new promotion",
-      "source": "MMA Fighting",
-      "ts": "2026-09-14T15:15:19+00:00",
-      "cluster": "cf541acf525"
     },
     {
       "t": "Alex Pereira is frontrunner to fight Ciryl Gane for undisputed UFC heavyweight title, says legend",
@@ -4407,16 +4397,21 @@
       "source": "Sportskeeda",
       "ts": "2026-09-16T15:06:00+00:00",
       "cluster": "c0b41b02f4a"
+    },
+    {
+      "t": "Jon Jones could consider comeback after Tom Aspinall UFC title decision as protege teases move",
+      "source": "talkSPORT",
+      "ts": "2026-09-16T14:38:41+00:00",
+      "cluster": "ca85b0667b8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T15",
-    13
+    14
   ],
   "yt_eval": [
-    "CBMid0FVX3lxTE4tdEpqdEx2NGZZWVRWSHFURERDVzU2REJKd2lhN285Vk1NLWhkTFN0amREb2J2Y0p0dFR5bk1aZ01kRjdRTGVCWjlHSU9uNTIxSkcwTFlSMThOdTNjS0VMUFZyMXI1U2dEMlotQktWbWhMQndPZTlN",
     "CBMiogFBVV95cUxPdng2MGVMZXRBWW9oT2k2TGRUQXBTWFU3V1BqNWM4MjdqLWFOVWlPemxkeVRFeVBsMmVLNU9QV1dkOTE3UDV4aElGNnhZTGJXeUJ1SFZvS0dPd3dWc1hsbG1pSTZRdldrRDU0OTM0SUlsZmdobU02aHBLYi01cDFvSFZnMjJfcG5LYjhrN01oc2pZYldzakJON2VnNXh6WW5nWlE",
     "CBMixgFBVV95cUxNWmxpemJyTWw0MFE0WWsybU1VdlB4VTRYd2FMc2wzeVdMUWtSSVdDbkJqV1lYcU5VdkhHaFpYcDNwRXZTbXRFdlVVMXdwYV8tU0UyYk5EYXFieEFmR1NVclMycjdpM245RXNndVZ6eGR5WDFIa0IzUWhrNU91c1h1NGFfc1JGZUF1Q0VCb1g3SUE1T2lwbnpESl94NnBXUktNbTdLVEZkaFNEM2tRbmhYQXJod0pSaHZrYWRRRXRsT1kyVWhRaGc",
     "CBMiswFBVV95cUxQbEdKZE83M2dBRVRLWl9FM05fenpWdjdHc21pbDF5WWNnd1F2T3BrQi03eVI1SEZBTUV0R0dTSWtUQ0dlUEhmUzBLRURtX0x1N05UbjZSa1Q3dU12Qm9ZQ3NiQnpwVWRfS3lLOFFMckk5V1ViaGc5dUF1aG4zd2tkTXhWU0VuSEJOS3A1NWlXMUFVMmVCUC1Wek1zQ3QwUFdtVmlzSmZnTUpweWlway1PZ202RQ",
@@ -5915,7 +5910,8 @@
     "CBMiigFBVV95cUxOZXQ3dW41TVpfdGYyMUVjQzJEaFlWbUc5YlJiaV9kTmZ5cGt1WW0zUmpPeG1uTWdma3Q0SzIzencyeS1rVVR4LXVMLUdLUkhEVk02cl82MjR4Y1hfZEhSTUItVUJ3YWIzdjBFN0M0cUpSZzlhOEw4azcwZmFSZnJ6dkxKSmdFQUtIVHc",
     "CBMifkFVX3lxTE1sWU1iNXY0RVVnSUE4OTJHU2hURDBmcnZVTENJQWVjaFlqd29Uc21lSmN1SGRUemxGUURuTUJ5WmE1VjVRLVZpS2hhQ25uT0pHQXZFT0NsS3NQaThBSkZtYU0wTXkya01zVGVuUzRSTFZsVFlrNWtpSmk5eEZuUQ",
     "CBMibEFVX3lxTE1rXzF2SWFCXzY1UkRmVkRwOWUwYXU1S3VJYU1KM1dnWHZDN2lBLV9xU1U5ZGlNRkUyZmpMZjJJaWc3OEwxd1J5eUxfRUFhOGNNeDlENmdINGZtbGVLb19YcmtNTmZMUW93eDl6NQ",
-    "CBMi3wFBVV95cUxPRjBjcm0tLXBUS1FiaDBaZmJ1eEF1Y1lfd3dUa08yVFN5Y0liU0E5UDZoY21MTTkzeHhaZzRzX19BYnB3SkM1aHB0SVY5UUJfNEZneUxKaUhNdW1yUmRvR09rOVFXTXQ0cFd4aEhtUnB5OUtjRnRQQUZfWEs1cXBhMlBoVjBDZVhhX1VjOVVGZHRYZno2QVNETmRhTG8yZ0djNnoxZ3dnZmxyWS1ia2JSQ1ZjMmQ1QzRZc1RDRm9vLUVxeWFwQWNzTERFYjJrcGVuWl8tOTI0QlFpbHg2WjJz"
+    "CBMi3wFBVV95cUxPRjBjcm0tLXBUS1FiaDBaZmJ1eEF1Y1lfd3dUa08yVFN5Y0liU0E5UDZoY21MTTkzeHhaZzRzX19BYnB3SkM1aHB0SVY5UUJfNEZneUxKaUhNdW1yUmRvR09rOVFXTXQ0cFd4aEhtUnB5OUtjRnRQQUZfWEs1cXBhMlBoVjBDZVhhX1VjOVVGZHRYZno2QVNETmRhTG8yZ0djNnoxZ3dnZmxyWS1ia2JSQ1ZjMmQ1QzRZc1RDRm9vLUVxeWFwQWNzTERFYjJrcGVuWl8tOTI0QlFpbHg2WjJz",
+    "CBMiggFBVV95cUxNbFdIRV9xZ2dlY1g1UlIzZ3NwcWVyM085TXUzdmVub3VITEU4Um9kMlVlQWo5Wm9WNENnUFRGNnFLcnFwbkZnTzVRVHFaeTVNSWRieG9rM0xnR05tMjY3dU1hUmlyZEg5ZXFYeFZCb2czeFhjRVZPT0xJcTJOWFI0bDRn"
   ],
   "daily": {
     "d": "2026-09-16",
