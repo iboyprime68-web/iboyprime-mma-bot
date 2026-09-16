@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4fc40a2d3236a473": 1789552470.880756,
     "37b8ddc4642884eb": 1789552405.6520345,
     "d1cd175b6b917b96": 1789552405.1675406,
     "a28d45c3771f8474": 1789552341.0903735,
@@ -2498,8 +2499,7 @@
     "8c230ddd35856d58": 1788555310.712109,
     "b826ae9292a3f521": 1788555123.263752,
     "b7dd42df85e54b32": 1788555060.1022794,
-    "45cd6c64e002cfd3": 1788555059.9521992,
-    "2a493af48c19acc7": 1788554992.88066
+    "45cd6c64e002cfd3": 1788555059.9521992
   },
   "initialized": true,
   "v": 4,
@@ -4295,16 +4295,21 @@
       "source": "boxingnews.com",
       "ts": "2026-09-16T09:20:34+00:00",
       "cluster": "cfba8623829"
+    },
+    {
+      "t": "Brian Ortega Reveals Cause Of Cut That Led To Fight Call-Off And Blasts Haters",
+      "source": "MMA Insight",
+      "ts": "2026-09-16T09:20:38+00:00",
+      "cluster": "c21dc301e74"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T09",
-    10
+    11
   ],
   "yt_eval": [
-    "CBMijAFBVV95cUxOQXJPLVRVU1lETlFoRTZZaWZWSnRyejNtcnIwNzBjZTM4SjhGZ21raXFHWmt1X0N2bDRTeVNMZUZHcmFtZkVEM3VLWm1hWl81VlBBWWFmOHdTTGFTQkN1UTNFcy1JM0NJMldVWFVwanJzZ2ItNDRTQ2ctamJjczhlY1dfVkZTcXk3OThEZw",
     "CBMiywFBVV95cUxORHFpR1FUajVUOVdfZVNXdVVvS1pqU1JMRU9ydkZ3SFNHd1JEeWppekM4TmFjYjdHSlVuUVJRZFJsUWtzNFY1LWtnZ0hQc3RRYVo3NUtTZ1dETHhVVFQ3NVdXNklxZnFWakpaTFRlbF95VmZ0LXNEbHJXUmNKQ2ROeXlPOTRQcFROUF8yY0pweXFkWjVSY1F1Y2ZDVFRONWZZUUtncVJXcnJibG82S1dQTEJhSWloWjh3SGN5UEJuTG5XMFhab3d5SkRnbw",
     "CBMiWEFVX3lxTE1wSWo2YVVrZTk2Rkh4ckJSRWZVMXFZUkppUkRqMTJqWGxyaXBQYWlaYlhmTnk1bW12WWdhMjBqbG1rci1CX2FUdFJYeC1ueU9lcFA4T09veWs",
     "1ef6d200-1eb6-33ac-ac1c-5f6d994dd874",
@@ -5803,11 +5808,12 @@
     "https://www.mmamania.com/?p=472659",
     "0615e6db-5f49-3b8b-9796-0290e7a9c158",
     "CBMihwFBVV95cUxPNWhIelM3ZlB3UzRPWHBGWHpveUNxTXBjTzlqTzY2dGE3OThiaWRCR3p6aXdkUzQ0NDNja1lUNnVldC1BSTRHUF9OOE82U0swSXVHRURoNmtHN182NWU3eVJKNlBuWHpBT1Z4bGFYd2hUQjZ0eGpLXzU4SnZucV9UdWNYTnAxSGs",
-    "CBMia0FVX3lxTFBRdGZnWC0xcExINGE1a0NFSlJkWkNDM0Zlb21RTHpxMTZGMjRqRFVqTHBiaTFuVGFlaXFFUTduN0FjalladWFXTkNqcEp3VFlfdWN1cGZQZWtELU5lT0pwdEY4MDVmZy1qekpn"
+    "CBMia0FVX3lxTFBRdGZnWC0xcExINGE1a0NFSlJkWkNDM0Zlb21RTHpxMTZGMjRqRFVqTHBiaTFuVGFlaXFFUTduN0FjalladWFXTkNqcEp3VFlfdWN1cGZQZWtELU5lT0pwdEY4MDVmZy1qekpn",
+    "CBMiqgFBVV95cUxPZkF0RmJmVG1kV0pfOHAwVWdTQkQ2dEV3R0s5ejFzeFdmbmJsaTV5ejdqdEYyUGw4VW9fMHRMSFItODhjV1I1LXE1MEI5MVM2NnZoTFFpeEEteUhnRjdqREo5SnFFVzdiRXRjY0l4WDdPc0FPQ2lUSlBSTWt6b0VoMUxLd3B6cXVVeHBjYm1ZSjNEN1k4SXp1b0wyaFMwZFc1R0ZUeDN4dEtpUQ"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 80,
+    "ai": 81,
     "staged": 0,
     "prio": 1,
     "lost": 0
