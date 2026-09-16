@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4fc8a0d930a0aeac": 1789533779.8579426,
     "12805702690ffbcf": 1789533734.1796072,
     "b23b2f87e4a93dca": 1789533710.2634134,
     "2b29b5f33190a9ec": 1789533685.472817,
@@ -2498,8 +2499,7 @@
     "70b6dd79d1db9644": 1788543595.2011635,
     "9e31c5579054e8f3": 1788543595.1985786,
     "c91290cb6af35d6b": 1788543530.2994785,
-    "373504e03d62b109": 1788543464.7899673,
-    "cdc94666f0c3a9bd": 1788543464.5473535
+    "373504e03d62b109": 1788543464.7899673
   },
   "initialized": true,
   "v": 4,
@@ -4073,16 +4073,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-16T02:00:00+00:00",
       "cluster": "ce082ee51cf"
+    },
+    {
+      "t": "Former UFC champion doesn’t believe Tom Aspinall should fight again",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T01:09:47+00:00",
+      "cluster": "c300ed61a03"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T04",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMitAFBVV95cUxPX2RYRXg4NXlaUVI1XzRuVTBrTzV1eE9NOHhhc041MFNiTWdzUWRqVG5tY29mS3FJWl9JeUtudEdXdVZDOUk1VmpVRDVYeWw2V3FicXV4cUt6dU9LU3lMZXBfeXlFbTdhSER6SXRJXzF2QlFRSURKY2l0Q2lTUlhTZmdjRjMyazdKaTNjeGIwSGwwSExxWENWYUNjMnMtVW5PRGUycTczTkVCR0U3N3k1NnZfQ0Y",
     "CBMigAFBVV95cUxQRF9VbHRBblV4UTBUM1Z5OXY1LVRRdnBvcnMxZVdianlRYUJSblN4dDV1OEM0SzRsTWtydUdoRDN3THZYY0Y5WWZOS2VlVmpfSEpXZGVlMTdqaTFkd0lNd1NfV3hfNGlOTGs0US1SQ05hODlzandhT1ZnUlpLMlgwag",
     "CBMi6wFBVV95cUxNSXBHYlk1V2FwNG9mREg3ZlRmNkpmRGM5RUV3MTBNTDZpcGFJNkxLanMxWWxqOTVVY1JNM3FVZVFTczdLLTRXM0xMdmwwZHZBbXlfQmdNZS12QldJQjhjaUpid0UwaWx3UENvWFVnckZpV3NIWDhHZURTZXlmNXE3cmlUd2stVDB3NEJNRlY0R1BrSmh0ZC00X3F3N1ZYT3ZidG00WVI1engzRTRPazE3X2hfS2NRN2VyaU9BTFBnSjhhTWN4bml6SGE4aWt0TEFOeldXY1p6Y3NZM2xpRUxTc2thVzQwRVFYMFhZ",
     "CBMiXkFVX3lxTFBjdnlmUkRCdktDSExxNnl1Tm9qSHZJczMxSjVVZDhPOGxWVlVpR3dJX0p6Q1VkNktpY2lZNlV2alVCeVBXVkNoSDR6ckJJb1ZJUGoyOW42VFpNd2gyVmc",
@@ -5581,28 +5586,17 @@
     "https://bloodyelbow.com/?p=331782",
     "https://www.mmafighting.com/?p=510473",
     "4e3f97b6-1536-37c3-922d-4fa3ee7a7ada",
-    "https://bloodyelbow.com/?p=331787"
+    "https://bloodyelbow.com/?p=331787",
+    "649d0ddb-651c-33db-8ac1-49611c0ebfa4"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 35,
+    "ai": 36,
     "staged": 0,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-05T10:17:39.726621+00:00",
-      "t": "Chimaev Faces Woodley in Thrilling RAF Moscow Main Event",
-      "names": [
-        "chimaev",
-        "faces",
-        "woodley",
-        "thrilling",
-        "moscow"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-05T13:50:20.211589+00:00",
       "t": "Fury Credits White For Getting Joshua Super Fight ‘Over The Line’",
@@ -6416,6 +6410,15 @@
         "rematch",
         "again",
         "eyebrow"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-16T04:43:00.703535+00:00",
+      "t": "Former UFC champion doesn’t believe Tom Aspinall should fight again",
+      "names": [
+        "former",
+        "aspinall"
       ],
       "img": "photo"
     }
