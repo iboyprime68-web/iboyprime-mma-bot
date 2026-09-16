@@ -1,5 +1,6 @@
 {
   "seen": {
+    "adcb6edca7a424fa": 1789571068.933876,
     "dcc869f2a6691c57": 1789571003.7638893,
     "e789738261d6c67f": 1789571003.4813678,
     "6b00021a7310fccb": 1789571003.4795973,
@@ -2498,8 +2499,7 @@
     "7cd6f9af112ce5e3": 1788586254.3609574,
     "ac43323558241d78": 1788586208.6693552,
     "694b8f7f8d44bf78": 1788586184.8351724,
-    "a01807dc893ff049": 1788586119.2309065,
-    "d7aa7574e22c1770": 1788586053.7592015
+    "a01807dc893ff049": 1788586119.2309065
   },
   "initialized": true,
   "v": 4,
@@ -4357,16 +4357,21 @@
       "source": "BJPenn.com",
       "ts": "2026-09-16T14:36:29+00:00",
       "cluster": "c09e9535d3b"
+    },
+    {
+      "t": "Yoel Romero discusses retirement ahead of BKFC fight vs Darren Till",
+      "source": "BJPenn.com",
+      "ts": "2026-09-16T14:42:09+00:00",
+      "cluster": "c0fe9bb3b7c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T15",
-    4
+    5
   ],
   "yt_eval": [
-    "d3a647a2-6d79-3b51-a414-817da1bbb7d7",
     "4a14147f-3dad-4462-b689-e91bac6658cb",
     "29c795df-2da5-3ed9-850c-80e023a776ba",
     "bd0ec28a-1ca0-3b1a-910f-282e925d2d9f",
@@ -5865,27 +5870,17 @@
     "CBMifkFVX3lxTE5ralRSQ040SzJDTEQxaHBENHVkLUJPOC1wamozVmVUanVUNEhBOWNZTVM2QmVSUW1CREVUaHBrTVVLY1I4WDlvNnE5MlRfWm84OHFmTzkxejhPSzE0blN4c3Z1ODFjZEVWSUdRbEs1RElRUUpPSkRxNk1Ha3d4dw",
     "CBMigAJBVV95cUxQSE1EeU82TjVOYnJMREVWYlZQcUNINzVlWUZqQVNoYjVsU3NGcDJjU21jd0EzSGJQRmQydklVdm5rYVE3d0VMN0NudzVQaUlhZ2dLZXhabFV6ZzNsOTJnUTA1b0ViTF9JaUpMNHd0cmVqRXpnZDhqMGY3Zlkya2dQNEUtQ1V5ZmZMcU93UkxoSVk2R2FMaHFfV2tiWGNNeXZKajl0RmFmSExDTGNRMDNDemVURGlqSlpSVk96b0ozcWZkcVJteEpuMXl0SHpSRnhMR0ZGclh5N1VJUmtJeGhtWU9qWERjZDdGUWJHdU5paWowc0xKV2hOV1RzRzdGOGxp",
     "CBMiywFBVV95cUxNdFJMdDVRVTJtREZucXdtN3VRZVNOM0R0VW1SWHFTeHJnRjktb010SDZ6WWRTY3NRZWJEU0RidzJrMU1uTTZhel9VNkdObGZpQk1VUHA5NVQ2cUF3aHJfSERCaEJSaDdXUWhpMG15MWQ3aHRIOG5ZQ2FvUFU4VTEwRXlKQ05ZcWdpYWFRNUdOSnY0Uk9kdmd5QTFnMG1vX0wwU3JYYlFvM05keU84RzQ1c0plSnA4TGdyRkVTT1BqeFJOanVPbHFMMUNCcw",
-    "CBMiwAFBVV95cUxONzlLR2R3c1lJem9tZTBzbGtUS2VtRlhGYjVSZUVtNDRmOHZhLTRKNERfdWxSWkhRN3IzX21NbThhX0ZGakJkalR6VWRPcmFGZnBYWDZhdVpjNjNWYjh4Zm00WU5FS25mV1Q1V3lyT09VczctelpjeEhFTkVZRmswNEtGX2FrYjlUNEx6aHd2bUZMLXY2Q3IxY1JxZGF4c2hqS3V3T0lvRGNCZVNXZmdOLVU3aVZ4RkdmZVdhczU5SF8"
+    "CBMiwAFBVV95cUxONzlLR2R3c1lJem9tZTBzbGtUS2VtRlhGYjVSZUVtNDRmOHZhLTRKNERfdWxSWkhRN3IzX21NbThhX0ZGakJkalR6VWRPcmFGZnBYWDZhdVpjNjNWYjh4Zm00WU5FS25mV1Q1V3lyT09VczctelpjeEhFTkVZRmswNEtGX2FrYjlUNEx6aHd2bUZMLXY2Q3IxY1JxZGF4c2hqS3V3T0lvRGNCZVNXZmdOLVU3aVZ4RkdmZVdhczU5SF8",
+    "CBMisgFBVV95cUxOdWw2dDBqcEhHcVBfekIyZ01EMFFGU05sQTJCWk1YTm9lVVJvN3FnSmFyYTBUWk4zTWdaUVNqbXBXUG9CSEZhMG5mVkhBTkhlNGR3YXQ0RjJhc3J3OUJtWVNWczNVcVItVHM0al9hQXRnTEpwOUJibWFlOV9xMnByODZ4X1d6OXRzVGxIb0VrSk9ZR1FNSG5BMTA0T3M4ek1lNEhpdEFodVZnM0ctZ3J0dFNn"
   ],
   "daily": {
     "d": "2026-09-16",
     "ai": 120,
-    "staged": 2,
+    "staged": 3,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-05T16:52:34.727842+00:00",
-      "t": "UFC Paris video: Delphine Benouaich bloodies, chokes out Sofia Montenegro",
-      "names": [
-        "paris",
-        "benouaich",
-        "sofia",
-        "montenegro"
-      ],
-      "img": "wash"
-    },
     {
       "ts": "2026-09-05T22:51:22.994894+00:00",
       "t": "Katie Taylor vs Flora Pili result: Boxing legend retires undisputed in front of 83,000 at Croke Park",
@@ -6693,6 +6688,17 @@
         "headbutt"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-16T15:04:28.935305+00:00",
+      "t": "Yoel Romero discusses retirement ahead of BKFC fight vs Darren Till",
+      "names": [
+        "romero",
+        "darren",
+        "till",
+        "yoel"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -6735,30 +6741,16 @@
     "da749be7d0994efd": 1789436412.5203252,
     "f33c0a7daa348b2c": 1789457256.0912993,
     "c1cf117b7163e7a8": 1789459710.5344546,
-    "da3cdb964912da92": 1789479642.546479
+    "da3cdb964912da92": 1789479642.546479,
+    "adcb6edca7a424fa": 1789571068.3570611
   },
   "pinged_titles": [
     [
-      "Jon Jones Has Caused a Stir With His Three-Word Reaction to Tom Aspinall Vacating the Heavyweight Title",
-      1789459710.5344546,
+      "Yoel Romero discusses retirement ahead of BKFC fight vs Darren Till",
+      1789571068.3570611,
       [
-        "caused",
-        "has",
-        "jon",
-        "jones",
-        "reaction",
-        "stir",
-        "three",
-        "word"
-      ]
-    ],
-    [
-      "\"Enough to make your blood boil\" - Renato Moicano goes nuclear on Brian Ortega over pulling out of UFC 331",
-      1789479642.546479,
-      [
-        "enough",
-        "moicano",
-        "ortega"
+        "romero",
+        "till"
       ]
     ]
   ]
