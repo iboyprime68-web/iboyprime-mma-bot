@@ -1,5 +1,7 @@
 {
   "seen": {
+    "62b604a8c54214e5": 1789572284.830765,
+    "e6b3c60cb134cb11": 1789572284.3405516,
     "2233958142077c68": 1789571845.9189553,
     "5f101bdb0534b9e5": 1789571781.2754676,
     "de610425238656fb": 1789571654.3146176,
@@ -2497,9 +2499,7 @@
     "cf63f23e049dbaaf": 1788587735.1038148,
     "ab5dbe9068bf0fb0": 1788587608.9016702,
     "bc59c11849da45a0": 1788587230.51827,
-    "c46f7147adc3f8c4": 1788587142.7966418,
-    "c6b02c7babeabd31": 1788587037.2594452,
-    "bbfd63de077bd5c1": 1788586847.3288295
+    "c46f7147adc3f8c4": 1788587142.7966418
   },
   "initialized": true,
   "v": 4,
@@ -2657,12 +2657,6 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-14T21:23:32+00:00",
       "cluster": "c22ca451ef8"
-    },
-    {
-      "t": "Arman admits he might be screwed with UFC 331 loss — ‘I’m never going to see a title fight’",
-      "source": "MMA Mania",
-      "ts": "2026-09-14T15:18:29+00:00",
-      "cluster": "c8c91772143"
     },
     {
       "t": "Glendale arena shatters single-day gross record as UFC draws 16,900 fans",
@@ -4409,16 +4403,21 @@
       "source": "FightBook MMA",
       "ts": "2026-09-16T15:13:10+00:00",
       "cluster": "c5f3b272a45"
+    },
+    {
+      "t": "Shut up! Former champ sick of your ‘annoying’ criticism about UFC 332 fight card",
+      "source": "MMA Mania",
+      "ts": "2026-09-16T15:21:49+00:00",
+      "cluster": "c2203b20ad5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T15",
-    15
+    16
   ],
   "yt_eval": [
-    "CBMixgFBVV95cUxNWmxpemJyTWw0MFE0WWsybU1VdlB4VTRYd2FMc2wzeVdMUWtSSVdDbkJqV1lYcU5VdkhHaFpYcDNwRXZTbXRFdlVVMXdwYV8tU0UyYk5EYXFieEFmR1NVclMycjdpM245RXNndVZ6eGR5WDFIa0IzUWhrNU91c1h1NGFfc1JGZUF1Q0VCb1g3SUE1T2lwbnpESl94NnBXUktNbTdLVEZkaFNEM2tRbmhYQXJod0pSaHZrYWRRRXRsT1kyVWhRaGc",
     "CBMiswFBVV95cUxQbEdKZE83M2dBRVRLWl9FM05fenpWdjdHc21pbDF5WWNnd1F2T3BrQi03eVI1SEZBTUV0R0dTSWtUQ0dlUEhmUzBLRURtX0x1N05UbjZSa1Q3dU12Qm9ZQ3NiQnpwVWRfS3lLOFFMckk5V1ViaGc5dUF1aG4zd2tkTXhWU0VuSEJOS3A1NWlXMUFVMmVCUC1Wek1zQ3QwUFdtVmlzSmZnTUpweWlway1PZ202RQ",
     "CBMijwFBVV95cUxPbU1PU2I1SFlldzlKSGl0OGxmbnpnVVItbERST2dnMXBON29qS2RycDhWZk8tbDd6QjAycGhoSkkyZGl1cnNtcWVuWnIxamhObnRzaVdBRThzbU5Rd0hJRldpdHZNMGlndmpHZVFNQjYtdE5UMkswck9ZZE5zbzhRbU1UaDctNGtDb2JCNWpnbw",
     "https://www.sherdog.com/news/news/Dan-Hooker-says-hed-fight-Francis-Ngannou-for-the-right-price-202620",
@@ -5917,7 +5916,8 @@
     "CBMibEFVX3lxTE1rXzF2SWFCXzY1UkRmVkRwOWUwYXU1S3VJYU1KM1dnWHZDN2lBLV9xU1U5ZGlNRkUyZmpMZjJJaWc3OEwxd1J5eUxfRUFhOGNNeDlENmdINGZtbGVLb19YcmtNTmZMUW93eDl6NQ",
     "CBMi3wFBVV95cUxPRjBjcm0tLXBUS1FiaDBaZmJ1eEF1Y1lfd3dUa08yVFN5Y0liU0E5UDZoY21MTTkzeHhaZzRzX19BYnB3SkM1aHB0SVY5UUJfNEZneUxKaUhNdW1yUmRvR09rOVFXTXQ0cFd4aEhtUnB5OUtjRnRQQUZfWEs1cXBhMlBoVjBDZVhhX1VjOVVGZHRYZno2QVNETmRhTG8yZ0djNnoxZ3dnZmxyWS1ia2JSQ1ZjMmQ1QzRZc1RDRm9vLUVxeWFwQWNzTERFYjJrcGVuWl8tOTI0QlFpbHg2WjJz",
     "CBMiggFBVV95cUxNbFdIRV9xZ2dlY1g1UlIzZ3NwcWVyM085TXUzdmVub3VITEU4Um9kMlVlQWo5Wm9WNENnUFRGNnFLcnFwbkZnTzVRVHFaeTVNSWRieG9rM0xnR05tMjY3dU1hUmlyZEg5ZXFYeFZCb2czeFhjRVZPT0xJcTJOWFI0bDRn",
-    "CBMie0FVX3lxTE94VzlQWGMwQmZZX0ZGaW1nMDBGSUloZmdlNF9GM0lFcUpkN2wxTWZfakVPOTQ2ZkZMU044QlVLdzB1NDhaTmZzM05abl9OOTVnQTFZOVNKUFJXS3JCTG5heldETGJNMWhLcHF0ck1yVWhFTDI4bHVrSnpkdw"
+    "CBMie0FVX3lxTE94VzlQWGMwQmZZX0ZGaW1nMDBGSUloZmdlNF9GM0lFcUpkN2wxTWZfakVPOTQ2ZkZMU044QlVLdzB1NDhaTmZzM05abl9OOTVnQTFZOVNKUFJXS3JCTG5heldETGJNMWhLcHF0ck1yVWhFTDI4bHVrSnpkdw",
+    "CBMivAFBVV95cUxNQ2pkWWhGZ1BYczlwWV9KM09rQVJoLUc2dnJJREJ5N2tsOURyZHNYR1RKbjZMVVUybDFzWExBZk16Y0g1QnBNSHNXME5RME1laWgyXzcxX1FoRmVOM3N0bktSb18yUE5VT1dCVWdUSU12UUlZVFk2aWdFRTFwYVdtTHpXRVMzdlEtM2F2ZlhlcW9vb0d0dHVfUkNpX2xVVlNJWnJOamktWENzbzlSdzVDYTJmTE5RTU5odjlXaQ"
   ],
   "daily": {
     "d": "2026-09-16",
