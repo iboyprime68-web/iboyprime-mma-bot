@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ae5c9fd8fa85d63b": 1789517868.1891887,
     "151dd78fff21da24": 1789517802.5265353,
     "24575b9511515b67": 1789517736.698165,
     "390d57115215c28a": 1789517736.2922332,
@@ -2498,8 +2499,7 @@
     "08e1073a19bb7069": 1788529950.6429183,
     "275c738308d7447d": 1788529886.7162936,
     "c9ce2f3a712eb8a2": 1788529821.054739,
-    "524d517bc4f84ac3": 1788529757.19787,
-    "ab4d64bd0e054b72": 1788529733.182592
+    "524d517bc4f84ac3": 1788529757.19787
   },
   "initialized": true,
   "v": 4,
@@ -4023,16 +4023,21 @@
       "source": "fightomic.com",
       "ts": "2026-09-16T00:08:18+00:00",
       "cluster": "c06563ec29e"
+    },
+    {
+      "t": "UFC 331: Where You can Stream and Full Fight Card",
+      "source": "MMA Sucka",
+      "ts": "2026-09-16T00:10:21+00:00",
+      "cluster": "c79776e27db"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T00",
-    16
+    17
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329902",
     "cdef640f-264f-38ae-a075-c080e8087b85",
     "2b3808f4-bf2d-314b-9b87-c38efd09fbc8",
     "aa0c4d5b-7f3c-3cc5-a020-4102029781cd",
@@ -5531,11 +5536,12 @@
     "CBMigwFBVV95cUxQenNnN0tFQlFhOGEzWURYUzU3b05HWXY1bmhmTVhnTVZsd3VMUnJVWkRrYWZOdF9PX1pyd2dIM0huWWRLNFptaGJtdzVvdlZwMzNHMWI5TTM0MDJ5aWd0T3ozZ19SaUltUVlWcUNPU3dJdTFqWWQ2SjQxYWhPT3FTR01tcw",
     "CBMingFBVV95cUxNRVg4Y0tWMFFYYnJaLS1hTUp0VnNHWGtiMUg2UllXeEpnRE9NRXJ3LWdCM3dCVXRGZHdOb3J0YnNrc1BUbnY2eHNzcUNvaWRneDlTU1ZSSjBUYU4zeWVkR1YycWhmZ2NiUEZpWGNRNzRhZ1JIRjZqQlF1VEl3cy11X3VRVXpDbzVVam92N2VBUDhqdzJidGt4QXREYmkyQQ",
     "CBMiqwFBVV95cUxOWkltNkpVMHBMOHVoak5fTHhTYi1yTzdNZTNEc2dCWTZNS0J1SlZCQ3lXNEVvOC1XVk40SWtxUDQ3MEJGeUZWSzFkdkFnVlk0X0Q5M3R3MVVtc3VuR184Z3VqZXRLMi1GTWVMd3NtSVNsc19VQ2w4NEpGMHlZQjYtbVR2bmwxX2dsQjBPZncwU0pzTkRidkM5R2tBanJnZjNIZ041Rk9tT3JWcFk",
-    "CBMiWkFVX3lxTFBYWHpPZkZzc0t6bDJBU0ZHM0wtMk1DRTBsZUU0eVg1MHNZVlB5S0dacUh2QUlIS0JzOWZCYjN6NUwtS0oxaGw0c2dDMnFzTmdFMS14S3lQY25BZw"
+    "CBMiWkFVX3lxTFBYWHpPZkZzc0t6bDJBU0ZHM0wtMk1DRTBsZUU0eVg1MHNZVlB5S0dacUh2QUlIS0JzOWZCYjN6NUwtS0oxaGw0c2dDMnFzTmdFMS14S3lQY25BZw",
+    "CBMie0FVX3lxTFAwSi16bzRVQmVLb2RzVnItancxWUNOY2t3eFBXeTlqeWotLWtKYncxTjRlMXVvWHF3S0dnTUduTFNqblJZa3lqbFA4U21JTm1QY3RSem5UcHhLcDZzajVOdHJ3V21UbloxanQxUjhSeVhZMW91NlBCTEl1TQ"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 16,
+    "ai": 17,
     "staged": 0,
     "prio": 0,
     "lost": 0
