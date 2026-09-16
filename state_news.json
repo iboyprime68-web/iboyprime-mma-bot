@@ -1,5 +1,7 @@
 {
   "seen": {
+    "9ff64fd56d3248cf": 1789535526.7141113,
+    "01b9185785d6f549": 1789535526.3268116,
     "90647dbf6503f3b9": 1789535501.212498,
     "4baf7221f409f6ef": 1789535456.315413,
     "a396f0edf57b82a0": 1789535390.350791,
@@ -2497,9 +2499,7 @@
     "27d274d1b8c93100": 1788554225.929455,
     "26890c2b5347646d": 1788554202.7779317,
     "ad4ef9bdf253c61c": 1788554160.2506204,
-    "e397c00287215d98": 1788554096.9296777,
-    "fe1fd8ee6dfaa186": 1788554033.3842337,
-    "646c40417d18dddb": 1788553970.045839
+    "e397c00287215d98": 1788554096.9296777
   },
   "initialized": true,
   "v": 4,
@@ -4245,16 +4245,21 @@
       "source": "Sherdog",
       "ts": "2026-09-16T03:32:15+00:00",
       "cluster": "c77503dc986"
+    },
+    {
+      "t": "Alexandre Pantoja Does Not Want Trash Talk Ahead Of UFC 331",
+      "source": "MMA Sucka",
+      "ts": "2026-09-16T04:51:07+00:00",
+      "cluster": "c819392ce3e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T05",
-    12
+    13
   ],
   "yt_eval": [
-    "CBMif0FVX3lxTE84Umh5YlliRHFWYnVEYVhZWmVyNmhlY2llcTk5NWlXZ0cteTNKQkdEWTlzZVFaZkFMeFJnY1p0ckh5bDNaZ0w1SGVVYVZob2xwSFVxX1FFXzBwWEt6b1MwMzNYcXV1RzF3QTZqdDVwSFJrU196RWlkQ0ZaZnZZVEk",
     "CBMivAFBVV95cUxPcDJxazVacko4eldDUndwOEhYQ04yS2ZNTGlhc0pOdU52eXdLazhMUXhCallGRE9BMS1kdGh0cXVkT0xYdkRycXdGNFlQZFQ2Y1c3MXBETVFIX1JfbElpTVBVTUZYak91RXlySFBHWGg2S0Z3XzlaeGUtOGY3dHQtYWp1aklNXzhvbnU5elhIYVg1OXZQSHF4Vjd6QkwyOWthckVFMVZzVDRaY3FSYWpKTnA3YUQ2bnpnM29OVw",
     "CBMipgFBVV95cUxPVmNMNkdCX0dpeUItYVBrSVd1VGtScG9mZlFINjBBRzZMbDlESFBzdUw1YmR1ZUhXZ1N3bGJIczhXeXRYaGhEWTVUbm1FSUwzVTV5MnFGay1fbEhaSjBtV0p6Y2gtVENpRnlEOXJaU1FUVHFkVzVxR3d0QkY2WGpjTDUyTEtmbUtnSFBic1BlU2NKc2ZpMWNPTzhoNklUN2JLS1VIam53",
     "CBMipgFBVV95cUxNLUtLeU83UTltdGZWeVdHVGtYVF9YQkh3b0xLTERKb1gyNEJCWEdZOXBzMVVqVU9vNElySU9TVzRmYldUVGZlU3lzbkpNbmVXQTZ4TUYzSUYyLWZwUFN6REVLV29fb0NNY3hmX3ZURkY0ME5pLWdWQlhzVHViX2lIbk1iNDdtNUFYMUxESERtVVpjN0REUHpjdzU3VDdlLWhaQmZsa0h3",
@@ -5753,11 +5758,12 @@
     "CBMihgFBVV95cUxOd25Kc2RrTlJWd3ZzMWtSMTdlSG11VHY0RzFUNmdDRkFhMUlJRWZpbDZQeGcwRW16dXIzMkJFNWlucllVQ2d0QW1hZWdEV1U1cExmejhCWG1QdkJrRVNwZkh2UEwxNHUzZ1BLaU9rRi1vNklES3lWQ2M5ckl1UHNSekVLa3J4Zw",
     "CBMiiAFBVV95cUxNcGhZZFN3UGY3a2tHRXZVcDZXWU0zRnpkWkpnemh5M2ltZDBTbkJrRjdsSlcyZmRxVVpVakR0Vms5VnVvLTg1S0lpcm1uUllWM2ZPOVhaYVZ2NUZIOGtCeU9IYXZXUEQwWmFQUUxkSWY3SDR2RXJFelNPN3pMem1uWGROQ0w1ckZZ",
     "CBMikAFBVV95cUxOQ3A5RHQ5QnFZWXYxNEdEVF9pUm15aHItbWZ1a3l1T0E2N2ZLLW1DaFNDN01qNmRfaWlPNmxQNmlMN2tBTEtteUxqM0l3eG1qQkd4eXU4T1ZTcGFFUGlDcFMtR01TZ1o1S2lmX21Bbk5YdG1pczlTT1BfTEJTOXc0UUE3MTQ0WFhHZmVHSl9Samg",
-    "https://www.sherdog.com/news/news/Arman-Tsarukyan-is-Mauricio-Ruffys-worst-stylistic-matchup-coach-says-202818"
+    "https://www.sherdog.com/news/news/Arman-Tsarukyan-is-Mauricio-Ruffys-worst-stylistic-matchup-coach-says-202818",
+    "CBMikwFBVV95cUxOLTdpZWFWbTdmRFdlOEdxdW16d1d2T1dqdzBsWHpZV1daVU4yTFEwSWo1eHAtNUt2em91bU5WZFk0OU4tREk0Ym9sZTRtZC13eW9DQUFtSVkzMkpmeHFmSS1Iak9uSm5Bd0dheWo2ZjdTdUxJVmI5Qlh2cVhuRVFlN1NaRjFuU2lKNE1kQUlDRHNzaDA"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 65,
+    "ai": 66,
     "staged": 0,
     "prio": 1,
     "lost": 0
