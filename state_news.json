@@ -1,5 +1,6 @@
 {
   "seen": {
+    "39bf250ea590815a": 1789533661.360954,
     "b2166f69026db136": 1789533637.54258,
     "96121fdc16eeaa94": 1789533635.8965077,
     "c404b8b4466f3292": 1789533635.8931463,
@@ -2498,8 +2499,7 @@
     "cdc94666f0c3a9bd": 1788543464.5473535,
     "42ecc92d18f74417": 1788543400.2966695,
     "2666960cd200d829": 1788543335.0964317,
-    "36446276f81cfb3e": 1788543334.7752526,
-    "bc870c833b66b1fe": 1788543334.7748697
+    "36446276f81cfb3e": 1788543334.7752526
   },
   "initialized": true,
   "v": 4,
@@ -4049,16 +4049,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T00:57:12+00:00",
       "cluster": "c9f72c4fe5d"
+    },
+    {
+      "t": "Deen The Great breaks his silence after pulling out of Henry Cejudo fight 10 days out",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-16T01:00:00+00:00",
+      "cluster": "c708efcbf06"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T04",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMikgFBVV95cUxObHZLVTZkaDNab0FWLWRJVlhULVVlNUtybFhXYnR6eFlCUU1sUlVhNkttZzBjUFJkb0NFZFZjaF9ERGFFVGcwSGpkVWV3MTNjSEZqRnhVSVdWbjZaN0pJM0RTNmFjWmFha0tfdkxReVRhVmFSbVhNeXpZaGYydF9vWmZxSXctWjlpUG4waXpoWTVxUQ",
     "CBMixgFBVV95cUxQZkZzdmNIbjBPcURJb1BrZ0NydmwyN2duZVNId0JxZDFMUUctcXYwc0pZTFdLeDNMSC1PTUlIUHBtYlVkc2syWERwekd0RzFnVlJmSnJWZ3REbl91NUhIZ1o5bEZBdzdYUmc2ekJXYXBCS0tialRLclB4VnhYREJfSnRtWjFHM0htanlMdjZxVEZReWRoR3RIaklYcmJYMUx4Y18zYWU5aEE1bWdPSWczZnRPaVJFcGdJOVZZQnZIbFRsOFZ5VlE",
     "CBMib0FVX3lxTFBnYmRKSm5EVU50SW93cEotZGtIb0RFUkcyOWVMYWxGZXdMZGg2LXhocGNDck1WbVJOTENOcThGanJsbUw5VGtzTDNtS2lqeGFaZU56VkRfaUNCNWZjd3NzdmZJWGhGa1BaTU10YWFBSQ",
     "CBMijwFBVV95cUxPbW9ISjdxb09fTmd3YV9BTnE2S2dWSHprWHFqZXdVeGNiQnQ2RUZkbWxjRnhBem9WQjk5WWJpSmptS0RVYzQxTzJoN0FLbjNBX3UwUnRUUElURnJZUkV4TU5rdFFwNnJnTXQyWUEzWDVuOFJ5cGpJRE5pZG5Mb0FhbUxCVU9RRkc1enBJSjh3Yw",
@@ -5557,11 +5562,12 @@
     "CBMiR0FVX3lxTE5UOXl3c1BQanE3OExidUZZYzFfN3BKTTZXNGUxUXJHSEFSQVlYV3RpaE5oM2FKWTI5NGlmQkNOZUprd0tCNUpZ",
     "CBMiuwFBVV95cUxONTRLVUhUaVMyVm5jU3lRbng2eWZCWEZra2dwN3ZrWjk1SGQxOWcwczNXb3dyUXEwQTlFR1lhanR1d2lrOHM3cVFDVDBROEIyTmI4MlVocnl2ekV2aWF5VUxtQmxjUTlLR0tOdGkxbnZYYkxRelR1cTN6QzBDZE9oTzloSGc5SU5fZUdBSnRQTVVZY1lXUlZMN2VjQlRtWUVWVFVJWjYwejB3YzgxRDRhZzNrcTNQR193Zk1F",
     "CBMiywFBVV95cUxNdFdldEFEbmZsNng1UjFxVTFBb0F6U0FlNU1OaWxvaExqWXdYb3licEJFWWxKLWFlV1l2SzJ0VkU4NnU4Ykplajc0RFdxVmNJN3FSSW9xTklDNUFRSk5hblc0QzZOdmRleEt5a1JkS3RJb0N5WGpodW1BM3JETHNzc2ZTOUpCdUF5UTRZWEFSSC1md256dGpqRE5mWVpRWTdQZ1htYXhoOWhyeXAzaFZ5cTFkdjI4V3JFSS1oRnYtUTJCZFV0QlRiNWdnQQ",
-    "bcc7f099-8123-351c-b87d-15084f29ec96"
+    "bcc7f099-8123-351c-b87d-15084f29ec96",
+    "https://bloodyelbow.com/?p=331782"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 31,
+    "ai": 32,
     "staged": 0,
     "prio": 0,
     "lost": 0
