@@ -1,5 +1,6 @@
 {
   "seen": {
+    "373490057d7b516b": 1789517201.5621302,
     "b743032cf6596e5a": 1789517135.2809684,
     "3dc2568fd8fcfa90": 1789517134.954008,
     "ec262d0348f4a3eb": 1789517134.9427567,
@@ -2498,8 +2499,7 @@
     "782102501fe71a31": 1788529236.32888,
     "65ed5d63ffed67a1": 1788529236.0969436,
     "caec01d0144d4a0d": 1788529236.096143,
-    "26a8d3688c83832a": 1788529171.5018668,
-    "935de7e404c36237": 1788529126.014738
+    "26a8d3688c83832a": 1788529171.5018668
   },
   "initialized": true,
   "v": 4,
@@ -3957,16 +3957,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-15T22:50:28+00:00",
       "cluster": "c8f5845a981"
+    },
+    {
+      "t": "Pic: Flyweight champion Joshua Van, Arman Tsarukyan score custom shorts before UFC 331",
+      "source": "mmamania.com",
+      "ts": "2026-09-15T23:05:38+00:00",
+      "cluster": "c4744b4da6e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T00",
-    5
+    6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329898",
     "CBMirAFBVV95cUxOUnR5a210OWFTSVlsQWJaZnF1aHd1a3M1NVZ3Rl9NcGM1ejh4Sm5Mb0pndG9rTkJUOXd0RzRYYVA2TWVMVE80b2RGZmVFU0hCZ0VNVjJXc1cwY1NTbUp5MW9VeVZRYXFnUU5vbnFacC1kVFRNRFBFa2FoSG5qT3BxOTF2YTVKN2F0QVNUWmdHMDlsQk5GS2ZlUnpweldYRTAwZmZONTkzd3R2ZEE1",
     "CBMiiwFBVV95cUxNeE1DaWcxSkM4OUVnQUluT2FFTTdWTkNfNHVPN3dGWW41VzZiSmRpNE9PMGJuNTVpak1GRnlNTTZlY0lPXy1CQWVlVnlHYlZuQ1dMOTlXb2tkM0NsOEc2STFieFEtYXh0RGxtTU1jTWJnanVjOS1peWwybm40eDkwRjR0cFM5RVFRb0RZ",
     "CBMijgFBVV95cUxOZEUxSHVURFpSVm5rVWlIQy1GcTlIZFQyUHpVX2x4QWxYVkZlV0JJSG1Cd0ZXLVY4NkVieFhuWVpZVHRmT0Y1UHF1VUotV3p5Vmp4ZUhhV0lySnR1VDgwRnBFQlNrWnZhN3VaYlJuU09NSnpiTWxHTzV4ZDl1bEdkUDBESm0weU95NTgyemt3",
@@ -5465,11 +5470,12 @@
     "https://bloodyelbow.com/?p=331758",
     "https://bloodyelbow.com/?p=331762",
     "142eb027-908d-3419-958d-7011f1849661",
-    "a61388e2-fdc0-3b26-ba61-c681f9c4110d"
+    "a61388e2-fdc0-3b26-ba61-c681f9c4110d",
+    "CBMinAFBVV95cUxOZFAwR1lRLUM5VWhneWN0bGd4WGw4OEFFNk5vRFBkRjdYZ0w3VzJjc3ZnQkJhQ2kwSWFiQk9ZN2s4T2RtUDZ2emNQMEc5SEVmamc2ZEQzRHU3bTR2VmRNWmtzN2hCbUpEYnBUUFR6ak9mV2xLdFQybUdTdEZFUjhTMlFrTDFEVXBNN3RIektNbVNfODlmcC0yeTRISXk"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 5,
+    "ai": 6,
     "staged": 0,
     "prio": 0,
     "lost": 0
