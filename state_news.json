@@ -1,5 +1,7 @@
 {
   "seen": {
+    "1e3382444f307c90": 1789570534.775907,
+    "6a8ac0fba7ac20c8": 1789570534.3265376,
     "952f118babc75d1d": 1789570468.9006371,
     "2610e05ec378339c": 1789570403.4665976,
     "e8d5486cffa52e3d": 1789570335.9062772,
@@ -2497,9 +2499,7 @@
     "b2f11201911ef907": 1788569530.4990509,
     "4b9f7c2b31f4b87e": 1788569530.2186534,
     "89e4aeccd64832cf": 1788569458.8302298,
-    "cb21b16e78a9a90c": 1788569458.5690162,
-    "9d5758cb91995a8d": 1788569393.2988684,
-    "1d378f2a24a16a1f": 1788569369.5118632
+    "cb21b16e78a9a90c": 1788569458.5690162
   },
   "initialized": true,
   "v": 4,
@@ -4311,16 +4311,21 @@
       "source": "Bleacher Report",
       "ts": "2026-09-16T13:58:10+00:00",
       "cluster": "ce1f51c4fa3"
+    },
+    {
+      "t": "'The Ariel Helwani Show' is coming to VICE TV with new weekly Friday program",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T14:00:00+00:00",
+      "cluster": "c7f66a9e016"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T14",
-    17
+    18
   ],
   "yt_eval": [
-    "CBMiW0FVX3lxTE5NWUZtanBvRnpkUlQySHlCbWcxT3BuTDVBWWNES1U4QzFDYmJ1T093YThJZVRJY2Q1aGN1dGNuUDFjWnBkRW45QkNOdlJtd3ZiQVZtTGlhcnU2RkE",
     "https://bloodyelbow.com/?p=329927",
     "https://www.mmafighting.com/?p=508166",
     "37af5de5-0355-32b2-8c71-bf7c47a9f323",
@@ -5819,11 +5824,12 @@
     "CBMilAFBVV95cUxQWXhqcjdEVjM2RGl4VllEVGxJZXZVc3dRNF9mSVFyTmdmUlMwU0U3ejBwUnA4d285Nkd0SWRBVjd4T0pBY1R1b3JQSGc2UG5sbWJWbC1Ic2hENFc0WXFTaWhJa2NGQVN0LWo2MkFBa0tCV2QwUXNOZnR5dFB4eWZxbURBdWE5YkhPN0w0NUJWS1lRMlhN",
     "CBMidkFVX3lxTE4zMjJfVHRfZDg4WF9jbllRRlQ1S1NaRzVTc1BuUGczMmFqWG5PSmRvSDNPd3ZqMlZlX2NOUHJReU5wcDZ2bVYyd2g1eXlhVVlLeUtvZ3NpU0tBYXZ5THZrbVUtTUItM3hTQUJpNlBlRkMzdlFSUnc",
     "https://www.mmamania.com/472685/open-thread-september-15-2026-any-opinions-on-the-emmy-winners",
-    "CBMioAFBVV95cUxPUk9VVkdQcEVpbG40SXQxdUlzdHVYU250ZlNMZnlBdHFyc0NyS3F3MmhINDZ5d1VHOEViUDllTUdWRWFBcTBSc0Y0TmJObHo4OGROcGtxRndOQlJDT3JfUmVpMUZWYjVSZV9EM1RnYzdGbHlhZk5hcFJvY281dXZjS0pscG0wMDFVMkR0Nzl2bk10X2pJMUJBdEthb0owLXBT"
+    "CBMioAFBVV95cUxPUk9VVkdQcEVpbG40SXQxdUlzdHVYU250ZlNMZnlBdHFyc0NyS3F3MmhINDZ5d1VHOEViUDllTUdWRWFBcTBSc0Y0TmJObHo4OGROcGtxRndOQlJDT3JfUmVpMUZWYjVSZV9EM1RnYzdGbHlhZk5hcFJvY281dXZjS0pscG0wMDFVMkR0Nzl2bk10X2pJMUJBdEthb0owLXBT",
+    "448f316d-a462-44d8-ad61-83dea9bf7630"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 112,
+    "ai": 113,
     "staged": 2,
     "prio": 1,
     "lost": 0
