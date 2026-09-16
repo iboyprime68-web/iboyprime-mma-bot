@@ -1,5 +1,6 @@
 {
   "seen": {
+    "76f3b7c41bc7fc6d": 1789569850.2678573,
     "0fd978be32060541": 1789569825.6284761,
     "9030d9690c330ac1": 1789569798.8985205,
     "fac94ba8837ff930": 1789569798.4627225,
@@ -2498,8 +2499,7 @@
     "4d1ca984f2a67641": 1788562833.8469968,
     "51f1716c61edd1e3": 1788562811.1600258,
     "23ddebdae1a5fecf": 1788562788.3234084,
-    "60a1b72ab73129f1": 1788562787.9885848,
-    "459535476b109664": 1788562787.9862003
+    "60a1b72ab73129f1": 1788562787.9885848
   },
   "initialized": true,
   "v": 4,
@@ -4235,16 +4235,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-16T13:00:00+00:00",
       "cluster": "cc68c8303fc"
+    },
+    {
+      "t": "Gable Steveson: Add Jon Jones to list of heavyweights excited for the belt ‘opening up’",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T11:17:55+00:00",
+      "cluster": "cd4416236b0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T14",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMinwFBVV95cUxNNVJadmFxeUZmTVpIUFYtRnVJVWk5dkRaVDdYblBtZkZpQUh6M21OZlB4LW9NTU11MVEyUkpoYjEwUE51UzNMRE1jaXFRdnQ4LWRPb1FvQmlHSFVaU1ZlQTFBbWhFamdaZ0FJeXI2d0JKY0l0Mm5oSldZR3E5cTU0X2J3QVBpMUdaQmxRNjdFd0x6RS1RRFJpeUV2d1QwLU0",
     "https://www.mmafighting.com/?p=508104",
     "CBMigwFBVV95cUxQTE1XbGhaYjhvcjVGTF9lZHZ5TGhub3NEb0pRc2ZabEZ0T2NQZVJrTzgzMmRpX3FHb0hGaFpyTVl3SjBPWlFrc2RRRDRzNWo1YWV2RG1lUWtndmg3LTc1bHlmNkU1UnctdGx3dUlXSjZRNm56cmFneU9KZzlJN0FXc0R2OA",
     "CBMieEFVX3lxTE5ScmlVMlRDNGJmVmI0ZzUtaEoxUlhTZlVGT2tJQVNMMm5OMzY0Z09XSEdFVXpUM19WRjRWRHZQTTNBaGdWd00zREpLeUk0N1VVZm1na3dDbVdpMFhzeEZ0U21yNzUyRHEzd0JfaFlROEgxMkVmcl9Ncw",
@@ -5743,11 +5748,12 @@
     "CBMijgFBVV95cUxPdFBZNVF0SW92VVNjM1lQejhEMEZkX3h5ck1Jd0UtRTg1SnFmZjc1MUV6bDVsTmF0NmcydDA1OXJuVWZKUGhVdVplRmctaWhUTjlsV2lSSzd0NURvSmdrM05SWVplMFFjU284T25TQ04zdHM0aUoxNmxMT1IxTWtqeDBwT3RTM1lEaThQOGNB",
     "https://bloodyelbow.com/?p=331808",
     "https://bloodyelbow.com/?p=331829",
-    "https://bloodyelbow.com/?p=331827"
+    "https://bloodyelbow.com/?p=331827",
+    "9dd2ffa0-860c-3c12-9fd3-d2bd483aea8f"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 98,
+    "ai": 99,
     "staged": 1,
     "prio": 1,
     "lost": 0
