@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bf5c9b2bc542909e": 1789595951.5417888,
     "c8a08b16cdbd6b66": 1789595928.6180747,
     "6e0df92453ada722": 1789595904.8124423,
     "849c0d1c67c0fa2b": 1789595882.187383,
@@ -2498,8 +2499,7 @@
     "832ec11f446b91d3": 1788627284.0241077,
     "5255507d6ccdf794": 1788627220.2530413,
     "04c7a922e0922254": 1788627219.9943542,
-    "7f9b84f0d5567640": 1788627153.6398191,
-    "fc37ec09ad4e9550": 1788627089.3627653
+    "7f9b84f0d5567640": 1788627153.6398191
   },
   "initialized": true,
   "v": 4,
@@ -4519,16 +4519,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T19:54:41+00:00",
       "cluster": "c27461cda06"
+    },
+    {
+      "t": "Ilia Topuria suggests Justin Gaethje cheated when personally issuing medical and return update",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-16T20:24:39+00:00",
+      "cluster": "c11f54b90da"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T21",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMirwFBVV95cUxQdEhFLTVvY0EwR0JaUGVTNGphR3MtTXFWTzQyRWoyc1ljaFZrY3JTZXhlLWhJYWFSVE03MmxhcEh6NnFaNDJKX0JQaWs4TERUNjQya2xNREVuZWFHMExqZDUwWTVPbm1uc0ZCcWhMVzZLSU14TkU3bmgzdzZNY190OXR6Z1Bha1pRN1d5RFBJM1ZQLTk3V0ladG0xSlI3bmY3c2NEYlkzVTFpMnpIV0E0",
     "CBMidkFVX3lxTE1ObVNmUWZNTy1fQXk3cXExU3Y2Y3RtYWRoamVvMnlPZG9XQXVIZWdvQ2tTeEVFNUl2cmtmSVVyVGVVNGJTVWdEN05DUXRHc0FrUmdDbEdmQlpBVWtQVlJzNVptR3VlSVZlam1CNlJDSUNHM3BWcHc",
     "https://www.mmafighting.com/?p=508064",
     "833cd2d7-6240-3fe1-bbc1-b2c9638b9998",
@@ -6027,7 +6032,8 @@
     "e897bdfd-d873-30f4-923b-7e78968dbddf",
     "https://www.mmafighting.com/?p=510561",
     "https://bloodyelbow.com/?p=331886",
-    "c4d5cc7c-3801-373d-b7a9-08b6cbbfa64a"
+    "c4d5cc7c-3801-373d-b7a9-08b6cbbfa64a",
+    "https://bloodyelbow.com/?p=331954"
   ],
   "daily": {
     "d": "2026-09-16",
