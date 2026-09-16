@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2610e05ec378339c": 1789570403.4665976,
     "e8d5486cffa52e3d": 1789570335.9062772,
     "2b3a7645d826d616": 1789570269.055759,
     "3936edf36c464893": 1789570201.1359417,
@@ -2498,8 +2499,7 @@
     "cb21b16e78a9a90c": 1788569458.5690162,
     "9d5758cb91995a8d": 1788569393.2988684,
     "1d378f2a24a16a1f": 1788569369.5118632,
-    "695f5f3be0094adb": 1788569325.625649,
-    "c104c599b2116ea4": 1788569325.3057852
+    "695f5f3be0094adb": 1788569325.625649
   },
   "initialized": true,
   "v": 4,
@@ -4299,16 +4299,21 @@
       "source": "PinkNews",
       "ts": "2026-09-16T13:55:12+00:00",
       "cluster": "ca704f9dcd6"
+    },
+    {
+      "t": "Open Thread, September 16, 2026: Is AI going to kill us all?",
+      "source": "MMA Mania",
+      "ts": "2026-09-16T13:03:49+00:00",
+      "cluster": "c863cd282a3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T14",
-    15
+    16
   ],
   "yt_eval": [
-    "CBMimwFBVV95cUxQY1pRaVJRNkpUcko4eEZONEg0aDN1NmlPamgteXk0SW53VWZaUkZ4bng0Q1Z6Z3gyTENOaXlaa3RNZ05aaVFjY29KbUNwRkdNMnpCRE9OcWJxQzBtYUNTUkR6YkpiUzhJLXg3NENwd3lxNER2V1hlTEdoSjF1XzFFRUpGUkFxWFFFNk1ZSVdsWmxrLVZCMTE3VllUcw",
     "CBMiogFBVV95cUxOMU4zdWNvMlQxLVUyT3pORm1uT2pvYUJackFsd3VXTWRrTjZuRmlMcVI2U1JzZnpnT3QwQ0xHRW5FY01qcGJ6aGVjVDRCZjV1WFExWjNfTmY2eUxDTGNXcko0OXVPWGZZLV9zRWZwRWtKbk82dHdGeE43bXhtcXB6UmNtRUQ4QVJvREFoOXRGSF8tNW9HQWk5VTlLZjJhR21heEE",
     "CBMiW0FVX3lxTE5NWUZtanBvRnpkUlQySHlCbWcxT3BuTDVBWWNES1U4QzFDYmJ1T093YThJZVRJY2Q1aGN1dGNuUDFjWnBkRW45QkNOdlJtd3ZiQVZtTGlhcnU2RkE",
     "https://bloodyelbow.com/?p=329927",
@@ -5807,11 +5812,12 @@
     "d508bd5b-f8f4-378a-82a7-034e66fb4091",
     "26e58cea-7dc4-3d9c-947e-3f6adeb79184",
     "CBMilAFBVV95cUxQWXhqcjdEVjM2RGl4VllEVGxJZXZVc3dRNF9mSVFyTmdmUlMwU0U3ejBwUnA4d285Nkd0SWRBVjd4T0pBY1R1b3JQSGc2UG5sbWJWbC1Ic2hENFc0WXFTaWhJa2NGQVN0LWo2MkFBa0tCV2QwUXNOZnR5dFB4eWZxbURBdWE5YkhPN0w0NUJWS1lRMlhN",
-    "CBMidkFVX3lxTE4zMjJfVHRfZDg4WF9jbllRRlQ1S1NaRzVTc1BuUGczMmFqWG5PSmRvSDNPd3ZqMlZlX2NOUHJReU5wcDZ2bVYyd2g1eXlhVVlLeUtvZ3NpU0tBYXZ5THZrbVUtTUItM3hTQUJpNlBlRkMzdlFSUnc"
+    "CBMidkFVX3lxTE4zMjJfVHRfZDg4WF9jbllRRlQ1S1NaRzVTc1BuUGczMmFqWG5PSmRvSDNPd3ZqMlZlX2NOUHJReU5wcDZ2bVYyd2g1eXlhVVlLeUtvZ3NpU0tBYXZ5THZrbVUtTUItM3hTQUJpNlBlRkMzdlFSUnc",
+    "https://www.mmamania.com/472685/open-thread-september-15-2026-any-opinions-on-the-emmy-winners"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 110,
+    "ai": 111,
     "staged": 2,
     "prio": 1,
     "lost": 0
