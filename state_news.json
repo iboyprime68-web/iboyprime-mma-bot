@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c590ef16f23649d7": 1789533915.6886516,
     "5ff3af718e2c3823": 1789533849.0028412,
     "4fc8a0d930a0aeac": 1789533779.8579426,
     "12805702690ffbcf": 1789533734.1796072,
@@ -2498,8 +2499,7 @@
     "36537472d2be905e": 1788543660.5112355,
     "01d48704b68c66fb": 1788543595.4714046,
     "70b6dd79d1db9644": 1788543595.2011635,
-    "9e31c5579054e8f3": 1788543595.1985786,
-    "c91290cb6af35d6b": 1788543530.2994785
+    "9e31c5579054e8f3": 1788543595.1985786
   },
   "initialized": true,
   "v": 4,
@@ -4085,16 +4085,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T01:11:57+00:00",
       "cluster": "cc085b7f0a9"
+    },
+    {
+      "t": "DWCS 92 video: Ecuador's Mayton Perea earns UFC contract in 45 seconds",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T01:12:02+00:00",
+      "cluster": "c44378fcebd"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T04",
-    7
+    8
   ],
   "yt_eval": [
-    "CBMi6wFBVV95cUxNSXBHYlk1V2FwNG9mREg3ZlRmNkpmRGM5RUV3MTBNTDZpcGFJNkxLanMxWWxqOTVVY1JNM3FVZVFTczdLLTRXM0xMdmwwZHZBbXlfQmdNZS12QldJQjhjaUpid0UwaWx3UENvWFVnckZpV3NIWDhHZURTZXlmNXE3cmlUd2stVDB3NEJNRlY0R1BrSmh0ZC00X3F3N1ZYT3ZidG00WVI1engzRTRPazE3X2hfS2NRN2VyaU9BTFBnSjhhTWN4bml6SGE4aWt0TEFOeldXY1p6Y3NZM2xpRUxTc2thVzQwRVFYMFhZ",
     "CBMiXkFVX3lxTFBjdnlmUkRCdktDSExxNnl1Tm9qSHZJczMxSjVVZDhPOGxWVlVpR3dJX0p6Q1VkNktpY2lZNlV2alVCeVBXVkNoSDR6ckJJb1ZJUGoyOW42VFpNd2gyVmc",
     "https://www.mmafighting.com/?p=508050",
     "https://bloodyelbow.com/?p=329905",
@@ -5593,11 +5598,12 @@
     "4e3f97b6-1536-37c3-922d-4fa3ee7a7ada",
     "https://bloodyelbow.com/?p=331787",
     "649d0ddb-651c-33db-8ac1-49611c0ebfa4",
-    "3d157a3d-0066-3236-bbe9-5df828853158"
+    "3d157a3d-0066-3236-bbe9-5df828853158",
+    "3ac16c6e-3bc6-3b0e-b142-d2157998fcf7"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 37,
+    "ai": 38,
     "staged": 0,
     "prio": 1,
     "lost": 0
