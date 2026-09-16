@@ -1,5 +1,8 @@
 {
   "seen": {
+    "3f27d8ea16eb3e8e": 1789518703.3349283,
+    "d73c09e9ce69d007": 1789518703.05618,
+    "70db77d374cb3952": 1789518703.0541081,
     "495716a597b38caa": 1789518574.8777535,
     "a898005092e5cef6": 1789518383.1810777,
     "698631e1c0028a34": 1789518318.061363,
@@ -2496,18 +2499,11 @@
     "f26a746e44677e04": 1788542906.354386,
     "915a25b9e742fae1": 1788530395.1980875,
     "7e8c514b0d112602": 1788530331.7005696,
-    "cb352fa3c7286e4c": 1788530331.6984875,
-    "6392ed0776965343": 1788530266.6729891,
-    "1e853fec33decc32": 1788530202.0949314,
-    "efad66d8ef7193c5": 1788530034.5940619
+    "cb352fa3c7286e4c": 1788530331.6984875
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Islam Makhachev explains why he views Jon Jones' UFC win streak as invalid",
-      "ts": "2026-09-14T00:30:19+00:00"
-    },
     {
       "t": "Alex Pereira calls his shot for Madison Square Garden comeback that he ‘deserves’",
       "ts": "2026-09-14T01:00:00+00:00"
@@ -4053,16 +4049,21 @@
       "source": "MMAWeekly.com",
       "ts": "2026-09-16T00:25:00+00:00",
       "cluster": "c0ee39a3923"
+    },
+    {
+      "t": "DWCS video: Former ONE star Akbar Abdullaev smokes Ednilson Santos in 19 seconds",
+      "source": "mmajunkie.usatoday.com",
+      "ts": "2026-09-16T00:28:00+00:00",
+      "cluster": "c62b0d68e24"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T00",
-    21
+    22
   ],
   "yt_eval": [
-    "a2f39461-0df3-38e7-b0eb-9b89071a0a43",
     "a254c8ab-077a-35c8-aae4-1b1fb5d7b4ef",
     "CBMiwwFBVV95cUxQREROZXJrWXhrdFc0ZF9ibjdTRjQ3MmVSUFhVRlhRTUJvVzQ5SWFxcXlJVEk1dkFlR1BSV0IwbVVDLXBUSGY1OWlaUm4zeUh6UTlrVkRsZGZUcWdadklrcU0xdFhVeFdIaDk5VXYxcEcxdUxBUE1WX1NVWDgtZURuSDlQc0tpRlE3TkJIZzEwd1U5NlliU2toMGpMTFo4cWp0aHZRMDNtdXB4cFJDUzJXTk50RHNNMzYyUDRDbHhDenlMaTg",
     "CBMifkFVX3lxTE13SkZqdmZqYWZwRGIwWlpIVkxkWnR2YW5EY1VnNUtfOFRDb181d01sZzNIUFJCaXltTlh1cllHaWt4UEZvNC1xVjlsUnFWdlVDVXV2Y0k0VXRuWHpvNFJPUDhyN2xXRnlzNFRKRXB0V3VOY1gzdFpyVGdlSXpKZw",
@@ -5561,11 +5562,12 @@
     "CBMie0FVX3lxTE01VUI0VDN5dF9iTzhJbFhhNXJGN3JQN3lMazhSMVQtWG9kbHBiZHNuMUFMWnhoMWY3NkR1Q1JxVlBXSEpiUlM5SzNMSTRhZE95T0M1c2V6YW40UDAtV21oSDYxSEc5czdfeDlyd0xwTnpaVlNWbEpUaml1QQ",
     "CBMiuAFBVV95cUxOUGVDMmc1Sko4QUlKeDRPTGxNeS1MZnk4MDZwN1BxUzVmZ2hWcWZhS2haUF9jUlV1YTlCUUNrN1N3RWwwcER3WjFPU0xXYWx6a1I3VmZ0UHhIOGZoTWZVcUo2T1lRM19Cd3dyMGFZY1FoM1Rka3BPTVZWQ253ODdyeFI0ZHhQTWpNcV9HN2R3amVUWmxMdkRoNjJ6N3U1QmpfNk9JVjdFZmNVRVpxMDBjZVozSHNEN1R6",
     "CBMimgFBVV95cUxPaXc0RFZZMlhhT2d5WmNLNlptYUZVdlB3VHdJb19Xd3dvWE91ZEtZa0JaUzNyeGxnMHB3bUtXYXNJOEhEMzBXN003SWxLX3FNc0tVNUFJRnlFRHR0ZVROQmY4eDFjLTQycTR3R2VtVlJJNFdhYW8tVzk2ZHJPOEVxMHV6Vjh5Rmt3WVYzWkd3Y3htRTFMV1pRbzJ3",
-    "CBMiuwFBVV95cUxQdV9wTzNXajFfZUZESkpXQ08wVllWazBfSDg4aDcyWXJEbjlXWFRsdDM2MFZ3OG9GRXlPaVloSTRfNUtNTFVzUHh3OWViSURfNVI5ZmpYaDJwWm9lQzlScWo5b1R0VDF2a0lMZEkyMUg3cXJMdFdkSkw5b1dpenpDLUtTQy1jcHROc1YtZGR6S1hqWWQyN1VyTzRoaUYwVFpqRHlweEtCcS1rZkJqMGNqZlpvbHZTM3czWWhV"
+    "CBMiuwFBVV95cUxQdV9wTzNXajFfZUZESkpXQ08wVllWazBfSDg4aDcyWXJEbjlXWFRsdDM2MFZ3OG9GRXlPaVloSTRfNUtNTFVzUHh3OWViSURfNVI5ZmpYaDJwWm9lQzlScWo5b1R0VDF2a0lMZEkyMUg3cXJMdFdkSkw5b1dpenpDLUtTQy1jcHROc1YtZGR6S1hqWWQyN1VyTzRoaUYwVFpqRHlweEtCcS1rZkJqMGNqZlpvbHZTM3czWWhV",
+    "CBMitgFBVV95cUxNdzdqdkpYRnI5LWJzck9VY0duQmxSVmpqVmF1QlZQVlJ1aDZnNEFwSHpXdnVDdU0xZTN5V2dTdzZTX29SbkJMS3JSZ1BwZnlTdmUzRGNaVXlrYWFqa2RfTGM1RmloLW9OejRiMXBIOGs2TlpVQnRRY0RfblI4emlxektjRzduV2xUaDNXMFZlS19kZWMxSEt2UzZrVlVRUGJIQ2RWSnF2cXJieFlzLUpmTkFYRVhaZw"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 21,
+    "ai": 22,
     "staged": 0,
     "prio": 0,
     "lost": 0
