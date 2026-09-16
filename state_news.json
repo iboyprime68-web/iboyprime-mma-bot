@@ -1,5 +1,6 @@
 {
   "seen": {
+    "00628b0f506d4da7": 1789534878.9702764,
     "a549272721d6075d": 1789534854.5002396,
     "4ce3fbe501d59fdf": 1789534852.2905748,
     "93c398f620596d67": 1789534807.9039102,
@@ -2498,8 +2499,7 @@
     "9d2323ef1f939b82": 1788544381.845406,
     "4490466409d91577": 1788544381.8450286,
     "5aa2cbbdead33149": 1788544318.190066,
-    "9116854c1b675534": 1788544317.852704,
-    "c4e7645b2662e1f6": 1788544253.2606912
+    "9116854c1b675534": 1788544317.852704
   },
   "initialized": true,
   "v": 4,
@@ -4179,16 +4179,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-16T04:11:08+00:00",
       "cluster": "cc7d15768be"
+    },
+    {
+      "t": "Renato Moicano rips Brian Ortega for UFC 331 withdrawal",
+      "source": "Sherdog",
+      "ts": "2026-09-16T02:56:00+00:00",
+      "cluster": "c09d476f79e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T05",
-    1
+    2
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329874",
     "https://bloodyelbow.com/?p=329908",
     "f09f1ab8-bc83-3df4-b4dc-e931e4a5c244",
     "CBMiowFBVV95cUxPZlJzNzRZYWNJcTZ2cEFjc0xYRk5mejE0akJBS0V2Tzk1bmtKQ0pZbHlOQ2xvejFNZ09rYXZlQUU2ZlZaY0J5a1RUSThGSXZvalYxYkVaakNHRUdQa2dCZEhhdDJMNzFmN2xwYkJWUEppYU5SaUFxWFJDVnVJUFVBLVR3UUhaODQzbHRwUE1wOFBNTDlWTV9LYnl6OWotZldkRUlV",
@@ -5687,11 +5692,12 @@
     "CBMipwFBVV95cUxQYUl6YnE3bks2blEzalMwbmhib2tXTGpWMHdQbURGcTR3RHkycXBYUFg0bXY3eWlnNDJjVzlrQWdSUnY2VlNpODhpM2Q2Z2I5OEs1ZEF4Uk5yT1Rpem1PZ24zMHVaMXhOd2lYRE9Ld0xkcnNBcS1KYkU0UnZzamJqdDRDeWo3Z0kwSkFOY2lfQzhaRmpHWjltSjRvZGx4UDJRZHZuUFFsdw",
     "CBMilAFBVV95cUxPZkMyYjdsZHVJaTRFMGdBaFJhRnRoTFc3TTNTeFlDa3FVZUhrRm9lRExraU9jMHlKVGx2MjJ3RW0zeVltM19KZmRMdURGQnE0VlhiT2ZieEs3allEd2poZC1vYnZld0p2dVZoaUhJVGVZTHZ4aG1QYkxKclhtcGdqaTVSa1dfQ1F6YS1CV1EyeU9sd05i",
     "CBMiigFBVV95cUxNVjVVSmV0aE5DY08tbGRIc1hIQXFzZ0IyUFY1Z3puMXY4YWk2R0plbGtKdjh0MkV5WUQxM3dQYjlqR0dpRTZDZTBXMnBETUVIUTNnMzByRVRuM3RETi1VdDR5M3A1c2ExUEo0ZnZyZy1ISjk3YXlRUm14QkhiYkFCYnlSRHk3T2xRVXc",
-    "CBMiowFBVV95cUxOeTdCNDV6dmZwbTVtdUJYeHF6dUlFYm1BQ0p5SElKZ1NKd1JUVGhEenZaZVBmZU50aVNaemJ2Nmh2TklIaEVZbVB2M3dkWHpEUFR5NGRSbXVpRE5la0xGOWNiajZGc3d4cXktRF9YQzEyeHFyZ0FGRVJmdHZFMGVIZmc1am5SWDU1UVJybWtNU0FCdzhRWmxmblRCREZMWUJMUkdZ"
+    "CBMiowFBVV95cUxOeTdCNDV6dmZwbTVtdUJYeHF6dUlFYm1BQ0p5SElKZ1NKd1JUVGhEenZaZVBmZU50aVNaemJ2Nmh2TklIaEVZbVB2M3dkWHpEUFR5NGRSbXVpRE5la0xGOWNiajZGc3d4cXktRF9YQzEyeHFyZ0FGRVJmdHZFMGVIZmc1am5SWDU1UVJybWtNU0FCdzhRWmxmblRCREZMWUJMUkdZ",
+    "https://www.sherdog.com/news/news/Renato-Moicano-rips-Brian-Ortega-for-UFC-331-withdrawal-202815"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 54,
+    "ai": 55,
     "staged": 0,
     "prio": 1,
     "lost": 0
