@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2b3a7645d826d616": 1789570269.055759,
     "3936edf36c464893": 1789570201.1359417,
     "0b5ebf3666d61bfa": 1789570200.5500953,
     "d33a4adbdee597a5": 1789570131.4400022,
@@ -2498,8 +2499,7 @@
     "1d378f2a24a16a1f": 1788569369.5118632,
     "695f5f3be0094adb": 1788569325.625649,
     "c104c599b2116ea4": 1788569325.3057852,
-    "4a5cb581f53147d3": 1788569325.3055434,
-    "47ea5f79304a0872": 1788569259.7841644
+    "4a5cb581f53147d3": 1788569325.3055434
   },
   "initialized": true,
   "v": 4,
@@ -4287,16 +4287,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T13:40:30+00:00",
       "cluster": "c8ab6c31f99"
+    },
+    {
+      "t": "Conor McGregor teases BKFC move after UFC contract expiration",
+      "source": "ClutchPoints",
+      "ts": "2026-09-16T13:51:17+00:00",
+      "cluster": "ccfb04a6771"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T14",
-    13
+    14
   ],
   "yt_eval": [
-    "CBMiXkFVX3lxTE8zam40UXFxaWt2RFpFZGFCX1dZVzU4RTdXYUtfUUN2WUVtTlJxa0lXRzNlZjZUZEtiVno4WGhGZnhTaUpxYTRPS25HYndYZ2ZPdXVLX2s2SjRvMTZNLXc",
     "CBMiqAFBVV95cUxNU2JHOWxKNmJ4T005NHRLU2FqbXZUYzVfbnRsQzFQWS1vd2FPWkVUOWpqaWd0ZU9RLW12YXhRaGFaRGlzU1R2VWVJTWtXZ0hVbm1YWU4wUjFicmFCNy1lR2NaRFUyZkhTS1g2STYtalBHTGFNUEpaa3hVQVdhSkJEekc2eVhEemFZWDVfRE9WZngzZk1va2FkUllKZ3RFeVVMTUQ2ZnhNSzQ",
     "CBMimwFBVV95cUxQY1pRaVJRNkpUcko4eEZONEg0aDN1NmlPamgteXk0SW53VWZaUkZ4bng0Q1Z6Z3gyTENOaXlaa3RNZ05aaVFjY29KbUNwRkdNMnpCRE9OcWJxQzBtYUNTUkR6YkpiUzhJLXg3NENwd3lxNER2V1hlTEdoSjF1XzFFRUpGUkFxWFFFNk1ZSVdsWmxrLVZCMTE3VllUcw",
     "CBMiogFBVV95cUxOMU4zdWNvMlQxLVUyT3pORm1uT2pvYUJackFsd3VXTWRrTjZuRmlMcVI2U1JzZnpnT3QwQ0xHRW5FY01qcGJ6aGVjVDRCZjV1WFExWjNfTmY2eUxDTGNXcko0OXVPWGZZLV9zRWZwRWtKbk82dHdGeE43bXhtcXB6UmNtRUQ4QVJvREFoOXRGSF8tNW9HQWk5VTlLZjJhR21heEE",
@@ -5795,11 +5800,12 @@
     "d8a79f47-77e0-393c-ad22-e4567e9b40e0",
     "https://www.mmamania.com/?p=472680",
     "d508bd5b-f8f4-378a-82a7-034e66fb4091",
-    "26e58cea-7dc4-3d9c-947e-3f6adeb79184"
+    "26e58cea-7dc4-3d9c-947e-3f6adeb79184",
+    "CBMilAFBVV95cUxQWXhqcjdEVjM2RGl4VllEVGxJZXZVc3dRNF9mSVFyTmdmUlMwU0U3ejBwUnA4d285Nkd0SWRBVjd4T0pBY1R1b3JQSGc2UG5sbWJWbC1Ic2hENFc0WXFTaWhJa2NGQVN0LWo2MkFBa0tCV2QwUXNOZnR5dFB4eWZxbURBdWE5YkhPN0w0NUJWS1lRMlhN"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 108,
+    "ai": 109,
     "staged": 2,
     "prio": 1,
     "lost": 0
