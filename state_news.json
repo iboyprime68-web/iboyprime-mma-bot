@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4b98d6882cf52b4a": 1789553928.655929,
     "0ba654fd7264c1f5": 1789553680.7044084,
     "fe9161d42660deb9": 1789553492.8670797,
     "cc5d6610ea4f276a": 1789553429.3997867,
@@ -2498,8 +2499,7 @@
     "dcdb4b4d9b139f4b": 1788562527.3010273,
     "84e20907c42998d7": 1788562461.7290921,
     "58c43792f9b13086": 1788562438.281171,
-    "39620b45f95f31c7": 1788562415.7940447,
-    "84a6d7a30dfb915e": 1788562393.1102092
+    "39620b45f95f31c7": 1788562415.7940447
   },
   "initialized": true,
   "v": 4,
@@ -4355,16 +4355,21 @@
       "source": "Sherdog",
       "ts": "2026-09-16T07:01:36+00:00",
       "cluster": "c1f8024bbc5"
+    },
+    {
+      "t": "UFC: Monster 19-second KO leaves Dana White stunned!",
+      "source": "Sky Sports",
+      "ts": "2026-09-16T10:17:22+00:00",
+      "cluster": "cab963c5385"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T10",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMi-AFBVV95cUxORXFLZ2kzdHZNWGlDa091RldKN19fekg4OWo1UHZNNlhFQWdoODVQX1FtdlY5QmMtVlJpMkpuakZCYlB6RWZwY3RGcWM5SWQ5Z214MjFXWGllazhWQ0FpMk9vTVdPZnQwdTdJVm5QaE9WWExpUWZFVGpHT25ZVHJVVURCSTBUUm1ZaFFoOU5pWWZNWHM5ZHBvanhaZDlpZkJORFZrUWJ2aWhQa3BTSnppbEdRTkRLcmVocDhZZ25UVmtpcGFlTnJjUFdWaFA0T0dsQUlUUzVUOVJORm1ER3hnMl9kb0MwM280TFV6ajRzSHBaemxnTnlHbQ",
     "38c1f82c-8d4d-3a7b-95de-c36af21359f1",
     "CBMiZ0FVX3lxTE5NM0lRWlJyQjY0dmRrSTBnVEhybE1KQnYtaXg3NlVjMnhrc3VhZXc4anR3M0RXeVhGNVFXV0ZEcVlMckVzTTJQZWc5dVdvb19wRm9UeGlCYVBweHEtYi03UUQ5MERoN3c",
     "CBMibkFVX3lxTE00dFJFOWxXM0pnWGQzRldQVGk5YlI3RzkxWDNKanNRX0pCVTkxajhUYkkyQ1RXREh5eE9HbTZmSmV6T0RNbjJFbDFTV1NzeUVoSDd5SS1ZTjNreHEtNGlpZDV0b1hjOFV0R0FzR2lR",
@@ -5863,11 +5868,12 @@
     "https://www.sherdog.com/news/news/Dade-County-police-officer-stays-perfect-earns-UFC-contract-on-DWCS-202826",
     "CBMikwFBVV95cUxNM0UxZ1hmU09keDV0V1c5RjEtcnotX3plREplb2kwNWRzdHVNZFFndFpic2Y1S3ZfSlFDd05fZ05rcElpSFY4LThuTm1lR2YxMzRFbzE4ekNIYWxNMDAzcW16UGpZU2VnckNMNVoyLVY3M051RHhVdHRhYUpJQmlST25LZ3ZSZ213Ty1SN1NIVThiWkE",
     "CBMia0FVX3lxTE1ZVGpIX0U4bUxRbzJVamNLbkZMVXZkSTdRUXlHZ1hOWl8tdTJDUHUxdjVIX1ZHZ2VlamcyaGpXNFU5RTFKaVNvaUM1cTJGZTk3RnBCWkdWQ2hXaEFmeWU4T3dBNmJycnZXc0Zv",
-    "https://www.sherdog.com/news/news/Report-Adrian-Yanez-draws-surging-neverfinished-opponent-for-UFC-334-202827"
+    "https://www.sherdog.com/news/news/Report-Adrian-Yanez-draws-surging-neverfinished-opponent-for-UFC-334-202827",
+    "CBMiowFBVV95cUxOR2trMUlCdDZ6LTVDLXI1bm1aN29zVEVWeC1vVWI4ZVpYbFNlc0NmV180OV95bGZZS0h3YWFtRExyOXU5c2pIU3BsVFhYZDFnYVdNVkdrZFdLRWE5VkFQNkNmdVNrUG9WUVRlZ3BWZWJnYWxPVGxxLUo0dUliZHhuSWdJQ1hyZm9OLUNXWTl2S3hsVjVZcFk1SGxscm5nSExIVHdr"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 91,
+    "ai": 92,
     "staged": 0,
     "prio": 1,
     "lost": 0
