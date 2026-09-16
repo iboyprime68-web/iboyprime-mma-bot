@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ce85621bdf4e6323": 1789584502.6421924,
     "5ac039d81a29ef92": 1789584479.4777632,
     "e96182c97d7ffcf9": 1789584479.1291888,
     "bc87067dfbbe4632": 1789584455.6805327,
@@ -2498,8 +2499,7 @@
     "44a3a542b6436e1e": 1788603927.5542438,
     "1e091e9cb9ff8618": 1788603861.223947,
     "2cd61bdd3406a9c0": 1788603795.2946746,
-    "5b4f576e9a6a17e4": 1788603729.3760915,
-    "551c085a0ba8ffc7": 1788603663.380661
+    "5b4f576e9a6a17e4": 1788603729.3760915
   },
   "initialized": true,
   "v": 4,
@@ -4399,16 +4399,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T17:00:35+00:00",
       "cluster": "cb66fa2f329"
+    },
+    {
+      "t": "RAF execs: NFL Hall of Famer Ray Lewis in discussions to compete in wrestling match before end of 2026",
+      "source": "MMA Fighting",
+      "ts": "2026-09-16T18:38:25+00:00",
+      "cluster": "c93f4f68db3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T18",
-    7
+    8
   ],
   "yt_eval": [
-    "CBMi6gFBVV95cUxNa1ZLS0puTHJuN0JZQmRMaGYzckp6bXJuSjhXLVBkeG93WWVaZElhdU53QWN1X3dEMEVjcDV3NkQyeDU5R19mV21oU28xbzdiWUlKbGFIMklXY21jVDhtN3J0Tmc4S2FRWExYeU5PWlU3Ung2ZXlvMzRieTV4bmppblZ3aVZFMU9pWDJOU0ViUXJsakRWZFc1YVhIVkY5eG4yTjZCTlgtdnlmeUY5dENHSXA5ZFQ1dktCUU5JbnV4Nk5GRW9vNW9QZEJ1Z0dUWC01bExGVUctOS1GaXlNVDlmQjhYVVFYNXBLWFE",
     "CBMibEFVX3lxTE5fRnlqR1VleV9HTWZTWUhOWHotWFM4T3dtV25KbEJOX1MxWHFqdWpuNGpfMlU3dU1iMkJUSmQzeWRBQ1p0ZDJlcWVWQkNMbmZHTDh3MnhVNzFUUTA5MzhFcXJKUWplU1NtUzhpSg",
     "CBMirgFBVV95cUxOd0s4NXRMUlZmal9LdHdjZERVcmk3dDVISHFhUXpvNDRZRXkzMnpjd2NoVkJJNE40anpjc1BfV2FVOHVTbFowdFBNeE9GbTQxdUIwU2ZDcTM1V3NsYkwtei1xelVJQU1GQnhHazdxMDZvV20wX0lwVjlneFdqSHBUcTBrWjJiREpNT3dNYUVmVm55YXNER21fWXN3MkRva3dJa1I0X1BnV1VnTUdILUE",
     "CBMinAFBVV95cUxOa3BsQ3R3bm1YWlNyODJnN3BKYWlHVGhCUmItV1RPbmNCbTBpU0ZHWnAtcFRTMWhvMVRtcU5ickhTX0kwLUVUWDN2alJTZGpHbnl5YjNod0J0bUctbmtMeWdqSWhsTEZ1cG9VaFp6bTkwQ1IxRnFscHdsTGtETmN4UVhwRzNtaC1IMENwVjdLZ0lxU0p1bFVJS29xQ0o",
@@ -5907,7 +5912,8 @@
     "2f1eb86a-0e15-34ea-acf4-94fd3ee82ec7",
     "https://bloodyelbow.com/?p=331874",
     "https://bloodyelbow.com/?p=331877",
-    "747c2ce3-8d46-308e-8b50-2be82da179b8"
+    "747c2ce3-8d46-308e-8b50-2be82da179b8",
+    "https://www.mmafighting.com/?p=510547"
   ],
   "daily": {
     "d": "2026-09-16",
