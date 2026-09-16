@@ -1,5 +1,7 @@
 {
   "seen": {
+    "59c50a8d986cb229": 1789587286.366014,
+    "1da025eba6910049": 1789587285.1901927,
     "f0055261fd664791": 1789587157.4408069,
     "4c9a510794ad0f12": 1789586966.154406,
     "6f37db188785deb1": 1789586838.3343198,
@@ -2497,9 +2499,7 @@
     "389d8052fcb3dbb2": 1788626701.227263,
     "159149ecd3dac142": 1788626677.9496276,
     "6cdcf92853ac415b": 1788626634.5174997,
-    "420004ef68d5aea7": 1788626634.1098583,
-    "2f225e5ac663dc06": 1788626568.5687225,
-    "4e3c18c0c97b1182": 1788626568.386024
+    "420004ef68d5aea7": 1788626634.1098583
   },
   "initialized": true,
   "v": 4,
@@ -4543,16 +4543,21 @@
       "source": "La Sueur",
       "ts": "2026-09-16T19:29:27+00:00",
       "cluster": "cc5e524a9bd"
+    },
+    {
+      "t": "Charles Jourdain says UFC 331 foe Marlon Vera not 'a walk in the park'",
+      "source": "MMA Junkie",
+      "ts": "2026-09-16T19:31:00+00:00",
+      "cluster": "ca10d0487d9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T19",
-    15
+    16
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Glover-Teixeira-says-Alex-Pereira-would-KO-Josh-Hokit-in-Round-1-202625",
     "https://www.sherdog.com/news/news/Tommy-McMillen-takes-aim-at-unbeaten-UFC-rival-He-runs-his-mouth-202626",
     "https://www.sherdog.com/news/news/Justin-Gaethje-says-his-UFC-legacy-is-fulfilled-after-Topuria-win-202627",
     "https://www.sherdog.com/news/news/Dan-Hooker-admits-distractions-crept-in-before-recent-UFC-struggles-202628",
@@ -6051,7 +6056,8 @@
     "CBMimgFBVV95cUxOWXhIdlFOd01MbjdiODZPZE0tMVY4cWU0eVZMSG02VENDTFJlUXpuWmRyWGM1T1piWkF1dG5OdEdzcnA0R05iVXlleWFsajRPV3BRdFMtLWh4cGhkRFZTRHF4TWtJa0FwN0tZV2JCOEZocXZUNlA4aTIzMndVTDlSSWFrUEc2TWxUb0s5ZUpFZVlNVmNQcHByendB",
     "CBMirwFBVV95cUxQbTJOWS1MZmx1OVJmVzJZY0lTeUNJMlNfR0ZoSTBveVQyM3VwMUs3Y0JNRVNiZXRYQWdOZWZsN29XQUJwQm9iQzVmWHJHU3pzc201aF9zNDMyWmd4SG5KS3ZoUFBxb2RzNHk1OWVWWExXemZfbzk0RHd2RklYYjg1SnpiOG1XV3c0RnFySkJ5ZHlyTktjMFlqdGZQQUJreUpKcGw4YWpnV1JRVmlJbWVj",
     "CBMi-gFBVV95cUxOcGEwV3VqSEY4VE1JLTRVMnVFOFVFcXNIOG5GYm12b3JybTB2ekVFVEVpTFA3V2FsSzA0T0NUV2hqTGxyMlE1WnVPTWRxeUdiRVN6NWUzUzhhY254VWxNd1Y2REVGU2M5MW94U243Q21hdFRKR0ttLTFDbUFGZFBWVWFfOTh2MFhHeFRDTC1lZ2FVUkNIVzhFSVFocTA0dm52d2JqeFkwc08wcExXWkpaYVNteVYyZXpqd3dxdWFCdmpGZXZJOEZZNTNaSWRsTkVUc1hTUktiT25wWkRSNm9RUFQ1UUZRb09aeGltY3AxeGp2MHNvVGVsdWNn",
-    "CBMifEFVX3lxTE1uR0JIeG5NVlM1U2Q4QTBnUzY5cGJucFp6ekxyM0xPdkwtZS1sVTZUZTkwTlEwNkdBLVJyM1pma3VPclBScnRKUzJqckREZEV0ZTZUSHo0THVpOTZyMmJReWtzVWFfLTNYN1A0aTYyVkJtOFJTb0NWcnBUQ3Q"
+    "CBMifEFVX3lxTE1uR0JIeG5NVlM1U2Q4QTBnUzY5cGJucFp6ekxyM0xPdkwtZS1sVTZUZTkwTlEwNkdBLVJyM1pma3VPclBScnRKUzJqckREZEV0ZTZUSHo0THVpOTZyMmJReWtzVWFfLTNYN1A0aTYyVkJtOFJTb0NWcnBUQ3Q",
+    "CBMiwgFBVV95cUxPbFNhVFFwdFZTVHlONWNwU1l1bUcxZDFwQzlBbWNBLXljSW95Q3F3RDE5VHNYM0J5WHdmdGRJRmQ1eEo4cWgxcExNWFNlUVZYUHJrdk1BQnoxTDVHWVk4M1hWTS1JOGJlaWlNb1dIRmJhTFhoVy14RWVQSmJUdEl2cWgyQzA1MzlmUngtVFlycklIQklFRlVyeFJaWE1RYXA0c3pSWE5pcGF3UkRxcFFtd0dTQUM4aWNidEEzaG1pcDVRUQ"
   ],
   "daily": {
     "d": "2026-09-16",
