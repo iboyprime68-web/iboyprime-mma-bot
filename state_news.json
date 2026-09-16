@@ -1,5 +1,6 @@
 {
   "seen": {
+    "04cabeea444b61b5": 1789584525.8189414,
     "ce85621bdf4e6323": 1789584502.6421924,
     "5ac039d81a29ef92": 1789584479.4777632,
     "e96182c97d7ffcf9": 1789584479.1291888,
@@ -2498,8 +2499,7 @@
     "3217e3ba4b2238c5": 1788603993.5986106,
     "44a3a542b6436e1e": 1788603927.5542438,
     "1e091e9cb9ff8618": 1788603861.223947,
-    "2cd61bdd3406a9c0": 1788603795.2946746,
-    "5b4f576e9a6a17e4": 1788603729.3760915
+    "2cd61bdd3406a9c0": 1788603795.2946746
   },
   "initialized": true,
   "v": 4,
@@ -4405,16 +4405,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-16T18:38:25+00:00",
       "cluster": "c93f4f68db3"
+    },
+    {
+      "t": "UFC 331 media day live stream: Van vs. Pantoja 2",
+      "source": "MMA Fighting",
+      "ts": "2026-09-16T18:40:05+00:00",
+      "cluster": "cc041a3825d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T18",
-    8
+    9
   ],
   "yt_eval": [
-    "CBMibEFVX3lxTE5fRnlqR1VleV9HTWZTWUhOWHotWFM4T3dtV25KbEJOX1MxWHFqdWpuNGpfMlU3dU1iMkJUSmQzeWRBQ1p0ZDJlcWVWQkNMbmZHTDh3MnhVNzFUUTA5MzhFcXJKUWplU1NtUzhpSg",
     "CBMirgFBVV95cUxOd0s4NXRMUlZmal9LdHdjZERVcmk3dDVISHFhUXpvNDRZRXkzMnpjd2NoVkJJNE40anpjc1BfV2FVOHVTbFowdFBNeE9GbTQxdUIwU2ZDcTM1V3NsYkwtei1xelVJQU1GQnhHazdxMDZvV20wX0lwVjlneFdqSHBUcTBrWjJiREpNT3dNYUVmVm55YXNER21fWXN3MkRva3dJa1I0X1BnV1VnTUdILUE",
     "CBMinAFBVV95cUxOa3BsQ3R3bm1YWlNyODJnN3BKYWlHVGhCUmItV1RPbmNCbTBpU0ZHWnAtcFRTMWhvMVRtcU5ickhTX0kwLUVUWDN2alJTZGpHbnl5YjNod0J0bUctbmtMeWdqSWhsTEZ1cG9VaFp6bTkwQ1IxRnFscHdsTGtETmN4UVhwRzNtaC1IMENwVjdLZ0lxU0p1bFVJS29xQ0o",
     "CBMi7AFBVV95cUxQSnExTGhBWUlnTTlNR2dGSVVqdGhyay1mSlM2SDhaT2ZqWk1wN1RDTk03R0JVdFRsdzFRLXNOdUtPT2M1Qjc5UmRTN2Rwc1UwRV9ZWGUyRGx3aTZ4TVpkWjI5M0xJd096OVFXSFZSZEZhUlhDZUFQQjZ1eFA3RjU2cnFXRUhXcl9IQUtkd1lfWmFzRmV0OGx4UHRUNVduNExWMzB4b0lGT0xHMGFTZzREX1pkbVJEaHJ2NG1YcDNTQlVqUS1IMVNnNkFWQ3pScDVMZ1hTU1laRG9SSGY0NXZfSFdCODVUam44MGtkTNIB7AFBVV95cUxQSnExTGhBWUlnTTlNR2dGSVVqdGhyay1mSlM2SDhaT2ZqWk1wN1RDTk03R0JVdFRsdzFRLXNOdUtPT2M1Qjc5UmRTN2Rwc1UwRV9ZWGUyRGx3aTZ4TVpkWjI5M0xJd096OVFXSFZSZEZhUlhDZUFQQjZ1eFA3RjU2cnFXRUhXcl9IQUtkd1lfWmFzRmV0OGx4UHRUNVduNExWMzB4b0lGT0xHMGFTZzREX1pkbVJEaHJ2NG1YcDNTQlVqUS1IMVNnNkFWQ3pScDVMZ1hTU1laRG9SSGY0NXZfSFdCODVUam44MGtkTA",
@@ -5913,7 +5918,8 @@
     "https://bloodyelbow.com/?p=331874",
     "https://bloodyelbow.com/?p=331877",
     "747c2ce3-8d46-308e-8b50-2be82da179b8",
-    "https://www.mmafighting.com/?p=510547"
+    "https://www.mmafighting.com/?p=510547",
+    "https://www.mmafighting.com/?p=510522"
   ],
   "daily": {
     "d": "2026-09-16",
