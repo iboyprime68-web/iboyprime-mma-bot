@@ -1,5 +1,7 @@
 {
   "seen": {
+    "f4d96c3f843d6edf": 1789584409.8471506,
+    "589e6cfb9cbc63c5": 1789584409.472081,
     "113db2dc3424ad42": 1789584380.840047,
     "e5fdcab709792643": 1789584358.0270324,
     "497a843ffc5cf59f": 1789584334.6358368,
@@ -2497,9 +2499,7 @@
     "65c139831c6f347a": 1788603638.3218915,
     "121c489d62636103": 1788603593.4086492,
     "f30debad21877710": 1788603527.779555,
-    "d570c90e6fa2f82c": 1788603527.4259574,
-    "6771246f5403e46b": 1788603458.2799432,
-    "90f8fad4db7c83c6": 1788603458.003986
+    "d570c90e6fa2f82c": 1788603527.4259574
   },
   "initialized": true,
   "v": 4,
@@ -4375,16 +4375,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-16T16:59:05+00:00",
       "cluster": "c544c0a9bfe"
+    },
+    {
+      "t": "Gable Steveson: Tom Aspinall vacating UFC title 'put another fire' into Jon Jones",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T16:10:27+00:00",
+      "cluster": "cf9f191799b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T18",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMimwFBVV95cUxOMmQ5ZlZuRWt5NVJvN1VhV1ZKT2tXTjZXVDVPbE1tLWhuQkVyQmdBSzJMaDdiU3FJNjcydkUySjNYVkh6MFFDWTMyaS1xc0F5R0M4cmpjanRSenNITEo0MGZFdDg4dC0xNDd0WGZieHdFQm8yQjRTTk5oM3ZLZFRkcjhoMTNnZ24xTnI4UzNaOWJXdXZtR3lhQVQ5RQ",
     "CBMiiAFBVV95cUxON2swc3RKT2ZiTnIxdVNGZlFkdjB3SUZsZnpod3BwVXhPbVBtay1FSGNhNVZia0Q3bFVxNjZIUzNFdUVvcF8yRVJFcDFuMHRiM1M4VVd5WXNYZ21LTVpKNF9XT2RhX1JCUXZyMnJaMXVyRFpSbWdXbGl4ZjVzSDlyQkl4c3JNMjVW",
     "CBMifkFVX3lxTE84Q01pYkh4RXdEMWRYenVCbm9OZTVXdjJsOGptWEYwbUU3NEFSbDE3dzJSSVNDNmFZa0pOSEtqZVh5bm1ibWswQnBwbFdWZ2xPZzMzWGQ1clNpUnZiQjBKY1NzbWExenlSTldaWVhkSk9wdTNXTWtOU0JlMURhZw",
     "https://www.sherdog.com/news/news/New-UFC-fighter-predicted-his-signing-8-years-ago-UFC-or-nothing-else-202623",
@@ -5883,7 +5888,8 @@
     "CBMi-AFBVV95cUxNN1FMRTJEc3ktUHVrSGs0MXZmb1M0QnVLeGJyZHYwSEY2eHRWUVJyXzdvc3lpQVk1T3QzdDdmVzJkekljQ0psc0l0UmxNT2prNVg0cTI3cDE2Y0xKOTBRTDk1UzdZRXZOY2RiX3pZcnI4cHBjdVI1OEY2cGJGQnhtcjBDcEdTSjBaZ3NKWGZmSnhNMUlQc3c3UzlIS19QV2FSMGRUU1F6NFVhaGN3T2c2V2l4MllWMXRJbkNnWXhNMTFFeWhiY2M5WEhMTnlyQlQxdFl2RFQ5eWhIUk42M1BqUmJYcmJCX3FpaWR4aWhZSzBMd0FLN3d0ZQ",
     "https://www.mmafighting.com/?p=510295",
     "https://bloodyelbow.com/?p=331861",
-    "https://bloodyelbow.com/?p=331930"
+    "https://bloodyelbow.com/?p=331930",
+    "2f1eb86a-0e15-34ea-acf4-94fd3ee82ec7"
   ],
   "daily": {
     "d": "2026-09-16",
