@@ -1,5 +1,6 @@
 {
   "seen": {
+    "dee1d11d25c5a724": 1789584879.7660627,
     "c95427a2ca96ada1": 1789584814.5817337,
     "746302347c352de8": 1789584814.104311,
     "501b43146f5b1a6d": 1789584749.8221688,
@@ -2498,8 +2499,7 @@
     "9995a10433809ec0": 1788616088.0585818,
     "4d8147d6b4fe222f": 1788616088.0579083,
     "7d70779f2f354e6d": 1788616088.0563025,
-    "5b46c1c9fc3f92fb": 1788616088.0556812,
-    "c6af9480e34e92c5": 1788616088.0554514
+    "5b46c1c9fc3f92fb": 1788616088.0556812
   },
   "initialized": true,
   "v": 4,
@@ -4441,16 +4441,21 @@
       "source": "매일경제",
       "ts": "2026-09-16T18:18:35+00:00",
       "cluster": "c60316dd352"
+    },
+    {
+      "t": "Charles Jourdain | The Professional",
+      "source": "UFC.com",
+      "ts": "2026-09-16T18:15:59+00:00",
+      "cluster": "c7ebad463cb"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T18",
-    14
+    15
   ],
   "yt_eval": [
-    "CBMimAFBVV95cUxNUDdMYkhIbEtTR05vWkNwSFR5dWJNMkpFb0tBeTlVWXF1X09EMHM3Z1o4cGtLS1RBRlg5UHRBS0xtaXhqZHJIQzdJTDJrTUZ3NUxHczhLQlZFTnRCT1R1aWNGZ1ItTlZZcmxXemxIREZva2ZkYWZqa3pwRFpGU3IzX1liai04NkpzemYwR2xORkY5LTVPOE5PNA",
     "CBMinwFBVV95cUxNVXNhTXI4NnV0YW9mc19SaXZObG9JdDZtUmRoYUduRkx4dG5ZZmVkbUZjQzI3MWxBQThheFBDWm5aVW96MlI3ck0wYmktYXlCTzRDZlhmM1I4WTJnNmM5dlpwdnlmdERrdUNqMG5mNUZRU0VCcWhadFdFRTRPZmxMVDFvSk9TVnNSTW1oV0hQMHN2bkxlVG1tZlJXYmEtanM",
     "https://www.sherdog.com/news/news/Brendan-Allen-Christian-Leroy-Duncan-collide-in-UFC-Vegas-122-main-event-202624",
     "9c989589-8260-3e6e-accd-b2b1388ace32",
@@ -5949,7 +5954,8 @@
     "https://www.mmamania.com/?p=472716",
     "CBMilwFBVV95cUxOTnBVYzh0bzI5RGc4VHc3M3BfTldXVHpKN0dHTFB0am5TWjdtaDdsZ0ZGTUwxMGRkNExPcTNFZEx3d0tLdWtuazJCZHZBNnB5TVIwOXc0MjVIZmZyenl3UHBlZHdXZmo3Tnpkbm5PdW9uckNIc3lxckhRTnozaUYzdWY0NUladnd2N1Fvc0xlaXRtMXVodU9F",
     "CBMiugFBVV95cUxNNGxnZkVmUzVrdzhXdks4MkVDUW1qMWVlMWpIcmppTXlXNkE1OVMzUG9GdktmbzNQVkxBcXFEbURya285NWNzRkdObGFCZUZFUWFOSERURVB4alQwdHl3Q0QteU1sNkwyclA1UlY2YjVOVm5qTk40bVhiU2pLZHgyM3pBOVpYTG1LMy1jcmlOUk85S2NIVm91OHRRSldPazRTemltdkFVNFBaY0l3NXUteXZNT1dOZE10UHc",
-    "CBMiUEFVX3lxTE01RXdiWHU3X2t5TWNIa251VHNLakc0ckJOQ0RkS3U3XzNnV21VdkdZMDJXem5MTTN5UlVPZENYSVpmM0hOamVVN2Q0b1Z5Q2R2"
+    "CBMiUEFVX3lxTE01RXdiWHU3X2t5TWNIa251VHNLakc0ckJOQ0RkS3U3XzNnV21VdkdZMDJXem5MTTN5UlVPZENYSVpmM0hOamVVN2Q0b1Z5Q2R2",
+    "CBMiggFBVV95cUxOaXFMY05rYjMyOWpZNE1mbEZha2RBRjVQaHlrc0dxZmFFLXpnUVhaUXBCd2x2N2wtTUxWVkFISm5UNWpqTVJLa1AtdUdqRW9Yc0FVOHpHNUdPTUNCcHV1T0NZVHY3dmtWVnd2elg5RFJ2VXdPakV5UWUxeEhZNHhlSC1R"
   ],
   "daily": {
     "d": "2026-09-16",
