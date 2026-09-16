@@ -1,5 +1,6 @@
 {
   "seen": {
+    "967649d282982ea8": 1789518126.1946692,
     "9a1e8fba3fcafc5c": 1789517935.1468227,
     "ae5c9fd8fa85d63b": 1789517868.1891887,
     "151dd78fff21da24": 1789517802.5265353,
@@ -2498,8 +2499,7 @@
     "efad66d8ef7193c5": 1788530034.5940619,
     "8d2c134a7eded08e": 1788530034.4191144,
     "08e1073a19bb7069": 1788529950.6429183,
-    "275c738308d7447d": 1788529886.7162936,
-    "c9ce2f3a712eb8a2": 1788529821.054739
+    "275c738308d7447d": 1788529886.7162936
   },
   "initialized": true,
   "v": 4,
@@ -4035,16 +4035,21 @@
       "source": "Cageside Press",
       "ts": "2026-09-16T00:12:29+00:00",
       "cluster": "ce27f53983a"
+    },
+    {
+      "t": "DWCS video: Luis Hernandez thrills with table-turning finish, hits DX crotch chop",
+      "source": "mmajunkie.usatoday.com",
+      "ts": "2026-09-16T00:18:00+00:00",
+      "cluster": "c27c846c7e7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T00",
-    18
+    19
   ],
   "yt_eval": [
-    "2b3808f4-bf2d-314b-9b87-c38efd09fbc8",
     "aa0c4d5b-7f3c-3cc5-a020-4102029781cd",
     "0e763fbe-1429-36aa-bb07-6e01f23e38ce",
     "a2f39461-0df3-38e7-b0eb-9b89071a0a43",
@@ -5543,11 +5548,12 @@
     "CBMiqwFBVV95cUxOWkltNkpVMHBMOHVoak5fTHhTYi1yTzdNZTNEc2dCWTZNS0J1SlZCQ3lXNEVvOC1XVk40SWtxUDQ3MEJGeUZWSzFkdkFnVlk0X0Q5M3R3MVVtc3VuR184Z3VqZXRLMi1GTWVMd3NtSVNsc19VQ2w4NEpGMHlZQjYtbVR2bmwxX2dsQjBPZncwU0pzTkRidkM5R2tBanJnZjNIZ041Rk9tT3JWcFk",
     "CBMiWkFVX3lxTFBYWHpPZkZzc0t6bDJBU0ZHM0wtMk1DRTBsZUU0eVg1MHNZVlB5S0dacUh2QUlIS0JzOWZCYjN6NUwtS0oxaGw0c2dDMnFzTmdFMS14S3lQY25BZw",
     "CBMie0FVX3lxTFAwSi16bzRVQmVLb2RzVnItancxWUNOY2t3eFBXeTlqeWotLWtKYncxTjRlMXVvWHF3S0dnTUduTFNqblJZa3lqbFA4U21JTm1QY3RSem5UcHhLcDZzajVOdHJ3V21UbloxanQxUjhSeVhZMW91NlBCTEl1TQ",
-    "CBMie0FVX3lxTE01VUI0VDN5dF9iTzhJbFhhNXJGN3JQN3lMazhSMVQtWG9kbHBiZHNuMUFMWnhoMWY3NkR1Q1JxVlBXSEpiUlM5SzNMSTRhZE95T0M1c2V6YW40UDAtV21oSDYxSEc5czdfeDlyd0xwTnpaVlNWbEpUaml1QQ"
+    "CBMie0FVX3lxTE01VUI0VDN5dF9iTzhJbFhhNXJGN3JQN3lMazhSMVQtWG9kbHBiZHNuMUFMWnhoMWY3NkR1Q1JxVlBXSEpiUlM5SzNMSTRhZE95T0M1c2V6YW40UDAtV21oSDYxSEc5czdfeDlyd0xwTnpaVlNWbEpUaml1QQ",
+    "CBMiuAFBVV95cUxOUGVDMmc1Sko4QUlKeDRPTGxNeS1MZnk4MDZwN1BxUzVmZ2hWcWZhS2haUF9jUlV1YTlCUUNrN1N3RWwwcER3WjFPU0xXYWx6a1I3VmZ0UHhIOGZoTWZVcUo2T1lRM19Cd3dyMGFZY1FoM1Rka3BPTVZWQ253ODdyeFI0ZHhQTWpNcV9HN2R3amVUWmxMdkRoNjJ6N3U1QmpfNk9JVjdFZmNVRVpxMDBjZVozSHNEN1R6"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 18,
+    "ai": 19,
     "staged": 0,
     "prio": 0,
     "lost": 0
