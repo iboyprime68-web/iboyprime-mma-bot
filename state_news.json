@@ -1,5 +1,7 @@
 {
   "seen": {
+    "4a1bcc3fd05301e1": 1789595998.7441418,
+    "f6bf0eb377a2912f": 1789595998.3804197,
     "df763791077706fe": 1789595974.627889,
     "d12ce63ab2298f34": 1789595974.1232572,
     "bf5c9b2bc542909e": 1789595951.5417888,
@@ -2497,9 +2499,7 @@
     "d5390be9a7af2ac7": 1788627472.8211377,
     "cedc9db8cb68a7c2": 1788627410.144191,
     "45d6080303363171": 1788627409.945497,
-    "97c61b3fad62434d": 1788627346.934554,
-    "832ec11f446b91d3": 1788627284.0241077,
-    "5255507d6ccdf794": 1788627220.2530413
+    "97c61b3fad62434d": 1788627346.934554
   },
   "initialized": true,
   "v": 4,
@@ -4531,16 +4531,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-16T21:54:44+00:00",
       "cluster": "c1e43dc3295"
+    },
+    {
+      "t": "Iwo Baraniewski sees 'two options' to beat Alonzo Menifield at UFC 331",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T20:20:17+00:00",
+      "cluster": "c14a573eb2a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T21",
-    6
+    7
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508064",
     "833cd2d7-6240-3fe1-bbc1-b2c9638b9998",
     "https://bloodyelbow.com/?p=329956",
     "d22a760f-96ce-3ec8-bcfc-12360114b178",
@@ -6039,7 +6044,8 @@
     "https://bloodyelbow.com/?p=331886",
     "c4d5cc7c-3801-373d-b7a9-08b6cbbfa64a",
     "https://bloodyelbow.com/?p=331954",
-    "https://www.mmafighting.com/?p=510574"
+    "https://www.mmafighting.com/?p=510574",
+    "0de6608a-e457-349a-80d3-213cbc8670ab"
   ],
   "daily": {
     "d": "2026-09-16",
