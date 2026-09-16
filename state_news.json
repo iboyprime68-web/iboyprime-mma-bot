@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b23b2f87e4a93dca": 1789533710.2634134,
     "2b29b5f33190a9ec": 1789533685.472817,
     "39bf250ea590815a": 1789533661.360954,
     "b2166f69026db136": 1789533637.54258,
@@ -2498,8 +2499,7 @@
     "c91290cb6af35d6b": 1788543530.2994785,
     "373504e03d62b109": 1788543464.7899673,
     "cdc94666f0c3a9bd": 1788543464.5473535,
-    "42ecc92d18f74417": 1788543400.2966695,
-    "2666960cd200d829": 1788543335.0964317
+    "42ecc92d18f74417": 1788543400.2966695
   },
   "initialized": true,
   "v": 4,
@@ -4061,16 +4061,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-16T01:13:56+00:00",
       "cluster": "c791b18d3c4"
+    },
+    {
+      "t": "Dana White's Contender Series - Week 6 Post-Fight Press Conference",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T00:58:23+00:00",
+      "cluster": "c785733614a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T04",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMib0FVX3lxTFBnYmRKSm5EVU50SW93cEotZGtIb0RFUkcyOWVMYWxGZXdMZGg2LXhocGNDck1WbVJOTENOcThGanJsbUw5VGtzTDNtS2lqeGFaZU56VkRfaUNCNWZjd3NzdmZJWGhGa1BaTU10YWFBSQ",
     "CBMijwFBVV95cUxPbW9ISjdxb09fTmd3YV9BTnE2S2dWSHprWHFqZXdVeGNiQnQ2RUZkbWxjRnhBem9WQjk5WWJpSmptS0RVYzQxTzJoN0FLbjNBX3UwUnRUUElURnJZUkV4TU5rdFFwNnJnTXQyWUEzWDVuOFJ5cGpJRE5pZG5Mb0FhbUxCVU9RRkc1enBJSjh3Yw",
     "CBMitAFBVV95cUxPX2RYRXg4NXlaUVI1XzRuVTBrTzV1eE9NOHhhc041MFNiTWdzUWRqVG5tY29mS3FJWl9JeUtudEdXdVZDOUk1VmpVRDVYeWw2V3FicXV4cUt6dU9LU3lMZXBfeXlFbTdhSER6SXRJXzF2QlFRSURKY2l0Q2lTUlhTZmdjRjMyazdKaTNjeGIwSGwwSExxWENWYUNjMnMtVW5PRGUycTczTkVCR0U3N3k1NnZfQ0Y",
     "CBMigAFBVV95cUxQRF9VbHRBblV4UTBUM1Z5OXY1LVRRdnBvcnMxZVdianlRYUJSblN4dDV1OEM0SzRsTWtydUdoRDN3THZYY0Y5WWZOS2VlVmpfSEpXZGVlMTdqaTFkd0lNd1NfV3hfNGlOTGs0US1SQ05hODlzandhT1ZnUlpLMlgwag",
@@ -5569,11 +5574,12 @@
     "CBMiywFBVV95cUxNdFdldEFEbmZsNng1UjFxVTFBb0F6U0FlNU1OaWxvaExqWXdYb3licEJFWWxKLWFlV1l2SzJ0VkU4NnU4Ykplajc0RFdxVmNJN3FSSW9xTklDNUFRSk5hblc0QzZOdmRleEt5a1JkS3RJb0N5WGpodW1BM3JETHNzc2ZTOUpCdUF5UTRZWEFSSC1md256dGpqRE5mWVpRWTdQZ1htYXhoOWhyeXAzaFZ5cTFkdjI4V3JFSS1oRnYtUTJCZFV0QlRiNWdnQQ",
     "bcc7f099-8123-351c-b87d-15084f29ec96",
     "https://bloodyelbow.com/?p=331782",
-    "https://www.mmafighting.com/?p=510473"
+    "https://www.mmafighting.com/?p=510473",
+    "4e3f97b6-1536-37c3-922d-4fa3ee7a7ada"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 33,
+    "ai": 34,
     "staged": 0,
     "prio": 0,
     "lost": 0
