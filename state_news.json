@@ -1,5 +1,7 @@
 {
   "seen": {
+    "a207d6b9f82bbfc8": 1789570665.9470663,
+    "3711c2c9e4d3476b": 1789570665.6799822,
     "125461b8a52281c7": 1789570600.450981,
     "a5af17bac87d5de9": 1789570600.18109,
     "032c4ffd204c5ea6": 1789570600.1578243,
@@ -2497,9 +2499,7 @@
     "1cd1596ec4200991": 1788569917.8408341,
     "2a814acb63bc33f7": 1788569684.8465016,
     "e43f53450f06aff5": 1788569660.385438,
-    "51a25b435dd93375": 1788569660.104704,
-    "f26a44b5f233ea21": 1788569595.5190923,
-    "a319277e2d42f70e": 1788569595.518701
+    "51a25b435dd93375": 1788569660.104704
   },
   "initialized": true,
   "v": 4,
@@ -4323,16 +4323,21 @@
       "source": "boxingnews.com",
       "ts": "2026-09-16T14:01:11+00:00",
       "cluster": "c0133bd885d"
+    },
+    {
+      "t": "Pitbull Faces Choi In Crucial UFC 331 Test",
+      "source": "Yardbarker",
+      "ts": "2026-09-16T14:14:55+00:00",
+      "cluster": "c71aa4b2113"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T14",
-    19
+    20
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508166",
     "37af5de5-0355-32b2-8c71-bf7c47a9f323",
     "fddcfbc0-0f7e-3cdd-b16d-482b3952a66d",
     "547f4a49-2490-36e5-b7c6-062f82a4e51f",
@@ -5831,11 +5836,12 @@
     "https://www.mmamania.com/472685/open-thread-september-15-2026-any-opinions-on-the-emmy-winners",
     "CBMioAFBVV95cUxPUk9VVkdQcEVpbG40SXQxdUlzdHVYU250ZlNMZnlBdHFyc0NyS3F3MmhINDZ5d1VHOEViUDllTUdWRWFBcTBSc0Y0TmJObHo4OGROcGtxRndOQlJDT3JfUmVpMUZWYjVSZV9EM1RnYzdGbHlhZk5hcFJvY281dXZjS0pscG0wMDFVMkR0Nzl2bk10X2pJMUJBdEthb0owLXBT",
     "448f316d-a462-44d8-ad61-83dea9bf7630",
-    "CBMiakFVX3lxTFBCSTRJZ0JPU1lwbVJzaXVyWXlwX2kzcHJidlJqaFRjT29pTkoyVDVBYXI3bkE0bHhOZUhMQ0M5SzBhWHNyWm1Zdkw4Z0J3MDJGREZtRURhejVYSlczd08wYWw0c1VVY3UzOXc"
+    "CBMiakFVX3lxTFBCSTRJZ0JPU1lwbVJzaXVyWXlwX2kzcHJidlJqaFRjT29pTkoyVDVBYXI3bkE0bHhOZUhMQ0M5SzBhWHNyWm1Zdkw4Z0J3MDJGREZtRURhejVYSlczd08wYWw0c1VVY3UzOXc",
+    "CBMiogFBVV95cUxPeGR3Q21iVlRPTFZ4M2Z3MkxVTGUydUVHTFBEazB1aUpEMnYyelZzb3RlZ2lSX3BkYURuVTFsX2ltQ1V1UGlhQW12ckJfR2t5WVRLWjlxUnF6MFNfNmhNcXZQOGcteXRHTzFwNTJMcXFwNG4wRUJ3SXMwdFp1LUtfVFVjR1QyUFRDbUduSEwzckM2Q3VYT2V4bUloVHVRMXBYZ0E"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 114,
+    "ai": 115,
     "staged": 2,
     "prio": 1,
     "lost": 0
