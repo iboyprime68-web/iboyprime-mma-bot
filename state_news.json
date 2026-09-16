@@ -1,5 +1,7 @@
 {
   "seen": {
+    "bffeb231ed9c52d2": 1789570085.7777634,
+    "c4fe9a6cb86218f8": 1789570085.2957635,
     "2fbdfd6115b40fa3": 1789570061.6867013,
     "91fa4b7cd0002359": 1789570061.3165221,
     "e23f6d5cf4d4cad5": 1789569995.4007225,
@@ -2497,9 +2499,7 @@
     "47ea5f79304a0872": 1788569259.7841644,
     "a2414ef19819d25f": 1788569259.4655724,
     "e20fa40f147bca9f": 1788569194.2436578,
-    "1d2bd4f589d9d5b8": 1788569128.5150928,
-    "97e32b9279b1abe4": 1788569128.165358,
-    "b5ab45824d2829b8": 1788569128.162568
+    "1d2bd4f589d9d5b8": 1788569128.5150928
   },
   "initialized": true,
   "v": 4,
@@ -4273,16 +4273,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T12:02:26+00:00",
       "cluster": "ca8fbad6ede"
+    },
+    {
+      "t": "Ilia Topuria’s coach shares training details, fight-ready return date",
+      "source": "MMA Mania",
+      "ts": "2026-09-16T11:45:27+00:00",
+      "cluster": "c1d92966ea2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T14",
-    10
+    11
   ],
   "yt_eval": [
-    "CBMijAFBVV95cUxNaFE4WWhxQXhGZWJXRFlYQ3RwM2lfcFhVMlNkT2g3RVU3NkxGNHBqRzNweVNQZVBhbWtzVUtINE1GdGpIU1p4aFhpVEd1VFJlNWVUZUVjNHZJcHZGdWpieEUwanZld2RJR3pwVktBaDByVWtTXzVITGNzcGhJRUI5d1FGRlA0dGZtN0JmTA",
     "CBMisAFBVV95cUxQdk12RVFubzBJTm13c1l3Z2p1eTVmRkQ3UVdZM190cUpIYWg1OHlvTjVqUzM1STk3ZjNpcUJ6RGhNTG4tTHZ6WW05QzctM1FIczNwclJ1ZFJmMUpFdTFaTDBkcXhNZDdTZnlmMUxzb1BXM1UtdzZMRlJvempTb18xb2l5RE9oeURWMTVEajZYYm1yc3BFSTZ0Nmg0ZWh5dHVKM3A4STEzQkhNQ1NaYVZuTA",
     "CBMigwFBVV95cUxOd0FDU2o2Qkw0QVpPRFl1NE5jd24zekdRQllTaEF0WEVudXN1Sk9oYmdTYXdxWGhkeWdabUxSX3RMcEM3ZC1EOWhDb2p0Y1JVSzhWcTA4cU9yTnJmY3hsdmpvWFR2YU5NLUJaQ1ZqLTh2NmVpX3d3ZmpVVFZsb3M5aGMtTQ",
     "CBMiXkFVX3lxTE8zam40UXFxaWt2RFpFZGFCX1dZVzU4RTdXYUtfUUN2WUVtTlJxa0lXRzNlZjZUZEtiVno4WGhGZnhTaUpxYTRPS25HYndYZ2ZPdXVLX2s2SjRvMTZNLXc",
@@ -5781,11 +5786,12 @@
     "1411ced9-3c29-3317-a60a-b9ca8b5e228c",
     "https://bloodyelbow.com/?p=331839",
     "30fae80f-8cc2-3b7f-bd0f-62d27dbd3d74",
-    "d8a79f47-77e0-393c-ad22-e4567e9b40e0"
+    "d8a79f47-77e0-393c-ad22-e4567e9b40e0",
+    "https://www.mmamania.com/?p=472680"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 105,
+    "ai": 106,
     "staged": 1,
     "prio": 1,
     "lost": 0
