@@ -1,5 +1,7 @@
 {
   "seen": {
+    "405f0dd94ce01f82": 1789552862.0464876,
+    "2439ed5f0bf2a2c4": 1789552861.7333314,
     "88634cc22815614c": 1789552736.1611276,
     "a48b668388600c6c": 1789552670.5864985,
     "0b8e1d8165e426d7": 1789552605.5746696,
@@ -2497,9 +2499,7 @@
     "90e24f9324053b4c": 1788555501.392285,
     "ba4e240cb2d52fdf": 1788555501.1407053,
     "a0494ff48a45a56f": 1788555501.1384954,
-    "790f63bff2886285": 1788555501.1371272,
-    "21f70c59eab270aa": 1788555501.1363146,
-    "252c4c8b9eb82cd3": 1788555437.8579252
+    "790f63bff2886285": 1788555501.1371272
   },
   "initialized": true,
   "v": 4,
@@ -2861,12 +2861,6 @@
       "source": "The Business Journals",
       "ts": "2026-09-14T21:32:00+00:00",
       "cluster": "cb2e4a3fb73"
-    },
-    {
-      "t": "BKB Bare Knuckle confirms full card for BKB 60 in Newcastle as ex-UFC star defends world title",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-14T10:00:00+00:00",
-      "cluster": "c14a778ccf0"
     },
     {
       "t": "Say Cheese! The Making of DWCS’ Zevan ‘Cheese’ Hunt",
@@ -4331,16 +4325,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-16T09:50:47+00:00",
       "cluster": "cd017139dbb"
+    },
+    {
+      "t": "Igor Cavalcanti erases DWCS heartbreak with 98-second TKO",
+      "source": "Sherdog",
+      "ts": "2026-09-16T06:31:38+00:00",
+      "cluster": "c4731246030"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-16T09",
-    16
+    "2026-09-16T10",
+    1
   ],
   "yt_eval": [
-    "CBMiXkFVX3lxTE1SN243QXJZWHlWWGtaMzl5dGRPNGxlRG9mUXBfTjNUajI2NnhKc0xFb0Mwc0p1OUlCbEFDNFo3UHdxakJLcEpCVmhWNUpISmh6NmlBN1F0SE5IVXlCRFE",
     "8df2ffb3-273f-368d-8204-a4a2c66f23e2",
     "54351a33-414d-382a-acb6-1fbcc18d1220",
     "https://bloodyelbow.com/?p=329922",
@@ -5839,11 +5838,12 @@
     "https://www.sherdog.com/news/news/Alexander-Volkanovski-chokes-out-6Foot8-Eagles-star-Jordan-Mailata-202823",
     "CBMi6AFBVV95cUxObnVLM0tkZE53UWl2bVlQVkt6QlpMVko1c0MzMi16bHd4czVpRWloanhhS2w2OURFWXk1WkM1ZWJOaVRDVEJrS1JsOWQya0ZTVHRTeEdCR3BkSFBORkd3MU5SWGdCNWdOOFdxZEZsdGFLZzVEZENjZ2NiUVF3SWltdTFCeU1PMlQyRGVITldXQ181ZXptTUlrODNvTHY5bHBNeWJBRm5SbHpJOEtibHFoMUxfUjliYzkyRFJmdmFaeTJKbUdmeXVMWkMyclJxWG9ra1daMmMzdUN1bGF1VUlPNnZJMVIyYUR2",
     "CBMijgFBVV95cUxQSWlsR2t6a2xEeGRJa2ZzMUI5M0ZIVWN2eGNaVnRTams4TFIzQnVyNlh3Q0cyOFZWRDVrLVU1aV9LRTdkeU9YQVdsRjBhUU1lSWJ1TGN1WHJoeklKdmktQXI1QjE0clphbGNXR3ZDbm56UGhLV0hZekxMYlQ4cm9LMjA4dVI2SnhUWUFEWUp3",
-    "CBMijAFBVV95cUxNSVBkRmNZNGlobndWV0lyV1ZpTDNxWTF3N0RpbGdMUGZ4cjRRYmpOc19GNEVVSjgtUHhxWTdKN3hmSVlNLWNHNE1FSHBSYkEwLXRTbkY1Z2N5NnRuNnNYSllIbjZNc3Z0SUcwNFhHdDJSWXNvZGtaRXBkXzJaRHJGSm10ZllINllURk9lMA"
+    "CBMijAFBVV95cUxNSVBkRmNZNGlobndWV0lyV1ZpTDNxWTF3N0RpbGdMUGZ4cjRRYmpOc19GNEVVSjgtUHhxWTdKN3hmSVlNLWNHNE1FSHBSYkEwLXRTbkY1Z2N5NnRuNnNYSllIbjZNc3Z0SUcwNFhHdDJSWXNvZGtaRXBkXzJaRHJGSm10ZllINllURk9lMA",
+    "https://www.sherdog.com/news/news/Igor-Cavalcanti-erases-DWCS-heartbreak-with-98second-TKO-202825"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 86,
+    "ai": 87,
     "staged": 0,
     "prio": 1,
     "lost": 0
