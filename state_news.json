@@ -1,5 +1,8 @@
 {
   "seen": {
+    "46bb55f3f94edf7a": 1789535257.9240909,
+    "fc4e20bdeb24da14": 1789535257.201283,
+    "cbfdf3d8a978fae6": 1789535257.200722,
     "cbeec7998881ba77": 1789535191.6904187,
     "9b4df509a388575e": 1789535191.3579588,
     "c23cbf78ac0dad79": 1789535124.696974,
@@ -2496,10 +2499,7 @@
     "f32cee0750829801": 1788553925.1419134,
     "81ad65699d22dbcd": 1788553902.9161143,
     "eab35f903af4573f": 1788544852.4506176,
-    "3d2a3d9d6468bd08": 1788544830.477727,
-    "127da61b8a8ad15a": 1788544766.607275,
-    "c9413d764b6a1c6f": 1788544702.4322147,
-    "0a1096590da464db": 1788544637.9364228
+    "3d2a3d9d6468bd08": 1788544830.477727
   },
   "initialized": true,
   "v": 4,
@@ -4215,16 +4215,21 @@
       "source": "Sherdog",
       "ts": "2026-09-16T03:19:42+00:00",
       "cluster": "c3fb78b8803"
+    },
+    {
+      "t": "Jon Jones Mocks Tom Aspinall After Vacating Title as Gable Steveson Hints at ‘Bones’ UFC Return",
+      "source": "EssentiallySports",
+      "ts": "2026-09-16T04:44:00+00:00",
+      "cluster": "c06a4cf762e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T05",
-    7
+    8
   ],
   "yt_eval": [
-    "CBMif0FVX3lxTE9tSEQ4MzZ6MF9WSXU4aGJORnBsY3g5VldIQWhyeUFzRW5SbzNkQWNYZlBhdVVCSlU0S01RTGNtMjFzQ2laVU9qMVhOTGprLWNFUjc4a01RbXNwSEl6SGtvLWw1NEJtbkxPcXUtNUFTeHB6dXY1OGFCZmQzNTNLNkk",
     "CBMidkFVX3lxTE44ZTl0SDRKRjRkbUFzZ3o1MmxCMVFib2hQRHZ6clNPV1NwaTktSklUQU1UcHlPX2dQaGkzZ2lNQ0NUUXJGSVY4Vzh6dEFmYlhXRXRhMzJOWkoyaC1BeFdpVFFDc0xtN3FmX2FyMk5CcHBmXzNJT0E",
     "https://www.mmamania.com/?p=468960",
     "CBMiywFBVV95cUxQdXM2Sm5FZ0hreFJreFBjVXdVOVVsMlBGVVMyZjBjLTNDYTBSakJ2NE53SGtYZWFhenoyOWdUVjVQaElReUVwVVZ2X3FEcFhLVUpuaFdJLWNfRk9teWRWYmlaZjBOcG02Qy1QWXA0TnFON2s5OG9XSmlPdnp3WjhRS2NWTzk5V3JkWE5WTXZvSm0xU1FENEF3VVNvNm5JZUNrUkY1R2lVbXF6NWlTYzd2NGRaY1NjNnM1bTg5MzFhTl8zdER0dzdjbzZSVQ",
@@ -5723,11 +5728,12 @@
     "CBMimwFBVV95cUxOQ2tMRHVaRV9zZElLOXM5OVNKVzVDc0dodkwwb0NoNk5vTDAzWW1NQzBNWHVCVTZpUnlpY2Z6VEJRcVl6bS00cllIZWM4bjVVbUs5RmYtaXRoSE80RzRvUGRxZmtlTzdOaURab0hpekxaUE04UnhzTEotbDNhcjhnWDdfaHRoY0ZhOFpGSnM0WDA0RnZ2NlVlVnpqMA",
     "CBMipwFBVV95cUxNYnVDR0FmLWhWQlJUMlFzVGpjbjUtXzAzcURiRlVpNFRmS2xJMkpnWmJBaTIxWEp5YzRJTUpSZC1kdUhEeEF0b3Jpb3RrZndORkV3dWJvS01mSXpUN1hMc2laTWZEMG5BUFBsazZ0Y1QyUGNIVTdGSFl0eHlaYXowUGRYMlNWYW9YT2Y5dUQzbGtDUHFKbkVybXhXR1djdHl0QmY4djUybw",
     "CBMifkFVX3lxTE1jTi1SU0RkXzhBaXNHbFVlN0Y2QzdLaEQ4RXZnSDVZNW5ZdXVZUmZ1cXdFQmdEWUpwVlJFTzhsYVlEZXJiNTdNMlpWQ1QxVmJwdHZ0VXhrUE5VVUdwd29VTzJoTlVyUXgyTkM2UzFkU0pWcnhRT0l6T0RwbVFjUQ",
-    "https://www.sherdog.com/news/news/Demetrious-Johnson-would-be-shocked-if-Tom-Aspinall-fights-again-202817"
+    "https://www.sherdog.com/news/news/Demetrious-Johnson-would-be-shocked-if-Tom-Aspinall-fights-again-202817",
+    "CBMi2AFBVV95cUxNakZBS21LWHkzQmdxRVBrLVIzUXB4d19YTEUzTVpDTWxlQU1peW90cjFhdXQ1VDJaNXBOSGFHV3dIalpiSEFPVXktdW9zdHR0WkV5V1F6Z3paN0xQWG1zb3VDc3hQcWZLX2cwSW5LOFFFSW92V3hNdzVvUEE2TlJGMy10aF9TNG5xRUFFLU5CX2QtbzZHVjJQMFYzOHRNUzhzdm5kYVd6TDNoNmpDbXhMbE1JdVZ3V1UzbXF4N1g1eE9VcnpRNzVacTBkV3RHUFlwcTBtSFViZnI"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 60,
+    "ai": 61,
     "staged": 0,
     "prio": 1,
     "lost": 0
