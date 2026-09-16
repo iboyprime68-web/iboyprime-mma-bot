@@ -1,5 +1,8 @@
 {
   "seen": {
+    "b743032cf6596e5a": 1789517135.2809684,
+    "3dc2568fd8fcfa90": 1789517134.954008,
+    "ec262d0348f4a3eb": 1789517134.9427567,
     "84f8b65961051548": 1789517069.3205438,
     "adc949082115ca6c": 1789517044.5189865,
     "446320354361efbd": 1789517044.1366742,
@@ -2496,10 +2499,7 @@
     "65ed5d63ffed67a1": 1788529236.0969436,
     "caec01d0144d4a0d": 1788529236.096143,
     "26a8d3688c83832a": 1788529171.5018668,
-    "935de7e404c36237": 1788529126.014738,
-    "947f3721c5c01d52": 1788529125.8281577,
-    "2bc73f16fb5d70b4": 1788529102.5208294,
-    "9dfa1bb9f74bfa08": 1788529102.2494435
+    "935de7e404c36237": 1788529126.014738
   },
   "initialized": true,
   "v": 4,
@@ -3951,16 +3951,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-15T22:30:13+00:00",
       "cluster": "c10ff17a49e"
+    },
+    {
+      "t": "Nate Diaz rips 'punching bag' Ilia Topuria for getting 'ass whooped' by Justin Gaethje",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-15T22:50:28+00:00",
+      "cluster": "c8f5845a981"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T00",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMisAFBVV95cUxNekVGMGlmYmZ0T1VTTTdYSEhxVW1rTENybnd3MnQ0RkJFNXdQaHpaN3UtblhRZzNkVW1OZmQxZkxiTlg0WHRoRlh5T1ZaV0VBVExxNnRYQ3dEN0NvT0hQSHNmVjl2VXFJMHgxWE85UUthaUZXb0pEYzlLaUVjbDN2ODQ3Y3dobHZOS2ZNLXRVMURwM2FwazBlaGdadGItRVM3c25DbkJpTVRVOF8yYTJKcw",
     "https://bloodyelbow.com/?p=329898",
     "CBMirAFBVV95cUxOUnR5a210OWFTSVlsQWJaZnF1aHd1a3M1NVZ3Rl9NcGM1ejh4Sm5Mb0pndG9rTkJUOXd0RzRYYVA2TWVMVE80b2RGZmVFU0hCZ0VNVjJXc1cwY1NTbUp5MW9VeVZRYXFnUU5vbnFacC1kVFRNRFBFa2FoSG5qT3BxOTF2YTVKN2F0QVNUWmdHMDlsQk5GS2ZlUnpweldYRTAwZmZONTkzd3R2ZEE1",
     "CBMiiwFBVV95cUxNeE1DaWcxSkM4OUVnQUluT2FFTTdWTkNfNHVPN3dGWW41VzZiSmRpNE9PMGJuNTVpak1GRnlNTTZlY0lPXy1CQWVlVnlHYlZuQ1dMOTlXb2tkM0NsOEc2STFieFEtYXh0RGxtTU1jTWJnanVjOS1peWwybm40eDkwRjR0cFM5RVFRb0RZ",
@@ -5459,11 +5464,12 @@
     "d4ed8dbd-4a67-4f1e-ac00-92ac60b832a7",
     "https://bloodyelbow.com/?p=331758",
     "https://bloodyelbow.com/?p=331762",
-    "142eb027-908d-3419-958d-7011f1849661"
+    "142eb027-908d-3419-958d-7011f1849661",
+    "a61388e2-fdc0-3b26-ba61-c681f9c4110d"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 4,
+    "ai": 5,
     "staged": 0,
     "prio": 0,
     "lost": 0
