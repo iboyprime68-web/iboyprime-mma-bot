@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e7b3bccf85c61a14": 1789573050.7732933,
     "1caf76a4ede4a60f": 1789572986.0822945,
     "00b87f163c9b3e42": 1789572921.5542324,
     "dbe1ca678f7f87ee": 1789572731.621658,
@@ -2498,8 +2499,7 @@
     "90f8fad4db7c83c6": 1788603458.003986,
     "197e3ee01a69ae5b": 1788603391.9045637,
     "5f89c71b9ff2e44f": 1788603367.6666777,
-    "fa9f02947e68f091": 1788603344.3609388,
-    "259040c333cf192e": 1788603320.033378
+    "fa9f02947e68f091": 1788603344.3609388
   },
   "initialized": true,
   "v": 4,
@@ -4435,16 +4435,21 @@
       "source": "heavy.com",
       "ts": "2026-09-16T15:32:44+00:00",
       "cluster": "ca2960df9a0"
+    },
+    {
+      "t": "UFC 331 'Embedded' No. 3: Backgammon at the beach with Arman Tsarukyan",
+      "source": "MMA Junkie",
+      "ts": "2026-09-16T15:31:00+00:00",
+      "cluster": "c1f48a1f981"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T15",
-    21
+    22
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/DWCS-winner-says-he-saw-Charlie-Cleveland-knockout-coming-202615",
     "https://www.sherdog.com/news/news/Bella-Mir-addresses-moms-viral-reaction-on-night-of-historic-DWCS-upset-202618",
     "https://www.sherdog.com/news/news/New-UFC-signee-says-Mexico-PI-is-loaded-with-fighters-hunting-finishes-202621",
     "https://www.sherdog.com/news/news/Dana-White-hands-UFC-deal-to-22yearold-following-controversial-15second-KO-202622",
@@ -5943,7 +5948,8 @@
     "CBMi_AFBVV95cUxQaFo0OE9FdGpnd0pkYUxNdW5feEpHaXNMVUhJbWM5VTlUaERTX25YRXZHenBZRjQwQ3MyQWpjSjVWcjRIcmpvWi1SX1EzYXAtRXZQOEUzR3VlUE5zWHRkOTE1SzVOa3UyQ2Ziak1aZ0dXbW9zdUthc1l6ZXoxZXcyNVBNaDhMVmRXOHF6bU1CTzl4T1pGYWZEMUVYLUN5VlhTbjBORUszaE5xOXhhZ3g1cHNKaGlVZ0lBVWgwTXVCY09kaDA3TFJfVUpLc2NZZTFBaTVCaUFmMkxJbWZkLXdsYzF5bl9kczQ1XzdHMWd3MUktekVMbFltSTg4T0U",
     "CBMikAFBVV95cUxPemV2MFJGRHdibG45djFCQ1BnVzk0aEZzdWdjUm1PbHZqWU9FVnh3dGxqSjVxeVI0bGN3WkktSDdyUWw1REpBVFJNUy1pcGtxem9pSld5bDdFVDFuNjY3eThkRXp4Q3pUQXczQkM5aHQtYllCVktYYjlCRDFRcVdFWE56RURiUHdmbTlTRE5PTWY",
     "CBMiugJBVV95cUxOU0Z5ODdZZDZjSDJWdUF1RW5OZEU4X2NYdHNfUC00cFg0dnhHX2lXdVVZWmxkcUZUWWN3MExzQ3hrdGtqLWc1NENEbk1QUjZzUW9LSjJkRWhtYlZPQlpWRXpaaV8yQXZpVWRsTHlZZmFvS1BzMUkxSlNMdWY4alByTDhRWW5RVWZLcmVMdlBKeEVWazkybDVVLW9JVmRtSXJuTEhhc0NKX3NZMGw1SWE5c2V0MGRSeGZScFJSYTdqNnBvWDQtOE1xOVF2RDJYUTlzX2R6NHBtWENfMmR5OXdUdFZsalJydkFiSVJyalgxVFd6Y3NiTlkzUFA0UVIzQzBYNUR5TXotamVvQ1M0a25vWGtfTHhVdjJINmJqaDFwMDREZXVTd2F4MmpRbnJkbWRqcDRUV2k2NzM1d9IBvwJBVV95cUxNM0RDWFlyQm5CaWtPUHk4VVZ4clB5VjJGR3BITlZBV3NwaEtQN0ZJMmlsZFhWa0pWZ2k2anRYT1V0aWk3R1AtRTMwNlpTV2lPSUJabWdYbFo4dlFzazRSb3VIODhLWUp3Y0xJSjdjem1fbzBsSXp3NzlYaHMxeGM2RDJBSFRpTURLLXJnSzFYM3FQYjVMUHlieTgtUHVkMTdOeGRWQ0JnVkNicURkTGN3YWFQNjJPTnpIZ1VEZGo4YktGMEh4blBtc25MRlJUZlNkTEdVUzVJMk5TN2dJeHcxWkhua1NQbjMtS0d0dkVITlZGd19PZGszVU05OXR5MjNia09vMDZHWjFTR3FzdkhobGVjZHBSN2lzRzNhaGlENEZ6TWRMeld0NkdNV1pkRzFya19YazFDM3hYdDhBcE5V",
-    "CBMieEFVX3lxTE9DbzZMX0d0dkZMMWF6cnhPSG0tRi05T0RjQVE1c1BiQURaRDVhRnpkN1RNWlVxN25DUl9aWmtQUkJzcXdrYnRXMTlNT29MVG8wU2hhbkVVd1F2WmR6QURKRlRWalBqVUhZX0prYU5QOTlQS2VNeDNVNg"
+    "CBMieEFVX3lxTE9DbzZMX0d0dkZMMWF6cnhPSG0tRi05T0RjQVE1c1BiQURaRDVhRnpkN1RNWlVxN25DUl9aWmtQUkJzcXdrYnRXMTlNT29MVG8wU2hhbkVVd1F2WmR6QURKRlRWalBqVUhZX0prYU5QOTlQS2VNeDNVNg",
+    "CBMi-AFBVV95cUxNN1FMRTJEc3ktUHVrSGs0MXZmb1M0QnVLeGJyZHYwSEY2eHRWUVJyXzdvc3lpQVk1T3QzdDdmVzJkekljQ0psc0l0UmxNT2prNVg0cTI3cDE2Y0xKOTBRTDk1UzdZRXZOY2RiX3pZcnI4cHBjdVI1OEY2cGJGQnhtcjBDcEdTSjBaZ3NKWGZmSnhNMUlQc3c3UzlIS19QV2FSMGRUU1F6NFVhaGN3T2c2V2l4MllWMXRJbkNnWXhNMTFFeWhiY2M5WEhMTnlyQlQxdFl2RFQ5eWhIUk42M1BqUmJYcmJCX3FpaWR4aWhZSzBMd0FLN3d0ZQ"
   ],
   "daily": {
     "d": "2026-09-16",
