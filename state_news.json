@@ -1,5 +1,7 @@
 {
   "seen": {
+    "dbe1ca678f7f87ee": 1789572731.621658,
+    "3c2c4cdc1300869f": 1789572731.1661813,
     "6af9db2da0bf50e0": 1789572602.9355712,
     "f95a1b700e11c292": 1789572579.0367424,
     "3e0768d0826e26fe": 1789572349.6270416,
@@ -2497,9 +2499,7 @@
     "fa9f02947e68f091": 1788603344.3609388,
     "259040c333cf192e": 1788603320.033378,
     "6e8d74deb3de93cb": 1788603318.8070698,
-    "27bc0392383ef0dd": 1788587800.73668,
-    "c53945213183f0be": 1788587735.383376,
-    "cf63f23e049dbaaf": 1788587735.1038148
+    "27bc0392383ef0dd": 1788587800.73668
   },
   "initialized": true,
   "v": 4,
@@ -4417,16 +4417,21 @@
       "source": "Operation Sports",
       "ts": "2026-09-16T15:15:00+00:00",
       "cluster": "c1d9cfc67fa"
+    },
+    {
+      "t": "Alexandre Pantoja ready to remind fans of his talent in rematch with Joshua Van at UFC 331",
+      "source": "CBS Sports",
+      "ts": "2026-09-16T15:22:00+00:00",
+      "cluster": "cb3ec4d2c99"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T15",
-    18
+    19
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Dan-Hooker-says-hed-fight-Francis-Ngannou-for-the-right-price-202620",
     "https://www.mmamania.com/?p=469025",
     "https://www.mmamania.com/?p=468970",
     "https://www.sherdog.com/news/news/DWCS-winner-says-he-saw-Charlie-Cleveland-knockout-coming-202615",
@@ -5925,7 +5930,8 @@
     "CBMie0FVX3lxTE94VzlQWGMwQmZZX0ZGaW1nMDBGSUloZmdlNF9GM0lFcUpkN2wxTWZfakVPOTQ2ZkZMU044QlVLdzB1NDhaTmZzM05abl9OOTVnQTFZOVNKUFJXS3JCTG5heldETGJNMWhLcHF0ck1yVWhFTDI4bHVrSnpkdw",
     "CBMivAFBVV95cUxNQ2pkWWhGZ1BYczlwWV9KM09rQVJoLUc2dnJJREJ5N2tsOURyZHNYR1RKbjZMVVUybDFzWExBZk16Y0g1QnBNSHNXME5RME1laWgyXzcxX1FoRmVOM3N0bktSb18yUE5VT1dCVWdUSU12UUlZVFk2aWdFRTFwYVdtTHpXRVMzdlEtM2F2ZlhlcW9vb0d0dHVfUkNpX2xVVlNJWnJOamktWENzbzlSdzVDYTJmTE5RTU5odjlXaQ",
     "CBMic0FVX3lxTFBqLXRZN3BQQ3d0RzNBeDBtdkVFalJCWXdhb3FoTEdNYTdoM0szQkFrU3VIUHJvYmM5NEdNaEtvUHFhX1RuWXRzZERkU09FWnBCOWpFM3JJVjdYb3pxYkx4V1pQejlGTFEyMUhpNFYxQjR3bmc",
-    "CBMi_AFBVV95cUxQaFo0OE9FdGpnd0pkYUxNdW5feEpHaXNMVUhJbWM5VTlUaERTX25YRXZHenBZRjQwQ3MyQWpjSjVWcjRIcmpvWi1SX1EzYXAtRXZQOEUzR3VlUE5zWHRkOTE1SzVOa3UyQ2Ziak1aZ0dXbW9zdUthc1l6ZXoxZXcyNVBNaDhMVmRXOHF6bU1CTzl4T1pGYWZEMUVYLUN5VlhTbjBORUszaE5xOXhhZ3g1cHNKaGlVZ0lBVWgwTXVCY09kaDA3TFJfVUpLc2NZZTFBaTVCaUFmMkxJbWZkLXdsYzF5bl9kczQ1XzdHMWd3MUktekVMbFltSTg4T0U"
+    "CBMi_AFBVV95cUxQaFo0OE9FdGpnd0pkYUxNdW5feEpHaXNMVUhJbWM5VTlUaERTX25YRXZHenBZRjQwQ3MyQWpjSjVWcjRIcmpvWi1SX1EzYXAtRXZQOEUzR3VlUE5zWHRkOTE1SzVOa3UyQ2Ziak1aZ0dXbW9zdUthc1l6ZXoxZXcyNVBNaDhMVmRXOHF6bU1CTzl4T1pGYWZEMUVYLUN5VlhTbjBORUszaE5xOXhhZ3g1cHNKaGlVZ0lBVWgwTXVCY09kaDA3TFJfVUpLc2NZZTFBaTVCaUFmMkxJbWZkLXdsYzF5bl9kczQ1XzdHMWd3MUktekVMbFltSTg4T0U",
+    "CBMikAFBVV95cUxPemV2MFJGRHdibG45djFCQ1BnVzk0aEZzdWdjUm1PbHZqWU9FVnh3dGxqSjVxeVI0bGN3WkktSDdyUWw1REpBVFJNUy1pcGtxem9pSld5bDdFVDFuNjY3eThkRXp4Q3pUQXczQkM5aHQtYllCVktYYjlCRDFRcVdFWE56RURiUHdmbTlTRE5PTWY"
   ],
   "daily": {
     "d": "2026-09-16",
