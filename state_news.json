@@ -1,5 +1,9 @@
 {
   "seen": {
+    "125461b8a52281c7": 1789570600.450981,
+    "a5af17bac87d5de9": 1789570600.18109,
+    "032c4ffd204c5ea6": 1789570600.1578243,
+    "55a816b8484c7f5a": 1789570600.156258,
     "1e3382444f307c90": 1789570534.775907,
     "6a8ac0fba7ac20c8": 1789570534.3265376,
     "952f118babc75d1d": 1789570468.9006371,
@@ -2495,11 +2499,7 @@
     "e43f53450f06aff5": 1788569660.385438,
     "51a25b435dd93375": 1788569660.104704,
     "f26a44b5f233ea21": 1788569595.5190923,
-    "a319277e2d42f70e": 1788569595.518701,
-    "b2f11201911ef907": 1788569530.4990509,
-    "4b9f7c2b31f4b87e": 1788569530.2186534,
-    "89e4aeccd64832cf": 1788569458.8302298,
-    "cb21b16e78a9a90c": 1788569458.5690162
+    "a319277e2d42f70e": 1788569595.518701
   },
   "initialized": true,
   "v": 4,
@@ -4317,16 +4317,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T14:00:00+00:00",
       "cluster": "c7f66a9e016"
+    },
+    {
+      "t": "Van Eyes Dominant Title Run After UFC 331",
+      "source": "boxingnews.com",
+      "ts": "2026-09-16T14:01:11+00:00",
+      "cluster": "c0133bd885d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T14",
-    18
+    19
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329927",
     "https://www.mmafighting.com/?p=508166",
     "37af5de5-0355-32b2-8c71-bf7c47a9f323",
     "fddcfbc0-0f7e-3cdd-b16d-482b3952a66d",
@@ -5825,11 +5830,12 @@
     "CBMidkFVX3lxTE4zMjJfVHRfZDg4WF9jbllRRlQ1S1NaRzVTc1BuUGczMmFqWG5PSmRvSDNPd3ZqMlZlX2NOUHJReU5wcDZ2bVYyd2g1eXlhVVlLeUtvZ3NpU0tBYXZ5THZrbVUtTUItM3hTQUJpNlBlRkMzdlFSUnc",
     "https://www.mmamania.com/472685/open-thread-september-15-2026-any-opinions-on-the-emmy-winners",
     "CBMioAFBVV95cUxPUk9VVkdQcEVpbG40SXQxdUlzdHVYU250ZlNMZnlBdHFyc0NyS3F3MmhINDZ5d1VHOEViUDllTUdWRWFBcTBSc0Y0TmJObHo4OGROcGtxRndOQlJDT3JfUmVpMUZWYjVSZV9EM1RnYzdGbHlhZk5hcFJvY281dXZjS0pscG0wMDFVMkR0Nzl2bk10X2pJMUJBdEthb0owLXBT",
-    "448f316d-a462-44d8-ad61-83dea9bf7630"
+    "448f316d-a462-44d8-ad61-83dea9bf7630",
+    "CBMiakFVX3lxTFBCSTRJZ0JPU1lwbVJzaXVyWXlwX2kzcHJidlJqaFRjT29pTkoyVDVBYXI3bkE0bHhOZUhMQ0M5SzBhWHNyWm1Zdkw4Z0J3MDJGREZtRURhejVYSlczd08wYWw0c1VVY3UzOXc"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 113,
+    "ai": 114,
     "staged": 2,
     "prio": 1,
     "lost": 0
