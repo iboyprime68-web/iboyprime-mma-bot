@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6af9db2da0bf50e0": 1789572602.9355712,
     "f95a1b700e11c292": 1789572579.0367424,
     "3e0768d0826e26fe": 1789572349.6270416,
     "62b604a8c54214e5": 1789572284.830765,
@@ -2498,8 +2499,7 @@
     "6e8d74deb3de93cb": 1788603318.8070698,
     "27bc0392383ef0dd": 1788587800.73668,
     "c53945213183f0be": 1788587735.383376,
-    "cf63f23e049dbaaf": 1788587735.1038148,
-    "ab5dbe9068bf0fb0": 1788587608.9016702
+    "cf63f23e049dbaaf": 1788587735.1038148
   },
   "initialized": true,
   "v": 4,
@@ -2511,10 +2511,6 @@
     {
       "t": "Jean Silva called out for a wrestling match by former UFC star who was axed from promotion",
       "ts": "2026-09-14T17:00:00+00:00"
-    },
-    {
-      "t": "Eddie Hearn releases statement after Tom Aspinall vacates UFC title",
-      "ts": "2026-09-14T15:30:00+00:00"
     },
     {
       "t": "UFC 331: Van vs Pantoja start time, undercard and how to watch fights this weekend",
@@ -4415,16 +4411,21 @@
       "source": "heavy.com",
       "ts": "2026-09-16T15:23:10+00:00",
       "cluster": "cfac8e0f67c"
+    },
+    {
+      "t": "Nate Diaz's savage Conor McGregor comparison about Ilia Topuria",
+      "source": "Operation Sports",
+      "ts": "2026-09-16T15:15:00+00:00",
+      "cluster": "c1d9cfc67fa"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T15",
-    17
+    18
   ],
   "yt_eval": [
-    "CBMijwFBVV95cUxPbU1PU2I1SFlldzlKSGl0OGxmbnpnVVItbERST2dnMXBON29qS2RycDhWZk8tbDd6QjAycGhoSkkyZGl1cnNtcWVuWnIxamhObnRzaVdBRThzbU5Rd0hJRldpdHZNMGlndmpHZVFNQjYtdE5UMkswck9ZZE5zbzhRbU1UaDctNGtDb2JCNWpnbw",
     "https://www.sherdog.com/news/news/Dan-Hooker-says-hed-fight-Francis-Ngannou-for-the-right-price-202620",
     "https://www.mmamania.com/?p=469025",
     "https://www.mmamania.com/?p=468970",
@@ -5923,7 +5924,8 @@
     "CBMiggFBVV95cUxNbFdIRV9xZ2dlY1g1UlIzZ3NwcWVyM085TXUzdmVub3VITEU4Um9kMlVlQWo5Wm9WNENnUFRGNnFLcnFwbkZnTzVRVHFaeTVNSWRieG9rM0xnR05tMjY3dU1hUmlyZEg5ZXFYeFZCb2czeFhjRVZPT0xJcTJOWFI0bDRn",
     "CBMie0FVX3lxTE94VzlQWGMwQmZZX0ZGaW1nMDBGSUloZmdlNF9GM0lFcUpkN2wxTWZfakVPOTQ2ZkZMU044QlVLdzB1NDhaTmZzM05abl9OOTVnQTFZOVNKUFJXS3JCTG5heldETGJNMWhLcHF0ck1yVWhFTDI4bHVrSnpkdw",
     "CBMivAFBVV95cUxNQ2pkWWhGZ1BYczlwWV9KM09rQVJoLUc2dnJJREJ5N2tsOURyZHNYR1RKbjZMVVUybDFzWExBZk16Y0g1QnBNSHNXME5RME1laWgyXzcxX1FoRmVOM3N0bktSb18yUE5VT1dCVWdUSU12UUlZVFk2aWdFRTFwYVdtTHpXRVMzdlEtM2F2ZlhlcW9vb0d0dHVfUkNpX2xVVlNJWnJOamktWENzbzlSdzVDYTJmTE5RTU5odjlXaQ",
-    "CBMic0FVX3lxTFBqLXRZN3BQQ3d0RzNBeDBtdkVFalJCWXdhb3FoTEdNYTdoM0szQkFrU3VIUHJvYmM5NEdNaEtvUHFhX1RuWXRzZERkU09FWnBCOWpFM3JJVjdYb3pxYkx4V1pQejlGTFEyMUhpNFYxQjR3bmc"
+    "CBMic0FVX3lxTFBqLXRZN3BQQ3d0RzNBeDBtdkVFalJCWXdhb3FoTEdNYTdoM0szQkFrU3VIUHJvYmM5NEdNaEtvUHFhX1RuWXRzZERkU09FWnBCOWpFM3JJVjdYb3pxYkx4V1pQejlGTFEyMUhpNFYxQjR3bmc",
+    "CBMi_AFBVV95cUxQaFo0OE9FdGpnd0pkYUxNdW5feEpHaXNMVUhJbWM5VTlUaERTX25YRXZHenBZRjQwQ3MyQWpjSjVWcjRIcmpvWi1SX1EzYXAtRXZQOEUzR3VlUE5zWHRkOTE1SzVOa3UyQ2Ziak1aZ0dXbW9zdUthc1l6ZXoxZXcyNVBNaDhMVmRXOHF6bU1CTzl4T1pGYWZEMUVYLUN5VlhTbjBORUszaE5xOXhhZ3g1cHNKaGlVZ0lBVWgwTXVCY09kaDA3TFJfVUpLc2NZZTFBaTVCaUFmMkxJbWZkLXdsYzF5bl9kczQ1XzdHMWd3MUktekVMbFltSTg4T0U"
   ],
   "daily": {
     "d": "2026-09-16",
