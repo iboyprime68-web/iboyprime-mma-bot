@@ -1,5 +1,6 @@
 {
   "seen": {
+    "84f8b65961051548": 1789517069.3205438,
     "adc949082115ca6c": 1789517044.5189865,
     "446320354361efbd": 1789517044.1366742,
     "09936c0eea98a019": 1789517020.7051709,
@@ -2498,8 +2499,7 @@
     "935de7e404c36237": 1788529126.014738,
     "947f3721c5c01d52": 1788529125.8281577,
     "2bc73f16fb5d70b4": 1788529102.5208294,
-    "9dfa1bb9f74bfa08": 1788529102.2494435,
-    "7226a170aee583c6": 1788529102.2492156
+    "9dfa1bb9f74bfa08": 1788529102.2494435
   },
   "initialized": true,
   "v": 4,
@@ -3945,16 +3945,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-16T00:00:00+00:00",
       "cluster": "c1af879e183"
+    },
+    {
+      "t": "Dana White's Contender Series 92 live updates, round-by-round coverage",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-15T22:30:13+00:00",
+      "cluster": "c10ff17a49e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T00",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMiqAFBVV95cUxNeGR5YTRNMENYTTFCR011TVVBTS0ybjlRdERXSzJkcTdhX3daeUNIVVZMek5qWnpmbnItenBKdjJMWnh3dnRDYVVOYk9Ba0UwUlBUSi1KcUJhV2hyOHg3bU5rS0FLV0NYRmRhbVZJc1Q3UC1ZYTJWSlhZaVkxSFJ0M3lieWZhWmRJeUlxWkJIQkdGREhvNU5tM1JIZHFLd1VRVnJFajZXd0Q",
     "CBMisAFBVV95cUxNekVGMGlmYmZ0T1VTTTdYSEhxVW1rTENybnd3MnQ0RkJFNXdQaHpaN3UtblhRZzNkVW1OZmQxZkxiTlg0WHRoRlh5T1ZaV0VBVExxNnRYQ3dEN0NvT0hQSHNmVjl2VXFJMHgxWE85UUthaUZXb0pEYzlLaUVjbDN2ODQ3Y3dobHZOS2ZNLXRVMURwM2FwazBlaGdadGItRVM3c25DbkJpTVRVOF8yYTJKcw",
     "https://bloodyelbow.com/?p=329898",
     "CBMirAFBVV95cUxOUnR5a210OWFTSVlsQWJaZnF1aHd1a3M1NVZ3Rl9NcGM1ejh4Sm5Mb0pndG9rTkJUOXd0RzRYYVA2TWVMVE80b2RGZmVFU0hCZ0VNVjJXc1cwY1NTbUp5MW9VeVZRYXFnUU5vbnFacC1kVFRNRFBFa2FoSG5qT3BxOTF2YTVKN2F0QVNUWmdHMDlsQk5GS2ZlUnpweldYRTAwZmZONTkzd3R2ZEE1",
@@ -5453,11 +5458,12 @@
     "CBMipwFBVV95cUxPM2tWTkYxNno2VG5qOF9IMGM5c1FRb21EbUpkV2VZZWFnMVBHTlh5aGpPMHhUYlp0a0pGVEIxX01MVmtpU1EtdE9LTUF1Nm1VUjk1SnVBUEl6V1kzc2xwLTZyb0hCdnlzcnloWDJKOW1zMFo5Q1Q2bjZPMThTN1dGYWZqenJCYzNpMXBMaXUzQUpnLUh0SkFucE9ORHI2Q1d0Z1VUM29HNA",
     "d4ed8dbd-4a67-4f1e-ac00-92ac60b832a7",
     "https://bloodyelbow.com/?p=331758",
-    "https://bloodyelbow.com/?p=331762"
+    "https://bloodyelbow.com/?p=331762",
+    "142eb027-908d-3419-958d-7011f1849661"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 3,
+    "ai": 4,
     "staged": 0,
     "prio": 0,
     "lost": 0
