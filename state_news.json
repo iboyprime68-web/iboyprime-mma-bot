@@ -1,5 +1,6 @@
 {
   "seen": {
+    "fe9161d42660deb9": 1789553492.8670797,
     "cc5d6610ea4f276a": 1789553429.3997867,
     "89129660f02fc0c3": 1789553302.398084,
     "1e20844c54d80740": 1789553237.5580668,
@@ -2498,8 +2499,7 @@
     "58c43792f9b13086": 1788562438.281171,
     "39620b45f95f31c7": 1788562415.7940447,
     "84a6d7a30dfb915e": 1788562393.1102092,
-    "f3f30f5f26dc9a78": 1788555628.056531,
-    "41052c8aea2042a3": 1788555564.8249288
+    "f3f30f5f26dc9a78": 1788555628.056531
   },
   "initialized": true,
   "v": 4,
@@ -4349,16 +4349,21 @@
       "source": "Khel Now",
       "ts": "2026-09-16T09:58:55+00:00",
       "cluster": "c29504babeb"
+    },
+    {
+      "t": "Report: Adrian Yanez draws surging, never-finished opponent for UFC 334",
+      "source": "Sherdog",
+      "ts": "2026-09-16T07:01:36+00:00",
+      "cluster": "c1f8024bbc5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T10",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMingFBVV95cUxPTlNvakhrSEtZVm1aTTdxRjk0Wi1KOXFnd0k1elplaVBpOXVHeEt1T0pKME9Tak40UDM4Q05VUS1VOWNTdkQwZG9OM0ZXX2R5SUZLX2xkajdWb00ydHNQVkJWN2xyNnh5MzhRMkJzdkdOYk1ZR1FTLTRWLXEtUzB2SkhLYWIxR0ZQSGM5QlRXdFBNazlmaVRidFlJVk5kUQ",
     "CBMi-AFBVV95cUxORXFLZ2kzdHZNWGlDa091RldKN19fekg4OWo1UHZNNlhFQWdoODVQX1FtdlY5QmMtVlJpMkpuakZCYlB6RWZwY3RGcWM5SWQ5Z214MjFXWGllazhWQ0FpMk9vTVdPZnQwdTdJVm5QaE9WWExpUWZFVGpHT25ZVHJVVURCSTBUUm1ZaFFoOU5pWWZNWHM5ZHBvanhaZDlpZkJORFZrUWJ2aWhQa3BTSnppbEdRTkRLcmVocDhZZ25UVmtpcGFlTnJjUFdWaFA0T0dsQUlUUzVUOVJORm1ER3hnMl9kb0MwM280TFV6ajRzSHBaemxnTnlHbQ",
     "38c1f82c-8d4d-3a7b-95de-c36af21359f1",
     "CBMiZ0FVX3lxTE5NM0lRWlJyQjY0dmRrSTBnVEhybE1KQnYtaXg3NlVjMnhrc3VhZXc4anR3M0RXeVhGNVFXV0ZEcVlMckVzTTJQZWc5dVdvb19wRm9UeGlCYVBweHEtYi03UUQ5MERoN3c",
@@ -5857,11 +5862,12 @@
     "https://www.sherdog.com/news/news/Igor-Cavalcanti-erases-DWCS-heartbreak-with-98second-TKO-202825",
     "https://www.sherdog.com/news/news/Dade-County-police-officer-stays-perfect-earns-UFC-contract-on-DWCS-202826",
     "CBMikwFBVV95cUxNM0UxZ1hmU09keDV0V1c5RjEtcnotX3plREplb2kwNWRzdHVNZFFndFpic2Y1S3ZfSlFDd05fZ05rcElpSFY4LThuTm1lR2YxMzRFbzE4ekNIYWxNMDAzcW16UGpZU2VnckNMNVoyLVY3M051RHhVdHRhYUpJQmlST25LZ3ZSZ213Ty1SN1NIVThiWkE",
-    "CBMia0FVX3lxTE1ZVGpIX0U4bUxRbzJVamNLbkZMVXZkSTdRUXlHZ1hOWl8tdTJDUHUxdjVIX1ZHZ2VlamcyaGpXNFU5RTFKaVNvaUM1cTJGZTk3RnBCWkdWQ2hXaEFmeWU4T3dBNmJycnZXc0Zv"
+    "CBMia0FVX3lxTE1ZVGpIX0U4bUxRbzJVamNLbkZMVXZkSTdRUXlHZ1hOWl8tdTJDUHUxdjVIX1ZHZ2VlamcyaGpXNFU5RTFKaVNvaUM1cTJGZTk3RnBCWkdWQ2hXaEFmeWU4T3dBNmJycnZXc0Zv",
+    "https://www.sherdog.com/news/news/Report-Adrian-Yanez-draws-surging-neverfinished-opponent-for-UFC-334-202827"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 90,
+    "ai": 91,
     "staged": 0,
     "prio": 1,
     "lost": 0
