@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9cc45d91102f85fe": 1789569874.488374,
     "76f3b7c41bc7fc6d": 1789569850.2678573,
     "0fd978be32060541": 1789569825.6284761,
     "9030d9690c330ac1": 1789569798.8985205,
@@ -2498,8 +2499,7 @@
     "bb39309bd23398e7": 1788562857.763654,
     "4d1ca984f2a67641": 1788562833.8469968,
     "51f1716c61edd1e3": 1788562811.1600258,
-    "23ddebdae1a5fecf": 1788562788.3234084,
-    "60a1b72ab73129f1": 1788562787.9885848
+    "23ddebdae1a5fecf": 1788562788.3234084
   },
   "initialized": true,
   "v": 4,
@@ -4241,16 +4241,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T11:17:55+00:00",
       "cluster": "cd4416236b0"
+    },
+    {
+      "t": "UFC 331 roundtable: Can Joshua Van become one of the faces of the UFC?",
+      "source": "MMA Fighting",
+      "ts": "2026-09-16T13:32:39+00:00",
+      "cluster": "ceaa2232b91"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-16T14",
-    4
+    5
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508104",
     "CBMigwFBVV95cUxQTE1XbGhaYjhvcjVGTF9lZHZ5TGhub3NEb0pRc2ZabEZ0T2NQZVJrTzgzMmRpX3FHb0hGaFpyTVl3SjBPWlFrc2RRRDRzNWo1YWV2RG1lUWtndmg3LTc1bHlmNkU1UnctdGx3dUlXSjZRNm56cmFneU9KZzlJN0FXc0R2OA",
     "CBMieEFVX3lxTE5ScmlVMlRDNGJmVmI0ZzUtaEoxUlhTZlVGT2tJQVNMMm5OMzY0Z09XSEdFVXpUM19WRjRWRHZQTTNBaGdWd00zREpLeUk0N1VVZm1na3dDbVdpMFhzeEZ0U21yNzUyRHEzd0JfaFlROEgxMkVmcl9Ncw",
     "https://www.mmamania.com/468768/open-thread-august-31-2026-star-trek-or-star-wars",
@@ -5749,11 +5754,12 @@
     "https://bloodyelbow.com/?p=331808",
     "https://bloodyelbow.com/?p=331829",
     "https://bloodyelbow.com/?p=331827",
-    "9dd2ffa0-860c-3c12-9fd3-d2bd483aea8f"
+    "9dd2ffa0-860c-3c12-9fd3-d2bd483aea8f",
+    "https://www.mmafighting.com/509515/ufc-330-roundtable-is-islam-makhachev-the-next-pound-for-pound-great-to-fall"
   ],
   "daily": {
     "d": "2026-09-16",
-    "ai": 99,
+    "ai": 100,
     "staged": 1,
     "prio": 1,
     "lost": 0
