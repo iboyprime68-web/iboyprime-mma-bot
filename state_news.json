@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9c270de9f2ee2815": 1789677424.3688636,
     "b2527f132bb0241d": 1789677360.3141744,
     "37ad1218e9e21c1f": 1789677359.970337,
     "66f9b12f3d9e7851": 1789677296.1350584,
@@ -2498,8 +2499,7 @@
     "5073ba5b1bac5dc9": 1788810185.7103674,
     "7a96896ce54717ca": 1788810161.7570252,
     "65955a6d5bb4e96c": 1788796854.7844176,
-    "86703bf8de151631": 1788796789.8615518,
-    "70815eb65f8a5efb": 1788796789.6209707
+    "86703bf8de151631": 1788796789.8615518
   },
   "initialized": true,
   "v": 4,
@@ -4807,13 +4807,19 @@
       "source": "MiddleEasy",
       "ts": "2026-09-17T20:34:05+00:00",
       "cluster": "ce63ab683ab"
+    },
+    {
+      "t": "Luke Rockhold picks between Jon Jones and Islam Makhachev for MMA GOAT",
+      "source": "MMAWeekly.com",
+      "ts": "2026-09-17T20:30:00+00:00",
+      "cluster": "cdaf0740a54"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T20",
-    30
+    31
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=469162",
