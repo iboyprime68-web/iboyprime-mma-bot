@@ -1,5 +1,6 @@
 {
   "seen": {
+    "74b7b007538a9948": 1789663207.5197158,
     "3e97ae4144b6a5d8": 1789663184.3018568,
     "f271c63e5dd78ffc": 1789663161.532127,
     "8dbd242bcb5fe1f0": 1789663139.4550803,
@@ -2498,8 +2499,7 @@
     "ab2c7aba5917192a": 1788753026.8288455,
     "b20893343c35d8ae": 1788752959.113879,
     "b0a8578689778697": 1788752958.744686,
-    "abd0a7a817778d10": 1788752893.6314166,
-    "d5f1a8d0530a8a2a": 1788752893.3107548
+    "abd0a7a817778d10": 1788752893.6314166
   },
   "initialized": true,
   "v": 4,
@@ -4663,13 +4663,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-17T13:30:05+00:00",
       "cluster": "c9b2375afcd"
+    },
+    {
+      "t": "Ilia Topuria stays on the attack with Justin Gaethje and manager: ‘F—k you still stands’",
+      "source": "MMA Mania",
+      "ts": "2026-09-17T12:15:59+00:00",
+      "cluster": "c234be013a3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T16",
-    12
+    13
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=469162",
