@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3e2b33566c3f5c6f": 1789604404.6684546,
     "f5ffa964e416bcd7": 1789604338.3531687,
     "680635c68fea0d09": 1789604337.9790084,
     "8c5d38aed5552714": 1789604337.9721398,
@@ -2498,8 +2499,7 @@
     "a8644713ab9a21dd": 1788673316.307677,
     "3f066ba2e1c94db7": 1788673269.9123425,
     "ba695d0e97b06767": 1788673246.7961478,
-    "6600f8214cef5d4b": 1788656437.221455,
-    "88e65f6550dd65d0": 1788656412.02552
+    "6600f8214cef5d4b": 1788656437.221455
   },
   "initialized": true,
   "v": 4,
@@ -4651,16 +4651,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-16T23:31:45+00:00",
       "cluster": "cc287f629db"
+    },
+    {
+      "t": "Ilia Topuria Sends Stern Warning to Justin Gaethje & His Manager",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-16T23:32:52+00:00",
+      "cluster": "ce947715330"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T00",
-    10
+    11
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508273",
     "437ee346-2b3f-3b24-823c-84f1eca91030",
     "https://bloodyelbow.com/?p=329971",
     "732c252f-f14e-30fa-8ae8-b16d131aaa04",
@@ -6159,11 +6164,12 @@
     "CBMirgFBVV95cUxQSll5WURua194LWduUDR2eUd4cnRSeVdLSmJHbUtSWHloRWVja3VBV2MyUUFZTzhqRXNCWHpFNHZNT1JBeUo5STJIRjIyNk5MUTUwbzl6X1JHVl9ONnc4R3REREJWZjRKYzF6dGtHdXJzc3kxSWN6bVNnaDRMemdBLWpkRTNlazFhQXU4dmV1ZGZ4ZUZfc3YtYUxBeVctYVY1em9wLUdLWFhLcEowbHc",
     "CBMiqwFBVV95cUxQX2lLRkdBSG1KMzNBcHpFSVlraUMtdi0xcmhLOFVHOWdzcXBMYngzMVloRVFhWmZFbFBpNFdFX2NMRVp1NWRldDlXZm9vSTl5NjFtT19yeWxkN3ZEVGxfWllTWU1tZXYxMU9DY3dWdnFRNGpIWlFVR2p6SWF0aHdYUTBuSGlwbnRFUkF2T0ZjN0g2U09fTGNVWnktckVsMjlrOUtXMElLX3pjVVk",
     "https://www.mmamania.com/?p=472753",
-    "CBMijwFBVV95cUxNUktuWHlqWFRyS0xqQmZzSWpFR3h3emQ4RXUwRmJMQ0ROanpwdXBfVTZmd1FIX3l0dUQxcURWOF8wcUFJM21LWGdkYTNfX1o3QTZDYlVxOHNoRWpPT1E3cVpwVzJtUjNRY2M4TFFQY2U5d0pFa2FjdTRGTE0wYXFuaDlEZUxQV0dMS0xvUzRoQQ"
+    "CBMijwFBVV95cUxNUktuWHlqWFRyS0xqQmZzSWpFR3h3emQ4RXUwRmJMQ0ROanpwdXBfVTZmd1FIX3l0dUQxcURWOF8wcUFJM21LWGdkYTNfX1o3QTZDYlVxOHNoRWpPT1E3cVpwVzJtUjNRY2M4TFFQY2U5d0pFa2FjdTRGTE0wYXFuaDlEZUxQV0dMS0xvUzRoQQ",
+    "CBMiiAFBVV95cUxOdEJzYU9pcXptSF9uQ0QwM29VSUpCTGpXWjRrT0t1eEZ1MW5NUjdzQUVWR3ZyMDBLTUUwOVV2eFFMWWhRSWYxNVFRREgweW5UNlBXeS1zNXBPLVRWN1VHSmRsZTZmNW85MjI2M1NuQ1NHT2ttelV3WUN2QlFER1I1emVwaVBIOE9u"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 10,
+    "ai": 11,
     "staged": 2,
     "prio": 0,
     "lost": 0
