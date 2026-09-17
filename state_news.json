@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cfcaeaf240b72884": 1789604010.2670422,
     "66f32557c7c156ff": 1789603985.713579,
     "eeb17c79d25a247e": 1789599101.1723042,
     "ee37370aa429135e": 1789599101.1566901,
@@ -2498,8 +2499,7 @@
     "50a9d769f96d6ccf": 1788655747.4031615,
     "8e037fc06714e3e1": 1788655747.0493588,
     "a0a3023d7958d046": 1788655703.3587236,
-    "17f8f705e3fc9dfb": 1788655638.2926939,
-    "59bc2cab0c2991b9": 1788655572.9586887
+    "17f8f705e3fc9dfb": 1788655638.2926939
   },
   "initialized": true,
   "v": 4,
@@ -4597,16 +4597,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T22:50:25+00:00",
       "cluster": "cf6dd522f8b"
+    },
+    {
+      "t": "Joshua Van offers prediction for UFC 331 title fight against Alexandre Pantoja as he promises ‘banger’",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-16T23:00:00+00:00",
+      "cluster": "c268d02db59"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T00",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMid0FVX3lxTFAyZ2xxanhBdFRkMXFVMXVrd3dFb3J1dTh0dEJwemI0a1pxNm5scy1OQXFPZ3lWM2Y2SWk5bEQ0elI2N056NDBSUkpmdU9PX09XU1ZBN2pZdWlhZnZaS2otRkJuaXd2VFYxNktwbWY4eUVRdC05aENv",
     "CBMimAFBVV95cUxNZ1RIWVNXZEV1SlRsYTNSRUlZNHpoRmI3Z3poS1BqZDhXSDZlMlFDZ1V0MUJQZkY4YzlIS1FONlh0ZEw3NE1HVUxNVWgyaWQ0LUFaUjNrbVNGR3FCeVVUVE4zRzhOTXNYbHZYQm9BYW1ZOUdKZzJVUEoxa3NueEFGbThhN2NWMHBydFY3alpYbVR5YnFmN1ZpRw",
     "85f3aa41-ec66-32a6-9766-b4cdf8111013",
     "9020e5d4-e4a9-361c-80c9-1b5e7d42efc1",
@@ -6105,28 +6110,17 @@
     "CBMid0FVX3lxTFBOemFuYjc3RXdhbXRrVGhlTUxNdGdMa3F0TTNRaG5vd2cxZ1FzcFhnQ2RoQVphN09PR1FoaVpQZEtoa3RJdm92MGpXYTMzdXhsOU1jRGRpUlc0NTd5U2pQV21ieXhYQjhVcXkzQ2I3a1FRaUwwZTBB",
     "CBMigAFBVV95cUxNSlhxX042TjExamRndlk2d2hfV1QzVE5kZjBiTHZETGlrUmNWQ3lYOE9ibjhCc2YyZHRZb3Z0MGlZanUySVlraXpwMHpURFBrYVN1bktNYTRlQ1FtRDlHaWYwSmd5U0d2MHZ0RnljUU9LMlhaaVVSSndMSlBDYmg1Sg",
     "CBMivwJBVV95cUxNdWtTaWFvdjBFdEhsVDRqOWNQajNvQURxckNkMFJqcTdkaXNqUHltQ1B4dUhDWU9OQTB5QzRhX1o3UWdvcnY5eGhoWlRoWTkwdnNJSkRubEJ6bm5NS1k5TTh0Um5PZUh5YkZycGNraVdlZkFpYnhLX3hiU0ZIblQ5cVQ0VDNUZ1lQWlVmdzBXcEdEZFQxUHlPQkFnYzE2R3k1dV95cnVBYV9RajA5OUlualRJNElZMkdDUGEzNGZQaGhzbnFOQmhCZjhqTndWRFR3bnZ5YlRPV3UtUnZTOXIxU0lLR04wTlRiQnJXSHMwVm9FalpiSDJDb1kyLWpfVXBEVHpUUTRldDlwMjBmTEpfSkpLZmdmcnJwUUYwNGpSbF9xVFBTOTJFSmV1LTBuSUZsM3lNV3ZwdWM2U2FRUEw0",
-    "e718a907-eafa-397c-9856-7354cee45a7f"
+    "e718a907-eafa-397c-9856-7354cee45a7f",
+    "https://bloodyelbow.com/?p=331914"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 1,
-    "staged": 0,
+    "ai": 2,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-06T00:55:02.873817+00:00",
-      "t": "Valentina Shevchenko Vacates UFC Women’s Flyweight Title",
-      "names": [
-        "valentina",
-        "shevchenko",
-        "vacates",
-        "women",
-        "flyweight"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-06T00:57:15.216520+00:00",
       "t": "Broken Foot, Fractured Eye Sockets: Ilia Topuria Reveals Shocking Extent of Injuries from Justin Gaethje War",
@@ -6930,6 +6924,15 @@
         "benn",
         "garcia",
         "ryan"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-17T00:13:31.338400+00:00",
+      "t": "Joshua Van offers prediction for UFC 331 title fight against Alexandre Pantoja as he promises ‘banger’",
+      "names": [
+        "van",
+        "pantoja"
       ],
       "img": "photo"
     }
