@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1118788c3cbf3025": 1789646031.1101694,
     "b30eb83f0cb10a8c": 1789645535.9390845,
     "50d30ab161bcaf50": 1789645348.516854,
     "ffa0781f54e09258": 1789645347.7779613,
@@ -2498,8 +2499,7 @@
     "02506a9e7c247b61": 1788738256.7222939,
     "5105b705d018f72d": 1788738255.8791566,
     "7025bf93c053d7bc": 1788738191.029742,
-    "b8cb1a1e0a264069": 1788738190.3909822,
-    "90a7717bfe60eee6": 1788738190.3895347
+    "b8cb1a1e0a264069": 1788738190.3909822
   },
   "initialized": true,
   "v": 4,
@@ -4801,16 +4801,21 @@
       "source": "cbssports.com",
       "ts": "2026-09-17T11:19:14+00:00",
       "cluster": "c7bbf20b3aa"
+    },
+    {
+      "t": "UFC’s New Protein Bars Have One Of 2026’s Trendiest Ingredients",
+      "source": "Sporked",
+      "ts": "2026-09-17T11:46:13+00:00",
+      "cluster": "c5f6b40ce6a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T11",
-    17
+    18
   ],
   "yt_eval": [
-    "2c0640c5-6a63-3c87-9b01-5f06ac41abe1",
     "https://bloodyelbow.com/?p=330031",
     "51d04203-899c-3abd-b8b6-d6fb029d8334",
     "ae064f5b-5e64-35c8-a235-ddfd4661315f",
@@ -6309,22 +6314,17 @@
     "CBMigAFBVV95cUxNeWxZNXZRMmQ2aFFnWXFxbk10Q0U4UTZndm5MZEd1cmVSSldWck1jeGpXdlBOdHIzMngxY3gtWWE5VF92clRZbHpNX1Y3QWNlakZ4bmlVQzV4bHBWUzFzVnpPZlYwbHhjX1N5UFNwT1B4UjBzcS1wSlhpQm1lZ0hYZQ",
     "CBMi0AFBVV95cUxQeTJUVDJQa1QxU2lvWTIzeXhjT1lNNTdZelhibGNuVnA1SmJuLTVLZkd6MjRZS21laDZmdDBuaVVBUVkxYUx4ZjhzalZPY0xFakdhTkhONTRMYkp0Q2EzVElwTUdVdGE1azNHZkdIcGJtX0VuQlVtY25yM3BicFRLUmJyT21ZYWVpaV9vNHBnTVBqeXhkT2xQMTBwYUExUm16MFlWTEpjdGtPNzFoeXdlWGpQUTJGZXFvYjRzWkVGY0h5ZlNGNHVZeXNVRlpKYVZa",
     "CBMiqwFBVV95cUxQY3FYb1BKRHd6NFBWR1ZwYXBoOUVMcFdfNDJYaG1POHU1eWRIVUFKdFlQUDJTdDBUSVY0eDQ3dkd3a1A2Z0dzNGhHdUh0RlZ6RGdYY0FycVNyb1hOWU1VN0s5MWdJRGZveG5la0J2WTdXbGVHMDljZFp5RGQwTXZEdWlqMEdQeDQ1Wi0wbmliaEd4b3ZjLWtpN0dQZXNlVEFfZ3ZqeXlkVXF5X1k",
-    "CBMilgFBVV95cUxPdVBtTzZtbGNBMlBkY1Rod2doM3FtZ3A4N1pISzctNmRJaHdXWVdSWnQxNTZvQTJrdDBEZ3RjdTNQbnFkZUNXTUVMWEZOUVY5MHBjSzVhYmtrOVpsdFpSbWcyRjk5Wllkc08yU0RjYjVsSDlmbld1UDNBMnFlcktmdUZaN3M5SlhzY2RhVTVvbUlHNThzd3c"
+    "CBMilgFBVV95cUxPdVBtTzZtbGNBMlBkY1Rod2doM3FtZ3A4N1pISzctNmRJaHdXWVdSWnQxNTZvQTJrdDBEZ3RjdTNQbnFkZUNXTUVMWEZOUVY5MHBjSzVhYmtrOVpsdFpSbWcyRjk5Wllkc08yU0RjYjVsSDlmbld1UDNBMnFlcktmdUZaN3M5SlhzY2RhVTVvbUlHNThzd3c",
+    "CBMiZ0FVX3lxTE1RYzRRdnRqX1kxWERmaE9nVFZUblJDalVHSV80b2hsb2tycUNqa1BrNzBvSlVJSmFSamJBR1k5LVlJV2FBeGJfdGR2Y0tNbmUyOFFRckl3QzRBd0laUElwRDVtYzc3a00"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 73,
-    "staged": 4,
+    "ai": 74,
+    "staged": 5,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-06T10:42:16.177113+00:00",
-      "t": "UFC champion forced to vacate belt as immediate title fight confirmed",
-      "names": [],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-06T11:00:22.834193+00:00",
       "t": "Watch Dan Hooker almost fight a fan after his knockout loss to Salahdine Parnasse at UFC Paris",
@@ -7131,6 +7131,19 @@
         "fighters"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-17T11:53:52.180367+00:00",
+      "t": "UFC’s New Protein Bars Have One Of 2026’s Trendiest Ingredients",
+      "names": [
+        "new",
+        "protein",
+        "bars",
+        "have",
+        "one",
+        "ingredients"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7176,7 +7189,8 @@
     "da3cdb964912da92": 1789479642.546479,
     "adcb6edca7a424fa": 1789571068.3570611,
     "113db2dc3424ad42": 1789584380.338866,
-    "f877a2b08a2bf2af": 1789625119.0781114
+    "f877a2b08a2bf2af": 1789625119.0781114,
+    "1118788c3cbf3025": 1789646030.7029326
   },
   "pinged_titles": [
     [
@@ -7184,6 +7198,18 @@
       1789625119.0781114,
       [
         "u-turn"
+      ]
+    ],
+    [
+      "UFC’s New Protein Bars Have One Of 2026’s Trendiest Ingredients",
+      1789646030.7029326,
+      [
+        "bars",
+        "have",
+        "ingredients",
+        "new",
+        "one",
+        "protein"
       ]
     ]
   ]
