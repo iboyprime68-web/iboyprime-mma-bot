@@ -1,5 +1,6 @@
 {
   "seen": {
+    "fd39c0a3171771cb": 1789664666.3650923,
     "c4d780b053bf63b8": 1789664602.170479,
     "7a2be8cafbcd77a1": 1789664601.9677775,
     "3b56a92e12143176": 1789664538.6610317,
@@ -2498,8 +2499,7 @@
     "4450fa35e5d46dab": 1788772898.0125678,
     "5f8311551dc79b67": 1788772833.670486,
     "0463de61678bc607": 1788772769.3532355,
-    "79838ffec12308f7": 1788772704.6661677,
-    "9ff3049fa2948d2d": 1788772660.1624749
+    "79838ffec12308f7": 1788772704.6661677
   },
   "initialized": true,
   "v": 4,
@@ -4813,13 +4813,19 @@
       "source": "Sports Illustrated",
       "ts": "2026-09-17T16:47:27+00:00",
       "cluster": "ce4b2075418"
+    },
+    {
+      "t": "Tito Ortiz admits regrets over bitter Dana White feud, wants to repair relationship: 'I messed up'",
+      "source": "sports.yahoo.com",
+      "ts": "2026-09-17T16:57:32+00:00",
+      "cluster": "c1b15aa00f6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T17",
-    6
+    7
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=469162",
