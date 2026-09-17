@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2d0b0ac52aa2b941": 1789646099.7054362,
     "1118788c3cbf3025": 1789646031.1101694,
     "b30eb83f0cb10a8c": 1789645535.9390845,
     "50d30ab161bcaf50": 1789645348.516854,
@@ -2498,8 +2499,7 @@
     "eee24731b026a889": 1788738322.709958,
     "02506a9e7c247b61": 1788738256.7222939,
     "5105b705d018f72d": 1788738255.8791566,
-    "7025bf93c053d7bc": 1788738191.029742,
-    "b8cb1a1e0a264069": 1788738190.3909822
+    "7025bf93c053d7bc": 1788738191.029742
   },
   "initialized": true,
   "v": 4,
@@ -4807,16 +4807,21 @@
       "source": "Sporked",
       "ts": "2026-09-17T11:46:13+00:00",
       "cluster": "c5f6b40ce6a"
+    },
+    {
+      "t": "Muhammad Mokaev upset with UFC offer: ‘They wasted two years of my life’",
+      "source": "MMA Mania",
+      "ts": "2026-09-17T11:50:32+00:00",
+      "cluster": "ce4d6fecb50"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T11",
-    18
+    19
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330031",
     "51d04203-899c-3abd-b8b6-d6fb029d8334",
     "ae064f5b-5e64-35c8-a235-ddfd4661315f",
     "cadc698b-4cef-37d5-977d-fd913ed7dfd9",
@@ -6315,11 +6320,12 @@
     "CBMi0AFBVV95cUxQeTJUVDJQa1QxU2lvWTIzeXhjT1lNNTdZelhibGNuVnA1SmJuLTVLZkd6MjRZS21laDZmdDBuaVVBUVkxYUx4ZjhzalZPY0xFakdhTkhONTRMYkp0Q2EzVElwTUdVdGE1azNHZkdIcGJtX0VuQlVtY25yM3BicFRLUmJyT21ZYWVpaV9vNHBnTVBqeXhkT2xQMTBwYUExUm16MFlWTEpjdGtPNzFoeXdlWGpQUTJGZXFvYjRzWkVGY0h5ZlNGNHVZeXNVRlpKYVZa",
     "CBMiqwFBVV95cUxQY3FYb1BKRHd6NFBWR1ZwYXBoOUVMcFdfNDJYaG1POHU1eWRIVUFKdFlQUDJTdDBUSVY0eDQ3dkd3a1A2Z0dzNGhHdUh0RlZ6RGdYY0FycVNyb1hOWU1VN0s5MWdJRGZveG5la0J2WTdXbGVHMDljZFp5RGQwTXZEdWlqMEdQeDQ1Wi0wbmliaEd4b3ZjLWtpN0dQZXNlVEFfZ3ZqeXlkVXF5X1k",
     "CBMilgFBVV95cUxPdVBtTzZtbGNBMlBkY1Rod2doM3FtZ3A4N1pISzctNmRJaHdXWVdSWnQxNTZvQTJrdDBEZ3RjdTNQbnFkZUNXTUVMWEZOUVY5MHBjSzVhYmtrOVpsdFpSbWcyRjk5Wllkc08yU0RjYjVsSDlmbld1UDNBMnFlcktmdUZaN3M5SlhzY2RhVTVvbUlHNThzd3c",
-    "CBMiZ0FVX3lxTE1RYzRRdnRqX1kxWERmaE9nVFZUblJDalVHSV80b2hsb2tycUNqa1BrNzBvSlVJSmFSamJBR1k5LVlJV2FBeGJfdGR2Y0tNbmUyOFFRckl3QzRBd0laUElwRDVtYzc3a00"
+    "CBMiZ0FVX3lxTE1RYzRRdnRqX1kxWERmaE9nVFZUblJDalVHSV80b2hsb2tycUNqa1BrNzBvSlVJSmFSamJBR1k5LVlJV2FBeGJfdGR2Y0tNbmUyOFFRckl3QzRBd0laUElwRDVtYzc3a00",
+    "CBMirwFBVV95cUxNemNnMVMtWHN5SGs4WXBKR0FmSkNJTnFpTzQ0SzV0UWVaSklwblN3dUc0bURycFJkTVJYemVFakd4eC02U3luQ19zRmlPQzZHbmhxbkstMXhFRWxkNXllX01MWmtqWUV6MFRHMDNrU3IzeTlnbXp1MG1DR0hDaW41ZkI5VU9ZYUlSNVVLUlEzV3RjemRSbGNKcWpQSDA5TzRTd2VoZ1h4SWVON3YxRXYw"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 74,
+    "ai": 75,
     "staged": 5,
     "prio": 1,
     "lost": 0
