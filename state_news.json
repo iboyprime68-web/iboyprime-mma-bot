@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6cdda2de3822c819": 1789604537.5683653,
     "650cd01915bcc942": 1789604471.0886548,
     "2b1848ed3605c1d3": 1789604470.7318647,
     "652028cc1cdcc2ef": 1789604470.7270257,
@@ -2498,8 +2499,7 @@
     "aa90050ff80a414a": 1788673555.658941,
     "74b54ee3ea04b898": 1788673555.1983998,
     "d865aed2f0827a2b": 1788673509.8123271,
-    "36dd4c010eb97e62": 1788673444.6045847,
-    "58317a8504658ff5": 1788673380.6981466
+    "36dd4c010eb97e62": 1788673444.6045847
   },
   "initialized": true,
   "v": 4,
@@ -4663,16 +4663,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-16T23:34:52+00:00",
       "cluster": "cbfd123aa3b"
+    },
+    {
+      "t": "Gable Steveson responds to Sean Sharaf’s UFC 331 attack",
+      "source": "MMA Mania",
+      "ts": "2026-09-16T23:35:43+00:00",
+      "cluster": "c0dedf89d27"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T00",
-    12
+    13
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329971",
     "732c252f-f14e-30fa-8ae8-b16d131aaa04",
     "67bd47c2-ade7-3ef0-85a5-adf7b6e412c0",
     "f67cc80a-b0de-31c0-bcaa-ad80aa844798",
@@ -6171,11 +6176,12 @@
     "https://www.mmamania.com/?p=472753",
     "CBMijwFBVV95cUxNUktuWHlqWFRyS0xqQmZzSWpFR3h3emQ4RXUwRmJMQ0ROanpwdXBfVTZmd1FIX3l0dUQxcURWOF8wcUFJM21LWGdkYTNfX1o3QTZDYlVxOHNoRWpPT1E3cVpwVzJtUjNRY2M4TFFQY2U5d0pFa2FjdTRGTE0wYXFuaDlEZUxQV0dMS0xvUzRoQQ",
     "CBMiiAFBVV95cUxOdEJzYU9pcXptSF9uQ0QwM29VSUpCTGpXWjRrT0t1eEZ1MW5NUjdzQUVWR3ZyMDBLTUUwOVV2eFFMWWhRSWYxNVFRREgweW5UNlBXeS1zNXBPLVRWN1VHSmRsZTZmNW85MjI2M1NuQ1NHT2ttelV3WUN2QlFER1I1emVwaVBIOE9u",
-    "CBMigAFBVV95cUxOQV9HMnVfQy1pUm5Wa3Z0cktSNTdaakktc0I4Ti0wUVduaEVoZmJDVWtGYTRuSVN2QjZuMUpKdzRWb2lnNHhTODZDVVF0TE9QY25zR0NvcldpamdPZ21FSVozT2xCNDVaaE1jMEpKeElBVnhDbzZ5aVM4NDdZVjBqTQ"
+    "CBMigAFBVV95cUxOQV9HMnVfQy1pUm5Wa3Z0cktSNTdaakktc0I4Ti0wUVduaEVoZmJDVWtGYTRuSVN2QjZuMUpKdzRWb2lnNHhTODZDVVF0TE9QY25zR0NvcldpamdPZ21FSVozT2xCNDVaaE1jMEpKeElBVnhDbzZ5aVM4NDdZVjBqTQ",
+    "CBMiqgFBVV95cUxNcEZfRV9PZUlUVmx6TFhoUE44eDd3eFpFdjNfYVVIRjhDaENfMUxhaWhKOTdfWnB5YXExemQ5SWd4UW85dElkOHl6bTg2SzRHUnRMLVhVZnlCakZLcWxfYVRSUDUxUDhIRzREVEphaE14WEZjMHFTbm43YTBya3JocjlEUVViOV9NRDItdC1WNFVGejJlUUdrdjZWWkRYcllBSmROdk5LaG5kZw"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 12,
+    "ai": 13,
     "staged": 2,
     "prio": 0,
     "lost": 0
