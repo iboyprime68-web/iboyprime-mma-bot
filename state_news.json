@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1baaaa90a5475374": 1789624921.2588785,
     "d4937d05c11c4dc4": 1789624855.4868472,
     "a2031f6e12d43aea": 1789624789.9357255,
     "18fc634e8c14445a": 1789624789.6905308,
@@ -2498,8 +2499,7 @@
     "bdbe4821718ed3e0": 1788721222.4395864,
     "80eb84a74ca12d22": 1788721198.661727,
     "19fddf4ea151084f": 1788721127.4155972,
-    "f2c95cfa9281057d": 1788721061.6215045,
-    "22d82e03785fce8f": 1788721016.5801039
+    "f2c95cfa9281057d": 1788721061.6215045
   },
   "initialized": true,
   "v": 4,
@@ -4627,16 +4627,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-17T03:31:15+00:00",
       "cluster": "cbd2cd88fde"
+    },
+    {
+      "t": "Robelis Despaigne says UFC exit fixed the hole in his heavyweight game",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-17T04:26:55+00:00",
+      "cluster": "c6b2cdc8f14"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T06",
-    1
+    2
   ],
   "yt_eval": [
-    "cf86c2bf-40f1-394e-97ed-7f406365838b",
     "9c12110e-75b2-4c29-8e77-605928d221e1",
     "55b6395c-54df-34a7-b4e2-5cf15eec3d46",
     "6f9be24f-90eb-3339-926f-6ad5313855b2",
@@ -6135,11 +6140,12 @@
     "def02ffe-6672-37c8-a3b9-67a9b2c7eeef",
     "https://www.sherdog.com/news/news/Muhammad-Mokaev-reveals-why-he-turned-down-recent-UFC-title-opportunity-202831",
     "e7ec60f5-6ec2-3626-9c4d-a3fcb3203add",
-    "94bb713c-eea0-30a4-a67a-c76d2bfa1ba6"
+    "94bb713c-eea0-30a4-a67a-c76d2bfa1ba6",
+    "ba47a79c-c42d-37d5-bf70-a5e593f9ca35"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 37,
+    "ai": 38,
     "staged": 3,
     "prio": 0,
     "lost": 0
