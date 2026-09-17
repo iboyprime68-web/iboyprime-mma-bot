@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a34c95adb5b819fd": 1789644333.6239789,
     "80b09c1022d7b1de": 1789644269.1824045,
     "6f71c63372451a85": 1789644204.2591364,
     "08241ea413cdd9c6": 1789644179.658287,
@@ -2498,8 +2499,7 @@
     "d20a7ee41675567f": 1788731793.7839391,
     "080aa75f0101a0a3": 1788731544.6721144,
     "fc2581840e5804f1": 1788731544.3685818,
-    "a57f058e1e410e77": 1788731480.1639194,
-    "36dc311a55b29cc6": 1788731353.9755714
+    "a57f058e1e410e77": 1788731480.1639194
   },
   "initialized": true,
   "v": 4,
@@ -4753,16 +4753,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-17T10:54:35+00:00",
       "cluster": "c5ace0764f7"
+    },
+    {
+      "t": "Dana White Has Just Brutally Cut Nine Fighters From the UFC Roster All at Once",
+      "source": "GiveMeSport",
+      "ts": "2026-09-17T10:57:19+00:00",
+      "cluster": "ca22329a472"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T11",
-    9
+    10
   ],
   "yt_eval": [
-    "CBMi0AFBVV95cUxNT2RicXpNV2ZCNmxXR25HcEYwMW8wSTY1blRzZGJUX1FONWthMWw0X0F5dWFoNm1hUkp1T2t4eWo2ejNvdWdSUTVuMEx0ZGx4NkVrbV90b0FVWjluWFplNjFqWkdJLXpBdk9FaExUNWdIa19YeWVoUjJqV2dmMi1qQW1fRTJValRValBBTWFrU0V5TFFEY2p5UFh1Vm9Yb0NYMkViYWJxVFAtTDdKT05zcXRJMmNQQmRPWXBORUFmbHUxTHJKaWktaExvRTI3andr",
     "66ea4e2c-c740-3872-8b5d-d473b60aadb9",
     "CBMigwFBVV95cUxOYmtmYnA0U1NPZkdlUE5aZWpra2xIa2h5WFZPOWM3aURmbi1GTG9hVDFfOE85dTYteEZfdVdJOWF5ZlpYMnA3OERJOGk0NS1CanNDSjI1eGdNZHRxMUVyXzd3dFRfMEE3b0NtSlQ4cVBsU3RfaXpzVWpUQWNyRm1MaWpNNA",
     "https://www.mmamania.com/?p=469159",
@@ -6261,27 +6266,17 @@
     "CBMi3wJBVV95cUxQOW1KMjNTblJYTmMtcm1EbjJ4QzFjSkZqR00zY01wOHE2VmdQUmxQZkQzdjcyZFpOeUNTczRwSHN3Tjg4bjNVLTBWUExacXlsUDRseU0tU2tLSjNQQ0tCLUZxNHl4enVIQ2RBVXVldlhmemhLbVNQVlZaNW5jSUt2QmxVTzB0M3NQUy1rWElNMzk1SUoyQjVhUktqb1V0UkNzU3Q1SDZ0WDhSWmN4Rm13alZ0U0h1VlU1eTFiV0NRc1VwQVBGOGhWSXR0MXpaYTlDWGtRUVpORnJmbkcyc2tCd1F2bTJDUmVKNE0yV0ZOSTlYblk0OXpCY281ZXJzSG5QRDlPTVJURm1XSkJsRmhMMWlFdi1zWTZqQVRRX2x4dEU1V3Y2Nm5kTjk1Zjd4eVUtbXUzN0hmVTdkdTBxM09FdV82UVhhVnF0TE9URmx3TmZTNmlNVFdKRE16Ykc2UGfSAeQCQVVfeXFMUDVpX1ZsQXNUeHJVVzduLW1oMDgxVVg3YVk5c0xTZXVxUTNYUE5vSjJXV0hNYjdscjVGT0F3YTZMT2RlT3Fnel9zQ3JET0NtRUE1czFkMlBjeERtSjdocDVZaTR6SzZTbTVrWmlqQ1p1RVptVjZ2ZlMwcGZoeU9odm01X2FlU1E4QlVfQUFSdkxkdGhxWXc3YlJ0TWszdWtMX3lVbGVSOXFGWGFxdDcwM19odzR6dFhteGh6X2ZwNHdPZHF0YWVDOWJlOEdZUzc3cmp6cHFtUUlxOFpGVzJXVUplUEdWbnAtNzFaM3lweG1HTGpzaVh0R1JLOXptdHNKeUhfcnFlbnI5WmZZUkZQS3ZiVWNFR25Vek9xc1hiRklQRldzYXNfcXQzSFVMQ2Vpb2c1VkExdEZGZktMRG5OU1FSYWNGLVJ6Wk9ISWpPR25DS3JyTGNlMGpvOWJNMDFudXdPQ2w",
     "https://www.sherdog.com/news/news/Alexandre-Pantoja-fully-healed-ready-to-reclaim-UFC-title-from-Joshua-Van-202843",
     "CBMilwFBVV95cUxPTXpTTkd4VG9qb3p5VU5LVDFPWlVqRDJfOXZyTXc3MU5sWnd0c05OdTlzd3pzVUEwLXVzQWNhdks2am1mT29OV2ZxWGpyM2NFMlZtRGJMZC0zektHUnNzY0tTY3VUQllHb2lZYjd3SEt4UmdyOXpQdEJ3b0JtWncyNFAyaUVBTnk2NzV3U1ZoVXBFQ1c2OThB",
-    "CBMiwAFBVV95cUxNNHBGcXU4ajE1bUx2VGhtay1Oc0ZKSkpZU09RWWZsb1BnWWpSbVE5WGVTZ1RKLU1UZXF4bmVJRFJTRk5ZeDQ3V3hEUmZzX1d5RmNFbjNhMW02UHg1S2VYblpzN3Zrek9MN1VQb3BYM1hHY2VvTnRjWXlSbVl3eGlWR3ZFbHJhNGh3MXRsZnpVQ19RZGg0TU9weV9VLW9UWjE0amdBdGpHYUs5b3JEZjNud3ZBZ180WDZJeXZiQW04Mks"
+    "CBMiwAFBVV95cUxNNHBGcXU4ajE1bUx2VGhtay1Oc0ZKSkpZU09RWWZsb1BnWWpSbVE5WGVTZ1RKLU1UZXF4bmVJRFJTRk5ZeDQ3V3hEUmZzX1d5RmNFbjNhMW02UHg1S2VYblpzN3Zrek9MN1VQb3BYM1hHY2VvTnRjWXlSbVl3eGlWR3ZFbHJhNGh3MXRsZnpVQ19RZGg0TU9weV9VLW9UWjE0amdBdGpHYUs5b3JEZjNud3ZBZ180WDZJeXZiQW04Mks",
+    "CBMieEFVX3lxTE94ekdVOUVLTEwxNHA4SnJZLU9BS0hrbXY0SFRCUE5YTVlhTExRVjlGTFdENWtqVHJhdEZUT1ZTWTBnZEowTUd2YmZuLUlLRTFsMUxCbEJHT01LTHF2czd4cV9nU09tcGE3Uk1JRWw5Zk4xVGtOeHQxdA"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 65,
-    "staged": 3,
+    "ai": 66,
+    "staged": 4,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-06T05:51:00.253831+00:00",
-      "t": "Natalia Silva vs. Wang Cong title fight to main event UFC 332, injured Valentina Shevchenko stripped of Flyweight crown",
-      "names": [
-        "silva",
-        "cong",
-        "shevchenko",
-        "flyweight"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-06T10:42:16.177113+00:00",
       "t": "UFC champion forced to vacate belt as immediate title fight confirmed",
@@ -7077,6 +7072,21 @@
       "names": [
         "u-turn",
         "protege"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-17T11:25:34.822195+00:00",
+      "t": "Dana White Has Just Brutally Cut Nine Fighters From the UFC Roster All at Once",
+      "names": [
+        "dana",
+        "white",
+        "has",
+        "just",
+        "brutally",
+        "cut",
+        "nine",
+        "fighters"
       ],
       "img": "photo"
     }
