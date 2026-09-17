@@ -1,5 +1,7 @@
 {
   "seen": {
+    "50d30ab161bcaf50": 1789645348.516854,
+    "ffa0781f54e09258": 1789645347.7779613,
     "330e9bf045c96298": 1789644976.0509133,
     "b2b530afbecdc237": 1789644726.1860137,
     "227a9b59ffe48766": 1789644600.5910122,
@@ -2497,9 +2499,7 @@
     "7025bf93c053d7bc": 1788738191.029742,
     "b8cb1a1e0a264069": 1788738190.3909822,
     "90a7717bfe60eee6": 1788738190.3895347,
-    "429ecb4e9cdb47af": 1788738166.104862,
-    "5cbb74f3f0d58ecc": 1788738120.925036,
-    "a40770436a121dae": 1788738120.4863715
+    "429ecb4e9cdb47af": 1788738166.104862
   },
   "initialized": true,
   "v": 4,
@@ -4795,16 +4795,21 @@
       "source": "Sportskeeda",
       "ts": "2026-09-17T11:30:00+00:00",
       "cluster": "c75456dc096"
+    },
+    {
+      "t": "DWCS Week 6 Highlights: Zevan Hunt vs Mayton Perea Stream of MMA",
+      "source": "cbssports.com",
+      "ts": "2026-09-17T11:19:14+00:00",
+      "cluster": "c7bbf20b3aa"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T11",
-    16
+    17
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/508103/raf-11-arman-tsarukyan-vs-colby-covington-match-card-start-time",
     "2c0640c5-6a63-3c87-9b01-5f06ac41abe1",
     "https://bloodyelbow.com/?p=330031",
     "51d04203-899c-3abd-b8b6-d6fb029d8334",
@@ -6303,11 +6308,12 @@
     "https://www.mmamania.com/?p=472782",
     "CBMigAFBVV95cUxNeWxZNXZRMmQ2aFFnWXFxbk10Q0U4UTZndm5MZEd1cmVSSldWck1jeGpXdlBOdHIzMngxY3gtWWE5VF92clRZbHpNX1Y3QWNlakZ4bmlVQzV4bHBWUzFzVnpPZlYwbHhjX1N5UFNwT1B4UjBzcS1wSlhpQm1lZ0hYZQ",
     "CBMi0AFBVV95cUxQeTJUVDJQa1QxU2lvWTIzeXhjT1lNNTdZelhibGNuVnA1SmJuLTVLZkd6MjRZS21laDZmdDBuaVVBUVkxYUx4ZjhzalZPY0xFakdhTkhONTRMYkp0Q2EzVElwTUdVdGE1azNHZkdIcGJtX0VuQlVtY25yM3BicFRLUmJyT21ZYWVpaV9vNHBnTVBqeXhkT2xQMTBwYUExUm16MFlWTEpjdGtPNzFoeXdlWGpQUTJGZXFvYjRzWkVGY0h5ZlNGNHVZeXNVRlpKYVZa",
-    "CBMiqwFBVV95cUxQY3FYb1BKRHd6NFBWR1ZwYXBoOUVMcFdfNDJYaG1POHU1eWRIVUFKdFlQUDJTdDBUSVY0eDQ3dkd3a1A2Z0dzNGhHdUh0RlZ6RGdYY0FycVNyb1hOWU1VN0s5MWdJRGZveG5la0J2WTdXbGVHMDljZFp5RGQwTXZEdWlqMEdQeDQ1Wi0wbmliaEd4b3ZjLWtpN0dQZXNlVEFfZ3ZqeXlkVXF5X1k"
+    "CBMiqwFBVV95cUxQY3FYb1BKRHd6NFBWR1ZwYXBoOUVMcFdfNDJYaG1POHU1eWRIVUFKdFlQUDJTdDBUSVY0eDQ3dkd3a1A2Z0dzNGhHdUh0RlZ6RGdYY0FycVNyb1hOWU1VN0s5MWdJRGZveG5la0J2WTdXbGVHMDljZFp5RGQwTXZEdWlqMEdQeDQ1Wi0wbmliaEd4b3ZjLWtpN0dQZXNlVEFfZ3ZqeXlkVXF5X1k",
+    "CBMilgFBVV95cUxPdVBtTzZtbGNBMlBkY1Rod2doM3FtZ3A4N1pISzctNmRJaHdXWVdSWnQxNTZvQTJrdDBEZ3RjdTNQbnFkZUNXTUVMWEZOUVY5MHBjSzVhYmtrOVpsdFpSbWcyRjk5Wllkc08yU0RjYjVsSDlmbld1UDNBMnFlcktmdUZaN3M5SlhzY2RhVTVvbUlHNThzd3c"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 72,
+    "ai": 73,
     "staged": 4,
     "prio": 1,
     "lost": 0
