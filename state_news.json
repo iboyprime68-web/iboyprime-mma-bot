@@ -1,5 +1,6 @@
 {
   "seen": {
+    "39837ada9d22cb5d": 1789604085.1728263,
     "e00998cf57bd2b5e": 1789604061.6625383,
     "076205ff5759cd74": 1789604061.1503134,
     "2c9030068a05cd12": 1789604036.757132,
@@ -2498,8 +2499,7 @@
     "0809dabb17140c0c": 1788655967.5647995,
     "643857a8f9a466a3": 1788655902.7776837,
     "c8c13db9db8b672a": 1788655837.1890423,
-    "bf5fca3adf50ebef": 1788655771.823709,
-    "50a9d769f96d6ccf": 1788655747.4031615
+    "bf5fca3adf50ebef": 1788655771.823709
   },
   "initialized": true,
   "v": 4,
@@ -4615,16 +4615,21 @@
       "source": "Sports Illustrated",
       "ts": "2026-09-16T23:15:00+00:00",
       "cluster": "caae7943d8c"
+    },
+    {
+      "t": "Joe Rogan wasn’t a fan of fight that got Tai Tuivasa’s UFC 331 foe re-signed: ‘Please don’t do that’",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-17T00:00:00+00:00",
+      "cluster": "c4830b62b9b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T00",
-    4
+    5
   ],
   "yt_eval": [
-    "9020e5d4-e4a9-361c-80c9-1b5e7d42efc1",
     "c03cb07e-3f64-33be-872e-11ab57c046e0",
     "https://www.mmafighting.com/?p=508202",
     "https://www.mmafighting.com/?p=508224",
@@ -6123,11 +6128,12 @@
     "e718a907-eafa-397c-9856-7354cee45a7f",
     "https://bloodyelbow.com/?p=331914",
     "https://www.mmafighting.com/?p=510607",
-    "CBMiswFBVV95cUxPZXYyRjY5cjl6Z2wxNlFzNElQUVoxRVdTNEstQVExY211WV9IWlZxZjVyM1ZZR2c4d0RfakNXdnZkQldTR2VQeFMtRk1iM2xmWjBCc2ZBZVUzT1J2M0tlc1FoSDZuZUVoUHNkZU5sS19EcEl0a1o3d0xVOVZ0SlAyUG9nOW5iQ3JBeUNlQ1p1TTNKdFVyWGEyUzRSV0JaSDNhUUtvUmRkcmllNXBVUnVPaFQzSQ"
+    "CBMiswFBVV95cUxPZXYyRjY5cjl6Z2wxNlFzNElQUVoxRVdTNEstQVExY211WV9IWlZxZjVyM1ZZR2c4d0RfakNXdnZkQldTR2VQeFMtRk1iM2xmWjBCc2ZBZVUzT1J2M0tlc1FoSDZuZUVoUHNkZU5sS19EcEl0a1o3d0xVOVZ0SlAyUG9nOW5iQ3JBeUNlQ1p1TTNKdFVyWGEyUzRSV0JaSDNhUUtvUmRkcmllNXBVUnVPaFQzSQ",
+    "https://bloodyelbow.com/?p=331927"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 4,
+    "ai": 5,
     "staged": 1,
     "prio": 0,
     "lost": 0
