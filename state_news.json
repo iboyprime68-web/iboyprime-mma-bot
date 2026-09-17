@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f271c63e5dd78ffc": 1789663161.532127,
     "8dbd242bcb5fe1f0": 1789663139.4550803,
     "ceef17088a25fbd7": 1789663117.242541,
     "a5b43d5533d32f46": 1789663094.6841612,
@@ -2498,8 +2499,7 @@
     "b0a8578689778697": 1788752958.744686,
     "abd0a7a817778d10": 1788752893.6314166,
     "d5f1a8d0530a8a2a": 1788752893.3107548,
-    "52ad50e45de912e2": 1788752827.479933,
-    "b48307ebd962f299": 1788752799.6069322
+    "52ad50e45de912e2": 1788752827.479933
   },
   "initialized": true,
   "v": 4,
@@ -4651,13 +4651,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-17T15:45:17+00:00",
       "cluster": "c4c460ce241"
+    },
+    {
+      "t": "Underwhelming UFC 332 card defended by one of two former champions fighting at the event",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-17T16:00:00+00:00",
+      "cluster": "c3e698c784c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T16",
-    10
+    11
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=469162",
