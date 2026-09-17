@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f6fe8fae4348d1d0": 1789626678.6197515,
     "f225882ab4c666e5": 1789626591.072504,
     "44089995d03e7122": 1789626273.9809716,
     "6ea8cf91b1e7a7ac": 1789626273.7217512,
@@ -2498,8 +2499,7 @@
     "e4e81ec0f95b3993": 1788730089.7827592,
     "9c8203b90c9f5974": 1788730089.013478,
     "532f8fa74226ccf0": 1788730089.0116591,
-    "8eaafd0a179260e9": 1788730089.0087333,
-    "72a8f671917f201f": 1788730089.00696
+    "8eaafd0a179260e9": 1788730089.0087333
   },
   "initialized": true,
   "v": 4,
@@ -4717,16 +4717,21 @@
       "source": "Sherdog",
       "ts": "2026-09-17T04:53:47+00:00",
       "cluster": "c3e5ac4cfba"
+    },
+    {
+      "t": "Topuria’s trainer overrules Dana White and pushes his UFC return to February 2027",
+      "source": "Lente Desportiva",
+      "ts": "2026-09-17T06:30:00+00:00",
+      "cluster": "ccf9bd44c79"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T06",
-    17
+    18
   ],
   "yt_eval": [
-    "CBMixAFBVV95cUxPR0hxVUlTdXp4RFV1ZkRzeVZwODcwSFg5SWdTSjFqeFpCRG9nX1p4WkExc1JNM29GNXhCcU5NMDA2STJUSWVRY29nc1pZQTdyRUZCNUs2Z2ZnY0dBNFQ4WlZRSjZBVWg3eTRhRUJxWFEwVDRSdkdLUWxjUjRnR3lsck0wQzM3V1dNNlowRnMwUUpqZVBkVTgwdk1mN1V4ZC1sTC1YWUVxVzMzcC1ycDRhSWJnUFRvVzFyZUZTUHF2WEhIYnl3",
     "CBMixgFBVV95cUxOMW5BYzJxNVczVHdVVHhlbTlKSkgyYkhRbWpuaGxKd3dlUmZkQ3BDQnM2Y1pqb1JsUzJiMV9fMVlZbEJQR0E2dnJGeXllQkRXeE5nQzNVd0FfTDNaSHJWdU1yLUpYQXhDTDdHcEpHNkxUaDhjWjhQS25fNEduMTVaaFF2Tk44UmhmNXNNckN4eGRsM0Fud3k1dWpyenV6bUNNaFVYRFFRd09FeDB6UlJRMEZrMzVhdkEtNGNFOE1Bd3JoQzgxdWc",
     "CBMisAFBVV95cUxQZzV4SVZ4X0R4THk1c3E1RmtLTmhCZkxCZWNPWlBTQ3NhOVoycWlDQzNLTW4wRXF5Vkc4Vi12b1RNcE1SY3pHTVdtS054Rk93Y3NiUTBuTmpHNUcxcldlbnF2ZmtsT1VleEdUb1psNmF5MFJHMmszSEF3cDlsaWlrUUtJeEY2ZmxUYTBLRjEzMnpadENiRklOc1MxQ0pjaTNHTFhiRFdjcHN2UGFTVG1PSQ",
     "CBMi9AFBVV95cUxORlRwLW9qRC1QVjBvTEhxbVpmSHR6RldLdV91Yzd0VGJTY1NtUF9ZdnhodVpwZ1hJcGFyT05UdzFsWXlCTmcwU1FGRWZOMkhxem41YURRMUl1VXIwaFBHVjU0WHRIYTU3S1R1bWhUOGVfLW05Y01IWTF4c3hfSi1nWjVwRzc3SExobWplTE9scWFJQ1I4MGY4RDhoOW9yYnJ2bnhGZ1hyWWtJa1E1Uk1HLXR6QzlSQTRjQnhSLUpfTGlVZ0hNNHU4NlZ0Zm5CWDlJcHFrT0hORGt0cG1BeEVObTVfcHIwTjF5RC1ONVlWU3lGMmxv",
@@ -6225,11 +6230,12 @@
     "https://www.sherdog.com/news/news/Paulo-Costa-wants-his-UFC-jacket-after-claiming-200-drug-tests-202836",
     "CBMijgFBVV95cUxNYUVoaElMSHpHRHU0bFBIejVyc3JQakxkdmttMFJVLXMyOGktUVBCZV9uQTM4RGk5T0ZBbkZaSTdQR1hIYXVyTG0yY0x0X0F6SUdvcXpJSTZwLVdXcm15dGc1RmpHV3BMUVFSZG53RjhjX0x4MG5MOGpJMUR2TTk2N09Hc1NqdHJIeFJmYTJn",
     "https://www.sherdog.com/news/news/Arman-Tsarukyan-rips-Ilia-Topurias-Justin-Gaethje-glove-claim-Just-excuses-202830",
-    "https://www.sherdog.com/news/news/Ilia-Topuria-cleared-for-UFC-return-takes-shot-at-Justin-Gaethje-202838"
+    "https://www.sherdog.com/news/news/Ilia-Topuria-cleared-for-UFC-return-takes-shot-at-Justin-Gaethje-202838",
+    "CBMirgFBVV95cUxQTzdFdE90b0tKcVlidGNDRDJjc0gtVkxfV3JMMTItRGVxU2k1OFI0NG4wU2lkSHljeE9xRTdwWmh3ZEdrbFBvMlZfZ0RXUWp1bW5IVnV3LVlMU3lhbGFEejZreDhwX0xkaDdPTzdCYVdKWDJCTmd4eEMwTUZTWVQyaWFjOFYxcm10OGtqQkd5N3c5ZndzbXp6dEUyN2xDNUlTXy1kVTNmaWlmaHgtVWc"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 53,
+    "ai": 54,
     "staged": 3,
     "prio": 1,
     "lost": 0
