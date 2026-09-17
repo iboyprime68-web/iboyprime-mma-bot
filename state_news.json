@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6ca9ea5ae4cbdf63": 1789624513.847974,
     "37f50074a959d631": 1789624488.752202,
     "ce5f5a6739295ce5": 1789624465.2881305,
     "cc194b64dc726fbe": 1789624440.273603,
@@ -2498,8 +2499,7 @@
     "8b4f65cedfd697dc": 1788713792.9914799,
     "1ef9225abf0a06a6": 1788713728.4647121,
     "d2e6cb1ab99feb2d": 1788713704.3759098,
-    "d474b8ff9cdce0fa": 1788713681.287622,
-    "6cea1046373b59a0": 1788713658.359924
+    "d474b8ff9cdce0fa": 1788713681.287622
   },
   "initialized": true,
   "v": 4,
@@ -4579,16 +4579,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T03:00:00+00:00",
       "cluster": "c2059466d4a"
+    },
+    {
+      "t": "Paddy Pimblett and Hollywood's Tom Hardy set up BJJ training session",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-17T01:24:16+00:00",
+      "cluster": "c0beb37a67b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T05",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMisgFBVV95cUxONW10dUl2aUtlVnFtSWFoN1phUlE5ckJBZHFlZ3NhS1hUOUhpWEJGeFFud3V5dGg4WGloLThsd0lvRTVLYkt1TjZoeW05SzVSeWRTay1fN1ZwNUIxdXZkUWsxS0VqQWQ0cDVWOTAxZ1N0bUxObFdYR194N2pzc3RwQmIzWl9kQ3RMYjVjTDZVcGFBMzg0TkFqRmk2bUU5RWdVSXdUWEJDMWRPLWhOdTcxbXZB",
     "https://www.mmafighting.com/?p=508080",
     "https://www.mmafighting.com/?p=508302",
     "https://bloodyelbow.com/?p=330007",
@@ -6087,11 +6092,12 @@
     "https://bloodyelbow.com/?p=331939",
     "a4a2d46d-d8a9-3555-9c69-336656c21ede",
     "https://bloodyelbow.com/?p=331945",
-    "https://bloodyelbow.com/?p=331952"
+    "https://bloodyelbow.com/?p=331952",
+    "56ccff6b-4464-3ff5-9cab-4f0df1b12324"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 29,
+    "ai": 30,
     "staged": 2,
     "prio": 0,
     "lost": 0
