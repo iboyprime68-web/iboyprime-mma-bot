@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2d1f6d73f3911eb2": 1789624583.9080493,
     "3ffb29685e5240e6": 1789624537.9799213,
     "4d53d03187fbcaac": 1789624537.7116795,
     "6ca9ea5ae4cbdf63": 1789624513.847974,
@@ -2498,8 +2499,7 @@
     "6a0a3efb2de3882a": 1788713900.9178808,
     "45704a2da0d2ca5b": 1788713857.3465497,
     "c203796cb0cc028a": 1788713856.9828184,
-    "8b4f65cedfd697dc": 1788713792.9914799,
-    "1ef9225abf0a06a6": 1788713728.4647121
+    "8b4f65cedfd697dc": 1788713792.9914799
   },
   "initialized": true,
   "v": 4,
@@ -4591,16 +4591,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T05:00:00+00:00",
       "cluster": "c69b03f645f"
+    },
+    {
+      "t": "Alex Pereira Takes Dig at Ciryl Gane Ahead of Potential UFC Heavyweight Title Upgrade",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-17T01:34:05+00:00",
+      "cluster": "c06d9d31f72"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T05",
-    5
+    6
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508302",
     "https://bloodyelbow.com/?p=330007",
     "https://bloodyelbow.com/?p=330011",
     "4d9c97a4-0cef-3046-a374-1441d14b5a5d",
@@ -6099,11 +6104,12 @@
     "https://bloodyelbow.com/?p=331945",
     "https://bloodyelbow.com/?p=331952",
     "56ccff6b-4464-3ff5-9cab-4f0df1b12324",
-    "https://bloodyelbow.com/?p=331970"
+    "https://bloodyelbow.com/?p=331970",
+    "3af09137-a692-3935-97d1-fc099c77808f"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 31,
+    "ai": 32,
     "staged": 2,
     "prio": 0,
     "lost": 0
