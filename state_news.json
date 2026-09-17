@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cf21b0170b0dcfd6": 1789604130.9594111,
     "39837ada9d22cb5d": 1789604085.1728263,
     "e00998cf57bd2b5e": 1789604061.6625383,
     "076205ff5759cd74": 1789604061.1503134,
@@ -2498,8 +2499,7 @@
     "b09f77460d133f64": 1788656032.546977,
     "0809dabb17140c0c": 1788655967.5647995,
     "643857a8f9a466a3": 1788655902.7776837,
-    "c8c13db9db8b672a": 1788655837.1890423,
-    "bf5fca3adf50ebef": 1788655771.823709
+    "c8c13db9db8b672a": 1788655837.1890423
   },
   "initialized": true,
   "v": 4,
@@ -4621,16 +4621,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T00:00:00+00:00",
       "cluster": "c4830b62b9b"
+    },
+    {
+      "t": "Arman Tsarukyan Reveals Surprising Name who Can Defeat Ilia Topuria",
+      "source": "MMA Sucka",
+      "ts": "2026-09-16T23:16:11+00:00",
+      "cluster": "cdc7c2831ee"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T00",
-    5
+    6
   ],
   "yt_eval": [
-    "c03cb07e-3f64-33be-872e-11ab57c046e0",
     "https://www.mmafighting.com/?p=508202",
     "https://www.mmafighting.com/?p=508224",
     "33690c23-a60d-377c-bf45-1708759d1edb",
@@ -6129,11 +6134,12 @@
     "https://bloodyelbow.com/?p=331914",
     "https://www.mmafighting.com/?p=510607",
     "CBMiswFBVV95cUxPZXYyRjY5cjl6Z2wxNlFzNElQUVoxRVdTNEstQVExY211WV9IWlZxZjVyM1ZZR2c4d0RfakNXdnZkQldTR2VQeFMtRk1iM2xmWjBCc2ZBZVUzT1J2M0tlc1FoSDZuZUVoUHNkZU5sS19EcEl0a1o3d0xVOVZ0SlAyUG9nOW5iQ3JBeUNlQ1p1TTNKdFVyWGEyUzRSV0JaSDNhUUtvUmRkcmllNXBVUnVPaFQzSQ",
-    "https://bloodyelbow.com/?p=331927"
+    "https://bloodyelbow.com/?p=331927",
+    "CBMimgFBVV95cUxQUmJjalBLWHdTQWVsd0hEYzN5a0ZGZUtveTBYSVJfVFp1ZVc0Qy1la3l4WmQ2UmJvMS1WUGIyMTIzQ0hsQ3BDR3VybDNWUVB0a0VYNVZtb21LclZUNmFkTGo0ZEgxdUJramhyVDlzU3l2OFlSZ0hlWWZzcDNHYmlFMHhudDFONnpzWXN1THNIb2hXQWZyb2UtVHRn"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 5,
+    "ai": 6,
     "staged": 1,
     "prio": 0,
     "lost": 0
