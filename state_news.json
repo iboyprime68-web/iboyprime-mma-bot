@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d73f54d7a9fb85ea": 1789604197.383997,
     "cf21b0170b0dcfd6": 1789604130.9594111,
     "39837ada9d22cb5d": 1789604085.1728263,
     "e00998cf57bd2b5e": 1789604061.6625383,
@@ -2498,8 +2499,7 @@
     "86f4e0c5c7027ee6": 1788656056.8576748,
     "b09f77460d133f64": 1788656032.546977,
     "0809dabb17140c0c": 1788655967.5647995,
-    "643857a8f9a466a3": 1788655902.7776837,
-    "c8c13db9db8b672a": 1788655837.1890423
+    "643857a8f9a466a3": 1788655902.7776837
   },
   "initialized": true,
   "v": 4,
@@ -4627,16 +4627,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-16T23:16:11+00:00",
       "cluster": "cdc7c2831ee"
+    },
+    {
+      "t": "\"The Greatest Talent in 10 Years\": Dana White Drops Massive Praise on Akbar Abdullaev",
+      "source": "MMA Sucka",
+      "ts": "2026-09-16T23:21:12+00:00",
+      "cluster": "c5d16cc9c1a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T00",
-    6
+    7
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508202",
     "https://www.mmafighting.com/?p=508224",
     "33690c23-a60d-377c-bf45-1708759d1edb",
     "https://bloodyelbow.com/?p=329997",
@@ -6135,11 +6140,12 @@
     "https://www.mmafighting.com/?p=510607",
     "CBMiswFBVV95cUxPZXYyRjY5cjl6Z2wxNlFzNElQUVoxRVdTNEstQVExY211WV9IWlZxZjVyM1ZZR2c4d0RfakNXdnZkQldTR2VQeFMtRk1iM2xmWjBCc2ZBZVUzT1J2M0tlc1FoSDZuZUVoUHNkZU5sS19EcEl0a1o3d0xVOVZ0SlAyUG9nOW5iQ3JBeUNlQ1p1TTNKdFVyWGEyUzRSV0JaSDNhUUtvUmRkcmllNXBVUnVPaFQzSQ",
     "https://bloodyelbow.com/?p=331927",
-    "CBMimgFBVV95cUxQUmJjalBLWHdTQWVsd0hEYzN5a0ZGZUtveTBYSVJfVFp1ZVc0Qy1la3l4WmQ2UmJvMS1WUGIyMTIzQ0hsQ3BDR3VybDNWUVB0a0VYNVZtb21LclZUNmFkTGo0ZEgxdUJramhyVDlzU3l2OFlSZ0hlWWZzcDNHYmlFMHhudDFONnpzWXN1THNIb2hXQWZyb2UtVHRn"
+    "CBMimgFBVV95cUxQUmJjalBLWHdTQWVsd0hEYzN5a0ZGZUtveTBYSVJfVFp1ZVc0Qy1la3l4WmQ2UmJvMS1WUGIyMTIzQ0hsQ3BDR3VybDNWUVB0a0VYNVZtb21LclZUNmFkTGo0ZEgxdUJramhyVDlzU3l2OFlSZ0hlWWZzcDNHYmlFMHhudDFONnpzWXN1THNIb2hXQWZyb2UtVHRn",
+    "CBMirgFBVV95cUxQSll5WURua194LWduUDR2eUd4cnRSeVdLSmJHbUtSWHloRWVja3VBV2MyUUFZTzhqRXNCWHpFNHZNT1JBeUo5STJIRjIyNk5MUTUwbzl6X1JHVl9ONnc4R3REREJWZjRKYzF6dGtHdXJzc3kxSWN6bVNnaDRMemdBLWpkRTNlazFhQXU4dmV1ZGZ4ZUZfc3YtYUxBeVctYVY1em9wLUdLWFhLcEowbHc"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 6,
+    "ai": 7,
     "staged": 1,
     "prio": 0,
     "lost": 0
