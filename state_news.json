@@ -1,5 +1,8 @@
 {
   "seen": {
+    "00f5b5d8dc418f69": 1789676661.5524652,
+    "13cfb15b22dc6260": 1789676661.2480814,
+    "875af1673fd5d5ec": 1789676661.2465017,
     "4e9a46845a16bb6e": 1789676597.300181,
     "4682208d59c1cc13": 1789676533.587635,
     "27e6f8213e5cae73": 1789676469.4588513,
@@ -2496,10 +2499,7 @@
     "30fbd38e206e1ab7": 1788796460.2564652,
     "b567831b2a2c13e4": 1788796460.2538478,
     "58d75b62c8771a97": 1788796395.8252187,
-    "903e7ce4b5463eb6": 1788796371.1604238,
-    "7c2df9299ac9cf04": 1788796327.7411501,
-    "4259ed35b5978c70": 1788796262.5079453,
-    "276c2f7dd4fe1785": 1788796197.464424
+    "903e7ce4b5463eb6": 1788796371.1604238
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-15T21:00:00+00:00",
       "cluster": "cf53b7cd9ce"
-    },
-    {
-      "t": "Tom Aspinall releases heartbreaking statement after giving up UFC heavyweight title",
-      "source": "GB News",
-      "ts": "2026-09-15T20:24:10+00:00",
-      "cluster": "c63797c0c23"
     },
     {
       "t": "Islam Makhachev Ready to Box Conor McGregor Without Big Payday",
@@ -4795,13 +4789,19 @@
       "source": "thesunpapers.com",
       "ts": "2026-09-17T19:55:57+00:00",
       "cluster": "c5710bef758"
+    },
+    {
+      "t": "UFC 331 Pre-Fight Press Conference Live Stream",
+      "source": "Cageside Press",
+      "ts": "2026-09-17T20:02:09+00:00",
+      "cluster": "c1748d769a7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T20",
-    24
+    25
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=469162",
