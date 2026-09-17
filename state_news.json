@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7e46df0f1f77e887": 1789687938.5916793,
     "713a5115fd4aecdb": 1789687873.3192132,
     "bff934dd252451f1": 1789687808.3367038,
     "69bd045887c97f5a": 1789687808.0509212,
@@ -2498,8 +2499,7 @@
     "d265fcfa91fac30a": 1788811113.1415117,
     "61c665f14ce1b7b0": 1788811090.1601372,
     "defd19aa20b6c6dc": 1788810965.348764,
-    "7bb79dd39fb27d71": 1788810965.0744383,
-    "d7061e28605b14d3": 1788810965.072657
+    "7bb79dd39fb27d71": 1788810965.0744383
   },
   "initialized": true,
   "v": 4,
@@ -4765,13 +4765,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-17T22:30:00+00:00",
       "cluster": "c11a6f66143"
+    },
+    {
+      "t": "Belal Muhammad Believes Mauricio Ruffy in Peril at 331",
+      "source": "MMA Sucka",
+      "ts": "2026-09-17T22:36:27+00:00",
+      "cluster": "cd5dc0d6adf"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T23",
-    9
+    10
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=469162",
