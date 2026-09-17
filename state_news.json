@@ -1,5 +1,7 @@
 {
   "seen": {
+    "f877a2b08a2bf2af": 1789625119.3922443,
+    "6a703f1fd870ea18": 1789625119.0510786,
     "9f67b2a0a31ec9cb": 1789625053.551203,
     "86279917c7fbe0d7": 1789625053.255729,
     "13511490791502cf": 1789625053.2314165,
@@ -2497,9 +2499,7 @@
     "04d859fbdecc5797": 1788729180.0408328,
     "d6ac5c849d95c70f": 1788729115.6028173,
     "6a3768ae4aaa055d": 1788729051.0012636,
-    "6c431b447e7a4865": 1788728986.5356898,
-    "44c66d1e1854c52f": 1788728962.4711757,
-    "3e1fed7a848d21d5": 1788728939.5410547
+    "6c431b447e7a4865": 1788728986.5356898
   },
   "initialized": true,
   "v": 4,
@@ -4645,16 +4645,21 @@
       "source": "Sherdog",
       "ts": "2026-09-17T03:39:46+00:00",
       "cluster": "cd5fc237cf1"
+    },
+    {
+      "t": "US protege reveals comeback talks with UFC GOAT as legend eyes retirement U-turn for title",
+      "source": "Fox Sports",
+      "ts": "2026-09-17T05:20:50+00:00",
+      "cluster": "cc77c99559b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T06",
-    4
+    5
   ],
   "yt_eval": [
-    "6f9be24f-90eb-3339-926f-6ad5313855b2",
     "CBMiggFBVV95cUxPT3VlU1V1SEFoWkF3VE5NZEpvcHBzMTFva2JIMHVDTnNDUkQ3ZzZSM2RnNkpUNTU5dm5JNTF5VzJQMTJhNG9ZUm4ybkQxSUlGb2o1eFJCMkZWUG5zdW1XUVd1c0k2aDNIdU90cGtpQ2EtVEN1WmZmNGpnZjRrU0Exak9R",
     "CBMiowFBVV95cUxQeTk4U3FrbTEzT0swdE1vXzVNdnJGZWxWUDYzRGRsR3BZQ2hDV05GdmRDQ05mTXFkQ3VFdXJaQlZURmJJWkloWnFOeWhrWVN2dnRsSVQwbDRYUGRGZzA4U05UZTlycGR3VF9NMkhGaE0tSEFDSFhCT2JXVllzR08xMjVFd0t4X0ZPMkZWc0lNRXN6dlVVM3NJNjd1NG5mVmN2U1o0",
     "CBMiiAJBVV95cUxNamFvblljVUZWclpIc3ZxUElpNlNJaF93RmsxcVhIZFZZRjJZczFYc25keGtWUjBkTHN5UjQ4M0EyT1ktR2JTdXhxVUNndTlOQkxHZjZpTDc2LUsyYTI3R0x5aHNWeTZMTmhvLWJfazFRMmxBRXlkRkFxVFo1X2h0dmlfN3I3N01xaVRrZm5BZDlMN05oQU9GUEh3OTBUOEtjRW55OEk4dmYwcTc4MFo3U0hoSE1Ja0plb184ZEZBMXlYZlpKN2EyeURDWkxVNUdQN3RxbDQyNFdMa1BfSkd2VFpXWExzSVgxSFNnQzdxd1FQaGZJZnZTd3AyblNsSk1oNkZuT3Q4WEPSAY4CQVVfeXFMTjlFUUUzMDdrUFF6VVQxRjlhX0syN3lVMDQ1dklYYjUtRTdMYnVYek1tV09DbVc1UFdMTWw3amNudWpyYkdFSmJqeWMyUlEwQjZuMkppOUtCaF9BLUpFRVhRLUVoajJvYjI2UVBiMGtMU2p4UDNTd2xfQlJXalpzVkhFWUVTaldrUlZJcXRpNldvWDRleUFGRjVqODkzUHJlSDhBQmU3RzRlYV9sUVBxYU9CdEtwRF82ZmpZMWpMbTdTVkxFTzFlcnNqYTlTdWlwSnQzZ2xKWG1JZ19QVmNPUTIxclFPek5VanlNMEthS0d1ZWdELW5naTdCYUN1NXNRcWhrUWs1UWp0Y1JPaFln",
@@ -6153,27 +6158,17 @@
     "94bb713c-eea0-30a4-a67a-c76d2bfa1ba6",
     "ba47a79c-c42d-37d5-bf70-a5e593f9ca35",
     "CBMimwFBVV95cUxONlRvRFBqWDNSUnl6OUZNd3A1SFhWRUw2X01VM1FjNS00S0IzSU1SekdzOXNrRVlVam1pc2VCWUk1dDJBczBESno5OURHY1YyemlJLWlSTGFmUWJ2clZCVkdkVlNxc0k3OWlzb2JLVHNFUnJmY1h5NThtNC1oYmdRVXRBRnhaeWtRZ0FMa1FkVE5jZjZFV0NtZXBkQQ",
-    "https://www.sherdog.com/news/news/Gilbert-Burns-says-yesmen-could-stand-between-Khamzat-Chimaev-UFC-gold-202833"
+    "https://www.sherdog.com/news/news/Gilbert-Burns-says-yesmen-could-stand-between-Khamzat-Chimaev-UFC-gold-202833",
+    "CBMimgNBVV95cUxPdWlZM2M3TFptbHprTGk2dHBMbkZINE1nWkZBYzY5SUhxc2pVdlE5cDJnVTZmRjZNZ1FyV0JsZ2lPbjZHdEtlMjhXWXYxWXQ5bWxreWltMG44YmxnNVFrY3pUa1Eybm9vUFZESHBKeTYwYUUxLWMwemlqN0FjWXFMcnpFX1MwVDl0YWJtR21kY1hjUzF4ektWU1ZUZlZpZ3JxSzJkSDNPMzZSY0pSQmkwRVhNNFRPZWNJa3c0eHZDUktNMF9kZmlvdWtSX25vdGtfdG9mdUhxbFNOcXpTV3Zxd2lWRW1pR19iTERTWVIzbVY0WTU2R0U4NXBCTERBYjRLRVctVnNUX1RNVkRfWWVPeHZxUDI2RUtuc2JUNHJTbFBZWDI4QU90OVpwamlQUXlBbVVONHNrbVQ4RVFpTEF0NnA3U3UyLVd1dGxZalVTd21rOG9HdWl2RFk4VUZ2dVRnTHZBSXJhb291Mk9lZ0V4bGk2QUs2a19iNzhEdzJ1Q0h3Rk03NXptLUxNN1VfV2lFazVQa3FWdTZuZ9IBmgNBVV95cUxPdWlZM2M3TFptbHprTGk2dHBMbkZINE1nWkZBYzY5SUhxc2pVdlE5cDJnVTZmRjZNZ1FyV0JsZ2lPbjZHdEtlMjhXWXYxWXQ5bWxreWltMG44YmxnNVFrY3pUa1Eybm9vUFZESHBKeTYwYUUxLWMwemlqN0FjWXFMcnpFX1MwVDl0YWJtR21kY1hjUzF4ektWU1ZUZlZpZ3JxSzJkSDNPMzZSY0pSQmkwRVhNNFRPZWNJa3c0eHZDUktNMF9kZmlvdWtSX25vdGtfdG9mdUhxbFNOcXpTV3Zxd2lWRW1pR19iTERTWVIzbVY0WTU2R0U4NXBCTERBYjRLRVctVnNUX1RNVkRfWWVPeHZxUDI2RUtuc2JUNHJTbFBZWDI4QU90OVpwamlQUXlBbVVONHNrbVQ4RVFpTEF0NnA3U3UyLVd1dGxZalVTd21rOG9HdWl2RFk4VUZ2dVRnTHZBSXJhb291Mk9lZ0V4bGk2QUs2a19iNzhEdzJ1Q0h3Rk03NXptLUxNN1VfV2lFazVQa3FWdTZuZw"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 40,
+    "ai": 41,
     "staged": 3,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-06T05:45:10.762151+00:00",
-      "t": "Silva Vs. Cong Main Events UFC 332 After Shevchenko Stripped Of Title",
-      "names": [
-        "silva",
-        "cong",
-        "events",
-        "stripped"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-06T05:51:00.253831+00:00",
       "t": "Natalia Silva vs. Wang Cong title fight to main event UFC 332, injured Valentina Shevchenko stripped of Flyweight crown",
@@ -6973,6 +6968,15 @@
         "jones"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-17T06:05:20.558962+00:00",
+      "t": "US protege reveals comeback talks with UFC GOAT as legend eyes retirement U-turn for title",
+      "names": [
+        "u-turn",
+        "protege"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7017,24 +7021,15 @@
     "c1cf117b7163e7a8": 1789459710.5344546,
     "da3cdb964912da92": 1789479642.546479,
     "adcb6edca7a424fa": 1789571068.3570611,
-    "113db2dc3424ad42": 1789584380.338866
+    "113db2dc3424ad42": 1789584380.338866,
+    "f877a2b08a2bf2af": 1789625119.0781114
   },
   "pinged_titles": [
     [
-      "Yoel Romero discusses retirement ahead of BKFC fight vs Darren Till",
-      1789571068.3570611,
+      "US protege reveals comeback talks with UFC GOAT as legend eyes retirement U-turn for title",
+      1789625119.0781114,
       [
-        "romero",
-        "till"
-      ]
-    ],
-    [
-      "Eddie Hearn predicts Conor Benn retirement in first reaction to brutal Ryan Garcia loss",
-      1789584380.338866,
-      [
-        "benn",
-        "garcia",
-        "hearn"
+        "u-turn"
       ]
     ]
   ]
