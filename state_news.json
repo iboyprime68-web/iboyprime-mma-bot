@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f021449642bff68d": 1789605710.3007767,
     "c8ce0e1dfddab943": 1789605394.574803,
     "4a4c17a34e5b51b2": 1789605266.758365,
     "caf77aa2b762e53a": 1789605266.162708,
@@ -2498,8 +2499,7 @@
     "9972c86a037a011c": 1788691203.5141413,
     "6d4d38487c4cdde8": 1788691203.1543953,
     "0579e107cc8fd0f1": 1788691138.6888442,
-    "1c9a9bceb84894ea": 1788691073.7871337,
-    "6c4f5b6f3eeb6c07": 1788691073.4111228
+    "1c9a9bceb84894ea": 1788691073.7871337
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-15T00:48:22+00:00",
       "cluster": "c6143b93824"
-    },
-    {
-      "t": "Josh Hokit Takes Alex Pereira to Task over Rematch Requests",
-      "source": "MMA Sucka",
-      "ts": "2026-09-15T00:39:56+00:00",
-      "cluster": "c08695523cf"
     },
     {
       "t": "With Brian Ortega Out, Renato Moicano Gets Tom Nolan in UFC Vegas 123 Headliner",
@@ -4699,16 +4693,21 @@
       "source": "CBS News",
       "ts": "2026-09-17T00:24:00+00:00",
       "cluster": "cb294a14474"
+    },
+    {
+      "t": "Salahdine Parnasse targets former UFC champion Ilia Topuria",
+      "source": "MMAWeekly.com",
+      "ts": "2026-09-17T00:37:00+00:00",
+      "cluster": "c8e3053b76d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T00",
-    23
+    24
   ],
   "yt_eval": [
-    "CBMirgFBVV95cUxNdHhVOTRSd2N4elVjSzNtWW1aZnhNaThwMU1PZlJEbVhNXzMtM29mT1VjNjhjRVg0X1pGdW0zeDhPWDFXWlVMdmNHaFVNZEZfaVFHVVBmWnpPdC1KTm55VHB4V2JMNXdGdmdzczV2QTdfVTNjZHBKZENpUlpQWVBBc20tT1Z2bmd6eUFheGFsU0VvNnlRTTdUQ25UZFlBcW9RTFNiaXBTanEyOVM5VlE",
     "CBMi1wFBVV95cUxOSE9HSmpIclByUWh5VVBNakxQc2JIb2FxR1dmRzhLcHJQTVJJLTlGR2t6UHFIWGctZ3k4UjkzVUVUYTVEWFB5YXhTMjBKZHJtd0ZPRjRDTGM0LUp0MzN2TXdWT0xtN0s0QnVTd0x5TUNwWDRKMnRKMEpnQ1ctYlZDT2pPOGd1S19ucGM3LWV1VEhWUHEza09iQjRMUWJRZDRORHNySDdaWEFIelNoNlFJZWNSQXdRNlJuZ2haVnp2YVQwRGNyRGRnVEFxM1FPX1RBTkN6YnNBZw",
     "https://www.mmafighting.com/?p=508288",
     "CBMi9AFBVV95cUxQdFNGQ0xwS25FSk5BYzhBRHFXbDJodS1SUmJCTkRZSV9DZzZad01aSjRlSVd2eVhNWm9xVEFLSXE3WEdUeUZ3OFlsQTg0NUtLSV8tUVpNc0lNMWNtbVZENXFwSVVOamIzNTdTd0dDM09HMUloQXRFbVg3Zm1PQkRuQndjVl9YLWdZOXdpcmJMV2R1NmpfRHdrN293VVVlRFFuckhwcVMxaVdhZzUwSktielNJeGtwV3NJLWc2b18wT0l6TVNqU0M4aWk5dmFiT0JzRFQ5clNUeDFTdFJuckd2aktvZnhSbTNsQ0RUd1h5TzNCRjRu",
@@ -6207,11 +6206,12 @@
     "61073d84-3403-4b86-bb20-0eea1229f687",
     "CBMiwAFBVV95cUxQTGJsRDRLaS1kLTB4R2tLQnRwWFJUalQ4T0FiNnFjLW9xNnkwVXNjWTkyU3RxRXJ2N1p1X0FFbTdMOHdrTjVhbV81RU40YW1pV19DcGlGcmR3bmg4ejUyUHVpQ2RWZFFGYTBFY2NHNzZ3TFJ3NWp0X29ic1p5b3RYTHdtZFdlZndiSWxQLXlXUU9DRHBXaDJlYUh4VkRpSWRCc0h3Um5KMk9WMDNlUUFGQWpIdEJsaUdfRUl0c3didjM",
     "CBMic0FVX3lxTE0zS0szdnZUUlBFY1VrRnZ4UzZQVHRZRkVLNDVzdzMtbVR0VUd2a1pVSDg2eDBaM1hhQzN2RGRRVFBwVzZCaHktZ3EwQXJsSDBZVk56QVhCUVllVjAxWEVxNlpwMXhoTjlhY0tSN3dHcHhGLUU",
-    "CBMiogFBVV95cUxPTmZFVjlHMzFzT2pyUmJubnhWR09PendyVTRiUEtSS3pEX3VtZENNRHA2Mjg4VmoycEt4eHhOczljd3RGdUtSZVhpZk50a2ZfbnJ3TmUyWmFCb2RYMkxIZXVyRjdYaGg1NFFSRHJVNV9tLS1fZG0xUGhKbHk0UW9uWEdxbGdsc0ItMEVMU05mWU9nTmYtUVVzVGIxRVFuTWQxS2c"
+    "CBMiogFBVV95cUxPTmZFVjlHMzFzT2pyUmJubnhWR09PendyVTRiUEtSS3pEX3VtZENNRHA2Mjg4VmoycEt4eHhOczljd3RGdUtSZVhpZk50a2ZfbnJ3TmUyWmFCb2RYMkxIZXVyRjdYaGg1NFFSRHJVNV9tLS1fZG0xUGhKbHk0UW9uWEdxbGdsc0ItMEVMU05mWU9nTmYtUVVzVGIxRVFuTWQxS2c",
+    "CBMilAFBVV95cUxNdkc2eVNJdlpFVGNoM2V3N0kxRmZwRXZFem45NXlHWTdMemVWU01yUk5EX1hvWWdzcGRRSHhMX0dzeVhFS3VKX3hPTVZmbHRwSnBNN3pIZzZxTWUzOENZSGljcmFXTjJVVjNIRmVITmhydlNzSUJmQzJXa291SzVGSUFtS2lwR0RKYnJpVWZKeFA1d3NN"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 23,
+    "ai": 24,
     "staged": 2,
     "prio": 0,
     "lost": 0
