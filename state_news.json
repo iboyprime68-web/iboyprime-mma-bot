@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2de9023ab3fd4a4d": 1789605135.8993473,
     "f0b9c93bca7aa77c": 1789605069.7261593,
     "e5b3ebbe2370116e": 1789605069.4805171,
     "40a3aa13f02b1a78": 1789605003.6912098,
@@ -2498,8 +2499,7 @@
     "4d76d9c89ad5262a": 1788691008.615037,
     "b1c4ba7cb8b79b6d": 1788690943.3753452,
     "9caa8620a4994397": 1788674219.1420293,
-    "17478edc3e14d030": 1788674217.4678771,
-    "80c0264a02622c8f": 1788674092.4034047
+    "17478edc3e14d030": 1788674217.4678771
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-15T00:48:22+00:00",
       "cluster": "c6143b93824"
-    },
-    {
-      "t": "Injured Brian Ortega pulled from UFC 331, ‘Money’ paid with Halloween main event (at Apex)",
-      "source": "MMA Mania",
-      "ts": "2026-09-15T00:32:00+00:00",
-      "cluster": "ca591f69783"
     },
     {
       "t": "What’s next for Jean Silva and Jose Delgado after Noche UFC?",
@@ -4699,16 +4693,21 @@
       "source": "MMA Junkie",
       "ts": "2026-09-17T00:21:00+00:00",
       "cluster": "cf251a24808"
+    },
+    {
+      "t": "Former UFC star in custody at MDC",
+      "source": "KOB 4",
+      "ts": "2026-09-17T00:00:11+00:00",
+      "cluster": "cbf69e33f6d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T00",
-    21
+    22
   ],
   "yt_eval": [
-    "https://www.mmamania.com/469005/mm-clone",
     "CBMiXkFVX3lxTFBkRE1QZlFWZXE1MFFqSWlWdWoyemgzd2wtMkNvcVlhMDRsRElUZk5IUjJFeFlLdmtoZGxtM2lEQjFyMkVQMzRZVlNSSms3U0RpUEkzc3lPalRrcGpGLVE",
     "CBMirgFBVV95cUxNdHhVOTRSd2N4elVjSzNtWW1aZnhNaThwMU1PZlJEbVhNXzMtM29mT1VjNjhjRVg0X1pGdW0zeDhPWDFXWlVMdmNHaFVNZEZfaVFHVVBmWnpPdC1KTm55VHB4V2JMNXdGdmdzczV2QTdfVTNjZHBKZENpUlpQWVBBc20tT1Z2bmd6eUFheGFsU0VvNnlRTTdUQ25UZFlBcW9RTFNiaXBTanEyOVM5VlE",
     "CBMi1wFBVV95cUxOSE9HSmpIclByUWh5VVBNakxQc2JIb2FxR1dmRzhLcHJQTVJJLTlGR2t6UHFIWGctZ3k4UjkzVUVUYTVEWFB5YXhTMjBKZHJtd0ZPRjRDTGM0LUp0MzN2TXdWT0xtN0s0QnVTd0x5TUNwWDRKMnRKMEpnQ1ctYlZDT2pPOGd1S19ucGM3LWV1VEhWUHEza09iQjRMUWJRZDRORHNySDdaWEFIelNoNlFJZWNSQXdRNlJuZ2haVnp2YVQwRGNyRGRnVEFxM1FPX1RBTkN6YnNBZw",
@@ -6207,11 +6206,12 @@
     "CBMiigFBVV95cUxPajVFeFhoRTV0NjZsVVFtaXQ2M0Y0al94ckpkRHBHZGtFeDhJYmQ4bG9DcTJXR1lxdHlQSXhSOWloNlZnNlh3UWlUWUVraHB2OHhNRkJiWjNsZ3k4ZEJRa0drcW5LUHA4Ym5DOFc5ZjBsZ2xiTVM2ZHk1RGhJSTJ5VEM2Ty1zWGNpWWc",
     "CBMihwFBVV95cUxPS3haYkkzM0tPWWRrYXJOaFJYWl83S3B1U0ZKWmstdjVmNExWSTFZSzc2LVdaZTJnY0d4UWFjUjhoTDd2LWVnRHdGUE9YMHlOdENQWE1yTnkxUjdYS1FsSTdpdmQ5ajNsaFUyVlpVajhfZXBNUlM2Y2gzS1dDYTFvNEpSRm1tU3M",
     "61073d84-3403-4b86-bb20-0eea1229f687",
-    "CBMiwAFBVV95cUxQTGJsRDRLaS1kLTB4R2tLQnRwWFJUalQ4T0FiNnFjLW9xNnkwVXNjWTkyU3RxRXJ2N1p1X0FFbTdMOHdrTjVhbV81RU40YW1pV19DcGlGcmR3bmg4ejUyUHVpQ2RWZFFGYTBFY2NHNzZ3TFJ3NWp0X29ic1p5b3RYTHdtZFdlZndiSWxQLXlXUU9DRHBXaDJlYUh4VkRpSWRCc0h3Um5KMk9WMDNlUUFGQWpIdEJsaUdfRUl0c3didjM"
+    "CBMiwAFBVV95cUxQTGJsRDRLaS1kLTB4R2tLQnRwWFJUalQ4T0FiNnFjLW9xNnkwVXNjWTkyU3RxRXJ2N1p1X0FFbTdMOHdrTjVhbV81RU40YW1pV19DcGlGcmR3bmg4ejUyUHVpQ2RWZFFGYTBFY2NHNzZ3TFJ3NWp0X29ic1p5b3RYTHdtZFdlZndiSWxQLXlXUU9DRHBXaDJlYUh4VkRpSWRCc0h3Um5KMk9WMDNlUUFGQWpIdEJsaUdfRUl0c3didjM",
+    "CBMic0FVX3lxTE0zS0szdnZUUlBFY1VrRnZ4UzZQVHRZRkVLNDVzdzMtbVR0VUd2a1pVSDg2eDBaM1hhQzN2RGRRVFBwVzZCaHktZ3EwQXJsSDBZVk56QVhCUVllVjAxWEVxNlpwMXhoTjlhY0tSN3dHcHhGLUU"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 21,
+    "ai": 22,
     "staged": 2,
     "prio": 0,
     "lost": 0
