@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 12,
+  "cursor": 13,
   "staged_at": [
-    "2026-09-15T14:21:49.839146+00:00",
     "2026-09-15T19:43:58.494323+00:00",
     "2026-09-16T14:14:24.665520+00:00",
-    "2026-09-16T19:35:54.676997+00:00"
+    "2026-09-16T19:35:54.676997+00:00",
+    "2026-09-17T14:20:14.848788+00:00"
   ],
   "asked": [
-    "Who is the most exciting fighter in UFC history?",
     "Who is the most underrated fighter in UFC history?",
     "Who is the most feared heavyweight in UFC history?",
     "Who is the most impressive KO artist in UFC history?",
@@ -47,27 +46,28 @@
     "Which ref do you trust with a title fight?",
     "What is the biggest what if in UFC heavyweight history?",
     "With Tom Aspinall vacating the heavyweight title, who should fight for the vacant belt first?",
-    "Who has the highest fight IQ of all time?"
+    "Who has the highest fight IQ of all time?",
+    "What is the coldest knockout in UFC history?"
   ],
   "last_entry": {
-    "q": "Who has the highest fight IQ of all time?",
+    "q": "What is the coldest knockout in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Georges St-Pierre",
-        "emoji": "🧠"
+        "label": "Masvidal flying knee",
+        "emoji": "🚀"
       },
       {
-        "label": "Demetrious Johnson",
-        "emoji": "🎮"
+        "label": "Holm on Ronda",
+        "emoji": "🦶"
       },
       {
-        "label": "Islam Makhachev",
-        "emoji": "♟️"
+        "label": "Ngannou on Overeem",
+        "emoji": "💀"
       },
       {
-        "label": "Alexander Volkanovski",
-        "emoji": "🎯"
+        "label": "Barboza wheel kick",
+        "emoji": "🌪️"
       }
     ]
   }
