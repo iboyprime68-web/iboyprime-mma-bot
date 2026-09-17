@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f2a2da072e3ce09e": 1789644535.756403,
     "49b70ae92d0996c7": 1789644491.2592132,
     "4022dc98e64c8776": 1789644467.3083358,
     "ac07c40bc477ad53": 1789644466.9186554,
@@ -2498,8 +2499,7 @@
     "a40770436a121dae": 1788738120.4863715,
     "78482ba908a93a6b": 1788738055.347465,
     "29f56f8816c6898a": 1788737989.9033241,
-    "0bd3d753830a263c": 1788737921.8575947,
-    "33021d36058400ff": 1788737898.300098
+    "0bd3d753830a263c": 1788737921.8575947
   },
   "initialized": true,
   "v": 4,
@@ -4777,16 +4777,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-17T06:44:00+00:00",
       "cluster": "c37570bb113"
+    },
+    {
+      "t": "Fedor Emelianenko Open to Fighting Randy Couture",
+      "source": "heavy.com",
+      "ts": "2026-09-17T11:16:27+00:00",
+      "cluster": "cd68643efa4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T11",
-    13
+    14
   ],
   "yt_eval": [
-    "CBMijAFBVV95cUxNSEdGTGJydUtNRDMycU9NTUx1UFlFdS1VTjJjRFgxdjVUaWVZSkYySk8yMDM0Yy1JXzc5eW9EZU5KNGppcXhTazdDZXhXakZqRTNXRnpHLXNXSUpheGNXQllFOHUyX01tQWNHVmt1cGJXMmZpVHRzbGJoM1NjZFlwLTJsTmhHb2hyRnBZbw",
     "CBMifEFVX3lxTFBPVVdZZ29KbUw2X0YxWDNING10OTllbXowc1RqcUFIcEJjSnVqalc5TU9jdGlCMXFmeTVpZXdQR2pqaGJfSE9NcGg2YlhmSGpfOVliRU1NYWNxU2V4Wk9TWGRkRFRfMFV5cUtYUUlhRVBnaHMzZE5uTkVKWUU",
     "9dcb1cb9-352f-392d-93e9-c68abbc64c67",
     "https://www.mmafighting.com/508103/raf-11-arman-tsarukyan-vs-colby-covington-match-card-start-time",
@@ -6285,11 +6290,12 @@
     "CBMieEFVX3lxTE94ekdVOUVLTEwxNHA4SnJZLU9BS0hrbXY0SFRCUE5YTVlhTExRVjlGTFdENWtqVHJhdEZUT1ZTWTBnZEowTUd2YmZuLUlLRTFsMUxCbEJHT01LTHF2czd4cV9nU09tcGE3Uk1JRWw5Zk4xVGtOeHQxdA",
     "CBMiiAFBVV95cUxPOWotamM0eU9EOUNfUy1EdEJLQVVOOU9NXzdfRE5fWWpyYlVaY3AtRFI2YjgyZGFTWEdQNDFsTHp0aDVGNDdqZi1zMllzVy1tT1RBSlJiakJYWUVzWVF2NnVmTlVwbWszbm9FWVZYMnk1dEVzQWZxQjlDblVmU1p3V1MyREZXc1pE0gGOAUFVX3lxTFBEMVpPYU5WeXdGa0VySTJRMFVxeGVMbEZvUUF1cTBMbTNibFk4dGNTVldjLWNaaE16cjFma05zcGJGRFBCb3FRZXdpaDlXLWpEaDFUS2hMRi1PVzlYanl3dmRkMlRSVGotb1NSZ2RSNjZRNFlaY3hhWVJOeG1wMHd2UVFJNUxRUEpsRjFCVGc",
     "CBMioAFBVV95cUxNTEQtQXI5cTdGMk1SU3JnTm0tcUtNZ3FQQ1BhTy1iQUVIVTNfd0ZvQlY0YzJzcnJVbXdqMU4waE5YM29TNWRSMktHT1hrMVJCZkk1Z0Jrb2ZLZ0xUQUU4NjBwU2NlOTMwMEYtdHFKQjhBT2dTY1pRZ09DTm1Eei1xT1JLX0cyYzhBd1RhenpHNUZjUjJZN3ExeFA5X0NMd1hD",
-    "https://www.mmamania.com/?p=472782"
+    "https://www.mmamania.com/?p=472782",
+    "CBMigAFBVV95cUxNeWxZNXZRMmQ2aFFnWXFxbk10Q0U4UTZndm5MZEd1cmVSSldWck1jeGpXdlBOdHIzMngxY3gtWWE5VF92clRZbHpNX1Y3QWNlakZ4bmlVQzV4bHBWUzFzVnpPZlYwbHhjX1N5UFNwT1B4UjBzcS1wSlhpQm1lZ0hYZQ"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 69,
+    "ai": 70,
     "staged": 4,
     "prio": 1,
     "lost": 0
