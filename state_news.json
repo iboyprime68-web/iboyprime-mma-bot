@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c1a022f1e918bb7e": 1789662915.5627847,
     "d92729da6d408ab7": 1789662892.4146454,
     "deb83f180a68ba0b": 1789647167.5925357,
     "f5c6b4f039f5d608": 1789646858.246364,
@@ -2498,8 +2499,7 @@
     "9b39a5f6643d823a": 1788739097.6567476,
     "07458e882ffba53e": 1788739097.2582147,
     "570ed28226c33670": 1788738969.6987078,
-    "8e1888c61ca8641a": 1788738905.3720946,
-    "1d6e135130d749fe": 1788738776.4308257
+    "8e1888c61ca8641a": 1788738905.3720946
   },
   "initialized": true,
   "v": 4,
@@ -4597,16 +4597,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-17T11:52:25+00:00",
       "cluster": "ce43f89f6ca"
+    },
+    {
+      "t": "Brian Ortega responds to backlash over pulling out of UFC 331: ‘You guys, rightfully so, have earned that anger towards me’",
+      "source": "MMA Fighting",
+      "ts": "2026-09-17T12:18:08+00:00",
+      "cluster": "c4ebc4f7e9b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T16",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMiiAFBVV95cUxObXBYWjNtcW05S3hIV0RLU2wzRl94UHNJVlJOY2M1RmpfNEM0M1RpelR1VmEzWHN3NGxxOTktc2pvZFpmRnF1dlJCLThHRmtxRHlTX1h5UWY0SUNodzRhREVKMlQ2Z2I5VXVKbnRGVnBWUmFKM3BDRkc5NmZGZWRTYmNMRDFTLTRs",
     "CBMiwwFBVV95cUxOZDlyMG9FakgtbDNmSW9sZnlZOHlOUjJ0QXpkbHFYUXhTY2VYNGtqWnRyZlZFY2xoN2U4clVGeHFHWEg0OUQxMEUyRTJkX05JbnNKeXAwMU5BcHdtUkVJMWdZa3luSzY2ODhnVGdWbFZxZUY2QjdFbU54N1BPdjZ0QXdOaW0tS0JxOXZmRVRfZnlKY1ZhWXZzLTNyeUZzaUF4WGtXZnpGRURxNTNONm1Tbk1NcUtDcUFET0VmQWIwQmo4dXM",
     "https://www.mmamania.com/469057/open-thread-september-1-2026-name-a-movie-that-blew-you-away-as-a-kid",
     "https://www.mmamania.com/?p=469162",
@@ -6105,25 +6110,17 @@
     "https://bloodyelbow.com/?p=331985",
     "https://www.mmafighting.com/510510/dnp-morning-report-template-dnp",
     "CBMi2AFBVV95cUxQNF84YkRfQ19BVHU0VmFFS2UxN21KVXJHT1ZGSjhsOXhyVDdmMTZfTnl4dHQwT2cyLWp2NC1VbFY3bGlsdU9TS3pEZ0o4VlBfcHBqZTlpdVBMd1NWdGhtbmlZa0RxZnR5RlllVjgzSUZkVmNiUURRRGp6bU5Eb2RNWWhoOXZld1M3aVRwajV3TDlyNGhobThtbzd2aEZiQXBoN2Y2TXNuV2Jhdmctamo5U1dXci1qb0JSeXljYkxwWXNsaFBBNWdOc3JLR29rWXRzb0NzZGxCdms",
-    "https://www.mmamania.com/472787/open-thread-september-16-2026-is-ai-going-to-kill-us-all"
+    "https://www.mmamania.com/472787/open-thread-september-16-2026-is-ai-going-to-kill-us-all",
+    "https://www.mmafighting.com/?p=510571"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 79,
+    "ai": 80,
     "staged": 5,
-    "prio": 1,
+    "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-06T11:00:22.834193+00:00",
-      "t": "Watch Dan Hooker almost fight a fan after his knockout loss to Salahdine Parnasse at UFC Paris",
-      "names": [
-        "hooker",
-        "parnasse"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-06T14:02:34.677232+00:00",
       "t": "Conor McGregor tells Katie Taylor to make retirement U-turn after farewell fight at his dream venue",
@@ -6934,6 +6931,16 @@
         "ingredients"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-17T16:35:16.479496+00:00",
+      "t": "Brian Ortega responds to backlash over pulling out of UFC 331: ‘You guys, rightfully so, have earned that anger towards me’",
+      "names": [
+        "ortega",
+        "you",
+        "moicano"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -6980,16 +6987,10 @@
     "adcb6edca7a424fa": 1789571068.3570611,
     "113db2dc3424ad42": 1789584380.338866,
     "f877a2b08a2bf2af": 1789625119.0781114,
-    "1118788c3cbf3025": 1789646030.7029326
+    "1118788c3cbf3025": 1789646030.7029326,
+    "c1a022f1e918bb7e": 1789662915.2349086
   },
   "pinged_titles": [
-    [
-      "US protege reveals comeback talks with UFC GOAT as legend eyes retirement U-turn for title",
-      1789625119.0781114,
-      [
-        "u-turn"
-      ]
-    ],
     [
       "UFC’s New Protein Bars Have One Of 2026’s Trendiest Ingredients",
       1789646030.7029326,
@@ -7000,6 +7001,14 @@
         "new",
         "one",
         "protein"
+      ]
+    ],
+    [
+      "Brian Ortega responds to backlash over pulling out of UFC 331: ‘You guys, rightfully so, have earned that anger towards me’",
+      1789662915.2349086,
+      [
+        "ortega",
+        "you"
       ]
     ]
   ]
