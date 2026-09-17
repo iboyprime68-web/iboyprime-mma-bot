@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f995870f428b9340": 1789688220.484474,
     "91b5c01518b66985": 1789688197.402772,
     "74e4b3674bd19d96": 1789688132.3835185,
     "81006bfcc4e2ac55": 1789688067.8241253,
@@ -2498,8 +2499,7 @@
     "a1102c95ff6f6880": 1788820771.503722,
     "db938abdaa5682dc": 1788820728.699789,
     "d3435b3f3be93ff5": 1788811217.332815,
-    "8978532dbb5f221f": 1788811216.975401,
-    "ec8f65bfa03faa01": 1788811216.9733875
+    "8978532dbb5f221f": 1788811216.975401
   },
   "initialized": true,
   "v": 4,
@@ -4795,13 +4795,19 @@
       "source": "Central Oregon Daily",
       "ts": "2026-09-17T22:50:42+00:00",
       "cluster": "cf6f5be482d"
+    },
+    {
+      "t": "Watch Mike Tyson confront ‘dark side’ in raw Netflix documentary trailer — ‘Addicted to chaos’",
+      "source": "MMA Mania",
+      "ts": "2026-09-17T20:46:19+00:00",
+      "cluster": "ca0bc07a558"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T23",
-    14
+    15
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=469162",
