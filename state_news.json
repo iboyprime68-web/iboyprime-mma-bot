@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bee35c4709a48dfc": 1789644071.2348082,
     "553bb621c6431093": 1789644006.3150203,
     "32a14f26148424be": 1789643941.6017585,
     "f9f04576073824f6": 1789643897.2189946,
@@ -2498,8 +2499,7 @@
     "7281cfae6071b555": 1788730978.990922,
     "138d4283dc54b835": 1788730853.2292855,
     "51ae7d02a3e5e94d": 1788730790.3396037,
-    "072e762b5855df6d": 1788730767.5703962,
-    "26581dbab73eb5e8": 1788730662.7747824
+    "072e762b5855df6d": 1788730767.5703962
   },
   "initialized": true,
   "v": 4,
@@ -4723,16 +4723,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-17T08:33:50+00:00",
       "cluster": "c14f1b6ed0b"
+    },
+    {
+      "t": "UFC's Dana White Spends $1.5 Million on Two Ram SRT Trucks, Including a 900+ HP Rumble Bee",
+      "source": "MotorBiscuit",
+      "ts": "2026-09-17T10:33:00+00:00",
+      "cluster": "c27218096a9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T11",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMisAFBVV95cUxOUDlBRGJRWlBzc01JTDZSWHpTRXdyYnoxMVdVNzVzLTBENjA2SDlUV0FmaG9uaGhjV1llb09BVUVuYUpqWnlKamFvaFFBNFRTd2R1OXg5R09jc0M4VldaRXlEd2xUVHg4SV9pYm9yT2VuLWpQOC1FTDV3ZGVrZThMYmV5Z3RteVp0UHNrazJEcnZuVFJLVnBiQWoxN3RacXhCUDI3Z3ZyUDNKTUpnbDFONA",
     "CBMiqwFBVV95cUxNR3YtR1IzenE4a1pIaXhIcFd6SjBsbFlLMC0zTUQ0ZE94SWl0RE5ROTF0MVduY0pxMEh6S2pTQVNsdk11ODVfQ3h1Sm5vTGpfblVHb204ZnJFV3BCeXRSZmJwQ0xSR0NtRFNUMm0zZk94RTRzZ3hTMDlRRUwxMjdEbTRmcE9yMzFqV3lienVtOUtPOERVWWtmQTVGa3lUeWxBbS1ERmFuQlJ0NVU",
     "CBMiYkFVX3lxTE8ybThON0NxZHlYczVmSmRESjd6dFgzYWhfRXZNZDNOZThsT09OSHZmVFFkTUZfX3V4am8yTmxxeGt6Mk9sb2k4MG82d0ViMEstNHpUeUJnZWJvQzBSVlRBYmxR",
     "CBMingFBVV95cUxPSW5ISFhUdFZQUzlETGozV1BXN1hMUVdOaWNEZXlMeExrWkgxc0pFYksxWTBKS3o5ZUh4TlBTclhRM1JpTkI3WHM1RTUzRmpxWElSRkJxd0xvVnliX1h5SGhzNHNIRHF5bEFjWEpsS01yYVdlSmlKMlZoeVkwR2hqVkhSVTNCSno0OHZCWnZpUk1WaS0zNHhzRzJLQXZsZw",
@@ -6231,11 +6236,12 @@
     "https://www.sherdog.com/news/news/Alex-Pereira-trolls-Ciryl-Gane-with-champion-jab-following-Tom-Aspinall-exit-202842",
     "https://bloodyelbow.com/?p=331973",
     "6ccaec4b-2698-38c4-b5c1-44354e078812",
-    "68ca2e23-b209-34be-9483-d831396cc40b"
+    "68ca2e23-b209-34be-9483-d831396cc40b",
+    "CBMitwFBVV95cUxOUGZaVVJQbWs5NjZ4R1lCV19qME42Nk5FYkg2eWZhTVZKbVl3UElUc3FoOTdKRGp1eDl5MEkzaWxZYTZwYkZTMXNGY1M4VjN0Y3BfV3BYUkQ0dGV5ZXVWcVY2WWRQYWozZUQ3M294RGZtWjVCQ3Q4TWdDdWY5b0lmcGVQNnJncW1YU2JkNEN6TzhQbFQyVm45bkdCOWdZR05TZ3puSlZxOWNSWU5oSHJBWkUwT0dSTWM"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 60,
+    "ai": 61,
     "staged": 3,
     "prio": 1,
     "lost": 0
