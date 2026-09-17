@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f9f04576073824f6": 1789643897.2189946,
     "81fd2d057991532b": 1789643873.5929587,
     "2af36c73eef67e5d": 1789627635.3755655,
     "0ae60812e2aa9477": 1789627635.373658,
@@ -2498,8 +2499,7 @@
     "072e762b5855df6d": 1788730767.5703962,
     "26581dbab73eb5e8": 1788730662.7747824,
     "78393a89a98fd9e0": 1788730597.9689372,
-    "ac01abb356bb9939": 1788730473.9862046,
-    "039c66db217e3b22": 1788730450.383021
+    "ac01abb356bb9939": 1788730473.9862046
   },
   "initialized": true,
   "v": 4,
@@ -4705,16 +4705,21 @@
       "source": "Sherdog",
       "ts": "2026-09-17T06:28:29+00:00",
       "cluster": "c2270faa82f"
+    },
+    {
+      "t": "Justin Gaethje hints at making U-turn on the Ilia Topuria rematch after being accused of cheating",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-17T11:00:00+00:00",
+      "cluster": "c18b9dfc551"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T11",
-    1
+    2
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=469130",
     "CBMijAFBVV95cUxQdWFacDlMZUNpRzctMk1EYVVCWnk4NXROM1hUSHdQdElVaG0zejRYSXRwSHlFdmFWbTd4dU9jamV6YlNlSDN5WEZxWGpzSkVySUY4al9GTlJoWE4tYzdPZ0RzNExsVUhkS3R0aGQ0OWJGbDF2bmZ4czl2Sm5PaC1lbFdSaDF1WVRybDYtSQ",
     "https://bloodyelbow.com/?p=330013",
     "CBMisAFBVV95cUxOUDlBRGJRWlBzc01JTDZSWHpTRXdyYnoxMVdVNzVzLTBENjA2SDlUV0FmaG9uaGhjV1llb09BVUVuYUpqWnlKamFvaFFBNFRTd2R1OXg5R09jc0M4VldaRXlEd2xUVHg4SV9pYm9yT2VuLWpQOC1FTDV3ZGVrZThMYmV5Z3RteVp0UHNrazJEcnZuVFJLVnBiQWoxN3RacXhCUDI3Z3ZyUDNKTUpnbDFONA",
@@ -6213,11 +6218,12 @@
     "CBMirgFBVV95cUxQTzdFdE90b0tKcVlidGNDRDJjc0gtVkxfV3JMMTItRGVxU2k1OFI0NG4wU2lkSHljeE9xRTdwWmh3ZEdrbFBvMlZfZ0RXUWp1bW5IVnV3LVlMU3lhbGFEejZreDhwX0xkaDdPTzdCYVdKWDJCTmd4eEMwTUZTWVQyaWFjOFYxcm10OGtqQkd5N3c5ZndzbXp6dEUyN2xDNUlTXy1kVTNmaWlmaHgtVWc",
     "https://www.sherdog.com/news/news/Ilia-Topurias-brother-reportedly-set-for-UFC-return-in-November-202839",
     "CBMi2gFBVV95cUxNUkpQWlcxRnNGN0hTZjdOSzZwckNCYWNIN1d0dERQejF6LUkwblV0Q0xnaDFNcTBoak9YODBBbGVXUksxZHp2WTVuczNOdE5rVEIyX2ZGU3hPME56QjlHUnBIODJBTzZjWXNiYWp1N1g4alpCa1lxRFM5QkoyakZRa1FmbGZnTDNUOEtSZks3Z2x5eEQ2MjR2V2VRY3U5MFBSOTdSQnpONE5UbU9ienlwZlMxOWNWWjJTT1F1Mkp1ejhuNDFFa1k3UUNxU1ZmZkJfRUV5blNDREpNZw",
-    "https://www.sherdog.com/news/news/Alex-Pereira-trolls-Ciryl-Gane-with-champion-jab-following-Tom-Aspinall-exit-202842"
+    "https://www.sherdog.com/news/news/Alex-Pereira-trolls-Ciryl-Gane-with-champion-jab-following-Tom-Aspinall-exit-202842",
+    "https://bloodyelbow.com/?p=331973"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 57,
+    "ai": 58,
     "staged": 3,
     "prio": 1,
     "lost": 0
