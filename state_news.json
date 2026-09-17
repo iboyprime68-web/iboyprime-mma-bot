@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c473eeb656d65432": 1789663507.223776,
     "287f6cc96f5f2565": 1789663443.755296,
     "b3be6ef3fbbf44d1": 1789663379.5156765,
     "c578d2daa3694de4": 1789663378.812413,
@@ -2498,8 +2499,7 @@
     "0fe8fd3176d8ee6d": 1788753295.3263724,
     "17ea9589aa0e1ea3": 1788753229.539482,
     "4da62d30ced38f70": 1788753163.6939695,
-    "e435c56327ed155d": 1788753096.7051685,
-    "c6d2e0e235ca20db": 1788753096.4826074
+    "e435c56327ed155d": 1788753096.7051685
   },
   "initialized": true,
   "v": 4,
@@ -4699,13 +4699,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-17T15:20:26+00:00",
       "cluster": "cdcb3f13227"
+    },
+    {
+      "t": "Justin Gaethje open to Ilia Topuria rematch",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-17T15:32:10+00:00",
+      "cluster": "c4f2bb6fde8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T16",
-    18
+    19
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=469162",
