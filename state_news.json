@@ -1,5 +1,7 @@
 {
   "seen": {
+    "f61c3ac7922705b7": 1789624744.5092678,
+    "ac1b0ec4cf467909": 1789624744.1299052,
     "1b93320b55fe6ae6": 1789624720.5159998,
     "922277038b300e54": 1789624720.109692,
     "710dd4657ac7d509": 1789624649.9261289,
@@ -2497,9 +2499,7 @@
     "bf64c2a58bfe1c11": 1788720992.4741032,
     "6743ed9c3e78e0d5": 1788714058.072927,
     "fbd910035991ec28": 1788714012.7218728,
-    "22d8dc4320e69be2": 1788713989.683744,
-    "af52fe40baf4e4b5": 1788713925.038213,
-    "6a0a3efb2de3882a": 1788713900.9178808
+    "22d8dc4320e69be2": 1788713989.683744
   },
   "initialized": true,
   "v": 4,
@@ -4609,16 +4609,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-17T03:00:21+00:00",
       "cluster": "c903c0a422b"
+    },
+    {
+      "t": "Muhammad Mokaev reveals why he turned down recent UFC title opportunity",
+      "source": "Sherdog",
+      "ts": "2026-09-17T03:09:12+00:00",
+      "cluster": "c9748bf1423"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T05",
-    8
+    9
   ],
   "yt_eval": [
-    "4d9c97a4-0cef-3046-a374-1441d14b5a5d",
     "1c5b677f-7179-39a3-bd31-f18e419a9b35",
     "c695a2fa-3ee4-32ac-9172-c8dc8315741e",
     "cf86c2bf-40f1-394e-97ed-7f406365838b",
@@ -6117,11 +6122,12 @@
     "https://bloodyelbow.com/?p=331970",
     "3af09137-a692-3935-97d1-fc099c77808f",
     "a863f235-63ab-3174-b392-66aee0e0f703",
-    "def02ffe-6672-37c8-a3b9-67a9b2c7eeef"
+    "def02ffe-6672-37c8-a3b9-67a9b2c7eeef",
+    "https://www.sherdog.com/news/news/Muhammad-Mokaev-reveals-why-he-turned-down-recent-UFC-title-opportunity-202831"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 34,
+    "ai": 35,
     "staged": 3,
     "prio": 0,
     "lost": 0
