@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4bac16d7ac6d8951": 1789663763.9447992,
     "62ab304ad04b0a24": 1789663700.7007008,
     "38f54ff5bfb3cb66": 1789663637.0006242,
     "53cd742af48ba3d2": 1789663573.204747,
@@ -2498,8 +2499,7 @@
     "183cb8824f902298": 1788753562.9556472,
     "a1a79dc56bc5c21a": 1788753562.953554,
     "2910c89e7214ba58": 1788753562.951137,
-    "060748948481777d": 1788753493.8971603,
-    "c28ec8be7884cc35": 1788753493.5808403
+    "060748948481777d": 1788753493.8971603
   },
   "initialized": true,
   "v": 4,
@@ -4729,13 +4729,19 @@
       "source": "Cageside Press",
       "ts": "2026-09-17T15:50:55+00:00",
       "cluster": "c27f4ce22b8"
+    },
+    {
+      "t": "Miami-Dade deputy secures UFC contract with win on Dana White's Contender Series",
+      "source": "NBC 6 South Florida",
+      "ts": "2026-09-17T15:51:42+00:00",
+      "cluster": "c324e9e5dc4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T16",
-    23
+    24
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=469162",
