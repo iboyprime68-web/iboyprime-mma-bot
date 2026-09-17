@@ -1,5 +1,7 @@
 {
   "seen": {
+    "f0b9c93bca7aa77c": 1789605069.7261593,
+    "e5b3ebbe2370116e": 1789605069.4805171,
     "40a3aa13f02b1a78": 1789605003.6912098,
     "2dc5d678644e416e": 1789604937.0155523,
     "49aed99be689c3bc": 1789604870.3044696,
@@ -2497,9 +2499,7 @@
     "b1c4ba7cb8b79b6d": 1788690943.3753452,
     "9caa8620a4994397": 1788674219.1420293,
     "17478edc3e14d030": 1788674217.4678771,
-    "80c0264a02622c8f": 1788674092.4034047,
-    "b78ee76b074efab7": 1788674092.4013686,
-    "193db82d3dec4fb3": 1788673967.90212
+    "80c0264a02622c8f": 1788674092.4034047
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-15T00:48:22+00:00",
       "cluster": "c6143b93824"
-    },
-    {
-      "t": "Cormier Endorses Hokit Title Shot After Aspinall Vacancy",
-      "source": "boxingnews.com",
-      "ts": "2026-09-15T00:30:55+00:00",
-      "cluster": "cde0bfd3e61"
     },
     {
       "t": "Injured Brian Ortega pulled from UFC 331, ‘Money’ paid with Halloween main event (at Apex)",
@@ -4699,16 +4693,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-17T00:17:36+00:00",
       "cluster": "c61226e0228"
+    },
+    {
+      "t": "Arman Tsarukyan, NHL player? UFC 331 star describes what could've been",
+      "source": "MMA Junkie",
+      "ts": "2026-09-17T00:21:00+00:00",
+      "cluster": "cf251a24808"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T00",
-    20
+    21
   ],
   "yt_eval": [
-    "CBMiqAFBVV95cUxPQmZRMUtMdFpYWUlqQnNQaFU3UTIwbkkzTzVpLTJUNkhQam51RnhlWnZ0Zl9XM29oYS1TUWF2VlBaVDdCS3NfcE4zeUQ3RTlYTVRPY2YtbHdVNng4cC1zaW51TEJUYU9iTlV2eUluSVp6ckVIbU1DNmR3bGp5eWZRc19nUDUxbEhVck5GRGwwQWktZFZGX2EwTjJmVDBiZnBqN3MyT3dHRFnSAa4BQVVfeXFMTXR0M0JHRXNqRFMwZFFzM1VGRXRWRW1UdExkYlE1amxiOUJCUWJRZWVRQnhpSXBOQmRhSHB3dWUzNVNyQlZhM0s4R1VNYjByX0hPTDA4RlFYbVdqeEd5bWN5V3pweEd1YWlBV2gzTlY3QW1DNGtsdEg3R1BZWDJuVlhVZkZ5WkhiWUl4MTJHUVJUaXBpTjFMeGVsNnczOEJZSnBBWFFpMGo4cUwweXVn",
     "https://www.mmamania.com/469005/mm-clone",
     "CBMiXkFVX3lxTFBkRE1QZlFWZXE1MFFqSWlWdWoyemgzd2wtMkNvcVlhMDRsRElUZk5IUjJFeFlLdmtoZGxtM2lEQjFyMkVQMzRZVlNSSms3U0RpUEkzc3lPalRrcGpGLVE",
     "CBMirgFBVV95cUxNdHhVOTRSd2N4elVjSzNtWW1aZnhNaThwMU1PZlJEbVhNXzMtM29mT1VjNjhjRVg0X1pGdW0zeDhPWDFXWlVMdmNHaFVNZEZfaVFHVVBmWnpPdC1KTm55VHB4V2JMNXdGdmdzczV2QTdfVTNjZHBKZENpUlpQWVBBc20tT1Z2bmd6eUFheGFsU0VvNnlRTTdUQ25UZFlBcW9RTFNiaXBTanEyOVM5VlE",
@@ -6207,11 +6206,12 @@
     "CBMijgFBVV95cUxNcVRLcW9NakRIT09WX2p1YWtMNzdPZGJRTDF4bThTTzJnU1A2ckNzZWRobF9wWU5VNkhEQXc1WFlvZFRoM0RVTmppeDR4aVd1ZVVTZVlYUjNZaTNaSGlCX2J1bG51NkJlNVZxZUJmSFZYRldueFhTS1RHZ0o2bGhXQVBOUEwwT05zMXJmU3V3",
     "CBMiigFBVV95cUxPajVFeFhoRTV0NjZsVVFtaXQ2M0Y0al94ckpkRHBHZGtFeDhJYmQ4bG9DcTJXR1lxdHlQSXhSOWloNlZnNlh3UWlUWUVraHB2OHhNRkJiWjNsZ3k4ZEJRa0drcW5LUHA4Ym5DOFc5ZjBsZ2xiTVM2ZHk1RGhJSTJ5VEM2Ty1zWGNpWWc",
     "CBMihwFBVV95cUxPS3haYkkzM0tPWWRrYXJOaFJYWl83S3B1U0ZKWmstdjVmNExWSTFZSzc2LVdaZTJnY0d4UWFjUjhoTDd2LWVnRHdGUE9YMHlOdENQWE1yTnkxUjdYS1FsSTdpdmQ5ajNsaFUyVlpVajhfZXBNUlM2Y2gzS1dDYTFvNEpSRm1tU3M",
-    "61073d84-3403-4b86-bb20-0eea1229f687"
+    "61073d84-3403-4b86-bb20-0eea1229f687",
+    "CBMiwAFBVV95cUxQTGJsRDRLaS1kLTB4R2tLQnRwWFJUalQ4T0FiNnFjLW9xNnkwVXNjWTkyU3RxRXJ2N1p1X0FFbTdMOHdrTjVhbV81RU40YW1pV19DcGlGcmR3bmg4ejUyUHVpQ2RWZFFGYTBFY2NHNzZ3TFJ3NWp0X29ic1p5b3RYTHdtZFdlZndiSWxQLXlXUU9DRHBXaDJlYUh4VkRpSWRCc0h3Um5KMk9WMDNlUUFGQWpIdEJsaUdfRUl0c3didjM"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 20,
+    "ai": 21,
     "staged": 2,
     "prio": 0,
     "lost": 0
