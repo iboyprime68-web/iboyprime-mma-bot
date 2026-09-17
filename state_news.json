@@ -1,5 +1,6 @@
 {
   "seen": {
+    "709c7c19c61d07e7": 1789646584.398804,
     "c34a74937e8d59f2": 1789646541.000205,
     "b9f44b0f8534f10c": 1789646477.543278,
     "7dd9d1a0b5b42486": 1789646413.030528,
@@ -2498,8 +2499,7 @@
     "a5cc8bcc038056ae": 1788738522.4040956,
     "9fcafbb7f53695f8": 1788738477.8555524,
     "4c9a4d3bc2b23e6f": 1788738453.7693698,
-    "28175233f9f0b73e": 1788738453.4412198,
-    "cef2a21349b2157f": 1788738388.1059043
+    "28175233f9f0b73e": 1788738453.4412198
   },
   "initialized": true,
   "v": 4,
@@ -4807,16 +4807,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T12:00:00+00:00",
       "cluster": "c39cbb94b1c"
+    },
+    {
+      "t": "Morning Report &#124; Eddie Hearn: Conor Benn ‘looked lost’ against Ryan Garcia, could retire soon",
+      "source": "MMA Fighting",
+      "ts": "2026-09-17T04:16:36+00:00",
+      "cluster": "c704cace51e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T12",
-    1
+    2
   ],
   "yt_eval": [
-    "ae064f5b-5e64-35c8-a235-ddfd4661315f",
     "cadc698b-4cef-37d5-977d-fd913ed7dfd9",
     "CBMiugFBVV95cUxPSkpabDJ4LWFTbE9RVlIyUmRaM01MZEUtY2tTaE1reXU3Nl9CWnZDMjYxZDRVdXVmZlRqNmNCUUM2Q2pnN0FaX1BTU0dlZjV0ZUtFdnhwZkNtdkVrcDhKakI5RTdTQ2NiOU5ESVFTWTZxTVlnQ1hVa29ISE1KTEVVVEVVQk1BWTdMUUxoTjZJTHZXZEg1UU1hTFFrd0lvMVNQMlduNmRUMWpSZm9tdTkwNUd6QTJTM1FjMFE",
     "CBMiiAFBVV95cUxObXBYWjNtcW05S3hIV0RLU2wzRl94UHNJVlJOY2M1RmpfNEM0M1RpelR1VmEzWHN3NGxxOTktc2pvZFpmRnF1dlJCLThHRmtxRHlTX1h5UWY0SUNodzRhREVKMlQ2Z2I5VXVKbnRGVnBWUmFKM3BDRkc5NmZGZWRTYmNMRDFTLTRs",
@@ -6315,11 +6320,12 @@
     "CBMilgFBVV95cUxPdVBtTzZtbGNBMlBkY1Rod2doM3FtZ3A4N1pISzctNmRJaHdXWVdSWnQxNTZvQTJrdDBEZ3RjdTNQbnFkZUNXTUVMWEZOUVY5MHBjSzVhYmtrOVpsdFpSbWcyRjk5Wllkc08yU0RjYjVsSDlmbld1UDNBMnFlcktmdUZaN3M5SlhzY2RhVTVvbUlHNThzd3c",
     "CBMiZ0FVX3lxTE1RYzRRdnRqX1kxWERmaE9nVFZUblJDalVHSV80b2hsb2tycUNqa1BrNzBvSlVJSmFSamJBR1k5LVlJV2FBeGJfdGR2Y0tNbmUyOFFRckl3QzRBd0laUElwRDVtYzc3a00",
     "CBMirwFBVV95cUxNemNnMVMtWHN5SGs4WXBKR0FmSkNJTnFpTzQ0SzV0UWVaSklwblN3dUc0bURycFJkTVJYemVFakd4eC02U3luQ19zRmlPQzZHbmhxbkstMXhFRWxkNXllX01MWmtqWUV6MFRHMDNrU3IzeTlnbXp1MG1DR0hDaW41ZkI5VU9ZYUlSNVVLUlEzV3RjemRSbGNKcWpQSDA5TzRTd2VoZ1h4SWVON3YxRXYw",
-    "https://bloodyelbow.com/?p=331985"
+    "https://bloodyelbow.com/?p=331985",
+    "https://www.mmafighting.com/510510/dnp-morning-report-template-dnp"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 76,
+    "ai": 77,
     "staged": 5,
     "prio": 1,
     "lost": 0
