@@ -1,5 +1,6 @@
 {
   "seen": {
+    "81fd2d057991532b": 1789643873.5929587,
     "2af36c73eef67e5d": 1789627635.3755655,
     "0ae60812e2aa9477": 1789627635.373658,
     "29417f77b238478c": 1789627528.5759587,
@@ -2498,36 +2499,11 @@
     "26581dbab73eb5e8": 1788730662.7747824,
     "78393a89a98fd9e0": 1788730597.9689372,
     "ac01abb356bb9939": 1788730473.9862046,
-    "039c66db217e3b22": 1788730450.383021,
-    "535ba1f714545e42": 1788730345.370085
+    "039c66db217e3b22": 1788730450.383021
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "\"He is brash, he is cocky\" - Daniel Cormier makes strong case for Josh Hokit to fight for UFC heavyweight title",
-      "source": "Sportskeeda",
-      "ts": "2026-09-15T07:00:00+00:00",
-      "cluster": "ce5b3732518"
-    },
-    {
-      "t": "Dana White Pays $1.5 Million For First Ram Rumble Bee SRT",
-      "source": "Motor1.com",
-      "ts": "2026-09-15T07:37:00+00:00",
-      "cluster": "caa73fd98b7"
-    },
-    {
-      "t": "Jon Jones Has Caused a Stir With His Three-Word Reaction to Tom Aspinall Vacating the Heavyweight Title",
-      "source": "GiveMeSport",
-      "ts": "2026-09-15T08:02:53+00:00",
-      "cluster": "c6415b0b60d"
-    },
-    {
-      "t": "Dana White's Contender Series: Season 10, Week 6 Live Fight Coverage",
-      "source": "ESPN",
-      "ts": "2026-09-15T08:10:33+00:00",
-      "cluster": "ce267000024"
-    },
     {
       "t": "Nate Diaz ‘100%’ interested in signing for new UFC rival after turning Octagon return down",
       "source": "Bloody Elbow",
@@ -2539,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-15T13:00:00+00:00",
       "cluster": "c0febd233aa"
-    },
-    {
-      "t": "Jon Jones taunts Tom Aspinall as old rival gives up UFC title",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-15T11:11:13+00:00",
-      "cluster": "cc995fd0ce9"
     },
     {
       "t": "Morning Report &#124; Ryan Garcia was ‘disappointed’ Oscar De La Hoya didn’t show up for his fight with Conor Benn",
@@ -2569,12 +2539,6 @@
       "source": "MMA Sucka",
       "ts": "2026-09-15T12:25:22+00:00",
       "cluster": "c1c49cc3460"
-    },
-    {
-      "t": "Jon Jones freaks out over Islam Makhachev’s PED allegations: 'Keep telling yourself it was steroids'",
-      "source": "MMA Mania",
-      "ts": "2026-09-15T11:12:26+00:00",
-      "cluster": "cb0fe6e9d12"
     },
     {
       "t": "Dana White announces huge bonus surprise for UFC 331!",
@@ -4735,16 +4699,21 @@
       "source": "Sportskeeda",
       "ts": "2026-09-17T06:30:00+00:00",
       "cluster": "c08bbc59aa5"
+    },
+    {
+      "t": "Alex Pereira trolls Ciryl Gane with ‘champion’ jab following Tom Aspinall exit",
+      "source": "Sherdog",
+      "ts": "2026-09-17T06:28:29+00:00",
+      "cluster": "c2270faa82f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-17T06",
-    20
+    "2026-09-17T11",
+    1
   ],
   "yt_eval": [
-    "CBMi9AFBVV95cUxORlRwLW9qRC1QVjBvTEhxbVpmSHR6RldLdV91Yzd0VGJTY1NtUF9ZdnhodVpwZ1hJcGFyT05UdzFsWXlCTmcwU1FGRWZOMkhxem41YURRMUl1VXIwaFBHVjU0WHRIYTU3S1R1bWhUOGVfLW05Y01IWTF4c3hfSi1nWjVwRzc3SExobWplTE9scWFJQ1I4MGY4RDhoOW9yYnJ2bnhGZ1hyWWtJa1E1Uk1HLXR6QzlSQTRjQnhSLUpfTGlVZ0hNNHU4NlZ0Zm5CWDlJcHFrT0hORGt0cG1BeEVObTVfcHIwTjF5RC1ONVlWU3lGMmxv",
     "https://www.mmamania.com/?p=469130",
     "CBMijAFBVV95cUxQdWFacDlMZUNpRzctMk1EYVVCWnk4NXROM1hUSHdQdElVaG0zejRYSXRwSHlFdmFWbTd4dU9jamV6YlNlSDN5WEZxWGpzSkVySUY4al9GTlJoWE4tYzdPZ0RzNExsVUhkS3R0aGQ0OWJGbDF2bmZ4czl2Sm5PaC1lbFdSaDF1WVRybDYtSQ",
     "https://bloodyelbow.com/?p=330013",
@@ -6243,11 +6212,12 @@
     "https://www.sherdog.com/news/news/Ilia-Topuria-cleared-for-UFC-return-takes-shot-at-Justin-Gaethje-202838",
     "CBMirgFBVV95cUxQTzdFdE90b0tKcVlidGNDRDJjc0gtVkxfV3JMMTItRGVxU2k1OFI0NG4wU2lkSHljeE9xRTdwWmh3ZEdrbFBvMlZfZ0RXUWp1bW5IVnV3LVlMU3lhbGFEejZreDhwX0xkaDdPTzdCYVdKWDJCTmd4eEMwTUZTWVQyaWFjOFYxcm10OGtqQkd5N3c5ZndzbXp6dEUyN2xDNUlTXy1kVTNmaWlmaHgtVWc",
     "https://www.sherdog.com/news/news/Ilia-Topurias-brother-reportedly-set-for-UFC-return-in-November-202839",
-    "CBMi2gFBVV95cUxNUkpQWlcxRnNGN0hTZjdOSzZwckNCYWNIN1d0dERQejF6LUkwblV0Q0xnaDFNcTBoak9YODBBbGVXUksxZHp2WTVuczNOdE5rVEIyX2ZGU3hPME56QjlHUnBIODJBTzZjWXNiYWp1N1g4alpCa1lxRFM5QkoyakZRa1FmbGZnTDNUOEtSZks3Z2x5eEQ2MjR2V2VRY3U5MFBSOTdSQnpONE5UbU9ienlwZlMxOWNWWjJTT1F1Mkp1ejhuNDFFa1k3UUNxU1ZmZkJfRUV5blNDREpNZw"
+    "CBMi2gFBVV95cUxNUkpQWlcxRnNGN0hTZjdOSzZwckNCYWNIN1d0dERQejF6LUkwblV0Q0xnaDFNcTBoak9YODBBbGVXUksxZHp2WTVuczNOdE5rVEIyX2ZGU3hPME56QjlHUnBIODJBTzZjWXNiYWp1N1g4alpCa1lxRFM5QkoyakZRa1FmbGZnTDNUOEtSZks3Z2x5eEQ2MjR2V2VRY3U5MFBSOTdSQnpONE5UbU9ienlwZlMxOWNWWjJTT1F1Mkp1ejhuNDFFa1k3UUNxU1ZmZkJfRUV5blNDREpNZw",
+    "https://www.sherdog.com/news/news/Alex-Pereira-trolls-Ciryl-Gane-with-champion-jab-following-Tom-Aspinall-exit-202842"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 56,
+    "ai": 57,
     "staged": 3,
     "prio": 1,
     "lost": 0
