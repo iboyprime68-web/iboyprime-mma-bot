@@ -1,5 +1,6 @@
 {
   "seen": {
+    "91b5c01518b66985": 1789688197.402772,
     "74e4b3674bd19d96": 1789688132.3835185,
     "81006bfcc4e2ac55": 1789688067.8241253,
     "bd7accd6655bb0e3": 1789688003.4354627,
@@ -2498,8 +2499,7 @@
     "db938abdaa5682dc": 1788820728.699789,
     "d3435b3f3be93ff5": 1788811217.332815,
     "8978532dbb5f221f": 1788811216.975401,
-    "ec8f65bfa03faa01": 1788811216.9733875,
-    "d265fcfa91fac30a": 1788811113.1415117
+    "ec8f65bfa03faa01": 1788811216.9733875
   },
   "initialized": true,
   "v": 4,
@@ -4789,13 +4789,19 @@
       "source": "en.sedaily.com",
       "ts": "2026-09-17T22:47:27+00:00",
       "cluster": "cdfdc2904be"
+    },
+    {
+      "t": "UFC White House event regulator rejects Topuria’s claim about Gaethje’s gloves",
+      "source": "Central Oregon Daily",
+      "ts": "2026-09-17T22:50:42+00:00",
+      "cluster": "cf6f5be482d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T23",
-    13
+    14
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=469162",
