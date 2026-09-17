@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1ccd6a1a3cea1262": 1789625671.7590857,
     "0acf99129a08bc65": 1789625585.744662,
     "d12607a3d1f77b42": 1789625585.743048,
     "a0b19665014fdace": 1789625458.3116634,
@@ -2498,8 +2499,7 @@
     "a85ba7b4ea5ee5fa": 1788729831.9896393,
     "e64c2a810bfe0c22": 1788729767.1133363,
     "9970e779f72ef3e8": 1788729702.7229347,
-    "2498748deba01bfc": 1788729636.3711028,
-    "ae12060ef0e06bca": 1788729635.8396726
+    "2498748deba01bfc": 1788729636.3711028
   },
   "initialized": true,
   "v": 4,
@@ -4687,16 +4687,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-17T06:08:10+00:00",
       "cluster": "cfc760ecb4b"
+    },
+    {
+      "t": "Tyron Woodley details ‘rock bottom’ after losing UFC title to Kamaru Usman",
+      "source": "Sherdog",
+      "ts": "2026-09-17T04:06:25+00:00",
+      "cluster": "ca0b8731638"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T06",
-    11
+    12
   ],
   "yt_eval": [
-    "CBMickFVX3lxTE5CcXZuNE50dFVyb3AyclduNFVWeWU3SjJqRXVzREh6bWt4c1ViWkcwNnl0YnJsRkxsRE1aYjJBekwzODFwXzgwY0g3bVAzRTZFMWluMHBsRVVOSGZHSENpMVMxcldiOTYtZU9NT0RvZjdlQQ",
     "CBMiwAFBVV95cUxNdmgya0NLVDNCWUJUOUZnbU5PM0FRZ3dKQ1R0QXBZb1RRLWhvLUszWnVtbkZBTEhCR3lJRWU3UUI3SWFLWkpJOE1jYUVIUXlabEkxY09MZFF0VFVTWkRKRDZQQjVacGlvVVlwSjZObUV5eHlTMGI2eVlhREFmRmxac0lHTHhIVnV4d1JvN05ZSExtSWV0RUx5Zl96WmJsWmtvSTdMb3piYlVha3hpaS1HMkNHVHB4alI3OW1DZko2LXI",
     "CBMibkFVX3lxTE1xTmdHejFKTHNLYVhiMW5FaDctYzFjMkVjdmUwS3dFb3Q1VlRTUDB0UmZHdTJuOGZsc0FKZmV3T2dOMFVDSk8wdUhvU1hQajZEc0NYWlM5RmJYYm1xdFJpdUhFWm9KM3c5Ymp2QVV3",
     "CBMigAJBVV95cUxORnVIVEpzMDJMaXpmSF96UmVDSWdValZrNFBITWhTTzJzWHhPblJPcUxfeldfallzWmJDaGdOWGRiVlAtdWM1dHpSdk1JcGhWUDRHZXNlV2NCaEh0RXJXcEo4YWVqakdOTW1QaFB2d2pNcWVCNWEtZ0JRbTVZWjZEYkpUYUtmcGFLX3N1eGQ5MXVqRDV6UTBoTGFzSXdWQnF3WXczcVdVMnNpZjgwekhpMC1QUDZ4NzZYeGo0SUtfcU9RZ2xXMnQyUFlKVkljR0tuYk1rRDd3T2E5ZU54ODNrQ1VwdmdsaGNjTG1tbWNQTVBnZUIzOEdBMUxsd1JJQUJn",
@@ -6195,11 +6200,12 @@
     "CBMicEFVX3lxTE82aTM0LWliZXlHMkQxdmZFMmFwMWxnR0ZnTHhnTUFzUkJiTVBuXzdqeklRdnNzTlJnUGhzbFhRNVgtSkw1YVllVmtUWGdhYWlDVXFCSDhkWEZnYUxkVE1xOUllRGlNd1paTXBGNUJEcUg",
     "https://www.sherdog.com/news/news/Gable-Steveson-Vacant-UFC-belt-could-put-fire-back-in-Jon-Jones-202834",
     "CBMipAFBVV95cUxPQmpqZFYwd3hTMHlIa19veGVsWURsUk9NTFRyTUZVQlJlaU9xdEczOEFiM0UwMFZ2cUJKTzF1OUpoZXVfdjF6d0c0Um9BQTlPM0dTQnBVTlVONktkS2I0eE1FMmFrdTBBZlJrc3hZLW1UZUVBamI2QklRV1gzUDdoSkE1djFsVFBoSFdOdElrNm5XWVpIMWFnaG1wTWU4Y3pKM0xpOQ",
-    "CBMitwFBVV95cUxQWEQxa3Q1cVNDVGhKTExFYmx0NkFKNnhPTnNzS0RJYUJ6R1RMVzhzcFc4NmR2MVlPTEszWmxFYjI1OFhRalFmTXdxV0dKbWt0bWx0TUhFRXh0QURQN2gyVC1sV0VSS3EyeFd6TkdLUktYOE9pTmJhaUMyTTdTQW9sXzk5bW5DWUVJNERJYjFnQmUwd01ueGpqZWhaS2txMDcxWE1ad3EwTUhmSnNQdXdNN0FjU1NJcGM"
+    "CBMitwFBVV95cUxQWEQxa3Q1cVNDVGhKTExFYmx0NkFKNnhPTnNzS0RJYUJ6R1RMVzhzcFc4NmR2MVlPTEszWmxFYjI1OFhRalFmTXdxV0dKbWt0bWx0TUhFRXh0QURQN2gyVC1sV0VSS3EyeFd6TkdLUktYOE9pTmJhaUMyTTdTQW9sXzk5bW5DWUVJNERJYjFnQmUwd01ueGpqZWhaS2txMDcxWE1ad3EwTUhmSnNQdXdNN0FjU1NJcGM",
+    "https://www.sherdog.com/news/news/Tyron-Woodley-details-rock-bottom-after-losing-UFC-title-to-Kamaru-Usman-202835"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 47,
+    "ai": 48,
     "staged": 3,
     "prio": 1,
     "lost": 0
