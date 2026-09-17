@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8dbd242bcb5fe1f0": 1789663139.4550803,
     "ceef17088a25fbd7": 1789663117.242541,
     "a5b43d5533d32f46": 1789663094.6841612,
     "e71665c3865fa96f": 1789663072.4240654,
@@ -2498,8 +2499,7 @@
     "abd0a7a817778d10": 1788752893.6314166,
     "d5f1a8d0530a8a2a": 1788752893.3107548,
     "52ad50e45de912e2": 1788752827.479933,
-    "b48307ebd962f299": 1788752799.6069322,
-    "4585c86f85ffcca0": 1788752775.3722188
+    "b48307ebd962f299": 1788752799.6069322
   },
   "initialized": true,
   "v": 4,
@@ -4645,13 +4645,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-17T13:00:00+00:00",
       "cluster": "c140402c989"
+    },
+    {
+      "t": "Between the Links: Countdown to UFC 331, Ilia Topuria’s comments, Aspinall vacates, more",
+      "source": "MMA Fighting",
+      "ts": "2026-09-17T15:45:17+00:00",
+      "cluster": "c4c460ce241"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T16",
-    9
+    10
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=469162",
