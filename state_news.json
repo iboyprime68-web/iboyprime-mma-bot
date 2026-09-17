@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2acb57bbf35d5a23": 1789626998.7684526,
     "d347ae8a03c99caa": 1789626910.9685307,
     "f6fe8fae4348d1d0": 1789626678.6197515,
     "f225882ab4c666e5": 1789626591.072504,
@@ -2498,8 +2499,7 @@
     "6819a74e06fb8b70": 1788730133.3762417,
     "f139a5d046518fe5": 1788730132.8012986,
     "e4e81ec0f95b3993": 1788730089.7827592,
-    "9c8203b90c9f5974": 1788730089.013478,
-    "532f8fa74226ccf0": 1788730089.0116591
+    "9c8203b90c9f5974": 1788730089.013478
   },
   "initialized": true,
   "v": 4,
@@ -4729,16 +4729,21 @@
       "source": "Sherdog",
       "ts": "2026-09-17T05:41:45+00:00",
       "cluster": "c6201227036"
+    },
+    {
+      "t": "\"Just excuses\" - Arman Tsarukyan wants Ilia Topuria to introspect after bizarre glove allegations aimed at Justin Gaethje",
+      "source": "Sportskeeda",
+      "ts": "2026-09-17T06:30:00+00:00",
+      "cluster": "c08bbc59aa5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T06",
-    19
+    20
   ],
   "yt_eval": [
-    "CBMisAFBVV95cUxQZzV4SVZ4X0R4THk1c3E1RmtLTmhCZkxCZWNPWlBTQ3NhOVoycWlDQzNLTW4wRXF5Vkc4Vi12b1RNcE1SY3pHTVdtS054Rk93Y3NiUTBuTmpHNUcxcldlbnF2ZmtsT1VleEdUb1psNmF5MFJHMmszSEF3cDlsaWlrUUtJeEY2ZmxUYTBLRjEzMnpadENiRklOc1MxQ0pjaTNHTFhiRFdjcHN2UGFTVG1PSQ",
     "CBMi9AFBVV95cUxORlRwLW9qRC1QVjBvTEhxbVpmSHR6RldLdV91Yzd0VGJTY1NtUF9ZdnhodVpwZ1hJcGFyT05UdzFsWXlCTmcwU1FGRWZOMkhxem41YURRMUl1VXIwaFBHVjU0WHRIYTU3S1R1bWhUOGVfLW05Y01IWTF4c3hfSi1nWjVwRzc3SExobWplTE9scWFJQ1I4MGY4RDhoOW9yYnJ2bnhGZ1hyWWtJa1E1Uk1HLXR6QzlSQTRjQnhSLUpfTGlVZ0hNNHU4NlZ0Zm5CWDlJcHFrT0hORGt0cG1BeEVObTVfcHIwTjF5RC1ONVlWU3lGMmxv",
     "https://www.mmamania.com/?p=469130",
     "CBMijAFBVV95cUxQdWFacDlMZUNpRzctMk1EYVVCWnk4NXROM1hUSHdQdElVaG0zejRYSXRwSHlFdmFWbTd4dU9jamV6YlNlSDN5WEZxWGpzSkVySUY4al9GTlJoWE4tYzdPZ0RzNExsVUhkS3R0aGQ0OWJGbDF2bmZ4czl2Sm5PaC1lbFdSaDF1WVRybDYtSQ",
@@ -6237,11 +6242,12 @@
     "https://www.sherdog.com/news/news/Arman-Tsarukyan-rips-Ilia-Topurias-Justin-Gaethje-glove-claim-Just-excuses-202830",
     "https://www.sherdog.com/news/news/Ilia-Topuria-cleared-for-UFC-return-takes-shot-at-Justin-Gaethje-202838",
     "CBMirgFBVV95cUxQTzdFdE90b0tKcVlidGNDRDJjc0gtVkxfV3JMMTItRGVxU2k1OFI0NG4wU2lkSHljeE9xRTdwWmh3ZEdrbFBvMlZfZ0RXUWp1bW5IVnV3LVlMU3lhbGFEejZreDhwX0xkaDdPTzdCYVdKWDJCTmd4eEMwTUZTWVQyaWFjOFYxcm10OGtqQkd5N3c5ZndzbXp6dEUyN2xDNUlTXy1kVTNmaWlmaHgtVWc",
-    "https://www.sherdog.com/news/news/Ilia-Topurias-brother-reportedly-set-for-UFC-return-in-November-202839"
+    "https://www.sherdog.com/news/news/Ilia-Topurias-brother-reportedly-set-for-UFC-return-in-November-202839",
+    "CBMi2gFBVV95cUxNUkpQWlcxRnNGN0hTZjdOSzZwckNCYWNIN1d0dERQejF6LUkwblV0Q0xnaDFNcTBoak9YODBBbGVXUksxZHp2WTVuczNOdE5rVEIyX2ZGU3hPME56QjlHUnBIODJBTzZjWXNiYWp1N1g4alpCa1lxRFM5QkoyakZRa1FmbGZnTDNUOEtSZks3Z2x5eEQ2MjR2V2VRY3U5MFBSOTdSQnpONE5UbU9ienlwZlMxOWNWWjJTT1F1Mkp1ejhuNDFFa1k3UUNxU1ZmZkJfRUV5blNDREpNZw"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 55,
+    "ai": 56,
     "staged": 3,
     "prio": 1,
     "lost": 0
