@@ -1,5 +1,7 @@
 {
   "seen": {
+    "3ffb29685e5240e6": 1789624537.9799213,
+    "4d53d03187fbcaac": 1789624537.7116795,
     "6ca9ea5ae4cbdf63": 1789624513.847974,
     "37f50074a959d631": 1789624488.752202,
     "ce5f5a6739295ce5": 1789624465.2881305,
@@ -2497,9 +2499,7 @@
     "45704a2da0d2ca5b": 1788713857.3465497,
     "c203796cb0cc028a": 1788713856.9828184,
     "8b4f65cedfd697dc": 1788713792.9914799,
-    "1ef9225abf0a06a6": 1788713728.4647121,
-    "d2e6cb1ab99feb2d": 1788713704.3759098,
-    "d474b8ff9cdce0fa": 1788713681.287622
+    "1ef9225abf0a06a6": 1788713728.4647121
   },
   "initialized": true,
   "v": 4,
@@ -4585,16 +4585,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-17T01:24:16+00:00",
       "cluster": "c0beb37a67b"
+    },
+    {
+      "t": "Gable Steveson compares UFC 331 return to Mike Tyson’s 1995 comeback that ended in disqualification",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-17T05:00:00+00:00",
+      "cluster": "c69b03f645f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T05",
-    4
+    5
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508080",
     "https://www.mmafighting.com/?p=508302",
     "https://bloodyelbow.com/?p=330007",
     "https://bloodyelbow.com/?p=330011",
@@ -6093,11 +6098,12 @@
     "a4a2d46d-d8a9-3555-9c69-336656c21ede",
     "https://bloodyelbow.com/?p=331945",
     "https://bloodyelbow.com/?p=331952",
-    "56ccff6b-4464-3ff5-9cab-4f0df1b12324"
+    "56ccff6b-4464-3ff5-9cab-4f0df1b12324",
+    "https://bloodyelbow.com/?p=331970"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 30,
+    "ai": 31,
     "staged": 2,
     "prio": 0,
     "lost": 0
