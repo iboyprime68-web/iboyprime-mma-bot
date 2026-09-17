@@ -1,5 +1,6 @@
 {
   "seen": {
+    "40a3aa13f02b1a78": 1789605003.6912098,
     "2dc5d678644e416e": 1789604937.0155523,
     "49aed99be689c3bc": 1789604870.3044696,
     "e9924a119b79bc7f": 1789604869.1957123,
@@ -2498,8 +2499,7 @@
     "17478edc3e14d030": 1788674217.4678771,
     "80c0264a02622c8f": 1788674092.4034047,
     "b78ee76b074efab7": 1788674092.4013686,
-    "193db82d3dec4fb3": 1788673967.90212,
-    "475305562b633822": 1788673859.2629488
+    "193db82d3dec4fb3": 1788673967.90212
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-15T00:48:22+00:00",
       "cluster": "c6143b93824"
-    },
-    {
-      "t": "Video preview: The cost of being Don Frye on VICE's 'Dark Side of the Cage'",
-      "source": "MMA Junkie",
-      "ts": "2026-09-15T00:30:00+00:00",
-      "cluster": "cb555efd4fa"
     },
     {
       "t": "Cormier Endorses Hokit Title Shot After Aspinall Vacancy",
@@ -4699,16 +4693,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-17T00:13:13+00:00",
       "cluster": "cecafb1afda"
+    },
+    {
+      "t": "Tito Ortiz wants to end decades of bad blood with Dana White: 'I've tried to apologize'",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-17T00:17:36+00:00",
+      "cluster": "c61226e0228"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T00",
-    19
+    20
   ],
   "yt_eval": [
-    "CBMiqAFBVV95cUxQZDlhTHdmTk9VcThVZjFvRFgxRmtfWU5Lc1B4MjFNWEdNS1QxQ3ZIN2Z1VHNXOF9lT1JiNXkxWVo1blJibENWS3YwQndWNTJUYnVHSkRxeFZZU2otRFNKRk4tdGhXTVBZX1ZPMTlRb3laMjg2eldkQmV2SlRTa2FqNkpBUGszeG4zbEdlUENjUlVXRHV0RWQ3S0tlNnVvN1JGajU3cHVPN2U",
     "CBMiqAFBVV95cUxPQmZRMUtMdFpYWUlqQnNQaFU3UTIwbkkzTzVpLTJUNkhQam51RnhlWnZ0Zl9XM29oYS1TUWF2VlBaVDdCS3NfcE4zeUQ3RTlYTVRPY2YtbHdVNng4cC1zaW51TEJUYU9iTlV2eUluSVp6ckVIbU1DNmR3bGp5eWZRc19nUDUxbEhVck5GRGwwQWktZFZGX2EwTjJmVDBiZnBqN3MyT3dHRFnSAa4BQVVfeXFMTXR0M0JHRXNqRFMwZFFzM1VGRXRWRW1UdExkYlE1amxiOUJCUWJRZWVRQnhpSXBOQmRhSHB3dWUzNVNyQlZhM0s4R1VNYjByX0hPTDA4RlFYbVdqeEd5bWN5V3pweEd1YWlBV2gzTlY3QW1DNGtsdEg3R1BZWDJuVlhVZkZ5WkhiWUl4MTJHUVJUaXBpTjFMeGVsNnczOEJZSnBBWFFpMGo4cUwweXVn",
     "https://www.mmamania.com/469005/mm-clone",
     "CBMiXkFVX3lxTFBkRE1QZlFWZXE1MFFqSWlWdWoyemgzd2wtMkNvcVlhMDRsRElUZk5IUjJFeFlLdmtoZGxtM2lEQjFyMkVQMzRZVlNSSms3U0RpUEkzc3lPalRrcGpGLVE",
@@ -6207,11 +6206,12 @@
     "CBMingFBVV95cUxPNmNHM3FMcHBJMnZJY05nYnA0Y0d5MUpxYV9lY0IyZmRqQklmVGpZSHpDN1Bnc2xPTGtYT2RvemYzNE5WTFRkVGJYS0dVMmd1U2dyaTJmeURPWGlxRUswMjVwTk1DaWdjSlFBV0xmdTdvSFNsdHF5ODU0ZmlvM09QdDBUNXV1RnUxeENCVTY2eElyUTFpN1B0TGE4Y3BWZw",
     "CBMijgFBVV95cUxNcVRLcW9NakRIT09WX2p1YWtMNzdPZGJRTDF4bThTTzJnU1A2ckNzZWRobF9wWU5VNkhEQXc1WFlvZFRoM0RVTmppeDR4aVd1ZVVTZVlYUjNZaTNaSGlCX2J1bG51NkJlNVZxZUJmSFZYRldueFhTS1RHZ0o2bGhXQVBOUEwwT05zMXJmU3V3",
     "CBMiigFBVV95cUxPajVFeFhoRTV0NjZsVVFtaXQ2M0Y0al94ckpkRHBHZGtFeDhJYmQ4bG9DcTJXR1lxdHlQSXhSOWloNlZnNlh3UWlUWUVraHB2OHhNRkJiWjNsZ3k4ZEJRa0drcW5LUHA4Ym5DOFc5ZjBsZ2xiTVM2ZHk1RGhJSTJ5VEM2Ty1zWGNpWWc",
-    "CBMihwFBVV95cUxPS3haYkkzM0tPWWRrYXJOaFJYWl83S3B1U0ZKWmstdjVmNExWSTFZSzc2LVdaZTJnY0d4UWFjUjhoTDd2LWVnRHdGUE9YMHlOdENQWE1yTnkxUjdYS1FsSTdpdmQ5ajNsaFUyVlpVajhfZXBNUlM2Y2gzS1dDYTFvNEpSRm1tU3M"
+    "CBMihwFBVV95cUxPS3haYkkzM0tPWWRrYXJOaFJYWl83S3B1U0ZKWmstdjVmNExWSTFZSzc2LVdaZTJnY0d4UWFjUjhoTDd2LWVnRHdGUE9YMHlOdENQWE1yTnkxUjdYS1FsSTdpdmQ5ajNsaFUyVlpVajhfZXBNUlM2Y2gzS1dDYTFvNEpSRm1tU3M",
+    "61073d84-3403-4b86-bb20-0eea1229f687"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 19,
+    "ai": 20,
     "staged": 2,
     "prio": 0,
     "lost": 0
