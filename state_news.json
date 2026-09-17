@@ -1,5 +1,7 @@
 {
   "seen": {
+    "3eed5d0b1134d75d": 1789662976.4816449,
+    "45ccb6c46d37a54c": 1789662976.138838,
     "c1a022f1e918bb7e": 1789662915.5627847,
     "d92729da6d408ab7": 1789662892.4146454,
     "deb83f180a68ba0b": 1789647167.5925357,
@@ -2497,9 +2499,7 @@
     "186e62777bcb280e": 1788739226.3427508,
     "615784f5aeba8c93": 1788739226.341382,
     "9b39a5f6643d823a": 1788739097.6567476,
-    "07458e882ffba53e": 1788739097.2582147,
-    "570ed28226c33670": 1788738969.6987078,
-    "8e1888c61ca8641a": 1788738905.3720946
+    "07458e882ffba53e": 1788739097.2582147
   },
   "initialized": true,
   "v": 4,
@@ -4603,16 +4603,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-17T12:18:08+00:00",
       "cluster": "c4ebc4f7e9b"
+    },
+    {
+      "t": "Joseph Benavidez: Alexandre Pantoja 'has the advantage' vs. Joshua Van in rematch",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-17T12:50:25+00:00",
+      "cluster": "c0256aefa6e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T16",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMiwwFBVV95cUxOZDlyMG9FakgtbDNmSW9sZnlZOHlOUjJ0QXpkbHFYUXhTY2VYNGtqWnRyZlZFY2xoN2U4clVGeHFHWEg0OUQxMEUyRTJkX05JbnNKeXAwMU5BcHdtUkVJMWdZa3luSzY2ODhnVGdWbFZxZUY2QjdFbU54N1BPdjZ0QXdOaW0tS0JxOXZmRVRfZnlKY1ZhWXZzLTNyeUZzaUF4WGtXZnpGRURxNTNONm1Tbk1NcUtDcUFET0VmQWIwQmo4dXM",
     "https://www.mmamania.com/469057/open-thread-september-1-2026-name-a-movie-that-blew-you-away-as-a-kid",
     "https://www.mmamania.com/?p=469162",
     "CBMihwFBVV95cUxNOTZFMGp4cnpCeWZWWnlOdHBMSHJRYnhSWXctdjluTmdlTGUtYkRIQjZzTTZJSlptRmMzQUlkbHBXcmdpaTVRT0pmanl6dzBUdjRuMTRoWTM0WENNVWhyd1FnallEekZwWWN4VjlIM2ViRVZFRWhPSDBrVTlrNTBJMmVnaFhFYmc",
@@ -6111,11 +6116,12 @@
     "https://www.mmafighting.com/510510/dnp-morning-report-template-dnp",
     "CBMi2AFBVV95cUxQNF84YkRfQ19BVHU0VmFFS2UxN21KVXJHT1ZGSjhsOXhyVDdmMTZfTnl4dHQwT2cyLWp2NC1VbFY3bGlsdU9TS3pEZ0o4VlBfcHBqZTlpdVBMd1NWdGhtbmlZa0RxZnR5RlllVjgzSUZkVmNiUURRRGp6bU5Eb2RNWWhoOXZld1M3aVRwajV3TDlyNGhobThtbzd2aEZiQXBoN2Y2TXNuV2Jhdmctamo5U1dXci1qb0JSeXljYkxwWXNsaFBBNWdOc3JLR29rWXRzb0NzZGxCdms",
     "https://www.mmamania.com/472787/open-thread-september-16-2026-is-ai-going-to-kill-us-all",
-    "https://www.mmafighting.com/?p=510571"
+    "https://www.mmafighting.com/?p=510571",
+    "7c83369c-ba92-3981-a972-41a7779fe721"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 80,
+    "ai": 81,
     "staged": 5,
     "prio": 2,
     "lost": 0
