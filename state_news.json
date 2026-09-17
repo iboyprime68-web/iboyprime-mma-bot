@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7f2b68db5eaa319d": 1789663000.9442258,
     "3eed5d0b1134d75d": 1789662976.4816449,
     "45ccb6c46d37a54c": 1789662976.138838,
     "c1a022f1e918bb7e": 1789662915.5627847,
@@ -2498,8 +2499,7 @@
     "99091202b09e82a7": 1788739226.753019,
     "186e62777bcb280e": 1788739226.3427508,
     "615784f5aeba8c93": 1788739226.341382,
-    "9b39a5f6643d823a": 1788739097.6567476,
-    "07458e882ffba53e": 1788739097.2582147
+    "9b39a5f6643d823a": 1788739097.6567476
   },
   "initialized": true,
   "v": 4,
@@ -4609,16 +4609,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-17T12:50:25+00:00",
       "cluster": "c0256aefa6e"
+    },
+    {
+      "t": "Tom Aspinall stepping away from social media in the aftermath of title vacation says new statement",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-17T13:00:00+00:00",
+      "cluster": "c58d7c055b9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T16",
-    3
+    4
   ],
   "yt_eval": [
-    "https://www.mmamania.com/469057/open-thread-september-1-2026-name-a-movie-that-blew-you-away-as-a-kid",
     "https://www.mmamania.com/?p=469162",
     "CBMihwFBVV95cUxNOTZFMGp4cnpCeWZWWnlOdHBMSHJRYnhSWXctdjluTmdlTGUtYkRIQjZzTTZJSlptRmMzQUlkbHBXcmdpaTVRT0pmanl6dzBUdjRuMTRoWTM0WENNVWhyd1FnallEekZwWWN4VjlIM2ViRVZFRWhPSDBrVTlrNTBJMmVnaFhFYmc",
     "CBMitwFBVV95cUxPdG0yOUQzQTZ5TTk5ckJUWU1nR0l5eW1BNnh3cUFTT0IwN1ZORVo5TGgyV0Ryd1pXTk5RSkZic2xDN1lwY3BhQnFjWE9QTm0tckxwNXNDWTExX1d4VkJsVG8zckhqZ29TcVNGY2tkaFRCZ2ZSOHIyU1M3TXZFTG1ReXF3YktpSU10M0tyZWhfOFpEdEVUYmZyaUR2dHhkTlM4XzgwZmRkUlZ3RlU5NGU1Qkc1QWRYSmc",
@@ -6117,26 +6122,17 @@
     "CBMi2AFBVV95cUxQNF84YkRfQ19BVHU0VmFFS2UxN21KVXJHT1ZGSjhsOXhyVDdmMTZfTnl4dHQwT2cyLWp2NC1VbFY3bGlsdU9TS3pEZ0o4VlBfcHBqZTlpdVBMd1NWdGhtbmlZa0RxZnR5RlllVjgzSUZkVmNiUURRRGp6bU5Eb2RNWWhoOXZld1M3aVRwajV3TDlyNGhobThtbzd2aEZiQXBoN2Y2TXNuV2Jhdmctamo5U1dXci1qb0JSeXljYkxwWXNsaFBBNWdOc3JLR29rWXRzb0NzZGxCdms",
     "https://www.mmamania.com/472787/open-thread-september-16-2026-is-ai-going-to-kill-us-all",
     "https://www.mmafighting.com/?p=510571",
-    "7c83369c-ba92-3981-a972-41a7779fe721"
+    "7c83369c-ba92-3981-a972-41a7779fe721",
+    "https://bloodyelbow.com/?p=332019"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 81,
-    "staged": 5,
+    "ai": 82,
+    "staged": 6,
     "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-06T14:02:34.677232+00:00",
-      "t": "Conor McGregor tells Katie Taylor to make retirement U-turn after farewell fight at his dream venue",
-      "names": [
-        "conor",
-        "taylor",
-        "u-turn"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-06T18:58:48.436345+00:00",
       "t": "Islam Makhachev and Olympic legend ignite fight talks",
@@ -6945,6 +6941,14 @@
         "ortega",
         "you",
         "moicano"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-17T16:36:41.715333+00:00",
+      "t": "Tom Aspinall stepping away from social media in the aftermath of title vacation says new statement",
+      "names": [
+        "aspinall"
       ],
       "img": "photo"
     }
