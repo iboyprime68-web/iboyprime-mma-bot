@@ -1,5 +1,6 @@
 {
   "seen": {
+    "710dd4657ac7d509": 1789624649.9261289,
     "2d1f6d73f3911eb2": 1789624583.9080493,
     "3ffb29685e5240e6": 1789624537.9799213,
     "4d53d03187fbcaac": 1789624537.7116795,
@@ -2498,8 +2499,7 @@
     "af52fe40baf4e4b5": 1788713925.038213,
     "6a0a3efb2de3882a": 1788713900.9178808,
     "45704a2da0d2ca5b": 1788713857.3465497,
-    "c203796cb0cc028a": 1788713856.9828184,
-    "8b4f65cedfd697dc": 1788713792.9914799
+    "c203796cb0cc028a": 1788713856.9828184
   },
   "initialized": true,
   "v": 4,
@@ -4597,16 +4597,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-17T01:34:05+00:00",
       "cluster": "c06d9d31f72"
+    },
+    {
+      "t": "Gable Steveson teases Jon Jones UFC return",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-17T02:00:00+00:00",
+      "cluster": "c1e5e0ac354"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T05",
-    6
+    7
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330007",
     "https://bloodyelbow.com/?p=330011",
     "4d9c97a4-0cef-3046-a374-1441d14b5a5d",
     "1c5b677f-7179-39a3-bd31-f18e419a9b35",
@@ -6105,24 +6110,17 @@
     "https://bloodyelbow.com/?p=331952",
     "56ccff6b-4464-3ff5-9cab-4f0df1b12324",
     "https://bloodyelbow.com/?p=331970",
-    "3af09137-a692-3935-97d1-fc099c77808f"
+    "3af09137-a692-3935-97d1-fc099c77808f",
+    "a863f235-63ab-3174-b392-66aee0e0f703"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 32,
-    "staged": 2,
+    "ai": 33,
+    "staged": 3,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-06T05:41:10.906379+00:00",
-      "t": "Islam Makhachev offers UFC title fight to wrestling ‘legend’ with zero MMA bouts",
-      "names": [
-        "makhachev"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-06T05:45:10.762151+00:00",
       "t": "Silva Vs. Cong Main Events UFC 332 After Shevchenko Stripped Of Title",
@@ -6924,6 +6922,15 @@
         "gaethje"
       ],
       "img": "cutout:ilia-topuria"
+    },
+    {
+      "ts": "2026-09-17T05:57:31.268199+00:00",
+      "t": "Gable Steveson teases Jon Jones UFC return",
+      "names": [
+        "steveson",
+        "jones"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
