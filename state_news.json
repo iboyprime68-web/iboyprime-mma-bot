@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2d52dfb1730bec9a": 1789625973.581354,
     "4e539e2a6e746b9f": 1789625844.211578,
     "39871e5f4679ee8b": 1789625717.2100966,
     "1ccd6a1a3cea1262": 1789625671.7590857,
@@ -2498,8 +2499,7 @@
     "ae85bfd11fc85d21": 1788730025.0723228,
     "8b4b821f8fa03003": 1788729960.0175002,
     "f27850c2fd9bec2d": 1788729896.3101664,
-    "a85ba7b4ea5ee5fa": 1788729831.9896393,
-    "e64c2a810bfe0c22": 1788729767.1133363
+    "a85ba7b4ea5ee5fa": 1788729831.9896393
   },
   "initialized": true,
   "v": 4,
@@ -4699,16 +4699,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-17T05:56:43+00:00",
       "cluster": "ced63741364"
+    },
+    {
+      "t": "Paulo Costa wants his UFC jacket after claiming 200 drug tests",
+      "source": "Sherdog",
+      "ts": "2026-09-17T04:16:23+00:00",
+      "cluster": "c1d1cb3c9c1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T06",
-    13
+    14
   ],
   "yt_eval": [
-    "CBMibkFVX3lxTE1xTmdHejFKTHNLYVhiMW5FaDctYzFjMkVjdmUwS3dFb3Q1VlRTUDB0UmZHdTJuOGZsc0FKZmV3T2dOMFVDSk8wdUhvU1hQajZEc0NYWlM5RmJYYm1xdFJpdUhFWm9KM3c5Ymp2QVV3",
     "CBMigAJBVV95cUxORnVIVEpzMDJMaXpmSF96UmVDSWdValZrNFBITWhTTzJzWHhPblJPcUxfeldfallzWmJDaGdOWGRiVlAtdWM1dHpSdk1JcGhWUDRHZXNlV2NCaEh0RXJXcEo4YWVqakdOTW1QaFB2d2pNcWVCNWEtZ0JRbTVZWjZEYkpUYUtmcGFLX3N1eGQ5MXVqRDV6UTBoTGFzSXdWQnF3WXczcVdVMnNpZjgwekhpMC1QUDZ4NzZYeGo0SUtfcU9RZ2xXMnQyUFlKVkljR0tuYk1rRDd3T2E5ZU54ODNrQ1VwdmdsaGNjTG1tbWNQTVBnZUIzOEdBMUxsd1JJQUJn",
     "CBMib0FVX3lxTE43V1NqU2RzMEZkYjdVZ0UwR0o1MUVfWUpIVjBIckRXcWVoV1hNWGZhRktPczFCdnhkdVFpYjJKLVRNYmNFYTNhaHAwME1WaXViaWl3TndlZWJuY0JpNVJtbUc5ZmZ3UFZaQ2l2d2Zocw",
     "CBMirgFBVV95cUxPSE4tNDZraVFtUEVnVW9Pc1JUcS1SU0kxTWNKeExVb1dRa3RmelFodnhzVTl2SnN0YktNVjVJWi1XUl8tYXF0Y3lFeDZfaXBVOFJTMkE3QzVqUV9ERUNQZGIxMUhVWElIWVcwZnMwVG1EeXhuZFJ3cDRIQk9RWG55NzR5VDBYd2poc1ZfSkFPelA1QjV6XzJwNEZQTWNFZkZIVVI1TWkySGF5WWp1TVE",
@@ -6207,11 +6212,12 @@
     "CBMipAFBVV95cUxPQmpqZFYwd3hTMHlIa19veGVsWURsUk9NTFRyTUZVQlJlaU9xdEczOEFiM0UwMFZ2cUJKTzF1OUpoZXVfdjF6d0c0Um9BQTlPM0dTQnBVTlVONktkS2I0eE1FMmFrdTBBZlJrc3hZLW1UZUVBamI2QklRV1gzUDdoSkE1djFsVFBoSFdOdElrNm5XWVpIMWFnaG1wTWU4Y3pKM0xpOQ",
     "CBMitwFBVV95cUxQWEQxa3Q1cVNDVGhKTExFYmx0NkFKNnhPTnNzS0RJYUJ6R1RMVzhzcFc4NmR2MVlPTEszWmxFYjI1OFhRalFmTXdxV0dKbWt0bWx0TUhFRXh0QURQN2gyVC1sV0VSS3EyeFd6TkdLUktYOE9pTmJhaUMyTTdTQW9sXzk5bW5DWUVJNERJYjFnQmUwd01ueGpqZWhaS2txMDcxWE1ad3EwTUhmSnNQdXdNN0FjU1NJcGM",
     "https://www.sherdog.com/news/news/Tyron-Woodley-details-rock-bottom-after-losing-UFC-title-to-Kamaru-Usman-202835",
-    "e9b5728e-0eca-3a57-b8a9-b83046e9b728"
+    "e9b5728e-0eca-3a57-b8a9-b83046e9b728",
+    "https://www.sherdog.com/news/news/Paulo-Costa-wants-his-UFC-jacket-after-claiming-200-drug-tests-202836"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 49,
+    "ai": 50,
     "staged": 3,
     "prio": 1,
     "lost": 0
