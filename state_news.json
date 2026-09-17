@@ -1,5 +1,9 @@
 {
   "seen": {
+    "f5ffa964e416bcd7": 1789604338.3531687,
+    "680635c68fea0d09": 1789604337.9790084,
+    "8c5d38aed5552714": 1789604337.9721398,
+    "53cbfbec24d46218": 1789604337.9461417,
     "1018ef1d9952188c": 1789604292.6507256,
     "8258035dcb307a8a": 1789604263.6124928,
     "bf943caf240b3073": 1789604263.2894547,
@@ -2495,11 +2499,7 @@
     "3f066ba2e1c94db7": 1788673269.9123425,
     "ba695d0e97b06767": 1788673246.7961478,
     "6600f8214cef5d4b": 1788656437.221455,
-    "88e65f6550dd65d0": 1788656412.02552,
-    "f1af369c62d392b8": 1788656367.1847982,
-    "22d8b626dc8c792a": 1788656301.639708,
-    "38096672b52edb40": 1788656234.3431237,
-    "45588c3003244fa1": 1788656169.381782
+    "88e65f6550dd65d0": 1788656412.02552
   },
   "initialized": true,
   "v": 4,
@@ -4645,16 +4645,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-16T23:35:43+00:00",
       "cluster": "c6a1e5ccbca"
+    },
+    {
+      "t": "Renato Moicano Continues His Verbal Assault On Brian Ortega",
+      "source": "MMA Sucka",
+      "ts": "2026-09-16T23:31:45+00:00",
+      "cluster": "cc287f629db"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T00",
-    9
+    10
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=329997",
     "https://www.mmafighting.com/?p=508273",
     "437ee346-2b3f-3b24-823c-84f1eca91030",
     "https://bloodyelbow.com/?p=329971",
@@ -6153,11 +6158,12 @@
     "CBMimgFBVV95cUxQUmJjalBLWHdTQWVsd0hEYzN5a0ZGZUtveTBYSVJfVFp1ZVc0Qy1la3l4WmQ2UmJvMS1WUGIyMTIzQ0hsQ3BDR3VybDNWUVB0a0VYNVZtb21LclZUNmFkTGo0ZEgxdUJramhyVDlzU3l2OFlSZ0hlWWZzcDNHYmlFMHhudDFONnpzWXN1THNIb2hXQWZyb2UtVHRn",
     "CBMirgFBVV95cUxQSll5WURua194LWduUDR2eUd4cnRSeVdLSmJHbUtSWHloRWVja3VBV2MyUUFZTzhqRXNCWHpFNHZNT1JBeUo5STJIRjIyNk5MUTUwbzl6X1JHVl9ONnc4R3REREJWZjRKYzF6dGtHdXJzc3kxSWN6bVNnaDRMemdBLWpkRTNlazFhQXU4dmV1ZGZ4ZUZfc3YtYUxBeVctYVY1em9wLUdLWFhLcEowbHc",
     "CBMiqwFBVV95cUxQX2lLRkdBSG1KMzNBcHpFSVlraUMtdi0xcmhLOFVHOWdzcXBMYngzMVloRVFhWmZFbFBpNFdFX2NMRVp1NWRldDlXZm9vSTl5NjFtT19yeWxkN3ZEVGxfWllTWU1tZXYxMU9DY3dWdnFRNGpIWlFVR2p6SWF0aHdYUTBuSGlwbnRFUkF2T0ZjN0g2U09fTGNVWnktckVsMjlrOUtXMElLX3pjVVk",
-    "https://www.mmamania.com/?p=472753"
+    "https://www.mmamania.com/?p=472753",
+    "CBMijwFBVV95cUxNUktuWHlqWFRyS0xqQmZzSWpFR3h3emQ4RXUwRmJMQ0ROanpwdXBfVTZmd1FIX3l0dUQxcURWOF8wcUFJM21LWGdkYTNfX1o3QTZDYlVxOHNoRWpPT1E3cVpwVzJtUjNRY2M4TFFQY2U5d0pFa2FjdTRGTE0wYXFuaDlEZUxQV0dMS0xvUzRoQQ"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 9,
+    "ai": 10,
     "staged": 2,
     "prio": 0,
     "lost": 0
