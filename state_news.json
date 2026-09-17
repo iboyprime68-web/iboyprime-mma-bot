@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2c9030068a05cd12": 1789604036.757132,
     "cfcaeaf240b72884": 1789604010.2670422,
     "66f32557c7c156ff": 1789603985.713579,
     "eeb17c79d25a247e": 1789599101.1723042,
@@ -2498,8 +2499,7 @@
     "bf5fca3adf50ebef": 1788655771.823709,
     "50a9d769f96d6ccf": 1788655747.4031615,
     "8e037fc06714e3e1": 1788655747.0493588,
-    "a0a3023d7958d046": 1788655703.3587236,
-    "17f8f705e3fc9dfb": 1788655638.2926939
+    "a0a3023d7958d046": 1788655703.3587236
   },
   "initialized": true,
   "v": 4,
@@ -4603,16 +4603,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-16T23:00:00+00:00",
       "cluster": "c268d02db59"
+    },
+    {
+      "t": "Arman Tsarukyan unimpressed by Mauricio Ruffy’s star-studded training camp: ‘I’m better everywhere’",
+      "source": "MMA Fighting",
+      "ts": "2026-09-16T23:42:20+00:00",
+      "cluster": "cc8ab26e46c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T00",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMimAFBVV95cUxNZ1RIWVNXZEV1SlRsYTNSRUlZNHpoRmI3Z3poS1BqZDhXSDZlMlFDZ1V0MUJQZkY4YzlIS1FONlh0ZEw3NE1HVUxNVWgyaWQ0LUFaUjNrbVNGR3FCeVVUVE4zRzhOTXNYbHZYQm9BYW1ZOUdKZzJVUEoxa3NueEFGbThhN2NWMHBydFY3alpYbVR5YnFmN1ZpRw",
     "85f3aa41-ec66-32a6-9766-b4cdf8111013",
     "9020e5d4-e4a9-361c-80c9-1b5e7d42efc1",
     "c03cb07e-3f64-33be-872e-11ab57c046e0",
@@ -6111,11 +6116,12 @@
     "CBMigAFBVV95cUxNSlhxX042TjExamRndlk2d2hfV1QzVE5kZjBiTHZETGlrUmNWQ3lYOE9ibjhCc2YyZHRZb3Z0MGlZanUySVlraXpwMHpURFBrYVN1bktNYTRlQ1FtRDlHaWYwSmd5U0d2MHZ0RnljUU9LMlhaaVVSSndMSlBDYmg1Sg",
     "CBMivwJBVV95cUxNdWtTaWFvdjBFdEhsVDRqOWNQajNvQURxckNkMFJqcTdkaXNqUHltQ1B4dUhDWU9OQTB5QzRhX1o3UWdvcnY5eGhoWlRoWTkwdnNJSkRubEJ6bm5NS1k5TTh0Um5PZUh5YkZycGNraVdlZkFpYnhLX3hiU0ZIblQ5cVQ0VDNUZ1lQWlVmdzBXcEdEZFQxUHlPQkFnYzE2R3k1dV95cnVBYV9RajA5OUlualRJNElZMkdDUGEzNGZQaGhzbnFOQmhCZjhqTndWRFR3bnZ5YlRPV3UtUnZTOXIxU0lLR04wTlRiQnJXSHMwVm9FalpiSDJDb1kyLWpfVXBEVHpUUTRldDlwMjBmTEpfSkpLZmdmcnJwUUYwNGpSbF9xVFBTOTJFSmV1LTBuSUZsM3lNV3ZwdWM2U2FRUEw0",
     "e718a907-eafa-397c-9856-7354cee45a7f",
-    "https://bloodyelbow.com/?p=331914"
+    "https://bloodyelbow.com/?p=331914",
+    "https://www.mmafighting.com/?p=510607"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 2,
+    "ai": 3,
     "staged": 1,
     "prio": 0,
     "lost": 0
