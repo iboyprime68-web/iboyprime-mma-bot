@@ -1,5 +1,7 @@
 {
   "seen": {
+    "e00998cf57bd2b5e": 1789604061.6625383,
+    "076205ff5759cd74": 1789604061.1503134,
     "2c9030068a05cd12": 1789604036.757132,
     "cfcaeaf240b72884": 1789604010.2670422,
     "66f32557c7c156ff": 1789603985.713579,
@@ -2497,9 +2499,7 @@
     "643857a8f9a466a3": 1788655902.7776837,
     "c8c13db9db8b672a": 1788655837.1890423,
     "bf5fca3adf50ebef": 1788655771.823709,
-    "50a9d769f96d6ccf": 1788655747.4031615,
-    "8e037fc06714e3e1": 1788655747.0493588,
-    "a0a3023d7958d046": 1788655703.3587236
+    "50a9d769f96d6ccf": 1788655747.4031615
   },
   "initialized": true,
   "v": 4,
@@ -4609,16 +4609,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-16T23:42:20+00:00",
       "cluster": "cc8ab26e46c"
+    },
+    {
+      "t": "UFC Star Gable Steveson Offers Huge Jon Jones Prediction for Next UFC Fight",
+      "source": "Sports Illustrated",
+      "ts": "2026-09-16T23:15:00+00:00",
+      "cluster": "caae7943d8c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T00",
-    3
+    4
   ],
   "yt_eval": [
-    "85f3aa41-ec66-32a6-9766-b4cdf8111013",
     "9020e5d4-e4a9-361c-80c9-1b5e7d42efc1",
     "c03cb07e-3f64-33be-872e-11ab57c046e0",
     "https://www.mmafighting.com/?p=508202",
@@ -6117,11 +6122,12 @@
     "CBMivwJBVV95cUxNdWtTaWFvdjBFdEhsVDRqOWNQajNvQURxckNkMFJqcTdkaXNqUHltQ1B4dUhDWU9OQTB5QzRhX1o3UWdvcnY5eGhoWlRoWTkwdnNJSkRubEJ6bm5NS1k5TTh0Um5PZUh5YkZycGNraVdlZkFpYnhLX3hiU0ZIblQ5cVQ0VDNUZ1lQWlVmdzBXcEdEZFQxUHlPQkFnYzE2R3k1dV95cnVBYV9RajA5OUlualRJNElZMkdDUGEzNGZQaGhzbnFOQmhCZjhqTndWRFR3bnZ5YlRPV3UtUnZTOXIxU0lLR04wTlRiQnJXSHMwVm9FalpiSDJDb1kyLWpfVXBEVHpUUTRldDlwMjBmTEpfSkpLZmdmcnJwUUYwNGpSbF9xVFBTOTJFSmV1LTBuSUZsM3lNV3ZwdWM2U2FRUEw0",
     "e718a907-eafa-397c-9856-7354cee45a7f",
     "https://bloodyelbow.com/?p=331914",
-    "https://www.mmafighting.com/?p=510607"
+    "https://www.mmafighting.com/?p=510607",
+    "CBMiswFBVV95cUxPZXYyRjY5cjl6Z2wxNlFzNElQUVoxRVdTNEstQVExY211WV9IWlZxZjVyM1ZZR2c4d0RfakNXdnZkQldTR2VQeFMtRk1iM2xmWjBCc2ZBZVUzT1J2M0tlc1FoSDZuZUVoUHNkZU5sS19EcEl0a1o3d0xVOVZ0SlAyUG9nOW5iQ3JBeUNlQ1p1TTNKdFVyWGEyUzRSV0JaSDNhUUtvUmRkcmllNXBVUnVPaFQzSQ"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 3,
+    "ai": 4,
     "staged": 1,
     "prio": 0,
     "lost": 0
