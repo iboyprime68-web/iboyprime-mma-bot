@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f5c6b4f039f5d608": 1789646858.246364,
     "0a84c31267d0dff1": 1789646794.6693964,
     "ebf3a724b352763e": 1789646670.3099213,
     "709c7c19c61d07e7": 1789646584.398804,
@@ -2498,8 +2499,7 @@
     "8e1888c61ca8641a": 1788738905.3720946,
     "1d6e135130d749fe": 1788738776.4308257,
     "6ae5d5a5f4ec9b5b": 1788738523.4296405,
-    "a5cc8bcc038056ae": 1788738522.4040956,
-    "9fcafbb7f53695f8": 1788738477.8555524
+    "a5cc8bcc038056ae": 1788738522.4040956
   },
   "initialized": true,
   "v": 4,
@@ -4807,16 +4807,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-17T04:16:36+00:00",
       "cluster": "c704cace51e"
+    },
+    {
+      "t": "Justin Gaethje changes tune on Ilia Topuria rematch after glove claims",
+      "source": "MMA Junkie",
+      "ts": "2026-09-17T12:03:00+00:00",
+      "cluster": "c6cff27f469"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T12",
-    2
+    3
   ],
   "yt_eval": [
-    "cadc698b-4cef-37d5-977d-fd913ed7dfd9",
     "CBMiugFBVV95cUxPSkpabDJ4LWFTbE9RVlIyUmRaM01MZEUtY2tTaE1reXU3Nl9CWnZDMjYxZDRVdXVmZlRqNmNCUUM2Q2pnN0FaX1BTU0dlZjV0ZUtFdnhwZkNtdkVrcDhKakI5RTdTQ2NiOU5ESVFTWTZxTVlnQ1hVa29ISE1KTEVVVEVVQk1BWTdMUUxoTjZJTHZXZEg1UU1hTFFrd0lvMVNQMlduNmRUMWpSZm9tdTkwNUd6QTJTM1FjMFE",
     "CBMiiAFBVV95cUxObXBYWjNtcW05S3hIV0RLU2wzRl94UHNJVlJOY2M1RmpfNEM0M1RpelR1VmEzWHN3NGxxOTktc2pvZFpmRnF1dlJCLThHRmtxRHlTX1h5UWY0SUNodzRhREVKMlQ2Z2I5VXVKbnRGVnBWUmFKM3BDRkc5NmZGZWRTYmNMRDFTLTRs",
     "CBMiwwFBVV95cUxOZDlyMG9FakgtbDNmSW9sZnlZOHlOUjJ0QXpkbHFYUXhTY2VYNGtqWnRyZlZFY2xoN2U4clVGeHFHWEg0OUQxMEUyRTJkX05JbnNKeXAwMU5BcHdtUkVJMWdZa3luSzY2ODhnVGdWbFZxZUY2QjdFbU54N1BPdjZ0QXdOaW0tS0JxOXZmRVRfZnlKY1ZhWXZzLTNyeUZzaUF4WGtXZnpGRURxNTNONm1Tbk1NcUtDcUFET0VmQWIwQmo4dXM",
@@ -6315,11 +6320,12 @@
     "CBMiZ0FVX3lxTE1RYzRRdnRqX1kxWERmaE9nVFZUblJDalVHSV80b2hsb2tycUNqa1BrNzBvSlVJSmFSamJBR1k5LVlJV2FBeGJfdGR2Y0tNbmUyOFFRckl3QzRBd0laUElwRDVtYzc3a00",
     "CBMirwFBVV95cUxNemNnMVMtWHN5SGs4WXBKR0FmSkNJTnFpTzQ0SzV0UWVaSklwblN3dUc0bURycFJkTVJYemVFakd4eC02U3luQ19zRmlPQzZHbmhxbkstMXhFRWxkNXllX01MWmtqWUV6MFRHMDNrU3IzeTlnbXp1MG1DR0hDaW41ZkI5VU9ZYUlSNVVLUlEzV3RjemRSbGNKcWpQSDA5TzRTd2VoZ1h4SWVON3YxRXYw",
     "https://bloodyelbow.com/?p=331985",
-    "https://www.mmafighting.com/510510/dnp-morning-report-template-dnp"
+    "https://www.mmafighting.com/510510/dnp-morning-report-template-dnp",
+    "CBMi2AFBVV95cUxQNF84YkRfQ19BVHU0VmFFS2UxN21KVXJHT1ZGSjhsOXhyVDdmMTZfTnl4dHQwT2cyLWp2NC1VbFY3bGlsdU9TS3pEZ0o4VlBfcHBqZTlpdVBMd1NWdGhtbmlZa0RxZnR5RlllVjgzSUZkVmNiUURRRGp6bU5Eb2RNWWhoOXZld1M3aVRwajV3TDlyNGhobThtbzd2aEZiQXBoN2Y2TXNuV2Jhdmctamo5U1dXci1qb0JSeXljYkxwWXNsaFBBNWdOc3JLR29rWXRzb0NzZGxCdms"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 77,
+    "ai": 78,
     "staged": 5,
     "prio": 1,
     "lost": 0
