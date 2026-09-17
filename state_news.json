@@ -1,5 +1,6 @@
 {
   "seen": {
+    "553bb621c6431093": 1789644006.3150203,
     "32a14f26148424be": 1789643941.6017585,
     "f9f04576073824f6": 1789643897.2189946,
     "81fd2d057991532b": 1789643873.5929587,
@@ -2498,8 +2499,7 @@
     "138d4283dc54b835": 1788730853.2292855,
     "51ae7d02a3e5e94d": 1788730790.3396037,
     "072e762b5855df6d": 1788730767.5703962,
-    "26581dbab73eb5e8": 1788730662.7747824,
-    "78393a89a98fd9e0": 1788730597.9689372
+    "26581dbab73eb5e8": 1788730662.7747824
   },
   "initialized": true,
   "v": 4,
@@ -4717,16 +4717,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-17T07:11:13+00:00",
       "cluster": "c85da7770c9"
+    },
+    {
+      "t": "Justin Gaethje reacts to serious Ilia Topuria allegation as rival confirms UFC return",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-17T08:33:50+00:00",
+      "cluster": "c14f1b6ed0b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-17T11",
-    3
+    4
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330013",
     "CBMisAFBVV95cUxOUDlBRGJRWlBzc01JTDZSWHpTRXdyYnoxMVdVNzVzLTBENjA2SDlUV0FmaG9uaGhjV1llb09BVUVuYUpqWnlKamFvaFFBNFRTd2R1OXg5R09jc0M4VldaRXlEd2xUVHg4SV9pYm9yT2VuLWpQOC1FTDV3ZGVrZThMYmV5Z3RteVp0UHNrazJEcnZuVFJLVnBiQWoxN3RacXhCUDI3Z3ZyUDNKTUpnbDFONA",
     "CBMiqwFBVV95cUxNR3YtR1IzenE4a1pIaXhIcFd6SjBsbFlLMC0zTUQ0ZE94SWl0RE5ROTF0MVduY0pxMEh6S2pTQVNsdk11ODVfQ3h1Sm5vTGpfblVHb204ZnJFV3BCeXRSZmJwQ0xSR0NtRFNUMm0zZk94RTRzZ3hTMDlRRUwxMjdEbTRmcE9yMzFqV3lienVtOUtPOERVWWtmQTVGa3lUeWxBbS1ERmFuQlJ0NVU",
     "CBMiYkFVX3lxTE8ybThON0NxZHlYczVmSmRESjd6dFgzYWhfRXZNZDNOZThsT09OSHZmVFFkTUZfX3V4am8yTmxxeGt6Mk9sb2k4MG82d0ViMEstNHpUeUJnZWJvQzBSVlRBYmxR",
@@ -6225,11 +6230,12 @@
     "CBMi2gFBVV95cUxNUkpQWlcxRnNGN0hTZjdOSzZwckNCYWNIN1d0dERQejF6LUkwblV0Q0xnaDFNcTBoak9YODBBbGVXUksxZHp2WTVuczNOdE5rVEIyX2ZGU3hPME56QjlHUnBIODJBTzZjWXNiYWp1N1g4alpCa1lxRFM5QkoyakZRa1FmbGZnTDNUOEtSZks3Z2x5eEQ2MjR2V2VRY3U5MFBSOTdSQnpONE5UbU9ienlwZlMxOWNWWjJTT1F1Mkp1ejhuNDFFa1k3UUNxU1ZmZkJfRUV5blNDREpNZw",
     "https://www.sherdog.com/news/news/Alex-Pereira-trolls-Ciryl-Gane-with-champion-jab-following-Tom-Aspinall-exit-202842",
     "https://bloodyelbow.com/?p=331973",
-    "6ccaec4b-2698-38c4-b5c1-44354e078812"
+    "6ccaec4b-2698-38c4-b5c1-44354e078812",
+    "68ca2e23-b209-34be-9483-d831396cc40b"
   ],
   "daily": {
     "d": "2026-09-17",
-    "ai": 59,
+    "ai": 60,
     "staged": 3,
     "prio": 1,
     "lost": 0
