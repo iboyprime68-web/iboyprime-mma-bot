@@ -1,5 +1,9 @@
 {
   "seen": {
+    "883e2812ea7971df": 1789738287.8563652,
+    "a87e469eaaf07729": 1789738287.2247815,
+    "c28074ad6fef09ff": 1789738287.2217686,
+    "fbaca5dc47cb9022": 1789738287.2113092,
     "6976c21ccc3f6db7": 1789738262.9621022,
     "1eb093b902b446bd": 1789738239.042413,
     "a51a30bc0b98cf7a": 1789738215.1512597,
@@ -2495,11 +2499,7 @@
     "e0b671c0f7230b12": 1788904056.6194816,
     "e9c15491ef44771b": 1788904032.7700377,
     "93e9c78508c02f4d": 1788903988.6380844,
-    "02993980ee3a198c": 1788903923.1446164,
-    "b44fe76b1b622c81": 1788903922.8727195,
-    "2686323057850dbc": 1788903858.3482053,
-    "25a9ac197069c525": 1788903793.1476395,
-    "81fddf6c4531bf15": 1788903792.7818475
+    "02993980ee3a198c": 1788903923.1446164
   },
   "initialized": true,
   "v": 4,
@@ -4615,16 +4615,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-18T12:00:00+00:00",
       "cluster": "ccae0f7ced2"
+    },
+    {
+      "t": "Arnold Allen injured, out of UFC 333 fight against Aaron Pico",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-18T11:39:08+00:00",
+      "cluster": "c89687a1821"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T13",
-    3
+    4
   ],
   "yt_eval": [
-    "623375a7-1617-3783-a079-f4a7c9a95d5d",
     "https://www.sherdog.com/news/news/Shannon-Clark-vs-Lucero-Acosta-booked-for-PFL-Chicago-on-Oct-16-202649",
     "0721034b-0541-3ebf-b559-ec13bf31b077",
     "CBMi6gFBVV95cUxPRGo3Y2ZQTU0zTlpZR3d0cEdXZXgycjRNY2l0SGhob2VPWGxGckIxLVBiY1VVeUpZRlNhdUZyaElVdk4wLWRudDNLQ3Q0T2dhcWlZaU5NVEx6WENXT1hfeWJHN1J0OENyR3g1bThXd01QZGFkQzZaY0hScTRQdFpoQ0R6dVVaZElERnp3bzRwMTUxUjNXdjlYQy1mZEdLQXlxdzF6Mk8zQ0l0M082Ti1oaGdFVFg4QXRHWkItOUk3TUJ4aWZud0V1R2ZxOWZPaUpvcjZpRHMzWmNpcnhzZFRibmwtcnB3NE5YNlE",
@@ -6123,26 +6128,17 @@
     "CBMijwFBVV95cUxQZEJSQkNPaHlpbFlmX0c0VTc5WGc1WFZ6XzB0UWVLZjNBZFVibDJqT3doWHp1TUt4OFNkSjlZSmdkLS1qZXV4WldqZGdxLVBXUmlkcmk2cWg3cDgzU2tXZ2ZDSzRPckNqWkVjQ1N6a0FURWtrTEk2QTBvX0dIeVM5V1FKX2JIMFBjSkVSemhVWdIBnwFBVV95cUxNTWxQQnQ1LUhIUE1JaDJ6aTF6TTQyX25OSnI5VHFHRjE4TWhFUXR3RVFpUlYzYTNEdVJKdXV0b2tpMUUxXzZpYXlpMXdUd09TVDk1c3VwT3pDVEJzWV9nWnZKSkM0M3ZyOE5VYzFmYnRfWjZpWWFWX0dlVk11dVo1STZvYWFabU04U1FFbEpjazBIOHJJSm1lUlEzeURKRlk",
     "https://www.mmafighting.com/510707/ufc-330-weigh-in-video-makhachev-vs-machado-garry",
     "https://www.mmafighting.com/510665/dnp-morning-report-template-dnp",
-    "https://bloodyelbow.com/?p=332169"
+    "https://bloodyelbow.com/?p=332169",
+    "eff61f3f-afa7-3963-b64e-73f31569aa57"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 53,
+    "ai": 54,
     "staged": 1,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-07T03:46:40.934736+00:00",
-      "t": "Conor McGregor calls for his own Croke Park night after Katie Taylor retires in front of 83,000",
-      "names": [
-        "conor",
-        "park",
-        "taylor"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-07T03:49:20.165932+00:00",
       "t": "Valentina Shevchenko’s Coach Explains Vacating UFC Belt",
@@ -6951,6 +6947,16 @@
         "steveson"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-18T13:31:28.970072+00:00",
+      "t": "Arnold Allen injured, out of UFC 333 fight against Aaron Pico",
+      "names": [
+        "allen",
+        "aaron",
+        "pico"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7001,7 +7007,8 @@
     "c1a022f1e918bb7e": 1789662915.2349086,
     "638153b615d04765": 1789703920.076112,
     "2aae2bfd746e0b26": 1789721727.0967484,
-    "1eb093b902b446bd": 1789738238.7794566
+    "1eb093b902b446bd": 1789738238.7794566,
+    "883e2812ea7971df": 1789738287.2515323
   },
   "pinged_titles": [
     [
@@ -7023,6 +7030,14 @@
         "morning",
         "ruffy",
         "who"
+      ]
+    ],
+    [
+      "Arnold Allen injured, out of UFC 333 fight against Aaron Pico",
+      1789738287.2515323,
+      [
+        "allen",
+        "pico"
       ]
     ]
   ]
