@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cb71639c3e8dc28b": 1789753073.1543844,
     "5957a34e264d829f": 1789753047.1386986,
     "08026c6ec557af6d": 1789753022.2748818,
     "bceb00064766552e": 1789752998.4955473,
@@ -2498,8 +2499,7 @@
     "3cea80720175ffce": 1788961635.9184864,
     "d185db8b2dd575db": 1788961570.2777631,
     "112e302d4cb1df2d": 1788961504.9796362,
-    "346cc584d21943e5": 1788961504.728941,
-    "8883ccdb6344451f": 1788961439.7451391
+    "346cc584d21943e5": 1788961504.728941
   },
   "initialized": true,
   "v": 4,
@@ -4615,16 +4615,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-18T16:28:04+00:00",
       "cluster": "cd81be88a6e"
+    },
+    {
+      "t": "Colby Covington sounds off on Justin Gaethje's glove tampering allegations",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-18T14:30:00+00:00",
+      "cluster": "c0565bcd9f6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T17",
-    6
+    7
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508448",
     "8ff4a9c3-993d-30e2-8f02-1a5cd3cea4d4",
     "https://www.mmafighting.com/?p=508370",
     "https://bloodyelbow.com/?p=330172",
@@ -6123,11 +6128,12 @@
     "https://bloodyelbow.com/?p=332215",
     "c1d58e01-4676-3cfd-849b-df42bf7cd13c",
     "https://bloodyelbow.com/?p=332179",
-    "https://bloodyelbow.com/?p=332266"
+    "https://bloodyelbow.com/?p=332266",
+    "5578eb37-6422-3e78-a950-12574fdf44b2"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 93,
+    "ai": 94,
     "staged": 2,
     "prio": 3,
     "lost": 0
