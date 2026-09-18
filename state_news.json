@@ -1,5 +1,6 @@
 {
   "seen": {
+    "506a8497e1060396": 1789738638.9905267,
     "dafcf79fe48d9ec6": 1789738571.9392827,
     "222dd2515c07a646": 1789738527.4965854,
     "2eeb1e8ef2c0924d": 1789738499.0621128,
@@ -2498,8 +2499,7 @@
     "34a5ce8616f9bd28": 1788904384.604914,
     "95a5fb616a9af93a": 1788904384.6046305,
     "c8935ffffaf8024b": 1788904340.2763968,
-    "a1e705ff1c997aa0": 1788904340.0009205,
-    "e0e5bf8180440848": 1788904316.638354
+    "a1e705ff1c997aa0": 1788904340.0009205
   },
   "initialized": true,
   "v": 4,
@@ -4663,16 +4663,21 @@
       "source": "The Stats Zone",
       "ts": "2026-09-18T12:40:00+00:00",
       "cluster": "c037356afd1"
+    },
+    {
+      "t": "UFC 331: Patricio Pitbull vs Choi Doo-ho Preview & Prediction",
+      "source": "The Stats Zone",
+      "ts": "2026-09-18T12:41:00+00:00",
+      "cluster": "cdb54b520c0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T13",
-    12
+    13
   ],
   "yt_eval": [
-    "CBMimgFBVV95cUxQTy1mYWEzNThjX0dzWm4zVjhYTVN0RWprQlhkSGN4Zll0OFotU0o3Vm9OWDBaUFFnemNrQlBjdU9HS1lTLXVTTlZUNkpRck5sdzV5a1RrU2g3cVpiYlFmVm5rV1NYSXFVREx2X3RaODc2TEo4LWN1cURoR3JJcTM5ckJGT2FpaXVlaDZSM3p4WHFXMGNtclpjelpR",
     "CBMiigFBVV95cUxQaUFrR1ZYaTVRNHloVlE1WWRGU1I4cC10TVFXcTZEa2lrMV94R2tibVRIdUdzWXJrVktLcVdFd0U0bHBueXIyc0dzcVQxVllQaFpyTkZGaF9PQVQ4WVE5SFhFSW5mQmY0OU5PczVoZS11cTkyN29XX3FaakNqaUxlMDB5bTRrNlBLcXc",
     "https://bloodyelbow.com/?p=330158",
     "https://www.mmamania.com/?p=469271",
@@ -6171,11 +6176,12 @@
     "CBMikgFBVV95cUxORXowRTlxaXB5MlBjUUxJTGtoVGpUR3hQRVprbWpaemExN0l6OWtDU0RVTDg5VWhocHczRXJxdTNaVkFEM1g4QlRoSmlEa2YzaWlSejNUa0RHa05za2tUY2lUWTM3cVU2MkI4SjNXV2FVR2JZVmdodVlTV0hTZHdOeXdXd0FrZ2RsV1hRTE16X1FJdw",
     "CBMinAFBVV95cUxPZ2xKRFpTTHNiY1ZucnlpaXNsMjFhdnhBWG9rcmJWblZKckk4Zm9ySGxHaUlHVVg0WXdOVWpMWmpqWjlXcXZQZEV1a3lrdWZQTkhyQ0hKbGV5UHd4aDRCRHhhV0FoTXFTYkppcl9vbHZUZXdXMVRjV29SOFgtZE5mc1FmVDdIRTkwNnZRck9TR2lJZmRWelQ5MGpETzM",
     "https://www.mmamania.com/472884/open-thread-september-17-2026-whats-your-favorite-tv-episode-ever",
-    "CBMilwFBVV95cUxPZVFfb2xWLVplSFVPdmpKNENnZ0cxMVczcGdCTWpER1V5bHFjT1FrUnJtT01acjJBVEhyRU0tLTBtaWRpZlRWRlhCZWtLcmlHdnNiUjlvOHFaRzRMaFUzX3hXR292bWpKY1ljMUtOY29kLUlyYlBzc0ZNOHp6cmhQdmRBWlVfekVhQTFKYUJhV2loTWpiandB"
+    "CBMilwFBVV95cUxPZVFfb2xWLVplSFVPdmpKNENnZ0cxMVczcGdCTWpER1V5bHFjT1FrUnJtT01acjJBVEhyRU0tLTBtaWRpZlRWRlhCZWtLcmlHdnNiUjlvOHFaRzRMaFUzX3hXR292bWpKY1ljMUtOY29kLUlyYlBzc0ZNOHp6cmhQdmRBWlVfekVhQTFKYUJhV2loTWpiandB",
+    "CBMimgFBVV95cUxOVUJqVmctT0dXYzI1Ni1kNFFzVC1kdVhvdC1WanB5UV9wVTVHaVBDRU03VldPdDJZMnE4blh3dGd3MmJGdDcwY3o3ZEJEazFrM1hTWXdiSVlBU2g2cnFFeWVGbWxhQWFqMkhmNS1nRXAyTVB0MXNHdXZMcVdtQmNHUmJZNU9pSFJhZm1COG1lck5XNHpZbFEwbWJR"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 62,
+    "ai": 63,
     "staged": 2,
     "prio": 1,
     "lost": 0
