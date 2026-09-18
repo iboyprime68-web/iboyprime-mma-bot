@@ -1,5 +1,7 @@
 {
   "seen": {
+    "0bc2366d7635ca29": 1789775613.4038923,
+    "731885aa5474a020": 1789775613.0986252,
     "c271933180b4834b": 1789775173.5840044,
     "648d4078870ba5d4": 1789775046.7284687,
     "f91c896d387a3624": 1789774919.9110925,
@@ -2497,9 +2499,7 @@
     "6f926157cce24998": 1789064734.8954718,
     "d79cb20f5c35bc57": 1789064734.5653868,
     "903568f5cc8fa886": 1789064667.3945618,
-    "34e784d27f60fcda": 1789064667.1423364,
-    "22ec7c8ba9af0fb9": 1789064602.885275,
-    "65d86a088ca6b9b3": 1789064537.5663726
+    "34e784d27f60fcda": 1789064667.1423364
   },
   "initialized": true,
   "v": 4,
@@ -2509,24 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T00:00:00+00:00",
       "cluster": "c4830b62b9b"
-    },
-    {
-      "t": "UFC 331: Marlon Vera eager to end his losing skid",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-16T23:51:15+00:00",
-      "cluster": "c0b7da60732"
-    },
-    {
-      "t": "Pound-for-Pound: UFC 332 is a bad sign for what’s ahead",
-      "source": "The Daily Free Press",
-      "ts": "2026-09-16T23:52:17+00:00",
-      "cluster": "c7b9cad8a8e"
-    },
-    {
-      "t": "Gable Steveson Looks to Build Off UFC Debut Stream of UFC",
-      "source": "cbssports.com",
-      "ts": "2026-09-16T23:53:29+00:00",
-      "cluster": "c3b98416bf9"
     },
     {
       "t": "UFC 331: What’s at Stake in Arman Tsarukyan vs. Mauricio Ruffy?",
@@ -4735,16 +4717,21 @@
       "source": "CBS Sports",
       "ts": "2026-09-18T23:04:46+00:00",
       "cluster": "cc50606f541"
+    },
+    {
+      "t": "Video: UFC 333 first faceoffs with Volkanovski vs. Evloev, Yan vs. Dvalishvili 3",
+      "source": "MMA Junkie",
+      "ts": "2026-09-18T23:49:00+00:00",
+      "cluster": "cd670ebe5d4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T23",
-    24
+    25
   ],
   "yt_eval": [
-    "CBMikgFBVV95cUxNX3VkaVNuQVBMQ2hkZ1dHa0dJUzV1dnowY1hmYy1nQmRWdjhQdlpKR0l6SWtjOUQzQmwwRGE2Vmh4d0RGZWNBWXhqSnFHR09OU0lTV3BmUWVrOTBqenZSRkZJbmJHMmlJdUgwZXdJTFg0QU1VYXBwYU5WQTJrTXpsZlIzYTA2aW1QLXVhZ3Vya1Fodw",
     "CBMiigFBVV95cUxOZDlXdW5GR2NxRUNlR0RiWWV0TExUeVJkdWdkYjdOajItYVN5a210SEhZeVlHQ0ZKS3JfUFMxUDdjV1hXMDBkd2czZExtV014MUdfMFZaaUphSFFsbEl5STNwT3BISHktRmwtMTFpNWlhZjhvRnNUUm01U3YtNTRMUF95MHRhYVZoMEE",
     "CBMiuwFBVV95cUxObHAyc3NBaGRoWldPSUpWR2w5T1R2NWMxVVFMeFNlX1pSOThnV2o5VWlLVXRVMXBHNVJYdS1ibjR3ZnVtRUdfaHotVG54QjNudnI1bzhxX2JNbW5FRHZxQ2lISl80WWx1eW0tOHdIWUFzbUtHbnpZOGZ2dUM0T1pCWlloUmN3SkJHNnZkZkltbW5oeU5WdzlZNzRTSlNxVllFel9JQ3d1S25CZmFYVkhjcTlEV3c4ZWxKdVlJ",
     "CBMixAFBVV95cUxPRVNwTEViSWFkanVDdWZ0U2ZaVy0zT1Q2VUlFakRSSGRmdnlqRUxEMjh5OGpLMEE0a1NsMzdpM2lwSU5Td2tnWnFnR3lNYnpXRGRleENNTlBySVVYU2t4dnp5cXhkR0k1OVktVTMzaUJoblNxX29ZbjZXdGdSdEpRem1MV0RvWjZESWhpM0l6cGsxNFFhVFo5X2tnZ3NCbkgxM2hzSVlHdTBNaER0ZzNBakh6NDkzRXdKZnB6b3ZScmJIRmdW",
@@ -6243,7 +6230,8 @@
     "CBMi5gFBVV95cUxPT3ctSWdCVzBDUUw2R2M5dE00ZW9NanJoUEFjREZTRS1ZOEZHSDRtb3c0dmoxdHY1NVZxX2EzOWZ1dXl3cDlpTHU1ZjRMQTFBTkcxTzZhV0sxTElwZWRtN0xHeDF3azBVX1E5NTI1bll4cVBPaXZ6NHV3QmM1UnJfLU9kYnJoWHh1RllRLUIydW1ETUFjcVVhaHhlU1VvV1AzOXFLYUlMODRCbzF1Q0VHVTZqV2Rham5vSEtNakt6bzNXVWJUMHZudzJwNnd0U01yZGdGeFQ5dkY0eFpPNlJyM1Ytc2R3UQ",
     "CBMixAFBVV95cUxQMlNUYk9IcW4tckxrUURqNlR2aWRNMEo1MEpxM0F2WTltUWJtYUVVb0RzdWJTdzRFOVA4ZWdBX3pheTRyNkpHOWc5eHg4NWVuNjNYWmpJUUU0NjBYV1VHMVdHckNYZ1lvckRZS1RVampZd1h1MEIza1lBcXgwaU9EQ2xtaU9BMXozanREZmxfNklNMXI3RHVYcm1HaXhESTdKaFVRaHJBQVdPOEpLWDkwZThYckhGQzBJeThoZGJLdDRCaFJT",
     "https://www.mmamania.com/?p=473064",
-    "CBMiS0FVX3lxTE1CTnZtMnBtSmk0TnI0X2VycUNSTGVNRlFycGxHQVhrR3Yxb3BZeU5jWEYzYWJBeG4xbl83RmxJNEVhMmhaYVJral9iWQ"
+    "CBMiS0FVX3lxTE1CTnZtMnBtSmk0TnI0X2VycUNSTGVNRlFycGxHQVhrR3Yxb3BZeU5jWEYzYWJBeG4xbl83RmxJNEVhMmhaYVJral9iWQ",
+    "CBMi0AFBVV95cUxPSE9WSFFUc3o5QkZycE4wS2MwaDdkWVo1czNIQmQ4UldEd1dZUndYcUtncFlaYU1MUXN0YUlzdnRkeTFGdHptSmRhMDhRWTZGQVZidUozUEhEbFhjOHFwT2hLS0RUSlhqcU5pdUMweklHQ2FJSFpZTUJlazZvOUdwYS11S0JIaF9QWWUzSWo1OVFtcVJGSVRlemZlbWl6NmtEanZ1TzZuUENkb3ZIcnd5bVNPRWVXT1ZLUXdWWVlQOGNmTzRubnRkZnF3X09ScWZ5"
   ],
   "daily": {
     "d": "2026-09-18",
