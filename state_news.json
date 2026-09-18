@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5c66fe3debb5d981": 1789739497.1736352,
     "dc21006d3b9e3028": 1789739429.6850493,
     "8e642239f57695c0": 1789739429.458984,
     "141139c1bb386231": 1789739365.1917214,
@@ -2498,8 +2499,7 @@
     "003f2aa3c8465ace": 1788926242.365379,
     "510e204c83be388a": 1788926218.386618,
     "9089419cc45a1214": 1788926194.0230749,
-    "34672eaabbe4679c": 1788926168.800452,
-    "92ab66f1959a9587": 1788926144.7742848
+    "34672eaabbe4679c": 1788926168.800452
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-16T14:00:00+00:00",
       "cluster": "c667bd71334"
-    },
-    {
-      "t": "Conor McGregor teases BKFC move after UFC contract expiration",
-      "source": "ClutchPoints",
-      "ts": "2026-09-16T13:51:17+00:00",
-      "cluster": "ccfb04a6771"
     },
     {
       "t": "Sean Strickland Sparks Controversy in Viral Celebrity Fight Clip",
@@ -4729,16 +4723,21 @@
       "source": "BettingPros",
       "ts": "2026-09-18T13:25:00+00:00",
       "cluster": "c32da270a9c"
+    },
+    {
+      "t": "UFC 331 Picks: Van vs. Pantoja 2 (2026)",
+      "source": "BettingPros",
+      "ts": "2026-09-18T13:27:00+00:00",
+      "cluster": "c270c73b0b2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T13",
-    25
+    26
   ],
   "yt_eval": [
-    "c6b92441-2503-37a8-a587-7939e4ddb95d",
     "c1311a59-9b5f-3a9e-b1ac-4716732cbbf1",
     "02b803a2-2f23-30ae-9e19-d11786d4bfbd",
     "https://www.sherdog.com/news/news/Dana-White-says-fans-will-lose-their-minds-for-UFC-Hawaii-202657",
@@ -6237,11 +6236,12 @@
     "CBMibkFVX3lxTE5nUlZ2OEFOb1hVcjE2cl85TXdsdWw0TVZBSFM3T3JDbmx5dEFjbHlpOXFVNGY0ZWQtWmNoSEpOMVV2MnRKREpGNjhjWkc3dWwtcFNqUjVuUzRZVDFsTnoxSGJFdFM0Ukx3akRNRE53",
     "CBMid0FVX3lxTE1FSC1fNEtzU1FPWGJyV3RyQzB2SENJbFQ1MW9PLTF2UEZsdkZWYWstVUE2bXpNUXY1VFFzVEEwaWx2Z2RmVFJVbGJ2VGFaQlM3dzhtLVNEa0FIMGNFR1RTZFpwUDlCcEljQ0JidWZIVFFaX2tjTUJj",
     "CBMiZEFVX3lxTE9RWThPRmVmd1drZkxXdDYxYmhrTmR6bnMtQVR6b2xYQ293Q2RvMmh1X1BONmF1OFpzck9CaUhxR09kd3RsekNhV0d6QjRUMUNTQjBXS3NDWHlXU2YwMDlTdk1NUkE",
-    "CBMiiAFBVV95cUxNVTJoVHFNWDFHbER0ei0xVlRFTDdGZHNfSVhua2tCUFlDQ2NWejlsLS1ZdEIxNjdPWGhIaVFWNmxyQ2hmS3M3OFpzR29RczBVUnpDcGFuRjJzT24zdHh1dl8tTU5DTkFzRlducFR3M3JKRktzeS1XUjA3dDlfVTJRcXVSc05fck810gGOAUFVX3lxTFBrWTBld3YwdlMtTEhkS2JCT3c2MHBKZ2NKcUgyaGxTNUJlQzJwWWVFMHYtWjZoWTJxbWRGVzB2LW95T0xWZk1sOVZHRjhFcjZfbS1oWndoeTZlWXRkeEtQVEg1bFE3UjdxZmpvSnF3ZzJMenJQRU9vMzZ1bXgtbzBZN1hSSHFGZWxqb1pCb0E"
+    "CBMiiAFBVV95cUxNVTJoVHFNWDFHbER0ei0xVlRFTDdGZHNfSVhua2tCUFlDQ2NWejlsLS1ZdEIxNjdPWGhIaVFWNmxyQ2hmS3M3OFpzR29RczBVUnpDcGFuRjJzT24zdHh1dl8tTU5DTkFzRlducFR3M3JKRktzeS1XUjA3dDlfVTJRcXVSc05fck810gGOAUFVX3lxTFBrWTBld3YwdlMtTEhkS2JCT3c2MHBKZ2NKcUgyaGxTNUJlQzJwWWVFMHYtWjZoWTJxbWRGVzB2LW95T0xWZk1sOVZHRjhFcjZfbS1oWndoeTZlWXRkeEtQVEg1bFE3UjdxZmpvSnF3ZzJMenJQRU9vMzZ1bXgtbzBZN1hSSHFGZWxqb1pCb0E",
+    "CBMifkFVX3lxTE5WRGthczFMX05KUmlmQmJhdDVQd2d3ZlFBajVuazZUcURSaWlGMWdxazhnNmpxR0JpdlhZaWZ3SWgzM0dnY2xfV3VzME4xczgyWU90Vm12YVFIRXRHbTk4bFVLN3FXdHVLLXoxdjd1QjZvMXVJUS1ZbktKVDhtUdIBgwFBVV95cUxOeW1kUFJQclIwR0JZSWN3RHdoc1ljQUI3MlYxWW4zRFVZSHVkWUNvOFFOQVd1dHR0ajJ6VzNBeEtObTNvZUExZFdFWWI4VjM1SWdfOHVxWjlndEs3aEtnRzA3TXlCMGM1RGd6dGNKaEVxVG41YU5YTDdXQy1uXzJUV0w1VQ"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 75,
+    "ai": 76,
     "staged": 2,
     "prio": 3,
     "lost": 0
