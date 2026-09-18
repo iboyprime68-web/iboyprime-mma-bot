@@ -1,5 +1,7 @@
 {
   "seen": {
+    "2e2c32d35dc3ac59": 1789752949.9494402,
+    "f942eec549da03e6": 1789752949.6816978,
     "16f8dc92ee1cc28c": 1789752926.7139041,
     "7ffd4290cde337d8": 1789741277.7622626,
     "d650b71c7865f473": 1789741212.4287882,
@@ -2497,9 +2499,7 @@
     "36660119d7b57a0a": 1788961374.5323513,
     "32b05d4a7b90d804": 1788961309.9177876,
     "1ff7dd418c6cf3fb": 1788961244.6814656,
-    "6b5197abc6bf532e": 1788961199.6884637,
-    "2e3c16e0915c6b4b": 1788961175.7982292,
-    "2b4d911fd2d1020e": 1788961110.5615761
+    "6b5197abc6bf532e": 1788961199.6884637
   },
   "initialized": true,
   "v": 4,
@@ -4585,16 +4585,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T11:02:23+00:00",
       "cluster": "c4f5ab568f6"
+    },
+    {
+      "t": "Missed Fists: Kye Genesis executes nightmarish arm-breaking submission",
+      "source": "MMA Fighting",
+      "ts": "2026-09-18T14:50:24+00:00",
+      "cluster": "c1545907ef0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T17",
-    1
+    2
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Khamzat-Chimaev-changes-course-on-immediate-Sean-Strickland-rematch-202660",
     "https://bloodyelbow.com/?p=330165",
     "https://www.mmafighting.com/507343/dnp-morning-report-template-dnp",
     "10fc9f75-c954-3a89-b3f4-1a51e2452593",
@@ -6093,11 +6098,12 @@
     "CBMifkFVX3lxTFBWSktTWkh2OGVJWkc3ckxtem9wMnE2VVd6Q0x0RHV6YkEtVnFPUl9CY3ozX1JrWERGb2NBNkdVVW5uWW83QmlIUVg0ODhpTXNSTkJEMnpJc0NEcW1SVklObUR5bGlSb2NDZ2dqOFU0TXBRZ2t5cUs3LXlIcEp1Zw",
     "CBMiyAFBVV95cUxQdlpOTFRBcmdvakhyOVpuSlRWMVZzbW4wY2VPV3J5bGs0SnpsSnAwQmQ5bzZrVk40anNyX3BzVVpCWngweE1vM09RakctYWtxTkdReVMxcVFzYUFiaTVDMXVvVW9VSnkwVnFsWHAySUNwY3BSRUNkVThNRm5NSTlFUWxaNm9nazZHUUJsT2FaVjYySVAzVDBtSktsLVhfdmxnZ3BIV0NjMGk5bEFHTXVyTDRhb1pvbmVXWnRsd3lJNEd1M1Fyb2RUUg",
     "CBMieEFVX3lxTE1tVTBGcVlfVTdPbXNhNEhLMnIwbEp4RFFScDZRQXpEb1FfZ3FySXpxV1J0RWNKZGViWk5aX1FfeXY3cG1vQ0pOc21EZF9ub1o2d2tKXzE2WFMxSVRnNUZFck40VVlYVzJXdmdZZjlScllMN0JhUHpzOA",
-    "c1cd4e7f-6c59-363e-8df6-390953994c35"
+    "c1cd4e7f-6c59-363e-8df6-390953994c35",
+    "https://www.mmafighting.com/?p=510804"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 88,
+    "ai": 89,
     "staged": 2,
     "prio": 3,
     "lost": 0
