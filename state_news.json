@@ -1,5 +1,6 @@
 {
   "seen": {
+    "69d66c9c645f492c": 1789772922.698061,
     "6bda47ac7ca2545e": 1789772899.5364094,
     "7b3ad0ea740349b2": 1789772876.8688245,
     "ecd270cb365f3acd": 1789772854.4693823,
@@ -2498,8 +2499,7 @@
     "5c17181606609155": 1789019527.01545,
     "57f7a8cd58ec25a7": 1789019502.8452072,
     "08afa72da22fff08": 1789019502.4751253,
-    "07c64ad57e48e9d4": 1789019502.4748626,
-    "3c5570d343b5a910": 1789019458.277673
+    "07c64ad57e48e9d4": 1789019502.4748626
   },
   "initialized": true,
   "v": 4,
@@ -4675,16 +4675,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-18T22:30:00+00:00",
       "cluster": "c0b65ad7983"
+    },
+    {
+      "t": "Joe Pyfer explains why Nassourdine Imavov deserves UFC title shot over Khamzat Chimaev",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-18T22:01:31+00:00",
+      "cluster": "ca9f4fcf6ff"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T23",
-    3
+    4
   ],
   "yt_eval": [
-    "db16b329-92e5-36c2-b293-8fe89f2bb95a",
     "ffca9889-2809-3302-bc62-f1a2921473c5",
     "6f7fefab-3f0d-3053-a139-6800170ab7b0",
     "https://www.mmamania.com/?p=469425",
@@ -6183,7 +6188,8 @@
     "https://bloodyelbow.com/?p=332299",
     "https://bloodyelbow.com/?p=332295",
     "https://www.mmafighting.com/?p=510883",
-    "https://bloodyelbow.com/?p=332319"
+    "https://bloodyelbow.com/?p=332319",
+    "9f9b4ee1-8b18-330b-9487-f88c3f5eb8f4"
   ],
   "daily": {
     "d": "2026-09-18",
