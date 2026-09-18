@@ -1,5 +1,6 @@
 {
   "seen": {
+    "08026c6ec557af6d": 1789753022.2748818,
     "bceb00064766552e": 1789752998.4955473,
     "d7f7af65228ec6e2": 1789752973.560726,
     "2e2c32d35dc3ac59": 1789752949.9494402,
@@ -2498,8 +2499,7 @@
     "112e302d4cb1df2d": 1788961504.9796362,
     "346cc584d21943e5": 1788961504.728941,
     "8883ccdb6344451f": 1788961439.7451391,
-    "36660119d7b57a0a": 1788961374.5323513,
-    "32b05d4a7b90d804": 1788961309.9177876
+    "36660119d7b57a0a": 1788961374.5323513
   },
   "initialized": true,
   "v": 4,
@@ -4603,16 +4603,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T13:20:00+00:00",
       "cluster": "ced458d3804"
+    },
+    {
+      "t": "Khamzat Chimaev accused of being ‘troublesome’ for UFC to work with behind closed doors",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-18T15:59:00+00:00",
+      "cluster": "c721a1bfb92"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T17",
-    4
+    5
   ],
   "yt_eval": [
-    "10fc9f75-c954-3a89-b3f4-1a51e2452593",
     "https://bloodyelbow.com/?p=330169",
     "https://www.mmafighting.com/?p=508448",
     "8ff4a9c3-993d-30e2-8f02-1a5cd3cea4d4",
@@ -6111,11 +6116,12 @@
     "c1cd4e7f-6c59-363e-8df6-390953994c35",
     "https://www.mmafighting.com/?p=510804",
     "https://bloodyelbow.com/?p=332215",
-    "c1d58e01-4676-3cfd-849b-df42bf7cd13c"
+    "c1d58e01-4676-3cfd-849b-df42bf7cd13c",
+    "https://bloodyelbow.com/?p=332179"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 91,
+    "ai": 92,
     "staged": 2,
     "prio": 3,
     "lost": 0
