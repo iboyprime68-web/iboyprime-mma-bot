@@ -1,5 +1,9 @@
 {
   "seen": {
+    "1ae0ba336536fe15": 1789705161.7957823,
+    "b2ee6bcec2b3aa19": 1789705161.2813613,
+    "0decdc34d611a473": 1789705161.27964,
+    "a1a1a8a43a247190": 1789705161.2779036,
     "0001c62192748e93": 1789705097.2523334,
     "0e5dbd919f0d1f78": 1789705032.703366,
     "23de507b93ec320f": 1789704968.1745272,
@@ -2495,11 +2499,7 @@
     "7263a12ee9e67fcb": 1788892480.271763,
     "5e119dd5d2b55c21": 1788892480.006801,
     "f26b5951932ccdd0": 1788892435.5461879,
-    "abe4b2a4c051954d": 1788892435.3096101,
-    "034e96569585bb38": 1788892435.3068337,
-    "e8207efec26eecf7": 1788892411.7741485,
-    "14e5ede0f55c735e": 1788892386.7882812,
-    "9b79af9e2b1e82b5": 1788892363.4335299
+    "abe4b2a4c051954d": 1788892435.3096101
   },
   "initialized": true,
   "v": 4,
@@ -4741,16 +4741,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T03:58:00+00:00",
       "cluster": "c2d32c4d616"
+    },
+    {
+      "t": "Mauricio Ruffy Prefers Active Fight Schedule Ahead of UFC 331 Clash with Arman Tsarukyan",
+      "source": "news.ssbcrack.com",
+      "ts": "2026-09-18T04:04:00+00:00",
+      "cluster": "c3f9adb4000"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T04",
-    21
+    22
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Marlon-Vera-made-difficult-change-to-avoid-one-regret-at-end-of-UFC-career-202634",
     "https://www.sherdog.com/news/news/Anthony-Smith-set-to-return-Oct-2-amid-four-felony-charges-202632",
     "https://www.sherdog.com/news/news/Tom-Aspinalls-UFC-return-hits-medical-roadblock-due-to-eye-injury-202633",
     "31fcaa8d-7985-3a66-a3b4-229eb9701052",
@@ -6249,11 +6254,12 @@
     "CBMirwFBVV95cUxPWF9PaFN6MElXVWZKbW16T3p6Nm5Bc2V2VlkyTkR1c01OZEpqdHA5Vm9kTTRRZ2lONWF5MEtHc3pzV0RKNWVZdGZpQnFEeHpzWXVUSWlWSFcwWDY4UUUzQ1ctODZRdG41aUFuWVc2dFlReF83V25ZQXhFSkZDT3ZCQ1Nraml1UmRwQ0FTeTVjampHM3FPcmVYWUN5M05vekJ1MVVTOHpDTERyVlVkZktj",
     "CBMiYEFVX3lxTE5TMWs3dTV4WklPVW9seTdreEx1ZXJKTkJEZldIeUZWNTFpOEoybldlQTVpMUUwanJwZWExeVVEN1NPemI4UjcxRlk1anBENGlqalgtNXBia2RPYkkzY3ZvMw",
     "CBMid0FVX3lxTE9LUFM5ZEFJY2ptZXdLcllsbG1NTDNGbkhrZ1AySFRUVGtnMWlnTmdFTTg4OVZSN3dBMkVyZGh4QW9SQ3hpSWVKM0t3VVZLWGI3b295LWthMVI2QVJxRlhLdHMxSnpMWk5UZ3JXTGFyUGpFMFVZbDNR",
-    "CBMihAFBVV95cUxNR0VsU2paZ0gyOFpMN1VjaW1mak8wXzB6dG5aS19VS2VpSHh1aHNYa1NRZzVLMTRyVjJxRXcyczlBREN6dnVWX2FuZjZEcTNEc2RHbnBQZUYweTVLeHpaTW1nV3JpbmJGTHY5TThPQXFkelIyaWFhWExsZnB1N1FCcWV5MDM"
+    "CBMihAFBVV95cUxNR0VsU2paZ0gyOFpMN1VjaW1mak8wXzB6dG5aS19VS2VpSHh1aHNYa1NRZzVLMTRyVjJxRXcyczlBREN6dnVWX2FuZjZEcTNEc2RHbnBQZUYweTVLeHpaTW1nV3JpbmJGTHY5TThPQXFkelIyaWFhWExsZnB1N1FCcWV5MDM",
+    "CBMitgFBVV95cUxQOFFzSDdzR3ZSQVRoSUR4WFR3XzFPQk0tTk44YzdwR1NfVkVVVGZnN2xIUV90czZuOFRIZlc5MW90MDBPbTVnem5BdkM3dEJMQkV0VEdvVmQxVXM3VzhuSWNUX3NKejFiUVVwd3NObXFLNGlVN1lKa3BsRGNGTzV2YW00TDNvMmk1VVVaeTBiSFA5NkVNbVpKS1M3NGc1ckRTZTZmc0RjVGluMjdUZzViSFd0QTZRZw"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 28,
+    "ai": 29,
     "staged": 1,
     "prio": 0,
     "lost": 0
