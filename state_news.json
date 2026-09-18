@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2bb86c9c010e464e": 1789753168.6924736,
     "62faf91cab709bf9": 1789753144.3749073,
     "e5127ee9fd27b1d9": 1789753144.0141492,
     "52d37b42bd1cd8b7": 1789753120.535212,
@@ -2498,8 +2499,7 @@
     "b4248b7cc10edd68": 1788961834.1255956,
     "90821731e7b5443c": 1788961809.406659,
     "34a27baeb8284fdb": 1788961809.163263,
-    "9902dffd9da435fa": 1788961765.3243341,
-    "0c1264935d275c2a": 1788961700.9334252
+    "9902dffd9da435fa": 1788961765.3243341
   },
   "initialized": true,
   "v": 4,
@@ -4639,16 +4639,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T14:53:17+00:00",
       "cluster": "c1e97674e01"
+    },
+    {
+      "t": "UFC 331 weigh-in results: Joshua Van, Alexandre Pantoja on point for championship rematch",
+      "source": "MMA Fighting",
+      "ts": "2026-09-18T17:36:01+00:00",
+      "cluster": "c74c06514b5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T17",
-    10
+    11
   ],
   "yt_eval": [
-    "CBMilwFBVV95cUxOU3BuR2o3Q0ZkbFBHbWZSVDJFUDE4M3JCT3JLeldRMGowc1JqSEgyNzd0UjBBZUUwX3piYndYc0c0OU1nYzdQX3VjR2tQRnZFbXZmRHlXbXhoWnJ3YmNZMDlFR0drei1wLWx5ak11SUhHU2FwR01zWmcyQ01sWTR6bC16TVlUYWU5WmVEZ0FaRURzTGNfakhr",
     "CBMinwFBVV95cUxOeUtoZlJ6czd4ODlFS1BURXV5enEyTi1wRmRkel9uSnZiOThuS0JKUWVOQjFnaXR3eUlzaGNZSllncmMtN1BiWEpCSlEzb2d5UC10aF9UbFRkdDdiSVJhVEMzUGEwSmZlT3FnN2djRGVRV2JlTUhqY3Jkbm5rQUY0X3RFamdiUC1aRTJHVktsWXk1Nmhvb0RTQUNMcWczR0U",
     "https://www.sherdog.com/news/news/Jorge-Masvidal-credits-Kimbo-Slice-for-helping-launch-his-fighting-career-202661",
     "CBMidkFVX3lxTE5VSTVFa2JBaHFBZ3VEd19sTFVxZ3ZtcDRZOUdnWktCX3FMalVPX3p1cUFYRnpiZnF2N1BYZjlBRlJXSV9oLXpuX0JxOEFKZzBUcWVpNzJQQ0J0WTRNY0xRQjM4dUFGU1NEOHNEcEwzaEE5WHVvOWc",
@@ -6147,11 +6152,12 @@
     "5578eb37-6422-3e78-a950-12574fdf44b2",
     "https://bloodyelbow.com/?p=332268",
     "https://bloodyelbow.com/?p=332208",
-    "2048ee84-539e-3efd-8ebe-6cd3cab913f2"
+    "2048ee84-539e-3efd-8ebe-6cd3cab913f2",
+    "https://www.mmafighting.com/?p=510855"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 97,
+    "ai": 98,
     "staged": 2,
     "prio": 3,
     "lost": 0
