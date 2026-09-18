@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6b6e2d648fbeb7c1": 1789704471.8630502,
     "3d606c4c09eda1cc": 1789704448.5364523,
     "f5bec46b5a82685e": 1789704384.2672281,
     "1c9796fc60cc123e": 1789704383.789082,
@@ -2498,8 +2499,7 @@
     "78b32c0f85be636b": 1788879668.3170302,
     "945d7f6e78d2dad3": 1788879668.0609343,
     "da668dcd6037fb6a": 1788879642.9219038,
-    "8e40de0247223b7d": 1788879618.0169823,
-    "c55a54fd856b60a4": 1788865236.5550482
+    "8e40de0247223b7d": 1788879618.0169823
   },
   "initialized": true,
   "v": 4,
@@ -4699,16 +4699,21 @@
       "source": "UFC.com",
       "ts": "2026-09-18T03:13:46+00:00",
       "cluster": "cddd3e8cf15"
+    },
+    {
+      "t": "Sean Sharaf calls Gable Steveson a ‘rapist’ to his face: ‘That’s why everyone is booing him’ &#124; UFC 331",
+      "source": "MMA Mania",
+      "ts": "2026-09-18T02:27:46+00:00",
+      "cluster": "c2bcf134607"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T04",
-    10
+    11
   ],
   "yt_eval": [
-    "f3068582-efda-35db-aeeb-269a7f06c56e",
     "543333cd-b97f-3ebf-8e4d-571f32690604",
     "7aefdf05-6892-3b41-b7c6-ea014af47b6f",
     "174d355f-5e5c-3918-be25-3013ded67fb8",
@@ -6207,11 +6212,12 @@
     "6d1bf889-af8c-3de3-9526-66568287fa56",
     "09dbc511-66fd-3c6f-b92d-55175cc4cb96",
     "CBMioAFBVV95cUxOSmFGNjFKX3dOYjJxbWxCdndTc1pzNG1PVzdmZE5fNjlxTm5TVXpoNllsWlBjd01RN3hhRWRjM0hzZDBHaDN3U2xaR3N0RUt2QnhtTnp5cFlvU2E2NTNURnU1bWMzMlpaSzcxYklfQ1FvVDhTN0Q2YndlZGZfZ0IxaV9BTzlqa1ZmQ0pZd1VHWDJJSU4wUWlIUmNIR0pwLVp1",
-    "CBMihgFBVV95cUxNRjE1RVdId05kUC1RVEpWYWtOS09hTUt6QlAxYkJqcGc2Z0hRdVl6VDNfS29PdnhjdEtmS3FDUUFTNnA1UF8xVUQ0N0s3SVdKR2pxczBlZGtWaHNLVC0wdDE5bXYyMG40djVtN1d0LUtvcUMyVVVPRWpXdEM2Q1JIOWZHM0E4Zw"
+    "CBMihgFBVV95cUxNRjE1RVdId05kUC1RVEpWYWtOS09hTUt6QlAxYkJqcGc2Z0hRdVl6VDNfS29PdnhjdEtmS3FDUUFTNnA1UF8xVUQ0N0s3SVdKR2pxczBlZGtWaHNLVC0wdDE5bXYyMG40djVtN1d0LUtvcUMyVVVPRWpXdEM2Q1JIOWZHM0E4Zw",
+    "https://www.mmamania.com/470526/mm-clone"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 17,
+    "ai": 18,
     "staged": 1,
     "prio": 0,
     "lost": 0
