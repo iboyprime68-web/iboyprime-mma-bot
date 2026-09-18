@@ -1,5 +1,7 @@
 {
   "seen": {
+    "11ef1eed30a69561": 1789738362.6549287,
+    "3f3d4505098b744d": 1789738362.3719406,
     "2a524e9255257db0": 1789738338.0320783,
     "bcb878ab8816b3bd": 1789738337.6963177,
     "f68ec54955f7170e": 1789738314.2862995,
@@ -2497,19 +2499,11 @@
     "244caaf6805219db": 1788904251.1343899,
     "7dff3aed6f3e6e38": 1788904186.6926882,
     "3559b8837de9fb9d": 1788904186.3525298,
-    "707a7b5308dba80c": 1788904121.8060856,
-    "fe006a00869975bb": 1788904056.8903913,
-    "e0b671c0f7230b12": 1788904056.6194816
+    "707a7b5308dba80c": 1788904121.8060856
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331 roundtable: Can Joshua Van become one of the faces of the UFC?",
-      "source": "MMA Fighting",
-      "ts": "2026-09-16T13:32:39+00:00",
-      "cluster": "ceaa2232b91"
-    },
     {
       "t": "Deiveson Figueiredo defends UFC 332 card from criticism: ‘It’s a little annoying’",
       "source": "MMA Fighting",
@@ -4633,16 +4627,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-18T13:00:00+00:00",
       "cluster": "c4e644bdf2c"
+    },
+    {
+      "t": "Dana White: Akbar Abdullaev 'possibly the greatest talent' on DWCS",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-18T12:04:26+00:00",
+      "cluster": "cf3f9bf4e70"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T13",
-    6
+    7
   ],
   "yt_eval": [
-    "CBMi6gFBVV95cUxPRGo3Y2ZQTU0zTlpZR3d0cEdXZXgycjRNY2l0SGhob2VPWGxGckIxLVBiY1VVeUpZRlNhdUZyaElVdk4wLWRudDNLQ3Q0T2dhcWlZaU5NVEx6WENXT1hfeWJHN1J0OENyR3g1bThXd01QZGFkQzZaY0hScTRQdFpoQ0R6dVVaZElERnp3bzRwMTUxUjNXdjlYQy1mZEdLQXlxdzF6Mk8zQ0l0M082Ti1oaGdFVFg4QXRHWkItOUk3TUJ4aWZud0V1R2ZxOWZPaUpvcjZpRHMzWmNpcnhzZFRibmwtcnB3NE5YNlE",
     "CBMimAFBVV95cUxNNlpQMktWMXJLVVFPTDU5XzliMFVEUXVlM0JvZkFybmtXcUxWZmJGN2dxenVJVWxNNVdlZ3J6dlNHN3d1OHFvOE1RRE9kZ3d6c1VOdFkteUVUSTlwWW10MGV6Y3ByZkt1Yk1zLUJXQl9iRFZmdmI3cUR4R2pCNkdLeEduSmp4VGJzanNCSWtTUFVQa0dhSmNfaQ",
     "CBMiiAFBVV95cUxQT0VDdFpzYVdVMHJTaEl0V3BSU054N2NkbUxLTGQ1SUlSM2pyNS1lQm9KZGNaSjV0UHhLamNVMXdYVmdBUnpKNy01d3hfOTFWd2R5aUVXVlktTGd6ckNQVzZZbWs2ZUhKZFpaQWpudzh3UWZ1ay11ZWtleGNpVFJMaVdsN1hGNU1s",
     "https://www.sherdog.com/news/news/Fares-Ziam-plans-to-shift-to-the-US-to-train-with-Justin-Gaethjes-team-202654",
@@ -6141,11 +6140,12 @@
     "https://bloodyelbow.com/?p=332169",
     "eff61f3f-afa7-3963-b64e-73f31569aa57",
     "https://bloodyelbow.com/?p=332185",
-    "https://bloodyelbow.com/?p=332189"
+    "https://bloodyelbow.com/?p=332189",
+    "65e01df8-a226-391f-a721-a53fec4a1d4b"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 56,
+    "ai": 57,
     "staged": 1,
     "prio": 1,
     "lost": 0
