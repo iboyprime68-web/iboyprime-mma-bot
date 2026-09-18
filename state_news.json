@@ -1,5 +1,7 @@
 {
   "seen": {
+    "d55b1677592d6a04": 1789753347.109657,
+    "332e1a3bb16c9462": 1789753346.8372357,
     "2d4bc016417d33bf": 1789753282.5560029,
     "f12c2e4463f6311d": 1789753282.3201528,
     "05bddcc8c0c14841": 1789753282.2956495,
@@ -2497,9 +2499,7 @@
     "cedccd0c98543f92": 1788962029.625157,
     "0434657a5835331a": 1788962029.6224492,
     "b7259cf674eaf31e": 1788961964.8604984,
-    "a32029b81e70babe": 1788961964.3431432,
-    "098e18fade7f949e": 1788961900.06954,
-    "0891be84f3027473": 1788961899.824786
+    "a32029b81e70babe": 1788961964.3431432
   },
   "initialized": true,
   "v": 4,
@@ -4663,16 +4663,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T15:28:24+00:00",
       "cluster": "c7233facfc6"
+    },
+    {
+      "t": "Arman Tsarukyan plans statement win at UFC 331 to force Justin Gaethje title fight",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-18T16:00:00+00:00",
+      "cluster": "cc412db0a2a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T17",
-    14
+    15
   ],
   "yt_eval": [
-    "CBMizAFBVV95cUxQZlh3UzFOQkk2VFp6aXkteC02aUJoQ296SjFhak5kZmc1ZVVfNFBMQ3M4LTg0V2wwNDNJa2ptNVBfWWR6a3ZHUXg3TmRvcGs2ZzgwVEJxVDJiUTd5M3AxYkRSMmtrY3Z6Nm9QaVJISnM1QVNjTHdaV2xsTzllbXlid1hHQkJTU0s1dnhxWXc4cXIyd3dxaWtObWpUY0FTTGdGS19Mci03M0VJWngySFMtTEUyYVZfMEE4ajJoR05LTzFsbDZESlZyei1HNWE",
     "CBMioAFBVV95cUxQdGJJRWpHd2ZaWG1sc3hFd0tLczUxVDk5TXU4S0I3blZRS0hHdjJGQ3E2bWFYTEJOU2dSXzZ5N09oM3o4NTI3QW1MS3RuR0F3NWhqNURTVEFJTW03enVCNWI0cjJRT05LUU9sOUR0UzVzaDdfMnJCcGJEcTFTdVBybzBYLS1PM3BOd0htLS16aUU1ZFZNTWxFbHhfTVVGa055",
     "CBMigwJBVV95cUxNcGsyVTM1RW5yLW9POHdaaXpIbzFzYzdDeEY3TmRyUFZEcXlsMDlTQ19LelRTaWhwZHQwOXQ5a0VGdEpUODN6cGZHVDRYM2o2QUtNQk8yVFpEWnNQNW81Wmp4Ri1maENZSFBBRmxRODZLYmJ4bTJ1YlRkVVZNcGlHdzhySGh5RnpyWmhrZHNnLTdEZmpLWGxYNDhwajJ3SERvaFE1b1JoNWw3eXNFOWl6Q1lwSktEdk80ZjlOU21QZW4wWEZqYVRQY25uSmF4SGR0Q2lPTFp3TWpmZjM2bFRVUjJsZlM0OTIyaTBncGhNOEdab1BlRFpYRG91N3hiYkNWOUdR",
     "https://www.sherdog.com/news/news/Israel-Adesanya-makes-major-training-change-amid-UFC-losing-skid-202662",
@@ -6171,11 +6176,12 @@
     "https://www.mmafighting.com/?p=510855",
     "ad4ccec5-fe22-3b0c-8f61-09cf073f7c0e",
     "https://www.mmamania.com/472806/mania-mailbag-what-do-you-do-with-mvp-and-is-he-a-dirty-fighter",
-    "8a06d504-41b2-3891-90a8-8dddfb5675ff"
+    "8a06d504-41b2-3891-90a8-8dddfb5675ff",
+    "852245a8-c75a-3113-bcc0-1f8c6d7768bc"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 101,
+    "ai": 102,
     "staged": 2,
     "prio": 3,
     "lost": 0
