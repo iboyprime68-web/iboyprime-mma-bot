@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1cb8630a759fc3bd": 1789704031.9980083,
     "9ffdc03310e96640": 1789704009.1394358,
     "40db9fd0306434f8": 1789703985.105049,
     "638153b615d04765": 1789703920.256983,
@@ -2498,8 +2499,7 @@
     "4187a962e583f944": 1788847228.7852767,
     "2f877af39c119f3c": 1788847228.627191,
     "223ed52c515adaf3": 1788847184.396981,
-    "56fc6608e12afdf0": 1788847184.1618347,
-    "f0a2f63d862c0976": 1788847160.4538443
+    "56fc6608e12afdf0": 1788847184.1618347
   },
   "initialized": true,
   "v": 4,
@@ -4669,16 +4669,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-18T04:00:00+00:00",
       "cluster": "c6c7b223227"
+    },
+    {
+      "t": "RAF 13 Results: Covington vs. Muhammad",
+      "source": "MMA Fighting",
+      "ts": "2026-09-18T02:29:04+00:00",
+      "cluster": "c76b4ee2c8e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T04",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMirwFBVV95cUxPcXBEaUt1STBBMGlzZ1VZVGk0cUtOYzJNVlc5d01pa3d6Tjdaejhjb1ZxTld5RGtJS3lRN3l0bl81eTJjbVNhTnhNWHJBQ3NPbVl6NDhuSWhjelVVNHA4dVlDUW1DcDdneVF4WEpHUldIbG53Zks0X3o3Sm1SVlBRc3dEckNDdDc2bFhBX3VFbFhEczN2b0hFV1BndkFfLXJSTUgtQlg1Ry1zQkJzeENR",
     "CBMiogFBVV95cUxNTHJSV2ZDSVltekducGJlYlNQUnVFMEtscDRVd0FIZndJOWNBR0h5a3lMX2RrZXR4ZVZsbU13RFllZFl1ZHJUTWp0a1IySlFzNEpuaGttTHNldTZFb2RtZWNkQ2VrdnNMN2lNdHl3MnFxaDRVaU81ZU95eGxWTUhvVTdvVDFHTGFUeHdkaWoxeC13Rzc1ZVdiUU91Wm93dVgxbFE",
     "https://bloodyelbow.com/?p=330022",
     "642844ec-55f4-33a1-a5eb-4aec0140eddd",
@@ -6177,11 +6182,12 @@
     "https://bloodyelbow.com/?p=332114",
     "e0f9972d-4174-3242-9be4-a701bb727975",
     "360e3807-c883-3e6d-9d7d-128b1c212d66",
-    "https://bloodyelbow.com/?p=332100"
+    "https://bloodyelbow.com/?p=332100",
+    "https://www.mmafighting.com/?p=510772"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 8,
+    "ai": 9,
     "staged": 0,
     "prio": 0,
     "lost": 0
