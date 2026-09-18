@@ -1,5 +1,10 @@
 {
   "seen": {
+    "cc5b1f0b9b887796": 1789753606.1648405,
+    "8c15ce2df6bd541d": 1789753605.861983,
+    "9404b2232d9b1338": 1789753605.8587081,
+    "f276961567586cdd": 1789753605.8571546,
+    "9aea5ad0c6e460fb": 1789753605.8379455,
     "c66e70956d7f978a": 1789753541.4006305,
     "ab58ea49bda867d9": 1789753541.09697,
     "5949f3d6e5686af6": 1789753476.5073953,
@@ -2494,12 +2499,7 @@
     "851ece5c9955c733": 1788962424.3490422,
     "c951d03d9ccc2eed": 1788962359.5700662,
     "b4bcd14ff1022321": 1788962293.6169474,
-    "18287027f6ff811d": 1788962228.7708266,
-    "27000ae763b30c82": 1788962163.4824536,
-    "77e7014ddb075a06": 1788962118.9956737,
-    "0c8b549b99e9c86d": 1788962094.8642137,
-    "960e0d59d2793618": 1788962094.5246353,
-    "2842b16f05b635d1": 1788962029.9418838
+    "18287027f6ff811d": 1788962228.7708266
   },
   "initialized": true,
   "v": 4,
@@ -4687,16 +4687,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-18T16:44:01+00:00",
       "cluster": "ca48f99c304"
+    },
+    {
+      "t": "Conor McGregor expected to fight in bare-knuckle once UFC deal expires",
+      "source": "ESPN",
+      "ts": "2026-09-18T16:52:30+00:00",
+      "cluster": "c3a36ec05f0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T17",
-    18
+    19
   ],
   "yt_eval": [
-    "CBMiyAFBVV95cUxPQXdJOTVldVRrbC0wRzdHc3VsWVFfdy03QXhiRjV6ZWFSUmVMejJEVWplOEJnX0x2czFWUGVieF90YkFfd0FsU01pbnpwbG8wdFIwSGRvTjgyRmR1YVdkRlRjbmpDeGRFVXFZMWI0S0pNc0s2Z25EZUJfRnB6aUF6SkpraGJPSDNaeUdwMlJMUkRoaEFBYXlLUWx6TGZkem14czg2S2VOVkdER09tcm1zQkhzc0RGRWpuM0FYVDJzWjhhZWl0M3JVTQ",
     "CBMitAFBVV95cUxQMldrS004S3VsaDZjNHk0WWoyWm0ycy1heF9CNjZpakpOQXk3NHd6MFFYZWdrMDJnRjF0Zm8tUWhnZ2haSFBWYVg4RGJ2dkNCQkFUbzhtRjJyczFjRFk1ckxUMVY3dUk0eU8xVENpUzJ0TmFfV0tKQTMyZFdvRjF0TUluMG9idV9BbkduNEhZWWZGNzBhSTI3bDlWcDY3NUVoWksxTDhXYk9WcDhPODRGZnVSVjE",
     "CBMiigFBVV95cUxPUV80LWFBTmpha3VMOTh0T0Y5cTh6RzlUY1A3NVNfWGlwVU55S1I0Y0pZQUkyYTRPT2pLMEtGUDVnR1NBZnhxRXhCb05VZHFEa2NmVC00RlJPZjdwWlZ6NVBFUWVLeG9HQnFKQ1BLc1dRUFBYclJLMnVvaXFtR3hJTWJsdkMxRFo1cnc",
     "CBMijgFBVV95cUxQQUJUd1hPRmpNYXRDYVE0c2RxdGh6YVd5b2h4aHZxVjNYc2Vrem5HWVF3TDg4ckpVUlpjX2MzNmYteXhFYXdHU2Z3eG1iT0VXajBBRjkxQUdmem9qcFdZLU5YR2Y1XzRGRXZPZ1N6NXdHS3NpdUNUOEI2VHlHVE9wUkE4TExhNU43UXdtN19n",
@@ -6195,28 +6200,17 @@
     "852245a8-c75a-3113-bcc0-1f8c6d7768bc",
     "d94d29b3-9f16-3406-bf01-02ba1c05c46b",
     "CBMi6gFBVV95cUxPUjk0cDN1QTFrWl9WNDVkWlY3ajIwaDNEWDdmLTdXNDBOZ2VVZlIzYjFaaW90YzgxMElpOWVvLXhVb0dPaGlzeVV2TDkzOVY2Zl9yUklySnJxOC0zNzBDVlYtamxidlFOd0pMalo2VTMwenN0TjNzOGVUd0RUS3VJM1BqYTBPZHllcV9FM1JNY01zMWIyRndyYktMalZRWkpnUTVMaHJFRUVWbE0wN0lEZjR0YzNCdmQ1MUJlQ1hpd3dxZGN0QXFKak1BVlZoVzljeG42dlhRc2JmZ2FvczhPV1VIWHdpbXFHMnc",
-    "https://www.mmamania.com/?p=472965"
+    "https://www.mmamania.com/?p=472965",
+    "CBMipgFBVV95cUxNeTJ1X09TY2owY282RE81TTFCYmtEaXp1TFVPbFl1bjhVYkRtMHp0N2NBSXlvUnlZR2ZTUGhJT3dvUEVNN0ROU2huTURWMmhpSktNcktyeThoeTdLeG4tVlUwcy1ZbkdQUWhGckU4ZEJTdDYzTHV6eDFDNE5ycmlRUGRsZmdvbkJvRFJPelZQWmRtbm5xbU1saHR5QUFGN3dQVDQ0YXNB"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 105,
-    "staged": 2,
+    "ai": 106,
+    "staged": 3,
     "prio": 3,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-07T15:40:30.161247+00:00",
-      "t": "Leaked email suggests Michael ‘Venom’ Page has been released following his win at UFC Paris",
-      "names": [
-        "leaked",
-        "michael",
-        "venom",
-        "page",
-        "paris"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-07T19:44:17.780981+00:00",
       "t": "Valentina Shevchenko’s coach reveals injury that forced Shevchenko to vacate flyweight title",
@@ -7019,6 +7013,14 @@
         "out"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-18T17:46:47.165040+00:00",
+      "t": "Conor McGregor expected to fight in bare-knuckle once UFC deal expires",
+      "names": [
+        "conor"
+      ],
+      "img": "wash"
     }
   ],
   "seed_pending": [],
@@ -7070,19 +7072,10 @@
     "638153b615d04765": 1789703920.076112,
     "2aae2bfd746e0b26": 1789721727.0967484,
     "1eb093b902b446bd": 1789738238.7794566,
-    "883e2812ea7971df": 1789738287.2515323
+    "883e2812ea7971df": 1789738287.2515323,
+    "cc5b1f0b9b887796": 1789753607.166997
   },
   "pinged_titles": [
-    [
-      "UFC 331 Full Card, Date, Time and HYPE Score: How Good Is It?",
-      1789721727.0967484,
-      [
-        "date",
-        "good",
-        "score",
-        "time"
-      ]
-    ],
     [
       "Morning Report &#124; Henry Cejudo likes Mauricio Ruffy’s title fight chances after UFC 331: ‘Who wouldn’t want to see Mauricio Ruffy vs. Justin Gaethje?’",
       1789738238.7794566,
@@ -7100,6 +7093,13 @@
       [
         "allen",
         "pico"
+      ]
+    ],
+    [
+      "Conor McGregor expected to fight in bare-knuckle once UFC deal expires",
+      1789753607.166997,
+      [
+        "conor"
       ]
     ]
   ]
