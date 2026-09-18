@@ -1,5 +1,8 @@
 {
   "seen": {
+    "9ca30eb43c5d37ea": 1789764955.9114118,
+    "7927b43e4f43b671": 1789764955.4705167,
+    "22edda979ef866e0": 1789764955.4702544,
     "d02667ac80395152": 1789764890.8059871,
     "3cec3ba445a2d3f8": 1789764824.9615457,
     "8bcb9bfd37c132a2": 1789764824.3893068,
@@ -2496,10 +2499,7 @@
     "6d2e8db0470f9f7d": 1788996423.6702673,
     "2a57c7c160bb2a5e": 1788996423.3326237,
     "2726b675fccd4f80": 1788996359.753662,
-    "f57293ccdd0b5282": 1788996359.35468,
-    "3cf068fa89229543": 1788996296.45516,
-    "29f86b104d6cd77d": 1788996252.8951085,
-    "74925860db7e38d6": 1788996252.8915746
+    "f57293ccdd0b5282": 1788996359.35468
   },
   "initialized": true,
   "v": 4,
@@ -4753,16 +4753,21 @@
       "source": "Sherdog",
       "ts": "2026-09-18T19:07:09+00:00",
       "cluster": "c37163b89d6"
+    },
+    {
+      "t": "Dana White touts former ONE star as ‘greatest talent’ in DWCS history",
+      "source": "bjpenn.com",
+      "ts": "2026-09-18T20:49:01+00:00",
+      "cluster": "cf410e1b2d6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T20",
-    20
+    21
   ],
   "yt_eval": [
-    "CBMipgFBVV95cUxOLUlSZkZQYlc1eUZ1dlFEZXI4N2xlc1h2aEk3TkVVTEVMM3pxQlNjLWlRYXdFVVdtRFMycEtsODM5QUw2YXlndGczQkxMTWkwWFFOS1NZdXNiVDJhZXJwTkFtbFlBRG4ydnpwNThodHVSR3pfdVlLNDJKMXIxMWJ6TmxFc3BTS0k5QXlWNDFrSXNqcG8xQXNxUkUyWUxTbGZuRHc5RUFn",
     "CBMijgFBVV95cUxQV0NCOHIwaUJ3YUFQV05LLVhTamJjWkhIbWxlbTNnekNDaTBzaUdlTVh3MTA4anpDNmF2LWxLcUNvdkNQSnFaVDVvVlU4VzB3Z1laZU81ZFFEOF9EOXZDQWxOODF2R21ZbVRvSkJUSm53MlNhWHNJckx2RmVYTFJ5ZlJXdm51NUxLcDg3ajZB",
     "https://www.mmamania.com/?p=469393",
     "CBMifEFVX3lxTFBDVWFnaWNEWjRhMExNcTNCLWdFSVVNY1FLRkdGYVZmY0xya1VQc3c2elhTcXd4SERFR3RQVnFza3NwdVBzU1FJSDhtcXoxVS1ZMzBPb2VsSG9Da21QT1VKOFJnbkc3eTRnbEtXOHp0UE5STmtwdDI4cnF4LUE",
@@ -6261,7 +6266,8 @@
     "CBMipAFBVV95cUxPRU1BaVBTR1JqeGplSEo5QWZ3aHhSVWZEYmlFZmpBYzZ1Ujk1bkJaRGZjOWxtdDN0cmVmck5TTlpScmNqalduc3B4aDh5YkU0anBxbEpIS2J5SGNLRVBDYmZiNkQyWXc2VndaZ01pZFFERVl3OUFfY2x6X0xSYTY4Tm1sZ24wWTJwZ0xLYUgxcTZld0ZjQ04wZmt4ODdxWEVhelJPeg",
     "CBMijwFBVV95cUxOOHJDdFhUZnJxRDBCMG9jbU42TUhnUkQ1YU5GeFlWTlY2Vy1sUkVBWW1mYUVObXlBQy1TbHNrYXdNZEhubTJBVldkdUphWTdHMWFDZk9ocE5vWGpqa3BRMXJnbmZELTJ6Z3MxUjNrU3VpdVVLWkpydW5leUFyNHhHdUJES3V3QWxCMkh2SDJNdw",
     "CBMikAFBVV95cUxOUlFRZS1LWTVSLVdFOTEzbUlUWmJVbTZ4T3VlVW5WR2E0aVVacHEyYkxRQkp2TVU3OEIwS1FKSURnOVBkaWQ3bGIwM1lwS3dtcG5kU0kyb1I0X0wzTXJMcWk0RlZpcFNxZWs4bU04bUt0QVRhLU5aWlNpWG11MEp6OFAzQXVxbkxEUzlGVHNOSks",
-    "https://www.sherdog.com/news/news/Kayla-Harrison-back-in-full-training-for-Amanda-Nunes-after-emergency-surgery-202854"
+    "https://www.sherdog.com/news/news/Kayla-Harrison-back-in-full-training-for-Amanda-Nunes-after-emergency-surgery-202854",
+    "CBMioAFBVV95cUxNb2ZvMUhVdVp6aGNBOUtGcUpuRGFjaWRxQmJqUEc1OTQzc0c0X0FpekxTT2RfSVY0ckYwTHRKZHZqcTVRUGlQMjhEV2pnVWdKWDAyMEhsUW1tdk03ZXg4cGFBd1lPWHBMYVVLRDdUMTdzVHZHaVNpTGhjMTJhZUUyOW5TY2l4elh0bkhxYmVLa0dIaV81aW4tcUxxWUV5WWt4"
   ],
   "daily": {
     "d": "2026-09-18",
