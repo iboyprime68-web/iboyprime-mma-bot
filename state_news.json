@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6d625249c515397e": 1789755790.0928893,
     "d3578118c98663db": 1789755726.5780082,
     "93dce60537a2a155": 1789755726.1780875,
     "c93ded0875c6f754": 1789755477.3606787,
@@ -2498,8 +2499,7 @@
     "8284a79257baf8d8": 1788995047.483147,
     "e86a59ae1f0ab434": 1788995045.0628967,
     "c358366a4e5d290d": 1788995045.0601325,
-    "e7675abfffd46681": 1788995045.0574374,
-    "19d92ed4fdb602d5": 1788995045.0505295
+    "e7675abfffd46681": 1788995045.0574374
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-16T18:40:05+00:00",
       "cluster": "cc041a3825d"
-    },
-    {
-      "t": "Americas Cardroom's Tommy McMillen Earns Third UFC Victory by Unanimous Decision",
-      "source": "ACCESS Newswire",
-      "ts": "2026-09-16T18:22:30+00:00",
-      "cluster": "c3e2ac41a6d"
     },
     {
       "t": "Jon Jones Train Partner Hints at Possible UFC Return Following Tom Aspinall Injury News",
@@ -4801,16 +4795,21 @@
       "source": "Sportskeeda",
       "ts": "2026-09-18T18:18:00+00:00",
       "cluster": "ca64b43d9bc"
+    },
+    {
+      "t": "Cris Cyborg Still Wants Amanda Nunes Rematch Years Later",
+      "source": "MMA Sucka",
+      "ts": "2026-09-18T18:21:21+00:00",
+      "cluster": "cfb655c79b5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T18",
-    13
+    14
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330208",
     "https://www.mmafighting.com/?p=508464",
     "https://bloodyelbow.com/?p=330188",
     "c92986fe-4d0f-3ef5-9c99-501fcbe78271",
@@ -6309,7 +6308,8 @@
     "CBMivwFBVV95cUxNcFprRFl4U1h1LXIzSk94WUdVaThVczltb1BLdGg3OTBObWZ4dER1NDhINFFJcnlyYl8zOWg3Y085WnUtcWY2cU9KMG1sQlQ1TnZDcXc0WkZESEdTQVE1MVFpRW9IeTlGam5VaDVEbW5pRTAwd19tb1Q5SXA2ek9BN0tkakc3WEhTcTlQRzhtWjVvOUZVc3NLZndjaDdrTTg0amtLcTVqaXBXaXNMZEZNVkFIVWlhbXVvcGJKTklvNA",
     "CBMihwFBVV95cUxPVVppeEVmYmhWLVFBZW1uajRuRnM5Sk85Zkw5YkFwdXFseE1RbnduaGI1NGE2UFYtaGhEeEtRV2Iybk5VWS1lVTZsRUpDV3p6WlpROFQ1cjVzMmZaN0Jad1NaRU1ldkZsaERDckNzQmdmNk9YWWd2OVRJRHNPZXByVzBpZXNiYjQ",
     "CBMiygFBVV95cUxNX0h5S1hqaXU3UUtKWURzLW96WDJKUEVuaHJ1RjVSWmNNZUJ0S0dDaXdpUUVpSEFrSFd2blpsZWlFVkozbXdrOWNMUVJrX21oejYwa3BISktyenZXTkJtejVIRmlwSU14cFFLNTlMTURPaWx2aVltOV9rZm9fNHg0OWo4OUpwaHJzV0ZscEllVmlhS1hHVjkxT3YyYzB2OE4xNkRWSmp2VXNUZ0VFZ25MclBrYVBhWWwxZ1Y1Z2R3SmtNXzZ0ZnUyTm9n",
-    "CBMiowFBVV95cUxOQnlQS1BRSUxtelZybU1Uclc0N1VFMVpfQjVtdVhVYnQ4RkFSNG1tSDF2RmVocXFkNUdpbUVIZDdNa0xiblcyM3NvbDVPaUtfaHhhTWhsS1RERU12UW1qTTZySi1UaHd4T1lYcDZHM1VZUGtrS3duUnVZZDROQkxpV1VjcGI5MFU3RDNYTkVnQ25xNWZBOGFYTGZxNXRTUjB2MWJR"
+    "CBMiowFBVV95cUxOQnlQS1BRSUxtelZybU1Uclc0N1VFMVpfQjVtdVhVYnQ4RkFSNG1tSDF2RmVocXFkNUdpbUVIZDdNa0xiblcyM3NvbDVPaUtfaHhhTWhsS1RERU12UW1qTTZySi1UaHd4T1lYcDZHM1VZUGtrS3duUnVZZDROQkxpV1VjcGI5MFU3RDNYTkVnQ25xNWZBOGFYTGZxNXRTUjB2MWJR",
+    "CBMilwFBVV95cUxNTUN1ZWVEbEk2LXE2TGhGX0YwaU9kemtWWEdoZVpORWdaeXRwUDZvN05LX0d6ejFJc28xLUFVMnlzRlZ0aURiTUFGTmplek5XRFJjTWhVRG84WmVYczB4ZTJlYU1XUjFuay0wX3ZMdlVvT0ZFVVBmUEVXUDYwRkExaGlEUW5HbmZ5aHVEWWVTeFdkR0Z4Q05j"
   ],
   "daily": {
     "d": "2026-09-18",
