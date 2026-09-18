@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6976c21ccc3f6db7": 1789738262.9621022,
     "1eb093b902b446bd": 1789738239.042413,
     "a51a30bc0b98cf7a": 1789738215.1512597,
     "571b74b895df9f84": 1789724921.1104312,
@@ -2498,8 +2499,7 @@
     "b44fe76b1b622c81": 1788903922.8727195,
     "2686323057850dbc": 1788903858.3482053,
     "25a9ac197069c525": 1788903793.1476395,
-    "81fddf6c4531bf15": 1788903792.7818475,
-    "a855fc34603bacb3": 1788903768.9754293
+    "81fddf6c4531bf15": 1788903792.7818475
   },
   "initialized": true,
   "v": 4,
@@ -4609,16 +4609,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-17T22:25:43+00:00",
       "cluster": "c27878aacad"
+    },
+    {
+      "t": "Gable Steveson reveals agreement with Jon Jones about potential student vs coach fight in the UFC",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-18T12:00:00+00:00",
+      "cluster": "ccae0f7ced2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T13",
-    2
+    3
   ],
   "yt_eval": [
-    "6d6bf772-caf5-3417-87f4-5b380ee92fc2",
     "623375a7-1617-3783-a079-f4a7c9a95d5d",
     "https://www.sherdog.com/news/news/Shannon-Clark-vs-Lucero-Acosta-booked-for-PFL-Chicago-on-Oct-16-202649",
     "0721034b-0541-3ebf-b559-ec13bf31b077",
@@ -6117,11 +6122,12 @@
     "CBMi5gFBVV95cUxNYnQ4ZWhlMEc2VlR6SVE3THFCTHZVMUVseDlIZGs2cUkzM2NnUTRyckpzeGJPU3dLaFRmUk1NMm1fbF9xcjVIR1BXLUVfclFzVDl2MEkwMnliaUJ2SE5rMXZVWkYwVnlVR3RrdnlsbHBoNHRtaVhFdGxCVThXS2JrYTNxQ0NlN0dCdjBLVUtsWV92dER0ajJMNzVqRmFObXM4N1NXb1FkV19rbER2Yl9sRVdpV1R1dVVrOEJwQ0JfNjVLbmx3dUZOTUFfbEpWZlFBakdTU2g3RngwZVZUUTZnT09XQmlhQQ",
     "CBMijwFBVV95cUxQZEJSQkNPaHlpbFlmX0c0VTc5WGc1WFZ6XzB0UWVLZjNBZFVibDJqT3doWHp1TUt4OFNkSjlZSmdkLS1qZXV4WldqZGdxLVBXUmlkcmk2cWg3cDgzU2tXZ2ZDSzRPckNqWkVjQ1N6a0FURWtrTEk2QTBvX0dIeVM5V1FKX2JIMFBjSkVSemhVWdIBnwFBVV95cUxNTWxQQnQ1LUhIUE1JaDJ6aTF6TTQyX25OSnI5VHFHRjE4TWhFUXR3RVFpUlYzYTNEdVJKdXV0b2tpMUUxXzZpYXlpMXdUd09TVDk1c3VwT3pDVEJzWV9nWnZKSkM0M3ZyOE5VYzFmYnRfWjZpWWFWX0dlVk11dVo1STZvYWFabU04U1FFbEpjazBIOHJJSm1lUlEzeURKRlk",
     "https://www.mmafighting.com/510707/ufc-330-weigh-in-video-makhachev-vs-machado-garry",
-    "https://www.mmafighting.com/510665/dnp-morning-report-template-dnp"
+    "https://www.mmafighting.com/510665/dnp-morning-report-template-dnp",
+    "https://bloodyelbow.com/?p=332169"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 52,
+    "ai": 53,
     "staged": 1,
     "prio": 0,
     "lost": 0
