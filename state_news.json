@@ -1,5 +1,9 @@
 {
   "seen": {
+    "7a4b773669f0ee06": 1789740077.986434,
+    "dc9b193bbc18c367": 1789740077.7578273,
+    "f1a9fee69c7e5498": 1789740077.7559392,
+    "68d732dd2f05b5d2": 1789740077.7554443,
     "d933f8ed94853b45": 1789740012.745708,
     "37c039c4da997bb6": 1789739823.2849104,
     "c7fa8e27eb1ee23e": 1789739822.7608864,
@@ -2495,21 +2499,11 @@
     "59982299118b62d2": 1788944383.215523,
     "60ba813a3d75b215": 1788944317.1734776,
     "ff4d7a363afb0175": 1788944251.715813,
-    "261bbb2f1a709292": 1788944185.120084,
-    "97da7ede9ae5af44": 1788944184.7376494,
-    "c11f94975329f478": 1788944159.1837313,
-    "c1b65aed652fa37e": 1788944114.16174,
-    "9b6845846e0f6939": 1788944047.903859
+    "261bbb2f1a709292": 1788944185.120084
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Van Eyes Dominant Title Run After UFC 331",
-      "source": "boxingnews.com",
-      "ts": "2026-09-16T14:01:11+00:00",
-      "cluster": "c0133bd885d"
-    },
     {
       "t": "Pitbull Faces Choi In Crucial UFC 331 Test",
       "source": "Yardbarker",
@@ -4741,16 +4735,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-18T14:00:00+00:00",
       "cluster": "cf87a61efc6"
+    },
+    {
+      "t": "Jake Hager Suffers TKO Defeat In Latest Power Slap Outing",
+      "source": "411Mania",
+      "ts": "2026-09-18T13:21:47+00:00",
+      "cluster": "c712095e1b8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T14",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMigAFBVV95cUxQWUV4djBlY3F2aVpjZV9zR3E5NkJGa20zZl9ZSS15OUIzc0VrenJ4dmZsek9RS0s1VE9TSkNnb3ctSmVMNGtZbmRtX0NHSzZvYWE4NkNKVjJzeTZMTXZxYVZVeWRnSE1zQ082bDJCZlRrb2NPWUxlM1hldGllT3NUWQ",
     "https://www.sherdog.com/news/news/Raul-Rosas-Jrs-brother-reportedly-set-for-UFC-debut-at-Noche-UFC-4-202659",
     "CBMif0FVX3lxTE84Q2plSElBTzhkQzl6RW5La284UUpybVhVSU8xSTYzLWx4eFlLc2pmcTJuRGMxZkg3WXR4LTR6amxLVHhXekJxN1h6THp5SW9lQXhnLVRETi1Ed1hYcHNrLVZuNkpUU1ZvbGFuX1ZwMTlqSVYwN3lzM3hEY2lUb3M",
     "CBMiiwFBVV95cUxNZkNUbVJ0ejhwRVVaa2d2dk91MEFORkZTcjAzQXhyYkg3NUdYajY2WUNabkttZEhYSi1yYjNXVEM0RzVMZFNUeTdVX1I4WmR6WTVraGNBR0k5TXhMOXZpei12dllqbTFsY0RERFAySVFYWl81TW91c2VPVUs2OTJ1V0hPb0FBenNyMklr",
@@ -6249,11 +6248,12 @@
     "CBMiggFBVV95cUxPMV93bEdkVTdkY25VeGpTRjM3ZTdyOVRKd0J1enZycHdSQmlNcWo2RjBiNy1fYXhJWWxkR1BCX0M2eFhudmh1U2lMb09yWWQxNFFNUFU3N25XWkx4dUlvcUxfNWhCc21DamxjLUVxbDd0YWxhejgtVHpkZHdnbkM1dXJR",
     "CBMitwFBVV95cUxQOFEwQTNKenN0Tk5JSHFjZ1dvQUxIWldLRnZHMGJPbVlvWjFNa2huRThYM2VEQllUdmFKNUlHWWRFRE90T1BGWWdtV3djS2RiRTZYekl0RGtWUHZ2Yk5aVWJUUW11UWFvRDNDS0Y3YzNTcTV4R2t0MzE2amxSMk9aMkFjODBRNU1LUUgzTGlna3g5aHI4bHU0eExmOUs5NzNIMW5ickc5WWp5TnNLZlRTUDl6Y0dJb00",
     "CBMidEFVX3lxTE5SMXBvVWl5eGlpbGhXb2k5Q21aQ19RSUk3enE1N0pYeHhkUllEYnNvdkhIUl8weHp5X0pHTUtZVkVVVkY0bmlKSGNSUU1UcXYxNmN1MlItMENNTERXR25JQkk2QkZNUjRBNFZnNnRCYnZYOUVP",
-    "https://bloodyelbow.com/?p=332228"
+    "https://bloodyelbow.com/?p=332228",
+    "CBMijwFBVV95cUxOSXlqTEl6Um4tRkFSOE5mMlhIMGhOakhBTjJqbTdWSHZxNkZIcWpEbDU2VTZJZ1FDYWViUS1jVDdwRndmZXhUSFN5X2VMZHJJbU9aWUxnUjY0QmQzWmhIZ0xXRHdjdFVpbkZMZkUyaHZ2LWJELWpFVWxRTGxjV2R1Y2ZNcjhJeGVXNURaeDFkcw"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 82,
+    "ai": 83,
     "staged": 2,
     "prio": 3,
     "lost": 0
