@@ -1,5 +1,6 @@
 {
   "seen": {
+    "32e145e074c6c906": 1789753238.5051596,
     "a2dc579d1c9c7d37": 1789753214.5468702,
     "335545620b018a8d": 1789753213.6339843,
     "2bb86c9c010e464e": 1789753168.6924736,
@@ -2498,8 +2499,7 @@
     "0891be84f3027473": 1788961899.824786,
     "4dcdeb7083afb728": 1788961834.6237028,
     "2c2c8ea24a97a066": 1788961834.128233,
-    "b4248b7cc10edd68": 1788961834.1255956,
-    "90821731e7b5443c": 1788961809.406659
+    "b4248b7cc10edd68": 1788961834.1255956
   },
   "initialized": true,
   "v": 4,
@@ -4651,16 +4651,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T15:00:28+00:00",
       "cluster": "cc74913a67a"
+    },
+    {
+      "t": "Mania Mailbag: How F**ked Up Is The Tom Aspinall Situation?",
+      "source": "MMA Mania",
+      "ts": "2026-09-18T14:52:36+00:00",
+      "cluster": "cdb79a10de1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T17",
-    12
+    13
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Jorge-Masvidal-credits-Kimbo-Slice-for-helping-launch-his-fighting-career-202661",
     "CBMidkFVX3lxTE5VSTVFa2JBaHFBZ3VEd19sTFVxZ3ZtcDRZOUdnWktCX3FMalVPX3p1cUFYRnpiZnF2N1BYZjlBRlJXSV9oLXpuX0JxOEFKZzBUcWVpNzJQQ0J0WTRNY0xRQjM4dUFGU1NEOHNEcEwzaEE5WHVvOWc",
     "CBMizAFBVV95cUxQZlh3UzFOQkk2VFp6aXkteC02aUJoQ296SjFhak5kZmc1ZVVfNFBMQ3M4LTg0V2wwNDNJa2ptNVBfWWR6a3ZHUXg3TmRvcGs2ZzgwVEJxVDJiUTd5M3AxYkRSMmtrY3Z6Nm9QaVJISnM1QVNjTHdaV2xsTzllbXlid1hHQkJTU0s1dnhxWXc4cXIyd3dxaWtObWpUY0FTTGdGS19Mci03M0VJWngySFMtTEUyYVZfMEE4ajJoR05LTzFsbDZESlZyei1HNWE",
     "CBMioAFBVV95cUxQdGJJRWpHd2ZaWG1sc3hFd0tLczUxVDk5TXU4S0I3blZRS0hHdjJGQ3E2bWFYTEJOU2dSXzZ5N09oM3o4NTI3QW1MS3RuR0F3NWhqNURTVEFJTW03enVCNWI0cjJRT05LUU9sOUR0UzVzaDdfMnJCcGJEcTFTdVBybzBYLS1PM3BOd0htLS16aUU1ZFZNTWxFbHhfTVVGa055",
@@ -6159,11 +6164,12 @@
     "https://bloodyelbow.com/?p=332208",
     "2048ee84-539e-3efd-8ebe-6cd3cab913f2",
     "https://www.mmafighting.com/?p=510855",
-    "ad4ccec5-fe22-3b0c-8f61-09cf073f7c0e"
+    "ad4ccec5-fe22-3b0c-8f61-09cf073f7c0e",
+    "https://www.mmamania.com/472806/mania-mailbag-what-do-you-do-with-mvp-and-is-he-a-dirty-fighter"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 99,
+    "ai": 100,
     "staged": 2,
     "prio": 3,
     "lost": 0
