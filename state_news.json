@@ -1,5 +1,6 @@
 {
   "seen": {
+    "118d7972ad967d38": 1789722439.9082088,
     "91bd75d4d0906d54": 1789722313.6187108,
     "bc25a1d0eba13433": 1789722313.2767272,
     "151942d37c533dda": 1789722247.9974527,
@@ -2498,8 +2499,7 @@
     "f29ef0c838f51565": 1788893973.648037,
     "71838b1c8d211a88": 1788893930.107405,
     "6120f4a4e9339239": 1788893858.4074771,
-    "ff125e695490a152": 1788893793.3273647,
-    "084ad724e15b186d": 1788893792.3458948
+    "ff125e695490a152": 1788893793.3273647
   },
   "initialized": true,
   "v": 4,
@@ -4717,16 +4717,21 @@
       "source": "boxingnews.com",
       "ts": "2026-09-18T09:00:38+00:00",
       "cluster": "c8f63ace774"
+    },
+    {
+      "t": "UFC 331: Tai Tuivasa vs Robelis Despaigne Preview & Prediction",
+      "source": "The Stats Zone",
+      "ts": "2026-09-18T09:04:00+00:00",
+      "cluster": "c70c2a46cb3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T09",
-    6
+    7
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=469268",
     "https://bloodyelbow.com/?p=330149",
     "https://bloodyelbow.com/?p=330152",
     "354fc078-a9f5-3855-bee1-f02f15e68094",
@@ -6225,11 +6230,12 @@
     "CBMiZEFVX3lxTFBJNG0yWERSR05CVzEzdmR6OGtkajNNamhSQjg5RGsxbWRSSHBuRkJFWEFiUVNzS084cExMR0R2eEN2YVBVVWEwMTVEMmtWXzc4SzhBV0V6aUxsYjhxMkJLSG5KSmw",
     "CBMikAFBVV95cUxNcDA0eEhjNGFVU016Vi0zdl8xQUhQa3BWcWlwYldfZG5SczdrcTVLNldqMW1LY2s5SklwNVkxMi1wWEU3YnVLdHNfRXI3UThnMGYzaUpVT2IwMjBHNVd4N0dlaVhXd0hROHNVOTFUbmRPNUdyZ0ZrMTR2X3RFbjk1S2VaeHVLODE1UUV0RlRDSlY",
     "CBMinwFBVV95cUxPdmxBdU5QZ3J0ZVd5dUlnX0RHMmN5eGY0bDdzLXNiRlp5SkpBRGJJNklFNm44WHp5YjU5VnBDYmFaXzM3X1FpNWllYmlEYUhpaGttSFJuWmpBc3NYNzNNa1lUTExVMWU3bjhWcVk3bXNVMktlYS1ubjlFcTBkY282Nk5OdWpPNFNSbGpjVG9XOWZZS1ZPVWd6djhNckh2Yjg",
-    "CBMic0FVX3lxTE1YU0R1cEdHc0k0N1BXUmU2eklZc0plQ3Q3YjRsVWRIS0VKTlJXelVGejlHaDdDekRackxZWXJ3ajNqUWpPQkh1Mm9Pa0Mxa0ZTOW5BOENVZlh0M0V5U2xpMkV5UXNZeEFGcHdJS3Z2QlktZXM"
+    "CBMic0FVX3lxTE1YU0R1cEdHc0k0N1BXUmU2eklZc0plQ3Q3YjRsVWRIS0VKTlJXelVGejlHaDdDekRackxZWXJ3ajNqUWpPQkh1Mm9Pa0Mxa0ZTOW5BOENVZlh0M0V5U2xpMkV5UXNZeEFGcHdJS3Z2QlktZXM",
+    "CBMimwFBVV95cUxOVF9PbWpsdUZoeF9yd1JVODl6SjZQRFZOYUlwYW9pRTBiOGk2bTU4UDVZdkc5dTdWZEtNS0phQUJWRXVtZTV6dktuSlJ5S1ZlQ0dBYzdfaHZYUTZzNWN4TTlUX0JuUGVXRTAyeGtaNjMxelkzMmhtU09FWTNZVzNhSExxNzFBVERvLVd1MlQzTTJONXhqc3d6WkpDbw"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 46,
+    "ai": 47,
     "staged": 1,
     "prio": 0,
     "lost": 0
