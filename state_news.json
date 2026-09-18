@@ -1,5 +1,7 @@
 {
   "seen": {
+    "3cec3ba445a2d3f8": 1789764824.9615457,
+    "8bcb9bfd37c132a2": 1789764824.3893068,
     "88474ee5229313c0": 1789764759.9193356,
     "6f51723cd11590a8": 1789764759.6127114,
     "86b91e68af8a7a82": 1789764695.1073241,
@@ -2497,9 +2499,7 @@
     "3cf068fa89229543": 1788996296.45516,
     "29f86b104d6cd77d": 1788996252.8951085,
     "74925860db7e38d6": 1788996252.8915746,
-    "b7a21f70ef3ba2b7": 1788996252.8883784,
-    "f0678e1a7da6e5b0": 1788996252.8849838,
-    "0fb5fbc1855875aa": 1788996230.8666117
+    "b7a21f70ef3ba2b7": 1788996252.8883784
   },
   "initialized": true,
   "v": 4,
@@ -2521,12 +2521,6 @@
       "source": "MMA Mania",
       "ts": "2026-09-16T21:14:49+00:00",
       "cluster": "cca1bcf6a59"
-    },
-    {
-      "t": "RAF 13 full match card, start time, how to watch Covington vs. Muhammad, Chimaev vs. Burns on Friday",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-16T20:52:49+00:00",
-      "cluster": "c4bc7baa330"
     },
     {
       "t": "Ilia Topuria cleared to return, accuses Justin Gaethje of 'weird' glove manipulation",
@@ -4747,16 +4741,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-18T20:25:45+00:00",
       "cluster": "cedecce9e7d"
+    },
+    {
+      "t": "Colby Covington Says RAF Gives Him A Full-Year Plan, Names Five Future Matches",
+      "source": "middleeasy.com",
+      "ts": "2026-09-18T20:37:30+00:00",
+      "cluster": "c3f0b08a7eb"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T20",
-    18
+    19
   ],
   "yt_eval": [
-    "CBMie0FVX3lxTFBOc2VYLU1yV09ESXpBd2ROc04zTmFkaG1WMEI1WnlEQ0pEYmhQNXpsLWJHeHVrdkNObUtzVEREaHg3V0xKd0IxYjNwU0pUZDBwMWVxSmt6bU5aZ05sa214a0UyemJGXy1LN0lkWWE1Ri1aMVpWSk1PaXkzYw",
     "CBMiiwJBVV95cUxNVzg0NnFQdm1QNFM5ZG9VZk1faGJRQTVibEd1dy1LUk1oWVg2dmRhWE1SZDM0Rl9OdjNQa0REdW5qZU8tdG93ZjBjQjhrRkszc0lUcG9odHNQNm84NWR5R2M0a2VVOUxlejA0dkpCWUNITWVkZU9GVFhsMzRkMnBVVGFMbFl6UVNXWkhXUlc5RUpfY0IxUG9maGdxY2g4M3VyeEZ6UFBURk1KSXdiQXhNaGN0dVdhMVdPLVZHaXplT0N4cFc5VHhtN2pJS0plSEpGVFJyM2JNSG9peE42SUJibzAxb3FwRmQyaE0xMU5CSVBxeGR6clhLYzdYcjZDeDFLTXdTV2xUa0NDQ2s",
     "CBMipgFBVV95cUxOLUlSZkZQYlc1eUZ1dlFEZXI4N2xlc1h2aEk3TkVVTEVMM3pxQlNjLWlRYXdFVVdtRFMycEtsODM5QUw2YXlndGczQkxMTWkwWFFOS1NZdXNiVDJhZXJwTkFtbFlBRG4ydnpwNThodHVSR3pfdVlLNDJKMXIxMWJ6TmxFc3BTS0k5QXlWNDFrSXNqcG8xQXNxUkUyWUxTbGZuRHc5RUFn",
     "CBMijgFBVV95cUxQV0NCOHIwaUJ3YUFQV05LLVhTamJjWkhIbWxlbTNnekNDaTBzaUdlTVh3MTA4anpDNmF2LWxLcUNvdkNQSnFaVDVvVlU4VzB3Z1laZU81ZFFEOF9EOXZDQWxOODF2R21ZbVRvSkJUSm53MlNhWHNJckx2RmVYTFJ5ZlJXdm51NUxLcDg3ajZB",
@@ -6255,7 +6254,8 @@
     "https://www.sherdog.com/news/news/Fighting-Nerds-coach-calls-Mauricio-Ruffy-the-Ronaldinho-of-MMA-202855",
     "CBMihgFBVV95cUxOX2VoZDFtQjBfLUx0d1E1Y1N2WnRxYXF1Zjk1d05iZDY3eUVNZzJ4SFVJV0ZPZndTQlMzMFRrYzJ6c2RnbU1NaU9QS3hGZDBSdURUdUJEa1FybXZCRzM0M1hqT3dnSVZWcE9ocjJCbjdBVjVqcUp3Y0tqbHFRa29KMVVJX0d0Zw",
     "CBMipAFBVV95cUxPRU1BaVBTR1JqeGplSEo5QWZ3aHhSVWZEYmlFZmpBYzZ1Ujk1bkJaRGZjOWxtdDN0cmVmck5TTlpScmNqalduc3B4aDh5YkU0anBxbEpIS2J5SGNLRVBDYmZiNkQyWXc2VndaZ01pZFFERVl3OUFfY2x6X0xSYTY4Tm1sZ24wWTJwZ0xLYUgxcTZld0ZjQ04wZmt4ODdxWEVhelJPeg",
-    "CBMijwFBVV95cUxOOHJDdFhUZnJxRDBCMG9jbU42TUhnUkQ1YU5GeFlWTlY2Vy1sUkVBWW1mYUVObXlBQy1TbHNrYXdNZEhubTJBVldkdUphWTdHMWFDZk9ocE5vWGpqa3BRMXJnbmZELTJ6Z3MxUjNrU3VpdVVLWkpydW5leUFyNHhHdUJES3V3QWxCMkh2SDJNdw"
+    "CBMijwFBVV95cUxOOHJDdFhUZnJxRDBCMG9jbU42TUhnUkQ1YU5GeFlWTlY2Vy1sUkVBWW1mYUVObXlBQy1TbHNrYXdNZEhubTJBVldkdUphWTdHMWFDZk9ocE5vWGpqa3BRMXJnbmZELTJ6Z3MxUjNrU3VpdVVLWkpydW5leUFyNHhHdUJES3V3QWxCMkh2SDJNdw",
+    "CBMikAFBVV95cUxOUlFRZS1LWTVSLVdFOTEzbUlUWmJVbTZ4T3VlVW5WR2E0aVVacHEyYkxRQkp2TVU3OEIwS1FKSURnOVBkaWQ3bGIwM1lwS3dtcG5kU0kyb1I0X0wzTXJMcWk0RlZpcFNxZWs4bU04bUt0QVRhLU5aWlNpWG11MEp6OFAzQXVxbkxEUzlGVHNOSks"
   ],
   "daily": {
     "d": "2026-09-18",
