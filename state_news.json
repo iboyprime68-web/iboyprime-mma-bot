@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1c28ccc1fe1a1f4d": 1789704317.3138602,
     "fbd3488dde7038a9": 1789704253.1606956,
     "ce1d187c5de8f07b": 1789704188.9180431,
     "f09ca43cb91969b6": 1789704188.643833,
@@ -2498,8 +2499,7 @@
     "c55a54fd856b60a4": 1788865236.5550482,
     "cdd3be3df973046d": 1788865210.4222171,
     "14731278561a01bc": 1788865164.2437065,
-    "91fa0c84f1fb1912": 1788865098.0953178,
-    "6599e3706e73b955": 1788865032.2441282
+    "91fa0c84f1fb1912": 1788865098.0953178
   },
   "initialized": true,
   "v": 4,
@@ -4687,16 +4687,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T02:09:57+00:00",
       "cluster": "c68c9cc2dbc"
+    },
+    {
+      "t": "UFC 331's Sean Sharaf unloads on Gable Steveson for past sexual assault allegations",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-18T02:44:39+00:00",
+      "cluster": "c90f7370833"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T04",
-    7
+    8
   ],
   "yt_eval": [
-    "14b62074-e328-34b4-bfd1-9c49bbad6750",
     "1d8e9123-c862-36e9-98c3-b447221554a5",
     "4d32d418-7f58-332b-9588-3e12516522ca",
     "f3068582-efda-35db-aeeb-269a7f06c56e",
@@ -6195,25 +6200,17 @@
     "457baeaa-0f11-3c9c-b78c-d100069536f6",
     "https://www.mmamania.com/?p=472866",
     "7d1f2585-0337-3e3a-96f2-2474e17b0624",
-    "6d1bf889-af8c-3de3-9526-66568287fa56"
+    "6d1bf889-af8c-3de3-9526-66568287fa56",
+    "09dbc511-66fd-3c6f-b92d-55175cc4cb96"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 14,
-    "staged": 0,
+    "ai": 15,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-06T18:58:48.436345+00:00",
-      "t": "Islam Makhachev and Olympic legend ignite fight talks",
-      "names": [
-        "makhachev",
-        "olympic"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-07T03:46:40.934736+00:00",
       "t": "Conor McGregor calls for his own Croke Park night after Katie Taylor retires in front of 83,000",
@@ -7021,6 +7018,15 @@
       "t": "Tom Aspinall stepping away from social media in the aftermath of title vacation says new statement",
       "names": [
         "aspinall"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-18T04:05:18.253251+00:00",
+      "t": "UFC 331's Sean Sharaf unloads on Gable Steveson for past sexual assault allegations",
+      "names": [
+        "sharaf",
+        "steveson"
       ],
       "img": "photo"
     }
