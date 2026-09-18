@@ -1,5 +1,7 @@
 {
   "seen": {
+    "53cd6f64c94fff22": 1789704516.6325276,
+    "93deb9c66955dc3a": 1789704516.3632228,
     "6b6e2d648fbeb7c1": 1789704471.8630502,
     "3d606c4c09eda1cc": 1789704448.5364523,
     "f5bec46b5a82685e": 1789704384.2672281,
@@ -2497,19 +2499,11 @@
     "018b5d58d01c755f": 1788879717.7303226,
     "50e1e6226c1791f8": 1788879693.912684,
     "78b32c0f85be636b": 1788879668.3170302,
-    "945d7f6e78d2dad3": 1788879668.0609343,
-    "da668dcd6037fb6a": 1788879642.9219038,
-    "8e40de0247223b7d": 1788879618.0169823
+    "945d7f6e78d2dad3": 1788879668.0609343
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331: Joshua Van vs. Alexandre Pantoja 2 Date, Time, How to Watch",
-      "source": "Athlon Sports",
-      "ts": "2026-09-16T04:08:26+00:00",
-      "cluster": "c7644b14a55"
-    },
     {
       "t": "Nate Diaz Drops Big News On Trilogy With Conor McGregor",
       "source": "MMA Sucka",
@@ -4705,16 +4699,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-18T02:27:46+00:00",
       "cluster": "c2bcf134607"
+    },
+    {
+      "t": "Ludus Welcomes High School Wrestlers and UFC’s Gable Stevenson",
+      "source": "Circling The News",
+      "ts": "2026-09-18T03:26:53+00:00",
+      "cluster": "c9b10e45a51"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T04",
-    11
+    12
   ],
   "yt_eval": [
-    "543333cd-b97f-3ebf-8e4d-571f32690604",
     "7aefdf05-6892-3b41-b7c6-ea014af47b6f",
     "174d355f-5e5c-3918-be25-3013ded67fb8",
     "523fe653-ac31-3c05-bd7e-7cdb074fa5d0",
@@ -6213,11 +6212,12 @@
     "09dbc511-66fd-3c6f-b92d-55175cc4cb96",
     "CBMioAFBVV95cUxOSmFGNjFKX3dOYjJxbWxCdndTc1pzNG1PVzdmZE5fNjlxTm5TVXpoNllsWlBjd01RN3hhRWRjM0hzZDBHaDN3U2xaR3N0RUt2QnhtTnp5cFlvU2E2NTNURnU1bWMzMlpaSzcxYklfQ1FvVDhTN0Q2YndlZGZfZ0IxaV9BTzlqa1ZmQ0pZd1VHWDJJSU4wUWlIUmNIR0pwLVp1",
     "CBMihgFBVV95cUxNRjE1RVdId05kUC1RVEpWYWtOS09hTUt6QlAxYkJqcGc2Z0hRdVl6VDNfS29PdnhjdEtmS3FDUUFTNnA1UF8xVUQ0N0s3SVdKR2pxczBlZGtWaHNLVC0wdDE5bXYyMG40djVtN1d0LUtvcUMyVVVPRWpXdEM2Q1JIOWZHM0E4Zw",
-    "https://www.mmamania.com/470526/mm-clone"
+    "https://www.mmamania.com/470526/mm-clone",
+    "CBMimgFBVV95cUxPMmh5alJOcTZMeFF3N28wOVZ5VjhNcURmTnd2V1J3ZEt0WXBzRTN4eWhEa1Y5QU1HOXZMVDZFUkZRSEk0UTRnVlZpY2EweXFlRlJBWkZ2QTM1WEFjQXBJdDNrWmljbEVHQUJSZzNXekcxSGxGNU5TM3RKR3lFYThzNVdHQ05pLS1GcTR2cWs2TERYNmZNTVJuOHFn"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 18,
+    "ai": 19,
     "staged": 1,
     "prio": 0,
     "lost": 0
