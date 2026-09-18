@@ -1,5 +1,8 @@
 {
   "seen": {
+    "2aae2bfd746e0b26": 1789721727.5839088,
+    "ee704f17ca9918fa": 1789721727.0739672,
+    "feee1a5f3d15cbdf": 1789721727.0521495,
     "e241a2e127b085ef": 1789721683.2473302,
     "975a6880b4f3cd61": 1789721682.9700983,
     "6c05067421ab9b6e": 1789721659.860143,
@@ -2496,10 +2499,7 @@
     "a3955175d026e417": 1788893395.1800802,
     "c564d00f42218cf9": 1788893350.6173346,
     "52f867d7ef1359b7": 1788893326.99044,
-    "f72fb948cb1f8c19": 1788893262.0329664,
-    "e87e19109d0734d8": 1788893261.5784645,
-    "feb2d9d9faf58be4": 1788893197.514591,
-    "8bdf056c0de0397c": 1788893132.39608
+    "f72fb948cb1f8c19": 1788893262.0329664
   },
   "initialized": true,
   "v": 4,
@@ -4651,16 +4651,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-18T07:55:59+00:00",
       "cluster": "c4cd1b4255f"
+    },
+    {
+      "t": "UFC 331 Full Card, Date, Time and HYPE Score: How Good Is It?",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-18T04:59:24+00:00",
+      "cluster": "cfa3ea6a8f4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T08",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMigAJBVV95cUxQTjhhdUJ4alNaZTIyV2RHVTlPalBJZk04LS1jbFp4eU8yeGN6U0NvSW5JZGtZSlBJS2JqQmJVbmMtb2lkNi1CenpDN3pHQU1MUURoSlhPbHdFeWN1RXpoZVZtZE16X2prd0FlSk9ENnZsMF9FeWxKSEFIU0hmeUdsa2h6T1dkZVA2VWV6aHdHSFExN1lPV250Z1NqUDdQTmkzYUI4S2hZUklfWUcyTTZfdzFOaHJDVUNlTEljdUNGZ05nZi1mYk9FZ1NDSUN5c0dRY2pyV280aWVvX28ySUZldDFpdDhISTd0MXVRMzlPaG9KdlRBNUY2NlVMUW9SWWpD0gGGAkFVX3lxTE1DYjJxX3lTcl9SQ2VVSjFXWVlKLVRaOFQ4NkthYjNRaHBnUTFFd2hKLXNvY1NucWQtU1A5MTFfNUFnelVQSFNnNW9nR0FaTG8yU3BXQU40Z21nXzByZXB0NklmRjMxQkdGWEFOT0xxU2hqVFFaYUZneWxBNWZpLWtiZUZocnM5QVVybDRYR05zVWhlbUJXV1d6WmQ4WGNveEczb0NnR1JHZnJRcURrQXNvZWkxc05rSTlQeVZKa204OV9WajcyYTVwZmIwdHM3Y1A4Q0M3OUpySlJTLTdKZC1HTWRjN0tKOXFBSUluZU5tVmQwMzc2RENhakZPX0dkdHl0Tjl2cnc",
     "https://www.mmamania.com/469173/mm-clone",
     "CBMikgFBVV95cUxPcXFqNXotaFRhQk1vVThOSC1TVWd5c05LZWNoVTlndTRPOEpYLWRhdk5ZREp6Tm1leWlTNUhnczk4MWNQYll3Tng0bVFmOE9kaFJTaHVmeFJvM2VVSHZSOVhUTDMwY3JTOUZQMktCRWFaa3RWLWJXelpsSGFJb2ZzX3o0dG9UNTBwejhxRHBkUzdjZw",
     "CBMihgJBVV95cUxQeDdibkN0REVvMXRNMXBEM0NMWnBvOThZUU43Rm9JQ2lLenM4cHJzV1Y4TU1QamJxWk4yaFdUeFl6UVNVcHZzWkxOWWFZcXI4Nm53MmNmZHBsT0VCOFI0THlMdGJCZmpnc1hDZkE5QUIyLTUwU2M5eks5V2lKRlRVM3dQaXhMLV9WOG83d19LZWxuRU9VaDJpTElWY1VQOGltNnpSWldYSlRMbE81SmNiMU84eHRIRXFFVmdrZzBDQmwwaHVZUEJTRThlUFNpb1pSTDlVZ2tXQXVucDBnX2c2X1dlaFJadXpzbEhSNG92STlHNkZHU0t1elRTWVpUVWFvLUJ6RlRB",
@@ -6159,11 +6164,12 @@
     "c2b3f1df-92e5-3922-8e24-fb9449aba411",
     "360e4695-8bbb-3722-9938-593282f724c7",
     "https://www.mmamania.com/?p=472887",
-    "https://bloodyelbow.com/?p=332157"
+    "https://bloodyelbow.com/?p=332157",
+    "3ee59e73-dfcf-3176-a61f-a189578f5a31"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 35,
+    "ai": 36,
     "staged": 1,
     "prio": 0,
     "lost": 0
@@ -7035,7 +7041,8 @@
     "f877a2b08a2bf2af": 1789625119.0781114,
     "1118788c3cbf3025": 1789646030.7029326,
     "c1a022f1e918bb7e": 1789662915.2349086,
-    "638153b615d04765": 1789703920.076112
+    "638153b615d04765": 1789703920.076112,
+    "2aae2bfd746e0b26": 1789721727.0967484
   },
   "pinged_titles": [
     [
@@ -7045,6 +7052,16 @@
         "moreno",
         "pantoja",
         "van"
+      ]
+    ],
+    [
+      "UFC 331 Full Card, Date, Time and HYPE Score: How Good Is It?",
+      1789721727.0967484,
+      [
+        "date",
+        "good",
+        "score",
+        "time"
       ]
     ]
   ]
