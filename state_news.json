@@ -1,5 +1,9 @@
 {
   "seen": {
+    "cf99623c9b9843c6": 1789772991.4801838,
+    "4ff7ec2e6a79ec6f": 1789772990.821368,
+    "d9348d2c87cea377": 1789772990.8165324,
+    "66ace69f29b1f8ce": 1789772990.8118021,
     "22f825f15526f93f": 1789772967.68645,
     "5cc319c2d9a5d240": 1789772945.051083,
     "69d66c9c645f492c": 1789772922.698061,
@@ -2495,11 +2499,7 @@
     "920808e7494a1ac5": 1789019785.518281,
     "703fe72259c62eeb": 1789019785.3713653,
     "d6f3200e01bb45bb": 1789019720.8161497,
-    "f3ff52d2e07536f6": 1789019657.0454621,
-    "7d2abe4c46dae65e": 1789019609.9627984,
-    "bb6c87914b29a7a8": 1789019527.240939,
-    "5c17181606609155": 1789019527.01545,
-    "57f7a8cd58ec25a7": 1789019502.8452072
+    "f3ff52d2e07536f6": 1789019657.0454621
   },
   "initialized": true,
   "v": 4,
@@ -4693,16 +4693,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-18T23:00:00+00:00",
       "cluster": "c582ebdb529"
+    },
+    {
+      "t": "Veronika Smolková clashes with Ivana Petrović at flyweight in Třinec on November 21",
+      "source": "MyMMANews",
+      "ts": "2026-09-18T22:11:59+00:00",
+      "cluster": "c9a95badc5f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T23",
-    6
+    7
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=469425",
     "CBMihwFBVV95cUxQQkVZMjJQc0k1WjdJNHlmbUNxbGRrR2R2NnN0RFU0QXEtLVhNeWZWekZ5Nzkya3FZRTU2SjVEVFc1YkRYVjlDVW9tdHZHb2xid3Jrd2I5NllBeC1lSmxHVGY0NU92Wng5YW1wVnJfVWVoSHNuZmIxOU1ZQTBuWnRsV19LQ09hWHM",
     "CBMijgFBVV95cUxNRWEwOTBMLWFoQlNjN2JZb0ZEYzBzWjhOSXBoZFItaXVYNnBjTnRnWExoa3VzdFg1eHBJdk9zSWdUTm9KdU9Bb1ppUWttdUQ3WEIwTEV4eEtHVzNlbmlHVmhJTEtxY2ZvSVFRd2lDeng2NlpCUGI5aE5Pa0JOUTJuOURPTHMwNldEbXFoekNR",
     "CBMifEFVX3lxTFA4VGo1eWFXT2xFNUJqSGVSWWVrUUdKVmdHVlAtTk5qVE9Wai05YmlXanRJNEctREcxTlNKTjN6MlZwaEQ3b0hWaE12ZThWZFdiNi1ncU5HQTBQcUNUSFRWbHF3WHBsa2NQZDlJcUVSTFVQc1I4Q0pVSXUxU1U",
@@ -6201,7 +6206,8 @@
     "https://bloodyelbow.com/?p=332319",
     "9f9b4ee1-8b18-330b-9487-f88c3f5eb8f4",
     "https://bloodyelbow.com/?p=332316",
-    "https://bloodyelbow.com/?p=332283"
+    "https://bloodyelbow.com/?p=332283",
+    "CBMiqgFBVV95cUxOTUxpZDRvU0RwMFdmbVFhQlhoYWpXYkxDcGJnTnhwd0lmc3N0aGlrREk0Q05FeXYwTkFnYTA0Rko0elRXaklTdUlKb2didnZuN3NiWlh3VTVBLWtGZllrYTJHUXU0R0JpNFgtcUF6UlhVS2s5M1dFcTBCcDFra1RwSElZY2NnNlRCeUZZbFFCRDJWendDZFpYaHhBZWJCWEZlWXdOam1qX3UxZw"
   ],
   "daily": {
     "d": "2026-09-18",
