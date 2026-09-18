@@ -1,5 +1,7 @@
 {
   "seen": {
+    "ce1d187c5de8f07b": 1789704188.9180431,
+    "f09ca43cb91969b6": 1789704188.643833,
     "8d734b0a64d8c70d": 1789704164.3705382,
     "9912439e16011537": 1789704120.7958958,
     "01b8b64125f5bdfe": 1789704055.8433154,
@@ -2497,19 +2499,11 @@
     "14731278561a01bc": 1788865164.2437065,
     "91fa0c84f1fb1912": 1788865098.0953178,
     "6599e3706e73b955": 1788865032.2441282,
-    "f47a769b245e2817": 1788864966.1510258,
-    "b01d9693f2b7cc98": 1788864899.8898773,
-    "4187a962e583f944": 1788847228.7852767
+    "f47a769b245e2817": 1788864966.1510258
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "DWCS 92: Luis Hernandez post-fight interview",
-      "source": "USA Today",
-      "ts": "2026-09-16T04:03:06+00:00",
-      "cluster": "c5c93034b6f"
-    },
     {
       "t": "Dana White Hands Out 4 New UFC Contracts After DWCS Week 6",
       "source": "Yahoo Sports",
@@ -4687,16 +4681,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-18T01:26:06+00:00",
       "cluster": "cc27cb2404b"
+    },
+    {
+      "t": "Alonzo Menifield: Firefight with Iwo Baraniewski at UFC 331 could benefit local families",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-18T02:00:23+00:00",
+      "cluster": "c7fcb5e42bf"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T04",
-    5
+    6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330033",
     "https://bloodyelbow.com/?p=330025",
     "14b62074-e328-34b4-bfd1-9c49bbad6750",
     "1d8e9123-c862-36e9-98c3-b447221554a5",
@@ -6195,11 +6194,12 @@
     "https://www.mmafighting.com/?p=510772",
     "17b2fbf8-bd56-32ff-ab84-98a6e0b564ec",
     "457baeaa-0f11-3c9c-b78c-d100069536f6",
-    "https://www.mmamania.com/?p=472866"
+    "https://www.mmamania.com/?p=472866",
+    "7d1f2585-0337-3e3a-96f2-2474e17b0624"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 12,
+    "ai": 13,
     "staged": 0,
     "prio": 0,
     "lost": 0
