@@ -1,5 +1,8 @@
 {
   "seen": {
+    "30a9c2c0368039f6": 1789738965.8651428,
+    "8565dcb8449cfdd7": 1789738965.5953915,
+    "8abf943429962727": 1789738965.592131,
     "7c3f8dbb2328544e": 1789738901.0485992,
     "7d8e8ab9066d1756": 1789738835.9195876,
     "575d1fda76e91880": 1789738835.2317936,
@@ -2496,10 +2499,7 @@
     "4c290c36be871b56": 1788904842.6400914,
     "a06890e3cf75cb76": 1788904776.916148,
     "8ab2d699ff4a15b2": 1788904711.710042,
-    "f091d3fb2885a284": 1788904647.024138,
-    "530e2f31fd84f78a": 1788904646.6697743,
-    "695a79385912c787": 1788904580.749345,
-    "63ae05a02baa983d": 1788904515.9048376
+    "f091d3fb2885a284": 1788904647.024138
   },
   "initialized": true,
   "v": 4,
@@ -4681,16 +4681,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T12:50:15+00:00",
       "cluster": "cf96aeea269"
+    },
+    {
+      "t": "From Guggenheim Abu Dhabi Tickets On Sale To UFC Doha Return, 10 Middle East Updates",
+      "source": "curlytales.com",
+      "ts": "2026-09-18T12:51:32+00:00",
+      "cluster": "c607e77da84"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T13",
-    17
+    18
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Undefeated-UFC-prospect-Bilal-Hasan-I-lose-every-day-in-the-gym-202655",
     "https://bloodyelbow.com/?p=330046",
     "a2957615-1acf-3e59-b76e-3f8a96d82acd",
     "9875eebc-feb4-3db0-9412-ebfa9f8276e0",
@@ -6189,11 +6194,12 @@
     "CBMif0FVX3lxTE81WnZJZzFfWHVNLWRvYkdxR0hlWUEzN3F2N2pQYXdjZ1ZpZ2F4ZFBveS0xcEJ2Vko4UjFILVZjUFFUQU1qNW1TWHp3ZVE4R1VlS0c1S0Znamd6bEI4UEVsRlFmcGg5UzNSLWVpcm1TdDQwUWhDSGdzb3FRdEpfcVk",
     "CBMiowFBVV95cUxQYmZKVU9XZ2ZmN2owbDhnNGNGSDVEQm9BY1NERVVwUlV5aW15NVJGTGNranBzQnVYY0lnMVVLVUczb2JfYzV1Z2M3a3d5d3AwQUdiUnU0RjJwV0lRdW9aNXA4WjBicnV5WG1qRU1DaF9fWE9YZExCTWxIUFRYa3pvVS1ucC01Zng2TUVWeGFXQzR2LV96RFU1Z2xHc0JRZThRT25R",
     "https://www.mmamania.com/?p=472917",
-    "CBMiigFBVV95cUxQVTdlMWRtMWdQOEVOMHEzMFlMeDNsMHZ3anFJWWt6b1E4dWZfVUZBa0NfQmMycHFtQ0NtQzRxVXlOQk80akZiWXQ1M1NEcDk2ckRKalY4SklFT1FVX3ZHVlpUd3o1MV9qNlRPUFZKNGtTUHRla1ZDSFd0ckowSXpDaHhwekIzUm9keFE"
+    "CBMiigFBVV95cUxQVTdlMWRtMWdQOEVOMHEzMFlMeDNsMHZ3anFJWWt6b1E4dWZfVUZBa0NfQmMycHFtQ0NtQzRxVXlOQk80akZiWXQ1M1NEcDk2ckRKalY4SklFT1FVX3ZHVlpUd3o1MV9qNlRPUFZKNGtTUHRla1ZDSFd0ckowSXpDaHhwekIzUm9keFE",
+    "CBMiwwFBVV95cUxOM0libVRBRXBfSzN1V0c2YlNSSGRHOGdiTTdGeG16ZjcwVkJJOXg5dU5BaVgwRDJYejd2VFpRRlhZdktsdUlMRDJTWGJKaGIwQTBxbWk3MjBocTZUSFh4S19vNjliOWhsOHlDbkJ2YjhmdmNIS2Z1QUhqQVZQSkotbXAwWEQ0S0dHZmhSZUJ3WlZJMVRmYklxNjBkTDVCRzNURlVHUUQ5ajB4QXRYOG9lQXNwU1pQcGhzNUJGMTFtTHc0WGvSAcgBQVVfeXFMTXZJVXk2NURhVGRGZ21vazhTOHYwYmVGMkM2MFJXZjVVdVk3bE95dkNFdmFmREV3NUpKYjZsbkNMeUszWUhScnFpLXVRYTNBLWdKTUs2THRVSTdBd29iNHVtcXVpVk1hdDJFMlJrbUswcnR2X0luN1p2UmF2ZEVJNDNxdXR6NjZxMEhkcm5ValEyRG82b2E2VGV1ZTY3TFVNeWQ3Y29yTkdXVG94cGVNeFpORklDTlBtY2s1eFItODZteDRlenZJbG0"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 67,
+    "ai": 68,
     "staged": 2,
     "prio": 1,
     "lost": 0
