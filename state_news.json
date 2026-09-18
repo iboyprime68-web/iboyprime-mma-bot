@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d7fa9355c2fee866": 1789689761.957023,
     "58af3333eeac8d53": 1789689676.4424167,
     "f2a1e0c35713513d": 1789689676.4407132,
     "9ec591766a93cdc8": 1789689610.5810719,
@@ -2498,18 +2499,11 @@
     "7fd781d9698b3b58": 1788846606.7318041,
     "68e9b51f5059184c": 1788846583.6247227,
     "82afcf17db6fd405": 1788846559.8584561,
-    "548eae6e4c80f02e": 1788829320.5307307,
-    "a542e2c853a6eb4e": 1788829320.2492402
+    "548eae6e4c80f02e": 1788829320.5307307
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC ‘Contender Series’ results, live coverage and full fight highlights&#124; Season 10, Ep. 6",
-      "source": "MMA Mania",
-      "ts": "2026-09-16T00:02:09+00:00",
-      "cluster": "c53c8a198fe"
-    },
     {
       "t": "Diyar Nurgozhay: UFC Record, Stats and Fighter Profile",
       "source": "fightomic.com",
@@ -4855,16 +4849,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-18T00:00:00+00:00",
       "cluster": "cb6993c85a1"
+    },
+    {
+      "t": "How to watch UFC 331: Start time, live stream & full fight card",
+      "source": "Sherdog",
+      "ts": "2026-09-18T00:02:41.533015+00:00",
+      "cluster": "c78ac46855c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T00",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMihwFBVV95cUxNOTZFMGp4cnpCeWZWWnlOdHBMSHJRYnhSWXctdjluTmdlTGUtYkRIQjZzTTZJSlptRmMzQUlkbHBXcmdpaTVRT0pmanl6dzBUdjRuMTRoWTM0WENNVWhyd1FnallEekZwWWN4VjlIM2ViRVZFRWhPSDBrVTlrNTBJMmVnaFhFYmc",
     "CBMitwFBVV95cUxPdG0yOUQzQTZ5TTk5ckJUWU1nR0l5eW1BNnh3cUFTT0IwN1ZORVo5TGgyV0Ryd1pXTk5RSkZic2xDN1lwY3BhQnFjWE9QTm0tckxwNXNDWTExX1d4VkJsVG8zckhqZ29TcVNGY2tkaFRCZ2ZSOHIyU1M3TXZFTG1ReXF3YktpSU10M0tyZWhfOFpEdEVUYmZyaUR2dHhkTlM4XzgwZmRkUlZ3RlU5NGU1Qkc1QWRYSmc",
     "https://bloodyelbow.com/?p=330019",
     "CBMirgFBVV95cUxOVGJXLVBmYkg0NHRXeWMwMEhlTDZfSUJ4LXMwZlZYLXZqYkFuYUczM3FpWllXWS15SE5FZ1ZUeU9VQjYyeXZyU19mU1hHRVRpSHBCT3RUc1R2U0NRVXVpZUhMU0plYUpHeGpWaG42QnRNU3pvMVI2VktKWXlFakM4UHVWS1VhcWJmSDh0aENZX3F4cUdodmN4NW5Gdk94dDNMaGVSS3RkalF5VVNhTXc",
@@ -6363,11 +6362,12 @@
     "https://www.mmafighting.com/?p=510571",
     "7c83369c-ba92-3981-a972-41a7779fe721",
     "https://bloodyelbow.com/?p=332019",
-    "https://bloodyelbow.com/?p=332079"
+    "https://bloodyelbow.com/?p=332079",
+    "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 1,
+    "ai": 2,
     "staged": 0,
     "prio": 0,
     "lost": 0
