@@ -1,5 +1,6 @@
 {
   "seen": {
+    "66d92d8a61d0706c": 1789753096.5716434,
     "cb71639c3e8dc28b": 1789753073.1543844,
     "5957a34e264d829f": 1789753047.1386986,
     "08026c6ec557af6d": 1789753022.2748818,
@@ -2498,8 +2499,7 @@
     "0c1264935d275c2a": 1788961700.9334252,
     "3cea80720175ffce": 1788961635.9184864,
     "d185db8b2dd575db": 1788961570.2777631,
-    "112e302d4cb1df2d": 1788961504.9796362,
-    "346cc584d21943e5": 1788961504.728941
+    "112e302d4cb1df2d": 1788961504.9796362
   },
   "initialized": true,
   "v": 4,
@@ -4621,16 +4621,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T14:30:00+00:00",
       "cluster": "c0565bcd9f6"
+    },
+    {
+      "t": "Arman Tsarukyan avoids previous issues to make UFC 331 potential title eliminator official at weigh-ins",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-18T16:47:52+00:00",
+      "cluster": "c0d746912f7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T17",
-    7
+    8
   ],
   "yt_eval": [
-    "8ff4a9c3-993d-30e2-8f02-1a5cd3cea4d4",
     "https://www.mmafighting.com/?p=508370",
     "https://bloodyelbow.com/?p=330172",
     "CBMilwFBVV95cUxOU3BuR2o3Q0ZkbFBHbWZSVDJFUDE4M3JCT3JLeldRMGowc1JqSEgyNzd0UjBBZUUwX3piYndYc0c0OU1nYzdQX3VjR2tQRnZFbXZmRHlXbXhoWnJ3YmNZMDlFR0drei1wLWx5ak11SUhHU2FwR01zWmcyQ01sWTR6bC16TVlUYWU5WmVEZ0FaRURzTGNfakhr",
@@ -6129,11 +6134,12 @@
     "c1d58e01-4676-3cfd-849b-df42bf7cd13c",
     "https://bloodyelbow.com/?p=332179",
     "https://bloodyelbow.com/?p=332266",
-    "5578eb37-6422-3e78-a950-12574fdf44b2"
+    "5578eb37-6422-3e78-a950-12574fdf44b2",
+    "https://bloodyelbow.com/?p=332268"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 94,
+    "ai": 95,
     "staged": 2,
     "prio": 3,
     "lost": 0
