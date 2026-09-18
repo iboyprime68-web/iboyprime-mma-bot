@@ -1,5 +1,6 @@
 {
   "seen": {
+    "70d71a838adc0807": 1789755854.0713394,
     "6d625249c515397e": 1789755790.0928893,
     "d3578118c98663db": 1789755726.5780082,
     "93dce60537a2a155": 1789755726.1780875,
@@ -2498,8 +2499,7 @@
     "c97031bdec712931": 1788995071.1680913,
     "8284a79257baf8d8": 1788995047.483147,
     "e86a59ae1f0ab434": 1788995045.0628967,
-    "c358366a4e5d290d": 1788995045.0601325,
-    "e7675abfffd46681": 1788995045.0574374
+    "c358366a4e5d290d": 1788995045.0601325
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-16T18:40:05+00:00",
       "cluster": "cc041a3825d"
-    },
-    {
-      "t": "Jon Jones Train Partner Hints at Possible UFC Return Following Tom Aspinall Injury News",
-      "source": "Sportsnaut",
-      "ts": "2026-09-16T18:23:29+00:00",
-      "cluster": "c87bcb4431c"
     },
     {
       "t": "UFC 331: Joshua Van vs Alexandre Pantoja flyweight rematch headlines blockbuster card, when and where to",
@@ -4801,16 +4795,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-18T18:21:21+00:00",
       "cluster": "cfb655c79b5"
+    },
+    {
+      "t": "Justin Gaethje viciously fires back at Ilia Topuria's 'cheating' accusation",
+      "source": "Irish Star",
+      "ts": "2026-09-18T18:10:00+00:00",
+      "cluster": "cd96ad0c38a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T18",
-    14
+    15
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508464",
     "https://bloodyelbow.com/?p=330188",
     "c92986fe-4d0f-3ef5-9c99-501fcbe78271",
     "https://bloodyelbow.com/?p=330196",
@@ -6309,7 +6308,8 @@
     "CBMihwFBVV95cUxPVVppeEVmYmhWLVFBZW1uajRuRnM5Sk85Zkw5YkFwdXFseE1RbnduaGI1NGE2UFYtaGhEeEtRV2Iybk5VWS1lVTZsRUpDV3p6WlpROFQ1cjVzMmZaN0Jad1NaRU1ldkZsaERDckNzQmdmNk9YWWd2OVRJRHNPZXByVzBpZXNiYjQ",
     "CBMiygFBVV95cUxNX0h5S1hqaXU3UUtKWURzLW96WDJKUEVuaHJ1RjVSWmNNZUJ0S0dDaXdpUUVpSEFrSFd2blpsZWlFVkozbXdrOWNMUVJrX21oejYwa3BISktyenZXTkJtejVIRmlwSU14cFFLNTlMTURPaWx2aVltOV9rZm9fNHg0OWo4OUpwaHJzV0ZscEllVmlhS1hHVjkxT3YyYzB2OE4xNkRWSmp2VXNUZ0VFZ25MclBrYVBhWWwxZ1Y1Z2R3SmtNXzZ0ZnUyTm9n",
     "CBMiowFBVV95cUxOQnlQS1BRSUxtelZybU1Uclc0N1VFMVpfQjVtdVhVYnQ4RkFSNG1tSDF2RmVocXFkNUdpbUVIZDdNa0xiblcyM3NvbDVPaUtfaHhhTWhsS1RERU12UW1qTTZySi1UaHd4T1lYcDZHM1VZUGtrS3duUnVZZDROQkxpV1VjcGI5MFU3RDNYTkVnQ25xNWZBOGFYTGZxNXRTUjB2MWJR",
-    "CBMilwFBVV95cUxNTUN1ZWVEbEk2LXE2TGhGX0YwaU9kemtWWEdoZVpORWdaeXRwUDZvN05LX0d6ejFJc28xLUFVMnlzRlZ0aURiTUFGTmplek5XRFJjTWhVRG84WmVYczB4ZTJlYU1XUjFuay0wX3ZMdlVvT0ZFVVBmUEVXUDYwRkExaGlEUW5HbmZ5aHVEWWVTeFdkR0Z4Q05j"
+    "CBMilwFBVV95cUxNTUN1ZWVEbEk2LXE2TGhGX0YwaU9kemtWWEdoZVpORWdaeXRwUDZvN05LX0d6ejFJc28xLUFVMnlzRlZ0aURiTUFGTmplek5XRFJjTWhVRG84WmVYczB4ZTJlYU1XUjFuay0wX3ZMdlVvT0ZFVVBmUEVXUDYwRkExaGlEUW5HbmZ5aHVEWWVTeFdkR0Z4Q05j",
+    "CBMijgFBVV95cUxNdmh3TW1sV0xPNHZFa0lRX2thT1N1ZTI2R2pOT0hxZ1dnVHRNTURGN25oVXR1MGlzbDY5c3oyQTF6RUx1aUFCSFJraHBnS2tQZU5pWm5hbzhvU3JOT1BvRG5lUEZlYjNOZWt2Ylp1Sk1LVFAtc0lGbzNzVEVKOHdCTUFOanoyZWtYOWNoMmhR0gGTAUFVX3lxTE1xMl9od21sOHdSem1aNFJyN043ZUt0U21wSTlBNkNuQUJubWFyeG9GczYtQ1BfSFBDQkJDUUZCUS0xWXNWblQtRW1YdjYtUnRvTW15VDlHQWFWMjBOc1RzbFNMdFZJRmI3YnVmdVhWc0EtNlpRaVhvMVJqWGlNU3ZaTGNNbk1YYWJub29GR2JvRlM0VQ"
   ],
   "daily": {
     "d": "2026-09-18",
