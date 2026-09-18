@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f68ec54955f7170e": 1789738314.2862995,
     "883e2812ea7971df": 1789738287.8563652,
     "a87e469eaaf07729": 1789738287.2247815,
     "c28074ad6fef09ff": 1789738287.2217686,
@@ -2498,8 +2499,7 @@
     "fe006a00869975bb": 1788904056.8903913,
     "e0b671c0f7230b12": 1788904056.6194816,
     "e9c15491ef44771b": 1788904032.7700377,
-    "93e9c78508c02f4d": 1788903988.6380844,
-    "02993980ee3a198c": 1788903923.1446164
+    "93e9c78508c02f4d": 1788903988.6380844
   },
   "initialized": true,
   "v": 4,
@@ -4621,16 +4621,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T11:39:08+00:00",
       "cluster": "c89687a1821"
+    },
+    {
+      "t": "Alexander Volkanovski’s UFC 333 undercard loses big fight as top 10 contender drops out",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-18T12:11:27+00:00",
+      "cluster": "c8f960e1473"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T13",
-    4
+    5
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Shannon-Clark-vs-Lucero-Acosta-booked-for-PFL-Chicago-on-Oct-16-202649",
     "0721034b-0541-3ebf-b559-ec13bf31b077",
     "CBMi6gFBVV95cUxPRGo3Y2ZQTU0zTlpZR3d0cEdXZXgycjRNY2l0SGhob2VPWGxGckIxLVBiY1VVeUpZRlNhdUZyaElVdk4wLWRudDNLQ3Q0T2dhcWlZaU5NVEx6WENXT1hfeWJHN1J0OENyR3g1bThXd01QZGFkQzZaY0hScTRQdFpoQ0R6dVVaZElERnp3bzRwMTUxUjNXdjlYQy1mZEdLQXlxdzF6Mk8zQ0l0M082Ti1oaGdFVFg4QXRHWkItOUk3TUJ4aWZud0V1R2ZxOWZPaUpvcjZpRHMzWmNpcnhzZFRibmwtcnB3NE5YNlE",
     "CBMimAFBVV95cUxNNlpQMktWMXJLVVFPTDU5XzliMFVEUXVlM0JvZkFybmtXcUxWZmJGN2dxenVJVWxNNVdlZ3J6dlNHN3d1OHFvOE1RRE9kZ3d6c1VOdFkteUVUSTlwWW10MGV6Y3ByZkt1Yk1zLUJXQl9iRFZmdmI3cUR4R2pCNkdLeEduSmp4VGJzanNCSWtTUFVQa0dhSmNfaQ",
@@ -6129,11 +6134,12 @@
     "https://www.mmafighting.com/510707/ufc-330-weigh-in-video-makhachev-vs-machado-garry",
     "https://www.mmafighting.com/510665/dnp-morning-report-template-dnp",
     "https://bloodyelbow.com/?p=332169",
-    "eff61f3f-afa7-3963-b64e-73f31569aa57"
+    "eff61f3f-afa7-3963-b64e-73f31569aa57",
+    "https://bloodyelbow.com/?p=332185"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 54,
+    "ai": 55,
     "staged": 1,
     "prio": 1,
     "lost": 0
