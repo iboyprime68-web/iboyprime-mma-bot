@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ca99ef8255943d99": 1789754431.780041,
     "cc2ba236f75d3b26": 1789754387.878523,
     "36590c1b7e100e7e": 1789754387.4332874,
     "be99603a0ff735b9": 1789754387.429871,
@@ -2498,18 +2499,11 @@
     "08f004e4a2cb517f": 1788986688.9059734,
     "6c42acb4c5aa706b": 1788986665.5371542,
     "f7bcd112aa89ec91": 1788986665.332351,
-    "e9c1bad9daf740f5": 1788986641.5812848,
-    "9b92531169b92a18": 1788986618.2049036
+    "e9c1bad9daf740f5": 1788986641.5812848
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Ilia Topuria’s brother Aleksandre set for return as UFC Doha matchup is confirmed",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-16T18:00:00+00:00",
-      "cluster": "caf45a22c45"
-    },
     {
       "t": "RAF execs: NFL Hall of Famer Ray Lewis in discussions to compete in wrestling match before end of 2026",
       "source": "MMA Fighting",
@@ -2521,12 +2515,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-16T18:40:05+00:00",
       "cluster": "cc041a3825d"
-    },
-    {
-      "t": "Gable Steveson reacts to Tom Aspinall relinquishing UFC title",
-      "source": "MMAWeekly.com",
-      "ts": "2026-09-16T18:00:00+00:00",
-      "cluster": "c728eb61d59"
     },
     {
       "t": "Iliya Topuria's return date to the octagon announced: Opponent Gaethje or Pimblett?",
@@ -4753,16 +4741,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-18T17:41:08+00:00",
       "cluster": "cca68688fab"
+    },
+    {
+      "t": "Tom Aspinall hailed as ‘honorable’ as Chael Sonnen admits he was wrong about the eye injury",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-18T18:00:00+00:00",
+      "cluster": "cd741843f30"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-18T17",
-    31
+    "2026-09-18T18",
+    1
   ],
   "yt_eval": [
-    "CBMiugFBVV95cUxPUmtxZHhFRlI3ZEtaNFZhZ203djczN3lkOVlxQ0JEYTN4UGNaZ2U0Y0tZV0NTaGVDRjZqLXBvS2VmdXFNekhMNjdWQ2JTMWNxbS1LaExxNWM0ZnY1TGM1NkNENHB3NUhEMGloV0NMazZzcV85Qmg5ZHlxaXpOeWxycXhhSWJOX21Uckt0LXhyT25DakZyOGpiYXdZODVLMjZsRjlQbEQ1VTJYQXFBaXczdlFjR3p1bTVZQ2c",
     "CBMigAFBVV95cUxQU2dWWU5Sem90WU51cjd1Vk1na3E0MDhaaXU0MUpFeVZaWHlHekFQYnR0MEtySUhyV2VOeEs0NHI5SnlnZ1NqVUF3V0lNTkNGUm5aNWV1SUxTSlNzcEY0bTlSbE9sTm1NdkZxbU5ZU2pBZWljWXhLVl9IN1E1bUtETA",
     "https://www.mmamania.com/?p=469320",
     "CBMicEFVX3lxTFA0TVRaSnFpSDlBZF9ROHVOajFSZkEyek1sc1JLa1lVV2JQN0E0LURMWUJJckU1NWpzZVJaV3ZDdVVUWU82aVg4alFVanVsRzdzNUZCSnRGREd0QlloYnd1dEZiZjczcUFrbm5GX2Nocy0",
@@ -6261,11 +6254,12 @@
     "CBMiwwFBVV95cUxPQ040T0NjbUh1emZPMUZTOEZaOU5RcGRvRDVOTkZ5ZWNtNHR0OHFwV2NSRUhIekZOUU0yYUQwZ00zV1hPZW5odmlhZmpfdFhOQ0lRX2tDZ0lqTDNCVjI4SFlSQlg2UWQ5VmVmb0NORTJFSFpoRGFWQUt0VFcxR0dMbVVSR0lScGUzRHljX0xvX0p2dl9vcnNFVjdTZUNEY2wzMEhLRW5EcUxPOGJGWG9vZHRXMjNjQmlQemR3RENXY3FNRDA",
     "CBMiswFBVV95cUxQZE1xNHp3eFU3Q19tR0ZpV1ZWdjcyUzBVWWVlV3JubWRGd2N4NDltNjM5UG4tLWVRSTNlNzg3eDZIdjBwd1Zzd0tkeWZCZWhrdWNKVEY5TnkxX1lZRWNFdVBOQUFEN29oYmFhVW5WZmpaVl9Ebnh1QWdpeFdqY1gyb1pXa2xFRExxODUxa1Z2WC1KWGRyeVdSX0hMenpGUVhqdWo4TnpvSzFOamhWWXM3VlNSOA",
     "CBMilwFBVV95cUxQOFpiZXRwT3h5TmRDcVZsa3JXVmhpdVNUWkRBdTlTNjR2Y1g1dS1vamNQd0JPZVBBSDh6UTZFUUpualhad2M1U2NkbmkyRWFoczFEdFVuRzBJZ09kMDd2Z0dBemh4cUFtcVRWMVlMcGFlSlJxWHh4X2JyWS1yV0I4eC05MVphWTlSSXI4bXV0aDBYTU9EY1Bn",
-    "CBMikwFBVV95cUxOV2s4RDVuQloxNnFGSkhEYUtxMENzYzY2aEEzMjkxMW9iS2h6ZHVYTnIwOU94Mk1QT1FxTjJRZU1GNjY0RnotRmJEejBIalE0ZDFIejdzTGw5OXEwOUJOVmpqUHVtQlNOTHFsSUIzYkExUjVyZU9LNHRZNEpEZDlucmR3RXFMNXoza1RsaHRZOUZCbWc"
+    "CBMikwFBVV95cUxOV2s4RDVuQloxNnFGSkhEYUtxMENzYzY2aEEzMjkxMW9iS2h6ZHVYTnIwOU94Mk1QT1FxTjJRZU1GNjY0RnotRmJEejBIalE0ZDFIejdzTGw5OXEwOUJOVmpqUHVtQlNOTHFsSUIzYkExUjVyZU9LNHRZNEpEZDlucmR3RXFMNXoza1RsaHRZOUZCbWc",
+    "https://bloodyelbow.com/?p=332231"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 118,
+    "ai": 119,
     "staged": 3,
     "prio": 3,
     "lost": 0
