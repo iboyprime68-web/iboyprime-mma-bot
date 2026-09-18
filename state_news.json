@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9912439e16011537": 1789704120.7958958,
     "01b8b64125f5bdfe": 1789704055.8433154,
     "1cb8630a759fc3bd": 1789704031.9980083,
     "9ffdc03310e96640": 1789704009.1394358,
@@ -2498,8 +2499,7 @@
     "f47a769b245e2817": 1788864966.1510258,
     "b01d9693f2b7cc98": 1788864899.8898773,
     "4187a962e583f944": 1788847228.7852767,
-    "2f877af39c119f3c": 1788847228.627191,
-    "223ed52c515adaf3": 1788847184.396981
+    "2f877af39c119f3c": 1788847228.627191
   },
   "initialized": true,
   "v": 4,
@@ -4681,16 +4681,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T01:43:37+00:00",
       "cluster": "cb8cb4d0f75"
+    },
+    {
+      "t": "Van and Pantoja set for long-awaited rematch at UFC 331 in Los Angeles",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-18T01:56:09+00:00",
+      "cluster": "caf3b4ce483"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T04",
-    3
+    4
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330022",
     "642844ec-55f4-33a1-a5eb-4aec0140eddd",
     "https://bloodyelbow.com/?p=330033",
     "https://bloodyelbow.com/?p=330025",
@@ -6189,11 +6194,12 @@
     "360e3807-c883-3e6d-9d7d-128b1c212d66",
     "https://bloodyelbow.com/?p=332100",
     "https://www.mmafighting.com/?p=510772",
-    "17b2fbf8-bd56-32ff-ab84-98a6e0b564ec"
+    "17b2fbf8-bd56-32ff-ab84-98a6e0b564ec",
+    "457baeaa-0f11-3c9c-b78c-d100069536f6"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 10,
+    "ai": 11,
     "staged": 0,
     "prio": 0,
     "lost": 0
