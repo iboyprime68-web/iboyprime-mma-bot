@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5957a34e264d829f": 1789753047.1386986,
     "08026c6ec557af6d": 1789753022.2748818,
     "bceb00064766552e": 1789752998.4955473,
     "d7f7af65228ec6e2": 1789752973.560726,
@@ -2498,8 +2499,7 @@
     "d185db8b2dd575db": 1788961570.2777631,
     "112e302d4cb1df2d": 1788961504.9796362,
     "346cc584d21943e5": 1788961504.728941,
-    "8883ccdb6344451f": 1788961439.7451391,
-    "36660119d7b57a0a": 1788961374.5323513
+    "8883ccdb6344451f": 1788961439.7451391
   },
   "initialized": true,
   "v": 4,
@@ -4609,16 +4609,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-18T15:59:00+00:00",
       "cluster": "c721a1bfb92"
+    },
+    {
+      "t": "Gable Steveson’s UFC 331 opponent outweighs him despite coming in ten pounds lighter than last fight",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-18T16:28:04+00:00",
+      "cluster": "cd81be88a6e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T17",
-    5
+    6
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330169",
     "https://www.mmafighting.com/?p=508448",
     "8ff4a9c3-993d-30e2-8f02-1a5cd3cea4d4",
     "https://www.mmafighting.com/?p=508370",
@@ -6117,11 +6122,12 @@
     "https://www.mmafighting.com/?p=510804",
     "https://bloodyelbow.com/?p=332215",
     "c1d58e01-4676-3cfd-849b-df42bf7cd13c",
-    "https://bloodyelbow.com/?p=332179"
+    "https://bloodyelbow.com/?p=332179",
+    "https://bloodyelbow.com/?p=332266"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 92,
+    "ai": 93,
     "staged": 2,
     "prio": 3,
     "lost": 0
