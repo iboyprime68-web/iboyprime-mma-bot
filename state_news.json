@@ -1,5 +1,7 @@
 {
   "seen": {
+    "53dd6629e6e77958": 1789721792.0273619,
+    "e548da80095fb137": 1789721791.7241204,
     "2aae2bfd746e0b26": 1789721727.5839088,
     "ee704f17ca9918fa": 1789721727.0739672,
     "feee1a5f3d15cbdf": 1789721727.0521495,
@@ -2497,9 +2499,7 @@
     "6343df4bd7844e3b": 1788893463.7757194,
     "ddf1e561e981ce6c": 1788893463.5829015,
     "a3955175d026e417": 1788893395.1800802,
-    "c564d00f42218cf9": 1788893350.6173346,
-    "52f867d7ef1359b7": 1788893326.99044,
-    "f72fb948cb1f8c19": 1788893262.0329664
+    "c564d00f42218cf9": 1788893350.6173346
   },
   "initialized": true,
   "v": 4,
@@ -4657,16 +4657,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T04:59:24+00:00",
       "cluster": "cfa3ea6a8f4"
+    },
+    {
+      "t": "UFC 333 countdown: One night, two title fights and a trilogy to be decided in Abu Dhabi",
+      "source": "thenationalnews.com",
+      "ts": "2026-09-18T08:15:09+00:00",
+      "cluster": "c5e3d43dbc9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T08",
-    3
+    4
   ],
   "yt_eval": [
-    "https://www.mmamania.com/469173/mm-clone",
     "CBMikgFBVV95cUxPcXFqNXotaFRhQk1vVThOSC1TVWd5c05LZWNoVTlndTRPOEpYLWRhdk5ZREp6Tm1leWlTNUhnczk4MWNQYll3Tng0bVFmOE9kaFJTaHVmeFJvM2VVSHZSOVhUTDMwY3JTOUZQMktCRWFaa3RWLWJXelpsSGFJb2ZzX3o0dG9UNTBwejhxRHBkUzdjZw",
     "CBMihgJBVV95cUxQeDdibkN0REVvMXRNMXBEM0NMWnBvOThZUU43Rm9JQ2lLenM4cHJzV1Y4TU1QamJxWk4yaFdUeFl6UVNVcHZzWkxOWWFZcXI4Nm53MmNmZHBsT0VCOFI0THlMdGJCZmpnc1hDZkE5QUIyLTUwU2M5eks5V2lKRlRVM3dQaXhMLV9WOG83d19LZWxuRU9VaDJpTElWY1VQOGltNnpSWldYSlRMbE81SmNiMU84eHRIRXFFVmdrZzBDQmwwaHVZUEJTRThlUFNpb1pSTDlVZ2tXQXVucDBnX2c2X1dlaFJadXpzbEhSNG92STlHNkZHU0t1elRTWVpUVWFvLUJ6RlRB",
     "CBMi1wFBVV95cUxNYzJiLUtJVzNWN1lCSHlWUlJ1XzYwWXVLNHNFdTRDZkdfQ0JhUDc3Rl93aXlHM2hWX1BjQmhQNjhETTFTM2dpZGdJbnhSNlAyR0hUdE1GYmk0UnlMejZWa09YQWZZNFFVMWhVaVVydkpvN2sxeVd2aGk1RDRRNU9lY3dITjNybjRPaFFVWk90ejdIUDFzd0k0VWIxdFBPYllmRXJrcG1qbk5BTGNSOURhZGY1MDY0WVp3UTQzZG1DS2ZhX3kyejhtMUJ1NTZvSjZ6cFdyQUk1Yw",
@@ -6165,11 +6170,12 @@
     "360e4695-8bbb-3722-9938-593282f724c7",
     "https://www.mmamania.com/?p=472887",
     "https://bloodyelbow.com/?p=332157",
-    "3ee59e73-dfcf-3176-a61f-a189578f5a31"
+    "3ee59e73-dfcf-3176-a61f-a189578f5a31",
+    "CBMi4wFBVV95cUxPOEx6dEs1YnpXYXhkbW8tR1NGNkI1Uno2UXk5VElGTFJvdGQ0SExrejdBNDZUTnFDQkhvclBXbFZSUExhd0VRYmMwMHVfZ25Qd2QtZnJOR0dsanl6X0ZGdk5fZjBKaU1SVG9vTVZzTmxvZTFuVHVibGVxd0ZXYmUxd3VWcTc4RnpicEdLOXFsQTlMM0lLTDNIdm1TWW01UzE1RHJ4ZTFqdnlJSm8zMHh0SjFGUDAwS250U0NfZldGVk1tRjFtNlU4dFZzTUx3aDFJUDE0cGluWW0zMWEzMkgyZERzZw"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 36,
+    "ai": 37,
     "staged": 1,
     "prio": 0,
     "lost": 0
