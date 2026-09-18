@@ -1,5 +1,6 @@
 {
   "seen": {
+    "40db9fd0306434f8": 1789703985.105049,
     "638153b615d04765": 1789703920.256983,
     "4d12b963e22b35cf": 1789703896.9291499,
     "d9f3281a3238caa5": 1789703873.5161839,
@@ -2498,18 +2499,11 @@
     "223ed52c515adaf3": 1788847184.396981,
     "56fc6608e12afdf0": 1788847184.1618347,
     "f0a2f63d862c0976": 1788847160.4538443,
-    "d440f878a24a0ab8": 1788847095.2876482,
-    "3c63c77babf6e383": 1788847029.4465895
+    "d440f878a24a0ab8": 1788847095.2876482
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Midnight Mania: ‘Greatest Talent That’s Ever Been On The Show’",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-16T03:59:00+00:00",
-      "cluster": "ccad3eb1314"
-    },
     {
       "t": "Fans React to Jon Jones-Islam Makhachev GOAT Debate",
       "source": "MMA Sucka",
@@ -4663,16 +4657,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T01:20:25+00:00",
       "cluster": "ca6fa57181a"
+    },
+    {
+      "t": "UFC 331 full press conference faceoffs: Some calm, some heated",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-18T01:25:37+00:00",
+      "cluster": "cd75a767689"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T03",
-    4
+    5
   ],
   "yt_eval": [
-    "d1b24d6d-f5d8-3d5c-86cf-a58253af4b5b",
     "CBMivgFBVV95cUxQU29WaWVuMmZoVXBLcU5pWlJtTndHTDE0UmZGZzRTamxRaW9HNGJNd0ZhLTFOQXlmZ3A1OXZib2hBUk5kSlhUNmlxbGVQa1d4emFzcXRwSnFZLW9wMFFjLTJhc3daRnBxeG5EM2JFX2ZCMzh1Q1lTclJNdHBsMUs2VEg0dnNjWkJKTEpmT2tMdU03bHFaRE44RE1neFdDbTFyeFhnRGtqM3hyMVhycC0tZWNGME5odmFTWjUxcFRB",
     "CBMirwFBVV95cUxPcXBEaUt1STBBMGlzZ1VZVGk0cUtOYzJNVlc5d01pa3d6Tjdaejhjb1ZxTld5RGtJS3lRN3l0bl81eTJjbVNhTnhNWHJBQ3NPbVl6NDhuSWhjelVVNHA4dVlDUW1DcDdneVF4WEpHUldIbG53Zks0X3o3Sm1SVlBRc3dEckNDdDc2bFhBX3VFbFhEczN2b0hFV1BndkFfLXJSTUgtQlg1Ry1zQkJzeENR",
     "CBMiogFBVV95cUxNTHJSV2ZDSVltekducGJlYlNQUnVFMEtscDRVd0FIZndJOWNBR0h5a3lMX2RrZXR4ZVZsbU13RFllZFl1ZHJUTWp0a1IySlFzNEpuaGttTHNldTZFb2RtZWNkQ2VrdnNMN2lNdHl3MnFxaDRVaU81ZU95eGxWTUhvVTdvVDFHTGFUeHdkaWoxeC13Rzc1ZVdiUU91Wm93dVgxbFE",
@@ -6171,11 +6170,12 @@
     "https://www.mmafighting.com/?p=510763",
     "https://bloodyelbow.com/?p=332111",
     "https://bloodyelbow.com/?p=332114",
-    "e0f9972d-4174-3242-9be4-a701bb727975"
+    "e0f9972d-4174-3242-9be4-a701bb727975",
+    "360e3807-c883-3e6d-9d7d-128b1c212d66"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 6,
+    "ai": 7,
     "staged": 0,
     "prio": 0,
     "lost": 0
