@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0001c62192748e93": 1789705097.2523334,
     "0e5dbd919f0d1f78": 1789705032.703366,
     "23de507b93ec320f": 1789704968.1745272,
     "a6687f8a1132d64e": 1789704903.3766482,
@@ -2498,8 +2499,7 @@
     "034e96569585bb38": 1788892435.3068337,
     "e8207efec26eecf7": 1788892411.7741485,
     "14e5ede0f55c735e": 1788892386.7882812,
-    "9b79af9e2b1e82b5": 1788892363.4335299,
-    "ea977af3140f8274": 1788892340.176234
+    "9b79af9e2b1e82b5": 1788892363.4335299
   },
   "initialized": true,
   "v": 4,
@@ -4735,16 +4735,21 @@
       "source": "NY Fights",
       "ts": "2026-09-18T03:41:08+00:00",
       "cluster": "c26d5bb4436"
+    },
+    {
+      "t": "Joshua Van vs. Alexandre Pantoja 2 breakdown & prediction UFC 331",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-18T03:58:00+00:00",
+      "cluster": "c2d32c4d616"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T04",
-    20
+    21
   ],
   "yt_eval": [
-    "CBMiqAFBVV95cUxOblRUU1J4Vk9ORW10cl9xRWdJUnMyZWVaT3FrYjg0Q1JNTFZoZ2lnYkRPeEt1SlY0TmRFZ3FSRWJONVhmaWdVYzAzbUpiUUd1VXdEY2J2S0l5UWZaRTlDZjRDMEtGMW1zWkgtZDl3eDhDelZUSnc1VzNOaEVDZ2FuYlJabnd2U3pIcWxWc09qMDBrUmtOT0JReWQzLXNMekptZTdDbkFmdjDSAa4BQVVfeXFMTWhhZ1NUZG5YWkVLUm9wZGV6ZW1lb3ZPRENXa1NSVnJKVHdiTUdxbjdnOGdoT1BRQWNhbmdRbUtpb1NwWC1NQVZvU1JzTFZHakFGM1lrd2ZxZHVGYl8zYlRuZFhBYXp5WlllZmdqc1lkSzRpTjB5VTVkeEhGcGdwUzd5UU9GN0g3TGFaSktIZjdqdlVJa1VqUnBiM3IwVjNqMU5FYmhDNU1Fd1huS1dB",
     "https://www.sherdog.com/news/news/Marlon-Vera-made-difficult-change-to-avoid-one-regret-at-end-of-UFC-career-202634",
     "https://www.sherdog.com/news/news/Anthony-Smith-set-to-return-Oct-2-amid-four-felony-charges-202632",
     "https://www.sherdog.com/news/news/Tom-Aspinalls-UFC-return-hits-medical-roadblock-due-to-eye-injury-202633",
@@ -6243,11 +6248,12 @@
     "CBMiowFBVV95cUxQTmsxLTNmbWxRUGZFWWo0SlFwVmI3bmp1UURtMXNGeHgzQXdZYktXRE1BSlpkNl9nTjBjanl5RWp0dzFZMDJBbWxaYW52WjhrNnEyQTF2Q0R5bWM0bnQyc0d2U0hRSWR6bndBM1ROYTdtRXFBMXhXeC1vbV85aWlUMHQ4ZW9SM1FaWm54aDBHYTFiSm9kZFFGektLQmlQVFVkZl8w",
     "CBMirwFBVV95cUxPWF9PaFN6MElXVWZKbW16T3p6Nm5Bc2V2VlkyTkR1c01OZEpqdHA5Vm9kTTRRZ2lONWF5MEtHc3pzV0RKNWVZdGZpQnFEeHpzWXVUSWlWSFcwWDY4UUUzQ1ctODZRdG41aUFuWVc2dFlReF83V25ZQXhFSkZDT3ZCQ1Nraml1UmRwQ0FTeTVjampHM3FPcmVYWUN5M05vekJ1MVVTOHpDTERyVlVkZktj",
     "CBMiYEFVX3lxTE5TMWs3dTV4WklPVW9seTdreEx1ZXJKTkJEZldIeUZWNTFpOEoybldlQTVpMUUwanJwZWExeVVEN1NPemI4UjcxRlk1anBENGlqalgtNXBia2RPYkkzY3ZvMw",
-    "CBMid0FVX3lxTE9LUFM5ZEFJY2ptZXdLcllsbG1NTDNGbkhrZ1AySFRUVGtnMWlnTmdFTTg4OVZSN3dBMkVyZGh4QW9SQ3hpSWVKM0t3VVZLWGI3b295LWthMVI2QVJxRlhLdHMxSnpMWk5UZ3JXTGFyUGpFMFVZbDNR"
+    "CBMid0FVX3lxTE9LUFM5ZEFJY2ptZXdLcllsbG1NTDNGbkhrZ1AySFRUVGtnMWlnTmdFTTg4OVZSN3dBMkVyZGh4QW9SQ3hpSWVKM0t3VVZLWGI3b295LWthMVI2QVJxRlhLdHMxSnpMWk5UZ3JXTGFyUGpFMFVZbDNR",
+    "CBMihAFBVV95cUxNR0VsU2paZ0gyOFpMN1VjaW1mak8wXzB6dG5aS19VS2VpSHh1aHNYa1NRZzVLMTRyVjJxRXcyczlBREN6dnVWX2FuZjZEcTNEc2RHbnBQZUYweTVLeHpaTW1nV3JpbmJGTHY5TThPQXFkelIyaWFhWExsZnB1N1FCcWV5MDM"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 27,
+    "ai": 28,
     "staged": 1,
     "prio": 0,
     "lost": 0
