@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4d12b963e22b35cf": 1789703896.9291499,
     "d9f3281a3238caa5": 1789703873.5161839,
     "b5ad41561a6abdb6": 1789703850.2707734,
     "5e1d1f2cd899edc8": 1789703849.5663836,
@@ -2498,8 +2499,7 @@
     "f0a2f63d862c0976": 1788847160.4538443,
     "d440f878a24a0ab8": 1788847095.2876482,
     "3c63c77babf6e383": 1788847029.4465895,
-    "a308bd324c8c8ced": 1788846965.0172281,
-    "289f4f322fe527af": 1788846897.7813408
+    "a308bd324c8c8ced": 1788846965.0172281
   },
   "initialized": true,
   "v": 4,
@@ -4651,16 +4651,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-18T02:00:00+00:00",
       "cluster": "c91d45d8621"
+    },
+    {
+      "t": "‘I just want to win’: Tai Tuivasa feeling pressure ahead of potentially record-equalling loss at UFC 331",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-18T03:00:00+00:00",
+      "cluster": "cca11fc9ae3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T03",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMirgFBVV95cUxOVGJXLVBmYkg0NHRXeWMwMEhlTDZfSUJ4LXMwZlZYLXZqYkFuYUczM3FpWllXWS15SE5FZ1ZUeU9VQjYyeXZyU19mU1hHRVRpSHBCT3RUc1R2U0NRVXVpZUhMU0plYUpHeGpWaG42QnRNU3pvMVI2VktKWXlFakM4UHVWS1VhcWJmSDh0aENZX3F4cUdodmN4NW5Gdk94dDNMaGVSS3RkalF5VVNhTXc",
     "CBMilwFBVV95cUxQdzBRbEFsTTM2ekwzVlotcklJS1FGUVl2RDh2Q0tTeUp5QXBHaVNpR3NxeTdTa3VTUTRwUHJETmlRY3FqVnhoNGp3WXdINXQ0YXZfcnhxS1ctRE1kajdlNUo3UDZaOUdIb2pSSm5xYlFwNUF6OEtHMVRKWWtwVWpVUUFQalJaT0RyN0VEdVQyTGszTXZadUZr",
     "d1b24d6d-f5d8-3d5c-86cf-a58253af4b5b",
     "CBMivgFBVV95cUxQU29WaWVuMmZoVXBLcU5pWlJtTndHTDE0UmZGZzRTamxRaW9HNGJNd0ZhLTFOQXlmZ3A1OXZib2hBUk5kSlhUNmlxbGVQa1d4emFzcXRwSnFZLW9wMFFjLTJhc3daRnBxeG5EM2JFX2ZCMzh1Q1lTclJNdHBsMUs2VEg0dnNjWkJKTEpmT2tMdU03bHFaRE44RE1neFdDbTFyeFhnRGtqM3hyMVhycC0tZWNGME5odmFTWjUxcFRB",
@@ -6159,11 +6164,12 @@
     "https://bloodyelbow.com/?p=332079",
     "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828",
     "https://www.mmafighting.com/?p=510763",
-    "https://bloodyelbow.com/?p=332111"
+    "https://bloodyelbow.com/?p=332111",
+    "https://bloodyelbow.com/?p=332114"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 4,
+    "ai": 5,
     "staged": 0,
     "prio": 0,
     "lost": 0
