@@ -1,5 +1,6 @@
 {
   "seen": {
+    "151942d37c533dda": 1789722247.9974527,
     "91e05f1040ec8857": 1789722182.8134327,
     "3eb76844599839a5": 1789722182.577404,
     "481d9ea8f4692fa8": 1789722118.644023,
@@ -2498,8 +2499,7 @@
     "ff125e695490a152": 1788893793.3273647,
     "084ad724e15b186d": 1788893792.3458948,
     "03a800b58062a9c9": 1788893792.3439507,
-    "a24cea8183dff1ba": 1788893792.341929,
-    "391f4ceb7b1bafe6": 1788893792.3409252
+    "a24cea8183dff1ba": 1788893792.341929
   },
   "initialized": true,
   "v": 4,
@@ -4705,16 +4705,21 @@
       "source": "La Sueur",
       "ts": "2026-09-18T08:53:28+00:00",
       "cluster": "cdb7f5a0e12"
+    },
+    {
+      "t": "William Tackett Flames Fans For Not Wanting To Pay To Watch UFC BJJ",
+      "source": "BJJDOC",
+      "ts": "2026-09-18T08:54:05+00:00",
+      "cluster": "c36758b1248"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T09",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMivAFBVV95cUxOQ1BRbDZoNmhFZDIzSWItVEx2UWE3bEl6T1JEbkxVMFhIU3JKakRKY0lkcXplY0QtX05vMlBWT0lJaFY4VHByNENuSlFPQ0g0T0IzaE5ManJkb3FZNDViWUhvTE11eWF3Y2Z0Nmh2cUEtMWFpTmo2M2ttVHd1RFRWWHdyeWpzeV9QdnNYNTQzN0ppYUU5OGhvajVLQ0VZNHJzZEhFUGFBQ0V2ZV9pdVFEMlgycTFJRlFiZXhnWg",
     "https://bloodyelbow.com/?p=330142",
     "https://www.mmamania.com/?p=469268",
     "https://bloodyelbow.com/?p=330149",
@@ -6213,11 +6218,12 @@
     "https://bloodyelbow.com/?p=332165",
     "CBMihgFBVV95cUxOeElnSWh6WHRDVC02aE1ER2V0RzhDYXRlVnlQZ3RqM3JFVEYzT21Qc05IZk9LOGR0cWhwOHpzdkRhc1VuVGl4VmJkakxRa19IOVZRNFNkLVo2ZDRnRkFNY2w0TXVBSU9DOWd0M055T1dPcFdxV3gtQWFzNllYN2ZFWVIyYk13dw",
     "CBMiZEFVX3lxTFBJNG0yWERSR05CVzEzdmR6OGtkajNNamhSQjg5RGsxbWRSSHBuRkJFWEFiUVNzS084cExMR0R2eEN2YVBVVWEwMTVEMmtWXzc4SzhBV0V6aUxsYjhxMkJLSG5KSmw",
-    "CBMikAFBVV95cUxNcDA0eEhjNGFVU016Vi0zdl8xQUhQa3BWcWlwYldfZG5SczdrcTVLNldqMW1LY2s5SklwNVkxMi1wWEU3YnVLdHNfRXI3UThnMGYzaUpVT2IwMjBHNVd4N0dlaVhXd0hROHNVOTFUbmRPNUdyZ0ZrMTR2X3RFbjk1S2VaeHVLODE1UUV0RlRDSlY"
+    "CBMikAFBVV95cUxNcDA0eEhjNGFVU016Vi0zdl8xQUhQa3BWcWlwYldfZG5SczdrcTVLNldqMW1LY2s5SklwNVkxMi1wWEU3YnVLdHNfRXI3UThnMGYzaUpVT2IwMjBHNVd4N0dlaVhXd0hROHNVOTFUbmRPNUdyZ0ZrMTR2X3RFbjk1S2VaeHVLODE1UUV0RlRDSlY",
+    "CBMinwFBVV95cUxPdmxBdU5QZ3J0ZVd5dUlnX0RHMmN5eGY0bDdzLXNiRlp5SkpBRGJJNklFNm44WHp5YjU5VnBDYmFaXzM3X1FpNWllYmlEYUhpaGttSFJuWmpBc3NYNzNNa1lUTExVMWU3bjhWcVk3bXNVMktlYS1ubjlFcTBkY282Nk5OdWpPNFNSbGpjVG9XOWZZS1ZPVWd6djhNckh2Yjg"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 44,
+    "ai": 45,
     "staged": 1,
     "prio": 0,
     "lost": 0
