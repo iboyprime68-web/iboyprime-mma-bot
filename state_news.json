@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d7f7af65228ec6e2": 1789752973.560726,
     "2e2c32d35dc3ac59": 1789752949.9494402,
     "f942eec549da03e6": 1789752949.6816978,
     "16f8dc92ee1cc28c": 1789752926.7139041,
@@ -2498,8 +2499,7 @@
     "8883ccdb6344451f": 1788961439.7451391,
     "36660119d7b57a0a": 1788961374.5323513,
     "32b05d4a7b90d804": 1788961309.9177876,
-    "1ff7dd418c6cf3fb": 1788961244.6814656,
-    "6b5197abc6bf532e": 1788961199.6884637
+    "1ff7dd418c6cf3fb": 1788961244.6814656
   },
   "initialized": true,
   "v": 4,
@@ -4591,16 +4591,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-18T14:50:24+00:00",
       "cluster": "c1545907ef0"
+    },
+    {
+      "t": "Tom Aspinall backed for UFC comeback by Jon Jones’ protege Gable Steveson after vacating belt",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-18T15:00:00+00:00",
+      "cluster": "c5f586bfe2a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T17",
-    2
+    3
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330165",
     "https://www.mmafighting.com/507343/dnp-morning-report-template-dnp",
     "10fc9f75-c954-3a89-b3f4-1a51e2452593",
     "https://bloodyelbow.com/?p=330169",
@@ -6099,11 +6104,12 @@
     "CBMiyAFBVV95cUxQdlpOTFRBcmdvakhyOVpuSlRWMVZzbW4wY2VPV3J5bGs0SnpsSnAwQmQ5bzZrVk40anNyX3BzVVpCWngweE1vM09RakctYWtxTkdReVMxcVFzYUFiaTVDMXVvVW9VSnkwVnFsWHAySUNwY3BSRUNkVThNRm5NSTlFUWxaNm9nazZHUUJsT2FaVjYySVAzVDBtSktsLVhfdmxnZ3BIV0NjMGk5bEFHTXVyTDRhb1pvbmVXWnRsd3lJNEd1M1Fyb2RUUg",
     "CBMieEFVX3lxTE1tVTBGcVlfVTdPbXNhNEhLMnIwbEp4RFFScDZRQXpEb1FfZ3FySXpxV1J0RWNKZGViWk5aX1FfeXY3cG1vQ0pOc21EZF9ub1o2d2tKXzE2WFMxSVRnNUZFck40VVlYVzJXdmdZZjlScllMN0JhUHpzOA",
     "c1cd4e7f-6c59-363e-8df6-390953994c35",
-    "https://www.mmafighting.com/?p=510804"
+    "https://www.mmafighting.com/?p=510804",
+    "https://bloodyelbow.com/?p=332215"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 89,
+    "ai": 90,
     "staged": 2,
     "prio": 3,
     "lost": 0
