@@ -1,5 +1,7 @@
 {
   "seen": {
+    "a2dc579d1c9c7d37": 1789753214.5468702,
+    "335545620b018a8d": 1789753213.6339843,
     "2bb86c9c010e464e": 1789753168.6924736,
     "62faf91cab709bf9": 1789753144.3749073,
     "e5127ee9fd27b1d9": 1789753144.0141492,
@@ -2497,9 +2499,7 @@
     "4dcdeb7083afb728": 1788961834.6237028,
     "2c2c8ea24a97a066": 1788961834.128233,
     "b4248b7cc10edd68": 1788961834.1255956,
-    "90821731e7b5443c": 1788961809.406659,
-    "34a27baeb8284fdb": 1788961809.163263,
-    "9902dffd9da435fa": 1788961765.3243341
+    "90821731e7b5443c": 1788961809.406659
   },
   "initialized": true,
   "v": 4,
@@ -4645,16 +4645,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-18T17:36:01+00:00",
       "cluster": "c74c06514b5"
+    },
+    {
+      "t": "UFC 331 official weigh-in results: All 24 fighters hit their marks",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-18T15:00:28+00:00",
+      "cluster": "cc74913a67a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T17",
-    11
+    12
   ],
   "yt_eval": [
-    "CBMinwFBVV95cUxOeUtoZlJ6czd4ODlFS1BURXV5enEyTi1wRmRkel9uSnZiOThuS0JKUWVOQjFnaXR3eUlzaGNZSllncmMtN1BiWEpCSlEzb2d5UC10aF9UbFRkdDdiSVJhVEMzUGEwSmZlT3FnN2djRGVRV2JlTUhqY3Jkbm5rQUY0X3RFamdiUC1aRTJHVktsWXk1Nmhvb0RTQUNMcWczR0U",
     "https://www.sherdog.com/news/news/Jorge-Masvidal-credits-Kimbo-Slice-for-helping-launch-his-fighting-career-202661",
     "CBMidkFVX3lxTE5VSTVFa2JBaHFBZ3VEd19sTFVxZ3ZtcDRZOUdnWktCX3FMalVPX3p1cUFYRnpiZnF2N1BYZjlBRlJXSV9oLXpuX0JxOEFKZzBUcWVpNzJQQ0J0WTRNY0xRQjM4dUFGU1NEOHNEcEwzaEE5WHVvOWc",
     "CBMizAFBVV95cUxQZlh3UzFOQkk2VFp6aXkteC02aUJoQ296SjFhak5kZmc1ZVVfNFBMQ3M4LTg0V2wwNDNJa2ptNVBfWWR6a3ZHUXg3TmRvcGs2ZzgwVEJxVDJiUTd5M3AxYkRSMmtrY3Z6Nm9QaVJISnM1QVNjTHdaV2xsTzllbXlid1hHQkJTU0s1dnhxWXc4cXIyd3dxaWtObWpUY0FTTGdGS19Mci03M0VJWngySFMtTEUyYVZfMEE4ajJoR05LTzFsbDZESlZyei1HNWE",
@@ -6153,11 +6158,12 @@
     "https://bloodyelbow.com/?p=332268",
     "https://bloodyelbow.com/?p=332208",
     "2048ee84-539e-3efd-8ebe-6cd3cab913f2",
-    "https://www.mmafighting.com/?p=510855"
+    "https://www.mmafighting.com/?p=510855",
+    "ad4ccec5-fe22-3b0c-8f61-09cf073f7c0e"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 98,
+    "ai": 99,
     "staged": 2,
     "prio": 3,
     "lost": 0
