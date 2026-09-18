@@ -1,5 +1,8 @@
 {
   "seen": {
+    "860b6aa9c27b6dd5": 1789764300.8721073,
+    "6a7886dbd24aabc7": 1789764300.396374,
+    "54c51a8ea7b71fe2": 1789764300.3945973,
     "53b4be699a5e63cd": 1789764277.0345113,
     "a273122f9fd445e7": 1789764233.3241682,
     "c6a9fbc8b8ab72ca": 1789764167.9239507,
@@ -2496,10 +2499,7 @@
     "010d2972bd87766d": 1788995647.1023803,
     "2f23d3fe1cb2ddae": 1788995582.5461328,
     "9c0c3fa4c7a0e29b": 1788995517.9008489,
-    "bcce3bff52a81201": 1788995517.5413043,
-    "4a7f3930ddf0a9af": 1788995453.4566689,
-    "b7309a024bfe1e65": 1788995388.8067734,
-    "6b66858b61d296de": 1788995344.806136
+    "bcce3bff52a81201": 1788995517.5413043
   },
   "initialized": true,
   "v": 4,
@@ -4693,16 +4693,21 @@
       "source": "Sherdog",
       "ts": "2026-09-18T19:04:12+00:00",
       "cluster": "cb0e35ba0a7"
+    },
+    {
+      "t": "Poor sportsmanship, past sexual assault allegations drive UFC 331 storylines",
+      "source": "Las Vegas Review-Journal",
+      "ts": "2026-09-18T19:55:00+00:00",
+      "cluster": "c1f882b8a94"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T20",
-    9
+    10
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxPeGkwcjlzODNRTjZ0ZmlzYTBzVXZ5OV9RTnY3dmFnWEk4Um1OM25wTUdYREpiVlRZeEVncjNuNnBxd1FMbW02N0FLZHJYY1ZudEN3VktIR2JIdGFpNktCX1pDaXlEN2JsVnlWUjJPWFVTNHl4MUF4ekhSSXdKM0ZGR1U5MlRFMF9rRS05UnpIRlhTOFRtTGt0V2VMcHRWNHNM",
     "CBMie0FVX3lxTFAwVmdwRHZHcEtScUw4OFhJVXFvc09kS2swS2RaYkFHbjJYSUhQLVVmb0l3akRFQVE3NFpuRTBWaFBrV25xNHpQMGpCZFBneDZrM2xMYjh1eEhQRWpMQ3lyQVN4WUNEREFYZU5XRnpXd3BmM0hjZkQxVHJycw",
     "https://www.mmamania.com/?p=469349",
     "CBMiqwFBVV95cUxPbjVTV1hYckFYaVBLbFByLWdDNjBKTzc5R2dkZGlOejJhOTJmd2dHcVBvcWU5bEVKcXdrNlFqZ2hXYmtiRkVqSlJaalFsUlZrQktaWmcwclBFMmg3d29xZHRER1ExTXRmSHdnNFJJNk9tYkJDRWRuUXNDLXhVaWl5Ml82VVQyZXJYa2JUUER4SlJPTnhzeVdNX0U4bGtONzh1TmxaVjQzY19ZTWs",
@@ -6201,7 +6206,8 @@
     "a89a9acf-9dcd-3b59-9c1a-247441dfd7e8",
     "85795747-65a0-31a2-a486-64e1ac847fc3",
     "d1f5c107-1b79-3ac0-89eb-4fb08a9469f7",
-    "https://www.sherdog.com/news/news/Jean-Silvas-coach-reveals-the-tiny-adjustment-behind-his-legendary-choke-202856"
+    "https://www.sherdog.com/news/news/Jean-Silvas-coach-reveals-the-tiny-adjustment-behind-his-legendary-choke-202856",
+    "CBMipANBVV95cUxQblZNTzdsenRTM3lxMUk5VnkzVTJCZFo3emNPMUIzTEdQcnZtYUNIVWNtdDVieWlFOTkxTjRORzQ3NVF4UEliVHY0QTB3QzlVNnlTSjZnT3JHaWlaRlRINnhoTzBDTzRXMEVsVV9qVGNjSkdzcW1nbExyRWF2Q1BpajUtVVdYV1pOR2VGR1N3Ry1rM2d5bFNPbVlxR2phX3pMU1V3QUZZS3V4X04wT29zVlVZS0JBQjBIY2tidGw0UGR2VXVoeW8tMktaT1dUeDdVU0hubl9UWWY3UDhBNDhTN1VjT0ZCWk84cXlzaDNOVDhDb1B0ZFVXSHNpWjhLWDhpWFVScW5oRk5tXzhFR2ZGakF2M2tPWnZySnNGc0dLWVBFNlIxM3E5dzcwd0Q1YUlrZHBSUjJtdVNMMk9DUWwxanNtcHZDN1Z3UWNRcGdEcXdjeVVmQkFjZzRMajF0cjAwdDFTNjkwTE1LeTNuRHE4enQ0djZqTnM3RGpQcjZZQnRPd3lLbTU0OUJhd2pHeWF6TTdCMGV0dUhZYnVQZ3RxUGNWSFU"
   ],
   "daily": {
     "d": "2026-09-18",
