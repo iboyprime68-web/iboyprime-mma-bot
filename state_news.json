@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c3ecb892fdf3bb56": 1789739160.6618228,
     "16b4f82976546cc9": 1789739095.6206079,
     "626dc4e98401dcf7": 1789739031.0467904,
     "30a9c2c0368039f6": 1789738965.8651428,
@@ -2498,8 +2499,7 @@
     "1d5734a1788e2e23": 1788911851.864107,
     "0dc4017ee9287d00": 1788911808.4784403,
     "5cf17d64600e7fe5": 1788911785.6486151,
-    "4c290c36be871b56": 1788904842.6400914,
-    "a06890e3cf75cb76": 1788904776.916148
+    "4c290c36be871b56": 1788904842.6400914
   },
   "initialized": true,
   "v": 4,
@@ -4699,16 +4699,21 @@
       "source": "Ringside News",
       "ts": "2026-09-18T12:57:07+00:00",
       "cluster": "c544124e59f"
+    },
+    {
+      "t": "Aaron Pico gets new opponent in Abu Dhabi for featherweight bout after Arnold Allen withdraws from UFC 33",
+      "source": "The Times of India",
+      "ts": "2026-09-18T12:58:00+00:00",
+      "cluster": "c58a3350eb7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T13",
-    20
+    21
   ],
   "yt_eval": [
-    "9875eebc-feb4-3db0-9412-ebfa9f8276e0",
     "f114a0fe-947a-31b4-b274-3445ca2b7076",
     "a7a8b268-7d72-3b64-b0c2-216a622f2e8e",
     "https://www.mmamania.com/469279/mm-clone",
@@ -6207,27 +6212,17 @@
     "CBMiigFBVV95cUxQVTdlMWRtMWdQOEVOMHEzMFlMeDNsMHZ3anFJWWt6b1E4dWZfVUZBa0NfQmMycHFtQ0NtQzRxVXlOQk80akZiWXQ1M1NEcDk2ckRKalY4SklFT1FVX3ZHVlpUd3o1MV9qNlRPUFZKNGtTUHRla1ZDSFd0ckowSXpDaHhwekIzUm9keFE",
     "CBMiwwFBVV95cUxOM0libVRBRXBfSzN1V0c2YlNSSGRHOGdiTTdGeG16ZjcwVkJJOXg5dU5BaVgwRDJYejd2VFpRRlhZdktsdUlMRDJTWGJKaGIwQTBxbWk3MjBocTZUSFh4S19vNjliOWhsOHlDbkJ2YjhmdmNIS2Z1QUhqQVZQSkotbXAwWEQ0S0dHZmhSZUJ3WlZJMVRmYklxNjBkTDVCRzNURlVHUUQ5ajB4QXRYOG9lQXNwU1pQcGhzNUJGMTFtTHc0WGvSAcgBQVVfeXFMTXZJVXk2NURhVGRGZ21vazhTOHYwYmVGMkM2MFJXZjVVdVk3bE95dkNFdmFmREV3NUpKYjZsbkNMeUszWUhScnFpLXVRYTNBLWdKTUs2THRVSTdBd29iNHVtcXVpVk1hdDJFMlJrbUswcnR2X0luN1p2UmF2ZEVJNDNxdXR6NjZxMEhkcm5ValEyRG82b2E2VGV1ZTY3TFVNeWQ3Y29yTkdXVG94cGVNeFpORklDTlBtY2s1eFItODZteDRlenZJbG0",
     "CBMiqAFBVV95cUxPVmtMMnFPdEZDM08zV24xcjNEeDRHV05KVXhwUVM2LWJCNlhKWk5fM0ludEVUQ3JNZllNdVVLSmZZbnN2Tml2TktqWEE2SXh4NnBKUjJnQXk4YlFGdURzTGZ5ZDNkVEVtTVJ3bEl4cmIxMlFqb0thRXRtOGtXY2R1ZzBlVXRBWlVCS0p1Y25PY3MzZkFwTU1oSlhORzVray15OUJHb0FLeG4",
-    "CBMitgFBVV95cUxNLXpUZy1aZW9WM25CS09RVmxNUlZYNEpzQl9IU1Zwa1NSbXBUY01TMHJwaTM1RDRGQzhNRDVOTmJOdExVRjl1bnI2UnNXd0RMWmhwUVNnSzgzTlRXN05QQWlxZ2Q0N2dfZzFKRVVKY2pvdEVuaEVaT2RyTTRtWmVwRlByblB5ZFM2elRJVmRWeC01cktka2JQLW1qUjRweldKeTJfMzNHY2d4MGh5T0FKSnlGUU93dw"
+    "CBMitgFBVV95cUxNLXpUZy1aZW9WM25CS09RVmxNUlZYNEpzQl9IU1Zwa1NSbXBUY01TMHJwaTM1RDRGQzhNRDVOTmJOdExVRjl1bnI2UnNXd0RMWmhwUVNnSzgzTlRXN05QQWlxZ2Q0N2dfZzFKRVVKY2pvdEVuaEVaT2RyTTRtWmVwRlByblB5ZFM2elRJVmRWeC01cktka2JQLW1qUjRweldKeTJfMzNHY2d4MGh5T0FKSnlGUU93dw",
+    "CBMivAJBVV95cUxPMGxBeVBscTdaSWgza2FMUzduWFpJaXRVLS1sT3FuM3dkTXZYd2h0Ykg4VXN2R0NNRmtsTjN0Q0dQWUU1ZXpCUWwwUGxlMmwxSldhUVdhT1F0SUVCOE5MZFl6c1NMWlVNZWg3d3ZWVDJNckFQS19IUTh1OUlBLUU4UFM2NHMwb2FmOExMNXNkVEFuWC1LdlVTalI0RV9tQ2pCMXNtdlV1Sk1DQl9Lb00yVmZpYUFJdE1rYmo0RTlRUDRqNkZ5alhaTFZZN1BUMER5NE1Vdm4yVjhFRllfc1FVSE1GZlpMd3hIa1lNZm4zbUtzWG1QSEJ2aFE5dzlWaG4xbUZfcGlmT1lDeXV2OEY5MEpremo3amlYZzVVeE80ZkVIS2syOXBuZUNZLW55NnMxWHNtSDZVdlA3WmZl0gHCAkFVX3lxTFBIbWEtcW5xSEw2Ukw5NEwyWmE4VVZrZUxCTU9DOVJJLWZnQm52Z0doWXF5MmtPc1VOdWRscHpuRnZKQlJCQjFtQ3ZvQ3ZkNzVtRlZ1ZExRYm5qZU1GOVB6RGVTdlVYT1FmWFhHYWFOdVpfeDE1OTN3clRYaV9RX1RZdzdwRFlySldTWHRfRkVaLUxoeUdfRE84aU9nTnVRNDlub09CaElUMU0zR3RzNUg3MFlLVE8zbXZrRktCeGFPSmhCRDFJdjVybW1sQWJENS11Z0gycnVQVzl0Mm1IT1FQaUxhVzBITEhYMmdtblBDb3hrSW5kTWwxTVRheW5RRzhqSVB6VklSX2xDeERteU9VT1RoMDRkYmhNSUh0SE1TLVNwSTVvX2R4OUVSUXJhblF0NkpyOU1Pb2c5QW5JWGlPMEE"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 70,
+    "ai": 71,
     "staged": 2,
-    "prio": 1,
+    "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-07T03:58:15.302825+00:00",
-      "t": "Costa Says UFC Rejected Interim Title Bid For 332",
-      "names": [
-        "says",
-        "interim",
-        "for",
-        "costa"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-07T09:11:49.177033+00:00",
       "t": "Merab Dvalishvili vs. Petr Yan 3 Set for UFC 333: Former champ says a full camp could change everything",
@@ -7030,6 +7025,16 @@
       "t": "Khamzat Chimaev reveals details about injuries requiring time off, plans to challenge for UFC middleweight title again",
       "names": [
         "chimaev"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-18T13:46:01.645520+00:00",
+      "t": "Aaron Pico gets new opponent in Abu Dhabi for featherweight bout after Arnold Allen withdraws from UFC 33",
+      "names": [
+        "pico",
+        "dhabi",
+        "allen"
       ],
       "img": "photo"
     }
