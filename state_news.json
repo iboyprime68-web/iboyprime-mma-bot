@@ -1,5 +1,7 @@
 {
   "seen": {
+    "b1d0a11b4c8c9cdc": 1789738434.4355133,
+    "e53d09f6105b9b5e": 1789738434.10611,
     "f3838995e9162c3c": 1789738386.2279322,
     "11ef1eed30a69561": 1789738362.6549287,
     "3f3d4505098b744d": 1789738362.3719406,
@@ -2497,9 +2499,7 @@
     "e0e5bf8180440848": 1788904316.638354,
     "803c42ef963dc848": 1788904316.2737827,
     "fd259806c49e553c": 1788904316.273188,
-    "244caaf6805219db": 1788904251.1343899,
-    "7dff3aed6f3e6e38": 1788904186.6926882,
-    "3559b8837de9fb9d": 1788904186.3525298
+    "244caaf6805219db": 1788904251.1343899
   },
   "initialized": true,
   "v": 4,
@@ -4639,16 +4639,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-18T13:17:06+00:00",
       "cluster": "c686cbe6586"
+    },
+    {
+      "t": "UFC 331: Ryan Gandra vs Osman Diaz Preview & Prediction",
+      "source": "The Stats Zone",
+      "ts": "2026-09-18T12:40:00+00:00",
+      "cluster": "cbfafb41ce1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T13",
-    8
+    9
   ],
   "yt_eval": [
-    "CBMiiAFBVV95cUxQT0VDdFpzYVdVMHJTaEl0V3BSU054N2NkbUxLTGQ1SUlSM2pyNS1lQm9KZGNaSjV0UHhLamNVMXdYVmdBUnpKNy01d3hfOTFWd2R5aUVXVlktTGd6ckNQVzZZbWs2ZUhKZFpaQWpudzh3UWZ1ay11ZWtleGNpVFJMaVdsN1hGNU1s",
     "https://www.sherdog.com/news/news/Fares-Ziam-plans-to-shift-to-the-US-to-train-with-Justin-Gaethjes-team-202654",
     "CBMijgFBVV95cUxQNWV4MUhsRnVnR0hIVmVPOGw5SUI5MU45RUZEYWR0ZlZiMndvLWNUR2pFVElncXRsTUd4RVBZMl9YdWFEWTUzVk9MRXluYkltYjJObGd0d2JnWVJFRnFmbG1xYTBIWFNLeHlSMzNTOGIwYjhiQmhvOUU3ZDhRUS1TQVFYWTBaYVF1aFhrcDJ3",
     "CBMiwAFBVV95cUxOaVJjbGlpZFFXVXhtUkxGOWlNUFRJU2VaaTN3eDE0aHZsdUV3VWtVUGhVcDB5Qk5wWHNBSlk1Qmp0ZmpKcG9YRmxUbWxUVVNJYmxOY3h4TWY5SURqT1VVVG1hSldxUzJDcEpBQU5mbXJid2RIYm1rT1lma2x4UHV2c2Y5b2FzVVhValVwcXJ4dlliU0xYRmstQ2ZMbmlHUklac3RYQmNyWVEzaW5mTm9oNTdrOHZiWWYxSkxuUU8wNHc",
@@ -6147,11 +6152,12 @@
     "https://bloodyelbow.com/?p=332185",
     "https://bloodyelbow.com/?p=332189",
     "65e01df8-a226-391f-a721-a53fec4a1d4b",
-    "https://www.mmafighting.com/?p=510770"
+    "https://www.mmafighting.com/?p=510770",
+    "CBMikgFBVV95cUxORXowRTlxaXB5MlBjUUxJTGtoVGpUR3hQRVprbWpaemExN0l6OWtDU0RVTDg5VWhocHczRXJxdTNaVkFEM1g4QlRoSmlEa2YzaWlSejNUa0RHa05za2tUY2lUWTM3cVU2MkI4SjNXV2FVR2JZVmdodVlTV0hTZHdOeXdXd0FrZ2RsV1hRTE16X1FJdw"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 58,
+    "ai": 59,
     "staged": 2,
     "prio": 1,
     "lost": 0
