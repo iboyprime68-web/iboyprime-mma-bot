@@ -1,5 +1,6 @@
 {
   "seen": {
+    "89a1a0a1e843da66": 1789722565.9244108,
     "118d7972ad967d38": 1789722439.9082088,
     "91bd75d4d0906d54": 1789722313.6187108,
     "bc25a1d0eba13433": 1789722313.2767272,
@@ -2498,8 +2499,7 @@
     "0f290bdada28cebe": 1788893973.6510518,
     "f29ef0c838f51565": 1788893973.648037,
     "71838b1c8d211a88": 1788893930.107405,
-    "6120f4a4e9339239": 1788893858.4074771,
-    "ff125e695490a152": 1788893793.3273647
+    "6120f4a4e9339239": 1788893858.4074771
   },
   "initialized": true,
   "v": 4,
@@ -4723,16 +4723,21 @@
       "source": "The Stats Zone",
       "ts": "2026-09-18T09:04:00+00:00",
       "cluster": "c70c2a46cb3"
+    },
+    {
+      "t": "Jon Anik reveals why Ilia Topuria may have accused Justin Gaethje’s of tampered gloves amid comeback talk",
+      "source": "The Times of India",
+      "ts": "2026-09-18T08:59:00+00:00",
+      "cluster": "cbdf3b30ff3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T09",
-    7
+    8
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330149",
     "https://bloodyelbow.com/?p=330152",
     "354fc078-a9f5-3855-bee1-f02f15e68094",
     "https://bloodyelbow.com/?p=330155",
@@ -6231,11 +6236,12 @@
     "CBMikAFBVV95cUxNcDA0eEhjNGFVU016Vi0zdl8xQUhQa3BWcWlwYldfZG5SczdrcTVLNldqMW1LY2s5SklwNVkxMi1wWEU3YnVLdHNfRXI3UThnMGYzaUpVT2IwMjBHNVd4N0dlaVhXd0hROHNVOTFUbmRPNUdyZ0ZrMTR2X3RFbjk1S2VaeHVLODE1UUV0RlRDSlY",
     "CBMinwFBVV95cUxPdmxBdU5QZ3J0ZVd5dUlnX0RHMmN5eGY0bDdzLXNiRlp5SkpBRGJJNklFNm44WHp5YjU5VnBDYmFaXzM3X1FpNWllYmlEYUhpaGttSFJuWmpBc3NYNzNNa1lUTExVMWU3bjhWcVk3bXNVMktlYS1ubjlFcTBkY282Nk5OdWpPNFNSbGpjVG9XOWZZS1ZPVWd6djhNckh2Yjg",
     "CBMic0FVX3lxTE1YU0R1cEdHc0k0N1BXUmU2eklZc0plQ3Q3YjRsVWRIS0VKTlJXelVGejlHaDdDekRackxZWXJ3ajNqUWpPQkh1Mm9Pa0Mxa0ZTOW5BOENVZlh0M0V5U2xpMkV5UXNZeEFGcHdJS3Z2QlktZXM",
-    "CBMimwFBVV95cUxOVF9PbWpsdUZoeF9yd1JVODl6SjZQRFZOYUlwYW9pRTBiOGk2bTU4UDVZdkc5dTdWZEtNS0phQUJWRXVtZTV6dktuSlJ5S1ZlQ0dBYzdfaHZYUTZzNWN4TTlUX0JuUGVXRTAyeGtaNjMxelkzMmhtU09FWTNZVzNhSExxNzFBVERvLVd1MlQzTTJONXhqc3d6WkpDbw"
+    "CBMimwFBVV95cUxOVF9PbWpsdUZoeF9yd1JVODl6SjZQRFZOYUlwYW9pRTBiOGk2bTU4UDVZdkc5dTdWZEtNS0phQUJWRXVtZTV6dktuSlJ5S1ZlQ0dBYzdfaHZYUTZzNWN4TTlUX0JuUGVXRTAyeGtaNjMxelkzMmhtU09FWTNZVzNhSExxNzFBVERvLVd1MlQzTTJONXhqc3d6WkpDbw",
+    "CBMikAJBVV95cUxPU0t1dl9vaGtLU1Rsdjg0cmtpWng5S3BLQjVVREJnR0RvWk5fdXpXS2ZvcVJDcWpPZl8yY1hQcGJHXzhrZlFlWWl2Y0VYQkdva09oQ0J2ay1maGE3OTB2eUVGY3VSSXpaVFRYdDZHaml5cWlNSkdrQkhKQm94a1psUVF6YmRPZXJfSmRWS0hmblhvNHMzWE1qbVlHN1Nya1NVNEdZS2VwX1ppWWMtdTdkSXNOek9ZczhhbWNIQTVtVUFUc2VkSlVZQVZtY2QzWThCX2FkdkVuNmhvNWlqU3U1eTRGTU1GclpVYjVCQXoxTEdxd1NWS1E5aHIxcFVTaG5nbWFBTEc3N0cwNC1xcjRVNNIBlgJBVV95cUxNM2ZxMXNJOHVfcFBoY3VYX0xuWEw1djA5eFFlVlJCQlg5SFhvcE9IUlhNQlczNDJEZTJqMTdIUlhYR2MtMzlsSkFEb3l5Mm40NzBwWHlITThGTnNNRXRxYl9XdlBZaG15dmtxSGtWdDJSN19SNFByMmNoOEZtS1hXNFlMdVRJUWp4OG96ek5TQnpxUFkxZmE3WjRBeHpQMlBraHJoVTdadGZLbmF4RjJHZXpJM1daWExrQ0tpUGtYMHlBTWw0V2RlVU1lR1pGOS1vV3YyYldnUEwtcTkxcmtZR3dfeGdaVF91R3pINjFSTXR4YkprRmM1Y1FVeXlwd1NCd0pnRW9MMF9WWlFrcE1DWl9Jd1RrQQ"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 47,
+    "ai": 48,
     "staged": 1,
     "prio": 0,
     "lost": 0
