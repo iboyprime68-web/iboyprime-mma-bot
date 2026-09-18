@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9ec591766a93cdc8": 1789689610.5810719,
     "c1b7792a422b9fb4": 1789689483.1985056,
     "c88066e5afb39241": 1789689356.1129935,
     "2ff8ad4c3bed7e88": 1789689229.1031194,
@@ -2498,29 +2499,16 @@
     "548eae6e4c80f02e": 1788829320.5307307,
     "a542e2c853a6eb4e": 1788829320.2492402,
     "11264507bae0c3e6": 1788829254.110365,
-    "1daddd637a1a887e": 1788829253.2628381,
-    "2eaf153aad1033fa": 1788822022.1354983
+    "1daddd637a1a887e": 1788829253.2628381
   },
   "initialized": true,
   "v": 4,
   "recent": [
     {
-      "t": "Brian Ortega explains ‘freak accident’ that led to him withdrawing from UFC 331 clash",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-16T00:00:00+00:00",
-      "cluster": "c1af879e183"
-    },
-    {
       "t": "UFC ‘Contender Series’ results, live coverage and full fight highlights&#124; Season 10, Ep. 6",
       "source": "MMA Mania",
       "ts": "2026-09-16T00:02:09+00:00",
       "cluster": "c53c8a198fe"
-    },
-    {
-      "t": "Joshua Van Sends Bold Three-Round Warning to Alexandre Pantoja Ahead of UFC 331",
-      "source": "TWSN",
-      "ts": "2026-09-16T00:00:00+00:00",
-      "cluster": "cb754728ea8"
     },
     {
       "t": "Diyar Nurgozhay: UFC Record, Stats and Fighter Profile",
@@ -4861,16 +4849,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-17T23:52:53+00:00",
       "cluster": "ce463d04f84"
+    },
+    {
+      "t": "Khamzat Chimaev breaks down Arman Tsarukyan vs Mauricio Ruffy ahead of sharing corner with N3on",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-18T00:00:00+00:00",
+      "cluster": "cb6993c85a1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-17T23",
-    27
+    "2026-09-18T00",
+    1
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=469162",
     "CBMihwFBVV95cUxNOTZFMGp4cnpCeWZWWnlOdHBMSHJRYnhSWXctdjluTmdlTGUtYkRIQjZzTTZJSlptRmMzQUlkbHBXcmdpaTVRT0pmanl6dzBUdjRuMTRoWTM0WENNVWhyd1FnallEekZwWWN4VjlIM2ViRVZFRWhPSDBrVTlrNTBJMmVnaFhFYmc",
     "CBMitwFBVV95cUxPdG0yOUQzQTZ5TTk5ckJUWU1nR0l5eW1BNnh3cUFTT0IwN1ZORVo5TGgyV0Ryd1pXTk5RSkZic2xDN1lwY3BhQnFjWE9QTm0tckxwNXNDWTExX1d4VkJsVG8zckhqZ29TcVNGY2tkaFRCZ2ZSOHIyU1M3TXZFTG1ReXF3YktpSU10M0tyZWhfOFpEdEVUYmZyaUR2dHhkTlM4XzgwZmRkUlZ3RlU5NGU1Qkc1QWRYSmc",
     "https://bloodyelbow.com/?p=330019",
@@ -6369,13 +6362,14 @@
     "https://www.mmamania.com/472787/open-thread-september-16-2026-is-ai-going-to-kill-us-all",
     "https://www.mmafighting.com/?p=510571",
     "7c83369c-ba92-3981-a972-41a7779fe721",
-    "https://bloodyelbow.com/?p=332019"
+    "https://bloodyelbow.com/?p=332019",
+    "https://bloodyelbow.com/?p=332079"
   ],
   "daily": {
-    "d": "2026-09-17",
-    "ai": 82,
-    "staged": 6,
-    "prio": 2,
+    "d": "2026-09-18",
+    "ai": 1,
+    "staged": 0,
+    "prio": 0,
     "lost": 0
   },
   "staged_hist": [
