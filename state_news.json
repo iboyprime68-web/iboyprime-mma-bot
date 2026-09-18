@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a6f7e9a27c2a125d": 1789764035.6478567,
     "a9c625b2098ba6e3": 1789764011.2121239,
     "d1c62f2cea8ec617": 1789763987.859122,
     "13dbf75df835060a": 1789763965.1902783,
@@ -2498,8 +2499,7 @@
     "5a4e164b39df6f3a": 1788995321.7051651,
     "bdaac8ebb7b5a69c": 1788995257.442682,
     "a037ccdbe910fa60": 1788995257.2187932,
-    "fcfce8131ef2a8ef": 1788995192.3265986,
-    "76a60d102dc38a47": 1788995168.4749653
+    "fcfce8131ef2a8ef": 1788995192.3265986
   },
   "initialized": true,
   "v": 4,
@@ -4663,16 +4663,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-18T20:00:00+00:00",
       "cluster": "c7c289b6a72"
+    },
+    {
+      "t": "UFC 331 referee, judges revealed for Joshua Van vs. Alexandre Pantoja 2",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-18T18:40:17+00:00",
+      "cluster": "cabcdabf097"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T20",
-    3
+    4
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330267",
     "bdcb0a77-c1cc-3e1c-9381-c612ebc47a95",
     "CBMiswFBVV95cUxQTVlxVkNrLW5zX3M4RGlVc0Jmak5SZXlJVzExMF9vd1phZ1BDY1JmSnY4YnBlWlRKZ2o4di1hS2hRM1lvMER0QTYtSDllby00bHpCWHVTajZ0cjBacjVDc2UyMk9OVVMxT0NFUlF2Y1k0ZC1jTFZ4MEV5cXY4S094T3FoTVJ3UDE4VTBvR2VXVUJYbkZaOUNZOG1DLWZzdHhJeUpqeHBuRHltY0RDaU9GTG1LQQ",
     "https://www.mmamania.com/468771/mania-mailbag-which-fight-that-got-away-irks-you-the-most",
@@ -6171,7 +6176,8 @@
     "964d2f79-afd7-4b0e-85a2-6ba50226f17d",
     "https://www.mmafighting.com/?p=510868",
     "https://bloodyelbow.com/?p=332236",
-    "https://bloodyelbow.com/?p=332257"
+    "https://bloodyelbow.com/?p=332257",
+    "37967ef3-1e3c-3c5a-9690-02228f708434"
   ],
   "daily": {
     "d": "2026-09-18",
