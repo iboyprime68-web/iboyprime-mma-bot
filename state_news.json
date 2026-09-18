@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b6dfc29ee6f51b2c": 1789740393.797638,
     "a925ff0cf9991dc2": 1789740142.6869256,
     "13cc437481fc25e9": 1789740142.6847224,
     "158928dabd85acc1": 1789740142.6827817,
@@ -2498,8 +2499,7 @@
     "edaa80d0749cf046": 1788961012.9460545,
     "957e85066727ad7e": 1788960988.806919,
     "b315c64a96f47a7d": 1788960965.2920103,
-    "593c5876ed3c8cd5": 1788960940.5936024,
-    "9782a9fc31d7d23c": 1788960916.9517977
+    "593c5876ed3c8cd5": 1788960940.5936024
   },
   "initialized": true,
   "v": 4,
@@ -4741,16 +4741,21 @@
       "source": "411Mania",
       "ts": "2026-09-18T13:21:47+00:00",
       "cluster": "c712095e1b8"
+    },
+    {
+      "t": "\"Natural gifts\" - UFC commentator Jon Anik shoots down Ilia Topuria's allegations on Justin Gaethje",
+      "source": "Sportskeeda",
+      "ts": "2026-09-18T14:00:00+00:00",
+      "cluster": "c0dac7b5ca8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T14",
-    2
+    3
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Raul-Rosas-Jrs-brother-reportedly-set-for-UFC-debut-at-Noche-UFC-4-202659",
     "CBMif0FVX3lxTE84Q2plSElBTzhkQzl6RW5La284UUpybVhVSU8xSTYzLWx4eFlLc2pmcTJuRGMxZkg3WXR4LTR6amxLVHhXekJxN1h6THp5SW9lQXhnLVRETi1Ed1hYcHNrLVZuNkpUU1ZvbGFuX1ZwMTlqSVYwN3lzM3hEY2lUb3M",
     "CBMiiwFBVV95cUxNZkNUbVJ0ejhwRVVaa2d2dk91MEFORkZTcjAzQXhyYkg3NUdYajY2WUNabkttZEhYSi1yYjNXVEM0RzVMZFNUeTdVX1I4WmR6WTVraGNBR0k5TXhMOXZpei12dllqbTFsY0RERFAySVFYWl81TW91c2VPVUs2OTJ1V0hPb0FBenNyMklr",
     "CBMid0FVX3lxTE40VDZkWXp5NFQ5bTFPaWxUS1FRTU5SX1JYNGJJVUlzTVNfNk5QZ2FDUzFOaGtYS3IydU4tQUZSVU1OV2xiZEpmdm1yMlBHdU1tbFhWdTZQRVVndzdkbFByOHNkSy0xMjZYbmxrSnFTTHozRF96SVpz",
@@ -6249,11 +6254,12 @@
     "CBMitwFBVV95cUxQOFEwQTNKenN0Tk5JSHFjZ1dvQUxIWldLRnZHMGJPbVlvWjFNa2huRThYM2VEQllUdmFKNUlHWWRFRE90T1BGWWdtV3djS2RiRTZYekl0RGtWUHZ2Yk5aVWJUUW11UWFvRDNDS0Y3YzNTcTV4R2t0MzE2amxSMk9aMkFjODBRNU1LUUgzTGlna3g5aHI4bHU0eExmOUs5NzNIMW5ickc5WWp5TnNLZlRTUDl6Y0dJb00",
     "CBMidEFVX3lxTE5SMXBvVWl5eGlpbGhXb2k5Q21aQ19RSUk3enE1N0pYeHhkUllEYnNvdkhIUl8weHp5X0pHTUtZVkVVVkY0bmlKSGNSUU1UcXYxNmN1MlItMENNTERXR25JQkk2QkZNUjRBNFZnNnRCYnZYOUVP",
     "https://bloodyelbow.com/?p=332228",
-    "CBMijwFBVV95cUxOSXlqTEl6Um4tRkFSOE5mMlhIMGhOakhBTjJqbTdWSHZxNkZIcWpEbDU2VTZJZ1FDYWViUS1jVDdwRndmZXhUSFN5X2VMZHJJbU9aWUxnUjY0QmQzWmhIZ0xXRHdjdFVpbkZMZkUyaHZ2LWJELWpFVWxRTGxjV2R1Y2ZNcjhJeGVXNURaeDFkcw"
+    "CBMijwFBVV95cUxOSXlqTEl6Um4tRkFSOE5mMlhIMGhOakhBTjJqbTdWSHZxNkZIcWpEbDU2VTZJZ1FDYWViUS1jVDdwRndmZXhUSFN5X2VMZHJJbU9aWUxnUjY0QmQzWmhIZ0xXRHdjdFVpbkZMZkUyaHZ2LWJELWpFVWxRTGxjV2R1Y2ZNcjhJeGVXNURaeDFkcw",
+    "CBMiwgFBVV95cUxOMzFSZnAweXQ0XzNnUGdPeXFYcjRmeHVqY05uN3dtblh0NjNpQVRKOG95NkJSSmRKaXZjUEJmSG9IcWViU2dIOFRyNDE5OTFkSEktaExETWMwM0NROFBzTnM3R19TaG1fc3A3TkxkTDVkRU1YVzRXcVRpSFAzYzJ4OWxsZWJNWHhpdmhSaGc2Tmw1N2NfWFA0WWNxd1lHZERoMk5kLWZVMU1fbGM2UjdVeHJrX09MWHlWQVV3NVE2UkUxQQ"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 83,
+    "ai": 84,
     "staged": 2,
     "prio": 3,
     "lost": 0
