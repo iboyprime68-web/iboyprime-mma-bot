@@ -1,5 +1,8 @@
 {
   "seen": {
+    "5949f3d6e5686af6": 1789753476.5073953,
+    "ec73b97b0afe7d0c": 1789753475.6648357,
+    "1facfce4f06caeb1": 1789753475.6435146,
     "982b0b721faf78f0": 1789753411.677298,
     "d55b1677592d6a04": 1789753347.109657,
     "332e1a3bb16c9462": 1789753346.8372357,
@@ -2496,10 +2499,7 @@
     "960e0d59d2793618": 1788962094.5246353,
     "2842b16f05b635d1": 1788962029.9418838,
     "eb070381e9a044fe": 1788962029.629445,
-    "48dc343185efc031": 1788962029.6274407,
-    "cedccd0c98543f92": 1788962029.625157,
-    "0434657a5835331a": 1788962029.6224492,
-    "b7259cf674eaf31e": 1788961964.8604984
+    "48dc343185efc031": 1788962029.6274407
   },
   "initialized": true,
   "v": 4,
@@ -4675,16 +4675,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T16:10:16+00:00",
       "cluster": "c2cfd03ad21"
+    },
+    {
+      "t": "Fighting Back: Fresh entrants in MMA space could create competition for UFC, options for fighters",
+      "source": "Sports Business Journal",
+      "ts": "2026-09-18T16:45:57+00:00",
+      "cluster": "c77bb6dcba3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T17",
-    16
+    17
   ],
   "yt_eval": [
-    "CBMigwJBVV95cUxNcGsyVTM1RW5yLW9POHdaaXpIbzFzYzdDeEY3TmRyUFZEcXlsMDlTQ19LelRTaWhwZHQwOXQ5a0VGdEpUODN6cGZHVDRYM2o2QUtNQk8yVFpEWnNQNW81Wmp4Ri1maENZSFBBRmxRODZLYmJ4bTJ1YlRkVVZNcGlHdzhySGh5RnpyWmhrZHNnLTdEZmpLWGxYNDhwajJ3SERvaFE1b1JoNWw3eXNFOWl6Q1lwSktEdk80ZjlOU21QZW4wWEZqYVRQY25uSmF4SGR0Q2lPTFp3TWpmZjM2bFRVUjJsZlM0OTIyaTBncGhNOEdab1BlRFpYRG91N3hiYkNWOUdR",
     "https://www.sherdog.com/news/news/Israel-Adesanya-makes-major-training-change-amid-UFC-losing-skid-202662",
     "CBMiyAFBVV95cUxPQXdJOTVldVRrbC0wRzdHc3VsWVFfdy03QXhiRjV6ZWFSUmVMejJEVWplOEJnX0x2czFWUGVieF90YkFfd0FsU01pbnpwbG8wdFIwSGRvTjgyRmR1YVdkRlRjbmpDeGRFVXFZMWI0S0pNc0s2Z25EZUJfRnB6aUF6SkpraGJPSDNaeUdwMlJMUkRoaEFBYXlLUWx6TGZkem14czg2S2VOVkdER09tcm1zQkhzc0RGRWpuM0FYVDJzWjhhZWl0M3JVTQ",
     "CBMitAFBVV95cUxQMldrS004S3VsaDZjNHk0WWoyWm0ycy1heF9CNjZpakpOQXk3NHd6MFFYZWdrMDJnRjF0Zm8tUWhnZ2haSFBWYVg4RGJ2dkNCQkFUbzhtRjJyczFjRFk1ckxUMVY3dUk0eU8xVENpUzJ0TmFfV0tKQTMyZFdvRjF0TUluMG9idV9BbkduNEhZWWZGNzBhSTI3bDlWcDY3NUVoWksxTDhXYk9WcDhPODRGZnVSVjE",
@@ -6183,11 +6188,12 @@
     "https://www.mmamania.com/472806/mania-mailbag-what-do-you-do-with-mvp-and-is-he-a-dirty-fighter",
     "8a06d504-41b2-3891-90a8-8dddfb5675ff",
     "852245a8-c75a-3113-bcc0-1f8c6d7768bc",
-    "d94d29b3-9f16-3406-bf01-02ba1c05c46b"
+    "d94d29b3-9f16-3406-bf01-02ba1c05c46b",
+    "CBMi6gFBVV95cUxPUjk0cDN1QTFrWl9WNDVkWlY3ajIwaDNEWDdmLTdXNDBOZ2VVZlIzYjFaaW90YzgxMElpOWVvLXhVb0dPaGlzeVV2TDkzOVY2Zl9yUklySnJxOC0zNzBDVlYtamxidlFOd0pMalo2VTMwenN0TjNzOGVUd0RUS3VJM1BqYTBPZHllcV9FM1JNY01zMWIyRndyYktMalZRWkpnUTVMaHJFRUVWbE0wN0lEZjR0YzNCdmQ1MUJlQ1hpd3dxZGN0QXFKak1BVlZoVzljeG42dlhRc2JmZ2FvczhPV1VIWHdpbXFHMnc"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 103,
+    "ai": 104,
     "staged": 2,
     "prio": 3,
     "lost": 0
