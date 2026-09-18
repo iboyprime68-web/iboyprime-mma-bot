@@ -1,5 +1,6 @@
 {
   "seen": {
+    "01b8b64125f5bdfe": 1789704055.8433154,
     "1cb8630a759fc3bd": 1789704031.9980083,
     "9ffdc03310e96640": 1789704009.1394358,
     "40db9fd0306434f8": 1789703985.105049,
@@ -2498,8 +2499,7 @@
     "b01d9693f2b7cc98": 1788864899.8898773,
     "4187a962e583f944": 1788847228.7852767,
     "2f877af39c119f3c": 1788847228.627191,
-    "223ed52c515adaf3": 1788847184.396981,
-    "56fc6608e12afdf0": 1788847184.1618347
+    "223ed52c515adaf3": 1788847184.396981
   },
   "initialized": true,
   "v": 4,
@@ -4675,16 +4675,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-18T02:29:04+00:00",
       "cluster": "c76b4ee2c8e"
+    },
+    {
+      "t": "Opinion: The UFC is on Autopilot",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-18T01:43:37+00:00",
+      "cluster": "cb8cb4d0f75"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T04",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMiogFBVV95cUxNTHJSV2ZDSVltekducGJlYlNQUnVFMEtscDRVd0FIZndJOWNBR0h5a3lMX2RrZXR4ZVZsbU13RFllZFl1ZHJUTWp0a1IySlFzNEpuaGttTHNldTZFb2RtZWNkQ2VrdnNMN2lNdHl3MnFxaDRVaU81ZU95eGxWTUhvVTdvVDFHTGFUeHdkaWoxeC13Rzc1ZVdiUU91Wm93dVgxbFE",
     "https://bloodyelbow.com/?p=330022",
     "642844ec-55f4-33a1-a5eb-4aec0140eddd",
     "https://bloodyelbow.com/?p=330033",
@@ -6183,11 +6188,12 @@
     "e0f9972d-4174-3242-9be4-a701bb727975",
     "360e3807-c883-3e6d-9d7d-128b1c212d66",
     "https://bloodyelbow.com/?p=332100",
-    "https://www.mmafighting.com/?p=510772"
+    "https://www.mmafighting.com/?p=510772",
+    "17b2fbf8-bd56-32ff-ab84-98a6e0b564ec"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 9,
+    "ai": 10,
     "staged": 0,
     "prio": 0,
     "lost": 0
