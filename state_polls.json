@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 14,
   "staged_at": [
-    "2026-09-16T14:14:24.665520+00:00",
     "2026-09-16T19:35:54.676997+00:00",
     "2026-09-17T14:20:14.848788+00:00",
-    "2026-09-17T19:45:28.748472+00:00"
+    "2026-09-17T19:45:28.748472+00:00",
+    "2026-09-18T13:40:15.918205+00:00"
   ],
   "asked": [
-    "Who is the most feared heavyweight in UFC history?",
     "Who is the most impressive KO artist in UFC history?",
     "Whose gas tank betrays them first in a five round war?",
     "Who is the most disrespected UFC champion of the last decade?",
@@ -47,27 +46,28 @@
     "With Tom Aspinall vacating the heavyweight title, who should fight for the vacant belt first?",
     "Who has the highest fight IQ of all time?",
     "What is the coldest knockout in UFC history?",
-    "Who is the biggest what if in MMA history?"
+    "Who is the biggest what if in MMA history?",
+    "Who is the most dangerous UFC newcomer right now?"
   ],
   "last_entry": {
-    "q": "Who is the biggest what if in MMA history?",
+    "q": "Who is the most dangerous UFC newcomer right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Fedor Emelianenko",
-        "emoji": "🧊"
+        "label": "Mauricio Ruffy",
+        "emoji": "🔥"
       },
       {
-        "label": "Tony vs Khabib",
-        "emoji": "⚔️"
+        "label": "Gable Steveson",
+        "emoji": "🥇"
       },
       {
-        "label": "Prime Cro Cop",
-        "emoji": "🦵"
+        "label": "Akbar Abdullaev",
+        "emoji": "⚡"
       },
       {
-        "label": "Healthy Cain",
-        "emoji": "🩹"
+        "label": "Other (comment below)",
+        "emoji": "💬"
       }
     ]
   }
