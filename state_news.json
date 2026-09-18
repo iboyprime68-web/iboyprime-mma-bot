@@ -1,5 +1,8 @@
 {
   "seen": {
+    "7d8e8ab9066d1756": 1789738835.9195876,
+    "575d1fda76e91880": 1789738835.2317936,
+    "714a00724b4def95": 1789738835.2285967,
     "a35bc97ff6ff3f3e": 1789738769.3637002,
     "c77d49f0d0316e29": 1789738704.5231001,
     "2c0bbe7362be281a": 1789738704.2071078,
@@ -2496,10 +2499,7 @@
     "530e2f31fd84f78a": 1788904646.6697743,
     "695a79385912c787": 1788904580.749345,
     "63ae05a02baa983d": 1788904515.9048376,
-    "143ec543d2c186b5": 1788904450.00392,
-    "1690a7f595388b58": 1788904384.9474568,
-    "489e94097b60c189": 1788904384.6106472,
-    "f5d500169c0687a3": 1788904384.6077561
+    "143ec543d2c186b5": 1788904450.00392
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-16T14:00:00+00:00",
       "cluster": "c667bd71334"
-    },
-    {
-      "t": "Dana White's Contender Series 92: Grading new UFC contract winners",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-16T13:40:30+00:00",
-      "cluster": "c8ab6c31f99"
     },
     {
       "t": "Conor McGregor teases BKFC move after UFC contract expiration",
@@ -4681,16 +4675,21 @@
       "source": "SPORTbible",
       "ts": "2026-09-18T12:47:36+00:00",
       "cluster": "c0a840c2e7c"
+    },
+    {
+      "t": "UFC White House official: Justin Gaethje's gloves were checked 'by multiple inspectors'",
+      "source": "MMA Mania",
+      "ts": "2026-09-18T12:13:57+00:00",
+      "cluster": "c0d892236ab"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T13",
-    15
+    16
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=469271",
     "CBMiigFBVV95cUxQSkdMQU9iZXAyNEhrbFRZcHpsN3pmWTlZSHJGZkFUQ0ttN2xUUFVEcFRTS0JXTU5ra0NDSUx4RUNlVTBCYlhyc3N2SlNaTTFweWFSWWRXelZjcklDbWp4TThTSEZhaGlOMFFvOEIweXE5S1FBRExmTy13OV9mZjRjRmJoME9rMmMza2c",
     "https://www.sherdog.com/news/news/Undefeated-UFC-prospect-Bilal-Hasan-I-lose-every-day-in-the-gym-202655",
     "https://bloodyelbow.com/?p=330046",
@@ -6189,11 +6188,12 @@
     "CBMilwFBVV95cUxPZVFfb2xWLVplSFVPdmpKNENnZ0cxMVczcGdCTWpER1V5bHFjT1FrUnJtT01acjJBVEhyRU0tLTBtaWRpZlRWRlhCZWtLcmlHdnNiUjlvOHFaRzRMaFUzX3hXR292bWpKY1ljMUtOY29kLUlyYlBzc0ZNOHp6cmhQdmRBWlVfekVhQTFKYUJhV2loTWpiandB",
     "CBMimgFBVV95cUxOVUJqVmctT0dXYzI1Ni1kNFFzVC1kdVhvdC1WanB5UV9wVTVHaVBDRU03VldPdDJZMnE4blh3dGd3MmJGdDcwY3o3ZEJEazFrM1hTWXdiSVlBU2g2cnFFeWVGbWxhQWFqMkhmNS1nRXAyTVB0MXNHdXZMcVdtQmNHUmJZNU9pSFJhZm1COG1lck5XNHpZbFEwbWJR",
     "CBMif0FVX3lxTE81WnZJZzFfWHVNLWRvYkdxR0hlWUEzN3F2N2pQYXdjZ1ZpZ2F4ZFBveS0xcEJ2Vko4UjFILVZjUFFUQU1qNW1TWHp3ZVE4R1VlS0c1S0Znamd6bEI4UEVsRlFmcGg5UzNSLWVpcm1TdDQwUWhDSGdzb3FRdEpfcVk",
-    "CBMiowFBVV95cUxQYmZKVU9XZ2ZmN2owbDhnNGNGSDVEQm9BY1NERVVwUlV5aW15NVJGTGNranBzQnVYY0lnMVVLVUczb2JfYzV1Z2M3a3d5d3AwQUdiUnU0RjJwV0lRdW9aNXA4WjBicnV5WG1qRU1DaF9fWE9YZExCTWxIUFRYa3pvVS1ucC01Zng2TUVWeGFXQzR2LV96RFU1Z2xHc0JRZThRT25R"
+    "CBMiowFBVV95cUxQYmZKVU9XZ2ZmN2owbDhnNGNGSDVEQm9BY1NERVVwUlV5aW15NVJGTGNranBzQnVYY0lnMVVLVUczb2JfYzV1Z2M3a3d5d3AwQUdiUnU0RjJwV0lRdW9aNXA4WjBicnV5WG1qRU1DaF9fWE9YZExCTWxIUFRYa3pvVS1ucC01Zng2TUVWeGFXQzR2LV96RFU1Z2xHc0JRZThRT25R",
+    "https://www.mmamania.com/?p=472917"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 65,
+    "ai": 66,
     "staged": 2,
     "prio": 1,
     "lost": 0
