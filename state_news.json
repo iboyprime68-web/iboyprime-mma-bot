@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2eeb1e8ef2c0924d": 1789738499.0621128,
     "b1d0a11b4c8c9cdc": 1789738434.4355133,
     "e53d09f6105b9b5e": 1789738434.10611,
     "f3838995e9162c3c": 1789738386.2279322,
@@ -2498,8 +2499,7 @@
     "a1e705ff1c997aa0": 1788904340.0009205,
     "e0e5bf8180440848": 1788904316.638354,
     "803c42ef963dc848": 1788904316.2737827,
-    "fd259806c49e553c": 1788904316.273188,
-    "244caaf6805219db": 1788904251.1343899
+    "fd259806c49e553c": 1788904316.273188
   },
   "initialized": true,
   "v": 4,
@@ -4645,16 +4645,21 @@
       "source": "The Stats Zone",
       "ts": "2026-09-18T12:40:00+00:00",
       "cluster": "cbfafb41ce1"
+    },
+    {
+      "t": "UFC 331: Michael Aswell Jr. vs Yoo Joo-sang Preview & Prediction",
+      "source": "The Stats Zone",
+      "ts": "2026-09-18T12:40:00+00:00",
+      "cluster": "c730d6b0c8e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T13",
-    9
+    10
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Fares-Ziam-plans-to-shift-to-the-US-to-train-with-Justin-Gaethjes-team-202654",
     "CBMijgFBVV95cUxQNWV4MUhsRnVnR0hIVmVPOGw5SUI5MU45RUZEYWR0ZlZiMndvLWNUR2pFVElncXRsTUd4RVBZMl9YdWFEWTUzVk9MRXluYkltYjJObGd0d2JnWVJFRnFmbG1xYTBIWFNLeHlSMzNTOGIwYjhiQmhvOUU3ZDhRUS1TQVFYWTBaYVF1aFhrcDJ3",
     "CBMiwAFBVV95cUxOaVJjbGlpZFFXVXhtUkxGOWlNUFRJU2VaaTN3eDE0aHZsdUV3VWtVUGhVcDB5Qk5wWHNBSlk1Qmp0ZmpKcG9YRmxUbWxUVVNJYmxOY3h4TWY5SURqT1VVVG1hSldxUzJDcEpBQU5mbXJid2RIYm1rT1lma2x4UHV2c2Y5b2FzVVhValVwcXJ4dlliU0xYRmstQ2ZMbmlHUklac3RYQmNyWVEzaW5mTm9oNTdrOHZiWWYxSkxuUU8wNHc",
     "CBMimgFBVV95cUxQTy1mYWEzNThjX0dzWm4zVjhYTVN0RWprQlhkSGN4Zll0OFotU0o3Vm9OWDBaUFFnemNrQlBjdU9HS1lTLXVTTlZUNkpRck5sdzV5a1RrU2g3cVpiYlFmVm5rV1NYSXFVREx2X3RaODc2TEo4LWN1cURoR3JJcTM5ckJGT2FpaXVlaDZSM3p4WHFXMGNtclpjelpR",
@@ -6153,11 +6158,12 @@
     "https://bloodyelbow.com/?p=332189",
     "65e01df8-a226-391f-a721-a53fec4a1d4b",
     "https://www.mmafighting.com/?p=510770",
-    "CBMikgFBVV95cUxORXowRTlxaXB5MlBjUUxJTGtoVGpUR3hQRVprbWpaemExN0l6OWtDU0RVTDg5VWhocHczRXJxdTNaVkFEM1g4QlRoSmlEa2YzaWlSejNUa0RHa05za2tUY2lUWTM3cVU2MkI4SjNXV2FVR2JZVmdodVlTV0hTZHdOeXdXd0FrZ2RsV1hRTE16X1FJdw"
+    "CBMikgFBVV95cUxORXowRTlxaXB5MlBjUUxJTGtoVGpUR3hQRVprbWpaemExN0l6OWtDU0RVTDg5VWhocHczRXJxdTNaVkFEM1g4QlRoSmlEa2YzaWlSejNUa0RHa05za2tUY2lUWTM3cVU2MkI4SjNXV2FVR2JZVmdodVlTV0hTZHdOeXdXd0FrZ2RsV1hRTE16X1FJdw",
+    "CBMinAFBVV95cUxPZ2xKRFpTTHNiY1ZucnlpaXNsMjFhdnhBWG9rcmJWblZKckk4Zm9ySGxHaUlHVVg0WXdOVWpMWmpqWjlXcXZQZEV1a3lrdWZQTkhyQ0hKbGV5UHd4aDRCRHhhV0FoTXFTYkppcl9vbHZUZXdXMVRjV29SOFgtZE5mc1FmVDdIRTkwNnZRck9TR2lJZmRWelQ5MGpETzM"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 59,
+    "ai": 60,
     "staged": 2,
     "prio": 1,
     "lost": 0
