@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7b3ad0ea740349b2": 1789772876.8688245,
     "ecd270cb365f3acd": 1789772854.4693823,
     "262850a53c8f6fb6": 1789772853.8660278,
     "3e2ab4350b18cedb": 1789767149.144541,
@@ -2498,8 +2499,7 @@
     "08afa72da22fff08": 1789019502.4751253,
     "07c64ad57e48e9d4": 1789019502.4748626,
     "3c5570d343b5a910": 1789019458.277673,
-    "395fdee068ce9911": 1789019394.0238216,
-    "d0025807a8ac7b32": 1789019393.663837
+    "395fdee068ce9911": 1789019394.0238216
   },
   "initialized": true,
   "v": 4,
@@ -4663,16 +4663,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-18T22:00:00+00:00",
       "cluster": "ca6d2a63411"
+    },
+    {
+      "t": "UFC 331 Preview Show &#124; Can Alexandre Pantoja get revenge on Joshua Van?",
+      "source": "MMA Fighting",
+      "ts": "2026-09-18T21:45:02+00:00",
+      "cluster": "c243ca8dc14"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T23",
-    1
+    2
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330284",
     "31ff8239-2269-43e0-82c4-a94b971347c8",
     "db16b329-92e5-36c2-b293-8fe89f2bb95a",
     "ffca9889-2809-3302-bc62-f1a2921473c5",
@@ -6171,7 +6176,8 @@
     "CBMinwFBVV95cUxNWlBGb1FQNlVIdmlHemhhSFE4bXZ0TDJlWnExUXc3a2RiWDluTm9RYzJybEtld19ac1Vja2ZLWUsyc3NtZW1iNGtxUF9KZHpVWWYwZ01mY3p6TXlfUmVwMEo5cGdXaGlEY3ptdTNqaDhnR3VUaUphNW5rbGdiSkp1NjREa1g5Z0IyRWU2MThpZV85RWduOVhSVldMQzY5YzQ",
     "CBMihgFBVV95cUxOa0NXeXZyejlNaDFCTkswT2ZLcWVWRzlCd0hURDN6MS1hT3FmRHBjblFyYy13dUs4d2lfWHZvam1DeWM1cl9OUnpFbGxvZWNSRVdNU25tUnZJWjJaeG1WSFU4eVY5Zk13THIzREVCMGJoaUxwV3loTTg3bi1LREl3Z0ZvdkdZUQ",
     "https://bloodyelbow.com/?p=332299",
-    "https://bloodyelbow.com/?p=332295"
+    "https://bloodyelbow.com/?p=332295",
+    "https://www.mmafighting.com/?p=510883"
   ],
   "daily": {
     "d": "2026-09-18",
