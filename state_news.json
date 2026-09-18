@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f3838995e9162c3c": 1789738386.2279322,
     "11ef1eed30a69561": 1789738362.6549287,
     "3f3d4505098b744d": 1789738362.3719406,
     "2a524e9255257db0": 1789738338.0320783,
@@ -2498,8 +2499,7 @@
     "fd259806c49e553c": 1788904316.273188,
     "244caaf6805219db": 1788904251.1343899,
     "7dff3aed6f3e6e38": 1788904186.6926882,
-    "3559b8837de9fb9d": 1788904186.3525298,
-    "707a7b5308dba80c": 1788904121.8060856
+    "3559b8837de9fb9d": 1788904186.3525298
   },
   "initialized": true,
   "v": 4,
@@ -4633,16 +4633,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T12:04:26+00:00",
       "cluster": "cf3f9bf4e70"
+    },
+    {
+      "t": "Khamzat Chimaev reveals details about injuries requiring time off, plans to challenge for UFC middleweight title again",
+      "source": "MMA Fighting",
+      "ts": "2026-09-18T13:17:06+00:00",
+      "cluster": "c686cbe6586"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-18T13",
-    7
+    8
   ],
   "yt_eval": [
-    "CBMimAFBVV95cUxNNlpQMktWMXJLVVFPTDU5XzliMFVEUXVlM0JvZkFybmtXcUxWZmJGN2dxenVJVWxNNVdlZ3J6dlNHN3d1OHFvOE1RRE9kZ3d6c1VOdFkteUVUSTlwWW10MGV6Y3ByZkt1Yk1zLUJXQl9iRFZmdmI3cUR4R2pCNkdLeEduSmp4VGJzanNCSWtTUFVQa0dhSmNfaQ",
     "CBMiiAFBVV95cUxQT0VDdFpzYVdVMHJTaEl0V3BSU054N2NkbUxLTGQ1SUlSM2pyNS1lQm9KZGNaSjV0UHhLamNVMXdYVmdBUnpKNy01d3hfOTFWd2R5aUVXVlktTGd6ckNQVzZZbWs2ZUhKZFpaQWpudzh3UWZ1ay11ZWtleGNpVFJMaVdsN1hGNU1s",
     "https://www.sherdog.com/news/news/Fares-Ziam-plans-to-shift-to-the-US-to-train-with-Justin-Gaethjes-team-202654",
     "CBMijgFBVV95cUxQNWV4MUhsRnVnR0hIVmVPOGw5SUI5MU45RUZEYWR0ZlZiMndvLWNUR2pFVElncXRsTUd4RVBZMl9YdWFEWTUzVk9MRXluYkltYjJObGd0d2JnWVJFRnFmbG1xYTBIWFNLeHlSMzNTOGIwYjhiQmhvOUU3ZDhRUS1TQVFYWTBaYVF1aFhrcDJ3",
@@ -6141,27 +6146,17 @@
     "eff61f3f-afa7-3963-b64e-73f31569aa57",
     "https://bloodyelbow.com/?p=332185",
     "https://bloodyelbow.com/?p=332189",
-    "65e01df8-a226-391f-a721-a53fec4a1d4b"
+    "65e01df8-a226-391f-a721-a53fec4a1d4b",
+    "https://www.mmafighting.com/?p=510770"
   ],
   "daily": {
     "d": "2026-09-18",
-    "ai": 57,
-    "staged": 1,
+    "ai": 58,
+    "staged": 2,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-07T03:49:20.165932+00:00",
-      "t": "Valentina Shevchenko’s Coach Explains Vacating UFC Belt",
-      "names": [
-        "shevchenko",
-        "coach",
-        "explains",
-        "vacating"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-07T03:58:15.302825+00:00",
       "t": "Costa Says UFC Rejected Interim Title Bid For 332",
@@ -6967,6 +6962,14 @@
         "allen",
         "aaron",
         "pico"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-18T13:33:07.454471+00:00",
+      "t": "Khamzat Chimaev reveals details about injuries requiring time off, plans to challenge for UFC middleweight title again",
+      "names": [
+        "chimaev"
       ],
       "img": "photo"
     }
