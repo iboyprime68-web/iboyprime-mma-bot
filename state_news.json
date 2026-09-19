@@ -1,5 +1,6 @@
 {
   "seen": {
+    "294f24682bab8ac9": 1789848467.7565112,
     "d92762faaf14d89a": 1789848339.292382,
     "006a4a78b56945f5": 1789848274.995142,
     "da6e067270003da3": 1789848274.9935734,
@@ -2498,8 +2499,7 @@
     "2d7f3d1ece0c9960": 1789160254.1221335,
     "ba2ffcb1bc7d42f5": 1789160254.1197186,
     "8f7a130bd6bddb14": 1789160190.5579042,
-    "4b6dfb33fd38fb9c": 1789160190.3384044,
-    "dd4bc5af872aaef3": 1789160190.3359325
+    "4b6dfb33fd38fb9c": 1789160190.3384044
   },
   "initialized": true,
   "v": 4,
@@ -4555,13 +4555,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T20:00:00+00:00",
       "cluster": "c23d16d76b1"
+    },
+    {
+      "t": "Colby Covington Snubs Khamzat Chimaev, Wants Trilogy Bout",
+      "source": "MMA Sucka",
+      "ts": "2026-09-19T20:06:26+00:00",
+      "cluster": "c9d1ab042ef"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T20",
-    1
+    2
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
