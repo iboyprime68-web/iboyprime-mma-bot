@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ab684fca2e2a3dcd": 1789858055.4573357,
     "96fc7500f0d07af7": 1789857992.3211093,
     "c3ac3d2fb561cc8a": 1789857928.8959134,
     "9857355c9c617fa2": 1789857865.316243,
@@ -2498,8 +2499,7 @@
     "cd94b0e67a905737": 1789185217.9380019,
     "f6895f947f3ca7e6": 1789185194.110345,
     "4db09eb2706901ab": 1789185193.2969213,
-    "a9041571d25b4d41": 1789185193.288874,
-    "f8a76cb403e1172e": 1789171140.3804219
+    "a9041571d25b4d41": 1789185193.288874
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T23:00:00+00:00",
       "cluster": "cb99c2b66d1"
-    },
-    {
-      "t": "Choi Doo-ho Faces Bellator Legend Patricio Pitbull in Los Angeles",
-      "source": "en.sedaily.com",
-      "ts": "2026-09-17T22:47:27+00:00",
-      "cluster": "cdfdc2904be"
     },
     {
       "t": "UFC White House event regulator rejects Topuria’s claim about Gaethje’s gloves",
@@ -4615,13 +4609,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-19T22:06:33+00:00",
       "cluster": "c35289cea3a"
+    },
+    {
+      "t": "Gable Steveson Gets Absolutely Torched by Fans After Cold Jon Jones-Inspired UFC 331 Gesture",
+      "source": "MMA Sucka",
+      "ts": "2026-09-19T22:06:34+00:00",
+      "cluster": "c1cfe4d2e53"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T22",
-    36
+    37
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
