@@ -1,5 +1,6 @@
 {
   "seen": {
+    "189f404eefd120c3": 1789790332.57509,
     "0e889c77c3d403a9": 1789790309.0993109,
     "f60ad38b1127cb96": 1789790285.4067106,
     "0ccfd207182353a6": 1789790262.2066739,
@@ -2498,8 +2499,7 @@
     "c202deeed180755a": 1789065833.3809829,
     "da810c429156d3a2": 1789065768.3985562,
     "b9504a9b19f46398": 1789065704.9267778,
-    "d5c0503a47442493": 1789065704.6808856,
-    "ca2f6a404986ca8c": 1789065704.6799407
+    "d5c0503a47442493": 1789065704.6808856
   },
   "initialized": true,
   "v": 4,
@@ -4663,16 +4663,21 @@
       "source": "MMA Junkie",
       "ts": "2026-09-19T03:09:00+00:00",
       "cluster": "cd39ce1d53d"
+    },
+    {
+      "t": "Colby Covington settles bitter Belal Muhammad feud with dominant shutout for RAF Wrestling belt",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-19T03:27:29+00:00",
+      "cluster": "c1cf98a8f8b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T03",
-    10
+    11
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330234",
     "https://www.mmafighting.com/?p=508550",
     "CBMiogFBVV95cUxNbF91cno4eDRWRlljY01DNjQtR1hraUotYld2M1NnejBDeUt6cm41bDI5X3Y1dHA1SU5ZTnBRRGVVNXQyUldvVHIxTzZqX1R5Um5DOG53aVdlZVJ6VFhwdVB3c25vbktYVnNaYjFnQjgwUWY0QWxGTDUtT0FPalFGZXJkbUdYLTl5TF8yQm5wbTBWRVVydGJvXzZzT3VxcFhYM0E",
     "4dbdd4ca-3e2a-3291-8cef-6ee902e9d69a",
@@ -6171,11 +6176,12 @@
     "CBMimwFBVV95cUxPNnI0dHNrRld0TEVMQmNWV2lBTjliX0xQaG85ZXRUZFVPbzZlZmdyWnA4RmdQZml0SGxFSnJybnlVWl9rLUpETm8xcE9nYmtaVHlQNnVFcTlvWGxxMnAxNm15T3VzWW9hc2ZySGdqYXAtVUEzNnNlbHZkS2NxM25nczBQbVZBZ3FtSWpwMkJOUG8wX2pmSGlmUEZhYw",
     "https://www.mmafighting.com/?p=510981",
     "https://www.mmafighting.com/?p=510943",
-    "CBMi2AFBVV95cUxNcExSbjkyeTdvTWRlOEMwWm9KdkxZdmxuTFZmSE92dEZTUEJud3JrNUIyU2RVbmpBdEdxM3Q2LWQ3RVNRaTMtYThDTDdJa052cVRmUktNS2ZvMzRJb0ZidnJjblctcXJoWkNQVUJkaXRKTEdLR2R5cjAxR1hLeUpybEEzOVFfRDlPT29QN0tnNldWZnZjXzNkU0JkM2loRGFaNnhlYUplVGZ6akpSOWpJSUJNZ1R0enFmVUpSVHRLV2hfUzF4cUUzVFF0NW5jLUVDQ2FzT2J5YzM"
+    "CBMi2AFBVV95cUxNcExSbjkyeTdvTWRlOEMwWm9KdkxZdmxuTFZmSE92dEZTUEJud3JrNUIyU2RVbmpBdEdxM3Q2LWQ3RVNRaTMtYThDTDdJa052cVRmUktNS2ZvMzRJb0ZidnJjblctcXJoWkNQVUJkaXRKTEdLR2R5cjAxR1hLeUpybEEzOVFfRDlPT29QN0tnNldWZnZjXzNkU0JkM2loRGFaNnhlYUplVGZ6akpSOWpJSUJNZ1R0enFmVUpSVHRLV2hfUzF4cUUzVFF0NW5jLUVDQ2FzT2J5YzM",
+    "https://bloodyelbow.com/?p=332328"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 10,
+    "ai": 11,
     "staged": 2,
     "prio": 0,
     "lost": 0
