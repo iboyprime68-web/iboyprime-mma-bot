@@ -1,5 +1,12 @@
 {
   "seen": {
+    "069d2030bd4eab57": 1789790379.8892682,
+    "d8bb8f26ceb4d327": 1789790379.484514,
+    "eced2a383c79c258": 1789790379.4568615,
+    "e7c8f50833e05939": 1789790379.455051,
+    "d80e2c61eded5b8e": 1789790379.4534721,
+    "3cce2b00b1ba9adf": 1789790379.4492412,
+    "f608ad2775c4ae6b": 1789790379.4471352,
     "e4f56c5efca81607": 1789790355.6886647,
     "189f404eefd120c3": 1789790332.57509,
     "0e889c77c3d403a9": 1789790309.0993109,
@@ -2492,14 +2499,7 @@
     "88705c325ab41e02": 1789066152.0967765,
     "3d2ff14a0d8f5c4e": 1789066151.1712015,
     "7ab647f71d0aa39a": 1789066087.5001864,
-    "ec37210159e4ebba": 1789066024.3189023,
-    "1687267ef4febd83": 1789065960.4504638,
-    "44c20615c4f8c84d": 1789065960.128793,
-    "611f8b05cf50729e": 1789065960.12679,
-    "c6a83009fa434e90": 1789065896.7924473,
-    "c202deeed180755a": 1789065833.3809829,
-    "da810c429156d3a2": 1789065768.3985562,
-    "b9504a9b19f46398": 1789065704.9267778
+    "ec37210159e4ebba": 1789066024.3189023
   },
   "initialized": true,
   "v": 4,
@@ -4675,16 +4675,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T03:37:47+00:00",
       "cluster": "c61492bea0c"
+    },
+    {
+      "t": "Crypto.com UFC 331",
+      "source": "UFC.com",
+      "ts": "2026-09-19T03:18:27+00:00",
+      "cluster": "c47056068ad"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T03",
-    12
+    13
   ],
   "yt_eval": [
-    "CBMiogFBVV95cUxNbF91cno4eDRWRlljY01DNjQtR1hraUotYld2M1NnejBDeUt6cm41bDI5X3Y1dHA1SU5ZTnBRRGVVNXQyUldvVHIxTzZqX1R5Um5DOG53aVdlZVJ6VFhwdVB3c25vbktYVnNaYjFnQjgwUWY0QWxGTDUtT0FPalFGZXJkbUdYLTl5TF8yQm5wbTBWRVVydGJvXzZzT3VxcFhYM0E",
     "4dbdd4ca-3e2a-3291-8cef-6ee902e9d69a",
     "https://bloodyelbow.com/?p=330179",
     "cd5e6c95-d8fa-3305-a04b-efa67f4f3b8e",
@@ -6183,11 +6188,12 @@
     "https://www.mmafighting.com/?p=510943",
     "CBMi2AFBVV95cUxNcExSbjkyeTdvTWRlOEMwWm9KdkxZdmxuTFZmSE92dEZTUEJud3JrNUIyU2RVbmpBdEdxM3Q2LWQ3RVNRaTMtYThDTDdJa052cVRmUktNS2ZvMzRJb0ZidnJjblctcXJoWkNQVUJkaXRKTEdLR2R5cjAxR1hLeUpybEEzOVFfRDlPT29QN0tnNldWZnZjXzNkU0JkM2loRGFaNnhlYUplVGZ6akpSOWpJSUJNZ1R0enFmVUpSVHRLV2hfUzF4cUUzVFF0NW5jLUVDQ2FzT2J5YzM",
     "https://bloodyelbow.com/?p=332328",
-    "https://bloodyelbow.com/?p=331566"
+    "https://bloodyelbow.com/?p=331566",
+    "CBMiVkFVX3lxTFBlZlJ6dVByQkZNX2lZMWF4X1NHS3lHOG0zd3RYeE5ya3JQR1dDMTNsLXVGMWNldHpqZkFqZVAtUmZMM1FQQ2Vac0QwczNkaHYyR1V1aGVR"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 12,
+    "ai": 13,
     "staged": 2,
     "prio": 0,
     "lost": 0
