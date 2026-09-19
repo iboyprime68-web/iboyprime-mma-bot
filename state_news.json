@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c0b30243417d2342": 1789857420.7026696,
     "317b26e062462bd9": 1789857357.416539,
     "ec990a6f2b1a7524": 1789857314.8772554,
     "1453099bc5e4d441": 1789857292.6578877,
@@ -2498,8 +2499,7 @@
     "c44152a90f662588": 1789170382.4206355,
     "711297f3839761b4": 1789170256.3332112,
     "77a8eddd41a3152f": 1789170192.5656023,
-    "73a6eb0f78eb189c": 1789170129.0792794,
-    "da1226821603ff2a": 1789169755.2532728
+    "73a6eb0f78eb189c": 1789170129.0792794
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T23:00:00+00:00",
       "cluster": "cb99c2b66d1"
-    },
-    {
-      "t": "Belal Muhammad Believes Mauricio Ruffy in Peril at 331",
-      "source": "MMA Sucka",
-      "ts": "2026-09-17T22:36:27+00:00",
-      "cluster": "cd5dc0d6adf"
     },
     {
       "t": "Sean King III Says He Feared Jessie Rosas ‘Wasn’t Alive’ After Noche UFC Slam KO",
@@ -4573,13 +4567,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-19T22:06:13+00:00",
       "cluster": "ca4666f594f"
+    },
+    {
+      "t": "Kayla Harrison Targeting Return in November at UFC 334",
+      "source": "MMA Sucka",
+      "ts": "2026-09-19T22:06:14+00:00",
+      "cluster": "c65732d11da"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T22",
-    26
+    27
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
