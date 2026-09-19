@@ -1,5 +1,7 @@
 {
   "seen": {
+    "0b169095eeb30f9b": 1789790451.5364246,
+    "77ef0cd053d1c9db": 1789790451.2860162,
     "6c0f1f79b8b12763": 1789790427.0870488,
     "b2302421f5e7be70": 1789790426.822309,
     "1e1ecdddd205953c": 1789790403.6299362,
@@ -2497,9 +2499,7 @@
     "4ae7d7cdba24c6b4": 1789066406.5296578,
     "f498120bef8bac99": 1789066343.261757,
     "d486be89d7bc7306": 1789066279.8377612,
-    "2480f859054c423f": 1789066279.5969753,
-    "409b87abc14856e9": 1789066279.5939937,
-    "f376cc4eeb417d2f": 1789066215.5317776
+    "2480f859054c423f": 1789066279.5969753
   },
   "initialized": true,
   "v": 4,
@@ -4693,16 +4693,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-19T03:49:44+00:00",
       "cluster": "cac1eca1958"
+    },
+    {
+      "t": "Joe Rogan calls Trump supporters ‘nuts’ after 2024 endorsement",
+      "source": "news.meaww.com",
+      "ts": "2026-09-19T03:08:37+00:00",
+      "cluster": "cc9a0430fa1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T04",
-    2
+    3
   ],
   "yt_eval": [
-    "cd5e6c95-d8fa-3305-a04b-efa67f4f3b8e",
     "CBMipAFBVV95cUxPaHpBTi1rS3IwbGh0MUtMUnlMeFdIRG1NOU1xNkM3dERMdVgySnRycGhyc2J1SjBwT3hnRVQ3LVRIVUh2bWdXNjNxUVVRV05MdWhNLUJTdXFGTUFEQXFTX1p3MGN4R0E2NkZUM0lOSFZfYi1qMVZnRVdSdERLWl9VR3FvV2NZSmxMNkNLckMyY1kzNm9DUVNacVdGd2xHdTZHYldqVtIBqgFBVV95cUxPMVB5S2FyalU1dUtLTE53ZjlrX2JaLU5rVG9aWjdTU3pDRjBkV3dhWVA2SjZtZmEyVnY5ZjZvaGpwb2xmSmNLZ0ZzTGpsakI1TGMtQ2hqZTBCMVdZWTNkYXFTZkNDclZIOFlUVmRPb19UNGx2YU5jcGdwSFJDX1Q0UERwNF9La2Y1eDgwSXB0MjB5cmVldHgyZks0c2N5cFRUVGhTZ0hSNWRIZw",
     "CBMihgFBVV95cUxNamlMVnhXUHpRcW5SRkEzYWtQQnJrMUZEcUtYMmtFQ0dhVTFqdlRldm1Nd3U1UEFzeHBobHJYZEhXOTJ4S2s4My1aa2pHN0Ftai1lS2xpZjJ5bWRWNXlJOHlBbmFmR3hXT2FfaGtlUkVveFRCUnhJT1VCV1hISkwySkVvYjl5dw",
     "CBMifkFVX3lxTE5ZdHFBRDNSRlNMdFFBbXVXQWx6clZyYWFmU0plQjVNZXNaZ0NOVG9wanJ5T0dDNXVuWFUyT0VOU2E0S2M1MFdqMWdaaXZUbmthM29UY1dXa25QZjNQVkJXSWlTYVVPNHZOME5sUUV3U19FTUhqUFJjajZlTExNQQ",
@@ -6201,11 +6206,12 @@
     "https://bloodyelbow.com/?p=331566",
     "CBMiVkFVX3lxTFBlZlJ6dVByQkZNX2lZMWF4X1NHS3lHOG0zd3RYeE5ya3JQR1dDMTNsLXVGMWNldHpqZkFqZVAtUmZMM1FQQ2Vac0QwczNkaHYyR1V1aGVR",
     "https://www.mmamania.com/473179/mm-clone",
-    "https://www.mmafighting.com/?p=511006"
+    "https://www.mmafighting.com/?p=511006",
+    "CBMiiwFBVV95cUxOLXVKWUZ3Vm5MZ1lwcFVmcW1ZNmQtalJPZ2VIOHZnandCZ012YnJhYm5sSkMwcGNVTG9nYVkxMlRqYlpsZlhZTHFsd3ZrM01sUWFzcTV4cEc5azNWXzh4SFpTN1ZWUFVWZGgtbFZCeWdGSTJZemJRbkNuTkVBZVJXY3ZSUV9sem90cERV"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 15,
+    "ai": 16,
     "staged": 2,
     "prio": 0,
     "lost": 0
