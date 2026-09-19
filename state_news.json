@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7e7c7be471473ce4": 1789845348.9895294,
     "de595f43c0ab7b5d": 1789845325.4772036,
     "d088c0a9b7794f54": 1789845324.8288565,
     "4aac25c6e1e9c9f6": 1789845324.825697,
@@ -2498,8 +2499,7 @@
     "1f725d2f4e959d42": 1789148438.6866693,
     "de6b86a4fbd1ae62": 1789148416.5277941,
     "e2440dd9b2c77929": 1789148415.532199,
-    "546b8e4a0135b309": 1789148392.0509026,
-    "7c02306462f5f673": 1789148369.6843138
+    "546b8e4a0135b309": 1789148392.0509026
   },
   "initialized": true,
   "v": 4,
@@ -4555,16 +4555,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-19T17:31:06+00:00",
       "cluster": "cf2006bab25"
+    },
+    {
+      "t": "Former WWE champion Jake Hager underwent emergency surgery after Power Slap injury as update issued",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-19T19:00:00+00:00",
+      "cluster": "c19f1a1cd39"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T19",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMiwgJBVV95cUxNVFI2NE9vV3dQdFNqd3htb1ZkTUtrNUFRQzZ1MlZXajJodktpeWd2YXBUaldfN1pwUlBqYWNlclhGMDVNZXUtUzRzWW1QX1VsbGFQNUlqYTFxNnR0Q1UzN25fYzdHcG5Id0xYT0ZEeXRtVGx3VFhobzBjZ05hYm1IX2JpWUQ2VWd2OFZVREh1dWNoa2gzcWNYN3NfeTZxTnhKejd1OHZ2c2hCVy1vMXU2a0FNQkI0ZXFzYzg0VVk4OVFnOFZPaHhQc1dVbWFyMERnMk5mQm5HcGZnSjBEaVBkb2l3VlVwMWxEdmNMUnVrYlZGeHhBYmJ2TEhCWTlSal9sd055ZmFsZDNIN19RUGl4QXJrNjNNYjktLWhvTVp4V3FZdE9sa1JOMS1MTHJNdzhocWVERnh6QlpJUzZ4VkwyWHp30gHHAkFVX3lxTFBBQVRwcTlmM0NMaGh0RmhzSkllb0x2aGpRYjhWelVtWXV5ZFNaajhwSnJwd1VhWGxIcnR0MnFWM09CUW1ENnVpSVlOTXJkbWtRSEdSak1famFWcDNMdHlEbUlMQlBlSVN1NUJ5QlE1b0k4UnFtY3Zic0dIQ01LcWpIemdKRzJodWNCX0hlY0ZPa0lqeThuOXVSakI3WWRGTTllazVLZFV5bVpCd09YTV9MVHFCbndDTWNwZ2NoSzc1aXNPUWdlOUtJMXFlUDctN0U3TjVqeERESGJ6X1JnRGJRckhRSVZtalpKMnNEVW9xTDh1TVJIT1FCcWc1Y182aTdHb0tIbjlUUENkTTdnRU1zcEZEQXhOR1pFOHBkbjI0OWpwbHc3LUg2LU9KZ0VMQUZqTkdkT1A3cG9WbjdwQmVkS3VxeDJvZw",
     "CBMiR0FVX3lxTE5XRTZ0Rl9ULXNaOEtMWGFoTGo2dktwakd0S2FiWnA3aGhtZ3Z4ay1yMHlRaXRLcjRib0o1VVFkMVJUOUd6cnl3",
     "https://www.mmamania.com/469572/highlights-open-ufc-paris",
     "CBMiuAFBVV95cUxQd3R3MmJPQW81RFBNSmNPeWFteDl0R3JKUnVYV2dxSU5COG5sOVZGT1d3UVFKbTQxalItblgwU1RRWGFnZGxlN2JiVmUtZ0VGRTIwTjd2TUlHUjUwd2J0NzZva1pUaFU1aFFaZnJERFlaTWpFNzdJS3ZtS1VGWVpmM0VuSmtrb0RZeFl3LTcyMG1iYUxOZHNwcG1fNlBaNUFPZmE4Y0wwOVJ5MlJ0SFlXQmI3enVORl9H",
@@ -6063,11 +6068,12 @@
     "https://www.mmafighting.com/?p=510685",
     "https://www.mmafighting.com/?p=511035",
     "https://bloodyelbow.com/?p=332397",
-    "9da36a06-4e71-35f3-8040-0429b57d8a50"
+    "9da36a06-4e71-35f3-8040-0429b57d8a50",
+    "https://bloodyelbow.com/?p=332408"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 93,
+    "ai": 94,
     "staged": 5,
     "prio": 0,
     "lost": 0
