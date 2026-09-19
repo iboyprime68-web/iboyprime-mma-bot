@@ -1,5 +1,7 @@
 {
   "seen": {
+    "d10ef811f70f07f2": 1789807549.0402083,
+    "523a9b448226cf96": 1789807548.7418015,
     "3d8b0d1762856a8f": 1789807484.3952215,
     "46f600970294f8d3": 1789807484.1684556,
     "a9a126f1042b0a2f": 1789807484.1681957,
@@ -2497,9 +2499,7 @@
     "b66ed6c60aa5c5bb": 1789076912.4253335,
     "6b9f8998b420d741": 1789076848.273821,
     "89cd541f4cb5f97b": 1789076782.665719,
-    "9ecc7e9f5afba6ad": 1789076717.7396884,
-    "9a6ce01c74433e19": 1789076653.278253,
-    "3a3f2326785c3081": 1789076652.6000228
+    "9ecc7e9f5afba6ad": 1789076717.7396884
   },
   "initialized": true,
   "v": 4,
@@ -4651,16 +4651,21 @@
       "source": "sportingnews.com",
       "ts": "2026-09-19T07:50:01+00:00",
       "cluster": "ca5eda76cb9"
+    },
+    {
+      "t": "Vera vs. Jourdain: UFC 331 Picks & Predictions",
+      "source": "bettingpros.com",
+      "ts": "2026-09-19T07:50:20+00:00",
+      "cluster": "c9b8f5fb84d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T08",
-    8
+    9
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330205",
     "4254883d-417a-3b40-aa29-1d2a18a4dc6f",
     "1c01fc6a-ac85-3e8d-9b35-52a33e8162f4",
     "6988d468-ce6a-3701-adfb-d0e1e712ea7e",
@@ -6159,11 +6164,12 @@
     "https://bloodyelbow.com/?p=332338",
     "https://bloodyelbow.com/?p=332094",
     "6fa2b654-c5c0-3d0b-ab86-ec661f162aa0",
-    "CBMiuwFBVV95cUxNM0VtOU94WVdpX2loUHU5T0VGSnZjZE81aVEyaDVDb1BzSy0wSFA1SW44Q0l4OWNpOXZLdmJQYUVLaENCd2lpTEg1NWJQMXVrdnM5dk5lSzg3LWtTZ0RTSUZUZmh1eFNLVlFUbmYyNjh5d0JBZlBzdFNFalpDeVVDWE5kbUU0Tm5WWXNtMXlHRGRqMHR1VlJHYk1PUFIwMXJZZmwzRkpPRFQ3aFV2bDEtS1B5MklRbUEta0E0"
+    "CBMiuwFBVV95cUxNM0VtOU94WVdpX2loUHU5T0VGSnZjZE81aVEyaDVDb1BzSy0wSFA1SW44Q0l4OWNpOXZLdmJQYUVLaENCd2lpTEg1NWJQMXVrdnM5dk5lSzg3LWtTZ0RTSUZUZmh1eFNLVlFUbmYyNjh5d0JBZlBzdFNFalpDeVVDWE5kbUU0Tm5WWXNtMXlHRGRqMHR1VlJHYk1PUFIwMXJZZmwzRkpPRFQ3aFV2bDEtS1B5MklRbUEta0E0",
+    "CBMijAFBVV95cUxOVXMxMnRUUVgzSEFiaEM1R3Z0TnBCQUVMYTFjQ2U1aGM4RTg2ZmloUk9nTWRBZFFkeUNhWjA0YnVySk4wc1ZyaW5paGZYdlZ6UXJ1cDVmZTlibE1zUzRrbVpsMDVBdzdfbnhvR25KczByZGtraFlxQ1BQNjlfX1BBeHRITmJtdS1VV3RiS9IBjAFBVV95cUxOVXMxMnRUUVgzSEFiaEM1R3Z0TnBCQUVMYTFjQ2U1aGM4RTg2ZmloUk9nTWRBZFFkeUNhWjA0YnVySk4wc1ZyaW5paGZYdlZ6UXJ1cDVmZTlibE1zUzRrbVpsMDVBdzdfbnhvR25KczByZGtraFlxQ1BQNjlfX1BBeHRITmJtdS1VV3RiSw"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 32,
+    "ai": 33,
     "staged": 2,
     "prio": 0,
     "lost": 0
