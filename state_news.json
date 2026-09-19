@@ -1,5 +1,11 @@
 {
   "seen": {
+    "3d8b0d1762856a8f": 1789807484.3952215,
+    "46f600970294f8d3": 1789807484.1684556,
+    "a9a126f1042b0a2f": 1789807484.1681957,
+    "29fc6dac7f888902": 1789807484.1666334,
+    "b613a3ca27e2d974": 1789807484.1663785,
+    "eea09b40553f7baf": 1789807484.1660028,
     "8fec244508a97df0": 1789807420.1348846,
     "3a9999ae355f39b1": 1789807395.227118,
     "bb31c703d78b8b71": 1789807371.92483,
@@ -2493,13 +2499,7 @@
     "89cd541f4cb5f97b": 1789076782.665719,
     "9ecc7e9f5afba6ad": 1789076717.7396884,
     "9a6ce01c74433e19": 1789076653.278253,
-    "3a3f2326785c3081": 1789076652.6000228,
-    "5507486fc0d01dd6": 1789076652.5987303,
-    "8015eaed6ebac4d7": 1789076587.6362703,
-    "81b0e989482f5f3e": 1789076523.3843112,
-    "526f4e0ce662f191": 1789076523.035056,
-    "a444c5cc772d0254": 1789076458.027642,
-    "57b5fed934edd107": 1789076392.8499827
+    "3a3f2326785c3081": 1789076652.6000228
   },
   "initialized": true,
   "v": 4,
@@ -4645,16 +4645,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-19T05:37:43+00:00",
       "cluster": "c7ec3376c8c"
+    },
+    {
+      "t": "UFC 331 live stream: How to watch Van vs. Pantoja 2, start time, channel",
+      "source": "sportingnews.com",
+      "ts": "2026-09-19T07:50:01+00:00",
+      "cluster": "ca5eda76cb9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T08",
-    7
+    8
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330271",
     "https://bloodyelbow.com/?p=330205",
     "4254883d-417a-3b40-aa29-1d2a18a4dc6f",
     "1c01fc6a-ac85-3e8d-9b35-52a33e8162f4",
@@ -6153,11 +6158,12 @@
     "4aa515ac-885c-497c-9e44-ba41c890b601",
     "https://bloodyelbow.com/?p=332338",
     "https://bloodyelbow.com/?p=332094",
-    "6fa2b654-c5c0-3d0b-ab86-ec661f162aa0"
+    "6fa2b654-c5c0-3d0b-ab86-ec661f162aa0",
+    "CBMiuwFBVV95cUxNM0VtOU94WVdpX2loUHU5T0VGSnZjZE81aVEyaDVDb1BzSy0wSFA1SW44Q0l4OWNpOXZLdmJQYUVLaENCd2lpTEg1NWJQMXVrdnM5dk5lSzg3LWtTZ0RTSUZUZmh1eFNLVlFUbmYyNjh5d0JBZlBzdFNFalpDeVVDWE5kbUU0Tm5WWXNtMXlHRGRqMHR1VlJHYk1PUFIwMXJZZmwzRkpPRFQ3aFV2bDEtS1B5MklRbUEta0E0"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 31,
+    "ai": 32,
     "staged": 2,
     "prio": 0,
     "lost": 0
