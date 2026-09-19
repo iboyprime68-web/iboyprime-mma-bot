@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0db16b6b89b55e0a": 1789857249.3325243,
     "bebfaec1b2966a79": 1789857227.3591888,
     "064f3ad698136084": 1789857227.0525317,
     "fc555f902580fc4d": 1789857227.0438032,
@@ -2498,8 +2499,7 @@
     "59f360a41343ebab": 1789169628.7610283,
     "6f733aa6de990562": 1789169503.1107187,
     "b3d82c691a7c40a0": 1789169438.9993672,
-    "a7485b5ec117a67e": 1789169438.999106,
-    "7c8bc77974a8d09d": 1789169374.4379017
+    "a7485b5ec117a67e": 1789169438.999106
   },
   "initialized": true,
   "v": 4,
@@ -4549,13 +4549,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-19T22:26:54+00:00",
       "cluster": "cad6328fbf3"
+    },
+    {
+      "t": "UFC 331 video: Casey O’Neill scores spectacular armbar submission after nearly being choked out",
+      "source": "MMA Fighting",
+      "ts": "2026-09-19T22:33:59+00:00",
+      "cluster": "c13492ad0d0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T22",
-    22
+    23
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
