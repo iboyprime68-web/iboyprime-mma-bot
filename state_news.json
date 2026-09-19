@@ -1,5 +1,6 @@
 {
   "seen": {
+    "44790a06581ce844": 1789834825.1561346,
     "d0b48acac617c5fd": 1789834801.9257438,
     "df941fc9ecdae008": 1789834777.870913,
     "e690a12e62538904": 1789834754.6976218,
@@ -2498,8 +2499,7 @@
     "95b4f0e8281e71ba": 1789117214.9443994,
     "b81eef94446729a8": 1789117147.0904238,
     "832d38a4193613c2": 1789117082.844393,
-    "70485fb31655648b": 1789117019.2310057,
-    "8c9cf97a69f8337d": 1789116974.8688233
+    "70485fb31655648b": 1789117019.2310057
   },
   "initialized": true,
   "v": 4,
@@ -4555,16 +4555,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T14:00:00+00:00",
       "cluster": "c7cc01c0f05"
+    },
+    {
+      "t": "Anything but Fighting: Edmen Shahbazyan answers random questions",
+      "source": "MMA Fighting",
+      "ts": "2026-09-19T14:56:32+00:00",
+      "cluster": "c39a201a0b9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T16",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMiywFBVV95cUxQSXc5Z080ZlJBYzVmMUg2VDNyQ3ZVT2JiQU9ZNHlOT0RqQlljRWdSQ2stUTY2R3ByYkdVYURMMnpfQjVJWThzd1lzWjZNZDdtdHNuaXJ4S00xVzdBdVpKX2x2SkNxVmkwUDhmOE16bFFWUlRjSUs3MWhNa2hTbUxpMnlRRzhFX1JpUkxldXJKZUhtRk51OVUxeGdkdGNLVnZZV0tXWl9PTmJXbVc5dzBxdF8zZEhOLWJYMzdvQWtJenBLalJpUHEyNGdDYw",
     "CBMimAFBVV95cUxQM2NGbFl4Vm1pOGwzaFlSbWZVWHJMVVRoV1ZTWEthUF9WQXNqTmY5dWFmOVZseGZyaVlYV09ES1lNVkNiakRIcy1HaWJoTEtxc1JjUmJwZTJnWk13c2o4RVpBeG9IZG9RODlmYjhxWFktcnRMS3F3VzZhRlNzakd3OElaelB6YzVrM0hSTlZLX2FkX0xoaFBkNg",
     "https://bloodyelbow.com/?p=330326",
     "https://www.mmafighting.com/508477/ufc-paris-predictions",
@@ -6063,11 +6068,12 @@
     "https://www.mmafighting.com/?p=510502",
     "https://www.mmafighting.com/?p=510893",
     "https://www.mmafighting.com/?p=511027",
-    "https://bloodyelbow.com/?p=332379"
+    "https://bloodyelbow.com/?p=332379",
+    "https://www.mmafighting.com/?p=510963"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 65,
+    "ai": 66,
     "staged": 5,
     "prio": 0,
     "lost": 0
