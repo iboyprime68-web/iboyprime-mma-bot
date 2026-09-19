@@ -1,5 +1,7 @@
 {
   "seen": {
+    "1ba75db2197dd841": 1789857801.8563988,
+    "ebac4d11f655d575": 1789857801.4063022,
     "a662fbcfec606fec": 1789857738.1631505,
     "774aa776393fe248": 1789857674.5506005,
     "15a80f89219f33ba": 1789857610.869205,
@@ -2497,9 +2499,7 @@
     "3eef5250be1ff676": 1789171076.5193615,
     "776c4355ad7539d6": 1789170950.774465,
     "b255e41c420d15bf": 1789170950.7741659,
-    "8308c27eeea6559c": 1789170886.9389553,
-    "076d02cfe615aaa7": 1789170885.2755408,
-    "eb57c983bfa20e73": 1789170698.7256176
+    "8308c27eeea6559c": 1789170886.9389553
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T23:00:00+00:00",
       "cluster": "cb99c2b66d1"
-    },
-    {
-      "t": "Mauricio Ruffy details Australia training camp ahead of Arman Tsarukyan fight",
-      "source": "MMA Sucka",
-      "ts": "2026-09-17T22:43:00+00:00",
-      "cluster": "cd4c8e953a3"
     },
     {
       "t": "Choi Doo-ho Faces Bellator Legend Patricio Pitbull in Los Angeles",
@@ -4597,13 +4591,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-19T22:06:19+00:00",
       "cluster": "c2024fe1e02"
+    },
+    {
+      "t": "Eduarda Moura reveals tension with Casey O'Neill ahead of UFC 331",
+      "source": "MMA Sucka",
+      "ts": "2026-09-19T22:06:22+00:00",
+      "cluster": "c24a026ae04"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T22",
-    32
+    33
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
