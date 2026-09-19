@@ -1,5 +1,12 @@
 {
   "seen": {
+    "103337351ced68c5": 1789790163.0176618,
+    "41c162ce11e7fd91": 1789790162.6389804,
+    "9d6b7225f6e42572": 1789790162.6368158,
+    "a1e505b06a8d794e": 1789790162.609849,
+    "58f3e56bbe5fa5ae": 1789790162.6066213,
+    "fd57752e778b0820": 1789790162.582433,
+    "0954d7010e06a6e8": 1789790162.5752785,
     "9b90adee05c60d9e": 1789790138.9590786,
     "e715fd5e78c02ab5": 1789790115.702233,
     "05778673ca7d1a83": 1789790115.3204541,
@@ -2492,14 +2499,7 @@
     "7cbcad8d3a14a732": 1789065577.340678,
     "2a768b5d9893a977": 1789065513.1370497,
     "89da94b660a8590b": 1789065448.8642545,
-    "bd609ac9ea1cb9b5": 1789065384.6162407,
-    "20e5e3751a718c8d": 1789065320.0550292,
-    "9ccb7274ffc276e8": 1789065255.831277,
-    "8d216cbf42888b88": 1789065211.983033,
-    "8e5308bbd05db656": 1789065211.278992,
-    "58f2f2d6a934a47d": 1789065211.2764378,
-    "500b6afc212b02ea": 1789065188.7767193,
-    "0cf7e7961bee55a4": 1789065122.5576153
+    "bd609ac9ea1cb9b5": 1789065384.6162407
   },
   "initialized": true,
   "v": 4,
@@ -4621,16 +4621,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-19T02:11:00+00:00",
       "cluster": "cbfb9e35948"
+    },
+    {
+      "t": "Chimaev Faces Burns In RAF 13 Wrestling Match",
+      "source": "boxingnews.com",
+      "ts": "2026-09-19T03:00:39+00:00",
+      "cluster": "c4078d4dd5b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T03",
-    3
+    4
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330236",
     "f94508e3-9d1b-3581-abc8-58096f7b9a12",
     "af85d63f-f471-3618-92c2-23148c56b369",
     "bfdfab71-0dde-30d2-b3d9-4378cbd31b6d",
@@ -6129,11 +6134,12 @@
     "CBMiogFBVV95cUxOUkpFOG1mLVM0Tlg0T1Q2R2liLTVlb0RqWmFWdXNuZkNsU1d5c295aGdxLWstSk5faEFTTldCYktRRFV2WWdRUHRhNlBuaDlBdFM2dkFCVWV4M29OeUowa2pIczF5RWVudHNLVXlDek5hWWVYMFEweTR6X0J0Mmo0Z005TkxJNzByQTQ1QUhWRmtkcHMteDdtUF9ZMEVSeFpLRkE",
     "33e4f277-a910-3162-bae6-53d32f1a256d",
     "https://bloodyelbow.com/?p=332276",
-    "https://www.mmafighting.com/?p=510924"
+    "https://www.mmafighting.com/?p=510924",
+    "CBMia0FVX3lxTFBHVnFWNjhtZ2d5bzFXRy1WSmc5LWQzM2NVMVdrS1BNSml3MTVNVFYzY01HSTF1Q3RxalpLbGRWQ1FpQ2xhTXVYbHZZU1FNX1lDNUV5dU5VclFYYnJDRFROeWlIV18wX2xoaHlV"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 3,
+    "ai": 4,
     "staged": 0,
     "prio": 0,
     "lost": 0
