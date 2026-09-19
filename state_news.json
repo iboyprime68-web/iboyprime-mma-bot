@@ -1,5 +1,10 @@
 {
   "seen": {
+    "9b2c403b5ecd1cb2": 1789790580.7421293,
+    "1a424635cacc0fb0": 1789790580.5798771,
+    "20f8f50d64f8f114": 1789790580.5524237,
+    "d79d57e81ea99849": 1789790580.5502088,
+    "1b7b2de13a0c393d": 1789790580.5478091,
     "acc1cc23aa7bf921": 1789790516.0497005,
     "4a586b8e3fa010d2": 1789790515.7592015,
     "0b169095eeb30f9b": 1789790451.5364246,
@@ -2494,12 +2499,7 @@
     "d88bb6944ecd320c": 1789066770.9564672,
     "88d2ba8a00f5e623": 1789066727.6003501,
     "88aafecfdf6930e3": 1789066662.6087155,
-    "d65710e71a03d376": 1789066599.1444073,
-    "e9cf25b04388cef0": 1789066535.2762856,
-    "65222143ebed3b01": 1789066470.917646,
-    "a812a741982eb602": 1789066406.8627079,
-    "4ae7d7cdba24c6b4": 1789066406.5296578,
-    "f498120bef8bac99": 1789066343.261757
+    "d65710e71a03d376": 1789066599.1444073
   },
   "initialized": true,
   "v": 4,
@@ -4705,16 +4705,21 @@
       "source": "Laodong.vn",
       "ts": "2026-09-19T03:09:25+00:00",
       "cluster": "ccec406c82f"
+    },
+    {
+      "t": "RAF 13: Colby Covington and Khamzat Chimaev Victorious as Potential Matchup Looms",
+      "source": "heavy.com",
+      "ts": "2026-09-19T03:37:00+00:00",
+      "cluster": "c6fecaca9c0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T04",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMihgFBVV95cUxNamlMVnhXUHpRcW5SRkEzYWtQQnJrMUZEcUtYMmtFQ0dhVTFqdlRldm1Nd3U1UEFzeHBobHJYZEhXOTJ4S2s4My1aa2pHN0Ftai1lS2xpZjJ5bWRWNXlJOHlBbmFmR3hXT2FfaGtlUkVveFRCUnhJT1VCV1hISkwySkVvYjl5dw",
     "CBMifkFVX3lxTE5ZdHFBRDNSRlNMdFFBbXVXQWx6clZyYWFmU0plQjVNZXNaZ0NOVG9wanJ5T0dDNXVuWFUyT0VOU2E0S2M1MFdqMWdaaXZUbmthM29UY1dXa25QZjNQVkJXSWlTYVVPNHZOME5sUUV3U19FTUhqUFJjajZlTExNQQ",
     "CBMiXkFVX3lxTE5FVzFYeUtPVlVBcFh1OFJVVXBWZjYta1VWa2dZNklfZ3kxYldLRGVWa1otYmdzTDRfbjU4dkNkQm5TVEExb1EtNWJuQ2RLMG83cnFVTjgwOTFScDExd3c",
     "CBMijAFBVV95cUxNV0xEZ2N3RC0tZ1RzMEhwNjJxT2RUMjNrZ2JUSlBBZzd4Z2gtY2dZalBnTEh4VFR0SWduWFl2YTQwME9zMDRKaXJqX2F0Z3BNSXIzMGhaTVIyMEgtc09YNWV1bmVTelVsNXhFT0NMc2h4MDBfamVFR3RrZ1ZUa3lvMTNBZmFYQVNGY0tNZw",
@@ -6213,11 +6218,12 @@
     "https://www.mmamania.com/473179/mm-clone",
     "https://www.mmafighting.com/?p=511006",
     "CBMiiwFBVV95cUxOLXVKWUZ3Vm5MZ1lwcFVmcW1ZNmQtalJPZ2VIOHZnandCZ012YnJhYm5sSkMwcGNVTG9nYVkxMlRqYlpsZlhZTHFsd3ZrM01sUWFzcTV4cEc5azNWXzh4SFpTN1ZWUFVWZGgtbFZCeWdGSTJZemJRbkNuTkVBZVJXY3ZSUV9sem90cERV",
-    "CBMijgFBVV95cUxPbkNjdHRXNndxUzlMbjRJU0hMLUlIc0FqTUlBaXpwRzF3d2gzTDM2YzA0Ml9QbU5vNGxuVGVCTnpaUnUtVm1wU2NINl8tVlZocU5hUGFETWtVU2d4WlMtcnZjVUdQbGotTWx0eUI1bVlHR3VfdzB2UnYwYi03TXl4TWs4OEFzcUdmV3l4ekdn"
+    "CBMijgFBVV95cUxPbkNjdHRXNndxUzlMbjRJU0hMLUlIc0FqTUlBaXpwRzF3d2gzTDM2YzA0Ml9QbU5vNGxuVGVCTnpaUnUtVm1wU2NINl8tVlZocU5hUGFETWtVU2d4WlMtcnZjVUdQbGotTWx0eUI1bVlHR3VfdzB2UnYwYi03TXl4TWs4OEFzcUdmV3l4ekdn",
+    "CBMid0FVX3lxTE8tYzFMQ2Vqd0t1RjRzRDBCZVF1cGI3Sk5uVGE0a3BqRFVvQ25uQ3ZCekpBNE5aMXlFaF83Y3ZLVGNoeS02OFdpNDZ1dlhwZzl2bEk1RkNrdVloQVc0VjJMRnVzVTJMOGItR0theXFTcTM1Uk5WT1JF"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 17,
+    "ai": 18,
     "staged": 2,
     "prio": 0,
     "lost": 0
