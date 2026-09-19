@@ -1,5 +1,7 @@
 {
   "seen": {
+    "6c0f1f79b8b12763": 1789790427.0870488,
+    "b2302421f5e7be70": 1789790426.822309,
     "1e1ecdddd205953c": 1789790403.6299362,
     "42aae086d0ac4867": 1789790403.3237097,
     "069d2030bd4eab57": 1789790379.8892682,
@@ -2497,9 +2499,7 @@
     "d486be89d7bc7306": 1789066279.8377612,
     "2480f859054c423f": 1789066279.5969753,
     "409b87abc14856e9": 1789066279.5939937,
-    "f376cc4eeb417d2f": 1789066215.5317776,
-    "88705c325ab41e02": 1789066152.0967765,
-    "3d2ff14a0d8f5c4e": 1789066151.1712015
+    "f376cc4eeb417d2f": 1789066215.5317776
   },
   "initialized": true,
   "v": 4,
@@ -4687,16 +4687,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-19T03:14:25+00:00",
       "cluster": "ce9a7f3b616"
+    },
+    {
+      "t": "Colby Covington makes quick work of Belal Muhammad with shutout victory in RAF 13 main event",
+      "source": "MMA Fighting",
+      "ts": "2026-09-19T03:49:44+00:00",
+      "cluster": "cac1eca1958"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T04",
-    1
+    2
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330179",
     "cd5e6c95-d8fa-3305-a04b-efa67f4f3b8e",
     "CBMipAFBVV95cUxPaHpBTi1rS3IwbGh0MUtMUnlMeFdIRG1NOU1xNkM3dERMdVgySnRycGhyc2J1SjBwT3hnRVQ3LVRIVUh2bWdXNjNxUVVRV05MdWhNLUJTdXFGTUFEQXFTX1p3MGN4R0E2NkZUM0lOSFZfYi1qMVZnRVdSdERLWl9VR3FvV2NZSmxMNkNLckMyY1kzNm9DUVNacVdGd2xHdTZHYldqVtIBqgFBVV95cUxPMVB5S2FyalU1dUtLTE53ZjlrX2JaLU5rVG9aWjdTU3pDRjBkV3dhWVA2SjZtZmEyVnY5ZjZvaGpwb2xmSmNLZ0ZzTGpsakI1TGMtQ2hqZTBCMVdZWTNkYXFTZkNDclZIOFlUVmRPb19UNGx2YU5jcGdwSFJDX1Q0UERwNF9La2Y1eDgwSXB0MjB5cmVldHgyZks0c2N5cFRUVGhTZ0hSNWRIZw",
     "CBMihgFBVV95cUxNamlMVnhXUHpRcW5SRkEzYWtQQnJrMUZEcUtYMmtFQ0dhVTFqdlRldm1Nd3U1UEFzeHBobHJYZEhXOTJ4S2s4My1aa2pHN0Ftai1lS2xpZjJ5bWRWNXlJOHlBbmFmR3hXT2FfaGtlUkVveFRCUnhJT1VCV1hISkwySkVvYjl5dw",
@@ -6195,11 +6200,12 @@
     "https://bloodyelbow.com/?p=332328",
     "https://bloodyelbow.com/?p=331566",
     "CBMiVkFVX3lxTFBlZlJ6dVByQkZNX2lZMWF4X1NHS3lHOG0zd3RYeE5ya3JQR1dDMTNsLXVGMWNldHpqZkFqZVAtUmZMM1FQQ2Vac0QwczNkaHYyR1V1aGVR",
-    "https://www.mmamania.com/473179/mm-clone"
+    "https://www.mmamania.com/473179/mm-clone",
+    "https://www.mmafighting.com/?p=511006"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 14,
+    "ai": 15,
     "staged": 2,
     "prio": 0,
     "lost": 0
