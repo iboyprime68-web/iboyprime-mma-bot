@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7ccfd383d2a2bac6": 1789790235.253894,
     "e548d011a1c1c8af": 1789790208.8584898,
     "b6ee7b775b65b589": 1789790185.9782505,
     "103337351ced68c5": 1789790163.0176618,
@@ -2498,8 +2499,7 @@
     "ca2f6a404986ca8c": 1789065704.6799407,
     "0d31f34444b8aa59": 1789065704.677014,
     "0473afd3a884a68e": 1789065640.7319589,
-    "7cbcad8d3a14a732": 1789065577.340678,
-    "2a768b5d9893a977": 1789065513.1370497
+    "7cbcad8d3a14a732": 1789065577.340678
   },
   "initialized": true,
   "v": 4,
@@ -4639,16 +4639,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T03:09:35+00:00",
       "cluster": "c225144a2fb"
+    },
+    {
+      "t": "UFC won't take interim label off Gane's champion status",
+      "source": "theScore",
+      "ts": "2026-09-19T03:01:43+00:00",
+      "cluster": "ca0df67e945"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T03",
-    6
+    7
   ],
   "yt_eval": [
-    "bfdfab71-0dde-30d2-b3d9-4378cbd31b6d",
     "CBMi5gFBVV95cUxQNTJOWTdIX1Q0VDgtNXptV01veEdRNUd1dTlJMGRtSTJKQ1BKRnlwZEhlSnFBcTlyZTRESWY1Yzh1enRrRGQ5ZjAtTGFTZnBna1A3RkJmb01XX2pVaHlPTUNLRzZQS1YzT0xBLWFTQXdtMWRYRUNOYVBUTEFubXhvRkliMy1YWThUcGllSHVxSFNsV1BXRzVsTVNKVXlSV2pvcmFqTk03cnVWMW5ZMlB1MTk5T1luOEFFRnJ2S1EzNWhmTHRielVVYU0wTlphd2VDVVo5MXpzTUJnVlpMREdiVzZianJYUQ",
     "CBMiyAFBVV95cUxNSEZkUWhSNmptVHg5d2JqZ2tCa0ZTVlFXZExCeTlham9NaVpybWxCM0hHWXcySEFDN3ZTRnNSUW9DYlFsLUhkcDZHLVg2Z1RXZzJoaFBWY0ZPZzZ4Wk55RG9FS01aLWdOSHR1cU9sTEFUbHU1YlBZMWlmaGhDVTg4cmZjaFBYZEJjYzFDRjBNSnRNQXViLXA0LTY2Nml5QnZZUnVyUnBRS0lfMmhaVEg3UWNmelJwaXdNcmNlRVkybkY5dV9mdUEwag",
     "CBMiekFVX3lxTE9HRzBqMDZmRlFRdm55RVU1Sm9Oc0VHMVhGdjZON3k4anY1RU1MaEtaSkhmMG9sUmVQNl9RaHE2RWNhakhjbWtXTzUtWWRTSzA1UTFvNjB2Ni1ZcjhRZEd6dmlGbkpKTVJlNjhweHY0YUhKeHlZSTJkN2dB",
@@ -6147,25 +6152,17 @@
     "https://www.mmafighting.com/?p=510924",
     "CBMia0FVX3lxTFBHVnFWNjhtZ2d5bzFXRy1WSmc5LWQzM2NVMVdrS1BNSml3MTVNVFYzY01HSTF1Q3RxalpLbGRWQ1FpQ2xhTXVYbHZZU1FNX1lDNUV5dU5VclFYYnJDRFROeWlIV18wX2xoaHlV",
     "https://www.mmafighting.com/?p=510935",
-    "https://bloodyelbow.com/?p=332323"
+    "https://bloodyelbow.com/?p=332323",
+    "CBMimwFBVV95cUxPNnI0dHNrRld0TEVMQmNWV2lBTjliX0xQaG85ZXRUZFVPbzZlZmdyWnA4RmdQZml0SGxFSnJybnlVWl9rLUpETm8xcE9nYmtaVHlQNnVFcTlvWGxxMnAxNm15T3VzWW9hc2ZySGdqYXAtVUEzNnNlbHZkS2NxM25nczBQbVZBZ3FtSWpwMkJOUG8wX2pmSGlmUEZhYw"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 6,
-    "staged": 1,
+    "ai": 7,
+    "staged": 2,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-07T19:44:49.432689+00:00",
-      "t": "Alex Pereira seeking Ciryl Gane rematch for his next fight: ‘From what I’m seeing, it’s something that’s going to happen’",
-      "names": [
-        "pereira",
-        "gane"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-08T11:00:37.952314+00:00",
       "t": "UFC legend Diego Sanchez arrested in New Mexico",
@@ -6966,6 +6963,14 @@
       "names": [
         "chimaev",
         "burns"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-19T03:57:16.510231+00:00",
+      "t": "UFC won't take interim label off Gane's champion status",
+      "names": [
+        "gane"
       ],
       "img": "photo"
     }
