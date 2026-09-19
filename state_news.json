@@ -1,5 +1,6 @@
 {
   "seen": {
+    "691f817126a1d4b7": 1789809332.721367,
     "4c6bb4f0735e2311": 1789809267.1030903,
     "9c5f765104fe5204": 1789809139.8317847,
     "9e31811fd9aa5132": 1789808704.2613623,
@@ -2498,8 +2499,7 @@
     "b84b6a8b9cd574dd": 1789084301.79963,
     "1b29c206e01f243a": 1789084301.376909,
     "e1b7bafc4120c4f5": 1789084279.6385858,
-    "1c26439885877969": 1789077636.704069,
-    "aa6d6123d3061381": 1789077634.8506274
+    "1c26439885877969": 1789077636.704069
   },
   "initialized": true,
   "v": 4,
@@ -4717,16 +4717,21 @@
       "source": "SPORTbible",
       "ts": "2026-09-19T09:07:41+00:00",
       "cluster": "c849fd0fe19"
+    },
+    {
+      "t": "Tom Aspinall encensé par une légende pour avoir lâché sa ceinture",
+      "source": "La Sueur",
+      "ts": "2026-09-19T09:10:10+00:00",
+      "cluster": "c211efda844"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T09",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMilwFBVV95cUxPNDJpWmxLcUdGZVBjeWdnVjFDTmhzdzhGWXNVWnBVMTJKYnFFbVVXVXZuWjdoLWtzM0hMamNEZUJ5VGpvUXJWQnVsd2ZlV0hKOTlWMURaQXpPRHpCZFpYSUVVaUJ4TTM3MjdjWEs0SUpCREVtLUdNYTNPV0E4U3ZlTTlycXUyMTRnc2JicVlvMXlRVk82S0lR",
     "CBMijgFBVV95cUxPaC12aHlaUXNGVlBoZjhOUktGZGxUVy1JcExJcnRmVVNRckgzRU16X05YcEZWNUwzTHc5NWx2VDYxQzFQYzNmQVg0Y0R4amtHWS1lX2I2LXNJVEd3dXZlc1NLWDNOOEZZbnRZQWVNZWthYWxyLXJMWHo1VmZ4ZnF1QU9kN25PelZwZHlyaTFn",
     "CBMi0wFBVV95cUxQQTZEd1FzTHMteVpGYVNXakJrMGRZYWZqZ09peXNtYnVsb0FzdE9vaGxaSjdlUzlHWGJNUHI2SV9GWDRMYUNlSUJqeUhrVmkzdExWdWN6TUFfZ3o2V00zN2VJajV3Znhfd1B5Y1Z6NDZQaW9HWmQ5cEZzemFyeWVYdHloZVduU0pvOXNSY0FoU01uSkRFdTdXQTNxRFdxZlpNTDYydnFta2JwMWtZVjBjSGlscnBtajYtR2t6YUQ5bTZteW9JMFRqUkxuQzdHNTMtbE9Z",
     "CBMikgFBVV95cUxQQVdIVHVhR0ZfVURGaThOZW52cDIwOVJ3YWlTTVdYV2JuaXFNcTJFLTRNMzdyMVBWYkdFeGxHOW9BQWk1WTlteDFVTDI2eDNTOFllRks5Nkg4SEEwd09CaEdfT1ZZVDBDV1dQdWloSFBTS0lfR2l4UEktUlJSdjhBbVlPekxuOU9nQzhHaXFiaWNlQQ",
@@ -6225,26 +6230,17 @@
     "CBMixAFBVV95cUxONlhaamkzLWxWZDBJQTZULWVURlF4bmtuREVPdTBhdjZXeWVRNXc4aGQ5MjJHZGZhSE9HT2tvMVdETlhnY0VWVnREM0lHVlFSb3BDd0tieUFUYkZfLWlvRlB0REFYbnV5Z2IzRUlTUmNCb01BbldMLTlDVVJPUnNYd3VyRFktd3k5aUpNMEI1NmZEbjRIdXhCcUh3NzZPYTR1Wmw3VDBlVFRuVHUySU9GWDFCanBUMEJJTUJGc2tIN2NxM0ZD",
     "CBMikgFBVV95cUxQdmhZYnhPSm5DckFyU29RUWtULXY0TjJZMGJpeDQtbHdkTW1vZDBVSUlIX0RxNFdMcTZLZ0ZQVjZMQndrU3BDSFZaOXZ5QWlkcjdwdzgxR2RYU0hxQ2FJNkxXejkteEtkYWJfZzA2cWZpWC1yUGZvaUtpVGMySmxIOHNac25ybDJRUmFmSTZrcERJZw",
     "CBMiW0FVX3lxTE04dzBmTllwakxiYkFGeWxrT1BuMVA2Q0I4Y0NWcUNvSEF4bG8tTTNSaENnTDZ3RDJFVFk2WHZrYkxDelZfWFpldWNJLTgtcWRodjhlSGE5dEYzbk0",
-    "CBMivAFBVV95cUxPcHBUV2sweUlDaEhleGlTbWR3RmZfQXlhWXlaOEtzWmZjM2VZSnV0NmpoaDk4SWFyV01SZzdZTEhtQmZ2WkpHS3hUbWVBblFKZ2VKd1VXVTFpelc2WVNiSUFEemRHR1RxTUlQWXYwbUE5aDVZS2N5aHIwcEpPcTZ4T3FzcC1wTzc1eF85NnROb0xLb3EtOHplenJzRjlBUW85NFFKcVVYTG1uTTBZeEVsZmVHYjNQV2E5b08tYg"
+    "CBMivAFBVV95cUxPcHBUV2sweUlDaEhleGlTbWR3RmZfQXlhWXlaOEtzWmZjM2VZSnV0NmpoaDk4SWFyV01SZzdZTEhtQmZ2WkpHS3hUbWVBblFKZ2VKd1VXVTFpelc2WVNiSUFEemRHR1RxTUlQWXYwbUE5aDVZS2N5aHIwcEpPcTZ4T3FzcC1wTzc1eF85NnROb0xLb3EtOHplenJzRjlBUW85NFFKcVVYTG1uTTBZeEVsZmVHYjNQV2E5b08tYg",
+    "CBMinAFBVV95cUxOWXRuSFVYZDljc3pCNUlMT1hPd3FsWWNaaUsydjdSU1ZjcHFHZjZGc19wRWN6LWR2b1RBNW1UdEZOR1llRWo0SENHa2VqSWNtdGtTQTZpbWNhTTdEZTM5eEFiN1FyekROTmM0Mk1DUDdPM1d1MVVkNXJFbk0tZ2FXX2xWTThRQmVvaElZTHNFVDZkcVhWbnpDTmh0VUU"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 43,
-    "staged": 3,
+    "ai": 44,
+    "staged": 4,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-08T18:31:54.057226+00:00",
-      "t": "Retired UFC fighter Diego Sanchez arrested for drunk driving",
-      "names": [
-        "retired",
-        "sanchez",
-        "mexico"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-08T18:49:56.562132+00:00",
       "t": "Jon Anik drops major Justin Gaethje vs Ilia Topuria 2 hint as Conor McGregor enters UFC title picture",
@@ -7042,6 +7038,14 @@
       "names": [
         "fresno",
         "arrested"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-19T09:15:33.841994+00:00",
+      "t": "Tom Aspinall encensé par une légende pour avoir lâché sa ceinture",
+      "names": [
+        "aspinall"
       ],
       "img": "photo"
     }
