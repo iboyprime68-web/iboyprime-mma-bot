@@ -1,5 +1,8 @@
 {
   "seen": {
+    "1c43d94f045cd31a": 1789837908.7664497,
+    "cdc0a2ee06bb5bce": 1789837908.383141,
+    "0f956e3b18c047f6": 1789837908.3828695,
     "b17b1ed12574b9a7": 1789837660.1336188,
     "0c9f8f550f03c05d": 1789837534.68143,
     "ec32ec7c68fbb273": 1789837409.1714065,
@@ -2496,20 +2499,11 @@
     "b22eb5f1d63e3795": 1789148273.8842938,
     "da04770e8f327546": 1789135252.8482287,
     "67549445be76ba1a": 1789135229.5499327,
-    "b7b575a187e5c654": 1789135206.7149432,
-    "fa5d94f39c78203d": 1789135206.7130284,
-    "d9074b15a547b12f": 1789135206.7110295,
-    "4e39cd6445f4ac71": 1789135206.7088912
+    "b7b575a187e5c654": 1789135206.7149432
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Gilbert Burns admits Khamzat will be ‘better wrestler’ at RAF 13, but questions ‘heart and cardio’",
-      "source": "MMA Mania",
-      "ts": "2026-09-17T17:09:24+00:00",
-      "cluster": "cc8333a9218"
-    },
     {
       "t": "Tyron Woodley Reflects on Hitting \"Rock Bottom\" in UFC",
       "source": "mmasucka.com",
@@ -4597,16 +4591,21 @@
       "source": "heavy.com",
       "ts": "2026-09-19T17:00:21+00:00",
       "cluster": "c89a6092978"
+    },
+    {
+      "t": "UFC 331 'Embedded,' No. 6: Volkanovski forecasts Tsarukyan upset loss",
+      "source": "mmajunkie.usatoday.com",
+      "ts": "2026-09-19T17:05:00+00:00",
+      "cluster": "c469610e39a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T17",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMiwwFBVV95cUxPRmwwQ0dtcWpRUXk0bnJrRmc5WUh6Q2owRS0tUnJjYjcyV0QxaVNEcGVGenBSX192LUVSME83Q1dob0lJeFlYRkxYMnNwcFdMMnEzU0w1ak93Y3RkSDBWVGpuVzlxY19LbFV5ZFNXUVN2YUlDbVI2Q2hmdllueGZNUENUSWtYY1pWdXBoSTc4N0JRWWRFVEN3eWpaMlpWblF2cGFmZlduMmZDV2NLQTVLTWJMZUZiQWtJWkg0QXZPSno3eVE",
     "CBMiogFBVV95cUxQaUlNeWtDMnl4N2UzbWZQbEtrZjh4cEd3WExVQ291QmdxZ2FwVjQ1T2NjdDUyMl92QUlWclFjbkd2bk10dzcyRG15ZEtIVjNaeFRKcmhuVmFUQ0hPSEUtalYtWFFWZllDb05LNUk5dUhiaGJHc2FDQW4tYWxVT09TN2l3UTJ4WjNGMlRldXVRdVU3ZWFYakVha1lxS3RUZVpTT0E",
     "https://www.mmamania.com/468769/ufc-shanghai-live-results-highlights-streaming-play-by-play-updates-umar-vs-song",
     "CBMidEFVX3lxTE9qeEQ4RmR5WTktOHVaSjNUOFowdVRHcFZzZ01NQkl0cnpCSnFHc2poWk9xUzBlWHgxWkh1VWhKeWFhb0N2ck1iV2FPUW5kUVNPV2wwdkN1WWVxRk9MLWdNU2w3RktaT2ZqaVNEV3pkVnVzeTBE",
@@ -6105,11 +6104,12 @@
     "CBMiXEFVX3lxTE9VR0FVbi03UUpHTUY5TkdjcERiM2pOZW1ab0hQZ3VqbnU0Sy1SSEVId3hzZWpXQnNaZlpENVJIc19DTl9lQ2NCT1ZOZVY0YzRPRGwzOTJYeXBTSVA5",
     "https://bloodyelbow.com/?p=332390",
     "https://www.mmafighting.com/?p=510293",
-    "CBMifEFVX3lxTE5hN0ZxRzNrUFVxSjd2b1BLSTl3eW1mY1d6ZVQyWkVhZGFLcFJudnZuT2JjQ2V3dEwyQ3Vuc0ozUG8yUHpBZVlaZmtIXzRZQmpxcy1WX21CNW9kZmIycFF6Z01UakFmSW5QczBlT1pqRlVzT25NNTdfMFZNM08"
+    "CBMifEFVX3lxTE5hN0ZxRzNrUFVxSjd2b1BLSTl3eW1mY1d6ZVQyWkVhZGFLcFJudnZuT2JjQ2V3dEwyQ3Vuc0ozUG8yUHpBZVlaZmtIXzRZQmpxcy1WX21CNW9kZmIycFF6Z01UakFmSW5QczBlT1pqRlVzT25NNTdfMFZNM08",
+    "CBMi2AFBVV95cUxNUGhQMVB4NTdRelotbkREemt4RUc2bG1Uc3QyVjFuWUJFSENnWVZaODhBd3BGZTFWZzRha0hVd2dXZEE0aTdoNHFuck5pV0xiUU92UFlaQmIyWHA5dHNEZ3NrblNpUHNoYm1FRnBYLVk4eXBiS3Nld0ZHMGR2RTRieUZ2a0o5T3FhTEV5Y1hNYXA1RFZwLUdjTU5VWlJ3MERqSlJ5WTNtOTlVUkk0MGYtVGtjdzlVZndPNG92LXBiV0UxUGFfUW1tX05OVGl2TzJSNllvcmhXbDM"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 87,
+    "ai": 88,
     "staged": 5,
     "prio": 0,
     "lost": 0
