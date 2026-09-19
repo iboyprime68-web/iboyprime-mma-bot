@@ -1,5 +1,7 @@
 {
   "seen": {
+    "e715fd5e78c02ab5": 1789790115.702233,
+    "05778673ca7d1a83": 1789790115.3204541,
     "eedf51f3219b957c": 1789790092.1652105,
     "6c93ade29e927938": 1789790091.279733,
     "b3e2ebf082b22528": 1789790091.269257,
@@ -2497,9 +2499,7 @@
     "58f2f2d6a934a47d": 1789065211.2764378,
     "500b6afc212b02ea": 1789065188.7767193,
     "0cf7e7961bee55a4": 1789065122.5576153,
-    "1727af53bb55fb35": 1789065058.456344,
-    "4f1f4908b4f2dfb5": 1789065057.1700423,
-    "de394c633bbc9c74": 1789064993.4898834
+    "1727af53bb55fb35": 1789065058.456344
   },
   "initialized": true,
   "v": 4,
@@ -4609,16 +4609,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-19T00:41:52+00:00",
       "cluster": "cfef38b81d9"
+    },
+    {
+      "t": "Max Holloway reacts after Justin Gaethje claimed all his opponents end up damaged like Ilia Topuria",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-19T01:00:00+00:00",
+      "cluster": "c8b2414007d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T03",
-    1
+    2
   ],
   "yt_eval": [
-    "7658ae5f-b4a5-3929-9d3e-41c65f8752df",
     "https://bloodyelbow.com/?p=330299",
     "https://bloodyelbow.com/?p=330236",
     "f94508e3-9d1b-3581-abc8-58096f7b9a12",
@@ -6117,11 +6122,12 @@
     "CBMi0AFBVV95cUxPSE9WSFFUc3o5QkZycE4wS2MwaDdkWVo1czNIQmQ4UldEd1dZUndYcUtncFlaYU1MUXN0YUlzdnRkeTFGdHptSmRhMDhRWTZGQVZidUozUEhEbFhjOHFwT2hLS0RUSlhqcU5pdUMweklHQ2FJSFpZTUJlazZvOUdwYS11S0JIaF9QWWUzSWo1OVFtcVJGSVRlemZlbWl6NmtEanZ1TzZuUENkb3ZIcnd5bVNPRWVXT1ZLUXdWWVlQOGNmTzRubnRkZnF3X09ScWZ5",
     "CBMipAFBVV95cUxPelRhLXV3UFV4UHlEYVhiT1RjOXlMNUhUYV8xQ0taMVBvLVd4Z0pIRlBEdmktb004dTRHN3R3d1BjblU4SjZuaDJFVk9oSjVTM19aR29XVjFCVnA2bmRHdzdkb1FtOXNyUExMdG5fMlVibDIwb3BVa2NIbElYX0UwU3FqZFFnQmFXampYcVM4VGxJS3M0UGR6M2RMdWg3Skx4aTBIVw",
     "CBMiogFBVV95cUxOUkpFOG1mLVM0Tlg0T1Q2R2liLTVlb0RqWmFWdXNuZkNsU1d5c295aGdxLWstSk5faEFTTldCYktRRFV2WWdRUHRhNlBuaDlBdFM2dkFCVWV4M29OeUowa2pIczF5RWVudHNLVXlDek5hWWVYMFEweTR6X0J0Mmo0Z005TkxJNzByQTQ1QUhWRmtkcHMteDdtUF9ZMEVSeFpLRkE",
-    "33e4f277-a910-3162-bae6-53d32f1a256d"
+    "33e4f277-a910-3162-bae6-53d32f1a256d",
+    "https://bloodyelbow.com/?p=332276"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 1,
+    "ai": 2,
     "staged": 0,
     "prio": 0,
     "lost": 0
