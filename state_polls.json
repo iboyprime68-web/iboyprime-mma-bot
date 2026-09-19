@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 14,
+  "cursor": 15,
   "staged_at": [
-    "2026-09-17T14:20:14.848788+00:00",
     "2026-09-17T19:45:28.748472+00:00",
     "2026-09-18T13:40:15.918205+00:00",
-    "2026-09-18T19:04:13.297987+00:00"
+    "2026-09-18T19:04:13.297987+00:00",
+    "2026-09-19T13:13:18.288258+00:00"
   ],
   "asked": [
-    "Whose gas tank betrays them first in a five round war?",
     "Who is the most disrespected UFC champion of the last decade?",
     "What is the most devastating KO in UFC history?",
     "Who is the most improved fighter in the UFC right now?",
@@ -47,27 +46,28 @@
     "What is the coldest knockout in UFC history?",
     "Who is the biggest what if in MMA history?",
     "Who is the most dangerous UFC newcomer right now?",
-    "Who is the most shameless fighter in the UFC right now?"
+    "Who is the most shameless fighter in the UFC right now?",
+    "Who runs the lightweight division five years from now?"
   ],
   "last_entry": {
-    "q": "Who is the most shameless fighter in the UFC right now?",
+    "q": "Who runs the lightweight division five years from now?",
     "type": "poll",
     "options": [
       {
-        "label": "Colby Covington",
-        "emoji": "🎤"
-      },
-      {
         "label": "Ilia Topuria",
-        "emoji": "🔥"
+        "emoji": "🥇"
       },
       {
-        "label": "Sean Strickland",
-        "emoji": "🗣️"
+        "label": "Arman Tsarukyan",
+        "emoji": "⚙️"
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "💬"
+        "label": "Paddy Pimblett",
+        "emoji": "🧢"
+      },
+      {
+        "label": "Charles Oliveira",
+        "emoji": "🕸️"
       }
     ]
   }
