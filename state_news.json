@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8fec244508a97df0": 1789807420.1348846,
     "3a9999ae355f39b1": 1789807395.227118,
     "bb31c703d78b8b71": 1789807371.92483,
     "b63ed42973ecde29": 1789807348.368442,
@@ -2498,8 +2499,7 @@
     "81b0e989482f5f3e": 1789076523.3843112,
     "526f4e0ce662f191": 1789076523.035056,
     "a444c5cc772d0254": 1789076458.027642,
-    "57b5fed934edd107": 1789076392.8499827,
-    "c54a87049ddf6204": 1789076347.8996933
+    "57b5fed934edd107": 1789076392.8499827
   },
   "initialized": true,
   "v": 4,
@@ -4639,16 +4639,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T06:00:00+00:00",
       "cluster": "c276cd270af"
+    },
+    {
+      "t": "Dana White Provides Update on Ciryl Gane’s UFC Interim HW Title",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-19T05:37:43+00:00",
+      "cluster": "c7ec3376c8c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T08",
-    6
+    7
   ],
   "yt_eval": [
-    "5cede9e7-91ce-3aca-a4d3-2d2cdf876a5d",
     "https://bloodyelbow.com/?p=330271",
     "https://bloodyelbow.com/?p=330205",
     "4254883d-417a-3b40-aa29-1d2a18a4dc6f",
@@ -6147,11 +6152,12 @@
     "https://bloodyelbow.com/?p=332334",
     "4aa515ac-885c-497c-9e44-ba41c890b601",
     "https://bloodyelbow.com/?p=332338",
-    "https://bloodyelbow.com/?p=332094"
+    "https://bloodyelbow.com/?p=332094",
+    "6fa2b654-c5c0-3d0b-ab86-ec661f162aa0"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 30,
+    "ai": 31,
     "staged": 2,
     "prio": 0,
     "lost": 0
