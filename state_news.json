@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7547b83b67bc27b7": 1789845791.1610339,
     "e08e293a871a41b0": 1789845725.4617887,
     "92bf57788695d481": 1789845725.162948,
     "4751e87eeb2018a4": 1789845660.0020728,
@@ -2498,8 +2499,7 @@
     "eb9f2a0c2d20e5a2": 1789148826.1998723,
     "60a223d660a2cc1f": 1789148803.9552577,
     "a056fab317e2a170": 1789148740.0419877,
-    "9f9d18fdca5d854d": 1789148676.5473537,
-    "5cd7e0d1ac50cdd3": 1789148613.0034192
+    "9f9d18fdca5d854d": 1789148676.5473537
   },
   "initialized": true,
   "v": 4,
@@ -4591,16 +4591,21 @@
       "source": "The Daily News | Texas' Oldest Newspaper",
       "ts": "2026-09-19T18:25:32+00:00",
       "cluster": "ce2fa7a699a"
+    },
+    {
+      "t": "Dana White: Ciryl Gane is not the undisputed heavyweight champion, will get a chance to earn it soon",
+      "source": "MMA Crossfire",
+      "ts": "2026-09-19T18:25:52+00:00",
+      "cluster": "cc9fbbb3cee"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T19",
-    11
+    12
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=469659",
     "https://bloodyelbow.com/?p=330511",
     "https://www.mmafighting.com/?p=508931",
     "7a1baa0d-722b-3ed8-aad3-14a6fcde8c75",
@@ -6099,31 +6104,17 @@
     "CBMirAFBVV95cUxQenZxS1AzUjkwaXlpWVdMaEV1OFZDaktUSHYtdEFKYkxqcHoxVlJ6TGRQSkN1cDVfTnA0cUdDczlXS3VEQUZ0SDZsOWItcUVuSWdQWG9jNDZVV1k2cDFCdU1kbGw3bWJpVFpnMzB1SlZFdVI2WEFRZmhIeGRPWThHT0s1cEc5RnJTaWQ1bzFRMG1WVHpMS2xNRzc5ZUthN3hueEZYRGp3UzB3bWpS",
     "CBMimwFBVV95cUxOZXNtX3ZTM2M4dHlKVkI2M1F4V3ZjdWJyMFh4Y2ZIZnBPYnVhZm15azVVRnpDQUw2RElBZ2pvVGh3dVlnWExUSERzMzFrTkpReGtEa1N3dFFOcjRWLUNwVGJ3UTZlTWNBU2dHWEdwa1l1ZlFqVlpGTHBIVW16WXVmT2xLd1hjdkNNdlZUWlI3LUZGdUR0cUdBS3o3VQ",
     "CBMiwAFBVV95cUxQRHdNQlNFQmQ3YjFDeENLdVJuUGVaQjZ5WkN5VUZOUFYzZWliRUsybzNHRFlxNU1KYzZHS09NalRLUkptakJPRjFqU25mT3RLS1ZVNkJVQnhhTGEwVmtJSjJUVVdpLTRPTzhJLUlINFMyT1NJRUp4ekhDWTMta3BWQzdaQ2xPaktRaHVRaVdyT2VzcDJGa2N6SmRoVlV0U0lSLVRaRjdMaXVURzRrTGtBM2U5cDNVekdIbjVRYm9jQkU",
-    "CBMi-AFBVV95cUxOYlRPMDNKbWpTa1JOYW5McWJhWU1ubWRGaFJzYVpCeFY2WjlJZk1WUm9RaXlDNGwzQmFkdWVFN3BrM2VqU2RXSmJ0dTcyMHNiRDVtSElWSmVDSkhOZURjOHdvVVVpRW1XdlRvZW1JbEdydDM3aWFJNF9OZWM3cElrVVg0eUFiZmNJc1ZjNkNWUFBGTGNtVzNmSWExZTVfZzlYSl9JUWRCXzBuY0FWWEhPX1F0WUNzYmpqclpGdENwaHRxdlg4Rl9KSkdBdVMzSVNLemlvOGxoVnBDYnluelU1UEFKR2NXMzRtbVdyNHU3R1hGeEpxaEFpaw"
+    "CBMi-AFBVV95cUxOYlRPMDNKbWpTa1JOYW5McWJhWU1ubWRGaFJzYVpCeFY2WjlJZk1WUm9RaXlDNGwzQmFkdWVFN3BrM2VqU2RXSmJ0dTcyMHNiRDVtSElWSmVDSkhOZURjOHdvVVVpRW1XdlRvZW1JbEdydDM3aWFJNF9OZWM3cElrVVg0eUFiZmNJc1ZjNkNWUFBGTGNtVzNmSWExZTVfZzlYSl9JUWRCXzBuY0FWWEhPX1F0WUNzYmpqclpGdENwaHRxdlg4Rl9KSkdBdVMzSVNLemlvOGxoVnBDYnluelU1UEFKR2NXMzRtbVdyNHU3R1hGeEpxaEFpaw",
+    "CBMi1gFBVV95cUxQQzdmeFhNano3NG9URHNsYnAwNU9DTnhhclR2Z2cxamNRNDc3VzJGT1hES284S1BUQzV5ZHJ1bEx5Yk12RllqZWZxZGV3bldtanc0TVQyTFItREIzcjZlTW5rQjJXZUdQSTN0bmNuOXVuaF9odXNXOTEtZGhfcE9RWm1iRmE2TnpDcWtWLWRhR2dvQVRqdGVxaV9EVlczZ0dNRTBiXzhWLTZUNXlyYmNHUlBOY2pmSm5oVlVQVkJMZzB1WDFHQ2VPMGh0bnpVX1dHejB5ZUVR"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 100,
-    "staged": 5,
+    "ai": 101,
+    "staged": 6,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-08T18:51:04.800709+00:00",
-      "t": "UFC Legend Diego Sanchez Arrested In New Mexico, Now Facing Felony Gun Charges",
-      "names": [
-        "legend",
-        "diego",
-        "sanchez",
-        "arrested",
-        "mexico",
-        "now",
-        "facing",
-        "felony"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-08T18:57:39.305345+00:00",
       "t": "UFC Star Diego Sanchez Arrested",
@@ -6912,6 +6903,15 @@
       "names": [
         "van",
         "rogan"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-19T19:23:12.175195+00:00",
+      "t": "Dana White: Ciryl Gane is not the undisputed heavyweight champion, will get a chance to earn it soon",
+      "names": [
+        "white",
+        "gane"
       ],
       "img": "photo"
     }
