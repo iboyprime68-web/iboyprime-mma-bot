@@ -1,5 +1,8 @@
 {
   "seen": {
+    "2a0f32794714e3ba": 1789835004.1582592,
+    "0930abd2eb5f3db5": 1789835003.8793318,
+    "5e178a6987cf4774": 1789835003.878118,
     "138c12dd86f682e2": 1789834939.4482524,
     "92d7d2aaa5889596": 1789834895.399897,
     "34c3dc1cbcb171d6": 1789834872.1281853,
@@ -2496,10 +2499,7 @@
     "b4f5be44d4861f78": 1789133138.1528182,
     "efc6b65a54c1d2ed": 1789133093.3931007,
     "032b8a067d4e14c0": 1789133069.640932,
-    "1e40765f2a5ff71f": 1789133045.327083,
-    "ddc24181773c354f": 1789133021.8425012,
-    "2f0d64c89dfb50c7": 1789132998.2714844,
-    "49fc1a573167b708": 1789132997.1338284
+    "1e40765f2a5ff71f": 1789133045.327083
   },
   "initialized": true,
   "v": 4,
@@ -4585,16 +4585,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-19T14:19:00+00:00",
       "cluster": "c15e6e89884"
+    },
+    {
+      "t": "Arman Tsarukyan vs. Mauricio Ruffy prediction, pick, time for UFC 331",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-19T15:01:30+00:00",
+      "cluster": "c5eb983bd17"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T16",
-    9
+    10
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330338",
     "https://bloodyelbow.com/?p=330370",
     "be4a8fee-c69a-3a6b-8be8-bd084a8248a0",
     "CBMilwFBVV95cUxQMGx2UjY0T0xXdF8ta1RHcDVDWnR2d2hLQW5jR2ZYbGJEalR3c093dU9OdDlTVU4xQzVZX1JrNUJLNW9JWW5GLUtVNEJWZ0UwUTJaM1NhWWlMWVA1alNoeVVWeWlBdkNVNEZlVF9HWGg4MkRsUHVickh6djlLSVY2Nnh5RFg4UVM5dGV5YnFjTERYSFdKZmJn",
@@ -6093,11 +6098,12 @@
     "https://bloodyelbow.com/?p=332417",
     "6b18228f-e395-3ad0-99b8-b742a60ff4e1",
     "https://bloodyelbow.com/?p=332382",
-    "64610061-f12b-3bf2-9397-d85a12481752"
+    "64610061-f12b-3bf2-9397-d85a12481752",
+    "439f3cad-ec3d-3143-9f2a-c6d6991fc4dd"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 70,
+    "ai": 71,
     "staged": 5,
     "prio": 0,
     "lost": 0
