@@ -1,5 +1,8 @@
 {
   "seen": {
+    "ec32ec7c68fbb273": 1789837409.1714065,
+    "2109b1a637e8199f": 1789837408.9415896,
+    "d8c2912396e914d2": 1789837408.9398828,
     "422efb8fdb6e6f51": 1789837284.4700944,
     "ff266c4c4953fa49": 1789837284.4693627,
     "345f0636060bf1f6": 1789837284.4672692,
@@ -2496,10 +2499,7 @@
     "d9074b15a547b12f": 1789135206.7110295,
     "4e39cd6445f4ac71": 1789135206.7088912,
     "a9d251434278ad49": 1789135143.48505,
-    "d370ee6777cf6e32": 1789134895.2384613,
-    "d458a72cb87d2b02": 1789134832.191554,
-    "7296624fca57d314": 1789134706.4762244,
-    "4110c9f95e340f6c": 1789134706.4750702
+    "d370ee6777cf6e32": 1789134895.2384613
   },
   "initialized": true,
   "v": 4,
@@ -4597,16 +4597,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-18T13:47:31+00:00",
       "cluster": "c51c3b2c83b"
+    },
+    {
+      "t": "Robert Whittaker Wants to Fight Former UFC Champion Next",
+      "source": "heavy.com",
+      "ts": "2026-09-19T17:00:21+00:00",
+      "cluster": "c89a6092978"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T17",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMigAFBVV95cUxNQkt0QnItMVZnYUhUSTZ0MWZaU25JUE1pRFVsTnY2ajhLbXN6ZjM3dXVETmYtU1NTUjVpa3dtMUdhcjFhRkVmWW5EeXlKWUJ3RHVMdTRIbHpFTUFjTDlZN0tlUjBFUU5zSWlSa3RSanZWbExjWVY3eGZ6a2NHNEdhQg",
     "CBMiwwFBVV95cUxPRmwwQ0dtcWpRUXk0bnJrRmc5WUh6Q2owRS0tUnJjYjcyV0QxaVNEcGVGenBSX192LUVSME83Q1dob0lJeFlYRkxYMnNwcFdMMnEzU0w1ak93Y3RkSDBWVGpuVzlxY19LbFV5ZFNXUVN2YUlDbVI2Q2hmdllueGZNUENUSWtYY1pWdXBoSTc4N0JRWWRFVEN3eWpaMlpWblF2cGFmZlduMmZDV2NLQTVLTWJMZUZiQWtJWkg0QXZPSno3eVE",
     "CBMiogFBVV95cUxQaUlNeWtDMnl4N2UzbWZQbEtrZjh4cEd3WExVQ291QmdxZ2FwVjQ1T2NjdDUyMl92QUlWclFjbkd2bk10dzcyRG15ZEtIVjNaeFRKcmhuVmFUQ0hPSEUtalYtWFFWZllDb05LNUk5dUhiaGJHc2FDQW4tYWxVT09TN2l3UTJ4WjNGMlRldXVRdVU3ZWFYakVha1lxS3RUZVpTT0E",
     "https://www.mmamania.com/468769/ufc-shanghai-live-results-highlights-streaming-play-by-play-updates-umar-vs-song",
@@ -6105,11 +6110,12 @@
     "CBMickFVX3lxTE1fUWJVX29oYkhVYVVIVXpER0F4NU00WVdJTXJKRS1fb1RQS2JaTUVxS2V0WTJQZ3ItaC1SYXZvQWVzQjJCb19BV203d3dwb3BaZWtPcUdDamJIbHVpNDM2b2VfNkllV2tBUjNVcVpsU2IwUQ",
     "CBMiXEFVX3lxTE9VR0FVbi03UUpHTUY5TkdjcERiM2pOZW1ab0hQZ3VqbnU0Sy1SSEVId3hzZWpXQnNaZlpENVJIc19DTl9lQ2NCT1ZOZVY0YzRPRGwzOTJYeXBTSVA5",
     "https://bloodyelbow.com/?p=332390",
-    "https://www.mmafighting.com/?p=510293"
+    "https://www.mmafighting.com/?p=510293",
+    "CBMifEFVX3lxTE5hN0ZxRzNrUFVxSjd2b1BLSTl3eW1mY1d6ZVQyWkVhZGFLcFJudnZuT2JjQ2V3dEwyQ3Vuc0ozUG8yUHpBZVlaZmtIXzRZQmpxcy1WX21CNW9kZmIycFF6Z01UakFmSW5QczBlT1pqRlVzT25NNTdfMFZNM08"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 86,
+    "ai": 87,
     "staged": 5,
     "prio": 0,
     "lost": 0
