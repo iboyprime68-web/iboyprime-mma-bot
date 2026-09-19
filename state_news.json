@@ -1,5 +1,6 @@
 {
   "seen": {
+    "20714c1640a0cea5": 1789858841.7629442,
     "17e413493b6441b1": 1789858819.884451,
     "e6234e09d1a48f8e": 1789858756.6365452,
     "0e8048950bb435bf": 1789858755.1962767,
@@ -2498,8 +2499,7 @@
     "fd18f4584d6d3d13": 1789217511.532471,
     "df932dbc57aad306": 1789217511.2752872,
     "cf19c99e29838522": 1789217511.2733147,
-    "50e7b5cfe35b2333": 1789217447.5230744,
-    "7c797a608fadcaae": 1789217382.9026878
+    "50e7b5cfe35b2333": 1789217447.5230744
   },
   "initialized": true,
   "v": 4,
@@ -4663,13 +4663,19 @@
       "source": "TheBusinessDesk.com",
       "ts": "2026-09-19T22:52:53+00:00",
       "cluster": "c0325e8b8a2"
+    },
+    {
+      "t": "Alexandre Pantoja’s greatest rival predicts UFC 331 loss having fought him for over 45 minutes",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-19T23:00:00+00:00",
+      "cluster": "cc375acddde"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T23",
-    1
+    2
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
