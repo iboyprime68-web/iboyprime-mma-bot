@@ -1,5 +1,7 @@
 {
   "seen": {
+    "2856c7d73dde6a6d": 1789856781.2739897,
+    "1705f52f5a0dbc78": 1789856781.0136857,
     "6372c6800e621b48": 1789856717.7106295,
     "ad2bd80319e1d630": 1789856717.4824007,
     "f479857d0385f969": 1789856717.475327,
@@ -2497,9 +2499,7 @@
     "9739ad8d77b4e2ab": 1789168862.1906164,
     "9e67d33b0fb208f4": 1789168862.1875682,
     "c6fc995ebe14b52e": 1789168862.1849997,
-    "041851e6cfa2047a": 1789168798.5713432,
-    "93d5b17e02efc8f2": 1789168798.2125912,
-    "1b72cfd04b805458": 1789168734.0744789
+    "041851e6cfa2047a": 1789168798.5713432
   },
   "initialized": true,
   "v": 4,
@@ -2917,12 +2917,6 @@
       "source": "Gulf News",
       "ts": "2026-09-18T09:09:18+00:00",
       "cluster": "c33ffb58b5e"
-    },
-    {
-      "t": "Morning Report &#124; Henry Cejudo likes Mauricio Ruffy’s title fight chances after UFC 331: ‘Who wouldn’t want to see Mauricio Ruffy vs. Justin Gaethje?’",
-      "source": "MMA Fighting",
-      "ts": "2026-09-17T22:25:43+00:00",
-      "cluster": "c27878aacad"
     },
     {
       "t": "Gable Steveson reveals agreement with Jon Jones about potential student vs coach fight in the UFC",
@@ -4513,13 +4507,19 @@
       "source": "Cageside Press",
       "ts": "2026-09-19T21:57:50+00:00",
       "cluster": "c2af7ceba08"
+    },
+    {
+      "t": "UFC 331 video: Joanderson Brito removes shorts after KO of Giga Chikadze",
+      "source": "MMA Junkie",
+      "ts": "2026-09-19T21:58:00+00:00",
+      "cluster": "c46f1f11c06"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T22",
-    14
+    15
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
