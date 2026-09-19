@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6bc6eedbb78d272e": 1789858691.6162632,
     "ee1916ed7a66684a": 1789858627.8006852,
     "ed0429ab906b0ad8": 1789858627.4255185,
     "21aad3082ef72270": 1789858627.4028745,
@@ -2498,8 +2499,7 @@
     "822dd78108d3958e": 1789217095.6218848,
     "495ec80ffcc076b3": 1789217072.3071337,
     "4c03fe867ad9bf38": 1789217048.9993315,
-    "b28ac15f9aa3b3b5": 1789217048.0734384,
-    "e02bbd097e4c85da": 1789203656.2738786
+    "b28ac15f9aa3b3b5": 1789217048.0734384
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T23:00:00+00:00",
       "cluster": "cb99c2b66d1"
-    },
-    {
-      "t": "UFC 331 Unleashes Awesome Main Card Saturday Night!",
-      "source": "MMA Sucka",
-      "ts": "2026-09-17T22:58:00+00:00",
-      "cluster": "c03b1dc659f"
     },
     {
       "t": "Patricio Pitbull ‘hasn’t liked’ any of his UFC performances, vows to ‘show my potential’ at UFC 331",
@@ -4663,13 +4657,19 @@
       "source": "SuaraGarut.ID",
       "ts": "2026-09-19T22:42:00+00:00",
       "cluster": "cf2ad815c19"
+    },
+    {
+      "t": "Light Heavyweights Baraniewski and Menifield Clash at UFC 331",
+      "source": "SuaraGarut.ID",
+      "ts": "2026-09-19T22:42:00+00:00",
+      "cluster": "cdf668cdb41"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T22",
-    46
+    47
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
