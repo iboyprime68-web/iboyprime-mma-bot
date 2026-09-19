@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7bb599c4d1af5f78": 1789845525.9311423,
     "85a708681546abfc": 1789845459.9621994,
     "27a763e2b2011efb": 1789845459.5590816,
     "6767d54430bf93ba": 1789845459.5587947,
@@ -2498,8 +2499,7 @@
     "33d1a30d0e7863d5": 1789148590.3296018,
     "4b747754b81129ae": 1789148590.0828831,
     "0ed8d3dadc33f88d": 1789148547.3503823,
-    "a98ffeba1d40ddc5": 1789148483.6475353,
-    "0c669c2d833baa40": 1789148460.6425164
+    "a98ffeba1d40ddc5": 1789148483.6475353
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T20:00:00+00:00",
       "cluster": "cdb62459b69"
-    },
-    {
-      "t": "Sean O’Malley or Song Yadong, who has the stronger case for the next title shot?",
-      "source": "MMA Sucka",
-      "ts": "2026-09-17T19:18:39+00:00",
-      "cluster": "cc694c4e4c4"
     },
     {
       "t": "Cris Cyborg uncertain of next move, but pretty sure it's not UFC",
@@ -4573,16 +4567,21 @@
       "source": "Art Hives",
       "ts": "2026-09-19T18:21:51+00:00",
       "cluster": "c1a99d65839"
+    },
+    {
+      "t": "Justin Gaethje Reacts in Disbelief to Tom Aspinall Vacating UFC Heavyweight Title",
+      "source": "mmasucka.com",
+      "ts": "2026-09-19T18:24:58+00:00",
+      "cluster": "c4a50d34ed5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T19",
-    7
+    8
   ],
   "yt_eval": [
-    "CBMiuAFBVV95cUxQd3R3MmJPQW81RFBNSmNPeWFteDl0R3JKUnVYV2dxSU5COG5sOVZGT1d3UVFKbTQxalItblgwU1RRWGFnZGxlN2JiVmUtZ0VGRTIwTjd2TUlHUjUwd2J0NzZva1pUaFU1aFFaZnJERFlaTWpFNzdJS3ZtS1VGWVpmM0VuSmtrb0RZeFl3LTcyMG1iYUxOZHNwcG1fNlBaNUFPZmE4Y0wwOVJ5MlJ0SFlXQmI3enVORl9H",
     "CBMivwFBVV95cUxNclI1QVNlZzJHWkQzZ2o3TjVjT1drb1VpMmxsNWFxbW9KNk5QNUp5NE9INjllaGlqYnZzOU9XWEVid3pPc21PR3ozWTlUajkzcC03RF9DN20tQTVOM0hXZTBpei12Vk40UFRhenJTR2t1enJVUk9PLVB0bFJsa3Rrcm4zcnU1OHpoYUREam9BSFlxRXhJVElhOThrSWlZMENOeXJ0QzJ0VVFzUnlpOHEwNnExaFlKR0s2S0NhQ3dlSQ",
     "CBMiywFBVV95cUxPQ3A4ZkFiaFB0cXJsa3Y4M2ZWT2lqZnJJdVA4eDF6RWZLRVQ4NnNWWGxEUDRqOS1sUng4SVlqTkZPOVRwTTB0N3NFb29hX1hFV0pweGtSTmNYeFM1Y2w4QUFmWDFYOE5mT2JHT3RFbFdLWWdFZExYS1BEajAxVDZocUJEMUZZTGN0eHl2VlFLQUNrdjRqWXZmVkVKaVVDalN4NzJVVEJpUmRYZ1VaVHFnM2oxY0dzN2NTREd0azdpZ1Jsbmd6TEJ5SnBPVQ",
     "https://bloodyelbow.com/?p=330491",
@@ -6081,11 +6080,12 @@
     "9da36a06-4e71-35f3-8040-0429b57d8a50",
     "https://bloodyelbow.com/?p=332408",
     "1664a61b-153b-3fb0-872c-1d9514de363c",
-    "CBMikgFBVV95cUxOVGJRQXNUckNYb2h6dUIyVVhKdENBdmx3OFhxUUo1Yk1uYnAwLWlld1pza0hPWlQ5dVIydi1IV2FIN0dSNG00ckZHYmZwVDh2SWgyRFVrN05IXzRIaW9rV1ByM0tzdWxWOWxPZW9LTkNHb1Fmc3ZwOXFPRUFiWEkwRkNXaWdLaEJTanZsLU1STG43dw"
+    "CBMikgFBVV95cUxOVGJRQXNUckNYb2h6dUIyVVhKdENBdmx3OFhxUUo1Yk1uYnAwLWlld1pza0hPWlQ5dVIydi1IV2FIN0dSNG00ckZHYmZwVDh2SWgyRFVrN05IXzRIaW9rV1ByM0tzdWxWOWxPZW9LTkNHb1Fmc3ZwOXFPRUFiWEkwRkNXaWdLaEJTanZsLU1STG43dw",
+    "CBMirAFBVV95cUxQenZxS1AzUjkwaXlpWVdMaEV1OFZDaktUSHYtdEFKYkxqcHoxVlJ6TGRQSkN1cDVfTnA0cUdDczlXS3VEQUZ0SDZsOWItcUVuSWdQWG9jNDZVV1k2cDFCdU1kbGw3bWJpVFpnMzB1SlZFdVI2WEFRZmhIeGRPWThHT0s1cEc5RnJTaWQ1bzFRMG1WVHpMS2xNRzc5ZUthN3hueEZYRGp3UzB3bWpS"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 96,
+    "ai": 97,
     "staged": 5,
     "prio": 0,
     "lost": 0
