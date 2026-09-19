@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 15,
+  "cursor": 16,
   "staged_at": [
-    "2026-09-17T19:45:28.748472+00:00",
     "2026-09-18T13:40:15.918205+00:00",
     "2026-09-18T19:04:13.297987+00:00",
-    "2026-09-19T13:13:18.288258+00:00"
+    "2026-09-19T13:13:18.288258+00:00",
+    "2026-09-19T18:38:37.848666+00:00"
   ],
   "asked": [
-    "Who is the most disrespected UFC champion of the last decade?",
     "What is the most devastating KO in UFC history?",
     "Who is the most improved fighter in the UFC right now?",
     "Who has the most questionable title reign in UFC history?",
@@ -47,27 +46,28 @@
     "Who is the biggest what if in MMA history?",
     "Who is the most dangerous UFC newcomer right now?",
     "Who is the most shameless fighter in the UFC right now?",
-    "Who runs the lightweight division five years from now?"
+    "Who runs the lightweight division five years from now?",
+    "Which era was the most fun to be a UFC fan?"
   ],
   "last_entry": {
-    "q": "Who runs the lightweight division five years from now?",
+    "q": "Which era was the most fun to be a UFC fan?",
     "type": "poll",
     "options": [
       {
-        "label": "Ilia Topuria",
-        "emoji": "🥇"
+        "label": "The TUF era",
+        "emoji": "📺"
       },
       {
-        "label": "Arman Tsarukyan",
-        "emoji": "⚙️"
+        "label": "The McGregor era",
+        "emoji": "💰"
       },
       {
-        "label": "Paddy Pimblett",
-        "emoji": "🧢"
+        "label": "Covid Apex era",
+        "emoji": "🏟️"
       },
       {
-        "label": "Charles Oliveira",
-        "emoji": "🕸️"
+        "label": "Right now",
+        "emoji": "⏳"
       }
     ]
   }
