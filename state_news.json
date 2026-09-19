@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a662fbcfec606fec": 1789857738.1631505,
     "774aa776393fe248": 1789857674.5506005,
     "15a80f89219f33ba": 1789857610.869205,
     "34b2546caaa70574": 1789857547.1192687,
@@ -2498,8 +2499,7 @@
     "b255e41c420d15bf": 1789170950.7741659,
     "8308c27eeea6559c": 1789170886.9389553,
     "076d02cfe615aaa7": 1789170885.2755408,
-    "eb57c983bfa20e73": 1789170698.7256176,
-    "8974a27c43d1c142": 1789170572.496044
+    "eb57c983bfa20e73": 1789170698.7256176
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T23:00:00+00:00",
       "cluster": "cb99c2b66d1"
-    },
-    {
-      "t": "Sean King III Says He Feared Jessie Rosas ‘Wasn’t Alive’ After Noche UFC Slam KO",
-      "source": "MiddleEasy",
-      "ts": "2026-09-17T22:42:00+00:00",
-      "cluster": "cf787e72c07"
     },
     {
       "t": "Mauricio Ruffy details Australia training camp ahead of Arman Tsarukyan fight",
@@ -4597,13 +4591,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-19T22:06:18+00:00",
       "cluster": "cb497c1b0fd"
+    },
+    {
+      "t": "Dione Barbosa trolls UFC featherweight Movsar Evloev after his remarks about women's MMA",
+      "source": "MMA Sucka",
+      "ts": "2026-09-19T22:06:19+00:00",
+      "cluster": "c2024fe1e02"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T22",
-    31
+    32
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
