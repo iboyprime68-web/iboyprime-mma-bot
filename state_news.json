@@ -1,5 +1,7 @@
 {
   "seen": {
+    "121ac312679cf5cd": 1789856094.8140175,
+    "71b280b2ecb3feac": 1789856094.3550715,
     "ca2fd08bca21bde9": 1789856072.5503113,
     "39d05d8cd3ff1f3d": 1789856072.2242234,
     "92645bff7841c2bf": 1789856072.2035697,
@@ -2497,9 +2499,7 @@
     "683891933763af51": 1789160449.6041183,
     "010d6de3c04131cc": 1789160449.368741,
     "9343639b7595be01": 1789160426.7085328,
-    "9185612b161e3398": 1789160384.4297252,
-    "15a11c7d039c9658": 1789160341.2926168,
-    "f4c669b97c9b0c28": 1789160318.040226
+    "9185612b161e3398": 1789160384.4297252
   },
   "initialized": true,
   "v": 4,
@@ -4435,13 +4435,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-19T20:33:06+00:00",
       "cluster": "ccf51eb92f6"
+    },
+    {
+      "t": "Justin Gaethje reveals timeframe for conversation that will determine whether he’s retiring",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-19T21:00:00+00:00",
+      "cluster": "cdbcb32b870"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T22",
-    1
+    2
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
