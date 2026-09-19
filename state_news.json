@@ -1,5 +1,6 @@
 {
   "seen": {
+    "64513e4f951d629f": 1789822817.4031432,
     "b5397e4ba3be398d": 1789822793.975289,
     "d49108341965d794": 1789822769.61921,
     "d60b2b0f6f6bf1a4": 1789822746.0935566,
@@ -2498,29 +2499,16 @@
     "4e4fccf087b132d5": 1789084603.9228199,
     "af77f55d88a80898": 1789084603.92106,
     "93d9f91990acfe7f": 1789084603.9171681,
-    "e22218e2b706d2cb": 1789084580.9247565,
-    "b95b28b6a9954669": 1789084580.666001
+    "e22218e2b706d2cb": 1789084580.9247565
   },
   "initialized": true,
   "v": 4,
   "recent": [
     {
-      "t": "Tom Aspinall stepping away from social media in the aftermath of title vacation says new statement",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-17T13:00:00+00:00",
-      "cluster": "c58d7c055b9"
-    },
-    {
       "t": "‘I’m his dad’: Joshua Van continues to mock Alexandre Pantoja ahead of UFC 331 rematch",
       "source": "MMA Fighting",
       "ts": "2026-09-17T13:25:37+00:00",
       "cluster": "c2bc37c74bd"
-    },
-    {
-      "t": "UFC 331: Will Arman Tsarukyan get screwed again — and 5 more burning questions",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-17T13:00:00+00:00",
-      "cluster": "c5ef55b61db"
     },
     {
       "t": "Michael Chandler predicts Arman Tsarukyan’s return after loss to ‘better than people think’ Mauricio Ruffy",
@@ -2533,12 +2521,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T15:00:00+00:00",
       "cluster": "ccf4f11c142"
-    },
-    {
-      "t": "Gable Steveson compares himself to 90s Mike Tyson",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-17T13:00:00+00:00",
-      "cluster": "c140402c989"
     },
     {
       "t": "Between the Links: Countdown to UFC 331, Ilia Topuria’s comments, Aspinall vacates, more",
@@ -4633,16 +4615,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-19T10:02:20+00:00",
       "cluster": "c906c12361f"
+    },
+    {
+      "t": "Joshua Van corrects Joe Rogan after having his title win called an ‘accident’ at UFC 331 weigh-ins",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-19T13:00:00+00:00",
+      "cluster": "c74187a133d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-19T12",
-    4
+    "2026-09-19T13",
+    1
   ],
   "yt_eval": [
-    "CBMikAFBVV95cUxQcGtXRlNXZGhBM0tJbXNnMXhLbjlVcjdicE1FU0JFYmRITWJpNU5uTWRBMkg2dGp3MmxsLWR6RnYtRGtYUjJ3VGxqTFZ0MVBGUVBhdDJqYXUyRWRXMUR6V01QdTFkUFFfTUVFVXNPanNtR1VyODU0RElDV0pCNXluZnRBUVl0VGlpTGx0OGtMY3c",
     "6355d971-0e49-4422-b1ff-821a074d62cf",
     "https://www.mmafighting.com/?p=508537",
     "https://www.mmafighting.com/?p=508546",
@@ -6141,27 +6128,17 @@
     "https://bloodyelbow.com/?p=332344",
     "https://bloodyelbow.com/?p=332353",
     "https://bloodyelbow.com/?p=332362",
-    "f66bf5e9-0b17-38a0-ac60-b9e91d9d173f"
+    "f66bf5e9-0b17-38a0-ac60-b9e91d9d173f",
+    "https://bloodyelbow.com/?p=332371"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 49,
-    "staged": 4,
+    "ai": 50,
+    "staged": 5,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-08T18:49:56.562132+00:00",
-      "t": "Jon Anik drops major Justin Gaethje vs Ilia Topuria 2 hint as Conor McGregor enters UFC title picture",
-      "names": [
-        "anik",
-        "gaethje",
-        "topuria",
-        "conor"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-08T18:51:04.800709+00:00",
       "t": "UFC Legend Diego Sanchez Arrested In New Mexico, Now Facing Felony Gun Charges",
@@ -6956,6 +6933,15 @@
       "t": "Tom Aspinall encensé par une légende pour avoir lâché sa ceinture",
       "names": [
         "aspinall"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-19T13:00:18.457432+00:00",
+      "t": "Joshua Van corrects Joe Rogan after having his title win called an ‘accident’ at UFC 331 weigh-ins",
+      "names": [
+        "van",
+        "rogan"
       ],
       "img": "photo"
     }
