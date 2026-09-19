@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e4f56c5efca81607": 1789790355.6886647,
     "189f404eefd120c3": 1789790332.57509,
     "0e889c77c3d403a9": 1789790309.0993109,
     "f60ad38b1127cb96": 1789790285.4067106,
@@ -2498,8 +2499,7 @@
     "c6a83009fa434e90": 1789065896.7924473,
     "c202deeed180755a": 1789065833.3809829,
     "da810c429156d3a2": 1789065768.3985562,
-    "b9504a9b19f46398": 1789065704.9267778,
-    "d5c0503a47442493": 1789065704.6808856
+    "b9504a9b19f46398": 1789065704.9267778
   },
   "initialized": true,
   "v": 4,
@@ -4669,16 +4669,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T03:27:29+00:00",
       "cluster": "c1cf98a8f8b"
+    },
+    {
+      "t": "Dana White confirms Ciryl Gane is NOT undisputed heavyweight champion and must fight for belt after Tom Aspinall",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-19T03:37:47+00:00",
+      "cluster": "c61492bea0c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T03",
-    11
+    12
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508550",
     "CBMiogFBVV95cUxNbF91cno4eDRWRlljY01DNjQtR1hraUotYld2M1NnejBDeUt6cm41bDI5X3Y1dHA1SU5ZTnBRRGVVNXQyUldvVHIxTzZqX1R5Um5DOG53aVdlZVJ6VFhwdVB3c25vbktYVnNaYjFnQjgwUWY0QWxGTDUtT0FPalFGZXJkbUdYLTl5TF8yQm5wbTBWRVVydGJvXzZzT3VxcFhYM0E",
     "4dbdd4ca-3e2a-3291-8cef-6ee902e9d69a",
     "https://bloodyelbow.com/?p=330179",
@@ -6177,11 +6182,12 @@
     "https://www.mmafighting.com/?p=510981",
     "https://www.mmafighting.com/?p=510943",
     "CBMi2AFBVV95cUxNcExSbjkyeTdvTWRlOEMwWm9KdkxZdmxuTFZmSE92dEZTUEJud3JrNUIyU2RVbmpBdEdxM3Q2LWQ3RVNRaTMtYThDTDdJa052cVRmUktNS2ZvMzRJb0ZidnJjblctcXJoWkNQVUJkaXRKTEdLR2R5cjAxR1hLeUpybEEzOVFfRDlPT29QN0tnNldWZnZjXzNkU0JkM2loRGFaNnhlYUplVGZ6akpSOWpJSUJNZ1R0enFmVUpSVHRLV2hfUzF4cUUzVFF0NW5jLUVDQ2FzT2J5YzM",
-    "https://bloodyelbow.com/?p=332328"
+    "https://bloodyelbow.com/?p=332328",
+    "https://bloodyelbow.com/?p=331566"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 11,
+    "ai": 12,
     "staged": 2,
     "prio": 0,
     "lost": 0
