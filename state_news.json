@@ -1,5 +1,8 @@
 {
   "seen": {
+    "f66666ea469ae80a": 1789822868.5021427,
+    "1dd88a0e58028135": 1789822868.0182106,
+    "46b831e5c992ea72": 1789822867.9926164,
     "99b16ba296090e24": 1789822844.2812219,
     "64513e4f951d629f": 1789822817.4031432,
     "b5397e4ba3be398d": 1789822793.975289,
@@ -2496,10 +2499,7 @@
     "ea21fa06f646c975": 1789084731.3190973,
     "0b50f33008eb948f": 1789084668.1695597,
     "3f605385bfbec60c": 1789084667.1252632,
-    "0f991776c813e89a": 1789084604.3012142,
-    "4e4fccf087b132d5": 1789084603.9228199,
-    "af77f55d88a80898": 1789084603.92106,
-    "93d9f91990acfe7f": 1789084603.9171681
+    "0f991776c813e89a": 1789084604.3012142
   },
   "initialized": true,
   "v": 4,
@@ -4627,16 +4627,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-18T19:37:16+00:00",
       "cluster": "c5ae15c016d"
+    },
+    {
+      "t": "We’re unanimous for UFC 331 main event – but opposite readers’ picks",
+      "source": "MMA Junkie",
+      "ts": "2026-09-19T12:03:00+00:00",
+      "cluster": "cb20ea312dd"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T13",
-    2
+    3
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508537",
     "https://www.mmafighting.com/?p=508546",
     "https://bloodyelbow.com/?p=330317",
     "CBMiiwFBVV95cUxNVEJ4aG9CUjJzYml4Z0ppSUlXejJCZmM3LU15cVI4QzdVTTJPMllPY2FpU053WTFvWHZSRGF4bmRVMm5BZ2wwTVNaUGJPMWhSUEFPXzdSemF5UzRpN1U0bF9PX2FMRXhBc0MxaTAtRS1IVGJXaVowZVp6aWhfOE5NM1YtM1o5S0VoYm9j",
@@ -6135,11 +6140,12 @@
     "https://bloodyelbow.com/?p=332362",
     "f66bf5e9-0b17-38a0-ac60-b9e91d9d173f",
     "https://bloodyelbow.com/?p=332371",
-    "https://www.mmafighting.com/?p=510878"
+    "https://www.mmafighting.com/?p=510878",
+    "CBMi9wFBVV95cUxNeTlZWmEtdHBtdVVCRGgwMTZQLWFSR2thOVJRT3RFa3lIZ0NCQVJFZU5scVZ6M1JmSHo3VFF2SGFCaWFPWmxPc0c2M2RoMHBzYTRRQUpGcnBBRDhtMkRmVmlqR1llYW0xWnl2RjRCQXVzbWhrLThQMVVyTWlsbFQzR1lXS2VQMkVad3lBdW1malF5aTVZNW5ReHFrSUItalZnNnJDckM5bWxaSUZDU0VnRmR0bk5iNUhwYzBGaDB5bEhwV010ODFBcHEyYTFoMzNhbkxGWlFnekx1Y0RMYmQ1cmpfN2xQY2puMklfYWR2LUg2Q1N0UWc0"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 51,
+    "ai": 52,
     "staged": 5,
     "prio": 0,
     "lost": 0
