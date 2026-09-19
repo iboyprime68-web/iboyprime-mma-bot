@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c12632b8209fbaea": 1789792266.8645422,
     "75a55cd627923f48": 1789791708.7829673,
     "2ef467b58bf0e305": 1789791028.6217194,
     "fd0158d28b0a1f20": 1789790963.8175938,
@@ -2498,8 +2499,7 @@
     "18f31d711fb4df8f": 1789076040.8332748,
     "5ee9608b1fae7122": 1789075996.3363824,
     "21595d3c95645664": 1789075931.5103803,
-    "531890fb96f38c98": 1789075867.0961466,
-    "5c43ea67fdb28ac1": 1789075821.4445357
+    "531890fb96f38c98": 1789075867.0961466
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T05:00:00+00:00",
       "cluster": "c69b03f645f"
-    },
-    {
-      "t": "Robelis Despaigne says UFC exit fixed the hole in his heavyweight game",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-17T04:26:55+00:00",
-      "cluster": "c6b2cdc8f14"
     },
     {
       "t": "UFC Heavyweight Star Predicts Unimpressive Future For Gable Steveson",
@@ -4717,16 +4711,21 @@
       "source": "Sherdog",
       "ts": "2026-09-19T04:10:27.155336+00:00",
       "cluster": "cf67a32c52e"
+    },
+    {
+      "t": "RAF 13 highlights: Colby Covington dominates Belal Muhammad in tech fall shutout, Khamzat next?",
+      "source": "MMA Mania",
+      "ts": "2026-09-19T03:42:31+00:00",
+      "cluster": "c84c9d63e63"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T04",
-    9
+    10
   ],
   "yt_eval": [
-    "CBMimwFBVV95cUxOcGlLbld5V2RDVDlfd3R3ZjNGQTdhaU8wOXZWTEw0QVhaaXU3U2VwZlpJNHNGSUY5bE1WQVVZTXNJN3NrSEVaS3VrVGt2OEpDVUVNN3dTSGxQWm56NTQ0RnVzdkZmZ3dGOWVrM2tYT21TUFNzb3NiZnZiMkRCV081RncxU0xvMWNvTl9peW5sMUJGR0lBZGRWcVlnMA",
     "https://www.mmamania.com/?p=469133",
     "CBMiZ0FVX3lxTE5vWndJUmVSWFlvbVpSdGtqbTktcmhpdVVab1Z1SnpkMDRNZ1dFckJDRDBZaUtsSUZVMFprUUpxUVgtM2R6Q0FzVEJrRWg5a1lYeG41dF9LYUpCLWVQcGwwWElVUjI3ZlU",
     "https://www.mmamania.com/?p=469445",
@@ -6225,11 +6224,12 @@
     "CBMiyAFBVV95cUxPem9zbHd0NFNBeGJHc1ZGVzJYcnVDYkh3RVZtaXJrZC1ndGluTlBjMHlKdEd5bk9naFNrdGthZV85U2xYZjFyTnQ5WXpWaE5SNlpkZlJBcFVCeldPX2JlRUNwd3pSM25oc0ZYN2VCeFJDTzVob1FJazdZMEU1R0ZXbHVwZHZENm81UWJzSC03N1ZJRjRPaU9uelBZeU16cmkxTlk0a3BrMWJNMmFlcDVHUURLckhaUkhDVDdkdWJYLUJmaWlTX2x1bA",
     "CBMiiAFBVV95cUxNcTdZS0JBbDU5bE54aVBuSEZIZnlJZFpMRXhITXZDNHBEWHd3S0gxb1RWdUlIV3hNaUZweVE0dDhZS093elBwR2lZMDZMamlBNlJ2UUtxaE9ZTjMyVzM2a1lrX0pkd1U4NE9MTElXWGFBZ1o3VHZ2b0NPTDA3TWtEMDN1ekVjcDJN",
     "CBMixAFBVV95cUxQT1pwQ1lONjdjM2Q3al9PSVFrM2F0SExKb1FyRFNXOGM2dEw3ZkJieV81ZHhuaWp0S2NGYlRzZGdBSnQ1NjdkLU9CMi1ERkJUT2Y5ODdxbWNES3ptUFZrZW9YbDZqNWtPNHVXU1NWWkIxSXY3bTd2ZDVWLWkwN1FPNGFQQWdTU2ZWVFlNcGJ1bTFINXZqU0R6T1A5VVpDbkRYSHdkZTJjcTg3SUZQX2p3Zjg4c05BUU04eDNOcWlURU9tdFhk",
-    "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850"
+    "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850",
+    "https://www.mmamania.com/?p=473203"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 22,
+    "ai": 23,
     "staged": 2,
     "prio": 0,
     "lost": 0
