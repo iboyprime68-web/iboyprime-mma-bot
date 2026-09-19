@@ -1,5 +1,6 @@
 {
   "seen": {
+    "92d7d2aaa5889596": 1789834895.399897,
     "34c3dc1cbcb171d6": 1789834872.1281853,
     "6e823429cf281143": 1789834871.6783307,
     "bb181cdb4f5e3fbb": 1789834848.1410177,
@@ -2498,8 +2499,7 @@
     "ddc24181773c354f": 1789133021.8425012,
     "2f0d64c89dfb50c7": 1789132998.2714844,
     "49fc1a573167b708": 1789132997.1338284,
-    "5036c2dfd40b4c79": 1789117215.1925774,
-    "95b4f0e8281e71ba": 1789117214.9443994
+    "5036c2dfd40b4c79": 1789117215.1925774
   },
   "initialized": true,
   "v": 4,
@@ -4573,16 +4573,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-19T14:01:08+00:00",
       "cluster": "ceb61e45d5d"
+    },
+    {
+      "t": "Gable Steveson explains decision to avoid intense UFC 331 face-off with ‘normal Jon Jones protocol’",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-19T16:00:00+00:00",
+      "cluster": "c54d1832822"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T16",
-    7
+    8
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/508477/ufc-paris-predictions",
     "https://www.mmamania.com/?p=469491",
     "https://bloodyelbow.com/?p=330338",
     "https://bloodyelbow.com/?p=330370",
@@ -6081,11 +6086,12 @@
     "https://bloodyelbow.com/?p=332379",
     "https://www.mmafighting.com/?p=510963",
     "https://bloodyelbow.com/?p=332417",
-    "6b18228f-e395-3ad0-99b8-b742a60ff4e1"
+    "6b18228f-e395-3ad0-99b8-b742a60ff4e1",
+    "https://bloodyelbow.com/?p=332382"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 68,
+    "ai": 69,
     "staged": 5,
     "prio": 0,
     "lost": 0
