@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a345bb6b8954fa85": 1789835419.5288482,
     "289bf6e163fc943e": 1789835397.1299655,
     "5f9ddbeae8facceb": 1789835397.1086824,
     "06a599a7b594d877": 1789835354.1472974,
@@ -2498,8 +2499,7 @@
     "6aa6ae01f4ed66e2": 1789133732.494713,
     "80877066dcd9d5e2": 1789133668.38735,
     "aafe310c3a863174": 1789133668.1720138,
-    "0209e1114550b8d0": 1789133668.1702013,
-    "9488daf721b4cea8": 1789133605.147965
+    "0209e1114550b8d0": 1789133668.1702013
   },
   "initialized": true,
   "v": 4,
@@ -4615,16 +4615,21 @@
       "source": "CBS Sports",
       "ts": "2026-09-19T16:19:05+00:00",
       "cluster": "c8e3afac62d"
+    },
+    {
+      "t": "Watch UFC 331 opponents get separated by security after almost brawling backstage at the weigh-ins",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-19T16:30:00+00:00",
+      "cluster": "cd3a5004c3b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T16",
-    16
+    17
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxNZzVtWVR5NjI3XzVIbWJnLU1PdkJadG5oaG9zdGxjSmtJb0JudWFFOENhOXRUSC1lRkRUYjlTbEJvUWROaGlTV2N2MmFzMThOZjFyZ3huc3NWeDFkVXdDVDEyRTREbjMxbWdwMjN3eDA0d2NYaWVKY3JOSFB0Y09MTG5uTm5pczlqYmNhY2xsR3BJUEd3eXpGemRTQzhrOWNI",
     "CBMi4wFBVV95cUxOMFROZ0gyWi0wLUZ4QmJOdlBfdHJMcU4tSHFpTmo4c1hIaTNaekFOQzR4enhxcE9neWZsYUpCV2lyemlaamtWblRHcTROT2tuMW54dER5bi1RT045RnQxUGR0cnFfV0dYbm44eDdJc0lVa1h0TnJyZ0VDMnEybGMwMXlCOS1KdVhDb2hSRTB1TDVzVy1EZ3o1a2dwMG9LcjVOTnF6eEtSMEUxTlhrR0QzU2tGUTUxa295dlZ2bUdWU0NTaF9ScUFHMEhXcXJaMTBQREZkZU14NF9HR1g4QWFCb0ZIcw",
     "https://bloodyelbow.com/?p=330361",
     "https://www.mmafighting.com/?p=508323",
@@ -6123,11 +6128,12 @@
     "CBMitgFBVV95cUxOUkhIOGJYWDdRbWRvdE9hN3I1eUM0a3A0Vm56N0htaVdyQ2VvZV9BUGxYa1JIalNqV0d0WXFkSnZwc1R4NnhGOXFCamNwcFdmVV80cGtmZG5PY0liSDZPZDRzekVwRUsxd2gtTnNPSk1mS01NdmtWU1JiUDBzNWIyWjJzdUtrM3pHZE9YOXd4TmpYZkk3MENNMjBFX2pkbDNtY182ZGpheEFRYnJadjFIUGZxbTNCZw",
     "CBMizAFBVV95cUxPQXVVZjRzc012bjVPWEdFdUVGU2UxT0MtMWJwTjhuXzBEbUJnbXJEaE9wSE9LWE5wS2l6MUZiWVA4RUJBbm5Sdmk1cEFZVWJIU2lBUUJRRUNRakt4S0xlY0RTUktZRlF2bVRaNVBpR0xuRVhLOWJmdHZGX2ViQ3gzVUd6eU1HUHJXb3RyalBUNU5DaHB5LVhQc2NhakZsNkFvUWZfd2VsUmN0Z3lueUlkZWdIcjIwRzZVeU5oNVBGQTZJZlFOdnZSNzdUTDg",
     "CBMingFBVV95cUxPZ25jRGlNdDJGNEptemdIVEMyVzlmdnJqaEY4UUY4MTRoTzY0akhtclUtT29abjJ3WXdEYWpScmE5Z1pTRF9FT1BpZjV4VnVBWFRnbGgyZzBkdVRyWTBMUW1MQzVYY2tCSkFfdEFkZVN1VnlUMVVfUmM0ajliaU5VMWxjYnlHZnRwNVJXRTktc3luczFweTM0Unh4Y05NZw",
-    "CBMiwgFBVV95cUxPQmswM25Hbm9BZVVqbzRzejBBUGVoWldKQzVrQ3NoaHM3Z2NhYnduWkRGeE1feGt5MWU4QW9Oa3ltc0pEZ0dtU3pPaVdhNHlIU0xNdUN4RUt4dU51Vk1BNlBpNGlnTUYtcThjVmNhRENEMm1MTjBxdy1LaXdzYmROOUdmaWp2U3oteDlwcmkzckhaRFZBNDhtN1BISFJoZmVwVFlSYjRMU2tPX0tWSkM5UENuWmJGYms4VGhlb04xZjYzdw"
+    "CBMiwgFBVV95cUxPQmswM25Hbm9BZVVqbzRzejBBUGVoWldKQzVrQ3NoaHM3Z2NhYnduWkRGeE1feGt5MWU4QW9Oa3ltc0pEZ0dtU3pPaVdhNHlIU0xNdUN4RUt4dU51Vk1BNlBpNGlnTUYtcThjVmNhRENEMm1MTjBxdy1LaXdzYmROOUdmaWp2U3oteDlwcmkzckhaRFZBNDhtN1BISFJoZmVwVFlSYjRMU2tPX0tWSkM5UENuWmJGYms4VGhlb04xZjYzdw",
+    "https://bloodyelbow.com/?p=332426"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 77,
+    "ai": 78,
     "staged": 5,
     "prio": 0,
     "lost": 0
