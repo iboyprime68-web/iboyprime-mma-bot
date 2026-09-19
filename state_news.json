@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f028bccdd01c6257": 1789857163.0135388,
     "c570ef6f2d23e666": 1789857099.59275,
     "5a3ee8829e2915e0": 1789857099.2114747,
     "fc6f6cc772d1101e": 1789857035.7305224,
@@ -2498,8 +2499,7 @@
     "b323339e69cac7e5": 1789169310.990794,
     "9a06a1133314b514": 1789169246.8084617,
     "6f543c8b89c975ce": 1789169182.932007,
-    "6237f661e04de2fc": 1789169118.970832,
-    "0d7e09348e7d45d2": 1789169118.7081966
+    "6237f661e04de2fc": 1789169118.970832
   },
   "initialized": true,
   "v": 4,
@@ -4537,13 +4537,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-19T22:06:06+00:00",
       "cluster": "ceaeae9ea07"
+    },
+    {
+      "t": "Petr Yan Slams Merab Dvalishvili’s \"Weird\" In-Cage Antics Before UFC 333",
+      "source": "MMA Sucka",
+      "ts": "2026-09-19T22:06:12+00:00",
+      "cluster": "ccf8a5009ee"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T22",
-    20
+    21
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
