@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0ccfd207182353a6": 1789790262.2066739,
     "7ccfd383d2a2bac6": 1789790235.253894,
     "e548d011a1c1c8af": 1789790208.8584898,
     "b6ee7b775b65b589": 1789790185.9782505,
@@ -2498,8 +2499,7 @@
     "d5c0503a47442493": 1789065704.6808856,
     "ca2f6a404986ca8c": 1789065704.6799407,
     "0d31f34444b8aa59": 1789065704.677014,
-    "0473afd3a884a68e": 1789065640.7319589,
-    "7cbcad8d3a14a732": 1789065577.340678
+    "0473afd3a884a68e": 1789065640.7319589
   },
   "initialized": true,
   "v": 4,
@@ -4645,16 +4645,21 @@
       "source": "theScore",
       "ts": "2026-09-19T03:01:43+00:00",
       "cluster": "ca0df67e945"
+    },
+    {
+      "t": "RAF 13 results: Khamzat Chimaev puts up 15 points to earn technical fall victory over Gilbert Burns",
+      "source": "MMA Fighting",
+      "ts": "2026-09-19T03:16:58+00:00",
+      "cluster": "cea60bac948"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T03",
-    7
+    8
   ],
   "yt_eval": [
-    "CBMi5gFBVV95cUxQNTJOWTdIX1Q0VDgtNXptV01veEdRNUd1dTlJMGRtSTJKQ1BKRnlwZEhlSnFBcTlyZTRESWY1Yzh1enRrRGQ5ZjAtTGFTZnBna1A3RkJmb01XX2pVaHlPTUNLRzZQS1YzT0xBLWFTQXdtMWRYRUNOYVBUTEFubXhvRkliMy1YWThUcGllSHVxSFNsV1BXRzVsTVNKVXlSV2pvcmFqTk03cnVWMW5ZMlB1MTk5T1luOEFFRnJ2S1EzNWhmTHRielVVYU0wTlphd2VDVVo5MXpzTUJnVlpMREdiVzZianJYUQ",
     "CBMiyAFBVV95cUxNSEZkUWhSNmptVHg5d2JqZ2tCa0ZTVlFXZExCeTlham9NaVpybWxCM0hHWXcySEFDN3ZTRnNSUW9DYlFsLUhkcDZHLVg2Z1RXZzJoaFBWY0ZPZzZ4Wk55RG9FS01aLWdOSHR1cU9sTEFUbHU1YlBZMWlmaGhDVTg4cmZjaFBYZEJjYzFDRjBNSnRNQXViLXA0LTY2Nml5QnZZUnVyUnBRS0lfMmhaVEg3UWNmelJwaXdNcmNlRVkybkY5dV9mdUEwag",
     "CBMiekFVX3lxTE9HRzBqMDZmRlFRdm55RVU1Sm9Oc0VHMVhGdjZON3k4anY1RU1MaEtaSkhmMG9sUmVQNl9RaHE2RWNhakhjbWtXTzUtWWRTSzA1UTFvNjB2Ni1ZcjhRZEd6dmlGbkpKTVJlNjhweHY0YUhKeHlZSTJkN2dB",
     "https://bloodyelbow.com/?p=330234",
@@ -6153,11 +6158,12 @@
     "CBMia0FVX3lxTFBHVnFWNjhtZ2d5bzFXRy1WSmc5LWQzM2NVMVdrS1BNSml3MTVNVFYzY01HSTF1Q3RxalpLbGRWQ1FpQ2xhTXVYbHZZU1FNX1lDNUV5dU5VclFYYnJDRFROeWlIV18wX2xoaHlV",
     "https://www.mmafighting.com/?p=510935",
     "https://bloodyelbow.com/?p=332323",
-    "CBMimwFBVV95cUxPNnI0dHNrRld0TEVMQmNWV2lBTjliX0xQaG85ZXRUZFVPbzZlZmdyWnA4RmdQZml0SGxFSnJybnlVWl9rLUpETm8xcE9nYmtaVHlQNnVFcTlvWGxxMnAxNm15T3VzWW9hc2ZySGdqYXAtVUEzNnNlbHZkS2NxM25nczBQbVZBZ3FtSWpwMkJOUG8wX2pmSGlmUEZhYw"
+    "CBMimwFBVV95cUxPNnI0dHNrRld0TEVMQmNWV2lBTjliX0xQaG85ZXRUZFVPbzZlZmdyWnA4RmdQZml0SGxFSnJybnlVWl9rLUpETm8xcE9nYmtaVHlQNnVFcTlvWGxxMnAxNm15T3VzWW9hc2ZySGdqYXAtVUEzNnNlbHZkS2NxM25nczBQbVZBZ3FtSWpwMkJOUG8wX2pmSGlmUEZhYw",
+    "https://www.mmafighting.com/?p=510981"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 7,
+    "ai": 8,
     "staged": 2,
     "prio": 0,
     "lost": 0
