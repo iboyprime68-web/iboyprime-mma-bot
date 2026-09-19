@@ -1,5 +1,7 @@
 {
   "seen": {
+    "739bf3a3ba278f7e": 1789835072.8105576,
+    "e33107931625fadf": 1789835071.899994,
     "9dc2b4d42b2b2126": 1789835048.285584,
     "2a0f32794714e3ba": 1789835004.1582592,
     "0930abd2eb5f3db5": 1789835003.8793318,
@@ -2497,9 +2499,7 @@
     "c716ffeec1aa54cd": 1789133267.9550996,
     "5d2b5a05979e83d1": 1789133202.9667954,
     "5a4f6fb47674036b": 1789133202.5367181,
-    "b4f5be44d4861f78": 1789133138.1528182,
-    "efc6b65a54c1d2ed": 1789133093.3931007,
-    "032b8a067d4e14c0": 1789133069.640932
+    "b4f5be44d4861f78": 1789133138.1528182
   },
   "initialized": true,
   "v": 4,
@@ -4597,16 +4597,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-19T14:10:02+00:00",
       "cluster": "ce4829b0d07"
+    },
+    {
+      "t": "Alexandre Pantoja Says Joshua Van Became Disrespectful Before UFC 331 Rematch",
+      "source": "MiddleEasy",
+      "ts": "2026-09-19T15:36:11+00:00",
+      "cluster": "cfe466b7d32"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T16",
-    11
+    12
   ],
   "yt_eval": [
-    "be4a8fee-c69a-3a6b-8be8-bd084a8248a0",
     "CBMilwFBVV95cUxQMGx2UjY0T0xXdF8ta1RHcDVDWnR2d2hLQW5jR2ZYbGJEalR3c093dU9OdDlTVU4xQzVZX1JrNUJLNW9JWW5GLUtVNEJWZ0UwUTJaM1NhWWlMWVA1alNoeVVWeWlBdkNVNEZlVF9HWGg4MkRsUHVickh6djlLSVY2Nnh5RFg4UVM5dGV5YnFjTERYSFdKZmJn",
     "CBMiqwFBVV95cUxPTkVkSktPalcwUG9NdmZLOVM3S1VFaWdNVG9NbjI1dm90NC14cVVPSjJVRmpyVko2XzlFOWV2eXdZbnN0U2U0ajVrZk5oNWt0YUJwN3czZWRncmxNNzdYa0FsY2gxbzlmZkFNUnltSTdNbjZGeEdzUU5veFdqRVR1ZWx3Nkp6ZjExbDVNVUxpT09HRWg2SkhhXzMxeWVzcnd0RGoybmhZQUFlT2M",
     "CBMi2gFBVV95cUxOcHBFQXhDenZ4ODlXbW9qa2NTT2d3Uy1WbUdSZkNtazRDZlg3ZjdJUnZYRlUtNlBZVURoQnlxcXN3MjhJalQ5clpXV3FqNmFCTHgzWldLeDhoZGlyazlrOW1lNWt2cXpmYWNNVG45UV9QemFzUF9RSHlqSVl1TERybUZEMXBUYWN2SHZNQWUzM2FRZ1R6aW5Zb0hFZmZaeTdjNXRFeHlaTUVQQmE4ck1DZ1BDdVpVbG5YV1k3TDdDT2QxOC1ZVlBkd3A5cnNRaWFLblVDSmdYTGtsUQ",
@@ -6105,11 +6110,12 @@
     "https://bloodyelbow.com/?p=332382",
     "64610061-f12b-3bf2-9397-d85a12481752",
     "439f3cad-ec3d-3143-9f2a-c6d6991fc4dd",
-    "https://www.mmamania.com/?p=473255"
+    "https://www.mmamania.com/?p=473255",
+    "CBMilgFBVV95cUxQSWl2bkxuQXpQMkFUTU9QMnllMXNGeE90OUJ1NFgyanBqNkVpVG5sblU0NXNXTGlWNmgwVGJZVExOS0I4NWpwV2xtWWhQSjNkNnNmelFqYjkyem54bVlyNnFyV09YUmkxVzFtRUZtNFFSWklCMHZqWjR5YWJWamJ2SWU1Sk5ibDNLV1pIVlJUQ1Nyc2RwdlE"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 72,
+    "ai": 73,
     "staged": 5,
     "prio": 0,
     "lost": 0
