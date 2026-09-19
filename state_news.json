@@ -1,5 +1,6 @@
 {
   "seen": {
+    "138c12dd86f682e2": 1789834939.4482524,
     "92d7d2aaa5889596": 1789834895.399897,
     "34c3dc1cbcb171d6": 1789834872.1281853,
     "6e823429cf281143": 1789834871.6783307,
@@ -2498,8 +2499,7 @@
     "1e40765f2a5ff71f": 1789133045.327083,
     "ddc24181773c354f": 1789133021.8425012,
     "2f0d64c89dfb50c7": 1789132998.2714844,
-    "49fc1a573167b708": 1789132997.1338284,
-    "5036c2dfd40b4c79": 1789117215.1925774
+    "49fc1a573167b708": 1789132997.1338284
   },
   "initialized": true,
   "v": 4,
@@ -4579,16 +4579,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T16:00:00+00:00",
       "cluster": "c54d1832822"
+    },
+    {
+      "t": "UFC 331 Start Time, Full Fight Card Details!",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-19T14:19:00+00:00",
+      "cluster": "c15e6e89884"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T16",
-    8
+    9
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=469491",
     "https://bloodyelbow.com/?p=330338",
     "https://bloodyelbow.com/?p=330370",
     "be4a8fee-c69a-3a6b-8be8-bd084a8248a0",
@@ -6087,11 +6092,12 @@
     "https://www.mmafighting.com/?p=510963",
     "https://bloodyelbow.com/?p=332417",
     "6b18228f-e395-3ad0-99b8-b742a60ff4e1",
-    "https://bloodyelbow.com/?p=332382"
+    "https://bloodyelbow.com/?p=332382",
+    "64610061-f12b-3bf2-9397-d85a12481752"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 69,
+    "ai": 70,
     "staged": 5,
     "prio": 0,
     "lost": 0
