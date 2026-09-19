@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c59728818ddbbe16": 1789837152.2228637,
     "f1c3ee6b08aa498d": 1789837026.1623075,
     "bf3e4243f2f0484a": 1789836777.572236,
     "9ba40e46b40395b8": 1789836651.9643135,
@@ -2498,8 +2499,7 @@
     "623987eb4449bef1": 1789134573.240403,
     "2a3405204eeafb4f": 1789134530.2802954,
     "74c155b70ded11eb": 1789134506.920199,
-    "a978a408bdf20a66": 1789134443.4369643,
-    "09811c49a47eb7f4": 1789134375.4511888
+    "a978a408bdf20a66": 1789134443.4369643
   },
   "initialized": true,
   "v": 4,
@@ -2509,36 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T17:00:00+00:00",
       "cluster": "c3fee3d0047"
-    },
-    {
-      "t": "Tito Ortiz admits regrets over bitter Dana White feud, wants to repair relationship: 'I messed up'",
-      "source": "sports.yahoo.com",
-      "ts": "2026-09-17T16:57:32+00:00",
-      "cluster": "c1b15aa00f6"
-    },
-    {
-      "t": "Arman Tsarukyan Accuses Ilia Topuria of Making Excuses Over Justin Gaethje’s Gloves",
-      "source": "mmasucka.com",
-      "ts": "2026-09-17T16:58:08+00:00",
-      "cluster": "cfdebaea487"
-    },
-    {
-      "t": "\"I Feel Terrible\": Chael Sonnen Admits He Got Tom Aspinall’s Eye Injury Wrong",
-      "source": "mmasucka.com",
-      "ts": "2026-09-17T16:58:10+00:00",
-      "cluster": "cdb03c4c32d"
-    },
-    {
-      "t": "Tito Ortiz Opens Up About Long-Running Feud with Dana White",
-      "source": "mmasucka.com",
-      "ts": "2026-09-17T16:58:28+00:00",
-      "cluster": "c945cbd48fc"
-    },
-    {
-      "t": "Arman Tsarukyan Promises to Finish Mauricio Ruffy and Secure a Title Shot",
-      "source": "mmasucka.com",
-      "ts": "2026-09-17T16:58:32+00:00",
-      "cluster": "c99511e1e6c"
     },
     {
       "t": "Sean King III a 'full-time UFC fighter' after bonus-winning KO at Noche UFC",
@@ -4621,16 +4591,21 @@
       "source": "heavy.com",
       "ts": "2026-09-19T16:52:19+00:00",
       "cluster": "c411150aa22"
+    },
+    {
+      "t": "UFC 331 Results (Live)",
+      "source": "MMA Insight",
+      "ts": "2026-09-19T16:42:38+00:00",
+      "cluster": "ccb56344b06"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T16",
-    22
+    23
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330391",
     "CBMizAFBVV95cUxPS0lLNUpPRTFLQmxla1hlbTlMMHJ2WkhBSk5DcGpPZlBYVGU1dUxjT200SW5uSlFVSXJJSWoyNGxjSzlaNS1ReG4zOWprejBMVjhmRkgwdk1hYy14ZFVCaHl1bURWRzVNa1JuM0tXY09wMzlJb3J0djh3UnFZVUs3UVhSUURvMkloRno1S2JoVFNCRk1MLWVIdFk2LXRZel9CRkxxUE1oeVFKSWxpRkdsZVBSMC1hNU9Sc0FxdDJSNHIzdmpqUXhKaFBaWjA",
     "https://bloodyelbow.com/?p=330407",
     "CBMigAFBVV95cUxNQkt0QnItMVZnYUhUSTZ0MWZaU25JUE1pRFVsTnY2ajhLbXN6ZjM3dXVETmYtU1NTUjVpa3dtMUdhcjFhRkVmWW5EeXlKWUJ3RHVMdTRIbHpFTUFjTDlZN0tlUjBFUU5zSWlSa3RSanZWbExjWVY3eGZ6a2NHNEdhQg",
@@ -6129,11 +6104,12 @@
     "CBMib0FVX3lxTE9zUWI0dGxEc2VYUVFrOGZnS1hsZ184S2RtN1k5U2tSeTBxa3doRTFTWVFIUlNqUjhGTUs4LVJHMVJuVFh5ZGJHaWw0MjRnaG8tNGd1OW1JLVBMQ3dLQ1BjQkt1M296NUpsVUtOaU9tYw",
     "CBMi2wFBVV95cUxOckJZeWtjamtlUWplLThlaGs3eEhTTjFNa3VwbTIxaHBmck55Ulprbklkel9vZTA4dkQzaWpDX19TN0o4REJhanREZ0EybVNncUNFX2MxRTFuUHNxS080TEExQzBJdHktRDVTN2dRNGVYUjQ5cEdsOUJSSkFiYV9XT0pQazg5ZHJLMmZBOFREYmlkNkFxdmJCMkpGb1hmWFowSFhCeDhyenExcmo2RlQxeDIxOE9lR01qMWJOazBuUlB4YV9zSDlpRmVNVzJMR0VSWC0wTEk5N1NUSFHSAeABQVVfeXFMTlU4MXVsSm9fVnAtMk5lakJ1MlI5QjIwZWRoUjVUZDVTTHZidDl1eWRacmVoUzE5WVNRNWh4cjU2WnVxR1lSc01aZm1aLXhIRFNmQ2hpbW5UWFZkY3ExYUVwejVvUjM4TExUd2RjQndrc2h2WjRLcDlpR2JMbGpIWDNtcXdNUnZjcU9JYlhmSUJTZTYwZVJ6Q2FwQ1Y2QWcxeFRLSTRSYTJ5Z291NUdKMEI4TFh4WXpRQ2daVm1rSmFnb2JmbDRRVzg3Q2VreS1PR0VhY1VLS1IzTll1SDdXVmw",
     "CBMiuAFBVV95cUxOLWFtVWkwdVhTdl9pLVJQVEFQa0RkOUw2WmVUUTVXY1JDLVBxTUZwTzJ3VWJuZC1WTVdvMkNFQjF6R003N1gxNFVWSlFmR1N3d2J0emk2bEMxMVlVZUN6MzFOakd2U0xuX1FCVVhUX3paNUlPLUhNZVJmOHBiNUVSdENzWFBVUlEzUXB3OFdJTy1nRFRFWGN4NlkxWVItLVlwRE56RF9fRTFvNUt0WHZfMjlfZUtxUW5U",
-    "CBMickFVX3lxTE1fUWJVX29oYkhVYVVIVXpER0F4NU00WVdJTXJKRS1fb1RQS2JaTUVxS2V0WTJQZ3ItaC1SYXZvQWVzQjJCb19BV203d3dwb3BaZWtPcUdDamJIbHVpNDM2b2VfNkllV2tBUjNVcVpsU2IwUQ"
+    "CBMickFVX3lxTE1fUWJVX29oYkhVYVVIVXpER0F4NU00WVdJTXJKRS1fb1RQS2JaTUVxS2V0WTJQZ3ItaC1SYXZvQWVzQjJCb19BV203d3dwb3BaZWtPcUdDamJIbHVpNDM2b2VfNkllV2tBUjNVcVpsU2IwUQ",
+    "CBMiXEFVX3lxTE9VR0FVbi03UUpHTUY5TkdjcERiM2pOZW1ab0hQZ3VqbnU0Sy1SSEVId3hzZWpXQnNaZlpENVJIc19DTl9lQ2NCT1ZOZVY0YzRPRGwzOTJYeXBTSVA5"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 83,
+    "ai": 84,
     "staged": 5,
     "prio": 0,
     "lost": 0
