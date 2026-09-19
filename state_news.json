@@ -1,5 +1,6 @@
 {
   "seen": {
+    "539ee5d50f522b06": 1789856399.607132,
     "3006c12d8c27e603": 1789856376.365698,
     "1bac16ae4ff0579e": 1789856376.3467612,
     "d50dea720e87bd14": 1789856376.3454864,
@@ -2498,8 +2499,7 @@
     "178650e9c7bb406c": 1789168194.6337364,
     "b967817db393886f": 1789168151.9484985,
     "8b5cf3729e81cb3b": 1789168087.3498192,
-    "97f512aa1ae9d960": 1789168043.681317,
-    "5d3eb915a895043c": 1789168020.4630134
+    "97f512aa1ae9d960": 1789168043.681317
   },
   "initialized": true,
   "v": 4,
@@ -4477,13 +4477,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-19T21:30:34+00:00",
       "cluster": "cf63e59e3ca"
+    },
+    {
+      "t": "UFC 331 fight results: Joshua Van vs. Alexandre Pantoja live updates, card, highlights from Los Angeles",
+      "source": "CBS Sports",
+      "ts": "2026-09-19T21:30:40+00:00",
+      "cluster": "c966c761309"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T22",
-    8
+    9
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
