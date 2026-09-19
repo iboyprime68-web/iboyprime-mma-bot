@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0d01ea587ea6f2bb": 1789845394.3561823,
     "7e7c7be471473ce4": 1789845348.9895294,
     "de595f43c0ab7b5d": 1789845325.4772036,
     "d088c0a9b7794f54": 1789845324.8288565,
@@ -2498,8 +2499,7 @@
     "0c669c2d833baa40": 1789148460.6425164,
     "1f725d2f4e959d42": 1789148438.6866693,
     "de6b86a4fbd1ae62": 1789148416.5277941,
-    "e2440dd9b2c77929": 1789148415.532199,
-    "546b8e4a0135b309": 1789148392.0509026
+    "e2440dd9b2c77929": 1789148415.532199
   },
   "initialized": true,
   "v": 4,
@@ -4561,16 +4561,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T19:00:00+00:00",
       "cluster": "c19f1a1cd39"
+    },
+    {
+      "t": "Iwo Baraniewski vs. Alonzo Menifield prediction, pick, time for UFC 331",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-19T18:01:08+00:00",
+      "cluster": "c85f0674054"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T19",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMiR0FVX3lxTE5XRTZ0Rl9ULXNaOEtMWGFoTGo2dktwakd0S2FiWnA3aGhtZ3Z4ay1yMHlRaXRLcjRib0o1VVFkMVJUOUd6cnl3",
     "https://www.mmamania.com/469572/highlights-open-ufc-paris",
     "CBMiuAFBVV95cUxQd3R3MmJPQW81RFBNSmNPeWFteDl0R3JKUnVYV2dxSU5COG5sOVZGT1d3UVFKbTQxalItblgwU1RRWGFnZGxlN2JiVmUtZ0VGRTIwTjd2TUlHUjUwd2J0NzZva1pUaFU1aFFaZnJERFlaTWpFNzdJS3ZtS1VGWVpmM0VuSmtrb0RZeFl3LTcyMG1iYUxOZHNwcG1fNlBaNUFPZmE4Y0wwOVJ5MlJ0SFlXQmI3enVORl9H",
     "CBMivwFBVV95cUxNclI1QVNlZzJHWkQzZ2o3TjVjT1drb1VpMmxsNWFxbW9KNk5QNUp5NE9INjllaGlqYnZzOU9XWEVid3pPc21PR3ozWTlUajkzcC03RF9DN20tQTVOM0hXZTBpei12Vk40UFRhenJTR2t1enJVUk9PLVB0bFJsa3Rrcm4zcnU1OHpoYUREam9BSFlxRXhJVElhOThrSWlZMENOeXJ0QzJ0VVFzUnlpOHEwNnExaFlKR0s2S0NhQ3dlSQ",
@@ -6069,11 +6074,12 @@
     "https://www.mmafighting.com/?p=511035",
     "https://bloodyelbow.com/?p=332397",
     "9da36a06-4e71-35f3-8040-0429b57d8a50",
-    "https://bloodyelbow.com/?p=332408"
+    "https://bloodyelbow.com/?p=332408",
+    "1664a61b-153b-3fb0-872c-1d9514de363c"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 94,
+    "ai": 95,
     "staged": 5,
     "prio": 0,
     "lost": 0
