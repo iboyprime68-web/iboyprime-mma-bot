@@ -1,5 +1,7 @@
 {
   "seen": {
+    "3077eed46ca75ec1": 1789858884.9641278,
+    "2a554ffeeb28ca74": 1789858884.7310143,
     "20714c1640a0cea5": 1789858841.7629442,
     "17e413493b6441b1": 1789858819.884451,
     "e6234e09d1a48f8e": 1789858756.6365452,
@@ -2497,19 +2499,11 @@
     "434ae5f4390ed606": 1789217575.7156527,
     "937ef90889d1d4c2": 1789217575.7153182,
     "fd18f4584d6d3d13": 1789217511.532471,
-    "df932dbc57aad306": 1789217511.2752872,
-    "cf19c99e29838522": 1789217511.2733147,
-    "50e7b5cfe35b2333": 1789217447.5230744
+    "df932dbc57aad306": 1789217511.2752872
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Joshua Van, UFC 328 pre-fight press conference",
-      "source": "The Lufkin Daily News",
-      "ts": "2026-09-17T23:00:48+00:00",
-      "cluster": "c2ddeeb62b9"
-    },
     {
       "t": "Khamzat Chimaev rips judges, calls for UFC title shot in return fight",
       "source": "MMA Junkie",
@@ -4669,13 +4663,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T23:00:00+00:00",
       "cluster": "cc375acddde"
+    },
+    {
+      "t": "MMA World Reacts To Joanderson Brito's Stunning Giga Chikadze KO",
+      "source": "LowKickMMA.com",
+      "ts": "2026-09-19T22:15:17+00:00",
+      "cluster": "ce1dba9cf36"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T23",
-    2
+    3
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
