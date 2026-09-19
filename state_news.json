@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f60ad38b1127cb96": 1789790285.4067106,
     "0ccfd207182353a6": 1789790262.2066739,
     "7ccfd383d2a2bac6": 1789790235.253894,
     "e548d011a1c1c8af": 1789790208.8584898,
@@ -2498,8 +2499,7 @@
     "b9504a9b19f46398": 1789065704.9267778,
     "d5c0503a47442493": 1789065704.6808856,
     "ca2f6a404986ca8c": 1789065704.6799407,
-    "0d31f34444b8aa59": 1789065704.677014,
-    "0473afd3a884a68e": 1789065640.7319589
+    "0d31f34444b8aa59": 1789065704.677014
   },
   "initialized": true,
   "v": 4,
@@ -4651,16 +4651,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-19T03:16:58+00:00",
       "cluster": "cea60bac948"
+    },
+    {
+      "t": "RAF 13 live blog: Colby Covington vs. Belal Muhammad",
+      "source": "MMA Fighting",
+      "ts": "2026-09-19T03:25:14+00:00",
+      "cluster": "c730edda785"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T03",
-    8
+    9
   ],
   "yt_eval": [
-    "CBMiyAFBVV95cUxNSEZkUWhSNmptVHg5d2JqZ2tCa0ZTVlFXZExCeTlham9NaVpybWxCM0hHWXcySEFDN3ZTRnNSUW9DYlFsLUhkcDZHLVg2Z1RXZzJoaFBWY0ZPZzZ4Wk55RG9FS01aLWdOSHR1cU9sTEFUbHU1YlBZMWlmaGhDVTg4cmZjaFBYZEJjYzFDRjBNSnRNQXViLXA0LTY2Nml5QnZZUnVyUnBRS0lfMmhaVEg3UWNmelJwaXdNcmNlRVkybkY5dV9mdUEwag",
     "CBMiekFVX3lxTE9HRzBqMDZmRlFRdm55RVU1Sm9Oc0VHMVhGdjZON3k4anY1RU1MaEtaSkhmMG9sUmVQNl9RaHE2RWNhakhjbWtXTzUtWWRTSzA1UTFvNjB2Ni1ZcjhRZEd6dmlGbkpKTVJlNjhweHY0YUhKeHlZSTJkN2dB",
     "https://bloodyelbow.com/?p=330234",
     "https://www.mmafighting.com/?p=508550",
@@ -6159,11 +6164,12 @@
     "https://www.mmafighting.com/?p=510935",
     "https://bloodyelbow.com/?p=332323",
     "CBMimwFBVV95cUxPNnI0dHNrRld0TEVMQmNWV2lBTjliX0xQaG85ZXRUZFVPbzZlZmdyWnA4RmdQZml0SGxFSnJybnlVWl9rLUpETm8xcE9nYmtaVHlQNnVFcTlvWGxxMnAxNm15T3VzWW9hc2ZySGdqYXAtVUEzNnNlbHZkS2NxM25nczBQbVZBZ3FtSWpwMkJOUG8wX2pmSGlmUEZhYw",
-    "https://www.mmafighting.com/?p=510981"
+    "https://www.mmafighting.com/?p=510981",
+    "https://www.mmafighting.com/?p=510943"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 8,
+    "ai": 9,
     "staged": 2,
     "prio": 0,
     "lost": 0
