@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9dc2b4d42b2b2126": 1789835048.285584,
     "2a0f32794714e3ba": 1789835004.1582592,
     "0930abd2eb5f3db5": 1789835003.8793318,
     "5e178a6987cf4774": 1789835003.878118,
@@ -2498,8 +2499,7 @@
     "5a4f6fb47674036b": 1789133202.5367181,
     "b4f5be44d4861f78": 1789133138.1528182,
     "efc6b65a54c1d2ed": 1789133093.3931007,
-    "032b8a067d4e14c0": 1789133069.640932,
-    "1e40765f2a5ff71f": 1789133045.327083
+    "032b8a067d4e14c0": 1789133069.640932
   },
   "initialized": true,
   "v": 4,
@@ -4591,16 +4591,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-19T15:01:30+00:00",
       "cluster": "c5eb983bd17"
+    },
+    {
+      "t": "UFC’s Belal Muhammad reacts to lopsided RAF 13 loss, pays zero respect to Colby Covington &#8211; ‘I’ll own it’",
+      "source": "MMA Mania",
+      "ts": "2026-09-19T14:10:02+00:00",
+      "cluster": "ce4829b0d07"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T16",
-    10
+    11
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330370",
     "be4a8fee-c69a-3a6b-8be8-bd084a8248a0",
     "CBMilwFBVV95cUxQMGx2UjY0T0xXdF8ta1RHcDVDWnR2d2hLQW5jR2ZYbGJEalR3c093dU9OdDlTVU4xQzVZX1JrNUJLNW9JWW5GLUtVNEJWZ0UwUTJaM1NhWWlMWVA1alNoeVVWeWlBdkNVNEZlVF9HWGg4MkRsUHVickh6djlLSVY2Nnh5RFg4UVM5dGV5YnFjTERYSFdKZmJn",
     "CBMiqwFBVV95cUxPTkVkSktPalcwUG9NdmZLOVM3S1VFaWdNVG9NbjI1dm90NC14cVVPSjJVRmpyVko2XzlFOWV2eXdZbnN0U2U0ajVrZk5oNWt0YUJwN3czZWRncmxNNzdYa0FsY2gxbzlmZkFNUnltSTdNbjZGeEdzUU5veFdqRVR1ZWx3Nkp6ZjExbDVNVUxpT09HRWg2SkhhXzMxeWVzcnd0RGoybmhZQUFlT2M",
@@ -6099,11 +6104,12 @@
     "6b18228f-e395-3ad0-99b8-b742a60ff4e1",
     "https://bloodyelbow.com/?p=332382",
     "64610061-f12b-3bf2-9397-d85a12481752",
-    "439f3cad-ec3d-3143-9f2a-c6d6991fc4dd"
+    "439f3cad-ec3d-3143-9f2a-c6d6991fc4dd",
+    "https://www.mmamania.com/?p=473255"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 71,
+    "ai": 72,
     "staged": 5,
     "prio": 0,
     "lost": 0
