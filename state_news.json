@@ -1,5 +1,6 @@
 {
   "seen": {
+    "693bcc50155bfa5e": 1789837240.5172522,
     "4ab52d184bffa3f7": 1789837216.7101696,
     "c59728818ddbbe16": 1789837152.2228637,
     "f1c3ee6b08aa498d": 1789837026.1623075,
@@ -2498,8 +2499,7 @@
     "029267bf44accc35": 1789134643.1581292,
     "6a9f218b58d013f5": 1789134573.519275,
     "623987eb4449bef1": 1789134573.240403,
-    "2a3405204eeafb4f": 1789134530.2802954,
-    "74c155b70ded11eb": 1789134506.920199
+    "2a3405204eeafb4f": 1789134530.2802954
   },
   "initialized": true,
   "v": 4,
@@ -4591,16 +4591,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T17:00:00+00:00",
       "cluster": "ca89798593d"
+    },
+    {
+      "t": "Caio Borralho: Arman Tsarukyan ‘going to get knocked out’ if he tries to strike with Mauricio Ruffy at UFC 331",
+      "source": "MMA Fighting",
+      "ts": "2026-09-18T13:47:31+00:00",
+      "cluster": "c51c3b2c83b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T17",
-    1
+    2
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330407",
     "CBMigAFBVV95cUxNQkt0QnItMVZnYUhUSTZ0MWZaU25JUE1pRFVsTnY2ajhLbXN6ZjM3dXVETmYtU1NTUjVpa3dtMUdhcjFhRkVmWW5EeXlKWUJ3RHVMdTRIbHpFTUFjTDlZN0tlUjBFUU5zSWlSa3RSanZWbExjWVY3eGZ6a2NHNEdhQg",
     "CBMiwwFBVV95cUxPRmwwQ0dtcWpRUXk0bnJrRmc5WUh6Q2owRS0tUnJjYjcyV0QxaVNEcGVGenBSX192LUVSME83Q1dob0lJeFlYRkxYMnNwcFdMMnEzU0w1ak93Y3RkSDBWVGpuVzlxY19LbFV5ZFNXUVN2YUlDbVI2Q2hmdllueGZNUENUSWtYY1pWdXBoSTc4N0JRWWRFVEN3eWpaMlpWblF2cGFmZlduMmZDV2NLQTVLTWJMZUZiQWtJWkg0QXZPSno3eVE",
     "CBMiogFBVV95cUxQaUlNeWtDMnl4N2UzbWZQbEtrZjh4cEd3WExVQ291QmdxZ2FwVjQ1T2NjdDUyMl92QUlWclFjbkd2bk10dzcyRG15ZEtIVjNaeFRKcmhuVmFUQ0hPSEUtalYtWFFWZllDb05LNUk5dUhiaGJHc2FDQW4tYWxVT09TN2l3UTJ4WjNGMlRldXVRdVU3ZWFYakVha1lxS3RUZVpTT0E",
@@ -6099,11 +6104,12 @@
     "CBMiuAFBVV95cUxOLWFtVWkwdVhTdl9pLVJQVEFQa0RkOUw2WmVUUTVXY1JDLVBxTUZwTzJ3VWJuZC1WTVdvMkNFQjF6R003N1gxNFVWSlFmR1N3d2J0emk2bEMxMVlVZUN6MzFOakd2U0xuX1FCVVhUX3paNUlPLUhNZVJmOHBiNUVSdENzWFBVUlEzUXB3OFdJTy1nRFRFWGN4NlkxWVItLVlwRE56RF9fRTFvNUt0WHZfMjlfZUtxUW5U",
     "CBMickFVX3lxTE1fUWJVX29oYkhVYVVIVXpER0F4NU00WVdJTXJKRS1fb1RQS2JaTUVxS2V0WTJQZ3ItaC1SYXZvQWVzQjJCb19BV203d3dwb3BaZWtPcUdDamJIbHVpNDM2b2VfNkllV2tBUjNVcVpsU2IwUQ",
     "CBMiXEFVX3lxTE9VR0FVbi03UUpHTUY5TkdjcERiM2pOZW1ab0hQZ3VqbnU0Sy1SSEVId3hzZWpXQnNaZlpENVJIc19DTl9lQ2NCT1ZOZVY0YzRPRGwzOTJYeXBTSVA5",
-    "https://bloodyelbow.com/?p=332390"
+    "https://bloodyelbow.com/?p=332390",
+    "https://www.mmafighting.com/?p=510293"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 85,
+    "ai": 86,
     "staged": 5,
     "prio": 0,
     "lost": 0
