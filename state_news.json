@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bd15b9fe66413497": 1789856139.5655365,
     "01b4ed7392bdab78": 1789856116.8309004,
     "121ac312679cf5cd": 1789856094.8140175,
     "71b280b2ecb3feac": 1789856094.3550715,
@@ -2498,8 +2499,7 @@
     "a3195bdcbe9f3b1c": 1789167883.4644973,
     "71fa5f345fb214a8": 1789167883.0125437,
     "683891933763af51": 1789160449.6041183,
-    "010d6de3c04131cc": 1789160449.368741,
-    "9343639b7595be01": 1789160426.7085328
+    "010d6de3c04131cc": 1789160449.368741
   },
   "initialized": true,
   "v": 4,
@@ -4447,13 +4447,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T22:00:00+00:00",
       "cluster": "c3374e682c6"
+    },
+    {
+      "t": "Dana White makes major ruling on UFC heavyweight title after Tom Aspinall gives up gold",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-19T20:34:49+00:00",
+      "cluster": "c33b7d5011e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T22",
-    3
+    4
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
