@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9b90adee05c60d9e": 1789790138.9590786,
     "e715fd5e78c02ab5": 1789790115.702233,
     "05778673ca7d1a83": 1789790115.3204541,
     "eedf51f3219b957c": 1789790092.1652105,
@@ -2498,8 +2499,7 @@
     "8e5308bbd05db656": 1789065211.278992,
     "58f2f2d6a934a47d": 1789065211.2764378,
     "500b6afc212b02ea": 1789065188.7767193,
-    "0cf7e7961bee55a4": 1789065122.5576153,
-    "1727af53bb55fb35": 1789065058.456344
+    "0cf7e7961bee55a4": 1789065122.5576153
   },
   "initialized": true,
   "v": 4,
@@ -4615,16 +4615,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T01:00:00+00:00",
       "cluster": "c8b2414007d"
+    },
+    {
+      "t": "RAF 13 live blog: Luke Rockhold vs. Joe Pyfer",
+      "source": "MMA Fighting",
+      "ts": "2026-09-19T02:11:00+00:00",
+      "cluster": "cbfb9e35948"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T03",
-    2
+    3
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330299",
     "https://bloodyelbow.com/?p=330236",
     "f94508e3-9d1b-3581-abc8-58096f7b9a12",
     "af85d63f-f471-3618-92c2-23148c56b369",
@@ -6123,11 +6128,12 @@
     "CBMipAFBVV95cUxPelRhLXV3UFV4UHlEYVhiT1RjOXlMNUhUYV8xQ0taMVBvLVd4Z0pIRlBEdmktb004dTRHN3R3d1BjblU4SjZuaDJFVk9oSjVTM19aR29XVjFCVnA2bmRHdzdkb1FtOXNyUExMdG5fMlVibDIwb3BVa2NIbElYX0UwU3FqZFFnQmFXampYcVM4VGxJS3M0UGR6M2RMdWg3Skx4aTBIVw",
     "CBMiogFBVV95cUxOUkpFOG1mLVM0Tlg0T1Q2R2liLTVlb0RqWmFWdXNuZkNsU1d5c295aGdxLWstSk5faEFTTldCYktRRFV2WWdRUHRhNlBuaDlBdFM2dkFCVWV4M29OeUowa2pIczF5RWVudHNLVXlDek5hWWVYMFEweTR6X0J0Mmo0Z005TkxJNzByQTQ1QUhWRmtkcHMteDdtUF9ZMEVSeFpLRkE",
     "33e4f277-a910-3162-bae6-53d32f1a256d",
-    "https://bloodyelbow.com/?p=332276"
+    "https://bloodyelbow.com/?p=332276",
+    "https://www.mmafighting.com/?p=510924"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 2,
+    "ai": 3,
     "staged": 0,
     "prio": 0,
     "lost": 0
