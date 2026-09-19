@@ -1,5 +1,7 @@
 {
   "seen": {
+    "fc6f6cc772d1101e": 1789857035.7305224,
+    "baab6189fefa79b3": 1789857035.4834821,
     "b23eae17a2288497": 1789856971.8099046,
     "3798a65d63847287": 1789856971.592101,
     "eab0a2c33d6d17f2": 1789856971.5904758,
@@ -2497,9 +2499,7 @@
     "6237f661e04de2fc": 1789169118.970832,
     "0d7e09348e7d45d2": 1789169118.7081966,
     "52392a6850dc4c3f": 1789169118.7066438,
-    "1e025414f6b9c0a2": 1789169118.7043889,
-    "7b7a7ec794d50f48": 1789169118.7013671,
-    "0f31765244eab9ff": 1789169054.7558506
+    "1e025414f6b9c0a2": 1789169118.7043889
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T23:00:00+00:00",
       "cluster": "cb99c2b66d1"
-    },
-    {
-      "t": "Arman Tsarukyan warns Ilia Topuria not to take immediate title shot",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-17T22:30:00+00:00",
-      "cluster": "c11a6f66143"
     },
     {
       "t": "Belal Muhammad Believes Mauricio Ruffy in Peril at 331",
@@ -4531,13 +4525,19 @@
       "source": "Western Wheel",
       "ts": "2026-09-19T22:00:19+00:00",
       "cluster": "cb3850047f9"
+    },
+    {
+      "t": "Tom Pagliarulo: UFC Record, Stats and Fighter Profile",
+      "source": "Fightomic",
+      "ts": "2026-09-19T22:01:15+00:00",
+      "cluster": "ca853b89b16"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T22",
-    18
+    19
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
