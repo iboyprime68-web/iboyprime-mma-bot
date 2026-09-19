@@ -1,5 +1,6 @@
 {
   "seen": {
+    "826d26c073359340": 1789824518.5929515,
     "2d829764be186f1e": 1789824267.6008964,
     "4c3cd6c9f80292ed": 1789824079.3494096,
     "67f1f5459f2ba129": 1789824078.5348754,
@@ -2498,18 +2499,11 @@
     "424016f112d20e23": 1789116625.7156296,
     "4493c541d40e6354": 1789116560.2080138,
     "b393b70993eed289": 1789116494.544522,
-    "89e71f1ba30f9f5b": 1789116425.4437697,
-    "751471093b4a35fa": 1789116378.6949472
+    "89e71f1ba30f9f5b": 1789116425.4437697
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "‘I’m his dad’: Joshua Van continues to mock Alexandre Pantoja ahead of UFC 331 rematch",
-      "source": "MMA Fighting",
-      "ts": "2026-09-17T13:25:37+00:00",
-      "cluster": "c2bc37c74bd"
-    },
     {
       "t": "Michael Chandler predicts Arman Tsarukyan’s return after loss to ‘better than people think’ Mauricio Ruffy",
       "source": "Bloody Elbow",
@@ -4669,16 +4663,21 @@
       "source": "lasueur.com",
       "ts": "2026-09-19T13:19:37+00:00",
       "cluster": "c3948039493"
+    },
+    {
+      "t": "Gable Steveson boos and accusations hang over burgeoning UFC career",
+      "source": "USA Today",
+      "ts": "2026-09-19T13:22:00+00:00",
+      "cluster": "c8839db0336"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T13",
-    9
+    10
   ],
   "yt_eval": [
-    "CBMibkFVX3lxTFAzekhIQ1lZS29FQU93eS1WVHFaSUsyOVc0bnoyRTluVVdvWXpJV2I5ZlZlLXo2OC1mbjN6VURySlhTWExzNjAxeFB0bWVWbjR3TTN0ZWZqS2NwMDhscmNvdWw0S0VOYllHRTU0RkRB",
     "CBMiogFBVV95cUxObjZPSExaSDFKSktSWGNkYXdBNi1IejFQVmQ0TG52Y1ZDb2laRHM4VnhVNEZmMVVDLXJOT18wZGtUX0JPVjVJckI3Nlh5VUVNdTlfY0dUTFF3ZW50MTJqcXlBUWNLcXJNcUxhZktTQURlUDdsYjF1Q2ZzRC1OXzAzZ3VNUzhta3g5THhJbm1xSVd2U0s0d2ZFbFNCNlBYdlZtREE",
     "CBMiqgFBVV95cUxPcC15TVNpdFJNaFRoenZQUUxrMTZrNHR5WVdkc21NeGlHaS1JM1JZYTRocTdTWUpuWWlFYW9HTWpTX2dVRVdsSXhEYlZncHZGMjduMFFOSDMxZTJPQktPbk9iTzNOTUVVcTlyQW9VckJFOVFRdWhUU19PS3M0NkFQVFpBRVlOeVlRcE02dHREdUpDMVgteE5fYVZGLTBSM2tPV1g4TTRxS2tPZw",
     "CBMilwFBVV95cUxOWk1nVk4tUjIyTVpyN0pETjVnMnJpRTkybUlFY3N2Rks5Y3FvMkJVZVoxc1JrYXFTVl9lbVpuRTloYVBzUndUVnFNcWR6RlYzLTRuQ1pleC16YlliNUJLZk5tby1XM3ZjNExxcTRfcTJKVnhzcHRST2FhbmFfR1pOUnNud1JPRU1WZjFsa1Z4d0hOWHUzcDFZ",
@@ -6177,11 +6176,12 @@
     "CBMirgFBVV95cUxOYUZuM2FnMWwtT01GMlg4dHZPVlRuWTFhbXRENlpjaHd2R3FXQkF1SVBRUWNqdTJkeGRITjllMk5wb1c2YnMwdkZxOVpIc3ZCc3pMYWJjSFp1bGVjdDVoS3dyUVhOV1VCakc3SWc4cE1FdmNFaFY5b3hHeUpWQVI2MmJTRVN6RFVWY0FraWZFaEVBaFVFN1NEb2x5T0lzU09McEQxUlVoNUYyMkt0X3c",
     "CBMiqwFBVV95cUxPTFl0Y2tZMkVHU2k0eWF6VG01RjEtSE03UU5KM2xkUWFSNkg0dEJHVExNSnN2b3FNNVNsTHItTDdFaEIxWDZLb0RlNjlKb1hpV2wtSFp1TzlBejVPdk11S0g3ak5YWGpXN09TdjJPcWg1WWdoOVFjV1loWDk3MzhBUTYtT1VSWTJQeGdyNW1YOUNKczJXM1kzM1NsUlB3MVNDQ245amZuU0pndGs",
     "CBMidkFVX3lxTE9VcS1GQjZzR3dYMGUtQUJTUjU2aVdwNjJHazNsRTdZeGZoSWVSMzhGQkFQZmhJbDJTZWp1cjgtbUZVNnIzSG9UWXhvWFJtLXBQNTFSbXBaN0UyRG8zTmFBWDRkUGpVd19reTBUbk81OEc3UmdKd2c",
-    "CBMifEFVX3lxTE4yUDdlM1FETGZ5UUh5TDlZTG1BWTJJSUpyeHp6dTZrV3J6ekItZG4tdWwtTnN2SFVqaklPb21sWk1Ba2Y2ckh2UXVFZWp3dnFnMm1Wa0JHSy1QVkFBVFNKanpieVZUcHFpM3pZcHVQaHc3MDNYOEpoN2h4b3E"
+    "CBMifEFVX3lxTE4yUDdlM1FETGZ5UUh5TDlZTG1BWTJJSUpyeHp6dTZrV3J6ekItZG4tdWwtTnN2SFVqaklPb21sWk1Ba2Y2ckh2UXVFZWp3dnFnMm1Wa0JHSy1QVkFBVFNKanpieVZUcHFpM3pZcHVQaHc3MDNYOEpoN2h4b3E",
+    "CBMioAFBVV95cUxOVUNqdXZpYnYyelV0LXU0RkIxbXdRaU9XM1dGb1hpSWdaYmV5MC1QNl9LSVBTZnhNM1NZX3gzZGFGRWdKRU53cWNYRlItMTh1OWlfQUFsVFZhckJTUFUzTG9kQ1h0YmRzRVJpVVNMQkRzb0ZkZlpqUHk0Q0N0VTVlZ3ZjamZFelhGaVJEUlR4TU1CM0VUZ2V3QUt5Q0p1OHU1"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 58,
+    "ai": 59,
     "staged": 5,
     "prio": 0,
     "lost": 0
