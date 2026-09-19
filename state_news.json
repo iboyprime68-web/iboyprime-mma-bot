@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b3396a1e3f143029": 1789807323.8613346,
     "8fb6510399d2b21a": 1789807299.8721223,
     "bd424e7cd73f7612": 1789807276.1123734,
     "c5887df99b320747": 1789793013.9458203,
@@ -2498,8 +2499,7 @@
     "c54a87049ddf6204": 1789076347.8996933,
     "0b6c87802abe75e3": 1789076324.3513126,
     "6c41e36331c7069a": 1789076323.997873,
-    "8d6e0561929edf0a": 1789076259.7592869,
-    "75ba54617cddb9a6": 1789076195.6190908
+    "8d6e0561929edf0a": 1789076259.7592869
   },
   "initialized": true,
   "v": 4,
@@ -4615,16 +4615,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T05:00:00+00:00",
       "cluster": "c784f396ba7"
+    },
+    {
+      "t": "Gable Steveson channels Jon Jones and refuses to look at Sean Sharaf in awkward final UFC 331 face-off",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-19T05:03:49+00:00",
+      "cluster": "c8df9979c46"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T08",
-    2
+    3
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330305",
     "2465745e-01e5-3b42-8637-fa9cf5de47ef",
     "https://www.mmafighting.com/?p=508308",
     "https://bloodyelbow.com/?p=330224",
@@ -6123,11 +6128,12 @@
     "https://www.mmamania.com/?p=473203",
     "CBMi2gFBVV95cUxQRFhWUlpmZUZ1WGZRRm1fcjZnRFhYRHJRa1V6dWlWVnhsSFE5dUtlWVJnX3BkbE1zenFNMkR0amoxcjUxWjk0LU1nYks3d1V1TXE2YjloYndfZVNMVUxJR0lNSmI3R1NZTFJXVlNpZ0ZRQVZmdGZERWpNNm5TanBqWWlvWi0tcGdCWkNQUm1rbk1oN1dWWHBVbk10NTYxcHgtU09FSFVfUmFsdTZucld0UFJtR0pTUkozM1lJUjIwRURIem5KOUpKdm0taDI4REVrVFJZay1zcGZwUQ",
     "a5c97a48-2e85-3c4f-ab12-8fb0606bac96",
-    "https://bloodyelbow.com/?p=332174"
+    "https://bloodyelbow.com/?p=332174",
+    "https://bloodyelbow.com/?p=332334"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 26,
+    "ai": 27,
     "staged": 2,
     "prio": 0,
     "lost": 0
