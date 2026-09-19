@@ -1,5 +1,7 @@
 {
   "seen": {
+    "1e1ecdddd205953c": 1789790403.6299362,
+    "42aae086d0ac4867": 1789790403.3237097,
     "069d2030bd4eab57": 1789790379.8892682,
     "d8bb8f26ceb4d327": 1789790379.484514,
     "eced2a383c79c258": 1789790379.4568615,
@@ -2497,9 +2499,7 @@
     "409b87abc14856e9": 1789066279.5939937,
     "f376cc4eeb417d2f": 1789066215.5317776,
     "88705c325ab41e02": 1789066152.0967765,
-    "3d2ff14a0d8f5c4e": 1789066151.1712015,
-    "7ab647f71d0aa39a": 1789066087.5001864,
-    "ec37210159e4ebba": 1789066024.3189023
+    "3d2ff14a0d8f5c4e": 1789066151.1712015
   },
   "initialized": true,
   "v": 4,
@@ -4681,16 +4681,21 @@
       "source": "UFC.com",
       "ts": "2026-09-19T03:18:27+00:00",
       "cluster": "c47056068ad"
+    },
+    {
+      "t": "RAF 13 highlights: Khamzat Chimaev dominates Gilbert Burns in Miami, wins via tech fall",
+      "source": "MMA Mania",
+      "ts": "2026-09-19T03:14:25+00:00",
+      "cluster": "ce9a7f3b616"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-19T03",
-    13
+    "2026-09-19T04",
+    1
   ],
   "yt_eval": [
-    "4dbdd4ca-3e2a-3291-8cef-6ee902e9d69a",
     "https://bloodyelbow.com/?p=330179",
     "cd5e6c95-d8fa-3305-a04b-efa67f4f3b8e",
     "CBMipAFBVV95cUxPaHpBTi1rS3IwbGh0MUtMUnlMeFdIRG1NOU1xNkM3dERMdVgySnRycGhyc2J1SjBwT3hnRVQ3LVRIVUh2bWdXNjNxUVVRV05MdWhNLUJTdXFGTUFEQXFTX1p3MGN4R0E2NkZUM0lOSFZfYi1qMVZnRVdSdERLWl9VR3FvV2NZSmxMNkNLckMyY1kzNm9DUVNacVdGd2xHdTZHYldqVtIBqgFBVV95cUxPMVB5S2FyalU1dUtLTE53ZjlrX2JaLU5rVG9aWjdTU3pDRjBkV3dhWVA2SjZtZmEyVnY5ZjZvaGpwb2xmSmNLZ0ZzTGpsakI1TGMtQ2hqZTBCMVdZWTNkYXFTZkNDclZIOFlUVmRPb19UNGx2YU5jcGdwSFJDX1Q0UERwNF9La2Y1eDgwSXB0MjB5cmVldHgyZks0c2N5cFRUVGhTZ0hSNWRIZw",
@@ -6189,11 +6194,12 @@
     "CBMi2AFBVV95cUxNcExSbjkyeTdvTWRlOEMwWm9KdkxZdmxuTFZmSE92dEZTUEJud3JrNUIyU2RVbmpBdEdxM3Q2LWQ3RVNRaTMtYThDTDdJa052cVRmUktNS2ZvMzRJb0ZidnJjblctcXJoWkNQVUJkaXRKTEdLR2R5cjAxR1hLeUpybEEzOVFfRDlPT29QN0tnNldWZnZjXzNkU0JkM2loRGFaNnhlYUplVGZ6akpSOWpJSUJNZ1R0enFmVUpSVHRLV2hfUzF4cUUzVFF0NW5jLUVDQ2FzT2J5YzM",
     "https://bloodyelbow.com/?p=332328",
     "https://bloodyelbow.com/?p=331566",
-    "CBMiVkFVX3lxTFBlZlJ6dVByQkZNX2lZMWF4X1NHS3lHOG0zd3RYeE5ya3JQR1dDMTNsLXVGMWNldHpqZkFqZVAtUmZMM1FQQ2Vac0QwczNkaHYyR1V1aGVR"
+    "CBMiVkFVX3lxTFBlZlJ6dVByQkZNX2lZMWF4X1NHS3lHOG0zd3RYeE5ya3JQR1dDMTNsLXVGMWNldHpqZkFqZVAtUmZMM1FQQ2Vac0QwczNkaHYyR1V1aGVR",
+    "https://www.mmamania.com/473179/mm-clone"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 13,
+    "ai": 14,
     "staged": 2,
     "prio": 0,
     "lost": 0
