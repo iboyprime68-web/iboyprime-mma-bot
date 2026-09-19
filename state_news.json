@@ -1,5 +1,7 @@
 {
   "seen": {
+    "8e7d895b55682c63": 1789858246.2965453,
+    "03a61000a7a34c3e": 1789858245.1931617,
     "83c08fe98114da06": 1789858182.104479,
     "dafd3af0fc1119f4": 1789858181.9460888,
     "c534a33a02abc39f": 1789858181.941653,
@@ -2497,9 +2499,7 @@
     "a75432f0d77cf440": 1789202247.6678095,
     "6c150a60214d5b2e": 1789202180.8166208,
     "fcad1464b4012161": 1789202135.875442,
-    "8fda8a846cf5c29d": 1789202111.441151,
-    "20fe6617a70ec56c": 1789202044.5156236,
-    "116b2f5e01bd3d0f": 1789201976.3710892
+    "8fda8a846cf5c29d": 1789202111.441151
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-17T23:00:00+00:00",
       "cluster": "cb99c2b66d1"
-    },
-    {
-      "t": "UFC White House event regulator rejects Topuria’s claim about Gaethje’s gloves",
-      "source": "Central Oregon Daily",
-      "ts": "2026-09-17T22:50:42+00:00",
-      "cluster": "cf6f5be482d"
     },
     {
       "t": "UFC 331 Unleashes Awesome Main Card Saturday Night!",
@@ -4627,13 +4621,19 @@
       "source": "Cageside Press",
       "ts": "2026-09-19T22:22:47+00:00",
       "cluster": "c150eeaf2f9"
+    },
+    {
+      "t": "UFC 331 video: Casey O'Neill pulls off incredibly slick armbar",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-19T22:25:27+00:00",
+      "cluster": "c652d875fa4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T22",
-    39
+    40
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=330511",
