@@ -1,5 +1,6 @@
 {
   "seen": {
+    "59f202ad5b244063": 1789837972.801297,
     "1c43d94f045cd31a": 1789837908.7664497,
     "cdc0a2ee06bb5bce": 1789837908.383141,
     "0f956e3b18c047f6": 1789837908.3828695,
@@ -2498,8 +2499,7 @@
     "c4cc19ac2c59a0d6": 1789148296.125332,
     "b22eb5f1d63e3795": 1789148273.8842938,
     "da04770e8f327546": 1789135252.8482287,
-    "67549445be76ba1a": 1789135229.5499327,
-    "b7b575a187e5c654": 1789135206.7149432
+    "67549445be76ba1a": 1789135229.5499327
   },
   "initialized": true,
   "v": 4,
@@ -4597,16 +4597,21 @@
       "source": "mmajunkie.usatoday.com",
       "ts": "2026-09-19T17:05:00+00:00",
       "cluster": "c469610e39a"
+    },
+    {
+      "t": "Justin Gaethje proposes radical UFC changes to fix one key issue",
+      "source": "SPORTbible",
+      "ts": "2026-09-19T17:09:43+00:00",
+      "cluster": "c10258412b0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T17",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMiogFBVV95cUxQaUlNeWtDMnl4N2UzbWZQbEtrZjh4cEd3WExVQ291QmdxZ2FwVjQ1T2NjdDUyMl92QUlWclFjbkd2bk10dzcyRG15ZEtIVjNaeFRKcmhuVmFUQ0hPSEUtalYtWFFWZllDb05LNUk5dUhiaGJHc2FDQW4tYWxVT09TN2l3UTJ4WjNGMlRldXVRdVU3ZWFYakVha1lxS3RUZVpTT0E",
     "https://www.mmamania.com/468769/ufc-shanghai-live-results-highlights-streaming-play-by-play-updates-umar-vs-song",
     "CBMidEFVX3lxTE9qeEQ4RmR5WTktOHVaSjNUOFowdVRHcFZzZ01NQkl0cnpCSnFHc2poWk9xUzBlWHgxWkh1VWhKeWFhb0N2ck1iV2FPUW5kUVNPV2wwdkN1WWVxRk9MLWdNU2w3RktaT2ZqaVNEV3pkVnVzeTBE",
     "CBMibEFVX3lxTE5DV0JrYXg0RXpVcXdneHJkNlJ3R2dmcUVZME5mZnRXd1Q4TFB2RVozY2tRdjB4TTRDdW5DQVNVbEJPSmp5VURNQTlYZjRydW1Mb25WNUpoNkRJY3NEcVRBdGNnelJ1X2F1VzRRZQ",
@@ -6105,11 +6110,12 @@
     "https://bloodyelbow.com/?p=332390",
     "https://www.mmafighting.com/?p=510293",
     "CBMifEFVX3lxTE5hN0ZxRzNrUFVxSjd2b1BLSTl3eW1mY1d6ZVQyWkVhZGFLcFJudnZuT2JjQ2V3dEwyQ3Vuc0ozUG8yUHpBZVlaZmtIXzRZQmpxcy1WX21CNW9kZmIycFF6Z01UakFmSW5QczBlT1pqRlVzT25NNTdfMFZNM08",
-    "CBMi2AFBVV95cUxNUGhQMVB4NTdRelotbkREemt4RUc2bG1Uc3QyVjFuWUJFSENnWVZaODhBd3BGZTFWZzRha0hVd2dXZEE0aTdoNHFuck5pV0xiUU92UFlaQmIyWHA5dHNEZ3NrblNpUHNoYm1FRnBYLVk4eXBiS3Nld0ZHMGR2RTRieUZ2a0o5T3FhTEV5Y1hNYXA1RFZwLUdjTU5VWlJ3MERqSlJ5WTNtOTlVUkk0MGYtVGtjdzlVZndPNG92LXBiV0UxUGFfUW1tX05OVGl2TzJSNllvcmhXbDM"
+    "CBMi2AFBVV95cUxNUGhQMVB4NTdRelotbkREemt4RUc2bG1Uc3QyVjFuWUJFSENnWVZaODhBd3BGZTFWZzRha0hVd2dXZEE0aTdoNHFuck5pV0xiUU92UFlaQmIyWHA5dHNEZ3NrblNpUHNoYm1FRnBYLVk4eXBiS3Nld0ZHMGR2RTRieUZ2a0o5T3FhTEV5Y1hNYXA1RFZwLUdjTU5VWlJ3MERqSlJ5WTNtOTlVUkk0MGYtVGtjdzlVZndPNG92LXBiV0UxUGFfUW1tX05OVGl2TzJSNllvcmhXbDM",
+    "CBMilwFBVV95cUxPOVBoek9JenI4ZG9vdmlHV2F3bHg3Q0Voa2RKWUJyUi1xTmJ4ZWhCTVNkcDRZTUw1X0xTVjgtdXplMmxhRFJTczNNUE5CaGxpdTVkeGNad1MzV3gzQ2JITlFvTklkbmNiNi1mN0ZldDBiblR2WmV5Xy1aSXFvalk4SVg4cTlXZ1JaaGRKbVlQZmItN3hnMk9j"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 88,
+    "ai": 89,
     "staged": 5,
     "prio": 0,
     "lost": 0
