@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bb31c703d78b8b71": 1789807371.92483,
     "b63ed42973ecde29": 1789807348.368442,
     "b3396a1e3f143029": 1789807323.8613346,
     "8fb6510399d2b21a": 1789807299.8721223,
@@ -2498,8 +2499,7 @@
     "a444c5cc772d0254": 1789076458.027642,
     "57b5fed934edd107": 1789076392.8499827,
     "c54a87049ddf6204": 1789076347.8996933,
-    "0b6c87802abe75e3": 1789076324.3513126,
-    "6c41e36331c7069a": 1789076323.997873
+    "0b6c87802abe75e3": 1789076324.3513126
   },
   "initialized": true,
   "v": 4,
@@ -4627,16 +4627,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-19T04:45:37+00:00",
       "cluster": "c89e3bf97b5"
+    },
+    {
+      "t": "Dana White’s x-rated two-word reaction as Arman Tsarukyan and Mauricio Ruffy almost come to blows ahead of UFC 331",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-19T05:38:25+00:00",
+      "cluster": "ce31aadd7c0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T08",
-    4
+    5
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508308",
     "https://bloodyelbow.com/?p=330224",
     "5cede9e7-91ce-3aca-a4d3-2d2cdf876a5d",
     "https://bloodyelbow.com/?p=330271",
@@ -6135,11 +6140,12 @@
     "a5c97a48-2e85-3c4f-ab12-8fb0606bac96",
     "https://bloodyelbow.com/?p=332174",
     "https://bloodyelbow.com/?p=332334",
-    "4aa515ac-885c-497c-9e44-ba41c890b601"
+    "4aa515ac-885c-497c-9e44-ba41c890b601",
+    "https://bloodyelbow.com/?p=332338"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 28,
+    "ai": 29,
     "staged": 2,
     "prio": 0,
     "lost": 0
