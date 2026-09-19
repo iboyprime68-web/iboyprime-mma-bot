@@ -1,5 +1,6 @@
 {
   "seen": {
+    "99b16ba296090e24": 1789822844.2812219,
     "64513e4f951d629f": 1789822817.4031432,
     "b5397e4ba3be398d": 1789822793.975289,
     "d49108341965d794": 1789822769.61921,
@@ -2498,8 +2499,7 @@
     "0f991776c813e89a": 1789084604.3012142,
     "4e4fccf087b132d5": 1789084603.9228199,
     "af77f55d88a80898": 1789084603.92106,
-    "93d9f91990acfe7f": 1789084603.9171681,
-    "e22218e2b706d2cb": 1789084580.9247565
+    "93d9f91990acfe7f": 1789084603.9171681
   },
   "initialized": true,
   "v": 4,
@@ -4621,16 +4621,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T13:00:00+00:00",
       "cluster": "c74187a133d"
+    },
+    {
+      "t": "UFC 331 start time, fight card for Joshua Van vs. Alexandre Pantoja 2",
+      "source": "MMA Fighting",
+      "ts": "2026-09-18T19:37:16+00:00",
+      "cluster": "c5ae15c016d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-19T13",
-    1
+    2
   ],
   "yt_eval": [
-    "6355d971-0e49-4422-b1ff-821a074d62cf",
     "https://www.mmafighting.com/?p=508537",
     "https://www.mmafighting.com/?p=508546",
     "https://bloodyelbow.com/?p=330317",
@@ -6129,11 +6134,12 @@
     "https://bloodyelbow.com/?p=332353",
     "https://bloodyelbow.com/?p=332362",
     "f66bf5e9-0b17-38a0-ac60-b9e91d9d173f",
-    "https://bloodyelbow.com/?p=332371"
+    "https://bloodyelbow.com/?p=332371",
+    "https://www.mmafighting.com/?p=510878"
   ],
   "daily": {
     "d": "2026-09-19",
-    "ai": 50,
+    "ai": 51,
     "staged": 5,
     "prio": 0,
     "lost": 0
