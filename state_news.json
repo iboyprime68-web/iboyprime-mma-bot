@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4130d716152e5cc7": 1789866533.4809694,
     "8f04d3461345a73d": 1789866467.4092739,
     "567a6d5f1b65ad64": 1789866401.6401513,
     "9a36d83cc3ea8cdd": 1789866401.1038249,
@@ -2498,8 +2499,7 @@
     "bd0e0d546ca13626": 1789248538.7167976,
     "ed037706266386e5": 1789248514.7276828,
     "d7c6929f2dde4b2f": 1789248470.286307,
-    "05606dc1314335ce": 1789248470.0594373,
-    "1fd5ea58e523a6c6": 1789248470.0569894
+    "05606dc1314335ce": 1789248470.0594373
   },
   "initialized": true,
   "v": 4,
@@ -4765,16 +4765,21 @@
       "source": "Cageside Press",
       "ts": "2026-09-20T00:39:00+00:00",
       "cluster": "c688da20ea6"
+    },
+    {
+      "t": "Robelis Despaigne edges out Tai Tuivasa; slugfest ends in a split decision",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T00:39:00+00:00",
+      "cluster": "ca5405129b0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T01",
-    9
+    10
   ],
   "yt_eval": [
-    "0f4b1323-e165-37e7-b28c-18d9a80918c4",
     "63cacb29-3bc5-35ec-a7c2-44d52e951d79",
     "b76984ad-b090-3d51-a232-600279024755",
     "fe7544f5-1d8b-32e3-ba16-0474a1962c13",
@@ -6273,11 +6278,12 @@
     "CBMilAFBVV95cUxNVlo5OGdKRnlZTFROS1FpaV9wMjZnX0lsMlBJOUtMd0lpRENlcVVCRF9pRDJmZDAxbHd6ZGhYekJVUVNjVGRqazFqNFlrRzdOSEotM00wMXlDcGlaaFdwVVM2Z2JYVy11Zmx6RjBRQ3B4cmdDU2prM3FCWEI3Y1FvRkhucUZCVjNuRFpheUlWdXpvT1pX",
     "https://www.mmafighting.com/511060/ufc-331-live-blog",
     "CBMilwFBVV95cUxQT2dxa1Q4WEZuUWNXMTYxQ01RcDRNQVNMQ25qemQzcFZjU2locjZhN0Nkbm1OTlBKdlFwZjRPcGJmUTB0U2xRSjI5WmloeXpQeV9jUGhKbVRPZDJSREFhWndBYTloR3U1NkIyWEtvSTdhRFFaU2E1Rnl6WmozREJWajdKek9NTFk2OG1uS25yVk5fc2k3am5v",
-    "CBMixwFBVV95cUxOQ3hMRk43bk5sVmprVEw5RmVfRHY1LTRmcFRBY0cxMW1zeElUbXZrOTZlRDZOLV8zNWo2VGlySmhoZlItdlNxZVRrR3luWUd4ZF9UWVJ2VTF2U0MySWhHZXR6RGZGbVBfUUFjX3B0M3FTZTJpU0JPNWM3aVFQRm9zUndSNnVYNzlQT3E5cUYtQ085T19iQTMyemNCSzFXVHA4ck5nNF9xcUE2dGJFZWpUcFl4QzNNN0pnbENyUEk3Ty11Q25udDZV"
+    "CBMixwFBVV95cUxOQ3hMRk43bk5sVmprVEw5RmVfRHY1LTRmcFRBY0cxMW1zeElUbXZrOTZlRDZOLV8zNWo2VGlySmhoZlItdlNxZVRrR3luWUd4ZF9UWVJ2VTF2U0MySWhHZXR6RGZGbVBfUUFjX3B0M3FTZTJpU0JPNWM3aVFQRm9zUndSNnVYNzlQT3E5cUYtQ085T19iQTMyemNCSzFXVHA4ck5nNF9xcUE2dGJFZWpUcFl4QzNNN0pnbENyUEk3Ty11Q25udDZV",
+    "CBMijAFBVV95cUxOdVVtdVdNMWI4ZllSYWRwdE05Y19oSzBCajFtdUhvN3NZRUE1NTA5MG1qSzROYjExTzB5ZFppUGhpMFhEMlYzTlVjcDVhNnNSVnVDTkh6NFJ6NzBZTTM4NEhQOGJlX2lPTmV5My1ucm5VdzNGY1plazBhY3pvUF9mbVhhZWRIc2toQXdKWA"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 22,
+    "ai": 23,
     "staged": 1,
     "prio": 0,
     "lost": 0
