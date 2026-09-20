@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6394a18543e50199": 1789866266.0201454,
     "768d3ed4c0a7536e": 1789866200.399379,
     "f8dd77858b69a419": 1789866200.0841477,
     "a6dfb801f86f9110": 1789866200.083844,
@@ -2498,8 +2499,7 @@
     "c5ffbf66069a73b4": 1789230272.5942295,
     "4e4bccbf9f2a74e1": 1789230272.5931203,
     "2cb78e05fffc1926": 1789230209.92533,
-    "2e94487fb922f5a4": 1789230146.7981489,
-    "356c1f07887522fd": 1789230146.7957964
+    "2e94487fb922f5a4": 1789230146.7981489
   },
   "initialized": true,
   "v": 4,
@@ -4735,16 +4735,21 @@
       "source": "SPORF",
       "ts": "2026-09-20T00:26:26+00:00",
       "cluster": "c279d7f878f"
+    },
+    {
+      "t": "UFC 331 Live 𝐒𝐭𝐫𝐞𝐚𝐦 MMA on TV CHANNEL",
+      "source": "Grice Connect",
+      "ts": "2026-09-20T00:29:04+00:00",
+      "cluster": "cc83ce36e07"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T01",
-    4
+    5
   ],
   "yt_eval": [
-    "https://www.mmamania.com/469673/ufc-shanghai-results-song-yadong-sleeps-umar-nurmagomedov-in-massive-upset-win-demands-title-shot",
     "https://bloodyelbow.com/?p=330528",
     "CBMivwFBVV95cUxQUXBKUllTVW40QTR3bHZrc3lqRW5EZWYzd1U5R2xENTV2UU0yUUZQbk9xbkJzb0RibXUyWlktYUl0VTZPS3Q3ZnNRTFRZYVhFRlZBZnRfcUwwN0NPamUzaHU2Zmt4Q2FFX00yMmp1VlMxMm83M3hhd0FJZ0g4Q0pWdldCdTk0Y0VoWENqel95aXZ4NkozRmVLdUp3LVUtOGxhUmpuUEVtS1JwSEtVNUR5YzVNa2VndVk3SmlqNmIyZw",
     "https://www.mmamania.com/469640/ufc-shanghai-results-sooo-about-last-night-yadong-vs-nurmagomedov",
@@ -6243,11 +6248,12 @@
     "CBMivAFBVV95cUxPZnhkU2RXTlpLSzYtVDJ0dlduVk9HVjBXOWlwVjFuS0ZDYjZrdTBGX1lXR0YtSC10T280Z2tYdVpPQnhYZlpYd0oxR0I5V3FvazZsVk5SSWxDY0tXbGxEbkhxNXYzTU1NdGxBWlVaNG1PSlh1LTNGRDczcUtQWDdnWVNwN3p3SzNoU2NxOGljVmZUSmhrN2o3N21lN3R0X3E5NHZHVTlITUozYkxGdWtNQUpjWFJqTnBaSVBCTA",
     "CBMikwFBVV95cUxPYlhkSHMxTi05RzRqQTN0QVR2cHhxUEhnbWlHTEJleG5vWmdfWnBXZFhjSzZFOWhpcG1UcVoxT0V4Z2ZlaFBlZ0FCU1FaUTFPYUpLaTNUV1BmdGRWdmhiZjlDR0NIelluQTBmR1lURXRJSVJSSHJlVFF1cjdmSmwwNjdFdDZCWXYxTDlVZTRyVm1sNmM",
     "https://www.mmafighting.com/?p=511115",
-    "CBMivwFBVV95cUxNRzNDdzZGU0FENmRmR0NmR2VCc3lYVUEtcVJTUlFFNXlEdmEtM0NMcGNtLWtmb2RkREY5V1NqUmZxNEp5blZ2R0NXb0d4NHNya0FZUEk4RFRjYTZwZFRuN2pRZ3RET2dkZnhEcTBPZVY0bkJJZ3lVT3haTHJqSk5VY1VMMFl2U0JuTjFqUFlHZVJjR001cHZqQ3c0QnEyem9FazZwLUNJellwMzRtT3dZN29kbWh2em94UDRQV3VNVQ"
+    "CBMivwFBVV95cUxNRzNDdzZGU0FENmRmR0NmR2VCc3lYVUEtcVJTUlFFNXlEdmEtM0NMcGNtLWtmb2RkREY5V1NqUmZxNEp5blZ2R0NXb0d4NHNya0FZUEk4RFRjYTZwZFRuN2pRZ3RET2dkZnhEcTBPZVY0bkJJZ3lVT3haTHJqSk5VY1VMMFl2U0JuTjFqUFlHZVJjR001cHZqQ3c0QnEyem9FazZwLUNJellwMzRtT3dZN29kbWh2em94UDRQV3VNVQ",
+    "CBMikwFBVV95cUxQZm93N1htRFFnTUliejFlVU5OOFR4WHdoQ200NWE1MXdnU2dvYUpKd19lSzgza2FoV09NRWtfeGY0cXhPcDNQZ1ZzeWZOMFVIYzhwRVY0SjFyVUVqTUlyRHNJd0RabFQ4bXBkNE9XWV9DbkY1OEZMUV9kYWdaa1hWUXVfMEp5V0g5OERETWx2MWJSd1k"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 17,
+    "ai": 18,
     "staged": 1,
     "prio": 0,
     "lost": 0
