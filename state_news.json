@@ -1,5 +1,6 @@
 {
   "seen": {
+    "99879e21eefd5c61": 1789916977.6170702,
     "773230710c7296fa": 1789916913.64278,
     "d691fa8031ddf2bb": 1789916850.1576762,
     "9ec4afb39dc07519": 1789916849.6997886,
@@ -2498,18 +2499,11 @@
     "a809cb25b95a675c": 1789411654.619208,
     "c0aec8f951855e5a": 1789411585.8040261,
     "6f151285b2a302d3": 1789411514.89613,
-    "b837516afd82a629": 1789411514.667889,
-    "9569e23a138cf002": 1789411446.3406367
+    "b837516afd82a629": 1789411514.667889
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Gable Steveson ‘ready’ for showdown with cocky UFC heavyweight contender Josh Hokit",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-18T19:00:00+00:00",
-      "cluster": "cda6176eb46"
-    },
     {
       "t": "Khamzat Chimaev told what he must do to become UFC champ again by RAF 13 rival Gilbert Burns",
       "source": "Bloody Elbow",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T15:00:00+00:00",
       "cluster": "cb7bbfbf642"
+    },
+    {
+      "t": "Week 7 Preview | Dana White’s Contender Series, Season 10",
+      "source": "UFC.com",
+      "ts": "2026-09-20T15:00:00+00:00",
+      "cluster": "c3b73dea535"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T15",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMiekFVX3lxTFBNYThKVnVaSlNqel9NNG9zcVpINGtab2thYWNZSzhHU3h0cFBzR3NzRDJBU3NkU2xWREs2dTFxdTBtNVV1cDJub2RvTnBiazhsYUY4WkkwVnBOdDR4ZDM1eG5DUGE1cUlLa2dYTF9FSVRZSkFmeEJBWFN3",
     "CBMixAJBVV95cUxNQWpNMHBCaHRfQ1dScTJULXY4cFg2Z0R6UXQ2OTE4QkpNUWU4QTZGZEJKZGFaM2QzbjY0VHhEeGFOX2NObm0taFJreWx4Q2J6RE0xaXUxV2lfT3hiZkNIalFkcFNqRkpTNkgyV0tqbHl6cl9tazBGcUU3QVJPM3g2RUdhS0hHakhJQV9iNU1MdVo2eXZBRGRHRVhjeGhIQm43YmVVUUM0d3BseFNDajJIbHNMSWk5STRCXzk1WEVtemlVMWdMVm1ITEkta0syZm9pZjgtNjh6WmtZdl9HenhtVlRybng2eTBGcFZQZTVOMTA0S1dkVjdWa2VhNlpOSkpTYU11U3J0MkQyNEJOTW84SnMzS05SWEJuWUZFN0VnOTc5cE1fbWdaUkw3SVFMZEEyMWp4d2J6ZjJ0TldFQ0tQald4aDg",
     "CBMiugFBVV95cUxQSm1qd1BJQ1JQS3dKSGJiQWVTYXl4Y0I0MTRaTlEwWEpxaFo4VHdiOXZiRzV2YzBTRGNhYzRwRlRxUHU1ZWZQa0d4a1hfdDlUUXZxOG9lUmtTMER3Nl9XekZic2RfQUU1WUNfVDVUNURQSGMxaWt2WUZEUUpxR0llaDIxSW0wUk5zTnZUMlIxS25pUXdveUNkWUxfTm5pQW1QU1dGa3o4R1Ftd0M2LTRPUTllZU9jNjY2WWc",
     "CBMixgFBVV95cUxQRzA2U3BaQkJfNThDNjg5d2JLTmV0dm1CbzlHZ0RNN2JnaU9MeWtaQ1RodW1jc2d5Rk5SOEoxcVd6Mm5VSlhNbkpVRVhmU2ZxeG8zTzRPTWd5RHpwN3RHbEo4T2tIcFdjMlczYTNlTGVrS3hqbnhqS2s4MTJoY1kxYWFlNWVlR0tfM1dhZGxjNmhtbWt3bkZzMEN1eHF0X2pna1ZkWlR0Y0lPQl9mQnJHZW1mY3RISWtqVldtSUVsZE5ESlUwUUE",
@@ -6411,7 +6410,8 @@
     "CBMingFBVV95cUxORE1zWlBJN1Y4ODI2cGZJdC1TN2x1aVp1Tjg5LWJYYmJvVXZ1b0ZvZkpwVmF5RlpOOEhHMFhIeTYybHZPc3ZKaEVRd181bDV1dlAwVFBKcnMtZXFyaXA5amZMNVVINm94QmotV0YtNjhDbC1PQjUyOWhiT2UwOHlMZ3lwbE1FT1k0N3RiZ205V05MMnY5MGhvaS1pNmZvQQ",
     "CBMisAFBVV95cUxQWHFPWHhxcFFoU24tOUE3aW03X0VVY0V1SGRqaUFRRTFfanhRNGJWUU1tV1FjSWRoZnF0WmdXUExKS3dBNXJpSGM3ZmhyQnFUVXVZN3p1SU9VQmxpZXlIWjkzNGhUYUQweURUWDlTWEJQVzAydmlzbndFOVhoZ3BsdllxZUczS08wRzYtYmF4M1FOSWdibW1CNkZRQkxfMHdpMjNIaEsyLWFqZ1N5SE1nYw",
     "https://bloodyelbow.com/?p=332751",
-    "d2952505-c855-336c-b48f-05968e28948e"
+    "d2952505-c855-336c-b48f-05968e28948e",
+    "CBMihAFBVV95cUxPeXNVWGpRVFJtVzliZUo2Y0hGQkhBRlh4anIzU0J2d041U0VyUS1UZVRBWDRVTFFSZG9lbUtoWWEwczl5cnNRSzh3U3pKdnRSQlRjajFyeTEyLU5GaU1Wc0hXcFNFZjN4OFlHbmIzT3pmRFFCbkxpdG00d0tSZGw1dHBrdjM"
   ],
   "daily": {
     "d": "2026-09-20",
