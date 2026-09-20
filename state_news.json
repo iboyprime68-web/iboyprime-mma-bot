@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2a8c82920fdd2566": 1789868048.3095226,
     "d7b0dbbc230e2368": 1789867920.8117895,
     "5d9d7ead10262da3": 1789867856.5094137,
     "948e4275bc8af7ab": 1789867856.484928,
@@ -2498,8 +2499,7 @@
     "1ba248836f18bb3e": 1789292555.4206824,
     "0e21232d8467eb1f": 1789292490.7013707,
     "4f9464ddce145f83": 1789292425.5508153,
-    "77a3f946475ccca4": 1789292360.655974,
-    "55fab654f1b30a84": 1789292296.157922
+    "77a3f946475ccca4": 1789292360.655974
   },
   "initialized": true,
   "v": 4,
@@ -4861,16 +4861,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-20T01:23:00+00:00",
       "cluster": "c6cbaa68ec1"
+    },
+    {
+      "t": "\"\"+Here's Reddit MMA 𝐒ｔｒｅａｍｓ – UFC 331 Totalsportek PPV 𝐒ｔｒｅａｍｓ",
+      "source": "Grice Connect",
+      "ts": "2026-09-20T01:23:26+00:00",
+      "cluster": "c03c4564faa"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T01",
-    29
+    30
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508980",
     "https://www.mmafighting.com/?p=508977",
     "https://bloodyelbow.com/?p=330551",
     "226721b2-1761-3ff5-9ba6-289e3a0fbfb2",
@@ -6369,11 +6374,12 @@
     "CBMiwwFBVV95cUxNUWkycmZMVjZvck1hamVFSHUtTFdacXNsZ2hucWNfNlZFQW55YVhkd2hyVkUtSGZLTVl2eThOY25fbFdqNzlWLU1JMHVDb2tjYmpOR2JEOHZUM2xITlh5NDFpcXUtcFE0TzkzbEQ1dnJmcV9qOHpsZC1KekJQa2Nub0FONGYzLWNIMlpLVWlFejdQOU9DazI0ajYtS09Gdjd4bjRfSEpWMDhpMlFGUUJOTXBETGZ3cVMtNzhleGNPQV9zcUE",
     "CBMiR0FVX3lxTFAwZFZfQ284bkFsTG1GUVdWYlRsS1doQUl5VmRwREw4TmExUmFHLTJpZ1hqaVFLUXR2WGRSOV9qejZKdjJIRHAw",
     "CBMi0wFBVV95cUxQQm5ncng3SkFjbnI1dWFBTGkyQkt3WXdHM1lvZ2ZXRDhsSzRaTTNUMmwyVDVEQjBENGVJN1N3cjMtNWNtX1IyVG00LXJNSGFIYmZPamFjcVZRdm9keWRnRXZ5cXhlSVBTUDlGY2FrSU1OSkQxdnlvWFc1VTBEdGI5b3RnNHF6Z3VBQlR6NC1pZnAwb3ZNLW5tMk02SWtfaFc4RVJiNGJmVjNRTEw5MjdHNzh5bUhqdG1CdlludjVGcTZKN0JjZmktMjVKckRYYmdUbWpv",
-    "CBMi9wFBVV95cUxNWTRGUXBiRUlUbEtZSUFwcXF2aDlHdjhvVlAtNmNQekprV1JHTENmUHZuRzM1a0w0d0IxMDZOY0pfbGhZWURQN3pYNHlkNE10eGdkd3otSFJ3WjVnVmVsNkdvb2kzaWxfZjF2MEN0XzNvbkZaSHFwbGdCdzhydzFDaDk5bWVFc3d5VjVObnhWVVVmbFpmTjBucEdwdFFaSFBxazc4b2g3b3ZSX3drZUpyRHRyVS1LNkppU21SR2d0bktib0RibDQ1TFZ6M3pOUzFrNHNjTktlN3BRX2lxX0M1Q0dyc2FndG1Vempaeko2cHN4ZllNdjQw"
+    "CBMi9wFBVV95cUxNWTRGUXBiRUlUbEtZSUFwcXF2aDlHdjhvVlAtNmNQekprV1JHTENmUHZuRzM1a0w0d0IxMDZOY0pfbGhZWURQN3pYNHlkNE10eGdkd3otSFJ3WjVnVmVsNkdvb2kzaWxfZjF2MEN0XzNvbkZaSHFwbGdCdzhydzFDaDk5bWVFc3d5VjVObnhWVVVmbFpmTjBucEdwdFFaSFBxazc4b2g3b3ZSX3drZUpyRHRyVS1LNkppU21SR2d0bktib0RibDQ1TFZ6M3pOUzFrNHNjTktlN3BRX2lxX0M1Q0dyc2FndG1Vempaeko2cHN4ZllNdjQw",
+    "CBMikwFBVV95cUxOSTFpTHYyNTJzVnc1R0kzbGcyWFlIQVotX2lGREJKZVJfeGhwUGhTM2pITnEyclJKN2RfU0JtTGQtNUdpWTVpbm1OYkNoMGNlZkloYkdYdFd0bHN1RzdJYTNON3VwZFFERWZvMTFVTkpWSTBIRjdnRndsVmNZOF9ubXNpclhOdUE1RFNVMTVfa3JqOGM"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 42,
+    "ai": 43,
     "staged": 1,
     "prio": 0,
     "lost": 0
