@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9b45e4c71a2ac588": 1789883799.2595778,
     "0ad3b18b5d6aa61e": 1789883771.3023412,
     "b49d6146574c2023": 1789883748.136866,
     "1fe03e9dad151e61": 1789883747.7926888,
@@ -2498,8 +2499,7 @@
     "0b28459525e9e6d4": 1789309140.181688,
     "a3236fefdc59f8ae": 1789309075.1200683,
     "c5c209a2e8ffc7ab": 1789309074.4446483,
-    "7b2bd7ddd5eaa665": 1789309010.3985398,
-    "a8b291a2b13baec8": 1789308966.1719213
+    "7b2bd7ddd5eaa665": 1789309010.3985398
   },
   "initialized": true,
   "v": 4,
@@ -4771,16 +4771,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-20T03:06:38+00:00",
       "cluster": "ca970dbb861"
+    },
+    {
+      "t": "UFC 331 live blog: Arman Tsarukyan vs. Mauricio Ruffy",
+      "source": "MMA Fighting",
+      "ts": "2026-09-20T03:14:36+00:00",
+      "cluster": "cbfa373ece8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T05",
-    8
+    9
   ],
   "yt_eval": [
-    "b3ce7384-0bbf-326d-a0dc-6a41b866e85a",
     "0ab10311-6ad0-328e-b9c7-e3f481282853",
     "https://bloodyelbow.com/?p=330617",
     "d69e5ba7-53eb-3bab-ac23-2fa9bee74dd7",
@@ -6279,11 +6284,12 @@
     "https://bloodyelbow.com/?p=332517",
     "https://bloodyelbow.com/?p=332585",
     "f86390d7-5510-37a9-95ba-e128e58f11c2",
-    "https://bloodyelbow.com/?p=332598"
+    "https://bloodyelbow.com/?p=332598",
+    "https://www.mmafighting.com/511058/ufc-331-live-blog"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 57,
+    "ai": 58,
     "staged": 3,
     "prio": 0,
     "lost": 0
