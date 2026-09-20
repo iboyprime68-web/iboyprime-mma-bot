@@ -1,5 +1,7 @@
 {
   "seen": {
+    "f12463588b09e865": 1789884183.1697345,
+    "9702da66e509bc3d": 1789884182.9736958,
     "6b010fad8e9f294c": 1789884159.3443635,
     "fddbf6fb63e20bc3": 1789884131.7988582,
     "0d06418a67e8c806": 1789884131.530015,
@@ -2497,9 +2499,7 @@
     "46f4fed8956209c0": 1789309797.662391,
     "ad27703c53ba5b1e": 1789309730.4685664,
     "0a6589873455c35f": 1789309730.0450678,
-    "fbd3f10687fe0e6f": 1789309730.041989,
-    "3beccd109e4fb8f9": 1789309665.830663,
-    "4866f03b7dd258f1": 1789309665.485257
+    "fbd3f10687fe0e6f": 1789309730.041989
   },
   "initialized": true,
   "v": 4,
@@ -4867,16 +4867,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T04:24:24+00:00",
       "cluster": "c80d972c63e"
+    },
+    {
+      "t": "UFC 331 results: Patricio Freire wrecks DooHo Choi in first, calls out Jean Silva",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T02:51:01+00:00",
+      "cluster": "c7409a43765"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    7
+    8
   ],
   "yt_eval": [
-    "61113c48-4b47-3b7a-9c3e-9563639bffed",
     "https://www.mmamania.com/?p=470050",
     "df9ffc09-956a-3886-b09d-e92a1790dedf",
     "811960ab-608d-39db-8583-c2fb3f26a551",
@@ -6375,11 +6380,12 @@
     "https://www.mmafighting.com/?p=511404",
     "c08c9753-7b3d-33d4-a719-490b6d8d4165",
     "https://www.mmafighting.com/?p=511356",
-    "https://www.mmafighting.com/?p=511454"
+    "https://www.mmafighting.com/?p=511454",
+    "98e0bc32-00a3-36ae-88de-f6456ecac735"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 73,
+    "ai": 74,
     "staged": 4,
     "prio": 0,
     "lost": 0
