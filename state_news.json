@@ -1,5 +1,7 @@
 {
   "seen": {
+    "25b575d8e9ad52d0": 1789867790.4184139,
+    "abff2f5529516f83": 1789867790.0976195,
     "f9d6a833babdd517": 1789867724.648198,
     "cfa335c8f84151a2": 1789867724.089599,
     "116827eb0b6a4c64": 1789867724.0879626,
@@ -2497,9 +2499,7 @@
     "224cda27a5a7659d": 1789292230.4594097,
     "719957c07bb81cc2": 1789292186.1262095,
     "7f163d148e05af99": 1789292185.8932009,
-    "af59919be6ca985a": 1789292158.9964557,
-    "7cdf7c852b83f9b2": 1789292088.6597562,
-    "89c38b7098583bef": 1789292044.2464354
+    "af59919be6ca985a": 1789292158.9964557
   },
   "initialized": true,
   "v": 4,
@@ -4855,16 +4855,21 @@
       "source": "MMA Junkie",
       "ts": "2026-09-20T01:23:00+00:00",
       "cluster": "c0d6c2cbf54"
+    },
+    {
+      "t": "UFC 331 Highlights! Vera Forces Jourdain To Wave Off Fight For Late TKO",
+      "source": "MMA Mania",
+      "ts": "2026-09-20T01:23:00+00:00",
+      "cluster": "c6cbaa68ec1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T01",
-    28
+    29
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330562",
     "https://www.mmafighting.com/?p=508980",
     "https://www.mmafighting.com/?p=508977",
     "https://bloodyelbow.com/?p=330551",
@@ -6363,11 +6368,12 @@
     "CBMinAFBVV95cUxOVUYzenlLclJjNmxiVXltQzdzS1BYd0JzSnU4SHlSaWx1bWR2VHRKaUF2dS0tZ1BTRlZJdzFmLWM1WHRmSG42emhTeGtSN2NKSTJ3QVhTekZhbzV6NnJfUWxnZUlZY1hYNjZMMHpvbEtkbGpSOVk2ZGNMeVpuWnFldkpGRDJSUEZPek1IRHFWdWNYbWtpSFhzR1RBQXo",
     "CBMiwwFBVV95cUxNUWkycmZMVjZvck1hamVFSHUtTFdacXNsZ2hucWNfNlZFQW55YVhkd2hyVkUtSGZLTVl2eThOY25fbFdqNzlWLU1JMHVDb2tjYmpOR2JEOHZUM2xITlh5NDFpcXUtcFE0TzkzbEQ1dnJmcV9qOHpsZC1KekJQa2Nub0FONGYzLWNIMlpLVWlFejdQOU9DazI0ajYtS09Gdjd4bjRfSEpWMDhpMlFGUUJOTXBETGZ3cVMtNzhleGNPQV9zcUE",
     "CBMiR0FVX3lxTFAwZFZfQ284bkFsTG1GUVdWYlRsS1doQUl5VmRwREw4TmExUmFHLTJpZ1hqaVFLUXR2WGRSOV9qejZKdjJIRHAw",
-    "CBMi0wFBVV95cUxQQm5ncng3SkFjbnI1dWFBTGkyQkt3WXdHM1lvZ2ZXRDhsSzRaTTNUMmwyVDVEQjBENGVJN1N3cjMtNWNtX1IyVG00LXJNSGFIYmZPamFjcVZRdm9keWRnRXZ5cXhlSVBTUDlGY2FrSU1OSkQxdnlvWFc1VTBEdGI5b3RnNHF6Z3VBQlR6NC1pZnAwb3ZNLW5tMk02SWtfaFc4RVJiNGJmVjNRTEw5MjdHNzh5bUhqdG1CdlludjVGcTZKN0JjZmktMjVKckRYYmdUbWpv"
+    "CBMi0wFBVV95cUxQQm5ncng3SkFjbnI1dWFBTGkyQkt3WXdHM1lvZ2ZXRDhsSzRaTTNUMmwyVDVEQjBENGVJN1N3cjMtNWNtX1IyVG00LXJNSGFIYmZPamFjcVZRdm9keWRnRXZ5cXhlSVBTUDlGY2FrSU1OSkQxdnlvWFc1VTBEdGI5b3RnNHF6Z3VBQlR6NC1pZnAwb3ZNLW5tMk02SWtfaFc4RVJiNGJmVjNRTEw5MjdHNzh5bUhqdG1CdlludjVGcTZKN0JjZmktMjVKckRYYmdUbWpv",
+    "CBMi9wFBVV95cUxNWTRGUXBiRUlUbEtZSUFwcXF2aDlHdjhvVlAtNmNQekprV1JHTENmUHZuRzM1a0w0d0IxMDZOY0pfbGhZWURQN3pYNHlkNE10eGdkd3otSFJ3WjVnVmVsNkdvb2kzaWxfZjF2MEN0XzNvbkZaSHFwbGdCdzhydzFDaDk5bWVFc3d5VjVObnhWVVVmbFpmTjBucEdwdFFaSFBxazc4b2g3b3ZSX3drZUpyRHRyVS1LNkppU21SR2d0bktib0RibDQ1TFZ6M3pOUzFrNHNjTktlN3BRX2lxX0M1Q0dyc2FndG1Vempaeko2cHN4ZllNdjQw"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 41,
+    "ai": 42,
     "staged": 1,
     "prio": 0,
     "lost": 0
