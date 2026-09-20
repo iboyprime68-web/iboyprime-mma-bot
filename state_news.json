@@ -1,5 +1,7 @@
 {
   "seen": {
+    "7dc83bc88637e68f": 1789885829.5225866,
+    "ac0c3e210a2ceb60": 1789885828.916086,
     "3c1a8489e13b060a": 1789885764.040012,
     "abc874726c5b048c": 1789885699.0338578,
     "f91ff46418d46b9b": 1789885698.6894581,
@@ -2497,19 +2499,11 @@
     "aca0764ac1d5a46b": 1789332715.7102902,
     "5d6f720bce5a5de8": 1789332651.3540263,
     "ed3cf1134c2c4755": 1789332651.0089233,
-    "7b269b2ae8ee57c5": 1789332586.3891497,
-    "1bd743a5b8d389cd": 1789332586.2172258,
-    "60c3dd7e24b671de": 1789332522.5185325
+    "7b269b2ae8ee57c5": 1789332586.3891497
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Unexpected Opportunity for Losene Keita at UFC 333 in Abi Dhabi",
-      "source": "heavy.com",
-      "ts": "2026-09-18T12:46:50+00:00",
-      "cluster": "cfaf7fcae10"
-    },
     {
       "t": "'I thought he wasn't alive' - UFC star makes concerning admission after brutal slam knockout",
       "source": "SPORTbible",
@@ -4903,16 +4897,21 @@
       "source": "Sherdog",
       "ts": "2026-09-20T04:23:42+00:00",
       "cluster": "c5603b4a613"
+    },
+    {
+      "t": "Joe Rogan agrees to have Sean Sharaf on his podcast",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-20T05:32:10+00:00",
+      "cluster": "c6da27a2904"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    38
+    39
   ],
   "yt_eval": [
-    "CBMingFBVV95cUxPQ1paeTgwSmNZVW5IOWRSbnNJU1N6cFdQZDRrV2RSSU5uaTl6eWhqTnBFWHR0UFNEZURmQmZoR2N2VmVKa0hseFpma29JQ3hqQXMyRjlCV1lmZWdUbUp1cDltQXhDVXFmLU1COV83OXY1Y3o1R0NZaGVpZnQ0U0tZTVFMbWdrVExnMHlUckR6bl9NaUlqZVBpalR2aUllZw",
     "CBMiiAFBVV95cUxQZEtFMGRuVjV0N0ZGYVY4aDhWbkxwNnZqVDQwQ0JRcFFtZ3p6bEF3ZEVGQ2hHckhVdUlQVXhUdmQ4TGJKRW5VdmVETTEtTFVxOHJEelplUkkxSnRpSXB2S2hrLTBpelB6bTQ4bzJJRE1NUUNZQ0N6cVFScDJmZlk0MmRvRlBjYzRq",
     "CBMipgFBVV95cUxPN0hwZ014S05kQmhCR0pqUm5NQ3VLM1pMbHcxbDZuWDFwQS1BelZ4WFR0ZVB6ZzBueUQ2YlFpYy1tQU04NkdVLVNkQTM5cGZwNkRlZDVTc3BRc2dZT1BES1JMR1dRYkFHZWxzV2VSMnM1WmxIOGs2Z2RDUy01M0sxbTV5VTgxdlNJTTRPaGxRNzVSX1lrSmU2NWk2V0llUUM4eXZiMGZn",
     "CBMiwgFBVV95cUxPZHltem11TUstWW9TTHJndU4zNENPUHNVUE9VRWZocDh4VzRCM3pUVXYyYlBGX0tINmR6aGFwR2dJRDNkY1J2N3pUQl9kcm9LY3Nlc2pFSDlia29fMU5fUmNsMEJDVXJXMGtiYm0wODNqMFprN3F0QWVCanFDcjBlTXpVR2d2R0xEZVVwc2c3eklNYktSMHlNVnRmWnIwSnlRckU3Qmw1ZENUcV82dnQyUXBYaDJyNllhdGkyTldYNkFaUQ",
@@ -6411,11 +6410,12 @@
     "CBMixgFBVV95cUxNQ1hpdnI0bVNaYmlxSmVrMW5BVE9TMWN4QlV0S3lVa29ETURmZWVoRExHYm5wTXNTbnpRNjc0X2g5MTVPaWhOMnJhOFpPLTAxS3RLdnBSejBVS0o2dlc0TXNCQTFHRWRfU0xEWk10eDNoVkQzQ1dobzlKbXQ3cWZQdzRKcFhRcHdXS0dIZ040eE8tTXFvOFZFQ2pvRGUtVklTX1JNdk45YnNfVFZLV00zV0dNMUNMa1poNU5uOWpxOTZVYTJLV2c",
     "CBMibkFVX3lxTFA2U2FqQkZNdnYwLVQwYU9HY0lkMXpUQzd3NlpQaDRLMDFjZGhSUW5aTjhTNkZweUUwbHAxZ1hnN3EwblRlaEZ1SnNTUnN1WDg3OTJFNFl4aU43NFBKMU1TUjJJUG45ODdFV1RVejBB",
     "CBMi7gFBVV95cUxQdTZfdmNrTFNKcEt2dmFUS29LOVkxc3ZKVm4zRFB5YVBPMWh6UExCcjloVGhPYkxXQ1hyNVRQSXp1cFd1N09RUXFmTm5xNUlwTXhyNkljX24tRWp2ZmpHMzNFR2VXZVBWZ3FockhzYm9vcEhJYWhwLUxTeXpSTTdKS2pTY24xN3Zfa1VydGptd2E4V1lQSFhOb0p5ZFpSWGFmbS12ZEFJclJJczNIbEE3MmU1MlVTZzRWNF90MWZPSzJMNTNtSVQ4R1ZYN0NsSFhicWhzMVMxS3JtMWxUMVQ4OVJUQVR1MkxidFRlZnBR",
-    "https://www.sherdog.com/news/news/Jon-Jones-reaction-says-it-all-after-Gable-Stevesons-12second-KO-loss-202867"
+    "https://www.sherdog.com/news/news/Jon-Jones-reaction-says-it-all-after-Gable-Stevesons-12second-KO-loss-202867",
+    "CBMi3AFBVV95cUxNbHB6YTA3MW1JVFJnLXgxYS00OWladTA2VndQQ1hlM1J2Tm1RSm84UU9MRFdMMTZuLXN1bU1lT2tGQmhabGRaaDZ5MXllTklWVFBnWmFuY2VEQ2pDc1FPNDZJWjlIbVZ4V1NTaHF5OWFkSnJodUdqNXlRYTZUYjE3c29YU0hIXzN4STRublk4WmpMWHJ3QkFEWG83ZXowMnhSYm4xckxGM2dCb1hfVHUxTnJjVkJuOXU1YlFmcjhPOGJkdV9IU3JIMm5MeFpOMEdITzFiaFAzMF9GeEtK"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 104,
+    "ai": 105,
     "staged": 4,
     "prio": 1,
     "lost": 0
