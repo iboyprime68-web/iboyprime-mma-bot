@@ -1,5 +1,8 @@
 {
   "seen": {
+    "46c34cf0e25aa250": 1789883965.825867,
+    "676ad42defce0ca1": 1789883965.3579407,
+    "ab2358304542183b": 1789883965.3294728,
     "f42c128f447ddfab": 1789883941.714237,
     "6cf0511acaedda1b": 1789883918.0680978,
     "75491d514bdcdea4": 1789883893.9619684,
@@ -2496,10 +2499,7 @@
     "62d1c0c200bafea8": 1789309527.9870548,
     "c10be3f5df6c2a8e": 1789309463.7671614,
     "34d3d942d6b8aef2": 1789309463.5206106,
-    "045d66cf6bcd6c84": 1789309399.3302522,
-    "42e91d358559b7e9": 1789309399.1250842,
-    "fd690ec7d7f5bae8": 1789309334.8472073,
-    "3ba3a4d5d2c333f8": 1789309334.6601112
+    "045d66cf6bcd6c84": 1789309399.3302522
   },
   "initialized": true,
   "v": 4,
@@ -4813,16 +4813,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T03:27:35+00:00",
       "cluster": "c518343b3a0"
+    },
+    {
+      "t": "UFC 331 video: Jon Jones in disbelief as Gable Steveson KO'd in 12 seconds",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T02:29:43+00:00",
+      "cluster": "c254191f66d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T05",
-    15
+    16
   ],
   "yt_eval": [
-    "3b129375-37b9-33aa-a424-f14e5043c923",
     "77e1075e-74dc-30f8-ba71-59df9d3cfba2",
     "https://bloodyelbow.com/?p=330633",
     "https://www.mmamania.com/?p=469678",
@@ -6321,11 +6326,12 @@
     "https://www.mmafighting.com/?p=511349",
     "b040581a-796c-32a1-be8c-a7b5b5f84b38",
     "https://www.sherdog.com/news/news/Dana-White-said-Ciryl-Gane-wasnt-undisputed-champ-UFC-says-otherwise-202862",
-    "https://www.mmafighting.com/?p=511296"
+    "https://www.mmafighting.com/?p=511296",
+    "4a428812-6bf9-37bb-9cc4-b0d6bd74d704"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 64,
+    "ai": 65,
     "staged": 3,
     "prio": 0,
     "lost": 0
