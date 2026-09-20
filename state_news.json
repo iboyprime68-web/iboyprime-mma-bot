@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e8550bc542585a0b": 1789884538.5248559,
     "2185b5f28442116f": 1789884515.02141,
     "b1978b9c46ca35d6": 1789884449.8118937,
     "9087175611bba3a1": 1789884449.5508769,
@@ -2498,18 +2499,11 @@
     "6ef7e900230039ee": 1789310870.5011864,
     "0ee77cfdb3098837": 1789310437.8783553,
     "320b1fdd8b945ff6": 1789310374.969861,
-    "007b2cd0ee64c860": 1789310250.2410614,
-    "c457a5f28b35520f": 1789310250.2380784
+    "007b2cd0ee64c860": 1789310250.2410614
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Alonzo Menifield vs. Iwo Baraniewski: UFC 331 AI Prediction, Results and Highlights",
-      "source": "yardbarker.com",
-      "ts": "2026-09-18T08:17:14+00:00",
-      "cluster": "c0880451883"
-    },
     {
       "t": "UFC 331: Van vs. Pantoja 2 Live Fight Coverage",
       "source": "ESPN India",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T03:15:40+00:00",
       "cluster": "c8474ce2f0a"
+    },
+    {
+      "t": "Sean Sharaf shocks Gable Steveson with 12-second KO at UFC 331",
+      "source": "Sherdog",
+      "ts": "2026-09-19T23:45:57+00:00",
+      "cluster": "c3d02183eb7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    15
+    16
   ],
   "yt_eval": [
-    "dc4cc3f0-f3b8-30af-af9c-24a1f772b005",
     "CBMiW0FVX3lxTFB5d2lqUXNMQWhfTzBwNkdVbUwweHpieUJzTUZxcTU5Ym5EaXV1YjFXOEdrSUU5MmRSM3lZTWtkUnJoVkF6RE53V2FRZkVKelp4cVZObldqNmhZbXc",
     "CBMijAFBVV95cUxNRDdJRm5FUjlOMWFYR2xxdHEwZUZUd0d0enhFaWZ0anJvNGtKb2xjS19qMHViQ05aa213ak0xZkwzZG9nOVdCcTc3X2h1enJpYjE2clZUV1J2dlBuUVlZSGp6MjdFMmRvYVlFWEszRFIySGtVQ2xIa2IxOVZBWVZ0R1VNQzZsczJiSl9CTg",
     "CBMilAFBVV95cUxOTXh4emp4Q0dVYU5YQ3lhMkFuS2l6OW5OVkxyZWkwWDVCZ3VhN0ZRQzBzajkteDhEVkY0SzJodkcxeXZCTFY5OG5WNmlkVW5YbFZHLWFlRlFEMmlSN2pMMWhtRzFBclBCUWhzTTk4RVVtOENUeEg0c1MwOFFwWlVQOWh4bk1FTWFfU0Z6WTE0WUN5TEY3",
@@ -6411,11 +6410,12 @@
     "bfdc587e-469a-31bf-b00f-1c7925c44b14",
     "4a83d631-2c6d-3ffc-a671-a0c1f105831e",
     "3f405351-8e9c-329c-924e-2eb511dbf36b",
-    "c7bd2ff0-69f2-349c-805e-a7f699b51a2b"
+    "c7bd2ff0-69f2-349c-805e-a7f699b51a2b",
+    "https://www.sherdog.com/news/news/Sean-Sharaf-shocks-Gable-Steveson-with-12second-KO-at-UFC-331-202866"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 81,
+    "ai": 82,
     "staged": 4,
     "prio": 0,
     "lost": 0
