@@ -1,5 +1,7 @@
 {
   "seen": {
+    "6a893d14afaffe60": 1789927688.1506925,
+    "43f0c9ecd599e158": 1789927687.7727787,
     "8472afea3167e1cb": 1789927665.6641006,
     "f08a4162a17cc8f4": 1789927633.9771829,
     "030e156b9fc84bcb": 1789927632.32355,
@@ -2497,19 +2499,11 @@
     "87565b56306077a5": 1789412454.8531446,
     "86d9cd1bbdd58a3c": 1789412385.245782,
     "63b5e59b9d6091c4": 1789412315.8605351,
-    "1dd9616d73647054": 1789412315.1931782,
-    "fe0dcb1a02166fc1": 1789412247.2522864,
-    "abeba09e8573f4bb": 1789412246.9366367
+    "1dd9616d73647054": 1789412315.1931782
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Poor sportsmanship, past sexual assault allegations drive UFC 331 storylines",
-      "source": "Las Vegas Review-Journal",
-      "ts": "2026-09-18T19:55:00+00:00",
-      "cluster": "c1f882b8a94"
-    },
     {
       "t": "UFC 331 Weigh-In Results: Perfect Friday Morning on Scales!",
       "source": "MMA Sucka",
@@ -4903,16 +4897,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T06:58:19+00:00",
       "cluster": "c6e839ceb48"
+    },
+    {
+      "t": "Arman Tsarukyan may finally be out of UFC’s doghouse after what Dana White said about his ‘comeback’",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-20T16:30:00+00:00",
+      "cluster": "c08377e9ab3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T18",
-    2
+    3
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxQM0F2Sm9BYWhUNng2dTdpT0FMZnZTakkwa0c0QzhwS0h4c19YSW4tU2t1blRBTlJybk5ueEM4YXVuTFJuejV1R0RWeG5RdVVQeFZrb3pvZEl1ckZ4Y01ZRExUcFo3RERyYzNENjhjbWoxM2tRUjhXTGFmU0FvUlhqTTRjcjY3NGU0QkdpZFl6MmcyRmJmZG1VYnRDenM4ci1a",
     "CBMitAFBVV95cUxOWm1IYkh3cWtNM01sdDZoSThLbW9rRzNoZmNhd3Y2NzhkbkJ1clg5VWszWEN5V0dMdjZMQVYzSmFyRUJmRGQxTFQ3MGdqV3VGTlBKbW9qVklxcUVtYWJORGE4TlJxMy1NX0d2c3RLT0RTWTc3VnphZzRfS2hBQzc2N2lYTkVwZWdGQ1RXNVN6TTdzRGxZLWZqT25ZZkQxYWtFS21vbV9hazhOQW00S1ZoN1RkLW8",
     "CBMiyAFBVV95cUxNSzRPM1lmV2tDSlRHUUdyT0VqN1F6STRDWWZsU3gyYmdla08wX1c4QVcyYXVsQzMzVlhpaVhTeUUzSm05M1NJODhvdVl3NDZBczVIT2J3OTBVYVpWc29ramFSTWtVTjFXUG9Pc1JFaTk0UmFfUmdIOTJsbDlPTHUwUVptVV9PekYtMGJtZEd1aHlwMlZwRG1MU1NWWjlWWmo2LWE2cElpRC11RXpqUkdTZU1IdTBEdzRuZU1lUWx1cVlLZDd5eXROQg",
     "https://www.mmamania.com/?p=470276",
@@ -6411,26 +6410,17 @@
     "CBMiiwFBVV95cUxNX1ZWY2pBU3JtbmJKSUtlQmVRVTllSEUyRDdxazVBOTBWM2pIQmU3eVluZjBFNVhlN3ZKemxsa29Ebl9hekotUFFIczNReWNqeTBzVE9sd0hTWlNhXy14OG1IQ0d4X05CYWJkbEI3TGJFRTdYRU1LUVZXV0pwVHZLRVZsYUZYNTNUVl9J",
     "CBMimAFBVV95cUxNaFJzZWtPQ2dMLWptaHRuc2ZVbDVQY1FjY0o3ZUhuV2tpZTNvZHlRODZHN3M2VjJvQ2FCWWZwZEIyVnFMT0lBZkJsaElFNVRiUHhyNXBlOFViWnBTSHNxbS03SEt6bTQ1TnhWSlJPMk9Wb19JUXNLczl6Qnk5Ri04QmUtTmxXWnI2cUhNbktvamN1djlmSXFXUA",
     "CBMi5AFBVV95cUxPSllnemR4dzlsVE1TczBvODlTMWc0eUxibEZsWnNJcVFwN3k3TE1WVlB4Y0Z1RUM1SXVHUGRJU2pQQVA4R3BNdllOd1IwYVBtMTF3cjdnRWFpOEh5b0NLaEMwZXc4NDcxeXZ0M3FsOHJTaFNVSzdScEJKVEpCbGpzNW4zbmJHWUh4a01nWUE5REZFSWlFTWJEbHUyWnJLdTVRcGFhQXBzWmVqdHhMWDY4TUs4VW9WSVo0RG9YSGZoSVdERDNaUEU3V1k2UmowbW53aDF4SDB4dkh6amI0ejZGaDB0aFk",
-    "https://www.mmafighting.com/?p=511552"
+    "https://www.mmafighting.com/?p=511552",
+    "https://bloodyelbow.com/?p=332842"
   ],
   "daily": {
     "d": "2026-09-20",
     "ai": 120,
     "staged": 6,
-    "prio": 1,
+    "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-09T23:04:56.783704+00:00",
-      "t": "Paulo Costa says he’s requested his release over UFC 332 snub ahead of signing with Eddie Hearn",
-      "names": [
-        "costa",
-        "eddie",
-        "hearn"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-09T23:16:16.488472+00:00",
       "t": "Injured UFC champion Islam Makhachev hopes to defend Welterweight title next before Ramadan … 2027?",
@@ -7215,6 +7205,15 @@
       "t": "UFC 334 full fight card announced",
       "names": [],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-20T18:08:08.154120+00:00",
+      "t": "Arman Tsarukyan may finally be out of UFC’s doghouse after what Dana White said about his ‘comeback’",
+      "names": [
+        "tsarukyan",
+        "white"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7269,16 +7268,16 @@
     "883e2812ea7971df": 1789738287.2515323,
     "cc5b1f0b9b887796": 1789753607.166997,
     "3d7283ecfe7ae930": 1789807874.5956829,
-    "68e8e2fb5c27afc6": 1789885103.5166793
+    "68e8e2fb5c27afc6": 1789885103.5166793,
+    "6a893d14afaffe60": 1789927687.8101327
   },
   "pinged_titles": [
     [
-      "UFC 334: Gane vs. Hokit Officially Announced",
-      1789885103.5166793,
+      "Arman Tsarukyan may finally be out of UFC’s doghouse after what Dana White said about his ‘comeback’",
+      1789927687.8101327,
       [
-        "announced",
-        "gane",
-        "hokit"
+        "tsarukyan",
+        "white"
       ]
     ]
   ]
