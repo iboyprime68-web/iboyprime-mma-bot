@@ -1,5 +1,10 @@
 {
   "seen": {
+    "e18db7ba7766514f": 1789902037.538225,
+    "a5a33fb0cb3b0c81": 1789902037.248904,
+    "5d6ac1f831193154": 1789902037.2403648,
+    "54a17ccbb10bc27a": 1789902037.2391007,
+    "825872b9ed725660": 1789902037.20234,
     "27cbf1f04311883d": 1789902014.3024309,
     "123ee20ad8815e41": 1789901992.4710257,
     "661cd27f12d20cd2": 1789901970.5184193,
@@ -2494,22 +2499,11 @@
     "6914395cb37aebf5": 1789388202.907663,
     "c8710d71ea5a2964": 1789388179.044741,
     "0615c0c131e259f0": 1789388154.7932162,
-    "8a3ce5ca414168b7": 1789365602.5204067,
-    "10e0a3e34d9afa2a": 1789365536.8233747,
-    "98125e2c3178945f": 1789365493.6313705,
-    "18c8e2d0962de9de": 1789365470.7260032,
-    "861b59e2c69a3a01": 1789365446.3206358,
-    "b2f2758aa36a366b": 1789365415.9874113
+    "8a3ce5ca414168b7": 1789365602.5204067
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Missed Fists: Kye Genesis executes nightmarish arm-breaking submission",
-      "source": "MMA Fighting",
-      "ts": "2026-09-18T14:50:24+00:00",
-      "cluster": "c1545907ef0"
-    },
     {
       "t": "Tom Aspinall backed for UFC comeback by Jon Jones’ protege Gable Steveson after vacating belt",
       "source": "Bloody Elbow",
@@ -4903,16 +4897,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-20T11:00:00+00:00",
       "cluster": "cc1a3c3a948"
+    },
+    {
+      "t": "UFC 331 Fighter Payouts Are Revealed",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T06:30:32+00:00",
+      "cluster": "c15d2a3dc72"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T11",
-    1
+    2
   ],
   "yt_eval": [
-    "4652b064-0aad-38ac-8995-1b07e4abc9a9",
     "a10ede57-8a18-3ef1-830a-7a170a7704e3",
     "ec748f67-a90d-3e23-9084-45039a40dd9c",
     "https://www.mmamania.com/?p=470199",
@@ -6411,7 +6410,8 @@
     "https://bloodyelbow.com/?p=332688",
     "4fc50ecf-c0d5-3814-b701-575941539790",
     "https://bloodyelbow.com/?p=332701",
-    "https://bloodyelbow.com/?p=332728"
+    "https://bloodyelbow.com/?p=332728",
+    "77fbc53d-06bd-350f-b035-6f0b2dcf882a"
   ],
   "daily": {
     "d": "2026-09-20",
