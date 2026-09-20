@@ -1,5 +1,6 @@
 {
   "seen": {
+    "60da504712cbd51c": 1789865438.12961,
     "db2598fcf3254b1a": 1789865414.6695907,
     "dd73db6ff247457e": 1789865391.4047377,
     "348db450d6a9b45d": 1789859329.8390665,
@@ -2498,8 +2499,7 @@
     "d6d7d078882b163d": 1789229250.1738276,
     "1bdeace9c90f68f0": 1789229227.2115877,
     "79a258b0ee2ff458": 1789229203.562151,
-    "17070d18509ee918": 1789229180.2544143,
-    "5e686c61bb5c1acb": 1789229156.8471205
+    "17070d18509ee918": 1789229180.2544143
   },
   "initialized": true,
   "v": 4,
@@ -4651,16 +4651,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T23:32:25+00:00",
       "cluster": "c6fa6a2e9f5"
+    },
+    {
+      "t": "Tai Tuivasa equals unwanted UFC record as he suffers 8th loss in a row at UFC 331",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-20T00:36:53+00:00",
+      "cluster": "c64fbbb6e18"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T00",
-    2
+    3
   ],
   "yt_eval": [
-    "7a1baa0d-722b-3ed8-aad3-14a6fcde8c75",
     "809a3381-88c9-319d-967e-db1c0940ad7a",
     "a241d5fb-50ef-341e-a9dd-b7be893399d3",
     "5a8a9f92-592f-3cee-845f-e3a66d1893be",
@@ -6159,27 +6164,17 @@
     "CBMi-AFBVV95cUxOYlRPMDNKbWpTa1JOYW5McWJhWU1ubWRGaFJzYVpCeFY2WjlJZk1WUm9RaXlDNGwzQmFkdWVFN3BrM2VqU2RXSmJ0dTcyMHNiRDVtSElWSmVDSkhOZURjOHdvVVVpRW1XdlRvZW1JbEdydDM3aWFJNF9OZWM3cElrVVg0eUFiZmNJc1ZjNkNWUFBGTGNtVzNmSWExZTVfZzlYSl9JUWRCXzBuY0FWWEhPX1F0WUNzYmpqclpGdENwaHRxdlg4Rl9KSkdBdVMzSVNLemlvOGxoVnBDYnluelU1UEFKR2NXMzRtbVdyNHU3R1hGeEpxaEFpaw",
     "CBMi1gFBVV95cUxQQzdmeFhNano3NG9URHNsYnAwNU9DTnhhclR2Z2cxamNRNDc3VzJGT1hES284S1BUQzV5ZHJ1bEx5Yk12RllqZWZxZGV3bldtanc0TVQyTFItREIzcjZlTW5rQjJXZUdQSTN0bmNuOXVuaF9odXNXOTEtZGhfcE9RWm1iRmE2TnpDcWtWLWRhR2dvQVRqdGVxaV9EVlczZ0dNRTBiXzhWLTZUNXlyYmNHUlBOY2pmSm5oVlVQVkJMZzB1WDFHQ2VPMGh0bnpVX1dHejB5ZUVR",
     "https://www.sherdog.com/news/news/Joanderson-Brito-says-coach-predicted-Giga-Chikadze-slip-at-UFC-331-202861",
-    "https://bloodyelbow.com/?p=332477"
+    "https://bloodyelbow.com/?p=332477",
+    "https://bloodyelbow.com/?p=332483"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 2,
-    "staged": 0,
+    "ai": 3,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-08T18:57:39.305345+00:00",
-      "t": "UFC Star Diego Sanchez Arrested",
-      "names": [
-        "star",
-        "diego",
-        "sanchez",
-        "arrested"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-08T18:59:59.297101+00:00",
       "t": "Former UFC Fighter Arrested",
@@ -6966,6 +6961,14 @@
       "names": [
         "white",
         "gane"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-20T00:50:39.418221+00:00",
+      "t": "Tai Tuivasa equals unwanted UFC record as he suffers 8th loss in a row at UFC 331",
+      "names": [
+        "tuivasa"
       ],
       "img": "photo"
     }
