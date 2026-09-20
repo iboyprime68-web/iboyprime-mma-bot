@@ -1,5 +1,8 @@
 {
   "seen": {
+    "2f47e1b6a7b3c3dc": 1789903157.6914375,
+    "b0f88917a7ba91c1": 1789903157.2512562,
+    "500a7e2c4d48c91c": 1789903157.218352,
     "ec161925416cd5ab": 1789902930.266308,
     "a3cbafe9d02ef638": 1789902930.0236406,
     "49ee451dab86d10b": 1789902867.1657507,
@@ -2496,20 +2499,11 @@
     "6bc9916a877b67bd": 1789389510.3017142,
     "e1cd733dd5e41132": 1789389444.5878341,
     "c026185b7bc5f6e4": 1789389399.457858,
-    "840ac41b4b692e1d": 1789389374.0454524,
-    "9b661f9cfbe93fde": 1789389306.6820395,
-    "50741cf1ab1a4b23": 1789389306.4297533,
-    "15aa498fff16b204": 1789389241.3068473
+    "840ac41b4b692e1d": 1789389374.0454524
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Joshua Van, Alexandre Pantoja make weight for UFC 331 title rematch",
-      "source": "sports.yahoo.com",
-      "ts": "2026-09-18T16:56:08+00:00",
-      "cluster": "c2ecf7880b2"
-    },
     {
       "t": "UFC 331: Van vs Pantoja start time, undercard and how to watch fights this weekend",
       "source": "newswav.com",
@@ -4903,16 +4897,21 @@
       "source": "USA Today",
       "ts": "2026-09-20T11:01:00+00:00",
       "cluster": "ca48a9dcd27"
+    },
+    {
+      "t": "Dana White gets brutally honest about potential Josh Hokit title reign",
+      "source": "Sherdog",
+      "ts": "2026-09-20T05:52:53+00:00",
+      "cluster": "c25e045c971"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T11",
-    19
+    20
   ],
   "yt_eval": [
-    "CBMiuwFBVV95cUxNWkZuT1BDX29jT2xyc0tLWFNkSUsteFBES0Q0TEpVWHktUGJHSHR4UGNoZGZ0TzI3RUhOQ0Q3WG5tMFhRdFpydjY0TWxMSUpLUnFOVktXQk82YkRlQWkxcU1IcTNMY1BnS29jMGFmaGxQV0xXTnNqZXJ6Wkh2OHF4cV9wWUpncUplSURydGM0NEpvQjdoWHBrSmdQOGVISmNuLW5tZjlsTk5Dd2Y0b3BiOXRDeFVQQnZXMW9J",
     "CBMitwFBVV95cUxPYWg1bEU5Y0U4SmY3cmZGOTlCRmtwOXo3cHZmTWpWTW94VmtvVlNxVUJsR3UxLVRPelcxNTRRWlo0U2xVMjF1NGU4cjlJcWtQdU9LWUtNYU90TVBoWXFLcC1VUWNSYmJscWlfbVJlXzNVUWY4VFRfV1ViWjJoMzBfTy1MQnR4VDI0bDh1S3ZZLW11NXVEUWFjWWhvZVFtNHN3cGRtUHV5R1p3Q0RaSGp3MEh6Mkd4RkE",
     "https://www.sherdog.com/news/news/Paddy-Pimblett-responds-to-rumored-December-Ilia-Topuria-fight-202688",
     "CBMi8gFBVV95cUxNMF9HbHdxVC1hbVBNYnNkLUoxWjkzeWlBa01Fa2laMEszOG5oZjdOanBIYXJFVFpHUGFZTXNmckJlaTlxWjg0eUpGalJub1lscGZsQjRlbzlGV19kWHFWMEtKUGdVU3pQV09hTF80TmdQZU11cWlLam5VQVo4NlZMdjJZdjRiWDFaOUREMjBUeC0tdzZ4ZGI2RUk3Q1Bpcy12ZjEtMC1QY0l6ay04SEk4cF9iY2lCT0J4SFhCM0stYUkxTGp2ZTgtUDRLR3hOdUc0RkJkN3A1XzBKUFJzVnJJTTFxWnQtTUt3cWo0RHJqYnNhZ9IB9wFBVV95cUxOdkkwS2ZTNVQ3M00zLXFzMlZKMHVETHVKaHl1ZG1rLXdWVjl2bVZqVGYwMGhuNlFrUmlSc3VBZWxjWUEwSTFsQ09yQmZxbGhqak5DWHFYNzZpNG1SMDduMjNaWXI0dkpRZXM1U25QLXFlMEZDYWNLMUhTMkdiZDQwbDFRdmNBdjl6bjN0TXFkY2w4RjcxYTRFRWo5LUx3SXJ1SVZvYUR5MmNtRTVVbWVMMnhsQVFHcGFoMS01ZjBBdHRuS3ZmelNKUURhNU82TWwwbWJMX0VEVVBvSlQ3NWxaRGowaFhENkJBMThBU3FhNHJKNmtubXFF",
@@ -6411,7 +6410,8 @@
     "CBMinwFBVV95cUxQYXFpWEtpUlV4WFNIVWlpMjFRamRMNnY1MFI5WjY1LTV2OXM3bjZfcWg5ekMxOVlZa19tUEtNM1M2NGpWWnNuMVFLV2F1eWxfQWRST2Fmc1VENXFXdnVfY3F2NGFDS2ljVGx4ZnVXaWtPc3R3a1g5dFdDYmpHTjJ4czhZVVdITDBsUWRKRHZhdGI0bEl4TE1VSEZKMmxpQXM",
     "https://www.mmamania.com/473424/noche-ufc-4-results-sooo-about-last-night-silva-vs-delgado",
     "CBMi9gFBVV95cUxQdXE2YThGdzlrYjF6N2NPQk01aXZmSkJseGU3YzkyX2c3MmVhNDRJaE5XSktoRm9pWXR5R2R3bzdXWmVrOGtSRlhBRlV2SUlYR1dGVnFCTk1PVlFEWVp3N3RpU09TN1JoU2YwVDhmTXFDZGJBR25CNTBfWXdQeEhIMHcwMDZjenpCc1RaS1VFT1dFZXNCT0VCQ0cxS0dqOGt6SmdRNTJjbnM0V0JUcmFRTUVpSzlZY1VLSWZDQ1RtMkxHYWlaRVZwNnVOVTh5WHJuSVFITnJyLWxMOTQxVWV4WXZQS3RsQmZBOWl0M0JJU2dwUUtRcVE",
-    "CBMipwFBVV95cUxPX01PVkhnRlBxWkFaMmdqeW9TVUVtMU5pSXRBb0c5d3J6LURlaFlVV3duODJuc0hYZUxHQnNHcGVJQ0FsS1oyWG1GSU1LUTV3TkFCYkVlaEE3VGNhNU5ObHJ1enA2eHA5cDB2bkQ4clpmNVJLT0hKb1Nlb3FwVkdDYkRuT1NZdzR6aXR5Y0pTZW9LbG1YejZ0WjFfX0ZKZ3FYcXV5Y1Rhbw"
+    "CBMipwFBVV95cUxPX01PVkhnRlBxWkFaMmdqeW9TVUVtMU5pSXRBb0c5d3J6LURlaFlVV3duODJuc0hYZUxHQnNHcGVJQ0FsS1oyWG1GSU1LUTV3TkFCYkVlaEE3VGNhNU5ObHJ1enA2eHA5cDB2bkQ4clpmNVJLT0hKb1Nlb3FwVkdDYkRuT1NZdzR6aXR5Y0pTZW9LbG1YejZ0WjFfX0ZKZ3FYcXV5Y1Rhbw",
+    "https://www.sherdog.com/news/news/Dana-White-gets-brutally-honest-about-potential-Josh-Hokit-title-reign-202871"
   ],
   "daily": {
     "d": "2026-09-20",
