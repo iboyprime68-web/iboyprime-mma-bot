@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4192bbcf5b4c04bf": 1789865668.2222264,
     "ff25361b9b1be270": 1789865602.0108392,
     "2c847f56efa290d2": 1789865601.6172895,
     "39486e6de8e9b55d": 1789865601.61344,
@@ -2498,8 +2499,7 @@
     "4add0a7bd0da4e54": 1789229562.3504107,
     "e80ff72187ebe277": 1789229561.6859381,
     "ca02c090eb0acc83": 1789229497.2618694,
-    "bbd265be809a1e46": 1789229473.9408014,
-    "d3ebc052024e1ec8": 1789229430.2400482
+    "bbd265be809a1e46": 1789229473.9408014
   },
   "initialized": true,
   "v": 4,
@@ -4681,16 +4681,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-19T23:59:58+00:00",
       "cluster": "c5478cf4d5f"
+    },
+    {
+      "t": "Ryan Gandra def. Ozzy Diaz, UFC 331: Best photos",
+      "source": "MMA Junkie",
+      "ts": "2026-09-20T00:00:00+00:00",
+      "cluster": "cea694f3261"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T00",
-    7
+    8
   ],
   "yt_eval": [
-    "e050198b-3fcb-3a55-98ec-b996076429f6",
     "e4ffbf19-482d-3835-8cfe-44a6912867ff",
     "21ae5c13-1c72-3695-8e4c-21bcd4bf8653",
     "72b8c5ca-9d22-3aae-9c03-e4f2a6c16143",
@@ -6189,11 +6194,12 @@
     "0bb7e096-8588-312b-8ac0-ae3767c039ee",
     "https://www.mmafighting.com/?p=511088",
     "10f9f884-c159-384f-8f83-2fc3efe7327a",
-    "CBMiigFBVV95cUxNLXkwYURtMUZCek14RzRQZHZHa3Y1WVV5Q1A4c1E5bU0zMDNObTR3TWFPdUFtamZYOUk5OWViOVRySW5TSW52dWdBVktWYmt3VU9QcG8xM1JMWllFNmp1bHE1VWtsLVhzeDVlU2ttdUR4aU01QldzTS1HcWI4ajhhVXkzZUx1bG9fNUE"
+    "CBMiigFBVV95cUxNLXkwYURtMUZCek14RzRQZHZHa3Y1WVV5Q1A4c1E5bU0zMDNObTR3TWFPdUFtamZYOUk5OWViOVRySW5TSW52dWdBVktWYmt3VU9QcG8xM1JMWllFNmp1bHE1VWtsLVhzeDVlU2ttdUR4aU01QldzTS1HcWI4ajhhVXkzZUx1bG9fNUE",
+    "CBMiygFBVV95cUxNVUdISWhSZWJEbWlLSUl6MkdnZm9JOTI4T0tFYV9kMUU2eHR6ZHVNdnU0TjhiMFBhREJ4WWxaWVlWUjRvTmoxM3hVdHlvTnhvNVljelBNRjFKSVozakZudGw1ZzMyaWZjUUxrZklydTFjSENRelpZd29FYkVBTHVfQ2dUTUZRU3g5MXVpVlFibmduRktOQk4wYmstM2dHYUlXS3pndW50LTd2b0ZMd19pNlptc0lMdHVOTE1ETXVObVFQQWIwRS01SG53"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 7,
+    "ai": 8,
     "staged": 1,
     "prio": 0,
     "lost": 0
