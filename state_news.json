@@ -1,5 +1,8 @@
 {
   "seen": {
+    "cf60a023ea44e3ba": 1789866598.6916263,
+    "8c0979283770179d": 1789866598.40869,
+    "5cc836602c933202": 1789866598.3858502,
     "4130d716152e5cc7": 1789866533.4809694,
     "8f04d3461345a73d": 1789866467.4092739,
     "567a6d5f1b65ad64": 1789866401.6401513,
@@ -2496,10 +2499,7 @@
     "176cd98f571dc211": 1789248732.6868582,
     "4722d59bd7c11762": 1789248667.5157986,
     "573e0d0ac707737a": 1789248603.0960867,
-    "bd0e0d546ca13626": 1789248538.7167976,
-    "ed037706266386e5": 1789248514.7276828,
-    "d7c6929f2dde4b2f": 1789248470.286307,
-    "05606dc1314335ce": 1789248470.0594373
+    "bd0e0d546ca13626": 1789248538.7167976
   },
   "initialized": true,
   "v": 4,
@@ -4771,16 +4771,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T00:39:00+00:00",
       "cluster": "ca5405129b0"
+    },
+    {
+      "t": "[Free]*UFC 331 Full Fight Live 𝐒𝐭𝐫𝐞𝐚𝐦𝐬 ON Free Tv",
+      "source": "Sault Michigan News",
+      "ts": "2026-09-20T00:44:18+00:00",
+      "cluster": "c561a48c7f1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T01",
-    10
+    11
   ],
   "yt_eval": [
-    "63cacb29-3bc5-35ec-a7c2-44d52e951d79",
     "b76984ad-b090-3d51-a232-600279024755",
     "fe7544f5-1d8b-32e3-ba16-0474a1962c13",
     "https://www.mmamania.com/469586/bonuses-open-ufc-paris",
@@ -6279,11 +6284,12 @@
     "https://www.mmafighting.com/511060/ufc-331-live-blog",
     "CBMilwFBVV95cUxQT2dxa1Q4WEZuUWNXMTYxQ01RcDRNQVNMQ25qemQzcFZjU2locjZhN0Nkbm1OTlBKdlFwZjRPcGJmUTB0U2xRSjI5WmloeXpQeV9jUGhKbVRPZDJSREFhWndBYTloR3U1NkIyWEtvSTdhRFFaU2E1Rnl6WmozREJWajdKek9NTFk2OG1uS25yVk5fc2k3am5v",
     "CBMixwFBVV95cUxOQ3hMRk43bk5sVmprVEw5RmVfRHY1LTRmcFRBY0cxMW1zeElUbXZrOTZlRDZOLV8zNWo2VGlySmhoZlItdlNxZVRrR3luWUd4ZF9UWVJ2VTF2U0MySWhHZXR6RGZGbVBfUUFjX3B0M3FTZTJpU0JPNWM3aVFQRm9zUndSNnVYNzlQT3E5cUYtQ085T19iQTMyemNCSzFXVHA4ck5nNF9xcUE2dGJFZWpUcFl4QzNNN0pnbENyUEk3Ty11Q25udDZV",
-    "CBMijAFBVV95cUxOdVVtdVdNMWI4ZllSYWRwdE05Y19oSzBCajFtdUhvN3NZRUE1NTA5MG1qSzROYjExTzB5ZFppUGhpMFhEMlYzTlVjcDVhNnNSVnVDTkh6NFJ6NzBZTTM4NEhQOGJlX2lPTmV5My1ucm5VdzNGY1plazBhY3pvUF9mbVhhZWRIc2toQXdKWA"
+    "CBMijAFBVV95cUxOdVVtdVdNMWI4ZllSYWRwdE05Y19oSzBCajFtdUhvN3NZRUE1NTA5MG1qSzROYjExTzB5ZFppUGhpMFhEMlYzTlVjcDVhNnNSVnVDTkh6NFJ6NzBZTTM4NEhQOGJlX2lPTmV5My1ucm5VdzNGY1plazBhY3pvUF9mbVhhZWRIc2toQXdKWA",
+    "CBMieEFVX3lxTE9idVhoWkkzRmpiQXdSTUhDeWU1RlMyam5lQkdnV3VfTXBlbHUyRVJDVGh2NHZ6ZHZkUlhCMXFsZENzNC0zV2ZsZ2kwdVg3cHNmXzdpd19menZ6RW1RVXMtakU2d1c1a3hmSjJRUnRldXRpU1ZtNzNiMw"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 23,
+    "ai": 24,
     "staged": 1,
     "prio": 0,
     "lost": 0
