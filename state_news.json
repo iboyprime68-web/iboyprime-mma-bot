@@ -1,5 +1,6 @@
 {
   "seen": {
+    "123ee20ad8815e41": 1789901992.4710257,
     "661cd27f12d20cd2": 1789901970.5184193,
     "0fd706c87bcf2691": 1789901947.9831831,
     "594a72f4f0594c66": 1789901925.735552,
@@ -2498,18 +2499,11 @@
     "18c8e2d0962de9de": 1789365470.7260032,
     "861b59e2c69a3a01": 1789365446.3206358,
     "b2f2758aa36a366b": 1789365415.9874113,
-    "f40b84580ea23db4": 1789365392.850795,
-    "e0858f4a0ed395ec": 1789347622.3990247
+    "f40b84580ea23db4": 1789365392.850795
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Undefeated Fla. deputy earns UFC spot",
-      "source": "Police1",
-      "ts": "2026-09-18T14:18:49+00:00",
-      "cluster": "c8fcdb17635"
-    },
     {
       "t": "Surprise fighter tops USA TODAY Sports' UFC pound-for-pound list",
       "source": "Yahoo Sports",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T05:59:13+00:00",
       "cluster": "cbcdd3e72ed"
+    },
+    {
+      "t": "Gable Steveson called ‘ungrateful loser’ by Daniel Cormier for his reaction after UFC 331 upset",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-20T10:00:00+00:00",
+      "cluster": "cd116f277dc"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T10",
-    4
+    5
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Valter-Walker-says-Jailton-Almeida-was-set-a-trap-in-Russia-202686",
     "e673520f-da77-3ced-bc3c-a394518bb246",
     "4652b064-0aad-38ac-8995-1b07e4abc9a9",
     "a10ede57-8a18-3ef1-830a-7a170a7704e3",
@@ -6411,7 +6410,8 @@
     "https://www.sherdog.com/news/news/Dana-White-adds-3650K-to-Sean-Sharafs-bonus-for-shocking-UFC-331-upset-202869",
     "https://bloodyelbow.com/?p=332695",
     "https://bloodyelbow.com/?p=332688",
-    "4fc50ecf-c0d5-3814-b701-575941539790"
+    "4fc50ecf-c0d5-3814-b701-575941539790",
+    "https://bloodyelbow.com/?p=332701"
   ],
   "daily": {
     "d": "2026-09-20",
