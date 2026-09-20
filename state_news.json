@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0ad3b18b5d6aa61e": 1789883771.3023412,
     "b49d6146574c2023": 1789883748.136866,
     "1fe03e9dad151e61": 1789883747.7926888,
     "479b95d84a853838": 1789883747.7658532,
@@ -2498,8 +2499,7 @@
     "a3236fefdc59f8ae": 1789309075.1200683,
     "c5c209a2e8ffc7ab": 1789309074.4446483,
     "7b2bd7ddd5eaa665": 1789309010.3985398,
-    "a8b291a2b13baec8": 1789308966.1719213,
-    "e2b04674e7421837": 1789308942.552199
+    "a8b291a2b13baec8": 1789308966.1719213
   },
   "initialized": true,
   "v": 4,
@@ -4765,16 +4765,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T02:05:48+00:00",
       "cluster": "c76028e662f"
+    },
+    {
+      "t": "Arman Tsarukyan vs Mauricio Ruffy UFC 331 result: N3on corners as top lightweight earns title fight with vicious first round KO",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-20T03:06:38+00:00",
+      "cluster": "ca970dbb861"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T05",
-    7
+    8
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=470037",
     "b3ce7384-0bbf-326d-a0dc-6a41b866e85a",
     "0ab10311-6ad0-328e-b9c7-e3f481282853",
     "https://bloodyelbow.com/?p=330617",
@@ -6273,25 +6278,17 @@
     "77aca7ce-5577-30aa-b682-23167dad3c70",
     "https://bloodyelbow.com/?p=332517",
     "https://bloodyelbow.com/?p=332585",
-    "f86390d7-5510-37a9-95ba-e128e58f11c2"
+    "f86390d7-5510-37a9-95ba-e128e58f11c2",
+    "https://bloodyelbow.com/?p=332598"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 56,
-    "staged": 2,
+    "ai": 57,
+    "staged": 3,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-09T13:37:18.908265+00:00",
-      "t": "Dana White indicates UFC done with Michael Page: 'It's pretty obvious'",
-      "names": [
-        "white",
-        "page"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-09T14:00:26.702546+00:00",
       "t": "Former UFC star Diego Sanchez arrested on aggravated DWI charge",
@@ -7076,6 +7073,15 @@
       "t": "Gable Steveson brutally knocked out cold in 12-second upset at UFC 331",
       "names": [
         "steveson"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-20T05:56:12.356334+00:00",
+      "t": "Arman Tsarukyan vs Mauricio Ruffy UFC 331 result: N3on corners as top lightweight earns title fight with vicious first round KO",
+      "names": [
+        "tsarukyan",
+        "ruffy"
       ],
       "img": "photo"
     }
