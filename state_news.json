@@ -1,5 +1,7 @@
 {
   "seen": {
+    "fddbf6fb63e20bc3": 1789884131.7988582,
+    "0d06418a67e8c806": 1789884131.530015,
     "0c57200bd7612061": 1789884108.4076087,
     "daf52fdd3bdebe31": 1789884107.9278564,
     "33e02f3be0c92477": 1789884084.0172157,
@@ -2497,9 +2499,7 @@
     "fbd3f10687fe0e6f": 1789309730.041989,
     "3beccd109e4fb8f9": 1789309665.830663,
     "4866f03b7dd258f1": 1789309665.485257,
-    "982f8110b73b7434": 1789309665.4849846,
-    "c22e39ab261b0a59": 1789309665.4847257,
-    "6ca461538afaae9b": 1789309665.4844606
+    "982f8110b73b7434": 1789309665.4849846
   },
   "initialized": true,
   "v": 4,
@@ -4855,16 +4855,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T02:41:56+00:00",
       "cluster": "c359119f35e"
+    },
+    {
+      "t": "Joshua Van defends title with brilliant 5-round performance over Alexandre Pantoja in UFC 331 main event",
+      "source": "MMA Fighting",
+      "ts": "2026-09-20T04:20:43+00:00",
+      "cluster": "c6c48c87eee"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    5
+    6
   ],
   "yt_eval": [
-    "324db251-9a58-35de-8c05-70965840820c",
     "ac04cec1-2132-33cf-af0b-83ccd48d9d77",
     "61113c48-4b47-3b7a-9c3e-9563639bffed",
     "https://www.mmamania.com/?p=470050",
@@ -6363,25 +6368,17 @@
     "efee79ec-04ac-3615-93fa-c0de9b77cd92",
     "https://www.mmafighting.com/511059/ufc-331-live-blog",
     "https://www.mmafighting.com/?p=511404",
-    "c08c9753-7b3d-33d4-a719-490b6d8d4165"
+    "c08c9753-7b3d-33d4-a719-490b6d8d4165",
+    "https://www.mmafighting.com/?p=511356"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 71,
-    "staged": 3,
+    "ai": 72,
+    "staged": 4,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-09T14:00:26.702546+00:00",
-      "t": "Former UFC star Diego Sanchez arrested on aggravated DWI charge",
-      "names": [
-        "former",
-        "sanchez"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-09T17:56:09.150054+00:00",
       "t": "It’s Time For Tom Aspinall to Vacate the UFC Heavyweight Title",
@@ -7166,6 +7163,15 @@
       "names": [
         "tsarukyan",
         "ruffy"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-20T06:02:13.177761+00:00",
+      "t": "Joshua Van defends title with brilliant 5-round performance over Alexandre Pantoja in UFC 331 main event",
+      "names": [
+        "van",
+        "pantoja"
       ],
       "img": "photo"
     }
