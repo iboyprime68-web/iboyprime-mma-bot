@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8f04d3461345a73d": 1789866467.4092739,
     "567a6d5f1b65ad64": 1789866401.6401513,
     "9a36d83cc3ea8cdd": 1789866401.1038249,
     "fd80e00c694009ff": 1789866401.0985937,
@@ -2498,8 +2499,7 @@
     "ed037706266386e5": 1789248514.7276828,
     "d7c6929f2dde4b2f": 1789248470.286307,
     "05606dc1314335ce": 1789248470.0594373,
-    "1fd5ea58e523a6c6": 1789248470.0569894,
-    "f8ef0b73608a7a8d": 1789248470.0567365
+    "1fd5ea58e523a6c6": 1789248470.0569894
   },
   "initialized": true,
   "v": 4,
@@ -4759,16 +4759,21 @@
       "source": "OrilliaMatters.com",
       "ts": "2026-09-20T00:38:41+00:00",
       "cluster": "cb4a6c17765"
+    },
+    {
+      "t": "UFC 331: Robelis Despaigne Earns First-Ever Decision Win, Hands Tuivasa Eighth Straight Loss",
+      "source": "Cageside Press",
+      "ts": "2026-09-20T00:39:00+00:00",
+      "cluster": "c688da20ea6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T01",
-    8
+    9
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330469",
     "0f4b1323-e165-37e7-b28c-18d9a80918c4",
     "63cacb29-3bc5-35ec-a7c2-44d52e951d79",
     "b76984ad-b090-3d51-a232-600279024755",
@@ -6267,11 +6272,12 @@
     "CBMikwFBVV95cUxQZm93N1htRFFnTUliejFlVU5OOFR4WHdoQ200NWE1MXdnU2dvYUpKd19lSzgza2FoV09NRWtfeGY0cXhPcDNQZ1ZzeWZOMFVIYzhwRVY0SjFyVUVqTUlyRHNJd0RabFQ4bXBkNE9XWV9DbkY1OEZMUV9kYWdaa1hWUXVfMEp5V0g5OERETWx2MWJSd1k",
     "CBMilAFBVV95cUxNVlo5OGdKRnlZTFROS1FpaV9wMjZnX0lsMlBJOUtMd0lpRENlcVVCRF9pRDJmZDAxbHd6ZGhYekJVUVNjVGRqazFqNFlrRzdOSEotM00wMXlDcGlaaFdwVVM2Z2JYVy11Zmx6RjBRQ3B4cmdDU2prM3FCWEI3Y1FvRkhucUZCVjNuRFpheUlWdXpvT1pX",
     "https://www.mmafighting.com/511060/ufc-331-live-blog",
-    "CBMilwFBVV95cUxQT2dxa1Q4WEZuUWNXMTYxQ01RcDRNQVNMQ25qemQzcFZjU2locjZhN0Nkbm1OTlBKdlFwZjRPcGJmUTB0U2xRSjI5WmloeXpQeV9jUGhKbVRPZDJSREFhWndBYTloR3U1NkIyWEtvSTdhRFFaU2E1Rnl6WmozREJWajdKek9NTFk2OG1uS25yVk5fc2k3am5v"
+    "CBMilwFBVV95cUxQT2dxa1Q4WEZuUWNXMTYxQ01RcDRNQVNMQ25qemQzcFZjU2locjZhN0Nkbm1OTlBKdlFwZjRPcGJmUTB0U2xRSjI5WmloeXpQeV9jUGhKbVRPZDJSREFhWndBYTloR3U1NkIyWEtvSTdhRFFaU2E1Rnl6WmozREJWajdKek9NTFk2OG1uS25yVk5fc2k3am5v",
+    "CBMixwFBVV95cUxOQ3hMRk43bk5sVmprVEw5RmVfRHY1LTRmcFRBY0cxMW1zeElUbXZrOTZlRDZOLV8zNWo2VGlySmhoZlItdlNxZVRrR3luWUd4ZF9UWVJ2VTF2U0MySWhHZXR6RGZGbVBfUUFjX3B0M3FTZTJpU0JPNWM3aVFQRm9zUndSNnVYNzlQT3E5cUYtQ085T19iQTMyemNCSzFXVHA4ck5nNF9xcUE2dGJFZWpUcFl4QzNNN0pnbENyUEk3Ty11Q25udDZV"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 21,
+    "ai": 22,
     "staged": 1,
     "prio": 0,
     "lost": 0
