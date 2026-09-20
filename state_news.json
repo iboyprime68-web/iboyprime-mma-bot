@@ -1,5 +1,7 @@
 {
   "seen": {
+    "4de9463fea289400": 1789884779.6381466,
+    "7af0a421febb26b6": 1789884779.4267807,
     "3ce9e410b7fadacc": 1789884715.3477046,
     "d319c343d2e0df10": 1789884670.9377031,
     "343f6481858fba2f": 1789884647.7098224,
@@ -2497,19 +2499,11 @@
     "f98202a9c0f5d9c0": 1789322490.0827773,
     "8c6a7d3a7c96f61c": 1789322466.2627466,
     "7522845f6fb6c634": 1789322439.9470735,
-    "2682be270e9fe30c": 1789322416.638737,
-    "e173ac327d5c5dd8": 1789322392.8283684,
-    "53801986dbd29efc": 1789311616.8678071
+    "2682be270e9fe30c": 1789322416.638737
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331 Embedded Episode 4",
-      "source": "MMA Insight",
-      "ts": "2026-09-18T08:34:12+00:00",
-      "cluster": "c63adfe900f"
-    },
     {
       "t": "Max Holloway chambre Justin Gaethje après sa déclaration",
       "source": "La Sueur",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T04:08:31+00:00",
       "cluster": "c017ab59727"
+    },
+    {
+      "t": "UFC 331 results: Joshua Van caps off upset-filled night with dominant win",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T04:14:32+00:00",
+      "cluster": "c7408779d93"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    20
+    21
   ],
   "yt_eval": [
-    "CBMickFVX3lxTE0yYy1iZlJSdi1xemdMSHFIdjdXQWpSb1RpQkIxSF95ZDVvWjdkVkFia1hRQzdreXBkM1JUT1BhUk15ZUZPWXpRR3F0UmlPOXhnaTZkSDhFcXFIQWQ2aHhfVXpQM1RaT2NudjR6My1OZDRtUQ",
     "CBMi3wFBVV95cUxQRHoyV3NWT2RnZTZOM2pGbjVoM2pBaFRkam1YQXl4bDBkWEV5WmVadXNMemtEekhYdGhTaUlISmJ1T3NQa2JGMjN5MGd0cnhrNmFYcElJbzQ4MzI4ejVOZXR2WjlDVG1mRko4allrbnhZUmE4di1uSWl2V0hyd2ZJLTZrbnZ0dFpMcWI3ZVE0US05bnVibWZjV05zUmMxeE52YjB3VmU5a1ptVDh1d2xFYlgteG1wOEV0clAtWDNhbnh2dGFfanh6d3hqVjlBSGJNMTZVZDRnMEk5WkREbkgw",
     "CBMinwFBVV95cUxNMXphWFp1alVtajVEdkNqWXVlcjA1dkdJVVVrX0JaNndWQl92S1RjZzB3VTd6a0p4QkpXVjNQamV1ZFBBZElQV0k5aWZPdnViYXBDYkZNSHhKM0FMYklBNVBNdEd6bE00R0NBcnVjRUxLMW9PRW1BV1Q2WTg5UmtCenVITWJzaTg5bHdZN3VoOHc4ZzdjcWRubVJjWUdqNTg",
     "CBMi1gFBVV95cUxQeHl6Q3pRMXk1OVZJSHJjaDZsdDNYUjQzOEV1TmlQQmRNUTBzVzRhVDgzTkFqOFRzSDRCeVlSazFLOV9Ma2Y1d0Yzc3pGUXJaWmFvaTY2UXNGNmF5cUpWdWZoV3VCLUo5WTU5QlNjRHRUMm85SEgtNTJnT1A0QmRpY2pmSWdidS1oQlJEUkN2ZmRvd0VGbGc2OWM0V1N5YkptaUJUekhyNVdiWlJ6YW5GczE3M3hwYjBMXzlGaGNqQmZNQjZ2NEJKekxHU3dwZkR3RDNNb2RR",
@@ -6411,11 +6410,12 @@
     "177977e3-af4b-3d34-9567-523d0b956930",
     "ac275619-bdf3-3de5-9911-182bf774f48f",
     "https://www.mmafighting.com/?p=511535",
-    "52850c6b-bb69-3820-8c6e-ac5c17ac4ab9"
+    "52850c6b-bb69-3820-8c6e-ac5c17ac4ab9",
+    "09c3d4e5-d19e-37d2-997b-df035c86e067"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 86,
+    "ai": 87,
     "staged": 4,
     "prio": 0,
     "lost": 0
