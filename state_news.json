@@ -1,5 +1,6 @@
 {
   "seen": {
+    "245480c9f044f661": 1789884230.1918645,
     "ce0407c0fb4aefda": 1789884206.454601,
     "6da2bef70b66e28e": 1789884206.1481242,
     "f12463588b09e865": 1789884183.1697345,
@@ -2498,8 +2499,7 @@
     "96cc696d0ce499e0": 1789309885.8021755,
     "15d5082f90b66879": 1789309862.434114,
     "dfcbde054877e297": 1789309797.9035635,
-    "46f4fed8956209c0": 1789309797.662391,
-    "ad27703c53ba5b1e": 1789309730.4685664
+    "46f4fed8956209c0": 1789309797.662391
   },
   "initialized": true,
   "v": 4,
@@ -4879,16 +4879,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T04:55:26+00:00",
       "cluster": "cdd45ded313"
+    },
+    {
+      "t": "Alonzo Menifield fought through gruesome thumb injury in UFC 331 upset",
+      "source": "Sherdog",
+      "ts": "2026-09-19T23:44:57+00:00",
+      "cluster": "c555d2e6bc3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    9
+    10
   ],
   "yt_eval": [
-    "df9ffc09-956a-3886-b09d-e92a1790dedf",
     "811960ab-608d-39db-8583-c2fb3f26a551",
     "87cf8863-66d6-3a53-b7e6-dd7b67501990",
     "7f274117-92f8-3cdd-a280-df593f9b5e74",
@@ -6387,11 +6392,12 @@
     "https://www.mmafighting.com/?p=511356",
     "https://www.mmafighting.com/?p=511454",
     "98e0bc32-00a3-36ae-88de-f6456ecac735",
-    "https://www.mmafighting.com/?p=511486"
+    "https://www.mmafighting.com/?p=511486",
+    "https://www.sherdog.com/news/news/Alonzo-Menifield-fought-through-gruesome-thumb-injury-in-UFC-331-upset-202865"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 75,
+    "ai": 76,
     "staged": 4,
     "prio": 0,
     "lost": 0
