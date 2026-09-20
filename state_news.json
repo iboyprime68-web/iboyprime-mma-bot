@@ -1,5 +1,7 @@
 {
   "seen": {
+    "3dd298bd084d0c69": 1789886023.5912592,
+    "21e2b0c4ddcd26dd": 1789886022.8861477,
     "a18a19a27bf21033": 1789885958.7682602,
     "1d6e7f37b6c4ec48": 1789885958.4241698,
     "707c28a813671b85": 1789885893.9008508,
@@ -2497,19 +2499,11 @@
     "3652019a0a0e1938": 1789332973.8625395,
     "5851fce3d07f64aa": 1789332909.2921739,
     "c516e41e9996baa7": 1789332844.876119,
-    "1ecdc89f056a0837": 1789332844.3464708,
-    "32dc5b0eb32c1869": 1789332780.3829172,
-    "aca0764ac1d5a46b": 1789332715.7102902
+    "1ecdc89f056a0837": 1789332844.3464708
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC veterans in combat sports action Sept. 18-19",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-18T12:50:15+00:00",
-      "cluster": "cf96aeea269"
-    },
     {
       "t": "From Guggenheim Abu Dhabi Tickets On Sale To UFC Doha Return, 10 Middle East Updates",
       "source": "curlytales.com",
@@ -4903,16 +4897,21 @@
       "source": "Sherdog",
       "ts": "2026-09-20T05:34:38+00:00",
       "cluster": "c7fe61065dd"
+    },
+    {
+      "t": "\"Inspectors were watching him\" - Dana White gets honest about Ilia Topuria accusing Justin Gaethje of using loaded gloves",
+      "source": "Sportskeeda",
+      "ts": "2026-09-20T05:37:00+00:00",
+      "cluster": "c7b75e1498a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    41
+    42
   ],
   "yt_eval": [
-    "CBMiwgFBVV95cUxPZHltem11TUstWW9TTHJndU4zNENPUHNVUE9VRWZocDh4VzRCM3pUVXYyYlBGX0tINmR6aGFwR2dJRDNkY1J2N3pUQl9kcm9LY3Nlc2pFSDlia29fMU5fUmNsMEJDVXJXMGtiYm0wODNqMFprN3F0QWVCanFDcjBlTXpVR2d2R0xEZVVwc2c3eklNYktSMHlNVnRmWnIwSnlRckU3Qmw1ZENUcV82dnQyUXBYaDJyNllhdGkyTldYNkFaUQ",
     "https://www.mmamania.com/?p=470077",
     "CBMiigFBVV95cUxPODdJZTZqMzdST1poUURoWmxIRkx1UGFpeVNydVdkWGRLby1Cc3FPNDkwd2M2czdIZ3NiYi05TzYzRy13a3ZGZ2RsaHJOMzVGdmFYRWt3akFRUk12T1FXNGctZ2dWa1dDa0d4Z3E5TlJsNlJQbVJpdmh4cHR5YmFzdGRreHlzQS1jTkE",
     "CBMinwFBVV95cUxPTmRTRi0yZ1Nsdm9Yb3ZRWTNVQURtOHhDMGw5Zm1NWTEwVi11UTlfaDhvTk5hbkFZcHBrMlhRNUxldm1RX2ZXZlV5OGE2ZUFoVl9hUmFOUHRtcWNmU2hXVDlZaC1zaUVyV3dCYlVXY0pwMmFnbG0wQ3FjYzVRb1V0RHU3c1J6NVVucUZaRzV0WWduNnFuckk1RThERmhBTGs",
@@ -6411,11 +6410,12 @@
     "https://www.sherdog.com/news/news/Jon-Jones-reaction-says-it-all-after-Gable-Stevesons-12second-KO-loss-202867",
     "CBMi3AFBVV95cUxNbHB6YTA3MW1JVFJnLXgxYS00OWladTA2VndQQ1hlM1J2Tm1RSm84UU9MRFdMMTZuLXN1bU1lT2tGQmhabGRaaDZ5MXllTklWVFBnWmFuY2VEQ2pDc1FPNDZJWjlIbVZ4V1NTaHF5OWFkSnJodUdqNXlRYTZUYjE3c29YU0hIXzN4STRublk4WmpMWHJ3QkFEWG83ZXowMnhSYm4xckxGM2dCb1hfVHUxTnJjVkJuOXU1YlFmcjhPOGJkdV9IU3JIMm5MeFpOMEdITzFiaFAzMF9GeEtK",
     "eeed34bb-0ff3-3750-899a-24a8292c864d",
-    "CBMif0FVX3lxTE5nNThwX04yMm40R0dkMkMzdFdfc3RWVzRwTE94UzZEZ3BIejJfVDRoRmE2WjZHeW1mZ1BNaUR6QmdQWWNhOGtJLWJWSGpGRXBnMmNpbnNQNnBQa3ZZM2hpYXltRHdzS1ZCYmZFQ29OOWN2YmtkT0VPSlpuRElObU3SAYQBQVVfeXFMTlg3dW0tYnJqUlBRTjZoZ1dEaUY2a1lPeV84b0xLQ25tcTRCUzJwZkVLd3pOQjRNT1BoNTZabEdqd1k3VGVHT25JYVM0SjZFOGZPWm52VmNiMnFycUN4b3RmRmdqZjBjVlNGaXI1M1Vqc0tlUFF6ZmJ3bTlaVjRFYnhqRUtY"
+    "CBMif0FVX3lxTE5nNThwX04yMm40R0dkMkMzdFdfc3RWVzRwTE94UzZEZ3BIejJfVDRoRmE2WjZHeW1mZ1BNaUR6QmdQWWNhOGtJLWJWSGpGRXBnMmNpbnNQNnBQa3ZZM2hpYXltRHdzS1ZCYmZFQ29OOWN2YmtkT0VPSlpuRElObU3SAYQBQVVfeXFMTlg3dW0tYnJqUlBRTjZoZ1dEaUY2a1lPeV84b0xLQ25tcTRCUzJwZkVLd3pOQjRNT1BoNTZabEdqd1k3VGVHT25JYVM0SjZFOGZPWm52VmNiMnFycUN4b3RmRmdqZjBjVlNGaXI1M1Vqc0tlUFF6ZmJ3bTlaVjRFYnhqRUtY",
+    "CBMi1wFBVV95cUxONFBJSHRYd1JJdEpkS0VUUnNkZVdjWHJheUVQd3d6X1NqUEtaaUhHRkJqZ081SEhGeGk4RmVkU0h2NW9VRDlwUzRsaUVxMjNxc2hjZmVTOXVHUzh3bXZscVJsdGh4a0dMZTlOMU1nTWFGNjdPRlZBTnU4Yk9KZ2ZoYU8tamFSVUxEUzY1dUs5MXZSdWQ2WmY4TWt4Tm4wSkd1bFpSWjNsR1JXV1VXSHRVMlI4aU1YWk1ZaHk4VTUydEZ6OUNmeWZuZGpJcWNjWGNCeGVldlY5OA"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 107,
+    "ai": 108,
     "staged": 4,
     "prio": 1,
     "lost": 0
