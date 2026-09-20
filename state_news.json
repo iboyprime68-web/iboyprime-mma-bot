@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6e8f4a183e304266": 1789883870.1722405,
     "dfbe35c0f0506675": 1789883847.1646867,
     "c1b2e27dbb98cdd5": 1789883823.3674471,
     "7c55025e84e5fd05": 1789883822.777077,
@@ -2498,8 +2499,7 @@
     "a4cba20a5696a102": 1789309334.6579921,
     "ed24dfc16d8433b7": 1789309269.9775035,
     "5a629a608d7903c2": 1789309269.7380311,
-    "01079fb492c3e368": 1789309204.4625056,
-    "0b28459525e9e6d4": 1789309140.181688
+    "01079fb492c3e368": 1789309204.4625056
   },
   "initialized": true,
   "v": 4,
@@ -4789,16 +4789,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T03:20:27+00:00",
       "cluster": "ce3159e92a7"
+    },
+    {
+      "t": "‘The next champion’: Pros react to Arman Tsarukyan’s UFC 331 statement knockout",
+      "source": "MMA Fighting",
+      "ts": "2026-09-20T03:26:53+00:00",
+      "cluster": "c6f0b96d97f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T05",
-    11
+    12
   ],
   "yt_eval": [
-    "d69e5ba7-53eb-3bab-ac23-2fa9bee74dd7",
     "https://www.mmafighting.com/?p=508580",
     "https://bloodyelbow.com/?p=330625",
     "cf15a2b9-5ed9-34ce-92b2-9f93350a8b59",
@@ -6297,11 +6302,12 @@
     "https://bloodyelbow.com/?p=332598",
     "https://www.mmafighting.com/511058/ufc-331-live-blog",
     "dbe06df0-8feb-3ab8-ae81-abd45e847616",
-    "https://www.mmafighting.com/?p=511317"
+    "https://www.mmafighting.com/?p=511317",
+    "https://www.mmafighting.com/?p=511349"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 60,
+    "ai": 61,
     "staged": 3,
     "prio": 0,
     "lost": 0
