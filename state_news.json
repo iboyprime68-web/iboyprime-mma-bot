@@ -1,5 +1,6 @@
 {
   "seen": {
+    "dfbe35c0f0506675": 1789883847.1646867,
     "c1b2e27dbb98cdd5": 1789883823.3674471,
     "7c55025e84e5fd05": 1789883822.777077,
     "9b45e4c71a2ac588": 1789883799.2595778,
@@ -2498,8 +2499,7 @@
     "ed24dfc16d8433b7": 1789309269.9775035,
     "5a629a608d7903c2": 1789309269.7380311,
     "01079fb492c3e368": 1789309204.4625056,
-    "0b28459525e9e6d4": 1789309140.181688,
-    "a3236fefdc59f8ae": 1789309075.1200683
+    "0b28459525e9e6d4": 1789309140.181688
   },
   "initialized": true,
   "v": 4,
@@ -4783,16 +4783,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T02:14:52+00:00",
       "cluster": "cbb72e44b8c"
+    },
+    {
+      "t": "Arman Tsarukyan calls for title shot after delivering brutal knockout over Mauricio Ruffy in UFC 331 co-main event",
+      "source": "MMA Fighting",
+      "ts": "2026-09-20T03:20:27+00:00",
+      "cluster": "ce3159e92a7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T05",
-    10
+    11
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330617",
     "d69e5ba7-53eb-3bab-ac23-2fa9bee74dd7",
     "https://www.mmafighting.com/?p=508580",
     "https://bloodyelbow.com/?p=330625",
@@ -6291,11 +6296,12 @@
     "f86390d7-5510-37a9-95ba-e128e58f11c2",
     "https://bloodyelbow.com/?p=332598",
     "https://www.mmafighting.com/511058/ufc-331-live-blog",
-    "dbe06df0-8feb-3ab8-ae81-abd45e847616"
+    "dbe06df0-8feb-3ab8-ae81-abd45e847616",
+    "https://www.mmafighting.com/?p=511317"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 59,
+    "ai": 60,
     "staged": 3,
     "prio": 0,
     "lost": 0
