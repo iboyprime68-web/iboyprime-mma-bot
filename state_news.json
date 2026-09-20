@@ -1,5 +1,13 @@
 {
   "seen": {
+    "dd1fc2fec76ddfb6": 1789868636.4393754,
+    "0dc3193bc62b34e0": 1789868636.1629193,
+    "cf16055e5efb766d": 1789868636.1573234,
+    "5d58898723319780": 1789868636.1492562,
+    "82af0bcecdacb67a": 1789868636.1412575,
+    "022127c786b7a1b9": 1789868636.1331558,
+    "3f6e54c9ae571fbc": 1789868636.1053832,
+    "272a9ee1e1da53c5": 1789868636.1038108,
     "d2b9033de43f25e9": 1789868571.277042,
     "14e8b834b1441ae4": 1789868570.9835896,
     "e91fd82982bc4ed2": 1789868570.981798,
@@ -2491,15 +2499,7 @@
     "b55b1c761732f733": 1789308759.9401999,
     "034fce2987556260": 1789308736.507989,
     "4343b08a7f7f6649": 1789308712.0094228,
-    "eb3e908c05977e39": 1789308689.0932546,
-    "aff02a0a22955b5f": 1789308661.9487803,
-    "411e1326bc9538b1": 1789293656.093032,
-    "cedd3fbcb6b2d463": 1789293656.092667,
-    "000bd2d94b4966f2": 1789293656.092301,
-    "44d3cd405bae8780": 1789293656.091926,
-    "cb951aaadb53c377": 1789293428.259638,
-    "54c4c8d8501ddb58": 1789293428.2574584,
-    "00dbc6ace4aae3d4": 1789293282.5313365
+    "eb3e908c05977e39": 1789308689.0932546
   },
   "initialized": true,
   "v": 4,
@@ -2527,12 +2527,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-18T02:29:04+00:00",
       "cluster": "c76b4ee2c8e"
-    },
-    {
-      "t": "Opinion: The UFC is on Autopilot",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-18T01:43:37+00:00",
-      "cluster": "cb8cb4d0f75"
     },
     {
       "t": "Van and Pantoja set for long-awaited rematch at UFC 331 in Los Angeles",
@@ -4891,16 +4885,21 @@
       "source": "bloodyelbow.com",
       "ts": "2026-09-20T00:54:47+00:00",
       "cluster": "ca4bd8e8f05"
+    },
+    {
+      "t": "UFC Schedules November Return to Qatar for Fight Night Event",
+      "source": "SuaraGarut.ID",
+      "ts": "2026-09-20T01:34:19+00:00",
+      "cluster": "c8ed7f0746a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T01",
-    35
+    36
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509003",
     "https://bloodyelbow.com/?p=330558",
     "cb1c0dc9-9255-350b-8224-892fb26afd1e",
     "https://bloodyelbow.com/?p=330595",
@@ -6399,11 +6398,12 @@
     "CBMikgFBVV95cUxPdmZ5T1dPcWJJUEU1QXlnbko5RzE5ZW9JUWVXdXBwSHl1cW5hUDFKRnZqNlU5c2dUeGVxOWxFMVpXOUdtTEVTWVV1SVNlbXZNWDgtSWZnOTRxS183bllVTVAyY3lvUnVhblpCeWc4Ykh4Z2laQnZCM2FUTVV3N2RkcVFoNHByUTJWelAyRGpjbDB3UQ",
     "CBMid0FVX3lxTE1QeWxJVXplQTZrQllxMTlXT3RMeS14SXVEajg1dm4wdlRTWV9PMzN0eEd1VXN1S2hMRFFncWxVNWk4RWh6Q0wyYmFWNE1KXy1TSndfc09PNHdLTzFDMldOTlRYZ0laVUNMeE9YRzgydVBsS0lMZkQ0",
     "CBMilwFBVV95cUxOS2tHc2tYQXZrZF9fVlpYYlk2RVhETDNxb2s5M1d6c2dlVk5MV3gtQlRxaWpPb0Q0S05ET09SLW9sZjZHaGdWRWVlYTBUd0tmblFGWU5iY24zdmppaEpZRHBabEZhb0JyQVJLbGhqTDRhY3M0R3I4MkZKTXBhbTBNUmtZLU9OaE54cHpiSWRvZkk5Q2xBTEhz",
-    "CBMizAFBVV95cUxNbG5PbEdIOXJyMGpmSU9Qc2k0OGtrRGJDNlZjUDYtYS1jNmdPTXMwWHoxTDhnN2EwRXM4RVkzQXRPdGdVQ094aDc4bE1uNHdMMmQ3eXpBQXpEVUVleXZ5aG82cE4zdzVNSUctenpqRVM2NVFoRm84aEpDcFVwY2hXdGw0c1dZSlV4REFvSXVSaG9ydXloRDk0NkdjcXl1TWpfX29vRzZWRzlTbXN0dGFFbDRRUDBHcHFJOGNLaHlwYlAyV0pmQmU1ajBtTTc"
+    "CBMizAFBVV95cUxNbG5PbEdIOXJyMGpmSU9Qc2k0OGtrRGJDNlZjUDYtYS1jNmdPTXMwWHoxTDhnN2EwRXM4RVkzQXRPdGdVQ094aDc4bE1uNHdMMmQ3eXpBQXpEVUVleXZ5aG82cE4zdzVNSUctenpqRVM2NVFoRm84aEpDcFVwY2hXdGw0c1dZSlV4REFvSXVSaG9ydXloRDk0NkdjcXl1TWpfX29vRzZWRzlTbXN0dGFFbDRRUDBHcHFJOGNLaHlwYlAyV0pmQmU1ajBtTTc",
+    "CBMibEFVX3lxTFBndGZYZ0dtUEhwdEFkSEpwQ25QTXktRFFqRUV0VTFYZlV5TzdyMjcxLTB0RDBWZFloU1l2eTdVQmgxSUNUTDlFTkh3MnRUb2ZIcHlpZnhGZWdpTkFEVXVqb1NHWU9tV3RqSGlkYQ"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 48,
+    "ai": 49,
     "staged": 1,
     "prio": 0,
     "lost": 0
