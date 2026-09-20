@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5b24de5a9bb17326": 1789883626.5815437,
     "edd7b0447dde959c": 1789883603.271738,
     "dd1fc2fec76ddfb6": 1789868636.4393754,
     "0dc3193bc62b34e0": 1789868636.1629193,
@@ -2498,8 +2499,7 @@
     "b4e6280630faa0e6": 1789308807.2119288,
     "20b60533cdfc1dfc": 1789308783.2446046,
     "b55b1c761732f733": 1789308759.9401999,
-    "034fce2987556260": 1789308736.507989,
-    "4343b08a7f7f6649": 1789308712.0094228
+    "034fce2987556260": 1789308736.507989
   },
   "initialized": true,
   "v": 4,
@@ -4729,16 +4729,21 @@
       "source": "Sherdog",
       "ts": "2026-09-19T22:32:12+00:00",
       "cluster": "c3ff22f2489"
+    },
+    {
+      "t": "Ciryl Gane vs. Josh Hokit confirmed to headline UFC 334 title fight doubleheader",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-20T02:05:05+00:00",
+      "cluster": "c20e8173d5a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T05",
-    1
+    2
   ],
   "yt_eval": [
-    "cb1c0dc9-9255-350b-8224-892fb26afd1e",
     "https://bloodyelbow.com/?p=330595",
     "https://bloodyelbow.com/?p=330607",
     "9a4dacf7-3370-38e6-b99f-bacb7ac77218",
@@ -6237,11 +6242,12 @@
     "CBMilwFBVV95cUxOS2tHc2tYQXZrZF9fVlpYYlk2RVhETDNxb2s5M1d6c2dlVk5MV3gtQlRxaWpPb0Q0S05ET09SLW9sZjZHaGdWRWVlYTBUd0tmblFGWU5iY24zdmppaEpZRHBabEZhb0JyQVJLbGhqTDRhY3M0R3I4MkZKTXBhbTBNUmtZLU9OaE54cHpiSWRvZkk5Q2xBTEhz",
     "CBMizAFBVV95cUxNbG5PbEdIOXJyMGpmSU9Qc2k0OGtrRGJDNlZjUDYtYS1jNmdPTXMwWHoxTDhnN2EwRXM4RVkzQXRPdGdVQ094aDc4bE1uNHdMMmQ3eXpBQXpEVUVleXZ5aG82cE4zdzVNSUctenpqRVM2NVFoRm84aEpDcFVwY2hXdGw0c1dZSlV4REFvSXVSaG9ydXloRDk0NkdjcXl1TWpfX29vRzZWRzlTbXN0dGFFbDRRUDBHcHFJOGNLaHlwYlAyV0pmQmU1ajBtTTc",
     "CBMibEFVX3lxTFBndGZYZ0dtUEhwdEFkSEpwQ25QTXktRFFqRUV0VTFYZlV5TzdyMjcxLTB0RDBWZFloU1l2eTdVQmgxSUNUTDlFTkh3MnRUb2ZIcHlpZnhGZWdpTkFEVXVqb1NHWU9tV3RqSGlkYQ",
-    "https://www.sherdog.com/news/news/Marlon-Vera-ends-4fight-slide-sets-UFC-bantamweight-knockdown-record-202864"
+    "https://www.sherdog.com/news/news/Marlon-Vera-ends-4fight-slide-sets-UFC-bantamweight-knockdown-record-202864",
+    "https://bloodyelbow.com/?p=332548"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 50,
+    "ai": 51,
     "staged": 1,
     "prio": 0,
     "lost": 0
