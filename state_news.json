@@ -1,5 +1,8 @@
 {
   "seen": {
+    "bca7fc4bc55db724": 1789884909.8890269,
+    "c5ddeae1ec462468": 1789884909.4039915,
+    "b9b5d00bc7a1df48": 1789884909.4027915,
     "3dd44efff76e4513": 1789884844.81784,
     "4de9463fea289400": 1789884779.6381466,
     "7af0a421febb26b6": 1789884779.4267807,
@@ -2496,20 +2499,11 @@
     "9add7f225d29cbda": 1789331802.293798,
     "32b15c9359992b76": 1789331778.799568,
     "13963e8d9827e8b3": 1789331755.4043024,
-    "b238b3a6a7111a0a": 1789331729.2019393,
-    "f98202a9c0f5d9c0": 1789322490.0827773,
-    "8c6a7d3a7c96f61c": 1789322466.2627466,
-    "7522845f6fb6c634": 1789322439.9470735
+    "b238b3a6a7111a0a": 1789331729.2019393
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "William Tackett Flames Fans For Not Wanting To Pay To Watch UFC BJJ",
-      "source": "BJJDOC",
-      "ts": "2026-09-18T08:54:05+00:00",
-      "cluster": "c36758b1248"
-    },
     {
       "t": "Covington Defends RAF Title Against Muhammad",
       "source": "boxingnews.com",
@@ -4903,16 +4897,21 @@
       "source": "Sherdog",
       "ts": "2026-09-19T23:57:08+00:00",
       "cluster": "c14c4efdb9b"
+    },
+    {
+      "t": "Joshua Van wins thrilling Alexandre Pantoja rematch after brutal Arman Tsarukyan KO at UFC 331",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T04:27:07+00:00",
+      "cluster": "c350f4f9a2b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    22
+    23
   ],
   "yt_eval": [
-    "CBMinwFBVV95cUxNMXphWFp1alVtajVEdkNqWXVlcjA1dkdJVVVrX0JaNndWQl92S1RjZzB3VTd6a0p4QkpXVjNQamV1ZFBBZElQV0k5aWZPdnViYXBDYkZNSHhKM0FMYklBNVBNdEd6bE00R0NBcnVjRUxLMW9PRW1BV1Q2WTg5UmtCenVITWJzaTg5bHdZN3VoOHc4ZzdjcWRubVJjWUdqNTg",
     "CBMi1gFBVV95cUxQeHl6Q3pRMXk1OVZJSHJjaDZsdDNYUjQzOEV1TmlQQmRNUTBzVzRhVDgzTkFqOFRzSDRCeVlSazFLOV9Ma2Y1d0Yzc3pGUXJaWmFvaTY2UXNGNmF5cUpWdWZoV3VCLUo5WTU5QlNjRHRUMm85SEgtNTJnT1A0QmRpY2pmSWdidS1oQlJEUkN2ZmRvd0VGbGc2OWM0V1N5YkptaUJUekhyNVdiWlJ6YW5GczE3M3hwYjBMXzlGaGNqQmZNQjZ2NEJKekxHU3dwZkR3RDNNb2RR",
     "https://www.mmamania.com/?p=470015",
     "CBMipAFBVV95cUxQNmNzUHRDRGFkVEVZMC1TMDcxblc5Q2tqaU1GOFRtVmxCcE5Yd0IycVhmV09iSlZzWjlTUGUxV1hlOWx2eXNKTzBQVGxFTkRyLThOUHJvYnFwanNWU3FIV2dmamszM0RKbHNmS0Nsc1dXbkwyZC1BZnhzSmVmVWpDSnc1djFxd0NMXzRydVhKcFRqS0piNnNmSnUzNi1FVEFaS0JSMA",
@@ -6411,11 +6410,12 @@
     "https://www.mmafighting.com/?p=511535",
     "52850c6b-bb69-3820-8c6e-ac5c17ac4ab9",
     "09c3d4e5-d19e-37d2-997b-df035c86e067",
-    "https://www.sherdog.com/news/news/Joshua-Van-Carves-Up-Alexandre-Pantoja-to-Retain-UFC-Flyweight-Champion-at-UFC-331-202851"
+    "https://www.sherdog.com/news/news/Joshua-Van-Carves-Up-Alexandre-Pantoja-to-Retain-UFC-Flyweight-Champion-at-UFC-331-202851",
+    "d2d85494-0bf3-3bcb-99af-389c11539be1"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 88,
+    "ai": 89,
     "staged": 4,
     "prio": 0,
     "lost": 0
