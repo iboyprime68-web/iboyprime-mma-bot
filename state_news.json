@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3ce9e410b7fadacc": 1789884715.3477046,
     "d319c343d2e0df10": 1789884670.9377031,
     "343f6481858fba2f": 1789884647.7098224,
     "f356525d7273e98f": 1789884647.3866425,
@@ -2498,18 +2499,11 @@
     "7522845f6fb6c634": 1789322439.9470735,
     "2682be270e9fe30c": 1789322416.638737,
     "e173ac327d5c5dd8": 1789322392.8283684,
-    "53801986dbd29efc": 1789311616.8678071,
-    "e6ca9b23c68ed39b": 1789311551.9777052
+    "53801986dbd29efc": 1789311616.8678071
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Topuria Cleared To Train, Calls For Gaethje Rematch",
-      "source": "boxingnews.com",
-      "ts": "2026-09-18T08:27:54+00:00",
-      "cluster": "c92634087bf"
-    },
     {
       "t": "UFC 331 Embedded Episode 4",
       "source": "MMA Insight",
@@ -4903,16 +4897,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T06:10:30+00:00",
       "cluster": "c4cfe475b03"
+    },
+    {
+      "t": "'50-45 is crazy': Fighters react to Joshua Van's UFC 331 title defense vs. Alexandre Pantoja",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T04:08:31+00:00",
+      "cluster": "c017ab59727"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    19
+    20
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=469927",
     "CBMickFVX3lxTE0yYy1iZlJSdi1xemdMSHFIdjdXQWpSb1RpQkIxSF95ZDVvWjdkVkFia1hRQzdreXBkM1JUT1BhUk15ZUZPWXpRR3F0UmlPOXhnaTZkSDhFcXFIQWQ2aHhfVXpQM1RaT2NudjR6My1OZDRtUQ",
     "CBMi3wFBVV95cUxQRHoyV3NWT2RnZTZOM2pGbjVoM2pBaFRkam1YQXl4bDBkWEV5WmVadXNMemtEekhYdGhTaUlISmJ1T3NQa2JGMjN5MGd0cnhrNmFYcElJbzQ4MzI4ejVOZXR2WjlDVG1mRko4allrbnhZUmE4di1uSWl2V0hyd2ZJLTZrbnZ0dFpMcWI3ZVE0US05bnVibWZjV05zUmMxeE52YjB3VmU5a1ptVDh1d2xFYlgteG1wOEV0clAtWDNhbnh2dGFfanh6d3hqVjlBSGJNMTZVZDRnMEk5WkREbkgw",
     "CBMinwFBVV95cUxNMXphWFp1alVtajVEdkNqWXVlcjA1dkdJVVVrX0JaNndWQl92S1RjZzB3VTd6a0p4QkpXVjNQamV1ZFBBZElQV0k5aWZPdnViYXBDYkZNSHhKM0FMYklBNVBNdEd6bE00R0NBcnVjRUxLMW9PRW1BV1Q2WTg5UmtCenVITWJzaTg5bHdZN3VoOHc4ZzdjcWRubVJjWUdqNTg",
@@ -6411,11 +6410,12 @@
     "https://www.sherdog.com/news/news/Sean-Sharaf-shocks-Gable-Steveson-with-12second-KO-at-UFC-331-202866",
     "177977e3-af4b-3d34-9567-523d0b956930",
     "ac275619-bdf3-3de5-9911-182bf774f48f",
-    "https://www.mmafighting.com/?p=511535"
+    "https://www.mmafighting.com/?p=511535",
+    "52850c6b-bb69-3820-8c6e-ac5c17ac4ab9"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 85,
+    "ai": 86,
     "staged": 4,
     "prio": 0,
     "lost": 0
