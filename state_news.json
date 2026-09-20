@@ -1,5 +1,9 @@
 {
   "seen": {
+    "f9d6a833babdd517": 1789867724.648198,
+    "cfa335c8f84151a2": 1789867724.089599,
+    "116827eb0b6a4c64": 1789867724.0879626,
+    "9b81aadc16e071a6": 1789867724.0867445,
     "5fdb59e2caff64bf": 1789867659.246716,
     "2fea7b06536c776d": 1789867659.2415454,
     "8a25f3a1b3660edf": 1789867659.2174582,
@@ -2495,11 +2499,7 @@
     "7f163d148e05af99": 1789292185.8932009,
     "af59919be6ca985a": 1789292158.9964557,
     "7cdf7c852b83f9b2": 1789292088.6597562,
-    "89c38b7098583bef": 1789292044.2464354,
-    "2c39c049b68c4399": 1789292021.2249587,
-    "98b176c78aaa925f": 1789292019.9226696,
-    "9c18487142e1d4ec": 1789291990.813374,
-    "4c46debf753bb269": 1789291990.5269578
+    "89c38b7098583bef": 1789292044.2464354
   },
   "initialized": true,
   "v": 4,
@@ -4849,16 +4849,21 @@
       "source": "UFC.com",
       "ts": "2026-09-20T01:18:02+00:00",
       "cluster": "c0e4a40eb14"
+    },
+    {
+      "t": "Marlon Vera def. Charles Jourdain, UFC 331: Best photos",
+      "source": "MMA Junkie",
+      "ts": "2026-09-20T01:23:00+00:00",
+      "cluster": "c0d6c2cbf54"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T01",
-    27
+    28
   ],
   "yt_eval": [
-    "CBMic0FVX3lxTFAzVmMzbVpXdHlVZFdKbXl2anM0Y0tpdzdfcHdWaEh4QTJsX2NlaUZldVZWcENWQ3lVUU9YdGVtZkRRY2xSRXBqX092MVBQTjUxVlNzZlpWQi1sSGNMNlNVRW8wZE9pNndLeFBrQlhKcUd1YU0",
     "https://bloodyelbow.com/?p=330562",
     "https://www.mmafighting.com/?p=508980",
     "https://www.mmafighting.com/?p=508977",
@@ -6357,11 +6362,12 @@
     "CBMilAFBVV95cUxQaHRYWkZuai1aYjFqcW5FVGxrVDM0SzEwRlpYamFGNmNmSUFBNFM3WFZETUpKMzRrb1J1ZVg2WUpSbVg5X3pVM1lCaWcyQkMzTEpvZ1FxeXRWN28xUXFFTk1lTzRQZ2drMXhCNXVrMGpvQkZiTjhRbFpXZHNWUjMzS0tyQ0FLUnY5aGxmbHNJMm5Nd0Z3",
     "CBMinAFBVV95cUxOVUYzenlLclJjNmxiVXltQzdzS1BYd0JzSnU4SHlSaWx1bWR2VHRKaUF2dS0tZ1BTRlZJdzFmLWM1WHRmSG42emhTeGtSN2NKSTJ3QVhTekZhbzV6NnJfUWxnZUlZY1hYNjZMMHpvbEtkbGpSOVk2ZGNMeVpuWnFldkpGRDJSUEZPek1IRHFWdWNYbWtpSFhzR1RBQXo",
     "CBMiwwFBVV95cUxNUWkycmZMVjZvck1hamVFSHUtTFdacXNsZ2hucWNfNlZFQW55YVhkd2hyVkUtSGZLTVl2eThOY25fbFdqNzlWLU1JMHVDb2tjYmpOR2JEOHZUM2xITlh5NDFpcXUtcFE0TzkzbEQ1dnJmcV9qOHpsZC1KekJQa2Nub0FONGYzLWNIMlpLVWlFejdQOU9DazI0ajYtS09Gdjd4bjRfSEpWMDhpMlFGUUJOTXBETGZ3cVMtNzhleGNPQV9zcUE",
-    "CBMiR0FVX3lxTFAwZFZfQ284bkFsTG1GUVdWYlRsS1doQUl5VmRwREw4TmExUmFHLTJpZ1hqaVFLUXR2WGRSOV9qejZKdjJIRHAw"
+    "CBMiR0FVX3lxTFAwZFZfQ284bkFsTG1GUVdWYlRsS1doQUl5VmRwREw4TmExUmFHLTJpZ1hqaVFLUXR2WGRSOV9qejZKdjJIRHAw",
+    "CBMi0wFBVV95cUxQQm5ncng3SkFjbnI1dWFBTGkyQkt3WXdHM1lvZ2ZXRDhsSzRaTTNUMmwyVDVEQjBENGVJN1N3cjMtNWNtX1IyVG00LXJNSGFIYmZPamFjcVZRdm9keWRnRXZ5cXhlSVBTUDlGY2FrSU1OSkQxdnlvWFc1VTBEdGI5b3RnNHF6Z3VBQlR6NC1pZnAwb3ZNLW5tMk02SWtfaFc4RVJiNGJmVjNRTEw5MjdHNzh5bUhqdG1CdlludjVGcTZKN0JjZmktMjVKckRYYmdUbWpv"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 40,
+    "ai": 41,
     "staged": 1,
     "prio": 0,
     "lost": 0
