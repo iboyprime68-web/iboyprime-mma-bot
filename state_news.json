@@ -1,5 +1,6 @@
 {
   "seen": {
+    "469f6d94d38c3b9b": 1789884385.109926,
     "974ec1e46e1c758d": 1789884320.4601252,
     "5e9ed93ea8cca2cc": 1789884277.355965,
     "35131420ab3edea5": 1789884277.3539882,
@@ -2498,8 +2499,7 @@
     "c457a5f28b35520f": 1789310250.2380784,
     "995320ecb97e4ff7": 1789310187.1458747,
     "159485f04adf99b0": 1789310123.564023,
-    "dd6a5382cfa8fd2e": 1789310059.6189177,
-    "7a8163da09c03b8b": 1789309994.9730737
+    "dd6a5382cfa8fd2e": 1789310059.6189177
   },
   "initialized": true,
   "v": 4,
@@ -4897,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T03:09:37+00:00",
       "cluster": "cf17a18eb94"
+    },
+    {
+      "t": "'Next champ': Fighters react to Arman Tsarukyan's KO of Mauricio Ruffy at UFC 331",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T03:13:47+00:00",
+      "cluster": "c0119c5d572"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    12
+    13
   ],
   "yt_eval": [
-    "7f274117-92f8-3cdd-a280-df593f9b5e74",
     "313ff51c-257f-30b9-8547-89c5dae8fc26",
     "https://www.mmamania.com/470055/open-thread-september-5-2026-wes-anderson-genius-or-nah",
     "dc4cc3f0-f3b8-30af-af9c-24a1f772b005",
@@ -6405,11 +6410,12 @@
     "https://www.mmafighting.com/?p=511486",
     "https://www.sherdog.com/news/news/Alonzo-Menifield-fought-through-gruesome-thumb-injury-in-UFC-331-upset-202865",
     "ac3721a5-272b-47f4-8fad-1dc22a988237",
-    "bfdc587e-469a-31bf-b00f-1c7925c44b14"
+    "bfdc587e-469a-31bf-b00f-1c7925c44b14",
+    "4a83d631-2c6d-3ffc-a671-a0c1f105831e"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 78,
+    "ai": 79,
     "staged": 4,
     "prio": 0,
     "lost": 0
