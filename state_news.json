@@ -1,5 +1,7 @@
 {
   "seen": {
+    "ffb2bb3f120b89e0": 1789886224.3280437,
+    "46abbed277611124": 1789886223.8636916,
     "da150619b721bd3c": 1789886160.0566204,
     "a17deb7e38b7abf1": 1789886091.5739024,
     "d108e691e47145f4": 1789886091.3061745,
@@ -2497,19 +2499,11 @@
     "e17d5a4f40e9ec0e": 1789333249.3984256,
     "625002975bb0ec56": 1789333225.9550602,
     "95fda5e8fb8d3505": 1789333038.0539424,
-    "8490b85bd7078d10": 1789333037.8144019,
-    "76c8030780407519": 1789332974.2220032,
-    "122b5414434e0bc8": 1789332973.8651853
+    "8490b85bd7078d10": 1789333037.8144019
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Aaron Pico gets new opponent in Abu Dhabi for featherweight bout after Arnold Allen withdraws from UFC 33",
-      "source": "The Times of India",
-      "ts": "2026-09-18T12:58:00+00:00",
-      "cluster": "c58a3350eb7"
-    },
     {
       "t": "Arnold Allen Pulls Out Of UFC 333 With Injury",
       "source": "boxingnews.com",
@@ -4903,16 +4897,21 @@
       "source": "MMA Junkie",
       "ts": "2026-09-20T05:38:21+00:00",
       "cluster": "c19af08797a"
+    },
+    {
+      "t": "UFC 331 Highlights: Arman Tsarukyan at Mauricio Ruffy Stream of MMA",
+      "source": "cbssports.com",
+      "ts": "2026-09-20T05:40:44+00:00",
+      "cluster": "cf6a93c331b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    45
+    46
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxPTFJQS0lLUnJ2dlAxVGV3aDd4Mmdmejd2UUpYcThYdXdIN21RN2dZdTdPZGpjX1pjd0taQ3lWQzhubkNtdUJuYmpmWUxGQ3gwcjZTM2JfbE9Yc2RhWnRzblRWMzAxNURBRk1KRWN3WWl3R2RGdlhCajJhUGl2OHhVVlBSVS16d0N0T01QZnJoa2o0d2ZMMF8xdWtWcENTZUYx",
     "CBMivwFBVV95cUxPMkN1bWkybXF5TF9jeVlYcWY4R21vRFlrOENxUl8tOWFOV3lHTWRwLUtHZ20zZDRnZHNuZk5wWmFBV3VJQmZWd3VRUE5VV2JrQTJJSzhoLThmdHpKUm9VV1RlVzk2YTdBZ3Z3ZjRiaUM4alptYzY2b1pqSThxUjFHb1BsbWREZE5PdHdRZ1hhSVU3Z2M0cWpiVHFGaERwdmt0YXRERzUxX2RtWGNsajdBbWdwUWRGcjUyRHR2YXQzUQ",
     "CBMivgFBVV95cUxNZ0U5TlQ1MXdRcGJZa2ZuSEUydWMwazFScXc4WTRvZVdjUktlWHlrd3FyN1JxZXY1ZExaMmlnZ2gweW9RTkJFRk5Rb3hmWkF1T0FoRkEyYzJiRXJmd2VaaklMV3h2R09DTkFHbWZuRHJidzRKRmpBNG1ZXzdNby1iSk83NkN3LWVZS1pPeDhyRzRscGhuQjhVSWV5LTN0cEpCMmQtTnlhOGVkellGU3BjRnFsaDVpcVpDdEFxYWNR",
     "https://www.mmamania.com/?p=470131",
@@ -6411,11 +6410,12 @@
     "CBMi1wFBVV95cUxONFBJSHRYd1JJdEpkS0VUUnNkZVdjWHJheUVQd3d6X1NqUEtaaUhHRkJqZ081SEhGeGk4RmVkU0h2NW9VRDlwUzRsaUVxMjNxc2hjZmVTOXVHUzh3bXZscVJsdGh4a0dMZTlOMU1nTWFGNjdPRlZBTnU4Yk9KZ2ZoYU8tamFSVUxEUzY1dUs5MXZSdWQ2WmY4TWt4Tm4wSkd1bFpSWjNsR1JXV1VXSHRVMlI4aU1YWk1ZaHk4VTUydEZ6OUNmeWZuZGpJcWNjWGNCeGVldlY5OA",
     "https://www.mmamania.com/473405/highlights-open-ufc-331",
     "CBMihAFBVV95cUxPUDRwb3JvMFRjbFBEcnhrVnBKeUZQUjF5VzNmd3FqbEFqQUJPZ1RyQjdOT21FVWFWOXRXclJXd2podnFZUi1XOUtZNU5TcWhKRkpvdWZlT0tHWHR0MWJDN1FOTjRnekxaWXhMMmNoNEVkQWtsWnlsVzRTZ2NuUDBuTlh6TGQ",
-    "CBMi1AFBVV95cUxQOUw0eFNyenNYeFY4aktlcXEzU1ladm5XVDYzQ2dwbzMwanJHX2VrZGNsbVRkNkJWejdiWVY0Q0NFSXFQZUJOcUZHSEtBMUhRNzdNOHR4bGtUY25sVUMxWGpiQ1dWR25uQU9RR3dwVGIxYV9FUW03Q0dYMURZM1VTZmxUT0xhT0dXZlc5blozc1c2VXdqRmZfTE1CcV9lY3c0R3pBdllVN2l1RkJwcXlDT0J1QnFSaHRZYlhveDZsYXlYRWl4aHdER2d3a0hiTkNucE1Tdg"
+    "CBMi1AFBVV95cUxQOUw0eFNyenNYeFY4aktlcXEzU1ladm5XVDYzQ2dwbzMwanJHX2VrZGNsbVRkNkJWejdiWVY0Q0NFSXFQZUJOcUZHSEtBMUhRNzdNOHR4bGtUY25sVUMxWGpiQ1dWR25uQU9RR3dwVGIxYV9FUW03Q0dYMURZM1VTZmxUT0xhT0dXZlc5blozc1c2VXdqRmZfTE1CcV9lY3c0R3pBdllVN2l1RkJwcXlDT0J1QnFSaHRZYlhveDZsYXlYRWl4aHdER2d3a0hiTkNucE1Tdg",
+    "CBMinwFBVV95cUxNbW5MTTVDLXZKLW9hXzdIdGNxREpLd21hTUZ3VGVPQ1JPSWhFdEhDUW8tazhNY1VQaDFzNlg0eTN3cVdtZDJCbk1SX0l3QnpmZEJrbGxJZnNpNVV4UmZMLXkzdlYtRmNuektVQXc0b3p3NFg5VGNQMkQzb1lLbDEzd0VqNURIU2J1ZHpFYi1kVjNqUHd3VXRqdnk4TnRjQjg"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 111,
+    "ai": 112,
     "staged": 5,
     "prio": 1,
     "lost": 0
