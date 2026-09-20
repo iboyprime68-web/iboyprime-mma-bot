@@ -1,5 +1,7 @@
 {
   "seen": {
+    "9d9a5ed5fac853c3": 1789865466.6643326,
+    "d267e0bd5c8ae9e3": 1789865466.309825,
     "60da504712cbd51c": 1789865438.12961,
     "db2598fcf3254b1a": 1789865414.6695907,
     "dd73db6ff247457e": 1789865391.4047377,
@@ -2497,9 +2499,7 @@
     "515e8ce2b09170d3": 1789229297.8979592,
     "a00ddebcba688793": 1789229273.183629,
     "d6d7d078882b163d": 1789229250.1738276,
-    "1bdeace9c90f68f0": 1789229227.2115877,
-    "79a258b0ee2ff458": 1789229203.562151,
-    "17070d18509ee918": 1789229180.2544143
+    "1bdeace9c90f68f0": 1789229227.2115877
   },
   "initialized": true,
   "v": 4,
@@ -4657,16 +4657,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-20T00:36:53+00:00",
       "cluster": "c64fbbb6e18"
+    },
+    {
+      "t": "UFC 331 video: Ryan Gandra targets Israel Adesanya after another KO",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-19T23:29:55+00:00",
+      "cluster": "c68ebf02ed8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T00",
-    3
+    4
   ],
   "yt_eval": [
-    "809a3381-88c9-319d-967e-db1c0940ad7a",
     "a241d5fb-50ef-341e-a9dd-b7be893399d3",
     "5a8a9f92-592f-3cee-845f-e3a66d1893be",
     "https://www.mmamania.com/469580/highlights-open-ufc-paris",
@@ -6165,11 +6170,12 @@
     "CBMi1gFBVV95cUxQQzdmeFhNano3NG9URHNsYnAwNU9DTnhhclR2Z2cxamNRNDc3VzJGT1hES284S1BUQzV5ZHJ1bEx5Yk12RllqZWZxZGV3bldtanc0TVQyTFItREIzcjZlTW5rQjJXZUdQSTN0bmNuOXVuaF9odXNXOTEtZGhfcE9RWm1iRmE2TnpDcWtWLWRhR2dvQVRqdGVxaV9EVlczZ0dNRTBiXzhWLTZUNXlyYmNHUlBOY2pmSm5oVlVQVkJMZzB1WDFHQ2VPMGh0bnpVX1dHejB5ZUVR",
     "https://www.sherdog.com/news/news/Joanderson-Brito-says-coach-predicted-Giga-Chikadze-slip-at-UFC-331-202861",
     "https://bloodyelbow.com/?p=332477",
-    "https://bloodyelbow.com/?p=332483"
+    "https://bloodyelbow.com/?p=332483",
+    "0bb7e096-8588-312b-8ac0-ae3767c039ee"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 3,
+    "ai": 4,
     "staged": 1,
     "prio": 0,
     "lost": 0
