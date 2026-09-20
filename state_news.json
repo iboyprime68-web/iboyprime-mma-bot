@@ -1,5 +1,10 @@
 {
   "seen": {
+    "0be39d77802c5144": 1789865868.134177,
+    "1d97703cc4a749de": 1789865867.7925217,
+    "0f9403c401b2a983": 1789865867.7714503,
+    "e93be3c65c94df7b": 1789865867.7698162,
+    "838272577389c6e4": 1789865867.7673616,
     "64ef2a4afdb502ec": 1789865802.4355006,
     "293cc3c91b4a4d35": 1789865802.0629504,
     "5f2cc7f1ac78dc26": 1789865736.6309316,
@@ -2494,12 +2499,7 @@
     "de267a9c64d125b3": 1789229887.6893475,
     "9f4c721f161f2ee5": 1789229887.688124,
     "8beb3d86d71b64ed": 1789229823.4969494,
-    "99e1b4d6eb3e17be": 1789229822.808474,
-    "a3d89f5a447453b4": 1789229779.1425977,
-    "d1bbcd180434af8f": 1789229755.6917326,
-    "4e8443dd2e2463a1": 1789229691.5228722,
-    "9d2afefa6c86082b": 1789229691.210514,
-    "554794d73f032f88": 1789229691.209786
+    "99e1b4d6eb3e17be": 1789229822.808474
   },
   "initialized": true,
   "v": 4,
@@ -4699,16 +4699,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-19T23:08:40+00:00",
       "cluster": "c4c98bfdfa7"
+    },
+    {
+      "t": "𝚆𝙰𝚃𝙲𝙷 UFC 331 𝐋𝐈𝐕𝐄 Ｓｔｒｅａｍ Ｆｒｅｅ ＯＮ Ｔｖ Ｃｈａｎｎｅｌ!UFC™",
+      "source": "jacksoncountypilot.com",
+      "ts": "2026-09-20T00:07:21+00:00",
+      "cluster": "c080ef7f6af"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T00",
-    10
+    11
   ],
   "yt_eval": [
-    "72b8c5ca-9d22-3aae-9c03-e4f2a6c16143",
     "b9788915-a25d-37cf-8ab2-ba1c2e8aa74e",
     "https://www.mmamania.com/?p=469562",
     "25e62073-ddb4-3cda-980c-bfb28f2aa03d",
@@ -6207,11 +6212,12 @@
     "CBMiigFBVV95cUxNLXkwYURtMUZCek14RzRQZHZHa3Y1WVV5Q1A4c1E5bU0zMDNObTR3TWFPdUFtamZYOUk5OWViOVRySW5TSW52dWdBVktWYmt3VU9QcG8xM1JMWllFNmp1bHE1VWtsLVhzeDVlU2ttdUR4aU01QldzTS1HcWI4ajhhVXkzZUx1bG9fNUE",
     "CBMiygFBVV95cUxNVUdISWhSZWJEbWlLSUl6MkdnZm9JOTI4T0tFYV9kMUU2eHR6ZHVNdnU0TjhiMFBhREJ4WWxaWVlWUjRvTmoxM3hVdHlvTnhvNVljelBNRjFKSVozakZudGw1ZzMyaWZjUUxrZklydTFjSENRelpZd29FYkVBTHVfQ2dUTUZRU3g5MXVpVlFibmduRktOQk4wYmstM2dHYUlXS3pndW50LTd2b0ZMd19pNlptc0lMdHVOTE1ETXVObVFQQWIwRS01SG53",
     "CBMiUEFVX3lxTE5ZcjdJZE91QVFwM0FiTHBvT0tWLXFRLUI0MWJ3akFIMXVrWE1qeXAtdTdwOHg4djZhMUNKaXVtU1NleVljSC1hVUFzU2FqMlNu",
-    "6921ebfe-b35d-31bb-86b1-86a1427bf80d"
+    "6921ebfe-b35d-31bb-86b1-86a1427bf80d",
+    "CBMi4wJBVV95cUxOaUs5RWJqMXZtcGN4N2JMeDAyZVRkamIyV2FsTDFFcUZrM0VKWTBLZTdhakVQVmxRUktYWE1qVWtRRlYydEQyYTMybGdOdWhtMGFXbVlIZmhqaW5yXzJrbDhKaXRPblB1VmVkYVRiVEJIcUh3bEJoQWhmLWh0bDB5b21vSkJWZDZOUk55ZFhKRHlaM3dnZUR5ck55WDg3bnFvbGZOSTM5YjE0SFlaU0MxbUJ1RGM4dVdBa2RJRXN1SFo4R0FyUUlrQnNEdVAwZ0E2XzY5aGNyaGJXeWl0NFl4ckZJRzBHQ2d0NjZMaXNJeFdxbzQyNWl2LWRHTkxnWkUyNENEOVBJWTExRzN1Z3VnZEJCekx2TUk5eGpOQ3hBVUtKVXpBRWcydWZGR1ZkOFBLdHc2WGlhMGhBbHNfYjFNbmN4R1dwNVhMNHVGYjVsRm5jVFVXZXExOWZiWi14dWZXSjVV"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 10,
+    "ai": 11,
     "staged": 1,
     "prio": 0,
     "lost": 0
