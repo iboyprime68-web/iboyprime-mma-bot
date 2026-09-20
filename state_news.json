@@ -1,5 +1,7 @@
 {
   "seen": {
+    "6655c94ecc01f586": 1789948699.0273297,
+    "272ef716caa6ac6d": 1789948698.6564157,
     "fd63692ba0e131ff": 1789942214.7150354,
     "18d8a1f537a5c63a": 1789942150.9702508,
     "64d852802b4fc0e4": 1789941903.7919478,
@@ -2497,9 +2499,7 @@
     "4ba79efb6b0c986f": 1789436737.171335,
     "d6f1c66b0fd119b8": 1789436483.7326262,
     "da749be7d0994efd": 1789436412.896708,
-    "fd77bb7a33d2d86e": 1789436285.7899652,
-    "36a435bbda3452ec": 1789436285.7881122,
-    "ced1b1307503d3a4": 1789436152.3393526
+    "fd77bb7a33d2d86e": 1789436285.7899652
   },
   "initialized": true,
   "v": 4,
@@ -2779,12 +2779,6 @@
       "source": "Yardbarker",
       "ts": "2026-09-19T13:24:35+00:00",
       "cluster": "c0f951a60ca"
-    },
-    {
-      "t": "UFC 331: Van vs. Pantoja 2, Tsarukyan vs. Ruffy live stream watch party",
-      "source": "MMA Fighting",
-      "ts": "2026-09-18T23:34:35+00:00",
-      "cluster": "c6bd3d555d2"
     },
     {
       "t": "Paths to Victory: Joshua Van vs. Alexandre Pantoja 2",
@@ -4903,13 +4897,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-20T21:09:42+00:00",
       "cluster": "c6bf8eaec8b"
+    },
+    {
+      "t": "Alexandre Pantoja channels Rocky Balboa in emotional statement after UFC 331 loss",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T22:50:56+00:00",
+      "cluster": "ce3d42c4115"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-20T22",
-    3
+    "2026-09-20T23",
+    1
   ],
   "yt_eval": [
     "CBMitAFBVV95cUxOWm1IYkh3cWtNM01sdDZoSThLbW9rRzNoZmNhd3Y2NzhkbkJ1clg5VWszWEN5V0dMdjZMQVYzSmFyRUJmRGQxTFQ3MGdqV3VGTlBKbW9qVklxcUVtYWJORGE4TlJxMy1NX0d2c3RLT0RTWTc3VnphZzRfS2hBQzc2N2lYTkVwZWdGQ1RXNVN6TTdzRGxZLWZqT25ZZkQxYWtFS21vbV9hazhOQW00S1ZoN1RkLW8",
