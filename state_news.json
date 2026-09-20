@@ -1,5 +1,9 @@
 {
   "seen": {
+    "1e995c379f7275a1": 1789866664.850843,
+    "5a78975633157435": 1789866664.2815232,
+    "e643b1956d385411": 1789866664.280051,
+    "d7ea4d46ad93a3db": 1789866664.2560525,
     "cf60a023ea44e3ba": 1789866598.6916263,
     "8c0979283770179d": 1789866598.40869,
     "5cc836602c933202": 1789866598.3858502,
@@ -2495,11 +2499,7 @@
     "a94aeaa92885b754": 1789248930.2108326,
     "2929dd9cce97560a": 1789248865.778634,
     "56e9eb38f1a4bd2d": 1789248821.7035313,
-    "3cf9bc8611792c94": 1789248798.2830515,
-    "176cd98f571dc211": 1789248732.6868582,
-    "4722d59bd7c11762": 1789248667.5157986,
-    "573e0d0ac707737a": 1789248603.0960867,
-    "bd0e0d546ca13626": 1789248538.7167976
+    "3cf9bc8611792c94": 1789248798.2830515
   },
   "initialized": true,
   "v": 4,
@@ -4777,16 +4777,21 @@
       "source": "Sault Michigan News",
       "ts": "2026-09-20T00:44:18+00:00",
       "cluster": "c561a48c7f1"
+    },
+    {
+      "t": "[>!Here's How To Watch]~Reddit UFC 331 Ｂｕｆｆ𝐒ｔｒｅａｍｓ Ｃｒａｃｋ𝐒ｔｒｅａｍｓ 𝐒ｔｒｅａｍＥａｓｔ",
+      "source": "The Albertan",
+      "ts": "2026-09-20T00:44:21+00:00",
+      "cluster": "c8a17b74d9f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T01",
-    11
+    12
   ],
   "yt_eval": [
-    "b76984ad-b090-3d51-a232-600279024755",
     "fe7544f5-1d8b-32e3-ba16-0474a1962c13",
     "https://www.mmamania.com/469586/bonuses-open-ufc-paris",
     "b2ffe328-735a-3acf-b320-b8b22188c137",
@@ -6285,11 +6290,12 @@
     "CBMilwFBVV95cUxQT2dxa1Q4WEZuUWNXMTYxQ01RcDRNQVNMQ25qemQzcFZjU2locjZhN0Nkbm1OTlBKdlFwZjRPcGJmUTB0U2xRSjI5WmloeXpQeV9jUGhKbVRPZDJSREFhWndBYTloR3U1NkIyWEtvSTdhRFFaU2E1Rnl6WmozREJWajdKek9NTFk2OG1uS25yVk5fc2k3am5v",
     "CBMixwFBVV95cUxOQ3hMRk43bk5sVmprVEw5RmVfRHY1LTRmcFRBY0cxMW1zeElUbXZrOTZlRDZOLV8zNWo2VGlySmhoZlItdlNxZVRrR3luWUd4ZF9UWVJ2VTF2U0MySWhHZXR6RGZGbVBfUUFjX3B0M3FTZTJpU0JPNWM3aVFQRm9zUndSNnVYNzlQT3E5cUYtQ085T19iQTMyemNCSzFXVHA4ck5nNF9xcUE2dGJFZWpUcFl4QzNNN0pnbENyUEk3Ty11Q25udDZV",
     "CBMijAFBVV95cUxOdVVtdVdNMWI4ZllSYWRwdE05Y19oSzBCajFtdUhvN3NZRUE1NTA5MG1qSzROYjExTzB5ZFppUGhpMFhEMlYzTlVjcDVhNnNSVnVDTkh6NFJ6NzBZTTM4NEhQOGJlX2lPTmV5My1ucm5VdzNGY1plazBhY3pvUF9mbVhhZWRIc2toQXdKWA",
-    "CBMieEFVX3lxTE9idVhoWkkzRmpiQXdSTUhDeWU1RlMyam5lQkdnV3VfTXBlbHUyRVJDVGh2NHZ6ZHZkUlhCMXFsZENzNC0zV2ZsZ2kwdVg3cHNmXzdpd19menZ6RW1RVXMtakU2d1c1a3hmSjJRUnRldXRpU1ZtNzNiMw"
+    "CBMieEFVX3lxTE9idVhoWkkzRmpiQXdSTUhDeWU1RlMyam5lQkdnV3VfTXBlbHUyRVJDVGh2NHZ6ZHZkUlhCMXFsZENzNC0zV2ZsZ2kwdVg3cHNmXzdpd19menZ6RW1RVXMtakU2d1c1a3hmSjJRUnRldXRpU1ZtNzNiMw",
+    "CBMikgFBVV95cUxOYUFwb2FxMWdHQ0xlQ2F6Q1FyN3FHY1Qya0J6VHBXRHZzMFc0RU5BNWpBVDE0alF0alo3V2JUNmZBbjlPSlB5UzdCVl9UaUZCWG1OTFVFdC1sNkNiYnBFS1pwaFJyaHVqanVmSS1IU1JtYmhneGNla2h4eEx2VG0tWVF3czYxaEtsb2tpSHp6UFQ0dw"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 24,
+    "ai": 25,
     "staged": 1,
     "prio": 0,
     "lost": 0
