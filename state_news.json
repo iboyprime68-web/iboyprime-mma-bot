@@ -1,5 +1,10 @@
 {
   "seen": {
+    "5f2cc7f1ac78dc26": 1789865736.6309316,
+    "2c029fd51cf4a227": 1789865736.183237,
+    "d1cc7206fb30956b": 1789865736.1829445,
+    "2c383c71a6d2b5e2": 1789865736.1826727,
+    "f331faf6cc9b6337": 1789865736.1822321,
     "89f5c80106e952c5": 1789865692.0564926,
     "6956a9accede35fc": 1789865692.0359333,
     "4192bbcf5b4c04bf": 1789865668.2222264,
@@ -2494,12 +2499,7 @@
     "9d2afefa6c86082b": 1789229691.210514,
     "554794d73f032f88": 1789229691.209786,
     "4e002e3a1abb992f": 1789229691.2067695,
-    "55e9b393a899b7c0": 1789229691.2064648,
-    "8b934bc482352825": 1789229626.2529964,
-    "20ccb72cd32e39c0": 1789229626.0523612,
-    "5a7a85ecbb78d173": 1789229626.0491188,
-    "4add0a7bd0da4e54": 1789229562.3504107,
-    "e80ff72187ebe277": 1789229561.6859381
+    "55e9b393a899b7c0": 1789229691.2064648
   },
   "initialized": true,
   "v": 4,
@@ -4687,16 +4687,21 @@
       "source": "MMA Junkie",
       "ts": "2026-09-20T00:00:00+00:00",
       "cluster": "cea694f3261"
+    },
+    {
+      "t": "\"Zombie Jr.\" has been mired in a two-game losing streak.UFC featherweight fighter Yu Ju-sang lost to..",
+      "source": "매일경제",
+      "ts": "2026-09-20T00:00:28+00:00",
+      "cluster": "c11952681c7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T00",
-    8
+    9
   ],
   "yt_eval": [
-    "e4ffbf19-482d-3835-8cfe-44a6912867ff",
     "21ae5c13-1c72-3695-8e4c-21bcd4bf8653",
     "72b8c5ca-9d22-3aae-9c03-e4f2a6c16143",
     "b9788915-a25d-37cf-8ab2-ba1c2e8aa74e",
@@ -6195,11 +6200,12 @@
     "https://www.mmafighting.com/?p=511088",
     "10f9f884-c159-384f-8f83-2fc3efe7327a",
     "CBMiigFBVV95cUxNLXkwYURtMUZCek14RzRQZHZHa3Y1WVV5Q1A4c1E5bU0zMDNObTR3TWFPdUFtamZYOUk5OWViOVRySW5TSW52dWdBVktWYmt3VU9QcG8xM1JMWllFNmp1bHE1VWtsLVhzeDVlU2ttdUR4aU01QldzTS1HcWI4ajhhVXkzZUx1bG9fNUE",
-    "CBMiygFBVV95cUxNVUdISWhSZWJEbWlLSUl6MkdnZm9JOTI4T0tFYV9kMUU2eHR6ZHVNdnU0TjhiMFBhREJ4WWxaWVlWUjRvTmoxM3hVdHlvTnhvNVljelBNRjFKSVozakZudGw1ZzMyaWZjUUxrZklydTFjSENRelpZd29FYkVBTHVfQ2dUTUZRU3g5MXVpVlFibmduRktOQk4wYmstM2dHYUlXS3pndW50LTd2b0ZMd19pNlptc0lMdHVOTE1ETXVObVFQQWIwRS01SG53"
+    "CBMiygFBVV95cUxNVUdISWhSZWJEbWlLSUl6MkdnZm9JOTI4T0tFYV9kMUU2eHR6ZHVNdnU0TjhiMFBhREJ4WWxaWVlWUjRvTmoxM3hVdHlvTnhvNVljelBNRjFKSVozakZudGw1ZzMyaWZjUUxrZklydTFjSENRelpZd29FYkVBTHVfQ2dUTUZRU3g5MXVpVlFibmduRktOQk4wYmstM2dHYUlXS3pndW50LTd2b0ZMd19pNlptc0lMdHVOTE1ETXVObVFQQWIwRS01SG53",
+    "CBMiUEFVX3lxTE5ZcjdJZE91QVFwM0FiTHBvT0tWLXFRLUI0MWJ3akFIMXVrWE1qeXAtdTdwOHg4djZhMUNKaXVtU1NleVljSC1hVUFzU2FqMlNu"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 8,
+    "ai": 9,
     "staged": 1,
     "prio": 0,
     "lost": 0
