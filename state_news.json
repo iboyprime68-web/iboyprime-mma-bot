@@ -1,5 +1,8 @@
 {
   "seen": {
+    "abc874726c5b048c": 1789885699.0338578,
+    "f91ff46418d46b9b": 1789885698.6894581,
+    "9a71d56182d36288": 1789885698.6571648,
     "ba26adec97cac9b0": 1789885634.35293,
     "9d9e180fe505476d": 1789885569.7280574,
     "84ef745236302abd": 1789885505.0226054,
@@ -2496,20 +2499,11 @@
     "7b269b2ae8ee57c5": 1789332586.3891497,
     "1bd743a5b8d389cd": 1789332586.2172258,
     "60c3dd7e24b671de": 1789332522.5185325,
-    "3073fcce9909e693": 1789332457.612828,
-    "b9f07f8dfc5f6b32": 1789332393.6927984,
-    "20e31a8a042901a5": 1789332349.7133203,
-    "ebddb6ee9b498176": 1789332326.3124237
+    "3073fcce9909e693": 1789332457.612828
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331: Casey O’Neill vs Eduarda Moura Preview & Prediction",
-      "source": "The Stats Zone",
-      "ts": "2026-09-18T12:40:00+00:00",
-      "cluster": "c037356afd1"
-    },
     {
       "t": "UFC 331: Patricio Pitbull vs Choi Doo-ho Preview & Prediction",
       "source": "The Stats Zone",
@@ -4903,16 +4897,21 @@
       "source": "boxingnews.com",
       "ts": "2026-09-20T05:31:02+00:00",
       "cluster": "c962cba4640"
+    },
+    {
+      "t": "\"Time to get a nicer mattress\" - Sean Strickland offers glimpse into Sean Sharaf's humble life following spectacular Gable Steveson KO",
+      "source": "Sportskeeda",
+      "ts": "2026-09-20T05:32:00+00:00",
+      "cluster": "c7a670788f4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    36
+    37
   ],
   "yt_eval": [
-    "ba1fdb54-2cfd-3703-9dc3-6722f30f0c2e",
     "https://www.mmafighting.com/?p=509018",
     "CBMingFBVV95cUxPQ1paeTgwSmNZVW5IOWRSbnNJU1N6cFdQZDRrV2RSSU5uaTl6eWhqTnBFWHR0UFNEZURmQmZoR2N2VmVKa0hseFpma29JQ3hqQXMyRjlCV1lmZWdUbUp1cDltQXhDVXFmLU1COV83OXY1Y3o1R0NZaGVpZnQ0U0tZTVFMbWdrVExnMHlUckR6bl9NaUlqZVBpalR2aUllZw",
     "CBMiiAFBVV95cUxQZEtFMGRuVjV0N0ZGYVY4aDhWbkxwNnZqVDQwQ0JRcFFtZ3p6bEF3ZEVGQ2hHckhVdUlQVXhUdmQ4TGJKRW5VdmVETTEtTFVxOHJEelplUkkxSnRpSXB2S2hrLTBpelB6bTQ4bzJJRE1NUUNZQ0N6cVFScDJmZlk0MmRvRlBjYzRq",
@@ -6411,11 +6410,12 @@
     "https://www.mmamania.com/?p=473660",
     "CBMic0FVX3lxTE92TGt3TkJFQ1dYaFhCR3ZhU1FXRDdtcmE4NWEwU25UTm94S3dZS1NzdUNoYWhoalV0ZU1YVk9zazBBZzVBR0VXcXphNnU0dVpNajRXZUVScEFrQUxsUFBLampjY3Z6RzRvX1ZLeDBaVVZmYjg",
     "CBMixgFBVV95cUxNQ1hpdnI0bVNaYmlxSmVrMW5BVE9TMWN4QlV0S3lVa29ETURmZWVoRExHYm5wTXNTbnpRNjc0X2g5MTVPaWhOMnJhOFpPLTAxS3RLdnBSejBVS0o2dlc0TXNCQTFHRWRfU0xEWk10eDNoVkQzQ1dobzlKbXQ3cWZQdzRKcFhRcHdXS0dIZ040eE8tTXFvOFZFQ2pvRGUtVklTX1JNdk45YnNfVFZLV00zV0dNMUNMa1poNU5uOWpxOTZVYTJLV2c",
-    "CBMibkFVX3lxTFA2U2FqQkZNdnYwLVQwYU9HY0lkMXpUQzd3NlpQaDRLMDFjZGhSUW5aTjhTNkZweUUwbHAxZ1hnN3EwblRlaEZ1SnNTUnN1WDg3OTJFNFl4aU43NFBKMU1TUjJJUG45ODdFV1RVejBB"
+    "CBMibkFVX3lxTFA2U2FqQkZNdnYwLVQwYU9HY0lkMXpUQzd3NlpQaDRLMDFjZGhSUW5aTjhTNkZweUUwbHAxZ1hnN3EwblRlaEZ1SnNTUnN1WDg3OTJFNFl4aU43NFBKMU1TUjJJUG45ODdFV1RVejBB",
+    "CBMi7gFBVV95cUxQdTZfdmNrTFNKcEt2dmFUS29LOVkxc3ZKVm4zRFB5YVBPMWh6UExCcjloVGhPYkxXQ1hyNVRQSXp1cFd1N09RUXFmTm5xNUlwTXhyNkljX24tRWp2ZmpHMzNFR2VXZVBWZ3FockhzYm9vcEhJYWhwLUxTeXpSTTdKS2pTY24xN3Zfa1VydGptd2E4V1lQSFhOb0p5ZFpSWGFmbS12ZEFJclJJczNIbEE3MmU1MlVTZzRWNF90MWZPSzJMNTNtSVQ4R1ZYN0NsSFhicWhzMVMxS3JtMWxUMVQ4OVJUQVR1MkxidFRlZnBR"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 102,
+    "ai": 103,
     "staged": 4,
     "prio": 1,
     "lost": 0
