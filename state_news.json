@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1056464f9c21a753": 1789884036.81022,
     "6c3a6160456b5e5a": 1789884012.5999246,
     "7df18aa82f1dcb8b": 1789883989.293431,
     "46c34cf0e25aa250": 1789883965.825867,
@@ -2498,8 +2499,7 @@
     "222d59f4f9ee756a": 1789309601.1344295,
     "f84e0c2ab2fc9d6f": 1789309576.3986433,
     "f7528983ad8c4e5b": 1789309528.1974666,
-    "62d1c0c200bafea8": 1789309527.9870548,
-    "c10be3f5df6c2a8e": 1789309463.7671614
+    "62d1c0c200bafea8": 1789309527.9870548
   },
   "initialized": true,
   "v": 4,
@@ -4831,16 +4831,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T04:05:22+00:00",
       "cluster": "cbb67c4b37b"
+    },
+    {
+      "t": "Video: UFC 331 post-fight press conference live stream",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T02:30:23+00:00",
+      "cluster": "cd5cb830324"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    1
+    2
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=469678",
     "https://bloodyelbow.com/?p=330600",
     "https://www.mmafighting.com/?p=509024",
     "c06da33a-82f5-3ff0-b394-74b866e0bf0b",
@@ -6339,11 +6344,12 @@
     "https://www.mmafighting.com/?p=511296",
     "4a428812-6bf9-37bb-9cc4-b0d6bd74d704",
     "https://bloodyelbow.com/?p=332628",
-    "https://www.mmafighting.com/?p=511352"
+    "https://www.mmafighting.com/?p=511352",
+    "efee79ec-04ac-3615-93fa-c0de9b77cd92"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 67,
+    "ai": 68,
     "staged": 3,
     "prio": 0,
     "lost": 0
