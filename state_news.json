@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3dd44efff76e4513": 1789884844.81784,
     "4de9463fea289400": 1789884779.6381466,
     "7af0a421febb26b6": 1789884779.4267807,
     "3ce9e410b7fadacc": 1789884715.3477046,
@@ -2498,18 +2499,11 @@
     "b238b3a6a7111a0a": 1789331729.2019393,
     "f98202a9c0f5d9c0": 1789322490.0827773,
     "8c6a7d3a7c96f61c": 1789322466.2627466,
-    "7522845f6fb6c634": 1789322439.9470735,
-    "2682be270e9fe30c": 1789322416.638737
+    "7522845f6fb6c634": 1789322439.9470735
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Max Holloway chambre Justin Gaethje après sa déclaration",
-      "source": "La Sueur",
-      "ts": "2026-09-18T08:53:28+00:00",
-      "cluster": "cdb7f5a0e12"
-    },
     {
       "t": "William Tackett Flames Fans For Not Wanting To Pay To Watch UFC BJJ",
       "source": "BJJDOC",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T04:14:32+00:00",
       "cluster": "c7408779d93"
+    },
+    {
+      "t": "Joshua Van Carves Up Alexandre Pantoja to Retain UFC Flyweight Champion at UFC 331",
+      "source": "Sherdog",
+      "ts": "2026-09-19T23:57:08+00:00",
+      "cluster": "c14c4efdb9b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    21
+    22
   ],
   "yt_eval": [
-    "CBMi3wFBVV95cUxQRHoyV3NWT2RnZTZOM2pGbjVoM2pBaFRkam1YQXl4bDBkWEV5WmVadXNMemtEekhYdGhTaUlISmJ1T3NQa2JGMjN5MGd0cnhrNmFYcElJbzQ4MzI4ejVOZXR2WjlDVG1mRko4allrbnhZUmE4di1uSWl2V0hyd2ZJLTZrbnZ0dFpMcWI3ZVE0US05bnVibWZjV05zUmMxeE52YjB3VmU5a1ptVDh1d2xFYlgteG1wOEV0clAtWDNhbnh2dGFfanh6d3hqVjlBSGJNMTZVZDRnMEk5WkREbkgw",
     "CBMinwFBVV95cUxNMXphWFp1alVtajVEdkNqWXVlcjA1dkdJVVVrX0JaNndWQl92S1RjZzB3VTd6a0p4QkpXVjNQamV1ZFBBZElQV0k5aWZPdnViYXBDYkZNSHhKM0FMYklBNVBNdEd6bE00R0NBcnVjRUxLMW9PRW1BV1Q2WTg5UmtCenVITWJzaTg5bHdZN3VoOHc4ZzdjcWRubVJjWUdqNTg",
     "CBMi1gFBVV95cUxQeHl6Q3pRMXk1OVZJSHJjaDZsdDNYUjQzOEV1TmlQQmRNUTBzVzRhVDgzTkFqOFRzSDRCeVlSazFLOV9Ma2Y1d0Yzc3pGUXJaWmFvaTY2UXNGNmF5cUpWdWZoV3VCLUo5WTU5QlNjRHRUMm85SEgtNTJnT1A0QmRpY2pmSWdidS1oQlJEUkN2ZmRvd0VGbGc2OWM0V1N5YkptaUJUekhyNVdiWlJ6YW5GczE3M3hwYjBMXzlGaGNqQmZNQjZ2NEJKekxHU3dwZkR3RDNNb2RR",
     "https://www.mmamania.com/?p=470015",
@@ -6411,11 +6410,12 @@
     "ac275619-bdf3-3de5-9911-182bf774f48f",
     "https://www.mmafighting.com/?p=511535",
     "52850c6b-bb69-3820-8c6e-ac5c17ac4ab9",
-    "09c3d4e5-d19e-37d2-997b-df035c86e067"
+    "09c3d4e5-d19e-37d2-997b-df035c86e067",
+    "https://www.sherdog.com/news/news/Joshua-Van-Carves-Up-Alexandre-Pantoja-to-Retain-UFC-Flyweight-Champion-at-UFC-331-202851"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 87,
+    "ai": 88,
     "staged": 4,
     "prio": 0,
     "lost": 0
