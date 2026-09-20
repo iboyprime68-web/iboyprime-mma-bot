@@ -1,5 +1,11 @@
 {
   "seen": {
+    "d811837b6f254ce9": 1789868437.309692,
+    "d052e9d44c7c5a55": 1789868436.0616755,
+    "d7b7b543fc8657d3": 1789868436.0352337,
+    "87db848414e6a988": 1789868436.0113792,
+    "e2e1b0f81a771ee1": 1789868435.9884784,
+    "fe3a5c6655095ee8": 1789868435.9621725,
     "63b96d145b150768": 1789868370.8600783,
     "28b1df899dce16d2": 1789868244.2550037,
     "c2ba6c81d20c6c4f": 1789868244.2496102,
@@ -2493,13 +2499,7 @@
     "ff23a2505de735c1": 1789293154.3710856,
     "bfb7a73a673c219e": 1789293108.1815326,
     "3a8c8f0676abf70e": 1789293084.2668514,
-    "ba5ff703b6b83760": 1789293084.0387845,
-    "c05a06c194e1b9af": 1789293084.0383952,
-    "54fbcb0b541bd53c": 1789293019.6810043,
-    "76fb26daa8348d21": 1789292953.2523446,
-    "f314453b2a3eedec": 1789292886.7125711,
-    "c5ebca4fc2fd14f6": 1789292886.5028627,
-    "8deac891364eccf2": 1789292819.163704
+    "ba5ff703b6b83760": 1789293084.0387845
   },
   "initialized": true,
   "v": 4,
@@ -4873,16 +4873,21 @@
       "source": "tbnewswatch.com",
       "ts": "2026-09-20T00:44:17+00:00",
       "cluster": "cb80bf8dc50"
+    },
+    {
+      "t": "Marlon Vera Silences Doubters With Brutal Three-Knockdown TKO Of Charles Jourdain At UFC 331",
+      "source": "LowKickMMA.com",
+      "ts": "2026-09-20T01:15:40+00:00",
+      "cluster": "c588fdacbe9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T01",
-    32
+    33
   ],
   "yt_eval": [
-    "226721b2-1761-3ff5-9ba6-289e3a0fbfb2",
     "https://bloodyelbow.com/?p=330576",
     "https://www.mmafighting.com/?p=508946",
     "https://www.mmafighting.com/?p=509003",
@@ -6381,11 +6386,12 @@
     "CBMi9wFBVV95cUxNWTRGUXBiRUlUbEtZSUFwcXF2aDlHdjhvVlAtNmNQekprV1JHTENmUHZuRzM1a0w0d0IxMDZOY0pfbGhZWURQN3pYNHlkNE10eGdkd3otSFJ3WjVnVmVsNkdvb2kzaWxfZjF2MEN0XzNvbkZaSHFwbGdCdzhydzFDaDk5bWVFc3d5VjVObnhWVVVmbFpmTjBucEdwdFFaSFBxazc4b2g3b3ZSX3drZUpyRHRyVS1LNkppU21SR2d0bktib0RibDQ1TFZ6M3pOUzFrNHNjTktlN3BRX2lxX0M1Q0dyc2FndG1Vempaeko2cHN4ZllNdjQw",
     "CBMikwFBVV95cUxOSTFpTHYyNTJzVnc1R0kzbGcyWFlIQVotX2lGREJKZVJfeGhwUGhTM2pITnEyclJKN2RfU0JtTGQtNUdpWTVpbm1OYkNoMGNlZkloYkdYdFd0bHN1RzdJYTNON3VwZFFERWZvMTFVTkpWSTBIRjdnRndsVmNZOF9ubXNpclhOdUE1RFNVMTVfa3JqOGM",
     "CBMirgFBVV95cUxPMUtXWlVmVks0NUwxdnR5Wk15T1dBcFpFU3RVX0tGdlFYYTVtNGpRRUpXeWVtTDh5c1IyaklvOVoxellTc1FTQzAtb1F4Y1BlVk16RjhQd0ZtQXNob1REeEVSbGY0b3pteldRa3VOWmxaNVlEUXdpYnBvT2xJS29udS1kN2NvYm1PUkoxSEZpVmdKa0JlTUFORzFwUnBJNl84eGhidUFnLU1nU044SFE",
-    "CBMikgFBVV95cUxPdmZ5T1dPcWJJUEU1QXlnbko5RzE5ZW9JUWVXdXBwSHl1cW5hUDFKRnZqNlU5c2dUeGVxOWxFMVpXOUdtTEVTWVV1SVNlbXZNWDgtSWZnOTRxS183bllVTVAyY3lvUnVhblpCeWc4Ykh4Z2laQnZCM2FUTVV3N2RkcVFoNHByUTJWelAyRGpjbDB3UQ"
+    "CBMikgFBVV95cUxPdmZ5T1dPcWJJUEU1QXlnbko5RzE5ZW9JUWVXdXBwSHl1cW5hUDFKRnZqNlU5c2dUeGVxOWxFMVpXOUdtTEVTWVV1SVNlbXZNWDgtSWZnOTRxS183bllVTVAyY3lvUnVhblpCeWc4Ykh4Z2laQnZCM2FUTVV3N2RkcVFoNHByUTJWelAyRGpjbDB3UQ",
+    "CBMid0FVX3lxTE1QeWxJVXplQTZrQllxMTlXT3RMeS14SXVEajg1dm4wdlRTWV9PMzN0eEd1VXN1S2hMRFFncWxVNWk4RWh6Q0wyYmFWNE1KXy1TSndfc09PNHdLTzFDMldOTlRYZ0laVUNMeE9YRzgydVBsS0lMZkQ0"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 45,
+    "ai": 46,
     "staged": 1,
     "prio": 0,
     "lost": 0
