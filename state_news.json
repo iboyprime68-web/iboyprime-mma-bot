@@ -1,5 +1,7 @@
 {
   "seen": {
+    "a17deb7e38b7abf1": 1789886091.5739024,
+    "d108e691e47145f4": 1789886091.3061745,
     "5f7bdcd5e23f9b44": 1789886067.96359,
     "3dd298bd084d0c69": 1789886023.5912592,
     "21e2b0c4ddcd26dd": 1789886022.8861477,
@@ -2497,19 +2499,11 @@
     "8490b85bd7078d10": 1789333037.8144019,
     "76c8030780407519": 1789332974.2220032,
     "122b5414434e0bc8": 1789332973.8651853,
-    "3652019a0a0e1938": 1789332973.8625395,
-    "5851fce3d07f64aa": 1789332909.2921739,
-    "c516e41e9996baa7": 1789332844.876119
+    "3652019a0a0e1938": 1789332973.8625395
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Josh Allen, Bills trample Lions' hapless defense; college football Week 3 picks; UFC 331 preview",
-      "source": "CBS Sports",
-      "ts": "2026-09-18T12:55:35+00:00",
-      "cluster": "c8075aceece"
-    },
     {
       "t": "UFC Fighter Calls Ex-WWE Star Gable Steveson a ‘Rapist’ to His Face at UFC 331 Press Conference",
       "source": "Ringside News",
@@ -4903,16 +4897,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-20T04:38:46+00:00",
       "cluster": "cd0226ea7c4"
+    },
+    {
+      "t": "Sean Sharaf Pulls Off Biggest Upset in UFC History",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T05:38:00+00:00",
+      "cluster": "c5377bd13d2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    43
+    44
   ],
   "yt_eval": [
-    "CBMiigFBVV95cUxPODdJZTZqMzdST1poUURoWmxIRkx1UGFpeVNydVdkWGRLby1Cc3FPNDkwd2M2czdIZ3NiYi05TzYzRy13a3ZGZ2RsaHJOMzVGdmFYRWt3akFRUk12T1FXNGctZ2dWa1dDa0d4Z3E5TlJsNlJQbVJpdmh4cHR5YmFzdGRreHlzQS1jTkE",
     "CBMinwFBVV95cUxPTmRTRi0yZ1Nsdm9Yb3ZRWTNVQURtOHhDMGw5Zm1NWTEwVi11UTlfaDhvTk5hbkFZcHBrMlhRNUxldm1RX2ZXZlV5OGE2ZUFoVl9hUmFOUHRtcWNmU2hXVDlZaC1zaUVyV3dCYlVXY0pwMmFnbG0wQ3FjYzVRb1V0RHU3c1J6NVVucUZaRzV0WWduNnFuckk1RThERmhBTGs",
     "CBMioAFBVV95cUxPTFJQS0lLUnJ2dlAxVGV3aDd4Mmdmejd2UUpYcThYdXdIN21RN2dZdTdPZGpjX1pjd0taQ3lWQzhubkNtdUJuYmpmWUxGQ3gwcjZTM2JfbE9Yc2RhWnRzblRWMzAxNURBRk1KRWN3WWl3R2RGdlhCajJhUGl2OHhVVlBSVS16d0N0T01QZnJoa2o0d2ZMMF8xdWtWcENTZUYx",
     "CBMivwFBVV95cUxPMkN1bWkybXF5TF9jeVlYcWY4R21vRFlrOENxUl8tOWFOV3lHTWRwLUtHZ20zZDRnZHNuZk5wWmFBV3VJQmZWd3VRUE5VV2JrQTJJSzhoLThmdHpKUm9VV1RlVzk2YTdBZ3Z3ZjRiaUM4alptYzY2b1pqSThxUjFHb1BsbWREZE5PdHdRZ1hhSVU3Z2M0cWpiVHFGaERwdmt0YXRERzUxX2RtWGNsajdBbWdwUWRGcjUyRHR2YXQzUQ",
@@ -6411,24 +6410,17 @@
     "eeed34bb-0ff3-3750-899a-24a8292c864d",
     "CBMif0FVX3lxTE5nNThwX04yMm40R0dkMkMzdFdfc3RWVzRwTE94UzZEZ3BIejJfVDRoRmE2WjZHeW1mZ1BNaUR6QmdQWWNhOGtJLWJWSGpGRXBnMmNpbnNQNnBQa3ZZM2hpYXltRHdzS1ZCYmZFQ29OOWN2YmtkT0VPSlpuRElObU3SAYQBQVVfeXFMTlg3dW0tYnJqUlBRTjZoZ1dEaUY2a1lPeV84b0xLQ25tcTRCUzJwZkVLd3pOQjRNT1BoNTZabEdqd1k3VGVHT25JYVM0SjZFOGZPWm52VmNiMnFycUN4b3RmRmdqZjBjVlNGaXI1M1Vqc0tlUFF6ZmJ3bTlaVjRFYnhqRUtY",
     "CBMi1wFBVV95cUxONFBJSHRYd1JJdEpkS0VUUnNkZVdjWHJheUVQd3d6X1NqUEtaaUhHRkJqZ081SEhGeGk4RmVkU0h2NW9VRDlwUzRsaUVxMjNxc2hjZmVTOXVHUzh3bXZscVJsdGh4a0dMZTlOMU1nTWFGNjdPRlZBTnU4Yk9KZ2ZoYU8tamFSVUxEUzY1dUs5MXZSdWQ2WmY4TWt4Tm4wSkd1bFpSWjNsR1JXV1VXSHRVMlI4aU1YWk1ZaHk4VTUydEZ6OUNmeWZuZGpJcWNjWGNCeGVldlY5OA",
-    "https://www.mmamania.com/473405/highlights-open-ufc-331"
+    "https://www.mmamania.com/473405/highlights-open-ufc-331",
+    "CBMihAFBVV95cUxPUDRwb3JvMFRjbFBEcnhrVnBKeUZQUjF5VzNmd3FqbEFqQUJPZ1RyQjdOT21FVWFWOXRXclJXd2podnFZUi1XOUtZNU5TcWhKRkpvdWZlT0tHWHR0MWJDN1FOTjRnekxaWXhMMmNoNEVkQWtsWnlsVzRTZ2NuUDBuTlh6TGQ"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 109,
-    "staged": 4,
+    "ai": 110,
+    "staged": 5,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-09T20:45:39.566187+00:00",
-      "t": "Justin Gaethje confirms no UFC title defense this year",
-      "names": [
-        "gaethje"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-09T21:00:15.984555+00:00",
       "t": "UFC star Bobby Green claims he is currently homeless and living in his car despite owning 9 houses",
@@ -7210,6 +7202,19 @@
       "names": [
         "gane",
         "hokit"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-20T06:34:52.622969+00:00",
+      "t": "Sean Sharaf Pulls Off Biggest Upset in UFC History",
+      "names": [
+        "sean",
+        "sharaf",
+        "pulls",
+        "off",
+        "biggest",
+        "upset"
       ],
       "img": "photo"
     }
