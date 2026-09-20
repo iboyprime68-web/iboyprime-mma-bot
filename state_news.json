@@ -1,5 +1,10 @@
 {
   "seen": {
+    "1d621afa22d426dc": 1789915780.6335778,
+    "6cf46f1272a3045f": 1789915780.4278524,
+    "d0e886da4b934a4c": 1789915780.4198718,
+    "c13b22530bb08b45": 1789915780.3863466,
+    "f828a23b83aa9eab": 1789915780.3847432,
     "133c823bcff4f55c": 1789915717.5198734,
     "45232ba57955557c": 1789915653.8176174,
     "921485cab6704c6b": 1789915653.5128906,
@@ -2494,22 +2499,11 @@
     "f0bfc63c190e79d7": 1789410626.2978199,
     "c39f7c5c507ef499": 1789410626.0439725,
     "10b5443619ae0650": 1789410626.0416822,
-    "33278883e0362fe1": 1789410602.255392,
-    "aa43bd5ef8e36160": 1789410578.4499788,
-    "da5462c2c9d4924f": 1789410554.8521879,
-    "f762771034a73f44": 1789410530.2890935,
-    "cce81fdf6efe9a98": 1789410506.8711593,
-    "886d32906b8d5726": 1789410483.4912043
+    "33278883e0362fe1": 1789410602.255392
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Video: UFC 331 full card weigh-in highlights with every fighter on scale",
-      "source": "MMA Junkie",
-      "ts": "2026-09-18T18:13:00+00:00",
-      "cluster": "ca1e0fca0f6"
-    },
     {
       "t": "“This guy r*ped a woman” - UFC fighter goes after ex-WWE star Gable Steveson",
       "source": "Sportskeeda",
@@ -4903,16 +4897,21 @@
       "source": "Roya News",
       "ts": "2026-09-20T14:07:02+00:00",
       "cluster": "c59b4d4c066"
+    },
+    {
+      "t": "UFC 331, The Morning After: Goodbye Gable?",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T14:29:00+00:00",
+      "cluster": "c77b8b0b9ab"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T14",
-    17
+    18
   ],
   "yt_eval": [
-    "0160b226-a51d-3f73-9ee0-2addd4f38eff",
     "fe135c8b-3541-3abf-9ca2-5842c17edcaf",
     "https://www.mmamania.com/?p=470261",
     "584a2166-9c38-3444-8b69-d3f5cb5064dd",
@@ -6411,7 +6410,8 @@
     "CBMie0FVX3lxTFBTY2NaTVpIS21wOUIzSVRCYjNMVTNlWDIyNWJJRTlCaGxOQ21lbDlxRFRBVXdscnh3anZjYnlXNVpGdTU2cXBhSVdGWkJkVGpWVzlKWUl2MDJWeHoxalJnYnpIZmJzeEJpN3JIeDJiOE1iN05vU3FsQWNMaw",
     "CBMisAFBVV95cUxQVXdTdkxjM0hVQW0zcmFqNzgxZnVqNmduZnh6dXBBN0JIWnpZWWZhcUhlZ1RmMkJEYkJZYmlqUE12MEFVRWVNYV9rUGZpbmhYa3FhRFBQM003NkFSRmZRbmk0Q0FDY09rRW9rcF9ERmNXcTA3S1pGaVdjUTNoN0lndUloZUpsWGc0WVhERWhDSm5xRTlUcHFsM2s0NFhuYkdiS3BNVGltblA1Tzk4QVRlRQ",
     "CBMirgFBVV95cUxNdDZYdktQRkE4My1kM3psRmlLcGdyOG9va195QzJ3d2NYOXVYamloRklCS1FQeFg0VUZlcWxyUldmQ0VhSXhDektGZ3ZTaXEzZTJqUm5iam9oWkhYYndHVzRkcGEtc2xxb1hUeW5tSkxyb1BNQkt4UVdKcFBfYVBoTE8zVXBzc0w3cE5VWDBLVmprTmp4am5GcEJDaE15MEstUktuMnNzeUh4cWdFMVE",
-    "CBMiSEFVX3lxTE5MY250Z0ZvTGZjVFgwSUtoNllXVTNnY2R2eldxekdkLUc5a0g3eFhFVmJPUkpUT3EzRHI4a0NYV1hJQ2RmcFVYeA"
+    "CBMiSEFVX3lxTE5MY250Z0ZvTGZjVFgwSUtoNllXVTNnY2R2eldxekdkLUc5a0g3eFhFVmJPUkpUT3EzRHI4a0NYV1hJQ2RmcFVYeA",
+    "CBMihAFBVV95cUxQQXIwUGs0TDhiM2hmSmJGX3hWNUxZUVdISHdRVGFpYjZaUnowdHhNQ2VpdmlpMFpuaHJSd0dPZDQ5cVl0dUF0RVRSNjBMNEt2ck82SmNIRk4wN2VrX2cxTXF1eFJvODNydlBhb090dUI3bHJ6NUtNbEd4YXIxY3pmczZvYXc"
   ],
   "daily": {
     "d": "2026-09-20",
