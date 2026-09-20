@@ -1,5 +1,11 @@
 {
   "seen": {
+    "768d3ed4c0a7536e": 1789866200.399379,
+    "f8dd77858b69a419": 1789866200.0841477,
+    "a6dfb801f86f9110": 1789866200.083844,
+    "1dbd63ba05739aa9": 1789866200.0826287,
+    "3b8ed7f5081ecf45": 1789866200.0610523,
+    "a32dbf6cc3abc44c": 1789866200.0599456,
     "831c25959042f67e": 1789866154.8508306,
     "9de2c3391731abc0": 1789866131.1334274,
     "e3983c410a4f83d4": 1789866130.830199,
@@ -2493,23 +2499,11 @@
     "4e4bccbf9f2a74e1": 1789230272.5931203,
     "2cb78e05fffc1926": 1789230209.92533,
     "2e94487fb922f5a4": 1789230146.7981489,
-    "356c1f07887522fd": 1789230146.7957964,
-    "be897e94bc7bd123": 1789230146.7950413,
-    "f7b50922dffaa016": 1789230146.7942119,
-    "fe67dd47d686ce5f": 1789230082.5308726,
-    "35f2dad9f4d45c30": 1789230017.729152,
-    "30a39d7ddf4bc954": 1789230017.288462,
-    "146994f253cb618e": 1789229952.2713802
+    "356c1f07887522fd": 1789230146.7957964
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Joshua Van all smiles during tense faceoff with Alexandre Pantoja ahead of UFC 331",
-      "source": "MMA Fighting",
-      "ts": "2026-09-18T01:03:13+00:00",
-      "cluster": "c110c38b360"
-    },
     {
       "t": "Alexander Volkanovski backs Joshua Van at UFC 331 due to lasting impression champion left on him",
       "source": "Bloody Elbow",
@@ -4735,16 +4729,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T01:01:06+00:00",
       "cluster": "cbd009920d2"
+    },
+    {
+      "t": "MMA star lands 'generational' submission at UFC 331 that leaves fans stunned... 'One of the best I've seen'",
+      "source": "SPORF",
+      "ts": "2026-09-20T00:26:26+00:00",
+      "cluster": "c279d7f878f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T01",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMirAFBVV95cUxQLUZ5d1dGNjJQY19LWFpsaG84b0pxQW5RbklLMG9YWVZ4c0kyRFpTSlcyQ1JJSFgtM2I5cmFCQkwyUExlbXVpUnpPTW1BbWktcDJhd1lGS1Q2OVlNSDdhdjl3ZEVaSm15allhU2NIZXFYbnc3QnlfWWM4S1lMWmI1VnBhODg0dGIxZkp3bWhpdlVSN3NhZFhtOEVpSm9fYnNnWHk2Rkp6LWZRR0Rm",
     "https://www.mmamania.com/469673/ufc-shanghai-results-song-yadong-sleeps-umar-nurmagomedov-in-massive-upset-win-demands-title-shot",
     "https://bloodyelbow.com/?p=330528",
     "CBMivwFBVV95cUxQUXBKUllTVW40QTR3bHZrc3lqRW5EZWYzd1U5R2xENTV2UU0yUUZQbk9xbkJzb0RibXUyWlktYUl0VTZPS3Q3ZnNRTFRZYVhFRlZBZnRfcUwwN0NPamUzaHU2Zmt4Q2FFX00yMmp1VlMxMm83M3hhd0FJZ0g4Q0pWdldCdTk0Y0VoWENqel95aXZ4NkozRmVLdUp3LVUtOGxhUmpuUEVtS1JwSEtVNUR5YzVNa2VndVk3SmlqNmIyZw",
@@ -6243,11 +6242,12 @@
     "CBMi0AFBVV95cUxNTTJUVWM3b2JuRWZCYjBqNklENWtTYnk1NUR3T0l0aXRheDJCVGxhQXNsQW5pTHhuOFZ4dno1SmFqMzZ6Y3Y1SnNQZllTS2tOWFhzeFpkeHV1WGw4R2xvSUp1RkVYcWxyZjI0dFFMYzI0OWpsaTFyNDI5U3g0NkFnZWFLVHE5Qm40QUtiU25IcTF4cWVJZzhleEJEMFdJMFA1MGFKenF0T2I2SlkzSG1oTEtTUXRCM2ozdnJfaFUtOWp2QTI5Y3VjU1VMeG5nTXVq",
     "CBMivAFBVV95cUxPZnhkU2RXTlpLSzYtVDJ0dlduVk9HVjBXOWlwVjFuS0ZDYjZrdTBGX1lXR0YtSC10T280Z2tYdVpPQnhYZlpYd0oxR0I5V3FvazZsVk5SSWxDY0tXbGxEbkhxNXYzTU1NdGxBWlVaNG1PSlh1LTNGRDczcUtQWDdnWVNwN3p3SzNoU2NxOGljVmZUSmhrN2o3N21lN3R0X3E5NHZHVTlITUozYkxGdWtNQUpjWFJqTnBaSVBCTA",
     "CBMikwFBVV95cUxPYlhkSHMxTi05RzRqQTN0QVR2cHhxUEhnbWlHTEJleG5vWmdfWnBXZFhjSzZFOWhpcG1UcVoxT0V4Z2ZlaFBlZ0FCU1FaUTFPYUpLaTNUV1BmdGRWdmhiZjlDR0NIelluQTBmR1lURXRJSVJSSHJlVFF1cjdmSmwwNjdFdDZCWXYxTDlVZTRyVm1sNmM",
-    "https://www.mmafighting.com/?p=511115"
+    "https://www.mmafighting.com/?p=511115",
+    "CBMivwFBVV95cUxNRzNDdzZGU0FENmRmR0NmR2VCc3lYVUEtcVJTUlFFNXlEdmEtM0NMcGNtLWtmb2RkREY5V1NqUmZxNEp5blZ2R0NXb0d4NHNya0FZUEk4RFRjYTZwZFRuN2pRZ3RET2dkZnhEcTBPZVY0bkJJZ3lVT3haTHJqSk5VY1VMMFl2U0JuTjFqUFlHZVJjR001cHZqQ3c0QnEyem9FazZwLUNJellwMzRtT3dZN29kbWh2em94UDRQV3VNVQ"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 16,
+    "ai": 17,
     "staged": 1,
     "prio": 0,
     "lost": 0
