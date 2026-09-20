@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2185b5f28442116f": 1789884515.02141,
     "b1978b9c46ca35d6": 1789884449.8118937,
     "9087175611bba3a1": 1789884449.5508769,
     "469f6d94d38c3b9b": 1789884385.109926,
@@ -2498,18 +2499,11 @@
     "0ee77cfdb3098837": 1789310437.8783553,
     "320b1fdd8b945ff6": 1789310374.969861,
     "007b2cd0ee64c860": 1789310250.2410614,
-    "c457a5f28b35520f": 1789310250.2380784,
-    "995320ecb97e4ff7": 1789310187.1458747
+    "c457a5f28b35520f": 1789310250.2380784
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 333 countdown: One night, two title fights and a trilogy to be decided in Abu Dhabi",
-      "source": "thenationalnews.com",
-      "ts": "2026-09-18T08:15:09+00:00",
-      "cluster": "c5e3d43dbc9"
-    },
     {
       "t": "Alonzo Menifield vs. Iwo Baraniewski: UFC 331 AI Prediction, Results and Highlights",
       "source": "yardbarker.com",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T03:15:00+00:00",
       "cluster": "ce1cdef3ec2"
+    },
+    {
+      "t": "UFC 331 salaries: Champ Joshua Van's disclosed payout topped by one fighter",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T03:15:40+00:00",
+      "cluster": "c8474ce2f0a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    14
+    15
   ],
   "yt_eval": [
-    "https://www.mmamania.com/470055/open-thread-september-5-2026-wes-anderson-genius-or-nah",
     "dc4cc3f0-f3b8-30af-af9c-24a1f772b005",
     "CBMiW0FVX3lxTFB5d2lqUXNMQWhfTzBwNkdVbUwweHpieUJzTUZxcTU5Ym5EaXV1YjFXOEdrSUU5MmRSM3lZTWtkUnJoVkF6RE53V2FRZkVKelp4cVZObldqNmhZbXc",
     "CBMijAFBVV95cUxNRDdJRm5FUjlOMWFYR2xxdHEwZUZUd0d0enhFaWZ0anJvNGtKb2xjS19qMHViQ05aa213ak0xZkwzZG9nOVdCcTc3X2h1enJpYjE2clZUV1J2dlBuUVlZSGp6MjdFMmRvYVlFWEszRFIySGtVQ2xIa2IxOVZBWVZ0R1VNQzZsczJiSl9CTg",
@@ -6411,11 +6410,12 @@
     "ac3721a5-272b-47f4-8fad-1dc22a988237",
     "bfdc587e-469a-31bf-b00f-1c7925c44b14",
     "4a83d631-2c6d-3ffc-a671-a0c1f105831e",
-    "3f405351-8e9c-329c-924e-2eb511dbf36b"
+    "3f405351-8e9c-329c-924e-2eb511dbf36b",
+    "c7bd2ff0-69f2-349c-805e-a7f699b51a2b"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 80,
+    "ai": 81,
     "staged": 4,
     "prio": 0,
     "lost": 0
