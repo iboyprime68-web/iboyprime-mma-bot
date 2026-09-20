@@ -1,5 +1,7 @@
 {
   "seen": {
+    "343f6481858fba2f": 1789884647.7098224,
+    "f356525d7273e98f": 1789884647.3866425,
     "4d52ebe7be262b88": 1789884582.766938,
     "7b68d27b9eb4f27a": 1789884582.5129302,
     "ffea0cc7b0b2945a": 1789884582.481298,
@@ -2497,19 +2499,11 @@
     "e173ac327d5c5dd8": 1789322392.8283684,
     "53801986dbd29efc": 1789311616.8678071,
     "e6ca9b23c68ed39b": 1789311551.9777052,
-    "a97412d88dcba57c": 1789311550.8466122,
-    "ff58f60b0d45f956": 1789311240.91703,
-    "6ef7e900230039ee": 1789310870.5011864
+    "a97412d88dcba57c": 1789311550.8466122
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Gable Steveson vs. Sean Sharaf: UFC 331 AI Prediction, Results and Highlights",
-      "source": "yardbarker.com",
-      "ts": "2026-09-18T08:17:17+00:00",
-      "cluster": "c18859e4bb7"
-    },
     {
       "t": "Watch blood pour from ex-WWE star Jake Hager’s eye as he suffers grim injury in Power Slap loss",
       "source": "Bloody Elbow",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T03:36:46+00:00",
       "cluster": "c379421dc7d"
+    },
+    {
+      "t": "Joshua Van outworks Alexandre Pantoja in fight of the year contender at UFC 331",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T04:04:41+00:00",
+      "cluster": "c6502c57407"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    17
+    18
   ],
   "yt_eval": [
-    "CBMijAFBVV95cUxNRDdJRm5FUjlOMWFYR2xxdHEwZUZUd0d0enhFaWZ0anJvNGtKb2xjS19qMHViQ05aa213ak0xZkwzZG9nOVdCcTc3X2h1enJpYjE2clZUV1J2dlBuUVlZSGp6MjdFMmRvYVlFWEszRFIySGtVQ2xIa2IxOVZBWVZ0R1VNQzZsczJiSl9CTg",
     "CBMilAFBVV95cUxOTXh4emp4Q0dVYU5YQ3lhMkFuS2l6OW5OVkxyZWkwWDVCZ3VhN0ZRQzBzajkteDhEVkY0SzJodkcxeXZCTFY5OG5WNmlkVW5YbFZHLWFlRlFEMmlSN2pMMWhtRzFBclBCUWhzTTk4RVVtOENUeEg0c1MwOFFwWlVQOWh4bk1FTWFfU0Z6WTE0WUN5TEY3",
     "https://www.mmamania.com/?p=469927",
     "CBMickFVX3lxTE0yYy1iZlJSdi1xemdMSHFIdjdXQWpSb1RpQkIxSF95ZDVvWjdkVkFia1hRQzdreXBkM1JUT1BhUk15ZUZPWXpRR3F0UmlPOXhnaTZkSDhFcXFIQWQ2aHhfVXpQM1RaT2NudjR6My1OZDRtUQ",
@@ -6411,11 +6410,12 @@
     "3f405351-8e9c-329c-924e-2eb511dbf36b",
     "c7bd2ff0-69f2-349c-805e-a7f699b51a2b",
     "https://www.sherdog.com/news/news/Sean-Sharaf-shocks-Gable-Steveson-with-12second-KO-at-UFC-331-202866",
-    "177977e3-af4b-3d34-9567-523d0b956930"
+    "177977e3-af4b-3d34-9567-523d0b956930",
+    "ac275619-bdf3-3de5-9911-182bf774f48f"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 83,
+    "ai": 84,
     "staged": 4,
     "prio": 0,
     "lost": 0
