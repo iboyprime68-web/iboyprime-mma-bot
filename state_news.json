@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a4d65cd94f28c197": 1789883697.230832,
     "97eb3e50f0f9c380": 1789883673.963624,
     "f35467d4d1331248": 1789883650.365863,
     "5b24de5a9bb17326": 1789883626.5815437,
@@ -2498,8 +2499,7 @@
     "e0ca0b22da5b88ea": 1789308878.444119,
     "d2901930f9f816f4": 1789308853.760985,
     "d09c40f67e97140f": 1789308830.4401317,
-    "b4e6280630faa0e6": 1789308807.2119288,
-    "20b60533cdfc1dfc": 1789308783.2446046
+    "b4e6280630faa0e6": 1789308807.2119288
   },
   "initialized": true,
   "v": 4,
@@ -4747,16 +4747,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T01:57:48+00:00",
       "cluster": "cd48b8d25fa"
+    },
+    {
+      "t": "Gable Steveson brutally knocked out cold in 12-second upset at UFC 331",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-20T02:13:39+00:00",
+      "cluster": "cff5cd33ec8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T05",
-    4
+    5
   ],
   "yt_eval": [
-    "9a4dacf7-3370-38e6-b99f-bacb7ac77218",
     "01450e83-0097-3738-ab60-a900c5a82f20",
     "bf8f83ee-94ba-3f5e-9c2c-1b1b0af30275",
     "https://www.mmamania.com/?p=470037",
@@ -6255,25 +6260,17 @@
     "https://www.sherdog.com/news/news/Marlon-Vera-ends-4fight-slide-sets-UFC-bantamweight-knockdown-record-202864",
     "https://bloodyelbow.com/?p=332548",
     "https://bloodyelbow.com/?p=332553",
-    "77aca7ce-5577-30aa-b682-23167dad3c70"
+    "77aca7ce-5577-30aa-b682-23167dad3c70",
+    "https://bloodyelbow.com/?p=332517"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 53,
-    "staged": 1,
+    "ai": 54,
+    "staged": 2,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-08T18:59:59.297101+00:00",
-      "t": "Former UFC Fighter Arrested",
-      "names": [
-        "former",
-        "mexico"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-09T13:37:18.908265+00:00",
       "t": "Dana White indicates UFC done with Michael Page: 'It's pretty obvious'",
@@ -7059,6 +7056,14 @@
       "t": "Tai Tuivasa equals unwanted UFC record as he suffers 8th loss in a row at UFC 331",
       "names": [
         "tuivasa"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-20T05:54:58.241564+00:00",
+      "t": "Gable Steveson brutally knocked out cold in 12-second upset at UFC 331",
+      "names": [
+        "steveson"
       ],
       "img": "photo"
     }
