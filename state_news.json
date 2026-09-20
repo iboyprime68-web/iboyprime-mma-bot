@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7e1cbffc305e11bb": 1789886680.6570406,
     "508171a1aa851b27": 1789886614.875486,
     "189833bf5a4066ae": 1789886614.5213675,
     "af310ada48ef4488": 1789886550.554707,
@@ -2498,18 +2499,11 @@
     "6c9f965eb4e2c8e5": 1789347309.8305032,
     "d4bdf00adee03657": 1789347285.8003597,
     "e159f45faaf20ecf": 1789347285.1645484,
-    "e5a1262b17c52b6d": 1789347285.161762,
-    "946ca4f68c31f788": 1789340541.3822868
+    "e5a1262b17c52b6d": 1789347285.161762
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Khamzat Chimaev Trashes Judges for Sean Strickland Verdict",
-      "source": "heavy.com",
-      "ts": "2026-09-18T13:31:36+00:00",
-      "cluster": "ce4e9508994"
-    },
     {
       "t": "Losene Keita steps into UFC 333 banger vs. Aaron Pico",
       "source": "MMA Junkie",
@@ -4903,16 +4897,21 @@
       "source": "heavy.com",
       "ts": "2026-09-20T05:47:24+00:00",
       "cluster": "cd8734d2781"
+    },
+    {
+      "t": "Highlights! Pitbull Cruz knockouts out Nestor Bravo in dirty brawl, calls out Ryan Garcia (who accepts)",
+      "source": "MMA Mania",
+      "ts": "2026-09-20T04:50:37+00:00",
+      "cluster": "c983925f6fb"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    53
+    54
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330637",
     "d8b8340e-f986-3598-82fd-ad4c46779d2c",
     "https://bloodyelbow.com/?p=330658",
     "https://bloodyelbow.com/?p=330703",
@@ -6411,11 +6410,12 @@
     "CBMif0FVX3lxTFBxMnRWVlNheTZCVFcwczFPZjJ3SzMyYmtfYXVHNjIxQ3RCTXlBV3IyakNtUVdhYXJZVlk5bzIzT1hnc29iYko1NGcyT21TbHhsOC0tR1lGVlZGQzJUZGRpV0pqeExSVnk0NmVwSloxdG5icjgzQ29CT1k0R3o0cjg",
     "CBMiiwFBVV95cUxQUUNjMjVzUlBFNUVoa3F1QUNWOWNJNl8xUzV2WC1JUXRsaXRDdURFbUVpNWNYYWlPYnJQdjEyci01UGJDQWhXbUg2UVlzRnd5TUtnbExPRFBDZ1ZZWG54YzRldENFOEQ1MExnZVJEanhpY25Pd3VaTFc0MFdibldnbzZMU0p4Q1JoTEQ4",
     "CBMihgFBVV95cUxNdHN3Tnh2ejVaZnA5ZnJBTnpUNFVzTjJHVUpHMFpxbUJrd2M1VWtLTmVaajRpcFRhMjlUaU5yU0ZxMEZGWDMxeFNwTTI5WUV0dUo0dWpVc2xwX1U0S00yNTBYbkFhTUJFUTEtVHZiNXpzQVJyZVB5cEJIZERZbXpmX09wX2FzQQ",
-    "CBMifkFVX3lxTFBRLVNBR3RXRkppaDlGZVg5OW9LYjFOaGlpTTFGX2ppa1diZm01Z0FHdEtjdXROZVFEeHN3UzFDeURwSlg3cXhSN3dscTZ0S0paNDNsNWNyLTc3N1hYc25IQWQ0eXZkOXR2WFd5cEtRbFh0YVFzSGc5YkMtTkhXQQ"
+    "CBMifkFVX3lxTFBRLVNBR3RXRkppaDlGZVg5OW9LYjFOaGlpTTFGX2ppa1diZm01Z0FHdEtjdXROZVFEeHN3UzFDeURwSlg3cXhSN3dscTZ0S0paNDNsNWNyLTc3N1hYc25IQWQ0eXZkOXR2WFd5cEtRbFh0YVFzSGc5YkMtTkhXQQ",
+    "https://www.mmamania.com/?p=473673"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 119,
+    "ai": 120,
     "staged": 5,
     "prio": 1,
     "lost": 0
