@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7df18aa82f1dcb8b": 1789883989.293431,
     "46c34cf0e25aa250": 1789883965.825867,
     "676ad42defce0ca1": 1789883965.3579407,
     "ab2358304542183b": 1789883965.3294728,
@@ -2498,8 +2499,7 @@
     "f7528983ad8c4e5b": 1789309528.1974666,
     "62d1c0c200bafea8": 1789309527.9870548,
     "c10be3f5df6c2a8e": 1789309463.7671614,
-    "34d3d942d6b8aef2": 1789309463.5206106,
-    "045d66cf6bcd6c84": 1789309399.3302522
+    "34d3d942d6b8aef2": 1789309463.5206106
   },
   "initialized": true,
   "v": 4,
@@ -4819,16 +4819,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T02:29:43+00:00",
       "cluster": "c254191f66d"
+    },
+    {
+      "t": "Joshua Van vs Alexandre Pantoja 2 result: UFC 331 main event goes the distance after disastrous first try",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-20T04:03:36+00:00",
+      "cluster": "c74ae686462"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T05",
-    16
+    17
   ],
   "yt_eval": [
-    "77e1075e-74dc-30f8-ba71-59df9d3cfba2",
     "https://bloodyelbow.com/?p=330633",
     "https://www.mmamania.com/?p=469678",
     "https://bloodyelbow.com/?p=330600",
@@ -6327,11 +6332,12 @@
     "b040581a-796c-32a1-be8c-a7b5b5f84b38",
     "https://www.sherdog.com/news/news/Dana-White-said-Ciryl-Gane-wasnt-undisputed-champ-UFC-says-otherwise-202862",
     "https://www.mmafighting.com/?p=511296",
-    "4a428812-6bf9-37bb-9cc4-b0d6bd74d704"
+    "4a428812-6bf9-37bb-9cc4-b0d6bd74d704",
+    "https://bloodyelbow.com/?p=332628"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 65,
+    "ai": 66,
     "staged": 3,
     "prio": 0,
     "lost": 0
