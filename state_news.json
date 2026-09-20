@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6c3a6160456b5e5a": 1789884012.5999246,
     "7df18aa82f1dcb8b": 1789883989.293431,
     "46c34cf0e25aa250": 1789883965.825867,
     "676ad42defce0ca1": 1789883965.3579407,
@@ -2498,8 +2499,7 @@
     "f84e0c2ab2fc9d6f": 1789309576.3986433,
     "f7528983ad8c4e5b": 1789309528.1974666,
     "62d1c0c200bafea8": 1789309527.9870548,
-    "c10be3f5df6c2a8e": 1789309463.7671614,
-    "34d3d942d6b8aef2": 1789309463.5206106
+    "c10be3f5df6c2a8e": 1789309463.7671614
   },
   "initialized": true,
   "v": 4,
@@ -4825,16 +4825,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-20T04:03:36+00:00",
       "cluster": "c74ae686462"
+    },
+    {
+      "t": "Joshua Van vs. Alexandre Pantoja 2 full fight video highlights",
+      "source": "MMA Fighting",
+      "ts": "2026-09-20T04:05:22+00:00",
+      "cluster": "cbb67c4b37b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-20T05",
-    17
+    "2026-09-20T06",
+    1
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330633",
     "https://www.mmamania.com/?p=469678",
     "https://bloodyelbow.com/?p=330600",
     "https://www.mmafighting.com/?p=509024",
@@ -6333,11 +6338,12 @@
     "https://www.sherdog.com/news/news/Dana-White-said-Ciryl-Gane-wasnt-undisputed-champ-UFC-says-otherwise-202862",
     "https://www.mmafighting.com/?p=511296",
     "4a428812-6bf9-37bb-9cc4-b0d6bd74d704",
-    "https://bloodyelbow.com/?p=332628"
+    "https://bloodyelbow.com/?p=332628",
+    "https://www.mmafighting.com/?p=511352"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 66,
+    "ai": 67,
     "staged": 3,
     "prio": 0,
     "lost": 0
