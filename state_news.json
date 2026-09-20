@@ -1,5 +1,6 @@
 {
   "seen": {
+    "953b95f8a26edcab": 1789916409.9906561,
     "9187bb787a3ff742": 1789916161.8606892,
     "94a2ea3b90d723fb": 1789916161.857974,
     "10a71cde1b586858": 1789916098.421221,
@@ -2498,18 +2499,11 @@
     "6f9f5cb406d740f1": 1789411171.9535067,
     "43c5d7fd18b81337": 1789411103.6055675,
     "0be6bc2c00be77c3": 1789411103.3102064,
-    "b23268eabf0c3424": 1789411103.307616,
-    "1fdc427ba791bb95": 1789411035.1825655
+    "b23268eabf0c3424": 1789411103.307616
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331: Arman Tsarukyan is fighting for a title shot, but is Ilia Topuria still in the driver's seat?",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-18T18:27:02+00:00",
-      "cluster": "cc8122cfd93"
-    },
     {
       "t": "Alexandre Pantoja promises Joshua Van is ‘going to suffer’ at UFC 331",
       "source": "MMA Fighting",
@@ -4903,16 +4897,21 @@
       "source": "CBS Sports",
       "ts": "2026-09-20T14:39:56+00:00",
       "cluster": "c43828054a6"
+    },
+    {
+      "t": "Joshua Van reveals he fought UFC 331 with debilitating injury which affected fight camp",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-20T15:00:00+00:00",
+      "cluster": "c070eb62d24"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-20T14",
-    23
+    "2026-09-20T15",
+    1
   ],
   "yt_eval": [
-    "CBMieEFVX3lxTE9nbkc2MDJMSTJETjdfV0ZIOGxub2FSVkFMVTJaZm9ta19nUXE3X2JsNk83S1hXVXk2TEgtZVBsd0JhZGpSY2NvNkdPRFZ0YnVnbGk3Q0k0aFBZaEltMVVUZWRlUVNhRWlrRngwN3JaWldQSjYwODFicw",
     "https://www.mmamania.com/462311/the-mania-mailbag-august-10-get-your-questions-in-now",
     "CBMiekFVX3lxTFBNYThKVnVaSlNqel9NNG9zcVpINGtab2thYWNZSzhHU3h0cFBzR3NzRDJBU3NkU2xWREs2dTFxdTBtNVV1cDJub2RvTnBiazhsYUY4WkkwVnBOdDR4ZDM1eG5DUGE1cUlLa2dYTF9FSVRZSkFmeEJBWFN3",
     "CBMixAJBVV95cUxNQWpNMHBCaHRfQ1dScTJULXY4cFg2Z0R6UXQ2OTE4QkpNUWU4QTZGZEJKZGFaM2QzbjY0VHhEeGFOX2NObm0taFJreWx4Q2J6RE0xaXUxV2lfT3hiZkNIalFkcFNqRkpTNkgyV0tqbHl6cl9tazBGcUU3QVJPM3g2RUdhS0hHakhJQV9iNU1MdVo2eXZBRGRHRVhjeGhIQm43YmVVUUM0d3BseFNDajJIbHNMSWk5STRCXzk1WEVtemlVMWdMVm1ITEkta0syZm9pZjgtNjh6WmtZdl9HenhtVlRybng2eTBGcFZQZTVOMTA0S1dkVjdWa2VhNlpOSkpTYU11U3J0MkQyNEJOTW84SnMzS05SWEJuWUZFN0VnOTc5cE1fbWdaUkw3SVFMZEEyMWp4d2J6ZjJ0TldFQ0tQald4aDg",
@@ -6411,7 +6410,8 @@
     "CBMifkFVX3lxTFBlVy1xTWFXbFZjaHNxQm93U2ZBQkRGM3V4TEVkMU5faWVtWVJWQ3Z0RXJNQUpXTGlUcU04RUJpeWkzZHFNRkJsVUtUVjQ4Skd4Q3hNU0U1MEJHLUItckVqZmx0VHlWTEdudlB6dEpVTXJHWjQzM1NIODAtRklmQQ",
     "CBMiaEFVX3lxTE9mWXJ5cnFLdzFxRFkxNUVsUkp4S0g4TXhpMWJhOFJpMGVCXzRvYXBNUWQ3dEVXNzhVb2l2dFhUR1gyTzBFa0F0RS16WlJ1Mnk4TlNuVlBHTFZ1d3JvSElUd0R4T2daa0dW",
     "CBMingFBVV95cUxORE1zWlBJN1Y4ODI2cGZJdC1TN2x1aVp1Tjg5LWJYYmJvVXZ1b0ZvZkpwVmF5RlpOOEhHMFhIeTYybHZPc3ZKaEVRd181bDV1dlAwVFBKcnMtZXFyaXA5amZMNVVINm94QmotV0YtNjhDbC1PQjUyOWhiT2UwOHlMZ3lwbE1FT1k0N3RiZ205V05MMnY5MGhvaS1pNmZvQQ",
-    "CBMisAFBVV95cUxQWHFPWHhxcFFoU24tOUE3aW03X0VVY0V1SGRqaUFRRTFfanhRNGJWUU1tV1FjSWRoZnF0WmdXUExKS3dBNXJpSGM3ZmhyQnFUVXVZN3p1SU9VQmxpZXlIWjkzNGhUYUQweURUWDlTWEJQVzAydmlzbndFOVhoZ3BsdllxZUczS08wRzYtYmF4M1FOSWdibW1CNkZRQkxfMHdpMjNIaEsyLWFqZ1N5SE1nYw"
+    "CBMisAFBVV95cUxQWHFPWHhxcFFoU24tOUE3aW03X0VVY0V1SGRqaUFRRTFfanhRNGJWUU1tV1FjSWRoZnF0WmdXUExKS3dBNXJpSGM3ZmhyQnFUVXVZN3p1SU9VQmxpZXlIWjkzNGhUYUQweURUWDlTWEJQVzAydmlzbndFOVhoZ3BsdllxZUczS08wRzYtYmF4M1FOSWdibW1CNkZRQkxfMHdpMjNIaEsyLWFqZ1N5SE1nYw",
+    "https://bloodyelbow.com/?p=332751"
   ],
   "daily": {
     "d": "2026-09-20",
