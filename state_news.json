@@ -1,5 +1,6 @@
 {
   "seen": {
+    "27cbf1f04311883d": 1789902014.3024309,
     "123ee20ad8815e41": 1789901992.4710257,
     "661cd27f12d20cd2": 1789901970.5184193,
     "0fd706c87bcf2691": 1789901947.9831831,
@@ -2498,18 +2499,11 @@
     "98125e2c3178945f": 1789365493.6313705,
     "18c8e2d0962de9de": 1789365470.7260032,
     "861b59e2c69a3a01": 1789365446.3206358,
-    "b2f2758aa36a366b": 1789365415.9874113,
-    "f40b84580ea23db4": 1789365392.850795
+    "b2f2758aa36a366b": 1789365415.9874113
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Surprise fighter tops USA TODAY Sports' UFC pound-for-pound list",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-18T11:02:23+00:00",
-      "cluster": "c4f5ab568f6"
-    },
     {
       "t": "Missed Fists: Kye Genesis executes nightmarish arm-breaking submission",
       "source": "MMA Fighting",
@@ -4903,16 +4897,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-20T10:00:00+00:00",
       "cluster": "cd116f277dc"
+    },
+    {
+      "t": "Dana White shares images of gruesome injury suffered by UFC 331 star who scored upset win",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-20T11:00:00+00:00",
+      "cluster": "cc1a3c3a948"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-20T10",
-    5
+    "2026-09-20T11",
+    1
   ],
   "yt_eval": [
-    "e673520f-da77-3ced-bc3c-a394518bb246",
     "4652b064-0aad-38ac-8995-1b07e4abc9a9",
     "a10ede57-8a18-3ef1-830a-7a170a7704e3",
     "ec748f67-a90d-3e23-9084-45039a40dd9c",
@@ -6411,7 +6410,8 @@
     "https://bloodyelbow.com/?p=332695",
     "https://bloodyelbow.com/?p=332688",
     "4fc50ecf-c0d5-3814-b701-575941539790",
-    "https://bloodyelbow.com/?p=332701"
+    "https://bloodyelbow.com/?p=332701",
+    "https://bloodyelbow.com/?p=332728"
   ],
   "daily": {
     "d": "2026-09-20",
