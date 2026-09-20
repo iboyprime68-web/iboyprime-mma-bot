@@ -1,5 +1,7 @@
 {
   "seen": {
+    "ab2afc23feb60e2a": 1789885039.3566954,
+    "3c6cae4b815f37d5": 1789885039.0947216,
     "0b35cf3caa86f9fc": 1789884974.4332669,
     "bca7fc4bc55db724": 1789884909.8890269,
     "c5ddeae1ec462468": 1789884909.4039915,
@@ -2497,19 +2499,11 @@
     "a14059c5012b1129": 1789331871.712828,
     "c4d4d8e8f4b8397e": 1789331847.6145175,
     "d854218614ec7490": 1789331824.911984,
-    "9add7f225d29cbda": 1789331802.293798,
-    "32b15c9359992b76": 1789331778.799568,
-    "13963e8d9827e8b3": 1789331755.4043024
+    "9add7f225d29cbda": 1789331802.293798
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331: Tai Tuivasa vs Robelis Despaigne Preview & Prediction",
-      "source": "The Stats Zone",
-      "ts": "2026-09-18T09:04:00+00:00",
-      "cluster": "c70c2a46cb3"
-    },
     {
       "t": "Jon Anik reveals why Ilia Topuria may have accused Justin Gaethje’s of tampered gloves amid comeback talk",
       "source": "The Times of India",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T04:41:57+00:00",
       "cluster": "c6bc6b36eb4"
+    },
+    {
+      "t": "UFC 331: Sean Sharaf cashes ‘Chaos’ bonus after embarrassing Gable Steveson",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T04:48:44+00:00",
+      "cluster": "c5c5efba399"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    24
+    25
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=470015",
     "CBMipAFBVV95cUxQNmNzUHRDRGFkVEVZMC1TMDcxblc5Q2tqaU1GOFRtVmxCcE5Yd0IycVhmV09iSlZzWjlTUGUxV1hlOWx2eXNKTzBQVGxFTkRyLThOUHJvYnFwanNWU3FIV2dmamszM0RKbHNmS0Nsc1dXbkwyZC1BZnhzSmVmVWpDSnc1djFxd0NMXzRydVhKcFRqS0piNnNmSnUzNi1FVEFaS0JSMA",
     "CBMiekFVX3lxTE96Q2hfcGRzaTNwVi1pR2RibW02bEYzaU03bDFfcmZlSmdTajV6bk5UWW9hZTBhNWxFRW9CdHJRT0VobFdqTXlxQlA0aU9obGZBazV3VUo5VGFEN1ZOeGxkajN5QVRLenIxdVZwUGlINkZmRWo2OFUwVkRn",
     "https://www.mmamania.com/?p=470088",
@@ -6411,11 +6410,12 @@
     "09c3d4e5-d19e-37d2-997b-df035c86e067",
     "https://www.sherdog.com/news/news/Joshua-Van-Carves-Up-Alexandre-Pantoja-to-Retain-UFC-Flyweight-Champion-at-UFC-331-202851",
     "d2d85494-0bf3-3bcb-99af-389c11539be1",
-    "673bb810-30b3-33f4-9b51-938fa9c9d177"
+    "673bb810-30b3-33f4-9b51-938fa9c9d177",
+    "a5f9beb8-f18b-3564-a4e4-93b546c19c54"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 90,
+    "ai": 91,
     "staged": 4,
     "prio": 0,
     "lost": 0
