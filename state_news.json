@@ -1,5 +1,6 @@
 {
   "seen": {
+    "28a84bf7af77dad1": 1789868505.3827467,
     "647327cbb9596e98": 1789868460.9620903,
     "d811837b6f254ce9": 1789868437.309692,
     "d052e9d44c7c5a55": 1789868436.0616755,
@@ -2498,8 +2499,7 @@
     "00dbc6ace4aae3d4": 1789293282.5313365,
     "a319a2d31b48cf83": 1789293156.6238573,
     "ff23a2505de735c1": 1789293154.3710856,
-    "bfb7a73a673c219e": 1789293108.1815326,
-    "3a8c8f0676abf70e": 1789293084.2668514
+    "bfb7a73a673c219e": 1789293108.1815326
   },
   "initialized": true,
   "v": 4,
@@ -4879,16 +4879,21 @@
       "source": "LowKickMMA.com",
       "ts": "2026-09-20T01:15:40+00:00",
       "cluster": "c588fdacbe9"
+    },
+    {
+      "t": "CHACK* UFC 331 live stream Full Fight highlights and play-by-play",
+      "source": "Art Hives",
+      "ts": "2026-09-20T00:45:01+00:00",
+      "cluster": "c74fe3d4512"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T01",
-    33
+    34
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330576",
     "https://www.mmafighting.com/?p=508946",
     "https://www.mmafighting.com/?p=509003",
     "https://bloodyelbow.com/?p=330558",
@@ -6387,11 +6392,12 @@
     "CBMikwFBVV95cUxOSTFpTHYyNTJzVnc1R0kzbGcyWFlIQVotX2lGREJKZVJfeGhwUGhTM2pITnEyclJKN2RfU0JtTGQtNUdpWTVpbm1OYkNoMGNlZkloYkdYdFd0bHN1RzdJYTNON3VwZFFERWZvMTFVTkpWSTBIRjdnRndsVmNZOF9ubXNpclhOdUE1RFNVMTVfa3JqOGM",
     "CBMirgFBVV95cUxPMUtXWlVmVks0NUwxdnR5Wk15T1dBcFpFU3RVX0tGdlFYYTVtNGpRRUpXeWVtTDh5c1IyaklvOVoxellTc1FTQzAtb1F4Y1BlVk16RjhQd0ZtQXNob1REeEVSbGY0b3pteldRa3VOWmxaNVlEUXdpYnBvT2xJS29udS1kN2NvYm1PUkoxSEZpVmdKa0JlTUFORzFwUnBJNl84eGhidUFnLU1nU044SFE",
     "CBMikgFBVV95cUxPdmZ5T1dPcWJJUEU1QXlnbko5RzE5ZW9JUWVXdXBwSHl1cW5hUDFKRnZqNlU5c2dUeGVxOWxFMVpXOUdtTEVTWVV1SVNlbXZNWDgtSWZnOTRxS183bllVTVAyY3lvUnVhblpCeWc4Ykh4Z2laQnZCM2FUTVV3N2RkcVFoNHByUTJWelAyRGpjbDB3UQ",
-    "CBMid0FVX3lxTE1QeWxJVXplQTZrQllxMTlXT3RMeS14SXVEajg1dm4wdlRTWV9PMzN0eEd1VXN1S2hMRFFncWxVNWk4RWh6Q0wyYmFWNE1KXy1TSndfc09PNHdLTzFDMldOTlRYZ0laVUNMeE9YRzgydVBsS0lMZkQ0"
+    "CBMid0FVX3lxTE1QeWxJVXplQTZrQllxMTlXT3RMeS14SXVEajg1dm4wdlRTWV9PMzN0eEd1VXN1S2hMRFFncWxVNWk4RWh6Q0wyYmFWNE1KXy1TSndfc09PNHdLTzFDMldOTlRYZ0laVUNMeE9YRzgydVBsS0lMZkQ0",
+    "CBMilwFBVV95cUxOS2tHc2tYQXZrZF9fVlpYYlk2RVhETDNxb2s5M1d6c2dlVk5MV3gtQlRxaWpPb0Q0S05ET09SLW9sZjZHaGdWRWVlYTBUd0tmblFGWU5iY24zdmppaEpZRHBabEZhb0JyQVJLbGhqTDRhY3M0R3I4MkZKTXBhbTBNUmtZLU9OaE54cHpiSWRvZkk5Q2xBTEhz"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 46,
+    "ai": 47,
     "staged": 1,
     "prio": 0,
     "lost": 0
