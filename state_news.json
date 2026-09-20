@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5ee0ff4b12f10ecb": 1789904490.2615469,
     "3ae640f152d91a3c": 1789904405.9385147,
     "c03b63e91924f96b": 1789904240.4504282,
     "abd49625ef56b819": 1789904094.5149055,
@@ -2498,18 +2499,11 @@
     "8db9c6ab20e28213": 1789390040.9275978,
     "a4a105a516c9a986": 1789390015.9256058,
     "43ba3f1b0eb43c0d": 1789389971.3481338,
-    "47d62d83a52c547d": 1789389905.4022834,
-    "f1080d30908068e8": 1789389839.213917
+    "47d62d83a52c547d": 1789389905.4022834
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Arman Tsarukyan Says Ilia Topuria Making ‘Excuses’ About Loss",
-      "source": "heavy.com",
-      "ts": "2026-09-18T17:29:47+00:00",
-      "cluster": "ce70c204ecd"
-    },
     {
       "t": "Dana White Dismisses Ilia Topuria's Accusations Against Justin Gaethje: \"I Missed That\"",
       "source": "MMA Sucka",
@@ -4903,16 +4897,21 @@
       "source": "Sportskeeda",
       "ts": "2026-09-20T11:30:00+00:00",
       "cluster": "c669d3a0f81"
+    },
+    {
+      "t": "All-time UFC upset as star KO’ed in 12 seconds",
+      "source": "Geelong Advertiser",
+      "ts": "2026-09-20T11:37:33+00:00",
+      "cluster": "c52f5d5d273"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T11",
-    25
+    26
   ],
   "yt_eval": [
-    "CBMihAFBVV95cUxQeXF4X0ktaGt0WTJHeVc3dDlteUJnVElERURxaHNLYXBYNFpJc3NBNDEzazFLYVZROHRCbzU3aEZIMi1OakVjNDJxUEVzN2FkVEhOSW93YW4wZ09KVlRoT3VVN25mTVFzOFUtajdBUVM2THNIVTVEQjRNYjN1UUptam5Pdk4",
     "https://www.sherdog.com/news/news/Islam-Makhachev-accepts-Jordan-Burroughs-callout-with-one-condition-202690",
     "CBMiakFVX3lxTE9RUjVveWpkZHU5UXVKRmNWbU91ZTYtQW5mWEVtclpVS0hJWlJGNC1SNGZUNUlBUWszZ0dscnRSTmpDQVlIR1VtLWFJSncyendfeTVsdFI3Y1k1Z3FJMWtfalhYUmZha0YydkE",
     "CBMiXkFVX3lxTE5tdG85QmtfS04yQXhpTmtRWlFmNkwzUU9EQ3pDck0wS09OalF2QXJCTTlQRUF2cVFOU2tyenExWXpoNzhhR1VtZTlOeWtqU2ZsU3pncjJPREZnbkNHSEE",
@@ -6411,7 +6410,8 @@
     "https://www.sherdog.com/news/news/Dana-White-fires-back-at-claims-he-doesnt-like-Tom-Aspinall-202873",
     "CBMixAFBVV95cUxQX3NKZVA3RnZBaE1SUm45bkZTWVktNHM5NUozWVBTRjZTNEJ5MnlBREVndnFyckpic3gxbVBVT2tuTXg0VFc3VDlNel9xSzJZb2cwQmxTeEk4SmZtMUxMZGNzdFNmYmNZTkkxMlpSQno1Q1pXcE9tUnRkU0tvaHl3VERmcVk0QkRzcnhKMHRjUGVLNmpiTml1LVZQaE9kR0pzTFlfQUVHdGp6SDd5U2l3Wkc1bUtsejJXOUg4SWpIemIyY0tP",
     "https://www.sherdog.com/news/news/Video-All-7-UFC-331-finishes-from-a-wild-night-in-Los-Angeles-202876",
-    "CBMirAFBVV95cUxOQUpMVUxMMDdDbkNNNzJsVV9JU0YyRkdiLS1xOUd2Z1hoVUQweldmR2QxaTlsdVJlS0JwNXdjQnlvVllCdVRDUFZfdWZKdV9CZzJUSWdUaldpUldGVXpiTHM3d1NmX0ZyNnYtREZ0cW5Fd0pzdWY5QUZKZUkwODlrUDhYcWRtaE1qUEJfeUc1NUpPUWhGY3BQT05icUdtNGVfaFhCdm5GVWEwRU1T"
+    "CBMirAFBVV95cUxOQUpMVUxMMDdDbkNNNzJsVV9JU0YyRkdiLS1xOUd2Z1hoVUQweldmR2QxaTlsdVJlS0JwNXdjQnlvVllCdVRDUFZfdWZKdV9CZzJUSWdUaldpUldGVXpiTHM3d1NmX0ZyNnYtREZ0cW5Fd0pzdWY5QUZKZUkwODlrUDhYcWRtaE1qUEJfeUc1NUpPUWhGY3BQT05icUdtNGVfaFhCdm5GVWEwRU1T",
+    "CBMi-wFBVV95cUxPQi1tcDVzZEFnNDZqOUdjQjhXTVg4M2RRYU1nQlhocWUzVDBVYm1DLTFFMW1waXJYUHNmT2lCelZpaDBqa2xrTmRaaE1XalZfenMwYm1sR09zaXJOTkt6UW4za1dnNG80VW80elpsTUJMUk8zOUFfU3NYZ0xSQXJRZHphd291TVBib1JVdFM0Y3ZXLTlQVmFDZkcxNkhwOEFTUEUwLWNlYVMtbmVxeDFJUmZMYld1eTBDTUFyVmtJbmJTcVp3QU1RREtaWHZWS2FtcE1JWmh4bHpBX1BTcF9PM20zUjJMYWVZc1M3aW9tc0hWUXFvanNpTFFxaw"
   ],
   "daily": {
     "d": "2026-09-20",
