@@ -1,5 +1,8 @@
 {
   "seen": {
+    "d2b9033de43f25e9": 1789868571.277042,
+    "14e8b834b1441ae4": 1789868570.9835896,
+    "e91fd82982bc4ed2": 1789868570.981798,
     "28a84bf7af77dad1": 1789868505.3827467,
     "647327cbb9596e98": 1789868460.9620903,
     "d811837b6f254ce9": 1789868437.309692,
@@ -2496,10 +2499,7 @@
     "44d3cd405bae8780": 1789293656.091926,
     "cb951aaadb53c377": 1789293428.259638,
     "54c4c8d8501ddb58": 1789293428.2574584,
-    "00dbc6ace4aae3d4": 1789293282.5313365,
-    "a319a2d31b48cf83": 1789293156.6238573,
-    "ff23a2505de735c1": 1789293154.3710856,
-    "bfb7a73a673c219e": 1789293108.1815326
+    "00dbc6ace4aae3d4": 1789293282.5313365
   },
   "initialized": true,
   "v": 4,
@@ -4885,16 +4885,21 @@
       "source": "Art Hives",
       "ts": "2026-09-20T00:45:01+00:00",
       "cluster": "c74fe3d4512"
+    },
+    {
+      "t": "All you need to know about UFC 331 ⬇️",
+      "source": "bloodyelbow.com",
+      "ts": "2026-09-20T00:54:47+00:00",
+      "cluster": "ca4bd8e8f05"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T01",
-    34
+    35
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508946",
     "https://www.mmafighting.com/?p=509003",
     "https://bloodyelbow.com/?p=330558",
     "cb1c0dc9-9255-350b-8224-892fb26afd1e",
@@ -6393,11 +6398,12 @@
     "CBMirgFBVV95cUxPMUtXWlVmVks0NUwxdnR5Wk15T1dBcFpFU3RVX0tGdlFYYTVtNGpRRUpXeWVtTDh5c1IyaklvOVoxellTc1FTQzAtb1F4Y1BlVk16RjhQd0ZtQXNob1REeEVSbGY0b3pteldRa3VOWmxaNVlEUXdpYnBvT2xJS29udS1kN2NvYm1PUkoxSEZpVmdKa0JlTUFORzFwUnBJNl84eGhidUFnLU1nU044SFE",
     "CBMikgFBVV95cUxPdmZ5T1dPcWJJUEU1QXlnbko5RzE5ZW9JUWVXdXBwSHl1cW5hUDFKRnZqNlU5c2dUeGVxOWxFMVpXOUdtTEVTWVV1SVNlbXZNWDgtSWZnOTRxS183bllVTVAyY3lvUnVhblpCeWc4Ykh4Z2laQnZCM2FUTVV3N2RkcVFoNHByUTJWelAyRGpjbDB3UQ",
     "CBMid0FVX3lxTE1QeWxJVXplQTZrQllxMTlXT3RMeS14SXVEajg1dm4wdlRTWV9PMzN0eEd1VXN1S2hMRFFncWxVNWk4RWh6Q0wyYmFWNE1KXy1TSndfc09PNHdLTzFDMldOTlRYZ0laVUNMeE9YRzgydVBsS0lMZkQ0",
-    "CBMilwFBVV95cUxOS2tHc2tYQXZrZF9fVlpYYlk2RVhETDNxb2s5M1d6c2dlVk5MV3gtQlRxaWpPb0Q0S05ET09SLW9sZjZHaGdWRWVlYTBUd0tmblFGWU5iY24zdmppaEpZRHBabEZhb0JyQVJLbGhqTDRhY3M0R3I4MkZKTXBhbTBNUmtZLU9OaE54cHpiSWRvZkk5Q2xBTEhz"
+    "CBMilwFBVV95cUxOS2tHc2tYQXZrZF9fVlpYYlk2RVhETDNxb2s5M1d6c2dlVk5MV3gtQlRxaWpPb0Q0S05ET09SLW9sZjZHaGdWRWVlYTBUd0tmblFGWU5iY24zdmppaEpZRHBabEZhb0JyQVJLbGhqTDRhY3M0R3I4MkZKTXBhbTBNUmtZLU9OaE54cHpiSWRvZkk5Q2xBTEhz",
+    "CBMizAFBVV95cUxNbG5PbEdIOXJyMGpmSU9Qc2k0OGtrRGJDNlZjUDYtYS1jNmdPTXMwWHoxTDhnN2EwRXM4RVkzQXRPdGdVQ094aDc4bE1uNHdMMmQ3eXpBQXpEVUVleXZ5aG82cE4zdzVNSUctenpqRVM2NVFoRm84aEpDcFVwY2hXdGw0c1dZSlV4REFvSXVSaG9ydXloRDk0NkdjcXl1TWpfX29vRzZWRzlTbXN0dGFFbDRRUDBHcHFJOGNLaHlwYlAyV0pmQmU1ajBtTTc"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 47,
+    "ai": 48,
     "staged": 1,
     "prio": 0,
     "lost": 0
