@@ -1,5 +1,7 @@
 {
   "seen": {
+    "71b33a5f42ce144b": 1789867593.9811175,
+    "f0f55fcf29aeb9e2": 1789867593.708342,
     "4a2ddf0ca44951d6": 1789867527.2109678,
     "4ade9332ca3c8ec4": 1789867526.875361,
     "1a5b147632aa36e3": 1789867526.8750806,
@@ -2497,9 +2499,7 @@
     "dc97501468d89d61": 1789291967.5464935,
     "599c529e91963014": 1789291944.319399,
     "d3a2ac00482e5625": 1789291915.5503566,
-    "f1149621b8b98289": 1789291891.712983,
-    "219f969ba161b269": 1789291868.056049,
-    "762c3712e05d6bad": 1789291867.778021
+    "f1149621b8b98289": 1789291891.712983
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-18T03:00:00+00:00",
       "cluster": "cca11fc9ae3"
-    },
-    {
-      "t": "UFC 331 full press conference faceoffs: Some calm, some heated",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-18T01:25:37+00:00",
-      "cluster": "cd75a767689"
     },
     {
       "t": "Watch: New UFC signing Luis Hernandez was previously credited with the fastest MMA KO of all time",
@@ -2545,12 +2539,6 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-18T01:56:09+00:00",
       "cluster": "caf3b4ce483"
-    },
-    {
-      "t": "Slap happy! Ex-UFC fan favorite Chris Barnett wins Power Slap debut &#124; Video",
-      "source": "MMA Mania",
-      "ts": "2026-09-18T01:26:06+00:00",
-      "cluster": "cc27cb2404b"
     },
     {
       "t": "Alonzo Menifield: Firefight with Iwo Baraniewski at UFC 331 could benefit local families",
@@ -2665,12 +2653,6 @@
       "source": "MMA Sucka",
       "ts": "2026-09-18T04:24:03+00:00",
       "cluster": "c6c1cd51323"
-    },
-    {
-      "t": "Arman Tsarukyan vs. Mauricio Ruffy: UFC 331 AI Prediction, Results and Highlights",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-18T01:25:36+00:00",
-      "cluster": "c560b00e0ce"
     },
     {
       "t": "Patricio Pitbull vs. Dooho Choi: UFC 331 AI Prediction, Results and Highlights",
@@ -4861,16 +4843,21 @@
       "source": "MMA Junkie",
       "ts": "2026-09-20T01:18:00+00:00",
       "cluster": "c0e115d7ea8"
+    },
+    {
+      "t": "Marlon \"Chito\" Vera Stops Jourdain In Round 3 | Crypto.com UFC 331",
+      "source": "UFC.com",
+      "ts": "2026-09-20T01:18:02+00:00",
+      "cluster": "c0e4a40eb14"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T01",
-    26
+    27
   ],
   "yt_eval": [
-    "CBMipwFBVV95cUxQVFVQMkNvejFadlFoZndWU0JEUHVvWWtaTnBLWVgxMmFJalZzdVFvajhwNjV1VGh4OWw0QjhLd1NiOVVPdEV6Y2xGZ2sxeHpyOXZHdzZPVVN6NjI1LWp0R0xnRjdWVG9DTC1iYXBKMG5KVjd2UDM4Ylp6SVE0SDVHa1A3YU1PZy1kZWFRVTA2REljSnV0RHZnMlZwUjNQcjE2QlhxNk02Zw",
     "CBMic0FVX3lxTFAzVmMzbVpXdHlVZFdKbXl2anM0Y0tpdzdfcHdWaEh4QTJsX2NlaUZldVZWcENWQ3lVUU9YdGVtZkRRY2xSRXBqX092MVBQTjUxVlNzZlpWQi1sSGNMNlNVRW8wZE9pNndLeFBrQlhKcUd1YU0",
     "https://bloodyelbow.com/?p=330562",
     "https://www.mmafighting.com/?p=508980",
@@ -6369,11 +6356,12 @@
     "CBMirwFBVV95cUxOeGVOaFBHUG4xR2FLYkJJejFqS0xVU3MxbkozM05FZFdXMFhMbWIyV3lWRHlKYUJubFVSTU1WT3RGa2VUVEthTmJsU01LZUJGUG4zTTkzaDdkeFJlendaTWRIUEc1UGE2M0o3d3lTZTc5MU1OdEdkTmdIa05zeTZPSWxYSzltaVltZHFPcjdQN096clRWekJxN3pZallveWZ3NFlNZmJ3M2VRY0loR1g0",
     "CBMilAFBVV95cUxQaHRYWkZuai1aYjFqcW5FVGxrVDM0SzEwRlpYamFGNmNmSUFBNFM3WFZETUpKMzRrb1J1ZVg2WUpSbVg5X3pVM1lCaWcyQkMzTEpvZ1FxeXRWN28xUXFFTk1lTzRQZ2drMXhCNXVrMGpvQkZiTjhRbFpXZHNWUjMzS0tyQ0FLUnY5aGxmbHNJMm5Nd0Z3",
     "CBMinAFBVV95cUxOVUYzenlLclJjNmxiVXltQzdzS1BYd0JzSnU4SHlSaWx1bWR2VHRKaUF2dS0tZ1BTRlZJdzFmLWM1WHRmSG42emhTeGtSN2NKSTJ3QVhTekZhbzV6NnJfUWxnZUlZY1hYNjZMMHpvbEtkbGpSOVk2ZGNMeVpuWnFldkpGRDJSUEZPek1IRHFWdWNYbWtpSFhzR1RBQXo",
-    "CBMiwwFBVV95cUxNUWkycmZMVjZvck1hamVFSHUtTFdacXNsZ2hucWNfNlZFQW55YVhkd2hyVkUtSGZLTVl2eThOY25fbFdqNzlWLU1JMHVDb2tjYmpOR2JEOHZUM2xITlh5NDFpcXUtcFE0TzkzbEQ1dnJmcV9qOHpsZC1KekJQa2Nub0FONGYzLWNIMlpLVWlFejdQOU9DazI0ajYtS09Gdjd4bjRfSEpWMDhpMlFGUUJOTXBETGZ3cVMtNzhleGNPQV9zcUE"
+    "CBMiwwFBVV95cUxNUWkycmZMVjZvck1hamVFSHUtTFdacXNsZ2hucWNfNlZFQW55YVhkd2hyVkUtSGZLTVl2eThOY25fbFdqNzlWLU1JMHVDb2tjYmpOR2JEOHZUM2xITlh5NDFpcXUtcFE0TzkzbEQ1dnJmcV9qOHpsZC1KekJQa2Nub0FONGYzLWNIMlpLVWlFejdQOU9DazI0ajYtS09Gdjd4bjRfSEpWMDhpMlFGUUJOTXBETGZ3cVMtNzhleGNPQV9zcUE",
+    "CBMiR0FVX3lxTFAwZFZfQ284bkFsTG1GUVdWYlRsS1doQUl5VmRwREw4TmExUmFHLTJpZ1hqaVFLUXR2WGRSOV9qejZKdjJIRHAw"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 39,
+    "ai": 40,
     "staged": 1,
     "prio": 0,
     "lost": 0
