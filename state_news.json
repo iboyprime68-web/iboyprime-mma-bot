@@ -1,5 +1,7 @@
 {
   "seen": {
+    "e059538b7088d25f": 1789886377.534208,
+    "a87d11ba01730186": 1789886377.2180495,
     "685feeb329ca2ccb": 1789886353.7042687,
     "5301bdc280982dc2": 1789886289.0016425,
     "ffb2bb3f120b89e0": 1789886224.3280437,
@@ -2497,19 +2499,11 @@
     "ece80ae4b4871b05": 1789340513.9296415,
     "b0793c28de5098d6": 1789340489.0240958,
     "90bbb748f94c359f": 1789340465.133016,
-    "bbdb321f11c1585d": 1789340441.7307734,
-    "e17d5a4f40e9ec0e": 1789333249.3984256,
-    "625002975bb0ec56": 1789333225.9550602
+    "bbdb321f11c1585d": 1789340441.7307734
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331 Has a 26-Second Title Rematch, 5-Round Co-Main and an Olympic Champion — 10 Things to Know",
-      "source": "Athlon Sports",
-      "ts": "2026-09-18T13:20:00+00:00",
-      "cluster": "cea9c5f1401"
-    },
     {
       "t": "UFC 331 Prelims Card Picks & Predictions (2026)",
       "source": "BettingPros",
@@ -4903,16 +4897,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-20T05:41:22+00:00",
       "cluster": "c1b03baea8b"
+    },
+    {
+      "t": "50-45?! Joshua Van blanks Alexandre Pantoja on UFC 331 judge’s scorecard",
+      "source": "MMA Mania",
+      "ts": "2026-09-20T04:43:52+00:00",
+      "cluster": "cb0cf8d67f7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    48
+    49
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=470131",
     "CBMivAFBVV95cUxPNXI5SHBWZExrakZyUFdVZWt5Ul9lTGtrRG93bWlvSUZKY0RaVnEzR190NTNqLXh4cTItRE1OZUVlRElRWlZMdlBDRXBRaF9ob3M3Q0ZJMGNRY1Bvc0sya2dzRjJud0J5SW5GbWtVRjZNamVWUW1fdHhUbmUwbk43NFRuZllKVmE2aWljUEVVOS1zVWRkZXdTTmUzTUpYWFN5RGhDNlEtenp6SGlKRGNYeG9HN3BLUWNJdF9UNg",
     "CBMihAFBVV95cUxPWDZtVDB1Mkc4Q1Q5Tk5EYi1rNzRBaGc5STFzcGZOWW5VR3ZtemVkeGR5MF9RWFhpakZEZnB4Y1NhNVppTnR3MGxMN21xbFI3VUNnemdSQzhHSmNXVDJPcUM3ZmRNY183VHdPQWxONVl3dmUzR2xjaThsS1JUVUc0T2R4V28",
     "CBMiY0FVX3lxTFBkc3lURENTV0J4WFRzamR5MG1pakNvMm9mQVM2cFhILW5PbW5reVR2Tngxb2VLcUxMcHo1VUs0ZWg2clFSUWpNZmxtckE0akJlNF9MV212b0p2NFRRMThMekpCMA",
@@ -6411,11 +6410,12 @@
     "CBMi1AFBVV95cUxQOUw0eFNyenNYeFY4aktlcXEzU1ladm5XVDYzQ2dwbzMwanJHX2VrZGNsbVRkNkJWejdiWVY0Q0NFSXFQZUJOcUZHSEtBMUhRNzdNOHR4bGtUY25sVUMxWGpiQ1dWR25uQU9RR3dwVGIxYV9FUW03Q0dYMURZM1VTZmxUT0xhT0dXZlc5blozc1c2VXdqRmZfTE1CcV9lY3c0R3pBdllVN2l1RkJwcXlDT0J1QnFSaHRZYlhveDZsYXlYRWl4aHdER2d3a0hiTkNucE1Tdg",
     "CBMinwFBVV95cUxNbW5MTTVDLXZKLW9hXzdIdGNxREpLd21hTUZ3VGVPQ1JPSWhFdEhDUW8tazhNY1VQaDFzNlg0eTN3cVdtZDJCbk1SX0l3QnpmZEJrbGxJZnNpNVV4UmZMLXkzdlYtRmNuektVQXc0b3p3NFg5VGNQMkQzb1lLbDEzd0VqNURIU2J1ZHpFYi1kVjNqUHd3VXRqdnk4TnRjQjg",
     "CBMif0FVX3lxTE5jdHFoel9lWkhEQWE5TUt3S0dFQzBmYnR2b0ljN0MwanRQdVhhUmM5cy1qMV9tVElJb3VGaGpMbDQ3WFBObXZoRW5SUExodlhqMVJjcDlrcHpuM01CVDV2UWlfM2pSeHIwbFR2emJrSG9tM01QejAxdGxfbDVDU1U",
-    "CBMivwFBVV95cUxOTWFSY3Ffd3h5SFl4VENHNWprSTBQc1JXb1RYeng4ak0zN0lULW5DOThINHRyeEZlT1U5ckx5OEY3SlE2MlpUd2REdDQ3WV9zWDRHaVpZTUVUd3NnWlpJa3lkSHptU1JLTFJ5Tmd2Vnc2emhkR1ZBbmtfM2xlcjNtaWQzc1FaTjJsQW5vc090Yk5STzNnQk93M0lfWFgtd1RfTXFPT0NGbjlIT2xreFV0Q09BR3BRZGNZNzQ3NHNmcw"
+    "CBMivwFBVV95cUxOTWFSY3Ffd3h5SFl4VENHNWprSTBQc1JXb1RYeng4ak0zN0lULW5DOThINHRyeEZlT1U5ckx5OEY3SlE2MlpUd2REdDQ3WV9zWDRHaVpZTUVUd3NnWlpJa3lkSHptU1JLTFJ5Tmd2Vnc2emhkR1ZBbmtfM2xlcjNtaWQzc1FaTjJsQW5vc090Yk5STzNnQk93M0lfWFgtd1RfTXFPT0NGbjlIT2xreFV0Q09BR3BRZGNZNzQ3NHNmcw",
+    "https://www.mmamania.com/?p=473751"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 114,
+    "ai": 115,
     "staged": 5,
     "prio": 1,
     "lost": 0
