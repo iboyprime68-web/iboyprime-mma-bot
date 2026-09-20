@@ -1,5 +1,6 @@
 {
   "seen": {
+    "97eb3e50f0f9c380": 1789883673.963624,
     "f35467d4d1331248": 1789883650.365863,
     "5b24de5a9bb17326": 1789883626.5815437,
     "edd7b0447dde959c": 1789883603.271738,
@@ -2498,8 +2499,7 @@
     "d2901930f9f816f4": 1789308853.760985,
     "d09c40f67e97140f": 1789308830.4401317,
     "b4e6280630faa0e6": 1789308807.2119288,
-    "20b60533cdfc1dfc": 1789308783.2446046,
-    "b55b1c761732f733": 1789308759.9401999
+    "20b60533cdfc1dfc": 1789308783.2446046
   },
   "initialized": true,
   "v": 4,
@@ -4741,16 +4741,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-20T02:10:52+00:00",
       "cluster": "cfd51f80a20"
+    },
+    {
+      "t": "UFC 331 results: Alonzo Menifield overcomes gruesome cut to upset Iwo Baraniewski",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T01:57:48+00:00",
+      "cluster": "cd48b8d25fa"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T05",
-    3
+    4
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330607",
     "9a4dacf7-3370-38e6-b99f-bacb7ac77218",
     "01450e83-0097-3738-ab60-a900c5a82f20",
     "bf8f83ee-94ba-3f5e-9c2c-1b1b0af30275",
@@ -6249,11 +6254,12 @@
     "CBMibEFVX3lxTFBndGZYZ0dtUEhwdEFkSEpwQ25QTXktRFFqRUV0VTFYZlV5TzdyMjcxLTB0RDBWZFloU1l2eTdVQmgxSUNUTDlFTkh3MnRUb2ZIcHlpZnhGZWdpTkFEVXVqb1NHWU9tV3RqSGlkYQ",
     "https://www.sherdog.com/news/news/Marlon-Vera-ends-4fight-slide-sets-UFC-bantamweight-knockdown-record-202864",
     "https://bloodyelbow.com/?p=332548",
-    "https://bloodyelbow.com/?p=332553"
+    "https://bloodyelbow.com/?p=332553",
+    "77aca7ce-5577-30aa-b682-23167dad3c70"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 52,
+    "ai": 53,
     "staged": 1,
     "prio": 0,
     "lost": 0
