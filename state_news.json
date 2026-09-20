@@ -1,5 +1,6 @@
 {
   "seen": {
+    "09dd22b72a95609b": 1789939068.3991199,
     "73a6eaca8af81fc8": 1789930919.4925947,
     "4185e870f6addc6d": 1789930813.198632,
     "daa0151e08f1c275": 1789930790.4957485,
@@ -2498,8 +2499,7 @@
     "5c559ac2bbeb4f26": 1789426880.3042848,
     "99cdfc3f9c192d23": 1789426880.302274,
     "de13948dabc087db": 1789426880.300283,
-    "9cd8bc87f3420732": 1789426880.2825692,
-    "a225db0265dd258c": 1789426880.2804108
+    "9cd8bc87f3420732": 1789426880.2825692
   },
   "initialized": true,
   "v": 4,
@@ -2887,12 +2887,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-19T13:00:00+00:00",
       "cluster": "c74187a133d"
-    },
-    {
-      "t": "UFC 331 start time, fight card for Joshua Van vs. Alexandre Pantoja 2",
-      "source": "MMA Fighting",
-      "ts": "2026-09-18T19:37:16+00:00",
-      "cluster": "c5ae15c016d"
     },
     {
       "t": "We’re unanimous for UFC 331 main event – but opposite readers’ picks",
@@ -4903,12 +4897,18 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-20T19:00:00+00:00",
       "cluster": "ca3579bb372"
+    },
+    {
+      "t": "Charles Jourdain explains why he waved off his fight in UFC 331 loss to Marlon Vera",
+      "source": "MMA Fighting",
+      "ts": "2026-09-20T06:31:52+00:00",
+      "cluster": "c35ce669da2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-20T19",
+    "2026-09-20T21",
     1
   ],
   "yt_eval": [
