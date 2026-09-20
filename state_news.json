@@ -1,5 +1,7 @@
 {
   "seen": {
+    "52d4f60d43dd33a1": 1789865536.0970576,
+    "56d3f5502b364847": 1789865535.5737476,
     "0cb4c889eff6ee91": 1789865490.3399758,
     "9d9a5ed5fac853c3": 1789865466.6643326,
     "d267e0bd5c8ae9e3": 1789865466.309825,
@@ -2497,9 +2499,7 @@
     "d3ebc052024e1ec8": 1789229430.2400482,
     "66125953632e66bf": 1789229365.5340095,
     "cd8075b13ef8b258": 1789229321.2171438,
-    "515e8ce2b09170d3": 1789229297.8979592,
-    "a00ddebcba688793": 1789229273.183629,
-    "d6d7d078882b163d": 1789229250.1738276
+    "515e8ce2b09170d3": 1789229297.8979592
   },
   "initialized": true,
   "v": 4,
@@ -4669,16 +4669,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T00:48:12+00:00",
       "cluster": "c0ca386092b"
+    },
+    {
+      "t": "Eddie Hearn plots shocking switch to Team Chris Eubank Jr. ahead of Conor Benn trilogy",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-19T23:47:52+00:00",
+      "cluster": "c198228152a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T00",
-    5
+    6
   ],
   "yt_eval": [
-    "5a8a9f92-592f-3cee-845f-e3a66d1893be",
     "https://www.mmamania.com/469580/highlights-open-ufc-paris",
     "e050198b-3fcb-3a55-98ec-b996076429f6",
     "e4ffbf19-482d-3835-8cfe-44a6912867ff",
@@ -6177,11 +6182,12 @@
     "https://bloodyelbow.com/?p=332477",
     "https://bloodyelbow.com/?p=332483",
     "0bb7e096-8588-312b-8ac0-ae3767c039ee",
-    "https://www.mmafighting.com/?p=511088"
+    "https://www.mmafighting.com/?p=511088",
+    "10f9f884-c159-384f-8f83-2fc3efe7327a"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 5,
+    "ai": 6,
     "staged": 1,
     "prio": 0,
     "lost": 0
