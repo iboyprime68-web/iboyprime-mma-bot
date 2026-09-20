@@ -1,5 +1,6 @@
 {
   "seen": {
+    "da150619b721bd3c": 1789886160.0566204,
     "a17deb7e38b7abf1": 1789886091.5739024,
     "d108e691e47145f4": 1789886091.3061745,
     "5f7bdcd5e23f9b44": 1789886067.96359,
@@ -2498,18 +2499,11 @@
     "95fda5e8fb8d3505": 1789333038.0539424,
     "8490b85bd7078d10": 1789333037.8144019,
     "76c8030780407519": 1789332974.2220032,
-    "122b5414434e0bc8": 1789332973.8651853,
-    "3652019a0a0e1938": 1789332973.8625395
+    "122b5414434e0bc8": 1789332973.8651853
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC Fighter Calls Ex-WWE Star Gable Steveson a ‘Rapist’ to His Face at UFC 331 Press Conference",
-      "source": "Ringside News",
-      "ts": "2026-09-18T12:57:07+00:00",
-      "cluster": "c544124e59f"
-    },
     {
       "t": "Aaron Pico gets new opponent in Abu Dhabi for featherweight bout after Arnold Allen withdraws from UFC 33",
       "source": "The Times of India",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T05:38:00+00:00",
       "cluster": "c5377bd13d2"
+    },
+    {
+      "t": "Dana White talks Tom Aspinall decision to vacate heavyweight belt",
+      "source": "MMA Junkie",
+      "ts": "2026-09-20T05:38:21+00:00",
+      "cluster": "c19af08797a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    44
+    45
   ],
   "yt_eval": [
-    "CBMinwFBVV95cUxPTmRTRi0yZ1Nsdm9Yb3ZRWTNVQURtOHhDMGw5Zm1NWTEwVi11UTlfaDhvTk5hbkFZcHBrMlhRNUxldm1RX2ZXZlV5OGE2ZUFoVl9hUmFOUHRtcWNmU2hXVDlZaC1zaUVyV3dCYlVXY0pwMmFnbG0wQ3FjYzVRb1V0RHU3c1J6NVVucUZaRzV0WWduNnFuckk1RThERmhBTGs",
     "CBMioAFBVV95cUxPTFJQS0lLUnJ2dlAxVGV3aDd4Mmdmejd2UUpYcThYdXdIN21RN2dZdTdPZGpjX1pjd0taQ3lWQzhubkNtdUJuYmpmWUxGQ3gwcjZTM2JfbE9Yc2RhWnRzblRWMzAxNURBRk1KRWN3WWl3R2RGdlhCajJhUGl2OHhVVlBSVS16d0N0T01QZnJoa2o0d2ZMMF8xdWtWcENTZUYx",
     "CBMivwFBVV95cUxPMkN1bWkybXF5TF9jeVlYcWY4R21vRFlrOENxUl8tOWFOV3lHTWRwLUtHZ20zZDRnZHNuZk5wWmFBV3VJQmZWd3VRUE5VV2JrQTJJSzhoLThmdHpKUm9VV1RlVzk2YTdBZ3Z3ZjRiaUM4alptYzY2b1pqSThxUjFHb1BsbWREZE5PdHdRZ1hhSVU3Z2M0cWpiVHFGaERwdmt0YXRERzUxX2RtWGNsajdBbWdwUWRGcjUyRHR2YXQzUQ",
     "CBMivgFBVV95cUxNZ0U5TlQ1MXdRcGJZa2ZuSEUydWMwazFScXc4WTRvZVdjUktlWHlrd3FyN1JxZXY1ZExaMmlnZ2gweW9RTkJFRk5Rb3hmWkF1T0FoRkEyYzJiRXJmd2VaaklMV3h2R09DTkFHbWZuRHJidzRKRmpBNG1ZXzdNby1iSk83NkN3LWVZS1pPeDhyRzRscGhuQjhVSWV5LTN0cEpCMmQtTnlhOGVkellGU3BjRnFsaDVpcVpDdEFxYWNR",
@@ -6411,11 +6410,12 @@
     "CBMif0FVX3lxTE5nNThwX04yMm40R0dkMkMzdFdfc3RWVzRwTE94UzZEZ3BIejJfVDRoRmE2WjZHeW1mZ1BNaUR6QmdQWWNhOGtJLWJWSGpGRXBnMmNpbnNQNnBQa3ZZM2hpYXltRHdzS1ZCYmZFQ29OOWN2YmtkT0VPSlpuRElObU3SAYQBQVVfeXFMTlg3dW0tYnJqUlBRTjZoZ1dEaUY2a1lPeV84b0xLQ25tcTRCUzJwZkVLd3pOQjRNT1BoNTZabEdqd1k3VGVHT25JYVM0SjZFOGZPWm52VmNiMnFycUN4b3RmRmdqZjBjVlNGaXI1M1Vqc0tlUFF6ZmJ3bTlaVjRFYnhqRUtY",
     "CBMi1wFBVV95cUxONFBJSHRYd1JJdEpkS0VUUnNkZVdjWHJheUVQd3d6X1NqUEtaaUhHRkJqZ081SEhGeGk4RmVkU0h2NW9VRDlwUzRsaUVxMjNxc2hjZmVTOXVHUzh3bXZscVJsdGh4a0dMZTlOMU1nTWFGNjdPRlZBTnU4Yk9KZ2ZoYU8tamFSVUxEUzY1dUs5MXZSdWQ2WmY4TWt4Tm4wSkd1bFpSWjNsR1JXV1VXSHRVMlI4aU1YWk1ZaHk4VTUydEZ6OUNmeWZuZGpJcWNjWGNCeGVldlY5OA",
     "https://www.mmamania.com/473405/highlights-open-ufc-331",
-    "CBMihAFBVV95cUxPUDRwb3JvMFRjbFBEcnhrVnBKeUZQUjF5VzNmd3FqbEFqQUJPZ1RyQjdOT21FVWFWOXRXclJXd2podnFZUi1XOUtZNU5TcWhKRkpvdWZlT0tHWHR0MWJDN1FOTjRnekxaWXhMMmNoNEVkQWtsWnlsVzRTZ2NuUDBuTlh6TGQ"
+    "CBMihAFBVV95cUxPUDRwb3JvMFRjbFBEcnhrVnBKeUZQUjF5VzNmd3FqbEFqQUJPZ1RyQjdOT21FVWFWOXRXclJXd2podnFZUi1XOUtZNU5TcWhKRkpvdWZlT0tHWHR0MWJDN1FOTjRnekxaWXhMMmNoNEVkQWtsWnlsVzRTZ2NuUDBuTlh6TGQ",
+    "CBMi1AFBVV95cUxQOUw0eFNyenNYeFY4aktlcXEzU1ladm5XVDYzQ2dwbzMwanJHX2VrZGNsbVRkNkJWejdiWVY0Q0NFSXFQZUJOcUZHSEtBMUhRNzdNOHR4bGtUY25sVUMxWGpiQ1dWR25uQU9RR3dwVGIxYV9FUW03Q0dYMURZM1VTZmxUT0xhT0dXZlc5blozc1c2VXdqRmZfTE1CcV9lY3c0R3pBdllVN2l1RkJwcXlDT0J1QnFSaHRZYlhveDZsYXlYRWl4aHdER2d3a0hiTkNucE1Tdg"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 110,
+    "ai": 111,
     "staged": 5,
     "prio": 1,
     "lost": 0
