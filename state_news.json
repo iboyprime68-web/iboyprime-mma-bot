@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0cb4c889eff6ee91": 1789865490.3399758,
     "9d9a5ed5fac853c3": 1789865466.6643326,
     "d267e0bd5c8ae9e3": 1789865466.309825,
     "60da504712cbd51c": 1789865438.12961,
@@ -2498,8 +2499,7 @@
     "cd8075b13ef8b258": 1789229321.2171438,
     "515e8ce2b09170d3": 1789229297.8979592,
     "a00ddebcba688793": 1789229273.183629,
-    "d6d7d078882b163d": 1789229250.1738276,
-    "1bdeace9c90f68f0": 1789229227.2115877
+    "d6d7d078882b163d": 1789229250.1738276
   },
   "initialized": true,
   "v": 4,
@@ -4663,16 +4663,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-19T23:29:55+00:00",
       "cluster": "c68ebf02ed8"
+    },
+    {
+      "t": "UFC 331 results: Robelis Despaigne returns with split decision win, Tai Tuivasa drops 8th straight fight",
+      "source": "MMA Fighting",
+      "ts": "2026-09-20T00:48:12+00:00",
+      "cluster": "c0ca386092b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T00",
-    4
+    5
   ],
   "yt_eval": [
-    "a241d5fb-50ef-341e-a9dd-b7be893399d3",
     "5a8a9f92-592f-3cee-845f-e3a66d1893be",
     "https://www.mmamania.com/469580/highlights-open-ufc-paris",
     "e050198b-3fcb-3a55-98ec-b996076429f6",
@@ -6171,11 +6176,12 @@
     "https://www.sherdog.com/news/news/Joanderson-Brito-says-coach-predicted-Giga-Chikadze-slip-at-UFC-331-202861",
     "https://bloodyelbow.com/?p=332477",
     "https://bloodyelbow.com/?p=332483",
-    "0bb7e096-8588-312b-8ac0-ae3767c039ee"
+    "0bb7e096-8588-312b-8ac0-ae3767c039ee",
+    "https://www.mmafighting.com/?p=511088"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 4,
+    "ai": 5,
     "staged": 1,
     "prio": 0,
     "lost": 0
