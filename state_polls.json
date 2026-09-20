@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 17,
+  "cursor": 18,
   "staged_at": [
-    "2026-09-18T19:04:13.297987+00:00",
     "2026-09-19T13:13:18.288258+00:00",
     "2026-09-19T18:38:37.848666+00:00",
-    "2026-09-20T13:36:44.662032+00:00"
+    "2026-09-20T13:36:44.662032+00:00",
+    "2026-09-20T18:52:41.170281+00:00"
   ],
   "asked": [
-    "Who is the most improved fighter in the UFC right now?",
     "Who has the most questionable title reign in UFC history?",
     "Who is the smoothest striker to ever do it?",
     "Who is the worst referee stoppage in UFC history?",
@@ -47,27 +46,28 @@
     "Who is the most shameless fighter in the UFC right now?",
     "Who runs the lightweight division five years from now?",
     "Which era was the most fun to be a UFC fan?",
-    "Who is the scariest man to ever enter the octagon?"
+    "Who is the scariest man to ever enter the octagon?",
+    "Whose title reign aged the worst?"
   ],
   "last_entry": {
-    "q": "Who is the scariest man to ever enter the octagon?",
+    "q": "Whose title reign aged the worst?",
     "type": "poll",
     "options": [
       {
-        "label": "Wanderlei Silva",
-        "emoji": "🪓"
+        "label": "Sean Strickland",
+        "emoji": "📉"
       },
       {
-        "label": "Francis Ngannou",
-        "emoji": "🦍"
+        "label": "Leon Edwards",
+        "emoji": "🧊"
       },
       {
-        "label": "Khamzat Chimaev",
-        "emoji": "🐺"
+        "label": "Belal Muhammad",
+        "emoji": "🕹️"
       },
       {
-        "label": "Alex Pereira",
-        "emoji": "🗿"
+        "label": "Israel Adesanya",
+        "emoji": "🎭"
       }
     ]
   }
