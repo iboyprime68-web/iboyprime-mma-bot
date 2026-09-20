@@ -1,5 +1,7 @@
 {
   "seen": {
+    "75491d514bdcdea4": 1789883893.9619684,
+    "897fb314632ce3c7": 1789883893.745819,
     "6e8f4a183e304266": 1789883870.1722405,
     "dfbe35c0f0506675": 1789883847.1646867,
     "c1b2e27dbb98cdd5": 1789883823.3674471,
@@ -2497,9 +2499,7 @@
     "fd690ec7d7f5bae8": 1789309334.8472073,
     "3ba3a4d5d2c333f8": 1789309334.6601112,
     "a4cba20a5696a102": 1789309334.6579921,
-    "ed24dfc16d8433b7": 1789309269.9775035,
-    "5a629a608d7903c2": 1789309269.7380311,
-    "01079fb492c3e368": 1789309204.4625056
+    "ed24dfc16d8433b7": 1789309269.9775035
   },
   "initialized": true,
   "v": 4,
@@ -4795,16 +4795,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T03:26:53+00:00",
       "cluster": "c6f0b96d97f"
+    },
+    {
+      "t": "Gane-Hokit, Harrison-Nunes title fights headline UFC 334 at MSG",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T02:24:10+00:00",
+      "cluster": "c6fe6ff9df7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T05",
-    12
+    13
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=508580",
     "https://bloodyelbow.com/?p=330625",
     "cf15a2b9-5ed9-34ce-92b2-9f93350a8b59",
     "3b129375-37b9-33aa-a424-f14e5043c923",
@@ -6303,11 +6308,12 @@
     "https://www.mmafighting.com/511058/ufc-331-live-blog",
     "dbe06df0-8feb-3ab8-ae81-abd45e847616",
     "https://www.mmafighting.com/?p=511317",
-    "https://www.mmafighting.com/?p=511349"
+    "https://www.mmafighting.com/?p=511349",
+    "b040581a-796c-32a1-be8c-a7b5b5f84b38"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 61,
+    "ai": 62,
     "staged": 3,
     "prio": 0,
     "lost": 0
