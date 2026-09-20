@@ -1,5 +1,7 @@
 {
   "seen": {
+    "1507ddabaf9c6d1e": 1789915073.7030637,
+    "62a2bcd36b0991e3": 1789915073.3732953,
     "124008d511e08b36": 1789915050.7061305,
     "a088e4b4292fafcd": 1789915028.4165823,
     "cb4ed31c7ea39f07": 1789915005.9726121,
@@ -2497,19 +2499,11 @@
     "cf1d435b8645741b": 1789390305.1295493,
     "cf1f428d17656cda": 1789390305.1275513,
     "0e2622af4d679f2b": 1789390239.6905117,
-    "b0abc9d1d485c512": 1789390174.2435598,
-    "3c0a75bec36af6dc": 1789390173.727714,
-    "4bf9a7900597e460": 1789390173.726267
+    "b0abc9d1d485c512": 1789390174.2435598
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Arman Tsarukyan Explains 10-Hour Streaming Routine with DC",
-      "source": "MMA Sucka",
-      "ts": "2026-09-18T17:39:09+00:00",
-      "cluster": "c08ceac4a4d"
-    },
     {
       "t": "Gilbert Burns seeking Khamzat Chimaev trilogy after RAF match",
       "source": "mmaweekly.com",
@@ -4903,16 +4897,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T06:22:41+00:00",
       "cluster": "cb9365e30e0"
+    },
+    {
+      "t": "UFC 331 commissioners’ argument over scoring of Joshua Van vs. Alexandre Pantoja revealed",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-20T12:00:00+00:00",
+      "cluster": "cda22b69460"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T14",
-    3
+    4
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Oumar-Sy-admits-chasing-UFC-Paris-finish-backfired-in-upset-loss-202691",
     "https://www.sherdog.com/news/news/Shavkat-Rakhmonov-admits-UFC-return-is-far-from-guaranteed-202693",
     "CBMikwFBVV95cUxQU1d6SnhlZmJTTHlGajdLb2hPcllTcDJyOFZ2S29zVkVlV1dmaVdPZXNxRlBxczZJbVMwM0VmVFI5WXlaUWtmN1FsV09kLWhOUVZfNTE5WlVHSE5nWXJnQmFscmg0eFdSb0pfeTdPMWxsdmhoVkhXTEpnYUg1SkhCNi1yQk16Wl9UVldBRzJPSDhnbG8",
     "https://www.sherdog.com/news/news/ExUFC-stars-new-career-takes-wild-turn-during-traffic-stop-202696",
@@ -6411,7 +6410,8 @@
     "CBMiiAFBVV95cUxNV1BYOHRmQ1Z4RlJYS2VQOGxod1cxamVNSHJHaEoxMnIxRHBPUEJoUTJtOTlhd2hEVkFrbVQ0aDBQOElmbGtfTC04NXZ4VS1Oc28yWmllaG9yN1NoVTVOSVRSUTR5WTlXU1daSm9OSjB0UVhDRWNVc0kxUnZKYWJzT1VyVlV2NUhs",
     "https://www.mmamania.com/473430/open-thread-september-19-2026-where-is-your-happy-place",
     "https://www.mmafighting.com/?p=511539",
-    "https://www.mmafighting.com/?p=511532"
+    "https://www.mmafighting.com/?p=511532",
+    "https://bloodyelbow.com/?p=332716"
   ],
   "daily": {
     "d": "2026-09-20",
