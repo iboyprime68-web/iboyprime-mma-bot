@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bd37be0f7f112b50": 1789903990.1618457,
     "540087dba9588d47": 1789903783.111239,
     "db07f18a1b4b4a48": 1789903493.7748096,
     "363da9c082aefaaa": 1789903471.0022457,
@@ -2498,18 +2499,11 @@
     "39fe6bbe927dfad2": 1789389707.931566,
     "6e36232176bbf50b": 1789389641.529923,
     "e6bcd341e65e276c": 1789389641.1893506,
-    "ac7fd211d4071d9f": 1789389576.0561757,
-    "61b8b4528615068b": 1789389575.782606
+    "ac7fd211d4071d9f": 1789389576.0561757
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "McGregor Tipped For Bare-Knuckle Debut After UFC",
-      "source": "boxingnews.com",
-      "ts": "2026-09-18T17:00:40+00:00",
-      "cluster": "cfd51ee2f47"
-    },
     {
       "t": "MMA Junkie Radio #3703: Guest Malcolm Wellmaker, UFC 331 preview, Ki MMA",
       "source": "MMA Junkie",
@@ -4903,16 +4897,21 @@
       "source": "Sherdog",
       "ts": "2026-09-20T06:17:09+00:00",
       "cluster": "c50a4f14e6c"
+    },
+    {
+      "t": "UFC 331 Prize Money Payouts Revealed for Van, Pantoja, Steveson, Sharaf and All Fighters",
+      "source": "Bleacher Report",
+      "ts": "2026-09-20T11:31:42+00:00",
+      "cluster": "cac5f67e0c5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T11",
-    22
+    23
   ],
   "yt_eval": [
-    "CBMi8gFBVV95cUxNMF9HbHdxVC1hbVBNYnNkLUoxWjkzeWlBa01Fa2laMEszOG5oZjdOanBIYXJFVFpHUGFZTXNmckJlaTlxWjg0eUpGalJub1lscGZsQjRlbzlGV19kWHFWMEtKUGdVU3pQV09hTF80TmdQZU11cWlLam5VQVo4NlZMdjJZdjRiWDFaOUREMjBUeC0tdzZ4ZGI2RUk3Q1Bpcy12ZjEtMC1QY0l6ay04SEk4cF9iY2lCT0J4SFhCM0stYUkxTGp2ZTgtUDRLR3hOdUc0RkJkN3A1XzBKUFJzVnJJTTFxWnQtTUt3cWo0RHJqYnNhZ9IB9wFBVV95cUxOdkkwS2ZTNVQ3M00zLXFzMlZKMHVETHVKaHl1ZG1rLXdWVjl2bVZqVGYwMGhuNlFrUmlSc3VBZWxjWUEwSTFsQ09yQmZxbGhqak5DWHFYNzZpNG1SMDduMjNaWXI0dkpRZXM1U25QLXFlMEZDYWNLMUhTMkdiZDQwbDFRdmNBdjl6bjN0TXFkY2w4RjcxYTRFRWo5LUx3SXJ1SVZvYUR5MmNtRTVVbWVMMnhsQVFHcGFoMS01ZjBBdHRuS3ZmelNKUURhNU82TWwwbWJMX0VEVVBvSlQ3NWxaRGowaFhENkJBMThBU3FhNHJKNmtubXFF",
     "CBMi1wFBVV95cUxOR2xxclJMUEltTjZuVEw5V0RoSEhNLWRmUkF3ZlZZZ1o4dV9tRUlSRzk0MTVfVnI5TDhYall3aGZiNXFnUHZlNTBPT05JcEZwR1RSa0RadEFCYUt4SnNVNXliX3FmcVB0SnV0YnhkbzQ0cmdxWE9hR1F2WGVISDdUMFZUYk9zalBiUTJ4a25Qc2VmaVZERkJDVi1nTVdQenQ2dGRadWU3dEJNZ3dleXlYYzRMMUk3X09XV1ZFUHdRczJOOUZiVk53bmJFYjdlUktJNm03UWFfWdIB3AFBVV95cUxQT05zRkRTNDRUd3lkc2t0bmFqRjNPMk9wZTk5NjZ2SmpoWV9nYm9uSUlaaEN3V1o1XzFyZkhGWHdsM1hqbUZPdmtLUTcwWktTd2x3enE0Zm5FT3oyd3JOZm5ucFNpMnRCU1p2YTVJOWJvaVJGaFpINkNHa1pmdHU5ejJoUEppQ09VTlpfNkZxU1Zfby1EdlN6ZzQzSDB0akpTZDQxWHhRWk0yRzRtZ2k2bGRJUVgzWjZLMGRkaEpOamdaMW5Gak9UdWdUcFY2czI0VlAtdTVsc3B4SE5L",
     "CBMioAFBVV95cUxOLTZxaUlHT2h6RERYdWREaUV4WDZ3ckEyb2sxdUxuTGEwQ0FXOTN4eUhqWGhaNGItSE9HbHpEOGhyelphM1E2OWtOeDAtZU5nWlpXenFUUGxjWjU4WEhKRmw0RE1ma3VvZmVzcHZHWlpUcXFyNXpGcXh1ZWRmYzkxTTF5VktjT2JMcVdtQWt4QVBmUHNwRUN6VFQ3TDhGanZV",
     "CBMihAFBVV95cUxQeXF4X0ktaGt0WTJHeVc3dDlteUJnVElERURxaHNLYXBYNFpJc3NBNDEzazFLYVZROHRCbzU3aEZIMi1OakVjNDJxUEVzN2FkVEhOSW93YW4wZ09KVlRoT3VVN25mTVFzOFUtajdBUVM2THNIVTVEQjRNYjN1UUptam5Pdk4",
@@ -6411,7 +6410,8 @@
     "CBMipwFBVV95cUxPX01PVkhnRlBxWkFaMmdqeW9TVUVtMU5pSXRBb0c5d3J6LURlaFlVV3duODJuc0hYZUxHQnNHcGVJQ0FsS1oyWG1GSU1LUTV3TkFCYkVlaEE3VGNhNU5ObHJ1enA2eHA5cDB2bkQ4clpmNVJLT0hKb1Nlb3FwVkdDYkRuT1NZdzR6aXR5Y0pTZW9LbG1YejZ0WjFfX0ZKZ3FYcXV5Y1Rhbw",
     "https://www.sherdog.com/news/news/Dana-White-gets-brutally-honest-about-potential-Josh-Hokit-title-reign-202871",
     "https://www.sherdog.com/news/news/Dana-White-changes-his-tune-on-Arman-Tsarukyan-after-UFC-331-stunner-202872",
-    "https://www.sherdog.com/news/news/Dana-White-fires-back-at-claims-he-doesnt-like-Tom-Aspinall-202873"
+    "https://www.sherdog.com/news/news/Dana-White-fires-back-at-claims-he-doesnt-like-Tom-Aspinall-202873",
+    "CBMixAFBVV95cUxQX3NKZVA3RnZBaE1SUm45bkZTWVktNHM5NUozWVBTRjZTNEJ5MnlBREVndnFyckpic3gxbVBVT2tuTXg0VFc3VDlNel9xSzJZb2cwQmxTeEk4SmZtMUxMZGNzdFNmYmNZTkkxMlpSQno1Q1pXcE9tUnRkU0tvaHl3VERmcVk0QkRzcnhKMHRjUGVLNmpiTml1LVZQaE9kR0pzTFlfQUVHdGp6SDd5U2l3Wkc1bUtsejJXOUg4SWpIemIyY0tP"
   ],
   "daily": {
     "d": "2026-09-20",
