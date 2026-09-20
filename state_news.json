@@ -1,5 +1,6 @@
 {
   "seen": {
+    "594a72f4f0594c66": 1789901925.735552,
     "09a4763ddb1017e6": 1789901903.2600255,
     "b61f50b5d6d9bcd4": 1789901902.6301389,
     "a4766d85b3252518": 1789886873.1052678,
@@ -2498,18 +2499,11 @@
     "f40b84580ea23db4": 1789365392.850795,
     "e0858f4a0ed395ec": 1789347622.3990247,
     "cbe6383b1e9ceb56": 1789347555.6973803,
-    "e5e75fa66a8c5c35": 1789347490.0915096,
-    "23391b30ff05ed6e": 1789347420.8523803
+    "e5e75fa66a8c5c35": 1789347490.0915096
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "\"Natural gifts\" - UFC commentator Jon Anik shoots down Ilia Topuria's allegations on Justin Gaethje",
-      "source": "Sportskeeda",
-      "ts": "2026-09-18T14:00:00+00:00",
-      "cluster": "c0dac7b5ca8"
-    },
     {
       "t": "Mauricio Ruffy Had \"Very Special\" Training Camp Ahead of UFC 331",
       "source": "Cageside Press",
@@ -4903,16 +4897,21 @@
       "source": "Sherdog",
       "ts": "2026-09-20T05:02:45+00:00",
       "cluster": "cf3123e457f"
+    },
+    {
+      "t": "Dana White admits concerns over Josh Hokit’s potential heavyweight title reign after UFC 334 announcement",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-20T06:30:00+00:00",
+      "cluster": "c93073bec2d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T10",
-    1
+    2
   ],
   "yt_eval": [
-    "39afe6b0-f714-3ecf-82e3-1fbd47d0e4e2",
     "6efb6a71-0d48-35b4-8c34-df3d3fd70fe9",
     "ba364617-cb6e-3ae0-8aa5-aa1e7929bfcb",
     "https://www.sherdog.com/news/news/Valter-Walker-says-Jailton-Almeida-was-set-a-trap-in-Russia-202686",
@@ -6411,7 +6410,8 @@
     "CBMihwFBVV95cUxPMklQZ2hxWEc4dVBKTGFoZ2VoMXhCSml4ZEZjQkJVWUlVXzVQdUp6bzUtT0wtNW54UF9NZ19MSmwxaGhmOHBEdDU3OGdIQXFSV2lsUExOdnpEc3I4R2NBMDludE9BM3FfVjZUbUp3Y09BcjVyQWJXVWxyVVpnNkQxNjlFd3RYQjA",
     "CBMingFBVV95cUxQVmt3M3ViTTFubTBELUQ0a0xSQk9YdGxxT2JtenlWaE9WODJtT3kxeTZRb0ZBY3VQRnNFVTBRLURMUzJIRjNrWXppN1p2TGpMY1U4X0tQdDJ3TWJQOHYwaTF2V3NQTGhnMHNBS1NPRVB3WWV1MS01V2NhNDQ0ek9QSzdIR3dOYnZ3dmNIV19iSUNOV0tKT0RUSU9rSnpuZw",
     "CBMilAFBVV95cUxORGNfaXM2XzlMTWtQVm0zRTZIcU80Nm8zRmxxMlhCaHBsUndQVFZNVVFMMThXZDA1eWJvYVdwZXNYTFR6dDdrLUZFQ1BkVkI1d25jVEg5TzEwNWpiYnRoZ0ZUbUlJcWpPQ3pTcEFvY1htcTVTZ2lTV2NwZTA2c1B0QWRsQm9Cd2sycDhlQ3JCRFo2aDZz",
-    "https://www.sherdog.com/news/news/Dana-White-adds-3650K-to-Sean-Sharafs-bonus-for-shocking-UFC-331-upset-202869"
+    "https://www.sherdog.com/news/news/Dana-White-adds-3650K-to-Sean-Sharafs-bonus-for-shocking-UFC-331-upset-202869",
+    "https://bloodyelbow.com/?p=332695"
   ],
   "daily": {
     "d": "2026-09-20",
