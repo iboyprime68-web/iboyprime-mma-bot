@@ -1,5 +1,6 @@
 {
   "seen": {
+    "33e02f3be0c92477": 1789884084.0172157,
     "508c560b5dd4b54c": 1789884060.2169173,
     "1056464f9c21a753": 1789884036.81022,
     "6c3a6160456b5e5a": 1789884012.5999246,
@@ -2498,8 +2499,7 @@
     "c22e39ab261b0a59": 1789309665.4847257,
     "6ca461538afaae9b": 1789309665.4844606,
     "222d59f4f9ee756a": 1789309601.1344295,
-    "f84e0c2ab2fc9d6f": 1789309576.3986433,
-    "f7528983ad8c4e5b": 1789309528.1974666
+    "f84e0c2ab2fc9d6f": 1789309576.3986433
   },
   "initialized": true,
   "v": 4,
@@ -4843,16 +4843,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T04:07:28+00:00",
       "cluster": "ce8cfba40b3"
+    },
+    {
+      "t": "UFC 331 salaries revealed: Alexandre Pantoja, Joshua Van lead all fighters",
+      "source": "MMA Fighting",
+      "ts": "2026-09-20T04:10:25+00:00",
+      "cluster": "c12a0a9ea86"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    3
+    4
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509024",
     "c06da33a-82f5-3ff0-b394-74b866e0bf0b",
     "324db251-9a58-35de-8c05-70965840820c",
     "ac04cec1-2132-33cf-af0b-83ccd48d9d77",
@@ -6351,11 +6356,12 @@
     "https://bloodyelbow.com/?p=332628",
     "https://www.mmafighting.com/?p=511352",
     "efee79ec-04ac-3615-93fa-c0de9b77cd92",
-    "https://www.mmafighting.com/511059/ufc-331-live-blog"
+    "https://www.mmafighting.com/511059/ufc-331-live-blog",
+    "https://www.mmafighting.com/?p=511404"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 69,
+    "ai": 70,
     "staged": 3,
     "prio": 0,
     "lost": 0
