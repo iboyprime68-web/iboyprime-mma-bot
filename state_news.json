@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5301bdc280982dc2": 1789886289.0016425,
     "ffb2bb3f120b89e0": 1789886224.3280437,
     "46abbed277611124": 1789886223.8636916,
     "da150619b721bd3c": 1789886160.0566204,
@@ -2498,18 +2499,11 @@
     "bbdb321f11c1585d": 1789340441.7307734,
     "e17d5a4f40e9ec0e": 1789333249.3984256,
     "625002975bb0ec56": 1789333225.9550602,
-    "95fda5e8fb8d3505": 1789333038.0539424,
-    "8490b85bd7078d10": 1789333037.8144019
+    "95fda5e8fb8d3505": 1789333038.0539424
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Arnold Allen Pulls Out Of UFC 333 With Injury",
-      "source": "boxingnews.com",
-      "ts": "2026-09-18T13:00:55+00:00",
-      "cluster": "c5416660236"
-    },
     {
       "t": "Iwo Baraniewski Sees UFC 331 As \"Good Chance to Get Into the Top 15\"",
       "source": "Cageside Press",
@@ -4903,16 +4897,21 @@
       "source": "cbssports.com",
       "ts": "2026-09-20T05:40:44+00:00",
       "cluster": "cf6a93c331b"
+    },
+    {
+      "t": "Uncrowned UFC 331 Post-Fight Show",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T05:41:00+00:00",
+      "cluster": "c1361deb08e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    46
+    47
   ],
   "yt_eval": [
-    "CBMivwFBVV95cUxPMkN1bWkybXF5TF9jeVlYcWY4R21vRFlrOENxUl8tOWFOV3lHTWRwLUtHZ20zZDRnZHNuZk5wWmFBV3VJQmZWd3VRUE5VV2JrQTJJSzhoLThmdHpKUm9VV1RlVzk2YTdBZ3Z3ZjRiaUM4alptYzY2b1pqSThxUjFHb1BsbWREZE5PdHdRZ1hhSVU3Z2M0cWpiVHFGaERwdmt0YXRERzUxX2RtWGNsajdBbWdwUWRGcjUyRHR2YXQzUQ",
     "CBMivgFBVV95cUxNZ0U5TlQ1MXdRcGJZa2ZuSEUydWMwazFScXc4WTRvZVdjUktlWHlrd3FyN1JxZXY1ZExaMmlnZ2gweW9RTkJFRk5Rb3hmWkF1T0FoRkEyYzJiRXJmd2VaaklMV3h2R09DTkFHbWZuRHJidzRKRmpBNG1ZXzdNby1iSk83NkN3LWVZS1pPeDhyRzRscGhuQjhVSWV5LTN0cEpCMmQtTnlhOGVkellGU3BjRnFsaDVpcVpDdEFxYWNR",
     "https://www.mmamania.com/?p=470131",
     "CBMivAFBVV95cUxPNXI5SHBWZExrakZyUFdVZWt5Ul9lTGtrRG93bWlvSUZKY0RaVnEzR190NTNqLXh4cTItRE1OZUVlRElRWlZMdlBDRXBRaF9ob3M3Q0ZJMGNRY1Bvc0sya2dzRjJud0J5SW5GbWtVRjZNamVWUW1fdHhUbmUwbk43NFRuZllKVmE2aWljUEVVOS1zVWRkZXdTTmUzTUpYWFN5RGhDNlEtenp6SGlKRGNYeG9HN3BLUWNJdF9UNg",
@@ -6411,11 +6410,12 @@
     "https://www.mmamania.com/473405/highlights-open-ufc-331",
     "CBMihAFBVV95cUxPUDRwb3JvMFRjbFBEcnhrVnBKeUZQUjF5VzNmd3FqbEFqQUJPZ1RyQjdOT21FVWFWOXRXclJXd2podnFZUi1XOUtZNU5TcWhKRkpvdWZlT0tHWHR0MWJDN1FOTjRnekxaWXhMMmNoNEVkQWtsWnlsVzRTZ2NuUDBuTlh6TGQ",
     "CBMi1AFBVV95cUxQOUw0eFNyenNYeFY4aktlcXEzU1ladm5XVDYzQ2dwbzMwanJHX2VrZGNsbVRkNkJWejdiWVY0Q0NFSXFQZUJOcUZHSEtBMUhRNzdNOHR4bGtUY25sVUMxWGpiQ1dWR25uQU9RR3dwVGIxYV9FUW03Q0dYMURZM1VTZmxUT0xhT0dXZlc5blozc1c2VXdqRmZfTE1CcV9lY3c0R3pBdllVN2l1RkJwcXlDT0J1QnFSaHRZYlhveDZsYXlYRWl4aHdER2d3a0hiTkNucE1Tdg",
-    "CBMinwFBVV95cUxNbW5MTTVDLXZKLW9hXzdIdGNxREpLd21hTUZ3VGVPQ1JPSWhFdEhDUW8tazhNY1VQaDFzNlg0eTN3cVdtZDJCbk1SX0l3QnpmZEJrbGxJZnNpNVV4UmZMLXkzdlYtRmNuektVQXc0b3p3NFg5VGNQMkQzb1lLbDEzd0VqNURIU2J1ZHpFYi1kVjNqUHd3VXRqdnk4TnRjQjg"
+    "CBMinwFBVV95cUxNbW5MTTVDLXZKLW9hXzdIdGNxREpLd21hTUZ3VGVPQ1JPSWhFdEhDUW8tazhNY1VQaDFzNlg0eTN3cVdtZDJCbk1SX0l3QnpmZEJrbGxJZnNpNVV4UmZMLXkzdlYtRmNuektVQXc0b3p3NFg5VGNQMkQzb1lLbDEzd0VqNURIU2J1ZHpFYi1kVjNqUHd3VXRqdnk4TnRjQjg",
+    "CBMif0FVX3lxTE5jdHFoel9lWkhEQWE5TUt3S0dFQzBmYnR2b0ljN0MwanRQdVhhUmM5cy1qMV9tVElJb3VGaGpMbDQ3WFBObXZoRW5SUExodlhqMVJjcDlrcHpuM01CVDV2UWlfM2pSeHIwbFR2emJrSG9tM01QejAxdGxfbDVDU1U"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 112,
+    "ai": 113,
     "staged": 5,
     "prio": 1,
     "lost": 0
