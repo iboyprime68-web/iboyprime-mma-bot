@@ -1,5 +1,6 @@
 {
   "seen": {
+    "508c560b5dd4b54c": 1789884060.2169173,
     "1056464f9c21a753": 1789884036.81022,
     "6c3a6160456b5e5a": 1789884012.5999246,
     "7df18aa82f1dcb8b": 1789883989.293431,
@@ -2498,8 +2499,7 @@
     "6ca461538afaae9b": 1789309665.4844606,
     "222d59f4f9ee756a": 1789309601.1344295,
     "f84e0c2ab2fc9d6f": 1789309576.3986433,
-    "f7528983ad8c4e5b": 1789309528.1974666,
-    "62d1c0c200bafea8": 1789309527.9870548
+    "f7528983ad8c4e5b": 1789309528.1974666
   },
   "initialized": true,
   "v": 4,
@@ -4837,16 +4837,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T02:30:23+00:00",
       "cluster": "cd5cb830324"
+    },
+    {
+      "t": "UFC 331 live blog: Joshua Van vs. Alexandre Pantoja 2",
+      "source": "MMA Fighting",
+      "ts": "2026-09-20T04:07:28+00:00",
+      "cluster": "ce8cfba40b3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    2
+    3
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330600",
     "https://www.mmafighting.com/?p=509024",
     "c06da33a-82f5-3ff0-b394-74b866e0bf0b",
     "324db251-9a58-35de-8c05-70965840820c",
@@ -6345,11 +6350,12 @@
     "4a428812-6bf9-37bb-9cc4-b0d6bd74d704",
     "https://bloodyelbow.com/?p=332628",
     "https://www.mmafighting.com/?p=511352",
-    "efee79ec-04ac-3615-93fa-c0de9b77cd92"
+    "efee79ec-04ac-3615-93fa-c0de9b77cd92",
+    "https://www.mmafighting.com/511059/ufc-331-live-blog"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 68,
+    "ai": 69,
     "staged": 3,
     "prio": 0,
     "lost": 0
