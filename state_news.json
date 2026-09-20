@@ -1,5 +1,8 @@
 {
   "seen": {
+    "4d52ebe7be262b88": 1789884582.766938,
+    "7b68d27b9eb4f27a": 1789884582.5129302,
+    "ffea0cc7b0b2945a": 1789884582.481298,
     "e8550bc542585a0b": 1789884538.5248559,
     "2185b5f28442116f": 1789884515.02141,
     "b1978b9c46ca35d6": 1789884449.8118937,
@@ -2496,20 +2499,11 @@
     "e6ca9b23c68ed39b": 1789311551.9777052,
     "a97412d88dcba57c": 1789311550.8466122,
     "ff58f60b0d45f956": 1789311240.91703,
-    "6ef7e900230039ee": 1789310870.5011864,
-    "0ee77cfdb3098837": 1789310437.8783553,
-    "320b1fdd8b945ff6": 1789310374.969861,
-    "007b2cd0ee64c860": 1789310250.2410614
+    "6ef7e900230039ee": 1789310870.5011864
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331: Van vs. Pantoja 2 Live Fight Coverage",
-      "source": "ESPN India",
-      "ts": "2026-09-18T08:05:33+00:00",
-      "cluster": "cc267f3a234"
-    },
     {
       "t": "Gable Steveson vs. Sean Sharaf: UFC 331 AI Prediction, Results and Highlights",
       "source": "yardbarker.com",
@@ -4903,16 +4897,21 @@
       "source": "Sherdog",
       "ts": "2026-09-19T23:45:57+00:00",
       "cluster": "c3d02183eb7"
+    },
+    {
+      "t": "UFC 334 announced, heavyweight title fight headlines massive NYC card",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T03:36:46+00:00",
+      "cluster": "c379421dc7d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    16
+    17
   ],
   "yt_eval": [
-    "CBMiW0FVX3lxTFB5d2lqUXNMQWhfTzBwNkdVbUwweHpieUJzTUZxcTU5Ym5EaXV1YjFXOEdrSUU5MmRSM3lZTWtkUnJoVkF6RE53V2FRZkVKelp4cVZObldqNmhZbXc",
     "CBMijAFBVV95cUxNRDdJRm5FUjlOMWFYR2xxdHEwZUZUd0d0enhFaWZ0anJvNGtKb2xjS19qMHViQ05aa213ak0xZkwzZG9nOVdCcTc3X2h1enJpYjE2clZUV1J2dlBuUVlZSGp6MjdFMmRvYVlFWEszRFIySGtVQ2xIa2IxOVZBWVZ0R1VNQzZsczJiSl9CTg",
     "CBMilAFBVV95cUxOTXh4emp4Q0dVYU5YQ3lhMkFuS2l6OW5OVkxyZWkwWDVCZ3VhN0ZRQzBzajkteDhEVkY0SzJodkcxeXZCTFY5OG5WNmlkVW5YbFZHLWFlRlFEMmlSN2pMMWhtRzFBclBCUWhzTTk4RVVtOENUeEg0c1MwOFFwWlVQOWh4bk1FTWFfU0Z6WTE0WUN5TEY3",
     "https://www.mmamania.com/?p=469927",
@@ -6411,11 +6410,12 @@
     "4a83d631-2c6d-3ffc-a671-a0c1f105831e",
     "3f405351-8e9c-329c-924e-2eb511dbf36b",
     "c7bd2ff0-69f2-349c-805e-a7f699b51a2b",
-    "https://www.sherdog.com/news/news/Sean-Sharaf-shocks-Gable-Steveson-with-12second-KO-at-UFC-331-202866"
+    "https://www.sherdog.com/news/news/Sean-Sharaf-shocks-Gable-Steveson-with-12second-KO-at-UFC-331-202866",
+    "177977e3-af4b-3d34-9567-523d0b956930"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 82,
+    "ai": 83,
     "staged": 4,
     "prio": 0,
     "lost": 0
