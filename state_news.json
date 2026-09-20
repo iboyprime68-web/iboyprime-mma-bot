@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9d9e180fe505476d": 1789885569.7280574,
     "84ef745236302abd": 1789885505.0226054,
     "325d13d32b14395d": 1789885504.7750587,
     "53e661cd8905f86f": 1789885504.7731082,
@@ -2498,18 +2499,11 @@
     "b9f07f8dfc5f6b32": 1789332393.6927984,
     "20e31a8a042901a5": 1789332349.7133203,
     "ebddb6ee9b498176": 1789332326.3124237,
-    "7b01b771cc9d6d49": 1789332261.445177,
-    "5f033c210fa78b36": 1789332197.3891747
+    "7b01b771cc9d6d49": 1789332261.445177
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331: Ryan Gandra vs Osman Diaz Preview & Prediction",
-      "source": "The Stats Zone",
-      "ts": "2026-09-18T12:40:00+00:00",
-      "cluster": "cbfafb41ce1"
-    },
     {
       "t": "UFC 331: Michael Aswell Jr. vs Yoo Joo-sang Preview & Prediction",
       "source": "The Stats Zone",
@@ -4903,16 +4897,21 @@
       "source": "boxingnews.com",
       "ts": "2026-09-20T05:30:51+00:00",
       "cluster": "ca7f56c7b03"
+    },
+    {
+      "t": "Jon Jones was devastated!",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-20T05:30:54+00:00",
+      "cluster": "c6d99005f59"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    34
+    35
   ],
   "yt_eval": [
-    "CBMimgFBVV95cUxQYTVBaEpOX0ZnbHFVOGZwN0NYRzB2aHNRZ3VlMzVFUHJVZF8tNzl5b0xkUjlFVDJrZXc4aDNidjFRcklkSXFTY0M0UVVWeHJHb0FUV09teE9pcFJHbXotcW51R01CMk5PN19PcWNyeFVwT2ZOWTJsR0NpcmFZVk81VUtzSWVncnI3MXlLY1FtTWNvanBHSXpCVEVR",
     "https://bloodyelbow.com/?p=330671",
     "ba1fdb54-2cfd-3703-9dc3-6722f30f0c2e",
     "https://www.mmafighting.com/?p=509018",
@@ -6411,11 +6410,12 @@
     "ed43ce1d-0146-444c-afca-6a13938f127e",
     "CBMi8wFBVV95cUxQQXFUcnhzd1Q0RFBISkF5MWo4dWFzRE1RUWFTckZPMlNZZkNYUkVONFFSRElzWXhfRG1SRWlyM04tM1U0dmMzZU5uZmFpc2NLNFpkbDJiTkw4NXk3Q2hETDJzX3NZNUhKZ3haVEpsME5Pc2F4dGJ4bURoMUU1VlJDdy04Q1JrbU1QOGdVdkVKV2E1MW0wak9MR0FadDZ5UXFPQmprZWFXS0F4Qkt0VXhXcVFEYXhEbm1NQmY0TnNGSHdOYjdIUzJvSVFjYi02UWJJQnBWNk9JRUkxWHIyNjF6ajF5TDBJTTJnYUFSSWpoT3BMU2s",
     "https://www.mmamania.com/?p=473660",
-    "CBMic0FVX3lxTE92TGt3TkJFQ1dYaFhCR3ZhU1FXRDdtcmE4NWEwU25UTm94S3dZS1NzdUNoYWhoalV0ZU1YVk9zazBBZzVBR0VXcXphNnU0dVpNajRXZUVScEFrQUxsUFBLampjY3Z6RzRvX1ZLeDBaVVZmYjg"
+    "CBMic0FVX3lxTE92TGt3TkJFQ1dYaFhCR3ZhU1FXRDdtcmE4NWEwU25UTm94S3dZS1NzdUNoYWhoalV0ZU1YVk9zazBBZzVBR0VXcXphNnU0dVpNajRXZUVScEFrQUxsUFBLampjY3Z6RzRvX1ZLeDBaVVZmYjg",
+    "CBMixgFBVV95cUxNQ1hpdnI0bVNaYmlxSmVrMW5BVE9TMWN4QlV0S3lVa29ETURmZWVoRExHYm5wTXNTbnpRNjc0X2g5MTVPaWhOMnJhOFpPLTAxS3RLdnBSejBVS0o2dlc0TXNCQTFHRWRfU0xEWk10eDNoVkQzQ1dobzlKbXQ3cWZQdzRKcFhRcHdXS0dIZ040eE8tTXFvOFZFQ2pvRGUtVklTX1JNdk45YnNfVFZLV00zV0dNMUNMa1poNU5uOWpxOTZVYTJLV2c"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 100,
+    "ai": 101,
     "staged": 4,
     "prio": 1,
     "lost": 0
