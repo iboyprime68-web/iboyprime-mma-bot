@@ -1,5 +1,6 @@
 {
   "seen": {
+    "707c28a813671b85": 1789885893.9008508,
     "7dc83bc88637e68f": 1789885829.5225866,
     "ac0c3e210a2ceb60": 1789885828.916086,
     "3c1a8489e13b060a": 1789885764.040012,
@@ -2498,18 +2499,11 @@
     "32dc5b0eb32c1869": 1789332780.3829172,
     "aca0764ac1d5a46b": 1789332715.7102902,
     "5d6f720bce5a5de8": 1789332651.3540263,
-    "ed3cf1134c2c4755": 1789332651.0089233,
-    "7b269b2ae8ee57c5": 1789332586.3891497
+    "ed3cf1134c2c4755": 1789332651.0089233
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "'I thought he wasn't alive' - UFC star makes concerning admission after brutal slam knockout",
-      "source": "SPORTbible",
-      "ts": "2026-09-18T12:47:36+00:00",
-      "cluster": "c0a840c2e7c"
-    },
     {
       "t": "UFC White House official: Justin Gaethje's gloves were checked 'by multiple inspectors'",
       "source": "MMA Mania",
@@ -4903,16 +4897,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-20T05:32:10+00:00",
       "cluster": "c6da27a2904"
+    },
+    {
+      "t": "Joshua Van retains flyweight title in gritty Pantoja rematch",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T05:32:20+00:00",
+      "cluster": "cfc9b4447e9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-20T06",
-    39
+    40
   ],
   "yt_eval": [
-    "CBMiiAFBVV95cUxQZEtFMGRuVjV0N0ZGYVY4aDhWbkxwNnZqVDQwQ0JRcFFtZ3p6bEF3ZEVGQ2hHckhVdUlQVXhUdmQ4TGJKRW5VdmVETTEtTFVxOHJEelplUkkxSnRpSXB2S2hrLTBpelB6bTQ4bzJJRE1NUUNZQ0N6cVFScDJmZlk0MmRvRlBjYzRq",
     "CBMipgFBVV95cUxPN0hwZ014S05kQmhCR0pqUm5NQ3VLM1pMbHcxbDZuWDFwQS1BelZ4WFR0ZVB6ZzBueUQ2YlFpYy1tQU04NkdVLVNkQTM5cGZwNkRlZDVTc3BRc2dZT1BES1JMR1dRYkFHZWxzV2VSMnM1WmxIOGs2Z2RDUy01M0sxbTV5VTgxdlNJTTRPaGxRNzVSX1lrSmU2NWk2V0llUUM4eXZiMGZn",
     "CBMiwgFBVV95cUxPZHltem11TUstWW9TTHJndU4zNENPUHNVUE9VRWZocDh4VzRCM3pUVXYyYlBGX0tINmR6aGFwR2dJRDNkY1J2N3pUQl9kcm9LY3Nlc2pFSDlia29fMU5fUmNsMEJDVXJXMGtiYm0wODNqMFprN3F0QWVCanFDcjBlTXpVR2d2R0xEZVVwc2c3eklNYktSMHlNVnRmWnIwSnlRckU3Qmw1ZENUcV82dnQyUXBYaDJyNllhdGkyTldYNkFaUQ",
     "https://www.mmamania.com/?p=470077",
@@ -6411,11 +6410,12 @@
     "CBMibkFVX3lxTFA2U2FqQkZNdnYwLVQwYU9HY0lkMXpUQzd3NlpQaDRLMDFjZGhSUW5aTjhTNkZweUUwbHAxZ1hnN3EwblRlaEZ1SnNTUnN1WDg3OTJFNFl4aU43NFBKMU1TUjJJUG45ODdFV1RVejBB",
     "CBMi7gFBVV95cUxQdTZfdmNrTFNKcEt2dmFUS29LOVkxc3ZKVm4zRFB5YVBPMWh6UExCcjloVGhPYkxXQ1hyNVRQSXp1cFd1N09RUXFmTm5xNUlwTXhyNkljX24tRWp2ZmpHMzNFR2VXZVBWZ3FockhzYm9vcEhJYWhwLUxTeXpSTTdKS2pTY24xN3Zfa1VydGptd2E4V1lQSFhOb0p5ZFpSWGFmbS12ZEFJclJJczNIbEE3MmU1MlVTZzRWNF90MWZPSzJMNTNtSVQ4R1ZYN0NsSFhicWhzMVMxS3JtMWxUMVQ4OVJUQVR1MkxidFRlZnBR",
     "https://www.sherdog.com/news/news/Jon-Jones-reaction-says-it-all-after-Gable-Stevesons-12second-KO-loss-202867",
-    "CBMi3AFBVV95cUxNbHB6YTA3MW1JVFJnLXgxYS00OWladTA2VndQQ1hlM1J2Tm1RSm84UU9MRFdMMTZuLXN1bU1lT2tGQmhabGRaaDZ5MXllTklWVFBnWmFuY2VEQ2pDc1FPNDZJWjlIbVZ4V1NTaHF5OWFkSnJodUdqNXlRYTZUYjE3c29YU0hIXzN4STRublk4WmpMWHJ3QkFEWG83ZXowMnhSYm4xckxGM2dCb1hfVHUxTnJjVkJuOXU1YlFmcjhPOGJkdV9IU3JIMm5MeFpOMEdITzFiaFAzMF9GeEtK"
+    "CBMi3AFBVV95cUxNbHB6YTA3MW1JVFJnLXgxYS00OWladTA2VndQQ1hlM1J2Tm1RSm84UU9MRFdMMTZuLXN1bU1lT2tGQmhabGRaaDZ5MXllTklWVFBnWmFuY2VEQ2pDc1FPNDZJWjlIbVZ4V1NTaHF5OWFkSnJodUdqNXlRYTZUYjE3c29YU0hIXzN4STRublk4WmpMWHJ3QkFEWG83ZXowMnhSYm4xckxGM2dCb1hfVHUxTnJjVkJuOXU1YlFmcjhPOGJkdV9IU3JIMm5MeFpOMEdITzFiaFAzMF9GeEtK",
+    "eeed34bb-0ff3-3750-899a-24a8292c864d"
   ],
   "daily": {
     "d": "2026-09-20",
-    "ai": 105,
+    "ai": 106,
     "staged": 4,
     "prio": 1,
     "lost": 0
