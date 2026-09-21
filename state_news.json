@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4349244d7106c38b": 1789966815.1752331,
     "13732f1a86bcf723": 1789966585.7897735,
     "c1b148e2ef1e4839": 1789966356.9300544,
     "8e608510a026fa61": 1789966168.3329585,
@@ -2498,18 +2499,11 @@
     "6f56c26fc4495ada": 1789479513.1145434,
     "53d4238ae86dd51b": 1789479513.1122675,
     "844b8feaad7c7d63": 1789479449.0219893,
-    "1301fa056aaad491": 1789479448.7338235,
-    "949abdce023f6017": 1789479384.1848614
+    "1301fa056aaad491": 1789479448.7338235
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Main Card Results | Crypto.com UFC 331: Van vs Pantoja 2",
-      "source": "UFC.com",
-      "ts": "2026-09-19T13:09:29+00:00",
-      "cluster": "c37eba0f18f"
-    },
     {
       "t": "UFC 331 : le nouveau pari fou à 650 000$ de Drake",
       "source": "lasueur.com",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-21T04:45:00+00:00",
       "cluster": "ca2b071f440"
+    },
+    {
+      "t": "Paddy Pimblett is now more confident of beating Arman Tsarukyan despite vicious UFC 331 KO",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-21T05:00:00+00:00",
+      "cluster": "cb8b46d09fc"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-21T04",
-    28
+    "2026-09-21T05",
+    1
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330786",
     "https://www.sherdog.com/news/news/Mickey-Gall-ready-to-reintroduce-myself-as-a-man-in-UFC-return-202701",
     "https://www.mmafighting.com/?p=509182",
     "https://bloodyelbow.com/?p=330803",
@@ -6411,11 +6410,12 @@
     "CBMikwFBVV95cUxQWEsyemRZeE5XM09yem4zaGZMYXJqWXN4bkhibDNXU2VPVTBPLU1NeUE2N24wdll5eF9Razh6M0pVT1VqN3NMaWhFZEw4M0M1T1Vucm9qd2xtX2xsWmZidzNmYmQyMFhvRF9xeVdsZXRhZU1GLURJTXZibENHN0JaUTJsVGNMV2FCR3c0TDZLVzZuaEk",
     "CBMiiwFBVV95cUxOZWhUZHVqX1pDY0EtUm1YQ0F3cTdWTWFEQVB5SFJjdWoyU1lXWDNBYnNhM2Rrc3dUV0x3YmFLMVFoSUhoMlFtSnNWdmFzU3FSeGpzWldTN05HNDhheHBWbW9DdHQxUHo3cy1pV0NRMUJDQzdJNG9Va196M29WTVFXX1JwTXdBMVJfZUM4",
     "CBMilwFBVV95cUxQOEliMHZPajd0aHhPQXRjQVhuSklpaUZmSUFmQ2l5bEJ3MUFYaEVSSXo2MDJxOVZnbExSM1VNbzBETHE2QkhRTXJXWUhnRmM0bTVnRm9CeFhtTFBIcUpPQ0RlajNsMDNoRVp3NGczWlRKdzdaTlgyTzFIbDJTUW0wNnY1TnlUZGFDQjFGclp0UEw3UDJ1TDc4",
-    "789f1ded-411a-3592-af78-8cc8fd742fe7"
+    "789f1ded-411a-3592-af78-8cc8fd742fe7",
+    "https://bloodyelbow.com/?p=332924"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 41,
+    "ai": 42,
     "staged": 4,
     "prio": 0,
     "lost": 0
