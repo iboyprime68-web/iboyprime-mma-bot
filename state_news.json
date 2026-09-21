@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9dc46c6493bbcfdf": 1790011937.5024767,
     "9923ca6a536d9a1f": 1790011805.507139,
     "4712f6c88601bad5": 1790011780.2690234,
     "aeff01d9d8e941aa": 1790011480.2942722,
@@ -2498,18 +2499,11 @@
     "8f8f88ead3a3a2e4": 1789498256.6384184,
     "cd4af35789f354f0": 1789498256.041819,
     "77fbfad4621395c8": 1789497944.2505808,
-    "4207f8371eec7a29": 1789497944.23271,
-    "0835366be95e99cf": 1789497818.6180465
+    "4207f8371eec7a29": 1789497944.23271
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "+[MMA𝐒𝐭𝐫𝐞𝐚𝐦] UFC 331 MMA 𝐒𝐭𝐫𝐞𝐚𝐦s Updates Watch MMA game",
-      "source": "Rocky Mountain Outlook",
-      "ts": "2026-09-19T21:47:49+00:00",
-      "cluster": "c91e4d01e85"
-    },
     {
       "t": "@+*![MMA.𝐒𝐭𝐫𝐞𝐚𝐦s]\"UFC 331 𝐋𝐢𝐯𝐞 𝐅𝐫𝐞𝐞 MMA Game 2026",
       "source": "NewmarketToday.ca",
@@ -4903,16 +4897,21 @@
       "source": "F4W/WON",
       "ts": "2026-09-21T17:21:38+00:00",
       "cluster": "c1a844c2fb8"
+    },
+    {
+      "t": "“I thought he looked pretty sh*t”: Paddy Pimblett gives blunt assessment of Arman Tsarukyan’s UFC 331 performance",
+      "source": "MMA Sucka",
+      "ts": "2026-09-21T17:30:02+00:00",
+      "cluster": "c958f2adea5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T17",
-    25
+    26
   ],
   "yt_eval": [
-    "86f13332-e0f8-3767-ac30-346847c3a15e",
     "df2a757c-398a-3bdb-a283-9c57f78aec09",
     "https://www.mmamania.com/?p=470304",
     "32c394c8-f7ca-3bbb-80f9-8ea5be68e131",
@@ -6411,11 +6410,12 @@
     "https://www.mmamania.com/?p=473913",
     "CBMi_wFBVV95cUxONEFaNG11elZ2dzQ4WkJXdXVHSUNKX0o4Q2E3aWZYWVRVbXpkeW5wRElxUDZTbVpkMTI0SzZFRHdSaVo1eWNqTG9oaDJEdHJ4c2ZzVXdnLXUzeXl1bmFmQU45RFlEb1IwcjdrSmp4bmhlZzVSbkxaR2JOYm1GX05CNlJqcUlNbzk4dHRtQ090Z0l2QWVMbUZsZFdwT2dNbWxZR2FiSm5jVW1fcnFJNFF2U2cwWnhKNENJckJMdFN5RmNma09RNThWUTBRekFRUGt2NlhiaVgwcFNpM2hUbWNWSmZEVGZhcjFTR1B1d3d0aGRNdkhBODdfZWhlUjdYR1k",
     "CBMihwJBVV95cUxOMWpsaW5CbzJXTzk4YTI0WF9BVktUbUN4WG1Eb2NkY1NEaVF1OEE0ak5hUWRadmFCUnhJVjYydmh5T2JaUE5INkVEREFhbC1pc1Bla2JTalpqOFJVS25fcUF5OW5nR2ZpYU9DWUdibE1fOHl6Z1k4VWE0QnpMQ0lPamxGNVNQdlJKd3dkbTZpZ2l2YUx0dldDRjhYTDZyYXM3MUJlNW10NF9mRVpPeVBvMXhnamFkUzhDS0x5UVlQSWd5TGtVVmZ0SnlzV2Y5REUtbUlfQnJqeVJ4REs0bWFiSjFlaWQ1cjVhZjRVenRndDFHd2E3NkR0QVpjbTZ3UWcwQU9FUTJrcw",
-    "CBMigwFBVV95cUxQbWVPNjhRWldWN0FTZ2I5QVRyTU93YXpyQXB5VS1Vcm9nOTA2ekR4MFMtd2VzNVR6MW9iOHZGeXZySEFjUGFYUEFzZ2ZCVTU0bXZZd3BLTGwxZFl2ajlHNllPQjdmNlNkSDd3RFBWa2hJamtmZGVTeURxMnVRWnZTM1h3bw"
+    "CBMigwFBVV95cUxQbWVPNjhRWldWN0FTZ2I5QVRyTU93YXpyQXB5VS1Vcm9nOTA2ekR4MFMtd2VzNVR6MW9iOHZGeXZySEFjUGFYUEFzZ2ZCVTU0bXZZd3BLTGwxZFl2ajlHNllPQjdmNlNkSDd3RFBWa2hJamtmZGVTeURxMnVRWnZTM1h3bw",
+    "CBMixgFBVV95cUxPR1dGblNiemVTeF9qdUM1a0JFMlR0SnFpR0lrTmNZd19CTy05YlR5S1hOSkpYZVN2TDB2emMwcmNMMkY0OUlHZl9sVmktckdUSUJWRjdBcUN2dXdQODhQTk5CdlBPbm9lTHpSLS1kUWpkS2llejloMHpfcll4S29PSG1mS1dJUlZRVzV4NmdvTGFJZy1pZi1uRS1ZemlZSDVoMExrUlRzd3NOcHN1MV9jNFI0SFlZaDFiSFBySUdJSzlxM1E0dUE"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 100,
+    "ai": 101,
     "staged": 5,
     "prio": 1,
     "lost": 0
