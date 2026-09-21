@@ -1,5 +1,6 @@
 {
   "seen": {
+    "dce8c1afcd4ef17c": 1790024348.437061,
     "c9ceab826f2e8578": 1790024324.1500623,
     "0b64edb0b31503da": 1790024280.1611574,
     "0bb9a6cfce5d2ed8": 1790024215.1347353,
@@ -2498,18 +2499,11 @@
     "29572bd66c71ab85": 1789506949.4029806,
     "856a9dd90ca11992": 1789506949.402141,
     "3e8ab18ac55ae07a": 1789506949.4014819,
-    "1b63b5776719d498": 1789506925.8057036,
-    "2b1b30f2bd0af5b6": 1789506899.4608583
+    "1b63b5776719d498": 1789506925.8057036
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331 video: Casey O’Neill scores spectacular armbar submission after nearly being choked out",
-      "source": "MMA Fighting",
-      "ts": "2026-09-19T22:33:59+00:00",
-      "cluster": "c13492ad0d0"
-    },
     {
       "t": "\"Tomorrow we kill or be killed\" Joshua Van speaks about his rematch with Alexandre Pantoja",
       "source": "MMA Sucka",
@@ -4903,16 +4897,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-21T19:00:47+00:00",
       "cluster": "c6e098a1044"
+    },
+    {
+      "t": "Colby Covington urges Gable Steveson to cut ties with 'piece of sh*t' Jon Jones",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-21T18:40:22+00:00",
+      "cluster": "c378c047062"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T20",
-    9
+    10
   ],
   "yt_eval": [
-    "165a1c9d-db28-34a5-8d61-97a90754c3b0",
     "https://bloodyelbow.com/?p=330887",
     "https://www.mmafighting.com/?p=509212",
     "c3fadcdb-d9a1-3914-b7a2-5e88ef5b10b9",
@@ -6411,31 +6410,17 @@
     "e19d5d4f-b3ef-3025-a2c5-537d6d1ee3eb",
     "4595f1a5-0dcf-3837-ac17-3cad00305d50",
     "e3e03ccd-7243-3c48-b6f0-5df4559758bf",
-    "https://www.mmamania.com/?p=474061"
+    "https://www.mmamania.com/?p=474061",
+    "7af8f5cd-6931-392d-b37d-710fbf98bc8a"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 111,
-    "staged": 5,
+    "ai": 112,
+    "staged": 6,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-10T18:24:28.424975+00:00",
-      "t": "Islam Makhachev Reveals Minor Spine Issues Following Three MRIs After UFC 330",
-      "names": [
-        "islam",
-        "makhachev",
-        "reveals",
-        "minor",
-        "spine",
-        "issues",
-        "following",
-        "three"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-11T03:51:13.400963+00:00",
       "t": "BKFC star Connor Tierney explains decision to cut retirement short after having his jaw split in two",
@@ -7212,6 +7197,17 @@
         "rex"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-21T20:59:09.171646+00:00",
+      "t": "Colby Covington urges Gable Steveson to cut ties with 'piece of sh*t' Jon Jones",
+      "names": [
+        "covington",
+        "steveson",
+        "jon",
+        "jones"
+      ],
+      "img": "cutout:colby-covington"
     }
   ],
   "seed_pending": [],
