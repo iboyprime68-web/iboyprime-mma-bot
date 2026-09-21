@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a8b0f2d759d02174": 1790009711.183891,
     "41fa2bfa10695fc7": 1790009687.242289,
     "9c1b87dcde0654c5": 1790009662.6488094,
     "b00828679ee06591": 1790009662.2892454,
@@ -2498,18 +2499,11 @@
     "b409b52cc20f4766": 1789495758.3685024,
     "7480d0f56d7feccb": 1789495758.3644364,
     "f81976e6199921c7": 1789495693.8242576,
-    "44b91ad53f595965": 1789495692.3184845,
-    "7bade2f8468775fc": 1789495692.3150096
+    "44b91ad53f595965": 1789495692.3184845
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Colby Covington wants to face UFC star he has ‘unfinished business’ with instead of Khamzat Chimaev",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-19T17:00:00+00:00",
-      "cluster": "ca89798593d"
-    },
     {
       "t": "Robert Whittaker Wants to Fight Former UFC Champion Next",
       "source": "heavy.com",
@@ -4903,16 +4897,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T13:00:00+00:00",
       "cluster": "cc73f2923ea"
+    },
+    {
+      "t": "Joshua Van suffered major injury month before UFC 331",
+      "source": "MMA Fighting",
+      "ts": "2026-09-21T13:55:29+00:00",
+      "cluster": "c6d3dae73d5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T16",
-    5
+    6
   ],
   "yt_eval": [
-    "2a3c39ed-23ef-33c2-9a04-733e0afb42cb",
     "f90c0ba6-495d-365e-a6a0-0a54ff429290",
     "CBMif0FVX3lxTE53bmpqMXczN05TNFk5aWZTR0RrY2lMaWxvSGtWUW16bFZyT01QUnhMTWdVZXNvZFRtV1hCTGQwaU9KNTd3bjhzRDA4QlZVdmpZcTRWVzhJdXhTNE1zM3RYOVdjR2FzaGNUdUlFZE9TdGFaN3QwUXJQd3ZtTGlJOTA",
     "CBMixwFBVV95cUxNVHBzWEljMkh1cExQRW9fMFRyajZqclZGY1ZhOHEzVGRCVEVtNXRMNlVlOTFxUlhDY1RlaHhvcUNTNWt0TkVaaWhYUENRS2Q4d2VwZWJ3Qm44OHZFMTNWUDl0M1A2VVFwNXhCYUJzcGMzbklhOGpWWi1mVnY0c2w4M2RTdTgxbEMxNUJoWmtFMmZVVnRnaXJYRVlhUFg4NzJQdU9wMzc2bG5Fd2pXSjR4QlRvOGZjUDVkSXZFY3lqRVZBVnNVdUxZ",
@@ -6411,25 +6410,17 @@
     "https://bloodyelbow.com/?p=332954",
     "https://www.mmafighting.com/?p=511664",
     "https://www.mmafighting.com/?p=511533",
-    "https://bloodyelbow.com/?p=332942"
+    "https://bloodyelbow.com/?p=332942",
+    "https://www.mmafighting.com/?p=511727"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 67,
-    "staged": 4,
+    "ai": 68,
+    "staged": 5,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-10T15:00:57.065765+00:00",
-      "t": "Justin Gaethje claims Arman Tsarukyan blew his title shot because ‘he wasn’t going to make weight so he dropped out’",
-      "names": [
-        "gaethje",
-        "tsarukyan"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-10T18:15:53.535573+00:00",
       "t": "Justin Gaethje provides new retirement update with Ilia Topuria rematch rumors continuing to circulate",
@@ -7212,6 +7203,14 @@
         "flyweight"
       ],
       "img": "cutout:joshua-van"
+    },
+    {
+      "ts": "2026-09-21T16:55:12.549176+00:00",
+      "t": "Joshua Van suffered major injury month before UFC 331",
+      "names": [
+        "van"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7267,15 +7266,15 @@
     "cc5b1f0b9b887796": 1789753607.166997,
     "3d7283ecfe7ae930": 1789807874.5956829,
     "68e8e2fb5c27afc6": 1789885103.5166793,
-    "6a893d14afaffe60": 1789927687.8101327
+    "6a893d14afaffe60": 1789927687.8101327,
+    "a8b0f2d759d02174": 1790009712.5512054
   },
   "pinged_titles": [
     [
-      "Arman Tsarukyan may finally be out of UFC’s doghouse after what Dana White said about his ‘comeback’",
-      1789927687.8101327,
+      "Joshua Van suffered major injury month before UFC 331",
+      1790009712.5512054,
       [
-        "tsarukyan",
-        "white"
+        "van"
       ]
     ]
   ]
