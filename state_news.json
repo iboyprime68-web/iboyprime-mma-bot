@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e8a2f43f2b3ed1e2": 1789949912.0066774,
     "e0ef86f372ef539f": 1789949787.2571566,
     "b296bca2c5d28fd0": 1789949722.8935788,
     "95436e6f294b699b": 1789949597.5300646,
@@ -2498,18 +2499,11 @@
     "9e992f5860517476": 1789457568.8549886,
     "0c882d1532952a74": 1789457568.8532329,
     "b59e3a8fbae33d09": 1789457568.8517807,
-    "36619651d21ab181": 1789457568.8314016,
-    "08bac519b9d225ce": 1789457568.8089323
+    "36619651d21ab181": 1789457568.8314016
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Gable Steveson channels Jon Jones and refuses to look at Sean Sharaf in awkward final UFC 331 face-off",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-19T05:03:49+00:00",
-      "cluster": "c8df9979c46"
-    },
     {
       "t": "Dana White: Ciryl Gane not promoted to undisputed UFC champ despite Tom Aspinall vacating title",
       "source": "Yahoo Sports",
@@ -4903,16 +4897,21 @@
       "source": "lindyssports.com",
       "ts": "2026-09-21T00:07:00+00:00",
       "cluster": "cbf2347322b"
+    },
+    {
+      "t": "Amanda Nunes Reacts to Cancellation of Title Fight at UFC 324",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-20T23:29:26+00:00",
+      "cluster": "c28fde93214"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T00",
-    10
+    11
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509041",
     "https://www.mmafighting.com/?p=509132",
     "https://bloodyelbow.com/?p=330746",
     "f151e0ce-17e1-30c5-9ee5-a6e4a4a4cf6d",
@@ -6411,27 +6410,17 @@
     "CBMiggFBVV95cUxQWlNMYThRVUNzNmZLdEIxTVVJaFhhWjd4Nm9oSUZrVjM5cjBHOHl2cnVlSi1pY3VBODJDeVc1ZW1Eb0UySkNtSnNmX1daeUJBdF9pbzVIb2R6Z0ZsekVkdGMzRU1JODVleDlOQjlfcHF4Qk92eTNjSVc3QjNKWVRpVmtn",
     "CBMic0FVX3lxTFBKQ2F3NHYxdy1UcFViTmppTEF4ZXFzUGxjM2VtdXRZUURodHYtcy1rNTA2MTdsNHk5X2I1MEl2S0gzcjI0RF9KYXl5RndEc21BQVgyTm51MHVabFh1cDJEZzdXVFNrdVZvRHR1bmNuZmVBY3M",
     "CBMikAFBVV95cUxQeTZZNkdIemdkZkFmeXdzZ1hEQktnaVc4ajdXZTE2bHRvLWpaaUJzVGRXWWVtNU5pYWtlemR3clB6QVVZa09DczBia3pRM3BnS2hoV2VmSEEwZ3ZlTGk5T0NxOUw1YnJqaWVxT21yLUlsaURrTUtpMFNFaC04MXppNWFWcENkZ0x3Tzh0emg2Q18",
-    "CBMicEFVX3lxTE1BZmNWOEFhLTFGX2I3NkUxVXpRZVB5QTc0OGJkdTlLdExMaE1kaVgzcUlocDFFcFVQclBSd1U2Z2otaFB4T3VUVm1yLWEtMWp2OVNtSGF4NzRLWXF6S3dFYk9vXzZUMnNVcmJaMDZDdEM"
+    "CBMicEFVX3lxTE1BZmNWOEFhLTFGX2I3NkUxVXpRZVB5QTc0OGJkdTlLdExMaE1kaVgzcUlocDFFcFVQclBSd1U2Z2otaFB4T3VUVm1yLWEtMWp2OVNtSGF4NzRLWXF6S3dFYk9vXzZUMnNVcmJaMDZDdEM",
+    "CBMinwFBVV95cUxQMmxvd0gzcG9Uekl2d3NFekNwR0w2eWdXVVpVejB3djI4QmZRcU41Z1lIbkVnLUhiYjYzWUtwQ0ZTcTFYUUVzWHlJMWdhTzhoeU9PLWlRbkJvRVpKaVlCR1RWbDBiRGVoZWRxR3B1VnBvRWUyblEzbnJfUS1WQ29wQmU3Sy1FWWhFQU1Td1lRTFB5cHN3UEFWbDhVUHY3eVk"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 10,
-    "staged": 0,
+    "ai": 11,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-09T23:16:16.488472+00:00",
-      "t": "Injured UFC champion Islam Makhachev hopes to defend Welterweight title next before Ramadan … 2027?",
-      "names": [
-        "injured",
-        "makhachev",
-        "welterweight",
-        "ramadan"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-10T05:47:13.369887+00:00",
       "t": "21-fight UFC veteran ends short-lived retirement to make Octagon return after broken promise",
@@ -7212,6 +7201,17 @@
       "names": [
         "tsarukyan",
         "white"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-21T00:18:33.214102+00:00",
+      "t": "Amanda Nunes Reacts to Cancellation of Title Fight at UFC 324",
+      "names": [
+        "amanda",
+        "nunes",
+        "reacts",
+        "cancellation"
       ],
       "img": "photo"
     }
