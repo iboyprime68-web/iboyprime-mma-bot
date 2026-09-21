@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3a9587317fd5b616": 1790009848.6487591,
     "248584db5c5bbbf8": 1790009820.6518838,
     "532256b666af1c93": 1790009820.0794275,
     "f9395da4afbba32e": 1790009794.8044817,
@@ -2498,18 +2499,11 @@
     "32e4ec8cda4a5373": 1789495889.4759028,
     "0ac7045d12ec87b7": 1789495888.7318466,
     "8a7cbe62b30d3f5a": 1789495824.1178706,
-    "5122a2e17d0ffc28": 1789495758.7114956,
-    "c78b50653a70c4df": 1789495758.3908992
+    "5122a2e17d0ffc28": 1789495758.7114956
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Gable Steveson vs. Sean Sharaf prediction, pick, time for UFC 331",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-19T17:31:06+00:00",
-      "cluster": "cf2006bab25"
-    },
     {
       "t": "Former WWE champion Jake Hager underwent emergency surgery after Power Slap injury as update issued",
       "source": "Bloody Elbow",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-21T13:30:00+00:00",
       "cluster": "c0456f28e7b"
+    },
+    {
+      "t": "Darren Till vs Yoel Romero: BKFC’s top UK stars predict clash between former UFC title challengers",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-21T16:00:00+00:00",
+      "cluster": "cb819d9919c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T16",
-    10
+    11
   ],
   "yt_eval": [
-    "CBMimwJBVV95cUxNenBzM1NjY1ZFeVB5WDU1b1NQQ1JMOUx2bFRPVmdrelRnSFlCeXRBWm5LRko3V3o3a0FRQjkybC1oQjV1NHh2ZmFMdDJReTZ4WWl6UXFfaEtkQmswT1JFbkNxalVIMFI1eEU0UmtieVdOS19KZkhWRTZ2OFZIRzBvZWNwM200MF93WmdTYldYaUxFdThTcVJXS1FhYXNKaEliakJPV24wbC1RZDRuQVd5eHRsOUlGby1La3Exc0Y1Z29qRWVtX0VvcERWQzRHY1NVaWJSWF9jVXNEdUt6aDJrekxBRGVmd0pzbm4teU1sMmhvejAyLU9hcnNnQTUtTFdIZ1ZlQ0tWRE4xUENBUWtDcE9IR3ItVGFKVkRr0gGgAkFVX3lxTE1nZEl4UmpoY3dLOWlKRldGczBTVXFnRU9ZVGxLX2k1eU5NV2NGb1NnRVZad3BLdjBlMEhHZmZBWU5sZklNQVRsdEZPTFBnUEZ6WmFsaVo0YkZZWUFBd2hDWGVOYkZzRllPRllHQUtjXzBKOHBUZVU0OGE3YUpHTThHNlRTRDREZmpOaWhIVVRZWEVPNjduZnRZYjJCZ1FNZUVvOFZ1NllZaTM4NVFwYmhPTXJVNEhYSTV3dFF0MkpDTDVwbnlTeUZ1a3ZlcXRKME1iTmNFVTkxaTJSdHhCanpkaDBhTldvcTh1bDBCZGhHU2xpemxuVVppeEVEbWVody04MG13b0Nub0Fzb3pycFl6aENQOWFXbWxDd3paaFVTYg",
     "CBMiigFBVV95cUxNUHh0YUxOOHRpVVdTbHpvOVZMWV9LV0FSOElWTGl5MHNuRlY2Mk1CYkw5OFQwc0lRekFIS29GWHhQVjJyTnozVkdkMTR3WVF4T2ZSUHdiX09PTEFwZUQxWTJPUk0zejNOUEFtX0ZIYWpXRncwTWFvN2U5N2tPYlBNRDNqaUExRXM3Ymc",
     "CBMirwFBVV95cUxNUUR2RVcyQUZDSkxpUnR3UnMtSzF5ZGhwNXg5amxYWHl5cmxKaE5jZ3JOWGtZQTJLVlY1Y1BBNUxBbDdGZ1RXeVROUnRaeXBxZGRHeHFITDNHZ2pzUklLemFqRDNqdnROWXgzYVA3Rjg4OGNIX1ZqS2dYaGl1azZ0cUhRYl80QWxIMUlLb3EwbmxhR084eWRMYVBJNDlXSTBkNTUwODdldjJkQVE4Znd3",
     "CBMiigFBVV95cUxQak9YWU1xNWVhNllPd2I4UGQwdWpOVGVQX3hfX0JEVndSamg2YndlYVhNUkZvMFNrc3V4QllwMHNYQ2syQU5wb0NjMEptclFxTVNsM25peFZiYndYb0JuUFBhcHFSN0dVdnpvNDM1SzU4NWNrZkwxYUNhVUZ6LXJqZkF4cWh5RVZfZ3c",
@@ -6411,11 +6410,12 @@
     "0032be3c-2d8d-301b-ba9e-9593ed448ec4",
     "https://bloodyelbow.com/?p=332964",
     "https://bloodyelbow.com/?p=332934",
-    "f6e3c2d1-d360-3f32-a5ce-65c5c37b55ac"
+    "f6e3c2d1-d360-3f32-a5ce-65c5c37b55ac",
+    "https://bloodyelbow.com/?p=332446"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 72,
+    "ai": 73,
     "staged": 5,
     "prio": 1,
     "lost": 0
