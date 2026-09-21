@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c1b148e2ef1e4839": 1789966356.9300544,
     "8e608510a026fa61": 1789966168.3329585,
     "3656011cb4fe0c28": 1789966103.5531611,
     "e3ff89c446ebcd62": 1789966038.7138517,
@@ -2498,18 +2499,11 @@
     "844b8feaad7c7d63": 1789479449.0219893,
     "1301fa056aaad491": 1789479448.7338235,
     "949abdce023f6017": 1789479384.1848614,
-    "866097867e12d43f": 1789479318.6901166,
-    "de1a193036cc9b6f": 1789479318.3597243
+    "866097867e12d43f": 1789479318.6901166
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Open Thread, September 19, 2026: Where is your happy place?",
-      "source": "MMA Mania",
-      "ts": "2026-09-19T13:05:00+00:00",
-      "cluster": "cc9d246ca03"
-    },
     {
       "t": "Main Card Results | Crypto.com UFC 331: Van vs Pantoja 2",
       "source": "UFC.com",
@@ -4903,16 +4897,21 @@
       "source": "MiddleEasy",
       "ts": "2026-09-21T04:41:15+00:00",
       "cluster": "c921bce0912"
+    },
+    {
+      "t": "Arman Tsarukyan Accuses Justin Gaethje of Ducking Him After UFC 331 Win",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-21T04:45:00+00:00",
+      "cluster": "ca2b071f440"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T04",
-    27
+    28
   ],
   "yt_eval": [
-    "fe2844e5-2189-3ba5-895a-adbe8bdc2cd7",
     "https://bloodyelbow.com/?p=330786",
     "https://www.sherdog.com/news/news/Mickey-Gall-ready-to-reintroduce-myself-as-a-man-in-UFC-return-202701",
     "https://www.mmafighting.com/?p=509182",
@@ -6411,11 +6410,12 @@
     "https://www.sherdog.com/news/news/Iwo-Baraniewski-reacts-to-first-pro-loss-Not-my-first-in-life-202887",
     "CBMikwFBVV95cUxQWEsyemRZeE5XM09yem4zaGZMYXJqWXN4bkhibDNXU2VPVTBPLU1NeUE2N24wdll5eF9Razh6M0pVT1VqN3NMaWhFZEw4M0M1T1Vucm9qd2xtX2xsWmZidzNmYmQyMFhvRF9xeVdsZXRhZU1GLURJTXZibENHN0JaUTJsVGNMV2FCR3c0TDZLVzZuaEk",
     "CBMiiwFBVV95cUxOZWhUZHVqX1pDY0EtUm1YQ0F3cTdWTWFEQVB5SFJjdWoyU1lXWDNBYnNhM2Rrc3dUV0x3YmFLMVFoSUhoMlFtSnNWdmFzU3FSeGpzWldTN05HNDhheHBWbW9DdHQxUHo3cy1pV0NRMUJDQzdJNG9Va196M29WTVFXX1JwTXdBMVJfZUM4",
-    "CBMilwFBVV95cUxQOEliMHZPajd0aHhPQXRjQVhuSklpaUZmSUFmQ2l5bEJ3MUFYaEVSSXo2MDJxOVZnbExSM1VNbzBETHE2QkhRTXJXWUhnRmM0bTVnRm9CeFhtTFBIcUpPQ0RlajNsMDNoRVp3NGczWlRKdzdaTlgyTzFIbDJTUW0wNnY1TnlUZGFDQjFGclp0UEw3UDJ1TDc4"
+    "CBMilwFBVV95cUxQOEliMHZPajd0aHhPQXRjQVhuSklpaUZmSUFmQ2l5bEJ3MUFYaEVSSXo2MDJxOVZnbExSM1VNbzBETHE2QkhRTXJXWUhnRmM0bTVnRm9CeFhtTFBIcUpPQ0RlajNsMDNoRVp3NGczWlRKdzdaTlgyTzFIbDJTUW0wNnY1TnlUZGFDQjFGclp0UEw3UDJ1TDc4",
+    "789f1ded-411a-3592-af78-8cc8fd742fe7"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 40,
+    "ai": 41,
     "staged": 4,
     "prio": 0,
     "lost": 0
