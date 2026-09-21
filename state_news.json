@@ -1,5 +1,6 @@
 {
   "seen": {
+    "edb199aab17359f1": 1790024440.6804006,
     "754bb35e9f14a223": 1790024417.968238,
     "dce8c1afcd4ef17c": 1790024348.437061,
     "c9ceab826f2e8578": 1790024324.1500623,
@@ -2498,18 +2499,11 @@
     "416dd9971a6262e5": 1789507014.1347148,
     "df3b1ed92a3db213": 1789506949.7245905,
     "29572bd66c71ab85": 1789506949.4029806,
-    "856a9dd90ca11992": 1789506949.402141,
-    "3e8ab18ac55ae07a": 1789506949.4014819
+    "856a9dd90ca11992": 1789506949.402141
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Highlights! Casey O’Neill delivers one of the sickest armbar submissions you’ll ever see &#124; UFC 331",
-      "source": "MMA Mania",
-      "ts": "2026-09-19T22:32:13+00:00",
-      "cluster": "c26d4fa6df8"
-    },
     {
       "t": "Arman Tsarukyan Claims Viral Wrestling Punch Made Georgia Poullas Famous",
       "source": "MMA Sucka",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-21T19:11:04+00:00",
       "cluster": "ca454121cd9"
+    },
+    {
+      "t": "Gable Steveson advised to take a year out of UFC action by former double champion: ‘Respect the game’",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-21T21:00:00+00:00",
+      "cluster": "cc48506f13f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T21",
-    1
+    2
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330887",
     "https://www.mmafighting.com/?p=509212",
     "c3fadcdb-d9a1-3914-b7a2-5e88ef5b10b9",
     "https://bloodyelbow.com/?p=330880",
@@ -6411,24 +6410,17 @@
     "4595f1a5-0dcf-3837-ac17-3cad00305d50",
     "e3e03ccd-7243-3c48-b6f0-5df4559758bf",
     "https://www.mmamania.com/?p=474061",
-    "7af8f5cd-6931-392d-b37d-710fbf98bc8a"
+    "7af8f5cd-6931-392d-b37d-710fbf98bc8a",
+    "https://bloodyelbow.com/?p=333003"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 112,
+    "ai": 113,
     "staged": 6,
-    "prio": 1,
+    "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-11T03:51:13.400963+00:00",
-      "t": "BKFC star Connor Tierney explains decision to cut retirement short after having his jaw split in two",
-      "names": [
-        "tierney"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-11T03:51:42.584335+00:00",
       "t": "Dana White weighs in on Justin Gaethje retirement rumors",
@@ -7208,6 +7200,16 @@
         "jones"
       ],
       "img": "cutout:colby-covington"
+    },
+    {
+      "ts": "2026-09-21T21:00:41.771002+00:00",
+      "t": "Gable Steveson advised to take a year out of UFC action by former double champion: ‘Respect the game’",
+      "names": [
+        "steveson",
+        "respect",
+        "cejudo"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7265,7 +7267,8 @@
     "68e8e2fb5c27afc6": 1789885103.5166793,
     "6a893d14afaffe60": 1789927687.8101327,
     "a8b0f2d759d02174": 1790009712.5512054,
-    "248584db5c5bbbf8": 1790009820.0997825
+    "248584db5c5bbbf8": 1790009820.0997825,
+    "edb199aab17359f1": 1790024440.2690525
   },
   "pinged_titles": [
     [
@@ -7282,6 +7285,14 @@
         "georges",
         "pierre",
         "rex"
+      ]
+    ],
+    [
+      "Gable Steveson advised to take a year out of UFC action by former double champion: ‘Respect the game’",
+      1790024440.2690525,
+      [
+        "respect",
+        "steveson"
       ]
     ]
   ]
