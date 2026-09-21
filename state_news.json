@@ -1,5 +1,7 @@
 {
   "seen": {
+    "29f9ca0f4e6718c9": 1789964643.5861018,
+    "64410a58728b2fc7": 1789964643.2503176,
     "9b5dede055bd8934": 1789964578.530178,
     "adf5997df51b61fc": 1789964509.3498394,
     "49a7df30f751c064": 1789964509.006088,
@@ -2497,19 +2499,11 @@
     "4e2995d45049610a": 1789478661.147537,
     "a4a4b0d106db3d6c": 1789478636.4063425,
     "9284ee0722013bf8": 1789478591.7640665,
-    "0d0165111d665d51": 1789478526.3330116,
-    "11d525fa83d91360": 1789478462.0986862,
-    "becda001d7a79ffc": 1789478416.986933
+    "0d0165111d665d51": 1789478526.3330116
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC featherweight champion Alexander Volkanovski opens up on Ilia Topuria’s glove accusation against Just",
-      "source": "The Times of India",
-      "ts": "2026-09-19T09:06:00+00:00",
-      "cluster": "cfff9336c05"
-    },
     {
       "t": "UFC 331 ‘cursed’ as Drake places $650k bet on Joshua Van vs Alexandre Pantoja main event",
       "source": "Bloody Elbow",
@@ -4903,16 +4897,21 @@
       "source": "Card Player",
       "ts": "2026-09-21T04:13:30+00:00",
       "cluster": "c0760f2533b"
+    },
+    {
+      "t": "Andy Foster Seeks Discussion On Making Lateral Knee Kicks A Foul After UFC 331",
+      "source": "MiddleEasy",
+      "ts": "2026-09-21T04:17:26+00:00",
+      "cluster": "c19fe66c30f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T04",
-    17
+    18
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Alex-Pereiras-Ciryl-Gane-rematch-demand-sparks-brutal-Josh-Hokit-tirade-202699",
     "2dd83b0b-4190-3a11-8d07-a2fc9948ddb5",
     "14857b54-10f4-3eca-972b-4ca272ed61bd",
     "2eccdd6c-574b-31a9-9764-885930dcf24f",
@@ -6411,11 +6410,12 @@
     "https://www.sherdog.com/news/news/Justin-Gaethje-has-brutal-warning-for-whoever-fights-Ilia-Topuria-next-202879",
     "CBMihgFBVV95cUxOY2t6anpTMkx6YlZQU3FGdk9pSlZlR1V6RkV0MC1LR25vQlAxbmJDSUlQUW1RV0JLcGtLTnBweEgtVks5V25zamkySWxVNmY2N2p3WXF2UXpVTV85YjNMa0VUaGdnQkw2UDNqWHB2RzRDLVhwOHFuQUI4cEdlQU1wNS1xMW1idw",
     "CBMiowFBVV95cUxNcXlNYkl5bk42QVp3UlhEc2k2bjZzY0xzWGZDb09pYm81RXBSMW5ONFRBRFRXalpEQXh0TGRFLVhBQ0J2VjFfbXBvdU9TSHZCUkJaMWNUa1F0OWlNSW5jbEE3bS1wR0RUb2w0SEpyTlo2eGNnXzA4ZFZ4ejVqZUNpRXZQZ1dudlVIbDR1U1M1TDU2ZEhJZGNlcmlCbFkyZWQyUzhz",
-    "CBMisgFBVV95cUxOeWRZcDFGZTJlU3pac0NRRWI2ZmxxX1B5bmMybjE0MHJaWjk2SDdialBBZ21kakFzYkJ1OHh3dzFfTkJrMlY5OEZSMGFmQ2kyWHM3Rmx5TTBoSnJKZ3Zkem1BMTQ5WnZMRkRMSDdtX1ZCSVpRdkpfeGNkTl9nWTVBdk5BcmRhSEhCMXZGdVYzcG02ZkxyTGpBVzlNVHE3RlNRQjdOMV81aEtJX2ZEeVFTaUZn"
+    "CBMisgFBVV95cUxOeWRZcDFGZTJlU3pac0NRRWI2ZmxxX1B5bmMybjE0MHJaWjk2SDdialBBZ21kakFzYkJ1OHh3dzFfTkJrMlY5OEZSMGFmQ2kyWHM3Rmx5TTBoSnJKZ3Zkem1BMTQ5WnZMRkRMSDdtX1ZCSVpRdkpfeGNkTl9nWTVBdk5BcmRhSEhCMXZGdVYzcG02ZkxyTGpBVzlNVHE3RlNRQjdOMV81aEtJX2ZEeVFTaUZn",
+    "CBMiggFBVV95cUxNWkNQY0FsbEcxN0hDM3pJekxOMWdSVVVnMWQwWjlzLWFId1BXMlV0UkFoT08yNGxfMExXMElRS0NVbHBsWjVFc0VGWVFJVXJJc2tCaW01T1E3NUtQU3VScXlfLUJuYUVEaXd5VjY4aTc1OVY5VzRBeXdKZUNiZ0FDU3pB"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 30,
+    "ai": 31,
     "staged": 4,
     "prio": 0,
     "lost": 0
