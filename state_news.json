@@ -1,5 +1,8 @@
 {
   "seen": {
+    "6ea341b084f3200a": 1790010663.1755803,
+    "106ec7db74d5bfdc": 1790010662.516883,
+    "dc546d262d539fe6": 1790010662.5010576,
     "06f3412f8b629565": 1790010595.3367605,
     "798d15a64a69ccd1": 1790010528.1233356,
     "81088f9458ba003f": 1790010459.3439884,
@@ -2496,20 +2499,11 @@
     "32919b9c4b7a9c5d": 1789496349.6244667,
     "23d8e584a64da387": 1789496349.3393307,
     "f87e560f3a19078e": 1789496349.337279,
-    "6cf3f4d8c9109cf6": 1789496349.3354852,
-    "fd769355400e4f37": 1789496349.3341675,
-    "68bc479c8a17b5bb": 1789496284.2630804,
-    "a7e16d31476d0cc7": 1789496259.165461
+    "6cf3f4d8c9109cf6": 1789496349.3354852
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "MMA champion continues winning streak since losing in front of Dana White with violent head kick KO",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-19T20:00:00+00:00",
-      "cluster": "c23d16d76b1"
-    },
     {
       "t": "Colby Covington Snubs Khamzat Chimaev, Wants Trilogy Bout",
       "source": "MMA Sucka",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo",
       "ts": "2026-09-21T16:10:21+00:00",
       "cluster": "cf6362d4998"
+    },
+    {
+      "t": "Chuck Liddell Names What He Hates About MMA",
+      "source": "MMANews.com",
+      "ts": "2026-09-21T16:29:03+00:00",
+      "cluster": "c280eed242e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T17",
-    12
+    13
   ],
   "yt_eval": [
-    "e8f871bf-2b87-34c7-9652-f5beea7d69dc",
     "https://bloodyelbow.com/?p=330848",
     "https://www.mmafighting.com/?p=509329",
     "324b7679-fbff-3c2d-a3f9-358b3b00d1cb",
@@ -6411,11 +6410,12 @@
     "CBMijgFBVV95cUxPaGtsekhuMVJsMTZWTzRQT1VxeFdIZU9jUkE2UndhcWIzbXFGdWJVdUx3ajlVSmxvODNDeXpuNWt6MEdhSjF1eDQ3eEw3ZDEyek41cVVLWm1UamZMQmt2eGljR0dPNWNpRmlNVUJrZmpwSjc2OWtrU1M1Y0Vsejd0ODhzbllQWU1wbm16OE9B",
     "CBMikwFBVV95cUxPVUkwd2RpY2NmRVNhV0NlNWlWODRScVNGaGhGazlFcFJNejFzUjdnenRhVjVsTWMwQUtBbGhqcnRoaVdmMjJoejJveG1mR2E2X0h1LVBsU1VOWDFNQUFnZkxITDM3dUpWb2dtekJVWi1KY2Y5ampPbXBmXzJhWFE2bFdrLUhHUm5LRUkzZHVCVEpGc1k",
     "https://www.mmamania.com/?p=473973",
-    "CBMihwFBVV95cUxOSTJ2NU84NjBZUlVERnoxeUR1aldmdFQ2R1JVNm14WGFuT3hVeF9Ib3NuM1pMYVRaSHVJYU9INDVPM2FTOUw5eEZ6RTNuZDZadVhPVE5sWXNVSzdTLVpKbDZVRElVM2dpRGZ4UTIxU3pYczFVN2I0X2EyTmJlRjBMRWFIZTlVRVU"
+    "CBMihwFBVV95cUxOSTJ2NU84NjBZUlVERnoxeUR1aldmdFQ2R1JVNm14WGFuT3hVeF9Ib3NuM1pMYVRaSHVJYU9INDVPM2FTOUw5eEZ6RTNuZDZadVhPVE5sWXNVSzdTLVpKbDZVRElVM2dpRGZ4UTIxU3pYczFVN2I0X2EyTmJlRjBMRWFIZTlVRVU",
+    "CBMid0FVX3lxTE1VVXpuV21GRW5oT0djVkRVUF9UeFlpQk91aFpINXBQaWtYN0Q1QjIxVktaZTUyOEp6R0t6NDVXUVR5SUJyTU9KRmxmMjZIakVaN0VPUnZuRjZwWk42dnUxaGdwaG53ZERLWEpvRDNFSV91S1FnaEhz"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 87,
+    "ai": 88,
     "staged": 5,
     "prio": 1,
     "lost": 0
