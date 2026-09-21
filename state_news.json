@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a61155dbdcaa6398": 1790010390.511827,
     "7f335be2b04e80a9": 1790010322.2125216,
     "13603395abb8bc6c": 1790010321.7666385,
     "54d46895444a8d07": 1790010321.7664456,
@@ -2498,18 +2499,11 @@
     "a7e16d31476d0cc7": 1789496259.165461,
     "8a1520c4f8b3dec0": 1789496215.7241917,
     "02bbdeb7d7c3c8c1": 1789496215.2015495,
-    "0db5ae0ae6ad46c4": 1789496150.8176708,
-    "a234255bbdd41227": 1789496086.237475
+    "0db5ae0ae6ad46c4": 1789496150.8176708
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331 live stream — how to watch Van vs Pantoja 2 online from anywhere, fight card",
-      "source": "tomsguide.com",
-      "ts": "2026-09-19T19:00:00+00:00",
-      "cluster": "c63288bbfd3"
-    },
     {
       "t": "Caio Borralho Issues Bold Prediction for UFC 331 Fight",
       "source": "mmasucka.com",
@@ -4903,16 +4897,21 @@
       "source": "MMANews.com",
       "ts": "2026-09-21T16:05:06+00:00",
       "cluster": "cf0d9a93248"
+    },
+    {
+      "t": "Patricio Pitbull Says UFC 331 Win Felt Like His Debut, Wants Jean Silva In Brazil",
+      "source": "MiddleEasy",
+      "ts": "2026-09-21T16:07:30+00:00",
+      "cluster": "cd925285c20"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T17",
-    8
+    9
   ],
   "yt_eval": [
-    "CBMibkFVX3lxTFAzZFgwLUpfQ2NQbWx3Zi1BMk5oaEFJVUEzVHZCZFJMM3ZsVHZubnVxSzRnSXV2Sm05UklLVGJ0YXJwQVlwWnJNbWNYZGZ5WE1SeEtDeG9JTVpIUGQ4NzVaQUlXYjdfZVJXN1ByaEN3",
     "3f9a4fb8-dede-353d-a5cc-38fcaa64da70",
     "https://bloodyelbow.com/?p=330844",
     "https://www.mmafighting.com/?p=509275",
@@ -6411,11 +6410,12 @@
     "5d0bf898-b2e1-3afc-8c44-f20c2f79c1e6",
     "https://www.mmamania.com/473962/the-mania-mailbag-september-14-get-your-questions-in-now",
     "f67d1442-f716-30f6-9834-c6d3dad3e9ea",
-    "CBMif0FVX3lxTE9xQTh5RF9saGthYzdtRHc2R0tsaEZBa2VpTnNnaktmRTc2SjhaN1Q5S05uME5Ca2k5M1Bsd01nb3FhVl9sOUxNay1JZmhOdWh0VlJJbWZ2RlpMRkdaUnlGMWxiMFN3OVVyYkdnMlZzX241alFad1JpdUdMLUhlLTQ"
+    "CBMif0FVX3lxTE9xQTh5RF9saGthYzdtRHc2R0tsaEZBa2VpTnNnaktmRTc2SjhaN1Q5S05uME5Ca2k5M1Bsd01nb3FhVl9sOUxNay1JZmhOdWh0VlJJbWZ2RlpMRkdaUnlGMWxiMFN3OVVyYkdnMlZzX241alFad1JpdUdMLUhlLTQ",
+    "CBMijgFBVV95cUxPaGtsekhuMVJsMTZWTzRQT1VxeFdIZU9jUkE2UndhcWIzbXFGdWJVdUx3ajlVSmxvODNDeXpuNWt6MEdhSjF1eDQ3eEw3ZDEyek41cVVLWm1UamZMQmt2eGljR0dPNWNpRmlNVUJrZmpwSjc2OWtrU1M1Y0Vsejd0ODhzbllQWU1wbm16OE9B"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 83,
+    "ai": 84,
     "staged": 5,
     "prio": 1,
     "lost": 0
