@@ -1,5 +1,6 @@
 {
   "seen": {
+    "865c34b0e343bb98": 1789988842.973643,
     "7497fd0822b51075": 1789988634.7916644,
     "d0a38b6228b7c03f": 1789988634.7897627,
     "f8b4c32b60c50f30": 1789988508.1957016,
@@ -2498,18 +2499,11 @@
     "c888b62f9dbeb8ab": 1789495369.2882345,
     "4fdcefa51c646c54": 1789495342.8284929,
     "268451620b8a48db": 1789481612.9929583,
-    "3d2410587ccd7c0f": 1789481363.5724351,
-    "681457efff94c1d1": 1789481297.9946632
+    "3d2410587ccd7c0f": 1789481363.5724351
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Watch UFC 331 opponents get separated by security after almost brawling backstage at the weigh-ins",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-19T16:30:00+00:00",
-      "cluster": "cd3a5004c3b"
-    },
     {
       "t": "Justin Gaethje shares sympathy for Tom Aspinall",
       "source": "MMAWeekly.com",
@@ -4903,16 +4897,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T17:50:52+00:00",
       "cluster": "ca2cd9e3d64"
+    },
+    {
+      "t": "Video: Terminator dominates first human vs. robot cage match",
+      "source": "MMA Mania",
+      "ts": "2026-09-21T10:42:38+00:00",
+      "cluster": "c802e8b3208"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T11",
-    2
+    3
   ],
   "yt_eval": [
-    "4453406e-1024-3f6e-875a-aa4a6d5a1710",
     "https://www.sherdog.com/news/news/Alex-Pereira-wants-Ciryl-Gane-rematch-following-illegal-shots-controversy-202705",
     "ffa809b2-a2a4-3479-9cda-2bcba27f3e98",
     "c86aca1c-d5f3-3acb-9de5-9dd914b6f0fe",
@@ -6411,11 +6410,12 @@
     "CBMihAFBVV95cUxNZ04xZnlMeWR0SFd0bjgwMmJ1T2syZXRJTnBPcmNoN1FSbzdyaEJ0eFhkeFpsMlR6UU5GMnp6VGppTlhTSElFS2FLU01CeVRac1RhLU1rc3J1TzBOSjBienIzTkc4TlBLVXNOQnAzUXFGLW9KMklOY1ZodlF2Q3c0Yzg0bkM",
     "CBMipgFBVV95cUxNdmxVQ0hhT25BVXJiZDVRanFmdkZ4djJoV2x6bGF4M3dydHRCTnFTbGt6SFBOS1dJSUd3blBJUHNZY0p0Q1ZWRnRaY0xYTTJOWG1acmdtNDNzeTE2cE1MUXdqV1BsdXhZVjY0RU5uSVNrWUpmcEdXbVJfQnZlUG04MmdtcjNtd2RsWU8yTXVHZE5nenBFVzY4bmd4Wkg4YmQ2OVktRHpR",
     "https://bloodyelbow.com/?p=332928",
-    "https://www.mmafighting.com/?p=511605"
+    "https://www.mmafighting.com/?p=511605",
+    "https://www.mmamania.com/?p=473934"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 59,
+    "ai": 60,
     "staged": 4,
     "prio": 0,
     "lost": 0
