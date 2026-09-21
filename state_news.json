@@ -1,5 +1,8 @@
 {
   "seen": {
+    "b92c177927a43417": 1789949283.157968,
+    "797cc23f20bc23e6": 1789949282.829843,
+    "669d4b63fd94d299": 1789949282.8295214,
     "5fd08d7420ca2e2a": 1789949219.082486,
     "211dacb189a1de70": 1789949154.9125586,
     "43071e91e0dc6896": 1789949154.6274734,
@@ -2496,20 +2499,11 @@
     "85b64bae55f99db4": 1789457544.2734132,
     "11c5cf1bef972916": 1789457499.4950504,
     "bad9850f858fc7f3": 1789457499.1773465,
-    "4d3a9c46938becf5": 1789457499.1708415,
-    "42c38ddfa6ee8b5d": 1789457433.6144967,
-    "2d80e8476ca1b2f8": 1789457433.3186672,
-    "35b8feec7fd34299": 1789457368.6432827
+    "4d3a9c46938becf5": 1789457499.1708415
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331: What Time Does Joshua Van vs. Alexandre Pantoja 2 Main Event Start?",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-19T02:29:49+00:00",
-      "cluster": "cb8b49d356d"
-    },
     {
       "t": "Joshua Van vs. Alexandre Pantoja 2: Bloody Elbow staff divided on the UFC 331 main event",
       "source": "Bloody Elbow",
@@ -4903,16 +4897,21 @@
       "source": "heavy.com",
       "ts": "2026-09-21T00:00:00+00:00",
       "cluster": "c9b4ca3acae"
+    },
+    {
+      "t": "DWCS 93 Closes out Summer Slate with Awesome Fights Tuesday!",
+      "source": "MMA Sucka",
+      "ts": "2026-09-21T00:03:19+00:00",
+      "cluster": "c59e9b56908"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T00",
-    8
+    9
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330731",
     "5198571e-da33-3177-8813-7403a752b201",
     "https://www.mmafighting.com/?p=509041",
     "https://www.mmafighting.com/?p=509132",
@@ -6411,11 +6410,12 @@
     "CBMiUEFVX3lxTFBCZ3F2bmdvcVJqcEFNTDFMTldDaDdNaEctZ0VDM09IVjdtckI3eFgtYkY4Ujh4YWEyenNJWmdLUkYzOUJLTHlTYW94eFI1NE40",
     "CBMiqAFBVV95cUxNT0ZMcEJ1ZkVYTHYxa21INnowdUNMR2FhODRIMFlsWTNRWVRsM2FjNGZheWVWd21jSlpRZjR0WFN2ZTUzZEI1elV0dTVEOVVKVHRROUlHeWhzNTJfbkdGZkJvNGZEbjUxRUZmOXBQTGpFaUxUU3VJcjFNVzhvUGJDUWpGaExxYUpIS1g5Y1hSTFhsOVRETVpNZEduMTZINWdFckJqQjQ3OUw",
     "CBMiggFBVV95cUxQWlNMYThRVUNzNmZLdEIxTVVJaFhhWjd4Nm9oSUZrVjM5cjBHOHl2cnVlSi1pY3VBODJDeVc1ZW1Eb0UySkNtSnNmX1daeUJBdF9pbzVIb2R6Z0ZsekVkdGMzRU1JODVleDlOQjlfcHF4Qk92eTNjSVc3QjNKWVRpVmtn",
-    "CBMic0FVX3lxTFBKQ2F3NHYxdy1UcFViTmppTEF4ZXFzUGxjM2VtdXRZUURodHYtcy1rNTA2MTdsNHk5X2I1MEl2S0gzcjI0RF9KYXl5RndEc21BQVgyTm51MHVabFh1cDJEZzdXVFNrdVZvRHR1bmNuZmVBY3M"
+    "CBMic0FVX3lxTFBKQ2F3NHYxdy1UcFViTmppTEF4ZXFzUGxjM2VtdXRZUURodHYtcy1rNTA2MTdsNHk5X2I1MEl2S0gzcjI0RF9KYXl5RndEc21BQVgyTm51MHVabFh1cDJEZzdXVFNrdVZvRHR1bmNuZmVBY3M",
+    "CBMikAFBVV95cUxQeTZZNkdIemdkZkFmeXdzZ1hEQktnaVc4ajdXZTE2bHRvLWpaaUJzVGRXWWVtNU5pYWtlemR3clB6QVVZa09DczBia3pRM3BnS2hoV2VmSEEwZ3ZlTGk5T0NxOUw1YnJqaWVxT21yLUlsaURrTUtpMFNFaC04MXppNWFWcENkZ0x3Tzh0emg2Q18"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 8,
+    "ai": 9,
     "staged": 0,
     "prio": 0,
     "lost": 0
