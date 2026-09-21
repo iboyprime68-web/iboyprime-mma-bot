@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f4ef01622c126784": 1790024078.5031137,
     "1b37565a708f057a": 1790024053.387341,
     "84d82ea83b723c79": 1790024029.5751824,
     "5c5f64305f873897": 1790024005.8058224,
@@ -2498,18 +2499,11 @@
     "397f0ecf60d84ddf": 1789506875.6633828,
     "fe6b2f2d9010e783": 1789506852.400014,
     "1e6524957ed35e4b": 1789506829.3976717,
-    "385e00d774917ae0": 1789506806.513286,
-    "d381a81dd5a54379": 1789498634.701524
+    "385e00d774917ae0": 1789506806.513286
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "LIVE UPDATEs: UFC 331 Live Free Van vs. Pantoja 2 preview show",
-      "source": "Powell River Peak",
-      "ts": "2026-09-19T22:00:15+00:00",
-      "cluster": "c906e8a7a91"
-    },
     {
       "t": "MMA 𝐒treams - UFC 331 Reddit MMA 𝐒treams",
       "source": "Western Wheel",
@@ -4903,16 +4897,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T18:00:00+00:00",
       "cluster": "c80312d1bab"
+    },
+    {
+      "t": "Watch: Darren Till and Yoel Romero feature in BKFC's incredible fight promo",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-21T17:39:16+00:00",
+      "cluster": "cfd5d4803e7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T20",
-    3
+    4
   ],
   "yt_eval": [
-    "717299e3-5167-3ff3-8f65-7a18a5d07939",
     "af7b08d1-d92f-38b0-aa82-daf45f3ac747",
     "593fda5f-d10d-35d2-8b42-810d3f867b53",
     "https://www.mmamania.com/?p=470531",
@@ -6411,11 +6410,12 @@
     "CBMitAFBVV95cUxNWHAzem12VlphYktOaW5HWm1mMVAyYnBEbENlQlpJaVVrd1A3dWk1N2tDYjhBcGNUV3BFUmRDN0hhM0xZdGl4ZUZ5SGIxa3UyTm1WSE51M1BING9pTlBtVmpYMjNhX3p0TkY3dEFEeklUN1lLRTY0VEEwTmdpQ0hpYVpLd0g2Zm5zV0IzeC1CTXB6OWVMUWlNZmJodVNmZjJ1NnpQaTU5clYxLXI5NnoyYzU2WlU",
     "https://www.sherdog.com/news/news/DWCS-Week-7-weighin-results-All-10-fighters-make-weight-202894",
     "https://www.mmafighting.com/?p=511744",
-    "https://bloodyelbow.com/?p=332983"
+    "https://bloodyelbow.com/?p=332983",
+    "870f0bbb-1cf4-324e-b00a-394c96d3b2b4"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 105,
+    "ai": 106,
     "staged": 5,
     "prio": 1,
     "lost": 0
