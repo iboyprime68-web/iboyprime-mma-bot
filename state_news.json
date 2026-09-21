@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a09861ba7131eafa": 1789989266.544205,
     "5927374c1845cce9": 1789989138.9770703,
     "24ddcbfcbbeeb44e": 1789989138.6933253,
     "41ff9bd453d4e070": 1789989138.6913104,
@@ -2498,18 +2499,11 @@
     "d605b2d3ab711585": 1789495464.0266588,
     "c9426051264c4e63": 1789495463.5267289,
     "0579c159380d3a2b": 1789495440.5989072,
-    "2206e0709885d8ba": 1789495440.199659,
-    "d42d63e09f541592": 1789495416.9871979
+    "2206e0709885d8ba": 1789495440.199659
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Max Holloway Breaks Down UFC 331 Lightweight Co-Main Event",
-      "source": "heavy.com",
-      "ts": "2026-09-19T16:43:13+00:00",
-      "cluster": "c9657f6ffd6"
-    },
     {
       "t": "UFC 331: How To Watch Joshua Van vs Alexandre Pantoja In India? Main Card, Prelims And Live Streaming Details",
       "source": "NewsX",
@@ -4903,16 +4897,21 @@
       "source": "Sports Business Journal",
       "ts": "2026-09-21T11:08:17+00:00",
       "cluster": "c6887de6325"
+    },
+    {
+      "t": "Colby Covington takes u-turn on potential Khamzat Chimaev RAF wrestling match after preferring Kamaru Usm",
+      "source": "The Times of India",
+      "ts": "2026-09-21T11:07:00+00:00",
+      "cluster": "c7a9a4ef224"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T11",
-    4
+    5
   ],
   "yt_eval": [
-    "ffa809b2-a2a4-3479-9cda-2bcba27f3e98",
     "c86aca1c-d5f3-3acb-9de5-9dd914b6f0fe",
     "76d1ea64-a9b2-3996-9d26-38ee32e5629d",
     "3a4776fa-81fe-3dc2-8a0d-5898d773834e",
@@ -6411,11 +6410,12 @@
     "https://bloodyelbow.com/?p=332928",
     "https://www.mmafighting.com/?p=511605",
     "https://www.mmamania.com/?p=473934",
-    "CBMingFBVV95cUxPZTE5cDdSRm5POEdHa3hEWEdtdVdncE5xZjZ3U0hRV1ppZjJsMjJsWWZxSnR1YzZuNGl0Um9rQUlRS1J3Mzl1T0pLdnczTVVhVDJqRml6a1h4T21BWnpEazdQc1lqN2lnZ0lva3g5ZmhPcVhyOHZOcWV4bURRWUNEeDJDVGw2V3N5TjlEd3JNR2pDaElHWmtHeE5IVTBlQQ"
+    "CBMingFBVV95cUxPZTE5cDdSRm5POEdHa3hEWEdtdVdncE5xZjZ3U0hRV1ppZjJsMjJsWWZxSnR1YzZuNGl0Um9rQUlRS1J3Mzl1T0pLdnczTVVhVDJqRml6a1h4T21BWnpEazdQc1lqN2lnZ0lva3g5ZmhPcVhyOHZOcWV4bURRWUNEeDJDVGw2V3N5TjlEd3JNR2pDaElHWmtHeE5IVTBlQQ",
+    "CBMi3gJBVV95cUxPMGlJRTdhYjB4d0d1dEs1SWlvNEtNYnA0S0h0Mkhoem1JVkVFTmFRN1Q4RjZGTjdJRU1sWGJzbjYzZkpqWWUzVlMyZkZiQ2VYZ3B3RmVVeEE4WElWSzBMdGNXYk9nLXM5bXBhdDFSNGhtdS1UNTh6X01kalNQQVphMmYwZzZLd2xMclQwWXctbkh5TWZoeHBaZ1EwWXI3ckN2QWNHNnlVc00wZzNzVXJGM01iZWdSM3dMeUpyVXQ4S2NnQmtrRjB5bndDUnhielJ4czNONVhTV1Z2LWVIWEFyUTZCMVRpWjhxX2lpVDFja1ZrRV85anV4T3RyUXhSRm1EOERDZHBqSUtsTk41QTExSEpwMC1OSlNBcDU3QXo2Y3haS25BaXRVc0JMY3hYZlFXTUw1VDcyTWl2TVBFakR2MEhCcjJGT2VsU1ZVNUFKaFJqQ0xLc2RiYU9Ya01hd9IB4wJBVV95cUxOLXlBajlMdFhsb1JHTDQxN1lEbzdqU1Znb0g2bC12eklRZnZkcEhvZnBxR1Y2QXJlY0lBVUZybGpoUlZocHhvYnhjZ2tmVVgybjJ1M0ZBZXlvN2owVUoxUmJvVFg3c3BobUZTc1p0VnZFVjd2ekMydXY3ekNuMUxjNzY1bnFEa0JwS1QyYW02LWlweXhSU1MtaTV6TW9IVHBrNnRGNTk5cjl3RDZWUzl0RjFWWHJuc2FaQTVZRU40NjduMFd6N3l5Mm94eVo0ODZHaFlLSFBvM2JDVVRKX0wtZ0h1NzNvRWVmT01VSGVMLUdmZmZOb0liZU92YlNGei1BZEZmWXJtWDdXZ3VDcWt2aWNnR0FWUlB5dDVldnplbm5kNE1SaE85TV9xaEluSW9hOXVGUUk5NXVFeFFVaElBQ3JTV1RUSzhnSHJxX2FtaVpOQlFDak8tbXBxNlE5eGFLVDdz"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 61,
+    "ai": 62,
     "staged": 4,
     "prio": 0,
     "lost": 0
