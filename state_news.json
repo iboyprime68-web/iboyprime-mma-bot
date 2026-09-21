@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6e068bac2ed5c09b": 1790009745.3625262,
     "a8b0f2d759d02174": 1790009711.183891,
     "41fa2bfa10695fc7": 1790009687.242289,
     "9c1b87dcde0654c5": 1790009662.6488094,
@@ -2498,18 +2499,11 @@
     "ffd0132514254fae": 1789495758.3727114,
     "b409b52cc20f4766": 1789495758.3685024,
     "7480d0f56d7feccb": 1789495758.3644364,
-    "f81976e6199921c7": 1789495693.8242576,
-    "44b91ad53f595965": 1789495692.3184845
+    "f81976e6199921c7": 1789495693.8242576
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Robert Whittaker Wants to Fight Former UFC Champion Next",
-      "source": "heavy.com",
-      "ts": "2026-09-19T17:00:21+00:00",
-      "cluster": "c89a6092978"
-    },
     {
       "t": "UFC 331 'Embedded,' No. 6: Volkanovski forecasts Tsarukyan upset loss",
       "source": "mmajunkie.usatoday.com",
@@ -4903,16 +4897,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-21T13:55:29+00:00",
       "cluster": "c6d3dae73d5"
+    },
+    {
+      "t": "Khamzat Chimaev headlines RAF Abu Dhabi in November, Arman Tsarukyan also competes",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-21T12:50:15+00:00",
+      "cluster": "cc4788efa41"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T16",
-    6
+    7
   ],
   "yt_eval": [
-    "f90c0ba6-495d-365e-a6a0-0a54ff429290",
     "CBMif0FVX3lxTE53bmpqMXczN05TNFk5aWZTR0RrY2lMaWxvSGtWUW16bFZyT01QUnhMTWdVZXNvZFRtV1hCTGQwaU9KNTd3bjhzRDA4QlZVdmpZcTRWVzhJdXhTNE1zM3RYOVdjR2FzaGNUdUlFZE9TdGFaN3QwUXJQd3ZtTGlJOTA",
     "CBMixwFBVV95cUxNVHBzWEljMkh1cExQRW9fMFRyajZqclZGY1ZhOHEzVGRCVEVtNXRMNlVlOTFxUlhDY1RlaHhvcUNTNWt0TkVaaWhYUENRS2Q4d2VwZWJ3Qm44OHZFMTNWUDl0M1A2VVFwNXhCYUJzcGMzbklhOGpWWi1mVnY0c2w4M2RTdTgxbEMxNUJoWmtFMmZVVnRnaXJYRVlhUFg4NzJQdU9wMzc2bG5Fd2pXSjR4QlRvOGZjUDVkSXZFY3lqRVZBVnNVdUxZ",
     "https://www.sherdog.com/news/news/Valentina-Shevchenkos-coach-reveals-injury-behind-long-UFC-hiatus-202708",
@@ -6411,11 +6410,12 @@
     "https://www.mmafighting.com/?p=511664",
     "https://www.mmafighting.com/?p=511533",
     "https://bloodyelbow.com/?p=332942",
-    "https://www.mmafighting.com/?p=511727"
+    "https://www.mmafighting.com/?p=511727",
+    "0032be3c-2d8d-301b-ba9e-9593ed448ec4"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 68,
+    "ai": 69,
     "staged": 5,
     "prio": 0,
     "lost": 0
