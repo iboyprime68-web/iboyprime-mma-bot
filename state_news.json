@@ -1,5 +1,7 @@
 {
   "seen": {
+    "a88778af7f4569dc": 1789986782.221053,
+    "be2c425d467fe6e2": 1789986781.7168105,
     "51c0f89fc6b43f7d": 1789986716.5961385,
     "2271d2650bfd9cee": 1789986716.1743295,
     "c89228973d579e09": 1789986716.1729348,
@@ -2497,19 +2499,11 @@
     "42978d474e341749": 1789479712.5128527,
     "da3cdb964912da92": 1789479642.8615403,
     "f885de71e84f87a5": 1789479578.262901,
-    "c9d4129da2e0d2cd": 1789479578.0173624,
-    "100b9312cdd1aadf": 1789479577.998154,
-    "05b7b59fc5e1576c": 1789479577.9964824
+    "c9d4129da2e0d2cd": 1789479578.0173624
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331 predictions: Favorites will run wild in Los Angeles",
-      "source": "New York Post",
-      "ts": "2026-09-19T13:30:00+00:00",
-      "cluster": "c39c6f40795"
-    },
     {
       "t": "'Now That I Know Where to Find You': Artur Beterbiev’s Quick Response After Arnold Allen Cuts Him in Traffic",
       "source": "Yardbarker",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-21T05:27:34+00:00",
       "cluster": "c600778911a"
+    },
+    {
+      "t": "Jon Jones Reveals Mindset Behind Throwing the Controversial Oblique Kick Without Remorse",
+      "source": "MMA Sucka",
+      "ts": "2026-09-21T09:33:56+00:00",
+      "cluster": "cc5a8404de8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T10",
-    2
+    3
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330803",
     "0142f1c1-2804-38c9-8365-f3488c0dd01d",
     "https://bloodyelbow.com/?p=330767",
     "https://www.mmafighting.com/?p=509209",
@@ -6411,11 +6410,12 @@
     "789f1ded-411a-3592-af78-8cc8fd742fe7",
     "https://bloodyelbow.com/?p=332924",
     "https://www.sherdog.com/news/news/Alexander-Volkanovskis-raw-reaction-to-Mauricio-Ruffy-KO-goes-viral-202890",
-    "cd0772f5-8cdc-356d-bfad-f198ff62857b"
+    "cd0772f5-8cdc-356d-bfad-f198ff62857b",
+    "CBMitgFBVV95cUxQRlB0ZHlDbW5PNk04bHVWQkVPeURsWlQ3YzhYczNSVGQ5cDFHUGRTOV9yQ3p3bUdxYWtETDVSd1Z5VFkzZjZnc0VSOUU1MjlfZG9VenNrQjB1V3VLbDdRS08zdzBTdWkzeDN3NzZ0cDg3aGI1RzNRT2pzTkNrai1IUDBRZ21OejI2d3pTZ2FNcnJZcU5kcXZaM2FzVGhqSEs5NTZuZERPMDZDa0EwN1VQcm94dHRKQQ"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 44,
+    "ai": 45,
     "staged": 4,
     "prio": 0,
     "lost": 0
