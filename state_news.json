@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b1fdd4a0bfb8045d": 1789950354.8305755,
     "2aa19433e91ba7b6": 1789950229.7625616,
     "5473660bad318804": 1789949980.4659984,
     "03e44ab78adcc62b": 1789949980.2296507,
@@ -2498,18 +2499,11 @@
     "5a335b24a8d87024": 1789457845.2164073,
     "efe2e37a1d24d580": 1789457822.2157652,
     "0fda540607fe5bc5": 1789457633.7440574,
-    "b5f5426ccd3d9d60": 1789457569.1080344,
-    "9e992f5860517476": 1789457568.8549886
+    "b5f5426ccd3d9d60": 1789457569.1080344
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Dana White’s x-rated two-word reaction as Arman Tsarukyan and Mauricio Ruffy almost come to blows ahead of UFC 331",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-19T05:38:25+00:00",
-      "cluster": "ce31aadd7c0"
-    },
     {
       "t": "Arman Tsarukyan vs. Mauricio Ruffy: Bloody Elbow staff predict the UFC 331 co-main event",
       "source": "Bloody Elbow",
@@ -4903,16 +4897,21 @@
       "source": "Junta de Castilla y León",
       "ts": "2026-09-21T00:17:29+00:00",
       "cluster": "c95e4785bd9"
+    },
+    {
+      "t": "‘Ungrateful’: Beaten prodigy slammed for post-fight act as Joe Rogan floats theory on wild upset",
+      "source": "Fox Sports",
+      "ts": "2026-09-21T00:21:00+00:00",
+      "cluster": "ceaf6eebf12"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T00",
-    12
+    13
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330746",
     "f151e0ce-17e1-30c5-9ee5-a6e4a4a4cf6d",
     "https://bloodyelbow.com/?p=330749",
     "https://bloodyelbow.com/?p=330754",
@@ -6411,11 +6410,12 @@
     "CBMikAFBVV95cUxQeTZZNkdIemdkZkFmeXdzZ1hEQktnaVc4ajdXZTE2bHRvLWpaaUJzVGRXWWVtNU5pYWtlemR3clB6QVVZa09DczBia3pRM3BnS2hoV2VmSEEwZ3ZlTGk5T0NxOUw1YnJqaWVxT21yLUlsaURrTUtpMFNFaC04MXppNWFWcENkZ0x3Tzh0emg2Q18",
     "CBMicEFVX3lxTE1BZmNWOEFhLTFGX2I3NkUxVXpRZVB5QTc0OGJkdTlLdExMaE1kaVgzcUlocDFFcFVQclBSd1U2Z2otaFB4T3VUVm1yLWEtMWp2OVNtSGF4NzRLWXF6S3dFYk9vXzZUMnNVcmJaMDZDdEM",
     "CBMinwFBVV95cUxQMmxvd0gzcG9Uekl2d3NFekNwR0w2eWdXVVpVejB3djI4QmZRcU41Z1lIbkVnLUhiYjYzWUtwQ0ZTcTFYUUVzWHlJMWdhTzhoeU9PLWlRbkJvRVpKaVlCR1RWbDBiRGVoZWRxR3B1VnBvRWUyblEzbnJfUS1WQ29wQmU3Sy1FWWhFQU1Td1lRTFB5cHN3UEFWbDhVUHY3eVk",
-    "CBMinANBVV95cUxPbEFGbmoyT3dJaDNQWllzemRZSTgzblZRWjcwdG1vSlR4S084b2ZBLUVUa090MlhwWHlhT25LaE1NOVF4VWVMSU1IVnF0b1lxQ09kOG5iSlhtVGJhZUtidk56X2ZrV29ZYWNNVU5Rcm1McFJqUDJ1blZpUFlTWVdZNDlQN1MwYmxsenA5NVhXZlFxa0FkU29UQnpFcHBnQ0RVUDdTeDY2TkRHMEp5dXR3QXlNXzM2SDhTZi1ZdFB4Z0htWjZTSHlSSFJ2UXk1anFEZHNxdThtYTItaXZVWGwxcnFzMUNHTHhnaVN2V2FicUxuV1QwLTBKT09aaFkzQ2hiQm9hbFZKTHpfangtcWM4RHBaeWZTakxhWUdHTlhNeDFTbmhoZGM4WGVidGE3d0c0V0ZIVkpYR2xKVG5DdEcySkxMT1M3R3FBSm5DQTRGc3A2N205andRVFEwUGlKRDhHelMyY2hlN2Nkb1J6SDhmNXZyalZUdWJqVGpIS2Z1c0xCOGRZaTVJajRIN0NPRmNGUENUYV9sbUxHWU5y"
+    "CBMinANBVV95cUxPbEFGbmoyT3dJaDNQWllzemRZSTgzblZRWjcwdG1vSlR4S084b2ZBLUVUa090MlhwWHlhT25LaE1NOVF4VWVMSU1IVnF0b1lxQ09kOG5iSlhtVGJhZUtidk56X2ZrV29ZYWNNVU5Rcm1McFJqUDJ1blZpUFlTWVdZNDlQN1MwYmxsenA5NVhXZlFxa0FkU29UQnpFcHBnQ0RVUDdTeDY2TkRHMEp5dXR3QXlNXzM2SDhTZi1ZdFB4Z0htWjZTSHlSSFJ2UXk1anFEZHNxdThtYTItaXZVWGwxcnFzMUNHTHhnaVN2V2FicUxuV1QwLTBKT09aaFkzQ2hiQm9hbFZKTHpfangtcWM4RHBaeWZTakxhWUdHTlhNeDFTbmhoZGM4WGVidGE3d0c0V0ZIVkpYR2xKVG5DdEcySkxMT1M3R3FBSm5DQTRGc3A2N205andRVFEwUGlKRDhHelMyY2hlN2Nkb1J6SDhmNXZyalZUdWJqVGpIS2Z1c0xCOGRZaTVJajRIN0NPRmNGUENUYV9sbUxHWU5y",
+    "CBMi_gFBVV95cUxNbGhQaWotYU55eS1tT1RXRDYwWVBpeE80VWFyUE03QVVDeTZuQ25oZ3hnYnFVcDZRSENtSkd1RzZvRFNKZTdMZ3lOMzJRdjVNVW1IS3AtOURuQ3VqT243TW9yS0VJQXVqYzJUTmFTaHNueTZqdUdQYXB1Wk9YVU5kYkRXUnViTHNsSUtzNTBNYnQ0OV9kSzY5MDVraXVxNXhBWmdlRW1hRm9zanQ3cnJSaFMya2FneXF1OGpscU5PUlI5OUNveXlvd3hCR0d4S3dMMFdfamFkYmpYMXQ4elhsZWpZZVRwdW1idWhaT0pZcU5uaEc3dC1xTlJWWGltZ9IB_gFBVV95cUxNbGhQaWotYU55eS1tT1RXRDYwWVBpeE80VWFyUE03QVVDeTZuQ25oZ3hnYnFVcDZRSENtSkd1RzZvRFNKZTdMZ3lOMzJRdjVNVW1IS3AtOURuQ3VqT243TW9yS0VJQXVqYzJUTmFTaHNueTZqdUdQYXB1Wk9YVU5kYkRXUnViTHNsSUtzNTBNYnQ0OV9kSzY5MDVraXVxNXhBWmdlRW1hRm9zanQ3cnJSaFMya2FneXF1OGpscU5PUlI5OUNveXlvd3hCR0d4S3dMMFdfamFkYmpYMXQ4elhsZWpZZVRwdW1idWhaT0pZcU5uaEc3dC1xTlJWWGltZw"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 12,
+    "ai": 13,
     "staged": 1,
     "prio": 0,
     "lost": 0
