@@ -1,5 +1,6 @@
 {
   "seen": {
+    "81088f9458ba003f": 1790010459.3439884,
     "a61155dbdcaa6398": 1790010390.511827,
     "7f335be2b04e80a9": 1790010322.2125216,
     "13603395abb8bc6c": 1790010321.7666385,
@@ -2498,18 +2499,11 @@
     "68bc479c8a17b5bb": 1789496284.2630804,
     "a7e16d31476d0cc7": 1789496259.165461,
     "8a1520c4f8b3dec0": 1789496215.7241917,
-    "02bbdeb7d7c3c8c1": 1789496215.2015495,
-    "0db5ae0ae6ad46c4": 1789496150.8176708
+    "02bbdeb7d7c3c8c1": 1789496215.2015495
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Caio Borralho Issues Bold Prediction for UFC 331 Fight",
-      "source": "mmasucka.com",
-      "ts": "2026-09-19T19:23:17+00:00",
-      "cluster": "c61c408fdce"
-    },
     {
       "t": "Petr Yan Tells Mehrab Dvalishvili To Get His Nose Insured",
       "source": "mmasucka.com",
@@ -4903,16 +4897,21 @@
       "source": "MiddleEasy",
       "ts": "2026-09-21T16:07:30+00:00",
       "cluster": "cd925285c20"
+    },
+    {
+      "t": "Dana White Denies Tom Aspinall Feud, Says Eddie Hearn Is “Drowning”",
+      "source": "MiddleEasy",
+      "ts": "2026-09-21T16:07:30+00:00",
+      "cluster": "cb822bff830"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T17",
-    9
+    10
   ],
   "yt_eval": [
-    "3f9a4fb8-dede-353d-a5cc-38fcaa64da70",
     "https://bloodyelbow.com/?p=330844",
     "https://www.mmafighting.com/?p=509275",
     "e8f871bf-2b87-34c7-9652-f5beea7d69dc",
@@ -6411,11 +6410,12 @@
     "https://www.mmamania.com/473962/the-mania-mailbag-september-14-get-your-questions-in-now",
     "f67d1442-f716-30f6-9834-c6d3dad3e9ea",
     "CBMif0FVX3lxTE9xQTh5RF9saGthYzdtRHc2R0tsaEZBa2VpTnNnaktmRTc2SjhaN1Q5S05uME5Ca2k5M1Bsd01nb3FhVl9sOUxNay1JZmhOdWh0VlJJbWZ2RlpMRkdaUnlGMWxiMFN3OVVyYkdnMlZzX241alFad1JpdUdMLUhlLTQ",
-    "CBMijgFBVV95cUxPaGtsekhuMVJsMTZWTzRQT1VxeFdIZU9jUkE2UndhcWIzbXFGdWJVdUx3ajlVSmxvODNDeXpuNWt6MEdhSjF1eDQ3eEw3ZDEyek41cVVLWm1UamZMQmt2eGljR0dPNWNpRmlNVUJrZmpwSjc2OWtrU1M1Y0Vsejd0ODhzbllQWU1wbm16OE9B"
+    "CBMijgFBVV95cUxPaGtsekhuMVJsMTZWTzRQT1VxeFdIZU9jUkE2UndhcWIzbXFGdWJVdUx3ajlVSmxvODNDeXpuNWt6MEdhSjF1eDQ3eEw3ZDEyek41cVVLWm1UamZMQmt2eGljR0dPNWNpRmlNVUJrZmpwSjc2OWtrU1M1Y0Vsejd0ODhzbllQWU1wbm16OE9B",
+    "CBMikwFBVV95cUxPVUkwd2RpY2NmRVNhV0NlNWlWODRScVNGaGhGazlFcFJNejFzUjdnenRhVjVsTWMwQUtBbGhqcnRoaVdmMjJoejJveG1mR2E2X0h1LVBsU1VOWDFNQUFnZkxITDM3dUpWb2dtekJVWi1KY2Y5ampPbXBmXzJhWFE2bFdrLUhHUm5LRUkzZHVCVEpGc1k"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 84,
+    "ai": 85,
     "staged": 5,
     "prio": 1,
     "lost": 0
