@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 18,
   "staged_at": [
-    "2026-09-19T13:13:18.288258+00:00",
     "2026-09-19T18:38:37.848666+00:00",
     "2026-09-20T13:36:44.662032+00:00",
-    "2026-09-20T18:52:41.170281+00:00"
+    "2026-09-20T18:52:41.170281+00:00",
+    "2026-09-21T15:56:18.816543+00:00"
   ],
   "asked": [
-    "Who has the most questionable title reign in UFC history?",
     "Who is the smoothest striker to ever do it?",
     "Who is the worst referee stoppage in UFC history?",
     "Who is the most exciting fighter in the UFC right now?",
@@ -47,27 +46,28 @@
     "Who runs the lightweight division five years from now?",
     "Which era was the most fun to be a UFC fan?",
     "Who is the scariest man to ever enter the octagon?",
-    "Whose title reign aged the worst?"
+    "Whose title reign aged the worst?",
+    "Who is the most undeniable title challenger in the UFC right now?"
   ],
   "last_entry": {
-    "q": "Whose title reign aged the worst?",
+    "q": "Who is the most undeniable title challenger in the UFC right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Sean Strickland",
-        "emoji": "📉"
+        "label": "Arman Tsarukyan",
+        "emoji": "🐺"
       },
       {
-        "label": "Leon Edwards",
-        "emoji": "🧊"
+        "label": "Alexandre Pantoja",
+        "emoji": "👑"
       },
       {
-        "label": "Belal Muhammad",
-        "emoji": "🕹️"
+        "label": "Joshua Van",
+        "emoji": "🚀"
       },
       {
-        "label": "Israel Adesanya",
-        "emoji": "🎭"
+        "label": "Other (comment below)",
+        "emoji": "💬"
       }
     ]
   }
