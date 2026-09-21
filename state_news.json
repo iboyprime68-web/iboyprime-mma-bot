@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f60867bbea2a7802": 1790035084.8179548,
     "e5a64138167a351c": 1790035062.345274,
     "21489ff5272bda75": 1790035039.1102204,
     "b2ae48cc7a44b46f": 1790035016.6656117,
@@ -2498,8 +2499,7 @@
     "ec262d0348f4a3eb": 1789517134.9427567,
     "84f8b65961051548": 1789517069.3205438,
     "adc949082115ca6c": 1789517044.5189865,
-    "446320354361efbd": 1789517044.1366742,
-    "09936c0eea98a019": 1789517020.7051709
+    "446320354361efbd": 1789517044.1366742
   },
   "initialized": true,
   "v": 4,
@@ -4897,13 +4897,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-21T22:00:32+00:00",
       "cluster": "cb8f66e6347"
+    },
+    {
+      "t": "Jon Jones takes responsibility for Gable Steveson storming out of cage following UFC 331 loss",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-21T22:51:59+00:00",
+      "cluster": "c07dcda7b30"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T23",
-    4
+    5
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=509212",
