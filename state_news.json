@@ -1,5 +1,6 @@
 {
   "seen": {
+    "dce30d4fa44f9eba": 1789988443.338999,
     "89a5222126b125bc": 1789988418.7488904,
     "8d144d07dc1962aa": 1789987693.9213035,
     "db33e5fa99d20818": 1789987588.4184833,
@@ -2498,18 +2499,11 @@
     "0aa2ba7a2572eea3": 1789481297.6586852,
     "af08b10b8e810009": 1789481297.6414053,
     "c23f222905cf511c": 1789481297.6239667,
-    "483ad900b46bd66c": 1789481110.501136,
-    "98dbb0180332e501": 1789481046.7684538
+    "483ad900b46bd66c": 1789481110.501136
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Best UFC 331 prediction market apps, promos: How, where to trade on Van vs. Pantoja 2",
-      "source": "CBS Sports",
-      "ts": "2026-09-19T16:19:05+00:00",
-      "cluster": "c8e3afac62d"
-    },
     {
       "t": "Watch UFC 331 opponents get separated by security after almost brawling backstage at the weigh-ins",
       "source": "Bloody Elbow",
@@ -4903,16 +4897,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T11:00:00+00:00",
       "cluster": "c5b66bf53ce"
+    },
+    {
+      "t": "Khamzat Chimaev headlines RAF debut in Abu Dhabi; Arman Tsarukyan set to compete",
+      "source": "MMA Fighting",
+      "ts": "2026-09-20T17:50:52+00:00",
+      "cluster": "ca2cd9e3d64"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T11",
-    1
+    2
   ],
   "yt_eval": [
-    "ef16158d-1ded-39e7-bf0a-21fbed4e6272",
     "4453406e-1024-3f6e-875a-aa4a6d5a1710",
     "https://www.sherdog.com/news/news/Alex-Pereira-wants-Ciryl-Gane-rematch-following-illegal-shots-controversy-202705",
     "ffa809b2-a2a4-3479-9cda-2bcba27f3e98",
@@ -6411,11 +6410,12 @@
     "CBMiiwFBVV95cUxPaHhOdGtOanZ2Q1JDalFxaXhvUnNLTUpZTS1ULVNpUC1mRWIwcGwyWTFhd3Fkb2FmenJoRjFMUTBSZVFjQ2FmLXQ5ZHVEU201TEtRaFR2NWMzN2MyblJTalB1Y21waHV3ckxtY3EzRWprd21aRWwwbFp6UXlYczZXOTM2bC1RQlY3YVhn",
     "CBMihAFBVV95cUxNZ04xZnlMeWR0SFd0bjgwMmJ1T2syZXRJTnBPcmNoN1FSbzdyaEJ0eFhkeFpsMlR6UU5GMnp6VGppTlhTSElFS2FLU01CeVRac1RhLU1rc3J1TzBOSjBienIzTkc4TlBLVXNOQnAzUXFGLW9KMklOY1ZodlF2Q3c0Yzg0bkM",
     "CBMipgFBVV95cUxNdmxVQ0hhT25BVXJiZDVRanFmdkZ4djJoV2x6bGF4M3dydHRCTnFTbGt6SFBOS1dJSUd3blBJUHNZY0p0Q1ZWRnRaY0xYTTJOWG1acmdtNDNzeTE2cE1MUXdqV1BsdXhZVjY0RU5uSVNrWUpmcEdXbVJfQnZlUG04MmdtcjNtd2RsWU8yTXVHZE5nenBFVzY4bmd4Wkg4YmQ2OVktRHpR",
-    "https://bloodyelbow.com/?p=332928"
+    "https://bloodyelbow.com/?p=332928",
+    "https://www.mmafighting.com/?p=511605"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 58,
+    "ai": 59,
     "staged": 4,
     "prio": 0,
     "lost": 0
