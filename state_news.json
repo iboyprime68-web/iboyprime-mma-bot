@@ -1,5 +1,7 @@
 {
   "seen": {
+    "1ece3b807796dfe9": 1790034993.9981034,
+    "ad29ee623094844e": 1790034993.4700737,
     "8f338c73fed9836b": 1790027263.601125,
     "67fd1d2d97e1cbca": 1790027200.1783674,
     "4ffc1ed8ed04d28a": 1790027136.830305,
@@ -2497,9 +2499,7 @@
     "09936c0eea98a019": 1789517020.7051709,
     "67a78a2baae8fbca": 1789516996.3176355,
     "13c0b75c55d1ffe0": 1789510051.4332833,
-    "cf88eb04112e8636": 1789509859.944321,
-    "f10f1efbede57d40": 1789509732.387041,
-    "31ed0651f2432983": 1789509667.4089003
+    "cf88eb04112e8636": 1789509859.944321
   },
   "initialized": true,
   "v": 4,
@@ -2733,12 +2733,6 @@
       "cluster": "c8ed7f0746a"
     },
     {
-      "t": "Marlon Vera ends 4-fight slide, sets UFC bantamweight knockdown record",
-      "source": "Sherdog",
-      "ts": "2026-09-19T22:32:12+00:00",
-      "cluster": "c3ff22f2489"
-    },
-    {
       "t": "Ciryl Gane vs. Josh Hokit confirmed to headline UFC 334 title fight doubleheader",
       "source": "Bloody Elbow",
       "ts": "2026-09-20T02:05:05+00:00",
@@ -2809,12 +2803,6 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T02:24:10+00:00",
       "cluster": "c6fe6ff9df7"
-    },
-    {
-      "t": "Dana White said Ciryl Gane wasn't undisputed champ; UFC says otherwise",
-      "source": "Sherdog",
-      "ts": "2026-09-19T22:39:12+00:00",
-      "cluster": "c9ba4fbb128"
     },
     {
       "t": "Arman Tsarukyan vs. Maurcio Ruffy full fight video highlights",
@@ -2889,12 +2877,6 @@
       "cluster": "cdd45ded313"
     },
     {
-      "t": "Alonzo Menifield fought through gruesome thumb injury in UFC 331 upset",
-      "source": "Sherdog",
-      "ts": "2026-09-19T23:44:57+00:00",
-      "cluster": "c555d2e6bc3"
-    },
-    {
       "t": "UFC 331: Arman Tsarukyan brutally knocks out Mauricio Ruffy, makes thunderous case for title shot",
       "source": "Yahoo Sports",
       "ts": "2026-09-20T03:06:53+00:00",
@@ -2923,12 +2905,6 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T03:15:40+00:00",
       "cluster": "c8474ce2f0a"
-    },
-    {
-      "t": "Sean Sharaf shocks Gable Steveson with 12-second KO at UFC 331",
-      "source": "Sherdog",
-      "ts": "2026-09-19T23:45:57+00:00",
-      "cluster": "c3d02183eb7"
     },
     {
       "t": "UFC 334 announced, heavyweight title fight headlines massive NYC card",
@@ -4903,13 +4879,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-21T21:44:43+00:00",
       "cluster": "c5037f2cdb1"
+    },
+    {
+      "t": "UFC 331 medical suspensions: Alonzo Menifield looking at 6 month suspension due gnarly broken thumb",
+      "source": "MMA Fighting",
+      "ts": "2026-09-21T21:46:38+00:00",
+      "cluster": "cf634f1730f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-21T21",
-    45
+    "2026-09-21T23",
+    1
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=509212",
