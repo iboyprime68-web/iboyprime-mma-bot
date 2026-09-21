@@ -1,5 +1,7 @@
 {
   "seen": {
+    "093851d60d65ae0e": 1789964115.7464986,
+    "0a014d13f6a27ef8": 1789964115.3724358,
     "602da0eefce80b0d": 1789964091.5574346,
     "c91bac953f0485c2": 1789964046.9015076,
     "15cf8acdadeab4d7": 1789964046.4187076,
@@ -2497,19 +2499,11 @@
     "c1cf117b7163e7a8": 1789459709.264661,
     "bfe6ac8942725107": 1789459521.2524946,
     "8ea6e55517f86740": 1789459457.5759022,
-    "66a426ada0664cce": 1789459331.2973936,
-    "851b2dc04659cce5": 1789459331.2965379,
-    "134818b770e7368e": 1789459144.2259192
+    "66a426ada0664cce": 1789459331.2973936
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Dana White Shuts Down Gane's Automatic Promotion To Champion",
-      "source": "boxingnews.com",
-      "ts": "2026-09-19T08:34:39+00:00",
-      "cluster": "c8770811743"
-    },
     {
       "t": "Fresno jiu-jitsu instructor Arrested on SA Charges",
       "source": "BJJDOC",
@@ -4903,16 +4897,21 @@
       "source": "Sherdog",
       "ts": "2026-09-21T01:50:47+00:00",
       "cluster": "c07de006a96"
+    },
+    {
+      "t": "Battle of the millions in the octagon: Official purses for UFC 331 fighters announced!",
+      "source": "Zamin.uz",
+      "ts": "2026-09-21T03:27:00+00:00",
+      "cluster": "ce70ad2c305"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T04",
-    8
+    9
   ],
   "yt_eval": [
-    "adf73915-4e05-3660-ab29-87f70739a30f",
     "https://www.mmamania.com/?p=470327",
     "5f4b2742-d37b-3d17-a4d8-013825750b33",
     "6b7ac1cd-7c40-35b3-adb8-ceebd5fbb089",
@@ -6411,11 +6410,12 @@
     "a1dc43ee-2d67-39b2-8b6d-1057392ec894",
     "a908f63e-0f3a-308c-a9bd-6fd9cd63eac4",
     "CBMipwFBVV95cUxNV0YxZk1RcU9yanQyc0gwd1hsdjVNVFFyLS01ZXEzUVhSYXMtNFByTUxXUTdJT29MazVxVG82cWNPUFhPYTBGb29EdFl2Q2pBbmg4aU85c2hfcE9YVjVIUFZON21GYjBucnJkc1NRWWZuYmdHZURrdFpibFllZGluSXRyUmJfTDVvRWpCUXptb1I5Qzc0SXp4czVwWmg2MkNuQW1uN1E5Y9IBrAFBVV95cUxQczl1MW1La0VVVnJPT2VRNHNXaXJ6OWNIdzBJRXlONS1OX05ZbFNKWm8tTkJKQTR3RlBBNVJPSDNENDM4ZmlKSFNEOWpwU1hUcTBNWWo3LVFlZFR1U0tuVC13RmNCSkRXRENpZXZ0cmxGUXlxbE1OM29fQl8ycUN0SVVRbDh4aUVNN2ZnUFQwa0IweEktRmVla1N0bzNjOFVXeDFaMDlpNms4aXBj",
-    "https://www.sherdog.com/news/news/BKB-59-results-Julian-Fernandez-rallies-for-KO-in-Mexico-debut-202878"
+    "https://www.sherdog.com/news/news/BKB-59-results-Julian-Fernandez-rallies-for-KO-in-Mexico-debut-202878",
+    "CBMivwFBVV95cUxQWndlNXZBbUZQNzF0VmVTcVBFcFRLSldqbkhFNE5wWmxJWlI5Mm1sRXlrMDIwN3pFa0F1MWVWVVpISnQxMGlQei10Z2trZXVjeUE1dE5UQS1Ocm9fb0tjQ2lNMm85R2k3YkxkNVdudzRqWHJTaVkyRmVYSHVWNG1LS2NEVS1RR1ZGRVVVZ2NFS3JDRnBRVERwMThWbVFlUDl4WDdGZWI0b2NVdzhCR2RKZGdXemo3ZDhFd3M3cmNhYw"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 21,
+    "ai": 22,
     "staged": 3,
     "prio": 0,
     "lost": 0
