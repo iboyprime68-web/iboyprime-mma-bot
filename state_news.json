@@ -1,5 +1,8 @@
 {
   "seen": {
+    "5927374c1845cce9": 1789989138.9770703,
+    "24ddcbfcbbeeb44e": 1789989138.6933253,
+    "41ff9bd453d4e070": 1789989138.6913104,
     "e0e2256bb696b623": 1789989013.4336936,
     "c553a1d725bb6bac": 1789988887.5732362,
     "865c34b0e343bb98": 1789988842.973643,
@@ -2496,20 +2499,11 @@
     "c9426051264c4e63": 1789495463.5267289,
     "0579c159380d3a2b": 1789495440.5989072,
     "2206e0709885d8ba": 1789495440.199659,
-    "d42d63e09f541592": 1789495416.9871979,
-    "cd98442535e1b135": 1789495392.804102,
-    "c888b62f9dbeb8ab": 1789495369.2882345,
-    "4fdcefa51c646c54": 1789495342.8284929
+    "d42d63e09f541592": 1789495416.9871979
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Justin Gaethje shares sympathy for Tom Aspinall",
-      "source": "MMAWeekly.com",
-      "ts": "2026-09-19T16:28:34+00:00",
-      "cluster": "c466b5ebd10"
-    },
     {
       "t": "Max Holloway Breaks Down UFC 331 Lightweight Co-Main Event",
       "source": "heavy.com",
@@ -4903,16 +4897,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-21T10:42:38+00:00",
       "cluster": "c802e8b3208"
+    },
+    {
+      "t": "Game Changers: Heidi Noland, UFC",
+      "source": "Sports Business Journal",
+      "ts": "2026-09-21T11:08:17+00:00",
+      "cluster": "c6887de6325"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T11",
-    3
+    4
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Alex-Pereira-wants-Ciryl-Gane-rematch-following-illegal-shots-controversy-202705",
     "ffa809b2-a2a4-3479-9cda-2bcba27f3e98",
     "c86aca1c-d5f3-3acb-9de5-9dd914b6f0fe",
     "76d1ea64-a9b2-3996-9d26-38ee32e5629d",
@@ -6411,11 +6410,12 @@
     "CBMipgFBVV95cUxNdmxVQ0hhT25BVXJiZDVRanFmdkZ4djJoV2x6bGF4M3dydHRCTnFTbGt6SFBOS1dJSUd3blBJUHNZY0p0Q1ZWRnRaY0xYTTJOWG1acmdtNDNzeTE2cE1MUXdqV1BsdXhZVjY0RU5uSVNrWUpmcEdXbVJfQnZlUG04MmdtcjNtd2RsWU8yTXVHZE5nenBFVzY4bmd4Wkg4YmQ2OVktRHpR",
     "https://bloodyelbow.com/?p=332928",
     "https://www.mmafighting.com/?p=511605",
-    "https://www.mmamania.com/?p=473934"
+    "https://www.mmamania.com/?p=473934",
+    "CBMingFBVV95cUxPZTE5cDdSRm5POEdHa3hEWEdtdVdncE5xZjZ3U0hRV1ppZjJsMjJsWWZxSnR1YzZuNGl0Um9rQUlRS1J3Mzl1T0pLdnczTVVhVDJqRml6a1h4T21BWnpEazdQc1lqN2lnZ0lva3g5ZmhPcVhyOHZOcWV4bURRWUNEeDJDVGw2V3N5TjlEd3JNR2pDaElHWmtHeE5IVTBlQQ"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 60,
+    "ai": 61,
     "staged": 4,
     "prio": 0,
     "lost": 0
