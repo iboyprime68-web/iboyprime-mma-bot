@@ -1,5 +1,6 @@
 {
   "seen": {
+    "78dc74f9886a6633": 1790010014.2646306,
     "0e1b09a2cf7f4c12": 1790009967.5165336,
     "24a5de1f9c5e29a2": 1790009899.8706663,
     "3a9587317fd5b616": 1790009848.6487591,
@@ -2498,18 +2499,11 @@
     "23ccef01cfdd9b98": 1789495955.9564126,
     "b805499bef40fcb0": 1789495954.5405314,
     "e03cec585ba08875": 1789495954.5359867,
-    "32e4ec8cda4a5373": 1789495889.4759028,
-    "0ac7045d12ec87b7": 1789495888.7318466
+    "32e4ec8cda4a5373": 1789495889.4759028
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "MMA-Stream!! UFC 331 Fight Live Free Van vs Pantoja Rematch",
-      "source": "Art Hives",
-      "ts": "2026-09-19T18:21:51+00:00",
-      "cluster": "c1a99d65839"
-    },
     {
       "t": "Justin Gaethje Reacts in Disbelief to Tom Aspinall Vacating UFC Heavyweight Title",
       "source": "mmasucka.com",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-21T13:40:27+00:00",
       "cluster": "cab8d989c36"
+    },
+    {
+      "t": "Watch N3on attempt to reignite one of UFC’s greatest feuds just hours after cornering Arman Tsarukyan",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-21T17:00:00+00:00",
+      "cluster": "c0d7205a020"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-21T16",
-    13
+    "2026-09-21T17",
+    1
   ],
   "yt_eval": [
-    "CBMiigFBVV95cUxQak9YWU1xNWVhNllPd2I4UGQwdWpOVGVQX3hfX0JEVndSamg2YndlYVhNUkZvMFNrc3V4QllwMHNYQ2syQU5wb0NjMEptclFxTVNsM25peFZiYndYb0JuUFBhcHFSN0dVdnpvNDM1SzU4NWNrZkwxYUNhVUZ6LXJqZkF4cWh5RVZfZ3c",
     "https://www.sherdog.com/news/news/Ian-Garry-names-only-opponent-that-makes-sense-for-him-and-its-not-Islam-Makhachev-202710",
     "CBMiywFBVV95cUxPNTFpQ3BkQjVkQnpiTVhQUmhMRE5vWnBsdFo2OFhPZVMtcjl3c0RXWUtvS056alVTYVN3Y19qWFN3M1AxZF9EZTBUTnV0QTdEa05IVGsydUgtYlItYWdjSks2eWRtN3pEdjNJRGZuUlRhbDc5dHRFcWEyVzF5Ukc1TldvTEhGa0dNWWhkaks5QVJraXl4SGE5MlFrUy1CT0FWejBFbm96RkhVRFljbV9OZVIyQTcxM1lfM0lrbTM5RHRCVzNVYk5HdzExVQ",
     "CBMidEFVX3lxTE00TGRFYzhqTl9YMmtLNFNQM1FCUmt4bktwQ0xreVRVdWxDNUY3ZmJJS2FlLVlhSUhud0JRR0lWVFRtb0t3N2RFeF9zX3RzblVRZTZJNDcyejBSN1J2TEpwR2xvOUFxbDZoOUtKUVVzUUwzaG4x",
@@ -6411,11 +6410,12 @@
     "f6e3c2d1-d360-3f32-a5ce-65c5c37b55ac",
     "https://bloodyelbow.com/?p=332446",
     "https://www.mmamania.com/473945/open-thread-september-20-2026-two-truths-and-a-lie",
-    "8567c232-57ff-32e6-be5b-3e0444b956a3"
+    "8567c232-57ff-32e6-be5b-3e0444b956a3",
+    "https://bloodyelbow.com/?p=332981"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 75,
+    "ai": 76,
     "staged": 5,
     "prio": 1,
     "lost": 0
