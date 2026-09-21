@@ -1,5 +1,6 @@
 {
   "seen": {
+    "af0f2231e5e9cb8c": 1790009587.1717663,
     "f9cb8fe8c3c8eef7": 1789989764.2646244,
     "a09861ba7131eafa": 1789989266.544205,
     "5927374c1845cce9": 1789989138.9770703,
@@ -2498,36 +2499,11 @@
     "88230ab7bd15ef34": 1789495516.92844,
     "a9a7d94321ac5cbc": 1789495491.3685582,
     "d605b2d3ab711585": 1789495464.0266588,
-    "c9426051264c4e63": 1789495463.5267289,
-    "0579c159380d3a2b": 1789495440.5989072
+    "c9426051264c4e63": 1789495463.5267289
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331: How To Watch Joshua Van vs Alexandre Pantoja In India? Main Card, Prelims And Live Streaming Details",
-      "source": "NewsX",
-      "ts": "2026-09-19T16:40:31+00:00",
-      "cluster": "c59db558324"
-    },
-    {
-      "t": "UFC 331 Staff Picks",
-      "source": "The Lufkin Daily News",
-      "ts": "2026-09-19T16:38:41+00:00",
-      "cluster": "c426b6498f5"
-    },
-    {
-      "t": "Brandon Royval Breaks Down UFC 331 Flyweight Title Fight",
-      "source": "heavy.com",
-      "ts": "2026-09-19T16:52:19+00:00",
-      "cluster": "c411150aa22"
-    },
-    {
-      "t": "UFC 331 Results (Live)",
-      "source": "MMA Insight",
-      "ts": "2026-09-19T16:42:38+00:00",
-      "cluster": "ccb56344b06"
-    },
     {
       "t": "Colby Covington wants to face UFC star he has ‘unfinished business’ with instead of Khamzat Chimaev",
       "source": "Bloody Elbow",
@@ -2551,12 +2527,6 @@
       "source": "SPORTbible",
       "ts": "2026-09-19T17:09:43+00:00",
       "cluster": "c10258412b0"
-    },
-    {
-      "t": "Justin Gaethje says whoever fights Ilia Topuria next is ‘going to be f*****,’ thinks a matchup with Paddy Pimblett would be great",
-      "source": "MMA Fighting",
-      "ts": "2026-09-19T14:19:12+00:00",
-      "cluster": "ce2f71947ba"
     },
     {
       "t": "Tom Aspinall’s favorite fighter Georges St-Pierre shares concern in reaction to title vacation",
@@ -4903,16 +4873,21 @@
       "source": "The Times of India",
       "ts": "2026-09-21T11:07:00+00:00",
       "cluster": "c7a9a4ef224"
+    },
+    {
+      "t": "Morning Report &#124; Paddy Pimblett reacts to Arman Tsarukyan’s win at UFC 331: ‘I’d still punch his head in’",
+      "source": "MMA Fighting",
+      "ts": "2026-09-21T05:44:35+00:00",
+      "cluster": "c0141bf31b9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-21T11",
-    5
+    "2026-09-21T16",
+    1
   ],
   "yt_eval": [
-    "c86aca1c-d5f3-3acb-9de5-9dd914b6f0fe",
     "76d1ea64-a9b2-3996-9d26-38ee32e5629d",
     "3a4776fa-81fe-3dc2-8a0d-5898d773834e",
     "https://www.sherdog.com/news/news/Daniel-Rodriguez-fires-back-at-Daniil-Donchenkos-UFC-Paris-callout-202707",
@@ -6411,11 +6386,12 @@
     "https://www.mmafighting.com/?p=511605",
     "https://www.mmamania.com/?p=473934",
     "CBMingFBVV95cUxPZTE5cDdSRm5POEdHa3hEWEdtdVdncE5xZjZ3U0hRV1ppZjJsMjJsWWZxSnR1YzZuNGl0Um9rQUlRS1J3Mzl1T0pLdnczTVVhVDJqRml6a1h4T21BWnpEazdQc1lqN2lnZ0lva3g5ZmhPcVhyOHZOcWV4bURRWUNEeDJDVGw2V3N5TjlEd3JNR2pDaElHWmtHeE5IVTBlQQ",
-    "CBMi3gJBVV95cUxPMGlJRTdhYjB4d0d1dEs1SWlvNEtNYnA0S0h0Mkhoem1JVkVFTmFRN1Q4RjZGTjdJRU1sWGJzbjYzZkpqWWUzVlMyZkZiQ2VYZ3B3RmVVeEE4WElWSzBMdGNXYk9nLXM5bXBhdDFSNGhtdS1UNTh6X01kalNQQVphMmYwZzZLd2xMclQwWXctbkh5TWZoeHBaZ1EwWXI3ckN2QWNHNnlVc00wZzNzVXJGM01iZWdSM3dMeUpyVXQ4S2NnQmtrRjB5bndDUnhielJ4czNONVhTV1Z2LWVIWEFyUTZCMVRpWjhxX2lpVDFja1ZrRV85anV4T3RyUXhSRm1EOERDZHBqSUtsTk41QTExSEpwMC1OSlNBcDU3QXo2Y3haS25BaXRVc0JMY3hYZlFXTUw1VDcyTWl2TVBFakR2MEhCcjJGT2VsU1ZVNUFKaFJqQ0xLc2RiYU9Ya01hd9IB4wJBVV95cUxOLXlBajlMdFhsb1JHTDQxN1lEbzdqU1Znb0g2bC12eklRZnZkcEhvZnBxR1Y2QXJlY0lBVUZybGpoUlZocHhvYnhjZ2tmVVgybjJ1M0ZBZXlvN2owVUoxUmJvVFg3c3BobUZTc1p0VnZFVjd2ekMydXY3ekNuMUxjNzY1bnFEa0JwS1QyYW02LWlweXhSU1MtaTV6TW9IVHBrNnRGNTk5cjl3RDZWUzl0RjFWWHJuc2FaQTVZRU40NjduMFd6N3l5Mm94eVo0ODZHaFlLSFBvM2JDVVRKX0wtZ0h1NzNvRWVmT01VSGVMLUdmZmZOb0liZU92YlNGei1BZEZmWXJtWDdXZ3VDcWt2aWNnR0FWUlB5dDVldnplbm5kNE1SaE85TV9xaEluSW9hOXVGUUk5NXVFeFFVaElBQ3JTV1RUSzhnSHJxX2FtaVpOQlFDak8tbXBxNlE5eGFLVDdz"
+    "CBMi3gJBVV95cUxPMGlJRTdhYjB4d0d1dEs1SWlvNEtNYnA0S0h0Mkhoem1JVkVFTmFRN1Q4RjZGTjdJRU1sWGJzbjYzZkpqWWUzVlMyZkZiQ2VYZ3B3RmVVeEE4WElWSzBMdGNXYk9nLXM5bXBhdDFSNGhtdS1UNTh6X01kalNQQVphMmYwZzZLd2xMclQwWXctbkh5TWZoeHBaZ1EwWXI3ckN2QWNHNnlVc00wZzNzVXJGM01iZWdSM3dMeUpyVXQ4S2NnQmtrRjB5bndDUnhielJ4czNONVhTV1Z2LWVIWEFyUTZCMVRpWjhxX2lpVDFja1ZrRV85anV4T3RyUXhSRm1EOERDZHBqSUtsTk41QTExSEpwMC1OSlNBcDU3QXo2Y3haS25BaXRVc0JMY3hYZlFXTUw1VDcyTWl2TVBFakR2MEhCcjJGT2VsU1ZVNUFKaFJqQ0xLc2RiYU9Ya01hd9IB4wJBVV95cUxOLXlBajlMdFhsb1JHTDQxN1lEbzdqU1Znb0g2bC12eklRZnZkcEhvZnBxR1Y2QXJlY0lBVUZybGpoUlZocHhvYnhjZ2tmVVgybjJ1M0ZBZXlvN2owVUoxUmJvVFg3c3BobUZTc1p0VnZFVjd2ekMydXY3ekNuMUxjNzY1bnFEa0JwS1QyYW02LWlweXhSU1MtaTV6TW9IVHBrNnRGNTk5cjl3RDZWUzl0RjFWWHJuc2FaQTVZRU40NjduMFd6N3l5Mm94eVo0ODZHaFlLSFBvM2JDVVRKX0wtZ0h1NzNvRWVmT01VSGVMLUdmZmZOb0liZU92YlNGei1BZEZmWXJtWDdXZ3VDcWt2aWNnR0FWUlB5dDVldnplbm5kNE1SaE85TV9xaEluSW9hOXVGUUk5NXVFeFFVaElBQ3JTV1RUSzhnSHJxX2FtaVpOQlFDak8tbXBxNlE5eGFLVDdz",
+    "https://www.mmafighting.com/510284/dnp-morning-report-template-dnp"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 62,
+    "ai": 63,
     "staged": 4,
     "prio": 0,
     "lost": 0
