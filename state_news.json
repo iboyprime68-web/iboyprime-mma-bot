@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5fd08d7420ca2e2a": 1789949219.082486,
     "211dacb189a1de70": 1789949154.9125586,
     "43071e91e0dc6896": 1789949154.6274734,
     "0a3ed61cd14d8c1f": 1789949090.7583685,
@@ -2498,18 +2499,11 @@
     "4d3a9c46938becf5": 1789457499.1708415,
     "42c38ddfa6ee8b5d": 1789457433.6144967,
     "2d80e8476ca1b2f8": 1789457433.3186672,
-    "35b8feec7fd34299": 1789457368.6432827,
-    "e95b5a8f027db98c": 1789457303.3800852
+    "35b8feec7fd34299": 1789457368.6432827
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "\"He's still got to fight\" - Dana White clarifies Ciryl Gane’s championship status after Tom Aspinall vacates UFC title",
-      "source": "Sportskeeda",
-      "ts": "2026-09-19T04:34:00+00:00",
-      "cluster": "c8598641121"
-    },
     {
       "t": "UFC 331: What Time Does Joshua Van vs. Alexandre Pantoja 2 Main Event Start?",
       "source": "Yahoo Sports",
@@ -4903,16 +4897,21 @@
       "source": "MMAWeekly.com",
       "ts": "2026-09-21T00:00:00+00:00",
       "cluster": "c5e20b39254"
+    },
+    {
+      "t": "Paulo Costa Issues Ultimatum to UFC Over Final Contracted Bout",
+      "source": "heavy.com",
+      "ts": "2026-09-21T00:00:00+00:00",
+      "cluster": "c9b4ca3acae"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T00",
-    7
+    8
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509090",
     "https://bloodyelbow.com/?p=330731",
     "5198571e-da33-3177-8813-7403a752b201",
     "https://www.mmafighting.com/?p=509041",
@@ -6411,11 +6410,12 @@
     "CBMijgFBVV95cUxPV3lsSl9EeUN2NmpYYW9lYWNrei1ha0dJTm9kcXVBTlZoSFVpam42TWZUWHhkN1BOcUNlTVIwTHAwYkRudlRyNjlOLVdmdW5mYXhKRFE4bGdHMU1pU204ZlVPcHU5elVoTWF2Wk1kQ09BMFY2OTVicGpka2lMWHFYZ3VnZ3plWmkwVDFzem5B",
     "CBMiUEFVX3lxTFBCZ3F2bmdvcVJqcEFNTDFMTldDaDdNaEctZ0VDM09IVjdtckI3eFgtYkY4Ujh4YWEyenNJWmdLUkYzOUJLTHlTYW94eFI1NE40",
     "CBMiqAFBVV95cUxNT0ZMcEJ1ZkVYTHYxa21INnowdUNMR2FhODRIMFlsWTNRWVRsM2FjNGZheWVWd21jSlpRZjR0WFN2ZTUzZEI1elV0dTVEOVVKVHRROUlHeWhzNTJfbkdGZkJvNGZEbjUxRUZmOXBQTGpFaUxUU3VJcjFNVzhvUGJDUWpGaExxYUpIS1g5Y1hSTFhsOVRETVpNZEduMTZINWdFckJqQjQ3OUw",
-    "CBMiggFBVV95cUxQWlNMYThRVUNzNmZLdEIxTVVJaFhhWjd4Nm9oSUZrVjM5cjBHOHl2cnVlSi1pY3VBODJDeVc1ZW1Eb0UySkNtSnNmX1daeUJBdF9pbzVIb2R6Z0ZsekVkdGMzRU1JODVleDlOQjlfcHF4Qk92eTNjSVc3QjNKWVRpVmtn"
+    "CBMiggFBVV95cUxQWlNMYThRVUNzNmZLdEIxTVVJaFhhWjd4Nm9oSUZrVjM5cjBHOHl2cnVlSi1pY3VBODJDeVc1ZW1Eb0UySkNtSnNmX1daeUJBdF9pbzVIb2R6Z0ZsekVkdGMzRU1JODVleDlOQjlfcHF4Qk92eTNjSVc3QjNKWVRpVmtn",
+    "CBMic0FVX3lxTFBKQ2F3NHYxdy1UcFViTmppTEF4ZXFzUGxjM2VtdXRZUURodHYtcy1rNTA2MTdsNHk5X2I1MEl2S0gzcjI0RF9KYXl5RndEc21BQVgyTm51MHVabFh1cDJEZzdXVFNrdVZvRHR1bmNuZmVBY3M"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 7,
+    "ai": 8,
     "staged": 0,
     "prio": 0,
     "lost": 0
