@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7d043a8e25bf4444": 1789987439.1045659,
     "9bc2938929c9e797": 1789987375.1390646,
     "a45c1286ae9b822b": 1789987375.1148229,
     "fa51d38e7fc446ce": 1789987375.1129043,
@@ -2498,18 +2499,11 @@
     "028f0eefcbee0728": 1789481046.7641854,
     "1621b828f19eeae6": 1789481046.7622602,
     "c3da124205628bc3": 1789481046.745416,
-    "bf868e8ecdde18c5": 1789480921.8087904,
-    "7825385c8e8ca877": 1789480921.8067086
+    "bf868e8ecdde18c5": 1789480921.8087904
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331: Free Live Stream Results & Highlights for Joshua Van vs. Alexandre Pantoja 2",
-      "source": "Sports Illustrated",
-      "ts": "2026-09-19T16:00:02+00:00",
-      "cluster": "cdb372dd2fd"
-    },
     {
       "t": "Dooho Choi vs. Patricio Freire prediction, pick, time for UFC 331",
       "source": "MMA Junkie",
@@ -4903,16 +4897,21 @@
       "source": "SPORTbible",
       "ts": "2026-09-21T10:26:50+00:00",
       "cluster": "cfd9a2b1ad4"
+    },
+    {
+      "t": "Paulo Costa Offers UFC an Ultimatum Over Final Contract Fight – Slams Hunter Campbell",
+      "source": "LowKickMMA.com",
+      "ts": "2026-09-21T10:42:43+00:00",
+      "cluster": "c9e4f6bb988"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T10",
-    13
+    14
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Vadim-Nemkov-draws-familiar-foe-for-PFL-heavyweight-title-defense-202704",
     "e7e12ca7-d249-3c87-b642-d4741f504deb",
     "543053bb-bbc0-3992-ae65-722de090d6aa",
     "ef16158d-1ded-39e7-bf0a-21fbed4e6272",
@@ -6411,11 +6410,12 @@
     "CBMiigFBVV95cUxPZkVqdmVCY00tSmJjU0stWmFCX0pFd29HYXZESjNVWGZVLTRfYXM1OGhZOUc4S0xyaG45TzQxa1JlOXFHdEJOWm5ueXFkWVFCRVdDUUNsZ2piSVRHSVMyXzJvSjBzUG5lTHdKWkFKSUJVMFFWTjBuYXpVeXAtbnFQSmY3Qlc2bVVOdXc",
     "CBMiygFBVV95cUxQQXFOTFVSZzlIRGxQcWdyYS1yS2pfc1plbkNlRXhxMDlVQV9EX1JCems4elFQYnNkYzdRZXpYVTZzWlp1eTB5NWpaUGZVejJOSFZOUUNCSzhVZ2VaalE3Y1pmd3RxV2xjZ2tFSTFjd1NkYlc2QVFUSHVRby1MVEduQVRpd0haWFJHeENwS1VTVVVQX2FRbl9sRWlsRGdTRFBOUHN4NTdkY0R1bUY1QW9rLXlGU2dhOEV3NTJLMk81VlYwOG0wSENHOTNn0gHPAUFVX3lxTFBaLXA2b25oZUVFcW52cUl0d0Q5YVRfRi00VEx5dzhJV3dSSnVsc09uTzZDQTJvdGV4N25VeTVtNDF3VDlTZmVFcU9RLVU2ajNZQnBuZ0ZDR2pWWWJIclB0azd1SWxYR2VFU0pFRGdNanFBeVlCLU1pTm5QcVZybmhWMnpDNGJwZEtJNTZyb2o3VHhvQUZSYlY0bURfdERodC1vV1J2UDI2clNjamNpMUYwNFhlRTlOWjZyem56bGc1QXdNal80SW9HX0ZScV9UZw",
     "https://www.sherdog.com/news/news/Charles-Jourdain-Lost-my-eyesight-in-Marlon-Vera-fight-at-UFC-331-202892",
-    "CBMiiwFBVV95cUxPaHhOdGtOanZ2Q1JDalFxaXhvUnNLTUpZTS1ULVNpUC1mRWIwcGwyWTFhd3Fkb2FmenJoRjFMUTBSZVFjQ2FmLXQ5ZHVEU201TEtRaFR2NWMzN2MyblJTalB1Y21waHV3ckxtY3EzRWprd21aRWwwbFp6UXlYczZXOTM2bC1RQlY3YVhn"
+    "CBMiiwFBVV95cUxPaHhOdGtOanZ2Q1JDalFxaXhvUnNLTUpZTS1ULVNpUC1mRWIwcGwyWTFhd3Fkb2FmenJoRjFMUTBSZVFjQ2FmLXQ5ZHVEU201TEtRaFR2NWMzN2MyblJTalB1Y21waHV3ckxtY3EzRWprd21aRWwwbFp6UXlYczZXOTM2bC1RQlY3YVhn",
+    "CBMihAFBVV95cUxNZ04xZnlMeWR0SFd0bjgwMmJ1T2syZXRJTnBPcmNoN1FSbzdyaEJ0eFhkeFpsMlR6UU5GMnp6VGppTlhTSElFS2FLU01CeVRac1RhLU1rc3J1TzBOSjBienIzTkc4TlBLVXNOQnAzUXFGLW9KMklOY1ZodlF2Q3c0Yzg0bkM"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 55,
+    "ai": 56,
     "staged": 4,
     "prio": 0,
     "lost": 0
