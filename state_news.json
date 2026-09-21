@@ -1,5 +1,7 @@
 {
   "seen": {
+    "adf5997df51b61fc": 1789964509.3498394,
+    "49a7df30f751c064": 1789964509.006088,
     "e3d873fc0330e4d7": 1789964444.812348,
     "6ace8ba800f8e14d": 1789964400.4286191,
     "161d0c4aa7cf387a": 1789964376.8204794,
@@ -2497,19 +2499,11 @@
     "0d0165111d665d51": 1789478526.3330116,
     "11d525fa83d91360": 1789478462.0986862,
     "becda001d7a79ffc": 1789478416.986933,
-    "446da0f2783c0041": 1789478393.6851037,
-    "4216358540b31622": 1789478369.143984,
-    "5e9f7fdd23e45c8b": 1789478345.4023573
+    "446da0f2783c0041": 1789478393.6851037
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Dana White provides worrying update as ex-WWE champion's 'eye leaks' in brutal Power Slap loss",
-      "source": "SPORTbible",
-      "ts": "2026-09-19T09:07:41+00:00",
-      "cluster": "c849fd0fe19"
-    },
     {
       "t": "Tom Aspinall encensé par une légende pour avoir lâché sa ceinture",
       "source": "La Sueur",
@@ -4903,16 +4897,21 @@
       "source": "MiddleEasy",
       "ts": "2026-09-21T03:57:20+00:00",
       "cluster": "c42e36aab01"
+    },
+    {
+      "t": "UFC Flyweight Championship: Joshua Van defends his UFC Flyweight Title",
+      "source": "Myanmar International TV",
+      "ts": "2026-09-21T04:03:10+00:00",
+      "cluster": "cc28a4d3ab1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T04",
-    15
+    16
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Kai-Asakura-makes-his-case-for-topranked-UFC-opponent-202706",
     "CBMi4AFBVV95cUxOSVBSeW9VSTNNSkFuSjlJOWlseUx3VjN2WTFRZzE0V3lTZ2IyVWZUZHhvUVUtNE5zNUllamFDck01VzhKOVlWajktUlQ1dnRaMGFfYjBSZmdMbm5jbkhsUFh2eGRPNVdpRkljcWUxaXAzYnpCekJHVm9ZUEZLX2kyN0dXYVBWSjJCNVEtdldpUkJfT2dNREhOMXgtWVNyN1Fvb2tYemJQQ1JwTlFqQmhJcTNnV01RcExCeG0zWnJFWTFkWVA2NGFGZFpfMkQ1Ulh5b194aFhWQ2NJLVhMaWNpTQ",
     "https://www.sherdog.com/news/news/Alex-Pereiras-Ciryl-Gane-rematch-demand-sparks-brutal-Josh-Hokit-tirade-202699",
     "2dd83b0b-4190-3a11-8d07-a2fc9948ddb5",
@@ -6411,24 +6410,17 @@
     "CBMilwFBVV95cUxOMm1JbTcyOWJzRWVTMjlLVk00VjJfalZtWFQ4Mk5RbHhobl94d2tObDdPNUt2NmVwOEwwcnUzNk1LSk40eC05Z1gwTnJQZENkWm5RRThVUzNmUzctMk9pR1BaNkNIXzRjV1JDQ3ZoQ3Z3LTBFNU5xZ1Q1dkF4QVc5X2NVYndBTm81MXk4Q0RZS3VpU0VvYWFJ",
     "CBMipAFBVV95cUxPXzRjNHhOd0k0UmpaNTRCZXpiS1ptYTBKMGYyejRMZjJ3Q29Id3BjYlNaTzduSllUR0dHYmpvV0NsYWtJenFqNTMwbDFyVXk5U2ktT1VSNU14cXdjX2pWTzM4WmtlM25ZVERMMzlxZkt5a0huMjFTcUVWMkx1NHBVODVTRUQyQ09nejZkb0NLZDRQQTVTSHhsblBaSTZPbF9VcEpONg",
     "https://www.sherdog.com/news/news/Justin-Gaethje-has-brutal-warning-for-whoever-fights-Ilia-Topuria-next-202879",
-    "CBMihgFBVV95cUxOY2t6anpTMkx6YlZQU3FGdk9pSlZlR1V6RkV0MC1LR25vQlAxbmJDSUlQUW1RV0JLcGtLTnBweEgtVks5V25zamkySWxVNmY2N2p3WXF2UXpVTV85YjNMa0VUaGdnQkw2UDNqWHB2RzRDLVhwOHFuQUI4cEdlQU1wNS1xMW1idw"
+    "CBMihgFBVV95cUxOY2t6anpTMkx6YlZQU3FGdk9pSlZlR1V6RkV0MC1LR25vQlAxbmJDSUlQUW1RV0JLcGtLTnBweEgtVks5V25zamkySWxVNmY2N2p3WXF2UXpVTV85YjNMa0VUaGdnQkw2UDNqWHB2RzRDLVhwOHFuQUI4cEdlQU1wNS1xMW1idw",
+    "CBMiowFBVV95cUxNcXlNYkl5bk42QVp3UlhEc2k2bjZzY0xzWGZDb09pYm81RXBSMW5ONFRBRFRXalpEQXh0TGRFLVhBQ0J2VjFfbXBvdU9TSHZCUkJaMWNUa1F0OWlNSW5jbEE3bS1wR0RUb2w0SEpyTlo2eGNnXzA4ZFZ4ejVqZUNpRXZQZ1dudlVIbDR1U1M1TDU2ZEhJZGNlcmlCbFkyZWQyUzhz"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 28,
-    "staged": 3,
+    "ai": 29,
+    "staged": 4,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-10T15:00:28.695831+00:00",
-      "t": "Paulo Costa calls for release after not getting interim title fight at UFC 332",
-      "names": [
-        "costa"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-10T15:00:57.065765+00:00",
       "t": "Justin Gaethje claims Arman Tsarukyan blew his title shot because ‘he wasn’t going to make weight so he dropped out’",
@@ -7210,6 +7202,16 @@
         "blaydes"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-21T04:21:50.319788+00:00",
+      "t": "UFC Flyweight Championship: Joshua Van defends his UFC Flyweight Title",
+      "names": [
+        "championship",
+        "van",
+        "flyweight"
+      ],
+      "img": "cutout:joshua-van"
     }
   ],
   "seed_pending": [],
