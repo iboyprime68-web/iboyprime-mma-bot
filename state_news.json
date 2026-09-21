@@ -1,5 +1,6 @@
 {
   "seen": {
+    "21489ff5272bda75": 1790035039.1102204,
     "b2ae48cc7a44b46f": 1790035016.6656117,
     "1ece3b807796dfe9": 1790034993.9981034,
     "ad29ee623094844e": 1790034993.4700737,
@@ -2498,8 +2499,7 @@
     "adc949082115ca6c": 1789517044.5189865,
     "446320354361efbd": 1789517044.1366742,
     "09936c0eea98a019": 1789517020.7051709,
-    "67a78a2baae8fbca": 1789516996.3176355,
-    "13c0b75c55d1ffe0": 1789510051.4332833
+    "67a78a2baae8fbca": 1789516996.3176355
   },
   "initialized": true,
   "v": 4,
@@ -2935,12 +2935,6 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-20T04:14:32+00:00",
       "cluster": "c7408779d93"
-    },
-    {
-      "t": "Joshua Van Carves Up Alexandre Pantoja to Retain UFC Flyweight Champion at UFC 331",
-      "source": "Sherdog",
-      "ts": "2026-09-19T23:57:08+00:00",
-      "cluster": "c14c4efdb9b"
     },
     {
       "t": "Joshua Van wins thrilling Alexandre Pantoja rematch after brutal Arman Tsarukyan KO at UFC 331",
@@ -4891,13 +4885,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T22:00:00+00:00",
       "cluster": "cb4f4a97e7c"
+    },
+    {
+      "t": "Gable Steveson handed 45-day suspension after shock 12-second KO at UFC 331",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-21T22:37:29+00:00",
+      "cluster": "cc9e7343cdc"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T23",
-    2
+    3
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=509212",
