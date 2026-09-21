@@ -1,5 +1,8 @@
 {
   "seen": {
+    "51c0f89fc6b43f7d": 1789986716.5961385,
+    "2271d2650bfd9cee": 1789986716.1743295,
+    "c89228973d579e09": 1789986716.1729348,
     "949568e087e46140": 1789986651.6632144,
     "e82740a27a99ab7b": 1789986650.876455,
     "8d6a8e2509b2b67e": 1789986650.8752356,
@@ -2496,20 +2499,11 @@
     "f885de71e84f87a5": 1789479578.262901,
     "c9d4129da2e0d2cd": 1789479578.0173624,
     "100b9312cdd1aadf": 1789479577.998154,
-    "05b7b59fc5e1576c": 1789479577.9964824,
-    "e3baeadb60b007f7": 1789479513.3746734,
-    "a9ee57bffb4b350a": 1789479513.1364846,
-    "cbb13042fa037421": 1789479513.1193974
+    "05b7b59fc5e1576c": 1789479577.9964824
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Gable Steveson boos and accusations hang over burgeoning UFC career",
-      "source": "USA Today",
-      "ts": "2026-09-19T13:22:00+00:00",
-      "cluster": "c8839db0336"
-    },
     {
       "t": "UFC 331 predictions: Favorites will run wild in Los Angeles",
       "source": "New York Post",
@@ -4903,16 +4897,21 @@
       "source": "Sherdog",
       "ts": "2026-09-21T04:49:57+00:00",
       "cluster": "cb29a51c845"
+    },
+    {
+      "t": "Daniel Cormier Calls Gable Steveson 'Ungrateful Loser' For Early Exit While Dana White Defends Him",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-21T05:27:34+00:00",
+      "cluster": "c600778911a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T10",
-    1
+    2
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509182",
     "https://bloodyelbow.com/?p=330803",
     "0142f1c1-2804-38c9-8365-f3488c0dd01d",
     "https://bloodyelbow.com/?p=330767",
@@ -6411,11 +6410,12 @@
     "CBMilwFBVV95cUxQOEliMHZPajd0aHhPQXRjQVhuSklpaUZmSUFmQ2l5bEJ3MUFYaEVSSXo2MDJxOVZnbExSM1VNbzBETHE2QkhRTXJXWUhnRmM0bTVnRm9CeFhtTFBIcUpPQ0RlajNsMDNoRVp3NGczWlRKdzdaTlgyTzFIbDJTUW0wNnY1TnlUZGFDQjFGclp0UEw3UDJ1TDc4",
     "789f1ded-411a-3592-af78-8cc8fd742fe7",
     "https://bloodyelbow.com/?p=332924",
-    "https://www.sherdog.com/news/news/Alexander-Volkanovskis-raw-reaction-to-Mauricio-Ruffy-KO-goes-viral-202890"
+    "https://www.sherdog.com/news/news/Alexander-Volkanovskis-raw-reaction-to-Mauricio-Ruffy-KO-goes-viral-202890",
+    "cd0772f5-8cdc-356d-bfad-f198ff62857b"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 43,
+    "ai": 44,
     "staged": 4,
     "prio": 0,
     "lost": 0
