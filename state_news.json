@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b2ae48cc7a44b46f": 1790035016.6656117,
     "1ece3b807796dfe9": 1790034993.9981034,
     "ad29ee623094844e": 1790034993.4700737,
     "8f338c73fed9836b": 1790027263.601125,
@@ -2498,8 +2499,7 @@
     "446320354361efbd": 1789517044.1366742,
     "09936c0eea98a019": 1789517020.7051709,
     "67a78a2baae8fbca": 1789516996.3176355,
-    "13c0b75c55d1ffe0": 1789510051.4332833,
-    "cf88eb04112e8636": 1789509859.944321
+    "13c0b75c55d1ffe0": 1789510051.4332833
   },
   "initialized": true,
   "v": 4,
@@ -4885,13 +4885,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-21T21:46:38+00:00",
       "cluster": "cf634f1730f"
+    },
+    {
+      "t": "BKFC boss predicts Conor McGregor BKFC debut in ’15 months or so’ amid Croke Park conversations",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-21T22:00:00+00:00",
+      "cluster": "cb4f4a97e7c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T23",
-    1
+    2
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=509212",
