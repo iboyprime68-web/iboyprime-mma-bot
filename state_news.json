@@ -1,5 +1,6 @@
 {
   "seen": {
+    "97edc6bfff084aab": 1790011167.2140877,
     "0c772dedfb2aa330": 1790011142.0687745,
     "406d2ee1e38046c5": 1790011141.7457838,
     "b4dcaca0a946a1d6": 1790011074.7512593,
@@ -2498,18 +2499,11 @@
     "e0bec5a45217d63d": 1789496936.4104936,
     "90db4a387973b3a6": 1789496872.2554615,
     "abd74f0944d3c5d6": 1789496807.7836947,
-    "65abf423053eb4a1": 1789496742.4770827,
-    "a2ce3b73a2201905": 1789496741.9692893
+    "65abf423053eb4a1": 1789496742.4770827
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "LIVE! UFC 331 Streaming Updates, Video Highlights",
-      "source": "MMA Mania",
-      "ts": "2026-09-19T21:30:34+00:00",
-      "cluster": "cf63e59e3ca"
-    },
     {
       "t": "UFC 331 fight results: Joshua Van vs. Alexandre Pantoja live updates, card, highlights from Los Angeles",
       "source": "CBS Sports",
@@ -4903,16 +4897,21 @@
       "source": "Cageside Press",
       "ts": "2026-09-21T16:51:54+00:00",
       "cluster": "ca759a95721"
+    },
+    {
+      "t": "Monday Morning Hangover: What’s next for Alexandre Pantoja after crushing loss at UFC 331?",
+      "source": "MMA Mania",
+      "ts": "2026-09-21T15:01:39+00:00",
+      "cluster": "c633646e3be"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T17",
-    21
+    22
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330857",
     "https://bloodyelbow.com/?p=330863",
     "9cf9b3f8-4526-3b90-853a-dd69c8345cb5",
     "7483fe9a-cef0-316f-af6d-1fc2243a7c1d",
@@ -6411,11 +6410,12 @@
     "CBMid0FVX3lxTE1obmw0U0MxOHU0dlhOQmRaOWFYMm1zdzlGeEpuMmFCRGx6M0xuTXdlRGVla0s1UkVEeEpTWXJTWWxXZ2xJeExISWM2VXNEWWJEZ1pwVTUxdG8weEI0clkzc0xLa1VNTng2aFk5OTNFWk0xTENwQk1B",
     "CBMi1gFBVV95cUxPUUMzc3FuQWdUNTFWWW5UVzdQallXeUNDclBuMzF0Z05tNUl5NlVBNVZXTFlWSDNDSldGU1dvRFM1bXRwY2kwRlpiZG13dXFzYnJTS2l2NzRHMFZ5eU45VHFSMDRSeThyZ3NpQ18wb0kzOUNFTUgxZ01ia1l0MGVLb0RabTRvcXdXdGdPNHdQZHZIaV8yeDlpUy1pZkJqakwzTHBvam4xYXJXNUhJRGJJeWhyR2o3WUo3R1lCa2dMQUh2RkR1TmdPWW9STk1RS2ZfMTJiQm9B",
     "CBMigwFBVV95cUxQajJZMFkwWFNDWmhZLVBRS1R6SDZPS09uN2hMZW9oY3BBY3ZSdDV2dzB5clB2Qk5nNTBKZGhiTjZoMmYzNkE3bGQxTHVXb3VvbGJ2ajV4OHF1RUFnQTZqZm9aRXNvUHNZNHgzWHpxUUxEcWd0LWY0VmY5WmwxT25SOWdHRQ",
-    "CBMif0FVX3lxTE5DR2lHdXZHekN5Qm55TEJxblRoc0tDemV1c0dMU205X19fSEtFM0dkYjFGcHpWVF9IWnVqMWhoZVphY3hyejR3UFRLQURhQmpCVjdnYUdoWUo4RGU1bTRHWFNvenFmNXhWajd6ZjZOMExETUsyQmp4RGVTX2VrRk0"
+    "CBMif0FVX3lxTE5DR2lHdXZHekN5Qm55TEJxblRoc0tDemV1c0dMU205X19fSEtFM0dkYjFGcHpWVF9IWnVqMWhoZVphY3hyejR3UFRLQURhQmpCVjdnYUdoWUo4RGU1bTRHWFNvenFmNXhWajd6ZjZOMExETUsyQmp4RGVTX2VrRk0",
+    "https://www.mmamania.com/?p=473913"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 96,
+    "ai": 97,
     "staged": 5,
     "prio": 1,
     "lost": 0
