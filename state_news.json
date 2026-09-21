@@ -1,5 +1,6 @@
 {
   "seen": {
+    "26fc5441636e23e7": 1789964708.8671973,
     "29f9ca0f4e6718c9": 1789964643.5861018,
     "64410a58728b2fc7": 1789964643.2503176,
     "9b5dede055bd8934": 1789964578.530178,
@@ -2498,18 +2499,11 @@
     "7f7196d88457c5d0": 1789478725.5921795,
     "4e2995d45049610a": 1789478661.147537,
     "a4a4b0d106db3d6c": 1789478636.4063425,
-    "9284ee0722013bf8": 1789478591.7640665,
-    "0d0165111d665d51": 1789478526.3330116
+    "9284ee0722013bf8": 1789478591.7640665
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331 ‘cursed’ as Drake places $650k bet on Joshua Van vs Alexandre Pantoja main event",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-19T10:00:00+00:00",
-      "cluster": "ca2c8dd1606"
-    },
     {
       "t": "Arman Tsarukyan lays out key rule for N3on while cornering him at UFC 331",
       "source": "Bloody Elbow",
@@ -4903,16 +4897,21 @@
       "source": "MiddleEasy",
       "ts": "2026-09-21T04:17:26+00:00",
       "cluster": "c19fe66c30f"
+    },
+    {
+      "t": "Paulo Costa gives UFC 3 options in contract standoff",
+      "source": "Sherdog",
+      "ts": "2026-09-21T02:14:53+00:00",
+      "cluster": "ca6c7880374"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T04",
-    18
+    19
   ],
   "yt_eval": [
-    "2dd83b0b-4190-3a11-8d07-a2fc9948ddb5",
     "14857b54-10f4-3eca-972b-4ca272ed61bd",
     "2eccdd6c-574b-31a9-9764-885930dcf24f",
     "99bd03be-2f22-3784-bfb5-f8c256f6afd7",
@@ -6411,11 +6410,12 @@
     "CBMihgFBVV95cUxOY2t6anpTMkx6YlZQU3FGdk9pSlZlR1V6RkV0MC1LR25vQlAxbmJDSUlQUW1RV0JLcGtLTnBweEgtVks5V25zamkySWxVNmY2N2p3WXF2UXpVTV85YjNMa0VUaGdnQkw2UDNqWHB2RzRDLVhwOHFuQUI4cEdlQU1wNS1xMW1idw",
     "CBMiowFBVV95cUxNcXlNYkl5bk42QVp3UlhEc2k2bjZzY0xzWGZDb09pYm81RXBSMW5ONFRBRFRXalpEQXh0TGRFLVhBQ0J2VjFfbXBvdU9TSHZCUkJaMWNUa1F0OWlNSW5jbEE3bS1wR0RUb2w0SEpyTlo2eGNnXzA4ZFZ4ejVqZUNpRXZQZ1dudlVIbDR1U1M1TDU2ZEhJZGNlcmlCbFkyZWQyUzhz",
     "CBMisgFBVV95cUxOeWRZcDFGZTJlU3pac0NRRWI2ZmxxX1B5bmMybjE0MHJaWjk2SDdialBBZ21kakFzYkJ1OHh3dzFfTkJrMlY5OEZSMGFmQ2kyWHM3Rmx5TTBoSnJKZ3Zkem1BMTQ5WnZMRkRMSDdtX1ZCSVpRdkpfeGNkTl9nWTVBdk5BcmRhSEhCMXZGdVYzcG02ZkxyTGpBVzlNVHE3RlNRQjdOMV81aEtJX2ZEeVFTaUZn",
-    "CBMiggFBVV95cUxNWkNQY0FsbEcxN0hDM3pJekxOMWdSVVVnMWQwWjlzLWFId1BXMlV0UkFoT08yNGxfMExXMElRS0NVbHBsWjVFc0VGWVFJVXJJc2tCaW01T1E3NUtQU3VScXlfLUJuYUVEaXd5VjY4aTc1OVY5VzRBeXdKZUNiZ0FDU3pB"
+    "CBMiggFBVV95cUxNWkNQY0FsbEcxN0hDM3pJekxOMWdSVVVnMWQwWjlzLWFId1BXMlV0UkFoT08yNGxfMExXMElRS0NVbHBsWjVFc0VGWVFJVXJJc2tCaW01T1E3NUtQU3VScXlfLUJuYUVEaXd5VjY4aTc1OVY5VzRBeXdKZUNiZ0FDU3pB",
+    "https://www.sherdog.com/news/news/Paulo-Costa-gives-UFC-3-options-in-contract-standoff-202880"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 31,
+    "ai": 32,
     "staged": 4,
     "prio": 0,
     "lost": 0
