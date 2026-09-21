@@ -1,5 +1,7 @@
 {
   "seen": {
+    "248584db5c5bbbf8": 1790009820.6518838,
+    "532256b666af1c93": 1790009820.0794275,
     "f9395da4afbba32e": 1790009794.8044817,
     "46628db30492a49e": 1790009770.308905,
     "6e068bac2ed5c09b": 1790009745.3625262,
@@ -2497,19 +2499,11 @@
     "0ac7045d12ec87b7": 1789495888.7318466,
     "8a7cbe62b30d3f5a": 1789495824.1178706,
     "5122a2e17d0ffc28": 1789495758.7114956,
-    "c78b50653a70c4df": 1789495758.3908992,
-    "ffd0132514254fae": 1789495758.3727114,
-    "b409b52cc20f4766": 1789495758.3685024
+    "c78b50653a70c4df": 1789495758.3908992
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Tom Aspinall’s favorite fighter Georges St-Pierre shares concern in reaction to title vacation",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-19T18:00:00+00:00",
-      "cluster": "c035666647f"
-    },
     {
       "t": "Gable Steveson vs. Sean Sharaf prediction, pick, time for UFC 331",
       "source": "Yahoo Sports",
@@ -4903,16 +4897,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T15:00:00+00:00",
       "cluster": "c3844dbbe3d"
+    },
+    {
+      "t": "Watch: Georges St-Pierre comes out of retirement to choke out a T-Rex",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-21T13:30:00+00:00",
+      "cluster": "c0456f28e7b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T16",
-    9
+    10
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Valentina-Shevchenkos-coach-reveals-injury-behind-long-UFC-hiatus-202708",
     "CBMimwJBVV95cUxNenBzM1NjY1ZFeVB5WDU1b1NQQ1JMOUx2bFRPVmdrelRnSFlCeXRBWm5LRko3V3o3a0FRQjkybC1oQjV1NHh2ZmFMdDJReTZ4WWl6UXFfaEtkQmswT1JFbkNxalVIMFI1eEU0UmtieVdOS19KZkhWRTZ2OFZIRzBvZWNwM200MF93WmdTYldYaUxFdThTcVJXS1FhYXNKaEliakJPV24wbC1RZDRuQVd5eHRsOUlGby1La3Exc0Y1Z29qRWVtX0VvcERWQzRHY1NVaWJSWF9jVXNEdUt6aDJrekxBRGVmd0pzbm4teU1sMmhvejAyLU9hcnNnQTUtTFdIZ1ZlQ0tWRE4xUENBUWtDcE9IR3ItVGFKVkRr0gGgAkFVX3lxTE1nZEl4UmpoY3dLOWlKRldGczBTVXFnRU9ZVGxLX2k1eU5NV2NGb1NnRVZad3BLdjBlMEhHZmZBWU5sZklNQVRsdEZPTFBnUEZ6WmFsaVo0YkZZWUFBd2hDWGVOYkZzRllPRllHQUtjXzBKOHBUZVU0OGE3YUpHTThHNlRTRDREZmpOaWhIVVRZWEVPNjduZnRZYjJCZ1FNZUVvOFZ1NllZaTM4NVFwYmhPTXJVNEhYSTV3dFF0MkpDTDVwbnlTeUZ1a3ZlcXRKME1iTmNFVTkxaTJSdHhCanpkaDBhTldvcTh1bDBCZGhHU2xpemxuVVppeEVEbWVody04MG13b0Nub0Fzb3pycFl6aENQOWFXbWxDd3paaFVTYg",
     "CBMiigFBVV95cUxNUHh0YUxOOHRpVVdTbHpvOVZMWV9LV0FSOElWTGl5MHNuRlY2Mk1CYkw5OFQwc0lRekFIS29GWHhQVjJyTnozVkdkMTR3WVF4T2ZSUHdiX09PTEFwZUQxWTJPUk0zejNOUEFtX0ZIYWpXRncwTWFvN2U5N2tPYlBNRDNqaUExRXM3Ymc",
     "CBMirwFBVV95cUxNUUR2RVcyQUZDSkxpUnR3UnMtSzF5ZGhwNXg5amxYWHl5cmxKaE5jZ3JOWGtZQTJLVlY1Y1BBNUxBbDdGZ1RXeVROUnRaeXBxZGRHeHFITDNHZ2pzUklLemFqRDNqdnROWXgzYVA3Rjg4OGNIX1ZqS2dYaGl1azZ0cUhRYl80QWxIMUlLb3EwbmxhR084eWRMYVBJNDlXSTBkNTUwODdldjJkQVE4Znd3",
@@ -6411,25 +6410,17 @@
     "https://www.mmafighting.com/?p=511727",
     "0032be3c-2d8d-301b-ba9e-9593ed448ec4",
     "https://bloodyelbow.com/?p=332964",
-    "https://bloodyelbow.com/?p=332934"
+    "https://bloodyelbow.com/?p=332934",
+    "f6e3c2d1-d360-3f32-a5ce-65c5c37b55ac"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 71,
+    "ai": 72,
     "staged": 5,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-10T18:15:53.535573+00:00",
-      "t": "Justin Gaethje provides new retirement update with Ilia Topuria rematch rumors continuing to circulate",
-      "names": [
-        "gaethje",
-        "topuria"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-10T18:24:28.424975+00:00",
       "t": "Islam Makhachev Reveals Minor Spine Issues Following Three MRIs After UFC 330",
@@ -7211,6 +7202,16 @@
         "van"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-21T16:57:01.684452+00:00",
+      "t": "Watch: Georges St-Pierre comes out of retirement to choke out a T-Rex",
+      "names": [
+        "georges",
+        "pierre",
+        "rex"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7267,7 +7268,8 @@
     "3d7283ecfe7ae930": 1789807874.5956829,
     "68e8e2fb5c27afc6": 1789885103.5166793,
     "6a893d14afaffe60": 1789927687.8101327,
-    "a8b0f2d759d02174": 1790009712.5512054
+    "a8b0f2d759d02174": 1790009712.5512054,
+    "248584db5c5bbbf8": 1790009820.0997825
   },
   "pinged_titles": [
     [
@@ -7275,6 +7277,15 @@
       1790009712.5512054,
       [
         "van"
+      ]
+    ],
+    [
+      "Watch: Georges St-Pierre comes out of retirement to choke out a T-Rex",
+      1790009820.0997825,
+      [
+        "georges",
+        "pierre",
+        "rex"
       ]
     ]
   ]
