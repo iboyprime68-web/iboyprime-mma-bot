@@ -1,5 +1,7 @@
 {
   "seen": {
+    "0a3ed61cd14d8c1f": 1789949090.7583685,
+    "b66628a4a8964439": 1789949090.1136389,
     "4b466692adca580e": 1789949025.7582886,
     "e7042d5ef06b4a70": 1789949025.3528767,
     "fbef2c09540833e7": 1789949025.3503373,
@@ -2497,19 +2499,11 @@
     "35b8feec7fd34299": 1789457368.6432827,
     "e95b5a8f027db98c": 1789457303.3800852,
     "f33c0a7daa348b2c": 1789457256.466596,
-    "29a8bb2d240fd922": 1789457232.3864217,
-    "d9683da6594c0a2b": 1789457231.0501757,
-    "36d0d834e5edba80": 1789438140.2992883
+    "29a8bb2d240fd922": 1789457232.3864217
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331 ‘Van vs. Pantoja 2’ play-by-play, results & round scoring",
-      "source": "Sherdog",
-      "ts": "2026-09-19T04:10:27.155336+00:00",
-      "cluster": "cf67a32c52e"
-    },
     {
       "t": "RAF 13 highlights: Colby Covington dominates Belal Muhammad in tech fall shutout, Khamzat next?",
       "source": "MMA Mania",
@@ -4903,16 +4897,21 @@
       "source": "매일경제",
       "ts": "2026-09-20T23:27:51+00:00",
       "cluster": "ce59d4fafa6"
+    },
+    {
+      "t": "Daily Update: Gable Steveson loss, UFC fallout, Jordynne Grace",
+      "source": "F4W/WON",
+      "ts": "2026-09-20T23:41:47+00:00",
+      "cluster": "c820e0c8f7c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T00",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMisAFBVV95cUxNSnlldE4xcGVGWFZkOWdrRkhzR29KQWRhaDlDQ2o1ODFpVkFDTEFYLUhXYXdoS2hNYWNpT3ItV1RCSmdhOVBmWlNwdHhadUZ3X1F1blYtYjRNeW92Yy1GZnE4NE9BSzR5UVo1bktiQnRVUUpsM1Q1RDVsaTJKTUZxRWhuVUdmcnB4ZWpQa3F2bnExdU5OMGIweXRGX3RoeFEtbTNYWXo1Z01TVHlNN2FPZg",
     "https://www.mmamania.com/?p=470227",
     "https://www.mmafighting.com/?p=509090",
     "https://bloodyelbow.com/?p=330731",
@@ -6411,11 +6410,12 @@
     "CBMiZEFVX3lxTE5IY0xLaUt1bWozNTJwRXA4QV9RNFRlWWROSFE5Qm91aU1hR19PVjNKanExNUNmTW1PRWRtN1NtUnpJN0pjcm4tR1RETmg2aWNQYTNkX2VQa2hrclByczRtT2c3ZHY",
     "CBMiggFBVV95cUxOUG1aOGxuUWk0OHVPd092TGN1dnNKVm1QdUV1UXJSZndrV3RZZ3FjYzJHb19iMXJfUnA0SFVJekt2QkN6MXN6S0VqT2JYcUZaZkJ1RTVRM3E2SW85VDdIMTEyYmFsXzNubEM0RHJoU3JVQy12Ui1vd3VVeTFCeE9rNXdR",
     "CBMijgFBVV95cUxPV3lsSl9EeUN2NmpYYW9lYWNrei1ha0dJTm9kcXVBTlZoSFVpam42TWZUWHhkN1BOcUNlTVIwTHAwYkRudlRyNjlOLVdmdW5mYXhKRFE4bGdHMU1pU204ZlVPcHU5elVoTWF2Wk1kQ09BMFY2OTVicGpka2lMWHFYZ3VnZ3plWmkwVDFzem5B",
-    "CBMiUEFVX3lxTFBCZ3F2bmdvcVJqcEFNTDFMTldDaDdNaEctZ0VDM09IVjdtckI3eFgtYkY4Ujh4YWEyenNJWmdLUkYzOUJLTHlTYW94eFI1NE40"
+    "CBMiUEFVX3lxTFBCZ3F2bmdvcVJqcEFNTDFMTldDaDdNaEctZ0VDM09IVjdtckI3eFgtYkY4Ujh4YWEyenNJWmdLUkYzOUJLTHlTYW94eFI1NE40",
+    "CBMiqAFBVV95cUxNT0ZMcEJ1ZkVYTHYxa21INnowdUNMR2FhODRIMFlsWTNRWVRsM2FjNGZheWVWd21jSlpRZjR0WFN2ZTUzZEI1elV0dTVEOVVKVHRROUlHeWhzNTJfbkdGZkJvNGZEbjUxRUZmOXBQTGpFaUxUU3VJcjFNVzhvUGJDUWpGaExxYUpIS1g5Y1hSTFhsOVRETVpNZEduMTZINWdFckJqQjQ3OUw"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 5,
+    "ai": 6,
     "staged": 0,
     "prio": 0,
     "lost": 0
