@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f9395da4afbba32e": 1790009794.8044817,
     "46628db30492a49e": 1790009770.308905,
     "6e068bac2ed5c09b": 1790009745.3625262,
     "a8b0f2d759d02174": 1790009711.183891,
@@ -2498,18 +2499,11 @@
     "5122a2e17d0ffc28": 1789495758.7114956,
     "c78b50653a70c4df": 1789495758.3908992,
     "ffd0132514254fae": 1789495758.3727114,
-    "b409b52cc20f4766": 1789495758.3685024,
-    "7480d0f56d7feccb": 1789495758.3644364
+    "b409b52cc20f4766": 1789495758.3685024
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Justin Gaethje proposes radical UFC changes to fix one key issue",
-      "source": "SPORTbible",
-      "ts": "2026-09-19T17:09:43+00:00",
-      "cluster": "c10258412b0"
-    },
     {
       "t": "Tom Aspinall’s favorite fighter Georges St-Pierre shares concern in reaction to title vacation",
       "source": "Bloody Elbow",
@@ -4903,16 +4897,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T14:00:00+00:00",
       "cluster": "c0dee9bfde6"
+    },
+    {
+      "t": "Watch Dana White brutally shut down Tito Ortiz’s attempt to mend their broken relationship",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-21T15:00:00+00:00",
+      "cluster": "c3844dbbe3d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T16",
-    8
+    9
   ],
   "yt_eval": [
-    "CBMixwFBVV95cUxNVHBzWEljMkh1cExQRW9fMFRyajZqclZGY1ZhOHEzVGRCVEVtNXRMNlVlOTFxUlhDY1RlaHhvcUNTNWt0TkVaaWhYUENRS2Q4d2VwZWJ3Qm44OHZFMTNWUDl0M1A2VVFwNXhCYUJzcGMzbklhOGpWWi1mVnY0c2w4M2RTdTgxbEMxNUJoWmtFMmZVVnRnaXJYRVlhUFg4NzJQdU9wMzc2bG5Fd2pXSjR4QlRvOGZjUDVkSXZFY3lqRVZBVnNVdUxZ",
     "https://www.sherdog.com/news/news/Valentina-Shevchenkos-coach-reveals-injury-behind-long-UFC-hiatus-202708",
     "CBMimwJBVV95cUxNenBzM1NjY1ZFeVB5WDU1b1NQQ1JMOUx2bFRPVmdrelRnSFlCeXRBWm5LRko3V3o3a0FRQjkybC1oQjV1NHh2ZmFMdDJReTZ4WWl6UXFfaEtkQmswT1JFbkNxalVIMFI1eEU0UmtieVdOS19KZkhWRTZ2OFZIRzBvZWNwM200MF93WmdTYldYaUxFdThTcVJXS1FhYXNKaEliakJPV24wbC1RZDRuQVd5eHRsOUlGby1La3Exc0Y1Z29qRWVtX0VvcERWQzRHY1NVaWJSWF9jVXNEdUt6aDJrekxBRGVmd0pzbm4teU1sMmhvejAyLU9hcnNnQTUtTFdIZ1ZlQ0tWRE4xUENBUWtDcE9IR3ItVGFKVkRr0gGgAkFVX3lxTE1nZEl4UmpoY3dLOWlKRldGczBTVXFnRU9ZVGxLX2k1eU5NV2NGb1NnRVZad3BLdjBlMEhHZmZBWU5sZklNQVRsdEZPTFBnUEZ6WmFsaVo0YkZZWUFBd2hDWGVOYkZzRllPRllHQUtjXzBKOHBUZVU0OGE3YUpHTThHNlRTRDREZmpOaWhIVVRZWEVPNjduZnRZYjJCZ1FNZUVvOFZ1NllZaTM4NVFwYmhPTXJVNEhYSTV3dFF0MkpDTDVwbnlTeUZ1a3ZlcXRKME1iTmNFVTkxaTJSdHhCanpkaDBhTldvcTh1bDBCZGhHU2xpemxuVVppeEVEbWVody04MG13b0Nub0Fzb3pycFl6aENQOWFXbWxDd3paaFVTYg",
     "CBMiigFBVV95cUxNUHh0YUxOOHRpVVdTbHpvOVZMWV9LV0FSOElWTGl5MHNuRlY2Mk1CYkw5OFQwc0lRekFIS29GWHhQVjJyTnozVkdkMTR3WVF4T2ZSUHdiX09PTEFwZUQxWTJPUk0zejNOUEFtX0ZIYWpXRncwTWFvN2U5N2tPYlBNRDNqaUExRXM3Ymc",
@@ -6411,11 +6410,12 @@
     "https://bloodyelbow.com/?p=332942",
     "https://www.mmafighting.com/?p=511727",
     "0032be3c-2d8d-301b-ba9e-9593ed448ec4",
-    "https://bloodyelbow.com/?p=332964"
+    "https://bloodyelbow.com/?p=332964",
+    "https://bloodyelbow.com/?p=332934"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 70,
+    "ai": 71,
     "staged": 5,
     "prio": 0,
     "lost": 0
