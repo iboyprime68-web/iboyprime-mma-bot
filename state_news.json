@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1b37565a708f057a": 1790024053.387341,
     "84d82ea83b723c79": 1790024029.5751824,
     "5c5f64305f873897": 1790024005.8058224,
     "d9770ead36de4586": 1790012850.7743785,
@@ -2498,18 +2499,11 @@
     "fe6b2f2d9010e783": 1789506852.400014,
     "1e6524957ed35e4b": 1789506829.3976717,
     "385e00d774917ae0": 1789506806.513286,
-    "d381a81dd5a54379": 1789498634.701524,
-    "a7ed2646d0de0feb": 1789498385.4325488
+    "d381a81dd5a54379": 1789498634.701524
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Highlights! Brito Sparks UFC 331 With Violent KO Stoppage",
-      "source": "MMA Mania",
-      "ts": "2026-09-19T21:59:29+00:00",
-      "cluster": "c7ac8b96d6b"
-    },
     {
       "t": "LIVE UPDATEs: UFC 331 Live Free Van vs. Pantoja 2 preview show",
       "source": "Powell River Peak",
@@ -4903,16 +4897,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-21T17:15:50+00:00",
       "cluster": "c604a829efc"
+    },
+    {
+      "t": "Arman Tsarukyan claims talks have already taken place with the UFC regarding his next fight",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-21T18:00:00+00:00",
+      "cluster": "c80312d1bab"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T20",
-    2
+    3
   ],
   "yt_eval": [
-    "86d97c2d-590b-355e-b527-1b14edcb81f0",
     "717299e3-5167-3ff3-8f65-7a18a5d07939",
     "af7b08d1-d92f-38b0-aa82-daf45f3ac747",
     "593fda5f-d10d-35d2-8b42-810d3f867b53",
@@ -6411,11 +6410,12 @@
     "CBMixgFBVV95cUxPR1dGblNiemVTeF9qdUM1a0JFMlR0SnFpR0lrTmNZd19CTy05YlR5S1hOSkpYZVN2TDB2emMwcmNMMkY0OUlHZl9sVmktckdUSUJWRjdBcUN2dXdQODhQTk5CdlBPbm9lTHpSLS1kUWpkS2llejloMHpfcll4S29PSG1mS1dJUlZRVzV4NmdvTGFJZy1pZi1uRS1ZemlZSDVoMExrUlRzd3NOcHN1MV9jNFI0SFlZaDFiSFBySUdJSzlxM1E0dUE",
     "CBMitAFBVV95cUxNWHAzem12VlphYktOaW5HWm1mMVAyYnBEbENlQlpJaVVrd1A3dWk1N2tDYjhBcGNUV3BFUmRDN0hhM0xZdGl4ZUZ5SGIxa3UyTm1WSE51M1BING9pTlBtVmpYMjNhX3p0TkY3dEFEeklUN1lLRTY0VEEwTmdpQ0hpYVpLd0g2Zm5zV0IzeC1CTXB6OWVMUWlNZmJodVNmZjJ1NnpQaTU5clYxLXI5NnoyYzU2WlU",
     "https://www.sherdog.com/news/news/DWCS-Week-7-weighin-results-All-10-fighters-make-weight-202894",
-    "https://www.mmafighting.com/?p=511744"
+    "https://www.mmafighting.com/?p=511744",
+    "https://bloodyelbow.com/?p=332983"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 104,
+    "ai": 105,
     "staged": 5,
     "prio": 1,
     "lost": 0
