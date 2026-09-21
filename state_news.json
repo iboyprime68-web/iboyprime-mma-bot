@@ -1,5 +1,6 @@
 {
   "seen": {
+    "179de1b848cef11d": 1790010254.2502773,
     "7820047c1f270ba9": 1790010206.833475,
     "4c542d3c3c04606e": 1790010181.636249,
     "dd35cbfdd485de9a": 1790010113.5386355,
@@ -2498,18 +2499,11 @@
     "a234255bbdd41227": 1789496086.237475,
     "d4a736d154d3674a": 1789496085.9025872,
     "836093f1806479f0": 1789496020.8881776,
-    "a5bd30bdd0d4664e": 1789496020.6004992,
-    "fd3598fc04f41e22": 1789496020.5970967
+    "a5bd30bdd0d4664e": 1789496020.6004992
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Dana White clarifies UFC Heavyweight Championship situation",
-      "source": "F4W/WON",
-      "ts": "2026-09-19T18:34:07+00:00",
-      "cluster": "ce47e8085cb"
-    },
     {
       "t": "UFC 331: Van vs. Pantoja 2 Official Weigh-In Live Stream",
       "source": "Art Hives",
@@ -4903,16 +4897,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-21T14:15:21+00:00",
       "cluster": "c4317576fe1"
+    },
+    {
+      "t": "Paddy Pimblett: Arman Tsarukyan 'looked pretty sh*t' up until UFC 331 knockout",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-21T15:20:25+00:00",
+      "cluster": "cd575529d63"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T17",
-    6
+    7
   ],
   "yt_eval": [
-    "https://www.mmamania.com/470343/open-thread-september-7-2026-worst-movie-dialogue-ever",
     "CBMieEFVX3lxTE8wTldIZWdRUjJyQ25hYzl6TU9mM1ZJRmgzSW91dW51cDZ6QXJoNm5waENUUVJKVkhDMXRUcmM4Q2RRZkI4S09rS1lOYmFqYkFUeGhJQ05CSlp1d3NyY0xmUDRuVmlrd251UnF0dW5CRDJPWkdwRHVuLQ",
     "CBMibkFVX3lxTFAzZFgwLUpfQ2NQbWx3Zi1BMk5oaEFJVUEzVHZCZFJMM3ZsVHZubnVxSzRnSXV2Sm05UklLVGJ0YXJwQVlwWnJNbWNYZGZ5WE1SeEtDeG9JTVpIUGQ4NzVaQUlXYjdfZVJXN1ByaEN3",
     "3f9a4fb8-dede-353d-a5cc-38fcaa64da70",
@@ -6411,11 +6410,12 @@
     "https://www.mmafighting.com/?p=511655",
     "560e8ee0-a2ad-31d8-8905-2ff7dbae5beb",
     "5d0bf898-b2e1-3afc-8c44-f20c2f79c1e6",
-    "https://www.mmamania.com/473962/the-mania-mailbag-september-14-get-your-questions-in-now"
+    "https://www.mmamania.com/473962/the-mania-mailbag-september-14-get-your-questions-in-now",
+    "f67d1442-f716-30f6-9834-c6d3dad3e9ea"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 81,
+    "ai": 82,
     "staged": 5,
     "prio": 1,
     "lost": 0
