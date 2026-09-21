@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ed6169d69cc02d25": 1789963852.4646795,
     "879b850059bb7aa2": 1789963824.5840256,
     "8f354f69ac600863": 1789963797.4579597,
     "bc0fd22990ce4c73": 1789963797.1324394,
@@ -2498,18 +2499,11 @@
     "463cf1b7733953be": 1789458789.2805486,
     "ebe2439d7e16fc0a": 1789458789.2759497,
     "ace31880d6007f01": 1789458789.2565749,
-    "d39acba96cfe5ac1": 1789458476.1430776,
-    "10706becf8f4a677": 1789458475.8240309
+    "d39acba96cfe5ac1": 1789458476.1430776
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331 live stream: How to watch Van vs. Pantoja 2, start time, channel",
-      "source": "sportingnews.com",
-      "ts": "2026-09-19T07:50:01+00:00",
-      "cluster": "ca5eda76cb9"
-    },
     {
       "t": "Vera vs. Jourdain: UFC 331 Picks & Predictions",
       "source": "bettingpros.com",
@@ -4903,16 +4897,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T03:59:00+00:00",
       "cluster": "c709bd44478"
+    },
+    {
+      "t": "Alexandre Pantoja takes inspiration from Rocky in wake of UFC 331 loss",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-21T01:01:33+00:00",
+      "cluster": "ce5366a24ff"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T04",
-    3
+    4
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330759",
     "c9918e0d-4d16-3bcb-a285-2cc44b77f378",
     "https://bloodyelbow.com/?p=330687",
     "960975ce-f57a-3923-b11f-79446a38c898",
@@ -6411,11 +6410,12 @@
     "CBMi_gFBVV95cUxNbGhQaWotYU55eS1tT1RXRDYwWVBpeE80VWFyUE03QVVDeTZuQ25oZ3hnYnFVcDZRSENtSkd1RzZvRFNKZTdMZ3lOMzJRdjVNVW1IS3AtOURuQ3VqT243TW9yS0VJQXVqYzJUTmFTaHNueTZqdUdQYXB1Wk9YVU5kYkRXUnViTHNsSUtzNTBNYnQ0OV9kSzY5MDVraXVxNXhBWmdlRW1hRm9zanQ3cnJSaFMya2FneXF1OGpscU5PUlI5OUNveXlvd3hCR0d4S3dMMFdfamFkYmpYMXQ4elhsZWpZZVRwdW1idWhaT0pZcU5uaEc3dC1xTlJWWGltZ9IB_gFBVV95cUxNbGhQaWotYU55eS1tT1RXRDYwWVBpeE80VWFyUE03QVVDeTZuQ25oZ3hnYnFVcDZRSENtSkd1RzZvRFNKZTdMZ3lOMzJRdjVNVW1IS3AtOURuQ3VqT243TW9yS0VJQXVqYzJUTmFTaHNueTZqdUdQYXB1Wk9YVU5kYkRXUnViTHNsSUtzNTBNYnQ0OV9kSzY5MDVraXVxNXhBWmdlRW1hRm9zanQ3cnJSaFMya2FneXF1OGpscU5PUlI5OUNveXlvd3hCR0d4S3dMMFdfamFkYmpYMXQ4elhsZWpZZVRwdW1idWhaT0pZcU5uaEc3dC1xTlJWWGltZw",
     "https://bloodyelbow.com/?p=332912",
     "https://bloodyelbow.com/?p=332921",
-    "https://bloodyelbow.com/?p=332887"
+    "https://bloodyelbow.com/?p=332887",
+    "517e6628-f556-3bc2-8d18-b85257c6bbe7"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 16,
+    "ai": 17,
     "staged": 3,
     "prio": 0,
     "lost": 0
