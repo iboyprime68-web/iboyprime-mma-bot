@@ -1,5 +1,6 @@
 {
   "seen": {
+    "10771ce19f7dc1a3": 1790027072.3277752,
     "ced6a00d470d89b6": 1790027008.198344,
     "902df20d135669bb": 1790026943.3313277,
     "f963ed9ae5845965": 1790026879.5185044,
@@ -2498,18 +2499,11 @@
     "ebb59a16842d5ff2": 1789509539.113223,
     "5b4fb77a429db0b0": 1789509539.1126926,
     "2d75a3a485695687": 1789509539.112147,
-    "d1addd085727643d": 1789509539.111629,
-    "512e3c806cc503df": 1789509539.111079
+    "d1addd085727643d": 1789509539.111629
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "\"Zombie Jr.\" has been mired in a two-game losing streak.UFC featherweight fighter Yu Ju-sang lost to..",
-      "source": "매일경제",
-      "ts": "2026-09-20T00:00:28+00:00",
-      "cluster": "c11952681c7"
-    },
     {
       "t": "Video: UFC 331 backstage post-fight interviews with winners",
       "source": "Yahoo Sports",
@@ -4903,13 +4897,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-21T21:35:09+00:00",
       "cluster": "c505ec7e8e5"
+    },
+    {
+      "t": "Joe Rogan Declares Tsarukyan the Clear Number One Contender After Brutal Knockout",
+      "source": "The Body Lock",
+      "ts": "2026-09-21T21:36:27+00:00",
+      "cluster": "c382856db45"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T21",
-    42
+    43
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=509212",
