@@ -1,5 +1,8 @@
 {
   "seen": {
+    "f5db233c5ec2b7e7": 1790010731.3587844,
+    "7146297d3a873db8": 1790010730.9426162,
+    "f52b23da3cca5413": 1790010730.9414556,
     "6ea341b084f3200a": 1790010663.1755803,
     "106ec7db74d5bfdc": 1790010662.516883,
     "dc546d262d539fe6": 1790010662.5010576,
@@ -2496,20 +2499,11 @@
     "45e59ec4bfbd2aa3": 1789496414.9097426,
     "497ccf2f8b140ab6": 1789496414.4105883,
     "5538c8d4c7d18c6e": 1789496414.4074616,
-    "32919b9c4b7a9c5d": 1789496349.6244667,
-    "23d8e584a64da387": 1789496349.3393307,
-    "f87e560f3a19078e": 1789496349.337279,
-    "6cf3f4d8c9109cf6": 1789496349.3354852
+    "32919b9c4b7a9c5d": 1789496349.6244667
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Colby Covington Snubs Khamzat Chimaev, Wants Trilogy Bout",
-      "source": "MMA Sucka",
-      "ts": "2026-09-19T20:06:26+00:00",
-      "cluster": "c9d1ab042ef"
-    },
     {
       "t": "Skateboarding Legend Tony Hawk Shares His Excitement Over Ki MMA’s Launch",
       "source": "Yahoo Sports",
@@ -4903,16 +4897,21 @@
       "source": "MMANews.com",
       "ts": "2026-09-21T16:29:03+00:00",
       "cluster": "c280eed242e"
+    },
+    {
+      "t": "\"There's nothing else to say\" - Joe Rogan makes bold claim about Arman Tsarukyan's future after Mauricio Ruffy win at UFC 331",
+      "source": "Sportskeeda",
+      "ts": "2026-09-21T16:32:00+00:00",
+      "cluster": "cb33a22b04c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T17",
-    13
+    14
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330848",
     "https://www.mmafighting.com/?p=509329",
     "324b7679-fbff-3c2d-a3f9-358b3b00d1cb",
     "https://bloodyelbow.com/?p=330852",
@@ -6411,11 +6410,12 @@
     "CBMikwFBVV95cUxPVUkwd2RpY2NmRVNhV0NlNWlWODRScVNGaGhGazlFcFJNejFzUjdnenRhVjVsTWMwQUtBbGhqcnRoaVdmMjJoejJveG1mR2E2X0h1LVBsU1VOWDFNQUFnZkxITDM3dUpWb2dtekJVWi1KY2Y5ampPbXBmXzJhWFE2bFdrLUhHUm5LRUkzZHVCVEpGc1k",
     "https://www.mmamania.com/?p=473973",
     "CBMihwFBVV95cUxOSTJ2NU84NjBZUlVERnoxeUR1aldmdFQ2R1JVNm14WGFuT3hVeF9Ib3NuM1pMYVRaSHVJYU9INDVPM2FTOUw5eEZ6RTNuZDZadVhPVE5sWXNVSzdTLVpKbDZVRElVM2dpRGZ4UTIxU3pYczFVN2I0X2EyTmJlRjBMRWFIZTlVRVU",
-    "CBMid0FVX3lxTE1VVXpuV21GRW5oT0djVkRVUF9UeFlpQk91aFpINXBQaWtYN0Q1QjIxVktaZTUyOEp6R0t6NDVXUVR5SUJyTU9KRmxmMjZIakVaN0VPUnZuRjZwWk42dnUxaGdwaG53ZERLWEpvRDNFSV91S1FnaEhz"
+    "CBMid0FVX3lxTE1VVXpuV21GRW5oT0djVkRVUF9UeFlpQk91aFpINXBQaWtYN0Q1QjIxVktaZTUyOEp6R0t6NDVXUVR5SUJyTU9KRmxmMjZIakVaN0VPUnZuRjZwWk42dnUxaGdwaG53ZERLWEpvRDNFSV91S1FnaEhz",
+    "CBMi1wFBVV95cUxQZW10cnA4eUp0c3ZncF9ESlRyUkQ3NkpLNmlSRjlxNEdRNVpGYlFKV1FFLVphUkdVUmNkTTFWek44MmxjZkNWZ1hWekJ3c3lZSWo3c3hfLVdscjFDeld3YjZYSmtscXBaX1VPYkRtTUZwMEt2blpncVJfNV9IaXFJR0l3YkdEX3dzakVNRDRrbVdKbVJjci0yNXZJbjUybnhab05ZY3I3NHlhVHBMRlNFVU0xOGIzY0w1eENNd3laT29Ldk1hNUxYdWFoOEN1d1dkQWxSMXpnQQ"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 88,
+    "ai": 89,
     "staged": 5,
     "prio": 1,
     "lost": 0
