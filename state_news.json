@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7dd01a2aa23aa671": 1789964311.3987265,
     "d23337107b00a786": 1789964246.3424234,
     "6f8db643e9bb3e09": 1789964181.171396,
     "693ce52580d57f99": 1789964180.5297775,
@@ -2498,18 +2499,11 @@
     "8c2b81490d2e91db": 1789478345.048929,
     "21caff47791250a3": 1789478345.0468135,
     "e33f932a488bdaff": 1789478321.6005194,
-    "31aa504e40417c71": 1789460029.5416834,
-    "5eab1e34c7a6782d": 1789459964.2890105
+    "31aa504e40417c71": 1789460029.5416834
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Paulo Costa makes major accusations against the UFC's Hunter Campbell, trades barbs with Magomed Ankalaev",
-      "source": "MMA Sucka",
-      "ts": "2026-09-19T08:46:07+00:00",
-      "cluster": "cbfcf37ccd1"
-    },
     {
       "t": "Alexander Volkanovski se sent mal pour son prochain rival",
       "source": "La Sueur",
@@ -4903,16 +4897,21 @@
       "source": "sportskeeda.com",
       "ts": "2026-09-21T03:31:00+00:00",
       "cluster": "ce35a016b9c"
+    },
+    {
+      "t": "Wildest UFC Reactions to Gable Steveson Getting Knocked Out Cold in 12 Seconds",
+      "source": "Athlon Sports",
+      "ts": "2026-09-21T03:43:00+00:00",
+      "cluster": "cd1dfdf36e7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T04",
-    11
+    12
   ],
   "yt_eval": [
-    "6b7ac1cd-7c40-35b3-adb8-ceebd5fbb089",
     "0b3d4e9e-a705-39b8-b641-4e9d0cfe925a",
     "0095c2a2-9eb6-35a2-a3b9-dead6a35cdf2",
     "74b4ec97-c6e0-3f01-b6f3-4e5e3d39e9b3",
@@ -6411,11 +6410,12 @@
     "https://www.sherdog.com/news/news/BKB-59-results-Julian-Fernandez-rallies-for-KO-in-Mexico-debut-202878",
     "CBMivwFBVV95cUxQWndlNXZBbUZQNzF0VmVTcVBFcFRLSldqbkhFNE5wWmxJWlI5Mm1sRXlrMDIwN3pFa0F1MWVWVVpISnQxMGlQei10Z2trZXVjeUE1dE5UQS1Ocm9fb0tjQ2lNMm85R2k3YkxkNVdudzRqWHJTaVkyRmVYSHVWNG1LS2NEVS1RR1ZGRVVVZ2NFS3JDRnBRVERwMThWbVFlUDl4WDdGZWI0b2NVdzhCR2RKZGdXemo3ZDhFd3M3cmNhYw",
     "CBMiekFVX3lxTFBPNnh0eklHTjdiOXhFVW5NbnVKcjJ0dTFNQi1lSFNWRFpwOV9fZXB5NGZXbzFlMTlYRTEzQjFWdnBvYkdXdHJfRnRMVzEyR1hoV2FmWC1YbkVCNzVnM0E1Ull2UFB0OU9iaWZudklZWUNaUmI3R3o5V19n",
-    "CBMiwwFBVV95cUxPclBZYkZSZ2d5YmlqaXRnUjNZVEYtNWwydFk4TlZQNFVOVUcwVHByaTdxRHF2SkNJa0NMS3lzQjdUY0cxR1NDZ2VKSzg4V056RDk4UnJ0LWpZX1o2dmI2cGl6R0s2bXFwNEZQZ1BWTVduRUtlMU90QlhOekVmN2FaSHpTQjh4eTVVaG8yal85NGZPVjRmcmg5ejNfUVZ2YlhpZlRoeU5MRjRUTVVxalYtLWoyeUczTlBSZGhkeEtSblRpSFk"
+    "CBMiwwFBVV95cUxPclBZYkZSZ2d5YmlqaXRnUjNZVEYtNWwydFk4TlZQNFVOVUcwVHByaTdxRHF2SkNJa0NMS3lzQjdUY0cxR1NDZ2VKSzg4V056RDk4UnJ0LWpZX1o2dmI2cGl6R0s2bXFwNEZQZ1BWTVduRUtlMU90QlhOekVmN2FaSHpTQjh4eTVVaG8yal85NGZPVjRmcmg5ejNfUVZ2YlhpZlRoeU5MRjRUTVVxalYtLWoyeUczTlBSZGhkeEtSblRpSFk",
+    "CBMilwFBVV95cUxOMm1JbTcyOWJzRWVTMjlLVk00VjJfalZtWFQ4Mk5RbHhobl94d2tObDdPNUt2NmVwOEwwcnUzNk1LSk40eC05Z1gwTnJQZENkWm5RRThVUzNmUzctMk9pR1BaNkNIXzRjV1JDQ3ZoQ3Z3LTBFNU5xZ1Q1dkF4QVc5X2NVYndBTm81MXk4Q0RZS3VpU0VvYWFJ"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 24,
+    "ai": 25,
     "staged": 3,
     "prio": 0,
     "lost": 0
