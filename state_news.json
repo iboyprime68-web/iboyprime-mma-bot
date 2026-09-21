@@ -1,5 +1,8 @@
 {
   "seen": {
+    "9c1b87dcde0654c5": 1790009662.6488094,
+    "b00828679ee06591": 1790009662.2892454,
+    "3bf698c0b3c99de7": 1790009662.287458,
     "86f5e39de64ba506": 1790009636.5495007,
     "1eb357c1a11252cb": 1790009636.2149553,
     "8d9649f22ffa6442": 1790009612.13886,
@@ -2496,10 +2499,7 @@
     "f81976e6199921c7": 1789495693.8242576,
     "44b91ad53f595965": 1789495692.3184845,
     "7bade2f8468775fc": 1789495692.3150096,
-    "f2254c530fe107f0": 1789495692.2950792,
-    "89900afa1bf9181e": 1789495627.7578843,
-    "71256cc328cfecd0": 1789495562.5985806,
-    "88230ab7bd15ef34": 1789495516.92844
+    "f2254c530fe107f0": 1789495692.2950792
   },
   "initialized": true,
   "v": 4,
@@ -4891,16 +4891,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-21T12:13:39+00:00",
       "cluster": "c7aad7731a8"
+    },
+    {
+      "t": "UFC 331 Report: Did Gable Steveson have the worst week in UFC history?",
+      "source": "MMA Fighting",
+      "ts": "2026-09-21T12:34:26+00:00",
+      "cluster": "cc78ab615d8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T16",
-    3
+    4
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Daniel-Rodriguez-fires-back-at-Daniil-Donchenkos-UFC-Paris-callout-202707",
     "bd436e85-5b02-3401-bd4f-26e641b76d1c",
     "2a3c39ed-23ef-33c2-9a04-733e0afb42cb",
     "f90c0ba6-495d-365e-a6a0-0a54ff429290",
@@ -6399,11 +6404,12 @@
     "CBMi3gJBVV95cUxPMGlJRTdhYjB4d0d1dEs1SWlvNEtNYnA0S0h0Mkhoem1JVkVFTmFRN1Q4RjZGTjdJRU1sWGJzbjYzZkpqWWUzVlMyZkZiQ2VYZ3B3RmVVeEE4WElWSzBMdGNXYk9nLXM5bXBhdDFSNGhtdS1UNTh6X01kalNQQVphMmYwZzZLd2xMclQwWXctbkh5TWZoeHBaZ1EwWXI3ckN2QWNHNnlVc00wZzNzVXJGM01iZWdSM3dMeUpyVXQ4S2NnQmtrRjB5bndDUnhielJ4czNONVhTV1Z2LWVIWEFyUTZCMVRpWjhxX2lpVDFja1ZrRV85anV4T3RyUXhSRm1EOERDZHBqSUtsTk41QTExSEpwMC1OSlNBcDU3QXo2Y3haS25BaXRVc0JMY3hYZlFXTUw1VDcyTWl2TVBFakR2MEhCcjJGT2VsU1ZVNUFKaFJqQ0xLc2RiYU9Ya01hd9IB4wJBVV95cUxOLXlBajlMdFhsb1JHTDQxN1lEbzdqU1Znb0g2bC12eklRZnZkcEhvZnBxR1Y2QXJlY0lBVUZybGpoUlZocHhvYnhjZ2tmVVgybjJ1M0ZBZXlvN2owVUoxUmJvVFg3c3BobUZTc1p0VnZFVjd2ekMydXY3ekNuMUxjNzY1bnFEa0JwS1QyYW02LWlweXhSU1MtaTV6TW9IVHBrNnRGNTk5cjl3RDZWUzl0RjFWWHJuc2FaQTVZRU40NjduMFd6N3l5Mm94eVo0ODZHaFlLSFBvM2JDVVRKX0wtZ0h1NzNvRWVmT01VSGVMLUdmZmZOb0liZU92YlNGei1BZEZmWXJtWDdXZ3VDcWt2aWNnR0FWUlB5dDVldnplbm5kNE1SaE85TV9xaEluSW9hOXVGUUk5NXVFeFFVaElBQ3JTV1RUSzhnSHJxX2FtaVpOQlFDak8tbXBxNlE5eGFLVDdz",
     "https://www.mmafighting.com/510284/dnp-morning-report-template-dnp",
     "https://bloodyelbow.com/?p=332954",
-    "https://www.mmafighting.com/?p=511664"
+    "https://www.mmafighting.com/?p=511664",
+    "https://www.mmafighting.com/?p=511533"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 65,
+    "ai": 66,
     "staged": 4,
     "prio": 0,
     "lost": 0
