@@ -1,5 +1,7 @@
 {
   "seen": {
+    "1c372012a9fd471d": 1790010870.7997673,
+    "d166e638b4c08bbd": 1790010870.3565338,
     "f082f6324367e0fd": 1790010844.7248769,
     "801169482889b1bc": 1790010798.915077,
     "f5db233c5ec2b7e7": 1790010731.3587844,
@@ -2497,19 +2499,11 @@
     "cefce6f1f769b1e2": 1789496678.0482123,
     "fe5bc5f1204b2520": 1789496614.2201912,
     "0aaa917badef6b08": 1789496545.233754,
-    "7e86e6d4b07d0fbf": 1789496479.9619694,
-    "45e59ec4bfbd2aa3": 1789496414.9097426,
-    "497ccf2f8b140ab6": 1789496414.4105883
+    "7e86e6d4b07d0fbf": 1789496479.9619694
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Josh Hokit’s former opponent offered to help Alex Pereira beat him after taking blame for star’s rise",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-19T22:00:00+00:00",
-      "cluster": "c3374e682c6"
-    },
     {
       "t": "Dana White makes major ruling on UFC heavyweight title after Tom Aspinall gives up gold",
       "source": "Yahoo Sports",
@@ -4903,16 +4897,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-21T14:30:01+00:00",
       "cluster": "caeed3b4f34"
+    },
+    {
+      "t": "Dana White Hails Joshua Van vs. Alexandre Pantoja 2 as the Greatest Grudge Match in UFC History",
+      "source": "NY Fights",
+      "ts": "2026-09-21T16:41:23+00:00",
+      "cluster": "c04e366b7da"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T17",
-    16
+    17
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330852",
     "ca79b856-4da2-37d8-9ca4-c70a2b61944a",
     "3f50213a-db08-3442-a052-fd9737a49490",
     "https://www.sherdog.com/news/news/How-to-watch-Super-Rizin-5-Start-time-live-stream-full-fight-card-202651",
@@ -6411,11 +6410,12 @@
     "CBMid0FVX3lxTE1VVXpuV21GRW5oT0djVkRVUF9UeFlpQk91aFpINXBQaWtYN0Q1QjIxVktaZTUyOEp6R0t6NDVXUVR5SUJyTU9KRmxmMjZIakVaN0VPUnZuRjZwWk42dnUxaGdwaG53ZERLWEpvRDNFSV91S1FnaEhz",
     "CBMi1wFBVV95cUxQZW10cnA4eUp0c3ZncF9ESlRyUkQ3NkpLNmlSRjlxNEdRNVpGYlFKV1FFLVphUkdVUmNkTTFWek44MmxjZkNWZ1hWekJ3c3lZSWo3c3hfLVdscjFDeld3YjZYSmtscXBaX1VPYkRtTUZwMEt2blpncVJfNV9IaXFJR0l3YkdEX3dzakVNRDRrbVdKbVJjci0yNXZJbjUybnhab05ZY3I3NHlhVHBMRlNFVU0xOGIzY0w1eENNd3laT29Ldk1hNUxYdWFoOEN1d1dkQWxSMXpnQQ",
     "CBMiugFBVV95cUxOZWhzbDN1dVRES0V6OGQ2VXd1VDVqek95Mkt5SG5fbjg5OFdibjJ4b3hzUTVmUFllQkVzSU41Z19XN0Q2dUZtZlNvMFp0Mm1IVy1aWkRLeWVMUFZmZGdtLWZzeXdHYS1FNURmTmg0bmRUNnJiQkE4WG5OTGRncXFndk1XWEdSblhtSTNUTGtzZWtiTDhsWGNDdUZzRXJIc2M5dTF3bFdMS0hfTlVnV0M5XzBjd0FNNzZ2cnc",
-    "https://www.mmamania.com/?p=466050"
+    "https://www.mmamania.com/?p=466050",
+    "CBMif0FVX3lxTE9EQ0piNGdlVTEzdWlOMzJyY1JlV2Q3WnJzR21UamUtTDBMcWM1ZlBrdHFrMUU0TFFkUW94V29YdWhCLU1PSXctWW5HcjdEeTI1aWVqZnRzNmRtQWktaGtCc2xXTFhiWHc4WkVfRVY0cWdwSE9ObVQxekxQUlFNRkk"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 91,
+    "ai": 92,
     "staged": 5,
     "prio": 1,
     "lost": 0
