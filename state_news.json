@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6ace8ba800f8e14d": 1789964400.4286191,
     "161d0c4aa7cf387a": 1789964376.8204794,
     "09b733f57f07093d": 1789964376.5148597,
     "7dd01a2aa23aa671": 1789964311.3987265,
@@ -2498,18 +2499,11 @@
     "446da0f2783c0041": 1789478393.6851037,
     "4216358540b31622": 1789478369.143984,
     "5e9f7fdd23e45c8b": 1789478345.4023573,
-    "8c2b81490d2e91db": 1789478345.048929,
-    "21caff47791250a3": 1789478345.0468135
+    "8c2b81490d2e91db": 1789478345.048929
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Alexander Volkanovski se sent mal pour son prochain rival",
-      "source": "La Sueur",
-      "ts": "2026-09-19T08:45:10+00:00",
-      "cluster": "c039032d632"
-    },
     {
       "t": "Crypto.com UFC 331: Van vs Pantoja 2 — Full Card, Start Time & How to Watch",
       "source": "boxingnews.com",
@@ -4903,16 +4897,21 @@
       "source": "Sherdog",
       "ts": "2026-09-21T03:55:37+00:00",
       "cluster": "cfaa36afb2b"
+    },
+    {
+      "t": "Justin Gaethje has brutal warning for whoever fights Ilia Topuria next",
+      "source": "Sherdog",
+      "ts": "2026-09-21T02:02:41+00:00",
+      "cluster": "c22c116b43f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T04",
-    13
+    14
   ],
   "yt_eval": [
-    "0095c2a2-9eb6-35a2-a3b9-dead6a35cdf2",
     "74b4ec97-c6e0-3f01-b6f3-4e5e3d39e9b3",
     "https://www.sherdog.com/news/news/Kai-Asakura-makes-his-case-for-topranked-UFC-opponent-202706",
     "CBMi4AFBVV95cUxOSVBSeW9VSTNNSkFuSjlJOWlseUx3VjN2WTFRZzE0V3lTZ2IyVWZUZHhvUVUtNE5zNUllamFDck01VzhKOVlWajktUlQ1dnRaMGFfYjBSZmdMbm5jbkhsUFh2eGRPNVdpRkljcWUxaXAzYnpCekJHVm9ZUEZLX2kyN0dXYVBWSjJCNVEtdldpUkJfT2dNREhOMXgtWVNyN1Fvb2tYemJQQ1JwTlFqQmhJcTNnV01RcExCeG0zWnJFWTFkWVA2NGFGZFpfMkQ1Ulh5b194aFhWQ2NJLVhMaWNpTQ",
@@ -6411,11 +6410,12 @@
     "CBMiekFVX3lxTFBPNnh0eklHTjdiOXhFVW5NbnVKcjJ0dTFNQi1lSFNWRFpwOV9fZXB5NGZXbzFlMTlYRTEzQjFWdnBvYkdXdHJfRnRMVzEyR1hoV2FmWC1YbkVCNzVnM0E1Ull2UFB0OU9iaWZudklZWUNaUmI3R3o5V19n",
     "CBMiwwFBVV95cUxPclBZYkZSZ2d5YmlqaXRnUjNZVEYtNWwydFk4TlZQNFVOVUcwVHByaTdxRHF2SkNJa0NMS3lzQjdUY0cxR1NDZ2VKSzg4V056RDk4UnJ0LWpZX1o2dmI2cGl6R0s2bXFwNEZQZ1BWTVduRUtlMU90QlhOekVmN2FaSHpTQjh4eTVVaG8yal85NGZPVjRmcmg5ejNfUVZ2YlhpZlRoeU5MRjRUTVVxalYtLWoyeUczTlBSZGhkeEtSblRpSFk",
     "CBMilwFBVV95cUxOMm1JbTcyOWJzRWVTMjlLVk00VjJfalZtWFQ4Mk5RbHhobl94d2tObDdPNUt2NmVwOEwwcnUzNk1LSk40eC05Z1gwTnJQZENkWm5RRThVUzNmUzctMk9pR1BaNkNIXzRjV1JDQ3ZoQ3Z3LTBFNU5xZ1Q1dkF4QVc5X2NVYndBTm81MXk4Q0RZS3VpU0VvYWFJ",
-    "CBMipAFBVV95cUxPXzRjNHhOd0k0UmpaNTRCZXpiS1ptYTBKMGYyejRMZjJ3Q29Id3BjYlNaTzduSllUR0dHYmpvV0NsYWtJenFqNTMwbDFyVXk5U2ktT1VSNU14cXdjX2pWTzM4WmtlM25ZVERMMzlxZkt5a0huMjFTcUVWMkx1NHBVODVTRUQyQ09nejZkb0NLZDRQQTVTSHhsblBaSTZPbF9VcEpONg"
+    "CBMipAFBVV95cUxPXzRjNHhOd0k0UmpaNTRCZXpiS1ptYTBKMGYyejRMZjJ3Q29Id3BjYlNaTzduSllUR0dHYmpvV0NsYWtJenFqNTMwbDFyVXk5U2ktT1VSNU14cXdjX2pWTzM4WmtlM25ZVERMMzlxZkt5a0huMjFTcUVWMkx1NHBVODVTRUQyQ09nejZkb0NLZDRQQTVTSHhsblBaSTZPbF9VcEpONg",
+    "https://www.sherdog.com/news/news/Justin-Gaethje-has-brutal-warning-for-whoever-fights-Ilia-Topuria-next-202879"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 26,
+    "ai": 27,
     "staged": 3,
     "prio": 0,
     "lost": 0
