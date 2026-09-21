@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f3f41720936333e5": 1789965973.845204,
     "297ea687f1f4b7f2": 1789965723.9138207,
     "a05f43a601cf5410": 1789965659.0447435,
     "af6b6c04d9d6f1bd": 1789965470.7403407,
@@ -2498,18 +2499,11 @@
     "de1a193036cc9b6f": 1789479318.3597243,
     "7998098a6ff623fe": 1789479318.357672,
     "beed0dcd5dff3910": 1789479253.304053,
-    "91b71a683e61a7b0": 1789479252.9985905,
-    "10dd964ec66a3475": 1789479188.536976
+    "91b71a683e61a7b0": 1789479252.9985905
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "IBJJF Officiating Criticized As Incompetent And Biased By Former UFC Champion Josh Barnett",
-      "source": "BJJDOC",
-      "ts": "2026-09-19T12:37:26+00:00",
-      "cluster": "cd3d08576db"
-    },
     {
       "t": "T.J. Dillashaw: Tsarukyan 'most well-conditioned athlete' in Calavitta's garage",
       "source": "MMA Junkie",
@@ -4903,16 +4897,21 @@
       "source": "Sherdog",
       "ts": "2026-09-21T03:45:46+00:00",
       "cluster": "c91863f0d5f"
+    },
+    {
+      "t": "Demetrious Johnson Says Arman Tsarukyan Used His Clinch Advice At UFC 331",
+      "source": "MiddleEasy",
+      "ts": "2026-09-21T04:41:15+00:00",
+      "cluster": "c74c8d54579"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T04",
-    24
+    25
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=470354",
     "https://bloodyelbow.com/?p=330776",
     "https://www.mmafighting.com/?p=509146",
     "fe2844e5-2189-3ba5-895a-adbe8bdc2cd7",
@@ -6411,11 +6410,12 @@
     "CBMicEFVX3lxTE1LU1diTGF5NUtPTnp0Z2lWcDVWc2VjOWxtcEx0czRwekxNQXNXYTZxREd5VEx5NG9MXzl2R0Z0QVU2WHNOUEUxcGRKSWZUTzY1dXBEc09IVTdTM3JTMWx2cVlaenA3VlQwcEk3YWVicnE",
     "https://www.sherdog.com/news/news/Sean-Strickland-reveals-Sean-Sharaf-was-sleeping-on-floor-before-UFC-331-202886",
     "CBMi1gFBVV95cUxPUXJmRFhVY2FScGVQUzVlV0M2ZV85NC01emJyMkhzMEZ1c1dUNzM4Y010dGFMNTNzc1VKeUItUXhDWlA0MzNKaHJoc3FfUm5XT0NoM0dkZGFWdERRZ0tFbHVFbWtBNzRMRWhWQTF1R0hzTGVOaVdMYjBCaFZ1aEFJUUdTWmhqTGFVQnNIemYxUG5Wd0VleHpaT2phUzdlLWx3RWpVemx6VC1PaTQ2QmJTZVlkUWFYQ0FINjFrWDFRZVdhcmZXUFpVdXljMkZ3Q2s0NDlkdkV3",
-    "https://www.sherdog.com/news/news/Iwo-Baraniewski-reacts-to-first-pro-loss-Not-my-first-in-life-202887"
+    "https://www.sherdog.com/news/news/Iwo-Baraniewski-reacts-to-first-pro-loss-Not-my-first-in-life-202887",
+    "CBMikwFBVV95cUxQWEsyemRZeE5XM09yem4zaGZMYXJqWXN4bkhibDNXU2VPVTBPLU1NeUE2N24wdll5eF9Razh6M0pVT1VqN3NMaWhFZEw4M0M1T1Vucm9qd2xtX2xsWmZidzNmYmQyMFhvRF9xeVdsZXRhZU1GLURJTXZibENHN0JaUTJsVGNMV2FCR3c0TDZLVzZuaEk"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 37,
+    "ai": 38,
     "staged": 4,
     "prio": 0,
     "lost": 0
