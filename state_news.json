@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b4dcaca0a946a1d6": 1790011074.7512593,
     "04804a01d7f2aa32": 1790011006.7264366,
     "23f5c345ef4c6656": 1790010939.331138,
     "1c372012a9fd471d": 1790010870.7997673,
@@ -2498,18 +2499,11 @@
     "65abf423053eb4a1": 1789496742.4770827,
     "a2ce3b73a2201905": 1789496741.9692893,
     "2bb3f0cdbfc2009c": 1789496741.9684117,
-    "cefce6f1f769b1e2": 1789496678.0482123,
-    "fe5bc5f1204b2520": 1789496614.2201912
+    "cefce6f1f769b1e2": 1789496678.0482123
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Alexander Volkanovski Reveals Plan To Shut Down Movsar Evloev At UFC 333: \"I'm Going To Be In Your Face\"",
-      "source": "lowkickmma.com",
-      "ts": "2026-09-19T21:24:59+00:00",
-      "cluster": "c5598924c47"
-    },
     {
       "t": "UFC 331 winner channels Derrick Lewis by taking off his shorts to celebrate quick KO win",
       "source": "Bloody Elbow",
@@ -4903,16 +4897,21 @@
       "source": "MMA Junkie",
       "ts": "2026-09-21T16:51:00+00:00",
       "cluster": "cce534c820d"
+    },
+    {
+      "t": "Caio Borralho vs. Yousri Belgaroui Set For UFC 334",
+      "source": "MMA Insight",
+      "ts": "2026-09-21T16:46:45+00:00",
+      "cluster": "ce6a76eda97"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T17",
-    19
+    20
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/How-to-watch-Super-Rizin-5-Start-time-live-stream-full-fight-card-202651",
     "ddb58e5b-fec0-34e2-b5b8-c26d81448a7e",
     "https://bloodyelbow.com/?p=330857",
     "https://bloodyelbow.com/?p=330863",
@@ -6411,11 +6410,12 @@
     "https://www.mmamania.com/?p=466050",
     "CBMif0FVX3lxTE9EQ0piNGdlVTEzdWlOMzJyY1JlV2Q3WnJzR21UamUtTDBMcWM1ZlBrdHFrMUU0TFFkUW94V29YdWhCLU1PSXctWW5HcjdEeTI1aWVqZnRzNmRtQWktaGtCc2xXTFhiWHc4WkVfRVY0cWdwSE9ObVQxekxQUlFNRkk",
     "CBMid0FVX3lxTE1obmw0U0MxOHU0dlhOQmRaOWFYMm1zdzlGeEpuMmFCRGx6M0xuTXdlRGVla0s1UkVEeEpTWXJTWWxXZ2xJeExISWM2VXNEWWJEZ1pwVTUxdG8weEI0clkzc0xLa1VNTng2aFk5OTNFWk0xTENwQk1B",
-    "CBMi1gFBVV95cUxPUUMzc3FuQWdUNTFWWW5UVzdQallXeUNDclBuMzF0Z05tNUl5NlVBNVZXTFlWSDNDSldGU1dvRFM1bXRwY2kwRlpiZG13dXFzYnJTS2l2NzRHMFZ5eU45VHFSMDRSeThyZ3NpQ18wb0kzOUNFTUgxZ01ia1l0MGVLb0RabTRvcXdXdGdPNHdQZHZIaV8yeDlpUy1pZkJqakwzTHBvam4xYXJXNUhJRGJJeWhyR2o3WUo3R1lCa2dMQUh2RkR1TmdPWW9STk1RS2ZfMTJiQm9B"
+    "CBMi1gFBVV95cUxPUUMzc3FuQWdUNTFWWW5UVzdQallXeUNDclBuMzF0Z05tNUl5NlVBNVZXTFlWSDNDSldGU1dvRFM1bXRwY2kwRlpiZG13dXFzYnJTS2l2NzRHMFZ5eU45VHFSMDRSeThyZ3NpQ18wb0kzOUNFTUgxZ01ia1l0MGVLb0RabTRvcXdXdGdPNHdQZHZIaV8yeDlpUy1pZkJqakwzTHBvam4xYXJXNUhJRGJJeWhyR2o3WUo3R1lCa2dMQUh2RkR1TmdPWW9STk1RS2ZfMTJiQm9B",
+    "CBMigwFBVV95cUxQajJZMFkwWFNDWmhZLVBRS1R6SDZPS09uN2hMZW9oY3BBY3ZSdDV2dzB5clB2Qk5nNTBKZGhiTjZoMmYzNkE3bGQxTHVXb3VvbGJ2ajV4OHF1RUFnQTZqZm9aRXNvUHNZNHgzWHpxUUxEcWd0LWY0VmY5WmwxT25SOWdHRQ"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 94,
+    "ai": 95,
     "staged": 5,
     "prio": 1,
     "lost": 0
