@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b296bca2c5d28fd0": 1789949722.8935788,
     "95436e6f294b699b": 1789949597.5300646,
     "91910b3142b42adf": 1789949597.5280528,
     "6b19682319e1c9f4": 1789949472.7217429,
@@ -2498,18 +2499,11 @@
     "b59e3a8fbae33d09": 1789457568.8517807,
     "36619651d21ab181": 1789457568.8314016,
     "08bac519b9d225ce": 1789457568.8089323,
-    "c3795ce4af32b6f2": 1789457568.8059192,
-    "eb6ad1b9cb560782": 1789457568.7991114
+    "c3795ce4af32b6f2": 1789457568.8059192
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Joshua Van vs. Alexandre Pantoja 2: Bloody Elbow staff divided on the UFC 331 main event",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-19T05:00:00+00:00",
-      "cluster": "c784f396ba7"
-    },
     {
       "t": "Gable Steveson channels Jon Jones and refuses to look at Sean Sharaf in awkward final UFC 331 face-off",
       "source": "Bloody Elbow",
@@ -4903,16 +4897,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-21T00:03:19+00:00",
       "cluster": "c59e9b56908"
+    },
+    {
+      "t": "UFC: Joshua Van is The Man",
+      "source": "lindyssports.com",
+      "ts": "2026-09-21T00:07:00+00:00",
+      "cluster": "cbf2347322b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T00",
-    9
+    10
   ],
   "yt_eval": [
-    "5198571e-da33-3177-8813-7403a752b201",
     "https://www.mmafighting.com/?p=509041",
     "https://www.mmafighting.com/?p=509132",
     "https://bloodyelbow.com/?p=330746",
@@ -6411,11 +6410,12 @@
     "CBMiqAFBVV95cUxNT0ZMcEJ1ZkVYTHYxa21INnowdUNMR2FhODRIMFlsWTNRWVRsM2FjNGZheWVWd21jSlpRZjR0WFN2ZTUzZEI1elV0dTVEOVVKVHRROUlHeWhzNTJfbkdGZkJvNGZEbjUxRUZmOXBQTGpFaUxUU3VJcjFNVzhvUGJDUWpGaExxYUpIS1g5Y1hSTFhsOVRETVpNZEduMTZINWdFckJqQjQ3OUw",
     "CBMiggFBVV95cUxQWlNMYThRVUNzNmZLdEIxTVVJaFhhWjd4Nm9oSUZrVjM5cjBHOHl2cnVlSi1pY3VBODJDeVc1ZW1Eb0UySkNtSnNmX1daeUJBdF9pbzVIb2R6Z0ZsekVkdGMzRU1JODVleDlOQjlfcHF4Qk92eTNjSVc3QjNKWVRpVmtn",
     "CBMic0FVX3lxTFBKQ2F3NHYxdy1UcFViTmppTEF4ZXFzUGxjM2VtdXRZUURodHYtcy1rNTA2MTdsNHk5X2I1MEl2S0gzcjI0RF9KYXl5RndEc21BQVgyTm51MHVabFh1cDJEZzdXVFNrdVZvRHR1bmNuZmVBY3M",
-    "CBMikAFBVV95cUxQeTZZNkdIemdkZkFmeXdzZ1hEQktnaVc4ajdXZTE2bHRvLWpaaUJzVGRXWWVtNU5pYWtlemR3clB6QVVZa09DczBia3pRM3BnS2hoV2VmSEEwZ3ZlTGk5T0NxOUw1YnJqaWVxT21yLUlsaURrTUtpMFNFaC04MXppNWFWcENkZ0x3Tzh0emg2Q18"
+    "CBMikAFBVV95cUxQeTZZNkdIemdkZkFmeXdzZ1hEQktnaVc4ajdXZTE2bHRvLWpaaUJzVGRXWWVtNU5pYWtlemR3clB6QVVZa09DczBia3pRM3BnS2hoV2VmSEEwZ3ZlTGk5T0NxOUw1YnJqaWVxT21yLUlsaURrTUtpMFNFaC04MXppNWFWcENkZ0x3Tzh0emg2Q18",
+    "CBMicEFVX3lxTE1BZmNWOEFhLTFGX2I3NkUxVXpRZVB5QTc0OGJkdTlLdExMaE1kaVgzcUlocDFFcFVQclBSd1U2Z2otaFB4T3VUVm1yLWEtMWp2OVNtSGF4NzRLWXF6S3dFYk9vXzZUMnNVcmJaMDZDdEM"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 9,
+    "ai": 10,
     "staged": 0,
     "prio": 0,
     "lost": 0
