@@ -1,5 +1,6 @@
 {
   "seen": {
+    "dd35cbfdd485de9a": 1790010113.5386355,
     "3ae715dda26de557": 1790010066.8386552,
     "6d74dfd267145d26": 1790010042.3429296,
     "06ba8ac4ecf0e9e1": 1790010041.0582073,
@@ -2498,18 +2499,11 @@
     "a5bd30bdd0d4664e": 1789496020.6004992,
     "fd3598fc04f41e22": 1789496020.5970967,
     "b7794dd70114ad09": 1789496020.5951598,
-    "e070c272ecd4c8c7": 1789496020.5785134,
-    "23ccef01cfdd9b98": 1789495955.9564126
+    "e070c272ecd4c8c7": 1789496020.5785134
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Bryce Mitchell Speaks on UFC BJJ 11 Clash vs. Musumeci",
-      "source": "mmasucka.com",
-      "ts": "2026-09-19T18:25:00+00:00",
-      "cluster": "c48e6627dd4"
-    },
     {
       "t": "Alonzo Menifield vs. Iwo Baraniewski, UFC 331 ceremonial weigh-ins faceoff",
       "source": "The Daily News | Texas' Oldest Newspaper",
@@ -4903,16 +4897,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-21T12:07:24+00:00",
       "cluster": "c4fa034b273"
+    },
+    {
+      "t": "Omar El Dafrawy and Patrick Habirora meet in PFL Dubai co-main event",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-21T14:30:26+00:00",
+      "cluster": "cab562b84d7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T17",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMidEFVX3lxTE00TGRFYzhqTl9YMmtLNFNQM1FCUmt4bktwQ0xreVRVdWxDNUY3ZmJJS2FlLVlhSUhud0JRR0lWVFRtb0t3N2RFeF9zX3RzblVRZTZJNDcyejBSN1J2TEpwR2xvOUFxbDZoOUtKUVVzUUwzaG4x",
     "CBMikwFBVV95cUxOWks3T0pOOEd4ODBEckRKUENVMElHRW9oMTlsUnJONnZMNWMyYnJqV3ZlbWM0WVQ2bUctYU5jbGRsbEVTYXM5MUVwMUoxUkQ2Qy13a0d0dWpSZmlnekpmdkJ0ZUNwUzBFd01tSDNfMTd2LXVZOV9PYjNoTkh3V3dsWEJjcTl6V2RMZy1jdTNyalU2TnM",
     "CBMimgFBVV95cUxNSGVFcUF6VlF3TF85ZWFibXE2OTdKWWFTTlUyc1VZZkdYSGJka0pIZWlYN05uU29Ea09yaVpXcnJaeVZOeGVDUk51a3R1NTBRWHlEZ0ZwakJWeXZjYzA3ZGM3RHMtUjNPa3Uyb3hZRjRCRTZZOUlXbWxhNk5IcFEwdTVvOUhwSmVmcGp0cjhjUnhhZTNyX192bmlR",
     "https://www.mmamania.com/470343/open-thread-september-7-2026-worst-movie-dialogue-ever",
@@ -6411,11 +6410,12 @@
     "8567c232-57ff-32e6-be5b-3e0444b956a3",
     "https://bloodyelbow.com/?p=332981",
     "3d8cfbf2-695e-3088-9590-f7a28add8c5e",
-    "https://www.mmafighting.com/?p=511655"
+    "https://www.mmafighting.com/?p=511655",
+    "560e8ee0-a2ad-31d8-8905-2ff7dbae5beb"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 78,
+    "ai": 79,
     "staged": 5,
     "prio": 1,
     "lost": 0
