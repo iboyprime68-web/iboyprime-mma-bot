@@ -1,5 +1,8 @@
 {
   "seen": {
+    "6f8db643e9bb3e09": 1789964181.171396,
+    "693ce52580d57f99": 1789964180.5297775,
+    "2f4bdc24128be642": 1789964180.5278783,
     "093851d60d65ae0e": 1789964115.7464986,
     "0a014d13f6a27ef8": 1789964115.3724358,
     "602da0eefce80b0d": 1789964091.5574346,
@@ -2496,20 +2499,11 @@
     "e33f932a488bdaff": 1789478321.6005194,
     "31aa504e40417c71": 1789460029.5416834,
     "5eab1e34c7a6782d": 1789459964.2890105,
-    "c1cf117b7163e7a8": 1789459709.264661,
-    "bfe6ac8942725107": 1789459521.2524946,
-    "8ea6e55517f86740": 1789459457.5759022,
-    "66a426ada0664cce": 1789459331.2973936
+    "c1cf117b7163e7a8": 1789459709.264661
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Fresno jiu-jitsu instructor Arrested on SA Charges",
-      "source": "BJJDOC",
-      "ts": "2026-09-19T08:04:33+00:00",
-      "cluster": "c22f8599abb"
-    },
     {
       "t": "Max Holloway Mocks Justin Gaethje’s Claim of Leaving Every UFC Opponent Battered",
       "source": "Yahoo Sports",
@@ -4903,16 +4897,21 @@
       "source": "Zamin.uz",
       "ts": "2026-09-21T03:27:00+00:00",
       "cluster": "ce70ad2c305"
+    },
+    {
+      "t": "Pimblett Rips Tsarukyan's Wrestling After UFC 331",
+      "source": "boxingnews.com",
+      "ts": "2026-09-21T03:30:41+00:00",
+      "cluster": "cc7f71fceb4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T04",
-    9
+    10
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=470327",
     "5f4b2742-d37b-3d17-a4d8-013825750b33",
     "6b7ac1cd-7c40-35b3-adb8-ceebd5fbb089",
     "0b3d4e9e-a705-39b8-b641-4e9d0cfe925a",
@@ -6411,11 +6410,12 @@
     "a908f63e-0f3a-308c-a9bd-6fd9cd63eac4",
     "CBMipwFBVV95cUxNV0YxZk1RcU9yanQyc0gwd1hsdjVNVFFyLS01ZXEzUVhSYXMtNFByTUxXUTdJT29MazVxVG82cWNPUFhPYTBGb29EdFl2Q2pBbmg4aU85c2hfcE9YVjVIUFZON21GYjBucnJkc1NRWWZuYmdHZURrdFpibFllZGluSXRyUmJfTDVvRWpCUXptb1I5Qzc0SXp4czVwWmg2MkNuQW1uN1E5Y9IBrAFBVV95cUxQczl1MW1La0VVVnJPT2VRNHNXaXJ6OWNIdzBJRXlONS1OX05ZbFNKWm8tTkJKQTR3RlBBNVJPSDNENDM4ZmlKSFNEOWpwU1hUcTBNWWo3LVFlZFR1U0tuVC13RmNCSkRXRENpZXZ0cmxGUXlxbE1OM29fQl8ycUN0SVVRbDh4aUVNN2ZnUFQwa0IweEktRmVla1N0bzNjOFVXeDFaMDlpNms4aXBj",
     "https://www.sherdog.com/news/news/BKB-59-results-Julian-Fernandez-rallies-for-KO-in-Mexico-debut-202878",
-    "CBMivwFBVV95cUxQWndlNXZBbUZQNzF0VmVTcVBFcFRLSldqbkhFNE5wWmxJWlI5Mm1sRXlrMDIwN3pFa0F1MWVWVVpISnQxMGlQei10Z2trZXVjeUE1dE5UQS1Ocm9fb0tjQ2lNMm85R2k3YkxkNVdudzRqWHJTaVkyRmVYSHVWNG1LS2NEVS1RR1ZGRVVVZ2NFS3JDRnBRVERwMThWbVFlUDl4WDdGZWI0b2NVdzhCR2RKZGdXemo3ZDhFd3M3cmNhYw"
+    "CBMivwFBVV95cUxQWndlNXZBbUZQNzF0VmVTcVBFcFRLSldqbkhFNE5wWmxJWlI5Mm1sRXlrMDIwN3pFa0F1MWVWVVpISnQxMGlQei10Z2trZXVjeUE1dE5UQS1Ocm9fb0tjQ2lNMm85R2k3YkxkNVdudzRqWHJTaVkyRmVYSHVWNG1LS2NEVS1RR1ZGRVVVZ2NFS3JDRnBRVERwMThWbVFlUDl4WDdGZWI0b2NVdzhCR2RKZGdXemo3ZDhFd3M3cmNhYw",
+    "CBMiekFVX3lxTFBPNnh0eklHTjdiOXhFVW5NbnVKcjJ0dTFNQi1lSFNWRFpwOV9fZXB5NGZXbzFlMTlYRTEzQjFWdnBvYkdXdHJfRnRMVzEyR1hoV2FmWC1YbkVCNzVnM0E1Ull2UFB0OU9iaWZudklZWUNaUmI3R3o5V19n"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 22,
+    "ai": 23,
     "staged": 3,
     "prio": 0,
     "lost": 0
