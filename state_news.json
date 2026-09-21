@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e56b1c7dd1a42674": 1790024102.9381025,
     "f4ef01622c126784": 1790024078.5031137,
     "1b37565a708f057a": 1790024053.387341,
     "84d82ea83b723c79": 1790024029.5751824,
@@ -2498,18 +2499,11 @@
     "fd1cd13e124cb1d0": 1789506875.6754375,
     "397f0ecf60d84ddf": 1789506875.6633828,
     "fe6b2f2d9010e783": 1789506852.400014,
-    "1e6524957ed35e4b": 1789506829.3976717,
-    "385e00d774917ae0": 1789506806.513286
+    "1e6524957ed35e4b": 1789506829.3976717
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "MMA 𝐒treams - UFC 331 Reddit MMA 𝐒treams",
-      "source": "Western Wheel",
-      "ts": "2026-09-19T22:00:19+00:00",
-      "cluster": "cb3850047f9"
-    },
     {
       "t": "Tom Pagliarulo: UFC Record, Stats and Fighter Profile",
       "source": "Fightomic",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-21T17:39:16+00:00",
       "cluster": "cfd5d4803e7"
+    },
+    {
+      "t": "Gable Steveson backed to comeback by UFC legend who compares his shock loss to Islam Makhachev",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-21T19:00:00+00:00",
+      "cluster": "c84f0fca8a3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T20",
-    4
+    5
   ],
   "yt_eval": [
-    "af7b08d1-d92f-38b0-aa82-daf45f3ac747",
     "593fda5f-d10d-35d2-8b42-810d3f867b53",
     "https://www.mmamania.com/?p=470531",
     "https://bloodyelbow.com/?p=330875",
@@ -6411,11 +6410,12 @@
     "https://www.sherdog.com/news/news/DWCS-Week-7-weighin-results-All-10-fighters-make-weight-202894",
     "https://www.mmafighting.com/?p=511744",
     "https://bloodyelbow.com/?p=332983",
-    "870f0bbb-1cf4-324e-b00a-394c96d3b2b4"
+    "870f0bbb-1cf4-324e-b00a-394c96d3b2b4",
+    "https://bloodyelbow.com/?p=332994"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 106,
+    "ai": 107,
     "staged": 5,
     "prio": 1,
     "lost": 0
