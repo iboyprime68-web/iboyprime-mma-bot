@@ -1,5 +1,6 @@
 {
   "seen": {
+    "fd64c03835c8791b": 1789986957.2807188,
     "d1ac6842a75cb53e": 1789986913.124603,
     "2357bf1d07c095af": 1789986912.8389785,
     "71afbf1a58f2f8a5": 1789986912.8146787,
@@ -2498,18 +2499,11 @@
     "59492649b773d8e9": 1789479968.9256809,
     "8e2f500b1fc52ada": 1789479968.9224665,
     "cb54afd5dfe7e17d": 1789479842.428424,
-    "7f449e12661aa65b": 1789479777.418323,
-    "3779596bb8f76cfa": 1789479712.7580893
+    "7f449e12661aa65b": 1789479777.418323
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Anything but Fighting: Edmen Shahbazyan answers random questions",
-      "source": "MMA Fighting",
-      "ts": "2026-09-19T14:56:32+00:00",
-      "cluster": "c39a201a0b9"
-    },
     {
       "t": "Justin Gaethje explains why he can’t predict Ilia Topuria vs ‘conundrum’ Paddy Pimblett grudge match",
       "source": "Bloody Elbow",
@@ -4903,16 +4897,21 @@
       "source": "IOL",
       "ts": "2026-09-21T09:56:50+00:00",
       "cluster": "c404b58b863"
+    },
+    {
+      "t": "Joshua Van reveals torn AC joint ahead of UFC 331 title defense",
+      "source": "Sherdog",
+      "ts": "2026-09-21T05:01:30+00:00",
+      "cluster": "cad56fe41ee"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T10",
-    5
+    6
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509209",
     "cd8a3a2a-a557-343a-a56f-50f4974385cf",
     "https://www.mmafighting.com/?p=509203",
     "https://www.mmafighting.com/?p=509229",
@@ -6411,11 +6410,12 @@
     "cd0772f5-8cdc-356d-bfad-f198ff62857b",
     "CBMitgFBVV95cUxQRlB0ZHlDbW5PNk04bHVWQkVPeURsWlQ3YzhYczNSVGQ5cDFHUGRTOV9yQ3p3bUdxYWtETDVSd1Z5VFkzZjZnc0VSOUU1MjlfZG9VenNrQjB1V3VLbDdRS08zdzBTdWkzeDN3NzZ0cDg3aGI1RzNRT2pzTkNrai1IUDBRZ21OejI2d3pTZ2FNcnJZcU5kcXZaM2FzVGhqSEs5NTZuZERPMDZDa0EwN1VQcm94dHRKQQ",
     "CBMinAJBVV95cUxNbXRvVnU4YTVRTlZ0T29JaEhQZEpZTWZxZ0c4dllaU01Ddm9idEJWak56MExNTGdYUm5WYXZ5VndsalVDU3BmU010N2toUVJsMElLS01OWHR1N3pZZ0Nsd1dBMFBzRUdkSVhjdGZnUVFkV19PV3N0VEpULVNidU5qZlNMQmI1TXFCVXJGNmVBS0V6R0lPVEltNWZ4RV9mZU9DQ1Z0R2hJLWZYODgxTFBUaWVGbW9WU3kzTjhHWnhVQ3lnMDhzaE9oQkRPSE1ZNE1JMmVDTFhQZHQ2UUpzZDRFWDFBT053S2R3SDhwMVhkbWpwZk8yUFNYeE9ON09uMkVDZHFQQ0ZHNmh3NVNlSnZtVWVsQjZQTk03NTIyNNIBogJBVV95cUxONjJuZ2VjSUFBXzZhanRZVGNSVVg2cUw5aWMzaHJ0MGdxVnZEOW4yb3JyUV9GRHp4WF95MU9ZSXFOQWxicXgyN1E4Q081MWVXczlPTTUzWG1PdF9PQ1l4aDdCblp3TWJyTXh0dWJoODRZM0FTVzBTXzNPTjBGRS1xbGlQRXVrM1ZON29HQTJ0VURCLXZqNzNzMmFKQm9zT2stSVBTMkhKSHU0ZWVhd0ItZXVjSlgzMUpITG9QNkI1WmZFbW5Wd29qdzRNd2tqRUdlMjRPNzZHckFQM3M5QnIwbzJaV2tvS1JaSDJ6ZllraUlYMFVrNjJQc05BaG1iSW1iZEVXN2REd3ZXX3R3SVBieXd1bzFvUllia3g5S0ViUEtRUQ",
-    "CBMingFBVV95cUxPcDZzS01sM0hLZDN1QThfeWEtS0c1eXN2VGxpcVNSYjEtT0lpaFlDOFVzdEU1OG8zR3FJNVNRYVExbUZzM3B2YXZkTVBrMWtrQ0RUNFljd0dVbjBWczJhZkZsTHNEakNNRzFHZ2s2blRtRXBnZWtYYzM5WElLOENmdkFtUEJ0OTFxRUNrUWNlRHZIZVRyX3BYT1RuY2o3Zw"
+    "CBMingFBVV95cUxPcDZzS01sM0hLZDN1QThfeWEtS0c1eXN2VGxpcVNSYjEtT0lpaFlDOFVzdEU1OG8zR3FJNVNRYVExbUZzM3B2YXZkTVBrMWtrQ0RUNFljd0dVbjBWczJhZkZsTHNEakNNRzFHZ2s2blRtRXBnZWtYYzM5WElLOENmdkFtUEJ0OTFxRUNrUWNlRHZIZVRyX3BYT1RuY2o3Zw",
+    "https://www.sherdog.com/news/news/Joshua-Van-reveals-torn-AC-joint-ahead-of-UFC-331-title-defense-202891"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 47,
+    "ai": 48,
     "staged": 4,
     "prio": 0,
     "lost": 0
