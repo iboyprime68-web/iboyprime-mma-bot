@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0b64edb0b31503da": 1790024280.1611574,
     "0bb9a6cfce5d2ed8": 1790024215.1347353,
     "f5dca5fadd87b32e": 1790024149.6474547,
     "6550b3c0f1be930c": 1790024126.0102437,
@@ -2498,18 +2499,11 @@
     "3e8ab18ac55ae07a": 1789506949.4014819,
     "1b63b5776719d498": 1789506925.8057036,
     "2b1b30f2bd0af5b6": 1789506899.4608583,
-    "17e42b5c4b540021": 1789506875.9793293,
-    "fd1cd13e124cb1d0": 1789506875.6754375
+    "17e42b5c4b540021": 1789506875.9793293
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Petr Yan Slams Merab Dvalishvili’s \"Weird\" In-Cage Antics Before UFC 333",
-      "source": "MMA Sucka",
-      "ts": "2026-09-19T22:06:12+00:00",
-      "cluster": "ccf8a5009ee"
-    },
     {
       "t": "UFC 331 results: Casey O'Neill pulls off impressive reversal directly into a submission to best Eduarda Moura",
       "source": "Yahoo Sports",
@@ -4903,16 +4897,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-21T17:57:07+00:00",
       "cluster": "cf1779413ed"
+    },
+    {
+      "t": "Israel Adesanya provides Arman Tsarukyan path to victory against Justin Gaethje",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-21T18:30:00+00:00",
+      "cluster": "c1b55088661"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T20",
-    7
+    8
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330875",
     "https://www.mmafighting.com/509184/dnp-morning-report-template-dnp",
     "165a1c9d-db28-34a5-8d61-97a90754c3b0",
     "https://bloodyelbow.com/?p=330887",
@@ -6411,11 +6410,12 @@
     "870f0bbb-1cf4-324e-b00a-394c96d3b2b4",
     "https://bloodyelbow.com/?p=332994",
     "e19d5d4f-b3ef-3025-a2c5-537d6d1ee3eb",
-    "4595f1a5-0dcf-3837-ac17-3cad00305d50"
+    "4595f1a5-0dcf-3837-ac17-3cad00305d50",
+    "e3e03ccd-7243-3c48-b6f0-5df4559758bf"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 109,
+    "ai": 110,
     "staged": 5,
     "prio": 1,
     "lost": 0
