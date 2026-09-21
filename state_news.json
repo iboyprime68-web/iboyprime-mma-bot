@@ -1,5 +1,6 @@
 {
   "seen": {
+    "41fa2bfa10695fc7": 1790009687.242289,
     "9c1b87dcde0654c5": 1790009662.6488094,
     "b00828679ee06591": 1790009662.2892454,
     "3bf698c0b3c99de7": 1790009662.287458,
@@ -2498,8 +2499,7 @@
     "7480d0f56d7feccb": 1789495758.3644364,
     "f81976e6199921c7": 1789495693.8242576,
     "44b91ad53f595965": 1789495692.3184845,
-    "7bade2f8468775fc": 1789495692.3150096,
-    "f2254c530fe107f0": 1789495692.2950792
+    "7bade2f8468775fc": 1789495692.3150096
   },
   "initialized": true,
   "v": 4,
@@ -4897,16 +4897,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-21T12:34:26+00:00",
       "cluster": "cc78ab615d8"
+    },
+    {
+      "t": "UFC legend Chuck Liddell reveals what he hates the most about MMA in 2026",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-21T13:00:00+00:00",
+      "cluster": "cc73f2923ea"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T16",
-    4
+    5
   ],
   "yt_eval": [
-    "bd436e85-5b02-3401-bd4f-26e641b76d1c",
     "2a3c39ed-23ef-33c2-9a04-733e0afb42cb",
     "f90c0ba6-495d-365e-a6a0-0a54ff429290",
     "CBMif0FVX3lxTE53bmpqMXczN05TNFk5aWZTR0RrY2lMaWxvSGtWUW16bFZyT01QUnhMTWdVZXNvZFRtV1hCTGQwaU9KNTd3bjhzRDA4QlZVdmpZcTRWVzhJdXhTNE1zM3RYOVdjR2FzaGNUdUlFZE9TdGFaN3QwUXJQd3ZtTGlJOTA",
@@ -6405,11 +6410,12 @@
     "https://www.mmafighting.com/510284/dnp-morning-report-template-dnp",
     "https://bloodyelbow.com/?p=332954",
     "https://www.mmafighting.com/?p=511664",
-    "https://www.mmafighting.com/?p=511533"
+    "https://www.mmafighting.com/?p=511533",
+    "https://bloodyelbow.com/?p=332942"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 66,
+    "ai": 67,
     "staged": 4,
     "prio": 0,
     "lost": 0
