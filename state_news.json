@@ -1,5 +1,9 @@
 {
   "seen": {
+    "aa7a412ddbbed500": 1789965024.4534428,
+    "3fb34876dc949a9e": 1789965024.078983,
+    "6c1311cafdeb0020": 1789965024.067188,
+    "6f6c4cde3feeed75": 1789965024.0423994,
     "b6e18937e05c216f": 1789964836.611166,
     "26fc5441636e23e7": 1789964708.8671973,
     "29f9ca0f4e6718c9": 1789964643.5861018,
@@ -2495,21 +2499,11 @@
     "85226f9920a9c3c5": 1789478993.007289,
     "51793e060cef59e5": 1789478947.5271819,
     "708fa9cc304ef051": 1789478922.3684754,
-    "183c59ef7911c504": 1789478857.1838443,
-    "97ee7dcbcd1bafa2": 1789478790.6946588,
-    "7f7196d88457c5d0": 1789478725.5921795,
-    "4e2995d45049610a": 1789478661.147537,
-    "a4a4b0d106db3d6c": 1789478636.4063425
+    "183c59ef7911c504": 1789478857.1838443
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Arman Tsarukyan lays out key rule for N3on while cornering him at UFC 331",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-19T11:00:00+00:00",
-      "cluster": "c65c15a65e1"
-    },
     {
       "t": "Belal Muhammad posts first statement after 10-0 loss to Colby Covington in RAF 13 grudge match",
       "source": "Bloody Elbow",
@@ -4903,16 +4897,21 @@
       "source": "Sherdog",
       "ts": "2026-09-21T02:14:53+00:00",
       "cluster": "ca6c7880374"
+    },
+    {
+      "t": "UFC 331 salaries: Alexandre Pantoja tops Joshua Van with &#36;650K purse",
+      "source": "Sherdog",
+      "ts": "2026-09-21T03:08:42+00:00",
+      "cluster": "c7986b12fc2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T04",
-    19
+    20
   ],
   "yt_eval": [
-    "14857b54-10f4-3eca-972b-4ca272ed61bd",
     "2eccdd6c-574b-31a9-9764-885930dcf24f",
     "99bd03be-2f22-3784-bfb5-f8c256f6afd7",
     "https://www.mmamania.com/470330/mm-clone",
@@ -6411,11 +6410,12 @@
     "CBMiowFBVV95cUxNcXlNYkl5bk42QVp3UlhEc2k2bjZzY0xzWGZDb09pYm81RXBSMW5ONFRBRFRXalpEQXh0TGRFLVhBQ0J2VjFfbXBvdU9TSHZCUkJaMWNUa1F0OWlNSW5jbEE3bS1wR0RUb2w0SEpyTlo2eGNnXzA4ZFZ4ejVqZUNpRXZQZ1dudlVIbDR1U1M1TDU2ZEhJZGNlcmlCbFkyZWQyUzhz",
     "CBMisgFBVV95cUxOeWRZcDFGZTJlU3pac0NRRWI2ZmxxX1B5bmMybjE0MHJaWjk2SDdialBBZ21kakFzYkJ1OHh3dzFfTkJrMlY5OEZSMGFmQ2kyWHM3Rmx5TTBoSnJKZ3Zkem1BMTQ5WnZMRkRMSDdtX1ZCSVpRdkpfeGNkTl9nWTVBdk5BcmRhSEhCMXZGdVYzcG02ZkxyTGpBVzlNVHE3RlNRQjdOMV81aEtJX2ZEeVFTaUZn",
     "CBMiggFBVV95cUxNWkNQY0FsbEcxN0hDM3pJekxOMWdSVVVnMWQwWjlzLWFId1BXMlV0UkFoT08yNGxfMExXMElRS0NVbHBsWjVFc0VGWVFJVXJJc2tCaW01T1E3NUtQU3VScXlfLUJuYUVEaXd5VjY4aTc1OVY5VzRBeXdKZUNiZ0FDU3pB",
-    "https://www.sherdog.com/news/news/Paulo-Costa-gives-UFC-3-options-in-contract-standoff-202880"
+    "https://www.sherdog.com/news/news/Paulo-Costa-gives-UFC-3-options-in-contract-standoff-202880",
+    "https://www.sherdog.com/news/news/UFC-331-salaries-Alexandre-Pantoja-tops-Joshua-Van-with-36650K-purse-202884"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 32,
+    "ai": 33,
     "staged": 4,
     "prio": 0,
     "lost": 0
