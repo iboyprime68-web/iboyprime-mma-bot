@@ -1,5 +1,8 @@
 {
   "seen": {
+    "949568e087e46140": 1789986651.6632144,
+    "e82740a27a99ab7b": 1789986650.876455,
+    "8d6a8e2509b2b67e": 1789986650.8752356,
     "afbaacddfaeb973d": 1789966859.9956405,
     "acc8d557e040a8f8": 1789966859.9935522,
     "4349244d7106c38b": 1789966815.1752331,
@@ -2496,20 +2499,11 @@
     "05b7b59fc5e1576c": 1789479577.9964824,
     "e3baeadb60b007f7": 1789479513.3746734,
     "a9ee57bffb4b350a": 1789479513.1364846,
-    "cbb13042fa037421": 1789479513.1193974,
-    "363b63e4882776a5": 1789479513.1152978,
-    "6f56c26fc4495ada": 1789479513.1145434,
-    "53d4238ae86dd51b": 1789479513.1122675
+    "cbb13042fa037421": 1789479513.1193974
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331 : le nouveau pari fou à 650 000$ de Drake",
-      "source": "lasueur.com",
-      "ts": "2026-09-19T13:19:37+00:00",
-      "cluster": "c3948039493"
-    },
     {
       "t": "Gable Steveson boos and accusations hang over burgeoning UFC career",
       "source": "USA Today",
@@ -4903,16 +4897,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T05:00:00+00:00",
       "cluster": "cb8b46d09fc"
+    },
+    {
+      "t": "Alexander Volkanovski’s raw reaction to Mauricio Ruffy KO goes viral",
+      "source": "Sherdog",
+      "ts": "2026-09-21T04:49:57+00:00",
+      "cluster": "cb29a51c845"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-21T05",
+    "2026-09-21T10",
     1
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Mickey-Gall-ready-to-reintroduce-myself-as-a-man-in-UFC-return-202701",
     "https://www.mmafighting.com/?p=509182",
     "https://bloodyelbow.com/?p=330803",
     "0142f1c1-2804-38c9-8365-f3488c0dd01d",
@@ -6411,11 +6410,12 @@
     "CBMiiwFBVV95cUxOZWhUZHVqX1pDY0EtUm1YQ0F3cTdWTWFEQVB5SFJjdWoyU1lXWDNBYnNhM2Rrc3dUV0x3YmFLMVFoSUhoMlFtSnNWdmFzU3FSeGpzWldTN05HNDhheHBWbW9DdHQxUHo3cy1pV0NRMUJDQzdJNG9Va196M29WTVFXX1JwTXdBMVJfZUM4",
     "CBMilwFBVV95cUxQOEliMHZPajd0aHhPQXRjQVhuSklpaUZmSUFmQ2l5bEJ3MUFYaEVSSXo2MDJxOVZnbExSM1VNbzBETHE2QkhRTXJXWUhnRmM0bTVnRm9CeFhtTFBIcUpPQ0RlajNsMDNoRVp3NGczWlRKdzdaTlgyTzFIbDJTUW0wNnY1TnlUZGFDQjFGclp0UEw3UDJ1TDc4",
     "789f1ded-411a-3592-af78-8cc8fd742fe7",
-    "https://bloodyelbow.com/?p=332924"
+    "https://bloodyelbow.com/?p=332924",
+    "https://www.sherdog.com/news/news/Alexander-Volkanovskis-raw-reaction-to-Mauricio-Ruffy-KO-goes-viral-202890"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 42,
+    "ai": 43,
     "staged": 4,
     "prio": 0,
     "lost": 0
