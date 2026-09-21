@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f5dca5fadd87b32e": 1790024149.6474547,
     "6550b3c0f1be930c": 1790024126.0102437,
     "e56b1c7dd1a42674": 1790024102.9381025,
     "f4ef01622c126784": 1790024078.5031137,
@@ -2498,18 +2499,11 @@
     "2b1b30f2bd0af5b6": 1789506899.4608583,
     "17e42b5c4b540021": 1789506875.9793293,
     "fd1cd13e124cb1d0": 1789506875.6754375,
-    "397f0ecf60d84ddf": 1789506875.6633828,
-    "fe6b2f2d9010e783": 1789506852.400014
+    "397f0ecf60d84ddf": 1789506875.6633828
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Tom Pagliarulo: UFC Record, Stats and Fighter Profile",
-      "source": "Fightomic",
-      "ts": "2026-09-19T22:01:15+00:00",
-      "cluster": "ca853b89b16"
-    },
     {
       "t": "Drake places massive bet on UFC 331 main event",
       "source": "MMA Fighting",
@@ -4903,16 +4897,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T19:00:00+00:00",
       "cluster": "c84f0fca8a3"
+    },
+    {
+      "t": "DWCS 93 faceoff highlights video, photo gallery from Las Vegas",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-21T17:50:29+00:00",
+      "cluster": "c956fe2f304"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T20",
-    5
+    6
   ],
   "yt_eval": [
-    "593fda5f-d10d-35d2-8b42-810d3f867b53",
     "https://www.mmamania.com/?p=470531",
     "https://bloodyelbow.com/?p=330875",
     "https://www.mmafighting.com/509184/dnp-morning-report-template-dnp",
@@ -6411,11 +6410,12 @@
     "https://www.mmafighting.com/?p=511744",
     "https://bloodyelbow.com/?p=332983",
     "870f0bbb-1cf4-324e-b00a-394c96d3b2b4",
-    "https://bloodyelbow.com/?p=332994"
+    "https://bloodyelbow.com/?p=332994",
+    "e19d5d4f-b3ef-3025-a2c5-537d6d1ee3eb"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 107,
+    "ai": 108,
     "staged": 5,
     "prio": 1,
     "lost": 0
