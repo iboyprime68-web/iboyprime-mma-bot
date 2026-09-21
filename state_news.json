@@ -1,5 +1,7 @@
 {
   "seen": {
+    "0b055697b8ed489d": 1789965275.6870928,
+    "557e124ba5efbe62": 1789965275.321258,
     "aa7a412ddbbed500": 1789965024.4534428,
     "3fb34876dc949a9e": 1789965024.078983,
     "6c1311cafdeb0020": 1789965024.067188,
@@ -2497,19 +2499,11 @@
     "b63befd1fe92c7ab": 1789479123.3172336,
     "f188b20d9d01d816": 1789479058.586521,
     "85226f9920a9c3c5": 1789478993.007289,
-    "51793e060cef59e5": 1789478947.5271819,
-    "708fa9cc304ef051": 1789478922.3684754,
-    "183c59ef7911c504": 1789478857.1838443
+    "51793e060cef59e5": 1789478947.5271819
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Belal Muhammad posts first statement after 10-0 loss to Colby Covington in RAF 13 grudge match",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-19T12:00:00+00:00",
-      "cluster": "cf32e289be0"
-    },
     {
       "t": "Why this UFC 331 fight means far more than Van vs Pantoja main event",
       "source": "Yahoo Sports",
@@ -4903,16 +4897,21 @@
       "source": "Sherdog",
       "ts": "2026-09-21T03:08:42+00:00",
       "cluster": "c7986b12fc2"
+    },
+    {
+      "t": "Baraniewski On First Pro Loss After UFC 331",
+      "source": "boxingnews.com",
+      "ts": "2026-09-21T04:30:41+00:00",
+      "cluster": "cfba03471b7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-21T04",
-    20
+    21
   ],
   "yt_eval": [
-    "2eccdd6c-574b-31a9-9764-885930dcf24f",
     "99bd03be-2f22-3784-bfb5-f8c256f6afd7",
     "https://www.mmamania.com/470330/mm-clone",
     "c5ef9c67-5a25-3471-93c0-509935f94594",
@@ -6411,11 +6410,12 @@
     "CBMisgFBVV95cUxOeWRZcDFGZTJlU3pac0NRRWI2ZmxxX1B5bmMybjE0MHJaWjk2SDdialBBZ21kakFzYkJ1OHh3dzFfTkJrMlY5OEZSMGFmQ2kyWHM3Rmx5TTBoSnJKZ3Zkem1BMTQ5WnZMRkRMSDdtX1ZCSVpRdkpfeGNkTl9nWTVBdk5BcmRhSEhCMXZGdVYzcG02ZkxyTGpBVzlNVHE3RlNRQjdOMV81aEtJX2ZEeVFTaUZn",
     "CBMiggFBVV95cUxNWkNQY0FsbEcxN0hDM3pJekxOMWdSVVVnMWQwWjlzLWFId1BXMlV0UkFoT08yNGxfMExXMElRS0NVbHBsWjVFc0VGWVFJVXJJc2tCaW01T1E3NUtQU3VScXlfLUJuYUVEaXd5VjY4aTc1OVY5VzRBeXdKZUNiZ0FDU3pB",
     "https://www.sherdog.com/news/news/Paulo-Costa-gives-UFC-3-options-in-contract-standoff-202880",
-    "https://www.sherdog.com/news/news/UFC-331-salaries-Alexandre-Pantoja-tops-Joshua-Van-with-36650K-purse-202884"
+    "https://www.sherdog.com/news/news/UFC-331-salaries-Alexandre-Pantoja-tops-Joshua-Van-with-36650K-purse-202884",
+    "CBMicEFVX3lxTE1LU1diTGF5NUtPTnp0Z2lWcDVWc2VjOWxtcEx0czRwekxNQXNXYTZxREd5VEx5NG9MXzl2R0Z0QVU2WHNOUEUxcGRKSWZUTzY1dXBEc09IVTdTM3JTMWx2cVlaenA3VlQwcEk3YWVicnE"
   ],
   "daily": {
     "d": "2026-09-21",
-    "ai": 33,
+    "ai": 34,
     "staged": 4,
     "prio": 0,
     "lost": 0
