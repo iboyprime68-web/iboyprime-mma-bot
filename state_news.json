@@ -1,5 +1,8 @@
 {
   "seen": {
+    "ffa99f60bbf65b9f": 1790035916.810695,
+    "92f46cce4aab3abf": 1790035916.559892,
+    "e50a4722b0cf7617": 1790035916.5458677,
     "c453c03acd3abaaf": 1790035850.1473255,
     "36aab5ad9682de7b": 1790035784.4377437,
     "905577b340ba4d08": 1790035784.0450833,
@@ -2496,20 +2499,11 @@
     "0268a47f2b07a1be": 1789519092.6655,
     "d1c21106a5a00677": 1789519092.3537567,
     "2c3e07dbb711c51c": 1789518964.0026674,
-    "adcf4a4239bfe1bd": 1789518898.1734006,
-    "1fb22b588db67819": 1789518831.4448018,
-    "3f27d8ea16eb3e8e": 1789518703.3349283,
-    "d73c09e9ce69d007": 1789518703.05618
+    "adcf4a4239bfe1bd": 1789518898.1734006
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "\"+PPV™.FREE ! Ways To Watch UFC 331 Live 𝐒𝐭𝐫𝐞𝐚𝐦𝐬 [PPV] and TV Channel",
-      "source": "OrilliaMatters.com",
-      "ts": "2026-09-20T00:38:41+00:00",
-      "cluster": "cb4a6c17765"
-    },
     {
       "t": "UFC 331: Robelis Despaigne Earns First-Ever Decision Win, Hands Tuivasa Eighth Straight Loss",
       "source": "Cageside Press",
@@ -4903,16 +4897,21 @@
       "source": "Bleacher Report",
       "ts": "2026-09-22T00:06:08+00:00",
       "cluster": "cdac294f21b"
+    },
+    {
+      "t": "Arman Tsarukyan Reveals Major Reason for Switching to Striking",
+      "source": "MMA Sucka",
+      "ts": "2026-09-22T00:07:22+00:00",
+      "cluster": "c06cc3d91d8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T00",
-    7
+    8
   ],
   "yt_eval": [
-    "2d56bec6-90b7-360d-b233-2ecdeba57620",
     "10483281-db09-36af-b461-eba7c3f61810",
     "96307620-5506-31d4-a999-1882af97299b",
     "https://www.sherdog.com/news/news/PFL-tournament-winner-Oleg-Popov-draws-unbeaten-finisher-in-Dubai-202715",
@@ -6411,11 +6410,12 @@
     "CBMijwFBVV95cUxQdHhDa0dYSms4MF9BM1Z5TG1JWEZQU0J0ZEROMzNZb1poanJNdFNrVXh6RDY1R2N4S3lYeVNldzNLS2F2VUhocmZ0SDVtczRmN3ZBT0xrSlZxeUxycU83R1Q4Nk1ZR0xTOV8xUjVjREJoQkdhUzF1Z2NLQWJLTzZ6dkxrTHUyaHdiUU0zTlgwMA",
     "CBMilwFBVV95cUxQdTc3RnUzZllGMi05QUFNMVl2NGNsS0xWQlI1cjJhVUx6ZTBYb1k1azFKbE1YNjlCcWs1anpLczMyZmhEblY2cUpTOFZoVk16T2toa3d1QUFxU0hqbWtnN0hTamhQOU1QcENTRVgySW05SGRwTmVEYWFzTUFFNmpkbjEzaUkwa0ZoREVTQkhGRm5tc3R6LUtN",
     "CBMiekFVX3lxTE5lYmUxZmdZd08yRUJnaDc4aEU2a0xzUzBfUGM0QndsTlVCQzFEbFpPR1I4bm0tWlVPTFlKOE01UEJDZ0JVaWVCUWNjRmctVlY1WmhTbE9rdXVjSHlMNjBEdnF0SHRfWEd4T0JxV3lDay1Yd0VwXy0zMnJB",
-    "CBMixAFBVV95cUxON3BaeUg3bHR0UTFtWGxpWVIxbzRibWFEV3BtQ01mMGRUTzFyN3VtWmpub05TcE1HOFNYRVhLalZoNGNFbjZWeDRnX1djTWwzY0RNWXN4bXNndDhXaGJCa1lYbEc0SGZLNG1sQVFrcjB6dms2UnR1dzBDVVJEdl9aa2o5Q1Z2TGlNZVVfVWJVVUc5Ri12WkNKZmI4QjlYTGRwb2szSlpIOWo5N0UwVTh1YTdBMzNmZ3drenhESXJodHdEMHZm"
+    "CBMixAFBVV95cUxON3BaeUg3bHR0UTFtWGxpWVIxbzRibWFEV3BtQ01mMGRUTzFyN3VtWmpub05TcE1HOFNYRVhLalZoNGNFbjZWeDRnX1djTWwzY0RNWXN4bXNndDhXaGJCa1lYbEc0SGZLNG1sQVFrcjB6dms2UnR1dzBDVVJEdl9aa2o5Q1Z2TGlNZVVfVWJVVUc5Ri12WkNKZmI4QjlYTGRwb2szSlpIOWo5N0UwVTh1YTdBMzNmZ3drenhESXJodHdEMHZm",
+    "CBMikwFBVV95cUxPUy1fMWhCQW9mYWtCR3BOSjRiWEo4UW1JeURObXpobFdBeFdONVlnVDlUaVBieFdQNE9CcnM1UmlzQWVpSkxaQmkzZC1jYU5XQW1LRVR1aWcxMFp3akJmM2VhSVlaS2JjajVkRHVWR2VKLUZ1b3hLVjJtTWJ6NjV6SUpxbDNGVXhzQ1Z6eGQ2QzFaS1E"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 7,
+    "ai": 8,
     "staged": 0,
     "prio": 0,
     "lost": 0
