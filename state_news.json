@@ -1,5 +1,7 @@
 {
   "seen": {
+    "672c4693b11d2f95": 1790051100.3728027,
+    "70628a8c32cf51cf": 1790051099.9426992,
     "0911f69a5a638839": 1790051034.157587,
     "2d90648e0eed6241": 1790050968.5414608,
     "d2f0d5242e1e3699": 1790050895.1777892,
@@ -2497,19 +2499,11 @@
     "9b4df509a388575e": 1789535191.3579588,
     "c23cbf78ac0dad79": 1789535124.696974,
     "afcfe83b61fef92a": 1789535123.1245177,
-    "13d0790df4925a91": 1789535123.102453,
-    "616768a635068980": 1789535057.6396892,
-    "c5974ee499119275": 1789534990.9166281
+    "13d0790df4925a91": 1789535123.102453
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "‘Van is on another level’: Pros react to Joshua Van winning rollicking UFC 331 main event over Alexandre Pantoja",
-      "source": "MMA Fighting",
-      "ts": "2026-09-20T04:24:24+00:00",
-      "cluster": "c80d972c63e"
-    },
     {
       "t": "UFC 331 video: Jon Jones left stunned cageside watching protege Gable Steveson knocked out cold",
       "source": "MMA Fighting",
@@ -4693,16 +4687,21 @@
       "source": "Sportskeeda",
       "ts": "2026-09-22T04:02:00+00:00",
       "cluster": "c9afbe2ca8d"
+    },
+    {
+      "t": "“Double Retirement Fight”: Ariel Helwani Makes Bold UFC 334 Prediction",
+      "source": "MMA Sucka",
+      "ts": "2026-09-22T04:09:44+00:00",
+      "cluster": "c8681b53b99"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    20
+    21
   ],
   "yt_eval": [
-    "99d3d416-2f14-3b59-bc86-1430b90d65f0",
     "9ca785bb-41a4-3a7c-b441-cb371655850f",
     "https://www.sherdog.com/news/news/Robert-Whittaker-admits-he-didnt-even-want-to-watch-Michael-Page-202721",
     "e297fc36-1f44-36e2-befc-e7063a564a0f",
@@ -6201,24 +6200,17 @@
     "235c91be-3234-3b4a-973f-58496864b081",
     "https://www.mmamania.com/?p=474111",
     "CBMicEFVX3lxTE9TOHJ4dlE5S0xvVllZQ0R0Tm4xek1XVkVaUHpNdWUwSjdXUHJac09XUV9OQjVvUFFPSlN5YVJhLU9BaXcyczd4Y1hjWHpzN1RSM1AyRUkxejZMMHEzUGlYQnJtRFo5WXpNbGtSeS1DTVI",
-    "CBMitwFBVV95cUxPVUppcGZIYzBIMHNhaFNzX3pSdGhTRTRadV9fdVlzVkZ5TUEydzdncGJibWNDaWVPTGZ4blBlQVk3RGZua2ZYelN2NjNQa2pBX2VVaWc0M3ZJTzloODc0SUxRY2lyWGktSzdBMWlhTHlIbmxWblZabk42eEJ2MWhFaExWR3MtQzhySjRUOG5CY1ltM1JzQlJoNjhXWUxRUUxRMTN0bXFxeEVOTVJNWXF4UXdFTUhGT28"
+    "CBMitwFBVV95cUxPVUppcGZIYzBIMHNhaFNzX3pSdGhTRTRadV9fdVlzVkZ5TUEydzdncGJibWNDaWVPTGZ4blBlQVk3RGZua2ZYelN2NjNQa2pBX2VVaWc0M3ZJTzloODc0SUxRY2lyWGktSzdBMWlhTHlIbmxWblZabk42eEJ2MWhFaExWR3MtQzhySjRUOG5CY1ltM1JzQlJoNjhXWUxRUUxRMTN0bXFxeEVOTVJNWXF4UXdFTUhGT28",
+    "CBMimgFBVV95cUxOUHZVUjhBWlNVSm5GUURfZDljWUJyQlZFOTB5aHRzUUFFcUlLM1EzdEV3cmxjZ1Q5MWprU2dMYWxGTkxfYjRQU2JRRjFGUHhzbjEyci1aTlhkQl9WTjJyS2xIcm11WWNLWEhrdGh5NXprYkJVVHpCUlNac00tVm5hS1lDQWNXSi05bG90MUpGY2RZWUxTMjRlRkpn"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 36,
-    "staged": 2,
+    "ai": 37,
+    "staged": 3,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-11T08:46:19.555327+00:00",
-      "t": "Terence Crawford says he will come out of retirement as he calls out undefeated champion",
-      "names": [
-        "crawford"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-11T08:47:06.801479+00:00",
       "t": "Paulo Costa Frustrated After UFC Turns Down Interim 205lbs Title Fight, Rejects Release Request",
@@ -7001,6 +6993,18 @@
         "menifield"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-22T04:25:01.194686+00:00",
+      "t": "“Double Retirement Fight”: Ariel Helwani Makes Bold UFC 334 Prediction",
+      "names": [
+        "retirement",
+        "ariel",
+        "helwani",
+        "makes",
+        "bold"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7059,31 +7063,20 @@
     "6a893d14afaffe60": 1789927687.8101327,
     "a8b0f2d759d02174": 1790009712.5512054,
     "248584db5c5bbbf8": 1790009820.0997825,
-    "edb199aab17359f1": 1790024440.2690525
+    "edb199aab17359f1": 1790024440.2690525,
+    "672c4693b11d2f95": 1790051099.9663594
   },
   "pinged_titles": [
     [
-      "Joshua Van suffered major injury month before UFC 331",
-      1790009712.5512054,
+      "“Double Retirement Fight”: Ariel Helwani Makes Bold UFC 334 Prediction",
+      1790051099.9663594,
       [
-        "van"
-      ]
-    ],
-    [
-      "Watch: Georges St-Pierre comes out of retirement to choke out a T-Rex",
-      1790009820.0997825,
-      [
-        "georges",
-        "pierre",
-        "rex"
-      ]
-    ],
-    [
-      "Gable Steveson advised to take a year out of UFC action by former double champion: ‘Respect the game’",
-      1790024440.2690525,
-      [
-        "respect",
-        "steveson"
+        "ariel",
+        "bold",
+        "helwani",
+        "makes",
+        "prediction",
+        "retirement"
       ]
     ]
   ]
