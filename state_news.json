@@ -1,5 +1,7 @@
 {
   "seen": {
+    "76b2a4b3bdc5a234": 1790049974.697872,
+    "d08cfc3f5330212d": 1790049974.3827808,
     "6996603ebdc82aee": 1790049950.9453163,
     "f31218d4f608b6cd": 1790049950.224826,
     "520241d97c40597c": 1790037963.4103792,
@@ -2497,9 +2499,7 @@
     "5ff3af718e2c3823": 1789533849.0028412,
     "4fc8a0d930a0aeac": 1789533779.8579426,
     "12805702690ffbcf": 1789533734.1796072,
-    "b23b2f87e4a93dca": 1789533710.2634134,
-    "2b29b5f33190a9ec": 1789533685.472817,
-    "39bf250ea590815a": 1789533661.360954
+    "b23b2f87e4a93dca": 1789533710.2634134
   },
   "initialized": true,
   "v": 4,
@@ -4621,16 +4621,21 @@
       "source": "Sherdog",
       "ts": "2026-09-22T00:01:31+00:00",
       "cluster": "cb946194ce2"
+    },
+    {
+      "t": "PFL announces return of Patrick Habirora in November Dubai co-main event",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-22T04:04:34+00:00",
+      "cluster": "cef2858a5d2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMixwFBVV95cUxOcHoyN1VFNFhMU0pidTJtN2JwbUE0VGh5bEJteTAzY3o4cDRaRXV3emxLWjc3dXlEMWxVRXd6OEprSFJXMXdsVktja3YwYjBWZWFUS2Njc0V2a2pFbEVJUVpMZXF3a0dGcWNXc0c5ZTJlTmhYS0VJQWp4NHRmTEpmSW51YmZlZ1NhV2ZYb0xqaGg5b3pkdHRTYklianBTbzkyMmk2QnZfdDRPNnczZVpaZ29EWkFhYkFyV2F6a25mellfLTJSVjFz",
     "CBMiW0FVX3lxTE1FQ255VnAtNTVDY1ZQVzBpT29oRnlPM2NvX1JiclU4NDVzYlhmU3JCbmw0cjliSDVtd3JrLTdsVG5oaF91cHctY0dPUWlUQXJaa2IzWlZ5ZGpRVnM",
     "CBMivwFBVV95cUxORFZDVGYtanE5QkZrT3Rjbk1POWZtZE5GeEw5aUNNQzdXYjVjOXVKV0hNMzUwNk9UT2t6bHlweVBpa1AwQVpyenpUWFBzUXFCMXBQd0hjYkFrb3dFd1Y3U1ZqeXpfQ1YxN3AtOTlHTnlwWnQ1UXpfdGEzd3FLbFVHc3ctdmEwVnZWVV83UHAxc2pjaFBWeGxsenVob2tVVDA2NjYwSHk4OTVTclNFTzJxcFBtQzAtVG43cTh5eGlRcw",
     "CBMitgFBVV95cUxNNlhzZ21hV3ctQXRFaElCUXc5TTJYeHZXaGpvZVphUy1lY2Z4M0ZXRU15Q0hPbTE5OE5uMC0xMy1Ecm50ZUZBRXdFc0NKWFZENnBBVmFqR29DX2VaLURCOHNrOFFkQWo1eGJQSW5UV0tlMnprbm1sSE1IYU9WTDVORzZTc3JZX2g0ZmhPSUwyY0FESkJNbHFTcFdnWHJnQXlycTl1NHZOTDQwUkljd3ltdFlpcXlqZw",
@@ -6129,11 +6134,12 @@
     "CBMia0FVX3lxTE1DTWNHYVBhMFVJUEY2RF9nbUhJdGV1YjBaM1NWODY4akRrMDV5aWNwQ0dxcllrSTR2SVd4c2FZRXJhSUUzaWtvRnpWcE9fLUtyM2hZX0hKdndUdlFEanB1OFJVd3hFaERNYk5B",
     "CBMiyAFBVV95cUxPR1F6TERqanVNRGplNHk4Tnk4STNfWXFzSUpXdzUxOHB0VDc1Ty1QUWd1MDgtcG5pSWZyVjd3R3VFUzl3WXk5RTFKN3FGRU4tRmRnVzFGNFktdjdqZ3JPWHMyY2daMWd3Z2Y0Q1FMeXppSkpBODlUR2pQZGtLOVYtRnhKZmJxUjdIUm5wYkdHdjlaX2pKVGtERGFXSEVGRmpyZzlxcVRMWjFVLUtPaGd5ZnVZZEg4WlJVTUdYaU04cW5uLTlaclhYTA",
     "CBMiowFBVV95cUxPTGtUQzZVdjZURTRFN2RmdHhlRFlXeHhreEVyTGlwbVNYYktnU1ZkTEo4VlpYLUM3U0VXOFlBcXdwMjZRazF1bTkwRlZUOFBEeDVJTDJpYkhDN1BHRXN1QUpjNlJnaEwzWFJBV0x1VUZDUmlJc2w1d1BPXzR6aF94eEEyaXpfbFBWZE40b1BwU1p5TEFKVk9KZG9CM3ZrdUVTVTln",
-    "https://www.sherdog.com/news/news/Undefeated-Patrick-Habirora-draws-former-PFL-MENA-champ-in-Dubai-202900"
+    "https://www.sherdog.com/news/news/Undefeated-Patrick-Habirora-draws-former-PFL-MENA-champ-in-Dubai-202900",
+    "https://bloodyelbow.com/?p=333082"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 17,
+    "ai": 18,
     "staged": 0,
     "prio": 0,
     "lost": 0
