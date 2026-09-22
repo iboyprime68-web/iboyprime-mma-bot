@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bc67b277a33c8dc9": 1790114899.1277287,
     "c75d4870b429f2c2": 1790114834.9081504,
     "49056c7839014af2": 1790114771.0783093,
     "c85657dc68fae808": 1790114707.060234,
@@ -2498,8 +2499,7 @@
     "5185097f0c94c819": 1789597817.4670057,
     "c16065240ff4f1f6": 1789597752.2543473,
     "3109d600b5c79ebb": 1789597687.3441114,
-    "36a3ba12174f89b6": 1789597622.6579144,
-    "3996527e8f4ea235": 1789597368.3293748
+    "36a3ba12174f89b6": 1789597622.6579144
   },
   "initialized": true,
   "v": 4,
@@ -4573,13 +4573,19 @@
       "source": "heavy.com",
       "ts": "2026-09-22T21:43:34+00:00",
       "cluster": "c0f33624626"
+    },
+    {
+      "t": "Arman Tsarukyan talks Justin Gaethje's potential MMA retirement, why the UFC champ would prefer Ilia Topuria rematch",
+      "source": "MMA Sucka",
+      "ts": "2026-09-22T21:46:14+00:00",
+      "cluster": "c3c5442db4e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T22",
-    8
+    9
   ],
   "yt_eval": [
     "CBMifkFVX3lxTFBkUEF2cmVqaUN0YlFaa1l3VDlkOU12OUIyY0V4TllwaHkwb1Rpa1owdjVXR3VLemx0VHNmYXVxSHNCcFFxSERrcEQ0T1c2V0tlS3hMXzdNTlRJY0NWdU9FOWk1OENkLUN5QkliMFFoWVhjQjhPVWR2REp1UFZkQQ",
@@ -6937,36 +6943,24 @@
     "672c4693b11d2f95": 1790051099.9663594,
     "f63c3b28b4cfe9d2": 1790087958.08759,
     "2664365eba4702ba": 1790088632.205843,
-    "f129cb74dc78046f": 1790105043.358493
+    "f129cb74dc78046f": 1790105043.358493,
+    "bc67b277a33c8dc9": 1790114898.8711655
   },
   "pinged_titles": [
-    [
-      "Open Thread, September 22, 2026: What comedies are you watching right now?",
-      1790087958.08759,
-      [
-        "september",
-        "thread"
-      ]
-    ],
-    [
-      "Ariel Helwani Says Kayla Harrison vs. Amanda Nunes Could Be A 'Double Retirement Fight' At UFC 334",
-      1790088632.205843,
-      [
-        "amanda",
-        "ariel",
-        "could",
-        "harrison",
-        "helwani",
-        "kayla",
-        "nunes",
-        "says"
-      ]
-    ],
     [
       "Joshua Van explains why he didn’t pull out of UFC 331 despite suffering severe injury",
       1790105043.358493,
       [
         "van"
+      ]
+    ],
+    [
+      "Arman Tsarukyan talks Justin Gaethje's potential MMA retirement, why the UFC champ would prefer Ilia Topuria rematch",
+      1790114898.8711655,
+      [
+        "gaethje",
+        "topuria",
+        "tsarukyan"
       ]
     ]
   ]
