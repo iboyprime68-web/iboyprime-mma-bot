@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d04bef26bd8a0ab4": 1790070423.8267405,
     "480fdf798a675ac9": 1790070355.98976,
     "47c6ca03c5c22684": 1790070289.896201,
     "88479986a3d94dc8": 1790070223.9265373,
@@ -2498,8 +2499,7 @@
     "f049178ff36f7a65": 1789552340.727278,
     "d2d502b4cba802a6": 1789552276.1790679,
     "d070a3b1b70e4067": 1789552275.8268955,
-    "6294734451835d61": 1789552252.4468968,
-    "053ebeb61c191680": 1789552208.5820918
+    "6294734451835d61": 1789552252.4468968
   },
   "initialized": true,
   "v": 4,
@@ -4477,16 +4477,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-22T05:58:18+00:00",
       "cluster": "cfc1967b6e6"
+    },
+    {
+      "t": "Magomed Ankalaev Issues Challenge to Paulo Costa",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-22T06:10:28+00:00",
+      "cluster": "ca9c4bec6f1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T09",
-    4
+    5
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509265",
     "7d9fad5d-95e9-37fc-b65a-1639b7b48cab",
     "https://bloodyelbow.com/?p=330943",
     "https://bloodyelbow.com/?p=330957",
@@ -5985,11 +5990,12 @@
     "https://www.sherdog.com/news/news/Ian-Garry-accuses-Michael-Morales-of-avoiding-him-then-they-agree-to-fight-202906",
     "6235ae4d-2053-3536-b97c-4d380e7a3dd3",
     "e68911c4-0aee-3cf8-bc6d-520428368506",
-    "c45b06d2-a052-3b8b-bf70-2de665af7ca8"
+    "c45b06d2-a052-3b8b-bf70-2de665af7ca8",
+    "4ed2de60-90ee-32af-b8ae-73450b217bdb"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 55,
+    "ai": 56,
     "staged": 5,
     "prio": 0,
     "lost": 0
