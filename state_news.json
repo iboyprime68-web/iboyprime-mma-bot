@@ -1,5 +1,7 @@
 {
   "seen": {
+    "3f24712f62375b7b": 1790050087.9799538,
+    "060845cb7fa728dd": 1790050087.6419303,
     "bb332a948a217f35": 1790050020.0636191,
     "76b2a4b3bdc5a234": 1790049974.697872,
     "d08cfc3f5330212d": 1790049974.3827808,
@@ -2497,19 +2499,11 @@
     "dc25a96fd68c0ab6": 1789533985.7623422,
     "a09b78873bf16804": 1789533939.8545792,
     "c590ef16f23649d7": 1789533915.6886516,
-    "5ff3af718e2c3823": 1789533849.0028412,
-    "4fc8a0d930a0aeac": 1789533779.8579426,
-    "12805702690ffbcf": 1789533734.1796072
+    "5ff3af718e2c3823": 1789533849.0028412
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331 live blog: Joshua Van vs. Alexandre Pantoja 2",
-      "source": "MMA Fighting",
-      "ts": "2026-09-20T04:07:28+00:00",
-      "cluster": "ce8cfba40b3"
-    },
     {
       "t": "UFC 331 salaries revealed: Alexandre Pantoja, Joshua Van lead all fighters",
       "source": "MMA Fighting",
@@ -4633,16 +4627,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-22T01:20:16+00:00",
       "cluster": "ceb95ee3b02"
+    },
+    {
+      "t": "Israel Adesanya upset by UFC's treatment of Michael 'Venom' Page",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-22T01:46:46+00:00",
+      "cluster": "cfc742b637e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMivwFBVV95cUxORFZDVGYtanE5QkZrT3Rjbk1POWZtZE5GeEw5aUNNQzdXYjVjOXVKV0hNMzUwNk9UT2t6bHlweVBpa1AwQVpyenpUWFBzUXFCMXBQd0hjYkFrb3dFd1Y3U1ZqeXpfQ1YxN3AtOTlHTnlwWnQ1UXpfdGEzd3FLbFVHc3ctdmEwVnZWVV83UHAxc2pjaFBWeGxsenVob2tVVDA2NjYwSHk4OTVTclNFTzJxcFBtQzAtVG43cTh5eGlRcw",
     "CBMitgFBVV95cUxNNlhzZ21hV3ctQXRFaElCUXc5TTJYeHZXaGpvZVphUy1lY2Z4M0ZXRU15Q0hPbTE5OE5uMC0xMy1Ecm50ZUZBRXdFc0NKWFZENnBBVmFqR29DX2VaLURCOHNrOFFkQWo1eGJQSW5UV0tlMnprbm1sSE1IYU9WTDVORzZTc3JZX2g0ZmhPSUwyY0FESkJNbHFTcFdnWHJnQXlycTl1NHZOTDQwUkljd3ltdFlpcXlqZw",
     "https://www.sherdog.com/news/news/Christian-Natividad-turns-8-days-notice-into-a-UFC-contract-in-70-seconds-202717",
     "CBMisAFBVV95cUxQSEtZSlA0Z1V0X1B4cTBIMm55aWNLd3hDNUZldTVUaFpsSmhEYkpSYVZIYUZGTVpaeVZzajBwTmFZR0hZTmY0TzdoMjJmcUpRalB5RmJKMDUwbTVPMm13azZ2Y1dOSHljQnFSRVN2R3BQdWZOM0lmQTNSc0lGdEc5NFFCU010ajdSLUVuVnZaN2J3UC04SHhhZXFKNDhEN3locnVOR1BMUldZYjNGLUVFLQ",
@@ -6141,11 +6140,12 @@
     "CBMiowFBVV95cUxPTGtUQzZVdjZURTRFN2RmdHhlRFlXeHhreEVyTGlwbVNYYktnU1ZkTEo4VlpYLUM3U0VXOFlBcXdwMjZRazF1bTkwRlZUOFBEeDVJTDJpYkhDN1BHRXN1QUpjNlJnaEwzWFJBV0x1VUZDUmlJc2w1d1BPXzR6aF94eEEyaXpfbFBWZE40b1BwU1p5TEFKVk9KZG9CM3ZrdUVTVTln",
     "https://www.sherdog.com/news/news/Undefeated-Patrick-Habirora-draws-former-PFL-MENA-champ-in-Dubai-202900",
     "https://bloodyelbow.com/?p=333082",
-    "b64daa50-fa62-3c64-89be-26a18e508bb5"
+    "b64daa50-fa62-3c64-89be-26a18e508bb5",
+    "3f7b73dd-285f-340a-943e-e457bd00384a"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 19,
+    "ai": 20,
     "staged": 0,
     "prio": 0,
     "lost": 0
