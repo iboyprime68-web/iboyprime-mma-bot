@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3d12a9d6a0539ce7": 1790051631.5257456,
     "8560f8273cfb493e": 1790051523.7174878,
     "5e65b21bf2709c67": 1790051523.3655877,
     "731d1f3db01afca7": 1790051523.3637536,
@@ -2498,8 +2499,7 @@
     "5813651a740c7cc3": 1789535593.1215537,
     "9ff64fd56d3248cf": 1789535526.7141113,
     "01b9185785d6f549": 1789535526.3268116,
-    "90647dbf6503f3b9": 1789535501.212498,
-    "4baf7221f409f6ef": 1789535456.315413
+    "90647dbf6503f3b9": 1789535501.212498
   },
   "initialized": true,
   "v": 4,
@@ -4723,16 +4723,21 @@
       "source": "Sherdog",
       "ts": "2026-09-22T03:22:32+00:00",
       "cluster": "c7106e0c06e"
+    },
+    {
+      "t": "Magomed Ankalaev tells Paulo Costa: ‘I’m your get-out-of-jail-free card’",
+      "source": "Sherdog",
+      "ts": "2026-09-22T04:20:41+00:00",
+      "cluster": "cd1f8fcc7b6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    27
+    28
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/UFCs-newest-fighter-announces-hes-getting-married-just-hours-after-DWCS-win-202722",
     "805f6bd7-4e86-3bf2-b9ac-cfed631cf01e",
     "CBMirwFBVV95cUxQdnFnS0J3bENGSTJjbkdTVEROWkt6aU9ibWhEUU0zVU5hemZOa1dfeWU4Um5vQk91OHdMNTdaTHI0Ul93bWFYZzJGR1BXOU1MLVk4S2hqeFczNFRvc21yWDVkd0huejlJUmI1c2JXUmpic0ptdXNGbjhuS0ZmSWJqNFFmVF80cUJYQldabkpHVTQ1aUxEaGN1UUFwaFN0OWF4YkNJdHV6NFZHQTJCRGhJ",
     "CBMioAFBVV95cUxQaDM3ZDNkdjUxRGdrQU5za3ZpTFVIS0xLMk9uWGx6bXRoR2J4QXZKazllYTJuU1Bjc2xnSENFVndmVmVZSFBldF9OdzZSamNQN2NaSDQ5WjBFS1p5ZDZGOWhUcGwwQ0FOS1RKTlNzY21aMVRQTUh0cV9lWTB0M1FYd0l4a19hQXdVOGxYOWo5cHIxQ00tcThwZ09CdTRZSUhw",
@@ -6231,11 +6236,12 @@
     "CBMipAFBVV95cUxNZFA1elJGVGx2ZFhzZXdGVDJoLTFTUXBDbmExeUpzZS1hSndfT1JrZWxiNTZzaGQtY0NKLW9aUEFqdmVSVlJJaENfLS0wSlFaY01jNkxmbi1rUnV4SjZicjFDVjI2UmtkUEJYWXc2dEtCeldsTWYwckJsSlZ3dm5ObTNuaTd1S05DZ1BpY0F6QjRtWTUwUm5MMHFRZUF6M0wtaGdCVg",
     "CBMitwFBVV95cUxNdjhwU1FnY05uRlZ6TzExTU1kMHJTYmNadTlRNHhLUk45akRKLUhNMDUtYldxeTBheDAzM0E3Sk5Rcm0yR0p4QllEX1dPRmlFU2o4VzU1REhtdVhDYTY2R0xnWkYyajU1MTFOd1ppV3gyTU9mRVVoc2tFNmw1Rm9UcXQwSnpqdkotWXlteVpRU2d5c1pENmNhSkYxTzNxdk1NWkxVcWtyZ2phTUJPclBVeHdyZHI2T0U",
     "CBMiogFBVV95cUxQVmpSNEVjd3U4TWNWaS11MTh2UGcybTY4dmtvSGtJV0Z0RTIxLUEzVnBraVhMLWk0U1VrakExTmtiVHFVODZCX1dTZUdNNGpNc01vaXZoTUZsTzBlUFhBZmhZXzhOV2lXR2NRazNVM2llV2s4YmhZejA3bGFGRXhERDYwc0I2czJXLWRMRU9KMThUOVNqaG9DWXo1SDhQSVd6TlE",
-    "https://www.sherdog.com/news/news/Valter-Walker-admits-foot-problem-has-him-doubting-UFC-title-hopes-202902"
+    "https://www.sherdog.com/news/news/Valter-Walker-admits-foot-problem-has-him-doubting-UFC-title-hopes-202902",
+    "CBMiqAFBVV95cUxOT1RVR3RXYk1tSzBYMHF6TmZKMnhnMm1IQkZ3YVBsTDFodS16OWR3cWFDOHY5VEE5U1l0QmhvdGVUOHo3eXhzbnhlU0ROV3NVOU45MWJwNVNNX1gwa0NuZHl4dDc1WkRBOWFQX2pqajZFeW9oNndrc0s1cXJQVGJMYjdoVm9sTWdsdWl0RHUwYjZsY0dkUFQxY3hxVVotOFRYWUxXYXdXZ2Q"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 43,
+    "ai": 44,
     "staged": 3,
     "prio": 0,
     "lost": 0
