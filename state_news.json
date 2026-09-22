@@ -1,5 +1,8 @@
 {
   "seen": {
+    "f129cb74dc78046f": 1790105043.832778,
+    "a7b70980237bdd62": 1790105043.331126,
+    "f24f9080f6380d72": 1790105043.3028193,
     "8765fe3bbaf17cea": 1790104917.7689164,
     "f3f586dbcf434ea9": 1790104853.3373184,
     "224eba2689495ab5": 1790104788.4569442,
@@ -2496,10 +2499,7 @@
     "9c0faa22436074b0": 1789596330.2596323,
     "c0eef795300e5628": 1789596265.223,
     "2fcc2ae90f41588b": 1789596200.1527956,
-    "0f320f4b9bb70e3c": 1789596175.7554083,
-    "b439c00eecf0cb59": 1789596175.3980248,
-    "e30cdb24619e8ab1": 1789596131.5334032,
-    "66b2923fe66ba100": 1789596066.267841
+    "0f320f4b9bb70e3c": 1789596175.7554083
   },
   "initialized": true,
   "v": 4,
@@ -2653,12 +2653,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-20T22:00:00+00:00",
       "cluster": "c52f9f844aa"
-    },
-    {
-      "t": "Gable Steveson’s manager releases statement after shocking 12-second knockout loss at UFC 331",
-      "source": "MMA Fighting",
-      "ts": "2026-09-20T19:23:25+00:00",
-      "cluster": "c222c8fb883"
     },
     {
       "t": "Matches to make for ‘Van vs. Pantoja 2’ main card winners",
@@ -4621,16 +4615,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-22T19:20:53+00:00",
       "cluster": "c6a1ecf47df"
+    },
+    {
+      "t": "Joshua Van explains why he didn’t pull out of UFC 331 despite suffering severe injury",
+      "source": "MMAWeekly.com",
+      "ts": "2026-09-22T19:20:27+00:00",
+      "cluster": "cfc3cd23cf9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T19",
-    19
+    20
   ],
   "yt_eval": [
-    "CBMiyAFBVV95cUxNT29GbXJFNENISDRDLWh1NGJMSXRsQlYxSm1zTUw1ZlZTeEdGSVZVamFWRHpRRmRzT0pzRjNNLVJydld0eVhKQnRWTmxqTVFlT2YyZnFRcmJPQWpvRTYyTXJQWUswVEVMeUpBd3JkZTBMYUVMdk84Um1lckozdC1VQ1BiWmlWYW16WE00eERiU2s5RlFNVG1hZk90QXZjX1RlZXZuajh4OHF2R0ZJbUVsbG96MHY0c0lTdHRnSF9zc21Fb3VjRjRjWQ",
     "CBMikAFBVV95cUxQdHo4MHhOX21pb0hQQkVoZGdQblctbGZLay1XXzJoUjZtYmhoTlRraGRuY2xMdng5V0lzYmZzUHA2Zi0tRUVoeXNUdDhwNkNzNTBDdHFOY1d5bl9zMXRVOEhiOXhxX1B6b19TZ1dfWXpMaDRxWEF1WHdTY2J3bDFKV2ZSOF9NVHlRUm11N0loUlo",
     "CBMifkFVX3lxTFBkUEF2cmVqaUN0YlFaa1l3VDlkOU12OUIyY0V4TllwaHkwb1Rpa1owdjVXR3VLemx0VHNmYXVxSHNCcFFxSERrcEQ0T1c2V0tlS3hMXzdNTlRJY0NWdU9FOWk1OENkLUN5QkliMFFoWVhjQjhPVWR2REp1UFZkQQ",
     "https://www.sherdog.com/news/news/Jose-Delgado-cant-stop-thinking-about-taking-Jean-Silva-out-202729",
@@ -6129,27 +6128,17 @@
     "CBMi6wFBVV95cUxOcS1GMkxGa0F3M2t0NXRBOXpwTFdrTm4wY0pBa2RXMC13ZzNpakZvTjdfTkNicUZBV3kyMEtIWkhRdjJZTUFtMzVjd2k0eDRoSFZVTjFfQmdfOGVNTmNxYnN0TEZyWk40T2hHVmlmaThVMGFYb3R3NlVwV1FuWUdrejl6WVdMakpqLWJ0R1VUbEZ4NVhFLU1EcVFZSk0ydUx3dHZ3aW81TzljVDNjN3phUHRVc1Ztbl9teDVqR3JnOHJnemdIWFFSeDUzNGRRMThSYTVWQlZYMGh3VUxubWRoYWpXOTdHdE5ReDE0",
     "CBMizgFBVV95cUxNTTB2dUJORXN1UXd1eVo2ck50ZElMTGlNcWFyd256dUxhSDJ6NkhPZ0N2azAzTUlaUzhXUGJLNkZaTTJfSmwtemlTTXZWR2JaT3dtNm1KT2hNdVkzbzBrOUF2cHB3V0pXSWN6ZnBIUFVubG1jUENEZXpqS0pOeEJId2RkYnBsQVNyQ2xacTRaZWREb0FoVUxYc0QxZ0VYZU15TEpsa0dkYVh1U3Nyd252ZHgxSm8tTnZOUld1Z2dtajFOZ19RMk9BRXhWQXBYUQ",
     "CBMimAFBVV95cUxNbi1ONTBzdnREcTFYUEdaeWptYmhjYmMxb1FqZ1c5b2Y5TjdjSnljVlBwMUZjZUlXVm8yd040aDdoUjdJaWRzWENZZndNYnpEZmJ3d1BkNkd6d05NM3loVHNkdFVCWHNGVTM4aGd2OUlySXRBbFNmM05FYnc4MXhVRy1reEMtdW0yMW1SWFh6YzVKZmRzb3Z6cQ",
-    "CBMieEFVX3lxTE1ZWHFHYkZzVTVuNlFEdmZDTlZWeWhzTC1wQlF0cWNNNDlfRDhxX2lDelExV2tWcTVmOF95bEl1bk9iMU5xMVpORUFPdHBvc0FjaV90SHNUT3RqeXBBemhrUnFzLXRkNWJnYmZ4NUZaRE9rcGpCQ3RwVQ"
+    "CBMieEFVX3lxTE1ZWHFHYkZzVTVuNlFEdmZDTlZWeWhzTC1wQlF0cWNNNDlfRDhxX2lDelExV2tWcTVmOF95bEl1bk9iMU5xMVpORUFPdHBvc0FjaV90SHNUT3RqeXBBemhrUnFzLXRkNWJnYmZ4NUZaRE9rcGpCQ3RwVQ",
+    "CBMitgFBVV95cUxOUXNmaVJOVmd4djg2TUN5RlRfdVYtYy11YVE3ekN4U0QzTjM0ZmNYN1l4OGNjQjdIWmp5a3hpVGYtUHdsNFNSY2VGZzZhVTFFUFRjZVpqX1pfMWRpSEdTZFlXYVEwYmthZjgxQjlzU1VIN0FIQWRFQ011WUNBM1hSRGI0bjU2ck5QcWktaWRxanlSSXc1aV9YaEtHQnZFYm1PYVU3SjVrTEdjRmdMZEhJa09pckttZw"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 69,
+    "ai": 70,
     "staged": 6,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-11T13:29:02.140251+00:00",
-      "t": "UFC Champion Justin Gaethje Contemplates Retirement",
-      "names": [
-        "justin",
-        "gaethje",
-        "contemplates",
-        "retirement"
-      ],
-      "img": "cutout:justin-gaethje"
-    },
     {
       "ts": "2026-09-11T13:49:34.776562+00:00",
       "t": "UFC champion Justin Gaethje provides update on possible MMA retirement",
@@ -6926,6 +6915,14 @@
         "strickland"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-22T19:24:04.823845+00:00",
+      "t": "Joshua Van explains why he didn’t pull out of UFC 331 despite suffering severe injury",
+      "names": [
+        "van"
+      ],
+      "img": "wash"
     }
   ],
   "seed_pending": [],
@@ -6987,7 +6984,8 @@
     "edb199aab17359f1": 1790024440.2690525,
     "672c4693b11d2f95": 1790051099.9663594,
     "f63c3b28b4cfe9d2": 1790087958.08759,
-    "2664365eba4702ba": 1790088632.205843
+    "2664365eba4702ba": 1790088632.205843,
+    "f129cb74dc78046f": 1790105043.358493
   },
   "pinged_titles": [
     [
@@ -7010,6 +7008,13 @@
         "kayla",
         "nunes",
         "says"
+      ]
+    ],
+    [
+      "Joshua Van explains why he didn’t pull out of UFC 331 despite suffering severe injury",
+      1790105043.358493,
+      [
+        "van"
       ]
     ]
   ]
