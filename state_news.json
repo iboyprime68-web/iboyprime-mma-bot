@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ca9dfe3bd20c8936": 1790050693.1636384,
     "f78914254ba5e141": 1790050626.9833403,
     "533d6314be630ada": 1790050626.428486,
     "0f4c60f874904327": 1790050581.4232807,
@@ -2498,8 +2499,7 @@
     "4ce3fbe501d59fdf": 1789534852.2905748,
     "93c398f620596d67": 1789534807.9039102,
     "ab919c6dbbb14f09": 1789534783.8602893,
-    "ff9b731dbc16ff27": 1789534718.0003562,
-    "d785d5c1140b0574": 1789534651.9855504
+    "ff9b731dbc16ff27": 1789534718.0003562
   },
   "initialized": true,
   "v": 4,
@@ -4669,16 +4669,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-22T03:59:00+00:00",
       "cluster": "c43242d7703"
+    },
+    {
+      "t": "Arman Tsarukyan Reveals UFC is Working on Title Fight for His Next Appearance",
+      "source": "MMA Sucka",
+      "ts": "2026-09-22T03:59:43+00:00",
+      "cluster": "c1d1827db36"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    14
+    15
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509372",
     "41c7c658-7a17-360a-a460-0f2a8cb664fe",
     "https://bloodyelbow.com/?p=330907",
     "https://bloodyelbow.com/?p=330916",
@@ -6177,25 +6182,17 @@
     "CBMixgFBVV95cUxNY2l5Y1lSMWNZcTJBLS1Ga2FWM2V5Y2d1V09pZTUzbWdPTXFQZDRKcEN1c3RhWUp2TW9LbkhzZ2xUcDNRZG1oZE1fWjViWW1FSGNLcXllZWVGNmNUNjIzT1BuMjNVMHRBejhGeUc0NDV5Y1I5WDUtUlVIckwwYUU4NHpENDJXaURNWktZbnNBOG5WVHFBb040NVpxMFBxdHJhNE5SNjNraGJTcW5PdzhfRU1zVzd1T1Bzd2tQcE1uUWlmTWd0c2c",
     "CBMirgFBVV95cUxPd2dCY1l1WE04V2ozMVFSQ09nUU8zeVpSMldIZnRZY3Q3Sk0tVDVCQ2ZVRFV0ckxQUGRtUnk5X0xXZWJMVTM4bGhZQ1QwMThDdlVmRTNVWE5TakJfTHloYzlULWhDUDhaUGtfLXZTa1I0VGJ1V1MxV1BCbkpoeVVPTU5NaDNwUzFOclZSZmVXTnVncFdEcTBMb25pb0JISW1vRU9rbHBiMEJzRWF6YXc",
     "https://www.mmamania.com/?p=474099",
-    "CBMi1gFBVV95cUxNc0N2b3BxN2ctSUN6M0pRTWhndElDUjhsRzhUbFFyX19XXzl0REFITG5DMzlmYmF2T1g4bjRlUVZRekJjOHZwNVEybndMR0Z3QlZYd1NVWEl0TXRBY0VOWHFBMzZfbllXQ2pOUmRRNm5Pd1JtaE9oOGV3VGxjOGxVenFzd0QxWUZMY0JPTUd5dmxWZW1hd0owMW9ZUmwxbWwzMjJpWGNITVc1bVlZXzVLNWZjUEZkSzFlNnFVTnI2dlNBdXpsNV9ZTVUzOTdpX1JTdk4tQ2Jn"
+    "CBMi1gFBVV95cUxNc0N2b3BxN2ctSUN6M0pRTWhndElDUjhsRzhUbFFyX19XXzl0REFITG5DMzlmYmF2T1g4bjRlUVZRekJjOHZwNVEybndMR0Z3QlZYd1NVWEl0TXRBY0VOWHFBMzZfbllXQ2pOUmRRNm5Pd1JtaE9oOGV3VGxjOGxVenFzd0QxWUZMY0JPTUd5dmxWZW1hd0owMW9ZUmwxbWwzMjJpWGNITVc1bVlZXzVLNWZjUEZkSzFlNnFVTnI2dlNBdXpsNV9ZTVUzOTdpX1JTdk4tQ2Jn",
+    "CBMipwFBVV95cUxOUjc3MGFVZnFxMk55eUJ0Xzc1TXJnVXRWUGpxTE9QYlB1dVJwaUZQcThWekpJOTVHSW5BektoMDM4QTk1cTItSmU2dnViOGNOWkdEZWdZTWRwdk9vaEFscHJESXVpOUlsZ3JhWUFyN1FNczcyaHowTzNwT1NvYUxkTUlhTEtMQ21RLWIzTjhGVUwyM1E4Ykg5cWZkYm9Bd292SWhiM2NhRQ"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 30,
-    "staged": 0,
+    "ai": 31,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-11T03:51:42.584335+00:00",
-      "t": "Dana White weighs in on Justin Gaethje retirement rumors",
-      "names": [
-        "white",
-        "gaethje"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-11T03:58:23.032634+00:00",
       "t": "Nearly three months have passed, and the devastating loss still haunts Alex Pereira. By hook or by crook, the former Ultimate Fighting Championship two-division world champion is seeking a rematch wit",
@@ -6974,6 +6971,19 @@
         "steveson",
         "respect",
         "cejudo"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-22T04:18:14.112905+00:00",
+      "t": "Arman Tsarukyan Reveals UFC is Working on Title Fight for His Next Appearance",
+      "names": [
+        "arman",
+        "tsarukyan",
+        "reveals",
+        "working",
+        "next",
+        "appearance"
       ],
       "img": "photo"
     }
