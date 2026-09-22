@@ -1,5 +1,6 @@
 {
   "seen": {
+    "51b167b58a5ab99f": 1790071547.7035413,
     "122f853f213df412": 1790071476.7508981,
     "6652c371aa1d01f5": 1790071411.9926121,
     "3a6a2b1195ec750b": 1790071388.4670043,
@@ -2498,8 +2499,7 @@
     "0fd978be32060541": 1789569825.6284761,
     "9030d9690c330ac1": 1789569798.8985205,
     "fac94ba8837ff930": 1789569798.4627225,
-    "3212c55e4243ec3c": 1789569774.8211641,
-    "d652968c6577261a": 1789569773.8145754
+    "3212c55e4243ec3c": 1789569774.8211641
   },
   "initialized": true,
   "v": 4,
@@ -4549,13 +4549,19 @@
       "source": "BBC",
       "ts": "2026-09-22T09:59:41+00:00",
       "cluster": "c537175e6bc"
+    },
+    {
+      "t": "UFC Announces Main Card For UFC 333: Volkanovski Vs. Evloev",
+      "source": "Forbes",
+      "ts": "2026-09-22T10:00:00+00:00",
+      "cluster": "ca550cec4a4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T10",
-    4
+    5
   ],
   "yt_eval": [
     "CBMiyAFBVV95cUxNT29GbXJFNENISDRDLWh1NGJMSXRsQlYxSm1zTUw1ZlZTeEdGSVZVamFWRHpRRmRzT0pzRjNNLVJydld0eVhKQnRWTmxqTVFlT2YyZnFRcmJPQWpvRTYyTXJQWUswVEVMeUpBd3JkZTBMYUVMdk84Um1lckozdC1VQ1BiWmlWYW16WE00eERiU2s5RlFNVG1hZk90QXZjX1RlZXZuajh4OHF2R0ZJbUVsbG96MHY0c0lTdHRnSF9zc21Fb3VjRjRjWQ",
