@@ -1,5 +1,7 @@
 {
   "seen": {
+    "eec7b0e948b4fbd3": 1790052407.8773026,
+    "4954c2ab74a9cb28": 1790052407.3275137,
     "b19ccf722618fd8d": 1790052280.2116706,
     "cabe995c893ae216": 1790052151.948045,
     "5161d978afcb79aa": 1790052151.3945637,
@@ -2497,9 +2499,7 @@
     "e5b940859f78d440": 1789536492.617545,
     "a819b9fd33bd1f03": 1789536364.8426497,
     "51245a9005231165": 1789536237.6863713,
-    "5512d39d6029690f": 1789535814.2229948,
-    "b094feed6d31adbb": 1789535811.4668176,
-    "fc72bc4836bc2fe8": 1789535811.4444242
+    "5512d39d6029690f": 1789535814.2229948
   },
   "initialized": true,
   "v": 4,
@@ -4729,16 +4729,21 @@
       "source": "Sherdog",
       "ts": "2026-09-22T04:31:56+00:00",
       "cluster": "ce251c6e5ac"
+    },
+    {
+      "t": "Joshua Van Aims to Break Demetrious Johnson's Records!",
+      "source": "MMA Sucka",
+      "ts": "2026-09-22T04:44:43+00:00",
+      "cluster": "cc99985764b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    31
+    32
   ],
   "yt_eval": [
-    "CBMiigFBVV95cUxNaERBeDM1V0hKQXRwdXV1bkZrdjRNNUJrRDR0WV9kZEw2Y1U1bTNURTFQYm5BZ3ZEcVppcjdTN3IyXzBCU25iOGhwWWZnUklvT2FjRHc3QUkzYVRWN29aVFE2TGRubWlzRGJiamV3dFIza2dDdGFWejdkRnYxREZlQlNPOFJQcWxYbFE",
     "https://www.sherdog.com/news/news/Undefeated-24yearold-makes-UFC-history-with-brutal-DWCS-finish-202723",
     "CBMilgFBVV95cUxNemtZLWpKMXNEc3VXRER4ZEVsdzVjcTE1Y0RwdjFHNFRYT25kMzkxemZpb2dYZThGMk1WRmhTS0hsbXhSY3JOYXhCM1BUWDJ0MTNYNzlSdFZzMHU1SmdZYXZpRDR4by1jdnVqSWVfVE5qU2hDaE53dm9FckVuRGUyVVBnMFExWlJNS0RpWjFxMGF6OVZpUFE",
     "CBMinAFBVV95cUxPa0NJM0prdlZuNDhhVlFGMGVMa2tkQWhKWmR1ZjE1eEhvNjFWeldfZ0ZNT2s3WlRXTTdmUmItcXJTdHMtTVJiLVhEaFpRYVQzaW1hRkJIN09fbGQyN1VLUkd6UDRFYWxBWmZyZDVNaS0wQnNJVXpCaHZUZXJfU3dLT05vcFJWM09IVE1WbWxuN0tvX2tQSHFMZFNkZ3U",
@@ -6237,11 +6242,12 @@
     "CBMiqAFBVV95cUxOT1RVR3RXYk1tSzBYMHF6TmZKMnhnMm1IQkZ3YVBsTDFodS16OWR3cWFDOHY5VEE5U1l0QmhvdGVUOHo3eXhzbnhlU0ROV3NVOU45MWJwNVNNX1gwa0NuZHl4dDc1WkRBOWFQX2pqajZFeW9oNndrc0s1cXJQVGJMYjdoVm9sTWdsdWl0RHUwYjZsY0dkUFQxY3hxVVotOFRYWUxXYXdXZ2Q",
     "CBMilAFBVV95cUxOUTdCWi01RWFLZzI5STlIUkdzSUdTSkZiRnZ4UHgtRE9OLXJLZkFvbWVpUFF6aEQzUGpBUDdoNVhEaVV2TjRBejNPNF9DbDVmWFJxMXZLMy1fMTNMWUJsTnZvaS1jdzhsZlQxODNuenY4MUxsRnUzYkFEODJ6V2QzOWFkTDRHYWRTbFVqME1neFZvU0Yz",
     "CBMiUEFVX3lxTE8ybGQwbmF2b1kwTFpMREFjQmVWcGZsd2g1THJCMWVIRjB6a01sWHVmNTliQXdIY0dsVEdWbzZXa0wycWJxNzlEcE4wUkUxQy1a",
-    "https://www.sherdog.com/news/news/Demetrious-Johnson-spots-his-lesson-in-Arman-Tsarukyans-UFC-331-KO-202905"
+    "https://www.sherdog.com/news/news/Demetrious-Johnson-spots-his-lesson-in-Arman-Tsarukyans-UFC-331-KO-202905",
+    "CBMiowFBVV95cUxNT3hLTTFvMDdZeWZjZG5ZbGZUMjdNRWluWGI5Vm5Na0pONG4zajdmTHB1a2NIb1ZzeXlhRmdVT1ZwN1BVZDRoX3dSZVhoU0FzQVBrXzM0TlRKTjNxcnVPVXlzUnk3M0psUTZBc05GcXpuam9Ic3d2aU0yRUZZTHcxeFJxcjZaOVRxOWRjTndvZjMzRmF1M0JtbTJNRmFJZGpqZVdF"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 47,
+    "ai": 48,
     "staged": 4,
     "prio": 0,
     "lost": 0
