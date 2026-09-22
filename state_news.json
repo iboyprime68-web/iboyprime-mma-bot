@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c6f36aa09eedf78e": 1790050292.5435026,
     "5dc1124f574f5ce8": 1790050267.2557824,
     "ee67d0ae7626e1f7": 1790050222.6848392,
     "92871623fa1d8ed1": 1790050156.327461,
@@ -2498,8 +2499,7 @@
     "de91f5fad63455a2": 1789534185.1548488,
     "028acae6f51fe331": 1789534119.094347,
     "a51142c7e6bd8766": 1789534052.55156,
-    "dad0b33279e2f886": 1789533986.199418,
-    "dc25a96fd68c0ab6": 1789533985.7623422
+    "dad0b33279e2f886": 1789533986.199418
   },
   "initialized": true,
   "v": 4,
@@ -4639,16 +4639,21 @@
       "source": "Sherdog",
       "ts": "2026-09-22T00:05:57+00:00",
       "cluster": "c059764951d"
+    },
+    {
+      "t": "Israel Adesanya sounds off on Tom Aspinall drama",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-22T02:41:37+00:00",
+      "cluster": "c685191f91b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    7
+    8
   ],
   "yt_eval": [
-    "CBMiqwFBVV95cUxNa1dmSDNkbjdFWkFPWDZoYVVsSWRadW1rczJxZEhQQVFxVG9WTjJSaU1NbzZScWxhRVA5dUNuc1BmTjlyV250aUZuaUh2dTVLUVh5Y3FpeUJGQXlSUC1KdDJjS0VQaHRUMVZGckd1U0R6S2Ezd1lDMzA3aEpIR2JhWGxnOF9jdFh4LTN0NFF0a29Gd2tKeFlpZ1puOUZ0alI1UUZDaUVKVElWSjQ",
     "CBMipgFBVV95cUxNRkZmQUZaVzJWdDFRbTJnam14RTh2YUdvX3g4M3RHbFNhcHJKcUN1OXRBSkNWX1BvR2xIM09PUWtSQTBLUTNkM3Vsc2pvVXZhdV9hd2lVQTJsUGx3RmFma0JlNU0zeWlwZG1JMlZhaG52UDlEd3oxUDNmUXFSZk1lM1lidnhDZTZBYWtiRzFoR1lERVlpMTR5cGtkYzJCNW41V0dKcm5R",
     "CBMibEFVX3lxTE1KYTZXZmYxcGtSU1dwQWlHWFlYV3lrYzhBYlRURXcwNHphdWtnemlaRlpLTXBsZjJZUndvT2szMktpS3Z5NTFZR3RJcVlmTkE3YXpzWlRYT0pxZ214cWRuel8xdzFLb05kWHhqcQ",
     "https://www.sherdog.com/news/news/Former-UFC-star-Diego-Sanchez-arrested-on-aggravated-DWI-charge-202718",
@@ -6147,11 +6152,12 @@
     "3f7b73dd-285f-340a-943e-e457bd00384a",
     "0f060b39-5d74-30a6-a6f4-054cba0ff4fb",
     "5dbdd170-4a49-335b-aff5-5de66b45b8c1",
-    "https://www.sherdog.com/news/news/Abubakar-Nurmagomedov-snubs-Arman-Tsarukyan-wants-wrestling-giants-202898"
+    "https://www.sherdog.com/news/news/Abubakar-Nurmagomedov-snubs-Arman-Tsarukyan-wants-wrestling-giants-202898",
+    "e1ebe988-94d3-3d59-a899-7cd02531d8e4"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 23,
+    "ai": 24,
     "staged": 0,
     "prio": 0,
     "lost": 0
