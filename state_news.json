@@ -1,5 +1,7 @@
 {
   "seen": {
+    "cabe995c893ae216": 1790052151.948045,
+    "5161d978afcb79aa": 1790052151.3945637,
     "a19f5b604203f37c": 1790051834.974696,
     "f97bb35f37025553": 1790051834.9727726,
     "c49fde241e678830": 1790051768.3749497,
@@ -2497,9 +2499,7 @@
     "5512d39d6029690f": 1789535814.2229948,
     "b094feed6d31adbb": 1789535811.4668176,
     "fc72bc4836bc2fe8": 1789535811.4444242,
-    "ced20ee501d1cce7": 1789535725.7139888,
-    "b4f6c75aa1daa723": 1789535659.6502168,
-    "f8e7abb33ebbfbba": 1789535659.1654243
+    "ced20ee501d1cce7": 1789535725.7139888
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T06:10:30+00:00",
       "cluster": "c4cfe475b03"
-    },
-    {
-      "t": "Patricio ‘Pitbull’ makes violent case for new UFC deal with Round 1 KO",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-20T04:41:57+00:00",
-      "cluster": "c6bc6b36eb4"
     },
     {
       "t": "UFC 331: Sean Sharaf cashes ‘Chaos’ bonus after embarrassing Gable Steveson",
@@ -2611,12 +2605,6 @@
       "source": "Sportskeeda",
       "ts": "2026-09-20T05:37:00+00:00",
       "cluster": "c7b75e1498a"
-    },
-    {
-      "t": "Bonuses! Sean Sharaf banks $100K for improbable knockout win over Gable Steveson &#124; UFC 331",
-      "source": "MMA Mania",
-      "ts": "2026-09-20T04:38:46+00:00",
-      "cluster": "cd0226ea7c4"
     },
     {
       "t": "Sean Sharaf Pulls Off Biggest Upset in UFC History",
@@ -4741,16 +4729,21 @@
       "source": "매일경제",
       "ts": "2026-09-22T04:00:00+00:00",
       "cluster": "c353edda271"
+    },
+    {
+      "t": "Demetrious Johnson spots his lesson in Arman Tsarukyan's UFC 331 KO",
+      "source": "Sherdog",
+      "ts": "2026-09-22T04:31:56+00:00",
+      "cluster": "ce251c6e5ac"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    30
+    31
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxQaDM3ZDNkdjUxRGdrQU5za3ZpTFVIS0xLMk9uWGx6bXRoR2J4QXZKazllYTJuU1Bjc2xnSENFVndmVmVZSFBldF9OdzZSamNQN2NaSDQ5WjBFS1p5ZDZGOWhUcGwwQ0FOS1RKTlNzY21aMVRQTUh0cV9lWTB0M1FYd0l4a19hQXdVOGxYOWo5cHIxQ00tcThwZ09CdTRZSUhw",
     "CBMiigFBVV95cUxNaERBeDM1V0hKQXRwdXV1bkZrdjRNNUJrRDR0WV9kZEw2Y1U1bTNURTFQYm5BZ3ZEcVppcjdTN3IyXzBCU25iOGhwWWZnUklvT2FjRHc3QUkzYVRWN29aVFE2TGRubWlzRGJiamV3dFIza2dDdGFWejdkRnYxREZlQlNPOFJQcWxYbFE",
     "https://www.sherdog.com/news/news/Undefeated-24yearold-makes-UFC-history-with-brutal-DWCS-finish-202723",
     "CBMilgFBVV95cUxNemtZLWpKMXNEc3VXRER4ZEVsdzVjcTE1Y0RwdjFHNFRYT25kMzkxemZpb2dYZThGMk1WRmhTS0hsbXhSY3JOYXhCM1BUWDJ0MTNYNzlSdFZzMHU1SmdZYXZpRDR4by1jdnVqSWVfVE5qU2hDaE53dm9FckVuRGUyVVBnMFExWlJNS0RpWjFxMGF6OVZpUFE",
@@ -6249,11 +6242,12 @@
     "https://www.sherdog.com/news/news/Valter-Walker-admits-foot-problem-has-him-doubting-UFC-title-hopes-202902",
     "CBMiqAFBVV95cUxOT1RVR3RXYk1tSzBYMHF6TmZKMnhnMm1IQkZ3YVBsTDFodS16OWR3cWFDOHY5VEE5U1l0QmhvdGVUOHo3eXhzbnhlU0ROV3NVOU45MWJwNVNNX1gwa0NuZHl4dDc1WkRBOWFQX2pqajZFeW9oNndrc0s1cXJQVGJMYjdoVm9sTWdsdWl0RHUwYjZsY0dkUFQxY3hxVVotOFRYWUxXYXdXZ2Q",
     "CBMilAFBVV95cUxOUTdCWi01RWFLZzI5STlIUkdzSUdTSkZiRnZ4UHgtRE9OLXJLZkFvbWVpUFF6aEQzUGpBUDdoNVhEaVV2TjRBejNPNF9DbDVmWFJxMXZLMy1fMTNMWUJsTnZvaS1jdzhsZlQxODNuenY4MUxsRnUzYkFEODJ6V2QzOWFkTDRHYWRTbFVqME1neFZvU0Yz",
-    "CBMiUEFVX3lxTE8ybGQwbmF2b1kwTFpMREFjQmVWcGZsd2g1THJCMWVIRjB6a01sWHVmNTliQXdIY0dsVEdWbzZXa0wycWJxNzlEcE4wUkUxQy1a"
+    "CBMiUEFVX3lxTE8ybGQwbmF2b1kwTFpMREFjQmVWcGZsd2g1THJCMWVIRjB6a01sWHVmNTliQXdIY0dsVEdWbzZXa0wycWJxNzlEcE4wUkUxQy1a",
+    "https://www.sherdog.com/news/news/Demetrious-Johnson-spots-his-lesson-in-Arman-Tsarukyans-UFC-331-KO-202905"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 46,
+    "ai": 47,
     "staged": 4,
     "prio": 0,
     "lost": 0
