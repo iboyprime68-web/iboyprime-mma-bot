@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c49fde241e678830": 1790051768.3749497,
     "978d25441c7cd906": 1790051697.676637,
     "3d12a9d6a0539ce7": 1790051631.5257456,
     "8560f8273cfb493e": 1790051523.7174878,
@@ -2498,8 +2499,7 @@
     "b4f6c75aa1daa723": 1789535659.6502168,
     "f8e7abb33ebbfbba": 1789535659.1654243,
     "5813651a740c7cc3": 1789535593.1215537,
-    "9ff64fd56d3248cf": 1789535526.7141113,
-    "01b9185785d6f549": 1789535526.3268116
+    "9ff64fd56d3248cf": 1789535526.7141113
   },
   "initialized": true,
   "v": 4,
@@ -4735,16 +4735,21 @@
       "source": "The Sun",
       "ts": "2026-09-22T04:30:00+00:00",
       "cluster": "cb4cf8d899f"
+    },
+    {
+      "t": "Joshua Van, a UFC flyweight fighter who defended the champion belt by winning a decision and blood f..",
+      "source": "매일경제",
+      "ts": "2026-09-22T04:00:00+00:00",
+      "cluster": "c353edda271"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    29
+    30
   ],
   "yt_eval": [
-    "CBMirwFBVV95cUxQdnFnS0J3bENGSTJjbkdTVEROWkt6aU9ibWhEUU0zVU5hemZOa1dfeWU4Um5vQk91OHdMNTdaTHI0Ul93bWFYZzJGR1BXOU1MLVk4S2hqeFczNFRvc21yWDVkd0huejlJUmI1c2JXUmpic0ptdXNGbjhuS0ZmSWJqNFFmVF80cUJYQldabkpHVTQ1aUxEaGN1UUFwaFN0OWF4YkNJdHV6NFZHQTJCRGhJ",
     "CBMioAFBVV95cUxQaDM3ZDNkdjUxRGdrQU5za3ZpTFVIS0xLMk9uWGx6bXRoR2J4QXZKazllYTJuU1Bjc2xnSENFVndmVmVZSFBldF9OdzZSamNQN2NaSDQ5WjBFS1p5ZDZGOWhUcGwwQ0FOS1RKTlNzY21aMVRQTUh0cV9lWTB0M1FYd0l4a19hQXdVOGxYOWo5cHIxQ00tcThwZ09CdTRZSUhw",
     "CBMiigFBVV95cUxNaERBeDM1V0hKQXRwdXV1bkZrdjRNNUJrRDR0WV9kZEw2Y1U1bTNURTFQYm5BZ3ZEcVppcjdTN3IyXzBCU25iOGhwWWZnUklvT2FjRHc3QUkzYVRWN29aVFE2TGRubWlzRGJiamV3dFIza2dDdGFWejdkRnYxREZlQlNPOFJQcWxYbFE",
     "https://www.sherdog.com/news/news/Undefeated-24yearold-makes-UFC-history-with-brutal-DWCS-finish-202723",
@@ -6243,11 +6248,12 @@
     "CBMiogFBVV95cUxQVmpSNEVjd3U4TWNWaS11MTh2UGcybTY4dmtvSGtJV0Z0RTIxLUEzVnBraVhMLWk0U1VrakExTmtiVHFVODZCX1dTZUdNNGpNc01vaXZoTUZsTzBlUFhBZmhZXzhOV2lXR2NRazNVM2llV2s4YmhZejA3bGFGRXhERDYwc0I2czJXLWRMRU9KMThUOVNqaG9DWXo1SDhQSVd6TlE",
     "https://www.sherdog.com/news/news/Valter-Walker-admits-foot-problem-has-him-doubting-UFC-title-hopes-202902",
     "CBMiqAFBVV95cUxOT1RVR3RXYk1tSzBYMHF6TmZKMnhnMm1IQkZ3YVBsTDFodS16OWR3cWFDOHY5VEE5U1l0QmhvdGVUOHo3eXhzbnhlU0ROV3NVOU45MWJwNVNNX1gwa0NuZHl4dDc1WkRBOWFQX2pqajZFeW9oNndrc0s1cXJQVGJMYjdoVm9sTWdsdWl0RHUwYjZsY0dkUFQxY3hxVVotOFRYWUxXYXdXZ2Q",
-    "CBMilAFBVV95cUxOUTdCWi01RWFLZzI5STlIUkdzSUdTSkZiRnZ4UHgtRE9OLXJLZkFvbWVpUFF6aEQzUGpBUDdoNVhEaVV2TjRBejNPNF9DbDVmWFJxMXZLMy1fMTNMWUJsTnZvaS1jdzhsZlQxODNuenY4MUxsRnUzYkFEODJ6V2QzOWFkTDRHYWRTbFVqME1neFZvU0Yz"
+    "CBMilAFBVV95cUxOUTdCWi01RWFLZzI5STlIUkdzSUdTSkZiRnZ4UHgtRE9OLXJLZkFvbWVpUFF6aEQzUGpBUDdoNVhEaVV2TjRBejNPNF9DbDVmWFJxMXZLMy1fMTNMWUJsTnZvaS1jdzhsZlQxODNuenY4MUxsRnUzYkFEODJ6V2QzOWFkTDRHYWRTbFVqME1neFZvU0Yz",
+    "CBMiUEFVX3lxTE8ybGQwbmF2b1kwTFpMREFjQmVWcGZsd2g1THJCMWVIRjB6a01sWHVmNTliQXdIY0dsVEdWbzZXa0wycWJxNzlEcE4wUkUxQy1a"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 45,
+    "ai": 46,
     "staged": 4,
     "prio": 0,
     "lost": 0
