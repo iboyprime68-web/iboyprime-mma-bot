@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1a91433c651f1e8c": 1790103120.755359,
     "4137a5a54fc3460c": 1790103056.3775532,
     "06c069723128af35": 1790102993.0430477,
     "1b5cb0a42550a668": 1790102929.1061308,
@@ -2498,8 +2499,7 @@
     "f744701d3a92c286": 1789585014.7665207,
     "74306e76e2de5c18": 1789585014.764669,
     "619ee2464fbe52f7": 1789585014.7636852,
-    "b43e4e2fa7079279": 1789585014.7608633,
-    "72adac2d973ac133": 1789584949.7183268
+    "b43e4e2fa7079279": 1789585014.7608633
   },
   "initialized": true,
   "v": 4,
@@ -4477,13 +4477,19 @@
       "source": "USA Today",
       "ts": "2026-09-22T17:51:10+00:00",
       "cluster": "c82a4bb048d"
+    },
+    {
+      "t": "Dana White's Contender Series start time: Where to watch, live stream Week 7 and the full fight card",
+      "source": "cbssports.com",
+      "ts": "2026-09-22T17:51:26+00:00",
+      "cluster": "cfb077cef03"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T18",
-    20
+    21
   ],
   "yt_eval": [
     "CBMiyAFBVV95cUxNT29GbXJFNENISDRDLWh1NGJMSXRsQlYxSm1zTUw1ZlZTeEdGSVZVamFWRHpRRmRzT0pzRjNNLVJydld0eVhKQnRWTmxqTVFlT2YyZnFRcmJPQWpvRTYyTXJQWUswVEVMeUpBd3JkZTBMYUVMdk84Um1lckozdC1VQ1BiWmlWYW16WE00eERiU2s5RlFNVG1hZk90QXZjX1RlZXZuajh4OHF2R0ZJbUVsbG96MHY0c0lTdHRnSF9zc21Fb3VjRjRjWQ",
