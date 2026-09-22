@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2918d4f5ebe41b12": 1790103830.153606,
     "76d91f36fe9ea0e9": 1790103765.8698626,
     "b7340ee70f2fbfd2": 1790103765.6094906,
     "3aa8556abdeb414c": 1790103702.8656113,
@@ -2498,8 +2499,7 @@
     "8a0a464fa9f4e6df": 1789586709.2540352,
     "c3ea20bef96abdbc": 1789586519.0472977,
     "e3f12629945a8919": 1789586453.017512,
-    "25a8d7525f10265d": 1789586325.2645214,
-    "f7b03ebe797c2667": 1789586196.1303737
+    "25a8d7525f10265d": 1789586325.2645214
   },
   "initialized": true,
   "v": 4,
@@ -4543,13 +4543,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-22T18:16:20+00:00",
       "cluster": "c1414ea1ee7"
+    },
+    {
+      "t": "UFC 332: Silva vs. Wang Live Stream of UFC",
+      "source": "cbssports.com",
+      "ts": "2026-09-22T18:17:53+00:00",
+      "cluster": "c2d76542208"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T19",
-    5
+    6
   ],
   "yt_eval": [
     "CBMiyAFBVV95cUxNT29GbXJFNENISDRDLWh1NGJMSXRsQlYxSm1zTUw1ZlZTeEdGSVZVamFWRHpRRmRzT0pzRjNNLVJydld0eVhKQnRWTmxqTVFlT2YyZnFRcmJPQWpvRTYyTXJQWUswVEVMeUpBd3JkZTBMYUVMdk84Um1lckozdC1VQ1BiWmlWYW16WE00eERiU2s5RlFNVG1hZk90QXZjX1RlZXZuajh4OHF2R0ZJbUVsbG96MHY0c0lTdHRnSF9zc21Fb3VjRjRjWQ",
