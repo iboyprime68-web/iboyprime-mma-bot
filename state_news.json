@@ -1,5 +1,7 @@
 {
   "seen": {
+    "36aab5ad9682de7b": 1790035784.4377437,
+    "905577b340ba4d08": 1790035784.0450833,
     "385f486e17b7e5ef": 1790035468.9028485,
     "b8ff28199206e188": 1790035468.901533,
     "cccb54a5b9392e39": 1790035468.9006422,
@@ -2497,19 +2499,11 @@
     "1fb22b588db67819": 1789518831.4448018,
     "3f27d8ea16eb3e8e": 1789518703.3349283,
     "d73c09e9ce69d007": 1789518703.05618,
-    "70db77d374cb3952": 1789518703.0541081,
-    "495716a597b38caa": 1789518574.8777535,
-    "a898005092e5cef6": 1789518383.1810777
+    "70db77d374cb3952": 1789518703.0541081
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "~+#@@Reddit~UFC 331 𝐒treams - Buff𝐬treams Crack𝐬treams 𝐒treamEast",
-      "source": "Northwest Ontario News",
-      "ts": "2026-09-20T00:38:37+00:00",
-      "cluster": "c3b773842ed"
-    },
     {
       "t": "UFC 331 live blog: Alonzo Menifield vs. Iwo Baraniewski",
       "source": "MMA Fighting",
@@ -4903,16 +4897,21 @@
       "source": "Men's Fitness",
       "ts": "2026-09-21T23:48:25+00:00",
       "cluster": "c63d5d8e803"
+    },
+    {
+      "t": "Jon Jones Clears The Air On Gable Steveson's Abrupt UFC 331 Departure - \"It Was My Decision...\"",
+      "source": "lowkickmma.com",
+      "ts": "2026-09-22T00:04:02+00:00",
+      "cluster": "c8c6f7e1b4c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T00",
-    5
+    6
   ],
   "yt_eval": [
-    "https://www.mmamania.com/470337/ufc-contender-series-results-live-coverage-and-full-fight-highlights-5-contracts-season-10-ep-4",
     "01748cd7-ba0f-390c-b931-b16ed7e77267",
     "2d56bec6-90b7-360d-b233-2ecdeba57620",
     "10483281-db09-36af-b461-eba7c3f61810",
@@ -6411,11 +6410,12 @@
     "https://www.mmafighting.com/?p=511602",
     "CBMiekFVX3lxTFBZaHY1bVZZVVRLUVEwZ3Bid2NYR21IcTUwM2daNlEzV3djTk1mQjBYbUdWQlBsd0E5N3A1VzFub1N1SHdNNGhoNmF2aTRaN2ctVWprbkxfODlZbmRCNnBRemlCYURNcHJ5QVVxdTRrWGRKRGt6VnllNjNR",
     "CBMijwFBVV95cUxQdHhDa0dYSms4MF9BM1Z5TG1JWEZQU0J0ZEROMzNZb1poanJNdFNrVXh6RDY1R2N4S3lYeVNldzNLS2F2VUhocmZ0SDVtczRmN3ZBT0xrSlZxeUxycU83R1Q4Nk1ZR0xTOV8xUjVjREJoQkdhUzF1Z2NLQWJLTzZ6dkxrTHUyaHdiUU0zTlgwMA",
-    "CBMilwFBVV95cUxQdTc3RnUzZllGMi05QUFNMVl2NGNsS0xWQlI1cjJhVUx6ZTBYb1k1azFKbE1YNjlCcWs1anpLczMyZmhEblY2cUpTOFZoVk16T2toa3d1QUFxU0hqbWtnN0hTamhQOU1QcENTRVgySW05SGRwTmVEYWFzTUFFNmpkbjEzaUkwa0ZoREVTQkhGRm5tc3R6LUtN"
+    "CBMilwFBVV95cUxQdTc3RnUzZllGMi05QUFNMVl2NGNsS0xWQlI1cjJhVUx6ZTBYb1k1azFKbE1YNjlCcWs1anpLczMyZmhEblY2cUpTOFZoVk16T2toa3d1QUFxU0hqbWtnN0hTamhQOU1QcENTRVgySW05SGRwTmVEYWFzTUFFNmpkbjEzaUkwa0ZoREVTQkhGRm5tc3R6LUtN",
+    "CBMiekFVX3lxTE5lYmUxZmdZd08yRUJnaDc4aEU2a0xzUzBfUGM0QndsTlVCQzFEbFpPR1I4bm0tWlVPTFlKOE01UEJDZ0JVaWVCUWNjRmctVlY1WmhTbE9rdXVjSHlMNjBEdnF0SHRfWEd4T0JxV3lDay1Yd0VwXy0zMnJB"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 5,
+    "ai": 6,
     "staged": 0,
     "prio": 0,
     "lost": 0
