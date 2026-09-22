@@ -1,5 +1,13 @@
 {
   "seen": {
+    "8f0b0f4f008cdcf3": 1790050424.198031,
+    "17bb2bb0becec983": 1790050423.885608,
+    "6eb842a8693406dc": 1790050423.884342,
+    "13019557bbd7c1dd": 1790050423.8830462,
+    "1b90ca48fc6f4608": 1790050423.8816087,
+    "6bc4af3e0bbabe92": 1790050423.8767083,
+    "b53dcc1fd924df81": 1790050423.875346,
+    "b9363634de136807": 1790050423.8705683,
     "5824a4e701ff0ca6": 1790050358.4802668,
     "c6f36aa09eedf78e": 1790050292.5435026,
     "5dc1124f574f5ce8": 1790050267.2557824,
@@ -2491,15 +2499,7 @@
     "c42433a283debfc7": 1789534560.975831,
     "c88de7f7d981ae6a": 1789534560.6533632,
     "bd1f94886ffae13c": 1789534516.396498,
-    "b36dfa27802298ae": 1789534450.570498,
-    "5d46d4258ee9e31e": 1789534450.1812966,
-    "972466facaf529ef": 1789534384.4383414,
-    "563569d54e52c8e0": 1789534384.0999372,
-    "5583989fdd6bfc88": 1789534318.7959354,
-    "962b702d43129dca": 1789534252.6428776,
-    "de91f5fad63455a2": 1789534185.1548488,
-    "028acae6f51fe331": 1789534119.094347,
-    "a51142c7e6bd8766": 1789534052.55156
+    "b36dfa27802298ae": 1789534450.570498
   },
   "initialized": true,
   "v": 4,
@@ -2587,12 +2587,6 @@
       "source": "mmamania.com",
       "ts": "2026-09-20T05:29:00+00:00",
       "cluster": "ce98fd4c27b"
-    },
-    {
-      "t": "Arman benches Ilia Topuria, Charles Oliveira with thunderous knockout win at UFC 331 — ‘Title shot secured’",
-      "source": "MMA Mania",
-      "ts": "2026-09-20T04:13:18+00:00",
-      "cluster": "cbd77476e23"
     },
     {
       "t": "Gable Steveson On Rebuilding After UFC 331 KO Loss",
@@ -4651,16 +4645,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-22T03:13:00+00:00",
       "cluster": "ccd81dc513c"
+    },
+    {
+      "t": "REACTION: Van Outlasts Pantoja in 5-Round Battle | HQ UFC Stream of UFC",
+      "source": "CBS Sports",
+      "ts": "2026-09-22T03:47:15+00:00",
+      "cluster": "c4ecb6ed289"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    9
+    10
   ],
   "yt_eval": [
-    "CBMibEFVX3lxTE1KYTZXZmYxcGtSU1dwQWlHWFlYV3lrYzhBYlRURXcwNHphdWtnemlaRlpLTXBsZjJZUndvT2szMktpS3Z5NTFZR3RJcVlmTkE3YXpzWlRYT0pxZ214cWRuel8xdzFLb05kWHhqcQ",
     "https://www.sherdog.com/news/news/Former-UFC-star-Diego-Sanchez-arrested-on-aggravated-DWI-charge-202718",
     "https://bloodyelbow.com/?p=330896",
     "https://www.sherdog.com/news/news/Dana-White-compares-UFCs-newest-signing-to-Jon-Jones-following-brutal-finish-202720",
@@ -6159,11 +6158,12 @@
     "5dbdd170-4a49-335b-aff5-5de66b45b8c1",
     "https://www.sherdog.com/news/news/Abubakar-Nurmagomedov-snubs-Arman-Tsarukyan-wants-wrestling-giants-202898",
     "e1ebe988-94d3-3d59-a899-7cd02531d8e4",
-    "CBMihgFBVV95cUxQdDVFUERFMnpIRWZTeFd2N0tqUWh0T2FDZko1cWpoX0hYaVVYREtTS2xPMXVLNFZTNUdrT3BMMDFoTHV5akdtR0VPLW9PeDRwOVlRNXNMZ1psMHNsaFN0cngtdkNwR1lTbk9MckdXX0UyYTR5a2ZrLUczbzBXTm1WS2hDenNRQQ"
+    "CBMihgFBVV95cUxQdDVFUERFMnpIRWZTeFd2N0tqUWh0T2FDZko1cWpoX0hYaVVYREtTS2xPMXVLNFZTNUdrT3BMMDFoTHV5akdtR0VPLW9PeDRwOVlRNXNMZ1psMHNsaFN0cngtdkNwR1lTbk9MckdXX0UyYTR5a2ZrLUczbzBXTm1WS2hDenNRQQ",
+    "CBMinAFBVV95cUxQYVJTdXZrZi10Vm02UExxSkZTVl9tVUFvV0VpRmo5clY5ZnR4NmNuTFRMbVdPUWdEcmdsenNodnpGd3ZRUThSUktjdzRqaXdhS3FpTFZBZTJyV1hCWVFZWTVsZDV5VnBKWWVNWGpvVnhTOFVWbVB3VWF5VUctZDJKbVFxZEZBWmZsYjZrU1RXUkxXSjRzd0s0dHh6SGY"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 25,
+    "ai": 26,
     "staged": 0,
     "prio": 0,
     "lost": 0
