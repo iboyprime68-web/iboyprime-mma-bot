@@ -1,5 +1,8 @@
 {
   "seen": {
+    "d2f0d5242e1e3699": 1790050895.1777892,
+    "4033fb6e8b05b8f8": 1790050894.9364235,
+    "a7fa777a07343a3c": 1790050894.9352963,
     "52c5d17baa69f3e2": 1790050829.0662835,
     "95a9adfc965b9766": 1790050762.6860301,
     "ca9dfe3bd20c8936": 1790050693.1636384,
@@ -2496,20 +2499,11 @@
     "616768a635068980": 1789535057.6396892,
     "c5974ee499119275": 1789534990.9166281,
     "fc7dd67448ae6bef": 1789534924.8305643,
-    "00628b0f506d4da7": 1789534878.9702764,
-    "a549272721d6075d": 1789534854.5002396,
-    "4ce3fbe501d59fdf": 1789534852.2905748,
-    "93c398f620596d67": 1789534807.9039102
+    "00628b0f506d4da7": 1789534878.9702764
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Joshua Van defends title with brilliant 5-round performance over Alexandre Pantoja in UFC 331 main event",
-      "source": "MMA Fighting",
-      "ts": "2026-09-20T04:20:43+00:00",
-      "cluster": "c6c48c87eee"
-    },
     {
       "t": "‘Van is on another level’: Pros react to Joshua Van winning rollicking UFC 331 main event over Alexandre Pantoja",
       "source": "MMA Fighting",
@@ -4687,16 +4681,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-22T04:00:00+00:00",
       "cluster": "c4a8d9873fb"
+    },
+    {
+      "t": "Every UFC 331 fighter just got suspended following violent Los Angeles card, thumb-less Menifield slapped with six-month sit",
+      "source": "MMA Mania",
+      "ts": "2026-09-22T01:50:26+00:00",
+      "cluster": "cfda092044e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    17
+    18
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330916",
     "6440416e-5bf9-3b1e-b208-36260c33bd5c",
     "https://bloodyelbow.com/?p=330922",
     "99d3d416-2f14-3b59-bc86-1430b90d65f0",
@@ -6195,29 +6194,17 @@
     "CBMi1gFBVV95cUxNc0N2b3BxN2ctSUN6M0pRTWhndElDUjhsRzhUbFFyX19XXzl0REFITG5DMzlmYmF2T1g4bjRlUVZRekJjOHZwNVEybndMR0Z3QlZYd1NVWEl0TXRBY0VOWHFBMzZfbllXQ2pOUmRRNm5Pd1JtaE9oOGV3VGxjOGxVenFzd0QxWUZMY0JPTUd5dmxWZW1hd0owMW9ZUmwxbWwzMjJpWGNITVc1bVlZXzVLNWZjUEZkSzFlNnFVTnI2dlNBdXpsNV9ZTVUzOTdpX1JTdk4tQ2Jn",
     "CBMipwFBVV95cUxOUjc3MGFVZnFxMk55eUJ0Xzc1TXJnVXRWUGpxTE9QYlB1dVJwaUZQcThWekpJOTVHSW5BektoMDM4QTk1cTItSmU2dnViOGNOWkdEZWdZTWRwdk9vaEFscHJESXVpOUlsZ3JhWUFyN1FNczcyaHowTzNwT1NvYUxkTUlhTEtMQ21RLWIzTjhGVUwyM1E4Ykg5cWZkYm9Bd292SWhiM2NhRQ",
     "CBMinwFBVV95cUxNbE44aXNPZHJhNWQxd2c2am4yMjY0SmpiLWh5WllwbHFTTVRBdm9HREFpd29GQXd3azQtb1MxN3N6YlBWRVFEOHlLLVFpanJhRVlON2VFbmlGTGNvTHVpWEtJb1RUak1adVhWUUtJRW43QlQwM05GcEhuVG1RbE84aDRBVVd0N000YlJ0bFdvcmpTWHpiUFgwclIyTlozbVk",
-    "235c91be-3234-3b4a-973f-58496864b081"
+    "235c91be-3234-3b4a-973f-58496864b081",
+    "https://www.mmamania.com/?p=474111"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 33,
-    "staged": 1,
+    "ai": 34,
+    "staged": 2,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-11T03:58:23.032634+00:00",
-      "t": "Nearly three months have passed, and the devastating loss still haunts Alex Pereira. By hook or by crook, the former Ultimate Fighting Championship two-division world champion is seeking a rematch wit",
-      "names": [
-        "nearly",
-        "pereira",
-        "ultimate",
-        "fighting",
-        "championship",
-        "gane"
-      ],
-      "img": "cutout:alex-pereira"
-    },
     {
       "ts": "2026-09-11T08:46:19.555327+00:00",
       "t": "Terence Crawford says he will come out of retirement as he calls out undefeated champion",
@@ -6996,6 +6983,16 @@
         "working",
         "next",
         "appearance"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-22T04:21:36.346338+00:00",
+      "t": "Every UFC 331 fighter just got suspended following violent Los Angeles card, thumb-less Menifield slapped with six-month sit",
+      "names": [
+        "every",
+        "angeles",
+        "menifield"
       ],
       "img": "photo"
     }
