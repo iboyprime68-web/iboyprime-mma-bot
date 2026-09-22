@@ -1,5 +1,6 @@
 {
   "seen": {
+    "47c6ca03c5c22684": 1790070289.896201,
     "88479986a3d94dc8": 1790070223.9265373,
     "48d5bb793cd8d767": 1790070152.9330094,
     "84b98f7cdcbd053f": 1790053239.3746605,
@@ -2498,8 +2499,7 @@
     "d070a3b1b70e4067": 1789552275.8268955,
     "6294734451835d61": 1789552252.4468968,
     "053ebeb61c191680": 1789552208.5820918,
-    "0ca4ff4ea6d21aea": 1789552144.2529998,
-    "6f5f04e7c37d3b32": 1789552079.4670234
+    "0ca4ff4ea6d21aea": 1789552144.2529998
   },
   "initialized": true,
   "v": 4,
@@ -4465,16 +4465,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-22T05:41:14+00:00",
       "cluster": "c552fff37ae"
+    },
+    {
+      "t": "Chuck Liddell calls out the UFC fighting style he can't stand",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-22T05:51:41+00:00",
+      "cluster": "c89141eb116"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T09",
-    2
+    3
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=470561",
     "https://www.mmafighting.com/?p=509390",
     "https://www.mmafighting.com/?p=509265",
     "7d9fad5d-95e9-37fc-b65a-1639b7b48cab",
@@ -5973,11 +5978,12 @@
     "CBMiqgFBVV95cUxPQkNuTWdGTy15TFNxMVhGYTRodjZjMkozQWJGaEJTVGc3Rk9sVndUVTJfS2l5U2ExWmkzRWlOYUFhcTFLQlQ5NzlBZXpxSTYwMG1PNW4yazFQWml5Mk16dzVxN1BvSFRGMkJRdnVFSkFNdC01bU95WEk1ZFlRbF81N3hlanNDcjlYQ09qLXlzNjl1dWhpMHRFT1dkNmJ1Z184WXpseEw1Si1BUQ",
     "CBMiowFBVV95cUxNWWw4eEFJZVhHckduX1dpZU5pY1NEaElIWV9HbTI5Q2ptQzJGcmFEalZCUkRhN3F3WWFrY0NkVElKaFVvMG1jX3B5T1kxWVo0dlE3d1A4ZUs3MndFeXQ4WDk0eWNjQjI4YzhHTVkweTVvbjBhY21POUVoZzZMTjF3RG41ZnFfNzR2VUs2cndGdmcxTWRVZDNBeHNheW5tUE9IeTNz",
     "https://www.sherdog.com/news/news/Ian-Garry-accuses-Michael-Morales-of-avoiding-him-then-they-agree-to-fight-202906",
-    "6235ae4d-2053-3536-b97c-4d380e7a3dd3"
+    "6235ae4d-2053-3536-b97c-4d380e7a3dd3",
+    "e68911c4-0aee-3cf8-bc6d-520428368506"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 53,
+    "ai": 54,
     "staged": 5,
     "prio": 0,
     "lost": 0
