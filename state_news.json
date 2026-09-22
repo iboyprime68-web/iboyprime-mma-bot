@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1d96a42e7f757511": 1790051214.839965,
     "825eebd5ae495331": 1790051169.4891367,
     "8f868e5c824d9acf": 1790051169.1336696,
     "672c4693b11d2f95": 1790051100.3728027,
@@ -2498,8 +2499,7 @@
     "fc4e20bdeb24da14": 1789535257.201283,
     "cbfdf3d8a978fae6": 1789535257.200722,
     "cbeec7998881ba77": 1789535191.6904187,
-    "9b4df509a388575e": 1789535191.3579588,
-    "c23cbf78ac0dad79": 1789535124.696974
+    "9b4df509a388575e": 1789535191.3579588
   },
   "initialized": true,
   "v": 4,
@@ -4699,16 +4699,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-22T04:14:50+00:00",
       "cluster": "c3c338c65e0"
+    },
+    {
+      "t": "Gable Steveson ‘wasn’t there’ mentally before historic UFC upset",
+      "source": "Sherdog",
+      "ts": "2026-09-22T02:12:54+00:00",
+      "cluster": "c9041e9a2d5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    22
+    23
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Robert-Whittaker-admits-he-didnt-even-want-to-watch-Michael-Page-202721",
     "e297fc36-1f44-36e2-befc-e7063a564a0f",
     "8064a5f7-003d-383d-9003-ac31d76eebde",
     "3be5a001-6e11-32b7-87ff-de85087958d1",
@@ -6207,11 +6212,12 @@
     "CBMicEFVX3lxTE9TOHJ4dlE5S0xvVllZQ0R0Tm4xek1XVkVaUHpNdWUwSjdXUHJac09XUV9OQjVvUFFPSlN5YVJhLU9BaXcyczd4Y1hjWHpzN1RSM1AyRUkxejZMMHEzUGlYQnJtRFo5WXpNbGtSeS1DTVI",
     "CBMitwFBVV95cUxPVUppcGZIYzBIMHNhaFNzX3pSdGhTRTRadV9fdVlzVkZ5TUEydzdncGJibWNDaWVPTGZ4blBlQVk3RGZua2ZYelN2NjNQa2pBX2VVaWc0M3ZJTzloODc0SUxRY2lyWGktSzdBMWlhTHlIbmxWblZabk42eEJ2MWhFaExWR3MtQzhySjRUOG5CY1ltM1JzQlJoNjhXWUxRUUxRMTN0bXFxeEVOTVJNWXF4UXdFTUhGT28",
     "CBMimgFBVV95cUxOUHZVUjhBWlNVSm5GUURfZDljWUJyQlZFOTB5aHRzUUFFcUlLM1EzdEV3cmxjZ1Q5MWprU2dMYWxGTkxfYjRQU2JRRjFGUHhzbjEyci1aTlhkQl9WTjJyS2xIcm11WWNLWEhrdGh5NXprYkJVVHpCUlNac00tVm5hS1lDQWNXSi05bG90MUpGY2RZWUxTMjRlRkpn",
-    "CBMijwFBVV95cUxQQkh4SzNnX0FsMUc3d0VDbzhxYllxeXJpSHdvR3A1em11MWdnMW9tc0pQRkwzX1dwakxnY0s4QVNPampfYmctR1hxZlBYcUczUzhxVG5jcmk0UEtNSlJFamJqYl9MUFNPQm5vd0pObnFPdUhxcTRtTVYzcFYxLWNxVXR6MHBBYWctUDJDTkpKMA"
+    "CBMijwFBVV95cUxQQkh4SzNnX0FsMUc3d0VDbzhxYllxeXJpSHdvR3A1em11MWdnMW9tc0pQRkwzX1dwakxnY0s4QVNPampfYmctR1hxZlBYcUczUzhxVG5jcmk0UEtNSlJFamJqYl9MUFNPQm5vd0pObnFPdUhxcTRtTVYzcFYxLWNxVXR6MHBBYWctUDJDTkpKMA",
+    "https://www.sherdog.com/news/news/Gable-Steveson-wasnt-there-mentally-before-historic-UFC-upset-202896"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 38,
+    "ai": 39,
     "staged": 3,
     "prio": 0,
     "lost": 0
