@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5824a4e701ff0ca6": 1790050358.4802668,
     "c6f36aa09eedf78e": 1790050292.5435026,
     "5dc1124f574f5ce8": 1790050267.2557824,
     "ee67d0ae7626e1f7": 1790050222.6848392,
@@ -2498,8 +2499,7 @@
     "962b702d43129dca": 1789534252.6428776,
     "de91f5fad63455a2": 1789534185.1548488,
     "028acae6f51fe331": 1789534119.094347,
-    "a51142c7e6bd8766": 1789534052.55156,
-    "dad0b33279e2f886": 1789533986.199418
+    "a51142c7e6bd8766": 1789534052.55156
   },
   "initialized": true,
   "v": 4,
@@ -4645,16 +4645,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-22T02:41:37+00:00",
       "cluster": "c685191f91b"
+    },
+    {
+      "t": "Patricio ‘Pitbull’ made peace after 11 years, then delivered a UFC TKO",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-22T03:13:00+00:00",
+      "cluster": "ccd81dc513c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    8
+    9
   ],
   "yt_eval": [
-    "CBMipgFBVV95cUxNRkZmQUZaVzJWdDFRbTJnam14RTh2YUdvX3g4M3RHbFNhcHJKcUN1OXRBSkNWX1BvR2xIM09PUWtSQTBLUTNkM3Vsc2pvVXZhdV9hd2lVQTJsUGx3RmFma0JlNU0zeWlwZG1JMlZhaG52UDlEd3oxUDNmUXFSZk1lM1lidnhDZTZBYWtiRzFoR1lERVlpMTR5cGtkYzJCNW41V0dKcm5R",
     "CBMibEFVX3lxTE1KYTZXZmYxcGtSU1dwQWlHWFlYV3lrYzhBYlRURXcwNHphdWtnemlaRlpLTXBsZjJZUndvT2szMktpS3Z5NTFZR3RJcVlmTkE3YXpzWlRYT0pxZ214cWRuel8xdzFLb05kWHhqcQ",
     "https://www.sherdog.com/news/news/Former-UFC-star-Diego-Sanchez-arrested-on-aggravated-DWI-charge-202718",
     "https://bloodyelbow.com/?p=330896",
@@ -6153,11 +6158,12 @@
     "0f060b39-5d74-30a6-a6f4-054cba0ff4fb",
     "5dbdd170-4a49-335b-aff5-5de66b45b8c1",
     "https://www.sherdog.com/news/news/Abubakar-Nurmagomedov-snubs-Arman-Tsarukyan-wants-wrestling-giants-202898",
-    "e1ebe988-94d3-3d59-a899-7cd02531d8e4"
+    "e1ebe988-94d3-3d59-a899-7cd02531d8e4",
+    "CBMihgFBVV95cUxQdDVFUERFMnpIRWZTeFd2N0tqUWh0T2FDZko1cWpoX0hYaVVYREtTS2xPMXVLNFZTNUdrT3BMMDFoTHV5akdtR0VPLW9PeDRwOVlRNXNMZ1psMHNsaFN0cngtdkNwR1lTbk9MckdXX0UyYTR5a2ZrLUczbzBXTm1WS2hDenNRQQ"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 24,
+    "ai": 25,
     "staged": 0,
     "prio": 0,
     "lost": 0
