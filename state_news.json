@@ -1,5 +1,7 @@
 {
   "seen": {
+    "5631c27ecacb1ffb": 1790050490.1859438,
+    "4a67bdaece2d1e78": 1790050489.9071286,
     "8f0b0f4f008cdcf3": 1790050424.198031,
     "17bb2bb0becec983": 1790050423.885608,
     "6eb842a8693406dc": 1790050423.884342,
@@ -2497,9 +2499,7 @@
     "9f0427b5c17ca7fa": 1789534651.622277,
     "547064838ef87f8a": 1789534586.4672604,
     "c42433a283debfc7": 1789534560.975831,
-    "c88de7f7d981ae6a": 1789534560.6533632,
-    "bd1f94886ffae13c": 1789534516.396498,
-    "b36dfa27802298ae": 1789534450.570498
+    "c88de7f7d981ae6a": 1789534560.6533632
   },
   "initialized": true,
   "v": 4,
@@ -2527,12 +2527,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T06:10:30+00:00",
       "cluster": "c4cfe475b03"
-    },
-    {
-      "t": "UFC 331 results: Joshua Van caps off upset-filled night with dominant win",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-20T04:14:32+00:00",
-      "cluster": "c7408779d93"
     },
     {
       "t": "Joshua Van wins thrilling Alexandre Pantoja rematch after brutal Arman Tsarukyan KO at UFC 331",
@@ -4651,16 +4645,21 @@
       "source": "CBS Sports",
       "ts": "2026-09-22T03:47:15+00:00",
       "cluster": "c4ecb6ed289"
+    },
+    {
+      "t": "Gable Steveson Becomes the Biggest Upset in UFC History, Surpassing Ronda Rousey and Georges St-Pierre",
+      "source": "MMA Sucka",
+      "ts": "2026-09-22T03:54:43+00:00",
+      "cluster": "c159508ffda"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    10
+    11
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Former-UFC-star-Diego-Sanchez-arrested-on-aggravated-DWI-charge-202718",
     "https://bloodyelbow.com/?p=330896",
     "https://www.sherdog.com/news/news/Dana-White-compares-UFCs-newest-signing-to-Jon-Jones-following-brutal-finish-202720",
     "https://www.mmafighting.com/509109/jean-silva-picks-movsar-evloev-to-dethrone-alexander-volkanovski-im-next-for-ufc-title-after-beating-pinscher-jose-delgado",
@@ -6159,11 +6158,12 @@
     "https://www.sherdog.com/news/news/Abubakar-Nurmagomedov-snubs-Arman-Tsarukyan-wants-wrestling-giants-202898",
     "e1ebe988-94d3-3d59-a899-7cd02531d8e4",
     "CBMihgFBVV95cUxQdDVFUERFMnpIRWZTeFd2N0tqUWh0T2FDZko1cWpoX0hYaVVYREtTS2xPMXVLNFZTNUdrT3BMMDFoTHV5akdtR0VPLW9PeDRwOVlRNXNMZ1psMHNsaFN0cngtdkNwR1lTbk9MckdXX0UyYTR5a2ZrLUczbzBXTm1WS2hDenNRQQ",
-    "CBMinAFBVV95cUxQYVJTdXZrZi10Vm02UExxSkZTVl9tVUFvV0VpRmo5clY5ZnR4NmNuTFRMbVdPUWdEcmdsenNodnpGd3ZRUThSUktjdzRqaXdhS3FpTFZBZTJyV1hCWVFZWTVsZDV5VnBKWWVNWGpvVnhTOFVWbVB3VWF5VUctZDJKbVFxZEZBWmZsYjZrU1RXUkxXSjRzd0s0dHh6SGY"
+    "CBMinAFBVV95cUxQYVJTdXZrZi10Vm02UExxSkZTVl9tVUFvV0VpRmo5clY5ZnR4NmNuTFRMbVdPUWdEcmdsenNodnpGd3ZRUThSUktjdzRqaXdhS3FpTFZBZTJyV1hCWVFZWTVsZDV5VnBKWWVNWGpvVnhTOFVWbVB3VWF5VUctZDJKbVFxZEZBWmZsYjZrU1RXUkxXSjRzd0s0dHh6SGY",
+    "CBMixgFBVV95cUxNY2l5Y1lSMWNZcTJBLS1Ga2FWM2V5Y2d1V09pZTUzbWdPTXFQZDRKcEN1c3RhWUp2TW9LbkhzZ2xUcDNRZG1oZE1fWjViWW1FSGNLcXllZWVGNmNUNjIzT1BuMjNVMHRBejhGeUc0NDV5Y1I5WDUtUlVIckwwYUU4NHpENDJXaURNWktZbnNBOG5WVHFBb040NVpxMFBxdHJhNE5SNjNraGJTcW5PdzhfRU1zVzd1T1Bzd2tQcE1uUWlmTWd0c2c"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 26,
+    "ai": 27,
     "staged": 0,
     "prio": 0,
     "lost": 0
