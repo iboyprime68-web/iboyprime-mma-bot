@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0911f69a5a638839": 1790051034.157587,
     "2d90648e0eed6241": 1790050968.5414608,
     "d2f0d5242e1e3699": 1790050895.1777892,
     "4033fb6e8b05b8f8": 1790050894.9364235,
@@ -2498,8 +2499,7 @@
     "afcfe83b61fef92a": 1789535123.1245177,
     "13d0790df4925a91": 1789535123.102453,
     "616768a635068980": 1789535057.6396892,
-    "c5974ee499119275": 1789534990.9166281,
-    "fc7dd67448ae6bef": 1789534924.8305643
+    "c5974ee499119275": 1789534990.9166281
   },
   "initialized": true,
   "v": 4,
@@ -2599,12 +2599,6 @@
       "source": "Sportskeeda",
       "ts": "2026-09-20T05:32:00+00:00",
       "cluster": "c7a670788f4"
-    },
-    {
-      "t": "Jon Jones’ reaction says it all after Gable Steveson’s 12-second KO loss",
-      "source": "Sherdog",
-      "ts": "2026-09-20T04:23:42+00:00",
-      "cluster": "c5603b4a613"
     },
     {
       "t": "Joe Rogan agrees to have Sean Sharaf on his podcast",
@@ -4693,16 +4687,21 @@
       "source": "boxingnews.com",
       "ts": "2026-09-22T04:00:40+00:00",
       "cluster": "cd031928a8d"
+    },
+    {
+      "t": "\"This could be a bad fight\" - Dustin Poirier and Chris Weidman claim Josh Hokit would be a problem for Ciryl Gane",
+      "source": "Sportskeeda",
+      "ts": "2026-09-22T04:02:00+00:00",
+      "cluster": "c9afbe2ca8d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    19
+    20
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330922",
     "99d3d416-2f14-3b59-bc86-1430b90d65f0",
     "9ca785bb-41a4-3a7c-b441-cb371655850f",
     "https://www.sherdog.com/news/news/Robert-Whittaker-admits-he-didnt-even-want-to-watch-Michael-Page-202721",
@@ -6201,11 +6200,12 @@
     "CBMinwFBVV95cUxNbE44aXNPZHJhNWQxd2c2am4yMjY0SmpiLWh5WllwbHFTTVRBdm9HREFpd29GQXd3azQtb1MxN3N6YlBWRVFEOHlLLVFpanJhRVlON2VFbmlGTGNvTHVpWEtJb1RUak1adVhWUUtJRW43QlQwM05GcEhuVG1RbE84aDRBVVd0N000YlJ0bFdvcmpTWHpiUFgwclIyTlozbVk",
     "235c91be-3234-3b4a-973f-58496864b081",
     "https://www.mmamania.com/?p=474111",
-    "CBMicEFVX3lxTE9TOHJ4dlE5S0xvVllZQ0R0Tm4xek1XVkVaUHpNdWUwSjdXUHJac09XUV9OQjVvUFFPSlN5YVJhLU9BaXcyczd4Y1hjWHpzN1RSM1AyRUkxejZMMHEzUGlYQnJtRFo5WXpNbGtSeS1DTVI"
+    "CBMicEFVX3lxTE9TOHJ4dlE5S0xvVllZQ0R0Tm4xek1XVkVaUHpNdWUwSjdXUHJac09XUV9OQjVvUFFPSlN5YVJhLU9BaXcyczd4Y1hjWHpzN1RSM1AyRUkxejZMMHEzUGlYQnJtRFo5WXpNbGtSeS1DTVI",
+    "CBMitwFBVV95cUxPVUppcGZIYzBIMHNhaFNzX3pSdGhTRTRadV9fdVlzVkZ5TUEydzdncGJibWNDaWVPTGZ4blBlQVk3RGZua2ZYelN2NjNQa2pBX2VVaWc0M3ZJTzloODc0SUxRY2lyWGktSzdBMWlhTHlIbmxWblZabk42eEJ2MWhFaExWR3MtQzhySjRUOG5CY1ltM1JzQlJoNjhXWUxRUUxRMTN0bXFxeEVOTVJNWXF4UXdFTUhGT28"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 35,
+    "ai": 36,
     "staged": 2,
     "prio": 0,
     "lost": 0
