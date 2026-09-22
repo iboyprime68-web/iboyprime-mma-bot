@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8523ab1a0360b48d": 1790105114.4942229,
     "f129cb74dc78046f": 1790105043.832778,
     "a7b70980237bdd62": 1790105043.331126,
     "f24f9080f6380d72": 1790105043.3028193,
@@ -2498,8 +2499,7 @@
     "6899fddd6ad89189": 1789596330.619914,
     "9c0faa22436074b0": 1789596330.2596323,
     "c0eef795300e5628": 1789596265.223,
-    "2fcc2ae90f41588b": 1789596200.1527956,
-    "0f320f4b9bb70e3c": 1789596175.7554083
+    "2fcc2ae90f41588b": 1789596200.1527956
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-20T21:00:00+00:00",
       "cluster": "c2f08c0dc50"
-    },
-    {
-      "t": "Charles Jourdain reveals scary injury that led to him waving off his UFC 331 fight against ‘Chito’ Vera",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-20T19:24:20+00:00",
-      "cluster": "cdb90475262"
     },
     {
       "t": "Dana White: Joshua Van 'greatest thing ever' for flyweight after UFC 331",
@@ -4621,13 +4615,19 @@
       "source": "MMAWeekly.com",
       "ts": "2026-09-22T19:20:27+00:00",
       "cluster": "cfc3cd23cf9"
+    },
+    {
+      "t": "Sean Sharaf Says Jon Jones Watching Felt Like A Final Exam",
+      "source": "MMANews.com",
+      "ts": "2026-09-22T19:23:11+00:00",
+      "cluster": "cda5b8cad49"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T19",
-    20
+    21
   ],
   "yt_eval": [
     "CBMikAFBVV95cUxQdHo4MHhOX21pb0hQQkVoZGdQblctbGZLay1XXzJoUjZtYmhoTlRraGRuY2xMdng5V0lzYmZzUHA2Zi0tRUVoeXNUdDhwNkNzNTBDdHFOY1d5bl9zMXRVOEhiOXhxX1B6b19TZ1dfWXpMaDRxWEF1WHdTY2J3bDFKV2ZSOF9NVHlRUm11N0loUlo",
