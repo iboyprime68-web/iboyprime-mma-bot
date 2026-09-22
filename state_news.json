@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0c9118f2fe47fc2c": 1790089660.8069022,
     "79c6860bad050546": 1790089596.760768,
     "7f643cd3e093724a": 1790089468.877649,
     "086331f2ce174c2f": 1790089404.6764371,
@@ -2498,8 +2499,7 @@
     "1caf76a4ede4a60f": 1789572986.0822945,
     "00b87f163c9b3e42": 1789572921.5542324,
     "dbe1ca678f7f87ee": 1789572731.621658,
-    "3c2c4cdc1300869f": 1789572731.1661813,
-    "6af9db2da0bf50e0": 1789572602.9355712
+    "3c2c4cdc1300869f": 1789572731.1661813
   },
   "initialized": true,
   "v": 4,
@@ -4549,13 +4549,19 @@
       "source": "thenigerianvoice.com",
       "ts": "2026-09-22T15:00:00+00:00",
       "cluster": "c5d5c60d45a"
+    },
+    {
+      "t": "Tsarukyan Confirms Lightweight Contender Status",
+      "source": "boxingnews.com",
+      "ts": "2026-09-22T15:00:41+00:00",
+      "cluster": "c4b30c844a0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T15",
-    4
+    5
   ],
   "yt_eval": [
     "CBMiyAFBVV95cUxNT29GbXJFNENISDRDLWh1NGJMSXRsQlYxSm1zTUw1ZlZTeEdGSVZVamFWRHpRRmRzT0pzRjNNLVJydld0eVhKQnRWTmxqTVFlT2YyZnFRcmJPQWpvRTYyTXJQWUswVEVMeUpBd3JkZTBMYUVMdk84Um1lckozdC1VQ1BiWmlWYW16WE00eERiU2s5RlFNVG1hZk90QXZjX1RlZXZuajh4OHF2R0ZJbUVsbG96MHY0c0lTdHRnSF9zc21Fb3VjRjRjWQ",
