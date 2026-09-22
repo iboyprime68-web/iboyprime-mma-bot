@@ -1,5 +1,6 @@
 {
   "seen": {
+    "36cbc9ba4523f7f6": 1790036685.0779495,
     "cabd41603668ab58": 1790036618.933271,
     "1890816a24e688c1": 1790036617.5927575,
     "aa2b8c9fcb99d6ce": 1790036553.4147868,
@@ -2498,18 +2499,11 @@
     "2aab0bb9f2421b69": 1789519923.9837317,
     "ddf68c0a43b842ce": 1789519859.3924022,
     "43fbee3ddc1221f4": 1789519501.1729438,
-    "2a09be3fe96fdd59": 1789519290.106226,
-    "62e2d7fcb0a0f709": 1789519290.1041331
+    "2a09be3fe96fdd59": 1789519290.106226
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "[>!Here's How To Watch]~Reddit UFC 331 Ｂｕｆｆ𝐒ｔｒｅａｍｓ Ｃｒａｃｋ𝐒ｔｒｅａｍｓ 𝐒ｔｒｅａｍＥａｓｔ",
-      "source": "The Albertan",
-      "ts": "2026-09-20T00:44:21+00:00",
-      "cluster": "c8a17b74d9f"
-    },
     {
       "t": "Robelis Despaigne def. Tai Tuivasa, UFC 331: Best photos",
       "source": "MMA Junkie",
@@ -4903,16 +4897,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-22T00:22:25+00:00",
       "cluster": "cb475ad84a0"
+    },
+    {
+      "t": "Manel Kape sends bold message to Joshua Van after Alexandre Pantoja title defense",
+      "source": "MMA Sucka",
+      "ts": "2026-09-22T00:22:27+00:00",
+      "cluster": "c5ff7305c84"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T00",
-    11
+    12
   ],
   "yt_eval": [
-    "48e53c4d-bd98-36b7-acba-7869ac3c5137",
     "5e98bc40-03bb-3e5c-8e47-fae6a62a466b",
     "3d5b1cfa-acd5-3b86-ad64-50f6b769ddab",
     "6fafefb0-961c-35d0-b5b0-cd45abc42851",
@@ -6411,11 +6410,12 @@
     "CBMikwFBVV95cUxPUy1fMWhCQW9mYWtCR3BOSjRiWEo4UW1JeURObXpobFdBeFdONVlnVDlUaVBieFdQNE9CcnM1UmlzQWVpSkxaQmkzZC1jYU5XQW1LRVR1aWcxMFp3akJmM2VhSVlaS2JjajVkRHVWR2VKLUZ1b3hLVjJtTWJ6NjV6SUpxbDNGVXhzQ1Z6eGQ2QzFaS1E",
     "CBMiogFBVV95cUxNWmdxWTItd3pMckpUY1dxcnVPdzRLOF85Vnd3RWpYWWpvQjNzYVI1eGF5YkdrZjN1ZzRkR01oejVWN3ZvTE42UWhFVlk2bVZobDVGdWppVzYzaXJheHhQc05MOFhrN0tjeDFUMm85UTRhMFYxMDJ3QmdKSDZoQ3VNelRVRTNwZ3ZfRS1FWUNSb3dLVGNCdDFIVnQ0Y0Z6b2RqVWc",
     "CBMiggFBVV95cUxPOWIwYmRVc3B3U2JGMENMQjBIdGJYa1kyNUtjZ0YzV3QtQWpQM2pvbHd2ZXRPMEdzZjU0WFRqQUJ1M3dXQzhyTXBXYzBTU0I3RG13OU9LbVVOWmdidVlMRTUxZFlYUGhyZ29lX0FEakI2QlE2dUNDallibzlLbDYzMGVn",
-    "CBMisgFBVV95cUxQM3dYRlBud0pya3ZEa2UtWDdlSWRFcmFFWHlXbTdGc2FpUm1xbjVLS0ZSQkdlTkJ0MjdqUjAwTFJscXZoZXU0RERPX183WlVkVkRFbzlBYmFqUFh4TUt6bTNCczc2VDBKUGs2NG90dmFuSDNLZGNyWFYxLWcyV2tHX00zVGs4eDFMbDhkc1ljQUNkbXpUM09jTTNUU0VnTGs5V0xoakFhWXRRNElCR2RRQ013"
+    "CBMisgFBVV95cUxQM3dYRlBud0pya3ZEa2UtWDdlSWRFcmFFWHlXbTdGc2FpUm1xbjVLS0ZSQkdlTkJ0MjdqUjAwTFJscXZoZXU0RERPX183WlVkVkRFbzlBYmFqUFh4TUt6bTNCczc2VDBKUGs2NG90dmFuSDNLZGNyWFYxLWcyV2tHX00zVGs4eDFMbDhkc1ljQUNkbXpUM09jTTNUU0VnTGs5V0xoakFhWXRRNElCR2RRQ013",
+    "CBMirAFBVV95cUxOdHZQSXRPVXNVYkg0VzJCQlVZLXNia0xHV05VVXV4Rk1tTk1pSll3TFZMeHNiZXpUQnJnNkMySmJJUWNOaGlPUHVtVWxCSEpxTWlCSk92U08tRm1vZ3p3R3N6Uk5HZmVsSHJGVkRZWFFNXzlMbUR2SGFoREVETi1GMlozUC04bF9sOGNGTE9RQXdKZ3FVWEdCQjRsV3BmMEhfeW41emFIZ29tZmJN"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 11,
+    "ai": 12,
     "staged": 0,
     "prio": 0,
     "lost": 0
