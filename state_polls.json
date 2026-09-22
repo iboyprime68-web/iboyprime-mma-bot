@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 19,
   "staged_at": [
-    "2026-09-20T13:36:44.662032+00:00",
     "2026-09-20T18:52:41.170281+00:00",
     "2026-09-21T15:56:18.816543+00:00",
-    "2026-09-21T20:27:54.856793+00:00"
+    "2026-09-21T20:27:54.856793+00:00",
+    "2026-09-22T14:04:25.770600+00:00"
   ],
   "asked": [
-    "Who is the worst referee stoppage in UFC history?",
     "Who is the most exciting fighter in the UFC right now?",
     "Who is the most gifted athlete in UFC history?",
     "Who is the most boring fighter in the UFC right now?",
@@ -47,27 +46,28 @@
     "Who is the scariest man to ever enter the octagon?",
     "Whose title reign aged the worst?",
     "Who is the most undeniable title challenger in the UFC right now?",
-    "Who takes the crown in a pure grappling match, any era?"
+    "Who takes the crown in a pure grappling match, any era?",
+    "Who is the most complete heavyweight in the UFC right now?"
   ],
   "last_entry": {
-    "q": "Who takes the crown in a pure grappling match, any era?",
+    "q": "Who is the most complete heavyweight in the UFC right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Khabib Nurmagomedov",
-        "emoji": "🦅"
+        "label": "Tom Aspinall",
+        "emoji": "⚡"
       },
       {
-        "label": "Demian Maia",
-        "emoji": "🐙"
+        "label": "Ciryl Gane",
+        "emoji": "🕺"
       },
       {
-        "label": "Islam Makhachev",
-        "emoji": "🐍"
+        "label": "Alexander Volkov",
+        "emoji": "🐺"
       },
       {
-        "label": "Merab Dvalishvili",
-        "emoji": "🚜"
+        "label": "Other (comment below)",
+        "emoji": "💬"
       }
     ]
   }
