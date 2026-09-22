@@ -1,5 +1,7 @@
 {
   "seen": {
+    "62ac1030c8db18de": 1790035403.6130455,
+    "5eb65029428c0eb3": 1790035403.3415449,
     "49d673cdd5d642ed": 1790035338.0338886,
     "3843e665f880c869": 1790035337.449825,
     "39937049dad9ef98": 1790035293.5822873,
@@ -2497,19 +2499,11 @@
     "9a1e8fba3fcafc5c": 1789517935.1468227,
     "ae5c9fd8fa85d63b": 1789517868.1891887,
     "151dd78fff21da24": 1789517802.5265353,
-    "24575b9511515b67": 1789517736.698165,
-    "390d57115215c28a": 1789517736.2922332,
-    "cb25f6cfc1898e23": 1789517736.2910984
+    "24575b9511515b67": 1789517736.698165
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 331 Live 𝐒𝐭𝐫𝐞𝐚𝐦 MMA on TV CHANNEL",
-      "source": "Grice Connect",
-      "ts": "2026-09-20T00:29:04+00:00",
-      "cluster": "cc83ce36e07"
-    },
     {
       "t": "~+#@@Reddit~UFC 331 𝐒treams - Buff𝐬treams Crack𝐬treams 𝐒treamEast",
       "source": "Northwest Ontario News",
@@ -4903,16 +4897,21 @@
       "source": "TMZ",
       "ts": "2026-09-21T23:39:45+00:00",
       "cluster": "c8fc9cdfc64"
+    },
+    {
+      "t": "Why the UFC’s Most Controversial Legal Strike May Get Banned",
+      "source": "Men's Fitness",
+      "ts": "2026-09-21T23:48:25+00:00",
+      "cluster": "c63d5d8e803"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T00",
-    4
+    5
   ],
   "yt_eval": [
-    "0612cfb1-b9d3-3f0d-bbbe-d5aad154eeaf",
     "https://www.mmamania.com/470337/ufc-contender-series-results-live-coverage-and-full-fight-highlights-5-contracts-season-10-ep-4",
     "01748cd7-ba0f-390c-b931-b16ed7e77267",
     "2d56bec6-90b7-360d-b233-2ecdeba57620",
@@ -6411,11 +6410,12 @@
     "https://bloodyelbow.com/?p=333048",
     "https://www.mmafighting.com/?p=511602",
     "CBMiekFVX3lxTFBZaHY1bVZZVVRLUVEwZ3Bid2NYR21IcTUwM2daNlEzV3djTk1mQjBYbUdWQlBsd0E5N3A1VzFub1N1SHdNNGhoNmF2aTRaN2ctVWprbkxfODlZbmRCNnBRemlCYURNcHJ5QVVxdTRrWGRKRGt6VnllNjNR",
-    "CBMijwFBVV95cUxQdHhDa0dYSms4MF9BM1Z5TG1JWEZQU0J0ZEROMzNZb1poanJNdFNrVXh6RDY1R2N4S3lYeVNldzNLS2F2VUhocmZ0SDVtczRmN3ZBT0xrSlZxeUxycU83R1Q4Nk1ZR0xTOV8xUjVjREJoQkdhUzF1Z2NLQWJLTzZ6dkxrTHUyaHdiUU0zTlgwMA"
+    "CBMijwFBVV95cUxQdHhDa0dYSms4MF9BM1Z5TG1JWEZQU0J0ZEROMzNZb1poanJNdFNrVXh6RDY1R2N4S3lYeVNldzNLS2F2VUhocmZ0SDVtczRmN3ZBT0xrSlZxeUxycU83R1Q4Nk1ZR0xTOV8xUjVjREJoQkdhUzF1Z2NLQWJLTzZ6dkxrTHUyaHdiUU0zTlgwMA",
+    "CBMilwFBVV95cUxQdTc3RnUzZllGMi05QUFNMVl2NGNsS0xWQlI1cjJhVUx6ZTBYb1k1azFKbE1YNjlCcWs1anpLczMyZmhEblY2cUpTOFZoVk16T2toa3d1QUFxU0hqbWtnN0hTamhQOU1QcENTRVgySW05SGRwTmVEYWFzTUFFNmpkbjEzaUkwa0ZoREVTQkhGRm5tc3R6LUtN"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 4,
+    "ai": 5,
     "staged": 0,
     "prio": 0,
     "lost": 0
