@@ -1,5 +1,8 @@
 {
   "seen": {
+    "8e4d10c4ec24306f": 1790114578.473506,
+    "b46eb0b6d8ee5b08": 1790114578.2316158,
+    "e4d3ce7cf6e88715": 1790114578.2282786,
     "7ceb1228463f2c20": 1790114514.5518587,
     "46a816ae59ba1983": 1790114450.726109,
     "e2c400443889ae85": 1790114450.313118,
@@ -2496,10 +2499,7 @@
     "664bbdfad2ed6a95": 1789597113.322104,
     "49fc5a6afb42a335": 1789597047.991402,
     "a66c8d39e7a5a6a7": 1789597047.5840495,
-    "76f6f8546495582d": 1789597047.582091,
-    "dfd3f21a07621911": 1789597047.5787015,
-    "3e111361d87e4c12": 1789596983.277846,
-    "1de5a13a9e8414e7": 1789596982.9623158
+    "76f6f8546495582d": 1789597047.582091
   },
   "initialized": true,
   "v": 4,
@@ -4543,13 +4543,19 @@
       "source": "CBS Sports",
       "ts": "2026-09-22T21:20:32+00:00",
       "cluster": "ccc8504d444"
+    },
+    {
+      "t": "Casey O’Neill says viral submission came purely on instinct: ‘I kind of blacked out’",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-22T21:32:10+00:00",
+      "cluster": "c9db344ccb4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T22",
-    3
+    4
   ],
   "yt_eval": [
     "CBMifkFVX3lxTFBkUEF2cmVqaUN0YlFaa1l3VDlkOU12OUIyY0V4TllwaHkwb1Rpa1owdjVXR3VLemx0VHNmYXVxSHNCcFFxSERrcEQ0T1c2V0tlS3hMXzdNTlRJY0NWdU9FOWk1OENkLUN5QkliMFFoWVhjQjhPVWR2REp1UFZkQQ",
