@@ -1,5 +1,6 @@
 {
   "seen": {
+    "88479986a3d94dc8": 1790070223.9265373,
     "48d5bb793cd8d767": 1790070152.9330094,
     "84b98f7cdcbd053f": 1790053239.3746605,
     "2d7bd56ff09f9ed8": 1790053238.9824116,
@@ -2498,8 +2499,7 @@
     "6294734451835d61": 1789552252.4468968,
     "053ebeb61c191680": 1789552208.5820918,
     "0ca4ff4ea6d21aea": 1789552144.2529998,
-    "6f5f04e7c37d3b32": 1789552079.4670234,
-    "4ff6f018043a1645": 1789552014.5539095
+    "6f5f04e7c37d3b32": 1789552079.4670234
   },
   "initialized": true,
   "v": 4,
@@ -4459,16 +4459,21 @@
       "source": "Sherdog",
       "ts": "2026-09-22T04:50:40+00:00",
       "cluster": "cf3fe08527f"
+    },
+    {
+      "t": "Patricio Pitbull Wants to Fight ‘Barking Dog’ Jean Silva",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-22T05:41:14+00:00",
+      "cluster": "c552fff37ae"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T09",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMirgFBVV95cUxNb0Rxa0FPMExkRGpTUjVDRHVYbHpfZU56ekJsNVlPR3VfNFpGaVRYazdBbEhqcC1KWWk1cVRodFAtY2tJeFNEVEJVRUZNVkZCa1JpN2thaC1ObjZfaGNuZGdjb2ZXbmVsX1RQcndPUWRtM1M5S3NiVzVNX1phYzVHM2NtbVV0VXJLZVFSX00wOUNkUjBfLWwyNlc0WElGYmpxR1lLV2tIbTB2UnVCZ1E",
     "https://www.mmamania.com/?p=470561",
     "https://www.mmafighting.com/?p=509390",
     "https://www.mmafighting.com/?p=509265",
@@ -5967,11 +5972,12 @@
     "CBMi0AFBVV95cUxNR0xmakZEOFlfdExQbVg1aEdReG91ckw4VWlfak5jNU9WYlVLOUhYcDUwblltTTZXZTJiYS15M25xdmgybjY4eTRHSEVJSWtmQW9mNmg3MEJ3Nl85QVpLaEUxdVJXX21rbUwwSUp5M3BvQk5RRi11ODRLWUtDRG1uTDlKYVVtVmJxeEh3bUFpRDNiWlRVVnZXRWI0STB5TUVxc1NLbzFTZDZnQ3lVeWpDb21ueFhhb0lWQ0hLRTJhaktkbHZuQWlUS3ZZLS03cUQ1",
     "CBMiqgFBVV95cUxPQkNuTWdGTy15TFNxMVhGYTRodjZjMkozQWJGaEJTVGc3Rk9sVndUVTJfS2l5U2ExWmkzRWlOYUFhcTFLQlQ5NzlBZXpxSTYwMG1PNW4yazFQWml5Mk16dzVxN1BvSFRGMkJRdnVFSkFNdC01bU95WEk1ZFlRbF81N3hlanNDcjlYQ09qLXlzNjl1dWhpMHRFT1dkNmJ1Z184WXpseEw1Si1BUQ",
     "CBMiowFBVV95cUxNWWw4eEFJZVhHckduX1dpZU5pY1NEaElIWV9HbTI5Q2ptQzJGcmFEalZCUkRhN3F3WWFrY0NkVElKaFVvMG1jX3B5T1kxWVo0dlE3d1A4ZUs3MndFeXQ4WDk0eWNjQjI4YzhHTVkweTVvbjBhY21POUVoZzZMTjF3RG41ZnFfNzR2VUs2cndGdmcxTWRVZDNBeHNheW5tUE9IeTNz",
-    "https://www.sherdog.com/news/news/Ian-Garry-accuses-Michael-Morales-of-avoiding-him-then-they-agree-to-fight-202906"
+    "https://www.sherdog.com/news/news/Ian-Garry-accuses-Michael-Morales-of-avoiding-him-then-they-agree-to-fight-202906",
+    "6235ae4d-2053-3536-b97c-4d380e7a3dd3"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 52,
+    "ai": 53,
     "staged": 5,
     "prio": 0,
     "lost": 0
