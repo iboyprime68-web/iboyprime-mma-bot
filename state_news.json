@@ -1,5 +1,8 @@
 {
   "seen": {
+    "04f6cc5caf7b1d13": 1790070691.1856363,
+    "a93680feff3f60cb": 1790070690.8600125,
+    "206ce9084e2bbe39": 1790070690.858523,
     "4e80d063f81ece3b": 1790070625.4046285,
     "41f724f8773b102b": 1790070625.104999,
     "fe0eec77c5e66091": 1790070625.1032102,
@@ -2496,10 +2499,7 @@
     "0b8e1d8165e426d7": 1789552605.5746696,
     "ec95284f416950fb": 1789552560.1316557,
     "53d7517ffd825013": 1789552558.7258754,
-    "65422f5923d0ffd7": 1789552535.3646286,
-    "4fc40a2d3236a473": 1789552470.880756,
-    "37b8ddc4642884eb": 1789552405.6520345,
-    "d1cd175b6b917b96": 1789552405.1675406
+    "65422f5923d0ffd7": 1789552535.3646286
   },
   "initialized": true,
   "v": 4,
@@ -4507,16 +4507,21 @@
       "source": "UFC.com",
       "ts": "2026-09-22T09:05:01+00:00",
       "cluster": "c1fa1d6867d"
+    },
+    {
+      "t": "“I am f***** up”: UFC middleweight champion Sean Strickland shares important training update after tragic",
+      "source": "The Times of India",
+      "ts": "2026-09-22T09:25:00+00:00",
+      "cluster": "c3226ec1b0d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T09",
-    9
+    10
   ],
   "yt_eval": [
-    "4b7c344b-05c0-3d34-8501-44e1edd8910a",
     "1071c472-de4f-3162-90f6-d0346a7d97b5",
     "https://www.sherdog.com/news/news/I-fear-no-man-Kalinn-Williams-ready-to-test-Roberto-Soldics-hype-202726",
     "eb76aec4-08fa-39a1-93c9-2b78092f6e8b",
@@ -6015,11 +6020,12 @@
     "https://www.mmamania.com/?p=474117",
     "0621199f-99d6-3693-8da8-20d9fa67c352",
     "CBMioAFBVV95cUxNUGJLTHNsOVg1Yl9iR3paRlZobHkxeTV2Ul8tNzV2N3BrUEU5MUU0QWEtWWlDTDRKU1FJWjFTUWxVZTViNUczS3ltTTRRbkFLZFpGUUFlWTJ5MEcyelhYbUk2MnNIR1BPSDMwYnJpZU1VWEhRZFNFdnlWNk95MTN0UkFqUGVVLVRzVEt5M21Qcl9fZ29RZ3FRekZrQUd1cHk5",
-    "CBMid0FVX3lxTE1PRko0UmJob295UVdEdURMVTYwRjJTWXZwcUppaVpURlhibjI1eTJzWS1NTDdHeXNqeXRsQlUwUGZTM3pNSU5FWE9MeXhGbDVadTVsUnhIcG92TzNoNnNZZXVXM2xVa3YycGdnTi1majJGQWo5Q0tF"
+    "CBMid0FVX3lxTE1PRko0UmJob295UVdEdURMVTYwRjJTWXZwcUppaVpURlhibjI1eTJzWS1NTDdHeXNqeXRsQlUwUGZTM3pNSU5FWE9MeXhGbDVadTVsUnhIcG92TzNoNnNZZXVXM2xVa3YycGdnTi1majJGQWo5Q0tF",
+    "CBMirgJBVV95cUxNQzRlWExtcjZkUGJqRGdIaHRvQUJrZXZHSEFJT3IwOENGcFZsemN5OXNsWGZFWDZ5dUgwU2RDYWpSV2ZXVEdUOThsZnNTNTZaSU5lSG9SRkZocVBJS3BtNG16XzYwSy1Gd2UtOWRQZ3VFSGhUdk94aEdCU0VieGs1VWJ4LU1BazY3b3QydjJZbDNNbm9iX2Q2bmlOdzAwRFE4ejJxd251bUlLbzlkVlJVUWhnU0MySDhGYmUyelctdXNfdGJwYm5zdVF2emdQYl92Z2tGYUMwZmNVZ0w4aG05MlhMTzR1c3pLMXp2andUUV9hWFJPeGMyWE9BUGJndXVTcmtwa2gwQ2FMLVlwOEdnQ1hFQ0ZtV2Q5OEp0bUp4MW9nV0ZyUkp1OXRyRlhPZ9IBswJBVV95cUxOcDZVR0puUER0QUkxeDlOa0h0S0tnMW5lTC1ZZWN5SWRQMlpvSTRtNTVPWnlwWHNsV2pRaFppUkpFUGhBRFllb3ppYlc3QTF4UU9JRlZ4cV9sYmY0a3ZnZ0tWVWtid0g5aHctLVdBdWZFWGRraGVpY2tSMUkyOEtOWlRONE5KVTBHQmNyejRhMVJCMzBFYmdlcmg1NEhLSXJWaGdOa0lDaFh6NTVXd0YxSllGTWlVaXdxYWJCVk5VWG43Mjc2U1FxOXZSdy1OVHFUcmZkLW9rakJBRDZzTFhtcmpUUTZzMU9HU2ZiaU5MSEw0VDJ4UHo4cWwzMFZJakZud3kzNXlfbjMxV09kREZDbEFBRHpsTm5BMFRDNlJfbVIzMUJVbDJUUTlOQzE2OGs5Vk5R"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 60,
+    "ai": 61,
     "staged": 5,
     "prio": 0,
     "lost": 0
