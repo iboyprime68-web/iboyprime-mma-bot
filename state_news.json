@@ -1,5 +1,6 @@
 {
   "seen": {
+    "dc1ff88300481748": 1790088113.3770041,
     "cd030b6259657f8a": 1790088049.2016206,
     "2df5541f66e956bd": 1790088048.4274704,
     "ad8c07c60c79ae16": 1790087984.0298474,
@@ -2498,8 +2499,7 @@
     "0f61bdbefbcdf12c": 1789570801.805093,
     "e59f42111e93f419": 1789570801.8041532,
     "fd7d25575efa7ecf": 1789570735.8620267,
-    "e0e5790522147245": 1789570710.6256862,
-    "a207d6b9f82bbfc8": 1789570665.9470663
+    "e0e5790522147245": 1789570710.6256862
   },
   "initialized": true,
   "v": 4,
@@ -4459,13 +4459,19 @@
       "source": "CBS Sports",
       "ts": "2026-09-22T13:50:00+00:00",
       "cluster": "c87d1b18dac"
+    },
+    {
+      "t": "UFC champion involved injured after terrifying accident",
+      "source": "Briefly News",
+      "ts": "2026-09-22T13:51:44+00:00",
+      "cluster": "ca0296d88b3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T14",
-    13
+    14
   ],
   "yt_eval": [
     "CBMiyAFBVV95cUxNT29GbXJFNENISDRDLWh1NGJMSXRsQlYxSm1zTUw1ZlZTeEdGSVZVamFWRHpRRmRzT0pzRjNNLVJydld0eVhKQnRWTmxqTVFlT2YyZnFRcmJPQWpvRTYyTXJQWUswVEVMeUpBd3JkZTBMYUVMdk84Um1lckozdC1VQ1BiWmlWYW16WE00eERiU2s5RlFNVG1hZk90QXZjX1RlZXZuajh4OHF2R0ZJbUVsbG96MHY0c0lTdHRnSF9zc21Fb3VjRjRjWQ",
