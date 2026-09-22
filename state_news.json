@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2b1399c680a2dd3e": 1790037390.8628209,
     "c01ae370383fc949": 1790037325.2112303,
     "f9089485e5767359": 1790037156.773206,
     "2b34c30f82fc70ed": 1790037006.6357465,
@@ -2498,18 +2499,11 @@
     "96121fdc16eeaa94": 1789533635.8965077,
     "c404b8b4466f3292": 1789533635.8931463,
     "78655699d2cc19c3": 1789533635.8731108,
-    "6cefb5b1b5a026c2": 1789533635.8500228,
-    "4d3015e57f57a921": 1789520119.3925016
+    "6cefb5b1b5a026c2": 1789533635.8500228
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Ryan Gandra destroys Ozzy Diaz and calls out Israel Adesanya",
-      "source": "MMA Sucka",
-      "ts": "2026-09-20T00:47:01+00:00",
-      "cluster": "c0ecaa70872"
-    },
     {
       "t": "Tai Tuivasa Sets UFC Record Nobody Wants",
       "source": "Men's Fitness",
@@ -4903,16 +4897,21 @@
       "source": "BVM Sports",
       "ts": "2026-09-21T23:51:29+00:00",
       "cluster": "ce28ec69ae5"
+    },
+    {
+      "t": "UFC analyst says Josh Hokit has 'big mountain to climb' against Ciryl Gane",
+      "source": "MMA Junkie",
+      "ts": "2026-09-22T00:30:00+00:00",
+      "cluster": "c9d2d593d65"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T00",
-    14
+    15
   ],
   "yt_eval": [
-    "6fafefb0-961c-35d0-b5b0-cd45abc42851",
     "https://www.mmamania.com/468797/mm-clone",
     "94a48f31-3b17-3384-bf40-274611c738e8",
     "CBMixwFBVV95cUxOcHoyN1VFNFhMU0pidTJtN2JwbUE0VGh5bEJteTAzY3o4cDRaRXV3emxLWjc3dXlEMWxVRXd6OEprSFJXMXdsVktja3YwYjBWZWFUS2Njc0V2a2pFbEVJUVpMZXF3a0dGcWNXc0c5ZTJlTmhYS0VJQWp4NHRmTEpmSW51YmZlZ1NhV2ZYb0xqaGg5b3pkdHRTYklianBTbzkyMmk2QnZfdDRPNnczZVpaZ29EWkFhYkFyV2F6a25mellfLTJSVjFz",
@@ -6411,11 +6410,12 @@
     "CBMisgFBVV95cUxQM3dYRlBud0pya3ZEa2UtWDdlSWRFcmFFWHlXbTdGc2FpUm1xbjVLS0ZSQkdlTkJ0MjdqUjAwTFJscXZoZXU0RERPX183WlVkVkRFbzlBYmFqUFh4TUt6bTNCczc2VDBKUGs2NG90dmFuSDNLZGNyWFYxLWcyV2tHX00zVGs4eDFMbDhkc1ljQUNkbXpUM09jTTNUU0VnTGs5V0xoakFhWXRRNElCR2RRQ013",
     "CBMirAFBVV95cUxOdHZQSXRPVXNVYkg0VzJCQlVZLXNia0xHV05VVXV4Rk1tTk1pSll3TFZMeHNiZXpUQnJnNkMySmJJUWNOaGlPUHVtVWxCSEpxTWlCSk92U08tRm1vZ3p3R3N6Uk5HZmVsSHJGVkRZWFFNXzlMbUR2SGFoREVETi1GMlozUC04bF9sOGNGTE9RQXdKZ3FVWEdCQjRsV3BmMEhfeW41emFIZ29tZmJN",
     "CBMisAJBVV95cUxQNXBLZGZQS1JmRlFRVFQxX1g4eUFaNC0xc2VuWEZKU0o4Zzk1d2dhV09KMUlBd09WdlNQTjBsX0pGclNxbDJwMWRoc2tralFSNEtKSHFSX1U5aXZwMnQtb1l0cTRtVlh5eXp5LTg3X3g2X3VIVEFUVzN4eGIxenAzUzZSc2FmY0FtRk1qSjEwRm55Y2t0cXJFekZaQzFoWnRPdWVPYk1Bd181bkFCNDNNYlRHbXl3OGpQSkQ5djF4OU50ZUlJZTJObmtWTGtNbWVsYjQ5R0cyX2V0ZF9rcnRSWTU3WHkxVGJYYU90cFc5TEZVMUoyWkJaem1xNnlFQkMzR2tzRmhkUzV6QTd0cU56QUpyYlpmUWNHQ2VLTDUyQWFEODBma0JNUVdHbVR4Vk9r",
-    "CBMia0FVX3lxTE1DTWNHYVBhMFVJUEY2RF9nbUhJdGV1YjBaM1NWODY4akRrMDV5aWNwQ0dxcllrSTR2SVd4c2FZRXJhSUUzaWtvRnpWcE9fLUtyM2hZX0hKdndUdlFEanB1OFJVd3hFaERNYk5B"
+    "CBMia0FVX3lxTE1DTWNHYVBhMFVJUEY2RF9nbUhJdGV1YjBaM1NWODY4akRrMDV5aWNwQ0dxcllrSTR2SVd4c2FZRXJhSUUzaWtvRnpWcE9fLUtyM2hZX0hKdndUdlFEanB1OFJVd3hFaERNYk5B",
+    "CBMiyAFBVV95cUxPR1F6TERqanVNRGplNHk4Tnk4STNfWXFzSUpXdzUxOHB0VDc1Ty1QUWd1MDgtcG5pSWZyVjd3R3VFUzl3WXk5RTFKN3FGRU4tRmRnVzFGNFktdjdqZ3JPWHMyY2daMWd3Z2Y0Q1FMeXppSkpBODlUR2pQZGtLOVYtRnhKZmJxUjdIUm5wYkdHdjlaX2pKVGtERGFXSEVGRmpyZzlxcVRMWjFVLUtPaGd5ZnVZZEg4WlJVTUdYaU04cW5uLTlaclhYTA"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 14,
+    "ai": 15,
     "staged": 0,
     "prio": 0,
     "lost": 0
