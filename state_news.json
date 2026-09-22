@@ -1,5 +1,6 @@
 {
   "seen": {
+    "480fdf798a675ac9": 1790070355.98976,
     "47c6ca03c5c22684": 1790070289.896201,
     "88479986a3d94dc8": 1790070223.9265373,
     "48d5bb793cd8d767": 1790070152.9330094,
@@ -2498,8 +2499,7 @@
     "d2d502b4cba802a6": 1789552276.1790679,
     "d070a3b1b70e4067": 1789552275.8268955,
     "6294734451835d61": 1789552252.4468968,
-    "053ebeb61c191680": 1789552208.5820918,
-    "0ca4ff4ea6d21aea": 1789552144.2529998
+    "053ebeb61c191680": 1789552208.5820918
   },
   "initialized": true,
   "v": 4,
@@ -4471,16 +4471,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-22T05:51:41+00:00",
       "cluster": "c89141eb116"
+    },
+    {
+      "t": "Top 3 Contenders for Joshua Van's UFC Title After His Latest Victory",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-22T05:58:18+00:00",
+      "cluster": "cfc1967b6e6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T09",
-    3
+    4
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509390",
     "https://www.mmafighting.com/?p=509265",
     "7d9fad5d-95e9-37fc-b65a-1639b7b48cab",
     "https://bloodyelbow.com/?p=330943",
@@ -5979,11 +5984,12 @@
     "CBMiowFBVV95cUxNWWw4eEFJZVhHckduX1dpZU5pY1NEaElIWV9HbTI5Q2ptQzJGcmFEalZCUkRhN3F3WWFrY0NkVElKaFVvMG1jX3B5T1kxWVo0dlE3d1A4ZUs3MndFeXQ4WDk0eWNjQjI4YzhHTVkweTVvbjBhY21POUVoZzZMTjF3RG41ZnFfNzR2VUs2cndGdmcxTWRVZDNBeHNheW5tUE9IeTNz",
     "https://www.sherdog.com/news/news/Ian-Garry-accuses-Michael-Morales-of-avoiding-him-then-they-agree-to-fight-202906",
     "6235ae4d-2053-3536-b97c-4d380e7a3dd3",
-    "e68911c4-0aee-3cf8-bc6d-520428368506"
+    "e68911c4-0aee-3cf8-bc6d-520428368506",
+    "c45b06d2-a052-3b8b-bf70-2de665af7ca8"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 54,
+    "ai": 55,
     "staged": 5,
     "prio": 0,
     "lost": 0
