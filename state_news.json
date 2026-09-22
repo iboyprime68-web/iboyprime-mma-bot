@@ -1,5 +1,6 @@
 {
   "seen": {
+    "844a81c3d9af41d2": 1790051239.8997402,
     "1d96a42e7f757511": 1790051214.839965,
     "825eebd5ae495331": 1790051169.4891367,
     "8f868e5c824d9acf": 1790051169.1336696,
@@ -2498,8 +2499,7 @@
     "46bb55f3f94edf7a": 1789535257.9240909,
     "fc4e20bdeb24da14": 1789535257.201283,
     "cbfdf3d8a978fae6": 1789535257.200722,
-    "cbeec7998881ba77": 1789535191.6904187,
-    "9b4df509a388575e": 1789535191.3579588
+    "cbeec7998881ba77": 1789535191.6904187
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-20T06:10:30+00:00",
       "cluster": "c4cfe475b03"
-    },
-    {
-      "t": "Joshua Van wins thrilling Alexandre Pantoja rematch after brutal Arman Tsarukyan KO at UFC 331",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-20T04:27:07+00:00",
-      "cluster": "c350f4f9a2b"
     },
     {
       "t": "Patricio ‘Pitbull’ makes violent case for new UFC deal with Round 1 KO",
@@ -4705,16 +4699,21 @@
       "source": "Sherdog",
       "ts": "2026-09-22T02:12:54+00:00",
       "cluster": "c9041e9a2d5"
+    },
+    {
+      "t": "Redemption: Second Chances on Dana White’s Contender Series — Theo Haig",
+      "source": "Cageside Press",
+      "ts": "2026-09-22T04:18:18+00:00",
+      "cluster": "cdff3b0b5ff"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    23
+    24
   ],
   "yt_eval": [
-    "e297fc36-1f44-36e2-befc-e7063a564a0f",
     "8064a5f7-003d-383d-9003-ac31d76eebde",
     "3be5a001-6e11-32b7-87ff-de85087958d1",
     "815a9deb-5aa8-3ff8-a1b5-ace071c17aff",
@@ -6213,11 +6212,12 @@
     "CBMitwFBVV95cUxPVUppcGZIYzBIMHNhaFNzX3pSdGhTRTRadV9fdVlzVkZ5TUEydzdncGJibWNDaWVPTGZ4blBlQVk3RGZua2ZYelN2NjNQa2pBX2VVaWc0M3ZJTzloODc0SUxRY2lyWGktSzdBMWlhTHlIbmxWblZabk42eEJ2MWhFaExWR3MtQzhySjRUOG5CY1ltM1JzQlJoNjhXWUxRUUxRMTN0bXFxeEVOTVJNWXF4UXdFTUhGT28",
     "CBMimgFBVV95cUxOUHZVUjhBWlNVSm5GUURfZDljWUJyQlZFOTB5aHRzUUFFcUlLM1EzdEV3cmxjZ1Q5MWprU2dMYWxGTkxfYjRQU2JRRjFGUHhzbjEyci1aTlhkQl9WTjJyS2xIcm11WWNLWEhrdGh5NXprYkJVVHpCUlNac00tVm5hS1lDQWNXSi05bG90MUpGY2RZWUxTMjRlRkpn",
     "CBMijwFBVV95cUxQQkh4SzNnX0FsMUc3d0VDbzhxYllxeXJpSHdvR3A1em11MWdnMW9tc0pQRkwzX1dwakxnY0s4QVNPampfYmctR1hxZlBYcUczUzhxVG5jcmk0UEtNSlJFamJqYl9MUFNPQm5vd0pObnFPdUhxcTRtTVYzcFYxLWNxVXR6MHBBYWctUDJDTkpKMA",
-    "https://www.sherdog.com/news/news/Gable-Steveson-wasnt-there-mentally-before-historic-UFC-upset-202896"
+    "https://www.sherdog.com/news/news/Gable-Steveson-wasnt-there-mentally-before-historic-UFC-upset-202896",
+    "CBMipAFBVV95cUxNZFA1elJGVGx2ZFhzZXdGVDJoLTFTUXBDbmExeUpzZS1hSndfT1JrZWxiNTZzaGQtY0NKLW9aUEFqdmVSVlJJaENfLS0wSlFaY01jNkxmbi1rUnV4SjZicjFDVjI2UmtkUEJYWXc2dEtCeldsTWYwckJsSlZ3dm5ObTNuaTd1S05DZ1BpY0F6QjRtWTUwUm5MMHFRZUF6M0wtaGdCVg"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 39,
+    "ai": 40,
     "staged": 3,
     "prio": 0,
     "lost": 0
