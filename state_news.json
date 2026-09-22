@@ -1,5 +1,6 @@
 {
   "seen": {
+    "978d25441c7cd906": 1790051697.676637,
     "3d12a9d6a0539ce7": 1790051631.5257456,
     "8560f8273cfb493e": 1790051523.7174878,
     "5e65b21bf2709c67": 1790051523.3655877,
@@ -2498,8 +2499,7 @@
     "f8e7abb33ebbfbba": 1789535659.1654243,
     "5813651a740c7cc3": 1789535593.1215537,
     "9ff64fd56d3248cf": 1789535526.7141113,
-    "01b9185785d6f549": 1789535526.3268116,
-    "90647dbf6503f3b9": 1789535501.212498
+    "01b9185785d6f549": 1789535526.3268116
   },
   "initialized": true,
   "v": 4,
@@ -4729,16 +4729,21 @@
       "source": "Sherdog",
       "ts": "2026-09-22T04:20:41+00:00",
       "cluster": "cd1f8fcc7b6"
+    },
+    {
+      "t": "Insider reveals Tom Aspinall recovery timeline after Brit vacates UFC heavyweight title due to fresh eye setback",
+      "source": "The Sun",
+      "ts": "2026-09-22T04:30:00+00:00",
+      "cluster": "cb4cf8d899f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    28
+    29
   ],
   "yt_eval": [
-    "805f6bd7-4e86-3bf2-b9ac-cfed631cf01e",
     "CBMirwFBVV95cUxQdnFnS0J3bENGSTJjbkdTVEROWkt6aU9ibWhEUU0zVU5hemZOa1dfeWU4Um5vQk91OHdMNTdaTHI0Ul93bWFYZzJGR1BXOU1MLVk4S2hqeFczNFRvc21yWDVkd0huejlJUmI1c2JXUmpic0ptdXNGbjhuS0ZmSWJqNFFmVF80cUJYQldabkpHVTQ1aUxEaGN1UUFwaFN0OWF4YkNJdHV6NFZHQTJCRGhJ",
     "CBMioAFBVV95cUxQaDM3ZDNkdjUxRGdrQU5za3ZpTFVIS0xLMk9uWGx6bXRoR2J4QXZKazllYTJuU1Bjc2xnSENFVndmVmVZSFBldF9OdzZSamNQN2NaSDQ5WjBFS1p5ZDZGOWhUcGwwQ0FOS1RKTlNzY21aMVRQTUh0cV9lWTB0M1FYd0l4a19hQXdVOGxYOWo5cHIxQ00tcThwZ09CdTRZSUhw",
     "CBMiigFBVV95cUxNaERBeDM1V0hKQXRwdXV1bkZrdjRNNUJrRDR0WV9kZEw2Y1U1bTNURTFQYm5BZ3ZEcVppcjdTN3IyXzBCU25iOGhwWWZnUklvT2FjRHc3QUkzYVRWN29aVFE2TGRubWlzRGJiamV3dFIza2dDdGFWejdkRnYxREZlQlNPOFJQcWxYbFE",
@@ -6237,31 +6242,17 @@
     "CBMitwFBVV95cUxNdjhwU1FnY05uRlZ6TzExTU1kMHJTYmNadTlRNHhLUk45akRKLUhNMDUtYldxeTBheDAzM0E3Sk5Rcm0yR0p4QllEX1dPRmlFU2o4VzU1REhtdVhDYTY2R0xnWkYyajU1MTFOd1ppV3gyTU9mRVVoc2tFNmw1Rm9UcXQwSnpqdkotWXlteVpRU2d5c1pENmNhSkYxTzNxdk1NWkxVcWtyZ2phTUJPclBVeHdyZHI2T0U",
     "CBMiogFBVV95cUxQVmpSNEVjd3U4TWNWaS11MTh2UGcybTY4dmtvSGtJV0Z0RTIxLUEzVnBraVhMLWk0U1VrakExTmtiVHFVODZCX1dTZUdNNGpNc01vaXZoTUZsTzBlUFhBZmhZXzhOV2lXR2NRazNVM2llV2s4YmhZejA3bGFGRXhERDYwc0I2czJXLWRMRU9KMThUOVNqaG9DWXo1SDhQSVd6TlE",
     "https://www.sherdog.com/news/news/Valter-Walker-admits-foot-problem-has-him-doubting-UFC-title-hopes-202902",
-    "CBMiqAFBVV95cUxOT1RVR3RXYk1tSzBYMHF6TmZKMnhnMm1IQkZ3YVBsTDFodS16OWR3cWFDOHY5VEE5U1l0QmhvdGVUOHo3eXhzbnhlU0ROV3NVOU45MWJwNVNNX1gwa0NuZHl4dDc1WkRBOWFQX2pqajZFeW9oNndrc0s1cXJQVGJMYjdoVm9sTWdsdWl0RHUwYjZsY0dkUFQxY3hxVVotOFRYWUxXYXdXZ2Q"
+    "CBMiqAFBVV95cUxOT1RVR3RXYk1tSzBYMHF6TmZKMnhnMm1IQkZ3YVBsTDFodS16OWR3cWFDOHY5VEE5U1l0QmhvdGVUOHo3eXhzbnhlU0ROV3NVOU45MWJwNVNNX1gwa0NuZHl4dDc1WkRBOWFQX2pqajZFeW9oNndrc0s1cXJQVGJMYjdoVm9sTWdsdWl0RHUwYjZsY0dkUFQxY3hxVVotOFRYWUxXYXdXZ2Q",
+    "CBMilAFBVV95cUxOUTdCWi01RWFLZzI5STlIUkdzSUdTSkZiRnZ4UHgtRE9OLXJLZkFvbWVpUFF6aEQzUGpBUDdoNVhEaVV2TjRBejNPNF9DbDVmWFJxMXZLMy1fMTNMWUJsTnZvaS1jdzhsZlQxODNuenY4MUxsRnUzYkFEODJ6V2QzOWFkTDRHYWRTbFVqME1neFZvU0Yz"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 44,
-    "staged": 3,
+    "ai": 45,
+    "staged": 4,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-11T08:47:06.801479+00:00",
-      "t": "Paulo Costa Frustrated After UFC Turns Down Interim 205lbs Title Fight, Rejects Release Request",
-      "names": [
-        "paulo",
-        "costa",
-        "frustrated",
-        "turns",
-        "down",
-        "interim",
-        "rejects",
-        "release"
-      ],
-      "img": "cutout:paulo-costa"
-    },
     {
       "ts": "2026-09-11T08:59:08.368670+00:00",
       "t": "Manon Fiorot: UFC says Alexa Grasso fight will decide next title challenger",
@@ -7039,6 +7030,16 @@
         "helwani",
         "makes",
         "bold"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-22T04:34:58.557446+00:00",
+      "t": "Insider reveals Tom Aspinall recovery timeline after Brit vacates UFC heavyweight title due to fresh eye setback",
+      "names": [
+        "insider",
+        "aspinall",
+        "brit"
       ],
       "img": "photo"
     }
