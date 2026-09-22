@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ee67d0ae7626e1f7": 1790050222.6848392,
     "92871623fa1d8ed1": 1790050156.327461,
     "3f24712f62375b7b": 1790050087.9799538,
     "060845cb7fa728dd": 1790050087.6419303,
@@ -2498,8 +2499,7 @@
     "a51142c7e6bd8766": 1789534052.55156,
     "dad0b33279e2f886": 1789533986.199418,
     "dc25a96fd68c0ab6": 1789533985.7623422,
-    "a09b78873bf16804": 1789533939.8545792,
-    "c590ef16f23649d7": 1789533915.6886516
+    "a09b78873bf16804": 1789533939.8545792
   },
   "initialized": true,
   "v": 4,
@@ -4633,16 +4633,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-22T02:00:38+00:00",
       "cluster": "c6cd4949093"
+    },
+    {
+      "t": "Henry Cejudo warns Bo Nickal after Gable Steveson’s 12-second KO loss",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-22T02:25:10+00:00",
+      "cluster": "c54dc3baab1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    5
+    6
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Christian-Natividad-turns-8-days-notice-into-a-UFC-contract-in-70-seconds-202717",
     "CBMisAFBVV95cUxQSEtZSlA0Z1V0X1B4cTBIMm55aWNLd3hDNUZldTVUaFpsSmhEYkpSYVZIYUZGTVpaeVZzajBwTmFZR0hZTmY0TzdoMjJmcUpRalB5RmJKMDUwbTVPMm13azZ2Y1dOSHljQnFSRVN2R3BQdWZOM0lmQTNSc0lGdEc5NFFCU010ajdSLUVuVnZaN2J3UC04SHhhZXFKNDhEN3locnVOR1BMUldZYjNGLUVFLQ",
     "CBMiqwFBVV95cUxNa1dmSDNkbjdFWkFPWDZoYVVsSWRadW1rczJxZEhQQVFxVG9WTjJSaU1NbzZScWxhRVA5dUNuc1BmTjlyV250aUZuaUh2dTVLUVh5Y3FpeUJGQXlSUC1KdDJjS0VQaHRUMVZGckd1U0R6S2Ezd1lDMzA3aEpIR2JhWGxnOF9jdFh4LTN0NFF0a29Gd2tKeFlpZ1puOUZ0alI1UUZDaUVKVElWSjQ",
     "CBMipgFBVV95cUxNRkZmQUZaVzJWdDFRbTJnam14RTh2YUdvX3g4M3RHbFNhcHJKcUN1OXRBSkNWX1BvR2xIM09PUWtSQTBLUTNkM3Vsc2pvVXZhdV9hd2lVQTJsUGx3RmFma0JlNU0zeWlwZG1JMlZhaG52UDlEd3oxUDNmUXFSZk1lM1lidnhDZTZBYWtiRzFoR1lERVlpMTR5cGtkYzJCNW41V0dKcm5R",
@@ -6141,11 +6146,12 @@
     "https://bloodyelbow.com/?p=333082",
     "b64daa50-fa62-3c64-89be-26a18e508bb5",
     "3f7b73dd-285f-340a-943e-e457bd00384a",
-    "0f060b39-5d74-30a6-a6f4-054cba0ff4fb"
+    "0f060b39-5d74-30a6-a6f4-054cba0ff4fb",
+    "5dbdd170-4a49-335b-aff5-5de66b45b8c1"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 21,
+    "ai": 22,
     "staged": 0,
     "prio": 0,
     "lost": 0
