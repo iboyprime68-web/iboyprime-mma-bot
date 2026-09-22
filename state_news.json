@@ -1,5 +1,6 @@
 {
   "seen": {
+    "122f853f213df412": 1790071476.7508981,
     "6652c371aa1d01f5": 1790071411.9926121,
     "3a6a2b1195ec750b": 1790071388.4670043,
     "8cbcba38f021892d": 1790071388.4657223,
@@ -2498,8 +2499,7 @@
     "9030d9690c330ac1": 1789569798.8985205,
     "fac94ba8837ff930": 1789569798.4627225,
     "3212c55e4243ec3c": 1789569774.8211641,
-    "d652968c6577261a": 1789569773.8145754,
-    "c654279353c0ba4e": 1789555176.814727
+    "d652968c6577261a": 1789569773.8145754
   },
   "initialized": true,
   "v": 4,
@@ -4543,16 +4543,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-22T09:58:37+00:00",
       "cluster": "c190d756eb8"
+    },
+    {
+      "t": "Sean Strickland: UFC champion 'ok but sore' after off-road vehicle crash with no helmet",
+      "source": "BBC",
+      "ts": "2026-09-22T09:59:41+00:00",
+      "cluster": "c537175e6bc"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T10",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMinwFBVV95cUxPYXR6YjJvWGVrM0E4azI2YW0wWGdvSlFkWlJwZWNaWk5oMDVrUmh0MU9FX0FFWHBobGY4SmlNQnFzd01OX0gxYUVFd2RsV3FJaGZNN3o1aWN3VlR3dmlBNElxV1c2b0E0U01sbWk4Mko4elhmQUJDdnlLQWEwY3oybUFwbjUwUnFDUC1ObkRhbVFkZTFpZkhaM1dlNDZPZ1U",
     "CBMiyAFBVV95cUxNT29GbXJFNENISDRDLWh1NGJMSXRsQlYxSm1zTUw1ZlZTeEdGSVZVamFWRHpRRmRzT0pzRjNNLVJydld0eVhKQnRWTmxqTVFlT2YyZnFRcmJPQWpvRTYyTXJQWUswVEVMeUpBd3JkZTBMYUVMdk84Um1lckozdC1VQ1BiWmlWYW16WE00eERiU2s5RlFNVG1hZk90QXZjX1RlZXZuajh4OHF2R0ZJbUVsbG96MHY0c0lTdHRnSF9zc21Fb3VjRjRjWQ",
     "CBMikAFBVV95cUxQdHo4MHhOX21pb0hQQkVoZGdQblctbGZLay1XXzJoUjZtYmhoTlRraGRuY2xMdng5V0lzYmZzUHA2Zi0tRUVoeXNUdDhwNkNzNTBDdHFOY1d5bl9zMXRVOEhiOXhxX1B6b19TZ1dfWXpMaDRxWEF1WHdTY2J3bDFKV2ZSOF9NVHlRUm11N0loUlo",
     "CBMifkFVX3lxTFBkUEF2cmVqaUN0YlFaa1l3VDlkOU12OUIyY0V4TllwaHkwb1Rpa1owdjVXR3VLemx0VHNmYXVxSHNCcFFxSERrcEQ0T1c2V0tlS3hMXzdNTlRJY0NWdU9FOWk1OENkLUN5QkliMFFoWVhjQjhPVWR2REp1UFZkQQ",
@@ -6051,26 +6056,17 @@
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-to-headline-RAF-Abu-Dhabi-debut-on-Nov-14-202908",
     "CBMi6wFBVV95cUxOcS1GMkxGa0F3M2t0NXRBOXpwTFdrTm4wY0pBa2RXMC13ZzNpakZvTjdfTkNicUZBV3kyMEtIWkhRdjJZTUFtMzVjd2k0eDRoSFZVTjFfQmdfOGVNTmNxYnN0TEZyWk40T2hHVmlmaThVMGFYb3R3NlVwV1FuWUdrejl6WVdMakpqLWJ0R1VUbEZ4NVhFLU1EcVFZSk0ydUx3dHZ3aW81TzljVDNjN3phUHRVc1Ztbl9teDVqR3JnOHJnemdIWFFSeDUzNGRRMThSYTVWQlZYMGh3VUxubWRoYWpXOTdHdE5ReDE0",
     "CBMizgFBVV95cUxNTTB2dUJORXN1UXd1eVo2ck50ZElMTGlNcWFyd256dUxhSDJ6NkhPZ0N2azAzTUlaUzhXUGJLNkZaTTJfSmwtemlTTXZWR2JaT3dtNm1KT2hNdVkzbzBrOUF2cHB3V0pXSWN6ZnBIUFVubG1jUENEZXpqS0pOeEJId2RkYnBsQVNyQ2xacTRaZWREb0FoVUxYc0QxZ0VYZU15TEpsa0dkYVh1U3Nyd252ZHgxSm8tTnZOUld1Z2dtajFOZ19RMk9BRXhWQXBYUQ",
-    "CBMimAFBVV95cUxNbi1ONTBzdnREcTFYUEdaeWptYmhjYmMxb1FqZ1c5b2Y5TjdjSnljVlBwMUZjZUlXVm8yd040aDdoUjdJaWRzWENZZndNYnpEZmJ3d1BkNkd6d05NM3loVHNkdFVCWHNGVTM4aGd2OUlySXRBbFNmM05FYnc4MXhVRy1reEMtdW0yMW1SWFh6YzVKZmRzb3Z6cQ"
+    "CBMimAFBVV95cUxNbi1ONTBzdnREcTFYUEdaeWptYmhjYmMxb1FqZ1c5b2Y5TjdjSnljVlBwMUZjZUlXVm8yd040aDdoUjdJaWRzWENZZndNYnpEZmJ3d1BkNkd6d05NM3loVHNkdFVCWHNGVTM4aGd2OUlySXRBbFNmM05FYnc4MXhVRy1reEMtdW0yMW1SWFh6YzVKZmRzb3Z6cQ",
+    "CBMieEFVX3lxTE1ZWHFHYkZzVTVuNlFEdmZDTlZWeWhzTC1wQlF0cWNNNDlfRDhxX2lDelExV2tWcTVmOF95bEl1bk9iMU5xMVpORUFPdHBvc0FjaV90SHNUT3RqeXBBemhrUnFzLXRkNWJnYmZ4NUZaRE9rcGpCQ3RwVQ"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 68,
-    "staged": 5,
+    "ai": 69,
+    "staged": 6,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-11T13:27:48.903146+00:00",
-      "t": "Petr Yan gives BRUTAL warning to Merab Dvalishvili ahead of UFC 333 trilogy fight, says “You better get g",
-      "names": [
-        "yan",
-        "dvalishvili",
-        "you"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-11T13:29:02.140251+00:00",
       "t": "UFC Champion Justin Gaethje Contemplates Retirement",
@@ -6848,6 +6844,14 @@
       "names": [
         "garry",
         "morales"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-22T10:04:37.951563+00:00",
+      "t": "Sean Strickland: UFC champion 'ok but sore' after off-road vehicle crash with no helmet",
+      "names": [
+        "strickland"
       ],
       "img": "photo"
     }
