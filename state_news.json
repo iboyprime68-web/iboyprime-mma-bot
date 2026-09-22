@@ -1,5 +1,6 @@
 {
   "seen": {
+    "22e96ab45f824308": 1790072877.7657733,
     "80d35ddd0154e76e": 1790072688.1416657,
     "bd1e1d3e771ad186": 1790072435.2129745,
     "b1eeb07098585e23": 1790072245.4170194,
@@ -2498,8 +2499,7 @@
     "c4fe9a6cb86218f8": 1789570085.2957635,
     "2fbdfd6115b40fa3": 1789570061.6867013,
     "91fa4b7cd0002359": 1789570061.3165221,
-    "e23f6d5cf4d4cad5": 1789569995.4007225,
-    "4599243ad5aab140": 1789569948.2320933
+    "e23f6d5cf4d4cad5": 1789569995.4007225
   },
   "initialized": true,
   "v": 4,
@@ -4543,13 +4543,19 @@
       "source": "The Times of India",
       "ts": "2026-09-22T10:00:00+00:00",
       "cluster": "c10e4e29f73"
+    },
+    {
+      "t": "Dana White says he doesn’t “f*cking like anything” that UFC title challenger says",
+      "source": "f4wonline.com",
+      "ts": "2026-09-22T10:22:55+00:00",
+      "cluster": "c00ee0c8eb6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T10",
-    9
+    10
   ],
   "yt_eval": [
     "CBMiyAFBVV95cUxNT29GbXJFNENISDRDLWh1NGJMSXRsQlYxSm1zTUw1ZlZTeEdGSVZVamFWRHpRRmRzT0pzRjNNLVJydld0eVhKQnRWTmxqTVFlT2YyZnFRcmJPQWpvRTYyTXJQWUswVEVMeUpBd3JkZTBMYUVMdk84Um1lckozdC1VQ1BiWmlWYW16WE00eERiU2s5RlFNVG1hZk90QXZjX1RlZXZuajh4OHF2R0ZJbUVsbG96MHY0c0lTdHRnSF9zc21Fb3VjRjRjWQ",
