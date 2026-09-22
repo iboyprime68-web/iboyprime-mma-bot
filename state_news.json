@@ -1,5 +1,7 @@
 {
   "seen": {
+    "58c2dd953964ce6e": 1790102886.3612955,
+    "589a988b54211de7": 1790102886.114454,
     "086cf2bea43c9f4c": 1790102863.9598231,
     "05f1adb68f166eb2": 1790102863.710175,
     "1f9e9f92803feb16": 1790102819.8148644,
@@ -2497,9 +2499,7 @@
     "dee1d11d25c5a724": 1789584879.7660627,
     "c95427a2ca96ada1": 1789584814.5817337,
     "746302347c352de8": 1789584814.104311,
-    "501b43146f5b1a6d": 1789584749.8221688,
-    "1ae96e481faf751a": 1789584749.5614917,
-    "193fe0f527a2ba7a": 1789584749.558807
+    "501b43146f5b1a6d": 1789584749.8221688
   },
   "initialized": true,
   "v": 4,
@@ -4453,13 +4453,19 @@
       "source": "heavy.com",
       "ts": "2026-09-22T17:49:13+00:00",
       "cluster": "c9c35912209"
+    },
+    {
+      "t": "Latest UFC 334 fight card, start time, date and location &#124; Gane vs. Hokit",
+      "source": "MMA Mania",
+      "ts": "2026-09-22T18:45:13+00:00",
+      "cluster": "cf3b9b288d5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T18",
-    16
+    17
   ],
   "yt_eval": [
     "CBMiyAFBVV95cUxNT29GbXJFNENISDRDLWh1NGJMSXRsQlYxSm1zTUw1ZlZTeEdGSVZVamFWRHpRRmRzT0pzRjNNLVJydld0eVhKQnRWTmxqTVFlT2YyZnFRcmJPQWpvRTYyTXJQWUswVEVMeUpBd3JkZTBMYUVMdk84Um1lckozdC1VQ1BiWmlWYW16WE00eERiU2s5RlFNVG1hZk90QXZjX1RlZXZuajh4OHF2R0ZJbUVsbG96MHY0c0lTdHRnSF9zc21Fb3VjRjRjWQ",
