@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f0e0815f8c67e09c": 1790070559.8692327,
     "a4da55a41368b313": 1790070493.646029,
     "0e8523122673d84b": 1790070493.3359745,
     "9e3a9c5887f97de3": 1790070468.2693667,
@@ -2498,8 +2499,7 @@
     "d1cd175b6b917b96": 1789552405.1675406,
     "a28d45c3771f8474": 1789552341.0903735,
     "b3f58b34f2f1fe94": 1789552340.7306695,
-    "5844bd31e59465c3": 1789552340.7291605,
-    "f049178ff36f7a65": 1789552340.727278
+    "5844bd31e59465c3": 1789552340.7291605
   },
   "initialized": true,
   "v": 4,
@@ -4495,16 +4495,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-22T07:31:09+00:00",
       "cluster": "c68768c6e4f"
+    },
+    {
+      "t": "Manel Kape eyes Joshua Van showdown with confident warning after UFC 331",
+      "source": "MMA Sucka",
+      "ts": "2026-09-22T08:50:56+00:00",
+      "cluster": "c2f400d8cf2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T09",
-    7
+    8
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330957",
     "f355026a-1974-34b8-8a3c-835c90a06b17",
     "4b7c344b-05c0-3d34-8501-44e1edd8910a",
     "1071c472-de4f-3162-90f6-d0346a7d97b5",
@@ -6003,11 +6008,12 @@
     "c45b06d2-a052-3b8b-bf70-2de665af7ca8",
     "4ed2de60-90ee-32af-b8ae-73450b217bdb",
     "https://www.mmamania.com/?p=474117",
-    "0621199f-99d6-3693-8da8-20d9fa67c352"
+    "0621199f-99d6-3693-8da8-20d9fa67c352",
+    "CBMioAFBVV95cUxNUGJLTHNsOVg1Yl9iR3paRlZobHkxeTV2Ul8tNzV2N3BrUEU5MUU0QWEtWWlDTDRKU1FJWjFTUWxVZTViNUczS3ltTTRRbkFLZFpGUUFlWTJ5MEcyelhYbUk2MnNIR1BPSDMwYnJpZU1VWEhRZFNFdnlWNk95MTN0UkFqUGVVLVRzVEt5M21Qcl9fZ29RZ3FRekZrQUd1cHk5"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 58,
+    "ai": 59,
     "staged": 5,
     "prio": 0,
     "lost": 0
