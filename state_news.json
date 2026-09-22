@@ -1,5 +1,6 @@
 {
   "seen": {
+    "73ab2d242171c1ec": 1790036049.4541023,
     "f6a369e6d0596d97": 1790035983.0769541,
     "f5dcfaef7b517f1e": 1790035982.6718955,
     "ffa99f60bbf65b9f": 1790035916.810695,
@@ -2498,18 +2499,11 @@
     "62e2d7fcb0a0f709": 1789519290.1041331,
     "fd748ce3ca862fdd": 1789519224.1333363,
     "77d80f9e9373a1eb": 1789519157.7746701,
-    "0268a47f2b07a1be": 1789519092.6655,
-    "d1c21106a5a00677": 1789519092.3537567
+    "0268a47f2b07a1be": 1789519092.6655
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Robelis Despaigne edges out Tai Tuivasa; slugfest ends in a split decision",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-20T00:39:00+00:00",
-      "cluster": "ca5405129b0"
-    },
     {
       "t": "[Free]*UFC 331 Full Fight Live 𝐒𝐭𝐫𝐞𝐚𝐦𝐬 ON Free Tv",
       "source": "Sault Michigan News",
@@ -4903,16 +4897,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-22T00:12:24+00:00",
       "cluster": "cc9b7dfee65"
+    },
+    {
+      "t": "Sean Sharaf Shares A Fitting Reply To His Doubters",
+      "source": "MMA Sucka",
+      "ts": "2026-09-22T00:12:28+00:00",
+      "cluster": "cdcc5c0e5c5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T00",
-    9
+    10
   ],
   "yt_eval": [
-    "96307620-5506-31d4-a999-1882af97299b",
     "https://www.sherdog.com/news/news/PFL-tournament-winner-Oleg-Popov-draws-unbeaten-finisher-in-Dubai-202715",
     "48e53c4d-bd98-36b7-acba-7869ac3c5137",
     "5e98bc40-03bb-3e5c-8e47-fae6a62a466b",
@@ -6411,11 +6410,12 @@
     "CBMiekFVX3lxTE5lYmUxZmdZd08yRUJnaDc4aEU2a0xzUzBfUGM0QndsTlVCQzFEbFpPR1I4bm0tWlVPTFlKOE01UEJDZ0JVaWVCUWNjRmctVlY1WmhTbE9rdXVjSHlMNjBEdnF0SHRfWEd4T0JxV3lDay1Yd0VwXy0zMnJB",
     "CBMixAFBVV95cUxON3BaeUg3bHR0UTFtWGxpWVIxbzRibWFEV3BtQ01mMGRUTzFyN3VtWmpub05TcE1HOFNYRVhLalZoNGNFbjZWeDRnX1djTWwzY0RNWXN4bXNndDhXaGJCa1lYbEc0SGZLNG1sQVFrcjB6dms2UnR1dzBDVVJEdl9aa2o5Q1Z2TGlNZVVfVWJVVUc5Ri12WkNKZmI4QjlYTGRwb2szSlpIOWo5N0UwVTh1YTdBMzNmZ3drenhESXJodHdEMHZm",
     "CBMikwFBVV95cUxPUy1fMWhCQW9mYWtCR3BOSjRiWEo4UW1JeURObXpobFdBeFdONVlnVDlUaVBieFdQNE9CcnM1UmlzQWVpSkxaQmkzZC1jYU5XQW1LRVR1aWcxMFp3akJmM2VhSVlaS2JjajVkRHVWR2VKLUZ1b3hLVjJtTWJ6NjV6SUpxbDNGVXhzQ1Z6eGQ2QzFaS1E",
-    "CBMiogFBVV95cUxNWmdxWTItd3pMckpUY1dxcnVPdzRLOF85Vnd3RWpYWWpvQjNzYVI1eGF5YkdrZjN1ZzRkR01oejVWN3ZvTE42UWhFVlk2bVZobDVGdWppVzYzaXJheHhQc05MOFhrN0tjeDFUMm85UTRhMFYxMDJ3QmdKSDZoQ3VNelRVRTNwZ3ZfRS1FWUNSb3dLVGNCdDFIVnQ0Y0Z6b2RqVWc"
+    "CBMiogFBVV95cUxNWmdxWTItd3pMckpUY1dxcnVPdzRLOF85Vnd3RWpYWWpvQjNzYVI1eGF5YkdrZjN1ZzRkR01oejVWN3ZvTE42UWhFVlk2bVZobDVGdWppVzYzaXJheHhQc05MOFhrN0tjeDFUMm85UTRhMFYxMDJ3QmdKSDZoQ3VNelRVRTNwZ3ZfRS1FWUNSb3dLVGNCdDFIVnQ0Y0Z6b2RqVWc",
+    "CBMiggFBVV95cUxPOWIwYmRVc3B3U2JGMENMQjBIdGJYa1kyNUtjZ0YzV3QtQWpQM2pvbHd2ZXRPMEdzZjU0WFRqQUJ1M3dXQzhyTXBXYzBTU0I3RG13OU9LbVVOWmdidVlMRTUxZFlYUGhyZ29lX0FEakI2QlE2dUNDallibzlLbDYzMGVn"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 9,
+    "ai": 10,
     "staged": 0,
     "prio": 0,
     "lost": 0
