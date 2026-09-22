@@ -1,5 +1,7 @@
 {
   "seen": {
+    "2b34c30f82fc70ed": 1790037006.6357465,
+    "f94281f8365a674a": 1790037006.3024158,
     "3a67d3d4b365491b": 1790036750.6461349,
     "36cbc9ba4523f7f6": 1790036685.0779495,
     "cabd41603668ab58": 1790036618.933271,
@@ -2497,19 +2499,11 @@
     "6cefb5b1b5a026c2": 1789533635.8500228,
     "4d3015e57f57a921": 1789520119.3925016,
     "c435c2ce6b269eb8": 1789520052.6076846,
-    "2aab0bb9f2421b69": 1789519923.9837317,
-    "ddf68c0a43b842ce": 1789519859.3924022,
-    "43fbee3ddc1221f4": 1789519501.1729438
+    "2aab0bb9f2421b69": 1789519923.9837317
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Robelis Despaigne def. Tai Tuivasa, UFC 331: Best photos",
-      "source": "MMA Junkie",
-      "ts": "2026-09-20T00:45:00+00:00",
-      "cluster": "caec59f3da9"
-    },
     {
       "t": "Tai Tuivasa Ties Longest Losing Streak in UFC History",
       "source": "heavy.com",
@@ -4903,16 +4897,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-22T00:22:27+00:00",
       "cluster": "c5ff7305c84"
+    },
+    {
+      "t": "‘Air-cleaning’ Jon Jones defends wounded rookie Gable Steveson after controversial UFC 331 cage exit — ‘He will be back’",
+      "source": "MMA Mania",
+      "ts": "2026-09-22T00:26:00+00:00",
+      "cluster": "c4c900d20e7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T00",
-    12
+    13
   ],
   "yt_eval": [
-    "5e98bc40-03bb-3e5c-8e47-fae6a62a466b",
     "3d5b1cfa-acd5-3b86-ad64-50f6b769ddab",
     "6fafefb0-961c-35d0-b5b0-cd45abc42851",
     "https://www.mmamania.com/468797/mm-clone",
@@ -6411,11 +6410,12 @@
     "CBMiogFBVV95cUxNWmdxWTItd3pMckpUY1dxcnVPdzRLOF85Vnd3RWpYWWpvQjNzYVI1eGF5YkdrZjN1ZzRkR01oejVWN3ZvTE42UWhFVlk2bVZobDVGdWppVzYzaXJheHhQc05MOFhrN0tjeDFUMm85UTRhMFYxMDJ3QmdKSDZoQ3VNelRVRTNwZ3ZfRS1FWUNSb3dLVGNCdDFIVnQ0Y0Z6b2RqVWc",
     "CBMiggFBVV95cUxPOWIwYmRVc3B3U2JGMENMQjBIdGJYa1kyNUtjZ0YzV3QtQWpQM2pvbHd2ZXRPMEdzZjU0WFRqQUJ1M3dXQzhyTXBXYzBTU0I3RG13OU9LbVVOWmdidVlMRTUxZFlYUGhyZ29lX0FEakI2QlE2dUNDallibzlLbDYzMGVn",
     "CBMisgFBVV95cUxQM3dYRlBud0pya3ZEa2UtWDdlSWRFcmFFWHlXbTdGc2FpUm1xbjVLS0ZSQkdlTkJ0MjdqUjAwTFJscXZoZXU0RERPX183WlVkVkRFbzlBYmFqUFh4TUt6bTNCczc2VDBKUGs2NG90dmFuSDNLZGNyWFYxLWcyV2tHX00zVGs4eDFMbDhkc1ljQUNkbXpUM09jTTNUU0VnTGs5V0xoakFhWXRRNElCR2RRQ013",
-    "CBMirAFBVV95cUxOdHZQSXRPVXNVYkg0VzJCQlVZLXNia0xHV05VVXV4Rk1tTk1pSll3TFZMeHNiZXpUQnJnNkMySmJJUWNOaGlPUHVtVWxCSEpxTWlCSk92U08tRm1vZ3p3R3N6Uk5HZmVsSHJGVkRZWFFNXzlMbUR2SGFoREVETi1GMlozUC04bF9sOGNGTE9RQXdKZ3FVWEdCQjRsV3BmMEhfeW41emFIZ29tZmJN"
+    "CBMirAFBVV95cUxOdHZQSXRPVXNVYkg0VzJCQlVZLXNia0xHV05VVXV4Rk1tTk1pSll3TFZMeHNiZXpUQnJnNkMySmJJUWNOaGlPUHVtVWxCSEpxTWlCSk92U08tRm1vZ3p3R3N6Uk5HZmVsSHJGVkRZWFFNXzlMbUR2SGFoREVETi1GMlozUC04bF9sOGNGTE9RQXdKZ3FVWEdCQjRsV3BmMEhfeW41emFIZ29tZmJN",
+    "CBMisAJBVV95cUxQNXBLZGZQS1JmRlFRVFQxX1g4eUFaNC0xc2VuWEZKU0o4Zzk1d2dhV09KMUlBd09WdlNQTjBsX0pGclNxbDJwMWRoc2tralFSNEtKSHFSX1U5aXZwMnQtb1l0cTRtVlh5eXp5LTg3X3g2X3VIVEFUVzN4eGIxenAzUzZSc2FmY0FtRk1qSjEwRm55Y2t0cXJFekZaQzFoWnRPdWVPYk1Bd181bkFCNDNNYlRHbXl3OGpQSkQ5djF4OU50ZUlJZTJObmtWTGtNbWVsYjQ5R0cyX2V0ZF9rcnRSWTU3WHkxVGJYYU90cFc5TEZVMUoyWkJaem1xNnlFQkMzR2tzRmhkUzV6QTd0cU56QUpyYlpmUWNHQ2VLTDUyQWFEODBma0JNUVdHbVR4Vk9r"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 12,
+    "ai": 13,
     "staged": 0,
     "prio": 0,
     "lost": 0
