@@ -1,5 +1,6 @@
 {
   "seen": {
+    "52c5d17baa69f3e2": 1790050829.0662835,
     "95a9adfc965b9766": 1790050762.6860301,
     "ca9dfe3bd20c8936": 1790050693.1636384,
     "f78914254ba5e141": 1790050626.9833403,
@@ -2498,8 +2499,7 @@
     "00628b0f506d4da7": 1789534878.9702764,
     "a549272721d6075d": 1789534854.5002396,
     "4ce3fbe501d59fdf": 1789534852.2905748,
-    "93c398f620596d67": 1789534807.9039102,
-    "ab919c6dbbb14f09": 1789534783.8602893
+    "93c398f620596d67": 1789534807.9039102
   },
   "initialized": true,
   "v": 4,
@@ -4681,16 +4681,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-22T03:59:47+00:00",
       "cluster": "cc6959716ee"
+    },
+    {
+      "t": "UFC fighter details the unseen trauma of a losing streak",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-22T04:00:00+00:00",
+      "cluster": "c4a8d9873fb"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    16
+    17
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330907",
     "https://bloodyelbow.com/?p=330916",
     "6440416e-5bf9-3b1e-b208-36260c33bd5c",
     "https://bloodyelbow.com/?p=330922",
@@ -6189,11 +6194,12 @@
     "https://www.mmamania.com/?p=474099",
     "CBMi1gFBVV95cUxNc0N2b3BxN2ctSUN6M0pRTWhndElDUjhsRzhUbFFyX19XXzl0REFITG5DMzlmYmF2T1g4bjRlUVZRekJjOHZwNVEybndMR0Z3QlZYd1NVWEl0TXRBY0VOWHFBMzZfbllXQ2pOUmRRNm5Pd1JtaE9oOGV3VGxjOGxVenFzd0QxWUZMY0JPTUd5dmxWZW1hd0owMW9ZUmwxbWwzMjJpWGNITVc1bVlZXzVLNWZjUEZkSzFlNnFVTnI2dlNBdXpsNV9ZTVUzOTdpX1JTdk4tQ2Jn",
     "CBMipwFBVV95cUxOUjc3MGFVZnFxMk55eUJ0Xzc1TXJnVXRWUGpxTE9QYlB1dVJwaUZQcThWekpJOTVHSW5BektoMDM4QTk1cTItSmU2dnViOGNOWkdEZWdZTWRwdk9vaEFscHJESXVpOUlsZ3JhWUFyN1FNczcyaHowTzNwT1NvYUxkTUlhTEtMQ21RLWIzTjhGVUwyM1E4Ykg5cWZkYm9Bd292SWhiM2NhRQ",
-    "CBMinwFBVV95cUxNbE44aXNPZHJhNWQxd2c2am4yMjY0SmpiLWh5WllwbHFTTVRBdm9HREFpd29GQXd3azQtb1MxN3N6YlBWRVFEOHlLLVFpanJhRVlON2VFbmlGTGNvTHVpWEtJb1RUak1adVhWUUtJRW43QlQwM05GcEhuVG1RbE84aDRBVVd0N000YlJ0bFdvcmpTWHpiUFgwclIyTlozbVk"
+    "CBMinwFBVV95cUxNbE44aXNPZHJhNWQxd2c2am4yMjY0SmpiLWh5WllwbHFTTVRBdm9HREFpd29GQXd3azQtb1MxN3N6YlBWRVFEOHlLLVFpanJhRVlON2VFbmlGTGNvTHVpWEtJb1RUak1adVhWUUtJRW43QlQwM05GcEhuVG1RbE84aDRBVVd0N000YlJ0bFdvcmpTWHpiUFgwclIyTlozbVk",
+    "235c91be-3234-3b4a-973f-58496864b081"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 32,
+    "ai": 33,
     "staged": 1,
     "prio": 0,
     "lost": 0
