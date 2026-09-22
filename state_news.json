@@ -1,5 +1,8 @@
 {
   "seen": {
+    "84b98f7cdcbd053f": 1790053239.3746605,
+    "2d7bd56ff09f9ed8": 1790053238.9824116,
+    "098f37589e8985fa": 1790053238.9810107,
     "7f5c7f5fefaab852": 1790052984.6766133,
     "26ac480a01f6a54c": 1790052918.5387049,
     "48e9be1225f6371b": 1790052831.672777,
@@ -2496,10 +2499,7 @@
     "0ca4ff4ea6d21aea": 1789552144.2529998,
     "6f5f04e7c37d3b32": 1789552079.4670234,
     "4ff6f018043a1645": 1789552014.5539095,
-    "0e2357826d17aff4": 1789551970.8719203,
-    "ef5120f8efda427f": 1789551946.6923568,
-    "4dae712afa0f4997": 1789551946.1763132,
-    "f09f65247c4f8985": 1789536809.9639878
+    "0e2357826d17aff4": 1789551970.8719203
   },
   "initialized": true,
   "v": 4,
@@ -4723,16 +4723,21 @@
       "source": "mmasucka.com",
       "ts": "2026-09-22T04:54:43+00:00",
       "cluster": "c82176387df"
+    },
+    {
+      "t": "\"Biggest Fight in BKFC History\": Darren Till vs. Yoel Romero Gets Epic Trailer",
+      "source": "mmasucka.com",
+      "ts": "2026-09-22T04:49:44+00:00",
+      "cluster": "c84a430ab79"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-22T04",
-    34
+    "2026-09-22T05",
+    1
   ],
   "yt_eval": [
-    "CBMinAFBVV95cUxPa0NJM0prdlZuNDhhVlFGMGVMa2tkQWhKWmR1ZjE1eEhvNjFWeldfZ0ZNT2s3WlRXTTdmUmItcXJTdHMtTVJiLVhEaFpRYVQzaW1hRkJIN09fbGQyN1VLUkd6UDRFYWxBWmZyZDVNaS0wQnNJVXpCaHZUZXJfU3dLT05vcFJWM09IVE1WbWxuN0tvX2tQSHFMZFNkZ3U",
     "https://bloodyelbow.com/?p=330932",
     "CBMirgFBVV95cUxNb0Rxa0FPMExkRGpTUjVDRHVYbHpfZU56ekJsNVlPR3VfNFpGaVRYazdBbEhqcC1KWWk1cVRodFAtY2tJeFNEVEJVRUZNVkZCa1JpN2thaC1ObjZfaGNuZGdjb2ZXbmVsX1RQcndPUWRtM1M5S3NiVzVNX1phYzVHM2NtbVV0VXJLZVFSX00wOUNkUjBfLWwyNlc0WElGYmpxR1lLV2tIbTB2UnVCZ1E",
     "https://www.mmamania.com/?p=470561",
@@ -6231,11 +6236,12 @@
     "https://www.sherdog.com/news/news/Demetrious-Johnson-spots-his-lesson-in-Arman-Tsarukyans-UFC-331-KO-202905",
     "CBMiowFBVV95cUxNT3hLTTFvMDdZeWZjZG5ZbGZUMjdNRWluWGI5Vm5Na0pONG4zajdmTHB1a2NIb1ZzeXlhRmdVT1ZwN1BVZDRoX3dSZVhoU0FzQVBrXzM0TlRKTjNxcnVPVXlzUnk3M0psUTZBc05GcXpuam9Ic3d2aU0yRUZZTHcxeFJxcjZaOVRxOWRjTndvZjMzRmF1M0JtbTJNRmFJZGpqZVdF",
     "CBMi0AFBVV95cUxNR0xmakZEOFlfdExQbVg1aEdReG91ckw4VWlfak5jNU9WYlVLOUhYcDUwblltTTZXZTJiYS15M25xdmgybjY4eTRHSEVJSWtmQW9mNmg3MEJ3Nl85QVpLaEUxdVJXX21rbUwwSUp5M3BvQk5RRi11ODRLWUtDRG1uTDlKYVVtVmJxeEh3bUFpRDNiWlRVVnZXRWI0STB5TUVxc1NLbzFTZDZnQ3lVeWpDb21ueFhhb0lWQ0hLRTJhaktkbHZuQWlUS3ZZLS03cUQ1",
-    "CBMiqgFBVV95cUxPQkNuTWdGTy15TFNxMVhGYTRodjZjMkozQWJGaEJTVGc3Rk9sVndUVTJfS2l5U2ExWmkzRWlOYUFhcTFLQlQ5NzlBZXpxSTYwMG1PNW4yazFQWml5Mk16dzVxN1BvSFRGMkJRdnVFSkFNdC01bU95WEk1ZFlRbF81N3hlanNDcjlYQ09qLXlzNjl1dWhpMHRFT1dkNmJ1Z184WXpseEw1Si1BUQ"
+    "CBMiqgFBVV95cUxPQkNuTWdGTy15TFNxMVhGYTRodjZjMkozQWJGaEJTVGc3Rk9sVndUVTJfS2l5U2ExWmkzRWlOYUFhcTFLQlQ5NzlBZXpxSTYwMG1PNW4yazFQWml5Mk16dzVxN1BvSFRGMkJRdnVFSkFNdC01bU95WEk1ZFlRbF81N3hlanNDcjlYQ09qLXlzNjl1dWhpMHRFT1dkNmJ1Z184WXpseEw1Si1BUQ",
+    "CBMiowFBVV95cUxNWWw4eEFJZVhHckduX1dpZU5pY1NEaElIWV9HbTI5Q2ptQzJGcmFEalZCUkRhN3F3WWFrY0NkVElKaFVvMG1jX3B5T1kxWVo0dlE3d1A4ZUs3MndFeXQ4WDk0eWNjQjI4YzhHTVkweTVvbjBhY21POUVoZzZMTjF3RG41ZnFfNzR2VUs2cndGdmcxTWRVZDNBeHNheW5tUE9IeTNz"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 50,
+    "ai": 51,
     "staged": 4,
     "prio": 0,
     "lost": 0
