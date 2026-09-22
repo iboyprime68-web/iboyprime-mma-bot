@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8f2c277f39175a0e": 1790051434.804788,
     "96aa6b7d52a820d6": 1790051306.2817597,
     "844a81c3d9af41d2": 1790051239.8997402,
     "1d96a42e7f757511": 1790051214.839965,
@@ -2498,8 +2499,7 @@
     "1371ff1c1c085371": 1789535324.0323472,
     "aaa237f381acb1b0": 1789535323.7215052,
     "46bb55f3f94edf7a": 1789535257.9240909,
-    "fc4e20bdeb24da14": 1789535257.201283,
-    "cbfdf3d8a978fae6": 1789535257.200722
+    "fc4e20bdeb24da14": 1789535257.201283
   },
   "initialized": true,
   "v": 4,
@@ -4711,16 +4711,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-22T04:19:56+00:00",
       "cluster": "c8055be471b"
+    },
+    {
+      "t": "Dana White Admits he \"F*cked Up\" Over Ciryl Gane Heavyweight Title Confusion",
+      "source": "MMA Sucka",
+      "ts": "2026-09-22T04:29:45+00:00",
+      "cluster": "c6df5eba795"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-22T04",
-    25
+    26
   ],
   "yt_eval": [
-    "3be5a001-6e11-32b7-87ff-de85087958d1",
     "815a9deb-5aa8-3ff8-a1b5-ace071c17aff",
     "https://www.sherdog.com/news/news/UFCs-newest-fighter-announces-hes-getting-married-just-hours-after-DWCS-win-202722",
     "805f6bd7-4e86-3bf2-b9ac-cfed631cf01e",
@@ -6219,11 +6224,12 @@
     "CBMijwFBVV95cUxQQkh4SzNnX0FsMUc3d0VDbzhxYllxeXJpSHdvR3A1em11MWdnMW9tc0pQRkwzX1dwakxnY0s4QVNPampfYmctR1hxZlBYcUczUzhxVG5jcmk0UEtNSlJFamJqYl9MUFNPQm5vd0pObnFPdUhxcTRtTVYzcFYxLWNxVXR6MHBBYWctUDJDTkpKMA",
     "https://www.sherdog.com/news/news/Gable-Steveson-wasnt-there-mentally-before-historic-UFC-upset-202896",
     "CBMipAFBVV95cUxNZFA1elJGVGx2ZFhzZXdGVDJoLTFTUXBDbmExeUpzZS1hSndfT1JrZWxiNTZzaGQtY0NKLW9aUEFqdmVSVlJJaENfLS0wSlFaY01jNkxmbi1rUnV4SjZicjFDVjI2UmtkUEJYWXc2dEtCeldsTWYwckJsSlZ3dm5ObTNuaTd1S05DZ1BpY0F6QjRtWTUwUm5MMHFRZUF6M0wtaGdCVg",
-    "CBMitwFBVV95cUxNdjhwU1FnY05uRlZ6TzExTU1kMHJTYmNadTlRNHhLUk45akRKLUhNMDUtYldxeTBheDAzM0E3Sk5Rcm0yR0p4QllEX1dPRmlFU2o4VzU1REhtdVhDYTY2R0xnWkYyajU1MTFOd1ppV3gyTU9mRVVoc2tFNmw1Rm9UcXQwSnpqdkotWXlteVpRU2d5c1pENmNhSkYxTzNxdk1NWkxVcWtyZ2phTUJPclBVeHdyZHI2T0U"
+    "CBMitwFBVV95cUxNdjhwU1FnY05uRlZ6TzExTU1kMHJTYmNadTlRNHhLUk45akRKLUhNMDUtYldxeTBheDAzM0E3Sk5Rcm0yR0p4QllEX1dPRmlFU2o4VzU1REhtdVhDYTY2R0xnWkYyajU1MTFOd1ppV3gyTU9mRVVoc2tFNmw1Rm9UcXQwSnpqdkotWXlteVpRU2d5c1pENmNhSkYxTzNxdk1NWkxVcWtyZ2phTUJPclBVeHdyZHI2T0U",
+    "CBMiogFBVV95cUxQVmpSNEVjd3U4TWNWaS11MTh2UGcybTY4dmtvSGtJV0Z0RTIxLUEzVnBraVhMLWk0U1VrakExTmtiVHFVODZCX1dTZUdNNGpNc01vaXZoTUZsTzBlUFhBZmhZXzhOV2lXR2NRazNVM2llV2s4YmhZejA3bGFGRXhERDYwc0I2czJXLWRMRU9KMThUOVNqaG9DWXo1SDhQSVd6TlE"
   ],
   "daily": {
     "d": "2026-09-22",
-    "ai": 41,
+    "ai": 42,
     "staged": 3,
     "prio": 0,
     "lost": 0
