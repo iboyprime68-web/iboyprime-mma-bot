@@ -1,5 +1,7 @@
 {
   "seen": {
+    "a2955ddf6080f26b": 1790182086.0854325,
+    "3f24b9937c94dc44": 1790182085.7416568,
     "4ba8380f31fbc797": 1790182021.0222254,
     "d599a5eb3b3dbbf0": 1790182020.7293339,
     "cb36042f46fd521b": 1790182020.7268457,
@@ -2497,9 +2499,7 @@
     "1b10fef03893287f": 1789665423.8602557,
     "3f6b6edf72ac9a8b": 1789665112.1421964,
     "969b3d8fcd75098e": 1789665047.9879873,
-    "cf6d40e888b3cf7a": 1789665047.375812,
-    "c5461ca36b755719": 1789665047.3751183,
-    "023035e3fc434863": 1789665047.3691387
+    "cf6d40e888b3cf7a": 1789665047.375812
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T17:00:00+00:00",
       "cluster": "c0d7205a020"
-    },
-    {
-      "t": "Fighter Profile: Joshua Van Stream of UFC",
-      "source": "CBS Sports",
-      "ts": "2026-09-21T16:47:22+00:00",
-      "cluster": "ceb18d66a3c"
     },
     {
       "t": "Photos: Dana White's Contender Series 93 weigh-ins, faceoffs",
@@ -4735,16 +4729,21 @@
       "source": "MMA Junkie",
       "ts": "2026-09-23T16:10:00+00:00",
       "cluster": "caf2893fd2d"
+    },
+    {
+      "t": "Liz Carmouche and Jena Bishop to Make History at PFL Chicago",
+      "source": "FightBook MMA",
+      "ts": "2026-09-23T16:12:17+00:00",
+      "cluster": "c1ca8f6c685"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T16",
-    24
+    25
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331174",
     "https://www.mmafighting.com/?p=509738",
     "c4b175a2-1e96-354c-92a9-c10de4286af3",
     "https://bloodyelbow.com/?p=331237",
@@ -6243,11 +6242,12 @@
     "CBMiqAFBVV95cUxQYmhGRVJuT1NqMWdiNFp1eFAwVm1pcWFKQVF1ZDZYYURvUVpkWmdOTFh2Y0N3X0twZlA0ODMxV1NDWERHb2llUUhNWVlYdllkY1Z6TXAwa1BRd3hLM0NIVjF3MG1NbHJJLUFpTEZBOVA3LTlCZWoxTWJkWnl1MHVvUXBVc01tbk5xeXVlaEVUZTlPS1NRcl8zcTcydW9Rb1V3d2puOTA5N2g",
     "CBMioAFBVV95cUxQNDVjMHg1NW9LZ3Q0WjVhUEVNLUU1TTNfYzNNMHVKVkZqQ2RpaXFnWnowbm9TbTc3emh4WE56ZXBZZG1URUxUWDhKdnB6Skp2MVFWa0psbzlMM2pLTjRTb2JkLWRPLURHb3VTQ25lYk5VSGx2N2FRSnJPSjdPcjRYdGo3X21ST3JBNnRkRkhCYm5DdUwyX0lQYWNGVWRFYjM2",
     "CBMiigFBVV95cUxOVUxESDBHdVJrLXY5NHdhWTNwTl9BSHpkcHBWdmhHZzBISWtmbUlqbU5TcnV3MG1adWVoc3BjSGlpVlJNV0FKVjB1WWZmd0N5clNjbFJDV2Rqa3VvNXFQMGc5UUxrOXdSSXlJSzFzWGhWdHlLQ0lUOUNFVDBHOVM0T1pMYlRwNkpBdmc",
-    "CBMi1gFBVV95cUxPX0pucHFiSF94Y0Z4ZVZjWjdyMXR5M2h4RFNNSUlReVo1ZHZYOEx4bExtX2daOUpWUU1YSzJIalBfUEptNVRld2tkeHljSkVfQzVvTVdFVTRrOV91bmUtNlNrcC1MRmV1WTY5aGU1ZWVNYWxqbVQ2Z1FyM3hLdkZyWXd3M2dmYmNmUFRaN1k5N1p0dHc2Zk1OdGhlMFFPd0tYMXp5OWVzTi1XUXdJM3lLQ2VWMUYtVXdtSWtXY09zNElEdlhkRTBLZjkzdWRFc1NkbGN5UEFn"
+    "CBMi1gFBVV95cUxPX0pucHFiSF94Y0Z4ZVZjWjdyMXR5M2h4RFNNSUlReVo1ZHZYOEx4bExtX2daOUpWUU1YSzJIalBfUEptNVRld2tkeHljSkVfQzVvTVdFVTRrOV91bmUtNlNrcC1MRmV1WTY5aGU1ZWVNYWxqbVQ2Z1FyM3hLdkZyWXd3M2dmYmNmUFRaN1k5N1p0dHc2Zk1OdGhlMFFPd0tYMXp5OWVzTi1XUXdJM3lLQ2VWMUYtVXdtSWtXY09zNElEdlhkRTBLZjkzdWRFc1NkbGN5UEFn",
+    "CBMiggFBVV95cUxQOTdzaHZBU0dGYm93cnFzaXQxN0FZdUZjUGhKUDBhajdJZWFRM1VZWG1UUHVfOS11aXo5Q1ZqUkpER0YzY09hSUExZFVpWHEyaUd1UmpjaU51eFQ2cHZVVUw1UDJhVzFzY0lGdmExMnByaFVUWV83aDZUM2FUX3RwZmNB"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 114,
+    "ai": 115,
     "staged": 4,
     "prio": 0,
     "lost": 0
