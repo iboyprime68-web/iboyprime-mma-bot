@@ -1,5 +1,6 @@
 {
   "seen": {
+    "634e1a47ffc12045": 1790181499.8421159,
     "1abc938b1b00f31b": 1790181434.51928,
     "563dbbcb722dc8f7": 1790181434.1433303,
     "5d49b5cfb2e1461a": 1790181369.3076506,
@@ -2498,8 +2499,7 @@
     "ac9879c10bfdee3d": 1789664474.9022222,
     "5c52e12a845d97bd": 1789664474.8999784,
     "cc5b337b60e175f4": 1789664474.8953114,
-    "3aad7996c6679d42": 1789664474.8938038,
-    "0785d27bf7b59ae0": 1789664452.0506864
+    "3aad7996c6679d42": 1789664474.8938038
   },
   "initialized": true,
   "v": 4,
@@ -4687,16 +4687,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T14:05:42+00:00",
       "cluster": "cc6ed804b40"
+    },
+    {
+      "t": "Ciryl Gane pans 'mentally fragile' Tom Aspinall for over-reacting to 'trivial' fouls",
+      "source": "MMA Mania",
+      "ts": "2026-09-23T11:40:49+00:00",
+      "cluster": "cdf2ba658cb"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T16",
-    14
+    15
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331138",
     "7a1dff25-d70f-3aa7-922c-042461901626",
     "https://bloodyelbow.com/?p=331154",
     "52059b8b-d878-3e1a-af70-03fcc0d92ba5",
@@ -6195,11 +6200,12 @@
     "5846d25a-bcfa-3be8-90ff-66ba27f1087a",
     "564db093-e328-387b-b757-61b8b3b02d87",
     "2d435788-5ab8-32c4-a7ae-912e4358bd96",
-    "0ee97c44-4082-3058-859e-6915fdaeacf8"
+    "0ee97c44-4082-3058-859e-6915fdaeacf8",
+    "https://www.mmamania.com/?p=474338"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 104,
+    "ai": 105,
     "staged": 4,
     "prio": 0,
     "lost": 0
