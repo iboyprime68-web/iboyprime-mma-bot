@@ -1,5 +1,6 @@
 {
   "seen": {
+    "542ef0ee51f400fb": 1790142090.511859,
     "cbd169c04811bbb5": 1790142066.9509573,
     "f8449b59e5c5e56a": 1790142066.7554,
     "102ff058e2214c89": 1790142066.748133,
@@ -2498,8 +2499,7 @@
     "f877a2b08a2bf2af": 1789625119.3922443,
     "6a703f1fd870ea18": 1789625119.0510786,
     "9f67b2a0a31ec9cb": 1789625053.551203,
-    "86279917c7fbe0d7": 1789625053.255729,
-    "13511490791502cf": 1789625053.2314165
+    "86279917c7fbe0d7": 1789625053.255729
   },
   "initialized": true,
   "v": 4,
@@ -4519,16 +4519,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T02:43:00+00:00",
       "cluster": "c6cc585bbca"
+    },
+    {
+      "t": "UFC Vegas 121 preview: Raul Rosas Jr. vs. Raoni Barcelos start time, full card, and how to watch",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-23T04:00:00+00:00",
+      "cluster": "c62cec2e22b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T05",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMijwFBVV95cUxNT0FxMEFsbUxWb0JrNDQ2a0RPT3Zaa2V6R0dUUXhEU1ZzZm9PWS02bUZWVVM1bkJNWlFPTFljakstVUQ0cTdnQWdFMk1EMFFON1hLWVdSRTY4ekoxVjBoZHRnaHBHTWtsV3hwODFBaGdkc25aZUR3OUctZjAtbGdnMkZHbElvY3dCYy1EN3lEWQ",
     "c0d240ff-63cf-3600-bb83-328694409eb8",
     "627dcc53-dd08-3530-9b6d-f38054f7125b",
     "2d7f0abb-a40c-3af5-a7ce-989c2bcc432c",
@@ -6027,11 +6032,12 @@
     "https://bloodyelbow.com/?p=333247",
     "https://bloodyelbow.com/?p=333147",
     "https://bloodyelbow.com/?p=333203",
-    "4f90fc71-15f5-30ca-8923-f23f4d4d12bc"
+    "4f90fc71-15f5-30ca-8923-f23f4d4d12bc",
+    "https://bloodyelbow.com/?p=333072"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 32,
+    "ai": 33,
     "staged": 1,
     "prio": 0,
     "lost": 0
