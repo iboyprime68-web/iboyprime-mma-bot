@@ -1,5 +1,6 @@
 {
   "seen": {
+    "54d2fd13ad2b08f1": 1790194369.218651,
     "a42d155a2d7b787d": 1790194325.1568723,
     "d355d27d2d2b4a0f": 1790194302.887989,
     "86eba080bba37e51": 1790194238.7035067,
@@ -2498,8 +2499,7 @@
     "9c270de9f2ee2815": 1789677424.3688636,
     "b2527f132bb0241d": 1789677360.3141744,
     "37ad1218e9e21c1f": 1789677359.970337,
-    "66f9b12f3d9e7851": 1789677296.1350584,
-    "e8dd19632498815b": 1789677233.0178156
+    "66f9b12f3d9e7851": 1789677296.1350584
   },
   "initialized": true,
   "v": 4,
@@ -4813,16 +4813,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T18:40:28+00:00",
       "cluster": "c591551929b"
+    },
+    {
+      "t": "Mackenzie Dern Open to Fighting Ronda Rousey",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T18:40:49+00:00",
+      "cluster": "c42e36643f7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T20",
-    16
+    17
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331252",
     "7a069a63-d03f-4064-9fcb-5f3d7b024b99",
     "02b3b750-3749-330e-a7bc-662a933ee7ba",
     "CBMinAFBVV95cUxQTXFUbEotcDVNMTFGYzFNcFhGYmxPRm1IUWZicEpfNWZaOW82X0QzS1R2eEp1cG9tQmYzU2VidmtFQTV5UkFDZEJHRzBTTXBBSnUwVVVZUkNRdzRrQVRpaUhWWTNLRFByMDV1czNac1JJTGRReXI1czNLem51RXV5c2czZXp1YU1qamJrWDFiY1E0MC04VS12OEUwQ0E",
@@ -6321,7 +6326,8 @@
     "c6d91ba4-f674-353a-b64f-c1d5947148b4",
     "090f1b8d-1240-3044-91fc-d5788126cb0b",
     "5d1757b9-a622-4879-ab52-6dac0fd2534d",
-    "954d787d-742b-392f-900c-911c5c722db6"
+    "954d787d-742b-392f-900c-911c5c722db6",
+    "466864e3-df06-366c-8745-9c89fd2e893c"
   ],
   "daily": {
     "d": "2026-09-23",
