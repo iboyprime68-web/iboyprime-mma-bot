@@ -1,5 +1,8 @@
 {
   "seen": {
+    "e701074c77448e39": 1790122357.10424,
+    "569d1dc8239597d0": 1790122356.8073137,
+    "339d042c6bd4a864": 1790122356.8046465,
     "35832a6efd98b36b": 1790122292.4520159,
     "ab5a75084fbdfaca": 1790122246.0878253,
     "778117e5fa262add": 1790122245.8288274,
@@ -2496,10 +2499,7 @@
     "652028cc1cdcc2ef": 1789604470.7270257,
     "46f7c4e220c542a3": 1789604470.7197537,
     "3e2b33566c3f5c6f": 1789604404.6684546,
-    "f5ffa964e416bcd7": 1789604338.3531687,
-    "680635c68fea0d09": 1789604337.9790084,
-    "8c5d38aed5552714": 1789604337.9721398,
-    "53cbfbec24d46218": 1789604337.9461417
+    "f5ffa964e416bcd7": 1789604338.3531687
   },
   "initialized": true,
   "v": 4,
@@ -4579,16 +4579,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-22T23:13:22+00:00",
       "cluster": "c5c7de4cc4e"
+    },
+    {
+      "t": "How to Watch Regional MMA Promotions Legally",
+      "source": "MyMMANews",
+      "ts": "2026-09-22T23:14:18+00:00",
+      "cluster": "c61ba918436"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T00",
-    6
+    7
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509409",
     "https://bloodyelbow.com/?p=330978",
     "CBMi1wFBVV95cUxNWUxsbHJ0RnQtMFgtV3dXdHNLSkhzcVBtQnI5R0lGX2VST1NndDJYTTdOcEdUazRmMW9VUnI5eTNyX3BpWTJsaVk3OE5GWWdLWGdYQmxHM1BXY3dCUjNIcklLYm9yQXVZbm5HMU5DSDdCRVlCQjhzcEowUkNrMk1HRW8tR1d2bC1qR0F0OF9takJRODBfc204YmJLVTF0NG9FQXJjR2tjdmstQXE1RFAxTmRnd0F0Tk9DUUtfQmVOZXhmck1MbE5NalU4UUIxZmgtX0lybDRVTQ",
     "https://www.mmafighting.com/?p=509360",
@@ -6087,11 +6092,12 @@
     "https://bloodyelbow.com/?p=333235",
     "76374964-39dd-3b76-bda3-f43cffe69142",
     "https://bloodyelbow.com/?p=333114",
-    "CBMi4AFBVV95cUxNeEp5WVlTczY0WEJCdzlReEtubkdVSEhVNHluUUNvQ1lnUkVxSnNzd2g3Z3hpekgyU09hVk1GRzlhZ3JKUW1LRG0zemNONFlHU2szSTNQME8tUlgwblJiNVh2SENIYjhPY2dMbFZuS1VLbmtMdm0wd0VpVzd6WHlseGo5RVlCYzNvam9wYUNkemQyZTJDdTBWeEFrYVJoMldGQm13aWllOFBpdmkyUm1EZFYyVVpoeGpkZG1EeVZWV0dRb240aGVWcWYzOFBXcGNyWHozUWhQVXJnQjBrZEtKMA"
+    "CBMi4AFBVV95cUxNeEp5WVlTczY0WEJCdzlReEtubkdVSEhVNHluUUNvQ1lnUkVxSnNzd2g3Z3hpekgyU09hVk1GRzlhZ3JKUW1LRG0zemNONFlHU2szSTNQME8tUlgwblJiNVh2SENIYjhPY2dMbFZuS1VLbmtMdm0wd0VpVzd6WHlseGo5RVlCYzNvam9wYUNkemQyZTJDdTBWeEFrYVJoMldGQm13aWllOFBpdmkyUm1EZFYyVVpoeGpkZG1EeVZWV0dRb240aGVWcWYzOFBXcGNyWHozUWhQVXJnQjBrZEtKMA",
+    "CBMidkFVX3lxTE5NRy1MQU9hUi1keW1ucmpZZGc5LXZ3NUhidElCMnUtQWFnLUdOczFXU2NhZTBkZUpKUjUteEJsOGpFYndTUzAwNThDb0lvZEF0amJnazVMUEFhbWpFTkd3NlBMSlVWNjRUR1N5bWxyU0VOa2JzdHc"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 6,
+    "ai": 7,
     "staged": 0,
     "prio": 0,
     "lost": 0
