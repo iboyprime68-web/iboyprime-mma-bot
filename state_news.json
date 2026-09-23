@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3621acbd7c3f6585": 1790196967.7722318,
     "a2d0c73911797117": 1790196780.2075806,
     "fcb0da58c442c0b9": 1790196593.0053732,
     "faa6b82e08bb47ef": 1790196528.787631,
@@ -2498,8 +2499,7 @@
     "2bd595168a689a52": 1789688329.5588825,
     "4ab548df2e2c9512": 1789688329.1853366,
     "676231dcd1172411": 1789688264.8155067,
-    "f995870f428b9340": 1789688220.484474,
-    "91b5c01518b66985": 1789688197.402772
+    "f995870f428b9340": 1789688220.484474
   },
   "initialized": true,
   "v": 4,
@@ -2509,24 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T21:00:00+00:00",
       "cluster": "cc48506f13f"
-    },
-    {
-      "t": "Paulo Costa Issues UFC Ultimatum: ‘Give Me My Fight or Release Me’",
-      "source": "The Body Lock",
-      "ts": "2026-09-21T20:53:35+00:00",
-      "cluster": "cfbef0aba11"
-    },
-    {
-      "t": "Trent Miller: UFC Middleweight Profile, MMA Record and Bio",
-      "source": "Fightomic",
-      "ts": "2026-09-21T20:53:57+00:00",
-      "cluster": "c2c82d3500b"
-    },
-    {
-      "t": "POST NEWS: Paramount settlement, Averno loses hair & UFC 331",
-      "source": "POST Wrestling",
-      "ts": "2026-09-21T20:54:01+00:00",
-      "cluster": "ca03eb2706c"
     },
     {
       "t": "Joshua Van vs. No. 1 contender: more fights to make after UFC 331",
@@ -4867,16 +4849,21 @@
       "source": "heavy.com",
       "ts": "2026-09-23T20:47:46+00:00",
       "cluster": "c1c1c6c72be"
+    },
+    {
+      "t": "Cris ‘Cyborg’ Justino reverses retirement due to ‘unacceptable’ WMMA state",
+      "source": "BJPenn.com",
+      "ts": "2026-09-23T20:54:31+00:00",
+      "cluster": "c58fda63cf2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T20",
-    39
+    40
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331285",
     "ad1ab84d-75ad-3a34-b47c-f1733ed1e50e",
     "https://bloodyelbow.com/?p=331273",
     "7457720b-6d68-31ed-b98a-24e415159cc5",
@@ -6375,25 +6362,17 @@
     "CBMivgFBVV95cUxOT1JYTnFDaTVXckV2cDZNb01iUkxHWUhIU0hCamtLRGR2c1kyOVJEOW9VRk1wbTM5S2dSa09xdDd0aTNqbkVGT3ZTMS1yQ2V5SlFNLUMyZWlLMG5MRXNwYWphMEw3emw1RkhWWU5MRnM4NTRZakZfby1hX2lkU1c2RlU4MFNZZnY1NjNXRV9JdDZLektSUjNhUWdoM21EQTc4MXkzVndUSHJ4LTgteUdkSDlQM1czVDdJeDhnel93",
     "CBMipwFBVV95cUxOWkVNZGdvTnQ3VTVCNGlEdXlDbTQzVjNtenAwTWJRM0h1MjZpRnVHTlFrUHJ1dE5DeXJ6UU5IT3VRTmg5VHJDeVVvLTFLTmdqYUZpQ1NScUFiay1LZXlkNkNWMjJMcW42SWtjLUpCTmVRNjlHVzlIMWRRRUpWLWxJc0QxSzJlS2tMY0lmWnVmalhoT0ljUlBhVFdabGlPRVE3ajBOZWxmOA",
     "CBMifEFVX3lxTE5rdVZWNG1OQlhsOE5uVmhLVXVrLWpScTNzTHRYUHJqLS0xcGtEdDg3clZJbjBLR3ZhS1dVWmV2Mkxpa05pY3VyWTZLbDFnS09TeDBHbzVnWTFnSlluZWMtRFlNSGRXSlE1OG1aXzBZUlZNZDVhVjBtaVhqd0M",
-    "CBMickFVX3lxTE1Lc2Y4M25Qd2FKUXhLV3ZOWWZNa0tnWWhjQzY3LWRHWkFXU2h1NXF3a08yeWVCR3U5UGIyYWwyOGo5NEhlcjBncE9CeWNud1ZDc0xTM0dBZmNZTy01cHQtNnYxS05ieWpkMkdlWW8tazFKQQ"
+    "CBMickFVX3lxTE1Lc2Y4M25Qd2FKUXhLV3ZOWWZNa0tnWWhjQzY3LWRHWkFXU2h1NXF3a08yeWVCR3U5UGIyYWwyOGo5NEhlcjBncE9CeWNud1ZDc0xTM0dBZmNZTy01cHQtNnYxS05ieWpkMkdlWW8tazFKQQ",
+    "CBMiuAFBVV95cUxQdDVTSk0tdzhlQW5pOU40bE5uUURWZk9ZYTdtYmd3T1V2SExLRzZYN1VpcTlxVUw3bk85SGVMN1JHSll5TVZZZHBwcUhEVFFGanRYMC1QaFBLbllqOEVLeFhHZXFwTGFvdDIzel90ZDA1cE1SVjhmVWtZZUlmMVhybDhRN2NLLUxCeHpLdFFQZU1OV29DXzJ0dmVEUWN1MWxrcUIzd0dLM1JyTlpZdmFicERBUV9LeW54"
   ],
   "daily": {
     "d": "2026-09-23",
     "ai": 120,
-    "staged": 5,
+    "staged": 6,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-12T12:44:56.734741+00:00",
-      "t": "Conor McGregor rules out re-signing with UFC as he looks forward to being ‘free’: ‘One more to go’",
-      "names": [
-        "conor",
-        "one"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-12T12:52:57.179229+00:00",
       "t": "UFC CEO Rules Out Return For Ex-Champion Francis Ngannou",
@@ -7165,6 +7144,16 @@
         "tsarukyan"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-23T20:56:07.773673+00:00",
+      "t": "Cris ‘Cyborg’ Justino reverses retirement due to ‘unacceptable’ WMMA state",
+      "names": [
+        "cris",
+        "cyborg",
+        "justino"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7230,7 +7219,8 @@
     "f129cb74dc78046f": 1790105043.358493,
     "bc67b277a33c8dc9": 1790114898.8711655,
     "f93f6de62f3e758c": 1790180915.1465416,
-    "84805f7fbcdc7835": 1790196079.8220396
+    "84805f7fbcdc7835": 1790196079.8220396,
+    "3621acbd7c3f6585": 1790196967.4664893
   },
   "pinged_titles": [
     [
@@ -7247,6 +7237,15 @@
       [
         "gaethje",
         "tsarukyan"
+      ]
+    ],
+    [
+      "Cris ‘Cyborg’ Justino reverses retirement due to ‘unacceptable’ WMMA state",
+      1790196967.4664893,
+      [
+        "cris",
+        "cyborg",
+        "justino"
       ]
     ]
   ]
