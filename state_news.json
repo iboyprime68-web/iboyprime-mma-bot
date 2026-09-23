@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b524fbc2f81bc866": 1790142336.2674658,
     "77c5e03eb1611af6": 1790142311.8504076,
     "69e9e75a46379012": 1790142267.7993717,
     "6391c2e2cf58ddb4": 1790142202.7656674,
@@ -2498,8 +2499,7 @@
     "151456de19c0217b": 1789625391.7154586,
     "3100deb54ca43008": 1789625366.5175738,
     "f0fc92bb1371e6fd": 1789625322.062932,
-    "2a7bc1856b71a644": 1789625255.8298573,
-    "93de4c4029548515": 1789625190.1327603
+    "2a7bc1856b71a644": 1789625255.8298573
   },
   "initialized": true,
   "v": 4,
@@ -4549,16 +4549,21 @@
       "source": "Sherdog",
       "ts": "2026-09-23T02:00:52+00:00",
       "cluster": "c12cdf9a88b"
+    },
+    {
+      "t": "Dana White fires back at Paulo Costa over UFC fight dispute",
+      "source": "Sherdog",
+      "ts": "2026-09-23T04:46:39+00:00",
+      "cluster": "cfb9fe6ff72"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T05",
-    10
+    11
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331000",
     "https://www.mmafighting.com/?p=509431",
     "https://bloodyelbow.com/?p=331018",
     "https://bloodyelbow.com/?p=331031",
@@ -6057,11 +6062,12 @@
     "19590c6d-10c8-3ec2-982d-950f61b7ab93",
     "03a74f32-78ef-3ec6-82fb-59881a597e40",
     "ac65283c-0c3d-3d3d-be99-cf99ad03159a",
-    "https://www.sherdog.com/news/news/Major-PFL-shakeup-hits-just-7-weeks-after-MVP-merger-202912"
+    "https://www.sherdog.com/news/news/Major-PFL-shakeup-hits-just-7-weeks-after-MVP-merger-202912",
+    "CBMiogFBVV95cUxPdE9XaWtRcEFibkdQSDhhbEpGZ2hIOEN3ckluZmRIT2ZEdF9BTFVKYnZkbzlxRDU4RHAtb3lBMXVSNklvNzI5UXBodVROdWRfaUNud2xMaGRoOThsM1dJNlN4ejZodmtwd2U3T0pLSEgwS0xzZG5yYW9SLVMtSjNMcWl0T3VzMXNkMDlDRlVHTHRfczB6WGJCT0J6MW9iRm92V1HSAacBQVVfeXFMTWZmTk1JZzlUZ0VnUGk3OXQ3N010cjlxOU1CVFFqZEpsajhNZHRhbk9QUUZQUFYtTm9FWDRlV3JkWkRrNTY3VEwxUEVqY2FiMjJWUnI3cHR0RkVudmxYN3hON1ZKeWpTZjFNMEFNemJjcEVNSnpYTGNZMWJ6TUFKSGlUZm95NHhsWUl1T0EzQUJmbnZydUw5Ui10MU90ekNLMW9qcXUzRkE"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 38,
+    "ai": 39,
     "staged": 1,
     "prio": 0,
     "lost": 0
