@@ -1,5 +1,6 @@
 {
   "seen": {
+    "dd11f79e47ad4700": 1790142791.3950374,
     "91f9c5ffc76b737a": 1790142726.7525153,
     "a0ddf0520698ab25": 1790142726.5460844,
     "78c966f5037b0c89": 1790142726.5442188,
@@ -2498,8 +2499,7 @@
     "4e539e2a6e746b9f": 1789625844.211578,
     "39871e5f4679ee8b": 1789625717.2100966,
     "1ccd6a1a3cea1262": 1789625671.7590857,
-    "0acf99129a08bc65": 1789625585.744662,
-    "d12607a3d1f77b42": 1789625585.743048
+    "0acf99129a08bc65": 1789625585.744662
   },
   "initialized": true,
   "v": 4,
@@ -4597,16 +4597,21 @@
       "source": "boxingnews.com",
       "ts": "2026-09-23T05:01:00+00:00",
       "cluster": "c41d377340b"
+    },
+    {
+      "t": "Caio Borralho explains why he accepted risky UFC 334 matchup",
+      "source": "Sherdog",
+      "ts": "2026-09-23T05:06:39+00:00",
+      "cluster": "ccc2ec66596"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T05",
-    18
+    19
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331026",
     "https://www.mmafighting.com/?p=509449",
     "0d78970d-413a-3b2a-9f8d-add443fa0775",
     "8548620a-eaa4-3701-a528-7fbdb6ce96f0",
@@ -6105,11 +6110,12 @@
     "CBMie0FVX3lxTE0wUHBnVWVHNFdVS1VuRy1FR1RsM0VLajZ5aEFsZi1tbXVUdDdnWjd3NmxXRVJDY2g3RGpVM1F1d2l4M3NYLXg4UGpIcU1lY3BteW1sNHpHbzFxODRySFJuUVVsRXhabXFHSFRMZzZWUDF4M0JUUGZCbWNVYw",
     "https://www.sherdog.com/news/news/Sean-Sharaf-knew-Gable-Steveson-was-looking-past-him-before-UFC-331-202914",
     "afd04ec3-4485-3920-860a-c910bf06e4af",
-    "CBMif0FVX3lxTFAyS1B6LVlmZWFncTh3UUNuQ2V6R1dFNnNEbFF4dE5WYURiU0xmR3p5VW0zVVFhVl9ENk01a0NJRmlwYmJpcnhtOUpNWjdmRDRZMlFneXIybXl0WDFkekIzU2F2OWVzb3Qzb1VNRlV4MXVEOXhKYjYzYUUwdHJkQzg"
+    "CBMif0FVX3lxTFAyS1B6LVlmZWFncTh3UUNuQ2V6R1dFNnNEbFF4dE5WYURiU0xmR3p5VW0zVVFhVl9ENk01a0NJRmlwYmJpcnhtOUpNWjdmRDRZMlFneXIybXl0WDFkekIzU2F2OWVzb3Qzb1VNRlV4MXVEOXhKYjYzYUUwdHJkQzg",
+    "CBMiowFBVV95cUxOa0dyamVvREVjTkN2YkF2SnNKUUg2YTUtUjNhellsMHJEQjh4ZnZ1eGtRb0VDb3VkWmFXX044V1ZjYldVRGhCc0d4TjZKMm94XzRKY0F3ZHJJTnFZWUM4UDJ5WVJfOHNZak10bnc2NG1QNFZUblF5N0xJNWJUblFIc21URHhjYjUxYmRlR29fclVuSHN3NmFOX1FmUVlrRjZJWFFN"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 46,
+    "ai": 47,
     "staged": 1,
     "prio": 0,
     "lost": 0
