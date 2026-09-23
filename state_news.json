@@ -1,5 +1,10 @@
 {
   "seen": {
+    "0750e35d5db008b4": 1790161862.6546605,
+    "9dac1cb7f6d6abe6": 1790161862.086742,
+    "23dafb9b3d4d2ee7": 1790161862.0849555,
+    "d4b66f56a1951aef": 1790161862.0831852,
+    "072bb3f0d41a2b74": 1790161862.0571194,
     "aaa3dfa6428bfcc6": 1790161797.752943,
     "b1135ad0b9ab49e5": 1790161797.5080323,
     "99157fb5428e6115": 1790161733.3797276,
@@ -2494,12 +2499,7 @@
     "3eed5d0b1134d75d": 1789662976.4816449,
     "45ccb6c46d37a54c": 1789662976.138838,
     "c1a022f1e918bb7e": 1789662915.5627847,
-    "d92729da6d408ab7": 1789662892.4146454,
-    "deb83f180a68ba0b": 1789647167.5925357,
-    "f5c6b4f039f5d608": 1789646858.246364,
-    "0a84c31267d0dff1": 1789646794.6693964,
-    "ebf3a724b352763e": 1789646670.3099213,
-    "709c7c19c61d07e7": 1789646584.398804
+    "d92729da6d408ab7": 1789662892.4146454
   },
   "initialized": true,
   "v": 4,
@@ -4687,16 +4687,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-23T10:15:18+00:00",
       "cluster": "cab85173a16"
+    },
+    {
+      "t": "Carlos Prates Reveals Definitive Take on Islam Makhachev Matchup",
+      "source": "MMA Sucka",
+      "ts": "2026-09-23T10:24:06+00:00",
+      "cluster": "c37674bbeaf"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T11",
-    4
+    5
   ],
   "yt_eval": [
-    "567db17e-a6d6-3183-9d78-12dd3dbeeb97",
     "fe6070a0-2837-31cf-a4ba-c899fd4d0a9f",
     "CBMinwFBVV95cUxOQ1FFMkR3c3o5ak1GOWVmejl6bjd4MXZXQVJpS0c0dDhVVjVHbEJhcDNsTUdSWEVmdUNQVkRhM1UxVGdzTWJjS0dQd2J4WXp2WjlhTTRlSklrUkpBWEI5VGgxYTNXXzA1T3FiaWdScmlfVDhUWl96bVgyLVZKQ0hBRlB6aGpWem5Dd3MtajJFOTh3Q0xTN1pmQ3BQSG5mSkk",
     "https://www.mmamania.com/?p=471016",
@@ -6195,11 +6200,12 @@
     "https://www.mmamania.com/?p=474174",
     "7fb088c3-dec9-314e-bf4a-65ba62410546",
     "CBMi5wFBVV95cUxPb1ZCNTczcFN0c2E5RlFoRE9PNXc4MnJFQ3Zaa0dRMDFRVGVmWkpmZ2lqQlB0QUZ6OWxoQVdlaUZOQzFhQ3AzQ3EzcENmM2JRSWIxZmg0T3BxNEUzMlV1cW9vX0pQXzgwZUtBVVNZYjQyaXBSWnViYkgxTEs4WlhOcnFMS2hYYm9kaUJWdmxzdEwwQ3R0dGNIZnlmVDlPNzM2Ty1PZ3YyN0x6dEJwZXVveHBUVUpYYTZmRzRodnFSNjlCR0VLcUJMSVFIa1g3UlVVemREUHhPenE2Z3E5WlYwR1laME5ETUU",
-    "CBMiT0FVX3lxTE9DdTNWbHhoZHhMY1drUFJmakJWQ3VPdUh0Q0x6aWNfNjhBVkJiTnd0b3FMdTlHa0NoUklTRTlzNmwtdXNHMFB3QjgxTXFPa1E"
+    "CBMiT0FVX3lxTE9DdTNWbHhoZHhMY1drUFJmakJWQ3VPdUh0Q0x6aWNfNjhBVkJiTnd0b3FMdTlHa0NoUklTRTlzNmwtdXNHMFB3QjgxTXFPa1E",
+    "CBMilgFBVV95cUxQS2dTSmRrRzlrY1F3TmRCQVZqVXZUVnV4WW1LMTdneUphMkJWN0d0M2hEajlreUNnSDVjTXc3X0pXaG10aURKN3pFUVlfRGNfLUtSNXE5d3E5YktZc0xfbUotUHBZd0dTaUV3NDZHRm9jay1yZzNjNEIxdW9DWms2TVYzRXp3QTBCVFdrT2VtdkR2alZMRlE"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 76,
+    "ai": 77,
     "staged": 3,
     "prio": 0,
     "lost": 0
