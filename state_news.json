@@ -1,5 +1,6 @@
 {
   "seen": {
+    "976ffedc0b1f7349": 1790145228.4306827,
     "4102abb32d55579c": 1790145163.7505527,
     "87b8ebfc28b31f07": 1790145099.0924711,
     "a7c04fb24a9bcbf0": 1790145033.8799458,
@@ -2498,8 +2499,7 @@
     "2d0b0ac52aa2b941": 1789646099.7054362,
     "1118788c3cbf3025": 1789646031.1101694,
     "b30eb83f0cb10a8c": 1789645535.9390845,
-    "50d30ab161bcaf50": 1789645348.516854,
-    "ffa0781f54e09258": 1789645347.7779613
+    "50d30ab161bcaf50": 1789645348.516854
   },
   "initialized": true,
   "v": 4,
@@ -4747,16 +4747,21 @@
       "source": "EssentiallySports",
       "ts": "2026-09-23T06:10:00+00:00",
       "cluster": "c7bb51d4e3f"
+    },
+    {
+      "t": "UFC Champ Joshua Van Reveals How Joe Rogan's Comment Bothered Him Before UFC 331",
+      "source": "Yardbarker",
+      "ts": "2026-09-23T06:14:59+00:00",
+      "cluster": "c252f699f9d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T06",
-    18
+    19
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=470990",
     "https://www.mmafighting.com/?p=509519",
     "https://bloodyelbow.com/?p=331095",
     "be016ba1-4607-3a0a-9968-140c912518b1",
@@ -6255,11 +6260,12 @@
     "https://www.sherdog.com/news/news/Ruffy-stopped-Tsarukyans-takedowns-then-Arman-found-another-way-202921",
     "CBMixgFBVV95cUxQUmY5ZUpiMFFiRmlBSHBxbDZsZ3JpRXhOM1hScGp3UmRSdHJLZmszUlJxeHVGeTE0TUVZb0Y1TTV2LWI3VFZ3R0Y5WGdBU1lHQWlySWdZRUJxRy0xb09Hc2tBMDFYcjBpRC1GZWtlU3RuMzNpN1g0X05hYnpiYUw4enpNSVlqQjJuek5vem1zQmxoNXIwNFRkRS1OVnJjREsxTlV5VHdTcGxNcWxrQWExM1VhYnVTSHdFSk1GWjBaX3BxeVkyaXc",
     "CBMipgFBVV95cUxOVE8xQmpQVEJHWVBTbWlVeWhkX2FzMjliWXMtUXY4RVRtd1pBZlFpRHhHaURNZmFMVHpDQTRiVDE3N0RwQ3A2Zmc0dEwxeUMxUjBSNHFXWndod1BMWGF0M2l1NnBhQnN2TUc2aGk1TFpQRnFQQ0djeGhzZlNCZ053WS1waVhDS095V2RYaUZ4U1RaOWpDSHdFUUd2bERBaFFRV3Jnb1V3",
-    "CBMixgFBVV95cUxPUXY3Nk04WHZ6THlvVGZ3VXNfSXVTRUEzeFd2Q2hkYzlydVZJNllTNFR4WHBvWDNPb2ttVkduUmMzeVFkM0kzQTY3UV9UeWVvUlpPY1VWWmt1bjZ3WXJjcWY3aWgyUTNTOTZnWEpLTGtrQmQyUXdOY0M4NXlrVEEzd01HMWNtT2ZtUkNGMUpnZWZ3X2tia1N6YUp6NzlBWks2UnZwOVp6TW5zSEI5cjZlV09kWHBOcnhKOGdkaDNRQUk5QXdKdVE"
+    "CBMixgFBVV95cUxPUXY3Nk04WHZ6THlvVGZ3VXNfSXVTRUEzeFd2Q2hkYzlydVZJNllTNFR4WHBvWDNPb2ttVkduUmMzeVFkM0kzQTY3UV9UeWVvUlpPY1VWWmt1bjZ3WXJjcWY3aWgyUTNTOTZnWEpLTGtrQmQyUXdOY0M4NXlrVEEzd01HMWNtT2ZtUkNGMUpnZWZ3X2tia1N6YUp6NzlBWks2UnZwOVp6TW5zSEI5cjZlV09kWHBOcnhKOGdkaDNRQUk5QXdKdVE",
+    "CBMi0wFBVV95cUxOSGpySkNDLTkxXzNBVlNaUmIzOVhGcnNQR3BZNGw3MHg4emVIQm5iaFlPelFSREZ3aUxreTFhRk9wTlp5SHZtalhtU3YtMUF1dGcyMk5aNGhLaDRqMXNOU2dUcTV2RTRURGdkcmwzQjFuYkV3amoyV01NVm1La1VuUGFTOXBmWGY5OVF4eDd3R0FyeFdPelE5MmhEbWpFNVNMWHBSVWlldlFsWXNBWm9oV2o2a3NTaW9ia1Y3S0FVcl9zbE1lb1diZGhxQ1A0MmNPdF9F"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 71,
+    "ai": 72,
     "staged": 3,
     "prio": 0,
     "lost": 0
