@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f7062ab10f2b0c4c": 1790142985.5644302,
     "c51eb088b7f157a9": 1790142920.6786027,
     "5386a66a42230ac4": 1790142855.7608733,
     "dd11f79e47ad4700": 1790142791.3950374,
@@ -2498,8 +2499,7 @@
     "9ccd1bbc998b07f3": 1789626168.1720104,
     "ad6648927e87b11a": 1789626039.2750142,
     "2d52dfb1730bec9a": 1789625973.581354,
-    "4e539e2a6e746b9f": 1789625844.211578,
-    "39871e5f4679ee8b": 1789625717.2100966
+    "4e539e2a6e746b9f": 1789625844.211578
   },
   "initialized": true,
   "v": 4,
@@ -4615,16 +4615,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-23T02:30:46+00:00",
       "cluster": "cd093fd1bf4"
+    },
+    {
+      "t": "Is UFC star Arman Tsarukyan dating Nina Drama?",
+      "source": "Khel Now",
+      "ts": "2026-09-23T05:08:44+00:00",
+      "cluster": "cf74b26c063"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T05",
-    21
+    22
   ],
   "yt_eval": [
-    "8548620a-eaa4-3701-a528-7fbdb6ce96f0",
     "https://www.mmafighting.com/?p=509421",
     "https://www.sherdog.com/news/news/Security-breaks-up-heated-hotel-runin-between-undefeated-UFC-rivals-202734",
     "https://bloodyelbow.com/?p=331040",
@@ -6123,11 +6128,12 @@
     "CBMif0FVX3lxTFAyS1B6LVlmZWFncTh3UUNuQ2V6R1dFNnNEbFF4dE5WYURiU0xmR3p5VW0zVVFhVl9ENk01a0NJRmlwYmJpcnhtOUpNWjdmRDRZMlFneXIybXl0WDFkekIzU2F2OWVzb3Qzb1VNRlV4MXVEOXhKYjYzYUUwdHJkQzg",
     "CBMiowFBVV95cUxOa0dyamVvREVjTkN2YkF2SnNKUUg2YTUtUjNhellsMHJEQjh4ZnZ1eGtRb0VDb3VkWmFXX044V1ZjYldVRGhCc0d4TjZKMm94XzRKY0F3ZHJJTnFZWUM4UDJ5WVJfOHNZak10bnc2NG1QNFZUblF5N0xJNWJUblFIc21URHhjYjUxYmRlR29fclVuSHN3NmFOX1FmUVlrRjZJWFFN",
     "CBMiswFBVV95cUxNTWJEU05LNGRhZmFYV1B0VVBRaDJBSngxdEl6enp6cllMai0yQmdobHNGX19oSHROTE5nUWNrcWtYNkhxZkJCN3N5YVZOanl2MzVrVksycFlfcVplcHlWYml2WS1mY1gxMW1iRW5UMDJMVVdBNGkxdm5ScERfQTZ4bGNNSmp2TTNhcDlZSnhGM0Fjd1RuaFNxUktYdDhBTnllTUtob255bzhXWUd0VGNSbzltbw",
-    "https://www.mmamania.com/474271/mm-clone"
+    "https://www.mmamania.com/474271/mm-clone",
+    "CBMiekFVX3lxTE4yS0FHbDgwamcwcjVIR25WSmlQdmVtd3RKb2NZZjdIVTE4RjZ6cG9teDBUNEdZc0JBZ1Z0TEJydE9ZOWZIUmNyWElXWXJ2dDhRQ2pxS1ZIT25MMVh0QW1xb0dYNm9FbXJzX2UyZlhxN25TRTBCRFdsV2d3"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 49,
+    "ai": 50,
     "staged": 1,
     "prio": 0,
     "lost": 0
