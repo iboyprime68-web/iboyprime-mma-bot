@@ -1,5 +1,6 @@
 {
   "seen": {
+    "86135f9ac27680b6": 1790193825.452772,
     "ec69cbaf22858e2c": 1790193802.894385,
     "88a0095219be3603": 1790193780.5624962,
     "2f9eacef9aca954a": 1790193757.3445432,
@@ -2498,8 +2499,7 @@
     "00f5b5d8dc418f69": 1789676661.5524652,
     "13cfb15b22dc6260": 1789676661.2480814,
     "875af1673fd5d5ec": 1789676661.2465017,
-    "4e9a46845a16bb6e": 1789676597.300181,
-    "4682208d59c1cc13": 1789676533.587635
+    "4e9a46845a16bb6e": 1789676597.300181
   },
   "initialized": true,
   "v": 4,
@@ -4759,16 +4759,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-23T18:30:00+00:00",
       "cluster": "c799a29dad3"
+    },
+    {
+      "t": "Justin Gaethje thinks Ilia Topuria is too small for lightweight, says Arman Tsarukyan is ‘next in line’",
+      "source": "MMA Fighting",
+      "ts": "2026-09-23T19:48:53+00:00",
+      "cluster": "cfc95308c79"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T20",
-    5
+    6
   ],
   "yt_eval": [
-    "CBMivwFBVV95cUxONDFDVTQyOFVWdGhZRmpoYnFDVTlqRUZOeVZnYm5TdXRFaVA2VE5zODBzUHYxME55dkxrTlBjTTVjek1MOGE1VXBxWmhFSUxsNC1WdDBiWGs0bmg2WXpKdGZmaE5kQ3RBUG5uem1XeHVOTHh2aFVZZUU4NDJNVjJ5ZmpUd2NZZ2Z0RlVEQ2paS1FKOU5SZzVWblNvZ1BfaGxIVHdqZklZaDYwYzEzU0tEekVJUjlsTUVyTkFyZ0Qzbw",
     "CBMigAFBVV95cUxOSXgwbjVqWmt0S25pejJLdmdjR3FXN0l5YnhxSDFZbElYTC1oYzAzX3RDaWxCNk9fc2c2bjJqNEwtR3NQcGVMNUFPYlNOd1hRS2c4ZWJlN2lTalB1NG56REFKSGFLYlFrdFVZdnBCUWZrcmZ5OTRyeTVoRHQ5dkpjcQ",
     "CBMihAFBVV95cUxORERnMzFnM09DQWlGTUVvTWJKSW5lNUpWVHowZ0hjNkpRM1BHMVBQUVh2TDR2LVB6a3hRdi1ZWXdpMkxEZkRBZldJUVJUcVJaREhDOFBBeEdKWWVTRGpSZ1lRam1mSjNBLWU1VHlSVW1vY05BQy15NThKVVI4NXhLbFkzb3A",
     "CBMimgFBVV95cUxQMkJPV2ppaVlRTGs2RTdEZ2FlcTE2dHFnMVdram5NdHBBbnFjTk9VN3NxTHBoQ2hQWnY5dnAtSDh5a1IxcUgxRmZBb1AycU9RZEd4Y3FSYmNmRGROaW54R0I3OGRjUGtaWnFsRGJSMTZKbi1US3BpREpvVkNYdllMZ3k1cVctZVMtRW4ybFpYTVBDUFRHWnI5SDdn",
@@ -6267,7 +6272,8 @@
     "https://bloodyelbow.com/?p=333355",
     "https://www.mmafighting.com/511860/mma-pound-for-pound-rankings-where-do-ilia-topuria-alex-pereira-go-after-ufc-white-house-losses",
     "2b51cca0-5e24-3098-acbd-762ac15a81a2",
-    "https://bloodyelbow.com/?p=333329"
+    "https://bloodyelbow.com/?p=333329",
+    "https://www.mmafighting.com/?p=512182"
   ],
   "daily": {
     "d": "2026-09-23",
