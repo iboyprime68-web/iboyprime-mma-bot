@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5a7a85ecbb78d173": 1790193979.0283816,
     "9e98dcac55fade6f": 1790193915.0524576,
     "5cef36ba20b3f058": 1790193871.3648305,
     "59b6c370a76fc4fd": 1790193849.1398973,
@@ -2498,8 +2499,7 @@
     "5841cb17b927e7ea": 1789676790.2752771,
     "ef2e790f1bf27869": 1789676725.8347955,
     "ab34728fe2758775": 1789676725.4870803,
-    "8cfd2462585be2fe": 1789676725.483938,
-    "00f5b5d8dc418f69": 1789676661.5524652
+    "8cfd2462585be2fe": 1789676725.483938
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T21:00:00+00:00",
       "cluster": "cc48506f13f"
-    },
-    {
-      "t": "Colby Covington Tells Gable Steveson To Leave Jon Jones After UFC 331 Knockout",
-      "source": "middleeasy.com",
-      "ts": "2026-09-21T20:05:31+00:00",
-      "cluster": "c6fd972d66a"
     },
     {
       "t": "Mark Shapiro: If UFC Could Do Another White House Event Next Year, We Would",
@@ -4783,16 +4777,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T17:27:49+00:00",
       "cluster": "cb70f21578e"
+    },
+    {
+      "t": "ADCC 2026 Results: Full Brackets, Champions And Medal Winners",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T17:48:27+00:00",
+      "cluster": "c7b6c0b5e15"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T20",
-    9
+    10
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=471374",
     "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770",
     "CBMixAFBVV95cUxQSUxyMXhZcVVhczl2bEpOdHFrc3hwM3Rub0YxU24zTWtUVW1ESU1oanQ4bTRKRmVXdllvM21UX2xJT0NYQkxBYjhLWHdhMll4MXZRcTQ5ZVNjVVVkVzhYRzB3Ykd5VjdoUlpwMU83SnJYdWRrVDl6eGJUMWJzVTZPaHdfbm51MlNuZGllLWtuX1NrUjFBWXFiODh2eUVXLU9wNmJHRUxNWFdOeFYzQjVNc2ZGR2FqWUJ0NlZqbDlySnBCTUho",
     "CBMihgFBVV95cUxNdWE0c2UyajBJU0VaOUJqZkhfc0h5NnNfb2JId3JucmQ1M3ZTTTMwTTJHMmNyd0cyMUVvVnFvei1fWWtfdE5pUll4UHV6a2Izak9nWDdjQmd6T3BEVDVfX2dHOVFVRDJURXp3UjVqWHZiRUJKcW9yaUNoSktNOXFmRjVFdnFGUQ",
@@ -6291,7 +6290,8 @@
     "https://www.mmafighting.com/?p=512182",
     "e9be3c60-2ffc-3285-b3d0-8dd20e977057",
     "https://bloodyelbow.com/?p=333316",
-    "51b99747-ed69-384a-80f9-1a991d9c1c47"
+    "51b99747-ed69-384a-80f9-1a991d9c1c47",
+    "047d03bf-e984-33cb-9474-b1a0c43d1ff6"
   ],
   "daily": {
     "d": "2026-09-23",
