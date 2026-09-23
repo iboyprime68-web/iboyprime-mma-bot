@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bfc0feddfdcd9804": 1790196400.6571121,
     "46cfb4cd1744d9b9": 1790196276.0365684,
     "84805f7fbcdc7835": 1790196080.4310532,
     "e13d2803f9e1c985": 1790195519.1340213,
@@ -2498,8 +2499,7 @@
     "74e4b3674bd19d96": 1789688132.3835185,
     "81006bfcc4e2ac55": 1789688067.8241253,
     "bd7accd6655bb0e3": 1789688003.4354627,
-    "7e46df0f1f77e887": 1789687938.5916793,
-    "713a5115fd4aecdb": 1789687873.3192132
+    "7e46df0f1f77e887": 1789687938.5916793
   },
   "initialized": true,
   "v": 4,
@@ -4867,16 +4867,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-23T20:43:18+00:00",
       "cluster": "c206ac32c1e"
+    },
+    {
+      "t": "Callum Connor Reacts to Winning UFC Deal Off Fight of the Year Contender Loss on DWCS",
+      "source": "cagesidepress.com",
+      "ts": "2026-09-23T20:39:36+00:00",
+      "cluster": "c8f9e36f5be"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T20",
-    36
+    37
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331249",
     "3f4f41dc-7ae8-35c6-ab96-302a6900ece1",
     "https://bloodyelbow.com/?p=331268",
     "https://bloodyelbow.com/?p=331285",
@@ -6375,7 +6380,8 @@
     "CBMiswFBVV95cUxOdW1sOW5UXzItajZ4N0dIdGdva0Fud0V5TVN2eWpQOGxNMXNRc0JzaURNOUNoQzVTeGRreVBkSnExNjdnZTR6Ti1jc3F6VGNjMWZxY0FSNmpNdFJUTjVESFQwdmttaTlTNW1VQml3NGVPMnBNdllzSmNDWTZQVkx5Q3F0UTlLdWRudFhucW9oai1uMVZyVnlDdFJ0dE5XeHFBaWN5UEtlck5tZ1hGSVR6amZEZw",
     "CBMigwFBVV95cUxOX2ZwTzk2a2pYdXZRcnkwNmV2dmI5Y21xWmJNeVZKMUc2NmFzZmFtYnlnbTAxd2VZdDd2QzRRZjRFQTByMG1YbTc5a3F1TzlLejNFSDZEcWphMURaVzRQTHBDcHVYT3Z0eDBrQlkwdmlMT3J6Nmd5cTM2LU4weXdZbjFBRQ",
     "CBMimgFBVV95cUxObHJwa3ZnVGdZb1ZQaGtRYVN2cno3ZHFaQ2IyVWxhQWV4RUR1cmc2MnpyQjlqVnRlYzZxQ0dzNnRLek5ITUY1Zzl0UUtmREljV0M5WHY2dktDbmFYTUlScmMyaVNSN0xvM2V6SXQ2V1dGcUZ6cTZtR092bUVPMFhUYjRnQXRQR3NiQXRMenBMYjlIellVWXFvY0FR",
-    "CBMivgFBVV95cUxOT1JYTnFDaTVXckV2cDZNb01iUkxHWUhIU0hCamtLRGR2c1kyOVJEOW9VRk1wbTM5S2dSa09xdDd0aTNqbkVGT3ZTMS1yQ2V5SlFNLUMyZWlLMG5MRXNwYWphMEw3emw1RkhWWU5MRnM4NTRZakZfby1hX2lkU1c2RlU4MFNZZnY1NjNXRV9JdDZLektSUjNhUWdoM21EQTc4MXkzVndUSHJ4LTgteUdkSDlQM1czVDdJeDhnel93"
+    "CBMivgFBVV95cUxOT1JYTnFDaTVXckV2cDZNb01iUkxHWUhIU0hCamtLRGR2c1kyOVJEOW9VRk1wbTM5S2dSa09xdDd0aTNqbkVGT3ZTMS1yQ2V5SlFNLUMyZWlLMG5MRXNwYWphMEw3emw1RkhWWU5MRnM4NTRZakZfby1hX2lkU1c2RlU4MFNZZnY1NjNXRV9JdDZLektSUjNhUWdoM21EQTc4MXkzVndUSHJ4LTgteUdkSDlQM1czVDdJeDhnel93",
+    "CBMipwFBVV95cUxOWkVNZGdvTnQ3VTVCNGlEdXlDbTQzVjNtenAwTWJRM0h1MjZpRnVHTlFrUHJ1dE5DeXJ6UU5IT3VRTmg5VHJDeVVvLTFLTmdqYUZpQ1NScUFiay1LZXlkNkNWMjJMcW42SWtjLUpCTmVRNjlHVzlIMWRRRUpWLWxJc0QxSzJlS2tMY0lmWnVmalhoT0ljUlBhVFdabGlPRVE3ajBOZWxmOA"
   ],
   "daily": {
     "d": "2026-09-23",
