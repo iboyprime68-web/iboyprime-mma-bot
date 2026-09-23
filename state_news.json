@@ -1,5 +1,6 @@
 {
   "seen": {
+    "82e0f9a4c45c8d01": 1790180941.0590684,
     "f93f6de62f3e758c": 1790180913.9961855,
     "6181ccb72147ead8": 1790180889.7147226,
     "fb36d921a074987e": 1790164813.5962212,
@@ -2498,8 +2499,7 @@
     "c9b4348cc9bde243": 1789663957.3505797,
     "11c309e2fa263230": 1789663956.8072753,
     "6d7c2e341f0fdf4f": 1789663956.7856488,
-    "3c014916b62cda7f": 1789663893.4847093,
-    "0655b66d94e9e0fa": 1789663892.9799762
+    "3c014916b62cda7f": 1789663893.4847093
   },
   "initialized": true,
   "v": 4,
@@ -4633,16 +4633,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-23T12:30:00+00:00",
       "cluster": "cfc8efb6968"
+    },
+    {
+      "t": "Morning Report &#124; Usman Nurmagomedov reacts to Gable Steveson’s knockout loss, says he’s ‘not a fighter’ yet",
+      "source": "MMA Fighting",
+      "ts": "2026-09-23T12:30:39+00:00",
+      "cluster": "c8b044e61bd"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T16",
-    2
+    3
   ],
   "yt_eval": [
-    "3fba34db-bb8e-3ca7-99aa-c86162c9f0ac",
     "20db878e-3952-3ab7-89cb-ef156e9a952e",
     "6830694c-695e-3c98-ac41-86a0c733d390",
     "65994366-8624-39ac-8db9-dd2b732deebd",
@@ -6141,11 +6146,12 @@
     "CBMiUEFVX3lxTE9jaXdRd3Y1TjRsOGFVb09NSC1Vek5YUmQ5VDI4OVZmOVEwSm52dEwwZnhZVjN2dkJweW1KVVRTaXhqWUIxTTdxRXBWeEV3VTRp",
     "CBMijAFBVV95cUxPNW5wb1VjZDNsVEU3V0x5VDdnUGFfald2N0pOLXlKcE5iaW5PdG1vZFlMT3NEU1U2YWpoaHpzd3g5X1NoV3YwSUxrRTQtMWZ5Vi0tMVF0UDRFM29vaW5GRlNORmhTU3I4eEJjQmxRS0RXSjFtLWxFTVp1b21UZ2taRTUwa2NKTzZSZFBJZw",
     "https://www.mmafighting.com/?p=512089",
-    "https://bloodyelbow.com/?p=333265"
+    "https://bloodyelbow.com/?p=333265",
+    "https://www.mmafighting.com/511925/dnp-morning-report-template-dnp"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 92,
+    "ai": 93,
     "staged": 4,
     "prio": 0,
     "lost": 0
