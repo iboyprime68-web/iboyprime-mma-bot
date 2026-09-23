@@ -1,5 +1,6 @@
 {
   "seen": {
+    "594c97d48f355864": 1790194432.6070635,
     "54d2fd13ad2b08f1": 1790194369.218651,
     "a42d155a2d7b787d": 1790194325.1568723,
     "d355d27d2d2b4a0f": 1790194302.887989,
@@ -2498,8 +2499,7 @@
     "df586d66b92acf55": 1789677549.4288874,
     "9c270de9f2ee2815": 1789677424.3688636,
     "b2527f132bb0241d": 1789677360.3141744,
-    "37ad1218e9e21c1f": 1789677359.970337,
-    "66f9b12f3d9e7851": 1789677296.1350584
+    "37ad1218e9e21c1f": 1789677359.970337
   },
   "initialized": true,
   "v": 4,
@@ -2509,18 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T21:00:00+00:00",
       "cluster": "cc48506f13f"
-    },
-    {
-      "t": "Alexandre Pantoja breaks social media silence after UFC 331 rematch loss",
-      "source": "BJPenn.com",
-      "ts": "2026-09-21T20:13:15+00:00",
-      "cluster": "c96187c4ebf"
-    },
-    {
-      "t": "Casey O'Neill explains UFC 331 scream and the callout she had to make",
-      "source": "Central Oregon Daily",
-      "ts": "2026-09-21T20:13:25+00:00",
-      "cluster": "cceefac7972"
     },
     {
       "t": "UFC Fight Night 289: Make predictions for Raul Rosas Jr. vs. Raoni Barcelos",
@@ -4819,16 +4807,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T18:40:49+00:00",
       "cluster": "c42e36643f7"
+    },
+    {
+      "t": "Yes, Yoel Romero knows that people find him 'scary.' But that's their problem, he says",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T19:04:35+00:00",
+      "cluster": "c6d6a7ce0e9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T20",
-    17
+    18
   ],
   "yt_eval": [
-    "7a069a63-d03f-4064-9fcb-5f3d7b024b99",
     "02b3b750-3749-330e-a7bc-662a933ee7ba",
     "CBMinAFBVV95cUxQTXFUbEotcDVNMTFGYzFNcFhGYmxPRm1IUWZicEpfNWZaOW82X0QzS1R2eEp1cG9tQmYzU2VidmtFQTV5UkFDZEJHRzBTTXBBSnUwVVVZUkNRdzRrQVRpaUhWWTNLRFByMDV1czNac1JJTGRReXI1czNLem51RXV5c2czZXp1YU1qamJrWDFiY1E0MC04VS12OEUwQ0E",
     "CBMiigFBVV95cUxNTy1RTWJ5UksxOWN1WUQyZXlTbVFvOFZ2RXVmWlpyek04TlNTQzRLSFNYQ3E1dFBUVjdNczFRb1JuNTRGMVpNdzFwSC1OZkYySFZTc2lzWDZDXzRLT3dnS1hFQWVIamtzOUx4VGNpdm10YzVrNFByM3gxaTFLZ0tiWUU3RkY2dHYwNUE",
@@ -6327,7 +6320,8 @@
     "090f1b8d-1240-3044-91fc-d5788126cb0b",
     "5d1757b9-a622-4879-ab52-6dac0fd2534d",
     "954d787d-742b-392f-900c-911c5c722db6",
-    "466864e3-df06-366c-8745-9c89fd2e893c"
+    "466864e3-df06-366c-8745-9c89fd2e893c",
+    "fdf6a508-8dea-488b-9768-b92bcf8010d4"
   ],
   "daily": {
     "d": "2026-09-23",
