@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5134a76621b602e1": 1790143850.2386096,
     "b59e429578814842": 1790143704.9955194,
     "21772c809356f3b1": 1790143640.472602,
     "61535eff732f919e": 1790143640.0689294,
@@ -2498,8 +2499,7 @@
     "6f71c63372451a85": 1789644204.2591364,
     "08241ea413cdd9c6": 1789644179.658287,
     "108dc892cf3f9f34": 1789644136.0523856,
-    "9baf345eaf67a073": 1789644135.5494223,
-    "fd96c35879ec619f": 1789644135.5476208
+    "9baf345eaf67a073": 1789644135.5494223
   },
   "initialized": true,
   "v": 4,
@@ -4687,16 +4687,21 @@
       "source": "UFC.com",
       "ts": "2026-09-23T05:20:51+00:00",
       "cluster": "c3d25ea4cd7"
+    },
+    {
+      "t": "UFC 331 upset winner reveals ‘crazy’ decisions behind &#36;600K debt",
+      "source": "Sherdog",
+      "ts": "2026-09-23T03:15:19+00:00",
+      "cluster": "ca27e2dd323"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T06",
-    8
+    9
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331069",
     "453ab62c-ec10-388f-b745-a9a7253b8504",
     "https://www.sherdog.com/news/news/Justin-Gaethje-went-from-80-cents-to-not-touching-his-UFC-title-paycheck-202736",
     "68196dc8-c273-3c01-b3f3-efed4cb6bc08",
@@ -6195,11 +6200,12 @@
     "CBMisAFBVV95cUxNTjVMTFRITkg3STJnQVRneEhKaTFvSXhJZ21NYjk4RVB6VHgwdXJ2X0h4ZFdUNkxmOXpuaGZlMEtQeU1hUElWdDUtVWtsSkFaMUpBXzhiXzRCUEE5aTZ2NXhQeGx0aVFjZW5JYUh5VkwyMmY0NE1yX1I0bFQyT3BoZ0R0VVlfODFQVm1uQ2tEb0N0Yk9nX0pPZU5yaHpLYW1hSkItSTF4R2dYODV2N08tedIBtgFBVV95cUxPemhDb0podDR4eTlXZ0lJTTBTSkQxVHFROXl0UXJ6TGdPT19EdGVnSzhocDBYejdjWnhhOFlDV3FwMnkyVFRNakEwZTZfcWdMaGhQUDdWZ010YnpJYjBWdDkwdVMwemc3RUVROHh6Tks0czR4QkM2QnFEeEZ6eGxXNnNXN2lxU0NHcWl3eU1rd0I2X3dPTWZuYldrb19lYzNiNGFzcFdPYTJuRzh5TEt1UGVPQTludw",
     "CBMingFBVV95cUxOSzFHbElQa20wZGM0Tk5vU3RvQjdEMUVVUldpY2N4LXpIRzNaVEIwUFdwdkpjbnJ6YVM5NTUwdThNRHp3SkJUNmdHUDQxYjNsVndKT2RmTGNvTU5LZjRqQzRWQThJbnB6TUlnU0ZjU2FscHAwNW82c3hCNjZvanNJcE5tYklCWEdQWDBRMXZhZE9xdG1wSG4tcXdkb1BTZw",
     "https://www.sherdog.com/news/news/Marlon-Vera-reveals-36200K-robbery-on-eve-of-Sean-OMalley-title-fight-202917",
-    "CBMiU0FVX3lxTE1vWE5odkpXMXFpT2oxaGw0a1l2Z0ZUVU94VUY1QWhZY3V3OGNZX0JRa2Y3Q01TbDViejRXblRiTVdhT3RTUW1uekNoQ1NjRng2WnVF"
+    "CBMiU0FVX3lxTE1vWE5odkpXMXFpT2oxaGw0a1l2Z0ZUVU94VUY1QWhZY3V3OGNZX0JRa2Y3Q01TbDViejRXblRiTVdhT3RTUW1uekNoQ1NjRng2WnVF",
+    "https://www.sherdog.com/news/news/UFC-331-upset-winner-reveals-crazy-decisions-behind-36600K-debt-202918"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 61,
+    "ai": 62,
     "staged": 2,
     "prio": 0,
     "lost": 0
