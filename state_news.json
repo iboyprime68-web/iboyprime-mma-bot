@@ -1,5 +1,6 @@
 {
   "seen": {
+    "767257ad2718c76d": 1790162212.8210464,
     "f90369040f5e7048": 1790162189.2658594,
     "13264d90d1871b07": 1790162124.892392,
     "2a2d6c9e5cac8aea": 1790162124.6086106,
@@ -2498,8 +2499,7 @@
     "74b7b007538a9948": 1789663207.5197158,
     "3e97ae4144b6a5d8": 1789663184.3018568,
     "f271c63e5dd78ffc": 1789663161.532127,
-    "8dbd242bcb5fe1f0": 1789663139.4550803,
-    "ceef17088a25fbd7": 1789663117.242541
+    "8dbd242bcb5fe1f0": 1789663139.4550803
   },
   "initialized": true,
   "v": 4,
@@ -4729,16 +4729,21 @@
       "source": "PWMania",
       "ts": "2026-09-23T10:47:39+00:00",
       "cluster": "cf46119525f"
+    },
+    {
+      "t": "Miki Motono overwhelms Satomi Takano with 50-plus Punches at Pancrase 366",
+      "source": "Sherdog",
+      "ts": "2026-09-23T10:54:34+00:00",
+      "cluster": "c0fa0787dc5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T11",
-    11
+    12
   ],
   "yt_eval": [
-    "CBMirAFBVV95cUxQbUNkeUdPRlpJd19ZT0NJZWFMTE41ZnVsaHdxUWFGZ2NTUVhFSUZsQy1pNjlKRk5RS1Jvay1YeFJvdm4wTmx5X0VNQzRTdVRSYVVlcjc4UjBVQjh5SzhIRDljWkpvR29nQzhJczJOVm1la3JBRmhUMU1VWFJYS0NZOE9rOVRTUDdnSjU0SXk0aDAyY1drTzVWOUNqZEV0aFFfTzl4OFFWc0lxSnE4",
     "https://www.sherdog.com/news/news/Sean-Strickland-rips-Justin-Gaethjes-continued-Trump-support-202755",
     "https://www.sherdog.com/news/news/Zabit-Magomedsharipovs-undefeated-brother-gets-biggest-test-yet-at-PFL-Dubai-202751",
     "https://bloodyelbow.com/?p=331109",
@@ -6237,11 +6242,12 @@
     "CBMingFBVV95cUxNV1MxRmlaWTY2WWZSVWtqOUNkcVdMM3hjckNtemVqWTYwU1AzLTl5MUVPcjdOWGFvRDRRMzN6eUlOcV9iRkU1QmVnV1FKMHJORFFxVjhpOXlWcERUTW9sWGJpS2s5LXJMQ2pFWkZacHBTN2JSVUVySFdURGNJSjQyMDhIdGhwbVN3NjlIVmxUVjZWNUFWVjAzeHRfUXVHQQ",
     "CBMisAFBVV95cUxNUGZFb2pYUGJqbmxXRDVPdG1LVFF2YWZWS19qTV90aFd4QWVabW5sWXF0elNTbFBtU1I0Sy1odklKSFA3bXVQeHRwR0otaHFRRGd3X21kT0IyRkZieGJPaUtVa2xSYlBTVVJvR21ZS1FMT2J2TmE5TDBrdGNRSEFUa2RuUHFPTld3VWMwTHNfbk42UllpRVRNM3JjVTkxa2FiOWo4SkJQTkJkOFk0UUVnaQ",
     "CBMiqwFBVV95cUxNZGwyV24tbXd2eG15U19zNHoxNHJ1VFZSZmZsMzhuLVBXb0FXMkdXemdvaTkxeTE0OGZNTFVoMTAwSWg4WGtobDA0ZWR0Y25uZlhUZ0dnc2dmb0ZvQlB1RlQwQmsyWloxRXczU25nRTdOSGdwc3BLRURfeExpdTFhN3JmeG10cWN0cDJfT0hkcWhJVnFTRTRFa1VQNWsxeXRjeTNMUzRzajVMakE",
-    "CBMikgFBVV95cUxPZkhXLWdDWGttOTFuVTk2aG1uQ1BGZTgtUHozSXlKcmtfVEdHYTFlNnNQOFoyUGhhVHBGUnlXNlRERHc5YS1LM0hBMmFEVVo5V24xUlJvWWhLODR5bmFpaHNyZzBhT3JCYU1QLWxBWU1jVFVKUG1PMkpkX2d2RG83NXpLRDY2Wk9pYU12NDRfZWFydw"
+    "CBMikgFBVV95cUxPZkhXLWdDWGttOTFuVTk2aG1uQ1BGZTgtUHozSXlKcmtfVEdHYTFlNnNQOFoyUGhhVHBGUnlXNlRERHc5YS1LM0hBMmFEVVo5V24xUlJvWWhLODR5bmFpaHNyZzBhT3JCYU1QLWxBWU1jVFVKUG1PMkpkX2d2RG83NXpLRDY2Wk9pYU12NDRfZWFydw",
+    "https://www.sherdog.com/news/news/Miki-Motono-overwhelms-Satomi-Takano-with-50plus-Punches-at-Pancrase-366-202929"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 83,
+    "ai": 84,
     "staged": 3,
     "prio": 0,
     "lost": 0
