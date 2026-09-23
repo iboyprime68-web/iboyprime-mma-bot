@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ee60f671364e87fc": 1790163880.6340597,
     "818c3eb59d8bb879": 1790163324.1137066,
     "218a4c962c16dc61": 1790162825.2782192,
     "ea81e634baf4c849": 1790162700.1548553,
@@ -2498,8 +2499,7 @@
     "4bac16d7ac6d8951": 1789663763.9447992,
     "62ab304ad04b0a24": 1789663700.7007008,
     "38f54ff5bfb3cb66": 1789663637.0006242,
-    "53cd742af48ba3d2": 1789663573.204747,
-    "3f22e906c90d4fe0": 1789663530.2361403
+    "53cd742af48ba3d2": 1789663573.204747
   },
   "initialized": true,
   "v": 4,
@@ -4747,16 +4747,21 @@
       "source": "Irish Star",
       "ts": "2026-09-23T10:39:00+00:00",
       "cluster": "cfad04bda6a"
+    },
+    {
+      "t": "Fighter Profile: Alexandre Pantoja Stream of UFC",
+      "source": "CBS Sports",
+      "ts": "2026-09-23T11:43:22+00:00",
+      "cluster": "ce328ee5bf4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T11",
-    15
+    16
   ],
   "yt_eval": [
-    "216bcfd1-57d7-3150-a5f1-8d6fa7e7896d",
     "f5ad80ec-120d-3adf-8590-bdef8c8fa73e",
     "f70f53db-d212-342e-ae52-e13216104443",
     "4503a736-e4a5-3462-89e7-c6f2e70d4dc1",
@@ -6255,11 +6260,12 @@
     "https://www.sherdog.com/news/news/Miki-Motono-overwhelms-Satomi-Takano-with-50plus-Punches-at-Pancrase-366-202929",
     "CBMiugFBVV95cUxQcXdwc3BSTGh4c3RwX3lwS0JuSGo1UmhCWjlxLTduWnE4WTc1YmdaQ05OLW9TWnRMclF5UDlwSktmdWFoTDNvcDZtYW1kdi1zdVN1dmlfa3RsVjh4eVc3Rks3YjNPOVNwU3V6Sk9zQkkwZFdQcHE5bFdkYW9CajFLUmZoSlNNdzhLZjR0eXMyY0x3bk16TC03N3FXREpSTXdUNWstMlpWQjUxSlRoZEMxQ2E4T0FLeHdmWFE",
     "CBMiqAFBVV95cUxNVXA0QU5yUlNpVFVaYnc1Rjk3Y2x6T25hRUd2VXZJU1V1WUZtT0NZVDVFdDJ5YUprZnpMQU5WMDNhUC10WGxvcGlONlJDQkJsdTBqYV9DdWZwUEJqbFFlRUp4dGtLLWVnWDZlRXVFNUg4dE0zaEdlMjJEY2VKdlg1RmNKSjRkYjA5NVgzTlNqR21kVjJJNTd0YVRvQW5QYlotem1hVmFfdDk",
-    "CBMijgFBVV95cUxPdWtJS1lEVzFhUEZoaVZtM3dXTmtjUkk3cGNHN2MtSU1XeE1valFHNUJQMGJIZzBYakVpMU11eUM2TVVNNmpyZVRuaUpYUmgtblFIdTZBajVORFFHaG5XQXNxRjI3V0NpMXFhMklVNFdDVUJQN21aTkJEMHNlbVRtZGlTMl9TVURuSVM3TEZR0gGTAUFVX3lxTE9RN3VsZkR3bE1nZktpNVJGd21BaHpsMHpOeUtGalk4Qm5OaU5FWldXS0ZFa1ZLWHNVbDFWRzR2RFhKbHRqQzNzQUQwanhvQU9HbnJPSTVENzNZYklpbDh4U0NLU0xIMVhUeHJmcHBheExVclVYbzhEUGVnT0dyaE5uTjVmQkJmLU1qLW5Gc3J5X2lSTQ"
+    "CBMijgFBVV95cUxPdWtJS1lEVzFhUEZoaVZtM3dXTmtjUkk3cGNHN2MtSU1XeE1valFHNUJQMGJIZzBYakVpMU11eUM2TVVNNmpyZVRuaUpYUmgtblFIdTZBajVORFFHaG5XQXNxRjI3V0NpMXFhMklVNFdDVUJQN21aTkJEMHNlbVRtZGlTMl9TVURuSVM3TEZR0gGTAUFVX3lxTE9RN3VsZkR3bE1nZktpNVJGd21BaHpsMHpOeUtGalk4Qm5OaU5FWldXS0ZFa1ZLWHNVbDFWRzR2RFhKbHRqQzNzQUQwanhvQU9HbnJPSTVENzNZYklpbDh4U0NLU0xIMVhUeHJmcHBheExVclVYbzhEUGVnT0dyaE5uTjVmQkJmLU1qLW5Gc3J5X2lSTQ",
+    "CBMigAFBVV95cUxNOGlNT3AwTTRWM1gzYkkzZm9kcWJoZ3c0b3dPY1RMbzBiazRPNFQ1VVBDdkhqZXJmSldTbjRwbW42dFgxYnRkRm9lZmQxcTEyLXNaYnI5MDZBLTNZT25VOXJ2VXJJc282UTlPMTZTY0VKTzA3UDJ2eVZ2VGF4dkxQUg"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 87,
+    "ai": 88,
     "staged": 3,
     "prio": 0,
     "lost": 0
