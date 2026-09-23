@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ec69cbaf22858e2c": 1790193802.894385,
     "88a0095219be3603": 1790193780.5624962,
     "2f9eacef9aca954a": 1790193757.3445432,
     "a678baa3ea4c4908": 1790193735.1930869,
@@ -2498,8 +2499,7 @@
     "13cfb15b22dc6260": 1789676661.2480814,
     "875af1673fd5d5ec": 1789676661.2465017,
     "4e9a46845a16bb6e": 1789676597.300181,
-    "4682208d59c1cc13": 1789676533.587635,
-    "27e6f8213e5cae73": 1789676469.4588513
+    "4682208d59c1cc13": 1789676533.587635
   },
   "initialized": true,
   "v": 4,
@@ -4753,16 +4753,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T16:20:59+00:00",
       "cluster": "caf2773d517"
+    },
+    {
+      "t": "Darren Till talks potentially retiring Yoel Romero at BKFC 94: ‘He’ll be fighting until he’s 69’",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-23T18:30:00+00:00",
+      "cluster": "c799a29dad3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T20",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMikAFBVV95cUxNR1ZIeDNRYVU4QXgwdjJobnhUQmE0VHQ4Y0hXWGxhVW1hMldpY19xdFVGdWdoeDM5bEwtN3psaWhuUnU4Z251eFJrdmdhTHBaOV9PZWZNM0tPaVF1R2Fhakd1SURTcmxlVHF3cXJKVGcwcDdZcnNhR2U0TEI1a2I2a2NodXEwaDFHWXdhMWYtQW0",
     "CBMivwFBVV95cUxONDFDVTQyOFVWdGhZRmpoYnFDVTlqRUZOeVZnYm5TdXRFaVA2VE5zODBzUHYxME55dkxrTlBjTTVjek1MOGE1VXBxWmhFSUxsNC1WdDBiWGs0bmg2WXpKdGZmaE5kQ3RBUG5uem1XeHVOTHh2aFVZZUU4NDJNVjJ5ZmpUd2NZZ2Z0RlVEQ2paS1FKOU5SZzVWblNvZ1BfaGxIVHdqZklZaDYwYzEzU0tEekVJUjlsTUVyTkFyZ0Qzbw",
     "CBMigAFBVV95cUxOSXgwbjVqWmt0S25pejJLdmdjR3FXN0l5YnhxSDFZbElYTC1oYzAzX3RDaWxCNk9fc2c2bjJqNEwtR3NQcGVMNUFPYlNOd1hRS2c4ZWJlN2lTalB1NG56REFKSGFLYlFrdFVZdnBCUWZrcmZ5OTRyeTVoRHQ5dkpjcQ",
     "CBMihAFBVV95cUxORERnMzFnM09DQWlGTUVvTWJKSW5lNUpWVHowZ0hjNkpRM1BHMVBQUVh2TDR2LVB6a3hRdi1ZWXdpMkxEZkRBZldJUVJUcVJaREhDOFBBeEdKWWVTRGpSZ1lRam1mSjNBLWU1VHlSVW1vY05BQy15NThKVVI4NXhLbFkzb3A",
@@ -6261,7 +6266,8 @@
     "b3eb8fa0-cc77-3b87-8ddf-988f37f84fad",
     "https://bloodyelbow.com/?p=333355",
     "https://www.mmafighting.com/511860/mma-pound-for-pound-rankings-where-do-ilia-topuria-alex-pereira-go-after-ufc-white-house-losses",
-    "2b51cca0-5e24-3098-acbd-762ac15a81a2"
+    "2b51cca0-5e24-3098-acbd-762ac15a81a2",
+    "https://bloodyelbow.com/?p=333329"
   ],
   "daily": {
     "d": "2026-09-23",
