@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a7f6444c0a300b03": 1790181173.9506333,
     "ea2634ad62a697e2": 1790181108.9751725,
     "3d7c8e5c0847e028": 1790181063.9995208,
     "d3549bfec4f19810": 1790181063.5643878,
@@ -2498,8 +2499,7 @@
     "4384f8ed9cc4a549": 1789664277.8526816,
     "65bc9b45d64055a1": 1789664277.6073027,
     "9bf2630062b21495": 1789664277.584997,
-    "bea5b7c7e370ac7d": 1789664277.5837107,
-    "c087c7317e9407fe": 1789664277.583291
+    "bea5b7c7e370ac7d": 1789664277.5837107
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T17:00:00+00:00",
       "cluster": "c0d7205a020"
-    },
-    {
-      "t": "\"There's nothing else to say\" - Joe Rogan makes bold claim about Arman Tsarukyan's future after Mauricio Ruffy win at UFC 331",
-      "source": "Sportskeeda",
-      "ts": "2026-09-21T16:32:00+00:00",
-      "cluster": "cb33a22b04c"
     },
     {
       "t": "Dana White Lauds Joshua Van's Fighting Style and UFC 331 Performance With Superlative Remark",
@@ -4669,16 +4663,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T12:46:30+00:00",
       "cluster": "c74511d5e39"
+    },
+    {
+      "t": "Ex-UFC flyweight champ says Alexandre Pantoja should retire: 'You've done your thing'",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T12:50:15+00:00",
+      "cluster": "c347f125541"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T16",
-    9
+    10
   ],
   "yt_eval": [
-    "CBMioAFBVV95cUxOMlRnc2dVM1dLd3IxTkJESmRtV1luMDVhTjlNTFpsQlJFUEtlcjZfb0E5dmZCNzRZVjFGU1ZLRF9ET19iN2F2NzM4X1VPYVJBeXpUNGtnZXlUYnFhUk15SmFCaDJUek13NlAzVE5IMHRLYUpqaXZqeWRDTlM1ZXhqcTJhN0QxQ2t0WHJ1Q2lqQ2NNeEpTTzJ0M3dzaEFJMHNR",
     "CBMitgFBVV95cUxQVDB6M0lNRmltOXR2OGlmNnZsZVpxY0UyTTVvd0NOaEt2Z1dZLVhrSUhQUWtpU2xtbzBPV3J3SHVHNG80Vkx0XzQwNHoxRVRDeUZ3SlJwcTNzWHZCamdRNzVjSlVfNkt4UHVNY0hRanNwX3YtNXVPWWtrTGw5OUktdmtrcGpFUmFjSXJUS1dFZkxuN2hITDUxZ1NJQ0taZUE1bWlJbDQ0VlBrNURaTkJUNndjUzVTd9IBuwFBVV95cUxPbXRKRDExYWVLVXY1enQzeUNwYk1yMWNQbllid2Q2SGxxRk5yWVBRNWFobmhUZEhCY29lakg5MTBmZTh6d2R0bHVBaGtLUGJYdXlGZ3FGZThSVTJuWXNldURTUTRwMnBlQW9ILW9KekNUOVR5cHVlZUhCa0JtMldqOXJhODEyNlJYYVJIdFZWNjRtV2NoaXkyVVphZ0FOX1cwem45ajNBOUNrd1ZtODRyNzZBZS1qVjNQSmxV",
     "CBMiYkFVX3lxTFAyZzBuUkNNeTB3V2xSNThBT3J5WmFCS0xzU0hjYTkwVnE0LWV0S3BxMG5ZYnEwM2MtUG9teEhHMTdmVEhNT0RiVktOaElWckh1UWtMcV9YUlU4M3F2c2UwTXJ3",
     "https://www.sherdog.com/news/news/Eddie-Alvarez-Ilia-Topuria-not-gonna-be-the-same-after-Gaethje-loss-202754",
@@ -6177,11 +6176,12 @@
     "https://bloodyelbow.com/?p=333274",
     "3cab490e-163c-3add-a319-2548c4c05d35",
     "https://bloodyelbow.com/?p=333290",
-    "f7f4ba9e-bbd4-3338-a6a5-3267e6e1749c"
+    "f7f4ba9e-bbd4-3338-a6a5-3267e6e1749c",
+    "ffc13980-6c9b-3281-bbfe-0c01cfb5a5f8"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 99,
+    "ai": 100,
     "staged": 4,
     "prio": 0,
     "lost": 0
