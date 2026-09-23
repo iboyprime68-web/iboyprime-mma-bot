@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f9db484bf53cd265": 1790122882.3322315,
     "7603215a698ef68c": 1790122817.5328603,
     "1091450c986e7672": 1790122817.2944288,
     "d0e667471295a8a8": 1790122751.838306,
@@ -2498,18 +2499,11 @@
     "e9924a119b79bc7f": 1789604869.1957123,
     "f43f23faf760b7c1": 1789604869.1941338,
     "5540112126299241": 1789604869.1925318,
-    "dad39993a457602e": 1789604803.458009,
-    "c1b172db3462a401": 1789604803.0971456
+    "dad39993a457602e": 1789604803.458009
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "‘Ungrateful’: Beaten prodigy slammed for post-fight act as Joe Rogan floats theory on wild upset",
-      "source": "Fox Sports",
-      "ts": "2026-09-21T00:21:00+00:00",
-      "cluster": "ceaf6eebf12"
-    },
     {
       "t": "Doctor advises Jake Hager to retire from Power Slap after diagnosing his grim eye injury",
       "source": "Bloody Elbow",
@@ -4621,16 +4615,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-22T23:32:09+00:00",
       "cluster": "cdf5ad81d32"
+    },
+    {
+      "t": "UFC Vegas 121 Delivers Electric Undercard to Begin Autumn!",
+      "source": "MMA Sucka",
+      "ts": "2026-09-22T23:33:54+00:00",
+      "cluster": "c8e0e877459"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T00",
-    14
+    15
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330980",
     "https://bloodyelbow.com/?p=330974",
     "8c5e1002-1b8e-3bb7-893d-dfaaeeb812ba",
     "https://bloodyelbow.com/?p=330947",
@@ -6129,11 +6128,12 @@
     "CBMitAFBVV95cUxQYVdxRXBFbzZDanN1V0RkcENMWER0OFdlSlJSV2dlcGYyUnZuOTFZZ29GUlNzNXh6YWZVbUJsVkQ4WVFGd3V6TUMzVjhPdHN2WDc0czNnY3hya0puUkgxMUpVQklFMlNpOF9OOEJ6dDJ4YVZGUzNscURlQ3ViOGhleExuY0ZxTVhaN3N1aTRDRVNaOUZ2WTZQZDJELTExMWZnTEQwSmdVMUd5d0k2Y24xWHJoR3g",
     "CBMioAFBVV95cUxONkVkclBlY1RrTXZsTUxOc1d5SWlaWkhPTWI3U2hiR0ZKMWNHUmxmNl8tNHpJOWZwT1U3d1FFR0FIa0tTMmdUQ0lzLUt0OUNLdFJIbUlPQXctZ05NMzIxT0otRUM4T3lkTzRiM25RSEg1eFlDSlI1dkpPeVNEd2pOV3Y4UXJ1Zk56eFpkbi1WX2RlNE9uWm15UVZaaWt4S0My",
     "CBMiqAFBVV95cUxOYjZtb3JOWEZkTnJvQzF5Y3dtUFN5MER3NkxCeXpSV0psa2sxczlRRjVxVEY4NS1NdGxFaUJiUDlIRnZzbk4yOTV0cGhfSVgxOHZSbGlUR2d2V1FDemI4Z3A2VXRFQWp3b05UMC1JMWk5U1FCNjdhemY3SlJYWVFpN21ORmZYc21KV2h3NEVTeGFkZnhkanlDb3RWMnhQZ2o2dUREOEFwcGo",
-    "CBMiowFBVV95cUxPWHZEQTNpY0FSUm5HSHpyUzFFM2ozNXdoMVpHZVpDVC1nbmVMM2dIRHZCUzVmek5DSVFJOWt6cEtBRHNkUjBKU2tFOFJTTVUzOUZLcGdZeWxvdFcxekRjOVhxMHpPcXc5czgwZEFpcVVNMm92UWRpQjduSWNNNW1tV2ZXcTJucUNLUHRzY25PVFh0NlhValRDZlNlZF91T1VmQnRN"
+    "CBMiowFBVV95cUxPWHZEQTNpY0FSUm5HSHpyUzFFM2ozNXdoMVpHZVpDVC1nbmVMM2dIRHZCUzVmek5DSVFJOWt6cEtBRHNkUjBKU2tFOFJTTVUzOUZLcGdZeWxvdFcxekRjOVhxMHpPcXc5czgwZEFpcVVNMm92UWRpQjduSWNNNW1tV2ZXcTJucUNLUHRzY25PVFh0NlhValRDZlNlZF91T1VmQnRN",
+    "CBMijwFBVV95cUxPdU5wUDF1UENYd3EzZnl5Q2w4VWdJVVQxWm1HclVWN2xDWGNQemlKeXNucXc4Mm92V0lxangyTVFwczhKeWs2ZXdkQUNhLUlkQVZsN2pBMXh5c2l1YzhGQ2NGVGNLak91UXJyWWV0ZnlWaHRhekxhVUxRb2owVVBTYjgteDdycGJUWUlLcjlIZw"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 14,
+    "ai": 15,
     "staged": 0,
     "prio": 0,
     "lost": 0
