@@ -1,5 +1,6 @@
 {
   "seen": {
+    "46d78c60df9ad77e": 1790204474.036578,
     "065e8c7435b2af24": 1790204451.230485,
     "8ee9bbc006997d78": 1790204450.5211458,
     "6bc82032552a2974": 1790204450.5193276,
@@ -2498,18 +2499,11 @@
     "58af3333eeac8d53": 1789689676.4424167,
     "f2a1e0c35713513d": 1789689676.4407132,
     "9ec591766a93cdc8": 1789689610.5810719,
-    "c1b7792a422b9fb4": 1789689483.1985056,
-    "c88066e5afb39241": 1789689356.1129935
+    "c1b7792a422b9fb4": 1789689483.1985056
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Jones Takes Blame For Steveson's Quick Octagon Exit",
-      "source": "boxingnews.com",
-      "ts": "2026-09-21T23:01:08+00:00",
-      "cluster": "c141fa3f68c"
-    },
     {
       "t": "Jon Jones: “It was my decision to take Gable straight to the back after the fight”",
       "source": "postwrestling.com",
@@ -4759,13 +4753,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-23T22:58:27+00:00",
       "cluster": "c9bcb0b6d94"
+    },
+    {
+      "t": "Norma Dumont celebrates Ailin Perez UFC fight for chance to do ‘what I want to do without getting arrested’",
+      "source": "MMA Fighting",
+      "ts": "2026-09-23T22:42:11+00:00",
+      "cluster": "c980d7a3287"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T23",
-    2
+    3
   ],
   "yt_eval": [
     "ad1ab84d-75ad-3a34-b47c-f1733ed1e50e",
@@ -7124,17 +7124,10 @@
     "bc67b277a33c8dc9": 1790114898.8711655,
     "f93f6de62f3e758c": 1790180915.1465416,
     "84805f7fbcdc7835": 1790196079.8220396,
-    "3621acbd7c3f6585": 1790196967.4664893
+    "3621acbd7c3f6585": 1790196967.4664893,
+    "46d78c60df9ad77e": 1790204473.766162
   },
   "pinged_titles": [
-    [
-      "Ciryl Gane attacks ‘mentally fragile’ Tom Aspinall for his ongoing issues and hiatus from the sport",
-      1790180915.1465416,
-      [
-        "aspinall",
-        "gane"
-      ]
-    ],
     [
       "Justin Gaethje makes shock retirement claim as Arman Tsarukyan fight hangs in balance",
       1790196079.8220396,
@@ -7150,6 +7143,14 @@
         "cris",
         "cyborg",
         "justino"
+      ]
+    ],
+    [
+      "Norma Dumont celebrates Ailin Perez UFC fight for chance to do ‘what I want to do without getting arrested’",
+      1790204473.766162,
+      [
+        "dumont",
+        "perez"
       ]
     ]
   ]
