@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 19,
   "staged_at": [
-    "2026-09-21T20:27:54.856793+00:00",
     "2026-09-22T14:04:25.770600+00:00",
     "2026-09-22T19:46:41.569921+00:00",
-    "2026-09-23T14:16:52.731979+00:00"
+    "2026-09-23T14:16:52.731979+00:00",
+    "2026-09-23T19:43:02.518580+00:00"
   ],
   "asked": [
-    "Who is the most boring fighter in the UFC right now?",
     "Who is the most impressive UFC debut of the last five years?",
     "Who deserves an immediate rematch after losing their title?",
     "Who is the greatest UFC featherweight of all time?",
@@ -47,23 +46,24 @@
     "Who takes the crown in a pure grappling match, any era?",
     "Who is the most complete heavyweight in the UFC right now?",
     "Who is the most dangerous striker in the UFC right now?",
-    "Who is the most boring UFC champion in history?"
+    "Who is the most boring UFC champion in history?",
+    "Oblique kicks are in the news again. What should the UFC do about them?"
   ],
   "last_entry": {
-    "q": "Who is the most boring UFC champion in history?",
+    "q": "Oblique kicks are in the news again. What should the UFC do about them?",
     "type": "poll",
     "options": [
       {
-        "label": "Belal Muhammad",
-        "emoji": "😴"
+        "label": "Ban them",
+        "emoji": "🚫"
       },
       {
-        "label": "Tyron Woodley",
-        "emoji": "🥱"
+        "label": "Keep them",
+        "emoji": "✅"
       },
       {
-        "label": "Leon Edwards",
-        "emoji": "🐢"
+        "label": "Only to the thigh",
+        "emoji": "🦵"
       },
       {
         "label": "Other (comment below)",
