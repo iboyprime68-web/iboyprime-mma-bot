@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ac7ad96ca079bdf8": 1790181039.6071768,
     "8f06be45a57d839d": 1790181014.4178665,
     "2cc365f6dd4055d3": 1790180990.051017,
     "22fb6946552adbf6": 1790180966.174902,
@@ -2498,8 +2499,7 @@
     "c087c7317e9407fe": 1789664277.583291,
     "e2456b2b623b5523": 1789664214.31658,
     "11b8e2b1965cdac7": 1789664213.9741185,
-    "61dc2cbc2a423a1d": 1789664150.1873934,
-    "369426a94c0fe704": 1789664086.1358662
+    "61dc2cbc2a423a1d": 1789664150.1873934
   },
   "initialized": true,
   "v": 4,
@@ -4651,16 +4651,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-23T14:00:00+00:00",
       "cluster": "cc98fb3e6ff"
+    },
+    {
+      "t": "Usman Nurmagomedov hails Arman Tsarukyan as one of the best in the world",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T12:30:00+00:00",
+      "cluster": "cb957a853e7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T16",
-    6
+    7
   ],
   "yt_eval": [
-    "CBMihgFBVV95cUxPc1lyUUhLMU5qM2xrT0dzdldVdzd2S3RfalFyaWU1RkVPY3U2WGpSQl9PMDlHZlJyNUJncGFvdVVSdUU5NmY3X1JVOUxqQ19aM1BRQUtJRnJZRVhNVmNEQkRNY0RUd1hIckxmN1AxamktV3VvbW9yQWVoWXUyMmh6Nk90TS12dw",
     "https://www.sherdog.com/news/news/UFC-champ-Justin-Gaethje-stumps-for-Trump-at-GOP-midterm-convention-202753",
     "CBMipwFBVV95cUxQNURMMjlEY3BDNXlLQUlmUTdaeUM0WXlBaGIyN09RU0xLR1NhS0h6RW1fbGIzU2xMVFpERGpjeGhmZ2lxLXg0a0gyUG5lOWkyNGJZem1vZnB5VFJkMFZVTGdaaEthZENFWU5iVmdDVlZIVWtQdkZNN2JaQ3BIcHd3WkpXMUZiSGdWTE0wMUJsUnRVSWxvX2tDSWFKMEpQYktPVTF0UkNZZw",
     "CBMioAFBVV95cUxOMlRnc2dVM1dLd3IxTkJESmRtV1luMDVhTjlNTFpsQlJFUEtlcjZfb0E5dmZCNzRZVjFGU1ZLRF9ET19iN2F2NzM4X1VPYVJBeXpUNGtnZXlUYnFhUk15SmFCaDJUek13NlAzVE5IMHRLYUpqaXZqeWRDTlM1ZXhqcTJhN0QxQ2t0WHJ1Q2lqQ2NNeEpTTzJ0M3dzaEFJMHNR",
@@ -6159,11 +6164,12 @@
     "https://www.mmafighting.com/511925/dnp-morning-report-template-dnp",
     "4c7a05c9-ae61-3c1a-8cb8-5d3dd9ca3a3c",
     "https://www.mmafighting.com/?p=512130",
-    "https://bloodyelbow.com/?p=333274"
+    "https://bloodyelbow.com/?p=333274",
+    "3cab490e-163c-3add-a319-2548c4c05d35"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 96,
+    "ai": 97,
     "staged": 4,
     "prio": 0,
     "lost": 0
