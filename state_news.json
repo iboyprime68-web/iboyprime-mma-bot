@@ -1,5 +1,6 @@
 {
   "seen": {
+    "707a6187f2a99a43": 1790206550.4491396,
     "da2a2af990153d96": 1790206173.9124222,
     "071ae697b57e9e7d": 1790206047.284898,
     "83ca14cacda4f580": 1790205982.240985,
@@ -2498,8 +2499,7 @@
     "9ffdc03310e96640": 1789704009.1394358,
     "40db9fd0306434f8": 1789703985.105049,
     "638153b615d04765": 1789703920.256983,
-    "4d12b963e22b35cf": 1789703896.9291499,
-    "d9f3281a3238caa5": 1789703873.5161839
+    "4d12b963e22b35cf": 1789703896.9291499
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-22T00:00:00+00:00",
       "cluster": "ccac1854b7a"
-    },
-    {
-      "t": "BKFC 94 Fight Card Confirmed For Manchester",
-      "source": "boxingnews.com",
-      "ts": "2026-09-21T23:30:40+00:00",
-      "cluster": "cb29d704b60"
     },
     {
       "t": "UFC's Sean Sharaf Says Gable Steveson Overlooked Him Before Shocking Upset",
@@ -4789,13 +4783,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-23T23:29:05+00:00",
       "cluster": "c7c8ef38f1f"
+    },
+    {
+      "t": "UFC lightweight champion Justin Gaethje unsure if he'll defend title",
+      "source": "sportsnet.ca",
+      "ts": "2026-09-23T23:26:00+00:00",
+      "cluster": "c1953dec816"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T23",
-    9
+    10
   ],
   "yt_eval": [
     "ad1ab84d-75ad-3a34-b47c-f1733ed1e50e",
