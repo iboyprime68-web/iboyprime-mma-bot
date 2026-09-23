@@ -1,5 +1,6 @@
 {
   "seen": {
+    "86eba080bba37e51": 1790194238.7035067,
     "6144a6a35eff9031": 1790194174.7837577,
     "509459a5c80fa50d": 1790194109.2611513,
     "ea7ff87393be8985": 1790194045.146307,
@@ -2498,8 +2499,7 @@
     "66f9b12f3d9e7851": 1789677296.1350584,
     "e8dd19632498815b": 1789677233.0178156,
     "1a028356e793d340": 1789677107.8333762,
-    "1e18119948d60ed1": 1789677107.8314955,
-    "bcfaa5c14ebc4c73": 1789677107.829737
+    "1e18119948d60ed1": 1789677107.8314955
   },
   "initialized": true,
   "v": 4,
@@ -4807,16 +4807,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T18:17:23+00:00",
       "cluster": "c8d2f7b3825"
+    },
+    {
+      "t": "Alexander Volkov thinks it's 'inspiring' UFC is putting 'a guy with mental illness' Josh Hokit in title fight",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T18:36:24+00:00",
+      "cluster": "cb8e31483b1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T20",
-    14
+    15
   ],
   "yt_eval": [
-    "https://www.mmamania.com/470474/rolly-romero-vs-teofimo-lopez-start-time-full-fight-card-details-dazn-ppv",
     "https://bloodyelbow.com/?p=331246",
     "https://bloodyelbow.com/?p=331252",
     "7a069a63-d03f-4064-9fcb-5f3d7b024b99",
@@ -6315,7 +6320,8 @@
     "https://www.mmamania.com/?p=474371",
     "9b6ec9ea-f655-3a4f-86bb-c28711e00a38",
     "c6d91ba4-f674-353a-b64f-c1d5947148b4",
-    "090f1b8d-1240-3044-91fc-d5788126cb0b"
+    "090f1b8d-1240-3044-91fc-d5788126cb0b",
+    "5d1757b9-a622-4879-ab52-6dac0fd2534d"
   ],
   "daily": {
     "d": "2026-09-23",
