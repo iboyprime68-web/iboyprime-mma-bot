@@ -1,5 +1,7 @@
 {
   "seen": {
+    "18f432375ed1db13": 1790122947.288174,
+    "bcdde7f7c786388c": 1790122947.0542421,
     "f9db484bf53cd265": 1790122882.3322315,
     "7603215a698ef68c": 1790122817.5328603,
     "1091450c986e7672": 1790122817.2944288,
@@ -2497,9 +2499,7 @@
     "2dc5d678644e416e": 1789604937.0155523,
     "49aed99be689c3bc": 1789604870.3044696,
     "e9924a119b79bc7f": 1789604869.1957123,
-    "f43f23faf760b7c1": 1789604869.1941338,
-    "5540112126299241": 1789604869.1925318,
-    "dad39993a457602e": 1789604803.458009
+    "f43f23faf760b7c1": 1789604869.1941338
   },
   "initialized": true,
   "v": 4,
@@ -4621,16 +4621,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-22T23:33:54+00:00",
       "cluster": "c8e0e877459"
+    },
+    {
+      "t": "UFC's Top Lightweight Contender Is Still Booked Twice In RAF",
+      "source": "MMANews.com",
+      "ts": "2026-09-22T23:34:08+00:00",
+      "cluster": "cb0fd0badb6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T00",
-    15
+    16
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330974",
     "8c5e1002-1b8e-3bb7-893d-dfaaeeb812ba",
     "https://bloodyelbow.com/?p=330947",
     "https://bloodyelbow.com/?p=330984",
@@ -6129,11 +6134,12 @@
     "CBMioAFBVV95cUxONkVkclBlY1RrTXZsTUxOc1d5SWlaWkhPTWI3U2hiR0ZKMWNHUmxmNl8tNHpJOWZwT1U3d1FFR0FIa0tTMmdUQ0lzLUt0OUNLdFJIbUlPQXctZ05NMzIxT0otRUM4T3lkTzRiM25RSEg1eFlDSlI1dkpPeVNEd2pOV3Y4UXJ1Zk56eFpkbi1WX2RlNE9uWm15UVZaaWt4S0My",
     "CBMiqAFBVV95cUxOYjZtb3JOWEZkTnJvQzF5Y3dtUFN5MER3NkxCeXpSV0psa2sxczlRRjVxVEY4NS1NdGxFaUJiUDlIRnZzbk4yOTV0cGhfSVgxOHZSbGlUR2d2V1FDemI4Z3A2VXRFQWp3b05UMC1JMWk5U1FCNjdhemY3SlJYWVFpN21ORmZYc21KV2h3NEVTeGFkZnhkanlDb3RWMnhQZ2o2dUREOEFwcGo",
     "CBMiowFBVV95cUxPWHZEQTNpY0FSUm5HSHpyUzFFM2ozNXdoMVpHZVpDVC1nbmVMM2dIRHZCUzVmek5DSVFJOWt6cEtBRHNkUjBKU2tFOFJTTVUzOUZLcGdZeWxvdFcxekRjOVhxMHpPcXc5czgwZEFpcVVNMm92UWRpQjduSWNNNW1tV2ZXcTJucUNLUHRzY25PVFh0NlhValRDZlNlZF91T1VmQnRN",
-    "CBMijwFBVV95cUxPdU5wUDF1UENYd3EzZnl5Q2w4VWdJVVQxWm1HclVWN2xDWGNQemlKeXNucXc4Mm92V0lxangyTVFwczhKeWs2ZXdkQUNhLUlkQVZsN2pBMXh5c2l1YzhGQ2NGVGNLak91UXJyWWV0ZnlWaHRhekxhVUxRb2owVVBTYjgteDdycGJUWUlLcjlIZw"
+    "CBMijwFBVV95cUxPdU5wUDF1UENYd3EzZnl5Q2w4VWdJVVQxWm1HclVWN2xDWGNQemlKeXNucXc4Mm92V0lxangyTVFwczhKeWs2ZXdkQUNhLUlkQVZsN2pBMXh5c2l1YzhGQ2NGVGNLak91UXJyWWV0ZnlWaHRhekxhVUxRb2owVVBTYjgteDdycGJUWUlLcjlIZw",
+    "CBMihgFBVV95cUxQdmtzcE9PeXkyVTgtVzY1bWZMOXRuQ2VHQmduQzEwTmVES1VZemEyVXVCNGZMMEV6QUlPZ3Jya3J2ZUtNQnZJYzlySWQ5TFlRLVZfZENTQWVVemt2Um9DVWJfaGJDdXlqdkN2Y2F4WF9QV3NvaTFHcHBVcnJoMS1YZ0tWNi16dw"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 15,
+    "ai": 16,
     "staged": 0,
     "prio": 0,
     "lost": 0
