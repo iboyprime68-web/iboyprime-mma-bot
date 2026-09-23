@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0615a5f487a710d1": 1790144087.5140188,
     "31e8834e9cdd8d27": 1790144023.9278595,
     "6da5bdccca91025c": 1790143959.3647537,
     "79ce979d93c2c3f7": 1790143895.2312868,
@@ -2498,8 +2499,7 @@
     "021b1cedff5aa92a": 1789644402.5303957,
     "9a6a41379ac3feab": 1789644402.5278528,
     "a34c95adb5b819fd": 1789644333.6239789,
-    "80b09c1022d7b1de": 1789644269.1824045,
-    "6f71c63372451a85": 1789644204.2591364
+    "80b09c1022d7b1de": 1789644269.1824045
   },
   "initialized": true,
   "v": 4,
@@ -4705,16 +4705,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T05:58:34+00:00",
       "cluster": "cc3c7fe2c31"
+    },
+    {
+      "t": "Arman Tsarukyan Lauds Mauricio Ruffy For His Elite Striking",
+      "source": "MMA Sucka",
+      "ts": "2026-09-23T06:13:58+00:00",
+      "cluster": "c9c34068098"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T06",
-    11
+    12
   ],
   "yt_eval": [
-    "68196dc8-c273-3c01-b3f3-efed4cb6bc08",
     "9b569b72-8152-3100-a179-fffea5833266",
     "fe742760-0da7-3f7a-8b99-006fa1d95e86",
     "fbb417eb-bea5-3a1c-b5da-998e93b4b5c9",
@@ -6213,11 +6218,12 @@
     "CBMiU0FVX3lxTE1vWE5odkpXMXFpT2oxaGw0a1l2Z0ZUVU94VUY1QWhZY3V3OGNZX0JRa2Y3Q01TbDViejRXblRiTVdhT3RTUW1uekNoQ1NjRng2WnVF",
     "https://www.sherdog.com/news/news/UFC-331-upset-winner-reveals-crazy-decisions-behind-36600K-debt-202918",
     "CBMimwZBVV95cUxOZkowY3dtM3JQTzFlcHU2TDlTRkZxWGlBRVk0aXlDZ2xQaGIxUmFXVUs5S3dEaGlTMlVqLWdIN3RZZnh1RnZRdTBCQ1VkbEVFUW5xMWUwUXY3ejZKZGVVVE4yLVBSUWtsZkg0NVdlV25zXzl0azFWTWVrbWVyZ0xValJuRTAtN3ZlMDByb3Ayd1dkODZWQXFwc0Z1Y0J5alFBSjJpSGlxV1otRjU5X25qR3d5UnE2Rmt4VTJpX1JPdXdiaGtqZ3A3anZOc0czMC1sU2I1TEdCek43NUtXLVNpVlJCNXpibkprVmVyYkROWG85Szk3dFdTZ0hkVVNfZmhocXh1MGlwX2tWcTl2Uy03bjdYdTZqdjQ4UHZJcTY2bFF4ZXN5LUxKalZycm84MUM2NzRubjdqZklaeGo1cllhRG9zQTNLNTl1TUVFaXo0WVVNcWhXNk9BdmptVEc5cmhOZm1OV2RUTl9YemZ2UVpuQUxtU2M2OTliWXlBR1ZnVkhJWkpKZ1hWd3BJbzBzTjZ5blEtM1NFWmhoTkpiVUxDZlpQdE5icFVHeHQ3SkRkdnVNMGxVaF9XMzM3ZF9YbXptSUpvUXNNSXRMRGNfUWh6Q0xyMnVoQXFkdWlhNUx0YzNUcXVLRUw4ZzdKY2VkZllhTUlfd0luZW5UeFpmX2s3amZvVmVZV1hlamFSRTVPS1NfWHp0VFNMSU9qY2p2aG1NLUJoX0UwWUt3OWRnLUp1ejJlTHJGZDRYY09GQWNYcjJYYmRxdEk1aFdsZUFscFRPOURmYmFwSFRmZlNTYWdtZnN1V2lnYlVIWk94enJKUEhCcXJ2QzBySXV3M2diZXBMSW03WklrOTN2LVVBWGhFb3g1RlJmX1JaaHBEWTE4MmNoNWJ4eEVZVG1pMzd4b3lLLUtYbFFPWHljQ0JPcThXMklHYzhUZE9UbXkwRThfYUQ3NUhWM25ENmJZOEZnV21OWllXakxLWm91R3JNd2RRNzhiSDh3b19WQVkya295N1k0QnlEQ0IyUXk1Y0prcjZQUFNCbG1tZktVWVE",
-    "9596500c-ed14-346a-a3b8-98d2f0a29533"
+    "9596500c-ed14-346a-a3b8-98d2f0a29533",
+    "CBMiiAFBVV95cUxNcEpWc056alpQVndBVUNmd255X01ka2EtNWN1ODlDZWE0dFJYNXo0cElLRndDaGRTWjV0ZG5MTzY5Y1A5Rko0WnJ4MjQ2Y2ZEd2pvWHVkWEF5bDVaT1JSXzJIalVNV2cyTlhfVzJUYkc0LUtWM3l5NXhmSDFFelozZXN6SEJVanR4"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 64,
+    "ai": 65,
     "staged": 2,
     "prio": 0,
     "lost": 0
