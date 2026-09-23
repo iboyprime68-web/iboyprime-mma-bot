@@ -1,5 +1,6 @@
 {
   "seen": {
+    "347791fc8b29ca09": 1790181891.783767,
     "a63bba9a0ee5b4c4": 1790181827.5325289,
     "880ec5a90933afc8": 1790181827.1599274,
     "d5bead90480e8d66": 1790181827.1396778,
@@ -2498,8 +2499,7 @@
     "8ac4b97c452c9d10": 1789665047.366746,
     "a041d6bbdcb36098": 1789664984.3509681,
     "489e3d1acd22a916": 1789664920.8051505,
-    "11d1bf1ff0f7f416": 1789664857.2893076,
-    "19fba868f37d188a": 1789664793.3734348
+    "11d1bf1ff0f7f416": 1789664857.2893076
   },
   "initialized": true,
   "v": 4,
@@ -4723,16 +4723,21 @@
       "source": "MiddleEasy",
       "ts": "2026-09-23T15:57:59+00:00",
       "cluster": "c3ca53b56d4"
+    },
+    {
+      "t": "UFC Boss Rewards 6 Fighters After Wild DWCS Week 7 Battles",
+      "source": "The Body Lock",
+      "ts": "2026-09-23T15:59:58+00:00",
+      "cluster": "c645a37b1d3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T16",
-    21
+    22
   ],
   "yt_eval": [
-    "CBMiugFBVV95cUxQcTF6NFVUUE9FMjFHa2d5TmNmNW1hOUF0ZWZ5SHdYR3hKM1JqeUd1Wm9OUkIyamR1Y25GS2ZIbUU4TGhsOFZHQUoxMzRIUzdwYjJuZVBPcGxmdjFFUnBKWHFnSk9DeUJlNUt5d2YxeklYbi1fQ0RweE95R0U1cTYtakxIMW5ybGQyTkNGUi1pNnEyTEdpbkltT2tZTUxhNWlNaGczX0VEc3ljak1LT29JTmdXSnhFMFpLakE",
     "https://www.mmafighting.com/?p=509550",
     "072873a6-0660-32bd-99af-926228c946a2",
     "https://bloodyelbow.com/?p=331174",
@@ -6231,11 +6236,12 @@
     "CBMihwFBVV95cUxNNlVXT0NoS0NUU0dVNjE2Z1hKM1lLMkpvbE9Fc1JEN182QUliQ3pMMmU2a0lMV2tGVk80eXRNQ3BfbktDbFhNQzB4WlpDZWVEdzVuQ1p0ZmUzdDlPNGpyaURydlpsalFkOVptTlJpSWpjSDFRMGVXc1dvWnplU1pnYWdvS2lVT3c",
     "CBMivAFBVV95cUxQNE9Md3JfSGdINktVTG4wRFR3S2VRQmNxSDYtRm5qamRURzZDSXltVHVHVHhUTlk1dktvWkRhbks5RW9iRlFybklxN19xNFg1ZXZVU0RFV3R5S2E3NGJObG5kLTFsdXZiTVVVUVpXUy1DVmdtZ2RnSlN0S0xJaHIwTVB2S2hOZHZXTVNKN1FtNGdfTFNUWS1mei1BY3EySFREd24wVy1ETVpjYTh5VXYxSnZzR2VSdk9QX05HdQ",
     "https://www.mmamania.com/474337/open-thread-september-22-2026-what-comedies-are-you-watching-right-now",
-    "CBMiqAFBVV95cUxQYmhGRVJuT1NqMWdiNFp1eFAwVm1pcWFKQVF1ZDZYYURvUVpkWmdOTFh2Y0N3X0twZlA0ODMxV1NDWERHb2llUUhNWVlYdllkY1Z6TXAwa1BRd3hLM0NIVjF3MG1NbHJJLUFpTEZBOVA3LTlCZWoxTWJkWnl1MHVvUXBVc01tbk5xeXVlaEVUZTlPS1NRcl8zcTcydW9Rb1V3d2puOTA5N2g"
+    "CBMiqAFBVV95cUxQYmhGRVJuT1NqMWdiNFp1eFAwVm1pcWFKQVF1ZDZYYURvUVpkWmdOTFh2Y0N3X0twZlA0ODMxV1NDWERHb2llUUhNWVlYdllkY1Z6TXAwa1BRd3hLM0NIVjF3MG1NbHJJLUFpTEZBOVA3LTlCZWoxTWJkWnl1MHVvUXBVc01tbk5xeXVlaEVUZTlPS1NRcl8zcTcydW9Rb1V3d2puOTA5N2g",
+    "CBMioAFBVV95cUxQNDVjMHg1NW9LZ3Q0WjVhUEVNLUU1TTNfYzNNMHVKVkZqQ2RpaXFnWnowbm9TbTc3emh4WE56ZXBZZG1URUxUWDhKdnB6Skp2MVFWa0psbzlMM2pLTjRTb2JkLWRPLURHb3VTQ25lYk5VSGx2N2FRSnJPSjdPcjRYdGo3X21ST3JBNnRkRkhCYm5DdUwyX0lQYWNGVWRFYjM2"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 111,
+    "ai": 112,
     "staged": 4,
     "prio": 0,
     "lost": 0
