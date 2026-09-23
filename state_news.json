@@ -1,5 +1,8 @@
 {
   "seen": {
+    "22fb6946552adbf6": 1790180966.174902,
+    "7050c71a161a2553": 1790180965.8899307,
+    "0f4acd416da350d1": 1790180965.8613033,
     "82e0f9a4c45c8d01": 1790180941.0590684,
     "f93f6de62f3e758c": 1790180913.9961855,
     "6181ccb72147ead8": 1790180889.7147226,
@@ -2496,10 +2499,7 @@
     "61dc2cbc2a423a1d": 1789664150.1873934,
     "369426a94c0fe704": 1789664086.1358662,
     "2d26bae99b1e975c": 1789664021.7395933,
-    "c9b4348cc9bde243": 1789663957.3505797,
-    "11c309e2fa263230": 1789663956.8072753,
-    "6d7c2e341f0fdf4f": 1789663956.7856488,
-    "3c014916b62cda7f": 1789663893.4847093
+    "c9b4348cc9bde243": 1789663957.3505797
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T17:00:00+00:00",
       "cluster": "c0d7205a020"
-    },
-    {
-      "t": "Chuck Liddell Names What He Hates About MMA",
-      "source": "MMANews.com",
-      "ts": "2026-09-21T16:29:03+00:00",
-      "cluster": "c280eed242e"
     },
     {
       "t": "\"There's nothing else to say\" - Joe Rogan makes bold claim about Arman Tsarukyan's future after Mauricio Ruffy win at UFC 331",
@@ -4639,16 +4633,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-23T12:30:39+00:00",
       "cluster": "c8b044e61bd"
+    },
+    {
+      "t": "UFC Fight Night 289 broadcast team set with rare commentary trio",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T12:03:23+00:00",
+      "cluster": "cc1cd0d5a42"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T16",
-    3
+    4
   ],
   "yt_eval": [
-    "20db878e-3952-3ab7-89cb-ef156e9a952e",
     "6830694c-695e-3c98-ac41-86a0c733d390",
     "65994366-8624-39ac-8db9-dd2b732deebd",
     "CBMihgFBVV95cUxPc1lyUUhLMU5qM2xrT0dzdldVdzd2S3RfalFyaWU1RkVPY3U2WGpSQl9PMDlHZlJyNUJncGFvdVVSdUU5NmY3X1JVOUxqQ19aM1BRQUtJRnJZRVhNVmNEQkRNY0RUd1hIckxmN1AxamktV3VvbW9yQWVoWXUyMmh6Nk90TS12dw",
@@ -6147,11 +6146,12 @@
     "CBMijAFBVV95cUxPNW5wb1VjZDNsVEU3V0x5VDdnUGFfald2N0pOLXlKcE5iaW5PdG1vZFlMT3NEU1U2YWpoaHpzd3g5X1NoV3YwSUxrRTQtMWZ5Vi0tMVF0UDRFM29vaW5GRlNORmhTU3I4eEJjQmxRS0RXSjFtLWxFTVp1b21UZ2taRTUwa2NKTzZSZFBJZw",
     "https://www.mmafighting.com/?p=512089",
     "https://bloodyelbow.com/?p=333265",
-    "https://www.mmafighting.com/511925/dnp-morning-report-template-dnp"
+    "https://www.mmafighting.com/511925/dnp-morning-report-template-dnp",
+    "4c7a05c9-ae61-3c1a-8cb8-5d3dd9ca3a3c"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 93,
+    "ai": 94,
     "staged": 4,
     "prio": 0,
     "lost": 0
