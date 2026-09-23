@@ -1,5 +1,6 @@
 {
   "seen": {
+    "79ce979d93c2c3f7": 1790143895.2312868,
     "5134a76621b602e1": 1790143850.2386096,
     "b59e429578814842": 1790143704.9955194,
     "21772c809356f3b1": 1790143640.472602,
@@ -2498,8 +2499,7 @@
     "80b09c1022d7b1de": 1789644269.1824045,
     "6f71c63372451a85": 1789644204.2591364,
     "08241ea413cdd9c6": 1789644179.658287,
-    "108dc892cf3f9f34": 1789644136.0523856,
-    "9baf345eaf67a073": 1789644135.5494223
+    "108dc892cf3f9f34": 1789644136.0523856
   },
   "initialized": true,
   "v": 4,
@@ -4693,16 +4693,21 @@
       "source": "Sherdog",
       "ts": "2026-09-23T03:15:19+00:00",
       "cluster": "ca27e2dd323"
+    },
+    {
+      "t": "Dasuyev & Ortega Earn UFC Contracts After 3-Round Battle",
+      "source": "247Sports",
+      "ts": "2026-09-23T05:12:07+00:00",
+      "cluster": "cb80812d143"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T06",
-    9
+    10
   ],
   "yt_eval": [
-    "453ab62c-ec10-388f-b745-a9a7253b8504",
     "https://www.sherdog.com/news/news/Justin-Gaethje-went-from-80-cents-to-not-touching-his-UFC-title-paycheck-202736",
     "68196dc8-c273-3c01-b3f3-efed4cb6bc08",
     "9b569b72-8152-3100-a179-fffea5833266",
@@ -6201,11 +6206,12 @@
     "CBMingFBVV95cUxOSzFHbElQa20wZGM0Tk5vU3RvQjdEMUVVUldpY2N4LXpIRzNaVEIwUFdwdkpjbnJ6YVM5NTUwdThNRHp3SkJUNmdHUDQxYjNsVndKT2RmTGNvTU5LZjRqQzRWQThJbnB6TUlnU0ZjU2FscHAwNW82c3hCNjZvanNJcE5tYklCWEdQWDBRMXZhZE9xdG1wSG4tcXdkb1BTZw",
     "https://www.sherdog.com/news/news/Marlon-Vera-reveals-36200K-robbery-on-eve-of-Sean-OMalley-title-fight-202917",
     "CBMiU0FVX3lxTE1vWE5odkpXMXFpT2oxaGw0a1l2Z0ZUVU94VUY1QWhZY3V3OGNZX0JRa2Y3Q01TbDViejRXblRiTVdhT3RTUW1uekNoQ1NjRng2WnVF",
-    "https://www.sherdog.com/news/news/UFC-331-upset-winner-reveals-crazy-decisions-behind-36600K-debt-202918"
+    "https://www.sherdog.com/news/news/UFC-331-upset-winner-reveals-crazy-decisions-behind-36600K-debt-202918",
+    "CBMimwZBVV95cUxOZkowY3dtM3JQTzFlcHU2TDlTRkZxWGlBRVk0aXlDZ2xQaGIxUmFXVUs5S3dEaGlTMlVqLWdIN3RZZnh1RnZRdTBCQ1VkbEVFUW5xMWUwUXY3ejZKZGVVVE4yLVBSUWtsZkg0NVdlV25zXzl0azFWTWVrbWVyZ0xValJuRTAtN3ZlMDByb3Ayd1dkODZWQXFwc0Z1Y0J5alFBSjJpSGlxV1otRjU5X25qR3d5UnE2Rmt4VTJpX1JPdXdiaGtqZ3A3anZOc0czMC1sU2I1TEdCek43NUtXLVNpVlJCNXpibkprVmVyYkROWG85Szk3dFdTZ0hkVVNfZmhocXh1MGlwX2tWcTl2Uy03bjdYdTZqdjQ4UHZJcTY2bFF4ZXN5LUxKalZycm84MUM2NzRubjdqZklaeGo1cllhRG9zQTNLNTl1TUVFaXo0WVVNcWhXNk9BdmptVEc5cmhOZm1OV2RUTl9YemZ2UVpuQUxtU2M2OTliWXlBR1ZnVkhJWkpKZ1hWd3BJbzBzTjZ5blEtM1NFWmhoTkpiVUxDZlpQdE5icFVHeHQ3SkRkdnVNMGxVaF9XMzM3ZF9YbXptSUpvUXNNSXRMRGNfUWh6Q0xyMnVoQXFkdWlhNUx0YzNUcXVLRUw4ZzdKY2VkZllhTUlfd0luZW5UeFpmX2s3amZvVmVZV1hlamFSRTVPS1NfWHp0VFNMSU9qY2p2aG1NLUJoX0UwWUt3OWRnLUp1ejJlTHJGZDRYY09GQWNYcjJYYmRxdEk1aFdsZUFscFRPOURmYmFwSFRmZlNTYWdtZnN1V2lnYlVIWk94enJKUEhCcXJ2QzBySXV3M2diZXBMSW03WklrOTN2LVVBWGhFb3g1RlJmX1JaaHBEWTE4MmNoNWJ4eEVZVG1pMzd4b3lLLUtYbFFPWHljQ0JPcThXMklHYzhUZE9UbXkwRThfYUQ3NUhWM25ENmJZOEZnV21OWllXakxLWm91R3JNd2RRNzhiSDh3b19WQVkya295N1k0QnlEQ0IyUXk1Y0prcjZQUFNCbG1tZktVWVE"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 62,
+    "ai": 63,
     "staged": 2,
     "prio": 0,
     "lost": 0
