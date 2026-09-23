@@ -1,5 +1,6 @@
 {
   "seen": {
+    "84805f7fbcdc7835": 1790196080.4310532,
     "e13d2803f9e1c985": 1790195519.1340213,
     "ac71a2504bf8f118": 1790195519.1326175,
     "307bcd1ef37ec8e3": 1790195455.2723417,
@@ -2498,8 +2499,7 @@
     "bd7accd6655bb0e3": 1789688003.4354627,
     "7e46df0f1f77e887": 1789687938.5916793,
     "713a5115fd4aecdb": 1789687873.3192132,
-    "bff934dd252451f1": 1789687808.3367038,
-    "69bd045887c97f5a": 1789687808.0509212
+    "bff934dd252451f1": 1789687808.3367038
   },
   "initialized": true,
   "v": 4,
@@ -2509,24 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-21T21:00:00+00:00",
       "cluster": "cc48506f13f"
-    },
-    {
-      "t": "Tom Aspinall Steps Down as UFC Champion",
-      "source": "The Body Lock",
-      "ts": "2026-09-21T20:32:20+00:00",
-      "cluster": "c717994a848"
-    },
-    {
-      "t": "Gable Steveson Can Still Be A Player in the UFC, But He Has a Lot of Work To Do",
-      "source": "lindyssports.com",
-      "ts": "2026-09-21T20:33:00+00:00",
-      "cluster": "cb3032ea55b"
-    },
-    {
-      "t": "Manel Kape Calls Out Joshua Van After Dominant UFC 331 Performance",
-      "source": "The Body Lock",
-      "ts": "2026-09-21T20:40:27+00:00",
-      "cluster": "c6ff2b0f490"
     },
     {
       "t": "UFC Star Mackenzie Dern Teases Possible Future With WWE, Dream Fight With Ronda Rousey",
@@ -4873,16 +4855,21 @@
       "source": "Cageside Press",
       "ts": "2026-09-23T20:21:09+00:00",
       "cluster": "c8003bfd86f"
+    },
+    {
+      "t": "Justin Gaethje makes shock retirement claim as Arman Tsarukyan fight hangs in balance",
+      "source": "SPORTbible",
+      "ts": "2026-09-23T20:38:31+00:00",
+      "cluster": "c360e0a7e34"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T20",
-    34
+    35
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509508",
     "https://www.mmafighting.com/?p=509648",
     "https://bloodyelbow.com/?p=331249",
     "3f4f41dc-7ae8-35c6-ab96-302a6900ece1",
@@ -6381,25 +6368,17 @@
     "CBMixAFBVV95cUxNcEktMnV2VlBfTlk4dEdvd1lwMDRGMGNJVVc4SDRrVUVLb21GU3FZRXljZC1hUDQxR05KVWtkX1hIMHRpN1o0UHlMRGNRM3l0dzdBZUt5bGE2TU5GdXc5SmNXUzBpSkZzLVVXNHkxNDJrMmVVZnJVV3NZSjZxNl83U1N2Qm1zN2pIbEdhUDNRRk1hby1CRHdadW9uTk5pb25WQWtUeGxwNllxSUpseHFHRW5HQnRYOXFwSGlHWUxoZmxCODRk",
     "CBMinAFBVV95cUxQWUI3TWp4bGI0dlpJU3RLdEc1MDNPWmpvSlhfU1EyQXJYcV9NXzE5NFc1b2hTMUNjVjRJekZFcmo4d1BxWVBjYm1GMno4MGZ6NWZCRUlVQUpnN3ZTU2RCTlpJb25jMGU3ZDhoSE9SR3RNTUVtOEJ5aTVYMGgtdVRNaURCbHJhNERMMTJxNGp0Vk5MZUVhdjdLeURKR3M",
     "CBMiswFBVV95cUxOdW1sOW5UXzItajZ4N0dIdGdva0Fud0V5TVN2eWpQOGxNMXNRc0JzaURNOUNoQzVTeGRreVBkSnExNjdnZTR6Ti1jc3F6VGNjMWZxY0FSNmpNdFJUTjVESFQwdmttaTlTNW1VQml3NGVPMnBNdllzSmNDWTZQVkx5Q3F0UTlLdWRudFhucW9oai1uMVZyVnlDdFJ0dE5XeHFBaWN5UEtlck5tZ1hGSVR6amZEZw",
-    "CBMigwFBVV95cUxOX2ZwTzk2a2pYdXZRcnkwNmV2dmI5Y21xWmJNeVZKMUc2NmFzZmFtYnlnbTAxd2VZdDd2QzRRZjRFQTByMG1YbTc5a3F1TzlLejNFSDZEcWphMURaVzRQTHBDcHVYT3Z0eDBrQlkwdmlMT3J6Nmd5cTM2LU4weXdZbjFBRQ"
+    "CBMigwFBVV95cUxOX2ZwTzk2a2pYdXZRcnkwNmV2dmI5Y21xWmJNeVZKMUc2NmFzZmFtYnlnbTAxd2VZdDd2QzRRZjRFQTByMG1YbTc5a3F1TzlLejNFSDZEcWphMURaVzRQTHBDcHVYT3Z0eDBrQlkwdmlMT3J6Nmd5cTM2LU4weXdZbjFBRQ",
+    "CBMimgFBVV95cUxObHJwa3ZnVGdZb1ZQaGtRYVN2cno3ZHFaQ2IyVWxhQWV4RUR1cmc2MnpyQjlqVnRlYzZxQ0dzNnRLek5ITUY1Zzl0UUtmREljV0M5WHY2dktDbmFYTUlScmMyaVNSN0xvM2V6SXQ2V1dGcUZ6cTZtR092bUVPMFhUYjRnQXRQR3NiQXRMenBMYjlIellVWXFvY0FR"
   ],
   "daily": {
     "d": "2026-09-23",
     "ai": 120,
-    "staged": 4,
+    "staged": 5,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-12T08:44:03.851144+00:00",
-      "t": "Invaincu à l’UFC, il prend un K.O à l’entraînement",
-      "names": [
-        "invaincu",
-        "undefeated"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-12T12:44:56.734741+00:00",
       "t": "Conor McGregor rules out re-signing with UFC as he looks forward to being ‘free’: ‘One more to go’",
@@ -7171,6 +7150,15 @@
         "aspinall"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-23T20:41:20.432907+00:00",
+      "t": "Justin Gaethje makes shock retirement claim as Arman Tsarukyan fight hangs in balance",
+      "names": [
+        "gaethje",
+        "tsarukyan"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7235,7 +7223,8 @@
     "2664365eba4702ba": 1790088632.205843,
     "f129cb74dc78046f": 1790105043.358493,
     "bc67b277a33c8dc9": 1790114898.8711655,
-    "f93f6de62f3e758c": 1790180915.1465416
+    "f93f6de62f3e758c": 1790180915.1465416,
+    "84805f7fbcdc7835": 1790196079.8220396
   },
   "pinged_titles": [
     [
@@ -7244,6 +7233,14 @@
       [
         "aspinall",
         "gane"
+      ]
+    ],
+    [
+      "Justin Gaethje makes shock retirement claim as Arman Tsarukyan fight hangs in balance",
+      1790196079.8220396,
+      [
+        "gaethje",
+        "tsarukyan"
       ]
     ]
   ]
