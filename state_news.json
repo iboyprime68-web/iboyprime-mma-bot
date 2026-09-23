@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c51eb088b7f157a9": 1790142920.6786027,
     "5386a66a42230ac4": 1790142855.7608733,
     "dd11f79e47ad4700": 1790142791.3950374,
     "91f9c5ffc76b737a": 1790142726.7525153,
@@ -2498,8 +2499,7 @@
     "ad6648927e87b11a": 1789626039.2750142,
     "2d52dfb1730bec9a": 1789625973.581354,
     "4e539e2a6e746b9f": 1789625844.211578,
-    "39871e5f4679ee8b": 1789625717.2100966,
-    "1ccd6a1a3cea1262": 1789625671.7590857
+    "39871e5f4679ee8b": 1789625717.2100966
   },
   "initialized": true,
   "v": 4,
@@ -4609,16 +4609,21 @@
       "source": "Sportskeeda",
       "ts": "2026-09-23T05:08:00+00:00",
       "cluster": "ce433a455c1"
+    },
+    {
+      "t": "Instant UFC classic! Record-setting Contender Series duo eclipse 'Holloway vs. Poirier' epic striking numbers, both earn contracts after blood-soaked war",
+      "source": "MMA Mania",
+      "ts": "2026-09-23T02:30:46+00:00",
+      "cluster": "cd093fd1bf4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T05",
-    20
+    21
   ],
   "yt_eval": [
-    "0d78970d-413a-3b2a-9f8d-add443fa0775",
     "8548620a-eaa4-3701-a528-7fbdb6ce96f0",
     "https://www.mmafighting.com/?p=509421",
     "https://www.sherdog.com/news/news/Security-breaks-up-heated-hotel-runin-between-undefeated-UFC-rivals-202734",
@@ -6117,11 +6122,12 @@
     "afd04ec3-4485-3920-860a-c910bf06e4af",
     "CBMif0FVX3lxTFAyS1B6LVlmZWFncTh3UUNuQ2V6R1dFNnNEbFF4dE5WYURiU0xmR3p5VW0zVVFhVl9ENk01a0NJRmlwYmJpcnhtOUpNWjdmRDRZMlFneXIybXl0WDFkekIzU2F2OWVzb3Qzb1VNRlV4MXVEOXhKYjYzYUUwdHJkQzg",
     "CBMiowFBVV95cUxOa0dyamVvREVjTkN2YkF2SnNKUUg2YTUtUjNhellsMHJEQjh4ZnZ1eGtRb0VDb3VkWmFXX044V1ZjYldVRGhCc0d4TjZKMm94XzRKY0F3ZHJJTnFZWUM4UDJ5WVJfOHNZak10bnc2NG1QNFZUblF5N0xJNWJUblFIc21URHhjYjUxYmRlR29fclVuSHN3NmFOX1FmUVlrRjZJWFFN",
-    "CBMiswFBVV95cUxNTWJEU05LNGRhZmFYV1B0VVBRaDJBSngxdEl6enp6cllMai0yQmdobHNGX19oSHROTE5nUWNrcWtYNkhxZkJCN3N5YVZOanl2MzVrVksycFlfcVplcHlWYml2WS1mY1gxMW1iRW5UMDJMVVdBNGkxdm5ScERfQTZ4bGNNSmp2TTNhcDlZSnhGM0Fjd1RuaFNxUktYdDhBTnllTUtob255bzhXWUd0VGNSbzltbw"
+    "CBMiswFBVV95cUxNTWJEU05LNGRhZmFYV1B0VVBRaDJBSngxdEl6enp6cllMai0yQmdobHNGX19oSHROTE5nUWNrcWtYNkhxZkJCN3N5YVZOanl2MzVrVksycFlfcVplcHlWYml2WS1mY1gxMW1iRW5UMDJMVVdBNGkxdm5ScERfQTZ4bGNNSmp2TTNhcDlZSnhGM0Fjd1RuaFNxUktYdDhBTnllTUtob255bzhXWUd0VGNSbzltbw",
+    "https://www.mmamania.com/474271/mm-clone"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 48,
+    "ai": 49,
     "staged": 1,
     "prio": 0,
     "lost": 0
