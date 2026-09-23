@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5cc8d768f3585f40": 1790142400.6851237,
     "b524fbc2f81bc866": 1790142336.2674658,
     "77c5e03eb1611af6": 1790142311.8504076,
     "69e9e75a46379012": 1790142267.7993717,
@@ -2498,8 +2499,7 @@
     "59c6856eb8015484": 1789625391.7187903,
     "151456de19c0217b": 1789625391.7154586,
     "3100deb54ca43008": 1789625366.5175738,
-    "f0fc92bb1371e6fd": 1789625322.062932,
-    "2a7bc1856b71a644": 1789625255.8298573
+    "f0fc92bb1371e6fd": 1789625322.062932
   },
   "initialized": true,
   "v": 4,
@@ -4555,16 +4555,21 @@
       "source": "Sherdog",
       "ts": "2026-09-23T04:46:39+00:00",
       "cluster": "cfb9fe6ff72"
+    },
+    {
+      "t": "Dana White Backs CSAC’s “Most Powerful Guy” in His Bid to Ban Dangerous MMA Move",
+      "source": "EssentiallySports",
+      "ts": "2026-09-23T04:50:00+00:00",
+      "cluster": "c61dd9cbd5d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T05",
-    11
+    12
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509431",
     "https://bloodyelbow.com/?p=331018",
     "https://bloodyelbow.com/?p=331031",
     "05896a03-15e2-305d-962c-aa18d0824695",
@@ -6063,11 +6068,12 @@
     "03a74f32-78ef-3ec6-82fb-59881a597e40",
     "ac65283c-0c3d-3d3d-be99-cf99ad03159a",
     "https://www.sherdog.com/news/news/Major-PFL-shakeup-hits-just-7-weeks-after-MVP-merger-202912",
-    "CBMiogFBVV95cUxPdE9XaWtRcEFibkdQSDhhbEpGZ2hIOEN3ckluZmRIT2ZEdF9BTFVKYnZkbzlxRDU4RHAtb3lBMXVSNklvNzI5UXBodVROdWRfaUNud2xMaGRoOThsM1dJNlN4ejZodmtwd2U3T0pLSEgwS0xzZG5yYW9SLVMtSjNMcWl0T3VzMXNkMDlDRlVHTHRfczB6WGJCT0J6MW9iRm92V1HSAacBQVVfeXFMTWZmTk1JZzlUZ0VnUGk3OXQ3N010cjlxOU1CVFFqZEpsajhNZHRhbk9QUUZQUFYtTm9FWDRlV3JkWkRrNTY3VEwxUEVqY2FiMjJWUnI3cHR0RkVudmxYN3hON1ZKeWpTZjFNMEFNemJjcEVNSnpYTGNZMWJ6TUFKSGlUZm95NHhsWUl1T0EzQUJmbnZydUw5Ui10MU90ekNLMW9qcXUzRkE"
+    "CBMiogFBVV95cUxPdE9XaWtRcEFibkdQSDhhbEpGZ2hIOEN3ckluZmRIT2ZEdF9BTFVKYnZkbzlxRDU4RHAtb3lBMXVSNklvNzI5UXBodVROdWRfaUNud2xMaGRoOThsM1dJNlN4ejZodmtwd2U3T0pLSEgwS0xzZG5yYW9SLVMtSjNMcWl0T3VzMXNkMDlDRlVHTHRfczB6WGJCT0J6MW9iRm92V1HSAacBQVVfeXFMTWZmTk1JZzlUZ0VnUGk3OXQ3N010cjlxOU1CVFFqZEpsajhNZHRhbk9QUUZQUFYtTm9FWDRlV3JkWkRrNTY3VEwxUEVqY2FiMjJWUnI3cHR0RkVudmxYN3hON1ZKeWpTZjFNMEFNemJjcEVNSnpYTGNZMWJ6TUFKSGlUZm95NHhsWUl1T0EzQUJmbnZydUw5Ui10MU90ekNLMW9qcXUzRkE",
+    "CBMiwwFBVV95cUxNNDA0bnhXdEpPYnk0NHVYMEQySVBHRHA3Zll1VVltYUlMUkZRRTdiZmc2VWxrb1BRdkVFNjFpNzhPWTl4T2lraEY0XzJBQlRxcnNxeFljQVd5ZkxldDFGbFZLU2pLdDVEbmlVeUxhQzg3VU1pUUVMd3hHRFZVVTRQQVFlT2tFcW5keVNNMnp1ZTN3MEpWOTRZRk9ULUktRnFiREdtbWY1V2N1c2sxbDc4RHVldlVRWnpjRFhyWHk2RlgtYUU"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 39,
+    "ai": 40,
     "staged": 1,
     "prio": 0,
     "lost": 0
