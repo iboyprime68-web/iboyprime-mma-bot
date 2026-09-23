@@ -1,5 +1,7 @@
 {
   "seen": {
+    "a2d9177167f76235": 1790122421.7701902,
+    "75ee7457d61ef7c3": 1790122421.5285847,
     "e701074c77448e39": 1790122357.10424,
     "569d1dc8239597d0": 1790122356.8073137,
     "339d042c6bd4a864": 1790122356.8046465,
@@ -2497,9 +2499,7 @@
     "650cd01915bcc942": 1789604471.0886548,
     "2b1848ed3605c1d3": 1789604470.7318647,
     "652028cc1cdcc2ef": 1789604470.7270257,
-    "46f7c4e220c542a3": 1789604470.7197537,
-    "3e2b33566c3f5c6f": 1789604404.6684546,
-    "f5ffa964e416bcd7": 1789604338.3531687
+    "46f7c4e220c542a3": 1789604470.7197537
   },
   "initialized": true,
   "v": 4,
@@ -4585,16 +4585,21 @@
       "source": "MyMMANews",
       "ts": "2026-09-22T23:14:18+00:00",
       "cluster": "c61ba918436"
+    },
+    {
+      "t": "Abubakar Nurmagomedov dismisses Arman Tsarukyan as a ‘No-Name’ in Wrestling",
+      "source": "MMA Sucka",
+      "ts": "2026-09-22T23:15:44+00:00",
+      "cluster": "cad734663e0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T00",
-    7
+    8
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330978",
     "CBMi1wFBVV95cUxNWUxsbHJ0RnQtMFgtV3dXdHNLSkhzcVBtQnI5R0lGX2VST1NndDJYTTdOcEdUazRmMW9VUnI5eTNyX3BpWTJsaVk3OE5GWWdLWGdYQmxHM1BXY3dCUjNIcklLYm9yQXVZbm5HMU5DSDdCRVlCQjhzcEowUkNrMk1HRW8tR1d2bC1qR0F0OF9takJRODBfc204YmJLVTF0NG9FQXJjR2tjdmstQXE1RFAxTmRnd0F0Tk9DUUtfQmVOZXhmck1MbE5NalU4UUIxZmgtX0lybDRVTQ",
     "https://www.mmafighting.com/?p=509360",
     "https://bloodyelbow.com/?p=330929",
@@ -6093,11 +6098,12 @@
     "76374964-39dd-3b76-bda3-f43cffe69142",
     "https://bloodyelbow.com/?p=333114",
     "CBMi4AFBVV95cUxNeEp5WVlTczY0WEJCdzlReEtubkdVSEhVNHluUUNvQ1lnUkVxSnNzd2g3Z3hpekgyU09hVk1GRzlhZ3JKUW1LRG0zemNONFlHU2szSTNQME8tUlgwblJiNVh2SENIYjhPY2dMbFZuS1VLbmtMdm0wd0VpVzd6WHlseGo5RVlCYzNvam9wYUNkemQyZTJDdTBWeEFrYVJoMldGQm13aWllOFBpdmkyUm1EZFYyVVpoeGpkZG1EeVZWV0dRb240aGVWcWYzOFBXcGNyWHozUWhQVXJnQjBrZEtKMA",
-    "CBMidkFVX3lxTE5NRy1MQU9hUi1keW1ucmpZZGc5LXZ3NUhidElCMnUtQWFnLUdOczFXU2NhZTBkZUpKUjUteEJsOGpFYndTUzAwNThDb0lvZEF0amJnazVMUEFhbWpFTkd3NlBMSlVWNjRUR1N5bWxyU0VOa2JzdHc"
+    "CBMidkFVX3lxTE5NRy1MQU9hUi1keW1ucmpZZGc5LXZ3NUhidElCMnUtQWFnLUdOczFXU2NhZTBkZUpKUjUteEJsOGpFYndTUzAwNThDb0lvZEF0amJnazVMUEFhbWpFTkd3NlBMSlVWNjRUR1N5bWxyU0VOa2JzdHc",
+    "CBMiogFBVV95cUxPZlZDZDVJS1dUY1Ntb3hzb0hXZ2Zuc1pfQ2xVTExYaXpKczFhMVRxS05LSXR5bmdiZS12TVNsWUE3b2szNWx6STNMeGdTYk42MXJna2o3OWtiSE55NmxSU0ZMVVhwOFRLdVZubHo0dkJIVlBzZHA3V3FaODBVLS1KUjRNR0kzOGpIU3lDNTlCRUpvVmplZXo0U0cyMVhoNzEwNlE"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 7,
+    "ai": 8,
     "staged": 0,
     "prio": 0,
     "lost": 0
