@@ -1,5 +1,9 @@
 {
   "seen": {
+    "db8d3a33cee848db": 1790143178.2880423,
+    "8eb61442a4a5966d": 1790143177.9365883,
+    "984b673d6b8dc1d1": 1790143177.910839,
+    "254ee4d96268a9be": 1790143177.9090576,
     "07857b49cb17d150": 1790143113.704126,
     "ac7f32af96db19cd": 1790143113.444336,
     "8e3564a8fb24149b": 1790143049.3655503,
@@ -2495,11 +2499,7 @@
     "b059da98f69ab88e": 1789627064.3126423,
     "2acb57bbf35d5a23": 1789626998.7684526,
     "d347ae8a03c99caa": 1789626910.9685307,
-    "f6fe8fae4348d1d0": 1789626678.6197515,
-    "f225882ab4c666e5": 1789626591.072504,
-    "44089995d03e7122": 1789626273.9809716,
-    "6ea8cf91b1e7a7ac": 1789626273.7217512,
-    "9ccd1bbc998b07f3": 1789626168.1720104
+    "f6fe8fae4348d1d0": 1789626678.6197515
   },
   "initialized": true,
   "v": 4,
@@ -4633,16 +4633,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T05:17:19+00:00",
       "cluster": "c0b8fbc40f7"
+    },
+    {
+      "t": "UFC star in horror car crash, shares footage of friend collapsing after climbing from wreckage",
+      "source": "Herald Sun",
+      "ts": "2026-09-23T05:39:16+00:00",
+      "cluster": "c458d7f100e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T05",
-    24
+    25
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331040",
     "https://bloodyelbow.com/?p=331063",
     "6a3540eb-e53c-4e22-a5e8-dcb302776493",
     "https://www.mmafighting.com/?p=509482",
@@ -6141,25 +6146,17 @@
     "https://www.mmamania.com/474271/mm-clone",
     "CBMiekFVX3lxTE4yS0FHbDgwamcwcjVIR25WSmlQdmVtd3RKb2NZZjdIVTE4RjZ6cG9teDBUNEdZc0JBZ1Z0TEJydE9ZOWZIUmNyWElXWXJ2dDhRQ2pxS1ZIT25MMVh0QW1xb0dYNm9FbXJzX2UyZlhxN25TRTBCRFdsV2d3",
     "CBMid0FVX3lxTE9CREV6M1BkOUZ4OUZhTmxpQjQ4clpMbV81dV9YX2J2Z2l3YVN0ODU4MzlkMmdNeEU1dVBsdVFib0N2ejlPM2VkbFVFaFBfYnd3UFYzSDFDSG45RmJINXd6N1hISXlmeWx4cjJ4VGF2REV6VzdRYlJZ",
-    "2e30fde5-87dd-3755-818b-93308ab393f4"
+    "2e30fde5-87dd-3755-818b-93308ab393f4",
+    "CBMikAJBVV95cUxQNUkyMUpET000ZWdlUldIcWFDNDdORmg4ZDJIOTBFNkMxU3ZSUUJaQTdKRk1fMXcyVlRWRjRxenZ1bkR2b2ZQOEt4MVZxTEJQU3dhWXcwY2I1Zk90Qk1NNFhkMjZST19yb1lpZW8zR2VzZ3czZ1lkQTJaX2RNUEhVc2xJWS12d2dlenVRcDA3b2lvejdrNHFpVXh3Q0dQbkR4T3F0V1VfWVJ0Y3BLb2h6Q0RyZ0JfOUpISHJQdEVsRGhKbHg3a3BuMDlweWx6OWtzT2pFWF9Sb3RObXd1Y0VLLWlTNnRESENTbjlMOHpJbkVSYlVZNURqY0xxaE5VNENWMjlBaGVJTk5TeTRNSmsxdw"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 52,
-    "staged": 1,
+    "ai": 53,
+    "staged": 2,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-11T17:38:17.569784+00:00",
-      "t": "Dana White shoots down Francis Ngannou UFC return talk: ‘I just don’t want to do business with bad guys’",
-      "names": [
-        "white",
-        "ngannou"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-12T08:32:10.023193+00:00",
       "t": "‘Missing out’… Full footage of Dustin Poirier Father’s Day arrest emerges",
@@ -6935,6 +6932,12 @@
         "strickland"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-23T05:59:39.407179+00:00",
+      "t": "UFC star in horror car crash, shares footage of friend collapsing after climbing from wreckage",
+      "names": [],
+      "img": "wash"
     }
   ],
   "seed_pending": [],
