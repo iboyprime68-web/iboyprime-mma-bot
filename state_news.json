@@ -1,5 +1,7 @@
 {
   "seen": {
+    "07a4691d8034f0b2": 1790143226.0786383,
+    "eb4ce57572a32da8": 1790143225.7922642,
     "db8d3a33cee848db": 1790143178.2880423,
     "8eb61442a4a5966d": 1790143177.9365883,
     "984b673d6b8dc1d1": 1790143177.910839,
@@ -2497,9 +2499,7 @@
     "ff1fe5dd7ecb5717": 1789627211.8363216,
     "df323b843e7bb2bc": 1789627064.314128,
     "b059da98f69ab88e": 1789627064.3126423,
-    "2acb57bbf35d5a23": 1789626998.7684526,
-    "d347ae8a03c99caa": 1789626910.9685307,
-    "f6fe8fae4348d1d0": 1789626678.6197515
+    "2acb57bbf35d5a23": 1789626998.7684526
   },
   "initialized": true,
   "v": 4,
@@ -4639,16 +4639,21 @@
       "source": "Herald Sun",
       "ts": "2026-09-23T05:39:16+00:00",
       "cluster": "c458d7f100e"
+    },
+    {
+      "t": "Merab Dvalishvili says he fought Petr Yan's fight in UFC title loss",
+      "source": "Sherdog",
+      "ts": "2026-09-23T02:55:47+00:00",
+      "cluster": "c857851f369"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-23T05",
-    25
+    "2026-09-23T06",
+    1
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331063",
     "6a3540eb-e53c-4e22-a5e8-dcb302776493",
     "https://www.mmafighting.com/?p=509482",
     "https://bloodyelbow.com/?p=331091",
@@ -6147,11 +6152,12 @@
     "CBMiekFVX3lxTE4yS0FHbDgwamcwcjVIR25WSmlQdmVtd3RKb2NZZjdIVTE4RjZ6cG9teDBUNEdZc0JBZ1Z0TEJydE9ZOWZIUmNyWElXWXJ2dDhRQ2pxS1ZIT25MMVh0QW1xb0dYNm9FbXJzX2UyZlhxN25TRTBCRFdsV2d3",
     "CBMid0FVX3lxTE9CREV6M1BkOUZ4OUZhTmxpQjQ4clpMbV81dV9YX2J2Z2l3YVN0ODU4MzlkMmdNeEU1dVBsdVFib0N2ejlPM2VkbFVFaFBfYnd3UFYzSDFDSG45RmJINXd6N1hISXlmeWx4cjJ4VGF2REV6VzdRYlJZ",
     "2e30fde5-87dd-3755-818b-93308ab393f4",
-    "CBMikAJBVV95cUxQNUkyMUpET000ZWdlUldIcWFDNDdORmg4ZDJIOTBFNkMxU3ZSUUJaQTdKRk1fMXcyVlRWRjRxenZ1bkR2b2ZQOEt4MVZxTEJQU3dhWXcwY2I1Zk90Qk1NNFhkMjZST19yb1lpZW8zR2VzZ3czZ1lkQTJaX2RNUEhVc2xJWS12d2dlenVRcDA3b2lvejdrNHFpVXh3Q0dQbkR4T3F0V1VfWVJ0Y3BLb2h6Q0RyZ0JfOUpISHJQdEVsRGhKbHg3a3BuMDlweWx6OWtzT2pFWF9Sb3RObXd1Y0VLLWlTNnRESENTbjlMOHpJbkVSYlVZNURqY0xxaE5VNENWMjlBaGVJTk5TeTRNSmsxdw"
+    "CBMikAJBVV95cUxQNUkyMUpET000ZWdlUldIcWFDNDdORmg4ZDJIOTBFNkMxU3ZSUUJaQTdKRk1fMXcyVlRWRjRxenZ1bkR2b2ZQOEt4MVZxTEJQU3dhWXcwY2I1Zk90Qk1NNFhkMjZST19yb1lpZW8zR2VzZ3czZ1lkQTJaX2RNUEhVc2xJWS12d2dlenVRcDA3b2lvejdrNHFpVXh3Q0dQbkR4T3F0V1VfWVJ0Y3BLb2h6Q0RyZ0JfOUpISHJQdEVsRGhKbHg3a3BuMDlweWx6OWtzT2pFWF9Sb3RObXd1Y0VLLWlTNnRESENTbjlMOHpJbkVSYlVZNURqY0xxaE5VNENWMjlBaGVJTk5TeTRNSmsxdw",
+    "https://www.sherdog.com/news/news/Merab-Dvalishvili-says-he-fought-Petr-Yans-fight-in-UFC-title-loss-202916"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 53,
+    "ai": 54,
     "staged": 2,
     "prio": 0,
     "lost": 0
