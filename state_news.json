@@ -1,5 +1,8 @@
 {
   "seen": {
+    "8112bf4bca1d5723": 1790183376.280549,
+    "89acc43d3ee494c2": 1790183374.8881981,
+    "26772b181d130ebb": 1790183374.8782253,
     "ce6490ca48490bb8": 1790183310.332647,
     "c84f50941e229f69": 1790183308.7766645,
     "95975b422a7be35b": 1790183284.9500027,
@@ -2496,10 +2499,7 @@
     "f21415af6e868b1c": 1789676080.2756598,
     "0584a25a942797af": 1789676080.273827,
     "3b7b79bc4a4a6ee2": 1789676016.6020842,
-    "ccc528c9a0722eed": 1789676016.2960148,
-    "72a14ec7c70f6c07": 1789675953.0951986,
-    "85f8a92df3056a57": 1789675952.6739714,
-    "49ada2f350c61282": 1789675952.6518369
+    "ccc528c9a0722eed": 1789676016.2960148
   },
   "initialized": true,
   "v": 4,
@@ -4795,16 +4795,21 @@
       "source": "ActuMMA",
       "ts": "2026-09-23T17:00:00+00:00",
       "cluster": "c0b5580f32f"
+    },
+    {
+      "t": "Lawler Returns To Face Chimaev At RAF 14",
+      "source": "boxingnews.com",
+      "ts": "2026-09-23T17:00:38+00:00",
+      "cluster": "cb6f63dc0db"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T17",
-    8
+    9
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331239",
     "83cddd2f-a5dc-3020-9bd1-2431495c9bf5",
     "20be1995-b967-3598-9941-abfd72bcfd09",
     "965aabbc-7023-434e-9594-5cc1e9db0730",
@@ -6303,7 +6308,8 @@
     "CBMingFBVV95cUxOSl9wdmpTcHJEcTQ2eXROSzZCcFdTak9fZ3BkclBsMkpMSHJwbDlpTktBTzJUOUFZaFIxdHVxcEhMZkl3V1J0SUFZdWVtOURrSlMxUEg2N05Hblk4M185S2Q1Q0Q4LVVTeV9vNFhxQ0REd2VILXVkUi1tUF91YzlqRFFUeGpnS0tObmdnby13MGFxMDRBTGdTOF9WcmczZw",
     "CBMigAFBVV95cUxOOE5GeHZYNXNRZTBzS3VrOTF2WHJNYkg2aXViNzhmM0hPc1cxc2dZT0s2TlIyRnpmbE94Mnd1TW5fOU9kT1hseDRaSjl0Ylprb1VaWVhCZ1BBdWdWREFpNDVINDlIYXozTmEtLVJMWEVTaC1WbG9ldzdSaW40aVVkaw",
     "https://bloodyelbow.com/?p=333349",
-    "CBMivAFBVV95cUxPQTZGWHhVVjFRT1ZXazd2MTQzOG9PQ3d0UGVUUnp4aDZBM2ZLOGNlSDBBc2h6UE9kaTkwS19vZnNXZjFmZlVwQ2g4em5pZUNWNFBNOTdrdWRod1JGLU90eXRqTm9QbmlsX3BseHlYZzBhaGhRUTFhRGVpVk1FNXNudXZnTFdSOWhmRWxEZlphRXp5VHA4MkVJdkpzcFR1LUhMMzBHYXpBYkdLQjFacEptYkpfdnhaLTNOa1pwWQ"
+    "CBMivAFBVV95cUxPQTZGWHhVVjFRT1ZXazd2MTQzOG9PQ3d0UGVUUnp4aDZBM2ZLOGNlSDBBc2h6UE9kaTkwS19vZnNXZjFmZlVwQ2g4em5pZUNWNFBNOTdrdWRod1JGLU90eXRqTm9QbmlsX3BseHlYZzBhaGhRUTFhRGVpVk1FNXNudXZnTFdSOWhmRWxEZlphRXp5VHA4MkVJdkpzcFR1LUhMMzBHYXpBYkdLQjFacEptYkpfdnhaLTNOa1pwWQ",
+    "CBMibEFVX3lxTFBMbkZHTHFtRGN2c25fS2huMnFSaHFCQTJzczZxT1JGNnFsRFlIQ3dkNm1pS3k4TDJhM1A0cVV5UzZHbVFYZUJsTjVBSF9XaXVKdkI5MkxZbVpHZTNsaVF0M3hTTWxmb1JzQ1ZOQw"
   ],
   "daily": {
     "d": "2026-09-23",
