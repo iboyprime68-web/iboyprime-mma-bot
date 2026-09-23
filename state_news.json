@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3622b0cbfae6e858": 1790181304.2052474,
     "24556c0327dd7499": 1790181239.3110783,
     "52566a0308e15e2a": 1790181239.0226543,
     "c0abf4b7030679b5": 1790181238.9974582,
@@ -2498,8 +2499,7 @@
     "0785d27bf7b59ae0": 1789664452.0506864,
     "37f637df7a98a216": 1789664429.406619,
     "72e99cfc344dbb0a": 1789664405.109701,
-    "58389734e0d49aa1": 1789664341.417326,
-    "4384f8ed9cc4a549": 1789664277.8526816
+    "58389734e0d49aa1": 1789664341.417326
   },
   "initialized": true,
   "v": 4,
@@ -4675,16 +4675,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T13:40:18+00:00",
       "cluster": "cd720077ee6"
+    },
+    {
+      "t": "Sean Sharaf comments on Gable Steveson ‘rage-quitting the game,’ storming out of cage at UFC 331",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T13:44:57+00:00",
+      "cluster": "c8b3b00145a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T16",
-    11
+    12
   ],
   "yt_eval": [
-    "CBMiYkFVX3lxTFAyZzBuUkNNeTB3V2xSNThBT3J5WmFCS0xzU0hjYTkwVnE0LWV0S3BxMG5ZYnEwM2MtUG9teEhHMTdmVEhNT0RiVktOaElWckh1UWtMcV9YUlU4M3F2c2UwTXJ3",
     "https://www.sherdog.com/news/news/Eddie-Alvarez-Ilia-Topuria-not-gonna-be-the-same-after-Gaethje-loss-202754",
     "https://bloodyelbow.com/?p=331132",
     "https://bloodyelbow.com/?p=331138",
@@ -6183,11 +6188,12 @@
     "https://bloodyelbow.com/?p=333290",
     "f7f4ba9e-bbd4-3338-a6a5-3267e6e1749c",
     "ffc13980-6c9b-3281-bbfe-0c01cfb5a5f8",
-    "5846d25a-bcfa-3be8-90ff-66ba27f1087a"
+    "5846d25a-bcfa-3be8-90ff-66ba27f1087a",
+    "564db093-e328-387b-b757-61b8b3b02d87"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 101,
+    "ai": 102,
     "staged": 4,
     "prio": 0,
     "lost": 0
