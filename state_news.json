@@ -1,5 +1,7 @@
 {
   "seen": {
+    "99157fb5428e6115": 1790161733.3797276,
+    "a56781335ccc6f83": 1790161733.1300178,
     "f808157e8fdb3c4c": 1790161668.7887876,
     "8321d0fe8972a2c0": 1790161668.35946,
     "a708bc3687f0ff44": 1790161625.0856416,
@@ -2497,19 +2499,11 @@
     "ebf3a724b352763e": 1789646670.3099213,
     "709c7c19c61d07e7": 1789646584.398804,
     "c34a74937e8d59f2": 1789646541.000205,
-    "b9f44b0f8534f10c": 1789646477.543278,
-    "7dd9d1a0b5b42486": 1789646413.030528,
-    "9301182557da03be": 1789646368.8797898
+    "b9f44b0f8534f10c": 1789646477.543278
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Game Changers: Heidi Noland, UFC",
-      "source": "Sports Business Journal",
-      "ts": "2026-09-21T11:08:17+00:00",
-      "cluster": "c6887de6325"
-    },
     {
       "t": "Khamzat Chimaev and Arman Tsarukyan are set to co-headline a card that clashes with UFC 334",
       "source": "Bloody Elbow",
@@ -4681,16 +4675,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T07:00:00+00:00",
       "cluster": "c12cd87815d"
+    },
+    {
+      "t": "Joshua verso il ritorno con un ex allenatore, Till e Romero pronti alla sfida a mani nude | DAZN News Italia",
+      "source": "DAZN",
+      "ts": "2026-09-23T10:09:26+00:00",
+      "cluster": "cb3231edcab"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T11",
-    2
+    3
   ],
   "yt_eval": [
-    "be016ba1-4607-3a0a-9968-140c912518b1",
     "https://bloodyelbow.com/?p=331107",
     "567db17e-a6d6-3183-9d78-12dd3dbeeb97",
     "fe6070a0-2837-31cf-a4ba-c899fd4d0a9f",
@@ -6189,11 +6188,12 @@
     "CBMixgFBVV95cUxPUXY3Nk04WHZ6THlvVGZ3VXNfSXVTRUEzeFd2Q2hkYzlydVZJNllTNFR4WHBvWDNPb2ttVkduUmMzeVFkM0kzQTY3UV9UeWVvUlpPY1VWWmt1bjZ3WXJjcWY3aWgyUTNTOTZnWEpLTGtrQmQyUXdOY0M4NXlrVEEzd01HMWNtT2ZtUkNGMUpnZWZ3X2tia1N6YUp6NzlBWks2UnZwOVp6TW5zSEI5cjZlV09kWHBOcnhKOGdkaDNRQUk5QXdKdVE",
     "CBMi0wFBVV95cUxOSGpySkNDLTkxXzNBVlNaUmIzOVhGcnNQR3BZNGw3MHg4emVIQm5iaFlPelFSREZ3aUxreTFhRk9wTlp5SHZtalhtU3YtMUF1dGcyMk5aNGhLaDRqMXNOU2dUcTV2RTRURGdkcmwzQjFuYkV3amoyV01NVm1La1VuUGFTOXBmWGY5OVF4eDd3R0FyeFdPelE5MmhEbWpFNVNMWHBSVWlldlFsWXNBWm9oV2o2a3NTaW9ia1Y3S0FVcl9zbE1lb1diZGhxQ1A0MmNPdF9F",
     "https://www.mmamania.com/?p=474174",
-    "7fb088c3-dec9-314e-bf4a-65ba62410546"
+    "7fb088c3-dec9-314e-bf4a-65ba62410546",
+    "CBMi5wFBVV95cUxPb1ZCNTczcFN0c2E5RlFoRE9PNXc4MnJFQ3Zaa0dRMDFRVGVmWkpmZ2lqQlB0QUZ6OWxoQVdlaUZOQzFhQ3AzQ3EzcENmM2JRSWIxZmg0T3BxNEUzMlV1cW9vX0pQXzgwZUtBVVNZYjQyaXBSWnViYkgxTEs4WlhOcnFMS2hYYm9kaUJWdmxzdEwwQ3R0dGNIZnlmVDlPNzM2Ty1PZ3YyN0x6dEJwZXVveHBUVUpYYTZmRzRodnFSNjlCR0VLcUJMSVFIa1g3UlVVemREUHhPenE2Z3E5WlYwR1laME5ETUU"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 74,
+    "ai": 75,
     "staged": 3,
     "prio": 0,
     "lost": 0
