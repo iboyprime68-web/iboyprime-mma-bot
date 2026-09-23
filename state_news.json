@@ -1,5 +1,10 @@
 {
   "seen": {
+    "7ec2b4ea64ae2c20": 1790125226.1562543,
+    "38f2abe636edd793": 1790125225.5326943,
+    "c0e6d8e57c853c6a": 1790125225.5305505,
+    "54466eba3dba9300": 1790125225.528817,
+    "48e5ff2c5b8e86f0": 1790125225.527211,
     "d40e1cbee03cea6c": 1790124790.0910203,
     "a00001d7f76c3684": 1790124353.8279638,
     "cffbbb698fc5d1a6": 1790124288.8425293,
@@ -2494,22 +2499,11 @@
     "3ffb29685e5240e6": 1789624537.9799213,
     "4d53d03187fbcaac": 1789624537.7116795,
     "6ca9ea5ae4cbdf63": 1789624513.847974,
-    "37f50074a959d631": 1789624488.752202,
-    "ce5f5a6739295ce5": 1789624465.2881305,
-    "cc194b64dc726fbe": 1789624440.273603,
-    "54996f07e1052645": 1789624439.5951886,
-    "ba824056c1e29cab": 1789607178.545681,
-    "eb0595723f67a661": 1789607178.5441134
+    "37f50074a959d631": 1789624488.752202
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Doctor advises Jake Hager to retire from Power Slap after diagnosing his grim eye injury",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-21T01:00:00+00:00",
-      "cluster": "cdb6bbd5635"
-    },
     {
       "t": "Paddy Pimblett takes aim at ‘sore loser’ Ilia Topuria after wild Justin Gaethje glove accusation",
       "source": "Bloody Elbow",
@@ -4693,16 +4687,21 @@
       "source": "heavy.com",
       "ts": "2026-09-23T00:41:00+00:00",
       "cluster": "cf9d1af1e79"
+    },
+    {
+      "t": "Jon Jones theory could now be truly tested after Gable Steveson’s KO loss at UFC 331, says Michael Bisping",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-23T01:00:00+00:00",
+      "cluster": "c8a45cff835"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-23T00",
-    27
+    "2026-09-23T01",
+    1
   ],
   "yt_eval": [
-    "3f61c0c4-f00f-3026-ad70-3b71559d68d0",
     "https://www.sherdog.com/news/news/UFC-fighter-says-he-cant-see-opponents-clearly-until-they-get-close-202732",
     "f4280e66-8664-3971-91b5-9f1b31ea7e62",
     "8c047364-be5f-32a1-861c-06d3d315f229",
@@ -6201,11 +6200,12 @@
     "CBMi2AFBVV95cUxNTWk1TXZDOXdHVnh2U0NnNlhCT01fLXJmRDFFX2lJSEdWYmhJU2Z0RjJ6QlRCcWlFTmY0c21VUWt6dVBPcUxVOTd1aVhVRnFnV181ekQ2UGlZYjQ4NkJQeXZkMDFUMTc2STFsTFkxV1NqazFHeENNc1dDcEZ5c0dILXNkdjNWd3hjMERVVC1RaUFQRVNTXzBaSi1KNl9RLVhTeFJNRnpUQThXS0tMLVk3UnhjdjZZRXo0d3hDdlY5LXA3V09CNF85NUt0ZmpwZ090UmJNLTAycjI",
     "CBMigwFBVV95cUxQZlhDRnZDNkJYOFVGMkVLeHVtTkdnenNqSVBmYXd6R0VDWk9TODNkcmJ0VklKdHM2aUpxa0UzLTVrUERiVEVxNnRMMWk5cERfdjlzcjlSWUh6Z0NnbmhrVndmc2dUZmtpMk5oRjBERUc1cmhwbERrMXB6LWdsTmFkSWgyTQ",
     "CBMimgFBVV95cUxQTGdSMk16WWRnMnZRY19qLV96Sm9zLUFVVFNwNHB0VXh2MDZOc3N1bGJhUFJVY2E4cmFsNGZ5Uk1kWkU3dm5LZEdtSlZhRGgxZG9KLVhkRlJ3NFNQbFdweUlVYW1Vc096bWxJbG9WUzhYdTJkbGVFUVoyUlk0b3o3elVDWmRybGx4dktPSG1YWEdSdUIxMWZCeHRn",
-    "CBMidkFVX3lxTFBhckt3bjhFc3dlOFRTQWVyMlQ4NHVpVkZZcXM4VHo1SDFScmlPd04yN1V0ZUxFWnVyQ013NWFxSmdfWHQwS0FNX2tacVZjRDFVQkctLUdLbUhfNjl3NUhBakkwVjQzZlQyT05aUnZmYUEyQ3I4dGc"
+    "CBMidkFVX3lxTFBhckt3bjhFc3dlOFRTQWVyMlQ4NHVpVkZZcXM4VHo1SDFScmlPd04yN1V0ZUxFWnVyQ013NWFxSmdfWHQwS0FNX2tacVZjRDFVQkctLUdLbUhfNjl3NUhBakkwVjQzZlQyT05aUnZmYUEyQ3I4dGc",
+    "https://bloodyelbow.com/?p=333181"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 27,
+    "ai": 28,
     "staged": 0,
     "prio": 0,
     "lost": 0
