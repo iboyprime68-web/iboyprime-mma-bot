@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f93f6de62f3e758c": 1790180913.9961855,
     "6181ccb72147ead8": 1790180889.7147226,
     "fb36d921a074987e": 1790164813.5962212,
     "734ba941d1d352a4": 1790164686.4760165,
@@ -2498,8 +2499,7 @@
     "11c309e2fa263230": 1789663956.8072753,
     "6d7c2e341f0fdf4f": 1789663956.7856488,
     "3c014916b62cda7f": 1789663893.4847093,
-    "0655b66d94e9e0fa": 1789663892.9799762,
-    "b8104b8061c5ec78": 1789663829.5315557
+    "0655b66d94e9e0fa": 1789663892.9799762
   },
   "initialized": true,
   "v": 4,
@@ -4627,16 +4627,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-23T02:50:13+00:00",
       "cluster": "c966fd89ffe"
+    },
+    {
+      "t": "Ciryl Gane attacks ‘mentally fragile’ Tom Aspinall for his ongoing issues and hiatus from the sport",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-23T12:30:00+00:00",
+      "cluster": "cfc8efb6968"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T16",
-    1
+    2
   ],
   "yt_eval": [
-    "https://www.mmamania.com/471009/mm-clone",
     "3fba34db-bb8e-3ca7-99aa-c86162c9f0ac",
     "20db878e-3952-3ab7-89cb-ef156e9a952e",
     "6830694c-695e-3c98-ac41-86a0c733d390",
@@ -6135,27 +6140,17 @@
     "CBMigAFBVV95cUxNOGlNT3AwTTRWM1gzYkkzZm9kcWJoZ3c0b3dPY1RMbzBiazRPNFQ1VVBDdkhqZXJmSldTbjRwbW42dFgxYnRkRm9lZmQxcTEyLXNaYnI5MDZBLTNZT25VOXJ2VXJJc282UTlPMTZTY0VKTzA3UDJ2eVZ2VGF4dkxQUg",
     "CBMiUEFVX3lxTE9jaXdRd3Y1TjRsOGFVb09NSC1Vek5YUmQ5VDI4OVZmOVEwSm52dEwwZnhZVjN2dkJweW1KVVRTaXhqWUIxTTdxRXBWeEV3VTRp",
     "CBMijAFBVV95cUxPNW5wb1VjZDNsVEU3V0x5VDdnUGFfald2N0pOLXlKcE5iaW5PdG1vZFlMT3NEU1U2YWpoaHpzd3g5X1NoV3YwSUxrRTQtMWZ5Vi0tMVF0UDRFM29vaW5GRlNORmhTU3I4eEJjQmxRS0RXSjFtLWxFTVp1b21UZ2taRTUwa2NKTzZSZFBJZw",
-    "https://www.mmafighting.com/?p=512089"
+    "https://www.mmafighting.com/?p=512089",
+    "https://bloodyelbow.com/?p=333265"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 91,
-    "staged": 3,
+    "ai": 92,
+    "staged": 4,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-12T08:32:57.677894+00:00",
-      "t": "Michael Page Reacts After Being Released by the UFC",
-      "names": [
-        "michael",
-        "page",
-        "reacts",
-        "released"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-12T08:44:03.851144+00:00",
       "t": "Invaincu à l’UFC, il prend un K.O à l’entraînement",
@@ -6927,6 +6922,15 @@
         "resurfaces"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-23T16:28:35.143925+00:00",
+      "t": "Ciryl Gane attacks ‘mentally fragile’ Tom Aspinall for his ongoing issues and hiatus from the sport",
+      "names": [
+        "gane",
+        "aspinall"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -6990,23 +6994,16 @@
     "f63c3b28b4cfe9d2": 1790087958.08759,
     "2664365eba4702ba": 1790088632.205843,
     "f129cb74dc78046f": 1790105043.358493,
-    "bc67b277a33c8dc9": 1790114898.8711655
+    "bc67b277a33c8dc9": 1790114898.8711655,
+    "f93f6de62f3e758c": 1790180915.1465416
   },
   "pinged_titles": [
     [
-      "Joshua Van explains why he didn’t pull out of UFC 331 despite suffering severe injury",
-      1790105043.358493,
+      "Ciryl Gane attacks ‘mentally fragile’ Tom Aspinall for his ongoing issues and hiatus from the sport",
+      1790180915.1465416,
       [
-        "van"
-      ]
-    ],
-    [
-      "Arman Tsarukyan talks Justin Gaethje's potential MMA retirement, why the UFC champ would prefer Ilia Topuria rematch",
-      1790114898.8711655,
-      [
-        "gaethje",
-        "topuria",
-        "tsarukyan"
+        "aspinall",
+        "gane"
       ]
     ]
   ]
