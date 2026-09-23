@@ -1,5 +1,7 @@
 {
   "seen": {
+    "e1b3234d9bf8be17": 1790123145.3009527,
+    "fbd61627472de6db": 1790123145.0546117,
     "db5a143d5b3fed4f": 1790123078.3229606,
     "8fcc7b5af57a1f33": 1790123078.0425036,
     "76731313bbbfc863": 1790123078.0376098,
@@ -2497,9 +2499,7 @@
     "4a4c17a34e5b51b2": 1789605266.758365,
     "caf77aa2b762e53a": 1789605266.162708,
     "af7a815a62c6a9f1": 1789605266.160591,
-    "2de9023ab3fd4a4d": 1789605135.8993473,
-    "f0b9c93bca7aa77c": 1789605069.7261593,
-    "e5b3ebbe2370116e": 1789605069.4805171
+    "2de9023ab3fd4a4d": 1789605135.8993473
   },
   "initialized": true,
   "v": 4,
@@ -4639,16 +4639,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-22T23:46:01+00:00",
       "cluster": "c3c54c55df4"
+    },
+    {
+      "t": "Robert Whittaker Explains Why Arman Tsarukyan Has the Tools to Beat Justin Gaethje",
+      "source": "MMA Sucka",
+      "ts": "2026-09-22T23:50:46+00:00",
+      "cluster": "c57fd604ae6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T00",
-    18
+    19
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=330984",
     "05a2cfbf-1cab-374b-b5b5-73582058143f",
     "bf2c3db2-41b2-41bc-9757-39085d711398",
     "5e374d37-acd6-30ec-9ef1-d44567dba1c7",
@@ -6147,11 +6152,12 @@
     "CBMijwFBVV95cUxPdU5wUDF1UENYd3EzZnl5Q2w4VWdJVVQxWm1HclVWN2xDWGNQemlKeXNucXc4Mm92V0lxangyTVFwczhKeWs2ZXdkQUNhLUlkQVZsN2pBMXh5c2l1YzhGQ2NGVGNLak91UXJyWWV0ZnlWaHRhekxhVUxRb2owVVBTYjgteDdycGJUWUlLcjlIZw",
     "CBMihgFBVV95cUxQdmtzcE9PeXkyVTgtVzY1bWZMOXRuQ2VHQmduQzEwTmVES1VZemEyVXVCNGZMMEV6QUlPZ3Jya3J2ZUtNQnZJYzlySWQ5TFlRLVZfZENTQWVVemt2Um9DVWJfaGJDdXlqdkN2Y2F4WF9QV3NvaTFHcHBVcnJoMS1YZ0tWNi16dw",
     "CBMikwFBVV95cUxQNHhDTXYtT1cyTWNlalpTX1ZkTGdrN2JvN3VXVkg0aWl5aEdiUnRobDR3M0ZJS1FoeHFHelA1VkphU0FYS3E5WGVCTTd0ejNPbFJVdjN4R3ptQzVKVkY1RW1VV2FlYjNRRDU0TDM1U1FkZEtLRWc5aEJTeXBrODhmTzFGRFJsSkxnSVpUNmFuY2xOdm8",
-    "CBMilgFBVV95cUxOUG5pSTR4dnBMQ1NSUk5RR2ZZZkhUNEdqay1oZ2VsZmpzSGEtS1prUDIwS2NzcEotWm1OM3Z0ZkdGY09OV3JmRWNoQ3dZSGxkcG54amRSRkEwNGQtTkFRTlMwTEQ5VkF5Q1J1REZpTDNuanRUY2pyaGdEU2NqWTREZHJRVVJFNTh6ZmxNM2plbEpEaTBtMGc"
+    "CBMilgFBVV95cUxOUG5pSTR4dnBMQ1NSUk5RR2ZZZkhUNEdqay1oZ2VsZmpzSGEtS1prUDIwS2NzcEotWm1OM3Z0ZkdGY09OV3JmRWNoQ3dZSGxkcG54amRSRkEwNGQtTkFRTlMwTEQ5VkF5Q1J1REZpTDNuanRUY2pyaGdEU2NqWTREZHJRVVJFNTh6ZmxNM2plbEpEaTBtMGc",
+    "CBMirgFBVV95cUxNRXMtMTJ3eHJBdHZUdDVsN091OEZwX2hOc0p5TVl0WjN4WTdWRFUxenNkM0dDRXNSZ0k1UkVLRjdyYndPWjFHMG1GZ1RpM2ZXNG9qNVdFZDVRT2UzeDlPRUxrVTNCV0pud2FLNWZDQjVvdGdreEdPT3FQTHFvamtRYzZLS0lkQUQzc19ibHBEaWwybmhRLTN2Qm9VdWtfbzlET3BzQWdXQmRXTG0wbWc"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 18,
+    "ai": 19,
     "staged": 0,
     "prio": 0,
     "lost": 0
