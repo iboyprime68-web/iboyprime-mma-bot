@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f430722164651038": 1790123012.1069953,
     "18f432375ed1db13": 1790122947.288174,
     "bcdde7f7c786388c": 1790122947.0542421,
     "f9db484bf53cd265": 1790122882.3322315,
@@ -2498,8 +2499,7 @@
     "40a3aa13f02b1a78": 1789605003.6912098,
     "2dc5d678644e416e": 1789604937.0155523,
     "49aed99be689c3bc": 1789604870.3044696,
-    "e9924a119b79bc7f": 1789604869.1957123,
-    "f43f23faf760b7c1": 1789604869.1941338
+    "e9924a119b79bc7f": 1789604869.1957123
   },
   "initialized": true,
   "v": 4,
@@ -4627,16 +4627,21 @@
       "source": "MMANews.com",
       "ts": "2026-09-22T23:34:08+00:00",
       "cluster": "cb0fd0badb6"
+    },
+    {
+      "t": "Caio Borralho admits frustration with Yousri Belgaroui fight",
+      "source": "MMA Sucka",
+      "ts": "2026-09-22T23:35:44+00:00",
+      "cluster": "c7cc676b2c9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T00",
-    16
+    17
   ],
   "yt_eval": [
-    "8c5e1002-1b8e-3bb7-893d-dfaaeeb812ba",
     "https://bloodyelbow.com/?p=330947",
     "https://bloodyelbow.com/?p=330984",
     "05a2cfbf-1cab-374b-b5b5-73582058143f",
@@ -6135,11 +6140,12 @@
     "CBMiqAFBVV95cUxOYjZtb3JOWEZkTnJvQzF5Y3dtUFN5MER3NkxCeXpSV0psa2sxczlRRjVxVEY4NS1NdGxFaUJiUDlIRnZzbk4yOTV0cGhfSVgxOHZSbGlUR2d2V1FDemI4Z3A2VXRFQWp3b05UMC1JMWk5U1FCNjdhemY3SlJYWVFpN21ORmZYc21KV2h3NEVTeGFkZnhkanlDb3RWMnhQZ2o2dUREOEFwcGo",
     "CBMiowFBVV95cUxPWHZEQTNpY0FSUm5HSHpyUzFFM2ozNXdoMVpHZVpDVC1nbmVMM2dIRHZCUzVmek5DSVFJOWt6cEtBRHNkUjBKU2tFOFJTTVUzOUZLcGdZeWxvdFcxekRjOVhxMHpPcXc5czgwZEFpcVVNMm92UWRpQjduSWNNNW1tV2ZXcTJucUNLUHRzY25PVFh0NlhValRDZlNlZF91T1VmQnRN",
     "CBMijwFBVV95cUxPdU5wUDF1UENYd3EzZnl5Q2w4VWdJVVQxWm1HclVWN2xDWGNQemlKeXNucXc4Mm92V0lxangyTVFwczhKeWs2ZXdkQUNhLUlkQVZsN2pBMXh5c2l1YzhGQ2NGVGNLak91UXJyWWV0ZnlWaHRhekxhVUxRb2owVVBTYjgteDdycGJUWUlLcjlIZw",
-    "CBMihgFBVV95cUxQdmtzcE9PeXkyVTgtVzY1bWZMOXRuQ2VHQmduQzEwTmVES1VZemEyVXVCNGZMMEV6QUlPZ3Jya3J2ZUtNQnZJYzlySWQ5TFlRLVZfZENTQWVVemt2Um9DVWJfaGJDdXlqdkN2Y2F4WF9QV3NvaTFHcHBVcnJoMS1YZ0tWNi16dw"
+    "CBMihgFBVV95cUxQdmtzcE9PeXkyVTgtVzY1bWZMOXRuQ2VHQmduQzEwTmVES1VZemEyVXVCNGZMMEV6QUlPZ3Jya3J2ZUtNQnZJYzlySWQ5TFlRLVZfZENTQWVVemt2Um9DVWJfaGJDdXlqdkN2Y2F4WF9QV3NvaTFHcHBVcnJoMS1YZ0tWNi16dw",
+    "CBMikwFBVV95cUxQNHhDTXYtT1cyTWNlalpTX1ZkTGdrN2JvN3VXVkg0aWl5aEdiUnRobDR3M0ZJS1FoeHFHelA1VkphU0FYS3E5WGVCTTd0ejNPbFJVdjN4R3ptQzVKVkY1RW1VV2FlYjNRRDU0TDM1U1FkZEtLRWc5aEJTeXBrODhmTzFGRFJsSkxnSVpUNmFuY2xOdm8"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 16,
+    "ai": 17,
     "staged": 0,
     "prio": 0,
     "lost": 0
