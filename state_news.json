@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5cef36ba20b3f058": 1790193871.3648305,
     "59b6c370a76fc4fd": 1790193849.1398973,
     "86135f9ac27680b6": 1790193825.452772,
     "ec69cbaf22858e2c": 1790193802.894385,
@@ -2498,8 +2499,7 @@
     "ab34728fe2758775": 1789676725.4870803,
     "8cfd2462585be2fe": 1789676725.483938,
     "00f5b5d8dc418f69": 1789676661.5524652,
-    "13cfb15b22dc6260": 1789676661.2480814,
-    "875af1673fd5d5ec": 1789676661.2465017
+    "13cfb15b22dc6260": 1789676661.2480814
   },
   "initialized": true,
   "v": 4,
@@ -4771,16 +4771,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T17:20:20+00:00",
       "cluster": "c35c1bd7984"
+    },
+    {
+      "t": "Alexandre Pantoja advised to ‘ride off into the sunset’ by the greatest flyweight in UFC history",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-23T20:00:00+00:00",
+      "cluster": "cc06ed3d400"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T20",
-    7
+    8
   ],
   "yt_eval": [
-    "CBMihAFBVV95cUxORERnMzFnM09DQWlGTUVvTWJKSW5lNUpWVHowZ0hjNkpRM1BHMVBQUVh2TDR2LVB6a3hRdi1ZWXdpMkxEZkRBZldJUVJUcVJaREhDOFBBeEdKWWVTRGpSZ1lRam1mSjNBLWU1VHlSVW1vY05BQy15NThKVVI4NXhLbFkzb3A",
     "CBMimgFBVV95cUxQMkJPV2ppaVlRTGs2RTdEZ2FlcTE2dHFnMVdram5NdHBBbnFjTk9VN3NxTHBoQ2hQWnY5dnAtSDh5a1IxcUgxRmZBb1AycU9RZEd4Y3FSYmNmRGROaW54R0I3OGRjUGtaWnFsRGJSMTZKbi1US3BpREpvVkNYdllMZ3k1cVctZVMtRW4ybFpYTVBDUFRHWnI5SDdn",
     "https://www.mmamania.com/?p=471374",
     "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770",
@@ -6279,7 +6284,8 @@
     "2b51cca0-5e24-3098-acbd-762ac15a81a2",
     "https://bloodyelbow.com/?p=333329",
     "https://www.mmafighting.com/?p=512182",
-    "e9be3c60-2ffc-3285-b3d0-8dd20e977057"
+    "e9be3c60-2ffc-3285-b3d0-8dd20e977057",
+    "https://bloodyelbow.com/?p=333316"
   ],
   "daily": {
     "d": "2026-09-23",
