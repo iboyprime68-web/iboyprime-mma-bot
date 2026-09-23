@@ -1,5 +1,6 @@
 {
   "seen": {
+    "12e5a066dc046939": 1790181955.99282,
     "347791fc8b29ca09": 1790181891.783767,
     "a63bba9a0ee5b4c4": 1790181827.5325289,
     "880ec5a90933afc8": 1790181827.1599274,
@@ -2498,8 +2499,7 @@
     "023035e3fc434863": 1789665047.3691387,
     "8ac4b97c452c9d10": 1789665047.366746,
     "a041d6bbdcb36098": 1789664984.3509681,
-    "489e3d1acd22a916": 1789664920.8051505,
-    "11d1bf1ff0f7f416": 1789664857.2893076
+    "489e3d1acd22a916": 1789664920.8051505
   },
   "initialized": true,
   "v": 4,
@@ -4729,16 +4729,21 @@
       "source": "The Body Lock",
       "ts": "2026-09-23T15:59:58+00:00",
       "cluster": "c645a37b1d3"
+    },
+    {
+      "t": "Dana White Weighs In On Major Suggested MMA Rule Change: 'We Don't Disagree'",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T16:00:00+00:00",
+      "cluster": "c8bfc3da774"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T16",
-    22
+    23
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509550",
     "072873a6-0660-32bd-99af-926228c946a2",
     "https://bloodyelbow.com/?p=331174",
     "https://www.mmafighting.com/?p=509738",
@@ -6237,11 +6242,12 @@
     "CBMivAFBVV95cUxQNE9Md3JfSGdINktVTG4wRFR3S2VRQmNxSDYtRm5qamRURzZDSXltVHVHVHhUTlk1dktvWkRhbks5RW9iRlFybklxN19xNFg1ZXZVU0RFV3R5S2E3NGJObG5kLTFsdXZiTVVVUVpXUy1DVmdtZ2RnSlN0S0xJaHIwTVB2S2hOZHZXTVNKN1FtNGdfTFNUWS1mei1BY3EySFREd24wVy1ETVpjYTh5VXYxSnZzR2VSdk9QX05HdQ",
     "https://www.mmamania.com/474337/open-thread-september-22-2026-what-comedies-are-you-watching-right-now",
     "CBMiqAFBVV95cUxQYmhGRVJuT1NqMWdiNFp1eFAwVm1pcWFKQVF1ZDZYYURvUVpkWmdOTFh2Y0N3X0twZlA0ODMxV1NDWERHb2llUUhNWVlYdllkY1Z6TXAwa1BRd3hLM0NIVjF3MG1NbHJJLUFpTEZBOVA3LTlCZWoxTWJkWnl1MHVvUXBVc01tbk5xeXVlaEVUZTlPS1NRcl8zcTcydW9Rb1V3d2puOTA5N2g",
-    "CBMioAFBVV95cUxQNDVjMHg1NW9LZ3Q0WjVhUEVNLUU1TTNfYzNNMHVKVkZqQ2RpaXFnWnowbm9TbTc3emh4WE56ZXBZZG1URUxUWDhKdnB6Skp2MVFWa0psbzlMM2pLTjRTb2JkLWRPLURHb3VTQ25lYk5VSGx2N2FRSnJPSjdPcjRYdGo3X21ST3JBNnRkRkhCYm5DdUwyX0lQYWNGVWRFYjM2"
+    "CBMioAFBVV95cUxQNDVjMHg1NW9LZ3Q0WjVhUEVNLUU1TTNfYzNNMHVKVkZqQ2RpaXFnWnowbm9TbTc3emh4WE56ZXBZZG1URUxUWDhKdnB6Skp2MVFWa0psbzlMM2pLTjRTb2JkLWRPLURHb3VTQ25lYk5VSGx2N2FRSnJPSjdPcjRYdGo3X21ST3JBNnRkRkhCYm5DdUwyX0lQYWNGVWRFYjM2",
+    "CBMiigFBVV95cUxOVUxESDBHdVJrLXY5NHdhWTNwTl9BSHpkcHBWdmhHZzBISWtmbUlqbU5TcnV3MG1adWVoc3BjSGlpVlJNV0FKVjB1WWZmd0N5clNjbFJDV2Rqa3VvNXFQMGc5UUxrOXdSSXlJSzFzWGhWdHlLQ0lUOUNFVDBHOVM0T1pMYlRwNkpBdmc"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 112,
+    "ai": 113,
     "staged": 4,
     "prio": 0,
     "lost": 0
