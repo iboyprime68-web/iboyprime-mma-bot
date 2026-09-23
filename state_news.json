@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cdada18ae4f26a55": 1790142114.3025205,
     "542ef0ee51f400fb": 1790142090.511859,
     "cbd169c04811bbb5": 1790142066.9509573,
     "f8449b59e5c5e56a": 1790142066.7554,
@@ -2498,8 +2499,7 @@
     "b2ae0f2ac680e53f": 1789625189.8084168,
     "f877a2b08a2bf2af": 1789625119.3922443,
     "6a703f1fd870ea18": 1789625119.0510786,
-    "9f67b2a0a31ec9cb": 1789625053.551203,
-    "86279917c7fbe0d7": 1789625053.255729
+    "9f67b2a0a31ec9cb": 1789625053.551203
   },
   "initialized": true,
   "v": 4,
@@ -4525,16 +4525,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-23T04:00:00+00:00",
       "cluster": "c62cec2e22b"
+    },
+    {
+      "t": "Daniel Cormier responds to footage from his Jon Jones KO defeat after Gable Steveson critique",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-23T05:00:00+00:00",
+      "cluster": "c0accdd3931"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T05",
-    5
+    6
   ],
   "yt_eval": [
-    "c0d240ff-63cf-3600-bb83-328694409eb8",
     "627dcc53-dd08-3530-9b6d-f38054f7125b",
     "2d7f0abb-a40c-3af5-a7ce-989c2bcc432c",
     "1e93cd58-81bf-320a-83e9-cb1507d7c4fa",
@@ -6033,11 +6038,12 @@
     "https://bloodyelbow.com/?p=333147",
     "https://bloodyelbow.com/?p=333203",
     "4f90fc71-15f5-30ca-8923-f23f4d4d12bc",
-    "https://bloodyelbow.com/?p=333072"
+    "https://bloodyelbow.com/?p=333072",
+    "https://bloodyelbow.com/?p=333252"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 33,
+    "ai": 34,
     "staged": 1,
     "prio": 0,
     "lost": 0
