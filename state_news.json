@@ -1,5 +1,7 @@
 {
   "seen": {
+    "3d7c8e5c0847e028": 1790181063.9995208,
+    "d3549bfec4f19810": 1790181063.5643878,
     "ac7ad96ca079bdf8": 1790181039.6071768,
     "8f06be45a57d839d": 1790181014.4178665,
     "2cc365f6dd4055d3": 1790180990.051017,
@@ -2497,9 +2499,7 @@
     "9bf2630062b21495": 1789664277.584997,
     "bea5b7c7e370ac7d": 1789664277.5837107,
     "c087c7317e9407fe": 1789664277.583291,
-    "e2456b2b623b5523": 1789664214.31658,
-    "11b8e2b1965cdac7": 1789664213.9741185,
-    "61dc2cbc2a423a1d": 1789664150.1873934
+    "e2456b2b623b5523": 1789664214.31658
   },
   "initialized": true,
   "v": 4,
@@ -4657,16 +4657,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T12:30:00+00:00",
       "cluster": "cb957a853e7"
+    },
+    {
+      "t": "Gable Steveson’s manager seeks apology from Daniel Cormier after ‘ungrateful loser’ comments",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-23T15:30:00+00:00",
+      "cluster": "cd058a25daa"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T16",
-    7
+    8
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/UFC-champ-Justin-Gaethje-stumps-for-Trump-at-GOP-midterm-convention-202753",
     "CBMipwFBVV95cUxQNURMMjlEY3BDNXlLQUlmUTdaeUM0WXlBaGIyN09RU0xLR1NhS0h6RW1fbGIzU2xMVFpERGpjeGhmZ2lxLXg0a0gyUG5lOWkyNGJZem1vZnB5VFJkMFZVTGdaaEthZENFWU5iVmdDVlZIVWtQdkZNN2JaQ3BIcHd3WkpXMUZiSGdWTE0wMUJsUnRVSWxvX2tDSWFKMEpQYktPVTF0UkNZZw",
     "CBMioAFBVV95cUxOMlRnc2dVM1dLd3IxTkJESmRtV1luMDVhTjlNTFpsQlJFUEtlcjZfb0E5dmZCNzRZVjFGU1ZLRF9ET19iN2F2NzM4X1VPYVJBeXpUNGtnZXlUYnFhUk15SmFCaDJUek13NlAzVE5IMHRLYUpqaXZqeWRDTlM1ZXhqcTJhN0QxQ2t0WHJ1Q2lqQ2NNeEpTTzJ0M3dzaEFJMHNR",
     "CBMitgFBVV95cUxQVDB6M0lNRmltOXR2OGlmNnZsZVpxY0UyTTVvd0NOaEt2Z1dZLVhrSUhQUWtpU2xtbzBPV3J3SHVHNG80Vkx0XzQwNHoxRVRDeUZ3SlJwcTNzWHZCamdRNzVjSlVfNkt4UHVNY0hRanNwX3YtNXVPWWtrTGw5OUktdmtrcGpFUmFjSXJUS1dFZkxuN2hITDUxZ1NJQ0taZUE1bWlJbDQ0VlBrNURaTkJUNndjUzVTd9IBuwFBVV95cUxPbXRKRDExYWVLVXY1enQzeUNwYk1yMWNQbllid2Q2SGxxRk5yWVBRNWFobmhUZEhCY29lakg5MTBmZTh6d2R0bHVBaGtLUGJYdXlGZ3FGZThSVTJuWXNldURTUTRwMnBlQW9ILW9KekNUOVR5cHVlZUhCa0JtMldqOXJhODEyNlJYYVJIdFZWNjRtV2NoaXkyVVphZ0FOX1cwem45ajNBOUNrd1ZtODRyNzZBZS1qVjNQSmxV",
@@ -6165,11 +6170,12 @@
     "4c7a05c9-ae61-3c1a-8cb8-5d3dd9ca3a3c",
     "https://www.mmafighting.com/?p=512130",
     "https://bloodyelbow.com/?p=333274",
-    "3cab490e-163c-3add-a319-2548c4c05d35"
+    "3cab490e-163c-3add-a319-2548c4c05d35",
+    "https://bloodyelbow.com/?p=333290"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 97,
+    "ai": 98,
     "staged": 4,
     "prio": 0,
     "lost": 0
