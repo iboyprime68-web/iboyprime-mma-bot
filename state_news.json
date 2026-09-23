@@ -1,5 +1,8 @@
 {
   "seen": {
+    "a63bba9a0ee5b4c4": 1790181827.5325289,
+    "880ec5a90933afc8": 1790181827.1599274,
+    "d5bead90480e8d66": 1790181827.1396778,
     "55b733e03320cf45": 1790181802.8229406,
     "5d6c6691b4a826c7": 1790181759.0295987,
     "3d1459d4b94579b4": 1790181693.8711905,
@@ -2496,10 +2499,7 @@
     "a041d6bbdcb36098": 1789664984.3509681,
     "489e3d1acd22a916": 1789664920.8051505,
     "11d1bf1ff0f7f416": 1789664857.2893076,
-    "19fba868f37d188a": 1789664793.3734348,
-    "891d198e88af4bd8": 1789664730.0325105,
-    "7b937b41cb5bf2ae": 1789664729.6458418,
-    "fd39c0a3171771cb": 1789664666.3650923
+    "19fba868f37d188a": 1789664793.3734348
   },
   "initialized": true,
   "v": 4,
@@ -4717,16 +4717,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-23T11:51:15+00:00",
       "cluster": "c9ae77544f1"
+    },
+    {
+      "t": "Dana White Says Paulo Costa Turned Down UFC Fights, Gives No Firm Light Heavyweight Interim Plan",
+      "source": "MiddleEasy",
+      "ts": "2026-09-23T15:57:59+00:00",
+      "cluster": "c3ca53b56d4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T16",
-    20
+    21
   ],
   "yt_eval": [
-    "CBMiggFBVV95cUxPYnRVZGRZVm9CTlZBVzh6cUVhd0Nka1R2d21DTXBieXNNcmluY0dCY2NTWXFwb2VGbGpqaUJMdl8yOW5wVFFJcjIxbGFKdlhBZDVOZG1jYXF5SmlZdXhlUC15TVE2R0Nma2YxYmNQWDdGVGxOMG5VTWZGRldrelpUcVZB",
     "CBMiugFBVV95cUxQcTF6NFVUUE9FMjFHa2d5TmNmNW1hOUF0ZWZ5SHdYR3hKM1JqeUd1Wm9OUkIyamR1Y25GS2ZIbUU4TGhsOFZHQUoxMzRIUzdwYjJuZVBPcGxmdjFFUnBKWHFnSk9DeUJlNUt5d2YxeklYbi1fQ0RweE95R0U1cTYtakxIMW5ybGQyTkNGUi1pNnEyTEdpbkltT2tZTUxhNWlNaGczX0VEc3ljak1LT29JTmdXSnhFMFpLakE",
     "https://www.mmafighting.com/?p=509550",
     "072873a6-0660-32bd-99af-926228c946a2",
@@ -6225,11 +6230,12 @@
     "c71e5d87-f150-30fc-bcb4-a1d3ed113901",
     "CBMihwFBVV95cUxNNlVXT0NoS0NUU0dVNjE2Z1hKM1lLMkpvbE9Fc1JEN182QUliQ3pMMmU2a0lMV2tGVk80eXRNQ3BfbktDbFhNQzB4WlpDZWVEdzVuQ1p0ZmUzdDlPNGpyaURydlpsalFkOVptTlJpSWpjSDFRMGVXc1dvWnplU1pnYWdvS2lVT3c",
     "CBMivAFBVV95cUxQNE9Md3JfSGdINktVTG4wRFR3S2VRQmNxSDYtRm5qamRURzZDSXltVHVHVHhUTlk1dktvWkRhbks5RW9iRlFybklxN19xNFg1ZXZVU0RFV3R5S2E3NGJObG5kLTFsdXZiTVVVUVpXUy1DVmdtZ2RnSlN0S0xJaHIwTVB2S2hOZHZXTVNKN1FtNGdfTFNUWS1mei1BY3EySFREd24wVy1ETVpjYTh5VXYxSnZzR2VSdk9QX05HdQ",
-    "https://www.mmamania.com/474337/open-thread-september-22-2026-what-comedies-are-you-watching-right-now"
+    "https://www.mmamania.com/474337/open-thread-september-22-2026-what-comedies-are-you-watching-right-now",
+    "CBMiqAFBVV95cUxQYmhGRVJuT1NqMWdiNFp1eFAwVm1pcWFKQVF1ZDZYYURvUVpkWmdOTFh2Y0N3X0twZlA0ODMxV1NDWERHb2llUUhNWVlYdllkY1Z6TXAwa1BRd3hLM0NIVjF3MG1NbHJJLUFpTEZBOVA3LTlCZWoxTWJkWnl1MHVvUXBVc01tbk5xeXVlaEVUZTlPS1NRcl8zcTcydW9Rb1V3d2puOTA5N2g"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 110,
+    "ai": 111,
     "staged": 4,
     "prio": 0,
     "lost": 0
