@@ -1,5 +1,8 @@
 {
   "seen": {
+    "ea7ff87393be8985": 1790194045.146307,
+    "2e7c60cbdd8aedd7": 1790194044.8827696,
+    "bbb02e662cba04f7": 1790194044.8794649,
     "01036200474362c7": 1790194022.284324,
     "7e95f6850b161352": 1790194021.9137373,
     "5a7a85ecbb78d173": 1790193979.0283816,
@@ -2496,10 +2499,7 @@
     "1e18119948d60ed1": 1789677107.8314955,
     "bcfaa5c14ebc4c73": 1789677107.829737,
     "51bfd47ecdb3d533": 1789677043.9455829,
-    "9d96786b61e0b9d3": 1789677020.8157141,
-    "b661cfe2b255a9c7": 1789676853.826766,
-    "5841cb17b927e7ea": 1789676790.2752771,
-    "ef2e790f1bf27869": 1789676725.8347955
+    "9d96786b61e0b9d3": 1789677020.8157141
   },
   "initialized": true,
   "v": 4,
@@ -4789,16 +4789,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-23T18:15:06+00:00",
       "cluster": "c7544ba8ff6"
+    },
+    {
+      "t": "UFC Veteran Encourages Gable Steveson to Leave Jon Jones",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T18:00:10+00:00",
+      "cluster": "c49ea1974ed"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T20",
-    11
+    12
   ],
   "yt_eval": [
-    "CBMixAFBVV95cUxQSUxyMXhZcVVhczl2bEpOdHFrc3hwM3Rub0YxU24zTWtUVW1ESU1oanQ4bTRKRmVXdllvM21UX2xJT0NYQkxBYjhLWHdhMll4MXZRcTQ5ZVNjVVVkVzhYRzB3Ykd5VjdoUlpwMU83SnJYdWRrVDl6eGJUMWJzVTZPaHdfbm51MlNuZGllLWtuX1NrUjFBWXFiODh2eUVXLU9wNmJHRUxNWFdOeFYzQjVNc2ZGR2FqWUJ0NlZqbDlySnBCTUho",
     "CBMihgFBVV95cUxNdWE0c2UyajBJU0VaOUJqZkhfc0h5NnNfb2JId3JucmQ1M3ZTTTMwTTJHMmNyd0cyMUVvVnFvei1fWWtfdE5pUll4UHV6a2Izak9nWDdjQmd6T3BEVDVfX2dHOVFVRDJURXp3UjVqWHZiRUJKcW9yaUNoSktNOXFmRjVFdnFGUQ",
     "https://www.mmafighting.com/?p=509669",
     "https://www.mmamania.com/470474/rolly-romero-vs-teofimo-lopez-start-time-full-fight-card-details-dazn-ppv",
@@ -6297,7 +6302,8 @@
     "https://bloodyelbow.com/?p=333316",
     "51b99747-ed69-384a-80f9-1a991d9c1c47",
     "047d03bf-e984-33cb-9474-b1a0c43d1ff6",
-    "https://www.mmamania.com/?p=474371"
+    "https://www.mmamania.com/?p=474371",
+    "9b6ec9ea-f655-3a4f-86bb-c28711e00a38"
   ],
   "daily": {
     "d": "2026-09-23",
