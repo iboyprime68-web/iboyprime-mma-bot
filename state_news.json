@@ -1,5 +1,6 @@
 {
   "seen": {
+    "69e9e75a46379012": 1790142267.7993717,
     "6391c2e2cf58ddb4": 1790142202.7656674,
     "b088c2e65092403c": 1790142138.778069,
     "cdada18ae4f26a55": 1790142114.3025205,
@@ -2498,8 +2499,7 @@
     "f0fc92bb1371e6fd": 1789625322.062932,
     "2a7bc1856b71a644": 1789625255.8298573,
     "93de4c4029548515": 1789625190.1327603,
-    "b2ae0f2ac680e53f": 1789625189.8084168,
-    "f877a2b08a2bf2af": 1789625119.3922443
+    "b2ae0f2ac680e53f": 1789625189.8084168
   },
   "initialized": true,
   "v": 4,
@@ -4543,16 +4543,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T04:30:18+00:00",
       "cluster": "c9ef8a2769b"
+    },
+    {
+      "t": "Dana White Hands Out 6 Contracts After DWCS Week 7",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T04:43:16+00:00",
+      "cluster": "c2dd741cbe6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T05",
-    8
+    9
   ],
   "yt_eval": [
-    "1e93cd58-81bf-320a-83e9-cb1507d7c4fa",
     "ac832cd8-dde8-37a9-a587-863fda3add6a",
     "https://bloodyelbow.com/?p=331000",
     "https://www.mmafighting.com/?p=509431",
@@ -6051,11 +6056,12 @@
     "https://bloodyelbow.com/?p=333072",
     "https://bloodyelbow.com/?p=333252",
     "19590c6d-10c8-3ec2-982d-950f61b7ab93",
-    "03a74f32-78ef-3ec6-82fb-59881a597e40"
+    "03a74f32-78ef-3ec6-82fb-59881a597e40",
+    "ac65283c-0c3d-3d3d-be99-cf99ad03159a"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 36,
+    "ai": 37,
     "staged": 1,
     "prio": 0,
     "lost": 0
