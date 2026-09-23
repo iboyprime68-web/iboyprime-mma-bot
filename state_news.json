@@ -1,5 +1,7 @@
 {
   "seen": {
+    "972dd150eaf2f360": 1790142618.037376,
+    "aef1f8aee52eccd7": 1790142617.8112028,
     "5a9bbd40a4c704d4": 1790142594.6376405,
     "5570cc37295a9e19": 1790142530.0984423,
     "b5eda53a2f7377e1": 1790142465.780652,
@@ -2497,9 +2499,7 @@
     "06a8a02fd4f5349d": 1789625458.072145,
     "fe6ef145c3dab462": 1789625458.0705535,
     "fe2952869093d22e": 1789625458.0698504,
-    "3fd6f05701ff3d40": 1789625458.0680661,
-    "7f1bf618f6f46591": 1789625392.1036227,
-    "59c6856eb8015484": 1789625391.7187903
+    "3fd6f05701ff3d40": 1789625458.0680661
   },
   "initialized": true,
   "v": 4,
@@ -4579,16 +4579,21 @@
       "source": "heavy.com",
       "ts": "2026-09-23T04:58:25+00:00",
       "cluster": "c5e18f72b57"
+    },
+    {
+      "t": "Sean Sharaf knew Gable Steveson was looking past him before UFC 331",
+      "source": "Sherdog",
+      "ts": "2026-09-23T02:30:36+00:00",
+      "cluster": "c539ec5e41c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T05",
-    15
+    16
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509385",
     "https://bloodyelbow.com/?p=331030",
     "911c5099-5664-338d-8638-6e2c57eef4bb",
     "https://bloodyelbow.com/?p=331026",
@@ -6087,11 +6092,12 @@
     "CBMiwwFBVV95cUxNNDA0bnhXdEpPYnk0NHVYMEQySVBHRHA3Zll1VVltYUlMUkZRRTdiZmc2VWxrb1BRdkVFNjFpNzhPWTl4T2lraEY0XzJBQlRxcnNxeFljQVd5ZkxldDFGbFZLU2pLdDVEbmlVeUxhQzg3VU1pUUVMd3hHRFZVVTRQQVFlT2tFcW5keVNNMnp1ZTN3MEpWOTRZRk9ULUktRnFiREdtbWY1V2N1c2sxbDc4RHVldlVRWnpjRFhyWHk2RlgtYUU",
     "CBMipwFBVV95cUxPckNINWpYSDl5dVlGUTNONTYxTFlteUZDTXJCbzNybmlwV1ZBVUFrRlA3TVRZN1hUN1ZDRHBieVlmckR2a3VWM1NLa1VFSkRBRllUdHZ3N2RXcWtsNFZTNVI5eEdQQ2wzb2QtOU1SbVREUWZab01peTFya1FtNFVhSEp4VWhkeTdtWmtmWGdjbDdTTUh1OEx4NEZNVUwwM1E3YURxQ2JSZ9IBrAFBVV95cUxPNVpYTXE0RlJocjZ2QnZyTXhRbVNMVWdVc0k2UXU1cWtWTmg4UU8ybWtDMmRNXzNHMDROUDBkWjNPd29MOER0dFYzTDRHTmZCRkxTaGx1UzJJOWtaWGlvU0dyRk9ZZ2tUdVBPT19SZ09wdHhxeUtsSUFubkQxQ1d5M2lLNzlhakdNMWdDejdPR3dMX2JGN2NvcGFObkxleE5qeWlBX1VTV0V1cFpq",
     "CBMi0AFBVV95cUxPaWQ0VnBKdHdyamRoNXNwZU94TmEzbkx4ZEE5RUg0a2I0OEhQODNyem5VR0l5TmMtUnBtR0d1cC1McWh5VENyRW9Yc0YwX0VoTmFjNjJMMTRrYlB5MVBVb0g4Q3V3Ync1YTN1NUN3a0pVdzlJNGlaVnJLbFY2Zjl2bG83bTMwX0xCcC1kRW1LN2tnbFI2R05kd3VXM1RWcUsxLWZiWmFudmRPVHR5LTZyajc3X2pkUHYwTVhvaERoMno5TlVMejRYcW9EdUdSOEhm",
-    "CBMie0FVX3lxTE0wUHBnVWVHNFdVS1VuRy1FR1RsM0VLajZ5aEFsZi1tbXVUdDdnWjd3NmxXRVJDY2g3RGpVM1F1d2l4M3NYLXg4UGpIcU1lY3BteW1sNHpHbzFxODRySFJuUVVsRXhabXFHSFRMZzZWUDF4M0JUUGZCbWNVYw"
+    "CBMie0FVX3lxTE0wUHBnVWVHNFdVS1VuRy1FR1RsM0VLajZ5aEFsZi1tbXVUdDdnWjd3NmxXRVJDY2g3RGpVM1F1d2l4M3NYLXg4UGpIcU1lY3BteW1sNHpHbzFxODRySFJuUVVsRXhabXFHSFRMZzZWUDF4M0JUUGZCbWNVYw",
+    "https://www.sherdog.com/news/news/Sean-Sharaf-knew-Gable-Steveson-was-looking-past-him-before-UFC-331-202914"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 43,
+    "ai": 44,
     "staged": 1,
     "prio": 0,
     "lost": 0
