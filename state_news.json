@@ -1,5 +1,6 @@
 {
   "seen": {
+    "09e85db4016395f4": 1790142042.7544343,
     "b79abb5d88c970cc": 1790142019.4816108,
     "601eb0edbe48a2cf": 1790142019.26856,
     "1abdeab643f70755": 1790141993.6728942,
@@ -2498,8 +2499,7 @@
     "ebfb55ab3181db0c": 1789624986.5403507,
     "1baaaa90a5475374": 1789624921.2588785,
     "d4937d05c11c4dc4": 1789624855.4868472,
-    "a2031f6e12d43aea": 1789624789.9357255,
-    "18fc634e8c14445a": 1789624789.6905308
+    "a2031f6e12d43aea": 1789624789.9357255
   },
   "initialized": true,
   "v": 4,
@@ -4507,16 +4507,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-23T02:00:00+00:00",
       "cluster": "cfb96afa9a6"
+    },
+    {
+      "t": "Arman Tsarukyan told UFC legend is perfect template for him to adopt if he wants to hit next level in his career",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-23T03:00:00+00:00",
+      "cluster": "c9b8357d1fe"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T05",
-    2
+    3
   ],
   "yt_eval": [
-    "8c047364-be5f-32a1-861c-06d3d315f229",
     "77a18e61-daff-3ccb-b488-d77e3f230da1",
     "CBMijwFBVV95cUxNT0FxMEFsbUxWb0JrNDQ2a0RPT3Zaa2V6R0dUUXhEU1ZzZm9PWS02bUZWVVM1bkJNWlFPTFljakstVUQ0cTdnQWdFMk1EMFFON1hLWVdSRTY4ekoxVjBoZHRnaHBHTWtsV3hwODFBaGdkc25aZUR3OUctZjAtbGdnMkZHbElvY3dCYy1EN3lEWQ",
     "c0d240ff-63cf-3600-bb83-328694409eb8",
@@ -6015,11 +6020,12 @@
     "CBMidkFVX3lxTFBhckt3bjhFc3dlOFRTQWVyMlQ4NHVpVkZZcXM4VHo1SDFScmlPd04yN1V0ZUxFWnVyQ013NWFxSmdfWHQwS0FNX2tacVZjRDFVQkctLUdLbUhfNjl3NUhBakkwVjQzZlQyT05aUnZmYUEyQ3I4dGc",
     "https://bloodyelbow.com/?p=333181",
     "https://bloodyelbow.com/?p=333247",
-    "https://bloodyelbow.com/?p=333147"
+    "https://bloodyelbow.com/?p=333147",
+    "https://bloodyelbow.com/?p=333203"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 30,
+    "ai": 31,
     "staged": 1,
     "prio": 0,
     "lost": 0
