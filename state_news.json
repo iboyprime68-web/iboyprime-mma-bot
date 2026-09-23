@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6144a6a35eff9031": 1790194174.7837577,
     "509459a5c80fa50d": 1790194109.2611513,
     "ea7ff87393be8985": 1790194045.146307,
     "2e7c60cbdd8aedd7": 1790194044.8827696,
@@ -2498,8 +2499,7 @@
     "e8dd19632498815b": 1789677233.0178156,
     "1a028356e793d340": 1789677107.8333762,
     "1e18119948d60ed1": 1789677107.8314955,
-    "bcfaa5c14ebc4c73": 1789677107.829737,
-    "51bfd47ecdb3d533": 1789677043.9455829
+    "bcfaa5c14ebc4c73": 1789677107.829737
   },
   "initialized": true,
   "v": 4,
@@ -4801,16 +4801,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T18:01:03+00:00",
       "cluster": "ca1164d34a1"
+    },
+    {
+      "t": "Carlos Prates Confirms Islam Makhachev Fight",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T18:17:23+00:00",
+      "cluster": "c8d2f7b3825"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T20",
-    13
+    14
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509669",
     "https://www.mmamania.com/470474/rolly-romero-vs-teofimo-lopez-start-time-full-fight-card-details-dazn-ppv",
     "https://bloodyelbow.com/?p=331246",
     "https://bloodyelbow.com/?p=331252",
@@ -6309,7 +6314,8 @@
     "047d03bf-e984-33cb-9474-b1a0c43d1ff6",
     "https://www.mmamania.com/?p=474371",
     "9b6ec9ea-f655-3a4f-86bb-c28711e00a38",
-    "c6d91ba4-f674-353a-b64f-c1d5947148b4"
+    "c6d91ba4-f674-353a-b64f-c1d5947148b4",
+    "090f1b8d-1240-3044-91fc-d5788126cb0b"
   ],
   "daily": {
     "d": "2026-09-23",
