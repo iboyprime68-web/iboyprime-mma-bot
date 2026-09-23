@@ -1,5 +1,8 @@
 {
   "seen": {
+    "91f9c5ffc76b737a": 1790142726.7525153,
+    "a0ddf0520698ab25": 1790142726.5460844,
+    "78c966f5037b0c89": 1790142726.5442188,
     "4109e374d5e4549d": 1790142662.4173114,
     "5e69e98ef6f816bb": 1790142662.1700544,
     "972dd150eaf2f360": 1790142618.037376,
@@ -2496,10 +2499,7 @@
     "39871e5f4679ee8b": 1789625717.2100966,
     "1ccd6a1a3cea1262": 1789625671.7590857,
     "0acf99129a08bc65": 1789625585.744662,
-    "d12607a3d1f77b42": 1789625585.743048,
-    "a0b19665014fdace": 1789625458.3116634,
-    "06a8a02fd4f5349d": 1789625458.072145,
-    "fe6ef145c3dab462": 1789625458.0705535
+    "d12607a3d1f77b42": 1789625585.743048
   },
   "initialized": true,
   "v": 4,
@@ -4591,16 +4591,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T05:00:00+00:00",
       "cluster": "c0aba1ac78e"
+    },
+    {
+      "t": "Ruffy Stopped Tsarukyan's Takedowns Before Elbow Finish",
+      "source": "boxingnews.com",
+      "ts": "2026-09-23T05:01:00+00:00",
+      "cluster": "c41d377340b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T05",
-    17
+    18
   ],
   "yt_eval": [
-    "911c5099-5664-338d-8638-6e2c57eef4bb",
     "https://bloodyelbow.com/?p=331026",
     "https://www.mmafighting.com/?p=509449",
     "0d78970d-413a-3b2a-9f8d-add443fa0775",
@@ -6099,11 +6104,12 @@
     "CBMi0AFBVV95cUxPaWQ0VnBKdHdyamRoNXNwZU94TmEzbkx4ZEE5RUg0a2I0OEhQODNyem5VR0l5TmMtUnBtR0d1cC1McWh5VENyRW9Yc0YwX0VoTmFjNjJMMTRrYlB5MVBVb0g4Q3V3Ync1YTN1NUN3a0pVdzlJNGlaVnJLbFY2Zjl2bG83bTMwX0xCcC1kRW1LN2tnbFI2R05kd3VXM1RWcUsxLWZiWmFudmRPVHR5LTZyajc3X2pkUHYwTVhvaERoMno5TlVMejRYcW9EdUdSOEhm",
     "CBMie0FVX3lxTE0wUHBnVWVHNFdVS1VuRy1FR1RsM0VLajZ5aEFsZi1tbXVUdDdnWjd3NmxXRVJDY2g3RGpVM1F1d2l4M3NYLXg4UGpIcU1lY3BteW1sNHpHbzFxODRySFJuUVVsRXhabXFHSFRMZzZWUDF4M0JUUGZCbWNVYw",
     "https://www.sherdog.com/news/news/Sean-Sharaf-knew-Gable-Steveson-was-looking-past-him-before-UFC-331-202914",
-    "afd04ec3-4485-3920-860a-c910bf06e4af"
+    "afd04ec3-4485-3920-860a-c910bf06e4af",
+    "CBMif0FVX3lxTFAyS1B6LVlmZWFncTh3UUNuQ2V6R1dFNnNEbFF4dE5WYURiU0xmR3p5VW0zVVFhVl9ENk01a0NJRmlwYmJpcnhtOUpNWjdmRDRZMlFneXIybXl0WDFkekIzU2F2OWVzb3Qzb1VNRlV4MXVEOXhKYjYzYUUwdHJkQzg"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 45,
+    "ai": 46,
     "staged": 1,
     "prio": 0,
     "lost": 0
