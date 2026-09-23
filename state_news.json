@@ -1,5 +1,7 @@
 {
   "seen": {
+    "000c04a99ff6bd84": 1790204246.955832,
+    "88bb9ed5f05f8273": 1790204246.6556556,
     "f1b2e5709a5a91a5": 1790204182.6054075,
     "7f89b8a5ffe5b2f3": 1790204182.2213783,
     "f37129a946a4a35b": 1790204182.22104,
@@ -2497,9 +2499,7 @@
     "7cbfe1efcd062d91": 1789688652.9969318,
     "e6564b2ef4dd4eb9": 1789688652.9962852,
     "85cfda2d29038870": 1789688588.8952415,
-    "94c80e7e5df80df1": 1789688588.6302264,
-    "cd16c3fb5de7f688": 1789688588.6296127,
-    "3918fb0382ce782f": 1789688588.6289794
+    "94c80e7e5df80df1": 1789688588.6302264
   },
   "initialized": true,
   "v": 4,
@@ -2521,12 +2521,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-22T00:00:00+00:00",
       "cluster": "ccac1854b7a"
-    },
-    {
-      "t": "On To the Next One: Matches to make after chaotic UFC 331 event",
-      "source": "MMA Fighting",
-      "ts": "2026-09-21T22:57:13+00:00",
-      "cluster": "c74cc6508e0"
     },
     {
       "t": "BKFC 94 Fight Card Confirmed For Manchester",
@@ -4735,13 +4729,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-23T22:18:22+00:00",
       "cluster": "c19747f0194"
+    },
+    {
+      "t": "Patricio Pitbull shares what helped him finally look like his old self in the UFC",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T22:19:43+00:00",
+      "cluster": "c891fcce5f7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T22",
-    7
+    8
   ],
   "yt_eval": [
     "ad1ab84d-75ad-3a34-b47c-f1733ed1e50e",
