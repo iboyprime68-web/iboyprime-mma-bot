@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cffbbb698fc5d1a6": 1790124288.8425293,
     "cc5abfd0499f96b1": 1790124224.0455935,
     "3a6580e1f929b2e7": 1790124160.272456,
     "23e3ac4f6e74bed0": 1790124160.2693553,
@@ -2498,8 +2499,7 @@
     "ba824056c1e29cab": 1789607178.545681,
     "eb0595723f67a661": 1789607178.5441134,
     "66bd26db1709c791": 1789606987.7834234,
-    "5dc63414444f057c": 1789606987.7817113,
-    "5bf460088d297fe8": 1789606860.0904844
+    "5dc63414444f057c": 1789606987.7817113
   },
   "initialized": true,
   "v": 4,
@@ -4687,16 +4687,21 @@
       "source": "CBS Sports",
       "ts": "2026-09-22T23:53:32+00:00",
       "cluster": "ccb78996138"
+    },
+    {
+      "t": "Eddie Hearn Reveals Tom Aspinall’s Ideal UFC Return Date",
+      "source": "heavy.com",
+      "ts": "2026-09-23T00:41:00+00:00",
+      "cluster": "cf9d1af1e79"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T00",
-    26
+    27
   ],
   "yt_eval": [
-    "6f4638a3-8cca-38ce-9264-3bb7b3459c56",
     "3f61c0c4-f00f-3026-ad70-3b71559d68d0",
     "https://www.sherdog.com/news/news/UFC-fighter-says-he-cant-see-opponents-clearly-until-they-get-close-202732",
     "f4280e66-8664-3971-91b5-9f1b31ea7e62",
@@ -6195,11 +6200,12 @@
     "CBMie0FVX3lxTE9nR29rX3NIcWhNMWdncTBjbXQ3amVUVDliSFlGck1Xd2dYZDNMZ3hONHA2NEhId1hLMGcwT3haNnllNFdsWXNHQnVmdzhzcXZkc1oyczdPMkt4bjZxbEwtQlB6ZmVvbDhNRGtObDczcnBiZUpuYV9kc0Zqcw",
     "CBMi2AFBVV95cUxNTWk1TXZDOXdHVnh2U0NnNlhCT01fLXJmRDFFX2lJSEdWYmhJU2Z0RjJ6QlRCcWlFTmY0c21VUWt6dVBPcUxVOTd1aVhVRnFnV181ekQ2UGlZYjQ4NkJQeXZkMDFUMTc2STFsTFkxV1NqazFHeENNc1dDcEZ5c0dILXNkdjNWd3hjMERVVC1RaUFQRVNTXzBaSi1KNl9RLVhTeFJNRnpUQThXS0tMLVk3UnhjdjZZRXo0d3hDdlY5LXA3V09CNF85NUt0ZmpwZ090UmJNLTAycjI",
     "CBMigwFBVV95cUxQZlhDRnZDNkJYOFVGMkVLeHVtTkdnenNqSVBmYXd6R0VDWk9TODNkcmJ0VklKdHM2aUpxa0UzLTVrUERiVEVxNnRMMWk5cERfdjlzcjlSWUh6Z0NnbmhrVndmc2dUZmtpMk5oRjBERUc1cmhwbERrMXB6LWdsTmFkSWgyTQ",
-    "CBMimgFBVV95cUxQTGdSMk16WWRnMnZRY19qLV96Sm9zLUFVVFNwNHB0VXh2MDZOc3N1bGJhUFJVY2E4cmFsNGZ5Uk1kWkU3dm5LZEdtSlZhRGgxZG9KLVhkRlJ3NFNQbFdweUlVYW1Vc096bWxJbG9WUzhYdTJkbGVFUVoyUlk0b3o3elVDWmRybGx4dktPSG1YWEdSdUIxMWZCeHRn"
+    "CBMimgFBVV95cUxQTGdSMk16WWRnMnZRY19qLV96Sm9zLUFVVFNwNHB0VXh2MDZOc3N1bGJhUFJVY2E4cmFsNGZ5Uk1kWkU3dm5LZEdtSlZhRGgxZG9KLVhkRlJ3NFNQbFdweUlVYW1Vc096bWxJbG9WUzhYdTJkbGVFUVoyUlk0b3o3elVDWmRybGx4dktPSG1YWEdSdUIxMWZCeHRn",
+    "CBMidkFVX3lxTFBhckt3bjhFc3dlOFRTQWVyMlQ4NHVpVkZZcXM4VHo1SDFScmlPd04yN1V0ZUxFWnVyQ013NWFxSmdfWHQwS0FNX2tacVZjRDFVQkctLUdLbUhfNjl3NUhBakkwVjQzZlQyT05aUnZmYUEyQ3I4dGc"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 26,
+    "ai": 27,
     "staged": 0,
     "prio": 0,
     "lost": 0
