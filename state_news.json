@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6391c2e2cf58ddb4": 1790142202.7656674,
     "b088c2e65092403c": 1790142138.778069,
     "cdada18ae4f26a55": 1790142114.3025205,
     "542ef0ee51f400fb": 1790142090.511859,
@@ -2498,8 +2499,7 @@
     "2a7bc1856b71a644": 1789625255.8298573,
     "93de4c4029548515": 1789625190.1327603,
     "b2ae0f2ac680e53f": 1789625189.8084168,
-    "f877a2b08a2bf2af": 1789625119.3922443,
-    "6a703f1fd870ea18": 1789625119.0510786
+    "f877a2b08a2bf2af": 1789625119.3922443
   },
   "initialized": true,
   "v": 4,
@@ -4537,16 +4537,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T02:47:13+00:00",
       "cluster": "ccdba1d64e2"
+    },
+    {
+      "t": "MMA Junkie rankings, Sept. 22: Joshua Van climbs pound-for-pound list",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T04:30:18+00:00",
+      "cluster": "c9ef8a2769b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T05",
-    7
+    8
   ],
   "yt_eval": [
-    "2d7f0abb-a40c-3af5-a7ce-989c2bcc432c",
     "1e93cd58-81bf-320a-83e9-cb1507d7c4fa",
     "ac832cd8-dde8-37a9-a587-863fda3add6a",
     "https://bloodyelbow.com/?p=331000",
@@ -6045,11 +6050,12 @@
     "4f90fc71-15f5-30ca-8923-f23f4d4d12bc",
     "https://bloodyelbow.com/?p=333072",
     "https://bloodyelbow.com/?p=333252",
-    "19590c6d-10c8-3ec2-982d-950f61b7ab93"
+    "19590c6d-10c8-3ec2-982d-950f61b7ab93",
+    "03a74f32-78ef-3ec6-82fb-59881a597e40"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 35,
+    "ai": 36,
     "staged": 1,
     "prio": 0,
     "lost": 0
