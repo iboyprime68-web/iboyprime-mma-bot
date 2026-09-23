@@ -1,5 +1,8 @@
 {
   "seen": {
+    "21772c809356f3b1": 1790143640.472602,
+    "61535eff732f919e": 1790143640.0689294,
+    "b0f13aa1b2f0c320": 1790143640.0420365,
     "74217b55490a47e5": 1790143533.2462745,
     "cca596a19dbdf769": 1790143509.898557,
     "ab666bd8079136ff": 1790143444.4923003,
@@ -2496,10 +2499,7 @@
     "108dc892cf3f9f34": 1789644136.0523856,
     "9baf345eaf67a073": 1789644135.5494223,
     "fd96c35879ec619f": 1789644135.5476208,
-    "bee35c4709a48dfc": 1789644071.2348082,
-    "553bb621c6431093": 1789644006.3150203,
-    "32a14f26148424be": 1789643941.6017585,
-    "f9f04576073824f6": 1789643897.2189946
+    "bee35c4709a48dfc": 1789644071.2348082
   },
   "initialized": true,
   "v": 4,
@@ -4681,16 +4681,21 @@
       "source": "Sherdog",
       "ts": "2026-09-23T03:06:40+00:00",
       "cluster": "c2b9d37d2ae"
+    },
+    {
+      "t": "Vitor Miranda",
+      "source": "UFC.com",
+      "ts": "2026-09-23T05:20:51+00:00",
+      "cluster": "c3d25ea4cd7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T06",
-    7
+    8
   ],
   "yt_eval": [
-    "2c73124d-b252-3bb3-b730-36b0eebffd5e",
     "https://bloodyelbow.com/?p=331069",
     "453ab62c-ec10-388f-b745-a9a7253b8504",
     "https://www.sherdog.com/news/news/Justin-Gaethje-went-from-80-cents-to-not-touching-his-UFC-title-paycheck-202736",
@@ -6189,11 +6194,12 @@
     "CBMipwFBVV95cUxONXZRMV9oampJTXRmNVJEVW44bVBqNkJEWXBoX2dMM25KTWFxYVlQV0I0dENGdkFjOWxZR05wRlE0bnRTZHFLSVlXdmZmQTVXQlZjelRESHMwd29wRDJTVFlJUlB6RGdGaTM2UHBvNVRvRVpfTTJrLTA0VW5iN1NManBmbGpDNURURUZyRlRDY0lMbTR1VVF0WXcxcTVPSS1RdmdTcTJiUQ",
     "CBMisAFBVV95cUxNTjVMTFRITkg3STJnQVRneEhKaTFvSXhJZ21NYjk4RVB6VHgwdXJ2X0h4ZFdUNkxmOXpuaGZlMEtQeU1hUElWdDUtVWtsSkFaMUpBXzhiXzRCUEE5aTZ2NXhQeGx0aVFjZW5JYUh5VkwyMmY0NE1yX1I0bFQyT3BoZ0R0VVlfODFQVm1uQ2tEb0N0Yk9nX0pPZU5yaHpLYW1hSkItSTF4R2dYODV2N08tedIBtgFBVV95cUxPemhDb0podDR4eTlXZ0lJTTBTSkQxVHFROXl0UXJ6TGdPT19EdGVnSzhocDBYejdjWnhhOFlDV3FwMnkyVFRNakEwZTZfcWdMaGhQUDdWZ010YnpJYjBWdDkwdVMwemc3RUVROHh6Tks0czR4QkM2QnFEeEZ6eGxXNnNXN2lxU0NHcWl3eU1rd0I2X3dPTWZuYldrb19lYzNiNGFzcFdPYTJuRzh5TEt1UGVPQTludw",
     "CBMingFBVV95cUxOSzFHbElQa20wZGM0Tk5vU3RvQjdEMUVVUldpY2N4LXpIRzNaVEIwUFdwdkpjbnJ6YVM5NTUwdThNRHp3SkJUNmdHUDQxYjNsVndKT2RmTGNvTU5LZjRqQzRWQThJbnB6TUlnU0ZjU2FscHAwNW82c3hCNjZvanNJcE5tYklCWEdQWDBRMXZhZE9xdG1wSG4tcXdkb1BTZw",
-    "https://www.sherdog.com/news/news/Marlon-Vera-reveals-36200K-robbery-on-eve-of-Sean-OMalley-title-fight-202917"
+    "https://www.sherdog.com/news/news/Marlon-Vera-reveals-36200K-robbery-on-eve-of-Sean-OMalley-title-fight-202917",
+    "CBMiU0FVX3lxTE1vWE5odkpXMXFpT2oxaGw0a1l2Z0ZUVU94VUY1QWhZY3V3OGNZX0JRa2Y3Q01TbDViejRXblRiTVdhT3RTUW1uekNoQ1NjRng2WnVF"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 60,
+    "ai": 61,
     "staged": 2,
     "prio": 0,
     "lost": 0
