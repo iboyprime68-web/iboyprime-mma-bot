@@ -1,5 +1,8 @@
 {
   "seen": {
+    "d8cd600865daa89a": 1790181629.1631114,
+    "87dc3eb38e83b90c": 1790181628.72605,
+    "049a9bea21c956a5": 1790181628.7230802,
     "5bf7282d89f18637": 1790181565.1132152,
     "634e1a47ffc12045": 1790181499.8421159,
     "1abc938b1b00f31b": 1790181434.51928,
@@ -2496,10 +2499,7 @@
     "c4d780b053bf63b8": 1789664602.170479,
     "7a2be8cafbcd77a1": 1789664601.9677775,
     "3b56a92e12143176": 1789664538.6610317,
-    "914a7c2b3b4de35a": 1789664475.1345956,
-    "ac9879c10bfdee3d": 1789664474.9022222,
-    "5c52e12a845d97bd": 1789664474.8999784,
-    "cc5b337b60e175f4": 1789664474.8953114
+    "914a7c2b3b4de35a": 1789664475.1345956
   },
   "initialized": true,
   "v": 4,
@@ -4699,16 +4699,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T14:30:26+00:00",
       "cluster": "c9f6f37d7bb"
+    },
+    {
+      "t": "Chael Sonnen comes to Gable Steveson, Jon Jones' defense after UFC 331",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-23T15:20:23+00:00",
+      "cluster": "c2c92ad54d8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T16",
-    16
+    17
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331154",
     "52059b8b-d878-3e1a-af70-03fcc0d92ba5",
     "CBMipAFBVV95cUxNS3p3eEtudEFSU3lKRjBaX0lKOHM2YVU4Ni10Vk9ZX1ZCeEhyUWhKSmpOTnNMa1dkdTdGWW0wdVgwaHA4RjdmMFFLcmx6TV91eUZpUTNTdzZUb2l0QVFuT0N2Q3VwWURtNjE4T0cyamJFMjhXS0NNWlg5Ri13dnpXY0ktOWd4d2xwRnpNTDJvcklDSGhJMmJyTnd0WG1zUHZNdldHMQ",
     "CBMinwJBVV95cUxNcEsxNGRJS0gxc3RZS3RvSXlkalhjWTZSank1Y1RsU0JsOHkxN0lQa1pWWnNVOHNaSkY3Zlk2eUl3NzJ1OXVINC1LeW1VTDRIYVZ1dVNhdm1xLWxwOXcwSFhpVUt5NGdWekM0dVE3SWZXTXNpcEV3akFxZy1wV2NrUjZZV25oVkZONUZqVzFydmF3RzNGeHJsTlU4bDliSXhocDNUcTgyX0pvSktKUnNmTWRFb0lpM1dRcEg1elRwejg2enhFMUVId3Atb1cxbEdMRG41VmtfZ0JKZERhNlFsYm9QN1dWWG9CajVVSVdxMUJyM0M2d1JtUThFWkhucU9zOTFJMmdKYlZGYnVZN3dGZ25UVE9DRFBvTmxlRXd6c9IBpAJBVV95cUxPTVJFSGotaDdxRU0zVkxacEtfT3p5VmpGSUhzZS05QW5ZYkFpejdrM1pGcWllYjhyTmVUbzBZbzZRbXNkNUNZTjd6S2ZhQzR0WWdJdlVtczhJY3ctM0luckpETGxYMjMxajhqNnBmMUVvX3RTc2RxeHVkY1gwN0NPQXRjZ1VyMUdjdDhjZUp0ZmFOYlBBVHhrSWpZVE5CeFZaQjZtblNJZ0RKdkZkUmNXcFdva0R6ZTc2UnpTRFlidHZwaWtCRkhxODVDZjk0VG95cVBBTmVSN1JMNm9HZkNXX2YtZlJSZFhzcVFSb0RKM2dkNzFlWF9tMGxWTUVsb0lHMXl1VXREdXlwMEVjS05lQU5KRWZUYk14YzRoSzJ6ZWRjcmd3",
@@ -6207,11 +6212,12 @@
     "2d435788-5ab8-32c4-a7ae-912e4358bd96",
     "0ee97c44-4082-3058-859e-6915fdaeacf8",
     "https://www.mmamania.com/?p=474338",
-    "f8d510e4-3f6e-333b-97a5-2e05357b7d98"
+    "f8d510e4-3f6e-333b-97a5-2e05357b7d98",
+    "c71e5d87-f150-30fc-bcb4-a1d3ed113901"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 106,
+    "ai": 107,
     "staged": 4,
     "prio": 0,
     "lost": 0
