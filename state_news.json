@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cc5abfd0499f96b1": 1790124224.0455935,
     "3a6580e1f929b2e7": 1790124160.272456,
     "23e3ac4f6e74bed0": 1790124160.2693553,
     "e4d8a7041d6947c1": 1790124034.3004396,
@@ -2498,8 +2499,7 @@
     "eb0595723f67a661": 1789607178.5441134,
     "66bd26db1709c791": 1789606987.7834234,
     "5dc63414444f057c": 1789606987.7817113,
-    "5bf460088d297fe8": 1789606860.0904844,
-    "52411b26507c6895": 1789606860.0884793
+    "5bf460088d297fe8": 1789606860.0904844
   },
   "initialized": true,
   "v": 4,
@@ -4681,16 +4681,21 @@
       "source": "Cageside Press",
       "ts": "2026-09-23T00:34:49+00:00",
       "cluster": "cbf4047c8f4"
+    },
+    {
+      "t": "UFC 331 Highlights: Arman Tsarukyan at Mauricio Ruffy Stream of MMA",
+      "source": "CBS Sports",
+      "ts": "2026-09-22T23:53:32+00:00",
+      "cluster": "ccb78996138"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T00",
-    25
+    26
   ],
   "yt_eval": [
-    "c1ced610-77c2-36d9-a46d-98a1ef136c86",
     "6f4638a3-8cca-38ce-9264-3bb7b3459c56",
     "3f61c0c4-f00f-3026-ad70-3b71559d68d0",
     "https://www.sherdog.com/news/news/UFC-fighter-says-he-cant-see-opponents-clearly-until-they-get-close-202732",
@@ -6189,11 +6194,12 @@
     "CBMi0AFBVV95cUxOQ3dWaFRyRjhzUHp1UFNQLU5pRG5GTFVkaDVoSmw2RFdyTXB6SGdzSlBrMVdKVDRxblNfalA0QnJoZ1lwNlFjMG04MU9xZ0w4UGhlRHBmMHYyOFUxOFEwa1h2dmhaWHd5c2tvVWoxekVBVEY4NWFFVTJkWDloV2czZmhncDE1d0pWWWhzWnBVa01sMjhSLTdQQTBFZkxlcEhSVk1GcllQZjdfSDRhNE9FTnUyQ1RpdUZUWjhwS1pEb3A1NlY4NlNaYVZnVkxXbmU3",
     "CBMie0FVX3lxTE9nR29rX3NIcWhNMWdncTBjbXQ3amVUVDliSFlGck1Xd2dYZDNMZ3hONHA2NEhId1hLMGcwT3haNnllNFdsWXNHQnVmdzhzcXZkc1oyczdPMkt4bjZxbEwtQlB6ZmVvbDhNRGtObDczcnBiZUpuYV9kc0Zqcw",
     "CBMi2AFBVV95cUxNTWk1TXZDOXdHVnh2U0NnNlhCT01fLXJmRDFFX2lJSEdWYmhJU2Z0RjJ6QlRCcWlFTmY0c21VUWt6dVBPcUxVOTd1aVhVRnFnV181ekQ2UGlZYjQ4NkJQeXZkMDFUMTc2STFsTFkxV1NqazFHeENNc1dDcEZ5c0dILXNkdjNWd3hjMERVVC1RaUFQRVNTXzBaSi1KNl9RLVhTeFJNRnpUQThXS0tMLVk3UnhjdjZZRXo0d3hDdlY5LXA3V09CNF85NUt0ZmpwZ090UmJNLTAycjI",
-    "CBMigwFBVV95cUxQZlhDRnZDNkJYOFVGMkVLeHVtTkdnenNqSVBmYXd6R0VDWk9TODNkcmJ0VklKdHM2aUpxa0UzLTVrUERiVEVxNnRMMWk5cERfdjlzcjlSWUh6Z0NnbmhrVndmc2dUZmtpMk5oRjBERUc1cmhwbERrMXB6LWdsTmFkSWgyTQ"
+    "CBMigwFBVV95cUxQZlhDRnZDNkJYOFVGMkVLeHVtTkdnenNqSVBmYXd6R0VDWk9TODNkcmJ0VklKdHM2aUpxa0UzLTVrUERiVEVxNnRMMWk5cERfdjlzcjlSWUh6Z0NnbmhrVndmc2dUZmtpMk5oRjBERUc1cmhwbERrMXB6LWdsTmFkSWgyTQ",
+    "CBMimgFBVV95cUxQTGdSMk16WWRnMnZRY19qLV96Sm9zLUFVVFNwNHB0VXh2MDZOc3N1bGJhUFJVY2E4cmFsNGZ5Uk1kWkU3dm5LZEdtSlZhRGgxZG9KLVhkRlJ3NFNQbFdweUlVYW1Vc096bWxJbG9WUzhYdTJkbGVFUVoyUlk0b3o3elVDWmRybGx4dktPSG1YWEdSdUIxMWZCeHRn"
   ],
   "daily": {
     "d": "2026-09-23",
-    "ai": 25,
+    "ai": 26,
     "staged": 0,
     "prio": 0,
     "lost": 0
