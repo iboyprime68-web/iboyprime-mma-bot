@@ -1,5 +1,7 @@
 {
   "seen": {
+    "ce6490ca48490bb8": 1790183310.332647,
+    "c84f50941e229f69": 1790183308.7766645,
     "95975b422a7be35b": 1790183284.9500027,
     "94d7e849791d1c63": 1790183241.9065063,
     "c372bb521c4da899": 1790183178.5342307,
@@ -2497,9 +2499,7 @@
     "ccc528c9a0722eed": 1789676016.2960148,
     "72a14ec7c70f6c07": 1789675953.0951986,
     "85f8a92df3056a57": 1789675952.6739714,
-    "49ada2f350c61282": 1789675952.6518369,
-    "8b7e4c2b5d8650c1": 1789675888.8195393,
-    "30cecd8491f443c6": 1789675888.4776754
+    "49ada2f350c61282": 1789675952.6518369
   },
   "initialized": true,
   "v": 4,
@@ -4789,16 +4789,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-23T17:07:44+00:00",
       "cluster": "c400065e322"
+    },
+    {
+      "t": "Salahdine Parnasse évoque avec émotion les sacrifices nécessaires pour arriver au sommet",
+      "source": "ActuMMA",
+      "ts": "2026-09-23T17:00:00+00:00",
+      "cluster": "c0b5580f32f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-23T17",
-    7
+    8
   ],
   "yt_eval": [
-    "11a9969e-2f5e-32a7-9d94-1b972dcc8438",
     "https://bloodyelbow.com/?p=331239",
     "83cddd2f-a5dc-3020-9bd1-2431495c9bf5",
     "20be1995-b967-3598-9941-abfd72bcfd09",
@@ -6297,7 +6302,8 @@
     "CBMi4gFBVV95cUxNZDE4RndBYXZOU0dJT3dnd1p1TDJfV0gtNkFOeUJ0QTVyc0ZWY2hYU1R5Y0Z6MkFFN3lwa1BTbWMzWGQ4Qk15WFRwZ2I2X0lvbGV6S3dGOVU2LU52bHR6R0JFX0FUcHRrUzh1cG9oLTZZLWVCLUZBa3JFdjlPenVUUEhyUDd2NG10b0gtd3JEMUVxOXlwQjRMQ0U3MldZT3FPNGFNcXBJUlVUeGsyRkNWXzZKaWozMEcwQ0ZxNWo2eTVhTjdsVW9hWVktU2dyWW9rVm8wUUZQTWdvdHdLUXFnOURn",
     "CBMingFBVV95cUxOSl9wdmpTcHJEcTQ2eXROSzZCcFdTak9fZ3BkclBsMkpMSHJwbDlpTktBTzJUOUFZaFIxdHVxcEhMZkl3V1J0SUFZdWVtOURrSlMxUEg2N05Hblk4M185S2Q1Q0Q4LVVTeV9vNFhxQ0REd2VILXVkUi1tUF91YzlqRFFUeGpnS0tObmdnby13MGFxMDRBTGdTOF9WcmczZw",
     "CBMigAFBVV95cUxOOE5GeHZYNXNRZTBzS3VrOTF2WHJNYkg2aXViNzhmM0hPc1cxc2dZT0s2TlIyRnpmbE94Mnd1TW5fOU9kT1hseDRaSjl0Ylprb1VaWVhCZ1BBdWdWREFpNDVINDlIYXozTmEtLVJMWEVTaC1WbG9ldzdSaW40aVVkaw",
-    "https://bloodyelbow.com/?p=333349"
+    "https://bloodyelbow.com/?p=333349",
+    "CBMivAFBVV95cUxPQTZGWHhVVjFRT1ZXazd2MTQzOG9PQ3d0UGVUUnp4aDZBM2ZLOGNlSDBBc2h6UE9kaTkwS19vZnNXZjFmZlVwQ2g4em5pZUNWNFBNOTdrdWRod1JGLU90eXRqTm9QbmlsX3BseHlYZzBhaGhRUTFhRGVpVk1FNXNudXZnTFdSOWhmRWxEZlphRXp5VHA4MkVJdkpzcFR1LUhMMzBHYXpBYkdLQjFacEptYkpfdnhaLTNOa1pwWQ"
   ],
   "daily": {
     "d": "2026-09-23",
