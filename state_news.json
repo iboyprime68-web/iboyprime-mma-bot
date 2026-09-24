@@ -1,5 +1,7 @@
 {
   "seen": {
+    "a5d5296653960e3b": 1790235750.2358885,
+    "d20d0f620a9f462c": 1790235749.8555534,
     "9f7ea07ccf4d5628": 1790235685.4293942,
     "06d192a34ea73a68": 1790235496.620563,
     "2c9ec44b6d086f28": 1790235431.8647087,
@@ -2497,9 +2499,7 @@
     "1eb093b902b446bd": 1789738239.042413,
     "a51a30bc0b98cf7a": 1789738215.1512597,
     "571b74b895df9f84": 1789724921.1104312,
-    "a15427c64efa52e8": 1789724921.0918999,
-    "befa3c22a5dd8a5c": 1789724118.6248014,
-    "52224304d50a2e90": 1789723007.2581074
+    "a15427c64efa52e8": 1789724921.0918999
   },
   "initialized": true,
   "v": 4,
@@ -4681,16 +4681,21 @@
       "source": "Sherdog",
       "ts": "2026-09-24T02:01:34+00:00",
       "cluster": "cd3c075a6f0"
+    },
+    {
+      "t": "“They don’t have no milk” - Justin Gaethje shares bizarre reasons for disrupted routine ahead of Khabib Nurmagomedov fight",
+      "source": "Sportskeeda",
+      "ts": "2026-09-24T07:37:00+00:00",
+      "cluster": "c9cfbffe916"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T07",
-    16
+    17
   ],
   "yt_eval": [
-    "4d7a7c82-ddb1-3a95-9571-93ca858575fe",
     "https://bloodyelbow.com/?p=331404",
     "24f5f335-0641-330e-ac43-b55687411e96",
     "https://bloodyelbow.com/?p=331410",
@@ -6189,11 +6194,12 @@
     "CBMia0FVX3lxTE96d1VGcHFVeDUtcGxkM3ZMaFJRRjU1RVNCV1lNRkV6MEE3Q2dyTE5XeVBUQlIyRzRmRHA4MUFmVTNJdFBVaDV3aURmTmFLWVdmUWZ3R0ZUTWhGc0pWVkFqbjBTcF9SYno1djFN",
     "https://www.sherdog.com/news/news/PFL-Chicago-full-card-set-with-two-rematches-on-top-202930",
     "CBMilgFBVV95cUxQY01PdWM3enpWX25SYkhqWnFPbGtScGRoaWFNYkFfQllWZnhhQ3dPSE5wRlF1NE1keC1XUExaOTJDRE01am5JZUFwNjc1dVVVbzhMV2ZESWJ0c0tIa2JtUHh6VzJwN2hqdU1KQTBNdjRXVDJyakh1MlRVaVp4NlB3S3hIX3lYV0Q4ZDdDQkdNbUlZTmY0TUE",
-    "https://www.sherdog.com/news/news/Khamzat-Chimaev-set-to-welcome-Robbie-Lawler-back-to-competition-202932"
+    "https://www.sherdog.com/news/news/Khamzat-Chimaev-set-to-welcome-Robbie-Lawler-back-to-competition-202932",
+    "CBMi1wFBVV95cUxQSnNRajF0b1FlckttcU43WEVHNUV2N0ZqcWZCMWYzRjJfdHBfLVlsZ0ZzWlgxSDNWTDM0UWRkX2l2cUZOQ3JkWW10R0x1WkZ2SVY2bG5ybGVMWUVsVVNHRERRY2ZBQlhybThBZ2l2U2VReF9iWlVSdTFlMGtsVWloZ3Y4cll4SHJabVNNai1RVWdVazVGYXc4TUZDY3BlVENaYTFseW9hSmVDRmd5bkszNU5qUGRmVHhpeXcxNUlhWFhjTGtxSE84Rno1S0prbnpCNml0bUxFaw"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 38,
+    "ai": 39,
     "staged": 2,
     "prio": 2,
     "lost": 0
