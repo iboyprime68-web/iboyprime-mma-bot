@@ -1,5 +1,6 @@
 {
   "seen": {
+    "dd40e21c58d3c8c9": 1790274485.469652,
     "c89d016f6f90ee39": 1790274420.6155121,
     "44717cac05c4b77d": 1790274420.408851,
     "3da9ad18c35a195b": 1790274355.8459358,
@@ -2498,8 +2499,7 @@
     "827f4b32064863e1": 1789753738.6415896,
     "7b7972e7a5363f12": 1789753673.5827937,
     "be0b1c93ca0dc4a0": 1789753673.32635,
-    "acb2489ea90334e7": 1789753673.3007252,
-    "d14a15fbf840cef4": 1789753673.2997317
+    "acb2489ea90334e7": 1789753673.3007252
   },
   "initialized": true,
   "v": 4,
@@ -4495,16 +4495,21 @@
       "source": "Sportscape Magazine",
       "ts": "2026-09-24T17:29:05+00:00",
       "cluster": "c813ab23c15"
+    },
+    {
+      "t": "Dana White, UFC in Jam When It Comes to Oblique Kicks",
+      "source": "MMA Sucka",
+      "ts": "2026-09-24T17:30:52+00:00",
+      "cluster": "c27e5c0374b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    13
+    14
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=472057",
     "CBMifEFVX3lxTE5va25VeUwybG43YUt4bThhR3p6LWJDU0xCbi1ZQVFJbl9ObmVWbWdQQzR4TnMycDlOYnM2MjZIQXo0YUtSU2lxRDJzRmpobHY5QjNtb1dVYjhzQmtJQk5XTTNxd01wS0JCbzVRM1JNWG54YVplOExOM3hPbXc",
     "CBMikAFBVV95cUxOd0RpSGNnR1dqMkxZd1VWVERxS3dodnU5N3pXMWtBSW9lSEk3dUx0LTdySU1TQkMyYWpQUUY1UzZ4RTNzaXFOMjJ3X2JVNVRuTGVvbkxVbjAtVU1kUFBzTGpwMlhiQnNjVGdSWjk3ckhGMExfMW1SVkxUcW5nSjZXWFF3LUxUY1czODdCdWg2aGE",
     "CBMizwFBVV95cUxNNHlIUi0wYkJzS3F5VWpXa3lSRVVwUnlkQ2Nna3dodWtBaktMNHg4NFVqU3NKcEdlcWZNenRMMHlGckxUS250QXZLaGdXZk9qTnJRU1A3cFZMeXRJS3ZPbG1sNDVDVnZZa1VJQzJZVmRBblNwRFV4LXNTUVF6MGZjNS1GTHY1QmVlaTVFS19tM2hKUVRRZ3oyM2F2QlkyRl9ud0dpUVY5cWp6NlYyVFRZeXhvNkJhZWFHRnNFbjhwWFRxMWxXbXVsMXZocHFYdDA",
@@ -6003,11 +6008,12 @@
     "10c0e5a7-0126-3352-a6c8-073d29e50971",
     "https://www.mmamania.com/?p=474505",
     "50f46889-177d-3687-9041-a2279fe48fe9",
-    "CBMirgFBVV95cUxPYnBNSW1xSGtKZHNVakctMVoybkhFcmJJaUFrUXdJbkstRkhKSmh3blZsdVBWWGotRFdmU0FjYXc1eE42OVA3WHVzTFpRejhrU3k5Y1FNRExWS05PRjEzU05pWWhhZFRuYVJBQ1BfdVVydlExWjBMN09pUlJ4RWlEdUNfb0tKYldOMEpRYnhWVkJjNmVlbllNQTNFVnNaYWV1NElUR20tNlp5TFFtQ3c"
+    "CBMirgFBVV95cUxPYnBNSW1xSGtKZHNVakctMVoybkhFcmJJaUFrUXdJbkstRkhKSmh3blZsdVBWWGotRFdmU0FjYXc1eE42OVA3WHVzTFpRejhrU3k5Y1FNRExWS05PRjEzU05pWWhhZFRuYVJBQ1BfdVVydlExWjBMN09pUlJ4RWlEdUNfb0tKYldOMEpRYnhWVkJjNmVlbllNQTNFVnNaYWV1NElUR20tNlp5TFFtQ3c",
+    "CBMioAFBVV95cUxNQUM1VXdwN3YzWmV2Ujc1aE5TeVhReFN5UTd5bVV5NjJuUmJLTnUtRzM3WnNXYnA2cGRaMmxpN0xUYWpOTHA3VVR2VVJjQXg2c1hIRjhrVU9MZlNtb19hUEQ3b1JITjB5NEQ4QlBxb042LUZuWXV5ak5IZXhLbzIwSXR4by15QnN5YnlybDJ4R3BiVTV2VHI0ZVZhNHRxZVl3"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 95,
+    "ai": 96,
     "staged": 4,
     "prio": 3,
     "lost": 0
