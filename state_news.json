@@ -1,5 +1,7 @@
 {
   "seen": {
+    "29aab7703f5123b9": 1790235052.6021419,
+    "a339bf3847743923": 1790235052.2138288,
     "c3e0c51ac3583802": 1790235024.290672,
     "8372e73133011312": 1790234958.3881445,
     "76e2c048787d1fce": 1790234957.0633774,
@@ -2497,9 +2499,7 @@
     "151942d37c533dda": 1789722247.9974527,
     "91e05f1040ec8857": 1789722182.8134327,
     "3eb76844599839a5": 1789722182.577404,
-    "481d9ea8f4692fa8": 1789722118.644023,
-    "5536625f30d3e705": 1789722118.1291432,
-    "55de0d67e49ab1af": 1789722053.791685
+    "481d9ea8f4692fa8": 1789722118.644023
   },
   "initialized": true,
   "v": 4,
@@ -4633,16 +4633,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T06:15:03+00:00",
       "cluster": "c4184d499df"
+    },
+    {
+      "t": "‘Undersized’ Ilia Topuria has to retreat to Featherweight: ‘I don’t think he’ll ever be champion at Lightweight’",
+      "source": "MMA Mania",
+      "ts": "2026-09-24T01:41:26+00:00",
+      "cluster": "c77b862dd99"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T07",
-    7
+    8
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509931",
     "https://bloodyelbow.com/?p=331363",
     "6ab690f0-f547-35ca-9b1d-35ceb771b1df",
     "https://www.mmafighting.com/?p=509992",
@@ -6141,11 +6146,12 @@
     "4fab1ec2-783e-388c-939c-1bf1a1c2319a",
     "a7da248f-f893-3925-947d-e89e40fc76e5",
     "978c07f6-7b37-3825-baa7-66e0b07d1539",
-    "400ef0eb-38d2-3078-ad6d-53ad5398cd4c"
+    "400ef0eb-38d2-3078-ad6d-53ad5398cd4c",
+    "https://www.mmamania.com/474413/mm-clone"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 29,
+    "ai": 30,
     "staged": 2,
     "prio": 1,
     "lost": 0
