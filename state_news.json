@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a6c5fa8bf3e9d948": 1790237918.5270822,
     "289edbabcaa75e7f": 1790237852.5417876,
     "7b7dd62c97a9e1ba": 1790237787.5994394,
     "cc540ae1fd956756": 1790237660.9438465,
@@ -2498,8 +2499,7 @@
     "575d1fda76e91880": 1789738835.2317936,
     "714a00724b4def95": 1789738835.2285967,
     "a35bc97ff6ff3f3e": 1789738769.3637002,
-    "c77d49f0d0316e29": 1789738704.5231001,
-    "2c0bbe7362be281a": 1789738704.2071078
+    "c77d49f0d0316e29": 1789738704.5231001
   },
   "initialized": true,
   "v": 4,
@@ -4753,16 +4753,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-24T08:15:22+00:00",
       "cluster": "c9966259582"
+    },
+    {
+      "t": "Josh Hawkit Hits Back at Alexander Volkov: He Should Have Been Fired Alongside Almeida",
+      "source": "Telecom Asia Sport",
+      "ts": "2026-09-24T07:20:22+00:00",
+      "cluster": "cad41b92a2e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T08",
-    7
+    8
   ],
   "yt_eval": [
-    "https://www.mmamania.com/471683/ufc-paris-results-sooo-about-last-night-hooker-vs-parnasse",
     "b8e834da-150b-3311-8214-b11935aa97d1",
     "da837aad-06cd-3dbd-88a3-d16d13ae8334",
     "8e776d2b-13c1-3be4-b7d3-20213931add1",
@@ -6261,11 +6266,12 @@
     "CBMiswFBVV95cUxOQm9rVXlnN1owQVFQa3g0R0hPYWh3QlRrTF9pTm1OQjQzeU9jejdDREdpejZXRjZPdFE0YWM5b29fam15RkpHNTNvRzc1MXd2MEhwMmZUdDViSmJ3WlFTNXlPbnIxMFlUQlEwWUc2TkNLUkEyQUFUTGh0US03UDVncjhBb1VGLVprY3plZUFveXctMHVRdi1XU3dDSHUtN1RxNjlKMG9xNnlsWGNnZnQwYnAzYw",
     "CBMiyAFBVV95cUxOTEN4R0s1Wm9hTzdoNFY4MlNnX0taNVJjUVN5YUU4MXd4ZmV2NmNGMzBoR2VTdXhPa2x6eEQydUZZVzlVTmc3ejlqSkQtWWptb0R0aDA1NnBFMkVNWm1IX0N3Snh2QmNVOE9pRTZJRDFBdFV5QTFiUG9CWHhObHdLajdSelZER0FKZ2s1ekwxT2d2NXRHaU9vaHF5UGRFNmF2aEFVcWFFTjljNmNFNm1qdUgxbXhoNVFnM0tqZWNHNWxCQjVKVUhhVg",
     "CBMiowFBVV95cUxPdmozeHlpVU12aklheTdMWFRPNXU4enI1UnZNUExCY1VNUzV3NFlReGhvcXFwMGdhWUJ2Wk1HUy1wLVNKaEp4Mll6YnRBT3F5RWFSbHpHQTZWTG80YUotQnZQRXBEaF85ZUU4Ul9DNTZ2ZHJINFV2bHVzWnR5V24ycEF0enlvSE5aUEF0UlJrUFotMWVEMmt2LU1aSDRoNjRaVG44",
-    "CBMiigFBVV95cUxPX1UxTVg2Y216ZldfUkVPTTlPdXF0UV95MGhiTlpfXzdzUXNlcHdZQUgzcmdvcEsyOXB2ZzB0cE4zYllhekRJLWdfZzR2V0pseEh1emxDMThpUFNhOFJsWVM1NTBtQVpmbkVYelhEMVZvMUNtd0EzdGE0YjVwRnhEM0tCcDg2MWkxaWc"
+    "CBMiigFBVV95cUxPX1UxTVg2Y216ZldfUkVPTTlPdXF0UV95MGhiTlpfXzdzUXNlcHdZQUgzcmdvcEsyOXB2ZzB0cE4zYllhekRJLWdfZzR2V0pseEh1emxDMThpUFNhOFJsWVM1NTBtQVpmbkVYelhEMVZvMUNtd0EzdGE0YjVwRnhEM0tCcDg2MWkxaWc",
+    "CBMibEFVX3lxTE5wZUNrWHB1TjRYcURuNktuaVZ6cUQtUkdDQmt0MWhoWk1TWVpEU0xnd0Y5bGFwc2lFWnI5R3NLM0hvaDJaV3I0VUxPUFFpTExTUVlHZm5mYzdIYjV6MDNYdEJxQmQwNGJvZUxHbw"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 50,
+    "ai": 51,
     "staged": 2,
     "prio": 3,
     "lost": 0
