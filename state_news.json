@@ -1,5 +1,6 @@
 {
   "seen": {
+    "429c3b0ca4b6d1b9": 1790258591.7762985,
     "144c4c01325ff828": 1790258527.0746,
     "d1941a40649a8f99": 1790258456.608264,
     "da5b68b5398295de": 1790258455.8182926,
@@ -2498,8 +2499,7 @@
     "2bb86c9c010e464e": 1789753168.6924736,
     "62faf91cab709bf9": 1789753144.3749073,
     "e5127ee9fd27b1d9": 1789753144.0141492,
-    "52d37b42bd1cd8b7": 1789753120.535212,
-    "66d92d8a61d0706c": 1789753096.5716434
+    "52d37b42bd1cd8b7": 1789753120.535212
   },
   "initialized": true,
   "v": 4,
@@ -4717,16 +4717,21 @@
       "source": "SuaraGarut.ID",
       "ts": "2026-09-24T13:54:03+00:00",
       "cluster": "c6653134448"
+    },
+    {
+      "t": "Justin Gaethje opens up on when he will decide about his next fight",
+      "source": "BJPenn.com",
+      "ts": "2026-09-24T14:00:29+00:00",
+      "cluster": "c1570120d8e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T14",
-    2
+    3
   ],
   "yt_eval": [
-    "https://www.mmamania.com/471935/open-thread-september-12-2026-mexico",
     "119f484b-8c37-3663-ae3e-3ef6f7e38733",
     "CBMif0FVX3lxTFBfY1c4bXB5d2FXS1N3d09na2RlcVVwSVF5elhFZzE5YkllTTMySExpRDZRVXM4S0hlRHpQREk1ZU40eEhkNlBVS1VYM1hmTU9oSEktdGc1ZkYtSDBYdmJwR2x0VUpZVld6WndZWUtpRllhNDFRMlpqVFl4UElGWG8",
     "CBMiggFBVV95cUxPUlpqU2F5MlNhRmJSdG1fRDdPVThpNG9TendjM0xla1VkQlFWU2cwN2RVa3Nhb0F0NjNSYTRVVHMwVXV3bi1tNjVXSXllWXpaSTgwRGxMWjd1ZDF0bU5OVmNpRWdOY3NWY1FlNDE1QkxtZXI5cFhZX29mNXpwUTh5c2Nn",
@@ -6225,11 +6230,12 @@
     "CBMigAJBVV95cUxQWHJ6WG56Mkk2aHJHODg0SEpzSmRFMDdvcVhrR2EyQ1hJVXhBOGdudjEzX2dRaVVYOWdYSlFwQVktaWtSbTVWSFlUWFItRFlaVC1uVkYyRHRMR21uNDNaZ1BfYlVaWHhkQjdMVVhob1lpMmlSZ2gxQktVdTlhQ0NmTTBGUFlEc0pOZU13QkhGSnJZaWJ6YW5SWXlMcS1kT1VZcWVydzFtTUZfMlBnNWtzWXFKYlRfWTRvdlBreVNacnZjQUh5Q05QWWNEOGZuRVFya1hObThoRHJ5UHM1UC0zWHlWX3M5TXNCWDNkUnlDcmd3SUJMb19tNGV6M3UwOTl3",
     "CBMivAFBVV95cUxOY0xTSGFRYWNodVVrMjAyRnJzczA1NU1qRURKa2djeEViTjU5V20zMWszTFQ0TmhkVV9UeEhKR28yRXl3Q1VCUkVqX2RQUVpOMUxkZV80eW8tV3Rlb19RMnpleWwzb0NEVk5rb0gyNFVRZUI5Qlh0THlzbDNSVHpLTVVGWVhka2tBTl9zMFY1Wmctek92THNBV2s4bl9lUmdwQXl1RElqQUpWVEFrallfZXY0VGlfdW9jU1l4Vw",
     "https://bloodyelbow.com/?p=333407",
-    "CBMiY0FVX3lxTE9vdGRCNlRjX3FwbU5ybXplbkpSbkZsOGZ1bF9fX0puVEJkQXhiUFpDdEt1X2ZFbEtvSnhjdW1nWEx4WjJxVzlvQ2tkX3RpUDJibVkwaVdGQ2dieWRRN3htQlNLUQ"
+    "CBMiY0FVX3lxTE9vdGRCNlRjX3FwbU5ybXplbkpSbkZsOGZ1bF9fX0puVEJkQXhiUFpDdEt1X2ZFbEtvSnhjdW1nWEx4WjJxVzlvQ2tkX3RpUDJibVkwaVdGQ2dieWRRN3htQlNLUQ",
+    "CBMitgFBVV95cUxQT3U1NE1iajhmeWJJeWQ0UU5JeXJ0Nmxkc0J4dHhHX1dqY0UxUlg0WUFYaXFsd2V4SFBlblVpb1FjeV9qTlA4elNfUnM1X3pWUmZUTTdBRFNNcTZQM0gzaGNGYjkzcm9vc2IyWGZUTWxSbkRyWDF5N0Y0Y2p6WXhwZlo1c2ZQYXpSVV9ER1c1RkkzYTlYemhXVUE5bGVwZlBpa1pXeXZGbW9TVE1ZbFRHeV9nUENtQQ"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 79,
+    "ai": 80,
     "staged": 3,
     "prio": 3,
     "lost": 0
