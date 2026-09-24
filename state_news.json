@@ -1,5 +1,8 @@
 {
   "seen": {
+    "92de03c681e4b287": 1790288939.5224638,
+    "56cf52796add5e8c": 1790288939.224905,
+    "dc0edeff44c59746": 1790288939.2231529,
     "6ec3fbaa6ed2c18a": 1790288873.7636652,
     "e59b3dfae60dfcfe": 1790288873.4800272,
     "90809e8f3ab8a39b": 1790288873.47598,
@@ -2496,10 +2499,7 @@
     "9ca30eb43c5d37ea": 1789764955.9114118,
     "7927b43e4f43b671": 1789764955.4705167,
     "22edda979ef866e0": 1789764955.4702544,
-    "d02667ac80395152": 1789764890.8059871,
-    "3cec3ba445a2d3f8": 1789764824.9615457,
-    "8bcb9bfd37c132a2": 1789764824.3893068,
-    "88474ee5229313c0": 1789764759.9193356
+    "d02667ac80395152": 1789764890.8059871
   },
   "initialized": true,
   "v": 4,
@@ -4651,13 +4651,19 @@
       "source": "MyMMANews",
       "ts": "2026-09-24T21:52:24+00:00",
       "cluster": "c1268d87776"
+    },
+    {
+      "t": "Ailin Perez wants big-time role if she wins at UFC Vegas 121",
+      "source": "MMA Junkie",
+      "ts": "2026-09-24T22:01:00+00:00",
+      "cluster": "cf7602343a1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T22",
-    25
+    26
   ],
   "yt_eval": [
     "CBMimwFBVV95cUxPOUl1dEl2V21YdC0zTnJpZ3BXeHZJT3JQSnZjTGQ2MWpvOXlzaGpQS0FtRk5oMXNMcE5OeGVoNWYxZ1I1ZWVHMEo1dmVfaFE4V3JQNGF5aVprRHQzUlNra2xaLWlNb2JBOHJrSTQ4bDhuTmUwM3BuZ0pHUmU4UVFiRHpyZGRXQWxpVDB2bV9nUkdMcmdVcEd3dm9MRQ",
