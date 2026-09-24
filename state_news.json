@@ -1,5 +1,8 @@
 {
   "seen": {
+    "83727cebf245a40f": 1790274100.7307549,
+    "ba13ac47613ece12": 1790274100.357964,
+    "ffb625a69051912a": 1790274100.353572,
     "a621e6f742be15d8": 1790274077.6294105,
     "d78be953b3992deb": 1790274053.1054218,
     "5ed7a1797ec92ebc": 1790274029.2968445,
@@ -2496,10 +2499,7 @@
     "5949f3d6e5686af6": 1789753476.5073953,
     "ec73b97b0afe7d0c": 1789753475.6648357,
     "1facfce4f06caeb1": 1789753475.6435146,
-    "982b0b721faf78f0": 1789753411.677298,
-    "d55b1677592d6a04": 1789753347.109657,
-    "332e1a3bb16c9462": 1789753346.8372357,
-    "2d4bc016417d33bf": 1789753282.5560029
+    "982b0b721faf78f0": 1789753411.677298
   },
   "initialized": true,
   "v": 4,
@@ -4459,16 +4459,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T14:30:56+00:00",
       "cluster": "c3aead63de0"
+    },
+    {
+      "t": "Between the Links: UFC 331 fallout, Van and Tsarukyan shine, Steveson stumbles, Fury vs. Joshua",
+      "source": "MMA Fighting",
+      "ts": "2026-09-24T17:41:26+00:00",
+      "cluster": "c390afea063"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    4
+    5
   ],
   "yt_eval": [
-    "CBMihwFBVV95cUxPS3M0VW0yNFR0SFFQMG44THl1c0JweDByUHQ5OG9Wc2o4UWV3QjRzT3hoeW1XNUtwLVZfYVNscHh0MTRDdnRNTHZaMTFkdmYzUTVfblhhU21zN01WLVZMZnR1UVhyLU9TWWxKTDR3bmQxYkdYZ0FFSlRNWGo2eEk5LV80cjVlQlk",
     "CBMia0FVX3lxTE5TZlhaenlqRXRNWUtiTF90cU9qNHdNWW9uRmpCS2FYYm5ob1QxNW5waTZKZG9rOXVHX0F6djBzdG5qODZTU3JkeWVOX2did1BUZDBSU0o0SWZCRVk4Wk9NajVrbzN1UDdZQkhR",
     "CBMijwFBVV95cUxNTnpmb2oxeXU5X2JRZnUxdGdVeHhSSGVaRVctMTZEU0hYOXcwZ1drb3RYM0tVODRKcEw3WjNGaC02RmRaX21Dc3AxYXZsaDZRVDNEYkllOU9GN1F4S0FaRDdhZTloUGdMY2l2RTlycV9GNVV6d011MGdGRlhsVmlBUnUyTTl2bVpFM2FYMjRYSQ",
     "https://www.mmamania.com/?p=471723",
@@ -5967,11 +5972,12 @@
     "336efb99-ddcb-32ad-8be2-f61f35d8c032",
     "https://bloodyelbow.com/?p=333453",
     "https://www.mmafighting.com/?p=511781",
-    "9f49e114-757e-3093-acda-2937ee444e21"
+    "9f49e114-757e-3093-acda-2937ee444e21",
+    "https://www.mmafighting.com/?p=512253"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 86,
+    "ai": 87,
     "staged": 3,
     "prio": 3,
     "lost": 0
