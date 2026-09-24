@@ -1,5 +1,7 @@
 {
   "seen": {
+    "2c9ec44b6d086f28": 1790235431.8647087,
+    "7563fcd7fe915841": 1790235431.5598006,
     "2772b1f7fa34ff10": 1790235366.6853006,
     "85107a7c074ae82e": 1790235301.074053,
     "f2448e491f805fe6": 1790235300.6716573,
@@ -2497,9 +2499,7 @@
     "befa3c22a5dd8a5c": 1789724118.6248014,
     "52224304d50a2e90": 1789723007.2581074,
     "4cafe964d2e9ba47": 1789722942.94611,
-    "7dde6fcaea8b5ff1": 1789722878.1725304,
-    "79e44dd92ee51016": 1789722877.8932154,
-    "a32ce7175432b01d": 1789722753.3795702
+    "7dde6fcaea8b5ff1": 1789722878.1725304
   },
   "initialized": true,
   "v": 4,
@@ -4669,16 +4669,21 @@
       "source": "Sherdog",
       "ts": "2026-09-24T01:41:27+00:00",
       "cluster": "cc72704a649"
+    },
+    {
+      "t": "Justin Gaethje Says Ilia Topuria’s “Fake World” Led to His Downfall",
+      "source": "mmasucka.com",
+      "ts": "2026-09-24T07:18:52+00:00",
+      "cluster": "c80109d38e5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T07",
-    14
+    15
   ],
   "yt_eval": [
-    "c8a1fa16-5a6f-34e6-802f-8900fbe3dae4",
     "https://www.mmafighting.com/?p=509985",
     "4d7a7c82-ddb1-3a95-9571-93ca858575fe",
     "https://bloodyelbow.com/?p=331404",
@@ -6177,11 +6182,12 @@
     "https://bloodyelbow.com/?p=333385",
     "CBMi0gFBVV95cUxQY0FCZV82eG5OYmh3bjJkSmcxREFtNHo5VnlocEtJcm1tLU0zSGRMbTAyVXdZMlIzc2NaM0tGbHNLTGUwQVBsZzBYakxCcGk1WWc5aWlWb2hTc25lT0FYdFJlZEZyWFBhZ29xLVRXQWw1bFZjZW9iY1F1NWRPdE9tR2lmM0R6V05jZml3ZE1oR2RyLW1lZGtCTTFnMmxxV1VicUVHOFN5Z2dMZUM3OHVrLVlLMVVUUFhGWWtIelljaHNIY0hUel9wNFZ2ckNuLS12U2c",
     "CBMia0FVX3lxTE96d1VGcHFVeDUtcGxkM3ZMaFJRRjU1RVNCV1lNRkV6MEE3Q2dyTE5XeVBUQlIyRzRmRHA4MUFmVTNJdFBVaDV3aURmTmFLWVdmUWZ3R0ZUTWhGc0pWVkFqbjBTcF9SYno1djFN",
-    "https://www.sherdog.com/news/news/PFL-Chicago-full-card-set-with-two-rematches-on-top-202930"
+    "https://www.sherdog.com/news/news/PFL-Chicago-full-card-set-with-two-rematches-on-top-202930",
+    "CBMilgFBVV95cUxQY01PdWM3enpWX25SYkhqWnFPbGtScGRoaWFNYkFfQllWZnhhQ3dPSE5wRlF1NE1keC1XUExaOTJDRE01am5JZUFwNjc1dVVVbzhMV2ZESWJ0c0tIa2JtUHh6VzJwN2hqdU1KQTBNdjRXVDJyakh1MlRVaVp4NlB3S3hIX3lYV0Q4ZDdDQkdNbUlZTmY0TUE"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 36,
+    "ai": 37,
     "staged": 2,
     "prio": 2,
     "lost": 0
