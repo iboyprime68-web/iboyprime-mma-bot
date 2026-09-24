@@ -37,19 +37,28 @@ jobs:
     # The window is 3300s (55 min) plus ~90s of runner setup. Without a timeout
     # GitHub's default is 360 MINUTES, so a job wedged on a hanging feed would sit
     # on the `bot-news` concurrency group for six hours, cancelling every pending
-    # tick behind it and mailing the owner for each one. 56 kills it before the
-    # next tick can queue.
-    timeout-minutes: 56
+    # tick behind it and mailing the owner for each one. 58 (Sept 24 2026, was 56)
+    # leaves the last cycle room to finish its staging and write its state:
+    # 56 left about 30s after setup, and a job killed mid-cycle re-posts that
+    # cycle's story on the next run. `queue: max` means a slightly longer run
+    # delays the next one instead of cancelling it.
+    timeout-minutes: 58
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          # the render deps now include OpenCV (~50 MB) for face framing;
+          # the wheel cache keeps every run after the first off PyPI
+          cache: 'pip'
+          cache-dependency-path: requirements-post.txt
       - name: Install render deps (pinned; non-fatal)
-        # Pillow powers the staged-post graphics (postcard.py). If this step
-        # ever fails, news delivery must NOT: ytposts stages text-only and the
-        # job stays green - a failing hourly job would email the owner hourly.
-        run: pip install -r requirements-post.txt || echo "Pillow install failed - staging text-only this run"
+        # Pillow powers the staged-post graphics (postcard.py); numpy + OpenCV
+        # find the faces photopick frames on. If this step ever fails, news
+        # delivery must NOT: ytposts stages text-only (or with the old framing)
+        # and the job stays green - a failing hourly job would email the owner
+        # hourly.
+        run: pip install -r requirements-post.txt || echo "render deps install failed - staging degrades this run"
       - name: Poll MMA feeds and post new articles
         env:
           NEWS_REASON: ${{ inputs.reason || 'schedule' }}
