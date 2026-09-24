@@ -1,5 +1,6 @@
 {
   "seen": {
+    "aacc3c2602f54219": 1790257627.6147277,
     "b6a686d9d0f1cdf6": 1790257561.3701594,
     "5ee709086d11a91c": 1790257561.0475454,
     "45e9ac13102980f7": 1790257515.6500828,
@@ -2498,8 +2499,7 @@
     "f942eec549da03e6": 1789752949.6816978,
     "16f8dc92ee1cc28c": 1789752926.7139041,
     "7ffd4290cde337d8": 1789741277.7622626,
-    "d650b71c7865f473": 1789741212.4287882,
-    "f0850c36a0db5d30": 1789740900.6819274
+    "d650b71c7865f473": 1789741212.4287882
   },
   "initialized": true,
   "v": 4,
@@ -4729,16 +4729,21 @@
       "source": "MMA Junkie",
       "ts": "2026-09-24T13:40:00+00:00",
       "cluster": "cd0ad4b5429"
+    },
+    {
+      "t": "Gable Steveson Breaks Silence After UFC 331 Loss: ‘You Caught Me’",
+      "source": "Yardbarker",
+      "ts": "2026-09-24T12:55:21+00:00",
+      "cluster": "cc2bc886ef9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T13",
-    24
+    25
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331457",
     "d2a3debd-7898-3349-a022-77bfa2bf9874",
     "b297c352-76aa-329a-ac10-d6de7b035060",
     "https://www.mmamania.com/471935/open-thread-september-12-2026-mexico",
@@ -6237,11 +6242,12 @@
     "CBMidEFVX3lxTE1uZTRYejJCV2pCUFZUdVpBbHo5VG1uNXdvbFpSZjJyQndkd2RpelAxYzhxZ1VFS1pheGRjLVFGbTNxQnBQckEwRVVqV1U2bThKOS1DMmNCSHphLVI0Mm1sVkw3THNxU1UyN29LQVowMm14cktF",
     "CBMi3AFBVV95cUxOeTktZ1FNVzBXa05lWVlQbEVvR0dnNlNYYndRLXYtdzZPUkZBMllzT21hZG9SRE9Xc0tyVHh1WlFHRXdSdzhMWUwwSm1KOVVKemNCd3BrQ3p6dTRYQVFDNXRuYTVtNFJ0djBFVU82Nmx1VlROYkYtc3BYRUExX3RIZ1VxXzNBRHg5anhQemtPam5OcUh4WXlraFYxMmJ1dGZnOUk0M1ZMUWVpTG1kanMtNzAwaTJrWE1mT0RiZHdBR3U5Znd6Sk1ib2dKb0hDVUhmQWhHWTFha01SSjlz",
     "https://www.mmamania.com/?p=474454",
-    "CBMigAJBVV95cUxQWHJ6WG56Mkk2aHJHODg0SEpzSmRFMDdvcVhrR2EyQ1hJVXhBOGdudjEzX2dRaVVYOWdYSlFwQVktaWtSbTVWSFlUWFItRFlaVC1uVkYyRHRMR21uNDNaZ1BfYlVaWHhkQjdMVVhob1lpMmlSZ2gxQktVdTlhQ0NmTTBGUFlEc0pOZU13QkhGSnJZaWJ6YW5SWXlMcS1kT1VZcWVydzFtTUZfMlBnNWtzWXFKYlRfWTRvdlBreVNacnZjQUh5Q05QWWNEOGZuRVFya1hObThoRHJ5UHM1UC0zWHlWX3M5TXNCWDNkUnlDcmd3SUJMb19tNGV6M3UwOTl3"
+    "CBMigAJBVV95cUxQWHJ6WG56Mkk2aHJHODg0SEpzSmRFMDdvcVhrR2EyQ1hJVXhBOGdudjEzX2dRaVVYOWdYSlFwQVktaWtSbTVWSFlUWFItRFlaVC1uVkYyRHRMR21uNDNaZ1BfYlVaWHhkQjdMVVhob1lpMmlSZ2gxQktVdTlhQ0NmTTBGUFlEc0pOZU13QkhGSnJZaWJ6YW5SWXlMcS1kT1VZcWVydzFtTUZfMlBnNWtzWXFKYlRfWTRvdlBreVNacnZjQUh5Q05QWWNEOGZuRVFya1hObThoRHJ5UHM1UC0zWHlWX3M5TXNCWDNkUnlDcmd3SUJMb19tNGV6M3UwOTl3",
+    "CBMivAFBVV95cUxOY0xTSGFRYWNodVVrMjAyRnJzczA1NU1qRURKa2djeEViTjU5V20zMWszTFQ0TmhkVV9UeEhKR28yRXl3Q1VCUkVqX2RQUVpOMUxkZV80eW8tV3Rlb19RMnpleWwzb0NEVk5rb0gyNFVRZUI5Qlh0THlzbDNSVHpLTVVGWVhka2tBTl9zMFY1Wmctek92THNBV2s4bl9lUmdwQXl1RElqQUpWVEFrallfZXY0VGlfdW9jU1l4Vw"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 76,
+    "ai": 77,
     "staged": 3,
     "prio": 3,
     "lost": 0
