@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4fd700fe114b9d50": 1790287759.855115,
     "ef122c91a5b5a68d": 1790287736.590102,
     "a5dd85b54765e6b0": 1790287736.3075354,
     "48a46d744eec162d": 1790287736.282107,
@@ -2498,8 +2499,7 @@
     "d1c62f2cea8ec617": 1789763987.859122,
     "13dbf75df835060a": 1789763965.1902783,
     "299d5d6ad3aa41e7": 1789756170.812974,
-    "8cb38565ae06dcb5": 1789756107.0815685,
-    "dc641f0922313b26": 1789755981.1696541
+    "8cb38565ae06dcb5": 1789756107.0815685
   },
   "initialized": true,
   "v": 4,
@@ -4531,13 +4531,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-24T20:00:00+00:00",
       "cluster": "cfece73ec22"
+    },
+    {
+      "t": "UFC Hall of Famer Teases Boxing Return Next Year After Second MMA Retirement",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-24T16:10:18+00:00",
+      "cluster": "c5a57d8e824"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T22",
-    3
+    4
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=471475",
@@ -6909,17 +6915,10 @@
     "3892ca1ac0be0f79": 1790235187.3533049,
     "5d3b5e1561ff6cef": 1790256436.1722145,
     "b2c89df352ffff83": 1790275336.77986,
-    "eeee5814a87235b2": 1790275994.887191
+    "eeee5814a87235b2": 1790275994.887191,
+    "4fd700fe114b9d50": 1790287759.6122441
   },
   "pinged_titles": [
-    [
-      "Tyson Fury vs. Anthony Joshua date, location officially announced",
-      1790256436.1722145,
-      [
-        "fury",
-        "joshua"
-      ]
-    ],
     [
       "Yoel Romero, 49, reveals shock retirement timeline ahead of BKFC fight vs Till",
       1790275336.77986,
@@ -6939,6 +6938,20 @@
         "rosas",
         "targets",
         "titles"
+      ]
+    ],
+    [
+      "UFC Hall of Famer Teases Boxing Return Next Year After Second MMA Retirement",
+      1790287759.6122441,
+      [
+        "boxing",
+        "famer",
+        "hall",
+        "next",
+        "return",
+        "second",
+        "teases",
+        "year"
       ]
     ]
   ]
