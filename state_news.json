@@ -1,5 +1,9 @@
 {
   "seen": {
+    "b2c89df352ffff83": 1790275337.179396,
+    "08be89278039d023": 1790275336.756975,
+    "810dddf44394e9eb": 1790275336.754877,
+    "bae45399ef435068": 1790275336.7518759,
     "3b3b806ab84687f7": 1790275272.0412598,
     "2569fae24b15be83": 1790275206.6930537,
     "caa259ffd88e66ab": 1790275206.147604,
@@ -2495,11 +2499,7 @@
     "a5fec613a4f62e8d": 1789754193.5860734,
     "bec21b424255a9c5": 1789754193.3807032,
     "09bbd31a90d352ff": 1789754128.7387884,
-    "e80ffb7548f151f2": 1789754128.438904,
-    "fc0fbd0598e5f89b": 1789754064.3039072,
-    "30006deade653f0e": 1789754064.017751,
-    "95388e8eb85bd692": 1789754064.0169055,
-    "0365499e9d6cba15": 1789754064.0125318
+    "e80ffb7548f151f2": 1789754128.438904
   },
   "initialized": true,
   "v": 4,
@@ -4561,16 +4561,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T17:56:06+00:00",
       "cluster": "c5ec905741a"
+    },
+    {
+      "t": "Yoel Romero, 49, reveals shock retirement timeline ahead of BKFC fight vs Till",
+      "source": "The Sun",
+      "ts": "2026-09-24T17:58:00+00:00",
+      "cluster": "c62e3224512"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    27
+    28
   ],
   "yt_eval": [
-    "fe702fb8-f6aa-3566-968d-434f736be846",
     "https://bloodyelbow.com/?p=331480",
     "https://bloodyelbow.com/?p=331488",
     "b8ab75d7-56e3-376b-bd97-93cb6b529742",
@@ -6069,25 +6074,17 @@
     "CBMitgFBVV95cUxOcEkxZU9OQUtIcE5OdlhiY2N4eDEzV0JoOEdIZWFzUUFpWVF0SnVjVjc3V08weTdqOWcteDM2QlpwdWxGWUNDQXhqWDdvVktVNGQyYmppaFRJSHVEdVAxVjE1TVEwYi1fV2tYRWJqOXIyV1lZM2d2dlFvUzZZMVV3a2pkSHhjR2xfc25RRjExMVI5ekh0V3RMN19QcXdrcXh2RlNXd3JoYS1LNzh6MjZkSU0tUE1LUQ",
     "CBMiwwFBVV95cUxOM21hU3ZSejE0WmVFUHkteVZBb2dyaE1iYnN6cU0zVVJ3V3RXRTBpcmVYMlFXUGVVLVRVY2VGVVlWZFBtMzBIX2VKQW1jeFFsbFNxM0pGSTBuRVdPcDFfRFRvaTNaemhBNGdERklwcWhyeE9NQVc4a1FuOFMzdGlSbU1GREt4Ymx0SGtLRThFbkU5WURocEpfQzZ3c053bzV5TUg4UEs2Zy1WVmExLTZWSGg3X2dRMjV5NDh1bEw2eS05QzQ",
     "CBMijwFBVV95cUxPQ1F3SUprNzltUEc0bUFEeS14YmNUVFYzcWI3Sy03cFd6ZnlGbmF3VlM1bXJwUThxUm1tTlBWRGJmVE5ZTWZFQ3djN2tJeUFFYTJTN2c5a09VZ3NFTjY4WGpTMWw3QUtUbXNnYk1FU3ctZWYzcHFXOHVWZlhoWmJoU2dhWF81bjdYYlZxeWFvcw",
-    "CBMiiwFBVV95cUxPMG01WnloYlhWYlR6T3BkVFA2ZmE0dFBEUzBfNmNxOWVia2xFRDZYV1REUnk0bWtkMkk3MGRTWi1mcEtMNDZqYkVtakpPM043SDhUajl5bllrdHpPWVhnOXlCSFduRmR5YXpZdkJfN2NJT19XUzBiajZIdnR4akstd1RQbjQyYnY3MDg4"
+    "CBMiiwFBVV95cUxPMG01WnloYlhWYlR6T3BkVFA2ZmE0dFBEUzBfNmNxOWVia2xFRDZYV1REUnk0bWtkMkk3MGRTWi1mcEtMNDZqYkVtakpPM043SDhUajl5bllrdHpPWVhnOXlCSFduRmR5YXpZdkJfN2NJT19XUzBiajZIdnR4akstd1RQbjQyYnY3MDg4",
+    "CBMikwFBVV95cUxNU1kyb1Q3ZERpUDQ0bnBHWE5tT3FsazVtZXF2Q2FJNVVBeHAwVGRLSzVXZFZ1LUtJaVR0UHhQejN3cndpT0VJSUVBN0tqNFhEemRKU2VUMUk5Y2pSTkZKU2hIRlZTemp4bjVOVTFYVDRraWY1elhHNEN1Y1g4eDRUTGdEbnF0OEtWUndFaGNfQmkyZWs"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 109,
-    "staged": 4,
+    "ai": 110,
+    "staged": 5,
     "prio": 3,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-13T23:01:55.595688+00:00",
-      "t": "Joshua Van out to prove UFC title win over Alexandre Pantoja was no fluke",
-      "names": [
-        "van",
-        "pantoja"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-14T00:57:01.959914+00:00",
       "t": "Islam Makhachev claims cheater Jon Jones is excluded from GOAT conversation",
@@ -6861,6 +6858,15 @@
         "velasquez"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-24T18:42:18.034856+00:00",
+      "t": "Yoel Romero, 49, reveals shock retirement timeline ahead of BKFC fight vs Till",
+      "names": [
+        "romero",
+        "till"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -6932,22 +6938,24 @@
     "120ff51b057e6db4": 1790205916.5876274,
     "4a74ddff5d9a7329": 1790213091.9228594,
     "3892ca1ac0be0f79": 1790235187.3533049,
-    "5d3b5e1561ff6cef": 1790256436.1722145
+    "5d3b5e1561ff6cef": 1790256436.1722145,
+    "b2c89df352ffff83": 1790275336.77986
   },
   "pinged_titles": [
-    [
-      "Justin Gaethje is 100% sure who his next opponent will be if he opts against retirement",
-      1790235187.3533049,
-      [
-        "gaethje"
-      ]
-    ],
     [
       "Tyson Fury vs. Anthony Joshua date, location officially announced",
       1790256436.1722145,
       [
         "fury",
         "joshua"
+      ]
+    ],
+    [
+      "Yoel Romero, 49, reveals shock retirement timeline ahead of BKFC fight vs Till",
+      1790275336.77986,
+      [
+        "romero",
+        "till"
       ]
     ]
   ]
