@@ -1,5 +1,6 @@
 {
   "seen": {
+    "56ee429c9dd848f5": 1790256289.1542816,
     "0f03340370a08745": 1790256264.6913378,
     "6e7512f031522c70": 1790238048.0562766,
     "2d52973c4d1693ba": 1790238047.5775485,
@@ -2498,8 +2499,7 @@
     "30a9c2c0368039f6": 1789738965.8651428,
     "8565dcb8449cfdd7": 1789738965.5953915,
     "8abf943429962727": 1789738965.592131,
-    "7c3f8dbb2328544e": 1789738901.0485992,
-    "7d8e8ab9066d1756": 1789738835.9195876
+    "7c3f8dbb2328544e": 1789738901.0485992
   },
   "initialized": true,
   "v": 4,
@@ -4597,16 +4597,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-23T13:45:00+00:00",
       "cluster": "cdf58e1bfbd"
+    },
+    {
+      "t": "Morning Report &#124; Raul Rosas Jr. still aiming to be youngest UFC champion, retire by 25",
+      "source": "MMA Fighting",
+      "ts": "2026-09-24T04:51:39+00:00",
+      "cluster": "c81dd4790d8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T13",
-    1
+    2
   ],
   "yt_eval": [
-    "8e776d2b-13c1-3be4-b7d3-20213931add1",
     "e385d721-3e80-33d6-8897-55928e0f27e8",
     "https://www.mmamania.com/?p=471845",
     "fa0eb881-ac8c-3b55-a0b9-5d19e74fa185",
@@ -6105,11 +6110,12 @@
     "CBMiigFBVV95cUxPX1UxTVg2Y216ZldfUkVPTTlPdXF0UV95MGhiTlpfXzdzUXNlcHdZQUgzcmdvcEsyOXB2ZzB0cE4zYllhekRJLWdfZzR2V0pseEh1emxDMThpUFNhOFJsWVM1NTBtQVpmbkVYelhEMVZvMUNtd0EzdGE0YjVwRnhEM0tCcDg2MWkxaWc",
     "CBMibEFVX3lxTE5wZUNrWHB1TjRYcURuNktuaVZ6cUQtUkdDQmt0MWhoWk1TWVpEU0xnd0Y5bGFwc2lFWnI5R3NLM0hvaDJaV3I0VUxPUFFpTExTUVlHZm5mYzdIYjV6MDNYdEJxQmQwNGJvZUxHbw",
     "CBMiiAFBVV95cUxOVXF0cUNLYjdrVjUweldUTDUtdzl4NFc5MzV3WTVuM1BXQ2lVWlJhczM5eERrdnZEdklLalRYN0pwMXlqMlAzNE9lVF9SVGJBYWJ1VkFIM0sweWdVTEc5NVpxQzRVNVRwcWZfVUh0N041cFVjemcxS0lnblEyOEpIWWM0dmUyQ1gx",
-    "https://www.mmafighting.com/?p=512018"
+    "https://www.mmafighting.com/?p=512018",
+    "https://www.mmafighting.com/511643/dnp-morning-report-template-dnp"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 53,
+    "ai": 54,
     "staged": 2,
     "prio": 3,
     "lost": 0
