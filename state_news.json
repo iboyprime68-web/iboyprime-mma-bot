@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5d3b5e1561ff6cef": 1790256436.930324,
     "f704b42ebffa7b74": 1790256412.6217966,
     "7fb0edc1b75898a2": 1790256387.1396444,
     "061b05c727c0a2e0": 1790256362.366803,
@@ -2498,8 +2499,7 @@
     "a1bc486995603bdc": 1789739299.000284,
     "d401e8111872130e": 1789739298.9984348,
     "005556581c016210": 1789739229.5931482,
-    "9a3681b4201f0dd9": 1789739229.3450534,
-    "9560d694299476ee": 1789739229.325221
+    "9a3681b4201f0dd9": 1789739229.3450534
   },
   "initialized": true,
   "v": 4,
@@ -4633,16 +4633,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T12:30:00+00:00",
       "cluster": "c266bf388b9"
+    },
+    {
+      "t": "Tyson Fury vs. Anthony Joshua date, location officially announced",
+      "source": "MMA Fighting",
+      "ts": "2026-09-24T13:08:35+00:00",
+      "cluster": "c1b9291e817"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T13",
-    7
+    8
   ],
   "yt_eval": [
-    "51f008bb-b2a7-33d1-8659-64b934855800",
     "https://www.mmamania.com/471619/highlights-open-noche-ufc-4",
     "dcc9a045-2f7f-3290-913e-218b4b23b4f9",
     "3cf12f78-6c28-32fe-bc5e-84f8b99e0934",
@@ -6141,30 +6146,17 @@
     "f5b1d4c6-20db-369a-9894-21c4029c0fb1",
     "https://bloodyelbow.com/?p=333429",
     "https://bloodyelbow.com/?p=333415",
-    "CBMihwFBVV95cUxPUjVid1d1bHhpN3ZkVi10UFZOUlJlOTJSR1ExSlR2RWlXWmhhLXN3NE5IVmFDNDRyRjFva1NoRjVpR0xpMHdzUjJ2OVlZaEJ2aGR3Qnp5ek94YkJIMVRBWVFUT0pBSzNPSVZmM3pSanEzOUFzV25vS241d1A2MHhVdWhwamJ2bjg"
+    "CBMihwFBVV95cUxPUjVid1d1bHhpN3ZkVi10UFZOUlJlOTJSR1ExSlR2RWlXWmhhLXN3NE5IVmFDNDRyRjFva1NoRjVpR0xpMHdzUjJ2OVlZaEJ2aGR3Qnp5ek94YkJIMVRBWVFUT0pBSzNPSVZmM3pSanEzOUFzV25vS241d1A2MHhVdWhwamJ2bjg",
+    "https://www.mmafighting.com/?p=512236"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 59,
-    "staged": 2,
+    "ai": 60,
+    "staged": 3,
     "prio": 3,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-13T14:28:51.602791+00:00",
-      "t": "Chimaev May Take Career Break If UFC Fails to Find Opponent This Year",
-      "names": [
-        "chimaev",
-        "may",
-        "take",
-        "career",
-        "break",
-        "fails",
-        "opponent"
-      ],
-      "img": "cutout:khamzat-chimaev"
-    },
     {
       "ts": "2026-09-13T20:35:30.242185+00:00",
       "t": "Arman Tsarukyan in do-or-die situation at UFC 331: ‘If I lose this fight, I’m never going to see a title fight’",
@@ -6936,6 +6928,17 @@
         "tsarukyan"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-24T13:27:17.619834+00:00",
+      "t": "Tyson Fury vs. Anthony Joshua date, location officially announced",
+      "names": [
+        "fury",
+        "joshua",
+        "december",
+        "cardiff"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7006,7 +7009,8 @@
     "46d78c60df9ad77e": 1790204473.766162,
     "120ff51b057e6db4": 1790205916.5876274,
     "4a74ddff5d9a7329": 1790213091.9228594,
-    "3892ca1ac0be0f79": 1790235187.3533049
+    "3892ca1ac0be0f79": 1790235187.3533049,
+    "5d3b5e1561ff6cef": 1790256436.1722145
   },
   "pinged_titles": [
     [
@@ -7014,6 +7018,14 @@
       1790235187.3533049,
       [
         "gaethje"
+      ]
+    ],
+    [
+      "Tyson Fury vs. Anthony Joshua date, location officially announced",
+      1790256436.1722145,
+      [
+        "fury",
+        "joshua"
       ]
     ]
   ]
