@@ -1,5 +1,7 @@
 {
   "seen": {
+    "80ee4ad0a136a4bb": 1790288005.8261187,
+    "9e650b0be851bcd7": 1790288005.4644437,
     "cf04de8df6a88545": 1790287962.7697558,
     "6540785992abc469": 1790287896.2302291,
     "95ec77a25b92902f": 1790287895.9139438,
@@ -2497,9 +2499,7 @@
     "6a7886dbd24aabc7": 1789764300.396374,
     "54c51a8ea7b71fe2": 1789764300.3945973,
     "53b4be699a5e63cd": 1789764277.0345113,
-    "a273122f9fd445e7": 1789764233.3241682,
-    "c6a9fbc8b8ab72ca": 1789764167.9239507,
-    "8d2085fb2b881ac1": 1789764103.007777
+    "a273122f9fd445e7": 1789764233.3241682
   },
   "initialized": true,
   "v": 4,
@@ -4561,13 +4561,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T19:36:11+00:00",
       "cluster": "cf234d65acd"
+    },
+    {
+      "t": "UFC BJJ 11’s Mikey Musumeci trained with a dog shock collar for Bryce Mitchell because his infamous leg locks ‘are gay’",
+      "source": "MMA Mania",
+      "ts": "2026-09-24T22:01:48+00:00",
+      "cluster": "c5556d31778"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T22",
-    9
+    10
   ],
   "yt_eval": [
     "CBMimwFBVV95cUxPOUl1dEl2V21YdC0zTnJpZ3BXeHZJT3JQSnZjTGQ2MWpvOXlzaGpQS0FtRk5oMXNMcE5OeGVoNWYxZ1I1ZWVHMEo1dmVfaFE4V3JQNGF5aVprRHQzUlNra2xaLWlNb2JBOHJrSTQ4bDhuTmUwM3BuZ0pHUmU4UVFiRHpyZGRXQWxpVDB2bV9nUkdMcmdVcEd3dm9MRQ",
