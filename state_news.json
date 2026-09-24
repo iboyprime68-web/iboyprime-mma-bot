@@ -1,5 +1,6 @@
 {
   "seen": {
+    "baea7a1f9bdde9d8": 1790293496.2346344,
     "f2108b584030995f": 1790293432.301014,
     "88677b0e726e23d7": 1790293432.0124202,
     "9ccec8dcd5468883": 1790293368.641189,
@@ -2498,8 +2499,7 @@
     "6bda47ac7ca2545e": 1789772899.5364094,
     "7b3ad0ea740349b2": 1789772876.8688245,
     "ecd270cb365f3acd": 1789772854.4693823,
-    "262850a53c8f6fb6": 1789772853.8660278,
-    "3e2ab4350b18cedb": 1789767149.144541
+    "262850a53c8f6fb6": 1789772853.8660278
   },
   "initialized": true,
   "v": 4,
@@ -4669,13 +4669,19 @@
       "source": "heavy.com",
       "ts": "2026-09-24T23:17:12+00:00",
       "cluster": "ce8b90b6967"
+    },
+    {
+      "t": "Fight news: Jacobe Smith booked against Octagon newcomer for UFC 332",
+      "source": "MMA Mania",
+      "ts": "2026-09-24T23:19:13+00:00",
+      "cluster": "ce44352399e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T23",
-    6
+    7
   ],
   "yt_eval": [
     "CBMi0gFBVV95cUxNVTUxRW5vN2lWWUJlSnNRaVFNSlVmUHIyLVJLNlJZV3NVa1JmQ1BlMXB1RW96eVlBVjBMREw3ZHZQM01ONTdPczBsUU8ydlA5dkd3RmkwNGdEZFZ1aTFjeUtVSC1sQVBXUks3enE1bUNGX3Z2bkljWXU2ZzJ1Z2E2M2VIamp3S2JkQlo4TlVqUWZyRjUxN0JBUjVhVFhVWGlPczhELXAtRWkxNXNMMFZFZlVWM1VNWjlhNXM4d2FRWERLUjlYMjU1V2hlSnNWajQtYWc",
