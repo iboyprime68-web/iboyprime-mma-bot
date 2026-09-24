@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3ec5c23acf97d9cf": 1790234802.7633495,
     "8a80fe6e087ee61a": 1790234779.0752711,
     "36dcea27d83b1992": 1790234754.7566893,
     "91e1218ffe63e53d": 1790215766.4376328,
@@ -2498,8 +2499,7 @@
     "ebfcdac790a52f6f": 1789721921.900631,
     "cb25bc4245bad822": 1789721856.943657,
     "53dd6629e6e77958": 1789721792.0273619,
-    "e548da80095fb137": 1789721791.7241204,
-    "2aae2bfd746e0b26": 1789721727.5839088
+    "e548da80095fb137": 1789721791.7241204
   },
   "initialized": true,
   "v": 4,
@@ -4603,16 +4603,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-24T03:30:00+00:00",
       "cluster": "cd70ed02ee8"
+    },
+    {
+      "t": "Darren Till says he’s ‘really open’ to fighting Michael Venom Page following his shock UFC release",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-24T05:00:00+00:00",
+      "cluster": "c3a16e87a90"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T07",
-    2
+    3
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509906",
     "077a811d-df89-3ee1-9699-d5a5279a0e58",
     "https://bloodyelbow.com/?p=331288",
     "https://bloodyelbow.com/?p=331357",
@@ -6111,11 +6116,12 @@
     "CBMilgFBVV95cUxNNVBMOFV0eVl5bkdJNGRBb1VCTjRUeUZvM1pLSVZOOTIyemNkQzZpVTd2M1hPRXhwYWdPeDFoY29vdE5sTE12SHRVX0txX3IwLTlFOVVUeTVkUG54ajBFaVBsM0g3M2JYdC16TjFkM0lsTXJwT0VtOTVxTFFMaGNKc2ZTLUFUcU5WMm9lQjJvdzNuYUNQRkE",
     "CBMikAFBVV95cUxOSldSamJMeGJHTXRKM09lQkFSNlB6aGVGZjlaQm5pMjU3clE5WXlWYXpYWEhOV2F5ZUJfXy1pTUEwNzc3bU1vUDlBT3djNi00cmVVRlJ6UDlLcVhIaXEwMWJ6dG44dTU0dmhxaVo3QmltWG5jSDEzU3o2RGhxcEFtNmZZeGl2c0hmLXNwd0hoOWo",
     "https://www.mmafighting.com/?p=512181",
-    "https://bloodyelbow.com/?p=333299"
+    "https://bloodyelbow.com/?p=333299",
+    "https://bloodyelbow.com/?p=333341"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 24,
+    "ai": 25,
     "staged": 1,
     "prio": 1,
     "lost": 0
