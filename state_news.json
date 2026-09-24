@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f205efa77bff87fb": 1790212518.924969,
     "a473a9377d6fc791": 1790212491.5973682,
     "7553e0807ed9dd74": 1790212490.883993,
     "31b50290e18193f0": 1790212490.8807642,
@@ -2498,8 +2499,7 @@
     "f5bec46b5a82685e": 1789704384.2672281,
     "1c9796fc60cc123e": 1789704383.789082,
     "1c28ccc1fe1a1f4d": 1789704317.3138602,
-    "fbd3488dde7038a9": 1789704253.1606956,
-    "ce1d187c5de8f07b": 1789704188.9180431
+    "fbd3488dde7038a9": 1789704253.1606956
   },
   "initialized": true,
   "v": 4,
@@ -4717,16 +4717,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-23T23:53:08+00:00",
       "cluster": "c1a94854587"
+    },
+    {
+      "t": "‘Not a fighter’… Gable Steveson gets brutal reality check from Usman Nurmagomedov after UFC 331",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-24T00:30:00+00:00",
+      "cluster": "c11b3863e56"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T01",
-    1
+    2
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331273",
     "7457720b-6d68-31ed-b98a-24e415159cc5",
     "4ef7fedf-20d6-3818-af6e-9bf8d358ad06",
     "https://www.mmamania.com/471465/open-thread-september-11-2026-do-you-play-fantasy-sports",
@@ -6225,11 +6230,12 @@
     "CBMifEFVX3lxTE5rdVZWNG1OQlhsOE5uVmhLVXVrLWpScTNzTHRYUHJqLS0xcGtEdDg3clZJbjBLR3ZhS1dVWmV2Mkxpa05pY3VyWTZLbDFnS09TeDBHbzVnWTFnSlluZWMtRFlNSGRXSlE1OG1aXzBZUlZNZDVhVjBtaVhqd0M",
     "CBMickFVX3lxTE1Lc2Y4M25Qd2FKUXhLV3ZOWWZNa0tnWWhjQzY3LWRHWkFXU2h1NXF3a08yeWVCR3U5UGIyYWwyOGo5NEhlcjBncE9CeWNud1ZDc0xTM0dBZmNZTy01cHQtNnYxS05ieWpkMkdlWW8tazFKQQ",
     "CBMiuAFBVV95cUxQdDVTSk0tdzhlQW5pOU40bE5uUURWZk9ZYTdtYmd3T1V2SExLRzZYN1VpcTlxVUw3bk85SGVMN1JHSll5TVZZZHBwcUhEVFFGanRYMC1QaFBLbllqOEVLeFhHZXFwTGFvdDIzel90ZDA1cE1SVjhmVWtZZUlmMVhybDhRN2NLLUxCeHpLdFFQZU1OV29DXzJ0dmVEUWN1MWxrcUIzd0dLM1JyTlpZdmFicERBUV9LeW54",
-    "a33506b9-69c8-486d-8300-7c5f697d1e72"
+    "a33506b9-69c8-486d-8300-7c5f697d1e72",
+    "https://bloodyelbow.com/?p=333309"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 1,
+    "ai": 2,
     "staged": 1,
     "prio": 0,
     "lost": 0
