@@ -221,6 +221,13 @@ def sync_channels(chans_by_name, cat_ids, staff_ids, everyone, owner_uid=""):
             out[spec.name] = live["id"]
             continue
 
+        if getattr(spec, "adopt_only", False):
+            # the owner names this one by hand: not finding it means he renamed
+            # or removed it, and creating it would put a duplicate in front of
+            # every member (deploy #56 did exactly that)
+            note("left alone (owner-named, not found under this name): " + spec.name)
+            continue
+
         body = {"name": spec.name, "type": spec.ctype, "parent_id": parent}
         if spec.ctype in (layout.TEXT, layout.NEWS, layout.FORUM) and spec.topic:
             body["topic"] = spec.topic
