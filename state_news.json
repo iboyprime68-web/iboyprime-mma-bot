@@ -1,5 +1,6 @@
 {
   "seen": {
+    "289edbabcaa75e7f": 1790237852.5417876,
     "7b7dd62c97a9e1ba": 1790237787.5994394,
     "cc540ae1fd956756": 1790237660.9438465,
     "9c3902d497114d9a": 1790237470.879268,
@@ -2498,8 +2499,7 @@
     "714a00724b4def95": 1789738835.2285967,
     "a35bc97ff6ff3f3e": 1789738769.3637002,
     "c77d49f0d0316e29": 1789738704.5231001,
-    "2c0bbe7362be281a": 1789738704.2071078,
-    "3141e03f11de0c77": 1789738704.198804
+    "2c0bbe7362be281a": 1789738704.2071078
   },
   "initialized": true,
   "v": 4,
@@ -4747,16 +4747,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-24T08:15:19+00:00",
       "cluster": "c02a209a062"
+    },
+    {
+      "t": "Darren Till doubts he can retire Yoel Romero at BKFC 94",
+      "source": "MMA Sucka",
+      "ts": "2026-09-24T08:15:22+00:00",
+      "cluster": "c9966259582"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T08",
-    6
+    7
   ],
   "yt_eval": [
-    "f9717cd7-84d1-327f-9b0d-aac8e295ddf0",
     "https://www.mmamania.com/471683/ufc-paris-results-sooo-about-last-night-hooker-vs-parnasse",
     "b8e834da-150b-3311-8214-b11935aa97d1",
     "da837aad-06cd-3dbd-88a3-d16d13ae8334",
@@ -6255,11 +6260,12 @@
     "CBMiU0FVX3lxTE1HRm1YejI2YUVJeUNVNGpkSGhYdUczVlFkMHpEWDBoQW0xMVJMbS1HNEltaXhoZU5uMmJiUVhmXy00TmFkb0R4WXNMclpjQ3JIZWxz",
     "CBMiswFBVV95cUxOQm9rVXlnN1owQVFQa3g0R0hPYWh3QlRrTF9pTm1OQjQzeU9jejdDREdpejZXRjZPdFE0YWM5b29fam15RkpHNTNvRzc1MXd2MEhwMmZUdDViSmJ3WlFTNXlPbnIxMFlUQlEwWUc2TkNLUkEyQUFUTGh0US03UDVncjhBb1VGLVprY3plZUFveXctMHVRdi1XU3dDSHUtN1RxNjlKMG9xNnlsWGNnZnQwYnAzYw",
     "CBMiyAFBVV95cUxOTEN4R0s1Wm9hTzdoNFY4MlNnX0taNVJjUVN5YUU4MXd4ZmV2NmNGMzBoR2VTdXhPa2x6eEQydUZZVzlVTmc3ejlqSkQtWWptb0R0aDA1NnBFMkVNWm1IX0N3Snh2QmNVOE9pRTZJRDFBdFV5QTFiUG9CWHhObHdLajdSelZER0FKZ2s1ekwxT2d2NXRHaU9vaHF5UGRFNmF2aEFVcWFFTjljNmNFNm1qdUgxbXhoNVFnM0tqZWNHNWxCQjVKVUhhVg",
-    "CBMiowFBVV95cUxPdmozeHlpVU12aklheTdMWFRPNXU4enI1UnZNUExCY1VNUzV3NFlReGhvcXFwMGdhWUJ2Wk1HUy1wLVNKaEp4Mll6YnRBT3F5RWFSbHpHQTZWTG80YUotQnZQRXBEaF85ZUU4Ul9DNTZ2ZHJINFV2bHVzWnR5V24ycEF0enlvSE5aUEF0UlJrUFotMWVEMmt2LU1aSDRoNjRaVG44"
+    "CBMiowFBVV95cUxPdmozeHlpVU12aklheTdMWFRPNXU4enI1UnZNUExCY1VNUzV3NFlReGhvcXFwMGdhWUJ2Wk1HUy1wLVNKaEp4Mll6YnRBT3F5RWFSbHpHQTZWTG80YUotQnZQRXBEaF85ZUU4Ul9DNTZ2ZHJINFV2bHVzWnR5V24ycEF0enlvSE5aUEF0UlJrUFotMWVEMmt2LU1aSDRoNjRaVG44",
+    "CBMiigFBVV95cUxPX1UxTVg2Y216ZldfUkVPTTlPdXF0UV95MGhiTlpfXzdzUXNlcHdZQUgzcmdvcEsyOXB2ZzB0cE4zYllhekRJLWdfZzR2V0pseEh1emxDMThpUFNhOFJsWVM1NTBtQVpmbkVYelhEMVZvMUNtd0EzdGE0YjVwRnhEM0tCcDg2MWkxaWc"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 49,
+    "ai": 50,
     "staged": 2,
     "prio": 3,
     "lost": 0
