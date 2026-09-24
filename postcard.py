@@ -201,6 +201,9 @@ STYLE = {
                                  # purple lives ONLY in type/chips/insets
     "news_side_scrim": 0.12,     # left/right darkening - buries edge clutter
     "news_top_scrim": 0.15,      # light lid so status bars never wash the top
+    "news_clarity": 0.20,        # wide-radius local contrast after the photopick
+                                 # grade (Sept 24 2026): faces and muscle read at
+                                 # thumbnail size without a small-radius halo
     "news_seam_tint": 0.16,      # seam color: ink mixed toward accent_deep.
                                  # 0.32 washed the whole lower half violet and
                                  # ate the skin tones - the seam is near-black
@@ -517,7 +520,9 @@ def _load_photo(source):
     if isinstance(source, Image.Image):
         return source.convert("RGB")
     try:
-        return Image.open(source).convert("RGB")
+        # EXIF orientation applied: photopick measured its face boxes on the
+        # upright image, so a sideways phone photo must be framed upright too
+        return ImageOps.exif_transpose(Image.open(source)).convert("RGB")
     except Exception:
         return None
 
@@ -1272,9 +1277,12 @@ def _context_chip(img, cx, cy, text, color=None):
 
 def _hot_norm(word):
     """Uppercased core of a display token: edge punctuation stripped so a
-    token like "GARRY," still matches the hot word "garry". Pure."""
-    return "".join(ch for ch in str(word or "")
-                   if ch.isalnum() or ch == "'").upper()
+    token like "GARRY," still matches the hot word "garry" - and edge quotes
+    and a possessive too, so "PAGE'S" and "'VENOM'" match "Page" and "Venom"
+    (Sept 24 2026: a surname in the possessive was never highlighted). Pure."""
+    core = "".join(ch for ch in str(word or "")
+                   if ch.isalnum() or ch == "'").upper().strip("'")
+    return core[:-2] if len(core) > 2 and core.endswith("'S") else core
 
 
 def _is_hot(word, hot):
@@ -1644,21 +1652,51 @@ def _quote_marks(img, cx, cy, size, color=None):
 
 
 # ---- templates -------------------------------------------------------------
-def _news_photo(photo, W, H):
-    """News photo prep: cover crop, PUNCH IN so the subject's face carries
-    the frame, then a light cinematic grade - contrast up, color down, a
-    whisper of the brand accent in the shadows - plus side scrims and a soft
-    top scrim to bury cage clutter. The bottom is left for _crush_bottom."""
-    base = _enhance_photo(cover_crop(photo, W, H))
-    z = STYLE["news_zoom"]
-    if z > 1.001:
-        w2, h2 = int(W / z), int(H / z)
-        cx = W / 2
-        cy = max(h2 / 2, min(H - h2 / 2, H * STYLE["news_zoom_cy"]))
-        box = (int(cx - w2 / 2), int(cy - h2 / 2))
-        base = base.crop((box[0], box[1], box[0] + w2, box[1] + h2))
+def _news_photo(photo, W, H, faces=None, grade=None):
+    """News photo prep: frame the subject, grade it, then side scrims and a
+    soft top scrim to bury cage clutter. The bottom is left for the seam.
+
+    FRAMING (Sept 24 2026). With face boxes (photopick.detect_faces, carried
+    in spec["faces"] as fractions of the photo) the crop is built AROUND the
+    faces by photopick.smart_crop - the same function the studio mirrors - so
+    the subject's face sits in the upper third, clear of the type, at a size
+    the source can actually support. Without faces the old framing stands:
+    cover crop at focal y 0.30, then the 1.32 punch-in.
+
+    GRADE. spec["grade"] ({"look", "gamma", "strength"}) runs photopick's
+    per-pixel grade (auto exposure, S-curve, vibrance, shadow/highlight split
+    tone) plus a wide-radius clarity pass. Without it the old warm grade runs,
+    so an older caller renders exactly as before."""
+    import photopick
+    if faces:
+        x0, y0, cw, ch = photopick.smart_crop(photo.width, photo.height, faces, W, H)
+        base = photo.convert("RGB").crop((int(round(x0)), int(round(y0)),
+                                          int(round(x0 + cw)), int(round(y0 + ch))))
         base = base.resize((W, H), RESAMPLE)
-        base = _sharpen(base, 80).convert("RGB")
+        if ch < H * 0.92:
+            # the source is being stretched; put a little bite back
+            base = _sharpen(base, min(120, int(60 + 60 * (H / max(1.0, ch) - 1)))).convert("RGB")
+    else:
+        base = _enhance_photo(cover_crop(photo, W, H))
+        z = STYLE["news_zoom"]
+        if z > 1.001:
+            w2, h2 = int(W / z), int(H / z)
+            cx = W / 2
+            cy = max(h2 / 2, min(H - h2 / 2, H * STYLE["news_zoom_cy"]))
+            box = (int(cx - w2 / 2), int(cy - h2 / 2))
+            base = base.crop((box[0], box[1], box[0] + w2, box[1] + h2))
+            base = base.resize((W, H), RESAMPLE)
+            base = _sharpen(base, 80).convert("RGB")
+    if isinstance(grade, dict) and grade.get("look"):
+        p = photopick.grade_params(grade.get("look"), grade.get("gamma", 1.0),
+                                   grade.get("strength", 1.0))
+        base = photopick.apply_grade(base, p)
+        base = photopick.clarity(base, STYLE["news_clarity"] * float(grade.get("strength", 1.0)))
+        s = STYLE["news_side_scrim"]
+        if s > 0:
+            base = scrim(base, "right", s, gamma=2.6)
+            base = scrim(base, "left", s, gamma=2.6)
+        return scrim(base, "down", STYLE["news_top_scrim"])
     # warm, natural grade (owner rule: the purple lives ONLY in type, chips
     # and insets - the photo itself never gets the accent duotone) and the
     # subject stays LIT: the seam gradient supplies the type contrast now,
@@ -1736,6 +1774,21 @@ def _news_cutout(base, cut, hy, cw=None, tint_amt=0.0):
     return hold.convert("RGB")
 
 
+def _spec_faces(spec):
+    """spec["faces"] as clean [x, y, w, h] fraction boxes, or []. Junk (a
+    string, a short list, a value outside 0-1) is dropped box by box - a bad
+    box must never reach the crop maths. Pure."""
+    out = []
+    for f in (spec.get("faces") or [])[:4]:
+        try:
+            box = [float(v) for v in list(f)[:4]]
+        except (TypeError, ValueError):
+            continue
+        if len(box) == 4 and all(0.0 <= v <= 1.0 for v in box) and box[2] > 0 and box[3] > 0:
+            out.append(box)
+    return out
+
+
 def render_news(spec):
     """1080x1350 news poster: the photo fills the WHOLE canvas, warm and lit,
     melting through a TRANSPARENT purple-dark gradient into the type zone -
@@ -1768,7 +1821,8 @@ def render_news(spec):
     photo = _load_photo(spec.get("photo_path"))
     cut = None if photo is not None else _load_cutout(spec.get("cutout_path"))
     if photo:
-        base = _news_photo(photo, W, H)
+        base = _news_photo(photo, W, H, faces=_spec_faces(spec),
+                           grade=spec.get("grade"))
     else:
         # photoless: the att-8 wash - a bold colorway field with an arena
         # hidden inside it (owner law, Aug 2026: never a flat gradient).
