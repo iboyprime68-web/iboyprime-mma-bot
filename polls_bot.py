@@ -36,6 +36,8 @@ so the questions accumulate as a bank rather than expiring after two days.
 
 Std-lib only at import time.
 """
+import json, re
+
 import common, newsconfig, pollgen
 
 STATE_FILE   = "state_polls.json"
@@ -107,10 +109,26 @@ def option_line(opt):
     return ("%s %s" % (emoji, label)).strip()
 
 
+def poll_fence(entry):
+    """The ```json block the Worker parses for the studio's poll workshop
+    (worker.js parsePollOne): the question, each option with its picture
+    idea, and the gag for "Other". ASCII-escaped, so emoji ride as \\u
+    escapes and the message itself stays plain. Pure."""
+    opts = []
+    for o in (entry.get("options") or [])[:OPTION_COUNT]:
+        opts.append({"label": " ".join(str(o.get("label") or "").split())[:40],
+                     "emoji": str(o.get("emoji") or "").strip()[:8],
+                     "art": " ".join(str(o.get("art") or "").split())[:pollgen.ART_MAX]})
+    data = {"q": " ".join(str(entry.get("q") or "").split())[:200], "options": opts,
+            "gag": " ".join(str(entry.get("gag") or "").split())[:pollgen.ART_MAX]}
+    return json.dumps(data, ensure_ascii=True)
+
+
 def build_spec(entry, origin):
     """The staged studio message: the poll at a glance plus a paste-ready
-    block for the YouTube poll composer. `origin` says where the question
-    came from ("question 3 of 60" / "written fresh for this slot"). Pure.
+    block for the YouTube poll composer, then the ```json fence the studio
+    reads. `origin` says where the question came from ("question 3 of 60" /
+    "written fresh for this slot"). Pure.
 
     NOTE the header must never read "Staged post" - that exact phrase is the
     Worker's staged-NEWS filter (parseStaged), and polls must not enter the
@@ -122,8 +140,27 @@ def build_spec(entry, origin):
             "%s\n%s\n\n"
             "Paste into the YouTube poll composer:\n"
             "```\n%s\n```\n"
-            "Swap or trim options freely. The question is the engine."
-            % (origin, q, "\n".join(lines), block))
+            "Swap or trim options freely. The question is the engine.\n"
+            "```json\n%s\n```"
+            % (origin, q, "\n".join(lines), block, poll_fence(entry)))
+
+
+def studio_link(chan, resp, body):
+    """PATCH a just-staged poll to append its own open-in-the-studio link,
+    exactly like ytposts' deep link but with #p= (the studio's POLLS tab).
+    The message id only exists after the POST. Fail-silent: a missing url, a
+    non-dict response or an over-long body leaves the message as it is."""
+    try:
+        mid = str((resp or {}).get("id") or "") if isinstance(resp, dict) else ""
+        surl = str(newsconfig.load().get("studio_url") or "").strip()
+        if (not mid or not surl.startswith("https://")
+                or re.search(r"[\s<>#]", surl)):
+            return
+        extra = "\nMake the images in the studio: <%s#p=%s>" % (surl, mid)
+        if len(body) + len(extra) <= 1990:
+            common.edit_message(chan, mid, body + extra)
+    except Exception:
+        pass
 
 
 def build_post_spec(text, origin):
@@ -204,12 +241,18 @@ def main():
     state["staged_at"] = (state["staged_at"] + [now.isoformat()])[-STAMP_CAP:]
     state["asked"] = (state["asked"]
                       + [" ".join((entry.get("q") or "").split())])[-pollgen.ASKED_CAP:]
+    # the "Other (comment below)" tile always has a picture idea: the model's
+    # gag when it wrote one, else a curated one picked by the question
+    if entry.get("type", "poll") == "poll" and not entry.get("gag"):
+        entry = dict(entry, gag=pollgen.pick_gag(entry.get("q")))
     state["last_entry"] = {
         "q": " ".join((entry.get("q") or "").split()),
         "type": entry.get("type") or "poll",
         "options": [{"label": (o.get("label") or "").strip(),
-                     "emoji": (o.get("emoji") or "").strip()}
+                     "emoji": (o.get("emoji") or "").strip(),
+                     "art": (o.get("art") or "").strip()}
                     for o in (entry.get("options") or [])[:OPTION_COUNT]],
+        "gag": entry.get("gag") or "",
     }
     common.save_json(common.state_path(STATE_FILE), state)
     common.persist_state(STATE_FILE)
@@ -225,11 +268,12 @@ def main():
         return
 
     body = build_spec(entry, origin)
-    code, _ = common.post_message(chan, body, silent=True)
+    code, resp = common.post_message(chan, body, silent=True)
     if code not in (200, 201):
         print("stage failed: HTTP %s (slot already stamped; the next slot "
               "stages fresh)" % code)
         return
+    studio_link(chan, resp, body)
     print("staged poll (%s): %s" % (_ascii(origin),
                                     _ascii(entry.get("q", ""))[:70]))
 
