@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8ec97a92ec5bb2f5": 1790257233.232777,
     "01841b32daaaf802": 1790257208.0445077,
     "8bc455e1ce905766": 1790257207.0159614,
     "cbde5251d2e2f1e9": 1790257164.0046372,
@@ -2498,8 +2499,7 @@
     "fb8fe91a3c74a6f4": 1789740585.204296,
     "a74789a1aaa24440": 1789740459.3260686,
     "b6dfc29ee6f51b2c": 1789740393.797638,
-    "a925ff0cf9991dc2": 1789740142.6869256,
-    "13cc437481fc25e9": 1789740142.6847224
+    "a925ff0cf9991dc2": 1789740142.6869256
   },
   "initialized": true,
   "v": 4,
@@ -4699,16 +4699,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-24T12:06:35+00:00",
       "cluster": "cc231a27e5c"
+    },
+    {
+      "t": "UFC Vegas 121 preview: Light on names, high on stakes",
+      "source": "Sportsnet.ca",
+      "ts": "2026-09-24T13:38:00+00:00",
+      "cluster": "c205f25d490"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T13",
-    19
+    20
   ],
   "yt_eval": [
-    "6288ddce-a076-3b0c-857c-fdc61e378b6d",
     "https://bloodyelbow.com/?p=331439",
     "https://bloodyelbow.com/?p=331433",
     "c8287f0b-9c80-3e18-8ffd-4848b6bc586f",
@@ -6207,11 +6212,12 @@
     "CBMi2AFBVV95cUxNT1N2cnFVVXZlbGt6VTR6SkZtTWg1TnlyN1FNUEJ6LXY0anI2VEFsQUJsRFVlUzZBSHpyR1dzbDMyNXc2VEs5cEVlR3ZsQ2l3aTJwX3N1eEIwSEpRYS1aWFNPanVVMl8xN0NBLUQ3VXUxVVlKaDVlWm4xRFNWakdBdkFFVGloX0RJX1N3S1N1YUJib0NqM0VNUW9EM0psOFR2aVpuUkdHZHRwWFZfaU4zWGdxVXk0LWhDeWFpSVFqOXdUbmRGRUZxMnV2MkxNZF9VSlVDV05wUkg",
     "CBMigwFBVV95cUxNUHZfY2VYUUlRNG9FaU5CeXVITjhESllEVWszQWNZV3E3dlBnekRLV3hJYnBGVHo3bDRaUzdWVWpyREZLN0twS042cFlUQWlGS3ZSYXQyYllXR2RaYUl5WXFnTFh6VzdjN1FKajdjd0tJbzVxd1Y2NFd5TDR1dXlFenRlVQ",
     "CBMiugFBVV95cUxPNVZxMGkySUFEc2dsanhCemhrdUNldzVtTGxleWJ4LXk5ODNDcWF4Y3NldFM3QlVZUlFOeDRfUnYtYU1DdWVGV1QyQm5vcGhXcmtfVUlUUV91TGdCeWZxdWxkOFVtelZ6d2txN3Itc1hrUm0ybVplcExYWGhlZFZzaXFCZ05IeWN6LThYVmw2Z3hFVnNNQW41REpxNDZLUS1kQTYtcmNLX0RDSWdOZDdOTUhSVUVpWkpyWEE",
-    "https://www.mmamania.com/474460/open-thread-september-23-2026-whats-your-opinion-on-tom-cruise"
+    "https://www.mmamania.com/474460/open-thread-september-23-2026-whats-your-opinion-on-tom-cruise",
+    "CBMikwFBVV95cUxPZjFtdEgxMFZtOHdleTBLWVpyWEp6empFOVVJSU56eEZOVGhuWkRkYnJLODNHdVZGMVFBTU03d0dNSkh6UnVyYUpkQTdqanJfOXNjZmEwR2E4ZVl5YTdJc3lwV1p4eUNPdWQ4SjE4Y1BkN2dvaDhxY1ppRGttakZ2a2pYZ2NfSWZfT0hnaTFGekRSUXM"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 71,
+    "ai": 72,
     "staged": 3,
     "prio": 3,
     "lost": 0
