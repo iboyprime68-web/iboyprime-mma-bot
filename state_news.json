@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6185fe9793c8ea9c": 1790235097.697848,
     "29aab7703f5123b9": 1790235052.6021419,
     "a339bf3847743923": 1790235052.2138288,
     "c3e0c51ac3583802": 1790235024.290672,
@@ -2498,18 +2499,11 @@
     "bc25a1d0eba13433": 1789722313.2767272,
     "151942d37c533dda": 1789722247.9974527,
     "91e05f1040ec8857": 1789722182.8134327,
-    "3eb76844599839a5": 1789722182.577404,
-    "481d9ea8f4692fa8": 1789722118.644023
+    "3eb76844599839a5": 1789722182.577404
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Mixed martial arts -- without the wire cage and the blood -- bids to make the Olympics",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-22T07:31:09+00:00",
-      "cluster": "c68768c6e4f"
-    },
     {
       "t": "Manel Kape eyes Joshua Van showdown with confident warning after UFC 331",
       "source": "MMA Sucka",
@@ -4639,16 +4633,21 @@
       "source": "MMA Mania",
       "ts": "2026-09-24T01:41:26+00:00",
       "cluster": "c77b862dd99"
+    },
+    {
+      "t": "UFC Vegas 121: Valesca Machado Explains \"Tina Black\" Persona",
+      "source": "Cageside Press",
+      "ts": "2026-09-24T06:52:28+00:00",
+      "cluster": "c351c1cc4bb"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T07",
-    8
+    9
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331363",
     "6ab690f0-f547-35ca-9b1d-35ceb771b1df",
     "https://www.mmafighting.com/?p=509992",
     "87ac77b8-04be-3c7a-a99a-bc37d04008c9",
@@ -6147,11 +6146,12 @@
     "a7da248f-f893-3925-947d-e89e40fc76e5",
     "978c07f6-7b37-3825-baa7-66e0b07d1539",
     "400ef0eb-38d2-3078-ad6d-53ad5398cd4c",
-    "https://www.mmamania.com/474413/mm-clone"
+    "https://www.mmamania.com/474413/mm-clone",
+    "CBMihAFBVV95cUxNRUFZSXJ4ZWZlbXdIc2hzVG9mbFB5d0lUUW80ek9ja1pUR3h1ZG5yRzFEeEVGMTg5aUdfeGp4blIzVi1PNlA1c0lZWkYtUG5aSTNvUDUzaF9pYlhlSzdJWHlfZ0pzLUNwTjJ5RVhUUmdRUTBtcXAtZ3pFUFp6ekJSYTJyU1A"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 30,
+    "ai": 31,
     "staged": 2,
     "prio": 1,
     "lost": 0
