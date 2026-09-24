@@ -1,5 +1,6 @@
 {
   "seen": {
+    "990a742f4910c3c1": 1790274920.677349,
     "662e2d0c80311295": 1790274876.7363405,
     "f774d56c255f2167": 1790274811.996893,
     "1dc920f517cf1478": 1790274747.4715953,
@@ -2498,8 +2499,7 @@
     "40221c16119fa292": 1789753935.1503308,
     "6c38ba97f5fadd9c": 1789753935.1455073,
     "491fab395c5a34a5": 1789753935.141179,
-    "17efd7e6ab246797": 1789753870.5365322,
-    "965a858b540197f3": 1789753847.5314653
+    "17efd7e6ab246797": 1789753870.5365322
   },
   "initialized": true,
   "v": 4,
@@ -4531,16 +4531,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T17:40:05+00:00",
       "cluster": "c7ba9b8abd2"
+    },
+    {
+      "t": "Latest UFC Vegas 123 fight card, start time, date and location &#124; Moicano vs. Nolan",
+      "source": "MMA Mania",
+      "ts": "2026-09-24T17:40:19+00:00",
+      "cluster": "ca8f15407e0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    20
+    21
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=507991",
     "https://bloodyelbow.com/?p=331449",
     "847d3d0d-34ab-3409-a1a0-c1aa0683354b",
     "https://bloodyelbow.com/?p=331469",
@@ -6039,11 +6044,12 @@
     "CBMirgFBVV95cUxNWWFNMWFtZnB2NnhiSDE2R0YtREdXWWlzOXJ2Nm5BeTQyTjRBcWpaeWtUN3BscGJmaG44aGptSVFvZW9oSzM3LWhfZk9rZ2pGbDVuRldfRVY4aVNDTTl3M0hydzNqaFlKY2RHRElGY0JfdjdBTHNieUhrdzBydERyeXlRUmZlbTBhZk1QZG5ROXlRZGJZaXhJeDZqYmNhdjAzY09wWE13MDRHM1ZsQlE",
     "CBMiiAFBVV95cUxPaE5RR3lrakk5Y2pZdEg2SnNYMWFHUXlzN1FnUW1RNUxISG9tSi1iVEZTbXl3bVp6ZGdlYjFLRzJvUi0xbVhpaksxYUZHdXhjYTNxQ2FhWUJMWnpiSW5RS3FTZS1xbkpLZlF6a2NObjFaSGRDak5WNkNLZHJ6aU5sMlM0RmR5Y3lO",
     "CBMioAFBVV95cUxOa3BvLXZmOXZkc1ZzcUlTYVVKZW1hWUwwa1ZOTEk4TEdWY1RqQ0tLM1VhRktSSGZXa1FHLUlsVmplaU1zSUt3eVQxaldHREtrOE9ZTHVVWGhxRTZUQnBRbGFvTDR0enNBeFg0Tlp4YWZac3BRY0FNWUhELW9xeldYMDgxdTVZVlRHUE5kSVJnaXpITEZFZ0gtcHlIN05UeEd3",
-    "CBMifEFVX3lxTFBieFpHSjRWa2xlUG9uWHBRN1YwNlhtVkZDYi1FRVBpQlNqZEhWYXBIQnZLQ0lkb0Fld1cxckU2bjF3NGEzUGFtN3pTTjNDa19QT3plZkg3SHJEUWdYRVhGcEtrR3dqSnp1NWVCcTdxTmtkbWI5RklFc3JGX1U"
+    "CBMifEFVX3lxTFBieFpHSjRWa2xlUG9uWHBRN1YwNlhtVkZDYi1FRVBpQlNqZEhWYXBIQnZLQ0lkb0Fld1cxckU2bjF3NGEzUGFtN3pTTjNDa19QT3plZkg3SHJEUWdYRVhGcEtrR3dqSnp1NWVCcTdxTmtkbWI5RklFc3JGX1U",
+    "https://www.mmamania.com/?p=474511"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 102,
+    "ai": 103,
     "staged": 4,
     "prio": 3,
     "lost": 0
