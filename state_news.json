@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c3e0c51ac3583802": 1790235024.290672,
     "8372e73133011312": 1790234958.3881445,
     "76e2c048787d1fce": 1790234957.0633774,
     "5d92d1832c29bf95": 1790234892.584042,
@@ -2498,8 +2499,7 @@
     "3eb76844599839a5": 1789722182.577404,
     "481d9ea8f4692fa8": 1789722118.644023,
     "5536625f30d3e705": 1789722118.1291432,
-    "55de0d67e49ab1af": 1789722053.791685,
-    "831eed7af976974b": 1789722009.8428774
+    "55de0d67e49ab1af": 1789722053.791685
   },
   "initialized": true,
   "v": 4,
@@ -4627,16 +4627,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T05:50:15+00:00",
       "cluster": "c4d8d099abf"
+    },
+    {
+      "t": "Alexander Volkov Blasts ‘Dirty’ Ciryl Gane",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-24T06:15:03+00:00",
+      "cluster": "c4184d499df"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T07",
-    6
+    7
   ],
   "yt_eval": [
-    "e647139c-5701-37b9-9a2b-ee74689159eb",
     "https://www.mmafighting.com/?p=509931",
     "https://bloodyelbow.com/?p=331363",
     "6ab690f0-f547-35ca-9b1d-35ceb771b1df",
@@ -6135,25 +6140,17 @@
     "https://bloodyelbow.com/?p=333341",
     "4fab1ec2-783e-388c-939c-1bf1a1c2319a",
     "a7da248f-f893-3925-947d-e89e40fc76e5",
-    "978c07f6-7b37-3825-baa7-66e0b07d1539"
+    "978c07f6-7b37-3825-baa7-66e0b07d1539",
+    "400ef0eb-38d2-3078-ad6d-53ad5398cd4c"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 28,
-    "staged": 1,
+    "ai": 29,
+    "staged": 2,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-13T09:31:56.527605+00:00",
-      "t": "Dana White reveals UFC ‘will be talking about’ stripping Tom Aspinall of heavyweight title",
-      "names": [
-        "white",
-        "aspinall"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-13T14:11:03.265666+00:00",
       "t": "Conor McGregor rips Max Holloway for calling on ref to stop UFC 329 fight: ‘Finish the f****** fight!’",
@@ -6923,6 +6920,19 @@
         "carlos",
         "ulberg",
         "enters"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-24T07:30:25.489129+00:00",
+      "t": "Alexander Volkov Blasts ‘Dirty’ Ciryl Gane",
+      "names": [
+        "alexander",
+        "volkov",
+        "blasts",
+        "dirty",
+        "ciryl",
+        "gane"
       ],
       "img": "photo"
     }
