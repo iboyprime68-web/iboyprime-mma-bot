@@ -1,5 +1,7 @@
 {
   "seen": {
+    "037836ed41ada1fa": 1790289705.1014903,
+    "b188adabf5caaeb0": 1790289704.8217552,
     "41325346c5d82d2f": 1790289578.9271243,
     "f960fea6c0e697b0": 1790289452.9704742,
     "f729c391183ce4fb": 1790289389.397076,
@@ -2497,9 +2499,7 @@
     "d5df3fc0a7bd9fce": 1789765410.7812638,
     "dcf3f381de5a0d95": 1789765283.8314054,
     "560958c56ce2da08": 1789765283.2716985,
-    "42f6a961c16be2d8": 1789765283.2695296,
-    "d2aafb3791927a27": 1789765283.2679462,
-    "b81d8eba3edd78f9": 1789765283.265287
+    "42f6a961c16be2d8": 1789765283.2695296
   },
   "initialized": true,
   "v": 4,
@@ -4681,13 +4681,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-24T22:37:50+00:00",
       "cluster": "c8d1a6beec3"
+    },
+    {
+      "t": "Patricio Pitbull accuses Jean Silva of avoiding him",
+      "source": "MMA Sucka",
+      "ts": "2026-09-24T22:40:05+00:00",
+      "cluster": "cc586844090"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T22",
-    33
+    34
   ],
   "yt_eval": [
     "CBMimwFBVV95cUxPOUl1dEl2V21YdC0zTnJpZ3BXeHZJT3JQSnZjTGQ2MWpvOXlzaGpQS0FtRk5oMXNMcE5OeGVoNWYxZ1I1ZWVHMEo1dmVfaFE4V3JQNGF5aVprRHQzUlNra2xaLWlNb2JBOHJrSTQ4bDhuTmUwM3BuZ0pHUmU4UVFiRHpyZGRXQWxpVDB2bV9nUkdMcmdVcEd3dm9MRQ",
