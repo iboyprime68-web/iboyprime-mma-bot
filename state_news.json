@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8a80fe6e087ee61a": 1790234779.0752711,
     "36dcea27d83b1992": 1790234754.7566893,
     "91e1218ffe63e53d": 1790215766.4376328,
     "8da630d4380703e9": 1790215701.6807606,
@@ -2498,8 +2499,7 @@
     "cb25bc4245bad822": 1789721856.943657,
     "53dd6629e6e77958": 1789721792.0273619,
     "e548da80095fb137": 1789721791.7241204,
-    "2aae2bfd746e0b26": 1789721727.5839088,
-    "ee704f17ca9918fa": 1789721727.0739672
+    "2aae2bfd746e0b26": 1789721727.5839088
   },
   "initialized": true,
   "v": 4,
@@ -4597,16 +4597,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-23T19:06:11+00:00",
       "cluster": "cb19731bb5f"
+    },
+    {
+      "t": "UFC 331 star admits Joe Rogan upset him during viral pre-fight interview",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-24T03:30:00+00:00",
+      "cluster": "cd70ed02ee8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T07",
-    1
+    2
   ],
   "yt_eval": [
-    "CBMi0gFBVV95cUxNX2tPbFZuSlRGRTVhVFZrS3dVWkplOUV2cms5QkJyS3Jsa0dNYTF4d2ZUc0ZmV1RJQV9ob01lQjdiVzE0cWE2M3JfYmlSSndnUkJzRG53dk9oV2NlV0xqX2ZvdDZhd3U4RnJKbGtCa01GMEpTMnVINFRfVlNwYTZHbDVNRDFxbzFxNjhHNDE1QnZBYXZYOS1WeEIzemZKWlY5YzBOZEp2eVJUcTNoMzRidTZSdXRxb0xGT20wSXF1dnVyYkcxdDZqRm9BMl9Fa21tT1E",
     "https://www.mmafighting.com/?p=509906",
     "077a811d-df89-3ee1-9699-d5a5279a0e58",
     "https://bloodyelbow.com/?p=331288",
@@ -6105,11 +6110,12 @@
     "8d39f817-2491-32b3-98b8-50399fee3121",
     "CBMilgFBVV95cUxNNVBMOFV0eVl5bkdJNGRBb1VCTjRUeUZvM1pLSVZOOTIyemNkQzZpVTd2M1hPRXhwYWdPeDFoY29vdE5sTE12SHRVX0txX3IwLTlFOVVUeTVkUG54ajBFaVBsM0g3M2JYdC16TjFkM0lsTXJwT0VtOTVxTFFMaGNKc2ZTLUFUcU5WMm9lQjJvdzNuYUNQRkE",
     "CBMikAFBVV95cUxOSldSamJMeGJHTXRKM09lQkFSNlB6aGVGZjlaQm5pMjU3clE5WXlWYXpYWEhOV2F5ZUJfXy1pTUEwNzc3bU1vUDlBT3djNi00cmVVRlJ6UDlLcVhIaXEwMWJ6dG44dTU0dmhxaVo3QmltWG5jSDEzU3o2RGhxcEFtNmZZeGl2c0hmLXNwd0hoOWo",
-    "https://www.mmafighting.com/?p=512181"
+    "https://www.mmafighting.com/?p=512181",
+    "https://bloodyelbow.com/?p=333299"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 23,
+    "ai": 24,
     "staged": 1,
     "prio": 1,
     "lost": 0
