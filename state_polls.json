@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 19,
+  "cursor": 20,
   "staged_at": [
-    "2026-09-22T19:46:41.569921+00:00",
     "2026-09-23T14:16:52.731979+00:00",
     "2026-09-23T19:43:02.518580+00:00",
-    "2026-09-24T14:15:20.485179+00:00"
+    "2026-09-24T14:15:20.485179+00:00",
+    "2026-09-24T20:01:11.128611+00:00"
   ],
   "asked": [
-    "Who deserves an immediate rematch after losing their title?",
     "Who is the greatest UFC featherweight of all time?",
     "Who is the most impressive UFC Paris finisher this weekend?",
     "Gun to your head, one fighter wins a street fight for your life. Who?",
@@ -47,27 +46,28 @@
     "Who is the most dangerous striker in the UFC right now?",
     "Who is the most boring UFC champion in history?",
     "Oblique kicks are in the news again. What should the UFC do about them?",
-    "What is the worst accusation a fighter can throw at another fighter?"
+    "What is the worst accusation a fighter can throw at another fighter?",
+    "What is the best walkout in UFC history?"
   ],
   "last_entry": {
-    "q": "What is the worst accusation a fighter can throw at another fighter?",
+    "q": "What is the best walkout in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Loaded gloves",
-        "emoji": "🧤"
+        "label": "Conor at MSG",
+        "emoji": "🎩"
       },
       {
-        "label": "Greasing",
-        "emoji": "🛢️"
+        "label": "Izzy at 243",
+        "emoji": "🕺"
       },
       {
-        "label": "Faking injury",
-        "emoji": "🤕"
+        "label": "Korean Zombie",
+        "emoji": "🧟"
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "💬"
+        "label": "The Pereira bow",
+        "emoji": "🏹"
       }
     ]
   }
