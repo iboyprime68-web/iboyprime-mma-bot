@@ -1,6 +1,13 @@
-# Pinned deps for the render step inside news.yml (postcard.py).
+# Pinned deps for the render step inside news.yml (postcard.py + photopick.py).
 # Same supply-chain rule as requirements-scan.txt (CLAUDE.md 0e finding 6):
 # the job holds DISCORD_BOT_TOKEN + repo write, so nothing unpinned installs
 # there. Bump deliberately: pip install --dry-run -r requirements-post.txt
 # on python 3.12, then update the pin as a set.
 Pillow==12.2.0
+# Face detection for poster framing (photopick.detect_faces, YuNet via
+# cv2.FaceDetectorYN). The SAME pins requirements-scan.txt already resolved
+# conflict-free on python 3.12, so the two jobs cannot drift onto different
+# OpenCV builds. Optional at runtime: without them posters keep the old
+# framing and the old grade.
+numpy==2.2.6
+opencv-python-headless==5.0.0.93
