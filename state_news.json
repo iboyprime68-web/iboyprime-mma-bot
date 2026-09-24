@@ -1,5 +1,7 @@
 {
   "seen": {
+    "5d92d1832c29bf95": 1790234892.584042,
+    "baa745ebba2ee5f6": 1790234892.0096908,
     "d0b160969bb20673": 1790234827.0724795,
     "3ec5c23acf97d9cf": 1790234802.7633495,
     "8a80fe6e087ee61a": 1790234779.0752711,
@@ -2497,9 +2499,7 @@
     "55de0d67e49ab1af": 1789722053.791685,
     "831eed7af976974b": 1789722009.8428774,
     "5d3a7a9cfb59a556": 1789721986.6949255,
-    "ebfcdac790a52f6f": 1789721921.900631,
-    "cb25bc4245bad822": 1789721856.943657,
-    "53dd6629e6e77958": 1789721792.0273619
+    "ebfcdac790a52f6f": 1789721921.900631
   },
   "initialized": true,
   "v": 4,
@@ -4615,16 +4615,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T03:01:27+00:00",
       "cluster": "cee645d9570"
+    },
+    {
+      "t": "Raul Rosas Jr. eyes UFC title fights ahead of first five-round test",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-24T03:25:24+00:00",
+      "cluster": "c8fc0ecd3eb"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T07",
-    4
+    5
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331288",
     "https://bloodyelbow.com/?p=331357",
     "e647139c-5701-37b9-9a2b-ee74689159eb",
     "https://www.mmafighting.com/?p=509931",
@@ -6123,11 +6128,12 @@
     "https://www.mmafighting.com/?p=512181",
     "https://bloodyelbow.com/?p=333299",
     "https://bloodyelbow.com/?p=333341",
-    "4fab1ec2-783e-388c-939c-1bf1a1c2319a"
+    "4fab1ec2-783e-388c-939c-1bf1a1c2319a",
+    "a7da248f-f893-3925-947d-e89e40fc76e5"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 26,
+    "ai": 27,
     "staged": 1,
     "prio": 1,
     "lost": 0
