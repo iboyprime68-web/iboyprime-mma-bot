@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d0b160969bb20673": 1790234827.0724795,
     "3ec5c23acf97d9cf": 1790234802.7633495,
     "8a80fe6e087ee61a": 1790234779.0752711,
     "36dcea27d83b1992": 1790234754.7566893,
@@ -2498,8 +2499,7 @@
     "5d3a7a9cfb59a556": 1789721986.6949255,
     "ebfcdac790a52f6f": 1789721921.900631,
     "cb25bc4245bad822": 1789721856.943657,
-    "53dd6629e6e77958": 1789721792.0273619,
-    "e548da80095fb137": 1789721791.7241204
+    "53dd6629e6e77958": 1789721792.0273619
   },
   "initialized": true,
   "v": 4,
@@ -4609,16 +4609,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-24T05:00:00+00:00",
       "cluster": "c3a16e87a90"
+    },
+    {
+      "t": "Justin Gaethje unsure he’ll fight again: ‘I don’t need to’",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-24T03:01:27+00:00",
+      "cluster": "cee645d9570"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T07",
-    3
+    4
   ],
   "yt_eval": [
-    "077a811d-df89-3ee1-9699-d5a5279a0e58",
     "https://bloodyelbow.com/?p=331288",
     "https://bloodyelbow.com/?p=331357",
     "e647139c-5701-37b9-9a2b-ee74689159eb",
@@ -6117,11 +6122,12 @@
     "CBMikAFBVV95cUxOSldSamJMeGJHTXRKM09lQkFSNlB6aGVGZjlaQm5pMjU3clE5WXlWYXpYWEhOV2F5ZUJfXy1pTUEwNzc3bU1vUDlBT3djNi00cmVVRlJ6UDlLcVhIaXEwMWJ6dG44dTU0dmhxaVo3QmltWG5jSDEzU3o2RGhxcEFtNmZZeGl2c0hmLXNwd0hoOWo",
     "https://www.mmafighting.com/?p=512181",
     "https://bloodyelbow.com/?p=333299",
-    "https://bloodyelbow.com/?p=333341"
+    "https://bloodyelbow.com/?p=333341",
+    "4fab1ec2-783e-388c-939c-1bf1a1c2319a"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 25,
+    "ai": 26,
     "staged": 1,
     "prio": 1,
     "lost": 0
