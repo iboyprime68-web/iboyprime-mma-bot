@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7b7dd62c97a9e1ba": 1790237787.5994394,
     "cc540ae1fd956756": 1790237660.9438465,
     "9c3902d497114d9a": 1790237470.879268,
     "1a1d350a3efb51bd": 1790237405.121002,
@@ -2498,8 +2499,7 @@
     "a35bc97ff6ff3f3e": 1789738769.3637002,
     "c77d49f0d0316e29": 1789738704.5231001,
     "2c0bbe7362be281a": 1789738704.2071078,
-    "3141e03f11de0c77": 1789738704.198804,
-    "506a8497e1060396": 1789738638.9905267
+    "3141e03f11de0c77": 1789738704.198804
   },
   "initialized": true,
   "v": 4,
@@ -4741,16 +4741,21 @@
       "source": "Forbes",
       "ts": "2026-09-24T08:12:30+00:00",
       "cluster": "ca22fc9300d"
+    },
+    {
+      "t": "Gilbert Burns wants to use his UFC experience to guide fighters as manager",
+      "source": "MMA Sucka",
+      "ts": "2026-09-24T08:15:19+00:00",
+      "cluster": "c02a209a062"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T08",
-    5
+    6
   ],
   "yt_eval": [
-    "d8cfeb98-2b9b-336f-9529-115b0c8cadce",
     "f9717cd7-84d1-327f-9b0d-aac8e295ddf0",
     "https://www.mmamania.com/471683/ufc-paris-results-sooo-about-last-night-hooker-vs-parnasse",
     "b8e834da-150b-3311-8214-b11935aa97d1",
@@ -6249,11 +6254,12 @@
     "CBMioAFBVV95cUxNaUN5dkVYeU53SFNDUzFudTVmTjFUT0ZDdkQtSk56VGd3TXFhcUlKenc2UTl6Q0Q4WjdSUGxfUVdhYm9ITGM2NG8tSXZCSmREM0JJVEVDNFc5M0V6MUo3ckp0S0ZOVnF6dzN4ZmhHLUhyUnVIMTZjQ0xOSGhzYTVUWUJONzVuLVExTS1MUTdCNE5ER0pBbHdsS3dObVU2ZUI0",
     "CBMiU0FVX3lxTE1HRm1YejI2YUVJeUNVNGpkSGhYdUczVlFkMHpEWDBoQW0xMVJMbS1HNEltaXhoZU5uMmJiUVhmXy00TmFkb0R4WXNMclpjQ3JIZWxz",
     "CBMiswFBVV95cUxOQm9rVXlnN1owQVFQa3g0R0hPYWh3QlRrTF9pTm1OQjQzeU9jejdDREdpejZXRjZPdFE0YWM5b29fam15RkpHNTNvRzc1MXd2MEhwMmZUdDViSmJ3WlFTNXlPbnIxMFlUQlEwWUc2TkNLUkEyQUFUTGh0US03UDVncjhBb1VGLVprY3plZUFveXctMHVRdi1XU3dDSHUtN1RxNjlKMG9xNnlsWGNnZnQwYnAzYw",
-    "CBMiyAFBVV95cUxOTEN4R0s1Wm9hTzdoNFY4MlNnX0taNVJjUVN5YUU4MXd4ZmV2NmNGMzBoR2VTdXhPa2x6eEQydUZZVzlVTmc3ejlqSkQtWWptb0R0aDA1NnBFMkVNWm1IX0N3Snh2QmNVOE9pRTZJRDFBdFV5QTFiUG9CWHhObHdLajdSelZER0FKZ2s1ekwxT2d2NXRHaU9vaHF5UGRFNmF2aEFVcWFFTjljNmNFNm1qdUgxbXhoNVFnM0tqZWNHNWxCQjVKVUhhVg"
+    "CBMiyAFBVV95cUxOTEN4R0s1Wm9hTzdoNFY4MlNnX0taNVJjUVN5YUU4MXd4ZmV2NmNGMzBoR2VTdXhPa2x6eEQydUZZVzlVTmc3ejlqSkQtWWptb0R0aDA1NnBFMkVNWm1IX0N3Snh2QmNVOE9pRTZJRDFBdFV5QTFiUG9CWHhObHdLajdSelZER0FKZ2s1ekwxT2d2NXRHaU9vaHF5UGRFNmF2aEFVcWFFTjljNmNFNm1qdUgxbXhoNVFnM0tqZWNHNWxCQjVKVUhhVg",
+    "CBMiowFBVV95cUxPdmozeHlpVU12aklheTdMWFRPNXU4enI1UnZNUExCY1VNUzV3NFlReGhvcXFwMGdhWUJ2Wk1HUy1wLVNKaEp4Mll6YnRBT3F5RWFSbHpHQTZWTG80YUotQnZQRXBEaF85ZUU4Ul9DNTZ2ZHJINFV2bHVzWnR5V24ycEF0enlvSE5aUEF0UlJrUFotMWVEMmt2LU1aSDRoNjRaVG44"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 48,
+    "ai": 49,
     "staged": 2,
     "prio": 3,
     "lost": 0
