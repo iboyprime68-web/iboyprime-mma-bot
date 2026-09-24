@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9c3902d497114d9a": 1790237470.879268,
     "1a1d350a3efb51bd": 1790237405.121002,
     "3f79af358ae7b30b": 1790237339.7328815,
     "8d2515a0ad437a63": 1790237211.4185894,
@@ -2498,8 +2499,7 @@
     "2c0bbe7362be281a": 1789738704.2071078,
     "3141e03f11de0c77": 1789738704.198804,
     "506a8497e1060396": 1789738638.9905267,
-    "dafcf79fe48d9ec6": 1789738571.9392827,
-    "222dd2515c07a646": 1789738527.4965854
+    "dafcf79fe48d9ec6": 1789738571.9392827
   },
   "initialized": true,
   "v": 4,
@@ -4729,16 +4729,21 @@
       "source": "UFC.com",
       "ts": "2026-09-24T07:23:30+00:00",
       "cluster": "c9b01757d81"
+    },
+    {
+      "t": "BJJ Legend Blames American Martial Arts Culture For Commercialization Of Jiu Jitsu",
+      "source": "BJJDOC",
+      "ts": "2026-09-24T08:05:46+00:00",
+      "cluster": "c0de4a1aea7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T08",
-    3
+    4
   ],
   "yt_eval": [
-    "a094f797-725f-38ac-acde-f200408a9ee9",
     "https://bloodyelbow.com/?p=331424",
     "d8cfeb98-2b9b-336f-9529-115b0c8cadce",
     "f9717cd7-84d1-327f-9b0d-aac8e295ddf0",
@@ -6237,11 +6242,12 @@
     "CBMingFBVV95cUxPQzNxMGgyS3NzSE9MakYzMDdqLWRSeW02V3ZMTU9yMjlNU0l6ODc5VEhUUVhYaTdUdWxSZzEzb2p1VXJSMWVaam1xTEJCQ29NcGhKR05lbkcxN2ZuR1ZFcDd0TUVSbkIyX21kMEl6WDkxWWZVUmFPcjhNN2JYeG15NXQwU1VpVG5KLW12Zkotdl91WjE4eHFjRFpIdmdvdw",
     "CBMikwFBVV95cUxPWU5fa0tmT2lQcWhyZndvdmI2UWtEQVU0NWFLTHFrSjFkOE44b0w1Y19LaEo4ckhTc0FMcHVfQmEyQVJjNTRCQWhrbEluYmlCNHF1eEJWcDN5Q3cyejVhT0pTLXFZcFEwSklhRHJqcnRlREZBYVhvcjFrSFBPMEVDYTE3OG1lT3Jqc1ZrdzRhb1k3cDg",
     "CBMioAFBVV95cUxNaUN5dkVYeU53SFNDUzFudTVmTjFUT0ZDdkQtSk56VGd3TXFhcUlKenc2UTl6Q0Q4WjdSUGxfUVdhYm9ITGM2NG8tSXZCSmREM0JJVEVDNFc5M0V6MUo3ckp0S0ZOVnF6dzN4ZmhHLUhyUnVIMTZjQ0xOSGhzYTVUWUJONzVuLVExTS1MUTdCNE5ER0pBbHdsS3dObVU2ZUI0",
-    "CBMiU0FVX3lxTE1HRm1YejI2YUVJeUNVNGpkSGhYdUczVlFkMHpEWDBoQW0xMVJMbS1HNEltaXhoZU5uMmJiUVhmXy00TmFkb0R4WXNMclpjQ3JIZWxz"
+    "CBMiU0FVX3lxTE1HRm1YejI2YUVJeUNVNGpkSGhYdUczVlFkMHpEWDBoQW0xMVJMbS1HNEltaXhoZU5uMmJiUVhmXy00TmFkb0R4WXNMclpjQ3JIZWxz",
+    "CBMiswFBVV95cUxOQm9rVXlnN1owQVFQa3g0R0hPYWh3QlRrTF9pTm1OQjQzeU9jejdDREdpejZXRjZPdFE0YWM5b29fam15RkpHNTNvRzc1MXd2MEhwMmZUdDViSmJ3WlFTNXlPbnIxMFlUQlEwWUc2TkNLUkEyQUFUTGh0US03UDVncjhBb1VGLVprY3plZUFveXctMHVRdi1XU3dDSHUtN1RxNjlKMG9xNnlsWGNnZnQwYnAzYw"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 46,
+    "ai": 47,
     "staged": 2,
     "prio": 3,
     "lost": 0
