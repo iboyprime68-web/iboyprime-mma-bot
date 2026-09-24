@@ -249,7 +249,7 @@ def base_defaults():
         #                           (the post still stages, silently)
         "scoring": {"enabled": True, "stage_threshold": 70, "ping_threshold": 85,
                     "provider": "", "model": "", "max_tokens": 220, "timeout": 20,
-                    "max_ai_calls_per_day": 120, "max_staged_per_day": 6,
+                    "max_ai_calls_per_day": 400, "max_staged_per_day": 6,
                     "max_priority_staged_per_day": 5, "priority_threshold": 80,
                     "stage_max_age_hours": 36, "subject_cooldown_hours": 12,
                     "story_cooldown_hours": 72, "staged_similar": 0.5,
