@@ -1,5 +1,7 @@
 {
   "seen": {
+    "938076363c910387": 1790212694.5518053,
+    "43ca04a538f71516": 1790212694.2094605,
     "9e02a7fc05ac4d70": 1790212629.185116,
     "34ab904563a5aee4": 1790212628.7707157,
     "e727d6197042b397": 1790212628.7677271,
@@ -2497,9 +2499,7 @@
     "b52151abad3970e2": 1789704709.370921,
     "6b27c8ace8b61119": 1789704709.121645,
     "95b0183c94fd2f8a": 1789704645.0434625,
-    "9ec8c0eda4cc82cc": 1789704580.6236894,
-    "acf3d8843c7ef8d7": 1789704580.364639,
-    "53cd6f64c94fff22": 1789704516.6325276
+    "9ec8c0eda4cc82cc": 1789704580.6236894
   },
   "initialized": true,
   "v": 4,
@@ -4735,16 +4735,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T00:34:48+00:00",
       "cluster": "c499793c8e0"
+    },
+    {
+      "t": "Justin Gaethje Says Ilia Topuria Is Undersized For UFC Lightweight Division",
+      "source": "MiddleEasy",
+      "ts": "2026-09-24T00:35:21+00:00",
+      "cluster": "c55cdd88aad"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T01",
-    4
+    5
   ],
   "yt_eval": [
-    "https://www.mmamania.com/471465/open-thread-september-11-2026-do-you-play-fantasy-sports",
     "87268ed0-69a3-3fa9-94fc-9d0932255187",
     "CBMi9wFBVV95cUxPV2NyYXRtNS03QUpsZm4xU0NKTl9TV3RteW9CTE5wYXE0R1ZzMFlPS2lEdDd5UjZtUTlQTE5tNHBSQU1kN3pVUWhPV0RGN0xObmNlY1BraDJHTGFtMS1rd3JrTndQX3ItSmVjZmVkR1VqVWI1bXdZR2R6RkV6VV9UWDk1UG1HYXZhRlVkWnotSjNNejltUE54a1NQZC03NTRsUFBRdFdtYnR5M3JxNjM2aWNaOGp4a0FrRzY4b1V0SWx4LXkyMFFZQXN6NFBnQklTRFpvckhQam9tdXhKdXdXMlJlbDUwZmFqV3FCbjRjaGpQREh2Ry1R",
     "CBMiYEFVX3lxTE1oTUd2MGc1OVdEcnNMU3dSa0pCSlBSdmZ5bFBJaEo4U1JoQy1qcDRYSmRSelFfdlJkZkVBLThNZzYtdEp2T2hBb2xlSDljMkxoeWZYbjFtNTU5MkNoVE0wLQ",
@@ -6243,11 +6248,12 @@
     "a33506b9-69c8-486d-8300-7c5f697d1e72",
     "https://bloodyelbow.com/?p=333309",
     "CBMivwFBVV95cUxORGdUdklyOHpNMHVmRmpPb1NCNl9WMThFTF9OWHVHU0dsdndfbnhIRVRaLXFUYUNvNHQ3S0gwZ1dyNExzTzdUalJodEx2SmFsVTlPdHpjbnRzVzNPU1BOX2hiWk5RRzlnMlNpSDZNZ01tamFMNy1xdS03Y1F2VXNxQzdFVFRmMi1EdnZfckNDak5oUVFyRFVjUUNvcmpxaXRQQ2d6RHJLeHpIRTE3TjZmcFVVYU1Nd1AxSWVvTVQ4QQ",
-    "80e81026-840b-38fa-a093-78c03c911f79"
+    "80e81026-840b-38fa-a093-78c03c911f79",
+    "CBMikAFBVV95cUxPQU9KQ1ZXb3EydmpwOW44RUZUSFJlNG5EeUloNktTdEhRb1hOeG12V0Q1cHVnS1FCOVU5R1piZGFjbnI2QkQwX0s1NVlKbnpYTTdYWWNrU09BaU41Nm1VX2lJV2U5NEFlOGlUQ2NNanZlOE9XcV9jaGtCaG5PaGdUanhhRnhaMTRTWnZGR2s0Y2Y"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 4,
+    "ai": 5,
     "staged": 1,
     "prio": 0,
     "lost": 0
