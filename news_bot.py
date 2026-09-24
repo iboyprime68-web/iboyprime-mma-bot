@@ -508,6 +508,10 @@ def main():
     # deterministic heuristic score, and whether this story actually claimed
     # the phone alert. Both feed the priority lane (ytposts.is_priority).
     stage_queue = []
+    # When this job's polling window ends (epoch seconds; 0 = not started).
+    # stage_story skips its slow network work near the end instead of running
+    # into timeout-minutes, which kills the job before its state is written.
+    window_end = [0.0]
 
     # Same reason as stage_work above: the cutover backfill writes `seen` and
     # `seed_pending` but posts nothing, so without its own flag the save gate
@@ -595,7 +599,8 @@ def main():
                 print("  yt: gate skip (%s): %s" % (why_not, it["title"][:60]))
                 return
             res_stage = ytposts.stage_story(sit, score, why, cfg_bots, cfg,
-                                            hist=hist, state=state)
+                                            hist=hist, state=state,
+                                            deadline=window_end[0] or None)
             status = res_stage.get("status", "")
             # only a post that actually LANDED enters the staging memory or
             # burns a daily slot - a Discord blip or a missing studio channel
@@ -844,11 +849,29 @@ def main():
         # the entire batch - and draining that in feed order hands the day's
         # scarce slots to whichever stories happen to be oldest.
         stage_queue.sort(key=lambda j: (not j.get("alerted"), -int(j.get("heur", 0))))
+        # The news post is made durable BEFORE the slow staging work. The
+        # drain can take a minute (a photo host, a Google News decode, an
+        # octagon call); if the job were killed inside it, this cycle's post
+        # would never reach `seen` and the next job would post it - and buzz
+        # the phone - a second time (Sept 24 2026 pre-deploy review).
+        pre_saved = bool(stage_queue) and bool(posted or queued or skipped or seed_work[0])
+        if pre_saved:
+            save()
+            seed_work[0] = 0
+        if stage_queue:
+            # teach the staging memory which capitalised words are just words
+            # (a Title-Case headline otherwise turned "Retirement" into a
+            # fighter and blocked every retirement story for 12 hours)
+            try:
+                ytposts.learn_lexicon([r.get("t") for r in state.get("recent", [])
+                                       if isinstance(r, dict)])
+            except Exception:
+                pass
         for _job in stage_queue:
             maybe_stage(_job, cfg)
         stage_queue[:] = []
 
-        if posted or queued or skipped or stage_work[0] or seed_work[0]:
+        if ((posted or queued or skipped) and not pre_saved) or stage_work[0] or seed_work[0]:
             save()
             stage_work[0] = 0
             seed_work[0] = 0
@@ -882,8 +905,9 @@ def main():
         print("cycle done. posted=%d queued=%d skipped=%d backlog~%d"
               % (posted, queued, skipped, max(0, len(fresh) - posted - queued - skipped)))
 
-    common.run_loop(poll_once, duration=window_for(common.now_utc()),
-                    interval=POLL_SECONDS)
+    duration = window_for(common.now_utc())
+    window_end[0] = time.time() + duration
+    common.run_loop(poll_once, duration=duration, interval=POLL_SECONDS)
 
 
 if __name__ == "__main__":
