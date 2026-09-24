@@ -1,5 +1,9 @@
 {
   "seen": {
+    "d1941a40649a8f99": 1790258456.608264,
+    "da5b68b5398295de": 1790258455.8182926,
+    "a23fe0f9fc4a1975": 1790258455.8161778,
+    "7bed98bf36db97bc": 1790258455.8138952,
     "dea9cb107ad89fd4": 1790258407.0734348,
     "8614fcb56b83dd1f": 1790258321.9615242,
     "59d2613f4f6a1db3": 1790258132.6783197,
@@ -2495,11 +2499,7 @@
     "e5127ee9fd27b1d9": 1789753144.0141492,
     "52d37b42bd1cd8b7": 1789753120.535212,
     "66d92d8a61d0706c": 1789753096.5716434,
-    "cb71639c3e8dc28b": 1789753073.1543844,
-    "5957a34e264d829f": 1789753047.1386986,
-    "08026c6ec557af6d": 1789753022.2748818,
-    "bceb00064766552e": 1789752998.4955473,
-    "d7f7af65228ec6e2": 1789752973.560726
+    "cb71639c3e8dc28b": 1789753073.1543844
   },
   "initialized": true,
   "v": 4,
@@ -4711,16 +4711,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-24T14:00:00+00:00",
       "cluster": "cb973484d03"
+    },
+    {
+      "t": "Nick Rodriguez Pursues UFC BJJ Title Motivated by Financial Rewards",
+      "source": "SuaraGarut.ID",
+      "ts": "2026-09-24T13:54:03+00:00",
+      "cluster": "c6653134448"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T14",
-    1
+    2
   ],
   "yt_eval": [
-    "b297c352-76aa-329a-ac10-d6de7b035060",
     "https://www.mmamania.com/471935/open-thread-september-12-2026-mexico",
     "119f484b-8c37-3663-ae3e-3ef6f7e38733",
     "CBMif0FVX3lxTFBfY1c4bXB5d2FXS1N3d09na2RlcVVwSVF5elhFZzE5YkllTTMySExpRDZRVXM4S0hlRHpQREk1ZU40eEhkNlBVS1VYM1hmTU9oSEktdGc1ZkYtSDBYdmJwR2x0VUpZVld6WndZWUtpRllhNDFRMlpqVFl4UElGWG8",
@@ -6219,11 +6224,12 @@
     "https://www.mmamania.com/?p=474454",
     "CBMigAJBVV95cUxQWHJ6WG56Mkk2aHJHODg0SEpzSmRFMDdvcVhrR2EyQ1hJVXhBOGdudjEzX2dRaVVYOWdYSlFwQVktaWtSbTVWSFlUWFItRFlaVC1uVkYyRHRMR21uNDNaZ1BfYlVaWHhkQjdMVVhob1lpMmlSZ2gxQktVdTlhQ0NmTTBGUFlEc0pOZU13QkhGSnJZaWJ6YW5SWXlMcS1kT1VZcWVydzFtTUZfMlBnNWtzWXFKYlRfWTRvdlBreVNacnZjQUh5Q05QWWNEOGZuRVFya1hObThoRHJ5UHM1UC0zWHlWX3M5TXNCWDNkUnlDcmd3SUJMb19tNGV6M3UwOTl3",
     "CBMivAFBVV95cUxOY0xTSGFRYWNodVVrMjAyRnJzczA1NU1qRURKa2djeEViTjU5V20zMWszTFQ0TmhkVV9UeEhKR28yRXl3Q1VCUkVqX2RQUVpOMUxkZV80eW8tV3Rlb19RMnpleWwzb0NEVk5rb0gyNFVRZUI5Qlh0THlzbDNSVHpLTVVGWVhka2tBTl9zMFY1Wmctek92THNBV2s4bl9lUmdwQXl1RElqQUpWVEFrallfZXY0VGlfdW9jU1l4Vw",
-    "https://bloodyelbow.com/?p=333407"
+    "https://bloodyelbow.com/?p=333407",
+    "CBMiY0FVX3lxTE9vdGRCNlRjX3FwbU5ybXplbkpSbkZsOGZ1bF9fX0puVEJkQXhiUFpDdEt1X2ZFbEtvSnhjdW1nWEx4WjJxVzlvQ2tkX3RpUDJibVkwaVdGQ2dieWRRN3htQlNLUQ"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 78,
+    "ai": 79,
     "staged": 3,
     "prio": 3,
     "lost": 0
