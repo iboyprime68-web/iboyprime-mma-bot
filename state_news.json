@@ -1,5 +1,6 @@
 {
   "seen": {
+    "dc1e7fa5b4a4c6a3": 1790275885.9861825,
     "afc40c3c5dff20da": 1790275862.541023,
     "a4fa08865047580b": 1790275862.2077677,
     "74463af2914c1d7f": 1790275796.9488149,
@@ -2498,8 +2499,7 @@
     "36590c1b7e100e7e": 1789754387.4332874,
     "be99603a0ff735b9": 1789754387.429871,
     "8fe49a55b3779e61": 1789754387.410132,
-    "bd0f1e109c7ee692": 1789754387.4083977,
-    "e6e354dc6989be29": 1789754322.7860608
+    "bd0f1e109c7ee692": 1789754387.4083977
   },
   "initialized": true,
   "v": 4,
@@ -2527,12 +2527,6 @@
       "source": "The Irish Sun",
       "ts": "2026-09-22T19:15:38+00:00",
       "cluster": "ccddb423095"
-    },
-    {
-      "t": "Sean Sharaf Details 'Crazy' Risks That Buried Him Under $600K Debt After Dana White's Big Help",
-      "source": "NY Fights",
-      "ts": "2026-09-22T18:51:08+00:00",
-      "cluster": "caf09f02957"
     },
     {
       "t": "Sean Strickland Calls Himself an ‘Idiot’ After Hitting Ground Six Times at 60 MPH",
@@ -4603,16 +4597,21 @@
       "source": "UFC.com",
       "ts": "2026-09-24T18:13:27+00:00",
       "cluster": "ca02c299b7d"
+    },
+    {
+      "t": "UFC Vegas 121 fight saved as DWCS star steps in just a week after winning a contract",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-24T18:50:58+00:00",
+      "cluster": "c9c438f71c4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    36
+    37
   ],
   "yt_eval": [
-    "8f220ef1-a642-33a8-af5b-b15cc741c12d",
     "29a5a292-d196-308b-a1de-b928eb81f25f",
     "e4c87685-81c3-3907-ad6d-c3845a63c2d4",
     "https://www.mmamania.com/?p=471475",
@@ -6111,11 +6110,12 @@
     "CBMipAFBVV95cUxNVms1cl8xVkY1dWpWcE85RVl1YTQybmFrcFc5SFVaNWkxTE9SRUs0aDN2bWk4a3V4VkVOdEJ5WEVFaWVCTl9RZ0JBNy1nNDltRER0ZWZPdWZodHNSSEtMMVdqdkdhS2xXdTVmZ2FCZ3NKblBINXZ6U192LVRvbS13WE5ETWNaTFA0c2EybE0zYkpXNlBwLTZMOFh4NnRYSnY3X21SQg",
     "CBMiwgFBVV95cUxNRm1JTVFteW94Wjk0LXp0czVudEZkb2E4TU9wcktRU0EzSUIwUjQzYmREbGdBV1R2NDNYX0wzZ1ZhRkhlckRDWVpPX0lLVHF2dGUyNFhQQzRnN0NfaGJLeTNYNTFCZzE1dXViWVczWEZFNkhLOWxESUxWdDc2NkxEV2g0N2dOWFFaZ09kUG1ZR2F6R0E1NVRnSGtBQWROZEJwQ1I5VnZnbm0xRDBReGRHdlNSaWd4THJLRDczRjg0TXV1Zw",
     "CBMimwFBVV95cUxOV3FyX2dDOW12NGgwaURRd1RUSVdQdUtTUXdWekt6elhSbVkyZVQzbkdCcTV1Z3d1dm8yZnJCMnZyUUJwaFBjWU96VHJQblktQ0ozcHhBaHFhcEF3VTZ0eXA0S2N3TDFfUkE1MGJZbHRvbjZPYXcxc1FRSkNWQjY4SmcwVXVMU0FZci1vZ2prekVDb1NIZHN4RFJQOA",
-    "CBMiiwFBVV95cUxPVi04LUFLYTFHUjl6UXdjMV83TmZWU1JSVXlIZGxWMks3dUZEREpEOFNfTF9ITWg4NElLTTY5ZGlVdlBRYS1GNkttYTRLd3ZZZFhoRDBVaGx4a3dOTEh3ZEJiTndYR255WndGSWFXd2VGWGxLYl9fWFhoQ3ZnNnZvX3JWUWtyaWZmcm5r"
+    "CBMiiwFBVV95cUxPVi04LUFLYTFHUjl6UXdjMV83TmZWU1JSVXlIZGxWMks3dUZEREpEOFNfTF9ITWg4NElLTTY5ZGlVdlBRYS1GNkttYTRLd3ZZZFhoRDBVaGx4a3dOTEh3ZEJiTndYR255WndGSWFXd2VGWGxLYl9fWFhoQ3ZnNnZvX3JWUWtyaWZmcm5r",
+    "https://bloodyelbow.com/?p=333547"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 118,
+    "ai": 119,
     "staged": 5,
     "prio": 3,
     "lost": 0
