@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a098e74d97513c71": 1790275141.5869389,
     "e9500ca290f6082e": 1790275076.2406187,
     "bf6eb14c6e0887b1": 1790275075.9487605,
     "1b58a59594d709ee": 1790275075.9468281,
@@ -2498,18 +2499,11 @@
     "0365499e9d6cba15": 1789754064.0125318,
     "3aceb055cb2f2380": 1789753999.8121755,
     "e8a645c9e2fec6fd": 1789753999.554247,
-    "6a4a2773687d554f": 1789753999.552641,
-    "9597ca79518b85ac": 1789753999.5328443
+    "6a4a2773687d554f": 1789753999.552641
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "PFL CEO John Martin out of company weeks after merger announced with Jake Paul’s Most Valuable Promotions",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-22T18:39:00+00:00",
-      "cluster": "c5e7a108a28"
-    },
     {
       "t": "Latest UFC 334 fight card, start time, date and location &#124; Gane vs. Hokit",
       "source": "MMA Mania",
@@ -4555,16 +4549,21 @@
       "source": "Sportscape Magazine",
       "ts": "2026-09-24T17:47:08+00:00",
       "cluster": "c5229662a7c"
+    },
+    {
+      "t": "BKFC 94 faceoff video: Darren Till, Yoel Romero avoid second staring contest",
+      "source": "MMA Junkie",
+      "ts": "2026-09-24T17:50:00+00:00",
+      "cluster": "c853e04725d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    24
+    25
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509827",
     "https://bloodyelbow.com/?p=331463",
     "https://bloodyelbow.com/?p=331475",
     "fe702fb8-f6aa-3566-968d-434f736be846",
@@ -6063,11 +6062,12 @@
     "https://www.mmamania.com/?p=474511",
     "CBMinwFBVV95cUxOLTJKaHM2UmNqZk1zSGRJTGlUejdqdVMtemZOWDN4bjc3SVpwakxKTTBqX2VEX0p5R2VtSDFaNHlLZVE1QWg1SjlBWDFvME9ENFQ0Yk51RGEzeWdTRDc5Y19uV0xFcllQSHZCYmtoQ1NiclkzQ0s4Ykx0RzhZQjR3SjJ4c05keFA3aHZwYVlzb2xDSE44V25lSWh1d3lmOVE",
     "CBMihwFBVV95cUxQUUtfMkZmWWNXM3VuVG9tZmVuTDMxeEZuNTRDdnVwak9lUkJCbEw2ajBMbjVoM25QOU1sbzA0OHVCZjdXcXA2UXBIcHpXZjgwNUJHTXhWMHBOUUNydTBET29XNnNBZGRiUndiRUYtNjB0am5OdnFlYk45ZjdrSW96UDNUeks5MFk",
-    "CBMitgFBVV95cUxOcEkxZU9OQUtIcE5OdlhiY2N4eDEzV0JoOEdIZWFzUUFpWVF0SnVjVjc3V08weTdqOWcteDM2QlpwdWxGWUNDQXhqWDdvVktVNGQyYmppaFRJSHVEdVAxVjE1TVEwYi1fV2tYRWJqOXIyV1lZM2d2dlFvUzZZMVV3a2pkSHhjR2xfc25RRjExMVI5ekh0V3RMN19QcXdrcXh2RlNXd3JoYS1LNzh6MjZkSU0tUE1LUQ"
+    "CBMitgFBVV95cUxOcEkxZU9OQUtIcE5OdlhiY2N4eDEzV0JoOEdIZWFzUUFpWVF0SnVjVjc3V08weTdqOWcteDM2QlpwdWxGWUNDQXhqWDdvVktVNGQyYmppaFRJSHVEdVAxVjE1TVEwYi1fV2tYRWJqOXIyV1lZM2d2dlFvUzZZMVV3a2pkSHhjR2xfc25RRjExMVI5ekh0V3RMN19QcXdrcXh2RlNXd3JoYS1LNzh6MjZkSU0tUE1LUQ",
+    "CBMiwwFBVV95cUxOM21hU3ZSejE0WmVFUHkteVZBb2dyaE1iYnN6cU0zVVJ3V3RXRTBpcmVYMlFXUGVVLVRVY2VGVVlWZFBtMzBIX2VKQW1jeFFsbFNxM0pGSTBuRVdPcDFfRFRvaTNaemhBNGdERklwcWhyeE9NQVc4a1FuOFMzdGlSbU1GREt4Ymx0SGtLRThFbkU5WURocEpfQzZ3c053bzV5TUg4UEs2Zy1WVmExLTZWSGg3X2dRMjV5NDh1bEw2eS05QzQ"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 106,
+    "ai": 107,
     "staged": 4,
     "prio": 3,
     "lost": 0
