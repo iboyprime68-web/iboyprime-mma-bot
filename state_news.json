@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d449c20356faaefd": 1790289894.30364,
     "037836ed41ada1fa": 1790289705.1014903,
     "b188adabf5caaeb0": 1790289704.8217552,
     "41325346c5d82d2f": 1790289578.9271243,
@@ -2498,8 +2499,7 @@
     "e19ec0bb75657756": 1789765538.4797225,
     "d5df3fc0a7bd9fce": 1789765410.7812638,
     "dcf3f381de5a0d95": 1789765283.8314054,
-    "560958c56ce2da08": 1789765283.2716985,
-    "42f6a961c16be2d8": 1789765283.2695296
+    "560958c56ce2da08": 1789765283.2716985
   },
   "initialized": true,
   "v": 4,
@@ -4687,16 +4687,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-24T22:40:05+00:00",
       "cluster": "cc586844090"
+    },
+    {
+      "t": "Breaking News - Former Two-Time UFC Champion Valentina Shevchenko Delivers a Knockout Twist on MTV's \"The Challenge: Cutthroat\" | TheFutonCritic.com",
+      "source": "The Futon Critic",
+      "ts": "2026-09-24T22:28:21+00:00",
+      "cluster": "c7b78bab02c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T22",
-    34
+    35
   ],
   "yt_eval": [
-    "CBMimwFBVV95cUxPOUl1dEl2V21YdC0zTnJpZ3BXeHZJT3JQSnZjTGQ2MWpvOXlzaGpQS0FtRk5oMXNMcE5OeGVoNWYxZ1I1ZWVHMEo1dmVfaFE4V3JQNGF5aVprRHQzUlNra2xaLWlNb2JBOHJrSTQ4bDhuTmUwM3BuZ0pHUmU4UVFiRHpyZGRXQWxpVDB2bV9nUkdMcmdVcEd3dm9MRQ",
     "CBMi0gFBVV95cUxNVTUxRW5vN2lWWUJlSnNRaVFNSlVmUHIyLVJLNlJZV3NVa1JmQ1BlMXB1RW96eVlBVjBMREw3ZHZQM01ONTdPczBsUU8ydlA5dkd3RmkwNGdEZFZ1aTFjeUtVSC1sQVBXUks3enE1bUNGX3Z2bkljWXU2ZzJ1Z2E2M2VIamp3S2JkQlo4TlVqUWZyRjUxN0JBUjVhVFhVWGlPczhELXAtRWkxNXNMMFZFZlVWM1VNWjlhNXM4d2FRWERLUjlYMjU1V2hlSnNWajQtYWc",
     "CBMidkFVX3lxTE5Sel93Mjd2d1JjV0MwNmUzNmJGbnd4OWVuLThIZ2Itd2tZQVlNUEp4dlV6X0ROZHB6blc4UlNONHFtd2M5RXZWMjEzdkRKYlFOc1dNaDJBRkVaYU90R19sWHhyU21zWkM1NTBYWWNkZmMtT0ZIdkE",
     "CBMisAFBVV95cUxQcW1hVnZYaGhFaUNrMzRsTW5jeXp0dTAtRGZFYWZZTFZjM1RCdVZaNGRVbFRrVFVKNnN2b1BsX2JHWDQwbTFFZ0JWS2Vsb2lNSVc0eHBid3k1ZFcyRjNjTENFWVhlTXQ3V2JOR1FUQTFoeGJRZkhjaXZZbDcwR1ZTYWw0VnJUZ3JXM0psaXhjZTBnMk1UanRIZHVXMVVlU0pzY0xpZG5CVHNtbnhmb2NFag",
@@ -6195,24 +6200,17 @@
     "https://bloodyelbow.com/?p=333547",
     "CBMitAFBVV95cUxPdkZnQ0dXZ0ZHU0tIS1ZhMTJ6OHNyMTVmOWdna1RfSTlOaF9IaTFWXzlQUkpESTBGMGdRaXpscDBsZEVhQXZJQmlLV0x1R3RQRnljcjJiRjQtWGFxOTUtRUJmTVVndGZKbDJNRXRqMFQtSjhvanpCZ1Z5UVd5c3dHNFlCREJHWF9DcUR2ZWM1d2Z3SFVidlJtX3ZuYVRzTHRFb254RVBsVWFqanVweXo4UTg4Ync",
     "CBMirwFBVV95cUxPeE4zVGdlbXdMeDZHT3dFRV9HNGNoWk9tX0lPaGRCbkNvQ1g3dEp3X2ZWUjlKazFpSHliUmVnelpHdWhhOTFzQTJ1RHhLbnZURDhXc09LN3p1dWRESUplbHVBZVkzZFRnbEM0cVM0QWdFWXZGSXpYQzlnSzVYSG1GUk96dURoR0xneldUV2xBWUxhU1BMc2ZTeE5KLS1ocktnNjcwMXRKUjYtTmFiRXhr",
-    "https://bloodyelbow.com/?p=333495"
+    "https://bloodyelbow.com/?p=333495",
+    "CBMijgJBVV95cUxNQUpNcUFrSW54by1ZeHJnNWEzZWkwb0kxbVZWdzBMcU1TNjg0LVdKZHlXSC16dWNKV2l2aUNzVHNUS2VkaXNtNWVuYXRsTENfWDZJaEhfTDdXRlBiWXNUUnY4YWRBVkF2eXhoVWtRWkhSR1BDd20tWkFMei15YUdieGhzRWQ3RUgtZzVoV1JqZWNWNTZ4Z090TTVubWJMUFpTc3E0U2hUeXhkODlwV0JTaDJfUlFYWks3OWZpRHBLNlUyLURhSWM5dzBkU0tnY0V0WnBwNHF0b2RMT0d2YXBmcUFMTDlQTzU1ZUs4UjI0bnBaVV9uVWFJemYzRHZFSmhfMHYzR2hEQXNWYlFuZHc"
   ],
   "daily": {
     "d": "2026-09-24",
     "ai": 120,
     "staged": 6,
-    "prio": 4,
+    "prio": 5,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-14T12:16:43.970951+00:00",
-      "t": "Tom Aspinall vacates UFC heavyweight title after suffering ‘further damage’ to his eye in training",
-      "names": [
-        "aspinall"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-14T12:57:20.399133+00:00",
       "t": "Conor McGregor spotted on crutches following ACL surgery",
@@ -6990,6 +6988,21 @@
         "leave"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-24T22:44:54.305434+00:00",
+      "t": "Breaking News - Former Two-Time UFC Champion Valentina Shevchenko Delivers a Knockout Twist on MTV's \"The Challenge: Cutthroat\" | TheFutonCritic.com",
+      "names": [
+        "former",
+        "two",
+        "time",
+        "valentina",
+        "shevchenko",
+        "delivers",
+        "twist",
+        "challenge"
+      ],
+      "img": "cutout:valentina-shevchenko"
     }
   ],
   "seed_pending": [],
@@ -7065,7 +7078,8 @@
     "b2c89df352ffff83": 1790275336.77986,
     "eeee5814a87235b2": 1790275994.887191,
     "4fd700fe114b9d50": 1790287759.6122441,
-    "6a94225a3b9c825e": 1790287782.136082
+    "6a94225a3b9c825e": 1790287782.136082,
+    "d449c20356faaefd": 1790289893.9432883
   },
   "pinged_titles": [
     [
@@ -7109,6 +7123,20 @@
       [
         "leave",
         "steveson"
+      ]
+    ],
+    [
+      "Breaking News - Former Two-Time UFC Champion Valentina Shevchenko Delivers a Knockout Twist on MTV's \"The Challenge: Cutthroat\" | TheFutonCritic.com",
+      1790289893.9432883,
+      [
+        "challenge",
+        "delivers",
+        "former",
+        "shevchenko",
+        "time",
+        "twist",
+        "two",
+        "valentina"
       ]
     ]
   ]
