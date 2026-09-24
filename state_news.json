@@ -1,5 +1,6 @@
 {
   "seen": {
+    "12ab7dbc00efd056": 1790236771.3223557,
     "52fa6c5aae47dbda": 1790236603.0456586,
     "80ece4063e01ce00": 1790236456.7010424,
     "20b229a7bf5a53c7": 1790236456.678851,
@@ -2498,8 +2499,7 @@
     "b1d0a11b4c8c9cdc": 1789738434.4355133,
     "e53d09f6105b9b5e": 1789738434.10611,
     "f3838995e9162c3c": 1789738386.2279322,
-    "11ef1eed30a69561": 1789738362.6549287,
-    "3f3d4505098b744d": 1789738362.3719406
+    "11ef1eed30a69561": 1789738362.6549287
   },
   "initialized": true,
   "v": 4,
@@ -4705,16 +4705,21 @@
       "source": "Sherdog",
       "ts": "2026-09-24T05:57:12+00:00",
       "cluster": "c3902b2b7c1"
+    },
+    {
+      "t": "UFC Fight Night: Rosas Jr. vs. Barcelos — Full Card, Start Times, and How to Watch",
+      "source": "Athlon Sports",
+      "ts": "2026-09-24T07:46:53+00:00",
+      "cluster": "c9006e06d70"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T07",
-    20
+    21
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331415",
     "38cbf654-768e-3c07-ad08-7cccf681349b",
     "https://www.mmafighting.com/?p=510040",
     "https://bloodyelbow.com/?p=331352",
@@ -6213,11 +6218,12 @@
     "CBMi1wFBVV95cUxQSnNRajF0b1FlckttcU43WEVHNUV2N0ZqcWZCMWYzRjJfdHBfLVlsZ0ZzWlgxSDNWTDM0UWRkX2l2cUZOQ3JkWW10R0x1WkZ2SVY2bG5ybGVMWUVsVVNHRERRY2ZBQlhybThBZ2l2U2VReF9iWlVSdTFlMGtsVWloZ3Y4cll4SHJabVNNai1RVWdVazVGYXc4TUZDY3BlVENaYTFseW9hSmVDRmd5bkszNU5qUGRmVHhpeXcxNUlhWFhjTGtxSE84Rno1S0prbnpCNml0bUxFaw",
     "CBMi2wFBVV95cUxPVVdlWFRWNjJhbmF5dWw5SmVlS3Z2RlVFal96bDJBRklrVGFQSmlyalYtMEhWZlNHcEx1eHV1SE5rV1dNM1BPX2h1dG9XR1pYazJhb1ZIQWpmQXFPYUhoVU4wTGpYY1RuM04wX3FYSjNQUEVTRkNqTVpQSWk1Q1hmRXV1anNtMTRGZGk4X0lvUEVVaEc5VHFNRXNUYlBBRERJdXpVcDhWQXREVVprZkZGdlNSaVZGWlpnN3RpYzV0Y201MkdUWlZnWDJpNFU5Q25Gc3U5OUdqRkxNWTg",
     "https://www.mmamania.com/?p=474425",
-    "https://www.sherdog.com/news/news/Mauricio-Ruffy-reveals-costly-mistake-before-Arman-Tsarukyan-KO-202934"
+    "https://www.sherdog.com/news/news/Mauricio-Ruffy-reveals-costly-mistake-before-Arman-Tsarukyan-KO-202934",
+    "CBMingFBVV95cUxPQzNxMGgyS3NzSE9MakYzMDdqLWRSeW02V3ZMTU9yMjlNU0l6ODc5VEhUUVhYaTdUdWxSZzEzb2p1VXJSMWVaam1xTEJCQ29NcGhKR05lbkcxN2ZuR1ZFcDd0TUVSbkIyX21kMEl6WDkxWWZVUmFPcjhNN2JYeG15NXQwU1VpVG5KLW12Zkotdl91WjE4eHFjRFpIdmdvdw"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 42,
+    "ai": 43,
     "staged": 2,
     "prio": 3,
     "lost": 0
