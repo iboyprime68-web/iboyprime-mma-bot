@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e1f1bbb1cde5e855": 1790274311.0774162,
     "232a812c4ba741a4": 1790274286.5781872,
     "2b05cdb5fb34b3b2": 1790274286.3696465,
     "80f5b6ac141546ec": 1790274221.666456,
@@ -2498,8 +2499,7 @@
     "cc5b1f0b9b887796": 1789753606.1648405,
     "8c15ce2df6bd541d": 1789753605.861983,
     "9404b2232d9b1338": 1789753605.8587081,
-    "f276961567586cdd": 1789753605.8571546,
-    "9aea5ad0c6e460fb": 1789753605.8379455
+    "f276961567586cdd": 1789753605.8571546
   },
   "initialized": true,
   "v": 4,
@@ -4483,16 +4483,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T16:10:20+00:00",
       "cluster": "cd43a288da0"
+    },
+    {
+      "t": "‘Frozen’ Jean Silva needs to stop ‘avoiding’ Patricio Pitbull and take his knockout like a man",
+      "source": "MMA Mania",
+      "ts": "2026-09-24T16:42:10+00:00",
+      "cluster": "c82d5c30e0f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    10
+    11
   ],
   "yt_eval": [
-    "CBMie0FVX3lxTE5aNXg2cW15eVl3U2RCVXc5cExtQTNVcWxpbjNZT3lTbUlVRVFiblhFdzRIVm1Hbm1pd21CQml2bndVNHdJVVkyRVdoSDVNSnZWZlkxRzFJWWt4UXlhX3VQbVpBRFNYSXRsVF9DSXdTTW1xb0U3a0I0QmVxOA",
     "CBMigAFBVV95cUxQcDh0RU41M2tnNEFhSEdVSmNULTYwUGNNTjM3RnY2aWZ6NVVOMEQzOFhXd1ViM0U1MThFOXQ3Y25QOUl5bW1KU3ZsemdaYmpTQ0pBZFdfOV9pSGR6dUlYVmF1MF9adVgxVU9kMjI1amlIa0hqS0poRmVPelcxeXN4eg",
     "CBMiiAFBVV95cUxQSTVqMFdfc0dMTnFmY0FxU3ZFQUVKdV9KSVNQa0hwQjZRYms5clBvdmdCSUxHRFNZeGR4UGhCYlVoUWpObm1xdV8tS2FWdHBUdUdvclhZQzNyN2FjdXlmM0VFWDVPSGxTckNsZ2dtNkZETEJhTkhidDdmejNiVERJcnBPX3NfSzlG",
     "https://www.mmamania.com/?p=472057",
@@ -5991,11 +5996,12 @@
     "a552ed19-a5f6-37d1-a144-dac4f138afd5",
     "https://bloodyelbow.com/?p=333479",
     "d52e1bcf-0837-3466-b4fc-24154f4df3f9",
-    "10c0e5a7-0126-3352-a6c8-073d29e50971"
+    "10c0e5a7-0126-3352-a6c8-073d29e50971",
+    "https://www.mmamania.com/?p=474505"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 92,
+    "ai": 93,
     "staged": 4,
     "prio": 3,
     "lost": 0
