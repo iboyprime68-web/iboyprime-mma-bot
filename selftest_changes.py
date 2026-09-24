@@ -1212,6 +1212,29 @@ check("no channel name contains a dash", not any("-" in n for n in _names))
 check("the separator is U+250A, not a look-alike",
       all("┊" in n and "|" not in n and "\uFF5C" not in n and "\u2502" not in n
           for n in _names))
+# Sept 25 2026: the owner renamed "North Korea 2/3" to "East Korea 2" / "West
+# Korea 3" by hand, deploy #56 matched neither name and CREATED two duplicates
+# that every member could see. His voice rooms are adopt_only now: found by
+# name they are moved and permissioned, missing they are left alone.
+_ao = [c for c in layout.all_channels() if c.is_voice and getattr(c, "adopt_only", False)]
+check("the owner-named voice rooms are adopt_only, under HIS current names",
+      [c.name for c in _ao] == ["\U0001f50a\u250aNorth Korea", "\U0001f50a\u250aEast Korea 2",
+                                "\U0001f50a\u250aWest Korea 3"])
+os.environ.setdefault("DISCORD_BOT_TOKEN", "test-token")
+import bots_setup as _bs_ao
+_ao_calls = []
+_ao_api, _ao_pause = _bs_ao.api, _bs_ao.pause
+_bs_ao.api = lambda method, path, body=None: (_ao_calls.append((method, (body or {}).get("name"))) or
+                                              (200, {"id": "9%d" % len(_ao_calls)}))
+_bs_ao.pause = lambda *a, **k: None
+try:
+    _ao_ids = _bs_ao.sync_channels({}, {}, [], "EVERYONE")
+finally:
+    _bs_ao.api, _bs_ao.pause = _ao_api, _ao_pause
+_ao_created = {n for m, n in _ao_calls if m == "POST"}
+check("a missing adopt_only channel is never created (the duplicate-channel trap)",
+      not any(c.name in _ao_created for c in _ao) and not any(c.name in _ao_ids for c in _ao)
+      and len(_ao_created) == len([c for c in layout.all_channels() if not getattr(c, "adopt_only", False)]))
 
 # Anti-drift: this is the check that would have caught the original bug, where a
 # rename in one file and not another made bots_setup CREATE a duplicate channel.
