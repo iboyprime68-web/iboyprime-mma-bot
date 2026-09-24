@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ba3ba08c42111ca0": 1790235235.5102203,
     "3892ca1ac0be0f79": 1790235187.7174654,
     "5016d654a32cf7cc": 1790235163.8509228,
     "6185fe9793c8ea9c": 1790235097.697848,
@@ -2498,8 +2499,7 @@
     "89a1a0a1e843da66": 1789722565.9244108,
     "118d7972ad967d38": 1789722439.9082088,
     "91bd75d4d0906d54": 1789722313.6187108,
-    "bc25a1d0eba13433": 1789722313.2767272,
-    "151942d37c533dda": 1789722247.9974527
+    "bc25a1d0eba13433": 1789722313.2767272
   },
   "initialized": true,
   "v": 4,
@@ -4651,16 +4651,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-24T07:32:23+00:00",
       "cluster": "cb913389202"
+    },
+    {
+      "t": "Israel Adesanya Openly Calls Out UFC’s Hypocrisy for Cutting Michael ‘Venom’ Page",
+      "source": "Yardbarker",
+      "ts": "2026-09-24T06:54:51+00:00",
+      "cluster": "cdb65e1ab97"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T07",
-    11
+    12
   ],
   "yt_eval": [
-    "87ac77b8-04be-3c7a-a99a-bc37d04008c9",
     "https://www.mmafighting.com/?p=510004",
     "https://www.mmafighting.com/?p=510104",
     "c8a1fa16-5a6f-34e6-802f-8900fbe3dae4",
@@ -6159,11 +6164,12 @@
     "https://www.mmamania.com/474413/mm-clone",
     "CBMihAFBVV95cUxNRUFZSXJ4ZWZlbXdIc2hzVG9mbFB5d0lUUW80ek9ja1pUR3h1ZG5yRzFEeEVGMTg5aUdfeGp4blIzVi1PNlA1c0lZWkYtUG5aSTNvUDUzaF9pYlhlSzdJWHlfZ0pzLUNwTjJ5RVhUUmdRUTBtcXAtZ3pFUFp6ekJSYTJyU1A",
     "CBMiowFBVV95cUxQX25pTjlCRl91ei1ENDIwVHZQLWZNVzlOWjhhZVN5WjJuY1pqdjJKY0pzRnZZZFJwbUE2N3dnZENWLVI4UVZEdE9MTkdtS3BHRndsYlNrRzFGZlpaTEtYN05nQThXSmh4SUxoUHFIcXp4RURUXzF3MGJpdUFSUWFGZGJkajh5dW9tSE9zc1g3bEtXOEFhTEVrRWlDTFlIT2gtMDhZ",
-    "https://bloodyelbow.com/?p=333385"
+    "https://bloodyelbow.com/?p=333385",
+    "CBMi0gFBVV95cUxQY0FCZV82eG5OYmh3bjJkSmcxREFtNHo5VnlocEtJcm1tLU0zSGRMbTAyVXdZMlIzc2NaM0tGbHNLTGUwQVBsZzBYakxCcGk1WWc5aWlWb2hTc25lT0FYdFJlZEZyWFBhZ29xLVRXQWw1bFZjZW9iY1F1NWRPdE9tR2lmM0R6V05jZml3ZE1oR2RyLW1lZGtCTTFnMmxxV1VicUVHOFN5Z2dMZUM3OHVrLVlLMVVUUFhGWWtIelljaHNIY0hUel9wNFZ2ckNuLS12U2c"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 33,
+    "ai": 34,
     "staged": 2,
     "prio": 2,
     "lost": 0
