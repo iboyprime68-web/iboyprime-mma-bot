@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5eb5d0cd74b1bffd": 1790274616.4475427,
     "be01d39de728707c": 1790274550.6482956,
     "dd40e21c58d3c8c9": 1790274485.469652,
     "c89d016f6f90ee39": 1790274420.6155121,
@@ -2498,8 +2499,7 @@
     "f0222edf2329b9e4": 1789753802.9165967,
     "91039b3264470ed5": 1789753802.6715684,
     "827f4b32064863e1": 1789753738.6415896,
-    "7b7972e7a5363f12": 1789753673.5827937,
-    "be0b1c93ca0dc4a0": 1789753673.32635
+    "7b7972e7a5363f12": 1789753673.5827937
   },
   "initialized": true,
   "v": 4,
@@ -2521,12 +2521,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-22T19:00:00+00:00",
       "cluster": "c9f47c6c666"
-    },
-    {
-      "t": "Bryce Mitchell explains his Flat Earth beliefs in detailed video",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-22T18:30:00+00:00",
-      "cluster": "cd341091eca"
     },
     {
       "t": "Michael Morales and Ian Machado Garry exchange words before agreeing to Saudi Arabia showdown",
@@ -4507,16 +4501,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-24T17:32:06+00:00",
       "cluster": "c793f6d7156"
+    },
+    {
+      "t": "Alexander Volkov Calls Francis Ngannou Unbeatable, Sees Opportunity Amid Heavyweight Shakeup",
+      "source": "MMA Sucka",
+      "ts": "2026-09-24T17:32:09+00:00",
+      "cluster": "c6266ec97b9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    15
+    16
   ],
   "yt_eval": [
-    "CBMikAFBVV95cUxOd0RpSGNnR1dqMkxZd1VWVERxS3dodnU5N3pXMWtBSW9lSEk3dUx0LTdySU1TQkMyYWpQUUY1UzZ4RTNzaXFOMjJ3X2JVNVRuTGVvbkxVbjAtVU1kUFBzTGpwMlhiQnNjVGdSWjk3ckhGMExfMW1SVkxUcW5nSjZXWFF3LUxUY1czODdCdWg2aGE",
     "CBMizwFBVV95cUxNNHlIUi0wYkJzS3F5VWpXa3lSRVVwUnlkQ2Nna3dodWtBaktMNHg4NFVqU3NKcEdlcWZNenRMMHlGckxUS250QXZLaGdXZk9qTnJRU1A3cFZMeXRJS3ZPbG1sNDVDVnZZa1VJQzJZVmRBblNwRFV4LXNTUVF6MGZjNS1GTHY1QmVlaTVFS19tM2hKUVRRZ3oyM2F2QlkyRl9ud0dpUVY5cWp6NlYyVFRZeXhvNkJhZWFHRnNFbjhwWFRxMWxXbXVsMXZocHFYdDA",
     "CBMimAFBVV95cUxPV3hNZnFWV1N0dWI1a3h4SjNLbUhDOVcwaWkzcl9NY0hqLTF0aHJrRVJUX1JyU0NRUG4xUzhSU0dzdy0yYUFtN1pUdXhkUEx2VktGN0ZIZVlWM2k0ZmprSG9RNG54ZkxyRXQtMDJYLVVOdkh2cFhIem1EaE9WUjZfQXJ5czZwOGVEMWplZ1U0ai1FeVp3dXloSw",
     "https://www.mmafighting.com/?p=509692",
@@ -6015,11 +6014,12 @@
     "50f46889-177d-3687-9041-a2279fe48fe9",
     "CBMirgFBVV95cUxPYnBNSW1xSGtKZHNVakctMVoybkhFcmJJaUFrUXdJbkstRkhKSmh3blZsdVBWWGotRFdmU0FjYXc1eE42OVA3WHVzTFpRejhrU3k5Y1FNRExWS05PRjEzU05pWWhhZFRuYVJBQ1BfdVVydlExWjBMN09pUlJ4RWlEdUNfb0tKYldOMEpRYnhWVkJjNmVlbllNQTNFVnNaYWV1NElUR20tNlp5TFFtQ3c",
     "CBMioAFBVV95cUxNQUM1VXdwN3YzWmV2Ujc1aE5TeVhReFN5UTd5bVV5NjJuUmJLTnUtRzM3WnNXYnA2cGRaMmxpN0xUYWpOTHA3VVR2VVJjQXg2c1hIRjhrVU9MZlNtb19hUEQ3b1JITjB5NEQ4QlBxb042LUZuWXV5ak5IZXhLbzIwSXR4by15QnN5YnlybDJ4R3BiVTV2VHI0ZVZhNHRxZVl3",
-    "CBMikwFBVV95cUxNX094VEh2Y3o5SDFVX2tacl8ydXZTaThzUThXQV9DTU1Rb3g2MVh1cmN4OUJSUzl4Ulh2eFRaa1RfUTU3OHpmLXNtMVhXMzQ0Skg4SGZyV2tON1o3UmNDcUJTc3pOOWdRNlNZTC02ZkYtdVhwQVVRa0pTdkdJeU5SeUhjT1RWeDRENkwyNXdRUDNyQVE"
+    "CBMikwFBVV95cUxNX094VEh2Y3o5SDFVX2tacl8ydXZTaThzUThXQV9DTU1Rb3g2MVh1cmN4OUJSUzl4Ulh2eFRaa1RfUTU3OHpmLXNtMVhXMzQ0Skg4SGZyV2tON1o3UmNDcUJTc3pOOWdRNlNZTC02ZkYtdVhwQVVRa0pTdkdJeU5SeUhjT1RWeDRENkwyNXdRUDNyQVE",
+    "CBMiugFBVV95cUxOUjFNcEJDOEhWOVJPWGw4WENzMjFEb1A3WVBkMmt2QlgyQ29sTkdyTUkxV2ZpSVVvY19MYUFqaXNRM3BFeGxseU9VSmpPbUhUOU9qenU1R2lodHY2aGJ2VU10NENrR0UwbkpkV05SMGJKUkJidUpva1lzdXVXVkt2dXBOcDg4UURjZ3dHT3VwQnJ2eGxWa2ZwbnhkWlhUZkZ6NFFfNnVndXJ2cHZOX2p3M1ZJT1dqOE5OZFE"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 97,
+    "ai": 98,
     "staged": 4,
     "prio": 3,
     "lost": 0
