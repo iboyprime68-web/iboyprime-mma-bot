@@ -1,5 +1,7 @@
 {
   "seen": {
+    "71d87063eaad3c32": 1790256313.569429,
+    "772b21ba8daee548": 1790256313.2727706,
     "56ee429c9dd848f5": 1790256289.1542816,
     "0f03340370a08745": 1790256264.6913378,
     "6e7512f031522c70": 1790238048.0562766,
@@ -2497,9 +2499,7 @@
     "16b4f82976546cc9": 1789739095.6206079,
     "626dc4e98401dcf7": 1789739031.0467904,
     "30a9c2c0368039f6": 1789738965.8651428,
-    "8565dcb8449cfdd7": 1789738965.5953915,
-    "8abf943429962727": 1789738965.592131,
-    "7c3f8dbb2328544e": 1789738901.0485992
+    "8565dcb8449cfdd7": 1789738965.5953915
   },
   "initialized": true,
   "v": 4,
@@ -4603,16 +4603,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-24T04:51:39+00:00",
       "cluster": "c81dd4790d8"
+    },
+    {
+      "t": "Will Raul Rosas Jr. retire at 25? Plan to break Jon Jones record and walk away on top revealed",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-24T11:00:00+00:00",
+      "cluster": "c68644fc69d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T13",
-    2
+    3
   ],
   "yt_eval": [
-    "e385d721-3e80-33d6-8897-55928e0f27e8",
     "https://www.mmamania.com/?p=471845",
     "fa0eb881-ac8c-3b55-a0b9-5d19e74fa185",
     "08febb44-a1b3-3255-8b24-dca919f048b7",
@@ -6111,11 +6116,12 @@
     "CBMibEFVX3lxTE5wZUNrWHB1TjRYcURuNktuaVZ6cUQtUkdDQmt0MWhoWk1TWVpEU0xnd0Y5bGFwc2lFWnI5R3NLM0hvaDJaV3I0VUxPUFFpTExTUVlHZm5mYzdIYjV6MDNYdEJxQmQwNGJvZUxHbw",
     "CBMiiAFBVV95cUxOVXF0cUNLYjdrVjUweldUTDUtdzl4NFc5MzV3WTVuM1BXQ2lVWlJhczM5eERrdnZEdklLalRYN0pwMXlqMlAzNE9lVF9SVGJBYWJ1VkFIM0sweWdVTEc5NVpxQzRVNVRwcWZfVUh0N041cFVjemcxS0lnblEyOEpIWWM0dmUyQ1gx",
     "https://www.mmafighting.com/?p=512018",
-    "https://www.mmafighting.com/511643/dnp-morning-report-template-dnp"
+    "https://www.mmafighting.com/511643/dnp-morning-report-template-dnp",
+    "https://bloodyelbow.com/?p=333391"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 54,
+    "ai": 55,
     "staged": 2,
     "prio": 3,
     "lost": 0
