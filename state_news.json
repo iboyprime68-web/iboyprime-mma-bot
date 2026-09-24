@@ -1,5 +1,7 @@
 {
   "seen": {
+    "470b1c11ff35dc58": 1790288287.1487434,
+    "4e8c6b8faa6f9462": 1790288286.8563874,
     "47b03a8ab1d90a12": 1790288223.2552035,
     "1e344be887a44945": 1790288222.9290168,
     "57c4a53923832b0a": 1790288222.9278777,
@@ -2497,9 +2499,7 @@
     "5691c1c667063133": 1789764430.9949882,
     "1929b137997a305c": 1789764430.5403428,
     "1406608ac4e3a877": 1789764365.8250768,
-    "1bc0c1b40ee83f2f": 1789764365.4837568,
-    "ebda6d6b16701af0": 1789764365.4624538,
-    "4d7fc1e5e87fd830": 1789764365.4613984
+    "1bc0c1b40ee83f2f": 1789764365.4837568
   },
   "initialized": true,
   "v": 4,
@@ -4585,13 +4585,19 @@
       "source": "KSDK",
       "ts": "2026-09-24T21:18:00+00:00",
       "cluster": "ce2a462f5d3"
+    },
+    {
+      "t": "Raoni Barcelos Previews Fight vs Raúl Rosas Jr. | HQ UFC Stream of UFC",
+      "source": "CBS Sports",
+      "ts": "2026-09-24T21:21:46+00:00",
+      "cluster": "cef9034b6a9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T22",
-    14
+    15
   ],
   "yt_eval": [
     "CBMimwFBVV95cUxPOUl1dEl2V21YdC0zTnJpZ3BXeHZJT3JQSnZjTGQ2MWpvOXlzaGpQS0FtRk5oMXNMcE5OeGVoNWYxZ1I1ZWVHMEo1dmVfaFE4V3JQNGF5aVprRHQzUlNra2xaLWlNb2JBOHJrSTQ4bDhuTmUwM3BuZ0pHUmU4UVFiRHpyZGRXQWxpVDB2bV9nUkdMcmdVcEd3dm9MRQ",
