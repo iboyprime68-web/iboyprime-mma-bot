@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a621e6f742be15d8": 1790274077.6294105,
     "d78be953b3992deb": 1790274053.1054218,
     "5ed7a1797ec92ebc": 1790274029.2968445,
     "1b2bc9f9c7d6e541": 1790274005.6304817,
@@ -2498,8 +2499,7 @@
     "982b0b721faf78f0": 1789753411.677298,
     "d55b1677592d6a04": 1789753347.109657,
     "332e1a3bb16c9462": 1789753346.8372357,
-    "2d4bc016417d33bf": 1789753282.5560029,
-    "f12c2e4463f6311d": 1789753282.3201528
+    "2d4bc016417d33bf": 1789753282.5560029
   },
   "initialized": true,
   "v": 4,
@@ -4453,16 +4453,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-24T15:05:51+00:00",
       "cluster": "ccf152f4b3c"
+    },
+    {
+      "t": "PFL Chicago lineup set: Carmouche-Bishop title fight headlines",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-24T14:30:56+00:00",
+      "cluster": "c3aead63de0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    3
+    4
   ],
   "yt_eval": [
-    "CBMi9wFBVV95cUxQSEw3S3VfbnA2ajZkanRIcUFqQXlQQjY3NVdhcFhCQTdxdlpJY2RSZndGOTZNeUtJNkIwbEpyYTR3VlowdWtfZHFhN1Rja3FSeE1LY1kySDBhTWNLc2xkOEROaS1xUEkwd2paZXRTbW1PVjFqekNyTG9sbld4c1hRZkJHRlI5WE96Tk5YSkRmUDc5NHhGRktSSWRBNkNleXFCZHJoZDBSMFEwSklCMUFSTGtfR0xWYUFybUxCSWZCVG5DTjNrV0lYWmdSanFPa2FrSXEtc1dTc2s4U1g4NVZaSW1HU3plbkp0c3gwdEJFaHpSNEwzVjNv",
     "CBMihwFBVV95cUxPS3M0VW0yNFR0SFFQMG44THl1c0JweDByUHQ5OG9Wc2o4UWV3QjRzT3hoeW1XNUtwLVZfYVNscHh0MTRDdnRNTHZaMTFkdmYzUTVfblhhU21zN01WLVZMZnR1UVhyLU9TWWxKTDR3bmQxYkdYZ0FFSlRNWGo2eEk5LV80cjVlQlk",
     "CBMia0FVX3lxTE5TZlhaenlqRXRNWUtiTF90cU9qNHdNWW9uRmpCS2FYYm5ob1QxNW5waTZKZG9rOXVHX0F6djBzdG5qODZTU3JkeWVOX2did1BUZDBSU0o0SWZCRVk4Wk9NajVrbzN1UDdZQkhR",
     "CBMijwFBVV95cUxNTnpmb2oxeXU5X2JRZnUxdGdVeHhSSGVaRVctMTZEU0hYOXcwZ1drb3RYM0tVODRKcEw3WjNGaC02RmRaX21Dc3AxYXZsaDZRVDNEYkllOU9GN1F4S0FaRDdhZTloUGdMY2l2RTlycV9GNVV6d011MGdGRlhsVmlBUnUyTTl2bVpFM2FYMjRYSQ",
@@ -5961,11 +5966,12 @@
     "CBMilgJBVV95cUxNUm9sZ0Z2S1M1OUlacGhoNV9WVG5LcWFUSGY0b01kSm9PdUYwNkRhVi1qUTV3U0FKVlRwMXVBbE9FeUJkMUdkRGItRFlVV2w1emxmT2UzbGRRZmhIZGZITzFMS1hCX25GMFNoUUVTcXRaRU82MUhJSGctN0pKd0haMzIyV3JFQUxmZE4tUXBuQ2ZSZVRjU3l1MU9HMk8zUkFYdGszUllpMTNaNkZMR0Q5ZnVMaHpjNzdQUUlnUjZnN1ROWi0tTFQyS0RmNDhIUWttVXlzbE9ZRzh2djhqYjZuazdib3g2ZWUzTW1KdDhhLXZPcjFNNnRBUVRUM3piMnlvVExwQjR5SVdHVTQ0Q1E5WkRFUUVuZw",
     "336efb99-ddcb-32ad-8be2-f61f35d8c032",
     "https://bloodyelbow.com/?p=333453",
-    "https://www.mmafighting.com/?p=511781"
+    "https://www.mmafighting.com/?p=511781",
+    "9f49e114-757e-3093-acda-2937ee444e21"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 85,
+    "ai": 86,
     "staged": 3,
     "prio": 3,
     "lost": 0
