@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4a74ddff5d9a7329": 1790213092.2329342,
     "048581255c793c87": 1790213026.4187405,
     "dcc4d9e69c8177ce": 1790212961.3543997,
     "2abf18f26a7a06ce": 1790212895.8660634,
@@ -2498,8 +2499,7 @@
     "a1a1a8a43a247190": 1789705161.2779036,
     "0001c62192748e93": 1789705097.2523334,
     "0e5dbd919f0d1f78": 1789705032.703366,
-    "23de507b93ec320f": 1789704968.1745272,
-    "a6687f8a1132d64e": 1789704903.3766482
+    "23de507b93ec320f": 1789704968.1745272
   },
   "initialized": true,
   "v": 4,
@@ -4765,16 +4765,21 @@
       "source": "411Mania.",
       "ts": "2026-09-24T00:44:44+00:00",
       "cluster": "c0ef778543c"
+    },
+    {
+      "t": "Charles Oliveira Falls Out of UFC P4P Rankings as Carlos Ulberg Enters Top 15",
+      "source": "MMA Sucka",
+      "ts": "2026-09-24T00:51:21+00:00",
+      "cluster": "c7c741b5e3e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T01",
-    11
+    12
   ],
   "yt_eval": [
-    "CBMikAFBVV95cUxQb21ZejZuS3pfRUhqQ1U3Q3hncG84eUtFT3kxOTVISVhXeHlxRGxMRGMxRFFvaDBNbEpvemc0SmFYTlZ5Z3RmOGlnWG1xYS1SU2tnVlRVZnNZVURhNkxKcjU3bWhXYzVHRTJhTjJVYlBOT29TczRCNmV6ZlctNW40QkNQNnUzeEhGM2dnU0Fwb0o",
     "CBMirwFBVV95cUxQOU1zVnAxblMxa3FQNk9TZ3pZbGJWY2ppYkdENG5fWjVqTDZTVTBzQlM3TDR1azRvMTR0dnRLdHFwUjF2WEdLc1ZHdWFmc1NwRFJUVjlPdlNwTFo0cEt6MDdJUGFLeFYzQ2FUWGVPbW9PYTEzUzdteUtKUWg4NlNDMF8wNnNmWkgxaHBKSDNEVXRIYjB4eEhEQmFpNEVBUS0za0czR2hRRFVoelVmbFdF",
     "CBMiqgFBVV95cUxQRjR3NGNZU2t4V09hMDd6dTVNWFVRdURvN1NBRFFFeEhFbDNGSVRidkFWMWpRX2lqdnN0Y0dkejkxUVRLcVRfNFNHNVpJUWI3SWdTMy1JUHpseUktYkpIMnRiZHg2dDVRREZGXzdjb2lJTlpYcWpHcFlSOXhFeG9zbmZacG8xTjRwN0JwRWU5ZVV3U0swcVBTbFlqRExGZXMxZmdfT0thN1hJZw",
     "CBMi5wFBVV95cUxOX1JORzNiTXFXVFQwbW9obnFwWk1IRzZ3UWpydWxsTVE5NzBNVGFWbFJ5X0ZITWhvSnJ0eHFnTGxhcG1HYi1uSEtpMjlUUVRRei1jdDJ4eldsUWhkNldZMTdySFJ1b3hMOEdUZVpOc1JSdmFrSGp3ZWdyU3JOSmQ5dmFjekRKVkVLcDQzWUhWWC1RQ04tbVRBdk5WRnJMWDduSDVQcmdNa2x3SEhkWXdfbVhVQWN6WVlrb0EyQjRRRUdPb2FjcmNxc3BTT1p6eUU3enVFVW1ScXhXUkJ4eWdrZmw0cHVFOXM",
@@ -6273,29 +6278,17 @@
     "CBMikgFBVV95cUxPZllxSzRfc1pOVWlSdk85N3pzXzhwOGg0a3lDSzdHQzdsT3lTZVZyNjVUZU5fZWhOMElyU0NuamFTa3hpOHdEQ19PTVZFRkZrNXVRMWlvbDU5WkRrcUZmdl84bkoxZjQzZDhWV3FWVl8zVW9WUERVUWtuTlhMckM1bXYyelRUM3NMQkxseS16dGdRZw",
     "CBMiqAFBVV95cUxNZ3JlVzhMSXhCaGJuMl90djBBalpoTHA3YVFKSlZUM0JLRG9aVHBhUHU0UG9fakN1bHQ1TjZ3bG1kQ21KZnhlY1FySkpWQWFqbnFfYVRfcURmQTBCZkpXbVN2b00yaWFoZHVSck8tR2lBMnV5dE45TGliZ2otVk5PSFNNZDA4R2N2WFAzZExDektnajhQOEs0ZlhqQ2pDTXdHUjYwbW9SMlc",
     "CBMipAFBVV95cUxNTHJ0b1oyQzE2Qk9EMGY3Y283QVNLSlE5akdIcF8yUndIV2pVek94Z2ZJVnNMank0TFdxRUJTdjZES0ZIclNTMGg5LUs0Q2NQTnZPd2c1SHNBbnNCZlktOHRsSmU5Mmo3ZWt3aVdFU1dWb2lwUERUN09OSDJ6NW5vWGt1bmtkTlRpaFlPT0dWdG9HRWJWZFlRQ1lEdXktVDEwb0xjOA",
-    "CBMikAFBVV95cUxPb2p4VjUwQ0doU3NZeVBjTnFYbWdYbktpYl8tdXVqVERjc0lCSktYSC1RaFVad2JxeTZ1eHgzbDIwUHVVOVpBS181c2tWaWlqZUlxWk4zRkoxbkJXbjR5a3hVR0ZPLXBRdGFVeW4tTWtiR0VtN252T2F6Z0c2aVhUS2dESUV1V2pOUEEtOC1kU1k"
+    "CBMikAFBVV95cUxPb2p4VjUwQ0doU3NZeVBjTnFYbWdYbktpYl8tdXVqVERjc0lCSktYSC1RaFVad2JxeTZ1eHgzbDIwUHVVOVpBS181c2tWaWlqZUlxWk4zRkoxbkJXbjR5a3hVR0ZPLXBRdGFVeW4tTWtiR0VtN252T2F6Z0c2aVhUS2dESUV1V2pOUEEtOC1kU1k",
+    "CBMipwFBVV95cUxOcnJTSjlTS1J0TlZDWVhJWUxiVEwydGRCcFNLVG1fbmxCV1d6am15aDhxbEdtdHVVNUtyNWhKdUlaZW5rSWN5MUZScWd4MGltNzFHV21mRm5JQ3Z0cURuQTVjeVZsNEVadTVTYkM5VzlyS1dURDJHaXFsSkxDMVRpbF9DOThJRnppY1hrd2dGNS1Fd1BpdDdEMy01QlRwcFFXb1VRYjAwaw"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 11,
+    "ai": 12,
     "staged": 1,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-12T16:58:05.391088+00:00",
-      "t": "Niko Price Set for Second Retirement Fight After UFC Seattle Snub",
-      "names": [
-        "niko",
-        "price",
-        "set",
-        "retirement",
-        "seattle",
-        "snub"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-13T09:31:56.527605+00:00",
       "t": "Dana White reveals UFC ‘will be talking about’ stripping Tom Aspinall of heavyweight title",
@@ -7061,6 +7054,21 @@
         "conor"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-24T01:24:53.160280+00:00",
+      "t": "Charles Oliveira Falls Out of UFC P4P Rankings as Carlos Ulberg Enters Top 15",
+      "names": [
+        "charles",
+        "oliveira",
+        "falls",
+        "out",
+        "rankings",
+        "carlos",
+        "ulberg",
+        "enters"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7129,7 +7137,8 @@
     "84805f7fbcdc7835": 1790196079.8220396,
     "3621acbd7c3f6585": 1790196967.4664893,
     "46d78c60df9ad77e": 1790204473.766162,
-    "120ff51b057e6db4": 1790205916.5876274
+    "120ff51b057e6db4": 1790205916.5876274,
+    "4a74ddff5d9a7329": 1790213091.9228594
   },
   "pinged_titles": [
     [
@@ -7163,6 +7172,20 @@
       [
         "sharaf",
         "steveson"
+      ]
+    ],
+    [
+      "Charles Oliveira Falls Out of UFC P4P Rankings as Carlos Ulberg Enters Top 15",
+      1790213091.9228594,
+      [
+        "carlos",
+        "charles",
+        "enters",
+        "falls",
+        "oliveira",
+        "out",
+        "rankings",
+        "ulberg"
       ]
     ]
   ]
