@@ -1,5 +1,8 @@
 {
   "seen": {
+    "6ec3fbaa6ed2c18a": 1790288873.7636652,
+    "e59b3dfae60dfcfe": 1790288873.4800272,
+    "90809e8f3ab8a39b": 1790288873.47598,
     "dcdcda3042682028": 1790288809.3391554,
     "3bbaef8b8ff29d8d": 1790288745.2490876,
     "04c9d2d46e7fb6ca": 1790288680.8081448,
@@ -2496,10 +2499,7 @@
     "d02667ac80395152": 1789764890.8059871,
     "3cec3ba445a2d3f8": 1789764824.9615457,
     "8bcb9bfd37c132a2": 1789764824.3893068,
-    "88474ee5229313c0": 1789764759.9193356,
-    "6f51723cd11590a8": 1789764759.6127114,
-    "86b91e68af8a7a82": 1789764695.1073241,
-    "222832d642818427": 1789764694.721629
+    "88474ee5229313c0": 1789764759.9193356
   },
   "initialized": true,
   "v": 4,
@@ -4645,13 +4645,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T21:41:34+00:00",
       "cluster": "c23c260d29c"
+    },
+    {
+      "t": "Marquee championship doubleheader UFC’s return to Madison Square Garden – UFC 334",
+      "source": "MyMMANews",
+      "ts": "2026-09-24T21:52:24+00:00",
+      "cluster": "c1268d87776"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T22",
-    24
+    25
   ],
   "yt_eval": [
     "CBMimwFBVV95cUxPOUl1dEl2V21YdC0zTnJpZ3BXeHZJT3JQSnZjTGQ2MWpvOXlzaGpQS0FtRk5oMXNMcE5OeGVoNWYxZ1I1ZWVHMEo1dmVfaFE4V3JQNGF5aVprRHQzUlNra2xaLWlNb2JBOHJrSTQ4bDhuTmUwM3BuZ0pHUmU4UVFiRHpyZGRXQWxpVDB2bV9nUkdMcmdVcEd3dm9MRQ",
