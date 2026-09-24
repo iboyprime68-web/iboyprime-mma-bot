@@ -1,5 +1,9 @@
 {
   "seen": {
+    "da00b35dc7775a8d": 1790212563.6249268,
+    "c84237e030869859": 1790212563.329813,
+    "3289a51e094b4e1d": 1790212563.3264427,
+    "6408e4a398cd28e1": 1790212563.3046317,
     "f205efa77bff87fb": 1790212518.924969,
     "a473a9377d6fc791": 1790212491.5973682,
     "7553e0807ed9dd74": 1790212490.883993,
@@ -2495,11 +2499,7 @@
     "53cd6f64c94fff22": 1789704516.6325276,
     "93deb9c66955dc3a": 1789704516.3632228,
     "6b6e2d648fbeb7c1": 1789704471.8630502,
-    "3d606c4c09eda1cc": 1789704448.5364523,
-    "f5bec46b5a82685e": 1789704384.2672281,
-    "1c9796fc60cc123e": 1789704383.789082,
-    "1c28ccc1fe1a1f4d": 1789704317.3138602,
-    "fbd3488dde7038a9": 1789704253.1606956
+    "3d606c4c09eda1cc": 1789704448.5364523
   },
   "initialized": true,
   "v": 4,
@@ -4723,16 +4723,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-24T00:30:00+00:00",
       "cluster": "c11b3863e56"
+    },
+    {
+      "t": "Raul Rosas Jr. not taking Raoni Barcelos lightly due to huge age gap",
+      "source": "MMA Junkie",
+      "ts": "2026-09-24T00:30:00+00:00",
+      "cluster": "c8ce024a025"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T01",
-    2
+    3
   ],
   "yt_eval": [
-    "7457720b-6d68-31ed-b98a-24e415159cc5",
     "4ef7fedf-20d6-3818-af6e-9bf8d358ad06",
     "https://www.mmamania.com/471465/open-thread-september-11-2026-do-you-play-fantasy-sports",
     "87268ed0-69a3-3fa9-94fc-9d0932255187",
@@ -6231,11 +6236,12 @@
     "CBMickFVX3lxTE1Lc2Y4M25Qd2FKUXhLV3ZOWWZNa0tnWWhjQzY3LWRHWkFXU2h1NXF3a08yeWVCR3U5UGIyYWwyOGo5NEhlcjBncE9CeWNud1ZDc0xTM0dBZmNZTy01cHQtNnYxS05ieWpkMkdlWW8tazFKQQ",
     "CBMiuAFBVV95cUxQdDVTSk0tdzhlQW5pOU40bE5uUURWZk9ZYTdtYmd3T1V2SExLRzZYN1VpcTlxVUw3bk85SGVMN1JHSll5TVZZZHBwcUhEVFFGanRYMC1QaFBLbllqOEVLeFhHZXFwTGFvdDIzel90ZDA1cE1SVjhmVWtZZUlmMVhybDhRN2NLLUxCeHpLdFFQZU1OV29DXzJ0dmVEUWN1MWxrcUIzd0dLM1JyTlpZdmFicERBUV9LeW54",
     "a33506b9-69c8-486d-8300-7c5f697d1e72",
-    "https://bloodyelbow.com/?p=333309"
+    "https://bloodyelbow.com/?p=333309",
+    "CBMivwFBVV95cUxORGdUdklyOHpNMHVmRmpPb1NCNl9WMThFTF9OWHVHU0dsdndfbnhIRVRaLXFUYUNvNHQ3S0gwZ1dyNExzTzdUalJodEx2SmFsVTlPdHpjbnRzVzNPU1BOX2hiWk5RRzlnMlNpSDZNZ01tamFMNy1xdS03Y1F2VXNxQzdFVFRmMi1EdnZfckNDak5oUVFyRFVjUUNvcmpxaXRQQ2d6RHJLeHpIRTE3TjZmcFVVYU1Nd1AxSWVvTVQ4QQ"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 2,
+    "ai": 3,
     "staged": 1,
     "prio": 0,
     "lost": 0
