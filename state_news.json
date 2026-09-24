@@ -1,5 +1,6 @@
 {
   "seen": {
+    "27a0dc0edcca7384": 1790287714.1424162,
     "fc7db2e95792cfd3": 1790287691.4322908,
     "9ba304ce761dced5": 1790277277.589847,
     "eb79ed00bc675b46": 1790277276.6793766,
@@ -2498,8 +2499,7 @@
     "dc641f0922313b26": 1789755981.1696541,
     "b28482b4328aaaac": 1789755917.1510355,
     "70d71a838adc0807": 1789755854.0713394,
-    "6d625249c515397e": 1789755790.0928893,
-    "d3578118c98663db": 1789755726.5780082
+    "6d625249c515397e": 1789755790.0928893
   },
   "initialized": true,
   "v": 4,
@@ -4519,13 +4519,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T15:21:27+00:00",
       "cluster": "c462c41fbda"
+    },
+    {
+      "t": "‘Netflix clearly didn’t get the memo’: Eddie Hearn stands firm that Dana White won’t be involved in Fury vs. Joshua promotion",
+      "source": "MMA Fighting",
+      "ts": "2026-09-24T18:44:58+00:00",
+      "cluster": "c4418dd6c23"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T22",
-    1
+    2
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=471475",
