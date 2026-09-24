@@ -1,5 +1,7 @@
 {
   "seen": {
+    "2569fae24b15be83": 1790275206.6930537,
+    "caa259ffd88e66ab": 1790275206.147604,
     "a098e74d97513c71": 1790275141.5869389,
     "e9500ca290f6082e": 1790275076.2406187,
     "bf6eb14c6e0887b1": 1790275075.9487605,
@@ -2497,9 +2499,7 @@
     "30006deade653f0e": 1789754064.017751,
     "95388e8eb85bd692": 1789754064.0169055,
     "0365499e9d6cba15": 1789754064.0125318,
-    "3aceb055cb2f2380": 1789753999.8121755,
-    "e8a645c9e2fec6fd": 1789753999.554247,
-    "6a4a2773687d554f": 1789753999.552641
+    "3aceb055cb2f2380": 1789753999.8121755
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-22T19:00:00+00:00",
       "cluster": "c9f47c6c666"
-    },
-    {
-      "t": "Michael Morales and Ian Machado Garry exchange words before agreeing to Saudi Arabia showdown",
-      "source": "BJPenn.com",
-      "ts": "2026-09-22T18:39:22+00:00",
-      "cluster": "c0afd358ed1"
     },
     {
       "t": "Lerone Murphy Breaks Silence on Fight Absence: “I Have Not Pulled Out of Any Fight”",
@@ -4555,16 +4549,21 @@
       "source": "MMA Junkie",
       "ts": "2026-09-24T17:50:00+00:00",
       "cluster": "c853e04725d"
+    },
+    {
+      "t": "Raoni Barcelos not worried about age gap with Raul Rosas Jr.",
+      "source": "MMA Sucka",
+      "ts": "2026-09-24T17:52:48+00:00",
+      "cluster": "c34cad575ef"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    25
+    26
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331463",
     "https://bloodyelbow.com/?p=331475",
     "fe702fb8-f6aa-3566-968d-434f736be846",
     "https://bloodyelbow.com/?p=331480",
@@ -6063,11 +6062,12 @@
     "CBMinwFBVV95cUxOLTJKaHM2UmNqZk1zSGRJTGlUejdqdVMtemZOWDN4bjc3SVpwakxKTTBqX2VEX0p5R2VtSDFaNHlLZVE1QWg1SjlBWDFvME9ENFQ0Yk51RGEzeWdTRDc5Y19uV0xFcllQSHZCYmtoQ1NiclkzQ0s4Ykx0RzhZQjR3SjJ4c05keFA3aHZwYVlzb2xDSE44V25lSWh1d3lmOVE",
     "CBMihwFBVV95cUxQUUtfMkZmWWNXM3VuVG9tZmVuTDMxeEZuNTRDdnVwak9lUkJCbEw2ajBMbjVoM25QOU1sbzA0OHVCZjdXcXA2UXBIcHpXZjgwNUJHTXhWMHBOUUNydTBET29XNnNBZGRiUndiRUYtNjB0am5OdnFlYk45ZjdrSW96UDNUeks5MFk",
     "CBMitgFBVV95cUxOcEkxZU9OQUtIcE5OdlhiY2N4eDEzV0JoOEdIZWFzUUFpWVF0SnVjVjc3V08weTdqOWcteDM2QlpwdWxGWUNDQXhqWDdvVktVNGQyYmppaFRJSHVEdVAxVjE1TVEwYi1fV2tYRWJqOXIyV1lZM2d2dlFvUzZZMVV3a2pkSHhjR2xfc25RRjExMVI5ekh0V3RMN19QcXdrcXh2RlNXd3JoYS1LNzh6MjZkSU0tUE1LUQ",
-    "CBMiwwFBVV95cUxOM21hU3ZSejE0WmVFUHkteVZBb2dyaE1iYnN6cU0zVVJ3V3RXRTBpcmVYMlFXUGVVLVRVY2VGVVlWZFBtMzBIX2VKQW1jeFFsbFNxM0pGSTBuRVdPcDFfRFRvaTNaemhBNGdERklwcWhyeE9NQVc4a1FuOFMzdGlSbU1GREt4Ymx0SGtLRThFbkU5WURocEpfQzZ3c053bzV5TUg4UEs2Zy1WVmExLTZWSGg3X2dRMjV5NDh1bEw2eS05QzQ"
+    "CBMiwwFBVV95cUxOM21hU3ZSejE0WmVFUHkteVZBb2dyaE1iYnN6cU0zVVJ3V3RXRTBpcmVYMlFXUGVVLVRVY2VGVVlWZFBtMzBIX2VKQW1jeFFsbFNxM0pGSTBuRVdPcDFfRFRvaTNaemhBNGdERklwcWhyeE9NQVc4a1FuOFMzdGlSbU1GREt4Ymx0SGtLRThFbkU5WURocEpfQzZ3c053bzV5TUg4UEs2Zy1WVmExLTZWSGg3X2dRMjV5NDh1bEw2eS05QzQ",
+    "CBMijwFBVV95cUxPQ1F3SUprNzltUEc0bUFEeS14YmNUVFYzcWI3Sy03cFd6ZnlGbmF3VlM1bXJwUThxUm1tTlBWRGJmVE5ZTWZFQ3djN2tJeUFFYTJTN2c5a09VZ3NFTjY4WGpTMWw3QUtUbXNnYk1FU3ctZWYzcHFXOHVWZlhoWmJoU2dhWF81bjdYYlZxeWFvcw"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 107,
+    "ai": 108,
     "staged": 4,
     "prio": 3,
     "lost": 0
