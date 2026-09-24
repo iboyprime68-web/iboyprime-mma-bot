@@ -1,5 +1,6 @@
 {
   "seen": {
+    "943842e4ab918373": 1790274173.049316,
     "4f3c02364d94f162": 1790274149.0520709,
     "6f85f25a3fe93591": 1790274123.9024446,
     "83727cebf245a40f": 1790274100.7307549,
@@ -2498,8 +2499,7 @@
     "9aea5ad0c6e460fb": 1789753605.8379455,
     "c66e70956d7f978a": 1789753541.4006305,
     "ab58ea49bda867d9": 1789753541.09697,
-    "5949f3d6e5686af6": 1789753476.5073953,
-    "ec73b97b0afe7d0c": 1789753475.6648357
+    "5949f3d6e5686af6": 1789753476.5073953
   },
   "initialized": true,
   "v": 4,
@@ -2521,12 +2521,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-22T19:00:00+00:00",
       "cluster": "c9f47c6c666"
-    },
-    {
-      "t": "Michael Page’s UFC Future in Doubt After Contract Expires",
-      "source": "The Body Lock",
-      "ts": "2026-09-22T18:22:50+00:00",
-      "cluster": "c83505a8a55"
     },
     {
       "t": "MMA manager cites alleged Arman Tsarukyan connection in Ilia Topuria's loaded gloves claim about Justin Gaethje",
@@ -4471,16 +4465,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T15:10:50+00:00",
       "cluster": "c0cf4f1344c"
+    },
+    {
+      "t": "Cain Velasquez reportedly books first match since prison release against a fellow ex-UFC champion",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-24T18:00:00+00:00",
+      "cluster": "cc61ee47442"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    7
+    8
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=471723",
     "CBMirAFBVV95cUxNV0p5VDFsZnJTT3l3UTE1QTNZdGNkakc3RFRzcnNmTkl4Tzl6eVZVMUxMbWEwakltLWpfVkVKZ2lXMHlvN25hLXZ6TDRqbzEtYW0tMjZkSjlWemVUQ29MVDZyYTFXUnRmWFhfd2w3NzdfUThwR3d2eUdEQ2xOVDAyUTY1dHFnSk1TcG42TWVBaDkzNWlldjJ0Vlh3SExFMDVmeHpWZjNGNHlPbXRp",
     "CBMinAFBVV95cUxNd2RGS0FyUHJoWG9XeFIyY0oxMFdOTXJHOXdxcXhFdXpwYXVELUZFVDdNZWVkTmJPUlBDNU5wMFRpTVlzSjR5TFRPaFZ3N0N5blB4aWtxRnR6Rl9QQnJ0WlZYV3NvbDdFRDBhSmc1Zmx2WU9LXzBYeHhaaEExNmFabU82VW1QNGZGNjlQQy1CYVNkOUpUcDYzNWpFUkc",
     "CBMie0FVX3lxTE5aNXg2cW15eVl3U2RCVXc5cExtQTNVcWxpbjNZT3lTbUlVRVFiblhFdzRIVm1Hbm1pd21CQml2bndVNHdJVVkyRVdoSDVNSnZWZlkxRzFJWWt4UXlhX3VQbVpBRFNYSXRsVF9DSXdTTW1xb0U3a0I0QmVxOA",
@@ -5979,24 +5978,17 @@
     "9f49e114-757e-3093-acda-2937ee444e21",
     "https://www.mmafighting.com/?p=512253",
     "https://www.mmafighting.com/?p=512265",
-    "a552ed19-a5f6-37d1-a144-dac4f138afd5"
+    "a552ed19-a5f6-37d1-a144-dac4f138afd5",
+    "https://bloodyelbow.com/?p=333479"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 89,
-    "staged": 3,
+    "ai": 90,
+    "staged": 4,
     "prio": 3,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-13T20:35:30.242185+00:00",
-      "t": "Arman Tsarukyan in do-or-die situation at UFC 331: ‘If I lose this fight, I’m never going to see a title fight’",
-      "names": [
-        "tsarukyan"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-13T23:01:55.595688+00:00",
       "t": "Joshua Van out to prove UFC title win over Alexandre Pantoja was no fluke",
@@ -6769,6 +6761,14 @@
         "joshua",
         "december",
         "cardiff"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-24T18:22:54.065638+00:00",
+      "t": "Cain Velasquez reportedly books first match since prison release against a fellow ex-UFC champion",
+      "names": [
+        "velasquez"
       ],
       "img": "photo"
     }
