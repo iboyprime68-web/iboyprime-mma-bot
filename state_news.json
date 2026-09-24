@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f774d56c255f2167": 1790274811.996893,
     "1dc920f517cf1478": 1790274747.4715953,
     "f429abe840a4f509": 1790274682.5042908,
     "5eb5d0cd74b1bffd": 1790274616.4475427,
@@ -2498,8 +2499,7 @@
     "491fab395c5a34a5": 1789753935.141179,
     "17efd7e6ab246797": 1789753870.5365322,
     "965a858b540197f3": 1789753847.5314653,
-    "f0222edf2329b9e4": 1789753802.9165967,
-    "91039b3264470ed5": 1789753802.6715684
+    "f0222edf2329b9e4": 1789753802.9165967
   },
   "initialized": true,
   "v": 4,
@@ -4519,16 +4519,21 @@
       "source": "MiddleEasy",
       "ts": "2026-09-24T17:32:26+00:00",
       "cluster": "c47ea90f738"
+    },
+    {
+      "t": "MMA Fighter Left in Scary Position After Violent Head Kick Knockout",
+      "source": "Sports Illustrated",
+      "ts": "2026-09-24T17:34:47+00:00",
+      "cluster": "c93ccdf2c6e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    18
+    19
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=509692",
     "https://www.mmamania.com/?p=471677",
     "https://www.mmafighting.com/?p=507991",
     "https://bloodyelbow.com/?p=331449",
@@ -6027,11 +6032,12 @@
     "CBMikwFBVV95cUxNX094VEh2Y3o5SDFVX2tacl8ydXZTaThzUThXQV9DTU1Rb3g2MVh1cmN4OUJSUzl4Ulh2eFRaa1RfUTU3OHpmLXNtMVhXMzQ0Skg4SGZyV2tON1o3UmNDcUJTc3pOOWdRNlNZTC02ZkYtdVhwQVVRa0pTdkdJeU5SeUhjT1RWeDRENkwyNXdRUDNyQVE",
     "CBMiugFBVV95cUxOUjFNcEJDOEhWOVJPWGw4WENzMjFEb1A3WVBkMmt2QlgyQ29sTkdyTUkxV2ZpSVVvY19MYUFqaXNRM3BFeGxseU9VSmpPbUhUOU9qenU1R2lodHY2aGJ2VU10NENrR0UwbkpkV05SMGJKUkJidUpva1lzdXVXVkt2dXBOcDg4UURjZ3dHT3VwQnJ2eGxWa2ZwbnhkWlhUZkZ6NFFfNnVndXJ2cHZOX2p3M1ZJT1dqOE5OZFE",
     "CBMirgFBVV95cUxNWWFNMWFtZnB2NnhiSDE2R0YtREdXWWlzOXJ2Nm5BeTQyTjRBcWpaeWtUN3BscGJmaG44aGptSVFvZW9oSzM3LWhfZk9rZ2pGbDVuRldfRVY4aVNDTTl3M0hydzNqaFlKY2RHRElGY0JfdjdBTHNieUhrdzBydERyeXlRUmZlbTBhZk1QZG5ROXlRZGJZaXhJeDZqYmNhdjAzY09wWE13MDRHM1ZsQlE",
-    "CBMiiAFBVV95cUxPaE5RR3lrakk5Y2pZdEg2SnNYMWFHUXlzN1FnUW1RNUxISG9tSi1iVEZTbXl3bVp6ZGdlYjFLRzJvUi0xbVhpaksxYUZHdXhjYTNxQ2FhWUJMWnpiSW5RS3FTZS1xbkpLZlF6a2NObjFaSGRDak5WNkNLZHJ6aU5sMlM0RmR5Y3lO"
+    "CBMiiAFBVV95cUxPaE5RR3lrakk5Y2pZdEg2SnNYMWFHUXlzN1FnUW1RNUxISG9tSi1iVEZTbXl3bVp6ZGdlYjFLRzJvUi0xbVhpaksxYUZHdXhjYTNxQ2FhWUJMWnpiSW5RS3FTZS1xbkpLZlF6a2NObjFaSGRDak5WNkNLZHJ6aU5sMlM0RmR5Y3lO",
+    "CBMioAFBVV95cUxOa3BvLXZmOXZkc1ZzcUlTYVVKZW1hWUwwa1ZOTEk4TEdWY1RqQ0tLM1VhRktSSGZXa1FHLUlsVmplaU1zSUt3eVQxaldHREtrOE9ZTHVVWGhxRTZUQnBRbGFvTDR0enNBeFg0Tlp4YWZac3BRY0FNWUhELW9xeldYMDgxdTVZVlRHUE5kSVJnaXpITEZFZ0gtcHlIN05UeEd3"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 100,
+    "ai": 101,
     "staged": 4,
     "prio": 3,
     "lost": 0
