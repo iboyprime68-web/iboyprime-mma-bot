@@ -1,5 +1,8 @@
 {
   "seen": {
+    "6540785992abc469": 1790287896.2302291,
+    "95ec77a25b92902f": 1790287895.9139438,
+    "799418ed19ffe089": 1790287895.9104173,
     "9884317e9259ac5f": 1790287832.3656862,
     "95df17c5e0cd1cb1": 1790287808.3650427,
     "6a94225a3b9c825e": 1790287782.5840676,
@@ -2496,10 +2499,7 @@
     "a273122f9fd445e7": 1789764233.3241682,
     "c6a9fbc8b8ab72ca": 1789764167.9239507,
     "8d2085fb2b881ac1": 1789764103.007777,
-    "811786d1bce1b855": 1789764058.246612,
-    "a6f7e9a27c2a125d": 1789764035.6478567,
-    "a9c625b2098ba6e3": 1789764011.2121239,
-    "d1c62f2cea8ec617": 1789763987.859122
+    "811786d1bce1b855": 1789764058.246612
   },
   "initialized": true,
   "v": 4,
@@ -4549,13 +4549,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T16:55:09+00:00",
       "cluster": "c2f93ddb8cc"
+    },
+    {
+      "t": "UFC champ Valentina Shevchenko to appear on MTV reality show",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-24T19:30:16+00:00",
+      "cluster": "cefdfcad390"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T22",
-    7
+    8
   ],
   "yt_eval": [
     "CBMimwFBVV95cUxPOUl1dEl2V21YdC0zTnJpZ3BXeHZJT3JQSnZjTGQ2MWpvOXlzaGpQS0FtRk5oMXNMcE5OeGVoNWYxZ1I1ZWVHMEo1dmVfaFE4V3JQNGF5aVprRHQzUlNra2xaLWlNb2JBOHJrSTQ4bDhuTmUwM3BuZ0pHUmU4UVFiRHpyZGRXQWxpVDB2bV9nUkdMcmdVcEd3dm9MRQ",
