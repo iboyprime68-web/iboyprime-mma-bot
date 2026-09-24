@@ -1,5 +1,6 @@
 {
   "seen": {
+    "56390c4d42507c36": 1790212760.6348784,
     "938076363c910387": 1790212694.5518053,
     "43ca04a538f71516": 1790212694.2094605,
     "9e02a7fc05ac4d70": 1790212629.185116,
@@ -2498,8 +2499,7 @@
     "3fb67d363ebf5b1d": 1789704773.347429,
     "b52151abad3970e2": 1789704709.370921,
     "6b27c8ace8b61119": 1789704709.121645,
-    "95b0183c94fd2f8a": 1789704645.0434625,
-    "9ec8c0eda4cc82cc": 1789704580.6236894
+    "95b0183c94fd2f8a": 1789704645.0434625
   },
   "initialized": true,
   "v": 4,
@@ -2563,12 +2563,6 @@
       "source": "MMA Sucka",
       "ts": "2026-09-22T03:54:44+00:00",
       "cluster": "cb0a509ac7b"
-    },
-    {
-      "t": "20 pounds?!?! Flyweight champion Joshua Van was a Featherweight for UFC 331 title defense",
-      "source": "MMA Mania",
-      "ts": "2026-09-22T01:18:51+00:00",
-      "cluster": "c5ae225e34a"
     },
     {
       "t": "Midnight Mania! Sobbing Silva Reacts To Ruffy KO",
@@ -4741,16 +4735,21 @@
       "source": "MiddleEasy",
       "ts": "2026-09-24T00:35:21+00:00",
       "cluster": "c55cdd88aad"
+    },
+    {
+      "t": "Gable Steveson Denies 2019 Allegation, Vows UFC Comeback After Sean Sharaf Knockout",
+      "source": "MiddleEasy",
+      "ts": "2026-09-24T00:35:21+00:00",
+      "cluster": "cefc3a8405e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T01",
-    5
+    6
   ],
   "yt_eval": [
-    "87268ed0-69a3-3fa9-94fc-9d0932255187",
     "CBMi9wFBVV95cUxPV2NyYXRtNS03QUpsZm4xU0NKTl9TV3RteW9CTE5wYXE0R1ZzMFlPS2lEdDd5UjZtUTlQTE5tNHBSQU1kN3pVUWhPV0RGN0xObmNlY1BraDJHTGFtMS1rd3JrTndQX3ItSmVjZmVkR1VqVWI1bXdZR2R6RkV6VV9UWDk1UG1HYXZhRlVkWnotSjNNejltUE54a1NQZC03NTRsUFBRdFdtYnR5M3JxNjM2aWNaOGp4a0FrRzY4b1V0SWx4LXkyMFFZQXN6NFBnQklTRFpvckhQam9tdXhKdXdXMlJlbDUwZmFqV3FCbjRjaGpQREh2Ry1R",
     "CBMiYEFVX3lxTE1oTUd2MGc1OVdEcnNMU3dSa0pCSlBSdmZ5bFBJaEo4U1JoQy1qcDRYSmRSelFfdlJkZkVBLThNZzYtdEp2T2hBb2xlSDljMkxoeWZYbjFtNTU5MkNoVE0wLQ",
     "CBMivwFBVV95cUxOX0k3YV8xMGl2ZmdqZ0FGRHJPZC1mSUZfQ3JIMlZmcnVFTUhJNEQ0R1RRMDFITE9FRGh2bjlhVmpZdy1BUGJ5RnlKWi1CcnNPOE5ScHMzczBOemJfYklHRVZpS0hFbFdUOFRCS2tWYW1GSndPcFo1YWNBMUw3Q2tsU09US1pjQVhKakRWUEJRNk5qV3VJcDhYNGhCX21zN0ZKMk1PaGQ3blRZS3MwbUdzUmdzZUZxeEF3U3pxN00wcw",
@@ -6249,11 +6248,12 @@
     "https://bloodyelbow.com/?p=333309",
     "CBMivwFBVV95cUxORGdUdklyOHpNMHVmRmpPb1NCNl9WMThFTF9OWHVHU0dsdndfbnhIRVRaLXFUYUNvNHQ3S0gwZ1dyNExzTzdUalJodEx2SmFsVTlPdHpjbnRzVzNPU1BOX2hiWk5RRzlnMlNpSDZNZ01tamFMNy1xdS03Y1F2VXNxQzdFVFRmMi1EdnZfckNDak5oUVFyRFVjUUNvcmpxaXRQQ2d6RHJLeHpIRTE3TjZmcFVVYU1Nd1AxSWVvTVQ4QQ",
     "80e81026-840b-38fa-a093-78c03c911f79",
-    "CBMikAFBVV95cUxPQU9KQ1ZXb3EydmpwOW44RUZUSFJlNG5EeUloNktTdEhRb1hOeG12V0Q1cHVnS1FCOVU5R1piZGFjbnI2QkQwX0s1NVlKbnpYTTdYWWNrU09BaU41Nm1VX2lJV2U5NEFlOGlUQ2NNanZlOE9XcV9jaGtCaG5PaGdUanhhRnhaMTRTWnZGR2s0Y2Y"
+    "CBMikAFBVV95cUxPQU9KQ1ZXb3EydmpwOW44RUZUSFJlNG5EeUloNktTdEhRb1hOeG12V0Q1cHVnS1FCOVU5R1piZGFjbnI2QkQwX0s1NVlKbnpYTTdYWWNrU09BaU41Nm1VX2lJV2U5NEFlOGlUQ2NNanZlOE9XcV9jaGtCaG5PaGdUanhhRnhaMTRTWnZGR2s0Y2Y",
+    "CBMipwFBVV95cUxNOHp3c2NEU0tLWVhzZ251ZlVwM08zSk5ZX2lMMVU3RTdROU9wUjZtcE42TjZia3VjV1UwSVd4SlBFSVZFU1U4WDRBdE1aZ004UDhTY3ZyTlYxQ0x0dG8wNmpxeE03MHdMcWY0aW9MaGZ6eGNBTmpZM0praE1fUXBsbnJOemZPZlk4dms4enExd3F0UFQ3NENpWnNTMXpkaldNTzBwQTc4Zw"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 5,
+    "ai": 6,
     "staged": 1,
     "prio": 0,
     "lost": 0
