@@ -1,5 +1,8 @@
 {
   "seen": {
+    "85107a7c074ae82e": 1790235301.074053,
+    "f2448e491f805fe6": 1790235300.6716573,
+    "c2f6dbac265d1f36": 1790235300.6701636,
     "ba3ba08c42111ca0": 1790235235.5102203,
     "3892ca1ac0be0f79": 1790235187.7174654,
     "5016d654a32cf7cc": 1790235163.8509228,
@@ -2496,10 +2499,7 @@
     "7dde6fcaea8b5ff1": 1789722878.1725304,
     "79e44dd92ee51016": 1789722877.8932154,
     "a32ce7175432b01d": 1789722753.3795702,
-    "89a1a0a1e843da66": 1789722565.9244108,
-    "118d7972ad967d38": 1789722439.9082088,
-    "91bd75d4d0906d54": 1789722313.6187108,
-    "bc25a1d0eba13433": 1789722313.2767272
+    "89a1a0a1e843da66": 1789722565.9244108
   },
   "initialized": true,
   "v": 4,
@@ -4657,16 +4657,21 @@
       "source": "Yardbarker",
       "ts": "2026-09-24T06:54:51+00:00",
       "cluster": "cdb65e1ab97"
+    },
+    {
+      "t": "Barcelos",
+      "source": "UFC.com",
+      "ts": "2026-09-24T07:12:56+00:00",
+      "cluster": "ca67a1e16d0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T07",
-    12
+    13
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=510004",
     "https://www.mmafighting.com/?p=510104",
     "c8a1fa16-5a6f-34e6-802f-8900fbe3dae4",
     "https://www.mmafighting.com/?p=509985",
@@ -6165,11 +6170,12 @@
     "CBMihAFBVV95cUxNRUFZSXJ4ZWZlbXdIc2hzVG9mbFB5d0lUUW80ek9ja1pUR3h1ZG5yRzFEeEVGMTg5aUdfeGp4blIzVi1PNlA1c0lZWkYtUG5aSTNvUDUzaF9pYlhlSzdJWHlfZ0pzLUNwTjJ5RVhUUmdRUTBtcXAtZ3pFUFp6ekJSYTJyU1A",
     "CBMiowFBVV95cUxQX25pTjlCRl91ei1ENDIwVHZQLWZNVzlOWjhhZVN5WjJuY1pqdjJKY0pzRnZZZFJwbUE2N3dnZENWLVI4UVZEdE9MTkdtS3BHRndsYlNrRzFGZlpaTEtYN05nQThXSmh4SUxoUHFIcXp4RURUXzF3MGJpdUFSUWFGZGJkajh5dW9tSE9zc1g3bEtXOEFhTEVrRWlDTFlIT2gtMDhZ",
     "https://bloodyelbow.com/?p=333385",
-    "CBMi0gFBVV95cUxQY0FCZV82eG5OYmh3bjJkSmcxREFtNHo5VnlocEtJcm1tLU0zSGRMbTAyVXdZMlIzc2NaM0tGbHNLTGUwQVBsZzBYakxCcGk1WWc5aWlWb2hTc25lT0FYdFJlZEZyWFBhZ29xLVRXQWw1bFZjZW9iY1F1NWRPdE9tR2lmM0R6V05jZml3ZE1oR2RyLW1lZGtCTTFnMmxxV1VicUVHOFN5Z2dMZUM3OHVrLVlLMVVUUFhGWWtIelljaHNIY0hUel9wNFZ2ckNuLS12U2c"
+    "CBMi0gFBVV95cUxQY0FCZV82eG5OYmh3bjJkSmcxREFtNHo5VnlocEtJcm1tLU0zSGRMbTAyVXdZMlIzc2NaM0tGbHNLTGUwQVBsZzBYakxCcGk1WWc5aWlWb2hTc25lT0FYdFJlZEZyWFBhZ29xLVRXQWw1bFZjZW9iY1F1NWRPdE9tR2lmM0R6V05jZml3ZE1oR2RyLW1lZGtCTTFnMmxxV1VicUVHOFN5Z2dMZUM3OHVrLVlLMVVUUFhGWWtIelljaHNIY0hUel9wNFZ2ckNuLS12U2c",
+    "CBMia0FVX3lxTE96d1VGcHFVeDUtcGxkM3ZMaFJRRjU1RVNCV1lNRkV6MEE3Q2dyTE5XeVBUQlIyRzRmRHA4MUFmVTNJdFBVaDV3aURmTmFLWVdmUWZ3R0ZUTWhGc0pWVkFqbjBTcF9SYno1djFN"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 34,
+    "ai": 35,
     "staged": 2,
     "prio": 2,
     "lost": 0
