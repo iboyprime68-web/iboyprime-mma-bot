@@ -38,10 +38,10 @@ class Ch(object):
     `rules` channel as far as mod_setup and Discord's Community mode care)."""
 
     __slots__ = ("key", "name", "ctype", "read_only", "topic", "old_names",
-                 "aliases", "owner_only")
+                 "aliases", "owner_only", "adopt_only")
 
     def __init__(self, key, name, ctype=TEXT, read_only=False, topic="",
-                 old_names=(), aliases=(), owner_only=False):
+                 old_names=(), aliases=(), owner_only=False, adopt_only=False):
         self.key = key
         self.name = name
         self.ctype = ctype
@@ -55,6 +55,12 @@ class Ch(object):
         # role-gated channel would leak to the owner's friends. Only a member
         # overwrite on guild.owner_id says what he actually asked for.
         self.owner_only = bool(owner_only)
+        # adopt_only: a channel the OWNER names and renames by hand. The deploy
+        # moves it into place and sets its permissions when it finds it by name,
+        # and NEVER creates it: after he renamed "North Korea 2/3" to "East Korea
+        # 2" / "West Korea 3", deploy #56 matched neither name and created two
+        # empty duplicates that every member could see (Sept 25 2026).
+        self.adopt_only = bool(adopt_only)
 
     @property
     def is_voice(self):
@@ -148,9 +154,12 @@ CATEGORIES = [
         # NO old_names: the live channel ALREADY carries this exact name (it is
         # the original "🔊 General" he renamed), so the new-name lookup finds
         # it and it is MOVED, never recreated - its history survives.
-        Ch(None, "🔊┊North Korea", VOICE, False, ""),
-        Ch(None, "🔊┊North Korea 2", VOICE, False, ""),
-        Ch(None, "🔊┊North Korea 3", VOICE, False, ""),
+        # He renamed 2 and 3 himself (Sept 2026), so these are HIS current
+        # names, and all three are adopt_only: renamed again, the deploy
+        # leaves them alone instead of creating duplicates.
+        Ch(None, "🔊┊North Korea", VOICE, False, "", adopt_only=True),
+        Ch(None, "🔊┊East Korea 2", VOICE, False, "", adopt_only=True),
+        Ch(None, "🔊┊West Korea 3", VOICE, False, "", adopt_only=True),
     ], old_names=["🥊 MMA & COMBAT SPORTS"]),
 
     Cat("🔊 VOICE", [
