@@ -1,5 +1,7 @@
 {
   "seen": {
+    "f2108b584030995f": 1790293432.301014,
+    "88677b0e726e23d7": 1790293432.0124202,
     "9ccec8dcd5468883": 1790293368.641189,
     "d19cbef10114e42b": 1790293305.477696,
     "fedfb3a5f58648e3": 1790293305.066297,
@@ -2497,9 +2499,7 @@
     "7b3ad0ea740349b2": 1789772876.8688245,
     "ecd270cb365f3acd": 1789772854.4693823,
     "262850a53c8f6fb6": 1789772853.8660278,
-    "3e2ab4350b18cedb": 1789767149.144541,
-    "bbf3bbbc010460b9": 1789767084.5813522,
-    "b1c566c8e5535721": 1789767019.1703002
+    "3e2ab4350b18cedb": 1789767149.144541
   },
   "initialized": true,
   "v": 4,
@@ -4663,13 +4663,19 @@
       "source": "CBS Sports",
       "ts": "2026-09-24T22:52:39+00:00",
       "cluster": "c27ade869a3"
+    },
+    {
+      "t": "Ex-UFC Fighter Reveals Who Should Challenge Justin Gaethje Next",
+      "source": "heavy.com",
+      "ts": "2026-09-24T23:17:12+00:00",
+      "cluster": "ce8b90b6967"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T23",
-    5
+    6
   ],
   "yt_eval": [
     "CBMi0gFBVV95cUxNVTUxRW5vN2lWWUJlSnNRaVFNSlVmUHIyLVJLNlJZV3NVa1JmQ1BlMXB1RW96eVlBVjBMREw3ZHZQM01ONTdPczBsUU8ydlA5dkd3RmkwNGdEZFZ1aTFjeUtVSC1sQVBXUks3enE1bUNGX3Z2bkljWXU2ZzJ1Z2E2M2VIamp3S2JkQlo4TlVqUWZyRjUxN0JBUjVhVFhVWGlPczhELXAtRWkxNXNMMFZFZlVWM1VNWjlhNXM4d2FRWERLUjlYMjU1V2hlSnNWajQtYWc",
