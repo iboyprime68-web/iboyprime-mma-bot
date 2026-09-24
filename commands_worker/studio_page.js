@@ -38,7 +38,7 @@ export const STUDIO_HTML = `<!doctype html>
 <title>Studio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;800;900&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#08080C; --card:#12121B; --card2:#181823; --sunk:#0D0D14;
@@ -289,7 +289,11 @@ input[type=range]::-moz-range-thumb{
   font-size:12px;font-weight:700;padding:0 7px;flex:none;cursor:pointer;
 }
 .tbar .seg{padding:2px;flex:none}
-.tbar .seg button{min-height:32px;font-size:11px;padding:0 9px}
+/* flex:none + nowrap: as flex:1 items with min-width:0 the buttons shrank
+   below their own text, and "Underline" spilled out over the swatches */
+.tbar .seg button{min-height:32px;font-size:11px;padding:0 10px;flex:none;white-space:nowrap}
+.tchip.wand{background:linear-gradient(140deg,rgba(139,112,255,.22),rgba(91,61,245,.22));color:var(--text);border-color:rgba(139,112,255,.55)}
+.tchip.wand:hover{background:linear-gradient(140deg,var(--accent),var(--deep));color:#fff}
 .tsw{width:28px;height:28px;border-radius:8px;border:2px solid var(--line);cursor:pointer;padding:0;flex:none}
 .tsw[aria-pressed=true]{border-color:#fff;box-shadow:0 0 0 2px rgba(255,255,255,.18)}
 
@@ -425,6 +429,86 @@ html[data-shell=classic] .steps{display:none}
 .badge.off{color:var(--faint)}
 .keyrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
 
+/* ---- Sept 24 2026: photo strip, looks, words, design check ---- */
+.acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.sugg{display:grid;gap:7px;margin-top:10px}
+.sugg:empty{display:none}
+.suggbtn{text-align:left;background:var(--sunk);border:1px solid var(--line);border-radius:11px;padding:10px 12px;cursor:pointer;
+  font-size:13.5px;font-weight:800;letter-spacing:.3px;text-transform:uppercase;line-height:1.35}
+.suggbtn:hover{border-color:var(--accent)}
+.suggbtn .h{color:var(--accent)}
+.picks{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+.pickbtn{flex:0 0 96px;background:var(--card2);border:1px solid var(--line);border-radius:11px;overflow:hidden;cursor:pointer;padding:0;text-align:left}
+.pickbtn[aria-pressed=true]{border-color:var(--hot);box-shadow:0 0 0 1px var(--hot) inset}
+.pickbtn .ph{display:block;width:100%;height:72px;background:#0A0A11 center/cover no-repeat}
+.pickbtn .ph.loading{background:linear-gradient(100deg,#141420,#1D1D2B,#141420);background-size:220% 100%;animation:sh 1.3s linear infinite}
+.pickbtn .ph.failed{background:repeating-linear-gradient(135deg,#15151F 0 8px,#1B1B27 8px 16px)}
+.pickbtn .lbl{display:block;font-size:10.5px;font-weight:700;color:var(--dim);padding:5px 7px}
+.checks{display:grid;gap:8px}
+.check{display:flex;align-items:center;gap:10px;background:var(--sunk);border:1px solid rgba(255,170,90,.35);border-radius:11px;padding:9px 11px;font-size:13px;font-weight:600;line-height:1.4}
+.check span{flex:1}
+.checks .note.ok{color:var(--ok)}
+.steps button{position:relative}
+.steps .dot{position:absolute;top:6px;right:10px;width:8px;height:8px;border-radius:50%;background:#FFAA5A;box-shadow:0 0 8px rgba(255,170,90,.8)}
+.steps .dot[hidden]{display:none}
+html.picking #cv{cursor:crosshair}
+
+/* ---- the wide layout: queue | poster | steps ----
+   The owner's 2000px screen showed a 470px poster with both sides of the page
+   empty. The poster now takes the height the window actually has (--stageH,
+   measured by sizeStage), and at 1500px+ the staged queue gets its own column. */
+.queue[hidden]{display:none}
+@media(min-width:960px){
+  html[data-shell=steps] .canvas-wrap{max-width:min(100%, calc(var(--stageH, 68vh) * var(--ar)))}
+  html[data-shell=steps] .stage{max-width:none;margin:0}
+  html[data-shell=steps] .split{grid-template-columns:minmax(0,1fr) 440px;justify-content:stretch}
+  .exportrow{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .stagehint{margin-bottom:6px}
+  /* the controls sit centred over the poster instead of hugging the left edge
+     of a column that is now much wider than the poster */
+  html[data-shell=steps] .tbar, html[data-shell=steps] .exportrow{max-width:920px;margin-left:auto;margin-right:auto}
+}
+@media(min-width:1200px){
+  body{font-size:15.5px}
+  html[data-shell=steps] main{max-width:none;padding-left:22px;padding-right:22px}
+  label.lbl{font-size:11px}
+  .chead h2{font-size:12px}
+  .note{font-size:12.5px}
+}
+@media(min-width:1500px){
+  html[data-shell=steps] .split{grid-template-columns:300px minmax(0,1fr) 460px}
+  .queue{position:sticky;top:76px;max-height:calc(100vh - 96px);overflow:hidden;display:flex;flex-direction:column}
+  .queue .card{display:flex;flex-direction:column;min-height:0;height:100%}
+  .queue .rail{flex-direction:column;overflow-x:hidden;overflow-y:auto;scroll-snap-type:y proximity;padding:2px 2px 8px;flex:1;min-height:0}
+  .queue .railitem{flex:none;display:grid;grid-template-columns:104px minmax(0,1fr);grid-template-rows:auto 1fr;align-items:start}
+  .queue .railitem .ph{grid-row:1 / span 2;height:100%;min-height:92px}
+  .queue .railitem .hl{padding:8px 10px 2px}
+  .queue .railitem .why{min-height:0;padding:2px 10px 8px;max-height:3.1em}
+  .queue .skel{flex:none;height:96px}
+}
+
+/* ---- polls: the image workshop ---- */
+.pollwrap{max-width:1180px;margin:0 auto;display:grid;gap:14px}
+.pollpicks{display:flex;gap:9px;overflow-x:auto;padding-bottom:4px}
+.pollpick{flex:0 0 250px;text-align:left;background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:10px 12px;cursor:pointer}
+.pollpick:hover{border-color:var(--accent)}
+.pollpick[aria-pressed=true]{border-color:var(--hot);box-shadow:0 0 0 1px var(--hot) inset}
+.pollpick b{display:block;font-size:13px;font-weight:700;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pollpick i{display:block;font-style:normal;font-size:10.5px;color:var(--faint);margin-top:4px}
+.pollbar{display:flex;gap:9px;flex-wrap:wrap;align-items:center}
+.pollbar .seg{flex:none}
+.pollbar .seg button{flex:none;padding:0 14px}
+.optgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.optgrid .opt{flex-direction:column;align-items:stretch;margin:0}
+.optgrid .opt + .opt{margin-top:0}
+.tilewrap{position:relative}
+.optgrid .opt canvas{width:100%;height:auto;aspect-ratio:1/1;border-radius:12px}
+.tilestate{position:absolute;left:10px;right:10px;bottom:10px;border-radius:10px;padding:9px 11px;font-size:12px;font-weight:700;background:rgba(8,8,12,.86);border:1px solid var(--line)}
+.tilestate.busy{border-color:var(--accent);color:var(--text)}
+.tilestate.err{border-color:#FF9A9A;color:#FFD0D0}
+.opt textarea{min-height:70px;font-size:13.5px}
+.btn.sm{min-height:38px;font-size:13px;padding:0 13px}
+
 /* ---- toast ---- */
 #toast{
   position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom));transform:translate(-50%,24px);
@@ -451,6 +535,8 @@ html[data-shell=classic] .steps{display:none}
 <section class="view" id="view-post" role="tabpanel" aria-labelledby="tab-post">
 
   <div class="split">
+    <!-- wide screens: the staged queue lives in its own column (placeQueue) -->
+    <aside class="queue" id="queueCol" aria-label="Staged posts" hidden></aside>
     <div class="stage">
 
       <!-- everything he reaches for while looking at the poster lives here, above
@@ -476,6 +562,8 @@ html[data-shell=classic] .steps{display:none}
           <span class="tsep"></span>
           <button class="ibtn" id="tbUndo" type="button" aria-label="Undo" title="Undo"></button>
           <button class="ibtn" id="tbRedo" type="button" aria-label="Redo" title="Redo"></button>
+          <span class="tsep"></span>
+          <button class="tchip wand" id="autoBtn" type="button" title="Frame on the face, grade, highlight the news word">Auto design</button>
         </div>
         <div class="trow">
           <div class="seg sm" role="group" aria-label="Layer to move" id="layerSeg">
@@ -507,7 +595,7 @@ html[data-shell=classic] .steps{display:none}
         <div class="hud" id="hud" aria-hidden="true"></div>
       </div>
       <p class="stagehint">Drag on the poster to move the layer inside the box. Arrow keys nudge.</p>
-      <div class="grid2">
+      <div class="grid2 exportrow" id="exportRow">
         <button class="btn pri" id="dl" type="button">Download PNG</button>
         <button class="btn" id="copyImg" type="button">Copy image</button>
         <button class="btn" id="copyCap" type="button">Copy caption</button>
@@ -530,7 +618,7 @@ html[data-shell=classic] .steps{display:none}
            column straight back. -->
       <nav class="steps" id="stepbar" aria-label="Workflow"></nav>
 
-      <div class="card" data-step="1">
+      <div class="card" data-step="1" id="cardQueue">
         <div class="chead">
           <h2>Staged by the bot</h2>
           <span class="grow"></span>
@@ -591,6 +679,11 @@ html[data-shell=classic] .steps{display:none}
           <div class="chips" id="wordChips"></div>
           <p class="note" id="wordNote" style="margin-top:7px"></p>
         </div>
+        <div class="acts">
+          <button class="mini" id="smartHot" type="button">Highlight the news</button>
+          <button class="mini" id="aiLines" type="button">Suggest lines</button>
+        </div>
+        <div class="sugg" id="sugg" aria-live="polite"></div>
         <p class="note">Highlight style and color sit in the bar above the poster.</p>
       </div>
 
@@ -681,6 +774,10 @@ html[data-shell=classic] .steps{display:none}
             <div class="drop" id="dropMain" role="button" tabindex="0" aria-label="Add the main photo">Drop a photo, tap to pick, or paste</div>
             <input id="fileMain" type="file" accept="image/*" class="hidden">
           </div>
+          <div class="field">
+            <label class="lbl">Photos from this story</label>
+            <div class="picks" id="photoPicks"></div>
+          </div>
         </div>
         <div id="photoPair" hidden>
           <div class="two">
@@ -710,21 +807,19 @@ html[data-shell=classic] .steps{display:none}
             </div>
           </div>
         </div>
-        <div class="two" style="margin-top:12px">
-          <div class="field">
-            <label class="lbl">Framing</label>
-            <div class="seg sm" role="group" aria-label="Photo framing" id="fitSeg">
-              <button data-fit="punch" type="button" aria-pressed="true">Punch in</button>
-              <button data-fit="fit" type="button" aria-pressed="false">Whole photo</button>
-            </div>
+        <div class="field" style="margin-top:12px">
+          <label class="lbl">Framing</label>
+          <div class="seg sm" role="group" aria-label="Photo framing" id="fitSeg">
+            <button data-fit="auto" type="button" aria-pressed="true">On the face</button>
+            <button data-fit="punch" type="button" aria-pressed="false">Punch in</button>
+            <button data-fit="fit" type="button" aria-pressed="false">Whole photo</button>
           </div>
-          <div class="field">
-            <label class="lbl">Grade</label>
-            <div class="seg sm" role="group" aria-label="Photo grade" id="cleanSeg">
-              <button data-clean="0" type="button" aria-pressed="true">Graded</button>
-              <button data-clean="1" type="button" aria-pressed="false">Clean</button>
-            </div>
-          </div>
+          <button class="mini" id="pickFace" type="button" style="margin-top:8px">Pick the face</button>
+        </div>
+        <div class="field">
+          <label class="lbl">Look</label>
+          <div class="chips" id="lookRow"></div>
+          <p class="note" id="lookNote" style="margin-top:7px"></p>
         </div>
       </div>
 
@@ -744,6 +839,15 @@ html[data-shell=classic] .steps{display:none}
           <button class="btn" id="recenterBtn" type="button">Re-center everything</button>
           <button class="btn ghost warn" id="clearBtn" type="button">Clear all</button>
         </div>
+      </div>
+
+      <div class="card" data-step="4" id="cardChecks">
+        <div class="chead">
+          <h2>Design check</h2>
+          <span class="grow"></span>
+          <button class="mini" id="autoBtn2" type="button">Auto design</button>
+        </div>
+        <div class="checks" id="checks"></div>
       </div>
 
       <div class="card" data-step="4">
@@ -769,11 +873,20 @@ html[data-shell=classic] .steps{display:none}
 
 <!-- ============================ POLLS ============================ -->
 <section class="view" id="view-poll" role="tabpanel" aria-labelledby="tab-poll" hidden>
-  <div class="stack" style="max-width:760px;margin:0 auto">
+  <div class="pollwrap">
     <div class="card">
       <div class="chead">
-        <h2>Poll question</h2>
+        <h2>Staged polls</h2>
         <span class="grow"></span>
+        <button class="mini" id="pollsReload" type="button">Refresh</button>
+      </div>
+      <div class="pollpicks" id="pollPicker"><p class="note">Loading the polls the bot staged.</p></div>
+    </div>
+    <div class="card">
+      <div class="chead">
+        <h2>Question</h2>
+        <span class="grow"></span>
+        <button class="mini" id="pollIdeas" type="button" title="Picture ideas for every option that is not a fighter">Suggest pictures</button>
         <button class="mini" id="pollUndo" type="button">Undo</button>
         <button class="mini" id="pollRedo" type="button">Redo</button>
       </div>
@@ -781,23 +894,31 @@ html[data-shell=classic] .steps{display:none}
         <label class="lbl" for="pq">Question</label>
         <input id="pq" type="text" autocomplete="off" placeholder="Who takes the main event">
       </div>
-      <p class="note">The question prints across the top of every tile. Each option renders 640 by 640.</p>
-    </div>
-    <div class="card">
-      <div class="chead">
-        <h2>Options</h2>
-        <span class="grow"></span>
-        <button class="mini" id="pollAdd" type="button">Add option</button>
-        <button class="mini" id="pollCopy" type="button">Copy poll text</button>
+      <div class="pollbar">
+        <div class="seg sm" role="group" aria-label="Picture style" id="pollStyle">
+          <button data-style="poster" type="button" aria-pressed="true">Poster</button>
+          <button data-style="photo" type="button" aria-pressed="false">Photo</button>
+        </div>
+        <div class="seg sm" role="group" aria-label="Image size" id="pollSize">
+          <button data-size="1K" type="button" aria-pressed="true">1K</button>
+          <button data-size="2K" type="button" aria-pressed="false">2K</button>
+        </div>
+        <button class="tchip" id="pollLabel" type="button" aria-pressed="true" title="Set the option in big type on picture tiles">Big word</button>
       </div>
-      <div id="pollRows"></div>
-      <p class="note" style="margin-top:9px">Drag a tile to pan its photo. The zoom slider sits under each one.</p>
+      <p class="note" id="genNote" style="margin-top:10px">Checking image generation...</p>
     </div>
+    <div class="optgrid" id="pollRows"></div>
     <div class="card">
       <div class="grid2">
-        <button class="btn pri" id="pollDl" type="button">Download all tiles</button>
+        <button class="btn pri" id="pollGenAll" type="button">Generate every missing tile</button>
+        <button class="btn" id="pollDl" type="button">Download all tiles</button>
+        <button class="btn" id="pollCopy" type="button">Copy poll text</button>
+        <button class="btn" id="pollAdd" type="button">Add option</button>
+      </div>
+      <div class="grid1" style="margin-top:9px">
         <a class="btn ghost" href="https://www.youtube.com/channel/UCPx5FFZkK2N5yQ-jiTcS3mg/community" target="_blank" rel="noopener noreferrer">Open YouTube composer &rarr;</a>
       </div>
+      <p class="note" style="margin-top:10px">Fighter tiles are your own close-ups, downloaded untouched. Picture and meme tiles are 1080 square. Drag a tile to move its picture.</p>
     </div>
   </div>
 </section>
@@ -809,6 +930,11 @@ html[data-shell=classic] .steps{display:none}
       <div class="chead"><h2>Layout</h2></div>
       <p class="note" id="shellNote" style="margin-bottom:12px"></p>
       <button class="mini" id="shellToggle" type="button"></button>
+    </div>
+
+    <div class="card">
+      <div class="chead"><h2>Image generation</h2></div>
+      <p class="note" id="genSet">Checking.</p>
     </div>
 
     <div class="card">
@@ -962,11 +1088,6 @@ function put(img, meta, url) {
   assets[k] = img; assetMeta[k] = meta || null; assetURL[k] = url || null;
   return k;
 }
-function putAt(k, img, meta, url) {
-  assets[k] = img; assetMeta[k] = meta || null; assetURL[k] = url || null;
-  var n = parseInt(String(k).replace(/[^0-9]/g, ""), 10);
-  if (n && n > assetSeq) assetSeq = n;
-}
 function get(k) { return k && assets[k] ? assets[k] : null; }
 function urlOf(k) { return k && assetURL[k] ? assetURL[k] : null; }
 /* a downscaled JPEG copy, which is what gets written to storage. A cross-origin
@@ -999,7 +1120,7 @@ function blankState() {
     hlMode: "color", hlColor: "purple",
     speaker: "Daniel Cormier", source: "ESPN", about: "",
     caption: "",
-    clean: false, fitMode: "punch",
+    clean: false, fitMode: "auto", look: "fight", lookAmt: 100,
     colorway: "purple", bg: "arena", tint: 0,
     photo: { id: null, zoom: 1, panX: 0, panY: 0, kind: "photo" },
     inset: { id: null, dx: S.insetDx, dy: 0, scale: 1, shape: "square" },
@@ -1064,6 +1185,12 @@ function mergeState(s) {
   for (i = 0; i < BGS.length; i++) if (BGS[i].id === b.bg) bgOk = true;
   if (!cwOk) b.colorway = "purple";
   if (!bgOk) b.bg = "arena";
+  var lkOk = false;
+  for (i = 0; i < LOOKS.length; i++) if (LOOKS[i].id === b.look && b.look !== "clean") lkOk = true;
+  if (!lkOk) b.look = "fight";
+  b.lookAmt = clamp(Math.round(Number(b.lookAmt)), 0, 100);
+  if (!isFinite(b.lookAmt)) b.lookAmt = 100;
+  if (b.fitMode !== "fit" && b.fitMode !== "punch") b.fitMode = "auto";
   b.tint = clamp(Math.round(Number(b.tint) || 0), 0, 100);
   var pIn = (b.panels && typeof b.panels === "object") ? b.panels : {};
   var defCw = ["red", "blue", "green"];
@@ -1270,7 +1397,11 @@ function drawPhoto(ctx, img, ps, dx, dy, dw, dh, mode) {
   var iw = img.naturalWidth || img.width, ih = img.naturalHeight || img.height;
   if (!iw || !ih) return;
   var z = ps.zoom || 1;
-  var graded = supportsFilter && !state.clean;
+  /* every photo is drawn from its GRADED copy (gradedSource: the photopick
+     look, cached), which may be smaller than the original - kx/ky scale a
+     source rect decided on the original size onto it */
+  var src = gradedSource(ps.id, img);
+  var kx = (src.width || iw) / iw, ky = (src.height || ih) / ih;
   if (mode === "fit") {
     var s = Math.min(dw / iw, dh / ih) * z;
     var w = iw * s, h = ih * s;
@@ -1278,13 +1409,30 @@ function drawPhoto(ctx, img, ps, dx, dy, dw, dh, mode) {
     ctx.save();
     ctx.beginPath(); ctx.rect(dx, dy, dw, dh); ctx.clip();
     ctx.fillStyle = PAL.ink; ctx.fillRect(dx, dy, dw, dh);
-    if (graded) ctx.filter = "contrast(1.06) saturate(0.99)";
-    ctx.drawImage(img, dx + (dw - w) / 2 + px, dy + (dh - h) / 2 + py, w, h);
+    ctx.drawImage(src, dx + (dw - w) / 2 + px, dy + (dh - h) / 2 + py, w, h);
     ctx.restore();
+    lastCrop[ps.id] = { sx: -((dw - w) / 2 + px) / s, sy: -((dh - h) / 2 + py) / s, sw: dw / s, sh: dh / s,
+                        dx: dx, dy: dy, dw: dw, dh: dh, iw: iw, ih: ih };
     tintPass(ctx, dx, dy, dw, dh);
     return;
   }
-  var punch = mode === "punch" ? S.zoom : 1;
+  /* AUTO: framed on the faces the staging bot found (or the browser's face
+     detector, or the face the owner tapped), via smartCrop - the mirror of
+     photopick.smart_crop, so the studio frames exactly what the Discord card
+     showed. Zoom and pan then act around that frame. No faces: the old punch. */
+  var facts = photoFacts(ps.id);
+  if (mode === "auto" && facts && facts.faces && facts.faces.length) {
+    var cr = smartCrop(iw, ih, facts.faces, dw, dh);
+    var aw = cr[2] / z, ah = cr[3] / z;
+    var ax = cr[0] + (cr[2] - aw) / 2 - (ps.panX || 0) * (aw / dw);
+    var ay = cr[1] + (cr[3] - ah) / 2 - (ps.panY || 0) * (ah / dh);
+    ax = clamp(ax, 0, Math.max(0, iw - aw)); ay = clamp(ay, 0, Math.max(0, ih - ah));
+    ctx.drawImage(src, ax * kx, ay * ky, aw * kx, ah * ky, dx, dy, dw, dh);
+    lastCrop[ps.id] = { sx: ax, sy: ay, sw: aw, sh: ah, dx: dx, dy: dy, dw: dw, dh: dh, iw: iw, ih: ih };
+    tintPass(ctx, dx, dy, dw, dh);
+    return;
+  }
+  var punch = (mode === "punch" || mode === "auto") ? S.zoom : 1;
   var s0 = Math.max(dw / iw, dh / ih);
   var sw0 = dw / s0, sh0 = dh / s0;
   var sx0 = (iw - sw0) * 0.5, sy0 = (ih - sh0) * S.focusY;
@@ -1296,13 +1444,11 @@ function drawPhoto(ctx, img, ps, dx, dy, dw, dh, mode) {
   var sw = w2 / s0, sh = h2 / s0;
   sx = clamp(sx, 0, Math.max(0, iw - sw));
   sy = clamp(sy, 0, Math.max(0, ih - sh));
-  ctx.save();
-  if (graded) ctx.filter = "contrast(1.10) saturate(0.98) brightness(1.03)";
-  ctx.drawImage(img, sx, sy, sw, sh, dx, dy, dw, dh);
-  ctx.restore();
+  ctx.drawImage(src, sx * kx, sy * ky, sw * kx, sh * ky, dx, dy, dw, dh);
+  lastCrop[ps.id] = { sx: sx, sy: sy, sw: sw, sh: sh, dx: dx, dy: dy, dw: dw, dh: dh, iw: iw, ih: ih };
   tintPass(ctx, dx, dy, dw, dh);
 }
-function mainMode() { return state.fitMode === "fit" ? "fit" : "punch"; }
+function mainMode() { return state.fitMode === "fit" ? "fit" : (state.fitMode === "punch" ? "punch" : "auto"); }
 /* A cut-out subject standing on the wash: contained (never cropped), bottom
    anchored, sitting above the text block, with a neutral-dark pool behind the
    feet so it does not float. Mirrors postcard._news_cutout. No rim light - the
@@ -1326,11 +1472,9 @@ function drawCutout(ctx, img, ps) {
 }
 function halfMode() { return state.fitMode === "fit" ? "fit" : "cover"; }
 function photoDressing(ctx) {
-  ctx.save();
-  ctx.globalCompositeOperation = "soft-light";
-  ctx.globalAlpha = 0.22;
-  ctx.fillStyle = "#FF8A3D"; ctx.fillRect(0, 0, W, H);
-  ctx.restore();
+  /* The warm soft-light wash that used to sit here WAS the old grade. The
+     photopick grade is baked into the source now (gradedSource), so only the
+     edge scrims remain - the same two photopick keeps after its grade. */
   var ink = rgbOf(PAL.ink);
   var gl = ctx.createLinearGradient(0, 0, W * 0.34, 0);
   gl.addColorStop(0, "rgba(" + ink + "," + S.sideScrim + ")"); gl.addColorStop(1, "rgba(" + ink + ",0)");
@@ -1470,6 +1614,289 @@ function coverInto(ctx, img, x, y, w, h, ps) {
   drawPhoto(ctx, img, ps || { zoom: 1, panX: 0, panY: 0 }, x, y, w, h, "cover");
 }
 
+/* ================= face framing + the grade (mirrors bots_github/photopick.py) =================
+   Sept 24 2026. The staged posters were framed face-blind (a fixed focal point
+   and a 1.32 punch-in): "Volkov blasts Gane" shipped a close-up of a glove, Fury
+   lost the top of his head, the referee took the Rosas poster. The staging bot
+   now finds faces (YuNet) and ships them in the spec; smartCrop builds the crop
+   AROUND them, and gradePixel is the same colour grade the Discord card got.
+   Both are line-for-line mirrors of photopick.smart_crop / grade_pixel - the
+   suites pin shared vectors, so change one side and change the other. */
+var CROP_TUNE = [["4:5", 0.25, 0.32], ["1:1", 0.23, 0.30], ["9:16", 0.18, 0.30]];
+var MAX_UPSCALE = 1.9, FACE_MAX = 0.55, HEADROOM = 0.05, PAIR_MIN = 0.7, PAIR_SPAN = 0.8, NOFACE_FOCUS_Y = 0.30;
+function cropTune(ow, oh) {
+  var a = ow / oh, best = CROP_TUNE[0], bd = 9;
+  for (var i = 0; i < CROP_TUNE.length; i++) {
+    var p = CROP_TUNE[i][0].split(":"), dd = Math.abs(a - Number(p[0]) / Number(p[1]));
+    if (dd < bd) { best = CROP_TUNE[i]; bd = dd; }
+  }
+  return [best[1], best[2]];
+}
+function smartCrop(iw, ih, faces, ow, oh) {
+  var A = ow / oh, chMax = Math.min(ih, iw / A), ch, cw;
+  if (!faces || !faces.length) {
+    ch = chMax; cw = ch * A;
+    return [(iw - cw) / 2, (ih - ch) * NOFACE_FOCUS_Y, cw, ch];
+  }
+  var tune = cropTune(ow, oh), frac = tune[0], cyT = tune[1];
+  var f0 = faces[0];
+  var fx = f0[0] * iw, fy = f0[1] * ih, fw = f0[2] * iw, fh = f0[3] * ih;
+  var chFloor = Math.min(chMax, Math.max(oh / MAX_UPSCALE, fh / FACE_MAX));
+  ch = Math.min(chMax, Math.max(fh / frac, chFloor));
+  cw = ch * A;
+  var cx = fx + fw / 2, cy = fy + fh / 2, top = fy;
+  if (faces.length > 1) {
+    var f1 = faces[1];
+    var gx = f1[0] * iw, gy = f1[1] * ih, gw = f1[2] * iw, gh = f1[3] * ih;
+    if (gh >= PAIR_MIN * fh) {
+      var ux0 = Math.min(fx, gx), ux1 = Math.max(fx + fw, gx + gw);
+      if (ux1 - ux0 <= PAIR_SPAN * cw) {
+        cx = (ux0 + ux1) / 2;
+        cy = (cy + gy + gh / 2) / 2;
+        top = Math.min(fy, gy);
+      }
+    }
+  }
+  var x0 = Math.max(0, Math.min(iw - cw, cx - cw / 2));
+  var y0 = Math.max(0, Math.min(ih - ch, cy - cyT * ch));
+  if (top - y0 < HEADROOM * ch) y0 = Math.max(0, top - HEADROOM * ch);
+  return [x0, y0, cw, ch];
+}
+
+var LOOKS = [
+  { id: "fight",   label: "Fight night", con: 0.50, sat: 0.95, vib: 0.10, sh: "#241C4E", shA: 0.30, hi: "#FFD2A8", hiA: 0.10, mono: 0 },
+  { id: "natural", label: "Natural",     con: 0.30, sat: 1.04, vib: 0.16, sh: "#000000", shA: 0.00, hi: "#FFFFFF", hiA: 0.00, mono: 0 },
+  { id: "cinema",  label: "Cinematic",   con: 0.42, sat: 0.90, vib: 0.06, sh: "#0F3440", shA: 0.32, hi: "#FFB877", hiA: 0.14, mono: 0 },
+  { id: "mono",    label: "Mono",        con: 0.58, sat: 0.00, vib: 0.00, sh: "#161B2C", shA: 0.20, hi: "#FFFFFF", hiA: 0.00, mono: 1 },
+  { id: "clean",   label: "Clean",       con: 0.00, sat: 1.00, vib: 0.00, sh: "#000000", shA: 0.00, hi: "#FFFFFF", hiA: 0.00, mono: 0 }
+];
+function lookDef(id) {
+  for (var i = 0; i < LOOKS.length; i++) if (LOOKS[i].id === id) return LOOKS[i];
+  return LOOKS[0];
+}
+var TARGET_FACE_LUM = 0.50, TARGET_LUM = 0.42, GAMMA_LO = 0.72, GAMMA_HI = 1.18;
+function autoGamma(lum, hasFace) {
+  var target = hasFace ? TARGET_FACE_LUM : TARGET_LUM;
+  lum = Math.min(0.95, Math.max(0.03, Number(lum) || target));
+  var g = Math.log(target) / Math.log(lum);
+  return Math.round(Math.max(GAMMA_LO, Math.min(GAMMA_HI, g)) * 1000) / 1000;
+}
+function gradeParams(look, gamma, strength) {
+  var b = lookDef(look), s = clamp(Number(strength), 0, 1);
+  var h3 = function (c) { var v = rgb3(c); return [v[0] / 255, v[1] / 255, v[2] / 255]; };
+  return {
+    gamma: look === "clean" ? 1 : 1 + ((Number(gamma) || 1) - 1) * s,
+    con: b.con * s, sat: 1 + (b.sat - 1) * s, vib: b.vib * s,
+    sh: h3(b.sh), shA: b.shA * s, hi: h3(b.hi), hiA: b.hiA * s,
+    mono: s > 0 ? b.mono : 0
+  };
+}
+function gsig(x) { return 1 / (1 + Math.exp(-6 * (x - 0.5))); }
+var GS0 = gsig(0), GS1 = gsig(1);
+function gsmooth(a, b, x) { var t = clamp((x - a) / (b - a), 0, 1); return t * t * (3 - 2 * t); }
+/* one sRGB pixel (0-1 floats) through a grade: THE reference, mirrored from
+   photopick.grade_pixel. The bulk path below vectorises exactly this. */
+function gradePixel(r, g, b, p) {
+  var gm = p.gamma;
+  if (gm !== 1) { r = Math.pow(r, gm); g = Math.pow(g, gm); b = Math.pow(b, gm); }
+  var lum = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+  if (p.mono) { r = lum; g = lum; b = lum; }
+  var c = p.con;
+  if (c > 0) {
+    r = r + c * ((gsig(r) - GS0) / (GS1 - GS0) - r);
+    g = g + c * ((gsig(g) - GS0) / (GS1 - GS0) - g);
+    b = b + c * ((gsig(b) - GS0) / (GS1 - GS0) - b);
+    lum = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+  }
+  var mx = Math.max(r, g, b), mn = Math.min(r, g, b);
+  var satv = (mx - mn) / (mx + 1e-6);
+  var k = p.sat * (1 + p.vib * (1 - Math.min(1, satv * 1.6)));
+  r = lum + (r - lum) * k; g = lum + (g - lum) * k; b = lum + (b - lum) * k;
+  if (p.shA > 0) {
+    var w = p.shA * Math.pow(1 - gsmooth(0, 0.62, lum), 1.5);
+    r = r + w * (p.sh[0] + r * (1 - p.sh[0]) - r);
+    g = g + w * (p.sh[1] + g * (1 - p.sh[1]) - g);
+    b = b + w * (p.sh[2] + b * (1 - p.sh[2]) - b);
+  }
+  if (p.hiA > 0) {
+    var w2 = p.hiA * gsmooth(0.55, 1, lum);
+    r = r + w2 * (r * p.hi[0] - r); g = g + w2 * (g * p.hi[1] - g); b = b + w2 * (b * p.hi[2] - b);
+  }
+  return [clamp(r, 0, 1), clamp(g, 0, 1), clamp(b, 0, 1)];
+}
+/* the whole image: identical maths with the per-channel front half (gamma then
+   curve) folded into a 256-entry table, which is exact for 8-bit input */
+function gradeImageData(d, p) {
+  var lut = new Float32Array(256), i;
+  for (i = 0; i < 256; i++) {
+    var v = i / 255;
+    if (p.gamma !== 1) v = Math.pow(v, p.gamma);
+    lut[i] = v;
+  }
+  var curve = new Float32Array(256);
+  for (i = 0; i < 256; i++) {
+    var x = lut[i];
+    curve[i] = p.con > 0 ? x + p.con * ((gsig(x) - GS0) / (GS1 - GS0) - x) : x;
+  }
+  var a = d.data, n = a.length;
+  for (i = 0; i < n; i += 4) {
+    var r, g, b, lum;
+    if (p.mono) {
+      lum = 0.2126 * lut[a[i]] + 0.7152 * lut[a[i + 1]] + 0.0722 * lut[a[i + 2]];
+      if (p.con > 0) lum = lum + p.con * ((gsig(lum) - GS0) / (GS1 - GS0) - lum);
+      r = lum; g = lum; b = lum;
+    } else {
+      r = curve[a[i]]; g = curve[a[i + 1]]; b = curve[a[i + 2]];
+      lum = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+      var mx = r > g ? (r > b ? r : b) : (g > b ? g : b);
+      var mn = r < g ? (r < b ? r : b) : (g < b ? g : b);
+      var satv = (mx - mn) / (mx + 1e-6);
+      var k = p.sat * (1 + p.vib * (1 - (satv * 1.6 < 1 ? satv * 1.6 : 1)));
+      r = lum + (r - lum) * k; g = lum + (g - lum) * k; b = lum + (b - lum) * k;
+    }
+    if (p.shA > 0) {
+      var t = lum / 0.62; t = t < 0 ? 0 : (t > 1 ? 1 : t);
+      var w = p.shA * Math.pow(1 - t * t * (3 - 2 * t), 1.5);
+      r = r + w * (p.sh[0] + r * (1 - p.sh[0]) - r);
+      g = g + w * (p.sh[1] + g * (1 - p.sh[1]) - g);
+      b = b + w * (p.sh[2] + b * (1 - p.sh[2]) - b);
+    }
+    if (p.hiA > 0) {
+      var t2 = (lum - 0.55) / 0.45; t2 = t2 < 0 ? 0 : (t2 > 1 ? 1 : t2);
+      var w2 = p.hiA * t2 * t2 * (3 - 2 * t2);
+      r = r + w2 * (r * p.hi[0] - r); g = g + w2 * (g * p.hi[1] - g); b = b + w2 * (b * p.hi[2] - b);
+    }
+    // floor(x * 255 + 0.5): photopick's (out * 255 + 0.5).astype(uint8), exactly -
+    // a clamped-array store would round half to EVEN and drift by one level
+    a[i] = r <= 0 ? 0 : (r >= 1 ? 255 : Math.floor(r * 255 + 0.5));
+    a[i + 1] = g <= 0 ? 0 : (g >= 1 ? 255 : Math.floor(g * 255 + 0.5));
+    a[i + 2] = b <= 0 ? 0 : (b >= 1 ? 255 : Math.floor(b * 255 + 0.5));
+  }
+  return d;
+}
+/* Per-photo facts: face boxes (fractions) and the measured exposure. Staged
+   photos bring them from the spec; a photo the owner drops is measured here
+   (exposure) and, where the browser has one, run through its FaceDetector. */
+function photoFacts(k) { return (k && assetMeta[k] && assetMeta[k].facts) || null; }
+function setFacts(k, facts) {
+  if (!k) return;
+  if (!assetMeta[k]) assetMeta[k] = {};
+  assetMeta[k].facts = facts;
+  gradeCache.drop(k + "|");       /* only THIS photo's grades: a strip preload must not flush the rest */
+}
+function measureLum(img, box) {
+  try {
+    var iw = img.naturalWidth || img.width, ih = img.naturalHeight || img.height;
+    var c = document.createElement("canvas"), s = 64;
+    c.width = s; c.height = s;
+    var g = c.getContext("2d");
+    if (box) g.drawImage(img, box[0] * iw, box[1] * ih, Math.max(1, box[2] * iw), Math.max(1, box[3] * ih), 0, 0, s, s);
+    else g.drawImage(img, 0, 0, s, s);
+    var d = g.getImageData(0, 0, s, s).data, t = 0;
+    for (var i = 0; i < d.length; i += 4) t += (0.2126 * d[i] + 0.7152 * d[i + 1] + 0.0722 * d[i + 2]) / 255;
+    return t / (d.length / 4);
+  } catch (e) { return null; }
+}
+function detectFacesIn(k, img) {
+  var base = { faces: [], lum: measureLum(img, null), src: "measured" };
+  setFacts(k, base);
+  if (!("FaceDetector" in window)) return;
+  try {
+    var fd = new window.FaceDetector({ fastMode: false, maxDetectedFaces: 4 });
+    fd.detect(img).then(function (list) {
+      var iw = img.naturalWidth || img.width, ih = img.naturalHeight || img.height;
+      var faces = (list || []).map(function (f) {
+        var b = f.boundingBox;
+        return [b.x / iw, b.y / ih, b.width / iw, b.height / ih];
+      }).filter(function (f) { return f[3] > 0.035; })
+        .sort(function (a, b) { return b[2] * b[3] - a[2] * a[3]; }).slice(0, 3);
+      if (!faces.length) return;
+      setFacts(k, { faces: faces, lum: measureLum(img, faces[0]), src: "browser" });
+      requestDraw(); runChecks();
+    }).catch(function () { });
+  } catch (e) { /* no detector on this engine */ }
+}
+/* THE graded source a photo is drawn from, cached per photo + look + strength.
+   Graded once at up to 2000px, so a drag frame costs one drawImage. */
+var gradeCache = lru(5);
+/* a serial per decoded image. Asset KEYS are reused, so a cache keyed by the
+   key alone served one story's graded photo for another's (the pre-deploy
+   review opened a Fury draft over a Steveson session and exported Steveson). */
+var imgSerialN = 0;
+function imgSerial(img) {
+  if (!img.studioSerial) { try { img.studioSerial = ++imgSerialN; } catch (e) { return "x"; } }
+  return img.studioSerial;
+}
+/* while the Look strength slider moves, grade a small working copy (about a
+   sixth of the pixels) and settle on the full grade once it stops. Every
+   export path calls finalGrade() first, so a draft grade is never exported. */
+var gradeDraft = false, gradeDraftT = 0;
+function draftGrade() {
+  gradeDraft = true;
+  clearTimeout(gradeDraftT);
+  gradeDraftT = setTimeout(function () { gradeDraft = false; requestDraw(); }, 260);
+}
+function finalGrade() { if (gradeDraft) { clearTimeout(gradeDraftT); gradeDraft = false; } }
+function gradeMax() { return gradeDraft ? 800 : 2000; }
+/* one channel of photopick.clarity: ImageChops.subtract(base, blur, offset=128)
+   then ImageChops.overlay(base, highpass) then ImageChops.blend(base, overlay,
+   amount). Pillow's overlay divides by 127 and its blend truncates; both are
+   mirrored, and worker.test.js pins values computed by Pillow itself. */
+function clarityPx(a, blur, amt) {
+  var hp = a - blur + 128;
+  hp = hp < 0 ? 0 : (hp > 255 ? 255 : hp);
+  var ov = a < 128 ? Math.floor(a * hp / 127) : 255 - Math.floor((255 - a) * (255 - hp) / 127);
+  ov = ov < 0 ? 0 : (ov > 255 ? 255 : ov);
+  return Math.floor(a + amt * (ov - a));
+}
+function effectiveLook() { return state.clean ? "clean" : (state.look || "fight"); }
+function gradedSource(k, img) {
+  var look = effectiveLook();
+  if (look === "clean" || !img || !k) return img;   /* no asset key: an inset or a one-off draw, never cached under "undefined" */
+  var f = photoFacts(k) || {};
+  var gm = typeof f.gamma === "number" ? f.gamma
+         : autoGamma(f.lum, !!(f.faces && f.faces.length));
+  var amt = clamp((state.lookAmt == null ? 100 : state.lookAmt) / 100, 0, 1);
+  var key = [k, imgSerial(img), look, amt, gm, gradeMax()].join("|");
+  var hit = gradeCache.get(key);
+  if (hit) return hit;
+  try {
+    var iw = img.naturalWidth || img.width, ih = img.naturalHeight || img.height;
+    var s = Math.min(1, gradeMax() / Math.max(iw, ih));
+    var c = document.createElement("canvas");
+    c.width = Math.max(1, Math.round(iw * s)); c.height = Math.max(1, Math.round(ih * s));
+    var g = c.getContext("2d");
+    g.drawImage(img, 0, 0, c.width, c.height);
+    var d = g.getImageData(0, 0, c.width, c.height);
+    g.putImageData(gradeImageData(d, gradeParams(look, gm, amt)), 0, 0);
+    // clarity: photopick.clarity's own maths (clarityPx) - a high-pass laid
+    // over the photo and blended in at 0.20, so the lift is gentle in the
+    // shadows and highlights the way the bot's poster is. The blur runs at this
+    // source's scale, so the result is close to the bot's, not pixel-identical.
+    if (supportsFilter) {
+      var bl = document.createElement("canvas");
+      bl.width = c.width; bl.height = c.height;
+      var bg = bl.getContext("2d");
+      bg.filter = "blur(" + Math.max(3, Math.round(c.height / 75)) + "px)";
+      bg.drawImage(c, 0, 0);
+      var o = g.getImageData(0, 0, c.width, c.height), q = bg.getImageData(0, 0, c.width, c.height).data;
+      var od = o.data, amtC = 0.20 * amt;
+      for (var i = 0; i < od.length; i += 4) {
+        od[i] = clarityPx(od[i], q[i], amtC);
+        od[i + 1] = clarityPx(od[i + 1], q[i + 1], amtC);
+        od[i + 2] = clarityPx(od[i + 2], q[i + 2], amtC);
+      }
+      g.putImageData(o, 0, 0);
+      bl.width = 0; bl.height = 0;
+    }
+    c.srcW = iw; c.srcH = ih;       // the framing is decided on the ORIGINAL size
+    return gradeCache.set(key, c);
+  } catch (e) { return img; }
+}
+/* the crop drawPhoto last used per photo, so a tap on the poster can be mapped
+   back to a point in the photo ("pick the face") */
+var lastCrop = {};
+
 /* ================= type engine (mirrors _tracked / _display_block) ================= */
 function setFont(ctx, weight, size) { ctx.font = weight + " " + size + "px Poppins, sans-serif"; }
 function adv(ctx, ch, tr) {
@@ -1560,6 +1987,10 @@ function fitLine(ctx, text, maxW, maxH, maxLines, hi, lo) {
    tiles all do. Each miss re-runs fitLine's size sweep and the combinatorial
    balancer, so a drag on those templates recomputed everything every frame.
    A small LRU is enough: the working set per frame is a handful of strings. */
+/* a small LRU. An evicted CANVAS is shrunk to 0x0 before it is dropped: iOS
+   Safari counts canvas memory until the backing store is released, and a few
+   2000px grades (about 16 MB each) can exhaust it. */
+function lruFree(v) { if (v && typeof v.getContext === "function") { try { v.width = 0; v.height = 0; } catch (e) { } } }
 function lru(limit) {
   var m = Object.create(null), order = [];
   return {
@@ -1567,12 +1998,19 @@ function lru(limit) {
     set: function (k, v) {
       if (!(k in m)) {
         order.push(k);
-        if (order.length > limit) delete m[order.shift()];
+        if (order.length > limit) { var old = order.shift(); lruFree(m[old]); delete m[old]; }
       }
       m[k] = v;
       return v;
     },
-    clear: function () { m = Object.create(null); order = []; }
+    /* every entry whose key starts with prefix: one photo's grades */
+    drop: function (prefix) {
+      order = order.filter(function (k) {
+        if (k.indexOf(prefix) !== 0) return true;
+        lruFree(m[k]); delete m[k]; return false;
+      });
+    },
+    clear: function () { Object.keys(m).forEach(function (k) { lruFree(m[k]); }); m = Object.create(null); order = []; }
   };
 }
 var fitCache = lru(24), lineCache = lru(24);
@@ -2572,6 +3010,8 @@ function drawPanels(ctx) {
 var cv = $("cv"), ctx = cv.getContext("2d");
 var sv = $("sel"), sctx = sv.getContext("2d");
 var rafId = 0;
+var checkT = 0;
+function scheduleChecks() { clearTimeout(checkT); checkT = setTimeout(runChecks, 350); }
 function requestDraw() {
   if (rafId) return;
   rafId = requestAnimationFrame(function () { rafId = 0; drawNow(); });
@@ -2597,6 +3037,7 @@ function drawNow() {
     footerBar(ctx);
     paintHud();
     paintSel();
+    scheduleChecks();
   } catch (err) {
     // a draw bug must DEGRADE, never blank the whole app: log it, then paint
     // a plain floor so the canvas keeps its pixels and the controls keep
@@ -2875,7 +3316,16 @@ function panRange(k) {
     var w = iw * s, h = ih * s;
     return { x0: (w - dw) / 2, x1: (dw - w) / 2, y0: (h - dh) / 2, y1: (dh - h) / 2 };
   }
-  var punch = mode === "punch" ? S.zoom : 1;
+  var facts = photoFacts(ps.id);
+  if (mode === "auto" && facts && facts.faces && facts.faces.length) {
+    var cr = smartCrop(iw, ih, facts.faces, dw, dh), zq = ps.zoom || 1;
+    var aw = cr[2] / zq, ah = cr[3] / zq;
+    var bx0 = cr[0] + (cr[2] - aw) / 2, by0 = cr[1] + (cr[3] - ah) / 2;
+    var qx = function (sx) { return (bx0 - sx) * (dw / aw); };
+    var qy = function (sy) { return (by0 - sy) * (dh / ah); };
+    return { x0: qx(0), x1: qx(Math.max(0, iw - aw)), y0: qy(0), y1: qy(Math.max(0, ih - ah)) };
+  }
+  var punch = (mode === "punch" || mode === "auto") ? S.zoom : 1;
   var s0 = Math.max(dw / iw, dh / ih);
   var sx0 = (iw - dw / s0) * 0.5, sy0 = (ih - dh / s0) * S.focusY;
   var zz = punch * (ps.zoom || 1);
@@ -3469,6 +3919,429 @@ function buildSwatches() {
   });
 }
 
+
+/* ================= the words that carry the news =================
+   The owner (Sept 24 2026): the purple landed only on the NAME, and he
+   recoloured the rest by hand. A name says who; the word that carries the news
+   says what. smartHot() picks the subject's surname plus the strongest of these
+   (mirrors scorer.DRAMA_TIERS; the Python suite pins the first tier). */
+var DRAMA_TIERS = [
+  ["RETIRES", "RETIREMENT", "RETIRING", "UNRETIRES", "VACATES", "VACATED", "STRIPPED", "RELEASED",
+   "FIRED", "BANNED", "SUSPENDED", "ARRESTED", "CHARGED", "PRISON", "JAIL", "SENTENCED", "VERDICT",
+   "DIES", "DEAD", "INJURED", "INJURY", "SURGERY", "HOSPITALIZED", "CRASH", "WITHDRAWS", "WITHDRAWN",
+   "PULLED", "PULLS", "CANCELLED", "CANCELED", "CANCELS", "SCRAPPED", "SCRAPS", "AXED", "POSTPONED",
+   "POSTPONES", "KNOCKOUT", "KNOCKED", "KO", "TKO",
+   "UPSET", "ROBBERY", "DOPING", "FAILED", "POSITIVE", "FINED", "BRAWL", "CUT"],
+  ["TITLE", "TITLES", "BELT", "CHAMPION", "UNDISPUTED", "INTERIM", "REMATCH", "TRILOGY", "COMEBACK",
+   "RETURNS", "RETURN", "DEBUT", "SIGNS", "SIGNED", "RECORD", "HISTORY", "HISTORIC", "SUBMISSION",
+   "SUBMITS", "FINISHES", "CONTROVERSY", "DIRTY", "CHEATING", "OUT"],
+  ["BLASTS", "SLAMS", "RIPS", "CALLOUT", "CALLS", "THREATENS", "BOOKS", "BOOKED", "TARGETS", "WANTS",
+   "FIGHT", "FIGHTS"]
+];
+var NOT_NAMES = ("THE A AN AND OR BUT OF IN ON AT BY FOR TO FROM WITH AFTER BEFORE OVER UNDER INTO AS " +
+  "IS ARE WAS WERE BE HIS HER THEIR HE SHE THEY IT ITS THIS THAT WHO WHAT WHEN WHY HOW NEW NEXT " +
+  "UFC MMA PFL BKFC ONE VS JR SR NOT NO YES SAYS SAID MAKES MAKE REVEALS REVEAL CLAIM CLAIMS SHOCK " +
+  "WIN WINS WON LOSS LOSES BEAT BEATS AGE PLANNED MULTI DIVISION WEIGHT LIGHTWEIGHT HEAVYWEIGHT " +
+  "WELTERWEIGHT MIDDLEWEIGHT FEATHERWEIGHT BANTAMWEIGHT FLYWEIGHT STRAWWEIGHT FIGHTER STAR COACH " +
+  "NEWS REPORT OFFICIAL OFFICIALLY ANNOUNCED DATE LOCATION CARD EVENT NIGHT MAIN BOUT OPPONENT").split(" ");
+/* the word under its punctuation: edge quotes, a typographic apostrophe and a
+   possessive fall away, so "PAGE'S" and "'VENOM'" read as PAGE and VENOM
+   (postcard._hot_norm matches the same way) */
+function bareWord(w) {
+  return String(w || "").split(String.fromCharCode(8217)).join("'").toUpperCase()
+    .replace(/[^A-Z0-9']/g, "").replace(/^'+|'+$/g, "").replace(/'S$/, "");
+}
+function dramaTier(w) {
+  var b = bareWord(w);
+  for (var t = 0; t < DRAMA_TIERS.length; t++) if (DRAMA_TIERS[t].indexOf(b) !== -1) return t;
+  return -1;
+}
+function nameLike(w) {
+  var b = bareWord(w);
+  return b.length >= 3 && /^[A-Z']+$/.test(b) && NOT_NAMES.indexOf(b) === -1 && dramaTier(w) === -1;
+}
+/* indices into words(): the first name run's LAST word (the surname) and the
+   strongest drama word; a second name only when the line has no drama word */
+function smartHotIdx(ws) {
+  var runs = [], run = [];
+  for (var i = 0; i < ws.length; i++) {
+    if (nameLike(ws[i]) && !/[.,:;]$/.test(ws[i - 1] || "")) run.push(i);
+    else { if (run.length) runs.push(run); run = []; if (nameLike(ws[i])) run.push(i); }
+  }
+  if (run.length) runs.push(run);
+  var names = runs.map(function (r) { return r[r.length - 1]; });
+  var drama = -1, tier = 9;
+  for (var j = 0; j < ws.length; j++) {
+    var t = dramaTier(ws[j]);
+    if (t !== -1 && t < tier) { tier = t; drama = j; }
+  }
+  var out = [];
+  if (names.length) out.push(names[0]);
+  if (drama !== -1 && out.indexOf(drama) === -1) out.push(drama);
+  if (out.length < 2 && names.length > 1) out.push(names[1]);
+  return out.sort(function (a, b) { return a - b; });
+}
+function applySmartHot(quiet) {
+  var ws = words(), ks = wordKeys(ws), idx = smartHotIdx(ws);
+  if (!idx.length) { if (!quiet) toast("No name or news word found. Tap the words yourself."); return false; }
+  state.hot = {};
+  idx.forEach(function (i) { state.hot[ks[i]] = true; });
+  if (!quiet) toast("Highlighted " + idx.map(function (i) { return ws[i]; }).join(" + ") + ".");
+  return true;
+}
+/* true when every highlight is a name and the line still holds a drama word
+   nobody coloured - the exact poster the owner fixed by hand */
+function onlyNamesHot() {
+  var ws = words(), ks = wordKeys(ws), anyHot = false, anyNews = false, newsHot = false;
+  for (var i = 0; i < ws.length; i++) {
+    var hot = !!state.hot[ks[i]], news = dramaTier(ws[i]) !== -1;
+    if (hot) anyHot = true;
+    if (news) { anyNews = true; if (hot) newsHot = true; }
+  }
+  return anyHot && anyNews && !newsHot;
+}
+
+/* ================= AI line suggestions ================= */
+var aiState = { busy: false, lines: [], headline: "" };
+function renderSuggestions() {
+  var host = $("sugg");
+  if (!host) return;
+  host.innerHTML = "";
+  aiState.lines.forEach(function (s) {
+    var b = el("button", "suggbtn");
+    b.type = "button";
+    var ws = String(s.line || "").split(/\\s+/), hot = (s.hot || []).map(bareWord);
+    ws.forEach(function (w, i) {
+      var sp = el("span", hot.indexOf(bareWord(w)) !== -1 ? "h" : "", w);
+      b.appendChild(sp);
+      if (i < ws.length - 1) b.appendChild(document.createTextNode(" "));
+    });
+    b.addEventListener("click", function () {
+      snap();
+      state.line = s.line;
+      state.hot = {};
+      var nws = words(), ks = wordKeys(nws);
+      nws.forEach(function (w, i) { if (hot.indexOf(bareWord(w)) !== -1) state.hot[ks[i]] = true; });
+      syncInputs(); drawNow(); runChecks();
+      toast("Line swapped. Undo brings the old one back.");
+    });
+    host.appendChild(b);
+  });
+}
+/* one reading of an AI-help reply for both buttons: a refusal carries the
+   Worker's own words (the daily limit, a missing key), never a generic shrug */
+function aiReply(r) {
+  return r.json().catch(function () { return {}; }).then(function (j) {
+    if (!r.ok) { var e = new Error((j && typeof j.error === "string") ? j.error : "http " + r.status); e.status = r.status; throw e; }
+    return j;
+  });
+}
+function aiFail(e, what) {
+  if (e && e.message === "auth") return;
+  if (e && e.status === 503 && /not configured/.test(e.message || "")) {
+    toast(what + " need the DeepSeek key on the Worker (Claude sets it on a Worker deploy).");
+  } else if (e && (e.status === 429 || e.status === 503)) toast(e.message);
+  else toast("The AI did not answer. Try again in a moment.");
+}
+var ideaBusy = false;
+function askIdeas() {
+  if (ideaBusy) return;
+  var opts = poll.options.map(function (o) { return String(o.label || "").trim(); });
+  if (!opts.filter(Boolean).length) { toast("Type the options first."); return; }
+  ideaBusy = true;
+  var btn = $("pollIdeas");
+  if (btn) { btn.disabled = true; btn.textContent = "Thinking..."; }
+  var uids = poll.options.map(function (o) { return o.uid; });
+  api("/studio/api/ai", { method: "POST", credentials: "same-origin",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ mode: "art", question: poll.q || "", options: opts }) })
+    .then(aiReply).then(function (j) {
+      var art = (j && Array.isArray(j.art)) ? j.art : [], n = 0;
+      snapPoll();
+      uids.forEach(function (uid, k) {
+        var i = optByUid(uid), o = i === -1 ? null : poll.options[i];
+        if (!o || o.kind === "fighter" || o.id) return;
+        var idea = o.kind === "other" ? (j && j.gag) : art[k];
+        if (typeof idea === "string" && idea.trim()) { o.art = idea.trim(); o.prompt = ""; n++; }
+      });
+      buildPollRows(); scheduleSave();
+      toast(n ? "Picture ideas written for " + n + (n === 1 ? " tile" : " tiles") + ". Edit any of them, then Generate."
+              : "No new ideas: fighters use your library, and finished tiles are left alone.");
+    }).catch(function (e) { aiFail(e, "Picture ideas"); }).then(function () {
+      ideaBusy = false;
+      if (btn) { btn.disabled = false; btn.textContent = "Suggest pictures"; }
+    });
+}
+function askLines() {
+  if (aiState.busy) return;
+  var btn = $("aiLines");
+  aiState.busy = true;
+  if (btn) { btn.disabled = true; btn.textContent = "Writing..."; }
+  var headline = (state.caption || "").split("\\n")[0] || state.line;
+  api("/studio/api/ai", { method: "POST", credentials: "same-origin",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ mode: "lines", headline: headline, line: state.line, source: state.source }) })
+    .then(aiReply).then(function (j) {
+      aiState.lines = (j && Array.isArray(j.lines)) ? j.lines.slice(0, 3) : [];
+      renderSuggestions();
+      if (!aiState.lines.length) toast("No usable lines came back. Try again.");
+    }).catch(function (e) { aiFail(e, "Line suggestions"); }).then(function () {
+      aiState.busy = false;
+      if (btn) { btn.disabled = false; btn.textContent = "Suggest lines"; }
+    });
+}
+
+/* ================= design check: the workflow the page follows =================
+   The owner asked for the design know-how to be "a workflow that this app
+   follows". Every render is checked against the rules the blind rounds and his
+   own reviews settled, each with a one-tap fix; Auto design runs every fix. */
+var checkList = [];
+function faceBoxOnCanvas() {
+  var k = state.photo.id, f = photoFacts(k), lc = lastCrop[k];
+  if (!f || !f.faces || !f.faces.length || !lc || tplDef().photos !== "single" || state.photo.kind === "cutout") return null;
+  var b = f.faces[0], kx = lc.dw / lc.sw, ky = lc.dh / lc.sh;
+  return { x: lc.dx + (b[0] * lc.iw - lc.sx) * kx, y: lc.dy + (b[1] * lc.ih - lc.sy) * ky,
+           w: b[2] * lc.iw * kx, h: b[3] * lc.ih * ky };
+}
+function overlap(a, b) {
+  if (!a || !b) return 0;
+  var x = Math.max(0, Math.min(a.x + a.w, b.x + b.w) - Math.max(a.x, b.x));
+  var y = Math.max(0, Math.min(a.y + a.h, b.y + b.h) - Math.max(a.y, b.y));
+  return (x * y) / Math.max(1, b.w * b.h);
+}
+function runChecks() {
+  var out = [], news = state.template === "quote" || state.template === "inset" || state.template === "state";
+  if (!news) { checkList = out; paintChecks(); return; }
+  var ws = words(), ph = get(state.photo.id);
+  if (!ws.length) out.push({ t: "There is no line yet.", fix: null });
+  if (ws.length && hotCount() === 0 && state.template !== "state") {
+    out.push({ t: "Nothing is highlighted. Two or three coloured words carry a poster.",
+               fix: function () { applySmartHot(); }, label: "Highlight" });
+  } else if (onlyNamesHot()) {
+    out.push({ t: "Only the name is highlighted. The word that carries the news is not.",
+               fix: function () { applySmartHot(); }, label: "Fix it" });
+  }
+  if (ws.length > 10) {
+    out.push({ t: ws.length + " words, so the type has to shrink. 5 to 9 words hits hardest.",
+               fix: function () { setStep(2); askLines(); }, label: "Suggest lines" });
+  }
+  if (ph && state.photo.kind !== "cutout") {
+    var fb = faceBoxOnCanvas();
+    if (fb && overlap(layout.text, fb) > 0.18) {
+      out.push({ t: "The words sit over the face.",
+                 fix: function () { autoFrame(true); }, label: "Reframe" });
+    }
+    if (fb && (fb.y < -fb.h * 0.08 || fb.x < -fb.w * 0.15 || fb.x + fb.w > W + fb.w * 0.15)) {
+      out.push({ t: "The face is cut off at the edge.",
+                 fix: function () { autoFrame(true); }, label: "Reframe" });
+    }
+    var lc = lastCrop[state.photo.id];
+    if (lc && lc.sh > 0 && H / lc.sh > 2.3) {
+      out.push({ t: "The photo is stretched about " + (H / lc.sh).toFixed(1) + "x and will look soft.",
+                 fix: function () { setStep(3); toast("Try another photo from the strip, or Whole photo."); }, label: "Photos" });
+    }
+    var f = photoFacts(state.photo.id);
+    if (f && f.faces && f.faces.length && mainMode() !== "auto") {
+      out.push({ t: "Face framing is off for this photo.",
+                 fix: function () { autoFrame(true); }, label: "Frame on face" });
+    }
+  } else if (!ph && state.template === "quote") {
+    out.push({ t: "No photo yet. The wash works, but a real photo stops the scroll.",
+               fix: function () { setStep(3); }, label: "Add a photo" });
+  }
+  checkList = out;
+  paintChecks();
+}
+function paintChecks() {
+  var host = $("checks");
+  var badge = document.querySelector('#stepbar button[data-step="4"] .dot');
+  if (badge) badge.hidden = !checkList.length;
+  if (!host) return;
+  host.innerHTML = "";
+  if (!checkList.length) {
+    host.appendChild(el("p", "note ok", "Looks right. Nothing to fix."));
+    return;
+  }
+  checkList.forEach(function (c) {
+    var row = el("div", "check");
+    row.appendChild(el("span", "", c.t));
+    if (c.fix) {
+      var b = el("button", "mini", c.label || "Fix");
+      b.type = "button";
+      b.addEventListener("click", function () { snap(); c.fix(); syncInputs(); drawNow(); runChecks(); });
+      row.appendChild(b);
+    }
+    host.appendChild(row);
+  });
+}
+/* re-frame the main photo on its faces: auto framing, pan and zoom reset */
+function autoFrame(quiet) {
+  var f = photoFacts(state.photo.id);
+  state.photo.panX = 0; state.photo.panY = 0; state.photo.zoom = 1;
+  state.fitMode = "auto";
+  if (!quiet) toast(f && f.faces && f.faces.length ? "Framed on the face." : "No face found. Tap Pick the face, then tap it on the poster.");
+}
+/* AUTO DESIGN: every fix in one tap, in the order a designer would do them */
+function autoDesign() {
+  snap();
+  var did = [];
+  if (tplDef().photos === "single" && get(state.photo.id) && state.photo.kind !== "cutout") {
+    autoFrame(true); did.push("framed on the face");
+    if (!state.look || state.look === "clean") { state.look = "fight"; state.clean = false; }
+    state.lookAmt = 100;
+    did.push(lookDef(state.look).label.toLowerCase() + " grade");
+  }
+  if (words().length && (hotCount() === 0 || onlyNamesHot())) {
+    if (applySmartHot(true)) did.push("highlighted the news word");
+  }
+  state.textDX = 0; state.textDY = 0; state.textScale = 1; state.grad = 1;
+  state.tpl[state.template] = { dx: 0, dy: 0, scale: 1 };
+  syncInputs(); drawNow(); runChecks();
+  toast(did.length ? "Auto design: " + did.join(", ") + "." : "Auto design: the layout is reset and centred.");
+}
+
+/* ================= pick the face by hand =================
+   For a photo with no face data (dropped in, or a browser without a face
+   detector): tap Pick the face, then tap the face on the poster. The tap is
+   mapped back through the crop that drew it. */
+var pickingFace = false;
+function startPickFace() {
+  if (!get(state.photo.id) || tplDef().photos !== "single") { toast("Add a photo first."); return; }
+  pickingFace = true;
+  document.documentElement.classList.add("picking");
+  toast("Tap the face on the poster.");
+}
+function finishPickFace(p) {
+  pickingFace = false;
+  document.documentElement.classList.remove("picking");
+  var k = state.photo.id, lc = lastCrop[k];
+  if (!lc) return;
+  var sx = lc.sx + (p.x - lc.dx) * (lc.sw / lc.dw), sy = lc.sy + (p.y - lc.dy) * (lc.sh / lc.dh);
+  var fh = Math.min(0.5, (lc.sh * 0.20) / lc.ih), fw = fh * lc.ih / lc.iw * 0.8;
+  var box = [clamp(sx / lc.iw - fw / 2, 0, 1 - fw), clamp(sy / lc.ih - fh / 2, 0, 1 - fh), fw, fh];
+  var img = get(k);
+  setFacts(k, { faces: [box], lum: measureLum(img, box), src: "picked" });
+  snap();
+  autoFrame(true);
+  drawNow(); runChecks();
+  toast("Framed on that face.");
+}
+
+/* ================= step 3: the photo strip and the looks =================
+   The staged photo plus the article's other good photos (photopick ranks every
+   candidate on the page; the runners-up ride the spec as alts), and whatever the
+   owner dropped this session. One tap swaps the poster onto that photo. */
+var photoPicks = [];      /* [{key, src, label}] for the post being edited */
+function addPick(pick) {
+  for (var i = 0; i < photoPicks.length; i++) if (photoPicks[i].src === pick.src) return photoPicks[i];
+  photoPicks.push(pick);
+  return pick;
+}
+function buildPhotoPicks() {
+  var host = $("photoPicks");
+  if (!host) return;
+  host.innerHTML = "";
+  if (!photoPicks.length) {
+    host.appendChild(el("p", "note", "The staged photo and the article's other good photos show here."));
+    return;
+  }
+  photoPicks.forEach(function (pk) {
+    var b = el("button", "pickbtn");
+    b.type = "button";
+    b.setAttribute("aria-pressed", pk.key && pk.key === state.photo.id ? "true" : "false");
+    b.setAttribute("aria-label", "Use " + pk.label);
+    var ph = el("span", pk.failed ? "ph failed" : "ph loading");
+    if (pk.key && urlOf(pk.key)) { ph.style.backgroundImage = "url(" + JSON.stringify(urlOf(pk.key)) + ")"; ph.classList.remove("loading"); }
+    b.appendChild(ph);
+    b.appendChild(el("span", "lbl", pk.failed ? pk.label + " (tap to retry)" : pk.label));
+    b.addEventListener("click", function () { usePick(pk); });
+    host.appendChild(b);
+    /* a failed photo is NOT retried on every redraw (it used to be, forever,
+       with a loading shimmer that never ended) - only when tapped */
+    if (!pk.key && !pk.loading && !pk.failed) preloadPick(pk);
+  });
+}
+function preloadPick(pk) {
+  pk.loading = true;
+  var owner = stagedPick;
+  loadImage(pk.src).then(function (o) {
+    if (stagedPick !== owner) { pk.loading = false; return; }      /* another post was picked meanwhile */
+    var data = toData(o.img);
+    pk.key = put(o.img, data ? { data: data } : { url: pk.src }, o.url);
+    setFacts(pk.key, { faces: pk.faces || [], lum: measureLum(o.img, (pk.faces || [])[0] || null),
+                       gamma: pk.gamma, src: pk.faces && pk.faces.length ? "staged" : "measured" });
+    if (!pk.faces || !pk.faces.length) detectFacesIn(pk.key, o.img);
+    pk.loading = false;
+    buildPhotoPicks();
+  }).catch(function () { pk.loading = false; pk.failed = true; buildPhotoPicks(); });
+}
+function usePick(pk) {
+  if (pk.failed) { pk.failed = false; preloadPick(pk); buildPhotoPicks(); toast("Trying that photo again."); return; }
+  if (!pk.key) { toast("Still loading that photo."); return; }
+  snap();
+  state.photo.id = pk.key;
+  state.photo.kind = "photo";
+  state.photo.panX = 0; state.photo.panY = 0; state.photo.zoom = 1;
+  if (state.fitMode !== "fit") state.fitMode = "auto";
+  syncDrops(); buildWashCard(); buildPhotoPicks(); drawNow(); runChecks();
+}
+function buildLooks() {
+  var host = $("lookRow");
+  if (!host) return;
+  host.innerHTML = "";
+  LOOKS.forEach(function (lk) {
+    var b = el("button", "chip", lk.label);
+    b.type = "button";
+    b.setAttribute("aria-pressed", effectiveLook() === lk.id ? "true" : "false");
+    b.addEventListener("click", function () {
+      snap();
+      if (lk.id === "clean") { state.clean = true; }
+      else { state.clean = false; state.look = lk.id; }
+      buildLooks(); drawNow(); runChecks();
+    });
+    host.appendChild(b);
+  });
+  var n = $("lookNote");
+  if (n) {
+    var f = photoFacts(state.photo.id);
+    n.textContent = effectiveLook() === "clean" ? "The photo exactly as it came, no grade."
+      : "Exposure is set from " + (f && f.faces && f.faces.length ? "the face" : "the whole photo")
+        + ", then the " + lookDef(effectiveLook()).label + " look. Skin stays natural; the tint lives in the shadows.";
+  }
+}
+
+/* ================= the page layout =================
+   The owner's screenshot: a 2000px screen with the poster in a 470px column and
+   both sides of the page empty. Wide screens now get three columns - the staged
+   queue on the left, the poster as tall as the window allows in the middle, the
+   steps on the right - and the poster height is measured, not guessed. */
+var WIDE_Q = "(min-width: 1500px)";
+function placeQueue() {
+  var card = $("cardQueue"), col = $("queueCol");
+  if (!card || !col) return;
+  var wide = false;
+  try { wide = window.matchMedia(WIDE_Q).matches && shellMode === "steps"; } catch (e) { wide = false; }
+  if (wide && card.parentNode !== col) { col.appendChild(card); col.hidden = false; }
+  else if (!wide && card.parentNode === col) {
+    var panel = document.querySelector(".panel"), after = $("stepbar");
+    if (panel && after) panel.insertBefore(card, after.nextSibling);
+    col.hidden = true;
+  }
+  if (!wide) col.hidden = true;
+}
+function sizeStage() {
+  /* measured while the Polls tab was showing, the hidden toolbar and export row
+     read as zero and the poster grew past the bottom of the screen */
+  if ($("view-post") && $("view-post").hidden) return;
+  try {
+    var tb = document.querySelector(".topbar"), tbar = $("tbar"), exp = $("exportRow");
+    var used = (tb ? tb.getBoundingClientRect().height : 60) + (tbar ? tbar.getBoundingClientRect().height : 120)
+             + (exp ? exp.getBoundingClientRect().height : 60) + 64;
+    var h = Math.max(360, window.innerHeight - used);
+    document.documentElement.style.setProperty("--stageH", Math.round(h) + "px");
+  } catch (e) { /* layout not ready */ }
+}
+
 /* ================= sliders ================= */
 var SLIDERS = [
   { id: "sz", label: "Text size", min: function () { return 60; }, max: function () { return 165; }, step: 1,
@@ -3483,6 +4356,9 @@ var SLIDERS = [
     get: function () { return Math.round(state.tint || 0); },
     set: function (v) { state.tint = v; buildWashCard(); },
     fmt: function (v) { return v ? v + "%" : "off"; } },
+  { id: "lk", label: "Look strength", min: function () { return 0; }, max: function () { return 100; }, step: 5,
+    get: function () { return Math.round(state.lookAmt == null ? 100 : state.lookAmt); },
+    set: function (v) { state.lookAmt = v; draftGrade(); }, fmt: function (v) { return v + "%"; } },
   { id: "pz", label: "Photo zoom", min: function () { return 100; }, max: function () { return 260; }, step: 2,
     get: function () { return Math.round(activePhoto().zoom * 100); }, set: function (v) { activePhoto().zoom = v / 100; }, fmt: function (v) { return v + "%"; } },
   { id: "is", label: "Inset size", min: function () { return 60; }, max: function () { return 200; }, step: 2, only: "inset",
@@ -3593,6 +4469,14 @@ function paintDrop(dropId, url, empty) {
 }
 function setPhoto(slot, im, url) {
   state[slot].id = im ? put(im, { data: toData(im) }, url) : null;
+  if (im && state[slot].id) {
+    detectFacesIn(state[slot].id, im);
+    if (slot === "photo") {
+      addPick({ key: state.photo.id, src: url || state.photo.id, label: "Your photo" });
+      if (state.fitMode !== "fit") state.fitMode = "auto";
+      state.photo.panX = 0; state.photo.panY = 0; state.photo.zoom = 1;
+    }
+  }
   // a photo the owner drops himself is a PHOTO: only the bot stages cut-outs,
   // and leaving the previous post's cutout flag on would stand his own
   // photograph on a wash instead of filling the frame
@@ -3652,6 +4536,7 @@ var dragging = null;
 cv.addEventListener("pointerdown", function (e) {
   var p = canvasPoint(e);
   if (!p) return;
+  if (pickingFace) { finishPickFace(p); e.preventDefault(); return; }
   // preventDefault below cancels the browser's own click-to-focus, which used
   // to leave the arrow keys dead after a tap on the poster. Focus by hand.
   try { cv.focus({ preventScroll: true }); } catch (err0) { try { cv.focus(); } catch (err1) { /* no focus */ } }
@@ -3791,8 +4676,7 @@ function syncInputs() {
   press($("shapeCi"), state.inset.shape === "circle");
   var fs = $("fitSeg").querySelectorAll("button"), i;
   for (i = 0; i < fs.length; i++) press(fs[i], fs[i].dataset.fit === state.fitMode);
-  var cs = $("cleanSeg").querySelectorAll("button");
-  for (i = 0; i < cs.length; i++) press(cs[i], (cs[i].dataset.clean === "1") === !!state.clean);
+  buildLooks(); buildPhotoPicks();
   var tb = $("tpl").querySelectorAll("button");
   for (i = 0; i < tb.length; i++) press(tb[i], tb[i].dataset.id === state.template);
   var d = tplDef(), pair = d.photos === "pair", panels = d.photos === "panels";
@@ -3903,28 +4787,47 @@ function serialize() {
   keys.forEach(function (k) {
     if (!k || imgs[k]) return;
     var m = assetMeta[k];
-    if (m && m.data) imgs[k] = { data: m.data };
-    else if (m && m.url) imgs[k] = { url: m.url };
+    if (m && m.data) imgs[k] = { data: m.data, facts: m.facts || null };
+    else if (m && m.url) imgs[k] = { url: m.url, facts: m.facts || null };
   });
   return { v: 2, state: state, poll: poll, images: imgs, ui: ui };
 }
+/* A saved document names its photos by the keys they had when it was saved.
+   Those keys are NOT reused on the way back in: "a1" in a draft and "a1" in the
+   live session are different photos, and writing the draft's pixels over the
+   live key made the undo snapshot (and the grade cache) point at the wrong
+   story's face. Every loaded photo gets a FRESH key and the document's
+   references are rewritten; a photo that fails to load becomes an empty slot,
+   never somebody else's picture. */
+function remapAssetKeys(v, map) {
+  if (Array.isArray(v)) return v.map(function (x) { return remapAssetKeys(x, map); });
+  if (!v || typeof v !== "object") return v;
+  var out = {};
+  Object.keys(v).forEach(function (key) {
+    var x = v[key];
+    if (key === "id" && typeof x === "string" && /^a[0-9]+$/.test(x)) out[key] = map[x] || null;
+    else out[key] = remapAssetKeys(x, map);
+  });
+  return out;
+}
 function hydrate(doc) {
   if (!doc || !doc.state) return Promise.resolve(false);
-  var imgs = doc.images || {}, jobs = [];
+  var imgs = doc.images || {}, jobs = [], remap = {};
   Object.keys(imgs).forEach(function (k) {
     var rec = imgs[k] || {}, src = rec.data || rec.url;
     if (!src) return;
     jobs.push(new Promise(function (res) {
       var im = new Image();
       if (!rec.data) im.crossOrigin = "anonymous";
-      im.onload = function () { putAt(k, im, rec, src); res(true); };
+      im.onload = function () { remap[k] = put(im, rec, src); res(true); };
       im.onerror = function () { res(false); };
       im.src = src;
     }));
   });
   return Promise.all(jobs).then(function () {
-    state = mergeState(doc.state);
-    if (doc.poll) poll = mergePoll(doc.poll);
+    state = mergeState(remapAssetKeys(doc.state, remap));
+    if (doc.poll) poll = mergePoll(remapAssetKeys(doc.poll, remap));
+    gradeCache.clear(); lastCrop = {}; photoPicks = [];
     if (doc.ui && typeof doc.ui === "object") {
       ui.grid = !!doc.ui.grid;
       ui.snap = doc.ui.snap === undefined ? true : !!doc.ui.snap;
@@ -4003,7 +4906,7 @@ function openDraft(id) {
     snap();
     return hydrate(rec.doc).then(function () {
       layer = "text";
-      applyAspect(); syncInputs(); buildPollRows(); drawNow(); scheduleSave();
+      applyAspect(); syncInputs(); buildPollRows(); buildPhotoPicks(); buildLooks(); drawNow(); scheduleSave();
       toast("Draft loaded");
     });
   }, function () { toast("That draft would not open"); });
@@ -4060,7 +4963,11 @@ function normalizeStaged(raw) {
       // a DELIBERATE wash design, not a pre-round-trip relic)
       bg: p.bg || "",
       spec: !!p.spec,
-      timestamp: p.timestamp || p.ts || p.created_at || ""
+      timestamp: p.timestamp || p.ts || p.created_at || "",
+      // photopick's face boxes, grade and the article's other good photos
+      faces: Array.isArray(p.faces) ? p.faces : [],
+      grade: (p.grade && typeof p.grade === "object") ? p.grade : null,
+      alts: Array.isArray(p.alts) ? p.alts.filter(function (a) { return a && typeof a.src === "string"; }) : []
     };
   });
 }
@@ -4224,30 +5131,41 @@ function railSkeleton() {
    value; a hashchange (app already open, second link tapped) re-fetches the
    rail first so a just-staged post is findable. */
 var pickedHash = "";
+/* a link is consumed ONCE: the hash is removed after use, so a reload (a phone
+   discarding the tab, the 401 reload) never re-opens the post over the owner's
+   edits - and a link to the post already open just shows it */
+function clearHash() {
+  try { history.replaceState(null, "", location.pathname + location.search); } catch (e) { /* old engine */ }
+}
 function pickFromHash() {
   if (restoring) { setTimeout(pickFromHash, 300); return; }
-  var m = /[#&]s=(\\d{15,21})/.exec(location.hash || "");
+  var m = /[#&]s=([0-9]{15,21})/.exec(location.hash || "");
   if (!m || m[1] === pickedHash) return;
-  for (var i = 0; i < staged.length; i++) {
-    if (staged[i].id === m[1]) {
-      pickedHash = m[1];
-      pickStaged(staged[i]);
-      return;
-    }
-  }
   pickedHash = m[1];
+  showTab("tab-post");
+  clearHash();
+  if (stagedPick === m[1]) return;
+  for (var i = 0; i < staged.length; i++) {
+    if (staged[i].id === m[1]) { pickStaged(staged[i]); return; }
+  }
   toast("That staged post is not in the queue any more - staged copies are tidied out after a couple of days.");
 }
 window.addEventListener("hashchange", function () {
   /* Re-fetching the whole rail here wiped every tile already on screen and
      restarted all their downloads. Only go back to the server when the post the
      link names is not in the list we already hold. */
-  var m = /[#&]s=(\\d{15,21})/.exec(location.hash || "");
+  var m = /[#&]s=([0-9]{15,21})/.exec(location.hash || "");
   if (m) {
     for (var i = 0; i < staged.length; i++) {
-      if (staged[i].id === m[1]) { pickedHash = m[1]; pickStaged(staged[i]); return; }
+      if (staged[i].id === m[1]) {
+        pickedHash = m[1]; showTab("tab-post"); clearHash();
+        if (stagedPick !== m[1]) pickStaged(staged[i]);
+        return;
+      }
     }
   }
+  // a poll link (#p=) opens the Polls tab instead of refetching the news rail
+  if (/[#&]p=/.test(location.hash || "")) { pickPollFromHash(); return; }
   loadStaged();
 });
 function loadStaged() {
@@ -4299,10 +5217,10 @@ function pickStaged(p) {
   state.hot = {};
   var ks = wordKeys(), ws = words(), used = {};
   (p.hot || []).forEach(function (h) {
-    var t = normWord(h);
+    var t = bareWord(h);
     if (!t) return;
     for (var i = 0; i < ws.length; i++) {
-      if (normWord(ws[i]) === t && !used[ks[i]]) { state.hot[ks[i]] = true; used[ks[i]] = 1; }
+      if (bareWord(ws[i]) === t && !used[ks[i]]) { state.hot[ks[i]] = true; used[ks[i]] = 1; }
     }
   });
   state.textDX = 0; state.textDY = 0; state.textScale = 1;
@@ -4329,6 +5247,17 @@ function pickStaged(p) {
   // standing IN FRONT of it.
   state.photo.kind = (p.photoKind === "cutout") ? "cutout" : "photo";
   state.photo.id = null;
+  // the photo strip: the staged photo first, then the article's runners-up
+  photoPicks = [];
+  (p.alts || []).forEach(function (a, i) {
+    addPick({ key: null, src: a.src, label: "Photo " + (i + 2), faces: Array.isArray(a.faces) ? a.faces : [] });
+  });
+  // framing and grade come from the spec: face-framed, in the bot's look
+  state.fitMode = "auto";
+  state.clean = false;
+  state.look = (p.grade && p.grade.look && p.grade.look !== "clean") ? p.grade.look : "fight";
+  state.lookAmt = 100;
+  aiState.lines = []; renderSuggestions();
   renderRail(staged);
   syncInputs(); syncDrops(); buildWashCard(); drawNow();
   if (!src) {
@@ -4339,13 +5268,26 @@ function pickStaged(p) {
     scheduleSave();
     return;
   }
+  var mine = p.id;
   loadImage(src).then(function (o) {
+    /* the owner tapped another post while this one downloaded: its photo must
+       not land under the new post's words, or in the new post's strip */
+    if (stagedPick !== mine) return;
     var data = toData(o.img);
     state.photo.id = put(o.img, data ? { data: data } : { url: src }, o.url);
-    syncDrops(); buildWashCard(); drawNow(); scheduleSave();
+    var faces = (p.photoKind === "photo" && p.faces && p.faces.length) ? p.faces : [];
+    setFacts(state.photo.id, { faces: faces, lum: measureLum(o.img, faces[0] || null),
+                               gamma: p.grade && typeof p.grade.gamma === "number" ? p.grade.gamma : undefined,
+                               src: faces.length ? "staged" : "measured" });
+    if (!faces.length && p.photoKind === "photo") detectFacesIn(state.photo.id, o.img);
+    if (p.photoKind === "photo") {
+      photoPicks.unshift({ key: state.photo.id, src: src, label: "Staged photo", faces: faces });
+    }
+    syncDrops(); buildWashCard(); buildPhotoPicks(); buildLooks(); drawNow(); scheduleSave();
     toast("Loaded with the raw " + (p.photoKind === "cutout" ? "cutout" : "photo") + ". Change one thing and export.");
     stepAfterPick();
   }).catch(function () {
+    if (stagedPick !== mine) return;
     syncDrops(); buildWashCard(); drawNow(); scheduleSave();
     toast("The photo would not load, so the words sit on the wash for now.");
     stepAfterPick();
@@ -4354,6 +5296,7 @@ function pickStaged(p) {
 
 /* ================= export ================= */
 function withBlob(cb) {
+  finalGrade();
   drawNow();
   try { cv.toBlob(function (b) { if (b) cb(b); else toast("The export failed"); }, "image/png"); }
   catch (e) { toast("The export failed"); }
@@ -4382,6 +5325,7 @@ $("copyCap").addEventListener("click", function () {
   if (!(window.ClipboardItem && navigator.clipboard && navigator.clipboard.write)) { btn.hidden = true; return; }
   btn.addEventListener("click", function () {
     try {
+      finalGrade();
       drawNow();
       var item = new ClipboardItem({
         "image/png": new Promise(function (res) { cv.toBlob(function (b) { res(b); }, "image/png"); })
@@ -4403,13 +5347,76 @@ $("copyCap").addEventListener("click", function () {
   });
 })();
 
-/* ================= polls =================
-   Polls own their own history, so dropping a poll photo can no longer rewind
-   the poster you were building in the other tab. */
-var POLL_W = 640, POLL_H = 640;
-function blankOption() { return { label: "", emoji: "", id: null, zoom: 1, panX: 0, panY: 0 }; }
+/* ================= polls: the image workshop =================
+   Sept 24 2026. The owner builds every YouTube image poll by hand: fighter
+   tiles from his own close-up library, and for anything else ("Loaded gloves",
+   "Greasing", "Faking injury") he Googles a photo, then drops a random meme on
+   "Other (comment below)". This tab does all of it:
+     - a staged poll opens here from its Discord link (#p=<message id>);
+     - an option that names a fighter gets his own approved close-up tile;
+     - every other option gets a written picture idea (the poll writer drafts
+       one per option, plus a gag for "Other") turned into a Nano Banana prompt
+       in a tested house style, generated in one tap through the Worker, or
+       copied into Gemini by hand when generation is not switched on;
+     - Download all hands back the tiles in option order.
+   Polls own their own history, so a poll edit can never rewind the poster. */
+var POLL_MAX = 5;
+var TILE = 1080;
+var POLL_COLOURS = [
+  "a vivid golden orange corner into a deep burnt red-orange",
+  "a vivid cyan blue corner into a deep royal blue",
+  "a vivid lime green corner into a deep emerald green",
+  "a vivid orchid violet corner into a deep indigo",
+  "a vivid hot pink corner into a deep magenta"
+];
+/* The three house styles. Each was rendered on Nano Banana 2 before shipping:
+   "poster" is the studio product-shot look (a hero object or figure on the
+   owner's analogous-gradient backgrounds), "photo" a cinematic arena photograph,
+   "meme" the glossy absurd look for the Other tile. Every one forbids text:
+   type is set by the page, spelled right. */
+var POLL_STYLES = {
+  poster: "Premium sports-magazine poll image, square format. Subject: {S}. One clear hero subject, " +
+    "centred and filling most of the frame, shot like a high-end studio sports photograph: dramatic rim " +
+    "lighting tracing its edges, deep shadows, crisp texture, shallow depth of field. Nobody in it is a " +
+    "recognisable real person. Background: a smooth vivid gradient running from {C}, with a faint diagonal " +
+    "halftone texture. Punchy contrast, rich colour, instantly readable as a small thumbnail. Absolutely no " +
+    "text, letters, numbers, logos or watermarks anywhere in the image, and no UFC branding. Keep the bottom " +
+    "fifth of the frame calm and slightly darker.",
+  photo: "Photorealistic cinematic sports photograph for a UFC fan poll, square format. Scene: {S}. Shot " +
+    "inside a packed arena under hard overhead spotlights, 85mm lens, shallow depth of field, sharp focus on " +
+    "the subject, film grain, dramatic contrast, natural skin tones. Nobody in it is a recognisable real " +
+    "person. No text, letters, numbers, logos or watermarks anywhere, and no UFC branding on the canvas, " +
+    "the fence or any clothing.",
+  meme: "A hilarious meme-style square image: {S}. Bright, clean and instantly readable as a small thumbnail, " +
+    "expressive and funny, glossy high-detail 3D animated film style, warm spotlight from above, soft purple " +
+    "arena haze behind. No text, letters, numbers or watermarks anywhere. No real people and no existing " +
+    "cartoon characters."
+};
+var GAGS = [
+  "a golden retriever in tiny boxing gloves sitting alone in the middle of an empty octagon, looking confused",
+  "a pigeon standing on a championship belt, looking deeply unimpressed",
+  "a sloth lying flat on the octagon canvas, completely unbothered, spotlight on it",
+  "a goat in sunglasses and a gold chain at a press conference podium full of microphones",
+  "a potato wearing a luxury fight robe making a dramatic walkout through smoke and spotlights",
+  "a cat in a referee shirt stepping between two rubber ducks squaring up",
+  "a penguin in fight shorts getting its hands wrapped by a very serious walrus coach",
+  "a llama with a shocked face holding a microphone at ringside"
+];
+/* every option carries a uid that survives undo, redo and saving, so a paid
+   generation that finishes late lands on ITS option wherever that option is
+   now, never on whatever sits at the old position */
+var uidN = 0;
+function newUid() { return "o" + Date.now().toString(36) + (++uidN).toString(36) + Math.floor(Math.random() * 1e6).toString(36); }
+function blankOption() {
+  return { uid: newUid(), label: "", emoji: "", art: "", kind: "", lib: "", id: null, src: "", prompt: "", zoom: 1, panX: 0, panY: 0 };
+}
+function optByUid(uid) {
+  for (var i = 0; i < poll.options.length; i++) if (poll.options[i].uid === uid) return i;
+  return -1;
+}
 function blankPoll() {
-  return { q: "", options: [blankOption(), blankOption(), blankOption(), blankOption()] };
+  return { pid: "", q: "", style: "poster", size: "1K", label: true,
+           options: [blankOption(), blankOption(), blankOption(), blankOption()] };
 }
 var poll = blankPoll();
 var pollMetrics = [];
@@ -4417,17 +5424,23 @@ var pollHist = [], pollRedoStack = [];
 function mergePoll(p) {
   var b = blankPoll();
   if (!p || typeof p !== "object") return b;
+  b.pid = typeof p.pid === "string" ? p.pid : "";
   b.q = typeof p.q === "string" ? p.q : (typeof p.question === "string" ? p.question : "");
+  if (POLL_STYLES[p.style]) b.style = p.style;
+  if (p.size === "1K" || p.size === "2K") b.size = p.size;
+  if (typeof p.label === "boolean") b.label = p.label;
   if (Array.isArray(p.options) && p.options.length) {
-    b.options = p.options.slice(0, 6).map(function (o) {
+    b.options = p.options.slice(0, POLL_MAX).map(function (o) {
       var d = blankOption();
       if (o && typeof o === "object") {
-        d.label = String(o.label || "");
-        d.emoji = String(o.emoji || "");
+        ["label", "emoji", "art", "kind", "lib", "src", "prompt"].forEach(function (k) {
+          if (typeof o[k] === "string") d[k] = o[k];
+        });
         d.id = o.id || null;
-        d.zoom = typeof o.zoom === "number" ? o.zoom : 1;
-        d.panX = typeof o.panX === "number" ? o.panX : 0;
-        d.panY = typeof o.panY === "number" ? o.panY : 0;
+        if (typeof o.uid === "string" && /^o[a-z0-9]{3,40}$/.test(o.uid)) d.uid = o.uid;
+        d.zoom = typeof o.zoom === "number" && isFinite(o.zoom) ? o.zoom : 1;
+        d.panX = typeof o.panX === "number" && isFinite(o.panX) ? o.panX : 0;
+        d.panY = typeof o.panY === "number" && isFinite(o.panY) ? o.panY : 0;
       } else if (typeof o === "string") d.label = o;
       return d;
     });
@@ -4445,40 +5458,352 @@ function pollUndo() {
   if (!pollHist.length) { toast("Nothing left to undo"); return; }
   try { pollRedoStack.push(JSON.stringify(poll)); poll = mergePoll(JSON.parse(pollHist.pop())); }
   catch (e) { return; }
-  $("pq").value = poll.q; buildPollRows(); syncPollHist(); scheduleSave();
+  buildPollRows(); syncPollHist(); scheduleSave();
 }
 function pollRedo() {
   if (!pollRedoStack.length) { toast("Nothing to redo"); return; }
   try { pollHist.push(JSON.stringify(poll)); poll = mergePoll(JSON.parse(pollRedoStack.pop())); }
   catch (e) { return; }
-  $("pq").value = poll.q; buildPollRows(); syncPollHist(); scheduleSave();
+  buildPollRows(); syncPollHist(); scheduleSave();
 }
 function syncPollHist() {
-  $("pollUndo").disabled = pollHist.length === 0;
-  $("pollRedo").disabled = pollRedoStack.length === 0;
-  $("pollAdd").disabled = poll.options.length >= 6;
+  if ($("pollUndo")) $("pollUndo").disabled = pollHist.length === 0;
+  if ($("pollRedo")) $("pollRedo").disabled = pollRedoStack.length === 0;
+  if ($("pollAdd")) $("pollAdd").disabled = poll.options.length >= POLL_MAX;
 }
+
+/* ---- the fighter library (the owner's own close-up tiles) ---- */
+var libIndex = null, libLoading = false;
+function foldText(s) {
+  s = String(s || "");
+  try { s = s.normalize("NFD").replace(/[\\u0300-\\u036f]/g, ""); } catch (e) { /* old engine */ }
+  return s.toLowerCase().replace(/[^a-z0-9 ']/g, " ").replace(/\\s+/g, " ").trim();
+}
+function loadLib() {
+  if (libIndex || libLoading) return;
+  libLoading = true;
+  api("/studio/lib/index.json").then(function (r) { if (!r.ok) throw new Error("x"); return r.json(); })
+    .then(function (j) { libIndex = Array.isArray(j) ? j : []; })
+    .catch(function () { libIndex = []; })
+    .then(function () { libLoading = false; autoKinds(); buildPollRows(); });
+}
+/* the library tile for an option label: full name, then nickname, then an
+   unambiguous surname - "Jon Jones", "Bones" and "Jones" all find his tile */
+function matchLib(label) {
+  if (!libIndex || !libIndex.length) return null;
+  var t = foldText(label);
+  if (!t || /^other\\b/.test(t)) return null;
+  var hits = libIndex.filter(function (e) { return (e.words || []).indexOf(t) !== -1; });
+  if (hits.length === 1) return hits[0];
+  var exact = hits.filter(function (e) { return foldText(e.name) === t; });
+  if (exact.length) return exact[0];
+  var parts = t.split(" ");
+  if (parts.length >= 2) {
+    var sur = parts[parts.length - 1];
+    var by = libIndex.filter(function (e) { return (e.words || []).indexOf(sur) !== -1; });
+    if (by.length === 1) return by[0];
+  }
+  /* several fighters share the word ("Silva" is four of them): guessing put the
+     wrong face on the tile, so an ambiguous name matches nobody */
+  return null;
+}
+function libMatches(label) {
+  if (!libIndex || !libIndex.length) return 0;
+  var t = foldText(label);
+  return t ? libIndex.filter(function (e) { return (e.words || []).indexOf(t) !== -1; }).length : 0;
+}
+function isOther(label) { return /^other\\b/i.test(String(label || "").trim()); }
+function autoKinds() {
+  poll.options.forEach(function (o) {
+    if (o.src && o.id) return;              /* never overwrite a finished tile */
+    if (isOther(o.label)) { o.kind = "other"; return; }
+    var hit = matchLib(o.label);
+    if (hit) { o.kind = "fighter"; o.lib = hit.slug; o.src = "lib"; }
+    else if (!o.kind || o.kind === "fighter") { o.kind = "concept"; o.lib = ""; if (o.src === "lib") o.src = ""; }
+  });
+}
+
+/* ---- prompts ---- */
+function subjectFor(o, i) {
+  if (o.kind === "other") return (o.art || GAGS[(poll.q.length + i) % GAGS.length]);
+  var a = String(o.art || "").trim();
+  return a || ("a striking picture that says '" + o.label + "' to an MMA fan at a glance, in the context of the UFC");
+}
+function buildPrompt(o, i) {
+  if (o.prompt) return o.prompt;
+  var style = o.kind === "other" ? "meme" : poll.style;
+  return POLL_STYLES[style].replace("{S}", subjectFor(o, i)).replace("{C}", POLL_COLOURS[i % POLL_COLOURS.length]);
+}
+
+/* ---- generation ---- */
+var genStatus = null;
+function loadGenStatus(cb) {
+  api("/studio/api/gen").then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (j) { genStatus = j || { configured: false }; if (cb) cb(); paintGenNote(); })
+    .catch(function () { genStatus = { configured: false }; paintGenNote(); });
+}
+function paintGenNote() {
+  var n = $("genNote"), n2 = $("genSet");
+  if (n2) n2.textContent = !genStatus ? "Checking." : (genStatus.configured
+    ? "On. Poll tiles generate with Nano Banana 2 (" + (genStatus.model || "") + ") on your Google project."
+    : (genStatus.note || "Off. Copy prompts into Gemini instead."));
+  if (!n) return;
+  if (!genStatus) { n.textContent = "Checking image generation..."; return; }
+  if (genStatus.configured) {
+    var c = (genStatus.costs || {})[poll.size];
+    var bu = genStatus.budget;
+    n.textContent = "Nano Banana 2 on your Google project. About " + (c ? "$" + c.toFixed(3) : "a few cents") +
+      " a tile at " + poll.size + ", paid from the free-trial credit." +
+      (bu && typeof bu.used === "number" ? " " + bu.used + " of " + bu.cap + " used today." : "");
+  } else {
+    n.textContent = genStatus.note || "One-tap generation is off. Copy a prompt into Gemini instead.";
+  }
+}
+var genBusy = {};
+function b64ToImage(mime, data) {
+  return new Promise(function (res, rej) {
+    var im = new Image();
+    im.onload = function () { res({ img: im, url: im.src }); };
+    im.onerror = function () { rej(new Error("decode")); };
+    im.src = "data:" + (mime || "image/png") + ";base64," + data;
+  });
+}
+function pickImagePart(j) {
+  var best = null;
+  ((j && j.candidates) || []).forEach(function (c) {
+    (((c || {}).content || {}).parts || []).forEach(function (p) {
+      var inl = p && (p.inlineData || p.inline_data);
+      if (inl && inl.data && (!best || inl.data.length >= best.data.length)) best = { mime: inl.mimeType || inl.mime_type, data: inl.data };
+    });
+  });
+  return best;
+}
+/* uid -> asset key: a paid tile that finished while its option was off screen
+   (an undo, a poll switch). buildPollRows hands it back once the option returns. */
+var genDone = {};
+function hasIdea(o) { return !!(String(o.label || "").trim() || String(o.art || "").trim() || o.kind === "other"); }
+function genTile(i) {
+  var o = poll.options[i];
+  if (!o) return;
+  if (genBusy[o.uid]) { toast("That tile is still generating."); return; }
+  if (!hasIdea(o)) { toast("Type the option first, then generate."); return; }
+  if (!genStatus || !genStatus.configured) { copyPrompt(i, true); return; }
+  var uid = o.uid;
+  genBusy[uid] = Date.now();
+  paintTileState(i); paintGenButtons();
+  var parts = [{ text: buildPrompt(o, i) }];
+  var q = "/studio/api/gen?aspect=1:1&size=" + encodeURIComponent(poll.size) + "&think=high";
+  api(q, { method: "POST", credentials: "same-origin", headers: { "content-type": "application/json" },
+           body: JSON.stringify(parts) })
+    .then(function (r) {
+      return r.json().catch(function () { return {}; }).then(function (j) { return { ok: r.ok, status: r.status, j: j }; });
+    })
+    .then(function (res) {
+      if (!res.ok) {
+        var m = (res.j && (res.j.setup || (res.j.error && (res.j.error.message || res.j.error)))) || ("HTTP " + res.status);
+        throw new Error(String(m).slice(0, 220));
+      }
+      var part = pickImagePart(res.j);
+      if (!part) {
+        var why = res.j && res.j.candidates && res.j.candidates[0] && res.j.candidates[0].finishReason;
+        throw new Error("No image came back" + (why ? " (" + why + ")" : "") + ". Try again or reword the idea.");
+      }
+      return b64ToImage(part.mime, part.data);
+    })
+    .then(function (o2) {
+      delete genBusy[uid];
+      var k = put(o2.img, { data: toData(o2.img) }, o2.url);
+      var j = optByUid(uid);
+      loadGenStatus();                 /* the "used today" count moved */
+      if (j === -1) {
+        genDone[uid] = k;
+        paintGenButtons();
+        toast("A tile finished after its option left the screen. Undo, or reopen that poll, to get it back.");
+        return;
+      }
+      snapPoll();
+      var cur = poll.options[j];
+      cur.id = k; cur.src = "gen"; cur.zoom = 1; cur.panX = 0; cur.panY = 0;
+      buildPollRows(); scheduleSave();
+      toast("Tile " + (j + 1) + " is ready.");
+    })
+    .catch(function (e) {
+      delete genBusy[uid];
+      var j = optByUid(uid);
+      if (j !== -1) paintTileState(j, String((e && e.message) || "Generation failed"));
+      paintGenButtons();
+    });
+}
+function paintGenButtons() {
+  poll.options.forEach(function (o, i) { var b = $("pgen" + i); if (b) b.disabled = !!genBusy[o.uid]; });
+}
+function genAll() {
+  /* resolved by uid when each timer fires: an edit, an undo or a poll switch in
+     between can never send a request for the wrong option. Fighters are left
+     to the library or the UFC photo, and a blank option is never paid for. */
+  var uids = [];
+  poll.options.forEach(function (o) {
+    if (o.kind === "fighter" || (o.id && o.src) || genBusy[o.uid] || !hasIdea(o)) return;
+    uids.push(o.uid);
+  });
+  uids.forEach(function (uid, n) {
+    setTimeout(function () {
+      var i = optByUid(uid);
+      if (i !== -1 && !poll.options[i].id && !genBusy[uid]) genTile(i);
+    }, n * 400);
+  });
+  toast(uids.length ? uids.length + (uids.length === 1 ? " tile is" : " tiles are") + " generating."
+                    : "Every picture tile already has an image.");
+}
+function copyPrompt(i, becauseOff) {
+  var o = poll.options[i];
+  if (!o) return;
+  var t = buildPrompt(o, i);
+  if (!navigator.clipboard) { toast("This browser blocks copy."); return; }
+  navigator.clipboard.writeText(t).then(function () {
+    toast(becauseOff ? "Generation is off, so the prompt is copied. Paste it into Gemini, then drop the image here."
+                     : "Prompt copied. Paste it into Gemini or ChatGPT.");
+  }, function () { toast("Copy was blocked"); });
+}
+
+/* ---- the tile renderer ---- */
+function tileLabel(o) {
+  var t = String(o.label || "").replace(/\\(.*?\\)/g, "").trim().toUpperCase();
+  return t;
+}
+function drawTile(g, o, size, forExport) {
+  g.setTransform(1, 0, 0, 1, 0, 0);
+  g.clearRect(0, 0, size, size);
+  var img = get(o.id);
+  if (img) {
+    var iw = img.naturalWidth || img.width, ih = img.naturalHeight || img.height;
+    var s = Math.max(size / iw, size / ih) * (o.zoom || 1);
+    var w = iw * s, h = ih * s;
+    var px = clamp(o.panX || 0, -size, size) * (size / TILE), py = clamp(o.panY || 0, -size, size) * (size / TILE);
+    var x = (size - w) / 2 + px, y = (size - h) / 2 + py;
+    x = clamp(x, size - w, 0); y = clamp(y, size - h, 0);
+    g.drawImage(img, x, y, w, h);
+  } else {
+    washField(g, 0, 0, size, size, cwOf("purple"), "arena");
+    if (!forExport) {
+      g.fillStyle = "rgba(245,244,246,0.7)";
+      g.font = "600 " + Math.round(size * 0.045) + "px Poppins, sans-serif";
+      g.textAlign = "center"; g.textBaseline = "middle";
+      g.fillText(o.kind === "fighter" ? "No library tile" : "No image yet", size / 2, size / 2);
+      g.textAlign = "start"; g.textBaseline = "alphabetic";
+    }
+  }
+  /* the big word, set by the page in a heavy condensed face like the owner's
+     library tiles - never by the model, which misspells */
+  if (img && poll.label && o.kind === "concept") {
+    var word = tileLabel(o);
+    if (word) {
+      var grd = g.createLinearGradient(0, size * 0.55, 0, size);
+      grd.addColorStop(0, "rgba(8,8,12,0)"); grd.addColorStop(1, "rgba(8,8,12,0.82)");
+      g.fillStyle = grd; g.fillRect(0, size * 0.55, size, size * 0.45);
+      var fs = Math.round(size * 0.20);
+      g.font = "400 " + fs + "px Anton, Impact, 'Arial Narrow', sans-serif";
+      while (fs > size * 0.07 && g.measureText(word).width > size * 0.9) {
+        fs -= 4; g.font = "400 " + fs + "px Anton, Impact, 'Arial Narrow', sans-serif";
+      }
+      g.save();
+      g.textAlign = "center"; g.textBaseline = "alphabetic";
+      g.shadowColor = "rgba(0,0,0,0.55)"; g.shadowBlur = size * 0.02; g.shadowOffsetY = size * 0.006;
+      g.fillStyle = "#FFFFFF";
+      g.fillText(word, size / 2, size * 0.93);
+      g.restore();
+    }
+  }
+}
+function drawPoll(i) {
+  var c = $("pc" + i), o = poll.options[i];
+  if (!c || !o) return;
+  drawTile(c.getContext("2d"), o, c.width, false);
+  pollMetrics[i] = { kind: o.kind, src: o.src, lib: o.lib, hasImg: !!get(o.id) };
+}
+function drawAllPolls() { for (var i = 0; i < poll.options.length; i++) drawPoll(i); }
+function paintTileState(i, err) {
+  var st = $("pst" + i), o = poll.options[i];
+  if (!st) return;
+  if (o && genBusy[o.uid]) {
+    st.hidden = false; st.className = "tilestate busy";
+    st.textContent = "Generating... usually 15 to 30 seconds";
+    return;
+  }
+  if (err) { st.hidden = false; st.className = "tilestate err"; st.textContent = err; return; }
+  st.hidden = true;
+}
+setInterval(function () {
+  Object.keys(genBusy).forEach(function (uid) {
+    var st = $("pst" + optByUid(uid));
+    if (st && genBusy[uid]) st.textContent = "Generating... " + Math.round((Date.now() - genBusy[uid]) / 1000) + "s";
+  });
+}, 1000);
+/* A fighter the library does not have yet (a new name in the rankings): the
+   official UFC photo, relayed same-origin by /studio/api/fighter so the tile
+   exports. The slug is octagon-api's: "Sean O'Malley" is "sean-omalley". */
+function fighterSlug(label) {
+  var s = String(label || "").split(String.fromCharCode(8217)).join("").replace(/'/g, "");
+  return foldText(s).replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 60);
+}
+function ufcTile(i) {
+  var o = poll.options[i];
+  if (!o) return;
+  var slug = fighterSlug(o.label);
+  if (!slug || slug.indexOf("-") === -1) { toast("Type the fighter's full name first."); return; }
+  var uid = o.uid;
+  toast("Looking for the UFC photo...");
+  loadImage("/studio/api/fighter/" + slug).then(function (res) {
+    var j = optByUid(uid);
+    if (j === -1) return;
+    snapPoll();
+    var cur = poll.options[j];
+    cur.id = put(res.img, { data: toData(res.img) }, res.url);
+    cur.src = "ufc"; cur.zoom = 1; cur.panX = 0; cur.panY = 0;
+    buildPollRows(); scheduleSave();
+    toast("The UFC photo is in. Drag the tile to frame the face.");
+  }).catch(function () { toast("No UFC photo found for that name. Drop one instead."); });
+}
+function libTile(o, i) {
+  if (!o.lib) return;
+  var url = "/studio/lib/" + o.lib + ".jpg";
+  loadImage(url).then(function (res) {
+    o.id = put(res.img, { url: url }, res.url);
+    o.src = "lib";
+    drawPoll(i);
+  }).catch(function () { o.src = ""; drawPoll(i); });
+}
+
+/* ---- the option cards ---- */
 function buildPollRows() {
   var host = $("pollRows");
+  if (!host) return;
+  /* a paid tile that finished while its option was off screen lands the moment
+     that option is back - once, so clearing it later really clears it */
+  poll.options.forEach(function (o) {
+    if (o.uid && genDone[o.uid] && !o.id) { o.id = genDone[o.uid]; o.src = "gen"; delete genDone[o.uid]; }
+  });
   host.innerHTML = "";
-  // the rebuild owns every poll control, the question field included, so a
-  // restored or undone document repopulates the input and not just the tiles.
-  $("pq").value = poll.q || "";
+  if ($("pq")) $("pq").value = poll.q || "";
   pollMetrics.length = poll.options.length;
   poll.options.forEach(function (o, i) {
-    var row = el("div", "opt");
+    var card = el("div", "opt");
+    var tileWrap = el("div", "tilewrap");
     var c = document.createElement("canvas");
-    c.width = POLL_W; c.height = POLL_H; c.id = "pc" + i;
+    c.width = 720; c.height = 720; c.id = "pc" + i;
     c.setAttribute("role", "img");
     c.setAttribute("aria-label", "Option " + (i + 1) + " tile");
-    row.appendChild(c);
+    tileWrap.appendChild(c);
+    var st = el("div", "tilestate"); st.id = "pst" + i; st.hidden = true;
+    tileWrap.appendChild(st);
+    card.appendChild(tileWrap);
     bindTileDrag(c, i);
+
     var body = el("div", "body");
     var r1 = el("div", "rowx");
     var em = document.createElement("input");
     em.type = "text"; em.value = o.emoji; em.maxLength = 4;
     em.setAttribute("aria-label", "Option " + (i + 1) + " emoji");
-    em.placeholder = "\\ud83e\\udd4a";
     var lb = document.createElement("input");
     lb.type = "text"; lb.value = o.label;
     lb.setAttribute("aria-label", "Option " + (i + 1) + " label");
@@ -4488,53 +5813,99 @@ function buildPollRows() {
     rm.disabled = poll.options.length <= 2;
     var pending = false;
     function tap() { if (!pending) { snapPoll(); pending = true; setTimeout(function () { pending = false; }, 700); } }
-    em.addEventListener("input", function () { tap(); o.emoji = em.value; drawPoll(i); scheduleSave(); });
+    em.addEventListener("input", function () { tap(); o.emoji = em.value; scheduleSave(); });
     lb.addEventListener("input", function () { tap(); o.label = lb.value; drawPoll(i); scheduleSave(); });
+    lb.addEventListener("change", function () {
+      if (o.src !== "gen" && o.src !== "upload") { o.id = null; o.src = ""; }
+      autoKinds(); buildPollRows();
+    });
     rm.addEventListener("click", function () {
       if (poll.options.length <= 2) return;
-      snapPoll();
-      poll.options.splice(i, 1);
-      buildPollRows(); scheduleSave();
+      snapPoll(); poll.options.splice(i, 1); buildPollRows(); scheduleSave();
     });
     r1.appendChild(em); r1.appendChild(lb); r1.appendChild(rm);
     body.appendChild(r1);
-    var d = el("div", "drop");
-    d.id = "pdrop" + i; d.setAttribute("role", "button"); d.tabIndex = 0;
+
+    var kind = el("div", "seg sm");
+    [["fighter", "Fighter"], ["concept", "Picture"], ["other", "Meme"]].forEach(function (k) {
+      var b = el("button", "", k[1]);
+      b.type = "button";
+      b.setAttribute("aria-pressed", o.kind === k[0] ? "true" : "false");
+      b.addEventListener("click", function () {
+        snapPoll(); o.kind = k[0];
+        if (k[0] === "fighter") { var hit = matchLib(o.label); o.lib = hit ? hit.slug : ""; if (o.lib) { o.src = "lib"; o.id = null; } }
+        buildPollRows(); scheduleSave();
+      });
+      kind.appendChild(b);
+    });
+    body.appendChild(kind);
+
+    if (o.kind === "fighter") {
+      var hit = o.lib ? null : matchLib(o.label), many = (o.lib || hit) ? 0 : libMatches(o.label);
+      body.appendChild(el("p", "note", o.lib ? "Your close-up tile. It downloads exactly as you made it."
+        : (hit ? "Found " + hit.name + " in the library."
+        : (o.src === "ufc" && o.id ? "The official UFC photo. Drag the tile to frame the face."
+        : (many > 1 ? many + " fighters in your library share that name. Type the full name."
+        : "Not in your library yet. Use the UFC photo, drop your own, or switch to Picture.")))));
+      if (!o.lib && !hit) {
+        var ua = el("div", "acts");
+        var ub = el("button", "btn sm", o.src === "ufc" && o.id ? "Reload the UFC photo" : "Use the UFC photo");
+        ub.type = "button"; ub.id = "pufc" + i;
+        ub.addEventListener("click", function () { ufcTile(i); });
+        ua.appendChild(ub); body.appendChild(ua);
+      }
+    } else {
+      var ta = document.createElement("textarea");
+      ta.rows = 3; ta.value = o.kind === "other" ? (o.art || subjectFor(o, i)) : (o.art || "");
+      ta.placeholder = o.kind === "other" ? "A funny picture for Other" : "Describe the picture: a scene or an object, no text";
+      ta.setAttribute("aria-label", "Picture idea for option " + (i + 1));
+      ta.addEventListener("input", function () { tap(); o.art = ta.value; o.prompt = ""; scheduleSave(); });
+      body.appendChild(ta);
+      var acts = el("div", "acts");
+      var g = el("button", "btn pri sm", o.id && o.src === "gen" ? "Generate again" : "Generate");
+      g.type = "button"; g.id = "pgen" + i; g.disabled = !!genBusy[o.uid];
+      g.addEventListener("click", function () { genTile(i); });
+      var cp = el("button", "btn sm", "Copy prompt");
+      cp.type = "button";
+      cp.addEventListener("click", function () { copyPrompt(i, false); });
+      acts.appendChild(g); acts.appendChild(cp);
+      body.appendChild(acts);
+    }
+    var d = el("div", "drop"); d.id = "pdrop" + i; d.setAttribute("role", "button"); d.tabIndex = 0;
     d.style.minHeight = "44px";
-    d.textContent = o.id ? "Photo set. Tap to replace." : "Photo for this option";
-    d.setAttribute("aria-label", "Photo for option " + (i + 1));
+    d.textContent = o.id && o.src === "upload" ? "Your photo is in. Tap to replace." : "Or drop your own image";
+    d.setAttribute("aria-label", "Your own image for option " + (i + 1));
     var f = document.createElement("input");
     f.type = "file"; f.accept = "image/*"; f.className = "hidden"; f.id = "pfile" + i;
     body.appendChild(d); body.appendChild(f);
-    var zr = document.createElement("input");
-    zr.type = "range"; zr.min = 100; zr.max = 260; zr.step = 2; zr.value = Math.round((o.zoom || 1) * 100);
-    zr.id = "pzoom" + i;
-    zr.setAttribute("aria-label", "Option " + (i + 1) + " photo zoom");
-    var zpend = false;
-    zr.addEventListener("pointerdown", function () { if (!zpend) { snapPoll(); zpend = true; } });
-    zr.addEventListener("change", function () { zpend = false; scheduleSave(); });
-    zr.addEventListener("input", function () { o.zoom = parseFloat(zr.value) / 100; drawPoll(i); });
-    body.appendChild(zr);
-    row.appendChild(body);
-    host.appendChild(row);
+    card.appendChild(body);
+    host.appendChild(card);
     bindDrop("pdrop" + i, "pfile" + i, function (im, u) {
-      poll.options[i].id = put(im, { data: toData(im) }, u);
-      $("pdrop" + i).textContent = "Photo set. Tap to replace.";
-      drawPoll(i); scheduleSave();
-    }, function () {
-      poll.options[i].id = null;
-      $("pdrop" + i).textContent = "Photo for this option";
-      drawPoll(i); scheduleSave();
-    }, snapPoll);
+      o.id = put(im, { data: toData(im) }, u); o.src = "upload";
+      buildPollRows(); scheduleSave();
+    }, function () { o.id = null; o.src = ""; buildPollRows(); scheduleSave(); }, snapPoll);
+    if (o.kind === "fighter" && o.lib && (!o.id || o.src !== "lib")) libTile(o, i);
+    drawPoll(i);
+    paintTileState(i);
   });
   syncPollHist();
-  for (var i = 0; i < poll.options.length; i++) drawPoll(i);
+  paintPollControls();
+}
+function paintPollControls() {
+  var ss = $("pollStyle") ? $("pollStyle").querySelectorAll("button") : [];
+  for (var i = 0; i < ss.length; i++) press(ss[i], ss[i].dataset.style === poll.style);
+  var sz = $("pollSize") ? $("pollSize").querySelectorAll("button") : [];
+  for (i = 0; i < sz.length; i++) press(sz[i], sz[i].dataset.size === poll.size);
+  press($("pollLabel"), poll.label);
+  paintGenNote();
 }
 function bindTileDrag(c, i) {
   var drag = null;
   c.addEventListener("pointerdown", function (e) {
+    var o = poll.options[i];
+    if (!o || !get(o.id)) return;
     var r = c.getBoundingClientRect();
-    drag = { x: e.clientX, y: e.clientY, s: POLL_W / Math.max(1, r.width), moved: false };
+    drag = { x: e.clientX, y: e.clientY, s: TILE / Math.max(1, r.width), moved: false };
     snapPoll();
     try { c.setPointerCapture(e.pointerId); } catch (err) { /* gone */ }
     e.preventDefault();
@@ -4543,8 +5914,8 @@ function bindTileDrag(c, i) {
     if (!drag) return;
     var o = poll.options[i];
     if (!o) return;
-    o.panX = clamp(o.panX + (e.clientX - drag.x) * drag.s, -POLL_W, POLL_W);
-    o.panY = clamp(o.panY + (e.clientY - drag.y) * drag.s, -POLL_H, POLL_H);
+    o.panX = clamp(o.panX + (e.clientX - drag.x) * drag.s, -TILE, TILE);
+    o.panY = clamp(o.panY + (e.clientY - drag.y) * drag.s, -TILE, TILE);
     drag.x = e.clientX; drag.y = e.clientY; drag.moved = true;
     drawPoll(i);
   });
@@ -4556,165 +5927,88 @@ function bindTileDrag(c, i) {
   c.addEventListener("pointerup", up);
   c.addEventListener("pointercancel", up);
 }
-function pollQuestionBlock(g) {
-  var q = (poll.q || "").toUpperCase().replace(/\\s+/g, " ").trim();
-  if (!q) return { lines: [], h: 0 };
-  var pad = 38, maxW = POLL_W - 2 * pad, f = null;
-  for (var size = 36; size >= 16; size -= 2) {
-    setFont(g, 800, size);
-    var tr = -Math.round(size * 0.02);
-    var ls = wrap(g, q, maxW, tr);
-    var wide = false;
-    for (var i = 0; i < ls.length; i++) if (trackedW(g, ls[i], tr) > maxW) wide = true;
-    if (ls.length <= 2 && !wide) { f = { size: size, tr: tr, lines: ls }; break; }
-  }
-  if (!f) {
-    setFont(g, 800, 16);
-    f = { size: 16, tr: 0, lines: wrap(g, q, maxW, 0).slice(0, 2) };
-  }
-  var lh = Math.round(f.size * 1.14), total = f.lines.length * lh;
-  var ink = rgbOf(PAL.ink);
-  var gr = g.createLinearGradient(0, 0, 0, total + 74);
-  gr.addColorStop(0, "rgba(" + ink + ",0.80)");
-  gr.addColorStop(1, "rgba(" + ink + ",0)");
-  g.fillStyle = gr; g.fillRect(0, 0, POLL_W, total + 74);
-  setFont(g, 800, f.size);
-  g.save();
-  g.textBaseline = "alphabetic";
-  g.shadowColor = "rgba(0,0,0,0.6)"; g.shadowBlur = 12; g.shadowOffsetY = 3;
-  var yy = 26;
-  for (var k = 0; k < f.lines.length; k++) {
-    var w = trackedW(g, f.lines[k], f.tr);
-    drawTracked(g, POLL_W / 2 - w / 2, yy + f.size * S.ascent, f.lines[k], f.tr, "#FFFFFF");
-    yy += lh;
-  }
-  g.restore();
-  return { lines: f.lines, h: total, size: f.size };
-}
-function drawPoll(i) {
-  var c = $("pc" + i), o = poll.options[i];
-  if (!c || !o) return;
-  var g = c.getContext("2d");
-  g.setTransform(1, 0, 0, 1, 0, 0);
-  g.clearRect(0, 0, POLL_W, POLL_H);
-  var img = get(o.id);
-  if (img) drawPhoto(g, img, o, 0, 0, POLL_W, POLL_H, "cover");
-  else washField(g, 0, 0, POLL_W, POLL_H, cwOf(state.colorway), state.bg);
-  if (!state.clean) vignette(g, 0.55, 1.8, POLL_W, POLL_H);
-  var q = pollQuestionBlock(g);
-  // the label pill shrinks, then truncates, so a long option never runs off the tile
-  var label = (o.label || "").toUpperCase().replace(/\\s+/g, " ").trim();
-  var emoji = (o.emoji || "").trim();
-  var shown = ((emoji ? emoji + " " : "") + label).trim();
-  var m = { pillW: 0, pillX: 0, qLines: q.lines.length, size: 0, truncated: false };
-  if (shown) {
-    var side = 32, px = 22, dot = 10, dgap = 12;
-    var avail = POLL_W - 2 * side;
-    var size = 26;
-    setFont(g, 600, size);
-    while (size > 13 && g.measureText(shown).width + 2 * px + dot + dgap > avail) {
-      size -= 1; setFont(g, 600, size);
-    }
-    var text = shown;
-    if (g.measureText(text).width + 2 * px + dot + dgap > avail) {
-      while (text.length > 2 && g.measureText(text + "\\u2026").width + 2 * px + dot + dgap > avail) text = text.slice(0, -1);
-      text = text + "\\u2026";
-      m.truncated = true;
-    }
-    var tw = g.measureText(text).width;
-    var py = 12, ch = size + 2 * py, cw = tw + 2 * px + dot + dgap;
-    var x0 = side, y0 = POLL_H - side - ch;
-    g.save();
-    g.shadowColor = "rgba(0,0,0,0.5)"; g.shadowBlur = 16; g.shadowOffsetY = 5;
-    roundRect(g, x0, y0, cw, ch, ch / 2);
-    g.fillStyle = "rgba(" + rgbOf(PAL.ink) + ",0.80)"; g.fill();
-    g.restore();
-    g.beginPath();
-    g.arc(x0 + px + dot / 2, y0 + ch / 2, dot / 2, 0, Math.PI * 2);
-    g.fillStyle = hlHex(); g.fill();
-    g.textBaseline = "alphabetic";
-    g.fillStyle = PAL.paper;
-    g.fillText(text, x0 + px + dot + dgap, y0 + ch / 2 + size * 0.35);
-    m.pillW = Math.round(cw); m.pillX = x0; m.size = size;
-  }
-  pollMetrics[i] = m;
-  if (!state.clean) grain(g, 0.055, POLL_W, POLL_H);
-}
-function drawAllPolls() { for (var i = 0; i < poll.options.length; i++) drawPoll(i); }
-$("pollAdd").addEventListener("click", function () {
-  if (poll.options.length >= 6) { toast("Six options is the ceiling"); return; }
-  snapPoll();
-  poll.options.push(blankOption());
-  buildPollRows(); scheduleSave();
-});
-$("pollUndo").addEventListener("click", pollUndo);
-$("pollRedo").addEventListener("click", pollRedo);
-$("pollDl").addEventListener("click", function () {
+
+/* ---- export ---- */
+function slugOf(s) { return foldText(s).replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 40) || "tile"; }
+function downloadTiles() {
   var n = 0;
   poll.options.forEach(function (o, i) {
-    var c = $("pc" + i);
-    if (!c) return;
+    var name = "poll-" + (i + 1) + "-" + slugOf(o.label || ("option-" + (i + 1)));
     setTimeout(function () {
-      c.toBlob(function (b) { if (b) saveBlob(b, "poll-option-" + (i + 1) + "-" + stamp() + ".png"); }, "image/png");
-    }, i * 260);
+      if (o.kind === "fighter" && o.src === "lib" && o.lib) {
+        /* his own tile, byte for byte - never re-encoded or cropped */
+        api("/studio/lib/" + o.lib + ".jpg").then(function (r) { if (!r.ok) throw new Error("x"); return r.blob(); })
+          .then(function (b) { saveBlob(b, name + ".jpg"); }).catch(function () { toast("Tile " + (i + 1) + " did not download"); });
+        return;
+      }
+      if (!get(o.id)) return;
+      var c = document.createElement("canvas");
+      c.width = TILE; c.height = TILE;
+      drawTile(c.getContext("2d"), o, TILE, true);
+      c.toBlob(function (b) { if (b) saveBlob(b, name + ".png"); }, "image/png");
+    }, i * 300);
     n++;
   });
-  toast(n + " tiles are downloading");
-});
-$("pollCopy").addEventListener("click", function () {
-  var lines = [poll.q || ""];
-  poll.options.forEach(function (o, i) {
-    var t = ((o.emoji || "") + " " + (o.label || "")).trim();
-    lines.push(t || ("Option " + (i + 1)));
-  });
-  var txt = lines.join("\\n");
-  if (!navigator.clipboard) { toast("This browser blocks copy"); return; }
-  navigator.clipboard.writeText(txt).then(function () { toast("Poll text copied"); },
-    function () { toast("Copy was blocked"); });
-});
-function loadPoll() {
-  api("/studio/api/poll").then(function (r) {
-    if (!r.ok) throw new Error("http");
-    return r.json();
-  }).then(function (j) {
-    if (!j || typeof j !== "object") return;
-    var q = j.question || j.q || j.title || "";
-    var opts = j.options || j.answers || j.choices || [];
-    if (!q && !(Array.isArray(opts) && opts.length)) return;
-    // never stamp on top of work in progress
-    var touched = (poll.q || "").trim() !== "";
-    poll.options.forEach(function (o) { if (o.label || o.emoji || o.id) touched = true; });
-    if (touched) return;
-    snapPoll();
-    poll.q = q;
-    if (Array.isArray(opts) && opts.length) {
-      poll.options = opts.slice(0, 6).map(function (o) {
-        var d = blankOption();
-        if (typeof o === "string") d.label = o;
-        else if (o && typeof o === "object") {
-          d.label = o.label || o.text || o.name || "";
-          d.emoji = o.emoji || "";
-          if (o.img) d.pending = String(o.img);
-        }
-        return d;
-      });
-      while (poll.options.length < 2) poll.options.push(blankOption());
-    }
-    $("pq").value = poll.q;
-    buildPollRows();
-    poll.options.forEach(function (o, i) {
-      if (!o.pending) return;
-      var src = o.pending; delete o.pending;
-      loadImage(src).then(function (res) {
-        var data = toData(res.img);
-        poll.options[i].id = put(res.img, data ? { data: data } : { url: src }, res.url);
-        var d = $("pdrop" + i);
-        if (d) d.textContent = "Photo set. Tap to replace.";
-        drawPoll(i);
-      }).catch(function () { });
-    });
-  }).catch(function () { });
+  toast(n + " tiles are downloading, in option order.");
 }
+
+/* ---- staged polls from Discord ---- */
+var pollList = [];
+function loadPolls() {
+  api("/studio/api/polls").then(function (r) { if (!r.ok) throw new Error("x"); return r.json(); })
+    .then(function (j) { pollList = Array.isArray(j) ? j.filter(function (p) { return p.type === "poll"; }) : []; renderPollPicker(); pickPollFromHash(); })
+    .catch(function () { pollList = []; renderPollPicker(); });
+}
+function renderPollPicker() {
+  var host = $("pollPicker");
+  if (!host) return;
+  host.innerHTML = "";
+  if (!pollList.length) { host.appendChild(el("p", "note", "No staged polls found. Type one below.")); return; }
+  pollList.slice(0, 12).forEach(function (p) {
+    var b = el("button", "pollpick");
+    b.type = "button";
+    b.setAttribute("aria-pressed", poll.pid === p.id ? "true" : "false");
+    b.appendChild(el("b", "", p.question));
+    b.appendChild(el("i", "", shortWhen(p.timestamp) + " \\u00b7 " + p.options.length + " options"));
+    b.addEventListener("click", function () { pickPoll(p); });
+    host.appendChild(b);
+  });
+}
+function pickPoll(p) {
+  snapPoll();
+  var style = poll.style, size = poll.size, label = poll.label;
+  poll = blankPoll();
+  poll.style = style; poll.size = size; poll.label = label;
+  poll.pid = p.id; poll.q = p.question;
+  poll.options = (p.options || []).slice(0, POLL_MAX).map(function (o) {
+    var d = blankOption();
+    d.label = o.label || ""; d.emoji = o.emoji || ""; d.art = o.art || "";
+    if (isOther(d.label)) { d.kind = "other"; d.art = p.gag || o.art || ""; }
+    return d;
+  });
+  while (poll.options.length < 2) poll.options.push(blankOption());
+  autoKinds();
+  buildPollRows(); renderPollPicker(); scheduleSave();
+  toast("Poll loaded. Fighter tiles come from your library; Generate makes the rest.");
+}
+var pollHashTried = "";
+function pickPollFromHash() {
+  if (restoring) { setTimeout(pickPollFromHash, 300); return; }
+  var m = /[#&]p=([0-9]{15,21})/.exec(location.hash || "");
+  if (!m) return;
+  var id = m[1];
+  showTab("tab-poll");
+  /* the poll is already open: never re-pick it (that wiped his generated tiles) */
+  if (poll.pid === id) { clearHash(); return; }
+  for (var i = 0; i < pollList.length; i++) {
+    if (pollList[i].id === id) { clearHash(); pickPoll(pollList[i]); return; }
+  }
+  /* staged after the list was fetched: fetch it once more, then give up aloud */
+  if (pollHashTried !== id) { pollHashTried = id; loadPolls(); return; }
+  clearHash();
+  toast("That poll is not in the ideas channel any more.");
+}
+function loadPoll() { loadLib(); loadPolls(); loadGenStatus(); }
 
 /* ================= settings =================
    The provider list matches the worker's allowlist. Anything the server reports
@@ -5018,8 +6312,8 @@ function showTab(id) {
     tab.tabIndex = on ? 0 : -1;
     $(t[1]).hidden = !on;
   });
-  if (id === "tab-poll") drawAllPolls();
-  if (id === "tab-post") drawNow();
+  if (id === "tab-poll") { drawAllPolls(); if (!libIndex) loadLib(); paintGenNote(); }
+  if (id === "tab-post") { sizeStage(); drawNow(); }
   if (id === "tab-set" && !usageLoaded) loadUsage();
 }
 TABS.forEach(function (t, i) {
@@ -5096,11 +6390,47 @@ $("fitSeg").addEventListener("click", function (e) {
   }
   syncInputs(); drawNow();
 });
-$("cleanSeg").addEventListener("click", function (e) {
-  var b = e.target.closest ? e.target.closest("button[data-clean]") : null;
+$("smartHot").addEventListener("click", function () {
+  snap(); applySmartHot(); syncInputs(); drawNow(); runChecks();
+});
+$("aiLines").addEventListener("click", askLines);
+$("autoBtn").addEventListener("click", autoDesign);
+$("autoBtn2").addEventListener("click", autoDesign);
+$("pickFace").addEventListener("click", startPickFace);
+$("pollsReload").addEventListener("click", loadPolls);
+$("pollGenAll").addEventListener("click", genAll);
+$("pollIdeas").addEventListener("click", askIdeas);
+$("pollStyle").addEventListener("click", function (e) {
+  var b = e.target.closest ? e.target.closest("button[data-style]") : null;
   if (!b) return;
-  snap(); state.clean = b.dataset.clean === "1";
-  syncInputs(); drawNow(); drawAllPolls();
+  snapPoll(); poll.style = b.dataset.style;
+  poll.options.forEach(function (o) { o.prompt = ""; });
+  paintPollControls(); scheduleSave();
+});
+$("pollSize").addEventListener("click", function (e) {
+  var b = e.target.closest ? e.target.closest("button[data-size]") : null;
+  if (!b) return;
+  snapPoll(); poll.size = b.dataset.size; paintPollControls(); scheduleSave();
+});
+$("pollLabel").addEventListener("click", function () {
+  snapPoll(); poll.label = !poll.label; paintPollControls(); drawAllPolls(); scheduleSave();
+});
+$("pollAdd").addEventListener("click", function () {
+  if (poll.options.length >= POLL_MAX) { toast("Five options is the ceiling"); return; }
+  snapPoll(); poll.options.push(blankOption()); buildPollRows(); scheduleSave();
+});
+$("pollUndo").addEventListener("click", pollUndo);
+$("pollRedo").addEventListener("click", pollRedo);
+$("pollDl").addEventListener("click", downloadTiles);
+$("pollCopy").addEventListener("click", function () {
+  var lines = [poll.q || ""];
+  poll.options.forEach(function (o, i) {
+    var t = ((o.emoji || "") + " " + (o.label || "")).trim();
+    lines.push(t || ("Option " + (i + 1)));
+  });
+  if (!navigator.clipboard) { toast("This browser blocks copy"); return; }
+  navigator.clipboard.writeText(lines.join(String.fromCharCode(10))).then(function () { toast("Poll text copied"); },
+    function () { toast("Copy was blocked"); });
 });
 $("tintSeg").addEventListener("click", function (e) {
   var b = e.target.closest ? e.target.closest("button[data-tint]") : null;
@@ -5243,6 +6573,7 @@ function applyShell(mode) {
     ? "Four steps: pick a story, write the words, set the picture, export."
     : "Every panel on one page, the way it was before.";
   if (shellMode === "steps") setStep(stepNow);
+  placeQueue();
   relayout();
 }
 function setStep(n) {
@@ -5269,6 +6600,7 @@ function buildSteps() {
     b.dataset.step = String(st.n);
     b.appendChild(el("b", "", String(st.n)));
     b.appendChild(el("span", "", st.label));
+    if (st.n === 4) { var dot = el("i", "dot"); dot.hidden = true; b.appendChild(dot); }
     b.addEventListener("click", function () { setStep(st.n); });
     bar.appendChild(b);
   });
@@ -5331,7 +6663,10 @@ if (document.fonts && document.fonts.ready) {
     drawAllPolls();
   }).catch(function () { });
 }
-window.addEventListener("resize", function () { paintHud(); });
+window.addEventListener("resize", function () { paintHud(); sizeStage(); placeQueue(); });
+try { window.matchMedia(WIDE_Q).addEventListener("change", placeQueue); } catch (e) { /* older engine */ }
+sizeStage();
+if (document.fonts && document.fonts.load) { document.fonts.load("400 60px Anton").then(drawAllPolls, function () { }); }
 window.addEventListener("beforeunload", function () { if (!restoring) saveNow(); });
 
 /* a tiny hook so an automated check can read what the page thinks it drew */
@@ -5366,7 +6701,12 @@ window.studioProbe = function () {
     pos: layerPos(layer),
     providers: providers, templates: TEMPLATES.map(function (t) { return t.id; }),
     draws: drawCount, fits: fitCount, wraps: wrapCount,
-    poll: { q: poll.q, n: poll.options.length, metrics: pollMetrics },
+    poll: { q: poll.q, n: poll.options.length, metrics: pollMetrics, pid: poll.pid, style: poll.style,
+            kinds: poll.options.map(function (o) { return o.kind; }), libs: poll.options.map(function (o) { return o.lib; }),
+            lib: libIndex ? libIndex.length : null, gen: genStatus },
+    look: effectiveLook(), lookAmt: state.lookAmt,
+    facts: photoFacts(state.photo.id), crop: lastCrop[state.photo.id] || null,
+    checks: checkList.map(function (c) { return c.t; }), picks: photoPicks.length,
     store: storeKind, saved: lastSaveTs, drafts: draftList.length, fonts: fontsReady
   };
 };
