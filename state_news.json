@@ -1,5 +1,8 @@
 {
   "seen": {
+    "e9500ca290f6082e": 1790275076.2406187,
+    "bf6eb14c6e0887b1": 1790275075.9487605,
+    "1b58a59594d709ee": 1790275075.9468281,
     "4d2a0a8a77cb09ec": 1790275010.0755644,
     "163abe1c176d0f71": 1790275009.7850666,
     "787cddd533b2e5e1": 1790274945.153945,
@@ -2496,10 +2499,7 @@
     "3aceb055cb2f2380": 1789753999.8121755,
     "e8a645c9e2fec6fd": 1789753999.554247,
     "6a4a2773687d554f": 1789753999.552641,
-    "9597ca79518b85ac": 1789753999.5328443,
-    "72368fc06935ca19": 1789753935.4522743,
-    "54347befe2e7858b": 1789753935.1813731,
-    "19df261455ae38b7": 1789753935.1809156
+    "9597ca79518b85ac": 1789753999.5328443
   },
   "initialized": true,
   "v": 4,
@@ -4549,16 +4549,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-24T17:42:24+00:00",
       "cluster": "c73b7259cc8"
+    },
+    {
+      "t": "WATCH: Caio Borralho Hits Back at “Boring” Fight Claims With Five UFC Examples",
+      "source": "Sportscape Magazine",
+      "ts": "2026-09-24T17:47:08+00:00",
+      "cluster": "c5229662a7c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    23
+    24
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331469",
     "https://www.mmafighting.com/?p=509827",
     "https://bloodyelbow.com/?p=331463",
     "https://bloodyelbow.com/?p=331475",
@@ -6057,11 +6062,12 @@
     "CBMifEFVX3lxTFBieFpHSjRWa2xlUG9uWHBRN1YwNlhtVkZDYi1FRVBpQlNqZEhWYXBIQnZLQ0lkb0Fld1cxckU2bjF3NGEzUGFtN3pTTjNDa19QT3plZkg3SHJEUWdYRVhGcEtrR3dqSnp1NWVCcTdxTmtkbWI5RklFc3JGX1U",
     "https://www.mmamania.com/?p=474511",
     "CBMinwFBVV95cUxOLTJKaHM2UmNqZk1zSGRJTGlUejdqdVMtemZOWDN4bjc3SVpwakxKTTBqX2VEX0p5R2VtSDFaNHlLZVE1QWg1SjlBWDFvME9ENFQ0Yk51RGEzeWdTRDc5Y19uV0xFcllQSHZCYmtoQ1NiclkzQ0s4Ykx0RzhZQjR3SjJ4c05keFA3aHZwYVlzb2xDSE44V25lSWh1d3lmOVE",
-    "CBMihwFBVV95cUxQUUtfMkZmWWNXM3VuVG9tZmVuTDMxeEZuNTRDdnVwak9lUkJCbEw2ajBMbjVoM25QOU1sbzA0OHVCZjdXcXA2UXBIcHpXZjgwNUJHTXhWMHBOUUNydTBET29XNnNBZGRiUndiRUYtNjB0am5OdnFlYk45ZjdrSW96UDNUeks5MFk"
+    "CBMihwFBVV95cUxQUUtfMkZmWWNXM3VuVG9tZmVuTDMxeEZuNTRDdnVwak9lUkJCbEw2ajBMbjVoM25QOU1sbzA0OHVCZjdXcXA2UXBIcHpXZjgwNUJHTXhWMHBOUUNydTBET29XNnNBZGRiUndiRUYtNjB0am5OdnFlYk45ZjdrSW96UDNUeks5MFk",
+    "CBMitgFBVV95cUxOcEkxZU9OQUtIcE5OdlhiY2N4eDEzV0JoOEdIZWFzUUFpWVF0SnVjVjc3V08weTdqOWcteDM2QlpwdWxGWUNDQXhqWDdvVktVNGQyYmppaFRJSHVEdVAxVjE1TVEwYi1fV2tYRWJqOXIyV1lZM2d2dlFvUzZZMVV3a2pkSHhjR2xfc25RRjExMVI5ekh0V3RMN19QcXdrcXh2RlNXd3JoYS1LNzh6MjZkSU0tUE1LUQ"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 105,
+    "ai": 106,
     "staged": 4,
     "prio": 3,
     "lost": 0
