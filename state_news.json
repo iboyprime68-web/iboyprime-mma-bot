@@ -1,5 +1,9 @@
 {
   "seen": {
+    "0d120b3d39529b1d": 1790256338.789192,
+    "0685690c033a16de": 1790256338.2440453,
+    "3f5480a72b172cb9": 1790256338.2412164,
+    "7066c447ed5c6877": 1790256338.237906,
     "71d87063eaad3c32": 1790256313.569429,
     "772b21ba8daee548": 1790256313.2727706,
     "56ee429c9dd848f5": 1790256289.1542816,
@@ -2495,11 +2499,7 @@
     "9560d694299476ee": 1789739229.325221,
     "24b14cdccc3260e4": 1789739229.3146718,
     "c1b153a0b216a2b4": 1789739229.2833495,
-    "c3ecb892fdf3bb56": 1789739160.6618228,
-    "16b4f82976546cc9": 1789739095.6206079,
-    "626dc4e98401dcf7": 1789739031.0467904,
-    "30a9c2c0368039f6": 1789738965.8651428,
-    "8565dcb8449cfdd7": 1789738965.5953915
+    "c3ecb892fdf3bb56": 1789739160.6618228
   },
   "initialized": true,
   "v": 4,
@@ -4609,16 +4609,21 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-24T11:00:00+00:00",
       "cluster": "c68644fc69d"
+    },
+    {
+      "t": "UFC Vegas 121 full fight: Raul Rosas Jr. submits TUF 29 champion",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-24T12:02:58+00:00",
+      "cluster": "c017854e4dc"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T13",
-    3
+    4
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=471845",
     "fa0eb881-ac8c-3b55-a0b9-5d19e74fa185",
     "08febb44-a1b3-3255-8b24-dca919f048b7",
     "4607437f-1ef5-3e4d-ad2b-2ff203c0bf7a",
@@ -6117,11 +6122,12 @@
     "CBMiiAFBVV95cUxOVXF0cUNLYjdrVjUweldUTDUtdzl4NFc5MzV3WTVuM1BXQ2lVWlJhczM5eERrdnZEdklLalRYN0pwMXlqMlAzNE9lVF9SVGJBYWJ1VkFIM0sweWdVTEc5NVpxQzRVNVRwcWZfVUh0N041cFVjemcxS0lnblEyOEpIWWM0dmUyQ1gx",
     "https://www.mmafighting.com/?p=512018",
     "https://www.mmafighting.com/511643/dnp-morning-report-template-dnp",
-    "https://bloodyelbow.com/?p=333391"
+    "https://bloodyelbow.com/?p=333391",
+    "f5b1d4c6-20db-369a-9894-21c4029c0fb1"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 55,
+    "ai": 56,
     "staged": 2,
     "prio": 3,
     "lost": 0
