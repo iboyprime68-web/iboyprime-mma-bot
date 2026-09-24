@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ddadbcc6f8205e4e": 1790256485.631849,
     "5d3b5e1561ff6cef": 1790256436.930324,
     "f704b42ebffa7b74": 1790256412.6217966,
     "7fb0edc1b75898a2": 1790256387.1396444,
@@ -2498,8 +2499,7 @@
     "973137ca02b278ec": 1789739299.4426942,
     "a1bc486995603bdc": 1789739299.000284,
     "d401e8111872130e": 1789739298.9984348,
-    "005556581c016210": 1789739229.5931482,
-    "9a3681b4201f0dd9": 1789739229.3450534
+    "005556581c016210": 1789739229.5931482
   },
   "initialized": true,
   "v": 4,
@@ -4639,16 +4639,21 @@
       "source": "MMA Fighting",
       "ts": "2026-09-24T13:08:35+00:00",
       "cluster": "c1b9291e817"
+    },
+    {
+      "t": "\"$1M or something\" - Usman Nurmagomedov's manager offers to cover fight purse for potential UFC debut against Ilia Topuria",
+      "source": "sportskeeda.com",
+      "ts": "2026-09-24T12:30:00+00:00",
+      "cluster": "c80f450c7f1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T13",
-    8
+    9
   ],
   "yt_eval": [
-    "https://www.mmamania.com/471619/highlights-open-noche-ufc-4",
     "dcc9a045-2f7f-3290-913e-218b4b23b4f9",
     "3cf12f78-6c28-32fe-bc5e-84f8b99e0934",
     "CBMiswFBVV95cUxOMzRBTy1KYVFxbDY4aERnb0ZSSWUxbV92dURxejI4VWFGSVFQTWNyaWRuajlMRlp5eHVIZWR4eTBzWld6bnhOOHFsV0puYThsYTlHbWxzUWdZQ3F3S3E3ck5XOW9ha3U3aWViLUhzXzVOS1U5aHptaFc3ZGxFZEtlNUVUVXBBSmpRZlY4MExCcG02RnJLR0pYOWgxT2xWSXRfUGptcVluTjJZQ3pBaGNSd3JZVQ",
@@ -6147,11 +6152,12 @@
     "https://bloodyelbow.com/?p=333429",
     "https://bloodyelbow.com/?p=333415",
     "CBMihwFBVV95cUxPUjVid1d1bHhpN3ZkVi10UFZOUlJlOTJSR1ExSlR2RWlXWmhhLXN3NE5IVmFDNDRyRjFva1NoRjVpR0xpMHdzUjJ2OVlZaEJ2aGR3Qnp5ek94YkJIMVRBWVFUT0pBSzNPSVZmM3pSanEzOUFzV25vS241d1A2MHhVdWhwamJ2bjg",
-    "https://www.mmafighting.com/?p=512236"
+    "https://www.mmafighting.com/?p=512236",
+    "CBMi0gFBVV95cUxOUzd1VFFiYkxwWUM0WTc3TDhVVThuWTRnSXVmNWh3WmlhVDR5VDAwakdJd3ZuUV96WGNUZ1lmanBlZVAtUDJ1WTV1U2RPcW1saWlXa2pfQzZxTFNVUUVBX1hmUnQxZG9acXZkS25kaC1OLXpzN19ZMGJvYVZBX0tNUi1XclVoYU9Yc1Z6c1YyR29Wb2dQTzRQSnh5TWpndGxMZWpwdmFIRFFRTmp6T0JSRXVzWHRKQXIwbmxTWERLcVVCM2I1V09YQ05SQlhtM0lKc3c"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 60,
+    "ai": 61,
     "staged": 3,
     "prio": 3,
     "lost": 0
