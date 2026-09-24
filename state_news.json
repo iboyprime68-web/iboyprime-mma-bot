@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bf5fde6d525e85c2": 1790257490.8711627,
     "5c38d865fd404767": 1790257363.880776,
     "c171ceced9f780a7": 1790257299.0022037,
     "8ec97a92ec5bb2f5": 1790257233.232777,
@@ -2498,8 +2499,7 @@
     "f0850c36a0db5d30": 1789740900.6819274,
     "3fbd3330888bb71a": 1789740900.676385,
     "2c62beb07f68fb20": 1789740775.282003,
-    "fb8fe91a3c74a6f4": 1789740585.204296,
-    "a74789a1aaa24440": 1789740459.3260686
+    "fb8fe91a3c74a6f4": 1789740585.204296
   },
   "initialized": true,
   "v": 4,
@@ -4711,16 +4711,21 @@
       "source": "heavy.com",
       "ts": "2026-09-24T13:38:11+00:00",
       "cluster": "c005acb1871"
+    },
+    {
+      "t": "Joe Rogan Speaks About Donald Trump's Campaign",
+      "source": "Operation Sports",
+      "ts": "2026-09-24T13:15:00+00:00",
+      "cluster": "c77fa927e28"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T13",
-    21
+    22
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331433",
     "c8287f0b-9c80-3e18-8ffd-4848b6bc586f",
     "https://bloodyelbow.com/?p=331447",
     "https://bloodyelbow.com/?p=331457",
@@ -6219,11 +6224,12 @@
     "CBMiugFBVV95cUxPNVZxMGkySUFEc2dsanhCemhrdUNldzVtTGxleWJ4LXk5ODNDcWF4Y3NldFM3QlVZUlFOeDRfUnYtYU1DdWVGV1QyQm5vcGhXcmtfVUlUUV91TGdCeWZxdWxkOFVtelZ6d2txN3Itc1hrUm0ybVplcExYWGhlZFZzaXFCZ05IeWN6LThYVmw2Z3hFVnNNQW41REpxNDZLUS1kQTYtcmNLX0RDSWdOZDdOTUhSVUVpWkpyWEE",
     "https://www.mmamania.com/474460/open-thread-september-23-2026-whats-your-opinion-on-tom-cruise",
     "CBMikwFBVV95cUxPZjFtdEgxMFZtOHdleTBLWVpyWEp6empFOVVJSU56eEZOVGhuWkRkYnJLODNHdVZGMVFBTU03d0dNSkh6UnVyYUpkQTdqanJfOXNjZmEwR2E4ZVl5YTdJc3lwV1p4eUNPdWQ4SjE4Y1BkN2dvaDhxY1ppRGttakZ2a2pYZ2NfSWZfT0hnaTFGekRSUXM",
-    "CBMidEFVX3lxTE1uZTRYejJCV2pCUFZUdVpBbHo5VG1uNXdvbFpSZjJyQndkd2RpelAxYzhxZ1VFS1pheGRjLVFGbTNxQnBQckEwRVVqV1U2bThKOS1DMmNCSHphLVI0Mm1sVkw3THNxU1UyN29LQVowMm14cktF"
+    "CBMidEFVX3lxTE1uZTRYejJCV2pCUFZUdVpBbHo5VG1uNXdvbFpSZjJyQndkd2RpelAxYzhxZ1VFS1pheGRjLVFGbTNxQnBQckEwRVVqV1U2bThKOS1DMmNCSHphLVI0Mm1sVkw3THNxU1UyN29LQVowMm14cktF",
+    "CBMi3AFBVV95cUxOeTktZ1FNVzBXa05lWVlQbEVvR0dnNlNYYndRLXYtdzZPUkZBMllzT21hZG9SRE9Xc0tyVHh1WlFHRXdSdzhMWUwwSm1KOVVKemNCd3BrQ3p6dTRYQVFDNXRuYTVtNFJ0djBFVU82Nmx1VlROYkYtc3BYRUExX3RIZ1VxXzNBRHg5anhQemtPam5OcUh4WXlraFYxMmJ1dGZnOUk0M1ZMUWVpTG1kanMtNzAwaTJrWE1mT0RiZHdBR3U5Znd6Sk1ib2dKb0hDVUhmQWhHWTFha01SSjlz"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 73,
+    "ai": 74,
     "staged": 3,
     "prio": 3,
     "lost": 0
