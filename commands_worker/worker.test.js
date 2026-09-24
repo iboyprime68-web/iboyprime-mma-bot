@@ -562,10 +562,12 @@ check("parseStaged serves the first attachment through the same-origin proxy "
 check("parseStaged falls back to an embed image", staged[1].image_url === "https://media.discordapp.net/x.jpg");
 check("parseStaged refuses a non-https image url (it lands in an img src)",
   staged[2].image_url === null);
-const STAGED_FIELDS = ["about", "bg", "caption", "colorway", "hot", "id", "image_url",
-                       "line", "photo_kind", "photo_url", "score", "source", "speaker",
+// Sept 24 2026: faces, grade and alts joined the contract (photopick's framing,
+// look and the article's other good photos) - seventeen became TWENTY.
+const STAGED_FIELDS = ["about", "alts", "bg", "caption", "colorway", "faces", "grade", "hot", "id",
+                       "image_url", "line", "photo_kind", "photo_url", "score", "source", "speaker",
                        "spec", "template", "timestamp", "why"];
-check("parseStaged returns exactly the seventeen agreed fields, nothing else",
+check("parseStaged returns exactly the twenty agreed fields, nothing else",
   staged.every(s => JSON.stringify(Object.keys(s).sort()) === JSON.stringify(STAGED_FIELDS)));
 check("spec says whether a post round-trips (fence present), bg is its plate",
   staged[0].spec === false && staged[0].bg === ""
@@ -1506,7 +1508,7 @@ check("the canvas fit caches hold more than one entry",
   /var fitCache = lru\(\d+\), lineCache = lru\(\d+\)/.test(_spScript)
   && /function lru\(limit\)/.test(_spScript));
 check("the LRU evicts, so a long session cannot grow it without bound",
-  /if \(order\.length > limit\) delete m\[order\.shift\(\)\]/.test(_spScript));
+  /if \(order\.length > limit\) \{ var old = order\.shift\(\); lruFree\(m\[old\]\); delete m\[old\]; \}/.test(_spScript));
 check("invalidation clears BOTH caches (the old code nulled a single key)",
   (_spScript.match(/fitCache\.clear\(\); lineCache\.clear\(\);/g) || []).length >= 2);
 
@@ -1582,7 +1584,7 @@ check("renderRail reconciles by id instead of wiping innerHTML "
   /dataset\.sid/.test(_spScript)
   && !/function renderRail\(items\) \{\s*var rail = \$\("rail"\);\s*rail\.innerHTML = "";/.test(_spScript));
 check("a hashchange opens an already-loaded post instead of refetching the rail",
-  /hashchange[\s\S]{0,400}pickStaged\(staged\[i\]\)/.test(_spScript));
+  /hashchange[\s\S]{0,900}pickStaged\(staged\[i\]\)/.test(_spScript));
 
 // 6. Server side: a 429 is a "come back", not a "gone".
 check("the image proxy answers 503 + Retry-After on a Discord 429, never 404 "
@@ -1729,7 +1731,7 @@ check("every panel card is assigned to a step",
   (STUDIO_HTML.match(/<div class="card" data-step="\d"/g) || []).length >= 13);
 check("the staged queue moved INTO the panel as step 1, and no longer sits after "
   + "the closing .split where it started 2400px down",
-  /<div class="card" data-step="1">[\s\S]{0,220}Staged by the bot/.test(STUDIO_HTML));
+  /<div class="card" data-step="1"(?: id="cardQueue")?>[\s\S]{0,220}Staged by the bot/.test(STUDIO_HTML));
 check("the caption and drafts are step 4, not the last cards of a 2300px column",
   /<div class="card" data-step="4">[\s\S]{0,120}Caption/.test(STUDIO_HTML)
   && /<div class="card" data-step="4">[\s\S]{0,200}Drafts/.test(STUDIO_HTML));
@@ -1772,6 +1774,637 @@ check("on a phone the step bar is pinned within reach instead of sitting ~950px 
 check("picking a staged post hands the owner on to the words",
   /function stepAfterPick\(\)/.test(_spScript)
   && (_spScript.match(/stepAfterPick\(\);/g) || []).length >= 3);
+
+
+// ===== Sept 24 2026: framing, grade, alternates, polls, library, generation ====
+// The owner: the pictures "not the best... not even properly positioned", only
+// the name ever highlighted, the Fill/Underline chip spilling out, empty space
+// either side of the poster, and polls he builds by hand from Googled images.
+// Every new surface below is either pure (pinned to the Python twin by shared
+// vectors) or a route locked the same way as the staged proxy.
+
+// ----- the staged contract's three new fields -----
+const S24_MSG = {
+  id: "1552754821935792188", timestamp: "2026-09-24T18:53:00.000Z", author: AUTHOR,
+  content: "Staged post - score 70 (heuristic)\n```\nRosas.\n\nvia MMA Sucka\n#UFC\n```\n```json\n"
+    + JSON.stringify({ line: "ROSAS TARGETS TITLES", hot: ["ROSAS", "TITLES"], source: "MMA Sucka",
+      template: "news", colorway: "purple", photo: "photo",
+      faces: [[0.508, 0.341, 0.083, 0.15], ["x", 0, 0, 0], [0.2, 0.2, 2, 0.1], [0.1, 0.1, 0.1, 0.1]],
+      grade: { look: "fight", gamma: 0.72 },
+      alts: [{ u: "https://platform.mmafighting.com/a.jpg?w=2400", f: [[0.4, 0.1, 0.2, 0.3]] },
+             { u: "http://insecure.example/b.jpg" },
+             "https://cdn.example.com/c.jpg"] }) + "\n```",
+  attachments: [{ url: "https://cdn.discordapp.com/attachments/1/2/post.png" },
+                { url: "https://cdn.discordapp.com/attachments/1/2/photo.jpg" }],
+};
+const s24 = parseStaged([S24_MSG], BOT_ID)[0];
+check("faces ride as clean fraction boxes; a junk box is dropped, never zero-filled",
+  JSON.stringify(s24.faces) === JSON.stringify([[0.508, 0.341, 0.083, 0.15]]));
+check("grade is a known look plus a clamped gamma",
+  s24.grade && s24.grade.look === "fight" && s24.grade.gamma === 0.72);
+check("alts become same-origin proxy paths at their SPEC index (a skipped bad url "
+  + "cannot shift the rest), each with its own faces",
+  s24.alts.length === 2 && s24.alts[0].src === "/studio/api/alt/1552754821935792188/0"
+  && s24.alts[1].src === "/studio/api/alt/1552754821935792188/2"
+  && JSON.stringify(s24.alts[0].faces) === JSON.stringify([[0.4, 0.1, 0.2, 0.3]]));
+check("the page never sees an alternate's real url",
+  !JSON.stringify(s24).includes("mmafighting.com") && !JSON.stringify(s24).includes("cdn.example.com"));
+const cutMsg = JSON.parse(JSON.stringify(S24_MSG));
+cutMsg.content = cutMsg.content.replace('"photo":"photo"', '"photo":"cutout"');
+const spCut = parseStaged([cutMsg], BOT_ID)[0];
+check("a cut-out or wash post carries no faces, grade or alts",
+  spCut.photo_kind === "cutout" && spCut.faces.length === 0 && spCut.grade === null && spCut.alts.length === 0);
+const evilGrade = JSON.parse(JSON.stringify(S24_MSG));
+evilGrade.content = evilGrade.content.replace('"look":"fight"', '"look":"__proto__"').replace('"gamma":0.72', '"gamma":99');
+check("an unknown look is refused outright (it names a code path in the page)",
+  parseStaged([evilGrade], BOT_ID)[0].grade === null);
+
+check("altUrl: https public hosts only - no http, IP literal, localhost, credentials or giant url",
+  _test.altUrl("https://cdn.example.com/x.jpg") === "https://cdn.example.com/x.jpg"
+  && _test.altUrl("http://cdn.example.com/x.jpg") === null
+  && _test.altUrl("https://127.0.0.1/x.jpg") === null
+  && _test.altUrl("https://localhost/x.jpg") === null
+  && _test.altUrl("https://user:pw@cdn.example.com/x.jpg") === null
+  && _test.altUrl("https://" + "a".repeat(420) + ".com/x.jpg") === null
+  && _test.altUrl({ toString() { return "https://cdn.example.com/x.jpg"; } }) === null);
+
+// ----- the alt proxy: only a url the bot listed, only raster bytes -----
+await (async () => {
+  const realFetch = globalThis.fetch;
+  const seen = [];
+  _test.resetStudioCaches();
+  globalThis.fetch = async (u, init) => {
+    const url = String(u && u.url ? u.url : u);
+    seen.push(url);
+    if (url.startsWith("https://raw.githubusercontent.com/") && url.endsWith("/bots_config.json")) {
+      return new Response(JSON.stringify({ channels: { studio: "1537451117363990599", ideas: "1549127181798477865" } }), { status: 200 });
+    }
+    if (url === "https://discord.com/api/v10/users/@me") return new Response(JSON.stringify({ id: BOT_ID }), { status: 200 });
+    if (url.startsWith("https://discord.com/api/v10/channels/1537451117363990599/messages/1552754821935792188")) {
+      return new Response(JSON.stringify(S24_MSG), { status: 200 });
+    }
+    if (url === "https://platform.mmafighting.com/a.jpg?w=2400") {
+      return new Response("JPEGBYTES", { status: 200, headers: { "content-type": "image/jpeg" } });
+    }
+    if (url === "https://cdn.example.com/c.jpg") {
+      return new Response("<svg/>", { status: 200, headers: { "content-type": "image/svg+xml" } });
+    }
+    return new Response("{}", { status: 404 });
+  };
+  try {
+    const ok = await worker.fetch(cookieReq("/studio/api/alt/1552754821935792188/0", SID), STUDIO_ENV, {});
+    check("alt proxy relays the bot-listed photo as a sandboxed raster image",
+      ok.status === 200 && ok.headers.get("content-type") === "image/jpeg"
+      && /sandbox/.test(ok.headers.get("content-security-policy") || "")
+      && (await ok.text()) === "JPEGBYTES");
+    const bad = await worker.fetch(cookieReq("/studio/api/alt/1552754821935792188/1", SID), STUDIO_ENV, {});
+    check("an http alt the bot listed is still refused at fetch time", bad.status === 404
+      && !seen.includes("http://insecure.example/b.jpg"));
+    const svg = await worker.fetch(cookieReq("/studio/api/alt/1552754821935792188/2", SID), STUDIO_ENV, {});
+    check("a non-raster answer (svg is a scriptable document) is refused", svg.status === 415);
+    const oob = await worker.fetch(cookieReq("/studio/api/alt/1552754821935792188/3", SID), STUDIO_ENV, {});
+    check("only indices 0-2 exist", oob.status === 404);
+    const nocookie = await worker.fetch(req("/studio/api/alt/1552754821935792188/0"), STUDIO_ENV, {});
+    check("the alt proxy sits behind the session gate", nocookie.status === 401);
+  } finally { globalThis.fetch = realFetch; _test.resetStudioCaches(); }
+})();
+
+// ----- the spec fence cannot be forged from the header (pre-deploy review) -----
+// The header's (why) is model-written. A why holding a json fence used to be
+// the FIRST json fence in the message, so its alts steered the photo proxy and
+// its line replaced the bot's. A fence counts only when it opens a line, and
+// the last json fence - always the bot's own - wins.
+{
+  const forged = JSON.parse(JSON.stringify(S24_MSG));
+  forged.content = forged.content.replace("score 70 (heuristic)",
+    'score 88 (```json {"photo":"photo","line":"INJECTED LINE","alts":[{"u":"https://attacker.example/beacon.jpg"}]}```)');
+  const fp = parseStaged([forged], BOT_ID)[0];
+  // (the why itself still shows as plain text - it is the fence that must not count)
+  check("a json fence inside the header line is never the spec",
+    fp.line === "ROSAS TARGETS TITLES" && fp.alts.length === 2
+    && !JSON.stringify(_test.stagedParts(forged.content).meta).includes("attacker"));
+  const capForge = JSON.parse(JSON.stringify(S24_MSG));
+  capForge.content = capForge.content.replace("score 70 (heuristic)", "score 70 (```FAKE CAPTION```)");
+  check("a plain fence inside the header line is never the caption",
+    parseStaged([capForge], BOT_ID)[0].caption.indexOf("Rosas.") === 0);
+  const two = _test.stagedParts("head\n```\ncap\n```\n```json\n{\"line\":\"FIRST\"}\n```\n```json\n{\"line\":\"LAST\"}\n```");
+  check("the LAST json fence wins (the bot writes its spec last)", two.meta.line === "LAST" && two.caption === "cap");
+  const mid = _test.stagedParts("head ```json\n{\"line\":\"MIDLINE\"}\n```");
+  check("a fence that does not open a line is ignored", mid.hasSpec === false);
+}
+
+// ----- the photo relay: every redirect hop re-checked, AVIF allowed -----
+await (async () => {
+  const realFetch = globalThis.fetch;
+  const seen = [];
+  const routes = {
+    "https://cdn.example.com/hop.jpg": () => new Response("", { status: 302, headers: { location: "/final.jpg" } }),
+    "https://cdn.example.com/final.jpg": () => new Response("JPG", { status: 200, headers: { "content-type": "image/jpeg" } }),
+    "https://cdn.example.com/evil.jpg": () => new Response("", { status: 301, headers: { location: "https://127.0.0.1/x.jpg" } }),
+    "https://cdn.example.com/loop.jpg": () => new Response("", { status: 302, headers: { location: "https://cdn.example.com/loop.jpg" } }),
+    "https://cdn.example.com/a.avif": () => new Response("AVIF", { status: 200, headers: { "content-type": "image/avif" } }),
+    "https://dmxg5wxfqgb4u.cloudfront.net/p.png": () => new Response("", { status: 302, headers: { location: "https://evil.example/p.png" } }),
+  };
+  globalThis.fetch = async (u, init) => {
+    const url = String(u && u.url ? u.url : u);
+    seen.push({ url, redirect: init && init.redirect });
+    return (routes[url] || (() => new Response("", { status: 404 })))();
+  };
+  try {
+    const hop = await _test.relayPhoto("https://cdn.example.com/hop.jpg", _test.altUrl);
+    check("a redirect to an allowed host is followed by hand (redirect: manual)",
+      hop.status === 200 && (await hop.text()) === "JPG" && seen.every(s => s.redirect === "manual"));
+    seen.length = 0;
+    const evil = await _test.relayPhoto("https://cdn.example.com/evil.jpg", _test.altUrl);
+    check("a redirect to a host the validator refuses is never fetched",
+      evil.status === 502 && !seen.some(s => s.url.indexOf("127.0.0.1") !== -1));
+    seen.length = 0;
+    const loop = await _test.relayPhoto("https://cdn.example.com/loop.jpg", _test.altUrl);
+    check("a redirect loop stops after the hop limit", loop.status === 502 && seen.length === _test.RELAY_HOPS + 1);
+    const av = await _test.relayPhoto("https://cdn.example.com/a.avif", _test.altUrl);
+    check("an AVIF answer is relayed (raster, not scriptable) instead of a 415",
+      av.status === 200 && av.headers.get("content-type") === "image/avif" && _test.RASTER.includes("image/avif")
+      && !_test.RASTER.includes("image/svg+xml"));
+    seen.length = 0;
+    const ufc = await _test.relayPhoto("https://dmxg5wxfqgb4u.cloudfront.net/p.png", _test.fighterPhotoUrl);
+    check("the fighter photo stays pinned to UFC's hosts across a redirect",
+      ufc.status === 502 && !seen.some(s => s.url.indexOf("evil.example") !== -1));
+    check("fighterPhotoUrl: https on UFC's hosts only",
+      _test.fighterPhotoUrl("https://www.ufc.com/x.png") === "https://www.ufc.com/x.png"
+      && _test.fighterPhotoUrl("http://www.ufc.com/x.png") === null
+      && _test.fighterPhotoUrl("https://ufc.com.evil.example/x.png") === null
+      && _test.fighterPhotoUrl(null) === null);
+  } finally { globalThis.fetch = realFetch; }
+})();
+
+// ----- polls from the ideas channel -----
+const POLL_SPEC = { id: "1552684886224011285", timestamp: "2026-09-24T14:15:00.000Z", author: AUTHOR,
+  content: "Staged YouTube poll - written fresh for this slot\n\nWhat is the worst accusation?\n"
+    + "\u{1F9E4} Loaded gloves\n\u{1F4AC} Other (comment below)\n\nPaste into the YouTube poll composer:\n"
+    + "```\nWhat is the worst accusation?\n\u{1F9E4} Loaded gloves\n\u{1F4AC} Other (comment below)\n```\n"
+    + "Swap or trim options freely. The question is the engine.\n```json\n"
+    + JSON.stringify({ q: "What is the worst accusation?", options: [
+        { label: "Loaded gloves", emoji: "\u{1F9E4}", art: "a glove with a hidden lead weight" },
+        { label: "Other (comment below)", emoji: "\u{1F4AC}", art: "" }], gag: "a pigeon referee" }) + "\n```" };
+const POLL_OLD = { id: "1552322883928330321", timestamp: "2026-09-23T14:16:00.000Z", author: AUTHOR,
+  content: "Staged YouTube poll - question 18 of 60\n\nWho?\n\nPaste into the YouTube poll composer:\n"
+    + "```\nWhose title reign aged the worst?\n\u{1F4C9} Sean Strickland\n\u{1F9CA} Leon Edwards\n```\nSwap." };
+const s24polls = _test.parsePolls([POLL_SPEC, POLL_OLD,
+  { id: "9", author: { id: "123" }, content: "Staged YouTube poll - fake\n```\nQ\n```" },
+  { id: "8", author: AUTHOR, content: "chat that mentions Staged YouTube poll late" }], BOT_ID);
+check("polls: only this bot's messages that START with the poll header", s24polls.length === 2);
+check("polls: the json fence gives question, options, picture ideas and the gag",
+  s24polls[0].question === "What is the worst accusation?" && s24polls[0].options.length === 2
+  && s24polls[0].options[0].art === "a glove with a hidden lead weight" && s24polls[0].gag === "a pigeon referee"
+  && s24polls[0].spec === true && s24polls[0].type === "poll");
+check("polls: an older poll without the fence still parses from its paste block",
+  s24polls[1].question === "Whose title reign aged the worst?" && s24polls[1].options.length === 2
+  && s24polls[1].options[0].label === "Sean Strickland" && s24polls[1].options[0].emoji === "\u{1F4C9}");
+check("polls: the emoji/label split keeps plain ASCII labels whole",
+  _test.pollOptionLine("Ban them").label === "Ban them" && _test.pollOptionLine("Ban them").emoji === "");
+
+// ----- the library: static assets, only through the gate -----
+await (async () => {
+  const assets = { fetch: async (r) => new Response(/index\.json$/.test(String(r.url)) ? "[]" : "JPG", { status: 200 }) };
+  const env = Object.assign({}, STUDIO_ENV, { ASSETS: assets });
+  const ok = await worker.fetch(cookieReq("/studio/lib/jon-jones.jpg", SID), env, {});
+  check("a library tile is served same-origin as a jpeg behind the gate",
+    ok.status === 200 && ok.headers.get("content-type") === "image/jpeg");
+  check("library file names are a strict slug allowlist",
+    (await worker.fetch(cookieReq("/studio/lib/..%2Fworker.js", SID), env, {})).status === 404
+    && (await worker.fetch(cookieReq("/studio/lib/Jon.JPG", SID), env, {})).status === 404
+    && !_test.LIB_FILE.test("../x.jpg") && !_test.LIB_FILE.test("x.svg") && _test.LIB_FILE.test("index.json"));
+  check("no ASSETS binding is a 503, never a crash",
+    (await worker.fetch(cookieReq("/studio/lib/jon-jones.jpg", SID), STUDIO_ENV, {})).status === 503);
+  check("the library needs the session cookie",
+    (await worker.fetch(req("/studio/lib/jon-jones.jpg"), env, {})).status === 401);
+})();
+check("fighter photo slugs are strict and the photo host is pinned to UFC's CDNs",
+  _test.FIGHTER_SLUG.test("tom-aspinall") && !_test.FIGHTER_SLUG.test("../x")
+  && !_test.FIGHTER_SLUG.test("Tom") && _test.FIGHTER_HOSTS.includes("dmxg5wxfqgb4u.cloudfront.net")
+  && _test.FIGHTER_HOSTS.length === 3);
+
+// ----- the pre-deploy review of the page (Sept 24 2026) -----
+{
+  // pull named top-level functions out of the page script and run them in node
+  const grab = (name) => {
+    const i = _spScript.indexOf("function " + name + "(");
+    if (i === -1) return "";
+    let depth = 0, started = false;
+    for (let j = i; j < _spScript.length; j++) {
+      const c = _spScript[j];
+      if (c === "{") { depth++; started = true; }
+      else if (c === "}") { depth--; if (started && depth === 0) return _spScript.slice(i, j + 1); }
+    }
+    return "";
+  };
+  const make = (names, tail) => {
+    try { return new Function(names.map(grab).join("\n") + "\n" + tail)(); }
+    catch (e) { console.log("extract failed:", e.message); return null; }
+  };
+
+  // 1. the wrong-photo export: drafts come back under FRESH keys, and the grade
+  //    cache is keyed by the image itself
+  const rm = make(["remapAssetKeys"], "return remapAssetKeys;");
+  const doc = { photo: { id: "a1", zoom: 1 }, inset: { id: "a2" }, left: { id: "a9" }, panels: { rows: [{ l: { id: "a1" }, r: { id: null } }] },
+                template: "news", line: "a1 stays text" };
+  const out = rm ? rm(doc, { a1: "a7", a2: "a8" }) : null;
+  check("a draft's photo references are rewritten to the fresh keys; an unloaded one becomes empty",
+    !!out && out.photo.id === "a7" && out.inset.id === "a8" && out.left.id === null
+    && out.panels.rows[0].l.id === "a7" && out.panels.rows[0].r.id === null
+    && out.line === "a1 stays text" && out.template === "news" && doc.photo.id === "a1");
+  check("hydrate never writes a draft's pixels over a live key (putAt is gone)",
+    !/function putAt\(/.test(_spScript) && /remap\[k\] = put\(im, rec, src\)/.test(_spScript)
+    && /gradeCache\.clear\(\); lastCrop = \{\}; photoPicks = \[\];/.test(_spScript));
+  check("the grade cache key carries the image's own serial and the grade size",
+    /var key = \[k, imgSerial\(img\), look, amt, gm, gradeMax\(\)\]\.join\("\|"\)/.test(_spScript));
+  check("new facts drop only that photo's grades, never the whole cache",
+    /gradeCache\.drop\(k \+ "\|"\)/.test(_spScript));
+
+  // the LRU: evicts, frees evicted canvases, drops one photo's entries
+  const L = make(["lruFree", "lru"], "return lru;");
+  let freed = 0;
+  const fakeCanvas = () => { const c = { getContext() { return {}; } }; Object.defineProperty(c, "width", { set(v) { if (v === 0) freed++; }, get() { return 1; } }); return c; };
+  const c3 = L ? L(3) : null;
+  if (c3) {
+    ["a1|x", "a1|y", "a2|x", "a3|x"].forEach(k => c3.set(k, fakeCanvas()));
+    check("the LRU evicts past its limit and shrinks the evicted canvas (iOS canvas memory)",
+      c3.get("a1|x") === undefined && !!c3.get("a3|x") && freed === 1);
+    c3.drop("a1|");
+    check("the LRU drops one photo's entries by prefix and leaves the rest",
+      c3.get("a1|y") === undefined && !!c3.get("a2|x") && !!c3.get("a3|x") && freed === 2);
+  } else check("the LRU extracts", false);
+
+  // clarity = photopick.clarity (Pillow's subtract/overlay/blend), per channel
+  const cp = make(["clarityPx"], "return clarityPx;");
+  const PIL02 = [[0,0,0],[10,200,8],[40,90,36],[90,40,97],[127,127,127],[128,60,141],[128,200,113],[200,128,206],[230,40,235],[255,255,255],[255,0,255],[64,64,64],[180,250,171],[3,250,2]];
+  const PIL013 = [[40,90,37],[90,40,94],[128,60,136],[128,200,118],[180,250,174]];
+  check("the page's clarity matches Pillow's overlay high-pass exactly (vectors computed by Pillow)",
+    !!cp && PIL02.every(([a, b, w]) => cp(a, b, 0.2) === w) && PIL013.every(([a, b, w]) => cp(a, b, 0.13) === w));
+
+  // 2. money: generation is keyed by a stable option id
+  check("generation is tracked by the option's uid, never its position",
+    /genBusy\[o\.uid\]/.test(_spScript) && !/genBusy\[i\]/.test(_spScript) && /function optByUid\(uid\)/.test(_spScript)
+    && /uid: newUid\(\)/.test(_spScript));
+  check("a tile that finishes after its option left the screen is kept and handed back once",
+    /genDone\[uid\] = k;/.test(_spScript) && /delete genDone\[o\.uid\]/.test(_spScript));
+  check("a busy tile's Generate button is disabled (no second paid request)",
+    /g\.disabled = !!genBusy\[o\.uid\]/.test(_spScript) && /function paintGenButtons\(\)/.test(_spScript));
+  check("Generate every missing tile resolves each option when its timer fires and never pays for a blank one",
+    /var i = optByUid\(uid\);\s*if \(i !== -1 && !poll\.options\[i\]\.id && !genBusy\[uid\]\) genTile\(i\);/.test(_spScript)
+    && /if \(!hasIdea\(o\)\) \{ toast\("Type the option first, then generate\."\); return; \}/.test(_spScript));
+  check("undo, redo and saving keep an option's uid",
+    /if \(typeof o\.uid === "string" && \/\^o\[a-z0-9\]\{3,40\}\$\/\.test\(o\.uid\)\) d\.uid = o\.uid;/.test(_spScript));
+
+  // 3. deep links are consumed once and never wipe work
+  check("a poll link for the poll already open never re-picks it, and the hash is removed after use",
+    /if \(poll\.pid === id\) \{ clearHash\(\); return; \}/.test(_spScript)
+    && /history\.replaceState\(null, "", location\.pathname \+ location\.search\)/.test(_spScript));
+  check("a poll staged after the list loaded is fetched once more before giving up",
+    /if \(pollHashTried !== id\) \{ pollHashTried = id; loadPolls\(\); return; \}/.test(_spScript));
+  check("a news link shows the Post view (it used to load behind the Polls tab)",
+    /pickedHash = m\[1\];\s*showTab\("tab-post"\);/.test(_spScript));
+
+  // 5-7. slider, strip, stage
+  check("the Look strength slider grades a small working copy while it moves; exports use the full grade",
+    /set: function \(v\) \{ state\.lookAmt = v; draftGrade\(\); \}/.test(_spScript)
+    && /function withBlob\(cb\) \{\s*finalGrade\(\);/.test(_spScript)
+    && /finalGrade\(\);\s*drawNow\(\);\s*var item = new ClipboardItem/.test(_spScript));
+  check("a failed strip photo stops retrying until tapped",
+    /if \(!pk\.key && !pk\.loading && !pk\.failed\) preloadPick\(pk\);/.test(_spScript)
+    && /\.pickbtn \.ph\.failed\{/.test(STUDIO_HTML));
+  check("a photo that arrives after the owner picked another post is dropped",
+    /if \(stagedPick !== mine\) return;/.test(_spScript) && /if \(stagedPick !== owner\)/.test(_spScript));
+  check("the poster is never measured while the Post view is hidden",
+    /if \(\$\("view-post"\) && \$\("view-post"\)\.hidden\) return;/.test(_spScript)
+    && /if \(id === "tab-post"\) \{ sizeStage\(\); drawNow\(\); \}/.test(_spScript));
+
+  // 9. library and fighters
+  check("an ambiguous library name matches nobody instead of the first of four Silvas",
+    /an ambiguous name matches nobody \*\/\s*return null;/.test(_spScript) && /function libMatches\(label\)/.test(_spScript));
+  const fs = make(["foldText", "fighterSlug"], "return fighterSlug;");
+  check("a fighter the library lacks gets octagon-api's slug for the UFC photo",
+    !!fs && fs("Sean O'Malley") === "sean-omalley" && fs("Jiri Procházka") === "jiri-prochazka"
+    && fs("Merab  Dvalishvili ") === "merab-dvalishvili" && /\/studio\/api\/fighter\/" \+ slug/.test(_spScript));
+
+  // highlights: the page matches hot words the way postcard._hot_norm does
+  const bw = make(["bareWord"], "return bareWord;");
+  check("staged hot words land through possessives, edge quotes and a typographic apostrophe",
+    !!bw && bw("PAGE'S") === "PAGE" && bw("'VENOM'") === "VENOM" && bw("O'MALLEY'S") === "O'MALLEY"
+    && bw("PAGE" + String.fromCharCode(8217) + "S") === "PAGE" && bw("GARRY,") === "GARRY" && bw("HE'LL") === "HE'LL");
+  check("the staged spec's hot words are applied with bareWord, not the raw key",
+    /var t = bareWord\(h\);/.test(_spScript));
+
+  // AI help: honest refusals and picture ideas for a poll he types himself
+  check("AI help reads the Worker's refusal (the daily limit) instead of a generic shrug",
+    /function aiReply\(r\)/.test(_spScript) && /function aiFail\(e, what\)/.test(_spScript)
+    && !/The deploy sets it from config\.txt/.test(_spScript));
+  check("Suggest pictures asks the Worker for ideas and never touches fighters or finished tiles",
+    /id="pollIdeas"/.test(STUDIO_HTML) && /mode: "art", question: poll\.q \|\| "", options: opts/.test(_spScript)
+    && /if \(!o \|\| o\.kind === "fighter" \|\| o\.id\) return;/.test(_spScript));
+  check("the generation note shows how much of today's budget is used",
+    /bu\.used \+ " of " \+ bu\.cap \+ " used today\."/.test(_spScript));
+}
+
+// ----- Nano Banana generation through the Worker -----
+await (async () => {
+  const realFetch = globalThis.fetch;
+  let sent = null, calls = 0;
+  let reply = () => new Response(JSON.stringify({ candidates: [{ content: { parts: [{ inlineData: { mimeType: "image/png", data: "AAAA" } }] } }] }),
+    { status: 200, headers: { "content-type": "application/json" } });
+  globalThis.fetch = async (u, init) => {
+    sent = { url: String(u), init };
+    calls++;
+    return reply();
+  };
+  try {
+    const off = await worker.fetch(new Request("https://w.example/studio/api/gen?aspect=1:1", {
+      method: "POST", headers: { cookie: "sid=" + SID }, body: "[]" }), STUDIO_ENV, {});
+    const offJ = await off.json();
+    check("generation is a 503 that says how to switch it on until the key exists",
+      off.status === 503 && /SETUP_STUDIO_IMAGES/.test(offJ.setup || ""));
+    check("the setup note no longer sends the owner to DEPLOY.bat (it never touches Worker secrets)",
+      !/DEPLOY\.bat/.test(_test.GEN_SETUP) && /stores the key on the Worker/.test(_test.GEN_SETUP));
+    const env = Object.assign({}, STUDIO_ENV, { VERTEX_API_KEY: "AIzaTESTKEYVALUE123", VERTEX_PROJECT: "project-0367d456-c2da-4722-99f" });
+    const genReq = (q, body) => new Request("https://w.example/studio/api/gen" + q, {
+      method: "POST", headers: { cookie: "sid=" + SID, "content-type": "application/json" }, body });
+    const bodyOf = () => JSON.parse(typeof sent.init.body === "string" ? sent.init.body : new TextDecoder().decode(sent.init.body));
+    _test.resetFuse();
+    check("a bad aspect, size or thinking level is refused before any spend",
+      (await worker.fetch(genReq("?aspect=7:1", "[]"), env, {})).status === 400
+      && (await worker.fetch(genReq("?size=4K", "[]"), env, {})).status === 400
+      && (await worker.fetch(genReq("?think=max", "[]"), env, {})).status === 400);
+    check("a body that is not a JSON array of parts is refused",
+      (await worker.fetch(genReq("?aspect=1:1", '{"contents":[]}'), env, {})).status === 400);
+    const parts = JSON.stringify([{ text: "a glove" }]);
+    const r = await worker.fetch(genReq("?aspect=1:1&size=1K&think=high", parts), env, {});
+    const body = bodyOf();
+    check("the request is REBUILT from validated parts, with the config from the SERVER",
+      r.status === 200 && body.contents[0].parts[0].text === "a glove"
+      && body.contents[0].parts.length === 1 && body.contents[0].role === "user"
+      && body.generationConfig.imageConfig.aspectRatio === "1:1"
+      && body.generationConfig.imageConfig.imageSize === "1K"
+      && body.generationConfig.responseModalities.includes("IMAGE")
+      && Array.isArray(body.safetySettings) && body.safetySettings.length === 4
+      && JSON.stringify(Object.keys(body).sort()) === JSON.stringify(["contents", "generationConfig", "safetySettings"]));
+    check("the endpoint is Vertex on the configured project and model; the key rides "
+      + "a header, never the url",
+      sent.url === "https://aiplatform.googleapis.com/v1/projects/project-0367d456-c2da-4722-99f/locations/global/publishers/google/models/gemini-3.1-flash-image:generateContent"
+      && !sent.url.includes("AIza") && sent.init.headers["x-goog-api-key"] === "AIzaTESTKEYVALUE123");
+    // the pre-deploy review's two smuggles: a body that closes the parts array
+    // early and adds its own top-level keys (a billed Google Search `tools`
+    // block; second copies of the config). Neither is valid JSON as an array,
+    // so neither reaches Google at all.
+    const before = calls;
+    const smug1 = await worker.fetch(genReq("?aspect=1:1&size=1K", '[{"text":"x"}],"generationConfig":{"imageConfig":{"imageSize":"4K"}},"z":[1]'), env, {});
+    const smug2 = await worker.fetch(genReq("?aspect=1:1", '[{"text":"a cat"}]}],"tools":[{"googleSearch":{},"functionDeclarations":[]'), env, {});
+    check("a body that smuggles its own config or tools is refused and never sent",
+      smug1.status === 400 && smug2.status === 400 && calls === before);
+    check("genParts keeps ONLY {text} and {inlineData:{mimeType,data}} parts",
+      JSON.stringify(_test.genParts('[{"text":"a"},{"inlineData":{"mimeType":"image/jpeg","data":"QUJD"}}]'))
+        === JSON.stringify([{ text: "a" }, { inlineData: { mimeType: "image/jpeg", data: "QUJD" } }])
+      && _test.genParts('[{"text":"a","tools":[]}]') === null
+      && _test.genParts('[{"inlineData":{"mimeType":"image/jpeg","data":"QUJD","extra":1}}]') === null
+      && _test.genParts('[{"inlineData":{"mimeType":"image/svg+xml","data":"QUJD"}},{"text":"a"}]') === null
+      && _test.genParts('[{"inlineData":{"mimeType":"image/png","data":"QUJD"}}]') === null
+      && _test.genParts('[{"text":"   "}]') === null
+      && _test.genParts("[" + Array(_test.GEN_PARTS_MAX + 1).fill('{"text":"a"}').join(",") + "]") === null
+      && _test.genParts('[{"text":"' + "x".repeat(_test.GEN_TEXT_MAX + 1) + '"}]') === null
+      && _test.genParts("not json") === null && _test.genParts('{"text":"a"}') === null);
+    const big = await worker.fetch(genReq("?aspect=1:1", '[{"text":"' + "x".repeat(_test.GEN_BODY_MAX) + '"}]'), env, {});
+    check("an oversized body is refused before any spend", big.status === 413);
+    // Google's 401 (a key the API refuses) must not look like an expired studio session
+    reply = () => new Response(JSON.stringify({ error: { code: 401, message: "API keys are not supported by this API." } }),
+      { status: 401, headers: { "content-type": "application/json" } });
+    _test.resetFuse();
+    const g401 = await worker.fetch(genReq("?aspect=1:1", parts), env, {});
+    const g401j = await g401.json();
+    check("Vertex's 401 reaches the page as a 502 carrying Google's message (a 401 reloads the page)",
+      g401.status === 502 && /API keys are not supported/.test(((g401j || {}).error || {}).message || ""));
+    reply = () => new Response(JSON.stringify({ candidates: [] }), { status: 200, headers: { "content-type": "application/json" } });
+    // no BUDGET binding (this test env): the per-isolate rolling hour still stops a runaway loop
+    _test.resetFuse();
+    let tripped = false;
+    const hourCap = _test.BUDGET_CAPS.gen.hour;
+    for (let i = 0; i < hourCap + 1; i++) {
+      const rr = await worker.fetch(genReq("?aspect=1:1", parts), env, {});
+      if (rr.status === 429) { tripped = i === hourCap; break; }
+    }
+    check("without the budget object, a per-isolate rolling hour stops a runaway page", tripped);
+    _test.resetFuse();
+    const st = await (await worker.fetch(cookieReq("/studio/api/gen", SID), env, {})).json();
+    check("the status route says configured and prices per size, and never echoes the key",
+      st.configured === true && st.costs["1K"] > 0 && !JSON.stringify(st).includes("AIza") && st.budget === null);
+
+    // ----- the ONE spend counter (Durable Object) -----
+    const mkStore = () => { const m = new Map(); return { get: async k => m.get(k), put: async (k, v) => { m.set(k, v); }, _m: m }; };
+    const store = mkStore();
+    const obj = new _test.StudioBudget({ storage: store });
+    const binding = { idFromName: n => "id:" + n, get: () => ({ fetch: (u) => obj.fetch(new Request(String(u))) }) };
+    const envB = Object.assign({}, env, { BUDGET: binding, STUDIO_GEN_DAILY_CAP: "3", STUDIO_GEN_HOURLY_CAP: "10" });
+    calls = 0;
+    reply = () => new Response(JSON.stringify({ candidates: [] }), { status: 200, headers: { "content-type": "application/json" } });
+    const codes = [];
+    for (let i = 0; i < 4; i++) codes.push((await worker.fetch(genReq("?aspect=1:1", parts), envB, {})).status);
+    check("the shared budget counts every spend and refuses past the daily cap, before Google is called",
+      JSON.stringify(codes) === JSON.stringify([200, 200, 200, 429]) && calls === 3
+      && store._m.get("gen").n === 3);
+    const stB = await (await worker.fetch(cookieReq("/studio/api/gen", SID), envB, {})).json();
+    check("the status route reports today's usage from the shared counter (peeking spends nothing)",
+      stB.budget && stB.budget.used === 3 && stB.budget.cap === 3 && store._m.get("gen").n === 3);
+    const refused = await (await worker.fetch(genReq("?aspect=1:1", parts), envB, {})).json();
+    check("the refusal says which limit and when it resets", /Today's image limit \(3\)/.test(refused.error || "")
+      && /midnight UTC/.test(refused.error || ""));
+    const broken = { idFromName: () => "x", get: () => ({ fetch: async () => { throw new Error("down"); } }) };
+    calls = 0;
+    const down = await worker.fetch(genReq("?aspect=1:1", parts), Object.assign({}, env, { BUDGET: broken }), {});
+    check("a budget object that cannot answer REFUSES the spend (fail closed) and calls nobody",
+      down.status === 503 && calls === 0);
+  } finally { globalThis.fetch = realFetch; _test.resetFuse(); }
+})();
+
+// ----- the budget maths (pure) -----
+{
+  const caps = { day: 3, hour: 2 };
+  const t0 = Date.UTC(2026, 8, 24, 23, 30);
+  let s = _test.budgetStep(null, t0, caps, true);
+  check("budgetStep: a first spend on a clean record is allowed and counted", s.ok && s.used === 1 && s.hourUsed === 1);
+  s = _test.budgetStep(s.rec, t0 + 1000, caps, true);
+  const s3 = _test.budgetStep(s.rec, t0 + 2000, caps, true);
+  check("budgetStep: the rolling hour refuses the third spend inside 60 minutes", !s3.ok && s3.used === 2);
+  const later = _test.budgetStep(s.rec, t0 + 3600 * 1000 + 5000, caps, true);
+  check("budgetStep: the hour window rolls (the record crossed midnight UTC, so the day restarts too)",
+    later.ok && later.used === 1 && later.rec.day === "2026-09-25");
+  const peek = _test.budgetStep(s.rec, t0 + 3000, caps, false);
+  check("budgetStep: a peek never counts", peek.used === 2 && peek.rec.n === 2 && !peek.ok);
+  const junk = _test.budgetStep({ day: "2026-09-24", n: "lots", hits: ["x", -5, 1e20] }, t0, caps, true);
+  check("budgetStep: a junk record reads as empty, never as a crash or a free pass", junk.ok && junk.used === 1);
+  check("budget caps take integer [vars] overrides and ignore junk",
+    _test.budgetCaps({ STUDIO_GEN_DAILY_CAP: "12" }, "gen").day === 12
+    && _test.budgetCaps({ STUDIO_GEN_DAILY_CAP: "1e9" }, "gen").day === _test.BUDGET_CAPS.gen.day
+    && _test.budgetCaps({ STUDIO_AI_HOURLY_CAP: "-1" }, "ai").hour === _test.BUDGET_CAPS.ai.hour
+    && _test.budgetCaps({}, "nope") === null);
+}
+await (async () => {
+  const store = new Map();
+  const obj = new _test.StudioBudget({ storage: { get: async k => store.get(k), put: async (k, v) => { store.set(k, v); } } });
+  const bad = await obj.fetch(new Request("https://budget/spend?k=__proto__"));
+  check("the budget object refuses an unknown kind", bad.status === 400 && store.size === 0);
+  const r1 = await (await obj.fetch(new Request("https://budget/spend?k=ai&day=1&hour=5"))).json();
+  const r2 = await (await obj.fetch(new Request("https://budget/spend?k=ai&day=1&hour=5"))).json();
+  check("the budget object counts ai help on its own line", r1.ok && !r2.ok && store.get("ai").n === 1 && !store.has("gen"));
+})();
+
+// ----- AI writing help -----
+check("aiClean strips fence breakers, em dashes and exclamation marks",
+  _test.aiClean("a `x` <b> big—deal!", 80) === "a x b big-deal");
+const s24lines = _test.parseAiLines({ lines: [{ line: "Rosas targets titles before 25", hot: ["Rosas", "titles", "belts"] },
+                                           { line: "", hot: [] }, { line: "x".repeat(200), hot: [] }] });
+check("line suggestions keep only highlight words the line really contains",
+  s24lines.length === 2 && JSON.stringify(s24lines[0].hot) === JSON.stringify(["Rosas", "titles"]) && s24lines[1].line.length <= 90);
+check("picture ideas are one per option, clamped",
+  JSON.stringify(_test.parseAiArt({ art: ["a", "b"], gag: "g" }, 3)) === JSON.stringify({ art: ["a", "b", ""], gag: "g" }));
+check("a picture idea showing gambling is dropped, never cleaned (casino chips, a poker table, roulette)",
+  JSON.stringify(_test.parseAiArt({ art: ["a raccoon pushing casino chips across a poker table", "a glove under a spotlight",
+    "a pigeon spinning a Roulette wheel"], gag: "a llama rolling dice at ringside" }, 3))
+    === JSON.stringify({ art: ["", "a glove under a spotlight", ""], gag: "" })
+  && _test.aiSafeIdea("a slot   machine jackpot") === "" && _test.aiSafeIdea("the betting odds board") === ""
+  && _test.aiSafeIdea("a sloth on the octagon canvas") === "a sloth on the octagon canvas");
+await (async () => {
+  const r = await worker.fetch(new Request("https://w.example/studio/api/ai", { method: "POST",
+    headers: { cookie: "sid=" + SID, "content-type": "application/json" }, body: JSON.stringify({ mode: "lines" }) }), STUDIO_ENV, {});
+  check("AI help is a 503 without a key on the Worker, never a crash", r.status === 503);
+})();
+
+await (async () => {
+  // AI help spends the SAME DeepSeek balance as the news scorer, so it sits
+  // behind the same shared counter as image generation
+  const realFetch = globalThis.fetch;
+  let calls = 0;
+  globalThis.fetch = async () => {
+    calls++;
+    return new Response(JSON.stringify({ choices: [{ message: { content: '{"lines":[{"line":"Rosas targets titles","hot":["Rosas"]}]}' } }] }),
+      { status: 200, headers: { "content-type": "application/json" } });
+  };
+  const store = new Map();
+  const obj = new _test.StudioBudget({ storage: { get: async k => store.get(k), put: async (k, v) => { store.set(k, v); } } });
+  const binding = { idFromName: n => n, get: () => ({ fetch: (u) => obj.fetch(new Request(String(u))) }) };
+  const env = Object.assign({}, STUDIO_ENV, { DEEPSEEK_API_KEY: "sk-test", BUDGET: binding, STUDIO_AI_DAILY_CAP: "2" });
+  const ask = () => worker.fetch(new Request("https://w.example/studio/api/ai", { method: "POST",
+    headers: { cookie: "sid=" + SID, "content-type": "application/json" },
+    body: JSON.stringify({ mode: "lines", headline: "Rosas targets titles" }) }), env, {});
+  try {
+    const codes = [(await ask()).status, (await ask()).status, (await ask()).status];
+    check("AI help is counted on the shared budget and refused past its cap, before the provider is called",
+      JSON.stringify(codes) === JSON.stringify([200, 200, 429]) && calls === 2 && store.get("ai").n === 2);
+    calls = 0;
+    const bad = await worker.fetch(new Request("https://w.example/studio/api/ai", { method: "POST",
+      headers: { cookie: "sid=" + SID, "content-type": "application/json" }, body: JSON.stringify({ mode: "nope" }) }), env, {});
+    check("an unknown AI mode is refused without spending", bad.status === 400 && calls === 0 && store.get("ai").n === 2);
+  } finally { globalThis.fetch = realFetch; }
+})();
+
+// ----- the page: face framing + grade mirror photopick exactly -----
+const _grab2 = (name) => {
+  const i = _spScript.indexOf("function " + name + "(");
+  if (i === -1) return "";
+  let depth = 0, started = false;
+  for (let j = i; j < _spScript.length; j++) {
+    const c = _spScript[j];
+    if (c === "{") { depth++; started = true; }
+    else if (c === "}") { depth--; if (started && depth === 0) return _spScript.slice(i, j + 1); }
+  }
+  return "";
+};
+const _eng = (() => {
+  const src = ["clamp", "rgb3", "cropTune", "smartCrop", "lookDef", "autoGamma", "gradeParams", "gsig",
+               "gsmooth", "gradePixel", "gradeImageData"].map(_grab2).join("\n")
+    + "\n" + (_spScript.match(/var CROP_TUNE = [^;]*;/) || [""])[0]
+    + "\n" + (_spScript.match(/var MAX_UPSCALE = [^;]*;/) || [""])[0]
+    + "\n" + (_spScript.match(/var LOOKS = \[[\s\S]*?\];/) || [""])[0]
+    + "\n" + (_spScript.match(/var TARGET_FACE_LUM = [^;]*;/) || [""])[0]
+    + "\nvar GS0 = gsig(0), GS1 = gsig(1);"
+    + "\nreturn { smartCrop, gradePixel, gradeParams, autoGamma, gradeImageData };";
+  try { return new Function(src)(); } catch (e) { console.log("engine extract failed:", e.message); return null; }
+})();
+check("the page's framing and grade engine is extractable and runs", !!_eng);
+if (_eng) {
+  // vectors computed by bots_github/photopick.py (the Python suite pins the same)
+  const CROPS = [[[1500, 1000, [[0.508, 0.341, 0.083, 0.15]], 1080, 1350], [540.0395, 188.6316, 568.4211, 710.5263]],
+    [[1200, 675, [[0.195, 0.062, 0.104, 0.221], [0.691, 0.211, 0.09, 0.231]], 1080, 1350], [26.4, 0.0, 540.0, 675.0]],
+    [[3619, 2413, [[0.595, 0.115, 0.107, 0.194]], 1080, 1080], [1329.265, 0.0, 2035.313, 2035.313]],
+    [[1920, 1280, [[0.41, 0.15, 0.17, 0.31], [0.36, 0.09, 0.14, 0.26]], 1080, 1920], [542.4, 0.0, 720.0, 1280.0]],
+    [[1920, 1280, [], 1080, 1350], [448.0, 0.0, 1024.0, 1280.0]]];
+  check("smartCrop matches photopick.smart_crop on five real framings (Rosas, Volkov/Gane, Fury, a pair, faceless)",
+    CROPS.every(([a, want]) => _eng.smartCrop(...a).every((v, i) => Math.abs(v - want[i]) < 0.01)));
+  const PX = [["fight", 0.72, 1.0, [0.1, 0.2, 0.3], [0.16761, 0.27858, 0.41701]], ["fight", 0.72, 1.0, [0.8, 0.6, 0.5], [0.89247, 0.7337, 0.62894]],
+    ["fight", 0.72, 1.0, [0.5, 0.5, 0.5], [0.63936, 0.6382, 0.63712]], ["fight", 0.72, 1.0, [0.95, 0.9, 0.2], [0.97239, 0.93305, 0.28987]],
+    ["cinema", 1.1, 0.6, [0.1, 0.2, 0.3], [0.08621, 0.18403, 0.27639]], ["cinema", 1.1, 0.6, [0.8, 0.6, 0.5], [0.80513, 0.59538, 0.48195]],
+    ["mono", 1.0, 1.0, [0.1, 0.2, 0.3], [0.14466, 0.14748, 0.15708]], ["mono", 1.0, 1.0, [0.8, 0.6, 0.5], [0.68017, 0.68017, 0.68017]],
+    ["natural", 0.9, 1.0, [0.8, 0.6, 0.5], [0.86318, 0.65054, 0.5269]], ["natural", 0.9, 1.0, [0.95, 0.9, 0.2], [0.9671, 0.928, 0.17775]]];
+  check("gradePixel matches photopick.grade_pixel to 1e-4 across four looks",
+    PX.every(([look, g, s, rgb, want]) => {
+      const out = _eng.gradePixel(rgb[0], rgb[1], rgb[2], _eng.gradeParams(look, g, s));
+      return out.every((v, i) => Math.abs(v - want[i]) < 1e-4);
+    }));
+  check("autoGamma matches photopick.auto_gamma (lift a dark face, ease a bright frame, leave a good one)",
+    _eng.autoGamma(0.231, true) === 0.72 && _eng.autoGamma(0.7, false) === 1.18 && _eng.autoGamma(0.5, true) === 1);
+  const s24d = { data: new Uint8ClampedArray([26, 51, 77, 255, 204, 153, 128, 255]) };
+  const pF = _eng.gradeParams("fight", 0.72, 1);
+  _eng.gradeImageData(s24d, pF);
+  const ref = [[26, 51, 77], [204, 153, 128]].map(c => _eng.gradePixel(c[0] / 255, c[1] / 255, c[2] / 255, pF)
+    .map(v => Math.floor(v * 255 + 0.5)));
+  check("the bulk grader equals the per-pixel reference byte for byte (the LUT fold is exact)",
+    [0, 1, 2].every(i => s24d.data[i] === ref[0][i]) && [0, 1, 2].every(i => s24d.data[4 + i] === ref[1][i]));
+}
+check("the face-framed mode is the default and staged posts open in it",
+  /fitMode: "auto"/.test(_spScript) && /state\.fitMode = "auto";/.test(_spScript));
+check("a tap can pick the face when no detector found one, mapped back through the crop",
+  /function finishPickFace\(p\)/.test(_spScript) && /if \(pickingFace\) \{ finishPickFace\(p\);/.test(_spScript));
+
+// ----- the page: words, checks, layout -----
+check("Highlight the news picks the surname plus the strongest news word",
+  /function smartHotIdx\(ws\)/.test(_spScript) && /var DRAMA_TIERS = \[/.test(_spScript));
+check("the design check flags a name-only highlight and every check carries a fix",
+  /Only the name is highlighted/.test(_spScript) && /function autoDesign\(\)/.test(_spScript)
+  && /id="autoBtn"/.test(STUDIO_HTML) && /id="checks"/.test(STUDIO_HTML));
+check("checks run after the poster settles, never on every drag frame",
+  /function scheduleChecks\(\)/.test(_spScript) && /setTimeout\(runChecks, \d+\)/.test(_spScript));
+check("the Fill/Underline buttons size to their text (Underline spilled over the swatches)",
+  /\.tbar \.seg button\{[^}]*flex:none;white-space:nowrap\}/.test(STUDIO_HTML));
+check("wide screens get three columns and the poster height is measured, not guessed",
+  /@media\(min-width:1500px\)\{\s*html\[data-shell=steps\] \.split\{grid-template-columns:300px minmax\(0,1fr\) 460px\}/.test(STUDIO_HTML)
+  && /calc\(var\(--stageH, 68vh\) \* var\(--ar\)\)/.test(STUDIO_HTML)
+  && /function sizeStage\(\)/.test(_spScript) && /function placeQueue\(\)/.test(_spScript)
+  && /id="queueCol"/.test(STUDIO_HTML));
+
+// ----- the page: the poll workshop -----
+check("a staged poll opens from its Discord link (#p=)",
+  /\[#&\]p=\(\[0-9\]\{15,21\}\)/.test(_spScript) && /function pickPollFromHash\(\)/.test(_spScript));
+check("fighter options match the owner's own library by name, nickname or surname",
+  /function matchLib\(label\)/.test(_spScript) && /\/studio\/lib\/index\.json/.test(_spScript));
+check("library tiles download byte for byte, never re-encoded",
+  /\/studio\/lib\/" \+ o\.lib \+ "\.jpg"\)\.then\(function \(r\) \{ if \(!r\.ok\) throw new Error\("x"\); return r\.blob\(\); \}\)/.test(_spScript));
+const _styles = (() => {
+  const m = _spScript.match(/var POLL_STYLES = \{[\s\S]*?\};/);
+  try { return m ? new Function(m[0] + " return POLL_STYLES;")() : null; } catch (e) { return null; }
+})();
+check("every house style forbids text in the image (the page sets the type, spelled right)",
+  !!_styles && ["poster", "photo", "meme"].every(k => /no text/i.test(_styles[k] || "")
+    && /\{S\}/.test(_styles[k] || "")));
+check("the big word is set in Anton, loaded from Google Fonts like Poppins",
+  /family=Anton&family=Poppins/.test(STUDIO_HTML) && /px Anton, Impact/.test(_spScript));
+check("generation goes through the Worker and parses the image part without trusting sizes",
+  /\/studio\/api\/gen\?aspect=1:1&size=/.test(_spScript) && /function pickImagePart\(j\)/.test(_spScript));
+check("with generation off the prompt is copied instead, so the button never dead-ends",
+  /if \(!genStatus \|\| !genStatus\.configured\) \{ copyPrompt\(i, true\); return; \}/.test(_spScript));
+if (wrangler !== null) {
+  check("the spend budget is ONE Durable Object (SQLite-backed, free plan) bound as BUDGET",
+    /\[\[durable_objects\.bindings\]\]\s*name = "BUDGET"\s*class_name = "StudioBudget"/.test(wrangler)
+    && /\[\[migrations\]\]\s*tag = "v1"\s*new_sqlite_classes = \["StudioBudget"\]/.test(wrangler));
+  check("the tile library is private: every request runs the Worker first",
+    /\[assets\][\s\S]*directory = "\.\/lib_assets"[\s\S]*run_worker_first = true/.test(wrangler));
+}
 
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
 process.exit(fail ? 1 : 0);
