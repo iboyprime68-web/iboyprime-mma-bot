@@ -1,5 +1,7 @@
 {
   "seen": {
+    "a92e01c03531a2a3": 1790275405.1531026,
+    "8ff12ed59115829d": 1790275404.8584,
     "b2c89df352ffff83": 1790275337.179396,
     "08be89278039d023": 1790275336.756975,
     "810dddf44394e9eb": 1790275336.754877,
@@ -2497,9 +2499,7 @@
     "993292bd01316865": 1789754258.0043085,
     "71052c727a82f4cd": 1789754258.002762,
     "a5fec613a4f62e8d": 1789754193.5860734,
-    "bec21b424255a9c5": 1789754193.3807032,
-    "09bbd31a90d352ff": 1789754128.7387884,
-    "e80ffb7548f151f2": 1789754128.438904
+    "bec21b424255a9c5": 1789754193.3807032
   },
   "initialized": true,
   "v": 4,
@@ -4567,16 +4567,21 @@
       "source": "The Sun",
       "ts": "2026-09-24T17:58:00+00:00",
       "cluster": "c62e3224512"
+    },
+    {
+      "t": "EA Sports UFC 6 Adds 2 New Fighters to Video Game Roster",
+      "source": "heavy.com",
+      "ts": "2026-09-24T18:00:29+00:00",
+      "cluster": "c430f6a037a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    28
+    29
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331480",
     "https://bloodyelbow.com/?p=331488",
     "b8ab75d7-56e3-376b-bd97-93cb6b529742",
     "3e6422d6-73b0-3a53-8965-ca6571f3eefd",
@@ -6075,11 +6080,12 @@
     "CBMiwwFBVV95cUxOM21hU3ZSejE0WmVFUHkteVZBb2dyaE1iYnN6cU0zVVJ3V3RXRTBpcmVYMlFXUGVVLVRVY2VGVVlWZFBtMzBIX2VKQW1jeFFsbFNxM0pGSTBuRVdPcDFfRFRvaTNaemhBNGdERklwcWhyeE9NQVc4a1FuOFMzdGlSbU1GREt4Ymx0SGtLRThFbkU5WURocEpfQzZ3c053bzV5TUg4UEs2Zy1WVmExLTZWSGg3X2dRMjV5NDh1bEw2eS05QzQ",
     "CBMijwFBVV95cUxPQ1F3SUprNzltUEc0bUFEeS14YmNUVFYzcWI3Sy03cFd6ZnlGbmF3VlM1bXJwUThxUm1tTlBWRGJmVE5ZTWZFQ3djN2tJeUFFYTJTN2c5a09VZ3NFTjY4WGpTMWw3QUtUbXNnYk1FU3ctZWYzcHFXOHVWZlhoWmJoU2dhWF81bjdYYlZxeWFvcw",
     "CBMiiwFBVV95cUxPMG01WnloYlhWYlR6T3BkVFA2ZmE0dFBEUzBfNmNxOWVia2xFRDZYV1REUnk0bWtkMkk3MGRTWi1mcEtMNDZqYkVtakpPM043SDhUajl5bllrdHpPWVhnOXlCSFduRmR5YXpZdkJfN2NJT19XUzBiajZIdnR4akstd1RQbjQyYnY3MDg4",
-    "CBMikwFBVV95cUxNU1kyb1Q3ZERpUDQ0bnBHWE5tT3FsazVtZXF2Q2FJNVVBeHAwVGRLSzVXZFZ1LUtJaVR0UHhQejN3cndpT0VJSUVBN0tqNFhEemRKU2VUMUk5Y2pSTkZKU2hIRlZTemp4bjVOVTFYVDRraWY1elhHNEN1Y1g4eDRUTGdEbnF0OEtWUndFaGNfQmkyZWs"
+    "CBMikwFBVV95cUxNU1kyb1Q3ZERpUDQ0bnBHWE5tT3FsazVtZXF2Q2FJNVVBeHAwVGRLSzVXZFZ1LUtJaVR0UHhQejN3cndpT0VJSUVBN0tqNFhEemRKU2VUMUk5Y2pSTkZKU2hIRlZTemp4bjVOVTFYVDRraWY1elhHNEN1Y1g4eDRUTGdEbnF0OEtWUndFaGNfQmkyZWs",
+    "CBMiakFVX3lxTE12aklkXzFyWnVRTnhMUENwZHdCVEZNVzd4NDlJenRWUFZRR2phbGhBcTlkSFEyLVJfSGUyNnRGMjhMY1pPY1lmQVhpY0tnVU53Z3hrU3BaVUZqZXN3V3RfdTdzT2VlMEQyM2c"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 110,
+    "ai": 111,
     "staged": 5,
     "prio": 3,
     "lost": 0
