@@ -1,5 +1,6 @@
 {
   "seen": {
+    "eeee5814a87235b2": 1790275995.5337648,
     "b57b125a03f68bf8": 1790275930.1704273,
     "1887f290b193d899": 1790275929.787266,
     "dc1e7fa5b4a4c6a3": 1790275885.9861825,
@@ -2498,8 +2499,7 @@
     "d77daa5db450ece2": 1789754456.1632016,
     "ca99ef8255943d99": 1789754431.780041,
     "cc2ba236f75d3b26": 1789754387.878523,
-    "36590c1b7e100e7e": 1789754387.4332874,
-    "be99603a0ff735b9": 1789754387.429871
+    "36590c1b7e100e7e": 1789754387.4332874
   },
   "initialized": true,
   "v": 4,
@@ -4609,16 +4609,21 @@
       "source": "MMA Sucka",
       "ts": "2026-09-24T18:39:04+00:00",
       "cluster": "c0a874559ef"
+    },
+    {
+      "t": "Raul Rosas Jr. Targets Multi-Division UFC Titles Before Planned Retirement at Age 25",
+      "source": "MMA Sucka",
+      "ts": "2026-09-24T18:39:08+00:00",
+      "cluster": "c8c9c3e5a1f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    38
+    39
   ],
   "yt_eval": [
-    "e4c87685-81c3-3907-ad6d-c3845a63c2d4",
     "https://www.mmamania.com/?p=471475",
     "CBMimwFBVV95cUxPOUl1dEl2V21YdC0zTnJpZ3BXeHZJT3JQSnZjTGQ2MWpvOXlzaGpQS0FtRk5oMXNMcE5OeGVoNWYxZ1I1ZWVHMEo1dmVfaFE4V3JQNGF5aVprRHQzUlNra2xaLWlNb2JBOHJrSTQ4bDhuTmUwM3BuZ0pHUmU4UVFiRHpyZGRXQWxpVDB2bV9nUkdMcmdVcEd3dm9MRQ",
     "CBMi0gFBVV95cUxNVTUxRW5vN2lWWUJlSnNRaVFNSlVmUHIyLVJLNlJZV3NVa1JmQ1BlMXB1RW96eVlBVjBMREw3ZHZQM01ONTdPczBsUU8ydlA5dkd3RmkwNGdEZFZ1aTFjeUtVSC1sQVBXUks3enE1bUNGX3Z2bkljWXU2ZzJ1Z2E2M2VIamp3S2JkQlo4TlVqUWZyRjUxN0JBUjVhVFhVWGlPczhELXAtRWkxNXNMMFZFZlVWM1VNWjlhNXM4d2FRWERLUjlYMjU1V2hlSnNWajQtYWc",
@@ -6117,25 +6122,17 @@
     "CBMimwFBVV95cUxOV3FyX2dDOW12NGgwaURRd1RUSVdQdUtTUXdWekt6elhSbVkyZVQzbkdCcTV1Z3d1dm8yZnJCMnZyUUJwaFBjWU96VHJQblktQ0ozcHhBaHFhcEF3VTZ0eXA0S2N3TDFfUkE1MGJZbHRvbjZPYXcxc1FRSkNWQjY4SmcwVXVMU0FZci1vZ2prekVDb1NIZHN4RFJQOA",
     "CBMiiwFBVV95cUxPVi04LUFLYTFHUjl6UXdjMV83TmZWU1JSVXlIZGxWMks3dUZEREpEOFNfTF9ITWg4NElLTTY5ZGlVdlBRYS1GNkttYTRLd3ZZZFhoRDBVaGx4a3dOTEh3ZEJiTndYR255WndGSWFXd2VGWGxLYl9fWFhoQ3ZnNnZvX3JWUWtyaWZmcm5r",
     "https://bloodyelbow.com/?p=333547",
-    "CBMitAFBVV95cUxPdkZnQ0dXZ0ZHU0tIS1ZhMTJ6OHNyMTVmOWdna1RfSTlOaF9IaTFWXzlQUkpESTBGMGdRaXpscDBsZEVhQXZJQmlLV0x1R3RQRnljcjJiRjQtWGFxOTUtRUJmTVVndGZKbDJNRXRqMFQtSjhvanpCZ1Z5UVd5c3dHNFlCREJHWF9DcUR2ZWM1d2Z3SFVidlJtX3ZuYVRzTHRFb254RVBsVWFqanVweXo4UTg4Ync"
+    "CBMitAFBVV95cUxPdkZnQ0dXZ0ZHU0tIS1ZhMTJ6OHNyMTVmOWdna1RfSTlOaF9IaTFWXzlQUkpESTBGMGdRaXpscDBsZEVhQXZJQmlLV0x1R3RQRnljcjJiRjQtWGFxOTUtRUJmTVVndGZKbDJNRXRqMFQtSjhvanpCZ1Z5UVd5c3dHNFlCREJHWF9DcUR2ZWM1d2Z3SFVidlJtX3ZuYVRzTHRFb254RVBsVWFqanVweXo4UTg4Ync",
+    "CBMirwFBVV95cUxPeE4zVGdlbXdMeDZHT3dFRV9HNGNoWk9tX0lPaGRCbkNvQ1g3dEp3X2ZWUjlKazFpSHliUmVnelpHdWhhOTFzQTJ1RHhLbnZURDhXc09LN3p1dWRESUplbHVBZVkzZFRnbEM0cVM0QWdFWXZGSXpYQzlnSzVYSG1GUk96dURoR0xneldUV2xBWUxhU1BMc2ZTeE5KLS1ocktnNjcwMXRKUjYtTmFiRXhr"
   ],
   "daily": {
     "d": "2026-09-24",
     "ai": 120,
-    "staged": 5,
+    "staged": 6,
     "prio": 3,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-14T00:57:01.959914+00:00",
-      "t": "Islam Makhachev claims cheater Jon Jones is excluded from GOAT conversation",
-      "names": [
-        "makhachev",
-        "jones"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-14T05:56:57.544059+00:00",
       "t": "Alex Pereira calls his shot for Madison Square Garden comeback that he ‘deserves’",
@@ -6909,6 +6906,20 @@
         "till"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-24T18:53:15.535457+00:00",
+      "t": "Raul Rosas Jr. Targets Multi-Division UFC Titles Before Planned Retirement at Age 25",
+      "names": [
+        "rosas",
+        "targets",
+        "multi",
+        "division",
+        "titles",
+        "retirement",
+        "age"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -6981,7 +6992,8 @@
     "4a74ddff5d9a7329": 1790213091.9228594,
     "3892ca1ac0be0f79": 1790235187.3533049,
     "5d3b5e1561ff6cef": 1790256436.1722145,
-    "b2c89df352ffff83": 1790275336.77986
+    "b2c89df352ffff83": 1790275336.77986,
+    "eeee5814a87235b2": 1790275994.887191
   },
   "pinged_titles": [
     [
@@ -6998,6 +7010,19 @@
       [
         "romero",
         "till"
+      ]
+    ],
+    [
+      "Raul Rosas Jr. Targets Multi-Division UFC Titles Before Planned Retirement at Age 25",
+      1790275994.887191,
+      [
+        "age",
+        "division",
+        "multi",
+        "retirement",
+        "rosas",
+        "targets",
+        "titles"
       ]
     ]
   ]
