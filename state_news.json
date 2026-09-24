@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c93ed8532d98c49f": 1790275469.879867,
     "a92e01c03531a2a3": 1790275405.1531026,
     "8ff12ed59115829d": 1790275404.8584,
     "b2c89df352ffff83": 1790275337.179396,
@@ -2498,8 +2499,7 @@
     "91c94081cc42c5d9": 1789754258.0253487,
     "993292bd01316865": 1789754258.0043085,
     "71052c727a82f4cd": 1789754258.002762,
-    "a5fec613a4f62e8d": 1789754193.5860734,
-    "bec21b424255a9c5": 1789754193.3807032
+    "a5fec613a4f62e8d": 1789754193.5860734
   },
   "initialized": true,
   "v": 4,
@@ -4573,16 +4573,21 @@
       "source": "heavy.com",
       "ts": "2026-09-24T18:00:29+00:00",
       "cluster": "c430f6a037a"
+    },
+    {
+      "t": "Till And Romero Face Off Again Before BKFC 94",
+      "source": "boxingnews.com",
+      "ts": "2026-09-24T18:00:39+00:00",
+      "cluster": "c397c074222"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    29
+    30
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331488",
     "b8ab75d7-56e3-376b-bd97-93cb6b529742",
     "3e6422d6-73b0-3a53-8965-ca6571f3eefd",
     "471274bf-8bbb-3422-8a36-186e8ee28e62",
@@ -6081,11 +6086,12 @@
     "CBMijwFBVV95cUxPQ1F3SUprNzltUEc0bUFEeS14YmNUVFYzcWI3Sy03cFd6ZnlGbmF3VlM1bXJwUThxUm1tTlBWRGJmVE5ZTWZFQ3djN2tJeUFFYTJTN2c5a09VZ3NFTjY4WGpTMWw3QUtUbXNnYk1FU3ctZWYzcHFXOHVWZlhoWmJoU2dhWF81bjdYYlZxeWFvcw",
     "CBMiiwFBVV95cUxPMG01WnloYlhWYlR6T3BkVFA2ZmE0dFBEUzBfNmNxOWVia2xFRDZYV1REUnk0bWtkMkk3MGRTWi1mcEtMNDZqYkVtakpPM043SDhUajl5bllrdHpPWVhnOXlCSFduRmR5YXpZdkJfN2NJT19XUzBiajZIdnR4akstd1RQbjQyYnY3MDg4",
     "CBMikwFBVV95cUxNU1kyb1Q3ZERpUDQ0bnBHWE5tT3FsazVtZXF2Q2FJNVVBeHAwVGRLSzVXZFZ1LUtJaVR0UHhQejN3cndpT0VJSUVBN0tqNFhEemRKU2VUMUk5Y2pSTkZKU2hIRlZTemp4bjVOVTFYVDRraWY1elhHNEN1Y1g4eDRUTGdEbnF0OEtWUndFaGNfQmkyZWs",
-    "CBMiakFVX3lxTE12aklkXzFyWnVRTnhMUENwZHdCVEZNVzd4NDlJenRWUFZRR2phbGhBcTlkSFEyLVJfSGUyNnRGMjhMY1pPY1lmQVhpY0tnVU53Z3hrU3BaVUZqZXN3V3RfdTdzT2VlMEQyM2c"
+    "CBMiakFVX3lxTE12aklkXzFyWnVRTnhMUENwZHdCVEZNVzd4NDlJenRWUFZRR2phbGhBcTlkSFEyLVJfSGUyNnRGMjhMY1pPY1lmQVhpY0tnVU53Z3hrU3BaVUZqZXN3V3RfdTdzT2VlMEQyM2c",
+    "CBMiZ0FVX3lxTE9nRDlBeXoyNlZSVi1EMG5fTGVKWnhUUlRyM2ptWWdHb2trTUxvZGFQR18tT1NOUmlVdjBjeVZmUktwamJIdFpwV3R5NThxNGR0U3Z2d3dQQU9PT1pLRDczM1JWeXNVYkU"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 111,
+    "ai": 112,
     "staged": 5,
     "prio": 3,
     "lost": 0
