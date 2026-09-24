@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c171ceced9f780a7": 1790257299.0022037,
     "8ec97a92ec5bb2f5": 1790257233.232777,
     "01841b32daaaf802": 1790257208.0445077,
     "8bc455e1ce905766": 1790257207.0159614,
@@ -2498,8 +2499,7 @@
     "2c62beb07f68fb20": 1789740775.282003,
     "fb8fe91a3c74a6f4": 1789740585.204296,
     "a74789a1aaa24440": 1789740459.3260686,
-    "b6dfc29ee6f51b2c": 1789740393.797638,
-    "a925ff0cf9991dc2": 1789740142.6869256
+    "b6dfc29ee6f51b2c": 1789740393.797638
   },
   "initialized": true,
   "v": 4,
@@ -4705,16 +4705,21 @@
       "source": "Sportsnet.ca",
       "ts": "2026-09-24T13:38:00+00:00",
       "cluster": "c205f25d490"
+    },
+    {
+      "t": "High-Level Flyweight Bout Added to UFC Qatar",
+      "source": "heavy.com",
+      "ts": "2026-09-24T13:38:11+00:00",
+      "cluster": "c005acb1871"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T13",
-    20
+    21
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331439",
     "https://bloodyelbow.com/?p=331433",
     "c8287f0b-9c80-3e18-8ffd-4848b6bc586f",
     "https://bloodyelbow.com/?p=331447",
@@ -6213,11 +6218,12 @@
     "CBMigwFBVV95cUxNUHZfY2VYUUlRNG9FaU5CeXVITjhESllEVWszQWNZV3E3dlBnekRLV3hJYnBGVHo3bDRaUzdWVWpyREZLN0twS042cFlUQWlGS3ZSYXQyYllXR2RaYUl5WXFnTFh6VzdjN1FKajdjd0tJbzVxd1Y2NFd5TDR1dXlFenRlVQ",
     "CBMiugFBVV95cUxPNVZxMGkySUFEc2dsanhCemhrdUNldzVtTGxleWJ4LXk5ODNDcWF4Y3NldFM3QlVZUlFOeDRfUnYtYU1DdWVGV1QyQm5vcGhXcmtfVUlUUV91TGdCeWZxdWxkOFVtelZ6d2txN3Itc1hrUm0ybVplcExYWGhlZFZzaXFCZ05IeWN6LThYVmw2Z3hFVnNNQW41REpxNDZLUS1kQTYtcmNLX0RDSWdOZDdOTUhSVUVpWkpyWEE",
     "https://www.mmamania.com/474460/open-thread-september-23-2026-whats-your-opinion-on-tom-cruise",
-    "CBMikwFBVV95cUxPZjFtdEgxMFZtOHdleTBLWVpyWEp6empFOVVJSU56eEZOVGhuWkRkYnJLODNHdVZGMVFBTU03d0dNSkh6UnVyYUpkQTdqanJfOXNjZmEwR2E4ZVl5YTdJc3lwV1p4eUNPdWQ4SjE4Y1BkN2dvaDhxY1ppRGttakZ2a2pYZ2NfSWZfT0hnaTFGekRSUXM"
+    "CBMikwFBVV95cUxPZjFtdEgxMFZtOHdleTBLWVpyWEp6empFOVVJSU56eEZOVGhuWkRkYnJLODNHdVZGMVFBTU03d0dNSkh6UnVyYUpkQTdqanJfOXNjZmEwR2E4ZVl5YTdJc3lwV1p4eUNPdWQ4SjE4Y1BkN2dvaDhxY1ppRGttakZ2a2pYZ2NfSWZfT0hnaTFGekRSUXM",
+    "CBMidEFVX3lxTE1uZTRYejJCV2pCUFZUdVpBbHo5VG1uNXdvbFpSZjJyQndkd2RpelAxYzhxZ1VFS1pheGRjLVFGbTNxQnBQckEwRVVqV1U2bThKOS1DMmNCSHphLVI0Mm1sVkw3THNxU1UyN29LQVowMm14cktF"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 72,
+    "ai": 73,
     "staged": 3,
     "prio": 3,
     "lost": 0
