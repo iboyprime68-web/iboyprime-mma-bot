@@ -1,5 +1,6 @@
 {
   "seen": {
+    "061b05c727c0a2e0": 1790256362.366803,
     "0d120b3d39529b1d": 1790256338.789192,
     "0685690c033a16de": 1790256338.2440453,
     "3f5480a72b172cb9": 1790256338.2412164,
@@ -2498,8 +2499,7 @@
     "9a3681b4201f0dd9": 1789739229.3450534,
     "9560d694299476ee": 1789739229.325221,
     "24b14cdccc3260e4": 1789739229.3146718,
-    "c1b153a0b216a2b4": 1789739229.2833495,
-    "c3ecb892fdf3bb56": 1789739160.6618228
+    "c1b153a0b216a2b4": 1789739229.2833495
   },
   "initialized": true,
   "v": 4,
@@ -4615,16 +4615,21 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T12:02:58+00:00",
       "cluster": "c017854e4dc"
+    },
+    {
+      "t": "Dana White’s role in Fury vs Joshua confirmed in official date and venue announcement",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-24T12:05:32+00:00",
+      "cluster": "ccab8318466"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T13",
-    4
+    5
   ],
   "yt_eval": [
-    "fa0eb881-ac8c-3b55-a0b9-5d19e74fa185",
     "08febb44-a1b3-3255-8b24-dca919f048b7",
     "4607437f-1ef5-3e4d-ad2b-2ff203c0bf7a",
     "51f008bb-b2a7-33d1-8659-64b934855800",
@@ -6123,11 +6128,12 @@
     "https://www.mmafighting.com/?p=512018",
     "https://www.mmafighting.com/511643/dnp-morning-report-template-dnp",
     "https://bloodyelbow.com/?p=333391",
-    "f5b1d4c6-20db-369a-9894-21c4029c0fb1"
+    "f5b1d4c6-20db-369a-9894-21c4029c0fb1",
+    "https://bloodyelbow.com/?p=333429"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 56,
+    "ai": 57,
     "staged": 2,
     "prio": 3,
     "lost": 0
