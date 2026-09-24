@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5016d654a32cf7cc": 1790235163.8509228,
     "6185fe9793c8ea9c": 1790235097.697848,
     "29aab7703f5123b9": 1790235052.6021419,
     "a339bf3847743923": 1790235052.2138288,
@@ -2498,8 +2499,7 @@
     "91bd75d4d0906d54": 1789722313.6187108,
     "bc25a1d0eba13433": 1789722313.2767272,
     "151942d37c533dda": 1789722247.9974527,
-    "91e05f1040ec8857": 1789722182.8134327,
-    "3eb76844599839a5": 1789722182.577404
+    "91e05f1040ec8857": 1789722182.8134327
   },
   "initialized": true,
   "v": 4,
@@ -4639,16 +4639,21 @@
       "source": "Cageside Press",
       "ts": "2026-09-24T06:52:28+00:00",
       "cluster": "c351c1cc4bb"
+    },
+    {
+      "t": "Mauricio Ruffy Claims Arman Tsarukyan Saved Himself From a Round 2 Knockout",
+      "source": "mmasucka.com",
+      "ts": "2026-09-24T06:53:35+00:00",
+      "cluster": "ce5a1b6cb3e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T07",
-    9
+    10
   ],
   "yt_eval": [
-    "6ab690f0-f547-35ca-9b1d-35ceb771b1df",
     "https://www.mmafighting.com/?p=509992",
     "87ac77b8-04be-3c7a-a99a-bc37d04008c9",
     "https://www.mmafighting.com/?p=510004",
@@ -6147,11 +6152,12 @@
     "978c07f6-7b37-3825-baa7-66e0b07d1539",
     "400ef0eb-38d2-3078-ad6d-53ad5398cd4c",
     "https://www.mmamania.com/474413/mm-clone",
-    "CBMihAFBVV95cUxNRUFZSXJ4ZWZlbXdIc2hzVG9mbFB5d0lUUW80ek9ja1pUR3h1ZG5yRzFEeEVGMTg5aUdfeGp4blIzVi1PNlA1c0lZWkYtUG5aSTNvUDUzaF9pYlhlSzdJWHlfZ0pzLUNwTjJ5RVhUUmdRUTBtcXAtZ3pFUFp6ekJSYTJyU1A"
+    "CBMihAFBVV95cUxNRUFZSXJ4ZWZlbXdIc2hzVG9mbFB5d0lUUW80ek9ja1pUR3h1ZG5yRzFEeEVGMTg5aUdfeGp4blIzVi1PNlA1c0lZWkYtUG5aSTNvUDUzaF9pYlhlSzdJWHlfZ0pzLUNwTjJ5RVhUUmdRUTBtcXAtZ3pFUFp6ekJSYTJyU1A",
+    "CBMiowFBVV95cUxQX25pTjlCRl91ei1ENDIwVHZQLWZNVzlOWjhhZVN5WjJuY1pqdjJKY0pzRnZZZFJwbUE2N3dnZENWLVI4UVZEdE9MTkdtS3BHRndsYlNrRzFGZlpaTEtYN05nQThXSmh4SUxoUHFIcXp4RURUXzF3MGJpdUFSUWFGZGJkajh5dW9tSE9zc1g3bEtXOEFhTEVrRWlDTFlIT2gtMDhZ"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 31,
+    "ai": 32,
     "staged": 2,
     "prio": 1,
     "lost": 0
