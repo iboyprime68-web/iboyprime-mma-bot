@@ -1,5 +1,7 @@
 {
   "seen": {
+    "19f73f6443897806": 1790275603.0025208,
+    "f9e70129ebc0e29b": 1790275599.2981968,
     "7a774a245f547d57": 1790275534.5981197,
     "c93ed8532d98c49f": 1790275469.879867,
     "a92e01c03531a2a3": 1790275405.1531026,
@@ -2497,9 +2499,7 @@
     "82da244fd45cf9a3": 1789754258.284583,
     "87b6df8b0fbedeae": 1789754258.0371578,
     "7f4ab03f327eec22": 1789754258.0300765,
-    "91c94081cc42c5d9": 1789754258.0253487,
-    "993292bd01316865": 1789754258.0043085,
-    "71052c727a82f4cd": 1789754258.002762
+    "91c94081cc42c5d9": 1789754258.0253487
   },
   "initialized": true,
   "v": 4,
@@ -4579,16 +4579,21 @@
       "source": "boxingnews.com",
       "ts": "2026-09-24T18:00:48+00:00",
       "cluster": "cb82703fd7c"
+    },
+    {
+      "t": "Henry Cejudo warns Arman Tsarukyan against bringing streamers into corner for potential Justin Gaethje fight",
+      "source": "MMA Sucka",
+      "ts": "2026-09-24T18:02:10+00:00",
+      "cluster": "c4f587b7752"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-24T18",
-    31
+    32
   ],
   "yt_eval": [
-    "3e6422d6-73b0-3a53-8965-ca6571f3eefd",
     "471274bf-8bbb-3422-8a36-186e8ee28e62",
     "https://www.mmamania.com/?p=472175",
     "d1578fa2-c013-36b0-8688-52dbcca08ee3",
@@ -6087,11 +6092,12 @@
     "CBMikwFBVV95cUxNU1kyb1Q3ZERpUDQ0bnBHWE5tT3FsazVtZXF2Q2FJNVVBeHAwVGRLSzVXZFZ1LUtJaVR0UHhQejN3cndpT0VJSUVBN0tqNFhEemRKU2VUMUk5Y2pSTkZKU2hIRlZTemp4bjVOVTFYVDRraWY1elhHNEN1Y1g4eDRUTGdEbnF0OEtWUndFaGNfQmkyZWs",
     "CBMiakFVX3lxTE12aklkXzFyWnVRTnhMUENwZHdCVEZNVzd4NDlJenRWUFZRR2phbGhBcTlkSFEyLVJfSGUyNnRGMjhMY1pPY1lmQVhpY0tnVU53Z3hrU3BaVUZqZXN3V3RfdTdzT2VlMEQyM2c",
     "CBMiZ0FVX3lxTE9nRDlBeXoyNlZSVi1EMG5fTGVKWnhUUlRyM2ptWWdHb2trTUxvZGFQR18tT1NOUmlVdjBjeVZmUktwamJIdFpwV3R5NThxNGR0U3Z2d3dQQU9PT1pLRDczM1JWeXNVYkU",
-    "CBMidkFVX3lxTFBPeldObXlRSzZlRkItWk4xT3dwb2RYbndkN2NWY1pYYU03dGJUUjV1ZnpHSXFZM2pZM2hzaHpQSm1MS3ZySnphLWJsODNUZFE4cTJvLUtaU3puM2EzT1phT1I5azFZeExfNVpUV280THE2ZEs3TGc"
+    "CBMidkFVX3lxTFBPeldObXlRSzZlRkItWk4xT3dwb2RYbndkN2NWY1pYYU03dGJUUjV1ZnpHSXFZM2pZM2hzaHpQSm1MS3ZySnphLWJsODNUZFE4cTJvLUtaU3puM2EzT1phT1I5azFZeExfNVpUV280THE2ZEs3TGc",
+    "CBMixgFBVV95cUxQdE9RZ0g5Nk8yVmt5MkJYcHRoOGx5WDdQN3A0MUpndkM4am9FNEFBaEFIdUV5TWZMdWlRajRHal9rQXlNQ0drcE5uUkdSYnY1Qkg1ZUtOMzRvQldpLU1jMUVOMjJXOTBoQmo2ajZ2OGxmUWtLemxacXFiV0FCN3F6Nmg5YkRKa3NaT3BmRldONzlnVTc3ZGxCMEh1ZXFfTExKWkN6cUpJY1p0cV9QUmFvTzdXMkloREJNQ2ZNeU5NNndhbTVOM1E"
   ],
   "daily": {
     "d": "2026-09-24",
-    "ai": 113,
+    "ai": 114,
     "staged": 5,
     "prio": 3,
     "lost": 0
