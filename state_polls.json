@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 19,
   "staged_at": [
-    "2026-09-22T14:04:25.770600+00:00",
     "2026-09-22T19:46:41.569921+00:00",
     "2026-09-23T14:16:52.731979+00:00",
-    "2026-09-23T19:43:02.518580+00:00"
+    "2026-09-23T19:43:02.518580+00:00",
+    "2026-09-24T14:15:20.485179+00:00"
   ],
   "asked": [
-    "Who is the most impressive UFC debut of the last five years?",
     "Who deserves an immediate rematch after losing their title?",
     "Who is the greatest UFC featherweight of all time?",
     "Who is the most impressive UFC Paris finisher this weekend?",
@@ -47,23 +46,24 @@
     "Who is the most complete heavyweight in the UFC right now?",
     "Who is the most dangerous striker in the UFC right now?",
     "Who is the most boring UFC champion in history?",
-    "Oblique kicks are in the news again. What should the UFC do about them?"
+    "Oblique kicks are in the news again. What should the UFC do about them?",
+    "What is the worst accusation a fighter can throw at another fighter?"
   ],
   "last_entry": {
-    "q": "Oblique kicks are in the news again. What should the UFC do about them?",
+    "q": "What is the worst accusation a fighter can throw at another fighter?",
     "type": "poll",
     "options": [
       {
-        "label": "Ban them",
-        "emoji": "🚫"
+        "label": "Loaded gloves",
+        "emoji": "🧤"
       },
       {
-        "label": "Keep them",
-        "emoji": "✅"
+        "label": "Greasing",
+        "emoji": "🛢️"
       },
       {
-        "label": "Only to the thigh",
-        "emoji": "🦵"
+        "label": "Faking injury",
+        "emoji": "🤕"
       },
       {
         "label": "Other (comment below)",
