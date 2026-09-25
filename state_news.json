@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0bdaefafbc5ca5ad": 1790360811.9230099,
     "5f76e5b1b86592e0": 1790360787.9430268,
     "f6806c3f9457b32f": 1790360765.4195347,
     "977ca2b4e875d152": 1790360741.9322948,
@@ -2498,8 +2499,7 @@
     "9dc2b4d42b2b2126": 1789835048.285584,
     "2a0f32794714e3ba": 1789835004.1582592,
     "0930abd2eb5f3db5": 1789835003.8793318,
-    "5e178a6987cf4774": 1789835003.878118,
-    "138c12dd86f682e2": 1789834939.4482524
+    "5e178a6987cf4774": 1789835003.878118
   },
   "initialized": true,
   "v": 4,
@@ -4573,13 +4573,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-25T18:25:59+00:00",
       "cluster": "c984494d856"
+    },
+    {
+      "t": "Randy Brown vs. Carlos Leal joins UFC Fight Night 292 lineup",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T15:36:04+00:00",
+      "cluster": "c2881b18256"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T18",
-    13
+    14
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-may-step-away-from-UFC-if-yearend-fight-falls-through-202798",
