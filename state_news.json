@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d35f52447e5b86f1": 1790362858.483584,
     "5441e62838c8c3c8": 1790362835.633333,
     "aab821c1b2fed78d": 1790362811.969682,
     "4ab41a5068fa17e0": 1790362644.052845,
@@ -2498,8 +2499,7 @@
     "9d25bfada429f75e": 1789845860.4516385,
     "7547b83b67bc27b7": 1789845791.1610339,
     "e08e293a871a41b0": 1789845725.4617887,
-    "92bf57788695d481": 1789845725.162948,
-    "4751e87eeb2018a4": 1789845660.0020728
+    "92bf57788695d481": 1789845725.162948
   },
   "initialized": true,
   "v": 4,
@@ -4705,13 +4705,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-25T19:00:00+00:00",
       "cluster": "c84c88139ba"
+    },
+    {
+      "t": "Darren Till warns Yoel Romero ‘this is gladiator sh*t’ after fun final BKFC 94 faceoff",
+      "source": "MMA Fighting",
+      "ts": "2026-09-25T18:22:12+00:00",
+      "cluster": "ce3f745091b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T19",
-    1
+    2
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510244",
