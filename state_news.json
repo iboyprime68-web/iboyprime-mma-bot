@@ -1,5 +1,6 @@
 {
   "seen": {
+    "47ea55189edc4e64": 1790321942.4426408,
     "d463a084e5eae3da": 1790321875.5494637,
     "6df06837c77cc02b": 1790321875.1407266,
     "2a968f813dcc07a4": 1790321875.107229,
@@ -2498,8 +2499,7 @@
     "5de23ec52cdbc2c5": 1789790710.3236046,
     "984a76b2b77798d9": 1789790709.9816842,
     "ec16aa1ba66890df": 1789790709.974195,
-    "03e896f0387c9951": 1789790645.5654597,
-    "8603a07a0d772286": 1789790645.2053337
+    "03e896f0387c9951": 1789790645.5654597
   },
   "initialized": true,
   "v": 4,
@@ -4573,13 +4573,19 @@
       "source": "Sherdog",
       "ts": "2026-09-25T03:49:47+00:00",
       "cluster": "c0232adf2a2"
+    },
+    {
+      "t": "Mikey Musumeci beats Bryce Mitchell, wants more MMA grappling opponents",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T05:17:37+00:00",
+      "cluster": "c9c53823a06"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T07",
-    19
+    20
   ],
   "yt_eval": [
     "https://www.mmafighting.com/508407/dnp-morning-report-template-dnp",
