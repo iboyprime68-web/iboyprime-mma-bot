@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2450373cb6908440": 1790322076.3954182,
     "7857a98da7062360": 1790322009.5028121,
     "47ea55189edc4e64": 1790321942.4426408,
     "d463a084e5eae3da": 1790321875.5494637,
@@ -2498,8 +2499,7 @@
     "eb9b97f65e2f05b7": 1789790899.6855779,
     "0a0e41d76485fa32": 1789790774.5266557,
     "5de23ec52cdbc2c5": 1789790710.3236046,
-    "984a76b2b77798d9": 1789790709.9816842,
-    "ec16aa1ba66890df": 1789790709.974195
+    "984a76b2b77798d9": 1789790709.9816842
   },
   "initialized": true,
   "v": 4,
@@ -4585,13 +4585,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T05:21:14+00:00",
       "cluster": "c154db6c5cc"
+    },
+    {
+      "t": "Sean Sharaf was inspired by Jon Jones and Conor McGregor to use psychological warfare against Gable Steveson",
+      "source": "Sportskeeda",
+      "ts": "2026-09-25T06:46:00+00:00",
+      "cluster": "c62b80a569c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T07",
-    21
+    22
   ],
   "yt_eval": [
     "e5dbbc40-7d86-3bc7-a721-7f567c7e35ed",
