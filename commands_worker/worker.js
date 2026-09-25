@@ -930,6 +930,9 @@ const STUDIO_CSP = [
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src https://fonts.gstatic.com data:",
   "script-src 'self' 'unsafe-inline'",
+  // the templates page grades its heroes in Web Workers built from a blob of its own library
+  // source (poster_page.js workerSource); nothing else may start a worker
+  "worker-src blob:",
   "connect-src 'self' " + DISCORD_CDN_SRC,
   "form-action 'self'",
   "base-uri 'none'",
@@ -1634,6 +1637,17 @@ function ufcSlugName(slug) {
   return String(slug || "").split("-").filter(Boolean)
     .map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
 }
+// an opponent's name from an image's alt text: ufc.com sometimes writes "Fighter portrait of
+// Aljamain Sterling", which printed verbatim on the auto-filled posters. The caption words are
+// stripped; anything that still does not look like a name falls back to the athlete slug.
+function ufcAltName(alt, slug) {
+  let s = String(alt || "").replace(/^\s*(?:fighter\s+|athlete\s+)?(?:portrait|photo|headshot|image|picture)\s+of\s+/i, "").trim();
+  s = s.replace(/\s*(?:headshot|portrait|photo)\s*$/i, "").trim();
+  const words = s.split(/\s+/).filter(Boolean);
+  const looksLikeName = words.length >= 1 && words.length <= 5 && s.length <= 60 && !/[0-9@#<>|]/.test(s)
+    && !/\b(?:portrait|photo|headshot|fighter|image|picture|of)\b/i.test(s);
+  return looksLikeName ? s : ufcSlugName(slug);
+}
 // "https://ufc.com/images/styles/<style>/s3/2025-01/5/X_L.png?itok=abc" -> { p, k } | null
 function ufcImg(src) {
   let s = String(src || "").trim(), k = "";
@@ -1710,7 +1724,7 @@ function parseUfcFights(html, slug) {
     while ((m = rRe.exec(c))) res[ufcText(m[1]).toLowerCase()] = ufcText(m[2]);
     const ev = /href="https:\/\/www\.ufc\.com\/event\/([a-z0-9-]{1,100})/.exec(c);
     out.push({
-      opp: opp.alt || ufcSlugName(opp.slug), oppSlug: opp.slug,
+      opp: ufcAltName(opp.alt, opp.slug), oppSlug: opp.slug,
       oppHead: ufcImgRoute(ufcOriginal(opp.img)), oppHeadSmall: ufcImgRoute(opp.img),
       myHead: ufcImgRoute(ufcOriginal(me.img)),
       result: ufcResult(me.res), method: res.method || "", round: res.round || "",
@@ -1780,7 +1794,16 @@ function parseUfcEvent(html, slug) {
       const im = new RegExp("corner-image--" + side + '">[\\s\\S]{0,300}?href="https://www\\.ufc\\.com/athlete/([a-z0-9-]{1,80})"[\\s\\S]{0,400}?<img src="([^"]{1,400})"').exec(part);
       const nm = new RegExp("corner-name--" + side + '">[\\s\\S]{0,300}?given-name">([^<]{0,60})</span>\\s*<span class="c-listing-fight__corner-family-name">([^<]{0,60})<').exec(part);
       const img = im ? ufcImg(im[2]) : null;
-      return { slug: im ? im[1] : "", first: nm ? ufcText(nm[1]) : "", last: nm ? ufcText(nm[2]) : "",
+      let first = nm ? ufcText(nm[1]) : "", last = nm ? ufcText(nm[2]) : "";
+      if (!nm) {
+        // ufc.com sometimes writes the corner name as plain link text with no given / family spans
+        // (<a href=".../khaos-williams">Khaos Williams</a>): split it on the last space
+        const pl = new RegExp("corner-name--" + side + '">\\s*<a[^>]{0,300}>([^<]{1,80})</a>').exec(part);
+        const full = pl ? ufcText(pl[1]) : "";
+        if (full) { const i = full.lastIndexOf(" "); first = i > 0 ? full.slice(0, i) : ""; last = i > 0 ? full.slice(i + 1) : full; }
+      }
+      if (!last && im) { const sn = ufcSlugName(im[1]), i = sn.lastIndexOf(" "); first = i > 0 ? sn.slice(0, i) : ""; last = i > 0 ? sn.slice(i + 1) : sn; }
+      return { slug: im ? im[1] : "", first, last,
                img: ufcImgRoute(ufcOriginal(img)), imgSmall: ufcImgRoute(img), face: img ? ufcFace(img.p) : "" };
     };
     const rr = part.indexOf("c-listing-fight__ranks-row");
@@ -2003,7 +2026,18 @@ const GEN_SETUP = "One-tap images need a Vertex AI key on the Worker. Run SETUP_
 const BUDGET_CAPS = Object.freeze({
   gen: Object.freeze({ day: 60, hour: 25 }),    // tiles: a two-poll day is about ten, retries included
   ai: Object.freeze({ day: 200, hour: 60 }),    // line and picture-idea suggestions
+  // background removals (/studio/api/cutout and its probe). Not money: Cloudflare's
+  // Free plan allows 5,000 unique transformations a month and then REFUSES new ones
+  // (code 9422), so 100 a day keeps a runaway page from spending the month in an
+  // afternoon and leaving the owner without cut-outs until the 1st.
+  cut: Object.freeze({ day: 100, hour: 30 }),
+  // the key-gated live probe has its OWN small counter. Sharing "cut" let NEWS_PROBE_KEY
+  // alone (no studio session) lock the owner out of his cut-outs for an hour with 30 calls
+  // (pre-deploy review, Sept 25 2026). The probe cuts ONE pinned photo, which Cloudflare bills
+  // once a month however often it runs, so this counter only has to stop it being hammered.
+  cutprobe: Object.freeze({ day: 6, hour: 3 }),
 });
+const BUDGET_WHAT = Object.freeze({ gen: "image", ai: "AI help", cut: "cut-out", cutprobe: "cut-out probe" });
 const HOUR_MS = 3600000;
 function budgetNum(v, d) {
   const n = Number(v);
@@ -2084,7 +2118,7 @@ function budgetRefusal(kind, b) {
   if (b.unavailable) {
     return studioJson({ error: "The spend counter is unavailable, so nothing was spent. Try again in a minute." }, 503);
   }
-  const what = kind === "gen" ? "image" : "AI help";
+  const what = own(BUDGET_WHAT, kind) || "AI help";
   const hourly = b.hourUsed != null && b.hourCap != null && b.hourUsed >= b.hourCap;
   const msg = hourly
     ? "The hourly " + what + " limit (" + b.hourCap + ") is reached. Try again later this hour."
@@ -2133,6 +2167,315 @@ async function studioGen(request, env, url) {
   // error behind a blank reload.
   return new Response(r.body, { status: r.status === 401 ? 502 : r.status, headers: {
     "content-type": "application/json; charset=utf-8", ...STUDIO_HEADERS } });
+}
+
+// ---------- /studio: background removal (cut-outs) ----------
+// POST /studio/api/cutout   body: the RAW image bytes (not JSON, not a form)
+//   -> image/png with the background made transparent, or JSON { error }.
+//
+// THE ENGINE. Cloudflare's own segmentation: the Images binding (env.IMAGES, the
+// [images] block in wrangler.toml) with transform({ segment: "foreground" }), which
+// runs the open BiRefNet model on Workers AI. Checked Sept 25 2026: Cloudflare's
+// features page documents `segment` ("Accepts foreground"), its Aug 28 2025
+// announcement calls it an open beta "to all Cloudflare users on Free and Paid
+// plans" and shows it on the binding (.transform({segment: "foreground"})), and
+// @cloudflare/workers-types 5.20260925.1 types ImageTransform.segment as
+// "foreground". Billing is per UNIQUE transformation (one source image with one set
+// of options counts once a calendar month); the Free plan allows 5,000 a month and
+// past that NEW transformations fail with code 9422 and nothing is charged.
+//
+// NO fetch() FALLBACK. fetch(url, { cf: { image: { segment } } }) transforms an
+// image that lives at a URL. An upload has no URL, and giving it one would mean
+// serving the owner's photo from a route with no session gate. So without the
+// binding this route is a plain 503, and says so.
+//
+// The checks run in this order, and the order is the point:
+//   1. the binding exists           (503: nothing read, nothing spent)
+//   2. at most CUT_BYTES_MAX bytes, counted WHILE READING. A declared
+//      content-length is only the client's word: an honest one over the cap is
+//      refused before a byte is read, and a missing or lying one is still cut off
+//      at the cap (readCapped cancels the stream there).
+//   3. a raster the model can take, by MAGIC NUMBER (cutType): JPEG, PNG, WebP,
+//      AVIF. Never SVG, HTML or anything else - the content-type header is the
+//      client's word, the first bytes are the file's.
+//   4. the spend counter (StudioBudget, kind "cut"). Only a request known good is
+//      counted, exactly like the image generator, and a counter that cannot answer
+//      REFUSES (budgetCall).
+//   5. the transform. A thrown error is a 502 with a fixed sentence and the
+//      binding's numeric code - never e.message, never a stack.
+// The answer is a PNG under the same sandbox CSP and nosniff as every relayed image,
+// and private, no-store: a cut-out of the owner's upload is his, and no cache on the
+// way should keep a copy of it.
+const CUT_BYTES_MAX = 10 * 1024 * 1024;
+const CUT_TYPES = Object.freeze(["image/jpeg", "image/png", "image/webp", "image/avif"]);
+const CUT_HEADERS = Object.freeze({
+  "content-type": "image/png",
+  "content-security-policy": "default-src 'none'; sandbox",
+  "cache-control": "private, no-store",
+  "x-content-type-options": "nosniff",
+  "referrer-policy": "no-referrer",
+});
+const CUT_SETUP = 'Background removal needs the Images binding on the Worker: [images] binding = "IMAGES" '
+  + "in wrangler.toml, then a Worker deploy.";
+function cutAscii(b, s, e) {
+  let out = "";
+  for (let i = s; i < e && i < b.length; i++) out += String.fromCharCode(b[i]);
+  return out;
+}
+function cutU32(b, i) { return ((b[i] << 24) | (b[i + 1] << 16) | (b[i + 2] << 8) | b[i + 3]) >>> 0; }
+// PURE: the first bytes of a file -> one of CUT_TYPES, or null. The magic numbers:
+// JPEG FF D8 FF; PNG 89 "PNG" 0D 0A 1A 0A; WebP "RIFF" <size> "WEBP"; AVIF an ISO-BMFF
+// "ftyp" box naming avif (still) or avis (sequence) as its major or a compatible brand.
+// HEIC is the same box with other brands, and stays out.
+function cutType(b) {
+  if (!b || typeof b.length !== "number" || b.length < 12) return null;
+  if (b[0] === 0xFF && b[1] === 0xD8 && b[2] === 0xFF) return "image/jpeg";
+  if (b[0] === 0x89 && cutAscii(b, 1, 4) === "PNG" && b[4] === 0x0D && b[5] === 0x0A
+      && b[6] === 0x1A && b[7] === 0x0A) return "image/png";
+  if (cutAscii(b, 0, 4) === "RIFF" && cutAscii(b, 8, 12) === "WEBP") return "image/webp";
+  if (cutAscii(b, 4, 8) === "ftyp") {
+    const size = cutU32(b, 0);
+    const end = Math.min(b.length, (size >= 16 && size <= 4096) ? size : 16);
+    for (let i = 8; i + 4 <= end; i += 4) {
+      if (i === 12) continue;                          // the minor version, not a brand
+      const brand = cutAscii(b, i, i + 4);
+      if (brand === "avif" || brand === "avis") return "image/avif";
+    }
+  }
+  return null;
+}
+// Read a body stream up to `max` bytes. -> { bytes } | { tooLarge: true } | { error: true }.
+// Counts what actually arrives, so a missing or false content-length changes nothing,
+// and cancels the stream the moment the cap is passed rather than buffering the rest.
+async function readCapped(body, max) {
+  if (!body || typeof body.getReader !== "function") return { bytes: new Uint8Array(0) };
+  const reader = body.getReader();
+  const chunks = [];
+  let total = 0;
+  try {
+    for (;;) {
+      const step = await reader.read();
+      if (step.done) break;
+      const v = step.value;
+      const c = v instanceof Uint8Array ? v : new Uint8Array(v);
+      total += c.byteLength;
+      if (total > max) {
+        try { await reader.cancel(); } catch (e) { /* already closed */ }
+        return { tooLarge: true };
+      }
+      chunks.push(c);
+    }
+  } catch (e) {
+    return { error: true };
+  }
+  const out = new Uint8Array(total);
+  let o = 0;
+  for (const c of chunks) { out.set(c, o); o += c.byteLength; }
+  return { bytes: out };
+}
+function cutoutConfigured(env) {
+  return !!(env && env.IMAGES && typeof env.IMAGES.input === "function");
+}
+// The binding call. -> { out, type } on success, { code } (a number or null) on failure.
+// `type` is the reply's content type; the caller refuses anything that is not a PNG.
+async function cutoutRun(env, bytes) {
+  try {
+    const out = await env.IMAGES.input(new Response(bytes).body)
+      .transform({ segment: "foreground" })
+      .output({ format: "image/png" });
+    const type = String((out && typeof out.contentType === "function") ? out.contentType() : "")
+      .split(";")[0].trim().toLowerCase();
+    return { out, type };
+  } catch (e) {
+    const c = e && typeof e === "object" ? Number(e.code) : NaN;
+    return { failed: true, code: (Number.isInteger(c) && c > 0 && c < 100000) ? c : null };
+  }
+}
+function cutoutStream(out) {
+  if (out && typeof out.image === "function") return out.image();
+  return out.response().body;
+}
+// A binding failure, in words the owner can act on. Only the numeric code is passed
+// through; the error's own message and stack never leave the Worker.
+function cutoutFailure(code, inType) {
+  let msg = "Cloudflare could not cut this photo out. Try another photo, or try again later.";
+  if (code === 9422) {
+    msg = "This month's free Cloudflare background removals (5,000) are used up. They come back on the 1st.";
+  } else if (code === 9412) {
+    msg = "Cloudflare could not read that file as an image.";
+  } else if (inType === "image/avif") {
+    msg = "Cloudflare could not cut this AVIF out; its docs list AVIF input as an Enterprise plan feature. "
+        + "Save the photo as JPEG, PNG or WebP and try again.";
+  }
+  return studioJson({ error: msg, code: code }, 502);
+}
+async function studioCutout(request, env) {
+  if (!cutoutConfigured(env)) return studioJson({ error: "cutout not configured", setup: CUT_SETUP }, 503);
+  const declared = Number(request.headers.get("content-length") || 0);
+  if (declared > CUT_BYTES_MAX) return studioJson({ error: "That photo is over 10 MB." }, 413);
+  const got = await readCapped(request.body, CUT_BYTES_MAX);
+  if (got.tooLarge) return studioJson({ error: "That photo is over 10 MB." }, 413);
+  if (got.error || !got.bytes || !got.bytes.length) {
+    return studioJson({ error: "Send the photo's bytes as the request body." }, 400);
+  }
+  const inType = cutType(got.bytes);
+  if (!inType) return studioJson({ error: "Only JPEG, PNG, WebP or AVIF photos can be cut out." }, 415);
+  // counted only once the request is known good, and before the model runs
+  const b = await budgetCall(env, "cut", true);
+  if (!b.ok) return budgetRefusal("cut", b);
+  const run = await cutoutRun(env, got.bytes);
+  if (run.failed) return cutoutFailure(run.code, inType);
+  if (run.type !== "image/png") return studioJson({ error: "The cut-out came back in the wrong format." }, 502);
+  let stream = null;
+  try { stream = cutoutStream(run.out); } catch (e) { stream = null; }
+  if (!stream) return studioJson({ error: "The cut-out came back empty." }, 502);
+  return new Response(stream, { status: 200, headers: CUT_HEADERS });
+}
+
+// PURE: a PNG's header facts, or null. Walks chunk headers only (never inflates),
+// so it costs microseconds on a multi-megabyte file. alpha = the file can carry
+// transparency: colour type 4 (grey + alpha) or 6 (RGBA), or a tRNS chunk.
+function pngInfo(b) {
+  if (cutType(b) !== "image/png" || b.length < 33 || cutAscii(b, 12, 16) !== "IHDR") return null;
+  const info = { width: cutU32(b, 16), height: cutU32(b, 20), bitDepth: b[24], colorType: b[25],
+                 interlace: b[28], trns: false, idat: [] };
+  let p = 8;
+  for (let n = 0; p + 8 <= b.length && n < 20000; n++) {
+    const len = cutU32(b, p), type = cutAscii(b, p + 4, p + 8);
+    const start = p + 8, end = start + len;
+    if (end + 4 > b.length) break;
+    if (type === "tRNS") info.trns = true;
+    else if (type === "IDAT") info.idat.push([start, end]);
+    else if (type === "IEND") break;
+    p = end + 4;
+  }
+  info.alpha = info.colorType === 4 || info.colorType === 6 || info.trns;
+  return info;
+}
+// The share of the TOP ROW's pixels that are not fully opaque, 0..1, or null when it
+// cannot be read cheaply (not 8-bit RGBA / grey+alpha, interlaced, no inflater). The
+// probe photo's top row is all crowd, so after a real segmentation it is mostly
+// clear; an alpha channel alone could be an encoder habit, a clear top row cannot.
+// Only the start of the zlib stream is inflated (row 0 is width*4+1 bytes), and
+// row 0's filters need no previous row: Up adds zero, and Paeth with an all-zero row
+// above reduces to Sub.
+async function pngTopRowClear(b, info) {
+  if (!info || info.interlace !== 0 || info.bitDepth !== 8 || (info.colorType !== 6 && info.colorType !== 4)) return null;
+  if (typeof DecompressionStream !== "function" || !info.idat.length || !info.width) return null;
+  const bpp = info.colorType === 6 ? 4 : 2;
+  const need = info.width * bpp + 1;
+  if (need > 4 * 1024 * 1024) return null;
+  const parts = [];
+  let have = 0;
+  for (const [s, e] of info.idat) {
+    if (have >= 262144) break;
+    parts.push(b.subarray(s, e));
+    have += e - s;
+  }
+  const whole = parts.length === info.idat.length;
+  const ds = new DecompressionStream("deflate");
+  const w = ds.writable.getWriter();
+  const rd = ds.readable.getReader();
+  const feeding = (async () => {
+    for (const part of parts) await w.write(part);
+    if (whole) await w.close();
+  })().catch(() => {});
+  const row = new Uint8Array(need);
+  let got = 0;
+  const reading = (async () => {
+    while (got < need) {
+      const step = await rd.read();
+      if (step.done || !step.value) break;
+      const n = Math.min(step.value.length, need - got);
+      row.set(step.value.subarray(0, n), got);
+      got += n;
+    }
+  })().catch(() => { got = -1; });
+  let timer = null;
+  await Promise.race([reading, new Promise(r => { timer = setTimeout(r, 2000); })]);
+  if (timer) clearTimeout(timer);
+  try { await rd.cancel(); } catch (e) { /* done */ }
+  try { await w.abort(); } catch (e) { /* done */ }
+  await feeding;
+  if (got < need) return null;
+  const filter = row[0];
+  if (filter > 4) return null;
+  const px = row.subarray(1);
+  for (let i = 0; i < px.length; i++) {
+    const left = i >= bpp ? px[i - bpp] : 0;
+    if (filter === 1 || filter === 4) px[i] = (px[i] + left) & 255;
+    else if (filter === 3) px[i] = (px[i] + (left >> 1)) & 255;
+  }
+  let clear = 0;
+  for (let i = bpp - 1; i < px.length; i += bpp) if (px[i] < 255) clear++;
+  return Math.round((clear / info.width) * 1000) / 1000;
+}
+
+/* ---------- /studio/api/cutout-probe --------------------------------------
+   The live check for the route above, WITHOUT a studio session, on the
+   /news/egress-probe pattern: gated on NEWS_PROBE_KEY (constant-time compare),
+   404 when the key is unset or wrong, so an unconfigured Worker has nothing here
+   to find. It cuts out ONE pinned public photo - a ufc.com Getty action shot with
+   a real crowd behind the fighter, so there is a background to remove - and
+   answers timings, sizes and what the PNG header says. Never the image.
+   It is the only /studio path answered without a session (studioRouter checks it
+   first, by exact path and GET only), it takes nothing from the caller but the
+   key, and it spends exactly ONE unit of its OWN small "cutprobe" budget (never the
+   owner's "cut" allowance - a leaked probe key must not be able to lock him out),
+   after the source photo arrived and before the model runs. The URL is re-checked
+   against UFC's pinned hosts on every redirect hop (relayPhoto). Probing the same
+   photo again is the same unique transformation, so it bills Cloudflare's monthly
+   allowance at most once a month. */
+const CUT_PROBE_URL = "https://www.ufc.com/images/2024-08/051521-Charles-Oliveira-Celebration-HERO-GettyImages-1318236188.jpg";
+function probeJson(obj, status) {
+  return new Response(JSON.stringify(obj, null, 1), { status: status || 200, headers: {
+    "content-type": "application/json; charset=utf-8", "cache-control": "no-store",
+    "x-content-type-options": "nosniff" } });
+}
+async function cutoutProbe(env, url) {
+  if (!env || !env.NEWS_PROBE_KEY) return new Response("not found", { status: 404 });
+  if (!ctEq(url.searchParams.get("k") || "", env.NEWS_PROBE_KEY)) return new Response("not found", { status: 404 });
+  if (!cutoutConfigured(env)) return probeJson({ ok: false, stage: "config", error: "cutout not configured" }, 503);
+  const t0 = Date.now();
+  const up = await relayPhoto(CUT_PROBE_URL, fighterPhotoUrl);
+  if (up.status !== 200) return probeJson({ ok: false, stage: "fetch", status: up.status, source: CUT_PROBE_URL }, 502);
+  const src = await readCapped(up.body, CUT_BYTES_MAX);
+  const inType = src.bytes ? cutType(src.bytes) : null;
+  if (!inType) {
+    return probeJson({ ok: false, stage: "fetch", source: CUT_PROBE_URL,
+                       error: src.tooLarge ? "the source photo is over 10 MB" : "the source is not a supported raster" }, 502);
+  }
+  const fetchMs = Date.now() - t0;
+  const b = await budgetCall(env, "cutprobe", true);
+  if (!b.ok) {
+    const refusal = budgetRefusal("cutprobe", b);
+    let j = {};
+    try { j = await refusal.json(); } catch (e) { j = {}; }
+    return probeJson(Object.assign({ ok: false, stage: "budget" }, j), refusal.status);
+  }
+  const t1 = Date.now();
+  const run = await cutoutRun(env, src.bytes);
+  if (run.failed) {
+    return probeJson({ ok: false, stage: "transform", code: run.code, inBytes: src.bytes.length, inType }, 502);
+  }
+  let out = null;
+  try { out = new Uint8Array(await new Response(cutoutStream(run.out)).arrayBuffer()); } catch (e) { out = null; }
+  const ms = Date.now() - t1;
+  if (!out) return probeJson({ ok: false, stage: "read", ms, contentType: run.type }, 502);
+  const info = pngInfo(out);
+  let topRowClear = null;
+  try { topRowClear = await pngTopRowClear(out, info); } catch (e) { topRowClear = null; }
+  return probeJson({
+    ok: run.type === "image/png" && out.length > 0,
+    ms, fetchMs,
+    inBytes: src.bytes.length, inType,
+    outBytes: out.length, contentType: run.type,
+    width: info ? info.width : null, height: info ? info.height : null,
+    alphaPresent: info ? info.alpha : null,
+    topRowClear,
+    budget: typeof b.used === "number" ? { used: b.used, cap: b.cap } : null,
+    source: CUT_PROBE_URL,
+  }, 200);
 }
 
 // ---------- /studio: AI writing help (lines + poll picture ideas) ----------
@@ -2828,7 +3171,20 @@ const STUDIO_LIMITS = {
 //        -> { lines: [{line, hot}] } | { art: [string], gag }. 503 without a
 //        DeepSeek/OpenRouter key on the Worker.
 //
-// Every route above needs the session cookie: no cookie is 401 with
+//   POST /studio/api/cutout  <- the raw bytes of one JPEG, PNG, WebP or AVIF
+//        photo (magic-number checked), at most 10 MB
+//        -> image/png, background transparent (Cloudflare Images, segment
+//        foreground), private + no-store, sandbox CSP. 413 over the cap, 415
+//        for anything else, 429/503 from the "cut" budget, 503
+//        { error: "cutout not configured" } without the IMAGES binding, 502
+//        { error, code } when Cloudflare refuses (9422 = the free month used up).
+//
+//   GET  /studio/api/cutout-probe?k=<NEWS_PROBE_KEY>   (NO session; see
+//        cutoutProbe) -> { ok, ms, fetchMs, inBytes, inType, outBytes,
+//        contentType, width, height, alphaPresent, topRowClear, budget, source }
+//        for one pinned ufc.com photo. Bare 404 without the key or with a wrong one.
+//
+// Every route above except the probe needs the session cookie: no cookie is 401 with
 // { error: "unauthorized" }, and with STUDIO_PASSWORD unset the whole surface is
 // 503 text. Errors are always JSON { error } except that one 503.
 // ===========================================================================
@@ -2899,6 +3255,12 @@ async function studioRouter(request, env, url) {
   // Normalise before matching so "/studio/" and "/studio//api/staged" cannot slip past
   // a route check and land on the catch-all with a different answer.
   const path = url.pathname.replace(/\/{2,}/g, "/").replace(/(.)\/+$/, "$1");
+  // The ONE /studio path answered without a session: the key-gated live check of the
+  // cut-out engine (cutoutProbe). Exact path, GET only; it takes nothing from the
+  // caller but the key, and is a bare 404 without NEWS_PROBE_KEY. Checked before the
+  // password test so an unconfigured studio still answers it 404, not 503. Every other
+  // method or spelling falls through to the gate below.
+  if (path === "/studio/api/cutout-probe" && request.method === "GET") return await cutoutProbe(env, url);
   // Never open by default. With no password configured the whole surface is closed,
   // APIs included, rather than falling back to a public page.
   if (!env || !env.STUDIO_PASSWORD) return studioText("studio not configured", 503);
@@ -2961,6 +3323,7 @@ async function studioRouter(request, env, url) {
   if (path === "/studio/api/gen" && request.method === "GET") return await studioGenStatus(env);
   if (path === "/studio/api/gen" && request.method === "POST") return await studioGen(request, env, url);
   if (path === "/studio/api/ai" && request.method === "POST") return await studioAi(request, env);
+  if (path === "/studio/api/cutout" && request.method === "POST") return await studioCutout(request, env);
   if (path === "/studio/api/aikey" && request.method === "GET") return await studioAiKeyStatus(env);
   if (path === "/studio/api/aikey" && request.method === "POST") return await studioAiKeySave(request, env);
   if (path === "/studio/api/poll" && request.method === "GET") return await studioPoll(env);
@@ -3027,8 +3390,10 @@ export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildP
   studioGen, studioGenStatus, genConfigured, genEndpoint, genConfig, genParts, GEN_SETUP,
   GEN_ASPECTS, GEN_SIZES, GEN_THINK, GEN_BODY_MAX, GEN_PARTS_MAX, GEN_TEXT_MAX, GEN_COSTS, GEN_SAFETY,
   BUDGET_CAPS, budgetStep, budgetCaps, budgetCall, budgetRefusal, isolateFuse, resetFuse, StudioBudget,
+  studioCutout, cutoutProbe, cutType, readCapped, cutoutConfigured, pngInfo, pngTopRowClear,
+  CUT_BYTES_MAX, CUT_TYPES, CUT_HEADERS, CUT_PROBE_URL,
   fighterPhotoUrl, RASTER, RELAY_HOPS,
-  UFC_IMG_PATH, ufcImg, ufcOriginal, ufcImgRoute, ufcFace, ufcEventName, ufcText, parseUfcAthlete,
+  UFC_IMG_PATH, ufcImg, ufcOriginal, ufcImgRoute, ufcFace, ufcEventName, ufcText, ufcAltName, parseUfcAthlete,
   parseUfcFights, parseUfcEvent, parseUfcEvents, studioUfc, studioUfcEvent, studioUfcEvents, studioUfcImg,
   studioTpl, TPL_FILE, POSTER_HTML,
   studioAi, aiHelpProvider, parseAiLines, parseAiArt, aiClean, aiFirstJson, AI_BET_WORDS, AI_BET_RE, aiSafeIdea,
