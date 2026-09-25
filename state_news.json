@@ -1,5 +1,7 @@
 {
   "seen": {
+    "b436405edb9f85cd": 1790360630.0769098,
+    "1fce04ae3be2b0f6": 1790360629.7659876,
     "30bd14ee0e48876e": 1790360607.3397882,
     "c45b9867ebe32c2b": 1790360606.791205,
     "8a025ece53ce0459": 1790360606.789229,
@@ -2497,9 +2499,7 @@
     "6e823429cf281143": 1789834871.6783307,
     "bb181cdb4f5e3fbb": 1789834848.1410177,
     "44790a06581ce844": 1789834825.1561346,
-    "d0b48acac617c5fd": 1789834801.9257438,
-    "df941fc9ecdae008": 1789834777.870913,
-    "e690a12e62538904": 1789834754.6976218
+    "d0b48acac617c5fd": 1789834801.9257438
   },
   "initialized": true,
   "v": 4,
@@ -4537,13 +4537,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T14:29:58+00:00",
       "cluster": "c03e3cd91b4"
+    },
+    {
+      "t": "UFC Vegas 121 weigh-in results: Luis Hernandez seven pounds heavier than Sedriques Dumas for short-notice fight",
+      "source": "MMA Fighting",
+      "ts": "2026-09-25T17:55:47+00:00",
+      "cluster": "c247084d9aa"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T18",
-    7
+    8
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-may-step-away-from-UFC-if-yearend-fight-falls-through-202798",
