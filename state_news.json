@@ -1,5 +1,6 @@
 {
   "seen": {
+    "70c3f12057c9f3b4": 1790321171.5530565,
     "ebbf202ecbc302a6": 1790321104.6668334,
     "7ac5a85cfdd48e12": 1790321057.9163976,
     "584ac63e83e260b8": 1790321032.1456528,
@@ -2498,8 +2499,7 @@
     "d80e2c61eded5b8e": 1789790379.4534721,
     "3cce2b00b1ba9adf": 1789790379.4492412,
     "f608ad2775c4ae6b": 1789790379.4471352,
-    "e4f56c5efca81607": 1789790355.6886647,
-    "189f404eefd120c3": 1789790332.57509
+    "e4f56c5efca81607": 1789790355.6886647
   },
   "initialized": true,
   "v": 4,
@@ -4495,13 +4495,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T02:12:26+00:00",
       "cluster": "c17372983e6"
+    },
+    {
+      "t": "Raul Rosas Jr. has wild UFC checklist before potential retirement at 25",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T02:32:34+00:00",
+      "cluster": "c14875aaf66"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T07",
-    6
+    7
   ],
   "yt_eval": [
     "dbba886f-2ade-365f-a06f-0147faca0bd8",
@@ -6885,58 +6891,15 @@
     "6a94225a3b9c825e": 1790287782.136082,
     "d449c20356faaefd": 1790289893.9432883,
     "0fea11168e7fd6ea": 1790298995.149423,
-    "28e264d4d83d56b5": 1790299179.6185896
+    "28e264d4d83d56b5": 1790299179.6185896,
+    "70c3f12057c9f3b4": 1790321171.2707324
   },
   "pinged_titles": [
     [
-      "UFC Hall of Famer Teases Boxing Return Next Year After Second MMA Retirement",
-      1790287759.6122441,
+      "Raul Rosas Jr. has wild UFC checklist before potential retirement at 25",
+      1790321171.2707324,
       [
-        "boxing",
-        "famer",
-        "hall",
-        "next",
-        "return",
-        "second",
-        "teases",
-        "year"
-      ]
-    ],
-    [
-      "Gable Steveson conqueror hints at shock retirement: ‘Leave the table when you’re up’",
-      1790287782.136082,
-      [
-        "leave",
-        "steveson"
-      ]
-    ],
-    [
-      "Breaking News - Former Two-Time UFC Champion Valentina Shevchenko Delivers a Knockout Twist on MTV's \"The Challenge: Cutthroat\" | TheFutonCritic.com",
-      1790289893.9432883,
-      [
-        "challenge",
-        "delivers",
-        "former",
-        "shevchenko",
-        "time",
-        "twist",
-        "two",
-        "valentina"
-      ]
-    ],
-    [
-      "Amanda Nunes record that has stood since her retirement could be broken at upcoming UFC Fight Night",
-      1790298995.149423,
-      [
-        "nunes"
-      ]
-    ],
-    [
-      "Woodley On Thompson's UFC 334 Retirement Fight",
-      1790299179.6185896,
-      [
-        "thompson",
-        "woodley"
+        "rosas"
       ]
     ]
   ]
