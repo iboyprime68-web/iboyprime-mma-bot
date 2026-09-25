@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d707c7458e120887": 1790375062.4686162,
     "7a61ef609f3e68a7": 1790374998.2115326,
     "09f322f19f133cd0": 1790374933.6123776,
     "b12c599cbdc8b0f8": 1790374933.2201457,
@@ -2498,8 +2499,7 @@
     "92645bff7841c2bf": 1789856072.2035697,
     "d857b5b919fa6783": 1789856072.1992993,
     "475a0d16b0330cdd": 1789856072.195418,
-    "992602f0d2b2ba96": 1789856072.171757,
-    "294f24682bab8ac9": 1789848467.7565112
+    "992602f0d2b2ba96": 1789856072.171757
   },
   "initialized": true,
   "v": 4,
@@ -4663,13 +4663,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T22:02:03+00:00",
       "cluster": "c00b3490359"
+    },
+    {
+      "t": "Norbert Novenyi Jr. reacts to not earning UFC contract at DWCS 93 with Farah Hannoun",
+      "source": "usatoday.com",
+      "ts": "2026-09-25T22:07:03+00:00",
+      "cluster": "c5b96163673"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T22",
-    23
+    24
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510244",
