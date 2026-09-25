@@ -1,5 +1,8 @@
 {
   "seen": {
+    "30bd14ee0e48876e": 1790360607.3397882,
+    "c45b9867ebe32c2b": 1790360606.791205,
+    "8a025ece53ce0459": 1790360606.789229,
     "cea6bdc218495100": 1790360583.1393864,
     "4aedd8ade6fe154e": 1790360582.838101,
     "534508223793d0da": 1790360582.834166,
@@ -2496,10 +2499,7 @@
     "44790a06581ce844": 1789834825.1561346,
     "d0b48acac617c5fd": 1789834801.9257438,
     "df941fc9ecdae008": 1789834777.870913,
-    "e690a12e62538904": 1789834754.6976218,
-    "718ad3202ef754cb": 1789834731.4165492,
-    "fb5911100ea99210": 1789825831.6802344,
-    "8d95e0fdc0f7045e": 1789825831.6777198
+    "e690a12e62538904": 1789834754.6976218
   },
   "initialized": true,
   "v": 4,
@@ -4531,13 +4531,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-25T17:37:13+00:00",
       "cluster": "c478db113a9"
+    },
+    {
+      "t": "UFC Fight Night 289's Robert Bryczek considering part-time Vegas move",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T14:29:58+00:00",
+      "cluster": "c03e3cd91b4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T18",
-    6
+    7
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-may-step-away-from-UFC-if-yearend-fight-falls-through-202798",
