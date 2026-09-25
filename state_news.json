@@ -1,5 +1,6 @@
 {
   "seen": {
+    "03a675f3cf8f40f7": 1790321386.477809,
     "1da4837917b165c4": 1790321318.7607794,
     "78e3f7ae8b35d88e": 1790321271.2056618,
     "97bbc183750a3aec": 1790321270.6553712,
@@ -2498,8 +2499,7 @@
     "1e1ecdddd205953c": 1789790403.6299362,
     "42aae086d0ac4867": 1789790403.3237097,
     "069d2030bd4eab57": 1789790379.8892682,
-    "d8bb8f26ceb4d327": 1789790379.484514,
-    "eced2a383c79c258": 1789790379.4568615
+    "d8bb8f26ceb4d327": 1789790379.484514
   },
   "initialized": true,
   "v": 4,
@@ -4519,13 +4519,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T03:00:00+00:00",
       "cluster": "c0903f05e36"
+    },
+    {
+      "t": "Controversial draw! Mason Fowler out-grappled, keeps belt against CJI champ Nick Rodriguez at UFC BJJ 11",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T03:01:36+00:00",
+      "cluster": "c54488b9e5c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T07",
-    10
+    11
   ],
   "yt_eval": [
     "3d2dc89c-43aa-3f16-b805-dbc23b963505",
