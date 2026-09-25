@@ -241,6 +241,16 @@ def learn_lexicon(titles):
     _NAMES.update(c for c in caps if c not in words and c not in _BASE_WORDS)
 
 
+def _plain_word(b):
+    """A bare token that is headline vocabulary, never a name - including a
+    hyphenated one made only of such words ("ex-champion" was stored as a
+    fighter's name for a Pantoja story, Sept 25 2026). Pure."""
+    if b in _BASE_WORDS:
+        return True
+    parts = [p for p in b.split("-") if p]
+    return len(parts) > 1 and all(p in _BASE_WORDS for p in parts)
+
+
 def _namey(word, roster):
     """In a Title-Case headline: is this capitalised token plausibly a name?
     A roster name always is; a word the window has seen in lowercase (or a
@@ -248,7 +258,7 @@ def _namey(word, roster):
     b = _bare(word)
     if b in roster:
         return True
-    return b not in _BASE_WORDS and b not in _LEXICON
+    return not _plain_word(b) and b not in _LEXICON
 
 
 def _roster_names():
@@ -342,7 +352,7 @@ def name_tokens(text):
         # the run, so "Max Holloway Returns" is the pair "Max Holloway"
         subs, cur = [], []
         for w in run:
-            if _bare(w) in _BASE_WORDS and _bare(w) not in roster:
+            if _plain_word(_bare(w)) and _bare(w) not in roster:
                 if cur:
                     subs.append(cur)
                 cur = []
