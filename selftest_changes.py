@@ -5608,8 +5608,12 @@ _PK_CROPS = [[[1500, 1000, [[0.508, 0.341, 0.083, 0.15]], 1080, 1350], [540.0395
              [[1200, 675, [[0.195, 0.062, 0.104, 0.221], [0.691, 0.211, 0.09, 0.231]], 1080, 1350], [26.4, 0.0, 540.0, 675.0]],
              [[3619, 2413, [[0.595, 0.115, 0.107, 0.194]], 1080, 1080], [1329.265, 0.0, 2035.313, 2035.313]],
              [[1920, 1280, [[0.41, 0.15, 0.17, 0.31], [0.36, 0.09, 0.14, 0.26]], 1080, 1920], [542.4, 0.0, 720.0, 1280.0]],
-             [[1920, 1280, [], 1080, 1350], [448.0, 0.0, 1024.0, 1280.0]]]
-check("smart_crop frames the five pinned cases (worker.test.js pins the SAME vectors "
+             [[1920, 1280, [], 1080, 1350], [448.0, 0.0, 1024.0, 1280.0]],
+             # Sept 25 2026: Amanda Nunes and her coach, face boxes 0.136 vs 0.151
+             # tall - the crop now zooms out to keep BOTH (it framed only the coach)
+             [[1920, 1280, [[0.557, 0.119, 0.066, 0.151], [0.293, 0.19, 0.07, 0.136],
+                            [0.867, 0.325, 0.039, 0.085]], 1080, 1350], [483.36, 0.0, 792.0, 990.0]]]
+check("smart_crop frames the six pinned cases (worker.test.js pins the SAME vectors "
       "against the studio's smartCrop - change one side, change both)",
       all(all(abs(a - b) < 0.01 for a, b in zip(photopick.smart_crop(*args), want))
           for args, want in _PK_CROPS))
