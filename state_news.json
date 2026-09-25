@@ -1,5 +1,7 @@
 {
   "seen": {
+    "b1bd1cd1350495cb": 1790323887.1511497,
+    "3fe808ec374c13dc": 1790323886.8481147,
     "c79d88962bde3946": 1790323635.2728093,
     "4def9c4c9c4bb531": 1790323444.297347,
     "b34cfc63ce119640": 1790323376.4095316,
@@ -2497,9 +2499,7 @@
     "00a6174cca67fed5": 1789807614.1346493,
     "f7e1e66526d0ffa7": 1789807614.1343265,
     "d10ef811f70f07f2": 1789807549.0402083,
-    "523a9b448226cf96": 1789807548.7418015,
-    "3d8b0d1762856a8f": 1789807484.3952215,
-    "46f600970294f8d3": 1789807484.1684556
+    "523a9b448226cf96": 1789807548.7418015
   },
   "initialized": true,
   "v": 4,
@@ -4657,13 +4657,19 @@
       "source": "the-sun.com",
       "ts": "2026-09-25T08:01:25+00:00",
       "cluster": "c227095b108"
+    },
+    {
+      "t": "Ailin Perez Details UFC PI Run-In With Norma Dumont Before UFC Vegas 121",
+      "source": "MiddleEasy",
+      "ts": "2026-09-25T07:46:33+00:00",
+      "cluster": "c36c43245af"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T08",
-    3
+    4
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Streamer-claims-hell-corner-Arman-Tsarukyan-with-Khamzat-Chimaev-at-UFC-331-202787",
