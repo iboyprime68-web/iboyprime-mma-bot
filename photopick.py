@@ -685,6 +685,14 @@ def smart_crop(iw, ih, faces, out_w, out_h):
         gx, gy, gw, gh = f1[0] * iw, f1[1] * ih, f1[2] * iw, f1[3] * ih
         if gh >= PAIR_MIN * fh:
             ux0, ux1 = min(fx, gx), max(fx + fw, gx + gw)
+            # Zoom OUT, never past the whole photo, until the pair fits. Two
+            # faces of a similar size are both the story, or one of them is:
+            # a size tiebreak framed Amanda Nunes's coach and cut her out of
+            # her own title photo (Sept 25 2026, a 10% taller face box).
+            need = (ux1 - ux0) / PAIR_SPAN
+            if need > cw and need / A <= ch_max:
+                ch = need / A
+                cw = ch * A
             if ux1 - ux0 <= PAIR_SPAN * cw:
                 cx = (ux0 + ux1) / 2.0
                 cy = (cy + gy + gh / 2.0) / 2.0
