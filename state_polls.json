@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 20,
   "staged_at": [
-    "2026-09-23T14:16:52.731979+00:00",
     "2026-09-23T19:43:02.518580+00:00",
     "2026-09-24T14:15:20.485179+00:00",
-    "2026-09-24T20:01:11.128611+00:00"
+    "2026-09-24T20:01:11.128611+00:00",
+    "2026-09-25T14:38:40.555620+00:00"
   ],
   "asked": [
-    "Who is the greatest UFC featherweight of all time?",
     "Who is the most impressive UFC Paris finisher this weekend?",
     "Gun to your head, one fighter wins a street fight for your life. Who?",
     "Who is the most delusional fighter in the UFC right now?",
@@ -47,28 +46,34 @@
     "Who is the most boring UFC champion in history?",
     "Oblique kicks are in the news again. What should the UFC do about them?",
     "What is the worst accusation a fighter can throw at another fighter?",
-    "What is the best walkout in UFC history?"
+    "What is the best walkout in UFC history?",
+    "Who is the biggest threat to the bantamweight division right now?"
   ],
   "last_entry": {
-    "q": "What is the best walkout in UFC history?",
+    "q": "Who is the biggest threat to the bantamweight division right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Conor at MSG",
-        "emoji": "🎩"
+        "label": "Merab Dvalishvili",
+        "emoji": "🛡️",
+        "art": ""
       },
       {
-        "label": "Izzy at 243",
-        "emoji": "🕺"
+        "label": "Petr Yan",
+        "emoji": "🐺",
+        "art": ""
       },
       {
-        "label": "Korean Zombie",
-        "emoji": "🧟"
+        "label": "Sean O'Malley",
+        "emoji": "🎯",
+        "art": ""
       },
       {
-        "label": "The Pereira bow",
-        "emoji": "🏹"
+        "label": "Other",
+        "emoji": "🤔",
+        "art": ""
       }
-    ]
+    ],
+    "gag": "A hamster in a tiny championship belt, running on a wheel labeled 'title shot'."
   }
 }
