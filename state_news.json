@@ -1,5 +1,7 @@
 {
   "seen": {
+    "5c1dc13f58c8d8c0": 1790376074.31935,
+    "af7310ea358cc835": 1790376073.8317358,
     "8f1a0fcd9ee233fb": 1790375946.8542693,
     "4ee5466b81354994": 1790375757.241407,
     "0f152765f9229f45": 1790375442.156973,
@@ -2497,9 +2499,7 @@
     "c4f2e731b11c2da5": 1789856204.0463865,
     "22d974ca31ca3af2": 1789856161.136829,
     "bd15b9fe66413497": 1789856139.5655365,
-    "01b4ed7392bdab78": 1789856116.8309004,
-    "121ac312679cf5cd": 1789856094.8140175,
-    "71b280b2ecb3feac": 1789856094.3550715
+    "01b4ed7392bdab78": 1789856116.8309004
   },
   "initialized": true,
   "v": 4,
@@ -4657,13 +4657,19 @@
       "source": "usatoday.com",
       "ts": "2026-09-25T22:07:03+00:00",
       "cluster": "c5b96163673"
+    },
+    {
+      "t": "Justin Gaethje Still Desires the Conor McGregor Fight Despite Lauding Arman Tsarukyan as a Deserving Contender",
+      "source": "MMA Sucka",
+      "ts": "2026-09-25T22:39:31+00:00",
+      "cluster": "ce5aa465207"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T22",
-    24
+    25
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510244",
