@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8fe573861af56ead": 1790363285.8492162,
     "ead3c300974b131c": 1790363157.6378636,
     "a3d6506a95be73ef": 1790363157.6206331,
     "a2641c2eef25cd82": 1790363030.8580534,
@@ -2498,8 +2499,7 @@
     "76319f853b3232d7": 1789845860.5024924,
     "a8eda0b29618009c": 1789845860.4856927,
     "6c7056ee95f1df39": 1789845860.4795077,
-    "d64761f1e66bf8cc": 1789845860.472664,
-    "18d60ed4f265198b": 1789845860.47211
+    "d64761f1e66bf8cc": 1789845860.472664
   },
   "initialized": true,
   "v": 4,
@@ -2917,12 +2917,6 @@
       "source": "MiddleEasy",
       "ts": "2026-09-24T01:42:22+00:00",
       "cluster": "c7667821b0f"
-    },
-    {
-      "t": "UFC BJJ 11 Results: Musumeci vs. Mitchell",
-      "source": "MMA Fighting",
-      "ts": "2026-09-23T19:06:11+00:00",
-      "cluster": "cb19731bb5f"
     },
     {
       "t": "UFC 331 star admits Joe Rogan upset him during viral pre-fight interview",
@@ -4711,13 +4705,19 @@
       "source": "Combat Press",
       "ts": "2026-09-25T18:59:00+00:00",
       "cluster": "cafd72a46c4"
+    },
+    {
+      "t": "Norma Dumont Has Heated Face-Off With Ailin Perez, Gives Her Gift",
+      "source": "mmasucka.com",
+      "ts": "2026-09-25T19:06:14+00:00",
+      "cluster": "cb351d95163"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T19",
-    3
+    4
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510244",
