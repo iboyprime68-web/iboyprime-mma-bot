@@ -1,5 +1,8 @@
 {
   "seen": {
+    "631a2bd76214aa3a": 1790343950.6932247,
+    "fc85e82f16528e0e": 1790343950.1712167,
+    "bf549a83752d9bec": 1790343950.169431,
     "37d576ae9df630b8": 1790343882.121301,
     "e094d05bc84a26c3": 1790343881.825856,
     "596d775cecd5c88d": 1790343814.834532,
@@ -2496,10 +2499,7 @@
     "1dd88a0e58028135": 1789822868.0182106,
     "46b831e5c992ea72": 1789822867.9926164,
     "99b16ba296090e24": 1789822844.2812219,
-    "64513e4f951d629f": 1789822817.4031432,
-    "b5397e4ba3be398d": 1789822793.975289,
-    "d49108341965d794": 1789822769.61921,
-    "d60b2b0f6f6bf1a4": 1789822746.0935566
+    "64513e4f951d629f": 1789822817.4031432
   },
   "initialized": true,
   "v": 4,
@@ -2515,18 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-23T15:30:00+00:00",
       "cluster": "cd058a25daa"
-    },
-    {
-      "t": "Sean Sharaf comments on Gable Steveson ‘rage-quitting the game,’ storming out of cage at UFC 331",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-23T13:44:57+00:00",
-      "cluster": "c8b3b00145a"
-    },
-    {
-      "t": "Sean O'Malley discusses what's next for Joshua Van",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-23T13:45:00+00:00",
-      "cluster": "c68092fc8b0"
     },
     {
       "t": "UFC news: Champion wants dream fight against Ronda Rousey",
@@ -3397,12 +3385,6 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-24T08:12:30+00:00",
       "cluster": "c2edcda365d"
-    },
-    {
-      "t": "Darren Till explains 4-minute faceoff with Yoel Romero, if he actually feared facing him in bare-knuckle",
-      "source": "MMA Fighting",
-      "ts": "2026-09-23T13:45:00+00:00",
-      "cluster": "cdf58e1bfbd"
     },
     {
       "t": "Morning Report &#124; Raul Rosas Jr. still aiming to be youngest UFC champion, retire by 25",
@@ -4663,13 +4645,19 @@
       "source": "BJJDOC",
       "ts": "2026-09-25T13:03:02+00:00",
       "cluster": "c3d002a0ff2"
+    },
+    {
+      "t": "Why 21-Year-Old UFC Bantamweight Is Plotting His Early Retirement",
+      "source": "NY Fights",
+      "ts": "2026-09-25T13:11:18+00:00",
+      "cluster": "c64b3596886"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T13",
-    21
+    22
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Conor-McGregor-spotted-on-crutches-following-ACL-surgery-202797",
@@ -7046,15 +7034,14 @@
     "d449c20356faaefd": 1790289893.9432883,
     "0fea11168e7fd6ea": 1790298995.149423,
     "28e264d4d83d56b5": 1790299179.6185896,
-    "70c3f12057c9f3b4": 1790321171.2707324
+    "70c3f12057c9f3b4": 1790321171.2707324,
+    "631a2bd76214aa3a": 1790343950.207366
   },
   "pinged_titles": [
     [
-      "Raul Rosas Jr. has wild UFC checklist before potential retirement at 25",
-      1790321171.2707324,
-      [
-        "rosas"
-      ]
+      "Why 21-Year-Old UFC Bantamweight Is Plotting His Early Retirement",
+      1790343950.207366,
+      []
     ]
   ]
 }
