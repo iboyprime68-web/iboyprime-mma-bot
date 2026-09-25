@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9ba61c4531da9bae": 1790301528.3554287,
     "5dc99c7ab8da5570": 1790301400.180199,
     "ec4466c8be39b691": 1790301273.4723723,
     "dc158a23e42f3dd6": 1790300646.1740289,
@@ -2498,8 +2499,7 @@
     "103337351ced68c5": 1789790163.0176618,
     "41c162ce11e7fd91": 1789790162.6389804,
     "9d6b7225f6e42572": 1789790162.6368158,
-    "a1e505b06a8d794e": 1789790162.609849,
-    "58f3e56bbe5fa5ae": 1789790162.6066213
+    "a1e505b06a8d794e": 1789790162.609849
   },
   "initialized": true,
   "v": 4,
@@ -4729,13 +4729,19 @@
       "source": "UFC.com",
       "ts": "2026-09-25T00:56:28+00:00",
       "cluster": "ca4353cf092"
+    },
+    {
+      "t": "Freakshow! UFC BJJ 11: Mikey Musumeci vs. Bryce Mitchell live stream, results, BJJ highlights",
+      "source": "mmamania.com",
+      "ts": "2026-09-25T01:51:00+00:00",
+      "cluster": "ca1859fb02d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T01",
-    7
+    8
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=472179",
