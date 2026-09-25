@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bee756c8d5f39d52": 1790344827.870963,
     "a1d839775c1c335c": 1790344804.0768,
     "9fba664703d84301": 1790344739.3123121,
     "cbff87cf060cf566": 1790344674.346528,
@@ -2498,8 +2499,7 @@
     "8d2048bd60c571eb": 1789823317.7293284,
     "1e0e5f5cf1fa673a": 1789823253.9504886,
     "074a94dd71df0c08": 1789823128.1311355,
-    "f775df4c5292790b": 1789823128.1293273,
-    "7db5c705b2b0516a": 1789823128.128897
+    "f775df4c5292790b": 1789823128.1293273
   },
   "initialized": true,
   "v": 4,
@@ -4723,13 +4723,19 @@
       "source": "heavy.com",
       "ts": "2026-09-25T13:53:52+00:00",
       "cluster": "c0c1a509f1b"
+    },
+    {
+      "t": "BJJ star Mikey Musumeci confirms MMA debut for this year after beating Bryce Mitchell at UFC BJJ 11",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-25T14:00:00+00:00",
+      "cluster": "c778b966264"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T14",
-    1
+    2
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331557",
