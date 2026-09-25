@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ece43f67050820f0": 1790373988.5893574,
     "ae0906083b94ae46": 1790373965.2677388,
     "9697375af6cd5f14": 1790373942.458264,
     "6628d2faed0d0809": 1790373941.8936234,
@@ -2498,8 +2499,7 @@
     "c74cb2cb37f965fd": 1789845990.382693,
     "40630986719297f7": 1789845990.3823595,
     "96f4dbcd5fcb0b00": 1789845990.3816445,
-    "8b01c5491549aa3a": 1789845990.380094,
-    "050f6358b82185db": 1789845990.3795655
+    "8b01c5491549aa3a": 1789845990.380094
   },
   "initialized": true,
   "v": 4,
@@ -4555,13 +4555,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-25T19:30:00+00:00",
       "cluster": "ca3c0e50a10"
+    },
+    {
+      "t": "Tyson Fury says he wants Dana White involved in superfight with Anthony Joshua: ‘Two baldies together’",
+      "source": "MMA Fighting",
+      "ts": "2026-09-25T19:45:47+00:00",
+      "cluster": "cc02bdc08bc"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T22",
-    2
+    3
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510244",
@@ -6934,27 +6940,25 @@
     "70c3f12057c9f3b4": 1790321171.2707324,
     "631a2bd76214aa3a": 1790343950.207366,
     "1c69a3183b5c2252": 1790344350.209784,
-    "3e16d34112f5d081": 1790361075.7333338
+    "3e16d34112f5d081": 1790361075.7333338,
+    "ece43f67050820f0": 1790373988.1821806
   },
   "pinged_titles": [
-    [
-      "Why 21-Year-Old UFC Bantamweight Is Plotting His Early Retirement",
-      1790343950.207366,
-      []
-    ],
-    [
-      "Gilbert Burns Backs Justin Gaethje Amid Retirement Questions",
-      1790344350.209784,
-      [
-        "burns",
-        "gaethje"
-      ]
-    ],
     [
       "Raul Rosas Jr. sets out his ideal early UFC retirement plan",
       1790361075.7333338,
       [
         "rosas"
+      ]
+    ],
+    [
+      "Tyson Fury says he wants Dana White involved in superfight with Anthony Joshua: ‘Two baldies together’",
+      1790373988.1821806,
+      [
+        "fury",
+        "joshua",
+        "two",
+        "white"
       ]
     ]
   ]
