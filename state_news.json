@@ -1,5 +1,8 @@
 {
   "seen": {
+    "9c7d963d0e33f2ac": 1790322190.68324,
+    "46ca52de63959bf7": 1790322190.2427933,
+    "6a7677f7bf43260e": 1790322190.2391582,
     "8e6ec05d92399378": 1790322143.6929193,
     "2450373cb6908440": 1790322076.3954182,
     "7857a98da7062360": 1790322009.5028121,
@@ -2496,10 +2499,7 @@
     "2ef467b58bf0e305": 1789791028.6217194,
     "fd0158d28b0a1f20": 1789790963.8175938,
     "5f3dfca95a8824e5": 1789790963.8172019,
-    "4f653d62b4629dc1": 1789790963.8151202,
-    "eb9b97f65e2f05b7": 1789790899.6855779,
-    "0a0e41d76485fa32": 1789790774.5266557,
-    "5de23ec52cdbc2c5": 1789790710.3236046
+    "4f653d62b4629dc1": 1789790963.8151202
   },
   "initialized": true,
   "v": 4,
@@ -4597,13 +4597,19 @@
       "source": "MiddleEasy",
       "ts": "2026-09-25T06:49:22+00:00",
       "cluster": "c5b014d3265"
+    },
+    {
+      "t": "Asael Adjoudj’s 3-fight PFL streak meets Unbeaten Khaybulaev",
+      "source": "Sherdog",
+      "ts": "2026-09-25T04:10:13+00:00",
+      "cluster": "caff4dc7468"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T07",
-    23
+    24
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/UFC-champ-Joshua-Van-explains-why-he-wants-to-pick-Alexander-Volkanovskis-brain-202783",
