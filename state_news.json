@@ -1,5 +1,6 @@
 {
   "seen": {
+    "adb99b64815a917f": 1790321736.4159577,
     "a3478ad68bf75f58": 1790321669.8445163,
     "6f442b419500dc79": 1790321598.6657336,
     "4eea9732a1eed7df": 1790321598.3777213,
@@ -2498,8 +2499,7 @@
     "1a424635cacc0fb0": 1789790580.5798771,
     "20f8f50d64f8f114": 1789790580.5524237,
     "d79d57e81ea99849": 1789790580.5502088,
-    "1b7b2de13a0c393d": 1789790580.5478091,
-    "acc1cc23aa7bf921": 1789790516.0497005
+    "1b7b2de13a0c393d": 1789790580.5478091
   },
   "initialized": true,
   "v": 4,
@@ -4555,13 +4555,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T04:10:10+00:00",
       "cluster": "cfaac6e2e16"
+    },
+    {
+      "t": "Natalia Silva’s coach makes bold claim about UFC 332 title fight",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T04:20:18+00:00",
+      "cluster": "cb209edbe63"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T07",
-    16
+    17
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331529",
