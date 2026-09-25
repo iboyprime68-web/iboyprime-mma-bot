@@ -1,5 +1,6 @@
 {
   "seen": {
+    "912d5bc7ec70584a": 1790295028.1471014,
     "74c8a8b983cfc4e0": 1790294962.188194,
     "9dbcaf16b381435a": 1790294961.9126155,
     "9f030a51881ebe85": 1790294827.3428698,
@@ -2498,8 +2499,7 @@
     "aaa90ff6ea33164e": 1789773704.0454922,
     "99f3d414a01e8090": 1789773640.3646653,
     "57c550758925e56d": 1789773575.7239764,
-    "b202d4731e3d1d19": 1789773575.0570862,
-    "d1002b68d2f498de": 1789773575.0390399
+    "b202d4731e3d1d19": 1789773575.0570862
   },
   "initialized": true,
   "v": 4,
@@ -4705,13 +4705,19 @@
       "source": "MiddleEasy",
       "ts": "2026-09-25T00:00:00+00:00",
       "cluster": "c901cf6702f"
+    },
+    {
+      "t": "Colby Thicknesse Draws Undefeated Newcomer at UFC 333",
+      "source": "heavy.com",
+      "ts": "2026-09-25T00:06:00+00:00",
+      "cluster": "cff5a0f47f0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T00",
-    5
+    6
   ],
   "yt_eval": [
     "CBMiugFBVV95cUxQZzVyaXV1X25yQWkxWU80NlF2MkYtelZBTl85TlhSRnc0WFUwd2NWWGFDM2FvRS1xajk1Y0Ftd2F0YTNuMFlxOXpIWUpNbGRsbjhSNjhpSS0wX3pmNFJna3JQdXZRdUhCWG1kbjJseTRQbG1oTDlZa2xONHdfMjJ2Q29WVmlOZ0RFa1kxcUpaN3ZEVV8yYlFnQlltNTFLMlBBdUNQMGlKNWptS21WeXNNY3czazI1em5zVkE",
