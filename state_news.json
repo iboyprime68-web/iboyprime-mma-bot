@@ -1,5 +1,7 @@
 {
   "seen": {
+    "5531e188f690a79b": 1790321005.18056,
+    "829197c8b2a81d2c": 1790321004.8278239,
     "43619ab150fb5ecd": 1790320979.9144385,
     "b402d7757cf1c23f": 1790320954.5778787,
     "8e729b3aae028d29": 1790301847.760684,
@@ -2497,9 +2499,7 @@
     "189f404eefd120c3": 1789790332.57509,
     "0e889c77c3d403a9": 1789790309.0993109,
     "f60ad38b1127cb96": 1789790285.4067106,
-    "0ccfd207182353a6": 1789790262.2066739,
-    "7ccfd383d2a2bac6": 1789790235.253894,
-    "e548d011a1c1c8af": 1789790208.8584898
+    "0ccfd207182353a6": 1789790262.2066739
   },
   "initialized": true,
   "v": 4,
@@ -4471,13 +4471,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-25T03:00:00+00:00",
       "cluster": "c8a24a8e4d1"
+    },
+    {
+      "t": "Mikey Musumeci slammed hard at UFC BJJ but ultimately wins decision over Bryce Mitchell in main event",
+      "source": "MMA Fighting",
+      "ts": "2026-09-25T03:33:21+00:00",
+      "cluster": "c1f186f123b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T07",
-    2
+    3
   ],
   "yt_eval": [
     "10f829eb-a666-3e25-91ef-a302564c0314",
