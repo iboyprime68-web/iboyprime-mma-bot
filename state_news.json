@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0d3d9cbaf2e056de": 1790344153.9362686,
     "6a2965e777ed4afa": 1790344089.259626,
     "8f64f4b6d30a071d": 1790344088.7253044,
     "adc92fa1352748ac": 1790344024.2244265,
@@ -2498,8 +2499,7 @@
     "8de44917ccf571b4": 1789822932.8611135,
     "64e695524b0d7233": 1789822932.8387887,
     "9736211b868791a0": 1789822932.8384085,
-    "330855b68c020af1": 1789822932.8375852,
-    "42c9513dc180b011": 1789822932.8340528
+    "330855b68c020af1": 1789822932.8375852
   },
   "initialized": true,
   "v": 4,
@@ -4663,13 +4663,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-25T13:26:45+00:00",
       "cluster": "c8110f493e6"
+    },
+    {
+      "t": "UFC Vegas 121 fight card goes viral for cop vs convict booking with Sedriques Dumas",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T13:27:11+00:00",
+      "cluster": "c6cfbfced17"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T13",
-    24
+    25
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331557",
