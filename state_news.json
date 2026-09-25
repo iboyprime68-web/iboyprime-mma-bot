@@ -1,5 +1,7 @@
 {
   "seen": {
+    "1d17417a736709dc": 1790343330.089732,
+    "5ea69825d84ee7df": 1790343329.506414,
     "ca16d9302b57e2c6": 1790343261.9209223,
     "c5e324f418ee4dfb": 1790343193.0218806,
     "3a7c77afd9c81184": 1790343124.0932457,
@@ -2497,9 +2499,7 @@
     "4c6bb4f0735e2311": 1789809267.1030903,
     "9c5f765104fe5204": 1789809139.8317847,
     "9e31811fd9aa5132": 1789808704.2613623,
-    "bc334a50d0540010": 1789808517.4116518,
-    "2d804d307514050f": 1789808392.1571014,
-    "19a2cdf63a53d6a2": 1789808203.640702
+    "bc334a50d0540010": 1789808517.4116518
   },
   "initialized": true,
   "v": 4,
@@ -4609,13 +4609,19 @@
       "source": "the-sun.com",
       "ts": "2026-09-25T12:40:51+00:00",
       "cluster": "c82e3d866f0"
+    },
+    {
+      "t": "Abubakar Vagaev vs. Jacob Malkoun Reported For UFC 333",
+      "source": "MiddleEasy",
+      "ts": "2026-09-25T12:44:38+00:00",
+      "cluster": "cd3676dd48b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T13",
-    11
+    12
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Sean-OMalley-says-he-smoked-heckling-UFC-fan-in-face-with-his-cap-202790",
