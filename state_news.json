@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ae0906083b94ae46": 1790373965.2677388,
     "9697375af6cd5f14": 1790373942.458264,
     "6628d2faed0d0809": 1790373941.8936234,
     "fc7c7d7d9df0ad5a": 1790373941.8570826,
@@ -2498,8 +2499,7 @@
     "40630986719297f7": 1789845990.3823595,
     "96f4dbcd5fcb0b00": 1789845990.3816445,
     "8b01c5491549aa3a": 1789845990.380094,
-    "050f6358b82185db": 1789845990.3795655,
-    "a4014a6fd7607451": 1789845990.3793187
+    "050f6358b82185db": 1789845990.3795655
   },
   "initialized": true,
   "v": 4,
@@ -4549,13 +4549,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-25T18:41:23+00:00",
       "cluster": "c2181df9873"
+    },
+    {
+      "t": "UFC Vegas 121 short notice clash made official despite big 7lb weight difference between fighters",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-25T19:30:00+00:00",
+      "cluster": "ca3c0e50a10"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T22",
-    1
+    2
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510244",
