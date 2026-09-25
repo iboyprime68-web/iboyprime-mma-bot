@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0f3e78c674b06a8c": 1790324028.6140192,
     "0a895823390ac3b3": 1790323961.2434366,
     "614d30250102c29a": 1790323913.353289,
     "b1bd1cd1350495cb": 1790323887.1511497,
@@ -2498,8 +2499,7 @@
     "261f80a837f07f89": 1789807744.3054738,
     "3ff0f08d8672652f": 1789807679.5114367,
     "13ea053b781b669d": 1789807614.4213917,
-    "00a6174cca67fed5": 1789807614.1346493,
-    "f7e1e66526d0ffa7": 1789807614.1343265
+    "00a6174cca67fed5": 1789807614.1346493
   },
   "initialized": true,
   "v": 4,
@@ -4675,13 +4675,19 @@
       "source": "MiddleEasy",
       "ts": "2026-09-25T08:10:36+00:00",
       "cluster": "cb9604c5f59"
+    },
+    {
+      "t": "Jacobe Smith vs. Bruce Whitehead Reported For UFC 332",
+      "source": "MiddleEasy",
+      "ts": "2026-09-25T08:10:37+00:00",
+      "cluster": "cf24f7e983b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T08",
-    6
+    7
   ],
   "yt_eval": [
     "CBMi6wFBVV95cUxOWnV4VHE4ZFdZSFZ6THQyRDlVX1NlQVB1MHB0ZFZFeW1aQlIwMjNEOEtmYUoxVWt3ZEl0SkdYV2F5a3dNMlFVNmlpYVlEUEdKbVJyeWxhSy1GZmxUdXFkR2o3V0F5eHZnRnlwQXFINllzUmdLczhFbnVFei1IYlBNNF9yRS04Y0w2Ulk2VTJwVDhLRTRCNFh1NzdEOVp4V1FsTWExQlNaMkp1alRTUXdYQnhtckZuMXhGcjJKbGxoR1o2eWo3VnhYQTVORnpNbkpJRnVVT3BYSC1JRmJGenlqaEYyZy1uOWhza3BB",
