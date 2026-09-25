@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e7cbfa112e2346b0": 1790321244.8682601,
     "70c3f12057c9f3b4": 1790321171.5530565,
     "ebbf202ecbc302a6": 1790321104.6668334,
     "7ac5a85cfdd48e12": 1790321057.9163976,
@@ -2498,8 +2499,7 @@
     "e7c8f50833e05939": 1789790379.455051,
     "d80e2c61eded5b8e": 1789790379.4534721,
     "3cce2b00b1ba9adf": 1789790379.4492412,
-    "f608ad2775c4ae6b": 1789790379.4471352,
-    "e4f56c5efca81607": 1789790355.6886647
+    "f608ad2775c4ae6b": 1789790379.4471352
   },
   "initialized": true,
   "v": 4,
@@ -4501,13 +4501,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T02:32:34+00:00",
       "cluster": "c14875aaf66"
+    },
+    {
+      "t": "UFC Vegas 124 adds Nina Milosevic vs. Priscila Cachoeira",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T02:43:07+00:00",
+      "cluster": "c5ba525121a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T07",
-    7
+    8
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331508",
