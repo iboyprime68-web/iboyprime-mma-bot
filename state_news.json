@@ -1,5 +1,6 @@
 {
   "seen": {
+    "af3c696e9c027fff": 1790374012.039843,
     "ece43f67050820f0": 1790373988.5893574,
     "ae0906083b94ae46": 1790373965.2677388,
     "9697375af6cd5f14": 1790373942.458264,
@@ -2498,8 +2499,7 @@
     "24b0c248ae307b15": 1789845990.830386,
     "c74cb2cb37f965fd": 1789845990.382693,
     "40630986719297f7": 1789845990.3823595,
-    "96f4dbcd5fcb0b00": 1789845990.3816445,
-    "8b01c5491549aa3a": 1789845990.380094
+    "96f4dbcd5fcb0b00": 1789845990.3816445
   },
   "initialized": true,
   "v": 4,
@@ -4561,13 +4561,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-25T19:45:47+00:00",
       "cluster": "cc02bdc08bc"
+    },
+    {
+      "t": "Can Barcelos' experience topple Rosa Jr.'s youth in UFC Fight Night 289 main event?",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T19:30:33+00:00",
+      "cluster": "c7564550f46"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T22",
-    3
+    4
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510244",
