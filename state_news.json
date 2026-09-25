@@ -1,5 +1,6 @@
 {
   "seen": {
+    "84c287b6ec86ef38": 1790376437.298237,
     "e0217c3c62b68b7e": 1790376393.5383186,
     "cd2bdb78075b86d7": 1790376266.1583176,
     "4f5d0355659ea138": 1790376139.2996666,
@@ -2498,8 +2499,7 @@
     "c36311fed007601c": 1789856310.4104798,
     "d1c447cab0cb34b1": 1789856267.7460363,
     "27625e35a49cf4d1": 1789856204.3900692,
-    "a9eaa3d65ca0ee39": 1789856204.0467477,
-    "c4f2e731b11c2da5": 1789856204.0463865
+    "a9eaa3d65ca0ee39": 1789856204.0467477
   },
   "initialized": true,
   "v": 4,
@@ -4669,13 +4669,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-25T22:45:19+00:00",
       "cluster": "ceb4e23535c"
+    },
+    {
+      "t": "Report: Fury vs. Joshua Netflix superfight in serious jeopardy, Terence Crawford vs. Ryan Garcia replacement bout ‘being considered’",
+      "source": "MMA Mania",
+      "ts": "2026-09-25T22:42:22+00:00",
+      "cluster": "cdc2ee4aadd"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T22",
-    27
+    28
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510244",
