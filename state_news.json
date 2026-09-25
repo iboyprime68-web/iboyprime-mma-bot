@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2e0498fe3fe7c666": 1790343745.1624665,
     "187781749052acfa": 1790343697.6649933,
     "b6194bb30254e88f": 1790343697.1732059,
     "c83838d44621302f": 1790343671.4679816,
@@ -2498,8 +2499,7 @@
     "d60b2b0f6f6bf1a4": 1789822746.0935566,
     "dff13b0e742de07e": 1789822722.337616,
     "671c58373e350490": 1789822720.34748,
-    "cdd65022698ff63d": 1789822720.3177993,
-    "da882a60dfdef817": 1789810275.4301133
+    "cdd65022698ff63d": 1789822720.3177993
   },
   "initialized": true,
   "v": 4,
@@ -4645,13 +4645,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-25T12:59:55+00:00",
       "cluster": "cc816d486fd"
+    },
+    {
+      "t": "UFC Vegas 121: Rosas vs. Barcelos Weigh-In Results",
+      "source": "Cageside Press",
+      "ts": "2026-09-25T13:00:37+00:00",
+      "cluster": "c5f6c0f17e2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T13",
-    18
+    19
   ],
   "yt_eval": [
     "CBMipAFBVV95cUxOdTVOd01wN0lXaHFNUm15MnhReGFUNmpLY0pTMUVrN05BRzhvYTJha1RFc0JlU24zbVVILWtucHg3UjFkT1lBX21xQjNVV0tfQzdLYVBfY0ZWeFhrRXhVZjJpVGtfZGZsZnlaczd4N19GWF96ZjhNVnoxeDB0MzlkSGVtbmIzOW1JZWdpZ0JsYnI0cUg5cmwwcThpeFZ3QVdVZ0lEZQ",
