@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9401da2e29f30966": 1790360537.7127464,
     "2543230155aa0e4f": 1790360513.6168113,
     "62d1f7ea5670ab6f": 1790360484.9888825,
     "a9387ff5541ff141": 1790360462.3705657,
@@ -2498,8 +2499,7 @@
     "b7ffd629faeacc5c": 1789825766.686516,
     "02736384e54dccca": 1789825392.1037834,
     "41b752ec894e75a1": 1789825392.1034813,
-    "a93e821404414f55": 1789824893.6981754,
-    "16f92fbfb77d681c": 1789824893.279177
+    "a93e821404414f55": 1789824893.6981754
   },
   "initialized": true,
   "v": 4,
@@ -4513,13 +4513,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-25T14:54:47+00:00",
       "cluster": "cb4d32e41f5"
+    },
+    {
+      "t": "UFC Contract Winner Makes Quick Turnaround to Save Fight on Saturday's UFC Card",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T12:30:01+00:00",
+      "cluster": "ce7fb98fb5d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T18",
-    3
+    4
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-may-step-away-from-UFC-if-yearend-fight-falls-through-202798",
