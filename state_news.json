@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d1f13db7a119ae2a": 1790295352.7648914,
     "7306ebe5ef1ffb6e": 1790295162.0695426,
     "49706323d575ec2a": 1790295160.7499948,
     "67aa5ae3d3d388e8": 1790295094.2689223,
@@ -2498,8 +2499,7 @@
     "ece5cd7aa6e5f7c9": 1789773896.399014,
     "6dad95d4dc3af4ac": 1789773896.397428,
     "9d25bae361df129a": 1789773770.1614425,
-    "0ecbf3b045603966": 1789773770.1579204,
-    "239b54c0d80345c9": 1789773770.1402078
+    "0ecbf3b045603966": 1789773770.1579204
   },
   "initialized": true,
   "v": 4,
@@ -4723,13 +4723,19 @@
       "source": "MiddleEasy",
       "ts": "2026-09-25T00:09:09+00:00",
       "cluster": "ce811bbb785"
+    },
+    {
+      "t": "Featherweight Show Match Headlines Exciting UFC BJJ 11 Card On September 24",
+      "source": "UFC.com",
+      "ts": "2026-09-25T00:00:00+00:00",
+      "cluster": "ccc379dc178"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T00",
-    8
+    9
   ],
   "yt_eval": [
     "CBMiugFBVV95cUxNNF85X0ZNM2VtZTdaa0stZ2F1ZXhleGctSjZVVk5LN0IzUWt3dWtueVpOVEQ4dUF0M18zTmxPSl84cF85eGhyUms2T2EtcUpiRTk4dVE4UVdxLUFHbGdTTExDOEpqWXg0TEFfVmg1V0FjRUZnXzluVS1Yb0g4NnlyeHk2V0FIYlJhT1RDR2Jia3FsNjdqRTRMWHZlVWJuYldVVzY2UV9vTnVPMjVsVXZISzZzSGFoWnktdXc",
