@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ebbf202ecbc302a6": 1790321104.6668334,
     "7ac5a85cfdd48e12": 1790321057.9163976,
     "584ac63e83e260b8": 1790321032.1456528,
     "5531e188f690a79b": 1790321005.18056,
@@ -2498,8 +2499,7 @@
     "3cce2b00b1ba9adf": 1789790379.4492412,
     "f608ad2775c4ae6b": 1789790379.4471352,
     "e4f56c5efca81607": 1789790355.6886647,
-    "189f404eefd120c3": 1789790332.57509,
-    "0e889c77c3d403a9": 1789790309.0993109
+    "189f404eefd120c3": 1789790332.57509
   },
   "initialized": true,
   "v": 4,
@@ -4489,13 +4489,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-25T05:00:00+00:00",
       "cluster": "c05dc63c4d5"
+    },
+    {
+      "t": "UFC pulls Mickey Gall from long-awaited return for medical reasons",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T02:12:26+00:00",
+      "cluster": "c17372983e6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T07",
-    5
+    6
   ],
   "yt_eval": [
     "0359ee3a-f328-375a-8a43-ca8a0f357ae1",
