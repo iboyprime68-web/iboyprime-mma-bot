@@ -1,5 +1,7 @@
 {
   "seen": {
+    "27c70a92b468ebd5": 1790321521.0934699,
+    "c3f9aca704ad25e0": 1790321520.791419,
     "e312479aea547087": 1790321453.695155,
     "66944071d4e8dda6": 1790321453.1498501,
     "03a675f3cf8f40f7": 1790321386.477809,
@@ -2497,9 +2499,7 @@
     "0b169095eeb30f9b": 1789790451.5364246,
     "77ef0cd053d1c9db": 1789790451.2860162,
     "6c0f1f79b8b12763": 1789790427.0870488,
-    "b2302421f5e7be70": 1789790426.822309,
-    "1e1ecdddd205953c": 1789790403.6299362,
-    "42aae086d0ac4867": 1789790403.3237097
+    "b2302421f5e7be70": 1789790426.822309
   },
   "initialized": true,
   "v": 4,
@@ -4531,13 +4531,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T03:18:55+00:00",
       "cluster": "c2b7f7ee0b4"
+    },
+    {
+      "t": "Josh Hokit to Alexander Volkov: ‘He’s lucky to still be on the roster’",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T03:40:46+00:00",
+      "cluster": "c880624fda8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T07",
-    12
+    13
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Tommy-McMillen-says-UFC-rival-was-pleading-for-respect-after-war-202782",
