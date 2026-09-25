@@ -5973,6 +5973,13 @@ if _up_db:
     check("photopick and the face model upload BEFORE the modules that use them",
           "models/face_detection_yunet_2023mar.onnx" in _pk_up
           and _pk_up.index("photopick.py") < _pk_up.index("postcard.py") < _pk_up.index("ytposts.py"))
+    # Sept 25 2026: worker.js imports the poster templates page at module load, so CI's
+    # `node worker.test.js` dies with ERR_MODULE_NOT_FOUND if the page is not in the repo,
+    # and a mid-deploy CI run must never see the new import before its file.
+    check("the templates page uploads with the Worker, BEFORE worker.js",
+          "../commands_worker/poster_page.js" in _pk_up
+          and _pk_up.index("../commands_worker/poster_page.js") < _pk_up.index("../commands_worker/worker.js")
+          and _pk_up.index("../commands_worker/studio_page.js") < _pk_up.index("../commands_worker/worker.js"))
 
 
 print("\n==== %d passed, %d failed ====" % (PASS, FAIL))
