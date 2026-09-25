@@ -590,6 +590,8 @@ denver houston miami newark chicago atlanta tampa baku macau shanghai
 singapore riyadh jeddah doha manchester glasgow dublin auckland mexico
 anaheim phoenix apex arena garden square
 octagon cage bellator pfl bkfc oktagon zuffa
+nothing something everything anything nobody everyone everybody someone anyone
+why how who whom whose which these those there here goat
 """.split())
 # ^ the last four lines are event cities and venues (Sept 24 2026 pre-deploy
 # review): "UFC Abu Dhabi" made "dhabi" a fighter, and every story that week
