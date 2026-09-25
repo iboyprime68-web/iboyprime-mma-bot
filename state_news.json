@@ -1,5 +1,8 @@
 {
   "seen": {
+    "cea6bdc218495100": 1790360583.1393864,
+    "4aedd8ade6fe154e": 1790360582.838101,
+    "534508223793d0da": 1790360582.834166,
     "005b46939d86e988": 1790360560.545665,
     "9401da2e29f30966": 1790360537.7127464,
     "2543230155aa0e4f": 1790360513.6168113,
@@ -2496,10 +2499,7 @@
     "e690a12e62538904": 1789834754.6976218,
     "718ad3202ef754cb": 1789834731.4165492,
     "fb5911100ea99210": 1789825831.6802344,
-    "8d95e0fdc0f7045e": 1789825831.6777198,
-    "b7ffd629faeacc5c": 1789825766.686516,
-    "02736384e54dccca": 1789825392.1037834,
-    "41b752ec894e75a1": 1789825392.1034813
+    "8d95e0fdc0f7045e": 1789825831.6777198
   },
   "initialized": true,
   "v": 4,
@@ -4525,13 +4525,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-25T15:00:00+00:00",
       "cluster": "c37a510898b"
+    },
+    {
+      "t": "UFC Vegas 121 star shaves his head to make weight after failing on first attempt",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-25T17:37:13+00:00",
+      "cluster": "c478db113a9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T18",
-    5
+    6
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-may-step-away-from-UFC-if-yearend-fight-falls-through-202798",
