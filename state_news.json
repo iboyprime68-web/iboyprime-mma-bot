@@ -4558,7 +4558,6 @@
     15
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331523",
     "b4464128-9fad-3ba0-ac32-ad1168a1f252",
     "https://bloodyelbow.com/?p=331529",
     "https://www.mmafighting.com/?p=510226",
@@ -6057,25 +6056,17 @@
     "c13974df-571f-3fcb-955d-f43eb91e8af3",
     "50beadba-dec5-3c8d-a148-2a42affac4c9",
     "7557ebd5-9975-3c2c-bb5f-61c9d2b1a63c",
-    "https://www.sherdog.com/news/news/UFC-debutant-hasnt-fought-yet-but-hes-already-calling-Sean-OMalley-easy-202942"
+    "https://www.sherdog.com/news/news/UFC-debutant-hasnt-fought-yet-but-hes-already-calling-Sean-OMalley-easy-202942",
+    "1a3e60dc-486b-305c-9f32-ad3db8f30d4f"
   ],
   "daily": {
     "d": "2026-09-25",
-    "ai": 32,
+    "ai": 33,
     "staged": 3,
-    "prio": 2,
+    "prio": 3,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-15T01:33:38.031983+00:00",
-      "t": "Dana White: Terence Crawford needs 'the right fight' to end retirement",
-      "names": [
-        "white",
-        "crawford"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-15T01:35:53.589809+00:00",
       "t": "Women's Flyweight Championship Headlines First-Ever UFC Main Card to Air Live on Both CBS and Paramount+",
@@ -6859,6 +6850,14 @@
         "volkov"
       ],
       "img": "cutout:alexander-volkov"
+    },
+    {
+      "ts": "2026-09-25T07:33:21.681947+00:00",
+      "t": "Raul Rosas Jr. Sets Surprising Retirement UFC Timeline",
+      "names": [
+        "rosas"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
