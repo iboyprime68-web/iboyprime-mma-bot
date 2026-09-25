@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f31e7c68cf01b91c": 1790360676.6511896,
     "738ce9798e04305f": 1790360652.866232,
     "b436405edb9f85cd": 1790360630.0769098,
     "1fce04ae3be2b0f6": 1790360629.7659876,
@@ -2498,8 +2499,7 @@
     "92d7d2aaa5889596": 1789834895.399897,
     "34c3dc1cbcb171d6": 1789834872.1281853,
     "6e823429cf281143": 1789834871.6783307,
-    "bb181cdb4f5e3fbb": 1789834848.1410177,
-    "44790a06581ce844": 1789834825.1561346
+    "bb181cdb4f5e3fbb": 1789834848.1410177
   },
   "initialized": true,
   "v": 4,
@@ -4549,13 +4549,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-25T18:00:00+00:00",
       "cluster": "c34879e61be"
+    },
+    {
+      "t": "Usman Nurmagomedov shares encouraging update about Umar Nurmagomedov following knockout loss",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T15:00:00+00:00",
+      "cluster": "c31c21b99be"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T18",
-    9
+    10
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-may-step-away-from-UFC-if-yearend-fight-falls-through-202798",
