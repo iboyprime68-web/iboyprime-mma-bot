@@ -4570,7 +4570,6 @@
     17
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331529",
     "https://www.mmafighting.com/?p=510226",
     "cd67e5bc-8ef7-311f-a3b6-f982889b8406",
     "https://www.mmafighting.com/508407/dnp-morning-report-template-dnp",
@@ -6069,31 +6068,17 @@
     "7557ebd5-9975-3c2c-bb5f-61c9d2b1a63c",
     "https://www.sherdog.com/news/news/UFC-debutant-hasnt-fought-yet-but-hes-already-calling-Sean-OMalley-easy-202942",
     "1a3e60dc-486b-305c-9f32-ad3db8f30d4f",
-    "08c600a6-e236-41ad-9739-a0c24342b043"
+    "08c600a6-e236-41ad-9739-a0c24342b043",
+    "5da9f25c-0d7c-3bb3-9eb7-5b040e28c259"
   ],
   "daily": {
     "d": "2026-09-25",
-    "ai": 34,
-    "staged": 3,
+    "ai": 35,
+    "staged": 4,
     "prio": 3,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-15T01:35:53.589809+00:00",
-      "t": "Women's Flyweight Championship Headlines First-Ever UFC Main Card to Air Live on Both CBS and Paramount+",
-      "names": [
-        "women",
-        "flyweight",
-        "championship",
-        "headlines",
-        "first",
-        "ever",
-        "air",
-        "both"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-15T01:40:14.304842+00:00",
       "t": "Brian Ortega out of UFC 331 fight with injury, Renato Moicano gets new opponent",
@@ -6870,6 +6855,15 @@
         "rosas"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-25T07:35:39.405193+00:00",
+      "t": "Natalia Silva’s coach makes bold claim about UFC 332 title fight",
+      "names": [
+        "silva",
+        "wang"
+      ],
+      "img": "cutout:natalia-silva"
     }
   ],
   "seed_pending": [],
