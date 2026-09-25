@@ -81,6 +81,10 @@ button,input,textarea,select{font-family:inherit;color:inherit;max-width:100%}
   padding:9px 16px;min-height:40px;border-radius:9px;cursor:pointer;transition:.16s;
 }
 .tab:hover{color:var(--text)}
+/* the poster templates page: a separate page behind the same gate, so a link, not a tab */
+.tpl-link{color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:9px 16px;min-height:40px;display:inline-flex;
+  align-items:center;border-radius:12px;border:1px solid var(--line2);background:var(--card2)}
+.tpl-link:hover{border-color:var(--accent)}
 .tab[aria-selected=true]{background:linear-gradient(140deg,var(--accent),var(--deep));color:#fff;box-shadow:0 6px 18px rgba(91,61,245,.42)}
 @media(max-width:430px){
   .topbar{padding-left:12px;padding-right:12px;gap:8px}
@@ -527,6 +531,7 @@ html.picking #cv{cursor:crosshair}
     <button class="tab" role="tab" id="tab-poll" aria-selected="false" aria-controls="view-poll" tabindex="-1">Polls</button>
     <button class="tab" role="tab" id="tab-set" aria-selected="false" aria-controls="view-set" tabindex="-1">Settings</button>
   </nav>
+  <a class="tpl-link" href="/studio/templates">Templates</a>
 </header>
 
 <main>
