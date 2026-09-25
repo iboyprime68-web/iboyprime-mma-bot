@@ -1,5 +1,6 @@
 {
   "seen": {
+    "005b46939d86e988": 1790360560.545665,
     "9401da2e29f30966": 1790360537.7127464,
     "2543230155aa0e4f": 1790360513.6168113,
     "62d1f7ea5670ab6f": 1790360484.9888825,
@@ -2498,8 +2499,7 @@
     "8d95e0fdc0f7045e": 1789825831.6777198,
     "b7ffd629faeacc5c": 1789825766.686516,
     "02736384e54dccca": 1789825392.1037834,
-    "41b752ec894e75a1": 1789825392.1034813,
-    "a93e821404414f55": 1789824893.6981754
+    "41b752ec894e75a1": 1789825392.1034813
   },
   "initialized": true,
   "v": 4,
@@ -4519,13 +4519,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T12:30:01+00:00",
       "cluster": "ce7fb98fb5d"
+    },
+    {
+      "t": "Dustin Poirier and Jorge Masvidal both in full agreement about Ciryl Gane vs Josh Hokit prediction",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-25T15:00:00+00:00",
+      "cluster": "c37a510898b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T18",
-    4
+    5
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-may-step-away-from-UFC-if-yearend-fight-falls-through-202798",
