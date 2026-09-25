@@ -1,5 +1,9 @@
 {
   "seen": {
+    "67aa5ae3d3d388e8": 1790295094.2689223,
+    "4657a0ccfc1f4d1e": 1790295094.0442395,
+    "5f5040f19e818569": 1790295094.0427642,
+    "6b45f97ecf7e4562": 1790295094.0410032,
     "912d5bc7ec70584a": 1790295028.1471014,
     "74c8a8b983cfc4e0": 1790294962.188194,
     "9dbcaf16b381435a": 1790294961.9126155,
@@ -2495,11 +2499,7 @@
     "0ecbf3b045603966": 1789773770.1579204,
     "239b54c0d80345c9": 1789773770.1402078,
     "a5c41543105e6768": 1789773704.802188,
-    "eecb0c2345436315": 1789773704.064874,
-    "aaa90ff6ea33164e": 1789773704.0454922,
-    "99f3d414a01e8090": 1789773640.3646653,
-    "57c550758925e56d": 1789773575.7239764,
-    "b202d4731e3d1d19": 1789773575.0570862
+    "eecb0c2345436315": 1789773704.064874
   },
   "initialized": true,
   "v": 4,
@@ -4711,13 +4711,19 @@
       "source": "heavy.com",
       "ts": "2026-09-25T00:06:00+00:00",
       "cluster": "cff5a0f47f0"
+    },
+    {
+      "t": "Jorge Masvidal Explains Why Justin Gaethje vs. Ilia Topuria Rematch Trumps An Arman Fight",
+      "source": "LowKickMMA.com",
+      "ts": "2026-09-25T00:08:15+00:00",
+      "cluster": "cc4f50c8c5b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T00",
-    6
+    7
   ],
   "yt_eval": [
     "CBMimAFBVV95cUxOYUx5RDJFM3YxRVVmZ0hyNlRKdE5tUFJ3bV9GczhYeEVxUEUyZUM5ZXo3VVdMdVIxZ0E2dHVyOWlJWnJOVFlxdTE0MkxobGFtNkQ3RDRmTlFJZ0ZsSHkxLU1OcEQyU3RxcGRzUU1WY1lJdXg2aF9na2N2RUNPem1LaDNzeVNfa0RHaDZCWmlSUi1SdXVlRk5hdg",
