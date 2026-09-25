@@ -1,5 +1,8 @@
 {
   "seen": {
+    "943321b9ed3f494b": 1790343535.054632,
+    "1653d517ab2ca4f4": 1790343534.6916032,
+    "5408a6a767667c57": 1790343534.6883297,
     "e9fa2716bbee5620": 1790343467.2471662,
     "cfb5d3d77f5a010a": 1790343398.5741048,
     "1d17417a736709dc": 1790343330.089732,
@@ -2496,10 +2499,7 @@
     "fd4d9d81695585eb": 1789809900.5704575,
     "2801ca28afb78c1d": 1789809774.6647854,
     "27da6eaa13bd53ab": 1789809462.03136,
-    "6eeb31d2e72e696f": 1789809461.8038492,
-    "691f817126a1d4b7": 1789809332.721367,
-    "4c6bb4f0735e2311": 1789809267.1030903,
-    "9c5f765104fe5204": 1789809139.8317847
+    "6eeb31d2e72e696f": 1789809461.8038492
   },
   "initialized": true,
   "v": 4,
@@ -4627,13 +4627,19 @@
       "source": "MMA Junkie",
       "ts": "2026-09-25T12:50:00+00:00",
       "cluster": "cacb5704dbb"
+    },
+    {
+      "t": "DWCS Season 10 Episode 8 Preview: Athletes, Bouts, Start Time, Streaming",
+      "source": "UFC.com",
+      "ts": "2026-09-25T13:00:00+00:00",
+      "cluster": "cf0c58111b4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T13",
-    14
+    15
   ],
   "yt_eval": [
     "CBMi2gFBVV95cUxQTnNJTXNtU2Z5MDJzTzc2TEtUS2dZaE9FMVpYV2VMVWllWDZDUHR5eC1yZWVUZFYzQVAxbmVqRkhOTUN0QVlaRnkwRHp2MFNGSl9hbFZ3ZWtiN01ydkdFZGVoT0pqdlVON1IxZHFSaHJGSkJNRmwxY2huUENjbG0zTUw5bmJmVEduMWJDU25rMTQ0WGxGR19qcnFWM0E4YXk3U0VkeEJ1MmNtVllTdWQwbjZwalJkcFlxTEJQNmxYU041M2tYcUdIZGlleTR5YTF1Sm5tdFdIUk9ZQQ",
