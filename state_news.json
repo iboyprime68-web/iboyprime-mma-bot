@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1c69a3183b5c2252": 1790344350.6460931,
     "4b5690db2b4e58d2": 1790344284.4442897,
     "001cba2f4a7f4977": 1790344218.9507039,
     "777f1ff4940396a2": 1790344218.5218258,
@@ -2498,8 +2499,7 @@
     "25490c89b353ad6a": 1789823062.977934,
     "ab4c870f70fbc91a": 1789823062.97607,
     "638fc39e61cdb467": 1789822998.0095665,
-    "045b74b306830f15": 1789822997.7084088,
-    "ac01294a0fd3dd69": 1789822933.1898627
+    "045b74b306830f15": 1789822997.7084088
   },
   "initialized": true,
   "v": 4,
@@ -4681,13 +4681,19 @@
       "source": "Sportskeeda",
       "ts": "2026-09-25T13:30:00+00:00",
       "cluster": "c8d3961055f"
+    },
+    {
+      "t": "Gilbert Burns Backs Justin Gaethje Amid Retirement Questions",
+      "source": "MiddleEasy",
+      "ts": "2026-09-25T13:30:00+00:00",
+      "cluster": "c3149a1a68a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T13",
-    27
+    28
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331557",
@@ -7065,13 +7071,22 @@
     "0fea11168e7fd6ea": 1790298995.149423,
     "28e264d4d83d56b5": 1790299179.6185896,
     "70c3f12057c9f3b4": 1790321171.2707324,
-    "631a2bd76214aa3a": 1790343950.207366
+    "631a2bd76214aa3a": 1790343950.207366,
+    "1c69a3183b5c2252": 1790344350.209784
   },
   "pinged_titles": [
     [
       "Why 21-Year-Old UFC Bantamweight Is Plotting His Early Retirement",
       1790343950.207366,
       []
+    ],
+    [
+      "Gilbert Burns Backs Justin Gaethje Amid Retirement Questions",
+      1790344350.209784,
+      [
+        "burns",
+        "gaethje"
+      ]
     ]
   ]
 }
