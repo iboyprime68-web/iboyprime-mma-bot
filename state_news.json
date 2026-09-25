@@ -4510,7 +4510,6 @@
     7
   ],
   "yt_eval": [
-    "dbba886f-2ade-365f-a06f-0147faca0bd8",
     "https://bloodyelbow.com/?p=331508",
     "https://bloodyelbow.com/?p=331511",
     "85308655-3f02-3c6e-af96-707ed4c1d7a1",
@@ -6009,25 +6008,17 @@
     "https://www.mmafighting.com/?p=512362",
     "453c14fc-0672-3d64-b978-833f50631842",
     "https://bloodyelbow.com/?p=333575",
-    "6ed24bbf-6b88-3f35-919b-3b1004b8c785"
+    "6ed24bbf-6b88-3f35-919b-3b1004b8c785",
+    "28e2ae42-f981-3168-8764-a5a377f3be7f"
   ],
   "daily": {
     "d": "2026-09-25",
-    "ai": 24,
+    "ai": 25,
     "staged": 2,
-    "prio": 1,
+    "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-14T22:41:46.944956+00:00",
-      "t": "BKB 60 fight card finalized for Oct. 10 debut in Newcastle",
-      "names": [
-        "oct",
-        "newcastle"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-15T01:17:10.605049+00:00",
       "t": "Renato Moicano vs. Brian Ortega scrapped from UFC 331; Moicano gets moved to new card",
@@ -6813,6 +6804,14 @@
         "thompson"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-25T07:26:14.722393+00:00",
+      "t": "Raul Rosas Jr. has wild UFC checklist before potential retirement at 25",
+      "names": [
+        "rosas"
+      ],
+      "img": "cutout:khalil-rountree-jr"
     }
   ],
   "seed_pending": [],
