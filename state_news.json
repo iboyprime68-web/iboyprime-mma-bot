@@ -1,5 +1,7 @@
 {
   "seen": {
+    "c5ad14d8164de91e": 1790342870.9274037,
+    "453d9afe14fe662b": 1790342870.5186543,
     "fb1a9dbdbf5b2e1c": 1790342841.4443173,
     "d22dfdb48767cfc7": 1790342814.4259741,
     "f7cf556d5ed5b6f8": 1790342814.139364,
@@ -2497,9 +2499,7 @@
     "41e555e8b3462318": 1789808008.5087645,
     "153ba315133e7ca9": 1789808008.2760122,
     "87d6f302d10fe647": 1789808008.274029,
-    "092268b51cba6d14": 1789808008.272281,
-    "16bce135252ac9c9": 1789807943.8821373,
-    "3d7283ecfe7ae930": 1789807874.862206
+    "092268b51cba6d14": 1789808008.272281
   },
   "initialized": true,
   "v": 4,
@@ -4567,13 +4567,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-25T12:00:00+00:00",
       "cluster": "c95ff7f0079"
+    },
+    {
+      "t": "Tony Ferguson claims he taught Arman Tsarukyan elbow that knocked out Mauricio Ruffy at UFC 331",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-25T13:00:00+00:00",
+      "cluster": "ceb2279433e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T13",
-    4
+    5
   ],
   "yt_eval": [
     "CBMijAJBVV95cUxPRUphQ012OHk4MUY1Z2lLRmZjSFpNY1V1TW1ZRXRGVGd4ZzJ1T1RqN0NMSjJVWXlzYUY2NlNFclItZDFub3prTnN2dVozMTQ0bC00Uzc2R3JJOTUtUXQ4WEU5cjkxQXpQNVp1OURDUTR4TXJNelF5V05sTzRqX2ZKRjVxN1NGUm1ldnVTTUVuMWswZExxSTRyWlpHLU5lLXhKR05RanZhck1adU5OVUFUc3lXWC03SFRDczc4cDdIck1MTEQ1OGppcTk0RzNkLXZQWlV2UUxvTmdUSFU3MU9abC1GTnpReHFTNy1KZllQdlFENS1yQ1djZGhMWXlvRGc4c2R4bHR4bnVLMXVs0gGSAkFVX3lxTFBDdzFtYU5HU1hLSU0tQm1Kd1hhZVVUbjEwemJnUXhKb1dTSXZGc3Nrc0NvXzFXUl9uQTVpZGszMGV2SkpBWjJRUmtmVE5ISUZPUmt3UHdYY01EMkZTQnlmWUZvclA1ZXluaTFoX3FIdFd5VVhid3BmNVczQXpHcTdkZWJrM3hGMHJrOVZFVl8xV09vT2hncFI5UzgwTi11Rm9nSGVVMXZyMkdlQnBPUEszQjRQX2hDaWxUZWtQckM1WnRsaERJcmUzak1iTkQ4MzkxS0NOVkVfTHRiUFBPRmxmVjNMV1NuYW1UeVhoVDVMR2d3QjlmeEJhZThkall2YmFYc2l5c3pfeDdVYXprVC1QTmc",
