@@ -1,5 +1,7 @@
 {
   "seen": {
+    "977ca2b4e875d152": 1790360741.9322948,
+    "4a385b5c989b4f5e": 1790360741.5519354,
     "f31e7c68cf01b91c": 1790360676.6511896,
     "738ce9798e04305f": 1790360652.866232,
     "b436405edb9f85cd": 1790360630.0769098,
@@ -2497,9 +2499,7 @@
     "5e178a6987cf4774": 1789835003.878118,
     "138c12dd86f682e2": 1789834939.4482524,
     "92d7d2aaa5889596": 1789834895.399897,
-    "34c3dc1cbcb171d6": 1789834872.1281853,
-    "6e823429cf281143": 1789834871.6783307,
-    "bb181cdb4f5e3fbb": 1789834848.1410177
+    "34c3dc1cbcb171d6": 1789834872.1281853
   },
   "initialized": true,
   "v": 4,
@@ -4555,13 +4555,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T15:00:00+00:00",
       "cluster": "c31c21b99be"
+    },
+    {
+      "t": "UFC Fight Night 289 weigh-ins: Perfect session – eventually – in Vegas",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T15:01:00+00:00",
+      "cluster": "cd2ae10e91e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T18",
-    10
+    11
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-may-step-away-from-UFC-if-yearend-fight-falls-through-202798",
