@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7ac5a85cfdd48e12": 1790321057.9163976,
     "584ac63e83e260b8": 1790321032.1456528,
     "5531e188f690a79b": 1790321005.18056,
     "829197c8b2a81d2c": 1790321004.8278239,
@@ -2498,8 +2499,7 @@
     "f608ad2775c4ae6b": 1789790379.4471352,
     "e4f56c5efca81607": 1789790355.6886647,
     "189f404eefd120c3": 1789790332.57509,
-    "0e889c77c3d403a9": 1789790309.0993109,
-    "f60ad38b1127cb96": 1789790285.4067106
+    "0e889c77c3d403a9": 1789790309.0993109
   },
   "initialized": true,
   "v": 4,
@@ -4483,13 +4483,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T02:07:15+00:00",
       "cluster": "c150614a60f"
+    },
+    {
+      "t": "Israel Adesanya insists UFC ‘got it wrong’ while launching staunch defense of Michael ‘Venom’ Page",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-25T05:00:00+00:00",
+      "cluster": "c05dc63c4d5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T07",
-    4
+    5
   ],
   "yt_eval": [
     "1f30dd5e-93b7-382b-a03e-35ccd23e65e9",
