@@ -353,6 +353,13 @@ check("the page can still draw what it builds itself (data: and blob: images)",
   cspDir("img-src").includes("data:") && cspDir("img-src").includes("blob:"));
 check("default-src is still 'none', so nothing else loads by accident",
   STUDIO_CSP.indexOf("default-src 'none'") === 0);
+// Sept 25 2026: the templates page grades in Web Workers built from a blob of its own source.
+// The CSP gained exactly that (worker-src blob:) and nothing else: same directives, same values.
+check("the studio CSP gained ONLY worker-src blob: (default-src still 'none' and first, scripts still self + inline)",
+  JSON.stringify(STUDIO_CSP.split("; ").map(d => d.split(" ")[0])) === JSON.stringify(["default-src", "img-src", "style-src",
+    "font-src", "script-src", "worker-src", "connect-src", "form-action", "base-uri", "frame-ancestors"])
+  && cspDir("worker-src") === "worker-src blob:" && cspDir("script-src") === "script-src 'self' 'unsafe-inline'"
+  && STUDIO_CSP.indexOf("default-src 'none'; ") === 0 && !/child-src|unsafe-eval|wasm/.test(STUDIO_CSP));
 check("studio responses are never cached", gate.headers.get("cache-control") === "no-store");
 
 // ----- sign in -----
@@ -2450,6 +2457,16 @@ if (wrangler !== null) {
     fs[0].oppHead === "/studio/api/ufcimg?p=" + encodeURIComponent("/images/2025-05/KHAMZAT_CHIMAEV_10-26.png"));
   check("ufc: a card that does not involve the athlete is skipped",
     _test.parseUfcFights(page, "someone-else").length === 0);
+  check("ufc: an opponent's alt text 'Fighter portrait of X' becomes X (never printed on a poster verbatim)",
+    _test.ufcAltName("Fighter portrait of Aljamain Sterling", "aljamain-sterling") === "Aljamain Sterling"
+    && _test.ufcAltName("Portrait of Petr Yan", "petr-yan") === "Petr Yan" && _test.ufcAltName("Merab Dvalishvili", "x") === "Merab Dvalishvili"
+    && _test.ufcAltName("", "sean-o-malley") === "Sean O Malley" && _test.ufcAltName("image of fighter 123", "petr-yan") === "Petr Yan");
+  {
+    const altPage = card("Petr Yan", "petr-yan", "Aljamain Sterling", "aljamain-sterling", "win", "Decision - Split", "5", "ufc-280")
+      .replace(/alt="[^"]*"/g, 'alt="Fighter portrait of Aljamain Sterling"');
+    const fa = _test.parseUfcFights(altPage, "petr-yan");
+    check("ufc: the fight history reads the cleaned name from a captioned alt text", fa.length === 1 && fa[0].opp === "Aljamain Sterling", JSON.stringify(fa[0] && fa[0].opp));
+  }
 
   const evPage = '<div class="field field--name-node-title field--type-ds"><h1> UFC 333 </h1></div>'
     + '<span class="e-divider__top">Volkanovski</span><span class="e-divider__bottom">Evloev</span>'
@@ -2472,6 +2489,21 @@ if (wrangler !== null) {
     && /event_fight_card_upper_body/.test(decodeURIComponent(ev.fights[0].red.imgSmall)) && !/styles/.test(decodeURIComponent(ev.fights[0].red.img)));
   check("ufc: bouts below the prelims marker are labelled prelims, the rest main card",
     ev.fights[0].card === "main" && ev.fights[1].card === "prelims");
+  {
+    // ufc.com sometimes writes a corner name as plain link text (no given / family spans): UFC 332's
+    // Soldic vs Khaos Williams was dropped from the card
+    const plain = fight("Welterweight Bout", ["Roberto", "Soldic", "roberto-soldic"], ["Khaos", "Williams", "khaos-williams"])
+      .replace('<a><span class="c-listing-fight__corner-given-name">Khaos</span> <span class="c-listing-fight__corner-family-name">Williams</span></a>',
+               '<a href="https://www.ufc.com/athlete/khaos-williams">Khaos Williams</a>');
+    const ev2 = _test.parseUfcEvent(evPage + plain, "ufc-332");
+    check("ufc: a corner written as a plain link still gets its name (split on the last space)",
+      ev2.fights.length === 1 && ev2.fights[0].blue.first === "Khaos" && ev2.fights[0].blue.last === "Williams" && ev2.fights[0].red.last === "Soldic",
+      JSON.stringify(ev2.fights[0] && ev2.fights[0].blue));
+    const bare = fight("Welterweight Bout", ["Roberto", "Soldic", "roberto-soldic"], ["Khaos", "Williams", "khaos-williams"])
+      .replace('<a><span class="c-listing-fight__corner-given-name">Khaos</span> <span class="c-listing-fight__corner-family-name">Williams</span></a>', '');
+    const ev3 = _test.parseUfcEvent(evPage + bare, "ufc-332");
+    check("ufc: a corner with no name at all is named from the athlete slug", ev3.fights[0].blue.last === "Williams" && ev3.fights[0].blue.first === "Khaos");
+  }
   const evs = _test.parseUfcEvents('<a href="/events#events-list-upcoming">U</a><details id="events-list-upcoming">'
     + '<h3 class="c-card-event--result__headline"><a href="/event/ufc-333">Volkanovski vs Evloev</a></h3><div data-main-card-timestamp="1792864800"></div>'
     + '<h3 class="c-card-event--result__headline"><a href="/event/ufc-fight-night-october-10-2026">Allen vs Duncan</a></h3><div data-main-card-timestamp="1791676800"></div>'
@@ -2554,23 +2586,60 @@ if (wrangler !== null) {
   check("templates page: no betting language anywhere (owner law)", !/\b(odds|betting|bet|parlay|sportsbook|wager|favou?rite to win)\b/i.test(P));
   check("templates page: it only talks to its own origin (no external fetch or script)",
     !/fetch\("https?:/.test(pscript) && !/<script[^>]+src=/.test(P));
-  const ids = (pscript.match(/def\(\{\s*id: "([a-z0-9]+)"/g) || []).map(s => s.replace(/.*"([a-z0-9]+)"$/, "$1"));
-  check("templates page: fourteen templates, unique ids, each with a draw(), and no Breaking template (owner verdict)",
-    ids.length === 14 && new Set(ids).size === 14 && (pscript.match(/draw: function \(\)/g) || []).length === 14
-    && ids.indexOf("breaking") === -1);
-  check("templates page: the edge light is painted INSIDE the silhouette on the side facing a light - no outer glow, no bloom",
-    /var lam = \(nx \* lx \+ ny \* ly\) \/ dist;/.test(pscript) && /x\.globalCompositeOperation = "destination-in"; x\.drawImage\(keep, 0, 0\);/.test(pscript)
-    && !/function rimLayers/.test(pscript) && !/bloom = mkCanvas/.test(pscript));
+  const ids = (pscript.match(/def\(\{\s*id: "([a-z0-9]+)"/g) || []).map(s => s.replace(/[^]*"([a-z0-9]+)"$/, "$1"));
+  const NEW_TPLS = ["headline", "pop", "split", "cards", "titlecards", "photocard"];
+  check("templates page: twenty templates (the fourteen plus the six approved looks), unique ids, each with a draw(), and no Breaking template (owner verdict)",
+    ids.length === 20 && new Set(ids).size === 20 && (pscript.match(/draw: function \(\)/g) || []).length === 20
+    && ids.indexOf("breaking") === -1 && NEW_TPLS.every(id => ids.indexOf(id) !== -1));
+  check("templates page: the painted edge light is still inside the silhouette only (no outer glow, no bloom) and it defaults to OFF",
+    /var lam = \(nx \* lx \+ ny \* ly\) \/ dist;/.test(pscript) && /x\.globalCompositeOperation = "destination-in"; x\.drawImage\(hl\.c, 0, 0\);/.test(pscript)
+    && !/function rimLayers/.test(pscript) && !/bloom = mkCanvas/.test(pscript)
+    && /fx: \{ glow: [0-9.]+, rim: 0, /.test(pscript) && /if \(d\.v === 1\) \{[^}]*f\.fx\.rim = 0;/.test(pscript)
+    && /var rimK = 2\.3 \* \(o\.rim == null \? 1 : o\.rim\) \* \(doc\.fx\.rim \|\| 0\);/.test(pscript));
   check("templates page: never a red-versus-blue scheme (owner law)",
     !/CORNER|corners|"red"|"blue"|Red corner|Blue corner/.test(pscript));
-  check("templates page: Ember is the default theme and the adaptive Scene grade the default look",
-    /theme: "ember", look: "scene"/.test(pscript) && /var THEMES = \[\s*\{ id: "ember"/.test(pscript));
-  check("templates page: the grade tone-maps LUMINANCE and sets saturation from measured chroma (no orange skin)",
-    /var sat = L\.mono \? 0 : clamp\(L\.chroma \/ Math\.max\(1, cs \/ cn \/ 255\), 0\.5, 0\.95\);/.test(pscript)
-    && /q = l2 \/ Math\.max\(1, l\);/.test(pscript));
+  check("templates page: ONE theme list - ember (the default) first, pink, violet, gold, crimson, toxic; no blue ice, no mono",
+    /var THEME_IDS = \["ember", "pink", "violet", "gold", "crimson", "toxic"\];/.test(pscript)
+    && /var VIVID_ORDER = \["ember", "pink", "violet", "gold", "crimson", "toxic"\];/.test(pscript)
+    && /tpl: "headline", size: "1x1", theme: "ember",/.test(pscript)
+    && !/id: "ice"|"Ice"|id: "mono"/.test(pscript) && /if \(THEME_IDS\.indexOf\(f\.theme\) === -1\) f\.theme = "ember";/.test(pscript)
+    && /function vividTheme\(id\) \{ return VIVID_THEMES\[themeById\(id\)\.id\]/.test(pscript));
+  check("templates page: the looks are the approved grades (carved, gritty, pop, vivid, natural); the old darkening grade is gone",
+    /\{ id: "carved",\s+name: "Carved",\s+mode: "color" \}/.test(pscript) && /\{ id: "gritty",\s+name: "Gritty",\s+mode: "mono" \}/.test(pscript)
+    && /\{ id: "pop",\s+name: "Color pop",\s+mode: "pop" \}/.test(pscript) && /\{ id: "vivid",\s+name: "Vivid",\s+mode: "vivid" \}/.test(pscript)
+    && /\{ id: "natural",\s+name: "Natural",\s+mode: "natural" \}/.test(pscript)
+    && !/function gradePixels|function gradedOf|TILE_LOOK|id: "scene"|id: "noir"/.test(pscript));
+  check("templates page: the approved ports are pasted whole (grade_gritty as gritFactory, grade_vivid as vividLib, the card canvas)",
+    /function gritFactory\(\) \{/.test(pscript) && /var GRIT = gritFactory\(\);/.test(pscript) && /function vividLib\(\) \{/.test(pscript)
+    && /var GVL = vividLib\(\);/.test(pscript) && /function gradeSubject\(img, mode, opts\)/.test(pscript) && /function gradeVivid\(img, opts\)/.test(pscript)
+    && /function drawVividV1\(ctx, W, H, th, dark, d\)/.test(pscript) && !/module\.exports/.test(pscript));
+  check("templates page: the light-ground card title is held to 3.5:1 (drawVividV1/V2/V3 pass minContrast)",
+    /var VC_TITLE_MIN = 3\.5;/.test(pscript) && (pscript.match(/minContrast: VC_TITLE_MIN/g) || []).length === 3);
   check("templates page: small type is solid, only display type gets a gradient",
-    /var small = Math\.abs\(y1 - y0\) < 46;/.test(pscript));
-  check("templates page: studio mattes are defringed before a cut-out is used", /defringe\(a\.img\);/.test(pscript));
+    /var small = Math\.abs\(y1 - y0\) < 46;/.test(pscript) && /else if \(cap < 46\) fill = o\.white \? "#FFFFFF" : R\.pal\.a;/.test(pscript));
+  check("templates page: cut-outs reach the grade PRISTINE (no in-place defringe; the grades defringe themselves) and meter on the neck-hooked face box",
+    !/defringe\(a\.img\)/.test(pscript) && /var nk = GRIT\.neckFromRows\(rows, y0, hw\);/.test(pscript) && /a\.fbox = GRIT\.faceFromHead\(a\.head, a\.w, a\.h\);/.test(pscript)
+    && /x\.drawImage\(a\.im, rx \* k, ry \* k, rw \* k, rh \* k, 0, 0, ow, oh\);/.test(pscript));
+  check("templates page: the heavy grades run in a Web Worker built from a blob of the page's own library source",
+    /URL\.createObjectURL\(new Blob\(\[workerSource\(\)\], \{ type: "text\/javascript" \}\)\)/.test(pscript) && /new Worker\(GW\.url\)/.test(pscript)
+    && /"var GRIT = \(" \+ gritFactory\.toString\(\) \+ "\)\(\);"/.test(pscript) && /vividLib\.toString\(\)/.test(pscript) && /runJob\.toString\(\)/.test(pscript));
+  check("templates page: an export uses EXACT grades only and waits for them (never ships the fast preview)",
+    /out = renderTo\(c\.getContext\("2d"\), t, \{ editor: false, exact: true, capK: capK \}\);/.test(pscript)
+    && /waitKeys\(out\.pending\)\.then\(attempt\);/.test(pscript)
+    && /if \(R\.exact\) \{\s*var ex = subjectJob\(a, sp, false, 0, null\);/.test(pscript)
+    && /\$\("dlBtn"\)\.addEventListener\("click", function \(\) \{[^]*?exportBlob\(id0\)/.test(pscript)
+    && /var b0 = this, p = exportBlob\(doc\.tpl\);/.test(pscript) && /png: function \(id\) \{ return exportBlob\(id\); \}/.test(pscript));
+  check("templates page: the cut-out client posts the raw photo to /studio/api/cutout and caches by the photo's SHA-256",
+    /fetch\("\/studio\/api\/cutout", \{ method: "POST", credentials: "same-origin", body: blob,/.test(pscript)
+    && /crypto\.subtle\.digest\("SHA-256", buf\)/.test(pscript) && /hash = "cut:" \+ String\(h\)\.slice\(0, 40\);/.test(pscript)
+    && /return idbGet\(hash\)\.then\(function \(cached\) \{\s*if \(!cached\) return fresh\(\);/.test(pscript)
+    && /function fresh\(\) \{\s*return cutRequest\(b\)/.test(pscript));
+  check("templates page: a photo dropped on a fighter slot is cut out automatically; the photo stays until the cut-out swaps in",
+    /if \(need && !a\.cut\) \{ commitNow\(\); cutInto\(\{ id: h\.id, kind: sd\.kind, tpl: tid0 \}, a, need\); return; \}/.test(pscript)
+    && /else if \(slotKey\(t\.id, t\.tpl\) === a\.key\) \{ setSlot\(t\.id, c\.key, t\.tpl\);/.test(pscript) && / The photo stays as it was\./.test(pscript));
+  check("templates page: every new template fills itself from the fight data (fighters, opponents' headshots, the main card)",
+    /from: "A\.opp0"/.test(pscript) && /from: "A\.opp1"/.test(pscript) && /from: "card\.other"/.test(pscript)
+    && /if \(doc\.cardsAuto\) autoCards\(\);/.test(pscript) && /P\.opps\[i\] = a\.key;/.test(pscript));
   check("templates page: head placement votes three measures (chin, crown, frame) and takes the median",
     /var vote = \[maxW, crown, shoulder \/ 2\.6\]\.sort/.test(pscript));
   // the text helpers, pulled out of the page and run
@@ -2593,6 +2662,634 @@ if (wrangler !== null) {
   check("templates page: surname particles stay with the surname",
     H.splitName("Dricus Du Plessis").last === "Du Plessis" && H.splitName("Ian Machado Garry").last === "Machado Garry"
     && H.splitName("Alex Pereira").first === "Alex");
+  // the grade worker's own source, rebuilt exactly as workerSource() does, and run here (node)
+  {
+    const wsrc = ["var GRIT = (" + grab("gritFactory") + ")();", ...["clamp", "lerp", "smooth", "boxBlur", "vividLib"].map(grab),
+      "var GVL = vividLib();", grab("runJob"), "return runJob;"].join("\n");
+    let runJob = null, err = "";
+    try { runJob = new Function(wsrc)(); } catch (e) { err = String(e && e.message || e); }
+    check("templates page: the worker source is self-contained (the two libraries + runJob + four page helpers)", !!runJob, err);
+    if (runJob) {
+      // a small synthetic cut-out: a head-and-shoulders ellipse pair on transparency
+      const w = 96, h = 120, px = new Uint8ClampedArray(w * h * 4);
+      for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) {
+        const o = (y * w + x) * 4, head = ((x - 48) / 18) ** 2 + ((y - 34) / 22) ** 2 < 1, body = ((x - 48) / 42) ** 2 + ((y - 120) / 58) ** 2 < 1;
+        const inside = head || body;
+        px[o] = 190 + ((x * 7 + y * 3) % 23); px[o + 1] = 140 + ((x * 5) % 17); px[o + 2] = 120 + ((y * 3) % 13); px[o + 3] = inside ? 255 : 0;
+      }
+      const sub = runJob({ type: "subject", rgba: new Uint8ClampedArray(px), w, h, mode: "color", px: 1.6875, face: [34, 16, 28, 36], upscale: 1, seed: 7 });
+      const mono = runJob({ type: "subject", rgba: new Uint8ClampedArray(px), w, h, mode: "mono", px: 1.6875, face: [34, 16, 28, 36], upscale: 1, seed: 7, fast: true });
+      const viv = runJob({ type: "subject", rgba: new Uint8ClampedArray(px), w, h, mode: "vivid", px: 1.6875, face: [34, 16, 28, 36], upscale: 1, seed: 7 });
+      const plate = runJob({ type: "plate", rgba: new Uint8ClampedArray(px.map((v, i) => i % 4 === 3 ? 255 : v)), w, h, theme: "violet", px: 1.6875, seed: 11 });
+      const ins = runJob({ type: "inset", src: "head", rgba: new Uint8ClampedArray(px), w, h, d: 80, tone: 0.4, seed: 21, mode: "inset", px: 1.6875, upscale: 1 });
+      const grey = (b) => { let s = 0, n = 0; for (let i = 0; i < b.length; i += 4) if (b[i + 3] > 200) { s += Math.abs(b[i] - b[i + 1]) + Math.abs(b[i + 1] - b[i + 2]); n++; } return s / Math.max(1, n); };
+      check("the worker grades a cut-out (carved colour, gritty mono, vivid): same size, the matte kept, mono is grey",
+        sub.w === w && sub.h === h && sub.rgba.length === w * h * 4 && sub.rgba[3] === 0 && sub.rgba[(40 * w + 48) * 4 + 3] > 200
+        && mono.rgba.length === w * h * 4 && grey(mono.rgba) < 4 && grey(sub.rgba) > 8 && viv.rgba.length === w * h * 4);
+      let hmax = 0; for (let i = 0; i < plate.rgba.length; i += 4) { const r = plate.rgba[i], b = plate.rgba[i + 2]; if (b > r) hmax++; }
+      check("the worker grades a plate into the theme (opaque, violet leans blue-red, never grey)", plate.rgba[3] === 255 && hmax > plate.rgba.length / 8);
+      check("the worker builds a circle inset (the circle, a ring and a shadow margin)", ins.w === ins.h && ins.w > 80 && ins.m === Math.round(80 * 0.14));
+    }
+  }
+  // the cut-out client's answer to every status the Worker route can give
+  {
+    const CM = new Function(grab("cutMessage") + " return cutMessage;")();
+    const ms = [413, 415, 429, 502, 503].map(st => CM(st, {}));
+    check("templates page: the cut-out client has a clear message for 413, 415, 429, 502 and 503 (and keeps the photo)",
+      ms.every(m => typeof m === "string" && m.length > 20) && new Set(ms).size === 5
+      && /10 MB/.test(ms[0]) && /JPEG, PNG, WebP or AVIF/.test(ms[1]) && /not switched on/.test(ms[4])
+      && CM(429, { error: "Today's cut-out limit (100) is reached." }) === "Today's cut-out limit (100) is reached."
+      && CM(502, { error: "This month's free Cloudflare background removals (5,000) are used up." }).indexOf("5,000") > 0
+      && CM(503, { error: "cutout not configured" }) === ms[4] && /HTTP 500/.test(CM(500, {})));
+  }
+  // ===== Sept 25 2026 review fixes: the behaviour, run here (node) =====
+  // the export: exact grades only, a failed grade retried and then REFUSED, never a preview or an
+  // ungraded image in its place; it waits for a cut-out that is still running; a quote template
+  // refuses its sample quote
+  await (async () => {
+    const src = ["settle", "waitSources", "waitKeys", "mustEditMsg", "joinNames", "exportCanvas", "fieldOf"].map(grab).join("\n");
+    const mk = new Function(`
+      var W = 1080, H = 1080, R = null, cv = { height: 1080 }, JOBS = {}, jobFails = {}, plateImg = {}, plateTries = {}, plateWait = {};
+      var cutBusy = {}, upgrading = {}, notes = [], renders = [], script = null;
+      var TPL = { t1: { id: "t1" }, q: { id: "q", mustEdit: ["quote"], fields: [{ id: "quote", label: "Quote" }] } };
+      var doc = { tpl: "t1", text: {} };
+      function mkCanvas() { return { canvas: true, getContext: function () { return {}; } }; }
+      function plate() { }
+      function exportNote(m) { notes.push(m); }
+      function jobsDone(keys) { return Promise.resolve(); }
+      function renderTo(ctx, t, o) { renders.push({ t: t.id, capK: o.capK, exact: o.exact, at: Date.now() }); return script(renders.length, o); }
+      ${src}
+      return { exportCanvas: exportCanvas, set: function (f) { script = f; renders.length = 0; }, renders: renders, JOBS: JOBS, cutBusy: cutBusy, doc: doc, notes: notes };`);
+    const X = mk();
+    // a key that always fails: two retries (the second on a smaller working size), then refused
+    X.set(() => { X.JOBS.k1 = { st: "err" }; return { pending: [], failed: ["k1"], failedLabels: ["Fighter"], error: "" }; });
+    let msg = "";
+    await X.exportCanvas("t1").then(() => { msg = "RESOLVED"; }, (e) => { msg = e.message; });
+    check("export: a grade that keeps failing is retried twice (the second time smaller) and then REFUSED with the slot's name",
+      /full-quality grade failed for Fighter[.] Nothing was exported/.test(msg) && X.renders.length === 3
+      && X.renders[0].capK === 1 && X.renders[2].capK === 0.6 && X.renders.every((r) => r.exact === true), msg + " / renders " + X.renders.length);
+    // a key that fails once and then lands: exported
+    X.set((n) => n === 1 ? { pending: [], failed: ["k2"], failedLabels: ["Card 1"], error: "" } : { pending: [], failed: [], failedLabels: [], error: "" });
+    const c2 = await X.exportCanvas("t1").catch((e) => e);
+    check("export: a grade that fails once and then lands is exported (after one retry)", c2 && c2.canvas === true && X.renders.length === 2);
+    // a draw error never becomes a PNG with an error banner
+    X.set(() => ({ pending: [], failed: [], failedLabels: [], error: "boom" }));
+    msg = ""; await X.exportCanvas("t1").then(() => { msg = "RESOLVED"; }, (e) => { msg = e.message; });
+    check("export: a draw error rejects (no render-error banner is ever shipped)", /could not be drawn [(]boom[)]/.test(msg), msg);
+    // pending keys are waited for, then the export renders again
+    X.set((n) => n === 1 ? { pending: ["k3"], failed: [], failedLabels: [], error: "" } : { pending: [], failed: [], failedLabels: [], error: "" });
+    const c3 = await X.exportCanvas("t1").catch((e) => e);
+    check("export: it waits for the exact grades still pending and renders again", c3 && c3.canvas === true && X.renders.length === 2);
+    // a cut-out still running is waited for BEFORE anything renders
+    let release; X.cutBusy.p1 = new Promise((r) => { release = r; });
+    X.set(() => ({ pending: [], failed: [], failedLabels: [], error: "" }));
+    const tA = Date.now(), pA = X.exportCanvas("t1");
+    await new Promise((r) => setTimeout(r, 60));
+    const before = X.renders.length;
+    release(); delete X.cutBusy.p1;
+    await pA;
+    check("export: it waits for a cut-out that is still running before it renders (never the uncut photo)",
+      before === 0 && X.renders.length === 1 && X.renders[0].at - tA >= 50 && X.notes.some((m) => /cut-out/.test(m || "")));
+    // the sample quote is never exported
+    X.set(() => ({ pending: [], failed: [], failedLabels: [], error: "" }));
+    msg = ""; await X.exportCanvas("q").then(() => { msg = "RESOLVED"; }, (e) => { msg = e.message; });
+    X.doc.text.q = { quote: "I WILL KNOCK HIM OUT" };
+    const okQ = await X.exportCanvas("q").then(() => true, () => false);
+    check("export: a quote template refuses its sample quote, and exports once the owner has typed one",
+      /Type the real quote first/.test(msg) && X.renders.length === 1 && okQ, msg);
+  })();
+  check("export: the drawing paths never put a preview or an ungraded image into an export",
+    /if \(!used && R\.exact\) return null;/.test(pscript) && /else if \(!R\.exact && lastRes\[tag\] && lastRes\[tag\]\.a === a\) used = lastRes\[tag\];/.test(pscript)
+    && /if \(!res && R\.exact\) return 1;/.test(pscript) && /\/\/ an export never draws the ungraded source in its place[^]{0,120}if \(R\.exact\) return;/.test(pscript)
+    && /R\.error = String\(\(e && e\.message\) \|\| e\);/.test(pscript)
+    && /exportBlob\(id0\)/.test(pscript) && /a\.download = id0 \+ "-" \+ stamp\(\) \+ "\.png";/.test(pscript));
+  check("export: it also waits for a UFC master still downloading and for a texture still loading (or fetches it again)",
+    /upgrading\[key\] = fetchBlob\(big\)/.test(pscript) && /exportNote\("Fetching the full-size cut-out\.\.\."\)/.test(pscript)
+    && /function texNeed\(name\)/.test(pscript) && /setTimeout\(attempt, 5000 \* Math\.pow\(2, plateTries\[name\] - 1\)\)/.test(pscript));
+  check("a failed grade is retried at 15, 30 and 60 s and then left alone (never a multi-GB job every 15 s)",
+    /if \(nf <= 3 && Date\.now\(\) - \(e\.t \|\| 0\) > 15000 \* Math\.pow\(2, nf - 1\)\)/.test(pscript));
+  check("an iPhone (no navigator.deviceMemory, a coarse pointer) grades small and one job at a time",
+    /var LOW_MEM = \(function \(\) \{[^]*?if \(dm\) return dm < 4;[^]*?\(navigator\.maxTouchPoints \|\| 0\) > 1 && coarse;/.test(pscript)
+    && /GW\.max = hc >= 4 && !LOW_MEM \? 2 : 1;/.test(pscript) && /MAX_GRADE_PX = LOW_MEM \? 900000 : 1500000/.test(pscript));
+
+  // the card grade's head geometry: a curly or spiky crown made GVL.headGeometry measure a head a
+  // few px wide (Payton Talbott: 6.6 px at 1800 px tall) and the card scaled the image ~30x
+  {
+    const wsrc = ["var GRIT = (" + grab("gritFactory") + ")();", ...["clamp", "lerp", "smooth", "boxBlur", "vividLib"].map(grab),
+      "var GVL = vividLib();", grab("runJob"), "return { runJob: runJob, GVL: GVL };"].join("\n");
+    const L = new Function(wsrc)();
+    const w = 300, h = 900, px = new Uint8ClampedArray(w * h * 4), A = new Float32Array(w * h);
+    for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) {
+      const head = ((x - 150) / 48) ** 2 + ((y - 110) / 62) ** 2 < 1, neck = Math.abs(x - 150) < 26 && y > 160 && y < 200;
+      const body = ((x - 150) / 110) ** 2 + ((y - 520) / 330) ** 2 < 1 && y > 190;
+      let tuft = false;
+      for (const tx of [118, 131, 144, 157, 170, 183]) if (x >= tx && x < tx + 3 && y >= 30 && y < 56) tuft = true;
+      const on = head || neck || body || tuft, o = (y * w + x) * 4;
+      px[o] = 200; px[o + 1] = 150; px[o + 2] = 125; px[o + 3] = on ? 255 : 0; A[y * w + x] = on ? 1 : 0;
+    }
+    const gm = L.GVL.headGeometry(A, w, h);
+    const job = (hint) => L.runJob({ type: "card", rgba: new Uint8ClampedArray(px), w, h, kind: "head", cw: 296, ch: 316, headFrac: 0.6, topFrac: 0.065,
+      below: null, debelt: true, mode: "vivid", px: 1.6875, hint });
+    const c1 = job({ hw: 100, lo: 0.85, hi: 1.25 }), c0 = job(null);
+    check("card geometry: a spiky crown still fools the ported headGeometry (the case the page must catch)", gm && gm.hw < 10, JSON.stringify(gm));
+    check("card geometry: the page's head hint replaces a head under half of it, and the card is framed at a sane scale",
+      c1.hw === 100 && c1.fixed === true && c1.w === 296 && c1.h === 316 && c1.f32.length === 296 * 316 * 4, c1.hw);
+    check("card geometry: with no hint the scale is still bounded (3x at most, 12 Mpx at most)", c0.hw >= 1.25 * 0.6 * 296 / 3 - 1e-6 && c0.fixed === true, c0.hw);
+    // a sane head is left exactly as the ported code measures it (the approved V1 / V2 framing)
+    const w2 = 200, h2 = 300, p2 = new Uint8ClampedArray(w2 * h2 * 4);
+    for (let y = 0; y < h2; y++) for (let x = 0; x < w2; x++) {
+      const on = ((x - 100) / 44) ** 2 + ((y - 70) / 58) ** 2 < 1 || (((x - 100) / 95) ** 2 + ((y - 300) / 150) ** 2 < 1), o = (y * w2 + x) * 4;
+      p2[o] = 190; p2[o + 1] = 140; p2[o + 2] = 120; p2[o + 3] = on ? 255 : 0;
+    }
+    const A2 = new Float32Array(w2 * h2); for (let q = 0; q < A2.length; q++) A2[q] = p2[q * 4 + 3] / 255;
+    const g2 = L.GVL.headGeometry(A2, w2, h2);
+    const s2 = L.runJob({ type: "card", rgba: p2, w: w2, h: h2, kind: "head", cw: 296, ch: 316, headFrac: 0.6, topFrac: 0.065, below: null,
+      debelt: true, mode: "vivid", px: 1.6875, hint: { hw: g2.hw * 1.1, lo: 0.5, hi: 2.0 } });
+    check("card geometry: a sane head keeps the ported measure (hint inside the band changes nothing)", s2.hw === g2.hw && !s2.fixed, s2.hw + " vs " + g2.hw);
+
+    // owner law 1 in the vivid grades: a saturated blue kit on crimson, a saturated red kit on violet
+    const W3 = 120, H3 = 200, kit = (rgb) => {
+      const b = new Uint8ClampedArray(W3 * H3 * 4);
+      for (let y = 0; y < H3; y++) for (let x = 0; x < W3; x++) {
+        const o = (y * W3 + x) * 4, head = ((x - 60) / 22) ** 2 + ((y - 40) / 28) ** 2 < 1, body = y > 80 && Math.abs(x - 60) < 50;
+        if (head) { b[o] = 205; b[o + 1] = 155; b[o + 2] = 130; b[o + 3] = 255; } else if (body) { b[o] = rgb[0]; b[o + 1] = rgb[1]; b[o + 2] = rgb[2]; b[o + 3] = 255; }
+      }
+      return b;
+    };
+    const satAt = (bytes, x0, y0, x1, y1, stride) => {
+      let s = 0, n = 0;
+      for (let y = y0; y < y1; y++) for (let x = x0; x < x1; x++) {
+        const o = (y * stride + x) * 4, r = bytes[o], g = bytes[o + 1], b = bytes[o + 2], mx = Math.max(r, g, b), mn = Math.min(r, g, b);
+        if (bytes[o + 3] < 128) continue; s += mx ? (mx - mn) / mx : 0; n++;
+      }
+      return s / Math.max(1, n);
+    };
+    const face = [38, 12, 44, 56];
+    const blue = kit([30, 70, 220]), red = kit([215, 25, 45]);
+    const vb0 = L.runJob({ type: "subject", rgba: new Uint8ClampedArray(blue), w: W3, h: H3, mode: "vivid", px: 1.6875, face, upscale: 1, seed: 7 });
+    const vb1 = L.runJob({ type: "subject", rgba: new Uint8ClampedArray(blue), w: W3, h: H3, mode: "vivid", px: 1.6875, face, upscale: 1, seed: 7, guard: "crimson" });
+    check("law 1: a saturated blue kit keeps its colour in the vivid grade on ember, and is muted under .3 on crimson",
+      satAt(vb0.rgba, 20, 120, 100, 190, W3) > 0.5 && satAt(vb1.rgba, 20, 120, 100, 190, W3) < 0.3,
+      satAt(vb0.rgba, 20, 120, 100, 190, W3).toFixed(3) + " / " + satAt(vb1.rgba, 20, 120, 100, 190, W3).toFixed(3));
+    const vr1 = L.runJob({ type: "subject", rgba: new Uint8ClampedArray(red), w: W3, h: H3, mode: "vivid", px: 1.6875, face, upscale: 1, seed: 7, guard: "violet" });
+    const vr0 = L.runJob({ type: "subject", rgba: new Uint8ClampedArray(red), w: W3, h: H3, mode: "vivid", px: 1.6875, face, upscale: 1, seed: 7 });
+    let faceSame = true;
+    for (let y = 20; y < 55; y++) for (let x = 45; x < 75; x++) { const o = (y * W3 + x) * 4; if (vr0.rgba[o] !== vr1.rgba[o] || vr0.rgba[o + 1] !== vr1.rgba[o + 1]) faceSame = false; }
+    check("law 1: a saturated red kit on violet is muted under .3, and the face is left exactly as it was",
+      satAt(vr0.rgba, 20, 120, 100, 190, W3) > 0.5 && satAt(vr1.rgba, 20, 120, 100, 190, W3) < 0.3 && faceSame,
+      satAt(vr1.rgba, 20, 120, 100, 190, W3).toFixed(3));
+    const cc = L.runJob({ type: "card", rgba: new Uint8ClampedArray(blue), w: W3, h: H3, kind: "head", cw: 150, ch: 200, headFrac: 0.5, topFrac: 0.06,
+      below: null, debelt: false, mode: "vivid", px: 1.6875, guard: "crimson" });
+    const ccb = new Uint8ClampedArray(cc.f32.length); for (let q = 0; q < ccb.length; q++) ccb[q] = cc.f32[q] * 255;
+    check("law 1: the card grade mutes a blue kit on crimson too", satAt(ccb, 10, 150, 140, 198, 150) < 0.3, satAt(ccb, 10, 150, 140, 198, 150).toFixed(3));
+    const rgbOf = (b) => { const o = new Uint8Array(W3 * H3 * 3); for (let q = 0; q < W3 * H3; q++) { o[q * 3] = b[q * 4]; o[q * 3 + 1] = b[q * 4 + 1]; o[q * 3 + 2] = b[q * 4 + 2]; } return o; };
+    const redOpaque = new Uint8ClampedArray(red); for (let q = 3; q < redOpaque.length; q += 4) { if (!redOpaque[q]) { redOpaque[q - 3] = 40; redOpaque[q - 2] = 40; redOpaque[q - 1] = 44; } redOpaque[q] = 255; }
+    const ph = L.runJob({ type: "photo", rgb: rgbOf(redOpaque), w: W3, h: H3, mask: null, ow: W3, oh: H3, box: [45, 20, 75, 55], mode: "vivid", guard: "violet" });
+    check("law 1: the photo card mutes a red kit on violet", satAt(ph.rgba, 20, 120, 100, 190, W3) < 0.3, satAt(ph.rgba, 20, 120, 100, 190, W3).toFixed(3));
+  }
+  // the theme list decides which guard a grade needs (and only then carries the theme in its key)
+  {
+    const G = new Function("var R = null, doc = { theme: 'ember' }; var GRIT = { THEMES: { ember: { hue: 28 }, pink: { hue: 334 }, violet: { hue: 280, cool: true }, gold: { hue: 40 }, crimson: { hue: 355 }, toxic: { hue: 142 } }, isCool: function (id) { return !!this.THEMES[id].cool; } };"
+      + grab("themeGuardKind") + grab("guardTheme") + " return { k: themeGuardKind, g: function (th, m) { doc.theme = th; return guardTheme(m); } };")();
+    check("law 1: violet guards reds in every colour look, crimson guards blue in the vivid look, ember / pink / gold / toxic need nothing",
+      G.k("violet") === "cool" && G.k("crimson") === "hot" && ["ember", "pink", "gold", "toxic"].every((t) => G.k(t) === "")
+      && G.g("violet", "vivid") === "violet" && G.g("violet", "color") === "violet" && G.g("violet", "mono") === null
+      && G.g("crimson", "vivid") === "crimson" && G.g("crimson", "color") === null && G.g("ember", "vivid") === null);
+  }
+  // a cut-out is hit by its matte; circles and text win over cut-outs, background photos lose to both
+  {
+    const Hs = new Function("var lastR = null; var DROPPABLE = ['photo', 'cut', 'circle', 'tile', 'bout', 'card']; var HIT_TIER = { text: 0, circle: 0, rows: 0, cut: 1, card: 1, tile: 1, bout: 1, photo: 2 };"
+      + grab("inShape") + grab("hitAt") + " return { inShape: inShape, hitAt: hitAt, set: function (h) { lastR = { hits: h }; }, drop: DROPPABLE };")();
+    const al = { w: 10, h: 10, q: 0.01, a: new Float32Array(100) };
+    al.a[5 * 10 + 5] = 1;                           // the fighter covers only the middle of the canvas
+    const cut = { id: "hero", kind: "cut", shape: { r: [0, 0, 1000, 1000], al } };
+    Hs.set([{ id: "bg", kind: "photo", shape: { r: [0, 0, 1000, 1000] } }, { id: "ins1", kind: "circle", shape: { c: [800, 200, 100] } }, cut]);
+    check("hit test: a point in the cut-out's rectangle but outside its matte is not the fighter", Hs.inShape(cut.shape, 100, 100) === false && Hs.inShape(cut.shape, 550, 550) === true);
+    check("hit test: a circle drawn BEFORE the hero still takes its own clicks and drops; the background plate is reachable",
+      Hs.hitAt(800, 200).id === "ins1" && Hs.hitAt(550, 550).id === "hero" && Hs.hitAt(100, 100).id === "bg"
+      && Hs.hitAt(800, 200, ["photo", "cut", "circle"]).id === "ins1");
+    Hs.set([{ id: "bg", kind: "photo", shape: { r: [0, 0, 1000, 1000] } }, { id: "hero", kind: "cut", shape: { r: [100, 100, 600, 800], empty: true } }]);
+    check("hit test: an EMPTY fighter slot takes a dropped photo, but a press there drags the background",
+      Hs.hitAt(300, 300, Hs.drop).id === "hero" && Hs.hitAt(300, 300).id === "bg" && Hs.hitAt(300, 300, ["photo", "cut", "circle"]).id === "bg");
+  }
+  // an owner-dropped image belongs to ONE template; an old doc's bare slots move to the open one
+  {
+    const M = new Function("var TPL = { headline: {}, pop: {}, faceoff: {} }, THEME_IDS = ['ember', 'pink', 'violet', 'gold', 'crimson', 'toxic'];"
+      + grab("freshDoc") + grab("mergeDoc") + " return mergeDoc;")();
+    const d = M({ v: 2, tpl: "pop", slots: { hero: "a1", "headline:ins1": "a2", left: "" }, frames: { hero: { x: 3, y: 0, s: 1 }, "card:0": { e: 0.2 } } });
+    check("slots: a v2 doc's bare slot ids and frames move to the template that was open; scoped ones stay",
+      d.slots["pop:hero"] === "a1" && d.slots["headline:ins1"] === "a2" && d.slots["pop:left"] === "" && !("hero" in d.slots)
+      && d.frames["pop:hero"].x === 3 && d.frames["pop:card:0"].e === 0.2, JSON.stringify(d.slots));
+    check("slots: every read and write goes through the template scope (Face-off's left fighter is not Tale of the tape's)",
+      /function sk\(id, tid\) \{ return \(tid \|\| scopeTpl\(\)\) \+ ":" \+ id; \}/.test(pscript) && !/doc\.slots\[(id|h\.id|s\.id|t\.id|target|sel)\]/.test(pscript)
+      && /var tid0 = doc\.tpl;/.test(pscript) && /scopeId = t\.id;/.test(pscript));
+  }
+  // the editor's composition cache: a stable signature, and only editor renders ever use it
+  {
+    const Sg = new Function(grab("sigMix") + " return sigMix;")();
+    check("editor cache: the signature hash is deterministic and order sensitive",
+      Sg(2166136261, "ab") === Sg(2166136261, "ab") && Sg(2166136261, "ab") !== Sg(2166136261, "ba") && Sg(Sg(1, "x"), "y") !== Sg(Sg(1, "y"), "x"));
+    const Ds = new Function("var doc = { tpl: 'x', text: { a: 1 }, frames: { b: 2 }, fx: { expo: 0.3, glow: 0.4 }, slots: { 'x:hero': 'k' } };" + grab("docSig") + " return docSig;")();
+    check("editor cache: the document signature leaves out only text, frames and the exposure nudge (they reach the pixels through hooked draws)",
+      Ds() === JSON.stringify({ tpl: "x", fx: { glow: 0.4 }, slots: { "x:hero": "k" } }));
+    check("editor cache: exports and thumbnails never use it, and a drawn image without a tag can only miss",
+      /if \(o\.editor && !o\.exact && !o\.thumb && fxOn && CTX2D\) \{/.test(pscript) && /function tagOf\(o\) \{ return o && o\.__tag \? o\.__tag : "u" \+ \(\+\+utag\); \}/.test(pscript)
+      && /if \(!R \|\| !R\.fxc \|\| R\.inFx\) \{ fn\(\); return; \}/.test(pscript));
+  }
+  // UFC event names: a family-name-first corner turned round by the headline; no name at all -> the slug
+  {
+    const N = new Function(grab("splitName") + grab("ufcSlugTitle") + grab("normalizeEvent") + grab("weightOf") + grab("cornerName")
+      + " return { n: normalizeEvent, w: weightOf, c: cornerName };")();
+    const ev = N.n({ headline: "Silva vs Wang", fights: [{ red: { first: "Natalia", last: "Silva", slug: "natalia-silva" }, blue: { first: "Wang", last: "Cong", slug: "wang-cong" } },
+      { red: { first: "Roberto", last: "Soldic", slug: "roberto-soldic" }, blue: { first: "", last: "", slug: "khaos-williams" } }] });
+    check("ufc names: a corner listed family name first follows the event headline (WANG on the posters, not CONG)",
+      ev.fights[0].blue.last === "Wang" && ev.fights[0].blue.first === "Cong" && ev.fights[0].blue.swapped === true && ev.fights[0].red.last === "Silva");
+    check("ufc names: a corner with no name at all is named from its slug (the bout is never dropped)",
+      ev.fights[1].blue.first === "Khaos" && ev.fights[1].blue.last === "Williams" && N.c(ev.fights[1].blue) === "Khaos Williams");
+    check("ufc names: the circle's 'another fighter' comes from the same weight class",
+      N.w("Women's Flyweight Title Bout") === "women's flyweight" && N.w("Women's Flyweight Division") === "women's flyweight" && N.w("Bantamweight") !== N.w("Women's Flyweight"));
+  }
+  // a cut-out result is cached and linked only when it holds a clear subject
+  {
+    const U = new Function(grab("cutUsable") + " return cutUsable;")();
+    check("cut-outs: an empty or near-full matte is never cached (a clear subject: a head and 1 - 97 % coverage)",
+      U({ cut: true, head: {}, cover: 0.4 }) && !U({ cut: false, head: null, cover: 0 }) && !U({ cut: true, head: {}, cover: 0.005 }) && !U({ cut: true, head: {}, cover: 0.99 })
+      && /if \(!c\) throw new Error\("Cloudflare found no clear subject in this photo\."\);\s*idbPut\(hash, png\);/.test(pscript)
+      && /function gcCuts\(\)/.test(pscript) && /CUT_KEEP = 150/.test(pscript) && /function recut\(t, s\)/.test(pscript));
+  }
+  // the vivid card layouts: 8 cards keep the 6-card name plate; card titles fit their width
+  {
+    const VG = new Function(grab("vividGeom") + " return vividGeom;")();
+    const g6 = VG("v1", 1080, 1080, 6), g8 = VG("v1", 1080, 1080, 8);
+    check("cards: the 8-card grid keeps the 6-card name plate height (readable type at phone size) and still fits the canvas",
+      g8.slots[0].plate[3] === g6.slots[0].plate[3] && g8.slots[7].plate[1] + g8.slots[7].plate[3] < 1080 && g8.card.h === 304);
+    check("cards: every card title fits the width, solid under a 46 px cap (a long owner title never runs off the canvas)",
+      (pscript.match(/minContrast: VC_TITLE_MIN, maxW: W - 96 \* s/g) || []).length === 3 && /if \(size \* 0\.86 < 46 \* s\) fill = o\.dark \? th\.da : th\.a;/.test(pscript));
+  }
+  // the photo edge ramp: only a real photo edge (a solid run at full resolution) fades a side
+  check("cut-outs: a side counts as a photo edge only for a solid full-resolution run of 3 % of the height (UFC elbows never fade the arms)",
+    /a\.touch\.l = sideRun\(a, 0\); a\.touch\.r = sideRun\(a, 1\);/.test(pscript) && /return best >= 0\.03 \* nh;/.test(pscript)
+    && /if \(d\[y \* 8 \+ 3\] > 250 && d\[y \* 8 \+ 7\] > 250\)/.test(pscript));
+  check("placement: the measured face box is lifted by its measured bias (.12 face heights), and a UFC master's face box is sanity-checked against the body height",
+    /var FACE_BOX_BIAS = 0\.12;/.test(pscript) && /fcy = ftop \+ fb\[3\] \* s0 \* \(0\.5 - FACE_BOX_BIAS\)/.test(pscript) && /0\.080 \* a\.box\.h : 0;/.test(pscript));
+  check("smooth skin: a colour grade on a face with little own texture drops the injected texture, grain and clarity",
+    /var SKIN_ADAPT = \{ thr: 0\.02, tex: 0\.3, grain: 0\.5, up: 0, core: 2, K: 0\.6 \};/.test(pscript) && /if \(lc2 >= 0 && lc2 < J\.adapt\.thr\) \{/.test(pscript));
+  check("card templates: no word chips where the words cannot be coloured; the quote templates' samples are placeholders",
+    /var cw = el\("div", "chips"\), noChips = !!\(f\.plain \|\| t\.vivid\);/.test(pscript) && /var QUOTE_PH = "TYPE THE \*QUOTE\* HERE";/.test(pscript)
+    && (pscript.match(/mustEdit: \["quote"\]/g) || []).length === 3 && /mustEdit: \["title", "quote"\]/.test(pscript));
+  check("auto-fill: the card grid uses each fighter's UFC headshot (the approved V1 cards), and the photo card a chest crop framed by the head",
+    /api\("\/studio\/api\/ufc\/" \+ encodeURIComponent\(c\.slug\) \+ "\?n=0"\)/.test(pscript) && /out\.push\(\{ a: c\.hd \|\| c\.a \|\| null/.test(pscript)
+    && /cardRes\(a, "body", Math\.round\(rect\[2\] \/ k\), Math\.round\(rect\[3\] \/ k\), 0\.45, 0\.07, 2\.6, "photo"/.test(pscript));
+  check("phone: the poster stays pinned above the editor, the header scrolls away",
+    /\.stage\{position:sticky;top:0;z-index:25;/.test(P) && /\.top\{position:static;/.test(P));
+}
+
+// ----- background removal: POST /studio/api/cutout + the key-gated probe -----
+// The IMAGES binding and the budget object are mocked; nothing reaches Cloudflare.
+await (async () => {
+  const zlib = await import("node:zlib");
+  const { cutType, readCapped, pngInfo, pngTopRowClear, studioCutout, CUT_BYTES_MAX, CUT_PROBE_URL } = _test;
+  const B = (arr) => new Uint8Array(arr);
+  const asc = (s) => Array.from(s, c => c.charCodeAt(0));
+  const pad = (a, n) => a.concat(new Array(Math.max(0, n - a.length)).fill(0));
+  const JPEG = B(pad([0xFF, 0xD8, 0xFF, 0xE0, 0, 16].concat(asc("JFIF")), 64));
+  const PNG_SIG = [0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A];
+  const WEBP = B(pad(asc("RIFF").concat([40, 0, 0, 0]).concat(asc("WEBPVP8 ")), 64));
+  const ftyp = (major, compat) => {
+    const brands = [major, "\0\0\0\0"].concat(compat).map(asc).flat();
+    const size = 8 + brands.length;
+    return B(pad([0, 0, 0, size].concat(asc("ftyp")).concat(brands), 64));
+  };
+  const SVG = B(asc('<svg xmlns="http://www.w3.org/2000/svg" onload="alert(1)"></svg>'));
+  const HTML = B(asc("<!doctype html><html><script>alert(1)</script></html>"));
+  const GIF = B(pad(asc("GIF89a"), 64));
+
+  // a real PNG, built here: RGBA rows, each prefixed with its filter byte, in two IDATs
+  const chunk = (type, data) => {
+    const len = Buffer.alloc(4); len.writeUInt32BE(data.length);
+    return Buffer.concat([len, Buffer.from(type, "ascii"), Buffer.from(data), Buffer.alloc(4)]);
+  };
+  const filt = (raw, f, bpp) => {             // encode one row as the FIRST row of an image
+    const out = Buffer.alloc(raw.length + 1); out[0] = f;
+    for (let i = 0; i < raw.length; i++) {
+      const left = i >= bpp ? raw[i - bpp] : 0;
+      const pred = f === 1 || f === 4 ? left : f === 3 ? (left >> 1) : 0;
+      out[i + 1] = (raw[i] - pred) & 255;
+    }
+    return out;
+  };
+  const makePng = (w, rows, opts) => {
+    const o = opts || {};
+    const ct = o.ct == null ? 6 : o.ct, bpp = ct === 6 ? 4 : ct === 2 ? 3 : 2;
+    const ihdr = Buffer.alloc(13); ihdr.writeUInt32BE(w, 0); ihdr.writeUInt32BE(rows.length, 4);
+    ihdr[8] = 8; ihdr[9] = ct; ihdr[12] = o.interlace || 0;
+    const raw = Buffer.concat(rows.map((r, i) => i === 0 ? filt(Buffer.from(r), o.f || 0, bpp)
+                                                         : Buffer.concat([Buffer.from([0]), Buffer.from(r)])));
+    const z = zlib.deflateSync(raw, { level: o.level == null ? 6 : o.level });
+    const idats = [];
+    if (o.split) { for (let p = 0; p < z.length; p += o.split) idats.push(chunk("IDAT", z.subarray(p, p + o.split))); }
+    else { const cut = Math.min(7, z.length); idats.push(chunk("IDAT", z.subarray(0, cut)), chunk("IDAT", z.subarray(cut))); }
+    return new Uint8Array(Buffer.concat([Buffer.from(PNG_SIG), chunk("IHDR", ihdr)].concat(idats)
+      .concat([chunk("IEND", Buffer.alloc(0))])));
+  };
+  // top row: two clear pixels, two opaque; second row fully opaque
+  const TOP = [10, 20, 30, 0, 40, 50, 60, 255, 70, 80, 90, 0, 100, 110, 120, 255];
+  const SOLID = [1, 2, 3, 255, 4, 5, 6, 255, 7, 8, 9, 255, 10, 11, 12, 255];
+  const OUT_PNG = makePng(4, [TOP, SOLID]);
+
+  check("cutType names JPEG, PNG, WebP and AVIF by their magic numbers",
+    cutType(JPEG) === "image/jpeg" && cutType(OUT_PNG) === "image/png" && cutType(WEBP) === "image/webp"
+    && cutType(ftyp("avif", ["mif1", "miaf"])) === "image/avif" && cutType(ftyp("mif1", ["miaf", "avif"])) === "image/avif"
+    && cutType(ftyp("avis", ["msf1"])) === "image/avif");
+  check("cutType refuses SVG, HTML, GIF, HEIC, a RIFF that is not WebP, and scraps",
+    cutType(SVG) === null && cutType(HTML) === null && cutType(GIF) === null
+    && cutType(ftyp("heic", ["mif1", "heic"])) === null
+    && cutType(B(pad(asc("RIFF").concat([4, 0, 0, 0]).concat(asc("WAVE")), 64))) === null
+    && cutType(B([0xFF, 0xD8])) === null && cutType(null) === null && cutType("not bytes") === null);
+  check("cutType never reads the ftyp minor-version slot as a brand",
+    cutType(ftyp("heic", [])) === null && cutType((() => { const b = ftyp("heic", []); b.set(asc("avif"), 12); return b; })()) === null);
+
+  const pi = pngInfo(OUT_PNG);
+  check("pngInfo reads the header and finds every IDAT without inflating",
+    pi && pi.width === 4 && pi.height === 2 && pi.colorType === 6 && pi.alpha === true && pi.idat.length === 2);
+  const rgb = makePng(2, [[1, 2, 3, 4, 5, 6]], { ct: 2 });
+  check("pngInfo: an RGB PNG has no alpha, and a non-PNG is null",
+    pngInfo(rgb).alpha === false && pngInfo(JPEG) === null && pngInfo(SVG) === null);
+  const clears = [];
+  for (const f of [0, 1, 2, 3, 4]) clears.push(await pngTopRowClear(makePng(4, [TOP, SOLID], { f }), pngInfo(makePng(4, [TOP, SOLID], { f }))));
+  check("pngTopRowClear undoes every row-0 filter (None, Sub, Up, Average, Paeth) and counts clear pixels",
+    JSON.stringify(clears) === JSON.stringify([0.5, 0.5, 0.5, 0.5, 0.5]));
+  check("pngTopRowClear: an opaque top row is 0, and RGB or interlaced files are null (not a guess)",
+    await pngTopRowClear(makePng(4, [SOLID, TOP]), pngInfo(makePng(4, [SOLID, TOP]))) === 0
+    && await pngTopRowClear(rgb, pngInfo(rgb)) === null
+    && await pngTopRowClear(makePng(4, [TOP], { interlace: 1 }), pngInfo(makePng(4, [TOP], { interlace: 1 }))) === null);
+  // a big incompressible PNG: only the start of the zlib stream is fed, the writer is
+  // never closed, and the row still comes back (no hang, no truncation error)
+  const noisy = [];
+  for (let r = 0; r < 1200; r++) {
+    const row = new Array(64 * 4);
+    for (let i = 0; i < row.length; i++) row[i] = r === 0 && i % 4 === 3 ? (i < 128 ? 0 : 255) : (Math.random() * 256) | 0;
+    noisy.push(row);
+  }
+  const bigPng = makePng(64, noisy, { level: 0, split: 16384 });
+  const bigInfo = pngInfo(bigPng);
+  const t0 = Date.now();
+  const bigClear = await pngTopRowClear(bigPng, bigInfo);
+  check("pngTopRowClear inflates only a prefix of a large PNG (writer never closed) and returns promptly",
+    bigPng.length > 262144 && bigInfo.idat.length > 16 && bigClear === 0.5 && Date.now() - t0 < 1500);
+
+  // readCapped counts what ARRIVES and cancels at the cap
+  let pulls = 0, cancelled = false;
+  const endless = new ReadableStream({
+    pull(c) { pulls++; c.enqueue(new Uint8Array(1024 * 1024)); if (pulls > 40) c.close(); },
+    cancel() { cancelled = true; },
+  });
+  const rc = await readCapped(endless, CUT_BYTES_MAX);
+  check("readCapped stops at the cap and cancels the stream instead of buffering the rest",
+    rc.tooLarge === true && cancelled && pulls <= 12);
+
+  // the mocks
+  function mockImages(opts) {
+    const o = opts || {};
+    const m = { calls: [] };
+    m.input = (stream) => {
+      const call = { transforms: [], output: null, bytes: null };
+      m.calls.push(call);
+      const t = {
+        transform(x) { call.transforms.push(x); return t; },
+        async output(x) {
+          call.output = x;
+          call.bytes = new Uint8Array(await new Response(stream).arrayBuffer());
+          if (o.throws) throw o.throws;
+          const png = o.png || OUT_PNG;
+          return { contentType: () => o.ct || "image/png", image: () => new Response(png).body,
+                   response: () => new Response(png, { headers: { "content-type": o.ct || "image/png" } }) };
+        },
+      };
+      return t;
+    };
+    return m;
+  }
+  const mkBudget = () => {
+    const m = new Map();
+    const obj = new _test.StudioBudget({ storage: { get: async k => m.get(k), put: async (k, v) => { m.set(k, v); } } });
+    return { store: m, binding: { idFromName: n => "id:" + n, get: () => ({ fetch: (u) => obj.fetch(new Request(String(u))) }) } };
+  };
+  const cutReq = (body, cookie, headers) => new Request("https://w.test/studio/api/cutout", {
+    method: "POST", body, headers: Object.assign(cookie ? { cookie: STUDIO_COOKIE + "=" + cookie } : {}, headers || {}) });
+  const envWith = (extra) => Object.assign({}, ENV, extra);
+
+  // the gate
+  let img = mockImages(), bud = mkBudget();
+  const noCookie = await worker.fetch(cutReq(JPEG), envWith({ IMAGES: img, BUDGET: bud.binding }), {});
+  const badCookie = await worker.fetch(cutReq(JPEG, "forged.value"), envWith({ IMAGES: img, BUDGET: bud.binding }), {});
+  check("POST /studio/api/cutout without a valid session is 401 and the model never runs",
+    noCookie.status === 401 && badCookie.status === 401 && img.calls.length === 0 && bud.store.size === 0);
+
+  // no binding
+  bud = mkBudget();
+  const nob = await worker.fetch(cutReq(JPEG, SID), envWith({ BUDGET: bud.binding }), {});
+  const nobj = await nob.json();
+  check("without the IMAGES binding the route is 503 'cutout not configured' and spends nothing",
+    nob.status === 503 && nobj.error === "cutout not configured" && bud.store.size === 0);
+
+  // size cap: a real over-cap body, a declared over-cap length, and exactly the cap
+  img = mockImages(); bud = mkBudget();
+  const over = new Uint8Array(CUT_BYTES_MAX + 1); over.set(JPEG);
+  const big = await worker.fetch(cutReq(over, SID), envWith({ IMAGES: img, BUDGET: bud.binding }), {});
+  let declPulls = 0;
+  const declared = await studioCutout({ headers: new Headers({ "content-length": String(CUT_BYTES_MAX + 1) }),
+    // highWaterMark 0: the stream pulls only when someone READS, so a pull count of 0
+    // proves the route never touched the body
+    body: new ReadableStream({ pull(c) { declPulls++; c.enqueue(JPEG); c.close(); } }, { highWaterMark: 0 }) },
+    envWith({ IMAGES: img, BUDGET: bud.binding }));
+  check("a body over 10 MB is 413, an honest over-cap content-length is refused before a byte is read, "
+    + "and neither spends or runs the model",
+    big.status === 413 && declared.status === 413 && declPulls === 0 && img.calls.length === 0 && bud.store.size === 0);
+  let liePulls = 0;
+  const lying = await studioCutout({ headers: new Headers({ "content-length": "10" }),
+    body: new ReadableStream({ pull(c) { liePulls++; const b = new Uint8Array(1024 * 1024); b.set(JPEG); c.enqueue(b); if (liePulls > 40) c.close(); } }) },
+    envWith({ IMAGES: img, BUDGET: bud.binding }));
+  check("a content-length that lies low does not lift the cap (counted while reading)",
+    lying.status === 413 && liePulls <= 12 && img.calls.length === 0);
+  const exact = new Uint8Array(CUT_BYTES_MAX); exact.set(JPEG);
+  const atCap = await worker.fetch(cutReq(exact, SID), envWith({ IMAGES: img, BUDGET: bud.binding }), {});
+  check("a photo of exactly 10 MB is accepted", atCap.status === 200 && img.calls.length === 1
+    && img.calls[0].bytes.length === CUT_BYTES_MAX);
+
+  // the magic-number allowlist
+  img = mockImages(); bud = mkBudget();
+  const e1 = envWith({ IMAGES: img, BUDGET: bud.binding });
+  const svg = await worker.fetch(cutReq(SVG, SID, { "content-type": "image/png" }), e1, {});
+  const html = await worker.fetch(cutReq(HTML, SID, { "content-type": "image/jpeg" }), e1, {});
+  const gif = await worker.fetch(cutReq(GIF, SID), e1, {});
+  const heic = await worker.fetch(cutReq(ftyp("heic", ["mif1"]), SID), e1, {});
+  const empty = await worker.fetch(cutReq(new Uint8Array(0), SID), e1, {});
+  check("SVG and HTML are refused 415 whatever content-type they claim; GIF and HEIC too; an empty body is 400",
+    svg.status === 415 && html.status === 415 && gif.status === 415 && heic.status === 415 && empty.status === 400);
+  check("a refused file never reaches the model and never spends", img.calls.length === 0 && bud.store.size === 0);
+
+  // success
+  img = mockImages(); bud = mkBudget();
+  const ok = await worker.fetch(cutReq(JPEG, SID), envWith({ IMAGES: img, BUDGET: bud.binding }), {});
+  const okBytes = new Uint8Array(await ok.arrayBuffer());
+  check("a JPEG comes back as the model's PNG", ok.status === 200
+    && okBytes.length === OUT_PNG.length && okBytes.every((v, i) => v === OUT_PNG[i]));
+  check("the cut-out is image/png, nosniff, sandboxed and private no-store",
+    ok.headers.get("content-type") === "image/png" && ok.headers.get("x-content-type-options") === "nosniff"
+    && ok.headers.get("content-security-policy") === "default-src 'none'; sandbox"
+    && ok.headers.get("cache-control") === "private, no-store");
+  check("the binding got the uploaded bytes, ONE segment:foreground transform and a PNG output",
+    img.calls.length === 1 && JSON.stringify(img.calls[0].transforms) === JSON.stringify([{ segment: "foreground" }])
+    && JSON.stringify(img.calls[0].output) === JSON.stringify({ format: "image/png" })
+    && img.calls[0].bytes.length === JPEG.length && img.calls[0].bytes.every((v, i) => v === JPEG[i]));
+  check("each cut-out spends one unit on its OWN budget line", bud.store.get("cut").n === 1
+    && !bud.store.has("gen") && !bud.store.has("ai"));
+  const okW = await worker.fetch(cutReq(WEBP, SID), envWith({ IMAGES: img, BUDGET: bud.binding }), {});
+  const okA = await worker.fetch(cutReq(ftyp("avif", ["mif1"]), SID), envWith({ IMAGES: img, BUDGET: bud.binding }), {});
+  const okP = await worker.fetch(cutReq(OUT_PNG, SID), envWith({ IMAGES: img, BUDGET: bud.binding }), {});
+  check("WebP, AVIF and PNG are accepted too", okW.status === 200 && okA.status === 200 && okP.status === 200);
+
+  // the budget
+  img = mockImages(); bud = mkBudget();
+  const capEnv = envWith({ IMAGES: img, BUDGET: bud.binding, STUDIO_CUT_DAILY_CAP: "1" });
+  const c1 = await worker.fetch(cutReq(JPEG, SID), capEnv, {});
+  const c2 = await worker.fetch(cutReq(JPEG, SID), capEnv, {});
+  const c2j = await c2.json();
+  check("past the daily cut-out cap the route is 429, says which limit, and the model does not run",
+    c1.status === 200 && c2.status === 429 && /Today's cut-out limit \(1\)/.test(c2j.error || "")
+    && img.calls.length === 1);
+  check("STUDIO_CUT_*_CAP tune the cut budget and the defaults are 100 a day, 30 an hour",
+    _test.BUDGET_CAPS.cut.day === 100 && _test.BUDGET_CAPS.cut.hour === 30
+    && _test.budgetCaps({ STUDIO_CUT_HOURLY_CAP: "7" }, "cut").hour === 7
+    && _test.budgetCaps({ STUDIO_GEN_DAILY_CAP: "7" }, "cut").day === 100);
+  img = mockImages();
+  const brokenB = { idFromName: () => "x", get: () => ({ fetch: async () => { throw new Error("down"); } }) };
+  const bdown = await worker.fetch(cutReq(JPEG, SID), envWith({ IMAGES: img, BUDGET: brokenB }), {});
+  check("a budget object that cannot answer REFUSES (503) and the model never runs",
+    bdown.status === 503 && img.calls.length === 0);
+
+  // binding failures: a short message and the numeric code, never the error's own words
+  bud = mkBudget();
+  const boom = Object.assign(new Error("internal: segmenter pool /srv/birefnet exploded at 0xdeadbeef"), { code: 9001 });
+  boom.stack = "Error: internal\n    at secretFrame (/srv/images/worker.rs:42)";
+  const bf = await worker.fetch(cutReq(JPEG, SID), envWith({ IMAGES: mockImages({ throws: boom }), BUDGET: bud.binding }), {});
+  const bfText = await bf.text();
+  check("a binding error is a 502 with a fixed sentence and the numeric code - no message, no stack",
+    bf.status === 502 && JSON.parse(bfText).code === 9001 && !/internal|birefnet|deadbeef|secretFrame|worker\.rs|stack/i.test(bfText)
+    && bf.headers.get("content-type").indexOf("application/json") === 0);
+  const q = await (await worker.fetch(cutReq(JPEG, SID), envWith({ IMAGES: mockImages({ throws: Object.assign(new Error("x"), { code: 9422 }) }), BUDGET: mkBudget().binding }), {})).json();
+  const av = await (await worker.fetch(cutReq(ftyp("avif", ["mif1"]), SID), envWith({ IMAGES: mockImages({ throws: new Error("unsupported") }), BUDGET: mkBudget().binding }), {})).json();
+  const odd = await (await worker.fetch(cutReq(JPEG, SID), envWith({ IMAGES: mockImages({ throws: "a bare string" }), BUDGET: mkBudget().binding }), {})).json();
+  check("9422 says the free month is used up; an AVIF failure says to resend as JPEG/PNG/WebP; a thrown non-Error still answers",
+    /5,000/.test(q.error) && q.code === 9422 && /JPEG, PNG or WebP/.test(av.error) && av.code === null
+    && typeof odd.error === "string" && odd.code === null);
+  const wrongFmt = await worker.fetch(cutReq(JPEG, SID), envWith({ IMAGES: mockImages({ ct: "image/jpeg" }), BUDGET: mkBudget().binding }), {});
+  check("a reply that is not a PNG (no alpha possible) is a 502, never relabelled", wrongFmt.status === 502);
+
+  // the probe
+  const KEY = "probe-key-0123456789abcdef";
+  const probeReq = (qs, init) => new Request("https://w.test/studio/api/cutout-probe" + (qs || ""), init);
+  const srcJpeg = new Uint8Array(4096); srcJpeg.set(JPEG);
+  let fetched = [];
+  const fakeUfc = (redirect) => async (u) => {
+    fetched.push(u);
+    if (redirect) return new Response(null, { status: 302, headers: { location: redirect } });
+    if (u === CUT_PROBE_URL) return new Response(srcJpeg, { status: 200, headers: { "content-type": "image/jpeg", "content-length": String(srcJpeg.length) } });
+    return new Response("no", { status: 404 });
+  };
+  const realFetch = globalThis.fetch;
+  try {
+    img = mockImages(); bud = mkBudget();
+    globalThis.fetch = fakeUfc(null); fetched = [];
+    const pEnvNoKey = envWith({ IMAGES: img, BUDGET: bud.binding });
+    const pk0 = await worker.fetch(probeReq("?k=" + KEY), pEnvNoKey, {});
+    const pk0b = await worker.fetch(probeReq(""), pEnvNoKey, {});
+    const pk1 = await worker.fetch(probeReq("?k=" + KEY + "x"), envWith({ IMAGES: img, BUDGET: bud.binding, NEWS_PROBE_KEY: KEY }), {});
+    const pk2 = await worker.fetch(probeReq("?k="), envWith({ IMAGES: img, BUDGET: bud.binding, NEWS_PROBE_KEY: KEY }), {});
+    const pk3 = await worker.fetch(probeReq("?k=" + KEY), { NEWS_PROBE_KEY: "" }, {});
+    check("the probe is a bare 404 with no NEWS_PROBE_KEY, with a wrong key or an empty one - and does nothing",
+      pk0.status === 404 && pk0b.status === 404 && pk1.status === 404 && pk2.status === 404 && pk3.status === 404
+      && (await pk1.text()) === "not found" && fetched.length === 0 && img.calls.length === 0 && bud.store.size === 0);
+    const pk4 = await worker.fetch(probeReq("?k=" + KEY), { NEWS_PROBE_KEY: KEY }, {});
+    check("the probe answers 404/503 on its key alone, even with the studio password unset",
+      pk4.status === 503 && (await pk4.json()).error === "cutout not configured" && fetched.length === 0);
+
+    const pEnv = envWith({ IMAGES: img, BUDGET: bud.binding, NEWS_PROBE_KEY: KEY });
+    const pr = await worker.fetch(probeReq("?k=" + KEY), pEnv, {});
+    const prText = await pr.text();
+    const pj = JSON.parse(prText);
+    check("the probe cuts the pinned photo and reports JSON: ok, timings, sizes, type, alpha and a clear top row",
+      pr.status === 200 && pj.ok === true && typeof pj.ms === "number" && typeof pj.fetchMs === "number"
+      && pj.inBytes === srcJpeg.length && pj.inType === "image/jpeg" && pj.outBytes === OUT_PNG.length
+      && pj.contentType === "image/png" && pj.alphaPresent === true && pj.topRowClear === 0.5
+      && pj.width === 4 && pj.height === 2 && pj.source === CUT_PROBE_URL);
+    check("the probe never returns the image and is never cached",
+      pr.headers.get("content-type").indexOf("application/json") === 0 && prText.indexOf("PNG") === -1
+      && pr.headers.get("cache-control") === "no-store");
+    check("the probe fetched ONLY the pinned ufc.com photo, ran ONE transform and spent exactly ONE unit",
+      fetched.length === 1 && fetched[0] === CUT_PROBE_URL && img.calls.length === 1
+      && bud.store.get("cutprobe").n === 1 && !bud.store.get("cut") && pj.budget && pj.budget.used === 1 && pj.budget.cap === 6
+      && JSON.stringify(img.calls[0].transforms) === JSON.stringify([{ segment: "foreground" }]));
+    check("the pinned probe photo passes the UFC host pinning", _test.fighterPhotoUrl(CUT_PROBE_URL) === CUT_PROBE_URL);
+    // the probe has its OWN cap: hammering it can never spend or block the owner's cut-outs
+    img = mockImages(); bud = mkBudget(); globalThis.fetch = fakeUfc(); fetched = [];
+    const shareEnv = envWith({ IMAGES: img, BUDGET: bud.binding, NEWS_PROBE_KEY: KEY });
+    const probes = [];
+    for (let i = 0; i < 8; i++) probes.push((await worker.fetch(probeReq("?k=" + KEY), shareEnv, {})).status);
+    const callsBefore = img.calls.length;
+    const pOver = await worker.fetch(probeReq("?k=" + KEY), shareEnv, {});
+    const pOverJ = await pOver.json();
+    const sc = await worker.fetch(cutReq(JPEG, SID), shareEnv, {});
+    check("the probe has its own small cap: past it the probe refuses and runs nothing, and the owner's cut-outs still work",
+      probes.filter(s => s === 200).length === 3 && pOver.status === 429 && pOverJ.ok === false && pOverJ.stage === "budget"
+      && img.calls.length === callsBefore + 1 && sc.status === 200 && bud.store.get("cut").n === 1);
+    // a redirect off UFC's hosts is refused hop by hop, before any spend
+    img = mockImages(); bud = mkBudget();
+    globalThis.fetch = fakeUfc("https://evil.example/steal.jpg"); fetched = [];
+    const pRed = await worker.fetch(probeReq("?k=" + KEY), envWith({ IMAGES: img, BUDGET: bud.binding, NEWS_PROBE_KEY: KEY }), {});
+    const pRedJ = await pRed.json();
+    check("a redirect off UFC's pinned hosts is never followed, and nothing is spent or run",
+      pRedJ.ok === false && pRedJ.stage === "fetch" && fetched.every(u => u.indexOf("evil.example") === -1)
+      && img.calls.length === 0 && bud.store.size === 0);
+    // a binding failure in the probe reports the code, not the message
+    globalThis.fetch = fakeUfc(null);
+    const pFail = await worker.fetch(probeReq("?k=" + KEY), envWith({ IMAGES: mockImages({ throws: boom }), BUDGET: mkBudget().binding, NEWS_PROBE_KEY: KEY }), {});
+    const pFailT = await pFail.text();
+    check("a probe transform failure reports stage and code, never the error text",
+      pFail.status === 502 && JSON.parse(pFailT).stage === "transform" && JSON.parse(pFailT).code === 9001
+      && !/internal|birefnet|secretFrame/i.test(pFailT));
+
+    // path tricks: neither route opens any other way
+    img = mockImages(); bud = mkBudget(); fetched = [];
+    const tEnv = envWith({ IMAGES: img, BUDGET: bud.binding, NEWS_PROBE_KEY: KEY, DISCORD_PUBLIC_KEY: "ab" });
+    const trick = async (p, init) => (await worker.fetch(new Request("https://w.test" + p, init), tEnv, {})).status;
+    const post = { method: "POST", body: JPEG };
+    const tricks = [
+      await trick("/studio/api/cutout-probe?k=" + KEY, post),                       // the probe never takes a body
+      await trick("/studio/api/cutout-probe/../cutout?k=" + KEY, post),              // resolves to the gated route
+      await trick("/studio/api/%2e%2e/api/cutout?k=" + KEY, post),
+      await trick("/studio/api/cutout-probe/.%2e/cutout?k=" + KEY, post),
+      await trick("/studio/api/cutout-probe%2F..%2Fcutout?k=" + KEY),                // not the probe path
+      await trick("/studio/api/cutout-probe/x?k=" + KEY),
+      await trick("/studio/api/Cutout-Probe?k=" + KEY),
+      await trick("/studio/api/cutout?k=" + KEY, post),                              // the key is not a session
+      await trick("//studio/api/cutout", post),                                      // not /studio at all
+    ];
+    check("no spelling of either path reaches the model without a session (401 every time)",
+      tricks.every(s => s === 401) && img.calls.length === 0 && fetched.length === 0 && bud.store.size === 0);
+    const authedGet = await worker.fetch(cookieReq("/studio/api/cutout", SID), tEnv, {});
+    const authedExtra = await worker.fetch(cookieReq("/studio/api/cutout/x", SID, { method: "POST", body: JPEG }), tEnv, {});
+    const authedProbePost = await worker.fetch(cookieReq("/studio/api/cutout-probe?k=" + KEY, SID, { method: "POST", body: JPEG }), tEnv, {});
+    check("with a session: GET, an extra segment, or a POST to the probe path are 404, never a cut-out",
+      authedGet.status === 404 && authedExtra.status === 404 && authedProbePost.status === 404 && img.calls.length === 0);
+  } finally { globalThis.fetch = realFetch; _test.resetFuse(); }
+})();
+if (wrangler !== null) {
+  check("wrangler.toml binds Cloudflare Images as IMAGES for the cut-out route",
+    /^\[images\]\s*\r?\nbinding = "IMAGES"/m.test(wrangler));
+  check("wrangler.toml documents the cut-out caps and the probe key",
+    /STUDIO_CUT_DAILY_CAP/.test(wrangler) && /STUDIO_CUT_HOURLY_CAP/.test(wrangler) && /NEWS_PROBE_KEY/.test(wrangler));
 }
 
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
