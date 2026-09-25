@@ -319,7 +319,7 @@ check("the login page is a single password field", /type="password"/.test(gateBo
   (gateBody.match(/<input/g) || []).length === 1);
 check("the login page hints at nothing behind it",
   !/studio|poster|caption|discord|instagram|youtube|queue|editor/i.test(
-    gateBody.replace(/\/studio\/login/g, "").replace(/location\.replace\("\/studio"\)/g, "")));
+    gateBody.replace(/\/studio\/login/g, "")));
 check("the login page is dark with the purple accent and Poppins",
   gateBody.includes("#0b0b11") && gateBody.includes("#8B70FF") && gateBody.includes("Poppins"));
 check("the login page names no secret",
@@ -2407,6 +2407,192 @@ if (wrangler !== null) {
     && /\[\[migrations\]\]\s*tag = "v1"\s*new_sqlite_classes = \["StudioBudget"\]/.test(wrangler));
   check("the tile library is private: every request runs the Worker first",
     /\[assets\][\s\S]*directory = "\.\/lib_assets"[\s\S]*run_worker_first = true/.test(wrangler));
+}
+
+// ===== Sept 25 2026: the poster TEMPLATES page + the UFC.com data routes =====
+{
+  const card = (me, meSlug, opp, oppSlug, res, method, round, ev) =>
+    '<article class="c-card-event--athlete-results"><div class="c-card-event--athlete-results__image c-card-event--athlete-results__red-image ' + (res === "win" ? "loss" : "win") + '">'
+    + '<a href="https://www.ufc.com/athlete/' + oppSlug + '"><div><img src="https://ufc.com/images/styles/event_results_athlete_headshot/s3/2025-05/' + opp.toUpperCase().replace(/ /g, "_") + '_10-26.png?itok=Tih1" width="256" alt="' + opp + '" /></div></a></div>'
+    + '<div class="c-card-event--athlete-results__image c-card-event--athlete-results__blue-image ' + res + '"><a href="https://www.ufc.com/athlete/' + meSlug + '"><div><img src="https://ufc.com/images/styles/event_results_athlete_headshot/s3/2024-01/ME_BELT_01-20.png?itok=x6x1" width="256" /></div></a></div>'
+    + '<h3 class="c-card-event--athlete-results__headline"><a>X</a></h3><div class="c-card-event--athlete-results__date">May. 10, 2026</div>'
+    + '<div class="c-card-event--athlete-results__result-label">Round</div> <div class="c-card-event--athlete-results__result-text">' + round + '</div>'
+    + '<div class="c-card-event--athlete-results__result-label">Method</div> <div class="c-card-event--athlete-results__result-text">' + method + '</div>'
+    + '<a href="https://www.ufc.com/event/' + ev + '#12722">Fight Card</a></article>';
+  const page = '<div class="hero-profile"><p class="hero-profile__tag">Middleweight Division</p><p class="hero-profile__tag">Title Holder</p>'
+    + '<p class="hero-profile__nickname">&quot;Tarzan&quot;</p><h1 class="hero-profile__name">Sean Strickland</h1>'
+    + '<p class="hero-profile__division-title">Middleweight Division</p><p class="hero-profile__division-body">31-7-0 (W-L-D)</p>'
+    + '<p class="hero-profile__stat-numb">12</p> <p class="hero-profile__stat-text">Wins by Knockout</p>'
+    + '<img src="https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-01/STRICKLAND_SEAN_L_BELT_01-20.png?itok=4lpT" alt="x" class="hero-profile__image"></div>'
+    + '<div class="c-bio__info"><div class="c-bio__label">Age</div> <div class="c-bio__text"> <div class="field">35</div> </div> </div>'
+    + '<div class="c-bio__label">Reach</div> <div class="c-bio__text">76.00</div> </div></div>'
+    + '<h2>Win by Method</h2><div class="c-stat-3bar__label">KO/TKO </div> <div class="c-stat-3bar__value">12 (39%)</div>'
+    + '<div class="c-stat-3bar__label">SUB </div> <div class="c-stat-3bar__value">4 (13%)</div>'
+    + '<div class="c-stat-compare c-stat-compare--no-bar"><div class="c-stat-compare__number">5.98 </div> <div class="c-stat-compare__label">Sig. Str. Landed</div></div>'
+    + card("Sean Strickland", "sean-strickland", "Khamzat Chimaev", "khamzat-chimaev", "win", "Decision - Split", "5", "ufc-328")
+    + card("Sean Strickland", "sean-strickland", "Alex Pereira", "alex-pereira", "loss", "KO/TKO", "1", "ufc-fight-night-july-01-2022");
+  const a = _test.parseUfcAthlete(page, "sean-strickland");
+  check("ufc: the athlete hero parses (name, nickname, record without W-L-D, tags)",
+    a.name === "Sean Strickland" && a.nickname === "Tarzan" && a.record === "31-7-0"
+    && a.tags.join("|") === "Middleweight Division|Title Holder" && a.stats["Wins by Knockout"] === 12);
+  check("ufc: the full body goes out as the UNSTYLED master (1350x3324), the style as the quick copy",
+    a.body === "/studio/api/ufcimg?p=" + encodeURIComponent("/images/2024-01/STRICKLAND_SEAN_L_BELT_01-20.png")
+    && /athlete_bio_full_body/.test(decodeURIComponent(a.bodySmall)) && /&k=4lpT$/.test(a.bodySmall) && a.face === "L");
+  check("ufc: bio fields, win method and strike rates parse (a nested field div included)",
+    a.bio.Age === "35" && a.bio.Reach === "76.00" && a.method["KO/TKO"] === 12 && a.method.SUB === 4
+    && a.rates["Sig. Str. Landed"] === 5.98);
+  const fs = _test.parseUfcFights(page, "sean-strickland");
+  check("ufc: fight cards read from HIS corner: opponent, result, method, round, event",
+    fs.length === 2 && fs[0].opp === "Khamzat Chimaev" && fs[0].oppSlug === "khamzat-chimaev" && fs[0].result === "win"
+    && fs[0].method === "Decision - Split" && fs[0].round === "5" && fs[0].event === "UFC 328"
+    && fs[1].result === "loss" && fs[1].event === "UFC Fight Night");
+  check("ufc: an opponent headshot is the unstyled 520x325 master, relayed same-origin",
+    fs[0].oppHead === "/studio/api/ufcimg?p=" + encodeURIComponent("/images/2025-05/KHAMZAT_CHIMAEV_10-26.png"));
+  check("ufc: a card that does not involve the athlete is skipped",
+    _test.parseUfcFights(page, "someone-else").length === 0);
+
+  const evPage = '<div class="field field--name-node-title field--type-ds"><h1> UFC 333 </h1></div>'
+    + '<span class="e-divider__top">Volkanovski</span><span class="e-divider__bottom">Evloev</span>'
+    + '<div class="c-hero__headline-suffix tz-change-inner" data-locale="en-uk" data-timestamp="1792864800" data-format="x"> Sat </div>'
+    + '<div class="c-hero__text"> <div class="field field--name-venue field--type-entity-reference">Etihad Arena, Yas Island </div></div>';
+  const fight = (cls, r, b) => '<div class="c-listing-fight" data-fmid="1"><div class="c-listing-fight__class-text">' + cls + '</div>'
+    + '<div class="c-listing-fight__corner-image--red"><a href="https://www.ufc.com/athlete/' + r[2] + '"><img src="https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/' + r[1].toUpperCase() + '_L_01-31.png?itok=3qNx" /></a></div>'
+    + '<div class="c-listing-fight__ranks-row"><div class="c-listing-fight__corner-rank"><span>C</span></div><div class="c-listing-fight__corner-rank"><span>#1</span></div></div>'
+    + '<div class="c-listing-fight__corner-name c-listing-fight__corner-name--red"><a><span class="c-listing-fight__corner-given-name">' + r[0] + '</span> <span class="c-listing-fight__corner-family-name">' + r[1] + '</span></a></div>'
+    + '<div class="c-listing-fight__corner-name c-listing-fight__corner-name--blue"><a><span class="c-listing-fight__corner-given-name">' + b[0] + '</span> <span class="c-listing-fight__corner-family-name">' + b[1] + '</span></a></div>'
+    + '<div class="c-listing-fight__corner-image--blue"><a href="https://www.ufc.com/athlete/' + b[2] + '"><img src="https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/' + b[1].toUpperCase() + '_R_01-20.png?itok=cpiJ" /></a></div></div>';
+  const ev = _test.parseUfcEvent(evPage + fight("Featherweight Title Bout", ["Alexander", "Volkanovski", "alexander-volkanovski"], ["Movsar", "Evloev", "movsar-evloev"])
+    + '<div id="prelims-card" class="fight-card-prelims"></div>' + fight("Lightweight Bout", ["Grant", "Dawson", "grant-dawson"], ["Nurullo", "Aliev", "nurullo-aliev"]), "ufc-333");
+  check("ufc: an event parses title, headline, date, venue and the whole card",
+    ev.title === "UFC 333" && ev.headline === "Volkanovski vs Evloev" && ev.ts === 1792864800 && ev.venue === "Etihad Arena, Yas Island"
+    && ev.fights.length === 2);
+  check("ufc: each bout carries both corners with slugs, ranks, pose side and the cut-out",
+    ev.fights[0].red.last === "Volkanovski" && ev.fights[0].red.slug === "alexander-volkanovski" && ev.fights[0].red.rank === "C"
+    && ev.fights[0].blue.rank === "#1" && ev.fights[0].red.face === "L" && ev.fights[0].blue.face === "R"
+    && /event_fight_card_upper_body/.test(decodeURIComponent(ev.fights[0].red.imgSmall)) && !/styles/.test(decodeURIComponent(ev.fights[0].red.img)));
+  check("ufc: bouts below the prelims marker are labelled prelims, the rest main card",
+    ev.fights[0].card === "main" && ev.fights[1].card === "prelims");
+  const evs = _test.parseUfcEvents('<a href="/events#events-list-upcoming">U</a><details id="events-list-upcoming">'
+    + '<h3 class="c-card-event--result__headline"><a href="/event/ufc-333">Volkanovski vs Evloev</a></h3><div data-main-card-timestamp="1792864800"></div>'
+    + '<h3 class="c-card-event--result__headline"><a href="/event/ufc-fight-night-october-10-2026">Allen vs Duncan</a></h3><div data-main-card-timestamp="1791676800"></div>'
+    + '</details><details id="events-list-past"><h3 class="c-card-event--result__headline"><a href="/event/ufc-330">Old vs Fight</a></h3><div data-main-card-timestamp="1"></div></details>');
+  check("ufc: the events list keeps UPCOMING events only, titled from the slug",
+    evs.length === 2 && evs[0].title === "UFC 333" && evs[0].headline === "Volkanovski vs Evloev" && evs[1].title === "UFC Fight Night");
+
+  check("ufc image paths are pinned: ufc.com only, /images/ only, png only, no traversal, itok only on styles",
+    !!_test.ufcImg("https://ufc.com/images/2024-01/X_L.png") && !!_test.ufcImg("https://www.ufc.com/images/styles/a_b/s3/2025-01/5/X.png?itok=abcd")
+    && _test.ufcImg("https://ufc.com/images/styles/a_b/s3/2025-01/5/X.png?itok=abcd").k === "abcd"
+    && _test.ufcImg("https://ufc.com/images/2024-01/X.png?itok=abcd").k === ""
+    && _test.ufcImg("https://evil.com/images/2024-01/X.png") === null && _test.ufcImg("https://ufc.com/images/2024-01/X.svg") === null
+    && _test.ufcImg("https://ufc.com/images/2024-01/../../x.png") === null && _test.ufcImg("https://ufc.com/sites/x.png") === null
+    && _test.ufcImg("//ufc.com.evil.com/images/2024-01/X.png") === null);
+  await withFetch(async (u) => new Response("PNG", { status: 200, headers: { "content-type": "image/png" } }), async (seen) => {
+    const bad = await worker.fetch(cookieReq("/studio/api/ufcimg?p=" + encodeURIComponent("/images/../worker.js"), SID), STUDIO_ENV, {});
+    const good = await worker.fetch(cookieReq("/studio/api/ufcimg?p=" + encodeURIComponent("/images/styles/athlete_bio_full_body/s3/2024-01/X_L.png") + "&k=abcd", SID), STUDIO_ENV, {});
+    check("the ufc image relay refuses a path outside the pinned shape before any fetch",
+      bad.status === 404 && seen.length === 1);
+    check("the ufc image relay fetches ONLY https://ufc.com + the checked path and answers a sandboxed raster",
+      good.status === 200 && seen[0].url === "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-01/X_L.png?itok=abcd"
+      && /sandbox/.test(good.headers.get("content-security-policy") || ""));
+  });
+  await withFetch(async (u) => new Response("", { status: 302, headers: { location: "https://evil.example/x.png" } }), async () => {
+    const r = await worker.fetch(cookieReq("/studio/api/ufcimg?p=" + encodeURIComponent("/images/2024-01/X_L.png"), SID), STUDIO_ENV, {});
+    check("a ufc image that redirects off UFC's hosts is refused", r.status === 502);
+  });
+  await withFetch(async (u) => new Response(page, { status: 200, headers: { "content-type": "text/html" } }), async (seen) => {
+    const r = await worker.fetch(cookieReq("/studio/api/ufc/sean-strickland?n=99", SID), STUDIO_ENV, {});
+    const j = await r.json();
+    check("the athlete route pages the history three bouts at a time, capped at 15 bouts (5 pages)",
+      r.status === 200 && j.name === "Sean Strickland" && seen.length === 5 && seen.every(s => /^https:\/\/www\.ufc\.com\/athlete\/sean-strickland(\?page=[1-4])?$/.test(s.url))
+      && j.fights.length === 2 && !!j.head);
+    const again = await worker.fetch(cookieReq("/studio/api/ufc/sean-strickland?n=99", SID), STUDIO_ENV, {});
+    check("a repeat lookup is served from the isolate cache (no second round of fetches)", again.status === 200 && seen.length === 5);
+  });
+  check("the athlete route refuses a slug outside the allowlist without fetching",
+    (await worker.fetch(cookieReq("/studio/api/ufc/..%2F..%2Fevil", SID), STUDIO_ENV, {})).status === 404
+    && (await worker.fetch(cookieReq("/studio/api/ufcevent/UFC_333", SID), STUDIO_ENV, {})).status === 404);
+  await withFetch(async (u) => { const r = new Response(page, { status: 200 }); Object.defineProperty(r, "url", { value: "https://evil.example/athlete/x" }); return r; }, async () => {
+    const r = await worker.fetch(cookieReq("/studio/api/ufc/jon-jones", SID), STUDIO_ENV, {});
+    check("an athlete page that lands off ufc.com after redirects is never parsed", r.status === 502 || r.status === 404);
+  });
+  check("every UFC route and the texture plates need the session cookie",
+    (await worker.fetch(req("/studio/api/ufc/jon-jones"), STUDIO_ENV, {})).status === 401
+    && (await worker.fetch(req("/studio/api/ufcevent/ufc-333"), STUDIO_ENV, {})).status === 401
+    && (await worker.fetch(req("/studio/api/ufcevents"), STUDIO_ENV, {})).status === 401
+    && (await worker.fetch(req("/studio/api/ufcimg?p=%2Fimages%2F2024-01%2FX.png"), STUDIO_ENV, {})).status === 401
+    && (await worker.fetch(req("/studio/tpl/arena.jpg"), STUDIO_ENV, {})).status === 401);
+  const tplAssets = { fetch: async (r) => new Response("IMG", { status: /\/tpl\/(arena\.jpg|tape1\.png)$/.test(String(r.url)) ? 200 : 404 }) };
+  const tenv = Object.assign({}, STUDIO_ENV, { ASSETS: tplAssets });
+  const tj = await worker.fetch(cookieReq("/studio/tpl/arena.jpg", SID), tenv, {});
+  const tp = await worker.fetch(cookieReq("/studio/tpl/tape1.png", SID), tenv, {});
+  check("texture plates are served from the private assets by a strict name allowlist",
+    tj.status === 200 && tj.headers.get("content-type") === "image/jpeg" && tp.headers.get("content-type") === "image/png"
+    && (await worker.fetch(cookieReq("/studio/tpl/..%2Flib%2Fx.jpg", SID), tenv, {})).status === 404
+    && (await worker.fetch(cookieReq("/studio/tpl/x.svg", SID), tenv, {})).status === 404
+    && (await worker.fetch(cookieReq("/studio/tpl/arena.jpg", SID), STUDIO_ENV, {})).status === 503);
+  const gate = await worker.fetch(req("/studio/templates"), STUDIO_ENV, {});
+  const gateHtml = await gate.text();
+  const open = await worker.fetch(cookieReq("/studio/templates", SID), STUDIO_ENV, {});
+  const openHtml = await open.text();
+  check("the templates page is behind the same gate: the login page without a cookie, the page with one",
+    gate.status === 200 && gateHtml === _test.LOGIN_HTML && openHtml === _test.POSTER_HTML
+    && open.headers.get("content-security-policy") === _test.STUDIO_CSP);
+  check("signing in reloads the page it was asked for (/studio or /studio/templates) without naming either",
+    /location\.replace\(location\.pathname\)/.test(_test.LOGIN_HTML) && !/templates/.test(_test.LOGIN_HTML));
+  check("the studio links to the templates page",
+    /<a class="tpl-link" href="\/studio\/templates">Templates<\/a>/.test(STUDIO_HTML));
+
+  const P = _test.POSTER_HTML;
+  const psrc = readFileSync(new URL("./poster_page.js", import.meta.url), "utf8");
+  const pbody = psrc.slice(psrc.indexOf("export const POSTER_HTML = `") + 28, psrc.lastIndexOf("`;"));
+  const pscript = P.slice(P.indexOf("<script>") + 8, P.lastIndexOf("</script>"));
+  check("templates page: the inline script parses", (() => { try { new Function(pscript); return true; } catch (e) { return false; } })());
+  check("templates page: the template literal holds no backslash, backtick or dollar-brace (the studio_page.js trap)",
+    pbody.indexOf(String.fromCharCode(92)) === -1 && pbody.indexOf("`") === -1 && pbody.indexOf("${") === -1);
+  check("templates page: ASCII only", /^[\x09\x0A\x0D\x20-\x7E]*$/.test(pbody));
+  check("templates page: no channel name or logo on any poster (owner law)", !/iboyprime|watermark|logo\.png/i.test(P));
+  check("templates page: no betting language anywhere (owner law)", !/\b(odds|betting|bet|parlay|sportsbook|wager|favou?rite to win)\b/i.test(P));
+  check("templates page: it only talks to its own origin (no external fetch or script)",
+    !/fetch\("https?:/.test(pscript) && !/<script[^>]+src=/.test(P));
+  const ids = (pscript.match(/def\(\{\s*id: "([a-z0-9]+)"/g) || []).map(s => s.replace(/.*"([a-z0-9]+)"$/, "$1"));
+  check("templates page: fourteen templates, unique ids, each with a draw(), and no Breaking template (owner verdict)",
+    ids.length === 14 && new Set(ids).size === 14 && (pscript.match(/draw: function \(\)/g) || []).length === 14
+    && ids.indexOf("breaking") === -1);
+  check("templates page: the edge light is painted INSIDE the silhouette on the side facing a light - no outer glow, no bloom",
+    /var lam = \(nx \* lx \+ ny \* ly\) \/ dist;/.test(pscript) && /x\.globalCompositeOperation = "destination-in"; x\.drawImage\(keep, 0, 0\);/.test(pscript)
+    && !/function rimLayers/.test(pscript) && !/bloom = mkCanvas/.test(pscript));
+  check("templates page: never a red-versus-blue scheme (owner law)",
+    !/CORNER|corners|"red"|"blue"|Red corner|Blue corner/.test(pscript));
+  check("templates page: Ember is the default theme and the adaptive Scene grade the default look",
+    /theme: "ember", look: "scene"/.test(pscript) && /var THEMES = \[\s*\{ id: "ember"/.test(pscript));
+  check("templates page: the grade tone-maps LUMINANCE and sets saturation from measured chroma (no orange skin)",
+    /var sat = L\.mono \? 0 : clamp\(L\.chroma \/ Math\.max\(1, cs \/ cn \/ 255\), 0\.5, 0\.95\);/.test(pscript)
+    && /q = l2 \/ Math\.max\(1, l\);/.test(pscript));
+  check("templates page: small type is solid, only display type gets a gradient",
+    /var small = Math\.abs\(y1 - y0\) < 46;/.test(pscript));
+  check("templates page: studio mattes are defringed before a cut-out is used", /defringe\(a\.img\);/.test(pscript));
+  check("templates page: head placement votes three measures (chin, crown, frame) and takes the median",
+    /var vote = \[maxW, crown, shoulder \/ 2\.6\]\.sort/.test(pscript));
+  // the text helpers, pulled out of the page and run
+  const grab = (name) => {
+    const i = pscript.indexOf("function " + name + "(");
+    let d = 0, j = pscript.indexOf("{", i);
+    for (let k = j; k < pscript.length; k++) { if (pscript[k] === "{") d++; else if (pscript[k] === "}") { d--; if (!d) return pscript.slice(i, k + 1); } }
+    return "";
+  };
+  const H = new Function("var NL = String.fromCharCode(10);" + ["toks", "untoks", "slugify", "splitName", "plain"].map(grab).join("\n")
+    + " return { toks: toks, untoks: untoks, slugify: slugify, splitName: splitName, plain: plain };")();
+  const tk = H.toks("I was *robbed.* Big *two words* here");
+  check("templates page: *stars* mark highlighted words, a run can span words, punctuation stays",
+    tk.map(t => (t.hot ? "+" : "") + t.t).join(" ") === "I was +robbed. Big +two +words here");
+  check("templates page: tap-to-highlight rebuilds the same markup it read",
+    ["I was *robbed.*", "*WHO* wins", "a *b c* d", "x" + String.fromCharCode(10) + "*y*"].every(s => H.untoks(H.toks(s)) === s));
+  check("templates page: names become UFC slugs (accents and apostrophes dropped)",
+    H.slugify("Jiri Prochazka") === "jiri-prochazka" && H.slugify("Lone'er  Kavanagh") === "loneer-kavanagh"
+    && H.slugify("J" + String.fromCharCode(237) + "ri Proch" + String.fromCharCode(225) + "zka") === "jiri-prochazka");
+  check("templates page: surname particles stay with the surname",
+    H.splitName("Dricus Du Plessis").last === "Du Plessis" && H.splitName("Ian Machado Garry").last === "Machado Garry"
+    && H.splitName("Alex Pereira").first === "Alex");
 }
 
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
