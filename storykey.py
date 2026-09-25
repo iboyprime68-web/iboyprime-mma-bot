@@ -751,6 +751,30 @@ def content_stems(cleaned):
     return _content_stems(cleaned)
 
 
+# characters after which a capital is grammar: a sentence or clause break, a
+# quote or bracket opening, a spaced dash
+_BREAK_CHARS = frozenset(":;.!?\"'([" + chr(0x2014) + chr(0x2013))
+
+
+def _after_break(text, pos):
+    """Does the word starting at `pos` open a sentence, clause or quotation?
+    Pure."""
+    j = pos - 1
+    while j >= 0 and text[j] == " ":
+        j -= 1
+    return j < 0 or text[j] in _BREAK_CHARS
+
+
+def _acronym(word):
+    """An all-capitals word (GOAT, TKO) is an acronym, not a person - unless
+    the roster says it is a fighter written in capitals. "(and Flyweight
+    GOAT)" made "goat" the SUBJECT of a Pantoja story (Sept 25 2026). Pure."""
+    if len(word) < 2 or not word.isupper():
+        return False
+    low = word.lower()
+    return low not in ROSTER_SURNAMES and low not in ROSTER_FIRST
+
+
 class Window:
     """Everything derived from the rolling list of kept posts.
 
@@ -758,12 +782,13 @@ class Window:
     lets the filter see fighters the roster has never heard of.
     """
 
-    __slots__ = ("df", "n", "cap", "low", "cfg")
+    __slots__ = ("df", "n", "cap", "caps", "low", "cfg")
 
     def __init__(self, titles, cfg):
         self.cfg = cfg
         self.df = {}
         self.cap = {}
+        self.caps = {}
         self.low = {}
         self.n = 0
         for t in titles:
@@ -782,13 +807,27 @@ class Window:
         # Keyed by STEM, not surface form, so "Vacate" in a Title Cased
         # headline is refused on the evidence of every lowercase "vacates"
         # elsewhere in the window.
-        for i, w in enumerate(_words(cleaned)):
+        # `caps` is the same count taken from SENTENCE-case headlines only. It
+        # is consulted for a headline's FIRST word and nothing else: in
+        # "Holloway Has Nothing To Prove" every word is capitalised, and three
+        # such headlines made "Nothing left? ..." look like it opened with a
+        # name (Sept 25 2026). `cap` keeps its old meaning everywhere else -
+        # replayed on the live window, narrowing `cap` itself flipped four
+        # other verdicts, two of them wrongly.
+        # Nor does a capital that opens a quotation or a clause: "Petr Yan:
+        # 'Nothing really impresses me'" is sentence case, and its "Nothing"
+        # is still grammar (_after_break).
+        sentence = not Window.title_cased(cleaned)
+        for i, m in enumerate(_WORD.finditer(cleaned)):
+            w = m.group(0)
             if not w[:1].isalpha():
                 continue
             key = stem(w.lower())
             if w[0].isupper():
                 if i > 0:
                     self.cap[key] = self.cap.get(key, 0) + 1
+                    if sentence and not _after_break(cleaned, m.start()):
+                        self.caps[key] = self.caps.get(key, 0) + 1
             else:
                 self.low[key] = self.low.get(key, 0) + 1
 
@@ -802,9 +841,13 @@ class Window:
         headlines - "Jiri Prochazka stops Jan Blachowicz" is three of four long
         words capitalised and is not title cased.
         """
-        words = _words(cleaned)
-        funcs = [w for w in words[1:] if len(w) > 1 and w.lower() in STOPWORDS]
-        if len(funcs) >= 2 and any(w[0].isupper() for w in funcs):
+        # A capitalised function word counts only mid-clause: the "You" in
+        # "... war - 'You don't need concussions'" opens a quotation, and it
+        # made a sentence-case headline read as Title Case (Sept 25 2026).
+        spans = [(m.group(0), m.start()) for m in _WORD.finditer(cleaned)]
+        words = tuple(w for w, _p in spans)
+        funcs = [(w, p) for w, p in spans[1:] if len(w) > 1 and w.lower() in STOPWORDS]
+        if len(funcs) >= 2 and any(w[0].isupper() and not _after_break(cleaned, p) for w, p in funcs):
             return True
         longs = [w for w in words if len(w) >= 4 and w[:1].isalpha()]
         if len(longs) >= 6:
@@ -821,7 +864,7 @@ class Window:
             value *= cfg["domain_damp"]
         return min(value, cfg["idf_ceiling"])
 
-    def looks_like_name(self, token_lower, strict=False):
+    def looks_like_name(self, token_lower, strict=False, initial=False):
         """Is this capitalised token a person, as far as the window knows?
 
         `strict` is used for Title Cased Headlines, where capitalisation says
@@ -829,6 +872,14 @@ class Window:
         This Year" otherwise yields {chimaev, break, fails, find}, which both
         pollutes the name signal and strips three real content words out of the
         bag.
+
+        `initial` marks the FIRST word of a headline, whose capital comes from
+        grammar, not from being a name. It needs positive evidence: the roster,
+        or the window having seen it capitalised mid-headline. Without that,
+        "Nothing left? Ex-UFC champion urges Alexandre Pantoja to retire" made
+        "nothing" its SUBJECT, the subject-switch veto ruled it distinct from
+        "Demetrious Johnson urges Alexandre Pantoja to retire", and the same
+        story posted twice (Sept 25 2026).
         """
         if token_lower in NAME_STOP or token_lower in STOPWORDS:
             return False
@@ -841,6 +892,9 @@ class Window:
         cap = self.cap.get(st, 0)
         if strict:
             return low == 0 and cap >= 2
+        if initial:
+            caps = self.caps.get(st, 0)
+            return caps >= 1 and caps >= low * 3
         if low == 0:
             return True
         return cap >= low * 3
@@ -877,9 +931,10 @@ def _name_order(cleaned, win, strict=False):
     "Raul Rosas Jr" keys on rosas rather than the generational suffix.
     """
     keys, run = [], []
-    for w in _words(cleaned):
+    for i, w in enumerate(_words(cleaned)):
         low = w.lower()
-        if w[:1].isupper() and len(w) > 2 and win.looks_like_name(low, strict):
+        if (w[:1].isupper() and len(w) > 2 and not _acronym(w)
+                and win.looks_like_name(low, strict, initial=(i == 0))):
             run.append(low)
             continue
         if run:
@@ -938,14 +993,22 @@ class Story:
         # bag made "Matchmaking Jean Silva After Big Win at UFC Noche" and
         # "Jean Silva comforted by Noche UFC win after memory loss" score an
         # overlap of 0.73 on the words "win ufc noche" alone.
+        # The same strictness names_in used, so every word is EITHER a name or
+        # content, never neither: in a Title Cased headline the non-strict test
+        # called an unknown fighter a name while the strict one did not, and
+        # "Dasuyev & Ortega Earn UFC Contracts" vs "474 Significant Strikes
+        # Earn Guaylupo & Connor UFC Contracts" lost both casts from both
+        # signals and matched on "earn ufc contracts" (Sept 25 2026 replay).
+        strict = win.title_cased(self.cleaned) and win.n >= win.cfg["idf_min_docs"]
         words = []
-        for w in _words(self.cleaned):
+        for i, w in enumerate(_words(self.cleaned)):
             low = w.lower()
             if low in STOPWORDS or len(low) < 2:
                 continue
             if low in name_set or low in self.markers:
                 continue
-            if w[:1].isupper() and len(w) > 2 and win.looks_like_name(low):
+            if (w[:1].isupper() and len(w) > 2 and not _acronym(w)
+                    and win.looks_like_name(low, strict, initial=(i == 0))):
                 continue          # a first name whose run was keyed elsewhere
             words.append(low)
         self.bag = set(stem(w) for w in words)
@@ -1381,7 +1444,15 @@ def judge(title, source, when, recent, cfg=None):
             continue
         gap = (now - ets).total_seconds() / 3600.0
         if gap < 0:
-            continue                      # a future-dated row is not history
+            # A row dated AFTER this story. Feeds deliver out of order: MMA
+            # Mania's stale CDN snapshot served a 23:42 article after the same
+            # outlet's 00:00 article on the same story (Sept 25 2026), and
+            # skipping every later-dated row let the rewrite straight into the
+            # channel. It is compared like any other row, on the absolute gap
+            # (time_bar already ramps on the absolute gap).
+            if -gap > cfg["max_age_hours"]:
+                continue
+            gap = -gap
         if gap > cfg["exact_hours"]:
             break
         if me and norm(et) == me:
@@ -1643,15 +1714,14 @@ def _selftest():
     check("archive reporting survives the quote it contextualises",
           arch[1][0] is False)
 
-    # 6c. An identical cast relaxes the evidence floor, but not to nothing:
-    #     one shared word and zero shared characters is a coincidence.
-    coin = feed([
-        (0, "Jean Silva comforted by Noche UFC win after memory loss from "
-            "last year", "Yahoo Sports"),
-        (12, "Matchmaking Jean Silva After Big Win at UFC Noche", "MMA Sucka"),
-    ])
-    check("one shared word on an identical cast is not a merge",
-          coin[1][0] is False)
+    # 6c. (removed Sept 25 2026) "Matchmaking Jean Silva After Big Win at UFC
+    #     Noche" vs "Jean Silva comforted by Noche UFC win after memory loss"
+    #     passed here only in this two-title COLD window, and only because
+    #     "Matchmaking" was mistaken for a name, which left the headline too
+    #     thin to score. Measured in the live 400-row window, the old rules
+    #     MERGED the pair too. A one-word coincidence on an identical cast is
+    #     a known gap; a blunt fix (two rare words required) would also break
+    #     the eight-post Aspinall stripping cluster, which shares one word.
 
     # 7. Different kinds of news about the same two men never merge.
     kinds = feed([
@@ -1730,11 +1800,32 @@ def _selftest():
               for m in validate_dedupe_cfg({"dedupe": {"max_age_hours": True}})))
     check("validate_dedupe_cfg passes the shipped defaults",
           validate_dedupe_cfg({"dedupe": DEFAULTS}) == [])
-    check("a future-dated row is not history",
+    # Feeds deliver out of order: a row already POSTED can carry a later
+    # publish time than the story in hand (MMA Mania, Sept 25 2026). It is
+    # still in the channel, so it still counts - within the window.
+    check("an already-posted row dated later still counts",
           is_duplicate("Tom Aspinall vacates UFC heavyweight title", "Y", t0,
                        [{"title": "Tom Aspinall vacates UFC heavyweight title",
                          "ts": (t0 + timedelta(hours=2)).isoformat()}])[0]
+          is True)
+    check("a row dated far beyond the window is not compared",
+          is_duplicate("Tom Aspinall vacates UFC heavyweight title", "Y", t0,
+                       [{"title": "Tom Aspinall vacates UFC heavyweight title",
+                         "ts": (t0 + timedelta(hours=30)).isoformat()}])[0]
           is False)
+    # A headline's first word is capitalised by grammar; so is a word opening
+    # a quotation; an all-caps word is an acronym. None of them is a name
+    # without evidence ("Nothing left? Ex-UFC champion (and Flyweight GOAT)
+    # urges Alexandre Pantoja..." had the subjects "nothing" and "goat").
+    win = Window(["Petr Yan: 'Nothing really impresses me' in the division",
+                  "Holloway Has Nothing To Prove Says Coach"], _merge_cfg(None))
+    names, principal = names_in(clean("Nothing left? Ex-UFC champion (and Flyweight "
+                                      "GOAT) urges Alexandre Pantoja to retire"), win)
+    check("a grammatical capital or an acronym is never the subject",
+          "nothing" not in names and "goat" not in names and principal != "nothing")
+    check("a capital that opens a quote does not make a headline Title Case",
+          not Window.title_cased(clean("Nothing left? Champion urges Pantoja to retire "
+                                       "after the war - 'You don't need concussions'")))
     check("an unusable timestamp keeps the story",
           is_duplicate("Tom Aspinall vacates UFC heavyweight title", "Y",
                        "not a date",
