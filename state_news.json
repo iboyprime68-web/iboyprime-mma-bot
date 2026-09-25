@@ -1,5 +1,6 @@
 {
   "seen": {
+    "031a35aae0052eab": 1790342986.6357348,
     "2223d3b9204d5d1b": 1790342918.4770238,
     "c5ad14d8164de91e": 1790342870.9274037,
     "453d9afe14fe662b": 1790342870.5186543,
@@ -2498,8 +2499,7 @@
     "d44de0cbf40be8a5": 1789808139.2821722,
     "c357c0d4144920bd": 1789808074.8731222,
     "41e555e8b3462318": 1789808008.5087645,
-    "153ba315133e7ca9": 1789808008.2760122,
-    "87d6f302d10fe647": 1789808008.274029
+    "153ba315133e7ca9": 1789808008.2760122
   },
   "initialized": true,
   "v": 4,
@@ -4579,13 +4579,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T12:06:06+00:00",
       "cluster": "c1249ce51c3"
+    },
+    {
+      "t": "MMA rankings September 2026: UFC 332 title fight misses the mark (of a champion)",
+      "source": "New York Post",
+      "ts": "2026-09-25T12:30:00+00:00",
+      "cluster": "c8388615a47"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T13",
-    6
+    7
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/UFC-underdog-loved-every-second-of-painful-first-main-event-loss-202789",
