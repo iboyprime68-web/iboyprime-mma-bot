@@ -4546,7 +4546,6 @@
     13
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Tommy-McMillen-says-UFC-rival-was-pleading-for-respect-after-war-202782",
     "https://bloodyelbow.com/?p=331519",
     "https://bloodyelbow.com/?p=331523",
     "b4464128-9fad-3ba0-ac32-ad1168a1f252",
@@ -6045,26 +6044,17 @@
     "https://www.sherdog.com/news/news/Eddie-Hearn-says-Netflix-didnt-get-the-memo-on-Dana-White-FuryJoshua-202940",
     "1acba846-0d7b-354d-8323-2737c3857a2c",
     "c13974df-571f-3fcb-955d-f43eb91e8af3",
-    "50beadba-dec5-3c8d-a148-2a42affac4c9"
+    "50beadba-dec5-3c8d-a148-2a42affac4c9",
+    "7557ebd5-9975-3c2c-bb5f-61c9d2b1a63c"
   ],
   "daily": {
     "d": "2026-09-25",
-    "ai": 30,
-    "staged": 2,
+    "ai": 31,
+    "staged": 3,
     "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-15T01:17:10.605049+00:00",
-      "t": "Renato Moicano vs. Brian Ortega scrapped from UFC 331; Moicano gets moved to new card",
-      "names": [
-        "moicano",
-        "ortega",
-        "nolan"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-15T01:33:38.031983+00:00",
       "t": "Dana White: Terence Crawford needs 'the right fight' to end retirement",
@@ -6848,6 +6838,15 @@
         "rosas"
       ],
       "img": "cutout:khalil-rountree-jr"
+    },
+    {
+      "ts": "2026-09-25T07:32:03.790053+00:00",
+      "t": "Josh Hokit to Alexander Volkov: ‘He’s lucky to still be on the roster’",
+      "names": [
+        "hokit",
+        "volkov"
+      ],
+      "img": "cutout:alexander-volkov"
     }
   ],
   "seed_pending": [],
