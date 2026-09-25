@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e2f399d1de395948": 1790361740.2956285,
     "72f9109c495cae27": 1790361695.3140306,
     "0eb6d757887f085d": 1790361671.9192019,
     "5157056b1a573242": 1790361671.5779684,
@@ -2498,8 +2499,7 @@
     "2109b1a637e8199f": 1789837408.9415896,
     "d8c2912396e914d2": 1789837408.9398828,
     "422efb8fdb6e6f51": 1789837284.4700944,
-    "ff266c4c4953fa49": 1789837284.4693627,
-    "345f0636060bf1f6": 1789837284.4672692
+    "ff266c4c4953fa49": 1789837284.4693627
   },
   "initialized": true,
   "v": 4,
@@ -4651,13 +4651,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-25T18:02:46+00:00",
       "cluster": "c61824bda5f"
+    },
+    {
+      "t": "Police officer booked to fight convicted criminal in last-minute change to UFC Vegas card",
+      "source": "talkSPORT",
+      "ts": "2026-09-25T18:11:10+00:00",
+      "cluster": "c34419687da"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T18",
-    30
+    31
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510244",
