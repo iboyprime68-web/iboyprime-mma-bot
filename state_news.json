@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8199b923d5072c98": 1790343055.302681,
     "031a35aae0052eab": 1790342986.6357348,
     "2223d3b9204d5d1b": 1790342918.4770238,
     "c5ad14d8164de91e": 1790342870.9274037,
@@ -2498,8 +2499,7 @@
     "19a2cdf63a53d6a2": 1789808203.640702,
     "d44de0cbf40be8a5": 1789808139.2821722,
     "c357c0d4144920bd": 1789808074.8731222,
-    "41e555e8b3462318": 1789808008.5087645,
-    "153ba315133e7ca9": 1789808008.2760122
+    "41e555e8b3462318": 1789808008.5087645
   },
   "initialized": true,
   "v": 4,
@@ -4585,13 +4585,19 @@
       "source": "New York Post",
       "ts": "2026-09-25T12:30:00+00:00",
       "cluster": "c8388615a47"
+    },
+    {
+      "t": "The Numbers Behind Raul Rosas Jr.’s First UFC Main Event",
+      "source": "Deadspin",
+      "ts": "2026-09-25T12:38:00+00:00",
+      "cluster": "cbe5d6aa0d0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T13",
-    7
+    8
   ],
   "yt_eval": [
     "CBMi4gFBVV95cUxPWW5GOFNJUXIwN3U4cEwzbUZHaG1OZENmbzU1ZlV6NTZESHcxUGpmNFFwNVNILUJTa1ZkcGNQTUJZSE5uRDQxc3d4dnozR0F4NXBiejdJelFnWXZDTHc1dVJjamdzR1M2aC15am9fdWFrOXlTVzJPZ3pmZkwtNFUwZzVwcS1udk1VSTNIcWhmU3RQYzg4WXJnQWptN3huSU1fX3hnSHdTSU0xQUpYYk10N2ZWNVlMU3VlV3UzVnk2ZTZkaE4wSGZQZGU0bU1tLXBKZ0ktM0hlbWxlZEpJSkZqWlNB",
