@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 20,
+  "cursor": 21,
   "staged_at": [
-    "2026-09-23T19:43:02.518580+00:00",
     "2026-09-24T14:15:20.485179+00:00",
     "2026-09-24T20:01:11.128611+00:00",
-    "2026-09-25T14:38:40.555620+00:00"
+    "2026-09-25T14:38:40.555620+00:00",
+    "2026-09-25T20:03:26.673284+00:00"
   ],
   "asked": [
-    "Who is the most impressive UFC Paris finisher this weekend?",
     "Gun to your head, one fighter wins a street fight for your life. Who?",
     "Who is the most delusional fighter in the UFC right now?",
     "Who is the most likely to beat Islam Makhachev right now?",
@@ -47,33 +46,34 @@
     "Oblique kicks are in the news again. What should the UFC do about them?",
     "What is the worst accusation a fighter can throw at another fighter?",
     "What is the best walkout in UFC history?",
-    "Who is the biggest threat to the bantamweight division right now?"
+    "Who is the biggest threat to the bantamweight division right now?",
+    "Who is the hardest fighter to take down ever?"
   ],
   "last_entry": {
-    "q": "Who is the biggest threat to the bantamweight division right now?",
+    "q": "Who is the hardest fighter to take down ever?",
     "type": "poll",
     "options": [
       {
-        "label": "Merab Dvalishvili",
+        "label": "Jose Aldo",
         "emoji": "🛡️",
         "art": ""
       },
       {
+        "label": "Yoel Romero",
+        "emoji": "💪",
+        "art": ""
+      },
+      {
+        "label": "Alexander Volkanovski",
+        "emoji": "🪨",
+        "art": ""
+      },
+      {
         "label": "Petr Yan",
-        "emoji": "🐺",
-        "art": ""
-      },
-      {
-        "label": "Sean O'Malley",
-        "emoji": "🎯",
-        "art": ""
-      },
-      {
-        "label": "Other",
-        "emoji": "🤔",
+        "emoji": "⚓",
         "art": ""
       }
     ],
-    "gag": "A hamster in a tiny championship belt, running on a wheel labeled 'title shot'."
+    "gag": "a sloth lying flat on the octagon canvas, completely unbothered, spotlight on it"
   }
 }
