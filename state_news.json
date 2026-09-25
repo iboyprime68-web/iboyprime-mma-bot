@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2543230155aa0e4f": 1790360513.6168113,
     "62d1f7ea5670ab6f": 1790360484.9888825,
     "a9387ff5541ff141": 1790360462.3705657,
     "e821b74aa337b1f7": 1790345638.3302104,
@@ -2498,8 +2499,7 @@
     "02736384e54dccca": 1789825392.1037834,
     "41b752ec894e75a1": 1789825392.1034813,
     "a93e821404414f55": 1789824893.6981754,
-    "16f92fbfb77d681c": 1789824893.279177,
-    "826d26c073359340": 1789824518.5929515
+    "16f92fbfb77d681c": 1789824893.279177
   },
   "initialized": true,
   "v": 4,
@@ -4507,13 +4507,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-25T14:30:00+00:00",
       "cluster": "cd20c28950d"
+    },
+    {
+      "t": "MMA Divisional Rankings: Arman Tsarukyan makes case for lightweight crown after UFC 331 statement win",
+      "source": "MMA Fighting",
+      "ts": "2026-09-25T14:54:47+00:00",
+      "cluster": "cb4d32e41f5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T18",
-    2
+    3
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-may-step-away-from-UFC-if-yearend-fight-falls-through-202798",
