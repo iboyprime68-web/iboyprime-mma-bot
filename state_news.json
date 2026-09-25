@@ -1,5 +1,8 @@
 {
   "seen": {
+    "001cba2f4a7f4977": 1790344218.9507039,
+    "777f1ff4940396a2": 1790344218.5218258,
+    "c35c49f5315fee76": 1790344218.5199502,
     "0d3d9cbaf2e056de": 1790344153.9362686,
     "6a2965e777ed4afa": 1790344089.259626,
     "8f64f4b6d30a071d": 1790344088.7253044,
@@ -2496,10 +2499,7 @@
     "638fc39e61cdb467": 1789822998.0095665,
     "045b74b306830f15": 1789822997.7084088,
     "ac01294a0fd3dd69": 1789822933.1898627,
-    "8de44917ccf571b4": 1789822932.8611135,
-    "64e695524b0d7233": 1789822932.8387887,
-    "9736211b868791a0": 1789822932.8384085,
-    "330855b68c020af1": 1789822932.8375852
+    "8de44917ccf571b4": 1789822932.8611135
   },
   "initialized": true,
   "v": 4,
@@ -4669,13 +4669,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T13:27:11+00:00",
       "cluster": "c6cfbfced17"
+    },
+    {
+      "t": "\"Same kind of people swirling around\" - Petr Yan gets brutally honest about the state of the UFC bantamweight division",
+      "source": "Sportskeeda",
+      "ts": "2026-09-25T13:30:00+00:00",
+      "cluster": "c9f00fb14ad"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T13",
-    25
+    26
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331557",
