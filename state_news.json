@@ -1,5 +1,6 @@
 {
   "seen": {
+    "738ce9798e04305f": 1790360652.866232,
     "b436405edb9f85cd": 1790360630.0769098,
     "1fce04ae3be2b0f6": 1790360629.7659876,
     "30bd14ee0e48876e": 1790360607.3397882,
@@ -2498,8 +2499,7 @@
     "34c3dc1cbcb171d6": 1789834872.1281853,
     "6e823429cf281143": 1789834871.6783307,
     "bb181cdb4f5e3fbb": 1789834848.1410177,
-    "44790a06581ce844": 1789834825.1561346,
-    "d0b48acac617c5fd": 1789834801.9257438
+    "44790a06581ce844": 1789834825.1561346
   },
   "initialized": true,
   "v": 4,
@@ -4543,13 +4543,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-25T17:55:47+00:00",
       "cluster": "c247084d9aa"
+    },
+    {
+      "t": "Bella Mir books return to action in Las Vegas after losing shot at UFC deal on Dana White’s Contender Series",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-25T18:00:00+00:00",
+      "cluster": "c34879e61be"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T18",
-    8
+    9
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-may-step-away-from-UFC-if-yearend-fight-falls-through-202798",
