@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a3478ad68bf75f58": 1790321669.8445163,
     "6f442b419500dc79": 1790321598.6657336,
     "4eea9732a1eed7df": 1790321598.3777213,
     "8a2a1d913dbbd131": 1790321572.0774982,
@@ -2498,8 +2499,7 @@
     "20f8f50d64f8f114": 1789790580.5524237,
     "d79d57e81ea99849": 1789790580.5502088,
     "1b7b2de13a0c393d": 1789790580.5478091,
-    "acc1cc23aa7bf921": 1789790516.0497005,
-    "4a586b8e3fa010d2": 1789790515.7592015
+    "acc1cc23aa7bf921": 1789790516.0497005
   },
   "initialized": true,
   "v": 4,
@@ -4549,13 +4549,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T03:59:48+00:00",
       "cluster": "c7e740ce94f"
+    },
+    {
+      "t": "Inside BKFC's big bet on Britain: How David Feldman turned bare knuckle from bar fight to box office",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-25T04:10:10+00:00",
+      "cluster": "cfaac6e2e16"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T07",
-    15
+    16
   ],
   "yt_eval": [
     "b4464128-9fad-3ba0-ac32-ad1168a1f252",
