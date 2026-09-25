@@ -14,6 +14,7 @@
 // The editor page lives in its own module so this file stays about routing and auth.
 // It is served ONLY to an authenticated session (see studioRouter).
 import { STUDIO_HTML } from "./studio_page.js";
+import { POSTER_HTML } from "./poster_page.js";
 
 const ORANGE = 0xE67E22;
 const T = { PONG: 1, MESSAGE: 4, DEFER: 5 };
@@ -997,7 +998,7 @@ p{min-height:18px;text-align:center;font-size:13px;font-weight:600;color:#ff9a9a
     fetch("/studio/login", { method: "POST", headers: { "content-type": "application/json" },
                              body: JSON.stringify({ password: p.value }) })
       .then(function (r) {
-        if (r.ok) { location.replace("/studio"); return; }
+        if (r.ok) { location.replace(location.pathname); return; }
         e.textContent = r.status === 429 ? "Too many attempts. Wait a few minutes." : "Sign in failed.";
         p.value = "";
       })
@@ -1583,6 +1584,323 @@ async function studioFighter(env, slug) {
   const img = fighterPhotoUrl(info && info.imgUrl);
   if (!img) return studioJson({ error: "no photo for that fighter" }, 404);
   return await relayPhoto(img, fighterPhotoUrl);
+}
+
+// ---------- /studio: UFC.com data for the poster templates ----------
+// GET /studio/api/ufc/<slug>?n=<0-15>   one fighter: record, bio, win-method split, the
+//                                        cut-out full-body photo and the last n bouts
+// GET /studio/api/ufcevent/<slug>       one event: title, date, venue, the whole card
+// GET /studio/api/ufcevents             the upcoming events list
+// GET /studio/api/ufcimg?p=<path>&k=<itok>  one ufc.com cut-out, relayed same-origin
+// The templates page (poster_page.js) fills a poster from one name or one event. The
+// HTML is parsed HERE into a small JSON, so the page never handles ufc.com markup, and
+// every image goes out as a /studio/api/ufcimg path: the relay pins the host
+// (fighterPhotoUrl, re-checked on every redirect hop) AND the path shape (UFC_IMG_PATH),
+// so it cannot be turned into a fetch-anything proxy.
+// Measured Sept 25 2026 from the owner's PC: ufc.com is Fastly-fronted and answers a
+// plain GET; an athlete page is ~120 KB, ?page=N pages the history three bouts at a
+// time, and every bout card carries BOTH fighters' head-and-shoulders cut-outs
+// (event_results_athlete_headshot, 520x325 unstyled). The hero full body is 460x700 as a
+// style and 1350x3324 as the unstyled master, which is what a 1080 poster needs.
+const UFC_ORIGIN = "https://www.ufc.com";
+const UFC_FIGHTS_MAX = 15;
+const UFC_IMG_PATH = /^\/images\/(?:styles\/[a-z0-9_]{3,64}\/s3\/)?[0-9]{4}-[0-9]{2}\/(?:[0-9]{1,3}\/)?[A-Za-z0-9_.%-]{1,160}\.png$/;
+const UFC_ITOK = /^[A-Za-z0-9_-]{4,20}$/;
+const UFC_EVENT_SLUG = /^[a-z0-9]+(?:-[a-z0-9]+){0,11}$/;
+const UFC_TTL_MS = 30 * 60 * 1000;
+const _ufcCache = new Map();
+function ufcCacheGet(k) {
+  const e = _ufcCache.get(k);
+  return e && Date.now() - e.at < UFC_TTL_MS ? e.v : null;
+}
+function ufcCacheSet(k, v) {
+  if (_ufcCache.size >= 300) _ufcCache.delete(_ufcCache.keys().next().value);   // bounded
+  _ufcCache.set(k, { at: Date.now(), v });
+}
+// tags stripped, the handful of entities ufc.com emits decoded (&amp; LAST, so an
+// escaped entity stays literal), whitespace collapsed
+function ufcText(s) {
+  return String(s || "").replace(/<[^>]*>/g, " ")
+    .replace(/&nbsp;/g, " ").replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'")
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .replace(/&#([0-9]{1,6});/g, (m, n) => {
+      const c = Number(n);
+      return c > 31 && c < 0x110000 ? String.fromCodePoint(c) : " ";
+    })
+    .replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
+}
+function ufcPick(s, re) { const m = re.exec(s); return m ? ufcText(m[1]) : ""; }
+function ufcSlugName(slug) {
+  return String(slug || "").split("-").filter(Boolean)
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+}
+// "https://ufc.com/images/styles/<style>/s3/2025-01/5/X_L.png?itok=abc" -> { p, k } | null
+function ufcImg(src) {
+  let s = String(src || "").trim(), k = "";
+  const q = s.indexOf("?");
+  if (q !== -1) {
+    const m = /(?:^|&(?:amp;)?)itok=([A-Za-z0-9_-]{4,20})(?:&|$)/.exec(s.slice(q + 1));
+    k = m ? m[1] : "";
+    s = s.slice(0, q);
+  }
+  s = s.replace(/^https?:\/\/(?:www\.)?ufc\.com(?=\/)/i, "");
+  if (s.length > 300 || !UFC_IMG_PATH.test(s)) return null;
+  return { p: s, k: s.indexOf("/images/styles/") === 0 ? k : "" };
+}
+// the unstyled master of a styled cut-out: the full-resolution file
+function ufcOriginal(im) {
+  if (!im) return null;
+  return { p: im.p.replace(/^\/images\/styles\/[a-z0-9_]{3,64}\/s3\//, "/images/"), k: "" };
+}
+function ufcImgRoute(im) {
+  return im ? "/studio/api/ufcimg?p=" + encodeURIComponent(im.p) + (im.k ? "&k=" + im.k : "") : null;
+}
+// UFC names each pose for its side of a fight card: VOLKANOVSKI_..._L sits on the left
+// (red corner) and EVLOEV_..._R on the right. The page flips a cut-out whose side
+// does not match the slot it lands in.
+function ufcFace(p) {
+  const m = /_(L|R)(?=[_.-])/.exec(String(p || "").split("/").pop() || "");
+  return m ? m[1] : "";
+}
+function ufcEventName(slug) {
+  const s = String(slug || "");
+  const n = /(?:^|-)ufc-([0-9]{3})(?:-|$)/.exec(s);
+  if (n) return "UFC " + n[1];
+  if (/fight-night/.test(s)) return "UFC Fight Night";
+  if (/^noche/.test(s)) return "Noche UFC";
+  return ufcSlugName(s.split("-").slice(0, 3).join("-")).replace(/^Ufc\b/, "UFC");
+}
+function ufcResult(cls) {
+  const c = String(cls || "").toLowerCase();
+  if (c === "win" || c === "loss" || c === "draw") return c;
+  return /no-?contest|nc/.test(c) ? "nc" : "";
+}
+async function ufcFetchText(url) {
+  let r = null;
+  try {
+    r = await fetch(url, { headers: { "user-agent": PHOTO_UA, "accept": "text/html,application/xhtml+xml" },
+                           cf: { cacheTtl: 900, cacheEverything: true } });
+  } catch (e) { r = null; }
+  if (!r) return { status: 0, text: "" };
+  // a redirect that left ufc.com is treated as no answer: nothing off-host is parsed
+  let host = "";
+  try { host = new URL(r.url || url).hostname.toLowerCase(); } catch (e) { host = ""; }
+  if (!r.ok || (host !== "www.ufc.com" && host !== "ufc.com")) return { status: r.status, text: "" };
+  return { status: r.status, text: await r.text() };
+}
+function parseUfcFights(html, slug) {
+  const s = String(html || "");
+  const out = [];
+  const parts = s.split('<article class="c-card-event--athlete-results"');
+  for (let i = 1; i < parts.length && out.length < 6; i++) {
+    const c = parts[i].slice(0, 8000);
+    const sides = [];
+    const sideRe = /athlete-results__(red|blue)-image\s*([a-z-]*)"[\s\S]{0,600}?href="https:\/\/www\.ufc\.com\/athlete\/([a-z0-9-]{1,80})"[\s\S]{0,400}?<img src="([^"]{1,400})"([^>]{0,300})>/g;
+    let m;
+    while ((m = sideRe.exec(c)) && sides.length < 2) {
+      const alt = /alt="([^"]{0,100})"/.exec(m[5]);
+      sides.push({ res: m[2], slug: m[3], img: ufcImg(m[4]), alt: alt ? ufcText(alt[1]) : "" });
+    }
+    if (sides.length !== 2) continue;
+    const me = sides[0].slug === slug ? sides[0] : sides[1].slug === slug ? sides[1] : null;
+    if (!me) continue;
+    const opp = me === sides[0] ? sides[1] : sides[0];
+    const res = {};
+    const rRe = /athlete-results__result-label">([^<]{1,20})<\/div>\s*<div class="c-card-event--athlete-results__result-text">([^<]{0,60})</g;
+    while ((m = rRe.exec(c))) res[ufcText(m[1]).toLowerCase()] = ufcText(m[2]);
+    const ev = /href="https:\/\/www\.ufc\.com\/event\/([a-z0-9-]{1,100})/.exec(c);
+    out.push({
+      opp: opp.alt || ufcSlugName(opp.slug), oppSlug: opp.slug,
+      oppHead: ufcImgRoute(ufcOriginal(opp.img)), oppHeadSmall: ufcImgRoute(opp.img),
+      myHead: ufcImgRoute(ufcOriginal(me.img)),
+      result: ufcResult(me.res), method: res.method || "", round: res.round || "",
+      time: res.time || "", date: ufcPick(c, /athlete-results__date">([^<]{1,40})</),
+      event: ev ? ufcEventName(ev[1]) : "",
+    });
+  }
+  return out;
+}
+function parseUfcAthlete(html, slug) {
+  const s = String(html || "");
+  const h0 = s.indexOf('class="hero-profile');
+  const hero = h0 === -1 ? "" : s.slice(h0, h0 + 12000);
+  const out = {
+    slug: String(slug || ""),
+    name: ufcPick(hero, /hero-profile__name">([^<]{1,100})</),
+    nickname: ufcPick(hero, /hero-profile__nickname">([^<]{1,100})</).replace(/^["\s]+|["\s]+$/g, ""),
+    division: ufcPick(hero, /hero-profile__division-title">([^<]{1,80})</),
+    record: ufcPick(hero, /hero-profile__division-body">([^<]{1,60})</).replace(/\s*\(W-L-D\)\s*$/i, ""),
+    tags: [], body: null, bodySmall: null, face: "", head: null,
+    bio: {}, method: {}, stats: {}, rates: {}, fights: [],
+  };
+  let m;
+  const tagRe = /hero-profile__tag">([^<]{1,60})</g;
+  while ((m = tagRe.exec(hero)) && out.tags.length < 8) { const t = ufcText(m[1]); if (t) out.tags.push(t); }
+  const statRe = /hero-profile__stat-numb">([0-9]{1,4})<\/p>\s*<p class="hero-profile__stat-text">([^<]{1,60})</g;
+  while ((m = statRe.exec(hero)) && Object.keys(out.stats).length < 8) out.stats[ufcText(m[2])] = Number(m[1]);
+  const bm = /<img src="([^"]{1,400})"[^>]{0,200}class="hero-profile__image"/.exec(hero);
+  const bi = bm ? ufcImg(bm[1]) : null;
+  if (bi) { out.bodySmall = ufcImgRoute(bi); out.body = ufcImgRoute(ufcOriginal(bi)); out.face = ufcFace(bi.p); }
+  const b0 = s.indexOf('class="c-bio__info');
+  const bio = b0 === -1 ? "" : s.slice(b0, b0 + 9000);
+  const bioRe = /c-bio__label">([^<]{1,40})<\/div>\s*<div class="c-bio__text">([\s\S]{0,400}?)<\/div>\s*<\/div>/g;
+  while ((m = bioRe.exec(bio)) && Object.keys(out.bio).length < 16) {
+    const k = ufcText(m[1]), v = ufcText(m[2]);
+    if (k && v) out.bio[k] = v.slice(0, 80);
+  }
+  const w0 = s.indexOf(">Win by Method<");
+  const wm = w0 === -1 ? "" : s.slice(w0, w0 + 3000);
+  const wmRe = /c-stat-3bar__label">([^<]{1,20})<\/div>\s*<div class="c-stat-3bar__value">([0-9]{1,4})/g;
+  while ((m = wmRe.exec(wm)) && Object.keys(out.method).length < 4) out.method[ufcText(m[1])] = Number(m[2]);
+  const c0 = s.indexOf('class="c-stat-compare');
+  const cmp = c0 === -1 ? "" : s.slice(c0, c0 + 6000);
+  const cmpRe = /c-stat-compare__number">\s*([0-9.]{1,8})\s*<\/div>\s*<div class="c-stat-compare__label">([^<]{1,40})</g;
+  while ((m = cmpRe.exec(cmp)) && Object.keys(out.rates).length < 8) out.rates[ufcText(m[2])] = Number(m[1]);
+  return out;
+}
+function parseUfcEvent(html, slug) {
+  const s = String(html || "");
+  const ts = /c-hero__headline-suffix[^>]{0,120}data-timestamp="([0-9]{9,11})"/.exec(s);
+  const out = {
+    slug: String(slug || ""),
+    title: ufcPick(s, /field--name-node-title[^>]{0,120}><h1>([^<]{1,100})<\/h1>/) || ufcEventName(slug),
+    headline: [ufcPick(s, /e-divider__top">([^<]{1,60})</), ufcPick(s, /e-divider__bottom">([^<]{1,60})</)]
+      .filter(Boolean).join(" vs "),
+    ts: ts ? Number(ts[1]) : 0,
+    venue: ufcPick(s, /c-hero__text">\s*<div class="field field--name-venue[^>]{0,120}>([^<]{1,160})</),
+    fights: [],
+  };
+  const pre = s.indexOf('id="prelims-card"'), early = s.indexOf('id="early-prelims"');
+  const MARK = '<div class="c-listing-fight"';
+  let pos = s.indexOf(MARK);
+  while (pos !== -1 && out.fights.length < 20) {
+    const next = s.indexOf(MARK, pos + MARK.length);
+    const part = s.slice(pos, next === -1 ? pos + 9000 : Math.min(next, pos + 9000));
+    const corner = (side) => {
+      const im = new RegExp("corner-image--" + side + '">[\\s\\S]{0,300}?href="https://www\\.ufc\\.com/athlete/([a-z0-9-]{1,80})"[\\s\\S]{0,400}?<img src="([^"]{1,400})"').exec(part);
+      const nm = new RegExp("corner-name--" + side + '">[\\s\\S]{0,300}?given-name">([^<]{0,60})</span>\\s*<span class="c-listing-fight__corner-family-name">([^<]{0,60})<').exec(part);
+      const img = im ? ufcImg(im[2]) : null;
+      return { slug: im ? im[1] : "", first: nm ? ufcText(nm[1]) : "", last: nm ? ufcText(nm[2]) : "",
+               img: ufcImgRoute(ufcOriginal(img)), imgSmall: ufcImgRoute(img), face: img ? ufcFace(img.p) : "" };
+    };
+    const rr = part.indexOf("c-listing-fight__ranks-row");
+    const ranks = [];
+    if (rr !== -1) {
+      const rRe = /<span>([^<]{0,8})<\/span>/g;
+      const seg = part.slice(rr, rr + 700);
+      let m;
+      while ((m = rRe.exec(seg)) && ranks.length < 2) ranks.push(ufcText(m[1]));
+    }
+    const red = corner("red"), blue = corner("blue");
+    if (red.last || blue.last) {
+      out.fights.push({
+        cls: ufcPick(part, /c-listing-fight__class-text">([^<]{1,80})</),
+        card: early !== -1 && pos > early ? "early" : pre !== -1 && pos > pre ? "prelims" : "main",
+        red: Object.assign(red, { rank: ranks[0] || "" }), blue: Object.assign(blue, { rank: ranks[1] || "" }),
+      });
+    }
+    pos = next;
+  }
+  return out;
+}
+function parseUfcEvents(html) {
+  const s = String(html || "");
+  const a = s.indexOf('id="events-list-upcoming"'), b = s.indexOf('id="events-list-past"');
+  if (a === -1) return [];
+  const seg = s.slice(a, b > a ? b : a + 250000);
+  const re = /c-card-event--result__headline"><a href="\/event\/([a-z0-9-]{1,100})">([^<]{1,140})<\/a><\/h3>[\s\S]{0,800}?data-main-card-timestamp="([0-9]{0,11})"/g;
+  const out = [], seen = new Set();
+  let m;
+  while ((m = re.exec(seg)) && out.length < 16) {
+    if (seen.has(m[1])) continue;
+    seen.add(m[1]);
+    out.push({ slug: m[1], title: ufcEventName(m[1]), headline: ufcText(m[2]), ts: Number(m[3] || 0) });
+  }
+  return out;
+}
+async function studioUfc(url, slug) {
+  const s = String(slug || "");
+  if (s.length > 60 || !FIGHTER_SLUG.test(s)) return studioJson({ error: "not found" }, 404);
+  let n = Math.floor(Number(url.searchParams.get("n") || 6));
+  if (!Number.isFinite(n)) n = 6;
+  n = Math.max(0, Math.min(UFC_FIGHTS_MAX, n));
+  const key = "a:" + s + ":" + n;
+  const hit = ufcCacheGet(key);
+  if (hit) return studioJson(hit, 200);
+  const pages = Math.max(1, Math.ceil(n / 3));
+  const urls = [];
+  for (let p = 0; p < pages; p++) urls.push(UFC_ORIGIN + "/athlete/" + s + (p ? "?page=" + p : ""));
+  const got = await Promise.all(urls.map(ufcFetchText));
+  const first = got[0] || { status: 0, text: "" };
+  const a = first.text ? parseUfcAthlete(first.text, s) : null;
+  if (!a || !a.name) {
+    return first.status === 404 || (a && !a.name)
+      ? studioJson({ error: "no UFC athlete page for that name" }, 404)
+      : studioJson({ error: "ufc.com did not answer" }, 502);
+  }
+  const seen = new Set();
+  const fights = [];
+  for (const g of got) {
+    for (const f of parseUfcFights(g.text, s)) {
+      const k = f.date + "|" + f.oppSlug;
+      if (!seen.has(k)) { seen.add(k); fights.push(f); }
+    }
+  }
+  a.fights = fights.slice(0, n);
+  a.head = (fights.find(f => f.myHead) || {}).myHead || null;
+  fights.forEach(f => { delete f.myHead; });
+  ufcCacheSet(key, a);
+  return studioJson(a, 200);
+}
+async function studioUfcEvent(slug) {
+  const s = String(slug || "");
+  if (s.length > 100 || !UFC_EVENT_SLUG.test(s)) return studioJson({ error: "not found" }, 404);
+  const key = "e:" + s;
+  const hit = ufcCacheGet(key);
+  if (hit) return studioJson(hit, 200);
+  const g = await ufcFetchText(UFC_ORIGIN + "/event/" + s);
+  if (!g.text) return studioJson({ error: g.status === 404 ? "no such event" : "ufc.com did not answer" }, g.status === 404 ? 404 : 502);
+  const ev = parseUfcEvent(g.text, s);
+  if (!ev.fights.length) return studioJson({ error: "that event has no fight card yet" }, 404);
+  ufcCacheSet(key, ev);
+  return studioJson(ev, 200);
+}
+async function studioUfcEvents() {
+  const hit = ufcCacheGet("events");
+  if (hit) return studioJson(hit, 200);
+  const g = await ufcFetchText(UFC_ORIGIN + "/events");
+  if (!g.text) return studioJson({ error: "ufc.com did not answer" }, 502);
+  const list = parseUfcEvents(g.text);
+  if (list.length) ufcCacheSet("events", list);
+  return studioJson(list, 200);
+}
+async function studioUfcImg(url) {
+  const p = url.searchParams.get("p") || "", k = url.searchParams.get("k") || "";
+  if (p.length > 300 || !UFC_IMG_PATH.test(p)) return studioJson({ error: "not found" }, 404);
+  if (k && !UFC_ITOK.test(k)) return studioJson({ error: "not found" }, 404);
+  const target = "https://ufc.com" + p + (k && p.indexOf("/images/styles/") === 0 ? "?itok=" + k : "");
+  return await relayPhoto(target, fighterPhotoUrl);
+}
+
+// ---------- /studio: the templates page's texture plates ----------
+// Grayscale plates and paper-tape cut-outs the owner's Nano Banana server made for the
+// poster templates, shipped with the library as Workers static assets under /tpl/ and
+// served only through this gate (run_worker_first keeps the directory private).
+const TPL_FILE = /^[a-z0-9][a-z0-9-]{0,40}\.(jpg|png)$/;
+async function studioTpl(request, env, file) {
+  if (!TPL_FILE.test(String(file || ""))) return studioJson({ error: "not found" }, 404);
+  if (!env.ASSETS || typeof env.ASSETS.fetch !== "function") {
+    return studioJson({ error: "the texture plates are not deployed with this worker" }, 503);
+  }
+  let r = null;
+  try { r = await env.ASSETS.fetch(new Request(new URL("/tpl/" + file, request.url).toString())); }
+  catch (e) { r = null; }
+  if (!r || !r.ok) return studioJson({ error: "not found" }, 404);
+  return new Response(r.body, { status: 200, headers: {
+    "content-type": file.endsWith(".png") ? "image/png" : "image/jpeg",
+    "cache-control": "private, max-age=86400",
+    "x-content-type-options": "nosniff",
+    "content-security-policy": "default-src 'none'; sandbox" } });
 }
 
 // ---------- /studio: Nano Banana image generation ----------
@@ -2536,6 +2854,10 @@ const PROBE_FEEDS = Object.freeze([
   ["bloody_elbow",    "https://www.bloodyelbow.com/feed/"],
   ["mma_mania",       "https://www.mmamania.com/rss/current.xml"],
   ["sherdog",         "https://www.sherdog.com/rss/news.xml"],
+  // Sept 2026: the poster templates read ufc.com pages from the Worker; these prove the
+  // site answers Cloudflare's IPs with the same user agent the template routes send
+  ["ufc_athlete",     "https://www.ufc.com/athlete/sean-strickland", "ua"],
+  ["ufc_events",      "https://www.ufc.com/events", "ua"],
 ]);
 async function newsEgressProbe(env, url) {
   if (!env.NEWS_PROBE_KEY) return new Response("not found", { status: 404 });
@@ -2544,13 +2866,13 @@ async function newsEgressProbe(env, url) {
     return new Response("not found", { status: 404 });
   }
   const out = [];
-  for (const [key, feedUrl] of PROBE_FEEDS) {
+  for (const [key, feedUrl, ua] of PROBE_FEEDS) {
     const t0 = Date.now();
     let row = { key: key, status: 0, bytes: 0, ms: 0, newest: "", note: "" };
     try {
       const r = await fetch(feedUrl, {
-        headers: { "user-agent": "Mozilla/5.0 (compatible; iboyprime-newsbot/1.0)",
-                   "accept": "application/rss+xml, application/xml, text/xml, */*" },
+        headers: { "user-agent": ua ? PHOTO_UA : "Mozilla/5.0 (compatible; iboyprime-newsbot/1.0)",
+                   "accept": ua ? "text/html,application/xhtml+xml" : "application/rss+xml, application/xml, text/xml, */*" },
       });
       row.status = r.status;
       row.etag = r.headers.get("etag") || "";
@@ -2561,6 +2883,7 @@ async function newsEgressProbe(env, url) {
       const m = body.match(/<(?:pubDate|published|updated)>([^<]{6,60})</);
       row.newest = m ? m[1] : "";
       row.items = (body.match(/<(?:item|entry)[\s>]/g) || []).length;
+      if (ua) row.items = (body.match(/c-card-event--(?:athlete-)?result/g) || []).length;
     } catch (e) {
       row.note = String(e && e.message || e).slice(0, 120);
     }
@@ -2597,6 +2920,10 @@ async function studioRouter(request, env, url) {
   if (path === "/studio" && request.method === "GET") {
     return studioHtml(authed ? STUDIO_HTML : LOGIN_HTML);
   }
+  // the poster templates page: same gate, same login page (which returns here)
+  if (path === "/studio/templates" && request.method === "GET") {
+    return studioHtml(authed ? POSTER_HTML : LOGIN_HTML);
+  }
   if (!authed) return studioJson({ error: "unauthorized" }, 401);
 
   if (path === "/studio/api/staged" && request.method === "GET") return await studioStaged(env);
@@ -2619,6 +2946,17 @@ async function studioRouter(request, env, url) {
   }
   if (path.indexOf("/studio/api/fighter/") === 0 && request.method === "GET") {
     return await studioFighter(env, path.slice("/studio/api/fighter/".length));
+  }
+  if (path.indexOf("/studio/api/ufc/") === 0 && request.method === "GET") {
+    return await studioUfc(url, path.slice("/studio/api/ufc/".length));
+  }
+  if (path.indexOf("/studio/api/ufcevent/") === 0 && request.method === "GET") {
+    return await studioUfcEvent(path.slice("/studio/api/ufcevent/".length));
+  }
+  if (path === "/studio/api/ufcevents" && request.method === "GET") return await studioUfcEvents();
+  if (path === "/studio/api/ufcimg" && request.method === "GET") return await studioUfcImg(url);
+  if (path.indexOf("/studio/tpl/") === 0 && request.method === "GET") {
+    return await studioTpl(request, env, path.slice("/studio/tpl/".length));
   }
   if (path === "/studio/api/gen" && request.method === "GET") return await studioGenStatus(env);
   if (path === "/studio/api/gen" && request.method === "POST") return await studioGen(request, env, url);
@@ -2690,6 +3028,9 @@ export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildP
   GEN_ASPECTS, GEN_SIZES, GEN_THINK, GEN_BODY_MAX, GEN_PARTS_MAX, GEN_TEXT_MAX, GEN_COSTS, GEN_SAFETY,
   BUDGET_CAPS, budgetStep, budgetCaps, budgetCall, budgetRefusal, isolateFuse, resetFuse, StudioBudget,
   fighterPhotoUrl, RASTER, RELAY_HOPS,
+  UFC_IMG_PATH, ufcImg, ufcOriginal, ufcImgRoute, ufcFace, ufcEventName, ufcText, parseUfcAthlete,
+  parseUfcFights, parseUfcEvent, parseUfcEvents, studioUfc, studioUfcEvent, studioUfcEvents, studioUfcImg,
+  studioTpl, TPL_FILE, POSTER_HTML,
   studioAi, aiHelpProvider, parseAiLines, parseAiArt, aiClean, aiFirstJson, AI_BET_WORDS, AI_BET_RE, aiSafeIdea,
   loginTooMany, noteLoginFail, clearLoginFails, LOGIN_MAX_FAILS, sealBox, b64ToBytes, bytesToB64,
   AI_PROVIDERS, AI_PROVIDER_NAMES, aiSecretName, STUDIO_LIMITS, STUDIO_COOKIE, STUDIO_TTL_MS,
