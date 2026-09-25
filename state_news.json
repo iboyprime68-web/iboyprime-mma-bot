@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f6806c3f9457b32f": 1790360765.4195347,
     "977ca2b4e875d152": 1790360741.9322948,
     "4a385b5c989b4f5e": 1790360741.5519354,
     "f31e7c68cf01b91c": 1790360676.6511896,
@@ -2498,8 +2499,7 @@
     "0930abd2eb5f3db5": 1789835003.8793318,
     "5e178a6987cf4774": 1789835003.878118,
     "138c12dd86f682e2": 1789834939.4482524,
-    "92d7d2aaa5889596": 1789834895.399897,
-    "34c3dc1cbcb171d6": 1789834872.1281853
+    "92d7d2aaa5889596": 1789834895.399897
   },
   "initialized": true,
   "v": 4,
@@ -4561,13 +4561,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-25T15:01:00+00:00",
       "cluster": "cd2ae10e91e"
+    },
+    {
+      "t": "Mania Mailbag: What led to Gable Steveson’s downfall?",
+      "source": "MMA Mania",
+      "ts": "2026-09-25T13:24:28+00:00",
+      "cluster": "ca33f211870"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T18",
-    11
+    12
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Khamzat-Chimaev-may-step-away-from-UFC-if-yearend-fight-falls-through-202798",
