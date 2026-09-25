@@ -1650,6 +1650,10 @@ function smartCrop(iw, ih, faces, ow, oh) {
     var gx = f1[0] * iw, gy = f1[1] * ih, gw = f1[2] * iw, gh = f1[3] * ih;
     if (gh >= PAIR_MIN * fh) {
       var ux0 = Math.min(fx, gx), ux1 = Math.max(fx + fw, gx + gw);
+      /* zoom OUT, never past the whole photo, until the pair fits (mirrors
+         photopick.smart_crop: a size tiebreak framed Amanda Nunes's coach) */
+      var need = (ux1 - ux0) / PAIR_SPAN;
+      if (need > cw && need / A <= chMax) { ch = need / A; cw = ch * A; }
       if (ux1 - ux0 <= PAIR_SPAN * cw) {
         cx = (ux0 + ux1) / 2;
         cy = (cy + gy + gh / 2) / 2;
