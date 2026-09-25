@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cd2bdb78075b86d7": 1790376266.1583176,
     "4f5d0355659ea138": 1790376139.2996666,
     "5c1dc13f58c8d8c0": 1790376074.31935,
     "af7310ea358cc835": 1790376073.8317358,
@@ -2498,8 +2499,7 @@
     "27625e35a49cf4d1": 1789856204.3900692,
     "a9eaa3d65ca0ee39": 1789856204.0467477,
     "c4f2e731b11c2da5": 1789856204.0463865,
-    "22d974ca31ca3af2": 1789856161.136829,
-    "bd15b9fe66413497": 1789856139.5655365
+    "22d974ca31ca3af2": 1789856161.136829
   },
   "initialized": true,
   "v": 4,
@@ -4657,13 +4657,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-25T22:39:31+00:00",
       "cluster": "ce5aa465207"
+    },
+    {
+      "t": "UFC Fight Night 289: Luis Hernandez vs Sedriques Dumas Preview & Prediction",
+      "source": "The Stats Zone",
+      "ts": "2026-09-25T22:37:00+00:00",
+      "cluster": "c68954ea5ae"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T22",
-    25
+    26
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510244",
