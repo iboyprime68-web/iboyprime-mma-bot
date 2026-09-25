@@ -1,5 +1,10 @@
 {
   "seen": {
+    "0eb6d757887f085d": 1790361671.9192019,
+    "5157056b1a573242": 1790361671.5779684,
+    "59156e7516152025": 1790361671.577555,
+    "f263bd20167e1d1a": 1790361671.5771463,
+    "bae725ed725093e6": 1790361671.5767002,
     "efa1f6c633e0cfef": 1790361607.5003932,
     "ee172cd341c535b4": 1790361607.2419238,
     "d45c911b74516a0a": 1790361607.2406242,
@@ -2494,12 +2499,7 @@
     "422efb8fdb6e6f51": 1789837284.4700944,
     "ff266c4c4953fa49": 1789837284.4693627,
     "345f0636060bf1f6": 1789837284.4672692,
-    "f53096ba248dcc06": 1789837284.4653456,
-    "693bcc50155bfa5e": 1789837240.5172522,
-    "4ab52d184bffa3f7": 1789837216.7101696,
-    "c59728818ddbbe16": 1789837152.2228637,
-    "f1c3ee6b08aa498d": 1789837026.1623075,
-    "bf3e4243f2f0484a": 1789836777.572236
+    "f53096ba248dcc06": 1789837284.4653456
   },
   "initialized": true,
   "v": 4,
@@ -2515,18 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-23T20:00:00+00:00",
       "cluster": "cc06ed3d400"
-    },
-    {
-      "t": "Yazmin Jauregui details 'very serious' injury that kept her two years away from UFC",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-23T18:40:28+00:00",
-      "cluster": "c591551929b"
-    },
-    {
-      "t": "Mackenzie Dern Open to Fighting Ronda Rousey",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-23T18:40:49+00:00",
-      "cluster": "c42e36643f7"
     },
     {
       "t": "Yes, Yoel Romero knows that people find him 'scary.' But that's their problem, he says",
@@ -4651,13 +4639,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-25T18:00:05+00:00",
       "cluster": "c2588ec215d"
+    },
+    {
+      "t": "Randy Brown vs. Carlos Leal Target October 31 UFC Vegas 123 Card",
+      "source": "MMA Sucka",
+      "ts": "2026-09-25T18:08:06+00:00",
+      "cluster": "c88ab68b172"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T18",
-    28
+    29
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510244",
