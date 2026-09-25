@@ -1,5 +1,6 @@
 {
   "seen": {
+    "80f0263982a31c50": 1790361386.8368044,
     "4e866e1b09923a2e": 1790361342.8026583,
     "0f1d44b4c3fcf0f0": 1790361277.1714208,
     "07c03d7fed497559": 1790361276.9218502,
@@ -2498,8 +2499,7 @@
     "640f7f4280c5776b": 1789835902.3520777,
     "830569b341ee75cf": 1789835778.0182874,
     "0f673c0f6584a059": 1789835714.9678166,
-    "d15190bac83f2d60": 1789835650.308513,
-    "daabfad3d2cbcea2": 1789835524.872104
+    "d15190bac83f2d60": 1789835650.308513
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-23T20:00:00+00:00",
       "cluster": "cc06ed3d400"
-    },
-    {
-      "t": "Alexander Volkov thinks it's 'inspiring' UFC is putting 'a guy with mental illness' Josh Hokit in title fight",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-23T18:36:24+00:00",
-      "cluster": "cb8e31483b1"
     },
     {
       "t": "Yazmin Jauregui details 'very serious' injury that kept her two years away from UFC",
@@ -4627,13 +4621,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-25T17:49:29+00:00",
       "cluster": "c45e4506734"
+    },
+    {
+      "t": "UFC Vegas 121 early weigh ins video, live results &#124; Rosas Jr. vs Barcelos",
+      "source": "MMA Mania",
+      "ts": "2026-09-25T17:35:38+00:00",
+      "cluster": "c8aba40f163"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-25T18",
-    23
+    24
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510244",
