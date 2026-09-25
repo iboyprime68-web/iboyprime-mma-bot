@@ -5333,6 +5333,21 @@ def _sk_run(seq, cfg=None):
     return kept, recent
 
 
+# Sept 25 2026, measured on the live channel: a rewrite that arrives with an
+# EARLIER publish time than the copy already posted (MMA Mania's stale feed
+# served its 23:42 article after its 00:00 one) skipped every later-dated row
+# and posted again. Replayed on the live 369-row window the fixes that ship
+# with this check turn 16 repeat posts into drops and drop no distinct story.
+_sk_ooo, _ = _sk_run([
+    ("Mauricio Ruffy on his loss to Arman Tsarukyan", "NEWS.am", _sk_T(12, 30, 24)),
+    ("Mauricio Ruffy blames 'carelessness' for KO loss against Arman Tsarukyan", "Sherdog",
+     _sk_T(12, 0, 24)),
+])
+check("a rewrite arriving with an EARLIER publish time is still one story", len(_sk_ooo) == 1)
+# storykey's own harness (grammatical capitals, acronyms, out-of-order rows and
+# the original gauntlet cases) runs in CI too - it used to run nowhere
+check("storykey's internal harness passes", _sk._selftest() is True)
+
 # The owner's actual complaint, with the real headlines that landed.
 _SK_FLOOD = [
     ("Tom Aspinall vacates UFC heavyweight title after suffering further damage to his eye in training", "Bloody Elbow", _sk_T(12, 16)),
