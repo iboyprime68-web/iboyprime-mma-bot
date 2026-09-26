@@ -1,5 +1,7 @@
 {
   "seen": {
+    "b320e762c6aae78c": 1790409483.2516057,
+    "2b95862f82326469": 1790409482.825129,
     "81806b536f7cccfa": 1790409096.1177487,
     "170ac366d9fd21a4": 1790408709.6440508,
     "23ca8267bf1a66e5": 1790408579.2279289,
@@ -2497,9 +2499,7 @@
     "c843abc066a56383": 1789858181.8399396,
     "ca4ff59c60d8cddd": 1789858181.8326907,
     "b8b5a83bd8ca3710": 1789858181.825435,
-    "85dda2c0e0708016": 1789858181.802171,
-    "3b86cf69d51d71b4": 1789858118.6808908,
-    "d3fccfc9504f4e8d": 1789858118.4208748
+    "85dda2c0e0708016": 1789858181.802171
   },
   "initialized": true,
   "v": 4,
@@ -4483,13 +4483,19 @@
       "source": "TMZ",
       "ts": "2026-09-26T07:30:19+00:00",
       "cluster": "cb6feada63f"
+    },
+    {
+      "t": "Akylbek vs Osmanli Set for TUF 34 Finale at UFC Vegas 121 Saturday",
+      "source": "The Body Lock",
+      "ts": "2026-09-26T07:55:58+00:00",
+      "cluster": "c149c320672"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T07",
-    11
+    12
   ],
   "yt_eval": [
     "CBMiuwFBVV95cUxNXy1EbmNzOFNPTDBxaWFWMTFmSnlQTTZveXNYTWwyRTJHdnRDeDFUeXZuam1DbXFqS1JkS3ZPY2s2bGVpb3BhT3ZUVF85ajlPcVQxNDlnYVZidW5lOE5ib2V0ZVZmWFdwYmN5T1RkX2J6ZW9EQXBYMVNQUW1SbnE3WnV1Zll6VGhxcXFwNzhJQ01rZ01sNFlkWmdrTEZhc2pJa0JqTEpkVWtPTTczM3Brdms3UG9WSkMzeHVR",
