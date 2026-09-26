@@ -1,5 +1,6 @@
 {
   "seen": {
+    "10ad785c9bce4e87": 1790388017.8244781,
     "eccf0dfb4880d95a": 1790387728.1043997,
     "092713cdc28f548c": 1790387480.5335865,
     "0652a0eb798c5251": 1790387353.730902,
@@ -2498,24 +2499,11 @@
     "baab6189fefa79b3": 1789857035.4834821,
     "b23eae17a2288497": 1789856971.8099046,
     "3798a65d63847287": 1789856971.592101,
-    "eab0a2c33d6d17f2": 1789856971.5904758,
-    "3e487a351d645ba8": 1789856971.5888553
+    "eab0a2c33d6d17f2": 1789856971.5904758
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "‘You cheated’… Alexander Volkov blasts Ciryl Gane for calling Tom Aspinall mentally fragile’",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-24T02:00:00+00:00",
-      "cluster": "c4528d399a7"
-    },
-    {
-      "t": "Usman Nurmagomedov explains why he still hasn’t signed with the UFC",
-      "source": "MMAWeekly.com",
-      "ts": "2026-09-24T01:58:00+00:00",
-      "cluster": "cf6663ee09f"
-    },
     {
       "t": "UFC veterans in combat sports action Sept. 23-26",
       "source": "Yahoo Sports",
@@ -4567,13 +4555,19 @@
       "source": "CBS Sports",
       "ts": "2026-09-26T00:59:12+00:00",
       "cluster": "c3b6c857bfc"
+    },
+    {
+      "t": "UFC star who knocked out Joshua Van refuses to take credit for his rise to becoming champion",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-26T02:00:00+00:00",
+      "cluster": "cf7a20f1ec8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-26T01",
-    12
+    "2026-09-26T02",
+    1
   ],
   "yt_eval": [
     "654bd1ff-24d7-3390-adba-89c80370731f",
