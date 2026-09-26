@@ -1,5 +1,8 @@
 {
   "seen": {
+    "470a49a325b48f03": 1790452043.4558127,
+    "dd075c3649c6de0b": 1790452043.1750956,
+    "eaaf9769bd203943": 1790452043.1742675,
     "7cb20534f4013777": 1790451976.4890723,
     "40b22bf16445e992": 1790451908.7783957,
     "87414891f9071501": 1790451842.6798627,
@@ -2496,10 +2499,7 @@
     "f845fe800884ce6c": 1789866401.0358274,
     "0a3a0a86ed172d17": 1789866401.0126312,
     "4f8d081f14dc82e8": 1789866401.0109918,
-    "1789d6280f2a4f4e": 1789866401.0093405,
-    "3129872e6b9a5f0a": 1789866401.0076804,
-    "256f4600b07ecbc1": 1789866401.0060349,
-    "cb8f8c88a7cc20f4": 1789866401.0043807
+    "1789d6280f2a4f4e": 1789866401.0093405
   },
   "initialized": true,
   "v": 4,
@@ -4393,13 +4393,19 @@
       "source": "RingSide24",
       "ts": "2026-09-26T19:01:54+00:00",
       "cluster": "c5c59362a98"
+    },
+    {
+      "t": "Raul Rosas Jr. predicts submission win over Raoni Barcelos",
+      "source": "MMA Sucka",
+      "ts": "2026-09-26T19:26:38+00:00",
+      "cluster": "c64c9e1112d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T19",
-    11
+    12
   ],
   "yt_eval": [
     "CBMikwFBVV95cUxOWnVFd1oyQ1YwY1pPTVZJMWJjZVJaNm5qR0R4QThkT0tKcFZMQ29BMWVKNXlhYlpOSVdWYTg3eEItUUxZaTJ6NlFJVHdQOXJkUWFzUUdQZVdhazZJVFpMSFU5TE1lYzBYV05YUnU5aWFyRE9LWDFrSzNtLXF4QmdWTXY0T0NTSHVySVlfSUsyczRhV0E",
