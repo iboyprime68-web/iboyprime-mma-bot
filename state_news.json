@@ -1,5 +1,8 @@
 {
   "seen": {
+    "c787ec97eead14f4": 1790442417.0784335,
+    "d09e8e25778e4e59": 1790442416.705915,
+    "ab86fded7b12f709": 1790442416.7031019,
     "d2ea4bb63595ee71": 1790442349.9690506,
     "f6480d70be60fa68": 1790442282.1994889,
     "4954d8f173b4e8dc": 1790442281.9337513,
@@ -2496,10 +2499,7 @@
     "5f2cc7f1ac78dc26": 1789865736.6309316,
     "2c029fd51cf4a227": 1789865736.183237,
     "d1cc7206fb30956b": 1789865736.1829445,
-    "2c383c71a6d2b5e2": 1789865736.1826727,
-    "f331faf6cc9b6337": 1789865736.1822321,
-    "89f5c80106e952c5": 1789865692.0564926,
-    "6956a9accede35fc": 1789865692.0359333
+    "2c383c71a6d2b5e2": 1789865736.1826727
   },
   "initialized": true,
   "v": 4,
@@ -4513,13 +4513,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-26T16:01:08+00:00",
       "cluster": "ce801a62dec"
+    },
+    {
+      "t": "UFC Fight Night 289 Results (Live)",
+      "source": "MMA Insight",
+      "ts": "2026-09-26T16:22:17+00:00",
+      "cluster": "c695b8460c7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T17",
-    7
+    8
   ],
   "yt_eval": [
     "CBMiowFBVV95cUxQbXZnVFdveU04UElKVzZaZHlNeWVGM3c4bG9fa2dna01TYVpIOFVmMFB6Yld4SGp1cXA4R3hBWHdCdFRfNEtfS3hjM3ZUS1drUWVCaEhwSHF1cGtTTlI3WTg4RUJ1dlhaMU5HbTlJT2tseGQtMmFsekZFYzFDWm5ZSWd2NkJMMld2NjlRSHZLeEhKanc0REE1NmFTeDNvTDM3Tlo0",
