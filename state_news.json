@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f93e3ce72b652675": 1790428361.6360173,
     "34330417f35385f5": 1790428296.2804892,
     "c1339a49743b6cac": 1790428295.9964042,
     "62d554a908bd930a": 1790428229.91808,
@@ -2498,8 +2499,7 @@
     "e6234e09d1a48f8e": 1789858756.6365452,
     "0e8048950bb435bf": 1789858755.1962767,
     "c13a1775c3976fa4": 1789858755.1911554,
-    "ea0739a07962f5c1": 1789858755.1834307,
-    "239233e194b62e8a": 1789858755.1756399
+    "ea0739a07962f5c1": 1789858755.1834307
   },
   "initialized": true,
   "v": 4,
@@ -4537,13 +4537,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-26T12:51:27+00:00",
       "cluster": "cac44cdb8c4"
+    },
+    {
+      "t": "UFC Vegas 121 predictions",
+      "source": "MMA Fighting",
+      "ts": "2026-09-26T13:00:00+00:00",
+      "cluster": "c5d1ef0cf06"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T13",
-    13
+    14
   ],
   "yt_eval": [
     "CBMitAFBVV95cUxNNFlwcVpLcVk2SlZzOXR1VFN6T2NYYmpQSDlZV3BYcmVoOTN0NFl6ZnpFMXJhZDZGRHA4RkFuek1PekU4NHp6b0FvYmZYTGQzdGNER3ZiQk1nS1VLSTBjYmg3SWNjR1dyTXE1V0c2TmpPVGgxcG5xTEFmSkZBQVJFd2dpRWcxX2RpVkg2QlZMYlNiMDluQ3FmZ3BoQjBPeldhUGF0OGJWcWkyY2lRc000dm1KZVI",
