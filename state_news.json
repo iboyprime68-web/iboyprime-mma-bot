@@ -1,5 +1,6 @@
 {
   "seen": {
+    "204de958df1b45ec": 1790407414.6575806,
     "a8b8fbfb65de2086": 1790407388.1741328,
     "ee0d5b5e325f1bf8": 1790407319.0195413,
     "022f0742d0e86c79": 1790407249.6161234,
@@ -2498,8 +2499,7 @@
     "a662fbcfec606fec": 1789857738.1631505,
     "774aa776393fe248": 1789857674.5506005,
     "15a80f89219f33ba": 1789857610.869205,
-    "34b2546caaa70574": 1789857547.1192687,
-    "ec59803601a90147": 1789857546.9204419
+    "34b2546caaa70574": 1789857547.1192687
   },
   "initialized": true,
   "v": 4,
@@ -2533,12 +2533,6 @@
       "source": "Cageside Press",
       "ts": "2026-09-24T07:25:47+00:00",
       "cluster": "c535cb37c3e"
-    },
-    {
-      "t": "Spike Carlyle",
-      "source": "UFC.com",
-      "ts": "2026-09-24T07:23:30+00:00",
-      "cluster": "c9b01757d81"
     },
     {
       "t": "BJJ Legend Blames American Martial Arts Culture For Commercialization Of Jiu Jitsu",
@@ -4495,13 +4489,19 @@
       "source": "Sportskeeda",
       "ts": "2026-09-26T06:30:00+00:00",
       "cluster": "c406178b879"
+    },
+    {
+      "t": "Father’s plan forgotten? Umar Nurmagomedov changing styles after knockout loss: ‘I’m just gonna knock everybody out’",
+      "source": "MMA Mania",
+      "ts": "2026-09-26T03:40:31+00:00",
+      "cluster": "c1f989f6886"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T07",
-    7
+    8
   ],
   "yt_eval": [
     "CBMimwFBVV95cUxOcHFfSll1bUZ0emZvUDhtMjdnS2hSbk0yVXVLX3ZWb0VaZWc1ZmJ6V0FOTmRQb1hYX2NJQWRHVUZkSUhjWnV1OHRoU001Y19jQ25zSlNtOFIxM3pWekZCLUI1M2NWMUNEUHR0UDdwcFBBNjdFN1V6MVRJZHNPOWFES2x1dWV0eTRpYnVMcU5uQnVuaGk2MWozNERaOA",
