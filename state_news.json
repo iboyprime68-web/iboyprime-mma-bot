@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d7f217ee4e079af1": 1790385551.2220554,
     "a5d21af8cb382b7a": 1790385526.1760614,
     "761e4a23014af511": 1790385523.6000896,
     "86a6be58ea657531": 1790385498.7726183,
@@ -2498,8 +2499,7 @@
     "d659e461da159c30": 1789856526.6057634,
     "99131d3970a2173c": 1789856526.599743,
     "76e12a6269635386": 1789856463.2025084,
-    "539ee5d50f522b06": 1789856399.607132,
-    "3006c12d8c27e603": 1789856376.365698
+    "539ee5d50f522b06": 1789856399.607132
   },
   "initialized": true,
   "v": 4,
@@ -4537,13 +4537,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-25T23:59:14+00:00",
       "cluster": "c89c597e77a"
+    },
+    {
+      "t": "‘That is a real thing’… Sean Sharaf claims two UFC legends helped him beat Gable Steveson even before fight",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-26T00:00:00+00:00",
+      "cluster": "c595fb369c7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T01",
-    2
+    3
   ],
   "yt_eval": [
     "c43f1446-ef97-313d-b2a4-69d3a7bc65d6",
