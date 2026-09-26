@@ -1,5 +1,6 @@
 {
   "seen": {
+    "28d63045cdef5cca": 1790427487.5633194,
     "627e98ad2e4f0e34": 1790427421.7212605,
     "13a89404e70047d5": 1790427421.510272,
     "1d4fc5a894e09840": 1790427421.5084043,
@@ -2498,8 +2499,7 @@
     "0bf686582d83218d": 1789858500.0479012,
     "6a4e7a1bc95937ae": 1789858500.0476372,
     "bf3ef82dea540100": 1789858500.045931,
-    "bf92c2e4aff09e86": 1789858500.0444283,
-    "bb330fa361548db2": 1789858500.042844
+    "bf92c2e4aff09e86": 1789858500.0444283
   },
   "initialized": true,
   "v": 4,
@@ -4471,13 +4471,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-26T12:01:35+00:00",
       "cluster": "ca210bab3e2"
+    },
+    {
+      "t": "Joshua Van Picks Resurrecting UFC Flyweight Division Over Petr Yan Superfight",
+      "source": "MMA Sucka",
+      "ts": "2026-09-26T12:01:37+00:00",
+      "cluster": "c75afed1d17"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T12",
-    10
+    11
   ],
   "yt_eval": [
     "aa64e4cb-1b16-3e2c-aa54-7af2bb1610d8",
