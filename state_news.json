@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e9c1416f6a434d64": 1790385627.2606997,
     "7fcf8c527cbffce8": 1790385601.3790858,
     "bdefa867ff72c926": 1790385601.0907059,
     "68299a77dd1a301c": 1790385576.823095,
@@ -2498,8 +2499,7 @@
     "c49b1c5d02f4c8f3": 1789856653.4599614,
     "e65484ddda663340": 1789856589.969521,
     "1a9eb891ce78a4ee": 1789856526.8038146,
-    "f5b5abef4dce2c9e": 1789856526.6174247,
-    "0215b5a9e6721d7d": 1789856526.6164262
+    "f5b5abef4dce2c9e": 1789856526.6174247
   },
   "initialized": true,
   "v": 4,
@@ -4549,13 +4549,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-26T00:30:00+00:00",
       "cluster": "c8daf5e2e92"
+    },
+    {
+      "t": "Daniel Cormier gives Jon Jones surprise credit as he commends him for ‘lying’ about Gable Steveson exit",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-26T01:00:00+00:00",
+      "cluster": "cd7d7fd8991"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T01",
-    5
+    6
   ],
   "yt_eval": [
     "373384ae-651d-35c7-9d0f-4d6d8a78eea4",
