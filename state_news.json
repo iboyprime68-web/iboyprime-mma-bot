@@ -1,5 +1,8 @@
 {
   "seen": {
+    "d57f97396e58cc2f": 1790442489.8346865,
+    "30ccaf35755b6d17": 1790442489.4459403,
+    "1b9bfc8384683ca1": 1790442489.44433,
     "dbc53f659f9d6353": 1790442463.0539765,
     "c787ec97eead14f4": 1790442417.0784335,
     "d09e8e25778e4e59": 1790442416.705915,
@@ -2496,10 +2499,7 @@
     "e93be3c65c94df7b": 1789865867.7698162,
     "838272577389c6e4": 1789865867.7673616,
     "64ef2a4afdb502ec": 1789865802.4355006,
-    "293cc3c91b4a4d35": 1789865802.0629504,
-    "5f2cc7f1ac78dc26": 1789865736.6309316,
-    "2c029fd51cf4a227": 1789865736.183237,
-    "d1cc7206fb30956b": 1789865736.1829445
+    "293cc3c91b4a4d35": 1789865802.0629504
   },
   "initialized": true,
   "v": 4,
@@ -4525,13 +4525,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-26T13:23:50+00:00",
       "cluster": "ca9ea3bb33f"
+    },
+    {
+      "t": "The 5 Oldest UFC Champions in History",
+      "source": "Last Word On Sports",
+      "ts": "2026-09-26T16:34:19+00:00",
+      "cluster": "c1b3a92f372"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T17",
-    9
+    10
   ],
   "yt_eval": [
     "CBMiowFBVV95cUxNZzlvZEpBRk81aXBtNHRWTUlwWGw0a3FQYnBIRTZKM2IyRUk0Ri0tQkE1UUJVeENINXFQS00yQVB4ZnQ0eVg0aGJ2R3NFZWFKb2wyV1lNSzFManlvdXg4bklrbFZCMXQwd2czb3hJcVVBSHBUZjlnbENkWDFPT1kwZzRpUWdUV1RuNlM4cm9faGs0dV81V2hZb0t1SmJhSG12dGkw",
