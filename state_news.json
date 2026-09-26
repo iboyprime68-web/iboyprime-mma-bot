@@ -1,5 +1,12 @@
 {
   "seen": {
+    "4838a124ace74802": 1790452965.7010763,
+    "725a08c18174af7b": 1790452965.422618,
+    "164f4fc6b477f05e": 1790452965.4214885,
+    "23cce8eb7d4be73c": 1790452965.4204397,
+    "9d6e06f758b5919a": 1790452965.419348,
+    "afec7ac47357a9f8": 1790452965.4183257,
+    "2bc9b6b5a7485588": 1790452965.4173098,
     "b733add3c241d0b9": 1790452898.8947845,
     "8e33eb9a1436c6df": 1790452849.0273685,
     "6e916d6449d05922": 1790452848.5349555,
@@ -2492,14 +2499,7 @@
     "7174cc42330420e5": 1789866795.8816357,
     "0fe185677ea75b96": 1789866730.5808337,
     "1e995c379f7275a1": 1789866664.850843,
-    "5a78975633157435": 1789866664.2815232,
-    "e643b1956d385411": 1789866664.280051,
-    "d7ea4d46ad93a3db": 1789866664.2560525,
-    "cf60a023ea44e3ba": 1789866598.6916263,
-    "8c0979283770179d": 1789866598.40869,
-    "5cc836602c933202": 1789866598.3858502,
-    "4130d716152e5cc7": 1789866533.4809694,
-    "8f04d3461345a73d": 1789866467.4092739
+    "5a78975633157435": 1789866664.2815232
   },
   "initialized": true,
   "v": 4,
@@ -4429,13 +4429,19 @@
       "source": "The Sun",
       "ts": "2026-09-26T19:28:07+00:00",
       "cluster": "c988a4454d4"
+    },
+    {
+      "t": "Gaethje Missed Arman Vs. Ruffy Fight After Phone Call From Donald Trump",
+      "source": "MMA Mania",
+      "ts": "2026-09-26T20:00:00+00:00",
+      "cluster": "c704ea4460e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T20",
-    3
+    4
   ],
   "yt_eval": [
     "CBMikwFBVV95cUxPYjVsZklOblhJSlU3WkVVUENfMzRCZmU0dVdFNUtUYl9hQ1o5cHJYYnlSWm1CZFJvRU82TWd5ZjF1bDd1Vm1QSlVNQ0d6VWNWanZ6ckZ2Z285cVpkam10TkdaUzBUd25kMmd4TWtUbnpaX0JCSzRnVGxZV0JSeGpnY01yRU1qMldzZW5CNjdybUl2dkU",
