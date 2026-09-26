@@ -1,5 +1,6 @@
 {
   "seen": {
+    "77621c11afb669ff": 1790427016.457824,
     "f31c324ff497801b": 1790426970.6127834,
     "824efaca9bc82ad9": 1790426970.338479,
     "dbc00ebc077031f9": 1790426945.81682,
@@ -2498,8 +2499,7 @@
     "03a61000a7a34c3e": 1789858245.1931617,
     "83c08fe98114da06": 1789858182.104479,
     "dafd3af0fc1119f4": 1789858181.9460888,
-    "c534a33a02abc39f": 1789858181.941653,
-    "bcc410e54f88ce06": 1789858181.934352
+    "c534a33a02abc39f": 1789858181.941653
   },
   "initialized": true,
   "v": 4,
@@ -4435,13 +4435,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-26T12:00:00+00:00",
       "cluster": "c4fd6a692f9"
+    },
+    {
+      "t": "Dustin Poirier Backs Kayla Harrison to Overcome Amanda Nunes at UFC 334",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-26T09:04:45+00:00",
+      "cluster": "cce9c5a7b1f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T12",
-    2
+    3
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331599",
