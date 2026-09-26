@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1a2e77064b003a13": 1790452177.6516182,
     "600135ad25a0a620": 1790452111.3161354,
     "470a49a325b48f03": 1790452043.4558127,
     "dd075c3649c6de0b": 1790452043.1750956,
@@ -2498,8 +2499,7 @@
     "527a4a017471a735": 1789866401.0465748,
     "ef3214592e514b72": 1789866401.0412917,
     "f845fe800884ce6c": 1789866401.0358274,
-    "0a3a0a86ed172d17": 1789866401.0126312,
-    "4f8d081f14dc82e8": 1789866401.0109918
+    "0a3a0a86ed172d17": 1789866401.0126312
   },
   "initialized": true,
   "v": 4,
@@ -2527,12 +2527,6 @@
       "source": "MMA Mania",
       "ts": "2026-09-24T22:01:48+00:00",
       "cluster": "c5556d31778"
-    },
-    {
-      "t": "Should MMA really ban those potentially knee-shredding oblique kicks? Mailbag",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-24T19:48:44+00:00",
-      "cluster": "c26c871c3e9"
     },
     {
       "t": "UFC books cop vs. criminal clash as last-minute replacement fight",
@@ -4405,13 +4399,19 @@
       "source": "UFC.com",
       "ts": "2026-09-26T18:56:34+00:00",
       "cluster": "c1c42a16b91"
+    },
+    {
+      "t": "MMA Fighter Crashes Headfirst Into Cage in 8-Second \"Knockout of the Year\" Contender",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-26T15:40:58+00:00",
+      "cluster": "cd076a46f18"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T19",
-    13
+    14
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510353",
