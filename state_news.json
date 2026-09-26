@@ -1,5 +1,6 @@
 {
   "seen": {
+    "77e33d9cd0215ca3": 1790442691.7869458,
     "13c60d9110229bbd": 1790442624.2685087,
     "9d4e1fc0ecad0a63": 1790442557.42343,
     "7a4061257f650a26": 1790442557.128041,
@@ -2498,8 +2499,7 @@
     "923dc5673438aca1": 1789866000.3196821,
     "1aef8b8fd7bef822": 1789865999.7897263,
     "75f95842f6dd44de": 1789865933.6194046,
-    "27010b09618434bc": 1789865933.1612837,
-    "0be39d77802c5144": 1789865868.134177
+    "27010b09618434bc": 1789865933.1612837
   },
   "initialized": true,
   "v": 4,
@@ -4543,13 +4543,19 @@
       "source": "Sports Illustrated",
       "ts": "2026-09-26T16:59:32+00:00",
       "cluster": "cea69bf67d2"
+    },
+    {
+      "t": "Where to watch UFC Fight Night, Rosas Jr. vs. Barcelos tonight, full card, time, live stream",
+      "source": "PennLive.com",
+      "ts": "2026-09-26T17:00:00+00:00",
+      "cluster": "ccda5f2cfc6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T17",
-    12
+    13
   ],
   "yt_eval": [
     "2a8c35b6-9479-333f-9dd3-d2f5f3630150",
