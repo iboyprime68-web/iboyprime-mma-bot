@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0d129bd04d47acd5": 1790463142.5786076,
     "b7f4f1cfdeb78b27": 1790463074.8457158,
     "731695e3d95df99e": 1790463007.6077185,
     "7d4fe8c6c08ed14a": 1790463007.236647,
@@ -2498,8 +2499,7 @@
     "f9d6a833babdd517": 1789867724.648198,
     "cfa335c8f84151a2": 1789867724.089599,
     "116827eb0b6a4c64": 1789867724.0879626,
-    "9b81aadc16e071a6": 1789867724.0867445,
-    "5fdb59e2caff64bf": 1789867659.246716
+    "9b81aadc16e071a6": 1789867724.0867445
   },
   "initialized": true,
   "v": 4,
@@ -4393,13 +4393,19 @@
       "source": "Cageside Press",
       "ts": "2026-09-26T22:39:21+00:00",
       "cluster": "c173a2fe85f"
+    },
+    {
+      "t": "Montel Jackson Finds The KO In Round 2 | UFC Fight Night: Rosas Jr. vs Barcelos",
+      "source": "UFC.com",
+      "ts": "2026-09-26T22:16:45+00:00",
+      "cluster": "cb505139e51"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T22",
-    22
+    23
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510378",
