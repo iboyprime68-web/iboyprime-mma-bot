@@ -1,5 +1,6 @@
 {
   "seen": {
+    "33acd6db9eecea88": 1790442208.5273063,
     "6e04f3463ea5697a": 1790442162.3013487,
     "8a2fb9de307b3a58": 1790442162.0478432,
     "d56804eda6278d30": 1790442136.6186454,
@@ -2498,8 +2499,7 @@
     "ff25361b9b1be270": 1789865602.0108392,
     "2c847f56efa290d2": 1789865601.6172895,
     "39486e6de8e9b55d": 1789865601.61344,
-    "52d4f60d43dd33a1": 1789865536.0970576,
-    "56d3f5502b364847": 1789865535.5737476
+    "52d4f60d43dd33a1": 1789865536.0970576
   },
   "initialized": true,
   "v": 4,
@@ -4495,13 +4495,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-26T12:33:55+00:00",
       "cluster": "cf75cc32091"
+    },
+    {
+      "t": "Justin Gaethje says it's Arman Tsarukyan or retirement next",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-26T14:30:00+00:00",
+      "cluster": "c6a5f6cd53c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T17",
-    4
+    5
   ],
   "yt_eval": [
     "CBMiyAFBVV95cUxNb1lYSGhIbU1BX2c5ZjB3aVlpakZoX0o0Y2JMRjJXbnlfbjkwQzB5UGxpNEZDTEo2TVl5eGRaTzlBWk9RaWpWX21MUkc4bjhpcHB1dFU1Tjh0ZEQ1VElHZHo5WTlsQTlLaFNRNndNWU5LNTNWckMzbEttdEczOFoyYUs1dFN4RjBqLWF2bmY0ZUZ1QmNjbFNNM2N6U2VnUGpYc3hhWWpKcmxLVEF4MDlkbnJQZWVkUldkcWIyUWNHREt0UFRkTXJLdA",
@@ -6875,7 +6881,8 @@
     "1c69a3183b5c2252": 1790344350.209784,
     "3e16d34112f5d081": 1790361075.7333338,
     "ece43f67050820f0": 1790373988.1821806,
-    "d5247156aa7295d1": 1790430182.7939303
+    "d5247156aa7295d1": 1790430182.7939303,
+    "33acd6db9eecea88": 1790442208.247763
   },
   "pinged_titles": [
     [
@@ -6884,6 +6891,14 @@
       [
         "sacrifice",
         "trump"
+      ]
+    ],
+    [
+      "Justin Gaethje says it's Arman Tsarukyan or retirement next",
+      1790442208.247763,
+      [
+        "gaethje",
+        "tsarukyan"
       ]
     ]
   ]
