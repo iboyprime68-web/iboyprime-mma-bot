@@ -1,5 +1,7 @@
 {
   "seen": {
+    "91d376e9d3f80623": 1790462800.9963748,
+    "ef5a7f3ced8cd68c": 1790462800.728416,
     "c85c373eb794545f": 1790462777.1179292,
     "3fb161bfc049053c": 1790462731.7449367,
     "b7561327fe7a6fb5": 1790462664.7915273,
@@ -2497,9 +2499,7 @@
     "c9dfdde63e17cb60": 1789867526.8744185,
     "d0f47b349ed2d842": 1789867526.8741438,
     "e5e2c54c82721ff7": 1789867526.8738644,
-    "c6666dc9eb4bf9d5": 1789867526.8509216,
-    "5d0d8742d653360e": 1789867503.3141444,
-    "5c530bcda886caef": 1789867459.7851503
+    "c6666dc9eb4bf9d5": 1789867526.8509216
   },
   "initialized": true,
   "v": 4,
@@ -4381,13 +4381,19 @@
       "source": "czechinvest.gov.cz",
       "ts": "2026-09-26T22:21:41+00:00",
       "cluster": "c079f86c1a2"
+    },
+    {
+      "t": "[UFC-EVENT] UFC Fight Night Live Coverage",
+      "source": "czechinvest.gov.cz",
+      "ts": "2026-09-26T22:23:21+00:00",
+      "cluster": "c71b09babb2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T22",
-    17
+    18
   ],
   "yt_eval": [
     "CBMidkFVX3lxTFA0RFpKM1NOcllMQTN1NDRBSWhZbjFaM3ZzajNwSUxHQklzQkZZaDhtUGNKVGVzaURDRno5ZlFsVDhiM3dmV2tHOEVpTVhWNk9KMGFLTEc0cFpwdVRhbVpyMHJqaHRGUzkxMFdmLWg2NUFmRDROc3c",
