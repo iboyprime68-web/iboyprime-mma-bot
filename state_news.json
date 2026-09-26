@@ -1,5 +1,6 @@
 {
   "seen": {
+    "600135ad25a0a620": 1790452111.3161354,
     "470a49a325b48f03": 1790452043.4558127,
     "dd075c3649c6de0b": 1790452043.1750956,
     "eaaf9769bd203943": 1790452043.1742675,
@@ -2498,8 +2499,7 @@
     "ef3214592e514b72": 1789866401.0412917,
     "f845fe800884ce6c": 1789866401.0358274,
     "0a3a0a86ed172d17": 1789866401.0126312,
-    "4f8d081f14dc82e8": 1789866401.0109918,
-    "1789d6280f2a4f4e": 1789866401.0093405
+    "4f8d081f14dc82e8": 1789866401.0109918
   },
   "initialized": true,
   "v": 4,
@@ -4399,13 +4399,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-26T19:26:38+00:00",
       "cluster": "c64c9e1112d"
+    },
+    {
+      "t": "Rosas Jr. vs Barcelos Results",
+      "source": "UFC.com",
+      "ts": "2026-09-26T18:56:34+00:00",
+      "cluster": "c1c42a16b91"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T19",
-    12
+    13
   ],
   "yt_eval": [
     "CBMib0FVX3lxTE5WZjBOb012U25Tamlkc3JITFByU3pqQVR2aUs5VFZaaGlyNEpqUUd2eGIxcldLN1RxRU1ocHhfU1YzUm5Ja3hQVEVQVDRadHdpajFlNGhiRlRUVVlaWFNWelVBQXAxbEhpQmlSYzRVdw",
