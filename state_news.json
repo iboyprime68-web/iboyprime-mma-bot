@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f12e2a5de79b0041": 1790462012.68894,
     "f493a63f42ff634e": 1790461987.3546395,
     "3eddef92c9d1b83b": 1790461961.7960029,
     "e8bd96bf1c764ad3": 1790461960.01153,
@@ -2498,8 +2499,7 @@
     "7ebe177a669f306f": 1789866992.747357,
     "9c9bc12fb5e11f4d": 1789866992.7422707,
     "511f90c321496389": 1789866992.737043,
-    "d9dec7d8debade57": 1789866992.7367642,
-    "ec6d7be01d154911": 1789866992.7342992
+    "d9dec7d8debade57": 1789866992.7367642
   },
   "initialized": true,
   "v": 4,
@@ -4321,13 +4321,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-26T21:00:00+00:00",
       "cluster": "c39e0e2bb6b"
+    },
+    {
+      "t": "Jorge Masvidal is convinced Amanda Nunes only made retirement U-turn for two reasons ahead of UFC comeback",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-26T22:00:00+00:00",
+      "cluster": "c0f4353d519"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T22",
-    2
+    3
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=472475",
@@ -6701,7 +6707,8 @@
     "ece43f67050820f0": 1790373988.1821806,
     "d5247156aa7295d1": 1790430182.7939303,
     "33acd6db9eecea88": 1790442208.247763,
-    "8e33eb9a1436c6df": 1790452848.5511155
+    "8e33eb9a1436c6df": 1790452848.5511155,
+    "f12e2a5de79b0041": 1790462011.9259903
   },
   "pinged_titles": [
     [
@@ -6716,6 +6723,15 @@
       "UFC Vegas 121 star happy to finally get her hands on bitter rival ‘without getting arrested’",
       1790452848.5511155,
       []
+    ],
+    [
+      "Jorge Masvidal is convinced Amanda Nunes only made retirement U-turn for two reasons ahead of UFC comeback",
+      1790462011.9259903,
+      [
+        "masvidal",
+        "nunes",
+        "u-turn"
+      ]
     ]
   ]
 }
