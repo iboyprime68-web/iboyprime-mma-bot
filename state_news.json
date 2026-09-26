@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d1230ad476a834a1": 1790441868.5261693,
     "2cefc599b812bbce": 1790441842.6716409,
     "d5247156aa7295d1": 1790430180.2650325,
     "12b87ef0ada5ab14": 1790430051.8927283,
@@ -2498,8 +2499,7 @@
     "a22dee869bdd19af": 1789859329.5444868,
     "bc5d03641f71d11a": 1789859266.398724,
     "144bb8fbf52e0d9a": 1789859203.0271816,
-    "f82d82bd774ed72f": 1789859202.6650963,
-    "3f6befb8d60db183": 1789859202.639624
+    "f82d82bd774ed72f": 1789859202.6650963
   },
   "initialized": true,
   "v": 4,
@@ -4441,13 +4441,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-25T18:39:27+00:00",
       "cluster": "cbea12b9e79"
+    },
+    {
+      "t": "Ex-UFC star has lost in one round four times in a row after latest brutal knockout since being cut",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-26T14:00:00+00:00",
+      "cluster": "c8dc3c16a78"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T16",
-    1
+    2
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=472387",
