@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 21,
   "staged_at": [
-    "2026-09-24T14:15:20.485179+00:00",
     "2026-09-24T20:01:11.128611+00:00",
     "2026-09-25T14:38:40.555620+00:00",
-    "2026-09-25T20:03:26.673284+00:00"
+    "2026-09-25T20:03:26.673284+00:00",
+    "2026-09-26T13:46:51.087764+00:00"
   ],
   "asked": [
-    "Gun to your head, one fighter wins a street fight for your life. Who?",
     "Who is the most delusional fighter in the UFC right now?",
     "Who is the most likely to beat Islam Makhachev right now?",
     "Who should Alex Pereira fight next?",
@@ -47,33 +46,34 @@
     "What is the worst accusation a fighter can throw at another fighter?",
     "What is the best walkout in UFC history?",
     "Who is the biggest threat to the bantamweight division right now?",
-    "Who is the hardest fighter to take down ever?"
+    "Who is the hardest fighter to take down ever?",
+    "Who is the most protected fighter in the UFC right now?"
   ],
   "last_entry": {
-    "q": "Who is the hardest fighter to take down ever?",
+    "q": "Who is the most protected fighter in the UFC right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Jose Aldo",
+        "label": "Sean O'Malley",
+        "emoji": "🎯",
+        "art": ""
+      },
+      {
+        "label": "Alex Pereira",
+        "emoji": "🏎️",
+        "art": ""
+      },
+      {
+        "label": "Bo Nickal",
+        "emoji": "🧢",
+        "art": ""
+      },
+      {
+        "label": "Other",
         "emoji": "🛡️",
-        "art": ""
-      },
-      {
-        "label": "Yoel Romero",
-        "emoji": "💪",
-        "art": ""
-      },
-      {
-        "label": "Alexander Volkanovski",
-        "emoji": "🪨",
-        "art": ""
-      },
-      {
-        "label": "Petr Yan",
-        "emoji": "⚓",
         "art": ""
       }
     ],
-    "gag": "a sloth lying flat on the octagon canvas, completely unbothered, spotlight on it"
+    "gag": "A matchmaker hiding behind a giant velvet rope, feeding tomato cans to a golden goose"
   }
 }
