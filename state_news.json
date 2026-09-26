@@ -1,5 +1,13 @@
 {
   "seen": {
+    "f4bd6456a51f5aad": 1790428494.5613093,
+    "fa6ec09e18a8e71f": 1790428493.8549702,
+    "6ab97877f503303e": 1790428493.8532922,
+    "5817b811e97ad4a7": 1790428493.8516953,
+    "5eff2d2674e9199e": 1790428493.849824,
+    "15b89e5b8d13a2e0": 1790428493.8494596,
+    "006c1ff4360c7b20": 1790428493.8485508,
+    "a20385968dec45b9": 1790428493.8464231,
     "6338a152b0642f5f": 1790428428.2866445,
     "f93e3ce72b652675": 1790428361.6360173,
     "34330417f35385f5": 1790428296.2804892,
@@ -2491,15 +2499,7 @@
     "600c6cd16793daaa": 1789859074.6702216,
     "d7263dc46b17f2e1": 1789859074.6456764,
     "be38c6f789baccec": 1789859074.6437862,
-    "3b4ea2958a58dc17": 1789859011.364251,
-    "dcf238fb8cdb2d85": 1789858948.5320761,
-    "3077eed46ca75ec1": 1789858884.9641278,
-    "2a554ffeeb28ca74": 1789858884.7310143,
-    "20714c1640a0cea5": 1789858841.7629442,
-    "17e413493b6441b1": 1789858819.884451,
-    "e6234e09d1a48f8e": 1789858756.6365452,
-    "0e8048950bb435bf": 1789858755.1962767,
-    "c13a1775c3976fa4": 1789858755.1911554
+    "3b4ea2958a58dc17": 1789859011.364251
   },
   "initialized": true,
   "v": 4,
@@ -4549,13 +4549,19 @@
       "source": "The Daily News | Texas' Oldest Newspaper",
       "ts": "2026-09-26T12:23:17+00:00",
       "cluster": "c94352238f8"
+    },
+    {
+      "t": "UFC Vegas 121’s Vanessa Demopoulos: Ready to Show Off Changes",
+      "source": "Cageside Press",
+      "ts": "2026-09-26T13:07:16+00:00",
+      "cluster": "c5552e1d328"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T13",
-    15
+    16
   ],
   "yt_eval": [
     "CBMilwFBVV95cUxPcmk1ZU01QnF6UW80ZmFNRFFscVF6YVM0ZG43S05KNUJUeUd5TE0wM215a2xqY2pfX0tlYjVrRlNjSnFTNmRkSUE5TmdWWnYycnFvM0I4NEhnNTgtQnBSZy1JNXlmaWZuSjdIbFhDdVFrSy1lb1J0NmExUkFUTjZlY0M4MWxZc29EdmdNRlJzMmdzb3RWNkdJ",
