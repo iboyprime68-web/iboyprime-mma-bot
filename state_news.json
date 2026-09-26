@@ -1,5 +1,8 @@
 {
   "seen": {
+    "b7561327fe7a6fb5": 1790462664.7915273,
+    "d5e9410465682d91": 1790462664.4437199,
+    "6144c2606f6a174f": 1790462664.4404852,
     "4d136e0cc99e11b9": 1790462597.5819752,
     "4f8563fac644e570": 1790462529.9443624,
     "c38d355c9fb39318": 1790462529.626754,
@@ -2496,10 +2499,7 @@
     "5d0d8742d653360e": 1789867503.3141444,
     "5c530bcda886caef": 1789867459.7851503,
     "7b9c73765c2ab5f0": 1789867459.532727,
-    "af8f4824ab77d451": 1789867459.5275548,
-    "b539e024dfaa16a6": 1789867459.5200996,
-    "2d78084a37974d56": 1789867459.5127404,
-    "06f1f30ad9fcef05": 1789867459.50535
+    "af8f4824ab77d451": 1789867459.5275548
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-24T22:45:19+00:00",
       "cluster": "cdb30865b33"
-    },
-    {
-      "t": "Darren Till open to Michael Page fight in BKFC Post-Release",
-      "source": "MMA Sucka",
-      "ts": "2026-09-24T22:43:50+00:00",
-      "cluster": "c8914db8b94"
     },
     {
       "t": "UFC BJJ 11 Results: Bantamweight Champion Battles UFC Star",
@@ -4387,13 +4381,19 @@
       "source": "Cageside Press",
       "ts": "2026-09-26T22:19:01+00:00",
       "cluster": "cb661c11273"
+    },
+    {
+      "t": "UFC Vegas 121 Highlights! Jackson Gets His Revenge, Smokes Simon With Melting KO",
+      "source": "MMA Mania",
+      "ts": "2026-09-26T22:19:16+00:00",
+      "cluster": "c1390715514"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T22",
-    15
+    16
   ],
   "yt_eval": [
     "CBMib0FVX3lxTE5XWFNuYzJZRF84UFBJMS1RaGR1MjMzM0NQT1Y5NGxaUUd3aDFYZVliWHp3ODY1S1I2NHpmcFRLR0lQR2xQdTZkM3kteTZIdTVMREJoaDUyajZLdFZ6bGxsUjdKVUVKZy1Sb25yYmkwUQ",
