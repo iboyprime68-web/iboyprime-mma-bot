@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f56b27dbe01ff52d": 1790465058.3657696,
     "dab2f93f2ce9878d": 1790464989.7437944,
     "5e4b1ee29ff52313": 1790464989.402766,
     "d4cf0e78f5110b71": 1790464922.226055,
@@ -2498,8 +2499,7 @@
     "f42c128f447ddfab": 1789883941.714237,
     "6cf0511acaedda1b": 1789883918.0680978,
     "75491d514bdcdea4": 1789883893.9619684,
-    "897fb314632ce3c7": 1789883893.745819,
-    "6e8f4a183e304266": 1789883870.1722405
+    "897fb314632ce3c7": 1789883893.745819
   },
   "initialized": true,
   "v": 4,
@@ -4453,13 +4453,19 @@
       "source": "Barstool Sports",
       "ts": "2026-09-26T23:16:52+00:00",
       "cluster": "c28772b200f"
+    },
+    {
+      "t": "@#(UFC-MATCH) UFC Fight Night Main Event",
+      "source": "czechinvest.gov.cz",
+      "ts": "2026-09-26T22:25:29+00:00",
+      "cluster": "c5c709db8dc"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T23",
-    10
+    11
   ],
   "yt_eval": [
     "CBMipwFBVV95cUxOLUhVSGJhWjluZ1BjS0lwVHpobkpjN0pLX0xRbElQcVlwdDNacVRQUmpzT3hhUXY3ZWtJUHc0X2QybDZ4dVB0RGhnbzUzczBHRXl3YlpFTGM0ODBUcC1EZERvTWRsV3NGbXRkd1RzMTc5WVNqQWJJRTQ1ZmtJUkhrdk9MaU45ejI2NmFQNDJzSE84NU5JN3RxTm4xajh2OWhRcnhIaHRsWQ",
