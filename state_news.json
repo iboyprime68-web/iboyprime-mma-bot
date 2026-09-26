@@ -1,5 +1,7 @@
 {
   "seen": {
+    "8e33eb9a1436c6df": 1790452849.0273685,
+    "6e916d6449d05922": 1790452848.5349555,
     "f5e9a202c534cc16": 1790452823.700319,
     "c669cbd4b2deceb9": 1790452823.1658306,
     "38346328715aaa0c": 1790452823.1645565,
@@ -2497,9 +2499,7 @@
     "5cc836602c933202": 1789866598.3858502,
     "4130d716152e5cc7": 1789866533.4809694,
     "8f04d3461345a73d": 1789866467.4092739,
-    "567a6d5f1b65ad64": 1789866401.6401513,
-    "9a36d83cc3ea8cdd": 1789866401.1038249,
-    "fd80e00c694009ff": 1789866401.0985937
+    "567a6d5f1b65ad64": 1789866401.6401513
   },
   "initialized": true,
   "v": 4,
@@ -4423,13 +4423,19 @@
       "source": "LowKickMMA.com",
       "ts": "2026-09-26T19:17:54+00:00",
       "cluster": "c39a16dedae"
+    },
+    {
+      "t": "UFC Vegas 121 star happy to finally get her hands on bitter rival ‘without getting arrested’",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-26T20:00:00+00:00",
+      "cluster": "c3e008ebaea"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T20",
-    1
+    2
   ],
   "yt_eval": [
     "ef2bef2a-a0ee-3a31-874d-fcaf9faae553",
@@ -6804,17 +6810,10 @@
     "3e16d34112f5d081": 1790361075.7333338,
     "ece43f67050820f0": 1790373988.1821806,
     "d5247156aa7295d1": 1790430182.7939303,
-    "33acd6db9eecea88": 1790442208.247763
+    "33acd6db9eecea88": 1790442208.247763,
+    "8e33eb9a1436c6df": 1790452848.5511155
   },
   "pinged_titles": [
-    [
-      "Drones, a Worried Mom and Infant Sacrifice: WashPo Deep Dive Explores Thwarted Plot to Attack Trump’s UFC Event",
-      1790430182.7939303,
-      [
-        "sacrifice",
-        "trump"
-      ]
-    ],
     [
       "Justin Gaethje says it's Arman Tsarukyan or retirement next",
       1790442208.247763,
@@ -6822,6 +6821,11 @@
         "gaethje",
         "tsarukyan"
       ]
+    ],
+    [
+      "UFC Vegas 121 star happy to finally get her hands on bitter rival ‘without getting arrested’",
+      1790452848.5511155,
+      []
     ]
   ]
 }
