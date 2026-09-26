@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 21,
   "staged_at": [
-    "2026-09-24T20:01:11.128611+00:00",
     "2026-09-25T14:38:40.555620+00:00",
     "2026-09-25T20:03:26.673284+00:00",
-    "2026-09-26T13:46:51.087764+00:00"
+    "2026-09-26T13:46:51.087764+00:00",
+    "2026-09-26T19:15:18.320298+00:00"
   ],
   "asked": [
-    "Who is the most delusional fighter in the UFC right now?",
     "Who is the most likely to beat Islam Makhachev right now?",
     "Who should Alex Pereira fight next?",
     "Who is the most exciting UFC flyweight of all time?",
@@ -47,33 +46,34 @@
     "What is the best walkout in UFC history?",
     "Who is the biggest threat to the bantamweight division right now?",
     "Who is the hardest fighter to take down ever?",
-    "Who is the most protected fighter in the UFC right now?"
+    "Who is the most protected fighter in the UFC right now?",
+    "What is the biggest factor in Jon Jones staying undefeated in the UFC?"
   ],
   "last_entry": {
-    "q": "Who is the most protected fighter in the UFC right now?",
+    "q": "What is the biggest factor in Jon Jones staying undefeated in the UFC?",
     "type": "poll",
     "options": [
       {
-        "label": "Sean O'Malley",
-        "emoji": "🎯",
+        "label": "Elite fight IQ",
+        "emoji": "🧠",
         "art": ""
       },
       {
-        "label": "Alex Pereira",
-        "emoji": "🏎️",
+        "label": "Unmatched reach",
+        "emoji": "📏",
         "art": ""
       },
       {
-        "label": "Bo Nickal",
-        "emoji": "🧢",
-        "art": ""
+        "label": "Lack of elite wrestlers",
+        "emoji": "🤼",
+        "art": "A lone wrestler stands in an empty gym, a dusty trophy on a shelf, spotlight on unused mats."
       },
       {
-        "label": "Other",
-        "emoji": "🛡️",
+        "label": "Other (comment below)",
+        "emoji": "🤔",
         "art": ""
       }
     ],
-    "gag": "A matchmaker hiding behind a giant velvet rope, feeding tomato cans to a golden goose"
+    "gag": "A cartoon alien in a referee shirt holds a UFC belt, shrugging at a lineup of confused fighters."
   }
 }
