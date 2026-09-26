@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6b4a31dd7bed4830": 1790444119.027801,
     "6fcf119a157c8339": 1790443969.0753546,
     "09c825efba6ed58a": 1790443904.7004008,
     "3e4d81be3910681f": 1790443778.1563218,
@@ -2498,8 +2499,7 @@
     "010bcd70d91978ed": 1789866332.0664115,
     "5d0b9eb951e8f739": 1789866332.0653272,
     "ed1ecf3ca4c0d3e7": 1789866332.0642147,
-    "35ab4fed1a530c62": 1789866332.063065,
-    "6394a18543e50199": 1789866266.0201454
+    "35ab4fed1a530c62": 1789866332.063065
   },
   "initialized": true,
   "v": 4,
@@ -2521,12 +2521,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-24T18:00:00+00:00",
       "cluster": "cc61ee47442"
-    },
-    {
-      "t": "MMA Fighter Left in Scary Position After Violent Head Kick Knockout",
-      "source": "Sports Illustrated",
-      "ts": "2026-09-24T17:34:47+00:00",
-      "cluster": "c93ccdf2c6e"
     },
     {
       "t": "Josh Hokit UFC: Why Dana White Got The Title Challenger Wrong",
@@ -4531,13 +4525,19 @@
       "source": "ActuMMA",
       "ts": "2026-09-26T16:45:00+00:00",
       "cluster": "cac0f17bd03"
+    },
+    {
+      "t": "Darren Till vs Yoel Romero LIVE stream info, results, and more from record-setting BKFC 94 show",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-26T17:35:10+00:00",
+      "cluster": "c605ce5f4f5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T17",
-    16
+    17
   ],
   "yt_eval": [
     "bb0eee99-5fd6-3d66-8226-2aa740d4bb72",
