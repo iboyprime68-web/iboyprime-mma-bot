@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a4da60f3adc4c893": 1790451456.4070623,
     "7d3bf056f238bd7b": 1790451431.039919,
     "9c2a58b1ad87eede": 1790451430.384743,
     "e1d464ca9d7ed8ad": 1790445120.9606347,
@@ -2498,8 +2499,7 @@
     "061c464261597f4b": 1789866332.132547,
     "103942a8f1d619b6": 1789866332.1099463,
     "349d745ec9227d18": 1789866332.1055503,
-    "9735e9351be8b5ee": 1789866332.0970006,
-    "41f1687daf96a2a1": 1789866332.0963068
+    "9735e9351be8b5ee": 1789866332.0970006
   },
   "initialized": true,
   "v": 4,
@@ -4333,13 +4333,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-26T15:00:04+00:00",
       "cluster": "c2a22d4d64c"
+    },
+    {
+      "t": "‘The truth is’… Ex-UFC heavyweight settles MMA fighter vs chimp debate with brutally honest prediction",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-26T18:00:00+00:00",
+      "cluster": "cbe47c0cded"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T19",
-    1
+    2
   ],
   "yt_eval": [
     "6c825acb-2583-3e1f-bc00-2e52c2de2c68",
