@@ -1,5 +1,6 @@
 {
   "seen": {
+    "553dba04c913abbf": 1790442068.985162,
     "2c510533a4e90424": 1790442021.9360807,
     "ab54609e580e98fc": 1790441996.4044065,
     "171185743eaf5557": 1790441970.3124263,
@@ -2498,8 +2499,7 @@
     "56d3f5502b364847": 1789865535.5737476,
     "0cb4c889eff6ee91": 1789865490.3399758,
     "9d9a5ed5fac853c3": 1789865466.6643326,
-    "d267e0bd5c8ae9e3": 1789865466.309825,
-    "60da504712cbd51c": 1789865438.12961
+    "d267e0bd5c8ae9e3": 1789865466.309825
   },
   "initialized": true,
   "v": 4,
@@ -2521,12 +2521,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-24T18:00:00+00:00",
       "cluster": "cc61ee47442"
-    },
-    {
-      "t": "Randy Couture: MMA more akin to WWE, not 'traditional prizefighting'",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-24T17:00:28+00:00",
-      "cluster": "caed50b2bd5"
     },
     {
       "t": "Paulo Costa Hilariously Mocks UFC Contract Talks With “Sign Here” Video",
@@ -4483,13 +4477,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-26T17:00:00+00:00",
       "cluster": "c161a71006a"
+    },
+    {
+      "t": "Norma Dumont vs. Ailin Perez prediction, pick, time for UFC Fight Night 289",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-26T14:01:59+00:00",
+      "cluster": "c033fbcae15"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T17",
-    1
+    2
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=472408",
