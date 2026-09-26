@@ -1,5 +1,6 @@
 {
   "seen": {
+    "12622cb33064b75b": 1790388425.5940964,
     "fc8b6572a6682d0b": 1790388359.05368,
     "fe7116bb8e7305a8": 1790388358.8676696,
     "b18908aac9446ec4": 1790388358.8369887,
@@ -2498,8 +2499,7 @@
     "0db16b6b89b55e0a": 1789857249.3325243,
     "bebfaec1b2966a79": 1789857227.3591888,
     "064f3ad698136084": 1789857227.0525317,
-    "fc555f902580fc4d": 1789857227.0438032,
-    "07ea30735045b6d7": 1789857227.0351307
+    "fc555f902580fc4d": 1789857227.0438032
   },
   "initialized": true,
   "v": 4,
@@ -4555,13 +4555,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-26T02:04:28+00:00",
       "cluster": "cc0e3253aec"
+    },
+    {
+      "t": "UFC Vegas 121 free fight: Raoni Barcelos wins Fight of the Night vs. Khalid Taha",
+      "source": "MMA Junkie",
+      "ts": "2026-09-26T02:00:00+00:00",
+      "cluster": "cdc115dc403"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-26T02",
-    3
+    4
   ],
   "yt_eval": [
     "https://www.mmamania.com/472289/open-thread-september-13-2026-big-movie-quiz-time",
