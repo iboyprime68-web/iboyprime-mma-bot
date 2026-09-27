@@ -1,5 +1,7 @@
 {
   "seen": {
+    "3d2577a3bdb79953": 1790546432.9098506,
+    "7fdd4760293f49d2": 1790546432.579933,
     "3c72895459a4104f": 1790546410.0445964,
     "2517cb7d9cafe579": 1790546387.6600344,
     "a9e3358d48baecc3": 1790546387.3321316,
@@ -2497,9 +2499,7 @@
     "bb40a85895a39cf6": 1789941334.3805149,
     "0d855143ede19fd3": 1789941085.697362,
     "e03a95b9aceb3e1d": 1789940345.181114,
-    "59d212eaffbef1c3": 1789940282.0605075,
-    "c9192c29b08baa47": 1789940218.5133307,
-    "55a883f73563d9f2": 1789940154.1740832
+    "59d212eaffbef1c3": 1789940282.0605075
   },
   "initialized": true,
   "v": 4,
@@ -4243,13 +4243,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-27T22:00:00+00:00",
       "cluster": "ce53ceba0ab"
+    },
+    {
+      "t": "Darren Till defends 'chess match' against Yoel Romero at BKFC 94: 'The crowd loved it at times'",
+      "source": "MMA Mania",
+      "ts": "2026-09-27T17:09:43+00:00",
+      "cluster": "c1d88cfaf87"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T22",
-    1
+    2
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331808",
