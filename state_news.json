@@ -1,5 +1,7 @@
 {
   "seen": {
+    "c7260eabf87ecbd7": 1790472304.735283,
+    "cec74a3c34241ba7": 1790472304.503946,
     "b7ac91cb0eeaa5ba": 1790472239.1173558,
     "a4ed126e5b2a8dff": 1790472172.7763748,
     "dcdd1ac44ccba8b8": 1790472172.4395392,
@@ -2497,9 +2499,7 @@
     "7af0a421febb26b6": 1789884779.4267807,
     "3ce9e410b7fadacc": 1789884715.3477046,
     "d319c343d2e0df10": 1789884670.9377031,
-    "343f6481858fba2f": 1789884647.7098224,
-    "f356525d7273e98f": 1789884647.3866425,
-    "4d52ebe7be262b88": 1789884582.766938
+    "343f6481858fba2f": 1789884647.7098224
   },
   "initialized": true,
   "v": 4,
@@ -4417,13 +4417,19 @@
       "source": "MMA Junkie",
       "ts": "2026-09-27T00:38:00+00:00",
       "cluster": "cea3f78d250"
+    },
+    {
+      "t": "UFC Vegas 121 highlight video: Valesca Machado destroys Melissa Amaya",
+      "source": "Sherdog",
+      "ts": "2026-09-27T00:42:06+00:00",
+      "cluster": "cb2b00e85fd"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T01",
-    12
+    13
   ],
   "yt_eval": [
     "CBMilAFBVV95cUxOSjFELUlvZmhDazY3c2YwSzJFS3lZclJzWEVhWWphWEJsWE9ubDlZRTNoVDZVeld2YzVjdmptc2tWZnNjcWtYT3MzcnBWYWx6RFZVXzF1Nm94bER4SlJrTk9XSXpMVmdOazJrdEE4TXNyZTFEdWVPb21KMS1hNkRSdDRENlhMVE1oRmRaaEFMREpoMkZ5",
