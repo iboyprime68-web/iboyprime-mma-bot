@@ -1,5 +1,6 @@
 {
   "seen": {
+    "19cad41b6e51e040": 1790495414.5314398,
     "de8b490f54f795a2": 1790495389.2367327,
     "b691f6576099b351": 1790474840.5595353,
     "c7917fa5fa59cc0c": 1790474773.2171197,
@@ -2498,8 +2499,7 @@
     "564c9c57adbd5fde": 1789902163.8995998,
     "50e58288a2bbfea2": 1789902163.8983378,
     "4f69cfa2e3956f67": 1789902163.8627188,
-    "1781b3e07c9b9bd1": 1789902100.6047795,
-    "dda869ba36df553c": 1789902100.3223946
+    "1781b3e07c9b9bd1": 1789902100.6047795
   },
   "initialized": true,
   "v": 4,
@@ -4375,13 +4375,19 @@
       "source": "Sherdog",
       "ts": "2026-09-26T23:57:08+00:00",
       "cluster": "c11f62808f8"
+    },
+    {
+      "t": "UFC Vegas 121 video: Security intervenes following Ailin Perez’s controversial win over Norma Dumont",
+      "source": "MMA Fighting",
+      "ts": "2026-09-27T02:09:37+00:00",
+      "cluster": "c14c4d78331"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T07",
-    1
+    2
   ],
   "yt_eval": [
     "4e3f97b6-1536-37c3-922d-4fa3ee7a7ada",
