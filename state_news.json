@@ -1,5 +1,7 @@
 {
   "seen": {
+    "6cc0e80543015599": 1790474640.5227308,
+    "c480d290e2a7f7ba": 1790474640.3432324,
     "ae0bbfd69681c8a6": 1790474574.6618679,
     "1658ee3fda7f89aa": 1790474574.3138366,
     "86bf90e1199a3dca": 1790474507.9613924,
@@ -2497,9 +2499,7 @@
     "5e9659f77a965c0b": 1789902100.3137214,
     "e18db7ba7766514f": 1789902037.538225,
     "a5a33fb0cb3b0c81": 1789902037.248904,
-    "5d6ac1f831193154": 1789902037.2403648,
-    "54a17ccbb10bc27a": 1789902037.2391007,
-    "825872b9ed725660": 1789902037.20234
+    "5d6ac1f831193154": 1789902037.2403648
   },
   "initialized": true,
   "v": 4,
@@ -4537,13 +4537,19 @@
       "source": "MMAWeekly.com",
       "ts": "2026-09-27T01:56:00+00:00",
       "cluster": "c3049b66cf6"
+    },
+    {
+      "t": "UFC Vegas 121 highlight video: Yazmin Jauregui dusts Vanessa Demopoulos in 62 seconds",
+      "source": "Sherdog",
+      "ts": "2026-09-27T01:57:05+00:00",
+      "cluster": "cea23aeb55e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T02",
-    2
+    3
   ],
   "yt_eval": [
     "CBMiuwFBVV95cUxONTRLVUhUaVMyVm5jU3lRbng2eWZCWEZra2dwN3ZrWjk1SGQxOWcwczNXb3dyUXEwQTlFR1lhanR1d2lrOHM3cVFDVDBROEIyTmI4MlVocnl2ekV2aWF5VUxtQmxjUTlLR0tOdGkxbnZYYkxRelR1cTN6QzBDZE9oTzloSGc5SU5fZUdBSnRQTVVZY1lXUlZMN2VjQlRtWUVWVFVJWjYwejB3YzgxRDRhZzNrcTNQR193Zk1F",
