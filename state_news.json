@@ -4564,7 +4564,6 @@
     5
   ],
   "yt_eval": [
-    "bcc7f099-8123-351c-b87d-15084f29ec96",
     "https://bloodyelbow.com/?p=331782",
     "https://www.mmafighting.com/?p=510473",
     "4e3f97b6-1536-37c3-922d-4fa3ee7a7ada",
@@ -6063,25 +6062,17 @@
     "CBMickFVX3lxTFBnZ1E5dUJjakNBMWZJWF9FUHplenhWSVA0UnJ2NEpiRjJFRzFUUEZhcTBuVnhYOGJLTlphakE5VUt3WEpmSVhDQnEyZVd5U1ZpQXo2c194VXpSMTJlVmFubExpOVBuX3JjNFUzakZURmxYZw",
     "CBMie0FVX3lxTFBZTGtHNFNvMjRoZDNsU0ZvbzRDWm13SzlQRURpdXdCN29OQW9QZUZ6UDFCMnlWeVdTdk03Vko1SzRtWWtFTTA0YkFVNXdNMmdRa0szdEdxT0ItRVFIbG45ZjJINUpzUGdPV1BUZXdVUDJ5blpJLVNJUE9jTQ",
     "CBMi0gFBVV95cUxQS2hIRThtbHRnb3RYTm9Ib2N3VFJ5OU5BTHhqMGpOaHJJaURrcjhGVXRVYnlvVG1IaVFKLWJBRjhCS0hmNlJuVmNoSDhBVDBLM25mRnFXaGFJSTZIZGRGLUtfU3ZkeGdIaVFzaHpSYU9ZZm5qeXVrRk9rcjdVNkZESTdnOUpvcG9nU1lMcGk3b0t6YjJvNXZxOEFCMzZBSHVGYW9NSEVPWTN5NzBtZDBWQmRTTTdaNkFKRHNKVDZ3bWM0Q19OSzd0NkQtOFhEVmtFT1E",
-    "CBMiwgFBVV95cUxQZjYyUVRTZ2Y2cDk1NWtzQ3VRUnNZRlFuQ0lNMDA5Q2ZLaS1xMkJNcXFRMklpTXRmQ1dQT2Z2R3NBYVpHcFJDa3VuZTBUSFYxTkdxR3hWWVBQT01Zai1sWmhTSU5yNksybEduUzdWS1NTSXlBbmhLZ2xrcHR2dGJWS2ZuT3hXRWltUksxT2hQeVFjWnprSGtpYXBicUxsbTlxQ1JsSk9KN1hLRzItYkRYVm9GSF9UT3lxVk41bGdoSDFmZw"
+    "CBMiwgFBVV95cUxQZjYyUVRTZ2Y2cDk1NWtzQ3VRUnNZRlFuQ0lNMDA5Q2ZLaS1xMkJNcXFRMklpTXRmQ1dQT2Z2R3NBYVpHcFJDa3VuZTBUSFYxTkdxR3hWWVBQT01Zai1sWmhTSU5yNksybEduUzdWS1NTSXlBbmhLZ2xrcHR2dGJWS2ZuT3hXRWltUksxT2hQeVFjWnprSGtpYXBicUxsbTlxQ1JsSk9KN1hLRzItYkRYVm9GSF9UT3lxVk41bGdoSDFmZw",
+    "CBMivAFBVV95cUxNY1FRUnRRX3BrVWhZWF9JemR1V2lJeXFlMHVMa0FycDFPTlpZNE1BN1lLcERNd2JUbGdzZTJSemVFVmE3YmxUaVhiYXdkZ3BBTllZWmd0RUMyTXk5b1R1bFlnZkoxRTZnQmdxNzZ1Zk5fX1ltV0MzeHVWREUxbkNOYzI3dm1XaWgwZkNEcWJWMGRpYVMxaWhQV2x3LVVxcS1kUzNNNkpWaWtTeWRSQ21QOVdlUGw0MU9KNjlqdg"
   ],
   "daily": {
     "d": "2026-09-27",
-    "ai": 36,
-    "staged": 0,
+    "ai": 37,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-16T14:48:52.817891+00:00",
-      "t": "Brian Ortega: Headbutt during jiu-jitsu caused cut, UFC 331 withdrawal",
-      "names": [
-        "ortega",
-        "headbutt"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-16T15:04:28.935305+00:00",
       "t": "Yoel Romero discusses retirement ahead of BKFC fight vs Darren Till",
@@ -6850,6 +6841,14 @@
         "u-turn"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-27T02:06:15.647107+00:00",
+      "t": "UFC Cops vs Robbers - A Miami Deputy Sheriff Just Choked Out A Fighter Who Has Been Arrested 15 Times",
+      "names": [
+        "sheriff"
+      ],
+      "img": "wash"
     }
   ],
   "seed_pending": [],
