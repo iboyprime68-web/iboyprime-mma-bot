@@ -1,5 +1,8 @@
 {
   "seen": {
+    "15c094d447b21b7f": 1790472908.4206028,
+    "e22663910c600810": 1790472908.137863,
+    "c0845625c063001b": 1790472908.136177,
     "68292c9235d17fd2": 1790472842.0651047,
     "cda8af0b4dcad3d0": 1790472816.9754908,
     "1ec90199d894f439": 1790472771.0334883,
@@ -2496,10 +2499,7 @@
     "a18a19a27bf21033": 1789885958.7682602,
     "1d6e7f37b6c4ec48": 1789885958.4241698,
     "707c28a813671b85": 1789885893.9008508,
-    "7dc83bc88637e68f": 1789885829.5225866,
-    "ac0c3e210a2ceb60": 1789885828.916086,
-    "3c1a8489e13b060a": 1789885764.040012,
-    "abc874726c5b048c": 1789885699.0338578
+    "7dc83bc88637e68f": 1789885829.5225866
   },
   "initialized": true,
   "v": 4,
@@ -4477,13 +4477,19 @@
       "source": "MiddleEasy",
       "ts": "2026-09-27T00:50:48+00:00",
       "cluster": "c4cdc06ea6e"
+    },
+    {
+      "t": "Rising Star Aims to Inspire Women Through UFC Journey",
+      "source": "news.ssbcrack.com",
+      "ts": "2026-09-27T01:21:48+00:00",
+      "cluster": "ce9cebb819d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T01",
-    23
+    24
   ],
   "yt_eval": [
     "CBMie0FVX3lxTE01VUI0VDN5dF9iTzhJbFhhNXJGN3JQN3lMazhSMVQtWG9kbHBiZHNuMUFMWnhoMWY3NkR1Q1JxVlBXSEpiUlM5SzNMSTRhZE95T0M1c2V6YW40UDAtV21oSDYxSEc5czdfeDlyd0xwTnpaVlNWbEpUaml1QQ",
