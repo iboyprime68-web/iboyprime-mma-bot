@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9cb14672f40a8239": 1790533191.7903135,
     "7e4f0b1b137f5d03": 1790533127.087337,
     "833ff6ab207fef21": 1790533062.9932804,
     "3a708bb3d476a6bc": 1790532999.200112,
@@ -2498,8 +2499,7 @@
     "96dc6ebefb6ec913": 1789928437.895279,
     "ac1503ace87efb0b": 1789928373.269468,
     "605d240e26afc8af": 1789928372.9649022,
-    "e272ae7b3c4cfa85": 1789928309.0346186,
-    "7dac6066bc84ed43": 1789928245.0301542
+    "e272ae7b3c4cfa85": 1789928309.0346186
   },
   "initialized": true,
   "v": 4,
@@ -4315,13 +4315,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-27T17:35:48+00:00",
       "cluster": "c3ceebbc506"
+    },
+    {
+      "t": "U.K. press rattle Dana White’s cage over Fury vs. Joshua mess: ‘I'm involved in the f—king fight!’",
+      "source": "MMA Mania",
+      "ts": "2026-09-27T15:46:12+00:00",
+      "cluster": "c7093014bc0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T18",
-    15
+    16
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331808",
