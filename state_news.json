@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6f89e2b364f44ae7": 1790472349.9719849,
     "c7260eabf87ecbd7": 1790472304.735283,
     "cec74a3c34241ba7": 1790472304.503946,
     "b7ac91cb0eeaa5ba": 1790472239.1173558,
@@ -2498,8 +2499,7 @@
     "4de9463fea289400": 1789884779.6381466,
     "7af0a421febb26b6": 1789884779.4267807,
     "3ce9e410b7fadacc": 1789884715.3477046,
-    "d319c343d2e0df10": 1789884670.9377031,
-    "343f6481858fba2f": 1789884647.7098224
+    "d319c343d2e0df10": 1789884670.9377031
   },
   "initialized": true,
   "v": 4,
@@ -4423,13 +4423,19 @@
       "source": "Sherdog",
       "ts": "2026-09-27T00:42:06+00:00",
       "cluster": "cb2b00e85fd"
+    },
+    {
+      "t": "UFC Vegas 121 video: Luis Hernandez taps Sedriques Dumas in under a minute with nasty choke",
+      "source": "MMA Fighting",
+      "ts": "2026-09-27T01:25:13+00:00",
+      "cluster": "c75b815f836"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T01",
-    13
+    14
   ],
   "yt_eval": [
     "https://www.mmamania.com/472560/ufc-contender-series-results-live-coverage-and-full-fight-highlights-4-contracts-awarded-season-10-ep-5",
