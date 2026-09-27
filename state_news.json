@@ -1,5 +1,7 @@
 {
   "seen": {
+    "2517cb7d9cafe579": 1790546387.6600344,
+    "a9e3358d48baecc3": 1790546387.3321316,
     "9a3ada4b05741793": 1790546323.7138402,
     "5003867069a264c7": 1790546323.4871752,
     "99b4081f09eb2cdc": 1790546323.4851902,
@@ -2497,9 +2499,7 @@
     "59d212eaffbef1c3": 1789940282.0605075,
     "c9192c29b08baa47": 1789940218.5133307,
     "55a883f73563d9f2": 1789940154.1740832,
-    "0a4899f77f4fb1fe": 1789940153.862823,
-    "5f88db230776f9da": 1789940090.371094,
-    "d665e774a96db792": 1789940090.1328263
+    "0a4899f77f4fb1fe": 1789940153.862823
   },
   "initialized": true,
   "v": 4,
@@ -2509,18 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-25T22:00:46+00:00",
       "cluster": "ca1e7d2c086"
-    },
-    {
-      "t": "Santa Rosa native Raul Rosas Jr. set for historic first UFC headline bout",
-      "source": "The Press Democrat",
-      "ts": "2026-09-25T21:59:17+00:00",
-      "cluster": "cac12834e33"
-    },
-    {
-      "t": "Arman Tsarukyan's coach reveals wrestling strategy behind Mauricio Ruffy win",
-      "source": "MMA Sucka",
-      "ts": "2026-09-25T21:59:30+00:00",
-      "cluster": "ca469fa67ef"
     },
     {
       "t": "'TUF 34' finalist Valesca Machado explains 'Tina Black' name",
@@ -4243,13 +4231,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-27T21:10:19+00:00",
       "cluster": "cfd5fb6088e"
+    },
+    {
+      "t": "Raoni Barcelos Hospitalized Following Sudden Illness at UFC Vegas 121",
+      "source": "SuaraGarut.ID",
+      "ts": "2026-09-27T21:15:00+00:00",
+      "cluster": "cf6fedffde7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T21",
-    6
+    7
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331808",
