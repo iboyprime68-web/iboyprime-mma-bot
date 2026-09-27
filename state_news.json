@@ -1,5 +1,10 @@
 {
   "seen": {
+    "2ae43e77595c6027": 1790546456.105722,
+    "58e7fa67ba62940d": 1790546455.8399847,
+    "ac6de49705c7d55f": 1790546455.8382075,
+    "831da8cf2c1eac3d": 1790546455.836099,
+    "9993e3d624cb47d2": 1790546455.8342218,
     "3d2577a3bdb79953": 1790546432.9098506,
     "7fdd4760293f49d2": 1790546432.579933,
     "3c72895459a4104f": 1790546410.0445964,
@@ -2494,22 +2499,11 @@
     "778b3cc5bfa4f167": 1789941713.0638862,
     "b0da6764faac089f": 1789941649.8349304,
     "f09c91fd24f05712": 1789941606.5253513,
-    "1316bfcd424eb501": 1789941460.836616,
-    "d2eb3c5d0bd66567": 1789941397.6372318,
-    "bb40a85895a39cf6": 1789941334.3805149,
-    "0d855143ede19fd3": 1789941085.697362,
-    "e03a95b9aceb3e1d": 1789940345.181114,
-    "59d212eaffbef1c3": 1789940282.0605075
+    "1316bfcd424eb501": 1789941460.836616
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Dana White maintains he’ll promote Fury vs. Joshua despite Eddie Hearn claim: ‘Who is gonna stop me?’",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-25T22:00:46+00:00",
-      "cluster": "ca1e7d2c086"
-    },
     {
       "t": "'TUF 34' finalist Valesca Machado explains 'Tina Black' name",
       "source": "MMA Junkie",
@@ -4249,13 +4243,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-27T17:09:43+00:00",
       "cluster": "c1d88cfaf87"
+    },
+    {
+      "t": "Can Norma Dumont Snap her Losing Skid?",
+      "source": "MMA Sucka",
+      "ts": "2026-09-27T21:24:30+00:00",
+      "cluster": "c5cb08e65ca"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T22",
-    2
+    3
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331808",
