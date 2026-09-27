@@ -1,5 +1,7 @@
 {
   "seen": {
+    "bc1aa818936812ec": 1790532883.2079983,
+    "602c6e7ad896a7c2": 1790532882.7091157,
     "a819f3358145ebfd": 1790532857.2422228,
     "0c4355f5110e8809": 1790532856.887675,
     "2116765b3b5437e7": 1790532856.8577852,
@@ -2497,9 +2499,7 @@
     "fac2c7d2524d38b4": 1789928180.462615,
     "885aab989d6a498f": 1789928116.0517066,
     "07567c66ff0e9ab3": 1789928115.5923252,
-    "e2460fc45b3a167c": 1789928115.5908053,
-    "8acde701c11dcaa4": 1789928115.5876129,
-    "150543439c852885": 1789928051.0398338
+    "e2460fc45b3a167c": 1789928115.5908053
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-25T18:27:11+00:00",
       "cluster": "c23542b6094"
-    },
-    {
-      "t": "Ex UFC Star Declares \"It's Kayla's Time\" in Harrison vs. Nunes Prediction",
-      "source": "MMA Sucka",
-      "ts": "2026-09-25T18:14:28+00:00",
-      "cluster": "ca31c08b015"
     },
     {
       "t": "Gilbert Burns lends support to Justin Gaethje amid criticism over potential MMA retirement",
@@ -4297,13 +4291,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-27T17:00:55+00:00",
       "cluster": "c5259128e16"
+    },
+    {
+      "t": "UFC Vegas 121, The Morning After: Here’s what it will look like when somebody dies in the Octagon",
+      "source": "MMA Mania",
+      "ts": "2026-09-27T15:00:25+00:00",
+      "cluster": "c87e5448693"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T18",
-    10
+    11
   ],
   "yt_eval": [
     "CBMijgFBVV95cUxPdFBZNVF0SW92VVNjM1lQejhEMEZkX3h5ck1Jd0UtRTg1SnFmZjc1MUV6bDVsTmF0NmcydDA1OXJuVWZKUGhVdVplRmctaWhUTjlsV2lSSzd0NURvSmdrM05SWVplMFFjU284T25TQ04zdHM0aUoxNmxMT1IxTWtqeDBwT3RTM1lEaThQOGNB",
@@ -6673,23 +6673,15 @@
     "33acd6db9eecea88": 1790442208.247763,
     "8e33eb9a1436c6df": 1790452848.5511155,
     "f12e2a5de79b0041": 1790462011.9259903,
-    "c7917fa5fa59cc0c": 1790474772.9999394
+    "c7917fa5fa59cc0c": 1790474772.9999394,
+    "bc1aa818936812ec": 1790532882.7455626
   },
   "pinged_titles": [
     [
-      "Jorge Masvidal is convinced Amanda Nunes only made retirement U-turn for two reasons ahead of UFC comeback",
-      1790462011.9259903,
+      "UFC Vegas 121, The Morning After: Here’s what it will look like when somebody dies in the Octagon",
+      1790532882.7455626,
       [
-        "masvidal",
-        "nunes",
-        "u-turn"
-      ]
-    ],
-    [
-      "UFC Cops vs Robbers - A Miami Deputy Sheriff Just Choked Out A Fighter Who Has Been Arrested 15 Times",
-      1790474772.9999394,
-      [
-        "sheriff"
+        "morning"
       ]
     ]
   ]
