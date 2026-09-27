@@ -1,5 +1,8 @@
 {
   "seen": {
+    "d061e4589a12579c": 1790473169.3954313,
+    "97bd988be87e5d43": 1790473169.105132,
+    "7b7b53a23e224859": 1790473169.1031368,
     "1c114f6b15a8e103": 1790473041.6352503,
     "0aa924899427d5fc": 1790472975.0871592,
     "35f059e2f9cb7439": 1790472974.8416784,
@@ -2496,10 +2499,7 @@
     "ffb2bb3f120b89e0": 1789886224.3280437,
     "46abbed277611124": 1789886223.8636916,
     "da150619b721bd3c": 1789886160.0566204,
-    "a17deb7e38b7abf1": 1789886091.5739024,
-    "d108e691e47145f4": 1789886091.3061745,
-    "5f7bdcd5e23f9b44": 1789886067.96359,
-    "3dd298bd084d0c69": 1789886023.5912592
+    "a17deb7e38b7abf1": 1789886091.5739024
   },
   "initialized": true,
   "v": 4,
@@ -4495,13 +4495,19 @@
       "source": "BroBible",
       "ts": "2026-09-27T01:30:20+00:00",
       "cluster": "c6616702a35"
+    },
+    {
+      "t": "UFC Fight Night 289 video: Luis Hernandez wins debut in 57 seconds",
+      "source": "MMA Junkie",
+      "ts": "2026-09-27T01:32:00+00:00",
+      "cluster": "cdc64e56774"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T01",
-    26
+    27
   ],
   "yt_eval": [
     "CBMiuwFBVV95cUxQdV9wTzNXajFfZUZESkpXQ08wVllWazBfSDg4aDcyWXJEbjlXWFRsdDM2MFZ3OG9GRXlPaVloSTRfNUtNTFVzUHh3OWViSURfNVI5ZmpYaDJwWm9lQzlScWo5b1R0VDF2a0lMZEkyMUg3cXJMdFdkSkw5b1dpenpDLUtTQy1jcHROc1YtZGR6S1hqWWQyN1VyTzRoaUYwVFpqRHlweEtCcS1rZkJqMGNqZlpvbHZTM3czWWhV",
