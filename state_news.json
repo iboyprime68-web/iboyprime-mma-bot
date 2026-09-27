@@ -1,5 +1,7 @@
 {
   "seen": {
+    "93f01735daa8e8c8": 1790495715.9059417,
+    "16a26dd76904b853": 1790495715.6516452,
     "096e5de02c2ac112": 1790495691.0389144,
     "2553d5149141e363": 1790495688.0455065,
     "4cdacdffe6515945": 1790495688.0085688,
@@ -2497,9 +2499,7 @@
     "500a7e2c4d48c91c": 1789903157.218352,
     "ec161925416cd5ab": 1789902930.266308,
     "a3cbafe9d02ef638": 1789902930.0236406,
-    "49ee451dab86d10b": 1789902867.1657507,
-    "8e49129bf4185240": 1789902866.7452042,
-    "7c7d8eba4ba381a4": 1789902866.7368624
+    "49ee451dab86d10b": 1789902867.1657507
   },
   "initialized": true,
   "v": 4,
@@ -4435,13 +4435,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-27T06:14:04+00:00",
       "cluster": "ca4674135bd"
+    },
+    {
+      "t": "UFC Vegas 121: Raul Rosas Jr. knocks out Raoni Barcelos with phantom strike in terrifying stoppage",
+      "source": "MMA Mania",
+      "ts": "2026-09-27T03:05:32+00:00",
+      "cluster": "c88355c1106"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T07",
-    12
+    13
   ],
   "yt_eval": [
     "CBMiigFBVV95cUxNalJWTFFrLW9PM19tUThTLTROb3l1eVlkMjF5RkxoYlpwemxYLVp3aFptN0tKMXZnYldFQ0E0RjRBeEVveGRUdWdoRE1lZkhBQTRJOGVHZjljZG5BTEcwa0FFcFU5X0xudnFOTVd6WGdlbGQ0UWdyaEI2VERDTWVtYW9OeFZaU2s3UVE",
