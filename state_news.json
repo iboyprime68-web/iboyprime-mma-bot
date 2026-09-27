@@ -1,5 +1,9 @@
 {
   "seen": {
+    "e753d16a1d261772": 1790495540.920433,
+    "14f9f8802f77f464": 1790495540.6159277,
+    "21dc624b58107472": 1790495540.5788548,
+    "bbef53bec35bc362": 1790495540.5678554,
     "f4267051c5b3f0af": 1790495515.4097145,
     "0b2eff54910c79d8": 1790495515.1556025,
     "3c48dea55a776764": 1790495490.4852583,
@@ -2495,11 +2499,7 @@
     "7dbad01b944a44c1": 1789902612.316877,
     "3a664a720363d2b8": 1789902547.818724,
     "878e1cb4938ee2d3": 1789902525.3268318,
-    "171c19c4660a115b": 1789902482.6830142,
-    "c260c0152a368136": 1789902419.2716439,
-    "537227794d37f8fc": 1789902356.2434962,
-    "6cab37a7b353eb29": 1789902292.5417268,
-    "4f740c54b323efc6": 1789902292.1935081
+    "171c19c4660a115b": 1789902482.6830142
   },
   "initialized": true,
   "v": 4,
@@ -4405,13 +4405,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-27T03:27:26+00:00",
       "cluster": "c8648222c32"
+    },
+    {
+      "t": "Watch: Raul Rosas Jr. beats Raoni Barcelos with scariest knockout in UFC history",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-27T03:03:35+00:00",
+      "cluster": "c0762efd9f2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T07",
-    6
+    7
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Jon-Jones-piles-on-Tom-Aspinall-following-UFC-heavyweight-title-exit-202811",
