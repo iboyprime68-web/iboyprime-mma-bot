@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a004bd2ce4664c5a": 1790495761.995779,
     "93f01735daa8e8c8": 1790495715.9059417,
     "16a26dd76904b853": 1790495715.6516452,
     "096e5de02c2ac112": 1790495691.0389144,
@@ -2498,8 +2499,7 @@
     "b0f88917a7ba91c1": 1789903157.2512562,
     "500a7e2c4d48c91c": 1789903157.218352,
     "ec161925416cd5ab": 1789902930.266308,
-    "a3cbafe9d02ef638": 1789902930.0236406,
-    "49ee451dab86d10b": 1789902867.1657507
+    "a3cbafe9d02ef638": 1789902930.0236406
   },
   "initialized": true,
   "v": 4,
@@ -4441,13 +4441,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-27T03:05:32+00:00",
       "cluster": "c88355c1106"
+    },
+    {
+      "t": "UFC provides medical update on Raoni Barcelos following scary knockout",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-27T06:51:56+00:00",
+      "cluster": "c00202dd3f7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T07",
-    13
+    14
   ],
   "yt_eval": [
     "e4417060-00bb-32ff-ad6f-83baaab2d6ab",
