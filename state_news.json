@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e0315d52f883ecee": 1790495439.611372,
     "19cad41b6e51e040": 1790495414.5314398,
     "de8b490f54f795a2": 1790495389.2367327,
     "b691f6576099b351": 1790474840.5595353,
@@ -2498,8 +2499,7 @@
     "3dd5bc002efb981b": 1789902164.1755066,
     "564c9c57adbd5fde": 1789902163.8995998,
     "50e58288a2bbfea2": 1789902163.8983378,
-    "4f69cfa2e3956f67": 1789902163.8627188,
-    "1781b3e07c9b9bd1": 1789902100.6047795
+    "4f69cfa2e3956f67": 1789902163.8627188
   },
   "initialized": true,
   "v": 4,
@@ -4381,13 +4381,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-27T02:09:37+00:00",
       "cluster": "c14c4d78331"
+    },
+    {
+      "t": "Justin Gaethje leaves toughest opponent Khabib Nurmagomedov off his MMA Mount Rushmore",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-27T03:00:00+00:00",
+      "cluster": "c5e589e33f0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T07",
-    2
+    3
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331787",
