@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1c40a88627a7c3bb": 1790516628.0266604,
     "30362204bbf80ee2": 1790516560.9616992,
     "47715070f2f12c86": 1790516535.6113708,
     "b24d4c235ab76c5e": 1790516535.3139465,
@@ -2498,8 +2499,7 @@
     "4bb30b148d7caa5e": 1789915907.0432823,
     "f29dface5ee4495a": 1789915844.192597,
     "2d8a9963a97cd4fe": 1789915843.9849489,
-    "1d621afa22d426dc": 1789915780.6335778,
-    "6cf46f1272a3045f": 1789915780.4278524
+    "1d621afa22d426dc": 1789915780.6335778
   },
   "initialized": true,
   "v": 4,
@@ -4309,13 +4309,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-27T10:14:50+00:00",
       "cluster": "cd810e60f7a"
+    },
+    {
+      "t": "UFC Fight Night 289 Promotional Guidelines Compliance pay is second-lowest of 2026",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-27T12:02:34+00:00",
+      "cluster": "c41b0eb4fa6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T13",
-    4
+    5
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Arman-Tsarukyan-is-Mauricio-Ruffys-worst-stylistic-matchup-coach-says-202818",
