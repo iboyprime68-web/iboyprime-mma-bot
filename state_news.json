@@ -1,5 +1,9 @@
 {
   "seen": {
+    "40ede76a0c831e2d": 1790472573.3468864,
+    "26db856e16896499": 1790472573.1450696,
+    "398878c8a49b22b2": 1790472573.1430585,
+    "589e9320e49a55b7": 1790472573.1121545,
     "e86ceaf15006908b": 1790472507.3927054,
     "ad16ce6ee1ac44b8": 1790472440.5890374,
     "f022688c92323811": 1790472440.340971,
@@ -2495,11 +2499,7 @@
     "d72988aa6010de4e": 1789885242.0523126,
     "920bdf5318387420": 1789885175.4626398,
     "10ed9db4a6332e71": 1789885151.0850134,
-    "68e8e2fb5c27afc6": 1789885104.1585274,
-    "ab2afc23feb60e2a": 1789885039.3566954,
-    "3c6cae4b815f37d5": 1789885039.0947216,
-    "0b35cf3caa86f9fc": 1789884974.4332669,
-    "bca7fc4bc55db724": 1789884909.8890269
+    "68e8e2fb5c27afc6": 1789885104.1585274
   },
   "initialized": true,
   "v": 4,
@@ -4441,13 +4441,19 @@
       "source": "mmamania.com",
       "ts": "2026-09-27T00:55:00+00:00",
       "cluster": "c19de3943cd"
+    },
+    {
+      "t": "Mehemmedeli Osmanli DQ’d for Illegal Knee, Ilimbek Akylbek Wins TUF 34",
+      "source": "Cageside Press",
+      "ts": "2026-09-27T01:01:27+00:00",
+      "cluster": "cca571ccbf1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T01",
-    17
+    18
   ],
   "yt_eval": [
     "CBMi1AFBVV95cUxPdm1xUHVDSXRKSTlfMmhuV3NEQWl6SEN6ekNOTlhaZzdMNlJETHJqdi1fdktaNlJsQUp2V3dZQjdTS2hFVWpYdnNhcUM4dmFpU1AtVzIwalhHY1I2WjZteUFkbGtOT0Yzd1pkMWJGYk1yOWlINWtCV3hkTGhTYngyZlJYR3JkZmFlTnNOaXdMYllYNGZueUZ3QzBjRzl4Skw5ejRJU2JQQkd0cGVTY1hWY0p4Z2FoUzBmbTlPcEozclhiS21kQmx0Vi1jU2tYMHNuSFhaUtIB1AFBVV95cUxPNjJqRnZ3VHQzTXBsYXl5WWdjdjZfUS1TQ1BFSG82czh6elMxelhfYVRMTEx2V0NnZHBEZEF2cWNaY1VITy16bWhmaWxDY2RVZ3BLMTI1RVJ1cmluSjFoMzFoWFhTalhDZ3c2QUk0MXB4a2xDeFdCSWhzd1cyVVlGekRKbG40S0JqbUs2ZENDMWNUQlRlaUVqZUc4ZUU3TWJieXo4M1JMdEpLRFpDQjlYUmdMbEY1WFJnX19OTlE3bjJIODg0T1FxazMzcXpnTVNtbkgtUg",
