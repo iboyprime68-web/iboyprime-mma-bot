@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b82553150e74d391": 1790474706.523067,
     "6cc0e80543015599": 1790474640.5227308,
     "c480d290e2a7f7ba": 1790474640.3432324,
     "ae0bbfd69681c8a6": 1790474574.6618679,
@@ -2498,8 +2499,7 @@
     "dda869ba36df553c": 1789902100.3223946,
     "5e9659f77a965c0b": 1789902100.3137214,
     "e18db7ba7766514f": 1789902037.538225,
-    "a5a33fb0cb3b0c81": 1789902037.248904,
-    "5d6ac1f831193154": 1789902037.2403648
+    "a5a33fb0cb3b0c81": 1789902037.248904
   },
   "initialized": true,
   "v": 4,
@@ -4543,13 +4543,19 @@
       "source": "Sherdog",
       "ts": "2026-09-27T01:57:05+00:00",
       "cluster": "cea23aeb55e"
+    },
+    {
+      "t": "Grudge Match Fizzles, Ailin Perez and Norma Dumont Still Heated Following UFC Vegas 121",
+      "source": "Cageside Press",
+      "ts": "2026-09-27T01:58:48+00:00",
+      "cluster": "c287371f49e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T02",
-    3
+    4
   ],
   "yt_eval": [
     "CBMiywFBVV95cUxNdFdldEFEbmZsNng1UjFxVTFBb0F6U0FlNU1OaWxvaExqWXdYb3licEJFWWxKLWFlV1l2SzJ0VkU4NnU4Ykplajc0RFdxVmNJN3FSSW9xTklDNUFRSk5hblc0QzZOdmRleEt5a1JkS3RJb0N5WGpodW1BM3JETHNzc2ZTOUpCdUF5UTRZWEFSSC1md256dGpqRE5mWVpRWTdQZ1htYXhoOWhyeXAzaFZ5cTFkdjI4V3JFSS1oRnYtUTJCZFV0QlRiNWdnQQ",
