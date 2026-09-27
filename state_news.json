@@ -1,5 +1,13 @@
 {
   "seen": {
+    "abdb022b3ef6c09b": 1790472639.312033,
+    "fc7e8e3878740c08": 1790472639.065656,
+    "ff9c46168280dd02": 1790472639.0576375,
+    "370cb77005e1b645": 1790472639.0480492,
+    "0cb79dea4062bed3": 1790472639.0401683,
+    "8ae77fe18563f992": 1790472639.0379372,
+    "305f65ce23cbfbcd": 1790472639.0288384,
+    "9bbd9cefb9024e75": 1790472639.0261834,
     "40ede76a0c831e2d": 1790472573.3468864,
     "26db856e16896499": 1790472573.1450696,
     "398878c8a49b22b2": 1790472573.1430585,
@@ -2491,15 +2499,7 @@
     "53e661cd8905f86f": 1789885504.7731082,
     "c1fdbcb6b43304bc": 1789885504.7690816,
     "6ccd305a235094be": 1789885461.1787434,
-    "dd4c2348ff56da7c": 1789885459.8859818,
-    "4b0ff7302d081d70": 1789885459.8507543,
-    "e56328600b397001": 1789885436.4584935,
-    "8228f7a14a50673c": 1789885371.169117,
-    "7b5d715f4d3d1db7": 1789885306.4610224,
-    "d72988aa6010de4e": 1789885242.0523126,
-    "920bdf5318387420": 1789885175.4626398,
-    "10ed9db4a6332e71": 1789885151.0850134,
-    "68e8e2fb5c27afc6": 1789885104.1585274
+    "dd4c2348ff56da7c": 1789885459.8859818
   },
   "initialized": true,
   "v": 4,
@@ -4447,13 +4447,19 @@
       "source": "Cageside Press",
       "ts": "2026-09-27T01:01:27+00:00",
       "cluster": "cca571ccbf1"
+    },
+    {
+      "t": "UFC Vegas 121 Highlights! Black Crowned TUF Champ, Illegal Knee Spoils Men’s Finale",
+      "source": "mmamania.com",
+      "ts": "2026-09-27T01:09:00+00:00",
+      "cluster": "ce8aa0acb59"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T01",
-    18
+    19
   ],
   "yt_eval": [
     "CBMigwFBVV95cUxQenNnN0tFQlFhOGEzWURYUzU3b05HWXY1bmhmTVhnTVZsd3VMUnJVWkRrYWZOdF9PX1pyd2dIM0huWWRLNFptaGJtdzVvdlZwMzNHMWI5TTM0MDJ5aWd0T3ozZ19SaUltUVlWcUNPU3dJdTFqWWQ2SjQxYWhPT3FTR01tcw",
