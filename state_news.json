@@ -1,5 +1,6 @@
 {
   "seen": {
+    "010433a5dacdcf31": 1790496345.469886,
     "140d587ae4144253": 1790496299.7408147,
     "d46e19d5116ab6fc": 1790496299.4401665,
     "7c587eae05e50f29": 1790496299.438404,
@@ -2498,8 +2499,7 @@
     "f1d865959ff1ebf8": 1789915095.9620473,
     "1507ddabaf9c6d1e": 1789915073.7030637,
     "62a2bcd36b0991e3": 1789915073.3732953,
-    "124008d511e08b36": 1789915050.7061305,
-    "a088e4b4292fafcd": 1789915028.4165823
+    "124008d511e08b36": 1789915050.7061305
   },
   "initialized": true,
   "v": 4,
@@ -4483,13 +4483,19 @@
       "source": "The Daily News | Texas' Oldest Newspaper",
       "ts": "2026-09-27T07:49:44+00:00",
       "cluster": "c25561ac3c4"
+    },
+    {
+      "t": "UFC Vegas 121 results: Sooo … About last night &#124; Rosas Jr. vs. Barcelos",
+      "source": "MMA Mania",
+      "ts": "2026-09-27T07:34:01+00:00",
+      "cluster": "c01c9b96ca9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T08",
-    5
+    6
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Renato-Moicano-rips-Brian-Ortega-for-UFC-331-withdrawal-202815",
