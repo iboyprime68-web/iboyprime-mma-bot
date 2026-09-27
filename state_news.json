@@ -1,5 +1,6 @@
 {
   "seen": {
+    "80daad5c016b1e13": 1790517166.4160514,
     "926b2fb5fd57dc42": 1790517099.257835,
     "aa6833bc1b7f73a2": 1790517033.3868344,
     "2413d204452e4a4e": 1790516966.9956179,
@@ -2498,8 +2499,7 @@
     "d691fa8031ddf2bb": 1789916850.1576762,
     "9ec4afb39dc07519": 1789916849.6997886,
     "3ee4ccd8ac63c29e": 1789916849.697869,
-    "baadadab2d5aacbe": 1789916663.6014163,
-    "005159abeb3a80ef": 1789916663.5667307
+    "baadadab2d5aacbe": 1789916663.6014163
   },
   "initialized": true,
   "v": 4,
@@ -4351,13 +4351,19 @@
       "source": "boxingnews.com",
       "ts": "2026-09-27T13:30:51+00:00",
       "cluster": "c83824d5351"
+    },
+    {
+      "t": "Was the cop’s choke of the criminal UFC Fight Night 289's best finish?",
+      "source": "MMA Junkie",
+      "ts": "2026-09-27T13:39:00+00:00",
+      "cluster": "ce660f5746c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T13",
-    13
+    14
   ],
   "yt_eval": [
     "4e8ebcee-8a4c-3a19-a52d-8da6a91b4be8",
