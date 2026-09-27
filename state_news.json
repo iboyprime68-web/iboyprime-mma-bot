@@ -1,5 +1,7 @@
 {
   "seen": {
+    "3d1cacfe9bee6bc0": 1790533320.0375438,
+    "b8a3c72e31358406": 1790533319.7217984,
     "9294040c71b0315b": 1790533255.8384085,
     "af7f68c88e1c4d07": 1790533255.5298543,
     "1ae2cb0b486fb574": 1790533255.522402,
@@ -2497,9 +2499,7 @@
     "93cb8909b4de0576": 1789928760.9989007,
     "d25368924f71ee2a": 1789928696.667425,
     "7a086eba801118dd": 1789928632.128279,
-    "fd01883e3eec4d03": 1789928567.7514844,
-    "bbc8c87a4daa3222": 1789928502.5352166,
-    "cfdedade9861c1c1": 1789928438.2237346
+    "fd01883e3eec4d03": 1789928567.7514844
   },
   "initialized": true,
   "v": 4,
@@ -4327,13 +4327,19 @@
       "source": "MMAWeekly.com",
       "ts": "2026-09-27T17:45:00+00:00",
       "cluster": "c62f47e38c7"
+    },
+    {
+      "t": "Raoni Barcelos: UFC star's coach issues medical update after fighter stretchered out of arena",
+      "source": "GB News",
+      "ts": "2026-09-27T17:48:45+00:00",
+      "cluster": "c6d137675cd"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T18",
-    17
+    18
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331808",
