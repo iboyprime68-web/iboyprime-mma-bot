@@ -1,5 +1,7 @@
 {
   "seen": {
+    "86bf90e1199a3dca": 1790474507.9613924,
+    "a34279b3cbd7a687": 1790474505.5521991,
     "71ee1e41f987fb7a": 1790474442.0653567,
     "2d0cbc9f470a684b": 1790474376.687539,
     "26d073ab25dda46a": 1790474248.1612403,
@@ -2497,9 +2499,7 @@
     "54a17ccbb10bc27a": 1789902037.2391007,
     "825872b9ed725660": 1789902037.20234,
     "27cbf1f04311883d": 1789902014.3024309,
-    "123ee20ad8815e41": 1789901992.4710257,
-    "661cd27f12d20cd2": 1789901970.5184193,
-    "0fd706c87bcf2691": 1789901947.9831831
+    "123ee20ad8815e41": 1789901992.4710257
   },
   "initialized": true,
   "v": 4,
@@ -4525,13 +4525,19 @@
       "source": "news.ssbcrack.com",
       "ts": "2026-09-27T01:56:49+00:00",
       "cluster": "ca96df03ee1"
+    },
+    {
+      "t": "UFC Fight Night: Rosas Jr. vs. Barcelos Live Fight Coverage",
+      "source": "ESPN",
+      "ts": "2026-09-27T01:36:50+00:00",
+      "cluster": "c9185cac0f6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T02",
-    0
+    1
   ],
   "yt_eval": [
     "CBMixgFBVV95cUxNaHB2bUNRU1Z4Z1pWdG1aaUF0Z0hacGFKZF9hZjVzTlRZaFFpRWJVakNOcl9fdG95b0lNVnVWZk9oQjRkYno5NGRIZHVEZGk5M1FiNmdOQy0xLURuclhvM3lnZTZ1bUFPUXFDMDFvNHppTDZvUGljX0JxV1pvM0l1b3FTX3lmVm5zMWNFMm14RlJWc0FiNzRDMVA4elVBdkI3OUdha0h4NjNuVUJ2cTg0eEEtREVkUXp6WXhqVmliMnhzdkdTM0E",
