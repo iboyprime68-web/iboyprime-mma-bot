@@ -1,5 +1,7 @@
 {
   "seen": {
+    "b8a13fdc7b727309": 1790495968.046246,
+    "d94bde854e6326bd": 1790495967.7904162,
     "f11c22d894d4fe6c": 1790495898.5684316,
     "3191c59a4b5ca121": 1790495832.0487747,
     "003857a1a42e6fae": 1790495831.807564,
@@ -2497,9 +2499,7 @@
     "540087dba9588d47": 1789903783.111239,
     "db07f18a1b4b4a48": 1789903493.7748096,
     "363da9c082aefaaa": 1789903471.0022457,
-    "777c99e2e0873cd6": 1789903366.9546773,
-    "036e3becaf3406e6": 1789903242.1221082,
-    "2f47e1b6a7b3c3dc": 1789903157.6914375
+    "777c99e2e0873cd6": 1789903366.9546773
   },
   "initialized": true,
   "v": 4,
@@ -4459,13 +4459,19 @@
       "source": "dailycaller.com",
       "ts": "2026-09-27T07:13:00+00:00",
       "cluster": "c38f88f36f7"
+    },
+    {
+      "t": "Spokane UFC bantamweight Brady Hiestand earns submission win over Rinya Nakamura in first fight in two years",
+      "source": "KREM",
+      "ts": "2026-09-27T07:16:00+00:00",
+      "cluster": "c1b4ecc200f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T07",
-    16
+    17
   ],
   "yt_eval": [
     "https://www.mmamania.com/472646/mm-clone",
