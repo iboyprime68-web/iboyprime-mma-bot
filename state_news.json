@@ -1,5 +1,6 @@
 {
   "seen": {
+    "30ca48e974d3ef0e": 1790516510.9548404,
     "2c59c7e6de542c2f": 1790516486.0579746,
     "315e7d8d5c1a4de3": 1790516484.5385723,
     "334b696c10dbb9d5": 1790498256.2703881,
@@ -2498,8 +2499,7 @@
     "d0e886da4b934a4c": 1789915780.4198718,
     "c13b22530bb08b45": 1789915780.3863466,
     "f828a23b83aa9eab": 1789915780.3847432,
-    "133c823bcff4f55c": 1789915717.5198734,
-    "45232ba57955557c": 1789915653.8176174
+    "133c823bcff4f55c": 1789915717.5198734
   },
   "initialized": true,
   "v": 4,
@@ -4297,13 +4297,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-27T10:00:00+00:00",
       "cluster": "c698103e5d5"
+    },
+    {
+      "t": "Watch Brock Lesnar lookalike get KO’d in his first loss at 60,000 stadium show",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-27T11:00:00+00:00",
+      "cluster": "cff10bc36af"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T13",
-    1
+    2
   ],
   "yt_eval": [
     "CBMihgFBVV95cUxOd25Kc2RrTlJWd3ZzMWtSMTdlSG11VHY0RzFUNmdDRkFhMUlJRWZpbDZQeGcwRW16dXIzMkJFNWlucllVQ2d0QW1hZWdEV1U1cExmejhCWG1QdkJrRVNwZkh2UEwxNHUzZ1BLaU9rRi1vNklES3lWQ2M5ckl1UHNSekVLa3J4Zw",
