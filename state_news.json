@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c1242fbe7bc2d6d7": 1790546149.6029675,
     "41e4b9954e8ecf2a": 1790546127.532855,
     "5eff4df17fd1fe96": 1790535852.6874275,
     "6c49ca3aab327fbb": 1790535726.1157455,
@@ -2498,8 +2499,7 @@
     "746d1667ff694d11": 1789939709.1266096,
     "b2d6c51aa74679d9": 1789939708.8940325,
     "b34cd0505d9eda72": 1789939645.318037,
-    "f14b848d77d68153": 1789939581.6798198,
-    "f2a61f06aa16722d": 1789939518.2418516
+    "f14b848d77d68153": 1789939581.6798198
   },
   "initialized": true,
   "v": 4,
@@ -4213,13 +4213,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-27T09:35:52+00:00",
       "cluster": "c9928f8d4ac"
+    },
+    {
+      "t": "Mailbag: Banning oblique kicks would be extremely silly",
+      "source": "MMA Fighting",
+      "ts": "2026-09-27T19:33:28+00:00",
+      "cluster": "cebff2b4374"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T21",
-    1
+    2
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331808",
