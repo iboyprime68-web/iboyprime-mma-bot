@@ -1,5 +1,7 @@
 {
   "seen": {
+    "ae0bbfd69681c8a6": 1790474574.6618679,
+    "1658ee3fda7f89aa": 1790474574.3138366,
     "86bf90e1199a3dca": 1790474507.9613924,
     "a34279b3cbd7a687": 1790474505.5521991,
     "71ee1e41f987fb7a": 1790474442.0653567,
@@ -2497,9 +2499,7 @@
     "a5a33fb0cb3b0c81": 1789902037.248904,
     "5d6ac1f831193154": 1789902037.2403648,
     "54a17ccbb10bc27a": 1789902037.2391007,
-    "825872b9ed725660": 1789902037.20234,
-    "27cbf1f04311883d": 1789902014.3024309,
-    "123ee20ad8815e41": 1789901992.4710257
+    "825872b9ed725660": 1789902037.20234
   },
   "initialized": true,
   "v": 4,
@@ -4531,13 +4531,19 @@
       "source": "ESPN",
       "ts": "2026-09-27T01:36:50+00:00",
       "cluster": "c9185cac0f6"
+    },
+    {
+      "t": "Dana White goes ballistic on Eddie Hearn",
+      "source": "MMAWeekly.com",
+      "ts": "2026-09-27T01:56:00+00:00",
+      "cluster": "c3049b66cf6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T02",
-    1
+    2
   ],
   "yt_eval": [
     "CBMiR0FVX3lxTE5UOXl3c1BQanE3OExidUZZYzFfN3BKTTZXNGUxUXJHSEFSQVlYV3RpaE5oM2FKWTI5NGlmQkNOZUprd0tCNUpZ",
