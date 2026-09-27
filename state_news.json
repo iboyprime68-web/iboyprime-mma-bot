@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5eff4df17fd1fe96": 1790535852.6874275,
     "6c49ca3aab327fbb": 1790535726.1157455,
     "c0d02078d1015106": 1790535640.9260275,
     "e6cfe30901578e5d": 1790535618.3134756,
@@ -2498,8 +2499,7 @@
     "b34cd0505d9eda72": 1789939645.318037,
     "f14b848d77d68153": 1789939581.6798198,
     "f2a61f06aa16722d": 1789939518.2418516,
-    "7d97b2e4f9dbae67": 1789939454.7799203,
-    "36623e8b3e458093": 1789939454.5069475
+    "7d97b2e4f9dbae67": 1789939454.7799203
   },
   "initialized": true,
   "v": 4,
@@ -4327,13 +4327,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-27T04:03:37+00:00",
       "cluster": "c1475b0ec5b"
+    },
+    {
+      "t": "Miami Police Officer Turned UFC Fighter Defeats Convicted Felon in Debut",
+      "source": "Wide Open Country",
+      "ts": "2026-09-27T19:00:00+00:00",
+      "cluster": "cf589469991"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T19",
-    2
+    3
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331808",
