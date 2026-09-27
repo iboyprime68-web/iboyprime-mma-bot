@@ -1,5 +1,9 @@
 {
   "seen": {
+    "0aa924899427d5fc": 1790472975.0871592,
+    "35f059e2f9cb7439": 1790472974.8416784,
+    "bdcf8acce94f25b3": 1790472974.8100927,
+    "d71c5b7641d9fdd3": 1790472974.8083625,
     "15c094d447b21b7f": 1790472908.4206028,
     "e22663910c600810": 1790472908.137863,
     "c0845625c063001b": 1790472908.136177,
@@ -2495,11 +2499,7 @@
     "d108e691e47145f4": 1789886091.3061745,
     "5f7bdcd5e23f9b44": 1789886067.96359,
     "3dd298bd084d0c69": 1789886023.5912592,
-    "21e2b0c4ddcd26dd": 1789886022.8861477,
-    "a18a19a27bf21033": 1789885958.7682602,
-    "1d6e7f37b6c4ec48": 1789885958.4241698,
-    "707c28a813671b85": 1789885893.9008508,
-    "7dc83bc88637e68f": 1789885829.5225866
+    "21e2b0c4ddcd26dd": 1789886022.8861477
   },
   "initialized": true,
   "v": 4,
@@ -4483,13 +4483,19 @@
       "source": "news.ssbcrack.com",
       "ts": "2026-09-27T01:21:48+00:00",
       "cluster": "ce9cebb819d"
+    },
+    {
+      "t": "UFC Vegas 121: Final Faceoffs and Fight Preview for Dumas vs. Hernandez",
+      "source": "news.ssbcrack.com",
+      "ts": "2026-09-27T01:26:57+00:00",
+      "cluster": "c793e305e7b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T01",
-    24
+    25
   ],
   "yt_eval": [
     "CBMiuAFBVV95cUxOUGVDMmc1Sko4QUlKeDRPTGxNeS1MZnk4MDZwN1BxUzVmZ2hWcWZhS2haUF9jUlV1YTlCUUNrN1N3RWwwcER3WjFPU0xXYWx6a1I3VmZ0UHhIOGZoTWZVcUo2T1lRM19Cd3dyMGFZY1FoM1Rka3BPTVZWQ253ODdyeFI0ZHhQTWpNcV9HN2R3amVUWmxMdkRoNjJ6N3U1QmpfNk9JVjdFZmNVRVpxMDBjZVozSHNEN1R6",
