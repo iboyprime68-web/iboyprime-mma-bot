@@ -1,5 +1,8 @@
 {
   "seen": {
+    "140d587ae4144253": 1790496299.7408147,
+    "d46e19d5116ab6fc": 1790496299.4401665,
+    "7c587eae05e50f29": 1790496299.438404,
     "22a85a2f05ef1eee": 1790496234.3558419,
     "f0fe19fc7964cf56": 1790496167.9851031,
     "049479b399400b1d": 1790496167.8094795,
@@ -2496,10 +2499,7 @@
     "1507ddabaf9c6d1e": 1789915073.7030637,
     "62a2bcd36b0991e3": 1789915073.3732953,
     "124008d511e08b36": 1789915050.7061305,
-    "a088e4b4292fafcd": 1789915028.4165823,
-    "cb4ed31c7ea39f07": 1789915005.9726121,
-    "eb4e16da87cf8093": 1789905110.0739095,
-    "f834c1ceec4a6bc2": 1789905047.1322622
+    "a088e4b4292fafcd": 1789915028.4165823
   },
   "initialized": true,
   "v": 4,
@@ -4477,13 +4477,19 @@
       "source": "Sportskeeda",
       "ts": "2026-09-27T07:33:00+00:00",
       "cluster": "ccd60459a0a"
+    },
+    {
+      "t": "Raoni Barcelos KO UFC Fight Night 289",
+      "source": "The Daily News | Texas' Oldest Newspaper",
+      "ts": "2026-09-27T07:49:44+00:00",
+      "cluster": "c25561ac3c4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T08",
-    4
+    5
   ],
   "yt_eval": [
     "CBMiowFBVV95cUxOeTdCNDV6dmZwbTVtdUJYeHF6dUlFYm1BQ0p5SElKZ1NKd1JUVGhEenZaZVBmZU50aVNaemJ2Nmh2TklIaEVZbVB2M3dkWHpEUFR5NGRSbXVpRE5la0xGOWNiajZGc3d4cXktRF9YQzEyeHFyZ0FGRVJmdHZFMGVIZmc1am5SWDU1UVJybWtNU0FCdzhRWmxmblRCREZMWUJMUkdZ",
