@@ -1,5 +1,7 @@
 {
   "seen": {
+    "ca791729ccb93ffd": 1790532641.0695496,
+    "cd0a8e3a593c5d7e": 1790532640.735898,
     "76b7857135c4df37": 1790532614.9169924,
     "195aa64f983654b7": 1790532589.7126966,
     "bb319c4113ed2611": 1790532559.55673,
@@ -2497,9 +2499,7 @@
     "72e64204171a7b01": 1789927853.13473,
     "5a56ce704f456dce": 1789927853.1252332,
     "f37b712698dcc4e5": 1789927853.0908303,
-    "a2b66a1d11dfd880": 1789927853.0876765,
-    "9c5bf101f9eaa1b6": 1789927809.6612678,
-    "6c1db3ac9004caa3": 1789927786.6989412
+    "a2b66a1d11dfd880": 1789927853.0876765
   },
   "initialized": true,
   "v": 4,
@@ -4261,13 +4261,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-27T15:00:00+00:00",
       "cluster": "c2ff62b0b35"
+    },
+    {
+      "t": "UFC Issues Statement on Health Condition of Raoni Barcelos",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-27T14:54:48+00:00",
+      "cluster": "cabef4d7436"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T18",
-    3
+    4
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Dade-County-police-officer-stays-perfect-earns-UFC-contract-on-DWCS-202826",
