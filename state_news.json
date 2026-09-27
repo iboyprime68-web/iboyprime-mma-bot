@@ -1,5 +1,9 @@
 {
   "seen": {
+    "d1982174cfbefa09": 1790471592.7830024,
+    "75a1289a65b3bf0c": 1790471592.4332988,
+    "57a4248f201472fd": 1790471592.4299777,
+    "bb4028a4dd04c151": 1790471592.4266763,
     "90e22b34d90d9030": 1790471567.7549791,
     "b1a7a61123d95758": 1790471566.975786,
     "6c7dfcce85037021": 1790471566.9745307,
@@ -2495,11 +2499,7 @@
     "9702da66e509bc3d": 1789884182.9736958,
     "6b010fad8e9f294c": 1789884159.3443635,
     "fddbf6fb63e20bc3": 1789884131.7988582,
-    "0d06418a67e8c806": 1789884131.530015,
-    "0c57200bd7612061": 1789884108.4076087,
-    "daf52fdd3bdebe31": 1789884107.9278564,
-    "33e02f3be0c92477": 1789884084.0172157,
-    "508c560b5dd4b54c": 1789884060.2169173
+    "0d06418a67e8c806": 1789884131.530015
   },
   "initialized": true,
   "v": 4,
@@ -4357,13 +4357,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-27T00:06:22+00:00",
       "cluster": "cf834d78e7a"
+    },
+    {
+      "t": "UFC Vegas 121 video: Mehemmedeli Osmanli disqualified after brutal illegal knee knocks out Ilimbek Akylbeck Uulu",
+      "source": "MMA Fighting",
+      "ts": "2026-09-27T01:12:08+00:00",
+      "cluster": "cb30a2cf329"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T01",
-    1
+    2
   ],
   "yt_eval": [
     "CBMiggFBVV95cUxNdDczaXRZWVp1R2QxT2hLdFVxaDVPb2wtbXBGZkN4N2JELW52OVI0YTJQRlFIRmZhdUxJUGVwWExzRHBxeGlwUkZNQ212OUdyTlhfeXA0VksyZDJpRGRPVXA0dm0xZDRrTFdsRmR0UVJ4T1g4MWxpa3hsMTkyRjJiYk1n",
