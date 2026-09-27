@@ -1,5 +1,7 @@
 {
   "seen": {
+    "d501f0c09a535aa8": 1790517299.6600277,
+    "5d10fd4fc6b04862": 1790517299.1755362,
     "79f29ac9174b77bd": 1790517233.685253,
     "80daad5c016b1e13": 1790517166.4160514,
     "926b2fb5fd57dc42": 1790517099.257835,
@@ -2497,9 +2499,7 @@
     "304194e107dcfe81": 1789917040.7655904,
     "99879e21eefd5c61": 1789916977.6170702,
     "773230710c7296fa": 1789916913.64278,
-    "d691fa8031ddf2bb": 1789916850.1576762,
-    "9ec4afb39dc07519": 1789916849.6997886,
-    "3ee4ccd8ac63c29e": 1789916849.697869
+    "d691fa8031ddf2bb": 1789916850.1576762
   },
   "initialized": true,
   "v": 4,
@@ -4357,13 +4357,19 @@
       "source": "heavy.com",
       "ts": "2026-09-27T13:43:34+00:00",
       "cluster": "ce134268a35"
+    },
+    {
+      "t": "UFC issues worrying health update after fighter goes limp and collapses unconscious during fight",
+      "source": "The Times of India",
+      "ts": "2026-09-27T13:48:00+00:00",
+      "cluster": "c7deac8b495"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T13",
-    15
+    16
   ],
   "yt_eval": [
     "cb5c7080-c5ae-33ca-89d1-4dc319cf36d4",
