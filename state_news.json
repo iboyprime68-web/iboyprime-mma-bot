@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c7917fa5fa59cc0c": 1790474773.2171197,
     "b82553150e74d391": 1790474706.523067,
     "6cc0e80543015599": 1790474640.5227308,
     "c480d290e2a7f7ba": 1790474640.3432324,
@@ -2498,8 +2499,7 @@
     "1781b3e07c9b9bd1": 1789902100.6047795,
     "dda869ba36df553c": 1789902100.3223946,
     "5e9659f77a965c0b": 1789902100.3137214,
-    "e18db7ba7766514f": 1789902037.538225,
-    "a5a33fb0cb3b0c81": 1789902037.248904
+    "e18db7ba7766514f": 1789902037.538225
   },
   "initialized": true,
   "v": 4,
@@ -4549,13 +4549,19 @@
       "source": "Cageside Press",
       "ts": "2026-09-27T01:58:48+00:00",
       "cluster": "c287371f49e"
+    },
+    {
+      "t": "UFC Cops vs Robbers - A Miami Deputy Sheriff Just Choked Out A Fighter Who Has Been Arrested 15 Times",
+      "source": "Barstool Sports",
+      "ts": "2026-09-27T01:59:05+00:00",
+      "cluster": "c3b19e65a6a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T02",
-    4
+    5
   ],
   "yt_eval": [
     "bcc7f099-8123-351c-b87d-15084f29ec96",
@@ -6931,22 +6937,10 @@
     "d5247156aa7295d1": 1790430182.7939303,
     "33acd6db9eecea88": 1790442208.247763,
     "8e33eb9a1436c6df": 1790452848.5511155,
-    "f12e2a5de79b0041": 1790462011.9259903
+    "f12e2a5de79b0041": 1790462011.9259903,
+    "c7917fa5fa59cc0c": 1790474772.9999394
   },
   "pinged_titles": [
-    [
-      "Justin Gaethje says it's Arman Tsarukyan or retirement next",
-      1790442208.247763,
-      [
-        "gaethje",
-        "tsarukyan"
-      ]
-    ],
-    [
-      "UFC Vegas 121 star happy to finally get her hands on bitter rival ‘without getting arrested’",
-      1790452848.5511155,
-      []
-    ],
     [
       "Jorge Masvidal is convinced Amanda Nunes only made retirement U-turn for two reasons ahead of UFC comeback",
       1790462011.9259903,
@@ -6954,6 +6948,13 @@
         "masvidal",
         "nunes",
         "u-turn"
+      ]
+    ],
+    [
+      "UFC Cops vs Robbers - A Miami Deputy Sheriff Just Choked Out A Fighter Who Has Been Arrested 15 Times",
+      1790474772.9999394,
+      [
+        "sheriff"
       ]
     ]
   ]
