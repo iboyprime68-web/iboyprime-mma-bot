@@ -1,5 +1,8 @@
 {
   "seen": {
+    "096e5de02c2ac112": 1790495691.0389144,
+    "2553d5149141e363": 1790495688.0455065,
+    "4cdacdffe6515945": 1790495688.0085688,
     "371bee725720838f": 1790495665.218804,
     "c9d71a6835b2beab": 1790495640.906684,
     "8db9b09da142bbcd": 1790495616.202156,
@@ -2496,10 +2499,7 @@
     "a3cbafe9d02ef638": 1789902930.0236406,
     "49ee451dab86d10b": 1789902867.1657507,
     "8e49129bf4185240": 1789902866.7452042,
-    "7c7d8eba4ba381a4": 1789902866.7368624,
-    "619283b2c1dde587": 1789902866.733204,
-    "ee47cce6d20571f7": 1789902866.698512,
-    "0f670e9be8fc89e4": 1789902844.070638
+    "7c7d8eba4ba381a4": 1789902866.7368624
   },
   "initialized": true,
   "v": 4,
@@ -4429,13 +4429,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-27T05:18:18+00:00",
       "cluster": "ce4a627c0dc"
+    },
+    {
+      "t": "UFC Vegas 121 Bonuses Revealed After Upset-Filled Card",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-27T06:14:04+00:00",
+      "cluster": "ca4674135bd"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T07",
-    11
+    12
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Dana-White-hails-greatest-talent-in-DWCS-history-after-19second-KO-202813",
