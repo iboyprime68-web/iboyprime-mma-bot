@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9cfab964d6017618": 1790516761.0246205,
     "d5013aa1d894fd36": 1790516694.099731,
     "1c40a88627a7c3bb": 1790516628.0266604,
     "30362204bbf80ee2": 1790516560.9616992,
@@ -2498,8 +2499,7 @@
     "e59ae5f67c506a1c": 1789915971.52278,
     "9c57c5fe23fd319e": 1789915907.528305,
     "4bb30b148d7caa5e": 1789915907.0432823,
-    "f29dface5ee4495a": 1789915844.192597,
-    "2d8a9963a97cd4fe": 1789915843.9849489
+    "f29dface5ee4495a": 1789915844.192597
   },
   "initialized": true,
   "v": 4,
@@ -4321,13 +4321,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-27T12:29:18+00:00",
       "cluster": "c29904558dd"
+    },
+    {
+      "t": "UFC Vegas 121 Compliance Pay Totals $151,000, Second-Lowest UFC Payout Of 2026",
+      "source": "MiddleEasy",
+      "ts": "2026-09-27T12:47:59+00:00",
+      "cluster": "c2eb7633e52"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T13",
-    6
+    7
   ],
   "yt_eval": [
     "CBMiywFBVV95cUxOVEgxNExzdXh1X19mRjlyeGV2aHFzR0lGbUtjbW9weE1Edm92ZktiTk9fdlBaS1hxY1ZNRm9aUEU3VFJrNGQwTEZXdDVsNkY4WXJvQ1JMdV9VRzNlT1llcTJDSkl3d2dkbUFDVkg0bEJfX0xkZlNvTGktYmFNVEZfc2xuR0FSN1BjOGxuX3RUc3ZhSEJieXdFOUZUNmlJajNmaW9LTEI0dGZPY2FHTTd5TDdKRC1VbVRDcTc2ZHpSd3JqMlpGaHpRTHpaUQ",
