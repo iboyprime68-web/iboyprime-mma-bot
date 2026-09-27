@@ -1,5 +1,8 @@
 {
   "seen": {
+    "f7a0e8aaa71186f3": 1790532718.6150424,
+    "99fd9cef90ed05fe": 1790532718.3010132,
+    "c96652cfde3a2263": 1790532718.2966843,
     "1eea2591423fff78": 1790532692.084046,
     "0a67de16c5d1f0ec": 1790532666.7497253,
     "ca791729ccb93ffd": 1790532641.0695496,
@@ -2496,10 +2499,7 @@
     "fbd5c0ea796b028b": 1789927985.512598,
     "1be6e9c65de6d0ee": 1789927985.5049784,
     "03cdc1fc3192f85e": 1789927941.6847444,
-    "97dd396003cb790b": 1789927918.587806,
-    "e46521b698953168": 1789927853.4487004,
-    "72e64204171a7b01": 1789927853.13473,
-    "5a56ce704f456dce": 1789927853.1252332
+    "97dd396003cb790b": 1789927918.587806
   },
   "initialized": true,
   "v": 4,
@@ -4273,13 +4273,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-27T17:00:00+00:00",
       "cluster": "c43d77828a7"
+    },
+    {
+      "t": "UFC newcomer Luis Hernandez aims to make history on the scale",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-27T15:20:26+00:00",
+      "cluster": "cb291ed3cfd"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T18",
-    6
+    7
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Report-Adrian-Yanez-draws-surging-neverfinished-opponent-for-UFC-334-202827",
