@@ -1,5 +1,7 @@
 {
   "seen": {
+    "f0fe19fc7964cf56": 1790496167.9851031,
+    "049479b399400b1d": 1790496167.8094795,
     "e72f31d479319d32": 1790496101.3436584,
     "e60ce5a5cf44a7ff": 1790496100.6339326,
     "bcd3d47bd76e69d0": 1790496100.631719,
@@ -2497,9 +2499,7 @@
     "cb4ed31c7ea39f07": 1789915005.9726121,
     "eb4e16da87cf8093": 1789905110.0739095,
     "f834c1ceec4a6bc2": 1789905047.1322622,
-    "5ee0ff4b12f10ecb": 1789904490.2615469,
-    "3ae640f152d91a3c": 1789904405.9385147,
-    "c03b63e91924f96b": 1789904240.4504282
+    "5ee0ff4b12f10ecb": 1789904490.2615469
   },
   "initialized": true,
   "v": 4,
@@ -2521,12 +2521,6 @@
       "source": "MiddleEasy",
       "ts": "2026-09-25T08:10:37+00:00",
       "cluster": "cf24f7e983b"
-    },
-    {
-      "t": "Surprising Short-Notice Welterweight Bout Added to UFC 332",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-25T08:01:46+00:00",
-      "cluster": "c5c69a3775c"
     },
     {
       "t": "Colby Covington warns Gable Steveson that there is only one thing that ‘terrible’ Jon Jones ‘cares about’",
@@ -4471,13 +4465,19 @@
       "source": "ESPN",
       "ts": "2026-09-27T07:27:10+00:00",
       "cluster": "c89ce869263"
+    },
+    {
+      "t": "Rosas Defeats Barcelos in Main Event at UFC Fight Night 289, Brazilian Carried Out on Stretcher",
+      "source": "Telecom Asia Sport",
+      "ts": "2026-09-27T07:32:54+00:00",
+      "cluster": "c439b2980a8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T08",
-    2
+    3
   ],
   "yt_eval": [
     "CBMilAFBVV95cUxPZkMyYjdsZHVJaTRFMGdBaFJhRnRoTFc3TTNTeFlDa3FVZUhrRm9lRExraU9jMHlKVGx2MjJ3RW0zeVltM19KZmRMdURGQnE0VlhiT2ZieEs3allEd2poZC1vYnZld0p2dVZoaUhJVGVZTHZ4aG1QYkxKclhtcGdqaTVSa1dfQ1F6YS1CV1EyeU9sd05i",
