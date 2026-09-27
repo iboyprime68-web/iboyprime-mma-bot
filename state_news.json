@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cbc347a91a0884c5": 1790472375.3985655,
     "6f89e2b364f44ae7": 1790472349.9719849,
     "c7260eabf87ecbd7": 1790472304.735283,
     "cec74a3c34241ba7": 1790472304.503946,
@@ -2498,8 +2499,7 @@
     "3dd44efff76e4513": 1789884844.81784,
     "4de9463fea289400": 1789884779.6381466,
     "7af0a421febb26b6": 1789884779.4267807,
-    "3ce9e410b7fadacc": 1789884715.3477046,
-    "d319c343d2e0df10": 1789884670.9377031
+    "3ce9e410b7fadacc": 1789884715.3477046
   },
   "initialized": true,
   "v": 4,
@@ -4429,13 +4429,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-27T01:25:13+00:00",
       "cluster": "c75b815f836"
+    },
+    {
+      "t": "Tina Black Outlasts Opponent To Win TUF 34 | UFC Fight Night: Rosas Jr. vs Barcelos",
+      "source": "UFC.com",
+      "ts": "2026-09-27T00:43:02+00:00",
+      "cluster": "ce2baab1ca5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T01",
-    14
+    15
   ],
   "yt_eval": [
     "CBMiwgFBVV95cUxPQ0RtM2kzYldlZjFoV1R6UGtVaHpteUhlZVFkU1o0X3lTQzVRM1FBY2treWpCc2IybjYtWGV0b3gzVVlpZTlCZmVpOGxwMmtDZDJhdHRyNnlFb1VJdFBibldPb190ajhBZGpQX1VBdVgtNXo2Y2lFVGtSMTM4cFFzSTZzUHIweDhWcVRLMjZyWHdrQ0MzMWN6TzFUOXpqb3VOSjZWV0liejlXYzZCOEtMNTY1cFc5TkdKUHJCa2xveEp3Zw",
