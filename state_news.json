@@ -1,5 +1,9 @@
 {
   "seen": {
+    "4997e582597b068e": 1790473677.3584976,
+    "8f79e42e67bf22c7": 1790473677.1152334,
+    "26dc9aac907041e1": 1790473677.083702,
+    "9205f377e63addc3": 1790473677.050991,
     "5453fa3e25747f40": 1790473491.0480633,
     "ec417d660ab14fdc": 1790473366.1175127,
     "e24a77ff36b050cd": 1790473366.115934,
@@ -2495,11 +2499,7 @@
     "64f95fe760747cc5": 1789886745.962507,
     "729aa614780fb546": 1789886745.6285386,
     "7e1cbffc305e11bb": 1789886680.6570406,
-    "508171a1aa851b27": 1789886614.875486,
-    "189833bf5a4066ae": 1789886614.5213675,
-    "af310ada48ef4488": 1789886550.554707,
-    "b6aa0312d4bddf64": 1789886550.3610554,
-    "5a82049cfefc0cc6": 1789886485.922789
+    "508171a1aa851b27": 1789886614.875486
   },
   "initialized": true,
   "v": 4,
@@ -4507,13 +4507,19 @@
       "source": "LowKickMMA.com",
       "ts": "2026-09-27T01:35:00+00:00",
       "cluster": "ce39ea28359"
+    },
+    {
+      "t": "UFC Vegas 121 highlight video: Luis Hernandez subs Sedriques Dumas",
+      "source": "Sherdog",
+      "ts": "2026-09-27T01:45:05+00:00",
+      "cluster": "ca4a7d5da6c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T01",
-    28
+    29
   ],
   "yt_eval": [
     "CBMiR0FVX3lxTE9EWmpFdENGUER5ZEY1cWtUR1luNVBvcWxVQW5VQlNiYkNlMThXTnpScnFyVU8wam81cTl6MEJOdkJzbmNKMFFj",
