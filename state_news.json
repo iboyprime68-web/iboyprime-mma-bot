@@ -1,5 +1,7 @@
 {
   "seen": {
+    "689298a0bf36b51b": 1790546841.031207,
+    "c5644add50dafe0a": 1790546840.7397394,
     "d8640962a19881da": 1790546777.5189788,
     "9e8cfa366efa1054": 1790546733.3975916,
     "5efc9a24a568c7aa": 1790546711.1773314,
@@ -2497,19 +2499,11 @@
     "fd63692ba0e131ff": 1789942214.7150354,
     "18d8a1f537a5c63a": 1789942150.9702508,
     "64d852802b4fc0e4": 1789941903.7919478,
-    "8eb58bf4487e619d": 1789941903.7610781,
-    "5cb5284ae206738d": 1789941880.8082778,
-    "a1d7f78ba1d47f15": 1789941837.9255
+    "8eb58bf4487e619d": 1789941903.7610781
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Norbert Novenyi Jr. reacts to not earning UFC contract at DWCS 93 with Farah Hannoun",
-      "source": "usatoday.com",
-      "ts": "2026-09-25T22:07:03+00:00",
-      "cluster": "c5b96163673"
-    },
     {
       "t": "Justin Gaethje Still Desires the Conor McGregor Fight Despite Lauding Arman Tsarukyan as a Deserving Contender",
       "source": "MMA Sucka",
@@ -4267,13 +4261,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-27T22:00:00+00:00",
       "cluster": "ca34042ff2b"
+    },
+    {
+      "t": "Chael Sonnen explains why he's still high on Gable Steveson, even after KO loss",
+      "source": "MMA Junkie",
+      "ts": "2026-09-27T22:01:00+00:00",
+      "cluster": "c783212b912"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T22",
-    8
+    9
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331808",
