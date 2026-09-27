@@ -1,5 +1,7 @@
 {
   "seen": {
+    "4243531e2a7a30e1": 1790517946.6196713,
+    "3d069fcdad6b7fd3": 1790517946.2584019,
     "a531b6f96783b7e0": 1790517821.750151,
     "df26162a1c3de15c": 1790517697.5156844,
     "e31e694768f2a9a4": 1790517610.50373,
@@ -2497,9 +2499,7 @@
     "2fa67bbb4e6f4997": 1789917856.0077631,
     "05370244032f9605": 1789917668.9601164,
     "73d62d96fd90d50b": 1789917421.2508328,
-    "dfba3c795c49613a": 1789917357.7076473,
-    "87b50eea37a8f3fd": 1789917357.671743,
-    "09a2258f39b3790a": 1789917294.8246086
+    "dfba3c795c49613a": 1789917357.7076473
   },
   "initialized": true,
   "v": 4,
@@ -4375,13 +4375,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-27T14:00:00+00:00",
       "cluster": "c136b19dc1f"
+    },
+    {
+      "t": "Justin Gaethje Picks Arman Tsarukyan Next Over Ilia Topuria",
+      "source": "wrestling-world.com",
+      "ts": "2026-09-27T14:00:59+00:00",
+      "cluster": "c9416db5c21"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T14",
-    1
+    2
   ],
   "yt_eval": [
     "CBMia0FVX3lxTFBRdGZnWC0xcExINGE1a0NFSlJkWkNDM0Zlb21RTHpxMTZGMjRqRFVqTHBiaTFuVGFlaXFFUTduN0FjalladWFXTkNqcEp3VFlfdWN1cGZQZWtELU5lT0pwdEY4MDVmZy1qekpn",
