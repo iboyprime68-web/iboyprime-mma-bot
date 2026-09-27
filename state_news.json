@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1ec90199d894f439": 1790472771.0334883,
     "6cee5795074c435a": 1790472705.1390722,
     "a3e13c0eceaf7912": 1790472704.848935,
     "1b6545f1b64ceebf": 1790472704.8456607,
@@ -2498,8 +2499,7 @@
     "3c1a8489e13b060a": 1789885764.040012,
     "abc874726c5b048c": 1789885699.0338578,
     "f91ff46418d46b9b": 1789885698.6894581,
-    "9a71d56182d36288": 1789885698.6571648,
-    "ba26adec97cac9b0": 1789885634.35293
+    "9a71d56182d36288": 1789885698.6571648
   },
   "initialized": true,
   "v": 4,
@@ -4459,13 +4459,19 @@
       "source": "Cageside Press",
       "ts": "2026-09-27T01:19:42+00:00",
       "cluster": "c5ace3e08f1"
+    },
+    {
+      "t": "UFC (@ufc) on X",
+      "source": "t.co",
+      "ts": "2026-09-27T01:20:28+00:00",
+      "cluster": "cc63c1ac0a0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T01",
-    20
+    21
   ],
   "yt_eval": [
     "CBMiqwFBVV95cUxOWkltNkpVMHBMOHVoak5fTHhTYi1yTzdNZTNEc2dCWTZNS0J1SlZCQ3lXNEVvOC1XVk40SWtxUDQ3MEJGeUZWSzFkdkFnVlk0X0Q5M3R3MVVtc3VuR184Z3VqZXRLMi1GTWVMd3NtSVNsc19VQ2w4NEpGMHlZQjYtbVR2bmwxX2dsQjBPZncwU0pzTkRidkM5R2tBanJnZjNIZ041Rk9tT3JWcFk",
