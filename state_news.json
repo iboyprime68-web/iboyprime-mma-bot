@@ -1,5 +1,10 @@
 {
   "seen": {
+    "99e04778e09e6ab5": 1790496034.165527,
+    "ad7a9bcde983df53": 1790496033.8416977,
+    "37bd06c3c43e961f": 1790496033.8031468,
+    "54dfcf6154a6d52e": 1790496033.762917,
+    "f6ecffb183b37c2b": 1790496033.758785,
     "b8a13fdc7b727309": 1790495968.046246,
     "d94bde854e6326bd": 1790495967.7904162,
     "f11c22d894d4fe6c": 1790495898.5684316,
@@ -2494,12 +2499,7 @@
     "abd49625ef56b819": 1789904094.5149055,
     "9e06a7011ad793c8": 1789904094.2153494,
     "bcd5a7e4d43a8d4f": 1789904094.2140694,
-    "ff00227477ef0c57": 1789904094.2132556,
-    "bd37be0f7f112b50": 1789903990.1618457,
-    "540087dba9588d47": 1789903783.111239,
-    "db07f18a1b4b4a48": 1789903493.7748096,
-    "363da9c082aefaaa": 1789903471.0022457,
-    "777c99e2e0873cd6": 1789903366.9546773
+    "ff00227477ef0c57": 1789904094.2132556
   },
   "initialized": true,
   "v": 4,
@@ -4465,13 +4465,19 @@
       "source": "KREM",
       "ts": "2026-09-27T07:16:00+00:00",
       "cluster": "c1b4ecc200f"
+    },
+    {
+      "t": "What happened to Raoni Barcelos at UFC Vegas 121?",
+      "source": "MMA Mania",
+      "ts": "2026-09-27T06:08:04+00:00",
+      "cluster": "c440d91f4d5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-27T07",
-    17
+    "2026-09-27T08",
+    1
   ],
   "yt_eval": [
     "CBMie0FVX3lxTE9yTmxXSW9QSUV6NS02VzZiTXRYOHZ3YTRPRWNLN1V6eUxGZHdqVDk1NDEwQ3BWanlkZm9LMGR6SjBXb2tYb3lIbDZSd1huS1hBNXFGcGMzdW1zcFVOd2NnSVZDbG0wSzBKQlJZemtSMEJkV2g0UnZvT1NvNA",
