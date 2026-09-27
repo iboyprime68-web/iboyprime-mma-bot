@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cb338a2bd12a0f08": 1790548403.225203,
     "ac9c46d7e345c93a": 1790548277.490594,
     "9ae673d0e175105b": 1790547965.1810489,
     "ab033ec7ebe740ee": 1790547840.0709872,
@@ -2498,8 +2499,7 @@
     "b4b23567e1c70156": 1789949025.3459783,
     "e77a11fe5c923a5f": 1789948960.909657,
     "3333a4dfc6658c3a": 1789948896.3956506,
-    "3ecb65598d5e418c": 1789948832.3212352,
-    "4b6f7be282816ae2": 1789948831.5481882
+    "3ecb65598d5e418c": 1789948832.3212352
   },
   "initialized": true,
   "v": 4,
@@ -4285,13 +4285,19 @@
       "source": "News.com.au",
       "ts": "2026-09-27T22:10:23+00:00",
       "cluster": "cd3977229fc"
+    },
+    {
+      "t": "UFC Vegas 121: Raoni Barcelos “stable, alert and responsive, with full movement”",
+      "source": "mmacrossfire.com",
+      "ts": "2026-09-27T22:28:38+00:00",
+      "cluster": "c77151ea607"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T22",
-    13
+    14
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331808",
