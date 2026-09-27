@@ -1,5 +1,7 @@
 {
   "seen": {
+    "5000cbbbccf7163d": 1790533384.4450662,
+    "3f48913e111f62db": 1790533383.8587103,
     "3d1cacfe9bee6bc0": 1790533320.0375438,
     "b8a3c72e31358406": 1790533319.7217984,
     "9294040c71b0315b": 1790533255.8384085,
@@ -2497,9 +2499,7 @@
     "2f3ec9536dc8a2f8": 1789928761.00274,
     "55f885466bbc8c1e": 1789928761.0007951,
     "93cb8909b4de0576": 1789928760.9989007,
-    "d25368924f71ee2a": 1789928696.667425,
-    "7a086eba801118dd": 1789928632.128279,
-    "fd01883e3eec4d03": 1789928567.7514844
+    "d25368924f71ee2a": 1789928696.667425
   },
   "initialized": true,
   "v": 4,
@@ -2545,12 +2545,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-25T19:00:00+00:00",
       "cluster": "c84c88139ba"
-    },
-    {
-      "t": "Darren Till warns Yoel Romero ‘this is gladiator sh*t’ after fun final BKFC 94 faceoff",
-      "source": "MMA Fighting",
-      "ts": "2026-09-25T18:22:12+00:00",
-      "cluster": "ce3f745091b"
     },
     {
       "t": "Valentina Shevchenko Brings ‘Trial by Combat’ to MTV’s The Challenge: Cutthroat",
@@ -4333,13 +4327,19 @@
       "source": "GB News",
       "ts": "2026-09-27T17:48:45+00:00",
       "cluster": "c6d137675cd"
+    },
+    {
+      "t": "UFC Vegas 121: Ailin Perez fires X-rated shots at Norma Dumont after controversial win",
+      "source": "MMA Junkie",
+      "ts": "2026-09-27T17:50:00+00:00",
+      "cluster": "c873cf0f66f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T18",
-    18
+    19
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331808",
