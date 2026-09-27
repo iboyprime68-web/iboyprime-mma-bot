@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3c48dea55a776764": 1790495490.4852583,
     "306fdeb67291ade3": 1790495465.38459,
     "954bdd75e7486dda": 1790495465.0692577,
     "4e671212feeefc02": 1790495465.0625198,
@@ -2498,8 +2499,7 @@
     "6cab37a7b353eb29": 1789902292.5417268,
     "4f740c54b323efc6": 1789902292.1935081,
     "6dec3430f6e5a9f3": 1789902292.1895525,
-    "27132a0b64fcc6b4": 1789902229.5733798,
-    "53eed0d8e5eb6639": 1789902206.5792346
+    "27132a0b64fcc6b4": 1789902229.5733798
   },
   "initialized": true,
   "v": 4,
@@ -4393,13 +4393,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-27T02:05:32+00:00",
       "cluster": "caeb0180818"
+    },
+    {
+      "t": "UFC Vegas 121 video: Raul Rosas Jr. wins main event after Raoni Barcelos goes unconscious in scary fifth-round moment",
+      "source": "MMA Fighting",
+      "ts": "2026-09-27T03:09:32+00:00",
+      "cluster": "cec31e2f036"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T07",
-    4
+    5
   ],
   "yt_eval": [
     "3d157a3d-0066-3236-bbe9-5df828853158",
