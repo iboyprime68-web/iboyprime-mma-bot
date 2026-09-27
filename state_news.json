@@ -1,5 +1,11 @@
 {
   "seen": {
+    "8a1fe03f8f828f16": 1790516900.1595986,
+    "f7f136b963f237b5": 1790516899.8807976,
+    "bdfa59ff3b448684": 1790516899.8791156,
+    "a4ddf2df55668466": 1790516899.877389,
+    "4a547a3637976367": 1790516899.8749635,
+    "4f265530fc15498f": 1790516899.871003,
     "3a154488a83a7ed8": 1790516833.4710114,
     "d0611e44ac532023": 1790516832.964404,
     "c0723e6329248c49": 1790516832.9598503,
@@ -2493,13 +2499,7 @@
     "005159abeb3a80ef": 1789916663.5667307,
     "c47b18a9604467a3": 1789916538.7435627,
     "dd29f19b504621a6": 1789916538.708826,
-    "ca6c0ff76416586a": 1789916475.0575283,
-    "fdcf49170625e59b": 1789916431.8362916,
-    "953b95f8a26edcab": 1789916409.9906561,
-    "9187bb787a3ff742": 1789916161.8606892,
-    "94a2ea3b90d723fb": 1789916161.857974,
-    "10a71cde1b586858": 1789916098.421221,
-    "c7fcad3a0e5a48a0": 1789916034.9076107
+    "ca6c0ff76416586a": 1789916475.0575283
   },
   "initialized": true,
   "v": 4,
@@ -4339,13 +4339,19 @@
       "source": "AOL.com",
       "ts": "2026-09-27T13:01:19+00:00",
       "cluster": "ce2d6b19a9b"
+    },
+    {
+      "t": "Open Thread, September 27, 2026: What you doing today?",
+      "source": "MMA Mania",
+      "ts": "2026-09-27T13:05:00+00:00",
+      "cluster": "c4082013a39"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-27T13",
-    9
+    10
   ],
   "yt_eval": [
     "CBMiwgFBVV95cUxQQlUzb0FTdEkzaWY3M0JMSXphZUZNOHVRMjlobWdjc01HdHQyY3JoWEFfZWtYVVZTMXBROFQwSVZPcnpfakpJcVRSRzgzR01reWNNWVhjRU9uUXROMFRVTmpScU1SSUlFU0ZmTkZyY1BGV1c2d29kSnlJNXZ4ZnZLNGREbHZZdXFjUjFUMnRLOGkwTklsamM4clo3czl5SFl6MWhwbnA3UURRVzVBRVJoQ00wMnRVYWdhSmJPb1Z5MHktQQ",
