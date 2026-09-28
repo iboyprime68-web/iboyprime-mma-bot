@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ab7e1a10a259c622": 1790608657.152354,
     "b5c6fe9cc263cb34": 1790608589.905337,
     "14e432e404592560": 1790608523.5522814,
     "2275e9f132e57fd0": 1790608456.231161,
@@ -2498,8 +2499,7 @@
     "865c34b0e343bb98": 1789988842.973643,
     "7497fd0822b51075": 1789988634.7916644,
     "d0a38b6228b7c03f": 1789988634.7897627,
-    "f8b4c32b60c50f30": 1789988508.1957016,
-    "2fdb9c015c4727b4": 1789988508.1942184
+    "f8b4c32b60c50f30": 1789988508.1957016
   },
   "initialized": true,
   "v": 4,
@@ -4153,13 +4153,19 @@
       "source": "FightBook MMA",
       "ts": "2026-09-28T14:15:35+00:00",
       "cluster": "cf30b978f3c"
+    },
+    {
+      "t": "UFC Champion Sean Strickland Teases Massive End-Of-Year Fight Announcement",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-28T11:00:06+00:00",
+      "cluster": "c1e210fc701"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T15",
-    15
+    16
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510547",
