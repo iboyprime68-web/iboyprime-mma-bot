@@ -1,5 +1,7 @@
 {
   "seen": {
+    "21129b30e852dabb": 1790577507.329886,
+    "f596ffb887c0de3c": 1790577507.0733209,
     "692e78c0d3ea6dff": 1790577440.6728613,
     "6beb4761b594f914": 1790577440.4381235,
     "c7ece74e5e4ffd10": 1790577374.3759534,
@@ -2497,9 +2499,7 @@
     "a05f43a601cf5410": 1789965659.0447435,
     "af6b6c04d9d6f1bd": 1789965470.7403407,
     "9439cf287fb7b9be": 1789965405.9267414,
-    "ea524f70580da3d0": 1789965405.5308797,
-    "0f6f15f1ab473d5b": 1789965340.7604687,
-    "03fa0523308bd3a4": 1789965340.4156497
+    "ea524f70580da3d0": 1789965405.5308797
   },
   "initialized": true,
   "v": 4,
@@ -4267,13 +4267,19 @@
       "source": "Sherdog",
       "ts": "2026-09-28T06:10:09+00:00",
       "cluster": "ca8fea8f319"
+    },
+    {
+      "t": "Dana White On Fury-Joshua Promotion Drama",
+      "source": "boxingnews.com",
+      "ts": "2026-09-28T06:20:34+00:00",
+      "cluster": "c4378dcd324"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T06",
-    10
+    11
   ],
   "yt_eval": [
     "CBMicEFVX3lxTE9iRkFsN3RHOHhrdnJxUjBrZE1NOFRmT3BVU2Y5QTcybzhqOXdqTkJhY3k0aHV0bE1mRXZQdFczOGhwR1BsRXAxQzh3aDMxYjlZQmxjVjVhbUlEZXZCQzRZd2UxOFROVURpMjl5cUlOZXk",
