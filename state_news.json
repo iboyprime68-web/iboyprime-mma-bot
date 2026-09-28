@@ -1,5 +1,8 @@
 {
   "seen": {
+    "150c133e7b0776fb": 1790632656.2716472,
+    "a889de707987c15c": 1790632656.0177464,
+    "8c346a89b9688631": 1790632656.0157292,
     "e124530cba283a1b": 1790632631.0204377,
     "3c3203f5c9ab6142": 1790632563.8867881,
     "c4df5b1387e77db4": 1790632562.8306296,
@@ -2496,10 +2499,7 @@
     "0b2553e5c8dc6cdd": 1790024940.578201,
     "3dff334c824b662a": 1790024940.5766184,
     "b2fcf4401b6a90b8": 1790024876.8627858,
-    "45408839972f9f34": 1790024813.0706632,
-    "3165cf4280c735c3": 1790024747.333688,
-    "8931f36f3f18fee0": 1790024683.1600997,
-    "9d4baa81314585a8": 1790024618.8093934
+    "45408839972f9f34": 1790024813.0706632
   },
   "initialized": true,
   "v": 4,
@@ -4207,13 +4207,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-28T20:20:25+00:00",
       "cluster": "c4936725348"
+    },
+    {
+      "t": "Rejected! Sean Strickland's 'petty,' revenge-driven teammate denied fight with UFC's red-hot Sheriff's deputy &#8211; 'There’s no forgiveness'",
+      "source": "MMA Mania",
+      "ts": "2026-09-28T21:38:50+00:00",
+      "cluster": "ce7f2bc6d9c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T21",
-    22
+    23
   ],
   "yt_eval": [
     "CBMihgFBVV95cUxPdHFnbDBfMTA2S0w5YmF0WjZfWExCS0pfN2NyM0JmS1J1dkQ3ZndQeElaek9TWlg4SVhmSTBybzJIZVpuM2d0c3d4eERKSVU0cFpIcWVFM1laUEpmRktnOF91cW50amNyVXpKWEFzVGFWRWh6UUJBYlNWaUQ4bU1BMWp3QzhLUQ",
