@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d57abb94dcc845f7": 1790631770.849875,
     "353fb96c4c14ea16": 1790631745.1951551,
     "63644196f9211f9a": 1790631744.8989542,
     "787b8095bb777ce8": 1790631719.912182,
@@ -2498,8 +2499,7 @@
     "324333633370b6be": 1790011349.595558,
     "5b579057be66b34d": 1790011349.5936,
     "092ecb6195d5e15a": 1790011349.591926,
-    "66f04f852f8ed0bc": 1790011282.3042948,
-    "2fa152ab04f5a691": 1790011281.814882
+    "66f04f852f8ed0bc": 1790011282.3042948
   },
   "initialized": true,
   "v": 4,
@@ -4093,13 +4093,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-28T15:40:11+00:00",
       "cluster": "cb5c35a92bd"
+    },
+    {
+      "t": "Kamaru Usman says Khabib Nurmagomedov will agree with his take on the ‘top dog’ outside of the UFC",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-28T17:00:00+00:00",
+      "cluster": "cd351db0651"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T21",
-    2
+    3
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331917",
