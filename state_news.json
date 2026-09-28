@@ -1,5 +1,7 @@
 {
   "seen": {
+    "58ff8da6d838c87e": 1790579159.8857644,
+    "08dfe3f85a5f7c94": 1790579159.632937,
     "9f91b2e3e2f2980e": 1790579133.9949117,
     "bc69453fb0471177": 1790579029.534156,
     "79311000b5e5721d": 1790578905.104523,
@@ -2497,9 +2499,7 @@
     "2271d2650bfd9cee": 1789986716.1743295,
     "c89228973d579e09": 1789986716.1729348,
     "949568e087e46140": 1789986651.6632144,
-    "e82740a27a99ab7b": 1789986650.876455,
-    "8d6a8e2509b2b67e": 1789986650.8752356,
-    "afbaacddfaeb973d": 1789966859.9956405
+    "e82740a27a99ab7b": 1789986650.876455
   },
   "initialized": true,
   "v": 4,
@@ -4309,13 +4309,19 @@
       "source": "Sherdog",
       "ts": "2026-09-28T03:37:44+00:00",
       "cluster": "c250889c0a4"
+    },
+    {
+      "t": "Ailin Perez makes an NSFW callout of Amanda Nunes and Kayla Harrison before UFC 334",
+      "source": "MMA Sucka",
+      "ts": "2026-09-28T07:04:51+00:00",
+      "cluster": "c4904c80b1b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T07",
-    2
+    3
   ],
   "yt_eval": [
     "CBMixAFBVV95cUxNSWtaNGJpclB6RUN5LWt3UTF1Tm9GNEVuelprbE5RRlRvOU1YcUxTOFh3b1JDc3dFRndNeGl6TG5rVmExUHl6c3RSMjRjOWNkZVlfWklCNzJQSFQ4bGEwZVlaeTRKd3Z1TDFIR3J2Y0lEX3VsM3Njd2RkX3RSN1ZaSXFQVDBqb1NSWDIyd3BrdXEwMVlXMEE3dElLX2c3ZC14Q1hQRXVYU2JwOElVcVJ1NHJzSHNQcnBoRllfWVB4VV95bkVw",
