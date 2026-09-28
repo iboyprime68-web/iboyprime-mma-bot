@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9c15b8986c2bd185": 1790610556.8192165,
     "44b63f82cc2c5d2d": 1790610488.8263993,
     "e5610ddadef6df97": 1790610423.924912,
     "1cb9dd53795fa46e": 1790610401.1117892,
@@ -2498,8 +2499,7 @@
     "d166e638b4c08bbd": 1790010870.3565338,
     "f082f6324367e0fd": 1790010844.7248769,
     "801169482889b1bc": 1790010798.915077,
-    "f5db233c5ec2b7e7": 1790010731.3587844,
-    "7146297d3a873db8": 1790010730.9426162
+    "f5db233c5ec2b7e7": 1790010731.3587844
   },
   "initialized": true,
   "v": 4,
@@ -4321,13 +4321,19 @@
       "source": "The Body Lock",
       "ts": "2026-09-28T15:42:14+00:00",
       "cluster": "c9824badea9"
+    },
+    {
+      "t": "Darren Till Opens Up About UFC Title Regret That Still Haunts Him",
+      "source": "The Body Lock",
+      "ts": "2026-09-28T15:44:54+00:00",
+      "cluster": "c24fd38a65d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T15",
-    44
+    45
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331949",
