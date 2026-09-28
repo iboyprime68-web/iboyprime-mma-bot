@@ -1,5 +1,7 @@
 {
   "seen": {
+    "c8d1f7fd912aff67": 1790609071.9048223,
+    "9fc1d5398b73b7f1": 1790609071.6222594,
     "a3ffb635944f84d9": 1790609004.7400596,
     "1fae511ef26751df": 1790608938.4397843,
     "f427a9df846a83cc": 1790608938.1760025,
@@ -2497,9 +2499,7 @@
     "8d9649f22ffa6442": 1790009612.13886,
     "af0f2231e5e9cb8c": 1790009587.1717663,
     "f9cb8fe8c3c8eef7": 1789989764.2646244,
-    "a09861ba7131eafa": 1789989266.544205,
-    "5927374c1845cce9": 1789989138.9770703,
-    "24ddcbfcbbeeb44e": 1789989138.6933253
+    "a09861ba7131eafa": 1789989266.544205
   },
   "initialized": true,
   "v": 4,
@@ -4195,13 +4195,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-28T13:31:24+00:00",
       "cluster": "c1ab4910255"
+    },
+    {
+      "t": "UFC news: Sean Sharaf credits Conor McGregor after 12-second knockout win over Gable Steveson",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-28T14:39:48+00:00",
+      "cluster": "cd910a92034"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T15",
-    22
+    23
   ],
   "yt_eval": [
     "CBMiUEFVX3lxTE01RXdiWHU3X2t5TWNIa251VHNLakc0ckJOQ0RkS3U3XzNnV21VdkdZMDJXem5MTTN5UlVPZENYSVpmM0hOamVVN2Q0b1Z5Q2R2",
