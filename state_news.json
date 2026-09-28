@@ -1,5 +1,6 @@
 {
   "seen": {
+    "14e432e404592560": 1790608523.5522814,
     "2275e9f132e57fd0": 1790608456.231161,
     "66ea4100dc960894": 1790608389.5407972,
     "7ecd5e816ab1b65b": 1790608389.1938503,
@@ -2498,8 +2499,7 @@
     "d0a38b6228b7c03f": 1789988634.7897627,
     "f8b4c32b60c50f30": 1789988508.1957016,
     "2fdb9c015c4727b4": 1789988508.1942184,
-    "dce30d4fa44f9eba": 1789988443.338999,
-    "89a5222126b125bc": 1789988418.7488904
+    "dce30d4fa44f9eba": 1789988443.338999
   },
   "initialized": true,
   "v": 4,
@@ -4141,13 +4141,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-28T13:41:50+00:00",
       "cluster": "cad4ea03cd8"
+    },
+    {
+      "t": "MMA Junkie Radio #3706: UFC Fight Night 289 fallout, guest Aaron Pico",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-28T14:02:05+00:00",
+      "cluster": "c26efce1be9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T15",
-    13
+    14
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331877",
