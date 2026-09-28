@@ -1,5 +1,6 @@
 {
   "seen": {
+    "db22b99babcf8450": 1790608291.3425298,
     "669b937e29cd8548": 1790608264.286682,
     "eade2b1d163a7c5e": 1790608239.3914657,
     "aefb89253b18966d": 1790608238.8297276,
@@ -2498,8 +2499,7 @@
     "7d043a8e25bf4444": 1789987439.1045659,
     "9bc2938929c9e797": 1789987375.1390646,
     "a45c1286ae9b822b": 1789987375.1148229,
-    "fa51d38e7fc446ce": 1789987375.1129043,
-    "768a93b6fd75d64f": 1789987375.1116564
+    "fa51d38e7fc446ce": 1789987375.1129043
   },
   "initialized": true,
   "v": 4,
@@ -4111,13 +4111,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-28T14:00:00+00:00",
       "cluster": "c6266737f74"
+    },
+    {
+      "t": "Alexander Volkanovski, Movsar Evloev recount past training session ahead of UFC 333 title fight",
+      "source": "MMA Fighting",
+      "ts": "2026-09-28T14:12:25+00:00",
+      "cluster": "caf59b84f45"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T15",
-    8
+    9
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510295",
