@@ -1,5 +1,6 @@
 {
   "seen": {
+    "14b784ef9db39360": 1790576987.518903,
     "c0bf0036bb1ce425": 1790576961.6712623,
     "703472c6d30ee81e": 1790558139.6751263,
     "fd9d14778b0db033": 1790558138.75673,
@@ -2498,8 +2499,7 @@
     "49a7df30f751c064": 1789964509.006088,
     "e3d873fc0330e4d7": 1789964444.812348,
     "6ace8ba800f8e14d": 1789964400.4286191,
-    "161d0c4aa7cf387a": 1789964376.8204794,
-    "09b733f57f07093d": 1789964376.5148597
+    "161d0c4aa7cf387a": 1789964376.8204794
   },
   "initialized": true,
   "v": 4,
@@ -4219,13 +4219,19 @@
       "source": "Sherdog",
       "ts": "2026-09-28T00:22:26+00:00",
       "cluster": "cf770f7b2ce"
+    },
+    {
+      "t": "Josh Hokit chokes fan unconscious during meet-and-greet ahead of UFC heavyweight title fight",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-28T02:00:00+00:00",
+      "cluster": "ca4e534eb62"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T06",
-    1
+    2
   ],
   "yt_eval": [
     "26e58cea-7dc4-3d9c-947e-3f6adeb79184",
