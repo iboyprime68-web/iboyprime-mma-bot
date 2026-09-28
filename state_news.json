@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c7ece74e5e4ffd10": 1790577374.3759534,
     "68ccab356eae1fda": 1790577308.2706203,
     "b67461d1b4bb179f": 1790577307.9993048,
     "d0365a12731985d2": 1790577307.9976335,
@@ -2498,8 +2499,7 @@
     "0f6f15f1ab473d5b": 1789965340.7604687,
     "03fa0523308bd3a4": 1789965340.4156497,
     "0b055697b8ed489d": 1789965275.6870928,
-    "557e124ba5efbe62": 1789965275.321258,
-    "aa7a412ddbbed500": 1789965024.4534428
+    "557e124ba5efbe62": 1789965275.321258
   },
   "initialized": true,
   "v": 4,
@@ -4255,13 +4255,19 @@
       "source": "ActuMMA",
       "ts": "2026-09-28T06:04:03+00:00",
       "cluster": "cf4932a29e0"
+    },
+    {
+      "t": "Nate Diaz leaves a brutal comment under Conor McGregor and Ryan Garcia's latest promotional post",
+      "source": "Sportskeeda",
+      "ts": "2026-09-28T06:06:00+00:00",
+      "cluster": "c547bbe7ae4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T06",
-    8
+    9
   ],
   "yt_eval": [
     "CBMiogFBVV95cUxPeGR3Q21iVlRPTFZ4M2Z3MkxVTGUydUVHTFBEazB1aUpEMnYyelZzb3RlZ2lSX3BkYURuVTFsX2ltQ1V1UGlhQW12ckJfR2t5WVRLWjlxUnF6MFNfNmhNcXZQOGcteXRHTzFwNTJMcXFwNG4wRUJ3SXMwdFp1LUtfVFVjR1QyUFRDbUduSEwzckM2Q3VYT2V4bUloVHVRMXBYZ0E",
