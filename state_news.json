@@ -1,5 +1,7 @@
 {
   "seen": {
+    "1ace5b5e42c2476f": 1790608133.3807895,
+    "421cecb05c972240": 1790608133.1476016,
     "a91d1ea01d85c8a9": 1790608104.4312098,
     "c0dc3742f819e102": 1790608078.9491017,
     "13bffeb25e031198": 1790608078.110775,
@@ -2497,9 +2499,7 @@
     "f0b5e20713477486": 1789987242.4233646,
     "2e16b5bfafa9fd11": 1789987176.737174,
     "a23f81a037adfcac": 1789987111.8242433,
-    "1282335eb2922e98": 1789987111.5191164,
-    "acb186a57209ff24": 1789987046.5129664,
-    "28063446ff4a86f6": 1789986981.7867885
+    "1282335eb2922e98": 1789987111.5191164
   },
   "initialized": true,
   "v": 4,
@@ -4075,13 +4075,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-28T11:00:00+00:00",
       "cluster": "cea9bc9512d"
+    },
+    {
+      "t": "UFC 332 roundtable: Should this be a numbered UFC event?",
+      "source": "MMA Fighting",
+      "ts": "2026-09-28T12:45:51+00:00",
+      "cluster": "c0b088a9d8e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T15",
-    2
+    3
   ],
   "yt_eval": [
     "CBMic0FVX3lxTFBqLXRZN3BQQ3d0RzNBeDBtdkVFalJCWXdhb3FoTEdNYTdoM0szQkFrU3VIUHJvYmM5NEdNaEtvUHFhX1RuWXRzZERkU09FWnBCOWpFM3JJVjdYb3pxYkx4V1pQejlGTFEyMUhpNFYxQjR3bmc",
