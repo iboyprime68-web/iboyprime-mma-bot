@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c772f97f00a4389b": 1790557898.376292,
     "64d0cd940c7c5a12": 1790557812.4624724,
     "f2841a6edbc374fb": 1790557812.4612412,
     "43fab656d0237ee9": 1790557622.685632,
@@ -2498,8 +2499,7 @@
     "693ce52580d57f99": 1789964180.5297775,
     "2f4bdc24128be642": 1789964180.5278783,
     "093851d60d65ae0e": 1789964115.7464986,
-    "0a014d13f6a27ef8": 1789964115.3724358,
-    "602da0eefce80b0d": 1789964091.5574346
+    "0a014d13f6a27ef8": 1789964115.3724358
   },
   "initialized": true,
   "v": 4,
@@ -4273,13 +4273,19 @@
       "source": "Cageside Press",
       "ts": "2026-09-28T00:53:53+00:00",
       "cluster": "ced8475a46f"
+    },
+    {
+      "t": "Sean Strickland confirms he will fight Nassourdine Imavov later this year in first title defence",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-28T01:11:31+00:00",
+      "cluster": "c0e160e38e0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T01",
-    0
+    1
   ],
   "yt_eval": [
     "d8a79f47-77e0-393c-ad22-e4567e9b40e0",
