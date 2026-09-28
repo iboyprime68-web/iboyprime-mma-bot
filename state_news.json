@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6d54c3586d994b01": 1790608342.5303283,
     "e816ef4531531e05": 1790608317.2358503,
     "08c61f0720192644": 1790608316.960695,
     "3187d483d55a740e": 1790608316.9411035,
@@ -2498,8 +2499,7 @@
     "89a5222126b125bc": 1789988418.7488904,
     "8d144d07dc1962aa": 1789987693.9213035,
     "db33e5fa99d20818": 1789987588.4184833,
-    "073951af2f8fcf0d": 1789987565.8358908,
-    "7d043a8e25bf4444": 1789987439.1045659
+    "073951af2f8fcf0d": 1789987565.8358908
   },
   "initialized": true,
   "v": 4,
@@ -4123,13 +4123,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-28T13:40:26+00:00",
       "cluster": "c0ddd4c566f"
+    },
+    {
+      "t": "Jack Cullen reacts to the awkward face-off that followed his ‘dream come true’ title win at BKFC 94",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-28T15:00:00+00:00",
+      "cluster": "cc811bc04a8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T15",
-    10
+    11
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331930",
