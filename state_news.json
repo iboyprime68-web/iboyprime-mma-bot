@@ -1,5 +1,7 @@
 {
   "seen": {
+    "cf42ed32f710bd89": 1790555146.4572408,
+    "359023ba1fc5627d": 1790555146.1431289,
     "58031d171b4a1a98": 1790555121.300507,
     "f59eecf9a04083a9": 1790549406.881394,
     "c5483e7870f68999": 1790549219.1362205,
@@ -2497,9 +2499,7 @@
     "669d4b63fd94d299": 1789949282.8295214,
     "5fd08d7420ca2e2a": 1789949219.082486,
     "211dacb189a1de70": 1789949154.9125586,
-    "43071e91e0dc6896": 1789949154.6274734,
-    "0a3ed61cd14d8c1f": 1789949090.7583685,
-    "b66628a4a8964439": 1789949090.1136389
+    "43071e91e0dc6896": 1789949154.6274734
   },
   "initialized": true,
   "v": 4,
@@ -4255,13 +4255,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-27T22:50:24+00:00",
       "cluster": "cc18715bf7c"
+    },
+    {
+      "t": "Islam Makhachev’s teammate ‘John Pork’ announces his UFC return is off one day after it was reported",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-28T00:00:00+00:00",
+      "cluster": "c2db4c2879e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T00",
-    1
+    2
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331829",
