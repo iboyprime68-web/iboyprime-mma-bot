@@ -1,5 +1,7 @@
 {
   "seen": {
+    "9043518a51ae35d3": 1790555648.3777065,
+    "e2da9eb149ebf1a3": 1790555646.0484507,
     "9d95841bb49c1b6e": 1790555581.8091319,
     "6c938d0e01e8f499": 1790555391.8829155,
     "d8aa579d667c79db": 1790555327.607476,
@@ -2497,9 +2499,7 @@
     "c8909d90e58caae9": 1789963772.9243062,
     "5006bd1c04fcda39": 1789951897.5891278,
     "b1fdd4a0bfb8045d": 1789950354.8305755,
-    "2aa19433e91ba7b6": 1789950229.7625616,
-    "5473660bad318804": 1789949980.4659984,
-    "03e44ab78adcc62b": 1789949980.2296507
+    "2aa19433e91ba7b6": 1789950229.7625616
   },
   "initialized": true,
   "v": 4,
@@ -4261,13 +4261,19 @@
       "source": "cubaheadlines.com",
       "ts": "2026-09-28T00:05:52+00:00",
       "cluster": "cf6657032f8"
+    },
+    {
+      "t": "BKFC Corner Under Scrutiny After Ignoring Fighter's Safety Ends Brutally",
+      "source": "MMA Sucka",
+      "ts": "2026-09-28T00:05:09+00:00",
+      "cluster": "c8125834602"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T00",
-    4
+    5
   ],
   "yt_eval": [
     "https://www.mmafighting.com/509515/ufc-330-roundtable-is-islam-makhachev-the-next-pound-for-pound-great-to-fall",
