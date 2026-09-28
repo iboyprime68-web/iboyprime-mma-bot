@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6fedcf6c002be3de": 1790577574.0494845,
     "21129b30e852dabb": 1790577507.329886,
     "f596ffb887c0de3c": 1790577507.0733209,
     "692e78c0d3ea6dff": 1790577440.6728613,
@@ -2498,8 +2499,7 @@
     "297ea687f1f4b7f2": 1789965723.9138207,
     "a05f43a601cf5410": 1789965659.0447435,
     "af6b6c04d9d6f1bd": 1789965470.7403407,
-    "9439cf287fb7b9be": 1789965405.9267414,
-    "ea524f70580da3d0": 1789965405.5308797
+    "9439cf287fb7b9be": 1789965405.9267414
   },
   "initialized": true,
   "v": 4,
@@ -4273,13 +4273,19 @@
       "source": "boxingnews.com",
       "ts": "2026-09-28T06:20:34+00:00",
       "cluster": "c4378dcd324"
+    },
+    {
+      "t": "Magomed Zaynukov shuts down UFC Qatar fight rumors, out until 2027",
+      "source": "Sherdog",
+      "ts": "2026-09-28T02:02:40+00:00",
+      "cluster": "cf7e4335b00"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T06",
-    11
+    12
   ],
   "yt_eval": [
     "CBMifkFVX3lxTE5ralRSQ040SzJDTEQxaHBENHVkLUJPOC1wamozVmVUanVUNEhBOWNZTVM2QmVSUW1CREVUaHBrTVVLY1I4WDlvNnE5MlRfWm84OHFmTzkxejhPSzE0blN4c3Z1ODFjZEVWSUdRbEs1RElRUUpPSkRxNk1Ha3d4dw",
