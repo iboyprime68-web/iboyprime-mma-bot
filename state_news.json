@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0ebd1a0149c96a8a": 1790577640.488844,
     "6fedcf6c002be3de": 1790577574.0494845,
     "21129b30e852dabb": 1790577507.329886,
     "f596ffb887c0de3c": 1790577507.0733209,
@@ -2498,8 +2499,7 @@
     "f3f41720936333e5": 1789965973.845204,
     "297ea687f1f4b7f2": 1789965723.9138207,
     "a05f43a601cf5410": 1789965659.0447435,
-    "af6b6c04d9d6f1bd": 1789965470.7403407,
-    "9439cf287fb7b9be": 1789965405.9267414
+    "af6b6c04d9d6f1bd": 1789965470.7403407
   },
   "initialized": true,
   "v": 4,
@@ -4279,13 +4279,19 @@
       "source": "Sherdog",
       "ts": "2026-09-28T02:02:40+00:00",
       "cluster": "cf7e4335b00"
+    },
+    {
+      "t": "Jon Jones’ Ex-Opponent Rejects CSAC Executive’s Calls for Banning MMA Move That Led to His Surgery",
+      "source": "EssentiallySports",
+      "ts": "2026-09-28T06:31:00+00:00",
+      "cluster": "c11957d1e89"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T06",
-    12
+    13
   ],
   "yt_eval": [
     "CBMigAJBVV95cUxQSE1EeU82TjVOYnJMREVWYlZQcUNINzVlWUZqQVNoYjVsU3NGcDJjU21jd0EzSGJQRmQydklVdm5rYVE3d0VMN0NudzVQaUlhZ2dLZXhabFV6ZzNsOTJnUTA1b0ViTF9JaUpMNHd0cmVqRXpnZDhqMGY3Zlkya2dQNEUtQ1V5ZmZMcU93UkxoSVk2R2FMaHFfV2tiWGNNeXZKajl0RmFmSExDTGNRMDNDemVURGlqSlpSVk96b0ozcWZkcVJteEpuMXl0SHpSRnhMR0ZGclh5N1VJUmtJeGhtWU9qWERjZDdGUWJHdU5paWowc0xKV2hOV1RzRzdGOGxp",
