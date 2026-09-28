@@ -1,5 +1,7 @@
 {
   "seen": {
+    "22ef1f2aed25cfc2": 1790632770.8185165,
+    "ace239fcddc4c0bd": 1790632770.2841136,
     "e383ea3095626b90": 1790632703.7808342,
     "119388a951ac93f1": 1790632703.1652305,
     "f8d2c621a0f80674": 1790632703.143517,
@@ -2497,9 +2499,7 @@
     "11cfe9f1e3fc5851": 1790025133.2523184,
     "cebdf562c3e624d1": 1790025132.9193163,
     "5e78a74f743693b6": 1790025132.9008842,
-    "e7b2c9f812e30b2a": 1790025069.621399,
-    "a1e07848c7b6bc54": 1790025005.8170044,
-    "acb1b735565ca5a1": 1790025005.3687923
+    "e7b2c9f812e30b2a": 1790025069.621399
   },
   "initialized": true,
   "v": 4,
@@ -4219,13 +4219,19 @@
       "source": "mmajunkie.usatoday.com",
       "ts": "2026-09-28T21:10:00+00:00",
       "cluster": "c910e819456"
+    },
+    {
+      "t": "Florida Police Officer Signed To UFC Will Continue Working In Law Enforcement Full-Time While Fighting On The Side",
+      "source": "BroBible",
+      "ts": "2026-09-28T21:11:16+00:00",
+      "cluster": "c6596b18896"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T21",
-    24
+    25
   ],
   "yt_eval": [
     "CBMiiwFBVV95cUxQSzBrZEpIWnFaeXk3QmZPbzFnNG9xOXN3amdXdHI5bTluQWluUE1SQXFURXRaTng1czRkZ0lJc0VmXzR4SUxyMmFSVmRvRDZIV2c0QnVQZjNYN0VmVExRWW1qUEVHMFctenh4cUtBSXZWUWtyWTN4ZVV4QlJvdnpoM0xsQ09VYU1NNldn",
