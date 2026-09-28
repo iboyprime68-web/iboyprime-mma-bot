@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5dc56d93bec748b4": 1790632840.9398956,
     "ac813af83f79b6d4": 1790632816.611288,
     "22ef1f2aed25cfc2": 1790632770.8185165,
     "ace239fcddc4c0bd": 1790632770.2841136,
@@ -2498,8 +2499,7 @@
     "c83eaaa1bde68d0a": 1790025197.7211187,
     "60f1f77809461f09": 1790025197.3640027,
     "11cfe9f1e3fc5851": 1790025133.2523184,
-    "cebdf562c3e624d1": 1790025132.9193163,
-    "5e78a74f743693b6": 1790025132.9008842
+    "cebdf562c3e624d1": 1790025132.9193163
   },
   "initialized": true,
   "v": 4,
@@ -4219,13 +4219,19 @@
       "source": "BroBible",
       "ts": "2026-09-28T21:11:16+00:00",
       "cluster": "c6596b18896"
+    },
+    {
+      "t": "Sean Strickland confirms next opponent, now it’s just a matter of when",
+      "source": "The Big Lead",
+      "ts": "2026-09-28T21:12:15+00:00",
+      "cluster": "c34b3a5edd0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T22",
-    0
+    1
   ],
   "yt_eval": [
     "ea271155-b194-452f-8b19-9e34b64a9c25",
