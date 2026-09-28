@@ -1,5 +1,6 @@
 {
   "seen": {
+    "38fca138ef2c77c5": 1790631822.789443,
     "9847c62bfa8f196f": 1790631796.9554734,
     "d57abb94dcc845f7": 1790631770.849875,
     "353fb96c4c14ea16": 1790631745.1951551,
@@ -2498,8 +2499,7 @@
     "aeff01d9d8e941aa": 1790011480.2942722,
     "4f637f08af60890c": 1790011480.2932618,
     "324333633370b6be": 1790011349.595558,
-    "5b579057be66b34d": 1790011349.5936,
-    "092ecb6195d5e15a": 1790011349.591926
+    "5b579057be66b34d": 1790011349.5936
   },
   "initialized": true,
   "v": 4,
@@ -4105,13 +4105,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-28T12:30:01+00:00",
       "cluster": "c876c559fcd"
+    },
+    {
+      "t": "Fighter-turned-reporter makes ‘bold prediction’ ahead of Amanda Nunes vs Kayla Harrison at UFC 334",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-28T18:00:00+00:00",
+      "cluster": "c88b5a16cfe"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T21",
-    4
+    5
   ],
   "yt_eval": [
     "3303b7c5-e45b-3be2-a668-61548ca3ffbf",
