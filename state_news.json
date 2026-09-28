@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3608e9ffeb8c6793": 1790631979.796965,
     "0f9c20b5e2c618d5": 1790631954.6850634,
     "cc4f1bfc2cdcd927": 1790631954.4238045,
     "8690c34a7b3983b2": 1790631927.8892534,
@@ -2498,8 +2499,7 @@
     "f4ef01622c126784": 1790024078.5031137,
     "1b37565a708f057a": 1790024053.387341,
     "84d82ea83b723c79": 1790024029.5751824,
-    "5c5f64305f873897": 1790024005.8058224,
-    "d9770ead36de4586": 1790012850.7743785
+    "5c5f64305f873897": 1790024005.8058224
   },
   "initialized": true,
   "v": 4,
@@ -4141,13 +4141,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-28T16:32:07+00:00",
       "cluster": "c8735216341"
+    },
+    {
+      "t": "UFC 332 broadcast team revealed including 2 former champs providing analysis",
+      "source": "MMA Fighting",
+      "ts": "2026-09-28T21:19:10+00:00",
+      "cluster": "cb51e490826"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T21",
-    10
+    11
   ],
   "yt_eval": [
     "CBMihwFBVV95cUxNcWZhdWNnaHNxVDdEZUwtelB5TURCbjNXSG1CY0xaOUxGekdHUE52blBReEpRZnVFdGg4eXhUcWJXcFFaOGxxYkYzWUFKZ3BpSXlEYzFaVnVqelBvTjVPTVN6aEVTWW9vcmEzckRQX296SF9CQlF0NmdwRTQ3c1pMYWdmX1UzY1U",
