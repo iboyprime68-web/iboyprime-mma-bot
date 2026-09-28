@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b9fdc349b9808d57": 1790611083.7349756,
     "24352f0dd5e51cfe": 1790611013.9005315,
     "e20a35907b2ccc00": 1790610947.031426,
     "41dfc99069a9721d": 1790610879.922396,
@@ -2498,8 +2499,7 @@
     "97edc6bfff084aab": 1790011167.2140877,
     "0c772dedfb2aa330": 1790011142.0687745,
     "406d2ee1e38046c5": 1790011141.7457838,
-    "b4dcaca0a946a1d6": 1790011074.7512593,
-    "04804a01d7f2aa32": 1790011006.7264366
+    "b4dcaca0a946a1d6": 1790011074.7512593
   },
   "initialized": true,
   "v": 4,
@@ -4351,13 +4351,19 @@
       "source": "MMANews.com",
       "ts": "2026-09-28T15:52:19+00:00",
       "cluster": "cb4903d47d5"
+    },
+    {
+      "t": "Justin Gaethje Predicts How Failed Khabib Nurmagomedov UFC Rematch Would've Gone",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-28T11:45:00+00:00",
+      "cluster": "c9f0fe03e0f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T15",
-    49
+    50
   ],
   "yt_eval": [
     "c4d5cc7c-3801-373d-b7a9-08b6cbbfa64a",
