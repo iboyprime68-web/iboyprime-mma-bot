@@ -1,5 +1,6 @@
 {
   "seen": {
+    "41dfc99069a9721d": 1790610879.922396,
     "bd217f96abf6c12b": 1790610753.9983072,
     "c315ca3aff953a41": 1790610690.327987,
     "062dc011a7d719f9": 1790610623.862505,
@@ -2498,8 +2499,7 @@
     "b4dcaca0a946a1d6": 1790011074.7512593,
     "04804a01d7f2aa32": 1790011006.7264366,
     "23f5c345ef4c6656": 1790010939.331138,
-    "1c372012a9fd471d": 1790010870.7997673,
-    "d166e638b4c08bbd": 1790010870.3565338
+    "1c372012a9fd471d": 1790010870.7997673
   },
   "initialized": true,
   "v": 4,
@@ -4333,13 +4333,19 @@
       "source": "lnt.ma",
       "ts": "2026-09-28T15:45:42+00:00",
       "cluster": "c1f41d525f0"
+    },
+    {
+      "t": "UFC Fans Thought Raoni Barcelos Died After Disturbing UFC Ending, Doctor Tries Explaining",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-28T15:43:43+00:00",
+      "cluster": "c34a6f77475"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T15",
-    46
+    47
   ],
   "yt_eval": [
     "e897bdfd-d873-30f4-923b-7e78968dbddf",
