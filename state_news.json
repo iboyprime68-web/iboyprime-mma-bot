@@ -1,5 +1,7 @@
 {
   "seen": {
+    "08838ff058df5c0d": 1790610284.886852,
+    "81f2c43defdc9524": 1790610284.1562483,
     "b1368f93fd020f27": 1790610217.214318,
     "45c6db70c3d60366": 1790610151.4730856,
     "9abc9a80ccdde81c": 1790610151.1898825,
@@ -2497,9 +2499,7 @@
     "f52b23da3cca5413": 1790010730.9414556,
     "6ea341b084f3200a": 1790010663.1755803,
     "106ec7db74d5bfdc": 1790010662.516883,
-    "dc546d262d539fe6": 1790010662.5010576,
-    "06f3412f8b629565": 1790010595.3367605,
-    "798d15a64a69ccd1": 1790010528.1233356
+    "dc546d262d539fe6": 1790010662.5010576
   },
   "initialized": true,
   "v": 4,
@@ -4303,13 +4303,19 @@
       "source": "The Body Lock",
       "ts": "2026-09-28T15:25:45+00:00",
       "cluster": "cd790ca5a67"
+    },
+    {
+      "t": "Strickland On Pay Talks For Imavov Title Defense",
+      "source": "boxingnews.com",
+      "ts": "2026-09-28T15:30:52+00:00",
+      "cluster": "c96d06f5cdf"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T15",
-    41
+    42
   ],
   "yt_eval": [
     "CBMifEFVX3lxTE1uR0JIeG5NVlM1U2Q4QTBnUzY5cGJucFp6ekxyM0xPdkwtZS1sVTZUZTkwTlEwNkdBLVJyM1pma3VPclBScnRKUzJqckREZEV0ZTZUSHo0THVpOTZyMmJReWtzVWFfLTNYN1A0aTYyVkJtOFJTb0NWcnBUQ3Q",
