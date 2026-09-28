@@ -1,5 +1,10 @@
 {
   "seen": {
+    "d6775ce0fdf1d6e9": 1790632980.5167575,
+    "f436d06e50687d35": 1790632980.2535427,
+    "99da8b656d51077d": 1790632980.2509317,
+    "0e45457b4b5ff16a": 1790632980.2272618,
+    "de3a7aa466649d2d": 1790632980.2235136,
     "619f89739c4f77ee": 1790632914.1264923,
     "11fd15f3c2d87b94": 1790632913.818411,
     "b987ca3d011c5abd": 1790632867.747287,
@@ -2494,12 +2499,7 @@
     "e32a1d5e9430b3b0": 1790025588.45652,
     "44911d646a42647a": 1790025522.8999043,
     "6b4b2d3644c63a6a": 1790025522.537744,
-    "e49c975e16a71c3b": 1790025458.8614635,
-    "a4b70610528de35d": 1790025458.2235181,
-    "4bbbaf0256f095d2": 1790025394.3690457,
-    "f7871aba47321272": 1790025327.6495855,
-    "c11fd7396dc89b1e": 1790025262.0876935,
-    "c83eaaa1bde68d0a": 1790025197.7211187
+    "e49c975e16a71c3b": 1790025458.8614635
   },
   "initialized": true,
   "v": 4,
@@ -4231,13 +4231,19 @@
       "source": "UFC.com",
       "ts": "2026-09-28T21:30:00+00:00",
       "cluster": "c2fba7c5f8e"
+    },
+    {
+      "t": "Bruce Buffer addresses Raoni Barcelos's scary loss to Raul Rosas Jr. at UFC Vegas 121",
+      "source": "mmasucka.com",
+      "ts": "2026-09-28T21:54:01+00:00",
+      "cluster": "c229ff00a65"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T22",
-    3
+    4
   ],
   "yt_eval": [
     "CBMivwJBVV95cUxNdWtTaWFvdjBFdEhsVDRqOWNQajNvQURxckNkMFJqcTdkaXNqUHltQ1B4dUhDWU9OQTB5QzRhX1o3UWdvcnY5eGhoWlRoWTkwdnNJSkRubEJ6bm5NS1k5TTh0Um5PZUh5YkZycGNraVdlZkFpYnhLX3hiU0ZIblQ5cVQ0VDNUZ1lQWlVmdzBXcEdEZFQxUHlPQkFnYzE2R3k1dV95cnVBYV9RajA5OUlualRJNElZMkdDUGEzNGZQaGhzbnFOQmhCZjhqTndWRFR3bnZ5YlRPV3UtUnZTOXIxU0lLR04wTlRiQnJXSHMwVm9FalpiSDJDb1kyLWpfVXBEVHpUUTRldDlwMjBmTEpfSkpLZmdmcnJwUUYwNGpSbF9xVFBTOTJFSmV1LTBuSUZsM3lNV3ZwdWM2U2FRUEw0",
