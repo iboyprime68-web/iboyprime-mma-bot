@@ -1,5 +1,7 @@
 {
   "seen": {
+    "8640a447e066eb5c": 1790580065.3241217,
+    "09ecae90cfb04a4b": 1790580064.9558487,
     "42fe17f545f616f3": 1790580039.4134443,
     "c79688f7f81ca333": 1790579765.310276,
     "9266c6ad02ea464c": 1790579452.2462735,
@@ -2497,9 +2499,7 @@
     "d1ac6842a75cb53e": 1789986913.124603,
     "2357bf1d07c095af": 1789986912.8389785,
     "71afbf1a58f2f8a5": 1789986912.8146787,
-    "3f3bbe24fb0b6325": 1789986847.1014569,
-    "a88778af7f4569dc": 1789986782.221053,
-    "be2c425d467fe6e2": 1789986781.7168105
+    "3f3bbe24fb0b6325": 1789986847.1014569
   },
   "initialized": true,
   "v": 4,
@@ -4333,13 +4333,19 @@
       "source": "EssentiallySports",
       "ts": "2026-09-28T07:15:00+00:00",
       "cluster": "c36903250ca"
+    },
+    {
+      "t": "Justin Gaethje shuts down Ilia Topuria ‘quit’ narrative after UFC 250",
+      "source": "Sherdog",
+      "ts": "2026-09-28T04:55:04+00:00",
+      "cluster": "c9cb32795f2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T07",
-    6
+    7
   ],
   "yt_eval": [
     "CBMi3wFBVV95cUxPRjBjcm0tLXBUS1FiaDBaZmJ1eEF1Y1lfd3dUa08yVFN5Y0liU0E5UDZoY21MTTkzeHhaZzRzX19BYnB3SkM1aHB0SVY5UUJfNEZneUxKaUhNdW1yUmRvR09rOVFXTXQ0cFd4aEhtUnB5OUtjRnRQQUZfWEs1cXBhMlBoVjBDZVhhX1VjOVVGZHRYZno2QVNETmRhTG8yZ0djNnoxZ3dnZmxyWS1ia2JSQ1ZjMmQ1QzRZc1RDRm9vLUVxeWFwQWNzTERFYjJrcGVuWl8tOTI0QlFpbHg2WjJz",
