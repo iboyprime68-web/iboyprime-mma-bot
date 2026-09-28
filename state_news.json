@@ -1,5 +1,6 @@
 {
   "seen": {
+    "451bf2cada394826": 1790609816.1653826,
     "37c3f94cd6f57305": 1790609749.3564053,
     "126c093484fe7880": 1790609682.167261,
     "31384eba01d50caf": 1790609638.74697,
@@ -2498,8 +2499,7 @@
     "06ba8ac4ecf0e9e1": 1790010041.0582073,
     "78dc74f9886a6633": 1790010014.2646306,
     "0e1b09a2cf7f4c12": 1790009967.5165336,
-    "24a5de1f9c5e29a2": 1790009899.8706663,
-    "3a9587317fd5b616": 1790009848.6487591
+    "24a5de1f9c5e29a2": 1790009899.8706663
   },
   "initialized": true,
   "v": 4,
@@ -4267,13 +4267,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-28T15:01:10+00:00",
       "cluster": "cdcfa81c740"
+    },
+    {
+      "t": "UFC: Dana White's Contender Series 94 weigh-in results, Las Vegas",
+      "source": "MMA Junkie",
+      "ts": "2026-09-28T15:02:00+00:00",
+      "cluster": "cf7a0e5e8d5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T15",
-    34
+    35
   ],
   "yt_eval": [
     "CBMivwFBVV95cUxNaEhnQlVwdkpockZDNTZibFJOOFY2VlFyYWhrYUZLNGJFS3h0R29TaVVHempDOHY2dnpQM0hUZ1R0OVFEMFNMYU04cHVKclNOalRsNkV2empMam5FN2RuSU5KYnFhUGRpWmNNVlJZcjhUb0d3bEFjZXVJQV9yLUtzdVFKM3o4S0gycUM4RlFQRzI4b0hybTZQMGpwODR0TTlUdC1ZbUJ0OTdDTkZwTFEtMFJQbUxqeFhrenlsc0h5aw",
