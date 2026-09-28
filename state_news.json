@@ -4360,7 +4360,6 @@
     49
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=331886",
     "c4d5cc7c-3801-373d-b7a9-08b6cbbfa64a",
     "https://bloodyelbow.com/?p=331954",
     "https://www.mmafighting.com/?p=510574",
@@ -5859,26 +5858,17 @@
     "CBMiqgFBVV95cUxNR1RkQURWbWtzZ1R2Rk5objZjVHhLZmdsNHY4UnVEbUt4T2pKcGhfVU1yYUZ4SnF2NVh1UTJmNmt4QkowSDFDX3RPTjdyMGc3UWNQZF9MTGo4Nktxa05ydXU0c0lfVnk2MXdaNS1CR3F6ZEZRd1h4R0hZMFRsR09zZGhsbGE5NU1HYWprdjQ4cGY2bWNkazMwU2Nfb1gwZU1xXzE1RjZZMTFZQQ",
     "CBMieEFVX3lxTE1vbUZhTXh2ZkZjekZSQVRJVTV4VjBhdE01TEZqZWE5SXVNX2lyVWF4cEx6UVQzOE1qZl8wZWNzbG1KRWZUSVZfWHV5VFd0UERzVElONXFpYlVka2pzSlVXYXFFNlpMVkFOc1N4czNhQnJnZGZfaG9Pcw",
     "CBMihwFBVV95cUxQd1dScXVSUjdmblVKdGhaUXl2Rml3R21jZ0NyNlc2QV90TGZlZk84OWRqbEJfT2VuRWdWWmJwWjRWNkNyMmZUNm5UeW5SUERxQWVBWHNNa2hPdTJGcDQ0dXFjU3JVc3k0djlsNDlwbmhXNHBlSVUyc3gwMWFhTXphR29xWUZqQUU",
-    "CBMiqwFBVV95cUxPQnhBNVMxRGwwU2ZadTQ5TXFqT3FtYmFsNHNrdFp3eWNWWDQ3S2NWN2pPalJwYjd2cG16WmJUUFdLUFhQV3hIZU40UHlCODJDaUd1MFlzNVk1WVJQbUYzN1U1VEZWbW9Gc1UyX1RfZGFpUWZBZVczWmo2SVc2SkRGWWFWT2xPS194UGxGbkl6ck9JaTc0R0xORklWbVpEU3B5M3BMUllJdWdlWFU"
+    "CBMiqwFBVV95cUxPQnhBNVMxRGwwU2ZadTQ5TXFqT3FtYmFsNHNrdFp3eWNWWDQ3S2NWN2pPalJwYjd2cG16WmJUUFdLUFhQV3hIZU40UHlCODJDaUd1MFlzNVk1WVJQbUYzN1U1VEZWbW9Gc1UyX1RfZGFpUWZBZVczWmo2SVc2SkRGWWFWT2xPS194UGxGbkl6ck9JaTc0R0xORklWbVpEU3B5M3BMUllJdWdlWFU",
+    "CBMiiAFBVV95cUxPUXQtTUNXVzltbVlGUUp2RnNETXJmR0ZFVzF0RnlmbVhMcGxlMlNLakJ4dXUtcmZmbFJReGxTNFczdU9OaGlZdXU2SEpJNndOMHdxRVR4ekM1ek12NWhqdl9ScmpnVENoTGdiYTMzSVpzRjlKd2RicFlpUy1OSWZGRlFvdi1JdDBw"
   ],
   "daily": {
     "d": "2026-09-28",
-    "ai": 84,
-    "staged": 3,
+    "ai": 85,
+    "staged": 4,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-17T16:35:16.479496+00:00",
-      "t": "Brian Ortega responds to backlash over pulling out of UFC 331: ‘You guys, rightfully so, have earned that anger towards me’",
-      "names": [
-        "ortega",
-        "you",
-        "moicano"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-17T16:36:41.715333+00:00",
       "t": "Tom Aspinall stepping away from social media in the aftermath of title vacation says new statement",
@@ -6628,6 +6618,18 @@
         "strickland"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-28T15:56:57.083195+00:00",
+      "t": "Silva Faces Wang For Vacant UFC 332 Flyweight Title",
+      "names": [
+        "silva",
+        "faces",
+        "wang",
+        "for",
+        "vacant"
+      ],
+      "img": "wash"
     }
   ],
   "seed_pending": [],
@@ -6717,14 +6719,16 @@
     "8e33eb9a1436c6df": 1790452848.5511155,
     "f12e2a5de79b0041": 1790462011.9259903,
     "c7917fa5fa59cc0c": 1790474772.9999394,
-    "bc1aa818936812ec": 1790532882.7455626
+    "bc1aa818936812ec": 1790532882.7455626,
+    "24352f0dd5e51cfe": 1790611017.0854766
   },
   "pinged_titles": [
     [
-      "UFC Vegas 121, The Morning After: Here’s what it will look like when somebody dies in the Octagon",
-      1790532882.7455626,
+      "Silva Faces Wang For Vacant UFC 332 Flyweight Title",
+      1790611017.0854766,
       [
-        "morning"
+        "silva",
+        "wang"
       ]
     ]
   ]
