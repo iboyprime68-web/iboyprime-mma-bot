@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c36cff3396749cd8": 1790634321.1489375,
     "7eaa35d23c1c0dc9": 1790634193.3742263,
     "fa70d4586cc7a58f": 1790634192.552138,
     "6ca5ef0d8836be06": 1790633943.7952225,
@@ -2498,8 +2499,7 @@
     "4438392b0942b2c8": 1790026745.8846965,
     "ae96db4375d3e575": 1790026681.904614,
     "7ae04112445142a4": 1790026617.768553,
-    "0048a7332535aedd": 1790026553.4076002,
-    "5930222592aab837": 1790026489.046074
+    "0048a7332535aedd": 1790026553.4076002
   },
   "initialized": true,
   "v": 4,
@@ -2509,18 +2509,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-26T22:26:16+00:00",
       "cluster": "c1cfaf24655"
-    },
-    {
-      "t": "[UFC-EVENT] UFC Fight Night Live Coverage",
-      "source": "czechinvest.gov.cz",
-      "ts": "2026-09-26T22:23:21+00:00",
-      "cluster": "c71b09babb2"
-    },
-    {
-      "t": "~#(Game-Live) UFC Fight Night Live Match",
-      "source": "czechinvest.gov.cz",
-      "ts": "2026-09-26T22:23:51+00:00",
-      "cluster": "c36e80f31b3"
     },
     {
       "t": "Montel Jackson Finds Payback, Scores Finish Over Ricky Simon",
@@ -2545,12 +2533,6 @@
       "source": "MMA Mania",
       "ts": "2026-09-26T22:42:01+00:00",
       "cluster": "cf2557e3cfe"
-    },
-    {
-      "t": "$√#→[Official-!LIVE™] UFC Fight Night Live Stream",
-      "source": "czechinvest.gov.cz",
-      "ts": "2026-09-26T22:23:23+00:00",
-      "cluster": "c0d6892f363"
     },
     {
       "t": "UFC Vegas 121: Yazmin Juaregui post-fight interview",
@@ -4219,13 +4201,19 @@
       "source": "the-sun.com",
       "ts": "2026-09-28T22:19:46+00:00",
       "cluster": "c4a8a42ab29"
+    },
+    {
+      "t": "UFC Vegas 121 ‘Prelims’ veteran blames himself for split decision loss — ‘I took the easy way out’",
+      "source": "MMA Mania",
+      "ts": "2026-09-28T22:20:00+00:00",
+      "cluster": "c3916dcb227"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T22",
-    10
+    11
   ],
   "yt_eval": [
     "CBMirgFBVV95cUxQSll5WURua194LWduUDR2eUd4cnRSeVdLSmJHbUtSWHloRWVja3VBV2MyUUFZTzhqRXNCWHpFNHZNT1JBeUo5STJIRjIyNk5MUTUwbzl6X1JHVl9ONnc4R3REREJWZjRKYzF6dGtHdXJzc3kxSWN6bVNnaDRMemdBLWpkRTNlazFhQXU4dmV1ZGZ4ZUZfc3YtYUxBeVctYVY1em9wLUdLWFhLcEowbHc",
