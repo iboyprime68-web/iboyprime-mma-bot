@@ -1,5 +1,8 @@
 {
   "seen": {
+    "45c6db70c3d60366": 1790610151.4730856,
+    "9abc9a80ccdde81c": 1790610151.1898825,
+    "02aff43ca1485dea": 1790610151.1858933,
     "c2cb220f1da0cb2f": 1790610084.8194695,
     "43ec367c96aba2ea": 1790610084.4913719,
     "d4d1d90a5d6b727c": 1790610018.0558512,
@@ -2496,10 +2499,7 @@
     "dc546d262d539fe6": 1790010662.5010576,
     "06f3412f8b629565": 1790010595.3367605,
     "798d15a64a69ccd1": 1790010528.1233356,
-    "81088f9458ba003f": 1790010459.3439884,
-    "a61155dbdcaa6398": 1790010390.511827,
-    "7f335be2b04e80a9": 1790010322.2125216,
-    "13603395abb8bc6c": 1790010321.7666385
+    "81088f9458ba003f": 1790010459.3439884
   },
   "initialized": true,
   "v": 4,
@@ -4291,13 +4291,19 @@
       "source": "MMA Junkie",
       "ts": "2026-09-28T15:20:00+00:00",
       "cluster": "cbd022c79b0"
+    },
+    {
+      "t": "UFC's Movsar Evloev Shares Little-Known Fact Before Alexander Volkanovski Title Fight",
+      "source": "Sports Illustrated",
+      "ts": "2026-09-28T15:24:25+00:00",
+      "cluster": "ca6b2a3db87"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T15",
-    39
+    40
   ],
   "yt_eval": [
     "CBMirwFBVV95cUxQbTJOWS1MZmx1OVJmVzJZY0lTeUNJMlNfR0ZoSTBveVQyM3VwMUs3Y0JNRVNiZXRYQWdOZWZsN29XQUJwQm9iQzVmWHJHU3pzc201aF9zNDMyWmd4SG5KS3ZoUFBxb2RzNHk1OWVWWExXemZfbzk0RHd2RklYYjg1SnpiOG1XV3c0RnFySkJ5ZHlyTktjMFlqdGZQQUJreUpKcGw4YWpnV1JRVmlJbWVj",
