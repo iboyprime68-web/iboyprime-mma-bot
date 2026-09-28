@@ -1,5 +1,9 @@
 {
   "seen": {
+    "511d87934a9a97b0": 1790577236.4833503,
+    "a73c74c9a9d5142f": 1790577236.241082,
+    "f3637ffe4779111b": 1790577236.2393608,
+    "c309846519d6a018": 1790577236.2378173,
     "d2c30413c10fba9e": 1790577169.1056726,
     "3de4972342fae9a4": 1790577168.8910599,
     "882c5810ccd0d66c": 1790577102.6234782,
@@ -2495,11 +2499,7 @@
     "3fb34876dc949a9e": 1789965024.078983,
     "6c1311cafdeb0020": 1789965024.067188,
     "6f6c4cde3feeed75": 1789965024.0423994,
-    "b6e18937e05c216f": 1789964836.611166,
-    "26fc5441636e23e7": 1789964708.8671973,
-    "29f9ca0f4e6718c9": 1789964643.5861018,
-    "64410a58728b2fc7": 1789964643.2503176,
-    "9b5dede055bd8934": 1789964578.530178
+    "b6e18937e05c216f": 1789964836.611166
   },
   "initialized": true,
   "v": 4,
@@ -4237,13 +4237,19 @@
       "source": "EssentiallySports",
       "ts": "2026-09-28T05:41:00+00:00",
       "cluster": "c26e4744114"
+    },
+    {
+      "t": "Gaethje Rejects Topuria 'Quit' Claims After UFC 250",
+      "source": "boxingnews.com",
+      "ts": "2026-09-28T06:00:34+00:00",
+      "cluster": "c5cca851bc9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T06",
-    5
+    6
   ],
   "yt_eval": [
     "CBMioAFBVV95cUxPUk9VVkdQcEVpbG40SXQxdUlzdHVYU250ZlNMZnlBdHFyc0NyS3F3MmhINDZ5d1VHOEViUDllTUdWRWFBcTBSc0Y0TmJObHo4OGROcGtxRndOQlJDT3JfUmVpMUZWYjVSZV9EM1RnYzdGbHlhZk5hcFJvY281dXZjS0pscG0wMDFVMkR0Nzl2bk10X2pJMUJBdEthb0owLXBT",
