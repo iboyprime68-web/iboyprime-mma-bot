@@ -1,5 +1,7 @@
 {
   "seen": {
+    "8a939658f9b30e78": 1790609343.6834123,
+    "fb96c6801cfafccd": 1790609343.4283319,
     "84f576314f0ff604": 1790609317.6774287,
     "2cf758bffcbbfd37": 1790609271.4183424,
     "4a88181b0a938eae": 1790609204.8432739,
@@ -2497,9 +2499,7 @@
     "41fa2bfa10695fc7": 1790009687.242289,
     "9c1b87dcde0654c5": 1790009662.6488094,
     "b00828679ee06591": 1790009662.2892454,
-    "3bf698c0b3c99de7": 1790009662.287458,
-    "86f5e39de64ba506": 1790009636.5495007,
-    "1eb357c1a11252cb": 1790009636.2149553
+    "3bf698c0b3c99de7": 1790009662.287458
   },
   "initialized": true,
   "v": 4,
@@ -4225,13 +4225,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-28T13:57:40+00:00",
       "cluster": "c1deb7e2d2e"
+    },
+    {
+      "t": "UFC 333 fight card revealed for Abu Dhabi this October",
+      "source": "whatson.ae",
+      "ts": "2026-09-28T14:50:37+00:00",
+      "cluster": "cfb1671bdea"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T15",
-    27
+    28
   ],
   "yt_eval": [
     "CBMirgFBVV95cUxNeW40TjFSeEMtV1VkVDdxSTd5alFyWVJNaC15R2lvMWp3STlWYUlIaThwajhad3RQdmJqdFROWDBHcjNhbnN6aTVfM0pjTjhqamxXNXVYTjh2aGZVa3lvOVNobFFkeFpiejBBNFZGdVMzZzJCbXcxSk4xR2xvcERhSk1Oem1Hb21fMXhHQlhQNm5uNzZfYjdaUnkzNlNVNG5XOVlZaUh3MGtWWDh5Q2c",
