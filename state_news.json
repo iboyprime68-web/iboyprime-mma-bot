@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b1368f93fd020f27": 1790610217.214318,
     "45c6db70c3d60366": 1790610151.4730856,
     "9abc9a80ccdde81c": 1790610151.1898825,
     "02aff43ca1485dea": 1790610151.1858933,
@@ -2498,8 +2499,7 @@
     "106ec7db74d5bfdc": 1790010662.516883,
     "dc546d262d539fe6": 1790010662.5010576,
     "06f3412f8b629565": 1790010595.3367605,
-    "798d15a64a69ccd1": 1790010528.1233356,
-    "81088f9458ba003f": 1790010459.3439884
+    "798d15a64a69ccd1": 1790010528.1233356
   },
   "initialized": true,
   "v": 4,
@@ -4297,13 +4297,19 @@
       "source": "Sports Illustrated",
       "ts": "2026-09-28T15:24:25+00:00",
       "cluster": "ca6b2a3db87"
+    },
+    {
+      "t": "From Heavy Favorite to Tapping Out: Nakamura’s Crushing UFC Vegas Loss",
+      "source": "The Body Lock",
+      "ts": "2026-09-28T15:25:45+00:00",
+      "cluster": "cd790ca5a67"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T15",
-    40
+    41
   ],
   "yt_eval": [
     "CBMi-gFBVV95cUxOcGEwV3VqSEY4VE1JLTRVMnVFOFVFcXNIOG5GYm12b3JybTB2ekVFVEVpTFA3V2FsSzA0T0NUV2hqTGxyMlE1WnVPTWRxeUdiRVN6NWUzUzhhY254VWxNd1Y2REVGU2M5MW94U243Q21hdFRKR0ttLTFDbUFGZFBWVWFfOTh2MFhHeFRDTC1lZ2FVUkNIVzhFSVFocTA0dm52d2JqeFkwc08wcExXWkpaYVNteVYyZXpqd3dxdWFCdmpGZXZJOEZZNTNaSWRsTkVUc1hTUktiT25wWkRSNm9RUFQ1UUZRb09aeGltY3AxeGp2MHNvVGVsdWNn",
