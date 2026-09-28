@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7e3000b951b74939": 1790632158.1764708,
     "ce90fc3ed609ef29": 1790632091.7332625,
     "3cc7bafb5c2e8277": 1790632026.309254,
     "3608e9ffeb8c6793": 1790631979.796965,
@@ -2498,8 +2499,7 @@
     "f5dca5fadd87b32e": 1790024149.6474547,
     "6550b3c0f1be930c": 1790024126.0102437,
     "e56b1c7dd1a42674": 1790024102.9381025,
-    "f4ef01622c126784": 1790024078.5031137,
-    "1b37565a708f057a": 1790024053.387341
+    "f4ef01622c126784": 1790024078.5031137
   },
   "initialized": true,
   "v": 4,
@@ -4159,13 +4159,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-28T17:00:55+00:00",
       "cluster": "c90f7953d73"
+    },
+    {
+      "t": "UFC Star Sean O'Malley Sends Encouraging Message After Former Rival's Latest Win",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-28T17:30:01+00:00",
+      "cluster": "cf370b6a7fd"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T21",
-    13
+    14
   ],
   "yt_eval": [
     "CBMiuwFBVV95cUxPb3VHSjZELTQwR2pZUVBmSEl4MFZYUDVIckUtTGNPRE5weVlMenZva0w0d1hvZjBpXzNWVnJlTW4zbjVmWC01Sk51ekJDbzI4cm55cFRHbkM2Rl9tbzc3Q3BsUjNmbkdidG54VHRVSmF6ZjZxeHdpWnFFaWVueUdYQnlocUJ1T0RlaXBiYVRsbUFMaXM5Um0ycTdCRXY0dThzQUhVRFNzVFoxN0huVUw0aHRSeC1IRGw2SFJZ",
