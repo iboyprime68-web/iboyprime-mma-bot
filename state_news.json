@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e249855ec1bc8d3c": 1790578193.2809103,
     "c34b1300fde9325a": 1790578150.0312345,
     "d981c47181d9e7f5": 1790577877.83437,
     "b535a922bcbeaee0": 1790577773.1695733,
@@ -2498,8 +2499,7 @@
     "4349244d7106c38b": 1789966815.1752331,
     "13732f1a86bcf723": 1789966585.7897735,
     "c1b148e2ef1e4839": 1789966356.9300544,
-    "8e608510a026fa61": 1789966168.3329585,
-    "3656011cb4fe0c28": 1789966103.5531611
+    "8e608510a026fa61": 1789966168.3329585
   },
   "initialized": true,
   "v": 4,
@@ -4297,13 +4297,19 @@
       "source": "Sherdog",
       "ts": "2026-09-28T02:21:48+00:00",
       "cluster": "c937625fc57"
+    },
+    {
+      "t": "Luke Riley predicts first-round KO of undefeated Tommy McMillen",
+      "source": "Sherdog",
+      "ts": "2026-09-28T02:39:20+00:00",
+      "cluster": "ce9bae1dbbe"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T06",
-    15
+    16
   ],
   "yt_eval": [
     "CBMisgFBVV95cUxOdWw2dDBqcEhHcVBfekIyZ01EMFFGU05sQTJCWk1YTm9lVVJvN3FnSmFyYTBUWk4zTWdaUVNqbXBXUG9CSEZhMG5mVkhBTkhlNGR3YXQ0RjJhc3J3OUJtWVNWczNVcVItVHM0al9hQXRnTEpwOUJibWFlOV9xMnByODZ4X1d6OXRzVGxIb0VrSk9ZR1FNSG5BMTA0T3M4ek1lNEhpdEFodVZnM0ctZ3J0dFNn",
