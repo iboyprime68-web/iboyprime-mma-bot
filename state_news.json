@@ -1,5 +1,7 @@
 {
   "seen": {
+    "acc147dd6faa2282": 1790632429.176499,
+    "2de7b3bf1dd76be3": 1790632428.879022,
     "43efee08bffac1a7": 1790632362.3363378,
     "45bb9fab1669b01e": 1790632336.5987718,
     "e56d21b770e3e706": 1790632290.8741841,
@@ -2497,9 +2499,7 @@
     "85944ef77e048cd6": 1790024489.7086437,
     "edb199aab17359f1": 1790024440.6804006,
     "754bb35e9f14a223": 1790024417.968238,
-    "dce8c1afcd4ef17c": 1790024348.437061,
-    "c9ceab826f2e8578": 1790024324.1500623,
-    "0b64edb0b31503da": 1790024280.1611574
+    "dce8c1afcd4ef17c": 1790024348.437061
   },
   "initialized": true,
   "v": 4,
@@ -4189,13 +4189,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-28T18:25:14+00:00",
       "cluster": "c147a744cde"
+    },
+    {
+      "t": "American Top Team staple says Kayla Harrison vs. Amanda Nunes comes down to one thing",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-28T18:40:21+00:00",
+      "cluster": "cef84290d56"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T21",
-    18
+    19
   ],
   "yt_eval": [
     "CBMiyAFBVV95cUxORnFTaGFZY1FTVXYtSWFHVmFVNU51Z3dSOTJFUzR3NDFGOFMwNndwdFhETFczYV9FUnMtQzJ4UUlVazdsNXpRTzFKMTkyTi16RnZGQ2F0VVFpLXlfSW5oNGdzX1JxTTFscURaRXY0MWp4T280UnBmd3BwSU93TlNrbi1SNjlTTHhOT1lzbjVkNmc3TFdOMnhjNnhQcEo5NHZhN2ptb21xS0NGanVmUWQwb3U0dzNOYXF6emFMOTlJczBScmd4QmhRTw",
@@ -6558,7 +6564,8 @@
     "f12e2a5de79b0041": 1790462011.9259903,
     "c7917fa5fa59cc0c": 1790474772.9999394,
     "bc1aa818936812ec": 1790532882.7455626,
-    "24352f0dd5e51cfe": 1790611017.0854766
+    "24352f0dd5e51cfe": 1790611017.0854766,
+    "acc147dd6faa2282": 1790632428.9049203
   },
   "pinged_titles": [
     [
@@ -6567,6 +6574,15 @@
       [
         "silva",
         "wang"
+      ]
+    ],
+    [
+      "American Top Team staple says Kayla Harrison vs. Amanda Nunes comes down to one thing",
+      1790632428.9049203,
+      [
+        "harrison",
+        "nunes",
+        "top"
       ]
     ]
   ]
