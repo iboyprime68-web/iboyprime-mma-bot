@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a77f7a9c11b9adcf": 1790580172.3052242,
     "8640a447e066eb5c": 1790580065.3241217,
     "09ecae90cfb04a4b": 1790580064.9558487,
     "42fe17f545f616f3": 1790580039.4134443,
@@ -2498,8 +2499,7 @@
     "fd64c03835c8791b": 1789986957.2807188,
     "d1ac6842a75cb53e": 1789986913.124603,
     "2357bf1d07c095af": 1789986912.8389785,
-    "71afbf1a58f2f8a5": 1789986912.8146787,
-    "3f3bbe24fb0b6325": 1789986847.1014569
+    "71afbf1a58f2f8a5": 1789986912.8146787
   },
   "initialized": true,
   "v": 4,
@@ -4339,13 +4339,19 @@
       "source": "Sherdog",
       "ts": "2026-09-28T04:55:04+00:00",
       "cluster": "c9cb32795f2"
+    },
+    {
+      "t": "Elias Garcia",
+      "source": "UFC.com",
+      "ts": "2026-09-28T06:37:17+00:00",
+      "cluster": "c851f8d95b7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T07",
-    7
+    8
   ],
   "yt_eval": [
     "CBMiggFBVV95cUxNbFdIRV9xZ2dlY1g1UlIzZ3NwcWVyM085TXUzdmVub3VITEU4Um9kMlVlQWo5Wm9WNENnUFRGNnFLcnFwbkZnTzVRVHFaeTVNSWRieG9rM0xnR05tMjY3dU1hUmlyZEg5ZXFYeFZCb2czeFhjRVZPT0xJcTJOWFI0bDRn",
