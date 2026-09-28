@@ -1,5 +1,8 @@
 {
   "seen": {
+    "68ccab356eae1fda": 1790577308.2706203,
+    "b67461d1b4bb179f": 1790577307.9993048,
+    "d0365a12731985d2": 1790577307.9976335,
     "03e651430b194f43": 1790577261.8622196,
     "511d87934a9a97b0": 1790577236.4833503,
     "a73c74c9a9d5142f": 1790577236.241082,
@@ -2496,10 +2499,7 @@
     "03fa0523308bd3a4": 1789965340.4156497,
     "0b055697b8ed489d": 1789965275.6870928,
     "557e124ba5efbe62": 1789965275.321258,
-    "aa7a412ddbbed500": 1789965024.4534428,
-    "3fb34876dc949a9e": 1789965024.078983,
-    "6c1311cafdeb0020": 1789965024.067188,
-    "6f6c4cde3feeed75": 1789965024.0423994
+    "aa7a412ddbbed500": 1789965024.4534428
   },
   "initialized": true,
   "v": 4,
@@ -4249,13 +4249,19 @@
       "source": "Sherdog",
       "ts": "2026-09-28T01:52:41+00:00",
       "cluster": "c5f75e802d6"
+    },
+    {
+      "t": "Sean Strickland fait une énorme annonce concernant Nassourdine Imavov",
+      "source": "ActuMMA",
+      "ts": "2026-09-28T06:04:03+00:00",
+      "cluster": "cf4932a29e0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-28T06",
-    7
+    8
   ],
   "yt_eval": [
     "CBMiakFVX3lxTFBCSTRJZ0JPU1lwbVJzaXVyWXlwX2kzcHJidlJqaFRjT29pTkoyVDVBYXI3bkE0bHhOZUhMQ0M5SzBhWHNyWm1Zdkw4Z0J3MDJGREZtRURhejVYSlczd08wYWw0c1VVY3UzOXc",
