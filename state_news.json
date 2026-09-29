@@ -1,5 +1,8 @@
 {
   "seen": {
+    "a08037b20ed5390f": 1790697623.7455268,
+    "e048d4839e4e5673": 1790697621.6559148,
+    "4daba59a710d9532": 1790697621.6537251,
     "f96fcf215a2c1ff8": 1790697558.0292985,
     "ffd1ae17e473be59": 1790697557.7325113,
     "cccd4f7b53db654a": 1790697493.4762065,
@@ -2496,20 +2499,11 @@
     "587eef2e03ab3fa6": 1790071612.3957975,
     "e9a5ae2cfb158baa": 1790071612.3944073,
     "51b167b58a5ab99f": 1790071547.7035413,
-    "122f853f213df412": 1790071476.7508981,
-    "6652c371aa1d01f5": 1790071411.9926121,
-    "3a6a2b1195ec750b": 1790071388.4670043,
-    "8cbcba38f021892d": 1790071388.4657223
+    "122f853f213df412": 1790071476.7508981
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Watch Charles Oliveira’s intense live reaction to teammate’s brutal KO at UFC Vegas 121",
-      "source": "Bloody Elbow",
-      "ts": "2026-09-27T16:00:00+00:00",
-      "cluster": "c0d55a26e7c"
-    },
     {
       "t": "UFC Vegas 121 scorecards show Raoni Barcelos was minutes away from beating Raul Rosas Jr.",
       "source": "Bloody Elbow",
@@ -2521,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-27T18:00:00+00:00",
       "cluster": "c27ca2caf52"
-    },
-    {
-      "t": "Mehemmedeli Osmanli accuses Ilimbek Akylbek of faking injury in TUF finale DQ",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-27T16:00:00+00:00",
-      "cluster": "c7581314af0"
     },
     {
       "t": "Aaron Pico embracing UFC 333 changes as he eyes championship opportunity",
@@ -4021,13 +4009,19 @@
       "source": "Sherdog",
       "ts": "2026-09-29T15:24:58+00:00",
       "cluster": "c1f4a1d8e0d"
+    },
+    {
+      "t": "UFC 332 fight card adds undefeated welterweight on short notice",
+      "source": "MMA Fighting",
+      "ts": "2026-09-29T15:09:00+00:00",
+      "cluster": "c18c69384e6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-29T15",
-    34
+    "2026-09-29T16",
+    1
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828",
