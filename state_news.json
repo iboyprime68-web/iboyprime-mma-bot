@@ -3964,7 +3964,6 @@
     23
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=332079",
     "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828",
     "https://www.mmafighting.com/?p=510763",
     "https://bloodyelbow.com/?p=332111",
@@ -5463,24 +5462,17 @@
     "aa807aa2-0580-3b2e-8300-216436b46abd",
     "5ee53a24-c4e2-34c6-9594-c5708a188681",
     "8e03dcf8-c277-3766-9440-a7f13ffb0993",
-    "768b5015-be95-3854-84a4-aae4c9223a7b"
+    "768b5015-be95-3854-84a4-aae4c9223a7b",
+    "CBMiuAFBVV95cUxQUHR2SXUta19jT01nZmcyNDJ2YW1FZVJKTnlnOXE5M1VtQkdYRl9wRTJaMEpPeDAyYzl3VTFjS0NwSVhxc2tHR2JqOHNKT1otRk5MTVZGM3hEaVlqUGtEaGdtM04zVGJlQnFlNlE4VGdia3lUdjBha24xR25YMUZBaUlRRXpqeEtIRGNISDNlS3Z1Vnl2OXVQRW9wUmpVRV8zZU14NzlDQzlYZWZJcmtWODY1aURKcHo5"
   ],
   "daily": {
     "d": "2026-09-29",
-    "ai": 74,
-    "staged": 5,
+    "ai": 75,
+    "staged": 6,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-18T17:46:47.165040+00:00",
-      "t": "Conor McGregor expected to fight in bare-knuckle once UFC deal expires",
-      "names": [
-        "conor"
-      ],
-      "img": "wash"
-    },
     {
       "ts": "2026-09-19T03:56:49.847144+00:00",
       "t": "Khamzat Chimaev definitively beats Gilbert Burns in long-awaited rematch at RAF13",
@@ -6231,6 +6223,15 @@
         "qatar"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-29T15:47:27.103797+00:00",
+      "t": "The Painful Plight of Tom Aspinall as Brit Officially Vacates UFC Heavyweight Title",
+      "names": [
+        "plight",
+        "aspinall"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -6326,7 +6327,8 @@
     "ecc9123235e95d52": 1790645908.4104767,
     "1dac67080c3609b4": 1790669613.623304,
     "27c8b1dfc11ade2c": 1790696017.509631,
-    "3db070abf94acc76": 1790696207.1506045
+    "3db070abf94acc76": 1790696207.1506045,
+    "407e72ca6ef3056f": 1790696847.106248
   },
   "pinged_titles": [
     [
@@ -6343,6 +6345,14 @@
         "prochazka",
         "qatar",
         "stirling"
+      ]
+    ],
+    [
+      "The Painful Plight of Tom Aspinall as Brit Officially Vacates UFC Heavyweight Title",
+      1790696847.106248,
+      [
+        "aspinall",
+        "plight"
       ]
     ]
   ]
