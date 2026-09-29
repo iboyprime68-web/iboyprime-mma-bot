@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c4d2693b31e77260": 1790698528.5563004,
     "608f9bd318af2c88": 1790698402.4889839,
     "f8fc059fc8342f86": 1790698335.2968552,
     "74c1efc2b4ac27fa": 1790698334.9362216,
@@ -2498,8 +2499,7 @@
     "ad8c07c60c79ae16": 1790087984.0298474,
     "f63c3b28b4cfe9d2": 1790087958.5500221,
     "630700e51ff9db2b": 1790087915.0182416,
-    "0b6d79327b3e5bb2": 1790087851.097864,
-    "f77b9213fce0cb28": 1790087850.7984602
+    "0b6d79327b3e5bb2": 1790087851.097864
   },
   "initialized": true,
   "v": 4,
@@ -4087,13 +4087,19 @@
       "source": "heavy.com",
       "ts": "2026-09-29T16:09:49+00:00",
       "cluster": "c877400e2bd"
+    },
+    {
+      "t": "UFC heavyweight Sean Sharaf explains how he got into massive $600K debt",
+      "source": "MMA Junkie",
+      "ts": "2026-09-29T16:10:00+00:00",
+      "cluster": "ce2d01cdd51"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T16",
-    13
+    14
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828",
