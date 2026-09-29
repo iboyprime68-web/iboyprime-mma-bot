@@ -1,5 +1,7 @@
 {
   "seen": {
+    "f971715e6af7e240": 1790714132.5187945,
+    "f85edeb50a39f6d3": 1790714132.2880836,
     "9786ca8cfbf641fc": 1790714110.2785761,
     "e606f6178be0a96a": 1790714087.206472,
     "43779dc759bca457": 1790714063.9035885,
@@ -2497,9 +2499,7 @@
     "96e575065b2504ef": 1790088761.3826854,
     "8f6fcfa55fa40d8e": 1790088697.2526422,
     "2664365eba4702ba": 1790088632.8283045,
-    "1c3e8053832a11db": 1790088568.3239162,
-    "03ad048700f79db1": 1790088567.7240105,
-    "ea1beda24ea084c3": 1790088567.7227123
+    "1c3e8053832a11db": 1790088568.3239162
   },
   "initialized": true,
   "v": 4,
@@ -4003,13 +4003,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-29T18:04:24+00:00",
       "cluster": "c81d426fe5b"
+    },
+    {
+      "t": "UFC star who was involved in post-fight brawl with Luis Hernandez claims promotion blocked fight",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-29T19:00:00+00:00",
+      "cluster": "cca8d0cc714"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T20",
-    5
+    6
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510763",
