@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d5507ade6f40a152": 1790696982.2376242,
     "43b8e160979d11fd": 1790696918.2805371,
     "ba797d4385e02293": 1790696918.018105,
     "c0455d6b63c6c2fb": 1790696918.015824,
@@ -2498,8 +2499,7 @@
     "8c857b7fae11e29b": 1790070891.8110821,
     "05200933843f8b07": 1790070826.6166077,
     "d863875bb3303ddf": 1790070826.3041263,
-    "d7b90414ab4bcf87": 1790070780.7807071,
-    "9e422b6ad80eafbd": 1790070756.5455222
+    "d7b90414ab4bcf87": 1790070780.7807071
   },
   "initialized": true,
   "v": 4,
@@ -3961,13 +3961,19 @@
       "source": "Sports Illustrated",
       "ts": "2026-09-29T14:54:28+00:00",
       "cluster": "c9c2a82f4bc"
+    },
+    {
+      "t": "Dustin Poirier, Jorge Masvidal Reveals Why TUF 34 Fighter Flopped His Way to DQ Win",
+      "source": "EssentiallySports",
+      "ts": "2026-09-29T14:56:00+00:00",
+      "cluster": "c6217084395"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T15",
-    24
+    25
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828",
