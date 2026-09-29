@@ -3862,7 +3862,6 @@
     5
   ],
   "yt_eval": [
-    "CBMiwAFBVV95cUxNNHBGcXU4ajE1bUx2VGhtay1Oc0ZKSkpZU09RWWZsb1BnWWpSbVE5WGVTZ1RKLU1UZXF4bmVJRFJTRk5ZeDQ3V3hEUmZzX1d5RmNFbjNhMW02UHg1S2VYblpzN3Zrek9MN1VQb3BYM1hHY2VvTnRjWXlSbVl3eGlWR3ZFbHJhNGh3MXRsZnpVQ19RZGg0TU9weV9VLW9UWjE0amdBdGpHYUs5b3JEZjNud3ZBZ180WDZJeXZiQW04Mks",
     "CBMieEFVX3lxTE94ekdVOUVLTEwxNHA4SnJZLU9BS0hrbXY0SFRCUE5YTVlhTExRVjlGTFdENWtqVHJhdEZUT1ZTWTBnZEowTUd2YmZuLUlLRTFsMUxCbEJHT01LTHF2czd4cV9nU09tcGE3Uk1JRWw5Zk4xVGtOeHQxdA",
     "CBMiiAFBVV95cUxPOWotamM0eU9EOUNfUy1EdEJLQVVOOU9NXzdfRE5fWWpyYlVaY3AtRFI2YjgyZGFTWEdQNDFsTHp0aDVGNDdqZi1zMllzVy1tT1RBSlJiakJYWUVzWVF2NnVmTlVwbWszbm9FWVZYMnk1dEVzQWZxQjlDblVmU1p3V1MyREZXc1pE0gGOAUFVX3lxTFBEMVpPYU5WeXdGa0VySTJRMFVxeGVMbEZvUUF1cTBMbTNibFk4dGNTVldjLWNaaE16cjFma05zcGJGRFBCb3FRZXdpaDlXLWpEaDFUS2hMRi1PVzlYanl3dmRkMlRSVGotb1NSZ2RSNjZRNFlaY3hhWVJOeG1wMHd2UVFJNUxRUEpsRjFCVGc",
     "CBMioAFBVV95cUxNTEQtQXI5cTdGMk1SU3JnTm0tcUtNZ3FQQ1BhTy1iQUVIVTNfd0ZvQlY0YzJzcnJVbXdqMU4waE5YM29TNWRSMktHT1hrMVJCZkk1Z0Jrb2ZLZ0xUQUU4NjBwU2NlOTMwMEYtdHFKQjhBT2dTY1pRZ09DTm1Eei1xT1JLX0cyYzhBd1RhenpHNUZjUjJZN3ExeFA5X0NMd1hD",
@@ -5361,24 +5360,17 @@
     "https://www.mmafighting.com/?p=513029",
     "https://www.mmafighting.com/?p=513091",
     "https://bloodyelbow.com/?p=334421",
-    "80ea336e-dede-39a7-948a-2628776fbff3"
+    "80ea336e-dede-39a7-948a-2628776fbff3",
+    "https://bloodyelbow.com/?p=334450"
   ],
   "daily": {
     "d": "2026-09-29",
-    "ai": 56,
-    "staged": 2,
+    "ai": 57,
+    "staged": 3,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-18T13:33:07.454471+00:00",
-      "t": "Khamzat Chimaev reveals details about injuries requiring time off, plans to challenge for UFC middleweight title again",
-      "names": [
-        "chimaev"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-18T13:46:01.645520+00:00",
       "t": "Aaron Pico gets new opponent in Abu Dhabi for featherweight bout after Arnold Allen withdraws from UFC 33",
@@ -6132,6 +6124,14 @@
         "volkanovski"
       ],
       "img": "cutout:movsar-evloev"
+    },
+    {
+      "ts": "2026-09-29T15:33:37.506711+00:00",
+      "t": "Khamzat Chimaev books huge title fight that is set to clash with UFC 334",
+      "names": [
+        "chimaev"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -6225,15 +6225,15 @@
     "24352f0dd5e51cfe": 1790611017.0854766,
     "acc147dd6faa2282": 1790632428.9049203,
     "ecc9123235e95d52": 1790645908.4104767,
-    "1dac67080c3609b4": 1790669613.623304
+    "1dac67080c3609b4": 1790669613.623304,
+    "27c8b1dfc11ade2c": 1790696017.509631
   },
   "pinged_titles": [
     [
-      "Movsar Evloev targets first UFC finish in title fight vs. Alexander Volkanovski",
-      1790669613.623304,
+      "Khamzat Chimaev books huge title fight that is set to clash with UFC 334",
+      1790696017.509631,
       [
-        "evloev",
-        "volkanovski"
+        "chimaev"
       ]
     ]
   ]
