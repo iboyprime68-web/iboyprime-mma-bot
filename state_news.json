@@ -1,5 +1,8 @@
 {
   "seen": {
+    "fe6b3c5e28ab5fc8": 1790696072.0229573,
+    "07b63b53c1c842b3": 1790696071.2514431,
+    "6356bdbbd2469d53": 1790696071.2492692,
     "721bdf79459b24e6": 1790696045.064444,
     "27c8b1dfc11ade2c": 1790696014.8454783,
     "fffadb8450ce690d": 1790695989.6047943,
@@ -2496,10 +2499,7 @@
     "4954c2ab74a9cb28": 1790052407.3275137,
     "b19ccf722618fd8d": 1790052280.2116706,
     "cabe995c893ae216": 1790052151.948045,
-    "5161d978afcb79aa": 1790052151.3945637,
-    "a19f5b604203f37c": 1790051834.974696,
-    "f97bb35f37025553": 1790051834.9727726,
-    "c49fde241e678830": 1790051768.3749497
+    "5161d978afcb79aa": 1790052151.3945637
   },
   "initialized": true,
   "v": 4,
@@ -3859,13 +3859,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-29T12:00:00+00:00",
       "cluster": "c89f7d78536"
+    },
+    {
+      "t": "UFC's Josh Hokit Rips Tom Aspinall Ahead of MSG Vacant Heavyweight Title Fight",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-29T11:00:07+00:00",
+      "cluster": "cd8ec28e181"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T15",
-    6
+    7
   ],
   "yt_eval": [
     "CBMiiAFBVV95cUxPOWotamM0eU9EOUNfUy1EdEJLQVVOOU9NXzdfRE5fWWpyYlVaY3AtRFI2YjgyZGFTWEdQNDFsTHp0aDVGNDdqZi1zMllzVy1tT1RBSlJiakJYWUVzWVF2NnVmTlVwbWszbm9FWVZYMnk1dEVzQWZxQjlDblVmU1p3V1MyREZXc1pE0gGOAUFVX3lxTFBEMVpPYU5WeXdGa0VySTJRMFVxeGVMbEZvUUF1cTBMbTNibFk4dGNTVldjLWNaaE16cjFma05zcGJGRFBCb3FRZXdpaDlXLWpEaDFUS2hMRi1PVzlYanl3dmRkMlRSVGotb1NSZ2RSNjZRNFlaY3hhWVJOeG1wMHd2UVFJNUxRUEpsRjFCVGc",
