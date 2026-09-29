@@ -1,5 +1,8 @@
 {
   "seen": {
+    "2d1ddcdb8ce28707": 1790714313.0436459,
+    "9df9b3cecf1c51fe": 1790714312.8378088,
+    "2183488ebae1f5cd": 1790714312.812131,
     "4359d1c3a37bc38d": 1790714290.1242523,
     "cd7f12dc1b0a441b": 1790714224.8265057,
     "f9d0d583ecd5b27c": 1790714224.5024078,
@@ -2496,10 +2499,7 @@
     "24dff953ecdc8c22": 1790089019.3711329,
     "b54532d2df7a8a7f": 1790089019.3415496,
     "9fceb3976448e0ee": 1790089019.3394215,
-    "fa24c8f5d4047561": 1790088955.1497123,
-    "68aede13f0017e3b": 1790088954.8972597,
-    "5cfb529d587c349e": 1790088890.8938887,
-    "4753ec8a9aac40ac": 1790088825.068045
+    "fa24c8f5d4047561": 1790088955.1497123
   },
   "initialized": true,
   "v": 4,
@@ -4039,13 +4039,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-29T16:43:40+00:00",
       "cluster": "c72da683c67"
+    },
+    {
+      "t": "‘Upset’ Amanda Nunes obsessed with new UFC star Ailin Perez — ‘I'm in her head like I was with Norma’",
+      "source": "MMA Mania",
+      "ts": "2026-09-29T20:01:11+00:00",
+      "cluster": "c85bf4df6ea"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T20",
-    11
+    12
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510763",
