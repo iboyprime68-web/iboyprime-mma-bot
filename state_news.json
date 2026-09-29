@@ -1,5 +1,7 @@
 {
   "seen": {
+    "407e72ca6ef3056f": 1790696844.519003,
+    "e6f2d5dd46c108e4": 1790696844.2370605,
     "e909bb1caf8d5e92": 1790696777.179296,
     "21e7b06e6dc6d00c": 1790696709.5730252,
     "37ce8312a6c727cb": 1790696643.2024312,
@@ -2497,9 +2499,7 @@
     "a93680feff3f60cb": 1790070690.8600125,
     "206ce9084e2bbe39": 1790070690.858523,
     "4e80d063f81ece3b": 1790070625.4046285,
-    "41f724f8773b102b": 1790070625.104999,
-    "fe0eec77c5e66091": 1790070625.1032102,
-    "f0e0815f8c67e09c": 1790070559.8692327
+    "41f724f8773b102b": 1790070625.104999
   },
   "initialized": true,
   "v": 4,
@@ -3949,13 +3949,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-29T14:00:00+00:00",
       "cluster": "c4d673cb906"
+    },
+    {
+      "t": "The Painful Plight of Tom Aspinall as Brit Officially Vacates UFC Heavyweight Title",
+      "source": "twnpnews.com",
+      "ts": "2026-09-29T14:47:35+00:00",
+      "cluster": "c57a5904e88"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T15",
-    22
+    23
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=332079",
