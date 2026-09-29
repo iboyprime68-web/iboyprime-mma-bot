@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3db070abf94acc76": 1790696207.3595374,
     "ffd95b705c497a9d": 1790696182.090642,
     "6ccd783b3c4e9979": 1790696181.6074603,
     "b7a5aaa22cd1107b": 1790696156.2789488,
@@ -2498,8 +2499,7 @@
     "84b98f7cdcbd053f": 1790053239.3746605,
     "2d7bd56ff09f9ed8": 1790053238.9824116,
     "098f37589e8985fa": 1790053238.9810107,
-    "7f5c7f5fefaab852": 1790052984.6766133,
-    "26ac480a01f6a54c": 1790052918.5387049
+    "7f5c7f5fefaab852": 1790052984.6766133
   },
   "initialized": true,
   "v": 4,
@@ -3889,13 +3889,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-29T15:00:00+00:00",
       "cluster": "c1284a68a2c"
+    },
+    {
+      "t": "Jiri Prochazka vs. Navajo Stirling, 8 other fights official for UFC Qatar",
+      "source": "MMA Fighting",
+      "ts": "2026-09-29T15:26:22+00:00",
+      "cluster": "c70e1089159"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T15",
-    11
+    12
   ],
   "yt_eval": [
     "CBMiqwFBVV95cUxQY3FYb1BKRHd6NFBWR1ZwYXBoOUVMcFdfNDJYaG1POHU1eWRIVUFKdFlQUDJTdDBUSVY0eDQ3dkd3a1A2Z0dzNGhHdUh0RlZ6RGdYY0FycVNyb1hOWU1VN0s5MWdJRGZveG5la0J2WTdXbGVHMDljZFp5RGQwTXZEdWlqMEdQeDQ1Wi0wbmliaEd4b3ZjLWtpN0dQZXNlVEFfZ3ZqeXlkVXF5X1k",
@@ -6259,7 +6265,8 @@
     "acc147dd6faa2282": 1790632428.9049203,
     "ecc9123235e95d52": 1790645908.4104767,
     "1dac67080c3609b4": 1790669613.623304,
-    "27c8b1dfc11ade2c": 1790696017.509631
+    "27c8b1dfc11ade2c": 1790696017.509631,
+    "3db070abf94acc76": 1790696207.1506045
   },
   "pinged_titles": [
     [
@@ -6267,6 +6274,15 @@
       1790696017.509631,
       [
         "chimaev"
+      ]
+    ],
+    [
+      "Jiri Prochazka vs. Navajo Stirling, 8 other fights official for UFC Qatar",
+      1790696207.1506045,
+      [
+        "prochazka",
+        "qatar",
+        "stirling"
       ]
     ]
   ]
