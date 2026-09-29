@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 21,
   "staged_at": [
-    "2026-09-27T14:44:53.356420+00:00",
     "2026-09-27T19:47:42.041696+00:00",
     "2026-09-28T17:43:02.605168+00:00",
-    "2026-09-29T15:58:49.988808+00:00"
+    "2026-09-29T15:58:49.988808+00:00",
+    "2026-09-29T20:53:39.962726+00:00"
   ],
   "asked": [
-    "Who is the most underrated fighter in the UFC right now?",
     "Who is the worst main event in UFC history?",
     "Who is the best commentator in UFC history?",
     "Who is the most complete fighter in the UFC right now?",
@@ -47,33 +46,34 @@
     "What is the most brutal knockout in UFC history?",
     "What is the most cowardly illegal foul in UFC history?",
     "What is the most painful near miss in UFC history?",
-    "Who is the most terrifying UFC fighter to ever step in the octagon?"
+    "Who is the most terrifying UFC fighter to ever step in the octagon?",
+    "Who is the most dangerous striker in UFC history?"
   ],
   "last_entry": {
-    "q": "Who is the most terrifying UFC fighter to ever step in the octagon?",
+    "q": "Who is the most dangerous striker in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Khamzat Chimaev",
-        "emoji": "🐺",
+        "label": "Anderson Silva",
+        "emoji": "🕷️",
         "art": ""
       },
       {
-        "label": "Ngannou",
-        "emoji": "💥",
+        "label": "Conor McGregor",
+        "emoji": "☘️",
         "art": ""
       },
       {
-        "label": "Tony Ferguson",
-        "emoji": "🔪",
+        "label": "Jiri Prochazka",
+        "emoji": "⚔️",
         "art": ""
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "🤡",
-        "art": ""
+        "label": "Other",
+        "emoji": "🤔",
+        "art": "A ninja turtle with boxing gloves shadowboxing in a sewer."
       }
     ],
-    "gag": "A terrified referee hiding behind the cage, peeking through fingers at a shadowy figure."
+    "gag": "A ninja turtle with boxing gloves shadowboxing in a sewer."
   }
 }
