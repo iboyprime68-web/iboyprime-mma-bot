@@ -1,5 +1,8 @@
 {
   "seen": {
+    "43b8e160979d11fd": 1790696918.2805371,
+    "ba797d4385e02293": 1790696918.018105,
+    "c0455d6b63c6c2fb": 1790696918.015824,
     "ba79de3e434a5d65": 1790696874.968715,
     "12d4950f86b3d1ae": 1790696874.963168,
     "a08f88dccff78474": 1790696874.9596362,
@@ -2496,10 +2499,7 @@
     "05200933843f8b07": 1790070826.6166077,
     "d863875bb3303ddf": 1790070826.3041263,
     "d7b90414ab4bcf87": 1790070780.7807071,
-    "9e422b6ad80eafbd": 1790070756.5455222,
-    "dd073bdd309a57d9": 1790070756.2271616,
-    "66521a34394f46f8": 1790070756.226521,
-    "04f6cc5caf7b1d13": 1790070691.1856363
+    "9e422b6ad80eafbd": 1790070756.5455222
   },
   "initialized": true,
   "v": 4,
@@ -3955,13 +3955,19 @@
       "source": "twnpnews.com",
       "ts": "2026-09-29T14:47:35+00:00",
       "cluster": "c57a5904e88"
+    },
+    {
+      "t": "UFC Announces First Official 2027 UFC Fight Night Location & Date",
+      "source": "Sports Illustrated",
+      "ts": "2026-09-29T14:54:28+00:00",
+      "cluster": "c9c2a82f4bc"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T15",
-    23
+    24
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828",
