@@ -1,5 +1,6 @@
 {
   "seen": {
+    "57f9b058881832c3": 1790670516.9706068,
     "d76632c7451a0097": 1790670198.2623093,
     "2a9e1514583aea81": 1790670197.7269084,
     "4dacebdbd489f87b": 1790670089.3092344,
@@ -2498,8 +2499,7 @@
     "d2f0d5242e1e3699": 1790050895.1777892,
     "4033fb6e8b05b8f8": 1790050894.9364235,
     "a7fa777a07343a3c": 1790050894.9352963,
-    "52c5d17baa69f3e2": 1790050829.0662835,
-    "95a9adfc965b9766": 1790050762.6860301
+    "52c5d17baa69f3e2": 1790050829.0662835
   },
   "initialized": true,
   "v": 4,
@@ -3943,13 +3943,19 @@
       "source": "Sherdog",
       "ts": "2026-09-29T03:12:31+00:00",
       "cluster": "cf37c27ae6f"
+    },
+    {
+      "t": "Paul Felder: ‘I thought he had a heart attack’ at UFC Vegas 121",
+      "source": "Sherdog",
+      "ts": "2026-09-29T03:26:24+00:00",
+      "cluster": "cb1e855e566"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T08",
-    17
+    18
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Ilia-Topuria-cleared-for-UFC-return-takes-shot-at-Justin-Gaethje-202838",
