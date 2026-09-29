@@ -1,5 +1,8 @@
 {
   "seen": {
+    "14b90287b74f83aa": 1790669681.729472,
+    "9b1b65893f9748c3": 1790669681.4585578,
+    "884dce2de91a874e": 1790669681.4565082,
     "1dac67080c3609b4": 1790669610.6816492,
     "7be7a9ccdf00a906": 1790669562.7367797,
     "5f398e1b51b82094": 1790669536.5151644,
@@ -2496,10 +2499,7 @@
     "8f0b0f4f008cdcf3": 1790050424.198031,
     "17bb2bb0becec983": 1790050423.885608,
     "6eb842a8693406dc": 1790050423.884342,
-    "13019557bbd7c1dd": 1790050423.8830462,
-    "1b90ca48fc6f4608": 1790050423.8816087,
-    "6bc4af3e0bbabe92": 1790050423.8767083,
-    "b53dcc1fd924df81": 1790050423.875346
+    "13019557bbd7c1dd": 1790050423.8830462
   },
   "initialized": true,
   "v": 4,
@@ -3913,13 +3913,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-29T04:45:39+00:00",
       "cluster": "c27441ea82c"
+    },
+    {
+      "t": "Top Divorce Lawyer Says Daddy Issues Turn Men Into BJJ Guys",
+      "source": "BJJDOC",
+      "ts": "2026-09-29T07:19:02+00:00",
+      "cluster": "ca11bff95b8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T08",
-    9
+    10
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Gable-Steveson-Vacant-UFC-belt-could-put-fire-back-in-Jon-Jones-202834",
