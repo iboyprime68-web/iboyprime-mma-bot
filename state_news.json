@@ -3922,7 +3922,6 @@
     9
   ],
   "yt_eval": [
-    "CBMicEFVX3lxTE82aTM0LWliZXlHMkQxdmZFMmFwMWxnR0ZnTHhnTUFzUkJiTVBuXzdqeklRdnNzTlJnUGhzbFhRNVgtSkw1YVllVmtUWGdhYWlDVXFCSDhkWEZnYUxkVE1xOUllRGlNd1paTXBGNUJEcUg",
     "https://www.sherdog.com/news/news/Gable-Steveson-Vacant-UFC-belt-could-put-fire-back-in-Jon-Jones-202834",
     "CBMipAFBVV95cUxPQmpqZFYwd3hTMHlIa19veGVsWURsUk9NTFRyTUZVQlJlaU9xdEczOEFiM0UwMFZ2cUJKTzF1OUpoZXVfdjF6d0c0Um9BQTlPM0dTQnBVTlVONktkS2I0eE1FMmFrdTBBZlJrc3hZLW1UZUVBamI2QklRV1gzUDdoSkE1djFsVFBoSFdOdElrNm5XWVpIMWFnaG1wTWU4Y3pKM0xpOQ",
     "CBMitwFBVV95cUxQWEQxa3Q1cVNDVGhKTExFYmx0NkFKNnhPTnNzS0RJYUJ6R1RMVzhzcFc4NmR2MVlPTEszWmxFYjI1OFhRalFmTXdxV0dKbWt0bWx0TUhFRXh0QURQN2gyVC1sV0VSS3EyeFd6TkdLUktYOE9pTmJhaUMyTTdTQW9sXzk5bW5DWUVJNERJYjFnQmUwd01ueGpqZWhaS2txMDcxWE1ad3EwTUhmSnNQdXdNN0FjU1NJcGM",
@@ -5421,26 +5420,17 @@
     "73aa6ab7-bbc7-3c94-8c81-f59bc83100d1",
     "25b09c6d-4fd8-3d62-8bd4-e7e6321cc79c",
     "685ca126-cdae-37c5-a3b5-5aeaacb02d61",
-    "https://www.sherdog.com/news/news/Valter-Walker-says-Josh-Hokit-wont-call-him-out-for-one-reason-202991"
+    "https://www.sherdog.com/news/news/Valter-Walker-says-Josh-Hokit-wont-call-him-out-for-one-reason-202991",
+    "5b7aaf5a-440c-3aa1-bf0b-c1ee99cb9cb0"
   ],
   "daily": {
     "d": "2026-09-29",
-    "ai": 35,
-    "staged": 1,
+    "ai": 36,
+    "staged": 2,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-18T13:31:28.970072+00:00",
-      "t": "Arnold Allen injured, out of UFC 333 fight against Aaron Pico",
-      "names": [
-        "allen",
-        "aaron",
-        "pico"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-18T13:33:07.454471+00:00",
       "t": "Khamzat Chimaev reveals details about injuries requiring time off, plans to challenge for UFC middleweight title again",
@@ -6192,6 +6182,16 @@
         "gaethje"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-09-29T08:13:33.622003+00:00",
+      "t": "Movsar Evloev targets first UFC finish in title fight vs. Alexander Volkanovski",
+      "names": [
+        "evloev",
+        "alexander",
+        "volkanovski"
+      ],
+      "img": "cutout:movsar-evloev"
     }
   ],
   "seed_pending": [],
@@ -6284,23 +6284,16 @@
     "bc1aa818936812ec": 1790532882.7455626,
     "24352f0dd5e51cfe": 1790611017.0854766,
     "acc147dd6faa2282": 1790632428.9049203,
-    "ecc9123235e95d52": 1790645908.4104767
+    "ecc9123235e95d52": 1790645908.4104767,
+    "1dac67080c3609b4": 1790669613.623304
   },
   "pinged_titles": [
     [
-      "American Top Team staple says Kayla Harrison vs. Amanda Nunes comes down to one thing",
-      1790632428.9049203,
+      "Movsar Evloev targets first UFC finish in title fight vs. Alexander Volkanovski",
+      1790669613.623304,
       [
-        "harrison",
-        "nunes",
-        "top"
-      ]
-    ],
-    [
-      "Justin Gaethje's Coach Shares Huge UFC Verdict on Retirement vs. Title Defense",
-      1790645908.4104767,
-      [
-        "gaethje"
+        "evloev",
+        "volkanovski"
       ]
     ]
   ]
