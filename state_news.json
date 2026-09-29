@@ -1,5 +1,6 @@
 {
   "seen": {
+    "69e9004d8f3b2161": 1790697820.0938616,
     "d8d9acd87fcede85": 1790697754.6385682,
     "1c02beac3916bb74": 1790697689.9814107,
     "e73f9b80cf0300c4": 1790697689.7717247,
@@ -2498,8 +2499,7 @@
     "80d35ddd0154e76e": 1790072688.1416657,
     "bd1e1d3e771ad186": 1790072435.2129745,
     "b1eeb07098585e23": 1790072245.4170194,
-    "80320bb42c1c1bf2": 1790072119.171563,
-    "aa14a58c4e3956b0": 1790071991.670837
+    "80320bb42c1c1bf2": 1790072119.171563
   },
   "initialized": true,
   "v": 4,
@@ -4033,13 +4033,19 @@
       "source": "Sportskeeda",
       "ts": "2026-09-29T15:32:00+00:00",
       "cluster": "ceb61041bc8"
+    },
+    {
+      "t": "UFC Star Ilia Topuria Shares Massive Update on UFC Comeback Fight Plans",
+      "source": "Sports Illustrated",
+      "ts": "2026-09-29T15:34:22+00:00",
+      "cluster": "c9fee4d41a9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T16",
-    4
+    5
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828",
