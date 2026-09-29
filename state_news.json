@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c755794ab6a0aa11": 1790697238.6199095,
     "287cec4e69eef179": 1790697174.8445575,
     "f036c40df802aafc": 1790697111.1581597,
     "b570c0c8d252a649": 1790697046.6660745,
@@ -2498,8 +2499,7 @@
     "e2fae2a34b4689c3": 1790071212.5276685,
     "df7882ef21ca9be7": 1790071211.9948997,
     "8ddbc72e95002f7c": 1790071084.127802,
-    "584dfaef6e166301": 1790070956.361982,
-    "fe165ed0c8487c78": 1790070956.3602078
+    "584dfaef6e166301": 1790070956.361982
   },
   "initialized": true,
   "v": 4,
@@ -3985,13 +3985,19 @@
       "source": "The Body Lock",
       "ts": "2026-09-29T15:04:48+00:00",
       "cluster": "c4e952753e5"
+    },
+    {
+      "t": "Jiri Prochazka returns in UFC Qatar headliner against undefeated fighter",
+      "source": "MMA Sucka",
+      "ts": "2026-09-29T15:06:08+00:00",
+      "cluster": "c3a11c237fd"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T15",
-    28
+    29
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828",
