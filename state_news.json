@@ -1,5 +1,7 @@
 {
   "seen": {
+    "68711e0347fb3538": 1790672108.1195061,
+    "bb2372cb1fc8b997": 1790672107.693987,
     "0d62d827eef96496": 1790671816.32248,
     "7e4e96b2d227ba34": 1790671789.5431888,
     "e0c7e4b384dbfea4": 1790671472.0813813,
@@ -2497,9 +2499,7 @@
     "cbac1270b05c13b5": 1790051523.3437316,
     "a03a6c20e8311d7b": 1790051500.6797283,
     "8f2c277f39175a0e": 1790051434.804788,
-    "96aa6b7d52a820d6": 1790051306.2817597,
-    "844a81c3d9af41d2": 1790051239.8997402,
-    "1d96a42e7f757511": 1790051214.839965
+    "96aa6b7d52a820d6": 1790051306.2817597
   },
   "initialized": true,
   "v": 4,
@@ -3973,13 +3973,19 @@
       "source": "Sherdog",
       "ts": "2026-09-29T04:35:20+00:00",
       "cluster": "c15c2856e55"
+    },
+    {
+      "t": "Payton Talbott vs. Sean O’Malley? UFC 331’s Talbott explains how plague of broken feet stranded him on sidelines",
+      "source": "MMA Mania",
+      "ts": "2026-09-29T05:11:38+00:00",
+      "cluster": "c8b066d6609"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T08",
-    22
+    23
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331973",
