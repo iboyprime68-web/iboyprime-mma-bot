@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 21,
   "staged_at": [
-    "2026-09-26T19:15:18.320298+00:00",
     "2026-09-27T14:44:53.356420+00:00",
     "2026-09-27T19:47:42.041696+00:00",
-    "2026-09-28T17:43:02.605168+00:00"
+    "2026-09-28T17:43:02.605168+00:00",
+    "2026-09-29T15:58:49.988808+00:00"
   ],
   "asked": [
-    "Who is the most deserving of a UFC title shot right now?",
     "Who is the most underrated fighter in the UFC right now?",
     "Who is the worst main event in UFC history?",
     "Who is the best commentator in UFC history?",
@@ -47,26 +46,27 @@
     "What is the biggest factor in Jon Jones staying undefeated in the UFC?",
     "What is the most brutal knockout in UFC history?",
     "What is the most cowardly illegal foul in UFC history?",
-    "What is the most painful near miss in UFC history?"
+    "What is the most painful near miss in UFC history?",
+    "Who is the most terrifying UFC fighter to ever step in the octagon?"
   ],
   "last_entry": {
-    "q": "What is the most painful near miss in UFC history?",
+    "q": "Who is the most terrifying UFC fighter to ever step in the octagon?",
     "type": "poll",
     "options": [
       {
-        "label": "Khabib vs Tony",
-        "emoji": "🛑",
-        "art": "Two empty stools facing each other in a dark arena, one spotlight, a cancelled banner rolled on the canvas"
+        "label": "Khamzat Chimaev",
+        "emoji": "🐺",
+        "art": ""
       },
       {
-        "label": "GSP vs Silva",
-        "emoji": "🐐",
-        "art": "Two title belts hanging side by side on a locker room hook, dust on the straps, cold blue light"
-      },
-      {
-        "label": "Jones vs Rumble",
+        "label": "Ngannou",
         "emoji": "💥",
-        "art": "A single pair of gloves left on the scale at an empty weigh in stage, harsh overhead light"
+        "art": ""
+      },
+      {
+        "label": "Tony Ferguson",
+        "emoji": "🔪",
+        "art": ""
       },
       {
         "label": "Other (comment below)",
@@ -74,6 +74,6 @@
         "art": ""
       }
     ],
-    "gag": "A banana peel lying on the octagon mat next to a dropped ice cream cone, dramatic spotlight"
+    "gag": "A terrified referee hiding behind the cage, peeking through fingers at a shadowy figure."
   }
 }
