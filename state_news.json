@@ -1,5 +1,7 @@
 {
   "seen": {
+    "6fe7f79051e180ea": 1790698717.8154142,
+    "c25727fe4dd8c00a": 1790698717.5143611,
     "01e64a735d01849b": 1790698653.9987717,
     "c4d2693b31e77260": 1790698528.5563004,
     "608f9bd318af2c88": 1790698402.4889839,
@@ -2497,9 +2499,7 @@
     "dc1ff88300481748": 1790088113.3770041,
     "cd030b6259657f8a": 1790088049.2016206,
     "2df5541f66e956bd": 1790088048.4274704,
-    "ad8c07c60c79ae16": 1790087984.0298474,
-    "f63c3b28b4cfe9d2": 1790087958.5500221,
-    "630700e51ff9db2b": 1790087915.0182416
+    "ad8c07c60c79ae16": 1790087984.0298474
   },
   "initialized": true,
   "v": 4,
@@ -4099,13 +4099,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-29T15:53:12+00:00",
       "cluster": "cfc2c0fa22f"
+    },
+    {
+      "t": "Miami police officer Luis Hernandez wins UFC debut",
+      "source": "Indulge Express",
+      "ts": "2026-09-29T16:07:45+00:00",
+      "cluster": "c93d532f281"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T16",
-    15
+    16
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828",
