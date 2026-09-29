@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ecc9123235e95d52": 1790645908.7216935,
     "08ee9897c3ad99a1": 1790645881.3861182,
     "b4c29baec7beeab3": 1790645850.987302,
     "c1fe3eb710f2a4d8": 1790645825.5140555,
@@ -2498,8 +2499,7 @@
     "1ece3b807796dfe9": 1790034993.9981034,
     "ad29ee623094844e": 1790034993.4700737,
     "8f338c73fed9836b": 1790027263.601125,
-    "67fd1d2d97e1cbca": 1790027200.1783674,
-    "4ffc1ed8ed04d28a": 1790027136.830305
+    "67fd1d2d97e1cbca": 1790027200.1783674
   },
   "initialized": true,
   "v": 4,
@@ -3937,13 +3937,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-28T23:00:00+00:00",
       "cluster": "ca405c7c9fa"
+    },
+    {
+      "t": "Justin Gaethje's Coach Shares Huge UFC Verdict on Retirement vs. Title Defense",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-28T20:00:04+00:00",
+      "cluster": "c6a678678d0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T01",
-    3
+    4
   ],
   "yt_eval": [
     "CBMigAFBVV95cUxOQV9HMnVfQy1pUm5Wa3Z0cktSNTdaakktc0I4Ti0wUVduaEVoZmJDVWtGYTRuSVN2QjZuMUpKdzRWb2lnNHhTODZDVVF0TE9QY25zR0NvcldpamdPZ21FSVozT2xCNDVaaE1jMEpKeElBVnhDbzZ5aVM4NDdZVjBqTQ",
@@ -6308,17 +6314,10 @@
     "c7917fa5fa59cc0c": 1790474772.9999394,
     "bc1aa818936812ec": 1790532882.7455626,
     "24352f0dd5e51cfe": 1790611017.0854766,
-    "acc147dd6faa2282": 1790632428.9049203
+    "acc147dd6faa2282": 1790632428.9049203,
+    "ecc9123235e95d52": 1790645908.4104767
   },
   "pinged_titles": [
-    [
-      "Silva Faces Wang For Vacant UFC 332 Flyweight Title",
-      1790611017.0854766,
-      [
-        "silva",
-        "wang"
-      ]
-    ],
     [
       "American Top Team staple says Kayla Harrison vs. Amanda Nunes comes down to one thing",
       1790632428.9049203,
@@ -6326,6 +6325,13 @@
         "harrison",
         "nunes",
         "top"
+      ]
+    ],
+    [
+      "Justin Gaethje's Coach Shares Huge UFC Verdict on Retirement vs. Title Defense",
+      1790645908.4104767,
+      [
+        "gaethje"
       ]
     ]
   ]
