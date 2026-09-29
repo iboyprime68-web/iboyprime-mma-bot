@@ -1,5 +1,8 @@
 {
   "seen": {
+    "c1827baf8f125d08": 1790698207.281271,
+    "70744a5c66550d34": 1790698206.8991528,
+    "9d2dce806db038b0": 1790698206.8971167,
     "879bae59bc1296fc": 1790698143.200497,
     "6c5fcd5d3cd3bf0e": 1790698078.9334075,
     "84fd5339ceb632d0": 1790698013.6410375,
@@ -2496,10 +2499,7 @@
     "c244f8d58d68f854": 1790087739.141763,
     "f243dee829b7e303": 1790087717.046126,
     "82b515c6012808b3": 1790087716.4196103,
-    "88b753eccb1f9a23": 1790087693.1620471,
-    "c507a3f1121a5a13": 1790087670.5453486,
-    "f80db7987154b23a": 1790087647.891306,
-    "6071e80a9acac01a": 1790073380.9876282
+    "88b753eccb1f9a23": 1790087693.1620471
   },
   "initialized": true,
   "v": 4,
@@ -4069,13 +4069,19 @@
       "source": "MMAWeekly.com",
       "ts": "2026-09-29T15:45:00+00:00",
       "cluster": "c582f8c252e"
+    },
+    {
+      "t": "Jiri Prochazka to fight Navajo Stirling at UFC Fight Night in Qatar",
+      "source": "espn.com",
+      "ts": "2026-09-29T16:00:00+00:00",
+      "cluster": "cf706936b2d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T16",
-    10
+    11
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828",
