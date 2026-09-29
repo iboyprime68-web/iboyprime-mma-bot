@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4359d1c3a37bc38d": 1790714290.1242523,
     "cd7f12dc1b0a441b": 1790714224.8265057,
     "f9d0d583ecd5b27c": 1790714224.5024078,
     "a880fdf60dad2a92": 1790714201.7158992,
@@ -2498,8 +2499,7 @@
     "fa24c8f5d4047561": 1790088955.1497123,
     "68aede13f0017e3b": 1790088954.8972597,
     "5cfb529d587c349e": 1790088890.8938887,
-    "4753ec8a9aac40ac": 1790088825.068045,
-    "4278564125c7b6b7": 1790088824.8272672
+    "4753ec8a9aac40ac": 1790088825.068045
   },
   "initialized": true,
   "v": 4,
@@ -4033,13 +4033,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-29T16:42:04+00:00",
       "cluster": "c12a3930c13"
+    },
+    {
+      "t": "Ilia Topuria back in the gym as UFC return edges closer",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-29T16:43:40+00:00",
+      "cluster": "c72da683c67"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T20",
-    10
+    11
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510763",
