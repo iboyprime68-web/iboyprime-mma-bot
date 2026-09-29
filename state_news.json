@@ -1,5 +1,6 @@
 {
   "seen": {
+    "07dd086c107226ac": 1790646891.9016657,
     "433d7ceae36cd7be": 1790646823.9543862,
     "13a81788c2cacb80": 1790646755.4191847,
     "79aa0f441cae4c23": 1790646755.1288877,
@@ -2498,8 +2499,7 @@
     "cccb54a5b9392e39": 1790035468.9006422,
     "0313d9ecfad74621": 1790035468.8994908,
     "bcc3ef3f4d8f5c95": 1790035468.8848422,
-    "8ee30aa444cf5827": 1790035468.8838978,
-    "62ac1030c8db18de": 1790035403.6130455
+    "8ee30aa444cf5827": 1790035468.8838978
   },
   "initialized": true,
   "v": 4,
@@ -4027,13 +4027,19 @@
       "source": "heavy.com",
       "ts": "2026-09-29T01:49:00+00:00",
       "cluster": "c0247645eb5"
+    },
+    {
+      "t": "WATCH Video: Raoni Barcelos Releases First Video After UFC Vegas 121 Scare, Promises to Return ‘Stronger’",
+      "source": "sundayguardianlive.com",
+      "ts": "2026-09-29T01:51:51+00:00",
+      "cluster": "c643f0aaa65"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T01",
-    20
+    21
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331952",
