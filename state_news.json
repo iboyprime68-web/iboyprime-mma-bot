@@ -1,5 +1,7 @@
 {
   "seen": {
+    "84fd5339ceb632d0": 1790698013.6410375,
+    "992d21b21611e162": 1790698013.3775783,
     "2a881136cd8dd4ec": 1790697948.9878907,
     "98d25b5772eb468a": 1790697884.528309,
     "69e9004d8f3b2161": 1790697820.0938616,
@@ -2497,9 +2499,7 @@
     "f80db7987154b23a": 1790087647.891306,
     "6071e80a9acac01a": 1790073380.9876282,
     "b8db232453ad50db": 1790073192.2924335,
-    "22e96ab45f824308": 1790072877.7657733,
-    "80d35ddd0154e76e": 1790072688.1416657,
-    "bd1e1d3e771ad186": 1790072435.2129745
+    "22e96ab45f824308": 1790072877.7657733
   },
   "initialized": true,
   "v": 4,
@@ -4051,13 +4051,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-29T15:34:07+00:00",
       "cluster": "c700f04ee26"
+    },
+    {
+      "t": "UFC Names September's Best Knockout And Submission",
+      "source": "boxingnews.com",
+      "ts": "2026-09-29T15:40:42+00:00",
+      "cluster": "ce999ae058b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T16",
-    7
+    8
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828",
