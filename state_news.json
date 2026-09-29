@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3d37151f6058997f": 1790697429.8820713,
     "3c0bf990ff9adc79": 1790697366.0090508,
     "42a4c867b7ac6c39": 1790697302.136627,
     "c755794ab6a0aa11": 1790697238.6199095,
@@ -2498,8 +2499,7 @@
     "d7c913da8ad266fe": 1790071344.7340903,
     "683ca7ebbc9e612a": 1790071278.6792114,
     "6f666103f690b2bc": 1790071278.325289,
-    "e2fae2a34b4689c3": 1790071212.5276685,
-    "df7882ef21ca9be7": 1790071211.9948997
+    "e2fae2a34b4689c3": 1790071212.5276685
   },
   "initialized": true,
   "v": 4,
@@ -4003,13 +4003,19 @@
       "source": "MMA Junkie",
       "ts": "2026-09-29T15:20:00+00:00",
       "cluster": "c9f986cd425"
+    },
+    {
+      "t": "UFC Vegas 121: Montel Jackson post-fight interview",
+      "source": "The Lufkin Daily News",
+      "ts": "2026-09-29T15:20:17+00:00",
+      "cluster": "ce138098c4d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T15",
-    31
+    32
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828",
