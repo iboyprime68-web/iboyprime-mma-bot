@@ -1,5 +1,6 @@
 {
   "seen": {
+    "97b0157161ef253b": 1790647555.8869827,
     "e7cec1266a4d2ab2": 1790647489.4042902,
     "4f9fc5c679eb19de": 1790647420.7348776,
     "a3d9534276e97782": 1790647420.4223273,
@@ -2498,8 +2499,7 @@
     "ff99699fca59fe48": 1790037457.4460797,
     "2b1399c680a2dd3e": 1790037390.8628209,
     "c01ae370383fc949": 1790037325.2112303,
-    "f9089485e5767359": 1790037156.773206,
-    "2b34c30f82fc70ed": 1790037006.6357465
+    "f9089485e5767359": 1790037156.773206
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-27T03:00:00+00:00",
       "cluster": "c5e589e33f0"
-    },
-    {
-      "t": "Ailin Perez outworks Norma Dumont in limp UFC Fight Night 289 co-main event",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-27T02:05:32+00:00",
-      "cluster": "caeb0180818"
     },
     {
       "t": "UFC Vegas 121 video: Raul Rosas Jr. wins main event after Raoni Barcelos goes unconscious in scary fifth-round moment",
@@ -4003,13 +3997,19 @@
       "source": "MMA Junkie",
       "ts": "2026-09-29T02:00:00+00:00",
       "cluster": "c007ce91578"
+    },
+    {
+      "t": "Bruce Buffer Praises UFC Fighters & Sends Note to Raoni Barcelos",
+      "source": "heavy.com",
+      "ts": "2026-09-29T02:03:00+00:00",
+      "cluster": "c5f517277d4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T02",
-    2
+    3
   ],
   "yt_eval": [
     "3af09137-a692-3935-97d1-fc099c77808f",
