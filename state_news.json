@@ -1,5 +1,6 @@
 {
   "seen": {
+    "433d7ceae36cd7be": 1790646823.9543862,
     "13a81788c2cacb80": 1790646755.4191847,
     "79aa0f441cae4c23": 1790646755.1288877,
     "986d8cc48bd9d641": 1790646686.4039752,
@@ -2498,8 +2499,7 @@
     "0313d9ecfad74621": 1790035468.8994908,
     "bcc3ef3f4d8f5c95": 1790035468.8848422,
     "8ee30aa444cf5827": 1790035468.8838978,
-    "62ac1030c8db18de": 1790035403.6130455,
-    "5eb65029428c0eb3": 1790035403.3415449
+    "62ac1030c8db18de": 1790035403.6130455
   },
   "initialized": true,
   "v": 4,
@@ -4021,13 +4021,19 @@
       "source": "global.mediafine.co.kr",
       "ts": "2026-09-29T01:40:48+00:00",
       "cluster": "cfba057dd37"
+    },
+    {
+      "t": "Raoni Barcelos on UFC Vegas 121 Medical Issue: ‘I Just Fainted’",
+      "source": "heavy.com",
+      "ts": "2026-09-29T01:49:00+00:00",
+      "cluster": "c0247645eb5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T01",
-    19
+    20
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=331945",
