@@ -1,5 +1,6 @@
 {
   "seen": {
+    "687dcbcd32cda88b": 1790672456.1637259,
     "f47faf790ba0a26d": 1790672427.5787985,
     "11a350ca3c357502": 1790672259.3985841,
     "68711e0347fb3538": 1790672108.1195061,
@@ -2498,8 +2499,7 @@
     "8560f8273cfb493e": 1790051523.7174878,
     "5e65b21bf2709c67": 1790051523.3655877,
     "731d1f3db01afca7": 1790051523.3637536,
-    "cbac1270b05c13b5": 1790051523.3437316,
-    "a03a6c20e8311d7b": 1790051500.6797283
+    "cbac1270b05c13b5": 1790051523.3437316
   },
   "initialized": true,
   "v": 4,
@@ -3985,13 +3985,19 @@
       "source": "Sherdog",
       "ts": "2026-09-29T05:14:05+00:00",
       "cluster": "c201424e625"
+    },
+    {
+      "t": "Luis Hernandez, the Miami-Dade police officer who shares an agency with Ilia Topuria and has won two fights in 11 days",
+      "source": "MARCA",
+      "ts": "2026-09-29T08:55:58+00:00",
+      "cluster": "c537222c0d3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T09",
-    1
+    2
   ],
   "yt_eval": [
     "68ca2e23-b209-34be-9483-d831396cc40b",
