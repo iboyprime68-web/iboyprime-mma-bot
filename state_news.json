@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b9f48848cca2783b": 1790647286.7939088,
     "e33966624a5f9b83": 1790647220.0103579,
     "708eb83e976e7493": 1790647220.0077426,
     "10b281aaa028f787": 1790647220.0052273,
@@ -2498,18 +2499,11 @@
     "cabd41603668ab58": 1790036618.933271,
     "1890816a24e688c1": 1790036617.5927575,
     "aa2b8c9fcb99d6ce": 1790036553.4147868,
-    "73ab2d242171c1ec": 1790036049.4541023,
-    "f6a369e6d0596d97": 1790035983.0769541
+    "73ab2d242171c1ec": 1790036049.4541023
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Luis Hernandez Submits Sedriques Dumas in UFC Debut",
-      "source": "SuaraGarut.ID",
-      "ts": "2026-09-27T02:01:14+00:00",
-      "cluster": "c2c7b3f90ce"
-    },
     {
       "t": "UFC Vegas 121 video: Security intervenes following Ailin Perez’s controversial win over Norma Dumont",
       "source": "MMA Fighting",
@@ -3997,13 +3991,19 @@
       "source": "sundayguardianlive.com",
       "ts": "2026-09-29T01:51:51+00:00",
       "cluster": "c643f0aaa65"
+    },
+    {
+      "t": "UFC 332 preview: Silva vs. Wang picks, predictions & full card",
+      "source": "Sherdog",
+      "ts": "2026-09-29T01:02:30+00:00",
+      "cluster": "ce5be591e6d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T02",
-    0
+    1
   ],
   "yt_eval": [
     "56ccff6b-4464-3ff5-9cab-4f0df1b12324",
