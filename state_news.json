@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1e383e24aa5c7609": 1790715322.9281733,
     "47bd505a44bd1ad1": 1790715259.1228042,
     "ac8324ed75792d0a": 1790715258.8356836,
     "cb66e89c5328ecfd": 1790715258.8353415,
@@ -2498,8 +2499,7 @@
     "a107c74f84807ae5": 1790102538.5562093,
     "d82549c3b9a4afc9": 1790102473.657225,
     "4a6cae066be718a2": 1790102430.0592074,
-    "8097e8cdbe7c27c7": 1790102407.7822819,
-    "1f8775e438a5afe1": 1790102384.3168685
+    "8097e8cdbe7c27c7": 1790102407.7822819
   },
   "initialized": true,
   "v": 4,
@@ -4135,13 +4135,19 @@
       "source": "Sports Talk Florida",
       "ts": "2026-09-29T20:30:00+00:00",
       "cluster": "c0b7b9a9f9c"
+    },
+    {
+      "t": "Nunes On Perez's Controversial Win Over Dumont",
+      "source": "boxingnews.com",
+      "ts": "2026-09-29T20:30:54+00:00",
+      "cluster": "cfcf34ea466"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T20",
-    27
+    28
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510763",
