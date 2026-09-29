@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e0c7e4b384dbfea4": 1790671472.0813813,
     "dc1c1b5ea664275e": 1790671155.3333633,
     "80e95d408235ec4f": 1790671155.0620623,
     "c66116e84769a49a": 1790670924.6137493,
@@ -2498,8 +2499,7 @@
     "844a81c3d9af41d2": 1790051239.8997402,
     "1d96a42e7f757511": 1790051214.839965,
     "825eebd5ae495331": 1790051169.4891367,
-    "8f868e5c824d9acf": 1790051169.1336696,
-    "672c4693b11d2f95": 1790051100.3728027
+    "8f868e5c824d9acf": 1790051169.1336696
   },
   "initialized": true,
   "v": 4,
@@ -3961,13 +3961,19 @@
       "source": "Sherdog",
       "ts": "2026-09-29T04:11:43+00:00",
       "cluster": "c6de698c0d7"
+    },
+    {
+      "t": "UFC’s Luis Hernandez won &#36;100K bonus; his day job still pays more",
+      "source": "Sherdog",
+      "ts": "2026-09-29T04:22:58+00:00",
+      "cluster": "c92d8802c96"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T08",
-    20
+    21
   ],
   "yt_eval": [
     "CBMi2gFBVV95cUxNUkpQWlcxRnNGN0hTZjdOSzZwckNCYWNIN1d0dERQejF6LUkwblV0Q0xnaDFNcTBoak9YODBBbGVXUksxZHp2WTVuczNOdE5rVEIyX2ZGU3hPME56QjlHUnBIODJBTzZjWXNiYWp1N1g4alpCa1lxRFM5QkoyakZRa1FmbGZnTDNUOEtSZks3Z2x5eEQ2MjR2V2VRY3U5MFBSOTdSQnpONE5UbU9ienlwZlMxOWNWWjJTT1F1Mkp1ejhuNDFFa1k3UUNxU1ZmZkJfRUV5blNDREpNZw",
