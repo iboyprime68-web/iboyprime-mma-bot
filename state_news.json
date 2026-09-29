@@ -1,5 +1,6 @@
 {
   "seen": {
+    "00a6309ca1c6e464": 1790714742.4692245,
     "fe9919cd0d8fd9aa": 1790714678.0016682,
     "0ba31841370048c8": 1790714677.7719524,
     "13a49567976e528c": 1790714677.7685266,
@@ -2498,8 +2499,7 @@
     "104d449202ced79c": 1790089340.4031591,
     "61241c8ff478a5f2": 1790089340.4009204,
     "2db1ad770e7ec50d": 1790089233.9581919,
-    "e94aef4ad574d5e7": 1790089209.4899278,
-    "89bf51c2c0fd8b08": 1790089208.0434754
+    "e94aef4ad574d5e7": 1790089209.4899278
   },
   "initialized": true,
   "v": 4,
@@ -4081,13 +4081,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-29T18:40:28+00:00",
       "cluster": "ca82df74f25"
+    },
+    {
+      "t": "Conor McGregor civil case: 2 charged with perjury over UFC star's failed sexual assault appeal",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-29T18:48:52+00:00",
+      "cluster": "c805797f0ad"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T20",
-    18
+    19
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510763",
