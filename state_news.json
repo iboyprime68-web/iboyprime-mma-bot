@@ -1,5 +1,6 @@
 {
   "seen": {
+    "879bae59bc1296fc": 1790698143.200497,
     "6c5fcd5d3cd3bf0e": 1790698078.9334075,
     "84fd5339ceb632d0": 1790698013.6410375,
     "992d21b21611e162": 1790698013.3775783,
@@ -2498,8 +2499,7 @@
     "88b753eccb1f9a23": 1790087693.1620471,
     "c507a3f1121a5a13": 1790087670.5453486,
     "f80db7987154b23a": 1790087647.891306,
-    "6071e80a9acac01a": 1790073380.9876282,
-    "b8db232453ad50db": 1790073192.2924335
+    "6071e80a9acac01a": 1790073380.9876282
   },
   "initialized": true,
   "v": 4,
@@ -4063,13 +4063,19 @@
       "source": "MMA Sucka",
       "ts": "2026-09-29T15:44:55+00:00",
       "cluster": "cb3dc5b8421"
+    },
+    {
+      "t": "Chris Curtis demands grudge match with UFC’s active-duty cop Luis Hernandez",
+      "source": "MMAWeekly.com",
+      "ts": "2026-09-29T15:45:00+00:00",
+      "cluster": "c582f8c252e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T16",
-    9
+    10
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828",
