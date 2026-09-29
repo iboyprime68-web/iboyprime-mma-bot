@@ -1,5 +1,6 @@
 {
   "seen": {
+    "593877e8b0574898": 1790714033.779261,
     "c7b8c6522765abb2": 1790714011.1444786,
     "b3f500f72f48898c": 1790714010.3818376,
     "83ff80f550c0a0ee": 1790714010.3785923,
@@ -2498,8 +2499,7 @@
     "1b251c7275e88180": 1790088502.9759395,
     "5140a541bac119f8": 1790088438.0460877,
     "6ecc8008092f09b9": 1790088373.218177,
-    "7f11334100822c58": 1790088372.8052928,
-    "86b9a1f3cc5d75f3": 1790088308.5825102
+    "7f11334100822c58": 1790088372.8052928
   },
   "initialized": true,
   "v": 4,
@@ -3979,13 +3979,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-29T16:08:22+00:00",
       "cluster": "cfc1d60fd99"
+    },
+    {
+      "t": "UFC 334 takes big hit as Khamzat Chimaev’s undefeated teammate withdraws from event",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-29T17:00:29+00:00",
+      "cluster": "c4c563c3c08"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T20",
-    1
+    2
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/How-to-watch-UFC-331-Start-time-live-stream-full-fight-card-202828",
