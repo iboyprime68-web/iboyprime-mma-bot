@@ -1,5 +1,7 @@
 {
   "seen": {
+    "63ed333ac86d82f5": 1790696575.7506297,
+    "eaeb01ca773a7f93": 1790696575.3959641,
     "f7329deb7e030512": 1790696549.8326004,
     "26217c10f8e7088c": 1790696549.6100347,
     "4f0176b9bb118551": 1790696503.960042,
@@ -2497,9 +2499,7 @@
     "f0e0815f8c67e09c": 1790070559.8692327,
     "a4da55a41368b313": 1790070493.646029,
     "0e8523122673d84b": 1790070493.3359745,
-    "9e3a9c5887f97de3": 1790070468.2693667,
-    "d04bef26bd8a0ab4": 1790070423.8267405,
-    "480fdf798a675ac9": 1790070355.98976
+    "9e3a9c5887f97de3": 1790070468.2693667
   },
   "initialized": true,
   "v": 4,
@@ -3931,13 +3931,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-29T13:02:56+00:00",
       "cluster": "ce9d8a3791e"
+    },
+    {
+      "t": "UFC 332 broadcast team set: Joe Rogan gets second assignment in 14 days",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-29T13:40:21+00:00",
+      "cluster": "c3df7155072"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T15",
-    18
+    19
   ],
   "yt_eval": [
     "https://www.mmamania.com/472787/open-thread-september-16-2026-is-ai-going-to-kill-us-all",
