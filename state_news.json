@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cc507fd6041464ad": 1790669883.6675324,
     "9d2c30bfa58a14de": 1790669816.1704612,
     "af624b0ee832bf01": 1790669815.8719819,
     "3062df3d1773ae43": 1790669749.090066,
@@ -2498,8 +2499,7 @@
     "0f4c60f874904327": 1790050581.4232807,
     "8fc714d59037d966": 1790050556.6727498,
     "5631c27ecacb1ffb": 1790050490.1859438,
-    "4a67bdaece2d1e78": 1790050489.9071286,
-    "8f0b0f4f008cdcf3": 1790050424.198031
+    "4a67bdaece2d1e78": 1790050489.9071286
   },
   "initialized": true,
   "v": 4,
@@ -3931,13 +3931,19 @@
       "source": "BJJDOC",
       "ts": "2026-09-29T07:48:11+00:00",
       "cluster": "c48945e77fd"
+    },
+    {
+      "t": "Chris Curtis claims the UFC isn’t giving him Luis Hernandez matchup",
+      "source": "Sherdog",
+      "ts": "2026-09-29T02:51:05+00:00",
+      "cluster": "ce03e13c411"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T08",
-    12
+    13
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Tyron-Woodley-details-rock-bottom-after-losing-UFC-title-to-Kamaru-Usman-202835",
