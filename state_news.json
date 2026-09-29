@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f3c41a4c3f3d1527": 1790715194.829206,
     "e421b8c22a3a4a4d": 1790715130.740497,
     "f551e08ef270745f": 1790715065.8274221,
     "001b246fefbeb339": 1790715064.982267,
@@ -2498,8 +2499,7 @@
     "1f8775e438a5afe1": 1790102384.3168685,
     "a86fdbd090f4d66c": 1790102361.8543205,
     "ebbb59bd3c8b60f6": 1790102338.8988628,
-    "7f243216a1f1eaa0": 1790102316.0232081,
-    "6619f88a58810ac8": 1790102293.9320555
+    "7f243216a1f1eaa0": 1790102316.0232081
   },
   "initialized": true,
   "v": 4,
@@ -4123,13 +4123,19 @@
       "source": "CBS Sports",
       "ts": "2026-09-29T20:24:22+00:00",
       "cluster": "cd698ec9051"
+    },
+    {
+      "t": "Jiri Prochazka headlines UFC Qatar; Aljamain Sterling, Dan Hooker return",
+      "source": "BJPenn.com",
+      "ts": "2026-09-29T20:24:25+00:00",
+      "cluster": "caaf2cef641"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-29T20",
-    25
+    26
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510763",
