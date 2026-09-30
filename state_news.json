@@ -1,5 +1,6 @@
 {
   "seen": {
+    "73613dbb672b356c": 1790794720.974321,
     "de3006a4f663fc55": 1790794694.9206665,
     "0dd16e5f7365f1ca": 1790794669.0494986,
     "8cc7cee4d6e0bf5d": 1790794642.9006248,
@@ -2498,8 +2499,7 @@
     "23da1d496a8a02d4": 1790143250.06995,
     "07a4691d8034f0b2": 1790143226.0786383,
     "eb4ce57572a32da8": 1790143225.7922642,
-    "db8d3a33cee848db": 1790143178.2880423,
-    "8eb61442a4a5966d": 1790143177.9365883
+    "db8d3a33cee848db": 1790143178.2880423
   },
   "initialized": true,
   "v": 4,
@@ -4189,13 +4189,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-30T15:59:00+00:00",
       "cluster": "c64ba978881"
+    },
+    {
+      "t": "LIVE! UFC 332 media day video",
+      "source": "MMA Fighting",
+      "ts": "2026-09-30T16:58:43+00:00",
+      "cluster": "cd322b1668e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T18",
-    4
+    5
   ],
   "yt_eval": [
     "CBMikwFBVV95cUxOV2s4RDVuQloxNnFGSkhEYUtxMENzYzY2aEEzMjkxMW9iS2h6ZHVYTnIwOU94Mk1QT1FxTjJRZU1GNjY0RnotRmJEejBIalE0ZDFIejdzTGw5OXEwOUJOVmpqUHVtQlNOTHFsSUIzYkExUjVyZU9LNHRZNEpEZDlucmR3RXFMNXoza1RsaHRZOUZCbWc",
