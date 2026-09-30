@@ -1,5 +1,6 @@
 {
   "seen": {
+    "60c696a46435e3ca": 1790729416.6438577,
     "c0259ef8e922643e": 1790729327.359343,
     "3b1c2bb12d815165": 1790729133.5664127,
     "c75e0a010306f358": 1790729006.2383454,
@@ -2498,8 +2499,7 @@
     "4b6c6456bf9d40b6": 1790105177.8346286,
     "8523ab1a0360b48d": 1790105114.4942229,
     "f129cb74dc78046f": 1790105043.832778,
-    "a7b70980237bdd62": 1790105043.331126,
-    "f24f9080f6380d72": 1790105043.3028193
+    "a7b70980237bdd62": 1790105043.331126
   },
   "initialized": true,
   "v": 4,
@@ -4261,13 +4261,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-30T00:35:05+00:00",
       "cluster": "c6dfeeeb953"
+    },
+    {
+      "t": "DWCS Season 10, Week 8 results: First slam knockout in Contender Series history",
+      "source": "MMA Fighting",
+      "ts": "2026-09-30T00:49:45+00:00",
+      "cluster": "c2d0e004a81"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T00",
-    34
+    35
   ],
   "yt_eval": [
     "CBMi4wFBVV95cUxPOEx6dEs1YnpXYXhkbW8tR1NGNkI1Uno2UXk5VElGTFJvdGQ0SExrejdBNDZUTnFDQkhvclBXbFZSUExhd0VRYmMwMHVfZ25Qd2QtZnJOR0dsanl6X0ZGdk5fZjBKaU1SVG9vTVZzTmxvZTFuVHVibGVxd0ZXYmUxd3VWcTc4RnpicEdLOXFsQTlMM0lLTDNIdm1TWW01UzE1RHJ4ZTFqdnlJSm8zMHh0SjFGUDAwS250U0NfZldGVk1tRjFtNlU4dFZzTUx3aDFJUDE0cGluWW0zMWEzMkgyZERzZw",
