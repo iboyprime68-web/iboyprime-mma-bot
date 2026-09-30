@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3e39f9bfa9d345a3": 1790774926.0951052,
     "af77655748f0b4a8": 1790774899.6268082,
     "a473326b86d84b01": 1790774872.6461396,
     "81265b8df6fd7107": 1790774872.290329,
@@ -2498,8 +2499,7 @@
     "698121307229df24": 1790123210.135164,
     "b1e3995c1296daa6": 1790123210.1330855,
     "f798441a8b1faf9e": 1790123210.1075795,
-    "b11459975d81b7a4": 1790123210.1054084,
-    "e1b3234d9bf8be17": 1790123145.3009527
+    "b11459975d81b7a4": 1790123210.1054084
   },
   "initialized": true,
   "v": 4,
@@ -4291,13 +4291,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-30T12:28:39+00:00",
       "cluster": "c8614857f4b"
+    },
+    {
+      "t": "Johnny Walker ready to reveal full potential in UFC 332 Heavyweight debut: ‘I suffered a lot’",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-30T11:04:40+00:00",
+      "cluster": "c51443e35af"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T13",
-    3
+    4
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=332228",
