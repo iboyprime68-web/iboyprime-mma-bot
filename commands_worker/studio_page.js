@@ -85,6 +85,11 @@ button,input,textarea,select{font-family:inherit;color:inherit;max-width:100%}
 .tpl-link{color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:9px 16px;min-height:40px;display:inline-flex;
   align-items:center;border-radius:12px;border:1px solid var(--line2);background:var(--card2)}
 .tpl-link:hover{border-color:var(--accent)}
+.stpls{display:flex;flex-wrap:wrap;gap:8px}
+.stpl{display:flex;flex-direction:column;align-items:center;gap:4px;color:#fff;text-decoration:none;font-size:12px;font-weight:700;
+  border:1px solid var(--line);border-radius:12px;padding:6px;min-width:84px;background:rgba(255,255,255,.03)}
+.stpl img{width:96px;height:96px;object-fit:cover;border-radius:8px;display:block}
+.stpl:hover{border-color:var(--accent)}
 .tab[aria-selected=true]{background:linear-gradient(140deg,var(--accent),var(--deep));color:#fff;box-shadow:0 6px 18px rgba(91,61,245,.42)}
 @media(max-width:430px){
   .topbar{padding-left:12px;padding-right:12px;gap:8px}
@@ -123,7 +128,7 @@ input[type=text],input[type=password],textarea{
 }
 textarea{resize:vertical;min-height:92px;line-height:1.5}
 input:focus,textarea:focus{border-color:var(--accent);background:#0A0A11;box-shadow:0 0 0 3px rgba(139,112,255,.16)}
-input::placeholder,textarea::placeholder{color:#55536a}
+input::placeholder,textarea::placeholder{color:#55536a;font-style:italic}
 #line{text-transform:uppercase;font-weight:800;letter-spacing:.3px;font-size:16px}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 
@@ -633,6 +638,12 @@ html.picking #cv{cursor:crosshair}
         <p class="note" id="railNote">Loading what the bot staged in Discord.</p>
       </div>
 
+      <div class="card" data-step="1" id="cardStoryTpl" hidden>
+        <div class="chead"><h2>Templates for this story</h2></div>
+        <div class="stpls" id="storyTpls"></div>
+        <p class="note" id="storyTplNote">Tap one to open this story in that template, already filled.</p>
+      </div>
+
       <div class="card" data-step="1">
         <div class="chead"><h2>Template</h2></div>
         <div class="tpl" id="tpl"></div>
@@ -690,22 +701,30 @@ html.picking #cv{cursor:crosshair}
         </div>
         <div class="sugg" id="sugg" aria-live="polite"></div>
         <p class="note">Highlight style and color sit in the bar above the poster.</p>
+        <div class="field" id="backdrop">
+          <span class="lbl">Backdrop under the words</span>
+          <div class="seg" id="scrimSeg" role="group" aria-label="Backdrop color">
+            <button type="button" data-scrim="theme">Theme</button><button type="button" data-scrim="black">Black</button><button type="button" data-scrim="off">Off</button>
+          </div>
+          <label class="lbl" for="scrimK">Backdrop strength <output id="scrimKOut"></output></label>
+          <input id="scrimK" type="range" min="0" max="130" step="2">
+        </div>
       </div>
 
       <div class="card" data-step="2" id="cardAttr">
         <div class="chead"><h2>Attribution</h2></div>
         <div class="field">
           <label class="lbl" for="speaker">Speaker</label>
-          <input id="speaker" type="text" autocomplete="off" placeholder="Daniel Cormier">
+          <input id="speaker" type="text" autocomplete="off" placeholder="Who said it (empty = nobody)">
         </div>
         <div class="two">
           <div class="field">
             <label class="lbl" for="about">On (optional)</label>
-            <input id="about" type="text" autocomplete="off" placeholder="Ian Garry">
+            <input id="about" type="text" autocomplete="off" placeholder="Who it is about">
           </div>
           <div class="field">
             <label class="lbl" for="source">Via source</label>
-            <input id="source" type="text" autocomplete="off" placeholder="ESPN">
+            <input id="source" type="text" autocomplete="off" placeholder="The outlet">
           </div>
         </div>
       </div>
@@ -1000,8 +1019,34 @@ var CW = [
   { id: "red",    label: "Red",    deep: "#1A0404", mid: "#C81A10", hot: "#FF4438", glyph: "#FF4438" },
   { id: "blue",   label: "Blue",   deep: "#040A1C", mid: "#1E52D0", hot: "#3D7BFF", glyph: "#3D7BFF" },
   { id: "green",  label: "Green",  deep: "#03140A", mid: "#0FA050", hot: "#2BD973", glyph: "#2BD973" },
-  { id: "gold",   label: "Gold",   deep: "#1C0F03", mid: "#D0740F", hot: "#FFA032", glyph: "#FFA032" }
+  { id: "gold",   label: "Gold",   deep: "#1C0F03", mid: "#D0740F", hot: "#FFA032", glyph: "#FFA032" },
+  // Sept 30 2026: the templates page's themes, so ONE theme drives both pages (the colours are
+  // that page's own theme accents). postcard.py renders purple only; these are studio-side.
+  { id: "ember",   label: "Ember",   deep: "#1A0A02", mid: "#F0560C", hot: "#FF8A1F", glyph: "#FF8A1F" },
+  { id: "pink",    label: "Pink",    deep: "#1C0612", mid: "#D9166C", hot: "#FF4D9A", glyph: "#FF4D9A" },
+  { id: "violet",  label: "Violet",  deep: "#12061C", mid: "#9927E6", hot: "#C95CFF", glyph: "#C95CFF" },
+  { id: "crimson", label: "Crimson", deep: "#1C0306", mid: "#B80C20", hot: "#F2303F", glyph: "#F2303F" },
+  { id: "toxic",   label: "Toxic",   deep: "#03140A", mid: "#0DA84A", hot: "#3DF07E", glyph: "#3DF07E" }
 ];
+// ---------- the ONE theme (Sept 30 2026) ----------
+// /studio and /studio/templates share localStorage "studio.theme.v1" = { id }, and each page
+// follows the other through the storage event. The picker offers exactly the templates page's
+// themes, in its order; purple (the brand) is the default. The bot's staged spec no longer
+// overrides it: the owner's choice wins.
+var THEME_KEY = "studio.theme.v1";
+var THEME_IDS = ["purple", "ember", "pink", "violet", "gold", "crimson", "toxic"];
+function lsGetT(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+function sharedTheme() {
+  var o = null;
+  try { o = JSON.parse(lsGetT(THEME_KEY) || "null"); } catch (e) { o = null; }
+  return o && typeof o === "object" && !Array.isArray(o) ? o : {};
+}
+function saveSharedTheme(patch) {
+  var o = sharedTheme();
+  for (var k in patch) o[k] = patch[k];
+  try { localStorage.setItem(THEME_KEY, JSON.stringify(o)); } catch (e) { }
+}
+function themeId() { var t = sharedTheme().id; return THEME_IDS.indexOf(t) !== -1 ? t : "purple"; }
 function cwOf(id) {
   for (var i = 0; i < CW.length; i++) if (CW[i].id === id) return CW[i];
   return CW[0];
@@ -1061,6 +1106,8 @@ var HL = [
   { id: "white",  label: "White", hex: "#FFFFFF" }
 ];
 function hlHex() {
+  // the "Brand" swatch follows the theme (purple stays #6A49EC; ember paints ember)
+  if (state.hlColor === "purple") return cwOf(state.colorway).glyph;
   for (var i = 0; i < HL.length; i++) if (HL[i].id === state.hlColor) return HL[i].hex;
   return HL[0].hex;
 }
@@ -1132,7 +1179,7 @@ function blankState() {
     left: { id: null, zoom: 1, panX: 0, panY: 0 },
     right: { id: null, zoom: 1, panX: 0, panY: 0 },
     panels: { n: 2, rows: [blankPanelRow("red"), blankPanelRow("blue"), blankPanelRow("green")] },
-    textDX: 0, textDY: 0, textScale: 1, grad: 1,
+    textDX: 0, textDY: 0, textScale: 1, grad: 1, scrim: "theme",
     tpl: {},
     versus: { left: "MAKHACHEV", right: "DELLA MADDALENA", event: "Welterweight title", date: "Nov 15 - Philadelphia" },
     stat: { title: "LAST 10 WINS", l1: "8 FINISHES", l2: "2 DECISIONS", r1: "3 FINISHES", r2: "7 DECISIONS" },
@@ -1192,11 +1239,13 @@ function mergeState(s) {
   if (!bgOk) b.bg = "arena";
   var lkOk = false;
   for (i = 0; i < LOOKS.length; i++) if (LOOKS[i].id === b.look && b.look !== "clean") lkOk = true;
+  for (i = 0; i < TLOOKS.length; i++) if (TLOOKS[i].id === b.look) lkOk = true;
   if (!lkOk) b.look = "fight";
   b.lookAmt = clamp(Math.round(Number(b.lookAmt)), 0, 100);
   if (!isFinite(b.lookAmt)) b.lookAmt = 100;
   if (b.fitMode !== "fit" && b.fitMode !== "punch") b.fitMode = "auto";
   b.tint = clamp(Math.round(Number(b.tint) || 0), 0, 100);
+  if (b.scrim !== "black" && b.scrim !== "off") b.scrim = "theme";
   var pIn = (b.panels && typeof b.panels === "object") ? b.panels : {};
   var defCw = ["red", "blue", "green"];
   var rowsIn = Array.isArray(pIn.rows) ? pIn.rows : [];
@@ -1322,7 +1371,8 @@ var supportsFilter = (function () {
 
 function seamTint3() {
   // the seam's color follows the colorway: ink warmed toward the wash's mid
-  // (for purple this is byte-identical to the old fixed "24,19,51")
+  // (for purple this is byte-identical to the old fixed "24,19,51"); "black" drops the tint
+  if (state.scrim === "black") return "0,0,0";
   var i3 = [11, 11, 14], m3;
   try { m3 = rgb3(cwOf(state.colorway).mid); } catch (e) { m3 = [91, 61, 245]; }
   return [0, 1, 2].map(function (i) {
@@ -1390,6 +1440,9 @@ function grain(ctx, amount, w, h) {
   ctx.restore();
 }
 function footerBar(ctx) {
+  // the purple footer bar is for PURPLE posters only (0h: on any other colorway it reads as a
+  // stray sliver), and it goes with the backdrop when the owner switches the backdrop off
+  if (state.colorway !== "purple" || state.scrim === "off") return;
   var g = ctx.createLinearGradient(0, 0, W, 0);
   g.addColorStop(0, PAL.deep); g.addColorStop(1, PAL.accent);
   ctx.fillStyle = g; ctx.fillRect(0, H - S.footerBar, W, S.footerBar);
@@ -1681,7 +1734,84 @@ var LOOKS = [
 ];
 function lookDef(id) {
   for (var i = 0; i < LOOKS.length; i++) if (LOOKS[i].id === id) return LOOKS[i];
+  for (var j = 0; j < TLOOKS.length; j++) if (TLOOKS[j].id === id) return TLOOKS[j];
   return LOOKS[0];
+}
+/* ---------- the templates page's approved looks, on the photo layer (Sept 30 2026) ----------
+   Carved, Gritty, Color pop, Vivid and UFC natural are the TEMPLATES page's own grades. They run
+   here in a Web Worker built from that page's code, which the Worker serves as
+   /studio/api/looks.js (the same functions the templates page hands its own workers), so the
+   studio and the templates share one grade and never a copy. Asynchronous: the photo shows
+   ungraded for a moment, then redraws; an export waits for it. */
+var TLOOKS = [
+  { id: "t-carved",  label: "Carved",      mode: "color" },
+  { id: "t-gritty",  label: "Gritty",      mode: "mono" },
+  { id: "t-pop",     label: "Color pop",   mode: "pop" },
+  { id: "t-vivid",   label: "Vivid",       mode: "vivid" },
+  { id: "t-natural", label: "UFC natural", mode: "natural" }
+];
+var TL_MAX_PX = 1500000;
+var TL = { worker: null, ready: null, seq: 0, wait: {}, done: null, busy: {}, failed: {} };
+function tlWorker() {
+  if (TL.ready) return TL.ready;
+  TL.ready = fetch("/studio/api/looks.js", { credentials: "same-origin" }).then(function (r) {
+    if (!r.ok) throw new Error("the looks are unavailable (HTTP " + r.status + ")");
+    return r.text();
+  }).then(function (src) {
+    var w = new Worker(URL.createObjectURL(new Blob([src], { type: "text/javascript" })));
+    w.onmessage = function (e) { var m = e.data || {}, cb = TL.wait[m.id]; delete TL.wait[m.id]; if (cb) cb(m); };
+    TL.worker = w;
+    return w;
+  });
+  TL.ready.catch(function () { TL.ready = null; });
+  return TL.ready;
+}
+/* the templates page's owner-law guard (poster_page.js guardTheme): a cool theme mutes a red
+   kit, crimson mutes vivid blue - never a red and blue pair on one poster */
+function tlGuard(mode, theme) {
+  var k = (theme === "purple" || theme === "violet") ? "cool" : theme === "crimson" ? "hot" : "";
+  if (!k) return null;
+  if (mode === "vivid") return theme;
+  if (k === "cool" && (mode === "color" || mode === "natural")) return theme;
+  return null;
+}
+function tlKey(k, img, look) { return [k, imgSerial(img), look, state.colorway].join("|"); }
+function tlGraded(k, img, look) {
+  if (!TL.done) TL.done = lru(4);
+  var key = tlKey(k, img, look), hit = TL.done.get(key);
+  if (hit) return hit;
+  if (TL.busy[key] || TL.failed[key]) return null;
+  var L = lookDef(look), theme = state.colorway;
+  TL.busy[key] = tlWorker().then(function (w) {
+    var iw = img.naturalWidth || img.width, ih = img.naturalHeight || img.height;
+    var s = Math.min(1, Math.sqrt(TL_MAX_PX / Math.max(1, iw * ih)));
+    var c = document.createElement("canvas");
+    c.width = Math.max(8, Math.round(iw * s)); c.height = Math.max(8, Math.round(ih * s));
+    c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+    var px = c.getContext("2d").getImageData(0, 0, c.width, c.height).data;
+    var id = ++TL.seq;
+    return new Promise(function (res, rej) {
+      TL.wait[id] = function (m) { if (m.ok && m.out && m.out.rgba) res(m.out); else rej(new Error(m.error || "grade failed")); };
+      w.postMessage({ id: id, job: { type: "subject", rgba: px, w: c.width, h: c.height, mode: L.mode, px: c.width / 640,
+        face: null, upscale: 1, seed: 7, theme: L.mode === "pop" ? theme : null, torsoCap: false, look: null, heal: false,
+        photo: true, fast: false, guard: tlGuard(L.mode, theme), adapt: null } }, [px.buffer]);
+    }).then(function (out) {
+      var oc = document.createElement("canvas");
+      oc.width = out.w; oc.height = out.h;
+      oc.getContext("2d").putImageData(new ImageData(new Uint8ClampedArray(out.rgba.buffer || out.rgba), out.w, out.h), 0, 0);
+      oc.srcW = iw; oc.srcH = ih;
+      TL.done.set(key, oc);
+    });
+  }).catch(function (e) {
+    TL.failed[key] = 1;
+    toast(String((e && e.message) || e) + ". The photo keeps its studio grade.");
+  }).then(function () { delete TL.busy[key]; drawNow(); });
+  return null;
+}
+/* the export waits for every template grade still running */
+function tlSettle() {
+  var ps = Object.keys(TL.busy).map(function (k) { return TL.busy[k]; });
+  return ps.length ? Promise.all(ps) : Promise.resolve();
 }
 var TARGET_FACE_LUM = 0.50, TARGET_LUM = 0.42, GAMMA_LO = 0.72, GAMMA_HI = 1.18;
 function autoGamma(lum, hasFace) {
@@ -1862,6 +1992,7 @@ function effectiveLook() { return state.clean ? "clean" : (state.look || "fight"
 function gradedSource(k, img) {
   var look = effectiveLook();
   if (look === "clean" || !img || !k) return img;   /* no asset key: an inset or a one-off draw, never cached under "undefined" */
+  if (look.indexOf("t-") === 0) return tlGraded(k, img, look) || img;
   var f = photoFacts(k) || {};
   var gm = typeof f.gamma === "number" ? f.gamma
          : autoGamma(f.lum, !!(f.faces && f.faces.length));
@@ -2344,12 +2475,12 @@ function drawNews(ctx) {
   if (footY !== null) footY += dy;
   var blockBottom = y + dy;
 
-  seamGrad(ctx, hy - S.seamReach, S.seamMax * clamp(state.grad, 0, 1.35));
+  if (state.scrim !== "off") seamGrad(ctx, hy - S.seamReach, S.seamMax * clamp(state.grad, 0, 1.35));
   if (!state.clean) vignette(ctx, S.vignette, 2.4);
-  if (ph && !state.clean) bandScrim(ctx, hy - 12, blockBottom + 14, S.band * clamp(state.grad, 0, 1.4), 170);
+  if (ph && !state.clean && state.scrim !== "off") bandScrim(ctx, hy - 12, blockBottom + 14, S.band * clamp(state.grad, 0, 1.4), 170);
   // photoless WASH: the colorway glyph on its own hue's field needs a floor
   // (the purple-on-purple trap) - the band grounds the type zone toward ink
-  if (!ph && !state.clean) bandScrim(ctx, hy - 12, blockBottom + 14, S.band * clamp(state.grad, 0, 1.4), 170);
+  if (!ph && !state.clean && state.scrim !== "off") bandScrim(ctx, hy - 12, blockBottom + 14, S.band * clamp(state.grad, 0, 1.4), 170);
 
   var quoted = !isState && (wantInset || !!spk) && lines.length > 0;
   var insetImg = get(state.inset.id);
@@ -3763,7 +3894,9 @@ function buildWashCard() {
   var host = $("cwRow");
   if (!host) return;
   host.innerHTML = "";
-  CW.forEach(function (c) {
+  CW.filter(function (c) { return THEME_IDS.indexOf(c.id) !== -1; }).sort(function (a, b) {
+    return THEME_IDS.indexOf(a.id) - THEME_IDS.indexOf(b.id);
+  }).forEach(function (c) {
     var b = el("button", "sw");
     b.type = "button";
     b.style.background = "linear-gradient(140deg," + c.hot + "," + c.deep + ")";
@@ -3772,13 +3905,8 @@ function buildWashCard() {
     b.appendChild(el("span", null, c.label));
     b.addEventListener("click", function () {
       snap();
-      state.colorway = c.id;
-      // the highlight color follows the wash unless the owner picked white -
-      // a purple hot word on a red field reads as a mistake, not a choice
-      if (state.hlColor !== "white") {
-        var map = { purple: "purple", red: "red", blue: "blue", green: "green", gold: "orange" };
-        state.hlColor = map[c.id] || "purple";
-      }
+      applyTheme(c.id);
+      saveSharedTheme({ id: c.id });
       syncInputs(); drawNow(); drawAllPolls();
     });
     host.appendChild(b);
@@ -4298,7 +4426,7 @@ function buildLooks() {
   var host = $("lookRow");
   if (!host) return;
   host.innerHTML = "";
-  LOOKS.forEach(function (lk) {
+  LOOKS.concat(TLOOKS).forEach(function (lk) {
     var b = el("button", "chip", lk.label);
     b.type = "button";
     b.setAttribute("aria-pressed", effectiveLook() === lk.id ? "true" : "false");
@@ -4314,6 +4442,7 @@ function buildLooks() {
   if (n) {
     var f = photoFacts(state.photo.id);
     n.textContent = effectiveLook() === "clean" ? "The photo exactly as it came, no grade."
+      : effectiveLook().indexOf("t-") === 0 ? "The " + lookDef(effectiveLook()).label + " look from the templates, in your theme color. It takes a few seconds."
       : "Exposure is set from " + (f && f.faces && f.faces.length ? "the face" : "the whole photo")
         + ", then the " + lookDef(effectiveLook()).label + " look. Skin stays natural; the tint lives in the shadows.";
   }
@@ -4664,6 +4793,7 @@ function bindText(id, apply) {
   });
 }
 function syncInputs() {
+  if ($("scrimSeg")) syncScrim();
   $("line").value = state.line;
   $("speaker").value = state.speaker;
   $("about").value = state.about;
@@ -4976,7 +5106,13 @@ function normalizeStaged(raw) {
       // photopick's face boxes, grade and the article's other good photos
       faces: Array.isArray(p.faces) ? p.faces : [],
       grade: (p.grade && typeof p.grade === "object") ? p.grade : null,
-      alts: Array.isArray(p.alts) ? p.alts.filter(function (a) { return a && typeof a.src === "string"; }) : []
+      alts: Array.isArray(p.alts) ? p.alts.filter(function (a) { return a && typeof a.src === "string"; }) : [],
+      // Sept 30 2026: the story (kind, templates, people, event, quote) and the template
+      // posters the render job attached (worker.js specStory / stagedRenders)
+      story: (p.story && typeof p.story === "object" && !Array.isArray(p.story)) ? p.story : null,
+      renders: Array.isArray(p.renders) ? p.renders.filter(function (r) {
+        return r && typeof r.img === "string" && /^[a-z0-9]{2,20}$/.test(String(r.tpl || ""));
+      }) : []
     };
   });
 }
@@ -5113,7 +5249,8 @@ function renderRail(items) {
     b.dataset.sid = p.id;
     b.setAttribute("aria-pressed", stagedPick === p.id ? "true" : "false");
     var ph = el("span", "ph loading");
-    watchThumb(ph, p.image);
+    // a story with template posters shows its best one; the news card otherwise
+    watchThumb(ph, (p.renders && p.renders[0] && p.renders[0].img) || p.image);
     if (p.score != null) ph.appendChild(el("span", "score", String(p.score)));
     var w = shortWhen(p.timestamp);
     if (w) ph.appendChild(el("span", "when", w));
@@ -5202,9 +5339,81 @@ function loadStaged() {
 }
 /* Load a staged post back exactly as the bot proposed it, so the owner can change
    ONE thing and export. Everything the contract carries lands in the document. */
+/* Every field that belongs to ONE story, cleared before a staged post is applied.
+   Sept 30 2026: the speaker's inset face was never cleared, so the portrait the
+   owner dropped for one story sat on the next story's Quote poster (the same class
+   as the Aug 19 photo-slot leak). The owner's own preferences (highlight style and
+   colour, aspect, look strength, the stat/list/calendar posters he composes by hand)
+   are deliberately NOT in here. Pure on the state it is handed. */
+function resetStory(st) {
+  st.line = ""; st.caption = ""; st.speaker = ""; st.source = ""; st.about = "";
+  st.hot = {};
+  st.photo = { id: null, zoom: 1, panX: 0, panY: 0, kind: "photo" };
+  st.inset = { id: null, dx: S.insetDx, dy: 0, scale: 1, shape: (st.inset && st.inset.shape) || "square" };
+  st.left = blankSlot(); st.right = blankSlot();
+  st.versus = { left: "", right: "", event: "", date: "" };
+  var rows = (st.panels && st.panels.rows) || [];
+  for (var i = 0; i < rows.length; i++) {
+    rows[i].l = blankSlot(); rows[i].r = blankSlot();
+    rows[i].big = ""; rows[i].small = ""; rows[i].chip = "";
+  }
+  st.textDX = 0; st.textDY = 0; st.textScale = 1;
+  st.tpl = {};
+  return st;
+}
+/* the two named people a staged spec carries fill the Versus names, so the matchup
+   poster opens on this story's fighters instead of the last one's */
+function storyPeople(st, p) {
+  var sp = (p && p.story && typeof p.story === "object") ? p.story : (p || {});
+  var ppl = Array.isArray(sp.people) ? sp.people : [];
+  var last = function (n) { var w = String(n || "").trim().split(" "); return w[w.length - 1].toUpperCase(); };
+  if (ppl.length >= 2) { st.versus.left = last(ppl[0].name || ppl[0]); st.versus.right = last(ppl[1].name || ppl[1]); }
+  if (sp.event) st.versus.event = String(sp.event).toUpperCase();
+  return st;
+}
+
+/* the templates page's names for the ids a story can suggest (pinned to the page's ids) */
+var TPL_NAMES = { mainevent: "Main event", official: "Fight announcement", titlecards: "Title cards", whowins: "Who wins?",
+  tape: "Tale of the tape", faceoff: "Face-off", card: "Main card", cards: "Card grid", countdown: "Countdown",
+  headline: "Headline", pop: "Color pop", andnew: "And new", form: "Last 5 fights", bigstat: "Big number",
+  cutq: "Cut-out quote", spotlight: "Spotlight quote", splitq: "Split quote", photocard: "Photo card",
+  resume: "Resume", split: "Split", clash: "Stat clash" };
+function storyTplHref(mid, tpl) { return "/studio/templates#s=" + mid + (tpl ? "&t=" + tpl : ""); }
+function buildStoryTpls(p) {
+  var card = $("cardStoryTpl"), host = $("storyTpls");
+  if (!card || !host) return;
+  host.textContent = "";
+  var st = p && p.story, done = {};
+  var link = document.querySelector(".tpl-link");
+  if (link) link.setAttribute("href", p && p.id ? storyTplHref(p.id, "") : "/studio/templates");
+  if (!st) { card.hidden = true; return; }
+  (p.renders || []).forEach(function (r) {
+    if (!TPL_NAMES[r.tpl] || done[r.tpl]) return;
+    done[r.tpl] = 1;
+    var a = el("a", "stpl");
+    a.href = storyTplHref(p.id, r.tpl);
+    var im = document.createElement("img");
+    im.alt = ""; im.loading = "lazy"; im.src = r.img;
+    a.appendChild(im); a.appendChild(el("span", null, TPL_NAMES[r.tpl]));
+    host.appendChild(a);
+  });
+  (st.templates || []).forEach(function (t) {
+    if (!TPL_NAMES[t] || done[t]) return;
+    done[t] = 1;
+    var a = el("a", "stpl");
+    a.href = storyTplHref(p.id, t);
+    a.appendChild(el("span", null, TPL_NAMES[t]));
+    host.appendChild(a);
+  });
+  card.hidden = !host.children.length;
+}
+
 function pickStaged(p) {
   snap();
   stagedPick = p.id;
+  resetStory(state);
+  storyPeople(state, p);
+  buildStoryTpls(p);
   // a staged NEWS post opens in the news family whatever was active: the
   // photo/cutout treatment maps to Quote, the wash design to Statement.
   // Without this, tapping a staged post while Versus or a panels template was
@@ -5237,7 +5446,10 @@ function pickStaged(p) {
   state.photo.panX = 0; state.photo.panY = 0; state.photo.zoom = 1;
   var cwOk = false;
   for (var ci = 0; ci < CW.length; ci++) if (CW[ci].id === p.colorway) cwOk = true;
-  if (cwOk) state.colorway = p.colorway;
+  // the owner's theme, never the bot's: every staged spec says "purple", and letting it win
+  // is why a colour changed on the templates page never reached a staged poster
+  state.colorway = themeId();
+  if (!cwOk) cwOk = true;
   // the plate the bot rendered on rides the spec, so the editor reopens the
   // SAME scene the staged card shows instead of the default arena
   for (var bi = 0; bi < BGS.length; bi++) if (BGS[bi].id === p.bg) state.bg = p.bg;
@@ -5305,10 +5517,13 @@ function pickStaged(p) {
 
 /* ================= export ================= */
 function withBlob(cb) {
-  finalGrade();
-  drawNow();
-  try { cv.toBlob(function (b) { if (b) cb(b); else toast("The export failed"); }, "image/png"); }
-  catch (e) { toast("The export failed"); }
+  // a templates-page look still grading is waited for: the export never ships the ungraded photo
+  tlSettle().then(function () {
+    finalGrade();
+    drawNow();
+    try { cv.toBlob(function (b) { if (b) cb(b); else toast("The export failed"); }, "image/png"); }
+    catch (e) { toast("The export failed"); }
+  });
 }
 function saveBlob(blob, name) {
   var a = document.createElement("a"), u = URL.createObjectURL(blob);
@@ -5334,10 +5549,13 @@ $("copyCap").addEventListener("click", function () {
   if (!(window.ClipboardItem && navigator.clipboard && navigator.clipboard.write)) { btn.hidden = true; return; }
   btn.addEventListener("click", function () {
     try {
-      finalGrade();
-      drawNow();
       var item = new ClipboardItem({
-        "image/png": new Promise(function (res) { cv.toBlob(function (b) { res(b); }, "image/png"); })
+        // the item takes the PROMISE, so the copy keeps the click's permission while a template
+        // look finishes grading (the ungraded photo is never what gets copied)
+        "image/png": tlSettle().then(function () {
+          finalGrade(); drawNow();
+          return new Promise(function (res) { cv.toBlob(function (b) { res(b); }, "image/png"); });
+        })
       });
       navigator.clipboard.write([item]).then(function () { toast("Image copied. Paste it into the composer."); },
         function () { toast("Copy was blocked. Download instead."); });
@@ -6514,7 +6732,38 @@ document.addEventListener("keydown", function (e) {
   else if (k === "s") { e.preventDefault(); saveDraft(); }
 });
 
+/* ================= the one theme: apply, follow ================= */
+// the theme drives the wash, the scrim tint, the hot words (the Brand swatch follows it) and the
+// underline bar; white hot words stay white on purpose
+function applyTheme(id) {
+  if (THEME_IDS.indexOf(id) === -1) id = "purple";
+  state.colorway = id;
+  if (state.hlColor !== "white") state.hlColor = "purple";
+  syncInputs(); drawNow(); drawAllPolls();
+}
+window.addEventListener("storage", function (e) {
+  if (e.key === THEME_KEY && themeId() !== state.colorway) applyTheme(themeId());
+});
+function syncScrim() {
+  var bs = $("scrimSeg").querySelectorAll("button");
+  for (var i = 0; i < bs.length; i++) press(bs[i], bs[i].dataset.scrim === (state.scrim || "theme"));
+  $("scrimK").value = String(Math.round(state.grad * 100));
+  $("scrimKOut").textContent = Math.round(state.grad * 100) + "%";
+  $("scrimK").disabled = state.scrim === "off";
+}
+$("scrimSeg").addEventListener("click", function (e) {
+  var b = e.target.closest ? e.target.closest("button[data-scrim]") : null;
+  if (!b) return;
+  snap(); state.scrim = b.dataset.scrim; syncScrim(); drawNow();
+});
+$("scrimK").addEventListener("input", function () {
+  state.grad = clamp((parseInt(this.value, 10) || 0) / 100, 0, 1.3); syncScrim(); requestDraw();
+});
+$("scrimK").addEventListener("change", function () { snap(); });
+
 /* ================= boot ================= */
+if (!sharedTheme().id) saveSharedTheme({ id: "purple" });
+state.colorway = themeId();
 applyAspect();
 syncInputs();
 buildPollRows();
@@ -6523,6 +6772,8 @@ restore().then(function (ok) {
   restoring = false;
   if (ok) {
     layer = "text";
+    // a saved poster reopens in the CURRENT theme (it may have changed on the templates page)
+    state.colorway = themeId();
     applyAspect(); syncInputs(); buildPollRows(); drawNow();
   }
   $("storeNote").textContent = "Drafts live in this browser only, in " + storeKind + ".";
