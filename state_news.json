@@ -1,5 +1,7 @@
 {
   "seen": {
+    "a7af0318714e2e1b": 1790728201.3416712,
+    "120b125c2c4b1698": 1790728201.0172212,
     "696c7d0fc2900b82": 1790728133.504751,
     "0fb4ab9c5796cf22": 1790728066.0284216,
     "7710231ab6d0029d": 1790727998.0808363,
@@ -2497,9 +2499,7 @@
     "13b276cff25b1a70": 1790104282.9433339,
     "e8242916c1b2c09f": 1790104282.941582,
     "355815960b096dbc": 1790104282.9384153,
-    "383217e82451321b": 1790104282.9362445,
-    "1b030e18f098897c": 1790104219.488883,
-    "bbdf1d9ad3f114a5": 1790104219.1887875
+    "383217e82451321b": 1790104282.9362445
   },
   "initialized": true,
   "v": 4,
@@ -4213,13 +4213,19 @@
       "source": "UFC.com",
       "ts": "2026-09-30T00:24:25+00:00",
       "cluster": "cde1dc1141b"
+    },
+    {
+      "t": "UFC to preempt some 2 News Nevada Newscasts",
+      "source": "2 News Nevada",
+      "ts": "2026-09-29T23:44:00+00:00",
+      "cluster": "c0c408e1c80"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T00",
-    23
+    24
   ],
   "yt_eval": [
     "CBMiYEFVX3lxTE5TMWs3dTV4WklPVW9seTdreEx1ZXJKTkJEZldIeUZWNTFpOEoybldlQTVpMUUwanJwZWExeVVEN1NPemI4UjcxRlk1anBENGlqalgtNXBia2RPYkkzY3ZvMw",
