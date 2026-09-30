@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0a35540f0006c367": 1790727116.1814249,
     "96e30724ac4b4440": 1790727090.539733,
     "8f0eaf1bd71fa117": 1790727063.4218378,
     "63e86eb2728ecb61": 1790727033.6009746,
@@ -2498,8 +2499,7 @@
     "503a60ad3dcef1b0": 1790103376.4111724,
     "2d0cc52651dd2b18": 1790103376.4078217,
     "91762402730de67a": 1790103376.4070206,
-    "f93dde66abfef82f": 1790103376.404967,
-    "600b935ce46dceaa": 1790103313.4348965
+    "f93dde66abfef82f": 1790103376.404967
   },
   "initialized": true,
   "v": 4,
@@ -4105,13 +4105,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-29T19:07:18+00:00",
       "cluster": "c6bc4fee585"
+    },
+    {
+      "t": "Jorge Masvidal and Dustin Poirier agree on UFC’s No 1 P4P king as Justin Gaethje is snubbed from top three",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-29T23:00:00+00:00",
+      "cluster": "c3034314db3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T00",
-    4
+    5
   ],
   "yt_eval": [
     "360e3807-c883-3e6d-9d7d-128b1c212d66",
