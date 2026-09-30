@@ -805,7 +805,7 @@ def retention_note(newscfg):
         days, "" if days == 1 else "s")
 
 
-def studio_spec(it, kind, bg="", extra=None):
+def studio_spec(it, kind, bg="", extra=None, story=None):
     """The ```json spec fence the Worker parses back out for the studio's
     staged rail (worker.js stagedParts). This is what makes a staged post
     ROUND-TRIP: the studio re-renders the text live from these fields instead
@@ -819,7 +819,12 @@ def studio_spec(it, kind, bg="", extra=None):
     faces - [[x, y, w, h], ...] fractions of the raw photo;
     grade - {"look", "gamma"}; alts - other good photos from the article as
     {"u": url, "f": face boxes} (urls the Worker proxies after checking they
-    are listed here). Pure."""
+    are listed here).
+
+    `story` (Sept 30 2026) is storykind.story(): the story's kind, the ranked
+    poster templates for it, the people it names (full athlete slug only for a
+    full name), the event it mentions and a quote lifted from the headline.
+    The Worker re-validates every one of them (worker.js specStory). Pure."""
     spec = {
         "line": " ".join(str(it.get("line") or "").split())[:200],
         "hot": [str(h)[:60] for h in (it.get("hot") or []) if str(h or "").strip()][:8],
@@ -851,6 +856,20 @@ def studio_spec(it, kind, bg="", extra=None):
                                        if isinstance(b, (list, tuple)) and len(b) >= 4]})
         if alts:
             spec["alts"] = alts[:3]
+    st = story if isinstance(story, dict) else {}
+    if st.get("kind"):
+        spec["kind"] = str(st["kind"])[:20]
+        spec["templates"] = [str(t)[:20] for t in (st.get("templates") or []) if t][:8]
+        ppl = []
+        for p in (st.get("people") or [])[:4]:
+            if isinstance(p, dict) and p.get("name"):
+                e = {"name": " ".join(str(p["name"]).split())[:60]}
+                if p.get("slug"):
+                    e["slug"] = str(p["slug"])[:60]
+                ppl.append(e)
+        spec["people"] = ppl
+        spec["event"] = " ".join(str(st.get("event") or "").split())[:60]
+        spec["quote"] = " ".join(str(st.get("quote") or "").split())[:200]
     # A backtick run inside the fence (an alt url lifted from a third-party
     # page, a model-written line) would close the Discord code block early and
     # cost the post its round-trip. JSON reads the escaped form back as the
@@ -891,6 +910,41 @@ def _deep_link(chan, resp, body, newscfg):
             common.edit_message(chan, mid, body + extra)
     except Exception:
         pass
+
+
+# ---- the template posters (Sept 30 2026) ------------------------------------
+# A staged story is rendered through the REAL poster templates by a separate
+# workflow (render.yml -> tplrender.py), dispatched here the moment the post
+# lands, so the news job never waits for Chrome. Dormant until WORKER_BOT_KEY
+# reaches this job's environment: without it nothing is dispatched and no run
+# is ever created. workflow_dispatch is the one trigger the job's own
+# GITHUB_TOKEN may fire, and it starts instantly (measured Sept 14: 0 s).
+RENDER_WORKFLOW = "render.yml"
+
+
+def request_render(resp):
+    """Dispatch render.yml for the message the staging POST just created.
+    True when GitHub accepted it (204). Never raises."""
+    try:
+        mid = str((resp or {}).get("id") or "") if isinstance(resp, dict) else ""
+        if not os.environ.get("WORKER_BOT_KEY", "").strip():
+            return False
+        tok = os.environ.get("GITHUB_TOKEN", "").strip()
+        repo = os.environ.get("GITHUB_REPOSITORY", "").strip()
+        ref = os.environ.get("GITHUB_REF_NAME", "").strip() or "main"
+        if not (tok and re.match(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$", repo)
+                and re.match(r"^[0-9]{15,21}$", mid)):
+            return False
+        code, _ = common.http(
+            "https://api.github.com/repos/%s/actions/workflows/%s/dispatches" % (repo, RENDER_WORKFLOW),
+            method="POST", body={"ref": ref, "inputs": {"message": mid}}, tries=2, timeout=15,
+            headers={"Authorization": "Bearer " + tok, "Accept": "application/vnd.github+json",
+                     "X-GitHub-Api-Version": "2022-11-28"})
+        if code != 204:
+            print("  yt: render dispatch refused (HTTP %s)" % code)
+        return code == 204
+    except Exception:
+        return False
 
 
 # Below this many seconds before the caller's deadline the slow work - the
@@ -1028,15 +1082,34 @@ def stage_story(it, score, why, cfg_bots, newscfg, hist=None, state=None, deadli
         img_kind = ("none" if not img_path else
                     "photo" if photo_path else
                     ("cutout:" + cut_fid) if cutout_path else "wash")
+        try:
+            import storykind
+            story = storykind.story(it.get("title", ""), it.get("desc", ""),
+                                    kind=str(it.get("kind") or ""))
+        except Exception:
+            story = None
+
         def _body():
             return _studio_body(score, why, caption, ping_uid,
                                 retention_note(newscfg),
                                 spec_json=studio_spec(it, raw_kind if img_path else "",
                                                       bg="" if photo_path else plate,
-                                                      extra=extra))
+                                                      extra=extra, story=story))
         body = _body()
         while len(body) > BODY_BUDGET and extra.get("alts"):
             extra["alts"] = extra["alts"][:-1]
+            body = _body()
+        # still long: the quote goes, then the people past the first two, then the story
+        # (the post itself matters more than its templates)
+        for _cut in ("quote", "people", "story"):
+            if len(body) <= BODY_BUDGET or not story:
+                break
+            if _cut == "quote":
+                story["quote"] = ""
+            elif _cut == "people":
+                story["people"] = (story.get("people") or [])[:2]
+            else:
+                story = None
             body = _body()
         files = []
         if img_path:
@@ -1053,6 +1126,8 @@ def stage_story(it, score, why, cfg_bots, newscfg, hist=None, state=None, deadli
                                              allowed_mentions=mentions, silent=silent)
         if code in (200, 201):
             _deep_link(chan, resp, body, newscfg)
+            if story:
+                request_render(resp)
         for tmp in (img_path, photo_path, cutout_path):
             if tmp:
                 try: os.remove(tmp)
