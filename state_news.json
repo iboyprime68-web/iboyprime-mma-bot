@@ -1,5 +1,6 @@
 {
   "seen": {
+    "640d75b0430f1c11": 1790750839.3656962,
     "fc5f08a61d165aa4": 1790750772.7471392,
     "ca95a4ad3f73fcdb": 1790750772.5213568,
     "c469f00d9a84f5fb": 1790750772.511292,
@@ -2498,8 +2499,7 @@
     "569d1dc8239597d0": 1790122356.8073137,
     "339d042c6bd4a864": 1790122356.8046465,
     "35832a6efd98b36b": 1790122292.4520159,
-    "ab5a75084fbdfaca": 1790122246.0878253,
-    "778117e5fa262add": 1790122245.8288274
+    "ab5a75084fbdfaca": 1790122246.0878253
   },
   "initialized": true,
   "v": 4,
@@ -4309,13 +4309,19 @@
       "source": "boxingnews.com",
       "ts": "2026-09-30T06:30:44+00:00",
       "cluster": "c794c89486e"
+    },
+    {
+      "t": "Conor McGregor gets unexpected UFC title backing from Jose Aldo",
+      "source": "Sherdog",
+      "ts": "2026-09-30T04:15:02+00:00",
+      "cluster": "cd18ed17412"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T06",
-    25
+    26
   ],
   "yt_eval": [
     "CBMibkFVX3lxTE5nUlZ2OEFOb1hVcjE2cl85TXdsdWw0TVZBSFM3T3JDbmx5dEFjbHlpOXFVNGY0ZWQtWmNoSEpOMVV2MnRKREpGNjhjWkc3dWwtcFNqUjVuUzRZVDFsTnoxSGJFdFM0Ukx3akRNRE53",
