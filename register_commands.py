@@ -80,6 +80,11 @@ COMMANDS = [
             {"type": SUB, "name": "remove", "description": "Remove a keyword", "options": [
                 {"type": STRING, "name": "list", "description": "Which list", "required": True, "choices": choices(["breaking", "exclude"])},
                 {"type": STRING, "name": "word", "description": "Keyword or phrase", "required": True}]}]},
+        {"type": SUB_GROUP, "name": "x", "description": "The X accounts the fast news layer follows (staff)", "options": [
+            {"type": SUB, "name": "add", "description": "Follow an X account", "options": [
+                {"type": STRING, "name": "handle", "description": "The handle, without @", "required": True}]},
+            {"type": SUB, "name": "remove", "description": "Stop following an X account", "options": [
+                {"type": STRING, "name": "handle", "description": "The handle, without @", "required": True}]}]},
     ]},
 
     # ----- moderation (staff) -----
