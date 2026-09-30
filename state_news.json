@@ -1,5 +1,6 @@
 {
   "seen": {
+    "03bc2b9764b17ce3": 1790794748.1075087,
     "73613dbb672b356c": 1790794720.974321,
     "de3006a4f663fc55": 1790794694.9206665,
     "0dd16e5f7365f1ca": 1790794669.0494986,
@@ -2498,8 +2499,7 @@
     "a792b8a31ce741cd": 1790143314.1493204,
     "23da1d496a8a02d4": 1790143250.06995,
     "07a4691d8034f0b2": 1790143226.0786383,
-    "eb4ce57572a32da8": 1790143225.7922642,
-    "db8d3a33cee848db": 1790143178.2880423
+    "eb4ce57572a32da8": 1790143225.7922642
   },
   "initialized": true,
   "v": 4,
@@ -4195,13 +4195,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-30T16:58:43+00:00",
       "cluster": "cd322b1668e"
+    },
+    {
+      "t": "Dana White says Fury vs. Joshua drama 'an ego thing' caused by Eddie Hearn",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-30T14:30:31+00:00",
+      "cluster": "c306feff9aa"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T18",
-    5
+    6
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=332231",
