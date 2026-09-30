@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 21,
   "staged_at": [
-    "2026-09-27T19:47:42.041696+00:00",
     "2026-09-28T17:43:02.605168+00:00",
     "2026-09-29T15:58:49.988808+00:00",
-    "2026-09-29T20:53:39.962726+00:00"
+    "2026-09-29T20:53:39.962726+00:00",
+    "2026-09-30T15:58:30.207487+00:00"
   ],
   "asked": [
-    "Who is the worst main event in UFC history?",
     "Who is the best commentator in UFC history?",
     "Who is the most complete fighter in the UFC right now?",
     "Who wins the UFC 333 trilogy, Yan or Merab?",
@@ -47,33 +46,34 @@
     "What is the most cowardly illegal foul in UFC history?",
     "What is the most painful near miss in UFC history?",
     "Who is the most terrifying UFC fighter to ever step in the octagon?",
-    "Who is the most dangerous striker in UFC history?"
+    "Who is the most dangerous striker in UFC history?",
+    "What is the most shameless thing a UFC fighter has ever done?"
   ],
   "last_entry": {
-    "q": "Who is the most dangerous striker in UFC history?",
+    "q": "What is the most shameless thing a UFC fighter has ever done?",
     "type": "poll",
     "options": [
       {
-        "label": "Anderson Silva",
-        "emoji": "🕷️",
-        "art": ""
+        "label": "Fake glove touch",
+        "emoji": "🤝",
+        "art": "Two fighters touching gloves in a cage, one throwing a left hook, dramatic overhead light, no text, no names"
       },
       {
-        "label": "Conor McGregor",
-        "emoji": "☘️",
-        "art": ""
+        "label": "Fake injury",
+        "emoji": "🤕",
+        "art": "A fighter clutching his eye in a cage, winking at the camera, dramatic spotlight, no text, no names"
       },
       {
-        "label": "Jiri Prochazka",
-        "emoji": "⚔️",
-        "art": ""
+        "label": "Missed weight",
+        "emoji": "⚖️",
+        "art": "A digital scale in a dark locker room showing a weight over the limit, a towel on the floor, no text, no names"
       },
       {
-        "label": "Other",
-        "emoji": "🤔",
-        "art": "A ninja turtle with boxing gloves shadowboxing in a sewer."
+        "label": "Other (comment below)",
+        "emoji": "🤡",
+        "art": "A clown in a referee shirt holding a UFC belt in a dark octagon, confetti falling, no text, no names"
       }
     ],
-    "gag": "A ninja turtle with boxing gloves shadowboxing in a sewer."
+    "gag": "A clown in a referee shirt holding a UFC belt in a dark octagon, confetti falling, no text, no names"
   }
 }
