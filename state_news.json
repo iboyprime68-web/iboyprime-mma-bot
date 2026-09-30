@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2e98e651e26cf467": 1790777639.6629777,
     "8e0b65a24f703887": 1790777571.3275054,
     "1b34463e978baf67": 1790777443.8844924,
     "ad26b6805459c9c7": 1790777317.5799115,
@@ -2498,8 +2499,7 @@
     "ac7f32af96db19cd": 1790143113.444336,
     "8e3564a8fb24149b": 1790143049.3655503,
     "f7062ab10f2b0c4c": 1790142985.5644302,
-    "c51eb088b7f157a9": 1790142920.6786027,
-    "5386a66a42230ac4": 1790142855.7608733
+    "c51eb088b7f157a9": 1790142920.6786027
   },
   "initialized": true,
   "v": 4,
@@ -4423,13 +4423,19 @@
       "source": "RingSide24",
       "ts": "2026-09-30T13:15:55+00:00",
       "cluster": "c0d6d71d8b0"
+    },
+    {
+      "t": "Colby Covington Claims ‘Fake News’ After Report He Refused Sean Strickland RAF Wrestling Match",
+      "source": "MMANews.com",
+      "ts": "2026-09-30T14:13:02+00:00",
+      "cluster": "c2cecb9b3df"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T14",
-    4
+    5
   ],
   "yt_eval": [
     "CBMi1wFBVV95cUxOUm0zNG1saF9GWjNPcE1aSGdlc2lkVE92aGt0R3o0NU1DQ0NCREE5Z3hXYTNFcHBuRUV1dmdNQkhYbzJjN3BvckNZX2I0eUVBcHJJdUItQzlKSXoyVHhCNjZCSDNsZHdnVWJLdjVqQ1hJV3JGMjFqVTlySV9VR29yS3RFTW41aE9wRE5HLVNWcnRxWTNMdG9VcFR3b0NiX3B6dG5jRDNuX3ljNXY4QXIwSm5xelQzcnN1MlhzMXZ3cWpnLWU2dkRaTEx3T2VMa0I2X3VMaEd6Yw",
