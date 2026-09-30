@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8b3e7487c5388d11": 1790750572.210985,
     "1d0700e0d96681e8": 1790750525.1348252,
     "af53da1a8bf9da4d": 1790750524.7725801,
     "1440bfd2d5ff9846": 1790750524.740462,
@@ -2498,8 +2499,7 @@
     "c0ef643e505e752b": 1790116912.3208706,
     "5e044f48b9dee4b7": 1790116538.4861872,
     "bb182c0085b8c06e": 1790116538.4615164,
-    "4b41fb4f945099df": 1790116495.2946224,
-    "dc9360e0ab880cb5": 1790116472.8630908
+    "4b41fb4f945099df": 1790116495.2946224
   },
   "initialized": true,
   "v": 4,
@@ -4285,13 +4285,19 @@
       "source": "Sherdog",
       "ts": "2026-09-30T03:55:21+00:00",
       "cluster": "c2c1f93cece"
+    },
+    {
+      "t": "Dana White confirms he remains involved in Las Vegas NBA expansion bid",
+      "source": "Sherdog",
+      "ts": "2026-09-30T05:50:51+00:00",
+      "cluster": "cd990e6c39a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T06",
-    21
+    22
   ],
   "yt_eval": [
     "CBMiwwFBVV95cUxOM0libVRBRXBfSzN1V0c2YlNSSGRHOGdiTTdGeG16ZjcwVkJJOXg5dU5BaVgwRDJYejd2VFpRRlhZdktsdUlMRDJTWGJKaGIwQTBxbWk3MjBocTZUSFh4S19vNjliOWhsOHlDbkJ2YjhmdmNIS2Z1QUhqQVZQSkotbXAwWEQ0S0dHZmhSZUJ3WlZJMVRmYklxNjBkTDVCRzNURlVHUUQ5ajB4QXRYOG9lQXNwU1pQcGhzNUJGMTFtTHc0WGvSAcgBQVVfeXFMTXZJVXk2NURhVGRGZ21vazhTOHYwYmVGMkM2MFJXZjVVdVk3bE95dkNFdmFmREV3NUpKYjZsbkNMeUszWUhScnFpLXVRYTNBLWdKTUs2THRVSTdBd29iNHVtcXVpVk1hdDJFMlJrbUswcnR2X0luN1p2UmF2ZEVJNDNxdXR6NjZxMEhkcm5ValEyRG82b2E2VGV1ZTY3TFVNeWQ3Y29yTkdXVG94cGVNeFpORklDTlBtY2s1eFItODZteDRlenZJbG0",
