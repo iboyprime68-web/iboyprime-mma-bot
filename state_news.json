@@ -1,5 +1,8 @@
 {
   "seen": {
+    "443dcf97104f7bd9": 1790809403.8318038,
+    "9761d285fa399c52": 1790809403.4229474,
+    "b95756753550da80": 1790809403.4215403,
     "3813e7e6e82e9c59": 1790809376.3487816,
     "1be22c792456eaec": 1790809350.6104133,
     "14157974edcf0453": 1790809350.260731,
@@ -2496,10 +2499,7 @@
     "d5f73d004967ea42": 1790182109.1295073,
     "6d7c65ed977e40cc": 1790182109.1274586,
     "a2955ddf6080f26b": 1790182086.0854325,
-    "3f24b9937c94dc44": 1790182085.7416568,
-    "4ba8380f31fbc797": 1790182021.0222254,
-    "d599a5eb3b3dbbf0": 1790182020.7293339,
-    "cb36042f46fd521b": 1790182020.7268457
+    "3f24b9937c94dc44": 1790182085.7416568
   },
   "initialized": true,
   "v": 4,
@@ -4351,13 +4351,19 @@
       "source": "@SpinninBackfist",
       "ts": "2026-09-30T22:39:01+00:00",
       "cluster": "c822405dda4"
+    },
+    {
+      "t": "Aljamain Sterling given ‘one hour’ to accept UFC Qatar fight, rejected Aaron Pico — ‘What does that do for me?’",
+      "source": "MMA Mania",
+      "ts": "2026-09-30T22:19:26+00:00",
+      "cluster": "c5a9cbecb27"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T23",
-    7
+    8
   ],
   "yt_eval": [
     "CBMi7gFBVV95cUxOSHVrVXU2ekZmb25IcF8wWEpXaDBqNW05VlFma3BOZkkwcWZTTlBPbm0tWjBkRkFRY2R2UzVCd1I2cG94MmN1STUwT3VvYlBNNmlfU1NtYzlHSE5xT2xzWVd3WFRkSGVBcFM3R0d2VXJVYzUyWGRreDhkNWpaemZGRTJNUzR1QWQ3TTFfWFBPT2czRlNnNGVRQjdIUjZWcndiMmU2UzJKV28wdmpiWWxURlpHR2h4aU05aTRxX3RiX1RYQzg4aTdWVUJBeHpGWGFOUmRoWExDVUdUV004eFVSd2M5RnAwTzlGVUtEVEx3",
