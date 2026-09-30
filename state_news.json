@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5a76719ff9a11c19": 1790750094.0844736,
     "c239aaec541ee9c7": 1790750019.8166995,
     "dea7f9a2b53baec5": 1790749953.2427,
     "0bd45c620b4ab57f": 1790749952.9559803,
@@ -2498,8 +2499,7 @@
     "1001d60cf2e06108": 1790115090.226583,
     "9e98a7299638607b": 1790115090.2023933,
     "f986550f7e16d5c2": 1790115090.2012682,
-    "2277bd4abcf2824a": 1790115090.1998904,
-    "aa85b1e93806dd17": 1790115027.292413
+    "2277bd4abcf2824a": 1790115090.1998904
   },
   "initialized": true,
   "v": 4,
@@ -4243,13 +4243,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-30T02:46:37+00:00",
       "cluster": "c5408cc57e4"
+    },
+    {
+      "t": "MMA Junkie rankings, Sept. 29: Ailin Perez takes No. 2",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-30T02:49:25+00:00",
+      "cluster": "c09697ac579"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T06",
-    12
+    13
   ],
   "yt_eval": [
     "CBMikgFBVV95cUxORXowRTlxaXB5MlBjUUxJTGtoVGpUR3hQRVprbWpaemExN0l6OWtDU0RVTDg5VWhocHczRXJxdTNaVkFEM1g4QlRoSmlEa2YzaWlSejNUa0RHa05za2tUY2lUWTM3cVU2MkI4SjNXV2FVR2JZVmdodVlTV0hTZHdOeXdXd0FrZ2RsV1hRTE16X1FJdw",
