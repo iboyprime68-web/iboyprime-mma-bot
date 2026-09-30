@@ -181,6 +181,11 @@ input[type=range]{width:100%;accent-color:var(--acc)}
   .tip{display:none}
   .gnote{min-height:0}
 }
+.storybar{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:0 0 10px;font:600 12px Poppins,sans-serif;color:#cfcfda}
+.storybar b{color:#fff}
+.storybar button{font:700 12px Poppins,sans-serif;color:#fff;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:6px 12px;cursor:pointer}
+.storybar button[aria-pressed="true"]{border-color:var(--acc);background:rgba(255,255,255,.12)}
+.storybar a{color:#cfcfda;margin-left:auto}
 </style>
 </head>
 <body>
@@ -201,6 +206,7 @@ input[type=range]{width:100%;accent-color:var(--acc)}
 <div class="app">
   <aside class="gal" id="gal" aria-label="Templates"></aside>
   <main class="stage">
+    <div class="storybar" id="storyBar" hidden></div>
     <div class="cwrap" id="cwrap">
       <canvas id="cv" width="1080" height="1080" aria-label="Poster preview"></canvas>
       <canvas id="ov" aria-hidden="true"></canvas>
@@ -221,10 +227,16 @@ var NL = String.fromCharCode(10);
 var LQ = String.fromCharCode(8220), RQ = String.fromCharCode(8221), DOT = String.fromCharCode(183);
 var APOS = String.fromCharCode(8217);
 var W = 1080, H = 1080;
+// Sept 30 2026: the news job renders staged stories through THIS page in headless Chrome. In that
+// mode nothing draws on screen (no editor preview, no gallery thumbnails): the CPU goes to the export.
+var RENDER_MODE = !!window.__postersRender;
 var cv = document.getElementById("cv"), g = cv.getContext("2d");
 var ov = document.getElementById("ov"), og = ov.getContext("2d");
 
 function $(id) { return document.getElementById(id); }
+// a 401 means the studio session ended: the page reloads onto the sign-in page. A headless render
+// has no one to sign in, so it fails the fetch instead of reloading for ever.
+function signedOut() { if (!RENDER_MODE) location.reload(); }
 function clamp(v, a, b) { return v < a ? a : v > b ? b : v; }
 function lerp(a, b, t) { return a + (b - a) * t; }
 function smooth(e0, e1, x) { var t = clamp((x - e0) / (e1 - e0), 0, 1); return t * t * (3 - 2 * t); }
@@ -248,8 +260,14 @@ function toast(msg) {
   toastT = setTimeout(function () { t.classList.remove("on"); }, Math.max(2600, String(msg).length * 60));
 }
 function upper(s) { return String(s || "").toUpperCase(); }
+// letters NFD cannot split into ASCII plus an accent, written the way ufc.com writes
+// them (Jan Blachowicz is /athlete/jan-blachowicz). The SAME table as
+// bots_github/storykind.py SLUG_FOLD, pinned by shared vectors in both suites.
+var SLUG_FOLD = { 322: "l", 321: "l", 248: "o", 216: "o", 223: "ss", 230: "ae", 198: "ae", 273: "d", 272: "d",
+  305: "i", 240: "d", 254: "th", 339: "oe", 338: "oe" };
 function slugify(name) {
-  var s = String(name || "").toLowerCase();
+  var s0 = String(name || "").toLowerCase(), s = "";
+  for (var k = 0; k < s0.length; k++) { var f = SLUG_FOLD[s0.charCodeAt(k)]; s += f === undefined ? s0.charAt(k) : f; }
   if (s.normalize) s = s.normalize("NFD");
   var out = "", dash = false;
   for (var i = 0; i < s.length; i++) {
@@ -2131,6 +2149,13 @@ var THEMES = {
   pink: { name: "Pink", a: "#FF4D9A", hi: "#FFB3D2", lo: "#D9166C", hue: 334.0, pop: "#FF4D9A", cool: false,
     plate: ramp([[0.00, 320, 0.045, 0.72], [0.20, 321, 0.21, 0.88], [0.42, 325, 0.45, 0.90], [0.64, 330, 0.69, 0.87], [0.84, 334, 0.88, 0.78], [1.00, 340, 1.00, 0.52]], 1.07, 1.15),
     shade: "#0D0309", haze: "#FFC6DF", ink: "#1C0612" },
+  // purple (Sept 30 2026): the owner's BRAND purple, the default of the one studio. The news
+  // posters' #6A49EC family (hot #6A49EC, accent #8B70FF, deep #5B3DF5), bluer than violet
+  // (hue 252, never the magenta #A45CFF he rejected). Blue carries the least luma per value,
+  // so the ramp is lifted x1.22 like crimson's.
+  purple: { name: "Purple", a: "#8B70FF", hi: "#C9BBFF", lo: "#5B3DF5", hue: 252.0, pop: "#8B70FF", cool: true,
+    plate: ramp([[0.00, 248, 0.05, 0.70], [0.20, 249, 0.24, 0.84], [0.42, 251, 0.48, 0.86], [0.64, 253, 0.73, 0.80], [0.84, 256, 0.91, 0.62], [1.00, 260, 1.00, 0.40]], 1.12, 1.22),
+    shade: "#07050F", haze: "#D2C8FF", ink: "#0C0620" },
   violet: { name: "Violet", a: "#C95CFF", hi: "#ECBFFF", lo: "#9927E6", hue: 280.0, pop: "#C95CFF", cool: true,
     plate: ramp([[0.00, 276, 0.05, 0.70], [0.20, 278, 0.24, 0.84], [0.42, 280, 0.48, 0.86], [0.64, 283, 0.73, 0.80], [0.84, 286, 0.91, 0.62], [1.00, 290, 1.00, 0.40]], 1.12, 1.16),
     shade: "#0A050F", haze: "#E3CBFF", ink: "#12061C" },
@@ -2148,7 +2173,7 @@ var THEMES = {
     plate: ramp([[0.00, 150, 0.045, 0.78], [0.20, 148, 0.15, 0.92], [0.42, 145, 0.33, 0.93], [0.64, 140, 0.57, 0.90], [0.84, 132, 0.81, 0.82], [1.00, 118, 0.98, 0.62]], 1.0, 0.84),
     shade: "#030D06", haze: "#C6FFD8", ink: "#03160A" }
 };
-var THEME_ORDER = ["ember", "pink", "violet", "gold", "crimson", "toxic"];
+var THEME_ORDER = ["purple", "ember", "pink", "violet", "gold", "crimson", "toxic"];
 function themeOf(t) { if (!t) return THEMES.ember; if (typeof t === "string") return THEMES[t] || THEMES.ember; return t; }
 function isCool(t) { var th = themeOf(t); return !!th.cool || (th.hue >= 200 && th.hue <= 300); }
 
@@ -3563,6 +3588,12 @@ var VIVID_THEMES = {
     plate: "#33062C", key: "#FF74B4", bg: "#F2F1F2", ink: "#4A0834", p1: "#FFB6DA", p2: "#EA8FF2", ptxt: "#33062C",
     a: "#D81F80", hi: "#EE3E98", lo: "#7C12A8", da: "#FF4FA6", dhi: "#FFB0D6", dlo: "#C22AD8",
     dbg0: "#0A0509", dbg1: "#1A0A16", dglow1: "#FF2A8F", dglow2: "#D86BFF" },
+  // purple: the brand purple (#6A49EC family), the studio default since Sept 30 2026
+  purple: { id: "purple", name: "Purple",
+    c1: "#A38CFF", c2: "#6A49EC", band: "#5B3DF5", glow: "#EDE8FF", deep: "#4A2DD6", floor: "#130B38",
+    plate: "#150C3E", key: "#9C85FF", bg: "#F2F1F5", ink: "#170C4A", p1: "#D6CCFF", p2: "#B3A1FF", ptxt: "#150C3E",
+    a: "#6A49EC", hi: "#8B70FF", lo: "#4A2DD6", da: "#8B70FF", dhi: "#C9BBFF", dlo: "#6A49EC",
+    dbg0: "#0B0719", dbg1: "#150E2C", dglow1: "#7B5CFF", dglow2: "#A38CFF" },
   violet: { id: "violet", name: "Violet",
     c1: "#C095FF", c2: "#9636E6", band: "#7A22D8", glow: "#F3E9FF", deep: "#6A1BC4", floor: "#1C0838",
     plate: "#1E0A3E", key: "#BE8CFF", bg: "#F2F1F3", ink: "#240B4A", p1: "#DCC6FF", p2: "#C39BFF", ptxt: "#1E0A3E",
@@ -3593,7 +3624,7 @@ var VIVID_THEMES = {
 // ONE theme list for the whole page: the order and the ids come from the page's THEMES (ember
 // first, the default), and every page theme has a card theme here (a selftest pins that). An
 // unknown id resolves through themeById, so a card and the rest of the page never disagree.
-var VIVID_ORDER = ["ember", "pink", "violet", "gold", "crimson", "toxic"];
+var VIVID_ORDER = ["purple", "ember", "pink", "violet", "gold", "crimson", "toxic"];
 function vividTheme(id) { return VIVID_THEMES[themeById(id).id] || VIVID_THEMES.ember; }
 
 // ---------- colour helpers ----------
@@ -4299,7 +4330,7 @@ function drawVividV3(ctx, W, H, th, dark, d) {
 // use; ink is text on an accent plate; tint is the dark those scenes lean toward.
 // NEVER a red-versus-blue scheme anywhere (owner law, Sept 25 2026): there is no blue theme, and
 // an old saved doc naming the retired "ice" or "mono" theme opens in ember.
-var THEME_IDS = ["ember", "pink", "violet", "gold", "crimson", "toxic"];
+var THEME_IDS = ["purple", "ember", "pink", "violet", "gold", "crimson", "toxic"];
 var THEMES = THEME_IDS.map(function (id) {
   var t = GRIT.THEMES[id];
   return { id: id, name: t.name, a: t.a, hi: t.hi, lo: t.lo, glow: mix(t.a, t.hi, 0.35), ink: t.ink,
@@ -4376,7 +4407,7 @@ function blobToImage(blob) {
 }
 function fetchBlob(url) {
   return fetch(url, { credentials: "same-origin" }).then(function (r) {
-    if (r.status === 401) { location.reload(); throw new Error("signed out"); }
+    if (r.status === 401) { signedOut(); throw new Error("signed out"); }
     if (!r.ok) throw new Error("HTTP " + r.status);
     return r.blob();
   });
@@ -5582,6 +5613,22 @@ function idbGet(k) { return idbDo("readonly", function (st) { return st.get(k); 
 function idbDel(k) { return idbDo("readwrite", function (st) { return st.delete(k); }); }
 function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
 function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { } }
+// ---------- the ONE theme (Sept 30 2026) ----------
+// The studio (/studio) and this page share one theme: localStorage "studio.theme.v1" (same
+// origin, so both pages read the same key, and a change in one reaches the other through the
+// storage event). { id: a theme id, scrim: "theme" | "black" | "off", scrimK: 0..1.35 }. The
+// owner's default is his brand purple.
+var THEME_KEY = "studio.theme.v1";
+function sharedTheme() {
+  var o = null;
+  try { o = JSON.parse(lsGet(THEME_KEY) || "null"); } catch (e) { o = null; }
+  return o && typeof o === "object" && !Array.isArray(o) ? o : {};
+}
+function saveSharedTheme(patch) {
+  var o = sharedTheme();
+  for (var k in patch) o[k] = patch[k];
+  lsSet(THEME_KEY, JSON.stringify(o));
+}
 
 // ---------- plates: grayscale textures, tinted in code ----------
 var PLATES = {
@@ -7607,8 +7654,12 @@ def({
            { id: "label", label: "Weight class line", def: function (D) { return boutClass(D) || "FEATHERWEIGHT CHAMPIONSHIP"; } },
            { id: "nameL", label: "Left name", def: function (D) { return D.A ? D.A.name : "Alexander Volkanovski"; } },
            { id: "nameR", label: "Right name", def: function (D) { return D.B ? D.B.name : "Movsar Evloev"; } }],
-  draw: function () {
-    var th = vividTheme(doc.theme), dark = doc.ground === "dark", G0 = vividGeom("v2", W, H), cd = G0.card, fs = [];
+  draw: function () { drawCardsV2(doc.ground === "dark"); }
+});
+// the two-card bout layout (V2), shared by Title cards and Main event: pill, big title, two
+// cut-out cards with the heads breaking out, name plates, the VS badge and the weight line
+function drawCardsV2(darkGround) {
+    var th = vividTheme(doc.theme), dark = !!darkGround, G0 = vividGeom("v2", W, H), cd = G0.card, fs = [];
     ["left", "right"].forEach(function (id, i) {
       var a = assetOf(id), res = a && a.cut ? cardRes(a, "body", cd.w, cd.h + cd.pop, cd.headFrac, 2 / (cd.h + cd.pop), cd.below, id, { label: i ? "Right fighter" : "Left fighter" }) : null;
       var nm = splitName(tx(i ? "nameR" : "nameL")), e = expoOf(id), img = res ? expoFloat(res.img, e) : null;
@@ -7648,7 +7699,21 @@ def({
     if (G.titleBox) textHit("title", G.titleBox);
     if (G.pillBox) textHit("pill", G.pillBox);
     textHit("label", [W * 0.2, G.label.y, W * 0.6, G.label.size * 1.2]);
-  }
+}
+// Main event (Sept 30 2026): the owner's announcement card (docs/owner_refs/2026-09-30,
+// screenshot 1) - the V2 layout on the LIGHT ground always, MAIN EVENT, and the weight class
+// alone on the bottom line. The theme colours the cards (never a red and blue pair).
+def({
+  id: "mainevent", name: "Main event", group: "Cards", blurb: "The announcement: event pill, MAIN EVENT, both fighters on bright cards",
+  look: "vivid", vivid: true, fighters: ["A", "B"],
+  slots: [{ id: "left", kind: "card", label: "Left fighter", from: "A.body", need: "cut" },
+          { id: "right", kind: "card", label: "Right fighter", from: "B.body", need: "cut" }],
+  fields: [{ id: "pill", label: "Pill", def: function (D) { return D.ev ? upper(D.ev.title) : "UFC 333"; } },
+           { id: "title", label: "Title", def: function (D) { return D.bout && /title/i.test(D.bout.cls || "") ? "TITLE FIGHT" : "MAIN EVENT"; } },
+           { id: "label", label: "Weight class", def: function (D) { var w = D.bout ? weightOf(D.bout.cls) : ""; return upper(w || (D.A && D.A.division ? D.A.division.split(" Division").join("") : "FEATHERWEIGHT")); } },
+           { id: "nameL", label: "Left name", def: function (D) { return D.A ? D.A.name : "Alexander Volkanovski"; } },
+           { id: "nameR", label: "Right name", def: function (D) { return D.B ? D.B.name : "Movsar Evloev"; } }],
+  draw: function () { drawCardsV2(false); }
 });
 var layerCanvasCache = {};
 setInterval(function () { var ks = Object.keys(layerCanvasCache); if (ks.length > 24) ks.slice(0, ks.length - 24).forEach(function (k) { delete layerCanvasCache[k]; }); }, 5000);
@@ -7710,7 +7775,7 @@ function cutOnCard(a, rect) {
 // and "mono" themes open in ember.
 var DOC_KEY = "posters.doc.v2";
 function freshDoc() {
-  return { v: 2, tpl: "headline", size: "1x1", theme: "ember", lookBy: {}, ground: "light", cardsN: 6, hotStyle: "color",
+  return { v: 2, tpl: "headline", size: "1x1", theme: "purple", lookBy: {}, ground: "light", cardsN: 6, hotStyle: "color",
            fx: { glow: 0.4, rim: 0, shade: 0.35, fade: 1, grain: 1, vig: 1, expo: 0 },
            slots: {}, frames: {}, text: {}, tiles: [], tilesAuto: true, bouts: [], rows: null, form: null,
            cards: [], cardsAuto: true, people: { A: null, B: null }, ev: null, bout: null, meta: {} };
@@ -7730,7 +7795,7 @@ function mergeDoc(d) {
     if (f.fx.grain === 0.6) f.fx.grain = fx.grain;
     f.lookBy = {};
   }
-  if (THEME_IDS.indexOf(f.theme) === -1) f.theme = "ember";
+  if (THEME_IDS.indexOf(f.theme) === -1) f.theme = "purple";
   if (!TPL[f.tpl]) f.tpl = "headline";
   // slots and frames were kept by bare slot id (shared by every template) until Sept 25 2026: they
   // move to the template that was open, the only one they were placed on by hand
@@ -7854,6 +7919,7 @@ function renderTo(ctx, t, o) {
 }
 function renderNow() {
   rafId = 0;
+  if (RENDER_MODE) return;
   applySize();
   W = 1080; H = cv.height;
   var t = TPL[doc.tpl] || TPLS[0];
@@ -8076,7 +8142,7 @@ function cutBytes(blob, a) {
 function cutRequest(blob) {
   return fetch("/studio/api/cutout", { method: "POST", credentials: "same-origin", body: blob,
                                        headers: { "content-type": blob.type || "application/octet-stream" } }).then(function (r) {
-    if (r.status === 401) { location.reload(); throw new Error("signed out"); }
+    if (r.status === 401) { signedOut(); throw new Error("signed out"); }
     if (r.ok && /^image[/]png/.test(r.headers.get("content-type") || "")) return r.blob();
     return r.json().catch(function () { return {}; }).then(function (j) { throw new Error(cutMessage(r.status, j)); });
   });
@@ -8205,7 +8271,7 @@ function cutInto(t, a, need) {
 // ---------- UFC data ----------
 function api(path) {
   return fetch(path, { credentials: "same-origin" }).then(function (r) {
-    if (r.status === 401) { location.reload(); throw new Error("signed out"); }
+    if (r.status === 401) { signedOut(); throw new Error("signed out"); }
     return r.json().catch(function () { return {}; }).then(function (j) {
       if (!r.ok) throw new Error((j && j.error) || ("HTTP " + r.status));
       return j;
@@ -8419,7 +8485,7 @@ function markGallery() {
   $("tplName").textContent = (TPL[doc.tpl] || {}).name || "";
 }
 function setTpl(id) {
-  if (!TPL[id] || id === doc.tpl) return;
+  if (!Object.prototype.hasOwnProperty.call(TPL, id) || id === doc.tpl) return;
   doc.tpl = id; sel = null; hov = null;
   markGallery(); buildInspector(); commit();
   if (window.innerWidth < 860) window.scrollTo({ top: 0, behavior: "smooth" });
@@ -8862,7 +8928,7 @@ function styleSection(t) {
   s.appendChild(el("div", "lbl", "Color theme"));
   var sw = el("div", "swatches");
   THEMES.forEach(function (th) {
-    var b = btn("", "sw", function () { doc.theme = th.id; dropCaches(); tintCache = {}; commit(); refreshInspector(); });
+    var b = btn("", "sw", function () { doc.theme = th.id; saveSharedTheme({ id: th.id }); dropCaches(); tintCache = {}; commit(); refreshInspector(); });
     b.style.background = "linear-gradient(135deg," + th.hi + "," + th.a + " 55%," + th.lo + ")";
     b.title = th.name; b.setAttribute("aria-label", th.name + " theme"); b.setAttribute("data-theme", th.id);
     b.setAttribute("aria-pressed", doc.theme === th.id ? "true" : "false");
@@ -9430,6 +9496,15 @@ function boot() {
   var saved = lsGet(DOC_KEY), parsed = null;
   try { parsed = saved ? JSON.parse(saved) : null; } catch (e) { parsed = null; }
   doc = mergeDoc(parsed);
+  // the one theme: the studio's choice wins; the first visit after Sept 30 2026 starts on purple
+  var st0 = sharedTheme();
+  if (THEME_IDS.indexOf(st0.id) !== -1) doc.theme = st0.id;
+  else { doc.theme = "purple"; saveSharedTheme({ id: "purple" }); }
+  window.addEventListener("storage", function (e) {
+    if (e.key !== THEME_KEY) return;
+    var t1 = sharedTheme().id;
+    if (THEME_IDS.indexOf(t1) !== -1 && t1 !== doc.theme) { doc.theme = t1; dropCaches(); tintCache = {}; commit(); refreshInspector(); }
+  });
   applySize(); W = 1080; H = cv.height;
   buildGallery(); buildInspector(); markSize();
   hist = [snap()]; hix = 0; updateUndo();
@@ -9441,15 +9516,311 @@ function boot() {
   if (doc.ev && doc.ev.slug) {
     api("/studio/api/ufcevent/" + encodeURIComponent(doc.ev.slug)).then(function (ev) { evCard = normalizeEvent(ev); fillBoutSelect(); }).catch(function () { });
   }
+  // a story handed over from the studio replaces the usual auto-loaded event
+  var fromStory = !RENDER_MODE && openStoryFromHash();
+  window.addEventListener("hashchange", function () { openStoryFromHash(); });
   loadEvents().then(function (list) {
-    if (parsed || !list.length || window.__postersNoAuto) return;
+    if (parsed || fromStory || !list.length || window.__postersNoAuto) return;
     var pick = list.filter(function (e) { return /^UFC [0-9]/.test(e.title); })[0] || list[0];
     loadEvent(pick.slug, true).catch(toastErr);
   });
 }
+// ---------- stories: a staged news post filled into the templates (Sept 30 2026) ----------
+// The news job stages a story with its KIND (booking, withdrawal, title change...), the people it
+// names and the event it mentions (bots_github/storykind.py). storyFill() turns that into a
+// filled document: the event card and the bout when the named fighters are on one, otherwise
+// each fighter's own UFC page, then every template's words, and the story photo in the photo
+// slots. It then says which templates are READY: a template whose data did not load is left
+// out, never drawn with the sample fighters and dates (those are for the empty editor only).
+// The same code serves the headless render in the news job (window.__posters.story) and the
+// studio's "open this story in a template" (the #s= / #t= link below).
+var STORY_KINDS = ["title", "retirement", "injury", "withdrawal", "result", "booking", "event", "rankings", "signing", "callout", "other"];
+// what each template needs before it may be exported for a story (see storyReadyFor)
+var STORY_NEEDS = {
+  resume: ["A", "fightsA"], spotlight: ["quote", "photo"], clash: ["A", "B", "winsA", "winsB"],
+  splitq: ["quote", "A", "B"], cutq: ["quote", "A"], tape: ["A", "B", "bioA", "bioB"],
+  official: ["A", "B", "bout"], whowins: ["A", "B"], countdown: ["A", "bout", "evSoon"], card: ["bouts"],
+  andnew: ["A", "winA"], bigstat: ["A", "recordA"], form: ["A", "fightsA"], faceoff: ["A", "B"],
+  headline: ["A"], pop: ["A"], split: ["A", "B"], cards: ["cards"], titlecards: ["A", "B", "ev"],
+  photocard: ["photo", "line"], mainevent: ["A", "B", "bout", "ev"]
+};
+// the word a headline template shouts when the story itself gives none
+var STORY_WORD = { title: "CHAMPION", retirement: "RETIRES", injury: "INJURED", withdrawal: "OUT", result: "WINS",
+  booking: "BOOKED", event: "FIGHT WEEK", rankings: "RANKED", signing: "SIGNED", callout: "NEXT?", other: "NEWS" };
+var STORY_FALLBACK = ["headline", "photocard", "pop"];
+var storyNow = null;
+function storySurname(name) { var p = slugify(name).split("-").filter(Boolean); return p.length ? p[p.length - 1] : ""; }
+// how well an event corner is one of the story's people: 3 the same athlete page, 2 the surname,
+// 1 the surname inside a compound slug ("jack-della-maddalena" for "Della Maddalena")
+function storyCornerHit(c, p) {
+  if (!c || !p) return 0;
+  if (p.slug && c.slug && c.slug === p.slug) return 3;
+  var k = storySurname(p.name || p.slug || "");
+  if (k.length < 3) return 0;
+  var last = slugify(c.last || "").split("-");
+  if (last[last.length - 1] === k) return 2;
+  if (c.slug && c.slug.split("-").indexOf(k) > 0) return 1;
+  return 0;
+}
+// the bout on this card that the story is about: both people on it beats one, the first-named
+// person beats the second. swap = the first-named person is in the BLUE corner (he becomes A,
+// the subject, on every poster). Pure over its arguments.
+function storyBout(ev, ppl) {
+  var best = null, fs = (ev && ev.fights) || [];
+  for (var i = 0; i < fs.length; i++) {
+    var f = fs[i], p0 = ppl[0], p1 = ppl[1];
+    var r0 = storyCornerHit(f.red, p0), b0 = storyCornerHit(f.blue, p0);
+    var r1 = storyCornerHit(f.red, p1), b1 = storyCornerHit(f.blue, p1);
+    var h0 = Math.max(r0, b0), h1 = Math.max(r1, b1);
+    var score = (h0 ? 10 + h0 : 0) + (h1 ? 5 + h1 : 0);
+    if (!score) continue;
+    score -= i * 0.01;
+    if (!best || score > best.score) best = { i: i, score: score, both: !!(h0 && h1), swap: h0 ? b0 > r0 : (h1 ? r1 > b1 : false) };
+  }
+  return best;
+}
+// does a staged event reference ("UFC 334", "UFC Qatar", "Noche UFC") name this event? Numbered
+// events by their number; anything else by every place word appearing in the slug, title,
+// headline or venue. Pure.
+function storyEventHit(e, hint) {
+  var h = String(hint || "").toLowerCase();
+  if (!e || !h) return false;
+  var hay = [e.slug, e.title, e.headline, e.venue].map(function (v) { return slugify(v || ""); }).join(" ");
+  var num = h.match(/[0-9]+/);
+  if (num && /ufc/.test(h) && !/night|vegas|apex/.test(h)) {
+    return slugify(e.title || "").split("-").indexOf(num[0]) !== -1 || e.slug === "ufc-" + num[0];
+  }
+  var ws = slugify(h).split("-").filter(function (w) { return w.length >= 3 && w !== "ufc" && w !== "fight" && w !== "night"; });
+  if (!ws.length) return false;
+  return ws.every(function (w) { return hay.indexOf(w) !== -1; });
+}
+function storyReset() {
+  var f = freshDoc();
+  ["theme", "size", "lookBy", "ground", "cardsN", "hotStyle", "fx"].forEach(function (k) { f[k] = doc[k]; });
+  f.tpl = doc.tpl;
+  doc = f;
+  evCard = null;
+  dropCaches();
+}
+// the word that carries the news: the first highlight word that is not somebody's name, else
+// the kind's own word. Upper case, at most 12 letters (it is the biggest type on the poster).
+function storyWord(spec) {
+  var names = {};
+  ["A", "B"].forEach(function (w) { var P = doc.people[w]; if (P) { names[storySurname(P.name)] = 1; names[slugify(P.first || "")] = 1; } });
+  (spec.people || []).forEach(function (p) { names[storySurname(p.name || "")] = 1; });
+  var hot = (spec.hot || []).map(function (h) { return upper(String(h || "").replace(/[^A-Za-z0-9' -]/g, "")).trim(); })
+    .filter(function (h) { return h && h.length <= 12 && !names[slugify(h)]; });
+  return hot[0] || STORY_WORD[spec.kind] || STORY_WORD.other;
+}
+function storyLine(spec) {
+  var ln = upper(String(spec.line || "").replace(/[*]/g, "")).trim();
+  var hot = {};
+  (spec.hot || []).forEach(function (h) { hot[upper(String(h || "")).replace(/[^A-Z0-9']/g, "")] = 1; });
+  // the poster line with its highlight words marked the way every text field reads them
+  return ln.split(" ").map(function (w) { var k = w.replace(/[^A-Z0-9']/g, ""); return k && hot[k] ? "*" + w + "*" : w; }).join(" ");
+}
+function storyText(spec) {
+  var T = doc.text, A = doc.people.A, B = doc.people.B, word = storyWord(spec), q = String(spec.quote || "").trim();
+  function put(id, o) { T[id] = Object.assign(T[id] || {}, o); }
+  put("headline", { word: word });
+  put("pop", { word: spec.kind === "booking" || spec.kind === "callout" ? "NEXT?" : word });
+  if (spec.kind === "withdrawal") put("titlecards", { title: "NEW FIGHT" });
+  if (spec.kind === "booking") put("official", { kicker: "IT'S OFFICIAL" });
+  if (spec.kind === "event") put("official", { kicker: "MAIN EVENT" });
+  if (spec.kind === "title") put("andnew", { kick: "AND", big: "NEW" });
+  if (q) {
+    var qq = upper(q.replace(/[*]/g, ""));
+    var who = A ? upper(A.name) + (B ? " ON " + upper(B.name) : "") : "";
+    put("spotlight", { quote: qq, attr: who ? "- " + who : "" });
+    put("cutq", { quote: qq });
+    put("splitq", { quote: qq });
+  }
+  var line = storyLine(spec);
+  if (line) put("photocard", { title: line.replace(/[*]/g, ""), quote: q ? LQ + upper(q) + RQ : "" });
+}
+function storyHas(need, spec) {
+  var A = doc.people.A, B = doc.people.B;
+  switch (need) {
+    case "A": return !!(A && A.body);
+    case "B": return !!(B && B.body);
+    case "fightsA": return !!(A && A.fights && A.fights.length >= 3);
+    case "winsA": return !!(A && A.fights && A.fights.some(function (f) { return f.result === "win"; }));
+    case "winsB": return !!(B && B.fights && B.fights.some(function (f) { return f.result === "win"; }));
+    case "winA": return !!(A && lastWin(A));
+    case "recordA": return !!(A && A.record);
+    case "bioA": return !!(A && A.bio && Object.keys(A.bio).length >= 2);
+    case "bioB": return !!(B && B.bio && Object.keys(B.bio).length >= 2);
+    case "bout": return !!doc.bout;
+    case "ev": return !!doc.ev;
+    case "evSoon": return !!(doc.ev && doc.ev.ts && doc.ev.ts * 1000 > Date.now() && daysTo(doc.ev) <= 60);
+    case "bouts": return (doc.bouts || []).length >= 3;
+    case "cards": return (doc.cards || []).length >= 4;
+    case "quote": return !!String(spec.quote || "").trim();
+    case "photo": return !!storyNow && !!storyNow.photoKey;
+    case "line": return !!String(spec.line || "").trim();
+  }
+  return false;
+}
+function hasTpl(id) { return Object.prototype.hasOwnProperty.call(TPL, id); }
+function storyReadyFor(id, spec) {
+  // own keys only: "constructor" is a valid-looking id that every object answers
+  var needs = Object.prototype.hasOwnProperty.call(STORY_NEEDS, id) ? STORY_NEEDS[id] : null;
+  if (!hasTpl(id) || !needs) return false;
+  for (var i = 0; i < needs.length; i++) if (!storyHas(needs[i], spec)) return false;
+  return true;
+}
+function storyEvents(spec) {
+  var ppl = spec.people || [];
+  return loadEvents().then(function (list) {
+    var named = list.filter(function (e) { return storyEventHit(e, spec.event); });
+    // a numbered event is found by its number alone; a place ("UFC Qatar") or no event at all
+    // needs the cards themselves, so the first few upcoming events are read and searched
+    var scan = named.length ? named.slice(0, 2) : (spec.event || ppl.length ? list.slice(0, 6) : []);
+    var i = 0, found = null;
+    function next() {
+      if (found || i >= scan.length) return Promise.resolve(found);
+      var e = scan[i++];
+      return api("/studio/api/ufcevent/" + encodeURIComponent(e.slug)).then(function (ev) {
+        ev = normalizeEvent(ev);
+        var b = storyBout(ev, ppl);
+        var placeOk = storyEventHit(ev, spec.event);
+        // an event counts when the story's people fight on it, or when it is the event the story
+        // names and the story is about the event itself
+        if (b && (b.both || ppl.length < 2 || placeOk || named.length)) found = { slug: e.slug, bout: b };
+        else if ((placeOk || named.length) && (spec.kind === "event" || !ppl.length)) found = { slug: e.slug, bout: null };
+        return next();
+      }, function () { return next(); });
+    }
+    return next();
+  });
+}
+function storyPeople(spec) {
+  var ppl = (spec.people || []).filter(function (p) { return p && (p.slug || p.name); });
+  var jobs = [], which = ["A", "B"], w = 0;
+  // one fighter per corner, first-named first; a name without a full athlete slug cannot be
+  // looked up on its own (the page has no search), so it only counts through an event card
+  for (var i = 0; i < ppl.length && w < 2; i++) {
+    if (!ppl[i].slug) continue;
+    jobs.push((function (letter, p) {
+      return loadFighter(letter, p.slug, true).then(function () { return true; }, function () { return false; });
+    })(which[w++], ppl[i]));
+  }
+  return Promise.all(jobs);
+}
+function storyPhoto(spec) {
+  if (!spec.photo || !/^[/]studio[/]api[/](img|alt)[/]/.test(String(spec.photo))) return Promise.resolve(null);
+  return assetFromUrl(spec.photo, { name: "story photo" }).then(function (a) {
+    storyNow.photoKey = a.key;
+    if (spec.photoKind === "photo") {
+      doc.slots["spotlight:bg"] = a.key;
+      doc.slots["photocard:photo"] = a.key;
+      doc.slots["headline:bg"] = a.key;
+      doc.slots["pop:bg"] = a.key;
+    }
+    return a;
+  }, function () { return null; });
+}
+// spec: { kind, templates[], people[{name, slug}], event, quote, line, hot[], photo, photoKind }
+// -> { ready: [template ids, best first], ev, A, B }
+function storyFill(spec) {
+  spec = spec && typeof spec === "object" ? spec : {};
+  if (STORY_KINDS.indexOf(spec.kind) === -1) spec.kind = "other";
+  storyReset();
+  storyNow = { spec: spec, photoKey: null };
+  applySize();
+  return storyEvents(spec).then(function (hit) {
+    if (!hit) return storyPeople(spec);
+    return loadEvent(hit.slug, false).then(function () {
+      if (!hit.bout) return spec.kind === "event" && evCard && evCard.fights && evCard.fights.length ? useBout(0) : storyPeople(spec);
+      return useBout(hit.bout.i).then(function () {
+        if (hit.bout.swap) { var t0 = doc.people.A; doc.people.A = doc.people.B; doc.people.B = t0; }
+      });
+    });
+  }).then(function () {
+    if (doc.cardsAuto && doc.bouts.length) autoCards();
+    return storyPhoto(spec);
+  }).then(function () {
+    storyText(spec);
+    dropCaches();
+    var want = (Array.isArray(spec.templates) ? spec.templates : []).concat(STORY_FALLBACK), ready = [];
+    want.forEach(function (id) { if (ready.indexOf(id) === -1 && storyReadyFor(id, spec)) ready.push(id); });
+    storyNow.ready = ready;
+    if (ready.length && !RENDER_MODE) setTpl(ready[0]);
+    commit();
+    refreshInspector();
+    return { ready: ready, ev: doc.ev ? doc.ev.title : "", A: doc.people.A ? doc.people.A.name : "", B: doc.people.B ? doc.people.B.name : "" };
+  });
+}
+
+// ---------- the studio hands a staged story over (Sept 30 2026) ----------
+// /studio/templates#s=<message id>&t=<template id>: read the staged post, fill every template from
+// its story, open the asked template (else the best ready one), and list the ready ones above the
+// poster for a one-tap switch. The link is used once and then removed from the address bar.
+var storyMid = "";
+function storyHash() {
+  var h = String(location.hash || ""), m = h.match(/[#&]s=([0-9]{15,21})/), t = h.match(/[#&]t=([a-z0-9]{2,20})/);
+  return m ? { mid: m[1], tpl: t ? t[1] : "" } : null;
+}
+function specFromStaged(p) {
+  var st = p && p.story && typeof p.story === "object" ? p.story : null;
+  if (!st) return null;
+  var sp = { kind: st.kind, templates: st.templates || [], people: st.people || [], event: st.event || "", quote: st.quote || "",
+             line: p.line || "", hot: p.hot || [] };
+  if (p.photo_kind === "photo" && p.photo_url) { sp.photo = p.photo_url; sp.photoKind = "photo"; }
+  return sp;
+}
+function showStoryBar(mid, ready, line) {
+  var bar = $("storyBar");
+  if (!bar) return;
+  bar.textContent = "";
+  if (!ready.length) { bar.hidden = true; return; }
+  bar.appendChild(el("b", null, "This story:"));
+  ready.forEach(function (id) {
+    var b = el("button", null, (TPL[id] || {}).name || id);
+    b.type = "button";
+    b.setAttribute("data-tpl", id);
+    b.setAttribute("aria-pressed", doc.tpl === id ? "true" : "false");
+    b.addEventListener("click", function () {
+      setTpl(id);
+      var bs = bar.querySelectorAll("button");
+      for (var i = 0; i < bs.length; i++) bs[i].setAttribute("aria-pressed", bs[i].getAttribute("data-tpl") === id ? "true" : "false");
+    });
+    bar.appendChild(b);
+  });
+  var a = el("a", null, "Back to the post");
+  a.href = "/studio#s=" + mid;
+  bar.appendChild(a);
+  bar.title = line || "";
+  bar.hidden = false;
+}
+function openStoryFromHash() {
+  var h = storyHash();
+  if (!h) return false;
+  try { history.replaceState(null, "", location.pathname + location.search); } catch (e) { }
+  storyMid = h.mid;
+  toast("Loading the story...");
+  api("/studio/api/staged").then(function (list) {
+    var p = (Array.isArray(list) ? list : []).filter(function (x) { return x && x.id === h.mid; })[0];
+    var sp = p ? specFromStaged(p) : null;
+    if (!sp) { toast(p ? "That post predates story templates. Pick a template and fill it by hand." : "That post is no longer in the studio channel."); return null; }
+    return storyFill(sp).then(function (res) {
+      var ready = res.ready || [];
+      var want = h.tpl && ready.indexOf(h.tpl) !== -1 ? h.tpl : (h.tpl && hasTpl(h.tpl) ? h.tpl : ready[0]);
+      if (want) setTpl(want);
+      showStoryBar(h.mid, ready, sp.line);
+      toast(ready.length ? "Filled from the story: " + ready.length + " template" + (ready.length === 1 ? "" : "s") + " ready" : "The story's fighters could not be found on UFC.com. Fill this one by hand.");
+    });
+  }).catch(toastErr);
+  return true;
+}
+
 // the debug / test hook (the local harness drives the page through it)
 window.__posters = {
   doc: function () { return doc; }, render: function () { requestRender(true); }, place: placeFiles, tpl: setTpl,
+  // Sept 30 2026: fill every template from a staged story; resolves { ready: [ids], ev, A, B }
+  story: function (spec) { return storyFill(spec); },
+  // resolves once the three poster fonts are loaded (an export does not wait for them itself)
+  fonts: function () { return fontsReady().then(function () { measureCaps(); vcMaskCache = {}; vcMaskKeys = []; dropCaches(); return true; }); },
   // the export itself: exact grades only, waits for them
   png: function (id) { return exportBlob(id); },
   // what the editor shows right now (fast previews included), for timing the preview
