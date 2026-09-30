@@ -1,5 +1,7 @@
 {
   "seen": {
+    "8cc7cee4d6e0bf5d": 1790794642.9006248,
+    "779935c0b34f02ce": 1790794642.632805,
     "8a7155ddec380ee4": 1790794607.8737948,
     "ef0bee94aa50ad1b": 1790777906.1311092,
     "37de2d77ba323573": 1790777666.264828,
@@ -2497,9 +2499,7 @@
     "db8d3a33cee848db": 1790143178.2880423,
     "8eb61442a4a5966d": 1790143177.9365883,
     "984b673d6b8dc1d1": 1790143177.910839,
-    "254ee4d96268a9be": 1790143177.9090576,
-    "07857b49cb17d150": 1790143113.704126,
-    "ac7f32af96db19cd": 1790143113.444336
+    "254ee4d96268a9be": 1790143177.9090576
   },
   "initialized": true,
   "v": 4,
@@ -4171,13 +4171,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-29T21:50:39+00:00",
       "cluster": "c538b97ec27"
+    },
+    {
+      "t": "Manny Pacquiao receives two new fight offers for Fury vs. Joshua card after champion turned him down",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-30T15:00:00+00:00",
+      "cluster": "c292cf5effc"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T18",
-    1
+    2
   ],
   "yt_eval": [
     "CBMiwwFBVV95cUxPQ040T0NjbUh1emZPMUZTOEZaOU5RcGRvRDVOTkZ5ZWNtNHR0OHFwV2NSRUhIekZOUU0yYUQwZ00zV1hPZW5odmlhZmpfdFhOQ0lRX2tDZ0lqTDNCVjI4SFlSQlg2UWQ5VmVmb0NORTJFSFpoRGFWQUt0VFcxR0dMbVVSR0lScGUzRHljX0xvX0p2dl9vcnNFVjdTZUNEY2wzMEhLRW5EcUxPOGJGWG9vZHRXMjNjQmlQemR3RENXY3FNRDA",
