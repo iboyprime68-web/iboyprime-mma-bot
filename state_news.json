@@ -1,5 +1,7 @@
 {
   "seen": {
+    "c654c59d959a0bc0": 1790794892.204729,
+    "a6f0e507b1f2ad0b": 1790794891.6623054,
     "826aed26eb30b3ae": 1790794848.0742843,
     "fa4eb9e80f53901e": 1790794848.0707288,
     "f865ecdc00980536": 1790794822.284111,
@@ -2497,9 +2499,7 @@
     "61535eff732f919e": 1790143640.0689294,
     "b0f13aa1b2f0c320": 1790143640.0420365,
     "74217b55490a47e5": 1790143533.2462745,
-    "cca596a19dbdf769": 1790143509.898557,
-    "ab666bd8079136ff": 1790143444.4923003,
-    "6c3aa41c56a1a468": 1790143379.839669
+    "cca596a19dbdf769": 1790143509.898557
   },
   "initialized": true,
   "v": 4,
@@ -4213,13 +4213,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-30T15:30:00+00:00",
       "cluster": "cc6bb547473"
+    },
+    {
+      "t": "Dana White addresses Raoni Barcelos scare at UFC Vegas 121: ‘Thank God, he’s doing well’",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-30T16:00:00+00:00",
+      "cluster": "c5fe97a0db4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T19",
-    1
+    2
   ],
   "yt_eval": [
     "CBMioAFBVV95cUxPS3VfNkxxbHhoNGc4MDdob0VoazV0ZFJIVXNFUEtjeFptN29jVXBYSDdXcDVoLXZnRmJ1Y2RIbUdKeVRrRDBBdV9kN2xzYmJXTklVcXhLWkRIOFEyU2VRVk1oZmdBaFByUEsweTNMUl95XzM0QW0tTGNUclJ3aDh2VTdEV3FVcVJqZGJRSDA0UGdmWXlTU0dIN3NfdUIzUTMx",
