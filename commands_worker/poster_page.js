@@ -4308,14 +4308,38 @@ function drawVividV2(ctx, W, H, th, dark, d) {
 }
 // V3: a single hero news photo card. d = { pill, title, first, last, quote, photo (canvas of
 // G.photo.w x G.photo.h, graded + footed) }. Returns the geometry.
+// Oct 2026: the owner found the one-line title too small next to the big-word posters ("the text
+// is so small that there's extra space"). A headline that would shrink well under its cap on one
+// line breaks onto two balanced lines; with no pill (news that is not about a fight) it also takes
+// the pill's band, so the words come out far bigger. An empty pill or name plate is not drawn.
+function drawV3Title(ctx, W, top, bottom, cap, text, th, o) {
+  var t = upper(String(text || "")).trim(), size = gvRound(cap / 0.86);
+  if (!t) return [W / 2, top, 0, 0];
+  var inkW = function (str) { return vcInk(ctx, str, "anton", size, 0.01 * size).w; };
+  var fitOne = Math.min(cap, cap * o.maxW / inkW(t)), ws = t.split(" "), best = null;
+  for (var i = 1; i < ws.length; i++) {
+    var a = ws.slice(0, i).join(" "), b = ws.slice(i).join(" "), m = Math.max(inkW(a), inkW(b));
+    if (!best || m < best.m) best = { a: a, b: b, m: m };
+  }
+  var gap = 0.22, c2 = best ? Math.min(cap, cap * o.maxW / best.m, (bottom - top) / (2 + gap)) : 0;
+  if (!best || fitOne >= cap * 0.8 || c2 <= fitOne * 1.08) {
+    var y1 = o.center ? top + Math.max(0, (bottom - top - fitOne) / 2) : top;
+    return drawVividTitle(ctx, W / 2, Math.round(y1), cap, t, th, o);
+  }
+  var b1 = drawVividTitle(ctx, W / 2, Math.round(top), c2, best.a, th, o);
+  var b2 = drawVividTitle(ctx, W / 2, Math.round(top + c2 * (1 + gap)), c2, best.b, th, o);
+  var x0 = Math.min(b1[0], b2[0]);
+  return [x0, b1[1], Math.max(b1[0] + b1[2], b2[0] + b2[2]) - x0, b2[1] + b2[3] - b1[1]];
+}
 function drawVividV3(ctx, W, H, th, dark, d) {
-  var G = vividGeom("v3", W, H), s = G.s;
+  var G = vividGeom("v3", W, H), s = G.s, pill = String(d.pill || "").trim();
   drawVividGround(ctx, W, H, th, dark);
   drawAccentBars(ctx, W, H, th, { dark: dark, s: s });
-  G.pillBox = drawPill(ctx, W / 2, G.pill.y, G.pill.h, d.pill, th, { dark: dark, padx: G.pill.padx, s: s });
-  G.titleBox = drawVividTitle(ctx, W / 2, G.title.y, G.title.cap, d.title, th, { dark: dark, s: s, minContrast: VC_TITLE_MIN, maxW: W - 96 * s });
+  G.pillBox = pill ? drawPill(ctx, W / 2, G.pill.y, G.pill.h, d.pill, th, { dark: dark, padx: G.pill.padx, s: s }) : [W / 2, G.pill.y, 0, 0];
+  var top = pill ? G.title.y : G.pill.y, bottom = G.card[1] - 22 * s;
+  G.titleBox = drawV3Title(ctx, W, top, bottom, G.title.cap, d.title, th, { dark: dark, s: s, minContrast: VC_TITLE_MIN, maxW: W - 96 * s, center: !pill });
   drawPhotoCard(ctx, G.card, th, d.photo || null, { dark: dark, s: s });
-  drawNamePlate(ctx, G.plate, th, d.first || "", d.last || "", { s: s, dark: dark, radius: 12, oneLine: true });
+  if (String(d.first || "").trim() || String(d.last || "").trim()) drawNamePlate(ctx, G.plate, th, d.first || "", d.last || "", { s: s, dark: dark, radius: 12, oneLine: true });
   G.quoteInk = drawVividLabel(ctx, d.quote || "", W / 2, G.quote.y, G.quote.size, dark ? VC_LIGHT : vc01(th.plate), { tracking: 0.10 });
   return G;
 }
@@ -7515,8 +7539,11 @@ def({
     fxSink(W * 0.667, H * (tall ? 0.348 : 0.36), W * 0.176, H * (tall ? 0.311 : 0.33), 0.92, 20, 0.65);
     if (hl) fxClear(hl.al, { capReach: 90 });
     var d1 = W * (tall ? 0.344 : 0.30), d2 = W * (tall ? 0.278 : 0.24);
-    drawCircle("ins1", W * 0.8037, H * (tall ? 0.194 : 0.20), d1 / 2, { label: "Top circle", seed: 31 });
-    drawCircle("ins2", W * 0.8444, H * (tall ? 0.456 : 0.47), d2 / 2, { label: "Lower circle", seed: 32 });
+    // his last two rivals only mean something on a fight story (Oct 2026: they sat beside a court case)
+    if (storyFightKind()) {
+      drawCircle("ins1", W * 0.8037, H * (tall ? 0.194 : 0.20), d1 / 2, { label: "Top circle", seed: 31 });
+      drawCircle("ins2", W * 0.8444, H * (tall ? 0.456 : 0.47), d2 / 2, { label: "Lower circle", seed: 32 });
+    }
     if (hl) { fxHalo(hl.al, [9.0, 0.60, 0.9], [30.0, 0.32, 0.25]); g.drawImage(hl.c, 0, 0); heroHit("hero", hl, H0.P, "Fighter"); }
     else if (!photoHero) missingHero("hero", W * 0.40, H * 0.3, W * 0.3, "Drop a fighter");
     fxFade(H * 0.64, H * 0.90, 0.97, 1.35);
@@ -7529,11 +7556,11 @@ def({
 });
 
 def({
-  id: "pop", name: "Color pop", group: "Headlines", blurb: "Black and white fighter, his kit in color, an arrow",
+  id: "pop", name: "Color pop", group: "Headlines", blurb: "Black and white fighter, his kit in color, one word",
   look: "pop", fighters: ["A", "B"],
   slots: [{ id: "hero", kind: "cut", label: "Fighter", from: "A.body", need: "cut" },
           { id: "bg", kind: "photo", label: "Background photo", note: "an action photo; it turns into the theme color", opt: true },
-          { id: "inset", kind: "circle", label: "Circle", note: "who the arrow is about", from: "B.head" }],
+          { id: "inset", kind: "circle", label: "Circle", note: "who the story is about", from: "B.head" }],
   fields: [{ id: "word", label: "Big word", def: "NEXT?" }],
   draw: function () {
     var S = W / 1080, tall = H > W * 1.1, yk = H / W;
@@ -7552,10 +7579,7 @@ def({
     drawCircle("inset", icx, icy, d / 2, { label: "Circle", seed: 41, mode: "natural" });
     fxFade(H * 0.72, H * 0.94, 0.96, 1.2);
     fxGrain(9);
-    // the arrow runs from under the circle to the fighter's hands (about 3.4 face heights down)
-    var gx = H0 ? H0.P.fbc[0] + 0.02 * W : 0.66 * W, gy = H0 ? Math.min(0.74 * H, H0.P.fbc[1] + 3.4 * H0.P.fbc[3]) : 0.72 * H;
-    gy = Math.max(icy + d * 0.9, gy);
-    handArrow([icx + d * 0.10, icy + d * 0.55], [icx + d * 0.18, gy + 0.02 * H], [gx - 0.07 * W, gy], R.pal.a, 7.5, 28);
+    // Oct 2026: no arrow any more (the owner: it ended in the wrong place)
     var wb = dispWord(tx("word"), W / 2, H - H * 0.035, W * 0.80, H * 0.185, {});
     textHit("word", wb);
   }
@@ -7721,10 +7745,12 @@ def({
   id: "photocard", name: "Photo card", group: "Cards", blurb: "One news photo in a bright card, a quote under it",
   look: "vivid", vivid: true, fighters: ["A"], mustEdit: ["title", "quote"],
   slots: [{ id: "photo", kind: "photo", label: "Photo", from: "A.body", need: "mask", note: "a news photo; it is cut out once to grade the face" }],
-  fields: [{ id: "pill", label: "Pill", def: function (D) { return D.A && D.A.division ? upper(D.A.division.split(" Division").join("")) : "BANTAMWEIGHT"; } },
+  // Oct 2026: on a story the sample name and pill are never shown ("Petr Yan, Bantamweight" sat
+  // under Court McGee and Raoni Barcelos), and a weight class only rides a fight story
+  fields: [{ id: "pill", label: "Pill", def: function (D) { return D.A && D.A.division && storyFightKind() ? upper(D.A.division.split(" Division").join("")) : (storyNow ? "" : "BANTAMWEIGHT"); } },
            { id: "title", label: "Title", plain: true, def: function (D) { return D.A ? "YOUR HEADLINE" : "NOT IMPRESSED"; } },
-           { id: "first", label: "First name", def: function (D) { return D.A ? D.A.first : "Petr"; } },
-           { id: "last", label: "Surname", def: function (D) { return D.A ? D.A.last : "Yan"; } },
+           { id: "first", label: "First name", def: function (D) { return D.A ? D.A.first : (storyNow ? "" : "Petr"); } },
+           { id: "last", label: "Surname", def: function (D) { return D.A ? D.A.last : (storyNow ? "" : "Yan"); } },
            { id: "quote", label: "Quote line", plain: true, def: function (D) { return LQ + (D.A ? "ADD A QUOTE" : "NOTHING REALLY IMPRESSES ME") + RQ; } }],
   draw: function () {
     var th = vividTheme(doc.theme), dark = doc.ground === "dark", G0 = vividGeom("v3", W, H), a = assetOf("photo"), ph = null;
@@ -9221,7 +9247,9 @@ cv.addEventListener("pointercancel", endPointer);
 cv.addEventListener("pointerleave", function () { if (!dragging && hov) { hov = null; drawOverlay(); } });
 cv.addEventListener("wheel", function (e) {
   var p = toCanvas(e), h = hitAt(p.x, p.y, MOVABLE);
-  if (!h) return;
+  // Oct 2026: the wheel only zooms a layer that was clicked first; over anything else it scrolls
+  // the page (hovering used to zoom whatever photo sat under the pointer)
+  if (!h || h.id !== sel) return;
   e.preventDefault();
   var f = frameOf(h.id), s1 = clamp(f.s * Math.exp(-e.deltaY * 0.0015), h.kind === "photo" ? 1 : 0.3, 5);
   var pl = lastR && lastR.place[h.id];
@@ -9547,7 +9575,39 @@ var STORY_NEEDS = {
 // the word a headline template shouts when the story itself gives none
 var STORY_WORD = { title: "CHAMPION", retirement: "RETIRES", injury: "INJURED", withdrawal: "OUT", result: "WINS",
   booking: "BOOKED", event: "FIGHT WEEK", rankings: "RANKED", signing: "SIGNED", callout: "NEXT?", other: "NEWS" };
-var STORY_FALLBACK = ["headline", "photocard", "pop"];
+var STORY_FALLBACK = ["headline", "photocard"];
+// Oct 2026: never made automatically - Color pop's half black-and-white fighter read as a mistake
+var STORY_NEVER = ["pop"];
+// the kinds a weight class, a bout or a fighter's past rivals belong on
+var STORY_FIGHT_KINDS = ["booking", "result", "title", "event", "withdrawal"];
+function storyFightKind() { return !storyNow || !storyNow.spec || STORY_FIGHT_KINDS.indexOf(storyNow.spec.kind) !== -1; }
+// a poster may only name somebody the story is about: a person the poster line (or its highlight
+// words) never mentions is dropped, with any bout built around him; an event story keeps its bout
+function storyNamed(P, spec) {
+  var k = P && P.name ? storySurname(P.name) : "";
+  if (!k) return false;
+  var toks = slugify([spec.line || "", spec.title || "", (spec.hot || []).join(" ")].join(" ")).split("-");
+  return toks.indexOf(k) !== -1 || toks.indexOf(k + "s") !== -1;
+}
+function storyKeepNamed(spec) {
+  if (spec.kind === "event") return;
+  var A = doc.people.A, B = doc.people.B, okA = storyNamed(A, spec), okB = storyNamed(B, spec);
+  if ((A && !okA) || (B && !okB)) doc.bout = null;
+  if (A && !okA) { if (okB) doc.people.A = B; else delete doc.people.A; delete doc.people.B; }
+  else if (B && !okB) delete doc.people.B;
+}
+// a big-word poster sets a name over a verb, so only when that person is the subject of that verb
+// in the line: "MCGREGOR ALLIES ARRESTED" must never become CONOR MCGREGOR / ARRESTED
+function storyWordOk(spec, id) {
+  var A = doc.people.A, k = A && A.name ? storySurname(A.name) : "";
+  if (!k) return false;
+  var toks = slugify(String(spec.line || "")).split("-").filter(Boolean), at = -1;
+  for (var i = 0; i < toks.length && at < 0; i++) if (toks[i] === k || toks[i] === k + "s") at = i;
+  if (at < 0 || at > 2) return false;
+  var word = id === "pop" && (spec.kind === "booking" || spec.kind === "callout") ? "" : slugify(storyWord(spec)).split("-")[0];
+  var wi = word ? toks.indexOf(word) : -1;
+  return wi === -1 ? at <= 1 : wi === at + 1;
+}
 var storyNow = null;
 function storySurname(name) { var p = slugify(name).split("-").filter(Boolean); return p.length ? p[p.length - 1] : ""; }
 // how well an event corner is one of the story's people: 3 the same athlete page, 2 the surname,
@@ -9667,6 +9727,7 @@ function storyReadyFor(id, spec) {
   var needs = Object.prototype.hasOwnProperty.call(STORY_NEEDS, id) ? STORY_NEEDS[id] : null;
   if (!hasTpl(id) || !needs) return false;
   for (var i = 0; i < needs.length; i++) if (!storyHas(needs[i], spec)) return false;
+  if ((id === "headline" || id === "pop") && !storyWordOk(spec, id)) return false;
   return true;
 }
 function storyEvents(spec) {
@@ -9737,12 +9798,13 @@ function storyFill(spec) {
       });
     });
   }).then(function () {
+    storyKeepNamed(spec);
     if (doc.cardsAuto && doc.bouts.length) autoCards();
     return storyPhoto(spec);
   }).then(function () {
     storyText(spec);
     dropCaches();
-    var want = (Array.isArray(spec.templates) ? spec.templates : []).concat(STORY_FALLBACK), ready = [];
+    var want = (Array.isArray(spec.templates) ? spec.templates : []).concat(STORY_FALLBACK).filter(function (id) { return STORY_NEVER.indexOf(id) === -1; }), ready = [];
     want.forEach(function (id) { if (ready.indexOf(id) === -1 && storyReadyFor(id, spec)) ready.push(id); });
     storyNow.ready = ready;
     if (ready.length && !RENDER_MODE) setTpl(ready[0]);
