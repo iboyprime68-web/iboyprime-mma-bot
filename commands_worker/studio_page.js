@@ -5258,7 +5258,7 @@ function renderRail(items) {
     var head = (p.line || (p.caption || "").split("\\n")[0] || "No line yet");
     b.appendChild(el("span", "hl", head));
     b.appendChild(el("span", "why", p.why || (p.speaker ? p.speaker + (p.source ? ", via " + p.source : "") : "")));
-    b.addEventListener("click", function () { pickStaged(p); });
+    b.addEventListener("click", function () { openStaged(p); });
     rail.appendChild(b);
   });
   Array.prototype.slice.call(rail.children).forEach(function (c) {
@@ -5408,6 +5408,14 @@ function buildStoryTpls(p) {
   card.hidden = !host.children.length;
 }
 
+/* Oct 2026: the rail shows the bot's template poster for a story, so tapping it opens that poster
+   in the templates page (in the owner's theme), not the Quote editor. "Back to the post" there, and
+   any #s= link, still open the Quote editor. */
+function openStaged(p) {
+  var r = p && Array.isArray(p.renders) && p.renders.length ? p.renders[0] : null;
+  if (r && r.tpl && TPL_NAMES[r.tpl]) { location.href = storyTplHref(p.id, r.tpl); return; }
+  pickStaged(p);
+}
 function pickStaged(p) {
   snap();
   stagedPick = p.id;
