@@ -1,5 +1,7 @@
 {
   "seen": {
+    "e088baae94d0aafd": 1790775682.0731034,
+    "2c92ee4a34fcd3d6": 1790775681.8655648,
     "2189103d867fb23f": 1790775615.15638,
     "b3c24460203685e2": 1790775548.3850813,
     "d7ddebbee4ef6f59": 1790775481.7112472,
@@ -2497,9 +2499,7 @@
     "94973e58a57ab305": 1790125416.9238107,
     "73449fa213715bee": 1790125291.4276297,
     "f511a4349c9d5ed5": 1790125291.4255252,
-    "fed971e6d584ec14": 1790125291.4235725,
-    "7ec2b4ea64ae2c20": 1790125226.1562543,
-    "38f2abe636edd793": 1790125225.5326943
+    "fed971e6d584ec14": 1790125291.4235725
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-28T14:12:25+00:00",
       "cluster": "caf59b84f45"
-    },
-    {
-      "t": "Coach: Francis Ngannou could be 'greatest ever to do it' if he sticks to MMA",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-28T13:40:26+00:00",
-      "cluster": "c0ddd4c566f"
     },
     {
       "t": "Jack Cullen reacts to the awkward face-off that followed his ‘dream come true’ title win at BKFC 94",
@@ -4375,13 +4369,19 @@
       "source": "BJJDOC",
       "ts": "2026-09-30T13:11:27+00:00",
       "cluster": "c13a7b64a28"
+    },
+    {
+      "t": "Conor McGregor backed by rival to return to UFC title picture on one condition",
+      "source": "Irish Mirror",
+      "ts": "2026-09-30T13:19:57+00:00",
+      "cluster": "cd123863960"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T13",
-    18
+    19
   ],
   "yt_eval": [
     "2048ee84-539e-3efd-8ebe-6cd3cab913f2",
