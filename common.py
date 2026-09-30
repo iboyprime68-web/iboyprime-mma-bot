@@ -170,6 +170,11 @@ def post_file(channel_id, content, file_path, filename=None, allowed_mentions=No
         payload["embeds"] = embeds
     if silent:
         payload["flags"] = SILENT_FLAG
+    return _multipart("POST", "/channels/%s/messages" % channel_id, payload, files)
+
+
+def _multipart(method, path, payload, files):
+    """Send payload_json plus files[i] as multipart/form-data. (status, json)."""
     boundary = "iBPMultipart" + os.urandom(16).hex()
     bnd = boundary.encode("ascii")
     parts = [
@@ -178,8 +183,8 @@ def post_file(channel_id, content, file_path, filename=None, allowed_mentions=No
         b"Content-Type: application/json\r\n\r\n",
         json.dumps(payload).encode("utf-8") + b"\r\n",
     ]
-    for i, (path, fn) in enumerate(files):
-        with open(path, "rb") as f:
+    for i, (path_, fn) in enumerate(files):
+        with open(path_, "rb") as f:
             blob = f.read()
         parts += [
             b"--" + bnd + b"\r\n",
@@ -192,12 +197,24 @@ def post_file(channel_id, content, file_path, filename=None, allowed_mentions=No
     body = b"".join(parts)
     h = {"Authorization": "Bot " + token(), "User-Agent": DISCORD_UA,
          "Content-Type": "multipart/form-data; boundary=" + boundary}
-    code, text = http(DISCORD + "/channels/%s/messages" % channel_id,
-                      headers=h, method="POST", raw_body=body)
+    code, text = http(DISCORD + path, headers=h, method=method, raw_body=body)
     try:
         return code, (json.loads(text) if text else {})
     except Exception:
         return code, {"_raw": text}
+
+
+def edit_message_files(channel_id, message_id, keep_ids, file_path):
+    """ADD file(s) to an existing message (PATCH, multipart). Discord replaces the
+    message's attachment list with the one in the payload, so every attachment to
+    keep is listed by its id first; the new files follow as files[0..]. Only the
+    attachments change: the content, the pings and the flags stay as they were.
+    file_path is a list of (path, filename) pairs. Returns (status, json)."""
+    files = [(p, fn or os.path.basename(p)) for p, fn in file_path]
+    payload = {"attachments": [{"id": str(k)} for k in (keep_ids or [])]
+               + [{"id": i, "filename": fn} for i, (_p, fn) in enumerate(files)],
+               "allowed_mentions": NO_PINGS}
+    return _multipart("PATCH", "/channels/%s/messages/%s" % (channel_id, message_id), payload, files)
 
 
 def create_forum_thread(forum_id, title, content, allowed_mentions=None, applied_tags=None):
