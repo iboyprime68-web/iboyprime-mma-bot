@@ -3700,5 +3700,23 @@ await (async () => {
     && /if \(k === "cool" && \(mode === "color" \|\| mode === "natural"\)\) return id;/.test(_test.POSTER_HTML));
 })();
 
+// Oct 2026 owner fixes: truthful story posters, bigger titles, click-to-zoom, rail tap -> template
+{
+  const P = _test.POSTER_HTML, S = _test.STUDIO_HTML;
+  check("a story never shows the photo card's sample name or pill (Petr Yan / Bantamweight sat under McGee and Barcelos)",
+    P.includes('D.A ? D.A.first : (storyNow ? "" : "Petr")') && P.includes('D.A ? D.A.last : (storyNow ? "" : "Yan")')
+    && P.includes("D.A && D.A.division && storyFightKind() ? upper("));
+  check("a person the poster line never names is dropped before any template fills", P.includes("storyKeepNamed(spec);")
+    && P.includes("function storyNamed(P, spec)"));
+  check("a big-word poster needs its person to be the subject of the word (no CONOR MCGREGOR / ARRESTED for his allies)",
+    P.includes('if ((id === "headline" || id === "pop") && !storyWordOk(spec, id)) return false;'));
+  check("the headline's rival circles only appear on fight stories", P.includes("if (storyFightKind()) {"));
+  check("Color pop is never made automatically and draws no arrow", P.includes('var STORY_NEVER = ["pop"];') && !P.includes("handArrow([icx"));
+  check("the wheel zooms only a layer that was clicked first", P.includes("if (!h || h.id !== sel) return;"));
+  check("a long photo-card headline breaks onto two bigger lines, and an empty pill or plate is not drawn",
+    P.includes("function drawV3Title(") && P.includes("center: !pill") && P.includes("if (String(d.first || \"\").trim() || String(d.last || \"\").trim()) drawNamePlate("));
+  check("tapping a staged post that has template posters opens the templates page",
+    S.includes("function openStaged(p)") && S.includes('b.addEventListener("click", function () { openStaged(p); });'));
+}
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
 process.exit(fail ? 1 : 0);
