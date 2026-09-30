@@ -1,5 +1,8 @@
 {
   "seen": {
+    "fc70ab1ed0d0f2a5": 1790810110.2858584,
+    "1bf85824981a032e": 1790810109.9564214,
+    "23bb93c265ef1132": 1790810109.9533954,
     "8c3f2822b191f168": 1790810042.1217563,
     "c2d3be3c6e0dbff9": 1790810040.963759,
     "e3d1e664a7845fa6": 1790809971.650534,
@@ -2496,10 +2499,7 @@
     "43f8774a7bf00120": 1790183440.4445639,
     "6169cb13024452ee": 1790183440.137764,
     "8112bf4bca1d5723": 1790183376.280549,
-    "89acc43d3ee494c2": 1790183374.8881981,
-    "26772b181d130ebb": 1790183374.8782253,
-    "ce6490ca48490bb8": 1790183310.332647,
-    "c84f50941e229f69": 1790183308.7766645
+    "89acc43d3ee494c2": 1790183374.8881981
   },
   "initialized": true,
   "v": 4,
@@ -4435,13 +4435,19 @@
       "source": "The Times of India",
       "ts": "2026-09-30T22:58:00+00:00",
       "cluster": "c82a4367088"
+    },
+    {
+      "t": "Sterling Reveals One-Hour UFC Qatar Deadline",
+      "source": "boxingnews.com",
+      "ts": "2026-09-30T23:01:08+00:00",
+      "cluster": "c35f608a01b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T23",
-    21
+    22
   ],
   "yt_eval": [
     "CBMi1gFBVV95cUxOaHFQeXZMLVFETlN4UGxuSlNCdmN5Q0liMm1EbWxfMk12czY3ME5NdVZxU2NWelJrV2dsNHZ0YUdlOWt3emkyVHY4LUdzMWEybWhoSTh1Ukc1ZDZyMC1vTVRuRkVFVk1QdlNHM2VVaUhTY2x3dnBtVWVkcjlaWktBa2ZHSkxLZnZxTWFQWTRRTXJUVXRuQVpaS3p4Zl9XZVFoTDFHdi1SNW01d2tWdE9ROHlxcXFDeDY0NEhEWkZVQThxOEhGQmRVa3dDRkJPUkxuXzczaVJn",
