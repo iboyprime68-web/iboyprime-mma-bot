@@ -111,12 +111,30 @@ _DEFAULT_SOURCES = {
     # Boxing feeds ship DISABLED (owner is UFC-focused). Bad Left Hook is a Vox
     # feed (same shape as MMA Fighting). Verify boxingscene's feed shape before
     # ever enabling it.
+    # X via SocialData (Sept 30 2026): the Worker polls the accounts in x_accounts every
+    # minute into a buffer, and this source reads it (worker.js /news/x-feed). It needs
+    # WORKER_BOT_KEY in the job's environment and is silent without it. UNTRUSTED on
+    # purpose: a journalist's account also posts about other things, so every post must
+    # earn its place through topicgate, like Google News.
+    "x":             {"label": "X", "url": "https://iboyprime-commands.root90014.workers.dev/news/x-feed",
+                      "enabled": True, "flavor": "x_feed", "trusted": False, "min_poll": 20},
     "bad_left_hook": {"label": "Bad Left Hook", "url": "https://www.badlefthook.com/rss/current.xml", "enabled": False},
     "boxing_scene":  {"label": "BoxingScene",   "url": "https://www.boxingscene.com/rss/news.xml",    "enabled": False},
 }
 
 # Source "flavor" values news_bot understands. Empty string = plain RSS/Atom.
-SOURCE_FLAVORS = ("", "google_news", "nitter")
+SOURCE_FLAVORS = ("", "google_news", "nitter", "x_feed")
+
+# The X accounts the speed layer follows (Sept 30 2026). The owner confirms this seed list
+# in MOD_PANEL -> News or with /news x add|remove; the Worker reads it off the raw CDN.
+# These handles were NOT verified live from the cloud session (x.com is out of its reach):
+# a wrong one costs nothing but a missing account.
+X_ACCOUNTS_DEFAULT = ["arielhelwani", "bokamotoESPN", "marc_raimondi", "aaronbronsteter", "DamonMartin",
+                      "MikeBohnMMA", "MMAjunkieNolan", "JedKMeshew", "guicruzzz", "ufc", "UFCNews",
+                      "danawhite", "MMAFighting", "MMAJunkie", "sherdogdotcom", "SpinninBackfist",
+                      "ChampRDS", "mma_orbit"]
+X_HANDLE_RE = re.compile(r"^[A-Za-z0-9_]{1,15}$")
+X_MAX_ACCOUNTS = 40
 
 # Titles are classified by FIRST category whose keyword hits (check order below).
 # Anything unmatched falls back to default_category.
@@ -258,6 +276,7 @@ def base_defaults():
         # straight to itself in the app (#s=<message id>). Public by nature
         # (the app is password-gated); empty disables the link line.
         "studio_url": "https://iboyprime-commands.root90014.workers.dev/studio",
+        "x_accounts": list(X_ACCOUNTS_DEFAULT),
         # How long a staged post lives in the hidden studio channel before
         # studio_clean.py deletes it (owner: keep that channel tidy). Counted
         # from the message timestamp, so no state file is needed, and only the
@@ -536,4 +555,16 @@ def validate_newsconfig(cfg, secret_values=()):
             problems.append("A SECRET from config.txt appears in the news config - remove it. "
                             "This file is uploaded to the PUBLIC repo.")
             break
+    xa = cfg.get("x_accounts", [])
+    if not isinstance(xa, list):
+        problems.append("x_accounts must be a list of X handles")
+    else:
+        bad = [h for h in xa if not (isinstance(h, str) and X_HANDLE_RE.match(h.lstrip("@")))]
+        if bad:
+            problems.append("x_accounts: not an X handle: %s" % ", ".join(str(b) for b in bad[:3]))
+        low = [str(h).lstrip("@").lower() for h in xa]
+        if len(set(low)) != len(low):
+            problems.append("x_accounts: a handle is listed twice")
+        if len(xa) > X_MAX_ACCOUNTS:
+            problems.append("x_accounts: at most %d accounts (the Worker polls them every minute)" % X_MAX_ACCOUNTS)
     return problems
