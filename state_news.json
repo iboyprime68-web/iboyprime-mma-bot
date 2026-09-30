@@ -1,5 +1,6 @@
 {
   "seen": {
+    "de5d902588b226e7": 1790775212.8298683,
     "e2017269efd6e478": 1790775167.0266883,
     "790154a78d9a6dec": 1790775140.946339,
     "f296638c72f3aace": 1790775140.5246634,
@@ -2498,8 +2499,7 @@
     "23e3ac4f6e74bed0": 1790124160.2693553,
     "e4d8a7041d6947c1": 1790124034.3004396,
     "74f0c9fe2f78caa8": 1790124033.6988404,
-    "b44314a3ca78b185": 1790123906.7277255,
-    "9da5ed5284b13f01": 1790123906.325727
+    "b44314a3ca78b185": 1790123906.7277255
   },
   "initialized": true,
   "v": 4,
@@ -4333,13 +4333,19 @@
       "source": "MMA Mania",
       "ts": "2026-09-30T11:01:20+00:00",
       "cluster": "c3919cd55fe"
+    },
+    {
+      "t": "UFC news: Veteran suggests weight class drop for Conor McGregor's fighting comeback",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-30T12:47:17+00:00",
+      "cluster": "c1a022a94fd"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T13",
-    11
+    12
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=332215",
