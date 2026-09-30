@@ -1,0 +1,6706 @@
+{
+"_comment": "Hand-labelled story kinds for storykind.py (Sept 30 2026). dev: 480 real headlines from the public state_news.json history, two independent labellers (kind = both agreed, empty when they did not; acc = every reading either gave). test: 300 more, one labeller, never used for tuning. selftest_changes.py [story kind] holds the classifier to the measured accuracy.",
+"rows": [
+{
+"t": "UFC roster purge claims nine victims as promotion makes room for new crop of ‘Contender Series’ standouts",
+"kind": "signing",
+"acc": [
+"other",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "UFC Paris video: Kurtis Campbell scores dominant submission of Trevor Peek",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Dana White says fighters who have earned contracts off of #DWCS have earned over $225 million fighting in the #UFC",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Joshua Van criticizes Joe Rogan for spinning ‘f—– up’ pre-UFC 331 narrative",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Jon Anik set for rare Fight Night appearance as Bruce Buffer also returns for UFC Belgrade debut",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "UFC Belgrade live blog: Uros Medic vs. Daniel Rodriguez",
+"kind": "result",
+"acc": [
+"event",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Former Title Challengers Meet at UFC Vegas 124",
+"kind": "booking",
+"acc": [
+"booking",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Ryan Gandra destroys Ozzy Diaz and calls out Israel Adesanya",
+"kind": "result",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Dakota Ditcheva clarifies retirement timeline: ‘I don’t want to be in a position where I can’t let go of fighting’",
+"kind": "retirement",
+"acc": [
+"callout",
+"retirement"
+],
+"set": "dev"
+},
+{
+"t": "UFC Analyst Predicts Tough Championship Path for Ian Garry Ahead",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Historic Freedom 250 Grand Prix garnered historic TV audience",
+"kind": "other",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Rising UFC Star’s Perfect Record Ends After Judges Award Split Decision",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC 329 set to debut new weigh-in format for Conor McGregor’s return that will air live on CBS",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Jiri Prochazka calls out Paulo Costa beef over possible fight: ‘I’m waiting for the contract’",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Dana White makes first comment on former UFC title challenger Anthony Smith’s arrest",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "RAF exec: Dillon Danis not banned after brawl with Khamzat Chimaev",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Miami police officer Luis Hernandez wins UFC debut",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Tom Aspinall Steps Down as UFC Champion",
+"kind": "title",
+"acc": [
+"title"
+],
+"set": "dev"
+},
+{
+"t": "Francesco Nuzzi Signed & Set for UFC Debut",
+"kind": "signing",
+"acc": [
+"booking",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "‘Real outcomes aren’t always fun’… Gina Carano shuts down ‘rigged’ fight talk after UFC 329",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Paddy Pimblett invaluable to the UFC, says Dana White",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Yair Rodriguez says it would be irresponsible to fight Jean Silva at #NocheUFC after suffering an injury",
+"kind": "withdrawal",
+"acc": [
+"injury",
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "Keegan Vandermeer Scores 9-Second KO at BKB 58 in Miami - Highlights Inside",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "‘Champion mindset’: Conor McGregor praises Ian Machado Garry after UFC 330 defeat",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC Sacramento results: Biggest winners, loser from ‘Hernandez vs. Rodriguez’ last night",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Open Thread, September 2, 2026: Tell me a game you played the heck out of",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "CSAC's Andy Foster explains why he wants oblique kicks removed from MMA",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Open Thread, September 9, 2026: Which fighter would you want to hang with?",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Boehly and Walter consider selling Chelsea stake to Clearlake Capital",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Cam Ward's Slow Start in Preseason Opener Stream of National Football League",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Une star du jiu-jitsu va faire ses débuts en MMA",
+"kind": "signing",
+"acc": [
+"booking",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "This fight has been wild!! #UFC330 How do we have this scored heading into the final round??",
+"kind": "",
+"acc": [
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "‘Unstoppable’ Conor McGregor inspired by Tom Brady and UFC legends as knee surgery recovery begins",
+"kind": "injury",
+"acc": [
+"callout",
+"injury"
+],
+"set": "dev"
+},
+{
+"t": "📍Weekend sports guide | Sports Daily Newsletter",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Watch: Song Yadong looks to become China's first male UFC champion after home victory",
+"kind": "",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Waldo Cortes-Acosta: Tom Aspinall is ‘not a champion’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Jon Jones, Islam Makhachev trade jabs on social media over win streak",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Bonuses! France’s Parnasse, Sola, and Keita clean up with $100K payouts &#124; UFC Paris",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "\"Post the Entire Message\": Tyron Woodley Responds to Sean Strickland Leaked DMs",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Michael Page opens up on fighting future before his deal's final fight at UFC Paris with Nursulton Ruziboev",
+"kind": "callout",
+"acc": [
+"callout",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Michael Morales officially weighs in as the backup for the #UFC welterweight title fight between Islam Makhachev and Ian Machado Garry at #UFC330",
+"kind": "event",
+"acc": [
+"event",
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "Dana White reveals Conor McGregor injury update after painful UFC 329 loss; McGregor refused crutches",
+"kind": "injury",
+"acc": [
+"callout",
+"injury"
+],
+"set": "dev"
+},
+{
+"t": "'Women just cannot grasp that concept': Sean Strickland says women are 'far too compassionate' to have voting rights",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Umar Nurmagomedov wants Merab Dvalishvili next: 'Now it's personal'",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "BKB 60 fight card finalized for Oct. 10 debut in Newcastle",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Two Championship-Style Trucks from Ram, UFC, and RealTruck to Be Auctioned for Charity During Barrett-Jackson’s 2026 Las Vegas Auction",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Ian Machado Garry Outlines Conditions for Immediate Rematch with Islam Makhachev",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "‘Undersized’ Ilia Topuria has to retreat to Featherweight: ‘I don’t think he’ll ever be champion at Lightweight’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Major PFL shakeup hits just 7 weeks after MVP merger",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Injured Brian Ortega pulled from UFC 331, ‘Money’ paid with Halloween main event (at Apex)",
+"kind": "withdrawal",
+"acc": [
+"booking",
+"injury",
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "UFC Star Sean O'Malley Sends Encouraging Message After Former Rival's Latest Win",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Charles Oliveira Eyes Justin Gaethje Title Bout as He Breaks Silence on Rejecting Arman Tsarukyan Fight",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC 330 main card fight saved as former MMA champion steps in on just 3 days’ notice",
+"kind": "withdrawal",
+"acc": [
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "UFC Paris results: Salahdine Parnasse sparks Dan Hooker, ready for Max Holloway",
+"kind": "result",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC Paris full fight: Michael Page toys with Jared Cannonier",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Rajabali Shaidullaev improves to 20-0 and becomes double champ at Super Rizin 5",
+"kind": "title",
+"acc": [
+"result",
+"title"
+],
+"set": "dev"
+},
+{
+"t": "Iwo Baraniewski’s UFC Debut: You Ain’t Seen Nothing Yet",
+"kind": "result",
+"acc": [
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Tarleton State rolls past Prairie View A&M 49-30 in season opener",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Dana White dreads the possibility of Josh Hokit becoming Heavyweight champion at UFC 334 — ‘I got a lot of thoughts’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Justin Gaethje is 100% sure who his next opponent will be if he opts against retirement",
+"kind": "callout",
+"acc": [
+"callout",
+"retirement"
+],
+"set": "dev"
+},
+{
+"t": "Where does Islam Makhachev sit on your own personal GOAT list? 📰 https://mma-fighting.visitlink.me/9hV7QD",
+"kind": "rankings",
+"acc": [
+"other",
+"rankings"
+],
+"set": "dev"
+},
+{
+"t": "Reinier De Ridder Calls For Khalil Rountree Or Navajo Stirling After UFC Sacramento Weight-Cut Reset",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC 330 Prediction Market Promos: Get Best Apps, Offers for Makhachev-Machado Garry",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "De Ridder On Why Weight Cuts Ended Middleweight Run",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "“His family, they support me” 🗣️ Watch EP5 of #UFC330 Embedded HERE ➡️ https://UFC.ac/4gccFvX [ LIVE SAT AUG 15 at 9pmET on @ParamountPlus ]",
+"kind": "event",
+"acc": [
+"callout",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Dana White Dismisses Ilia Topuria's Accusations Against Justin Gaethje: \"I Missed That\"",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Watch: Human fights Robot in bizarre MMA match",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Ian Machado Garry disses Islam Makhachev's resume: 'My opponents were more difficult'",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Dana White reacts to two retired fighters playing unexpected roles at UFC Sacramento",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Kamaru Usman: Bo Nickal a good test for Anthony Hernandez after losing skid",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Updates To UFC 332: Silva vs Wang",
+"kind": "event",
+"acc": [
+"booking",
+"event",
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "Dustin Poirier hopes to speak with ‘incredible’ police officer he tried to fight before arrest",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "F me this is tremendous. Love the dynamic between these two",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Dana White Kills Stevenson-Pacquiao Talk — Lines Up Unification Fight",
+"kind": "booking",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC Vegas 120 results: Sooo &#8230; About last night &#124; Gamrot vs. Salkilld",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "\"The Greatest Talent in 10 Years\": Dana White Drops Massive Praise on Akbar Abdullaev",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC Fight Night 289 video: Montel Jackson tears through Ricky Simon",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Ilia Topuria reignites feud with Justin Gaethje with glove accusation",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Payton Talbott vs. Deiveson Figueiredo among 7 fights booked for UFC 332",
+"kind": "booking",
+"acc": [
+"booking",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "DWCS Winner Anthony Wint Books Debut Against Terrance Chatman at UFC Sacramento",
+"kind": "booking",
+"acc": [
+"booking"
+],
+"set": "dev"
+},
+{
+"t": "Zabit Magomedsharipov reignites Raul Rosas Jr match with face-off after UFC star beats his brother",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Joe Rogan Praises Gordon Ryan For Coming Clean About PED Use: Jiu-Jitsu Is A Dirty Sport",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Prediction, pick for Donte Johnson vs. Eric McConico at UFC 330",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Arman Tsarukyan has been in Usman Nurmagomedov’s sights since one moment 6 years ago",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Dricus Du Plessis’ coach says he could’ve finished the fight as he brushes off ‘nonsense’ complaints",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC 332 Left Without Main Event After Valentina Shevchenko Pulls Out With Injury",
+"kind": "withdrawal",
+"acc": [
+"injury",
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "The Numbers Behind Raul Rosas Jr.’s First UFC Main Event",
+"kind": "other",
+"acc": [
+"booking",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Players to Avoid in Fantasy Drafts Stream of National Football League",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Israel Adesanya provides Arman Tsarukyan path to victory against Justin Gaethje",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "in-5 August 23, 2026: Can you guess this four-time UFC fighter in today’s in-5 trivia game?",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Jorge Masvidal does not ‘want to see’ Alex Pereira face one UFC opponent after Ciryl Gane defeat",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Highlights! TUF 34 Finale set after record-setting, must-see buggy choke finish",
+"kind": "result",
+"acc": [
+"booking",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Highlights! Olympic wrestler Gable Steveson scores vicious KO without landing a single takedown &#124; UFC 329",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC Shanghai Post-Fight Press Conference Video",
+"kind": "event",
+"acc": [
+"callout",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Deranged UFC fighter wants to ‘take over’ Whole Foods, assault untrained shoppers to quench thirst for violence",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Denise Gomes Lands Highlight Reel Finish Against Yan Xiaonan | UFC Shanghai",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Bella Mir’s mother releases statement, apologizes after ripping Alex Apodaca following shocking DWCS result",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Ailin Perez changes tone after UFC Vegas 121 and thanks Norma Dumont",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "‘Living in some alternative reality’: Frederic Vosgrone admits ‘I don’t even know’ what makes him an MMA star",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "5 Fights the UFC Needs To Make Next After UFC Noche",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Edson Barboza admits it may be hard to say no if other promotions come calling: \"Any organization, don't call me. Please don't call me, don't call me…",
+"kind": "callout",
+"acc": [
+"callout",
+"retirement",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Sean Brady vs. Gabriel Bonfim Set For UFC Fight Night 293 Main Event",
+"kind": "booking",
+"acc": [
+"booking"
+],
+"set": "dev"
+},
+{
+"t": "Edson Barboza opens up on decision to retire at UFC 330 – ‘I can’t compete at a high level’",
+"kind": "retirement",
+"acc": [
+"callout",
+"retirement"
+],
+"set": "dev"
+},
+{
+"t": "Live! Garcia vs. Benn ceremonial weigh ins video stream, official fighter staredowns from Las Vegas",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Raoni Barcelos breaks silence on scary UFC Vegas 121 loss, hospitalization",
+"kind": "injury",
+"acc": [
+"callout",
+"injury"
+],
+"set": "dev"
+},
+{
+"t": "Dana White's Contender Series 90 results: Five winners, five UFC contracts",
+"kind": "result",
+"acc": [
+"result",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Roberto Soldic Says UFC Pay Falls Far Short Of ONE Deal After Four-Year Stall",
+"kind": "callout",
+"acc": [
+"callout",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "‘I will honor his name’: Chute Boxe pays tribute to late UFC fighter Allan Nascimento",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Renato Moicano rips Brian Ortega for UFC 331 withdrawal",
+"kind": "callout",
+"acc": [
+"callout",
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "UFC Oklahoma City preview: Start time, full card and how to watch Dricus du Plessis vs. Kamaru Usman",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Bo Nickal Reacts to Israel Adesanya Fight Calls: \"I Would Be Interested\"",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Paddy Pimblett Wants Ilia Topuria or Arman Tsarukyan Next",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Back in Sac-Town 🙌 It's #UFCSacramento Fight Week! [ LIVE AUG 22 at 8pmET on @ParamountPlus ]",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "dev"
+},
+{
+"t": "'Middleweight No. 6' Hernandez: \"I'll Pressure and Suffocate You,\" to Clash with No. 11 Rodriguez in Hometown California [UFC]",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "“I thought he looked pretty sh*t”: Paddy Pimblett gives blunt assessment of Arman Tsarukyan’s UFC 331 performance",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Finn Balor & Becky Lynch Name WWE Stars They Believe Would Succeed In The UFC",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Arman Tsarukyan vs Colby Covington now an inaugural title match for new ‘crossover’ belt",
+"kind": "title",
+"acc": [
+"booking",
+"title"
+],
+"set": "dev"
+},
+{
+"t": "Fares Ziam praises Axel Sola for respect after knockout loss at UFC Paris",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Dillon Danis Called Out by Nate Diaz Over Suspicious Fight Withdrawal",
+"kind": "callout",
+"acc": [
+"callout",
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "Tyron Woodley explains why he’s not interested in running it back with Colby Covington in RAF",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Fedor Emelianenko Open to Fighting Randy Couture",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Sean Strickland Takes Brutal Dig at Tyron Woodley as Colby Covington’s “Waterboy” Remark on Din Thomas Resurfaces",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Fluffy and Robocop Proved They Both Belong at UFC Sacramento",
+"kind": "result",
+"acc": [
+"callout",
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Dana White Says Arman Tsarukyan ‘Completely Flipped’ the Script on Title Shot After UFC 331 Knockout",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Video: Terminator dominates first human vs. robot cage match",
+"kind": "other",
+"acc": [
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "How to Bet the NFL: Tips and Strategy to Placing Smarter Bets! | Early Edge Stream of General Videos",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "UFC brawler who fought Volkanovski and Oliveira books retirement fight 16 years after his debut",
+"kind": "",
+"acc": [
+"booking",
+"retirement"
+],
+"set": "dev"
+},
+{
+"t": "Eddie Hearn asked what is next for Tom Aspinall after UFC title decision as update on MMA star is teased",
+"kind": "callout",
+"acc": [
+"callout",
+"title"
+],
+"set": "dev"
+},
+{
+"t": "Teofimo Lopez targets winner of Garcia vs Benn next over Jack Catterall",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Dana White Says UFC Handled Namo Fazil Hotel Incident Behind The Scenes After UFC Sacramento",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Nate Diaz Blasts Ilia Topuria Following his Brutal Loss at UFC Freedom 250",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Islam Makhachev’s UFC 330 undercard loses fight featuring top 5 contender due to injury",
+"kind": "withdrawal",
+"acc": [
+"injury",
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "BKFC boss predicts Conor McGregor BKFC debut in ’15 months or so’ amid Croke Park conversations",
+"kind": "callout",
+"acc": [
+"booking",
+"callout",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Isaac Trotter on Virginia Tech's Lack of Top-End Talent | The Assist Stream of NCAA Basketball",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Wyndham Clark Wins First FedExCup Playoff Event Stream of Golf",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Morning Report &#124; Brendan Schaub rips Ian Machado Garry as his own worst enemy: ‘Shut up and fight’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "“The fight that makes sense”: Alex Pereira calls for Ciryl Gane rematch",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Dustin Poirier calls out ‘flop’ in bizarre TUF 34 Finale DQ",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Caio Borralho Calls for Fight at UFC 334",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Former UFC champion Tyron Woodley ends eight-year win drought with wild RAF 12 comeback",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "RAF execs: NFL Hall of Famer Ray Lewis in discussions to compete in wrestling match before end of 2026",
+"kind": "",
+"acc": [
+"booking",
+"other",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Daniel Cormier on Parnasse: I don't think we've seen a more impressive UFC debut",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Merab Dvalishvili Slams UFC's Flag Rule for Islam Makhachev",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Alex Pereira Responds to Critics, Says Unfollow Me",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Just In: Jets' Breece Hall Suffers Strained Groin at Practice Stream of National Football League",
+"kind": "other",
+"acc": [
+"injury",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Carlos Prates Breaks Down How Islam Makhachev Fight Will Go",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Video: UFC 330 full card final faceoffs with two title fights and more",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Highlights! Undefeated Ty Miller brutally stops Billy Ray Goff after corner fails to step in &#124; UFC Vegas 120",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Islam Makhachev vs. Ian Garry: Four Brazilian experts make their UFC 330 picks",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Reinier de Ridder makes light heavyweight return against and Roman Dolidze at UFC Sacramento",
+"kind": "booking",
+"acc": [
+"booking"
+],
+"set": "dev"
+},
+{
+"t": "Dana White’s Mount Rushmore Reaction Fuels Speculation Over UFC’s Next ‘Impossible Event’",
+"kind": "event",
+"acc": [
+"callout",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Shamil Gaziev with Lightning-Fast KO of Nzechukwu at Apex!",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC Shanghai results: Sooo ... About last night | Yadong vs. Nurmagomedov",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "49ers' Bosa, Kittle to Practice Ahead of Week 1 Stream of National Football League",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Sean O’Malley Backs Arman Tsarukyan For Justin Gaethje After UFC 331 Knockout",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Islam Makhachev fires Back at Shavkat Rakhmonov over UFC title snub",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Throwback: Islam Makhachev once failed a drug test; so why was he never suspended from UFC?",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "BKFC 94: Darren Till vs. Yoel Romero full fight card, start time, how to watch Saturday's PPV",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Marlon Vera Returns to Win Column with TKO Victory Over Charles Jourdain",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Robert Whittaker: ‘I definitely have a few more in me now’ thanks to light heavyweight move",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Daniel Cormier Says Arman Tsarukyan Made Himself “Undeniable” After UFC 331",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Who is John Pork? Why fans call UFC Abu Dhabi star Magomed Zaynukov by meme nickname",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Split Charlotte Flair And Alexa Bliss, Then Turn The Queen Heel",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "‘Cold-blooded genius’… Khabib Nurmagomedov explains what separates Dana White from other promoters",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "‘Cocky’ producer behind White House success cooking up new UFC mega event — Here’s where Dana White will announce it",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Leah Letson",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Michael ‘Venom’ Page laments another boring performance at UFC Paris: ‘I know I can do better’",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Conor McGregor Backs Jordan Burroughs After Olympic Gold Medalist Explains Why MMA Dream Died Before RAF Moscow",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC fighter says he’s ‘disappointing’ fellow US Marines",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC to explore whether to strip Tom Aspinall of his heavyweight title",
+"kind": "title",
+"acc": [
+"title"
+],
+"set": "dev"
+},
+{
+"t": "Jiri Prochazka Says UFC Return Is Realistic For November Or December As UFC 332 Window Fades",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "A KNOCKOUT FOR THE AGES Kaik Brito proves he is not to be taken lightly on #DWCS!",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Justin Gaethje prefers Conor McGregor fight over avenging losses: ‘Fun to shut him up’",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC Vegas 121 fight card confirmed with Rosas Jr vs Barcelos in main event",
+"kind": "event",
+"acc": [
+"booking",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Dana White maintains he’ll promote Fury vs. Joshua despite Eddie Hearn claim: ‘Who is gonna stop me?’",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Adesanya Spotted Training At Freestyle MMA",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Paulo Costa claims UFC risk ‘screwing up’ light heavyweight division if they don’t make one fight",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Game Changers: Heidi Noland, UFC",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Jon Jones challenges Islam Makhachev's GOAT status",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Joe Rogan agrees to have Sean Sharaf on his podcast",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Frenemies? Michael Chandler defends Conor McGregor after ‘disappointing’ UFC 329 injury disaster &#8211; ‘He is not a bamboozler’",
+"kind": "callout",
+"acc": [
+"callout",
+"injury"
+],
+"set": "dev"
+},
+{
+"t": "Dana White Reacts to Tai Tuivasa Losing 8 Straight UFC Fights",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Merab Dvalishvili Upset Over UFC’s Flag Rules for Islam Makhachev",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Islam Makhachev tells UFC the ‘perfect’ place to stage their first-ever event in Dagestan",
+"kind": "callout",
+"acc": [
+"callout",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Arman Tsarukyan calls for title shot after delivering brutal knockout over Mauricio Ruffy in UFC 331 co-main event",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC 330 interrupted by seven fight announcements including Volkanovski vs. Evloev",
+"kind": "booking",
+"acc": [
+"booking",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Hernandez Submits Dumas In 57-Second UFC Debut",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Will UFC 332 Main Event Be Jiri Prochazka vs. Paulo Costa?",
+"kind": "booking",
+"acc": [
+"booking"
+],
+"set": "dev"
+},
+{
+"t": "5 things to know about the Freedom 250 Grand Prix in Washington",
+"kind": "other",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Open Thread, September 21, 2026: Name a villain you enjoyed more than the hero",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "UFC 331 preview: Why Gable Steveson could steal the show",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Muhammad Mokaev followed Dana White’s advice and ‘became champion somewhere else’",
+"kind": "title",
+"acc": [
+"callout",
+"other",
+"title"
+],
+"set": "dev"
+},
+{
+"t": "Ex-Justin Gaethje rival says he should demand eight-figures for ‘zero to gain’ Ilia Topuria rematch",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC 331 video: Jon Jones left stunned cageside watching protege Gable Steveson knocked out cold",
+"kind": "result",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC Fight Night 285 Fight Card",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Tom Aspinall backed for UFC comeback by Jon Jones’ protege Gable Steveson after vacating belt",
+"kind": "callout",
+"acc": [
+"callout",
+"title"
+],
+"set": "dev"
+},
+{
+"t": "Jeremiah Smith: The Only Unanimous Player on Offense Stream of General Videos",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Ryan Gandra vs. Ozzy Diaz: UFC 331 AI Prediction, Results and Highlights",
+"kind": "result",
+"acc": [
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Mike Tyson Vs Rampage Jackson Full Fight - UFC 5 Fight Night News Bbc (QBmRouf8bX)",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Daniel Cormier defends Usman Nurmagomedov after altercation at UFC Shanghai: ‘He did not attack Song Yadong’",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Raul Rosas Jr. Aiming to Make History in Wake of TKO",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Taner Trembly and Roman Puga exit the octagon following an absolute WAR. Could we see the first double contract of the season? 👀 #DWCS88 #DanaWhiteCo…",
+"kind": "result",
+"acc": [
+"result",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Noche UFC video: Sean King III debuts with 36-second slam knockout",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC Fight Night 289's Robert Bryczek considering part-time Vegas move",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Super Group's Betway Brand Launches Star-Studded Global Marketing Campaign, Betway Clubhouse",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "UFC 330 reportedly down another fight as ex-main eventer withdraws from card Islam Makhachev mocked",
+"kind": "withdrawal",
+"acc": [
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "UFC Oklahoma City, The Morning After: Dricus du Plessis levels up, but can he close the Khazmat gap?",
+"kind": "result",
+"acc": [
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Arman Tsarukyan Just Made Himself Undeniable",
+"kind": "result",
+"acc": [
+"callout",
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "DWCS Results: Novenyi Jr. vs. Haig",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Conor McGregor vs. Max Holloway 2 simulation predicts epic upset knockout at UFC 329",
+"kind": "other",
+"acc": [
+"booking",
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Bo Nickal Says Khamzat Chimaev UFC Fight Should Come Before RAF Wrestling Match",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "DWCS Season 10, Episode 6: Akbar Abdullaev vs. Ednilson Santos AI Prediction, Results and Highlights",
+"kind": "result",
+"acc": [
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Noche UFC star Edgar Chairez voices frustrations with the promotion: ‘I feel very underappreciated’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Bargain alert! UFC’s Contender Series finally starts selling tickets for just $25",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "🏀((FREE!LIVESTREAMs**)) Minnesota Vikings vs Tampa Bay Buccaneers 𝐋𝐈𝐕𝐄 Ｆｒｅｅ Ｓｔｒｅａｍｓ ＯＮ Ｔｖ Ｃｈａｎｎｅｌ 21 September 2026, Full Live Coverage of UFC 331: Watch the Coppa Italia match live with full coverage on ESPN. Get UFC 331 Live score upd",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "UFC Vegas 121 free fight: Raoni Barcelos wins Fight of the Night vs. Khalid Taha",
+"kind": "result",
+"acc": [
+"event",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Jon Anik Justifies Carlos Prates’ Revelation About Fighting Islam Makhachev Next",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Sakibekov: Tsarukyan is One of the Best in Lightweight History",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Dana White Shuts Down Gane's Automatic Promotion To Champion",
+"kind": "title",
+"acc": [
+"callout",
+"title"
+],
+"set": "dev"
+},
+{
+"t": "MarQuel Mederos Octagon Interview | UFC Sacramento",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Justin Gaethje Reveals Who He Will Fight Next in UFC Title Defense",
+"kind": "booking",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "A closer look at Marlon Vera before Charles Jourdain clash at UFC 331",
+"kind": "",
+"acc": [
+"booking",
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Dana White plans talks on UFC heavyweight title as Aspinall faces risk of being stripped",
+"kind": "title",
+"acc": [
+"callout",
+"title"
+],
+"set": "dev"
+},
+{
+"t": "UFC Fans Refuse to Buy the Idea That Michael Venom Page Is Boring After His Exit",
+"kind": "callout",
+"acc": [
+"callout",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Topuria Cleared For UFC Return After Gaethje Loss",
+"kind": "injury",
+"acc": [
+"injury",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "What Brandon Moreno's gut tells him about Joshua Van vs. Alexandre Pantoja",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Open Thread, July 8, 2026",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Open Thread, July 29, 2026: What do you want to talk about?",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Official Scorecards | UFC Shanghai",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "New Dustin Poirier arrest footage gets released",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "BKFC star Connor Tierney explains decision to cut retirement short after having his jaw split in two",
+"kind": "retirement",
+"acc": [
+"callout",
+"retirement"
+],
+"set": "dev"
+},
+{
+"t": "Last man to beat Song Yadong reacts to KO of Umar Nurmagomedov: ‘Just how good is Sean O’Malley?’",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC legend defends Francis Ngannou amid Dana White feud",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Louis Jourdain: UFC Record, Stats and Fighter Profile",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Mania Mailbag: How good is Dricus du Plessis, really?",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "UFC Oklahoma City Post Show: Dricus du Plessis beat up Kamaru Usman, but what did it do for him?",
+"kind": "result",
+"acc": [
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Dana White welcomes Khamzat Chimaev's desire to fight soon",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Dana White not a fan of the Serbian flare brigade at UFC Belgrade: 'I hope I never see that again'",
+"kind": "callout",
+"acc": [
+"callout",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Live Now: Garcia vs Benn Memorabilia Auction",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Raoni Barcelos hospitalized after fifth-round TKO loss to Raul Rosas Jr.",
+"kind": "injury",
+"acc": [
+"injury",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Fazil Says Chechens Attacked Him Before DWCS Loss",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Ilia Topuria beats up ‘goofy’ Paddy Pimblett 97 times out of 100, per Justin Gaethje &#124; UFC 329",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Max Holloway delivers message to Conor McGregor after final UFC 329 faceoff: ‘If this guy’s a missile, I’m a f*cking nuke’",
+"kind": "callout",
+"acc": [
+"callout",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Morning Report &#124; Nakida Bidarian takes shots at Dana White’s ‘irreverence’ towards fighters, lays out his vision for MVP MMA",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Raoni Barcelos’ coach offers positive update after frightening KO to Raul Rosas Jr… ‘Everyone can relax’",
+"kind": "injury",
+"acc": [
+"callout",
+"injury",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Dana White fires back at Paulo Costa over UFC fight dispute",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Noche UFC &#038; Ryan Garcia vs. Conor Benn Preview Show: Who will deliver on Mexican Independence Day?",
+"kind": "event",
+"acc": [
+"callout",
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Sister of 'Poatan' Aline Pereira fights muay Thai prodigy on Dana White's Contender Series",
+"kind": "booking",
+"acc": [
+"booking",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Is a Regression Coming For Joe Burrow? Stream of National Football League",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "UFC 329 start time, fight card for Conor McGregor vs. Max Holloway 2",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Khamzat Chimaev set to stay active while awaiting Sean Strickland rematch according to RAF boss",
+"kind": "booking",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Max Holloway rips ‘delusional’ Conor McGregor for post-fight comments: ‘He felt slow; he looked old’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC Paris Delivers Exciting Prelims Labor Day Weekend!",
+"kind": "result",
+"acc": [
+"event",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Brandon Moreno enters first Noche UFC 'super focused on the present' after tough losses",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Ilia Topuria announces return to training as he continues to gear up for anticipated UFC return",
+"kind": "other",
+"acc": [
+"injury",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "It's about time people hopped onto the Jorge Masvidal train. Growing up street fighting in Kimbo Slice's backyard, Masvidal has been known to never back down from a fight. He's fought a who's-who in the sport across many major organizations, but finally got h",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Justin Gaethje names Conor McGregor as his preferred first UFC title challenger, says it will be ‘fun to shut him up’",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Islam just broke a UFC record once thought untouchable — on the same night UFC 330 shattered a mark of its own",
+"kind": "result",
+"acc": [
+"event",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "43-year-old MMA legend knocked out by Floyd Mayweather’s former opponent in late stoppage",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Sony Launches Live TV Channels On Playstation 5",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Carlos Narvaez Goes 0 for 3 In Win Over Athletics",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Alexander Volkanovski, Movsar Evloev recount past training session ahead of UFC 333 title fight",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Ryan Garcia walks out with Rey Mysterio for final faceoff with Conor Benn",
+"kind": "",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "John Cena Explains His Early Hollywood Struggle - 'I Wasn't Wholeheartedly Invested'",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Surprise fighter tops USA TODAY Sports' UFC pound-for-pound list",
+"kind": "rankings",
+"acc": [
+"rankings"
+],
+"set": "dev"
+},
+{
+"t": "Eduardo Chapolin",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "NSAC Fines Pimblett After UFC 329 Cage Exit",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Video: UFC star Alexander Volkanovski punishes gigantic NFL player",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "DWCS 89 video: Bella Mir shocked by Alex Apodaca in all-time MMA upset",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Fares Ziam plans to shift to the U.S. to train with Justin Gaethje’s team",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Mackenzie Dern releases first statement the morning after dominating Gillian Robertson in her first title defense at #UFC330",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "One fighter transported to hospital following bloody UFC Paris beating",
+"kind": "injury",
+"acc": [
+"injury",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "\"Get back to my true form\" - Songchainoi addresses his defeat to Nadaka ahead of The Inner Circle 27 return",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Joshua Van Says Alexandre Pantoja’s ‘Scared’ Claim Annoyed Him Before UFC 331",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Andrew Tackett calls out Paddy Pimblett after nasty UFC BJJ 10 win; Moura vs. Fornarino finals set",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Jayden Daniels mom Regina Jackson caught in storm over LSU jersey dispute",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "CSAC upholds embattled referee Herb Dean’s controversial 'Rousey vs. Carano' decision",
+"kind": "other",
+"acc": [
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Absolute must watch. Couldn’t recommend enough.",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "#DWCS results: Alik Lorenz def. Mahamed Aly via knockout (punches) – Round 1, 2:23 Live coverage: https://mmajunkie.usatoday.com/story/sports/ufc/202…",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Van and Pantoja set for long-awaited rematch at UFC 331 in Los Angeles",
+"kind": "booking",
+"acc": [
+"booking"
+],
+"set": "dev"
+},
+{
+"t": "Yair Rodriguez out of UFC Noche main event, Jean Silva gets new opponent https://www.mmafighting.com/ufc/505976/jean-silva-gets-new-opponent-for-noch…",
+"kind": "withdrawal",
+"acc": [
+"booking",
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "UFC Featherweight Rankings 2025",
+"kind": "rankings",
+"acc": [
+"rankings"
+],
+"set": "dev"
+},
+{
+"t": "Jorge Masvidal Names Leon Edwards For UFC Return As Old ‘Three-Piece’ Beef Wakes Up",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Jake Paul attempts to convince Khabib Nurmagomedov to come out of retirement to fight for MVP MMA",
+"kind": "callout",
+"acc": [
+"callout",
+"retirement"
+],
+"set": "dev"
+},
+{
+"t": "“He’s Not Fine”: Referee Big John McCarthy Questions Raoni Barcelos’ UFC Future After Scary Stoppage",
+"kind": "callout",
+"acc": [
+"callout",
+"injury",
+"retirement"
+],
+"set": "dev"
+},
+{
+"t": "Paddy Pimblett shocks Benoit Saint-Denis, submits ‘God of War’ in less than one minute &#124; UFC 329",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Is Julián Álvarez Yet to Deliver for Atlético Madrid? Stream of Soccer",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Herb Dean’s fault! Michel Pereira to appeal controversial loss to Shara Magomedov: ‘Pulled my hair three times’",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Raphael Esparza (VSI)",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Reinier de Ridder books light heavyweight fight at UFC Sacramento amid losing streak",
+"kind": "booking",
+"acc": [
+"booking"
+],
+"set": "dev"
+},
+{
+"t": "Joshua Van explains why he didn’t pull out of UFC 331 despite suffering severe injury",
+"kind": "callout",
+"acc": [
+"callout",
+"injury"
+],
+"set": "dev"
+},
+{
+"t": "Joe Rogan Breaks Down Gaethje Vs Topuria Dunfermline Fc (2BI8fRxrtq)",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Noche UFC preview and predictions: Can Jose Delgado actually upset Jean Silva?",
+"kind": "event",
+"acc": [
+"callout",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Henry Cejudo Exacts Revenge on Dvalishvili, Wants Third Bout",
+"kind": "result",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC Signs Top MMA Prospect for Highly-Anticipated Debut Fight at UFC 333",
+"kind": "signing",
+"acc": [
+"booking",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Arman Tsarukyan believes Mauricio Ruffy is a harder fight than original opponent Charles Oliveira",
+"kind": "callout",
+"acc": [
+"callout",
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "Edgar Chairez Voices Frustration Over UFC’s Marketing and Main Card Placement",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Morning Report: Michael Bisping calls it ‘a crime’ for NSAC to withhold UFC 329 fighter salaries for celebrations",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Gregory Rodrigues wants Dricus du Plessis or Khamzat Chimaev after UFC Sacramento win: ‘Why I’m going to look back?‘",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Dana White's Contender Series: Liam McCracken to fight for UFC contract after near-fatal bus crash",
+"kind": "booking",
+"acc": [
+"booking",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "UFC Freedom 250 regulator reacts to Ilia Topuria’s claim about Justin Gaethje’s gloves",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Roman Puga Eyes UFC Gold After DWCS 88 War With Taner Trembley Lands Both Contracts",
+"kind": "callout",
+"acc": [
+"callout",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Highlights! Paddy Pimblett immediately sleeps Benoit Saint-Denis with super slick strangle &#124; UFC 329",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC 330 'Embedded,' No. 6: Up close and personal one last time",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Paddy Pimblett’s demolition of Benoit Saint Denis spooked one rival so badly he has now U-turned on callout",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC star and Liverpool fan Paddy Pimblett admits he wants to 'beat up' Premier League boss",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Dominic Waters",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Serie A is BACK! Who is the Favorite? + More Season PREDICTIONS! - Golazo Matchday Stream of Soccer",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Jon Jones fires back at Islam Makhachev's disrespect",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "What happened in Benoit Saint-Denis’ UFC debut left legendary referee ‘screaming at the TV’",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Gervonta Davis lays out key Ryan Garcia rematch clause after Conor Benn KO",
+"kind": "",
+"acc": [
+"booking",
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "ACBJJ 22 results: Zabit Magomedsharipov defeats Youssef Zalal, Belal Muhammad strangles opponent",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Daily Update: Thoughts on G1 finals & other NJPW notes, UFC 330 fallout",
+"kind": "other",
+"acc": [
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Dana White heaps praise on Islam Makhachev for setting a new bar for most consecutive UFC wins at #UFC330. \"(His record) might never be beaten, at le…",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Lives* UFC 331 Live 𝗦𝘁𝗿𝗲𝗮𝗺 UPDATES",
+"kind": "other",
+"acc": [
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC Fighter Allan Nascimento Dies at 34 After Reported Heart Attack",
+"kind": "other",
+"acc": [
+"injury",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Arman Tsarukyan Sets Lofty Goals as UFC Lightweight Champion",
+"kind": "callout",
+"acc": [
+"callout",
+"title"
+],
+"set": "dev"
+},
+{
+"t": "IBJJF Officiating Criticized As Incompetent And Biased By Former UFC Champion Josh Barnett",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "\"This is It? Not Yet\": Rafael dos Anjos Details Brutal Three-Surgery Ordeal Since Last UFC Fight",
+"kind": "injury",
+"acc": [
+"injury",
+"retirement"
+],
+"set": "dev"
+},
+{
+"t": "UFC's Michael Chandler plans to keep fighting despite KOs, skid",
+"kind": "",
+"acc": [
+"callout",
+"retirement"
+],
+"set": "dev"
+},
+{
+"t": "Joshua Van retains flyweight title in gritty Pantoja rematch",
+"kind": "result",
+"acc": [
+"result",
+"title"
+],
+"set": "dev"
+},
+{
+"t": "UFC 331: Arman Tsarukyan is fighting for a title shot, but is Ilia Topuria still in the driver's seat?",
+"kind": "other",
+"acc": [
+"booking",
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Philadelphia fighter Sean Brady ‘never offered’ a fight for ‘underwhelming’ UFC 330 card &#8211; ‘Just unfortunate’",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Highlights! Benouaich Sparks UFC Paris With Blood-Splattering Finish",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "In The Corner: Ishmael Davis - Episode 1 Ufc 329 (OWjSeniDLt)",
+"kind": "other",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Highlights! Brito Sparks UFC 331 With Violent KO Stoppage",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Highlights: Alik Lorenz finds redemption, smokes Mahamed Aly in under three minutes",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "AC MILAN & JUVENTUS UEL League Phase PREVIEW - Morning Footy Stream of Soccer",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Sean Sharaf was inspired by Jon Jones and Conor McGregor to use psychological warfare against Gable Steveson",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Paddy Pimblett Calls Out Sean Strickland and Khamzat Chimaev Over \"Fake Beef\"",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Michael Bisping says Ian Machado Garry’s UFC 330 approach showed a ‘sign of weakness’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Ian Machado Garry embraces his ‘feminine side’ ahead of UFC 330: ‘I cry watching Disney films’",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Bella Mir stunned in historic DWCS upset as Dana White awards five contracts",
+"kind": "result",
+"acc": [
+"result",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "UFC Paris live results: Dan Hooker vs. Salahdine Parnasse updates, round-by-round scoring and highlights",
+"kind": "result",
+"acc": [
+"event",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Gable Steveson makes wrestling return at RAF 12",
+"kind": "booking",
+"acc": [
+"booking",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC 334: Yanez Tests Himself Against Nine-Fight Winner",
+"kind": "booking",
+"acc": [
+"booking",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "UFC 331 salaries: Champ Joshua Van's disclosed payout topped by one fighter",
+"kind": "other",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Bilal Hasan: UFC Record, Stats and Fighter Profile",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Mike McCarthy Reunion: Green Bay vs Pittsburgh Stream of National Football League",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Colby Covington Says RAF Gives Him A Full-Year Plan, Names Five Future Matches",
+"kind": "callout",
+"acc": [
+"callout",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Costa Says UFC Rejected Interim Title Bid For 332",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC Hall of Famer Liddell Accuses Ex-Wife of Kidnapping 14-Year-Old Daughter",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Video: Watch ‘The Mayhem of Jason Miller,’ Dark Side of the Cage Season 2 premiere",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "\"He mad that I got his belt\" 🏆 [ @JoshuaVanBT | #CryptoCom #UFC331 | LIVE SEP 19 on @ParamountPlus ]",
+"kind": "callout",
+"acc": [
+"callout",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Michael Bisping Rips Nevada Rule Keeping Paddy Pimblett’s UFC 329 Purse On Ice",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Patricio Pitbull Knocks Out Dooho Choi In Round One At UFC 331 – Highlights",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Which middleweight you pickin' in the #UFCSacramento main event? Anthony Hernandez or @Gregory_MMA? [ LIVE AUG 22 at 8pmET on @ParamountPlus | Ticket…",
+"kind": "booking",
+"acc": [
+"booking",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Paddy Pimblett rips 'little b*tch' Ilia Topuria for accusing Justin Gaethje of cheating",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Latest UFC Belgrade fight card, Paramount+ start time, date and location &#124; Medic vs. Rodriguez",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Islam Makhachev has surpassed Georges St-Pierre as the second best of all time says UFC commentator",
+"kind": "callout",
+"acc": [
+"callout",
+"rankings"
+],
+"set": "dev"
+},
+{
+"t": "Claudia Gadelha: UFC BJJ Is The Best Thing That’s Happened To Jiu Jitsu",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Shanelle Dyer tired of ‘UFC BJJ’ in strawweight division, promises more KOs",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Salahdine Parnasse reacts to main event UFC debut having previously turned the promotion down",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Sean Strickland confirms he will fight Nassourdine Imavov later this year in first title defence",
+"kind": "booking",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Sean Strickland reveals Sean Sharaf was sleeping on floor before UFC 331",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Dern Rejects Zhang Rematch To Prove Title Legitimacy",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Sean King III Reflects on Wrestling Journey After 36-Second UFC Debut KO |",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Roberto Soldic admits UFC pay 'not even close' to ONE deal after 'depressing' stint on sidelines",
+"kind": "callout",
+"acc": [
+"callout",
+"other",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Usman Nurmagomedov denies trying to elbow Song Yadong at UFC Shanghai — ‘If I had wanted to, I would have hit him’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Islam Makhachev Reveals How Many UFC Fights He Has Left",
+"kind": "retirement",
+"acc": [
+"callout",
+"retirement"
+],
+"set": "dev"
+},
+{
+"t": "Khabib Nurmagomedov Reveals One Big Difference that Sets Him Apart from Jon Jones",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Vadim Nemkov vs. Sergey Bilostenniy heavyweight title fight headlines PFL Dubai",
+"kind": "booking",
+"acc": [
+"booking",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Alexander Volkov is ‘supportive’ of ‘mentally ill’ Josh Hokit getting UFC Heavyweight title shot &#8211; ‘An incredibly inspiring story’",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Highlights! Axel Sola shines with slick submission win over Ismael Bonfim &#124; UFC Abu Dhabi",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "What A UFC Colosseum Card SHOULD Look Like",
+"kind": "other",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Ilia Topuria drops explosive accusation against Justin Gaethje, reveals he’s cleared to fight",
+"kind": "callout",
+"acc": [
+"callout",
+"injury"
+],
+"set": "dev"
+},
+{
+"t": "Real Madrid vs. Real Sociedad: La Liga Match Highlights (8/25) - Scoreline Stream of Soccer",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Bella Mir Carries on the Mir Family Legacy in 2026",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Joe Lopez: Alexander Volkanovski's retirement claim 'two-edged sword'",
+"kind": "callout",
+"acc": [
+"callout",
+"retirement"
+],
+"set": "dev"
+},
+{
+"t": "Shavkat Rakhmonov Reveals Latest Injury Update and UFC Return",
+"kind": "injury",
+"acc": [
+"injury"
+],
+"set": "dev"
+},
+{
+"t": "Conor McGregor shreds Justin Gaethje after champion claimed he wants to ‘punch him in the face’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC lightweight fighter rejects offer to renew contract in favor of pursuing fight in Russia",
+"kind": "signing",
+"acc": [
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Raoni Barcelos is able to walk, talk, and eat – but he remains in hospital according to new update",
+"kind": "injury",
+"acc": [
+"injury"
+],
+"set": "dev"
+},
+{
+"t": "Video: Watch cocky wrestling fan challenge red-hot UFC title contender, get humiliated despite no-hands restriction",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "HE KNEW 😮‍💨 Anthony Hernandez is ready to end the #UFCSacramento main event early! [ LIVE AUG 22 at 8pmET on @ParamountPlus ]",
+"kind": "callout",
+"acc": [
+"callout",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Coach who said he’d ‘get rid’ of Islam Makhachev thinks Ian Machado presents ‘rare’ grappling issue",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Tommy McMillen touted to become a ‘huge star’ following dominant UFC Oklahoma City win",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Linette V Swiatek Highlights | Women's Third Round | Roland-Garros 2026 Ufc 329 (83V5esVNgw)",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Kaik Brito was inundated with Namo Fazil fan messages before DWCS knockout",
+"kind": "",
+"acc": [
+"callout",
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Paddy Pimblett responds to rumored December Ilia Topuria fight",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Brady Hiestand Submits Rinya Nakamura In Second Round At UFC Vegas 121",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC BJJ 10 Results: Andrew Tackett Makes Fourth Title Defense",
+"kind": "result",
+"acc": [
+"result",
+"title"
+],
+"set": "dev"
+},
+{
+"t": "UFC 331 featured plenty of surprises and exciting finishes: What you missed",
+"kind": "result",
+"acc": [
+"event",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Conor McGregor ‘can’t wait’ to fight in BKFC: ‘One more to go and the Mac Daddy is free’",
+"kind": "callout",
+"acc": [
+"callout",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "DWCS 94 Wraps Up September with Awesome Night of Action!",
+"kind": "result",
+"acc": [
+"event",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC champion Justin Gaethje missed Tsarukyan vs. Ruffy fight to speak with President Donald Trump: ‘We were talking about golf’",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "UFC signs undefeated two-weight world champion with debut reportedly set for October",
+"kind": "signing",
+"acc": [
+"booking",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "David Martínez Defeats Dan Ige By Decision At UFC Fight Night 288",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Tyron Woodley beats Joaquin Buckley, then offers to help him win UFC gold",
+"kind": "result",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Nilson Rojas",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "UFC Vegas 121: Valesca Machado Explains \"Tina Black\" Persona",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Dana White diverts blame regarding Michael \"Venom\" Page UFC release",
+"kind": "callout",
+"acc": [
+"callout",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Missed Fists: Amateur fighter completely whiffs on spinning strikes before being brutally knocked out",
+"kind": "result",
+"acc": [
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Joshua Van will test Alexandre Pantoja in a way no one else has says only man to fight both of them",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Dana White’s plan for Ronald Humphrey faces immediate issue after conversation with matchmaker",
+"kind": "other",
+"acc": [
+"booking",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Former Champion Jiří Procházka Battles Navajo Stirling at UFC Qatar",
+"kind": "booking",
+"acc": [
+"booking"
+],
+"set": "dev"
+},
+{
+"t": "Former champ praises Michael Page’s point-fighting: Must have ‘live feed’ of judges’ scorecards",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Justin Gaethje Shares Theory on Botched UFC 311 Main Event",
+"kind": "callout",
+"acc": [
+"callout",
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "Magomedov: “If Salikhov Had Joined the UFC 10 Years Earlier, He Would Be in the Top 5”",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Dana White furious after Chris Tognoni’s two controversial DWCS stoppages: ‘Worst’ call sparks backlash",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Between the Links: Song Yadong’s massive knockout of Umar Nurmagomedov, UFC Paris, Mike Perry’s tough week",
+"kind": "other",
+"acc": [
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "REACTION: Van Outlasts Pantoja in 5-Round Battle | HQ UFC Stream of UFC",
+"kind": "result",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC 330 Start Time, Full Fight Card Details!",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Eddie Hearn scores his get back, torches UFC’s ‘soppy tit’ Dana White &#8211; ‘You’ve lost, mate’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Edson Barboza reveals he fought last 2 years of UFC career blind in one eye: 'I can't see nothing'",
+"kind": "injury",
+"acc": [
+"callout",
+"injury",
+"retirement"
+],
+"set": "dev"
+},
+{
+"t": "Salahdine Parnasse évoque avec émotion les sacrifices nécessaires pour arriver au sommet",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC 330 set after all fighters make weight, card features two championship fights",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Conor McGregor could be UFC’s ‘public enemy number one’ claims former Lightweight champ Eddie Alvarez",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Islam Makhachev, Jon Jones trade barbs over GOAT debate: ‘Your whole life seems to be tied to breaking the rules’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "How To Handle CMC's Injury History in Fantasy Football Stream of National Football League",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Errol Spence vs. Tim Tszyu full fight card, Amazon Prime PPV start time &124; ‘USA vs. AUS’",
+"kind": "other",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "\"Such an exciting fight for me\" - Kiamran Nabati reveals desire to share the ring with Nabil Anane",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC 331 early weigh ins video, LIVE results and updates &#124; Van vs. Pantoja 2",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Kevin Vallejos & Aljamain Sterling React to UFC Qatar Booking",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "MMA Prelim Pick of the Week: UFC Paris",
+"kind": "",
+"acc": [
+"callout",
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Silva Vs. Cong Main Events UFC 332 After Shevchenko Stripped Of Title",
+"kind": "booking",
+"acc": [
+"booking",
+"title"
+],
+"set": "dev"
+},
+{
+"t": "Jon Jones Torches Daniel Cormier's 'Jealousy' After Khabib Nurmagomedov UFC GOAT Clip",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC White House event regulator rejects Topuria’s claim about Gaethje’s gloves",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Islam Makhachev scoffs at Ian Machado Garry being his toughest opponent to date at UFC 330: ‘It’s not going to be my biggest challenge’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Alexandre Pantoja eager to reclaim belt he lost to Joshua Van in 26 seconds",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Islam Makhachev Sets Three-Fight Minimum After UFC 330 As Welterweight Chase Gets Crowded",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Watch Rolando Dy Knock Out Paulie Malignaggi Before BKB 60 Title Defence",
+"kind": "result",
+"acc": [
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Vicente Luque Releases Statement After UFC 330 Defeat",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "'Nuclear KO' From 'Thunderous' Right Hand Left Dana White Amazed",
+"kind": "result",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Dana White Still Believes Jon Jones Is the “Baddest Dude” to Ever Live",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Jon Jones piles on Tom Aspinall following UFC heavyweight title exit",
+"kind": "callout",
+"acc": [
+"callout",
+"title"
+],
+"set": "dev"
+},
+{
+"t": "Morning Report | Sean O’Malley takes aim at Ian Machado Garry for past slight: ‘The f*ck did you just say?’ https://www.mmafighting.com/ufc/504494/mo…",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Gable Steveson On Rebuilding After UFC 331 KO Loss",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Michael Bisping responds after being called ‘racist’ for his commentary during Kamaru Usman’s loss",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Maheshate Taps Darrius Flowers In Round 1 At Road To UFC Season 5 Semifinals - Highlights",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Edson Barboza Says Blindness In One Eye Forced Him to Retire At UFC 330",
+"kind": "retirement",
+"acc": [
+"injury",
+"retirement"
+],
+"set": "dev"
+},
+{
+"t": "Kamaru Usman fans in a state of panic after UFC Oklahoma staredown — ‘Size difference is ridiculous’",
+"kind": "callout",
+"acc": [
+"callout",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "Hokit Trolls Pereira After Gane Loss, Wants BMF Fight",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "UFC Oklahoma City predictions",
+"kind": "",
+"acc": [
+"callout",
+"event"
+],
+"set": "dev"
+},
+{
+"t": "UFC signs two MMA champions to debut against each other at September’s Paris event",
+"kind": "signing",
+"acc": [
+"booking",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Bella Mir Reveals Dana White Discussion And Future Plans",
+"kind": "callout",
+"acc": [
+"callout",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Movsar Evloev Is Alexander Volkanovski’s Easiest Opponent Yet",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "BKFC Corner Under Scrutiny After Ignoring Fighter's Safety Ends Brutally",
+"kind": "other",
+"acc": [
+"other",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "‘Strip that holdout’: UFC star demands Tom Aspinall’s heavyweight title be stripped after his delayed return from an eye injury",
+"kind": "callout",
+"acc": [
+"callout",
+"title"
+],
+"set": "dev"
+},
+{
+"t": "Aljamain Sterling provides insight on Paulo Costa's UFC stalemate",
+"kind": "callout",
+"acc": [
+"callout",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Noche UFC takes a hit, Yair Rodriguez pulls out of main event",
+"kind": "withdrawal",
+"acc": [
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "UFC Cop Luis Hernandez Promoted To BJJ Black Belt After Submitting Wanted Man At UFC Apex",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Denzel Boston Camp Montage Stream of National Football League",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Colby Covington says Bo Nickal lost 'mystique,' changes tune on potential RAF match",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Mick Maynard's Shoes: What's next for Joshua Van after UFC 331 title defense?",
+"kind": "other",
+"acc": [
+"booking",
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Tommy McMillen takes aim at unbeaten UFC rival: 'He runs his mouth'",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "With Arnold Allen Out, Aaron Pico Gets Losene Keita at UFC 333",
+"kind": "withdrawal",
+"acc": [
+"booking",
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "UFC Signs Free-Agent Knockout Artist",
+"kind": "signing",
+"acc": [
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Drew Dober Calls Out Michael Chandler",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Alex Apodaca reacts to massive upset win over Bella Mir: ‘It’s sick. I think it’s so cool that I pulled it off’",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "UFC 330 Embedded | Episode 5",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Jake Paul and ESPN team up for new TUF clone: ‘Primal survivor meets fighting’",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Stan Dorsainvil: UFC Record, MMA Stats and Fighter Profile",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Alexander Volkanovski: Mauricio Ruffy 'just picks up things straight away'",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Islam Makhachev is ‘definitely’ alongside two MMA legends for ‘top three’ fighters of all time, says ex-UFC star",
+"kind": "callout",
+"acc": [
+"callout",
+"rankings"
+],
+"set": "dev"
+},
+{
+"t": "Conor McGregor comments on his future in new video that receives positive analysis from doctor",
+"kind": "callout",
+"acc": [
+"callout",
+"injury"
+],
+"set": "dev"
+},
+{
+"t": "Sean Sharaf Reveals What Gable Steveson Upset Means for His 66-Year-Old Mother",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Pinned: youtube.com/live/56FJcmC7wXQ",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Eddie Hearn Addresses Tom Aspinall's Injury Severity After Four Surgeries, Slams UFC Business Model",
+"kind": "injury",
+"acc": [
+"callout",
+"injury"
+],
+"set": "dev"
+},
+{
+"t": "Undefeated 24-year-old makes UFC history with brutal DWCS finish",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "#UFC330 results: Esteban Ribovics def. Edson Barboza via TKO (strikes) - Round 2, 1:32 https://www.mmafighting.com/ufc/504822/ufc-330-results-makhach…",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Brandon Moreno surprised by split decision scoring in Noche UFC win: 'What the f*ck?'",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Gable Steveson conqueror, Sean Sharaf, is a half-million dollars in debt (even after UFC 331 payout): ‘I’m about to file bankruptcy’",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Eddie Hearn says Tom Aspinall still needs ‘additional testing’ on his eyes before fighting again",
+"kind": "injury",
+"acc": [
+"callout",
+"injury"
+],
+"set": "dev"
+},
+{
+"t": "Mystic Mac? Conor McGregor predicts Ian Garry dethrones Islam Makhachev via head kick KO",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Karol Rosa and Denise Gomes: Inside their UFC careers, relationship and GAEA Project",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Raul Rosas Jr. eyes UFC title fights ahead of first five-round test",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Hooker On Gatekeeper Label Before UFC Paris",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Bonuses! Gilbert Urbina leads $100K winners with incredible upset knockout &#124; UFC Belgrade",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Video: UFC Fight Night 284 backstage post-fight interviews with winners",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Champ Tom Aspinall issues statement: 'I'm not leaving UFC'",
+"kind": "callout",
+"acc": [
+"callout",
+"signing"
+],
+"set": "dev"
+},
+{
+"t": "Anything but Fighting: Brandon Royval loves Metallica, Gangster Rap, Kung Fu Movies, more",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "dev"
+},
+{
+"t": "Alex Pereira relance le clash avec Ciryl Gane",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Ryan Gandra Wants ‘War’ With Israel Adesanya",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "dev"
+},
+{
+"t": "Magomed Zaynukov shares emotional message towards Khabib Nurmagomedov after UFC Abu Dhabi debut",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Tap or no tap? Watch Bogdan Grad’s controversial submission finish over Dennis Buzukja &#124; UFC Belgrade",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Tsarukyan Officially Out Of Dana White’s ‘Doghouse’ Ahead Of UFC 331 Return",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "dev"
+},
+{
+"t": "UFC commentator reflects on the moment Conor McGregor’s 2024 return collapsed having been in the room",
+"kind": "callout",
+"acc": [
+"callout",
+"withdrawal"
+],
+"set": "dev"
+},
+{
+"t": "Zabit Magomedsharipov calls Song Yadong’s stunning KO of Umar Nurmagomedov a “lucky punch”",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "dev"
+},
+{
+"t": "Matt Brown issues warning that Raoni Barcelos’ medical emergency will happen again: ‘The UFC’s worst nightmare’",
+"kind": "callout",
+"acc": [
+"callout",
+"injury"
+],
+"set": "dev"
+},
+{
+"t": "Conor McGregor complains about being left out of featherweight GOAT talk: ‘It is me’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "UFC 330 Bonuses: 39-second knockout banked big",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "Ronda Rousey blasts UFC executive for not knowing 'how to market f*cking anybody'",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Ian Machado Garry says it would be \"a cherry on top\" to beat Islam Makhachev by headkick like Conor McGregor predicted",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Conor McGregor ‘awaiting surgery’ for UFC 329 injury, suggests victory would have resurrected drug ‘cycle’",
+"kind": "injury",
+"acc": [
+"callout",
+"injury"
+],
+"set": "test"
+},
+{
+"t": "Kamaru Usman was compromised early against Dricus du Plessis after a punch to the eye: ‘That kind of blurred the vision a bit’",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Live TV on PS5 Adds 100 Free Channels in the US",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Valter Walker says Jailton Almeida was ‘set a trap’ in Russia",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Islam Makhachev reveals ideal return timeline after #UFC330, reacts to breaking record https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc…",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Former UFC champion doesn’t believe Tom Aspinall should fight again",
+"kind": "callout",
+"acc": [
+"callout",
+"injury"
+],
+"set": "test"
+},
+{
+"t": "Noche UFC results: Brandon Moreno snaps skid with split decision vs. Joseph Morales",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "Conor McGregor injury update: Irish sports star suffered two tears in his knee",
+"kind": "injury",
+"acc": [
+"injury"
+],
+"set": "test"
+},
+{
+"t": "Khabib Nurmagomedov talks Islam Makhachev's potential lightweight return, welterweight move before UFC 330",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Morning Report: Chris Weidman jokes that Jamahal Hill looks ‘pregnant’ at heavyweight",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "LIVE - Serie A | Frosinone vs Juventus (1230-1430) - MUX 2 Stream of General Videos",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "#UFC330 video: Islam Makhachev, Ian Machado Garry make weight for title fight https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/14/ufc-330-vide…",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "Former UFC heavyweight title challenger re-signs with the promotion under new contract",
+"kind": "signing",
+"acc": [
+"signing"
+],
+"set": "test"
+},
+{
+"t": "'TUF 34' finalist Valesca Machado explains 'Tina Black' name",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Magomed Zaynukov shuts down UFC Qatar fight rumors, out until 2027",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Paddy Pimblett perfectly predicted how Benoit Saint Denis fight would go the day before UFC 329",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "UFC makes mistake with UFC Qatar announcement as undefeated DWCS star is taken off event",
+"kind": "withdrawal",
+"acc": [
+"event",
+"withdrawal"
+],
+"set": "test"
+},
+{
+"t": "Dustin Poirier opens up on airport arrest, admits he still hasn't watched bodycam footage: 'I don't want to see it'",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "“I really think it was good timing”: Salahdine Parnasse explains why he waited to join the UFC after Dan Hooker win",
+"kind": "callout",
+"acc": [
+"callout",
+"signing"
+],
+"set": "test"
+},
+{
+"t": "BKFC 94 final press conference video, LIVE stream updates &#124; Till vs. Romero",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "AEW Continental Challenge Cup Quarterfinals Set, Nigel McGuinness To Compete",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "UFC Shanghai weigh-in results: Main event set; 3 fighters miss weight",
+"kind": "event",
+"acc": [
+"event",
+"withdrawal"
+],
+"set": "test"
+},
+{
+"t": "UFC’s greatest ever fighter tells Islam Makhachev he never made $1 million during his octagon career",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "UFC 330 main card announced",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "Tyson Fury vs. Anthony Joshua date, location officially announced",
+"kind": "event",
+"acc": [
+"booking",
+"event"
+],
+"set": "test"
+},
+{
+"t": "Featherweight Show Match Headlines Exciting UFC BJJ 11 Card On September 24",
+"kind": "event",
+"acc": [
+"booking",
+"event"
+],
+"set": "test"
+},
+{
+"t": "How a Chief Keef Producer Became a UFC Knockout Artist and Rising Prospect",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Who should Paddy Pimblett face next? Ranking five fighters ‘The Baddy’ called out at UFC 329",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "\"Don't Bring My Son Into This\": Ilia Topuria Warns Justin Gaethje's Manager Over His Remarks",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Paddy Pimblett: 'I'm gonna absolutely rinse' Topuria and Tsarukyan's lives",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Gable Steveson wants UFC title ‘as fast as possible,’ but doesn’t want to rush",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Max Holloway disregards activity edge having been hit over 900 times since Conor McGregor last fought",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "UFC 332 adds four bouts as Salt Lake City card takes shape",
+"kind": "event",
+"acc": [
+"booking",
+"event"
+],
+"set": "test"
+},
+{
+"t": "Jorge Masvidal and Dustin Poirier agree on UFC’s No 1 P4P king as Justin Gaethje is snubbed from top three",
+"kind": "callout",
+"acc": [
+"callout",
+"rankings"
+],
+"set": "test"
+},
+{
+"t": "Donte Johnson vs Eric McConico Prediction & Picks - UFC #330",
+"kind": "callout",
+"acc": [
+"callout",
+"event"
+],
+"set": "test"
+},
+{
+"t": "Khamzat Chimaev teases break from fighting: ‘I have a lot of injuries’",
+"kind": "callout",
+"acc": [
+"callout",
+"retirement"
+],
+"set": "test"
+},
+{
+"t": "Usman Nurmagomedov Seemingly Holds Back From Attacking Song Yadong After Vicious UFC Shanghai Knockout",
+"kind": "other",
+"acc": [
+"other",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Reinier de Ridder Octagon Interview | UFC Sacramento",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Bilal Hasan reveals whirlwind details of UFC Shanghai debut offer after DWCS win",
+"kind": "callout",
+"acc": [
+"callout",
+"signing"
+],
+"set": "test"
+},
+{
+"t": "Bonuses! Yadong, Hasan lead $100K winners with impressive knockout performances &#124; UFC Shanghai",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "Aaron Pico advises Gable Steveson to step away for a bit and 'block out the noise'",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Alexander Volkanovski warns Movsar Evloev: 'Don't you dare try to strike with me'",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Carli Judice | Stay ‘Crispy’",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "UFC Qatar Gets Lightweight Banger Fight",
+"kind": "booking",
+"acc": [
+"booking",
+"event"
+],
+"set": "test"
+},
+{
+"t": "Paulo Costa Frustrated After UFC Turns Down Interim 205lbs Title Fight, Rejects Release Request",
+"kind": "signing",
+"acc": [
+"callout",
+"signing"
+],
+"set": "test"
+},
+{
+"t": "Report: Fury vs. Joshua Netflix superfight in serious jeopardy, Terence Crawford vs. Ryan Garcia replacement bout ‘being considered’",
+"kind": "withdrawal",
+"acc": [
+"booking",
+"withdrawal"
+],
+"set": "test"
+},
+{
+"t": "‘How is that possible?’ Dana White reacts to popular UFC star claiming he is homeless",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Lucha Underground Announces Schedule Of Episodes Being Added To YouTube",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "UFC Hall of Famer says Alex Pereira 'a bit of a sore loser' about Ciryl Gane loss",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "UFC Sacramento preview and predictions: Anthony Hernandez or Gregory Rodrigues — who wins?",
+"kind": "event",
+"acc": [
+"callout",
+"event"
+],
+"set": "test"
+},
+{
+"t": "Sean Sharaf Studied Jon Jones and Conor McGregor Before Knocking Out Gable Steveson at UFC 331",
+"kind": "result",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Dana White responds to Khamzat’s UFC demands — and ‘Borz’ fans are not gonna like the answer",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "UFC 331 star outdoes the promotion at their own format by generating more fight week views",
+"kind": "other",
+"acc": [
+"event",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Chael Sonnen Still Believes in Gable Steveson’s UFC Potential",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "‘Best celebration ever’… Star UFC signing Losene Keita produces walk-off KO to win fans over",
+"kind": "result",
+"acc": [
+"other",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Mania Mailbag: What do you do with MVP? And… is he a dirty fighter?",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Carlos Prates Sends Warning to Michael Morales",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Usman Nurmagomedov Rips Paddy Pimblett And Says UFC Lightweights Are Not Much Stronger",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Salahdine Parnasse crashes lightweight Top 10, Dan Hooker drops to unlucky 13 in latest UFC media rankings",
+"kind": "rankings",
+"acc": [
+"rankings"
+],
+"set": "test"
+},
+{
+"t": "Costa Reveals UFC Denied His Release Request",
+"kind": "signing",
+"acc": [
+"callout",
+"signing"
+],
+"set": "test"
+},
+{
+"t": "Atlanta Dream vs. Connecticut Sun Live Score and Stats - August 13, 2026 Gametracker",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Dana White optimistic about Bella Mir’s future in combat sports",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Jose Delgado Just Landed the Biggest Opportunity of His UFC Career",
+"kind": "booking",
+"acc": [
+"booking",
+"withdrawal"
+],
+"set": "test"
+},
+{
+"t": "Merab Dvalishvili and Henry Cejudo share friendly drink and meal ahead of RAF Wrestling rematch",
+"kind": "other",
+"acc": [
+"event",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Raul Rosas Jr. Targets Multi-Division UFC Titles Before Planned Retirement at Age 25",
+"kind": "callout",
+"acc": [
+"callout",
+"retirement"
+],
+"set": "test"
+},
+{
+"t": "Aspen Ladd battles former bare knuckle title challenger for BKB 58 debut on Aug. 29 in Miami",
+"kind": "booking",
+"acc": [
+"booking"
+],
+"set": "test"
+},
+{
+"t": "What’s next for Gregory Rodrigues and Anthony Hernandez after UFC Sacramento?",
+"kind": "result",
+"acc": [
+"other",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Michael Bisping praises Salahdine Parnasse following brilliant UFC debut",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "T.J. Dillashaw: Alexandre Pantoja 'a different animal,' beats Joshua Van",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Mackenzie Dern’s UFC 330 win sparks promise from 10-1 contender to ‘save the strawweight division’",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "CD FAS vs. CSD Municipal Live Stream of CONCACAF Champions Cup",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Former UFC title challenger looks to break seven-fight losing streak as Marlon Moraes ends retirement",
+"kind": "retirement",
+"acc": [
+"booking",
+"retirement"
+],
+"set": "test"
+},
+{
+"t": "Former UFC Champ Exposes Investment Pitch Aimed At Fellow Fighter - UFC Fighter Accidentally Exposes A Huge Scam",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Jeremiah Wells | Back To Home Base",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Dana White shoots down Ngannou vs. Jones (again): 'Francis is a bad guy'",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "What Is Denise Gomes' Ethnicity, Religion, and Nationality? Exploring Her Roots and Background",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Amanda Serrano’s controversial win over Lucrecia Manzur draws over 3.4 million viewers on TikTok",
+"kind": "event",
+"acc": [
+"event",
+"result"
+],
+"set": "test"
+},
+{
+"t": "College Football Week 0 Player Props: Best Bets 2026",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Dana White Used His \"Counter Terrorism\" Connection After Crazy Stalker Harassed Nina Drama",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Conor McGregor will attend Darren Till vs Yoel Romero despite surgery having shared initial reaction",
+"kind": "other",
+"acc": [
+"injury",
+"other"
+],
+"set": "test"
+},
+{
+"t": "\"It was kind of f***ed up he said that\" - Joshua Van opens up about Joe Rogan calling his first victory over Alexandre Pantoja an accident",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Ilia Topuria cleared to return, accuses Justin Gaethje of 'weird' glove manipulation",
+"kind": "callout",
+"acc": [
+"callout",
+"injury"
+],
+"set": "test"
+},
+{
+"t": "UFC star’s brother pulled from debut as replacement steps in for UFC Vegas 120 less than 2 days out",
+"kind": "withdrawal",
+"acc": [
+"withdrawal"
+],
+"set": "test"
+},
+{
+"t": "UFC OKC’s Kamaru Usman aiming for a chance to become two-division champion &#8211; ‘I’d like to be in that club’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Jake Paul’s biggest MMA star Usman Nurmagomedov rejects $2m offer as UFC links intensify",
+"kind": "signing",
+"acc": [
+"signing"
+],
+"set": "test"
+},
+{
+"t": "Umar Nurmagomedov called Song Yadong a ‘punching bag’ months before getting KO’d at UFC Shanghai",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Justin Gaethje reveals 'business decision' timeline for Arman Tsarukyan title fight",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Ciryl Gane provides 2-word reaction to Tom Aspinall’s UFC heavyweight title vacation",
+"kind": "callout",
+"acc": [
+"callout",
+"title"
+],
+"set": "test"
+},
+{
+"t": "Pros Explain How Ian Garry Beats Islam Makhachev At UFC 330 Cristiano Ronaldo (QRC3dLcv0k)",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Justin Gaethje Opens Up On Injuries That Will Keep Him Out Until 2027",
+"kind": "injury",
+"acc": [
+"callout",
+"injury"
+],
+"set": "test"
+},
+{
+"t": "Alexander Volkanovski issues a warning to Movsar Evloev ahead of UFC 333",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Khamzat Chimaev headlines RAF debut in Abu Dhabi; Arman Tsarukyan set to compete",
+"kind": "event",
+"acc": [
+"booking",
+"event"
+],
+"set": "test"
+},
+{
+"t": "UFC Shanghai video: Song Yadong collides with Usman Nurmagomedov after insane knockout over Umar Nurmagomedov",
+"kind": "result",
+"acc": [
+"other",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Dana White skips DWCS presser amid fan claims that he’s avoiding Tom Aspinall and UFC 332 questions",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Tito Ortiz Opens Up About Long-Running Feud with Dana White",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Would you pay $30 to watch Dillon Danis get his ass kicked?",
+"kind": "other",
+"acc": [
+"event",
+"other"
+],
+"set": "test"
+},
+{
+"t": "UFC Hall of Famer and former welterweight champ Matt Hughes backs Ian Machado Garry to upset Islam Makhachev tonight at #UFC330. 🏆 (via @MikeBohn)",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Highlights! Tommy McMillen shows off star potential, destroys Alberto Montes with relentless TKO &#124; UFC Oklahoma",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "‘Compounding harm’: eSafety warning on smart glasses",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "UFC 331 Bonuses Revealed After Violent Event",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "Islam Makhachev’s coach says Ian Machado Garry’s conduct was ‘genius’ in opposite take to Dana White",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "UFC news: Veteran questions Tom Aspinall’s chances of returning: ‘He could potentially lose his eye’",
+"kind": "callout",
+"acc": [
+"callout",
+"injury"
+],
+"set": "test"
+},
+{
+"t": "Ian Machado Garry criticizes Islam Makhachev for 'blanket' strategy: 'That's not fun for anyone'",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "UFC Vegas 121 early weigh ins video, live results &#124; Rosas Jr. vs Barcelos",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "UFC Vegas 121 preview: ‘Rosas Jr. vs Barcelos’ main, co-main event predictions",
+"kind": "event",
+"acc": [
+"callout",
+"event"
+],
+"set": "test"
+},
+{
+"t": "US Ambassador Sergio Gor Meets UFC Fighter Puja Tomar, Calls Her Journey ‘Inspiring’",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Morning Report &#124; Jon Anik reveals Max Holloway told him about middleweight plans ‘8 or 9 years ago’",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Gregory Rodrigues Sends Message to Dricus du Plessis",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "UFC Vegas 121: Complete fighter faceoffs",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "The mixed martial arts competition K44 was held on Saturday, August 22, at the KMMA-only stadium on",
+"kind": "event",
+"acc": [
+"event",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Belal Muhammad claims Colby Covington has restraining order against him ahead of RAF 13: ‘Police will be there’",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Ilia Topuria breaks silence since losing UFC title with heartfelt message to son",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Uros Medic rips Ian Machado Garry for saying world would be better if ‘run by women’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "“Princess is humbled now”: Islam Dulatov offers Kaik Brito whopping $5K bonus after Namo Fazil knockout a",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "BRING ON THE CHAOS @ArmanUFC vs @RuffyMMA [ #CryptoCom #UFC331 | LIVE SEP 19 on @ParamountPlus ]",
+"kind": "event",
+"acc": [
+"booking",
+"event"
+],
+"set": "test"
+},
+{
+"t": "UFC Vegas 121 loser calls decision ‘one of the biggest absurdities ever’ in furious statement",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Inside Oktagon MMA’s Super Bowl with annual stadium extravaganza even UFC won’t risk",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Conor McGregor is ‘abstaining from physical touch’ before UFC comeback fight",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Arman Tsarukyan Explains Why UFC Would Not Make Ilia Topuria Vs. Paddy Pimblett",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "‘Don’t touch me’… Noche UFC opponents almost come to blows during hotel lobby scuffle",
+"kind": "other",
+"acc": [
+"event",
+"other"
+],
+"set": "test"
+},
+{
+"t": "UFC newcomer wants to 'settle the score' following brutal debut KO",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Beloved UFC star retires after being knocked out in 35 seconds by Yadier del Valle at UFC Vegas 120",
+"kind": "retirement",
+"acc": [
+"result",
+"retirement"
+],
+"set": "test"
+},
+{
+"t": "“I’m levels above this guy”: Muhammad Mokaev calls for UFC return and Joshua Van title fight",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Raoni Barcelos: UFC star's coach issues medical update after fighter stretchered out of arena",
+"kind": "injury",
+"acc": [
+"injury"
+],
+"set": "test"
+},
+{
+"t": "UFC debutant Anthony Wint explains how fighting feels like child's play after NFL",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "DWCS 10 - Week 3 Highlights Video",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "‘Losing means nothing’… Ian Machado Garry inspired by Charles Oliveira’s 37-11 record after UFC 330",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Charles Johnson twists his way into UFC 330 rankings update, Gillian Robertson loses ground at strawweight",
+"kind": "rankings",
+"acc": [
+"rankings"
+],
+"set": "test"
+},
+{
+"t": "Inside Liam McCracken’s incredible journey from being dragged under a bus to fighting for UFC contract in",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Henry Cejudo makes fight proposal to Song Yadong",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "BKB 56 final press conference video, ‘Ortiz vs. Salcido’ weigh ins results",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "UFC 332 gets first fight as Johnny Walker books heavyweight debut against Tom Aspinall’s teammate",
+"kind": "booking",
+"acc": [
+"booking",
+"event"
+],
+"set": "test"
+},
+{
+"t": "Islam Makhachev claims Alexander Volkanovski is past his peak in UFC 333 main event prediction",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Doctor says Conor McGregor knee injury 'doesn't seem to add up 100%'",
+"kind": "injury",
+"acc": [
+"callout",
+"injury"
+],
+"set": "test"
+},
+{
+"t": "UFC Shanghai live results: Umar Nurmagomedov vs. Song Yadong updates, round-by-round scoring and highlights",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "Marcio Barbosa | Keep An Eye On 'Ticotô'",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Jason Jackson says UFC doesn't want him disrupting Islam Makhachev's division",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Noche UFC: Ignacio Bahamondes Outclasses Muslim Salikhov in Chess-Match Welterweight Debut",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "UFC Fight Night Highlights: Bilal Hasan vs Nilson Rojas Stream of UFC",
+"kind": "result",
+"acc": [
+"other",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Arman admits he might be screwed with UFC 331 loss — ‘I’m never going to see a title fight’",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Jon Jones at UFC 247",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Iwo Baraniewski reacts to first pro loss: ‘Not my first in life’",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "UFC 330 start time, fight card for Islam Makhachev vs. Ian Machado Garry",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "Islam Makhachev Ready to Box Conor McGregor Without Big Payday",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Arman Tsarukyan Reveals Why Oliveira Didn’t Accept the Rematch",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "1Ilia Topuria’s UFC future takes an unexpected turn as Dana White reveals two options for his return: ‘Bo",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Dana White Defends Gable Steveson After UFC 331 Cage Exit",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "‘Retired’ Brock Lesnar shoots down Jake Paul fight: ‘I ain’t doing jack s—t’",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Arman Tsarukyan Predicts Violent Finish Over Mauricio Ruffy",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "This Is NOT The Same Minnesota Timberwolves... Ufc Heavyweight Champion (ligHdQTDBB)",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Reinier de Ridder Has Next Callout Ready After UFC Sacramento",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Cold Open | UFC Sacramento",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Conor McGregor picks Ian Machado Garry to upset Islam Makhachev at UFC 330",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Undefeated contender Michael Morales makes weight as the #UFC330 title fight backup.",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "Petr Yan insists first win over Merab ‘wasn’t a fluke,’ plans for score-settling knockout in UFC 333 trilogy",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Sedriques Dumas Gets New Opponent for UFC Vegas 121",
+"kind": "withdrawal",
+"acc": [
+"booking",
+"withdrawal"
+],
+"set": "test"
+},
+{
+"t": "Preseason Week 1 Winner: 49ers WR De'Zhaun Stribling Stream of National Football League",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Former UFC title challenger (and current analyst) arrested for alleged felony domestic violence, faces 20 years in prison",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "^^^^UFC 331 Live 𝐒𝐭𝐫𝐞𝐚𝐦 MMA 19 September 2026",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Joshua Van reveals why he used to flip Dustin Poirier fight footage",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Glover Teixeira says Alex Pereira would KO Josh Hokit in Round 1",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Francis Ngannou Trashed by Dana White: ‘He’s a Bad Guy’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Johnny Walkers gets new opponent for UFC heavyweight debut",
+"kind": "withdrawal",
+"acc": [
+"booking",
+"withdrawal"
+],
+"set": "test"
+},
+{
+"t": "UFC Announces Qatar Return For November Fight Night",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "Arman Tsarukyan Reveals Why the UFC Won’t Book Ilia Topuria vs. Paddy Pimblett Next",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Jean Silva responds to Bruce Buffer's message after show of respect at Noche UFC 4",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Kai Asakura Promises New Knockout Combination For Aoriqileng At UFC Shanghai",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Open Thread, July 27, 2026: Who is the biggest scene stealer?",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Michael Bisping argues he cannot agree with what ‘people say’ about Kamaru Usman after Dricus du Plessis fight",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "3 Huge Takeaways From UFC 331: Van vs. Pantoja 2, Including Burning Question",
+"kind": "result",
+"acc": [
+"other",
+"result"
+],
+"set": "test"
+},
+{
+"t": "WE USED TO PRAY FOR TIMES LIKE THIS 🙏 @MAKHACHEVMMA vs @IanGarryMMA [ #UFC330 | LIVE NOW on @ParamountPlus ]",
+"kind": "event",
+"acc": [
+"booking",
+"event"
+],
+"set": "test"
+},
+{
+"t": "Justin Gaethje's Next Move",
+"kind": "other",
+"acc": [
+"booking",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Jon Jones reveals why F1 star Lewis Hamilton called him a coward, blocked him on social media",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Dana White heaps praise on incoming Contender Series prospect Bella Mir: ‘A one of one unicorn’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Sean Strickland leaks brutal war of words with Tyron Woodley after Din Thomas criticism",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Francis Ngannou says 'take that loss' after Dana White's most recent disparaging comments",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Arman Tsarukyan vs Charles Oliveira 2 UFC 331 report divides fans: ‘A BMF fight between grapplers?’",
+"kind": "booking",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "UFC 331: Arman Tsarukyan brutally knocks out Mauricio Ruffy, makes thunderous case for title shot",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "Joshua verso il ritorno con un ex allenatore, Till e Romero pronti alla sfida a mani nude | DAZN News Italia",
+"kind": "other",
+"acc": [
+"event",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Rodolfo Bellato returns at UFC Vegas 121 after spine surgery",
+"kind": "booking",
+"acc": [
+"booking",
+"injury"
+],
+"set": "test"
+},
+{
+"t": "Paddy Pimblett: Arman Tsarukyan 'looked pretty sh*t' up until UFC 331 knockout",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "DWCS 88 Highlighted by OKTAGON Champ's Apex Return Tuesday!",
+"kind": "event",
+"acc": [
+"booking",
+"event"
+],
+"set": "test"
+},
+{
+"t": "Ryan Garcia slams ‘jealous’ Terence Crawford: ‘I wanna beat his ass’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "#DWCS results: Kaik Brito def. Namo Fazil via knockout (punch) - Round 3, 0:12 Live coverage: https://mmajunkie.usatoday.com/story/sports/ufc/2026/08…",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "Sean Strickland: UFC champion 'ok but sore' after off-road vehicle crash with no helmet",
+"kind": "injury",
+"acc": [
+"injury",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Valentina Shevchenko To Appear On MTV",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Highlights! Yadier del Valle spoils Darren Elkins’ retirement fight with blistering 35-second knockout &#124; UFC Vegas 120",
+"kind": "result",
+"acc": [
+"result",
+"retirement"
+],
+"set": "test"
+},
+{
+"t": "Van, Tsarukyan Face Clear Paths After UFC 331",
+"kind": "result",
+"acc": [
+"other",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Main Event Preview | UFC Shanghai",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "Highlights! Wint Strangles Chatman For Second Win In 11 Days",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "Islam Makhachev Predicts Who Could Become UFC Welterweight Titleholder After His Reign: \"He'll Become Champion After I'm Done\"",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "UFC Fight Night 289 video: Brady Hiestand first to stop Rinya Nakamura",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "MMA Mania Hosts Open Thread On Music Videos",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Ain’t this what they’ve been waiting for... [ #UFC330 | LIVE SAT AUG 15 | 9pmET on @paramountplus ]",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "UFC 332 Salt Lake City: Delta Center Card, Date, Fighters",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "Colby Covington warns Gable Steveson that there is only one thing that ‘terrible’ Jon Jones ‘cares about’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Jon Jones Endorses Wild Fan Theory About Tom Aspinall Avoiding Ciryl Gane",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "UFC books cop vs. criminal clash as last-minute replacement fight",
+"kind": "withdrawal",
+"acc": [
+"booking",
+"withdrawal"
+],
+"set": "test"
+},
+{
+"t": "Khamzat Chimaev names 4 potential opponents for his next UFC fight",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Machine Gun Kelly mocks Conor McGregor after his brutal UFC 329 injury as he continues historic feud",
+"kind": "callout",
+"acc": [
+"callout",
+"injury"
+],
+"set": "test"
+},
+{
+"t": "Joe Rogan says Ian Machado Garry has a ‘real chance’ of beating Islam Makhachev at UFC 330",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Justin Gaethje Says Both Hands Still Hurt, Plans To Sit Out Rest Of 2026",
+"kind": "injury",
+"acc": [
+"callout",
+"injury"
+],
+"set": "test"
+},
+{
+"t": "Josh Hokit scoffs at Dana White dreading UFC champ possibility: 'He has to say that'",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Dan Hooker on Salahdine Parnasse: ‘This is going to be the first and last time this kid headlines a UFC event’",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Gregory Rodrigues linked with top UFC middleweight to prep for Anthony Hernandez",
+"kind": "other",
+"acc": [
+"booking",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Midnight Mania! Imavov Vs. Strickland At UFC 335?",
+"kind": "booking",
+"acc": [
+"booking"
+],
+"set": "test"
+},
+{
+"t": "Here’s How to Watch UFC 331: Van vs. Pantoja 2 Live Online for Free",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "Anthony Smith books Gamebred Bareknuckle MMA fight following felony domestic violence charges",
+"kind": "booking",
+"acc": [
+"booking",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Bogatyrev Names Eight Fighters Who Could Defeat Tsarukyan",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Matt Brown scoffs at anybody telling Justin Gaethje he should retire now: ‘What we’re doing is prize fighting’",
+"kind": "callout",
+"acc": [
+"callout",
+"retirement"
+],
+"set": "test"
+},
+{
+"t": "Should Uros Medic Been Given a Higher Ranked Opponent at UFC 334?",
+"kind": "other",
+"acc": [
+"booking",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Shanghai gets ready to rumble for a second successive UFC Fight Night",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "Dricus du Plessis called out by UFC Sacramento winner Gregory Rodrigues: \"Where are you?\"",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "New UFC signing sends warning to entire welterweight division",
+"kind": "callout",
+"acc": [
+"callout",
+"signing"
+],
+"set": "test"
+},
+{
+"t": "Mauricio Ruffy opens up about his training with MMA legend Alexander Volkanovski for UFC 331",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Mike Perry releases statement following disastrous Duel Arena loss — ‘More work to do’",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Cejudo Says Makhachev Has More to Prove Before Joining Jon Jones in MMA GOAT Debate",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Dana White reveals Francis Ngannou is the last fighter he wanted to lose",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Jon Jones takes shot at Daniel Cormier amid GOAT debate: ‘Your jealousy runs so deep through your blood’ https://www.mmafighting.com/ufc/505899/jon-j…",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Enhance Raises $18.2M to Scale Gym Personal Training Software in US",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "“Do-or-die”: UFC analyst highlights what’s at stake for Brandon Moreno against Joseph Morales",
+"kind": "callout",
+"acc": [
+"callout",
+"event"
+],
+"set": "test"
+},
+{
+"t": "Dana White’s Contender Series: Alexis Miranda vs Ronald Humphrey Preview & Prediction",
+"kind": "callout",
+"acc": [
+"callout",
+"event"
+],
+"set": "test"
+},
+{
+"t": "Nate Diaz mocks Ilia Topuria for his defeat to Justin Gaethje at UFC Freedom 250",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Pantoja Banks $650K Despite UFC 331 Loss",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "in-5 August 21, 2026: Can you guess this 3-time UFC title challenger in today’s in-5 trivia game?",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Middleweights Headline UFC Vegas 122 in Las Vegas",
+"kind": "event",
+"acc": [
+"booking",
+"event"
+],
+"set": "test"
+},
+{
+"t": "Valesca Machado: 'Tina Black' is the lioness inside the octagon",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Aljamain Sterling Fires Back at UFC Over ‘Disservice’ to Umar Nurmagomedov",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Marlon Vera splits with coach Jason Parillo, now training with rising star",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Dana White Hands Out 6 Contracts After DWCS Week 7",
+"kind": "signing",
+"acc": [
+"result",
+"signing"
+],
+"set": "test"
+},
+{
+"t": "Malakai Black Returns To Ring In First Match Since WWE Exit",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Dana White rules out rumored location for UFC's next 'impossible event'",
+"kind": "event",
+"acc": [
+"callout",
+"event"
+],
+"set": "test"
+},
+{
+"t": "Nate Diaz leaves a brutal comment under Conor McGregor and Ryan Garcia's latest promotional post",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Dade County police officer stays perfect, earns UFC contract on DWCS",
+"kind": "signing",
+"acc": [
+"result",
+"signing"
+],
+"set": "test"
+},
+{
+"t": "Demetrious Johnson Says Arman Tsarukyan Used His Clinch Advice At UFC 331",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Renato Moicano goes off on Brian Ortega after he ‘chickened out’ of UFC 331: ‘Nobody is ever going to trust you again’",
+"kind": "callout",
+"acc": [
+"callout",
+"withdrawal"
+],
+"set": "test"
+},
+{
+"t": "UFC icon who's trained with Khabib Nurmagomedov and Islam Makhachev says one is much better than the other",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Tim Elliott Vs. Edgar Chairez: Noche UFC AI Prediction, Results and Highlights",
+"kind": "result",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Reminder: We are live on the channel immediately after the main event to react to it all! Can't wait to be back. https://www.youtube.com/watch?v=qjrd…",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Until that left-handed hook, not many people knew his name.UFC heavyweight fighter Sean Sharaf faced..",
+"kind": "result",
+"acc": [
+"other",
+"result"
+],
+"set": "test"
+},
+{
+"t": "UFC 329 live blog: Brandon Royval vs. Lone’er Kavanagh",
+"kind": "result",
+"acc": [
+"event",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Tommy McMillen battles fellow undefeated prospect at Noche UFC",
+"kind": "booking",
+"acc": [
+"booking"
+],
+"set": "test"
+},
+{
+"t": "Khaos Williams acknowledges Roberto Soldic's danger ahead of UFC 332",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Jonah Heim Goes 1 for 5, Homers In Win Over Rangers",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Main event fighter out of Noche UFC, replacement named",
+"kind": "withdrawal",
+"acc": [
+"withdrawal"
+],
+"set": "test"
+},
+{
+"t": "Gillian Robertson sees ‘destiny’ in UFC 330 clash with Mackenzie Dern",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Mackenzie Dern Credits Poker For Mindset Shift Ahead Of UFC Title Defense",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Din Thomas retires from cornering fighters after Gillian Robertson's #UFC330 loss https://mmajunkie.usatoday.com/story/sports/ufc/2026/08/16/ufc-330-…",
+"kind": "retirement",
+"acc": [
+"result",
+"retirement"
+],
+"set": "test"
+},
+{
+"t": "Islam Makhachev new GOAT? 'Make it make sense,' says Jon Jones",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Tom Aspinall may never fight again amid latest injury setback, fears Demetrious Johnson: \"He could potentially lose one eye\"",
+"kind": "injury",
+"acc": [
+"callout",
+"injury"
+],
+"set": "test"
+},
+{
+"t": "UFC pulls Mickey Gall from long-awaited return for medical reasons",
+"kind": "withdrawal",
+"acc": [
+"injury",
+"withdrawal"
+],
+"set": "test"
+},
+{
+"t": "Brendan Allen’s Dricus Du Plessis Wish Denied as Christian Leroy Duncan Headliner Set for UFC Vegas 122",
+"kind": "booking",
+"acc": [
+"booking",
+"event"
+],
+"set": "test"
+},
+{
+"t": "UFC 331: Arman Tsarukyan plans to show he's best lightweight in world",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Usman Nurmagomedov rival ‘robbed’ by judges says only 2 UFC lightweights give new free agent problems",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "UFC Shanghai’s Song Yadong believes beating Umar Nurmagomedov guarantees title shot",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "\"I'm getting brought over by Putin\" - Chael Sonnen dispels concerns about his trip to Russia",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Scott Coker reveals new name for MMA organization, launch plans and details for Grand Prix in 2027",
+"kind": "other",
+"acc": [
+"event",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Darren Till tells Daniel Cormier to ‘stop commentating’ in furious rant about UFC Shanghai incident",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Jelly Roll Shocks Fans With Brutal Trump Jokes After Years of People Assuming He Was MAGA",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Dana White changes his tune on Arman Tsarukyan after UFC 331 stunner",
+"kind": "callout",
+"acc": [
+"callout",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Best value bets for UFC 331: Joshua Van vs. Alexandre Pantoja",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Jon Jones shares reaction to former UFC opponent Anthony Smith’s recent arrest",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Gable Steveson boos and accusations hang over burgeoning UFC career",
+"kind": "other",
+"acc": [
+"other",
+"result"
+],
+"set": "test"
+},
+{
+"t": "Jon Jones Believes Tom Aspinall Took Easy Way Out at 265",
+"kind": "callout",
+"acc": [
+"callout",
+"title"
+],
+"set": "test"
+},
+{
+"t": "Islam Makhachev Shares Theory on Conor McGregor’s Knee Injury",
+"kind": "callout",
+"acc": [
+"callout",
+"injury"
+],
+"set": "test"
+},
+{
+"t": "Ilia Topuria told he should fight unranked Islam Makhachev teammate ‘John Pork’ by UFC GOAT",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "UFC champion could be stripped of title due to horror eye injury",
+"kind": "title",
+"acc": [
+"injury",
+"title"
+],
+"set": "test"
+},
+{
+"t": "Noche UFC video: Tommy Gantt taps Drakkar Klose with reverse triangle, rubs it in afterward",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "UFC 330 weigh-in results: 2 title fights set",
+"kind": "event",
+"acc": [
+"event"
+],
+"set": "test"
+},
+{
+"t": "Umar Nurmagomedov reacts after Merab Dvalishvili slaps his friend in street altercation",
+"kind": "callout",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Cris Cyborg Reaches 30 Wins at PFL Tampa, Keeps Retirement Plans Unclear",
+"kind": "result",
+"acc": [
+"result",
+"retirement"
+],
+"set": "test"
+},
+{
+"t": "IT DOESN'T GET MUCH BETTER THAN THIS 👊 Kaik Brito ends #DWCS Week 2 with a VICIOUS RD3 knockout!",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "Tommy McMillen Volunteers For UFC 333 Backup Duty, Targets Volkanovski-Evloev Winner",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Ronda Rousey changes tune by leaving door open for another MMA bout months after successful return",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Conor McGregor provides update on extent of his knee injury, gives timeline for UFC return",
+"kind": "injury",
+"acc": [
+"callout",
+"injury"
+],
+"set": "test"
+},
+{
+"t": "West Ham United vs. Watford Live Stream of English Football League",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Noche UFC results: Brandon Moreno shows off slick striking and grappling to beat Joseph Morales",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "Khamzat Chimaev bemoans lack of fight news in footage from Arman Tsarukyan’s dressing room",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Tom Aspinall UFC return hurdle revealed as medical update issued by insider",
+"kind": "injury",
+"acc": [
+"injury"
+],
+"set": "test"
+},
+{
+"t": "Dana White: Terence Crawford needs 'the right fight' to end retirement",
+"kind": "callout",
+"acc": [
+"callout",
+"retirement"
+],
+"set": "test"
+},
+{
+"t": "Darren Till open to UFC return against Paddy Pimblett despite ongoing criticism of Dana White",
+"kind": "callout",
+"acc": [
+"booking",
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Justin Gaethje still can’t punch over two months after damaging his hands on Ilia Topuria’s face",
+"kind": "injury",
+"acc": [
+"injury"
+],
+"set": "test"
+},
+{
+"t": "Tom Aspinall Denied Medical Clearance for UFC 334 Return",
+"kind": "injury",
+"acc": [
+"injury",
+"withdrawal"
+],
+"set": "test"
+},
+{
+"t": "Former UFC title contender Anthony Smith arrested in Nebraska on three felony charges",
+"kind": "other",
+"acc": [
+"other"
+],
+"set": "test"
+},
+{
+"t": "Conor McGregor Backs Ian Machado Garry to Upset Islam Makhachev at UFC 330",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Keita Calls Out McMillen After Noche UFC Thriller",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Colby Covington Explains Why Carlos Prates and Michael Morales Can’t Beat Islam Makhachev",
+"kind": "callout",
+"acc": [
+"callout"
+],
+"set": "test"
+},
+{
+"t": "Joanderson Brito def. Giga Chikadze, UFC 331: Best photos",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "UFC Paris, The Morning After: Salahdine Parnasse explodes into Lightweight title picture with stunning knockout",
+"kind": "result",
+"acc": [
+"result"
+],
+"set": "test"
+},
+{
+"t": "UFC 329 live blog: Robert Whittaker vs. Nikita Krylov",
+"kind": "result",
+"acc": [
+"event",
+"result"
+],
+"set": "test"
+},
+{
+"t": "The Painful Plight of Tom Aspinall as Brit Officially Vacates UFC Heavyweight Title",
+"kind": "title",
+"acc": [
+"title"
+],
+"set": "test"
+},
+{
+"t": "Could Arman Tsarukyan's Ego Let Him Down at UFC 331?",
+"kind": "other",
+"acc": [
+"callout",
+"other"
+],
+"set": "test"
+},
+{
+"t": "Manon Fiorot vs. Alexa Grasso Officially a Title Eliminator Fight",
+"kind": "booking",
+"acc": [
+"booking",
+"title"
+],
+"set": "test"
+},
+{
+"t": "Mairon Santos withdraws from UFC Paris fight against Nathaniel Wood",
+"kind": "withdrawal",
+"acc": [
+"withdrawal"
+],
+"set": "test"
+},
+{
+"t": "Undefeated Knockout Machine Set to Fight for UFC Contract in Front of Dana White",
+"kind": "booking",
+"acc": [
+"booking",
+"signing"
+],
+"set": "test"
+},
+{
+"t": "\"+PPV™.FREE ! Ways To Watch UFC 331 Live 𝐒𝐭𝐫𝐞𝐚𝐦𝐬 [PPV] and TV Channel",
+"kind": "event",
+"acc": [
+"event",
+"other"
+],
+"set": "test"
+}
+]
+}
