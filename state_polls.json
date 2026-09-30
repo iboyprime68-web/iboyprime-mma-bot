@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 21,
+  "cursor": 22,
   "staged_at": [
-    "2026-09-28T17:43:02.605168+00:00",
     "2026-09-29T15:58:49.988808+00:00",
     "2026-09-29T20:53:39.962726+00:00",
-    "2026-09-30T15:58:30.207487+00:00"
+    "2026-09-30T15:58:30.207487+00:00",
+    "2026-09-30T20:52:05.919574+00:00"
   ],
   "asked": [
-    "Who is the best commentator in UFC history?",
     "Who is the most complete fighter in the UFC right now?",
     "Who wins the UFC 333 trilogy, Yan or Merab?",
     "Who is the baddest dude to ever step in the octagon?",
@@ -47,33 +46,34 @@
     "What is the most painful near miss in UFC history?",
     "Who is the most terrifying UFC fighter to ever step in the octagon?",
     "Who is the most dangerous striker in UFC history?",
-    "What is the most shameless thing a UFC fighter has ever done?"
+    "What is the most shameless thing a UFC fighter has ever done?",
+    "Which loss broke you the most as a fan?"
   ],
   "last_entry": {
-    "q": "What is the most shameless thing a UFC fighter has ever done?",
+    "q": "Which loss broke you the most as a fan?",
     "type": "poll",
     "options": [
       {
-        "label": "Fake glove touch",
-        "emoji": "🤝",
-        "art": "Two fighters touching gloves in a cage, one throwing a left hook, dramatic overhead light, no text, no names"
+        "label": "Aldo 13 seconds",
+        "emoji": "😭",
+        "art": ""
       },
       {
-        "label": "Fake injury",
-        "emoji": "🤕",
-        "art": "A fighter clutching his eye in a cage, winking at the camera, dramatic spotlight, no text, no names"
+        "label": "Ronda vs Holm",
+        "emoji": "😵",
+        "art": ""
       },
       {
-        "label": "Missed weight",
-        "emoji": "⚖️",
-        "art": "A digital scale in a dark locker room showing a weight over the limit, a towel on the floor, no text, no names"
+        "label": "Tony vs Gaethje",
+        "emoji": "🥀",
+        "art": ""
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "🤡",
-        "art": "A clown in a referee shirt holding a UFC belt in a dark octagon, confetti falling, no text, no names"
+        "label": "Max vs Ilia",
+        "emoji": "💔",
+        "art": ""
       }
     ],
-    "gag": "A clown in a referee shirt holding a UFC belt in a dark octagon, confetti falling, no text, no names"
+    "gag": "a chihuahua in a tiny robe being carried to the cage by two huge bodyguards"
   }
 }
