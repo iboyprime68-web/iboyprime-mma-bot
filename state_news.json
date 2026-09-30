@@ -1,5 +1,7 @@
 {
   "seen": {
+    "def0a93865f8f8b3": 1790809166.4646738,
+    "6ee63de08694fdc3": 1790809166.0141141,
     "fcefcd69c6bc217a": 1790809139.722303,
     "048f3abbe076a6db": 1790809114.1897244,
     "0a0ea5ee8368275e": 1790809113.4473455,
@@ -2497,9 +2499,7 @@
     "5bf7282d89f18637": 1790181565.1132152,
     "634e1a47ffc12045": 1790181499.8421159,
     "1abc938b1b00f31b": 1790181434.51928,
-    "563dbbcb722dc8f7": 1790181434.1433303,
-    "5d49b5cfb2e1461a": 1790181369.3076506,
-    "3622b0cbfae6e858": 1790181304.2052474
+    "563dbbcb722dc8f7": 1790181434.1433303
   },
   "initialized": true,
   "v": 4,
@@ -4303,13 +4303,19 @@
       "source": "@UFCNews",
       "ts": "2026-09-30T21:53:00+00:00",
       "cluster": "c62717d98d4"
+    },
+    {
+      "t": "'Prove they are wrong': For UFC 332's Natalia Silva and Wang Cong, the criticism is inescapable",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-30T21:17:19+00:00",
+      "cluster": "c4da9418dc1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T22",
-    15
+    16
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=332311",
