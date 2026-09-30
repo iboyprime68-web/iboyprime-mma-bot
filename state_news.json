@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c0259ef8e922643e": 1790729327.359343,
     "3b1c2bb12d815165": 1790729133.5664127,
     "c75e0a010306f358": 1790729006.2383454,
     "9730e2e53e26510a": 1790728938.2121542,
@@ -2498,18 +2499,11 @@
     "8523ab1a0360b48d": 1790105114.4942229,
     "f129cb74dc78046f": 1790105043.832778,
     "a7b70980237bdd62": 1790105043.331126,
-    "f24f9080f6380d72": 1790105043.3028193,
-    "8765fe3bbaf17cea": 1790104917.7689164
+    "f24f9080f6380d72": 1790105043.3028193
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Justin Gaethje Sets the Record Straight on Ilia Topuria “Quitting” at UFC Freedom 250",
-      "source": "NY Fights",
-      "ts": "2026-09-28T00:48:36+00:00",
-      "cluster": "c4b401d3f61"
-    },
     {
       "t": "UFC Vegas 121: Luis Hernandez Says “People Haven’t Seen 1/8 of What I’m Capable Of”",
       "source": "Cageside Press",
@@ -4261,13 +4255,19 @@
       "source": "MMANews.com",
       "ts": "2026-09-30T00:43:00+00:00",
       "cluster": "cfb5b8bdb12"
+    },
+    {
+      "t": "Dana White's Contender Series Week 8 - Post-Fight Press Conference",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-30T00:35:05+00:00",
+      "cluster": "c6dfeeeb953"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T00",
-    33
+    34
   ],
   "yt_eval": [
     "3ee59e73-dfcf-3176-a61f-a189578f5a31",
