@@ -1,5 +1,7 @@
 {
   "seen": {
+    "f865ecdc00980536": 1790794822.284111,
+    "2dc6c5d6fb37dfdc": 1790794822.0161567,
     "76b9bafb86441584": 1790794799.3506699,
     "3617684fbf8bffce": 1790794799.3462465,
     "8457cc01398ecb44": 1790794799.3420641,
@@ -2497,9 +2499,7 @@
     "ab666bd8079136ff": 1790143444.4923003,
     "6c3aa41c56a1a468": 1790143379.839669,
     "4942649827ac3d48": 1790143379.6014047,
-    "8069dadaac46429f": 1790143379.5745134,
-    "5e84d056b1444d71": 1790143379.5728405,
-    "f7bb8215b38988df": 1790143314.4718986
+    "8069dadaac46429f": 1790143379.5745134
   },
   "initialized": true,
   "v": 4,
@@ -4207,13 +4207,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-30T17:34:27+00:00",
       "cluster": "c91fc9aa877"
+    },
+    {
+      "t": "Gable Steveson needs to stop trying to be Jon Jones, claims MMA coach",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-30T15:30:00+00:00",
+      "cluster": "cc6bb547473"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-09-30T18",
-    7
+    "2026-09-30T19",
+    1
   ],
   "yt_eval": [
     "CBMivAFBVV95cUxPWnk5TVJDZ3J5VDRRU2JjdGZleDFkUmJKUmhmTXNvX3hUcTNLZWpfckUyaHVKb3dSa1g2QjB1LWhTckpzRXdNTG9ETkRyTTNENjFuZldMaHUtUXFxSzFRVVpRVFhnNERaYVBwdzUtdm56V0hIbnVjWE85TTFKdmg4YnZjeEU2dzNwV2lmNXZxMkFHMkZPU01pNi1IWEZqcU1BMnRqYW9SUEZSLW12ZUlVOHJYMkgtSFFwc1ZJbg",
