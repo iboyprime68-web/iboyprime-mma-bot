@@ -1,5 +1,6 @@
 {
   "seen": {
+    "37de2d77ba323573": 1790777666.264828,
     "2e98e651e26cf467": 1790777639.6629777,
     "8e0b65a24f703887": 1790777571.3275054,
     "1b34463e978baf67": 1790777443.8844924,
@@ -2498,8 +2499,7 @@
     "07857b49cb17d150": 1790143113.704126,
     "ac7f32af96db19cd": 1790143113.444336,
     "8e3564a8fb24149b": 1790143049.3655503,
-    "f7062ab10f2b0c4c": 1790142985.5644302,
-    "c51eb088b7f157a9": 1790142920.6786027
+    "f7062ab10f2b0c4c": 1790142985.5644302
   },
   "initialized": true,
   "v": 4,
@@ -4429,13 +4429,19 @@
       "source": "MMANews.com",
       "ts": "2026-09-30T14:13:02+00:00",
       "cluster": "c2cecb9b3df"
+    },
+    {
+      "t": "Couple who lied to cover for Conor McGregor in sexual assault case arrested, charged with perjury",
+      "source": "MMA Mania",
+      "ts": "2026-09-30T14:10:08+00:00",
+      "cluster": "c314b20b157"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T14",
-    5
+    6
   ],
   "yt_eval": [
     "CBMi9wFBVV95cUxQUlE2ZE1vWFNydENtaXgxUkpUaUMxejkzNWUzTEk2bTcwS2dhZi13WUZUUG4tZnFHQXhwaDI2U2k5WlhER25IZF9KNmNnNWlkcFA5T3l3VmhDX3QzRmRzWVl6N0R2ZDk1bkpkMExGOFpzdWo1TDcxSXdZRXBHRGxXdjFoZXJrVnphREFyUUZvcUIwUkJvTlJvWDl6bEd0RWY1VW5LVVhFeHFjNnppVmZ4ZzhLV3I5NUNlTHIyQmNucGNoVkZGbHBuVzBRVmozdmRGOE9oWWh5aUJNWTM3Sy1uWEJPRWE2eFZDRVhaNHc5bDZQdnFhRS1F0gH8AUFVX3lxTE5YdW1LTVM5QVRoWkdmMlN5dGNuQTNwSjdvUWNJd0IxcUR2dnBPQ3oxNUhkZENYZ3V3LUF3SHhrOFEyMUZsN05CU01fWmFkZnplU1NzcndKTlZFNEpxWGQ1dHFSc2RzNnFLNzdGaUFENGRlcml5SnJvWXVMenppVFNFN21ILUFNLWlLYWVnLXBPQTJ3Z2RtZHFSd1B1clZpY2pucVZYZHVhcy12eThURGRjMU8yUFdia2hjNjAxVjRxdVJlRjZTd01kYmpwby1ydkdXOURTUUlndEF1M1F4eDVHLWJKajVsU2hpeGFqeFRzblgyZEwwU2ZOazBQdg",
@@ -6805,22 +6811,16 @@
     "3db070abf94acc76": 1790696207.1506045,
     "407e72ca6ef3056f": 1790696847.106248,
     "66e56f1f60a85d1a": 1790730073.5691943,
-    "af5347bdadd49baf": 1790751140.3970726
+    "af5347bdadd49baf": 1790751140.3970726,
+    "37de2d77ba323573": 1790777665.424458
   },
   "pinged_titles": [
     [
-      "Aleksandre Topuria’s UFC Qatar return officially announced",
-      1790730073.5691943,
+      "Couple who lied to cover for Conor McGregor in sexual assault case arrested, charged with perjury",
+      1790777665.424458,
       [
-        "qatar",
-        "topuria"
-      ]
-    ],
-    [
-      "UFC 334 gets new middleweight matchup after Baisangur Susurkaev withdraws",
-      1790751140.3970726,
-      [
-        "susurkaev"
+        "conor",
+        "couple"
       ]
     ]
   ]
