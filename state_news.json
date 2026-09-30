@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9fc7b161f28a798e": 1790776598.17811,
     "9ee6cda38f0e3099": 1790776531.1172118,
     "92ebfcff9fd6b7e2": 1790776466.8749754,
     "6a0959458af93750": 1790776340.1903832,
@@ -2498,8 +2499,7 @@
     "542ef0ee51f400fb": 1790142090.511859,
     "cbd169c04811bbb5": 1790142066.9509573,
     "f8449b59e5c5e56a": 1790142066.7554,
-    "102ff058e2214c89": 1790142066.748133,
-    "059657d7161e9555": 1790142066.7203135
+    "102ff058e2214c89": 1790142066.748133
   },
   "initialized": true,
   "v": 4,
@@ -4411,13 +4411,19 @@
       "source": "OKTAGON",
       "ts": "2026-09-30T12:59:09+00:00",
       "cluster": "ca1f9eee7ef"
+    },
+    {
+      "t": "PFL: Rhys McKee to face former title challenger Ernesto Rodriguez in February",
+      "source": "BBC",
+      "ts": "2026-09-30T13:02:37+00:00",
+      "cluster": "cf78d301187"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T13",
-    26
+    27
   ],
   "yt_eval": [
     "https://www.mmamania.com/?p=472965",
