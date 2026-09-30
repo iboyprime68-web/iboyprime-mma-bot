@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c239aaec541ee9c7": 1790750019.8166995,
     "dea7f9a2b53baec5": 1790749953.2427,
     "0bd45c620b4ab57f": 1790749952.9559803,
     "93f63785523ebac7": 1790749952.9524145,
@@ -2498,8 +2499,7 @@
     "9e98a7299638607b": 1790115090.2023933,
     "f986550f7e16d5c2": 1790115090.2012682,
     "2277bd4abcf2824a": 1790115090.1998904,
-    "aa85b1e93806dd17": 1790115027.292413,
-    "a0fce24331c41a9f": 1790115026.7412388
+    "aa85b1e93806dd17": 1790115027.292413
   },
   "initialized": true,
   "v": 4,
@@ -4237,13 +4237,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-30T02:29:48+00:00",
       "cluster": "c97aefa338f"
+    },
+    {
+      "t": "Dana White rips 2 DWCS winners, then awards both with UFC contracts",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-30T02:46:37+00:00",
+      "cluster": "c5408cc57e4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T06",
-    11
+    12
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510770",
