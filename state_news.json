@@ -1,5 +1,8 @@
 {
   "seen": {
+    "790154a78d9a6dec": 1790775140.946339,
+    "f296638c72f3aace": 1790775140.5246634,
+    "fb1cd8e7af06908b": 1790775140.4997425,
     "a941f4ae1815276d": 1790775074.0873094,
     "e6c97cc5a114318b": 1790775073.8611693,
     "b135c6672ffbb9fa": 1790775027.6064568,
@@ -2496,10 +2499,7 @@
     "74f0c9fe2f78caa8": 1790124033.6988404,
     "b44314a3ca78b185": 1790123906.7277255,
     "9da5ed5284b13f01": 1790123906.325727,
-    "281c36724c73c2f8": 1790123781.302002,
-    "df0c3dcb1f715b58": 1790123406.7561684,
-    "8f8cf8866af9dc33": 1790123406.4589486,
-    "6098fccf5a579cea": 1790123341.0044208
+    "281c36724c73c2f8": 1790123781.302002
   },
   "initialized": true,
   "v": 4,
@@ -2569,12 +2569,6 @@
       "source": "MMAWeekly.com",
       "ts": "2026-09-28T14:39:24+00:00",
       "cluster": "c5875803e4a"
-    },
-    {
-      "t": "The Mania Mailbag, September 28: Get your questions in now!",
-      "source": "MMA Mania",
-      "ts": "2026-09-28T13:31:24+00:00",
-      "cluster": "c1ab4910255"
     },
     {
       "t": "UFC news: Sean Sharaf credits Conor McGregor after 12-second knockout win over Gable Steveson",
@@ -4327,13 +4321,19 @@
       "source": "Daily Star",
       "ts": "2026-09-30T12:35:00+00:00",
       "cluster": "ce78990a98e"
+    },
+    {
+      "t": "MMA fans react to Alex Pereira's prank inside the cage, as UFC comeback looms on the horizon",
+      "source": "MMA Sucka",
+      "ts": "2026-09-30T12:46:43+00:00",
+      "cluster": "c744a916619"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T13",
-    9
+    10
   ],
   "yt_eval": [
     "c1cd4e7f-6c59-363e-8df6-390953994c35",
