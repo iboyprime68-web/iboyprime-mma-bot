@@ -47,7 +47,7 @@ The loop also git-pulls the checkout ~once a minute so newsconfig.json edits mad
 while the job runs (panel Save & Deploy, /news) apply almost immediately. Free
 because the repo is public. Run locally it is still a single pass.
 """
-import datetime, email.utils, hashlib, time, xml.etree.ElementTree as ET
+import datetime, email.utils, hashlib, json, os, time, xml.etree.ElementTree as ET
 import common, layout, newsconfig, notify, scorer, storykey, ytposts
 
 PACE_PER_CYCLE = 1     # at most ONE realtime post per cycle - never a burst
@@ -259,10 +259,48 @@ def apply_flavor(items, flavor, label):
     return out
 
 
+# ---- X via the Worker's buffer (Sept 30 2026) -------------------------------
+# The Worker polls SocialData every minute for the accounts in x_accounts and keeps the
+# posts in a Durable Object; this source reads them (GET /news/x-feed, WORKER_BOT_KEY).
+# A post becomes an ordinary item, so every gate below applies to it exactly as to an
+# article: promofilter, topicgate (the source is UNTRUSTED), storykey, notify.
+X_HEADLINE_MAX = 150
+X_LOOKBACK_S = 2 * 3600   # every read asks for the last two hours of posts
+
+
+def x_items(payload):
+    """The Worker's {posts: [...]} -> news items, oldest first. Pure (tested).
+    title = the post's first sentence (the push preview), desc = the whole post,
+    link and guid = the original post, source = @handle, image = its first photo."""
+    out = []
+    posts = (payload or {}).get("posts") if isinstance(payload, dict) else None
+    for p in posts if isinstance(posts, list) else []:
+        if not isinstance(p, dict):
+            continue
+        url, handle, text = str(p.get("url") or ""), str(p.get("handle") or ""), common.clean(str(p.get("text") or ""))
+        if not (url.startswith("https://x.com/") and handle and text):
+            continue
+        # a link at the end of a post is the outlet's article: the headline never carries it
+        body = " ".join(w for w in text.split() if not w.startswith(("http://", "https://")))
+        first = body.split(". ")[0].strip() if len(body) > X_HEADLINE_MAX else body
+        try:
+            when = datetime.datetime.fromtimestamp(float(p.get("ts")) / 1000.0, datetime.timezone.utc)
+        except Exception:
+            when = common.now_utc()
+        it = {"guid": url, "title": common.truncate(first or body, X_HEADLINE_MAX), "link": url,
+              "when": when, "undated": False, "desc": common.truncate(body, 700),
+              "display_source": "@" + handle, "x_handle": handle, "x_at": int(p.get("at") or 0)}
+        media = str(p.get("media") or "")
+        if media.startswith("https://pbs.twimg.com/"):
+            it["image"] = media
+        out.append(it)
+    return sorted(out, key=lambda x: x["when"])
+
+
 # flavor -> (tries, timeout). Fragile sources must never stall the 20s cycle:
 # nitter gets ONE try on a short clock, google_news is a search endpoint so it
 # gets a modest budget, plain feeds keep the old patient defaults.
-FETCH_PROFILES = {"nitter": (1, 8), "google_news": (2, 15)}
+FETCH_PROFILES = {"nitter": (1, 8), "google_news": (2, 15), "x_feed": (1, 10)}
 FAIL_BACKOFF = 300     # seconds to sit out a source after a failed fetch
 
 
@@ -272,7 +310,8 @@ def build_message(it, cfg, breaking, ping_role_id):
     plain 'Headline (Source)', no markdown, no URL."""
     cat = newsconfig.classify(it["title"], cfg)
     head = common.truncate(common.strip_markdown(it["title"]), 150)
-    content = "%s (%s)" % (head, it["source"])
+    # an X post reads "text - @handle" (the owner's format); everything else "Headline (Source)"
+    content = ("%s - @%s" % (head, it["x_handle"])) if it.get("x_handle") else "%s (%s)" % (head, it["source"])
     mentions = None                       # None -> common.NO_PINGS default
     if breaking:
         content = "🚨 " + content
@@ -286,6 +325,8 @@ def build_message(it, cfg, breaking, ping_role_id):
              "footer": {"text": "%s · %s" % (it["source"], cat_cfg.get("label", cat))}}
     if it.get("desc"):
         embed["description"] = it["desc"]
+    if it.get("image"):
+        embed["image"] = {"url": it["image"]}
     when = it.get("when")
     if when:
         embed["timestamp"] = when.isoformat()
@@ -431,6 +472,39 @@ def main():
             opts = srcs.get(key, {}) or {}
             flavor = opts.get("flavor", "")
             tries, timeout = FETCH_PROFILES.get(flavor, (4, 30))
+            if flavor == "x_feed":
+                # the Worker's buffer seeds itself (its first answer per query is never
+                # posted), so the one-time backfill never waits on this source
+                if key in (state.get("seed_pending") or ()):
+                    state["seed_pending"] = [k for k in state["seed_pending"] if k != key]
+                    seed_work[0] += 1
+                # the Worker's X buffer: silent without the key (the layer is dormant)
+                xkey = os.environ.get("WORKER_BOT_KEY", "").strip()
+                if not xkey:
+                    next_ok[key] = now_m + 3600
+                    continue
+                # ALWAYS the last two hours, never "newer than what I read": the loop posts one
+                # story a cycle, so a cursor that jumped past a burst dropped the rest of it
+                # until the next job (Sept 30 2026 review). `seen` does the de-duping.
+                since = int((time.time() - X_LOOKBACK_S) * 1000)
+                code, text = common.http(url + "?since=%d" % since, tries=tries, timeout=timeout,
+                                         headers={"Authorization": "Bearer " + xkey})
+                if code != 200:
+                    next_ok[key] = now_m + FAIL_BACKOFF
+                    print("  feed skipped (%s): HTTP %s" % (label, code)); continue
+                next_ok[key] = now_m + float(opts.get("min_poll", 0) or 0)
+                try:
+                    items = x_items(json.loads(text))
+                except Exception:
+                    items = []
+                print("  %s: %d posts" % (label, len(items)))
+                for it in items:
+                    if it["guid"] in seen:
+                        continue
+                    it["source"] = it.get("display_source") or label
+                    it["source_key"] = key
+                    fresh.append(it)
+                continue
             code, text = common.get_text(url, tries=tries, timeout=timeout)
             if code != 200 or not text:
                 next_ok[key] = now_m + FAIL_BACKOFF
@@ -542,6 +616,9 @@ def main():
             scfg = scorer.scoring_config(cfg)
             scfg["breaking_keywords"] = cfg.get("breaking_keywords") or []
             today = common.now_utc().strftime("%Y-%m-%d")
+            # who holds the belts, so a champion's story scores like one
+            # (cached six hours per process; "" leaves the prompt unchanged)
+            scfg["stakes_brief"] = scorer.stakes_brief()
             # THE CAP CHECK COMES FIRST, AND ONLY THEN IS THE GUID BURNED.
             # It used to be the other way round: the guid was appended to yt_eval
             # before under_cap, so once six posts had been staged that day every
@@ -587,6 +664,8 @@ def main():
             sit = dict(it)
             sit["line"] = res.get("line", "")
             sit["hot"] = res.get("hot", [])
+            # the model's story kind picks the poster templates; "" = storykind decides
+            sit["kind"] = res.get("kind", "")
             sit["emphasis"] = cfg.get("emphasis", "auto")
             # the staging memory: rehash junk, stale stories and repeats of a
             # recently staged story/subject stop HERE (the news channel already
