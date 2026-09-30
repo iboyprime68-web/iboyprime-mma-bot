@@ -73,6 +73,14 @@
       "trusted": true,
       "min_poll": 90
     },
+    "x": {
+      "label": "X",
+      "url": "https://iboyprime-commands.root90014.workers.dev/news/x-feed",
+      "enabled": true,
+      "flavor": "x_feed",
+      "trusted": false,
+      "min_poll": 20
+    },
     "bad_left_hook": {
       "label": "Bad Left Hook",
       "url": "https://www.badlefthook.com/rss/current.xml",
@@ -211,6 +219,26 @@
     ]
   },
   "studio_url": "https://iboyprime-commands.root90014.workers.dev/studio",
+  "x_accounts": [
+    "arielhelwani",
+    "bokamotoESPN",
+    "marc_raimondi",
+    "aaronbronsteter",
+    "DamonMartin",
+    "MikeBohnMMA",
+    "MMAjunkieNolan",
+    "JedKMeshew",
+    "guicruzzz",
+    "ufc",
+    "UFCNews",
+    "danawhite",
+    "MMAFighting",
+    "MMAJunkie",
+    "sherdogdotcom",
+    "SpinninBackfist",
+    "ChampRDS",
+    "mma_orbit"
+  ],
   "studio_retention_days": 2,
   "max_per_hour": 6,
   "dedupe_similar": true,
