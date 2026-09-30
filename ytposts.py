@@ -182,7 +182,7 @@ def fighter_cutout(text, hist=None, now=None, days=7):
 # slack; the entries are small and fixed-shape, so the file stays a bounded
 # ~22KB. A selftest derives the requirement from the live config, so raising a
 # cap without raising this fails CI rather than silently shrinking the window.
-STAGED_HIST_CAP = 80
+STAGED_HIST_CAP = 140
 
 GATE_DEFAULTS = {
     "stage_max_age_hours": 36,      # older stories never stage (rehash net #1)
