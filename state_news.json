@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cb9a45e0a2acb63a": 1790808794.0838423,
     "d088ad2b7bf8eee2": 1790808767.652595,
     "e034167bc5630640": 1790797811.0132968,
     "24be970efb43af9a": 1790797747.0256424,
@@ -2498,8 +2499,7 @@
     "7b4423732e1dafea": 1790163944.5242074,
     "ee60f671364e87fc": 1790163880.6340597,
     "818c3eb59d8bb879": 1790163324.1137066,
-    "218a4c962c16dc61": 1790162825.2782192,
-    "ea81e634baf4c849": 1790162700.1548553
+    "218a4c962c16dc61": 1790162825.2782192
   },
   "initialized": true,
   "v": 4,
@@ -4219,13 +4219,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-30T16:11:05+00:00",
       "cluster": "caf2c7afe90"
+    },
+    {
+      "t": "Paddy Pimblett targeting The Ultimate Fighter role against Ilia Topuria: ‘I’d get under his skin so much’",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-30T20:00:00+00:00",
+      "cluster": "c7e0e3b7d40"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T22",
-    1
+    2
   ],
   "yt_eval": [
     "CBMi8AFBVV95cUxPY0F0eTdqaldCWHhFcWFQamIxN3QzdkdpWmgyQU52ZnpRdmdJUjRYZFhIV1FkRFhVUjJRRHRoS1pqcnJXNklWMEEzLVJ2MXRlS2NjRDlfbGtPWUJTX1FOelAwWjAzWnRvM0gyNWN5Ti0wRFlHaEpwUFdGandfRFJ5SWFwQ1ZrLWJnaHI4QzdJSEtubU9iUDJ4TW9ERWpTSXgxTHV6WVJHNkpQQVhnSDV5YldSWHMzcUc0SWttQnY3NEpVbHZ6M29ua0pHSllnX2hHcWh5dmJPSkNSekJCdG5fRXoxVXFUWlhkMTJzVi1LTk8",
