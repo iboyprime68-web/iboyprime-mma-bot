@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1fb45acee02d4073": 1790728476.3104334,
     "8f097592b1a8afc1": 1790728406.745634,
     "24a4f74b98d68381": 1790728338.8509371,
     "a766c1befe0f1f92": 1790728270.109281,
@@ -2498,8 +2499,7 @@
     "c476536047301ebe": 1790104598.3829854,
     "5a0f307a825fc9a3": 1790104534.951163,
     "0e8a3ebdeb697daf": 1790104408.0762336,
-    "b37bacc436a5e418": 1790104283.2466192,
-    "13b276cff25b1a70": 1790104282.9433339
+    "b37bacc436a5e418": 1790104283.2466192
   },
   "initialized": true,
   "v": 4,
@@ -4231,13 +4231,19 @@
       "source": "sherdog.com",
       "ts": "2026-09-30T00:28:22+00:00",
       "cluster": "ca9dc6b694a"
+    },
+    {
+      "t": "Raul Rosas Jr. Aiming to Make History in Wake of TKO",
+      "source": "MMA Sucka",
+      "ts": "2026-09-30T00:30:04+00:00",
+      "cluster": "c2fb52d6a11"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T00",
-    27
+    28
   ],
   "yt_eval": [
     "CBMixAFBVV95cUxQWGhWU1lMcHhMWWtSQUdwTHE1WmNJZVpZU1hVWHRJMTF0U1J6ZkJoOXZidEpzbEpFeDVkV2RrNGZURlQ5YnQ4R0w2WUJLbExveGZvcWVfS25JRW9LclBuQjA0R0VPZGcxcnpqdEk2bkUyN2VpV1BHMkdVWXlDakQ4Vmh0T1VmZzVUTkJRY1lhNzlYRTRmME5oSUpoWEJ2V3R6eDFBUWM1Wmc3WjlUTEhUcVMwdFlmYmNnUnBQNkIzT2puN1ho",
