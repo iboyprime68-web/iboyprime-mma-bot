@@ -203,7 +203,7 @@ check("scoring block ships enabled with sane thresholds",
 # the name is purple" report. 400 is ~$1.2/month at DeepSeek's cached-brief price.
 check("scoring block ships the daily caps: 400 AI calls, 6 staged posts",
       NCFG["scoring"]["max_ai_calls_per_day"] == 400 and
-      NCFG["scoring"]["max_staged_per_day"] == 6)
+      NCFG["scoring"]["max_staged_per_day"] == 12)
 # OWNER RULE, stated twice: coloured words, never underline. He kept receiving
 # underlined posts because the default was the alternating "auto" mode.
 check("emphasis ships as COLOR, never the alternating mode",
@@ -222,12 +222,12 @@ check("the shipped newsconfig.json carries both caps and the emphasis key "
       "(newsconfig.py defaults and the JSON must not drift)",
       _NJSON.get("emphasis") == "color" and
       _NJSON["scoring"]["max_ai_calls_per_day"] == 400 and
-      _NJSON["scoring"]["max_staged_per_day"] == 6)
+      _NJSON["scoring"]["max_staged_per_day"] == 12)
 # -- the priority lane (Sept 3 2026) -----------------------------------------
 check("the priority lane ships in BOTH the py defaults and the json - a key "
       "present in only one of them is silently overridden by deep_merge",
       NCFG["scoring"]["max_priority_staged_per_day"]
-      == _NJSON["scoring"]["max_priority_staged_per_day"] == 5
+      == _NJSON["scoring"]["max_priority_staged_per_day"] == 6
       and NCFG["scoring"]["priority_threshold"]
       == _NJSON["scoring"]["priority_threshold"] == 80)
 import ytposts as _nc_yt
@@ -2005,8 +2005,8 @@ if mod_panel:
                                                    priority_per_day="lots"))
     check("news tab: a blank or junk budget keeps what is configured rather than "
           "silently zeroing the studio",
-          _blank["scoring"]["max_staged_per_day"] == 6
-          and _blank["scoring"]["max_priority_staged_per_day"] == 5)
+          _blank["scoring"]["max_staged_per_day"] == 12
+          and _blank["scoring"]["max_priority_staged_per_day"] == 6)
     check("news tab: max_per_hour is DEAD but still carried, so the save still "
           "passes the validator that checks its range",
           _out["max_per_hour"] == _newscfg["max_per_hour"])
@@ -3722,11 +3722,11 @@ check("the output budget did not grow", scorer.DEFAULTS["max_tokens"] == 220)
 
 # -- daily budget: caps, reset, and a state block that cannot grow ------------
 print("\n[scoring caps]")
-check("DEFAULTS carry all three caps (400 AI calls, 6 routine staged posts, "
-      "5 priority ones)",
+check("DEFAULTS carry all three caps (400 AI calls, 12 routine staged posts, "
+      "6 priority ones)",
       scorer.DEFAULTS["max_ai_calls_per_day"] == 400
-      and scorer.DEFAULTS["max_staged_per_day"] == 6
-      and scorer.DEFAULTS["max_priority_staged_per_day"] == 5)
+      and scorer.DEFAULTS["max_staged_per_day"] == 12
+      and scorer.DEFAULTS["max_priority_staged_per_day"] == 6)
 check("every cap key names a real counter and no two counters share one "
       "(a shared key would silently make one lane spend the other's budget); "
       "'lost' is deliberately capless - it is a tally, not a budget",
