@@ -1,5 +1,7 @@
 {
   "seen": {
+    "affa0c7f5ad4f4c2": 1790777250.4068263,
+    "1a72637c48140bd5": 1790777249.7303817,
     "c73329ec8fd22b87": 1790777123.8847106,
     "1f0cf045e5eea47d": 1790777123.882305,
     "2940b286b9ac5239": 1790777123.8553782,
@@ -2497,9 +2499,7 @@
     "5386a66a42230ac4": 1790142855.7608733,
     "dd11f79e47ad4700": 1790142791.3950374,
     "91f9c5ffc76b737a": 1790142726.7525153,
-    "a0ddf0520698ab25": 1790142726.5460844,
-    "78c966f5037b0c89": 1790142726.5442188,
-    "4109e374d5e4549d": 1790142662.4173114
+    "a0ddf0520698ab25": 1790142726.5460844
   },
   "initialized": true,
   "v": 4,
@@ -4417,13 +4417,19 @@
       "source": "BBC",
       "ts": "2026-09-30T13:55:24+00:00",
       "cluster": "cfea570d46c"
+    },
+    {
+      "t": "UFC Hall of Famer Tito Ortiz closing his Cape Coral restaurant",
+      "source": "The News-Press",
+      "ts": "2026-09-30T14:02:00+00:00",
+      "cluster": "c389d2b46ce"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T14",
-    2
+    3
   ],
   "yt_eval": [
     "CBMioAJBVV95cUxPY2R6RHhfNlF2cm50VVFLbllHZzJ5bGgzZWRpTnFOcjdXTXlHM1hoejhEY3JoakVaUC11RUdoZkcxYnRrdHMwMEFDOG03cC15SF9LdEJVcWZ3MFBVTlZzSkJWVHczNEw5NGpMakZpNS1naE1POVhMTDc3cGZkQzlZdzRYbTEyOVp2SjJkM3djVDhsTmtGUUV1YWkwM1RsM292eUE2cTF5c0F4Zkxhb2pHQllaYldnZ3RibGZ3dzNlUWdQenpEMUYyUTdJM1BKVVAxSzVHeXFwTS1jMXlNd0FmbjhUU0R6b0J6OEZvSWZoUkg0ektEQ1Y4XzNxbGlFaktla2ExQWhuajI5djV5cnNIYnVpY2Zndk9jOUhlVVpmNDDSAaYCQVVfeXFMTkUtUWhZR3ota0UzTEwzQWxOR3NVMFY4SzltSjZKeUdwTy1zdjdIV25YVFgtTVdncWdOelEyNVd6NzVCeUVWREhJNldycm15VDBvNTFHSmRqRlJ5YzZQUmtkNXluU0ZVM1hpdDhTUi1QRVFlSkF5bFktaTM3N19PR1U3dmplM0tlRk5vS3ZNV0lFV2dMRlV6bFVOLThaWHdiV05JaldibU5kTHZvQWswMGpaVHFINFlzYVlBZmxkczlUeklReEVXT1JJWDhKaWZYaGFhenRXMFhvTEV4SmsySl8tTURqLWYyMHBGc2tBZFJvSjVITkx6Q2FNTWFLUDBQS0JPNUlHVGNGdEt3U2JhX0JxN1o5QUloc3hZVXI1dVotS0hqbWp3",
