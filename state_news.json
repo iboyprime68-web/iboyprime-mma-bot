@@ -1,5 +1,7 @@
 {
   "seen": {
+    "702e071893ed7d86": 1790749669.7690363,
+    "8f698c195f83d33e": 1790749669.5462835,
     "6abce9bdb8044a4d": 1790749643.5232167,
     "21d33e5d1eb15804": 1790749617.9442835,
     "e9e739cf5285d3f8": 1790749617.7396362,
@@ -2497,9 +2499,7 @@
     "6eb905bf1176bf77": 1790114642.7829046,
     "cfdb2b7653b3e45b": 1790114642.5123718,
     "8e4d10c4ec24306f": 1790114578.473506,
-    "b46eb0b6d8ee5b08": 1790114578.2316158,
-    "e4d3ce7cf6e88715": 1790114578.2282786,
-    "7ceb1228463f2c20": 1790114514.5518587
+    "b46eb0b6d8ee5b08": 1790114578.2316158
   },
   "initialized": true,
   "v": 4,
@@ -4195,13 +4195,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-30T03:30:00+00:00",
       "cluster": "c466146f21b"
+    },
+    {
+      "t": "Dana White shares health update on Raoni Barcelos",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-30T01:25:55+00:00",
+      "cluster": "c47c0be21a2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T06",
-    3
+    4
   ],
   "yt_eval": [
     "CBMijwFBVV95cUxQZEJSQkNPaHlpbFlmX0c0VTc5WGc1WFZ6XzB0UWVLZjNBZFVibDJqT3doWHp1TUt4OFNkSjlZSmdkLS1qZXV4WldqZGdxLVBXUmlkcmk2cWg3cDgzU2tXZ2ZDSzRPckNqWkVjQ1N6a0FURWtrTEk2QTBvX0dIeVM5V1FKX2JIMFBjSkVSemhVWdIBnwFBVV95cUxNTWxQQnQ1LUhIUE1JaDJ6aTF6TTQyX25OSnI5VHFHRjE4TWhFUXR3RVFpUlYzYTNEdVJKdXV0b2tpMUUxXzZpYXlpMXdUd09TVDk1c3VwT3pDVEJzWV9nWnZKSkM0M3ZyOE5VYzFmYnRfWjZpWWFWX0dlVk11dVo1STZvYWFabU04U1FFbEpjazBIOHJJSm1lUlEzeURKRlk",
