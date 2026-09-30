@@ -1,5 +1,8 @@
 {
   "seen": {
+    "75066eb9ce9d3ec0": 1790729937.1484172,
+    "73e0d06a65c7d60f": 1790729936.82867,
+    "6b219b9468392083": 1790729936.8272443,
     "53fd7fbc0a4a9e64": 1790729869.1640513,
     "d1657f03855a67e2": 1790729801.0691144,
     "9baf17b2324d3d68": 1790729800.6228514,
@@ -2496,10 +2499,7 @@
     "c0eb3d044dfdff22": 1790114256.06504,
     "b8578b69ad7b3f20": 1790114255.8244944,
     "009611fc2a418f37": 1790114255.8228836,
-    "2be8655856dbc494": 1790114255.7972214,
-    "80d8d8ba03b95848": 1790114255.7929854,
-    "22dff2ab7e4d6778": 1790114255.7885427,
-    "51699e76ba183687": 1790114191.9492166
+    "2be8655856dbc494": 1790114255.7972214
   },
   "initialized": true,
   "v": 4,
@@ -4297,13 +4297,19 @@
       "source": "UFC.com",
       "ts": "2026-09-30T00:52:48+00:00",
       "cluster": "ca6fc449d72"
+    },
+    {
+      "t": "UFC DWCS Adama Diop vs Zaurbek Sabanov",
+      "source": "The Daily News | Texas' Oldest Newspaper",
+      "ts": "2026-09-30T00:55:34+00:00",
+      "cluster": "c923c2b89b4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T00",
-    41
+    42
   ],
   "yt_eval": [
     "CBMikAFBVV95cUxNcDA0eEhjNGFVU016Vi0zdl8xQUhQa3BWcWlwYldfZG5SczdrcTVLNldqMW1LY2s5SklwNVkxMi1wWEU3YnVLdHNfRXI3UThnMGYzaUpVT2IwMjBHNVd4N0dlaVhXd0hROHNVOTFUbmRPNUdyZ0ZrMTR2X3RFbjk1S2VaeHVLODE1UUV0RlRDSlY",
