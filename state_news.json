@@ -1,5 +1,7 @@
 {
   "seen": {
+    "d1657f03855a67e2": 1790729801.0691144,
+    "9baf17b2324d3d68": 1790729800.6228514,
     "24a552403e3d2842": 1790729732.2214737,
     "e95c7d75a52d7a8a": 1790729663.8946126,
     "b82573a45b83a4ca": 1790729663.5504777,
@@ -2497,9 +2499,7 @@
     "80d8d8ba03b95848": 1790114255.7929854,
     "22dff2ab7e4d6778": 1790114255.7885427,
     "51699e76ba183687": 1790114191.9492166,
-    "e765687577dd1935": 1790114128.2618542,
-    "4b10e9a77534c8cd": 1790114062.4586303,
-    "11cdaa47fd87c976": 1790114062.2505372
+    "e765687577dd1935": 1790114128.2618542
   },
   "initialized": true,
   "v": 4,
@@ -4285,13 +4285,19 @@
       "source": "MMA Junkie",
       "ts": "2026-09-30T00:51:00+00:00",
       "cluster": "cf6a1dfbcd0"
+    },
+    {
+      "t": "UFC Fight Night Qatar is everything UFC 332 should have been",
+      "source": "The Big Lead",
+      "ts": "2026-09-30T00:51:11+00:00",
+      "cluster": "ce814f8db84"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T00",
-    39
+    40
   ],
   "yt_eval": [
     "CBMihgFBVV95cUxOeElnSWh6WHRDVC02aE1ER2V0RzhDYXRlVnlQZ3RqM3JFVEYzT21Qc05IZk9LOGR0cWhwOHpzdkRhc1VuVGl4VmJkakxRa19IOVZRNFNkLVo2ZDRnRkFNY2w0TXVBSU9DOWd0M055T1dPcFdxV3gtQWFzNllYN2ZFWVIyYk13dw",
