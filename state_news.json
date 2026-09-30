@@ -1,5 +1,8 @@
 {
   "seen": {
+    "af5347bdadd49baf": 1790751140.8684146,
+    "c05806df364ddc3e": 1790751140.3637896,
+    "157932a1c0f7a35a": 1790751140.3622172,
     "7a90eb76e40c576d": 1790751035.975256,
     "c52b66e634f1b311": 1790750972.5350564,
     "8253256894845204": 1790750906.3941126,
@@ -2496,10 +2499,7 @@
     "44ba765fc111e878": 1790122750.429196,
     "71cc333743213584": 1790122685.1549437,
     "c3ac03bb33db5330": 1790122619.654391,
-    "1b1a37218fb26b3e": 1790122619.2603376,
-    "00dddc4fde3c4975": 1790122554.4958503,
-    "0db153f1c32f8c8e": 1790122489.139794,
-    "1901f92498fe524b": 1790122466.0774078
+    "1b1a37218fb26b3e": 1790122619.2603376
   },
   "initialized": true,
   "v": 4,
@@ -4321,13 +4321,19 @@
       "source": "Last Word On Sports",
       "ts": "2026-09-30T06:36:27+00:00",
       "cluster": "cdc4297758a"
+    },
+    {
+      "t": "UFC 334 gets new middleweight matchup after Baisangur Susurkaev withdraws",
+      "source": "Sherdog",
+      "ts": "2026-09-30T06:03:32+00:00",
+      "cluster": "cb117028019"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T06",
-    27
+    28
   ],
   "yt_eval": [
     "CBMiZEFVX3lxTE9RWThPRmVmd1drZkxXdDYxYmhrTmR6bnMtQVR6b2xYQ293Q2RvMmh1X1BONmF1OFpzck9CaUhxR09kd3RsekNhV0d6QjRUMUNTQjBXS3NDWHlXU2YwMDlTdk1NUkE",
@@ -6695,7 +6701,8 @@
     "27c8b1dfc11ade2c": 1790696017.509631,
     "3db070abf94acc76": 1790696207.1506045,
     "407e72ca6ef3056f": 1790696847.106248,
-    "66e56f1f60a85d1a": 1790730073.5691943
+    "66e56f1f60a85d1a": 1790730073.5691943,
+    "af5347bdadd49baf": 1790751140.3970726
   },
   "pinged_titles": [
     [
@@ -6704,6 +6711,13 @@
       [
         "qatar",
         "topuria"
+      ]
+    ],
+    [
+      "UFC 334 gets new middleweight matchup after Baisangur Susurkaev withdraws",
+      1790751140.3970726,
+      [
+        "susurkaev"
       ]
     ]
   ]
