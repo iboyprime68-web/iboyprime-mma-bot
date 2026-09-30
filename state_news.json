@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5464e32a4aa8bd95": 1790775885.98825,
     "799171e7d591d87a": 1790775818.352975,
     "678be62b29a944cf": 1790775794.8238606,
     "89295f96076bbe9a": 1790775749.5053184,
@@ -2498,8 +2499,7 @@
     "1abdeab643f70755": 1790141993.6728942,
     "9d112e2a10d82ff2": 1790141993.206658,
     "a1ea51b5f45fb605": 1790141993.1998906,
-    "3772b0b0d5e74046": 1790141993.1986008,
-    "bcc73725b1d5a199": 1790125416.9483676
+    "3772b0b0d5e74046": 1790141993.1986008
   },
   "initialized": true,
   "v": 4,
@@ -4381,13 +4381,19 @@
       "source": "Sportskeeda",
       "ts": "2026-09-30T13:30:00+00:00",
       "cluster": "c053b33c200"
+    },
+    {
+      "t": "Dana White savagely roasts Contender Series fighter before awarding UFC contract",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-30T13:33:25+00:00",
+      "cluster": "cdd9b227ec4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T13",
-    21
+    22
   ],
   "yt_eval": [
     "https://www.mmamania.com/472806/mania-mailbag-what-do-you-do-with-mvp-and-is-he-a-dirty-fighter",
