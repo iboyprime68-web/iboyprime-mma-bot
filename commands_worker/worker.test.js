@@ -571,10 +571,13 @@ check("parseStaged refuses a non-https image url (it lands in an img src)",
   staged[2].image_url === null);
 // Sept 24 2026: faces, grade and alts joined the contract (photopick's framing,
 // look and the article's other good photos) - seventeen became TWENTY.
+// Sept 30 2026: story (kind, templates, people, event, quote) and renders (the template
+// posters the render job attaches) - twenty became TWENTY-TWO. The Python side pins the
+// fence keys it writes in selftest_changes.py [story kind].
 const STAGED_FIELDS = ["about", "alts", "bg", "caption", "colorway", "faces", "grade", "hot", "id",
-                       "image_url", "line", "photo_kind", "photo_url", "score", "source", "speaker",
-                       "spec", "template", "timestamp", "why"];
-check("parseStaged returns exactly the twenty agreed fields, nothing else",
+                       "image_url", "line", "photo_kind", "photo_url", "renders", "score", "source", "speaker",
+                       "spec", "story", "template", "timestamp", "why"];
+check("parseStaged returns exactly the twenty-two agreed fields, nothing else",
   staged.every(s => JSON.stringify(Object.keys(s).sort()) === JSON.stringify(STAGED_FIELDS)));
 check("spec says whether a post round-trips (fence present), bg is its plate",
   staged[0].spec === false && staged[0].bg === ""
@@ -754,9 +757,13 @@ resetStudioCaches();
 check("a non-snowflake message id is a 404 before any lookup",
   (await withFetch(async () => { throw new Error("must not be called"); },
     async () => await worker.fetch(cookieReq("/studio/api/img/notasnowflake/0", SID), STUDIO_ENV, {}))).status === 404);
-check("only attachment 0 or 1 is reachable",
+// Sept 30 2026: attachments 2-9 are the template posters the render job adds; 10 and up,
+// and anything that is not a single digit, still never reach a lookup
+check("only attachments 0-9 are reachable",
   (await withFetch(async () => { throw new Error("must not be called"); },
-    async () => await worker.fetch(cookieReq("/studio/api/img/1500000000000000009/2", SID), STUDIO_ENV, {}))).status === 404);
+    async () => await worker.fetch(cookieReq("/studio/api/img/1500000000000000009/10", SID), STUDIO_ENV, {}))).status === 404
+  && (await withFetch(async () => { throw new Error("must not be called"); },
+    async () => await worker.fetch(cookieReq("/studio/api/img/1500000000000000009/x", SID), STUDIO_ENV, {}))).status === 404);
 check("a malformed proxy path is a 404, never a fall-through",
   (await withFetch(async () => { throw new Error("must not be called"); },
     async () => await worker.fetch(cookieReq("/studio/api/img/1/2/3", SID), STUDIO_ENV, {}))).status === 404);
@@ -1640,8 +1647,12 @@ if (_pcw) {
   check("no rejected swatch survives anywhere on the page "
     + "(#A45CFF was 'too magenta', #D2ADFF 'too pale', #8A6FFA 'too light')",
     !/A45CFF/i.test(STUDIO_HTML) && !/D2ADFF/i.test(STUDIO_HTML) && !/8A6FFA/i.test(STUDIO_HTML));
-  check("every colorway carries a glyph, like postcard.COLORWAYS",
-    _pcw.CW.length === 5 && _pcw.CW.every(c => typeof c.glyph === "string" && /^#[0-9A-F]{6}$/i.test(c.glyph)));
+  // Sept 30 2026: the first five mirror postcard.COLORWAYS; the templates page's other themes
+  // (ember, pink, violet, crimson, toxic) follow, so one theme drives both pages
+  check("every colorway carries a glyph: postcard's five first, then the templates page's themes",
+    _pcw.CW.length === 10 && _pcw.CW.every(c => typeof c.glyph === "string" && /^#[0-9A-F]{6}$/i.test(c.glyph))
+    && _pcw.CW.slice(0, 5).map(c => c.id).join() === "purple,red,blue,green,gold"
+    && _pcw.CW.slice(5).map(c => c.id).join() === "ember,pink,violet,crimson,toxic");
   // Derived values, computed the same way on both sides.
   // Within one level per channel, not byte-equal: python's round() is banker's
   // rounding and JavaScript's Math.round is half-up, so a blend landing on an
@@ -2075,8 +2086,10 @@ check("fighter photo slugs are strict and the photo host is pinned to UFC's CDNs
   // 5-7. slider, strip, stage
   check("the Look strength slider grades a small working copy while it moves; exports use the full grade",
     /set: function \(v\) \{ state\.lookAmt = v; draftGrade\(\); \}/.test(_spScript)
-    && /function withBlob\(cb\) \{\s*finalGrade\(\);/.test(_spScript)
-    && /finalGrade\(\);\s*drawNow\(\);\s*var item = new ClipboardItem/.test(_spScript));
+    // Sept 30 2026: both exports first wait for a templates-page look still grading (tlSettle)
+    && /function withBlob\(cb\) \{[\s\S]{0,160}tlSettle\(\)\.then\(function \(\) \{\s*finalGrade\(\);/.test(_spScript)
+    && /finalGrade\(\);\s*drawNow\(\);\s*var item = new ClipboardItem/.test(_spScript) === false
+    && /"image\/png": tlSettle\(\)\.then\(function \(\) \{\s*finalGrade\(\); drawNow\(\);/.test(_spScript));
   check("a failed strip photo stops retrying until tapped",
     /if \(!pk\.key && !pk\.loading && !pk\.failed\) preloadPick\(pk\);/.test(_spScript)
     && /\.pickbtn \.ph\.failed\{/.test(STUDIO_HTML));
@@ -2588,8 +2601,10 @@ if (wrangler !== null) {
     !/fetch\("https?:/.test(pscript) && !/<script[^>]+src=/.test(P));
   const ids = (pscript.match(/def\(\{\s*id: "([a-z0-9]+)"/g) || []).map(s => s.replace(/[^]*"([a-z0-9]+)"$/, "$1"));
   const NEW_TPLS = ["headline", "pop", "split", "cards", "titlecards", "photocard"];
-  check("templates page: twenty templates (the fourteen plus the six approved looks), unique ids, each with a draw(), and no Breaking template (owner verdict)",
-    ids.length === 20 && new Set(ids).size === 20 && (pscript.match(/draw: function \(\)/g) || []).length === 20
+  // Sept 30 2026: Main event (the owner's announcement card) makes it twenty-one
+  check("templates page: twenty-one templates (the fourteen, the six approved looks, Main event), unique ids, each with a draw(), and no Breaking template (owner verdict)",
+    ids.length === 21 && new Set(ids).size === 21 && (pscript.match(/draw: function \(\)/g) || []).length === 21
+    && ids.indexOf("mainevent") !== -1
     && ids.indexOf("breaking") === -1 && NEW_TPLS.every(id => ids.indexOf(id) !== -1));
   check("templates page: the painted edge light is still inside the silhouette only (no outer glow, no bloom) and it defaults to OFF",
     /var lam = \(nx \* lx \+ ny \* ly\) \/ dist;/.test(pscript) && /x\.globalCompositeOperation = "destination-in"; x\.drawImage\(hl\.c, 0, 0\);/.test(pscript)
@@ -2598,11 +2613,16 @@ if (wrangler !== null) {
     && /var rimK = 2\.3 \* \(o\.rim == null \? 1 : o\.rim\) \* \(doc\.fx\.rim \|\| 0\);/.test(pscript));
   check("templates page: never a red-versus-blue scheme (owner law)",
     !/CORNER|corners|"red"|"blue"|Red corner|Blue corner/.test(pscript));
-  check("templates page: ONE theme list - ember (the default) first, pink, violet, gold, crimson, toxic; no blue ice, no mono",
-    /var THEME_IDS = \["ember", "pink", "violet", "gold", "crimson", "toxic"\];/.test(pscript)
-    && /var VIVID_ORDER = \["ember", "pink", "violet", "gold", "crimson", "toxic"\];/.test(pscript)
-    && /tpl: "headline", size: "1x1", theme: "ember",/.test(pscript)
-    && !/id: "ice"|"Ice"|id: "mono"/.test(pscript) && /if \(THEME_IDS\.indexOf\(f\.theme\) === -1\) f\.theme = "ember";/.test(pscript)
+  // Sept 30 2026: the owner chose his brand PURPLE as the one default for the studio and the
+  // templates (ember stays one tap away); the purple theme is the brand #6A49EC family
+  check("templates page: ONE theme list - purple (the brand, the default) first, then ember, pink, violet, gold, crimson, toxic; no blue ice, no mono",
+    /var THEME_IDS = \["purple", "ember", "pink", "violet", "gold", "crimson", "toxic"\];/.test(pscript)
+    && /var VIVID_ORDER = \["purple", "ember", "pink", "violet", "gold", "crimson", "toxic"\];/.test(pscript)
+    && /var THEME_ORDER = \["purple", "ember", "pink", "violet", "gold", "crimson", "toxic"\];/.test(pscript)
+    && /tpl: "headline", size: "1x1", theme: "purple",/.test(pscript)
+    && /purple: \{ name: "Purple", a: "#8B70FF", hi: "#C9BBFF", lo: "#5B3DF5", hue: 252\.0/.test(pscript)
+    && /a: "#6A49EC", hi: "#8B70FF"/.test(pscript)
+    && !/id: "ice"|"Ice"|id: "mono"/.test(pscript) && /if \(THEME_IDS\.indexOf\(f\.theme\) === -1\) f\.theme = "purple";/.test(pscript)
     && /function vividTheme\(id\) \{ return VIVID_THEMES\[themeById\(id\)\.id\]/.test(pscript));
   check("templates page: the looks are the approved grades (carved, gritty, pop, vivid, natural); the old darkening grade is gone",
     /\{ id: "carved",\s+name: "Carved",\s+mode: "color" \}/.test(pscript) && /\{ id: "gritty",\s+name: "Gritty",\s+mode: "mono" \}/.test(pscript)
@@ -2649,7 +2669,8 @@ if (wrangler !== null) {
     for (let k = j; k < pscript.length; k++) { if (pscript[k] === "{") d++; else if (pscript[k] === "}") { d--; if (!d) return pscript.slice(i, k + 1); } }
     return "";
   };
-  const H = new Function("var NL = String.fromCharCode(10);" + ["toks", "untoks", "slugify", "splitName", "plain"].map(grab).join("\n")
+  const H = new Function("var NL = String.fromCharCode(10);" + (pscript.match(/var SLUG_FOLD = \{[^}]*\};/) || [""])[0]
+    + ["toks", "untoks", "slugify", "splitName", "plain"].map(grab).join("\n")
     + " return { toks: toks, untoks: untoks, slugify: slugify, splitName: splitName, plain: plain };")();
   const tk = H.toks("I was *robbed.* Big *two words* here");
   check("templates page: *stars* mark highlighted words, a run can span words, punctuation stays",
@@ -3291,6 +3312,393 @@ if (wrangler !== null) {
   check("wrangler.toml documents the cut-out caps and the probe key",
     /STUDIO_CUT_DAILY_CAP/.test(wrangler) && /STUDIO_CUT_HOURLY_CAP/.test(wrangler) && /NEWS_PROBE_KEY/.test(wrangler));
 }
+
+// ----- Sept 30 2026: nothing from the last story may reach the next one -----
+// The owner's screenshot showed "Daniel Cormier" and "Ian Garry" on a Susurkaev
+// withdrawal. Those two were the inputs' PLACEHOLDER examples, not values - but the
+// speaker's inset FACE really did survive a pick, and the quote poster draws it.
+{
+  const grabS = (name) => {
+    const i = _spScript.indexOf("function " + name + "(");
+    if (i === -1) return "";
+    let depth = 0, started = false;
+    for (let j = i; j < _spScript.length; j++) {
+      const c = _spScript[j];
+      if (c === "{") { depth++; started = true; }
+      else if (c === "}") { depth--; if (started && depth === 0) return _spScript.slice(i, j + 1); }
+    }
+    return "";
+  };
+  let R = null;
+  try {
+    R = new Function("var S = { insetDx: 0.31 };" + ["blankSlot", "resetStory", "storyPeople"].map(grabS).join("\n")
+      + " return { resetStory: resetStory, storyPeople: storyPeople };")();
+  } catch (e) { console.log("resetStory extract failed:", e.message); }
+  check("resetStory and storyPeople are extractable and run", !!R);
+  if (R) {
+    const slot = (id) => ({ id, zoom: 2, panX: 5, panY: 6 });
+    const st = {
+      line: "OLD LINE", caption: "old caption", speaker: "Daniel Cormier", source: "ESPN", about: "Ian Garry",
+      hot: { "OLD#0": true }, photo: { id: "a1", zoom: 2, panX: 1, panY: 1, kind: "cutout" },
+      inset: { id: "a2", dx: 0.1, dy: 40, scale: 1.8, shape: "circle" }, left: slot("a3"), right: slot("a4"),
+      versus: { left: "MAKHACHEV", right: "GARRY", event: "UFC 331", date: "Nov 15" },
+      panels: { n: 2, rows: [{ big: "X", small: "Y", chip: "Z", cw: "red", l: slot("a5"), r: slot("a6") }] },
+      textDX: 30, textDY: 20, textScale: 1.4, tpl: { quote: { dx: 9 } },
+      hlMode: "underline", hlColor: "green", aspect: "1:1", lookAmt: 70,
+      stat: { title: "HIS STAT" }, list: { title: "HIS LIST" },
+    };
+    R.resetStory(st);
+    const ids = [st.photo.id, st.inset.id, st.left.id, st.right.id, st.panels.rows[0].l.id, st.panels.rows[0].r.id];
+    check("a pick clears every per-story text field (line, caption, speaker, on, via)",
+      st.line === "" && st.caption === "" && st.speaker === "" && st.about === "" && st.source === "");
+    check("a pick clears every per-story picture: the photo, the speaker's inset face, both matchup photos, the panel photos",
+      ids.every(v => v === null));
+    check("a pick clears the hot words, the matchup names and the text nudges",
+      Object.keys(st.hot).length === 0 && st.versus.left === "" && st.versus.right === "" && st.versus.event === ""
+      && st.textDX === 0 && st.textDY === 0 && st.textScale === 1 && Object.keys(st.tpl).length === 0
+      && st.panels.rows[0].big === "" && st.panels.rows[0].chip === "");
+    check("the owner's preferences survive a pick (highlight style and colour, aspect, look strength, his own stat and list posters, the inset shape)",
+      st.hlMode === "underline" && st.hlColor === "green" && st.aspect === "1:1" && st.lookAmt === 70
+      && st.stat.title === "HIS STAT" && st.list.title === "HIS LIST" && st.inset.shape === "circle");
+    R.storyPeople(st, { people: [{ name: "Ilia Topuria", slug: "ilia-topuria" }, { name: "Charles Oliveira" }], event: "UFC Qatar" });
+    check("the story's two people fill the matchup names (surnames, upper case) and its event",
+      st.versus.left === "TOPURIA" && st.versus.right === "OLIVEIRA" && st.versus.event === "UFC QATAR");
+    const st2 = R.resetStory({ inset: {}, panels: { rows: [] } });
+    R.storyPeople(st2, { people: [{ name: "Solo" }] });
+    check("one person, or none, leaves the matchup names empty (never the last story's)",
+      st2.versus.left === "" && st2.versus.right === "");
+  }
+  const pickSrc = grabS("pickStaged");
+  check("pickStaged clears the story BEFORE it applies anything from the new post",
+    /resetStory\(state\);\s*storyPeople\(state, p\);/.test(pickSrc)
+    && pickSrc.indexOf("resetStory(state)") < pickSrc.indexOf("state.speaker = p.speaker"));
+  check("the attribution inputs no longer carry real fighters' names as placeholders "
+    + "(the owner read the placeholder 'Daniel Cormier' as a leaked value)",
+    !/placeholder="Daniel Cormier"/.test(STUDIO_HTML) && !/placeholder="Ian Garry"/.test(STUDIO_HTML));
+}
+
+// ----- Sept 30 2026: one slug rule for a fighter, in Python and on the page -----
+// storykind.ufc_slug (the news job) and poster_page.js slugify (the templates page)
+// must agree byte for byte, or a staged story names an athlete the page cannot load.
+// The SAME vectors are pinned in selftest_changes.py [story kind].
+const SLUG_VECTORS = [
+  ["Jan Błachowicz", "jan-blachowicz"],
+  ["Jiří Procházka", "jiri-prochazka"],
+  ["Benoît Saint Denis", "benoit-saint-denis"],
+  ["Sean O'Malley", "sean-omalley"],
+  ["Sean O’Malley", "sean-omalley"],
+  ["Ian Machado Garry", "ian-machado-garry"],
+  ["  Jack  Della-Maddalena ", "jack-della-maddalena"],
+  ["Aleksandar Rakić", "aleksandar-rakic"],
+  ["Søren Ægir", "soren-aegir"],
+  ["Straße", "strasse"],
+  ["", ""],
+];
+{
+  const P = _test.POSTER_HTML;
+  const pscript2 = P.slice(P.indexOf("<script>") + 8, P.lastIndexOf("</script>"));
+  const i = pscript2.indexOf("var SLUG_FOLD");
+  const j = pscript2.indexOf("function splitName(");
+  let slug = null;
+  try { slug = new Function(pscript2.slice(i, j) + " return slugify;")(); } catch (e) { console.log("slugify extract failed:", e.message); }
+  check("the page's slugify and its fold table are extractable", typeof slug === "function");
+  if (slug) {
+    const bad = SLUG_VECTORS.filter(([n, want]) => slug(n) !== want);
+    check("slugify matches the shared vectors (the Python side pins the same list)", bad.length === 0);
+    if (bad.length) console.log("  slug mismatches:", bad.map(([n, w]) => n + " -> " + slug(n) + " (want " + w + ")").join("; "));
+  }
+}
+
+// ----- Sept 30 2026: the story fields and the template posters in the staged contract -----
+{
+  const { specStory, stagedRenders, STORY_KINDS } = _test;
+  const STORY_MSG = {
+    id: "1552754821935792999", timestamp: "2026-09-30T08:00:00.000Z", author: AUTHOR,
+    content: "Staged post - score 88 (champion returns)\n```\nTopuria.\n\nvia Yahoo Sports\n#UFC\n```\n```json\n"
+      + JSON.stringify({ line: "TOPURIA RETURNS AT UFC QATAR", hot: ["RETURNS"], source: "Yahoo Sports", template: "news",
+        colorway: "purple", photo: "photo", kind: "booking",
+        templates: ["mainevent", "official", "Official", "../x", "official", "whowins"],
+        people: [{ name: "Ilia Topuria", slug: "ilia-topuria" }, { name: "Charles <b>Oliveira</b>", slug: "../../x" },
+                 { name: "Jan Błachowicz", slug: "jan-blachowicz" }, "Makhachev", { name: "Fifth Person", slug: "fifth-person" }],
+        event: "UFC Qatar", quote: "We're almost there" }) + "\n```",
+    attachments: [{ url: "https://cdn.discordapp.com/attachments/1/2/post.png", filename: "post.png" },
+                  { url: "https://cdn.discordapp.com/attachments/1/2/photo.jpg", filename: "photo.jpg" },
+                  { url: "https://cdn.discordapp.com/attachments/1/2/tpl-official.png", filename: "tpl-official.png" },
+                  { url: "https://evil.example/tpl-whowins.png", filename: "tpl-whowins.png" },
+                  { url: "https://cdn.discordapp.com/attachments/1/2/tpl-cards.png", filename: "tpl-Cards.png" },
+                  { url: "https://cdn.discordapp.com/attachments/1/2/x.png", filename: "notes.png" },
+                  { url: "https://cdn.discordapp.com/attachments/1/2/tpl-headline.png", filename: "tpl-headline.png" }],
+  };
+  const st = parseStaged([STORY_MSG], BOT_ID)[0];
+  check("story: kind, event and quote ride the contract",
+    st.story && st.story.kind === "booking" && st.story.event === "UFC Qatar" && st.story.quote === "We're almost there");
+  check("story: template ids are short lowercase words, de-duplicated, in the bot's order",
+    JSON.stringify(st.story.templates) === JSON.stringify(["mainevent", "official", "whowins"]));
+  check("story: a slug must be a real athlete slug, a name keeps letters only, junk entries are dropped, four at most",
+    JSON.stringify(st.story.people) === JSON.stringify([{ name: "Ilia Topuria", slug: "ilia-topuria" },
+      { name: "Charles bOliveirab" }, { name: "Jan Błachowicz", slug: "jan-blachowicz" }]));
+  check("renders: only attachments 2-9 named tpl-<id>.png on the Discord CDN, as proxy paths",
+    JSON.stringify(st.renders) === JSON.stringify([{ tpl: "official", img: "/studio/api/img/1552754821935792999/2" },
+      { tpl: "headline", img: "/studio/api/img/1552754821935792999/6" }]));
+  check("the page never sees a render's CDN url", !JSON.stringify(st).includes("tpl-official.png"));
+  check("an unknown or missing kind means no story at all, never a guessed one",
+    specStory({ kind: "gossip" }) === null && specStory({}) === null && specStory({ kind: "__proto__" }) === null);
+  check("a post from before Sept 30 has story null and no renders", staged.every(s => s.story === null && Array.isArray(s.renders) && s.renders.length === 0));
+  // Sept 30 2026 review: a WASH post has no raw photo, so its first template poster lands at
+  // attachment 1 - it must count as a render and must never become the photo
+  const WASH = { id: "1552754821935792998", timestamp: "2026-09-30T08:00:00.000Z", author: AUTHOR,
+    content: STORY_MSG.content.replace('"photo":"photo"', '"bg":"arena"'),
+    attachments: [{ url: "https://cdn.discordapp.com/attachments/1/2/post.png", filename: "post.png" },
+                  { url: "https://cdn.discordapp.com/attachments/1/2/tpl-official.png", filename: "tpl-official.png" },
+                  { url: "https://cdn.discordapp.com/attachments/1/2/tpl-headline.png", filename: "tpl-headline.png" }] };
+  const wp = parseStaged([WASH], BOT_ID)[0];
+  check("a wash post's template posters are renders from attachment 1, and none of them is ever the photo",
+    wp.photo_url === null && JSON.stringify(wp.renders.map(r => r.tpl + "@" + r.img.split("/").pop())) === JSON.stringify(["official@1", "headline@2"]));
+  check("stagedRenders survives junk", stagedRenders(null, "1").length === 0 && stagedRenders([null, {}, 5], "1").length === 0);
+  check("the story kinds are the storykind.py list, in its order",
+    JSON.stringify(STORY_KINDS) === JSON.stringify(["title", "retirement", "injury", "withdrawal", "result", "booking",
+      "event", "rankings", "signing", "callout", "other"]));
+  check("the image proxy serves attachments 0-9 (the render job adds 2 and up)",
+    JSON.stringify(_test.STAGED_IMG_IDX) === JSON.stringify(["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]));
+}
+
+// ----- Sept 30 2026: the bots' render session -----
+// tplrender.py signs in with WORKER_BOT_KEY and gets a 20-minute cookie that opens only the
+// routes a render reads. Every other route, and the owner's own session, stay out of reach.
+await (async () => {
+  const { renderToken, renderTokenValid, renderRoute, RENDER_COOKIE, RENDER_TTL_MS } = _test;
+  const BOTKEY = "bot-key-0123456789abcdefghijklmnop";
+  const RENV = Object.assign({}, ENV, { WORKER_BOT_KEY: BOTKEY });
+  const rlogin = (key, method) => worker.fetch(req("/studio/render-login", { method: method || "POST",
+    headers: key === null ? {} : { authorization: "Bearer " + key, "cf-connecting-ip": "10.9.9." + Math.floor(Math.random() * 200) } }), RENV, {});
+  const noKey = await worker.fetch(req("/studio/render-login", { method: "POST", headers: { authorization: "Bearer " + BOTKEY } }), ENV, {});
+  check("render-login is a bare 404 while WORKER_BOT_KEY is unset", noKey.status === 404);
+  const bad = await rlogin("wrong-key-0123456789abcdefghij");
+  check("a wrong key is 401 and sets no cookie", bad.status === 401 && !bad.headers.get("set-cookie"));
+  check("no key at all is 401", (await rlogin(null)).status === 401);
+  check("GET render-login is 405", (await rlogin(BOTKEY, "GET")).status === 405);
+  const good = await rlogin(BOTKEY);
+  const body = await good.json();
+  check("the right key gets a short HttpOnly Strict cookie scoped to /studio",
+    good.status === 200 && body.cookie === RENDER_COOKIE && body.ttl === RENDER_TTL_MS / 1000
+    && /^rsid=[^;]+; HttpOnly; Secure; SameSite=Strict; Path=\/studio; Max-Age=1200$/.test(good.headers.get("set-cookie") || ""));
+  const tok = body.token;
+  const rreq = (path, init) => new Request("https://w.test" + path, Object.assign({}, init, { headers: { cookie: RENDER_COOKIE + "=" + tok } }));
+  check("a render token is valid only with the bot key configured",
+    await renderTokenValid(RENV, tok) === true && await renderTokenValid(ENV, tok) === false);
+  check("a render token never passes as the owner's session (derived key), even under the sid name",
+    await studioTokenValid(RENV, tok) === false
+    && (await worker.fetch(cookieReq("/studio", tok), RENV, {})).status === 200
+    && await (await worker.fetch(cookieReq("/studio", tok), RENV, {})).text() === LOGIN_HTML);
+  const sid = await studioToken(RENV);
+  check("the owner's session never passes as a render token", await renderTokenValid(RENV, sid) === false);
+  check("an expired render token is refused",
+    await renderTokenValid(RENV, await renderToken(RENV, Date.now() - RENDER_TTL_MS - 1000)) === false);
+  const page = await worker.fetch(rreq("/studio/templates"), RENV, {});
+  check("the render session opens the templates page",
+    page.status === 200 && await page.text() === _test.POSTER_HTML);
+  const studioPage = await worker.fetch(rreq("/studio"), RENV, {});
+  check("...but never the owner's editor", await studioPage.text() === LOGIN_HTML);
+  const shut = ["/studio/api/staged", "/studio/api/aikey", "/studio/api/usage", "/studio/api/polls", "/studio/api/gen",
+                "/studio/api/poll", "/studio/lib/index.json", "/studio/api/fighter/tom-aspinall", "/studio/api/limits"];
+  const codes = [];
+  for (const pth of shut) codes.push((await worker.fetch(rreq(pth), RENV, {})).status);
+  check("every route outside the render list stays 401 for a render session", codes.every(c => c === 401));
+  const posts = [];
+  for (const pth of ["/studio/api/cutout", "/studio/api/ai", "/studio/api/gen", "/studio/api/aikey"]) {
+    posts.push((await worker.fetch(rreq(pth, { method: "POST", body: "x" }), RENV, {})).status);
+  }
+  check("no POST at all is open to a render session (it writes nothing, spends nothing)", posts.every(c => c === 401));
+  check("the render route list: reads only, the exact shapes",
+    renderRoute("GET", "/studio/api/ufc/ilia-topuria") && renderRoute("GET", "/studio/api/ufcevent/ufc-334")
+    && renderRoute("GET", "/studio/api/img/1552754821935792999/1") && renderRoute("GET", "/studio/tpl/tape1.png")
+    && !renderRoute("GET", "/studio/api/img/1552754821935792999/3") && !renderRoute("GET", "/studio/api/img/1552754821935792999/0")
+    && !renderRoute("GET", "/studio/api/alt/1552754821935792999/0")
+    && renderRoute("GET", "/studio/bg/smoke") && renderRoute("GET", "/studio/api/ufcevents")
+    && !renderRoute("POST", "/studio/api/ufc/ilia-topuria") && !renderRoute("GET", "/studio/api/img/1/3")
+    && !renderRoute("GET", "/studio/api/ufc/../staged") && !renderRoute("GET", "/studio/api/staged")
+    && !renderRoute("GET", "/studio/tpl/../x.jpg") && !renderRoute("GET", "/studio"));
+  check("the render session is documented in wrangler.toml",
+    wrangler === null || /WORKER_BOT_KEY/.test(wrangler));
+})();
+
+// ----- Sept 30 2026: one theme for the studio and the templates page -----
+{
+  const P2 = _test.POSTER_HTML, S2 = _test.STUDIO_HTML;
+  check("both pages share ONE theme store (localStorage studio.theme.v1) and follow each other's changes",
+    /var THEME_KEY = "studio\.theme\.v1";/.test(P2) && /var THEME_KEY = "studio\.theme\.v1";/.test(S2)
+    && /addEventListener\("storage"/.test(P2) && /addEventListener\("storage"/.test(S2));
+  check("the studio's theme picker offers exactly the templates page's themes, purple first, and saves the choice",
+    /var THEME_IDS = \["purple", "ember", "pink", "violet", "gold", "crimson", "toxic"\];/.test(S2)
+    && /applyTheme\(c\.id\);\s*saveSharedTheme\(\{ id: c\.id \}\);/.test(S2));
+  check("a staged post opens in the OWNER's theme, never the bot's spec colour (the 'colours don't change' bug)",
+    /state\.colorway = themeId\(\);/.test(S2) && !/if \(cwOk\) state\.colorway = p\.colorway;/.test(S2));
+  check("the backdrop under the words has a colour (theme, black, off) and a strength in the Words step",
+    /id="scrimSeg"/.test(S2) && /data-scrim="theme"/.test(S2) && /data-scrim="black"/.test(S2) && /data-scrim="off"/.test(S2)
+    && /id="scrimK" type="range"/.test(S2) && /if \(state\.scrim === "black"\) return "0,0,0";/.test(S2)
+    && /if \(state\.scrim !== "off"\) seamGrad\(/.test(S2));
+  check("the footer bar is drawn on purple posters only (CLAUDE.md 0h) and goes with the backdrop",
+    /if \(state\.colorway !== "purple" \|\| state\.scrim === "off"\) return;/.test(S2));
+  check("the Brand hot swatch follows the theme's glyph (purple stays #6A49EC)",
+    /if \(state\.hlColor === "purple"\) return cwOf\(state\.colorway\)\.glyph;/.test(S2));
+  // the studio -> templates hand-over (A4 / B3)
+  const tplIds = (P2.match(/def\(\{\s*id: "([a-z0-9]+)"/g) || []).map(x => x.replace(/[^]*"([a-z0-9]+)"$/, "$1"));
+  const nm = (S2.match(/var TPL_NAMES = \{([^}]*)\}/) || [])[1] || "";
+  const nmIds = (nm.match(/([a-z0-9]+): "/g) || []).map(x => x.replace(/: "$/, ""));
+  check("every template name the studio shows is a real template on the templates page",
+    nmIds.length >= 20 && nmIds.every(id => tplIds.indexOf(id) !== -1));
+  check("the studio lists a story's templates (its rendered posters first) and links each to the templates page",
+    /id="cardStoryTpl"/.test(S2) && /function buildStoryTpls\(p\)/.test(S2) && /buildStoryTpls\(p\);/.test(S2)
+    && /"\/studio\/templates#s=" \+ mid \+ \(tpl \? "&t=" \+ tpl : ""\)/.test(S2));
+  check("the rail shows a story's best template poster, the news card otherwise",
+    /watchThumb\(ph, \(p\.renders && p\.renders\[0\] && p\.renders\[0\]\.img\) \|\| p\.image\);/.test(S2));
+  check("the templates page opens a #s= story from the studio, fills it, lists the ready templates and uses the link once",
+    /function openStoryFromHash\(\)/.test(P2) && /api\("\/studio\/api\/staged"\)/.test(P2) && /storyFill\(sp\)/.test(P2)
+    && /history\.replaceState\(null, "", location\.pathname \+ location\.search\)/.test(P2)
+    && /id="storyBar"/.test(P2) && /"\/studio#s=" \+ mid/.test(P2));
+  check("a story handed over never also auto-loads the next event, and a headless render never reads the hash",
+    /if \(parsed \|\| fromStory \|\| !list\.length \|\| window\.__postersNoAuto\) return;/.test(P2)
+    && /var fromStory = !RENDER_MODE && openStoryFromHash\(\);/.test(P2));
+  check("a template id is looked up as an OWN key (a crafted #t=constructor cannot become the open template)",
+    /function hasTpl\(id\) \{ return Object\.prototype\.hasOwnProperty\.call\(TPL, id\); \}/.test(P2)
+    && /h\.tpl && hasTpl\(h\.tpl\) \? h\.tpl : ready\[0\]/.test(P2)
+    && /if \(!Object\.prototype\.hasOwnProperty\.call\(TPL, id\) \|\| id === doc\.tpl\) return;/.test(P2)
+    && /Object\.prototype\.hasOwnProperty\.call\(STORY_NEEDS, id\)/.test(P2));
+  check("the templates page writes the shared theme when the owner taps a swatch",
+    /doc\.theme = th\.id; saveSharedTheme\(\{ id: th\.id \}\);/.test(P2));
+}
+
+// ----- Sept 30 2026: the X speed layer (SocialData -> XFeed buffer -> news job) -----
+await (async () => {
+  const { xQueries, xHandles, xPost, xTick, xFeedRead, XFeed, X_QUERY_MAX, SOCIALDATA_SEARCH } = _test;
+  const hs = ["arielhelwani", "bokamotoESPN", "marc_raimondi", "aaronbronsteter", "DamonMartin", "MikeBohnMMA",
+              "MMAjunkieNolan", "JedKMeshew", "guicruzzz", "ufc", "UFCNews", "danawhite", "MMAFighting", "MMAJunkie",
+              "sherdogdotcom", "SpinninBackfist", "ChampRDS", "mma_orbit", "a_b_c_d_e_f_g_h", "x1", "x2", "x3", "x4", "x5",
+              "x6", "x7", "x8", "x9", "y1", "y2", "y3", "y4", "y5", "y6", "y7", "y8", "y9", "z1", "z2", "z3"];
+  const qs = xQueries(hs);
+  check("40 accounts fit two search queries, each under the length cap, replies and reposts filtered by the provider",
+    qs.length === 2 && qs.every(q => q.length <= X_QUERY_MAX && / -filter:replies -filter:retweets$/.test(q))
+    && hs.every(h => qs.join(" ").indexOf("from:" + h + " ") !== -1 || qs.join(" ").indexOf("from:" + h + ")") !== -1));
+  check("x_accounts: valid handles only, @ dropped, case-insensitive duplicates dropped, forty at most",
+    JSON.stringify(xHandles({ x_accounts: ["@ufc", "UFC", "bad handle", "../x", "waytoolonghandle_x", "danawhite"] })) === JSON.stringify(["ufc", "danawhite"])
+    && xHandles({ x_accounts: Array.from({ length: 60 }, (_, i) => "h" + i) }).length === 40 && xHandles(null).length === 0);
+  const T = (o) => Object.assign({ id_str: "1900000000000000001", full_text: "Topuria vs Oliveira is set for UFC 334 in Doha",
+    tweet_created_at: "2026-09-30T10:00:00.000000Z", user: { screen_name: "arielhelwani" } }, o);
+  const p1 = xPost(T({ entities: { media: [{ media_url_https: "https://pbs.twimg.com/media/Gabc123.jpg" }] } }), 1000);
+  check("a post becomes {id, handle, text, ts, url, media}; the url is the original post on x.com",
+    p1 && p1.handle === "arielhelwani" && p1.url === "https://x.com/arielhelwani/status/1900000000000000001"
+    && p1.media === "https://pbs.twimg.com/media/Gabc123.jpg" && p1.ts === Date.parse("2026-09-30T10:00:00.000Z"));
+  check("reposts, replies and malformed posts are dropped; media off twimg is never carried",
+    xPost(T({ retweeted_status: {} }), 1) === null && xPost(T({ in_reply_to_status_id_str: "5" }), 1) === null
+    && xPost(T({ user: { screen_name: "bad name" } }), 1) === null && xPost(T({ full_text: "" }), 1) === null
+    && xPost(T({ entities: { media: [{ media_url_https: "https://evil.example/x.jpg" }] } }), 1).media === "");
+  // a fake Durable Object and a fake SocialData
+  const store = new Map();
+  const obj = new XFeed({ storage: { get: async k => store.get(k), put: async (k, v) => { store.set(k, v); } } });
+  const XENV = { SOCIALDATA_API_KEY: "sd", WORKER_BOT_KEY: "bot-key-0123456789abcdefghijklmnop", GITHUB_TOKEN: "gh",
+                 GITHUB_OWNER: "o", GITHUB_REPO: "r",
+                 XFEED: { idFromName: () => "id", get: () => ({ fetch: (u, init) => obj.fetch(new Request(u, init)) }) } };
+  let tweets = [T({ id_str: "1900000000000000001" })];
+  const seenCalls = [];
+  const handler = async (u, init) => {
+    seenCalls.push(u);
+    if (u.indexOf("newsconfig.json") !== -1) return jsonRes({ x_accounts: ["arielhelwani", "ufc"] });
+    if (u.indexOf(SOCIALDATA_SEARCH) === 0) return jsonRes({ tweets });
+    if (u.indexOf("/dispatches") !== -1) return new Response(null, { status: 204 });
+    return new Response("nf", { status: 404 });
+  };
+  _test.resetNewsCfg();
+  check("no SocialData key: the cron does nothing at all", (await xTick({ XFEED: XENV.XFEED }, 1)).skip === "not configured");
+  const t0 = Date.parse("2026-09-30T10:01:00Z");
+  const r1 = await withFetch(handler, () => xTick(XENV, t0));
+  check("the first answer only SEEDS the since id (days-old posts are not news)",
+    r1.added === 0 && store.get("since:0") === "1900000000000000001" && ((store.get("posts") || []).length === 0));
+  tweets = [T({ id_str: "1900000000000000002", full_text: "BREAKING: Aspinall vacates" })];
+  seenCalls.length = 0;
+  const r2 = await withFetch(handler, () => xTick(XENV, t0 + 60000));
+  check("the next new post is buffered and rings news.yml once (no window was reading)",
+    r2.added === 1 && r2.bell === true && seenCalls.some(u => u.indexOf("since_id%3A1900000000000000001") !== -1)
+    && seenCalls.some(u => u === "https://api.github.com/repos/o/r/actions/workflows/news.yml/dispatches"));
+  tweets = [T({ id_str: "1900000000000000003", full_text: "Another one" })];
+  seenCalls.length = 0;
+  const r3 = await withFetch(handler, () => xTick(XENV, t0 + 120000));
+  check("within ten minutes of a ring the doorbell stays quiet", r3.added === 1 && r3.bell === false
+    && !seenCalls.some(u => u.indexOf("/dispatches") !== -1));
+  const bad = await xFeedRead(new Request("https://w.test/news/x-feed", { headers: { authorization: "Bearer wrong-key-0123456789abcdefghij" } }), XENV, new URL("https://w.test/news/x-feed"));
+  const none = await xFeedRead(new Request("https://w.test/news/x-feed"), XENV, new URL("https://w.test/news/x-feed"));
+  check("the feed is a bare 404 without the right bot key", bad.status === 404 && none.status === 404
+    && (await xFeedRead(new Request("https://w.test/news/x-feed", { headers: { authorization: "Bearer " + XENV.WORKER_BOT_KEY } }), {}, new URL("https://w.test/news/x-feed"))).status === 404);
+  const ok = await xFeedRead(new Request("https://w.test/news/x-feed?since=0", { headers: { authorization: "Bearer " + XENV.WORKER_BOT_KEY } }), XENV, new URL("https://w.test/news/x-feed?since=0"));
+  const body = await ok.json();
+  check("with the key the news job reads the buffered posts, oldest first", ok.status === 200 && body.posts.length === 2
+    && body.posts[0].id === "1900000000000000002" && body.posts[1].id === "1900000000000000003");
+  tweets = [T({ id_str: "1900000000000000004", full_text: "A fourth" })];
+  const r4 = await withFetch(handler, () => xTick(XENV, t0 + 20 * 60000));
+  check("while the news job is reading the buffer the doorbell never rings (a window is running)",
+    r4.added === 1 && r4.bell === false);
+  const { applyNewsChange } = _test;
+  const nc0 = { x_accounts: ["ufc", "danawhite"] };
+  check("/news x add: a valid handle is added once (case-insensitive, @ dropped)",
+    JSON.stringify(applyNewsChange(nc0, "x", "add", { handle: "@arielhelwani" }).x_accounts) === JSON.stringify(["ufc", "danawhite", "arielhelwani"])
+    && JSON.stringify(applyNewsChange(nc0, "x", "add", { handle: "UFC" }).x_accounts) === JSON.stringify(["ufc", "danawhite"]));
+  check("/news x remove drops it, whatever its case",
+    JSON.stringify(applyNewsChange(nc0, "x", "remove", { handle: "DanaWhite" }).x_accounts) === JSON.stringify(["ufc"]));
+  check("/news x refuses a bad handle and a full list, and never mutates the input",
+    applyNewsChange(nc0, "x", "add", { handle: "bad handle" })._refused === "bad-handle"
+    && applyNewsChange({ x_accounts: Array.from({ length: 40 }, (_, k) => "h" + k) }, "x", "add", { handle: "new" })._refused === "x-full"
+    && nc0.x_accounts.length === 2);
+  // the owner's off switch and the back-off (Sept 30 2026 review)
+  _test.resetNewsCfg();
+  const offHandler = async (u) => u.indexOf("newsconfig.json") !== -1
+    ? jsonRes({ x_accounts: ["ufc"], sources: { x: { enabled: false } } }) : new Response("nf", { status: 404 });
+  const offCalls = [];
+  const rOff = await withFetch(async (u, i) => { offCalls.push(u); return offHandler(u, i); }, () => xTick(XENV, t0 + 30 * 60000));
+  check("X switched off in the news settings: no SocialData call, no ring, nothing spent",
+    rOff.skip === "switched off" && !offCalls.some(u => u.indexOf(SOCIALDATA_SEARCH) === 0 || u.indexOf("/dispatches") !== -1));
+  _test.resetNewsCfg();
+  const store2 = new Map();
+  const obj2 = new XFeed({ storage: { get: async k => store2.get(k), put: async (k, v) => { store2.set(k, v); } } });
+  const XENV2 = Object.assign({}, XENV, { XFEED: { idFromName: () => "id", get: () => ({ fetch: (u, init) => obj2.fetch(new Request(u, init)) }) } });
+  store2.set("since:0", "1900000000000000001"); store2.set("bell", t0 - 15 * 60000); store2.set("read", t0 - 60 * 60000);
+  tweets = [T({ id_str: "1900000000000000009", full_text: "Unanswered" })];
+  const calls2 = [];
+  const rBack = await withFetch(async (u, i) => { calls2.push(u); return handler(u, i); }, () => xTick(XENV2, t0));
+  check("a ring the news job never answered backs off to once an hour (never every ten minutes all day)",
+    rBack.added === 1 && rBack.bell === false && !calls2.some(u => u.indexOf("/dispatches") !== -1));
+  check("the route is wired, and wrangler.toml binds the buffer, migrates it and runs the cron every minute",
+    /url\.pathname === "\/news\/x-feed" && request\.method === "GET"/.test(workerSrc)
+    && (wrangler === null || (/name = "XFEED"\s*\nclass_name = "XFeed"/.test(wrangler) && /new_sqlite_classes = \["XFeed"\]/.test(wrangler)
+        && /crons = \["\* \* \* \* \*"\]/.test(wrangler) && /SOCIALDATA_API_KEY/.test(wrangler))));
+})();
+
+// ----- Sept 30 2026: the templates page's looks on the studio's photo layer -----
+await (async () => {
+  const src = _test.looksWorkerSource();
+  let runJob = null, err = "";
+  try { runJob = new Function(src.replace("self.onmessage = ", "var _om = ") + "\nreturn runJob;")(); } catch (e) { err = String(e && e.message || e); }
+  check("the Worker serves the templates page's own grade worker (the same functions, assembled like workerSource)", !!src && !!runJob, err);
+  if (runJob) {
+    const w = 48, h = 60, px = new Uint8ClampedArray(w * h * 4);
+    for (let q = 0; q < px.length; q += 4) { px[q] = 180 + (q % 50); px[q + 1] = 120; px[q + 2] = 90; px[q + 3] = 255; }
+    let out = null;
+    try { out = runJob({ type: "subject", rgba: px, w, h, mode: "color", px: w / 640, face: null, upscale: 1, seed: 7, theme: null,
+                         torsoCap: false, look: null, heal: false, photo: true, fast: false, guard: "purple", adapt: null }); } catch (e) { err = String(e && e.message || e); }
+    check("...and it grades a studio photo in the carved look with the purple guard", !!(out && out.rgba && out.w === w && out.h === h), err);
+  }
+  const SID2 = await studioToken(ENV);
+  const r = await worker.fetch(cookieReq("/studio/api/looks.js", SID2), ENV, {});
+  const r0 = await worker.fetch(req("/studio/api/looks.js"), ENV, {});
+  check("GET /studio/api/looks.js needs the studio session and answers JavaScript",
+    r.status === 200 && /javascript/.test(r.headers.get("content-type") || "") && r0.status === 401);
+  const S3 = _test.STUDIO_HTML;
+  check("the studio offers the five template looks and builds its worker from that route, never a copy of the code",
+    /var TLOOKS = \[/.test(S3) && /"t-carved"/.test(S3) && /"t-vivid"/.test(S3)
+    && /fetch\("\/studio\/api\/looks\.js"/.test(S3) && !/function gritFactory\(/.test(S3) && !/function runJob\(/.test(S3));
+  check("the studio's export waits for a template look still grading", /tlSettle\(\)\.then\(function \(\) \{\s*finalGrade\(\);/.test(S3));
+  check("the studio's guard mirrors the templates page's (cool themes mute a red kit, crimson mutes vivid blue)",
+    /if \(k === "cool" && \(mode === "color" \|\| mode === "natural"\)\) return theme;/.test(S3)
+    && /if \(k === "cool" && \(mode === "color" \|\| mode === "natural"\)\) return id;/.test(_test.POSTER_HTML));
+})();
 
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
 process.exit(fail ? 1 : 0);
