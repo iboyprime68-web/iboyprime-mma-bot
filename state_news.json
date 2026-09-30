@@ -1,5 +1,6 @@
 {
   "seen": {
+    "840121e33f79b5cd": 1790809245.6511729,
     "23f5ad7411a9e402": 1790809218.3165722,
     "7c4102666a81ebef": 1790809217.8700016,
     "94f21f6db56df017": 1790809217.8661077,
@@ -2498,8 +2499,7 @@
     "3d1459d4b94579b4": 1790181693.8711905,
     "50198dad77f6c8ee": 1790181693.6384115,
     "d8cd600865daa89a": 1790181629.1631114,
-    "87dc3eb38e83b90c": 1790181628.72605,
-    "049a9bea21c956a5": 1790181628.7230802
+    "87dc3eb38e83b90c": 1790181628.72605
   },
   "initialized": true,
   "v": 4,
@@ -4315,13 +4315,19 @@
       "source": "@ufc",
       "ts": "2026-09-30T22:02:00+00:00",
       "cluster": "c57603e8f27"
+    },
+    {
+      "t": "Deiveson Figueiredo interested in flyweight return to fight UFC champion Joshua Van: ‘I go out there and knock him out’",
+      "source": "MMA Fighting",
+      "ts": "2026-09-30T21:06:54+00:00",
+      "cluster": "c84a650147e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T23",
-    1
+    2
   ],
   "yt_eval": [
     "d1f5c107-1b79-3ac0-89eb-4fb08a9469f7",
