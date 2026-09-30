@@ -242,6 +242,18 @@ class Chrome:
 
 
 # ---- the Worker ---------------------------------------------------------------
+def render_theme():
+    """The owner's poster colour for the bot's renders: newsconfig scoring.render_theme (Oct 2026).
+    The page keeps its theme in localStorage, which a fresh headless profile never has, so every
+    render came out in the default purple whatever the owner picked."""
+    try:
+        import newsconfig
+        t = str(((newsconfig.load() or {}).get("scoring") or {}).get("render_theme") or "")
+    except Exception:
+        t = ""
+    return t if re.match(r"^[a-z]{3,12}$", t) else "toxic"
+
+
 def render_login(studio_url, key):
     """POST the bot key to /studio/render-login; (cookie name, token) or None."""
     code, text = common.http(studio_url.rstrip("/") + "/render-login", method="POST",
@@ -290,7 +302,9 @@ def render_story(spec, studio_url, key, want=RENDER_MAX, skip=(), budget=JOB_BUD
                                       "sameSite": "Strict"})
         # before the page's own script runs: no auto-loaded event, nothing drawn on screen
         br.send("Page.addScriptToEvaluateOnNewDocument",
-                {"source": "window.__postersNoAuto = true; window.__postersRender = true;"})
+                {"source": "window.__postersNoAuto = true; window.__postersRender = true; "
+                           "try { localStorage.setItem('studio.theme.v1', JSON.stringify({id: %s})); } catch (e) {}"
+                           % json.dumps(render_theme())})
         br.send("Page.navigate", {"url": studio_url.rstrip("/") + "/templates"})
         if not br.wait_for("!!(window.__posters && window.__posters.story)", PAGE_TIMEOUT):
             print("  render: the templates page did not load")
