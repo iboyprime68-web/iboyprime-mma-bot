@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d63a8bb869dff82d": 1790775348.2848587,
     "4cca15778bf19c7c": 1790775281.139322,
     "de5d902588b226e7": 1790775212.8298683,
     "e2017269efd6e478": 1790775167.0266883,
@@ -2498,8 +2499,7 @@
     "cc5abfd0499f96b1": 1790124224.0455935,
     "3a6580e1f929b2e7": 1790124160.272456,
     "23e3ac4f6e74bed0": 1790124160.2693553,
-    "e4d8a7041d6947c1": 1790124034.3004396,
-    "74f0c9fe2f78caa8": 1790124033.6988404
+    "e4d8a7041d6947c1": 1790124034.3004396
   },
   "initialized": true,
   "v": 4,
@@ -4345,13 +4345,19 @@
       "source": "MMANews.com",
       "ts": "2026-09-30T12:48:00+00:00",
       "cluster": "c8588396fc6"
+    },
+    {
+      "t": "Dana White's Contender Series 94: Grading the winners",
+      "source": "mmajunkie.usatoday.com",
+      "ts": "2026-09-30T12:50:00+00:00",
+      "cluster": "cd29b6beab6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T13",
-    13
+    14
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=332179",
