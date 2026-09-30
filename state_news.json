@@ -1,5 +1,9 @@
 {
   "seen": {
+    "21d33e5d1eb15804": 1790749617.9442835,
+    "e9e739cf5285d3f8": 1790749617.7396362,
+    "031e119a103482d8": 1790749617.7355363,
+    "6b1ee75e80e3d0d1": 1790749617.7311776,
     "3e5581608ee5e182": 1790749592.3116016,
     "2dda0709df443083": 1790730274.527942,
     "3bdc970e66c2f2c7": 1790730274.5247915,
@@ -2495,11 +2499,7 @@
     "b46eb0b6d8ee5b08": 1790114578.2316158,
     "e4d3ce7cf6e88715": 1790114578.2282786,
     "7ceb1228463f2c20": 1790114514.5518587,
-    "46a816ae59ba1983": 1790114450.726109,
-    "e2c400443889ae85": 1790114450.313118,
-    "c1e45b6f837a7ff7": 1790114427.5837142,
-    "5815e58538495e4a": 1790114385.3973954,
-    "f3a166195c8c81c5": 1790114321.5594018
+    "46a816ae59ba1983": 1790114450.726109
   },
   "initialized": true,
   "v": 4,
@@ -4183,13 +4183,19 @@
       "source": "Sherdog",
       "ts": "2026-09-30T00:21:28+00:00",
       "cluster": "c6661b4c295"
+    },
+    {
+      "t": "Mikey Musumeci outlines plans to win UFC title once held by Demetrius Johnson after BJJ switch",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-30T02:54:07+00:00",
+      "cluster": "cd71596f29a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T06",
-    1
+    2
   ],
   "yt_eval": [
     "CBMikAJBVV95cUxPU0t1dl9vaGtLU1Rsdjg0cmtpWng5S3BLQjVVREJnR0RvWk5fdXpXS2ZvcVJDcWpPZl8yY1hQcGJHXzhrZlFlWWl2Y0VYQkdva09oQ0J2ay1maGE3OTB2eUVGY3VSSXpaVFRYdDZHaml5cWlNSkdrQkhKQm94a1psUVF6YmRPZXJfSmRWS0hmblhvNHMzWE1qbVlHN1Nya1NVNEdZS2VwX1ppWWMtdTdkSXNOek9ZczhhbWNIQTVtVUFUc2VkSlVZQVZtY2QzWThCX2FkdkVuNmhvNWlqU3U1eTRGTU1GclpVYjVCQXoxTEdxd1NWS1E5aHIxcFVTaG5nbWFBTEc3N0cwNC1xcjRVNNIBlgJBVV95cUxNM2ZxMXNJOHVfcFBoY3VYX0xuWEw1djA5eFFlVlJCQlg5SFhvcE9IUlhNQlczNDJEZTJqMTdIUlhYR2MtMzlsSkFEb3l5Mm40NzBwWHlITThGTnNNRXRxYl9XdlBZaG15dmtxSGtWdDJSN19SNFByMmNoOEZtS1hXNFlMdVRJUWp4OG96ek5TQnpxUFkxZmE3WjRBeHpQMlBraHJoVTdadGZLbmF4RjJHZXpJM1daWExrQ0tpUGtYMHlBTWw0V2RlVU1lR1pGOS1vV3YyYldnUEwtcTkxcmtZR3dfeGdaVF91R3pINjFSTXR4YkprRmM1Y1FVeXlwd1NCd0pnRW9MMF9WWlFrcE1DWl9Jd1RrQQ",
