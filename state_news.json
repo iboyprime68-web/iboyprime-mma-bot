@@ -1,5 +1,6 @@
 {
   "seen": {
+    "235a892468255b06": 1790729527.541811,
     "60c696a46435e3ca": 1790729416.6438577,
     "c0259ef8e922643e": 1790729327.359343,
     "3b1c2bb12d815165": 1790729133.5664127,
@@ -2498,8 +2499,7 @@
     "21b1107d30d53463": 1790105426.6554317,
     "4b6c6456bf9d40b6": 1790105177.8346286,
     "8523ab1a0360b48d": 1790105114.4942229,
-    "f129cb74dc78046f": 1790105043.832778,
-    "a7b70980237bdd62": 1790105043.331126
+    "f129cb74dc78046f": 1790105043.832778
   },
   "initialized": true,
   "v": 4,
@@ -4267,13 +4267,19 @@
       "source": "MMA Fighting",
       "ts": "2026-09-30T00:49:45+00:00",
       "cluster": "c2d0e004a81"
+    },
+    {
+      "t": "Dana White’s Contender Series Week 8 – Winners earn UFC contracts",
+      "source": "MMAWeekly.com",
+      "ts": "2026-09-30T00:47:00+00:00",
+      "cluster": "c60c7a5ac61"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T00",
-    35
+    36
   ],
   "yt_eval": [
     "CBMi1AFBVV95cUxQdGR3SlFXZXRVUm1QM1JUbUEtRjN4TGpFTTE1N1E5MzR6Y0JuNGk2YmM4TWFnZXhZaDdIdWhJV1F2di1rNVhlNy1vMF9LNXQxTFVOZXVZbHF1SW5pRG5ZNlFFNnJ4NlBiUWZla2lYN29sVVVSU2VFRTVDWkE4d3NSTmRZMXI1R2hlSHdFdjVxbjFWLVdqM3R5cC1Jbm5PTUdXaUJieEkwTUJhOWxETDFmLXZ3YnJhVFZ6UUk3QkRORlZnSmNGM0VVcXFkb0drYTVJOEdGWA",
