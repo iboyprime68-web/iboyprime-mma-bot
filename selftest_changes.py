@@ -6319,7 +6319,7 @@ try:
           _xl_new["x_accounts"] == ["ufc", "danawhite", "arielhelwani"])
     check("MOD_PANEL: a form without the X box keeps the configured accounts",
           _xl_mp.collect_news(NCFG, {})["x_accounts"] == NCFG["x_accounts"])
-except SystemExit:
+except (SystemExit, ImportError):  # CI has no mod_panel.py (local-only GUI)
     print("  SKIP: mod_panel needs tkinter")
 _xl_reg = open(os.path.join(_SRC, "register_commands.py"), encoding="utf-8").read()
 check("/news x add|remove is registered for staff",
