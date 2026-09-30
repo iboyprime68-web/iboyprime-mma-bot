@@ -1,5 +1,7 @@
 {
   "seen": {
+    "47e169a786ab346e": 1790809007.935788,
+    "fd90ed7335d6d034": 1790809007.5165129,
     "6c39a601705613ad": 1790808981.596156,
     "7d5ee6e983cad35b": 1790808981.1905334,
     "0b5a4a0a80b1377a": 1790808981.1862228,
@@ -2497,9 +2499,7 @@
     "ea2634ad62a697e2": 1790181108.9751725,
     "3d7c8e5c0847e028": 1790181063.9995208,
     "d3549bfec4f19810": 1790181063.5643878,
-    "ac7ad96ca079bdf8": 1790181039.6071768,
-    "8f06be45a57d839d": 1790181014.4178665,
-    "2cc365f6dd4055d3": 1790180990.051017
+    "ac7ad96ca079bdf8": 1790181039.6071768
   },
   "initialized": true,
   "v": 4,
@@ -4267,13 +4267,19 @@
       "source": "@ufc",
       "ts": "2026-09-30T21:26:30+00:00",
       "cluster": "c9bb3a8c7ce"
+    },
+    {
+      "t": "UFC 332 fight card hit with change three days before event",
+      "source": "Yahoo Sports",
+      "ts": "2026-09-30T20:40:36+00:00",
+      "cluster": "cf63169ec56"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T22",
-    9
+    10
   ],
   "yt_eval": [
     "CBMiqwFBVV95cUxQdU5ZcThpN0s1UTB5cUdCcVlMOFRUVzItOXN3VFBVMXlLQjFHSzEwS1VKay1CYjR3NDBCQzBXbFZSbTF1RVZ0NUFLTzR3SlBUOS1XWDVLb3dQNk5BNV9fSjlOYW92Wkg5VEFxczNUU2VCYUYyUlU1VUNfSWNzRGl2WUs4SFJnaEVsMnNFb054aW04enp6aU8wbXRvSWdBa0NRemZFU3hVaEkzMTg",
