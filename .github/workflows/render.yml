@@ -1,0 +1,35 @@
+name: Studio Templates
+# Sept 30 2026. Renders one staged studio story through the REAL poster templates
+# (commands_worker/poster_page.js) in headless Chrome and attaches up to three finished
+# posters to the staged Discord message (tplrender.py). Dispatched by the news job the
+# moment a story is staged (ytposts.request_render); never on a cron.
+#
+# No concurrency group, on purpose: every run is one message and they never share state,
+# and a group would CANCEL a pending run when the next story arrives - which GitHub mails
+# as "Run failed" (CLAUDE.md 0f). Every failure inside the script is a printed line and
+# exit 0 for the same reason: a missing template poster is not worth an email.
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        description: 'The staged studio message id to render the templates for'
+        required: true
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Render the story's template posters
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          WORKER_BOT_KEY: ${{ secrets.WORKER_BOT_KEY }}
+          # the input reaches the script through the environment, never pasted into the
+          # shell line (a dispatch input is caller text)
+          MESSAGE_ID: ${{ inputs.message }}
+        run: python tplrender.py --message "$MESSAGE_ID" || echo "render skipped"
