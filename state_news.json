@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b0ddb8900529dd72": 1790809192.7408893,
     "def0a93865f8f8b3": 1790809166.4646738,
     "6ee63de08694fdc3": 1790809166.0141141,
     "fcefcd69c6bc217a": 1790809139.722303,
@@ -2498,8 +2499,7 @@
     "049a9bea21c956a5": 1790181628.7230802,
     "5bf7282d89f18637": 1790181565.1132152,
     "634e1a47ffc12045": 1790181499.8421159,
-    "1abc938b1b00f31b": 1790181434.51928,
-    "563dbbcb722dc8f7": 1790181434.1433303
+    "1abc938b1b00f31b": 1790181434.51928
   },
   "initialized": true,
   "v": 4,
@@ -4309,13 +4309,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-09-30T21:17:19+00:00",
       "cluster": "c4da9418dc1"
+    },
+    {
+      "t": "Roberto Soldic hadn't cut to welterweight in 5 years before accepting his #UFC debut at #UFC332: \"I'm ready for this",
+      "source": "@MMAFighting",
+      "ts": "2026-09-30T21:54:39+00:00",
+      "cluster": "cd5745f5301"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T22",
-    16
+    17
   ],
   "yt_eval": [
     "a89a9acf-9dcd-3b59-9c1a-247441dfd7e8",
