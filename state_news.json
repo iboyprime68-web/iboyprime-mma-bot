@@ -1,5 +1,8 @@
 {
   "seen": {
+    "66e56f1f60a85d1a": 1790730073.90366,
+    "b96f2f17448d52fb": 1790730073.5390697,
+    "35b714a74545d722": 1790730073.5369937,
     "51cdaf56fbb4956d": 1790730025.8313942,
     "75066eb9ce9d3ec0": 1790729937.1484172,
     "73e0d06a65c7d60f": 1790729936.82867,
@@ -2496,10 +2499,7 @@
     "df187d6f119af27b": 1790114321.2278693,
     "2df28608c7027e32": 1790114321.2225833,
     "e8f8ff4f857ec765": 1790114298.744972,
-    "1d62ba182d898137": 1790114298.7157743,
-    "c0eb3d044dfdff22": 1790114256.06504,
-    "b8578b69ad7b3f20": 1790114255.8244944,
-    "009611fc2a418f37": 1790114255.8228836
+    "1d62ba182d898137": 1790114298.7157743
   },
   "initialized": true,
   "v": 4,
@@ -4309,13 +4309,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-30T01:00:00+00:00",
       "cluster": "c4702b785e3"
+    },
+    {
+      "t": "Aleksandre Topuria’s UFC Qatar return officially announced",
+      "source": "MMA Sucka",
+      "ts": "2026-09-30T01:00:07+00:00",
+      "cluster": "c92e2674abd"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T01",
-    1
+    2
   ],
   "yt_eval": [
     "CBMic0FVX3lxTE1YU0R1cEdHc0k0N1BXUmU2eklZc0plQ3Q3YjRsVWRIS0VKTlJXelVGejlHaDdDekRackxZWXJ3ajNqUWpPQkh1Mm9Pa0Mxa0ZTOW5BOENVZlh0M0V5U2xpMkV5UXNZeEFGcHdJS3Z2QlktZXM",
@@ -6682,31 +6688,16 @@
     "1dac67080c3609b4": 1790669613.623304,
     "27c8b1dfc11ade2c": 1790696017.509631,
     "3db070abf94acc76": 1790696207.1506045,
-    "407e72ca6ef3056f": 1790696847.106248
+    "407e72ca6ef3056f": 1790696847.106248,
+    "66e56f1f60a85d1a": 1790730073.5691943
   },
   "pinged_titles": [
     [
-      "Khamzat Chimaev books huge title fight that is set to clash with UFC 334",
-      1790696017.509631,
+      "Aleksandre Topuria’s UFC Qatar return officially announced",
+      1790730073.5691943,
       [
-        "chimaev"
-      ]
-    ],
-    [
-      "Jiri Prochazka vs. Navajo Stirling, 8 other fights official for UFC Qatar",
-      1790696207.1506045,
-      [
-        "prochazka",
         "qatar",
-        "stirling"
-      ]
-    ],
-    [
-      "The Painful Plight of Tom Aspinall as Brit Officially Vacates UFC Heavyweight Title",
-      1790696847.106248,
-      [
-        "aspinall",
-        "plight"
+        "topuria"
       ]
     ]
   ]
