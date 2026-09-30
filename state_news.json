@@ -4102,7 +4102,6 @@
     2
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=332111",
     "https://bloodyelbow.com/?p=332114",
     "e0f9972d-4174-3242-9be4-a701bb727975",
     "360e3807-c883-3e6d-9d7d-128b1c212d66",
@@ -5601,24 +5600,17 @@
     "768b5015-be95-3854-84a4-aae4c9223a7b",
     "CBMiuAFBVV95cUxQUHR2SXUta19jT01nZmcyNDJ2YW1FZVJKTnlnOXE5M1VtQkdYRl9wRTJaMEpPeDAyYzl3VTFjS0NwSVhxc2tHR2JqOHNKT1otRk5MTVZGM3hEaVlqUGtEaGdtM04zVGJlQnFlNlE4VGdia3lUdjBha24xR25YMUZBaUlRRXpqeEtIRGNISDNlS3Z1Vnl2OXVQRW9wUmpVRV8zZU14NzlDQzlYZWZJcmtWODY1aURKcHo5",
     "https://bloodyelbow.com/?p=334520",
-    "66ae2f28-80ad-3591-a1c3-dfb8a143aadd"
+    "66ae2f28-80ad-3591-a1c3-dfb8a143aadd",
+    "https://bloodyelbow.com/?p=334482"
   ],
   "daily": {
     "d": "2026-09-30",
-    "ai": 1,
-    "staged": 0,
+    "ai": 2,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-19T03:57:16.510231+00:00",
-      "t": "UFC won't take interim label off Gane's champion status",
-      "names": [
-        "gane"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-19T08:51:16.185063+00:00",
       "t": "Fresno jiu-jitsu instructor Arrested on SA Charges",
@@ -6367,6 +6359,15 @@
       "t": "UFC 334 takes big hit as Khamzat Chimaev’s undefeated teammate withdraws from event",
       "names": [
         "chimaev"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-09-30T00:10:36.476078+00:00",
+      "t": "Josh Hokit has been ‘blocked’ on everything by UFC heavyweight who does not like him one bit",
+      "names": [
+        "hokit",
+        "gane"
       ],
       "img": "photo"
     }
