@@ -54,7 +54,7 @@ DEFAULTS = {
     # purple" report. At DeepSeek's measured ~$0.0001 a call (the brief is a
     # cached prefix) 400 a day is ~$1.2 a month, inside his "nearer 2 pounds".
     "max_ai_calls_per_day": 400,
-    "max_staged_per_day": 6,       # studio posts; over the cap -> skipped
+    "max_staged_per_day": 12,       # studio posts; over the cap -> skipped
     # THE PRIORITY LANE (Sept 3 2026). max_staged_per_day is first-come-first-
     # served, so on a measured day the six slots were spent by 08:35 UTC on six
     # stories the model scored 82-85, and the best headline of the day - the one
@@ -62,7 +62,7 @@ DEFAULTS = {
     # scored. These two keys give the hot tier a budget the routine tier can
     # never consume. See ytposts.is_priority for what "hot" means and why it is
     # the deterministic heuristic rather than the model score.
-    "max_priority_staged_per_day": 5,   # sized against the RESIDUAL, not the rate:
+    "max_priority_staged_per_day": 6,   # sized against the RESIDUAL, not the rate:
                                         # replayed on 700 real stories a cap of
                                         # 3 still refused 0.7 hot stories a day
                                         # and 5 refuses 0.1, for 0.3 extra posts
