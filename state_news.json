@@ -1,5 +1,6 @@
 {
   "seen": {
+    "799171e7d591d87a": 1790775818.352975,
     "678be62b29a944cf": 1790775794.8238606,
     "89295f96076bbe9a": 1790775749.5053184,
     "8a94e51229a018d2": 1790775749.2029936,
@@ -2498,8 +2499,7 @@
     "9d112e2a10d82ff2": 1790141993.206658,
     "a1ea51b5f45fb605": 1790141993.1998906,
     "3772b0b0d5e74046": 1790141993.1986008,
-    "bcc73725b1d5a199": 1790125416.9483676,
-    "94973e58a57ab305": 1790125416.9238107
+    "bcc73725b1d5a199": 1790125416.9483676
   },
   "initialized": true,
   "v": 4,
@@ -4375,13 +4375,19 @@
       "source": "EssentiallySports",
       "ts": "2026-09-30T13:30:00+00:00",
       "cluster": "c8be89278b4"
+    },
+    {
+      "t": "\"Paddy X Ilia\" - Fans react as Ilia Topuria gets back into training after UFC Freedom 250 setback",
+      "source": "Sportskeeda",
+      "ts": "2026-09-30T13:30:00+00:00",
+      "cluster": "c053b33c200"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T13",
-    20
+    21
   ],
   "yt_eval": [
     "ad4ccec5-fe22-3b0c-8f61-09cf073f7c0e",
