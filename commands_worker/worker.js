@@ -338,6 +338,17 @@ function applyNewsChange(newscfg, group, sub, a) {
       // which silently ends both the phone alerts and the studio's priority lane.
       newscfg._refused = "last-breaking";
     } else newscfg[key] = arr.filter(x => x !== w);
+  } else if (group === "x") {
+    // the X accounts the speed layer follows (Sept 30 2026); the Worker's cron reads them
+    const h = String(a.handle || "").trim().replace(/^@/, "");
+    if (!/^[A-Za-z0-9_]{1,15}$/.test(h)) { newscfg._refused = "bad-handle"; return newscfg; }
+    const arr = Array.isArray(newscfg.x_accounts) ? newscfg.x_accounts.slice() : [];
+    const has = arr.some(x => String(x).toLowerCase() === h.toLowerCase());
+    if (sub === "add") {
+      if (!has && arr.length >= 40) { newscfg._refused = "x-full"; return newscfg; }
+      if (!has) arr.push(h);
+    } else arr.splice(0, arr.length, ...arr.filter(x => String(x).toLowerCase() !== h.toLowerCase()));
+    newscfg.x_accounts = arr;
   }
   return newscfg;
 }
@@ -572,6 +583,8 @@ const COMMANDS = {
                + "reach your phone and which get a studio poster, and an empty list quietly switches both off. "
                + "Add a replacement word first, then remove this one.", true);
     }
+    if (updated._refused === "bad-handle") return msg("\u26D4 That isn't an X handle (letters, numbers and _ only, 15 at most).", true);
+    if (updated._refused === "x-full") return msg("\u26D4 The X list is full (40 accounts, all polled every minute). Remove one first.", true);
     delete updated._refused;
     const saved = await saveRepoJson(env, "newsconfig.json", updated, sha, `news: ${group ? group + "/" : ""}${sub}`);
     return msg(saved ? "\u2705 Saved \u2014 the news bot picks it up within ~5 minutes (no restart needed)."
@@ -874,6 +887,101 @@ function cookieValue(request, name) {
 // The one gate every /studio route goes through.
 async function requireStudio(request, env) {
   return await studioTokenValid(env, cookieValue(request, STUDIO_COOKIE), Date.now());
+}
+
+// ---------- /studio: the bots' render session (Sept 30 2026) ----------
+// The news job renders each staged story through the real templates page in headless Chrome
+// (bots_github/tplrender.py). A machine has no business holding the owner's password, so it
+// presents WORKER_BOT_KEY - a separate random secret, set as a Worker secret and as an Actions
+// secret on the bots repo - and gets a SHORT session that opens exactly the routes a render
+// reads (RENDER_ROUTES), nothing that writes, spends a paid API or lists anything but the
+// public UFC data.
+//   * Domain separation. The render token is signed with a key DERIVED for renders
+//     (SHA-256 of the signing key + ":render"), so a render token can never pass as a studio
+//     session and a studio session never passes as a render token, whatever cookie name it
+//     arrives under. The payload also names its scope and both checks read it.
+//   * Short. RENDER_TTL_MS; a render takes a minute or two.
+//   * No key, no route: with WORKER_BOT_KEY unset /studio/render-login is a bare 404.
+const RENDER_COOKIE = "rsid";
+const RENDER_TTL_MS = 20 * 60 * 1000;
+const RENDER_ROUTES = Object.freeze([
+  ["GET", /^\/studio\/templates$/],
+  ["GET", /^\/studio\/api\/ufcevents$/],
+  ["GET", /^\/studio\/api\/ufcevent\/[a-z0-9-]{1,120}$/],
+  ["GET", /^\/studio\/api\/ufc\/[a-z0-9-]{1,60}$/],
+  ["GET", /^\/studio\/api\/ufcimg$/],
+  ["GET", /^\/studio\/tpl\/[a-z0-9]{1,20}\.(?:jpg|png)$/],
+  ["GET", /^\/studio\/bg\/[a-z]{1,20}$/],
+  // the story photo only: a render never reads a poster, a template or the alt proxy
+  ["GET", /^\/studio\/api\/img\/[0-9]{15,21}\/1$/],
+]);
+function renderRoute(method, path) {
+  return RENDER_ROUTES.some(r => r[0] === method && r[1].test(path));
+}
+const _renderKeyCache = new Map();
+async function renderSignKey(env) {
+  const raw = String((env && env.STUDIO_SIGNING_KEY) || "");
+  if (!raw) return null;
+  let p = _renderKeyCache.get(raw);
+  if (!p) {
+    p = sha256Bytes(raw + ":render");
+    p.catch(function () { _renderKeyCache.delete(raw); });
+    if (_renderKeyCache.size > 4) _renderKeyCache.clear();
+    _renderKeyCache.set(raw, p);
+  }
+  return await p;
+}
+async function botKeyOk(env, candidate) {
+  const k = String((env && env.WORKER_BOT_KEY) || "");
+  if (k.length < 24 || typeof candidate !== "string" || !candidate) return false;
+  const a = await sha256Bytes(k), b = await sha256Bytes(candidate);
+  return ctEqBytes(a, b);
+}
+async function renderToken(env, now) {
+  const t = typeof now === "number" ? now : Date.now();
+  const key = await renderSignKey(env);
+  if (!key) return null;
+  const payload = b64url(new TextEncoder().encode(JSON.stringify({ exp: t + RENDER_TTL_MS, scope: "render" })));
+  return payload + "." + await hmacB64url(key, payload);
+}
+async function renderTokenValid(env, token, now) {
+  if (!env || !env.WORKER_BOT_KEY || !env.STUDIO_SIGNING_KEY || typeof token !== "string") return false;
+  const parts = token.split(".");
+  if (parts.length !== 2 || !parts[0] || !parts[1]) return false;
+  let expected;
+  try { expected = await hmacB64url(await renderSignKey(env), parts[0]); } catch (e) { return false; }
+  if (!ctEq(parts[1], expected)) return false;
+  let obj;
+  try { obj = JSON.parse(new TextDecoder().decode(b64urlToBytes(parts[0]))); } catch (e) { return false; }
+  const exp = obj && Number(obj.exp);
+  return !!obj && obj.scope === "render" && Number.isFinite(exp)
+    && exp > (typeof now === "number" ? now : Date.now()) && exp <= (typeof now === "number" ? now : Date.now()) + RENDER_TTL_MS;
+}
+async function requireRender(request, env) {
+  return await renderTokenValid(env, cookieValue(request, RENDER_COOKIE), Date.now());
+}
+async function renderLogin(request, env) {
+  if (!env || !env.WORKER_BOT_KEY) return studioJson({ error: "not found" }, 404);
+  const ip = "render:" + (request.headers.get("cf-connecting-ip") || "?");
+  const now = Date.now();
+  if (loginTooMany(ip, now)) return studioJson({ error: "too many attempts" }, 429);
+  const m = /^Bearer\s+(\S{24,200})$/.exec(String(request.headers.get("authorization") || ""));
+  let ok = false;
+  try { ok = !!m && await botKeyOk(env, m[1]); } catch (e) { ok = false; }
+  if (!ok) {
+    noteLoginFail(ip, now);
+    await sleep(LOGIN_FAIL_DELAY_MS);
+    return studioJson({ error: "sign in failed" }, 401);
+  }
+  clearLoginFails(ip);
+  let token = null;
+  try { token = await renderToken(env, now); } catch (e) { token = null; }
+  if (!token) return studioJson({ error: "could not start a session" }, 503);
+  const ttl = Math.floor(RENDER_TTL_MS / 1000);
+  return new Response(JSON.stringify({ ok: true, cookie: RENDER_COOKIE, token, ttl }), { status: 200,
+    headers: { "content-type": "application/json; charset=utf-8",
+               "set-cookie": RENDER_COOKIE + "=" + token + "; HttpOnly; Secure; SameSite=Strict; Path=/studio; Max-Age=" + ttl,
+               ...STUDIO_HEADERS } });
 }
 // PER ISOLATE, and that is a real limit, not a formality. Cloudflare runs many isolates
 // per colo and many colos worldwide; each one keeps its own Map, so the true ceiling is
@@ -1199,7 +1307,52 @@ function specAlts(meta, mid) {
   });
   return out;
 }
-// PURE: Discord messages -> the studio queue. Exactly the TWENTY contract fields
+// ---- the story the poster templates are filled from (Sept 30 2026) ----
+// ytposts writes kind (storykind.classify), a ranked list of template ids, the people the
+// story names (a full athlete slug only when a full name was known) and the event it
+// mentions. Everything is re-validated here: template ids are short lowercase words, a slug
+// must be a FIGHTER_SLUG, names keep letters, spaces and . ' - only. An unknown kind means
+// the post has no story at all (null), never a guessed one.
+const STORY_KINDS = Object.freeze(["title", "retirement", "injury", "withdrawal", "result", "booking",
+                                   "event", "rankings", "signing", "callout", "other"]);
+const STORY_TPL_RE = /^[a-z0-9]{2,20}$/;
+function specStory(meta) {
+  const kind = metaStr(meta, "kind", 20);
+  if (STORY_KINDS.indexOf(kind) === -1) return null;
+  const tp = own(meta, "templates");
+  const templates = [];
+  for (const t of (Array.isArray(tp) ? tp : [])) {
+    if (typeof t === "string" && STORY_TPL_RE.test(t) && templates.indexOf(t) === -1) templates.push(t);
+    if (templates.length >= 8) break;
+  }
+  const pp = own(meta, "people");
+  const people = [];
+  for (const p of (Array.isArray(pp) ? pp : []).slice(0, 4)) {
+    if (!p || typeof p !== "object" || Array.isArray(p)) continue;
+    const name = (typeof p.name === "string" ? p.name : "").replace(/[^\p{L}\p{M} .'\u2019-]/gu, "")
+      .replace(/\s+/g, " ").trim().slice(0, 60);
+    if (!name) continue;
+    const slug = typeof own(p, "slug") === "string" && FIGHTER_SLUG.test(p.slug) ? p.slug : "";
+    people.push(slug ? { name, slug } : { name });
+  }
+  return { kind, templates, people, event: metaStr(meta, "event", 60), quote: metaStr(meta, "quote", 200) };
+}
+// The finished template posters the render job attached (tplrender.py): attachments 2-9
+// named tpl-<template id>.png. The page gets proxy paths, never the CDN urls.
+const RENDER_FILE_RE = /^tpl-([a-z0-9]{2,20})\.png$/;
+function stagedRenders(atts, mid) {
+  const out = [];
+  (Array.isArray(atts) ? atts : []).forEach((a, i) => {
+    // by FILENAME, from index 1: a wash post has no raw photo, so its first template poster
+    // lands at index 1 (a review found the old "2 and up" rule dropped it)
+    if (i < 1 || i > 9 || !a) return;
+    const m = RENDER_FILE_RE.exec(String(a.filename || ""));
+    if (!m || !discordCdnUrl(typeof a.url === "string" ? a.url : "")) return;
+    out.push({ tpl: m[1], img: stagedImgPath(mid, i) });
+  });
+  return out;
+}
+// PURE: Discord messages -> the studio queue. Exactly the TWENTY-TWO contract fields
 // ever leave the Worker. No author, no member ids, no bot token, nothing from any other
 // channel, and nothing from any other author (see parseStaged).
 // Message shape written by the staging bot: "Staged post - score NN (why)" followed by
@@ -1242,7 +1395,9 @@ function parseStagedOne(m) {
     // rendered from (photo or promo cutout, named by the spec's "photo" key).
     // The studio loads THIS into its editor - never the rendered card, whose
     // text is baked into the pixels. Same CDN gate, same proxy.
-    photo_url: discordCdnUrl(att2Url) ? stagedImgPath(mid, 1) : null,
+    // never a template poster: on a wash post attachment 1 is tpl-<id>.png, and loading it as
+    // the photo would put its baked-in words under the live ones (Sept 30 2026 review)
+    photo_url: discordCdnUrl(att2Url) && !RENDER_FILE_RE.test(String(att2.filename || "")) ? stagedImgPath(mid, 1) : null,
     photo_kind: photoKind === "cutout" ? "cutout" : (photoKind === "photo" ? "photo" : ""),
     template: metaStr(meta, "template", 20),
     colorway: metaStr(meta, "colorway", 20),
@@ -1256,6 +1411,10 @@ function parseStagedOne(m) {
     faces: photoKind === "photo" ? specFaces(meta) : [],
     grade: photoKind === "photo" ? specGrade(meta) : null,
     alts: photoKind === "photo" ? specAlts(meta, mid) : [],
+    // Sept 30 2026: the story (kind, templates, people, event, quote) and the template
+    // posters the render job attached to this message
+    story: specStory(meta),
+    renders: stagedRenders(atts, mid),
   };
 }
 // `botId` is REQUIRED and the filter fails closed without it. The staging channel is a
@@ -1316,14 +1475,15 @@ async function studioStaged(env) {
 // is locked the same three ways as the staged list: only the configured studio
 // channel, only messages authored by this bot, and only attachment 0 or 1 -
 // no other channel, author or file is reachable through this route.
-const STAGED_IMG_IDX = Object.freeze(["0", "1"]);
+// 0 = the poster, 1 = the raw photo, 2-9 = the template posters the render job adds later
+const STAGED_IMG_IDX = Object.freeze(["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]);
 let _imgMsgCache = Object.create(null);   // message id -> {at, atts} per isolate
 const IMG_MSG_CACHE_CAP = 64;
 async function studioImg(env, mid, idx) {
   if (!isSnowflake(mid) || STAGED_IMG_IDX.indexOf(idx) === -1) {
     return studioJson({ error: "not found" }, 404);
   }
-  const got = await loadStagedMsg(env, mid);
+  const got = await loadStagedMsg(env, mid, Number(idx));
   if (got.res) return got.res;
   const att = got.hit.atts[Number(idx)];
   const u = att ? discordCdnUrl(att.url) : null;
@@ -1360,7 +1520,7 @@ function rasterResponse(up, rawType) {
 // the same three ways as the staged list: only the configured studio channel,
 // only messages authored by this bot, and a snowflake id. Returns { hit } with
 // { at, atts: [{url, ct}], content } or { res } holding the error Response.
-async function loadStagedMsg(env, mid) {
+async function loadStagedMsg(env, mid, needIdx) {
   if (!env.DISCORD_BOT_TOKEN) return { res: studioJson({ error: "the worker needs the DISCORD_BOT_TOKEN secret" }, 503) };
   const cfg = await botsConfig(env);
   const ch = ((cfg || {}).channels || {}).studio;
@@ -1369,7 +1529,10 @@ async function loadStagedMsg(env, mid) {
   if (!me) return { res: studioJson({ error: "could not identify the bot user" }, 502) };
   const now = Date.now();
   let hit = _imgMsgCache[String(mid)];
-  if (!hit || now - hit.at > 3600000) {                // 1 h: the CDN url is
+  // the render job ADDS attachments to a staged message minutes after it was posted: a
+  // cached copy from before that has no entry at the index asked for, so it is re-read once
+  const stale = hit && typeof needIdx === "number" && needIdx >= hit.atts.length && now - hit.at > 20000;
+  if (!hit || stale || now - hit.at > 3600000) {                // 1 h: the CDN url is
                                                       // re-derived on every hit,
                                                       // so a longer cache costs
                                                       // nothing and removes a
@@ -3269,6 +3432,10 @@ async function studioRouter(request, env, url) {
     if (request.method !== "POST") return studioJson({ error: "method not allowed" }, 405);
     return await studioLogin(request, env);
   }
+  if (path === "/studio/render-login") {
+    if (request.method !== "POST") return studioJson({ error: "method not allowed" }, 405);
+    return await renderLogin(request, env);
+  }
   if (path === "/studio/logout") {
     if (request.method !== "POST") return studioJson({ error: "method not allowed" }, 405);
     return new Response(JSON.stringify({ ok: true }), { status: 200,
@@ -3277,6 +3444,8 @@ async function studioRouter(request, env, url) {
   }
 
   const authed = await requireStudio(request, env);
+  // the bots' render session opens RENDER_ROUTES and nothing else (see renderLogin)
+  const renderOk = !authed && renderRoute(request.method, path) && await requireRender(request, env);
   // The only unauthenticated page: the gate itself. The editor is never sent to a
   // request that has not proven it knows the password.
   if (path === "/studio" && request.method === "GET") {
@@ -3284,9 +3453,9 @@ async function studioRouter(request, env, url) {
   }
   // the poster templates page: same gate, same login page (which returns here)
   if (path === "/studio/templates" && request.method === "GET") {
-    return studioHtml(authed ? POSTER_HTML : LOGIN_HTML);
+    return studioHtml(authed || renderOk ? POSTER_HTML : LOGIN_HTML);
   }
-  if (!authed) return studioJson({ error: "unauthorized" }, 401);
+  if (!authed && !renderOk) return studioJson({ error: "unauthorized" }, 401);
 
   if (path === "/studio/api/staged" && request.method === "GET") return await studioStaged(env);
   if (path.indexOf("/studio/api/img/") === 0 && request.method === "GET") {
@@ -3329,10 +3498,222 @@ async function studioRouter(request, env, url) {
   if (path === "/studio/api/poll" && request.method === "GET") return await studioPoll(env);
   if (path === "/studio/api/usage" && request.method === "GET") return await studioUsage(env);
   if (path === "/studio/api/limits" && request.method === "GET") return studioJson(STUDIO_LIMITS, 200);
+  if (path === "/studio/api/looks.js" && request.method === "GET") {
+    const src = looksWorkerSource();
+    if (!src) return studioJson({ error: "looks unavailable" }, 503);
+    return new Response(src, { status: 200, headers: { "content-type": "text/javascript; charset=utf-8",
+      "cache-control": "private, max-age=3600", "x-content-type-options": "nosniff", "referrer-policy": "no-referrer" } });
+  }
   return studioJson({ error: "not found" }, 404);
 }
 
+// ---------- the approved looks, served to the studio (Sept 30 2026) ----------
+// The studio's photo layer offers the templates page's grades (carved, gritty, pop, vivid,
+// natural). It runs them in a Web Worker built from THIS text: the very functions
+// poster_page.js workerSource() hands its own workers (gritFactory, the helpers, vividLib,
+// runJob, workerOnMessage), cut out of POSTER_HTML once per isolate. One code, two pages.
+const LOOKS_FNS = ["clamp", "lerp", "smooth", "boxBlur", "vividLib", "runJob", "workerOnMessage"];
+function pageFn(src, name) {
+  const i = src.indexOf("function " + name + "(");
+  if (i === -1) return "";
+  let d = 0;
+  for (let k = src.indexOf("{", i); k < src.length; k++) {
+    if (src[k] === "{") d++;
+    else if (src[k] === "}") { d--; if (!d) return src.slice(i, k + 1); }
+  }
+  return "";
+}
+let _looksSrc = null;
+function looksWorkerSource() {
+  if (_looksSrc !== null) return _looksSrc;
+  const sc = POSTER_HTML.slice(POSTER_HTML.indexOf("<script>") + 8, POSTER_HTML.lastIndexOf("</script>"));
+  const parts = LOOKS_FNS.map(n => pageFn(sc, n)), grit = pageFn(sc, "gritFactory");
+  if (!grit || parts.some(x => !x)) { _looksSrc = ""; return _looksSrc; }
+  _looksSrc = ["var GRIT = (" + grit + ")();"].concat(parts.slice(0, 5), ["var GVL = vividLib();", parts[5],
+    "self.onmessage = " + parts[6] + ";"]).join("\n");
+  return _looksSrc;
+}
+
+// ---------- the X speed layer (Sept 30 2026) ----------
+// The owner: "I go on Twitter, and after two hours, I see that news that I saw on Twitter
+// elsewhere." Scheduled GitHub runs are throttled to ~7 a day (CLAUDE.md 0m), so X has to be
+// polled from HERE: a 1-minute Cron Trigger asks SocialData (the provider the owner chose,
+// about $2-4 a month) for new posts from the accounts in newsconfig.json x_accounts, keeps them
+// in the XFeed Durable Object, and - when no news window is reading them - rings news.yml
+// (workflow_dispatch starts at once, and news.yml's `queue: max` cancels nothing). The news job
+// reads the buffer through GET /news/x-feed with WORKER_BOT_KEY, and EVERY Python gate applies
+// to a post exactly as to an article (promofilter, topicgate, storykey, notify).
+// Dormant until SOCIALDATA_API_KEY is set: then the cron does nothing at all.
+const X_HANDLE_RE = /^[A-Za-z0-9_]{1,15}$/;
+const X_MAX_ACCOUNTS = 40;
+const X_QUERY_MAX = 460;                  // characters per search query (X caps a query near 500)
+const X_QUERIES_PER_TICK = 2;             // SocialData bills no empty answer at <= 3 requests a minute
+const X_BUFFER_CAP = 200;                 // posts kept (DO storage values stay far under 128 KiB)
+const X_BUFFER_MS = 48 * 3600 * 1000;
+const X_TEXT_MAX = 600;
+const X_WINDOW_LIVE_MS = 90 * 1000;       // the news job read the buffer this recently: a window is running
+const X_BELL_GAP_MS = 10 * 60 * 1000;     // at most one doorbell a ten minutes
+const X_BELL_BACKOFF_MS = 60 * 60 * 1000; // ...and once an hour while the last ring went unanswered
+const SOCIALDATA_SEARCH = "https://api.socialdata.tools/twitter/search";
+// PURE: the handles -> search queries, each under X_QUERY_MAX, replies and reposts filtered out
+// by the provider (so they are never billed)
+function xQueries(handles) {
+  const tail = " -filter:replies -filter:retweets";
+  const out = [];
+  let cur = [];
+  const q = (hs) => "(" + hs.map(h => "from:" + h).join(" OR ") + ")" + tail;
+  for (const h of handles) {
+    if (cur.length && q(cur.concat([h])).length > X_QUERY_MAX) { out.push(q(cur)); cur = []; }
+    cur.push(h);
+  }
+  if (cur.length) out.push(q(cur));
+  return out;
+}
+// PURE: newsconfig.json -> the handles to follow (valid, unique, at most X_MAX_ACCOUNTS)
+function xHandles(ncfg) {
+  const raw = ncfg && Array.isArray(ncfg.x_accounts) ? ncfg.x_accounts : [];
+  const seen = {}, out = [];
+  for (const h0 of raw) {
+    const h = String(h0 || "").trim().replace(/^@/, "");
+    if (!X_HANDLE_RE.test(h) || seen[h.toLowerCase()]) continue;
+    seen[h.toLowerCase()] = 1;
+    out.push(h);
+    if (out.length >= X_MAX_ACCOUNTS) break;
+  }
+  return out;
+}
+// PURE: one SocialData tweet -> the buffer's post shape, or null for a repost or a reply
+// (the query already filters them; this is the belt to that brace), or anything malformed
+function xPost(t, now) {
+  if (!t || typeof t !== "object") return null;
+  if (t.retweeted_status || t.in_reply_to_status_id_str || t.in_reply_to_status_id) return null;
+  const id = String(t.id_str || "");
+  const user = (t.user && typeof t.user === "object") ? t.user : {};
+  const handle = String(user.screen_name || "");
+  if (!/^[0-9]{5,25}$/.test(id) || !X_HANDLE_RE.test(handle)) return null;
+  const text = String(t.full_text || t.text || "").replace(/\s+/g, " ").trim().slice(0, X_TEXT_MAX);
+  if (!text) return null;
+  const ts = Date.parse(t.tweet_created_at || t.created_at || "");
+  const ents = (t.extended_entities && t.extended_entities.media) || (t.entities && t.entities.media) || [];
+  let media = "";
+  for (const m of (Array.isArray(ents) ? ents : [])) {
+    const u = m && typeof m.media_url_https === "string" ? m.media_url_https : "";
+    if (/^https:\/\/pbs\.twimg\.com\/[A-Za-z0-9_./-]{4,200}$/.test(u)) { media = u; break; }
+  }
+  return { id, handle, text, ts: Number.isFinite(ts) ? ts : now, at: now,
+           url: "https://x.com/" + handle + "/status/" + id, media };
+}
+// newsconfig.json off the raw CDN (no token), cached five minutes like bots_config
+let _ncfgCache = { at: 0, cfg: null };
+async function newsConfigRaw(env) {
+  const now = Date.now();
+  if (_ncfgCache.cfg && now - _ncfgCache.at < 300000) return _ncfgCache.cfg;
+  const c = await getJSON(rawBase(env) + "/newsconfig.json");
+  if (c) _ncfgCache = { at: now, cfg: c };
+  return _ncfgCache.cfg;
+}
+// The buffer: ONE Durable Object (SQLite-backed, free plan) so every isolate and colo sees
+// the same posts and the same "last seen" ids. Keys: posts (newest last), since:<n> (the last
+// post id per query), read (when the news job last read), bell (when news.yml was last rung).
+export class XFeed {
+  constructor(state) { this.state = state; }
+  async fetch(request) {
+    const u = new URL(request.url), st = this.state.storage, now = Date.now();
+    if (u.pathname === "/since") {
+      return Response.json({ since: (await st.get("since:" + u.searchParams.get("q"))) || "" });
+    }
+    if (u.pathname === "/add" && request.method === "POST") {
+      let b = null;
+      try { b = await request.json(); } catch (e) { b = null; }
+      const posts = ((await st.get("posts")) || []).filter(p => now - p.at < X_BUFFER_MS);
+      const have = {};
+      posts.forEach(p => { have[p.id] = 1; });
+      let added = 0;
+      for (const p of (b && Array.isArray(b.posts) ? b.posts : [])) {
+        if (p && p.id && !have[p.id]) { posts.push(p); have[p.id] = 1; added++; }
+      }
+      await st.put("posts", posts.slice(-X_BUFFER_CAP));
+      if (b && b.q != null && b.since) await st.put("since:" + b.q, String(b.since));
+      return Response.json({ added, read: (await st.get("read")) || 0, bell: (await st.get("bell")) || 0 });
+    }
+    if (u.pathname === "/bell" && request.method === "POST") { await st.put("bell", now); return Response.json({ ok: true }); }
+    if (u.pathname === "/read") {
+      const since = Number(u.searchParams.get("since")) || 0;
+      await st.put("read", now);
+      const posts = ((await st.get("posts")) || []).filter(p => p.at > since && now - p.at < X_BUFFER_MS);
+      return Response.json({ posts, now });
+    }
+    return new Response("not found", { status: 404 });
+  }
+}
+function xStub(env) { return env.XFEED.get(env.XFEED.idFromName("xfeed")); }
+// one tick of the 1-minute cron. Returns a short summary (the tests read it).
+async function xTick(env, now) {
+  if (!env || !env.SOCIALDATA_API_KEY || !env.XFEED || typeof env.XFEED.idFromName !== "function") return { skip: "not configured" };
+  const ncfg = await newsConfigRaw(env);
+  // the owner's off switch (/news source x off, MOD_PANEL): no polling, no ring, no spend
+  const xsrc = ncfg && ncfg.sources && typeof ncfg.sources === "object" ? ncfg.sources.x : null;
+  if (xsrc && xsrc.enabled === false) return { skip: "switched off" };
+  const handles = xHandles(ncfg);
+  if (!handles.length) return { skip: "no accounts" };
+  const qs = xQueries(handles);
+  const stub = xStub(env);
+  // more queries than a minute's free allowance: take turns
+  const start = qs.length > X_QUERIES_PER_TICK ? Math.floor(now / 60000) % qs.length : 0;
+  let added = 0, last = null;
+  for (let k = 0; k < Math.min(qs.length, X_QUERIES_PER_TICK); k++) {
+    const qi = (start + k) % qs.length;
+    const since = (await (await stub.fetch("https://xfeed/since?q=" + qi)).json()).since || "";
+    let r = null, j = null;
+    try {
+      r = await fetch(SOCIALDATA_SEARCH + "?type=Latest&query=" + encodeURIComponent(qs[qi] + (since ? " since_id:" + since : "")),
+        { headers: { Authorization: "Bearer " + env.SOCIALDATA_API_KEY, Accept: "application/json" } });
+      if (r.ok) j = await r.json();
+    } catch (e) { j = null; }
+    if (!j || !Array.isArray(j.tweets)) continue;       // 402 (no balance), 429, an outage: next minute
+    const posts = j.tweets.map(t => xPost(t, now)).filter(Boolean);
+    const top = j.tweets.map(t => String((t && t.id_str) || "")).filter(x => /^[0-9]{5,25}$/.test(x))
+      .sort((a, b) => (a.length - b.length) || (a < b ? -1 : a > b ? 1 : 0)).pop() || "";
+    // the first answer for a query only SEEDS its since id: the last few days of posts are
+    // not news, and posting them would flood the channel
+    const res = await (await stub.fetch("https://xfeed/add", { method: "POST",
+      body: JSON.stringify({ posts: since ? posts : [], q: qi, since: top || since }) })).json();
+    added += res.added || 0;
+    last = res;
+  }
+  let bell = false;
+  // a ring the news job never answered (a key mismatch, a failing job, the X source off on the
+  // Python side) backs off to once an hour instead of dispatching every ten minutes all day
+  const answered = !last || (last.read || 0) >= (last.bell || 0);
+  const gap = answered ? X_BELL_GAP_MS : X_BELL_BACKOFF_MS;
+  if (added && last && now - (last.read || 0) > X_WINDOW_LIVE_MS && now - (last.bell || 0) > gap && env.GITHUB_TOKEN) {
+    try {
+      const d = await fetch(ghBase(env) + "/actions/workflows/news.yml/dispatches",
+        { method: "POST", headers: ghHeaders(env), body: JSON.stringify({ ref: "main", inputs: { reason: "doorbell" } }) });
+      bell = !!(d && d.status === 204);
+      if (bell) await stub.fetch("https://xfeed/bell", { method: "POST" });
+    } catch (e) { bell = false; }
+  }
+  return { queries: qs.length, added, bell };
+}
+// GET /news/x-feed?since=<ms>: the news job's read, WORKER_BOT_KEY in the Authorization header.
+// A bare 404 while the key or the buffer is missing (nothing here says what it is).
+async function xFeedRead(request, env, url) {
+  if (!env || !env.WORKER_BOT_KEY || !env.XFEED || typeof env.XFEED.idFromName !== "function") return new Response("not found", { status: 404 });
+  const m = /^Bearer\s+(\S{24,200})$/.exec(String(request.headers.get("authorization") || ""));
+  let ok = false;
+  try { ok = !!m && await botKeyOk(env, m[1]); } catch (e) { ok = false; }
+  if (!ok) return new Response("not found", { status: 404 });
+  const since = Math.max(0, Number(url.searchParams.get("since")) || 0);
+  const r = await xStub(env).fetch("https://xfeed/read?since=" + since);
+  return new Response(await r.text(), { status: 200, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" } });
+}
+
 export default {
+  // the 1-minute Cron Trigger (wrangler.toml [triggers]): the X speed layer, dormant without a key
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(xTick(env, Date.now()).catch(function () { return null; }));
+  },
   async fetch(request, env, ctx) {
     noteRequest();          // per-isolate tally behind /studio/api/usage; see noteRequest
     const url = new URL(request.url);
@@ -3342,6 +3723,7 @@ export default {
     if (url.pathname === "/studio" || url.pathname.startsWith("/studio/")) {
       return await studioRouter(request, env, url);
     }
+    if (url.pathname === "/news/x-feed" && request.method === "GET") return await xFeedRead(request, env, url);
     if (url.pathname === "/news/egress-probe" && request.method === "GET") {
       return await newsEgressProbe(env, url);
     }
@@ -3404,4 +3786,9 @@ export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildP
   CF_FREE_REQUESTS_PER_DAY, CF_FREE_CPU_MS,
   LOGIN_HTML, STUDIO_HTML, STUDIO_CSP, DISCORD_CDN_HOSTS, discordCdnUrl, pollShape, POLL_EMPTY,
   sha256Bytes, studioSignKey, studioPasswordOk, hmacB64url, LOGIN_FAIL_DELAY_MS,
+  specStory, stagedRenders, STORY_KINDS, RENDER_FILE_RE, STAGED_IMG_IDX,
+  looksWorkerSource, pageFn, LOOKS_FNS,
+  xQueries, xHandles, xPost, xTick, xFeedRead, XFeed, X_QUERY_MAX, X_MAX_ACCOUNTS, X_WINDOW_LIVE_MS, X_BELL_GAP_MS,
+  SOCIALDATA_SEARCH, resetNewsCfg: function () { _ncfgCache = { at: 0, cfg: null }; },
+  RENDER_COOKIE, RENDER_TTL_MS, RENDER_ROUTES, renderRoute, renderToken, renderTokenValid, renderLogin, botKeyOk,
   resetStudioCaches };
