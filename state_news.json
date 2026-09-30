@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0b00f2e3f92448d7": 1790776794.2133167,
     "86e73151c1f00c0a": 1790776667.8942466,
     "9fc7b161f28a798e": 1790776598.17811,
     "9ee6cda38f0e3099": 1790776531.1172118,
@@ -2498,8 +2499,7 @@
     "b088c2e65092403c": 1790142138.778069,
     "cdada18ae4f26a55": 1790142114.3025205,
     "542ef0ee51f400fb": 1790142090.511859,
-    "cbd169c04811bbb5": 1790142066.9509573,
-    "f8449b59e5c5e56a": 1790142066.7554
+    "cbd169c04811bbb5": 1790142066.9509573
   },
   "initialized": true,
   "v": 4,
@@ -4411,13 +4411,19 @@
       "source": "BBC",
       "ts": "2026-09-30T13:02:37+00:00",
       "cluster": "cf78d301187"
+    },
+    {
+      "t": "UFC Fight Night",
+      "source": "CBS Sports",
+      "ts": "2026-09-30T13:13:47+00:00",
+      "cluster": "ca23192174c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T13",
-    27
+    28
   ],
   "yt_eval": [
     "CBMipgFBVV95cUxNeTJ1X09TY2owY282RE81TTFCYmtEaXp1TFVPbFl1bjhVYkRtMHp0N2NBSXlvUnlZR2ZTUGhJT3dvUEVNN0ROU2huTURWMmhpSktNcktyeThoeTdLeG4tVlUwcy1ZbkdQUWhGckU4ZEJTdDYzTHV6eDFDNE5ycmlRUGRsZmdvbkJvRFJPelZQWmRtbm5xbU1saHR5QUFGN3dQVDQ0YXNB",
