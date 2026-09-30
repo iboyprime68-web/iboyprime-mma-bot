@@ -1,5 +1,7 @@
 {
   "seen": {
+    "9c3a5562cc1fafdb": 1790776086.357517,
+    "78a8577ee94ca2af": 1790776086.1019547,
     "49f7779fe4a1ee02": 1790776019.427622,
     "e059b614d80e268d": 1790776019.1859753,
     "fb7150169aad02e8": 1790775952.5646427,
@@ -2497,9 +2499,7 @@
     "bab8007bf1719377": 1790142066.6938152,
     "1c3f9bd8df1fbba8": 1790142066.6925657,
     "09e85db4016395f4": 1790142042.7544343,
-    "b79abb5d88c970cc": 1790142019.4816108,
-    "601eb0edbe48a2cf": 1790142019.26856,
-    "1abdeab643f70755": 1790141993.6728942
+    "b79abb5d88c970cc": 1790142019.4816108
   },
   "initialized": true,
   "v": 4,
@@ -4399,13 +4399,19 @@
       "source": "mmajunkie.usatoday.com",
       "ts": "2026-09-30T13:40:00+00:00",
       "cluster": "c6df7f197b8"
+    },
+    {
+      "t": "Johnny Walker reveals exactly what health issues he faced in UFC light heavyweight weight cuts",
+      "source": "MMA Sucka",
+      "ts": "2026-09-30T13:40:16+00:00",
+      "cluster": "c8835d28465"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T13",
-    24
+    25
   ],
   "yt_eval": [
     "d94d29b3-9f16-3406-bf01-02ba1c05c46b",
