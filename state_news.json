@@ -1,5 +1,11 @@
 {
   "seen": {
+    "977bac104dc27abc": 1790727792.2142353,
+    "94702d88b433642f": 1790727791.9268525,
+    "45f4b8dedc7bc726": 1790727791.923144,
+    "aedf257223e661be": 1790727791.920492,
+    "45bc2a959175e5b8": 1790727791.8958066,
+    "0224971812c8c8ae": 1790727791.8939114,
     "cc10be6d2cb21ac0": 1790727724.1329558,
     "bb54d44a0add599a": 1790727723.8362918,
     "2295cec25a7d46e7": 1790727656.1409516,
@@ -2493,13 +2499,7 @@
     "5fb02d9763542d6c": 1790104085.1634707,
     "fea543fa3dcc4025": 1790104084.8357704,
     "537ec1eea6a37782": 1790104021.4002855,
-    "455aa897c8803eb0": 1790103957.2739446,
-    "c696010fe0df39a0": 1790103893.518704,
-    "951012b445e05af5": 1790103893.2319565,
-    "2918d4f5ebe41b12": 1790103830.153606,
-    "76d91f36fe9ea0e9": 1790103765.8698626,
-    "b7340ee70f2fbfd2": 1790103765.6094906,
-    "3aa8556abdeb414c": 1790103702.8656113
+    "455aa897c8803eb0": 1790103957.2739446
   },
   "initialized": true,
   "v": 4,
@@ -2539,12 +2539,6 @@
       "source": "MMA Sucka",
       "ts": "2026-09-28T01:14:41+00:00",
       "cluster": "c4bbf296b84"
-    },
-    {
-      "t": "UFC gives update on Raoni Barcelos after scary stoppage",
-      "source": "Sherdog",
-      "ts": "2026-09-28T00:22:26+00:00",
-      "cluster": "cf770f7b2ce"
     },
     {
       "t": "Josh Hokit chokes fan unconscious during meet-and-greet ahead of UFC heavyweight title fight",
@@ -4183,13 +4177,19 @@
       "source": "MMA Junkie",
       "ts": "2026-09-29T23:38:00+00:00",
       "cluster": "c5579277f9d"
+    },
+    {
+      "t": "DWCS video: Controversial 32-second fight ends after commission deems blatant foul insignificant",
+      "source": "MMA Junkie",
+      "ts": "2026-09-30T00:07:00+00:00",
+      "cluster": "c3c9ccf5070"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T00",
-    17
+    18
   ],
   "yt_eval": [
     "CBMivgFBVV95cUxPT1Jtc0RjbTBmU1FYSW0tUWNnUklpTDQ2OXZTVldZZVBXMjMtWDg4ZkFzUDlKZnljVzZiSy00RGdjZEc0TTZtM0V2eG9mNFJxNUpJdXdxbGhiZVBRaDBKTy05cS1RMEFsbjhYZHNIWGRBN19BS0NibmVvWF83ZVhkdkhoby0wY1kxSjAwMHZsVjJyWUhuTDFOcGtTWWVsdjRpQWU1M2JIRXVvU3RJdlU0ci1nUUpsclZrVjBHYXZB",
