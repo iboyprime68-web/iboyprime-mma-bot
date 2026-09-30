@@ -1,5 +1,7 @@
 {
   "seen": {
+    "2e50fa77eb3f28e4": 1790809455.1105006,
+    "ac4d6bdbfd6d985b": 1790809454.6641612,
     "e16210218dac4054": 1790809429.4188488,
     "443dcf97104f7bd9": 1790809403.8318038,
     "9761d285fa399c52": 1790809403.4229474,
@@ -2497,9 +2499,7 @@
     "9da2ca9847cb4ee8": 1790182153.680665,
     "6c4703db5bd3b118": 1790182153.4222574,
     "5ae7b7b3869a9061": 1790182109.1297662,
-    "d5f73d004967ea42": 1790182109.1295073,
-    "6d7c65ed977e40cc": 1790182109.1274586,
-    "a2955ddf6080f26b": 1790182086.0854325
+    "d5f73d004967ea42": 1790182109.1295073
   },
   "initialized": true,
   "v": 4,
@@ -4363,13 +4363,19 @@
       "source": "@ufc",
       "ts": "2026-09-30T22:40:23+00:00",
       "cluster": "c54a28f7daa"
+    },
+    {
+      "t": "UFC 332 fight saved as MMA champion steps in to replace injured star on just 3 days’ notice",
+      "source": "Bloody Elbow",
+      "ts": "2026-09-30T22:57:57+00:00",
+      "cluster": "c9b6f8c9ae9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-09-30T23",
-    9
+    10
   ],
   "yt_eval": [
     "CBMihgFBVV95cUxOX2VoZDFtQjBfLUx0d1E1Y1N2WnRxYXF1Zjk1d05iZDY3eUVNZzJ4SFVJV0ZPZndTQlMzMFRrYzJ6c2RnbU1NaU9QS3hGZDBSdURUdUJEa1FybXZCRzM0M1hqT3dnSVZWcE9ocjJCbjdBVjVqcUp3Y0tqbHFRa29KMVVJX0d0Zw",
