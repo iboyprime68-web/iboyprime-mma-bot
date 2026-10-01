@@ -1,5 +1,7 @@
 {
   "seen": {
+    "1ca5a1607dd467b6": 1790843997.495084,
+    "3cf73fcc2621ad32": 1790843997.1470742,
     "fc0a4ac90401c4d5": 1790843930.4178376,
     "e4f13d98e05a1627": 1790843930.1663165,
     "b540c570d75a3f09": 1790843862.4925473,
@@ -2497,9 +2499,7 @@
     "c4e07e38bfd0e7ac": 1790204406.034987,
     "612f9d2ef653d4d1": 1790204383.0018306,
     "bae493c75d6f8cb7": 1790204382.5850568,
-    "5eef11eafdb1fc10": 1790204382.5823028,
-    "42d83e117e642fd7": 1790204382.5794773,
-    "c0e9dc8fd09eb5c2": 1790204382.5670252
+    "5eef11eafdb1fc10": 1790204382.5823028
   },
   "initialized": true,
   "v": 4,
@@ -4423,13 +4423,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-01T06:28:18+00:00",
       "cluster": "c8dc25378cf"
+    },
+    {
+      "t": "Payton Talbott Says Sean O’Malley UFC Fight Was in the Works",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-01T06:48:09+00:00",
+      "cluster": "c5d7bacea73"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T08",
-    7
+    8
   ],
   "yt_eval": [
     "CBMiiwFBVV95cUxOLXVKWUZ3Vm5MZ1lwcFVmcW1ZNmQtalJPZ2VIOHZnandCZ012YnJhYm5sSkMwcGNVTG9nYVkxMlRqYlpsZlhZTHFsd3ZrM01sUWFzcTV4cEc5azNWXzh4SFpTN1ZWUFVWZGgtbFZCeWdGSTJZemJRbkNuTkVBZVJXY3ZSUV9sem90cERV",
