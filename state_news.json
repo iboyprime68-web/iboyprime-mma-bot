@@ -1,5 +1,7 @@
 {
   "seen": {
+    "82e98fa2245118c9": 1790891260.9108083,
+    "8c0ec26195a6c0ba": 1790891260.4806137,
     "c2c96b8eb29ad5ff": 1790891235.3987024,
     "926306b3212f341f": 1790891234.891553,
     "3f01eabed90a1f20": 1790891209.7419045,
@@ -2497,9 +2499,7 @@
     "c171ceced9f780a7": 1790257299.0022037,
     "8ec97a92ec5bb2f5": 1790257233.232777,
     "01841b32daaaf802": 1790257208.0445077,
-    "8bc455e1ce905766": 1790257207.0159614,
-    "cbde5251d2e2f1e9": 1790257164.0046372,
-    "1116e30b4f439256": 1790257098.6925223
+    "8bc455e1ce905766": 1790257207.0159614
   },
   "initialized": true,
   "v": 4,
@@ -4309,13 +4309,19 @@
       "source": "@UFCNews",
       "ts": "2026-10-01T20:04:00+00:00",
       "cluster": "c51e4687525"
+    },
+    {
+      "t": "UFC analyst has 'pretty good feeling' about Justin Gaethje vs. Arman Tsarukyan happening",
+      "source": "@MMAJunkie",
+      "ts": "2026-10-01T20:25:29+00:00",
+      "cluster": "c1fce5ea0fb"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T21",
-    16
+    17
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=511035",
