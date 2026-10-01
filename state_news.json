@@ -1,5 +1,8 @@
 {
   "seen": {
+    "4fd358206a11c7a4": 1790892207.0439134,
+    "b005a6b078f3c0c6": 1790892206.6953342,
+    "7973693422578722": 1790892206.6928039,
     "9c415d0fd84b88b7": 1790892138.9224482,
     "3af64fa6d3274344": 1790892137.7500355,
     "00177294c682d00e": 1790892094.152395,
@@ -2496,10 +2499,7 @@
     "60bbcbd5acd5392a": 1790274944.586604,
     "c9d2877bba3a6acd": 1790274944.5849795,
     "990a742f4910c3c1": 1790274920.677349,
-    "662e2d0c80311295": 1790274876.7363405,
-    "f774d56c255f2167": 1790274811.996893,
-    "1dc920f517cf1478": 1790274747.4715953,
-    "f429abe840a4f509": 1790274682.5042908
+    "662e2d0c80311295": 1790274876.7363405
   },
   "initialized": true,
   "v": 4,
@@ -4405,13 +4405,19 @@
       "source": "KFYR-TV",
       "ts": "2026-10-01T21:18:00+00:00",
       "cluster": "c72ed224fd1"
+    },
+    {
+      "t": "California Gov. Newsom says that Joe Rogan is afraid to have him on his podcast",
+      "source": "WLOS",
+      "ts": "2026-10-01T21:21:19+00:00",
+      "cluster": "cc7f4dfb12c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T22",
-    2
+    3
   ],
   "yt_eval": [
     "CBMiUEFVX3lxTE5ZcjdJZE91QVFwM0FiTHBvT0tWLXFRLUI0MWJ3akFIMXVrWE1qeXAtdTdwOHg4djZhMUNKaXVtU1NleVljSC1hVUFzU2FqMlNu",
