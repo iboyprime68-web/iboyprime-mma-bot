@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b77537eb1ef42e67": 1790843731.1000106,
     "7e6aaf80200809c1": 1790843704.9792922,
     "6a8beadf8bbee974": 1790843704.2951367,
     "ac119be5dc480be3": 1790822848.8217824,
@@ -2498,8 +2499,7 @@
     "88bb9ed5f05f8273": 1790204246.6556556,
     "f1b2e5709a5a91a5": 1790204182.6054075,
     "7f89b8a5ffe5b2f3": 1790204182.2213783,
-    "f37129a946a4a35b": 1790204182.22104,
-    "c63332e8f3bf707e": 1790204117.8915515
+    "f37129a946a4a35b": 1790204182.22104
   },
   "initialized": true,
   "v": 4,
@@ -4387,13 +4387,19 @@
       "source": "Sherdog",
       "ts": "2026-10-01T02:32:17+00:00",
       "cluster": "ca655f7f5b2"
+    },
+    {
+      "t": "UFC warned that Raoni Barcelos health scare will not be a one-off: ‘Someone’s going to die in there’",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-01T03:00:00+00:00",
+      "cluster": "ca0a0d59fab"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T08",
-    1
+    2
   ],
   "yt_eval": [
     "CBMi2AFBVV95cUxNcExSbjkyeTdvTWRlOEMwWm9KdkxZdmxuTFZmSE92dEZTUEJud3JrNUIyU2RVbmpBdEdxM3Q2LWQ3RVNRaTMtYThDTDdJa052cVRmUktNS2ZvMzRJb0ZidnJjblctcXJoWkNQVUJkaXRKTEdLR2R5cjAxR1hLeUpybEEzOVFfRDlPT29QN0tnNldWZnZjXzNkU0JkM2loRGFaNnhlYUplVGZ6akpSOWpJSUJNZ1R0enFmVUpSVHRLV2hfUzF4cUUzVFF0NW5jLUVDQ2FzT2J5YzM",
