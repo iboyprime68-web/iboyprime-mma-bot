@@ -1,5 +1,7 @@
 {
   "seen": {
+    "31667124358aa311": 1790871338.3266277,
+    "af3784bec03b5fc9": 1790871338.0423398,
     "755fa8d0403222b5": 1790871311.8264985,
     "70d816e1b727b61b": 1790871285.4665728,
     "bd3c92afcbb14017": 1790871260.651458,
@@ -2497,19 +2499,11 @@
     "c553e9893f4456ea": 1790215636.4754753,
     "1d02ff061a1520a2": 1790215570.138435,
     "6922a5c6c7accd9b": 1790215569.8496706,
-    "d9f8a5f4794f535e": 1790215441.5087457,
-    "63372bac89e92243": 1790215313.021056,
-    "ba5c7033c58948e3": 1790215247.632093
+    "d9f8a5f4794f535e": 1790215441.5087457
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 334 Fight Card Takes Major Hit With Loss of Undefeated UFC Star",
-      "source": "Sports Illustrated",
-      "ts": "2026-09-29T16:15:23+00:00",
-      "cluster": "c6b5d046100"
-    },
     {
       "t": "UFC 334 takes big hit as Khamzat Chimaev’s undefeated teammate withdraws from event",
       "source": "Bloody Elbow",
@@ -4297,13 +4291,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-01T15:00:00+00:00",
       "cluster": "c01d95d61ea"
+    },
+    {
+      "t": "Open Thread, October 1, 2026: It’s Fall! Come on in and chat",
+      "source": "MMA Mania",
+      "ts": "2026-10-01T13:08:47+00:00",
+      "cluster": "cc141ef4043"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T16",
-    12
+    13
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=332353",
