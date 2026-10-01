@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4f358e9c0fd968ec": 1790843808.5734937,
     "bd8039ab2d9e43e1": 1790843782.9870753,
     "de314e597b2721f6": 1790843782.6341908,
     "c63e9c356e8b7861": 1790843782.6321583,
@@ -2498,8 +2499,7 @@
     "c0e9dc8fd09eb5c2": 1790204382.5670252,
     "4f8411dc725d7a4b": 1790204382.5660303,
     "508bc6397666ce7e": 1790204382.5651712,
-    "f804d7b767967afc": 1790204318.3840375,
-    "56c5aeedf2c44de9": 1790204311.974496
+    "f804d7b767967afc": 1790204318.3840375
   },
   "initialized": true,
   "v": 4,
@@ -4405,13 +4405,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-01T05:00:30+00:00",
       "cluster": "cc2b173fa59"
+    },
+    {
+      "t": "Dana White confirms he’ll announce Alex Pereira’s next fight during UFC 332 KICK stream",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-01T08:08:04+00:00",
+      "cluster": "c0b7c362e71"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T08",
-    4
+    5
   ],
   "yt_eval": [
     "CBMiVkFVX3lxTFBlZlJ6dVByQkZNX2lZMWF4X1NHS3lHOG0zd3RYeE5ya3JQR1dDMTNsLXVGMWNldHpqZkFqZVAtUmZMM1FQQ2Vac0QwczNkaHYyR1V1aGVR",
