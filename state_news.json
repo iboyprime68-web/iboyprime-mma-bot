@@ -1,5 +1,9 @@
 {
   "seen": {
+    "ab33cac12b131a74": 1790819742.570283,
+    "74cf3ca719621c19": 1790819742.3195207,
+    "b44daa9e95973a14": 1790819742.3180366,
+    "8a24954bc00c4811": 1790819742.316025,
     "ccabb6486b32719e": 1790819718.0143178,
     "ef71941091f6bde6": 1790819692.5363674,
     "df91b0cd2b4a13d1": 1790819667.883844,
@@ -2495,11 +2499,7 @@
     "8cbe7e3c35b6d3b6": 1790194753.2834501,
     "6df19e15f796c86e": 1790194753.2802534,
     "c881a7221f5f2ca3": 1790194689.9691494,
-    "782a7bdf8013518f": 1790194689.65233,
-    "b577725fe27201c3": 1790194624.7650623,
-    "f004e8b69a7558c3": 1790194560.7407491,
-    "3aea301466fb6950": 1790194496.639053,
-    "594c97d48f355864": 1790194432.6070635
+    "782a7bdf8013518f": 1790194689.65233
   },
   "initialized": true,
   "v": 4,
@@ -4447,13 +4447,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-01T00:01:01+00:00",
       "cluster": "caa80193e0b"
+    },
+    {
+      "t": "Adama Diop responds to Dana White bashing UFC contract-earning fight #DWCS",
+      "source": "@MMAJunkie",
+      "ts": "2026-10-01T00:55:13+00:00",
+      "cluster": "c122f8820d0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T01",
-    4
+    5
   ],
   "yt_eval": [
     "CBMilwFBVV95cUxNenNhZWlSQzBwLUJiZFVIbjVLcGlJdWJubVNnWTFEWllreTFjZ3FBeW1uU2FHVTVkS0ZpaGo5bU9jSHhWT21nd2dKUWZWcWh2S2hrS0IxNXVJeFp3ZzdRcjA4YXc0X0d3U1RkdllLSnJ0eS1QUmtHNV9WSFNBUFdMQWYweVNFV2lTT0tSazFUYXhEaWN6ZVFF",
