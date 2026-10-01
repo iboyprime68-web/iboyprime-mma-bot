@@ -1,5 +1,7 @@
 {
   "seen": {
+    "fc0a4ac90401c4d5": 1790843930.4178376,
+    "e4f13d98e05a1627": 1790843930.1663165,
     "b540c570d75a3f09": 1790843862.4925473,
     "4f358e9c0fd968ec": 1790843808.5734937,
     "bd8039ab2d9e43e1": 1790843782.9870753,
@@ -2497,9 +2499,7 @@
     "bae493c75d6f8cb7": 1790204382.5850568,
     "5eef11eafdb1fc10": 1790204382.5823028,
     "42d83e117e642fd7": 1790204382.5794773,
-    "c0e9dc8fd09eb5c2": 1790204382.5670252,
-    "4f8411dc725d7a4b": 1790204382.5660303,
-    "508bc6397666ce7e": 1790204382.5651712
+    "c0e9dc8fd09eb5c2": 1790204382.5670252
   },
   "initialized": true,
   "v": 4,
@@ -4417,13 +4417,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-01T05:36:56+00:00",
       "cluster": "caa4759f6c5"
+    },
+    {
+      "t": "UFC Superstar Predicts Sean Strickland vs. Nassourdine Imavov 2",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-01T06:28:18+00:00",
+      "cluster": "c8dc25378cf"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T08",
-    6
+    7
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=511006",
