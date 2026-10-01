@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6f53d36717b5d78d": 1790893609.4723003,
     "63050ebf9a091285": 1790893542.7514603,
     "04bbd2b4c87031ec": 1790893456.818325,
     "e8655dc1c2c3c440": 1790893456.8162148,
@@ -2498,8 +2499,7 @@
     "eeee5814a87235b2": 1790275995.5337648,
     "b57b125a03f68bf8": 1790275930.1704273,
     "1887f290b193d899": 1790275929.787266,
-    "dc1e7fa5b4a4c6a3": 1790275885.9861825,
-    "afc40c3c5dff20da": 1790275862.541023
+    "dc1e7fa5b4a4c6a3": 1790275885.9861825
   },
   "initialized": true,
   "v": 4,
@@ -4483,13 +4483,19 @@
       "source": "The Lethbridge Herald",
       "ts": "2026-10-01T22:22:31+00:00",
       "cluster": "cdf4f9cc99b"
+    },
+    {
+      "t": "UFC 333 Iasmin Lucindo vs Nicolle Caliari",
+      "source": "The Lufkin Daily News",
+      "ts": "2026-10-01T22:24:12+00:00",
+      "cluster": "c12b5e9aaa8"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T22",
-    16
+    17
   ],
   "yt_eval": [
     "CBMijAFBVV95cUxOdVVtdVdNMWI4ZllSYWRwdE05Y19oSzBCajFtdUhvN3NZRUE1NTA5MG1qSzROYjExTzB5ZFppUGhpMFhEMlYzTlVjcDVhNnNSVnVDTkh6NFJ6NzBZTTM4NEhQOGJlX2lPTmV5My1ucm5VdzNGY1plazBhY3pvUF9mbVhhZWRIc2toQXdKWA",
