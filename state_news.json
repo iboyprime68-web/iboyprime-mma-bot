@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2390cd964eff6046": 1790892368.4546704,
     "9203ab82593d231a": 1790892341.8263679,
     "4a3b0de1248687e5": 1790892341.4992802,
     "36430b7dd6ed1555": 1790892341.4973717,
@@ -2498,8 +2499,7 @@
     "e9500ca290f6082e": 1790275076.2406187,
     "bf6eb14c6e0887b1": 1790275075.9487605,
     "1b58a59594d709ee": 1790275075.9468281,
-    "4d2a0a8a77cb09ec": 1790275010.0755644,
-    "163abe1c176d0f71": 1790275009.7850666
+    "4d2a0a8a77cb09ec": 1790275010.0755644
   },
   "initialized": true,
   "v": 4,
@@ -4423,13 +4423,19 @@
       "source": "MMA Sucka",
       "ts": "2026-10-01T21:52:37+00:00",
       "cluster": "c0eb5973877"
+    },
+    {
+      "t": "#UFC333 adds Brazilian strawweight battle",
+      "source": "@MMAJunkie",
+      "ts": "2026-10-01T22:05:44+00:00",
+      "cluster": "c1e7069e811"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T22",
-    5
+    6
   ],
   "yt_eval": [
     "CBMiwgFBVV95cUxQcmNZeG9NT2xDVmhaeEhOeWV1elZvMjNvelAxNE9iTldLems2dnAtTUdkU25IZW9UTmI1QklvNWdRRmpTZmtEdDlXZEdad0ZnZVpnVEhoX1YwZ2dlbGxQVnNmRWo0eU5BaVdQUG9yWkg2TDhhTXJoRmxCaGJhdFhXZFJLcHJaLV9NcFA4a1Q0cko4aUtKVDQycExpNGVaMlQ4VC1FS1RqaDd5eFM0RWR3TENaVFV1WmVqZjJlbXNOWTFXZw",
