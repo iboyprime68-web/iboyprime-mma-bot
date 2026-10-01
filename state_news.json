@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0e91e45217fda589": 1790872280.7230012,
     "7b7bdc93199c31b6": 1790872049.2614088,
     "c51169b42ba7cbf5": 1790872048.9598072,
     "19891b35c486dc06": 1790872048.957969,
@@ -2498,8 +2499,7 @@
     "289edbabcaa75e7f": 1790237852.5417876,
     "7b7dd62c97a9e1ba": 1790237787.5994394,
     "cc540ae1fd956756": 1790237660.9438465,
-    "9c3902d497114d9a": 1790237470.879268,
-    "1a1d350a3efb51bd": 1790237405.121002
+    "9c3902d497114d9a": 1790237470.879268
   },
   "initialized": true,
   "v": 4,
@@ -4411,13 +4411,19 @@
       "source": "MMANews.com",
       "ts": "2026-10-01T16:26:06+00:00",
       "cluster": "c56c359c8ce"
+    },
+    {
+      "t": "Latest UFC Qatar fight card, Paramount+ start time, date and location &#124; Jiri vs. Stirling",
+      "source": "MMA Mania",
+      "ts": "2026-10-01T15:55:28+00:00",
+      "cluster": "c23e199a0c9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T16",
-    32
+    33
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=332417",
