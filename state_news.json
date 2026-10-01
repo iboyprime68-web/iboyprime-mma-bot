@@ -4342,7 +4342,6 @@
     20
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=332408",
     "1664a61b-153b-3fb0-872c-1d9514de363c",
     "CBMikgFBVV95cUxOVGJRQXNUckNYb2h6dUIyVVhKdENBdmx3OFhxUUo1Yk1uYnAwLWlld1pza0hPWlQ5dVIydi1IV2FIN0dSNG00ckZHYmZwVDh2SWgyRFVrN05IXzRIaW9rV1ByM0tzdWxWOWxPZW9LTkNHb1Fmc3ZwOXFPRUFiWEkwRkNXaWdLaEJTanZsLU1STG43dw",
     "CBMirAFBVV95cUxQenZxS1AzUjkwaXlpWVdMaEV1OFZDaktUSHYtdEFKYkxqcHoxVlJ6TGRQSkN1cDVfTnA0cUdDczlXS3VEQUZ0SDZsOWItcUVuSWdQWG9jNDZVV1k2cDFCdU1kbGw3bWJpVFpnMzB1SlZFdVI2WEFRZmhIeGRPWThHT0s1cEc5RnJTaWQ1bzFRMG1WVHpMS2xNRzc5ZUthN3hueEZYRGp3UzB3bWpS",
@@ -5841,13 +5840,14 @@
     "https://x.com/UFCNews/status/2105750598523986318",
     "https://x.com/MMAJunkie/status/2105756007221563827",
     "d0bc0d8a-770a-3d7e-9037-6331678aed15",
-    "https://x.com/ChampRDS/status/2105757906582806576"
+    "https://x.com/ChampRDS/status/2105757906582806576",
+    "https://bloodyelbow.com/?p=334837"
   ],
   "daily": {
     "d": "2026-10-01",
-    "ai": 109,
+    "ai": 110,
     "staged": 4,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
@@ -6665,6 +6665,15 @@
       "t": "Ex-UFC Champion Alex Pereira Teases Next Fight News in Huge Update",
       "names": [
         "pereira"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-10-01T21:49:00.912627+00:00",
+      "t": "Watch Khabib Nurmagomedov outgrappling 11-0 lightweight star years after his MMA retirement",
+      "names": [
+        "nurmagomedov",
+        "khabib"
       ],
       "img": "photo"
     }
