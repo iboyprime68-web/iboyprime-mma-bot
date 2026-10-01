@@ -1,5 +1,7 @@
 {
   "seen": {
+    "47990d844a96eebe": 1790891157.700533,
+    "0b419b31b2bc0aa4": 1790891157.3865495,
     "19568149c39d7898": 1790891131.1777744,
     "ca78c820cea3ec7a": 1790891130.6491911,
     "5a20bb9214447c7e": 1790891105.3753111,
@@ -2497,9 +2499,7 @@
     "a3e7997b092819ab": 1790256900.7567203,
     "fb8af2711a6b48d5": 1790256900.4544055,
     "3f43b98aa470d7fe": 1790256900.4541848,
-    "ea1b141cb52a9c6a": 1790256900.4539387,
-    "e5b176c2dc346a1d": 1790256831.1792486,
-    "e13577bbb2e29c5a": 1790256830.718595
+    "ea1b141cb52a9c6a": 1790256900.4539387
   },
   "initialized": true,
   "v": 4,
@@ -4285,13 +4285,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-01T17:56:54+00:00",
       "cluster": "cc6b232de11"
+    },
+    {
+      "t": "UFC Edmonton poster slaps for ‘Buckley vs. Malott’ on Oct. 17 in Canada",
+      "source": "MMA Mania",
+      "ts": "2026-10-01T18:56:03+00:00",
+      "cluster": "c54ab455334"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T21",
-    12
+    13
   ],
   "yt_eval": [
     "CBMifEFVX3lxTE5hN0ZxRzNrUFVxSjd2b1BLSTl3eW1mY1d6ZVQyWkVhZGFLcFJudnZuT2JjQ2V3dEwyQ3Vuc0ozUG8yUHpBZVlaZmtIXzRZQmpxcy1WX21CNW9kZmIycFF6Z01UakFmSW5QczBlT1pqRlVzT25NNTdfMFZNM08",
