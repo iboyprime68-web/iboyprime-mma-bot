@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b58c60f7e6b30a17": 1790873240.3783987,
     "f0b3e730511e905b": 1790872865.3698854,
     "a00660d9271cbcc3": 1790872739.8468738,
     "0e91e45217fda589": 1790872280.7230012,
@@ -2498,8 +2499,7 @@
     "2d52973c4d1693ba": 1790238047.5775485,
     "b395e5813093f09d": 1790237983.4768558,
     "a6c5fa8bf3e9d948": 1790237918.5270822,
-    "289edbabcaa75e7f": 1790237852.5417876,
-    "7b7dd62c97a9e1ba": 1790237787.5994394
+    "289edbabcaa75e7f": 1790237852.5417876
   },
   "initialized": true,
   "v": 4,
@@ -2541,28 +2541,10 @@
       "cluster": "c4ca70c1043"
     },
     {
-      "t": "Fan Favorite Shamil Gaziev Returns at UFC Qatar",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-29T16:42:04+00:00",
-      "cluster": "c12a3930c13"
-    },
-    {
-      "t": "Ilia Topuria back in the gym as UFC return edges closer",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-29T16:43:40+00:00",
-      "cluster": "c72da683c67"
-    },
-    {
       "t": "‘Upset’ Amanda Nunes obsessed with new UFC star Ailin Perez — ‘I'm in her head like I was with Norma’",
       "source": "MMA Mania",
       "ts": "2026-09-29T20:01:11+00:00",
       "cluster": "c85bf4df6ea"
-    },
-    {
-      "t": "Jiri Prochazka Returns Against Navajo Stirling as UFC Qatar Card Is Revealed",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-29T16:46:43+00:00",
-      "cluster": "c701db5ece6"
     },
     {
       "t": "Former Champion Takes On Top Prospect at UFC Qatar",
@@ -4417,13 +4399,19 @@
       "source": "MMA Mania",
       "ts": "2026-10-01T15:55:28+00:00",
       "cluster": "c23e199a0c9"
+    },
+    {
+      "t": "UFC 332 Preview Mixed Martial Arts",
+      "source": "wvnews.com",
+      "ts": "2026-10-01T16:34:11+00:00",
+      "cluster": "cd368fcb91d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T16",
-    33
+    34
   ],
   "yt_eval": [
     "6b18228f-e395-3ad0-99b8-b742a60ff4e1",
