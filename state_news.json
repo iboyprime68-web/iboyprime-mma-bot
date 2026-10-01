@@ -1,5 +1,7 @@
 {
   "seen": {
+    "9c415d0fd84b88b7": 1790892138.9224482,
+    "3af64fa6d3274344": 1790892137.7500355,
     "00177294c682d00e": 1790892094.152395,
     "9f591fffd991b28b": 1790892067.9647367,
     "f08dbcb11c7c5eb3": 1790892023.6843452,
@@ -2497,9 +2499,7 @@
     "662e2d0c80311295": 1790274876.7363405,
     "f774d56c255f2167": 1790274811.996893,
     "1dc920f517cf1478": 1790274747.4715953,
-    "f429abe840a4f509": 1790274682.5042908,
-    "5eb5d0cd74b1bffd": 1790274616.4475427,
-    "be01d39de728707c": 1790274550.6482956
+    "f429abe840a4f509": 1790274682.5042908
   },
   "initialized": true,
   "v": 4,
@@ -4399,13 +4399,19 @@
       "source": "MMA Sucka",
       "ts": "2026-10-01T21:28:38+00:00",
       "cluster": "cc1490a70ed"
+    },
+    {
+      "t": "MMA event comes to Minot Air Force Base",
+      "source": "KFYR-TV",
+      "ts": "2026-10-01T21:18:00+00:00",
+      "cluster": "c72ed224fd1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T22",
-    1
+    2
   ],
   "yt_eval": [
     "CBMiygFBVV95cUxNVUdISWhSZWJEbWlLSUl6MkdnZm9JOTI4T0tFYV9kMUU2eHR6ZHVNdnU0TjhiMFBhREJ4WWxaWVlWUjRvTmoxM3hVdHlvTnhvNVljelBNRjFKSVozakZudGw1ZzMyaWZjUUxrZklydTFjSENRelpZd29FYkVBTHVfQ2dUTUZRU3g5MXVpVlFibmduRktOQk4wYmstM2dHYUlXS3pndW50LTd2b0ZMd19pNlptc0lMdHVOTE1ETXVObVFQQWIwRS01SG53",
