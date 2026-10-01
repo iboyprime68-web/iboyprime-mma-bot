@@ -1,5 +1,7 @@
 {
   "seen": {
+    "21cab16cbf32db09": 1790871148.262856,
+    "809007cf05a5c6d5": 1790871147.839746,
     "2c3a32ba778dbbbe": 1790871122.350164,
     "b8de21d50ffe0269": 1790871095.0978942,
     "1cefc26fb353c3fe": 1790871068.181002,
@@ -2497,9 +2499,7 @@
     "02132f4ade29a628": 1790213740.998694,
     "db9a9fb5d556de12": 1790213675.1321936,
     "d516aec270330b53": 1790213675.1294632,
-    "2db688941d11cd38": 1790213486.654736,
-    "d55c9827f903ab67": 1790213359.5157456,
-    "6bd4156e7a27f6b3": 1790213293.9350913
+    "2db688941d11cd38": 1790213486.654736
   },
   "initialized": true,
   "v": 4,
@@ -4255,13 +4255,19 @@
       "source": "MMA Fighting",
       "ts": "2026-10-01T12:47:52+00:00",
       "cluster": "c1eb58ea674"
+    },
+    {
+      "t": "Anything But Fighting: Payton Talbott answers random questions &#124; Part 4",
+      "source": "MMA Fighting",
+      "ts": "2026-10-01T13:33:36+00:00",
+      "cluster": "c4d3a44b6e1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T16",
-    5
+    6
   ],
   "yt_eval": [
     "CBMixAFBVV95cUxONlhaamkzLWxWZDBJQTZULWVURlF4bmtuREVPdTBhdjZXeWVRNXc4aGQ5MjJHZGZhSE9HT2tvMVdETlhnY0VWVnREM0lHVlFSb3BDd0tieUFUYkZfLWlvRlB0REFYbnV5Z2IzRUlTUmNCb01BbldMLTlDVVJPUnNYd3VyRFktd3k5aUpNMEI1NmZEbjRIdXhCcUh3NzZPYTR1Wmw3VDBlVFRuVHUySU9GWDFCanBUMEJJTUJGc2tIN2NxM0ZD",
