@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b23ce56540c639bc": 1790892752.8441918,
     "d7c3fa213cadf765": 1790892683.6876657,
     "d4dc4e89f2ecd3f8": 1790892618.5138626,
     "1308f63ac90a6161": 1790892618.4886603,
@@ -2498,8 +2499,7 @@
     "c93ed8532d98c49f": 1790275469.879867,
     "a92e01c03531a2a3": 1790275405.1531026,
     "8ff12ed59115829d": 1790275404.8584,
-    "b2c89df352ffff83": 1790275337.179396,
-    "08be89278039d023": 1790275336.756975
+    "b2c89df352ffff83": 1790275337.179396
   },
   "initialized": true,
   "v": 4,
@@ -4447,13 +4447,19 @@
       "source": "Adelaide Now",
       "ts": "2026-10-01T21:52:06+00:00",
       "cluster": "c198aeb8d84"
+    },
+    {
+      "t": "UFC 333 adds Brazilian strawweight battle",
+      "source": "MMA Junkie",
+      "ts": "2026-10-01T22:01:00+00:00",
+      "cluster": "cd09daa3208"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T22",
-    10
+    11
   ],
   "yt_eval": [
     "CBMivwFBVV95cUxNRzNDdzZGU0FENmRmR0NmR2VCc3lYVUEtcVJTUlFFNXlEdmEtM0NMcGNtLWtmb2RkREY5V1NqUmZxNEp5blZ2R0NXb0d4NHNya0FZUEk4RFRjYTZwZFRuN2pRZ3RET2dkZnhEcTBPZVY0bkJJZ3lVT3haTHJqSk5VY1VMMFl2U0JuTjFqUFlHZVJjR001cHZqQ3c0QnEyem9FazZwLUNJellwMzRtT3dZN29kbWh2em94UDRQV3VNVQ",
