@@ -4276,7 +4276,6 @@
     7
   ],
   "yt_eval": [
-    "CBMikgFBVV95cUxQdmhZYnhPSm5DckFyU29RUWtULXY0TjJZMGJpeDQtbHdkTW1vZDBVSUlIX0RxNFdMcTZLZ0ZQVjZMQndrU3BDSFZaOXZ5QWlkcjdwdzgxR2RYU0hxQ2FJNkxXejkteEtkYWJfZzA2cWZpWC1yUGZvaUtpVGMySmxIOHNac25ybDJRUmFmSTZrcERJZw",
     "CBMiW0FVX3lxTE04dzBmTllwakxiYkFGeWxrT1BuMVA2Q0I4Y0NWcUNvSEF4bG8tTTNSaENnTDZ3RDJFVFk2WHZrYkxDelZfWFpldWNJLTgtcWRodjhlSGE5dEYzbk0",
     "CBMivAFBVV95cUxPcHBUV2sweUlDaEhleGlTbWR3RmZfQXlhWXlaOEtzWmZjM2VZSnV0NmpoaDk4SWFyV01SZzdZTEhtQmZ2WkpHS3hUbWVBblFKZ2VKd1VXVTFpelc2WVNiSUFEemRHR1RxTUlQWXYwbUE5aDVZS2N5aHIwcEpPcTZ4T3FzcC1wTzc1eF85NnROb0xLb3EtOHplenJzRjlBUW85NFFKcVVYTG1uTTBZeEVsZmVHYjNQV2E5b08tYg",
     "CBMinAFBVV95cUxOWXRuSFVYZDljc3pCNUlMT1hPd3FsWWNaaUsydjdSU1ZjcHFHZjZGc19wRWN6LWR2b1RBNW1UdEZOR1llRWo0SENHa2VqSWNtdGtTQTZpbWNhTTdEZTM5eEFiN1FyekROTmM0Mk1DUDdPM1d1MVVkNXJFbk0tZ2FXX2xWTThRQmVvaElZTHNFVDZkcVhWbnpDTmh0VUU",
@@ -5775,12 +5774,13 @@
     "https://bloodyelbow.com/?p=334761",
     "https://bloodyelbow.com/?p=334770",
     "https://www.mmafighting.com/?p=513414",
-    "https://www.mmafighting.com/?p=510572"
+    "https://www.mmafighting.com/?p=510572",
+    "4a0c2c95-0076-321f-88ec-45f79f7b0100"
   ],
   "daily": {
     "d": "2026-10-01",
-    "ai": 56,
-    "staged": 2,
+    "ai": 57,
+    "staged": 3,
     "prio": 0,
     "lost": 0
   },
@@ -6583,6 +6583,16 @@
         "khabib"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-10-01T16:12:59.265793+00:00",
+      "t": "Natalia Silva unfazed by UFC 332 critics, calls Wang Cong her 'toughest fight'",
+      "names": [
+        "silva",
+        "cong",
+        "wang"
+      ],
+      "img": "cutout:wang-cong"
     }
   ],
   "seed_pending": [],
@@ -6685,14 +6695,16 @@
     "37de2d77ba323573": 1790777665.424458,
     "8a7155ddec380ee4": 1790794607.3716445,
     "6ec06098cfa54e60": 1790810315.2391105,
-    "18645056130f09f4": 1790846013.5426724
+    "18645056130f09f4": 1790846013.5426724,
+    "91090870e871e6a0": 1790871179.267928
   },
   "pinged_titles": [
     [
-      "Usman Nurmagomedov reveals hidden truth about Khabib Nurmagomedov’s fight camps despite UFC retirement",
-      1790846013.5426724,
+      "Natalia Silva unfazed by UFC 332 critics, calls Wang Cong her 'toughest fight'",
+      1790871179.267928,
       [
-        "nurmagomedov"
+        "cong",
+        "silva"
       ]
     ]
   ]
