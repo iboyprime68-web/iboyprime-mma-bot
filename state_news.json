@@ -1,5 +1,8 @@
 {
   "seen": {
+    "9d41798df959507f": 1790871662.0740852,
+    "549b9590d0d5b1c6": 1790871661.6749716,
+    "ec4526013590b460": 1790871661.673351,
     "d2518a68b60f1d7b": 1790871636.3455055,
     "37e67b00a775fd56": 1790871635.8765469,
     "0a3330aefb656350": 1790871635.8760643,
@@ -2496,10 +2499,7 @@
     "98ebfcabfa54fef5": 1790235815.032777,
     "a5d5296653960e3b": 1790235750.2358885,
     "d20d0f620a9f462c": 1790235749.8555534,
-    "9f7ea07ccf4d5628": 1790235685.4293942,
-    "06d192a34ea73a68": 1790235496.620563,
-    "2c9ec44b6d086f28": 1790235431.8647087,
-    "7563fcd7fe915841": 1790235431.5598006
+    "9f7ea07ccf4d5628": 1790235685.4293942
   },
   "initialized": true,
   "v": 4,
@@ -4363,13 +4363,19 @@
       "source": "Cageside Press",
       "ts": "2026-10-01T15:37:07+00:00",
       "cluster": "c512dd0576a"
+    },
+    {
+      "t": "Paddy Pimblett calls for 'The Ultimate Fighter' season with Ilia Topuria: 'A very interesting six weeks'",
+      "source": "MMA Mania",
+      "ts": "2026-10-01T15:35:34+00:00",
+      "cluster": "cb5de955bc2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T16",
-    24
+    25
   ],
   "yt_eval": [
     "CBMioAFBVV95cUxOVUNqdXZpYnYyelV0LXU0RkIxbXdRaU9XM1dGb1hpSWdaYmV5MC1QNl9LSVBTZnhNM1NZX3gzZGFGRWdKRU53cWNYRlItMTh1OWlfQUFsVFZhckJTUFUzTG9kQ1h0YmRzRVJpVVNMQkRzb0ZkZlpqUHk0Q0N0VTVlZ3ZjamZFelhGaVJEUlR4TU1CM0VUZ2V3QUt5Q0p1OHU1",
