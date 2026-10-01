@@ -1,5 +1,7 @@
 {
   "seen": {
+    "21483b72f62ca34b": 1790871533.8165581,
+    "dc470f471705659f": 1790871533.4552166,
     "55353b73652082b9": 1790871508.9340155,
     "a5170cc687bd981f": 1790871508.4372652,
     "39c9faf8d59c1ef5": 1790871483.7265441,
@@ -2497,9 +2499,7 @@
     "c3e0c51ac3583802": 1790235024.290672,
     "8372e73133011312": 1790234958.3881445,
     "76e2c048787d1fce": 1790234957.0633774,
-    "5d92d1832c29bf95": 1790234892.584042,
-    "baa745ebba2ee5f6": 1790234892.0096908,
-    "d0b160969bb20673": 1790234827.0724795
+    "5d92d1832c29bf95": 1790234892.584042
   },
   "initialized": true,
   "v": 4,
@@ -4333,13 +4333,19 @@
       "source": "@arielhelwani",
       "ts": "2026-10-01T15:45:00+00:00",
       "cluster": "c76f59de31f"
+    },
+    {
+      "t": ".@ChuckMindenhall breaks down why he believes Payton Talbott can make a real run at the bantamweight title: “He’s a very interesting soul",
+      "source": "@arielhelwani",
+      "ts": "2026-10-01T16:00:00+00:00",
+      "cluster": "cd818d99c77"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T16",
-    19
+    20
   ],
   "yt_eval": [
     "CBMi1AFBVV95cUxOZ3B6VjBoRHVMMUJQYkpKY1ZlR01GSi1vN0xHcDUxNk9mM0dDTVZKTC1iZGNDLWpfV0FQSGFZMnRVRjhlTEFHZF9VSFRhd282LU42aGpFYmZMdXdUek1nOGx3NTZleFJmYnV3ZXFLdWxZMnZHMUdWREFLcjdkemVENG1IZDlZaFlsSTNwbThkMTcyblJmV1NFbnBIaklTQTBiWEdiOGZkUXR3N0RYd3V0UHF5RFF2Ti1CQWdHOS0xTkpCdmtYVTlFdVh6al9lM2xncHNCYw",
