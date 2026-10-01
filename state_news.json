@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5e61b5d06e65b6a1": 1790893084.8093889,
     "88dfe5926c5eda6b": 1790893059.1734903,
     "e5d36b1ee60a960c": 1790893034.1995287,
     "02d3ebdcd44cff1a": 1790892884.4668558,
@@ -2498,8 +2499,7 @@
     "b4e765cf9e2f8c1a": 1790275731.94988,
     "a888f48fab4d22d5": 1790275667.3741512,
     "19f73f6443897806": 1790275603.0025208,
-    "f9e70129ebc0e29b": 1790275599.2981968,
-    "7a774a245f547d57": 1790275534.5981197
+    "f9e70129ebc0e29b": 1790275599.2981968
   },
   "initialized": true,
   "v": 4,
@@ -4459,13 +4459,19 @@
       "source": "@UFCNews",
       "ts": "2026-10-01T22:16:00+00:00",
       "cluster": "c7cb3274392"
+    },
+    {
+      "t": "Dana White Reveals Why He Skipped Joshua vs. Fury Presser As Eddie Hearn’s Fighter Drops Intriguing Birmingham Hint",
+      "source": "NY Fights",
+      "ts": "2026-10-01T22:16:56+00:00",
+      "cluster": "c4e30dfd297"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T22",
-    12
+    13
   ],
   "yt_eval": [
     "CBMilAFBVV95cUxNVlo5OGdKRnlZTFROS1FpaV9wMjZnX0lsMlBJOUtMd0lpRENlcVVCRF9pRDJmZDAxbHd6ZGhYekJVUVNjVGRqazFqNFlrRzdOSEotM00wMXlDcGlaaFdwVVM2Z2JYVy11Zmx6RjBRQ3B4cmdDU2prM3FCWEI3Y1FvRkhucUZCVjNuRFpheUlWdXpvT1pX",
