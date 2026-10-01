@@ -1,5 +1,7 @@
 {
   "seen": {
+    "e0b0ad2046f0ea78": 1790892415.845385,
+    "6adb0f54e5d86826": 1790892415.5714736,
     "2390cd964eff6046": 1790892368.4546704,
     "9203ab82593d231a": 1790892341.8263679,
     "4a3b0de1248687e5": 1790892341.4992802,
@@ -2497,9 +2499,7 @@
     "caa259ffd88e66ab": 1790275206.147604,
     "a098e74d97513c71": 1790275141.5869389,
     "e9500ca290f6082e": 1790275076.2406187,
-    "bf6eb14c6e0887b1": 1790275075.9487605,
-    "1b58a59594d709ee": 1790275075.9468281,
-    "4d2a0a8a77cb09ec": 1790275010.0755644
+    "bf6eb14c6e0887b1": 1790275075.9487605
   },
   "initialized": true,
   "v": 4,
@@ -4429,13 +4429,19 @@
       "source": "@MMAJunkie",
       "ts": "2026-10-01T22:05:44+00:00",
       "cluster": "c1e7069e811"
+    },
+    {
+      "t": "Head Kick City | Four Unbelievable KOs In Salt Lake City",
+      "source": "UFC.com",
+      "ts": "2026-10-01T21:55:20+00:00",
+      "cluster": "cf73e5e8cd4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T22",
-    6
+    7
   ],
   "yt_eval": [
     "CBMi0AFBVV95cUxNTTJUVWM3b2JuRWZCYjBqNklENWtTYnk1NUR3T0l0aXRheDJCVGxhQXNsQW5pTHhuOFZ4dno1SmFqMzZ6Y3Y1SnNQZllTS2tOWFhzeFpkeHV1WGw4R2xvSUp1RkVYcWxyZjI0dFFMYzI0OWpsaTFyNDI5U3g0NkFnZWFLVHE5Qm40QUtiU25IcTF4cWVJZzhleEJEMFdJMFA1MGFKenF0T2I2SlkzSG1oTEtTUXRCM2ozdnJfaFUtOWp2QTI5Y3VjU1VMeG5nTXVq",
