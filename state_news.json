@@ -1,5 +1,7 @@
 {
   "seen": {
+    "b34cb37dd78f79ff": 1790871390.9830227,
+    "f55c6d45c5b29af3": 1790871390.483422,
     "ea79c0c24a8a8030": 1790871364.4838085,
     "4bdbf65b9620f85e": 1790871364.0929945,
     "31667124358aa311": 1790871338.3266277,
@@ -2497,9 +2499,7 @@
     "8a80fe6e087ee61a": 1790234779.0752711,
     "36dcea27d83b1992": 1790234754.7566893,
     "91e1218ffe63e53d": 1790215766.4376328,
-    "8da630d4380703e9": 1790215701.6807606,
-    "c553e9893f4456ea": 1790215636.4754753,
-    "1d02ff061a1520a2": 1790215570.138435
+    "8da630d4380703e9": 1790215701.6807606
   },
   "initialized": true,
   "v": 4,
@@ -4303,13 +4303,19 @@
       "source": "@ufc",
       "ts": "2026-10-01T15:00:01+00:00",
       "cluster": "ceb4d5e5e76"
+    },
+    {
+      "t": "The #UFC332 lineup might not blow anyone’s mind, but that is of no concern to headliner Natalia Silva heading into her first title fight. 🤷🏻♀️",
+      "source": "@MMAJunkie",
+      "ts": "2026-10-01T15:21:01+00:00",
+      "cluster": "cef52ce30c9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T16",
-    14
+    15
   ],
   "yt_eval": [
     "f66bf5e9-0b17-38a0-ac60-b9e91d9d173f",
