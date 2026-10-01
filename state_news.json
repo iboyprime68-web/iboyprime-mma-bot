@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9f591fffd991b28b": 1790892067.9647367,
     "f08dbcb11c7c5eb3": 1790892023.6843452,
     "5e2351b6ebaa1497": 1790891998.1413212,
     "1be9bd5dc538e5a9": 1790891930.519927,
@@ -2498,8 +2499,7 @@
     "f429abe840a4f509": 1790274682.5042908,
     "5eb5d0cd74b1bffd": 1790274616.4475427,
     "be01d39de728707c": 1790274550.6482956,
-    "dd40e21c58d3c8c9": 1790274485.469652,
-    "c89d016f6f90ee39": 1790274420.6155121
+    "dd40e21c58d3c8c9": 1790274485.469652
   },
   "initialized": true,
   "v": 4,
@@ -2527,12 +2527,6 @@
       "source": "MMA Fighting",
       "ts": "2026-09-30T00:08:57+00:00",
       "cluster": "c2b977fff8d"
-    },
-    {
-      "t": "Dana White's Contender Series 94 live updates, round-by-round coverage",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-29T22:00:33+00:00",
-      "cluster": "ccb16744eed"
     },
     {
       "t": "DWCS fight canceled hours prior to event after UFC hopeful falls ill",
@@ -4399,13 +4393,19 @@
       "source": "Sportsnet.ca",
       "ts": "2026-10-01T21:28:00+00:00",
       "cluster": "c55d4ca5c00"
+    },
+    {
+      "t": "“He’s gotta stop with this bulls**t,” Aljamain Sterling has firm opinions on the oblique kick ban",
+      "source": "MMA Sucka",
+      "ts": "2026-10-01T21:28:38+00:00",
+      "cluster": "cc1490a70ed"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T22",
-    0
+    1
   ],
   "yt_eval": [
     "CBMiigFBVV95cUxNLXkwYURtMUZCek14RzRQZHZHa3Y1WVV5Q1A4c1E5bU0zMDNObTR3TWFPdUFtamZYOUk5OWViOVRySW5TSW52dWdBVktWYmt3VU9QcG8xM1JMWllFNmp1bHE1VWtsLVhzeDVlU2ttdUR4aU01QldzTS1HcWI4ajhhVXkzZUx1bG9fNUE",
