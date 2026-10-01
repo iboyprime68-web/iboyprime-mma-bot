@@ -1,5 +1,6 @@
 {
   "seen": {
+    "91ca353204fa5d22": 1790871687.3871257,
     "9d41798df959507f": 1790871662.0740852,
     "549b9590d0d5b1c6": 1790871661.6749716,
     "ec4526013590b460": 1790871661.673351,
@@ -2498,8 +2499,7 @@
     "3ec294c641d115be": 1790235815.3167355,
     "98ebfcabfa54fef5": 1790235815.032777,
     "a5d5296653960e3b": 1790235750.2358885,
-    "d20d0f620a9f462c": 1790235749.8555534,
-    "9f7ea07ccf4d5628": 1790235685.4293942
+    "d20d0f620a9f462c": 1790235749.8555534
   },
   "initialized": true,
   "v": 4,
@@ -4369,13 +4369,19 @@
       "source": "MMA Mania",
       "ts": "2026-10-01T15:35:34+00:00",
       "cluster": "cb5de955bc2"
+    },
+    {
+      "t": "#UFC332 'Embedded' No. 4: Flyweight faceoff in the park. I think it was the 4th of July. Wait. Nope. 30th of September. Still, Silva-Cong got intense.",
+      "source": "@MMAJunkie",
+      "ts": "2026-10-01T16:16:05+00:00",
+      "cluster": "ccd01fcfe32"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T16",
-    25
+    26
   ],
   "yt_eval": [
     "CBMiqwFBVV95cUxPLXZHdGJNYms3a29salBjXzgyQnI5OEtfTFVWUC10V0ozLTVtcURUZ3RUTTFJc3BwRXl3ZEVSdkhnOXNtZ2M3WG9YTDRlNlZXek1DbUdLZ3RqYVhzUVBROEhKZ1MtaWl4U29veXliRWtHSXVUUkx4VXZxb3NZOXY5YTY4enduNkQ3bk1QVGZuaThwd3MzWF83MXdWZFlZaFA3VlpWTEJKUHdJY2c",
