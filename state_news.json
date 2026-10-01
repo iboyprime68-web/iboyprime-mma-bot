@@ -1,5 +1,8 @@
 {
   "seen": {
+    "c4782aaeb4d4738d": 1790846674.0119872,
+    "521a20a1f0a165f6": 1790846673.7463815,
+    "00976151dcb99026": 1790846673.744883,
     "0b0c9905ff16266c": 1790846501.5256655,
     "f3b3ba2e90626131": 1790846501.2281642,
     "e6b3452b3e4e7d27": 1790846501.2268186,
@@ -2496,10 +2499,7 @@
     "4a74ddff5d9a7329": 1790213092.2329342,
     "048581255c793c87": 1790213026.4187405,
     "dcc4d9e69c8177ce": 1790212961.3543997,
-    "2abf18f26a7a06ce": 1790212895.8660634,
-    "74689556adf04a7f": 1790212895.560121,
-    "79c150f8ed941ab8": 1790212895.558403,
-    "2d2e9c023772ce84": 1790212829.9813278
+    "2abf18f26a7a06ce": 1790212895.8660634
   },
   "initialized": true,
   "v": 4,
@@ -4525,13 +4525,19 @@
       "source": "Sherdog",
       "ts": "2026-10-01T05:59:29+00:00",
       "cluster": "cad1b699358"
+    },
+    {
+      "t": "Anthony Romero UFC Profile: Record, Stats and Background",
+      "source": "Fightomic",
+      "ts": "2026-10-01T09:18:26+00:00",
+      "cluster": "cc44e0dbd41"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T09",
-    9
+    10
   ],
   "yt_eval": [
     "CBMiyAFBVV95cUxNV3NOY0p0dVlXTDFXdEY2ZkNQTmJhMmkxaHVoQVhjSE1lOXk0WU9kdm9nMEYtMU5nYk1aYUlXYVh6R1N4aEVqekN6SGxzYjI4amlkS3pMUWFtNDRDX0I3NlFzckdCTnB0UkxjRG1GTTBrWkhzbzZfQlhacDdRcllWNUxaTFVSMjE1YWZoNGRMcDNJdjhHa0otUmlUWXB2dE5vQmhnRVdVN3pZeWFabHhQZ1JPeXNTcUtBejZmNk1rdmkxSjJRVUNCcQ",
