@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d019e40535677558": 1790844332.6941292,
     "2e2e49d250f39c1c": 1790844201.3893967,
     "7bcd3252d7a462ce": 1790844136.6947877,
     "6ffa641c02231ce0": 1790844136.6937249,
@@ -2498,8 +2499,7 @@
     "c2cd33b9d706ed70": 1790205282.9247122,
     "ce2a71a5419adb73": 1790205154.5836537,
     "d8f01f760e8c2635": 1790204711.4375713,
-    "53300fa04097f74e": 1790204711.426034,
-    "922c2123db253fe3": 1790204711.413449
+    "53300fa04097f74e": 1790204711.426034
   },
   "initialized": true,
   "v": 4,
@@ -4447,13 +4447,19 @@
       "source": "The Times of India",
       "ts": "2026-10-01T08:32:00+00:00",
       "cluster": "c023c50b77c"
+    },
+    {
+      "t": "Alexander Hernandez says feds asked if he planned to throw UFC fight",
+      "source": "Sherdog",
+      "ts": "2026-10-01T02:56:50+00:00",
+      "cluster": "cf8361573d6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T08",
-    11
+    12
   ],
   "yt_eval": [
     "CBMiiAFBVV95cUxNcTdZS0JBbDU5bE54aVBuSEZIZnlJZFpMRXhITXZDNHBEWHd3S0gxb1RWdUlIV3hNaUZweVE0dDhZS093elBwR2lZMDZMamlBNlJ2UUtxaE9ZTjMyVzM2a1lrX0pkd1U4NE9MTElXWGFBZ1o3VHZ2b0NPTDA3TWtEMDN1ekVjcDJN",
