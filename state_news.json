@@ -1,5 +1,8 @@
 {
   "seen": {
+    "72a9444f12b60302": 1790891471.2887592,
+    "b8c3b6562c5b4855": 1790891470.9977865,
+    "bfed525204d43f06": 1790891470.9724145,
     "557d2d73a2e38314": 1790891445.272896,
     "f550a1739f318c87": 1790891444.7212284,
     "c4cb4cbaf1bcfa86": 1790891418.9046645,
@@ -2496,10 +2499,7 @@
     "d1941a40649a8f99": 1790258456.608264,
     "da5b68b5398295de": 1790258455.8182926,
     "a23fe0f9fc4a1975": 1790258455.8161778,
-    "7bed98bf36db97bc": 1790258455.8138952,
-    "dea9cb107ad89fd4": 1790258407.0734348,
-    "8614fcb56b83dd1f": 1790258321.9615242,
-    "59d2613f4f6a1db3": 1790258132.6783197
+    "7bed98bf36db97bc": 1790258455.8138952
   },
   "initialized": true,
   "v": 4,
@@ -4351,13 +4351,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-01T19:30:32+00:00",
       "cluster": "c34731c085c"
+    },
+    {
+      "t": "Hype Ecuador fight card, start time, date and location &#124; Aldo vs. Vera",
+      "source": "MMA Mania",
+      "ts": "2026-10-01T21:15:28+00:00",
+      "cluster": "c933baa890a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T21",
-    24
+    25
   ],
   "yt_eval": [
     "CBMiwAFBVV95cUxQRHdNQlNFQmQ3YjFDeENLdVJuUGVaQjZ5WkN5VUZOUFYzZWliRUsybzNHRFlxNU1KYzZHS09NalRLUkptakJPRjFqU25mT3RLS1ZVNkJVQnhhTGEwVmtJSjJUVVdpLTRPTzhJLUlINFMyT1NJRUp4ekhDWTMta3BWQzdaQ2xPaktRaHVRaVdyT2VzcDJGa2N6SmRoVlV0U0lSLVRaRjdMaXVURzRrTGtBM2U5cDNVekdIbjVRYm9jQkU",
