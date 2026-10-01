@@ -1,5 +1,6 @@
 {
   "seen": {
+    "019f0bc5e452d462": 1790871043.202461,
     "3e316a3089f45977": 1790871016.2178988,
     "bafe18cbba873222": 1790846930.415968,
     "9afc796409d1c91f": 1790846804.169028,
@@ -2498,8 +2499,7 @@
     "6bd4156e7a27f6b3": 1790213293.9350913,
     "06d21ccc83bd49ff": 1790213228.8472347,
     "bc21698fe4db75ec": 1790213228.4968207,
-    "1b606e572902e22c": 1790213162.9563696,
-    "4a74ddff5d9a7329": 1790213092.2329342
+    "1b606e572902e22c": 1790213162.9563696
   },
   "initialized": true,
   "v": 4,
@@ -4237,13 +4237,19 @@
       "source": "MMA Fighting",
       "ts": "2026-10-01T05:01:21+00:00",
       "cluster": "cd52311fe1d"
+    },
+    {
+      "t": "Meet Mike Vazquez – the man who turned BKB Bare Knuckle into one of combat sports’ fastest-rising empires",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-01T06:29:09+00:00",
+      "cluster": "c26242dcefc"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T16",
-    1
+    2
   ],
   "yt_eval": [
     "CBMi0gFBVV95cUxPYnlSblZvT1BkMkI4QmllSVNCR2ZUWUdnOFQ3Q19lXzg2UVRJWHo4QzlYeG83azA4Qzk3RUVlbHZYQTZUZFFsQzV4bmRFT2dodDRKUVlfZUNQakpTTVExLWh6c0RKZTVBQmJOckJFN21CeTN4S1RWMzIwS21kOHdhOUNNVHppZzBMUy1DRXdHN2lST3lsb0tlOEdUN1BuNFAwVENUemltbXlNV28zTDZ2eGpidDZ0Z2VxY1NGeTk2UTl6VHJwcjZ4YjREb3ZtQUhhVEE",
