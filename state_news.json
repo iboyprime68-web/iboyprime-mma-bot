@@ -1,5 +1,6 @@
 {
   "seen": {
+    "295de92b86d9adaa": 1790820275.7973003,
     "96b70c6c5d82db93": 1790820212.0842216,
     "61048aa61421b5bd": 1790820212.0827603,
     "5cd508ddaee2d70f": 1790820212.0810719,
@@ -2498,8 +2499,7 @@
     "fcb0da58c442c0b9": 1790196593.0053732,
     "faa6b82e08bb47ef": 1790196528.787631,
     "1d0576e3fa20f1bc": 1790196464.0549386,
-    "bfc0feddfdcd9804": 1790196400.6571121,
-    "46cfb4cd1744d9b9": 1790196276.0365684
+    "bfc0feddfdcd9804": 1790196400.6571121
   },
   "initialized": true,
   "v": 4,
@@ -4513,13 +4513,19 @@
       "source": "RNZ",
       "ts": "2026-10-01T01:56:44+00:00",
       "cluster": "cd326e5e755"
+    },
+    {
+      "t": "MMAmania.com’s ‘Prospect of the Month:’ Muhammad Davis",
+      "source": "MMA Mania",
+      "ts": "2026-10-01T00:50:51+00:00",
+      "cluster": "c909dbb0c09"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T02",
-    4
+    5
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=332276",
