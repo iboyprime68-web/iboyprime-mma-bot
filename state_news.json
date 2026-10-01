@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c53f776b4a8da8dd": 1790873946.0765486,
     "046cac1d8da63888": 1790873881.494693,
     "1ad88679a48423ec": 1790873814.0871334,
     "31da816d2fa86d2e": 1790873688.0151541,
@@ -2498,8 +2499,7 @@
     "3f5480a72b172cb9": 1790256338.2412164,
     "7066c447ed5c6877": 1790256338.237906,
     "71d87063eaad3c32": 1790256313.569429,
-    "772b21ba8daee548": 1790256313.2727706,
-    "56ee429c9dd848f5": 1790256289.1542816
+    "772b21ba8daee548": 1790256313.2727706
   },
   "initialized": true,
   "v": 4,
@@ -4411,13 +4411,19 @@
       "source": "UFC.com",
       "ts": "2026-10-01T16:06:16+00:00",
       "cluster": "c590b24d7e6"
+    },
+    {
+      "t": "Worst numbered event ever? UFC 332 preview, Fury-Joshua fallout, P4P Kings, more | The Boys in the Back | October 1, 2026",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-01T16:49:20+00:00",
+      "cluster": "c98321046b0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T16",
-    36
+    37
   ],
   "yt_eval": [
     "439f3cad-ec3d-3143-9f2a-c6d6991fc4dd",
