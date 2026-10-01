@@ -1,5 +1,6 @@
 {
   "seen": {
+    "18645056130f09f4": 1790846013.9080172,
     "09c134b1645685f4": 1790845949.4897072,
     "4381684170d3cbb8": 1790845949.4885051,
     "9ffdfbee9a3c4d87": 1790845882.7070384,
@@ -2498,8 +2499,7 @@
     "9e02a7fc05ac4d70": 1790212629.185116,
     "34ab904563a5aee4": 1790212628.7707157,
     "e727d6197042b397": 1790212628.7677271,
-    "da00b35dc7775a8d": 1790212563.6249268,
-    "c84237e030869859": 1790212563.329813
+    "da00b35dc7775a8d": 1790212563.6249268
   },
   "initialized": true,
   "v": 4,
@@ -4495,13 +4495,19 @@
       "source": "Sherdog",
       "ts": "2026-10-01T04:08:07+00:00",
       "cluster": "c684f1ca463"
+    },
+    {
+      "t": "Usman Nurmagomedov reveals hidden truth about Khabib Nurmagomedov’s fight camps despite UFC retirement",
+      "source": "The Times of India",
+      "ts": "2026-10-01T09:03:00+00:00",
+      "cluster": "c255dbac8ee"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T09",
-    4
+    5
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=332338",
@@ -6903,21 +6909,15 @@
     "af5347bdadd49baf": 1790751140.3970726,
     "37de2d77ba323573": 1790777665.424458,
     "8a7155ddec380ee4": 1790794607.3716445,
-    "6ec06098cfa54e60": 1790810315.2391105
+    "6ec06098cfa54e60": 1790810315.2391105,
+    "18645056130f09f4": 1790846013.5426724
   },
   "pinged_titles": [
     [
-      "Court McGee explains why retirement is the last thing on his mind ahead of his final fight at UFC 332",
-      1790794607.3716445,
+      "Usman Nurmagomedov reveals hidden truth about Khabib Nurmagomedov’s fight camps despite UFC retirement",
+      1790846013.5426724,
       [
-        "court"
-      ]
-    ],
-    [
-      "UFC analyst: 'No easy option for Justin Gaethje,' including retirement",
-      1790810315.2391105,
-      [
-        "gaethje"
+        "nurmagomedov"
       ]
     ]
   ]
