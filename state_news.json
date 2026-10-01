@@ -1,5 +1,7 @@
 {
   "seen": {
+    "064092d5771f6aa6": 1790891656.652057,
+    "b9c9e55c67b84042": 1790891655.5917208,
     "1f5e7af99ea2d918": 1790891589.0264256,
     "d0c79bf450e14da0": 1790891586.9672346,
     "ab1284506f923897": 1790891520.221435,
@@ -2497,9 +2499,7 @@
     "1b2bc9f9c7d6e541": 1790274005.6304817,
     "da8c49b326bec470": 1790259355.5530064,
     "a080a97e1c2f9893": 1790259225.9476187,
-    "eec4af57be7185df": 1790259097.0966952,
-    "1f0ac4e062cdeb48": 1790258719.221834,
-    "bb1cbf8ddaf8f2dc": 1790258719.2215235
+    "eec4af57be7185df": 1790259097.0966952
   },
   "initialized": true,
   "v": 4,
@@ -4369,13 +4369,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-01T20:08:53+00:00",
       "cluster": "c7d5dcadc81"
+    },
+    {
+      "t": "UFC 332: What Payton Talbott said leading up to his fight with Deiveson Figueiredo",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-01T20:50:57+00:00",
+      "cluster": "c4ff2d4ad2c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T21",
-    27
+    28
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Joanderson-Brito-says-coach-predicted-Giga-Chikadze-slip-at-UFC-331-202861",
