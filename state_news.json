@@ -1,5 +1,6 @@
 {
   "seen": {
+    "272aeac23d7f7534": 1790819791.5889602,
     "a68e509aaccb8923": 1790819766.755621,
     "ab33cac12b131a74": 1790819742.570283,
     "74cf3ca719621c19": 1790819742.3195207,
@@ -2498,8 +2499,7 @@
     "f94d9b0541323229": 1790194753.9427698,
     "bc5ffb980056ab6a": 1790194753.3048675,
     "8cbe7e3c35b6d3b6": 1790194753.2834501,
-    "6df19e15f796c86e": 1790194753.2802534,
-    "c881a7221f5f2ca3": 1790194689.9691494
+    "6df19e15f796c86e": 1790194753.2802534
   },
   "initialized": true,
   "v": 4,
@@ -4459,13 +4459,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-01T01:00:00+00:00",
       "cluster": "c8f3dbf6ac9"
+    },
+    {
+      "t": "UFC 332 Gets Last-Minute Matchup Switchup",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-01T00:02:54+00:00",
+      "cluster": "c85aa22c193"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T01",
-    6
+    7
   ],
   "yt_eval": [
     "CBMivAFBVV95cUxPcDNRQmNZSjhBYXJHNG8zNFNrcFNJTzI0RUd5LWx4RHkzZUlzcHRxelV6ZTJmU3F1YmhLc2FOOUFIUVF6MzFZX0hrdHNtQXBxWWY4Ukc2dXh4VUlZT3BHTWFGM1gxamRjQnRDaTY5MzExR19wTFNFQUx2WkNjTVNNUjdfa1JpR1ZBYk0yMGVFNk9rUzI5ZktMeFd5dDZhSzdTbk5CQ2VESnRsY202dTFMczlUSVN5UlBLT1Uzbg",
