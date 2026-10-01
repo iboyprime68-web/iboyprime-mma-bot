@@ -1,5 +1,7 @@
 {
   "seen": {
+    "b1eea63ee5388861": 1790871585.1066535,
+    "f5e3502497ddcc19": 1790871584.7908769,
     "947bc3255514d9f7": 1790871559.282936,
     "21483b72f62ca34b": 1790871533.8165581,
     "dc470f471705659f": 1790871533.4552166,
@@ -2497,9 +2499,7 @@
     "6185fe9793c8ea9c": 1790235097.697848,
     "29aab7703f5123b9": 1790235052.6021419,
     "a339bf3847743923": 1790235052.2138288,
-    "c3e0c51ac3583802": 1790235024.290672,
-    "8372e73133011312": 1790234958.3881445,
-    "76e2c048787d1fce": 1790234957.0633774
+    "c3e0c51ac3583802": 1790235024.290672
   },
   "initialized": true,
   "v": 4,
@@ -4345,13 +4345,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-01T14:09:06+00:00",
       "cluster": "c150fe04f2f"
+    },
+    {
+      "t": "#UFC332: @SeanSheehanBA breaks down the headliner: Natalia Silva vs. Cong Wang",
+      "source": "@sherdogdotcom",
+      "ts": "2026-10-01T16:00:03+00:00",
+      "cluster": "c4ce7c13cca"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T16",
-    21
+    22
   ],
   "yt_eval": [
     "CBMiqwFBVV95cUxPTFl0Y2tZMkVHU2k0eWF6VG01RjEtSE03UU5KM2xkUWFSNkg0dEJHVExNSnN2b3FNNVNsTHItTDdFaEIxWDZLb0RlNjlKb1hpV2wtSFp1TzlBejVPdk11S0g3ak5YWGpXN09TdjJPcWg1WWdoOVFjV1loWDk3MzhBUTYtT1VSWTJQeGdyNW1YOUNKczJXM1kzM1NsUlB3MVNDQ245amZuU0pndGs",
