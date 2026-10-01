@@ -1,5 +1,7 @@
 {
   "seen": {
+    "178791e724914637": 1790844957.9883466,
+    "307900ae9743a9a6": 1790844957.666618,
     "884fd6c41873c1ef": 1790844786.550135,
     "37a41488ce5720b9": 1790844719.6053555,
     "8cbd282910bf94f7": 1790844652.588555,
@@ -2497,9 +2499,7 @@
     "7cf702b1d1ffc045": 1790206615.040309,
     "707a6187f2a99a43": 1790206550.4491396,
     "da2a2af990153d96": 1790206173.9124222,
-    "071ae697b57e9e7d": 1790206047.284898,
-    "83ca14cacda4f580": 1790205982.240985,
-    "120ff51b057e6db4": 1790205917.7324376
+    "071ae697b57e9e7d": 1790206047.284898
   },
   "initialized": true,
   "v": 4,
@@ -4471,13 +4471,19 @@
       "source": "The Mac Life",
       "ts": "2026-10-01T08:50:43+00:00",
       "cluster": "cbdc5768d70"
+    },
+    {
+      "t": "UFC 332’s King Green names BMF title as ‘ultimate honor’: ‘I wanna earn my shot’",
+      "source": "MMA Mania",
+      "ts": "2026-10-01T03:25:29+00:00",
+      "cluster": "c9f83417980"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T08",
-    15
+    16
   ],
   "yt_eval": [
     "CBMi2gFBVV95cUxQRFhWUlpmZUZ1WGZRRm1fcjZnRFhYRHJRa1V6dWlWVnhsSFE5dUtlWVJnX3BkbE1zenFNMkR0amoxcjUxWjk0LU1nYks3d1V1TXE2YjloYndfZVNMVUxJR0lNSmI3R1NZTFJXVlNpZ0ZRQVZmdGZERWpNNm5TanBqWWlvWi0tcGdCWkNQUm1rbk1oN1dWWHBVbk10NTYxcHgtU09FSFVfUmFsdTZucld0UFJtR0pTUkozM1lJUjIwRURIem5KOUpKdm0taDI4REVrVFJZay1zcGZwUQ",
