@@ -1,5 +1,10 @@
 {
   "seen": {
+    "9203ab82593d231a": 1790892341.8263679,
+    "4a3b0de1248687e5": 1790892341.4992802,
+    "36430b7dd6ed1555": 1790892341.4973717,
+    "97e2c8aa0280d8f5": 1790892341.4963567,
+    "6ffe24f66d03dbb0": 1790892341.4955072,
     "34bf9a6e9f566f15": 1790892274.4155688,
     "4fd358206a11c7a4": 1790892207.0439134,
     "b005a6b078f3c0c6": 1790892206.6953342,
@@ -2494,12 +2499,7 @@
     "bf6eb14c6e0887b1": 1790275075.9487605,
     "1b58a59594d709ee": 1790275075.9468281,
     "4d2a0a8a77cb09ec": 1790275010.0755644,
-    "163abe1c176d0f71": 1790275009.7850666,
-    "787cddd533b2e5e1": 1790274945.153945,
-    "4f39a3aa6e79f813": 1790274944.5879397,
-    "60bbcbd5acd5392a": 1790274944.586604,
-    "c9d2877bba3a6acd": 1790274944.5849795,
-    "990a742f4910c3c1": 1790274920.677349
+    "163abe1c176d0f71": 1790275009.7850666
   },
   "initialized": true,
   "v": 4,
@@ -4417,13 +4417,19 @@
       "source": "talkSPORT",
       "ts": "2026-10-01T21:29:17+00:00",
       "cluster": "c294ec2cfd1"
+    },
+    {
+      "t": "Payton Talbott makes a bold claim about striking with Deiveson Figueiredo before their UFC 332 fight",
+      "source": "MMA Sucka",
+      "ts": "2026-10-01T21:52:37+00:00",
+      "cluster": "c0eb5973877"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T22",
-    4
+    5
   ],
   "yt_eval": [
     "CBMi4wJBVV95cUxOaUs5RWJqMXZtcGN4N2JMeDAyZVRkamIyV2FsTDFFcUZrM0VKWTBLZTdhakVQVmxRUktYWE1qVWtRRlYydEQyYTMybGdOdWhtMGFXbVlIZmhqaW5yXzJrbDhKaXRPblB1VmVkYVRiVEJIcUh3bEJoQWhmLWh0bDB5b21vSkJWZDZOUk55ZFhKRHlaM3dnZUR5ck55WDg3bnFvbGZOSTM5YjE0SFlaU0MxbUJ1RGM4dVdBa2RJRXN1SFo4R0FyUUlrQnNEdVAwZ0E2XzY5aGNyaGJXeWl0NFl4ckZJRzBHQ2d0NjZMaXNJeFdxbzQyNWl2LWRHTkxnWkUyNENEOVBJWTExRzN1Z3VnZEJCekx2TUk5eGpOQ3hBVUtKVXpBRWcydWZGR1ZkOFBLdHc2WGlhMGhBbHNfYjFNbmN4R1dwNVhMNHVGYjVsRm5jVFVXZXExOWZiWi14dWZXSjVV",
