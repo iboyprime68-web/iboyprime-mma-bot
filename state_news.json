@@ -1,5 +1,6 @@
 {
   "seen": {
+    "74a919ea6d8582c9": 1790821088.3602948,
     "8ef699bbc044154e": 1790820713.1057813,
     "78bf5bd96b43e953": 1790820464.5734932,
     "295de92b86d9adaa": 1790820275.7973003,
@@ -2498,24 +2499,11 @@
     "ea185b4cbae3db5b": 1790203981.2597358,
     "3621acbd7c3f6585": 1790196967.7722318,
     "a2d0c73911797117": 1790196780.2075806,
-    "fcb0da58c442c0b9": 1790196593.0053732,
-    "faa6b82e08bb47ef": 1790196528.787631
+    "fcb0da58c442c0b9": 1790196593.0053732
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "DWCS 94 Could Produce Another African UFC Prospect in Adama Diop",
-      "source": "MMA Sucka",
-      "ts": "2026-09-29T02:13:39+00:00",
-      "cluster": "cab907fd6f0"
-    },
-    {
-      "t": "Australia to host UFC Fight Night in February",
-      "source": "Sportsnet.ca",
-      "ts": "2026-09-29T02:16:00+00:00",
-      "cluster": "c993e452152"
-    },
     {
       "t": "Ailin Perez changes tone after UFC Vegas 121 and thanks Norma Dumont",
       "source": "MMA Sucka",
@@ -4519,13 +4507,19 @@
       "source": "MMA Mania",
       "ts": "2026-10-01T00:50:51+00:00",
       "cluster": "c909dbb0c09"
+    },
+    {
+      "t": "Mike Winkeljohn addresses mental aspect of Tom Aspinall's eye injury, how the ex-UFC champ can handle it",
+      "source": "MMA Sucka",
+      "ts": "2026-10-01T02:17:16+00:00",
+      "cluster": "c22e602ed58"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T02",
-    5
+    6
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510924",
