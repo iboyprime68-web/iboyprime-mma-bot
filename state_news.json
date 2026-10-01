@@ -1,5 +1,8 @@
 {
   "seen": {
+    "4403cdce033659c4": 1790892551.6044714,
+    "73b9eea399e327fb": 1790892551.3239248,
+    "e802f5b474b3c278": 1790892551.3205929,
     "a313bbe9fb551f12": 1790892484.2296581,
     "e0b0ad2046f0ea78": 1790892415.845385,
     "6adb0f54e5d86826": 1790892415.5714736,
@@ -2496,10 +2499,7 @@
     "810dddf44394e9eb": 1790275336.754877,
     "bae45399ef435068": 1790275336.7518759,
     "3b3b806ab84687f7": 1790275272.0412598,
-    "2569fae24b15be83": 1790275206.6930537,
-    "caa259ffd88e66ab": 1790275206.147604,
-    "a098e74d97513c71": 1790275141.5869389,
-    "e9500ca290f6082e": 1790275076.2406187
+    "2569fae24b15be83": 1790275206.6930537
   },
   "initialized": true,
   "v": 4,
@@ -4435,13 +4435,19 @@
       "source": "Yahoo",
       "ts": "2026-10-01T21:56:25+00:00",
       "cluster": "c078f049a77"
+    },
+    {
+      "t": "Vitor Petrino Calls Out Curtis Blaydes",
+      "source": "heavy.com",
+      "ts": "2026-10-01T21:56:27+00:00",
+      "cluster": "c859ad55fea"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T22",
-    8
+    9
   ],
   "yt_eval": [
     "CBMikwFBVV95cUxPYlhkSHMxTi05RzRqQTN0QVR2cHhxUEhnbWlHTEJleG5vWmdfWnBXZFhjSzZFOWhpcG1UcVoxT0V4Z2ZlaFBlZ0FCU1FaUTFPYUpLaTNUV1BmdGRWdmhiZjlDR0NIelluQTBmR1lURXRJSVJSSHJlVFF1cjdmSmwwNjdFdDZCWXYxTDlVZTRyVm1sNmM",
