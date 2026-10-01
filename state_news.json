@@ -1,5 +1,7 @@
 {
   "seen": {
+    "fdb6859325f607e5": 1790891394.015725,
+    "5d91487b1b942347": 1790891393.5737455,
     "cf506458e79da853": 1790891368.6858213,
     "bdee35b0ba65d167": 1790891368.418306,
     "d9ba8014e1bbf44a": 1790891368.4123297,
@@ -2497,9 +2499,7 @@
     "59d2613f4f6a1db3": 1790258132.6783197,
     "a5b1bdb4b4c4da6b": 1790258132.6748238,
     "1d500a7c2f879a52": 1790257879.9120848,
-    "aacc3c2602f54219": 1790257627.6147277,
-    "b6a686d9d0f1cdf6": 1790257561.3701594,
-    "5ee709086d11a91c": 1790257561.0475454
+    "aacc3c2602f54219": 1790257627.6147277
   },
   "initialized": true,
   "v": 4,
@@ -4339,13 +4339,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-01T19:00:00+00:00",
       "cluster": "cd577df20a6"
+    },
+    {
+      "t": "UFC hopefuls booked for potential final Dana White's Contender Series fight season (via @mma_kings) #DWCS",
+      "source": "@MMAJunkie",
+      "ts": "2026-10-01T21:05:40+00:00",
+      "cluster": "c12f9f2810b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T21",
-    21
+    22
   ],
   "yt_eval": [
     "CBMikgFBVV95cUxOVGJRQXNUckNYb2h6dUIyVVhKdENBdmx3OFhxUUo1Yk1uYnAwLWlld1pza0hPWlQ5dVIydi1IV2FIN0dSNG00ckZHYmZwVDh2SWgyRFVrN05IXzRIaW9rV1ByM0tzdWxWOWxPZW9LTkNHb1Fmc3ZwOXFPRUFiWEkwRkNXaWdLaEJTanZsLU1STG43dw",
