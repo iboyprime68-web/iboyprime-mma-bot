@@ -1,5 +1,7 @@
 {
   "seen": {
+    "c2c96b8eb29ad5ff": 1790891235.3987024,
+    "926306b3212f341f": 1790891234.891553,
     "3f01eabed90a1f20": 1790891209.7419045,
     "a008ebf40275a997": 1790891209.3569589,
     "2d1eab9259d61cda": 1790891182.799312,
@@ -2497,9 +2499,7 @@
     "01841b32daaaf802": 1790257208.0445077,
     "8bc455e1ce905766": 1790257207.0159614,
     "cbde5251d2e2f1e9": 1790257164.0046372,
-    "1116e30b4f439256": 1790257098.6925223,
-    "141c1fb85aadfa93": 1790257098.3695447,
-    "227b80bc1799dfc4": 1790257098.368025
+    "1116e30b4f439256": 1790257098.6925223
   },
   "initialized": true,
   "v": 4,
@@ -4303,13 +4303,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-01T18:25:12+00:00",
       "cluster": "c28aeb5b3df"
+    },
+    {
+      "t": "Natalia Silva and Wang Cong took different paths to the vacant flyweight title bout at #UFC332, but all that matters is they are the ones fighting fo…",
+      "source": "@UFCNews",
+      "ts": "2026-10-01T20:04:00+00:00",
+      "cluster": "c51e4687525"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-01T21",
-    15
+    16
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=510685",
