@@ -1,5 +1,8 @@
 {
   "seen": {
+    "df437fa3038fe0b4": 1790974031.7356615,
+    "1e198037f712047f": 1790974031.1762745,
+    "ff8301843a4c7058": 1790974031.174303,
     "8c717105266f5dcc": 1790973965.5107212,
     "2ebc70078ec5d722": 1790973897.9341586,
     "fc4528e926859240": 1790973897.7635083,
@@ -2496,10 +2499,7 @@
     "3e16d34112f5d081": 1790361076.0508065,
     "235f941cb8db7af0": 1790361075.7128808,
     "7e877215aa01e2ec": 1790361075.7078445,
-    "07f85800a839b2c6": 1790361009.792128,
-    "5a2f6e954aef8cb8": 1790361009.462012,
-    "537802792e4737cd": 1790360944.6773422,
-    "3d1b2d005b1d22e3": 1790360944.1705506
+    "07f85800a839b2c6": 1790361009.792128
   },
   "initialized": true,
   "v": 4,
@@ -4621,13 +4621,19 @@
       "source": "MMA Mania",
       "ts": "2026-10-02T19:05:46+00:00",
       "cluster": "c4285410a56"
+    },
+    {
+      "t": "UFC 332 Staff Picks: Vacant 125-lb Title Is Up For Grabs",
+      "source": "MMA Sucka",
+      "ts": "2026-10-02T20:07:45+00:00",
+      "cluster": "c69d1b90515"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T20",
-    29
+    30
   ],
   "yt_eval": [
     "CBMiZEFVX3lxTE5IY0xLaUt1bWozNTJwRXA4QV9RNFRlWWROSFE5Qm91aU1hR19PVjNKanExNUNmTW1PRWRtN1NtUnpJN0pjcm4tR1RETmg2aWNQYTNkX2VQa2hrclByczRtT2c3ZHY",
