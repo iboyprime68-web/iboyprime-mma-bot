@@ -1,5 +1,7 @@
 {
   "seen": {
+    "62e584c8fd178a2b": 1790956818.6909785,
+    "ef1a6f53062f69e2": 1790956817.8032858,
     "ade9af475c9f349a": 1790956792.0889997,
     "25bb02676b0cacdb": 1790956724.2258854,
     "619d9ff64741b23b": 1790956723.8889518,
@@ -2497,9 +2499,7 @@
     "474a3f94543df97b": 1790323375.869331,
     "e4e32da106658b36": 1790323375.867612,
     "374ad015a975509f": 1790323311.8017313,
-    "c311da6edcf13a0c": 1790323245.6491919,
-    "f20f39c50f74bd46": 1790323245.1915054,
-    "bcb66c060f328276": 1790322929.8395176
+    "c311da6edcf13a0c": 1790323245.6491919
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-30T17:34:27+00:00",
       "cluster": "c91fc9aa877"
-    },
-    {
-      "t": "Dana White addresses Raoni Barcelos scare at UFC Vegas 121: ‘Thank God, he’s doing well’",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-30T16:00:00+00:00",
-      "cluster": "c5fe97a0db4"
     },
     {
       "t": "Fury vs. Joshua press conference video, LIVE Netflix stream",
@@ -4525,13 +4519,19 @@
       "source": "MMA Sucka",
       "ts": "2026-10-02T15:16:21+00:00",
       "cluster": "cdc5e8a92f3"
+    },
+    {
+      "t": "11-1 lightweight finally books UFC 334 debut over a year after earning a contract from Dana White",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-02T16:00:00+00:00",
+      "cluster": "c3660244627"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-02T15",
-    53
+    "2026-10-02T16",
+    1
   ],
   "yt_eval": [
     "CBMikAFBVV95cUxOaVZhblh2T3VpbXVtY0JBT0NGVjF5bEF3Mjh1cFlzNW9WM2s0cVZhWEU3eWxjSjREMExnMzYzOWRsVko4VV9OelZpMzEwenBsRkJ0WHVWUnFRYTdZenRSNnhnQWx4U0szblVVejd2dzlIcHFlYXI2bk8zUjN5SVhhRkxkb2wyMnlZVUphX2k2TEc",
