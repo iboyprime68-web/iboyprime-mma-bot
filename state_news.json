@@ -1,5 +1,9 @@
 {
   "seen": {
+    "afc3d01362d3a629": 1790956229.9125116,
+    "c3829cd17e926f0a": 1790956229.5909193,
+    "e1d4eae2affa8b8a": 1790956229.5853405,
+    "459fd7f46b28a3a2": 1790956229.5796263,
     "cbf8c48e231c3ec7": 1790956204.609876,
     "de6fc5bb152f0839": 1790956176.6675508,
     "809bccc09d3fa641": 1790956176.207473,
@@ -2495,11 +2499,7 @@
     "e312479aea547087": 1790321453.695155,
     "66944071d4e8dda6": 1790321453.1498501,
     "03a675f3cf8f40f7": 1790321386.477809,
-    "1da4837917b165c4": 1790321318.7607794,
-    "78e3f7ae8b35d88e": 1790321271.2056618,
-    "97bbc183750a3aec": 1790321270.6553712,
-    "91bc98d2aa2df063": 1790321270.6536655,
-    "e7cbfa112e2346b0": 1790321244.8682601
+    "1da4837917b165c4": 1790321318.7607794
   },
   "initialized": true,
   "v": 4,
@@ -4435,13 +4435,19 @@
       "source": "MMA Mania",
       "ts": "2026-10-02T13:51:01+00:00",
       "cluster": "cacfedce030"
+    },
+    {
+      "t": "#UFC332 weigh-in results: Rafael dos Anjos (155.5)",
+      "source": "@MMAFighting",
+      "ts": "2026-10-02T15:14:36+00:00",
+      "cluster": "cf1542e3670"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T15",
-    37
+    38
   ],
   "yt_eval": [
     "CBMingFBVV95cUxQVmt3M3ViTTFubTBELUQ0a0xSQk9YdGxxT2JtenlWaE9WODJtT3kxeTZRb0ZBY3VQRnNFVTBRLURMUzJIRjNrWXppN1p2TGpMY1U4X0tQdDJ3TWJQOHYwaTF2V3NQTGhnMHNBS1NPRVB3WWV1MS01V2NhNDQ0ek9QSzdIR3dOYnZ3dmNIV19iSUNOV0tKT0RUSU9rSnpuZw",
