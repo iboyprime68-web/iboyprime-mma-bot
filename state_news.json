@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7380222fed97fd46": 1790928796.6394413,
     "10bd87cbc98c9577": 1790928770.2085466,
     "3d3d5bbd1e22948f": 1790928744.1686895,
     "971e59e94e6d42b4": 1790928718.5720365,
@@ -2498,8 +2499,7 @@
     "473c7d6f7837c9f7": 1790290852.626107,
     "8d012d83353dd7af": 1790290808.4886866,
     "55f483be6978fff5": 1790290786.108804,
-    "69ce803c233f522c": 1790290597.9102569,
-    "5ca505da947f3681": 1790290597.907198
+    "69ce803c233f522c": 1790290597.9102569
   },
   "initialized": true,
   "v": 4,
@@ -4339,13 +4339,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-02T03:31:12+00:00",
       "cluster": "c18b256c939"
+    },
+    {
+      "t": "PFL MENA 11 is headlined by light-heavyweight trilogy fight a decade in the making",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-02T05:11:44+00:00",
+      "cluster": "c192ba8d5b9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T08",
-    6
+    7
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=511352",
