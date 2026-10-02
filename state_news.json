@@ -1,5 +1,6 @@
 {
   "seen": {
+    "13ce34da78855af3": 1790957224.5837393,
     "f3d5920c0269aae3": 1790957154.6327603,
     "7b0784d0e0bc5940": 1790957154.2650995,
     "1476d3c34ef08735": 1790957154.2645004,
@@ -2498,8 +2499,7 @@
     "fb1a9dbdbf5b2e1c": 1790342841.4443173,
     "d22dfdb48767cfc7": 1790342814.4259741,
     "f7cf556d5ed5b6f8": 1790342814.139364,
-    "0d56492851090a86": 1790342814.1347616,
-    "be7d77c4f97690ce": 1790342788.9658422
+    "0d56492851090a86": 1790342814.1347616
   },
   "initialized": true,
   "v": 4,
@@ -4561,13 +4561,19 @@
       "source": "The Times of India",
       "ts": "2026-10-02T15:30:00+00:00",
       "cluster": "c2744df5954"
+    },
+    {
+      "t": "UFC Legend Tito Ortiz Closes Restaurant After Devastating Boat Crash",
+      "source": "The Body Lock",
+      "ts": "2026-10-02T15:30:54+00:00",
+      "cluster": "c955ba9b066"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T16",
-    7
+    8
   ],
   "yt_eval": [
     "https://www.mmamania.com/473424/noche-ufc-4-results-sooo-about-last-night-silva-vs-delgado",
