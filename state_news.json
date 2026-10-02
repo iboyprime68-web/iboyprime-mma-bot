@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e975d613c2afdc98": 1790955669.2917542,
     "b4bb42b32f36c22e": 1790955643.3164234,
     "13146d343a56df4e": 1790955616.5910256,
     "59a8abd03c711639": 1790955615.9430757,
@@ -2498,8 +2499,7 @@
     "c78914b0b1becf57": 1790295853.7728734,
     "af10fc042ec68ffb": 1790295853.7509809,
     "1e6e7357bdb2a1d5": 1790295790.4320445,
-    "78cb9910352a4904": 1790295480.9133909,
-    "d1f13db7a119ae2a": 1790295352.7648914
+    "78cb9910352a4904": 1790295480.9133909
   },
   "initialized": true,
   "v": 4,
@@ -4309,13 +4309,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-02T12:50:23+00:00",
       "cluster": "cd73408ce12"
+    },
+    {
+      "t": "Official result: Alridah Alnemar def. Ali Alshowakh via Unanimous Decision (30-27, 30-27, 30-27) R3, 3:00 #PFLMENA11",
+      "source": "@sherdogdotcom",
+      "ts": "2026-10-02T14:25:22+00:00",
+      "cluster": "ccbfe58813d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T15",
-    16
+    17
   ],
   "yt_eval": [
     "CBMixgFBVV95cUxNQ1hpdnI0bVNaYmlxSmVrMW5BVE9TMWN4QlV0S3lVa29ETURmZWVoRExHYm5wTXNTbnpRNjc0X2g5MTVPaWhOMnJhOFpPLTAxS3RLdnBSejBVS0o2dlc0TXNCQTFHRWRfU0xEWk10eDNoVkQzQ1dobzlKbXQ3cWZQdzRKcFhRcHdXS0dIZ040eE8tTXFvOFZFQ2pvRGUtVklTX1JNdk45YnNfVFZLV00zV0dNMUNMa1poNU5uOWpxOTZVYTJLV2c",
