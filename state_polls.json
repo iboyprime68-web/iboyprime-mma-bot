@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 22,
   "staged_at": [
-    "2026-09-29T20:53:39.962726+00:00",
     "2026-09-30T15:58:30.207487+00:00",
     "2026-09-30T20:52:05.919574+00:00",
-    "2026-10-01T16:31:45.013135+00:00"
+    "2026-10-01T16:31:45.013135+00:00",
+    "2026-10-02T15:52:32.134795+00:00"
   ],
   "asked": [
-    "Who wins the UFC 333 trilogy, Yan or Merab?",
     "Who is the baddest dude to ever step in the octagon?",
     "Who is the most overrated fighter in the UFC right now?",
     "Who is the greatest UFC flyweight of all time?",
@@ -47,26 +46,27 @@
     "Who is the most dangerous striker in UFC history?",
     "What is the most shameless thing a UFC fighter has ever done?",
     "Which loss broke you the most as a fan?",
-    "Who is the most underrated fighter in the UFC right now?"
+    "Who is the most underrated fighter in the UFC right now?",
+    "Who wins the UFC 332 flyweight title fight, Natalia Silva or Wang Cong?"
   ],
   "last_entry": {
-    "q": "Who is the most underrated fighter in the UFC right now?",
+    "q": "Who wins the UFC 332 flyweight title fight, Natalia Silva or Wang Cong?",
     "type": "poll",
     "options": [
       {
-        "label": "King Green",
-        "emoji": "👑",
+        "label": "Natalia Silva",
+        "emoji": "🇧🇷",
         "art": ""
       },
       {
-        "label": "Payton Talbott",
-        "emoji": "🔥",
+        "label": "Wang Cong",
+        "emoji": "🇨🇳",
         "art": ""
       },
       {
-        "label": "Marvin Vettori",
-        "emoji": "🇮🇹",
-        "art": ""
+        "label": "Draw or NC",
+        "emoji": "🤝",
+        "art": "Two flyweight gloves touching in the center of a dark octagon, spotlight on the seam"
       },
       {
         "label": "Other (comment below)",
@@ -74,6 +74,6 @@
         "art": ""
       }
     ],
-    "gag": "A forgotten fighter sitting alone in a dusty gym, trophy covered in cobwebs"
+    "gag": "A referee holding a tiny flyweight belt on a kitchen scale, both fighters shrugging in the background"
   }
 }
