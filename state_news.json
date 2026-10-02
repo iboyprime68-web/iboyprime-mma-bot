@@ -1,5 +1,7 @@
 {
   "seen": {
+    "ce15bd3658288a8e": 1790973621.187438,
+    "aedc44326f5cd549": 1790973620.460036,
     "11d21552e414478e": 1790973554.2873166,
     "3c4dbb2a5ed7d53a": 1790973553.744377,
     "2a93f05035bf3344": 1790973507.9985855,
@@ -2497,9 +2499,7 @@
     "738ce9798e04305f": 1790360652.866232,
     "b436405edb9f85cd": 1790360630.0769098,
     "1fce04ae3be2b0f6": 1790360629.7659876,
-    "30bd14ee0e48876e": 1790360607.3397882,
-    "c45b9867ebe32c2b": 1790360606.791205,
-    "8a025ece53ce0459": 1790360606.789229
+    "30bd14ee0e48876e": 1790360607.3397882
   },
   "initialized": true,
   "v": 4,
@@ -4579,13 +4579,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-02T18:44:40+00:00",
       "cluster": "ccafa463373"
+    },
+    {
+      "t": "Ex-champ views UFC 332 as defining moment for Payton Talbott",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-02T19:30:21+00:00",
+      "cluster": "c2b1d740169"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T20",
-    21
+    22
   ],
   "yt_eval": [
     "CBMipgFBVV95cUxOdFdQVnZ2ZTJqNTdMUVVhUlJub2NFYWRyM2w4SldncjQyTm5xZXhsUEhmRjZmRGxsVU5ZLWJHN2duWFVHSFZ6Q0VlOXVzazdMTlJDOEVHOFBoNjJzQi10RWhPTi1Qdkl6RkRZaDZDMjZOVFdCZ2ZfTjhNaEdjeHViNWhES1laR1hMVnJRMWc4a1JjeUhWcHdCQkZtZWUyX0JpLTZkcFZR",
