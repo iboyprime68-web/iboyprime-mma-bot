@@ -1,5 +1,7 @@
 {
   "seen": {
+    "556a326114dd0514": 1790955855.9636402,
+    "1328ff6f4ae41116": 1790955855.4926398,
     "cdd71adae7b5631f": 1790955829.8906448,
     "bdba1c69fc96a8cb": 1790955802.5957775,
     "e05eb8f73acaf4c0": 1790955802.2994711,
@@ -2497,9 +2499,7 @@
     "10522830e89ce51f": 1790299112.821728,
     "c471987948914926": 1790299112.4269886,
     "bf4148ce0756cfb4": 1790299112.4075456,
-    "f49937a4f9467adc": 1790299112.406332,
-    "776ba5824ceef8f7": 1790299112.405879,
-    "b5be7c8e0ea03361": 1790299045.749405
+    "f49937a4f9467adc": 1790299112.406332
   },
   "initialized": true,
   "v": 4,
@@ -4351,13 +4351,19 @@
       "source": "@UFCNews",
       "ts": "2026-10-02T14:49:55+00:00",
       "cluster": "cc8991fc21b"
+    },
+    {
+      "t": "After back-to-back amateur action, let’s now pass to the professionals",
+      "source": "@sherdogdotcom",
+      "ts": "2026-10-02T14:55:29+00:00",
+      "cluster": "c0a25ab3105"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T15",
-    23
+    24
   ],
   "yt_eval": [
     "CBMi1wFBVV95cUxONFBJSHRYd1JJdEpkS0VUUnNkZVdjWHJheUVQd3d6X1NqUEtaaUhHRkJqZ081SEhGeGk4RmVkU0h2NW9VRDlwUzRsaUVxMjNxc2hjZmVTOXVHUzh3bXZscVJsdGh4a0dMZTlOMU1nTWFGNjdPRlZBTnU4Yk9KZ2ZoYU8tamFSVUxEUzY1dUs5MXZSdWQ2WmY4TWt4Tm4wSkd1bFpSWjNsR1JXV1VXSHRVMlI4aU1YWk1ZaHk4VTUydEZ6OUNmeWZuZGpJcWNjWGNCeGVldlY5OA",
