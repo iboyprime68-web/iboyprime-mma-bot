@@ -1,5 +1,8 @@
 {
   "seen": {
+    "8e769752e66a5585": 1790904823.5017302,
+    "e4114450308a37ac": 1790904823.116894,
+    "be3c478aafbfe863": 1790904823.114247,
     "4a16dc85c45971bf": 1790904796.7582674,
     "95076860ea8fb441": 1790904796.3660257,
     "3031a7233009e372": 1790904771.568248,
@@ -2496,10 +2499,7 @@
     "1e344be887a44945": 1790288222.9290168,
     "57c4a53923832b0a": 1790288222.9278777,
     "774caa1ccb810d42": 1790288159.0417268,
-    "fb6ed8369b01b166": 1790288094.8277853,
-    "5141befebc6b9f54": 1790288030.3051906,
-    "80ee4ad0a136a4bb": 1790288005.8261187,
-    "9e650b0be851bcd7": 1790288005.4644437
+    "fb6ed8369b01b166": 1790288094.8277853
   },
   "initialized": true,
   "v": 4,
@@ -4375,13 +4375,19 @@
       "source": "@MMAFighting",
       "ts": "2026-10-02T01:24:12+00:00",
       "cluster": "cf10ce8e100"
+    },
+    {
+      "t": "Court McGee Reveals Why UFC 332 is His Retirement Fight",
+      "source": "heavy.com",
+      "ts": "2026-10-02T01:03:00+00:00",
+      "cluster": "ca21ad6a4b4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T01",
-    18
+    19
   ],
   "yt_eval": [
     "CBMikwFBVV95cUxOSTFpTHYyNTJzVnc1R0kzbGcyWFlIQVotX2lGREJKZVJfeGhwUGhTM2pITnEyclJKN2RfU0JtTGQtNUdpWTVpbm1OYkNoMGNlZkloYkdYdFd0bHN1RzdJYTNON3VwZFFERWZvMTFVTkpWSTBIRjdnRndsVmNZOF9ubXNpclhOdUE1RFNVMTVfa3JqOGM",
@@ -6823,17 +6829,10 @@
     "18645056130f09f4": 1790846013.5426724,
     "91090870e871e6a0": 1790871179.267928,
     "48f2d669d01a5509": 1790890925.4567206,
-    "f4cef734d45c3b07": 1790891337.6578112
+    "f4cef734d45c3b07": 1790891337.6578112,
+    "8e769752e66a5585": 1790904823.1449943
   },
   "pinged_titles": [
-    [
-      "Natalia Silva unfazed by UFC 332 critics, calls Wang Cong her 'toughest fight'",
-      1790871179.267928,
-      [
-        "cong",
-        "silva"
-      ]
-    ],
     [
       "UFC 332 press conference video",
       1790890925.4567206,
@@ -6845,6 +6844,11 @@
       [
         "nurmagomedov"
       ]
+    ],
+    [
+      "Court McGee Reveals Why UFC 332 is His Retirement Fight",
+      1790904823.1449943,
+      []
     ]
   ]
 }
