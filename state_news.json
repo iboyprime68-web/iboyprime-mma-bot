@@ -1,5 +1,10 @@
 {
   "seen": {
+    "032406ab6c7d5f40": 1790956065.6280603,
+    "672c2f4e3b681d75": 1790956065.2129571,
+    "789ce685e7efd519": 1790956065.2075193,
+    "f5caa03326d4a40d": 1790956065.2020686,
+    "0ed836861fda2ec8": 1790956065.1965396,
     "a116b668666a4152": 1790956040.3823047,
     "71de538cc1079b8a": 1790956013.0447662,
     "e17eb3db6cbcb4a9": 1790956012.667087,
@@ -2494,12 +2499,7 @@
     "2e094c14b3b35963": 1790299946.5826237,
     "33437665afea2b53": 1790299881.7088892,
     "28377e5af967f8c9": 1790299881.705963,
-    "08caa3a75457d53c": 1790299442.1399157,
-    "97ad2402283669cf": 1790299441.634715,
-    "5f27189b81478915": 1790299252.0796719,
-    "c675fab452169781": 1790299252.0780926,
-    "9cd230bec5da0df9": 1790299252.0765216,
-    "28e264d4d83d56b5": 1790299180.1806242
+    "08caa3a75457d53c": 1790299442.1399157
   },
   "initialized": true,
   "v": 4,
@@ -4399,13 +4399,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-02T14:30:00+00:00",
       "cluster": "cbb30cf4fa9"
+    },
+    {
+      "t": "First to the scale for #UFC332, Wang Cong weighs in at 124.5 lbs 💪 [ OCT 3 | LIVE at 8pmET on @ParamountPlus and @CBS ]",
+      "source": "@ufc",
+      "ts": "2026-10-02T15:06:00+00:00",
+      "cluster": "c16c2ea45a4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T15",
-    31
+    32
   ],
   "yt_eval": [
     "CBMif0FVX3lxTFBxMnRWVlNheTZCVFcwczFPZjJ3SzMyYmtfYXVHNjIxQ3RCTXlBV3IyakNtUVdhYXJZVlk5bzIzT1hnc29iYko1NGcyT21TbHhsOC0tR1lGVlZGQzJUZGRpV0pqeExSVnk0NmVwSloxdG5icjgzQ29CT1k0R3o0cjg",
