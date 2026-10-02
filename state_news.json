@@ -1,5 +1,10 @@
 {
   "seen": {
+    "dceec7c09b85f2ac": 1790956255.9473884,
+    "8e0df1684bbc4439": 1790956255.651455,
+    "33ebaaea836399a2": 1790956255.6455965,
+    "b18da039f12a0b56": 1790956255.6441119,
+    "b5fe8c10d35b4021": 1790956255.6383429,
     "afc3d01362d3a629": 1790956229.9125116,
     "c3829cd17e926f0a": 1790956229.5909193,
     "e1d4eae2affa8b8a": 1790956229.5853405,
@@ -2494,12 +2499,7 @@
     "4eea9732a1eed7df": 1790321598.3777213,
     "8a2a1d913dbbd131": 1790321572.0774982,
     "61a1dd00c55923d3": 1790321571.64632,
-    "27c70a92b468ebd5": 1790321521.0934699,
-    "c3f9aca704ad25e0": 1790321520.791419,
-    "e312479aea547087": 1790321453.695155,
-    "66944071d4e8dda6": 1790321453.1498501,
-    "03a675f3cf8f40f7": 1790321386.477809,
-    "1da4837917b165c4": 1790321318.7607794
+    "27c70a92b468ebd5": 1790321521.0934699
   },
   "initialized": true,
   "v": 4,
@@ -4441,13 +4441,19 @@
       "source": "@MMAFighting",
       "ts": "2026-10-02T15:14:36+00:00",
       "cluster": "cf1542e3670"
+    },
+    {
+      "t": "#UFC332 weigh-in results: Payton Talbott (135.5) With Deiveson Figueiredo also successfully making weight, Saturday’s bantamweight co-main event is o…",
+      "source": "@MMAFighting",
+      "ts": "2026-10-02T15:17:23+00:00",
+      "cluster": "c1ad4537706"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T15",
-    38
+    39
   ],
   "yt_eval": [
     "CBMilAFBVV95cUxORGNfaXM2XzlMTWtQVm0zRTZIcU80Nm8zRmxxMlhCaHBsUndQVFZNVVFMMThXZDA1eWJvYVdwZXNYTFR6dDdrLUZFQ1BkVkI1d25jVEg5TzEwNWpiYnRoZ0ZUbUlJcWpPQ3pTcEFvY1htcTVTZ2lTV2NwZTA2c1B0QWRsQm9Cd2sycDhlQ3JCRFo2aDZz",
