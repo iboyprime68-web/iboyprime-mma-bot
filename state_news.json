@@ -1,5 +1,9 @@
 {
   "seen": {
+    "c18cf582a4ab01fd": 1790956124.017301,
+    "13933f0e59836672": 1790956123.4132764,
+    "26e6bf5c9ca53182": 1790956123.391323,
+    "981b2ec5bf4e5cff": 1790956123.3873262,
     "914446b39505e462": 1790956091.5342553,
     "a52034c284eeaecd": 1790956090.7721038,
     "13437e48d517cf58": 1790956090.7664967,
@@ -2495,11 +2499,7 @@
     "9d164c4b58da09c2": 1790301657.4717438,
     "19fd5df7b33f5145": 1790301657.4702275,
     "9ba61c4531da9bae": 1790301528.3554287,
-    "5dc99c7ab8da5570": 1790301400.180199,
-    "ec4466c8be39b691": 1790301273.4723723,
-    "dc158a23e42f3dd6": 1790300646.1740289,
-    "53f7213514bf5c92": 1790300456.7195833,
-    "f53304500c6b6592": 1790300140.1106436
+    "5dc99c7ab8da5570": 1790301400.180199
   },
   "initialized": true,
   "v": 4,
@@ -4411,13 +4411,19 @@
       "source": "@mma_orbit",
       "ts": "2026-10-02T15:07:30+00:00",
       "cluster": "cdda72eaa93"
+    },
+    {
+      "t": "UFC 332 Weigh-In Results: Silva, Wang Hit the Scale Before Title Fight",
+      "source": "FightBook MMA",
+      "ts": "2026-10-02T14:51:04+00:00",
+      "cluster": "ca933d2eeb9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T15",
-    33
+    34
   ],
   "yt_eval": [
     "CBMihgFBVV95cUxNdHN3Tnh2ejVaZnA5ZnJBTnpUNFVzTjJHVUpHMFpxbUJrd2M1VWtLTmVaajRpcFRhMjlUaU5yU0ZxMEZGWDMxeFNwTTI5WUV0dUo0dWpVc2xwX1U0S00yNTBYbkFhTUJFUTEtVHZiNXpzQVJyZVB5cEJIZERZbXpmX09wX2FzQQ",
