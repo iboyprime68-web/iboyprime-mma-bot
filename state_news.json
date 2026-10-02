@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1c3074195c7b8c74": 1790928954.0644522,
     "b8f76564272e9663": 1790928920.7530813,
     "f107ee97015d3bcc": 1790928897.7601,
     "e875909956a4d0cc": 1790928873.3117151,
@@ -2498,8 +2499,7 @@
     "fedfb3a5f58648e3": 1790293305.066297,
     "13a1243574e0b8dd": 1790293305.0631995,
     "414ff490fece3997": 1790293242.0315158,
-    "92d3ee0a89a1df79": 1790290916.7254975,
-    "c5341d9e86413806": 1790290916.7233567
+    "92d3ee0a89a1df79": 1790290916.7254975
   },
   "initialized": true,
   "v": 4,
@@ -4369,13 +4369,19 @@
       "source": "EssentiallySports",
       "ts": "2026-10-02T07:27:00+00:00",
       "cluster": "cb2917465bc"
+    },
+    {
+      "t": "Doh! Dana White clearly doesn’t know his UFC 332 headliner Wang Cong: ‘She beat Rose Namajunas!’",
+      "source": "MMA Mania",
+      "ts": "2026-10-02T05:22:50+00:00",
+      "cluster": "c162050f44b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T08",
-    11
+    12
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=511356",
