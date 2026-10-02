@@ -1,5 +1,6 @@
 {
   "seen": {
+    "38aaf461014a0528": 1790973250.5169258,
     "9b2d89768cc0dd78": 1790973224.580887,
     "30c4161a1c170dc1": 1790973224.3583314,
     "fe756191a0907b43": 1790973199.9742742,
@@ -2498,8 +2499,7 @@
     "7f8e1812136bd630": 1790344936.8939936,
     "9181a2c1bee8a49d": 1790344936.8917005,
     "2ebc705749f2f74a": 1790344936.889692,
-    "e7abc4f0ec57b34f": 1790344872.6379547,
-    "1ebb9b4921fbdfd0": 1790344872.017676
+    "e7abc4f0ec57b34f": 1790344872.6379547
   },
   "initialized": true,
   "v": 4,
@@ -4507,13 +4507,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-02T19:00:00+00:00",
       "cluster": "c902cd8047f"
+    },
+    {
+      "t": "UFC 332 weigh-in results: 1 main card fighter misses weight",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-02T17:04:30+00:00",
+      "cluster": "c1ae3add7ae"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T20",
-    9
+    10
   ],
   "yt_eval": [
     "CBMisAFBVV95cUxQVXdTdkxjM0hVQW0zcmFqNzgxZnVqNmduZnh6dXBBN0JIWnpZWWZhcUhlZ1RmMkJEYkJZYmlqUE12MEFVRWVNYV9rUGZpbmhYa3FhRFBQM003NkFSRmZRbmk0Q0FDY09rRW9rcF9ERmNXcTA3S1pGaVdjUTNoN0lndUloZUpsWGc0WVhERWhDSm5xRTlUcHFsM2s0NFhuYkdiS3BNVGltblA1Tzk4QVRlRQ",
