@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7ca96a34da55fccc": 1790956588.0559096,
     "5ff92b06ee20f24f": 1790956564.3929005,
     "74c7d3af378cf071": 1790956518.8862803,
     "bfd5e49a525ddd4a": 1790956491.8944736,
@@ -2498,8 +2499,7 @@
     "3b3cb4b0d41e613a": 1790322501.8946104,
     "e1024472db9776ab": 1790322501.6247606,
     "a9f99ee4d6287b6d": 1790322501.5891988,
-    "dbac2a0ca2ca8ef8": 1790322351.8153727,
-    "2a167a059aa40417": 1790322351.5434494
+    "dbac2a0ca2ca8ef8": 1790322351.8153727
   },
   "initialized": true,
   "v": 4,
@@ -4507,13 +4507,19 @@
       "source": "Sportskeeda",
       "ts": "2026-10-02T15:04:00+00:00",
       "cluster": "cc51cb87fb3"
+    },
+    {
+      "t": "Ryan and Ashley Smith’s vision brings UFC 332 back to renovated Delta Center",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-02T15:04:42+00:00",
+      "cluster": "c729531dded"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T15",
-    49
+    50
   ],
   "yt_eval": [
     "f0855b00-1346-3678-a296-799f880625fd",
