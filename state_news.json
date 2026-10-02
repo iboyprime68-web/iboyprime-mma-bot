@@ -1,5 +1,7 @@
 {
   "seen": {
+    "ea63401846d757c3": 1790955431.9410632,
+    "0a69490521df0552": 1790955431.5778847,
     "91a77e039208bec9": 1790955406.2799075,
     "07f56a6218889ef4": 1790955372.6267822,
     "5c849006dd1b69a1": 1790955346.6339612,
@@ -2497,9 +2499,7 @@
     "9dbcaf16b381435a": 1790294961.9126155,
     "9f030a51881ebe85": 1790294827.3428698,
     "e2a0c342ca0faa74": 1790294701.232313,
-    "1fad696b8300fd2b": 1790294701.2306528,
-    "a11f458b5505a40a": 1790294701.229428,
-    "1f8fd98d91d2f737": 1790294634.9567864
+    "1fad696b8300fd2b": 1790294701.2306528
   },
   "initialized": true,
   "v": 4,
@@ -4255,13 +4255,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-02T11:00:06+00:00",
       "cluster": "ca7c14650d2"
+    },
+    {
+      "t": "Rafael dos Anjos open to finally fighting Conor McGregor, but won’t ‘sit on the sidelines for 2 years’ like Michael Chandler",
+      "source": "MMA Fighting",
+      "ts": "2026-10-02T12:43:44+00:00",
+      "cluster": "cc54ce10748"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T15",
-    7
+    8
   ],
   "yt_eval": [
     "7ac6c230-f0c2-3320-a152-22f6c0f5c6a2",
