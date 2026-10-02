@@ -1,5 +1,6 @@
 {
   "seen": {
+    "85491f54c6896586": 1790931649.0657165,
     "2a6491671ebcd2be": 1790931623.2328775,
     "09c9e7bd754919c7": 1790931430.2741938,
     "f741379332abac47": 1790931430.0089536,
@@ -2498,8 +2499,7 @@
     "4bf43f496dfad0c6": 1790294442.9056983,
     "00f96dddc2f59479": 1790294442.903938,
     "413e106a2ad60bec": 1790294442.9023862,
-    "f22b3f19db1b3bd0": 1790294442.90043,
-    "470f685cd6069ee0": 1790294442.8987885
+    "f22b3f19db1b3bd0": 1790294442.90043
   },
   "initialized": true,
   "v": 4,
@@ -4441,13 +4441,19 @@
       "source": "mmasucka.com",
       "ts": "2026-10-02T08:24:02+00:00",
       "cluster": "c2e10b418b2"
+    },
+    {
+      "t": "Daniel Cormier is convinced his Conor McGregor prediction involving one UFC star will stand test of time",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-02T09:00:00+00:00",
+      "cluster": "c39de574420"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T09",
-    1
+    2
   ],
   "yt_eval": [
     "ac275619-bdf3-3de5-9911-182bf774f48f",
