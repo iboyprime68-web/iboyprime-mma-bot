@@ -1,5 +1,7 @@
 {
   "seen": {
+    "2a9ab28353a55809": 1790904718.9376087,
+    "146e9bd4d5926cef": 1790904718.138878,
     "812c261a5d72f813": 1790904693.1017659,
     "69365d283e372534": 1790904692.817635,
     "d1b532ddba420557": 1790904667.9771273,
@@ -2497,9 +2499,7 @@
     "48a46d744eec162d": 1790287736.282107,
     "27a0dc0edcca7384": 1790287714.1424162,
     "fc7db2e95792cfd3": 1790287691.4322908,
-    "9ba304ce761dced5": 1790277277.589847,
-    "eb79ed00bc675b46": 1790277276.6793766,
-    "7fb8fbf590dedb5d": 1790277213.3935084
+    "9ba304ce761dced5": 1790277277.589847
   },
   "initialized": true,
   "v": 4,
@@ -4351,13 +4351,19 @@
       "source": "@MMAFighting",
       "ts": "2026-10-02T00:41:58+00:00",
       "cluster": "c911e9bb23f"
+    },
+    {
+      "t": "Deiveson Figueiredo requests UFC flyweight title shot 9 months after his weight miss at bantamweight",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-02T01:00:00+00:00",
+      "cluster": "cbb4fa247d9"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T01",
-    14
+    15
   ],
   "yt_eval": [
     "CBMiwwFBVV95cUxNUWkycmZMVjZvck1hamVFSHUtTFdacXNsZ2hucWNfNlZFQW55YVhkd2hyVkUtSGZLTVl2eThOY25fbFdqNzlWLU1JMHVDb2tjYmpOR2JEOHZUM2xITlh5NDFpcXUtcFE0TzkzbEQ1dnJmcV9qOHpsZC1KekJQa2Nub0FONGYzLWNIMlpLVWlFejdQOU9DazI0ajYtS09Gdjd4bjRfSEpWMDhpMlFGUUJOTXBETGZ3cVMtNzhleGNPQV9zcUE",
