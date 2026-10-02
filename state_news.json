@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1f8719b1c30df4cc": 1790955883.7249112,
     "556a326114dd0514": 1790955855.9636402,
     "1328ff6f4ae41116": 1790955855.4926398,
     "cdd71adae7b5631f": 1790955829.8906448,
@@ -2498,8 +2499,7 @@
     "9b0a44ca2fbb30ac": 1790299179.5896142,
     "10522830e89ce51f": 1790299112.821728,
     "c471987948914926": 1790299112.4269886,
-    "bf4148ce0756cfb4": 1790299112.4075456,
-    "f49937a4f9467adc": 1790299112.406332
+    "bf4148ce0756cfb4": 1790299112.4075456
   },
   "initialized": true,
   "v": 4,
@@ -4357,13 +4357,19 @@
       "source": "@sherdogdotcom",
       "ts": "2026-10-02T14:55:29+00:00",
       "cluster": "c0a25ab3105"
+    },
+    {
+      "t": "Dana White praises UFC for how it handled Raoni Barcelos incident: ‘That’s the way’",
+      "source": "MMA Mania",
+      "ts": "2026-10-02T12:08:32+00:00",
+      "cluster": "c9f2a11d4e3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T15",
-    24
+    25
   ],
   "yt_eval": [
     "https://www.mmamania.com/473405/highlights-open-ufc-331",
