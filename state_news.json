@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1d0ad6357568e2ba": 1790955320.8506668,
     "67b39eda540dbf60": 1790955293.6755617,
     "3d8814d76393d784": 1790955267.9910147,
     "619ea367a7222e71": 1790955241.875186,
@@ -2498,8 +2499,7 @@
     "1f8fd98d91d2f737": 1790294634.9567864,
     "5e49d75fc0226771": 1790294568.4772146,
     "318a02397f0415c3": 1790294568.1894267,
-    "da568b443bfa538d": 1790294442.9112833,
-    "6d92cbccfd1781cb": 1790294442.9091682
+    "da568b443bfa538d": 1790294442.9112833
   },
   "initialized": true,
   "v": 4,
@@ -4231,13 +4231,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-02T11:00:00+00:00",
       "cluster": "c1c4d5084c1"
+    },
+    {
+      "t": "UFC 332 is shaping up as one of the UFC’s worst cards | Opinion",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-02T10:05:56+00:00",
+      "cluster": "c402f4258cb"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T15",
-    3
+    4
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Joshua-Van-Carves-Up-Alexandre-Pantoja-to-Retain-UFC-Flyweight-Champion-at-UFC-331-202851",
