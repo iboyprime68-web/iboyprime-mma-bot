@@ -1,5 +1,7 @@
 {
   "seen": {
+    "83b5bc69500bf9e6": 1790974567.508891,
+    "f21bc4c16b57453e": 1790974567.231064,
     "bec7ac11246c98ca": 1790974501.113405,
     "9e44a24a33ce5439": 1790974435.4906747,
     "b98951a8e0463353": 1790974368.380701,
@@ -2497,9 +2499,7 @@
     "6d41856cfbb259b1": 1790361212.5693264,
     "26e8723be28fb85e": 1790361147.7824328,
     "e1af1e4c1af321b8": 1790361147.513413,
-    "e6132102ca75dd1a": 1790361147.5130298,
-    "016c2dc78abc73de": 1790361147.5119867,
-    "9fe45573c2aeb8cd": 1790361147.511612
+    "e6132102ca75dd1a": 1790361147.5130298
   },
   "initialized": true,
   "v": 4,
@@ -4657,13 +4657,19 @@
       "source": "Sportscape Magazine",
       "ts": "2026-10-02T20:33:09+00:00",
       "cluster": "c059f599d0e"
+    },
+    {
+      "t": "Eric Nolan Reveals He Was Drunk When He DM’d a Promoter and Booked His First MMA Fight",
+      "source": "Sportscape Magazine",
+      "ts": "2026-10-02T20:33:09+00:00",
+      "cluster": "c3d037bf5e7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T20",
-    36
+    37
   ],
   "yt_eval": [
     "CBMikAFBVV95cUxQeTZZNkdIemdkZkFmeXdzZ1hEQktnaVc4ajdXZTE2bHRvLWpaaUJzVGRXWWVtNU5pYWtlemR3clB6QVVZa09DczBia3pRM3BnS2hoV2VmSEEwZ3ZlTGk5T0NxOUw1YnJqaWVxT21yLUlsaURrTUtpMFNFaC04MXppNWFWcENkZ0x3Tzh0emg2Q18",
