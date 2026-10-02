@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7b25a158d92ad1fe": 1790906090.3314867,
     "1deb2e766ab04cca": 1790906022.616884,
     "b4711706e521f88e": 1790906022.2251008,
     "4f2725894f3c257b": 1790905895.1211474,
@@ -2498,8 +2499,7 @@
     "fcfce7bec22449ff": 1790289003.33499,
     "1c7e1f27be6b1044": 1790289003.3316684,
     "daf31ed35b576936": 1790289003.3295884,
-    "92de03c681e4b287": 1790288939.5224638,
-    "56cf52796add5e8c": 1790288939.224905
+    "92de03c681e4b287": 1790288939.5224638
   },
   "initialized": true,
   "v": 4,
@@ -2527,12 +2527,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-30T05:00:00+00:00",
       "cluster": "cf295fd0706"
-    },
-    {
-      "t": "Adama Diop becomes first Senegalese fighter in UFC history",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-30T01:54:18+00:00",
-      "cluster": "c612ad6677c"
     },
     {
       "t": "Marcus McGhee says UFC has ‘pushed me back’ since Petr Yan fight",
@@ -4447,13 +4441,19 @@
       "source": "SuaraGarut.ID",
       "ts": "2026-10-02T01:48:14+00:00",
       "cluster": "c1e87f9681b"
+    },
+    {
+      "t": "Marvin Vettori reveals why he hates watching his recent UFC fights",
+      "source": "MMA Sucka",
+      "ts": "2026-10-02T01:52:39+00:00",
+      "cluster": "cda4cf4cfa5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T01",
-    30
+    31
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=332585",
