@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c8f5045e1d7cb3b8": 1790973072.8471432,
     "ba68e027e29da6e1": 1790973048.429067,
     "ab8d78b00a1e5722": 1790973023.481408,
     "2585d383bc568c15": 1790973021.92827,
@@ -2498,8 +2499,7 @@
     "cbff87cf060cf566": 1790344674.346528,
     "35a30d729e32c32b": 1790344609.6583595,
     "14f4593215eb8759": 1790344609.3527715,
-    "01406c05065b0456": 1790344545.1388266,
-    "b10c7f73688ef166": 1790344480.2976065
+    "01406c05065b0456": 1790344545.1388266
   },
   "initialized": true,
   "v": 4,
@@ -4465,13 +4465,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-02T17:00:00+00:00",
       "cluster": "c793abfa5a6"
+    },
+    {
+      "t": "Joe Rogan advises Sean Sharaf to retire just weeks after shock KO win over Gable Steveson",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-02T18:00:00+00:00",
+      "cluster": "c90b563d0ba"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T20",
-    2
+    3
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=332830",
