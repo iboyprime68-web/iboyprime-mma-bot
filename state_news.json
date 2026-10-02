@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f77b06f79ec04d04": 1790905765.2416139,
     "5ce6ffb54969ee84": 1790905697.6104293,
     "e69e549772f47eec": 1790905630.0586195,
     "3dd39647b51172ce": 1790905459.5339994,
@@ -2498,8 +2499,7 @@
     "56cf52796add5e8c": 1790288939.224905,
     "dc0edeff44c59746": 1790288939.2231529,
     "6ec3fbaa6ed2c18a": 1790288873.7636652,
-    "e59b3dfae60dfcfe": 1790288873.4800272,
-    "90809e8f3ab8a39b": 1790288873.47598
+    "e59b3dfae60dfcfe": 1790288873.4800272
   },
   "initialized": true,
   "v": 4,
@@ -4435,13 +4435,19 @@
       "source": "NZ Herald",
       "ts": "2026-10-02T01:41:24+00:00",
       "cluster": "cbf1d2f8c17"
+    },
+    {
+      "t": "After long layoff, Reno's Payton Talbott returns to UFC's Octagon this weekend",
+      "source": "Nevada Sports Net",
+      "ts": "2026-10-02T01:44:50+00:00",
+      "cluster": "c9c9d92e2e6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T01",
-    28
+    29
   ],
   "yt_eval": [
     "77aca7ce-5577-30aa-b682-23167dad3c70",
