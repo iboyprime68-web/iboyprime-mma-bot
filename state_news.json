@@ -1,5 +1,8 @@
 {
   "seen": {
+    "061a5582baeeaa4a": 1790957923.6475868,
+    "67123545603d07a1": 1790957923.2774718,
+    "091ba4b60fe99855": 1790957923.276466,
     "e8b6e38694991b82": 1790957856.6101842,
     "fff4ed7381c80cfc": 1790957855.0551634,
     "a7f034222f6fc7ac": 1790957855.0536315,
@@ -2496,10 +2499,7 @@
     "fc85e82f16528e0e": 1790343950.1712167,
     "bf549a83752d9bec": 1790343950.169431,
     "37d576ae9df630b8": 1790343882.121301,
-    "e094d05bc84a26c3": 1790343881.825856,
-    "596d775cecd5c88d": 1790343814.834532,
-    "2e0498fe3fe7c666": 1790343745.1624665,
-    "187781749052acfa": 1790343697.6649933
+    "e094d05bc84a26c3": 1790343881.825856
   },
   "initialized": true,
   "v": 4,
@@ -4627,13 +4627,19 @@
       "source": "GiveMeSport",
       "ts": "2026-10-02T15:56:18+00:00",
       "cluster": "c505a0c5395"
+    },
+    {
+      "t": "\"That's fight weight for me\" - Sean Strickland reacts to news of Colby Covington turning down RAF bout against him",
+      "source": "Sportskeeda",
+      "ts": "2026-10-02T16:06:00+00:00",
+      "cluster": "c5e46c6f975"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T16",
-    20
+    21
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=511532",
