@@ -1,5 +1,6 @@
 {
   "seen": {
+    "111a0686108507bc": 1790929068.409162,
     "12f8447c12467e14": 1790929001.206729,
     "4195aebf67b4bc84": 1790929000.9132693,
     "1c3074195c7b8c74": 1790928954.0644522,
@@ -2498,8 +2499,7 @@
     "88677b0e726e23d7": 1790293432.0124202,
     "9ccec8dcd5468883": 1790293368.641189,
     "d19cbef10114e42b": 1790293305.477696,
-    "fedfb3a5f58648e3": 1790293305.066297,
-    "13a1243574e0b8dd": 1790293305.0631995
+    "fedfb3a5f58648e3": 1790293305.066297
   },
   "initialized": true,
   "v": 4,
@@ -4381,13 +4381,19 @@
       "source": "Arab News",
       "ts": "2026-10-02T07:29:58+00:00",
       "cluster": "c80e658f0a0"
+    },
+    {
+      "t": "Jon Anik explains why Arman Tsarukyan is a tougher fight for Justin Gaethje than Ilia Topuria",
+      "source": "Sportskeeda",
+      "ts": "2026-10-02T07:30:00+00:00",
+      "cluster": "c7cceba8bfa"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T08",
-    13
+    14
   ],
   "yt_eval": [
     "98e0bc32-00a3-36ae-88de-f6456ecac735",
