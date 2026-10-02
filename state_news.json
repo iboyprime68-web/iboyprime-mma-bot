@@ -1,5 +1,7 @@
 {
   "seen": {
+    "5f2a0e87fa6ec784": 1790928847.617433,
+    "e0e21df3388ba868": 1790928847.3201423,
     "8ba1e7d6e61ed99f": 1790928822.1493807,
     "7380222fed97fd46": 1790928796.6394413,
     "10bd87cbc98c9577": 1790928770.2085466,
@@ -2497,9 +2499,7 @@
     "c5341d9e86413806": 1790290916.7233567,
     "7d954865b75c056b": 1790290916.7216563,
     "f89746d202966d2b": 1790290916.719245,
-    "473c7d6f7837c9f7": 1790290852.626107,
-    "8d012d83353dd7af": 1790290808.4886866,
-    "55f483be6978fff5": 1790290786.108804
+    "473c7d6f7837c9f7": 1790290852.626107
   },
   "initialized": true,
   "v": 4,
@@ -4351,13 +4351,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-02T06:00:33+00:00",
       "cluster": "c8ddebd9cc8"
+    },
+    {
+      "t": "Johnny Walker makes his UFC heavyweight debut this weekend against Mick Parkin 👀 #UFC332",
+      "source": "@ChampRDS",
+      "ts": "2026-10-02T06:16:37+00:00",
+      "cluster": "cbd69bf1403"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T08",
-    8
+    9
   ],
   "yt_eval": [
     "https://www.mmafighting.com/511059/ufc-331-live-blog",
