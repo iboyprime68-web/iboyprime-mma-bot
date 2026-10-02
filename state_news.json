@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7d25cedb4d84d0b1": 1790956308.914016,
     "42db2c41e839d833": 1790956283.5271578,
     "dceec7c09b85f2ac": 1790956255.9473884,
     "8e0df1684bbc4439": 1790956255.651455,
@@ -2498,8 +2499,7 @@
     "a3478ad68bf75f58": 1790321669.8445163,
     "6f442b419500dc79": 1790321598.6657336,
     "4eea9732a1eed7df": 1790321598.3777213,
-    "8a2a1d913dbbd131": 1790321572.0774982,
-    "61a1dd00c55923d3": 1790321571.64632
+    "8a2a1d913dbbd131": 1790321572.0774982
   },
   "initialized": true,
   "v": 4,
@@ -4453,13 +4453,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-02T14:51:36+00:00",
       "cluster": "c1c96d751f1"
+    },
+    {
+      "t": "Weight made for his UFC Debut 🫡 Roberto Soldic - 170lbs [ #UFC332 | OCT 3 | LIVE at 8pmET on @ParamountPlus and @CBS ]",
+      "source": "@ufc",
+      "ts": "2026-10-02T15:17:43+00:00",
+      "cluster": "c4a8265a07e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T15",
-    40
+    41
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=332695",
