@@ -1,5 +1,6 @@
 {
   "seen": {
+    "be7a29d7c8041986": 1790904381.0157857,
     "91440ba31a9d1fc1": 1790904354.6741092,
     "d4fde3619b96f6a0": 1790894115.2441268,
     "52cd6dfd45fe433e": 1790894051.295846,
@@ -2498,8 +2499,7 @@
     "28ea1c571655302e": 1790276516.9050608,
     "38a0dc913e909e2b": 1790276516.6593947,
     "2244f124ccf96797": 1790276452.0780005,
-    "7caae00cc710bf6c": 1790276451.269653,
-    "1c776ab29e894c6a": 1790276451.2675736
+    "7caae00cc710bf6c": 1790276451.269653
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-09-30T03:30:00+00:00",
       "cluster": "c466146f21b"
-    },
-    {
-      "t": "Dana White shares health update on Raoni Barcelos",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-30T01:25:55+00:00",
-      "cluster": "c47c0be21a2"
     },
     {
       "t": "PFL MENA boss Jerome Mazet excited for new chapter after Nakisa Bidarian takes over from John Martin amid PFL Global merger",
@@ -4279,13 +4273,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-01T22:50:21+00:00",
       "cluster": "cf841b95e7f"
+    },
+    {
+      "t": "Alexander Volkanovski’s UFC 333 card adds late-notice banger as prospect moves to a new division",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-01T23:00:00+00:00",
+      "cluster": "cd2b11ca2c4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T01",
-    1
+    2
   ],
   "yt_eval": [
     "CBMi1AFBVV95cUxNYkFpNlZCcUN1OGRMLXFmdXJzYm1icXduU0NlQW1oeXJiZjhidmdfXzhKbW1WMGdyWDVfMXZkYUs1X1UtaEdPaGVpQ2EyaEExbkFjMzI3RXc1SkN5WFhrZHN2QUN0WG12XzFCejZhTzdURWFkWmh3Y1ZEdGFYdWJtZExkbzR3SFU3eEs0RlRoMGMwNHZCajRjcjJ0ZWl5ZE56eEV3N2UtSUk1Y2xZT0UzQ2Q4TWp0MUNqTjRDZEZUYUwtaENEZlU4Y251bnhLZkZGc1hJNw",
