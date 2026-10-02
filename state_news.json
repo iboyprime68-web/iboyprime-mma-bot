@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a53a08d4094af764": 1790928667.0366938,
     "6d7ef1c316478a07": 1790928634.8236673,
     "f793768d2c6ffddd": 1790907454.3221385,
     "138cfc1b682a84ab": 1790907327.3333948,
@@ -2498,8 +2499,7 @@
     "999f9dc75b5bba19": 1790290534.1053631,
     "7c0f4d476e7219c5": 1790290407.825787,
     "094ca3d766ba1e46": 1790290157.3999596,
-    "86d9f1344cdbb934": 1790290030.8443284,
-    "bb79070597bbcaea": 1790290030.4958408
+    "86d9f1344cdbb934": 1790290030.8443284
   },
   "initialized": true,
   "v": 4,
@@ -4309,13 +4309,19 @@
       "source": "MMA Mania",
       "ts": "2026-10-02T02:31:38+00:00",
       "cluster": "ce9b3a8ac1c"
+    },
+    {
+      "t": "Jon Jones’ presence around Gable Steveson may have backfired in the UFC according to Joe Rogan",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-02T03:00:00+00:00",
+      "cluster": "c2a8639de6e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T08",
-    1
+    2
   ],
   "yt_eval": [
     "b040581a-796c-32a1-be8c-a7b5b5f84b38",
