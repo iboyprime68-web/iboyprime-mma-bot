@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3d8814d76393d784": 1790955267.9910147,
     "619ea367a7222e71": 1790955241.875186,
     "6e5ad3697d8ca09e": 1790931695.6538923,
     "22df17ef134cb865": 1790931695.6524754,
@@ -2498,8 +2499,7 @@
     "318a02397f0415c3": 1790294568.1894267,
     "da568b443bfa538d": 1790294442.9112833,
     "6d92cbccfd1781cb": 1790294442.9091682,
-    "cf8d96c217c27c4f": 1790294442.907484,
-    "4bf43f496dfad0c6": 1790294442.9056983
+    "cf8d96c217c27c4f": 1790294442.907484
   },
   "initialized": true,
   "v": 4,
@@ -4219,13 +4219,19 @@
       "source": "MMA Fighting",
       "ts": "2026-10-02T01:39:11+00:00",
       "cluster": "ca54e9ee4ac"
+    },
+    {
+      "t": "UFC contender returns from 9-month suspension in late addition to the UFC 333 card",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-02T10:00:00+00:00",
+      "cluster": "ccfbcafb023"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T15",
-    1
+    2
   ],
   "yt_eval": [
     "52850c6b-bb69-3820-8c6e-ac5c17ac4ab9",
