@@ -1,5 +1,7 @@
 {
   "seen": {
+    "04ab44abdb0e3ad2": 1790955537.4977982,
+    "87b4f4fcb8edc271": 1790955537.173048,
     "03d96feb8cc920cb": 1790955511.788597,
     "093199f769bc48bb": 1790955486.2111075,
     "81a50ec9428ba8c2": 1790955485.0148451,
@@ -2497,9 +2499,7 @@
     "67aa5ae3d3d388e8": 1790295094.2689223,
     "4657a0ccfc1f4d1e": 1790295094.0442395,
     "5f5040f19e818569": 1790295094.0427642,
-    "6b45f97ecf7e4562": 1790295094.0410032,
-    "912d5bc7ec70584a": 1790295028.1471014,
-    "74c8a8b983cfc4e0": 1790294962.188194
+    "6b45f97ecf7e4562": 1790295094.0410032
   },
   "initialized": true,
   "v": 4,
@@ -4279,13 +4279,19 @@
       "source": "MMA Fighting",
       "ts": "2026-10-02T13:16:34+00:00",
       "cluster": "c506e78ecb3"
+    },
+    {
+      "t": "Coach: Gable Steveson trying to fight a little bit too much like Jon Jones",
+      "source": "@MMAJunkie",
+      "ts": "2026-10-02T13:46:05+00:00",
+      "cluster": "caeeeb98550"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T15",
-    11
+    12
   ],
   "yt_eval": [
     "CBMi4wFBVV95cUxPWk8wdExORHVZaFpTaENwOEI1dDZOVG5VWlB0dUFBT0VmTGpsb296N0lYeDNrdmVuNXZPMjRzaVBJMnVsWjFkQlpsWlplTFVIMDQ0TG5pZWZ5RHJGMDFhbHZNaGV0S2ctWTZ3SUJqa3cxVFBlV0s2WUs3aXEzZERIZ1JhQkVIbXlNQkRjQ2tvel81QmJWalpBc2haeVNrbDRnSk80U1JSWU4zYWtMX3RGTk8tel96ejNhMVJtd0hVNkRrU01EUE1wNGJhTGVyN1pVU3RYSXJmZEV2OWR1ZHZsOUszQQ",
