@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1879a789e129e51c": 1790929338.077353,
     "00a6c007f3d5743d": 1790929270.9246035,
     "ec89aa2a2db62eb0": 1790929270.6131396,
     "021d755565d2ce64": 1790929203.0629182,
@@ -2498,8 +2499,7 @@
     "a71165cf497b716a": 1790293623.8564243,
     "29ab3721bfc32e25": 1790293560.5148504,
     "f5fd700c31140b28": 1790293560.1253624,
-    "cfc1007206776f73": 1790293560.1225932,
-    "baea7a1f9bdde9d8": 1790293496.2346344
+    "cfc1007206776f73": 1790293560.1225932
   },
   "initialized": true,
   "v": 4,
@@ -4405,13 +4405,19 @@
       "source": "boxingnews.com",
       "ts": "2026-10-02T08:00:33+00:00",
       "cluster": "cfc67dc8a89"
+    },
+    {
+      "t": "Dana White Hits Back at Eddie Hearn: “I’m Producing the Entire Event” After Fury-Joshua Claim",
+      "source": "LowKickMMA.com",
+      "ts": "2026-10-02T08:00:43+00:00",
+      "cluster": "c4bb3194fc1"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T08",
-    17
+    18
   ],
   "yt_eval": [
     "bfdc587e-469a-31bf-b00f-1c7925c44b14",
