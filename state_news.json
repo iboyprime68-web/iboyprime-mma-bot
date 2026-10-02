@@ -1,5 +1,8 @@
 {
   "seen": {
+    "abdd411598964b54": 1790973375.878085,
+    "3d790b6ddcd522d9": 1790973375.5622659,
+    "30a85e831b41bb53": 1790973375.5585756,
     "6420164c3b31060c": 1790973351.1578257,
     "f74144615fb41206": 1790973326.800471,
     "a63b860a520b3446": 1790973326.1499977,
@@ -2496,10 +2499,7 @@
     "62d1f7ea5670ab6f": 1790360484.9888825,
     "a9387ff5541ff141": 1790360462.3705657,
     "e821b74aa337b1f7": 1790345638.3302104,
-    "149901b5aeecb9e5": 1790345638.3281422,
-    "ff97cb9b83c65189": 1790345511.51466,
-    "9a94208461aa2d8f": 1790345511.5126708,
-    "54f32e0663dad567": 1790345446.7668881
+    "149901b5aeecb9e5": 1790345638.3281422
   },
   "initialized": true,
   "v": 4,
@@ -4537,13 +4537,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-02T19:30:00+00:00",
       "cluster": "c0c02290942"
+    },
+    {
+      "t": "Reminder - UFC 322 main card can be seen on CityTV in addition to Sportsnet+",
+      "source": "@aaronbronsteter",
+      "ts": "2026-10-02T19:56:12+00:00",
+      "cluster": "cf8949aac74"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T20",
-    14
+    15
   ],
   "yt_eval": [
     "CBMifkFVX3lxTFBlVy1xTWFXbFZjaHNxQm93U2ZBQkRGM3V4TEVkMU5faWVtWVJWQ3Z0RXJNQUpXTGlUcU04RUJpeWkzZHFNRkJsVUtUVjQ4Skd4Q3hNU0U1MEJHLUItckVqZmx0VHlWTEdudlB6dEpVTXJHWjQzM1NIODAtRklmQQ",
