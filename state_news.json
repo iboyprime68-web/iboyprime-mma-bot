@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ef1a0e7347827a7a": 1790905066.740628,
     "b287738bc3cb61f3": 1790905040.9501061,
     "dce6ad44f7fdae21": 1790904992.7220461,
     "10c65f2f69d8fd91": 1790904992.1850653,
@@ -2498,8 +2499,7 @@
     "36fd2687c6e684ea": 1790288487.1042933,
     "a1c390fe081e6e11": 1790288422.7350874,
     "7060daa15160b389": 1790288358.0762813,
-    "ae01de84e3a103d6": 1790288356.9418561,
-    "69c3a45d40995906": 1790288313.4506006
+    "ae01de84e3a103d6": 1790288356.9418561
   },
   "initialized": true,
   "v": 4,
@@ -4405,13 +4405,19 @@
       "source": "Fox Sports",
       "ts": "2026-10-02T01:16:46+00:00",
       "cluster": "c306e5e980c"
+    },
+    {
+      "t": "Dana White responds to Eddie Hearn: 'The writing is on the wall'",
+      "source": "@MMAJunkie",
+      "ts": "2026-10-02T01:36:02+00:00",
+      "cluster": "c8c67feef50"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T01",
-    23
+    24
   ],
   "yt_eval": [
     "CBMizAFBVV95cUxNbG5PbEdIOXJyMGpmSU9Qc2k0OGtrRGJDNlZjUDYtYS1jNmdPTXMwWHoxTDhnN2EwRXM4RVkzQXRPdGdVQ094aDc4bE1uNHdMMmQ3eXpBQXpEVUVleXZ5aG82cE4zdzVNSUctenpqRVM2NVFoRm84aEpDcFVwY2hXdGw0c1dZSlV4REFvSXVSaG9ydXloRDk0NkdjcXl1TWpfX29vRzZWRzlTbXN0dGFFbDRRUDBHcHFJOGNLaHlwYlAyV0pmQmU1ajBtTTc",
