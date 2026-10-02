@@ -1,5 +1,6 @@
 {
   "seen": {
+    "da70dea31e8faf0f": 1790957317.9739022,
     "f3724feb6626e61f": 1790957292.5543926,
     "13ce34da78855af3": 1790957224.5837393,
     "f3d5920c0269aae3": 1790957154.6327603,
@@ -2498,8 +2499,7 @@
     "c5ad14d8164de91e": 1790342870.9274037,
     "453d9afe14fe662b": 1790342870.5186543,
     "fb1a9dbdbf5b2e1c": 1790342841.4443173,
-    "d22dfdb48767cfc7": 1790342814.4259741,
-    "f7cf556d5ed5b6f8": 1790342814.139364
+    "d22dfdb48767cfc7": 1790342814.4259741
   },
   "initialized": true,
   "v": 4,
@@ -4573,13 +4573,19 @@
       "source": "SPORTbible",
       "ts": "2026-10-02T15:33:52+00:00",
       "cluster": "c6f41c506f0"
+    },
+    {
+      "t": "The next fight is a featherweight clash between Shadi Kabbani (5-0, 1-0 PFL) and Mehdi Saadi (7-2, 1-0 PFL)",
+      "source": "@sherdogdotcom",
+      "ts": "2026-10-02T16:07:50+00:00",
+      "cluster": "c5137a3a5da"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T16",
-    9
+    10
   ],
   "yt_eval": [
     "CBMipwFBVV95cUxPX01PVkhnRlBxWkFaMmdqeW9TVUVtMU5pSXRBb0c5d3J6LURlaFlVV3duODJuc0hYZUxHQnNHcGVJQ0FsS1oyWG1GSU1LUTV3TkFCYkVlaEE3VGNhNU5ObHJ1enA2eHA5cDB2bkQ4clpmNVJLT0hKb1Nlb3FwVkdDYkRuT1NZdzR6aXR5Y0pTZW9LbG1YejZ0WjFfX0ZKZ3FYcXV5Y1Rhbw",
