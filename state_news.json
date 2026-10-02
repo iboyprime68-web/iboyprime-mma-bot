@@ -1,5 +1,9 @@
 {
   "seen": {
+    "3031a7233009e372": 1790904771.568248,
+    "e94b5541af09c694": 1790904771.1586084,
+    "540f990185a3a249": 1790904771.1548579,
+    "28e0b461071e111f": 1790904771.1288376,
     "9e339f100ca9cf34": 1790904746.2986832,
     "b8a10ca585574db7": 1790904745.2533414,
     "c062335b49b611ba": 1790904745.2526958,
@@ -2495,11 +2499,7 @@
     "80ee4ad0a136a4bb": 1790288005.8261187,
     "9e650b0be851bcd7": 1790288005.4644437,
     "cf04de8df6a88545": 1790287962.7697558,
-    "6540785992abc469": 1790287896.2302291,
-    "95ec77a25b92902f": 1790287895.9139438,
-    "799418ed19ffe089": 1790287895.9104173,
-    "9884317e9259ac5f": 1790287832.3656862,
-    "95df17c5e0cd1cb1": 1790287808.3650427
+    "6540785992abc469": 1790287896.2302291
   },
   "initialized": true,
   "v": 4,
@@ -4363,13 +4363,19 @@
       "source": "Cageside Press",
       "ts": "2026-10-02T00:59:47+00:00",
       "cluster": "c0a64310224"
+    },
+    {
+      "t": "Dana White absolutely agrees that King Green is the perfect representative of what the BMF title stands for ahead of #UFC332",
+      "source": "@MMAFighting",
+      "ts": "2026-10-02T01:14:03+00:00",
+      "cluster": "ce62cbb0f50"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T01",
-    16
+    17
   ],
   "yt_eval": [
     "CBMi0wFBVV95cUxQQm5ncng3SkFjbnI1dWFBTGkyQkt3WXdHM1lvZ2ZXRDhsSzRaTTNUMmwyVDVEQjBENGVJN1N3cjMtNWNtX1IyVG00LXJNSGFIYmZPamFjcVZRdm9keWRnRXZ5cXhlSVBTUDlGY2FrSU1OSkQxdnlvWFc1VTBEdGI5b3RnNHF6Z3VBQlR6NC1pZnAwb3ZNLW5tMk02SWtfaFc4RVJiNGJmVjNRTEw5MjdHNzh5bUhqdG1CdlludjVGcTZKN0JjZmktMjVKckRYYmdUbWpv",
