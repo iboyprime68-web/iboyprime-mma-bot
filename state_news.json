@@ -1,5 +1,7 @@
 {
   "seen": {
+    "65c486193ea32afc": 1790955565.6695507,
+    "fd6e38eaf8c472a6": 1790955564.8092713,
     "04ab44abdb0e3ad2": 1790955537.4977982,
     "87b4f4fcb8edc271": 1790955537.173048,
     "03d96feb8cc920cb": 1790955511.788597,
@@ -2497,9 +2499,7 @@
     "7306ebe5ef1ffb6e": 1790295162.0695426,
     "49706323d575ec2a": 1790295160.7499948,
     "67aa5ae3d3d388e8": 1790295094.2689223,
-    "4657a0ccfc1f4d1e": 1790295094.0442395,
-    "5f5040f19e818569": 1790295094.0427642,
-    "6b45f97ecf7e4562": 1790295094.0410032
+    "4657a0ccfc1f4d1e": 1790295094.0442395
   },
   "initialized": true,
   "v": 4,
@@ -4285,13 +4285,19 @@
       "source": "@MMAJunkie",
       "ts": "2026-10-02T13:46:05+00:00",
       "cluster": "caeeeb98550"
+    },
+    {
+      "t": "Joe Rogan questions whether Jon Jones made Gable Steveson too confident: ‘You start thinking you're the next guy’",
+      "source": "MMA Mania",
+      "ts": "2026-10-02T11:06:09+00:00",
+      "cluster": "c3b9a41ef8f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T15",
-    12
+    13
   ],
   "yt_eval": [
     "ed43ce1d-0146-444c-afca-6a13938f127e",
