@@ -1,5 +1,6 @@
 {
   "seen": {
+    "971e59e94e6d42b4": 1790928718.5720365,
     "8bcb2c74bb053b22": 1790928693.0499651,
     "a53a08d4094af764": 1790928667.0366938,
     "6d7ef1c316478a07": 1790928634.8236673,
@@ -2498,8 +2499,7 @@
     "69ce803c233f522c": 1790290597.9102569,
     "5ca505da947f3681": 1790290597.907198,
     "999f9dc75b5bba19": 1790290534.1053631,
-    "7c0f4d476e7219c5": 1790290407.825787,
-    "094ca3d766ba1e46": 1790290157.3999596
+    "7c0f4d476e7219c5": 1790290407.825787
   },
   "initialized": true,
   "v": 4,
@@ -4321,13 +4321,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-02T02:48:06+00:00",
       "cluster": "cdcc004d531"
+    },
+    {
+      "t": "UFC gave former champion a one-hour deadline to accept his return against a low-ranked opponent",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-02T03:59:00+00:00",
+      "cluster": "c8da2e0b6a3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T08",
-    3
+    4
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=511296",
