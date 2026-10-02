@@ -1,5 +1,10 @@
 {
   "seen": {
+    "40666e855e041875": 1790957775.746002,
+    "3ba3c81785f1655e": 1790957775.470383,
+    "202686610ba795b9": 1790957775.4689054,
+    "0e5b9ee3002f0a2c": 1790957775.4686828,
+    "61007e8ffe96f7b6": 1790957775.4684286,
     "38d21ed813c87a10": 1790957707.223541,
     "59c10f73166699bf": 1790957639.1097493,
     "ae780e4ba94f9141": 1790957571.4502184,
@@ -2494,12 +2499,7 @@
     "93d4c1d67c04e6b9": 1790343602.6264281,
     "9656a1a5cc987413": 1790343602.1776168,
     "64d1fb8cefb41239": 1790343602.175804,
-    "943321b9ed3f494b": 1790343535.054632,
-    "1653d517ab2ca4f4": 1790343534.6916032,
-    "5408a6a767667c57": 1790343534.6883297,
-    "e9fa2716bbee5620": 1790343467.2471662,
-    "cfb5d3d77f5a010a": 1790343398.5741048,
-    "1d17417a736709dc": 1790343330.089732
+    "943321b9ed3f494b": 1790343535.054632
   },
   "initialized": true,
   "v": 4,
@@ -4603,13 +4603,19 @@
       "source": "Yahoo",
       "ts": "2026-10-02T15:50:10+00:00",
       "cluster": "c8308fc499f"
+    },
+    {
+      "t": "Ronda Rousey Could Replace Dana White, Says Former UFC Star",
+      "source": "heavy.com",
+      "ts": "2026-10-02T15:52:53+00:00",
+      "cluster": "c629ced5932"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T16",
-    16
+    17
   ],
   "yt_eval": [
     "CBMi-wFBVV95cUxPQi1tcDVzZEFnNDZqOUdjQjhXTVg4M2RRYU1nQlhocWUzVDBVYm1DLTFFMW1waXJYUHNmT2lCelZpaDBqa2xrTmRaaE1XalZfenMwYm1sR09zaXJOTkt6UW4za1dnNG80VW80elpsTUJMUk8zOUFfU3NYZ0xSQXJRZHphd291TVBib1JVdFM0Y3ZXLTlQVmFDZkcxNkhwOEFTUEUwLWNlYVMtbmVxeDFJUmZMYld1eTBDTUFyVmtJbmJTcVp3QU1RREtaWHZWS2FtcE1JWmh4bHpBX1BTcF9PM20zUjJMYWVZc1M3aW9tc0hWUXFvanNpTFFxaw",
