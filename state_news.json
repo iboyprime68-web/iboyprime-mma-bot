@@ -1,5 +1,8 @@
 {
   "seen": {
+    "60914e45942cfeea": 1790973276.1401277,
+    "2808565ad6ccd57a": 1790973275.7907932,
+    "f320483d58e5ad34": 1790973275.789118,
     "38aaf461014a0528": 1790973250.5169258,
     "9b2d89768cc0dd78": 1790973224.580887,
     "30c4161a1c170dc1": 1790973224.3583314,
@@ -2496,10 +2499,7 @@
     "67bffcace6848652": 1790345001.6272907,
     "b84b8c9ba0a7e2f9": 1790345001.62537,
     "a1ac53606e10dbf1": 1790344936.8956797,
-    "7f8e1812136bd630": 1790344936.8939936,
-    "9181a2c1bee8a49d": 1790344936.8917005,
-    "2ebc705749f2f74a": 1790344936.889692,
-    "e7abc4f0ec57b34f": 1790344872.6379547
+    "7f8e1812136bd630": 1790344936.8939936
   },
   "initialized": true,
   "v": 4,
@@ -4513,13 +4513,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-02T17:04:30+00:00",
       "cluster": "c1ae3add7ae"
+    },
+    {
+      "t": "It took 10 years and three fights to settle the score",
+      "source": "@sherdogdotcom",
+      "ts": "2026-10-02T19:09:26+00:00",
+      "cluster": "cd418e39cfd"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T20",
-    10
+    11
   ],
   "yt_eval": [
     "CBMirgFBVV95cUxNdDZYdktQRkE4My1kM3psRmlLcGdyOG9va195QzJ3d2NYOXVYamloRklCS1FQeFg0VUZlcWxyUldmQ0VhSXhDektGZ3ZTaXEzZTJqUm5iam9oWkhYYndHVzRkcGEtc2xxb1hUeW5tSkxyb1BNQkt4UVdKcFBfYVBoTE8zVXBzc0w3cE5VWDBLVmprTmp4am5GcEJDaE15MEstUktuMnNzeUh4cWdFMVE",
