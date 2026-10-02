@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ba68e027e29da6e1": 1790973048.429067,
     "ab8d78b00a1e5722": 1790973023.481408,
     "2585d383bc568c15": 1790973021.92827,
     "fde579654d2fadeb": 1790973021.9236884,
@@ -2498,8 +2499,7 @@
     "35a30d729e32c32b": 1790344609.6583595,
     "14f4593215eb8759": 1790344609.3527715,
     "01406c05065b0456": 1790344545.1388266,
-    "b10c7f73688ef166": 1790344480.2976065,
-    "14b9f4569960e317": 1790344480.014909
+    "b10c7f73688ef166": 1790344480.2976065
   },
   "initialized": true,
   "v": 4,
@@ -4459,13 +4459,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-02T16:39:46+00:00",
       "cluster": "cf0f0603547"
+    },
+    {
+      "t": "Paulo Costa attempts to hijack Alex Pereira’s predicted return fight with late call-out: ‘Put me in’",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-02T17:00:00+00:00",
+      "cluster": "c793abfa5a6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T20",
-    1
+    2
   ],
   "yt_eval": [
     "3c01267d-ffc2-39c2-9aa0-9a2f88a8e4ec",
