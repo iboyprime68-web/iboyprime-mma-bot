@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d8478e2dc06cc144": 1790930223.777958,
     "404f29510926ed2d": 1790929908.596703,
     "8bea94439f69c558": 1790929468.4609447,
     "661fee0c70b71167": 1790929404.5130153,
@@ -2498,8 +2499,7 @@
     "13654a201a5ba67d": 1790294311.7870457,
     "06c6380c912321ee": 1790294062.6372287,
     "1e3441b25241b7ea": 1790293751.77288,
-    "ffa5fd34e76ecb2e": 1790293688.1012938,
-    "a9daa92979a07a50": 1790293624.0651894
+    "ffa5fd34e76ecb2e": 1790293688.1012938
   },
   "initialized": true,
   "v": 4,
@@ -4411,13 +4411,19 @@
       "source": "LowKickMMA.com",
       "ts": "2026-10-02T08:00:43+00:00",
       "cluster": "c4bb3194fc1"
+    },
+    {
+      "t": "First Tibetan UFC fighter eyes title as MMA promotion seeks to expand in China",
+      "source": "South China Morning Post",
+      "ts": "2026-10-02T08:33:16+00:00",
+      "cluster": "c167f652d27"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T08",
-    18
+    19
   ],
   "yt_eval": [
     "4a83d631-2c6d-3ffc-a671-a0c1f105831e",
