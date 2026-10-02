@@ -1,5 +1,7 @@
 {
   "seen": {
+    "6dc3a8d5b903ac81": 1790957434.6852388,
+    "d6f1b1e234b53226": 1790957434.392947,
     "f4780fc12ad4cd71": 1790957366.8292458,
     "8b420c3fc537a671": 1790957366.3467717,
     "aed9b584ec81e917": 1790957366.3460867,
@@ -2497,9 +2499,7 @@
     "5ea69825d84ee7df": 1790343329.506414,
     "ca16d9302b57e2c6": 1790343261.9209223,
     "c5e324f418ee4dfb": 1790343193.0218806,
-    "3a7c77afd9c81184": 1790343124.0932457,
-    "8199b923d5072c98": 1790343055.302681,
-    "031a35aae0052eab": 1790342986.6357348
+    "3a7c77afd9c81184": 1790343124.0932457
   },
   "initialized": true,
   "v": 4,
@@ -2521,12 +2521,6 @@
       "source": "MMA Mania",
       "ts": "2026-09-30T16:38:45+00:00",
       "cluster": "c5258ec11f8"
-    },
-    {
-      "t": "Josh Hokit takes aim at Jon Jones for Gable Steveson's UFC 331 loss",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-30T16:10:23+00:00",
-      "cluster": "c9b85f67478"
     },
     {
       "t": "Joshua Van calls for Manel Kape fight next",
@@ -4585,13 +4579,19 @@
       "source": "The Body Lock",
       "ts": "2026-10-02T15:35:18+00:00",
       "cluster": "c1f023adfb7"
+    },
+    {
+      "t": "Adesanya Admits UFC 248 Was ‘One of the Most Boring Fights’ Ever",
+      "source": "The Body Lock",
+      "ts": "2026-10-02T15:40:52+00:00",
+      "cluster": "ca859577636"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T16",
-    11
+    12
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Dana-White-changes-his-tune-on-Arman-Tsarukyan-after-UFC-331-stunner-202872",
