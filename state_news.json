@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e6c968a6c85b714e": 1790973647.1175706,
     "ce15bd3658288a8e": 1790973621.187438,
     "aedc44326f5cd549": 1790973620.460036,
     "11d21552e414478e": 1790973554.2873166,
@@ -2498,8 +2499,7 @@
     "f31e7c68cf01b91c": 1790360676.6511896,
     "738ce9798e04305f": 1790360652.866232,
     "b436405edb9f85cd": 1790360630.0769098,
-    "1fce04ae3be2b0f6": 1790360629.7659876,
-    "30bd14ee0e48876e": 1790360607.3397882
+    "1fce04ae3be2b0f6": 1790360629.7659876
   },
   "initialized": true,
   "v": 4,
@@ -2527,12 +2527,6 @@
       "source": "@ufc",
       "ts": "2026-09-30T21:26:30+00:00",
       "cluster": "c9bb3a8c7ce"
-    },
-    {
-      "t": "UFC 332 fight card hit with change three days before event",
-      "source": "Yahoo Sports",
-      "ts": "2026-09-30T20:40:36+00:00",
-      "cluster": "cf63169ec56"
     },
     {
       "t": "Josh Hokit shares interesting theory on Tom Aspinall vacating UFC title",
@@ -4585,13 +4579,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-02T19:30:21+00:00",
       "cluster": "c2b1d740169"
+    },
+    {
+      "t": "Mostafa Rashed Nada ends 10-year trilogy with guillotine at PFL MENA 11",
+      "source": "Sherdog",
+      "ts": "2026-10-02T18:30:28+00:00",
+      "cluster": "cfeeac99c9b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-02T20",
-    22
+    23
   ],
   "yt_eval": [
     "CBMihgFBVV95cUxQY055UGhvUTZnMm9sa2NhQUVBQUtDWG80SGZNYWNrdmQ4Tm5HeG53eXBpTzNXSk4yNVNCWGhpWjc1X2t0WnBxbjZFZTlGYndUYUFpTGR1ZXNYcVdwUzI4UWR2cUUzVlE5U1hTRXl5V3VDb2ZPR09vQ3hwNDJUaWpVSTdhNXVWZ9IBiwFBVV95cUxQT0k4cUNHQmxsai1xT0YyZ2MySXBiR2hCNmhBWXp0b0hBLWp3UmxicUYzaTA1UGxFSDhoZzRlZXVtZkFWS293UUF6TEFORF9jRkw2QnZNeWYwYmt2SXhWbVhZWmNyLVpodmpicXRNOU5PWGtuYUMwZTlEbmo1b1JlTktFRTgyWEJ3Nnpr",
