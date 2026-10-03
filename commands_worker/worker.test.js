@@ -3835,5 +3835,49 @@ await (async () => {
   _test.resetNewsCfg();
 })();
 
+// ----- Oct 3 2026: the free X stand-in (r/MMA and r/ufc posts that link to an X post) -----
+await (async () => {
+  const { redditXPosts, redditTick, tweetTime, XFeed } = _test;
+  const now = tweetTime("2106235197846929565") + 5 * 3600000;
+  const entry = (title, href) => '<entry><author><name>/u/a</name></author><content type="html">&amp;#32; submitted by &amp;#32; '
+    + '&lt;a href=&quot;https://www.reddit.com/user/a&quot;&gt; /u/a &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;' + href
+    + '&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;</content><id>t3_x</id><title>' + title + '</title></entry>';
+  const xml = '<feed>' + entry("Michael Morales reveals he has a fight set for January, and it&#39;s not against Carlos Prates or Ian Garry", "https://x.com/ChampRDS/status/2106235197846929565?s=20")
+    + entry("Fight thread", "https://www.reddit.com/r/MMA/comments/abc/")
+    + entry("Old clip", "https://twitter.com/HappyPunch/status/1500000000000000000")
+    + entry("A web link", "https://x.com/i/status/2106235197846929999")
+    + entry("Same tweet again", "https://twitter.com/ChampRDS/status/2106235197846929565") + '</feed>';
+  const ps = redditXPosts(xml, now, "MMA");
+  check("r/MMA: only posts linking to an X post are kept, under the original account, with the tweet's own id and time",
+    ps.length === 1 && ps[0].handle === "ChampRDS" && ps[0].id === "2106235197846929565"
+    && ps[0].url === "https://x.com/ChampRDS/status/2106235197846929565" && ps[0].ts === tweetTime("2106235197846929565")
+    && ps[0].text === "Michael Morales reveals he has a fight set for January, and it's not against Carlos Prates or Ian Garry"
+    && ps[0].via === "r/MMA");
+  check("r/MMA: a tweet older than a day, an x.com/i/ link and the same tweet twice are dropped",
+    !ps.some(p => p.handle === "HappyPunch") && !ps.some(p => p.handle === "i") && ps.length === 1);
+  check("tweetTime reads a snowflake's timestamp (the Morales tweet: 04:09:37 UTC Oct 3 2026), junk -> 0",
+    new Date(tweetTime("2106235197846929565")).toISOString() === "2026-10-03T04:09:37.781Z" && tweetTime("abc") === 0);
+  const store = new Map();
+  const obj = new XFeed({ storage: { get: async k => store.get(k), put: async (k, v) => { store.set(k, v); } } });
+  const stub = { fetch: (u, init) => obj.fetch(new Request(u, init)) };
+  let feedXml = xml;
+  const h = async (u) => u.indexOf("reddit.com/r/") !== -1 ? new Response(feedXml, { status: 200 }) : new Response("nf", { status: 404 });
+  const tMMA = Math.floor(now / 120000) * 120000;   // an even minute: r/MMA's turn
+  const a = await withFetch(h, () => redditTick(stub, tMMA));
+  check("r/MMA: the first look at a subreddit only seeds (what is there when watching starts is not news)",
+    a === 0 && JSON.stringify(store.get("kv:reddit").ids) === JSON.stringify(["2106235197846929565"]) && !(store.get("posts") || []).length);
+  feedXml = xml.replace("</feed>", entry("Topuria vs Oliveira is set for UFC 334", "https://x.com/arielhelwani/status/2106240000000000000") + "</feed>");
+  const b = await withFetch(h, () => redditTick(stub, tMMA + 120000));
+  check("r/MMA: a new X-linked post lands in the buffer the news job reads",
+    b === 1 && (store.get("posts") || []).length === 1 && store.get("posts")[0].handle === "arielhelwani"
+    && store.get("posts")[0].url === "https://x.com/arielhelwani/status/2106240000000000000");
+  const c = await withFetch(h, () => redditTick(stub, tMMA + 240000));
+  check("r/MMA: the same post on the next look is not buffered twice", c === 0 && store.get("posts").length === 1);
+  const d = await withFetch(async () => new Response("blocked", { status: 429 }), () => redditTick(stub, tMMA + 360000));
+  check("r/MMA: a 429 or any failure is simply the next turn (nothing thrown, nothing stored)", d === 0 && store.get("posts").length === 1);
+  check("the reader runs inside the one-minute tick under the X switch, and what it buffers rings the doorbell",
+    /viaReddit = await redditTick\(stub, now\)/.test(workerSrc) && /added \+= viaReddit;/.test(workerSrc));
+})();
+
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
 process.exit(fail ? 1 : 0);
