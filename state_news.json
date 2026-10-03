@@ -1,5 +1,8 @@
 {
   "seen": {
+    "86707b96141465a4": 1791029580.5331075,
+    "e31fd493f30134f7": 1791029580.1236632,
+    "a1e2fe72ad368d79": 1791029580.1224973,
     "2e70f4c718cc3f7d": 1791029513.2133887,
     "0cee069962d37b17": 1791029512.775195,
     "0b215457be21044d": 1791029512.774781,
@@ -2496,10 +2499,7 @@
     "f57be31871be1e0d": 1790407249.255936,
     "d88ec1c42ecd2a7b": 1790407176.1298301,
     "3a7ca99cf1c25727": 1790407175.6811585,
-    "76d710bcfe50bb32": 1790407147.96111,
-    "29fff357b93ad875": 1790407121.3122354,
-    "6c13f05766e2545c": 1790407095.266253,
-    "b1864dc7f4e8be82": 1790388552.7414002
+    "76d710bcfe50bb32": 1790407147.96111
   },
   "initialized": true,
   "v": 4,
@@ -4561,13 +4561,19 @@
       "source": "BJPenn.com",
       "ts": "2026-10-03T12:02:11+00:00",
       "cluster": "cb1c26c5c2b"
+    },
+    {
+      "t": "UFC 332 Results: Silva vs. Wang Live Fight Updates From Salt Lake City",
+      "source": "FightBook MMA",
+      "ts": "2026-10-03T12:03:15+00:00",
+      "cluster": "cb55b9731f5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T12",
-    15
+    16
   ],
   "yt_eval": [
     "CBMid0FVX3lxTE1obmw0U0MxOHU0dlhOQmRaOWFYMm1zdzlGeEpuMmFCRGx6M0xuTXdlRGVla0s1UkVEeEpTWXJTWWxXZ2xJeExISWM2VXNEWWJEZ1pwVTUxdG8weEI0clkzc0xLa1VNTng2aFk5OTNFWk0xTENwQk1B",
