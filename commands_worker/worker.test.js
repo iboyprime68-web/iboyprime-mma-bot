@@ -2601,10 +2601,11 @@ if (wrangler !== null) {
     !/fetch\("https?:/.test(pscript) && !/<script[^>]+src=/.test(P));
   const ids = (pscript.match(/def\(\{\s*id: "([a-z0-9]+)"/g) || []).map(s => s.replace(/[^]*"([a-z0-9]+)"$/, "$1"));
   const NEW_TPLS = ["headline", "pop", "split", "cards", "titlecards", "photocard"];
-  // Sept 30 2026: Main event (the owner's announcement card) makes it twenty-one
-  check("templates page: twenty-one templates (the fourteen, the six approved looks, Main event), unique ids, each with a draw(), and no Breaking template (owner verdict)",
-    ids.length === 21 && new Set(ids).size === 21 && (pscript.match(/draw: function \(\)/g) || []).length === 21
-    && ids.indexOf("mainevent") !== -1
+  // Sept 30 2026: Main event (the owner's announcement card) makes it twenty-one; Oct 3 2026: the
+  // owner's crossout reference and three grid (Premier League) templates make it twenty-five
+  check("templates page: twenty-five templates (the fourteen, the six approved looks, Main event, Crossed out and the three grid ones), unique ids, each with a draw(), and no Breaking template (owner verdict)",
+    ids.length === 25 && new Set(ids).size === 25 && (pscript.match(/draw: function \(\)/g) || []).length === 25
+    && ids.indexOf("mainevent") !== -1 && ["crossout", "gcross", "gpotm", "gtape"].every(id => ids.indexOf(id) !== -1)
     && ids.indexOf("breaking") === -1 && NEW_TPLS.every(id => ids.indexOf(id) !== -1));
   check("templates page: the painted edge light is still inside the silhouette only (no outer glow, no bloom) and it defaults to OFF",
     /var lam = \(nx \* lx \+ ny \* ly\) \/ dist;/.test(pscript) && /x\.globalCompositeOperation = "destination-in"; x\.drawImage\(hl\.c, 0, 0\);/.test(pscript)
@@ -3561,7 +3562,8 @@ await (async () => {
     && /var fromStory = !RENDER_MODE && openStoryFromHash\(\);/.test(P2));
   check("a template id is looked up as an OWN key (a crafted #t=constructor cannot become the open template)",
     /function hasTpl\(id\) \{ return Object\.prototype\.hasOwnProperty\.call\(TPL, id\); \}/.test(P2)
-    && /h\.tpl && hasTpl\(h\.tpl\) \? h\.tpl : ready\[0\]/.test(P2)
+    && /h\.tpl && hasTpl\(h\.tpl\) \? h\.tpl : \(ready\[0\] \|\| lead\)/.test(P2)
+    && /var lead = \(sp\.templates \|\| \[\]\)\.filter\(hasTpl\)\[0\] \|\| "";/.test(P2)
     && /if \(!Object\.prototype\.hasOwnProperty\.call\(TPL, id\) \|\| id === doc\.tpl\) return;/.test(P2)
     && /Object\.prototype\.hasOwnProperty\.call\(STORY_NEEDS, id\)/.test(P2));
   check("the templates page writes the shared theme when the owner taps a swatch",
@@ -3609,7 +3611,9 @@ await (async () => {
   };
   _test.resetNewsCfg();
   check("no SocialData key: the cron does nothing at all", (await xTick({ XFEED: XENV.XFEED }, 1)).skip === "not configured");
-  const t0 = Date.parse("2026-09-30T10:01:00Z");
+  // the buffer prunes by the REAL clock (48 h), so a fixed date here went stale on Oct 2 2026 and
+  // failed this block from then on; minute-aligned "now" keeps it true on any day
+  const t0 = Math.floor(Date.now() / 60000) * 60000;
   const r1 = await withFetch(handler, () => xTick(XENV, t0));
   check("the first answer only SEEDS the since id (days-old posts are not news)",
     r1.added === 0 && store.get("since:0") === "1900000000000000001" && ((store.get("posts") || []).length === 0));
@@ -3633,6 +3637,9 @@ await (async () => {
   check("with the key the news job reads the buffered posts, oldest first", ok.status === 200 && body.posts.length === 2
     && body.posts[0].id === "1900000000000000002" && body.posts[1].id === "1900000000000000003");
   tweets = [T({ id_str: "1900000000000000004", full_text: "A fourth" })];
+  // a window is live: the news job read the buffer thirty seconds before this tick (the Durable
+  // Object stamps reads with its own clock, so the scenario is set explicitly)
+  store.set("read", t0 + 20 * 60000 - 30000);
   const r4 = await withFetch(handler, () => xTick(XENV, t0 + 20 * 60000));
   check("while the news job is reading the buffer the doorbell never rings (a window is running)",
     r4.added === 1 && r4.bell === false);
@@ -3718,5 +3725,102 @@ await (async () => {
   check("tapping a staged post that has template posters opens the templates page",
     S.includes("function openStaged(p)") && S.includes('b.addEventListener("click", function () { openStaged(p); });'));
 }
+// ----- Oct 3 2026: the editor's concept rides the staged contract -----
+{
+  const { specStory } = _test;
+  const st = specStory({ kind: "callout", templates: ["crossout", "gcross"], concept: "crossout", big: "january", label: "next fight",
+    people: [{ name: "Michael Morales", slug: "michael-morales", role: "main" }, { name: "Carlos Prates", slug: "carlos-prates", role: "ruled_out" },
+             { name: "Ian Machado Garry", slug: "ian-machado-garry", role: "boss" }] });
+  check("story: the editor's concept, big word and label ride the contract, upper case",
+    st.concept === "crossout" && st.big === "JANUARY" && st.label === "NEXT FIGHT");
+  check("story: a person keeps a known role only (an unknown role is dropped, the person stays)",
+    JSON.stringify(st.people) === JSON.stringify([{ name: "Michael Morales", slug: "michael-morales", role: "main" },
+      { name: "Carlos Prates", slug: "carlos-prates", role: "ruled_out" }, { name: "Ian Machado Garry", slug: "ian-machado-garry" }]));
+  const bad = specStory({ kind: "other", concept: "evil", big: "<img src=x onerror=1>", label: "x".repeat(80) });
+  check("story: an unknown concept is none, and poster words can never carry markup or run long",
+    bad.concept === "" && bad.big.indexOf("<") === -1 && bad.big.indexOf(">") === -1 && bad.big.indexOf("=") === -1
+    && bad.big.length <= 18 && bad.label.length <= 30);
+  check("story: a post from before the concept has empty concept fields, never an error",
+    JSON.stringify([specStory({ kind: "booking" }).concept, specStory({ kind: "booking" }).big, specStory({ kind: "booking" }).label]) === JSON.stringify(["", "", ""]));
+  const P = _test.POSTER_HTML;
+  check("templates page: the story fill takes a third fighter (the second crossed-out name) and the concept's words",
+    P.includes('var jobs = [], which = ["A", "B", "C"], w = 0;') && P.includes("for (var i = 0; i < ppl.length && w < 3; i++) {")
+    && P.includes('concept: st.concept || "", big: st.big || "", label: st.label || ""')
+    && P.includes('put("crossout", { word: big || word });'));
+  check("templates page: a person-led concept (crossout, rank, quote) never goes looking for a bout on the next card",
+    P.includes('var personLed = ["crossout", "rank", "quote"].indexOf(String(spec.concept || "")) !== -1;'));
+  check("templates page: the new templates say what a story needs before they may be exported",
+    P.includes('crossout: ["A", "headB"], gcross: ["A", "headB"], gpotm: ["A"], gtape: ["A", "B", "bioA", "bioB"]'));
+  check("templates page: the crossout's X is red by default, white or the theme on request, and is drawn under the hero",
+    P.includes('return "#E8202E";') && /drawCircle\("out1"[^;]*;\s*if \(assetOf\("out1"\)\) crossMark/.test(P)
+    && P.indexOf("crossMark(c1x, cy, r1, col)") < P.indexOf('heroHit("hero", hl, H0.P, "Fighter"); }\n    else if (!photoHero) missingHero("hero", W * 0.5'));
+  check("templates page: the grid style never paints a halo or an edge light round its fighter (owner law 2) - a soft drop shadow only",
+    /function gridHero[\s\S]*?g\.shadowColor = rgba\(th\.floor, 0\.34\)[\s\S]*?g\.drawImage\(hl\.c, 0, 0\)/.test(P)
+    && !/function gridHero[\s\S]*?fxHalo[\s\S]*?function gridPill/.test(P));
+}
+
+// ----- Oct 3 2026: the feed doorbell -----
+await (async () => {
+  const { feedWatchList, feedTopId, xTick, XFeed, SOCIALDATA_SEARCH, X_PAUSE_402_MS } = _test;
+  const NC = { x_accounts: ["ChampRDS"], sources: {
+    sherdog: { url: "https://www.sherdog.com/rss/news.xml", enabled: true },
+    yahoo: { url: "https://sports.yahoo.com/mma/rss.xml" },
+    gnews: { url: "https://news.google.com/rss/search?q=UFC", enabled: true, flavor: "google_news" },
+    nit: { url: "https://nitter.net/ufc/rss", enabled: true, flavor: "nitter" },
+    x: { url: "https://w.test/news/x-feed", enabled: true, flavor: "x_feed" },
+    off: { url: "https://off.example/feed", enabled: false },
+    plain: { url: "http://insecure.example/feed", enabled: true } } };
+  check("doorbell: it watches the enabled https feeds the news job reads - never Google News (503 to Cloudflare), nitter, the X buffer, a disabled or an http feed",
+    JSON.stringify(feedWatchList(NC).map(f => f.key)) === JSON.stringify(["sherdog", "yahoo"]));
+  check("doorbell: the newest item's id is the first item's guid, else its link, else an Atom id; CDATA unwrapped; none -> ''",
+    feedTopId("<rss><channel><title>x</title><item><title>a</title><guid isPermaLink=\"false\"><![CDATA[g-1]]></guid></item><item><guid>g-0</guid></item>") === "g-1"
+    && feedTopId("<rss><item><title>a</title><link>https://a.example/story-2</link></item>") === "https://a.example/story-2"
+    && feedTopId("<feed><entry><id>tag:x,2026:9</id></entry></feed>") === "tag:x,2026:9"
+    && feedTopId("<html>blocked</html>") === "" && feedTopId(null) === "");
+  const store = new Map();
+  const obj = new XFeed({ storage: { get: async k => store.get(k), put: async (k, v) => { store.set(k, v); } } });
+  const ENV = { WORKER_BOT_KEY: "bot-key-0123456789abcdefghijklmnop", GITHUB_TOKEN: "gh", GITHUB_OWNER: "o", GITHUB_REPO: "r",
+                XFEED: { idFromName: () => "id", get: () => ({ fetch: (u, init) => obj.fetch(new Request(u, init)) }) } };
+  let top = "s-1", calls = [];
+  const handler = async (u, init) => {
+    calls.push(u);
+    if (u.indexOf("newsconfig.json") !== -1) return jsonRes(NC);
+    if (u.indexOf("sherdog.com") !== -1) return new Response("<rss><channel><item><guid>" + top + "</guid></item></channel></rss>", { status: 200 });
+    if (u.indexOf("yahoo.com") !== -1) return new Response("<rss><channel><item><guid>y-1</guid></item></channel></rss>", { status: 200 });
+    if (u.indexOf("/dispatches") !== -1) return new Response(null, { status: 204 });
+    if (u.indexOf(SOCIALDATA_SEARCH) === 0) return new Response("{}", { status: 402 });
+    return new Response("nf", { status: 404 });
+  };
+  _test.resetNewsCfg();
+  const t0 = Math.floor(Date.now() / 60000) * 60000;
+  const a = await withFetch(handler, () => xTick(ENV, t0));
+  check("doorbell: the first look at a feed only seeds it (its newest item is not news) - no ring, and no SocialData call without a key",
+    a.bell === false && a.fresh === 0 && !calls.some(u => u.indexOf(SOCIALDATA_SEARCH) === 0)
+    && JSON.stringify(store.get("kv:feeds")) === JSON.stringify({ sherdog: "s-1", yahoo: "y-1" }));
+  top = "s-2"; calls = [];
+  const b = await withFetch(handler, () => xTick(ENV, t0 + 60000));
+  check("doorbell: a new newest item on a plain feed rings news.yml when no window is reading - X or no X (the Morales story fell into a five-hour gap)",
+    b.fresh === 1 && b.bell === true && calls.some(u => u === "https://api.github.com/repos/o/r/actions/workflows/news.yml/dispatches")
+    && store.get("kv:feeds").sherdog === "s-2");
+  top = "s-3";
+  store.set("read", t0 + 2 * 60000 - 20000);
+  const c = await withFetch(handler, () => xTick(ENV, t0 + 2 * 60000));
+  check("doorbell: while a window is reading, a changed feed rings nothing (the window polls it itself)", c.fresh === 1 && c.bell === false);
+  // an empty SocialData balance: rest the X polling instead of asking every minute
+  const ENV2 = Object.assign({}, ENV, { SOCIALDATA_API_KEY: "sd" });
+  calls = [];
+  const d = await withFetch(handler, () => xTick(ENV2, t0 + 3 * 60000));
+  check("X: a 402 (no SocialData balance) rests the X polling for thirty minutes and says so",
+    d.x === "no SocialData balance" && store.get("kv:xpause") === t0 + 3 * 60000 + X_PAUSE_402_MS);
+  calls = [];
+  const e = await withFetch(handler, () => xTick(ENV2, t0 + 4 * 60000));
+  check("X: during the rest there is no SocialData call at all, and the feed doorbell still works",
+    e.x.indexOf("paused") === 0 && !calls.some(u => u.indexOf(SOCIALDATA_SEARCH) === 0) && calls.some(u => u.indexOf("sherdog.com") !== -1));
+  check("doorbell: the Durable Object's small store takes only its two keys",
+    (await obj.fetch(new Request("https://xfeed/kv", { method: "POST", body: JSON.stringify({ k: "posts", v: [] }) }))).status === 400
+    && (await obj.fetch(new Request("https://xfeed/kv?k=read"))).status === 400);
+  _test.resetNewsCfg();
+})();
+
 console.log(`\n==== worker: ${pass} passed, ${fail} failed ====`);
 process.exit(fail ? 1 : 0);
