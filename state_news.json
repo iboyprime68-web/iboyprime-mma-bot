@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2a9424fc9a9c4c8e": 1791040063.5879335,
     "d455bcd2134bac9b": 1791039807.2760575,
     "7689e8a798775d67": 1791039762.4174562,
     "305b97cfe0d8b8ea": 1791039737.6164646,
@@ -2498,8 +2499,7 @@
     "1419a9c79ff7df3f": 1790441970.036352,
     "0b0761e2974b0fb8": 1790441945.3103502,
     "2633c1e20b98b7e2": 1790441919.9858415,
-    "5ca218cab82b9abd": 1790441894.130765,
-    "d1230ad476a834a1": 1790441868.5261693
+    "5ca218cab82b9abd": 1790441894.130765
   },
   "initialized": true,
   "v": 4,
@@ -4705,6 +4705,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-03T15:00:00+00:00",
       "cluster": "cf9698c1bed"
+    },
+    {
+      "t": "UFC 332 MMA KO Staff Predictions: Natalia Silva vs. Cong Wang Main Card Picks",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-03T11:00:03+00:00",
+      "cluster": "cdf359fca59"
     }
   ],
   "digest_items": [],
