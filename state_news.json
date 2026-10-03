@@ -1,5 +1,7 @@
 {
   "seen": {
+    "6affb421dde51c21": 1791032644.269623,
+    "1e5bb0f3de25ade6": 1791032643.798551,
     "6bb38ece8234a13e": 1791032576.147383,
     "fa23045b8bca7b1b": 1791032508.1702898,
     "f9d46c2640fb9461": 1791032505.5941916,
@@ -2497,9 +2499,7 @@
     "bd543a6e101d5fbe": 1790409617.3854063,
     "c00a130b0148fcaf": 1790409617.383318,
     "b320e762c6aae78c": 1790409483.2516057,
-    "2b95862f82326469": 1790409482.825129,
-    "81806b536f7cccfa": 1790409096.1177487,
-    "170ac366d9fd21a4": 1790408709.6440508
+    "2b95862f82326469": 1790409482.825129
   },
   "initialized": true,
   "v": 4,
@@ -4603,13 +4603,19 @@
       "source": "4for4",
       "ts": "2026-10-03T12:58:59+00:00",
       "cluster": "cea6237feac"
+    },
+    {
+      "t": "UFC 332 predictions: Who will be the next women's flyweight champ?",
+      "source": "theScore",
+      "ts": "2026-10-03T12:56:50+00:00",
+      "cluster": "cc1071ff41f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T13",
-    4
+    5
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/DWCS-Week-7-weighin-results-All-10-fighters-make-weight-202894",
