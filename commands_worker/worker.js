@@ -1316,6 +1316,9 @@ function specAlts(meta, mid) {
 const STORY_KINDS = Object.freeze(["title", "retirement", "injury", "withdrawal", "result", "booking",
                                    "event", "rankings", "signing", "callout", "other"]);
 const STORY_TPL_RE = /^[a-z0-9]{2,20}$/;
+// scorer.CONCEPTS and scorer.ROLES (pinned equal by a selftest)
+const STORY_CONCEPTS = Object.freeze(["crossout", "rank", "versus", "quote", "title", "result", "photo"]);
+const STORY_ROLES = Object.freeze(["main", "ruled_out", "opponent", "target", "ranked_below", "mentioned"]);
 function specStory(meta) {
   const kind = metaStr(meta, "kind", 20);
   if (STORY_KINDS.indexOf(kind) === -1) return null;
@@ -1333,9 +1336,17 @@ function specStory(meta) {
       .replace(/\s+/g, " ").trim().slice(0, 60);
     if (!name) continue;
     const slug = typeof own(p, "slug") === "string" && FIGHTER_SLUG.test(p.slug) ? p.slug : "";
-    people.push(slug ? { name, slug } : { name });
+    const role = typeof own(p, "role") === "string" && STORY_ROLES.indexOf(p.role) !== -1 ? p.role : "";
+    const e = slug ? { name, slug } : { name };
+    if (role) e.role = role;
+    people.push(e);
   }
-  return { kind, templates, people, event: metaStr(meta, "event", 60), quote: metaStr(meta, "quote", 200) };
+  // Oct 3 2026: the editor's graphic. concept is one word of a frozen list (it picks the
+  // templates); big and label are poster words, upper case, a small character set, capped
+  const concept = metaStr(meta, "concept", 12);
+  const hook = (k, cap) => metaStr(meta, k, cap).toUpperCase().replace(/[^A-Z0-9#'.&?% -]/g, "").replace(/\s+/g, " ").trim();
+  return { kind, templates, people, event: metaStr(meta, "event", 60), quote: metaStr(meta, "quote", 200),
+           concept: STORY_CONCEPTS.indexOf(concept) !== -1 ? concept : "", big: hook("big", 18), label: hook("label", 30) };
 }
 // The finished template posters the render job attached (tplrender.py): attachments 2-9
 // named tpl-<template id>.png. The page gets proxy paths, never the CDN urls.
@@ -3555,6 +3566,87 @@ const X_WINDOW_LIVE_MS = 90 * 1000;       // the news job read the buffer this r
 const X_BELL_GAP_MS = 10 * 60 * 1000;     // at most one doorbell a ten minutes
 const X_BELL_BACKOFF_MS = 60 * 60 * 1000; // ...and once an hour while the last ring went unanswered
 const SOCIALDATA_SEARCH = "https://api.socialdata.tools/twitter/search";
+// Oct 3 2026: an empty SocialData balance answers 402 to every search. The cron used to retry
+// every minute for ever; it now rests the X polling for half an hour after a 402, and the
+// doorbell keeps ringing on the plain feeds meanwhile (see feedWatch).
+const X_PAUSE_402_MS = 30 * 60 * 1000;
+// THE FEED DOORBELL (Oct 3 2026). GitHub honours about seven scheduled news runs a day, so
+// with X silent the wire was dead for hours: on Oct 3 no window ran from 01:11 to 06:12 UTC
+// while @ChampRDS posted the Morales story at 04:09. The cron now also watches the newest item
+// of the plain feeds the news job reads (the ones Cloudflare can reach: Google News answers 503
+// to datacenter IPs, nitter is gone), and a changed newest item rings news.yml exactly like a
+// new X post. Only the head of each feed is read and only its first item's id is kept.
+const FEED_WATCH_MAX = 6;                 // feeds watched
+const FEED_WATCH_PER_TICK = 3;            // fetched per minute, in turns (each feed every ~2 min)
+const FEED_HEAD_BYTES = 48 * 1024;        // the first item sits near the top of every feed
+const FEED_SKIP_HOSTS = ["news.google.com", "nitter.net"];
+// PURE: newsconfig.json -> [{key, url}] the doorbell may watch: enabled plain RSS/Atom feeds on
+// https, never the X buffer itself, never a host that refuses Cloudflare
+function feedWatchList(ncfg) {
+  const srcs = ncfg && ncfg.sources && typeof ncfg.sources === "object" ? ncfg.sources : {};
+  const out = [];
+  for (const key of Object.keys(srcs)) {
+    const s = srcs[key];
+    if (!s || typeof s !== "object" || s.enabled === false || !/^[a-z0-9_]{1,40}$/.test(key)) continue;
+    if (s.flavor === "x_feed" || s.flavor === "nitter") continue;
+    let u = null;
+    try { u = new URL(String(s.url || "")); } catch (e) { u = null; }
+    if (!u || u.protocol !== "https:" || FEED_SKIP_HOSTS.some(h => u.hostname === h || u.hostname.endsWith("." + h))) continue;
+    out.push({ key, url: u.toString() });
+    if (out.length >= FEED_WATCH_MAX) break;
+  }
+  return out;
+}
+// PURE: the head of an RSS or Atom document -> the id of its FIRST item ("" when none is found).
+// guid, then link, then Atom id / link href; capped so a hostile feed cannot grow the store.
+function feedTopId(text) {
+  const s = String(text || "");
+  const m = /<(item|entry)[\s>]/i.exec(s);
+  if (!m) return "";
+  const body = s.slice(m.index, m.index + 8000);
+  const pick = (re) => { const r = re.exec(body); return r ? r[1].replace(/<!\[CDATA\[|\]\]>/g, "").trim() : ""; };
+  const id = pick(/<guid[^>]*>([\s\S]{1,400}?)<\/guid>/i) || pick(/<link>([\s\S]{8,400}?)<\/link>/i)
+    || pick(/<id>([\s\S]{1,400}?)<\/id>/i) || pick(/<link[^>]*href="([^"]{8,400})"/i);
+  return id.slice(0, 200);
+}
+// the first `max` bytes of a response as text; the rest of the body is never downloaded
+async function headText(resp, max) {
+  if (!resp || !resp.body || typeof resp.body.getReader !== "function") return resp && typeof resp.text === "function" ? (await resp.text()).slice(0, max) : "";
+  const reader = resp.body.getReader(), dec = new TextDecoder();
+  let out = "";
+  try {
+    while (out.length < max) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      out += dec.decode(value, { stream: true });
+    }
+  } finally { try { await reader.cancel(); } catch (e) { /* already closed */ } }
+  return out.slice(0, max);
+}
+// one turn of the feed watch: fetch this minute's share of the feeds, compare each newest item
+// with the stored one, store the new ones. Returns how many feeds CHANGED (a first sighting only
+// seeds: the item that is newest when watching starts is not news).
+async function feedWatch(ncfg, stub, now) {
+  const list = feedWatchList(ncfg);
+  if (!list.length) return 0;
+  const seen = (await (await stub.fetch("https://xfeed/kv?k=feeds")).json()).v || {};
+  const turns = Math.ceil(list.length / FEED_WATCH_PER_TICK);
+  const t = Math.floor(now / 60000) % turns;
+  const mine = list.slice(t * FEED_WATCH_PER_TICK, (t + 1) * FEED_WATCH_PER_TICK);
+  let changed = 0, dirty = false;
+  await Promise.all(mine.map(async (f) => {
+    let top = "";
+    try {
+      const r = await fetch(f.url, { headers: { "User-Agent": "Mozilla/5.0 (compatible; PrimeArenaNews/1.0)", Accept: "application/rss+xml, application/xml, text/xml" } });
+      if (r.ok) top = feedTopId(await headText(r, FEED_HEAD_BYTES));
+    } catch (e) { top = ""; }
+    if (!top) return;
+    if (seen[f.key] && seen[f.key] !== top) changed++;
+    if (seen[f.key] !== top) { seen[f.key] = top; dirty = true; }
+  }));
+  if (dirty) await stub.fetch("https://xfeed/kv", { method: "POST", body: JSON.stringify({ k: "feeds", v: seen }) });
+  return changed;
+}
 // PURE: the handles -> search queries, each under X_QUERY_MAX, replies and reposts filtered out
 // by the provider (so they are never billed)
 function xQueries(handles) {
@@ -3637,6 +3729,22 @@ export class XFeed {
       return Response.json({ added, read: (await st.get("read")) || 0, bell: (await st.get("bell")) || 0 });
     }
     if (u.pathname === "/bell" && request.method === "POST") { await st.put("bell", now); return Response.json({ ok: true }); }
+    // the doorbell's own small state: the feed watch's newest ids ("feeds") and the X rest
+    // after a 402 ("xpause"). Only these two keys exist; anything else is refused.
+    if (u.pathname === "/kv") {
+      const okKey = (k) => k === "feeds" || k === "xpause";
+      if (request.method === "POST") {
+        let b = null;
+        try { b = await request.json(); } catch (e) { b = null; }
+        if (!b || !okKey(b.k)) return new Response("bad key", { status: 400 });
+        await st.put("kv:" + b.k, b.v);
+        return Response.json({ ok: true });
+      }
+      const k = u.searchParams.get("k");
+      if (!okKey(k)) return new Response("bad key", { status: 400 });
+      return Response.json({ v: (await st.get("kv:" + k)) || null });
+    }
+    if (u.pathname === "/state") return Response.json({ read: (await st.get("read")) || 0, bell: (await st.get("bell")) || 0 });
     if (u.pathname === "/read") {
       const since = Number(u.searchParams.get("since")) || 0;
       await st.put("read", now);
@@ -3649,52 +3757,71 @@ export class XFeed {
 function xStub(env) { return env.XFEED.get(env.XFEED.idFromName("xfeed")); }
 // one tick of the 1-minute cron. Returns a short summary (the tests read it).
 async function xTick(env, now) {
-  if (!env || !env.SOCIALDATA_API_KEY || !env.XFEED || typeof env.XFEED.idFromName !== "function") return { skip: "not configured" };
+  // the news job answers the doorbell by reading the buffer with WORKER_BOT_KEY, so without that
+  // key (or the buffer) there is nothing to ring and nothing to fill
+  if (!env || !env.XFEED || typeof env.XFEED.idFromName !== "function" || !env.WORKER_BOT_KEY) return { skip: "not configured" };
   const ncfg = await newsConfigRaw(env);
-  // the owner's off switch (/news source x off, MOD_PANEL): no polling, no ring, no spend
+  // the owner's off switch for the whole speed layer (/news source x off, MOD_PANEL): no
+  // polling, no feed watch, no ring, no spend
   const xsrc = ncfg && ncfg.sources && typeof ncfg.sources === "object" ? ncfg.sources.x : null;
   if (xsrc && xsrc.enabled === false) return { skip: "switched off" };
   const handles = xHandles(ncfg);
-  if (!handles.length) return { skip: "no accounts" };
   const qs = xQueries(handles);
   const stub = xStub(env);
-  // more queries than a minute's free allowance: take turns
-  const start = qs.length > X_QUERIES_PER_TICK ? Math.floor(now / 60000) % qs.length : 0;
-  let added = 0, last = null;
-  for (let k = 0; k < Math.min(qs.length, X_QUERIES_PER_TICK); k++) {
-    const qi = (start + k) % qs.length;
-    const since = (await (await stub.fetch("https://xfeed/since?q=" + qi)).json()).since || "";
-    let r = null, j = null;
-    try {
-      r = await fetch(SOCIALDATA_SEARCH + "?type=Latest&query=" + encodeURIComponent(qs[qi] + (since ? " since_id:" + since : "")),
-        { headers: { Authorization: "Bearer " + env.SOCIALDATA_API_KEY, Accept: "application/json" } });
-      if (r.ok) j = await r.json();
-    } catch (e) { j = null; }
-    if (!j || !Array.isArray(j.tweets)) continue;       // 402 (no balance), 429, an outage: next minute
-    const posts = j.tweets.map(t => xPost(t, now)).filter(Boolean);
-    const top = j.tweets.map(t => String((t && t.id_str) || "")).filter(x => /^[0-9]{5,25}$/.test(x))
-      .sort((a, b) => (a.length - b.length) || (a < b ? -1 : a > b ? 1 : 0)).pop() || "";
-    // the first answer for a query only SEEDS its since id: the last few days of posts are
-    // not news, and posting them would flood the channel
-    const res = await (await stub.fetch("https://xfeed/add", { method: "POST",
-      body: JSON.stringify({ posts: since ? posts : [], q: qi, since: top || since }) })).json();
-    added += res.added || 0;
-    last = res;
+  let added = 0, xnote = "";
+  if (env.SOCIALDATA_API_KEY && qs.length) {
+    const pause = Number((await (await stub.fetch("https://xfeed/kv?k=xpause")).json()).v) || 0;
+    if (now < pause) xnote = "paused (no SocialData balance)";
+    else {
+      // more queries than a minute's free allowance: take turns
+      const start = qs.length > X_QUERIES_PER_TICK ? Math.floor(now / 60000) % qs.length : 0;
+      for (let k = 0; k < Math.min(qs.length, X_QUERIES_PER_TICK); k++) {
+        const qi = (start + k) % qs.length;
+        const since = (await (await stub.fetch("https://xfeed/since?q=" + qi)).json()).since || "";
+        let r = null, j = null;
+        try {
+          r = await fetch(SOCIALDATA_SEARCH + "?type=Latest&query=" + encodeURIComponent(qs[qi] + (since ? " since_id:" + since : "")),
+            { headers: { Authorization: "Bearer " + env.SOCIALDATA_API_KEY, Accept: "application/json" } });
+          if (r.ok) j = await r.json();
+        } catch (e) { j = null; }
+        if (r && r.status === 402) {
+          // an empty balance: rest the X polling instead of asking every minute all day
+          await stub.fetch("https://xfeed/kv", { method: "POST", body: JSON.stringify({ k: "xpause", v: now + X_PAUSE_402_MS }) });
+          xnote = "no SocialData balance";
+          break;
+        }
+        if (!j || !Array.isArray(j.tweets)) continue;       // 429, an outage: next minute
+        const posts = j.tweets.map(t => xPost(t, now)).filter(Boolean);
+        const top = j.tweets.map(t => String((t && t.id_str) || "")).filter(x => /^[0-9]{5,25}$/.test(x))
+          .sort((a, b) => (a.length - b.length) || (a < b ? -1 : a > b ? 1 : 0)).pop() || "";
+        // the first answer for a query only SEEDS its since id: the last few days of posts are
+        // not news, and posting them would flood the channel
+        const res = await (await stub.fetch("https://xfeed/add", { method: "POST",
+          body: JSON.stringify({ posts: since ? posts : [], q: qi, since: top || since }) })).json();
+        added += res.added || 0;
+      }
+    }
   }
+  // the plain feeds ring the same bell (Oct 3 2026), X or no X
+  let fresh = 0;
+  try { fresh = await feedWatch(ncfg, stub, now); } catch (e) { fresh = 0; }
   let bell = false;
-  // a ring the news job never answered (a key mismatch, a failing job, the X source off on the
-  // Python side) backs off to once an hour instead of dispatching every ten minutes all day
-  const answered = !last || (last.read || 0) >= (last.bell || 0);
-  const gap = answered ? X_BELL_GAP_MS : X_BELL_BACKOFF_MS;
-  if (added && last && now - (last.read || 0) > X_WINDOW_LIVE_MS && now - (last.bell || 0) > gap && env.GITHUB_TOKEN) {
-    try {
-      const d = await fetch(ghBase(env) + "/actions/workflows/news.yml/dispatches",
-        { method: "POST", headers: ghHeaders(env), body: JSON.stringify({ ref: "main", inputs: { reason: "doorbell" } }) });
-      bell = !!(d && d.status === 204);
-      if (bell) await stub.fetch("https://xfeed/bell", { method: "POST" });
-    } catch (e) { bell = false; }
+  if ((added || fresh) && env.GITHUB_TOKEN) {
+    const st = await (await stub.fetch("https://xfeed/state")).json();
+    // a ring the news job never answered (a key mismatch, a failing job, the X source off on the
+    // Python side) backs off to once an hour instead of dispatching every ten minutes all day
+    const answered = (st.read || 0) >= (st.bell || 0);
+    const gap = answered ? X_BELL_GAP_MS : X_BELL_BACKOFF_MS;
+    if (now - (st.read || 0) > X_WINDOW_LIVE_MS && now - (st.bell || 0) > gap) {
+      try {
+        const d = await fetch(ghBase(env) + "/actions/workflows/news.yml/dispatches",
+          { method: "POST", headers: ghHeaders(env), body: JSON.stringify({ ref: "main", inputs: { reason: "doorbell" } }) });
+        bell = !!(d && d.status === 204);
+        if (bell) await stub.fetch("https://xfeed/bell", { method: "POST" });
+      } catch (e) { bell = false; }
+    }
   }
-  return { queries: qs.length, added, bell };
+  return { queries: qs.length, added, fresh, bell, x: xnote };
 }
 // GET /news/x-feed?since=<ms>: the news job's read, WORKER_BOT_KEY in the Authorization header.
 // A bare 404 while the key or the buffer is missing (nothing here says what it is).
@@ -3789,6 +3916,7 @@ export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildP
   specStory, stagedRenders, STORY_KINDS, RENDER_FILE_RE, STAGED_IMG_IDX,
   looksWorkerSource, pageFn, LOOKS_FNS,
   xQueries, xHandles, xPost, xTick, xFeedRead, XFeed, X_QUERY_MAX, X_MAX_ACCOUNTS, X_WINDOW_LIVE_MS, X_BELL_GAP_MS,
-  SOCIALDATA_SEARCH, resetNewsCfg: function () { _ncfgCache = { at: 0, cfg: null }; },
+  SOCIALDATA_SEARCH, feedWatchList, feedTopId, headText, feedWatch, X_PAUSE_402_MS,
+  resetNewsCfg: function () { _ncfgCache = { at: 0, cfg: null }; },
   RENDER_COOKIE, RENDER_TTL_MS, RENDER_ROUTES, renderRoute, renderToken, renderTokenValid, renderLogin, botKeyOk,
   resetStudioCaches };
