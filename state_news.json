@@ -1,5 +1,7 @@
 {
   "seen": {
+    "00f9af41063b782a": 1790987754.4970489,
+    "f4a6c845c3bc24ca": 1790987754.089268,
     "c10cd469845e1c28": 1790987688.360894,
     "c9fbda9727ede72a": 1790987688.0326698,
     "b036564f00e38ac5": 1790987688.0304694,
@@ -2497,9 +2499,7 @@
     "4e2d8edbec10338b": 1790374150.5660472,
     "cebaa5327f4a14b2": 1790374107.0078878,
     "4878f033f100dfae": 1790374081.4555523,
-    "303167eb615c1362": 1790374057.3460732,
-    "e93cd53a711021fd": 1790374057.052217,
-    "1a9889c761a26213": 1790374034.867059
+    "303167eb615c1362": 1790374057.3460732
   },
   "initialized": true,
   "v": 4,
@@ -4549,13 +4549,19 @@
       "source": "MMA Mania",
       "ts": "2026-10-03T00:00:00+00:00",
       "cluster": "c2ea7d65539"
+    },
+    {
+      "t": "UFC 332 Natalia Silva vs. Wang Cong: How to Watch Live, Start Time, Full Card",
+      "source": "CNET",
+      "ts": "2026-10-03T00:00:21+00:00",
+      "cluster": "c6160b79707"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T00",
-    23
+    24
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Alexander-Volkanovskis-raw-reaction-to-Mauricio-Ruffy-KO-goes-viral-202890",
