@@ -1,5 +1,7 @@
 {
   "seen": {
+    "8d21fbc197d47aae": 1790988281.0452857,
+    "404753b80d0a21b9": 1790988280.7293239,
     "ee40d10fd8cd8ece": 1790988215.4699025,
     "01c9fa1a5cfd4126": 1790988215.0575283,
     "5d44b636c25256b9": 1790988149.7219093,
@@ -2497,9 +2499,7 @@
     "c6785eb35d4f00d2": 1790374411.9032238,
     "5ce44b8ecea41d6f": 1790374411.5327034,
     "6e0bacf87e6e3698": 1790374411.5311408,
-    "1dad06b6251b5b80": 1790374411.5309339,
-    "d29bcfefa449505e": 1790374347.7996933,
-    "74a88379633ad56a": 1790374347.3825495
+    "1dad06b6251b5b80": 1790374411.5309339
   },
   "initialized": true,
   "v": 4,
@@ -4597,13 +4597,19 @@
       "source": "MMA Junkie",
       "ts": "2026-10-03T00:30:00+00:00",
       "cluster": "cd49098abc6"
+    },
+    {
+      "t": "UFC Wants To Know Who's Backing Fighters' Wage Case",
+      "source": "Law360",
+      "ts": "2026-10-03T00:32:05+00:00",
+      "cluster": "cd775bb65e6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T00",
-    31
+    32
   ],
   "yt_eval": [
     "CBMi5gFBVV95cUxOcEk0ZWFZUUxxcEVJNlYtWnM4aldjN1BJemp1OVJ3Q0RMTWx3cXMwVmxpdkNCbWx2V0sta2xBRFNuVzcyNzg5R3l2eXQ4OUlEMnBYbUpGNDZ4OUN0Vmo0b25iVjUxWHdDN0NWUk9vMlBWZUZ1YzBDcWdNTkdvVUFIeTM4MEJNTzR4TjdTbmdmdGNha2JBNWxGWFVBRGs0SlUzX1pHaS1VcXVQZThBZ3NPUC1ldE9ZZGthQTAzUkpYcnJxSlpLNE9zSk9ZMTNhNjRBdUk4OTk2NG5pMzV1a2tza2kzbjZJQQ",
