@@ -1,5 +1,7 @@
 {
   "seen": {
+    "2e9b9fc8c863c193": 1791036199.8491123,
+    "e393ea1f6d8524ba": 1791036199.795947,
     "dcbe2ff8788db85e": 1791034987.3751805,
     "df8e060dccc1cacb": 1791034857.465665,
     "909bc502af2bcd35": 1791034665.0716655,
@@ -2497,9 +2499,7 @@
     "56261f02b6e5aba2": 1790427626.3469858,
     "591412887da4ce01": 1790427626.1287773,
     "f516f5a2fc4fdc2f": 1790427626.1253438,
-    "bbfca2cac4727b3d": 1790427626.1235175,
-    "cf6d0a44c4ff3272": 1790427626.1213725,
-    "7e7056af9b303bf2": 1790427626.1192665
+    "bbfca2cac4727b3d": 1790427626.1235175
   },
   "initialized": true,
   "v": 4,
@@ -2545,12 +2545,6 @@
       "source": "@MMAJunkie",
       "ts": "2026-10-01T15:25:45+00:00",
       "cluster": "c3933620128"
-    },
-    {
-      "t": "UFC 332’s Wang Cong doesn’t need to beat Valentina Shevchenko to be ‘real’ flyweight champion",
-      "source": "Yahoo Sports",
-      "ts": "2026-10-01T14:01:22+00:00",
-      "cluster": "cc9227e5ea6"
     },
     {
       "t": "The stakes may feel manufactured at UFC 332, but @PetesyCarroll believes the card will still deliver plenty of violence and spectacle: \"There are fig…",
@@ -2689,12 +2683,6 @@
       "source": "MMA Fighting",
       "ts": "2026-10-01T15:01:25+00:00",
       "cluster": "c01fcf8fce0"
-    },
-    {
-      "t": "Two-Time UFC Champion Targets Joshua Van Title Fight After UFC 332",
-      "source": "Yahoo Sports",
-      "ts": "2026-10-01T13:57:26+00:00",
-      "cluster": "c30e0c653eb"
     },
     {
       "t": "UFC 332 press conference video",
@@ -4651,13 +4639,19 @@
       "source": "oita-trinita.co.jp",
       "ts": "2026-10-03T13:35:11+00:00",
       "cluster": "c1199a885b0"
+    },
+    {
+      "t": "UFC 332: Silva vs. Wang Live Fight Coverage",
+      "source": "espn.in",
+      "ts": "2026-10-03T13:35:14+00:00",
+      "cluster": "cd3778ed81b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-03T13",
-    16
+    "2026-10-03T14",
+    0
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=511602",
