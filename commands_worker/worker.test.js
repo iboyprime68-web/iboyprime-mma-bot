@@ -3796,12 +3796,12 @@ await (async () => {
   const a = await withFetch(handler, () => xTick(ENV, t0));
   check("doorbell: the first look at a feed only seeds it (its newest item is not news) - no ring, and no SocialData call without a key",
     a.bell === false && a.fresh === 0 && !calls.some(u => u.indexOf(SOCIALDATA_SEARCH) === 0)
-    && JSON.stringify(store.get("kv:feeds")) === JSON.stringify({ sherdog: "s-1", yahoo: "y-1" }));
+    && JSON.stringify(store.get("kv:feeds")) === JSON.stringify({ sherdog: ["s-1"], yahoo: ["y-1"] }));
   top = "s-2"; calls = [];
   const b = await withFetch(handler, () => xTick(ENV, t0 + 60000));
   check("doorbell: a new newest item on a plain feed rings news.yml when no window is reading - X or no X (the Morales story fell into a five-hour gap)",
     b.fresh === 1 && b.bell === true && calls.some(u => u === "https://api.github.com/repos/o/r/actions/workflows/news.yml/dispatches")
-    && store.get("kv:feeds").sherdog === "s-2");
+    && JSON.stringify(store.get("kv:feeds").sherdog) === JSON.stringify(["s-2", "s-1"]));
   check("doorbell: every ring records GitHub's answer, and the news job's read reports it (a dead token shows as a 401)",
     JSON.stringify(store.get("kv:ring")) === JSON.stringify({ at: t0 + 60000, code: 204 })
     && (await (await obj.fetch(new Request("https://xfeed/read?since=0"))).json()).ring.code === 204);
@@ -3809,6 +3809,16 @@ await (async () => {
   store.set("read", t0 + 2 * 60000 - 20000);
   const c = await withFetch(handler, () => xTick(ENV, t0 + 2 * 60000));
   check("doorbell: while a window is reading, a changed feed rings nothing (the window polls it itself)", c.fresh === 1 && c.bell === false);
+  top = "s-2"; store.set("read", 0); store.set("bell", 0);
+  const c2 = await withFetch(handler, () => xTick(ENV, t0 + 2 * 60000 + 30000));
+  check("doorbell: an OLDER copy of a feed coming back (MMA Mania's CDN flips between two) is not news and rings nothing",
+    c2.fresh === 0 && c2.bell === false && JSON.stringify(store.get("kv:feeds").sherdog) === JSON.stringify(["s-3", "s-2", "s-1"]));
+  store.set("read", 7);
+  await obj.fetch(new Request("https://xfeed/read?since=0&peek=1"));
+  const peekRead = store.get("read");
+  await obj.fetch(new Request("https://xfeed/read?since=0"));
+  check("doorbell: a diagnostic PEEK never counts as the news job's heartbeat (a watcher kept the bell quiet for two hours); a real read does",
+    peekRead === 7 && store.get("read") > 7);
   // an empty SocialData balance: rest the X polling instead of asking every minute
   const ENV2 = Object.assign({}, ENV, { SOCIALDATA_API_KEY: "sd" });
   calls = [];
