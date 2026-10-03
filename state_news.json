@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8041b60b9e72cd72": 1791036224.3929007,
     "2e9b9fc8c863c193": 1791036199.8491123,
     "e393ea1f6d8524ba": 1791036199.795947,
     "dcbe2ff8788db85e": 1791034987.3751805,
@@ -2498,8 +2499,7 @@
     "4d560b8e9e2ed67b": 1790427651.499508,
     "56261f02b6e5aba2": 1790427626.3469858,
     "591412887da4ce01": 1790427626.1287773,
-    "f516f5a2fc4fdc2f": 1790427626.1253438,
-    "bbfca2cac4727b3d": 1790427626.1235175
+    "f516f5a2fc4fdc2f": 1790427626.1253438
   },
   "initialized": true,
   "v": 4,
@@ -4645,6 +4645,12 @@
       "source": "espn.in",
       "ts": "2026-10-03T13:35:14+00:00",
       "cluster": "cd3778ed81b"
+    },
+    {
+      "t": "Anything but fighting: King Green answers random questions",
+      "source": "MMA Fighting",
+      "ts": "2026-10-02T18:27:34+00:00",
+      "cluster": "cacac83b9dc"
     }
   ],
   "digest_items": [],
