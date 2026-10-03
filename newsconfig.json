@@ -196,6 +196,7 @@
     "ping": true
   },
   "emphasis": "color",
+  "post_news_channel": false,
   "scoring": {
     "enabled": true,
     "stage_threshold": 80,
