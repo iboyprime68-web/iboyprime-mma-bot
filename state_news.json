@@ -1,5 +1,7 @@
 {
   "seen": {
+    "e115dd6bb2248256": 1790987425.103232,
+    "cbf4351f32fefebb": 1790987424.7103097,
     "f8a3f4e0d6e4abc9": 1790987359.291953,
     "e361debec47a2e7f": 1790987293.3263853,
     "00b92a8cb6c61bb7": 1790987227.5915594,
@@ -2497,9 +2499,7 @@
     "9697375af6cd5f14": 1790373942.458264,
     "6628d2faed0d0809": 1790373941.8936234,
     "fc7c7d7d9df0ad5a": 1790373941.8570826,
-    "de31b2f6f8dfdabb": 1790363670.527286,
-    "d4472827466e6526": 1790363606.4068687,
-    "71d5e3f23381d5d5": 1790363562.561468
+    "de31b2f6f8dfdabb": 1790363670.527286
   },
   "initialized": true,
   "v": 4,
@@ -4519,13 +4519,19 @@
       "source": "MMA Junkie",
       "ts": "2026-10-02T23:40:00+00:00",
       "cluster": "c1857b114ee"
+    },
+    {
+      "t": "UFC 332 Final Card, Weigh-in Results, Start Time, How to Watch",
+      "source": "Forbes",
+      "ts": "2026-10-02T23:41:08+00:00",
+      "cluster": "cf0844038f3"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T00",
-    18
+    19
   ],
   "yt_eval": [
     "CBMikwFBVV95cUxQWEsyemRZeE5XM09yem4zaGZMYXJqWXN4bkhibDNXU2VPVTBPLU1NeUE2N24wdll5eF9Razh6M0pVT1VqN3NMaWhFZEw4M0M1T1Vucm9qd2xtX2xsWmZidzNmYmQyMFhvRF9xeVdsZXRhZU1GLURJTXZibENHN0JaUTJsVGNMV2FCR3c0TDZLVzZuaEk",
