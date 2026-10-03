@@ -1,5 +1,7 @@
 {
   "seen": {
+    "92ea0d3adc84ca81": 1790988017.8419073,
+    "c6e9447837cb1b4f": 1790988017.6013558,
     "390abacd42bb6932": 1790987951.9643648,
     "91092e1d8feafd32": 1790987886.2010412,
     "b70da0719dfa984f": 1790987820.2321336,
@@ -2497,9 +2499,7 @@
     "c73752a2518d8429": 1790374282.9490364,
     "238bf3d39fefabf7": 1790374259.496586,
     "b693455054aed636": 1790374215.6667254,
-    "f8c4fcd6500787c0": 1790374150.8442824,
-    "eee1dad5b43f0a5a": 1790374150.5717707,
-    "c334194ec40be624": 1790374150.569323
+    "f8c4fcd6500787c0": 1790374150.8442824
   },
   "initialized": true,
   "v": 4,
@@ -4573,13 +4573,19 @@
       "source": "MARCA",
       "ts": "2026-10-03T00:06:00+00:00",
       "cluster": "caa6dd50108"
+    },
+    {
+      "t": "Aljamain Sterling, UFC Fight Night 274 post-fight interview",
+      "source": "lufkindailynews.com",
+      "ts": "2026-10-03T00:10:06+00:00",
+      "cluster": "c27742bc9d0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T00",
-    27
+    28
   ],
   "yt_eval": [
     "CBMingFBVV95cUxPcDZzS01sM0hLZDN1QThfeWEtS0c1eXN2VGxpcVNSYjEtT0lpaFlDOFVzdEU1OG8zR3FJNVNRYVExbUZzM3B2YXZkTVBrMWtrQ0RUNFljd0dVbjBWczJhZkZsTHNEakNNRzFHZ2s2blRtRXBnZWtYYzM5WElLOENmdkFtUEJ0OTFxRUNrUWNlRHZIZVRyX3BYT1RuY2o3Zw",
