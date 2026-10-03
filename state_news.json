@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3adc9a547697fec9": 1791008298.3844633,
     "71cd8a5252e3a47b": 1791008266.2664924,
     "47b58fa504cb3df2": 1791008265.894119,
     "8f62d6c19e550531": 1791008198.4443855,
@@ -2498,8 +2499,7 @@
     "86a6be58ea657531": 1790385498.7726183,
     "703b3fffc4dff764": 1790377236.6935587,
     "38abff9fa772832b": 1790377214.5769725,
-    "7c364548c4d29e35": 1790376837.4044905,
-    "5bdedef745177799": 1790376585.4834497
+    "7c364548c4d29e35": 1790376837.4044905
   },
   "initialized": true,
   "v": 4,
@@ -4501,13 +4501,19 @@
       "source": "Sportskeeda",
       "ts": "2026-10-03T05:19:00+00:00",
       "cluster": "c4791c7d07e"
+    },
+    {
+      "t": "UFC 332’s Alexander Hernandez finally talks about FBI investigation that cancelled Michael Johnson fight: ‘I got completely blindsided’",
+      "source": "MMA Mania",
+      "ts": "2026-10-03T02:41:28+00:00",
+      "cluster": "c41f02fb7b7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T06",
-    9
+    10
   ],
   "yt_eval": [
     "0032be3c-2d8d-301b-ba9e-9593ed448ec4",
