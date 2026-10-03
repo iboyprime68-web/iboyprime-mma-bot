@@ -107,6 +107,14 @@ def result_line(comp):
 def ordered_bouts(ev):
     return list(reversed(ev.get("competitions", [])))
 
+def events_by_id(sb):
+    """ESPN scoreboard events keyed by id. Since Oct 2 2026 the PFL scoreboard
+    answers with an EMPTY event object ({}), and indexing e["id"] crashed this
+    bot (and events_bot) every run - a "Run failed" email each time. Anything
+    that is not a dict with an id is skipped."""
+    return {e["id"]: e for e in (sb.get("events") or [])
+            if isinstance(e, dict) and e.get("id")}
+
 def find_detail(league, eid, start_iso, cache):
     if eid in cache:
         return cache[eid]
@@ -114,8 +122,7 @@ def find_detail(league, eid, start_iso, cache):
     for delta in (0, -1, 1):
         day = (d + datetime.timedelta(days=delta)).strftime("%Y%m%d")
         sb = espn(league + "/scoreboard?dates=" + day)
-        for ev in sb.get("events", []):
-            cache[ev["id"]] = ev
+        cache.update(events_by_id(sb))
         if eid in cache:
             return cache[eid]
     return None
@@ -181,7 +188,7 @@ def main():
         lg = sb.get("leagues") or []
         if not lg: continue
         calendar = lg[0].get("calendar", [])
-        cache = {e["id"]: e for e in sb.get("events", [])}
+        cache = events_by_id(sb)
         for c in calendar:
             eid = event_id((c.get("event") or {}).get("$ref"))
             if not eid: continue
