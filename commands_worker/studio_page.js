@@ -5377,7 +5377,8 @@ var TPL_NAMES = { mainevent: "Main event", official: "Fight announcement", title
   tape: "Tale of the tape", faceoff: "Face-off", card: "Main card", cards: "Card grid", countdown: "Countdown",
   headline: "Headline", pop: "Color pop", andnew: "And new", form: "Last 5 fights", bigstat: "Big number",
   cutq: "Cut-out quote", spotlight: "Spotlight quote", splitq: "Split quote", photocard: "Photo card",
-  resume: "Resume", split: "Split", clash: "Stat clash" };
+  resume: "Resume", split: "Split", clash: "Stat clash",
+  crossout: "Crossed out", gcross: "Crossed out (grid)", gpotm: "Honour card (grid)", gtape: "Tale of the tape (grid)" };
 function storyTplHref(mid, tpl) { return "/studio/templates#s=" + mid + (tpl ? "&t=" + tpl : ""); }
 function buildStoryTpls(p) {
   var card = $("cardStoryTpl"), host = $("storyTpls");
@@ -5414,6 +5415,10 @@ function buildStoryTpls(p) {
 function openStaged(p) {
   var r = p && Array.isArray(p.renders) && p.renders.length ? p.renders[0] : null;
   if (r && r.tpl && TPL_NAMES[r.tpl]) { location.href = storyTplHref(p.id, r.tpl); return; }
+  // Oct 3 2026: a story the editor designed opens its concept's template even when nothing could
+  // render (a fighter UFC.com does not have): the words are filled, the owner drops the photo
+  var st = p && p.story, t0 = st && st.concept && Array.isArray(st.templates) ? st.templates[0] : "";
+  if (t0 && TPL_NAMES[t0]) { location.href = storyTplHref(p.id, t0); return; }
   pickStaged(p);
 }
 function pickStaged(p) {
