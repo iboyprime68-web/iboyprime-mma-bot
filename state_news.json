@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e361debec47a2e7f": 1790987293.3263853,
     "00b92a8cb6c61bb7": 1790987227.5915594,
     "e88289fd12d5e9ae": 1790987227.343359,
     "e4541cf6275c4c70": 1790987161.2877226,
@@ -2498,8 +2499,7 @@
     "de31b2f6f8dfdabb": 1790363670.527286,
     "d4472827466e6526": 1790363606.4068687,
     "71d5e3f23381d5d5": 1790363562.561468,
-    "cc0d5c70838dc803": 1790363476.3066833,
-    "0189af514dd49851": 1790363476.0618424
+    "cc0d5c70838dc803": 1790363476.3066833
   },
   "initialized": true,
   "v": 4,
@@ -4507,13 +4507,19 @@
       "source": "heavy.com",
       "ts": "2026-10-02T23:35:21+00:00",
       "cluster": "c7257f27774"
+    },
+    {
+      "t": "Potential Lightweight Banger Added to UFC Qatar",
+      "source": "heavy.com",
+      "ts": "2026-10-02T23:37:11+00:00",
+      "cluster": "cc406764ba7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T00",
-    16
+    17
   ],
   "yt_eval": [
     "CBMi1gFBVV95cUxPUXJmRFhVY2FScGVQUzVlV0M2ZV85NC01emJyMkhzMEZ1c1dUNzM4Y010dGFMNTNzc1VKeUItUXhDWlA0MzNKaHJoc3FfUm5XT0NoM0dkZGFWdERRZ0tFbHVFbWtBNzRMRWhWQTF1R0hzTGVOaVdMYjBCaFZ1aEFJUUdTWmhqTGFVQnNIemYxUG5Wd0VleHpaT2phUzdlLWx3RWpVemx6VC1PaTQ2QmJTZVlkUWFYQ0FINjFrWDFRZVdhcmZXUFpVdXljMkZ3Q2s0NDlkdkV3",
