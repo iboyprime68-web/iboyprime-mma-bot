@@ -3802,6 +3802,9 @@ await (async () => {
   check("doorbell: a new newest item on a plain feed rings news.yml when no window is reading - X or no X (the Morales story fell into a five-hour gap)",
     b.fresh === 1 && b.bell === true && calls.some(u => u === "https://api.github.com/repos/o/r/actions/workflows/news.yml/dispatches")
     && store.get("kv:feeds").sherdog === "s-2");
+  check("doorbell: every ring records GitHub's answer, and the news job's read reports it (a dead token shows as a 401)",
+    JSON.stringify(store.get("kv:ring")) === JSON.stringify({ at: t0 + 60000, code: 204 })
+    && (await (await obj.fetch(new Request("https://xfeed/read?since=0"))).json()).ring.code === 204);
   top = "s-3";
   store.set("read", t0 + 2 * 60000 - 20000);
   const c = await withFetch(handler, () => xTick(ENV, t0 + 2 * 60000));
@@ -3816,7 +3819,7 @@ await (async () => {
   const e = await withFetch(handler, () => xTick(ENV2, t0 + 4 * 60000));
   check("X: during the rest there is no SocialData call at all, and the feed doorbell still works",
     e.x.indexOf("paused") === 0 && !calls.some(u => u.indexOf(SOCIALDATA_SEARCH) === 0) && calls.some(u => u.indexOf("sherdog.com") !== -1));
-  check("doorbell: the Durable Object's small store takes only its two keys",
+  check("doorbell: the Durable Object's small store takes only its own keys (feeds, xpause, ring)",
     (await obj.fetch(new Request("https://xfeed/kv", { method: "POST", body: JSON.stringify({ k: "posts", v: [] }) }))).status === 400
     && (await obj.fetch(new Request("https://xfeed/kv?k=read"))).status === 400);
   _test.resetNewsCfg();
