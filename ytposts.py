@@ -452,12 +452,15 @@ def _title_case_names(runs):
 #    staging memory exists to stop. A buzz is a news interruption; the studio
 #    is content selection; they are different jobs. The alert still decides
 #    DRAIN ORDER in news_bot, which is the honest use of it.
-PRIORITY_THRESHOLD = 80
+PRIORITY_THRESHOLD = 88
 
 
 def is_priority(heur_score, scfg):
-    """True when this story takes the priority staging lane: the deterministic
-    heuristic reaches scoring.priority_threshold.
+    """True when this story takes the priority staging lane: its score reaches
+    scoring.priority_threshold. Since Oct 3 2026 the caller passes the EDITOR'S
+    desk score (scorer.desk_score), never the keyword heuristic: the heuristic
+    gave "retirement" chatter a reserved lane (the parameter keeps its old name
+    so the signature stays the two parameters a selftest pins).
 
     scoring.priority_threshold of 0 turns the lane off entirely; a junk value
     falls back to the default rather than raising. Pure."""
@@ -474,8 +477,11 @@ def is_priority(heur_score, scfg):
 
 
 def stage_gate(it, score, breaking, hist, now, scfg):
-    """(ok, reason) - may this scored story stage? Applied AFTER scoring (the
-    breaking/ping exception needs the score) and BEFORE any rendering.
+    """(ok, reason) - may this scored story stage? Applied AFTER scoring and
+    BEFORE any rendering. Since Oct 3 2026 the third argument means STRONG: the
+    editor rated the story at strong_threshold or above, having seen the list of
+    what is already staged - it may then share a fighter with an earlier post,
+    but it can never be junk and never repeat an earlier headline.
 
     Refuses, in order: service-journalism rehash (watch guides, results
     roundups - the news channel still posts them, the studio never does),
@@ -496,7 +502,7 @@ def stage_gate(it, score, breaking, hist, now, scfg):
     is deterministic and names real developments only. Pure."""
     title = str(it.get("title") or "")
     big = bool(breaking)
-    if not big and scorer.is_junk(title):
+    if scorer.is_junk(title):
         return False, "junk (watch guide / results rehash)"
     when = it.get("when")
     max_age = _gate(scfg, "stage_max_age_hours")
@@ -787,6 +793,23 @@ def build_caption(title, desc, source):
     return "\n".join(lines)
 
 
+def build_desk_caption(it, score=0):
+    """The caption the editor wrote (scorer.parse_desk), in the shape the owner
+    posts: the news with its quote and source, a question that starts the
+    comments, one hashtag. A siren only on the hottest stories (a siren on every
+    post is no siren). '' when the editor wrote none - build_caption is then
+    the caption. Pure."""
+    cap = " ".join(str(it.get("caption") or "").split())
+    if not cap:
+        return ""
+    lines = [("\U0001F6A8 " if score >= PRIORITY_THRESHOLD else "") + cap]
+    ask = " ".join(str(it.get("ask") or "").split())
+    if ask:
+        lines += ["", ask]
+    lines += ["", "#UFC"]
+    return "\n".join(lines)
+
+
 def retention_note(newscfg):
     """One calm line telling the owner this copy is temporary, or "".
 
@@ -866,10 +889,16 @@ def studio_spec(it, kind, bg="", extra=None, story=None):
                 e = {"name": " ".join(str(p["name"]).split())[:60]}
                 if p.get("slug"):
                     e["slug"] = str(p["slug"])[:60]
+                if p.get("role"):
+                    e["role"] = str(p["role"])[:14]
                 ppl.append(e)
         spec["people"] = ppl
         spec["event"] = " ".join(str(st.get("event") or "").split())[:60]
         spec["quote"] = " ".join(str(st.get("quote") or "").split())[:200]
+        # Oct 3 2026: the editor's graphic (worker.js specStory re-validates all three)
+        spec["concept"] = str(st.get("concept") or "")[:12]
+        spec["big"] = " ".join(str(st.get("big") or "").split())[:18]
+        spec["label"] = " ".join(str(st.get("label") or "").split())[:30]
     # A backtick run inside the fence (an alt url lifted from a third-party
     # page, a model-written line) would close the Discord code block early and
     # cost the post its round-trip. JSON reads the escaped form back as the
@@ -987,7 +1016,8 @@ def stage_story(it, score, why, cfg_bots, newscfg, hist=None, state=None, deadli
                                              subject=name_tokens(it.get("title", ""))):
                 ping_uid = str(cfg_bots.get("owner_id", "") or "")
 
-        caption = build_caption(it.get("title"), it.get("desc"), it.get("source"))
+        caption = (build_desk_caption(it, score)
+                   or build_caption(it.get("title"), it.get("desc"), it.get("source")))
         mentions = ({"parse": [], "users": [ping_uid]} if ping_uid else None)
         silent = not ping_uid    # a ping must never ride a silent message
 
@@ -1084,8 +1114,16 @@ def stage_story(it, score, why, cfg_bots, newscfg, hist=None, state=None, deadli
                     ("cutout:" + cut_fid) if cutout_path else "wash")
         try:
             import storykind
-            story = storykind.story(it.get("title", ""), it.get("desc", ""),
-                                    kind=str(it.get("kind") or ""))
+            # the editor's concept shapes the templates and the people on them;
+            # with no concept this is storykind.story() unchanged
+            story = storykind.concept_story(it.get("title", ""), it.get("desc", ""),
+                                            kind=str(it.get("kind") or ""),
+                                            concept=str(it.get("concept") or ""),
+                                            main=str(it.get("main") or ""),
+                                            others=it.get("others") or [],
+                                            big=str(it.get("big") or ""),
+                                            label=str(it.get("label") or ""),
+                                            quote=str(it.get("quote") or ""))
         except Exception:
             story = None
 
@@ -1099,15 +1137,16 @@ def stage_story(it, score, why, cfg_bots, newscfg, hist=None, state=None, deadli
         while len(body) > BODY_BUDGET and extra.get("alts"):
             extra["alts"] = extra["alts"][:-1]
             body = _body()
-        # still long: the quote goes, then the people past the first two, then the story
-        # (the post itself matters more than its templates)
+        # still long: the quote goes, then the people past the first three (a crossout
+        # needs its subject and both crossed-out names), then the story (the post
+        # itself matters more than its templates)
         for _cut in ("quote", "people", "story"):
             if len(body) <= BODY_BUDGET or not story:
                 break
             if _cut == "quote":
                 story["quote"] = ""
             elif _cut == "people":
-                story["people"] = (story.get("people") or [])[:2]
+                story["people"] = (story.get("people") or [])[:3]
             else:
                 story = None
             body = _body()
