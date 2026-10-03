@@ -1,5 +1,6 @@
 {
   "seen": {
+    "93f6b59038c54839": 1790989799.958428,
     "595b6612f74ec35d": 1790989489.8468874,
     "f216b223cab0b56c": 1790989364.5854053,
     "a49eac2a099fe3a8": 1790989364.5834982,
@@ -2498,8 +2499,7 @@
     "d707c7458e120887": 1790375062.4686162,
     "7a61ef609f3e68a7": 1790374998.2115326,
     "09f322f19f133cd0": 1790374933.6123776,
-    "b12c599cbdc8b0f8": 1790374933.2201457,
-    "4a8788dbb72cc7bd": 1790374933.2147474
+    "b12c599cbdc8b0f8": 1790374933.2201457
   },
   "initialized": true,
   "v": 4,
@@ -2521,18 +2521,6 @@
       "source": "@sherdogdotcom",
       "ts": "2026-10-01T01:49:32+00:00",
       "cluster": "ce2bfaad746"
-    },
-    {
-      "t": "Muhammad Davis On Patient Path To UFC Heavyweight Debut",
-      "source": "Yardbarker",
-      "ts": "2026-10-01T01:08:58+00:00",
-      "cluster": "cecc670cc13"
-    },
-    {
-      "t": "Francis Ngannou could be the GOAT if he returns to MMA, claims coach",
-      "source": "Yahoo Sports",
-      "ts": "2026-10-01T01:09:56+00:00",
-      "cluster": "c166fe81b49"
     },
     {
       "t": "Justin Gaethje backed to pull off another upset by UFC star who Arman Tsarukyan submitted with ease",
@@ -4621,13 +4609,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-03T01:00:00+00:00",
       "cluster": "c1ed3880d74"
+    },
+    {
+      "t": "Dana White Rips Eddie Hearn After Rival Celebrates UFC Boss Getting Booed",
+      "source": "MMA Sucka",
+      "ts": "2026-10-03T01:07:46+00:00",
+      "cluster": "c0ee12b4d2a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T01",
-    1
+    2
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=511605",
