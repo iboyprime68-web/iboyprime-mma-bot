@@ -1,5 +1,7 @@
 {
   "seen": {
+    "bcd0f22a365d5b8a": 1790987490.9395528,
+    "7b17933b5f0d429d": 1790987490.6133883,
     "e115dd6bb2248256": 1790987425.103232,
     "cbf4351f32fefebb": 1790987424.7103097,
     "f8a3f4e0d6e4abc9": 1790987359.291953,
@@ -2497,9 +2499,7 @@
     "ece43f67050820f0": 1790373988.5893574,
     "ae0906083b94ae46": 1790373965.2677388,
     "9697375af6cd5f14": 1790373942.458264,
-    "6628d2faed0d0809": 1790373941.8936234,
-    "fc7c7d7d9df0ad5a": 1790373941.8570826,
-    "de31b2f6f8dfdabb": 1790363670.527286
+    "6628d2faed0d0809": 1790373941.8936234
   },
   "initialized": true,
   "v": 4,
@@ -4525,13 +4525,19 @@
       "source": "Forbes",
       "ts": "2026-10-02T23:41:08+00:00",
       "cluster": "cf0844038f3"
+    },
+    {
+      "t": "Natalia Silva Hopeful Brazil Secures Women's Belts in UFC",
+      "source": "MMA Sucka",
+      "ts": "2026-10-02T23:47:40+00:00",
+      "cluster": "ce2c43de3a5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T00",
-    19
+    20
   ],
   "yt_eval": [
     "CBMiiwFBVV95cUxOZWhUZHVqX1pDY0EtUm1YQ0F3cTdWTWFEQVB5SFJjdWoyU1lXWDNBYnNhM2Rrc3dUV0x3YmFLMVFoSUhoMlFtSnNWdmFzU3FSeGpzWldTN05HNDhheHBWbW9DdHQxUHo3cy1pV0NRMUJDQzdJNG9Va196M29WTVFXX1JwTXdBMVJfZUM4",
