@@ -1,5 +1,6 @@
 {
   "seen": {
+    "602a5266f2860088": 1791040848.2338512,
     "54025cacb1f9ced1": 1791040782.9936054,
     "6da1f8737a3d76ab": 1791040761.2060566,
     "76886eb542454eae": 1791040761.1822863,
@@ -2498,8 +2499,7 @@
     "4954d8f173b4e8dc": 1790442281.9337513,
     "e0b255b9ab1be065": 1790442281.9150388,
     "7a5909ae2597cf51": 1790442281.8960598,
-    "33acd6db9eecea88": 1790442208.5273063,
-    "6e04f3463ea5697a": 1790442162.3013487
+    "33acd6db9eecea88": 1790442208.5273063
   },
   "initialized": true,
   "v": 4,
@@ -4729,6 +4729,12 @@
       "source": "Ringside News",
       "ts": "2026-10-03T15:04:44+00:00",
       "cluster": "c42347cab2f"
+    },
+    {
+      "t": "What’s the Next Challenge? Kamaru Usman on His Future, Training, and Motivation",
+      "source": "essentiallysports.com",
+      "ts": "2026-10-03T15:09:00+00:00",
+      "cluster": "ca4190a12b8"
     }
   ],
   "digest_items": [],
