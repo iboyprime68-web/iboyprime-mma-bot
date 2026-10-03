@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f9115d9194abe1b0": 1791029716.476393,
     "349b4d1046eac50e": 1791029647.4840147,
     "228d9bd9a8514ccb": 1791029647.0864496,
     "21c6e22bc99b2a28": 1791029647.0844758,
@@ -2498,8 +2499,7 @@
     "204de958df1b45ec": 1790407414.6575806,
     "a8b8fbfb65de2086": 1790407388.1741328,
     "ee0d5b5e325f1bf8": 1790407319.0195413,
-    "022f0742d0e86c79": 1790407249.6161234,
-    "3ea6df3e752355a2": 1790407249.2575722
+    "022f0742d0e86c79": 1790407249.6161234
   },
   "initialized": true,
   "v": 4,
@@ -4573,13 +4573,19 @@
       "source": "Yahoo",
       "ts": "2026-10-03T12:04:19+00:00",
       "cluster": "c0d978ee6d4"
+    },
+    {
+      "t": "Court McGee Discusses Retirement Decision Ahead of UFC 332",
+      "source": "Cageside Press",
+      "ts": "2026-10-03T12:06:40+00:00",
+      "cluster": "c7db11b891c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T12",
-    17
+    18
   ],
   "yt_eval": [
     "CBMigwFBVV95cUxQajJZMFkwWFNDWmhZLVBRS1R6SDZPS09uN2hMZW9oY3BBY3ZSdDV2dzB5clB2Qk5nNTBKZGhiTjZoMmYzNkE3bGQxTHVXb3VvbGJ2ajV4OHF1RUFnQTZqZm9aRXNvUHNZNHgzWHpxUUxEcWd0LWY0VmY5WmwxT25SOWdHRQ",
@@ -7107,7 +7113,8 @@
     "8e769752e66a5585": 1790904823.1449943,
     "6d7ef1c316478a07": 1790928633.6201322,
     "71cd8a5252e3a47b": 1791008265.9178793,
-    "349b4d1046eac50e": 1791029647.1175902
+    "349b4d1046eac50e": 1791029647.1175902,
+    "f9115d9194abe1b0": 1791029715.749284
   },
   "pinged_titles": [
     [
@@ -7124,6 +7131,11 @@
         "cong",
         "silva"
       ]
+    ],
+    [
+      "Court McGee Discusses Retirement Decision Ahead of UFC 332",
+      1791029715.749284,
+      []
     ]
   ]
 }
