@@ -3579,6 +3579,9 @@ const X_PAUSE_402_MS = 30 * 60 * 1000;
 const FEED_WATCH_MAX = 6;                 // feeds watched
 const FEED_WATCH_PER_TICK = 3;            // fetched per minute, in turns (each feed every ~2 min)
 const FEED_HEAD_BYTES = 48 * 1024;        // the first item sits near the top of every feed
+// the newest ids remembered per feed: MMA Mania's CDN flips between an older and a newer copy of
+// its feed (measured Oct 3 2026), and an old copy coming back is not news
+const FEED_RECENT = 6;
 const FEED_SKIP_HOSTS = ["news.google.com", "nitter.net"];
 // PURE: newsconfig.json -> [{key, url}] the doorbell may watch: enabled plain RSS/Atom feeds on
 // https, never the X buffer itself, never a host that refuses Cloudflare
@@ -3624,8 +3627,9 @@ async function headText(resp, max) {
   return out.slice(0, max);
 }
 // one turn of the feed watch: fetch this minute's share of the feeds, compare each newest item
-// with the stored one, store the new ones. Returns how many feeds CHANGED (a first sighting only
-// seeds: the item that is newest when watching starts is not news).
+// with the ones stored, store the new ones. Returns how many feeds published something NEW (a
+// first sighting only seeds: the item that is newest when watching starts is not news; an id seen
+// in the last FEED_RECENT is a stale copy coming back, not news either).
 async function feedWatch(ncfg, stub, now) {
   const list = feedWatchList(ncfg);
   if (!list.length) return 0;
@@ -3641,8 +3645,11 @@ async function feedWatch(ncfg, stub, now) {
       if (r.ok) top = feedTopId(await headText(r, FEED_HEAD_BYTES));
     } catch (e) { top = ""; }
     if (!top) return;
-    if (seen[f.key] && seen[f.key] !== top) changed++;
-    if (seen[f.key] !== top) { seen[f.key] = top; dirty = true; }
+    const prev = Array.isArray(seen[f.key]) ? seen[f.key] : (seen[f.key] ? [String(seen[f.key])] : []);
+    if (prev.indexOf(top) !== -1) return;
+    if (prev.length) changed++;
+    seen[f.key] = [top].concat(prev).slice(0, FEED_RECENT);
+    dirty = true;
   }));
   if (dirty) await stub.fetch("https://xfeed/kv", { method: "POST", body: JSON.stringify({ k: "feeds", v: seen }) });
   return changed;
@@ -3747,7 +3754,9 @@ export class XFeed {
     if (u.pathname === "/state") return Response.json({ read: (await st.get("read")) || 0, bell: (await st.get("bell")) || 0 });
     if (u.pathname === "/read") {
       const since = Number(u.searchParams.get("since")) || 0;
-      await st.put("read", now);
+      // only the news job's own read is the heartbeat the doorbell trusts; a diagnostic PEEK must
+      // not count (Oct 3 2026: a watcher reading every minute kept the bell quiet for two hours)
+      if (u.searchParams.get("peek") !== "1") await st.put("read", now);
       const posts = ((await st.get("posts")) || []).filter(p => p.at > since && now - p.at < X_BUFFER_MS);
       // the last doorbell attempt and GitHub's answer (Oct 3 2026: the bell never rang once since
       // Sept 30 and nothing said why - a 401 here means the Worker's GITHUB_TOKEN is dead)
@@ -3835,14 +3844,31 @@ async function xFeedRead(request, env, url) {
   try { ok = !!m && await botKeyOk(env, m[1]); } catch (e) { ok = false; }
   if (!ok) return new Response("not found", { status: 404 });
   const since = Math.max(0, Number(url.searchParams.get("since")) || 0);
-  const r = await xStub(env).fetch("https://xfeed/read?since=" + since);
+  const diag = url.searchParams.get("diag") === "1";
+  const r = await xStub(env).fetch("https://xfeed/read?since=" + since + (diag ? "&peek=1" : ""));
   let text = await r.text();
   // ?diag=1 (behind the same key): can the Worker's own GITHUB_TOKEN still read the repo? One
   // read-only GitHub call, only when asked - the doorbell rings with that token
-  if (url.searchParams.get("diag") === "1") {
+  if (diag) {
     let gh = 0;
     try { gh = env.GITHUB_TOKEN ? (await fetch(ghBase(env) + "/actions/workflows/news.yml", { headers: ghHeaders(env) })).status : -1; } catch (e) { gh = 0; }
-    try { const o = JSON.parse(text); o.gh = gh; text = JSON.stringify(o); } catch (e) { /* keep the buffer as it was */ }
+    // and the feed doorbell: what the Durable Object holds, and what each watched feed answers
+    // Cloudflare right now (status, newest id) - read only, nothing is stored
+    let feeds = null, probe = [];
+    try { feeds = (await (await xStub(env).fetch("https://xfeed/kv?k=feeds")).json()).v; } catch (e) { feeds = "error"; }
+    try {
+      const ncfg = await newsConfigRaw(env);
+      for (const f of feedWatchList(ncfg)) {
+        let st = 0, top = "";
+        try {
+          const fr = await fetch(f.url, { headers: { "User-Agent": "Mozilla/5.0 (compatible; PrimeArenaNews/1.0)", Accept: "application/rss+xml, application/xml, text/xml" } });
+          st = fr.status;
+          if (fr.ok) top = feedTopId(await headText(fr, FEED_HEAD_BYTES));
+        } catch (e) { st = -1; }
+        probe.push({ key: f.key, status: st, top: top.slice(0, 80) });
+      }
+    } catch (e) { probe = "error"; }
+    try { const o = JSON.parse(text); o.gh = gh; o.feeds = feeds; o.probe = probe; text = JSON.stringify(o); } catch (e) { /* keep the buffer as it was */ }
   }
   return new Response(text, { status: 200, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" } });
 }
