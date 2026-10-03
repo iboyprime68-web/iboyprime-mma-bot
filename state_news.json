@@ -1,5 +1,8 @@
 {
   "seen": {
+    "ccb2334b0db2ddf6": 1790987029.7032087,
+    "05e9d023bc75efca": 1790987029.4162664,
+    "a97b95c2cd8d7ed2": 1790987029.414013,
     "4bef872b00893676": 1790986964.0772505,
     "5f13f80cf1e7ac6d": 1790986963.810863,
     "dd758edd94adc304": 1790986898.4065835,
@@ -2496,10 +2499,7 @@
     "8fe573861af56ead": 1790363285.8492162,
     "ead3c300974b131c": 1790363157.6378636,
     "a3d6506a95be73ef": 1790363157.6206331,
-    "a2641c2eef25cd82": 1790363030.8580534,
-    "86c122bb0998fb90": 1790363030.8416574,
-    "f2a7e60adca36ee8": 1790362966.0252337,
-    "d35f52447e5b86f1": 1790362858.483584
+    "a2641c2eef25cd82": 1790363030.8580534
   },
   "initialized": true,
   "v": 4,
@@ -4483,13 +4483,19 @@
       "source": "MMA Sucka",
       "ts": "2026-10-02T23:27:40+00:00",
       "cluster": "c7394083c73"
+    },
+    {
+      "t": "The Short (But Amazing) History of the UFC Women’s 125lb Belt",
+      "source": "Cageside Press",
+      "ts": "2026-10-02T23:31:17+00:00",
+      "cluster": "cfdd5f06e2a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T00",
-    12
+    13
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Paulo-Costa-gives-UFC-3-options-in-contract-standoff-202880",
