@@ -51,14 +51,14 @@ PRIORITY = KINDS
 # of silently rendering nothing.
 TEMPLATES = {
     "event":      ["mainevent", "card", "cards", "official", "countdown"],
-    "booking":    ["mainevent", "official", "titlecards", "whowins", "tape", "faceoff"],
+    "booking":    ["mainevent", "official", "titlecards", "whowins", "gtape", "faceoff"],
     "withdrawal": ["headline", "pop", "titlecards", "photocard"],
     "result":     ["headline", "andnew", "form", "bigstat", "pop"],
     "title":      ["andnew", "headline", "pop", "spotlight"],
     "callout":    ["cutq", "spotlight", "splitq", "photocard", "headline"],
     "retirement": ["resume", "headline", "form", "bigstat"],
     "injury":     ["headline", "pop", "photocard"],
-    "rankings":   ["headline", "bigstat", "photocard"],
+    "rankings":   ["gpotm", "headline", "bigstat", "photocard"],
     "signing":    ["headline", "pop", "resume"],
     "other":      ["photocard", "headline", "spotlight"],
 }
@@ -522,4 +522,87 @@ def story(title, desc="", kind=""):
         c["kind"] = kind
     return {"kind": c["kind"], "templates": templates_for(c["kind"]),
             "people": people(title, desc), "event": c["event"], "quote": c["quote"]}
+
+
+# ---- the editor's concept (Oct 3 2026) ----------------------------------------
+# The AI desk (scorer.parse_desk) designs the graphic: a concept, the person it is
+# about and the people beside him with a role each. A concept picks its templates
+# first; the kind's list follows as the fallback. Every id here must exist in
+# commands_worker/poster_page.js (a selftest pins it).
+CONCEPT_TEMPLATES = {
+    "crossout": ["crossout", "gcross", "cutq", "headline"],
+    "rank":     ["gpotm", "headline", "photocard"],
+    "versus":   ["official", "faceoff", "whowins", "gtape", "titlecards", "mainevent"],
+    "quote":    ["cutq", "spotlight", "splitq", "photocard", "headline"],
+    "title":    ["andnew", "gpotm", "titlecards", "headline"],
+    "result":   ["andnew", "gpotm", "headline", "form"],
+    "photo":    ["photocard", "headline", "spotlight"],
+}
+# which people a concept shows beside the subject, in this order (a crossout
+# crosses out only the ruled-out; nobody "mentioned" ever takes a circle)
+CONCEPT_ROLES = {
+    "crossout": ("ruled_out",),
+    "rank": ("ranked_below", "target", "opponent"),
+    "versus": ("opponent", "target"),
+    "quote": ("target", "opponent", "ruled_out"),
+    "title": ("opponent",),
+    "result": ("opponent",),
+    "photo": ("opponent", "target"),
+}
+
+
+def resolve_person(name, names=None):
+    """The AI's name for somebody -> {"name", "slug"} (slug only for a full
+    name). The roster's spelling wins, and of two roster names with the same
+    first and last name the LONGER one, which is ufc.com's ("Ian Garry" is the
+    athlete page ian-machado-garry). A bare surname the roster knows once is
+    expanded; any other bare surname keeps no slug. Pure given `names`."""
+    nm = " ".join(str(name or "").split())
+    if not nm:
+        return None
+    full = list(names if names is not None else roster())
+    parts = _fold(nm).split()
+    if len(parts) >= 2:
+        hits = [n for n in full if _fold(n).split()[:1] == parts[:1] and _fold(n).split()[-1:] == parts[-1:]]
+        if hits:
+            best = sorted(hits, key=len)[-1]
+            return {"name": best, "slug": ufc_slug(best)}
+        return {"name": nm, "slug": ufc_slug(nm)}
+    hits = [n for n in full if _fold(n).split()[-1:] == parts and _fold(nm) not in COMMON_SURNAMES]
+    if len(set(hits)) == 1:
+        return {"name": hits[0], "slug": ufc_slug(hits[0])}
+    return {"name": nm}
+
+
+def concept_story(title, desc="", kind="", concept="", main="", others=None,
+                  big="", label="", quote="", names=None):
+    """story() shaped by the editor's concept: the concept's templates first,
+    the people in poster order - the subject, then the people the concept shows
+    beside him (each with its role) - and the concept, big word and banner label
+    for the templates page. With no usable concept or subject this is story()
+    itself plus empty concept fields. Pure given `names`."""
+    base = story(title, desc, kind=kind)
+    base.update({"concept": "", "big": "", "label": ""})
+    if concept not in CONCEPT_TEMPLATES or not str(main or "").strip():
+        return base
+    lead = resolve_person(main, names)
+    if not lead:
+        return base
+    ppl = [dict(lead, role="main")]
+    want = CONCEPT_ROLES.get(concept, ())
+    for role in want:
+        for o in (others or []):
+            if not isinstance(o, dict) or o.get("role") != role:
+                continue
+            p = resolve_person(o.get("name"), names)
+            if not p or any(_fold(q["name"]) == _fold(p["name"]) for q in ppl):
+                continue
+            ppl.append(dict(p, role=role))
+    tpls = list(CONCEPT_TEMPLATES[concept])
+    tpls += [t for t in base["templates"] if t not in tpls]
+    base.update({"templates": tpls[:8], "people": ppl[:4], "concept": concept,
+                 "big": str(big or "")[:18], "label": str(label or "")[:30]})
+    if quote:
+        base["quote"] = str(quote)[:200]
+    return base
 
