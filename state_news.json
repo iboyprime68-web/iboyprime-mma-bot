@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a8357cc3b9389be7": 1791010259.5088158,
     "bd228f446a2f22a5": 1791009817.5356212,
     "92cd7632adf0725b": 1791009628.764517,
     "7ef458a1a1362770": 1791009628.764229,
@@ -2498,8 +2499,7 @@
     "091d3fbece2141d6": 1790385718.2166753,
     "634569352aaabc7d": 1790385718.2150085,
     "2c97472bfe0bf903": 1790385718.2128663,
-    "ce983037891ac416": 1790385718.2112195,
-    "4f5ad805f89b7415": 1790385718.2104144
+    "ce983037891ac416": 1790385718.2112195
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-01T08:08:04+00:00",
       "cluster": "c0b7c362e71"
-    },
-    {
-      "t": "Payton Talbott Says Sean O’Malley UFC Fight Was in the Works",
-      "source": "Yahoo Sports",
-      "ts": "2026-10-01T06:48:09+00:00",
-      "cluster": "c5d7bacea73"
     },
     {
       "t": "Israel Adesanya Reveals What’s Wrong With UFC 332 After Calling It a “Fight Night” Previously",
@@ -4525,13 +4519,19 @@
       "source": "dazn.com",
       "ts": "2026-10-03T06:24:23+00:00",
       "cluster": "c124dd040c1"
+    },
+    {
+      "t": "Renato Moicano Pitches Himself as the Perfect Comeback Opponent for Ilia Topuria",
+      "source": "NY Fights",
+      "ts": "2026-10-03T06:46:53+00:00",
+      "cluster": "cfc0cb9f769"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T06",
-    15
+    16
   ],
   "yt_eval": [
     "8567c232-57ff-32e6-be5b-3e0444b956a3",
