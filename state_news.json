@@ -1,5 +1,7 @@
 {
   "seen": {
+    "31d880bf9ccb2d02": 1791036602.8598235,
+    "f0cc8e6d28624dea": 1791036602.8267353,
     "5b26b12b667ac9b8": 1791036537.1522503,
     "166ec3c3b119ed5e": 1791036537.119051,
     "b22fb6c2e7356ff0": 1791036537.1169424,
@@ -2497,9 +2499,7 @@
     "9d7a077e4e91cdaa": 1790427961.9551446,
     "496178d0ecea8ce8": 1790427896.1182666,
     "3a4a8b8a85679b62": 1790427829.7730703,
-    "2513f62444732beb": 1790427829.4512067,
-    "54632e6667f56b61": 1790427829.4507456,
-    "742687b6d942041d": 1790427829.4475133
+    "2513f62444732beb": 1790427829.4512067
   },
   "initialized": true,
   "v": 4,
@@ -2557,12 +2557,6 @@
       "source": "@arielhelwani",
       "ts": "2026-10-01T16:00:00+00:00",
       "cluster": "cd818d99c77"
-    },
-    {
-      "t": "Sean Sharaf credits his fearless style to sparring with Francis Ngannou",
-      "source": "Yahoo Sports",
-      "ts": "2026-10-01T14:09:06+00:00",
-      "cluster": "c150fe04f2f"
     },
     {
       "t": "#UFC332: @SeanSheehanBA breaks down the headliner: Natalia Silva vs. Cong Wang",
@@ -4687,6 +4681,12 @@
       "source": "MMA Mania",
       "ts": "2026-10-03T14:00:00+00:00",
       "cluster": "c4b36983da2"
+    },
+    {
+      "t": "UFC 332 on CBS, Paramount+: Where to watch Natalia Silva vs. Wang Cong, plus everything you need to know",
+      "source": "CBS Sports",
+      "ts": "2026-10-03T14:01:00+00:00",
+      "cluster": "cc359840dd2"
     }
   ],
   "digest_items": [],
