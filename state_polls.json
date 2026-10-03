@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 22,
+  "cursor": 23,
   "staged_at": [
-    "2026-10-01T16:31:45.013135+00:00",
     "2026-10-02T15:52:32.134795+00:00",
     "2026-10-02T20:48:49.257772+00:00",
-    "2026-10-03T14:20:28.773827+00:00"
+    "2026-10-03T14:20:28.773827+00:00",
+    "2026-10-03T19:17:49.493459+00:00"
   ],
   "asked": [
-    "Who is the greatest UFC flyweight of all time?",
     "Who is the most must-watch fighter in the UFC right now?",
     "Who is the most frustrating inactive UFC champion of the last decade?",
     "With the heavyweight belt now vacant, who should fight for it first?",
@@ -47,33 +46,34 @@
     "Who is the most underrated fighter in the UFC right now?",
     "Who wins the UFC 332 flyweight title fight, Natalia Silva or Wang Cong?",
     "Who is the best MMA fighter under 30 right now?",
-    "What is the most painful UFC title fight loss to watch?"
+    "What is the most painful UFC title fight loss to watch?",
+    "What actually wins UFC titles?"
   ],
   "last_entry": {
-    "q": "What is the most painful UFC title fight loss to watch?",
+    "q": "What actually wins UFC titles?",
     "type": "poll",
     "options": [
       {
-        "label": "Gustafsson vs Jones",
-        "emoji": "😩",
+        "label": "Elite wrestling",
+        "emoji": "🤼",
         "art": ""
       },
       {
-        "label": "Reyes vs Jones",
-        "emoji": "🤬",
+        "label": "Elite boxing",
+        "emoji": "🥊",
         "art": ""
       },
       {
-        "label": "Whittaker vs Adesanya",
-        "emoji": "😢",
+        "label": "Leg kicks",
+        "emoji": "🦵",
         "art": ""
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "🤷",
+        "label": "Fight IQ",
+        "emoji": "🧠",
         "art": ""
       }
     ],
-    "gag": "A crying clown watching a TV with a broken remote, surrounded by empty tissue boxes"
+    "gag": "a hamster on a tiny weigh-in scale, sweating nervously under press lights"
   }
 }
