@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d5a0b123dc7095ec": 1791047261.423226,
     "5c05d0e287b28224": 1791047195.2449126,
     "94cfb692caefe606": 1791047129.582335,
     "15cad18e53acd303": 1791047129.5494108,
@@ -2498,8 +2499,7 @@
     "afb5d8a5398eddfd": 1790452511.2700226,
     "01dc702edd8ed3cf": 1790452511.2688217,
     "412edb05c0ea6c7e": 1790452447.3868732,
-    "8fb30c0cd7e15d8e": 1790452447.3861856,
-    "9d4b140961ef1689": 1790452381.082763
+    "8fb30c0cd7e15d8e": 1790452447.3861856
   },
   "initialized": true,
   "v": 4,
@@ -4675,6 +4675,12 @@
       "source": "Fall River Reporter",
       "ts": "2026-10-03T17:01:51+00:00",
       "cluster": "c3c16da51c4"
+    },
+    {
+      "t": "Alex Pereira Teases ‘Big Challenge’ Ahead of UFC Fight Return",
+      "source": "wrestling-world.com",
+      "ts": "2026-10-03T17:00:59+00:00",
+      "cluster": "c3e4ca4f71e"
     }
   ],
   "digest_items": [],
