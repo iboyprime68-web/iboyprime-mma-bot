@@ -71,7 +71,9 @@ def main():
         lg = sb.get("leagues") or []
         if not lg:
             continue
-        cache = {e["id"]: e for e in sb.get("events", [])}
+        # an empty {} event (PFL, since Oct 2 2026) crashed this every run
+        cache = {e["id"]: e for e in (sb.get("events") or [])
+                 if isinstance(e, dict) and e.get("id")}
         for c in lg[0].get("calendar", []):
             eid = event_id((c.get("event") or {}).get("$ref"))
             if not eid:
