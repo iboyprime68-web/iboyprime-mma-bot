@@ -2220,6 +2220,18 @@ if deploy_bots:
     c, _ = deploy_bots.gh_put_file("o", "r", "x.jpg", "Zm9v", sleep=lambda s: None)
     check("deploy upload: a 422 about the missing sha re-reads it and retries the PUT once",
           c == 201 and [m for m, _b in calls].count("PUT") == 2 and calls[-1][1].get("sha") == "def")
+    fake, calls = _seq_gh([(200, {"sha": "abc"}), (409, {"message": "newsconfig.py is at 88b but expected ff9"}),
+                           (200, {"sha": "88b"}), (200, {})])
+    deploy_bots.gh = fake
+    c, _ = deploy_bots.gh_put_file("o", "r", "newsconfig.py", "Zm9v", sleep=lambda s: None)
+    check("deploy upload: a 409 (the branch moved under us - the running news window commits its state) "
+          "re-reads the sha and retries (deploy #68 died on it)",
+          c == 200 and [m for m, _b in calls].count("PUT") == 2 and calls[-1][1].get("sha") == "88b")
+    fake, calls = _seq_gh([(200, {"sha": "a"})] + [(409, {"message": "x"}), (200, {"sha": "b"})] * 5)
+    deploy_bots.gh = fake
+    c, _ = deploy_bots.gh_put_file("o", "r", "y.py", "Zm9v", sleep=lambda s: None)
+    check("deploy upload: a 409 that keeps coming back gives up after three retries (never loops forever)",
+          c == 409 and [m for m, _b in calls].count("PUT") == 4)
     fake, calls = _seq_gh([(404, {}), (201, {})])
     deploy_bots.gh = fake
     c, _ = deploy_bots.gh_put_file("o", "r", "new.py", "Zm9v", sleep=lambda s: None)
@@ -3488,11 +3500,20 @@ check("json_object response_format requested",
 HTTP_REPLY[0] = (200, _desk())
 r = scorer.score_story("t", "", "s", "ufc", SCFG, confirm=True)
 _call = HTTP_CALLS[-1]
-check("the second pass asks DeepSeek's reasoning model with an 8000-token budget, once, "
-      "on a 90-second clock (at 3000 one reply in five answered nothing)",
-      _call["body"]["model"] == "deepseek-flash" and _call["body"]["max_tokens"] == 8000
-      and "temperature" not in _call["body"] and _call["tries"] == 1 and _call["timeout"] == 90
-      and r["confirmed"] is True and r["score"] == 92)
+check("the second pass asks DeepSeek's reasoning model with a 12000-token budget, once, "
+      "on a 120-second clock (at 3000 one reply in five answered nothing; at 8000 a story with its "
+      "article text deliberated 7879 tokens and the cap cut the JSON)",
+      _call["body"]["model"] == "deepseek-flash" and _call["body"]["max_tokens"] == 12000
+      and "temperature" not in _call["body"] and _call["tries"] == 1 and _call["timeout"] == 120
+      and r["confirmed"] is True and r["score"] == 92 and r["partial"] is False)
+# a reply cut short by the cap still carries the verdict: the scales and the post call come first
+_cut = _chat('{"news": 2, "stars": 3, "heat": 2, "fresh": 1, "post": true, "why": "x", "concept": "versus", "label":')
+check("a verdict cut short by the token cap is salvaged (scales + post only, poster fields empty, marked partial)",
+      scorer.parse_desk(_cut)["score"] == 83 and scorer.parse_desk(_cut)["partial"] is True
+      and scorer.parse_desk(_cut)["concept"] == "" and scorer.parse_desk(_cut)["caption"] == "")
+check("...but never from less than all five (four scales and the post call)",
+      scorer.parse_desk(_chat('{"news": 2, "stars": 3, "heat": 2, "fresh": 1, "why"')) is None
+      and scorer.parse_desk(_chat('"news": 2, "stars": 3, "heat": 2, "fresh": 1, "post": true')) is None)
 for _label, _rep in (("http 500", (500, "x")), ("no verdict", (200, _chat('{"why": "thinking"}'))),
                      ("transport failure", (0, "timed out"))):
     HTTP_REPLY[0] = _rep
@@ -3788,8 +3809,29 @@ check("the strict JSON contract survived the rewrite",
       "strict JSON only" in _SP and '"news": 0' in _SP and '"post": false' in _SP and '"concept"' in _SP)
 check("prompt is ASCII, no em dash, no exclamation mark, no betting",
       all(ord(c) < 128 for c in _SP) and "!" not in _SP and "no betting" in _SP)
-check("the budgets: 900 tokens for the fast pass, 8000 for the reasoning pass",
-      scorer.DEFAULTS["max_tokens"] == 900 and scorer.DEFAULTS["confirm_max_tokens"] == 8000)
+check("the budgets: 900 tokens for the fast pass, 12000 for the reasoning pass, and the brief asks for a brisk decision",
+      scorer.DEFAULTS["max_tokens"] == 900 and scorer.DEFAULTS["confirm_max_tokens"] == 12000
+      and "Decide briskly" in _SP)
+# the stakes brief from UFC.com (octagon-api had gone stale: Topuria still lightweight champion)
+_ufc_html = ('<div class="view-grouping-header">Men&#039;s Pound-for-Pound <span>Top Rank</span></div>'
+             '<div class="rankings--athlete--champion"><h5><a href="/athlete/x">Islam Makhachev</a></h5></div>'
+             '<div class="view-grouping-header">Welterweight</div><div class="rankings--athlete--champion clearfix"><div class="info">'
+             '<h5><a href="/athlete/islam-makhachev">Islam Makhachev</a></h5></div></div><table><tr>'
+             '<td class="views-field views-field-weight-class-rank">2 </td><td class="views-field views-field-title"><a href="/a">Carlos Prates</a> </td></tr><tr>'
+             '<td class="views-field views-field-weight-class-rank">1 </td><td class="views-field views-field-title"><a href="/a">Ian Machado Garry</a> </td></tr></table>'
+             '<div class="view-grouping-header">Women&#039;s Flyweight</div><table><tr><td class="views-field views-field-weight-class-rank">1 </td>'
+             '<td class="views-field views-field-title"><a href="/a">Natalia Silva</a></td></tr></table>'
+             '<div class="view-grouping-header">Welterweight</div><div class="rankings--athlete--champion"><h5><a>Someone Else</a></h5></div>')
+_ufc = scorer.ufc_rankings(_ufc_html)
+check("ufc_rankings reads UFC.com's page: champion, ranked order, decoded names, each division once",
+      [d["categoryName"] for d in _ufc] == ["Men's Pound-for-Pound", "Welterweight", "Women's Flyweight"]
+      and _ufc[1]["champion"] == {"championName": "Islam Makhachev"}
+      and [f["name"] for f in _ufc[1]["fighters"]] == ["Ian Machado Garry", "Carlos Prates"])
+check("the brief built from it names the current champions and skips the pound-for-pound lists",
+      "Welterweight: champion Islam Makhachev; top 2 Ian Machado Garry, Carlos Prates." in scorer.champions_brief(_ufc)
+      and "Pound" not in scorer.champions_brief(_ufc))
+check("UFC.com is read first and octagon-api is only the fallback",
+      "_ufc_rankings_fetch," in open(os.path.join(_SRC, "scorer.py"), encoding="utf-8").read().split("def stakes_brief")[1].split("for src in sources")[0])
 _wk_p = os.path.join(_HERE, "commands_worker", "worker.js")
 if not os.path.exists(_wk_p):
     _wk_p = os.path.join(_SRC, "worker.js")
@@ -6575,6 +6617,9 @@ news_bot.main()
 check("the second verdict is the one that counts: agreed stories stage, a story the second pass "
       "marks down does not, and with no second verdict only an 88+ story stages",
       sorted(x["guid"] for x in _ED_STG) == ["ed0", "ed3"])
+_nb_merge = open(os.path.join(_SRC, "news_bot.py"), encoding="utf-8").read().split("def maybe_stage")[1].split("def keep(")[0]
+check("a second verdict cut short keeps the fast pass's poster fields (concept, people, caption...)",
+      'if not res2.get(_k) and res.get(_k):' in _nb_merge and '"concept", "main", "others"' in _nb_merge)
 check("the staged story carries the SECOND pass's concept and caption when there was one",
       [x for x in _ED_STG if x["guid"] == "ed0"][0]["concept"] == "crossout"
       and [x for x in _ED_STG if x["guid"] == "ed0"][0]["caption"] == "from the second pass")
