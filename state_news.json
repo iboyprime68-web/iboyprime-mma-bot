@@ -1,5 +1,7 @@
 {
   "seen": {
+    "00b92a8cb6c61bb7": 1790987227.5915594,
+    "e88289fd12d5e9ae": 1790987227.343359,
     "e4541cf6275c4c70": 1790987161.2877226,
     "93b8f8dd9f737a24": 1790987095.2049055,
     "ccb2334b0db2ddf6": 1790987029.7032087,
@@ -2497,9 +2499,7 @@
     "d4472827466e6526": 1790363606.4068687,
     "71d5e3f23381d5d5": 1790363562.561468,
     "cc0d5c70838dc803": 1790363476.3066833,
-    "0189af514dd49851": 1790363476.0618424,
-    "8fe573861af56ead": 1790363285.8492162,
-    "ead3c300974b131c": 1790363157.6378636
+    "0189af514dd49851": 1790363476.0618424
   },
   "initialized": true,
   "v": 4,
@@ -4501,13 +4501,19 @@
       "source": "The Lufkin Daily News",
       "ts": "2026-10-02T23:34:59+00:00",
       "cluster": "c8348f4200a"
+    },
+    {
+      "t": "Ex-UFC Champ Pinpoints One Area Colby Covington Can Exploit Against Khamzat Chiamev",
+      "source": "heavy.com",
+      "ts": "2026-10-02T23:35:21+00:00",
+      "cluster": "c7257f27774"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T00",
-    15
+    16
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/Sean-Strickland-reveals-Sean-Sharaf-was-sleeping-on-floor-before-UFC-331-202886",
