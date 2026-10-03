@@ -1,5 +1,7 @@
 {
   "seen": {
+    "d2f1a18a05ede65d": 1791032437.8167448,
+    "c955fcff2bc9e43b": 1791032437.4642284,
     "872706bc181dd206": 1791032410.9492066,
     "7cdb9ec222d93099": 1791032241.8750434,
     "64089b973e0923f0": 1791032174.1028364,
@@ -2497,9 +2499,7 @@
     "170ac366d9fd21a4": 1790408709.6440508,
     "23ca8267bf1a66e5": 1790408579.2279289,
     "2eebd88cd9d21da3": 1790408191.9384723,
-    "de9486098b6e71ea": 1790408191.9368362,
-    "08be3421093b8973": 1790408122.6341145,
-    "269ad9ad38335aed": 1790407992.0421817
+    "de9486098b6e71ea": 1790408191.9368362
   },
   "initialized": true,
   "v": 4,
@@ -4585,13 +4585,19 @@
       "source": "MMA Mania",
       "ts": "2026-10-03T12:42:09+00:00",
       "cluster": "c26dfb6df1c"
+    },
+    {
+      "t": "Joe Rogan argues ‘insane’ UFC veteran who has ‘incredible career’ could become ‘one of the all-time greats’",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-03T13:00:00+00:00",
+      "cluster": "c85afd07426"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T13",
-    1
+    2
   ],
   "yt_eval": [
     "CBMigwFBVV95cUxQbWVPNjhRWldWN0FTZ2I5QVRyTU93YXpyQXB5VS1Vcm9nOTA2ekR4MFMtd2VzNVR6MW9iOHZGeXZySEFjUGFYUEFzZ2ZCVTU0bXZZd3BLTGwxZFl2ajlHNllPQjdmNlNkSDd3RFBWa2hJamtmZGVTeURxMnVRWnZTM1h3bw",
