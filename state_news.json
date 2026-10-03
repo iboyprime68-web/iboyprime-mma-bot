@@ -4510,7 +4510,6 @@
     9
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=511727",
     "0032be3c-2d8d-301b-ba9e-9593ed448ec4",
     "https://bloodyelbow.com/?p=332964",
     "https://bloodyelbow.com/?p=332934",
@@ -6009,13 +6008,14 @@
     "https://bloodyelbow.com/?p=335157",
     "0fecdcbf-7016-35b3-9847-b239d2b746b1",
     "https://bloodyelbow.com/?p=335176",
-    "91411221-de2a-3685-8eef-e261a93ff524"
+    "91411221-de2a-3685-8eef-e261a93ff524",
+    "CBMirwFBVV95cUxOMGl3Y1E3NVM2RXhoT3Q2NlBVcV9LMDVFSzhvSjV5Rk5aclRxOWZDZ0VQSDBmb1o1NlN4T3ZqQnlUX0VFLTRDSzZwNThuV28ycVI4ZkhkUDN2VU5ORWdWcnNzZ21FdV9abU1KdG5WdzJBZ3Rhb0FkdXc1VUJRdXl5VENDZEszWHN2WnJNQWhWYzFkcEZ1a2N0Rzk4aGdTQVpuMDJ0X0JOMjI4NVVURVVZ"
   ],
   "daily": {
     "d": "2026-10-03",
-    "ai": 48,
+    "ai": 49,
     "staged": 2,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
@@ -6918,6 +6918,14 @@
         "topuria"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-10-03T06:17:49.276451+00:00",
+      "t": "\"Full disability\" - Sean Strickland jokes about surprising career plans once he retires from MMA",
+      "names": [
+        "strickland"
+      ],
+      "img": "cutout:sean-strickland"
     }
   ],
   "seed_pending": [],
