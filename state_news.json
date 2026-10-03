@@ -1,5 +1,9 @@
 {
   "seen": {
+    "349b4d1046eac50e": 1791029647.4840147,
+    "228d9bd9a8514ccb": 1791029647.0864496,
+    "21c6e22bc99b2a28": 1791029647.0844758,
+    "b8afaa9d2a931d7b": 1791029647.057148,
     "86707b96141465a4": 1791029580.5331075,
     "e31fd493f30134f7": 1791029580.1236632,
     "a1e2fe72ad368d79": 1791029580.1224973,
@@ -2495,11 +2499,7 @@
     "a8b8fbfb65de2086": 1790407388.1741328,
     "ee0d5b5e325f1bf8": 1790407319.0195413,
     "022f0742d0e86c79": 1790407249.6161234,
-    "3ea6df3e752355a2": 1790407249.2575722,
-    "f57be31871be1e0d": 1790407249.255936,
-    "d88ec1c42ecd2a7b": 1790407176.1298301,
-    "3a7ca99cf1c25727": 1790407175.6811585,
-    "76d710bcfe50bb32": 1790407147.96111
+    "3ea6df3e752355a2": 1790407249.2575722
   },
   "initialized": true,
   "v": 4,
@@ -4567,13 +4567,19 @@
       "source": "FightBook MMA",
       "ts": "2026-10-03T12:03:15+00:00",
       "cluster": "cb55b9731f5"
+    },
+    {
+      "t": "Natalia Silva or Wang Cong: Who leaves UFC 332 in SLC as new champion?",
+      "source": "Yahoo",
+      "ts": "2026-10-03T12:04:19+00:00",
+      "cluster": "c0d978ee6d4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T12",
-    16
+    17
   ],
   "yt_eval": [
     "CBMi1gFBVV95cUxPUUMzc3FuQWdUNTFWWW5UVzdQallXeUNDclBuMzF0Z05tNUl5NlVBNVZXTFlWSDNDSldGU1dvRFM1bXRwY2kwRlpiZG13dXFzYnJTS2l2NzRHMFZ5eU45VHFSMDRSeThyZ3NpQ18wb0kzOUNFTUgxZ01ia1l0MGVLb0RabTRvcXdXdGdPNHdQZHZIaV8yeDlpUy1pZkJqakwzTHBvam4xYXJXNUhJRGJJeWhyR2o3WUo3R1lCa2dMQUh2RkR1TmdPWW9STk1RS2ZfMTJiQm9B",
@@ -7100,7 +7106,8 @@
     "f4cef734d45c3b07": 1790891337.6578112,
     "8e769752e66a5585": 1790904823.1449943,
     "6d7ef1c316478a07": 1790928633.6201322,
-    "71cd8a5252e3a47b": 1791008265.9178793
+    "71cd8a5252e3a47b": 1791008265.9178793,
+    "349b4d1046eac50e": 1791029647.1175902
   },
   "pinged_titles": [
     [
@@ -7108,6 +7115,14 @@
       1791008265.9178793,
       [
         "strickland"
+      ]
+    ],
+    [
+      "Natalia Silva or Wang Cong: Who leaves UFC 332 in SLC as new champion?",
+      1791029647.1175902,
+      [
+        "cong",
+        "silva"
       ]
     ]
   ]
