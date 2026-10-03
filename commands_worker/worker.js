@@ -3732,7 +3732,7 @@ export class XFeed {
     // the doorbell's own small state: the feed watch's newest ids ("feeds") and the X rest
     // after a 402 ("xpause"). Only these two keys exist; anything else is refused.
     if (u.pathname === "/kv") {
-      const okKey = (k) => k === "feeds" || k === "xpause";
+      const okKey = (k) => k === "feeds" || k === "xpause" || k === "ring";
       if (request.method === "POST") {
         let b = null;
         try { b = await request.json(); } catch (e) { b = null; }
@@ -3749,7 +3749,9 @@ export class XFeed {
       const since = Number(u.searchParams.get("since")) || 0;
       await st.put("read", now);
       const posts = ((await st.get("posts")) || []).filter(p => p.at > since && now - p.at < X_BUFFER_MS);
-      return Response.json({ posts, now });
+      // the last doorbell attempt and GitHub's answer (Oct 3 2026: the bell never rang once since
+      // Sept 30 and nothing said why - a 401 here means the Worker's GITHUB_TOKEN is dead)
+      return Response.json({ posts, now, ring: (await st.get("kv:ring")) || null });
     }
     return new Response("not found", { status: 404 });
   }
@@ -3818,6 +3820,7 @@ async function xTick(env, now) {
           { method: "POST", headers: ghHeaders(env), body: JSON.stringify({ ref: "main", inputs: { reason: "doorbell" } }) });
         bell = !!(d && d.status === 204);
         if (bell) await stub.fetch("https://xfeed/bell", { method: "POST" });
+        await stub.fetch("https://xfeed/kv", { method: "POST", body: JSON.stringify({ k: "ring", v: { at: now, code: d ? d.status : 0 } }) });
       } catch (e) { bell = false; }
     }
   }
@@ -3833,7 +3836,15 @@ async function xFeedRead(request, env, url) {
   if (!ok) return new Response("not found", { status: 404 });
   const since = Math.max(0, Number(url.searchParams.get("since")) || 0);
   const r = await xStub(env).fetch("https://xfeed/read?since=" + since);
-  return new Response(await r.text(), { status: 200, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" } });
+  let text = await r.text();
+  // ?diag=1 (behind the same key): can the Worker's own GITHUB_TOKEN still read the repo? One
+  // read-only GitHub call, only when asked - the doorbell rings with that token
+  if (url.searchParams.get("diag") === "1") {
+    let gh = 0;
+    try { gh = env.GITHUB_TOKEN ? (await fetch(ghBase(env) + "/actions/workflows/news.yml", { headers: ghHeaders(env) })).status : -1; } catch (e) { gh = 0; }
+    try { const o = JSON.parse(text); o.gh = gh; text = JSON.stringify(o); } catch (e) { /* keep the buffer as it was */ }
+  }
+  return new Response(text, { status: 200, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" } });
 }
 
 export default {
