@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5c05d0e287b28224": 1791047195.2449126,
     "94cfb692caefe606": 1791047129.582335,
     "15cad18e53acd303": 1791047129.5494108,
     "ed37cf5176ef440f": 1791047129.5486648,
@@ -2498,8 +2499,7 @@
     "01dc702edd8ed3cf": 1790452511.2688217,
     "412edb05c0ea6c7e": 1790452447.3868732,
     "8fb30c0cd7e15d8e": 1790452447.3861856,
-    "9d4b140961ef1689": 1790452381.082763,
-    "e46820dfe07ba11c": 1790452380.574775
+    "9d4b140961ef1689": 1790452381.082763
   },
   "initialized": true,
   "v": 4,
@@ -4669,6 +4669,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-03T17:00:00+00:00",
       "cluster": "c1fc70d51ce"
+    },
+    {
+      "t": "Fall River UFC fighter Mitch Raposo looking to make it 3 in a row",
+      "source": "Fall River Reporter",
+      "ts": "2026-10-03T17:01:51+00:00",
+      "cluster": "c3c16da51c4"
     }
   ],
   "digest_items": [],
