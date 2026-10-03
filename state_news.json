@@ -1,5 +1,6 @@
 {
   "seen": {
+    "68edd9d0f2fe2c36": 1790989082.8897896,
     "594451bad86a9cd5": 1790988544.0289783,
     "868c27ef584be368": 1790988478.3739338,
     "c70fda394c3d5339": 1790988411.9697113,
@@ -2498,18 +2499,11 @@
     "cf7cd73f757a270d": 1790374609.1576197,
     "a6849870ff5ecd3d": 1790374608.8268387,
     "5d51d9599a2df6b6": 1790374565.0762296,
-    "4f1b55b6d27172f7": 1790374542.1780572,
-    "fdf567f3c4b1424b": 1790374477.3024712
+    "4f1b55b6d27172f7": 1790374542.1780572
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Adama Diop responds to Dana White bashing UFC contract-earning fight #DWCS",
-      "source": "@MMAJunkie",
-      "ts": "2026-10-01T00:55:13+00:00",
-      "cluster": "c122f8820d0"
-    },
     {
       "t": "Bobby Green clarifies his housing situation after worrying fans with homeless claim ahead of UFC 332",
       "source": "Bloody Elbow",
@@ -2569,12 +2563,6 @@
       "source": "RNZ",
       "ts": "2026-10-01T01:56:44+00:00",
       "cluster": "cd326e5e755"
-    },
-    {
-      "t": "MMAmania.com’s ‘Prospect of the Month:’ Muhammad Davis",
-      "source": "MMA Mania",
-      "ts": "2026-10-01T00:50:51+00:00",
-      "cluster": "c909dbb0c09"
     },
     {
       "t": "Mike Winkeljohn addresses mental aspect of Tom Aspinall's eye injury, how the ex-UFC champ can handle it",
@@ -4627,13 +4615,19 @@
       "source": "lowkickmma.com",
       "ts": "2026-10-03T00:38:19+00:00",
       "cluster": "c3e06438730"
+    },
+    {
+      "t": "UFC 332 ‘Silva vs. Wang’ play-by-play, results & round scoring",
+      "source": "Sherdog",
+      "ts": "2026-10-03T00:58:02.244162+00:00",
+      "cluster": "c36682bedfe"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T00",
-    36
+    37
   ],
   "yt_eval": [
     "CBMihAFBVV95cUxNZ04xZnlMeWR0SFd0bjgwMmJ1T2syZXRJTnBPcmNoN1FSbzdyaEJ0eFhkeFpsMlR6UU5GMnp6VGppTlhTSElFS2FLU01CeVRac1RhLU1rc3J1TzBOSjBienIzTkc4TlBLVXNOQnAzUXFGLW9KMklOY1ZodlF2Q3c0Yzg0bkM",
