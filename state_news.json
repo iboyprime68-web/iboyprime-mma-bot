@@ -1,5 +1,7 @@
 {
   "seen": {
+    "71cd8a5252e3a47b": 1791008266.2664924,
+    "47b58fa504cb3df2": 1791008265.894119,
     "8f62d6c19e550531": 1791008198.4443855,
     "a7a250a378f91b6c": 1791008197.7696462,
     "34b7e64e3e9fbf4c": 1791008151.6692252,
@@ -2497,9 +2499,7 @@
     "703b3fffc4dff764": 1790377236.6935587,
     "38abff9fa772832b": 1790377214.5769725,
     "7c364548c4d29e35": 1790376837.4044905,
-    "5bdedef745177799": 1790376585.4834497,
-    "84c287b6ec86ef38": 1790376437.298237,
-    "e0217c3c62b68b7e": 1790376393.5383186
+    "5bdedef745177799": 1790376585.4834497
   },
   "initialized": true,
   "v": 4,
@@ -4495,13 +4495,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-03T03:10:04+00:00",
       "cluster": "ccbe2a371d2"
+    },
+    {
+      "t": "\"Full disability\" - Sean Strickland jokes about surprising career plans once he retires from MMA",
+      "source": "Sportskeeda",
+      "ts": "2026-10-03T05:19:00+00:00",
+      "cluster": "c4791c7d07e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T06",
-    8
+    9
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=511727",
@@ -7019,15 +7025,15 @@
     "48f2d669d01a5509": 1790890925.4567206,
     "f4cef734d45c3b07": 1790891337.6578112,
     "8e769752e66a5585": 1790904823.1449943,
-    "6d7ef1c316478a07": 1790928633.6201322
+    "6d7ef1c316478a07": 1790928633.6201322,
+    "71cd8a5252e3a47b": 1791008265.9178793
   },
   "pinged_titles": [
     [
-      "Sean Sharaf ponders retirement after historic Gable Steveson KO: ‘Can I beat that?’",
-      1790928633.6201322,
+      "\"Full disability\" - Sean Strickland jokes about surprising career plans once he retires from MMA",
+      1791008265.9178793,
       [
-        "sharaf",
-        "steveson"
+        "strickland"
       ]
     ]
   ]
