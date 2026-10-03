@@ -269,6 +269,10 @@ def base_defaults():
         #   cutout_cooldown_days    one fighter's promo mugshot rests this long
         #   quiet_hours_utc         [start, end) UTC hours with NO owner ping
         #                           (the post still stages, silently)
+        # STUDIO ONLY (Oct 3 2026, the owner's choice): False = every story is read and
+        # judged for the studio but nothing is posted to the news channel. True brings the
+        # channel back exactly as it was.
+        "post_news_channel": False,
         "scoring": {"enabled": True, "stage_threshold": 80, "ping_threshold": 88,
                     "provider": "", "model": "", "max_tokens": 900, "timeout": 20,
                     "max_ai_calls_per_day": 400, "max_staged_per_day": 10,
@@ -441,6 +445,8 @@ def validate_newsconfig(cfg, secret_values=()):
         problems.append("mode must be one of %s" % "/".join(MODES))
     if cfg.get("emphasis", "auto") not in EMPHASIS_MODES:
         problems.append("emphasis must be one of %s" % "/".join(EMPHASIS_MODES))
+    if "post_news_channel" in cfg and not isinstance(cfg.get("post_news_channel"), bool):
+        problems.append("post_news_channel must be true or false")
     sc = cfg.get("scoring", {}) or {}
     prov = str(sc.get("provider", "") or "").strip()
     if prov and SCORING_PROVIDERS and prov not in SCORING_PROVIDERS:
