@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a8f2c6ad40fe524c": 1791034330.5564013,
     "49997be277e61e64": 1791034199.3396327,
     "1b16f1faf266911d": 1791034131.2955394,
     "39c4c72f097d2870": 1791034067.097229,
@@ -2498,8 +2499,7 @@
     "627e98ad2e4f0e34": 1790427421.7212605,
     "13a89404e70047d5": 1790427421.510272,
     "1d4fc5a894e09840": 1790427421.5084043,
-    "3103ec5418ee2c9f": 1790427355.9609232,
-    "356aaa1c9931bc72": 1790427290.1935966
+    "3103ec5418ee2c9f": 1790427355.9609232
   },
   "initialized": true,
   "v": 4,
@@ -4633,13 +4633,19 @@
       "source": "MMANews.com",
       "ts": "2026-10-03T13:27:50+00:00",
       "cluster": "c9f4225668c"
+    },
+    {
+      "t": "Michael Morales reveals exact timeline of his UFC return, reacts to Carlos Prates and Ian Machado Garry rumors",
+      "source": "MMA Sucka",
+      "ts": "2026-10-03T13:29:56+00:00",
+      "cluster": "c15bfa3297e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T13",
-    11
+    12
   ],
   "yt_eval": [
     "e3e03ccd-7243-3c48-b6f0-5df4559758bf",
