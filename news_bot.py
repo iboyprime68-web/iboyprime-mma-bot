@@ -601,13 +601,63 @@ def main():
     # commits on a public repo.
     lost_seen = set()
 
+    def _row_time(r):
+        """A `recent` row's time: storykey writes epoch seconds, the fallback
+        path an ISO string."""
+        v = (r or {}).get("ts")
+        if isinstance(v, (int, float)):
+            return datetime.datetime.fromtimestamp(v, datetime.timezone.utc)
+        return common.parse_iso(v) if v else None
+
+    def stage_context(it, now):
+        """What the editor sees beside a story (scorer._user_prompt): the time,
+        when the story was published, the related headlines from the two days
+        before it (a shared fighter name), and what the studio already holds
+        from the last day. The related headlines are how a rehash shows up as
+        one: "Shevchenko's reign ends with a whimper at UFC 332" next to "Silva
+        faces Wang for the VACANT title" and "Shevchenko vacated" is a column,
+        not news (Oct 3 2026)."""
+        when = it.get("when")
+        pub = ""
+        if isinstance(when, datetime.datetime):
+            hrs = max(0.0, (now - when).total_seconds() / 3600.0)
+            pub = "%s (%s ago)" % (when.strftime("%Y-%m-%d %H:%M UTC"),
+                                   ("%dh" % hrs) if hrs >= 1 else ("%dm" % (hrs * 60)))
+        names = set(ytposts.name_tokens(it.get("title", "")))
+        rel = []
+        if names:
+            lo = (when if isinstance(when, datetime.datetime) else now) - datetime.timedelta(hours=48)
+            for r in state.get("recent", []) or []:
+                t = (r or {}).get("t") if isinstance(r, dict) else ""
+                ts = _row_time(r) if isinstance(r, dict) else None
+                if not t or t == it.get("title") or ts is None or ts < lo or ts > now:
+                    continue
+                if names & set(ytposts.name_tokens(t)):
+                    rel.append((ts, "[%s] %s" % (ts.strftime("%m-%d %H:%M"), t)))
+        rel = [x[1] for x in sorted(rel)][-8:]
+        staged = []
+        for h in state.get("staged_hist", []) or []:
+            ts = common.parse_iso((h or {}).get("ts")) if isinstance(h, dict) else None
+            if ts is not None and (now - ts).total_seconds() <= 86400:
+                staged.append("[%s] %s" % (ts.strftime("%m-%d %H:%M"), h.get("t", "")))
+        return {"now": now.strftime("%Y-%m-%d %H:%M UTC"), "published": pub,
+                "related": rel, "staged": staged[-10:]}
+
     def maybe_stage(job, cfg):
-        """Score a new kept story and stage it for YouTube when it clears the
-        bar. One evaluation per guid ever (yt_eval); never raises, never blocks
-        news delivery. Breaking stories always stage - the keyword net is a
-        strong signal even when no AI key is configured."""
+        """Judge a new kept story and stage it for YouTube when the editor
+        would post it. One evaluation per guid ever (yt_eval); never raises,
+        never blocks news delivery.
+
+        THE EDITOR'S DESK (Oct 3 2026). Two passes: a fast one for every story
+        (scorer.score_story, four scales and a post call), then a REASONING
+        pass for the ones the fast pass puts at confirm_entry or above, whose
+        verdict counts. The breaking keyword net no longer lifts a story to the
+        bar: it lifted "Sean Strickland jokes about life after retiring" (it
+        says "retires") over the model's own "no real news" and gave it the
+        priority lane. A story the AI could not judge at all (heuristic) needs
+        heuristic_stage_threshold."""
         try:
-            it, cat, breaking = job["it"], job["cat"], job["breaking"]
+            it, cat = job["it"], job["cat"]
             sc_cfg = cfg.get("scoring", {}) or {}
             if not sc_cfg.get("enabled", True):
                 return
@@ -619,72 +669,96 @@ def main():
             # who holds the belts, so a champion's story scores like one
             # (cached six hours per process; "" leaves the prompt unchanged)
             scfg["stakes_brief"] = scorer.stakes_brief()
-            # THE CAP CHECK COMES FIRST, AND ONLY THEN IS THE GUID BURNED.
-            # It used to be the other way round: the guid was appended to yt_eval
-            # before under_cap, so once six posts had been staged that day every
-            # later story was marked "evaluated" without ever being scored, and
-            # could never be scored again on any future run.
-            #
-            # THE LANE (Sept 3 2026). max_staged_per_day is first-come-first-
-            # served, so it was reliably spent by breakfast on ordinary stories
-            # and the day's best headline was refused hours later without ever
-            # being scored. A hot story now draws on a budget of its own first,
-            # and falls back to the routine budget when that lane is full - so
-            # adding the lane can never stage FEWER stories than before.
-            prio = ytposts.is_priority(job.get("heur", 0), scfg)
+            # both lanes full: nothing can stage today. The guid is NOT burned
+            # (the cap check comes first, Sept 3 2026); only the cheap fast pass
+            # runs, once per run, so the `lost` tally still counts the hot
+            # stories the day had no room for - the number to read the next
+            # time a story is reported missing from the studio
+            if not (scorer.under_cap(state, scfg, today, "prio")
+                    or scorer.under_cap(state, scfg, today, "staged")):
+                if it["guid"] not in lost_seen:
+                    lost_seen.add(it["guid"])
+                    r0 = scorer.score_story_budgeted(it["title"], it.get("desc", ""),
+                                                     it["source"], cat, scfg, state, today,
+                                                     ctx=stage_context(it, common.now_utc()))
+                    if r0.get("ai") and ytposts.is_priority(r0.get("score", 0), scfg):
+                        scorer.spend(state, today, "lost")
+                        stage_work[0] += 1
+                print("  yt: both daily caps reached, skipping: %s" % it["title"][:60])
+                return
+            state.setdefault("yt_eval", []).append(it["guid"])
+            stage_work[0] += 1
+            now = common.now_utc()
+            ctx = stage_context(it, now)
+            res = scorer.score_story_budgeted(it["title"], it.get("desc", ""),
+                                              it["source"], cat, scfg,
+                                              state, today, ctx=ctx)
+            score = res.get("score", 0)
+            ai = bool(res.get("ai"))
+            if not ai:
+                thr = int(scfg.get("heuristic_stage_threshold", 90))
+            else:
+                thr = int(scfg.get("stage_threshold", 80))
+                unconf = int(scfg.get("unconfirmed_threshold", 88))
+                if score >= int(scfg.get("confirm_entry", 76)):
+                    left = (window_end[0] - time.time()) if window_end[0] else 9999.0
+                    res2 = None
+                    if left > ytposts.SLOW_WORK_MIN:
+                        res2 = scorer.score_story_budgeted(it["title"], it.get("desc", ""),
+                                                           it["source"], cat, scfg,
+                                                           state, today, ctx=ctx, confirm=True)
+                    if res2:
+                        print("  yt: second pass %d -> %d: %s" % (score, res2["score"], it["title"][:60]))
+                        res, score = res2, res2["score"]
+                    elif score < unconf:
+                        print("  yt: no second verdict (%d < %d): %s" % (score, unconf, it["title"][:60]))
+                        return
+            if score < thr:
+                print("  yt: below bar (%d): %s" % (score, it["title"][:60]))
+                return
+            # THE LANE: the hot tier draws on a budget the routine tier can
+            # never spend, and falls back to the routine budget when its own is
+            # full. "Hot" is the editor's score now, never a keyword count.
+            prio = ai and ytposts.is_priority(score, scfg)
             if prio and scorer.under_cap(state, scfg, today, "prio"):
                 lane = "prio"
             elif scorer.under_cap(state, scfg, today, "staged"):
                 lane = "staged"
             else:
                 if prio and it["guid"] not in lost_seen:
-                    # a tally, never a budget: this is the number to read the
-                    # next time a hot story is reported missing from the studio
+                    # a tally, never a budget: the number to read the next
+                    # time a hot story is reported missing from the studio
                     lost_seen.add(it["guid"])
                     scorer.spend(state, today, "lost")
-                    stage_work[0] += 1
-                print("  yt: %s, skipping: %s"
-                      % ("both daily caps reached (routine + priority)" if prio
-                         else "daily staged cap reached", it["title"][:60]))
+                print("  yt: %s, skipping (%d): %s"
+                      % ("both daily caps reached" if prio else "daily staged cap reached",
+                         score, it["title"][:60]))
                 return
-            state.setdefault("yt_eval", []).append(it["guid"])
-            stage_work[0] += 1
-            res = scorer.score_story_budgeted(it["title"], it.get("desc", ""),
-                                              it["source"], cat, scfg,
-                                              state, today)
-            score, why = res.get("score", 0), res.get("why", "")
-            thr = int(scfg.get("stage_threshold", 70))
-            if breaking:
-                score = max(score, thr)
-            if score < thr:
-                print("  yt: below bar (%d): %s" % (score, it["title"][:60]))
-                return
-            # the scorer's poster line + highlight words ride the item copy
-            # into the render spec (ytposts reads it["line"] / it["hot"])
+            # the editor's line, highlight words, kind and poster concept ride
+            # the item copy into the render spec (ytposts reads them)
             sit = dict(it)
-            sit["line"] = res.get("line", "")
-            sit["hot"] = res.get("hot", [])
-            # the model's story kind picks the poster templates; "" = storykind decides
-            sit["kind"] = res.get("kind", "")
+            for k in ("line", "hot", "kind", "concept", "main", "others", "big",
+                      "label", "quote", "caption", "ask"):
+                sit[k] = res.get(k, [] if k in ("hot", "others") else "")
             sit["emphasis"] = cfg.get("emphasis", "auto")
             # the staging memory: rehash junk, stale stories and repeats of a
-            # recently staged story/subject stop HERE (the news channel already
-            # posted or skipped this story on its own rules - this gate only
-            # protects the studio queue)
+            # recently staged story/subject stop HERE. A story the editor rates
+            # very high (strong) may share a fighter with one staged earlier -
+            # the editor saw that list - but never repeat its headline.
+            strong = ai and score >= int(scfg.get("strong_threshold", 85))
             hist = state.get("staged_hist", [])
-            now = common.now_utc()
-            ok, why_not = ytposts.stage_gate(sit, score, breaking, hist, now, scfg)
+            ok, why_not = ytposts.stage_gate(sit, score, strong, hist, now, scfg)
             if not ok:
                 print("  yt: gate skip (%s): %s" % (why_not, it["title"][:60]))
                 return
-            res_stage = ytposts.stage_story(sit, score, why, cfg_bots, cfg,
+            res_stage = ytposts.stage_story(sit, score, res.get("why", ""), cfg_bots, cfg,
                                             hist=hist, state=state,
                                             deadline=window_end[0] or None)
             status = res_stage.get("status", "")
             # only a post that actually LANDED enters the staging memory or
             # burns a daily slot - a Discord blip or a missing studio channel
-            # must not cool down the subject, and six failed posts must not
-            # eat the whole max_staged_per_day budget on nothing
+            # must not cool down the subject, and failed posts must not eat
+            # the whole daily budget on nothing
             if res_stage.get("ok"):
                 ytposts.remember_staged(state, sit, res_stage.get("img", "none"), now)
                 scorer.spend(state, today, lane)
