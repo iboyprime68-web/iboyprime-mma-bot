@@ -1,5 +1,6 @@
 {
   "seen": {
+    "93b8f8dd9f737a24": 1790987095.2049055,
     "ccb2334b0db2ddf6": 1790987029.7032087,
     "05e9d023bc75efca": 1790987029.4162664,
     "a97b95c2cd8d7ed2": 1790987029.414013,
@@ -2498,8 +2499,7 @@
     "0189af514dd49851": 1790363476.0618424,
     "8fe573861af56ead": 1790363285.8492162,
     "ead3c300974b131c": 1790363157.6378636,
-    "a3d6506a95be73ef": 1790363157.6206331,
-    "a2641c2eef25cd82": 1790363030.8580534
+    "a3d6506a95be73ef": 1790363157.6206331
   },
   "initialized": true,
   "v": 4,
@@ -4489,13 +4489,19 @@
       "source": "Cageside Press",
       "ts": "2026-10-02T23:31:17+00:00",
       "cluster": "cfdd5f06e2a"
+    },
+    {
+      "t": "Rafael dos Anjos set to make 50th career appearance at UFC 332",
+      "source": "MMA Sucka",
+      "ts": "2026-10-02T23:33:25+00:00",
+      "cluster": "cad6209902d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T00",
-    13
+    14
   ],
   "yt_eval": [
     "https://www.sherdog.com/news/news/UFC-331-salaries-Alexandre-Pantoja-tops-Joshua-Van-with-36650K-purse-202884",
