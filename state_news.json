@@ -1,5 +1,6 @@
 {
   "seen": {
+    "54025cacb1f9ced1": 1791040782.9936054,
     "6da1f8737a3d76ab": 1791040761.2060566,
     "76886eb542454eae": 1791040761.1822863,
     "e3788c728af57f47": 1791040715.9616225,
@@ -2498,8 +2499,7 @@
     "e0b255b9ab1be065": 1790442281.9150388,
     "7a5909ae2597cf51": 1790442281.8960598,
     "33acd6db9eecea88": 1790442208.5273063,
-    "6e04f3463ea5697a": 1790442162.3013487,
-    "8a2fb9de307b3a58": 1790442162.0478432
+    "6e04f3463ea5697a": 1790442162.3013487
   },
   "initialized": true,
   "v": 4,
@@ -4723,6 +4723,12 @@
       "source": "Combat Press",
       "ts": "2026-10-03T15:03:43+00:00",
       "cluster": "cc6ca65cf58"
+    },
+    {
+      "t": "Vince McMahon Had No Say in The Ultimate Fighter Airing After WWE RAW",
+      "source": "Ringside News",
+      "ts": "2026-10-03T15:04:44+00:00",
+      "cluster": "c42347cab2f"
     }
   ],
   "digest_items": [],
