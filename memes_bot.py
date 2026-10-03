@@ -1,51 +1,59 @@
 #!/usr/bin/env python3
-"""Prime Arena - Meme bot: two memes a day in 😂┊memes.
+"""Prime Arena - Meme bot: MMA memes in 😂┊memes, at most two a day.
+
+THE OWNER'S RULES (Oct 3 2026, after the first two memes it ever posted)
+----------------------------------------------------------------------
+  * MMA memes ONLY. The r/MMAmemes post was "really funny"; the general meme
+    beside it (r/memes' top post, a JK Rowling / Malfoy in-joke with 27,808
+    upvotes) "didn't make any sense". Popularity on a general subreddit is not
+    a reason to post here, so no general source is read at all.
+  * The bot says nothing. A post used to read "😂 <the Reddit title>", which
+    sounds like the bot itself talking ("I don't like that at all"). A post is
+    now the meme alone, with its source credit in small print under it.
 
 WHY IT WAS REWRITTEN (Oct 3 2026)
 ---------------------------------
 It had never posted a meme. It read Reddit's unauthenticated JSON
 (r/<sub>/top.json), which Reddit has answered with 403 since late May 2026.
-Every run logged "r/<sub>: HTTP 403" for all five subreddits and exited 0, so
-the workflow stayed green and state_memes.json was never even created.
-Measured from a GitHub-hosted runner on Oct 3 2026 (a one-off probe workflow):
+Every run logged "r/<sub>: HTTP 403" and exited 0, so the workflow stayed green
+and state_memes.json was never even created. Measured from a GitHub runner:
 
   reddit.com .../top.json            403
   reddit.com .../top/.rss            200 once, then 429 thirty seconds later.
-                                     The feed carries no NSFW flag, and Reddit
+                                     No NSFW flag in the feed, and Reddit
                                      switches RSS off on Nov 13 2026.
   Reddit OAuth (an app of our own)   closed: new apps need Reddit's approval
                                      since Nov 2025, requests close Oct 31 2026
                                      and the public Data API ends March 2027.
   meme-api.com (a Reddit relay)      200, with Reddit's nsfw + spoiler flags
-  lemmy.world (the Lemmy API)        200, TopDay scores + nsfw flags
-  the images themselves              200 (i.redd.it and Lemmy image hosts)
 
-So it reads two free, keyless kinds of source, and each one fails silent:
-  1. meme-api.com, a public relay of Reddit's hot image posts: the same
-     subreddits as before, r/MMAmemes included. It lives on its owner's Reddit
-     access, which Reddit's own timeline ends by March 2027 at the latest.
-  2. Lemmy, the open federated Reddit alternative: three meme communities whose
-     own rules ban politics. Its API is public and made for clients.
-Lemmy is read on every run, so the log shows it alive, but it ranks below the
-relay. The day the relay dies, Lemmy carries the channel with nobody touching it.
-If EVERY source fails, the run prints a ::warning:: annotation (shown in the
-Actions UI) and still exits 0: a red run every day would email the owner.
+So it reads r/MMAmemes through meme-api.com, a public relay of a subreddit's
+hot image posts. No key, no account. The relay lives on its owner's Reddit
+access, which Reddit's own timeline ends by March 2027 at the latest; when it
+goes, the run warns (below) and the channel goes quiet rather than off-topic.
+Other MMA sources were measured the same day and left out: r/MMA's images are
+fight clips and news screenshots, r/ufc's top images were a podcast thumbnail
+and a news graphic, r/BJJmemes is gym humour, r/MMAcirclejerk is tiny, and no
+Lemmy MMA community has posts.
 
 WHAT IT POSTS
 -------------
-At most MEMES_PER_DAY per UTC day, however many runs there are (the daily cron,
-a manual dispatch, a re-run). First the best fresh r/MMAmemes meme, because
-this is an MMA server, then the best general meme. The image is downloaded and
-UPLOADED: a meme never depends on its host staying up or on Discord's proxy
-reaching it, and the bytes are checked to be a real image under the upload limit.
+The best fresh r/MMAmemes posts by upvotes, at most MEMES_PER_DAY per UTC day
+however many runs there are (the daily cron, a manual dispatch, a re-run). The
+image is downloaded and UPLOADED: a meme never depends on its host staying up
+or on Discord's proxy reaching it, and the bytes are checked to be a real image
+under the upload limit. Silent, and it can ping nobody.
 
-Content guardrails (the server rules):
-  * posts their source flags NSFW or spoiler are skipped,
+Content guardrails (the server rules), checked on the post's title:
+  * posts Reddit flags NSFW or spoiler are skipped,
   * BLOCK_TERMS: religion-bashing, slurs and other off-limits topics,
   * SEXUAL_WORDS: the modesty rule,
   * promofilter: the same no-gambling floor every news story passes.
 Memory is keyed by post, image url and image bytes and pruned newest-first, so
-the same meme never repeats, crossposted or not. Standard library only.
+the same meme never repeats, crossposted or not. If the source fails, or
+nothing posts for QUIET_DAYS, the run prints a ::warning:: annotation (shown in
+the Actions UI) and still exits 0: a red run every day would email the owner.
+Standard library only.
 """
 import hashlib, os, re, tempfile, urllib.error, urllib.request
 
@@ -58,29 +66,18 @@ MEMES_PER_DAY = 2
 MAX_SEEN      = 3000              # keys, three per posted meme: ~16 months at 2 a day
 MAX_BYTES     = 8 * 1024 * 1024   # an unboosted server takes 10 MB uploads
 MAX_TRIES     = 8                 # image downloads per run, so a bad day cannot drag on
-QUIET_DAYS    = 3                 # sources answer but nothing posts for this long: warn
+QUIET_DAYS    = 3                 # the source answers but nothing posts for this long: warn
 UA = "iboyprime-memes/2.0 (+https://github.com/iboyprime68-web/iboyprime-mma-bot)"
 HEADERS = {"User-Agent": UA, "Accept": "application/json"}
 IMG_EXT = (".jpg", ".jpeg", ".png", ".gif", ".webp")
 
 MEME_API = "https://meme-api.com/gimme/%s/50"
-LEMMY    = "https://lemmy.world/api/v3/post/list?community_name=%s&sort=TopDay&limit=50"
 
-# (lane, tier, kind, name, minimum score). The MMA lane posts first and takes one
-# meme a run; the general lane fills the rest, lowest tier first, then by score.
-# Scores are the source's own (Reddit upvotes, Lemmy score), so each floor is
-# per source: Lemmy's best of a day sits in the hundreds, Reddit's in thousands.
+# (subreddit, minimum upvotes). MMA meme sources ONLY - the owner's rule above.
+# The floor keeps a weak day quiet instead of filling it with a meme nobody voted for.
 SOURCES = [
-    ("mma",     0, "reddit", "MMAmemes",              100),
-    ("general", 0, "reddit", "dankmemes",             500),
-    ("general", 0, "reddit", "memes",                 500),
-    ("general", 0, "reddit", "meirl",                 500),
-    ("general", 0, "reddit", "funny",                 500),
-    ("general", 1, "lemmy",  "memes@lemmy.world",     100),
-    ("general", 1, "lemmy",  "memes@sopuli.xyz",      100),
-    ("general", 1, "lemmy",  "funny@sh.itjust.works", 100),
+    ("MMAmemes", 150),
 ]
-LANES = ("mma", "general")
 
 # keep it within the server's rules - no religion-bashing, no slurs, no vile stuff
 BLOCK_TERMS = [
@@ -93,10 +90,10 @@ BLOCK_TERMS = [
 # The modesty rule. Whole words only, so "Essex", "cocky" and "document" stay postable.
 SEXUAL_WORDS = (
     "sex", "sexy", "sexual", "sexually", "porn", "porno", "pornhub", "nude", "nudes",
-    "naked", "nsfw", "horny", "onlyfans", "boob", "boobs", "tits", "titties", "dick",
-    "dicks", "penis", "vagina", "pussy", "cock", "cocks", "cum", "orgasm", "fetish",
-    "kinky", "milf", "rule 34", "thirst trap", "stripper", "strippers", "hooker",
-    "hookers", "erection", "boner", "condom", "condoms", "viagra",
+    "naked", "nsfw", "horny", "onlyfans", "boob", "boobs", "tits", "titty", "titties",
+    "dick", "dicks", "penis", "vagina", "pussy", "cock", "cocks", "cum", "orgasm",
+    "fetish", "kinky", "milf", "rule 34", "thirst trap", "stripper", "strippers",
+    "hooker", "hookers", "erection", "boner", "condom", "condoms", "viagra",
 )
 _SEXUAL_RE = re.compile(r"(?<![a-z0-9])(?:%s)(?![a-z0-9])"
                         % "|".join(re.escape(w) for w in SEXUAL_WORDS))
@@ -107,14 +104,14 @@ def looks_blocked(title):
     return any(term in t for term in BLOCK_TERMS)
 
 
-def blocked_reason(title, body=""):
-    """Why the words of a meme keep it out, or "" when they do not. Pure."""
-    text = "%s %s" % (title or "", body or "")
-    if looks_blocked(text):
+def blocked_reason(title):
+    """Why a meme's title keeps it out, or "" when it does not. Pure."""
+    title = title or ""
+    if looks_blocked(title):
         return "blocklist"
-    if _SEXUAL_RE.search(text.lower()):
+    if _SEXUAL_RE.search(title.lower()):
         return "modesty"
-    if promofilter.is_promo(title or "", body or "")[0]:
+    if promofilter.is_promo(title)[0]:
         return "gambling"
     return ""
 
@@ -131,25 +128,15 @@ def _k(s):
     return hashlib.sha1(s.encode("utf-8")).hexdigest()[:16]
 
 
-def is_image_url(url, ctype=""):
+def is_image_url(url):
     u = (url or "").strip().lower()
     if not u.startswith(("https://", "http://")):
         return False
-    path = u.split("#", 1)[0].split("?", 1)[0]
-    return path.endswith(IMG_EXT) or (ctype or "").lower().startswith("image/")
+    return u.split("#", 1)[0].split("?", 1)[0].endswith(IMG_EXT)
 
 
-def _cand(lane, tier, floor, key, title, body, url, ctype, score, nsfw, spoiler, credit):
-    return {"lane": lane, "tier": tier, "floor": floor, "key": key,
-            "title": common.clean(str(title or "")),
-            "body": common.clean(str(body or ""))[:500],
-            "url": str(url or "").strip(), "ctype": str(ctype or ""),
-            "score": _int(score), "nsfw": bool(nsfw), "spoiler": bool(spoiler),
-            "credit": credit}
-
-
-# ---- sources: each returns (candidates, "ok") or (None, why it failed) ---------
-def from_meme_api(sub, lane, tier, floor):
+# ---- the source: (candidates, "ok") or (None, why it failed) ------------------
+def from_meme_api(sub, floor):
     code, data = common.get_json(MEME_API % sub, headers=HEADERS, tries=2, timeout=20)
     if code != 200 or not isinstance(data, dict) or not isinstance(data.get("memes"), list):
         return None, "HTTP %s" % code
@@ -159,39 +146,21 @@ def from_meme_api(sub, lane, tier, floor):
             continue
         link = str(m.get("postLink") or "").rstrip("/")
         pid = link.rsplit("/", 1)[-1] or str(m.get("url") or "")
-        out.append(_cand(lane, tier, floor, "reddit:" + pid, m.get("title"), "",
-                         m.get("url"), "", m.get("ups"), m.get("nsfw"), m.get("spoiler"),
-                         "r/" + sub))
-    return out, "ok"
-
-
-def from_lemmy(comm, lane, tier, floor):
-    code, data = common.get_json(LEMMY % comm, headers=HEADERS, tries=2, timeout=20)
-    if code != 200 or not isinstance(data, dict) or not isinstance(data.get("posts"), list):
-        return None, "HTTP %s" % code
-    out = []
-    for pv in data["posts"]:
-        if not isinstance(pv, dict):
-            continue
-        p = pv.get("post") if isinstance(pv.get("post"), dict) else {}
-        c = pv.get("community") if isinstance(pv.get("community"), dict) else {}
-        n = pv.get("counts") if isinstance(pv.get("counts"), dict) else {}
-        if p.get("removed") or p.get("deleted"):
-            continue
-        out.append(_cand(lane, tier, floor, "lemmy:" + str(p.get("ap_id") or p.get("id") or ""),
-                         p.get("name"), p.get("body"), p.get("url"), p.get("url_content_type"),
-                         n.get("score"), p.get("nsfw") or c.get("nsfw"), False, comm))
+        out.append({"key": "reddit:" + pid, "floor": floor,
+                    "title": common.clean(str(m.get("title") or "")),
+                    "url": str(m.get("url") or "").strip(), "score": _int(m.get("ups")),
+                    "nsfw": bool(m.get("nsfw")), "spoiler": bool(m.get("spoiler")),
+                    "credit": "r/" + sub})
     return out, "ok"
 
 
 def gather():
     """Every candidate from every source, plus one status line per source."""
     pool, status = [], {}
-    for lane, tier, kind, name, floor in SOURCES:
-        fetch = from_meme_api if kind == "reddit" else from_lemmy
-        label = ("r/" + name) if kind == "reddit" else name
+    for sub, floor in SOURCES:
+        label = "r/" + sub
         try:
-            got, why = fetch(name, lane, tier, floor)
+            got, why = from_meme_api(sub, floor)
         except Exception as e:            # a malformed reply must never end the run
             got, why = None, "error %s" % type(e).__name__
         status[label] = ("%d candidates" % len(got)) if got is not None else why
@@ -211,28 +180,26 @@ def skip_reason(c, seen):
         return "nsfw/spoiler"
     if not c["title"]:
         return "no title"
-    if not is_image_url(c["url"], c["ctype"]):
+    if not is_image_url(c["url"]):
         return "not an image"
     if c["score"] < c["floor"]:
         return "below the bar"
     if posted_before(c, seen):
         return "already posted"
-    return blocked_reason(c["title"], c["body"])
+    return blocked_reason(c["title"])
 
 
 def rank(pool, seen):
-    """({lane: candidates best first}, {skip reason: count}). Pure."""
-    lanes, skipped = {lane: [] for lane in LANES}, {}
+    """(postable candidates best first, {skip reason: count}). Pure."""
+    keep, skipped = [], {}
     for c in pool:
         why = skip_reason(c, seen)
-        if why or c["lane"] not in lanes:
-            why = why or "unknown lane"
+        if why:
             skipped[why] = skipped.get(why, 0) + 1
-            continue
-        lanes[c["lane"]].append(c)
-    for lane in lanes:
-        lanes[lane].sort(key=lambda c: (c["tier"], -c["score"]))
-    return lanes, skipped
+        else:
+            keep.append(c)
+    keep.sort(key=lambda c: -c["score"])
+    return keep, skipped
 
 
 # ---- posting ---------------------------------------------------------------------
@@ -276,12 +243,11 @@ def post_meme(chan, c, state, epoch):
     try:
         with os.fdopen(fd, "wb") as f:
             f.write(data)
-        title = common.truncate(common.strip_markdown(c["title"]), 200)
-        # SILENT (memes never buzz anyone): the push preview is plain text, and the
-        # uploaded image sits inside the embed with its source credit.
+        # The meme alone: no text, so the bot never sounds like it is talking
+        # (the owner's rule). SILENT, and post_file's NO_PINGS default holds.
         embed = {"image": {"url": "attachment://" + fname}, "color": 0xF1C40F,
                  "footer": {"text": "via " + c["credit"]}}
-        code, _ = common.post_file(chan, "😂 " + title, tmp, filename=fname,
+        code, _ = common.post_file(chan, "", tmp, filename=fname,
                                    embeds=[embed], silent=True)
     finally:
         try:
@@ -352,32 +318,29 @@ def main():
               % "; ".join("%s %s" % kv for kv in sorted(status.items())))
         save_state(path, state)
         return
-    lanes, skipped = rank(pool, state["seen"])
-    print("  eligible: %s | skipped: %s" % (
-        ", ".join("%s %d" % (lane, len(lanes[lane])) for lane in LANES),
-        ", ".join("%s %d" % kv for kv in sorted(skipped.items())) or "none"))
+    ranked, skipped = rank(pool, state["seen"])
+    print("  eligible: %d | skipped: %s" % (
+        len(ranked), ", ".join("%s %d" % kv for kv in sorted(skipped.items())) or "none"))
 
     posted = tries = 0
-    for lane in LANES:
-        quota, done = (1 if lane == "mma" else room), 0
-        for c in lanes[lane]:
-            if posted >= room or done >= quota or tries >= MAX_TRIES:
-                break
-            if posted_before(c, state["seen"]):
-                continue                  # a crosspost of something posted this run
-            tries += 1
-            if post_meme(chan, c, state, epoch):
-                posted += 1; done += 1
-                state["day"]["n"] += 1
-                state["last_post"] = epoch
-                save_state(path, state)
+    for c in ranked:
+        if posted >= room or tries >= MAX_TRIES:
+            break
+        if posted_before(c, state["seen"]):
+            continue                      # a crosspost of something posted this run
+        tries += 1
+        if post_meme(chan, c, state, epoch):
+            posted += 1
+            state["day"]["n"] += 1
+            state["last_post"] = epoch
+            save_state(path, state)
 
     if not posted:
         print("No meme posted this run.")
         quiet = epoch - max(state["last_post"], state["since"])
         if quiet > QUIET_DAYS * 86400:
-            print("::warning::memes: the sources answer but nothing has posted for %d days "
-                  "(filters or score floors too strict?)" % (quiet // 86400))
+            print("::warning::memes: the source answers but nothing has posted for %d days "
+                  "(filters or the upvote floor too strict?)" % (quiet // 86400))
     save_state(path, state)
     print("Done. memes posted=%d (today %d/%d)" % (posted, state["day"]["n"], MEMES_PER_DAY))
 
