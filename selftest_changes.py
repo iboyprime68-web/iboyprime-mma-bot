@@ -405,7 +405,10 @@ _NOON = common.datetime.datetime(2024, 1, 2, 12, 0, tzinfo=common.datetime.timez
 common.now_utc = lambda: _NOON
 # one enabled test feed; every other default source is switched off so the
 # suite stays deterministic as the default source list grows
-NEWS_OVERRIDE = {"sources": {"mma_fighting": {"enabled": True, "url": "http://feed",
+# the news suites test the CHANNEL path (still real code, one switch away), so they pin it on;
+# the owner's studio-only setting has its own suite ([studio only])
+NEWS_OVERRIDE = {"post_news_channel": True,
+                 "sources": {"mma_fighting": {"enabled": True, "url": "http://feed",
                                               "min_poll": 0},
                              "mma_junkie":    {"enabled": False},
                              "bloody_elbow":  {"enabled": False},
@@ -6869,6 +6872,51 @@ check("a story only the heuristic could score stages from heuristic_stage_thresh
 ytposts.stage_story, scorer.score_story = _ed_real_stage, _ed_real_score
 common.now_utc = _real_now
 os.environ.update(_ed_env)
+
+
+# ───────────────── studio only (Oct 3 2026) ─────────────────
+# The owner: "I don't ever use the news section... I care about the YouTube posts".
+# post_news_channel False: every source is still read and every story judged for the
+# studio, but nothing is posted to the news channel (no news-channel phone alert either).
+print("\n[studio only]")
+check("studio only ships in BOTH newsconfig files (deep_merge would let one override the other)",
+      newsconfig.base_defaults().get("post_news_channel") is False and _NJSON.get("post_news_channel") is False)
+check("post_channel: only a real False silences the channel (junk keeps posting)",
+      news_bot.post_channel({}) is True and news_bot.post_channel({"post_news_channel": False}) is False
+      and news_bot.post_channel({"post_news_channel": "no"}) is True)
+try:
+    import mod_panel as _so_mp
+    check("MOD_PANEL: the news-channel box is the switch, and a form without it keeps the setting",
+          _so_mp.collect_news(newsconfig.base_defaults(), {"post_channel": True})["post_news_channel"] is True
+          and _so_mp.collect_news(newsconfig.base_defaults(), {})["post_news_channel"] is False)
+except (SystemExit, ImportError):  # CI has no mod_panel.py (local-only GUI)
+    print("  SKIP: mod_panel not in this checkout")
+check("the validator refuses a post_news_channel that is not true or false",
+      any("post_news_channel" in p for p in newsconfig.validate_newsconfig(dict(newsconfig.base_defaults(), post_news_channel="no"))))
+_so_real_stage, _so_real_score = ytposts.stage_story, scorer.score_story
+_SO_STG = []
+ytposts.stage_story = lambda it, score, why, cb, nc, hist=None, state=None, deadline=None: (
+    _SO_STG.append(it["guid"]) or {"status": "staged (HTTP 200)", "img": "wash", "ok": True})
+scorer.score_story = lambda title, desc, source, category, cfg, ctx=None, confirm=False: {
+    "score": 90, "why": "t", "ai": True, "line": "", "hot": [], "kind": "", "post": True, "confirmed": bool(confirm)}
+_so_env = {k: os.environ.pop(k) for k in list(scorer.PROVIDER_ENVS) if k in os.environ}
+common.now_utc = lambda: _NOON
+reset_news(state={"v": 4, "initialized": True, "seen": {}, "seed_pending": [], "recent": [],
+                  "digest_items": [], "digest_last": "", "hour": ["", 0]})
+STORE["newsconfig.json"]["post_news_channel"] = False
+STORE["newsconfig.json"]["scoring"] = {"enabled": True}
+POSTS[:] = []
+news_feed([("New champion crowned at UFC 340", "http://so/1", "so1", "Tue, 02 Jan 2024 11:00:00 GMT"),
+           ("Title challenger withdraws from UFC 341", "http://so/2", "so2", "Tue, 02 Jan 2024 11:05:00 GMT")])
+LOOP_N[0] = 3
+news_bot.main()
+check("studio only: nothing reaches the news channel (no message posted at all)", POSTS == [])
+check("studio only: every story is still judged and staged for the studio", sorted(_SO_STG) == ["so1", "so2"])
+check("studio only: the stories are remembered (seen + the dedupe window), so nothing is judged twice",
+      len(STORE["state_news.json"].get("recent", [])) == 2 and len(STORE["state_news.json"].get("seen", {})) >= 2)
+ytposts.stage_story, scorer.score_story = _so_real_stage, _so_real_score
+common.now_utc = _real_now
+os.environ.update(_so_env)
 
 
 print("\n==== %d passed, %d failed ====" % (PASS, FAIL))
