@@ -6430,9 +6430,10 @@ var FONTS = {
   cond7: function (s) { return "700 " + s + "px 'Barlow Condensed', 'Arial Narrow', sans-serif"; },
   cond6: function (s) { return "600 " + s + "px 'Barlow Condensed', 'Arial Narrow', sans-serif"; },
   pop: function (s) { return "700 " + s + "px Poppins, sans-serif"; },
-  pop8: function (s) { return "800 " + s + "px Poppins, sans-serif"; }
+  pop8: function (s) { return "800 " + s + "px Poppins, sans-serif"; },
+  pop9: function (s) { return "900 " + s + "px Poppins, sans-serif"; }
 };
-var CAPS = { anton: 0.74, cond: 0.70, cond7: 0.70, cond6: 0.70, pop: 0.71, pop8: 0.71 };
+var CAPS = { anton: 0.74, cond: 0.70, cond7: 0.70, cond6: 0.70, pop: 0.71, pop8: 0.71, pop9: 0.71 };
 var LS_OK = false;
 try { LS_OK = "letterSpacing" in g; } catch (e) { LS_OK = false; }
 function setFont(face, size, track) {
@@ -7555,6 +7556,368 @@ def({
   }
 });
 
+// ---------- crossed out (Oct 3 2026): the owner's reference, an MMA channel's "JANUARY" post ----------
+// One fighter large in the middle, the people he rules out small in grey circles behind him, each
+// crossed out, one word at the bottom ("Morales: my January opponent is neither Prates nor Garry",
+// 800 likes and 125 comments in an hour). The X is drawn over each circle and under the hero.
+// The mark is the universal "no" colour, never a fighter's colour (owner law 1 bans a two-colour
+// fighter scheme, not a cross); "WHITE" or "THEME" in the mark field changes it.
+function crossCol(v) {
+  var k = upper(String(v || "")).trim();
+  if (k === "WHITE") return "#FFFFFF";
+  if (k === "THEME") return R.pal.a;
+  return "#E8202E";
+}
+function crossMark(cx, cy, r, color) {
+  var k = r * 0.86, lw = Math.max(4, r * 0.12), bow = r * 0.06;
+  g.save();
+  g.lineCap = "round"; g.lineJoin = "round";
+  g.shadowColor = "rgba(0,0,0,.5)"; g.shadowBlur = lw * 1.4; g.shadowOffsetY = lw * 0.3;
+  g.strokeStyle = color; g.lineWidth = lw;
+  // two marker strokes with a slight bow, the second a touch shorter (drawn by hand, not a font)
+  g.beginPath(); g.moveTo(cx - k, cy - k * 0.94); g.quadraticCurveTo(cx + bow, cy - bow, cx + k * 0.97, cy + k); g.stroke();
+  g.beginPath(); g.moveTo(cx + k * 0.95, cy - k); g.quadraticCurveTo(cx - bow, cy - bow * 0.5, cx - k * 0.9, cy + k * 0.96); g.stroke();
+  g.restore();
+}
+// how many people a crossout poster crosses out: the circles that have a picture (an empty second
+// circle is not drawn on a story; the editor still shows its placeholder)
+function crossCount() { return assetOf("out2") ? 2 : 1; }
+def({
+  id: "crossout", name: "Crossed out", group: "Headlines", blurb: "The fighter big, the names he rules out crossed out, one word",
+  look: "carved", fighters: ["A", "B", "C"],
+  slots: [{ id: "hero", kind: "cut", label: "Fighter", from: "A.body", need: "cut" },
+          { id: "bg", kind: "photo", label: "Background photo", note: "an action photo; it turns into the theme color", opt: true },
+          { id: "out1", kind: "circle", label: "Left circle", note: "the first name he rules out", from: "B.head" },
+          { id: "out2", kind: "circle", label: "Right circle", note: "the second name he rules out", from: "C.head", opt: true }],
+  fields: [{ id: "word", label: "Big word", def: "JANUARY" },
+           { id: "kicker", label: "Small line", def: "" },
+           { id: "mark", label: "X colour (RED, WHITE or THEME)", def: "RED" }],
+  draw: function () {
+    var S = W / 1080, tall = H > W * 1.1, Hp = Math.floor(H / S * 0.84) * S;
+    fillShade();
+    drawPlateG({ slot: "bg", fallback: "crowd", fy: 0.3 }, [0, 0, W, Hp], { seed: 3, focus: [540, 300 * (Hp / S) / 1107, 520] });
+    plateHit("bg", [0, 0, W, Hp], "Background photo");
+    var mg = g.createLinearGradient(0, 0, 0, Hp);
+    for (var i = 0; i <= 12; i++) mg.addColorStop(i / 12, rgba(R.pal.shade, smooth(0.62, 1.0, i / 12)));
+    g.fillStyle = mg; g.fillRect(0, 0, W, Hp);
+    fxRadial(W * 0.5, H * 0.26, W * 0.9, H * 0.6, 0.32);
+    var fw = (tall ? 0.27 : 0.235) * W, H0 = faceHero("hero", fw, 0.5 * W, (tall ? 0.17 : 0.13) * H), hl = null;
+    if (H0) hl = heroLayer("hero", H0.a, H0.P, { rowsBelow: 4.6, ramp: true, seed: 6, label: "Fighter" });
+    var hA = assetOf("hero"), photoHero = !!(hA && !hA.cut);
+    if (photoHero) drawPhoto("hero", [W * 0.25, 0, W * 0.5, Hp], { label: "Fighter (photo, not cut out)", fy: 0.2 });
+    if (hl) fxClear(hl.al, { capReach: 90 });
+    var two = crossCount() === 2 || (R.editor && !storyNow);
+    var r1 = W * (tall ? 0.18 : 0.165), cy = H * (tall ? 0.31 : 0.33), col = crossCol(tx("mark"));
+    var c1x = two ? W * 0.2 : W * 0.21, c2x = W * 0.8;
+    drawCircle("out1", c1x, cy, r1, { label: "Left circle", seed: 51, mode: "inset" });
+    if (assetOf("out1")) crossMark(c1x, cy, r1, col);
+    if (two) {
+      drawCircle("out2", c2x, cy - H * 0.01, r1 * 0.95, { label: "Right circle", seed: 52, mode: "inset" });
+      if (assetOf("out2")) crossMark(c2x, cy - H * 0.01, r1 * 0.95, col);
+    }
+    if (hl) { fxHalo(hl.al, [9.0, 0.60, 0.9], [30.0, 0.32, 0.25]); g.drawImage(hl.c, 0, 0); heroHit("hero", hl, H0.P, "Fighter"); }
+    else if (!photoHero) missingHero("hero", W * 0.5, H * 0.3, W * 0.3, "Drop a fighter");
+    fxFade(H * 0.62, H * 0.9, 0.97, 1.35);
+    fxGrain(13);
+    var wb = dispWord(tx("word"), W / 2, H - H * 0.04, W - 70 * S, H * (tall ? 0.2 : 0.19), { white: true, fill: 0.04 });
+    textHit("word", [wb[0], wb[1], wb[2], wb[3]]);
+    var kick = tx("kicker");
+    if (kick) textHit("kicker", kickerLine(kick, W / 2, wb[1], 31, 24));
+  }
+});
+
+// ---------- the grid style (Oct 3 2026): the owner's Premier League "of the month" cards ----------
+// A two-colour gradient in the theme (the vivid card palette, c1 into c2), huge faint letters
+// behind, a white graph grid behind the subject that fades at its edges, soft grain; the subject
+// cut out from the chest up on a soft drop shadow (never a halo: owner law 2), Poppins type, and
+// the two-part pill (a dark plate segment, a white segment). The owner asked for this style and the
+// gritty one to stand side by side, so each grid template is its own entry in the picker.
+function gridTh() { return vividTheme(doc.theme); }
+// dark type on the light themes (toxic, gold), white on the rest: measured on the gradient's foot
+function gridInk(th) { return relLum(th.c2) > 0.4 ? th.plate : "#FFFFFF"; }
+function gridGround(ghost, o) {
+  o = o || {};
+  var th = gridTh(), S = W / 1080;
+  var lg = g.createLinearGradient(0, 0, W, H);
+  lg.addColorStop(0, th.c1); lg.addColorStop(0.55, mix(th.c1, th.c2, 0.62)); lg.addColorStop(1, th.c2);
+  g.fillStyle = lg; g.fillRect(0, 0, W, H);
+  var rg = g.createRadialGradient(W * 0.5, H * 0.3, 0, W * 0.5, H * 0.3, W * 0.7);
+  rg.addColorStop(0, rgba(th.glow, 0.42)); rg.addColorStop(1, rgba(th.glow, 0));
+  g.fillStyle = rg; g.fillRect(0, 0, W, H);
+  var tl = g.createRadialGradient(0, 0, 0, 0, 0, W * 0.75);
+  tl.addColorStop(0, rgba("#FFFFFF", 0.22)); tl.addColorStop(1, rgba("#FFFFFF", 0));
+  g.fillStyle = tl; g.fillRect(0, 0, W, H);
+  var gt = upper(plain(ghost || "")).trim();
+  if (gt) {
+    g.save();
+    setFont("pop9", 100, 0);
+    var gw = g.measureText(gt).width / 100, gs = Math.min(H * (o.ghostH || 0.72), (W * 1.18) / Math.max(0.5, gw));
+    setFont("pop9", gs, -0.03);
+    g.textBaseline = "alphabetic";
+    var gx = W / 2 - (g.measureText(gt).width) / 2, gy = H * (o.ghostY || 0.62);
+    g.fillStyle = rgba(th.c2, 0.34); g.fillText(gt, gx, gy);
+    g.lineWidth = Math.max(1.5, 3 * S); g.strokeStyle = rgba("#FFFFFF", 0.18); g.strokeText(gt, gx, gy);
+    if (LS_OK) g.letterSpacing = "0px";
+    g.restore();
+  }
+  gridLines(o.grid || [W * 0.07, H * 0.045, W * 0.86, H * 0.68], W / 9);
+}
+// white graph lines over a rect: evenly visible inside it, fading out over its outer fifth (the PL
+// card's graph paper); drawn once per size into a tagged canvas the composition cache can key on
+var gridCache = {};
+function gridLines(rect, step) {
+  var S = W / 1080, key = [W, H, rect.map(Math.round).join(","), Math.round(step)].join("|"), c = gridCache[key];
+  if (!c) {
+    c = mkCanvas(W, H);
+    var x = c.getContext("2d"), cx = rect[0] + rect[2] / 2, cy = rect[1] + rect[3] / 2, v;
+    x.strokeStyle = "#FFFFFF"; x.lineWidth = Math.max(1, 2.4 * S);
+    x.beginPath();
+    var x0 = cx - Math.floor(rect[2] / 2 / step) * step, y0 = cy - Math.floor(rect[3] / 2 / step) * step;
+    for (v = x0; v <= rect[0] + rect[2] + 0.5; v += step) { x.moveTo(Math.round(v) + 0.5, rect[1]); x.lineTo(Math.round(v) + 0.5, rect[1] + rect[3]); }
+    for (v = y0; v <= rect[1] + rect[3] + 0.5; v += step) { x.moveTo(rect[0], Math.round(v) + 0.5); x.lineTo(rect[0] + rect[2], Math.round(v) + 0.5); }
+    x.stroke();
+    x.globalCompositeOperation = "destination-in";
+    var e = 0.18, hg = x.createLinearGradient(rect[0], 0, rect[0] + rect[2], 0);
+    hg.addColorStop(0, "rgba(0,0,0,0)"); hg.addColorStop(e, "rgba(0,0,0,1)"); hg.addColorStop(1 - e, "rgba(0,0,0,1)"); hg.addColorStop(1, "rgba(0,0,0,0)");
+    x.fillStyle = hg; x.fillRect(0, 0, W, H);
+    var vg = x.createLinearGradient(0, rect[1], 0, rect[1] + rect[3]);
+    vg.addColorStop(0, "rgba(0,0,0,0)"); vg.addColorStop(e, "rgba(0,0,0,1)"); vg.addColorStop(1 - e * 1.5, "rgba(0,0,0,1)"); vg.addColorStop(1, "rgba(0,0,0,0)");
+    x.fillStyle = vg; x.fillRect(0, 0, W, H);
+    c.__tag = "grid:" + key;
+    var ks = Object.keys(gridCache);
+    if (ks.length > 6) delete gridCache[ks[0]];
+    gridCache[key] = c;
+  }
+  g.save(); g.globalAlpha = 0.52; g.drawImage(c, 0, 0); g.restore();
+}
+// the ground again over the subject's foot, so the body melts into the gradient under the type
+function gridMelt(y0, y1, k) {
+  var th = gridTh(), lg = g.createLinearGradient(0, y0, 0, y1), col = mix(th.c1, th.c2, 0.8);
+  lg.addColorStop(0, rgba(col, 0)); lg.addColorStop(0.6, rgba(col, 0.55 * (k || 1))); lg.addColorStop(1, rgba(th.c2, 0.92 * (k || 1)));
+  g.fillStyle = lg; g.fillRect(0, y0, W, H - y0);
+}
+// a face-anchored hero on a soft drop shadow (no halo, no edge light)
+function gridHero(id, fw, fcx, ftop, o) {
+  o = o || {};
+  var H0 = faceHero(id, fw, fcx, ftop), hl = null;
+  if (H0) hl = heroLayer(id, H0.a, H0.P, { rowsBelow: o.rows || 4.2, ramp: true, seed: o.seed || 8, clip: o.clip, label: o.label });
+  var a = assetOf(id);
+  if (!hl) {
+    if (a && !a.cut) drawPhoto(id, o.photoRect || [fcx - fw * 1.6, ftop - fw * 0.4, fw * 3.2, fw * 4.2], { label: (o.label || "Fighter") + " (photo, not cut out)", fy: 0.2 });
+    else missingHero(id, fcx, ftop + fw * 0.6, fw * 1.2, o.label || "Drop a fighter");
+    return null;
+  }
+  var th = gridTh(), S = W / 1080;
+  g.save();
+  g.shadowColor = rgba(th.floor, 0.34); g.shadowBlur = 46 * S; g.shadowOffsetY = 14 * S;
+  g.drawImage(hl.c, 0, 0);
+  g.restore();
+  heroHit(id, hl, H0.P, o.label || "Fighter");
+  return hl;
+}
+// the two-part pill: dark plate on the left (white type), white on the right (dark type, its last
+// word in the theme's light-ground ramp). Returns its box.
+function gridPill(cx, cy, h, left, right, o) {
+  o = o || {};
+  var th = gridTh(), S = W / 1080, L = upper(plain(left || "")).trim(), Rt = upper(plain(right || "")).trim();
+  if (!L && !Rt) return [cx, cy, 0, 0];
+  var fs = h * 0.44, padL = h * 0.62, track = 0.04, rad = h * 0.16;
+  setFont("pop", fs, track);
+  var wl = L ? g.measureText(L).width + padL * 2 : 0, wr = Rt ? g.measureText(Rt).width + padL * 2 : 0;
+  var maxW = o.maxW || W * 0.86, tot = wl + wr;
+  if (tot > maxW) { var k = maxW / tot; fs *= k; padL *= k; wl *= k; wr *= k; tot = maxW; setFont("pop", fs, track); }
+  var x0 = cx - tot / 2, y0 = cy - h / 2, base = cy + capOf("pop") * fs / 2;
+  g.save();
+  g.shadowColor = rgba(th.floor, 0.28); g.shadowBlur = 18 * S; g.shadowOffsetY = 5 * S;
+  if (wr) { rr(x0 + wl - (wl ? rad : 0), y0, wr + (wl ? rad : 0), h, rad); g.fillStyle = "#FFFFFF"; g.fill(); }
+  g.restore();
+  if (wl) { g.save(); rr(x0, y0, wl, h, rad); g.fillStyle = th.plate; g.fill(); g.restore(); }
+  var trackPad = LS_OK ? track * fs : 0;
+  if (wl) { g.fillStyle = "#FFFFFF"; g.fillText(L, x0 + padL, base); }
+  if (wr) {
+    var words = Rt.split(" "), last = words.length > 1 ? words.pop() : "", head = words.join(" ");
+    var tx0 = x0 + wl + padL;
+    g.fillStyle = th.ptxt; g.fillText(head + (last ? " " : ""), tx0, base);
+    if (last) {
+      var hw = g.measureText(head + " ").width - trackPad;
+      var lgr = g.createLinearGradient(0, base - capOf("pop") * fs, 0, base);
+      lgr.addColorStop(0, th.hi); lgr.addColorStop(1, th.lo);
+      g.fillStyle = lgr; g.fillText(last, tx0 + hw, base);
+    }
+  }
+  if (LS_OK) g.letterSpacing = "0px";
+  return [x0, y0, tot, h];
+}
+// first name small over the surname big, centred; returns the block's box
+function gridName(first, last, cx, base, o) {
+  o = o || {};
+  var th = gridTh(), ink = o.ink || gridInk(th), S = W / 1080;
+  var lt = upper(plain(last || "")).trim(), ft = upper(plain(first || "")).trim();
+  var sz = o.size || H * 0.13, maxW = o.maxW || W * 0.9;
+  setFont("pop8", sz, -0.015);
+  var w = g.measureText(lt).width;
+  if (w > maxW) { sz *= maxW / w; setFont("pop8", sz, -0.015); w = g.measureText(lt).width; }
+  var sh = ink === "#FFFFFF" ? 0.32 : 0.0;
+  if (sh) shadowText(lt, cx - w / 2, base, sz * 0.18, sz * 0.04, sh);
+  g.fillStyle = ink; g.fillText(lt, cx - w / 2, base);
+  var top = base - capOf("pop8") * sz, box = [cx - w / 2, top, w, capOf("pop8") * sz];
+  if (ft) {
+    var fs = Math.max(14 * S, sz * 0.36), fb = top - fs * 0.42;
+    setFont("pop", fs, 0.03);
+    var fw2 = g.measureText(ft).width;
+    if (sh) shadowText(ft, cx - fw2 / 2, fb, fs * 0.2, fs * 0.05, sh);
+    g.fillStyle = ink; g.fillText(ft, cx - fw2 / 2, fb);
+    box = [Math.min(box[0], cx - fw2 / 2), fb - capOf("pop") * fs, Math.max(w, fw2), base - (fb - capOf("pop") * fs)];
+  }
+  if (LS_OK) g.letterSpacing = "0px";
+  return box;
+}
+function gridFinish() { fxGrain(19, 0.011); }
+
+def({
+  id: "gcross", name: "Crossed out (grid)", group: "Grid", blurb: "Grid style: the fighter, the names he rules out crossed out, one word",
+  look: "vivid", fighters: ["A", "B", "C"],
+  slots: [{ id: "hero", kind: "cut", label: "Fighter", from: "A.body", need: "cut" },
+          { id: "out1", kind: "circle", label: "Left circle", note: "the first name he rules out", from: "B.head" },
+          { id: "out2", kind: "circle", label: "Right circle", note: "the second name he rules out", from: "C.head", opt: true }],
+  fields: [{ id: "word", label: "Big word", def: "JANUARY" },
+           { id: "pillL", label: "Pill, dark half", def: function (D) { return lastOf(D.A, "MORALES"); } },
+           { id: "pillR", label: "Pill, white half", def: "NEXT FIGHT" },
+           { id: "mark", label: "X colour (RED, WHITE or THEME)", def: "RED" }],
+  draw: function () {
+    var S = W / 1080, tall = H > W * 1.1, th = gridTh();
+    gridGround(tx("word"), { ghostY: tall ? 0.5 : 0.56, ghostH: 0.5 });
+    var two = crossCount() === 2 || (R.editor && !storyNow);
+    var r1 = W * (tall ? 0.15 : 0.14), cy = H * (tall ? 0.24 : 0.25), col = crossCol(tx("mark"));
+    var c1x = two ? W * 0.19 : W * 0.2, c2x = W * 0.81;
+    drawCircle("out1", c1x, cy, r1, { label: "Left circle", seed: 61, mode: "inset" });
+    if (assetOf("out1")) crossMark(c1x, cy, r1, col);
+    if (two) {
+      drawCircle("out2", c2x, cy, r1, { label: "Right circle", seed: 62, mode: "inset" });
+      if (assetOf("out2")) crossMark(c2x, cy, r1, col);
+    }
+    gridHero("hero", (tall ? 0.22 : 0.19) * W, 0.5 * W, (tall ? 0.17 : 0.155) * H, { seed: 9, label: "Fighter" });
+    gridMelt(H * 0.58, H * 0.98, 1);
+    gridFinish();
+    var pb = gridPill(W / 2, H * (tall ? 0.915 : 0.905), H * (tall ? 0.05 : 0.06), tx("pillL"), tx("pillR"));
+    hit("text:pillL", "text", { r: [pb[0] - 10, pb[1] - 10, pb[2] / 2 + 10, pb[3] + 20] }, "Text");
+    hit("text:pillR", "text", { r: [pb[0] + pb[2] / 2, pb[1] - 10, pb[2] / 2 + 10, pb[3] + 20] }, "Text");
+    var wt = upper(plain(tx("word"))).trim(), ink = gridInk(th);
+    var size = H * (tall ? 0.13 : 0.15);
+    setFont("pop9", size, -0.02);
+    var ww = g.measureText(wt).width, maxW = W * 0.9;
+    if (ww > maxW) { size *= maxW / ww; setFont("pop9", size, -0.02); ww = g.measureText(wt).width; }
+    var base = pb[1] - H * 0.03;
+    if (ink === "#FFFFFF") shadowText(wt, W / 2 - ww / 2, base, size * 0.2, size * 0.05, 0.34);
+    g.fillStyle = ink; g.fillText(wt, W / 2 - ww / 2, base);
+    if (LS_OK) g.letterSpacing = "0px";
+    textHit("word", [W / 2 - ww / 2, base - capOf("pop9") * size, ww, capOf("pop9") * size]);
+  }
+});
+
+def({
+  id: "gpotm", name: "Honour card (grid)", group: "Grid", blurb: "Grid style: one fighter, a ranking or award, the two-part pill",
+  look: "vivid", fighters: ["A", "B"],
+  slots: [{ id: "hero", kind: "cut", label: "Fighter", from: "A.body", need: "cut" },
+          { id: "inset", kind: "circle", label: "Circle", note: "optional: a rival or the fighter he passed", from: "B.head", opt: true }],
+  fields: [{ id: "ghost", label: "Big faint letters", def: "#1" },
+           { id: "first", label: "First name", def: function (D) { return firstOf(D.A, "ISLAM"); } },
+           { id: "last", label: "Surname", def: function (D) { return lastOf(D.A, "MAKHACHEV"); } },
+           { id: "sub", label: "Line under the name", def: "" },
+           { id: "pillL", label: "Pill, dark half", def: function () { return upper(new Date().toLocaleString("en-US", { month: "long", timeZone: "UTC" })); } },
+           { id: "pillR", label: "Pill, white half", def: "FIGHTER OF THE MONTH" }],
+  draw: function () {
+    var S = W / 1080, tall = H > W * 1.1, th = gridTh();
+    gridGround(tx("ghost"), { ghostY: tall ? 0.46 : 0.5, ghostH: 0.62 });
+    gridHero("hero", (tall ? 0.22 : 0.19) * W, 0.5 * W, (tall ? 0.165 : 0.15) * H, { seed: 10, label: "Fighter" });
+    gridMelt(H * 0.55, H * 0.98, 1);
+    if (assetOf("inset") || (R.editor && !storyNow)) {
+      var ir = W * 0.095;
+      drawCircle("inset", W - W * 0.135, H * (tall ? 0.11 : 0.13), ir, { label: "Circle", seed: 71, mode: "natural" });
+    }
+    gridFinish();
+    var ph = H * (tall ? 0.05 : 0.058), pb = gridPill(W / 2, H * (tall ? 0.915 : 0.9), ph, tx("pillL"), tx("pillR"));
+    hit("text:pillL", "text", { r: [pb[0] - 10, pb[1] - 10, pb[2] / 2 + 10, pb[3] + 20] }, "Text");
+    hit("text:pillR", "text", { r: [pb[0] + pb[2] / 2, pb[1] - 10, pb[2] / 2 + 10, pb[3] + 20] }, "Text");
+    var sub = tx("sub"), base = pb[1] - H * (sub ? 0.075 : 0.035);
+    if (sub) {
+      var ink = gridInk(th), ss = H * 0.03;
+      var sl = line1(sub, "pop", ss, W / 2, pb[1] - H * 0.028, "center", { track: 0.04, fill: ink === "#FFFFFF" ? "#FFFFFF" : ink, maxW: W * 0.8, shadow: ink === "#FFFFFF" ? 0.3 : 0 });
+      textHit("sub", [sl.x, pb[1] - H * 0.06, sl.w, H * 0.04]);
+    }
+    var nb = gridName(tx("first"), tx("last"), W / 2, base, { size: H * (tall ? 0.115 : 0.13) });
+    textHit("last", [nb[0], nb[1], nb[2], nb[3]]);
+  }
+});
+
+def({
+  id: "gtape", name: "Tale of the tape (grid)", group: "Grid", blurb: "Grid style: both fighters, the numbers in pills down the middle",
+  look: "vivid", fighters: ["A", "B"],
+  slots: [{ id: "left", kind: "cut", label: "Left fighter", from: "A.body", need: "cut" },
+          { id: "right", kind: "cut", label: "Right fighter", from: "B.body", need: "cut" }],
+  fields: [{ id: "title", label: "Pill, dark half", def: "TALE OF THE TAPE" },
+           { id: "event", label: "Pill, white half", def: function (D) { return D.ev ? upper(D.ev.title) : (storyNow ? "" : "UFC 333"); } },
+           { id: "nameL", label: "Left name", def: function (D) { return lastOf(D.A, "VOLKANOVSKI"); } },
+           { id: "nameR", label: "Right name", def: function (D) { return lastOf(D.B, "EVLOEV"); } }],
+  rows: { label: "Stats", max: 8 },
+  draw: function () {
+    var S = W / 1080, tall = H > W * 1.1, th = gridTh(), ink = gridInk(th);
+    gridGround("VS", { ghostY: tall ? 0.6 : 0.66, ghostH: 0.55, grid: [W * 0.04, H * 0.1, W * 0.92, H * 0.74] });
+    var fw = (tall ? 0.16 : 0.145) * W, ft = (tall ? 0.15 : 0.13) * H;
+    gridHero("left", fw, 0.2 * W, ft, { seed: 11, label: "Left fighter", clip: [0, 0, W * 0.5, H], rows: 5 });
+    gridHero("right", fw, 0.8 * W, ft, { seed: 12, label: "Right fighter", clip: [W * 0.5, 0, W * 0.5, H], rows: 5 });
+    gridMelt(H * 0.66, H * 0.99, 1);
+    gridFinish();
+    var pb = gridPill(W / 2, H * 0.06, H * (tall ? 0.042 : 0.05), tx("title"), tx("event"), { maxW: W * 0.8 });
+    hit("text:title", "text", { r: [pb[0] - 10, pb[1] - 10, pb[2] / 2 + 10, pb[3] + 20] }, "Text");
+    hit("text:event", "text", { r: [pb[0] + pb[2] / 2, pb[1] - 10, pb[2] / 2 + 10, pb[3] + 20] }, "Text");
+    var rows = doc.rows && doc.rows.length ? doc.rows : tapeRows(D());
+    var y0 = H * (tall ? 0.16 : 0.15), y1 = H * (tall ? 0.8 : 0.79), n = Math.max(1, rows.length);
+    var rh = Math.min(H * 0.1, (y1 - y0) / n), lh = rh * 0.3, vs = rh * 0.44, colW = W * 0.13;
+    // one pill width for every row, so the numbers stand in two straight columns
+    setFont("pop", lh * 0.5, 0.08);
+    var lwAll = 0;
+    for (var j = 0; j < rows.length; j++) lwAll = Math.max(lwAll, g.measureText(upper(rows[j].label)).width + lh * 1.2);
+    for (var i = 0; i < rows.length; i++) {
+      var ry = y0 + i * rh + (y1 - y0 - rh * n) / 2, mid = ry + rh * 0.5;
+      // the label in a small dark pill, centred
+      setFont("pop", lh * 0.5, 0.08);
+      var lab = upper(rows[i].label), lw = lwAll, lw1 = g.measureText(lab).width;
+      g.save(); rr(W / 2 - lw / 2, mid - lh / 2, lw, lh, lh * 0.5); g.fillStyle = th.plate; g.fill(); g.restore();
+      g.fillStyle = "#FFFFFF"; g.fillText(lab, W / 2 - (lw1 - (LS_OK ? 0.08 * lh * 0.5 : 0)) / 2, mid + capOf("pop") * lh * 0.25);
+      if (LS_OK) g.letterSpacing = "0px";
+      [[rows[i].l, W / 2 - lw / 2 - W * 0.02, "right"], [rows[i].r, W / 2 + lw / 2 + W * 0.02, "left"]].forEach(function (v) {
+        var raw = String(v[0] || ""), best = raw.indexOf("*") !== -1, val = upper(plain(raw));
+        var T = fit(val, "pop8", [0, 0, colW, vs * 1.05], { max: vs, lines: 1, balance: false });
+        setFont("pop8", T.size, 0);
+        var tw = g.measureText(val).width, bx = v[2] === "right" ? v[1] - tw : v[1], base = mid + capOf("pop8") * T.size / 2;
+        if (best) {
+          var pp = T.size * 0.28;
+          g.save(); g.shadowColor = rgba(th.floor, 0.25); g.shadowBlur = 12 * S; g.shadowOffsetY = 3 * S;
+          rr(bx - pp, mid - capOf("pop8") * T.size / 2 - pp, tw + pp * 2, capOf("pop8") * T.size + pp * 2, pp * 0.9);
+          g.fillStyle = "#FFFFFF"; g.fill(); g.restore();
+          g.fillStyle = th.plate; g.fillText(val, bx, base);
+        } else {
+          if (ink === "#FFFFFF") shadowText(val, bx, base, T.size * 0.2, T.size * 0.05, 0.32);
+          g.fillStyle = ink; g.fillText(val, bx, base);
+        }
+      });
+    }
+    hit("rows", "rows", { r: [W * 0.3, y0, W * 0.4, y1 - y0] }, "Stats");
+    var nb = H * (tall ? 0.94 : 0.935), ns = H * (tall ? 0.07 : 0.08);
+    [["nameL", 0.24], ["nameR", 0.76]].forEach(function (q) {
+      var t = upper(plain(tx(q[0]))).trim(), s = ns;
+      setFont("pop8", s, -0.01);
+      var w = g.measureText(t).width;
+      if (w > W * 0.42) { s *= W * 0.42 / w; setFont("pop8", s, -0.01); w = g.measureText(t).width; }
+      if (ink === "#FFFFFF") shadowText(t, W * q[1] - w / 2, nb, s * 0.2, s * 0.05, 0.32);
+      g.fillStyle = ink; g.fillText(t, W * q[1] - w / 2, nb);
+      textHit(q[0], [W * q[1] - w / 2, nb - capOf("pop8") * s, w, capOf("pop8") * s]);
+    });
+    if (LS_OK) g.letterSpacing = "0px";
+  }
+});
+
 def({
   id: "pop", name: "Color pop", group: "Headlines", blurb: "Black and white fighter, his kit in color, one word",
   look: "pop", fighters: ["A", "B"],
@@ -8655,7 +9018,8 @@ function fillBoutSelect() {
 function fighterRow(s, t, w) {
   var P = doc.people[w];
   var lab = el("div", "lbl");
-  lab.appendChild(el("span", null, t.fighters.length > 1 ? (w === "A" ? "Fighter 1 (left, main)" : "Fighter 2 (right)") : "Fighter"));
+  lab.appendChild(el("span", null, t.fighters.length > 2 ? (w === "A" ? "Fighter 1 (main)" : w === "B" ? "Fighter 2 (left circle)" : "Fighter 3 (right circle)")
+    : t.fighters.length > 1 ? (w === "A" ? "Fighter 1 (left, main)" : "Fighter 2 (right)") : "Fighter"));
   s.appendChild(lab);
   var r = el("div", "row"), inp = el("input", "in");
   inp.placeholder = "Name, for example Islam Makhachev";
@@ -8685,7 +9049,7 @@ function slotRow(t, s) {
   var own0 = slotKey(s.id, t.id);
   if (own0 && assets[own0]) from = a && a.cut ? "Your cut-out" : a && cutOf(a) ? "Your photo (cut out once for the grade)" : cutBusy[a.key] ? "Your photo (cutting out...)" : "Your photo";
   else if (a && s.from) {
-    var P = s.from.charAt(0) === "A" || s.from.charAt(0) === "B" ? doc.people[s.from.charAt(0)] : null;
+    var P = "ABC".indexOf(s.from.charAt(0)) !== -1 ? doc.people[s.from.charAt(0)] : null;
     var own = /[.](body|head)$/.test(s.from);
     from = "From " + (own && P ? P.name : a.name || "the card") + (a.cut ? " (cut-out)" : "");
   }
@@ -9570,7 +9934,9 @@ var STORY_NEEDS = {
   official: ["A", "B", "bout"], whowins: ["A", "B"], countdown: ["A", "bout", "evSoon"], card: ["bouts"],
   andnew: ["A", "winA"], bigstat: ["A", "recordA"], form: ["A", "fightsA"], faceoff: ["A", "B"],
   headline: ["A"], pop: ["A"], split: ["A", "B"], cards: ["cards"], titlecards: ["A", "B", "ev"],
-  photocard: ["photo", "line"], mainevent: ["A", "B", "bout", "ev"]
+  photocard: ["photo", "line"], mainevent: ["A", "B", "bout", "ev"],
+  // Oct 3 2026: the crossout (owner reference "JANUARY") and the grid (Premier League) family
+  crossout: ["A", "headB"], gcross: ["A", "headB"], gpotm: ["A"], gtape: ["A", "B", "bioA", "bioB"]
 };
 // the word a headline template shouts when the story itself gives none
 var STORY_WORD = { title: "CHAMPION", retirement: "RETIRES", injury: "INJURED", withdrawal: "OUT", result: "WINS",
@@ -9595,6 +9961,8 @@ function storyKeepNamed(spec) {
   if ((A && !okA) || (B && !okB)) doc.bout = null;
   if (A && !okA) { if (okB) doc.people.A = B; else delete doc.people.A; delete doc.people.B; }
   else if (B && !okB) delete doc.people.B;
+  var C = doc.people.C;
+  if (C && (!storyNamed(C, spec) || !doc.people.B)) { if (!doc.people.B && storyNamed(C, spec)) doc.people.B = C; delete doc.people.C; }
 }
 // a big-word poster sets a name over a verb, so only when that person is the subject of that verb
 // in the line: "MCGREGOR ALLIES ARRESTED" must never become CONOR MCGREGOR / ARRESTED
@@ -9697,12 +10065,19 @@ function storyText(spec) {
   }
   var line = storyLine(spec);
   if (line) put("photocard", { title: line.replace(/[*]/g, ""), quote: q ? LQ + upper(q) + RQ : "" });
+  // Oct 3 2026: the editor's concept (the news job's AI desk) - the big word and the pill label
+  var big = upper(String(spec.big || "").replace(/[*]/g, "")).trim(), label = upper(String(spec.label || "").replace(/[*]/g, "")).trim();
+  put("crossout", { word: big || word });
+  put("gcross", { word: big || word, pillR: label || STORY_WORD[spec.kind] || "NEXT FIGHT" });
+  put("gpotm", { ghost: big || word, pillR: label || STORY_WORD[spec.kind] || "NEWS" });
+  if (big) put("headline", { word: big });
 }
 function storyHas(need, spec) {
   var A = doc.people.A, B = doc.people.B;
   switch (need) {
     case "A": return !!(A && A.body);
     case "B": return !!(B && B.body);
+    case "headB": return !!(B && B.head);
     case "fightsA": return !!(A && A.fights && A.fights.length >= 3);
     case "winsA": return !!(A && A.fights && A.fights.some(function (f) { return f.result === "win"; }));
     case "winsB": return !!(B && B.fights && B.fights.some(function (f) { return f.result === "win"; }));
@@ -9757,10 +10132,10 @@ function storyEvents(spec) {
 }
 function storyPeople(spec) {
   var ppl = (spec.people || []).filter(function (p) { return p && (p.slug || p.name); });
-  var jobs = [], which = ["A", "B"], w = 0;
+  var jobs = [], which = ["A", "B", "C"], w = 0;
   // one fighter per corner, first-named first; a name without a full athlete slug cannot be
   // looked up on its own (the page has no search), so it only counts through an event card
-  for (var i = 0; i < ppl.length && w < 2; i++) {
+  for (var i = 0; i < ppl.length && w < 3; i++) {
     if (!ppl[i].slug) continue;
     jobs.push((function (letter, p) {
       return loadFighter(letter, p.slug, true).then(function () { return true; }, function () { return false; });
@@ -9789,7 +10164,8 @@ function storyFill(spec) {
   storyReset();
   storyNow = { spec: spec, photoKey: null };
   applySize();
-  return storyEvents(spec).then(function (hit) {
+  var personLed = ["crossout", "rank", "quote"].indexOf(String(spec.concept || "")) !== -1;
+  return (personLed ? Promise.resolve(null) : storyEvents(spec)).then(function (hit) {
     if (!hit) return storyPeople(spec);
     return loadEvent(hit.slug, false).then(function () {
       if (!hit.bout) return spec.kind === "event" && evCard && evCard.fights && evCard.fights.length ? useBout(0) : storyPeople(spec);
@@ -9827,9 +10203,16 @@ function specFromStaged(p) {
   var st = p && p.story && typeof p.story === "object" ? p.story : null;
   if (!st) return null;
   var sp = { kind: st.kind, templates: st.templates || [], people: st.people || [], event: st.event || "", quote: st.quote || "",
-             line: p.line || "", hot: p.hot || [] };
+             line: p.line || "", hot: p.hot || [], concept: st.concept || "", big: st.big || "", label: st.label || "" };
   if (p.photo_kind === "photo" && p.photo_url) { sp.photo = p.photo_url; sp.photoKind = "photo"; }
   return sp;
+}
+// the story's people (subject and the ones the concept shows) that UFC.com did not give us
+function storyMissing(spec) {
+  var have = {};
+  ["A", "B", "C"].forEach(function (w) { var P = doc.people[w]; if (P && P.slug) have[P.slug] = 1; });
+  return (spec.people || []).filter(function (p) { return p && p.slug && !have[p.slug] && p.role !== "mentioned"; })
+    .map(function (p) { return p.name; }).slice(0, 3);
 }
 function showStoryBar(mid, ready, line) {
   var bar = $("storyBar");
@@ -9867,10 +10250,15 @@ function openStoryFromHash() {
     if (!sp) { toast(p ? "That post predates story templates. Pick a template and fill it by hand." : "That post is no longer in the studio channel."); return null; }
     return storyFill(sp).then(function (res) {
       var ready = res.ready || [];
-      var want = h.tpl && ready.indexOf(h.tpl) !== -1 ? h.tpl : (h.tpl && hasTpl(h.tpl) ? h.tpl : ready[0]);
+      // the concept's own template opens even when it is not ready (Oct 3 2026): its words are
+      // filled and the toast names whose photo is missing
+      var lead = (sp.templates || []).filter(hasTpl)[0] || "";
+      var want = h.tpl && ready.indexOf(h.tpl) !== -1 ? h.tpl : (h.tpl && hasTpl(h.tpl) ? h.tpl : (ready[0] || lead));
       if (want) setTpl(want);
       showStoryBar(h.mid, ready, sp.line);
-      toast(ready.length ? "Filled from the story: " + ready.length + " template" + (ready.length === 1 ? "" : "s") + " ready" : "The story's fighters could not be found on UFC.com. Fill this one by hand.");
+      var miss = storyMissing(sp);
+      toast(miss.length ? "Not on UFC.com: " + miss.join(", ") + ". Drop a photo on the empty slot." :
+        ready.length ? "Filled from the story: " + ready.length + " template" + (ready.length === 1 ? "" : "s") + " ready" : "The story's fighters could not be found on UFC.com. Fill this one by hand.");
     });
   }).catch(toastErr);
   return true;
