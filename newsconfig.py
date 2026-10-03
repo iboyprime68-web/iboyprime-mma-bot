@@ -229,9 +229,12 @@ def base_defaults():
         # Together, Mistral or OpenAI. "provider" picks one by name; empty
         # means auto, which takes the first of those with a key set (DeepSeek
         # first). "model" overrides that provider's default model.
-        # Thresholds are 0-100: at
-        # stage_threshold the story is rendered + staged in the studio channel,
-        # at ping_threshold the staged message also pings the owner.
+        # Thresholds are 0-100 on the EDITOR'S DESK scale (Oct 3 2026, see
+        # scorer.desk_score: four scales the model fills in, never its own
+        # number): at stage_threshold the story is rendered + staged in the
+        # studio channel, at ping_threshold the staged message also pings the
+        # owner. A solid ordinary story lands at 76; Morales ruling out Prates
+        # and Garry at 85; ESPN's under-30 list with Usman over Topuria at 92.
         #
         # The two per-day caps are the cost and volume control (owner, Aug
         # 2026: seven staged posts in one evening was a lot, and the AI bill
@@ -247,9 +250,10 @@ def base_defaults():
         # reached the news channel with a phone alert and never reached the
         # studio, because six ordinary stories had spent max_staged_per_day by
         # breakfast):
-        #   priority_threshold    heuristic score at which a story takes the
-        #                         hot lane instead. 0 leaves only the
-        #                         "it buzzed his phone" rule.
+        #   priority_threshold    desk score at which a story takes the hot
+        #                         lane instead (the keyword heuristic decided
+        #                         this until Oct 3 2026 and gave "retirement"
+        #                         chatter the lane). 0 turns the lane off.
         #   max_priority_staged_per_day   that lane's own budget, which routine
         #                         stories can never spend.
         #
@@ -265,10 +269,10 @@ def base_defaults():
         #   cutout_cooldown_days    one fighter's promo mugshot rests this long
         #   quiet_hours_utc         [start, end) UTC hours with NO owner ping
         #                           (the post still stages, silently)
-        "scoring": {"enabled": True, "stage_threshold": 70, "ping_threshold": 85,
-                    "provider": "", "model": "", "max_tokens": 220, "timeout": 20,
-                    "max_ai_calls_per_day": 400, "max_staged_per_day": 12,
-                    "max_priority_staged_per_day": 6, "priority_threshold": 80, "render_theme": "toxic",
+        "scoring": {"enabled": True, "stage_threshold": 80, "ping_threshold": 88,
+                    "provider": "", "model": "", "max_tokens": 900, "timeout": 20,
+                    "max_ai_calls_per_day": 400, "max_staged_per_day": 10,
+                    "max_priority_staged_per_day": 5, "priority_threshold": 88, "render_theme": "toxic",
                     "stage_max_age_hours": 36, "subject_cooldown_hours": 12,
                     "story_cooldown_hours": 72, "staged_similar": 0.5,
                     "cutout_cooldown_days": 7, "quiet_hours_utc": [21, 8]},
@@ -488,7 +492,7 @@ def validate_newsconfig(cfg, secret_values=()):
             problems.append("scoring priority_threshold must be a whole "
                             "number, not true/false (true reads as 1, which "
                             "puts every story in the lane)")
-            sc = dict(sc, priority_threshold=80)
+            sc = dict(sc, priority_threshold=88)
         try:
             if not (0 <= int(sc["priority_threshold"]) <= 100):
                 problems.append("scoring priority_threshold must be 0-100 "
