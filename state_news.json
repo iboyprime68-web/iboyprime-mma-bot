@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bb58b8e8ef1d9598": 1791008126.0614197,
     "4424be1dc42ed0ff": 1791008100.2460878,
     "28c5a5eac1ed2643": 1791008099.8614216,
     "4fc8db722083c606": 1791008075.161466,
@@ -2498,8 +2499,7 @@
     "e0217c3c62b68b7e": 1790376393.5383186,
     "cd2bdb78075b86d7": 1790376266.1583176,
     "4f5d0355659ea138": 1790376139.2996666,
-    "5c1dc13f58c8d8c0": 1790376074.31935,
-    "af7310ea358cc835": 1790376073.8317358
+    "5c1dc13f58c8d8c0": 1790376074.31935
   },
   "initialized": true,
   "v": 4,
@@ -4477,13 +4477,19 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-03T05:00:00+00:00",
       "cluster": "cf713d06e7a"
+    },
+    {
+      "t": "Video: Watch LFA's best fight finishes from September 2026",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-03T02:00:58+00:00",
+      "cluster": "c807fe45f2b"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T06",
-    5
+    6
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=511664",
