@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7689e8a798775d67": 1791039762.4174562,
     "305b97cfe0d8b8ea": 1791039737.6164646,
     "7bd8351cbc332a55": 1791039447.3504093,
     "ff04081b253be693": 1791039447.3485355,
@@ -2498,8 +2499,7 @@
     "2633c1e20b98b7e2": 1790441919.9858415,
     "5ca218cab82b9abd": 1790441894.130765,
     "d1230ad476a834a1": 1790441868.5261693,
-    "2cefc599b812bbce": 1790441842.6716409,
-    "d5247156aa7295d1": 1790430180.2650325
+    "2cefc599b812bbce": 1790441842.6716409
   },
   "initialized": true,
   "v": 4,
@@ -4699,6 +4699,12 @@
       "source": "MMA Fighting",
       "ts": "2026-10-03T02:30:19+00:00",
       "cluster": "ce14389c859"
+    },
+    {
+      "t": "24-fight UFC veteran with the longest winless streak in promotion history signs to BKFC",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-03T15:00:00+00:00",
+      "cluster": "cf9698c1bed"
     }
   ],
   "digest_items": [],
