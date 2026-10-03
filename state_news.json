@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f57aba178182f94f": 1791033427.1318743,
     "ceed14d6d73c6127": 1791033320.3603756,
     "4d5c6bb91a3adf61": 1791033294.8322399,
     "4a9a80130f6b13e7": 1791033168.0364575,
@@ -2498,8 +2499,7 @@
     "dc5856e25a9dabe0": 1790427086.7938468,
     "77621c11afb669ff": 1790427016.457824,
     "f31c324ff497801b": 1790426970.6127834,
-    "824efaca9bc82ad9": 1790426970.338479,
-    "dbc00ebc077031f9": 1790426945.81682
+    "824efaca9bc82ad9": 1790426970.338479
   },
   "initialized": true,
   "v": 4,
@@ -4621,13 +4621,19 @@
       "source": "MMANews.com",
       "ts": "2026-10-03T13:12:34+00:00",
       "cluster": "c6faa288c2b"
+    },
+    {
+      "t": "How to watch UFC 332: Natália Silva v Wang Cong UK ring walk, live stream and TV channel",
+      "source": "Radio Times",
+      "ts": "2026-10-03T13:00:20+00:00",
+      "cluster": "c307964f73c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T13",
-    8
+    9
   ],
   "yt_eval": [
     "https://bloodyelbow.com/?p=332994",
