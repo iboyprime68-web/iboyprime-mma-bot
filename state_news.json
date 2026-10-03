@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3bfcb521af445637": 1791032967.80792,
     "6686ed2de82a1865": 1791032840.601022,
     "9652c7a2d774d6ff": 1791032775.9720821,
     "96f07dfd36bee623": 1791032775.9705763,
@@ -2498,8 +2499,7 @@
     "bc818b743619a816": 1790410142.2997308,
     "9a8e05014e86c319": 1790410142.299087,
     "0104f2ba5e06423a": 1790410142.2983088,
-    "939a79bd417c964f": 1790410008.3475645,
-    "f339f63848244162": 1790409878.3414373
+    "939a79bd417c964f": 1790410008.3475645
   },
   "initialized": true,
   "v": 4,
@@ -2533,12 +2533,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-01T15:00:00+00:00",
       "cluster": "c01d95d61ea"
-    },
-    {
-      "t": "Open Thread, October 1, 2026: It’s Fall! Come on in and chat",
-      "source": "MMA Mania",
-      "ts": "2026-10-01T13:08:47+00:00",
-      "cluster": "cc141ef4043"
     },
     {
       "t": "The mark of the ‘God of War’ @Daico_Deiveson plans to impress in the co-main event at #UFC332! [ OCT 3 | LIVE at 8pmET on @ParamountPlus and @CBS ]",
@@ -4609,13 +4603,19 @@
       "source": "theScore",
       "ts": "2026-10-03T12:56:50+00:00",
       "cluster": "cc1071ff41f"
+    },
+    {
+      "t": "MMA Junkie's Fight of the Month for September: A flyweight title classic",
+      "source": "sports.yahoo.com",
+      "ts": "2026-10-03T13:03:01+00:00",
+      "cluster": "cba8d2c8a5a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T13",
-    5
+    6
   ],
   "yt_eval": [
     "https://www.mmafighting.com/?p=511744",
