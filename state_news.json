@@ -1,5 +1,6 @@
 {
   "seen": {
+    "11ed06b4dfc1c4e4": 1791050337.885118,
     "d5a0b123dc7095ec": 1791050312.6777625,
     "c138b67bda69eca7": 1791050312.6459455,
     "94cfb692caefe606": 1791047129.582335,
@@ -2498,8 +2499,7 @@
     "cc5907f30bccd5d7": 1790452823.1629086,
     "afb5d8a5398eddfd": 1790452511.2700226,
     "01dc702edd8ed3cf": 1790452511.2688217,
-    "412edb05c0ea6c7e": 1790452447.3868732,
-    "8fb30c0cd7e15d8e": 1790452447.3861856
+    "412edb05c0ea6c7e": 1790452447.3868732
   },
   "initialized": true,
   "v": 4,
@@ -4669,6 +4669,12 @@
       "source": "wrestling-world.com",
       "ts": "2026-10-03T17:00:59+00:00",
       "cluster": "c3e4ca4f71e"
+    },
+    {
+      "t": "Ex-PFL star lands a brutal walk-off KO with one punch to become a welterweight MMA champion",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-03T17:30:00+00:00",
+      "cluster": "ca3e417c13c"
     }
   ],
   "digest_items": [],
