@@ -1,5 +1,7 @@
 {
   "seen": {
+    "19948b26b06c5d49": 1791029379.0158541,
+    "3643d126d29ad3f5": 1791029378.684978,
     "4cfcf0f234702e2e": 1791029311.7837896,
     "a81f9f09153b4236": 1791029244.1688063,
     "471f9a1d2c7eaf3a": 1791029243.8498142,
@@ -2497,9 +2499,7 @@
     "fc8b6572a6682d0b": 1790388359.05368,
     "fe7116bb8e7305a8": 1790388358.8676696,
     "b18908aac9446ec4": 1790388358.8369887,
-    "bd7e494f7b69c20c": 1790388293.2936673,
-    "02425ea702da0e0e": 1790388167.9681108,
-    "fdf5d33110b1407a": 1790388043.658341
+    "bd7e494f7b69c20c": 1790388293.2936673
   },
   "initialized": true,
   "v": 4,
@@ -4543,13 +4543,19 @@
       "source": "Yahoo News New Zealand",
       "ts": "2026-10-03T11:49:15+00:00",
       "cluster": "c78c2e2a284"
+    },
+    {
+      "t": "Patricio Pitbull still believes he can go on a UFC title run",
+      "source": "BJPenn.com",
+      "ts": "2026-10-03T11:54:26+00:00",
+      "cluster": "cfa60705867"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T12",
-    12
+    13
   ],
   "yt_eval": [
     "CBMiugFBVV95cUxOZWhzbDN1dVRES0V6OGQ2VXd1VDVqek95Mkt5SG5fbjg5OFdibjJ4b3hzUTVmUFllQkVzSU41Z19XN0Q2dUZtZlNvMFp0Mm1IVy1aWkRLeWVMUFZmZGdtLWZzeXdHYS1FNURmTmg0bmRUNnJiQkE4WG5OTGRncXFndk1XWEdSblhtSTNUTGtzZWtiTDhsWGNDdUZzRXJIc2M5dTF3bFdMS0hfTlVnV0M5XzBjd0FNNzZ2cnc",
