@@ -1,5 +1,7 @@
 {
   "seen": {
+    "6cd5fa83651a28ca": 1791061305.2640812,
+    "028351a0f6bbaf53": 1791061305.2511196,
     "8f2fb412e183a313": 1791061239.5812848,
     "29a6a3acfab69a1a": 1791061239.56687,
     "914aa56813261ad7": 1791061212.881334,
@@ -2497,9 +2499,7 @@
     "e111ce00f9c953ef": 1790465258.3049326,
     "06df3605c852ec44": 1790465257.3420064,
     "b081bb8464e4054b": 1790465257.3146603,
-    "c935abab093900ad": 1790465192.85953,
-    "42e2f205f1aae0da": 1790465192.8573701,
-    "80e2c71ec98099f5": 1790465126.0278423
+    "c935abab093900ad": 1790465192.85953
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "MMA Mania",
       "ts": "2026-10-01T21:15:28+00:00",
       "cluster": "c933baa890a"
-    },
-    {
-      "t": "Pereira's Next Fight To Be Announced During UFC 332",
-      "source": "boxingnews.com",
-      "ts": "2026-10-01T21:00:41+00:00",
-      "cluster": "c23db77a029"
     },
     {
       "t": "UFC Adds Lightweight Scrap for UFC 334 in New York",
@@ -4903,6 +4897,12 @@
       "source": "大分トリニータオフィシャルサイト",
       "ts": "2026-10-03T20:51:33+00:00",
       "cluster": "c40ebeedfe3"
+    },
+    {
+      "t": "@?+[LIVESTREAM!!!] Natalia Silva Fight Live Free UFC 332 Main Card Coverage",
+      "source": "大分トリニータオフィシャルサイト",
+      "ts": "2026-10-03T20:52:17+00:00",
+      "cluster": "cc01c03b579"
     }
   ],
   "digest_items": [],
