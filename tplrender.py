@@ -47,7 +47,10 @@ STORY_TIMEOUT = 150.0           # seconds for the story fill (event card, fighte
 PNG_TIMEOUT = 150.0             # seconds for ONE template export (exact grades)
 JOB_BUDGET = 480.0              # the whole render, so render.yml's timeout never fires
 CHROME_CANDIDATES = ("google-chrome", "google-chrome-stable", "chromium", "chromium-browser", "chrome")
-SPEC_KEYS = ("kind", "templates", "people", "event", "quote", "line", "hot", "source", "photo")
+# Oct 3 2026: + the editor's concept, big word and banner label (the page fills the crossout
+# and grid templates from them)
+SPEC_KEYS = ("kind", "templates", "people", "event", "quote", "line", "hot", "source", "photo",
+             "concept", "big", "label")
 TPL_ID = re.compile(r"^[a-z0-9]{2,20}$")
 
 
