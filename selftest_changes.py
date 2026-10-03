@@ -1188,10 +1188,11 @@ import memes_bot
 # ───────────────────────── 4b. the memes bot (Oct 3 2026) ─────────────────
 # It had NEVER posted: Reddit has answered its unauthenticated top.json with 403
 # since late May 2026, and every run exited 0, so nothing went red and
-# state_memes.json was never created. Measured from a runner: a public Reddit
-# relay (meme-api.com) and Lemmy both answer; Reddit RSS dies Nov 13 2026 and new
-# Reddit OAuth apps need Reddit's approval. The bot reads the relay + Lemmy,
-# UPLOADS the image, posts at most two a UTC day, and stays silent.
+# state_memes.json was never created. It reads r/MMAmemes through a public Reddit
+# relay (meme-api.com), UPLOADS the image, posts at most two a UTC day, silently.
+# The owner's rules from the same evening: MMA memes ONLY (a general r/memes post
+# "didn't make any sense"), and the bot says NOTHING ("😂 <title>" read like the
+# bot itself talking).
 print("\n[memes]")
 import io as _mm_io, contextlib as _mm_ctx
 _mm_prev = (common.get_json, common.post_file, common.now_utc, memes_bot.fetch_image)
@@ -1207,14 +1208,6 @@ def _mm(pid, title, ups, url=None, nsfw=False, spoiler=False):
     return {"postLink": "https://redd.it/" + pid, "subreddit": "x", "title": title,
             "url": url or "https://i.redd.it/%s.png" % pid, "nsfw": nsfw,
             "spoiler": spoiler, "author": "a", "ups": ups, "preview": []}
-
-
-def _lp(pid, title, score, nsfw=False, comm_nsfw=False, removed=False):
-    return {"post": {"id": pid, "name": title, "body": "",
-                     "url": "https://lemmy.world/pictrs/image/%s.webp" % pid,
-                     "url_content_type": "image/webp", "nsfw": nsfw, "removed": removed,
-                     "deleted": False, "ap_id": "https://lemmy.world/post/%s" % pid},
-            "community": {"nsfw": comm_nsfw}, "counts": {"score": score}}
 
 
 def _mm_get_json(url, headers=None, tries=4, timeout=30):
@@ -1255,39 +1248,46 @@ def _mm_ok_posts():
     return [p for p in _MM_POSTS if p["ok"]]
 
 
+def _mm_titles(out):
+    """Which memes a run posted, by title, from the bot's own log line. The posts
+    carry no text any more, so the log is where a title shows."""
+    return [l.split(" - ", 1)[1] for l in out.splitlines() if l.startswith("posted meme:")]
+
+
 common.get_json, common.post_file = _mm_get_json, _mm_post_file
 common.now_utc = lambda: _MM_DAY[0]
 memes_bot.fetch_image = _mm_fetch
 STORE.clear()
+# Every post the filters must stop outscores every post they let through, so a
+# filter that stops working changes WHICH memes post, not just how many.
 _MM_FEEDS.update({
-    "gimme/MMAmemes/": (200, {"count": 5, "memes": [
+    "gimme/MMAmemes/": (200, {"count": 13, "memes": [
         _mm("n1", "Spicy one", 9000, nsfw=True), _mm("s1", "Spoiler one", 8000, spoiler=True),
+        _mm("g1", "I Identify as a gambler", 7000), _mm("r1", "Islam joke", 6000),
+        _mm("x1", "So horny right now", 5000), _mm("v1", "A video", 4800, url="https://v.redd.it/abc"),
+        None, 5, {"title": 7},
         _mm("m1", "Certified hood classic", 1722, url="https://i.redd.it/m1.jpg"),
-        _mm("m2", "Second MMA meme", 900), _mm("lo", "Low score", 20)]}),
-    "gimme/dankmemes/": (200, {"count": 5, "memes": [
-        _mm("g1", "I Identify as a gambler", 99999), _mm("r1", "Islam joke", 88888),
-        _mm("x1", "So horny right now", 77777),
-        _mm("d1", "Pretty handy", 4744, url="https://i.redd.it/d1.gif"),
-        _mm("v1", "A video", 60000, url="https://v.redd.it/abc")]}),
-    "gimme/memes/": (503, None),
-    "gimme/meirl/": (200, "not a dict"),
-    "gimme/funny/": (200, {"memes": [None, 5, {"title": 7}]}),
-    "community_name=memes@lemmy.world": (200, {"posts": [
-        _lp(1, "Lemmy pick", 863), _lp(2, "Lemmy nsfw", 999, nsfw=True),
-        _lp(3, "Lemmy nsfw community", 999, comm_nsfw=True),
-        _lp(4, "Lemmy removed", 999, removed=True)]}),
-    "community_name=memes@sopuli.xyz": (200, {"posts": []}),
-    "community_name=funny@sh.itjust.works": "raise",
+        _mm("m2", "Second MMA meme", 900, url="https://i.redd.it/m2.gif"),
+        _mm("m3", "Third MMA meme", 400), _mm("lo", "Low score", 149)]}),
+    # a general subreddit, answering perfectly: it must never even be asked
+    "gimme/memes/": (200, {"count": 1, "memes": [_mm("j1", "malfoid meme", 27808)]}),
 })
-_MM_IMGS["https://i.redd.it/d1.gif"] = _MM_GIF
+_MM_IMGS["https://i.redd.it/m2.gif"] = _MM_GIF
 _mm_out = _mm_run()
-_mm_c = [p["content"] for p in _mm_ok_posts()]
-check("a run posts two memes: the MMA lane first, then the best general meme",
-      _mm_c == ["😂 Certified hood classic", "😂 Pretty handy"])
+check("a run posts the two best fresh r/MMAmemes posts, best first",
+      _mm_titles(_mm_out) == ["Certified hood classic", "Second MMA meme"])
+check("MMA memes ONLY: r/MMAmemes is the one source read, and a general meme never posts "
+      "(the owner's rule, Oct 3 2026: the r/memes JK Rowling post made no sense)",
+      _MM_URLS and all("gimme/MMAmemes/" in u for u in _MM_URLS)
+      and [s for s, _f in memes_bot.SOURCES] == ["MMAmemes"]
+      and "malfoid meme" not in _mm_titles(_mm_out))
+check("the bot says NOTHING: a post is the meme alone, no line of text in its voice "
+      "(the owner's rule: '😂 <title>' read like the bot was a person)",
+      _MM_POSTS and all(p["content"] == "" for p in _MM_POSTS)
+      and all(set(p["embeds"][0]) == {"image", "color", "footer"} for p in _MM_POSTS))
 check("meme posts are SILENT", _MM_POSTS and all(p["silent"] for p in _MM_POSTS))
 check("meme posts can ping nobody (allowed_mentions left to post_file's NO_PINGS default)",
       all(p["mentions"] is None for p in _MM_POSTS))
-check("meme content is plain text", _mm_c[:1] == ["😂 Certified hood classic"])
 check("the image is UPLOADED and shown inside the embed, never hotlinked",
       all(p["embeds"][0]["image"]["url"] == "attachment://" + p["filename"]
           for p in _MM_POSTS))
@@ -1298,19 +1298,15 @@ check("the upload carries exactly the downloaded bytes",
       and _MM_POSTS[1]["data"] == _MM_GIF)
 check("the temp files are removed after the upload",
       not any(os.path.exists(p["path"]) for p in _MM_POSTS))
-check("the footer credits the source",
-      [p["embeds"][0]["footer"]["text"] for p in _MM_POSTS] == ["via r/MMAmemes", "via r/dankmemes"])
-check("NSFW- and spoiler-flagged posts never post (Reddit relay AND Lemmy, post AND community flag)",
-      not any(w in " ".join(_mm_c) for w in ("Spicy", "Spoiler", "Lemmy nsfw", "Lemmy removed")))
+check("the small print credits the source",
+      [p["embeds"][0]["footer"]["text"] for p in _MM_POSTS] == ["via r/MMAmemes"] * 2)
+check("NSFW-, spoiler-flagged and video posts never post, however high they score",
+      not set(_mm_titles(_mm_out)) & {"Spicy one", "Spoiler one", "A video"})
 check("religion terms, sexual words and gambling never post, however high they score",
-      not any(w in " ".join(_mm_c) for w in ("gambler", "Islam", "horny")))
-check("a video link and a post under its source's score floor never post",
-      "A video" not in " ".join(_mm_c) and "Low score" not in " ".join(_mm_c))
+      not set(_mm_titles(_mm_out)) & {"I Identify as a gambler", "Islam joke", "So horny right now"})
 _mm_st = STORE["state_memes.json"]
-check("a dead, junk or crashing source is logged and the run carries on",
-      _mm_st["sources"]["r/memes"] == "HTTP 503" and _mm_st["sources"]["r/meirl"] == "HTTP 200"
-      and _mm_st["sources"]["funny@sh.itjust.works"].startswith("error")
-      and _mm_st["sources"]["r/MMAmemes"] == "5 candidates")
+check("junk entries in a good reply are skipped, never fatal (two are not even dicts)",
+      _mm_st["sources"] == {"r/MMAmemes": "11 candidates"})
 check("state is v2 and counts the day's memes",
       _mm_st["v"] == 2 and _mm_st["day"] == {"d": "2026-10-03", "n": 2}
       and len(_mm_st["seen"]) == 6)
@@ -1323,10 +1319,9 @@ check("at most two a UTC day: a second run the same day posts nothing and reads 
 
 _MM_DAY[0] += common.datetime.timedelta(days=1)
 _mm_out = _mm_run()
-check("a new UTC day posts again and repeats nothing; Lemmy fills the general lane "
-      "when the relay has nothing fresh",
-      [p["content"] for p in _mm_ok_posts()] == ["😂 Second MMA meme", "😂 Lemmy pick"]
-      and _MM_POSTS[-1]["embeds"][0]["footer"]["text"] == "via memes@lemmy.world")
+check("a new UTC day posts the next best and repeats nothing; a post under the upvote "
+      "floor never posts, even with room left",
+      _mm_titles(_mm_out) == ["Third MMA meme"] and "below the bar 1" in _mm_out)
 
 # A crosspost keeps the image url under a new post id; a re-upload keeps the BYTES.
 _MM_DAY[0] += common.datetime.timedelta(days=1)
@@ -1338,7 +1333,7 @@ _MM_FEEDS["gimme/MMAmemes/"] = (200, {"count": 3, "memes": [
 _MM_IMGS["https://i.redd.it/m8.png"] = _MM_PNG + b"https://i.redd.it/m1.jpg"
 _mm_out = _mm_run()
 check("the same meme never posts twice: not as a crosspost (same url), not re-uploaded (same bytes)",
-      [p["content"] for p in _mm_ok_posts()] == ["😂 Fresh one"])
+      _mm_titles(_mm_out) == ["Fresh one"])
 
 _MM_DAY[0] += common.datetime.timedelta(days=1)
 _MM_POSTS[:] = []
@@ -1356,7 +1351,7 @@ _MM_POST_CODE[0] = 200
 _MM_POSTS[:] = []
 _mm_out = _mm_run()
 check("an image that will not download, or is not an image, is skipped for the next one",
-      [p["content"] for p in _mm_ok_posts()][:1] == ["😂 Works"])
+      _mm_titles(_mm_out) == ["Works"])
 
 # The real downloader: bounded read, and the bytes must be a raster image.
 class _MMResp(object):
@@ -1378,16 +1373,21 @@ memes_bot.urllib.request.urlopen = _mm_urlopen
 
 _MM_DAY[0] += common.datetime.timedelta(days=1)
 _MM_POSTS[:] = []
-for _mm_frag in list(_MM_FEEDS):
-    _MM_FEEDS[_mm_frag] = (403, None)
-_mm_out = _mm_run()
-check("every source down: no crash, no post, and a ::warning:: annotation (never a red run)",
-      not _MM_POSTS and "::warning::memes: every source failed" in _mm_out)
+_mm_dead = {}
+for _mm_reply, _mm_label in (((403, None), "HTTP 403"), ((200, "not a dict"), "HTTP 200"),
+                             ("raise", "error ValueError")):
+    _MM_FEEDS["gimme/MMAmemes/"] = _mm_reply
+    _mm_out = _mm_run()
+    _mm_dead[_mm_label] = ("::warning::memes: every source failed" in _mm_out
+                           and STORE["state_memes.json"]["sources"]["r/MMAmemes"] == _mm_label)
+check("the source down, answering junk or raising: no crash, no post, and a ::warning:: "
+      "annotation naming why (never a red run)",
+      not _MM_POSTS and all(_mm_dead.values()) and len(_mm_dead) == 3)
 
 _MM_DAY[0] += common.datetime.timedelta(days=4)
-_MM_FEEDS["gimme/dankmemes/"] = (200, {"count": 1, "memes": [_mm("g2", "Parlay hit", 99999)]})
+_MM_FEEDS["gimme/MMAmemes/"] = (200, {"count": 1, "memes": [_mm("g2", "Parlay hit", 99999)]})
 _mm_out = _mm_run()
-check("sources answering but nothing posting for days raises a ::warning:: too",
+check("the source answering but nothing posting for days raises a ::warning:: too",
       not _MM_POSTS and "nothing has posted for" in _mm_out)
 # The old bot's exact failure: it never posted once. A state that has never seen a
 # post must warn as well, counted from its first run.
@@ -1402,6 +1402,7 @@ check("a bot that has NEVER posted warns too, counted from its first run",
 
 check("blocked_reason: modesty and gambling words block, ordinary words do not",
       memes_bot.blocked_reason("So sexy") == "modesty"
+      and memes_bot.blocked_reason("Van calls Kape Titty Boi") == "modesty"
       and memes_bot.blocked_reason("Bro hit the parlay") == "gambling"
       and memes_bot.blocked_reason("The prophet of doom") == "blocklist"
       and all(memes_bot.blocked_reason(t) == "" for t in (
@@ -1420,9 +1421,12 @@ check("a junk state file or a v1 id list never crashes the run",
       == {memes_bot._k("reddit:abc"): 0})
 _mm_src = open(os.path.join(_SRC, "memes_bot.py"), encoding="utf-8").read()
 _mm_yml = open(os.path.join(_SRC, ".github", "workflows", "memes.yml"), encoding="utf-8").read()
+_mm_code = _mm_src.split('"""', 2)[2]
 check("the bot no longer calls Reddit's blocked JSON, and needs no secret but the Discord token",
-      "top.json" not in _mm_src.split('"""', 2)[2] and "reddit.com" not in _mm_src.split('"""', 2)[2]
+      "top.json" not in _mm_code and "reddit.com" not in _mm_code
       and _mm_yml.count("secrets.") == 1 and "secrets.DISCORD_BOT_TOKEN" in _mm_yml)
+check("no general meme source is left anywhere in the code (dankmemes, meirl, funny, Lemmy)",
+      not any(w in _mm_code.lower() for w in ("dankmemes", "meirl", '"funny"', "lemmy")))
 common.get_json, common.post_file, common.now_utc, memes_bot.fetch_image = _mm_prev
 STORE.clear()
 
