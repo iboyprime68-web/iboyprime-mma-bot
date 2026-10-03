@@ -708,7 +708,14 @@ def main():
                                                            it["source"], cat, scfg,
                                                            state, today, ctx=ctx, confirm=True)
                     if res2:
-                        print("  yt: second pass %d -> %d: %s" % (score, res2["score"], it["title"][:60]))
+                        print("  yt: second pass %d -> %d%s: %s" % (score, res2["score"],
+                              " (cut short, verdict salvaged)" if res2.get("partial") else "", it["title"][:60]))
+                        # the second VERDICT counts; a poster field it left empty (a reply cut
+                        # short by its token cap keeps only the verdict) comes from the fast pass
+                        for _k in ("line", "hot", "kind", "concept", "main", "others", "big",
+                                   "label", "quote", "caption", "ask"):
+                            if not res2.get(_k) and res.get(_k):
+                                res2[_k] = res[_k]
                         res, score = res2, res2["score"]
                     elif score < unconf:
                         print("  yt: no second verdict (%d < %d): %s" % (score, unconf, it["title"][:60]))
