@@ -1,5 +1,7 @@
 {
   "seen": {
+    "086663950a80f84e": 1790986691.4440658,
+    "0b731da723a6abc9": 1790986691.174922,
     "238edd4b0337ced5": 1790986666.442086,
     "c1caca35f85ab7d1": 1790986641.8868814,
     "aee9e1dac8087788": 1790986610.9336076,
@@ -2497,9 +2499,7 @@
     "132cc00eda59a01b": 1790362196.9646304,
     "d9c06be5d589bc05": 1790362131.7120807,
     "bc1fe62a43762ff0": 1790362131.2266283,
-    "2be03c7f442f3828": 1790362131.2211359,
-    "730f19fc21b227d3": 1790362065.754824,
-    "c16dccbd64abc755": 1790362065.4722087
+    "2be03c7f442f3828": 1790362131.2211359
   },
   "initialized": true,
   "v": 4,
@@ -4429,13 +4429,19 @@
       "source": "MMA Fighting",
       "ts": "2026-10-02T22:47:00+00:00",
       "cluster": "cbf911b112a"
+    },
+    {
+      "t": "Analyst could see Ronda Rousey being Dana White's successor as 'UFC face job'",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-02T22:01:34+00:00",
+      "cluster": "c4c260c063e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T00",
-    3
+    4
   ],
   "yt_eval": [
     "CBMiekFVX3lxTFBPNnh0eklHTjdiOXhFVW5NbnVKcjJ0dTFNQi1lSFNWRFpwOV9fZXB5NGZXbzFlMTlYRTEzQjFWdnBvYkdXdHJfRnRMVzEyR1hoV2FmWC1YbkVCNzVnM0E1Ull2UFB0OU9iaWZudklZWUNaUmI3R3o5V19n",
