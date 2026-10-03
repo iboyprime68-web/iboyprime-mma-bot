@@ -1,5 +1,6 @@
 {
   "seen": {
+    "56a7e9d887fe86bc": 1790986715.547276,
     "086663950a80f84e": 1790986691.4440658,
     "0b731da723a6abc9": 1790986691.174922,
     "238edd4b0337ced5": 1790986666.442086,
@@ -2498,8 +2499,7 @@
     "073bdef8d35bce58": 1790362325.3805366,
     "132cc00eda59a01b": 1790362196.9646304,
     "d9c06be5d589bc05": 1790362131.7120807,
-    "bc1fe62a43762ff0": 1790362131.2266283,
-    "2be03c7f442f3828": 1790362131.2211359
+    "bc1fe62a43762ff0": 1790362131.2266283
   },
   "initialized": true,
   "v": 4,
@@ -4435,13 +4435,19 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-02T22:01:34+00:00",
       "cluster": "c4c260c063e"
+    },
+    {
+      "t": "Video: Wang Cong taunts Natalia Silva at final face-off before UFC 332",
+      "source": "MMA Fighting",
+      "ts": "2026-10-02T22:52:31+00:00",
+      "cluster": "cedbc500ee5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
     "2026-10-03T00",
-    4
+    5
   ],
   "yt_eval": [
     "CBMiwwFBVV95cUxPclBZYkZSZ2d5YmlqaXRnUjNZVEYtNWwydFk4TlZQNFVOVUcwVHByaTdxRHF2SkNJa0NMS3lzQjdUY0cxR1NDZ2VKSzg4V056RDk4UnJ0LWpZX1o2dmI2cGl6R0s2bXFwNEZQZ1BWTVduRUtlMU90QlhOekVmN2FaSHpTQjh4eTVVaG8yal85NGZPVjRmcmg5ejNfUVZ2YlhpZlRoeU5MRjRUTVVxalYtLWoyeUczTlBSZGhkeEtSblRpSFk",
