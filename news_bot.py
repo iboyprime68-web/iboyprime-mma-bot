@@ -386,6 +386,13 @@ def digest_due(now, times_utc, last_stamp):
     return due if (due and due != last_stamp) else None
 
 
+def post_channel(cfg):
+    """True when stories are posted to the news channel. newsconfig post_news_channel
+    (False since Oct 3 2026: the owner uses the studio only). Anything but a real False
+    keeps posting, so a junk value never silences the channel by accident. Pure."""
+    return (cfg or {}).get("post_news_channel", True) is not False
+
+
 def window_for(now, cron_minute=CRON_MINUTE, guard=GUARD_SECONDS):
     """How long this job may poll for.
 
@@ -905,8 +912,9 @@ def main():
             newest = sorted(keepers, key=lambda x: x["when"], reverse=True)[:SEED_POST]
             for it in sorted(newest, key=lambda x: x["when"]):
                 content, embeds, mentions, cat = build_message(it, cfg, False, None)
-                common.post_message(chan, content, allowed_mentions=mentions,
-                                    embeds=embeds, silent=(mode != "realtime"))
+                if post_channel(cfg):
+                    common.post_message(chan, content, allowed_mentions=mentions,
+                                        embeds=embeds, silent=(mode != "realtime"))
                 remember(it, cat)
             for it in fresh:                   # mark the rest seen so we don't back-dump later
                 seen.add(it["guid"])
@@ -947,6 +955,16 @@ def main():
             stage_queue.append(job)
             if mode == "digest" and not breaking:
                 seen.add(it["guid"]); remember(it, cat); queue_digest(it, cat); queued += 1
+                continue
+            # STUDIO ONLY (Oct 3 2026, the owner's choice: "I don't ever use the news section...
+            # I care about the YouTube posts"). Every source is still read and every story still
+            # judged for the studio (the job above is queued), and it is remembered exactly as a
+            # posted story is, so the dedupe memory and the staging gates see it; only the
+            # channel post - and with it the news-channel phone alert - is gone. The studio's
+            # own ping (desk score 88+) still reaches him.
+            if not post_channel(cfg):
+                seen.add(it["guid"]); remember(it, cat); posted += 1
+                print("judged (studio only): %s - %s" % (it["source"], it["title"][:70]))
                 continue
             # THE HOURLY CAP IS GONE (Sept 2026). It read
             #     if not breaking and hour[1] >= cap: ... queue_digest(); continue
