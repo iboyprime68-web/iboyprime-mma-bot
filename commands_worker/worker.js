@@ -3388,6 +3388,12 @@ const PROBE_FEEDS = Object.freeze([
   // site answers Cloudflare's IPs with the same user agent the template routes send
   ["ufc_athlete",     "https://www.ufc.com/athlete/sean-strickland", "ua"],
   ["ufc_events",      "https://www.ufc.com/events", "ua"],
+  // Oct 3 2026: r/MMA as a free stand-in for X (the community reposts X scoops); Reddit blocks
+  // many datacenter IPs, so this proves whether Cloudflare's can read it
+  ["reddit_mma_rss",     "https://www.reddit.com/r/MMA/new/.rss?limit=25"],
+  ["reddit_mma_rss_ua",  "https://www.reddit.com/r/MMA/new/.rss?limit=25", "ua"],
+  ["reddit_mma_old_rss", "https://old.reddit.com/r/MMA/new/.rss?limit=25", "ua"],
+  ["reddit_mma_json",    "https://www.reddit.com/r/MMA/new.json?limit=25", "ua"],
 ]);
 async function newsEgressProbe(env, url) {
   if (!env.NEWS_PROBE_KEY) return new Response("not found", { status: 404 });
@@ -3626,6 +3632,84 @@ async function headText(resp, max) {
   } finally { try { await reader.cancel(); } catch (e) { /* already closed */ } }
   return out.slice(0, max);
 }
+// THE FREE X STAND-IN (Oct 3 2026). The owner will not pay for X data, and there is no free,
+// legitimate way to read X accounts: the API's free tier cannot read, the embed endpoints answer
+// 429, nitter is gone, and the scoop accounts are not on Bluesky. What IS free: r/MMA and r/ufc,
+// whose members repost the X scoops (the Morales post reached r/MMA linking to x.com/ChampRDS).
+// Their RSS answers Cloudflare (the JSON answers 403). Only posts that LINK TO AN X POST are
+// kept; each becomes a buffer post under the original account, with the tweet's own id (so the
+// same tweet from two subreddits - or from SocialData, if it is ever paid for - is one post) and
+// the tweet's own time (read from the id: a snowflake carries its timestamp).
+const REDDIT_FEEDS = Object.freeze(["https://www.reddit.com/r/MMA/new/.rss?limit=50",
+                                    "https://www.reddit.com/r/ufc/new/.rss?limit=50"]);
+const REDDIT_UA = "Mozilla/5.0 (compatible; iboyprime-newsbot/1.0)";
+const REDDIT_MAX_AGE_MS = 24 * 3600 * 1000;    // an old tweet reposted today is not news
+const REDDIT_SEEN_CAP = 400;
+const X_STATUS_IN_HTML = /href="https:\/\/(?:mobile\.)?(?:x|twitter)\.com\/([A-Za-z0-9_]{1,15})\/status(?:es)?\/([0-9]{5,25})/;
+// XML text -> plain text (one level of entities; Reddit's content HTML is escaped twice)
+function xmlText(v) {
+  return String(v == null ? "" : v).replace(/<!\[CDATA\[|\]\]>/g, "")
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"')
+    .replace(/&#0?39;/g, "'").replace(/&#32;/g, " ").replace(/&amp;/g, "&");
+}
+// PURE: a tweet id -> its creation time in ms (0 for junk)
+function tweetTime(id) {
+  try { return Number((BigInt(String(id)) >> 22n) + 1288834974657n); } catch (e) { return 0; }
+}
+// PURE: a subreddit's RSS -> buffer posts for the entries that link to an X post
+function redditXPosts(xml, now, sub) {
+  const out = [], seen = {};
+  const re = /<entry>([\s\S]*?)<\/entry>/g;
+  let m;
+  while ((m = re.exec(String(xml || ""))) !== null) {
+    const e = m[1];
+    const tm = /<title>([\s\S]*?)<\/title>/.exec(e), cm = /<content[^>]*>([\s\S]*?)<\/content>/.exec(e);
+    if (!tm || !cm) continue;
+    const x = X_STATUS_IN_HTML.exec(xmlText(cm[1]));
+    if (!x || x[1].toLowerCase() === "i" || seen[x[2]]) continue;
+    const handle = x[1], id = x[2], ts = tweetTime(id);
+    if (!ts || now - ts > REDDIT_MAX_AGE_MS || ts - now > 3600000) continue;
+    const text = xmlText(xmlText(tm[1])).replace(/\s+/g, " ").trim().slice(0, X_TEXT_MAX);
+    if (!text) continue;
+    seen[id] = 1;
+    out.push({ id, handle, text, ts, at: now, url: "https://x.com/" + handle + "/status/" + id, media: "", via: "r/" + sub });
+  }
+  return out;
+}
+// one turn: this minute's subreddit (they take turns), its new X-linked posts into the buffer.
+// The first look at a subreddit only seeds: what is on it when watching starts is not news.
+async function redditTick(stub, now) {
+  const feed = REDDIT_FEEDS[Math.floor(now / 60000) % REDDIT_FEEDS.length];
+  const sub = feed.split("/r/")[1].split("/")[0];
+  const st = (await (await stub.fetch("https://xfeed/kv?k=reddit")).json()).v || {};
+  const ids = Array.isArray(st.ids) ? st.ids : [];
+  const seeded = st.seeded && typeof st.seeded === "object" ? st.seeded : {};
+  const last = st.last && typeof st.last === "object" ? st.last : {};
+  let xml = "", code = 0;
+  try {
+    const r = await fetch(feed, { headers: { "User-Agent": REDDIT_UA, Accept: "application/rss+xml, application/xml, text/xml, */*" } });
+    code = r.status;
+    if (r.ok) xml = await r.text();
+  } catch (e) { xml = ""; code = -1; }
+  const save = (v) => stub.fetch("https://xfeed/kv", { method: "POST", body: JSON.stringify({ k: "reddit", v: v }) });
+  // each subreddit's last answer is kept for ?diag=1, written only when it changes
+  const lastNext = Object.assign({}, last, { [sub]: code });
+  if (!xml) {
+    if (last[sub] !== code) await save({ ids, seeded, last: lastNext });
+    return 0;
+  }
+  const posts = redditXPosts(xml, now, sub);
+  const fresh = posts.filter(p => ids.indexOf(p.id) === -1);
+  const firstLook = !seeded[sub];
+  if (!fresh.length && !firstLook) {
+    if (last[sub] !== code) await save({ ids, seeded, last: lastNext });
+    return 0;
+  }
+  await save({ ids: fresh.map(p => p.id).concat(ids).slice(0, REDDIT_SEEN_CAP), seeded: Object.assign({}, seeded, { [sub]: 1 }), last: lastNext });
+  if (firstLook || !fresh.length) return 0;
+  const res = await (await stub.fetch("https://xfeed/add", { method: "POST", body: JSON.stringify({ posts: fresh }) })).json();
+  return res.added || 0;
+}
 // one turn of the feed watch: fetch this minute's share of the feeds, compare each newest item
 // with the ones stored, store the new ones. Returns how many feeds published something NEW (a
 // first sighting only seeds: the item that is newest when watching starts is not news; an id seen
@@ -3739,7 +3823,7 @@ export class XFeed {
     // the doorbell's own small state: the feed watch's newest ids ("feeds") and the X rest
     // after a 402 ("xpause"). Only these two keys exist; anything else is refused.
     if (u.pathname === "/kv") {
-      const okKey = (k) => k === "feeds" || k === "xpause" || k === "ring";
+      const okKey = (k) => k === "feeds" || k === "xpause" || k === "ring" || k === "reddit";
       if (request.method === "POST") {
         let b = null;
         try { b = await request.json(); } catch (e) { b = null; }
@@ -3813,6 +3897,10 @@ async function xTick(env, now) {
       }
     }
   }
+  // the free X stand-in: r/MMA and r/ufc posts that link to an X post (Oct 3 2026)
+  let viaReddit = 0;
+  try { viaReddit = await redditTick(stub, now); } catch (e) { viaReddit = 0; }
+  added += viaReddit;
   // the plain feeds ring the same bell (Oct 3 2026), X or no X
   let fresh = 0;
   try { fresh = await feedWatch(ncfg, stub, now); } catch (e) { fresh = 0; }
@@ -3833,7 +3921,7 @@ async function xTick(env, now) {
       } catch (e) { bell = false; }
     }
   }
-  return { queries: qs.length, added, fresh, bell, x: xnote };
+  return { queries: qs.length, added, reddit: viaReddit, fresh, bell, x: xnote };
 }
 // GET /news/x-feed?since=<ms>: the news job's read, WORKER_BOT_KEY in the Authorization header.
 // A bare 404 while the key or the buffer is missing (nothing here says what it is).
@@ -3868,7 +3956,9 @@ async function xFeedRead(request, env, url) {
         probe.push({ key: f.key, status: st, top: top.slice(0, 80) });
       }
     } catch (e) { probe = "error"; }
-    try { const o = JSON.parse(text); o.gh = gh; o.feeds = feeds; o.probe = probe; text = JSON.stringify(o); } catch (e) { /* keep the buffer as it was */ }
+    let reddit = null;
+    try { const rv = (await (await xStub(env).fetch("https://xfeed/kv?k=reddit")).json()).v || {}; reddit = { seeded: rv.seeded || {}, seen: (rv.ids || []).length, last: rv.last || {} }; } catch (e) { reddit = "error"; }
+    try { const o = JSON.parse(text); o.gh = gh; o.feeds = feeds; o.probe = probe; o.reddit = reddit; text = JSON.stringify(o); } catch (e) { /* keep the buffer as it was */ }
   }
   return new Response(text, { status: 200, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" } });
 }
@@ -3954,6 +4044,7 @@ export const _test = { rollDice, slugify, onThisDayEmbed, triviaResponse, buildP
   looksWorkerSource, pageFn, LOOKS_FNS,
   xQueries, xHandles, xPost, xTick, xFeedRead, XFeed, X_QUERY_MAX, X_MAX_ACCOUNTS, X_WINDOW_LIVE_MS, X_BELL_GAP_MS,
   SOCIALDATA_SEARCH, feedWatchList, feedTopId, headText, feedWatch, X_PAUSE_402_MS,
+  redditXPosts, redditTick, tweetTime, REDDIT_FEEDS,
   resetNewsCfg: function () { _ncfgCache = { at: 0, cfg: null }; },
   RENDER_COOKIE, RENDER_TTL_MS, RENDER_ROUTES, renderRoute, renderToken, renderTokenValid, renderLogin, botKeyOk,
   resetStudioCaches };
