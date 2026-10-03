@@ -1182,21 +1182,246 @@ check("news.yml has an explicit timeout that expires before the next cron tick",
 print("\n[calm formats]")
 import memes_bot
 
-# memes: silent, image in an embed. (The rankings + on-this-day blocks went with
-# their bots in the Aug 2026 declutter.)
+# ───────────────────────── 4b. the memes bot (Oct 3 2026) ─────────────────
+# It had NEVER posted: Reddit has answered its unauthenticated top.json with 403
+# since late May 2026, and every run exited 0, so nothing went red and
+# state_memes.json was never created. Measured from a runner: a public Reddit
+# relay (meme-api.com) and Lemmy both answer; Reddit RSS dies Nov 13 2026 and new
+# Reddit OAuth apps need Reddit's approval. The bot reads the relay + Lemmy,
+# UPLOADS the image, posts at most two a UTC day, and stays silent.
+print("\n[memes]")
+import io as _mm_io, contextlib as _mm_ctx
+_mm_prev = (common.get_json, common.post_file, common.now_utc, memes_bot.fetch_image)
 common.load_config = lambda: {"channels": {"memes": "M"}}
-_meme = {"data": {"children": [{"data": {
-    "id": "m1", "title": "Certified hood classic", "post_hint": "image",
-    "url": "https://i.redd.it/x.jpg", "score": 999, "stickied": False,
-    "over_18": False, "is_video": False, "domain": "i.redd.it"}}]}}
-common.get_json = lambda url, headers=None, tries=4: (200, copy.deepcopy(_meme))
-STORE.clear(); POSTS.clear(); POSTS_FULL.clear()
-memes_bot.main()
-check("meme posts are SILENT", POSTS_FULL and all(p["silent"] for p in POSTS_FULL))
-check("meme image lives in the embed",
-      POSTS_FULL[0]["embeds"][0]["image"]["url"] == "https://i.redd.it/x.jpg" and
-      "r/dankmemes" in POSTS_FULL[0]["embeds"][0]["footer"]["text"])
-check("meme content is plain text", POSTS_FULL[0]["content"] == "😂 Certified hood classic")
+_MM_PNG = bytes([0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A]) + bytes(24)
+_MM_GIF = b"GIF89a" + bytes(24)
+_MM_FEEDS, _MM_IMGS, _MM_URLS, _MM_POSTS = {}, {}, [], []
+_MM_POST_CODE = [200]
+_MM_DAY = [common.datetime.datetime(2026, 10, 3, 18, 0, tzinfo=common.datetime.timezone.utc)]
+
+
+def _mm(pid, title, ups, url=None, nsfw=False, spoiler=False):
+    return {"postLink": "https://redd.it/" + pid, "subreddit": "x", "title": title,
+            "url": url or "https://i.redd.it/%s.png" % pid, "nsfw": nsfw,
+            "spoiler": spoiler, "author": "a", "ups": ups, "preview": []}
+
+
+def _lp(pid, title, score, nsfw=False, comm_nsfw=False, removed=False):
+    return {"post": {"id": pid, "name": title, "body": "",
+                     "url": "https://lemmy.world/pictrs/image/%s.webp" % pid,
+                     "url_content_type": "image/webp", "nsfw": nsfw, "removed": removed,
+                     "deleted": False, "ap_id": "https://lemmy.world/post/%s" % pid},
+            "community": {"nsfw": comm_nsfw}, "counts": {"score": score}}
+
+
+def _mm_get_json(url, headers=None, tries=4, timeout=30):
+    _MM_URLS.append(url)
+    for frag, reply in _MM_FEEDS.items():
+        if frag in url:
+            if reply == "raise":
+                raise ValueError("malformed reply")
+            return copy.deepcopy(reply)
+    return 503, None
+
+
+def _mm_fetch(url, cap=memes_bot.MAX_BYTES, timeout=20):
+    got = _MM_IMGS.get(url, _MM_PNG + url.encode())     # distinct bytes per url
+    return (got, "") if isinstance(got, bytes) else (None, got)
+
+
+def _mm_post_file(chan, content, path, filename=None, allowed_mentions=None, embeds=None,
+                  silent=False):
+    with open(path, "rb") as f:
+        data = f.read()
+    _MM_POSTS.append({"chan": chan, "content": content, "path": path, "filename": filename,
+                      "embeds": embeds, "silent": silent, "data": data,
+                      "mentions": allowed_mentions, "ok": _MM_POST_CODE[0] == 200})
+    return _MM_POST_CODE[0], {"id": "meme%d" % len(_MM_POSTS)}
+
+
+def _mm_run():
+    """One run of the bot; returns what it printed."""
+    _MM_URLS[:] = []
+    out = _mm_io.StringIO()
+    with _mm_ctx.redirect_stdout(out):
+        memes_bot.main()
+    return out.getvalue()
+
+
+def _mm_ok_posts():
+    return [p for p in _MM_POSTS if p["ok"]]
+
+
+common.get_json, common.post_file = _mm_get_json, _mm_post_file
+common.now_utc = lambda: _MM_DAY[0]
+memes_bot.fetch_image = _mm_fetch
+STORE.clear()
+_MM_FEEDS.update({
+    "gimme/MMAmemes/": (200, {"count": 5, "memes": [
+        _mm("n1", "Spicy one", 9000, nsfw=True), _mm("s1", "Spoiler one", 8000, spoiler=True),
+        _mm("m1", "Certified hood classic", 1722, url="https://i.redd.it/m1.jpg"),
+        _mm("m2", "Second MMA meme", 900), _mm("lo", "Low score", 20)]}),
+    "gimme/dankmemes/": (200, {"count": 5, "memes": [
+        _mm("g1", "I Identify as a gambler", 99999), _mm("r1", "Islam joke", 88888),
+        _mm("x1", "So horny right now", 77777),
+        _mm("d1", "Pretty handy", 4744, url="https://i.redd.it/d1.gif"),
+        _mm("v1", "A video", 60000, url="https://v.redd.it/abc")]}),
+    "gimme/memes/": (503, None),
+    "gimme/meirl/": (200, "not a dict"),
+    "gimme/funny/": (200, {"memes": [None, 5, {"title": 7}]}),
+    "community_name=memes@lemmy.world": (200, {"posts": [
+        _lp(1, "Lemmy pick", 863), _lp(2, "Lemmy nsfw", 999, nsfw=True),
+        _lp(3, "Lemmy nsfw community", 999, comm_nsfw=True),
+        _lp(4, "Lemmy removed", 999, removed=True)]}),
+    "community_name=memes@sopuli.xyz": (200, {"posts": []}),
+    "community_name=funny@sh.itjust.works": "raise",
+})
+_MM_IMGS["https://i.redd.it/d1.gif"] = _MM_GIF
+_mm_out = _mm_run()
+_mm_c = [p["content"] for p in _mm_ok_posts()]
+check("a run posts two memes: the MMA lane first, then the best general meme",
+      _mm_c == ["😂 Certified hood classic", "😂 Pretty handy"])
+check("meme posts are SILENT", _MM_POSTS and all(p["silent"] for p in _MM_POSTS))
+check("meme posts can ping nobody (allowed_mentions left to post_file's NO_PINGS default)",
+      all(p["mentions"] is None for p in _MM_POSTS))
+check("meme content is plain text", _mm_c[:1] == ["😂 Certified hood classic"])
+check("the image is UPLOADED and shown inside the embed, never hotlinked",
+      all(p["embeds"][0]["image"]["url"] == "attachment://" + p["filename"]
+          for p in _MM_POSTS))
+check("the file is named by its BYTES, not its url (a .jpg url serving a PNG uploads as png)",
+      [p["filename"] for p in _MM_POSTS] == ["meme.png", "meme.gif"])
+check("the upload carries exactly the downloaded bytes",
+      _MM_POSTS[0]["data"] == _MM_PNG + b"https://i.redd.it/m1.jpg"
+      and _MM_POSTS[1]["data"] == _MM_GIF)
+check("the temp files are removed after the upload",
+      not any(os.path.exists(p["path"]) for p in _MM_POSTS))
+check("the footer credits the source",
+      [p["embeds"][0]["footer"]["text"] for p in _MM_POSTS] == ["via r/MMAmemes", "via r/dankmemes"])
+check("NSFW- and spoiler-flagged posts never post (Reddit relay AND Lemmy, post AND community flag)",
+      not any(w in " ".join(_mm_c) for w in ("Spicy", "Spoiler", "Lemmy nsfw", "Lemmy removed")))
+check("religion terms, sexual words and gambling never post, however high they score",
+      not any(w in " ".join(_mm_c) for w in ("gambler", "Islam", "horny")))
+check("a video link and a post under its source's score floor never post",
+      "A video" not in " ".join(_mm_c) and "Low score" not in " ".join(_mm_c))
+_mm_st = STORE["state_memes.json"]
+check("a dead, junk or crashing source is logged and the run carries on",
+      _mm_st["sources"]["r/memes"] == "HTTP 503" and _mm_st["sources"]["r/meirl"] == "HTTP 200"
+      and _mm_st["sources"]["funny@sh.itjust.works"].startswith("error")
+      and _mm_st["sources"]["r/MMAmemes"] == "5 candidates")
+check("state is v2 and counts the day's memes",
+      _mm_st["v"] == 2 and _mm_st["day"] == {"d": "2026-10-03", "n": 2}
+      and len(_mm_st["seen"]) == 6)
+
+_MM_POSTS[:] = []
+_mm_out = _mm_run()
+check("at most two a UTC day: a second run the same day posts nothing and reads no source "
+      "(a deploy or a manual dispatch can never double the day)",
+      not _MM_POSTS and not _MM_URLS and "Already posted 2" in _mm_out)
+
+_MM_DAY[0] += common.datetime.timedelta(days=1)
+_mm_out = _mm_run()
+check("a new UTC day posts again and repeats nothing; Lemmy fills the general lane "
+      "when the relay has nothing fresh",
+      [p["content"] for p in _mm_ok_posts()] == ["😂 Second MMA meme", "😂 Lemmy pick"]
+      and _MM_POSTS[-1]["embeds"][0]["footer"]["text"] == "via memes@lemmy.world")
+
+# A crosspost keeps the image url under a new post id; a re-upload keeps the BYTES.
+_MM_DAY[0] += common.datetime.timedelta(days=1)
+_MM_POSTS[:] = []
+_MM_FEEDS["gimme/MMAmemes/"] = (200, {"count": 3, "memes": [
+    _mm("m9", "Crosspost", 5000, url="https://i.redd.it/m1.jpg"),
+    _mm("m8", "Reupload", 4000, url="https://i.redd.it/m8.png"),
+    _mm("m7", "Fresh one", 300)]})
+_MM_IMGS["https://i.redd.it/m8.png"] = _MM_PNG + b"https://i.redd.it/m1.jpg"
+_mm_out = _mm_run()
+check("the same meme never posts twice: not as a crosspost (same url), not re-uploaded (same bytes)",
+      [p["content"] for p in _mm_ok_posts()] == ["😂 Fresh one"])
+
+_MM_DAY[0] += common.datetime.timedelta(days=1)
+_MM_POSTS[:] = []
+_MM_FEEDS["gimme/MMAmemes/"] = (200, {"count": 3, "memes": [
+    _mm("b1", "Gone image", 3000), _mm("b2", "Not really an image", 2000),
+    _mm("ok", "Works", 1000)]})
+_MM_IMGS["https://i.redd.it/b1.png"] = "HTTP 404"
+_MM_IMGS["https://i.redd.it/b2.png"] = "not an image"
+_MM_POST_CODE[0] = 500
+_mm_out = _mm_run()
+_mm_st = STORE["state_memes.json"]
+check("a refused Discord post burns nothing: no day slot, no memory",
+      not _mm_ok_posts() and _mm_st["day"]["n"] == 0 and "stays eligible" in _mm_out)
+_MM_POST_CODE[0] = 200
+_MM_POSTS[:] = []
+_mm_out = _mm_run()
+check("an image that will not download, or is not an image, is skipped for the next one",
+      [p["content"] for p in _mm_ok_posts()][:1] == ["😂 Works"])
+
+# The real downloader: bounded read, and the bytes must be a raster image.
+class _MMResp(object):
+    def __init__(self, data): self.data = data
+    def __enter__(self): return self
+    def __exit__(self, *a): return False
+    def read(self, n=-1): return self.data[:n] if n >= 0 else self.data
+
+
+_mm_urlopen = memes_bot.urllib.request.urlopen
+for _mm_data, _mm_want in ((_MM_PNG, "bytes"), (b"<html>removed</html>", "not an image"),
+                           (_MM_PNG * 100, "over")):
+    memes_bot.urllib.request.urlopen = lambda req, timeout=20, _d=_mm_data: _MMResp(_d)
+    _mm_got, _mm_why = _mm_prev[3]("https://i.redd.it/t.png", cap=1000)
+    check("fetch_image: %s" % _mm_want,
+          (_mm_got == _MM_PNG) if _mm_want == "bytes"
+          else (_mm_got is None and _mm_why.startswith(_mm_want)))
+memes_bot.urllib.request.urlopen = _mm_urlopen
+
+_MM_DAY[0] += common.datetime.timedelta(days=1)
+_MM_POSTS[:] = []
+for _mm_frag in list(_MM_FEEDS):
+    _MM_FEEDS[_mm_frag] = (403, None)
+_mm_out = _mm_run()
+check("every source down: no crash, no post, and a ::warning:: annotation (never a red run)",
+      not _MM_POSTS and "::warning::memes: every source failed" in _mm_out)
+
+_MM_DAY[0] += common.datetime.timedelta(days=4)
+_MM_FEEDS["gimme/dankmemes/"] = (200, {"count": 1, "memes": [_mm("g2", "Parlay hit", 99999)]})
+_mm_out = _mm_run()
+check("sources answering but nothing posting for days raises a ::warning:: too",
+      not _MM_POSTS and "nothing has posted for" in _mm_out)
+# The old bot's exact failure: it never posted once. A state that has never seen a
+# post must warn as well, counted from its first run.
+STORE.clear()
+_mm_out = _mm_run()
+_mm_first = "nothing has posted for" in _mm_out
+_MM_DAY[0] += common.datetime.timedelta(days=4)
+_mm_out = _mm_run()
+check("a bot that has NEVER posted warns too, counted from its first run",
+      not _mm_first and not _MM_POSTS and "nothing has posted for 4 days" in _mm_out
+      and STORE["state_memes.json"]["last_post"] == 0)
+
+check("blocked_reason: modesty and gambling words block, ordinary words do not",
+      memes_bot.blocked_reason("So sexy") == "modesty"
+      and memes_bot.blocked_reason("Bro hit the parlay") == "gambling"
+      and memes_bot.blocked_reason("The prophet of doom") == "blocklist"
+      and all(memes_bot.blocked_reason(t) == "" for t in (
+          "Essex weather be like", "Cocky fighter gets humbled", "Document everything",
+          "Underdog wins again", "I bet he regrets that")))
+
+_mm_seen = {"k%04d" % i: memes_bot.MAX_SEEN + 10 - i for i in range(memes_bot.MAX_SEEN + 10)}
+_mm_state = {"seen": dict(_mm_seen)}
+memes_bot.save_state("state_memes.json", _mm_state)
+check("memory prunes NEWEST-first, never alphabetically (the 0k repeat bug)",
+      len(_mm_state["seen"]) == memes_bot.MAX_SEEN and "k0000" in _mm_state["seen"]
+      and "k%04d" % (memes_bot.MAX_SEEN + 9) not in _mm_state["seen"])
+check("a junk state file or a v1 id list never crashes the run",
+      memes_bot.load_state(["junk"])["seen"] == {}
+      and memes_bot.load_state({"seen": ["abc"], "day": "x"})["seen"]
+      == {memes_bot._k("reddit:abc"): 0})
+_mm_src = open(os.path.join(_SRC, "memes_bot.py"), encoding="utf-8").read()
+_mm_yml = open(os.path.join(_SRC, ".github", "workflows", "memes.yml"), encoding="utf-8").read()
+check("the bot no longer calls Reddit's blocked JSON, and needs no secret but the Discord token",
+      "top.json" not in _mm_src.split('"""', 2)[2] and "reddit.com" not in _mm_src.split('"""', 2)[2]
+      and _mm_yml.count("secrets.") == 1 and "secrets.DISCORD_BOT_TOKEN" in _mm_yml)
+common.get_json, common.post_file, common.now_utc, memes_bot.fetch_image = _mm_prev
+STORE.clear()
 
 print("\n[layout]")
 import layout
@@ -2259,9 +2484,11 @@ if deploy_bots:
           not (set(_RETIRED_BOTS) & set(r for r, _ in deploy_bots.UPLOADS)))
     check("no retired workflow is dispatched",
           not any(w.split("/")[-1] in deploy_bots.DISPATCH for w in _RETIRED_WF))
+    # memes.yml sat in DISPATCH for months, harmlessly, because the bot never
+    # posted. Now that it does, three deploys in a day would mean six memes.
     check("no dispatched workflow posts member-visible content at deploy time",
           all(w not in deploy_bots.DISPATCH for w in
-              ("quiz.yml", "debate.yml", "spotlight.yml", "clip.yml")))
+              ("quiz.yml", "debate.yml", "spotlight.yml", "clip.yml", "memes.yml")))
     # news.yml's hourly cron + 55-min window leave no idle gap: a mid-hour
     # dispatch pushes the next tick into PENDING and the tick after that
     # CANCELS it - a "Run failed" email per deploy (the 0f class). The cron
