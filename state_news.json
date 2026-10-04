@@ -1,17 +1,6 @@
 {
   "seen": {
-    "e115f66c8d6138ee": 1791090813.3853784,
-    "c23122130ab2b530": 1791090813.315596,
-    "2fc25bcfd1b8525f": 1791090746.6911974,
-    "1342a57dc8cf1755": 1791090746.6159139,
-    "6830d57df75b844a": 1791090680.6057434,
-    "2b826115a06d8254": 1791090680.585286,
-    "c784d44eaa3f8dbf": 1791090614.135764,
-    "fb410f44dfd593be": 1791090363.9724367,
-    "ef036d031bbb598c": 1791090363.9703994,
-    "87c97b449429ce6f": 1791090363.9527369,
-    "840bc88694b4a878": 1791090363.8816466,
-    "92a14a8e1691dd9e": 1791090316.9668841,
+    "3e5581608ee5e182": 1791090855.7502623,
     "88de37488d6a58d0": 1791090290.805258,
     "cc538399ca32e639": 1791090290.7856588,
     "30488aae2c01736e": 1791090290.7709303,
@@ -2499,11 +2488,40 @@
     "29cc148a628e9dd5": 1790750639.310452,
     "f9c9d89f1e26ac65": 1790750638.9783285,
     "e55ebc76052e69de": 1790750638.9761543,
-    "8b3e7487c5388d11": 1790750572.210985
+    "8b3e7487c5388d11": 1790750572.210985,
+    "1d0700e0d96681e8": 1790750525.1348252,
+    "af53da1a8bf9da4d": 1790750524.7725801,
+    "1440bfd2d5ff9846": 1790750524.740462,
+    "c9722efbe1658665": 1790750499.1438205,
+    "99376ef709aafc4e": 1790750498.8069756,
+    "18c2e07391c3970b": 1790750498.7773147,
+    "5fd75810295a8969": 1790750432.7596068,
+    "6a0f19d828c01f24": 1790750365.878984,
+    "3a2d5119a56b65ed": 1790750299.8892248,
+    "6438970bcc0b8203": 1790750299.6500866,
+    "e84d74b5c9c1afce": 1790750233.0629199
   },
   "initialized": true,
   "v": 4,
   "recent": [
+    {
+      "t": "Jean Silva shouldn’t get next UFC title shot, says former UFC champion",
+      "source": "BJPenn.com",
+      "ts": "2026-10-03T11:58:26+00:00",
+      "cluster": "c98248ada76"
+    },
+    {
+      "t": "Payton Talbott receives huge praise from Henry Cejudo ahead of UFC 332",
+      "source": "BJPenn.com",
+      "ts": "2026-10-03T12:02:11+00:00",
+      "cluster": "cb1c26c5c2b"
+    },
+    {
+      "t": "UFC 332 Results: Silva vs. Wang Live Fight Updates From Salt Lake City",
+      "source": "FightBook MMA",
+      "ts": "2026-10-03T12:03:15+00:00",
+      "cluster": "cb55b9731f5"
+    },
     {
       "t": "Natalia Silva or Wang Cong: Who leaves UFC 332 in SLC as new champion?",
       "source": "Yahoo",
@@ -4881,28 +4899,10 @@
       "cluster": "ccccdc9efe6"
     },
     {
-      "t": "Paddy Pimblett vs Ilia Topuria ‘would be a good’ coaching setup for The Ultimate Fighter",
-      "source": "Bloody Elbow",
-      "ts": "2026-10-04T05:04:34+00:00",
-      "cluster": "cbdb930dc24"
-    },
-    {
-      "t": "Dana White answers critics: UFC 332 takeaways as Silva, KOs highlight night",
-      "source": "Central Oregon Daily",
-      "ts": "2026-10-04T04:31:46+00:00",
-      "cluster": "c8eda08c566"
-    },
-    {
-      "t": "MMA vet and UFC staple Michael Chandler reveals his unique philosophy on aging",
-      "source": "MMA Sucka",
-      "ts": "2026-10-04T05:09:22+00:00",
-      "cluster": "c6fd4a38d84"
-    },
-    {
-      "t": "Fighters’ faith and joy on full display — and other takeaways from UFC’s visit to Utah",
-      "source": "Deseret News",
-      "ts": "2026-10-04T05:03:00+00:00",
-      "cluster": "c68f085a30b"
+      "t": "Ex-IBF champion Lee Selby gets unbeaten test in BKB 61 main event",
+      "source": "Sherdog",
+      "ts": "2026-09-30T00:21:28+00:00",
+      "cluster": "c6661b4c295"
     }
   ],
   "digest_items": [],
@@ -4912,6 +4912,10 @@
     0
   ],
   "yt_eval": [
+    "CBMiekFVX3lxTE80OVFlcnRpejRiMXh3T0pGaUwxR0NwY2UyLUhoSEY5MkRZbGRlRFZtQ1BSLWFRYnZMb0llbEhSZWk2Z2hwRjJ6MklhOXBvRmtvUGh0ZGs3WjFfbkxERTd3OW1oU3JjTEUxNzM2LXZPZlFUQXZ1cVNNSm5n",
+    "https://bloodyelbow.com/?p=333540",
+    "CBMiR0FVX3lxTE1JQlVUVVNNNGJvbVdtdm1DOVNQa29LMDU5VGRiVHBRYktURHBhelBkSUd3ampQa0d2RXlpY3BwX3lmMW5wX0hn",
+    "CBMiwwFBVV95cUxPZ25qOV9YdDdreXJudVQwbS1jWnhYNjFlQ2pod1BJcTAtaWJTRFoyaXI2WDRwel9jYk1KMmM2Q1Q1VnZPWVJTaHhtaVg1UjI5RHZJeWhIeWdhaWRRU0RnV0hnUElYYmlSbGczZjZLVkp5TGVXbnp4amE1VDlWZFN4dHFrYnlUVUVianFseWcxeDhlS3dtSjE4ZVBXNWVrT0dRamZ5anRVcTU0UDNmU1NSck50aVV3ZVg4UzA0RTQwdVFqOEk",
     "CBMickFVX3lxTE9kaUdyNnZpVTV4RXZicUYwWmpSUGFXdUk3QWk1WUM1eDQ5MXpoWUNHT24teVlBUEZqZlVjZ3gwTnNIaDhVVXpaSmd6Wl9ZWmo1Yl9tOXU4VFFkVVM4V3BsaTQzVjdid1NKRFo2S2lPaTREUQ",
     "CBMi5AFBVV95cUxQU3NONmhfa09yQnB2WWdNbzJxMWlPSGs3RHFzOUlvUE8xU3VfNGlObkxBWGFEeGtDR0U5V3dadDBjZFBkYXJ3cGl5SC12X2hGNkJfREgxY0VNUFNzUVNhWGNDS0xBdmNqRWZ6OUdYMVY2QWs2SjZZeXFPQm9KakFBM1pIcGFpX25kTHNSM3lJTDR5TEJnQVphVHF4VEo1Q3lyWHdkYXN6cjZaMzNvY19Ud1FEeERhb21DOGNXQUVsQTkySTBjUzV6Zmt4dGpOMTZGWm96ZGtNRDB5ZUtOc0U3eGdyUDk",
     "CBMiR0FVX3lxTE4yWXJmdm9JM1RMQkJKbnNFZGRUMWh4ZkxGNmo4cFBxaXdkalhhamRSekx1UHBnRl9rcXQ0ZE4zZlpSVGpDX1Jj",
@@ -6407,15 +6411,11 @@
     "CBMicEFVX3lxTE5Mb0VaZ1BUd1VTSWhCOG0yU19nZFhZa2c1OWd1TExuYUl6bUktcVZuSUczcEtBMmhHTE11MHplMUVBRlZlMUxORURGQjFlM3FBbzJvQkUtb3hOM0lCbzAwZ0ZlQ3NDcktqYTFYVzlCZFY",
     "CBMitgFBVV95cUxPcGVFMllrczdPUnZmTjlhQnVoY3M0MEhRanRCWjlzYlhOa3d4Tml0UVdYTjg2ODFvSW9xWnlrWk5Vbk9wNHJkYWMwcXBiNGdsUXNxSUw4azYyMXpuSTBWUkp1NTUzZlE2OGhjdmdYbDMtejJzUS1jN1ZWWk5jOHh1a2NjSHJUcUM2X3k3T3FsSnpaUHdVWmFSWUhmckJMLWZNY3VrZ2lHeXI5S1I0R3RzZHluWEVZZw",
     "CBMijgJBVV95cUxNanZyM2ZKM3FYeHdGcTJUMGhVUGVHR2NybTg4U0N4UHN4Wms1TXp4WC1STVlYMlVIcEhmZzBYb2dSVDRfd0VuQjZtZ1ZZY2pUbnhfYlhXRXp0OTk1ZFB6OVlfdjJBbDd4Ymg3WXBWOGtuakk4VDRVX2NBYmhNeFBGTmlpNFJTOEN3SXlfQzVMdEl4b3d2d0FscHJTV3JrMmYwNWNYeExab0JiNHBDbDVNSDJXY205Z1Rwek8tWkhXSmRLOXg0QmJLRG9lLV8xV2cxYzB3UGVyNnRNOGFkZzhDWmtwNkVLamlnMENQWWU5a0RVMnhFTFhUUkduTk9OcW05djRrZG5DOF9vTVBHc0E",
-    "CBMihgFBVV95cUxOM0lNUGVPb1NsSVE4TFNZa3J3RFVuY2ZXbERuSHJnQ041d0pGbUVyeGxrX0R2RXVjZWVnX2xEdUwyQjI1NGdsRzVEWlFUNDJHaTZnZnRqVTZBVExHNzVCZ1ZHNjhHX2ctX3JRWklFZVp0SXVLanJTNkM0VllBVnJGc2R5ZXFhQQ",
-    "https://bloodyelbow.com/?p=335499",
-    "CBMi-AFBVV95cUxQMEx1THNRVmpfNmNOMGhTOENJQ01rS3BfTV8yYm1wdi1WaVMxQk81XzliU0FJYTI3a0VLN0YtZnBaZXhsYUJWaHE5YlA0b3N5TWJOd3NKUkJWR2sxREpFMW5SQ0VtZnF1SUFVWXd4NXhldmxUdHo2bEhkYjZWR2NKQ1ktcFpEQ1FsVHJHRFFETHpFVUI3UURva2tQLThheGF2VWlIeXlWRy1KRlRFa3ZpYWpFb1RYNE00SHlkTlZNMVQ0blhveV9nalAxZ2ZIdXRJdnF4bGhsRV9FYzVENVI3dExUQjNjM2sxb2pZR3FGRjdkZUhzdVdQTw",
-    "CBMiqAFBVV95cUxORGFuU1JpbHpuUEpzdFNWMEJzWWRqS0llTkFJVmVBR2NkVlNoRjhKQnNJYmdBQXd5cDdMYlFCcTJmanN5a0lNT2ZVODRrNzR3di02WHRMeFFxMWRUc0trRUxMZDRnOGR0bTA5blVoYXR3SHMtYXhfSng0ZWlNNFo1WVpNYTQ3bkgyYmxGVmFKT1kwNnljLTlYSU9JVXlDLWVSY0tmM2RpcXI",
-    "CBMilAFBVV95cUxOQnduSDM1S3p3eXBnSU0yU2VGMFVidjAwb0hYelN3cHZ1cTIzN0pIcTZuMnV0aThoUm92Rnk3UllTVkRCWG8xNVRPWEU2Y0RfRldCZ3FUbTJBVE5TWHVrMDlHb0RUM2h3V1RTSU5qSzNLRXNWVHdjM3AtTmR2NjN6RkFUV3NiVVdhWkUtY241akIyMXpB"
+    "CBMihgFBVV95cUxOM0lNUGVPb1NsSVE4TFNZa3J3RFVuY2ZXbERuSHJnQ041d0pGbUVyeGxrX0R2RXVjZWVnX2xEdUwyQjI1NGdsRzVEWlFUNDJHaTZnZnRqVTZBVExHNzVCZ1ZHNjhHX2ctX3JRWklFZVp0SXVLanJTNkM0VllBVnJGc2R5ZXFhQQ"
   ],
   "daily": {
     "d": "2026-10-04",
-    "ai": 185,
+    "ai": 181,
     "staged": 2,
     "prio": 1,
     "lost": 0
