@@ -1,5 +1,8 @@
 {
   "seen": {
+    "802f607e159f528b": 1791111834.708868,
+    "3732f5c1ef96a9cd": 1791111834.6293354,
+    "1beaf0b8d7d4eb87": 1791111834.622596,
     "9f9e42a8d49770ad": 1791111036.708744,
     "533f096c93095baf": 1791110097.7909048,
     "147af5d3b635fb8b": 1791109909.2356095,
@@ -2496,20 +2499,11 @@
     "211d7392e5a04ab4": 1790795502.212721,
     "eb0a6e34911c4b92": 1790795438.4942439,
     "c4a9464e23bec8d7": 1790795438.1488748,
-    "b9c626915e5a97bd": 1790795415.4625936,
-    "7b0ba19a96eb5fa0": 1790795371.8517916,
-    "dab1b581b7dca2fe": 1790795370.508347,
-    "76ccd2b981b52848": 1790795370.5074682
+    "b9c626915e5a97bd": 1790795415.4625936
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 332 Main Card: Is Silva Vs. Wang the Worst Numbered Event Ever?",
-      "source": "Stadium Rant",
-      "ts": "2026-10-03T14:18:21+00:00",
-      "cluster": "c22833b4bf1"
-    },
     {
       "t": "UFC 332 Start Time, Full Fight Card Details!",
       "source": "MMA Mania",
@@ -4903,12 +4897,18 @@
       "source": "MMA Sucka",
       "ts": "2026-10-04T10:49:09+00:00",
       "cluster": "cd9483487b2"
+    },
+    {
+      "t": "Eddie Hearn and Dana White's war of words escalates over Joshua vs Fury claim",
+      "source": "talkSPORT",
+      "ts": "2026-10-04T10:20:09+00:00",
+      "cluster": "cfbb9a38e07"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-04T10",
+    "2026-10-04T11",
     0
   ],
   "yt_eval": [
