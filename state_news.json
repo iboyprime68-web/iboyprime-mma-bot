@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4296f7563ea01f5f": 1791095653.0336974,
     "302ac38d357340fc": 1791093913.377118,
     "6a8bbf54c5dc763c": 1791093913.374634,
     "34bf017f14c42d1a": 1791093660.8566935,
@@ -2498,18 +2499,11 @@
     "59705677098112d6": 1790775002.353222,
     "06857f302f1d3c94": 1790775002.1139572,
     "534a729e90983618": 1790774976.3928084,
-    "ca21850c77606196": 1790774951.1530676,
-    "3e39f9bfa9d345a3": 1790774926.0951052
+    "ca21850c77606196": 1790774951.1530676
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Scott Smith’s Top Plays for UFC Salt Lake City: Silva vs. Cong",
-      "source": "4for4",
-      "ts": "2026-10-03T12:58:59+00:00",
-      "cluster": "cea6237feac"
-    },
     {
       "t": "UFC 332 predictions: Who will be the next women's flyweight champ?",
       "source": "theScore",
@@ -4903,6 +4897,12 @@
       "source": "MMA Mania",
       "ts": "2026-10-04T05:53:00+00:00",
       "cluster": "cc9e85ffa3a"
+    },
+    {
+      "t": "Dana White gives encouraging update on Raoni Barcelos",
+      "source": "Sherdog",
+      "ts": "2026-09-30T03:23:43+00:00",
+      "cluster": "cd4326ae996"
     }
   ],
   "digest_items": [],
