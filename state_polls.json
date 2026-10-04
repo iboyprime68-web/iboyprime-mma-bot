@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 23,
+  "cursor": 24,
   "staged_at": [
-    "2026-10-02T15:52:32.134795+00:00",
     "2026-10-02T20:48:49.257772+00:00",
     "2026-10-03T14:20:28.773827+00:00",
-    "2026-10-03T19:17:49.493459+00:00"
+    "2026-10-03T19:17:49.493459+00:00",
+    "2026-10-04T14:51:10.896918+00:00"
   ],
   "asked": [
-    "Who is the most must-watch fighter in the UFC right now?",
     "Who is the most frustrating inactive UFC champion of the last decade?",
     "With the heavyweight belt now vacant, who should fight for it first?",
     "Which ref call makes you throw the remote?",
@@ -47,30 +46,31 @@
     "Who wins the UFC 332 flyweight title fight, Natalia Silva or Wang Cong?",
     "Who is the best MMA fighter under 30 right now?",
     "What is the most painful UFC title fight loss to watch?",
-    "What actually wins UFC titles?"
+    "What actually wins UFC titles?",
+    "Who is the most underrated fighter on the roster?"
   ],
   "last_entry": {
-    "q": "What actually wins UFC titles?",
+    "q": "Who is the most underrated fighter on the roster?",
     "type": "poll",
     "options": [
       {
-        "label": "Elite wrestling",
-        "emoji": "🤼",
+        "label": "Movsar Evloev",
+        "emoji": "🕵️",
         "art": ""
       },
       {
-        "label": "Elite boxing",
-        "emoji": "🥊",
+        "label": "Lerone Murphy",
+        "emoji": "✨",
         "art": ""
       },
       {
-        "label": "Leg kicks",
-        "emoji": "🦵",
+        "label": "Cory Sandhagen",
+        "emoji": "🪁",
         "art": ""
       },
       {
-        "label": "Fight IQ",
-        "emoji": "🧠",
+        "label": "Jailton Almeida",
+        "emoji": "🐊",
         "art": ""
       }
     ],
