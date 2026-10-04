@@ -1,5 +1,9 @@
 {
   "seen": {
+    "fe5f304f601a9ddd": 1791072671.6105697,
+    "bce918e5f1e30c57": 1791072671.596226,
+    "0211b42eda72e6aa": 1791072671.5433364,
+    "2b2ec7e5169e3074": 1791072671.5416234,
     "0d58024c3c73f4dc": 1791072603.7355855,
     "94e3cbbe8ba98a69": 1791072603.6833546,
     "2b6d215cd88cf68d": 1791072603.6816196,
@@ -2495,21 +2499,11 @@
     "a583035bc542c18d": 1790557048.440987,
     "2f7769f3d034b33c": 1790556980.923976,
     "082a7a597dcc7c32": 1790556980.602178,
-    "e9bb785eb5eede1f": 1790556475.0798228,
-    "c1d2028481058ba5": 1790556098.607016,
-    "e54a91c1661026ed": 1790555783.9561985,
-    "f4c2872b8caa0ef7": 1790555715.6875343,
-    "9043518a51ae35d3": 1790555648.3777065
+    "e9bb785eb5eede1f": 1790556475.0798228
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "#UFC332 weigh-in results: Rafael dos Anjos (155.5)",
-      "source": "@MMAFighting",
-      "ts": "2026-10-02T15:14:36+00:00",
-      "cluster": "cf1542e3670"
-    },
     {
       "t": "#UFC332 weigh-in results: Payton Talbott (135.5) With Deiveson Figueiredo also successfully making weight, Saturday’s bantamweight co-main event is o…",
       "source": "@MMAFighting",
@@ -4903,6 +4897,12 @@
       "source": "SSBCrack",
       "ts": "2026-10-03T23:59:29+00:00",
       "cluster": "cddf8781d3b"
+    },
+    {
+      "t": "News 8 @ 5pm Saturday (UFC)",
+      "source": "cbs8.com",
+      "ts": "2026-10-04T00:00:00+00:00",
+      "cluster": "cddab52332c"
     }
   ],
   "digest_items": [],
