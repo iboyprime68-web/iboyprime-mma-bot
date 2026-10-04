@@ -1,5 +1,7 @@
 {
   "seen": {
+    "a6619a3b51484a59": 1791092956.400435,
+    "23fcff7ed64816b7": 1791092956.385373,
     "840bc88694b4a878": 1791092745.2249055,
     "4c7f64617c2f7ed3": 1791092745.22169,
     "edfae966b29c9bcc": 1791092426.6585007,
@@ -2497,9 +2499,7 @@
     "81265b8df6fd7107": 1790774872.290329,
     "a9a4bd1f1e9f00de": 1790774847.3126206,
     "9ef07351854190a3": 1790774846.4488733,
-    "ebab0ab908bd59c8": 1790752675.790136,
-    "1818b5225e48af89": 1790752120.6244335,
-    "706d3c7c7a25303c": 1790752120.5934472
+    "ebab0ab908bd59c8": 1790752675.790136
   },
   "initialized": true,
   "v": 4,
@@ -4897,6 +4897,12 @@
       "source": "boxingnews.com",
       "ts": "2026-10-04T05:30:53+00:00",
       "cluster": "c6aa4c991f5"
+    },
+    {
+      "t": "\"Got a huge pop in the arena\" - Dana White has huge expectations from Charles Oliveira vs. Diego Lopes BMF fight",
+      "source": "Sportskeeda",
+      "ts": "2026-10-04T05:44:00+00:00",
+      "cluster": "caa5fd3714c"
     }
   ],
   "digest_items": [],
