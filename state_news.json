@@ -1,5 +1,6 @@
 {
   "seen": {
+    "67b1267de63a2280": 1791091454.2344034,
     "2fda135acb62a5dc": 1791091327.6595511,
     "62b6eee304ba8a32": 1791091200.629785,
     "7c9c703500022ca0": 1791091200.5760756,
@@ -2498,8 +2499,7 @@
     "0847b8df8705264c": 1790750906.175556,
     "640d75b0430f1c11": 1790750839.3656962,
     "fc5f08a61d165aa4": 1790750772.7471392,
-    "ca95a4ad3f73fcdb": 1790750772.5213568,
-    "c469f00d9a84f5fb": 1790750772.511292
+    "ca95a4ad3f73fcdb": 1790750772.5213568
   },
   "initialized": true,
   "v": 4,
@@ -4897,6 +4897,12 @@
       "source": "MMA Fighting",
       "ts": "2026-10-04T05:18:23+00:00",
       "cluster": "c0e7922de6c"
+    },
+    {
+      "t": "Reports: UFC snubbed Sean Strickland for UFC 335 despite 'Tarzan' being fit and willing to fight",
+      "source": "Sportskeeda",
+      "ts": "2026-10-04T05:18:00+00:00",
+      "cluster": "c40f5c33546"
     }
   ],
   "digest_items": [],
