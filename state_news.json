@@ -1,5 +1,7 @@
 {
   "seen": {
+    "57035864657365e0": 1791085653.7097476,
+    "0008417af9598d33": 1791085653.6563451,
     "2b31d1ff24063363": 1791085590.7334745,
     "6a3c5bb0001b613c": 1791085590.732121,
     "8b04a648acd479f4": 1791085525.4067569,
@@ -2497,19 +2499,11 @@
     "a93ccee423c43c1c": 1790727141.8922641,
     "0a35540f0006c367": 1790727116.1814249,
     "96e30724ac4b4440": 1790727090.539733,
-    "8f0eaf1bd71fa117": 1790727063.4218378,
-    "63e86eb2728ecb61": 1790727033.6009746,
-    "83696e5576d293cf": 1790727033.1725016
+    "8f0eaf1bd71fa117": 1790727063.4218378
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 332 ‘Silva vs. Wang’ play-by-play, results & round scoring",
-      "source": "Sherdog",
-      "ts": "2026-10-03T00:58:02.244162+00:00",
-      "cluster": "c36682bedfe"
-    },
     {
       "t": "Derek Chisora with fiery accusations against UFC CEO",
       "source": "MMA Sucka",
@@ -4903,6 +4897,12 @@
       "source": "heavy.com",
       "ts": "2026-10-04T03:43:00+00:00",
       "cluster": "cd90e536f20"
+    },
+    {
+      "t": "UFC 332 Packed With Finishes, New Champion Crowned, $400K In Bonuses Awarded",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-04T03:03:00+00:00",
+      "cluster": "ca168f1231e"
     }
   ],
   "digest_items": [],
