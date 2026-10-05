@@ -1,5 +1,6 @@
 {
   "seen": {
+    "433547e74f47a662": 1791218812.592584,
     "955465ef6be16f0e": 1791218372.7235143,
     "bf8e62f6970d0acb": 1791217934.1361773,
     "3c59c8feb0b96884": 1791217869.7734964,
@@ -2498,8 +2499,7 @@
     "8b498037ad7855bc": 1790975036.7475429,
     "71784d0457635012": 1790974970.4462714,
     "4c9db0fcaf46dcfa": 1790974969.9083154,
-    "0ed3757e08a821d8": 1790974969.9057727,
-    "ce3ffde40ce43de1": 1790974969.8581028
+    "0ed3757e08a821d8": 1790974969.9057727
   },
   "initialized": true,
   "v": 4,
@@ -4897,6 +4897,12 @@
       "source": "heavy.com",
       "ts": "2026-10-05T16:13:23+00:00",
       "cluster": "cb5d64a00ba"
+    },
+    {
+      "t": "Is The UFC Really Worth $50 Billion? Dana White Reveals His Eye-Watering Valuation",
+      "source": "MMANews.com",
+      "ts": "2026-10-05T16:43:51+00:00",
+      "cluster": "cea60feeb8e"
     }
   ],
   "digest_items": [],
