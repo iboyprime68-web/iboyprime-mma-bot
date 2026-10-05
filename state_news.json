@@ -1,5 +1,7 @@
 {
   "seen": {
+    "3a45e92e73a9972a": 1791226825.0013404,
+    "0201c50af2d7f9c2": 1791226824.9622235,
     "0bf51acd65846c73": 1791226799.0752592,
     "d6e9077eccfe489b": 1791226731.529103,
     "b83be155067b2ac9": 1791226731.4934804,
@@ -2497,19 +2499,11 @@
     "00b92a8cb6c61bb7": 1790987227.5915594,
     "e88289fd12d5e9ae": 1790987227.343359,
     "e4541cf6275c4c70": 1790987161.2877226,
-    "93b8f8dd9f737a24": 1790987095.2049055,
-    "ccb2334b0db2ddf6": 1790987029.7032087,
-    "05e9d023bc75efca": 1790987029.4162664
+    "93b8f8dd9f737a24": 1790987095.2049055
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Charles Oliveira-Diego Lopes BMF title fight headlines UFC 335",
-      "source": "Sherdog",
-      "ts": "2026-10-04T02:19:25+00:00",
-      "cluster": "c03acc6213f"
-    },
     {
       "t": "UFC 332 highlight video: Payton Talbott destroys Deiveson Figueiredo",
       "source": "Sherdog",
@@ -4903,12 +4897,18 @@
       "source": "sports.ndtv.com",
       "ts": "2026-10-05T18:01:46+00:00",
       "cluster": "ca1a8e8ab18"
+    },
+    {
+      "t": "Legend calls for ‘AI judging’ after criticizing UFC 332 main event scorecards: ‘Put a chip in the gloves’",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-05T19:00:00+00:00",
+      "cluster": "ce9ab4eecab"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-05T18",
+    "2026-10-05T19",
     0
   ],
   "yt_eval": [
