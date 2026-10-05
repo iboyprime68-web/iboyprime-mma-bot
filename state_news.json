@@ -1,5 +1,8 @@
 {
   "seen": {
+    "7382bcb30b936460": 1791188412.8221672,
+    "3f98effbcec866b4": 1791188412.8069148,
+    "31e4808d3e380dbc": 1791188412.797556,
     "59ef31d12dde98c9": 1791183965.1964228,
     "4fe60cecdbe05f37": 1791183897.7989953,
     "2073885de8729123": 1791183897.770908,
@@ -2496,20 +2499,11 @@
     "91a77e039208bec9": 1790955406.2799075,
     "07f56a6218889ef4": 1790955372.6267822,
     "5c849006dd1b69a1": 1790955346.6339612,
-    "1d0ad6357568e2ba": 1790955320.8506668,
-    "67b39eda540dbf60": 1790955293.6755617,
-    "3d8814d76393d784": 1790955267.9910147,
-    "619ea367a7222e71": 1790955241.875186
+    "1d0ad6357568e2ba": 1790955320.8506668
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 332 video: Damian Pinas KOs Andrey Pulyaev with sick uppercut",
-      "source": "MMA Junkie",
-      "ts": "2026-10-03T23:18:00+00:00",
-      "cluster": "c802de2e185"
-    },
     {
       "t": "Imanol Rodriguez: More Professional, More Dangerous in UFC",
       "source": "SSBCrack",
@@ -4903,12 +4897,18 @@
       "source": "boxingnews.com",
       "ts": "2026-10-05T07:00:55+00:00",
       "cluster": "cf0c9530b5d"
+    },
+    {
+      "t": "\"The Final Boss\": Michael Morales Calls Out Islam Makhachev For UFC Gold",
+      "source": "NDTV Sports",
+      "ts": "2026-10-05T07:22:41+00:00",
+      "cluster": "c368c4dacc5"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-05T07",
+    "2026-10-05T08",
     0
   ],
   "yt_eval": [
