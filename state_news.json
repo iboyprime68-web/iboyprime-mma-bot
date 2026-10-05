@@ -1,5 +1,13 @@
 {
   "seen": {
+    "d977f11581d08c8e": 1791209006.2495627,
+    "f3b2c33a34ab63ac": 1791209006.2067385,
+    "7a4a395959f69796": 1791209006.204959,
+    "ffd39cd9ececfcb8": 1791209006.2030215,
+    "3d0d357328c05b25": 1791209006.201235,
+    "08a16931625d69b2": 1791209006.1630592,
+    "304d936ea2f5071f": 1791209006.1610544,
+    "8a12ef3cb8792aef": 1791209006.1572373,
     "7403548eef1df3e6": 1791208689.4795253,
     "3cc0e0a77e18fc96": 1791208375.1531556,
     "c0038aa0842ec884": 1791208187.8639472,
@@ -2491,25 +2499,11 @@
     "e8b6e38694991b82": 1790957856.6101842,
     "fff4ed7381c80cfc": 1790957855.0551634,
     "a7f034222f6fc7ac": 1790957855.0536315,
-    "f40d0cd7a5be8899": 1790957855.0533261,
-    "12401b0b2bcc7ed2": 1790957827.5096948,
-    "a4d0f06ee5335028": 1790957801.629032,
-    "40666e855e041875": 1790957775.746002,
-    "3ba3c81785f1655e": 1790957775.470383,
-    "202686610ba795b9": 1790957775.4689054,
-    "0e5b9ee3002f0a2c": 1790957775.4686828,
-    "61007e8ffe96f7b6": 1790957775.4684286,
-    "38d21ed813c87a10": 1790957707.223541
+    "f40d0cd7a5be8899": 1790957855.0533261
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Roberto Soldic survives early knockdowns to win his highly anticipated debut at UFC 332",
-      "source": "Bloody Elbow",
-      "ts": "2026-10-04T01:17:16+00:00",
-      "cluster": "cb3bd60253d"
-    },
     {
       "t": "Alex Pereira gets his next assignment as Dana White announces UFC 335's co-main event",
       "source": "Yahoo Sports",
@@ -4903,12 +4897,18 @@
       "source": "ESPN",
       "ts": "2026-10-05T13:46:00+00:00",
       "cluster": "c46c50bf11d"
+    },
+    {
+      "t": "Salahdine Parnasse’s manager reacts to rumored Ilia Topuria fight at UFC 336: ‘It’s a big yes’",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-05T14:00:00+00:00",
+      "cluster": "c358fe1a7f0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-05T13",
+    "2026-10-05T14",
     0
   ],
   "yt_eval": [
