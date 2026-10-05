@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b80512aa9ad5ea11": 1791213808.7715409,
     "e53a681405533c0b": 1791213762.7037618,
     "8bd1b12add8390b0": 1791213762.6670673,
     "d1020b30e9134924": 1791213762.664821,
@@ -2498,18 +2499,11 @@
     "3c4dbb2a5ed7d53a": 1790973553.744377,
     "2a93f05035bf3344": 1790973507.9985855,
     "93c8e73de42e4faf": 1790973507.4607172,
-    "3fb7ecb6458984a6": 1790973507.4256623,
-    "52979946868ff6e6": 1790973477.355359
+    "3fb7ecb6458984a6": 1790973507.4256623
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 332 live blog: Deiveson Figueiredo vs. Payton Talbott",
-      "source": "MMA Fighting",
-      "ts": "2026-10-04T01:35:23+00:00",
-      "cluster": "cd08ed98559"
-    },
     {
       "t": "Esteban Ribovics Scores Violent TKO Victory Over King Green",
       "source": "Cageside Press",
@@ -4903,6 +4897,12 @@
       "source": "Sports Illustrated",
       "ts": "2026-10-05T15:20:06+00:00",
       "cluster": "ca17300e1e0"
+    },
+    {
+      "t": "Vitor Petrino calls out Curtis Blaydes for UFC 335: ‘Accept the fight’",
+      "source": "Sherdog",
+      "ts": "2026-10-02T13:20:08+00:00",
+      "cluster": "c34148756d3"
     }
   ],
   "digest_items": [],
