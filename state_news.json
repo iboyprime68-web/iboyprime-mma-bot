@@ -1,5 +1,7 @@
 {
   "seen": {
+    "c9205e6c75ba5d43": 1791158593.1082785,
+    "f9d51c585c0f479a": 1791158593.039596,
     "f0dc567b7044a5be": 1791157983.8609753,
     "50d402d5ae79806b": 1791157604.8893983,
     "148ad538c33291f8": 1791157540.6567423,
@@ -2497,19 +2499,11 @@
     "f9dbd5596a686981": 1790891792.5163581,
     "4b08f80d526a4adf": 1790891724.8660762,
     "db2316190e401230": 1790891724.4939592,
-    "dc5af93c480d89d4": 1790891724.4897845,
-    "620aca159fbea3c0": 1790891724.4880028,
-    "064092d5771f6aa6": 1790891656.652057
+    "dc5af93c480d89d4": 1790891724.4897845
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "[OFFICIAL]*!UFC 332 Live Streaming Free Coverage On 4 Oct 2026",
-      "source": "大分トリニータオフィシャルサイト",
-      "ts": "2026-10-03T21:42:29+00:00",
-      "cluster": "cebc9762c3b"
-    },
     {
       "t": "[Official™!] UFC 332: UFC 332 live results stream and play-by-play for tonight's title UFC 332",
       "source": "大分トリニータオフィシャルサイト",
@@ -4903,12 +4897,18 @@
       "source": "MMA Junkie",
       "ts": "2026-10-04T23:40:00+00:00",
       "cluster": "c42f99ca48a"
+    },
+    {
+      "t": "Vikings stay undefeated with 15-10 win over winless Dolphins",
+      "source": "247Sports",
+      "ts": "2026-10-04T23:44:00+00:00",
+      "cluster": "ce098bd64c6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-04T23",
+    "2026-10-05T00",
     0
   ],
   "yt_eval": [
