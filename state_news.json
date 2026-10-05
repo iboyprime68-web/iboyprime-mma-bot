@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0bf51acd65846c73": 1791226799.0752592,
     "d6e9077eccfe489b": 1791226731.529103,
     "b83be155067b2ac9": 1791226731.4934804,
     "1e1a10d9a106c2f8": 1791226653.5749888,
@@ -2498,18 +2499,11 @@
     "e4541cf6275c4c70": 1790987161.2877226,
     "93b8f8dd9f737a24": 1790987095.2049055,
     "ccb2334b0db2ddf6": 1790987029.7032087,
-    "05e9d023bc75efca": 1790987029.4162664,
-    "a97b95c2cd8d7ed2": 1790987029.414013
+    "05e9d023bc75efca": 1790987029.4162664
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Massive UFC 335 Announcement Includes \"BMF\" Title Bout and Next Alex Pereira Fight",
-      "source": "Sports Illustrated",
-      "ts": "2026-10-04T02:16:22+00:00",
-      "cluster": "c67385f3b10"
-    },
     {
       "t": "Charles Oliveira-Diego Lopes BMF title fight headlines UFC 335",
       "source": "Sherdog",
@@ -4903,6 +4897,12 @@
       "source": "wrestling-world.com",
       "ts": "2026-10-05T18:00:59+00:00",
       "cluster": "c37be7c8187"
+    },
+    {
+      "t": "Conor McGregor's UFC Future Questioned As Joe Rogan Revisits His Biggest Career Shift",
+      "source": "sports.ndtv.com",
+      "ts": "2026-10-05T18:01:46+00:00",
+      "cluster": "ca1a8e8ab18"
     }
   ],
   "digest_items": [],
