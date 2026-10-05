@@ -1,5 +1,6 @@
 {
   "seen": {
+    "68edd9d0f2fe2c36": 1791230938.9873402,
     "ad27c5df46a2c8ef": 1791229797.9656126,
     "7f80ac25a8bd6924": 1791229797.9272876,
     "c086fdcc03a29df0": 1791229357.646056,
@@ -2498,18 +2499,11 @@
     "057f227d4a486905": 1791008049.1876187,
     "37d06431f3f28b76": 1791008018.0942907,
     "80ef6b47eb4022e6": 1791007992.250607,
-    "5110371b55608bd0": 1790989865.3676324,
-    "93f6b59038c54839": 1790989799.958428
+    "5110371b55608bd0": 1790989865.3676324
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "EVERY finish from UFC 332: Silva v Wang",
-      "source": "Herald Sun",
-      "ts": "2026-10-04T03:00:21+00:00",
-      "cluster": "ca1bda7c54d"
-    },
     {
       "t": "Natalia Silva def. Wang Cong, UFC 332: Best photos",
       "source": "MMA Junkie",
@@ -4903,12 +4897,18 @@
       "source": "MMA Sucka",
       "ts": "2026-10-05T19:48:48+00:00",
       "cluster": "c938b83a6dc"
+    },
+    {
+      "t": "UFC 332 ‘Silva vs. Wang’ play-by-play, results & round scoring",
+      "source": "Sherdog",
+      "ts": "2026-10-03T23:57:07+00:00",
+      "cluster": "cab175dca79"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-05T19",
+    "2026-10-05T20",
     0
   ],
   "yt_eval": [
