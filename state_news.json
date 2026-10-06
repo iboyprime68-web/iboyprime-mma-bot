@@ -1,5 +1,7 @@
 {
   "seen": {
+    "386845c1546f745f": 1791301924.0466077,
+    "9b1d62a025c49b3a": 1791301924.013271,
     "a9c0726994b1876b": 1791301860.5098178,
     "cf1ccdf11ad46e6d": 1791301794.2370005,
     "405e56f56ffafdea": 1791301603.2385893,
@@ -2497,19 +2499,11 @@
     "27acad90307ea4f3": 1791061168.134136,
     "bfdee6519124e002": 1791061168.122257,
     "6be04759e8a48fba": 1791061168.1138542,
-    "85d4d49562d3951a": 1791061168.1135588,
-    "d51636ee9bea7f60": 1791061168.103827,
-    "8711edcd8a67997a": 1791061101.8127768
+    "85d4d49562d3951a": 1791061168.1135588
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Esteban Ribovics blames UFC 332 weight miss on hotel issue",
-      "source": "MMA Fighting",
-      "ts": "2026-10-04T16:00:00+00:00",
-      "cluster": "cb9212664de"
-    },
     {
       "t": "Jacobe Smith Wins at UFC 332 Via First Round KO",
       "source": "Pistols Firing",
@@ -4903,6 +4897,12 @@
       "source": "UFC.com",
       "ts": "2026-10-06T15:41:33+00:00",
       "cluster": "cf39c4dbd1f"
+    },
+    {
+      "t": "Ian Garry Claims Michael Morales Fight Date Is Booked by the UFC",
+      "source": "lastwordonsports.com",
+      "ts": "2026-10-06T15:49:09+00:00",
+      "cluster": "c2592f209b2"
     }
   ],
   "digest_items": [],
