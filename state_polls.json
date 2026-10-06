@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 24,
   "staged_at": [
-    "2026-10-03T19:17:49.493459+00:00",
     "2026-10-04T14:51:10.896918+00:00",
     "2026-10-04T19:42:08.911621+00:00",
-    "2026-10-05T18:34:38.408230+00:00"
+    "2026-10-05T18:34:38.408230+00:00",
+    "2026-10-06T16:01:21.973355+00:00"
   ],
   "asked": [
-    "Which ref call makes you throw the remote?",
     "Which ref do you trust with a title fight?",
     "What is the biggest what if in UFC heavyweight history?",
     "With Tom Aspinall vacating the heavyweight title, who should fight for the vacant belt first?",
@@ -47,33 +46,34 @@
     "What actually wins UFC titles?",
     "Who is the most underrated fighter on the roster?",
     "What is the most painful UFC title loss to watch?",
-    "Which UFC retirement hit you the hardest?"
+    "Which UFC retirement hit you the hardest?",
+    "Who is the most dangerous unranked UFC fighter right now?"
   ],
   "last_entry": {
-    "q": "Which UFC retirement hit you the hardest?",
+    "q": "Who is the most dangerous unranked UFC fighter right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Court McGee",
-        "emoji": "🦅",
+        "label": "Akbar Abdullaev",
+        "emoji": "🔥",
         "art": ""
       },
       {
-        "label": "The 16-Year Vet",
-        "emoji": "⏳",
-        "art": "A worn UFC glove resting on an empty stool, spotlight, no text, no person."
+        "label": "Bo Nickal",
+        "emoji": "🤼",
+        "art": ""
       },
       {
-        "label": "The 41-Year-Old",
-        "emoji": "🎖️",
-        "art": "A cracked championship belt draped over a corner post, dim arena lights."
+        "label": "Payton Talbott",
+        "emoji": "⚡",
+        "art": ""
       },
       {
-        "label": "Other",
-        "emoji": "🪦",
-        "art": "A retirement cake shaped like an octagon with a tiny door, candles, no text."
+        "label": "Other (comment below)",
+        "emoji": "❓",
+        "art": ""
       }
     ],
-    "gag": "A retirement cake shaped like an octagon with a tiny door, candles, no text."
+    "gag": "A shadowy figure in a hoodie holding a glowing question mark, surrounded by question marks, no face visible."
   }
 }
