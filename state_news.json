@@ -1,5 +1,13 @@
 {
   "seen": {
+    "069c833a7953a552": 1791316992.0504932,
+    "395f1aa70fedac1b": 1791316992.013029,
+    "d8259c4ce77fdac7": 1791316992.011633,
+    "a5b42167a521d2b9": 1791316992.0085266,
+    "28aae9253df4dcaf": 1791316992.0073028,
+    "2e262a6bc4dfeaf3": 1791316992.0043619,
+    "b0f4faf8e27d1e7b": 1791316992.0015333,
+    "33f15ce0c883e9ec": 1791316991.9996297,
     "58316763db2fef59": 1791315954.0841954,
     "da2b471dd62eb6c7": 1791315330.5694385,
     "f04b99ba48b3b686": 1791315263.7127697,
@@ -2491,25 +2499,11 @@
     "4d8048b70a7ce7f1": 1791064629.6545427,
     "7178bfc964683333": 1791064629.645324,
     "da68f6483045473f": 1791064629.6091094,
-    "fc3688981f2b2e7f": 1791064361.37139,
-    "8e41c017caebb67a": 1791064337.0026834,
-    "a877f31c738bda5e": 1791064270.6221163,
-    "0b866b6ffa760b7c": 1791064270.6080825,
-    "643f9eb86f97c729": 1791064270.5703769,
-    "e3f615f069c4bbc1": 1791064270.5700412,
-    "93b6dcb2bcc335b3": 1791064270.5326655,
-    "9a4bbd2c28fe40db": 1791064203.658171,
-    "ea0266a0578fd6a0": 1791064203.6447787
+    "fc3688981f2b2e7f": 1791064361.37139
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Glover Teixeira Says Raoni Barcelos Suffered Brain Swelling at UFC Vegas 121",
-      "source": "MiddleEasy",
-      "ts": "2026-10-04T20:37:02+00:00",
-      "cluster": "cb8988e834f"
-    },
     {
       "t": "Silvestre Sanchez: UFC Lightweight Profile, Record and Bio",
       "source": "Fightomic",
@@ -4903,12 +4897,18 @@
       "source": "MMA Sucka",
       "ts": "2026-10-06T19:44:52+00:00",
       "cluster": "cd1d2209713"
+    },
+    {
+      "t": "UFC analyst believes Payton Talbott has earned Sean O’Malley fight after two big wins",
+      "source": "MMA Sucka",
+      "ts": "2026-10-06T19:58:49+00:00",
+      "cluster": "cc7cd383faa"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-06T19",
+    "2026-10-06T20",
     0
   ],
   "yt_eval": [
