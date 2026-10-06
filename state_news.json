@@ -4912,7 +4912,6 @@
     0
   ],
   "yt_eval": [
-    "CBMi0AFBVV95cUxNRjY1M3hNS3VITlVMaVowLWhZMkR0anF1U3FadGotMnE2U1VlUHp5cFhXenl5VkpFS3E5SVRuWEUxTXV3emJUNVlLM3JwZWxIbVZaVEhBMDRGRGtPVUptbjVjbG9IbFRMNmx4N3FMcEkyOGN2dzRrNkxTM2dfTjBFNU5Fem5aRHh1ZDRKSW95dUdleS1JTzNfb1IyaGlfMHVmcXVyUlVRUDhGRWVncE9TT21VcnFERlJYcXdwd256d2E1V0JGUFdoZTI1MjFQb0VX",
     "https://www.mmamania.com/475873/ufc-contender-series-results-live-coverage-and-full-fight-highlights-6-contracts-season-10-ep-7",
     "CBMiwgFBVV95cUxOT3J3WllFdXBBMWh3clBuNE9Ca2tDMzNQYmg3a0thVU5ZdkNCVzZoTHgzRS0zMFNUX242eVNhRTdHTXBMSTNKY2NSbXVDb2U1UTBLeVZBSFNnNHZkTlRfU3l6aDRRdnNfdzJGNGdHbjlBd2UtcWlaaklJbjhDcGxqREp5SDRDZ3YxdkJmSTBvQVZnR3lEd1hDWTEtODlkeVFMVlZTSURDYjI0aGRhUm05ci1adUdsZHlXUndaLWF0WUxKZw",
     "CBMiuwFBVV95cUxPZ3BmMi1oVVd5YWZ3a21sOThKS1FobnRjSXNEVFVxS2wzcXVvbHE5S1hTMW1PbGtJMHNXRjc0TjdoSms0UW9GRWJzMG5BWVQtZzJkbjdCUExIRS0zakRjS2FtRnlJOGlOTFdsQUtIajg2Z2t6MmVtdmluTFg4cS1KckhqbTU1cjkwOGxsY01vNE9nc3Q0OS1zdERVVUFmM1lIQUtQRXJkcFlBRHphd2lnSVdVVnF2Xzl3OGlr",
@@ -6411,13 +6410,14 @@
     "CBMimAFBVV95cUxOODVKQVRDMGp2RlIwbDZqMldVT2lETjJPS2JIWmdYMzFxczJkeUZvUl8tWm1vTUI5ZDluaEl5ZGhUR0VjbmxFaVcwTmZJbjVxN0JqSjIxTF9MbnJPRGoyS25tTVRnM1NiQlBKMEtKZUhKNll1OEx0UXRsbjVMVkROWEpzcl9WajJFWHIyZzBORWhZNURzOWtXWQ",
     "https://bloodyelbow.com/?p=335837",
     "CBMisAFBVV95cUxQWWl6alQ4bElUODN2bWxId2RVODRqejBCM1FHNkZPOVM0ZDZpNWpGU0lQMlp6TGR6TUI4Q3BWNlVXUmY0LVVET25NZl9TZlBTMDZnVmp3ejMzZ1FZR18zRHc2TEx4bDRSUkNzc3VuZjd1S3l4bjhwRVlXQUIxWXRWdnpDRjlCLTZTeTNUYjFGdWtTY3p3QzNkTVh5YlZaZkI5TmJySnlrcHc0TlVLQ3A1Rg",
-    "CBMicEFVX3lxTE9MOG1CejhlYXNQTC13dkNoN0dDc2U1NlRacDhwaU1kZ1l2Ynh6TmViU0sxeGNROWFCbEdjbnNtRFZCT0ltWnpUeWpQMW9fUllQazUyQXc2YkxSNXNFZjh5ZVpqMkZxT3Y4R3VoZmZldlk"
+    "CBMicEFVX3lxTE9MOG1CejhlYXNQTC13dkNoN0dDc2U1NlRacDhwaU1kZ1l2Ynh6TmViU0sxeGNROWFCbEdjbnNtRFZCT0ltWnpUeWpQMW9fUllQazUyQXc2YkxSNXNFZjh5ZVpqMkZxT3Y4R3VoZmZldlk",
+    "CBMijAFBVV95cUxOYmZmZkpZNWlXdWZpN2dhd2xkT0pPVjVvNS1rRzA4UXBTLWoxYjc4Q2E1d1ZscXhoVmRxeEtnMEQ3NU13bjlBUGtUZEpPYl9BSGE2NWgyQ2lBbDFibUZKb1VZSmpPSld0MlZRaDd6QU5wbVVWajhTNEJac3diU0VJeDlOa0tYMWZFSGd0eQ"
   ],
   "daily": {
     "d": "2026-10-06",
-    "ai": 158,
+    "ai": 160,
     "staged": 1,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
@@ -7443,6 +7443,14 @@
         "poirier"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-10-06T18:06:10.040604+00:00",
+      "t": "Details Emerge of Huge Pay Cut Sean Strickland Was Asked to Take Before He Refused UFC 335 Fight",
+      "names": [
+        "strickland"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7554,14 +7562,15 @@
     "71cd8a5252e3a47b": 1791008265.9178793,
     "349b4d1046eac50e": 1791029647.1175902,
     "f9115d9194abe1b0": 1791029715.749284,
-    "4d966ffbe44fd9ff": 1791056934.1763797
+    "4d966ffbe44fd9ff": 1791056934.1763797,
+    "38a9f73a64e0d000": 1791309979.5202503
   },
   "pinged_titles": [
     [
-      "Conor McGregor Pursued by Gardai During Perjury Case",
-      1791056934.1763797,
+      "Details Emerge of Huge Pay Cut Sean Strickland Was Asked to Take Before He Refused UFC 335 Fight",
+      1791309979.5202503,
       [
-        "conor"
+        "strickland"
       ]
     ]
   ]
