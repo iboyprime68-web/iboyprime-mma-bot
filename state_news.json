@@ -1,5 +1,7 @@
 {
   "seen": {
+    "566c2d9396ced391": 1791262454.691031,
+    "07a0bf125f482f0f": 1791262454.6527848,
     "827c111520c88c8b": 1791261656.9294474,
     "c691304c83c79f5d": 1791261656.9278443,
     "3584349132667820": 1791261526.0036457,
@@ -2497,9 +2499,7 @@
     "54025cacb1f9ced1": 1791040782.9936054,
     "6da1f8737a3d76ab": 1791040761.2060566,
     "76886eb542454eae": 1791040761.1822863,
-    "e3788c728af57f47": 1791040715.9616225,
-    "f07a6a070070b22b": 1791040715.9344287,
-    "004a4bcf4a52a395": 1791040650.5766218
+    "e3788c728af57f47": 1791040715.9616225
   },
   "initialized": true,
   "v": 4,
@@ -2545,12 +2545,6 @@
       "source": "Sportskeeda",
       "ts": "2026-10-04T05:18:00+00:00",
       "cluster": "c40f5c33546"
-    },
-    {
-      "t": "UFC 332: New champ Natalia Silva won't wait for Valentina Shevchenko",
-      "source": "Yahoo Sports",
-      "ts": "2026-10-04T04:53:00+00:00",
-      "cluster": "cce3b98fb64"
     },
     {
       "t": "Van And Tsarukyan Enter ESPN Pound-For-Pound Top 10",
@@ -2779,12 +2773,6 @@
       "source": "Stadium Rant",
       "ts": "2026-10-04T11:48:45+00:00",
       "cluster": "ccc9295ce53"
-    },
-    {
-      "t": "Dana White, Eddie Hearn continue to battle it out over involvement in Fury vs. Joshua: ‘I think he’s completely cooked’",
-      "source": "MMA Fighting",
-      "ts": "2026-10-04T04:52:37+00:00",
-      "cluster": "c4f85775633"
     },
     {
       "t": "Valentina Shevchenko reacts to Natalia Silva winning belt she vacated at UFC 332: ‘Keep it warm’",
@@ -4903,6 +4891,12 @@
       "source": "Sportskeeda",
       "ts": "2026-10-06T04:30:00+00:00",
       "cluster": "c3ca419f55d"
+    },
+    {
+      "t": "Ian Garry claims he accepted UFC main event against Michael Morales",
+      "source": "Sherdog",
+      "ts": "2026-10-06T04:19:54+00:00",
+      "cluster": "c62cfa139d7"
     }
   ],
   "digest_items": [],
