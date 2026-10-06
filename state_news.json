@@ -1,5 +1,6 @@
 {
   "seen": {
+    "09ecedf09a4b90ff": 1791254568.883665,
     "eb51c4bec467029e": 1791252645.5810165,
     "9d4bcef37c23a79c": 1791252087.5601695,
     "20265de388848aae": 1791252020.7456646,
@@ -2498,8 +2499,7 @@
     "b22fb6c2e7356ff0": 1791036537.1169424,
     "faa36f2652b083e9": 1791036471.4508357,
     "045580eb1321da9c": 1791036405.8986497,
-    "69890a9de9125e46": 1791036340.0920892,
-    "09462d6e1d8b7858": 1791036274.1448023
+    "69890a9de9125e46": 1791036340.0920892
   },
   "initialized": true,
   "v": 4,
@@ -2629,12 +2629,6 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-04T04:53:00+00:00",
       "cluster": "cce3b98fb64"
-    },
-    {
-      "t": "Alex Pereira Faces Huge Stakes at UFC 335",
-      "source": "Yahoo Sports",
-      "ts": "2026-10-04T02:25:33+00:00",
-      "cluster": "c502a1d7d41"
     },
     {
       "t": "Van And Tsarukyan Enter ESPN Pound-For-Pound Top 10",
@@ -4903,6 +4897,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-06T02:00:50+00:00",
       "cluster": "ca436c68c6e"
+    },
+    {
+      "t": "Dustin Poirier admits he helped teammate cheat scale to make weight",
+      "source": "Sherdog",
+      "ts": "2026-10-06T01:57:39+00:00",
+      "cluster": "c9d89a0dbb4"
     }
   ],
   "digest_items": [],
