@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e8059cc1f4600ca6": 1791371713.2894795,
     "49be9aee8f5d528b": 1791371581.155651,
     "a8211ec355030c93": 1791371381.7133806,
     "b584ffd5fe1383eb": 1791371314.771644,
@@ -2498,18 +2499,11 @@
     "b509686a3624041a": 1791076808.3097398,
     "9f16af62598e1601": 1791076808.3066173,
     "6a9ba4960681a1f8": 1791076740.0852485,
-    "0c90e12bb5a7bb30": 1791076740.073103,
-    "eb70ff38274fb266": 1791076740.0644252
+    "0c90e12bb5a7bb30": 1791076740.073103
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Ian Garry s’énerve et s’attaque à Michael Morales",
-      "source": "La Sueur",
-      "ts": "2026-10-05T15:33:45+00:00",
-      "cluster": "c2387ec6a9a"
-    },
     {
       "t": "Conor McGregor theory emerges as Joe Rogan makes claim",
       "source": "Irish Mirror",
@@ -4903,6 +4897,12 @@
       "source": "The Sun",
       "ts": "2026-10-07T11:05:00+00:00",
       "cluster": "c35f4e583ac"
+    },
+    {
+      "t": "UFC: Former employee Sal Everett wins fighter contract with first-round knockout",
+      "source": "BBC",
+      "ts": "2026-10-07T11:01:39+00:00",
+      "cluster": "cf17cf46b07"
     }
   ],
   "digest_items": [],
