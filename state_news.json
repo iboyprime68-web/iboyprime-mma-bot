@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d2d1a6da4711391e": 1791401648.0902853,
     "31570fd9338fb2db": 1791401579.1067135,
     "1a5e365411359273": 1791401451.3381107,
     "bf02506d6f025cc4": 1791400984.211924,
@@ -2498,18 +2499,11 @@
     "8285eae38fd2911d": 1791082233.8792648,
     "276cf83fc0986e18": 1791082233.8774164,
     "77a47973a9586b26": 1791082233.8623943,
-    "a2c68905b2bcb5ee": 1791082107.9960747,
-    "24ef285bd199c651": 1791082107.9362402
+    "a2c68905b2bcb5ee": 1791082107.9960747
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Sean O’Malley denies UFC offered Payton Talbott fight at White House",
-      "source": "Sherdog",
-      "ts": "2026-10-06T03:39:21+00:00",
-      "cluster": "ca686a12311"
-    },
     {
       "t": "Jose Aldo returns after 17 months, grapples Marlon Vera to draw",
       "source": "Sherdog",
@@ -4903,6 +4897,12 @@
       "source": "UFC.com",
       "ts": "2026-10-07T19:18:25+00:00",
       "cluster": "c5ff38804b6"
+    },
+    {
+      "t": "UFC Vegas 122: Kai Kamaka III media day interview",
+      "source": "USA Today",
+      "ts": "2026-10-07T19:31:16+00:00",
+      "cluster": "c9211798ada"
     }
   ],
   "digest_items": [],
