@@ -4912,7 +4912,6 @@
     0
   ],
   "yt_eval": [
-    "c5a424ae-a180-34de-b836-86230b8197db",
     "https://bloodyelbow.com/?p=334591",
     "https://www.mmafighting.com/?p=513408",
     "2db93ce9-aee1-3b78-b3d3-a90453ea6cf7",
@@ -6411,12 +6410,13 @@
     "CBMi2gFBVV95cUxNUS13UnNpTzZDaDVEQXh3Tzc3ZGN0eWxwbFRCUnpyMjNXMFBzTURpYmgtMUctczBaaUQxY2oyMXhxcElFVkMzUGlIdzVtOUN2c1VRbkNPNDNqU1p5c3VkY0V3WkJQUmFkbVpOeU5JdVFkbklyWDRRMGEySnVodUIxalY2aVZfLWpuTXdLZ1BqR3NZZHhUMnZ2OG5OOHVqOEYweDBRUzZpUTlqREM5bVBTR3JjdTJmVms0OTdSZ2d5SXIwcF95RTAxQzRXZVlaMWdQQVFXOUZKUllvQQ",
     "CBMirAFBVV95cUxNaHhveFBSNkxEVEE2YmhNNzUtdVdWejJpWXBMeVBYRGdYMDMzMUo3ZTY1QkpteGVPN2d4cFpkMENzZjNxOF9ISUdPRlp3Q2tfcnBXV0ZETE1VM2JtQW5SdmUwdVFBeW1RVXE2Sll3OWRxSnVBYU55OG5MUFFsaFgteXJxcVdSMmMzb1pSWGVmdjJraVhGQmRFVFZ6S0ZiWHpscHF0dXg4dmxka0pM",
     "CBMinAFBVV95cUxPX3dHVlh5WWpOX3EycVIwMlRiM18wYi1KcXo0UmIyQm1CcllvcGZVMUNQdnE0QmYtYXRnZ0EzcHBCa0RpdE1CajRGS2p1NXFxMnFfQ3Aza0FQZDAycWpXVUgyUXZTMGxGMkw2Y2QtWjBxNFJBMVJWZU80ZUJ4UWNha0Q3SkJkV1NYZnNtSGdmYm1SV0Jfdk5KZEdHNVo",
-    "CBMiR0FVX3lxTE9Zd3FoVXVrR1EzSzR4NWlidUlyNEttZjJBbzVKRVZvZm9VRkktNFFKcVFkdDBLT21TdFk2ZElVVmFTSHprdDZr"
+    "CBMiR0FVX3lxTE9Zd3FoVXVrR1EzSzR4NWlidUlyNEttZjJBbzVKRVZvZm9VRkktNFFKcVFkdDBLT21TdFk2ZElVVmFTSHprdDZr",
+    "CBMigAFBVV95cUxQRjdWZE1PRlY2eWdzcllzdFgyRUdRZ05QMkFpb216QnlOMHJwLWdrWlR4SG9ucGhpeWpTSkIxRHpfOHQtSlIwNm9IRGYzYlBvMzFELW9xSlFKOWY2QlJrd3lOSUpPLXNOZ1JfeHFiZmFVUDJBWmJtSWI5Nlkzcnl2Rg"
   ],
   "daily": {
     "d": "2026-10-07",
-    "ai": 28,
-    "staged": 0,
+    "ai": 30,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
@@ -7462,6 +7462,14 @@
         "garry"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-10-07T01:29:02.706954+00:00",
+      "t": "Dana White Wants $10 Billion for UFC’s Next TV Deal After $7.7 Billion Paramount Pact",
+      "names": [
+        "white"
+      ],
+      "img": "wash"
     }
   ],
   "seed_pending": [],
