@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 24,
   "staged_at": [
-    "2026-10-04T19:42:08.911621+00:00",
     "2026-10-05T18:34:38.408230+00:00",
     "2026-10-06T16:01:21.973355+00:00",
-    "2026-10-06T21:03:08.078972+00:00"
+    "2026-10-06T21:03:08.078972+00:00",
+    "2026-10-07T16:38:41.022535+00:00"
   ],
   "asked": [
-    "What is the biggest what if in UFC heavyweight history?",
     "With Tom Aspinall vacating the heavyweight title, who should fight for the vacant belt first?",
     "Who has the highest fight IQ of all time?",
     "What is the coldest knockout in UFC history?",
@@ -47,33 +46,34 @@
     "What is the most painful UFC title loss to watch?",
     "Which UFC retirement hit you the hardest?",
     "Who is the most dangerous unranked UFC fighter right now?",
-    "What is the most ridiculous thing Herb Dean has ever done inside the octagon?"
+    "What is the most ridiculous thing Herb Dean has ever done inside the octagon?",
+    "Who is the best referee in UFC history?"
   ],
   "last_entry": {
-    "q": "What is the most ridiculous thing Herb Dean has ever done inside the octagon?",
+    "q": "Who is the best referee in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Early stoppage",
-        "emoji": "⏱️",
-        "art": "A referee's raised hand frozen mid air above a fighter still scrambling to his feet, harsh spotlight"
+        "label": "Herb Dean",
+        "emoji": "🦌",
+        "art": ""
       },
       {
-        "label": "Late stoppage",
-        "emoji": "💤",
-        "art": "A referee watching two exhausted fighters hug against the cage, clock glowing red behind him"
+        "label": "Big John",
+        "emoji": "📜",
+        "art": ""
       },
       {
-        "label": "Missed foul",
-        "emoji": "👁️",
-        "art": "A fighter clutching his eye while a referee stands oblivious, blurred crowd roaring behind"
+        "label": "Marc Goddard",
+        "emoji": "🧤",
+        "art": ""
       },
       {
         "label": "Other (comment below)",
-        "emoji": "🤦",
-        "art": "A referee blowing a whistle while two pigeons fight over a slice of pizza on the canvas"
+        "emoji": "🪑",
+        "art": ""
       }
     ],
-    "gag": "A referee blowing a whistle while two pigeons fight over a slice of pizza on the canvas"
+    "gag": "A referee in a tuxedo watching two pigeons fight on a sidewalk, holding a tiny scorecard."
   }
 }
