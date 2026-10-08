@@ -1,5 +1,8 @@
 {
   "seen": {
+    "cf72c8e4f1966eb7": 1791471757.5183265,
+    "dfeef7c9cf5f1385": 1791471757.4617035,
+    "bc75d55c78cb775b": 1791471757.4613104,
     "1dd2c86761e70af8": 1791471368.3903546,
     "f6c8018125617e7d": 1791471299.6118221,
     "6203383a61f4cc92": 1791471230.0033238,
@@ -2496,20 +2499,11 @@
     "7dfec8070f93cb3b": 1791133919.5602233,
     "4aa5807feb4956cc": 1791133856.2163112,
     "88a23e6dbae55b97": 1791133856.2141507,
-    "ee5115fbe9e98405": 1791133789.8447213,
-    "5bb5ce1afc60a07c": 1791133789.7763443,
-    "031353067970261b": 1791133603.070882,
-    "71dc1375335416c8": 1791133603.0061867
+    "ee5115fbe9e98405": 1791133789.8447213
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC BJJ 12: Moura vs Fornarino Results",
-      "source": "UFC.com",
-      "ts": "2026-10-06T21:18:48+00:00",
-      "cluster": "ca06a0be64e"
-    },
     {
       "t": "Dana White Explains Why He Blocked Everyone Covering MMA",
       "source": "LowKickMMA.com",
@@ -4903,12 +4897,18 @@
       "source": "BJPenn.com",
       "ts": "2026-10-08T14:48:49+00:00",
       "cluster": "ce30cdb9700"
+    },
+    {
+      "t": "Brendan Allen reveals financial reason for needing to take a fight",
+      "source": "BJPenn.com",
+      "ts": "2026-10-08T14:52:56+00:00",
+      "cluster": "c50b1f5d9ac"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-08T14",
+    "2026-10-08T15",
     0
   ],
   "yt_eval": [
