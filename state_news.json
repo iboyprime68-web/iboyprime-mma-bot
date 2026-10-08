@@ -1,15 +1,9 @@
 {
   "seen": {
-    "df3367508d3b73b6": 1791446181.2094204,
-    "1364ba0779084cfc": 1791446056.0740027,
-    "49f93d7a2eb2b9ef": 1791445556.6532867,
-    "b55afdf7bdcd210b": 1791444873.6313875,
-    "23d65674bef30b15": 1791444253.410967,
-    "d7ae6049c05f3c20": 1791444063.043079,
-    "b71ac062080f1c51": 1791443752.3597372,
-    "b14310c246449f27": 1791443752.3579094,
-    "2daced72a9ccc41a": 1791443627.383795,
-    "e90ad159795f20c5": 1791443502.588065,
+    "d7ae6049c05f3c20": 1791446300.4385602,
+    "1364ba0779084cfc": 1791446300.3757005,
+    "e90ad159795f20c5": 1791446300.3749285,
+    "2daced72a9ccc41a": 1791446300.364098,
     "6df823ffa77d7da8": 1791443253.7081428,
     "0dbf7ee7f7ef2288": 1791443190.1372428,
     "7f3176d7e116ec15": 1791443122.5323374,
@@ -2499,11 +2493,29 @@
     "bb208299d7baf9bc": 1791108900.3649013,
     "7e3282ddc2459dca": 1791108900.2932808,
     "26ef9d72a32f635f": 1791108648.9419332,
-    "cd93c69d226f1df2": 1791108522.9382792
+    "cd93c69d226f1df2": 1791108522.9382792,
+    "4ec99a6fbc2ef064": 1791108333.8676875,
+    "3c05c9b9eb2cc554": 1791108269.5448263,
+    "d19006945d11cabe": 1791108202.1287632,
+    "4656cb837b862486": 1791107696.363388,
+    "54096724ccd11282": 1791107507.6525097,
+    "4ca894297ffc805c": 1791107378.6930087
   },
   "initialized": true,
   "v": 4,
   "recent": [
+    {
+      "t": "UFC Fight Night 290 pre-event facts: Brendan Allen nears rare air at 185 pounds",
+      "source": "MMA Junkie",
+      "ts": "2026-10-06T17:01:00+00:00",
+      "cluster": "c146d444bce"
+    },
+    {
+      "t": "Alexander Volkanovski Reveals Only Regret With Mauricio Ruffy",
+      "source": "heavy.com",
+      "ts": "2026-10-06T17:11:25+00:00",
+      "cluster": "cede4cd5080"
+    },
     {
       "t": "5 of the UFC’s 11 Current Champions Won Gold Without Dethroning the Previous Titleholder",
       "source": "Last Word On Sports",
@@ -4891,18 +4903,6 @@
       "source": "Sportskeeda",
       "ts": "2026-10-08T07:16:00+00:00",
       "cluster": "c0f30cacf12"
-    },
-    {
-      "t": "Former Champ Lost His Belt in 16 Seconds, Then Knocked Out a UFC Veteran — Now He Headlines BKFC Bethlehem",
-      "source": "Athlon Sports",
-      "ts": "2026-10-08T07:22:43+00:00",
-      "cluster": "c8d5194260f"
-    },
-    {
-      "t": "“American Champion” Colby Covington Unhappy About Fighting Khamzat Chimaev in Abu Dhabi",
-      "source": "EssentiallySports",
-      "ts": "2026-10-08T07:40:00+00:00",
-      "cluster": "ca006c9c04b"
     }
   ],
   "digest_items": [],
@@ -4912,6 +4912,9 @@
     0
   ],
   "yt_eval": [
+    "https://www.mmamania.com/?p=476277",
+    "https://bloodyelbow.com/?p=335032",
+    "https://x.com/MMAFighting/status/2106037139209429108",
     "d1e2bcef-4308-36ef-addc-ef17fa74a0a1",
     "https://x.com/mma_orbit/status/2106037293400178991",
     "https://x.com/mma_orbit/status/2106037459951694083",
@@ -6408,14 +6411,11 @@
     "CBMiekFVX3lxTE40c09rMDNTVk1xX0NjOXRYTFNiaDJieWFTNXBKTWM3S3dSTGJOYVdlNWF0dVhPXy1oSlRIS3pqMkhtdlEyenVwQ1pkMElEQlh2QXVnZE1FbUpYNVh1eXB3RmJpbmI3ZERLeS1kdlp5MEQ0M0tDc1NCVVRn",
     "https://www.sherdog.com/news/news/Brandon-Brachet-vs-Adam-Meskini-added-to-PFL-Lyon-on-Dec-19-203131",
     "CBMi7wFBVV95cUxNazRTVmswU0pNR2xrYjc2b001Q1RxWllXbGhSeUdBbU05dzRFLUlITTdMWjF2bjR4OTAyV2p4RkdtTExTNVV1a3MwRHR5SjFPN0h4bTk3MGJXVGNKUm1uTkczbGJDM1FZbkpMbG5kNGkwRUZsc0JkM1J3QWs4SnZtY1dGRzZfRzhteERiY1dReGNIdm15UGpvVThxLVpLQjkyQ3Q3RTFXWW1nTV9hTVd6SldYYlhsMXc5dTBqa083ZnhoM2JZWTJRdnZfcnNUdlJ6ZkZQelk4QmQ0QWVLM0g3OS1mVzlYRGJodldDVmc4UQ",
-    "CBMi0gFBVV95cUxQQ2RLRXNVWHkxR2V3Mmh3ZW1xcXJ5cnU1SG82TDZxMmNRZnR4SWFwVGwyM19rR1VHR2NMS2dxeEhydDRlZVlsOEpuSU43WjF0aDZkVVNOQl9WbDhTS1hYaC12VmhrQ2dfZ2tXRFNWNl95TlZRMml3ZDZXSTRvRTlJQUdqUXVMV0d0U2Y2M2hnSlp6NnFFVUw4bk1CLW15eXoxZko2OWc2UVBNSk5tMFBWYWlHeXhWTFdrMUVab3VpcXhVUUFmXzZHTWVnM2d1b1lyWFE",
-    "CBMiswFBVV95cUxOMUtlVUhLWUJnNm45Tkpld0k2ZDlUdE95cVRDNjdZTzdpbk1JWUNRS21UT2JJM0xFTTA3Q0stNTFEWC1JUUNneGJUUHAwVlNzNU92aXJ5bUIyN3NFb1pTTEIycEpiRGVYdU43allYRFRiV19fRFJZWEE0MHFPMGNpeG5mNzUtWVV4VEtKZ1oxQjM4cG9RUGMxR0VaVTRIbnlZejBRRThBak5yNjJ3VUxTSk9UWQ",
-    "CBMi0AFBVV95cUxNSURKYmU2aUlUMmRBWHFnWUQxd2RvWjNzWkU1UG1Rb0t5Y0ZwX0NtLVVtOHAxR3pjOXdjTVZpeWpVRUZ3Qi1ndzlRZTVZSkdPdGNnOFB1NVlualYtSkZkai1nZ1lwNUdLajRTbG0wVGg1dm5xYU9fVEFtQnl1TXJ6My16UE1uQXo3elBTSm1FM2tIR29vd1dHbF94WG5VbDJzYkZ1Nm9SRVA1Yk83Y2RrM0RZcGZqNU1ldUZPQjVkS3hsbnU2ZzhHcERzempBblBM",
-    "CBMizgFBVV95cUxOUFNycWhLRnRCcXNZVTl4Y3dmV2Y0aDBkY0p3RGF3d0VmbzN2c3pWc1FkTGdzQlhyUW5PVTRRYk9zcDVBMW1nSGhldl8tZ1dEQmpKSVhib0FqOGlwSFczekJrMHRWS0h4ZV9OUmcxN3lEd2s4eDkxeWlVa3pmVTRoS3JwcmFZdnBCZTdYT3dNSEl4VGY5SUpFZ2N6ejVLbEVuYkgtdjZudzlxUUhHM19uYkdXc1FVV2JSQ1JNVUFkWUtBS3hEN0hkb1lSLTNmUQ"
+    "CBMi0gFBVV95cUxQQ2RLRXNVWHkxR2V3Mmh3ZW1xcXJ5cnU1SG82TDZxMmNRZnR4SWFwVGwyM19rR1VHR2NMS2dxeEhydDRlZVlsOEpuSU43WjF0aDZkVVNOQl9WbDhTS1hYaC12VmhrQ2dfZ2tXRFNWNl95TlZRMml3ZDZXSTRvRTlJQUdqUXVMV0d0U2Y2M2hnSlp6NnFFVUw4bk1CLW15eXoxZko2OWc2UVBNSk5tMFBWYWlHeXhWTFdrMUVab3VpcXhVUUFmXzZHTWVnM2d1b1lyWFE"
   ],
   "daily": {
     "d": "2026-10-08",
-    "ai": 69,
+    "ai": 66,
     "staged": 0,
     "prio": 2,
     "lost": 0
