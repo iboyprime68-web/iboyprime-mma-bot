@@ -4912,7 +4912,6 @@
     0
   ],
   "yt_eval": [
-    "CBMifEFVX3lxTE5TUGRsOFREREVFRzE3em5vQWk3V1VCc0RLS0loNXI0dk8tUXJuQzlSeTA1R2QwWkZiWVlQUHVRb2RETklBdjd0bDl0Nm4xQlNRLVBNYkpFeWVHV3ZLYkV2RHNBX1pJWTN5cGVVV2k4RmhSMnl5ckJaX1BJWTc",
     "CBMimAFBVV95cUxPaEptYkFQNndwcms4aFQzYkF4YnZmT3l1ZWhBOVRJZzh2RXRDTng5dE9XWjVRRVpCc2hTZTBwWk9TNUZuTkJ3ZzJTV3RxZnQtaHRRc0p0RVp4bkV4cy15UTdIeVlYT2ZPV2l1M0pYQnE3VHBRMlRVaUJJcXFiUTRqOWdjLXUtSm9WRFRMTTdOS213a3Nlc2ZJaw",
     "CBMiUkFVX3lxTE5saWxKMVVjSUptT2hGQjFaU2k5Sml5bTFQdTBHcl96NXNva2pqRnNTdUxqTEQ0SUdnNy1PbG81bzVRSWlJRzFTTFJhdlRGamxib3c",
     "CBMiS0FVX3lxTE1CTnZtMnBtSmk0TnI0X2VycUNSTGVNRlFycGxHQVhrR3Yxb3BZeU5jWEYzYWJBeG4xbl83RmxJNEVhMmhaYVJral9iWQ",
@@ -6411,13 +6410,14 @@
     "https://www.mmafighting.com/?p=514655",
     "https://x.com/Home_of_Fight/status/2107847348650909916",
     "CBMikwFBVV95cUxOUzFlcHQtMmxSUUNxVnZKWjdONThEeEk4dUd5dWg3UXF1ZGpEaE5nVWUtSXFfLXptR1JUaTItVXlNaWtJNVNnb0FzSGV5UXYwTm1oMmZ6Qm1TeDBwQ1Q3ck1xbG96NGw3MngxZ1RuX3JUS2I1Y29SMDV4bEJ0Y1lMdURrSFRBcnRyVDlkMjd3SS1ZRzA",
-    "CBMirwFBVV95cUxOcXRld25DbmRmeTlfWTNTWVVoczkxbnU0VW1VM2dVZk5WR2Fwd0VwczBfdVZjQzU0OG1DSXRJOVVxNFhLTDdRTlhxcU1xQjZ3RWFCbWRNVmVwWURiRnpKbjZUYktiVWllWlJSTGNGYS02LW13UTY1dEZ4NEpiSlRqeDVSc3hiY2JsQ3kwYkhpeXZtU25UY1BwdGNkRlZtZnNyd2ktTnFUWmEybzhuRzlV"
+    "CBMirwFBVV95cUxOcXRld25DbmRmeTlfWTNTWVVoczkxbnU0VW1VM2dVZk5WR2Fwd0VwczBfdVZjQzU0OG1DSXRJOVVxNFhLTDdRTlhxcU1xQjZ3RWFCbWRNVmVwWURiRnpKbjZUYktiVWllWlJSTGNGYS02LW13UTY1dEZ4NEpiSlRqeDVSc3hiY2JsQ3kwYkhpeXZtU25UY1BwdGNkRlZtZnNyd2ktTnFUWmEybzhuRzlV",
+    "CBMi2gFBVV95cUxPZHF0d20xN3dWSmtSRHZ1SHR5QVVTVHExOXJVM2dTUnc1dng1WEN5bXJQcl9RdUFSS096RUd4ckdHSUszUmVtMkNwQ2E0bC04QkFnRUk0X1k2NVVlTG0xSzhveU9IV3YyVzlDM0c1Q000NC1sWlpSQ01fclBuSlBRd1RPSVJTeGNCamI2Rmp4ckd4eWtJeE0teGdYVi1aTnJEUUlVLVhDZy1IR2k3S3BIdl8yTUY0cE82T3EyNDFWdUdXd1hqeVU3YndKUjJsSHRLbDJEUTJHNXR1UQ"
   ],
   "daily": {
     "d": "2026-10-08",
-    "ai": 6,
+    "ai": 8,
     "staged": 0,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
@@ -7528,6 +7528,15 @@
         "strickland"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-10-08T00:23:45.342849+00:00",
+      "t": "Video: Nassourdine Imavov confronts Sean Strickland at UFC PI, restrained by security",
+      "names": [
+        "imavov",
+        "strickland"
+      ],
+      "img": "cutout:nassourdine-imavov"
     }
   ],
   "seed_pending": [],
