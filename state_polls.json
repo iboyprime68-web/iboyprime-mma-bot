@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 24,
   "staged_at": [
-    "2026-10-06T21:03:08.078972+00:00",
     "2026-10-07T16:38:41.022535+00:00",
     "2026-10-08T16:36:56.457839+00:00",
-    "2026-10-09T16:20:13.382907+00:00"
+    "2026-10-09T16:20:13.382907+00:00",
+    "2026-10-09T21:01:50.777459+00:00"
   ],
   "asked": [
-    "What is the coldest knockout in UFC history?",
     "Who is the biggest what if in MMA history?",
     "Who is the most dangerous UFC newcomer right now?",
     "Who is the most shameless fighter in the UFC right now?",
@@ -47,33 +46,34 @@
     "What is the most ridiculous thing Herb Dean has ever done inside the octagon?",
     "Who is the best referee in UFC history?",
     "Who is the biggest quitter in UFC history?",
-    "What is the most bizarre UFC moment of the last two days?"
+    "What is the most bizarre UFC moment of the last two days?",
+    "Who is the most overpaid fighter in the UFC right now?"
   ],
   "last_entry": {
-    "q": "What is the most bizarre UFC moment of the last two days?",
+    "q": "Who is the most overpaid fighter in the UFC right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Silva's Parade",
-        "emoji": "🎉",
-        "art": "Lone champion banner on empty parade route, confetti falling on nobody, dramatic streetlights"
+        "label": "Sean Strickland",
+        "emoji": "💰",
+        "art": ""
       },
       {
-        "label": "Hokit's Callout",
-        "emoji": "🎤",
-        "art": "Microphone on a stool in an empty gym, single spotlight, heavy bag in shadow"
+        "label": "Jorge Masvidal",
+        "emoji": "🏖️",
+        "art": ""
       },
       {
-        "label": "No Commentary",
-        "emoji": "🔇",
-        "art": "Silent television screen glowing in a dark room, remote control on the floor"
+        "label": "Jake Paul",
+        "emoji": "🥊",
+        "art": ""
       },
       {
-        "label": "Other",
-        "emoji": "🤷",
-        "art": "A giant parade float shaped like a title belt driving down a street with zero spectators"
+        "label": "Other (comment below)",
+        "emoji": "🤑",
+        "art": ""
       }
     ],
-    "gag": "a potato wearing a luxury fight robe making a dramatic walkout through smoke and spotlights"
+    "gag": "A cartoon sack of cash wearing tiny fight gloves, sitting on a golden throne, crowd of angry fans throwing empty wallets at it"
   }
 }
