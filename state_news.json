@@ -1,19 +1,8 @@
 {
   "seen": {
-    "2ba9fa607857d37b": 1791538151.8601859,
-    "de9815a65c6cdd07": 1791537779.4244204,
-    "c5f73e43a17a4399": 1791537654.6813848,
-    "0d3f37156639a6aa": 1791537403.446952,
-    "0ad9eb555491d45d": 1791537275.5160863,
-    "a167f0b863757387": 1791537150.9031801,
-    "8709e77499ab8fc5": 1791537150.9011068,
-    "42182d9e8967cb88": 1791536903.4648657,
-    "6f94bdbb02336975": 1791536716.853294,
-    "1269b642f8b20b07": 1791536284.7501848,
-    "8eb229960c732e57": 1791536034.2329042,
-    "d783c1918694bbc8": 1791536034.1883976,
-    "f4da7ebcdae94ef3": 1791535909.1237097,
-    "e48034f729ee41dd": 1791535784.1282606,
+    "0ad9eb555491d45d": 1791538337.6973886,
+    "a167f0b863757387": 1791538337.644789,
+    "8709e77499ab8fc5": 1791538337.6412873,
     "203441880df5fc55": 1791535166.2982533,
     "ffc92e7579ce084b": 1791535103.3607433,
     "31dd4d48b1c5c14d": 1791535103.3587234,
@@ -2499,11 +2488,34 @@
     "ed455a4f2059230a": 1791202717.6868954,
     "21e9475b2e65b28b": 1791202632.1700246,
     "f19b8e8dcfd08bf3": 1791202632.1407728,
-    "e40ce91d5a4635d7": 1791202501.3236594
+    "e40ce91d5a4635d7": 1791202501.3236594,
+    "d0997c36ca8ea9ef": 1791202248.7398918,
+    "35d136980be5b5dd": 1791202248.738578,
+    "e140d012f5f527bf": 1791202181.263967,
+    "6985d1d77a6aef2a": 1791202112.9925215,
+    "12b0bbd943f0c3c7": 1791202112.9652827,
+    "107299a87d46ff75": 1791201923.0713952,
+    "58be5d6d7db6a24c": 1791201855.0994117,
+    "46d408e0d2570799": 1791201728.0527704,
+    "54535d303c42d374": 1791201728.051047,
+    "2064a691395f0ca7": 1791201728.0474067,
+    "d9a89857d898b842": 1791201615.470493
   },
   "initialized": true,
   "v": 4,
   "recent": [
+    {
+      "t": "Adele Fornarino Will Fight for Flyweight Title at UFC BJJ 12",
+      "source": "MMA Sucka",
+      "ts": "2026-10-07T17:09:19+00:00",
+      "cluster": "c1ed285c787"
+    },
+    {
+      "t": "Natalia Silva Sends Message to UFC Rival Valentina Shevchenko",
+      "source": "heavy.com",
+      "ts": "2026-10-07T17:11:13+00:00",
+      "cluster": "cb55000f239"
+    },
     {
       "t": "Diego Lopes opens up on leaving featherweight for UFC 335: ‘We don’t have a lot of options’",
       "source": "Yahoo Sports",
@@ -4887,22 +4899,10 @@
       "cluster": "c1a79140033"
     },
     {
-      "t": "Brendan Allen's Evolution From Grappler To All-Around Mixed Martial Artist Stream of MMA",
-      "source": "CBS Sports",
-      "ts": "2026-10-09T08:01:08+00:00",
-      "cluster": "c3b9d2da21b"
-    },
-    {
       "t": "\"Pereira's Got That Championship Mindset\": Chris Weidman Backs Alex Pereira With A Game-Changing Plan For Sergei Pavlovich",
       "source": "NDTV Sports",
       "ts": "2026-10-09T09:08:41+00:00",
       "cluster": "c7e90b258f0"
-    },
-    {
-      "t": "Craig Jones Calls Out UFC BJJ Ref After Adele Fornarino Gets Eyepoked and Robbed on the Scorecards",
-      "source": "BJJDOC",
-      "ts": "2026-10-09T09:10:41+00:00",
-      "cluster": "cd1d0d6f130"
     }
   ],
   "digest_items": [],
@@ -4912,6 +4912,9 @@
     0
   ],
   "yt_eval": [
+    "CBMieEFVX3lxTE03S0lrbHlvNWJGdVE4Y0xzcHJkY0NEeG1QanFqZ0tpOEt4azhPTk5VNFhLLXZwYTFVYVVVb2dlcU5hbElTVjFTMzRaY1Z4UHRJVGxSTVNEMDdaVGZMRURLcTFjNUVmNVZzeTYyMk1vLS1ObkVsMjdYdQ",
+    "CBMinwFBVV95cUxOay1lUFBGaVNCckQ5Sm45MTljZTRYYmVfVXcwZTVLaDdhZGxkZ3lmZDdNS3htaDdoNmw5N1RhR2hCSll2MlNBQmR4d0dvYlhBRlMtQWdPNEx3Y05pNzk4ZFBnV3dBNEJ3dkVGRkZyaHZCOXJaWXlJVnppTEZYTlhvREF1NVJJY3FoODU4Qkp6UjhONWtSN1dmS1BMdFE0S3c",
+    "https://bloodyelbow.com/?p=335302",
     "CBMinwFBVV95cUxPUmhOZzlMaFV4VlB5bFB5Y1Q5RFpkbFFaT2VxZEFZcXJOWnBBRkl5UTduZ2pyVzRhN1E1WXQ0MDhJaFdWX0Itd1lVX1g3a00wc2JKYzJWTFRXOU1TZ2ZLeldnM2NkaWdtRTdUbUFobkZyVDRRcGNsZHFrbTYyUjFrMEVIazh1WmVoQ2Y1cVN0OEVZbGcwYTJjVEpMVDRqUVk",
     "CBMiowFBVV95cUxPODNOUmpMOTBHcG5DRzdzN3FFRDY4TG9oWmwycHBUN3YxRkIzZ2lKZ1JoT2c2VEhyNHZFYk9ENFF2VjAzWFVwMlFCODR6MUZIdmFQRmoxZmotUkxjTUtfT1BnNFBRRkY2YW9McElyLXNqZmM2dG56cVBtTWtqTUV2X21uRkxqeEFnS2FMc1dTY1NUdm96aXZic2xRRDlTZWxDRjRv",
     "CBMif0FVX3lxTE0xdU5Rd0lqTUhoYVZiWkVsdHRRNnJrbk1nZGNMcUtnVVVmTExlZGRkNzhLR01ObHA0QnB4d2dkeVB5a0tHMjlCWVBvbU5RYnBGRTdKaU9WS3NUS3ROeklQMmVod1BGSG4zSWV0QXJ0ZEcxbGRqZlI2TVpRNlVaRnc",
@@ -6408,14 +6411,11 @@
     "CBMiqwFBVV95cUxOalRPYmxCZUVWSmQ4UTFpdFZqbVYtX19PdmgtejBPZnNWV1RJckVyMEtHQUUzWlNsbkpsV0dDb2ZqZS1yUGxRVGFkWGxuUUJiVjRzcXFNMXBsZTcyMG9sTERnYlBUZkEybnhqcTJCVXZvcklySkhkYS0yOXhDbU14V3drRjN5NjQ1Q1RoZkIyUUNXbEFXRmE1elM5QlluSmZiOXZjWnVzZE5lMnM",
     "CBMijwFBVV95cUxQRXZudV9JZ2JyS0g3TjFpNFRMb0tHV1VFSlE5QW8tNmxOWkRodU5qeGpfRUJnNjlyWHJaWUZEeGlUbWlMeDhCeU1aTEhIWE1QRUluWVlPYVg0QTdaNDlGUDhEQUttdkV0S2phWVg4bXR3Y1pjd0l4ZFMxWi1oSnNtd29iNjhpczZldzlfaE1OOA",
     "CBMiwwFBVV95cUxQTVJXLVRNSFdIZVVjUWFpMmR4SmZGZXYzVXY2bTRRdmR6MVBKQjFqbm9BYlZqdXdLckszR0xuTzZSOWFUSjF1SGFublJjZG4tQXMxOURmT0NPZGszXzRKQ0k2eHFyNXhhT3B2V0tnWEtvMzhENzFqNll1QTdLSXJwV1Z5aUFISnVWRE40UWZ6TGNBQVJkVXJPZ2Y2UlF4QmhWMlJDRHRVckxRVlBsdElEUDFPZGJEcVcyRmc3R0JFM3VjRXM",
-    "https://bloodyelbow.com/?p=336123",
-    "CBMitgFBVV95cUxPWDZ3NFBxTVNFNEVUTHNtUE52RGx4Qzg2WnBzWE8wSDlleDRSZkUxaXVLV1RaQVhpbEpYZEFOa0lBNGZBanNIUnZ5RDJOMjZxTUdBSjBfN2stRDQxUlV2SGtvOGREOFdFVHBtdEdSVFdhUkVzUDlKTGdxb0tTVGpkNGUxYjcxX2NBMWdJVDNiRFJMQmtiUkF3VTBITTNkUGh3dUtqMHdiUjduTHpVbld2TVA5TjVIZw",
-    "CBMi7wFBVV95cUxQM1hZN011SGxSVG5kaTIzclA4VmdfM1Z2bERVRnQ5OHItTGdKd1RWalpyczNuRXVuTmt1LW1KOHA5enFLRXcwSjZ2akRZcXY2U0hPOWNlYndqOXhvLW01cnZpUmpuNVBObkhlTE5hSXV3NnU2WUFUYlZvbTlzSmZQTUxLUzRoc1U1NWJVOS16cmRfZ2x5TDQzdW5lOGp1eHZKRUFJSHN1czNtVzdDdVZVQWFYMVVkblhkY0Y1R19EcGwtTXY2a1UyNk1yVk85ZnZtdjFCS3hPeFBicU9WSUpTR3JSWDhfcE5SY0FLX3JTdw",
-    "CBMiyAFBVV95cUxQdFVqYWJWRi1pWURzRWlSQjUxQ2VzTkZXcmFoLUUyemtmSnhQQzRmcXhJT0FiSnZzUVVPNHU3Tlp4Q0E5Y2d5cEJPQkNyenJYWTNBMnlWM0dhNG9VU2xMLVM1ZV9zTkJtTTh6OGdKdVpiaGpvRE8xQ3laNWpubVo5aHpEUkVnMWllZ1R4aHNhMDZQMmJUMXRad21ncGZDX0t4Rmo5OEllZ1E5eTJJLUwwVGtmZW9lSWZVRXpOc3VPVWZsRlRJRW5SYQ"
+    "https://bloodyelbow.com/?p=336123"
   ],
   "daily": {
     "d": "2026-10-09",
-    "ai": 67,
+    "ai": 64,
     "staged": 0,
     "prio": 0,
     "lost": 0
