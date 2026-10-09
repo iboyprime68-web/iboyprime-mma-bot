@@ -1,5 +1,7 @@
 {
   "seen": {
+    "ad984123dba6ec5d": 1791575765.5680742,
+    "2e28b6b07316053d": 1791575765.5373857,
     "7cfbd57ffe77ac86": 1791575260.9320533,
     "f74ef81bdba0c728": 1791574945.2145646,
     "dfd8ec2ab9424bb2": 1791574500.0676534,
@@ -2497,19 +2499,11 @@
     "a7616b2f22c67963": 1791241002.5799716,
     "55a21f9c645d4f83": 1791240876.5694077,
     "a9382ff64d396842": 1791240751.2565873,
-    "aaa88ba75c472aee": 1791240191.0778034,
-    "d29ca7b40a057475": 1791239569.20827,
-    "10e1f7944087f97c": 1791239319.4783103
+    "aaa88ba75c472aee": 1791240191.0778034
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 334 loses lightweight bout after both fighters suffer injuries",
-      "source": "Sherdog",
-      "ts": "2026-10-08T03:02:27+00:00",
-      "cluster": "c53dc0256c7"
-    },
     {
       "t": "Brendan Allen sees just one path to victory for Christian Leroy Duncan",
       "source": "Sherdog",
@@ -4903,6 +4897,12 @@
       "source": "MMA Junkie",
       "ts": "2026-10-09T19:30:00+00:00",
       "cluster": "c3b4958f6d1"
+    },
+    {
+      "t": "UFC Vegas 122 weigh-ins plagued by several misses on the scale including seven-pound blunder",
+      "source": "BJPenn.com",
+      "ts": "2026-10-09T19:52:50+00:00",
+      "cluster": "cb71784242e"
     }
   ],
   "digest_items": [],
