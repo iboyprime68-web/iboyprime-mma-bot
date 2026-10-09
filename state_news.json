@@ -1,5 +1,8 @@
 {
   "seen": {
+    "4193447914203467": 1791558193.6581159,
+    "fa4c43160bc1be02": 1791558193.6104395,
+    "1880f309578f1139": 1791558193.609677,
     "35140a93b70e9b7a": 1791557733.5047352,
     "60458150c5784d65": 1791557669.934061,
     "889a5df5d6c5860e": 1791557605.1285589,
@@ -2496,10 +2499,7 @@
     "34d0df929cda8abd": 1791220049.3333035,
     "1df0f7c02feabcd4": 1791219980.2761858,
     "203067494c6177d3": 1791219912.4459941,
-    "ca449d08c3eb4d77": 1791219912.40447,
-    "6378c57825ed1f7f": 1791219847.7741337,
-    "6a26a294af2fc1a1": 1791219847.772349,
-    "77dac66568a88fe7": 1791219721.3597703
+    "ca449d08c3eb4d77": 1791219912.40447
   },
   "initialized": true,
   "v": 4,
@@ -2641,12 +2641,6 @@
       "source": "MMA Fighting",
       "ts": "2026-10-07T22:30:36+00:00",
       "cluster": "ca223359e27"
-    },
-    {
-      "t": "The UFC has had a significant drop in undisputed title fights from 2025 to 2026",
-      "source": "@Home_of_Fight",
-      "ts": "2026-10-07T14:55:44.485000+00:00",
-      "cluster": "c21afad99ab"
     },
     {
       "t": "UFC Vegas 122 With Awesome Prelims Saturday Night at Apex",
@@ -4903,12 +4897,18 @@
       "source": "UFC.com",
       "ts": "2026-10-09T14:52:56+00:00",
       "cluster": "cd1bef04ba4"
+    },
+    {
+      "t": "UFC had a backup plan for Diego Lopes if Charles Oliveira didn’t accept BMF title fight for December",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-09T15:00:00+00:00",
+      "cluster": "c16a7519dbf"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-09T14",
+    "2026-10-09T15",
     0
   ],
   "yt_eval": [
