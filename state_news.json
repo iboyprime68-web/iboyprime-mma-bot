@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3c7cc7ea33555d28": 1791670065.282608,
     "c9bb584916e1b110": 1791669976.3551419,
     "3a16ae70aff5c1c8": 1791669930.7341516,
     "107566e0bf3e6398": 1791669866.5521872,
@@ -2498,8 +2499,7 @@
     "d70aad9d33287dd5": 1791335748.7390065,
     "60e029041f0cf30a": 1791335721.4561796,
     "bff4e12a3e5b2358": 1791335674.718632,
-    "da7ac801725edd2c": 1791335609.1157176,
-    "15dd7248a4dcd24e": 1791335609.075959
+    "da7ac801725edd2c": 1791335609.1157176
   },
   "initialized": true,
   "v": 4,
@@ -4699,6 +4699,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-10T22:06:03+00:00",
       "cluster": "c1b2e3f7c03"
+    },
+    {
+      "t": "UFC Vegas 122 video: Daria Zhelezniakova quits after Alice Pereira's slicing elbow",
+      "source": "MMA Junkie",
+      "ts": "2026-10-10T22:00:00+00:00",
+      "cluster": "cbc384d444b"
     }
   ],
   "digest_items": [],
