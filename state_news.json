@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0cb06732444a33da": 1791605114.0528266,
     "1311090e82f42a9b": 1791598848.692223,
     "a080a51cd1a15337": 1791598723.1620915,
     "235c54b6e91e6c54": 1791598657.2467256,
@@ -2498,8 +2499,7 @@
     "75edeceefda8a0d0": 1791281339.8392212,
     "e35959d9183e871e": 1791281339.8388252,
     "ea586c823dbae06f": 1791281339.8367813,
-    "05a60e34f2da0cda": 1791281339.8050218,
-    "58cf6a873eec40b6": 1791281270.502297
+    "05a60e34f2da0cda": 1791281339.8050218
   },
   "initialized": true,
   "v": 4,
@@ -2917,12 +2917,6 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-08T16:10:52+00:00",
       "cluster": "c4992836f94"
-    },
-    {
-      "t": "Quillan Salkilld wants to fight Paddy Pimblett or Max Holloway on the UFC Sydney card in February",
-      "source": "@UFC_AUSNZ",
-      "ts": "2026-10-08T04:00:12.248000+00:00",
-      "cluster": "c83a441af84"
     },
     {
       "t": "Beloved UFC Fighter Ends 13-Year MMA Absence To Face Former Rival At Black Combat 17",
@@ -4897,12 +4891,18 @@
       "source": "Athlon Sports",
       "ts": "2026-10-10T02:11:00+00:00",
       "cluster": "c5cc24fd7d5"
+    },
+    {
+      "t": "Team Ismael Bonfim Explains Giant Weight Miss at UFC Vegas 122",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-10T01:57:22+00:00",
+      "cluster": "c47f67b6c9c"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-10T02",
+    "2026-10-10T04",
     0
   ],
   "yt_eval": [
