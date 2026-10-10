@@ -1,5 +1,8 @@
 {
   "seen": {
+    "d63dc10588aa5de6": 1791676081.239325,
+    "1459108e4355c8d2": 1791676081.228141,
+    "ffd40da27e074542": 1791676081.2200377,
     "7af0fe8d3f973081": 1791675953.6252472,
     "f01ce101954c92b4": 1791675907.6421642,
     "08d77d3fbe252433": 1791675327.7860112,
@@ -2496,10 +2499,7 @@
     "7fdd638cc0c757ce": 1791343528.711466,
     "5ae78803b9a568d2": 1791343401.9900758,
     "a8f4e85bcd1f68dc": 1791343251.4046905,
-    "3c32afdb87148c35": 1791343206.687205,
-    "869b4a2e3ebd281f": 1791343206.642458,
-    "6b157a9b716c96d3": 1791342954.9802961,
-    "34912728db8db19b": 1791342954.9765992
+    "3c32afdb87148c35": 1791343206.687205
   },
   "initialized": true,
   "v": 4,
@@ -2511,22 +2511,10 @@
       "cluster": "c0736e42e54"
     },
     {
-      "t": "Joe Rogan Secures Reported $250 Million Multiyear Spotify Deal Extension",
-      "source": "NY Fights",
-      "ts": "2026-10-08T23:46:17+00:00",
-      "cluster": "c2ec83aa406"
-    },
-    {
       "t": "Former WWE star Jake Hager reportedly has some vision restored weeks on from Power Slap eye injury",
       "source": "Bloody Elbow",
       "ts": "2026-10-09T00:00:00+00:00",
       "cluster": "c10732c86fb"
-    },
-    {
-      "t": "Sean Strickland blames UFC for ruining legacies: ‘They don’t pay you enough to walk away’",
-      "source": "MMA Fighting",
-      "ts": "2026-10-08T23:46:55+00:00",
-      "cluster": "c7f5b2d4753"
     },
     {
       "t": "Sean Strickland Says He's Done With The UFC And Wants To Box",
@@ -4765,6 +4753,12 @@
       "source": "SuaraGarut.ID",
       "ts": "2026-10-10T23:40:00+00:00",
       "cluster": "ca7a115c85b"
+    },
+    {
+      "t": "Alice Pereira has anger and message for doubters of bantamweight division",
+      "source": "USA Today",
+      "ts": "2026-10-10T23:44:47+00:00",
+      "cluster": "ca0ccdb2f6c"
     }
   ],
   "digest_items": [],
