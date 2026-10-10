@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ffbb02e736d7f786": 1791595755.8480735,
     "c47ef8ef57fbdf26": 1791595712.9603229,
     "4e2889a2397f6fc7": 1791595691.295674,
     "62dc8a685a0fd159": 1791592529.8542545,
@@ -2498,8 +2499,7 @@
     "7b465bdbba10989d": 1791272893.8892744,
     "3b2cbac0e177070c": 1791272893.8290036,
     "65eb0b2d1b415b66": 1791272893.8239284,
-    "25d32f85834c53bd": 1791271162.5693786,
-    "d441ec08bce5149b": 1791271073.0091727
+    "25d32f85834c53bd": 1791271162.5693786
   },
   "initialized": true,
   "v": 4,
@@ -4897,6 +4897,12 @@
       "source": "MiddleEasy",
       "ts": "2026-10-10T00:05:15+00:00",
       "cluster": "c188e5b4b65"
+    },
+    {
+      "t": "Ex-UFC fighter Tim Kennedy injured in Congo as Blackwater founder Erik Prince’s forces take heavy casualties",
+      "source": "New York Post",
+      "ts": "2026-10-10T00:30:00+00:00",
+      "cluster": "c962a66161c"
     }
   ],
   "digest_items": [],
