@@ -1,5 +1,6 @@
 {
   "seen": {
+    "12071676c461ae91": 1791668090.3826358,
     "36cff4fcfa1c765d": 1791668047.3950639,
     "b3eb980a2e0d981e": 1791668012.737009,
     "91162e1ca4ff5d7f": 1791668012.714402,
@@ -2498,8 +2499,7 @@
     "c6954cf20150c137": 1791335131.562408,
     "623435e8db719a39": 1791335063.647587,
     "17b91cf74ba6b351": 1791335016.040532,
-    "c6e10a9784e2faec": 1791334989.6769114,
-    "70f0a703393ea9cf": 1791334921.4831097
+    "c6e10a9784e2faec": 1791334989.6769114
   },
   "initialized": true,
   "v": 4,
@@ -4729,6 +4729,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-10T21:30:27+00:00",
       "cluster": "c7f0ee5c7eb"
+    },
+    {
+      "t": "Michael ‘Venom’ Page Leaves UFC, Signs Multi-Year Deal With MF Sports",
+      "source": "FightBook MMA",
+      "ts": "2026-10-10T21:30:54+00:00",
+      "cluster": "c25f376ef9c"
     }
   ],
   "digest_items": [],
