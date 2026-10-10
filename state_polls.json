@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 24,
   "staged_at": [
-    "2026-10-08T16:36:56.457839+00:00",
     "2026-10-09T16:20:13.382907+00:00",
     "2026-10-09T21:01:50.777459+00:00",
-    "2026-10-10T15:27:27.119777+00:00"
+    "2026-10-10T15:27:27.119777+00:00",
+    "2026-10-10T20:10:03.086701+00:00"
   ],
   "asked": [
-    "Who is the most dangerous UFC newcomer right now?",
     "Who is the most shameless fighter in the UFC right now?",
     "Who runs the lightweight division five years from now?",
     "Which era was the most fun to be a UFC fan?",
@@ -47,33 +46,34 @@
     "Who is the biggest quitter in UFC history?",
     "What is the most bizarre UFC moment of the last two days?",
     "Who is the most overpaid fighter in the UFC right now?",
-    "What is the most embarrassing thing Jon Jones has ever done?"
+    "What is the most embarrassing thing Jon Jones has ever done?",
+    "Who is the most overrated fighter in UFC history?"
   ],
   "last_entry": {
-    "q": "What is the most embarrassing thing Jon Jones has ever done?",
+    "q": "Who is the most overrated fighter in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Pizza challenge",
-        "emoji": "🍕",
-        "art": "A giant stack of pizza boxes toppling over in a dim kitchen, cheese slice sliding off the top"
+        "label": "Conor McGregor",
+        "emoji": "🍀",
+        "art": ""
       },
       {
-        "label": "DUI crash",
-        "emoji": "🚗",
-        "art": "A wrecked sports car bent around a pole at night, flashing red and blue lights on wet asphalt"
+        "label": "Brock Lesnar",
+        "emoji": "🐻",
+        "art": ""
       },
       {
-        "label": "Failed drug test",
-        "emoji": "🧪",
-        "art": "A cracked plastic sample cup on a steel table under harsh white light, one drop spilled"
+        "label": "Ronda Rousey",
+        "emoji": "🥋",
+        "art": ""
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "🤷",
+        "label": "Other",
+        "emoji": "🤔",
         "art": ""
       }
     ],
-    "gag": "A cartoon alligator in a tiny robe eating a whole pizza while a referee waves it off"
+    "gag": "A shiny trophy with a participation ribbon, surrounded by hype balloons deflating."
   }
 }
