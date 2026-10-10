@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bfde922b33b770ef": 1791674566.3738782,
     "189273dd25dc219a": 1791674500.6629841,
     "30c103386c656c85": 1791674373.1422524,
     "fbaf33d1d45ffde1": 1791674247.9196584,
@@ -2498,8 +2499,7 @@
     "5bb25012f260534b": 1791341392.2750213,
     "e6ba61d849a8fb6a": 1791341265.8467822,
     "15a7fd19116d7f36": 1791340952.0069537,
-    "0932e4b768ee9199": 1791340885.8291402,
-    "f31115b33ccd02f3": 1791340885.8034043
+    "0932e4b768ee9199": 1791340885.8291402
   },
   "initialized": true,
   "v": 4,
@@ -4753,6 +4753,12 @@
       "source": "CBS Sports",
       "ts": "2026-10-10T23:00:33+00:00",
       "cluster": "c2be26958c9"
+    },
+    {
+      "t": "UFC Vegas 122 highlight video: Francisco Prado unleashes onslaught of punishment onto Ismael Bonfim",
+      "source": "Sherdog",
+      "ts": "2026-10-10T23:18:48+00:00",
+      "cluster": "c879a601f77"
     }
   ],
   "digest_items": [],
