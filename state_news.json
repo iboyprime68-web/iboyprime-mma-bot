@@ -1,5 +1,6 @@
 {
   "seen": {
+    "64a3d6a59decc136": 1791673180.329474,
     "1e055166528c3dcf": 1791673114.5454323,
     "9ac3808d2036a341": 1791673114.5095403,
     "ca01bb93b77c8b2b": 1791670581.247382,
@@ -2498,8 +2499,7 @@
     "456682d4d8be40f2": 1791336747.2831643,
     "e3926b8c9a590d2b": 1791336540.8998969,
     "07d00cf06639b7c6": 1791336034.7694983,
-    "f998552903a18e7b": 1791335966.0738125,
-    "34b80c3577377b1f": 1791335966.0292864
+    "f998552903a18e7b": 1791335966.0738125
   },
   "initialized": true,
   "v": 4,
@@ -4669,6 +4669,12 @@
       "source": "Sherdog",
       "ts": "2026-10-10T22:02:33+00:00",
       "cluster": "cde1fbaf355"
+    },
+    {
+      "t": "Tim Kennedy health update: Ex-UFC fighter stable at Walter Reed after deadly Congo ambush | Hindustan Times",
+      "source": "Hindustan Times",
+      "ts": "2026-10-10T22:14:16+00:00",
+      "cluster": "c6126b13f52"
     }
   ],
   "digest_items": [],
