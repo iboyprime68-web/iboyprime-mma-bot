@@ -1,5 +1,9 @@
 {
   "seen": {
+    "ee79900abfa2fb9f": 1791655487.6841474,
+    "35e1e861b894406a": 1791655487.6561103,
+    "04bfaaa9bc485197": 1791655487.6553762,
+    "02232e6a57c44e53": 1791655487.653481,
     "c8fc774b3eb2485d": 1791655360.594578,
     "4ff1a48a6f13db3b": 1791655360.5939193,
     "ce89395da3ff3352": 1791655360.5899096,
@@ -2495,11 +2499,7 @@
     "611c0456c26da73c": 1791322892.6839983,
     "071e10bf1d72116e": 1791322892.6830804,
     "5cfd7bbdfad4420e": 1791322892.682005,
-    "e8cabbd37e1fdfd6": 1791322765.4129145,
-    "a3e85dfc4b00df03": 1791322765.412017,
-    "8f1c878b2ae142f5": 1791322765.4110882,
-    "167c1d52833cf6a5": 1791322638.777388,
-    "1900da5c34f22584": 1791322638.7764356
+    "e8cabbd37e1fdfd6": 1791322765.4129145
   },
   "initialized": true,
   "v": 4,
@@ -2509,18 +2509,6 @@
       "source": "MMA Mania",
       "ts": "2026-10-08T18:05:51+00:00",
       "cluster": "cce53f866ca"
-    },
-    {
-      "t": "UFC Needs to Pay Up For Sean Strickland",
-      "source": "Lyndy's Sports Annuals",
-      "ts": "2026-10-08T18:03:00+00:00",
-      "cluster": "cd8a2f949e0"
-    },
-    {
-      "t": "Natalia Silva lets former champ Valentina Shevchenko know what it is",
-      "source": "MMA Crossfire",
-      "ts": "2026-10-08T18:04:13+00:00",
-      "cluster": "cfdc8818cb1"
     },
     {
       "t": "Kai Kamaka III returns at UFC Fight Night vs. Andre Fili on Saturday",
@@ -2533,12 +2521,6 @@
       "source": "MMA Junkie",
       "ts": "2026-10-08T18:40:00+00:00",
       "cluster": "c74b7d10e5c"
-    },
-    {
-      "t": "Rony Jason",
-      "source": "UFC.com",
-      "ts": "2026-10-08T18:04:38+00:00",
-      "cluster": "c9b794887c4"
     },
     {
       "t": "Sean Strickland Says His “Heart Isn’t in MMA Anymore” as UFC Pay Frustration Grows",
