@@ -1,14 +1,6 @@
 {
   "seen": {
-    "254faa5d7ea48b3b": 1791658407.7792208,
-    "db9afd2de094261f": 1791658320.9301875,
-    "997706861fea46f5": 1791657652.213025,
-    "814ec9718243f312": 1791657273.843199,
-    "b49c37b392a96ac6": 1791657021.5509605,
-    "0c49d117da4c0bee": 1791656894.4516146,
-    "44dc402e1566b80d": 1791656780.09709,
-    "f952ae76b0698750": 1791656629.7633698,
-    "8a9f84bc0a0b75c8": 1791656502.6071467,
+    "44dc402e1566b80d": 1791658656.2050846,
     "7838448a2a40543f": 1791656125.4175289,
     "9ebfebd58a917982": 1791655998.4706416,
     "fa86e0b8680e0190": 1791655746.438016,
@@ -2499,17 +2491,19 @@
     "280463cae24b7e3a": 1791324268.3267887,
     "a58a1c06133df7bf": 1791324268.2958896,
     "0fe17cb9e844f71d": 1791324220.5489385,
-    "eb15b40731ba1947": 1791324193.2095742
+    "eb15b40731ba1947": 1791324193.2095742,
+    "1d471cefaa13cfb9": 1791323539.273901,
+    "db70438797929316": 1791323471.7352571,
+    "2a6d05273055a2ae": 1791323280.587598,
+    "fc091df3fb8decf0": 1791323216.1805437,
+    "54ed4949b6b2f4d4": 1791323216.1796565,
+    "4c20057c374f840e": 1791323216.178711,
+    "9e398e4ae9f25c09": 1791323147.0602531,
+    "954f073bcf1f0be3": 1791323020.0086713
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Merab Dvalishvili Reveals the Mistake That Cost Him Against Petr Yan: Exclusive",
-      "source": "Heavy.com",
-      "ts": "2026-10-08T18:54:13+00:00",
-      "cluster": "cc5d95b5b22"
-    },
     {
       "t": "UFC commentator picks his 2026 ‘Fighter of the Year’ to challenge Natalia Silva next",
       "source": "Bloody Elbow",
@@ -4761,12 +4755,6 @@
       "cluster": "c3d8e959d0b"
     },
     {
-      "t": "Alexander Volkanovski Makes Honest Admission Before UFC 333 Title Defense",
-      "source": "LowKickMMA.com",
-      "ts": "2026-10-10T18:17:03+00:00",
-      "cluster": "c8147b26a57"
-    },
-    {
       "t": "Jorge Masvidal: “I’ve been talking to the UFC, things have been going really well you might hear something sooner rather than later",
       "source": "@Home_of_Fight",
       "ts": "2026-10-10T16:26:28.096000+00:00",
@@ -4780,6 +4768,8 @@
     0
   ],
   "yt_eval": [
+    "CBMijgFBVV95cUxNOW1CcDltd2N5cHhKQXJESG9Tb1NoUXlkYXpETmFyOVRSaDRTRlZIYktsZjl1UDNpWV9tblRsNXlkQTAxaHByS25kN1huYm5tRFNPNURGSDEzNU9KTFAzNDV1RlYyTGNtQzk1Ql9NNXpoQkFBZTJRcU9ySV9mUlRyei1idHd5X3kxakZVT2FB",
+    "CBMixgFBVV95cUxQMzdYb1pLbi1hbnVKWWtMek1zeUZqdVBmb1dzbmR3OEZ4Ml9iR2tLbDk5dVRSOU9GTE5XN1hIRzlHR0tVeS0yTnFpLWZ5SlJBbjNERjZYalI3SFk2dHltaHZ2eGltWWFBWlJNNHZYNXp2XzZXUEdBUlh5YmZKY3VIeWpySHNYU1FmSS11WFpaZVdzLTFvdTNTZ3FETkJDUm5lMzEydTVQVk5DVU1DaTJFVnNMSjBXNnBueUZsb2pnczFGb2R4Snc",
     "CBMigAJBVV95cUxOcGdhcHNJblFQeXZGc1lxR2lTS1lIdUxOMlQ3bXRsSFppQ2ZRM0liRGhEVWFKSUJWem9VVFlvMTZUYlNZT3h4bUMzWHpvT0tEbS0tcDJaWEJIOWgwcVNVZXZKOWJBY1AxdHRPdTZsajFtSUxUQ3MwYUxqV0NhLW5XcWNwUFdBVWpteWxxeVhwRFktWUhYU0RLemlidm44ei05NEE0TDZ3N1NVZWo1dzFidnBlQi1pTG1yYlpzZGR5ZElXNXk5RU4zMnJmeDhrZ0RDV2Jka2I4dHlTZGItbXRUWDBtNXJUUm84VE9HSHhyU2IxdFJ3TU53b3p4RlB4alV2",
     "https://www.sherdog.com/news/news/Josh-Hokit-accuses-Tom-Aspinall-of-faking-eye-injury-to-leave-UFC-202993",
     "CBMitwFBVV95cUxOSlFLU0tubURVc2ZOLThObTNHdjJKV21oSVJNRHhydWpoYlg2WVBsUkdxaTZFZ3Y3enBUMC11UmRucTRYd0dQZ3A3d2RLS1Radm9uUGZIdHphM3dZdkpJdGhjYy1hQzJjSFhpcXM0UXRlTFFKQnJCQjkwT0VqVWpueXZlV1BhZWwtV0FQNlJobXNDbkFCMndXYU1GdEQ2bWNZaEllYTJOLVlmWkV5U3JGS0VOQ2VpUVU",
@@ -6277,13 +6267,11 @@
     "CBMiqAFBVV95cUxQbG9WYzg3NHVNTHB0cVpkd2Rvd3UyVF9Gb2hnSmlOcXVOY1lKdllLWFFfVTBpcXZYUFZSLUdnZlZrWWZWOHM5SmRTSy1Jd2pYLTN3eFJ6cllNaGRINktIMXZTUUkzZHlFQ25XZmhaZFFNTUhCOVBYRWZtdWlOeTNzWFdwOHNRTzJNUko4WkdFTlR4NjRvbXRnR1lZS0pLY0h6UTE5ZjNhTGc",
     "CBMilwFBVV95cUxNQXFNWFJnTnNGSjc3d0dDX0hpMGh3SWdrNXE2NDFNaVl2bmNPSVlPT2Nkb0l1UWNDZlBHemlXQ3cxUEJFY1dWODJhb082OWJIX2hnRnVoV3JfNkxOQlU1aUk3NDNhMy1HdEI2SG9qVEo1TndzZzJEd3FDMDVINVQtX09DbnkxSnoyNkQ0WUY2VkVXMkdyc0Fn",
     "CBMiswFBVV95cUxOcVRsTVBxNkpTS29VWFpuY0dOMlp3QjdNcjdPR3RPMXAtT2tZTEZIbUFYemRoREswYU93bnE3ZjQ4a1ltRlFkcUVkMTBTSjhDWHg2SGQ0V0tBc0haS2tBQnFzNkJsS2NwSHdRdTVjNUFkX0lhQk5CWndCX3FLdFNtTzFOQU5DdFA2R3Y3VnZDcmppX05vY3RTRmxTNEh1VV9oTXhRWExJellaYVczc2NGTVFtYw",
-    "https://www.mmamania.com/?p=477991",
-    "CBMiowFBVV95cUxQTzBydzYyVnR2TEtlYXJheTc0bEpBaFI1bHVZVXBBNnBXZFJURDh0RkNBMUdDbXlSaUd0TzAzd1YzM2ZTV3Uwc2c5eUJWRzZqcjhiaE9XbnVIZUxxNnZCNUxkcENhRFFMR1hITFBRNVJDLXFkeWJiSzZ6QVVwaFNZRnJsRUd2YTBRenBMT3ZXQ19UTTE3RGp1VkhjMXpJLVJkY3Y4",
-    "https://x.com/Home_of_Fight/status/2108957344407134404"
+    "https://www.mmamania.com/?p=477991"
   ],
   "daily": {
     "d": "2026-10-10",
-    "ai": 114,
+    "ai": 111,
     "staged": 0,
     "prio": 0,
     "lost": 0
