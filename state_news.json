@@ -1,5 +1,8 @@
 {
   "seen": {
+    "c8153f6033b6cdd4": 1791633619.8627903,
+    "c214051592130546": 1791633619.8516612,
+    "a0ddf61ac7ca00d9": 1791633619.8293328,
     "4f41d27eb8115b56": 1791633424.9806879,
     "2b150335a9b42918": 1791633234.8195426,
     "4f1f1dee15eb1d51": 1791633041.2972965,
@@ -2496,20 +2499,11 @@
     "cf1ccdf11ad46e6d": 1791301794.2370005,
     "405e56f56ffafdea": 1791301603.2385893,
     "3e35b52a64bcc881": 1791301287.120211,
-    "6a2676ab58316e48": 1791301157.2682445,
-    "cc98892304e5db0e": 1791300969.3462918,
-    "ead0b04624370019": 1791300843.5991292,
-    "165e72a00571bcba": 1791300717.5522394
+    "6a2676ab58316e48": 1791301157.2682445
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC And Cleveland Clinic Renew Partnership - Fightful | WWE News, AEW News, Pro Wrestling Backstage News",
-      "source": "Fightful",
-      "ts": "2026-10-08T14:16:23+00:00",
-      "cluster": "cc1a9234b84"
-    },
     {
       "t": "Joe Rogan Renews Spotify Deal",
       "source": "Yahoo",
@@ -4903,12 +4897,18 @@
       "source": "MMAWeekly.com",
       "ts": "2026-10-10T11:53:00+00:00",
       "cluster": "c568bb00fe6"
+    },
+    {
+      "t": "Streamer calls out Alex Pereira to his face and gets put in his place: ‘You’re gonna get hurt’",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-10T12:00:00+00:00",
+      "cluster": "c6bdb103cbc"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-10T11",
+    "2026-10-10T12",
     0
   ],
   "yt_eval": [
