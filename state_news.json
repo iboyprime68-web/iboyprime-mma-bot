@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bfa9300210b79158": 1791676208.7479258,
     "d63dc10588aa5de6": 1791676081.239325,
     "1459108e4355c8d2": 1791676081.228141,
     "ffd40da27e074542": 1791676081.2200377,
@@ -2498,8 +2499,7 @@
     "8c3d5b23bab81a6c": 1791343596.4335115,
     "7fdd638cc0c757ce": 1791343528.711466,
     "5ae78803b9a568d2": 1791343401.9900758,
-    "a8f4e85bcd1f68dc": 1791343251.4046905,
-    "3c32afdb87148c35": 1791343206.687205
+    "a8f4e85bcd1f68dc": 1791343251.4046905
   },
   "initialized": true,
   "v": 4,
@@ -4759,6 +4759,12 @@
       "source": "USA Today",
       "ts": "2026-10-10T23:44:47+00:00",
       "cluster": "ca0ccdb2f6c"
+    },
+    {
+      "t": "Niko Price Gets UFC Farewell Fight Against Leon Shahbazyan at UFC Vegas 122",
+      "source": "JournalArta",
+      "ts": "2026-10-10T23:23:21+00:00",
+      "cluster": "c1fc543e9c0"
     }
   ],
   "digest_items": [],
