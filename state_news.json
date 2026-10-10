@@ -1,5 +1,7 @@
 {
   "seen": {
+    "b2ad1470058581d6": 1791651382.4962087,
+    "c4e8ad3327a30672": 1791651382.4750674,
     "fee56497268eece3": 1791651004.6913044,
     "d4943fe8649652a1": 1791650936.722922,
     "dcede220eae912b2": 1791650685.29945,
@@ -2497,9 +2499,7 @@
     "d8259c4ce77fdac7": 1791316992.011633,
     "a5b42167a521d2b9": 1791316992.0085266,
     "28aae9253df4dcaf": 1791316992.0073028,
-    "2e262a6bc4dfeaf3": 1791316992.0043619,
-    "b0f4faf8e27d1e7b": 1791316992.0015333,
-    "33f15ce0c883e9ec": 1791316991.9996297
+    "2e262a6bc4dfeaf3": 1791316992.0043619
   },
   "initialized": true,
   "v": 4,
@@ -2527,12 +2527,6 @@
       "source": "MMA Sucka",
       "ts": "2026-10-08T17:14:27+00:00",
       "cluster": "c07937cecb9"
-    },
-    {
-      "t": "Ketlen Souza | Ready To Make The Jump",
-      "source": "UFC.com",
-      "ts": "2026-10-08T16:50:56+00:00",
-      "cluster": "ca4668fe6e7"
     },
     {
       "t": "Jake Paul Reveals His Hit List, Including Multiple UFC Superstars",
@@ -4903,6 +4897,12 @@
       "source": "WBAP",
       "ts": "2026-10-10T16:36:12+00:00",
       "cluster": "c93050b6d7f"
+    },
+    {
+      "t": "UFC Fight Night 290 Results (Live)",
+      "source": "MMA Insight",
+      "ts": "2026-10-10T16:31:16+00:00",
+      "cluster": "cc98a1f32b9"
     }
   ],
   "digest_items": [],
