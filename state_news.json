@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c04fe3f0e57f87a5": 1791688318.2882698,
     "4982b4c1de342051": 1791688251.340096,
     "c90c8f60b8e0f062": 1791688251.3279989,
     "9d630f13b0c5122e": 1791688251.3193643,
@@ -2498,8 +2499,7 @@
     "051092100dd1bf93": 1791356983.913093,
     "28375d4e73fcf606": 1791356791.1823816,
     "da7aa09f368011b4": 1791356723.2659702,
-    "d204d284fe3ec84a": 1791356723.2318738,
-    "2d77b651db917da1": 1791356233.541489
+    "d204d284fe3ec84a": 1791356723.2318738
   },
   "initialized": true,
   "v": 4,
@@ -4795,6 +4795,12 @@
       "source": "SuaraGarut.ID",
       "ts": "2026-10-11T02:59:28+00:00",
       "cluster": "ce07a17fadc"
+    },
+    {
+      "t": "UFC Vegas 122 results: Brendan Allen stops Christian Leroy Duncan with late choke, calls out ex-champ",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-11T03:01:00+00:00",
+      "cluster": "c8dc84f85d3"
     }
   ],
   "digest_items": [],
