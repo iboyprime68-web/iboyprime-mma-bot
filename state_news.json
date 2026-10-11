@@ -1,5 +1,7 @@
 {
   "seen": {
+    "dd984ad4aedca28f": 1791702066.5524635,
+    "9761d285fa399c52": 1791702066.5116572,
     "9c4cfaa2ad7ef883": 1791701014.481473,
     "45430d650989ad6c": 1791701014.4797366,
     "c546ed7d78696b2c": 1791700948.133892,
@@ -2497,9 +2499,7 @@
     "38ac05731ab0dbdb": 1791378223.923593,
     "e49628ebccd9d8b9": 1791378223.9227893,
     "966e42133181cbcc": 1791378176.551302,
-    "18fd792cea2c287d": 1791378150.7249036,
-    "271b3131f1f664ba": 1791378150.6809225,
-    "f270b16c99d94789": 1791378150.6775982
+    "18fd792cea2c287d": 1791378150.7249036
   },
   "initialized": true,
   "v": 4,
@@ -2581,12 +2581,6 @@
       "source": "EssentiallySports",
       "ts": "2026-10-09T09:55:00+00:00",
       "cluster": "ced8078943c"
-    },
-    {
-      "t": "Mikey Musumeci drops UFC BJJ title to ‘prioritize’ MMA, ends serious jiujitsu career",
-      "source": "MMA Mania",
-      "ts": "2026-10-09T07:00:05+00:00",
-      "cluster": "ce12f4958f2"
     },
     {
       "t": "Sean Strickland: ‘My heart isn’t in MMA anymore’",
@@ -4831,12 +4825,18 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-11T01:00:00+00:00",
       "cluster": "cbd3e4dbf47"
+    },
+    {
+      "t": "Brendan Allen earns witty reply from Michael Bisping after Dricus du Plessis callout at UFC Vegas 122",
+      "source": "MMA Sucka",
+      "ts": "2026-10-11T06:59:22+00:00",
+      "cluster": "c9bac69f834"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-11T06",
+    "2026-10-11T07",
     0
   ],
   "yt_eval": [
