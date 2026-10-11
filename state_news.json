@@ -1,17 +1,6 @@
 {
   "seen": {
-    "58cb3da36c2af76d": 1791683780.0005887,
-    "108e371f70f0b609": 1791683711.9965672,
-    "77d938427485f626": 1791683583.9231493,
-    "fe8a654ddde770fd": 1791683519.9243174,
-    "b6e909aa0738e24e": 1791683452.0673208,
-    "48adf1dab8bde34a": 1791683452.0452895,
-    "6c9a19d1d29b7438": 1791683262.2800574,
-    "7b0a04443f8ce042": 1791683198.106358,
-    "f8f255dde2ecf4ec": 1791683198.101517,
-    "b7b627a91be97aac": 1791683131.5853696,
-    "e8358761b52cf0ff": 1791683064.6209075,
-    "90c56ba6e41b6db0": 1791682937.5064056,
+    "0a65ab65257df0ac": 1791683900.6325998,
     "897caafc2b83f063": 1791682810.7946851,
     "184873f271201f33": 1791682745.9472265,
     "952ed0fb7b97a1d1": 1791682492.078474,
@@ -2499,7 +2488,18 @@
     "fe2909d1b93a22d1": 1791351737.1161096,
     "c7ddcbeabd051408": 1791351737.0689085,
     "8b243f055cfe0a96": 1791351475.7676778,
-    "15d4097acf09fc04": 1791351214.5518944
+    "15d4097acf09fc04": 1791351214.5518944,
+    "2752b411ef74cfb1": 1791351123.6940923,
+    "1266328d449f7ac1": 1791350817.636294,
+    "403c858689e5110e": 1791350817.5881495,
+    "35138b342820de35": 1791350683.036578,
+    "6869a58ae86bacbf": 1791350486.208645,
+    "3a0274bb3fa44568": 1791350351.8293717,
+    "e8a1937b39e165ba": 1791350220.7911105,
+    "84e9bc4d336e58d3": 1791350194.2859287,
+    "0ffdff30b069c7f7": 1791349955.8800116,
+    "b6f89f656c8dd47c": 1791349886.2572467,
+    "0501207cc1a9e299": 1791349313.8525789
   },
   "initialized": true,
   "v": 4,
@@ -4779,28 +4779,10 @@
       "cluster": "cc1dd673aa3"
     },
     {
-      "t": "Veteran Fighter With Most Finishes in Middleweight History Retires After Sixth Consecutive Loss at UFC Vegas 122",
-      "source": "EssentiallySports",
-      "ts": "2026-10-11T01:36:00+00:00",
-      "cluster": "c0a178cb430"
-    },
-    {
-      "t": "Kai Kamaka Targets UFC Fight Night 290 Win Over Andre Fili",
-      "source": "SuaraGarut.ID",
-      "ts": "2026-10-11T00:46:13+00:00",
-      "cluster": "c8c2f545359"
-    },
-    {
-      "t": "UFC Vegas 122: Loopy Godinez Bloodied but Victorious Over Ketlen Souza",
-      "source": "Cageside Press",
-      "ts": "2026-10-11T01:29:19+00:00",
-      "cluster": "cd07406a346"
-    },
-    {
-      "t": "Ex-UFC fighter among victims in Congo ambush of private US forces as 20 killed or injured",
-      "source": "AOL.com",
-      "ts": "2026-10-11T01:35:00+00:00",
-      "cluster": "c504b678dbe"
+      "t": "Dana White rips media over Eddie Hearn fixation ahead of Fury-Joshua",
+      "source": "Sherdog",
+      "ts": "2026-10-07T03:24:05+00:00",
+      "cluster": "c4f6f2a36ef"
     }
   ],
   "digest_items": [],
@@ -4810,6 +4792,10 @@
     0
   ],
   "yt_eval": [
+    "https://www.sherdog.com/news/news/Ilia-Topuria-is-back-in-the-gym-after-brutal-Justin-Gaethje-loss-203023",
+    "CBMimwFBVV95cUxNbmFwZkhzU3BwdEhlZ3JFN2xwdWdWSVQ1NGVVMFJMR3ZBMlU2T3htek1TeW1DVElhRFZET1hUVEJ0R3h3TnI0Q1YxRlByQnhjX00zOTd1T0hTM3F1TFZTdDhBR19FQThMUUt0Y1ZUOTVVNlU3OWRFdFowTVRvOTVvcjVGRnRNUUowdVNhNWltYXMxdkU5TEh4Z1dfZw",
+    "https://www.sherdog.com/news/news/Dana-White-confirms-he-remains-involved-in-Las-Vegas-NBA-expansion-bid-203022",
+    "CBMiswFBVV95cUxQamRRNTctc1QxamhwbG9oN2lKMGlXeUQzVFZibXY0dFViQ09EVW1QMU9hTXVGM2VEXzlqN19BVV9OQ2R2ZmNWMXU2QTV5Mjc2d2JWTm9TUWxVMXFuMm5LQWpNYUtFSjBsVlhMbWw1ZF90YnBlb3NQN2duV2pjaGw0Qy04OTRKcVhLekJmSUJEd2hBT21hWE0tNVdvVFBOLUpjTmNPZHMzWHd6TGV2VXlQbjdfTQ",
     "CBMimgFBVV95cUxNZjJQeF96aWxBMWhUUzRFeHpCQUs3Uk50ZVBlaW5UakgzYjRjeWE3ZGplM2djZEx1MEFMTjVwRHlMQVlKMUxPRnliZXVRc2NITm11WnRFYV9YZGY4YUFPUGhOWmNVZVZ2U0hCQnVjOVdCT3lJMVFXeHBMMWZER09SV3VmMWVZYjdhV2xnRW96eEs5b2Fidjl6OTFR",
     "CBMi4wFBVV95cUxON2x5LWh5Mm5KVnNlWFZPY1NSX3R4RXNsdmR6eDRocGUzbXRNVHhqMjJLOHVFZnp2M0sta29oOWtua1lyM3RxZ2ZndmVKUk54Tk5oV0NBaGRkT01sX2lpQmIwbGRwTFVtRHhMSWVvVkJWeHhJUlpYNVYzVEpwYWtJVHRGNTlJV05aUDJxNVV0YXF5NWhHeG1kdFJXdWpUVWNQd1h1cmxrRl80S0tvXzJHek9ERDZuQ3VfdkFfTkJWZzFhS3dJd2ZqaldVdkZyeUVGLXRvYVI3cXo5X0Itc05nWF92bw",
     "CBMivwFBVV95cUxQZjIxZ1pxeEYzOHk0aWxFMlhsSzVCZ1hueHJsV2dNWmR4UDhIeFczX2lmU3JYVXVjTTBoaG5rT2EtZG9tdVhNakFyN0hfbVVsMW1WSjdDd01RVjgySTd2RXdLeVIwV1ZhZDJBVWZFT3laZ2tFR1paYnMwcUhOQXZOY0lVbHZYc29DbzJJYUtYRmtUSHloLUlwVWtQY0hPNndwRGZRYklKcFVkaHVCOWlOZTlOWHFra1FsYkNCZVoxMA",
@@ -6305,15 +6291,11 @@
     "https://www.mmamania.com/478024/highlights-open-ufc-vegas-122",
     "CBMipwFBVV95cUxNZTAwSVFwQ3d6VG4td0ptQXhEZjZkZmVRZ3lUZTlqbVdsVF9rRE9qNlc2Y1NfMkI1Wk9RM1pYTnJ1ZmVGODFpZUVPdmFWUjhlZklCemJYZDBJVkJCQndVT0dwV2NBVzhHcHJFTVdEVUZraDkyVVFxVWhESlhPMGJGQW0yUXFrWVl4d1ozZFpVdlpXYXpRRkdpZXg4b2w4cXl5ZWtsNnk4NA",
     "CBMipgFBVV95cUxNaHdpeHBKN2VXMDJPaXlTN1AtTUdjMVNtMWpYZkRvT09uNzdEelYybkpGY2VUSXY2NVV6V3VIYUowQm1IOXJYQUQ4WUw3aVNaMnhuOTJoTjd5LWRLQ0RBdVFCcTJhQ2NZcjd4SkpJU1ZzM0RIOFBnblZMd2xCa0ttZG13UXgwaldmVXBZSjhMSUxjRUJZNWJ4bGZrUkwwT2NVWXU2RGhR",
-    "CBMiR0FVX3lxTE9CdnRFQndQeHRINjNzU2c0MXJ1ek5mSVpOT01YOW1TalNrZldNdVJyUmxNSHlpQlliblJaMmNPaHJPYUFSeDlZ",
-    "CBMi8gFBVV95cUxPcTVEOGVER3dnTEN5eFQ0WWhPRWFQbUxWT3VHX1V0TjBfdWE3WUF6Z2haSUlPQ0lWU0FrSXpkbkxQLS1PMElUSXdvbFJ4RlZnMmhwdUg1T3F1ZDEwSVZ5NG9HM1dvZ0FETzZMOGJScXFtT3M0NTNKMzVNR193bDhnTUlLbkNCTXg5VmFfNWx3U2RxYWtqeHhQVW1HZURadEMxQ2NHa1RXUWxhdVdCRmRkWmowdEZ0RGNCZVpOclBUOEI2dDdab1c0OFY4Sno0MXFjaEpVTklsdEJicGJGN2VuLWU0RzJQWlI4OVRCNHE1R3VNdw",
-    "CBMiZ0FVX3lxTE1kcVlqQVgxeXpZd0FUd0dCSmlDV3ZWM0FrNTFMeURGVEVZUnNnZmZsbDZ4NEkzanc4S05fbHYteW9VdjBnNi1SV1pLZGhPRHJKcDFJSE9qRFAwSEl0THctOTM3S19Hdms",
-    "CBMiqwFBVV95cUxOTnJjU2FWZE9udjJMazZkRDdhNDNGS29idENweERISmk3bDB3Umctdk5sTkp4RUxLMVRqbDVCZUpzMjlnQXQxbEk5Qmp4bEE0ZjdHSGNTb0JpbTI4TnpZdk9ZVUhpbDZ5aHdQVTNjYXhaRlI1c01kX29zQkk1OHBXbktYenI0WkNYb2xxX2M1Sm5wT1hMbnl0Ny1sTTc2cGFyYjhuY28zcFhPaVU",
-    "CBMifEFVX3lxTE5fSVZmQUxYdmpob0w1UGp0QXV2OTNaTWlNZmM4V3N4NDlyczcwU0JCYUVFZWx2d0RIaFVWc0o5aXVHdVBFbGNPejRRbEJRTDVJTHh3SEpNUVNlcmhlbFUwaFhjWmp4Uk96clhpZXBKTzBobXNMTVJRWnNvYy0"
+    "CBMiR0FVX3lxTE9CdnRFQndQeHRINjNzU2c0MXJ1ek5mSVpOT01YOW1TalNrZldNdVJyUmxNSHlpQlliblJaMmNPaHJPYUFSeDlZ"
   ],
   "daily": {
     "d": "2026-10-11",
-    "ai": 30,
+    "ai": 25,
     "staged": 0,
     "prio": 0,
     "lost": 0
