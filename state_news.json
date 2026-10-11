@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3e0eb81d5e3e38ab": 1791687999.9375782,
     "fc7a472cdfba9460": 1791687975.1237571,
     "b6f89f656c8dd47c": 1791687910.2848115,
     "94c4dbddbbc512ba": 1791685529.0450687,
@@ -2498,8 +2499,7 @@
     "00fc65f219e87897": 1791353934.367035,
     "3bc87a07f7d4a9d8": 1791353934.3651164,
     "6329eaa02066508c": 1791353868.23233,
-    "4a4eb5a7627046dc": 1791353737.0637474,
-    "facc70fb8dae75c6": 1791353676.730525
+    "4a4eb5a7627046dc": 1791353737.0637474
   },
   "initialized": true,
   "v": 4,
@@ -4771,6 +4771,12 @@
       "source": "매일경제",
       "ts": "2026-10-11T02:10:25+00:00",
       "cluster": "cf8c8f067ec"
+    },
+    {
+      "t": "Brendan Allen stops Christian Leroy Duncan with dramatic fifth-round choke in UFC Vegas 122 main event",
+      "source": "MMA Fighting",
+      "ts": "2026-10-11T03:05:12+00:00",
+      "cluster": "cb748b2fd60"
     }
   ],
   "digest_items": [],
