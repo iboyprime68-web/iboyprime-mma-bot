@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 24,
   "staged_at": [
-    "2026-10-09T16:20:13.382907+00:00",
     "2026-10-09T21:01:50.777459+00:00",
     "2026-10-10T15:27:27.119777+00:00",
-    "2026-10-10T20:10:03.086701+00:00"
+    "2026-10-10T20:10:03.086701+00:00",
+    "2026-10-11T15:47:58.082726+00:00"
   ],
   "asked": [
-    "Who is the most shameless fighter in the UFC right now?",
     "Who runs the lightweight division five years from now?",
     "Which era was the most fun to be a UFC fan?",
     "Who is the scariest man to ever enter the octagon?",
@@ -47,33 +46,34 @@
     "What is the most bizarre UFC moment of the last two days?",
     "Who is the most overpaid fighter in the UFC right now?",
     "What is the most embarrassing thing Jon Jones has ever done?",
-    "Who is the most overrated fighter in UFC history?"
+    "Who is the most overrated fighter in UFC history?",
+    "What is the most brutal head kick knockout in UFC history?"
   ],
   "last_entry": {
-    "q": "Who is the most overrated fighter in UFC history?",
+    "q": "What is the most brutal head kick knockout in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Conor McGregor",
-        "emoji": "🍀",
+        "label": "Edson Barboza",
+        "emoji": "🦵",
         "art": ""
       },
       {
-        "label": "Brock Lesnar",
-        "emoji": "🐻",
-        "art": ""
-      },
-      {
-        "label": "Ronda Rousey",
+        "label": "Holly Holm",
         "emoji": "🥋",
         "art": ""
       },
       {
+        "label": "Leon Edwards",
+        "emoji": "⏱️",
+        "art": ""
+      },
+      {
         "label": "Other",
-        "emoji": "🤔",
+        "emoji": "🤕",
         "art": ""
       }
     ],
-    "gag": "A shiny trophy with a participation ribbon, surrounded by hype balloons deflating."
+    "gag": "A cartoon octagon with a single head kick sending a cartoon fighter's head spinning into orbit like a satellite"
   }
 }
