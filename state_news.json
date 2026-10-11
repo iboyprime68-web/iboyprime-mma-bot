@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6e573445b7412bc4": 1791694099.2554848,
     "2f1349c9352674f1": 1791693839.618664,
     "5928fb79e5319fd0": 1791693839.6173189,
     "4ba4d30ff4facc1f": 1791693770.0439804,
@@ -2498,8 +2499,7 @@
     "77bd68dd000b276f": 1791373719.989762,
     "091d28419ea25523": 1791373653.7119782,
     "913d067028a4dc04": 1791373586.6387632,
-    "3b6146f31728b037": 1791373523.0699205,
-    "14fd3307ceeea7fe": 1791373334.6534367
+    "3b6146f31728b037": 1791373523.0699205
   },
   "initialized": true,
   "v": 4,
@@ -4825,6 +4825,12 @@
       "source": "USA Today",
       "ts": "2026-10-11T04:40:52+00:00",
       "cluster": "c86cf83d0f1"
+    },
+    {
+      "t": "UFC Vegas 122 post-fight show: Reaction to Brendan Allen’s late finish in main event, callout of Dricus du Plessis",
+      "source": "MMA Fighting",
+      "ts": "2026-10-11T04:47:37+00:00",
+      "cluster": "ca48b3e882c"
     }
   ],
   "digest_items": [],
