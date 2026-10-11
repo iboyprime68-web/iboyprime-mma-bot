@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c95a7c628d253284": 1791695423.4337213,
     "df532a739fe24a7f": 1791695227.0476058,
     "fdf54069f644e0a0": 1791695095.9819195,
     "f621016297714e98": 1791694898.9787922,
@@ -2498,8 +2499,7 @@
     "d304c32d7d8e6afc": 1791374893.9060817,
     "22880507c3b4e7b1": 1791374825.892925,
     "eb5b3e5d3f4c7dc2": 1791374698.9201508,
-    "eec700324a21b339": 1791374634.1383114,
-    "d7cd6fc90cfc2862": 1791374607.908433
+    "eec700324a21b339": 1791374634.1383114
   },
   "initialized": true,
   "v": 4,
@@ -4831,6 +4831,12 @@
       "source": "The Lufkin Daily News",
       "ts": "2026-10-11T04:06:11+00:00",
       "cluster": "c9fb136135e"
+    },
+    {
+      "t": "Belal Muhammad reveals Brendan Allen was suffering from medical condition just days before Christian Leroy Duncan fight",
+      "source": "Sportskeeda",
+      "ts": "2026-10-11T05:03:00+00:00",
+      "cluster": "c7f3a1c2ccd"
     }
   ],
   "digest_items": [],
