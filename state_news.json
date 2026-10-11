@@ -1,5 +1,6 @@
 {
   "seen": {
+    "fd599721c1934dd2": 1791737035.0636845,
     "2b676f05510b414d": 1791736469.014754,
     "63a96dab84d3cb5c": 1791736469.0135942,
     "061d22c67e8dcc1e": 1791736341.2688181,
@@ -2498,8 +2499,7 @@
     "eb8a6337e9de2671": 1791399125.3016791,
     "d9e29ecd2df2c865": 1791399125.258322,
     "b0e6c6636a201a90": 1791398926.4485173,
-    "1591392ba7b2b6f9": 1791398796.194712,
-    "5a2962cd46019c10": 1791398727.141651
+    "1591392ba7b2b6f9": 1791398796.194712
   },
   "initialized": true,
   "v": 4,
@@ -2509,18 +2509,6 @@
       "source": "Heavy.com",
       "ts": "2026-10-09T16:44:37+00:00",
       "cluster": "ca7192bd6ef"
-    },
-    {
-      "t": "Brendan Allen Admits He Is Not The ‘Likable Guy’ Despite UFC Vegas 122 Résumé",
-      "source": "MiddleEasy",
-      "ts": "2026-10-09T16:41:15+00:00",
-      "cluster": "ceb9185c8e9"
-    },
-    {
-      "t": "Natalia Silva Says She Won't Wait For Valentina Shevchenko",
-      "source": "MMANews.com",
-      "ts": "2026-10-09T16:36:50+00:00",
-      "cluster": "ca02fbd2356"
     },
     {
       "t": "Sean O’Malley’s coach takes issue with Daniel Cormier pushing for Payton Talbott fight",
@@ -4645,6 +4633,12 @@
       "source": "Heavy.com",
       "ts": "2026-10-11T16:16:07+00:00",
       "cluster": "c85d1121082"
+    },
+    {
+      "t": "FBI nearing deal with UFC to train agents",
+      "source": "Sports Business Journal",
+      "ts": "2026-10-11T16:00:00+00:00",
+      "cluster": "c2a747c9577"
     }
   ],
   "digest_items": [],
