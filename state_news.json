@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4bf0e12ae7207c83": 1791752614.5886679,
     "9d230dd4328b59ad": 1791752588.9273236,
     "fe6a3f57fef74d37": 1791752588.8913484,
     "0fb1c21ef1b44d68": 1791752588.8898094,
@@ -2498,8 +2499,7 @@
     "92c8a1ce00351181": 1791410673.7198813,
     "643217dc47221d44": 1791410629.8905659,
     "dd5efc0deadf27fc": 1791410603.9275718,
-    "c470594aebc88b4b": 1791410603.8940814,
-    "abe0ba14970047dc": 1791410603.893684
+    "c470594aebc88b4b": 1791410603.8940814
   },
   "initialized": true,
   "v": 4,
@@ -4417,6 +4417,12 @@
       "source": "MARCA",
       "ts": "2026-10-11T20:52:05+00:00",
       "cluster": "c16b7f3b766"
+    },
+    {
+      "t": "Brendan Allen’s UFC Vegas 122 win moved him closer to record set by veteran who retired at the event",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-11T21:00:00+00:00",
+      "cluster": "c99143fd1f1"
     }
   ],
   "digest_items": [],
