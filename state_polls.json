@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 24,
   "staged_at": [
-    "2026-10-09T21:01:50.777459+00:00",
     "2026-10-10T15:27:27.119777+00:00",
     "2026-10-10T20:10:03.086701+00:00",
-    "2026-10-11T15:47:58.082726+00:00"
+    "2026-10-11T15:47:58.082726+00:00",
+    "2026-10-11T20:22:39.608919+00:00"
   ],
   "asked": [
-    "Who runs the lightweight division five years from now?",
     "Which era was the most fun to be a UFC fan?",
     "Who is the scariest man to ever enter the octagon?",
     "Whose title reign aged the worst?",
@@ -47,33 +46,34 @@
     "Who is the most overpaid fighter in the UFC right now?",
     "What is the most embarrassing thing Jon Jones has ever done?",
     "Who is the most overrated fighter in UFC history?",
-    "What is the most brutal head kick knockout in UFC history?"
+    "What is the most brutal head kick knockout in UFC history?",
+    "What is the most shocking UFC retirement of the last five years?"
   ],
   "last_entry": {
-    "q": "What is the most brutal head kick knockout in UFC history?",
+    "q": "What is the most shocking UFC retirement of the last five years?",
     "type": "poll",
     "options": [
       {
-        "label": "Edson Barboza",
-        "emoji": "🦵",
+        "label": "Gerald Meerschaert",
+        "emoji": "🦁",
         "art": ""
       },
       {
-        "label": "Holly Holm",
-        "emoji": "🥋",
+        "label": "Khabib Nurmagomedov",
+        "emoji": "🐐",
         "art": ""
       },
       {
-        "label": "Leon Edwards",
-        "emoji": "⏱️",
+        "label": "Henry Cejudo",
+        "emoji": "🏆",
         "art": ""
       },
       {
-        "label": "Other",
-        "emoji": "🤕",
+        "label": "Other (comment below)",
+        "emoji": "🤷",
         "art": ""
       }
     ],
-    "gag": "A cartoon octagon with a single head kick sending a cartoon fighter's head spinning into orbit like a satellite"
+    "gag": "A crying clown removing his gloves in a dimly lit octagon, with a single tear falling."
   }
 }
