@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2163bead6aa27b7e": 1791680728.5797687,
     "1a50892dfb9572a0": 1791680661.083131,
     "59afe43002e8dbd0": 1791680661.0625832,
     "584321ddf23b6cfd": 1791680661.0424292,
@@ -2498,8 +2499,7 @@
     "1179d023c94976b3": 1791346102.8031013,
     "a136ee4b453526b0": 1791345910.886049,
     "18cec5b10fcb992b": 1791345910.8395517,
-    "aae6016ef0aadcc2": 1791345910.8380013,
-    "a8f54c619a09d08c": 1791345784.733238
+    "aae6016ef0aadcc2": 1791345910.8380013
   },
   "initialized": true,
   "v": 4,
@@ -4735,6 +4735,12 @@
       "source": "MMA Mania",
       "ts": "2026-10-11T00:45:34+00:00",
       "cluster": "c4096e7b1d8"
+    },
+    {
+      "t": "US FBI Selects UFC for Agent Combat Training, Pursuing 1-Year Exclusive Contract",
+      "source": "news.sbs.co.kr",
+      "ts": "2026-10-11T00:48:25+00:00",
+      "cluster": "c8f137ef662"
     }
   ],
   "digest_items": [],
