@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1f0078518e9dfe78": 1791734807.7445269,
     "2138a6de2057cd6d": 1791734617.679829,
     "5fc69a3f131d84dc": 1791734489.7749498,
     "ed958cb6eaeec3ad": 1791734446.3471951,
@@ -2498,8 +2499,7 @@
     "207cf733c130ee02": 1791397466.4592383,
     "fef1dc6df7620a22": 1791397330.233777,
     "37acad17d7a6371d": 1791397330.2325594,
-    "6453df08787a2d7e": 1791397188.9041317,
-    "d317e76992522bed": 1791397119.7178838
+    "6453df08787a2d7e": 1791397188.9041317
   },
   "initialized": true,
   "v": 4,
@@ -4645,6 +4645,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-11T16:00:00+00:00",
       "cluster": "cbd05bfe816"
+    },
+    {
+      "t": "Brendan Allen calls out Dricus du Plessis after UFC Vegas 122 win: ‘It’s just all talk from his side all the time’",
+      "source": "MMA Fighting",
+      "ts": "2026-10-11T16:00:00+00:00",
+      "cluster": "c18bcff8210"
     }
   ],
   "digest_items": [],
