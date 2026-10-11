@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c546ed7d78696b2c": 1791700948.133892,
     "c697a965169c878a": 1791700638.191102,
     "0f655d5985b5d978": 1791700510.5064876,
     "6f29efb490f6dabc": 1791700384.8823419,
@@ -2498,8 +2499,7 @@
     "271b3131f1f664ba": 1791378150.6809225,
     "f270b16c99d94789": 1791378150.6775982,
     "bfe3dc6fe7773a4c": 1791378150.6210697,
-    "1734b4a9526f2cdd": 1791377767.13233,
-    "e1a914f9b6d03347": 1791377574.3415074
+    "1734b4a9526f2cdd": 1791377767.13233
   },
   "initialized": true,
   "v": 4,
@@ -4825,6 +4825,12 @@
       "source": "Sportskeeda",
       "ts": "2026-10-11T06:30:00+00:00",
       "cluster": "c9f260b9114"
+    },
+    {
+      "t": "Popular BJJ black belt retires after losing fifth straight fight at UFC Vegas 122",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-11T01:00:00+00:00",
+      "cluster": "cbd3e4dbf47"
     }
   ],
   "digest_items": [],
