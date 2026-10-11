@@ -1,5 +1,6 @@
 {
   "seen": {
+    "25425f15a5b70ba0": 1791684508.2765448,
     "3a8f74505ea4ef84": 1791684378.3869798,
     "e3d4163af5528cf8": 1791684314.0279253,
     "fb9f42ec3d658fb8": 1791684246.9337044,
@@ -2498,8 +2499,7 @@
     "a60dd66cf6c847ad": 1791352595.3809128,
     "758b2900a55ca2ba": 1791352139.4672368,
     "33f8cf83d4ff6d5f": 1791352007.4244938,
-    "3458beafb3122b65": 1791352007.4227097,
-    "e55dfcb68e7c3562": 1791351872.3885858
+    "3458beafb3122b65": 1791352007.4227097
   },
   "initialized": true,
   "v": 4,
@@ -4795,6 +4795,12 @@
       "source": "MMA Insight",
       "ts": "2026-10-11T01:31:58+00:00",
       "cluster": "cc9d33d29fb"
+    },
+    {
+      "t": "Alexander Volkov predicts Alex Pereira losing streak following UFC 335",
+      "source": "Sherdog",
+      "ts": "2026-10-07T03:53:37+00:00",
+      "cluster": "cef83d92c19"
     }
   ],
   "digest_items": [],
