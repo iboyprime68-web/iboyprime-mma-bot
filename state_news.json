@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4c63f1f4790e73d2": 1791715968.8794913,
     "45864ab9f702c7c8": 1791715652.8163974,
     "7cc796b7cc0d5a17": 1791715523.7718198,
     "6bd5cf2352762475": 1791715397.6312425,
@@ -2498,8 +2499,7 @@
     "b29c40fdd4432652": 1791385224.5496516,
     "7a9c8817e1a8ee9b": 1791385224.5492938,
     "75c802dc418071e7": 1791385224.5488036,
-    "8d741f933749933d": 1791385224.54602,
-    "705061b3382ea342": 1791385155.3415642
+    "8d741f933749933d": 1791385224.54602
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-09T11:00:00+00:00",
       "cluster": "c84c29a0317"
-    },
-    {
-      "t": "UFC Fight Night: Ernesta Kareckaite vs Melissa Gatto Preview & Prediction",
-      "source": "The Stats Zone",
-      "ts": "2026-10-09T10:49:00+00:00",
-      "cluster": "c85b5288b3c"
     },
     {
       "t": "UFC Fight Night: Alice Pereira vs Darya Zheleznyakova Preview & Prediction",
@@ -4837,6 +4831,12 @@
       "source": "SPORTbible",
       "ts": "2026-10-11T10:43:39+00:00",
       "cluster": "c9372a03013"
+    },
+    {
+      "t": "Belal Muhammad Reveals Brendan Allen Battled Staph Infection Prior To Win Over CLD",
+      "source": "MMA Insight",
+      "ts": "2026-10-11T10:28:42+00:00",
+      "cluster": "c42112a7c01"
     }
   ],
   "digest_items": [],
