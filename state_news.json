@@ -1,5 +1,7 @@
 {
   "seen": {
+    "b6e909aa0738e24e": 1791683452.0673208,
+    "48adf1dab8bde34a": 1791683452.0452895,
     "6c9a19d1d29b7438": 1791683262.2800574,
     "7b0a04443f8ce042": 1791683198.106358,
     "f8f255dde2ecf4ec": 1791683198.101517,
@@ -2497,9 +2499,7 @@
     "2752b411ef74cfb1": 1791351123.6940923,
     "1266328d449f7ac1": 1791350817.636294,
     "403c858689e5110e": 1791350817.5881495,
-    "35138b342820de35": 1791350683.036578,
-    "6869a58ae86bacbf": 1791350486.208645,
-    "3a0274bb3fa44568": 1791350351.8293717
+    "35138b342820de35": 1791350683.036578
   },
   "initialized": true,
   "v": 4,
@@ -2539,12 +2539,6 @@
       "source": "Cageside Press",
       "ts": "2026-10-09T02:27:45+00:00",
       "cluster": "ca4cf6b9618"
-    },
-    {
-      "t": "Mando Gutierrez",
-      "source": "UFC.com",
-      "ts": "2026-10-09T01:48:48+00:00",
-      "cluster": "c5ef421e233"
     },
     {
       "t": "UFC Renews Partnership With Cleveland Clinic",
@@ -4795,6 +4789,12 @@
       "source": "SuaraGarut.ID",
       "ts": "2026-10-11T00:46:13+00:00",
       "cluster": "c8c2f545359"
+    },
+    {
+      "t": "UFC Vegas 122: Loopy Godinez Bloodied but Victorious Over Ketlen Souza",
+      "source": "Cageside Press",
+      "ts": "2026-10-11T01:29:19+00:00",
+      "cluster": "cd07406a346"
     }
   ],
   "digest_items": [],
