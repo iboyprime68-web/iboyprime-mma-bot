@@ -1,5 +1,6 @@
 {
   "seen": {
+    "956a26faaca845b0": 1791678053.0143895,
     "304686acb71dd940": 1791677986.104049,
     "9600390d55061bf2": 1791677733.7445943,
     "22b3cf6e738a3567": 1791677669.4509788,
@@ -2498,8 +2499,7 @@
     "68ab5dbaf8d1f4ec": 1791344187.7896316,
     "06434110213070ff": 1791344187.7797492,
     "296387abf8e598e1": 1791344060.6368864,
-    "6a1cb6f4a7c1e7b9": 1791343996.3614922,
-    "c2aed81b43e163ab": 1791343931.653031
+    "6a1cb6f4a7c1e7b9": 1791343996.3614922
   },
   "initialized": true,
   "v": 4,
@@ -4747,6 +4747,12 @@
       "source": "heavy.com",
       "ts": "2026-10-11T00:16:00+00:00",
       "cluster": "c0dfbc0fbe4"
+    },
+    {
+      "t": "Julius Walker Tallies A Second-Round TKO Over Meerschaert | UFC Fight Night: Allen vs Duncan",
+      "source": "UFC.com",
+      "ts": "2026-10-11T00:18:06+00:00",
+      "cluster": "c396d733135"
     }
   ],
   "digest_items": [],
