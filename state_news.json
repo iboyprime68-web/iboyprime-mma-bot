@@ -1,5 +1,7 @@
 {
   "seen": {
+    "63652a329847a645": 1791689115.393503,
+    "e241f1bd298e7c02": 1791689115.3565233,
     "f2d26431540bcaf1": 1791688988.4180744,
     "b87c44c46c9e91d0": 1791688923.720496,
     "fe2909d1b93a22d1": 1791688837.7582707,
@@ -2497,9 +2499,7 @@
     "7b1c5a7a1cff814e": 1791362311.7232618,
     "49361cd47907c3ea": 1791362121.7844481,
     "c3f82dc14230da30": 1791362121.7832127,
-    "3d5b569c4be765e4": 1791362121.782589,
-    "df997ac8e694f4f9": 1791361991.361596,
-    "19f56cf91c6b7c82": 1791361991.3306212
+    "3d5b569c4be765e4": 1791362121.782589
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-09T03:30:00+00:00",
       "cluster": "ccc1035c8d5"
-    },
-    {
-      "t": "Former UFC Star and Ultimate Fighter Winner Sentenced to Jail After Violating Probation",
-      "source": "Athlon Sports",
-      "ts": "2026-10-09T03:25:00+00:00",
-      "cluster": "c3e078be3ef"
     },
     {
       "t": "\"Repackaged, McDonald's straight to the head\" - Sean Strickland takes brutal shot at UFC pay before hinting at career-changing move",
@@ -4819,6 +4813,12 @@
       "source": "Fightful",
       "ts": "2026-10-11T03:04:07+00:00",
       "cluster": "c0618bf7d16"
+    },
+    {
+      "t": "UFC Vegas 122 bonuses: Brendan Allen, 3 more earn $100,000",
+      "source": "Sherdog",
+      "ts": "2026-10-11T03:19:08+00:00",
+      "cluster": "c841247f39c"
     }
   ],
   "digest_items": [],
