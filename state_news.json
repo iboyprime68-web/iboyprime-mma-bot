@@ -1,5 +1,6 @@
 {
   "seen": {
+    "857208c346f548c2": 1791749342.8244581,
     "7b2d28291cdb4daa": 1791749218.0755932,
     "9e6122f8babde585": 1791749154.9324422,
     "7de6bcb7dc78057c": 1791749089.5746238,
@@ -2498,8 +2499,7 @@
     "5fe90b8df500d332": 1791407395.1187766,
     "13569ba5d2967891": 1791407327.4076486,
     "0e9addfd9bbab66f": 1791407327.3677616,
-    "4709a1f5ffd3f5fd": 1791407327.3659503,
-    "1df5d79e68043bb4": 1791407327.364396
+    "4709a1f5ffd3f5fd": 1791407327.3659503
   },
   "initialized": true,
   "v": 4,
@@ -4477,6 +4477,12 @@
       "source": "MMA Mania",
       "ts": "2026-10-11T20:00:00+00:00",
       "cluster": "c14fe128eaa"
+    },
+    {
+      "t": "UFC Middleweight Brendan Allen Needs to Fight Elite Opponent",
+      "source": "Lyndy's Sports Annuals",
+      "ts": "2026-10-11T20:03:00+00:00",
+      "cluster": "c90299ddd3a"
     }
   ],
   "digest_items": [],
