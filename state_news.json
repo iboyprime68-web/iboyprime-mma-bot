@@ -1,5 +1,6 @@
 {
   "seen": {
+    "48d138da3bab9ece": 1791818437.1555924,
     "d953771fdfb0d5d2": 1791818312.009453,
     "386c2bc3035f7c6e": 1791818311.9954598,
     "6971277f1bb96f17": 1791818244.9679208,
@@ -2498,8 +2499,7 @@
     "c0b5285596f679ca": 1791461250.820715,
     "96892884c6198151": 1791461125.6805212,
     "01e70eec97bc3788": 1791461125.6785948,
-    "d0e6fb48bb6d194e": 1791461062.1795695,
-    "1dc704ed9a58c7bd": 1791461062.1396308
+    "d0e6fb48bb6d194e": 1791461062.1795695
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-10T16:00:00+00:00",
       "cluster": "c683dfd73ab"
-    },
-    {
-      "t": "UFC Legend Diego Sanchez Handed 30-Day Prison Sentence After Probation Violation",
-      "source": "NDTV Sports",
-      "ts": "2026-10-10T15:20:26+00:00",
-      "cluster": "c7887602835"
     },
     {
       "t": "Erik Prince's forces suffer deadly ambush in Congo, former UFC fighter wounded",
@@ -4345,6 +4339,12 @@
       "source": "talkSPORT",
       "ts": "2026-10-12T15:10:43+00:00",
       "cluster": "cebf166ac04"
+    },
+    {
+      "t": "Gerald Meerschaert Hangs Up His Gloves After Brutal UFC Vegas 122 Loss",
+      "source": "The Body Lock",
+      "ts": "2026-10-12T15:14:08+00:00",
+      "cluster": "c9a3fc57867"
     }
   ],
   "digest_items": [],
