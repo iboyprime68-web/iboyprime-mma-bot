@@ -1,5 +1,7 @@
 {
   "seen": {
+    "062b0f9a8887b2f2": 1791818758.6850784,
+    "44da03b5bacaa34d": 1791818758.6778874,
     "75cbadfb8740597f": 1791818629.9369354,
     "5619ac89471726dc": 1791818629.9207618,
     "2db0ce250fd47a6c": 1791818566.3012626,
@@ -2497,9 +2499,7 @@
     "83dc10fea8556ffc": 1791461630.4338071,
     "89f9e199ef3cbd4e": 1791461630.4318998,
     "c1396d94a52e7df2": 1791461381.5633168,
-    "7c7794facf0918b4": 1791461318.148577,
-    "d96e5a901b4cf713": 1791461250.8633626,
-    "c0b5285596f679ca": 1791461250.820715
+    "7c7794facf0918b4": 1791461318.148577
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-10T16:00:00+00:00",
       "cluster": "c683dfd73ab"
-    },
-    {
-      "t": "Erik Prince's forces suffer deadly ambush in Congo, former UFC fighter wounded",
-      "source": "Latest news from Azerbaijan",
-      "ts": "2026-10-10T15:24:14+00:00",
-      "cluster": "cecb5cab7a7"
     },
     {
       "t": "“I’ve Always Supported Wrestlers”: Jon Jones Makes Prediction on Josh Hokit vs. Ciryl Gane",
@@ -4351,6 +4345,12 @@
       "source": "Deadspin",
       "ts": "2026-10-12T15:08:00+00:00",
       "cluster": "cc30a1517a3"
+    },
+    {
+      "t": "Jon Jones after Gable Steveson's KO loss: 'We need to add a lot more sparring'",
+      "source": "MMA Junkie",
+      "ts": "2026-10-12T15:20:00+00:00",
+      "cluster": "cad3fdf5064"
     }
   ],
   "digest_items": [],
