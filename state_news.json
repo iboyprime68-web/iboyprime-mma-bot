@@ -1,5 +1,6 @@
 {
   "seen": {
+    "07656db4ea5072d1": 1791844868.814242,
     "83d024743a34c1d0": 1791844801.711191,
     "b14f3d41e52dedbc": 1791844614.3208518,
     "7c512bc9b847186c": 1791844550.7660234,
@@ -2498,8 +2499,7 @@
     "90d704d3490d3f17": 1791486140.321866,
     "3cf1bcb4404bb8c6": 1791485765.118895,
     "bad59bc642c3549e": 1791485697.188091,
-    "2ce27bc9df134e07": 1791485633.2279036,
-    "9e672ee2c3755838": 1791485567.4964805
+    "2ce27bc9df134e07": 1791485633.2279036
   },
   "initialized": true,
   "v": 4,
@@ -4381,6 +4381,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-12T22:30:51+00:00",
       "cluster": "cb79b118b63"
+    },
+    {
+      "t": "How much is a UFC title worth these days? With PPV gone, the reality is sinking in",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-12T22:36:23+00:00",
+      "cluster": "cf57f29aee2"
     }
   ],
   "digest_items": [],
