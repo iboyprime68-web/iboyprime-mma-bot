@@ -1,5 +1,8 @@
 {
   "seen": {
+    "e1c20fbdc714ead1": 1791846388.5719452,
+    "d9effc086b168334": 1791846388.5627143,
+    "2ec38fd43da2828b": 1791846388.5606046,
     "ac63c531edc85d44": 1791846320.7924392,
     "dd54f3a0c320fc6b": 1791846252.6812224,
     "b9b2a0dd73c51371": 1791846252.6539204,
@@ -2496,10 +2499,7 @@
     "6660cee48561b51e": 1791486614.112233,
     "51bd227dd2d34b77": 1791486548.811302,
     "bd635ec4d3488f1d": 1791486480.7762408,
-    "cd0c1cbc5eb3ca39": 1791486415.0817556,
-    "9b86d1be1f2241ce": 1791486284.4120457,
-    "2130c162f46593f1": 1791486284.3854048,
-    "e6ef5f3f6423dd78": 1791486219.9661083
+    "cd0c1cbc5eb3ca39": 1791486415.0817556
   },
   "initialized": true,
   "v": 4,
@@ -2821,12 +2821,6 @@
       "source": "Sherdog",
       "ts": "2026-10-11T03:19:08+00:00",
       "cluster": "c841247f39c"
-    },
-    {
-      "t": "\"UFC Vegas 122 spoilers\" Prelim winner has fiery message for doubters of division",
-      "source": "@MMAJunkie",
-      "ts": "2026-10-10T23:05:42.689000+00:00",
-      "cluster": "c6fcbd868d0"
     },
     {
       "t": "UFC Vegas 122 results: Brendan Allen strangles Christian Leroy Duncan in late submission victory",
@@ -4381,6 +4375,12 @@
       "source": "MMA Sucka",
       "ts": "2026-10-12T22:59:32+00:00",
       "cluster": "c2ed42598d4"
+    },
+    {
+      "t": "Paulo Costa Ready for Change After UFC Fight Request",
+      "source": "MMA Sucka",
+      "ts": "2026-10-12T23:04:26+00:00",
+      "cluster": "c22cfb24541"
     }
   ],
   "digest_items": [],
