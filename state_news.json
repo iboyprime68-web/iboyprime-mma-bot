@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5ea9f73c554c625a": 1791815484.1570966,
     "e1c07a13adac0e3a": 1791815107.9454074,
     "cbf03ff64ed5399f": 1791814981.783029,
     "75ee63682e09978f": 1791814917.2288961,
@@ -2498,8 +2499,7 @@
     "84dadff804be8a22": 1791456585.1452749,
     "e77c890e6b3c2745": 1791456518.6614716,
     "d00b3fe776ebacac": 1791456518.6181126,
-    "6b4a01b30dc5016f": 1791456381.5155315,
-    "fd843cf9ebcb375e": 1791456255.932349
+    "6b4a01b30dc5016f": 1791456381.5155315
   },
   "initialized": true,
   "v": 4,
@@ -4309,6 +4309,12 @@
       "source": "MMA Mania",
       "ts": "2026-10-12T13:56:40+00:00",
       "cluster": "cf2e0c5b2c3"
+    },
+    {
+      "t": "UFC Star Brendan Allen Sends Chilling Warning Toward Ex-Champ After Latest Win",
+      "source": "Sports Illustrated",
+      "ts": "2026-10-12T14:30:00+00:00",
+      "cluster": "c1828295129"
     }
   ],
   "digest_items": [],
