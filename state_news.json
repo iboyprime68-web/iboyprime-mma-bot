@@ -1,5 +1,7 @@
 {
   "seen": {
+    "2e9a26ff4af3b5be": 1791846045.8818161,
+    "1995ae52aea151cc": 1791846045.8546333,
     "09cf2621e2042753": 1791846018.022856,
     "83d024743a34c1d0": 1791845971.5036342,
     "b14f3d41e52dedbc": 1791845971.4767013,
@@ -2497,9 +2499,7 @@
     "bad59bc642c3549e": 1791485697.188091,
     "2ce27bc9df134e07": 1791485633.2279036,
     "9e672ee2c3755838": 1791485567.4964805,
-    "354e4390478be00a": 1791485252.6475465,
-    "2f1805c220471cc3": 1791485127.658356,
-    "f231a27fcb5daab8": 1791485127.6549654
+    "354e4390478be00a": 1791485252.6475465
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "UFC.com",
       "ts": "2026-10-10T23:11:55+00:00",
       "cluster": "ca3cde7cc03"
-    },
-    {
-      "t": "UFC Fight Night results, live updates: Brendan Allen, Christian Leroy Duncan battle in Las Vegas",
-      "source": "CBS Sports",
-      "ts": "2026-10-10T23:00:33+00:00",
-      "cluster": "c2be26958c9"
     },
     {
       "t": "UFC Vegas 122 highlight video: Francisco Prado unleashes onslaught of punishment onto Ismael Bonfim",
@@ -4363,6 +4357,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-12T23:00:00+00:00",
       "cluster": "c79f95d9e26"
+    },
+    {
+      "t": "Spinning Back Clique: Sean Strickland blasts current UFC contract and pay",
+      "source": "The Lufkin Daily News",
+      "ts": "2026-10-12T22:21:37+00:00",
+      "cluster": "c129b651469"
     }
   ],
   "digest_items": [],
