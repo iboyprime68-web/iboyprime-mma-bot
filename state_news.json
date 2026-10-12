@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1a1bb68d76dc1250": 1791773325.1401603,
     "e7bc3dcee30639db": 1791773199.908377,
     "31c9b36e1080ff64": 1791772827.1867197,
     "c656ea641c4670f2": 1791772386.0676582,
@@ -2498,8 +2499,7 @@
     "3fec5dd7c71e4c01": 1791429498.1067812,
     "18104ade2bb018b2": 1791429245.5069351,
     "8a936d3f6cbd388c": 1791429180.52267,
-    "bb09ddbfeb71b55a": 1791429053.1939838,
-    "def8037c7c4a8ab5": 1791428985.1454668
+    "bb09ddbfeb71b55a": 1791429053.1939838
   },
   "initialized": true,
   "v": 4,
@@ -4417,6 +4417,12 @@
       "source": "Sherdog",
       "ts": "2026-10-12T01:45:16+00:00",
       "cluster": "cda95aa9cc8"
+    },
+    {
+      "t": "Brendan Allen backs Sean Strickland's UFC pay push: 'I like my paycheck'",
+      "source": "Sherdog",
+      "ts": "2026-10-12T02:00:54+00:00",
+      "cluster": "c81469c40c3"
     }
   ],
   "digest_items": [],
