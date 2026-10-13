@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f6f89434b923356d": 1791904034.5454755,
     "1395cdbf67c5e99c": 1791903906.3211873,
     "8f4dd9cef34f9d3d": 1791903906.2929697,
     "15dfb2a12efdd6a0": 1791903906.2911735,
@@ -2498,8 +2499,7 @@
     "aface07a57297588": 1791544149.3775513,
     "f91c8d6ae87cae3e": 1791544149.3754597,
     "e5c5a0736cf592dd": 1791544081.4440541,
-    "aaba251e90f7de52": 1791544014.0705917,
-    "df7882ef21ca9be7": 1791544014.031692
+    "aaba251e90f7de52": 1791544014.0705917
   },
   "initialized": true,
   "v": 4,
@@ -4279,6 +4279,12 @@
       "source": "The Independent",
       "ts": "2026-10-13T14:38:00+00:00",
       "cluster": "c2ba27d6157"
+    },
+    {
+      "t": "Tim Kennedy: Retired UFC star in hospital after being shot in DR Congo",
+      "source": "The Independent",
+      "ts": "2026-10-13T15:02:00+00:00",
+      "cluster": "c109b191ad1"
     }
   ],
   "digest_items": [],
