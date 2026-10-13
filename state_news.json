@@ -1,5 +1,7 @@
 {
   "seen": {
+    "c627bd4e0b29f836": 1791926282.4803412,
+    "5487b0fa85b35158": 1791926282.4428625,
     "a29d3be30a6ea0a6": 1791926154.3194747,
     "2e16076dbbec0cc6": 1791926154.2866275,
     "1b162cd8a204b4c2": 1791926085.1114185,
@@ -2497,9 +2499,7 @@
     "ac2e832b4279cddd": 1791563218.0892467,
     "50867a13dd150b6f": 1791563218.0887022,
     "7e6aedfee38bfb21": 1791563027.1006734,
-    "5e95a63b0dbe6523": 1791562773.590499,
-    "3f84370d10f43da0": 1791562773.5878887,
-    "c577ea485d9bbf9d": 1791562705.5023363
+    "5e95a63b0dbe6523": 1791562773.590499
   },
   "initialized": true,
   "v": 4,
@@ -4513,6 +4513,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-13T21:10:22+00:00",
       "cluster": "c2a9c544d7a"
+    },
+    {
+      "t": "Cris Cyborg weighs in after Ketlen Vieira’s response to 6-month suspension",
+      "source": "MMA Crossfire",
+      "ts": "2026-10-13T21:13:59+00:00",
+      "cluster": "cee1f4faafe"
     }
   ],
   "digest_items": [],
