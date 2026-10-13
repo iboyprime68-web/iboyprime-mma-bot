@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2c022187cc6a4f0f": 1791916387.2396083,
     "557277b679c03e49": 1791916259.0950594,
     "e904604cdd6a4b71": 1791916191.4791996,
     "f5a0e74004709f61": 1791916147.7464576,
@@ -2498,8 +2499,7 @@
     "0feb5da52e347f7f": 1791554684.3559284,
     "f3f713c31264d8ae": 1791554684.3185394,
     "6d6a35df7fe74633": 1791554620.4524956,
-    "7efbe82abd45970b": 1791554620.451655,
-    "dc25100d5d45b46d": 1791554620.4495878
+    "7efbe82abd45970b": 1791554620.451655
   },
   "initialized": true,
   "v": 4,
@@ -4369,6 +4369,12 @@
       "source": "The Lufkin Daily News",
       "ts": "2026-10-13T18:15:33+00:00",
       "cluster": "c51e279b1e0"
+    },
+    {
+      "t": "UFC Fight Night Highlights: Malcolm Wellmaker Vs. Otari Tanzilovi Stream of UFC",
+      "source": "CBS Sports",
+      "ts": "2026-10-13T17:50:01+00:00",
+      "cluster": "c0330c14015"
     }
   ],
   "digest_items": [],
