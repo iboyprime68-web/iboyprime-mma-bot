@@ -1,5 +1,6 @@
 {
   "seen": {
+    "edaacab5ab652f4e": 1791923684.0953205,
     "a8bffbecb4d4c202": 1791923489.9538484,
     "48a4c86004aabafc": 1791923235.9153144,
     "9eb6ee5257a6d52e": 1791923167.8729296,
@@ -2498,8 +2499,7 @@
     "52caf062dedeea1b": 1791560521.9604769,
     "bdf99c9504eed4eb": 1791560453.7945323,
     "286516c84ce57eac": 1791560388.6816854,
-    "4fe29cb7a6eead96": 1791560388.6432757,
-    "af182a9b62d21758": 1791560069.6432407
+    "4fe29cb7a6eead96": 1791560388.6432757
   },
   "initialized": true,
   "v": 4,
@@ -4489,6 +4489,12 @@
       "source": "MMA Junkie",
       "ts": "2026-10-13T20:20:00+00:00",
       "cluster": "ce11d14faee"
+    },
+    {
+      "t": "UFC Edmonton: Joaquin Buckley using Mike Malott to end losing skid",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-13T20:15:19+00:00",
+      "cluster": "cd7531b11f9"
     }
   ],
   "digest_items": [],
