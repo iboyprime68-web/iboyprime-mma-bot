@@ -1,5 +1,8 @@
 {
   "seen": {
+    "6312d0131e13bd93": 1791860494.935402,
+    "e7502b5712afd339": 1791860494.933387,
+    "06da057f7cb8c799": 1791860494.9286613,
     "86cc3bb94349ad22": 1791860130.289984,
     "5a1a7a1c4908025f": 1791860104.00505,
     "5adf7b6120e97da1": 1791860103.9690168,
@@ -2496,10 +2499,7 @@
     "1052b694c35b99ec": 1791498261.8511548,
     "eef6b3e629cee50f": 1791498193.9091232,
     "6901bde2a03cc02e": 1791497817.842741,
-    "9646645561a8c3de": 1791497501.1996222,
-    "3f5f9204b5d134fb": 1791497434.0654926,
-    "3fa7fd1c84d9db71": 1791497367.1429574,
-    "12f9ef1401deb694": 1791497367.0986564
+    "9646645561a8c3de": 1791497501.1996222
   },
   "initialized": true,
   "v": 4,
@@ -2509,18 +2509,6 @@
       "source": "MMA Fighting",
       "ts": "2026-10-11T03:05:12+00:00",
       "cluster": "cb748b2fd60"
-    },
-    {
-      "t": "Godinez defeats Brazilian fighter Souza at UFC Vegas 122",
-      "source": "SuaraGarut.ID",
-      "ts": "2026-10-11T02:59:28+00:00",
-      "cluster": "ce07a17fadc"
-    },
-    {
-      "t": "UFC Vegas 122 results: Brendan Allen stops Christian Leroy Duncan with late choke, calls out ex-champ",
-      "source": "Yahoo Sports",
-      "ts": "2026-10-11T03:01:00+00:00",
-      "cluster": "c8dc84f85d3"
     },
     {
       "t": "Brendan Allen Secures Another Rear-Naked Choke Win",
@@ -4260,7 +4248,7 @@
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-13T02",
+    "2026-10-13T03",
     0
   ],
   "yt_eval": [
