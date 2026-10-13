@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a2b4a7937995fc1a": 1791850449.216589,
     "b7900ec22fae82e3": 1791850323.154392,
     "e6561da5243c88ed": 1791849816.8691015,
     "a161eee0b8c7f5dc": 1791849816.8411036,
@@ -2498,8 +2499,7 @@
     "e281e78297c493e7": 1791489805.4565175,
     "375ae1c543553331": 1791489805.4524105,
     "e7b5f01b5ec633c8": 1791489805.4505658,
-    "81f6b220b562e6bb": 1791489805.450162,
-    "ba8feec9c34ce5ff": 1791489805.4498394
+    "81f6b220b562e6bb": 1791489805.450162
   },
   "initialized": true,
   "v": 4,
@@ -4339,6 +4339,12 @@
       "source": "MMA Mania",
       "ts": "2026-10-13T00:00:00+00:00",
       "cluster": "c2d898768d5"
+    },
+    {
+      "t": "UFC vet Tim Kennedy hospitalized after reportedly being shot 3 times in deadly Congo ambush",
+      "source": "Yahoo Sports",
+      "ts": "2026-10-13T00:10:00+00:00",
+      "cluster": "cba98caa9bc"
     }
   ],
   "digest_items": [],
