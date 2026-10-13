@@ -1,5 +1,7 @@
 {
   "seen": {
+    "36d72e984f4807a0": 1791923816.531895,
+    "d2a46787a622331f": 1791923816.4948745,
     "edaacab5ab652f4e": 1791923684.0953205,
     "a8bffbecb4d4c202": 1791923489.9538484,
     "48a4c86004aabafc": 1791923235.9153144,
@@ -2497,9 +2499,7 @@
     "e35e81acfb4b9ee5": 1791560521.998578,
     "ab7589dd1786131f": 1791560521.9982579,
     "52caf062dedeea1b": 1791560521.9604769,
-    "bdf99c9504eed4eb": 1791560453.7945323,
-    "286516c84ce57eac": 1791560388.6816854,
-    "4fe29cb7a6eead96": 1791560388.6432757
+    "bdf99c9504eed4eb": 1791560453.7945323
   },
   "initialized": true,
   "v": 4,
@@ -4495,6 +4495,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-13T20:15:19+00:00",
       "cluster": "cd7531b11f9"
+    },
+    {
+      "t": "UFC Vegas 122 controversy erupts as Marc Goddard penalises Christian Leroy Duncan for eye poke against Br",
+      "source": "The Times of India",
+      "ts": "2026-10-13T20:30:00+00:00",
+      "cluster": "c57ae042849"
     }
   ],
   "digest_items": [],
