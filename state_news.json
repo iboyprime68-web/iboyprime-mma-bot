@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cf844170200b29dd": 1791932198.5086014,
     "3da56c0963c23bb1": 1791932129.7826912,
     "cdab80da6bc2a554": 1791931874.5821054,
     "3494f074462abbc1": 1791931490.246539,
@@ -2498,8 +2499,7 @@
     "7fc3af2e78c187ef": 1791568440.9949996,
     "0dbe6f0b239bacdd": 1791568316.068945,
     "f48251c21dc6c384": 1791568188.2599747,
-    "e7c695a18cf8c75e": 1791568062.9496756,
-    "0c7a27a322cd01f5": 1791567937.759213
+    "e7c695a18cf8c75e": 1791568062.9496756
   },
   "initialized": true,
   "v": 4,
@@ -4561,6 +4561,12 @@
       "source": "MMA Junkie",
       "ts": "2026-10-13T22:50:00+00:00",
       "cluster": "c4d2c76c4ef"
+    },
+    {
+      "t": "UFC 336 Could See Shavkat Rakhmonov vs. Michael Morales and Islam Makhachev vs. Carlos Prates",
+      "source": "LowKickMMA.com",
+      "ts": "2026-10-13T22:53:28+00:00",
+      "cluster": "c2fbb90a558"
     }
   ],
   "digest_items": [],
