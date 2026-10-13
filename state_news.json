@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4703f0c849e419c6": 1791898525.7524495,
     "acd528a96d0cbc05": 1791898395.8708935,
     "67df0ad7d92e8947": 1791898395.8706388,
     "9677b7108fee02e5": 1791898266.7886028,
@@ -2498,8 +2499,7 @@
     "c585f7653ae60916": 1791525260.450377,
     "67329870e763d86c": 1791524948.002701,
     "d97bc9164c4748eb": 1791524351.7918038,
-    "76c86cd9066b1463": 1791524285.4069457,
-    "9e0b2e9d77d185c9": 1791524099.3827605
+    "76c86cd9066b1463": 1791524285.4069457
   },
   "initialized": true,
   "v": 4,
@@ -4243,6 +4243,12 @@
       "source": "MyMMANews",
       "ts": "2026-10-13T13:10:12+00:00",
       "cluster": "c1da11dca6f"
+    },
+    {
+      "t": "\"It's just not happening with me\" - Alexander Volkanovski previews Movsar Evloev title fight while issuing one major claim",
+      "source": "Sportskeeda",
+      "ts": "2026-10-13T13:30:00+00:00",
+      "cluster": "cbcfaddcf50"
     }
   ],
   "digest_items": [],
