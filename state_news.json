@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4b241af8cf0a3428": 1791867456.0031946,
     "d2ba3e975442cf46": 1791867411.7168832,
     "ad8e7b1ce4e73069": 1791867411.7148933,
     "256dd174bc1dee8d": 1791867386.170704,
@@ -2498,8 +2499,7 @@
     "ac32eb04b2260cf8": 1791504279.401581,
     "19ff86c96ebe40e9": 1791504252.9820726,
     "562ffe6a589b64ae": 1791504227.1242387,
-    "c64e2729d6232b08": 1791504201.141951,
-    "ba074f31c9f619d7": 1791504201.0745091
+    "c64e2729d6232b08": 1791504201.141951
   },
   "initialized": true,
   "v": 4,
@@ -4183,6 +4183,12 @@
       "source": "Sherdog",
       "ts": "2026-10-13T04:45:55+00:00",
       "cluster": "ca665a89105"
+    },
+    {
+      "t": "Jon Jones Compares Gable Steveson’s 12-Second Knockout Loss to Georges St-Pierre’s Shocking Upset Against Matt Serra",
+      "source": "Last Word On Sports",
+      "ts": "2026-10-13T04:55:11+00:00",
+      "cluster": "c159e3c7c89"
     }
   ],
   "digest_items": [],
