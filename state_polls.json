@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 24,
   "staged_at": [
-    "2026-10-10T20:10:03.086701+00:00",
     "2026-10-11T15:47:58.082726+00:00",
     "2026-10-11T20:22:39.608919+00:00",
-    "2026-10-12T19:08:31.549231+00:00"
+    "2026-10-12T19:08:31.549231+00:00",
+    "2026-10-13T17:00:08.862071+00:00"
   ],
   "asked": [
-    "Who is the scariest man to ever enter the octagon?",
     "Whose title reign aged the worst?",
     "Who is the most undeniable title challenger in the UFC right now?",
     "Who takes the crown in a pure grappling match, any era?",
@@ -47,33 +46,34 @@
     "Who is the most overrated fighter in UFC history?",
     "What is the most brutal head kick knockout in UFC history?",
     "What is the most shocking UFC retirement of the last five years?",
-    "Who is the most overrated fighter in the UFC right now?"
+    "Who is the most overrated fighter in the UFC right now?",
+    "Who is the most overprotected champion in UFC history?"
   ],
   "last_entry": {
-    "q": "Who is the most overrated fighter in the UFC right now?",
+    "q": "Who is the most overprotected champion in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Sean Strickland",
-        "emoji": "🗣️",
+        "label": "Conor McGregor",
+        "emoji": "☘️",
         "art": ""
       },
       {
-        "label": "Colby Covington",
-        "emoji": "🥤",
+        "label": "Jon Jones",
+        "emoji": "🐐",
         "art": ""
       },
       {
-        "label": "Michael Chandler",
-        "emoji": "💪",
+        "label": "Ronda Rousey",
+        "emoji": "🥋",
         "art": ""
       },
       {
-        "label": "Other (comment below)",
+        "label": "Other",
         "emoji": "🤔",
         "art": ""
       }
     ],
-    "gag": "A fighter with a giant inflated ego balloon for a head, deflating in the octagon."
+    "gag": "A giant UFC belt inside a protective glass case with a security guard asleep."
   }
 }
