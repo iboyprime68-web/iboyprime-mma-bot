@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ce35dc21294d0c7c": 1791891710.450924,
     "74eeb5e356030265": 1791891646.4278378,
     "c661f44d5401cd75": 1791891579.8048317,
     "47517549ab0f2278": 1791890952.4925547,
@@ -2498,8 +2499,7 @@
     "6cdf8a2cf0c74040": 1791517692.328254,
     "332e177ff7dc5d1c": 1791517071.4615257,
     "6e8402b6e53bd46b": 1791517071.445301,
-    "5478f4aec0188821": 1791516760.7395163,
-    "af1e305e65fe7bc7": 1791516692.9357555
+    "5478f4aec0188821": 1791516760.7395163
   },
   "initialized": true,
   "v": 4,
@@ -4207,6 +4207,12 @@
       "source": "Benzinga",
       "ts": "2026-10-13T11:22:31+00:00",
       "cluster": "c7cdff59905"
+    },
+    {
+      "t": "Kayla Harrison Considering Retirement in the Near Future After Four Surgeries",
+      "source": "EssentiallySports",
+      "ts": "2026-10-13T11:28:00+00:00",
+      "cluster": "cfc1f70fb24"
     }
   ],
   "digest_items": [],
