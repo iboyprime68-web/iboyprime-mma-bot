@@ -1,5 +1,6 @@
 {
   "seen": {
+    "96a2a380a969d377": 1791859993.607677,
     "396df2d9adfa972c": 1791859797.2694378,
     "6455afb87269cd1c": 1791859351.241984,
     "e6c03d7d57960f5a": 1791859283.8907595,
@@ -2498,8 +2499,7 @@
     "46a33189d68e3a48": 1791497300.1884606,
     "5b1db02ca7037f8b": 1791497300.173843,
     "752d17c949ec812f": 1791497300.1310184,
-    "5c43d1e765a9a02a": 1791497300.1292648,
-    "44195aca68c55519": 1791497300.1288998
+    "5c43d1e765a9a02a": 1791497300.1292648
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "MMA Fighting",
       "ts": "2026-10-11T03:05:12+00:00",
       "cluster": "cb748b2fd60"
-    },
-    {
-      "t": "UFC Vegas 122 Bonuses Revealed Following Fun Card",
-      "source": "Heavy.com",
-      "ts": "2026-10-11T02:53:00+00:00",
-      "cluster": "cde3b152c37"
     },
     {
       "t": "Godinez defeats Brazilian fighter Souza at UFC Vegas 122",
@@ -2533,12 +2527,6 @@
       "source": "Heavy.com",
       "ts": "2026-10-11T03:04:00+00:00",
       "cluster": "ca1b76f4ba4"
-    },
-    {
-      "t": "Brendan Allen Earns Submission of Christian Leroy Duncan",
-      "source": "MMANews.com",
-      "ts": "2026-10-11T02:52:01+00:00",
-      "cluster": "c837f61a35c"
     },
     {
       "t": "UFC Fight Night: Allen vs. Duncan Results (10/10) - Fightful | WWE News, AEW News, Pro Wrestling Backstage News",
@@ -4255,6 +4243,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-13T00:28:08+00:00",
       "cluster": "c769ac54a3c"
+    },
+    {
+      "t": "Alex Pereira backs Paulo Costa to beat Magomed Ankalaev with pressure",
+      "source": "Sherdog",
+      "ts": "2026-10-13T02:30:11+00:00",
+      "cluster": "c0df180a0cf"
     }
   ],
   "digest_items": [],
