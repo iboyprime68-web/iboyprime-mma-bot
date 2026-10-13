@@ -1,5 +1,9 @@
 {
   "seen": {
+    "016b29ae93d0804e": 1791863938.6269798,
+    "0b2ca5f4f61b287f": 1791863938.6197677,
+    "bf176af5a281a008": 1791863938.6019435,
+    "85f8e37ca31dd381": 1791863938.60162,
     "68f3d1c99cd4803a": 1791863870.2413104,
     "94210374db90c23e": 1791863870.219612,
     "b699f7767c64daf2": 1791863802.4411337,
@@ -2495,11 +2499,7 @@
     "9109e6e4a1c82524": 1791502210.3496668,
     "7e8cce0b97d1af06": 1791501818.3105922,
     "996ae4ca5194e2a5": 1791501446.9720974,
-    "4cbe6ec9a46a4ed1": 1791500764.052401,
-    "4ccff93e3b80c22e": 1791500764.0510457,
-    "d354fc934d855195": 1791500698.58457,
-    "ce119e5bbdd07794": 1791500621.2717364,
-    "215fbecf46c6a686": 1791500555.213964
+    "4cbe6ec9a46a4ed1": 1791500764.052401
   },
   "initialized": true,
   "v": 4,
@@ -4225,6 +4225,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-13T03:24:13+00:00",
       "cluster": "c43277c3437"
+    },
+    {
+      "t": "\"Ariel has been my biggest hater\" - Sean Strickland hits Ariel Helwani with explosive accusation after he questions his UFC pay demands",
+      "source": "Sportskeeda",
+      "ts": "2026-10-13T03:39:00+00:00",
+      "cluster": "c65d0ce140f"
     }
   ],
   "digest_items": [],
