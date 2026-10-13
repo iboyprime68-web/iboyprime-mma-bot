@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d2b3ab7779b8e484": 1791928164.970999,
     "4327348a9abb0bae": 1791928094.9237638,
     "5a944c64349b3063": 1791927776.594887,
     "68512c626ab6f670": 1791927456.4811857,
@@ -2498,8 +2499,7 @@
     "2005dddea7dc0cfa": 1791564503.5821764,
     "6a3d33cd49d5cb72": 1791564436.0646932,
     "230ef7fb75d70051": 1791564120.695471,
-    "892f4d66d03b9b00": 1791564053.1993454,
-    "b4cc2810cc80b52b": 1791563985.1028514
+    "892f4d66d03b9b00": 1791564053.1993454
   },
   "initialized": true,
   "v": 4,
@@ -4531,6 +4531,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-13T21:45:52+00:00",
       "cluster": "c0fc5a5b6f9"
+    },
+    {
+      "t": "Alice Pereira Sends Pointed Message To Naysayers Of UFC Bantamweight Division",
+      "source": "MiddleEasy",
+      "ts": "2026-10-13T21:33:45+00:00",
+      "cluster": "c574b836aa6"
     }
   ],
   "digest_items": [],
