@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4fd9ac8799e0467a": 1791917153.1268373,
     "e095bf61cdb47f5a": 1791917025.1519175,
     "488a65b30721708b": 1791916519.4860175,
     "2c022187cc6a4f0f": 1791916387.2396083,
@@ -2498,8 +2499,7 @@
     "dabd12d058cad1c0": 1791554817.0817857,
     "0b149004c64164af": 1791554817.0800126,
     "de0b6b04bc9517f5": 1791554750.7944832,
-    "0feb5da52e347f7f": 1791554684.3559284,
-    "f3f713c31264d8ae": 1791554684.3185394
+    "0feb5da52e347f7f": 1791554684.3559284
   },
   "initialized": true,
   "v": 4,
@@ -4369,6 +4369,12 @@
       "source": "CBS Sports",
       "ts": "2026-10-13T17:50:01+00:00",
       "cluster": "c0330c14015"
+    },
+    {
+      "t": "Robert Whittaker worried Joaquin Buckley fights Mike Malott with no confidence",
+      "source": "MMA Junkie",
+      "ts": "2026-10-13T18:40:00+00:00",
+      "cluster": "c6570b221da"
     }
   ],
   "digest_items": [],
