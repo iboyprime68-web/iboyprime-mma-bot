@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cc9af136addf0926": 1791914591.5159473,
     "ca999109508ce9ee": 1791914563.6893463,
     "62e79a43c45b3693": 1791914563.648304,
     "32368a961fe5f61a": 1791914563.6479855,
@@ -2498,8 +2499,7 @@
     "20de410aa5337b6c": 1791553501.8566368,
     "bfd441f1e2a457d1": 1791553373.7409906,
     "ee2a52c2f48b70cd": 1791553308.9976156,
-    "0dc916889f65af01": 1791553244.1695096,
-    "a6a7a0f723c69d37": 1791553137.0196302
+    "0dc916889f65af01": 1791553244.1695096
   },
   "initialized": true,
   "v": 4,
@@ -4357,6 +4357,12 @@
       "source": "CBS Sports",
       "ts": "2026-10-13T17:58:01+00:00",
       "cluster": "cf1a98b4757"
+    },
+    {
+      "t": "UFC Vegas 122 star breaks silence after being cut from the roster following 7.5 pound weight miss",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-13T18:00:00+00:00",
+      "cluster": "c79135207a3"
     }
   ],
   "digest_items": [],
