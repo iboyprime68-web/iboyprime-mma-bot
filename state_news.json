@@ -1,21 +1,6 @@
 {
   "seen": {
-    "82567fb4f03a5c4b": 1791863742.1701427,
-    "87a0a48a2a5c9bc0": 1791863617.3673794,
-    "3eb72ea2e90557b1": 1791863551.545191,
-    "6809f0bc0d9bcdfb": 1791863192.513856,
-    "94210374db90c23e": 1791863192.5129545,
-    "016b29ae93d0804e": 1791863041.2107894,
-    "211472c44ee852bc": 1791863041.1986334,
-    "0b2ca5f4f61b287f": 1791862900.5288243,
-    "0dbf2b351e089090": 1791862767.9151428,
-    "387e099fdf9f3bd3": 1791862627.8895302,
-    "bf176af5a281a008": 1791862429.158044,
-    "68f3d1c99cd4803a": 1791862429.1576238,
-    "b699f7767c64daf2": 1791862354.2648416,
-    "85f8e37ca31dd381": 1791862136.3412888,
-    "d0b03dbafac68362": 1791862010.1427906,
-    "bfd8bc33191f5f4e": 1791862010.1408696,
+    "b699f7767c64daf2": 1791863802.4411337,
     "7f31e836417757db": 1791861756.6868632,
     "8d23c0fc7a785b94": 1791861756.6850476,
     "341a1df5a4e56354": 1791861627.330152,
@@ -2499,7 +2484,22 @@
     "e2692ae37463228f": 1791503196.1638288,
     "429c21854d7e5674": 1791503196.1193776,
     "e5c0c18ebda3031d": 1791503130.0910122,
-    "c39408f10c52f100": 1791503066.6929052
+    "c39408f10c52f100": 1791503066.6929052,
+    "4feab195d17a1271": 1791503001.2764666,
+    "670a4763ac8ef161": 1791502958.730734,
+    "7b35be6ca782bd76": 1791502810.394134,
+    "9a654355ddd22b96": 1791502810.3478189,
+    "ec78d3c73f0da37a": 1791502377.2738903,
+    "9109e6e4a1c82524": 1791502210.3496668,
+    "7e8cce0b97d1af06": 1791501818.3105922,
+    "996ae4ca5194e2a5": 1791501446.9720974,
+    "4cbe6ec9a46a4ed1": 1791500764.052401,
+    "4ccff93e3b80c22e": 1791500764.0510457,
+    "d354fc934d855195": 1791500698.58457,
+    "ce119e5bbdd07794": 1791500621.2717364,
+    "215fbecf46c6a686": 1791500555.213964,
+    "8ecd272d76e57daa": 1791500555.1645346,
+    "ef332902dd9ec38f": 1791500555.16112
   },
   "initialized": true,
   "v": 4,
@@ -4215,22 +4215,10 @@
       "cluster": "c82b96ccd08"
     },
     {
-      "t": "Jon Jones Backs Jackson Wink Teammate Josh Hokit to Upset Ciryl Gane at UFC 334",
-      "source": "Last Word On Sports",
-      "ts": "2026-10-13T03:25:11+00:00",
-      "cluster": "c941a6882e5"
-    },
-    {
       "t": "Paulo Costa says he'll fight ‘somewhere’ this year amid UFC standoff",
       "source": "Sherdog",
       "ts": "2026-10-13T03:04:09+00:00",
       "cluster": "c048ac390fa"
-    },
-    {
-      "t": "\"Ariel has been my biggest hater\" - Sean Strickland hits Ariel Helwani with explosive accusation after he questions his UFC pay demands",
-      "source": "Sportskeeda",
-      "ts": "2026-10-13T03:39:00+00:00",
-      "cluster": "c65d0ce140f"
     }
   ],
   "digest_items": [],
@@ -4240,6 +4228,9 @@
     0
   ],
   "yt_eval": [
+    "CBMiwgFBVV95cUxOQl81Y0VDeUJFMmtITTBEYU4tcW5teDJiZ2llUURrWkhObUN6VVRZOW5SX0lqR3FzSVBmdm0yeXdfRjlXTkl0RGFzSFEtUXRUZl82ZXZFMmNrV3dZSTZoWDkzeXJlNkZjdi1oNUc2bG5pazBWY1NzQ0RyMlpTUUNyeHF3SHpBQzdIS2RpcWYxUVFqN0hwQWp0cUpMZUZST0l5dlN1TEJVZlVBN3NGLVpTR1ZSd0s3cDVXMEtuZUFBYjhLUQ",
+    "https://bloodyelbow.com/?p=335745",
+    "CBMimwFBVV95cUxOTVhMdWxWY3BLOENTejYtdTRMemZBS3dxUXNuaElOcWkwWjFGNXJ5UHQyZkFsMm9veElDODJYcnhiOFhrRzlSR0tUdVJ3amRIWHJZR2tYYTRELTN4cVJNV25PVVhyUmxSTmpRMEFrVXZ1akRFQkF4NkI2d3RMcmNkbEZtMG5rcjRzVHI2UjVGRUdmUW9wQlhFREtIUQ",
     "CBMi6wFBVV95cUxQaDlvVmtac3I4elJldmkxa1RUbmN3c05YOVBiNDVJQjhSQ056Qi0tdDhZRnA5Y3JuVFkxb2Zla3UyTW45WjJraDdSUW1pZld4VnNwYkEwYVdWUjVRa0ZvVmpWMUNKVHQ5NjgzN3hzS3k0ck9CeGxwMFlmTlhNR0NMNEhkSUpoRFRZY1JTYVBGTzlkNFRPNkFqLTdaSWg2bFhFZFl1SGlHZEhOSkw2d0QyOURZZ0t6eEpRMGtXM2dQeGo4RXNJVlM4UlFpdzVuZ3ZpeE1tUS0xcExFUnpwX2pqcTN4b3hUdFBqamNV",
     "CBMijAFBVV95cUxPS0J4d0pZVUpqZUxROXpXcG9QVzZIazBzdkdSbGR6cFNoT1hoeVotY0V2azhFaFFYUW9yazdnVzNlY0pkOFZ6b2FiRnF3UnJkeWlXMjhXNnJTSzJTWURKTjdlRVZ4X1hpbjRNTEI4QmpaVVhTRlFmTVhVeE1iQ19TcFhqWnY4azlOMGR4VA",
     "CBMigwFBVV95cUxQeDZaOTlmRzNmRjliMlNMd21teVRxYVlWYVRGNEQtTlpfS2xseXhNOG9pZG4tWHlhMURRT05OZVU4Z195M2Y0TlN1Wno0NmllSDJ5eEk1RjZBSVBTWjB3QW1mYVVVWG1LNV9tTVU2LWhxU2h2Y2k2SGRJb1dQRFRHZGJGVQ",
@@ -5736,14 +5727,11 @@
     "https://x.com/acdmma_/status/2109774688335323234",
     "CBMia0FVX3lxTE1kSFctU3hzMjl5XzJ2MGJCYWxfU3RYVGQtM1NkNkg3TVJ5TnQzWmF4V1ItMEJZaVJDOVlWdTVTUkVxMWVOb21DNmpLcTYxMXZnY2RnOWZaVFBPbV9zd2xIcER4dG9jMlo2MDNB",
     "https://www.sherdog.com/news/news/Alex-Pereira-accuses-UFC-of-manufacturing-support-for-GaneHokit-203184",
-    "https://www.sherdog.com/news/news/Movsar-Evloev-says-hes-entering-his-prime-before-Alexander-Volkanovski-title-fight-203185",
-    "CBMigAFBVV95cUxNVl9lVlVid0RpZUFpYl9TOGVGNXZzVkkxZkNzUjhzNV9QTFRKNElWaXhxLWNsOG1MV3hMWHc0amV4YVd1bDhsbnNmUlp1ZzFUemhLcXVjOEdta1A1cWtndGxkR1pIRmNzdjd5bTJSOW9qN3hEUmpRRHdiX1FQa3ctag",
-    "https://www.sherdog.com/news/news/Paulo-Costa-says-hell-fight-somewhere-this-year-amid-UFC-standoff-203186",
-    "CBMi1AFBVV95cUxORHQ1NjY5LVFrUktWd0o5QVRuTW45enBheUdzRm1tUTc3czREQ3hIeTlRd19EMGVKcHlsdXgzcHB3REhoWUNic28zWC1GODBiU0U2LUJKYnM0UHBhMVlyVnRrTVhBS2JvcW5OeEpUUG02QTRRaUlacVM4M0NsMUMycHRIWU44SDJkaC14QXlrbGRKY0RRdGdRUUo4NThwcXYzUHY3bmczNFpobTVuQVNsaGtDdFZCUnk1RWl5TU1vemF6bzdpM2gwcFdobWR5Z0Z5THVGVw"
+    "https://www.sherdog.com/news/news/Movsar-Evloev-says-hes-entering-his-prime-before-Alexander-Volkanovski-title-fight-203185"
   ],
   "daily": {
     "d": "2026-10-13",
-    "ai": 34,
+    "ai": 29,
     "staged": 1,
     "prio": 0,
     "lost": 0
