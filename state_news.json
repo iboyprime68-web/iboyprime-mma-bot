@@ -1,5 +1,7 @@
 {
   "seen": {
+    "016b29ae93d0804e": 1791863041.2107894,
+    "211472c44ee852bc": 1791863041.1986334,
     "0b2ca5f4f61b287f": 1791862900.5288243,
     "0dbf2b351e089090": 1791862767.9151428,
     "387e099fdf9f3bd3": 1791862627.8895302,
@@ -2497,9 +2499,7 @@
     "670a4763ac8ef161": 1791502958.730734,
     "7b35be6ca782bd76": 1791502810.394134,
     "9a654355ddd22b96": 1791502810.3478189,
-    "ec78d3c73f0da37a": 1791502377.2738903,
-    "9109e6e4a1c82524": 1791502210.3496668,
-    "7e8cce0b97d1af06": 1791501818.3105922
+    "ec78d3c73f0da37a": 1791502377.2738903
   },
   "initialized": true,
   "v": 4,
@@ -4231,6 +4231,12 @@
       "source": "Sherdog",
       "ts": "2026-10-13T03:04:09+00:00",
       "cluster": "c048ac390fa"
+    },
+    {
+      "t": "\"Ariel has been my biggest hater\" - Sean Strickland hits Ariel Helwani with explosive accusation after he questions his UFC pay demands",
+      "source": "Sportskeeda",
+      "ts": "2026-10-13T03:39:00+00:00",
+      "cluster": "c65d0ce140f"
     }
   ],
   "digest_items": [],
