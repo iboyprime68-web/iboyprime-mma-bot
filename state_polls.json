@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 24,
   "staged_at": [
-    "2026-10-11T15:47:58.082726+00:00",
     "2026-10-11T20:22:39.608919+00:00",
     "2026-10-12T19:08:31.549231+00:00",
-    "2026-10-13T17:00:08.862071+00:00"
+    "2026-10-13T17:00:08.862071+00:00",
+    "2026-10-14T14:33:45.863967+00:00"
   ],
   "asked": [
-    "Whose title reign aged the worst?",
     "Who is the most undeniable title challenger in the UFC right now?",
     "Who takes the crown in a pure grappling match, any era?",
     "Who is the most complete heavyweight in the UFC right now?",
@@ -47,33 +46,34 @@
     "What is the most brutal head kick knockout in UFC history?",
     "What is the most shocking UFC retirement of the last five years?",
     "Who is the most overrated fighter in the UFC right now?",
-    "Who is the most overprotected champion in UFC history?"
+    "Who is the most overprotected champion in UFC history?",
+    "What is the most disrespectful thing a UFC fighter has ever said about another fighter?"
   ],
   "last_entry": {
-    "q": "Who is the most overprotected champion in UFC history?",
+    "q": "What is the most disrespectful thing a UFC fighter has ever said about another fighter?",
     "type": "poll",
     "options": [
       {
-        "label": "Conor McGregor",
-        "emoji": "☘️",
-        "art": ""
+        "label": "Pereira on DC",
+        "emoji": "🎤",
+        "art": "Empty commentary desk under a harsh spotlight, one microphone knocked to the floor"
       },
       {
-        "label": "Jon Jones",
-        "emoji": "🐐",
-        "art": ""
+        "label": "Strickland on pay",
+        "emoji": "💰",
+        "art": "Crumpled fight contract on a locker room bench, single overhead bulb, cash scattered"
       },
       {
-        "label": "Ronda Rousey",
-        "emoji": "🥋",
-        "art": ""
+        "label": "Bisping on Pereira",
+        "emoji": "🔥",
+        "art": "Two microphones facing each other on a dark table, sparks arcing between them"
       },
       {
-        "label": "Other",
-        "emoji": "🤔",
+        "label": "Other (comment below)",
+        "emoji": "🤐",
         "art": ""
       }
     ],
-    "gag": "A giant UFC belt inside a protective glass case with a security guard asleep."
+    "gag": "A cartoon parrot in a tiny blazer shouting insults into a press conference microphone"
   }
 }
