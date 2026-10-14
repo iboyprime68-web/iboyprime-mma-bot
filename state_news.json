@@ -1,5 +1,6 @@
 {
   "seen": {
+    "354d72acc44e52ed": 1791938458.416419,
     "debc61c65ac02175": 1791937878.1900368,
     "1a9c9f5170e17802": 1791937173.1598358,
     "1e9ae43a380e01f4": 1791937104.8543108,
@@ -2498,8 +2499,7 @@
     "6cb0de52c7f980de": 1791571416.2667387,
     "dfdc10038bb61457": 1791571290.3057628,
     "3058ae25b7cb700a": 1791571290.2908008,
-    "72b2e78209c8a83c": 1791571164.1321418,
-    "282a8a0c26093dc7": 1791570826.7042992
+    "72b2e78209c8a83c": 1791571164.1321418
   },
   "initialized": true,
   "v": 4,
@@ -2539,12 +2539,6 @@
       "source": "Sherdog",
       "ts": "2026-10-12T02:40:16+00:00",
       "cluster": "c5a80e36847"
-    },
-    {
-      "t": "Michael ‘Venom’ Page went 5-1 in the UFC; now he's headed to Misfits",
-      "source": "Sherdog",
-      "ts": "2026-10-12T00:38:15+00:00",
-      "cluster": "cc93a8a39fc"
     },
     {
       "t": "Bruce Buffer reveals potential $150 million venue for dream UFC event",
@@ -4603,6 +4597,12 @@
       "source": "MMA Junkie",
       "ts": "2026-10-14T00:25:00+00:00",
       "cluster": "c918442873d"
+    },
+    {
+      "t": "Petr Yan plans to rename Yas Island to “Yan Island” before UFC 333",
+      "source": "MMA Sucka",
+      "ts": "2026-10-14T00:39:47+00:00",
+      "cluster": "c038038c5f0"
     }
   ],
   "digest_items": [],
