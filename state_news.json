@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2c887de341e7ba5b": 1791949860.4680917,
     "efe21d864d9da56f": 1791949612.2330785,
     "40028fe288d9f207": 1791949612.2314672,
     "0a5ffd490e55ca2d": 1791949362.0972888,
@@ -2498,8 +2499,7 @@
     "329d58bc113318f9": 1791579711.5800836,
     "e54a133a3d3155ef": 1791579711.5561028,
     "9afa0e4d1d875510": 1791579711.5555487,
-    "8fe47cbe1140e4cd": 1791579643.7865307,
-    "abecf85ed6c2c620": 1791579643.762195
+    "8fe47cbe1140e4cd": 1791579643.7865307
   },
   "initialized": true,
   "v": 4,
@@ -3025,12 +3025,6 @@
       "source": "MMA Mania",
       "ts": "2026-10-12T19:00:00+00:00",
       "cluster": "cc8fb0fdc8d"
-    },
-    {
-      "t": "DWCS Week 10 weigh-in results: All 10 fighters make weight",
-      "source": "Sherdog",
-      "ts": "2026-10-12T03:48:16+00:00",
-      "cluster": "c3c635c8eb2"
     },
     {
       "t": "UFC Edmonton: Make predictions for Joaquin Buckley vs. Mike Malott",
@@ -4723,6 +4717,12 @@
       "source": "MMAWeekly.com",
       "ts": "2026-10-14T03:35:00+00:00",
       "cluster": "c53f90c3e5d"
+    },
+    {
+      "t": "Brazilian Strikers Douglas Da Lapa and Luis Francischinelli Own the Final Episode of Season 10 of Dana White’s Contender Series",
+      "source": "TWSN",
+      "ts": "2026-10-14T03:43:00+00:00",
+      "cluster": "c42bc4ad1bb"
     }
   ],
   "digest_items": [],
