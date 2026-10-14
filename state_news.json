@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d40225d69529155c": 1791943310.296476,
     "63d889efcc62d184": 1791943263.036752,
     "2379952eab92d96a": 1791943237.1617012,
     "8b888a6c7b668758": 1791943237.1087353,
@@ -2498,8 +2499,7 @@
     "1081d579162bbd4d": 1791573596.7056997,
     "54c7938fb89391f4": 1791573596.7033234,
     "d19005c78f5c1768": 1791573596.7020516,
-    "896b1e74fca070df": 1791573489.9266179,
-    "eecd082e836a95ad": 1791573275.1868515
+    "896b1e74fca070df": 1791573489.9266179
   },
   "initialized": true,
   "v": 4,
@@ -4645,6 +4645,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-14T02:00:00+00:00",
       "cluster": "c826587e60a"
+    },
+    {
+      "t": "Dana White's Contender Series 2026 Week 10 results: Four fighters earn contracts in final week of season",
+      "source": "CBS Sports",
+      "ts": "2026-10-14T01:53:00+00:00",
+      "cluster": "cbc2e5e78f3"
     }
   ],
   "digest_items": [],
