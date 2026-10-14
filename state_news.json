@@ -1,5 +1,6 @@
 {
   "seen": {
+    "776189d7795593c0": 1791956183.192276,
     "0f9591680465bbb9": 1791956053.7971807,
     "2e36a287e43e3b06": 1791955862.5717385,
     "9b2de3cfa55fd8b1": 1791955610.130862,
@@ -2498,8 +2499,7 @@
     "b4ff605e89d370dd": 1791586654.8282797,
     "0255348f61f73595": 1791586402.8786943,
     "f409c277d84e47cb": 1791585772.0955606,
-    "5e01e33c6e4b60fe": 1791585582.021051,
-    "93fe1f019eb485e9": 1791585451.9243193
+    "5e01e33c6e4b60fe": 1791585582.021051
   },
   "initialized": true,
   "v": 4,
@@ -4801,6 +4801,12 @@
       "source": "CBS Sports",
       "ts": "2026-10-14T04:42:14+00:00",
       "cluster": "c3420277e21"
+    },
+    {
+      "t": "\"He just signed a new deal\" - Dana White addresses Sean Strickland's criticisms about UFC pay",
+      "source": "Sportskeeda",
+      "ts": "2026-10-14T05:30:00+00:00",
+      "cluster": "cfb34e7fbc0"
     }
   ],
   "digest_items": [],
