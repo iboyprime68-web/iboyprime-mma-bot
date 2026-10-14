@@ -1,5 +1,7 @@
 {
   "seen": {
+    "3230006e20cfc99b": 1791951727.0556657,
+    "74b32216f481c4de": 1791951727.012504,
     "341897ac54161757": 1791951659.3311322,
     "0a80299ee67e3dcc": 1791951282.2939005,
     "a77f8e4c20dde57a": 1791950901.7976024,
@@ -2497,9 +2499,7 @@
     "73f2abb1a16c8cb3": 1791581713.1149962,
     "b0b1962fffe47b24": 1791581565.1711035,
     "afe45cb14a211028": 1791581438.182578,
-    "0709ffa31e38cade": 1791581373.2178342,
-    "c33c4cdede289362": 1791581246.7080011,
-    "f2a27bf4da1f15d2": 1791581056.3545444
+    "0709ffa31e38cade": 1791581373.2178342
   },
   "initialized": true,
   "v": 4,
@@ -4759,6 +4759,12 @@
       "source": "CBS Sports",
       "ts": "2026-10-14T03:41:51+00:00",
       "cluster": "ca02880ba9b"
+    },
+    {
+      "t": "Ex-Green Beret and UFC Fighter Tim Kennedy Shot in Ambush on Erik Prince’s Congo Force",
+      "source": "The SOFX Report",
+      "ts": "2026-10-14T04:19:27+00:00",
+      "cluster": "c8e59afc105"
     }
   ],
   "digest_items": [],
