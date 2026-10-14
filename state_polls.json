@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 24,
   "staged_at": [
-    "2026-10-11T20:22:39.608919+00:00",
     "2026-10-12T19:08:31.549231+00:00",
     "2026-10-13T17:00:08.862071+00:00",
-    "2026-10-14T14:33:45.863967+00:00"
+    "2026-10-14T14:33:45.863967+00:00",
+    "2026-10-14T20:14:43.424753+00:00"
   ],
   "asked": [
-    "Who is the most undeniable title challenger in the UFC right now?",
     "Who takes the crown in a pure grappling match, any era?",
     "Who is the most complete heavyweight in the UFC right now?",
     "Who is the most dangerous striker in the UFC right now?",
@@ -47,33 +46,34 @@
     "What is the most shocking UFC retirement of the last five years?",
     "Who is the most overrated fighter in the UFC right now?",
     "Who is the most overprotected champion in UFC history?",
-    "What is the most disrespectful thing a UFC fighter has ever said about another fighter?"
+    "What is the most disrespectful thing a UFC fighter has ever said about another fighter?",
+    "What is the most ridiculous fine a UFC fighter has ever received?"
   ],
   "last_entry": {
-    "q": "What is the most disrespectful thing a UFC fighter has ever said about another fighter?",
+    "q": "What is the most ridiculous fine a UFC fighter has ever received?",
     "type": "poll",
     "options": [
       {
-        "label": "Pereira on DC",
-        "emoji": "🎤",
-        "art": "Empty commentary desk under a harsh spotlight, one microphone knocked to the floor"
+        "label": "Gum Chewer",
+        "emoji": "😬",
+        "art": "A single piece of chewing gum on a dark canvas under a harsh spotlight, a ten thousand dollar bill beside it"
       },
       {
-        "label": "Strickland on pay",
-        "emoji": "💰",
-        "art": "Crumpled fight contract on a locker room bench, single overhead bulb, cash scattered"
+        "label": "Oily Dip",
+        "emoji": "🛢️",
+        "art": "A fighter's corner bucket and towel on an empty stool, one oily fingerprint glowing under arena lights"
       },
       {
-        "label": "Bisping on Pereira",
-        "emoji": "🔥",
-        "art": "Two microphones facing each other on a dark table, sparks arcing between them"
+        "label": "Trash Talk",
+        "emoji": "🗣️",
+        "art": "A lone microphone on a dark press conference table, crumpled fine notice crumpled beside it"
       },
       {
         "label": "Other (comment below)",
-        "emoji": "🤐",
-        "art": ""
+        "emoji": "🤡",
+        "art": "A frowning referee holding a giant receipt while a pigeon in tiny shorts flies off with a wallet"
       }
     ],
-    "gag": "A cartoon parrot in a tiny blazer shouting insults into a press conference microphone"
+    "gag": "A frowning referee holding a giant receipt while a pigeon in tiny shorts flies off with a wallet"
   }
 }
