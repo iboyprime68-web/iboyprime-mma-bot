@@ -1,5 +1,6 @@
 {
   "seen": {
+    "074aeaad838dd5be": 1791959475.5159264,
     "a42d53a58db2bc3d": 1791959429.961119,
     "68c1c52974d6be7e": 1791959429.9156387,
     "83652d1d6f49a660": 1791959363.2441456,
@@ -2498,8 +2499,7 @@
     "1f0f096785a0bdd2": 1791587390.8642983,
     "028ea0d9ef1ce850": 1791587326.5970883,
     "85a607d1994e5680": 1791587326.5942433,
-    "41f0bc81fbe9c7dd": 1791587262.1180522,
-    "f385cc3df4f7edce": 1791587132.504068
+    "41f0bc81fbe9c7dd": 1791587262.1180522
   },
   "initialized": true,
   "v": 4,
@@ -4855,6 +4855,12 @@
       "source": "Operativ Məlumat Mərkəzi",
       "ts": "2026-10-14T06:22:19+00:00",
       "cluster": "c79cd8c7c8f"
+    },
+    {
+      "t": "Brock Hamer replaces Morquez Forest against Levan Khabalaev at PFL Chicago",
+      "source": "Sherdog",
+      "ts": "2026-10-14T06:11:31+00:00",
+      "cluster": "c66e0294aa6"
     }
   ],
   "digest_items": [],
