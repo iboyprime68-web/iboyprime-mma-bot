@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 24,
   "staged_at": [
-    "2026-10-13T17:00:08.862071+00:00",
     "2026-10-14T14:33:45.863967+00:00",
     "2026-10-14T20:14:43.424753+00:00",
-    "2026-10-15T14:13:21.040282+00:00"
+    "2026-10-15T14:13:21.040282+00:00",
+    "2026-10-15T19:55:30.542546+00:00"
   ],
   "asked": [
-    "Who is the most complete heavyweight in the UFC right now?",
     "Who is the most dangerous striker in the UFC right now?",
     "Who is the most boring UFC champion in history?",
     "Oblique kicks are in the news again. What should the UFC do about them?",
@@ -47,33 +46,34 @@
     "Who is the most overprotected champion in UFC history?",
     "What is the most disrespectful thing a UFC fighter has ever said about another fighter?",
     "What is the most ridiculous fine a UFC fighter has ever received?",
-    "What is the most cursed UFC title shot that never happened?"
+    "What is the most cursed UFC title shot that never happened?",
+    "What is the most ridiculous UFC title shot someone has ever skipped the line for?"
   ],
   "last_entry": {
-    "q": "What is the most cursed UFC title shot that never happened?",
+    "q": "What is the most ridiculous UFC title shot someone has ever skipped the line for?",
     "type": "poll",
     "options": [
       {
-        "label": "Buckley vs Islam",
-        "emoji": "🐺",
-        "art": "empty arena cage lit by a single spotlight, title belt left on the canvas"
+        "label": "Alex Pereira",
+        "emoji": "🏹",
+        "art": ""
       },
       {
-        "label": "Gaethje vs Volk",
-        "emoji": "🌩️",
-        "art": "two empty cornermen stools facing off under storm clouds inside an octagon"
+        "label": "Brock Lesnar",
+        "emoji": "🐻",
+        "art": ""
       },
       {
-        "label": "Tsarukyan vs Islam",
-        "emoji": "🚪",
-        "art": "a locked cage door with a title belt hanging just out of reach"
+        "label": "CM Punk",
+        "emoji": "🎤",
+        "art": ""
       },
       {
         "label": "Other (comment below)",
-        "emoji": "🪑",
+        "emoji": "🤡",
         "art": ""
       }
     ],
-    "gag": "a dusty UFC contract stapled to an empty chair, cobwebs and a tumbleweed rolling past"
+    "gag": "A clown handing out golden tickets to a title fight, with a line of angry fighters waiting"
   }
 }
