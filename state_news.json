@@ -1,5 +1,6 @@
 {
   "seen": {
+    "92b9d1578e5d7177": 1792040421.362755,
     "2d7374f47b3eee7e": 1792039709.1028328,
     "2fcd81f6ded08b3f": 1792039266.1806626,
     "4ad40b5bc3ab4a85": 1792039266.1787417,
@@ -2498,18 +2499,11 @@
     "fe2909d1b93a22d1": 1791688837.7582707,
     "326662d9d13e2d12": 1791688668.484591,
     "e9ad9d0a476af835": 1791688668.4511068,
-    "ff2047b5f3b9a1d2": 1791688668.4495711,
-    "87198debb2bed53c": 1791688668.415084
+    "ff2047b5f3b9a1d2": 1791688668.4495711
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC Vegas 122 star breaks silence after being cut from the roster following 7.5 pound weight miss",
-      "source": "Bloody Elbow",
-      "ts": "2026-10-13T18:00:00+00:00",
-      "cluster": "c79135207a3"
-    },
     {
       "t": "Sal Everett still working as Dana White’s runner, after earning contract on Contender Series",
       "source": "MMA Mania",
@@ -4903,12 +4897,18 @@
       "source": "NY Fights",
       "ts": "2026-10-15T04:34:10+00:00",
       "cluster": "c6863c3e6d7"
+    },
+    {
+      "t": "Dana White provides location update on UFC 333 following recent events in the Middle East",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-15T05:00:00+00:00",
+      "cluster": "cdacd86467d"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-15T04",
+    "2026-10-15T05",
     0
   ],
   "yt_eval": [
