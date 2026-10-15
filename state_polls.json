@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 24,
   "staged_at": [
-    "2026-10-12T19:08:31.549231+00:00",
     "2026-10-13T17:00:08.862071+00:00",
     "2026-10-14T14:33:45.863967+00:00",
-    "2026-10-14T20:14:43.424753+00:00"
+    "2026-10-14T20:14:43.424753+00:00",
+    "2026-10-15T14:13:21.040282+00:00"
   ],
   "asked": [
-    "Who takes the crown in a pure grappling match, any era?",
     "Who is the most complete heavyweight in the UFC right now?",
     "Who is the most dangerous striker in the UFC right now?",
     "Who is the most boring UFC champion in history?",
@@ -47,33 +46,34 @@
     "Who is the most overrated fighter in the UFC right now?",
     "Who is the most overprotected champion in UFC history?",
     "What is the most disrespectful thing a UFC fighter has ever said about another fighter?",
-    "What is the most ridiculous fine a UFC fighter has ever received?"
+    "What is the most ridiculous fine a UFC fighter has ever received?",
+    "What is the most cursed UFC title shot that never happened?"
   ],
   "last_entry": {
-    "q": "What is the most ridiculous fine a UFC fighter has ever received?",
+    "q": "What is the most cursed UFC title shot that never happened?",
     "type": "poll",
     "options": [
       {
-        "label": "Gum Chewer",
-        "emoji": "😬",
-        "art": "A single piece of chewing gum on a dark canvas under a harsh spotlight, a ten thousand dollar bill beside it"
+        "label": "Buckley vs Islam",
+        "emoji": "🐺",
+        "art": "empty arena cage lit by a single spotlight, title belt left on the canvas"
       },
       {
-        "label": "Oily Dip",
-        "emoji": "🛢️",
-        "art": "A fighter's corner bucket and towel on an empty stool, one oily fingerprint glowing under arena lights"
+        "label": "Gaethje vs Volk",
+        "emoji": "🌩️",
+        "art": "two empty cornermen stools facing off under storm clouds inside an octagon"
       },
       {
-        "label": "Trash Talk",
-        "emoji": "🗣️",
-        "art": "A lone microphone on a dark press conference table, crumpled fine notice crumpled beside it"
+        "label": "Tsarukyan vs Islam",
+        "emoji": "🚪",
+        "art": "a locked cage door with a title belt hanging just out of reach"
       },
       {
         "label": "Other (comment below)",
-        "emoji": "🤡",
-        "art": "A frowning referee holding a giant receipt while a pigeon in tiny shorts flies off with a wallet"
+        "emoji": "🪑",
+        "art": ""
       }
     ],
-    "gag": "A frowning referee holding a giant receipt while a pigeon in tiny shorts flies off with a wallet"
+    "gag": "a dusty UFC contract stapled to an empty chair, cobwebs and a tumbleweed rolling past"
   }
 }
