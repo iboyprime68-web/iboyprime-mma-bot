@@ -4912,7 +4912,6 @@
     0
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=336048",
     "CBMijwFBVV95cUxQYlNSUURpMzhYZkVqUDlOdlBQLWVlQkg1OUljdzBuTXY4V0ttVUN0VjB0dkQ5czVPdUVaNGZjRmtKelFOQUdDa21udVFUd0p1RFllZzBLeGhmbWNTeGE4d2FLVHM4cEdzWTY4UXlCclp4ZnBTazZsNi1rdWdxM1VHVlg1dzI1T3hEbnR1WmxQdw",
     "CBMiigFBVV95cUxQS0dqZGg3Rk12QlRiTV82Vng5S3Rvb2dRMGhqQnJEdE9DeGk3SDlPRi1LdEJYRG9mVDFjUW1Sc0RJdzJ4dk9Ia0o4RFVrS1Fja1VSRnM0TENZd2Q1UlZjMW12bVM3NzVHRm96ekFvR25ZMU5ESG1KeTJxc3dPSnNQT0dLZ09QTk82R0E",
     "https://www.sherdog.com/news/news/Sean-Strickland-confronted-by-Nassourdine-Imavov-over-unsigned-UFC-title-fight-203120",
@@ -6411,13 +6410,14 @@
     "CBMiiwFBVV95cUxNSHJKMFM2bl9aNlh3dzZJeU93ZC1EX0pkaUNBX1V1UWdDVkhlOFU1M2V4VDBJTnZaM3pDc3gxOUxGLWhZazJQZWNMbjc1TW02RVYyZWdLa1huMXUzal96VHAwVUNkd3VSQTJjcHNZY2JidGU5bTBMN0JEWS1MRjY0NFU5alJRNnVYdFc4",
     "CBMihwFBVV95cUxORzRSZUZnTG41LWlFdHFNZW11VW0tTmxldU54SGZjLWVHVTdJV3h2UG5jS1plM2lkZktVMUNNYWxkWE84elB2d0lOSnJIemtyQ1kzNF95NXRDMUdZazlqd1ZtX1MzQVRaNzFUZkdtQnc5cmNfcGNGZWp4dWc0bTJ2aEFYYzFlZFk",
     "CBMiigFBVV95cUxNRTVRTVZGU3VvekZWemtTUU5CTk9RV3dUZjRTTWZOSW9qdTA5Umc3ZHhRVVhOM2tfUHEtTmJPSFBIR1FUa1dHTnpSNExDaUQ1a2NGWDNFUWQ0SDBGdTlTWnRUTV9FSEJqSER0TVZEcGtYVmFJd0RIYTE1bnBvYlpkeGxBUEx2bWRDQkE",
-    "CBMikgFBVV95cUxPYUFCZVBlQkpad0xwUk5ZQktURmhXQmN4OTdxSW5aNWxrbU45Ri1IbFNpYTZZTGNGRmlOUXNDM25WXzJycGRTQXZZdE02cG1SVWw3Zl9RNUJKTnFmSEU3QmphQ1pMcnNRQUN2MzY3cXNwdlBJSWQ1V0RfUThoY1phWTIyTkhfUUlRd2VBZmlFajlCZw"
+    "CBMikgFBVV95cUxPYUFCZVBlQkpad0xwUk5ZQktURmhXQmN4OTdxSW5aNWxrbU45Ri1IbFNpYTZZTGNGRmlOUXNDM25WXzJycGRTQXZZdE02cG1SVWw3Zl9RNUJKTnFmSEU3QmphQ1pMcnNRQUN2MzY3cXNwdlBJSWQ1V0RfUThoY1phWTIyTkhfUUlRd2VBZmlFajlCZw",
+    "CBMinwFBVV95cUxNT1BGQXVmRjVaenRqZGJFVVh1UFlzNWFPYjd6a2xpNXJBUmd5SHYwYV9vd2NSb0dFdzFva01LWHpXNUtrd0FmeFVWVHkwQklYRWlkZm9ENjZqbnl2M2diZ1VjNHUwWE8wWlNjZTJqQ3VKcXRMUWh0WkVhZjhwMHZYdTQ1cTk3Z1RaX0RZYUh2SW0xSnhhVzJNQnh2ekdvZlU"
   ],
   "daily": {
     "d": "2026-10-15",
-    "ai": 106,
+    "ai": 108,
     "staged": 0,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
@@ -7695,6 +7695,15 @@
         "house"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-10-15T13:18:46.353447+00:00",
+      "t": "Alexander Volkanovski Proposes Justin Gaethje Lightweight Title Superfight",
+      "names": [
+        "volkanovski",
+        "gaethje"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7811,15 +7820,16 @@
     "696fcfc52d20a833": 1791543809.6126297,
     "63adf1b3c7291f37": 1791811178.4851263,
     "63db5b18b45949d9": 1791830504.486526,
-    "bdc2bbe32ac07aa9": 1791990695.7856765
+    "bdc2bbe32ac07aa9": 1791990695.7856765,
+    "7776f641769fe415": 1792070335.0840263
   },
   "pinged_titles": [
     [
-      "Jon Jones rules out UFC return after disappointment of missing White House event",
-      1791990695.7856765,
+      "Alexander Volkanovski Proposes Justin Gaethje Lightweight Title Superfight",
+      1792070335.0840263,
       [
-        "house",
-        "jones"
+        "gaethje",
+        "volkanovski"
       ]
     ]
   ]
