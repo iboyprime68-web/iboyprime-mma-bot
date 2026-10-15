@@ -1,15 +1,7 @@
 {
   "seen": {
-    "cf114513956b735f": 1792029347.4342592,
-    "007f6bb25f03d033": 1792028960.858626,
-    "4ca64345c089dfe5": 1792028766.370138,
-    "9cc3553e4360c5dd": 1792028766.3297412,
-    "d0f1093fba48279d": 1792028195.3284142,
-    "5a0f7f6ea337ca9b": 1792028003.4180906,
-    "1f3d1acf6f250d58": 1792027938.2516088,
-    "85b6c86a18df96ba": 1792027809.6767387,
-    "13faf48a1b703565": 1792027553.2476404,
-    "82645d7a0eaf27c4": 1792027484.945252,
+    "82645d7a0eaf27c4": 1792029371.1233528,
+    "1f3d1acf6f250d58": 1792029371.0757906,
     "28cb981b59908051": 1792027290.8021913,
     "bab956f3519664c0": 1792027036.7753396,
     "6c0984e9e1c48fd2": 1792026907.9639788,
@@ -2499,11 +2491,37 @@
     "1a50892dfb9572a0": 1791680661.083131,
     "59afe43002e8dbd0": 1791680661.0625832,
     "584321ddf23b6cfd": 1791680661.0424292,
-    "b16b7972d97c3076": 1791680614.3333912
+    "b16b7972d97c3076": 1791680614.3333912,
+    "a8f4e85bcd1f68dc": 1791680592.1761475,
+    "d27b69afa2f97f70": 1791679779.6163597,
+    "9968d1a072b326c6": 1791679712.5492854,
+    "bae99c5cd58c7e4d": 1791679646.0524273,
+    "148ac31389603486": 1791679518.672404,
+    "317fe444176741d2": 1791679518.6709204,
+    "f8c031364bc6b5e9": 1791679204.290754,
+    "d11c780a7abec562": 1791678952.3137648
   },
   "initialized": true,
   "v": 4,
   "recent": [
+    {
+      "t": "Kayla Harrison recalls horrifying surgery experience ahead of UFC 334 return",
+      "source": "talkSPORT",
+      "ts": "2026-10-13T15:17:54+00:00",
+      "cluster": "ccceb36fe33"
+    },
+    {
+      "t": "Chael Sonnen finally sees Ciryl Gane's 'level of greatness' before UFC 334",
+      "source": "MMA Junkie",
+      "ts": "2026-10-13T15:20:00+00:00",
+      "cluster": "c761b7abb86"
+    },
+    {
+      "t": "Veteran referee has perfect solution to UFC’s eye poke dilemma",
+      "source": "MMAWeekly.com",
+      "ts": "2026-10-13T15:23:19+00:00",
+      "cluster": "ce5c49dc673"
+    },
     {
       "t": "Demetrious Johnson Wants MMA to Protect Fighters’ Careers Like the NFL Protects Quarterbacks",
       "source": "MMA Sucka",
@@ -4885,24 +4903,6 @@
       "source": "MMA Junkie",
       "ts": "2026-10-15T01:20:00+00:00",
       "cluster": "c66d5f95d87"
-    },
-    {
-      "t": "UFC Edmonton: Jasmine Jasudavicius reveals bizarre $10K fine from Manitoba commission",
-      "source": "MMA Crossfire",
-      "ts": "2026-10-15T01:42:37+00:00",
-      "cluster": "c3ee4d6bb25"
-    },
-    {
-      "t": "UFC Edmonton’s Erin Blanchfield: “It’s Finally Getting Close to My Time”",
-      "source": "Cageside Press",
-      "ts": "2026-10-15T01:46:14+00:00",
-      "cluster": "c6b660d93f0"
-    },
-    {
-      "t": "Dana White Reacts to Former UFC Middleweight Tim Kennedy Being Shot During Congo Mission",
-      "source": "NY Fights",
-      "ts": "2026-10-15T01:52:59+00:00",
-      "cluster": "c14be753b70"
     }
   ],
   "digest_items": [],
@@ -4912,6 +4912,10 @@
     0
   ],
   "yt_eval": [
+    "CBMivAFBVV95cUxOYXc3dlg5ckhZQ0lHTTdrT2JVUklmN2hVZG1uVzIzNnAwUTRpX0JZYk81ZEx0QTBvTlZqVkNEVWRZNG1FU2hFWkg5bWhvc1dYVUdXTldhc2hmcGVsbG1vRWp5SUhfSUFyam1CR1I0bU41bXd3MUNFNGNXVWJaMGtadXZsSm5YZHdTXzFuQnV1WUhKb3J3ZHBLSUI3b2VoU3NWWlBEUlNsd1hrS1FHd01pTHM0clo1clFha0JoTg",
+    "CBMi5AFBVV95cUxNUTRiY05WOGRNMWFfdW4yTl84cklHc1FaeHhxY1FXRHhyNW56UzRNXzNHdkxVZ19RaU1xc20wN3VOT0UyeW11ZnFwQkw2V3NpdnJlTWxWWVZSZGZGMWdWMTcwRDNBTEI5V3F1MXNKSHk2Ul9zQzlieUhIN1BxbXFxNS15RDc3MnlxVGxEdW9KNEJsTVd2Vlp6Uy02YUE4YUxvM283b2RLWFcxZU9mQTBBVUQ1RmxZRVZQaFRIM0ctUWJZMHVGWnp2cGc3eEw4dmlSMXZBcnRQX2swN2o0Sm9wWERibmQ",
+    "CBMinAFBVV95cUxPdkdyN3BwdHpKRVczWnVBMk9LWTF2dk0zeks5dFZmRVUzYzBhaGNyOGV5RHpsakhIU2VjWTFKb2VfUkZfend6alN0TnYxdUctZzBtaXVmY0cyLWlaaGZYMmRRUm1NU0VweC1sYmhCWFNyT01wYnpVQ1c4b0loTDYweHVPWVRaeG0yMWdrb0dYaW04MEptbUwwMVFybno",
+    "https://www.mmafighting.com/?p=514622",
     "daffa754-ac6b-45b0-8c95-7ffde5b1b91d",
     "https://bloodyelbow.com/?p=336043",
     "CBMiiAFBVV95cUxNMkRyQ3dvamdleVMyTnpKS0pKa0wwQjhSWHVsLU15U0w5TkxqZjZrRWZkUHFoalVlaTVWaFFZQXQ2VVd0WS0xRFZTR0c3R0QxYVRHQmlkMzdzdnBQVDhPN1pjeG5oc3YyTkdVeG5vbE5DNFFRWDhsWGpRSHZhNnNXcWF5NzlQdjRs",
@@ -6407,15 +6411,11 @@
     "https://bloodyelbow.com/?p=337136",
     "CBMi9gFBVV95cUxNNzF3cDFnWGVEX25WWG9oVXpNRU53RnVpZnJVNmxsb3Z1M0ZiT1BINzExazNIQkxuRXJESWhwWmVOYkFGR2JGMG9VYnMwSXdhWHRlVlFUWmhDZlFiN1hLdEZzbEt4Ui14aUIxY2ZpT0ZQTXljMXMzNGFOc2REeVVIWDNVS2tlZTVqRGZFNmphTzAtOURLbUloc3BXUDNMNU91Q1JtZFhUN0J1T2xKdU9iZmY0akI0YWozNXpQZ01DUDB5TmxLd2xMWFdtM2oxc01WMVVfVDJSM21DUUFKREFfSVRENHI0ZHZ6dWotaFVUQzV0S202NGc",
     "https://www.mmamania.com/?p=479054",
-    "CBMiogFBVV95cUxQSko2NU9Bam1vbXd1cGdiQUZiY3N1LW52elEta3hjdjZGUkgxTkpEM1E5dTBFMjlpXzh3NlQ5aFBsMXhKX2JaLU5jX2puZ0w3eXVrUFFWRjhwRGxYbUVzM2VBMTZWZ2dCa1Rwb3Q0UkxZTGtoNlkwdDM3aktDdFkyQ0xNNlExZ2lJUG5QUWNKT0N3U2Y2U04zcjhHREtLb3BTMFE",
-    "CBMivAFBVV95cUxOUnYwaEVXbjU0aTNsV21kY25ieXNseHRwYUNBd0pKOHBQYTZXVjM5NW9RakY0akh2d1hJdGdubFZjRTBrUHQ5b1MtdWNabVFveGktUks5WDg5ZW5CS3pwOXNuTWRKQXVPZWN3bTd3NEFISWo5ZjRuckRLakFRN1Rpd2dnbnhJXzJYZFBxaDExakxsX0Z5UnRLdWtuWVNtQmpyNGZmdGFvcm9tRGpJek1haFRrS0doUVgwOW95ZQ",
-    "CBMiwgFBVV95cUxORkZQWmFYNkFIaXJrMVFZTnFXT2txUFhGa3FwZS1BcTVuc3ppUWFPYkFRdGE4RzZuUGh3LWFRYlFZQUNnVXhJazFHLXlPbkhUSFBlSW5GNzJOekRCUG9zbG54blJkSWsxVnZpdi1pMHY1cGZHV3NPd3hxUXBqb0VPWlVyUldGTmlkVnBHVmUtRlNOVTBQLWpWbk5udTlnanFGallBcW1iTDJxNUt4VFZSd0F0RVJaZHVhM1dZTmxSRnphZw",
-    "CBMifEFVX3lxTE04R2VYbGFBUkt5NngzWDNDUFdnZnA0WkJ2bHJoQVBvLUY1T29XenNhUWZ3c0RxYWtEXzRTYVFiM254UkRxMFhXT0RtTXc5SzY5alhjUzRFdjRXVWdQanV3ZWJfeDRRYk9mR09icUZIa3ZZZ2JCUTI0WHV1N0I",
-    "CBMieEFVX3lxTFBSU3d4WVVpUnFlU3lrb2hZaFpGWDFON0pBbDBNOG9WT0gxYml5c1hKS1Nub0RsNWtISDZERUJKTEdaUmNtREU3U2lCc1J2SHRyVkhCYnowYkQzaXdaeTI4THVSb1dob1dWRjNaWGVMbUp4VlFseU5GTA"
+    "CBMiogFBVV95cUxQSko2NU9Bam1vbXd1cGdiQUZiY3N1LW52elEta3hjdjZGUkgxTkpEM1E5dTBFMjlpXzh3NlQ5aFBsMXhKX2JaLU5jX2puZ0w3eXVrUFFWRjhwRGxYbUVzM2VBMTZWZ2dCa1Rwb3Q0UkxZTGtoNlkwdDM3aktDdFkyQ0xNNlExZ2lJUG5QUWNKT0N3U2Y2U04zcjhHREtLb3BTMFE"
   ],
   "daily": {
     "d": "2026-10-15",
-    "ai": 20,
+    "ai": 16,
     "staged": 0,
     "prio": 0,
     "lost": 0
