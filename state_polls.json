@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 24,
   "staged_at": [
-    "2026-10-14T20:14:43.424753+00:00",
     "2026-10-15T14:13:21.040282+00:00",
     "2026-10-15T19:55:30.542546+00:00",
-    "2026-10-16T14:02:00.600642+00:00"
+    "2026-10-16T14:02:00.600642+00:00",
+    "2026-10-16T19:35:46.123063+00:00"
   ],
   "asked": [
-    "Who is the most boring UFC champion in history?",
     "Oblique kicks are in the news again. What should the UFC do about them?",
     "What is the worst accusation a fighter can throw at another fighter?",
     "What is the best walkout in UFC history?",
@@ -47,33 +46,34 @@
     "What is the most ridiculous fine a UFC fighter has ever received?",
     "What is the most cursed UFC title shot that never happened?",
     "What is the most ridiculous UFC title shot someone has ever skipped the line for?",
-    "What is the most embarrassing thing a UFC fighter has ever done outside the octagon?"
+    "What is the most embarrassing thing a UFC fighter has ever done outside the octagon?",
+    "What is the biggest taunt a fighter has ever pulled off in UFC history?"
   ],
   "last_entry": {
-    "q": "What is the most embarrassing thing a UFC fighter has ever done outside the octagon?",
+    "q": "What is the biggest taunt a fighter has ever pulled off in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Strickland filming homeless",
-        "emoji": "🎥",
-        "art": "A smartphone held up at night, filming a dark alley with a dim streetlamp, a shadowy figure hunched over, no text, dramatic lighting."
+        "label": "Hokit's photo",
+        "emoji": "📸",
+        "art": "A phone screen glowing in a dark locker room showing a sleeping figure under a blanket"
       },
       {
-        "label": "Jones hit and run",
-        "emoji": "🚗",
-        "art": "A wrecked rental car at night, a fallen pregnant woman silhouette on the pavement, flashing police lights, no text, no real names, dramatic lighting."
+        "label": "Adesanya's pose",
+        "emoji": "🏹",
+        "art": "An empty octagon with a single spotlight on the mat and a bow drawn in shadow"
       },
       {
-        "label": "McGregor bus attack",
-        "emoji": "🚌",
-        "art": "A shattered bus window at an arena loading dock, a hand truck thrown through it, glass shards flying, no text, no real names, dramatic lighting."
+        "label": "Cejudo's crown",
+        "emoji": "👑",
+        "art": "A plastic toy crown resting on the canvas beside a pair of gloves"
       },
       {
         "label": "Other (comment below)",
-        "emoji": "🤦",
-        "art": "A fighter in full gear trying to parallel park a clown car into a tiny octagon-shaped spot, traffic cones flying, no text, no real people, absurd."
+        "emoji": "🤡",
+        "art": ""
       }
     ],
-    "gag": "A fighter in full gear trying to parallel park a clown car into a tiny octagon-shaped spot, traffic cones flying, no text, no real people, absurd."
+    "gag": "A clown sleeping in a tiny bed while a rooster holds a camera and grins"
   }
 }
