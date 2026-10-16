@@ -1,5 +1,8 @@
 {
   "seen": {
+    "dac2a91dd6ac60cf": 1792117580.3753352,
+    "89e81645d09151ce": 1792117580.3066516,
+    "ca677c6f5303dde0": 1792117580.3059106,
     "ff4069f31d271d0f": 1792112708.1073513,
     "f1c0da6b95ff3d3f": 1792112638.0425694,
     "8d39edd20f7bd792": 1792112507.450552,
@@ -2496,20 +2499,11 @@
     "cfb8d4416c68ae5c": 1791764790.2515044,
     "061421460345df11": 1791764661.993096,
     "8691e1861b56b553": 1791764533.73545,
-    "4a8a5357455ee979": 1791764278.8835251,
-    "5ff8b0b2972b0533": 1791763959.8488367,
-    "5e21cd383a599bfc": 1791763895.0137174,
-    "d570026b592d0183": 1791763639.7071126
+    "4a8a5357455ee979": 1791764278.8835251
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Dana White takes umbrage with Alex Pereira's accusation against Daniel Cormier",
-      "source": "MMA Junkie",
-      "ts": "2026-10-14T13:40:00+00:00",
-      "cluster": "cd4365dba1c"
-    },
     {
       "t": "Brendan Allen Takes Aim at Dricus du Plessis, Makes Bold Claim",
       "source": "Briefly News",
@@ -4903,12 +4897,18 @@
       "source": "MMA Mania",
       "ts": "2026-10-16T01:00:00+00:00",
       "cluster": "ca89828da73"
+    },
+    {
+      "t": "Too small for lightweight? Diego Lopes reveals stark weight gain at UFC White House",
+      "source": "Central Oregon Daily",
+      "ts": "2026-10-16T01:30:44+00:00",
+      "cluster": "cab14d08eb2"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-16T01",
+    "2026-10-16T02",
     0
   ],
   "yt_eval": [
