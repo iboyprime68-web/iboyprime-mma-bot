@@ -1,5 +1,13 @@
 {
   "seen": {
+    "87e1345cdb2e523b": 1792162945.1136584,
+    "29d84d23079fb6ea": 1792162945.071946,
+    "0d4f7802ae1855ce": 1792162945.069378,
+    "226a0c4b407b09eb": 1792162945.0687692,
+    "752e2e91c5190868": 1792162945.0681467,
+    "87dd3e3b6056f171": 1792162945.0674505,
+    "7f9cacb0bbd86309": 1792162945.0667987,
+    "fae1a1051d14f343": 1792162945.0623739,
     "b47b84024fc58998": 1792162525.8406823,
     "cf1c2888f9333d61": 1792162208.8073232,
     "381af1cb8e296f27": 1792162138.8830197,
@@ -2491,25 +2499,11 @@
     "223f69b11c53d3b6": 1791828830.7156944,
     "cba2f39c64efa950": 1791828638.9520257,
     "71625bad79a1c555": 1791828469.9903214,
-    "18996f287c4cb3c4": 1791828447.6230166,
-    "f178077ce1781aef": 1791828379.5839162,
-    "787ac84a3bfd8172": 1791828311.5732217,
-    "03f38688cdda1622": 1791828243.1283305,
-    "a92f9924d13f7cbb": 1791828243.1043274,
-    "2255331cd8744251": 1791828199.6404753,
-    "c1418e5aa08296b6": 1791828165.0745249,
-    "ff149d9e8ed034bc": 1791827715.4129145,
-    "40dfb64c98c4ba05": 1791827589.9886658
+    "18996f287c4cb3c4": 1791828447.6230166
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Ex-UFC champ questions if Joaquin Buckley truly prepared for Mike Malott",
-      "source": "MMA Junkie",
-      "ts": "2026-10-14T22:00:00+00:00",
-      "cluster": "c838f64b173"
-    },
     {
       "t": "UFC Surprisingly Dumps Undefeated 16-0 Star Despite Perfect 7-0 Octagon Run",
       "source": "MMANews.com",
@@ -4903,12 +4897,18 @@
       "source": "Yardbarker",
       "ts": "2026-10-16T14:44:20+00:00",
       "cluster": "c0a4abf5783"
+    },
+    {
+      "t": "Alex Pereira’s new feud grows as 16-1 UFC heavyweight promises to send him ‘back to the tire shop’",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-16T15:00:00+00:00",
+      "cluster": "c2a62478ccf"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-16T14",
+    "2026-10-16T15",
     0
   ],
   "yt_eval": [
