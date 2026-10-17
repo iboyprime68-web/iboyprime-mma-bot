@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d0539d0139e810c0": 1792273997.422629,
     "64f309f972719f16": 1792273955.2321699,
     "62345540a8485644": 1792273955.1902485,
     "c310a5feb6a3e75e": 1792273912.4955828,
@@ -2498,8 +2499,7 @@
     "3d27166f3b8ef8ac": 1791981998.950785,
     "ebeea4fe00cb8604": 1791981808.9973812,
     "9b819884b95d49ba": 1791981047.8853161,
-    "8e414b3a38f90d90": 1791980603.6735685,
-    "b249784f867633eb": 1791980402.8894727
+    "8e414b3a38f90d90": 1791980603.6735685
   },
   "initialized": true,
   "v": 4,
@@ -4897,6 +4897,12 @@
       "source": "Universidad de Córdoba (UCO)",
       "ts": "2026-10-17T20:52:07+00:00",
       "cluster": "c8438deacbe"
+    },
+    {
+      "t": "Daniel Dubois vs Fabio Wardley 2 result: World heavyweight title rematch ends in two rounds",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-17T21:52:56+00:00",
+      "cluster": "c2674eb23fe"
     }
   ],
   "digest_items": [],
