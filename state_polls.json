@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 24,
+  "cursor": 25,
   "staged_at": [
-    "2026-10-15T19:55:30.542546+00:00",
     "2026-10-16T14:02:00.600642+00:00",
     "2026-10-16T19:35:46.123063+00:00",
-    "2026-10-17T13:01:38.234220+00:00"
+    "2026-10-17T13:01:38.234220+00:00",
+    "2026-10-17T18:34:17.220707+00:00"
   ],
   "asked": [
-    "What is the worst accusation a fighter can throw at another fighter?",
     "What is the best walkout in UFC history?",
     "Who is the biggest threat to the bantamweight division right now?",
     "Who is the hardest fighter to take down ever?",
@@ -47,33 +46,34 @@
     "What is the most ridiculous UFC title shot someone has ever skipped the line for?",
     "What is the most embarrassing thing a UFC fighter has ever done outside the octagon?",
     "What is the biggest taunt a fighter has ever pulled off in UFC history?",
-    "Whose wrestling is the most overrated in UFC history?"
+    "Whose wrestling is the most overrated in UFC history?",
+    "What is the greatest single round in MMA history?"
   ],
   "last_entry": {
-    "q": "Whose wrestling is the most overrated in UFC history?",
+    "q": "What is the greatest single round in MMA history?",
     "type": "poll",
     "options": [
       {
-        "label": "Khabib Nurmagomedov",
-        "emoji": "🐻",
+        "label": "Bonnar Griffin 1",
+        "emoji": "🏆",
         "art": ""
       },
       {
-        "label": "Henry Cejudo",
-        "emoji": "🥇",
+        "label": "Lawler Rory 5",
+        "emoji": "🩸",
         "art": ""
       },
       {
-        "label": "Colby Covington",
-        "emoji": "🃏",
+        "label": "Gaethje Chandler 1",
+        "emoji": "💥",
         "art": ""
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "🤼",
+        "label": "Hunt Bigfoot 3",
+        "emoji": "🗿",
         "art": ""
       }
     ],
-    "gag": "A wrestling singlet and headgear neatly folded on a dusty shelf with a cobweb"
+    "gag": "a banana in a mouthguard flexing on a podium, lit like a hero"
   }
 }
