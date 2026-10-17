@@ -1,5 +1,6 @@
 {
   "seen": {
+    "eee0441293dc504c": 1792277432.865154,
     "658c5dd442998aa3": 1792277308.0484707,
     "e85b0138d50fda11": 1792277265.0517757,
     "391eff6da7a901ee": 1792277055.369665,
@@ -2498,8 +2499,7 @@
     "b59d9979cd2f27a1": 1791983941.0680087,
     "684ee5a0699202f9": 1791983691.512874,
     "aec920b836a42e2d": 1791983691.5112698,
-    "95da55e59e2d029f": 1791983628.2010972,
-    "b12ecd1773fca262": 1791983559.8349142
+    "95da55e59e2d029f": 1791983628.2010972
   },
   "initialized": true,
   "v": 4,
@@ -4897,6 +4897,12 @@
       "source": "MMA Junkie",
       "ts": "2026-10-17T22:38:00+00:00",
       "cluster": "c1598c91664"
+    },
+    {
+      "t": "UFC Edmonton highlight video: Katlyn Cerminara batters and stops Mackenzie Stiller",
+      "source": "Sherdog",
+      "ts": "2026-10-17T22:47:05+00:00",
+      "cluster": "cb51c55540f"
     }
   ],
   "digest_items": [],
