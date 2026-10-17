@@ -1,20 +1,8 @@
 {
   "seen": {
-    "e05d97c564d83bde": 1792202083.556795,
-    "fb2487601d6a15cb": 1792201830.0751672,
-    "9969fa54c969f007": 1792201765.68706,
-    "6e82ae071217d72b": 1792201467.1591053,
-    "b31130aed5377e58": 1792201378.650752,
-    "ac5a2807ab40dbec": 1792201064.14665,
-    "e7e2c001032feb43": 1792201064.1432865,
-    "e8062ca832a4367e": 1792200933.7338266,
-    "49039a47c7083766": 1792200805.966316,
-    "75a67e9296de5b48": 1792200741.9615386,
-    "6d54ce4015fbae76": 1792200676.9838247,
-    "74a6875e25fed6ae": 1792200609.7347333,
-    "237f37e614ad3ec2": 1792200609.6925159,
-    "8ec2565e143f4e6c": 1792199792.1219077,
-    "bdac2c14d6e2b1ef": 1792199705.954863,
+    "e7e2c001032feb43": 1792202124.232211,
+    "bdac2c14d6e2b1ef": 1792202124.1892872,
+    "e05d97c564d83bde": 1792202124.1816366,
     "cd4e7becbc1a7c7b": 1792199282.7791052,
     "cdb9683f028af5da": 1792199218.3738375,
     "93af9c3b2440ab15": 1792199150.6857457,
@@ -2499,11 +2487,41 @@
     "afff2d645afa1d5d": 1791875831.3922224,
     "3c681f080b327a49": 1791875579.7466595,
     "54ac6e6dfd7df097": 1791875579.7444432,
-    "f96b82cf92f173e6": 1791875325.7624407
+    "f96b82cf92f173e6": 1791875325.7624407,
+    "2495fd581d0edb69": 1791875261.7686489,
+    "4387e9d311e0949f": 1791875261.7677603,
+    "55dc2c41e587d5a5": 1791875194.4329226,
+    "801050f2e0732620": 1791875128.2088192,
+    "927bbcb657e08d4a": 1791875022.7335813,
+    "523ac5e51569f896": 1791874625.682581,
+    "979ce8ea3e68e8e5": 1791874561.8995376,
+    "1c5723202fb1ebaa": 1791874481.993776,
+    "b6b7d6bca81113d8": 1791874481.95899,
+    "33b0646ffc4e7697": 1791874294.199591,
+    "f8cf515e0813653b": 1791874168.1423237,
+    "58eb79e1e31de9de": 1791874090.209163
   },
   "initialized": true,
   "v": 4,
   "recent": [
+    {
+      "t": "Tanner Boser Questions MMA Judging, Explains More Aggressive Approach",
+      "source": "MiddleEasy",
+      "ts": "2026-10-15T13:07:30+00:00",
+      "cluster": "cc0a8b42c62"
+    },
+    {
+      "t": "Louis Jourdain Explains Delayed UFC Debut, Hopes To Join Charles In Montreal",
+      "source": "MiddleEasy",
+      "ts": "2026-10-15T13:08:56+00:00",
+      "cluster": "c42f0df6e75"
+    },
+    {
+      "t": "Joaquin Buckley Questions Missed Title Shot Before Mike Malott Fight",
+      "source": "MiddleEasy",
+      "ts": "2026-10-15T13:08:56+00:00",
+      "cluster": "cae9a2c7a94"
+    },
     {
       "t": "Alexander Volkanovski Proposes Justin Gaethje Lightweight Title Superfight",
       "source": "MiddleEasy",
@@ -4881,28 +4899,10 @@
       "cluster": "c76a5512b82"
     },
     {
-      "t": "UFC Legend Accuses ‘Spoiled’ Alex Pereira of Skipping the Line",
-      "source": "Heavy.com",
-      "ts": "2026-10-17T01:28:00+00:00",
-      "cluster": "cf3debadeed"
-    },
-    {
       "t": "UFC books Mickey Gall vs. Zach Reese",
-      "source": "MMA Junkie",
+      "source": "Yahoo",
       "ts": "2026-10-17T01:25:00+00:00",
       "cluster": "cca09e4f096"
-    },
-    {
-      "t": "Paddy Pimblett vs. Ilia Topuria Needs to Happen, Says UFC HOFer",
-      "source": "heavy.com",
-      "ts": "2026-10-17T01:40:00+00:00",
-      "cluster": "c5cdc86a947"
-    },
-    {
-      "t": "Ryan Garcia slams ’embarrassing’ Bob Menery as influencer finally wins MMA fight against dwarf",
-      "source": "Bloody Elbow",
-      "ts": "2026-10-17T01:44:10+00:00",
-      "cluster": "c2a0a157e8f"
     }
   ],
   "digest_items": [],
@@ -4912,6 +4912,10 @@
     0
   ],
   "yt_eval": [
+    "CBMiggJBVV95cUxOcHMtM3FxMm5HdndWbUhCbmtLT3BEZXZPeEJ5U3oycHl1WGhKSVB3MUxhRFptcTVDM2R5bGdkdllaMW9aWEZDeWNrbFV1ai1sNW54N1Nib2dkc3NoOEVVZmpDVUhLSzBHVjRndjh2N04wNGRaVEJ6cC1vYnpBcklUVmY0REx2YTNEZnFFRWd6NXpFLVp5YldaRVhRek5Fb1RicU03cWhWYUs5RXFNWFRGYUJsVEhNbXJreW10MWRfTnNPQ3k5TlNNUmo4Z0Y5ZVl4R3ZoNEswdzFpa0U0XzVKa3RYbVplZXh3OVUzVVZ0RmNQYlBxZzBwUkVCT1NtYm1vMUE",
+    "https://bloodyelbow.com/?p=336302",
+    "CBMipwFBVV95cUxOS3Q0WWVmQmxQbVlCU0FONzB1SkEyT3hnckpXamsxazZJamxFTkNIUTcteVVHdGVKRGlnRG1NWHZkamFCaUpFa3hmdlBNMU5XUWdteFM4YzdQOFRPOGZhTEtaXzlqSGo4bzFJdWZnUzJrODFpdVgwdGc4VzFuRG1Vc1pkMG9VZlVLbFp1Ul82dVFLbXRaUFAxTXJoaHc4VkRaM2ozWWsyYw",
+    "CBMiggFBVV95cUxQSzJZeEl2elVmQ0w4UXRiTTl4Tzd6WnVIM1RXMV9fTkJ0MU5FYUN1T05xOGRNLXN5elJWVzR4MXAwUHB3NkZPZDEtTVdoSGRCd1RpVnZpWl9FNW1CVWM1ZG5GMk5RczF5WjBtVHoyZDdnOENXSUlEWURrTXhRQWZZY2p3",
     "CBMiekFVX3lxTE9Fai0zZ21ZNklfQlktNmEydFNnTUpjekJaYjZZY29aUThTMG9DclpTdFYtT1FsdjRhbm5uMlo2LUhlRlp3LUNoaVRnN252REhydHBNU1lBdzY0TE9fZ2E0RlRmZHFkUktlTXctX0VGaUtPVHZESG5TbU1n",
     "CBMigwFBVV95cUxOMkhNQWo0b0g4c0lmdFlpSTlCUUZNR0kzYmQzOGN6OXlmU2tmekNjWC1kVVp2Qk9tVk5GemlkOE45cWp6WWVJcmE2OWVtZW1yTWtRRTd0VGNNUWJSVzl4WnZ0Z3pYVHBVbmJHSk9EeGdteWpFWkdwQ3hoZEVROHdGSFdNZw",
     "CBMiggFBVV95cUxQTFlMZjNoaUlma1pTdUtQdzM2SHJzbVZpV3ZUUER3dXNtbXAySTB4b2E5QXhzdWlaZ1RHc1UyMWUxazZoVE85dlhpSnc5c3dkTy0tUXcyeFpva1lqVFh1UHc0ZUtOazk5dmJld0c0M0lCRUc5dlloUmRnVzBnRFp0LWNR",
@@ -6407,15 +6411,11 @@
     "CBMiyAFBVV95cUxOd1dmemt1eGRRVTlmOExSY1FSa3BLdVdGQTliWjZOcDlrdFpfN0txOC05NnhFcWUwWkZwSnRQbjVmQkR1TXFCR3F2emwxU2VKbG5zbEVnbXpMQW1qWk5wZG9YYnRhcnQ0a0xCVUJZdS15LXRvY1NBYUVnZXNEVktITjZIVGFOdlhrdkRoQVUtNF9vVUFHQjlhR3JIN1gzaE5IZ3NuMDlwWW1rTGZXU3F3dGl1dy1fVmpoLXBscmhhMHA2OXMtVUNHUA",
     "https://bloodyelbow.com/?p=337422",
     "bc39ece0-1d1b-361e-b67c-a09cc49b086e",
-    "CBMifEFVX3lxTFBqWlZ2OGpoZTZlVDczeXVUUVJFRm9OVjJNc1ltOTR6OTMxeGczVDRrTGI2MDVZRHNUWmF2MXg3U2RQU0o0RmgwV3ZBdVh6bDZud2RGM0xBaW0wNDc1RkpHTVZCWXBrZE5PSlh1WXFSU2UtZFNNZ2RIcUtNSDg",
-    "CBMie0FVX3lxTFB3V05takYxekJZVXdrTHNGUnoxaV9RTE9NTXpDUE5kTkF1QWVJTk1zZ0otekNNUmlJQ1FoaTQ2ZklnOVdOSkl4Qjl0YTdzTnRpVHRYM1QtekN4VDJqamxJNUNHanotLXhWcWVEQ0lyT201bzR6bWczYWpBaw",
-    "CBMisgFBVV95cUxNbFJqOVZnLXNNX1VPWk50blBjWjdVcF9wNzRGN2ctMjZrVnljY25xejB4d2ZVeWxBUWVjMUVMcGF6SEhDRk1Xc1pFbXFLaTVna2YzbUo4N2ZEeDlXbHZLa285cTJleXFra2wtY0EzT1V5ck5qeDdUbzFMTVY1bERoWUxlRnRpS0hmQzRNNmgtYTRqWGkzT1EzZC1fanowMXp3MktqSmllbXdiV3k5SXhZNGt3",
-    "CBMidkFVX3lxTE0tOElPZzhEeDF2MWR3MHNSOXUzc3JEamNBaG1xeEVhendqdnl3aDJQMmlfUDZkZUU2bXdXWlA2OFdiN3ZfaktLcDVXTXhTUk93eXUzQXMtVk9nN0hfeGJzNEpqc1J1Vm9MbWd2dXRKdHNPZFRjM1E",
-    "https://bloodyelbow.com/?p=337447"
+    "CBMifEFVX3lxTFBqWlZ2OGpoZTZlVDczeXVUUVJFRm9OVjJNc1ltOTR6OTMxeGczVDRrTGI2MDVZRHNUWmF2MXg3U2RQU0o0RmgwV3ZBdVh6bDZud2RGM0xBaW0wNDc1RkpHTVZCWXBrZE5PSlh1WXFSU2UtZFNNZ2RIcUtNSDg"
   ],
   "daily": {
     "d": "2026-10-17",
-    "ai": 28,
+    "ai": 24,
     "staged": 0,
     "prio": 0,
     "lost": 0
