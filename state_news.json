@@ -1,5 +1,8 @@
 {
   "seen": {
+    "a9d9bcbb32abf750": 1792285221.941016,
+    "5743e844f33058b9": 1792285221.878949,
+    "67df5ae4ba79f92a": 1792285221.8761024,
     "77fe7cad494ed483": 1792284445.032157,
     "a4311f4bd1a738d9": 1792284378.9200978,
     "b57e42eedc3c4cd1": 1792284378.8676505,
@@ -2496,20 +2499,11 @@
     "333c3f6168f6c6b5": 1791994587.5006003,
     "544c952df2e8d02e": 1791994587.4876976,
     "d6bd5933dea0094b": 1791994563.4718268,
-    "3de5678bd85068f2": 1791994453.7884421,
-    "6c25c13a1da291a3": 1791994325.2884116,
-    "438de19cf50e36e9": 1791994064.608783,
-    "21f1d8b2db047c16": 1791994064.6066933
+    "3de5678bd85068f2": 1791994453.7884421
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Mania Mailbag: Where have all the elbows gone?",
-      "source": "MMA Mania",
-      "ts": "2026-10-16T16:05:00+00:00",
-      "cluster": "cdf50ec32c4"
-    },
     {
       "t": "Cristian Perez",
       "source": "UFC.com",
@@ -4903,12 +4897,18 @@
       "source": "MiddleEasy",
       "ts": "2026-10-18T00:33:45+00:00",
       "cluster": "c1cae60ebef"
+    },
+    {
+      "t": "October 17, 2026: UFC Fight Night: Tanner Boser vs Jhonata Diniz MMA Prediction Market",
+      "source": "Robinhood",
+      "ts": "2026-10-18T00:15:17+00:00",
+      "cluster": "c5ddf0f340a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-18T00",
+    "2026-10-18T01",
     0
   ],
   "yt_eval": [
