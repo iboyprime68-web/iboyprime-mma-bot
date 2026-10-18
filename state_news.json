@@ -1,5 +1,7 @@
 {
   "seen": {
+    "217354283c492592": 1792288278.1368349,
+    "db06e17133237a65": 1792288278.0863972,
     "f05ab2bd611cb022": 1792288150.418534,
     "3d1a089762e5d93d": 1792288084.278284,
     "5b1deb8113ad6e04": 1792288084.2298727,
@@ -2497,19 +2499,11 @@
     "38052c055135fc8f": 1792000916.8240783,
     "2ef514cfcc000117": 1792000916.8233345,
     "264bed6708871272": 1792000849.219216,
-    "9c9a71a112085241": 1792000822.451055,
-    "9f8c17d6c3f63935": 1792000780.074948,
-    "cabb87da29d83f74": 1792000649.6075659
+    "9c9a71a112085241": 1792000822.451055
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Louis Jourdain",
-      "source": "UFC.com",
-      "ts": "2026-10-16T17:08:44+00:00",
-      "cluster": "c799ee2cbbf"
-    },
     {
       "t": "UFC Hosts Community Activations Across Los Angeles During UFC 331 Fight Week",
       "source": "UFC.com",
@@ -4903,6 +4897,12 @@
       "source": "EssentiallySports",
       "ts": "2026-10-18T01:44:00+00:00",
       "cluster": "c9e6cd97198"
+    },
+    {
+      "t": "Toronto to host UFC 336 in January",
+      "source": "Sportsnet.ca",
+      "ts": "2026-10-18T01:44:00+00:00",
+      "cluster": "c70f1387737"
     }
   ],
   "digest_items": [],
