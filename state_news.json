@@ -1,5 +1,7 @@
 {
   "seen": {
+    "eaae7c01679849c1": 1792293107.0153048,
+    "c9554a871a4154f2": 1792293106.9559114,
     "cb994da38464e426": 1792293033.5942118,
     "d4d3b0bf2c4b965f": 1792292929.1819665,
     "195acc5545101c52": 1792292906.9248412,
@@ -2497,19 +2499,11 @@
     "b6f120549359c31c": 1792011920.768639,
     "4ee3a0a837a504f0": 1792011874.4439256,
     "5ae0a114615e7e8f": 1792011848.8714213,
-    "75ccb6ecc52538e0": 1792011781.6419053,
-    "2992c1b419e3fb1c": 1792011781.592668,
-    "2b2e3937911ef23c": 1792011715.0272498
+    "75ccb6ecc52538e0": 1792011781.6419053
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Kamaru Usman Supports Sean Strickland in UFC Pay Dispute",
-      "source": "Heavy.com",
-      "ts": "2026-10-16T21:08:14+00:00",
-      "cluster": "c59685a0773"
-    },
     {
       "t": "Henry Cejudo to Alex Pereira: 'You've skipped the line long enough'",
       "source": "MMA Junkie",
@@ -4903,6 +4897,12 @@
       "source": "MMA Insight",
       "ts": "2026-10-18T02:47:40+00:00",
       "cluster": "c2e52c69655"
+    },
+    {
+      "t": "UFC Fight Night 291 Post-Fight Interviews",
+      "source": "MMA Insight",
+      "ts": "2026-10-18T02:55:33+00:00",
+      "cluster": "cc6b2502b10"
     }
   ],
   "digest_items": [],
