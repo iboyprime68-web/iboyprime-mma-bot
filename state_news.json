@@ -1,9 +1,6 @@
 {
   "seen": {
-    "dea317d52dd24e70": 1792295420.0794008,
-    "eee56bda133f2e4f": 1792295354.0381594,
-    "487572c7bbe43336": 1792295353.971531,
-    "e1afcf7facb5b385": 1792295289.824817,
+    "5eb305d8b221dbfd": 1792295540.972009,
     "12fc244712aebc6e": 1792295161.9642606,
     "df58b6620cc28992": 1792295161.899101,
     "dd7dc062e38c2bad": 1792295096.0395913,
@@ -2499,7 +2496,10 @@
     "4db0e452f55b1607": 1792015589.0722876,
     "316c21ff27c5478c": 1792015520.4320931,
     "0bf5afcd33582904": 1792015520.383295,
-    "6049fdb13feb1813": 1792015455.0026782
+    "6049fdb13feb1813": 1792015455.0026782,
+    "8eea0ed4e4ce3e6a": 1792015455.0007145,
+    "7865bdbbf2cbd2c4": 1792015386.2373238,
+    "65a5c058cffec8e1": 1792015320.8439002
   },
   "initialized": true,
   "v": 4,
@@ -4899,10 +4899,10 @@
       "cluster": "ce3b153be52"
     },
     {
-      "t": "UFC 336: Dana White confirms return to Toronto early in 2027",
-      "source": "MMA Crossfire",
-      "ts": "2026-10-18T03:43:23+00:00",
-      "cluster": "c64983046dd"
+      "t": "Pros react after Mike Malott KO's Joaquin Buckley at UFC Edmonton: \"We are sick for loving this sport\"",
+      "source": "BJPenn.com",
+      "ts": "2026-10-18T02:57:48+00:00",
+      "cluster": "c34afb58ea9"
     }
   ],
   "digest_items": [],
@@ -4912,6 +4912,7 @@
     0
   ],
   "yt_eval": [
+    "CBMipwFBVV95cUxPdlc5N2ZNQnp4YzdlaHA1cUwxLVZBWnRMOHJmTTZmUGt1Mzl1dUk3Z0ZCNEJvTkJTSkVOcWhKZmNyU0l2NHVUYm5OcmVmSEt2d0xpb2JmVW9rcTQ5eW1vUE1DbGhDZHJ5LXRBWnJiVmFuREY5RVhWaXNXaWNsZ0hnbGhnUjhvZTdzWGtIU09OTW03THY0OTNFVXRsYjRPcXNZWF9nM2pNa9IBrAFBVV95cUxQWUZ3ZHB4V1JNdWRkUEE3Vmhyd2w4ajRnVU43Z3ctd01Gd3pjQ2xrU2lKSktHSnhETVFJSkRrNXlta01BNkw1aEtpQXliRFcyZnV0RDJtQUpVekhTMEY0eG13T0piTGkzWjJENUhCUzc0NXU4a3Q2M3lnaUdqT2lrSG51YU1Fd3FWeGtfcjRzYUg5ZzhZVHh0WlBXdk03S1hSRUlUSzA1bXh3UTJB",
     "CBMi3wFBVV95cUxOS3ZyWWEydE5tX2lsNWhsN2VFYU0tUldQQ0Q2TzZKT1hkNDBNTzQ5NWVXdDk4Tld0SjluYkU5Vk91NXpPM29oT25YVWVrWE02cVIzbXhWbFkwdmFWT3pvak82RXdVSG1hczcxakpueEdaRnVua2Q4cEdTU19ueERzQnRpbENITEZBMDI5NkZ4MDRMQjllQzlNdEN5Vzl6c1prMEtnTlBxa1ZDSXZYaHBzelVyb0NWdkVuSWpSZG0yR0dhbDZQcHppLUtOenJlMGtVLTVCQ2pnWm9UUzdEeHNz",
     "https://www.sherdog.com/news/news/Former-UFC-fighter-becomes-doctor-now-researches-brain-damage-203175",
     "https://www.sherdog.com/news/news/Christian-Leroy-Duncan-sees-path-past-Brendan-Allens-experience-203124",
@@ -6410,12 +6411,11 @@
     "e951d641-7695-3c20-907c-2d6eb9bea46c",
     "CBMickFVX3lxTFBueFBxMFBxZnhZWGRFWkZaTmR6UEI5dDR4TTkyQjNjUEtyYUgtNk1KSG5mVDNyZkNFYXRSRHZlSzBHQXZLZ1hEbThsT3M3aTI0V2pGN1dzLS1QYjJ3ZWRYblZiMHpsUThvNU1KWDN5R0FmZw",
     "CBMi2gFBVV95cUxNeVpfazFJdWQ1TGVLdDdoamdQV09STWZJMUV6YWVfelNHaEFRX3JndTNSbktVMUVvSjRRcWxIWkUtYnpPNEoyeDJUTS1NTnpkdVpLbUhqWno5TTRiQ3R4MDhVYW5GdDhFTU51Zy00UzgzY3l0LTFLYWE3c052Ml9ONzdzaGpkY242YWRVYnZPTWk0X2VoaEFWelNTU2FxY1JNN3lCdGtGbnRYbllvY3VRbXNLZVV4bkNhSmdTeU04N0lHOFJuRDU4UDZLVGN1Yi1ScFJrcDZ1Qm1EZw",
-    "CBMif0FVX3lxTE83clV2bEpFSUY1NDRNN2ZwSkNhNTEyamE4YjJacjk5Z2Y2aEFlVkhCYWpiNDV6ODQ3akhXakVHUUU2a2dVTG1qb2xhOHh6b1pHRzNiQ1AweFVOT1dkdW12eHBaRkJBZ0czLXFiQ3JoTDRPSnNKTmRsV3BlZGJSQkk",
-    "CBMiogFBVV95cUxQYjNfQXB6VmdZLUtVd19OS3BsVHNXSjZzMHhVZFpkbTFaUWt0UWQ2V1lGbUJFY2gzdVdQTk9GSDhoVThsZGljbmp2WGVMMS1uYXRsX2w3ZnJHd1dLaXFYeGtYTWlWclpEemxSS0N0cWlscklwajFWRVdpSS1lRHdreV91TWRMdDBRdVBLM09kYy1OQWJGZnloSzFyejZ6TVNaeGc"
+    "CBMif0FVX3lxTE83clV2bEpFSUY1NDRNN2ZwSkNhNTEyamE4YjJacjk5Z2Y2aEFlVkhCYWpiNDV6ODQ3akhXakVHUUU2a2dVTG1qb2xhOHh6b1pHRzNiQ1AweFVOT1dkdW12eHBaRkJBZ0czLXFiQ3JoTDRPSnNKTmRsV3BlZGJSQkk"
   ],
   "daily": {
     "d": "2026-10-18",
-    "ai": 131,
+    "ai": 130,
     "staged": 0,
     "prio": 1,
     "lost": 0
