@@ -1,5 +1,6 @@
 {
   "seen": {
+    "fc88de8aa7fcfb84": 1792298758.940727,
     "c40d618d64b8446d": 1792298609.192619,
     "b75efc0101dcabb1": 1792298545.044272,
     "c65ce0bf7203b998": 1792298477.4680421,
@@ -2498,18 +2499,11 @@
     "2afc6fd98a933b88": 1792022356.5405474,
     "a81fb4bf53a247e0": 1792022356.4913266,
     "6ee55a2d956e856b": 1792022289.3439543,
-    "05b522b2cb11e0f3": 1792022221.3432305,
-    "3933af6fcbe4e97c": 1792022153.6863403
+    "05b522b2cb11e0f3": 1792022221.3432305
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC Edmonton weigh-in results: All fighters make weight",
-      "source": "Sherdog",
-      "ts": "2026-10-17T00:45:00+00:00",
-      "cluster": "c4bc5c4c0f7"
-    },
     {
       "t": "Kick Lands Noah Hermosillo Second MMA Win at PFL Chicago",
       "source": "MMANews.com",
@@ -4903,6 +4897,12 @@
       "source": "BJPenn.com",
       "ts": "2026-10-18T04:34:21+00:00",
       "cluster": "c1a8e27594b"
+    },
+    {
+      "t": "David Feldman ‘disgusted’ by BKFC 95 main event as Jamel Herring defeats John Dodson in drab fight",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-18T03:30:00+00:00",
+      "cluster": "c0f54f9a8ef"
     }
   ],
   "digest_items": [],
