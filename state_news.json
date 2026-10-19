@@ -1,5 +1,10 @@
 {
   "seen": {
+    "d04d09df6677754d": 1792369822.8656847,
+    "5d39a60f15b210b7": 1792369822.8141851,
+    "6d56852cc47562d8": 1792369822.8135097,
+    "b948c72db029c580": 1792369822.8043132,
+    "6636e968f243ea8b": 1792369822.803861,
     "96e73b5d22d8a4d4": 1792367436.59625,
     "6821ae4612d4efc0": 1792367436.5938714,
     "148c61cd81bfddc5": 1792367311.6028733,
@@ -2494,22 +2499,11 @@
     "45de8f1379ad8592": 1792091953.4668753,
     "694a6169a71d92de": 1792091953.4370022,
     "e77493c3d50836af": 1792091880.884327,
-    "fc9b48f613eefb83": 1792091880.8536003,
-    "21e65a16deaeb998": 1792091811.2742205,
-    "7ff22b3194cd3a2f": 1792091811.241778,
-    "2ae1025567044676": 1792091811.2401364,
-    "fcffbbabbb33b920": 1792091743.0043247,
-    "378648a997e929f0": 1792091742.9741776
+    "fc9b48f613eefb83": 1792091880.8536003
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "{{UFC}}++++(OFFICIAL-TV) Mike Malott vs Joaquin Buckley Live FREE",
-      "source": "Universidad de Córdoba (UCO)",
-      "ts": "2026-10-17T20:00:13+00:00",
-      "cluster": "c44c479d45f"
-    },
     {
       "t": "UFC TONIGHT: Fight By Fight Preview | UFC Edmonton",
       "source": "UFC.com",
@@ -4903,12 +4897,18 @@
       "source": "MMA Junkie",
       "ts": "2026-10-18T23:40:00+00:00",
       "cluster": "cdf06a0792e"
+    },
+    {
+      "t": "‘Don’t waste my time’… Ryan Garcia confirms Floyd Mayweather super-fight talks have begun",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-19T00:29:01+00:00",
+      "cluster": "c81bd634208"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-18T23",
+    "2026-10-19T00",
     0
   ],
   "yt_eval": [
