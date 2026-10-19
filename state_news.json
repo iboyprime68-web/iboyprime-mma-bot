@@ -1,5 +1,7 @@
 {
   "seen": {
+    "c1c26268a2fdf92d": 1792447863.186535,
+    "2a2e8423f8e867c4": 1792447863.139288,
     "36d427e9637a0dce": 1792447800.266732,
     "80e8158cf5298a64": 1792447731.7912014,
     "37f2b703df50f2a2": 1792447731.7778587,
@@ -2497,19 +2499,11 @@
     "a4e9ef6ba8ec84ed": 1792168736.4964118,
     "a56128da9737caf8": 1792168672.4405775,
     "bbc3978f6410920f": 1792168604.9360087,
-    "c405ea90ff7584ea": 1792168478.1018896,
-    "feeefe3873cd14b6": 1792168478.0658472,
-    "c35d275d36748b46": 1792168410.7705686
+    "c405ea90ff7584ea": 1792168478.1018896
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC Fight Night 291 Post-Fight Interviews",
-      "source": "MMA Insight",
-      "ts": "2026-10-18T02:55:33+00:00",
-      "cluster": "cc6b2502b10"
-    },
     {
       "t": "UFC Edmonton Post-Fight Bonuses Revealed After Exciting Event",
       "source": "heavy.com",
@@ -4903,6 +4897,12 @@
       "source": "MMA Sucka",
       "ts": "2026-10-19T21:29:30+00:00",
       "cluster": "c5c88503154"
+    },
+    {
+      "t": "Colby Covington Becomes Pound-for-Pound King in RAF Crossover Rankings",
+      "source": "MMA Sucka",
+      "ts": "2026-10-19T21:31:31+00:00",
+      "cluster": "c217c29b0fe"
     }
   ],
   "digest_items": [],
