@@ -1,5 +1,8 @@
 {
   "seen": {
+    "40c4e88494689eee": 1792526422.8348753,
+    "9a9a855185f14f67": 1792526422.8042948,
+    "44e3a6176376a58d": 1792526422.803657,
     "0ca61c4e2dd35441": 1792526354.3929896,
     "c4c6d4f966153be5": 1792526285.7532122,
     "de0f7599ae74856d": 1792526285.7230284,
@@ -2496,20 +2499,11 @@
     "ae88d97dbe5dba22": 1792245762.3968966,
     "127193369e5bddd9": 1792245698.7632606,
     "9d379344ce172358": 1792245698.7623653,
-    "a1395b7d0d83f037": 1792245698.7620423,
-    "1f0afa3afa51a48e": 1792245653.0562553,
-    "949a843839773adb": 1792245628.1129854,
-    "a9a8365d675a2ff7": 1792245299.9758706
+    "a1395b7d0d83f037": 1792245698.7620423
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC, Disney+ And ESPN Announce Multi-Year Exclusive Media Rights Agreement In The Philippines",
-      "source": "UFC.com.br",
-      "ts": "2026-10-19T02:00:00+00:00",
-      "cluster": "c7299623159"
-    },
     {
       "t": "16-0 Farid Basharat fires back at Dana White over UFC exit comments",
       "source": "Sherdog",
@@ -4903,12 +4897,18 @@
       "source": "MiddleEasy",
       "ts": "2026-10-20T19:29:25+00:00",
       "cluster": "cb64bed4440"
+    },
+    {
+      "t": "Alexander Volkov before UFC 333: Rizvan Kuniev can't beat me without steroids",
+      "source": "MMA Junkie",
+      "ts": "2026-10-20T19:30:00+00:00",
+      "cluster": "c8bd05bb1d7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-20T19",
+    "2026-10-20T20",
     0
   ],
   "yt_eval": [
