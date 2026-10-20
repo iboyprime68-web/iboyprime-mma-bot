@@ -4912,7 +4912,6 @@
     0
   ],
   "yt_eval": [
-    "CBMiiwFBVV95cUxQMXR0VDQzSGk0cDUtSGNGcU9jYXdKQjZONmhaN3o3X0EtYXBCbXh1TUlnYjJYS2EyUHd4U2d3eVFmVjJka3NyY2FTTk9WSG5SUDFTdVdBUW9Jcnl5SXdzTzVkT1F4R2g2VHNSSVFhMThjMXN1bkU1Q1JvcmNxWDVsaEhfYWlWc1pCSjJz",
     "https://www.mmafighting.com/?p=515775",
     "CBMiR0FVX3lxTE5RMkhjLU9nZGIxeWtRMUVJUVFSd21xVUpOU0F2V0RXcWkzRmc0TjBqejUxMzcwVTl2WV9GcWs1Tl9YS0J1aHl3",
     "CBMipwFBVV95cUxOano5aVdGMldXVnB4dzBkeTZ1Z1hyd1BYRlVMQ2dESjVmSjd4UDUwWWR3dlpONXVYT0tEdFRESU1xLUlKV1B0REtJZUVDUXVZNkF6TVMwYmNMMDFLUWFNS0ZKWDY4RVBnWUtva0hocUNtWkZDUnJ1N3dldjgwUEw5TWZTTjFPLWM3RE56UTg5T25oeldRdnh0NW1PdlFfUFZyd3NES2NTTQ",
@@ -6411,26 +6410,17 @@
     "CBMiigFBVV95cUxPUE10ZG5CdGd4SXJoVDZGUlYwUTQtZmQwTVJjU01BY3FXN3ZWNXNSZDR6MTlWdlgwLXVackI0OVBJTE8zRXdkVm9tdzJGaURYQ3NTM1VuREZ2Z0g1M2t1RXdYSEhwXzhxVVJNSlZqc21kNjByVDVKTnZUMks5VnBmNXhmcS1MRXprUFE",
     "CBMiowFBVV95cUxOQkd2ZWc2cTN3RUpjclN0TFBwUWQxdUlIYjBEVUNrMTE5NFZGOFB6TUo4NldtWFJnZ2ZlQXVWRjVwUGpOZzdvQlVxUTVMdHdZMHpjOFBNZEJySFkybzR4NHRmdDVhbVY0S2hRRlFPNlhKeHFycUtkcWpOTFdDSlFoVS1TaGFHbnk1Y2RKY3RyZWZYUmw4S3NxbjNSaWdaYUVkVlh3",
     "CBMilAFBVV95cUxPVjdwRFF4Y1RUeVpEaFRvdDdfblVwRUtQYVE0QVhScnFvRy01Q2pWZEM1Y250Q1k4czByN25TUjRTZEZkU2hfSnNGdDlPMkhlNE5tUXNHZFJWbWFxTjdNOUpJTXBKVkE5QVBzTWRyTS1MQkViUzNzTnI1d1lVSm9PTmtWVGtPNm00Y2hScWpWWTNobDUt",
-    "CBMipAFBVV95cUxQNHlZSnA0ODJsSGhpQXBTRlFJYjZURS1YcXpENUs0cTdaelFRYUo3bTJhNG5hSUZuSlZqU1pNcWdsc0hudExZWWRQYm00U2xRY285Q1ZEa3hGSENCUzVvbzlrSWZLbDZ0SkhqbWdSOUpqOWgtRmRSOGZtQTdfZlQ5akd1OE5HcHMzMzFfMVZRLW9xMTdDR2VLZHktU3FCU3BlWEhWSg"
+    "CBMipAFBVV95cUxQNHlZSnA0ODJsSGhpQXBTRlFJYjZURS1YcXpENUs0cTdaelFRYUo3bTJhNG5hSUZuSlZqU1pNcWdsc0hudExZWWRQYm00U2xRY285Q1ZEa3hGSENCUzVvbzlrSWZLbDZ0SkhqbWdSOUpqOWgtRmRSOGZtQTdfZlQ5akd1OE5HcHMzMzFfMVZRLW9xMTdDR2VLZHktU3FCU3BlWEhWSg",
+    "CBMirgFBVV95cUxQS3lNVmFISWVDMG8tNE8wYVVCLUxVNzVvSGtQME5oRkk2b1l6T2dkYlYzZ1NmSzFSeUl4M0d1Vm8zSS04NVllOUc5UVgxY1pnZEFXVmduVGZaQTYwZ05KdUUwZzlnSzA3UjZBRmNocGhTWnN3ZjMwNWlUVktfdm01THEtOVVja2VsNy0tS1JCZ19UR1Z0a0ZnM3Rjd1RhbEFrZzZyRE5aSmtJdVpiemc"
   ],
   "daily": {
     "d": "2026-10-20",
-    "ai": 184,
-    "staged": 3,
+    "ai": 186,
+    "staged": 4,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-21T04:21:50.319788+00:00",
-      "t": "UFC Flyweight Championship: Joshua Van defends his UFC Flyweight Title",
-      "names": [
-        "championship",
-        "van",
-        "flyweight"
-      ],
-      "img": "cutout:joshua-van"
-    },
     {
       "ts": "2026-09-21T16:55:12.549176+00:00",
       "t": "Joshua Van suffered major injury month before UFC 331",
@@ -7746,6 +7736,17 @@
         "monstrosity",
         "embarrassment",
         "dana"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-10-20T17:59:34.009289+00:00",
+      "t": "Dominick Reyes Says Jon Jones Avoided Fight with Retirement",
+      "names": [
+        "reyes",
+        "jon",
+        "jones",
+        "avoided"
       ],
       "img": "photo"
     }
