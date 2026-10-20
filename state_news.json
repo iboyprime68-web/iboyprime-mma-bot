@@ -4912,7 +4912,6 @@
     0
   ],
   "yt_eval": [
-    "CBMihwFBVV95cUxOV0RRMkk1eWhLVlpjcGJiZ0ptUHRiWmVqSDZOZzJ6YlJsMENUQTJSWkJReklIdHA2TmVyekRkcEZ2Z3NfYmdYQVM0cy1BNjg3b0JYN3dTU2VwcWNBQmFscWp6cGNLcmRQR0p4ZjFwZFB0dFg4aDc5SENoLWRBcTJWNjlqRkFVS1E",
     "CBMif0FVX3lxTE5zRWFjUVUtbTI1cUNnOVFUQ0FNLVREeFdaNjNWOUtZS21QV1NmcTRtaXlJd1EzTUNhd2Y3UXV6NXBtUHBySVA2dUpPazg0bVhOOFlkRkdYMldkZWpZRV82T2J1ZW0teFYzWGxqRTNDcThuZUdGcGVpM2EwX0cwV1E",
     "CBMijwFBVV95cUxNeFJ4WnI2S3ZwbjcyaXZsbVM0UGhDMzNSU1dEaDJDU0oxQ2x0WUhIeWNsekVHZ0Z4bmUwWXVuVzgzWnlnNmxVemM2Y1BjRlpzRGZsYXNDQ1BPMHF6b19lSjlfVVJVXzVRNW0xV2V6am5XQzRlTWRWX0NJWEZDM2FSdDhwcnhBMENyOVVxRWFmVQ",
     "CBMickFVX3lxTE5TcjY4V1JfX1g1dUdFRXVPSWdoQ05Nckc0WTlsZ3Q4WUVxRVNBR0NlMzJTVlR4cWdPemVYd0NTTEZOTW0ybTlqZFp2NGoxN3VMRmltV0ZkVkF6ZEFxMk84MXhIc0lwM3RZQW8wZk53bk5ldw",
@@ -6411,27 +6410,17 @@
     "CBMiR0FVX3lxTFBSM1lvaFZfQm1yWFhXWWtyaENfUGVKc3dCYkJDeUE1YkF3N3ByTzN0VUppV3pHQzVTa19FamNNc19DbTl4MHBV",
     "CBMiR0FVX3lxTE1KbUlMTHVRNkpBNnhFeEpLV0ZVVFpSa0MxWnNtSXBNWWJBNnZuMkJ3aV9ZUVpfWjRQeWV6cmo4Zk5nWDhEUWtF",
     "CBMiR0FVX3lxTE5CSDV2YjhKQTJnNmRZdmI2LTZDc05TMmRWM2w1OWRRR0tUUHJwanBBOGpUZVR4c0ViSWNBQ0VwdDVjSjNidThZ",
-    "CBMiZ0FVX3lxTE5UcjI1Znc3aDhvWjZuajJ0X1FPeEpWNzN4aThZakJzMFNrNlZpeVRBMnFPbC1SR1R2MnEtbzY4TlRjRkVaSmQ1eE44NlE4LVJzeHY0LTgwaEtMdFdXUmZVOHBLM2tmd0E"
+    "CBMiZ0FVX3lxTE5UcjI1Znc3aDhvWjZuajJ0X1FPeEpWNzN4aThZakJzMFNrNlZpeVRBMnFPbC1SR1R2MnEtbzY4TlRjRkVaSmQ1eE44NlE4LVJzeHY0LTgwaEtMdFdXUmZVOHBLM2tmd0E",
+    "CBMidkFVX3lxTE9WbDBXV2hqcDZiaEVCTjQzREZ1aWJqSlg1TnJYalFPRlJ4V3BRd0ktOElFYXZGcy0xZUpha19Ka19GRnlJYnZKcENQUlhhdXhHOGl4UWZhZ0hPc2YxQWJtWExXQkVIX1RnM1FINHZzMzkxalozUHc"
   ],
   "daily": {
     "d": "2026-10-20",
-    "ai": 103,
-    "staged": 0,
+    "ai": 105,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-21T00:18:33.214102+00:00",
-      "t": "Amanda Nunes Reacts to Cancellation of Title Fight at UFC 324",
-      "names": [
-        "amanda",
-        "nunes",
-        "reacts",
-        "cancellation"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-21T04:09:58.480610+00:00",
       "t": "Paddy Pimblett takes aim at ‘sore loser’ Ilia Topuria after wild Justin Gaethje glove accusation",
@@ -7742,6 +7731,16 @@
       "names": [
         "controversial",
         "strickland"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-10-20T12:36:32.940556+00:00",
+      "t": "Silva Cracks Top 10 After UFC Flyweight Title Win",
+      "names": [
+        "silva",
+        "cracks",
+        "top"
       ],
       "img": "photo"
     }
