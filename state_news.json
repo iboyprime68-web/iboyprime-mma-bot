@@ -1,5 +1,7 @@
 {
   "seen": {
+    "fde2bb72eee865c6": 1792537206.7046726,
+    "5db8a949e8bb75f1": 1792537206.6919386,
     "0deeba7c29ec6e12": 1792537140.6142647,
     "1260ac9602b584c6": 1792537140.5742183,
     "cdf2f4ac6368ec09": 1792537062.3874445,
@@ -2497,19 +2499,11 @@
     "34cd8b597fc8668f": 1792256432.1018927,
     "75ecc30a2d99a64e": 1792256432.099665,
     "c91120152e98cc87": 1792256432.0884237,
-    "4c57e6e6494e5a72": 1792256432.0875714,
-    "4b28671aca076e56": 1792256432.086778,
-    "7593df77fa357c00": 1792256432.0824263
+    "4c57e6e6494e5a72": 1792256432.0875714
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Petr Yan Isolates at Khabib Nurmagomedov’s Training Base While Merab Dvalishvili Already Eyes Opponent Post UFC 333",
-      "source": "EssentiallySports",
-      "ts": "2026-10-19T07:16:00+00:00",
-      "cluster": "cc2fbd81b05"
-    },
     {
       "t": "\"I'll be a champion\" - Dricus du Plessis is confident he will become light heavyweight champion",
       "source": "Sportskeeda",
@@ -4903,12 +4897,18 @@
       "source": "MMA Sucka",
       "ts": "2026-10-20T22:27:08+00:00",
       "cluster": "c25ac3be637"
+    },
+    {
+      "t": "Movsar Evloev will have to fight intelligently at UFC 333",
+      "source": "MMA Sucka",
+      "ts": "2026-10-20T22:31:28+00:00",
+      "cluster": "cd97f755c42"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-20T22",
+    "2026-10-20T23",
     0
   ],
   "yt_eval": [
