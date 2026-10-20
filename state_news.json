@@ -1,5 +1,7 @@
 {
   "seen": {
+    "8a395a2a8d5812d0": 1792519238.5685813,
+    "68353c647c1ce3f3": 1792519238.544355,
     "344a539bc0d54fda": 1792519170.981621,
     "6801c01d912328c4": 1792519170.9534495,
     "1d4bcb26bb0be844": 1792518797.1818752,
@@ -2497,19 +2499,11 @@
     "f75219bc88bfe5d7": 1792240214.230451,
     "700b0f36fd5e4576": 1792240214.18918,
     "d9ca5e862aee38bf": 1792239533.7721288,
-    "7db9654854db5c3b": 1792239409.2138546,
-    "c087b0ba968af0c6": 1792239161.2403765,
-    "0a7cd95cb547a7f5": 1792239161.2385538
+    "7db9654854db5c3b": 1792239409.2138546
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Newly Booked UFC Fights W/E 18 October: Barber vs Judice",
-      "source": "Fightomic",
-      "ts": "2026-10-18T22:36:26+00:00",
-      "cluster": "c8bdeab8cf8"
-    },
     {
       "t": "Kyle Nelson Issues Statement After UFC Edmonton KO Loss",
       "source": "Heavy.com",
@@ -4903,12 +4897,18 @@
       "source": "MMA Sucka",
       "ts": "2026-10-20T17:56:37+00:00",
       "cluster": "c9e2d42afa8"
+    },
+    {
+      "t": "Ex-BKFC star set for MMA promotion’s inaugural ‘Stand and Bang’ title amid UFC BMF criticisms",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-20T18:00:00+00:00",
+      "cluster": "cfe89e7456f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-20T17",
+    "2026-10-20T18",
     0
   ],
   "yt_eval": [
