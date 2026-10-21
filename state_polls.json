@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 25,
   "staged_at": [
-    "2026-10-18T18:42:07.304114+00:00",
     "2026-10-19T16:31:59.939093+00:00",
     "2026-10-20T14:22:14.783994+00:00",
-    "2026-10-20T20:01:39.454787+00:00"
+    "2026-10-20T20:01:39.454787+00:00",
+    "2026-10-21T14:32:05.596408+00:00"
   ],
   "asked": [
-    "What is the most brutal knockout in UFC history?",
     "What is the most cowardly illegal foul in UFC history?",
     "What is the most painful near miss in UFC history?",
     "Who is the most terrifying UFC fighter to ever step in the octagon?",
@@ -47,33 +46,34 @@
     "What is the most ridiculous thing a UFC fighter has ever lied about?",
     "Who is the toughest stylistic matchup for Dricus Du Plessis in the middleweight division right now?",
     "Who is the biggest threat to Alexander Volkanovski at featherweight right now?",
-    "Who is the most dangerous threat to the UFC heavyweight title right now?"
+    "Who is the most dangerous threat to the UFC heavyweight title right now?",
+    "Who is the most dangerous threat to Alexander Volkanovski at featherweight right now?"
   ],
   "last_entry": {
-    "q": "Who is the most dangerous threat to the UFC heavyweight title right now?",
+    "q": "Who is the most dangerous threat to Alexander Volkanovski at featherweight right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Tom Aspinall",
-        "emoji": "🐺",
+        "label": "Movsar Evloev",
+        "emoji": "🗻",
         "art": ""
       },
       {
-        "label": "Ciryl Gane",
-        "emoji": "🥋",
+        "label": "Jean Silva",
+        "emoji": "💥",
         "art": ""
       },
       {
-        "label": "Alexander Volkov",
-        "emoji": "🐻",
+        "label": "Arman Tsarukyan",
+        "emoji": "🦅",
         "art": ""
       },
       {
-        "label": "Other",
-        "emoji": "🤷",
+        "label": "Other (comment below)",
+        "emoji": "🐐",
         "art": ""
       }
     ],
-    "gag": "A giant heavy bag splitting down the middle, stuffing exploding, a tiny crown falling off the top"
+    "gag": "A smug goat in tiny wrestling trunks flexing on a scale at weigh-ins, spotlight and all"
   }
 }
