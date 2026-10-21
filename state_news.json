@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3c8a08fc24bfb7e8": 1792591793.972459,
     "9731bed2d017447c": 1792591725.6721163,
     "44a34a95a4359e60": 1792591656.4495378,
     "a1d6e4ea57bfdbcb": 1792591584.8752801,
@@ -2498,18 +2499,11 @@
     "29340257ba0624a1": 1792274824.7273414,
     "1c84b8b2368c2d76": 1792274779.3648148,
     "1ca82cf94fac8bb1": 1792274754.576884,
-    "ad646a4c21887262": 1792274688.6950839,
-    "6581215319242651": 1792274620.9525335
+    "ad646a4c21887262": 1792274688.6950839
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Finalized RAF 14 card, start time, date and location | Arman vs. Danis",
-      "source": "MMA Mania",
-      "ts": "2026-10-19T21:00:00+00:00",
-      "cluster": "ccabcc6e1b7"
-    },
     {
       "t": "New UFC Giant: 6'6\" Luis Francischinelli is selected at Dana White's Contender Series",
       "source": "EIN News",
@@ -4903,6 +4897,12 @@
       "source": "SPORTbible",
       "ts": "2026-10-21T14:01:41+00:00",
       "cluster": "c00faee0f6f"
+    },
+    {
+      "t": "Volkanovski-Evloev Featherweight Championship At UFC 333, Abu Dhabi, United Arab Emirates",
+      "source": "FightNews",
+      "ts": "2026-10-21T14:05:10+00:00",
+      "cluster": "cdff751a2bc"
     }
   ],
   "digest_items": [],
