@@ -1,5 +1,8 @@
 {
   "seen": {
+    "644c3f839022c393": 1792564888.450109,
+    "93a5e38ea972ed5a": 1792564888.3940241,
+    "a5ad00e5f3e165fc": 1792564888.3921142,
     "d3644c221a723c71": 1792562128.5311716,
     "38a8a5ce721d9440": 1792562001.3864386,
     "923c8fdd45647e12": 1792561810.8968189,
@@ -2496,20 +2499,11 @@
     "bc83e9391379874e": 1792270039.2614307,
     "b51829a24725858e": 1792270039.253503,
     "daa9151d9f441d7b": 1792270039.2514567,
-    "6a1588af1f9e02fe": 1792270039.249801,
-    "eaa122a467393bd7": 1792270039.2415752,
-    "98de414f16914b21": 1792269972.445248,
-    "e0ccf293d475d250": 1792269972.4342387
+    "6a1588af1f9e02fe": 1792270039.249801
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Dana White warns UFC fighters may never be the same after trying ayahuasca",
-      "source": "latination.com",
-      "ts": "2026-10-19T15:50:47+00:00",
-      "cluster": "c2b8ae767aa"
-    },
     {
       "t": "Cris Cyborg pokes fun at Claressa Shields, reignites beef",
       "source": "MMA Sucka",
@@ -4903,12 +4897,18 @@
       "source": "UFC.com",
       "ts": "2026-10-21T04:43:33+00:00",
       "cluster": "c7df3a81a5d"
+    },
+    {
+      "t": "Du Plessis' Coach Says Camp Rejected UFC 205-Pound Tournament",
+      "source": "RG.org",
+      "ts": "2026-10-21T05:58:18+00:00",
+      "cluster": "c9d4ec9b1a4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-21T05",
+    "2026-10-21T06",
     0
   ],
   "yt_eval": [
