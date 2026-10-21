@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0b638beb51d822c6": 1792592371.2862725,
     "5f6762d782be6e5f": 1792592053.3202686,
     "3c8a08fc24bfb7e8": 1792591793.972459,
     "9731bed2d017447c": 1792591725.6721163,
@@ -2498,18 +2499,11 @@
     "5ee8b75bad73c175": 1792274892.279191,
     "4fcce402b699d4e4": 1792274824.741472,
     "29340257ba0624a1": 1792274824.7273414,
-    "1c84b8b2368c2d76": 1792274779.3648148,
-    "1ca82cf94fac8bb1": 1792274754.576884
+    "1c84b8b2368c2d76": 1792274779.3648148
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "New UFC Giant: 6'6\" Luis Francischinelli is selected at Dana White's Contender Series",
-      "source": "EIN News",
-      "ts": "2026-10-19T21:01:00+00:00",
-      "cluster": "c5648c8a468"
-    },
     {
       "t": "UFC 333: Volkanovski Vs. Evloev Full Fight Card",
       "source": "Forbes",
@@ -4903,6 +4897,12 @@
       "source": "FightNews",
       "ts": "2026-10-21T14:05:10+00:00",
       "cluster": "cdff751a2bc"
+    },
+    {
+      "t": "Islam Makhachev's Manager Breaks Silence On UFC 336 Title Defence Rumours",
+      "source": "NDTV Sports",
+      "ts": "2026-10-21T14:11:20+00:00",
+      "cluster": "cd566f8b73c"
     }
   ],
   "digest_items": [],
