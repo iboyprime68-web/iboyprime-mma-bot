@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 25,
   "staged_at": [
-    "2026-10-20T20:01:39.454787+00:00",
     "2026-10-21T14:32:05.596408+00:00",
     "2026-10-21T20:13:51.900704+00:00",
-    "2026-10-22T14:33:38.759790+00:00"
+    "2026-10-22T14:33:38.759790+00:00",
+    "2026-10-22T20:12:08.025114+00:00"
   ],
   "asked": [
-    "Who is the most terrifying UFC fighter to ever step in the octagon?",
     "Who is the most dangerous striker in UFC history?",
     "What is the most shameless thing a UFC fighter has ever done?",
     "Which loss broke you the most as a fan?",
@@ -47,28 +46,34 @@
     "Who is the most dangerous threat to the UFC heavyweight title right now?",
     "Who is the most dangerous threat to Alexander Volkanovski at featherweight right now?",
     "Who is the most boring fighter to watch in the UFC right now?",
-    "Who wins the UFC 333 trilogy, Merab Dvalishvili or Petr Yan?"
+    "Who wins the UFC 333 trilogy, Merab Dvalishvili or Petr Yan?",
+    "Who is the most overrated contender in the UFC right now?"
   ],
   "last_entry": {
-    "q": "Who wins the UFC 333 trilogy, Merab Dvalishvili or Petr Yan?",
+    "q": "Who is the most overrated contender in the UFC right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Merab Dvalishvili",
-        "emoji": "🛡️",
+        "label": "Colby Covington",
+        "emoji": "🗣️",
         "art": ""
       },
       {
-        "label": "Petr Yan",
-        "emoji": "🥊",
+        "label": "Dillon Danis",
+        "emoji": "🤡",
         "art": ""
       },
       {
-        "label": "Someone else",
-        "emoji": "🚪",
+        "label": "Josh Hokit",
+        "emoji": "🏈",
+        "art": ""
+      },
+      {
+        "label": "Other (comment below)",
+        "emoji": "❓",
         "art": ""
       }
     ],
-    "gag": "A confused octagon-side judge holding two scorecards upside down while a pigeon lands on his head"
+    "gag": "A bronze trophy shaped like a hype balloon slowly deflating on a velvet pedestal, spotlight"
   }
 }
