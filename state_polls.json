@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 25,
   "staged_at": [
-    "2026-10-20T14:22:14.783994+00:00",
     "2026-10-20T20:01:39.454787+00:00",
     "2026-10-21T14:32:05.596408+00:00",
-    "2026-10-21T20:13:51.900704+00:00"
+    "2026-10-21T20:13:51.900704+00:00",
+    "2026-10-22T14:33:38.759790+00:00"
   ],
   "asked": [
-    "What is the most painful near miss in UFC history?",
     "Who is the most terrifying UFC fighter to ever step in the octagon?",
     "Who is the most dangerous striker in UFC history?",
     "What is the most shameless thing a UFC fighter has ever done?",
@@ -47,33 +46,29 @@
     "Who is the biggest threat to Alexander Volkanovski at featherweight right now?",
     "Who is the most dangerous threat to the UFC heavyweight title right now?",
     "Who is the most dangerous threat to Alexander Volkanovski at featherweight right now?",
-    "Who is the most boring fighter to watch in the UFC right now?"
+    "Who is the most boring fighter to watch in the UFC right now?",
+    "Who wins the UFC 333 trilogy, Merab Dvalishvili or Petr Yan?"
   ],
   "last_entry": {
-    "q": "Who is the most boring fighter to watch in the UFC right now?",
+    "q": "Who wins the UFC 333 trilogy, Merab Dvalishvili or Petr Yan?",
     "type": "poll",
     "options": [
       {
-        "label": "Movsar Evloev",
-        "emoji": "🧊",
-        "art": ""
-      },
-      {
-        "label": "Belal Muhammad",
-        "emoji": "😴",
-        "art": ""
-      },
-      {
         "label": "Merab Dvalishvili",
-        "emoji": "🔁",
+        "emoji": "🛡️",
         "art": ""
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "🥱",
+        "label": "Petr Yan",
+        "emoji": "🥊",
+        "art": ""
+      },
+      {
+        "label": "Someone else",
+        "emoji": "🚪",
         "art": ""
       }
     ],
-    "gag": "A sleeping fan slumped in a cage-side seat, popcorn spilling, a lone tumbleweed rolling across the empty octagon"
+    "gag": "A confused octagon-side judge holding two scorecards upside down while a pigeon lands on his head"
   }
 }
