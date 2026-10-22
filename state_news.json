@@ -1,5 +1,7 @@
 {
   "seen": {
+    "5b6d2064f597ed02": 1792696068.9975462,
+    "28b8d5d8959a43ed": 1792696068.9662864,
     "16a3ce8c9ac17ea0": 1792695999.7226872,
     "a52debedfbd78f16": 1792695999.6935673,
     "40fd89f0a63149e0": 1792695931.5055418,
@@ -2497,19 +2499,11 @@
     "159243ac1dfc82af": 1792378161.071378,
     "e883d52c2d9de487": 1792378031.105346,
     "cb2e5464e1912eff": 1792378004.3678312,
-    "adda28d51fc29cfd": 1792377958.5664139,
-    "7f65cbbd91bbcb39": 1792377890.816878,
-    "77edc2729d936acc": 1792377890.7901132
+    "adda28d51fc29cfd": 1792377958.5664139
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 333 Start Time Forces West Coast Fans Awake At 7 AM",
-      "source": "boxingnews.com",
-      "ts": "2026-10-21T14:00:41+00:00",
-      "cluster": "c6cb313e9c1"
-    },
     {
       "t": "Kavanagh Suffers Quick Turnaround Against Temirov At UFC 333",
       "source": "boxingnews.com",
@@ -4903,6 +4897,12 @@
       "source": "MMA Sucka",
       "ts": "2026-10-22T18:41:46+00:00",
       "cluster": "cf1ee28891d"
+    },
+    {
+      "t": "UFC 333 Cage Locks: Volkanovski, Evloev clash for featherweight gold",
+      "source": "Sportsnet.ca",
+      "ts": "2026-10-22T18:46:00+00:00",
+      "cluster": "c5ef9956518"
     }
   ],
   "digest_items": [],
