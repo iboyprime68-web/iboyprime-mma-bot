@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c4b9983054d66cd6": 1792724438.848826,
     "96636dbedca62d64": 1792723702.9376328,
     "db630aa9d6cf4b5c": 1792723549.9182746,
     "17f48385e9c30da1": 1792723381.8917782,
@@ -2498,18 +2499,11 @@
     "da57fe51118646ce": 1792423404.2582335,
     "95ef19f62ea02667": 1792423287.0280514,
     "ce74d0debd95bf22": 1792423264.3920815,
-    "f87f9395daf1f50c": 1792422966.407495,
-    "8f74e8af54df4106": 1792422693.7561765
+    "f87f9395daf1f50c": 1792422966.407495
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "How fighters can find path to victory at UFC 333",
-      "source": "Sportsnet.ca",
-      "ts": "2026-10-21T18:17:00+00:00",
-      "cluster": "c33a69cea51"
-    },
     {
       "t": "Merab Dvalishvili | Return of The Machine",
       "source": "UFC.com",
@@ -4903,12 +4897,18 @@
       "source": "MMA Fighting",
       "ts": "2026-10-23T02:45:17+00:00",
       "cluster": "ce7e54b04f4"
+    },
+    {
+      "t": "Paulo Costa slams UFC pay after Rampage Jackson's &#36;7 million claim",
+      "source": "Sherdog",
+      "ts": "2026-10-16T03:16:06+00:00",
+      "cluster": "c6e980cf6b4"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-23T02",
+    "2026-10-23T03",
     0
   ],
   "yt_eval": [
