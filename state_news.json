@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f982703d0203260a": 1792785749.469017,
     "fd5424a86a6cf4e2": 1792784801.9827816,
     "7904230c03ee0dc6": 1792784675.8927135,
     "46cc448a58b1fbc1": 1792784296.1197164,
@@ -2498,8 +2499,7 @@
     "6bf6779ae47f4649": 1792499853.9643638,
     "f69f829d2b95edaf": 1792499853.9199204,
     "55eb7636cba60308": 1792499791.283776,
-    "d42222b55a935726": 1792499724.3317003,
-    "24890b092e90b792": 1792499657.6602979
+    "d42222b55a935726": 1792499724.3317003
   },
   "initialized": true,
   "v": 4,
@@ -4227,12 +4227,6 @@
       "cluster": "c458661cd86"
     },
     {
-      "t": "Merab Dvalishvili open to fight Song Yadong at UFC 334 with win at UFC 333",
-      "source": "MMA Fighting",
-      "ts": "2026-10-21T20:00:33+00:00",
-      "cluster": "c92e33ba178"
-    },
-    {
       "t": "RAF co-founders defend Dillon Danis as RAF 14 headliner: 'He's been first class'",
       "source": "MMA Junkie",
       "ts": "2026-10-23T13:40:00+00:00",
@@ -4903,12 +4897,18 @@
       "source": "MMA Sucka",
       "ts": "2026-10-23T19:45:09+00:00",
       "cluster": "c919aa18dc9"
+    },
+    {
+      "t": "Rizvan Kuniev blasts rankings for Alex Pereira’s ‘very strange’ spot, wants him next after Alexander Volkov at UFC 333",
+      "source": "MMA Fighting",
+      "ts": "2026-10-23T15:14:31+00:00",
+      "cluster": "ce82898b878"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-23T19",
+    "2026-10-23T20",
     0
   ],
   "yt_eval": [
