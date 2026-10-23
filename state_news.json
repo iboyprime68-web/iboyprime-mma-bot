@@ -1,5 +1,7 @@
 {
   "seen": {
+    "c71560a0fd8139d6": 1792766256.3018572,
+    "6053567531f457d4": 1792766256.2604618,
     "7785d4c2ee25ec3d": 1792766190.9995506,
     "a386d7d61c49dce9": 1792765868.9516873,
     "ed96b3340c0134b4": 1792765551.754389,
@@ -2497,19 +2499,11 @@
     "3996bc1629758a87": 1792458003.3611495,
     "bb630b7fec6fa063": 1792458003.3609557,
     "53b53c806dad3fe0": 1792458003.3604848,
-    "225c2fa3a57e0e35": 1792458003.3600042,
-    "c780bce91806ccd6": 1792457938.19161,
-    "e2399d3ff51cbb30": 1792457807.4237819
+    "225c2fa3a57e0e35": 1792458003.3600042
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Herb Dean Receives Sympathy From UFC Star Alex Pereira",
-      "source": "heavy.com",
-      "ts": "2026-10-22T03:59:00+00:00",
-      "cluster": "c2d550b88fe"
-    },
     {
       "t": "Natalia Silva Sees Alexa Grasso In The Mix For Her First UFC Title Defense",
       "source": "MiddleEasy",
@@ -4903,6 +4897,12 @@
       "source": "CBS Sports",
       "ts": "2026-10-23T14:26:40+00:00",
       "cluster": "c5edc8d1af4"
+    },
+    {
+      "t": "18-Fight UFC Veteran Announces Retirement Plan After Brutal Knockout Loss",
+      "source": "Sports Illustrated",
+      "ts": "2026-10-23T14:34:00+00:00",
+      "cluster": "c806e458b21"
     }
   ],
   "digest_items": [],
