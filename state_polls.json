@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 25,
   "staged_at": [
-    "2026-10-21T20:13:51.900704+00:00",
     "2026-10-22T14:33:38.759790+00:00",
     "2026-10-22T20:12:08.025114+00:00",
-    "2026-10-23T14:17:41.821860+00:00"
+    "2026-10-23T14:17:41.821860+00:00",
+    "2026-10-23T19:58:48.504873+00:00"
   ],
   "asked": [
-    "What is the most shameless thing a UFC fighter has ever done?",
     "Which loss broke you the most as a fan?",
     "Who is the most underrated fighter in the UFC right now?",
     "Who wins the UFC 332 flyweight title fight, Natalia Silva or Wang Cong?",
@@ -47,33 +46,34 @@
     "Who is the most boring fighter to watch in the UFC right now?",
     "Who wins the UFC 333 trilogy, Merab Dvalishvili or Petr Yan?",
     "Who is the most overrated contender in the UFC right now?",
-    "Who is the most entertaining trash talker in the UFC right now?"
+    "Who is the most entertaining trash talker in the UFC right now?",
+    "What is the most overrated knockout artist in UFC history?"
   ],
   "last_entry": {
-    "q": "Who is the most entertaining trash talker in the UFC right now?",
+    "q": "What is the most overrated knockout artist in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Sean Strickland",
-        "emoji": "🗣️",
+        "label": "Derrick Lewis",
+        "emoji": "🌶️",
         "art": ""
       },
       {
-        "label": "Khamzat Chimaev",
-        "emoji": "🔥",
+        "label": "Francis Ngannou",
+        "emoji": "💥",
         "art": ""
       },
       {
-        "label": "Arman Tsarukyan",
-        "emoji": "🧊",
+        "label": "Johnny Walker",
+        "emoji": "🦒",
         "art": ""
       },
       {
         "label": "Other (comment below)",
-        "emoji": "🤡",
+        "emoji": "🤔",
         "art": ""
       }
     ],
-    "gag": "A wind-up toy clown shouting into a megaphone at an empty press conference table"
+    "gag": "A punching bag with a tiny dent and a giant trophy next to it, spotlight on the dent"
   }
 }
