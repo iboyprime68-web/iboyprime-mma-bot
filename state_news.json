@@ -1,5 +1,10 @@
 {
   "seen": {
+    "db92208f14a2c566": 1792839617.1761918,
+    "e375eb7f969fee30": 1792839617.1344128,
+    "106fde667557a22c": 1792839617.1338806,
+    "c4167c5eaaf92e42": 1792839617.1333487,
+    "5dda8e36c9ff8e15": 1792839617.1327896,
     "b2ebfa988606ec74": 1792839550.366818,
     "5e2daebf1ad122e4": 1792839483.4781399,
     "bb4c2bb0be26360e": 1792839415.7790256,
@@ -2494,22 +2499,11 @@
     "821ddb620fab8a1a": 1792550606.8621411,
     "b462371d2f41f2cb": 1792550249.0825753,
     "2b612662948c8c26": 1792550100.6317255,
-    "cc2796548d9647e9": 1792549974.1913242,
-    "f8865e0a9e4166ad": 1792549720.7364333,
-    "cedddafe6d0cc2d9": 1792549656.3980346,
-    "987102cdce1e95e3": 1792549298.0742588,
-    "dc2190ef0a448f9f": 1792549275.1245778,
-    "7c438db0da345424": 1792549275.1241488
+    "cc2796548d9647e9": 1792549974.1913242
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 333 weigh-in video: Volkanovski vs. Evloev",
-      "source": "MMA Fighting",
-      "ts": "2026-10-22T22:33:18+00:00",
-      "cluster": "cbc9972f14f"
-    },
     {
       "t": "Petr Yan Promises to Smash Merab Dvalishvili’s Nose at UFC 333",
       "source": "Heavy.com",
@@ -4903,12 +4897,18 @@
       "source": "MMA Sucka",
       "ts": "2026-10-24T10:42:50+00:00",
       "cluster": "c74ca357582"
+    },
+    {
+      "t": "Islam Makhachev Pulls Out of Carlos Prates Fight as UFC 336 Loses Main-Event Spot",
+      "source": "EssentiallySports",
+      "ts": "2026-10-24T10:47:00+00:00",
+      "cluster": "ca665da8017"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-24T10",
+    "2026-10-24T11",
     0
   ],
   "yt_eval": [
