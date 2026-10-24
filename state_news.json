@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c0bc31337c78b453": 1792813792.5118232,
     "ab01186d143d20d3": 1792813502.6244202,
     "84734c56e7418324": 1792813254.5389795,
     "4d7d7ebf76ca3a36": 1792812758.656812,
@@ -2498,18 +2499,11 @@
     "4652dba3e508d987": 1792526777.9467108,
     "a782f4eebdfdbb03": 1792526777.945494,
     "3cd6ca3985a589de": 1792526777.9440374,
-    "6534ed1fde783628": 1792526777.9425995,
-    "8ee60f56d57c146d": 1792526709.364848
+    "6534ed1fde783628": 1792526777.9425995
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 333 Cage Locks: Volkanovski, Evloev clash for featherweight gold",
-      "source": "Sportsnet.ca",
-      "ts": "2026-10-22T18:46:00+00:00",
-      "cluster": "c5ef9956518"
-    },
     {
       "t": "“We’re Ready for Anything”: Khamzat Chimaev Reacts to Potential Arman Tsarukyan–Dillon Danis Brawl",
       "source": "MMA Sucka",
@@ -4903,6 +4897,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-24T03:30:00+00:00",
       "cluster": "c55b2505558"
+    },
+    {
+      "t": "Khamzat Chimaev vs Robbie Lawler RAF Wrestling 14 result: Former UFC champion scores early stoppage",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-24T03:49:46+00:00",
+      "cluster": "c966fdf4f11"
     }
   ],
   "digest_items": [],
