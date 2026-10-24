@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 25,
   "staged_at": [
-    "2026-10-22T20:12:08.025114+00:00",
     "2026-10-23T14:17:41.821860+00:00",
     "2026-10-23T19:58:48.504873+00:00",
-    "2026-10-24T13:23:39.053559+00:00"
+    "2026-10-24T13:23:39.053559+00:00",
+    "2026-10-24T18:50:48.075524+00:00"
   ],
   "asked": [
-    "Who is the most underrated fighter in the UFC right now?",
     "Who wins the UFC 332 flyweight title fight, Natalia Silva or Wang Cong?",
     "Who is the best MMA fighter under 30 right now?",
     "What is the most painful UFC title fight loss to watch?",
@@ -47,33 +46,34 @@
     "Who is the most overrated contender in the UFC right now?",
     "Who is the most entertaining trash talker in the UFC right now?",
     "What is the most overrated knockout artist in UFC history?",
-    "What is the most dangerous superfight the UFC could actually book right now?"
+    "What is the most dangerous superfight the UFC could actually book right now?",
+    "Who is the most biased UFC commentator right now?"
   ],
   "last_entry": {
-    "q": "What is the most dangerous superfight the UFC could actually book right now?",
+    "q": "Who is the most biased UFC commentator right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Volkanovski vs Gaethje",
-        "emoji": "🌪️",
+        "label": "Daniel Cormier",
+        "emoji": "🎙️",
         "art": ""
       },
       {
-        "label": "Chimaev vs Covington",
-        "emoji": "🔒",
+        "label": "Joe Rogan",
+        "emoji": "🔊",
         "art": ""
       },
       {
-        "label": "Pereira vs DeMoor",
-        "emoji": "🍦",
+        "label": "Michael Bisping",
+        "emoji": "🇬🇧",
         "art": ""
       },
       {
         "label": "Other (comment below)",
-        "emoji": "🗯️",
+        "emoji": "🤔",
         "art": ""
       }
     ],
-    "gag": "A giant ice cream cone in a fighting cage, melting under arena spotlights, tiny gloves stacked beside it"
+    "gag": "A giant foam microphone wearing a team jersey, cheering wildly in an empty broadcast booth"
   }
 }
