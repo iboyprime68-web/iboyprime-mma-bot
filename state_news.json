@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5e2eeb8d12f970c3": 1792871305.303327,
     "ec92ad592d7d7a17": 1792871281.5612984,
     "ad0c33a52e89f986": 1792871281.542149,
     "ebc026c65308b9a5": 1792871281.5392108,
@@ -2498,18 +2499,11 @@
     "359928fc28701c27": 1792749638.53092,
     "f1e5ef32206322df": 1792749242.5743537,
     "a7db5a04aec44bb6": 1792749117.6835246,
-    "2e94dcd8ba56e2d7": 1792749054.6291127,
-    "a353e3d7bd4a29e5": 1792748991.5875518
+    "2e94dcd8ba56e2d7": 1792749054.6291127
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "What time will Alex Volkanovski fight Movsar Evloev at UFC 333?",
-      "source": "Fox Sports",
-      "ts": "2026-10-24T04:02:00+00:00",
-      "cluster": "c86ad7e8d42"
-    },
     {
       "t": "Arman Tsarukyan vs Dillon Danis RAF Wrestling result: Drama avoided as UFC star wins with ease",
       "source": "Bloody Elbow",
@@ -4903,6 +4897,12 @@
       "source": "Heavy.com",
       "ts": "2026-10-24T19:38:01+00:00",
       "cluster": "cb29d2f9a79"
+    },
+    {
+      "t": "Dillon Danis appears to be kicked by spectator following 10-0 RAF loss",
+      "source": "Sherdog",
+      "ts": "2026-10-24T19:25:10+00:00",
+      "cluster": "cb81bd1eb30"
     }
   ],
   "digest_items": [],
