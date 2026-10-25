@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 26,
   "staged_at": [
-    "2026-10-23T19:58:48.504873+00:00",
     "2026-10-24T13:23:39.053559+00:00",
     "2026-10-24T18:50:48.075524+00:00",
-    "2026-10-25T13:45:38.872846+00:00"
+    "2026-10-25T13:45:38.872846+00:00",
+    "2026-10-25T19:06:41.043009+00:00"
   ],
   "asked": [
-    "Who is the best MMA fighter under 30 right now?",
     "What is the most painful UFC title fight loss to watch?",
     "What actually wins UFC titles?",
     "Who is the most underrated fighter on the roster?",
@@ -47,33 +46,34 @@
     "What is the most overrated knockout artist in UFC history?",
     "What is the most dangerous superfight the UFC could actually book right now?",
     "Who is the most biased UFC commentator right now?",
-    "You get one tag team partner in a two on two cage match. Who?"
+    "You get one tag team partner in a two on two cage match. Who?",
+    "Who should get the next heavyweight title shot?"
   ],
   "last_entry": {
-    "q": "You get one tag team partner in a two on two cage match. Who?",
+    "q": "Who should get the next heavyweight title shot?",
     "type": "poll",
     "options": [
       {
+        "label": "Alexander Volkov",
+        "emoji": "🐻",
+        "art": ""
+      },
+      {
+        "label": "Ciryl Gane",
+        "emoji": "🥖",
+        "art": ""
+      },
+      {
         "label": "Tom Aspinall",
-        "emoji": "🦾",
+        "emoji": "🦁",
         "art": ""
       },
       {
-        "label": "Justin Gaethje",
-        "emoji": "⚡",
-        "art": ""
-      },
-      {
-        "label": "Khamzat Chimaev",
-        "emoji": "🐺",
-        "art": ""
-      },
-      {
-        "label": "Merab Dvalishvili",
-        "emoji": "🚜",
+        "label": "Other (comment below)",
+        "emoji": "🤷",
         "art": ""
       }
     ],
-    "gag": "a tortoise with a tiny cornerman towel over its shell, sitting on a stool between rounds"
+    "gag": "A giant heavyweight belt being tugged between two cartoon bears in tiny fight shorts"
   }
 }
