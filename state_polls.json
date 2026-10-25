@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 25,
+  "cursor": 26,
   "staged_at": [
-    "2026-10-23T14:17:41.821860+00:00",
     "2026-10-23T19:58:48.504873+00:00",
     "2026-10-24T13:23:39.053559+00:00",
-    "2026-10-24T18:50:48.075524+00:00"
+    "2026-10-24T18:50:48.075524+00:00",
+    "2026-10-25T13:45:38.872846+00:00"
   ],
   "asked": [
-    "Who wins the UFC 332 flyweight title fight, Natalia Silva or Wang Cong?",
     "Who is the best MMA fighter under 30 right now?",
     "What is the most painful UFC title fight loss to watch?",
     "What actually wins UFC titles?",
@@ -47,33 +46,34 @@
     "Who is the most entertaining trash talker in the UFC right now?",
     "What is the most overrated knockout artist in UFC history?",
     "What is the most dangerous superfight the UFC could actually book right now?",
-    "Who is the most biased UFC commentator right now?"
+    "Who is the most biased UFC commentator right now?",
+    "You get one tag team partner in a two on two cage match. Who?"
   ],
   "last_entry": {
-    "q": "Who is the most biased UFC commentator right now?",
+    "q": "You get one tag team partner in a two on two cage match. Who?",
     "type": "poll",
     "options": [
       {
-        "label": "Daniel Cormier",
-        "emoji": "🎙️",
+        "label": "Tom Aspinall",
+        "emoji": "🦾",
         "art": ""
       },
       {
-        "label": "Joe Rogan",
-        "emoji": "🔊",
+        "label": "Justin Gaethje",
+        "emoji": "⚡",
         "art": ""
       },
       {
-        "label": "Michael Bisping",
-        "emoji": "🇬🇧",
+        "label": "Khamzat Chimaev",
+        "emoji": "🐺",
         "art": ""
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "🤔",
+        "label": "Merab Dvalishvili",
+        "emoji": "🚜",
         "art": ""
       }
     ],
-    "gag": "A giant foam microphone wearing a team jersey, cheering wildly in an empty broadcast booth"
+    "gag": "a tortoise with a tiny cornerman towel over its shell, sitting on a stool between rounds"
   }
 }
