@@ -1,5 +1,9 @@
 {
   "seen": {
+    "9b05045a8bc9564b": 1792969235.1526847,
+    "ec452e231ed4397c": 1792969235.1132574,
+    "1d0597f6af5ec37a": 1792969235.1124904,
+    "d70828a8dab541b1": 1792969235.1118667,
     "1b41accdc0ebb24b": 1792968590.9892833,
     "0997dd95c91b11ed": 1792968462.4733143,
     "15cd75abeedf0641": 1792968271.6456263,
@@ -2495,21 +2499,11 @@
     "bb02de16cfa6baf2": 1792854489.0654173,
     "b12dcf48963ae142": 1792854489.005585,
     "afe9e55d0e1a49ad": 1792854488.9906316,
-    "ec8884588d23ab4f": 1792854488.977009,
-    "99c966f9ac18929f": 1792854488.9220076,
-    "3cf85e2274b52908": 1792854488.909886,
-    "a49607857f6409a7": 1792854488.8870616,
-    "703d2b04cf1f02dd": 1792854488.8284025
+    "ec8884588d23ab4f": 1792854488.977009
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC sets January return to American Airlines Center in Dallas",
-      "source": "Dallas News",
-      "ts": "2026-10-24T19:51:31+00:00",
-      "cluster": "c3ec5ea4320"
-    },
     {
       "t": "☑︎!+! [ＬＩＶＥ ＯＮ ＣＨＡＮＮＥＬ] ☑︎ UFC 333 on CrackStreams 𝐋𝐈𝐕𝐄 Updates Ｔｖ Ｃｈａｎｎｅｌ 24 October 2026",
       "source": "FC東京オフィシャルホームページ",
@@ -4903,12 +4897,18 @@
       "source": "MMA Sucka",
       "ts": "2026-10-25T22:46:38+00:00",
       "cluster": "c1c6b897fd4"
+    },
+    {
+      "t": "Dana White Open to Volkanovski vs Gaethje UFC Superfight",
+      "source": "MMA Sucka",
+      "ts": "2026-10-25T22:54:40+00:00",
+      "cluster": "cc474cc3a7f"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-25T22",
+    "2026-10-25T23",
     0
   ],
   "yt_eval": [
