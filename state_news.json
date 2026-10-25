@@ -1,5 +1,6 @@
 {
   "seen": {
+    "351c48f57ec10563": 1792932173.921109,
     "f641d25f43a32f92": 1792932047.8202477,
     "9667b9b0e8c81914": 1792931922.0328836,
     "6ebe7fa4d32fb5d3": 1792931796.2483022,
@@ -2498,8 +2499,7 @@
     "4f885cc7cd963981": 1792847176.8127441,
     "7a3ef803e20b7f48": 1792847176.8104424,
     "244d7948cbe93da7": 1792847176.808488,
-    "fe58d497ea8a6a7c": 1792847139.408701,
-    "ba6e4638bda104da": 1792847113.5854442
+    "fe58d497ea8a6a7c": 1792847139.408701
   },
   "initialized": true,
   "v": 4,
@@ -4897,6 +4897,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-10-25T12:02:21+00:00",
       "cluster": "c3911a7b970"
+    },
+    {
+      "t": "Movsar Evloev Shares First Statement After UFC 333 Loss to Alexander Volkanovski",
+      "source": "Sports Illustrated",
+      "ts": "2026-10-25T12:40:46+00:00",
+      "cluster": "cae0e2fa25f"
     }
   ],
   "digest_items": [],
