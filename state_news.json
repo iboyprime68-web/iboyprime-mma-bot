@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e5233e88562ddf3e": 1792942245.7907522,
     "4dabee7b75adbabe": 1792941993.6524456,
     "47b56c2fb5090eb7": 1792941993.5892751,
     "65d600b6c9fc5d04": 1792941926.152431,
@@ -2498,8 +2499,7 @@
     "b59fa4e048b97ff9": 1792850064.878699,
     "361d2e561d6cbd9d": 1792850064.8677542,
     "debfa8f86c390052": 1792850064.8566716,
-    "560f798665433110": 1792850064.8454828,
-    "097fcafff0a37b00": 1792850064.8340719
+    "560f798665433110": 1792850064.8454828
   },
   "initialized": true,
   "v": 4,
@@ -4071,12 +4071,6 @@
       "cluster": "cb35103c6e6"
     },
     {
-      "t": "OH NO! Careless referee blows MMA fighter’s knee out while sliding in for knockout stoppage &#124; Video",
-      "source": "MMA Mania",
-      "ts": "2026-10-23T15:29:09+00:00",
-      "cluster": "c5a81336105"
-    },
-    {
       "t": "Justin Gaethje Challenged By Alexander Volkanovski Post UFC 333",
       "source": "heavy.com",
       "ts": "2026-10-25T01:04:00+00:00",
@@ -4903,6 +4897,12 @@
       "source": "MMA Sucka",
       "ts": "2026-10-25T15:24:43+00:00",
       "cluster": "cfc504d9041"
+    },
+    {
+      "t": "Daniel Cormier Suggests Petr Yan Could Be the Greatest Bantamweight of All Time",
+      "source": "MMA Sucka",
+      "ts": "2026-10-25T15:29:40+00:00",
+      "cluster": "cd44a5bddbf"
     }
   ],
   "digest_items": [],
