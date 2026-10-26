@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 26,
+  "cursor": 27,
   "staged_at": [
-    "2026-10-24T13:23:39.053559+00:00",
     "2026-10-24T18:50:48.075524+00:00",
     "2026-10-25T13:45:38.872846+00:00",
-    "2026-10-25T19:06:41.043009+00:00"
+    "2026-10-25T19:06:41.043009+00:00",
+    "2026-10-26T16:11:50.939602+00:00"
   ],
   "asked": [
-    "What is the most painful UFC title fight loss to watch?",
     "What actually wins UFC titles?",
     "Who is the most underrated fighter on the roster?",
     "What is the most painful UFC title loss to watch?",
@@ -47,33 +46,34 @@
     "What is the most dangerous superfight the UFC could actually book right now?",
     "Who is the most biased UFC commentator right now?",
     "You get one tag team partner in a two on two cage match. Who?",
-    "Who should get the next heavyweight title shot?"
+    "Who should get the next heavyweight title shot?",
+    "Whose next loss ends the aura for good?"
   ],
   "last_entry": {
-    "q": "Who should get the next heavyweight title shot?",
+    "q": "Whose next loss ends the aura for good?",
     "type": "poll",
     "options": [
       {
-        "label": "Alexander Volkov",
-        "emoji": "🐻",
+        "label": "Khamzat Chimaev",
+        "emoji": "🐺",
         "art": ""
       },
       {
-        "label": "Ciryl Gane",
-        "emoji": "🥖",
+        "label": "Ilia Topuria",
+        "emoji": "💎",
         "art": ""
       },
       {
         "label": "Tom Aspinall",
-        "emoji": "🦁",
+        "emoji": "🛡️",
         "art": ""
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "🤷",
+        "label": "Shavkat Rakhmonov",
+        "emoji": "🐴",
         "art": ""
       }
     ],
-    "gag": "A giant heavyweight belt being tugged between two cartoon bears in tiny fight shorts"
+    "gag": "a potato wearing a luxury fight robe making a dramatic walkout through smoke and spotlights"
   }
 }
