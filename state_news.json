@@ -1,15 +1,6 @@
 {
   "seen": {
-    "b53e51173d574ad1": 1793051418.7333848,
-    "cdcbb9d69f06b796": 1793051272.9504848,
-    "3ca6f575bc5e203c": 1793051144.153312,
-    "85eadd609afbf262": 1793051076.8670733,
-    "c34e91c1a3f95b83": 1793050765.2483678,
-    "962a7e26b1b8561c": 1793050453.5912855,
-    "9e8e2e6a26dffcbd": 1793050453.5448987,
-    "d665587ad48f0893": 1793050389.3754914,
-    "ff27d38db4d06420": 1793050188.0620134,
-    "6255530f84875fe6": 1793050188.0477211,
+    "b53e51173d574ad1": 1793051728.2830224,
     "97a5895487f3be62": 1793050120.0234115,
     "b083e2dd0939aedc": 1793050056.2086298,
     "f675134f79e972d0": 1793050013.2062807,
@@ -2499,11 +2490,38 @@
     "ac6459c9e47ef2d3": 1792867758.0475314,
     "8955e7e409fc0b9c": 1792867758.0283988,
     "40a948db35f05960": 1792867693.4225078,
-    "fd3c88fa01188ce1": 1792867693.3414998
+    "fd3c88fa01188ce1": 1792867693.3414998,
+    "9c16c0339dd72913": 1792867628.742152,
+    "2e3b5278ab26f51a": 1792867628.7220852,
+    "b8ec2bf65770ac3b": 1792867628.7041838,
+    "d002edbfd9c86d46": 1792867628.6298823,
+    "ca41fd067ff5cd1b": 1792867628.6265464,
+    "ae03287be941f2ab": 1792867628.6252518,
+    "42c59c096ce32882": 1792867564.5414844,
+    "292c4129ad23d189": 1792867521.5488353,
+    "d21fd244ddf084d3": 1792867497.9990253
   },
   "initialized": true,
   "v": 4,
   "recent": [
+    {
+      "t": "Urbanfund Corp. Estimates – TSXV:UFC",
+      "source": "TradingView",
+      "ts": "2026-10-25T12:34:05+00:00",
+      "cluster": "cf519672c76"
+    },
+    {
+      "t": "$90 Million Loss: TKO Faces Massive Repercussions Should WWE + UFC Events In Saudi Arabia Get Cancelled [REPORT]",
+      "source": "Sportskeeda",
+      "ts": "2026-10-25T13:15:00+00:00",
+      "cluster": "c783df3a9c6"
+    },
+    {
+      "t": "MMA Mania Hosts Sunday Open Thread For Fans",
+      "source": "boxingnews.com",
+      "ts": "2026-10-25T13:30:52+00:00",
+      "cluster": "c9873c4ad3c"
+    },
     {
       "t": "Islam Makhachev Won’t Defend Welterweight Title Against Carlos Prates at UFC 336",
       "source": "MyMMANews",
@@ -4881,24 +4899,6 @@
       "cluster": "c4668665463"
     },
     {
-      "t": "Patricio Pitbull Calls Out Lerone Murphy",
-      "source": "Heavy.com",
-      "ts": "2026-10-26T21:27:46+00:00",
-      "cluster": "c82e6a31e85"
-    },
-    {
-      "t": "Masvidal & Poirier react to Petr Yan retaining his Bantamweight title vs Merab at UFC 333 | Deep Waters",
-      "source": "247Sports",
-      "ts": "2026-10-26T21:04:00+00:00",
-      "cluster": "ccd0ce7cb84"
-    },
-    {
-      "t": "Paddy Pimblett Makes Bold Claim on Who Deserves Next UFC Heavyweight Title Shot",
-      "source": "NY Fights",
-      "ts": "2026-10-26T21:37:49+00:00",
-      "cluster": "c5bffe00a58"
-    },
-    {
       "t": "FIGHTER UPDATE 🚨 Lucas Brennan is OUT of his scheduled November 7 bout against Austin Bashi",
       "source": "@PodolskyDanny",
       "ts": "2026-10-26T20:26:20.034000+00:00",
@@ -4912,6 +4912,10 @@
     0
   ],
   "yt_eval": [
+    "CBMihgFBVV95cUxPT0tlMHRWRV9neFhVejNRTkJBTGV0d2Z0RnV6bGNWYUg5bFRaZUdOSnliMW5YcWQxNUVrT0FLNmhhVkNpOTRTXzd0MzRoRW50Y3hMRTRMckRxcEJYLTEzanJQNnVjZFY2ME5PcWVoZWVpZFk0cWd0YmdhTmVqbGxXTmE2azA1QQ",
+    "CBMigAFBVV95cUxPdzQ1VzVPTlBTUkpic2llZ2hteXhFZkYzT04wLV9ic1JKcWlmSHVuby1lVDdmQ3dQSXVSYUVwRmR5R1JLV0FaU3J1S055MXp1Z0haZFdXeXhGNmdpYkU4UDZJaTlkQkVNbVhZQUlSd1E2Zk83c3VNV3Z4Q2NVZ1hZNA",
+    "CBMikAFBVV95cUxPVUE5NkR1Z2Y2SUxvMldnUnBteHJqbWE3X3Jhb3hWbjdzeGFaYWFQb2puckIyWWNTUnpiX3owVkhyb3FuRjRqU2tfZ21zTlZiLVBWTmwtQmlfTFdGQ0psemtEeDlrcFNWaVdJVEJKZ1NWNVRpOC1PcndGUWZPODVpSHVvRmZKZDhLZU41ZlZOZWM",
+    "CBMinwFBVV95cUxOamhwM0RONGpTdVhuYmpyRW1IdlhNc0p2Q2JLM2dRU2tQaU9hZHl0ajZGNkNhMXJBU3BSaHh3RmJZcG1uRnBtbjVvZW4tb2ZfRncySHJzLTNrRHRqaVhEZ1laS3VWT0FLbHg2S1NMcDMzdGppdTcwRDZNX25WUDZzelp3TWozZXJMaXptUkhIVW5Tc3ZleUN3NkJoaWZrXzA",
     "CBMiXEFVX3lxTE1mVkktR28wc3ctNmtVVFhBd3lEX3pyTndQWjZOOF85UEUxcG4zcHA2WmFHdlRiWU9WTGVEUmRWSTk2bFNrS2V6aE9GRVRuSERhaGZSRjVZSU9WUy00",
     "CBMiyAFBVV95cUxNQjdUdzNtZ3hIZUpZNjhWMHMwRjNmRVl0NDFnZXh5MzFvdXJWSzNoaVBhRTNxbGthN1ZvVVlJRUgzTlBpUFNyZUxtMGg5a0xNejBnMlNZamhXTksyQ0d2eFp1amZ6Z3NGZ0NQMklXcGhZaUtqNVRsMHozWUhmMW5HbkJrQzZXVF9VSnNabzFqM2QzNG5YTlN6YTA3eWNldk40eXZkc2NOXzdUUmh3bmJLcFR6aHBSeUdTZC1KaXlHaHRqZi02Ty1sVQ",
     "CBMikgFBVV95cUxORXF1MkU3VC1kMEc0dHlGU2tVcUJlc0djWmdOb1lfYVZmMDJlRV9VMjhiUWVoOEtkSk1QTl9pVDBkaHZnbjJ5S3JWNU5jSFgtSGpkbWhLbWJmYkRuSE4wOWxySTdBejA4Y2lGQzNZS2tQcWdiMnZ5czRxZlNuQkEzM1VweUgzNGxRcm5XQ3h4QTZ3dw",
@@ -6407,15 +6411,11 @@
     "CBMi-AFBVV95cUxPSHNvY29lRGtfSjZvanA1aWh3TmxvUm01WlVqTGdqRTdpdkZUT1JhQ1VHZF8xQ2FabGE2bzhxajhoekVKc0JpYWc5U0VpZWN3c3ZUMGUzY2twU2hRYThfLTRwVGx4aEhVRmxWOFFZNzdGekVVS1BKY1RidjJocFM1djJaZUtCRWxXQ0U3dXljTXpPSmVYM3YyUDhfc0hUTWhFUWdCZXpFdy1iMWZFdDVYaDIyeXl2Y3cxVXN4Yl8wZkp1MUFjaFBQR2hpZVk4cGl3aVRDeTZ0cDNVQkROSm9oNGt6NEZxWWRYQVF4QW9nWDhZYnYxMnRYdg",
     "CBMisgFBVV95cUxPTlV4UmhKa0FZenBPOHZKSFBISWJMUUo3dVg5WGNrWW1OMFZyd2ozY2t4UGRIdjdSOEdsQ3Z3TGF4Vmdub25PYkxRLU5CVDctRUE5ZlI2WDVKMGRnWU5kcnNxVEVPc2V3QlBET1NRMXFjLWs3ZktiOEI4S3JwWWNYajRYSXpNUWVsRnk1MHV0aXRmZk5ibGJHbDgwLVd5QmtEVmxPaURqSERwR0lCR0VZMm53",
     "CBMizwFBVV95cUxOWHdnMEk4TUg1b3ZDLVFfT1BrazQ4aWVIV195dkRIV2MxTUdibEw1cUtibkJFRmpJN3BQMEdva1hBcld2NVBLZ29XSkxwS3J1LUNyd0VjSmFmSGpyZW1wS0ZKbmxDYmUtSXNxVXRDWjUtaGxBYm9MdW1iWWhybnlBUEVGR3ozbXFfd2F5aV9JQV91XzAxVFhYZlpDUXo2d3VhTlYyVmY0OGMxOXFXZ2VObHNSRDBtdFlLVGcwdW05SnhsbXpVemtzVEMtYjZxU28",
-    "CBMijgFBVV95cUxQS0ZlYUx1TFdrMWJLRFB6Zm1STzRlLTFYcVVEbDNPb2hLbldfdlRfR3gzV3dxdGF1UmNoMVF0VElHZWNFV2x2UDVlTXR2R21VVWRRRnBRSWxuS0kwU0laS09Xbi1xbXdkc004ck1uNTcwek4tbXFZRU9oNEhQLVhRRFpKVTJfdDV3a3FyOF9R",
-    "CBMiekFVX3lxTE1fUkd0S2pwMGtGUm5XZHRuNEVjQUtob0ZVaEh2eDN2ZTZsWmRBdW9kNGNieTRsd1NDSnRlNjkwbHNNZVJyVzNnWk9qeWx0dGc2TUJGanNVaXJLWGMwVGRKaE1BUXhLVFktVWhiUnhXZTFfT0JzdjZSblJB",
-    "CBMi8AFBVV95cUxOSV91RXR0amt6c0JRLTFPektUeHlrWnhvYWppZmJMem9KdkRGNGh6OHIwSTRBN1RTc1lQdGZBOC1yNzFfMXN3RFhEbkdjdzltbXpPcWM5ZGQ5bURpUG9OWDNCb29SLWJIbFlfanpGRmNLdGNZSDVxWnNDTzJNbXlqZFk0aDNqbXAxNTdzN2xqQ2w4azAzU3lIV2hZRDhNVWVFYjhpeWZ3RGtqbi01dno5YVlKY1F2aEdoSG1wbk5wbHMzR1NpSkx3U2hUcktoR2dNTHQ3WWdDcllqU1NFQnByYnZOeVowcW10U05GZ0Jkbms",
-    "CBMickFVX3lxTE94bTlGb0U1NmF0WEVIODZlR2hyaHFGUWhSOVAyOGFKOUFVY25kd3I5eGpZUlgzZnJiUW5fblM0M1AzeXRLejRTajBDbmE1TE9zcUZWT1dIbEVDZ3RhSW50LVZHZ3RLWkh2cjBBcG9aNlpHZw",
-    "https://x.com/PodolskyDanny/status/2114815914420191348"
+    "CBMijgFBVV95cUxQS0ZlYUx1TFdrMWJLRFB6Zm1STzRlLTFYcVVEbDNPb2hLbldfdlRfR3gzV3dxdGF1UmNoMVF0VElHZWNFV2x2UDVlTXR2R21VVWRRRnBRSWxuS0kwU0laS09Xbi1xbXdkc004ck1uNTcwek4tbXFZRU9oNEhQLVhRRFpKVTJfdDV3a3FyOF9R"
   ],
   "daily": {
     "d": "2026-10-26",
-    "ai": 286,
+    "ai": 281,
     "staged": 3,
     "prio": 0,
     "lost": 0
