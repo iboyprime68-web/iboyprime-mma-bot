@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 27,
+  "cursor": 28,
   "staged_at": [
-    "2026-10-24T18:50:48.075524+00:00",
     "2026-10-25T13:45:38.872846+00:00",
     "2026-10-25T19:06:41.043009+00:00",
-    "2026-10-26T16:11:50.939602+00:00"
+    "2026-10-26T16:11:50.939602+00:00",
+    "2026-10-26T21:04:57.749247+00:00"
   ],
   "asked": [
-    "What actually wins UFC titles?",
     "Who is the most underrated fighter on the roster?",
     "What is the most painful UFC title loss to watch?",
     "Which UFC retirement hit you the hardest?",
@@ -47,33 +46,34 @@
     "Who is the most biased UFC commentator right now?",
     "You get one tag team partner in a two on two cage match. Who?",
     "Who should get the next heavyweight title shot?",
-    "Whose next loss ends the aura for good?"
+    "Whose next loss ends the aura for good?",
+    "Which fight do you rewatch the most?"
   ],
   "last_entry": {
-    "q": "Whose next loss ends the aura for good?",
+    "q": "Which fight do you rewatch the most?",
     "type": "poll",
     "options": [
       {
-        "label": "Khamzat Chimaev",
-        "emoji": "🐺",
+        "label": "Lawler MacDonald 2",
+        "emoji": "🩸",
         "art": ""
       },
       {
-        "label": "Ilia Topuria",
-        "emoji": "💎",
+        "label": "Gaethje Ferguson",
+        "emoji": "🌪️",
         "art": ""
       },
       {
-        "label": "Tom Aspinall",
-        "emoji": "🛡️",
+        "label": "Volk Islam 1",
+        "emoji": "♟️",
         "art": ""
       },
       {
-        "label": "Shavkat Rakhmonov",
-        "emoji": "🐴",
+        "label": "Jones Gustafsson 1",
+        "emoji": "⚔️",
         "art": ""
       }
     ],
-    "gag": "a potato wearing a luxury fight robe making a dramatic walkout through smoke and spotlights"
+    "gag": "a raccoon stealing a championship belt from a trophy cabinet at night"
   }
 }
