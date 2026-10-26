@@ -1,5 +1,7 @@
 {
   "seen": {
+    "dce35f5aeb29ff0a": 1793048963.901773,
+    "86ae520d65d019e4": 1793048963.8520827,
     "2a2d59e949be73aa": 1793048834.611733,
     "0febe74b2a660a26": 1793048834.5616612,
     "cdfb8c9f74c14632": 1793048703.0703955,
@@ -2497,19 +2499,11 @@
     "c0c0d627ded0ebbe": 1792867036.3218536,
     "7c0993acfbd7cfe1": 1792867036.300779,
     "3531b6d6cfa75c86": 1792866971.5683637,
-    "efe0c460d1aa335e": 1792866971.5494506,
-    "9191ca9168c09d04": 1792866971.5334997,
-    "41f9747ff2c1decc": 1792866971.5161164
+    "efe0c460d1aa335e": 1792866971.5494506
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Carlos Prates' Fiery Message for Islam Makhachev",
-      "source": "MMANews.com",
-      "ts": "2026-10-25T13:04:02+00:00",
-      "cluster": "cea2753a064"
-    },
     {
       "t": "UFC Fight Night Returns to Dallas January 16, 2027",
       "source": "Hoodline",
@@ -4903,6 +4897,12 @@
       "source": "MMA Sucka",
       "ts": "2026-10-26T21:05:02+00:00",
       "cluster": "cec5c685cec"
+    },
+    {
+      "t": "Javier Mendez Gives Alexander Volkanovski A Chance Against Justin Gaethje",
+      "source": "MMA Sucka",
+      "ts": "2026-10-26T21:07:06+00:00",
+      "cluster": "c429c1a53b6"
     }
   ],
   "digest_items": [],
