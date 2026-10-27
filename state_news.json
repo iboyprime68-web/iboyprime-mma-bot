@@ -1,5 +1,7 @@
 {
   "seen": {
+    "aff00acbf66f0c24": 1793138435.1798966,
+    "ee797493e46dd68a": 1793138435.1445343,
     "c2df0c3fe7bf13c7": 1793137842.4434607,
     "5892c8a1a5c17e86": 1793137842.4427714,
     "f08e0b19fddfdc07": 1793137842.4420872,
@@ -2497,19 +2499,11 @@
     "4a535cb5517a14ae": 1792876242.3821223,
     "aa66ebf0072a0e30": 1792876242.3619242,
     "8362a0dd6297a18f": 1792876177.6468291,
-    "f9266c7dc93bf25a": 1792876177.6289034,
-    "0c89a7c16770d08a": 1792876133.3309073,
-    "1ff94907da6ab5ea": 1792876110.1815517
+    "f9266c7dc93bf25a": 1792876177.6289034
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "LIVESTREAMSFREE#]* Nacional Potosí vs Guabirá Live Free UFC 5549912",
-      "source": "小豆島町",
-      "ts": "2026-10-26T12:17:37+00:00",
-      "cluster": "c95f1ecb81b"
-    },
     {
       "t": "LIVESTREAMSFREE#]* Paris Saint-Germain vs Lyon Live Free UFC 8273321",
       "source": "小豆島町",
@@ -4903,12 +4897,18 @@
       "source": "BJPenn.com",
       "ts": "2026-10-27T21:30:44+00:00",
       "cluster": "c6301dc1aa2"
+    },
+    {
+      "t": "UFC Announces Dallas Fight Night To Open 2027",
+      "source": "Yardbarker",
+      "ts": "2026-10-27T21:11:58+00:00",
+      "cluster": "c7d762ff06a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-27T21",
+    "2026-10-27T22",
     0
   ],
   "yt_eval": [
