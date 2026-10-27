@@ -1,5 +1,10 @@
 {
   "seen": {
+    "e0df9c41e2726cbf": 1793062833.9406343,
+    "0a0e1f0d2a09ba51": 1793062833.8744972,
+    "8a96cb40d552bb7f": 1793062833.8726404,
+    "ecb2dd6fcd4552af": 1793062833.8706605,
+    "8b76c9909c0ee11c": 1793062833.8698602,
     "f457dbf69268f7b7": 1793062414.4884653,
     "8cff5b0c5b2313a3": 1793062414.4876094,
     "bea40047fdccb014": 1793062033.4780076,
@@ -2494,22 +2499,11 @@
     "859ec3abc2a3fc48": 1792868213.3869228,
     "ffa3c37a3b756bc2": 1792868213.3712687,
     "03c48989afcb5efc": 1792868213.355534,
-    "88a5e71dfa8bba54": 1792868213.3403747,
-    "c50fd43bff6ac616": 1792868213.3241935,
-    "e25e41f4b22b2835": 1792868213.3055108,
-    "05e1e745f454174f": 1792868213.3041859,
-    "d428405fe0f1da11": 1792868213.2888992,
-    "700aef8b14a92844": 1792868213.2714694
+    "88a5e71dfa8bba54": 1792868213.3403747
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Dana White provides coy response to Alexander Volkov’s title question after UFC 333",
-      "source": "Bloody Elbow",
-      "ts": "2026-10-25T15:59:00+00:00",
-      "cluster": "c18eb3917d0"
-    },
     {
       "t": "Lone’er Kavanagh Reacts to KO Win at UFC 333",
       "source": "heavy.com",
@@ -4903,12 +4897,18 @@
       "source": "UFC.com",
       "ts": "2026-10-27T00:02:24+00:00",
       "cluster": "cdb7f3f628f"
+    },
+    {
+      "t": "Sean O’Malley’s coach says Daniel Cormier has ‘something against Suga’ as he talks UFC 333 mic snub",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-27T01:00:00+00:00",
+      "cluster": "ce6671a8645"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-27T00",
+    "2026-10-27T01",
     0
   ],
   "yt_eval": [
