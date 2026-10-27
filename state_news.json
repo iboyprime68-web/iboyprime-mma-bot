@@ -1,5 +1,7 @@
 {
   "seen": {
+    "6b12ee05c201c943": 1793135131.139514,
+    "4b830ec0d0c01ef2": 1793135131.1010795,
     "806a565783bf4769": 1793135001.670985,
     "0ba1dfb4ed23516e": 1793135001.6357012,
     "9b498b8425b70fa5": 1793134934.4209654,
@@ -2497,19 +2499,11 @@
     "7ed8b935d004e8f6": 1792875978.0801303,
     "e3a6c2c0e2eefc60": 1792875978.0651364,
     "9757b6c509dbb1fa": 1792875978.048186,
-    "acbf8558fab11228": 1792875913.1803036,
-    "37ee5b0b04d7c7af": 1792875870.1154606,
-    "0fbf3cd3b09be16c": 1792875847.175856
+    "acbf8558fab11228": 1792875913.1803036
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "LIVESTREAMSFREE#]* Instituto (Córdoba) vs Deportivo Riestra Live Free UFC 8235264",
-      "source": "小豆島町",
-      "ts": "2026-10-26T12:17:34+00:00",
-      "cluster": "c238c123c4a"
-    },
     {
       "t": "LIVESTREAMSFREE#]* Jaguares de Córdoba vs Llaneros FC Live Free UFC 4258936",
       "source": "小豆島町",
@@ -4903,6 +4897,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-27T21:00:00+00:00",
       "cluster": "cffe9373607"
+    },
+    {
+      "t": "UFC invades ‘The Big D’ for first event of 2027",
+      "source": "MMA Mania",
+      "ts": "2026-10-27T21:00:00+00:00",
+      "cluster": "c876e82e319"
     }
   ],
   "digest_items": [],
