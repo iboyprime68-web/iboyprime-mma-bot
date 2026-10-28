@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 30,
   "staged_at": [
-    "2026-10-26T21:04:57.749247+00:00",
     "2026-10-27T15:25:29.176045+00:00",
     "2026-10-27T20:47:03.577879+00:00",
-    "2026-10-28T16:09:03.159335+00:00"
+    "2026-10-28T16:09:03.159335+00:00",
+    "2026-10-28T21:10:22.795645+00:00"
   ],
   "asked": [
-    "Who is the most dangerous unranked UFC fighter right now?",
     "What is the most ridiculous thing Herb Dean has ever done inside the octagon?",
     "Who is the best referee in UFC history?",
     "Who is the biggest quitter in UFC history?",
@@ -47,33 +46,34 @@
     "Which fight do you rewatch the most?",
     "Who is the greatest women's fighter of all time?",
     "Who is the most annoying callout artist in the UFC right now?",
-    "Who retires undefeated like Khabib did?"
+    "Who retires undefeated like Khabib did?",
+    "Who is the most overrated striker in the UFC right now?"
   ],
   "last_entry": {
-    "q": "Who retires undefeated like Khabib did?",
+    "q": "Who is the most overrated striker in the UFC right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Shavkat Rakhmonov",
-        "emoji": "🐴",
-        "art": ""
-      },
-      {
-        "label": "Ilia Topuria",
-        "emoji": "💎",
-        "art": ""
-      },
-      {
-        "label": "Khamzat Chimaev",
-        "emoji": "🐺",
+        "label": "Ciryl Gane",
+        "emoji": "🥐",
         "art": ""
       },
       {
         "label": "Movsar Evloev",
-        "emoji": "📘",
+        "emoji": "🛡️",
+        "art": ""
+      },
+      {
+        "label": "Manel Kape",
+        "emoji": "💨",
+        "art": ""
+      },
+      {
+        "label": "Other (comment below)",
+        "emoji": "🤡",
         "art": ""
       }
     ],
-    "gag": "a tortoise with a tiny cornerman towel over its shell, sitting on a stool between rounds"
+    "gag": "A padded punching bag wearing a shiny championship belt, spotlighted in an empty gym"
   }
 }
