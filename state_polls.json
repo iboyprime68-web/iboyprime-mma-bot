@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 29,
+  "cursor": 30,
   "staged_at": [
-    "2026-10-26T16:11:50.939602+00:00",
     "2026-10-26T21:04:57.749247+00:00",
     "2026-10-27T15:25:29.176045+00:00",
-    "2026-10-27T20:47:03.577879+00:00"
+    "2026-10-27T20:47:03.577879+00:00",
+    "2026-10-28T16:09:03.159335+00:00"
   ],
   "asked": [
-    "Which UFC retirement hit you the hardest?",
     "Who is the most dangerous unranked UFC fighter right now?",
     "What is the most ridiculous thing Herb Dean has ever done inside the octagon?",
     "Who is the best referee in UFC history?",
@@ -47,33 +46,34 @@
     "Whose next loss ends the aura for good?",
     "Which fight do you rewatch the most?",
     "Who is the greatest women's fighter of all time?",
-    "Who is the most annoying callout artist in the UFC right now?"
+    "Who is the most annoying callout artist in the UFC right now?",
+    "Who retires undefeated like Khabib did?"
   ],
   "last_entry": {
-    "q": "Who is the most annoying callout artist in the UFC right now?",
+    "q": "Who retires undefeated like Khabib did?",
     "type": "poll",
     "options": [
+      {
+        "label": "Shavkat Rakhmonov",
+        "emoji": "🐴",
+        "art": ""
+      },
+      {
+        "label": "Ilia Topuria",
+        "emoji": "💎",
+        "art": ""
+      },
       {
         "label": "Khamzat Chimaev",
         "emoji": "🐺",
         "art": ""
       },
       {
-        "label": "Arman Tsarukyan",
-        "emoji": "😤",
-        "art": ""
-      },
-      {
-        "label": "Sean Strickland",
-        "emoji": "🗣️",
-        "art": ""
-      },
-      {
-        "label": "Other (comment below)",
-        "emoji": "🤡",
+        "label": "Movsar Evloev",
+        "emoji": "📘",
         "art": ""
       }
     ],
-    "gag": "A tiny microphone wearing boxing gloves, yelling into a megaphone made of a rusty tin can, spotlight"
+    "gag": "a tortoise with a tiny cornerman towel over its shell, sitting on a stool between rounds"
   }
 }
