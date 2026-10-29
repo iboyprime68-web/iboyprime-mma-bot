@@ -1,5 +1,7 @@
 {
   "seen": {
+    "061f2c21b4fb8314": 1793298033.581193,
+    "3453c7c8453d7811": 1793298033.5379,
     "b7445c42b24ad4ea": 1793297962.9955895,
     "e4019417e7c80c14": 1793297893.4717748,
     "cf1206a26d37ce4e": 1793297574.416426,
@@ -2497,19 +2499,11 @@
     "f6eb41ba3796ea5e": 1792983664.5642827,
     "0149c65a1e08f034": 1792983638.7129817,
     "9a4e136e709b7f07": 1792983638.6594603,
-    "b0888ad3bec904b2": 1792983638.6573372,
-    "4bb3c044ef1e7533": 1792983638.6553764,
-    "061eac2a27e7fd4a": 1792983638.6536098
+    "b0888ad3bec904b2": 1792983638.6573372
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "MMA Junkie rankings, Oct. 27: Men's pound-for-pound rankings shakeup",
-      "source": "MMA Junkie",
-      "ts": "2026-10-28T02:03:31+00:00",
-      "cluster": "cfa5ee43286"
-    },
     {
       "t": "UFC Vegas 123 preview: Moicano vs. Nolan & key matchups",
       "source": "Sherdog",
@@ -4903,6 +4897,12 @@
       "source": "MMA Sucka",
       "ts": "2026-10-29T18:17:05+00:00",
       "cluster": "c740ba1c571"
+    },
+    {
+      "t": "UFC abruptly cancels Nov. 7 main event",
+      "source": "MMA Mania",
+      "ts": "2026-10-29T18:16:41+00:00",
+      "cluster": "cc587fc1256"
     }
   ],
   "digest_items": [],
