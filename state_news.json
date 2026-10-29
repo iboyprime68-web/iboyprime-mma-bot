@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6e8e01eb4b83c0a6": 1793253621.939958,
     "fd17cce0d47493e6": 1793253291.0609334,
     "0a16b6ce1392565f": 1793252733.2029517,
     "a8a4eabadd16a517": 1793252546.3575487,
@@ -2498,18 +2499,11 @@
     "a5ebe49a7cb6ca41": 1792941800.6753323,
     "482570bab50d67fc": 1792941722.1796246,
     "1da1b0f3c6e3d8ca": 1792941655.8145337,
-    "60e68df350ffb9e2": 1792941155.0691445,
-    "f2113b76d001f8a5": 1792940781.6998997
+    "60e68df350ffb9e2": 1792941155.0691445
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "2026 UFC event schedule: Ciryl Gane vs. Josh Hokit, Charles Oliveira vs. Diego Lopes on tap",
-      "source": "CBS Sports",
-      "ts": "2026-10-27T14:19:00+00:00",
-      "cluster": "c70c1a8b9f7"
-    },
     {
       "t": "Sean O'Malley's Coach Thinks Daniel Cormier Has an Issue With 'Suga'",
       "source": "MMANews.com",
@@ -4903,12 +4897,18 @@
       "source": "MMA Sucka",
       "ts": "2026-10-29T05:33:11+00:00",
       "cluster": "c29be73e4f2"
+    },
+    {
+      "t": "30-fight UFC veteran added to Charles Oliveira and Alex Pereira’s UFC 335 undercard",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-29T06:00:00+00:00",
+      "cluster": "ce5d9a96639"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-29T05",
+    "2026-10-29T06",
     0
   ],
   "yt_eval": [
