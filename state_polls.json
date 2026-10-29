@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 30,
   "staged_at": [
-    "2026-10-27T20:47:03.577879+00:00",
     "2026-10-28T16:09:03.159335+00:00",
     "2026-10-28T21:10:22.795645+00:00",
-    "2026-10-29T16:14:33.958629+00:00"
+    "2026-10-29T16:14:33.958629+00:00",
+    "2026-10-29T21:13:34.716176+00:00"
   ],
   "asked": [
-    "Who is the best referee in UFC history?",
     "Who is the biggest quitter in UFC history?",
     "What is the most bizarre UFC moment of the last two days?",
     "Who is the most overpaid fighter in the UFC right now?",
@@ -47,33 +46,13 @@
     "Who is the most annoying callout artist in the UFC right now?",
     "Who retires undefeated like Khabib did?",
     "Who is the most overrated striker in the UFC right now?",
-    "Whose word means the least in the UFC right now?"
+    "Whose word means the least in the UFC right now?",
+    "Kamaru Usman says he was good enough to beat Georges St-Pierre. I think prime Usman is a real problem for anyone at welterweight, but GSP is still the greatest 170er ever and it is not close. The gap is in the resume, not the eye test. Who do you actually have winning that fight in their primes? Comment below."
   ],
   "last_entry": {
-    "q": "Whose word means the least in the UFC right now?",
-    "type": "poll",
-    "options": [
-      {
-        "label": "Dana White",
-        "emoji": "🤝",
-        "art": ""
-      },
-      {
-        "label": "Fedor Emelianenko",
-        "emoji": "🐐",
-        "art": ""
-      },
-      {
-        "label": "Alexander Volkov",
-        "emoji": "📢",
-        "art": ""
-      },
-      {
-        "label": "Other (comment below)",
-        "emoji": "🤐",
-        "art": ""
-      }
-    ],
-    "gag": "A microphone in a dusty vault, padlocked shut, cobwebs lit by one dramatic spotlight"
+    "q": "Kamaru Usman says he was good enough to beat Georges St-Pierre. I think prime Usman is a real problem for anyone at welterweight, but GSP is still the greatest 170er ever and it is not close. The gap is in the resume, not the eye test. Who do you actually have winning that fight in their primes? Comment below.",
+    "type": "post",
+    "options": [],
+    "gag": ""
   }
 }
