@@ -1,5 +1,8 @@
 {
   "seen": {
+    "fe123b58144de264": 1793297212.5430965,
+    "1650467fa59a1ef2": 1793297212.5053391,
+    "322c7124b8acecf2": 1793297212.5035386,
     "a25ce2faf7023f75": 1793297143.4404187,
     "8b681ebc71dc1822": 1793297143.4023292,
     "0922cd2f1c5e2d24": 1793297074.021784,
@@ -2496,20 +2499,11 @@
     "8e604f107da2ea1d": 1792982801.7324808,
     "68a8d885f4d25eb9": 1792982549.5947442,
     "c43e659d2c345fa6": 1792982358.5552967,
-    "3f750f75f77ad8ac": 1792982292.0021422,
-    "924ca4d3e5a50556": 1792982225.7380123,
-    "12b4dfdd7e740221": 1792981912.9087503,
-    "4dc46e0a8f770790": 1792981912.907862
+    "3f750f75f77ad8ac": 1792982292.0021422
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Daniel Cormier explains to Sean O'Malley why his name wasn't mentioned at UFC 333",
-      "source": "MMA Junkie",
-      "ts": "2026-10-28T01:03:03+00:00",
-      "cluster": "ce8f79fafa2"
-    },
     {
       "t": "Arman Tsarukyan Reveals UFC’s November Deadline for Justin Gaethje, Eyes Alexander Volkanovski Fight",
       "source": "NY Fights",
@@ -4903,6 +4897,12 @@
       "source": "MMA Sucka",
       "ts": "2026-10-29T17:58:14+00:00",
       "cluster": "c63c079fa17"
+    },
+    {
+      "t": "UFC Fight Night Loses Main Event to Injury Less Than Two Weeks Before Las Vegas Card",
+      "source": "Sports Illustrated",
+      "ts": "2026-10-29T18:00:03+00:00",
+      "cluster": "cf8619ed346"
     }
   ],
   "digest_items": [],
