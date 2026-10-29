@@ -1,5 +1,10 @@
 {
   "seen": {
+    "20d8f564e26a9277": 1793289636.096071,
+    "a3e1db01996a96fc": 1793289636.0664895,
+    "f51e6aedff276ecb": 1793289636.061134,
+    "c8c057cf36c4ef48": 1793289636.0610049,
+    "efd1301507cae14d": 1793289636.059649,
     "1f0da634cb374a7e": 1793289297.1401145,
     "e398b1e7259592d0": 1793289163.4873633,
     "255102973a2237ef": 1793289163.4749882,
@@ -2494,22 +2499,11 @@
     "6c18a312af47181a": 1792969338.938759,
     "406595d5b9de3f03": 1792969261.578647,
     "9b05045a8bc9564b": 1792969235.1526847,
-    "ec452e231ed4397c": 1792969235.1132574,
-    "1d0597f6af5ec37a": 1792969235.1124904,
-    "d70828a8dab541b1": 1792969235.1118667,
-    "1b41accdc0ebb24b": 1792968590.9892833,
-    "0997dd95c91b11ed": 1792968462.4733143,
-    "15cd75abeedf0641": 1792968271.6456263
+    "ec452e231ed4397c": 1792969235.1132574
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Sean O’Malley details post-UFC 333 Daniel Cormier exchange having felt like legend wanted him to lose",
-      "source": "Bloody Elbow",
-      "ts": "2026-10-27T19:59:12.713506+00:00",
-      "cluster": "cdabb93fafa"
-    },
     {
       "t": "TUF 34 winner Tina Black hopes for top-ranked opponent in debut: ‘I want to make history in the UFC’",
       "source": "MMA Fighting",
@@ -4903,12 +4897,18 @@
       "source": "UFC.com",
       "ts": "2026-10-29T15:42:49+00:00",
       "cluster": "cde933bbd43"
+    },
+    {
+      "t": "Alexander Volkanovski Battled Two Nasty Staph Infections Before UFC 314 Fight Against Diego Lopes",
+      "source": "NY Fights",
+      "ts": "2026-10-29T15:56:52+00:00",
+      "cluster": "ca2933a015a"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-29T15",
+    "2026-10-29T16",
     0
   ],
   "yt_eval": [
