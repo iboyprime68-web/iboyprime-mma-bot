@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 30,
   "staged_at": [
-    "2026-10-28T16:09:03.159335+00:00",
     "2026-10-28T21:10:22.795645+00:00",
     "2026-10-29T16:14:33.958629+00:00",
-    "2026-10-29T21:13:34.716176+00:00"
+    "2026-10-29T21:13:34.716176+00:00",
+    "2026-10-30T16:01:06.600953+00:00"
   ],
   "asked": [
-    "Who is the biggest quitter in UFC history?",
     "What is the most bizarre UFC moment of the last two days?",
     "Who is the most overpaid fighter in the UFC right now?",
     "What is the most embarrassing thing Jon Jones has ever done?",
@@ -47,12 +46,34 @@
     "Who retires undefeated like Khabib did?",
     "Who is the most overrated striker in the UFC right now?",
     "Whose word means the least in the UFC right now?",
-    "Kamaru Usman says he was good enough to beat Georges St-Pierre. I think prime Usman is a real problem for anyone at welterweight, but GSP is still the greatest 170er ever and it is not close. The gap is in the resume, not the eye test. Who do you actually have winning that fight in their primes? Comment below."
+    "Kamaru Usman says he was good enough to beat Georges St-Pierre. I think prime Usman is a real problem for anyone at welterweight, but GSP is still the greatest 170er ever and it is not close. The gap is in the resume, not the eye test. Who do you actually have winning that fight in their primes? Comment below.",
+    "Who is the greatest bantamweight in UFC history?"
   ],
   "last_entry": {
-    "q": "Kamaru Usman says he was good enough to beat Georges St-Pierre. I think prime Usman is a real problem for anyone at welterweight, but GSP is still the greatest 170er ever and it is not close. The gap is in the resume, not the eye test. Who do you actually have winning that fight in their primes? Comment below.",
-    "type": "post",
-    "options": [],
-    "gag": ""
+    "q": "Who is the greatest bantamweight in UFC history?",
+    "type": "poll",
+    "options": [
+      {
+        "label": "Petr Yan",
+        "emoji": "🇷🇺",
+        "art": ""
+      },
+      {
+        "label": "Dominick Cruz",
+        "emoji": "🦵",
+        "art": ""
+      },
+      {
+        "label": "Merab Dvalishvili",
+        "emoji": "🪣",
+        "art": ""
+      },
+      {
+        "label": "Other (comment below)",
+        "emoji": "🤔",
+        "art": ""
+      }
+    ],
+    "gag": "A confused scorecard with three judges' pencils all pointing in different directions, spotlighted on a dark desk"
   }
 }
