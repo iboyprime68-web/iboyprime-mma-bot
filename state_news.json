@@ -1,5 +1,10 @@
 {
   "seen": {
+    "0d00a08d2e08255b": 1793348429.8805933,
+    "a39b8521284a4c48": 1793348429.8433442,
+    "3962720fa5681b40": 1793348429.8424366,
+    "2c4efba65a41cbf7": 1793348429.8408146,
+    "8fe9015887043a1a": 1793348429.8391712,
     "e27c21c7f745a1f4": 1793345958.9229465,
     "6f92cdefcc3a9ca2": 1793345893.6844194,
     "f1e7df9e6799c37f": 1793345823.5576205,
@@ -2494,22 +2499,11 @@
     "0c9a0e45265d5b5f": 1793031300.8823755,
     "b0364ca2e29c2c6e": 1793031236.3347137,
     "c831e85b53f3bd26": 1793031107.5198638,
-    "f3f278701547437e": 1793031107.5177443,
-    "134da0ed7d69acd8": 1793031107.5174062,
-    "eec498e1bb840cc9": 1793031042.8162944,
-    "69e28f41b282ad88": 1793030972.863827,
-    "026e2ca0c3af2e3e": 1793030972.8173974,
-    "f95aa298462d2ee3": 1793030928.196441
+    "f3f278701547437e": 1793031107.5177443
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC Legend Daniel Cormier Clarifies Sean O'Malley's UFC Title Fight Positioning",
-      "source": "Sports Illustrated",
-      "ts": "2026-10-28T19:05:54+00:00",
-      "cluster": "cb64e8cfd9c"
-    },
     {
       "t": "‘It’s gonna be bad’: Robert Whittaker reacts to UFC Sydney main event involving Quillan Salkilld",
       "source": "Bloody Elbow",
@@ -4903,12 +4897,18 @@
       "source": "MMA Sucka",
       "ts": "2026-10-30T07:38:40+00:00",
       "cluster": "cd3cc07cf69"
+    },
+    {
+      "t": "Moicano vs. Nolan Predictions | UFC Vegas 123, Oct. 31, 2026",
+      "source": "Community News",
+      "ts": "2026-10-30T07:39:51+00:00",
+      "cluster": "c2db33f2d8e"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-30T07",
+    "2026-10-30T08",
     0
   ],
   "yt_eval": [
