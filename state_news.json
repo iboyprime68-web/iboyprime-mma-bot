@@ -1,5 +1,6 @@
 {
   "seen": {
+    "55a024cd48c1a11c": 1793397926.5020332,
     "20ebf948d848ac30": 1793397798.3367739,
     "deb71cb31b7e04b6": 1793397798.2958279,
     "5437ed03a16f74b4": 1793397774.957378,
@@ -2498,18 +2499,11 @@
     "5229d880480a84f8": 1793086235.1502867,
     "de6d89e7a7d7f0a4": 1793086235.0997355,
     "515c3f838f0b6246": 1793086110.1979644,
-    "c43e9ead480508d5": 1793085984.9450614,
-    "5ccf2442151747de": 1793085921.34869
+    "c43e9ead480508d5": 1793085984.9450614
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC Fight Night: Moicano vs. Nolan - Fight Card and Coverage",
-      "source": "CBS Sports",
-      "ts": "2026-10-29T13:05:44+00:00",
-      "cluster": "c45f7db9c1a"
-    },
     {
       "t": "Jose Aldo Breaks Silence On Why He Cried After Conor McGregor’s 13-Second KO",
       "source": "NDTV Sports",
@@ -4903,6 +4897,12 @@
       "source": "MMA Sucka",
       "ts": "2026-10-30T21:59:41+00:00",
       "cluster": "ca470ff8a37"
+    },
+    {
+      "t": "This Date in MMA History: Glover Teixeira wins title at 42, UFC 267",
+      "source": "MMA Junkie",
+      "ts": "2026-10-30T22:03:29+00:00",
+      "cluster": "c525b011cae"
     }
   ],
   "digest_items": [],
