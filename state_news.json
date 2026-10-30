@@ -1,5 +1,7 @@
 {
   "seen": {
+    "50b7c16e3a83b5d7": 1793385123.4095845,
+    "f2e7a3402a872f08": 1793385123.369653,
     "e954ffef98ef1945": 1793385056.36961,
     "16869c91b3ac28dc": 1793384988.917189,
     "e0b9f406ceaebde8": 1793384988.874651,
@@ -2497,19 +2499,11 @@
     "b30bcd8d735e03c2": 1793063782.7116296,
     "22904257f5e2fd55": 1793063782.7099884,
     "ec05e27e99ead956": 1793063782.7053797,
-    "668971baa36ef178": 1793063533.125123,
-    "306542f2759e3cbb": 1793063533.1230628,
-    "c277bdf8a10ba5c6": 1793063533.078821
+    "668971baa36ef178": 1793063533.125123
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Alexander Volkanovski prêt à abandonner son titre à une condition",
-      "source": "La Sueur",
-      "ts": "2026-10-29T06:02:36+00:00",
-      "cluster": "c502031de7d"
-    },
     {
       "t": "UFC Belt-Return Terms Are Not New, Erik Magraken Clarifies",
       "source": "MiddleEasy",
@@ -4903,6 +4897,12 @@
       "source": "MMA Sucka",
       "ts": "2026-10-30T18:23:46+00:00",
       "cluster": "cfee0de6eda"
+    },
+    {
+      "t": "UFC BJJ 13 Packs Up a Submission Carnage Thursday Night",
+      "source": "MMA Sucka",
+      "ts": "2026-10-30T18:23:49+00:00",
+      "cluster": "c65cf575cb3"
     }
   ],
   "digest_items": [],
