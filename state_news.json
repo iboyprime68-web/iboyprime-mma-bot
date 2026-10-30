@@ -1,5 +1,8 @@
 {
   "seen": {
+    "a6e9a354910d62b0": 1793386879.2176545,
+    "608ffda5e138f030": 1793386879.174885,
+    "f321345d3fb81d00": 1793386879.1705036,
     "c9b639ea573c4efe": 1793386833.1036868,
     "1b165bbbfc1bfe34": 1793386807.873696,
     "1bf475f111695597": 1793386682.245318,
@@ -2496,20 +2499,11 @@
     "2ca381efae7ee7ce": 1793067941.5087552,
     "b77b621fbc7f1d64": 1793067941.4641688,
     "e3fe0a5fd7b904cc": 1793067941.4624138,
-    "d4d54767817f694a": 1793067941.4605227,
-    "012862f692bcd108": 1793067941.458415,
-    "f9be89cfc2bf87a0": 1793067708.2107115,
-    "edcdd40d96c3f971": 1793067685.5339735
+    "d4d54767817f694a": 1793067941.4605227
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Paddy Pimblett claims fighter ‘quit’ at UFC 333",
-      "source": "F4W/WON",
-      "ts": "2026-10-29T09:30:00+00:00",
-      "cluster": "c964b31d09c"
-    },
     {
       "t": "Moicano",
       "source": "UFC.com",
@@ -4903,6 +4897,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-10-30T19:00:00+00:00",
       "cluster": "c5d002785b8"
+    },
+    {
+      "t": "UFC Fight Night 292 weigh-in results: Prelim fighter misses mark by 2 pounds",
+      "source": "Central Oregon Daily",
+      "ts": "2026-10-30T18:34:03+00:00",
+      "cluster": "c48baf71e41"
     }
   ],
   "digest_items": [],
