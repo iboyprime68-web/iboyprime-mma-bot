@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a686967d55f717f4": 1793487615.9133148,
     "0154f8b62aa71937": 1793487548.231228,
     "3c11cddf2de7c25c": 1793487480.761326,
     "87d101af06d1477d": 1793487480.7523077,
@@ -2498,8 +2499,7 @@
     "dce420eb0290697f": 1793204596.274371,
     "b24ede0d69fe17ca": 1793204596.233199,
     "94a7a737098d2d59": 1793204525.80393,
-    "bcba3735bd5e5ec8": 1793204396.9312255,
-    "2578d1fe2b91bb14": 1793204265.0402422
+    "bcba3735bd5e5ec8": 1793204396.9312255
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "MMA Sucka",
       "ts": "2026-10-30T11:48:35+00:00",
       "cluster": "ccb357c2487"
-    },
-    {
-      "t": "Morning Report: Dominick Cruz, T.J. Dillashaw defend Ciryl Gane against ‘cheater’ accusations",
-      "source": "MMA Fighting",
-      "ts": "2026-10-29T22:59:52+00:00",
-      "cluster": "ccc23ccf4f6"
     },
     {
       "t": "UFC Vegas 123: Moicano vs. Nolan Weigh-In Results",
@@ -4903,12 +4897,18 @@
       "source": "MiddleEasy",
       "ts": "2026-10-31T22:18:45+00:00",
       "cluster": "c3e246e9206"
+    },
+    {
+      "t": "Piera Rodriguez Post-Fight Interview | UFC Fight Night: Moicano vs Nolan",
+      "source": "UFC.com",
+      "ts": "2026-10-31T22:26:00+00:00",
+      "cluster": "c0d0f68b072"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-31T22",
+    "2026-10-31T23",
     0
   ],
   "yt_eval": [
