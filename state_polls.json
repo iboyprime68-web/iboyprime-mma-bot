@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 30,
+  "cursor": 31,
   "staged_at": [
-    "2026-10-29T16:14:33.958629+00:00",
     "2026-10-29T21:13:34.716176+00:00",
     "2026-10-30T16:01:06.600953+00:00",
-    "2026-10-30T20:53:20.299133+00:00"
+    "2026-10-30T20:53:20.299133+00:00",
+    "2026-10-31T15:23:56.481392+00:00"
   ],
   "asked": [
-    "Who is the most overpaid fighter in the UFC right now?",
     "What is the most embarrassing thing Jon Jones has ever done?",
     "Who is the most overrated fighter in UFC history?",
     "What is the most brutal head kick knockout in UFC history?",
@@ -47,33 +46,34 @@
     "Whose word means the least in the UFC right now?",
     "Kamaru Usman says he was good enough to beat Georges St-Pierre. I think prime Usman is a real problem for anyone at welterweight, but GSP is still the greatest 170er ever and it is not close. The gap is in the resume, not the eye test. Who do you actually have winning that fight in their primes? Comment below.",
     "Who is the greatest bantamweight in UFC history?",
-    "What is the greatest what-if in UFC history?"
+    "What is the greatest what-if in UFC history?",
+    "What does the UFC need to bring back?"
   ],
   "last_entry": {
-    "q": "What is the greatest what-if in UFC history?",
+    "q": "What does the UFC need to bring back?",
     "type": "poll",
     "options": [
       {
-        "label": "Brock's colon",
-        "emoji": "🩺",
-        "art": "A heavyweight champion's belt lying on a hospital gurney under harsh fluorescent light, empty room"
+        "label": "Fight Island",
+        "emoji": "🏝️",
+        "art": ""
       },
       {
-        "label": "Khabib vs Tony",
-        "emoji": "🍗",
-        "art": "Two empty stools facing each other in a dark arena, one tipped over, spotlight between them"
+        "label": "TUF rivalries",
+        "emoji": "📺",
+        "art": ""
       },
       {
-        "label": "Makhachev's exit",
-        "emoji": "🚪",
-        "art": "A locker room door ajar with a title belt hanging on it, hallway lights dim"
+        "label": "Champ vs champ",
+        "emoji": "👑",
+        "art": ""
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "🔮",
-        "art": "A crystal ball on a folding chair showing a blurry octagon, dusty gym, dramatic side light"
+        "label": "Wild pressers",
+        "emoji": "🎤",
+        "art": ""
       }
     ],
-    "gag": "A fortune teller booth in an empty arena with a glowing crystal ball and a tiny octagon inside"
+    "gag": "an owl with glasses reading a huge rulebook at the judges table, deeply confused"
   }
 }
