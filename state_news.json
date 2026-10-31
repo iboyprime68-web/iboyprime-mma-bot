@@ -1,5 +1,8 @@
 {
   "seen": {
+    "01eb27a92a54644f": 1793490256.3124447,
+    "bbe905bf7242227f": 1793490256.3030126,
+    "72fd40062d0e3736": 1793490256.2745345,
     "a29c47e525d392af": 1793490188.5178196,
     "cdc4a9562fc5d0a2": 1793490120.3180904,
     "c01dd1052bc31abd": 1793489867.429124,
@@ -2496,20 +2499,11 @@
     "ad34eaf13b03e19a": 1793210542.0812242,
     "1ba87b0747ab262c": 1793210408.1022403,
     "aadf621e9a2fe460": 1793210408.0631826,
-    "111ae3110bb7d526": 1793210408.0623872,
-    "16029a46f7703a58": 1793210408.0620544,
-    "732d21883dd80b98": 1793210408.0603197,
-    "36a4ca40df2a84c3": 1793210340.8022754
+    "111ae3110bb7d526": 1793210408.0623872
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 335 Adds Another \"Fight of the Night\" Candidate to Oliveira vs. Lopes Undercard",
-      "source": "Sports Illustrated",
-      "ts": "2026-10-30T13:30:00+00:00",
-      "cluster": "cba58e7805d"
-    },
     {
       "t": "\"I won a belt at 38\" - Stipe Miocic makes major prediction about Alex Pereira potentially becoming three-division UFC champion",
       "source": "Sportskeeda",
@@ -4903,6 +4897,12 @@
       "source": "UFC.com",
       "ts": "2026-10-31T23:11:01+00:00",
       "cluster": "cc10f534d8b"
+    },
+    {
+      "t": "UFC Vegas 123 highlight video: Rodrigo Sezinando busts open Theodor Berggren’s lip",
+      "source": "Sherdog",
+      "ts": "2026-10-31T23:41:50+00:00",
+      "cluster": "ce64f954cdc"
     }
   ],
   "digest_items": [],
