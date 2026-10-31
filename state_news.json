@@ -1,5 +1,8 @@
 {
   "seen": {
+    "7484bfcfa3032707": 1793440840.8326879,
+    "25c13119764bfc28": 1793440840.7782924,
+    "576b3519947c0a8c": 1793440840.7774215,
     "e3dcc8aad5d73bb0": 1793440524.6766195,
     "fc1409e4e54a71d4": 1793439903.8207448,
     "153c730430c11f5f": 1793439775.794274,
@@ -2496,20 +2499,11 @@
     "44e5d45f5d0ea62b": 1793118522.1067188,
     "6f11ce7852044998": 1793118269.9523358,
     "005729db7f9110e3": 1793118080.2290716,
-    "4e40eb8d2f707659": 1793117764.526788,
-    "f0dc2b9eba66a450": 1793117637.7084749,
-    "ac05bc3b843cbc46": 1793117568.251877,
-    "7f2cdcdd53331832": 1793117568.2391303
+    "4e40eb8d2f707659": 1793117764.526788
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Tom Nolan says MMA helped him escape troubled hometown before UFC main event",
-      "source": "Sherdog",
-      "ts": "2026-10-29T18:02:19+00:00",
-      "cluster": "c00c6235741"
-    },
     {
       "t": "‘They Don’t Understand It’: Alexander Volkanovski Reveals Why Mainstream Recognition Still Stings",
       "source": "MMA Sucka",
@@ -4903,12 +4897,18 @@
       "source": "ARYnews.tv",
       "ts": "2026-10-31T09:49:50+00:00",
       "cluster": "cd16d06d0a3"
+    },
+    {
+      "t": "Ex-UFC star who won The Ultimate Fighter gets flattened in 57 seconds for his third straight loss",
+      "source": "Bloody Elbow",
+      "ts": "2026-10-31T10:00:00+00:00",
+      "cluster": "c82e7dac098"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-10-31T09",
+    "2026-10-31T10",
     0
   ],
   "yt_eval": [
