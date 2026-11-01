@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f5438e587a62f94e": 1793534437.7511787,
     "629574136f834c12": 1793531432.751773,
     "eb376e357677e88a": 1793531305.8535178,
     "6e9cc6f1d5f0ef77": 1793531116.6254172,
@@ -2498,18 +2499,11 @@
     "9e85b6cc77c6061b": 1793263057.109323,
     "ac463ca52c333cb4": 1793262989.7229037,
     "c56aa1191a28e4f2": 1793262989.6680892,
-    "f2dd3572aeebef1e": 1793257464.753585,
-    "9835861f9e46f7b2": 1793257397.8748693
+    "f2dd3572aeebef1e": 1793257464.753585
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Updates To UFC Fight Night: Bonfim vs Brady",
-      "source": "UFC.com",
-      "ts": "2026-10-30T21:04:24+00:00",
-      "cluster": "cfee4c24c02"
-    },
     {
       "t": "Colby Covington Shares Surprising Take on Islam Makhachev",
       "source": "Heavy.com",
@@ -4903,12 +4897,18 @@
       "source": "MMA Mania",
       "ts": "2026-11-01T11:00:00+00:00",
       "cluster": "cdd7ea3851f"
+    },
+    {
+      "t": "UFC Fight Night 292 Bonus Awards",
+      "source": "MMA Insight",
+      "ts": "2026-11-01T11:01:00+00:00",
+      "cluster": "c226c29cf64"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-11-01T11",
+    "2026-11-01T12",
     0
   ],
   "yt_eval": [
