@@ -1,5 +1,7 @@
 {
   "seen": {
+    "36fa98e3289c067c": 1793496804.4191277,
+    "dd3ae1f45764095c": 1793496804.3798215,
     "e0cad0a30f048ee9": 1793496674.344762,
     "decc93c3e00f8439": 1793496544.714023,
     "3a5b4ae5cc983cb6": 1793496544.6746047,
@@ -2497,19 +2499,11 @@
     "f42db55c8c571a6b": 1793221250.9952219,
     "af60159f00848f3f": 1793221250.9581208,
     "dfe298a5d4f76b7c": 1793221250.957397,
-    "a975442c1bca1ea8": 1793221250.9567604,
-    "8020ee35aff5fc8d": 1793221250.9560745,
-    "6a966982dc7a3d30": 1793220882.9025104
+    "a975442c1bca1ea8": 1793221250.9567604
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Luana Santos | Right Place, Right Time",
-      "source": "UFC.com",
-      "ts": "2026-10-30T16:01:08+00:00",
-      "cluster": "c1eea27f832"
-    },
     {
       "t": "MMA schedule and results 2027",
       "source": "Yahoo Sports",
@@ -4903,6 +4897,12 @@
       "source": "Fightful",
       "ts": "2026-11-01T01:26:53+00:00",
       "cluster": "cec7bccd745"
+    },
+    {
+      "t": "LIVE! Watch UFC Halloween Post-Fight Presser",
+      "source": "MMA Mania",
+      "ts": "2026-11-01T01:30:00+00:00",
+      "cluster": "cae8c41ea91"
     }
   ],
   "digest_items": [],
