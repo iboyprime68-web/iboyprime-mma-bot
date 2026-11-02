@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 32,
   "staged_at": [
-    "2026-10-31T15:23:56.481392+00:00",
     "2026-10-31T20:05:24.159750+00:00",
     "2026-11-01T16:07:23.217127+00:00",
-    "2026-11-01T20:36:09.740049+00:00"
+    "2026-11-01T20:36:09.740049+00:00",
+    "2026-11-02T19:35:39.986834+00:00"
   ],
   "asked": [
-    "What is the most shocking UFC retirement of the last five years?",
     "Who is the most overrated fighter in the UFC right now?",
     "Who is the most overprotected champion in UFC history?",
     "What is the most disrespectful thing a UFC fighter has ever said about another fighter?",
@@ -47,33 +46,34 @@
     "What does the UFC need to bring back?",
     "Who is the greatest double champion in UFC history?",
     "What is the worst referee mistake in UFC history?",
-    "Who is number one pound for pound right now?"
+    "Who is number one pound for pound right now?",
+    "Which early stoppage was the worst in UFC history?"
   ],
   "last_entry": {
-    "q": "Who is number one pound for pound right now?",
+    "q": "Which early stoppage was the worst in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Islam Makhachev",
-        "emoji": "🐍",
+        "label": "Moicano vs Nolan",
+        "emoji": "🛑",
+        "art": "Referee stepping between two tired fighters mid-swing, arena lights glaring down"
+      },
+      {
+        "label": "Askren vs Masvidal",
+        "emoji": "🦵",
         "art": ""
       },
       {
-        "label": "Ilia Topuria",
-        "emoji": "💣",
+        "label": "Weidman vs Mousasi",
+        "emoji": "🩹",
         "art": ""
       },
       {
-        "label": "Merab Dvalishvili",
-        "emoji": "🚜",
-        "art": ""
-      },
-      {
-        "label": "Khamzat Chimaev",
-        "emoji": "🐺",
+        "label": "Other (comment below)",
+        "emoji": "🔔",
         "art": ""
       }
     ],
-    "gag": "a goat in sunglasses and a gold chain at a press conference podium full of microphones"
+    "gag": "A referee blowing his whistle in a crowded elevator before anyone throws a punch"
   }
 }
