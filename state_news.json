@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8213d2515e9c31a5": 1793742445.417955,
     "0a9dbddfdaf11b9b": 1793742400.3518279,
     "5685a825dc74dae2": 1793742400.3280137,
     "a583960347f3097f": 1793742323.7420266,
@@ -2498,8 +2499,7 @@
     "8142f9c019f7c9d1": 1793392489.4146912,
     "19ad44213b997045": 1793392284.3291316,
     "9f93b0979d0c064f": 1793392208.326338,
-    "86a868f5fb9e20a7": 1793391860.2838173,
-    "300a5a7ecb50f539": 1793391539.3004994
+    "86a868f5fb9e20a7": 1793391860.2838173
   },
   "initialized": true,
   "v": 4,
@@ -4093,6 +4093,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-03T18:56:02+00:00",
       "cluster": "c800f87dace"
+    },
+    {
+      "t": "Who is Ilia Topuria fighting next? ‘El Matador’ announces he is ‘back’ in return to Georgia",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-03T19:00:00+00:00",
+      "cluster": "c9296bef848"
     }
   ],
   "digest_items": [],
