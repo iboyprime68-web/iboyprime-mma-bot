@@ -1,5 +1,6 @@
 {
   "seen": {
+    "27b197d48123529c": 1793667274.771915,
     "153435952c961bdb": 1793667248.3783748,
     "c779bef3e1fdd120": 1793667248.3444436,
     "eddd11b0b830ec46": 1793667248.3401175,
@@ -2498,8 +2499,7 @@
     "003380a4c773f6b7": 1793372836.5720942,
     "b286774490a1b0a8": 1793372836.5676308,
     "344e4ea2854997f7": 1793372709.7363403,
-    "4f3cc1b3e2289fe3": 1793372709.6991496,
-    "cd61b20a1a24d7f7": 1793372709.697348
+    "4f3cc1b3e2289fe3": 1793372709.6991496
   },
   "initialized": true,
   "v": 4,
@@ -4693,6 +4693,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-02T20:26:05+00:00",
       "cluster": "cd357a941cd"
+    },
+    {
+      "t": "Deal reached for Deontay Wilder to compete on Fury vs. Joshua undercard against current world champion",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-02T21:00:00+00:00",
+      "cluster": "ce0f2a529e4"
     }
   ],
   "digest_items": [],
