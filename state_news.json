@@ -4258,7 +4258,6 @@
     0
   ],
   "yt_eval": [
-    "CBMie0FVX3lxTE0tY01iOE9QaHN2UXI5cGtxeXNULW9rWU5HRWJBTUdNRlRoWUxwaFVjdlVvdktIOXcwam1mRV9rWFk2YU1WanZ3Y2hadjV4Uy0zMllhNFpMa0d2T3NkX0tmMGNBVmFCemlDOEIySWdtU3dHM1BZS21SRlc5OA",
     "CBMimgFBVV95cUxNTWRlUURTNXE4ZkxzbTBwbElTWmp0Vlc5cWgySWFNd2FYVndwWE5YaUs2ZTNWVmpsT29VQTJRdUNDbEdyX1N2OE1Ha0RQZXRnalFwa2ZSQWdudThnWlFkdnVLTVJVLVZOTVN2WjhZZjhicWdjaW41c3E4dmIzZGVYc3Qxc1RSclR1WXVfamg0VFlrX1dGMW80WVpB",
     "CBMizAFBVV95cUxOQ3FGMzJvdnJOZ19NYml3OTlFYXdNSjJfLU52NTRCeXI1dFVGTllMVzJDcVFTNjJnZTdyYVZleFZWQ1lNUDF4LWtTTC1KTy1oQ043eE1aU1F3X2FSWkZ5eDBZZG9QVzAyV0Z3dmJaQi04LTBxd0tENUlqMG1zZXlNbUROUDI4S2toX01za3RnUnpVMGdWRFZZN3ZlUTVLU2Q0X2J2ckpIV3Rvd05jN3VlbXlHOC1lTDhpa0U3MlRxcWpScXhiVXdLZlF3YVQ",
     "CBMiugFBVV95cUxPbExnUGdtTG9PdzBHaTdvYlhIeWFZSnFMYzhRR0tlVnR0WkRHdW5ETjF0dVZBaTJESEdpZk1wWDFaTzJtOGFVYVBhN2NNY1RuMTJRNnlEc0l3TWhhU21ZQy1vODRTZ1VCS1QyMWdMOEptZmtWcXJ4Szk5YTluRUhsc0Y5UThVaXdHblIyTk4wbUJYbVdyUU5CQzZWZEIxTWwwLTE5VmZVVk9sVzBGUDY5NXY0ZGlzeDVrcFE",
@@ -5757,26 +5756,17 @@
     "f1006636-e632-3f50-8fca-af5c83542a06",
     "https://www.mmafighting.com/?p=519180",
     "https://bloodyelbow.com/?p=340231",
-    "3b1df7fc-4d82-3046-b1f2-c9ef2f956608"
+    "3b1df7fc-4d82-3046-b1f2-c9ef2f956608",
+    "https://www.mmafighting.com/?p=519236"
   ],
   "daily": {
     "d": "2026-11-03",
-    "ai": 72,
+    "ai": 74,
     "staged": 2,
-    "prio": 1,
+    "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-26T07:19:39.672117+00:00",
-      "t": "Josh Hokit told he can beat Ciryl Gane by using ‘Cain Velasquez style’ at UFC 334",
-      "names": [
-        "hokit",
-        "gane",
-        "velasquez"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-26T12:50:19.162308+00:00",
       "t": "Dustin Poirier Backs Kayla Harrison to Overcome Amanda Nunes at UFC 334",
@@ -7093,6 +7083,15 @@
         "makhachev"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-03T16:03:44.345535+00:00",
+      "t": "Artem Lobov accuses Conor McGregor of sending people to burn his car, threaten 60-year-old mother with hammer",
+      "names": [
+        "lobov",
+        "conor"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7217,14 +7216,16 @@
     "850d998e1045d8c4": 1792929916.3764904,
     "4a3653e28a027505": 1793104818.966356,
     "b6f500e11f99991c": 1793188483.3733988,
-    "b8b5a6bb183f57a1": 1793389496.4054317
+    "b8b5a6bb183f57a1": 1793389496.4054317,
+    "f241bd224ada661b": 1793721847.7263806
   },
   "pinged_titles": [
     [
-      "Islam Makhachev on X My next fight is one of the last in my career",
-      1793389496.4054317,
+      "Artem Lobov accuses Conor McGregor of sending people to burn his car, threaten 60-year-old mother with hammer",
+      1793721847.7263806,
       [
-        "makhachev"
+        "conor",
+        "lobov"
       ]
     ]
   ]
