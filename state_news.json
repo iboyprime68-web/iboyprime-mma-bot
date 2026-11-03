@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e564d3fcd0526b53": 1793721655.682291,
     "46498ebf207f9d5a": 1793721625.4876008,
     "d079f4b95cff2d3a": 1793721596.2314498,
     "0a5b0807781a3b18": 1793721545.6260688,
@@ -2498,8 +2499,7 @@
     "39975b37d70b67b2": 1793382898.1762197,
     "e620ab5747f1d252": 1793382833.5137641,
     "4bb9bbd089798b04": 1793382705.395626,
-    "7b59fff7fd640dac": 1793382705.3908331,
-    "111679f4408bb248": 1793382576.6986635
+    "7b59fff7fd640dac": 1793382705.3908331
   },
   "initialized": true,
   "v": 4,
@@ -4207,6 +4207,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-03T13:00:00+00:00",
       "cluster": "cf3ad0bf4cf"
+    },
+    {
+      "t": "Conor McGregor’s ex-teammate continues scathing attack of star with new allegations",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-03T13:03:18+00:00",
+      "cluster": "cf1f5dcd877"
     }
   ],
   "digest_items": [],
