@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4fd91f1082c0cf44": 1793742638.9838989,
     "edbdba259158bad5": 1793742602.6039393,
     "d3f55ee881fb08ac": 1793742602.5836825,
     "03b7a8007d84a950": 1793742559.9802513,
@@ -2498,8 +2499,7 @@
     "019bbf064d9733b8": 1793392696.2083304,
     "16ae610142d76d29": 1793392627.8027995,
     "ef6e800e835f469e": 1793392627.77906,
-    "a4f8fa4fea0c0968": 1793392560.0530024,
-    "b63e4f281b70e098": 1793392489.4594975
+    "a4f8fa4fea0c0968": 1793392560.0530024
   },
   "initialized": true,
   "v": 4,
@@ -4117,6 +4117,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-03T20:42:26+00:00",
       "cluster": "cbac6644094"
+    },
+    {
+      "t": "Dustin Poirier backs UFC rule change that would replace referee intervention with fighter fines",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-03T21:00:00+00:00",
+      "cluster": "cead0c70a49"
     }
   ],
   "digest_items": [],
