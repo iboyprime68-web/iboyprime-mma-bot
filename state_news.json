@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c237c6acbddc6257": 1793722165.6696668,
     "67af0e20f99dd6ac": 1793722091.1936207,
     "afb4a7141be17423": 1793722091.1759162,
     "24bd8e87e67af9b9": 1793722091.175509,
@@ -2498,8 +2499,7 @@
     "f2e7a3402a872f08": 1793385123.369653,
     "e954ffef98ef1945": 1793385056.36961,
     "16869c91b3ac28dc": 1793384988.917189,
-    "e0b9f406ceaebde8": 1793384988.874651,
-    "931573a3ce5212be": 1793384988.8712826
+    "e0b9f406ceaebde8": 1793384988.874651
   },
   "initialized": true,
   "v": 4,
@@ -4267,6 +4267,12 @@
       "source": "boxingnews.com",
       "ts": "2026-11-03T15:30:42+00:00",
       "cluster": "cc7877ee4c2"
+    },
+    {
+      "t": "Piera Rodriguez says lessons from Carnelossi loss helped at UFC Vegas 123",
+      "source": "MMA Junkie",
+      "ts": "2026-11-03T15:31:00+00:00",
+      "cluster": "c16b0db851b"
     }
   ],
   "digest_items": [],
