@@ -1,5 +1,7 @@
 {
   "seen": {
+    "4bf5910f4b5dc686": 1793722635.1068783,
+    "f12c1ecc36635d75": 1793722635.0883837,
     "de544fa7f070a9a3": 1793722566.365737,
     "cec4233df47ea3b3": 1793722566.346877,
     "9f548221b751a38b": 1793722566.344747,
@@ -2497,9 +2499,7 @@
     "e7a1954a2083dc5d": 1793386490.2738128,
     "bb40a85895a39cf6": 1793386424.534803,
     "42ce05774d8c2fe7": 1793386171.7727704,
-    "55eb6660dbe21ccc": 1793386104.2361274,
-    "2eb3f5bcbb57de3e": 1793386036.9373999,
-    "fde8ef46ded5566e": 1793385970.5881827
+    "55eb6660dbe21ccc": 1793386104.2361274
   },
   "initialized": true,
   "v": 4,
@@ -4315,6 +4315,12 @@
       "source": "boxingnews.com",
       "ts": "2026-11-03T16:00:41+00:00",
       "cluster": "c6fb3a4f421"
+    },
+    {
+      "t": "UFC Has Little Reason to Protect Conor McGregor Anymore",
+      "source": "Sports Illustrated",
+      "ts": "2026-11-03T16:02:30+00:00",
+      "cluster": "cd8fc28beac"
     }
   ],
   "digest_items": [],
