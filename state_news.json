@@ -1,5 +1,6 @@
 {
   "seen": {
+    "de02aa4155455d5c": 1793744310.937315,
     "e526aa93c76ade3a": 1793744288.0484333,
     "069837791f5d1acd": 1793744096.2764664,
     "a63a95fb63f47537": 1793744096.2563655,
@@ -2498,8 +2499,7 @@
     "656fc02cd30f4471": 1793395586.2568493,
     "abae07486565a5bf": 1793395479.1039119,
     "1baff261c1893180": 1793395286.3400762,
-    "3de8cea48255426f": 1793395286.314263,
-    "1d9295214d1b37f3": 1793395158.9074545
+    "3de8cea48255426f": 1793395286.314263
   },
   "initialized": true,
   "v": 4,
@@ -4201,6 +4201,12 @@
       "source": "MMA Junkie",
       "ts": "2026-11-03T22:10:00+00:00",
       "cluster": "c98e3ba78f4"
+    },
+    {
+      "t": "Colby Covington submitted in 43 seconds by UFC bantamweight Raul Rosas Jr. in late notice upset",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-03T22:18:07+00:00",
+      "cluster": "c0b1c89cc85"
     }
   ],
   "digest_items": [],
