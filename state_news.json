@@ -1,5 +1,6 @@
 {
   "seen": {
+    "99ad6e7b68c5c736": 1793667758.4726748,
     "9207ca6610c7905f": 1793667698.433168,
     "c2c382e267f5c5c0": 1793667628.3735907,
     "a70b6a18d2ae03d4": 1793667560.2310643,
@@ -2498,8 +2499,7 @@
     "8f7abe553f6322ca": 1793373978.8242683,
     "aef8f3d34dadd4ef": 1793373853.0660026,
     "a97cece4923447f6": 1793373853.0277128,
-    "b10b7c1423792243": 1793373853.0273387,
-    "e10eea392468b605": 1793373852.989202
+    "b10b7c1423792243": 1793373853.0273387
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Sports Illustrated",
       "ts": "2026-11-01T01:04:06+00:00",
       "cluster": "c2b0c6b1e11"
-    },
-    {
-      "t": "UFC Fight Night 292: Joe Kropschot full post-fight interview",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-01T01:02:01+00:00",
-      "cluster": "cd01708f6c8"
     },
     {
       "t": "UFC Vegas 123: Luana Santos And Yana Santos Deliver Snoozefest At Meta Apex",
@@ -4729,6 +4723,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-02T17:16:00+00:00",
       "cluster": "cafe209f204"
+    },
+    {
+      "t": "John McCarthy: Dan Miragliotta got Renato Moicano call wrong at UFC Vegas 123 — 'It's not fair'",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-02T23:20:47+00:00",
+      "cluster": "cb18eba0a31"
     }
   ],
   "digest_items": [],
