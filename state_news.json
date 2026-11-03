@@ -1,5 +1,6 @@
 {
   "seen": {
+    "384e95c0814e7b9f": 1793723175.3867614,
     "f2bf58c69ff59dc5": 1793723105.7147927,
     "7d9b27f230704f78": 1793723039.3943799,
     "f353cb1c6a71c468": 1793723039.391631,
@@ -2498,8 +2499,7 @@
     "4da83c3d5766c2a6": 1793386945.4762478,
     "a6e9a354910d62b0": 1793386879.2176545,
     "608ffda5e138f030": 1793386879.174885,
-    "f321345d3fb81d00": 1793386879.1705036,
-    "c9b639ea573c4efe": 1793386833.1036868
+    "f321345d3fb81d00": 1793386879.1705036
   },
   "initialized": true,
   "v": 4,
@@ -4327,6 +4327,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-03T16:23:36+00:00",
       "cluster": "cdf3aea7d7e"
+    },
+    {
+      "t": "Zach Reese dealt with high fight week fever before UFC win over Mickey Gall",
+      "source": "MMA Junkie",
+      "ts": "2026-11-03T16:20:00+00:00",
+      "cluster": "cabd8cb054b"
     }
   ],
   "digest_items": [],
