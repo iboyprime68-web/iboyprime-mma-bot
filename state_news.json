@@ -1,5 +1,7 @@
 {
   "seen": {
+    "cbe2b9542fbd9596": 1793722968.6974802,
+    "6a6b236a188aa69d": 1793722968.6770196,
     "5dc6876be8cf034e": 1793722840.6495419,
     "ca08cad91a8f837f": 1793722775.5021374,
     "3f3cf7c5724a6197": 1793722705.3955674,
@@ -2497,9 +2499,7 @@
     "c9b639ea573c4efe": 1793386833.1036868,
     "1b165bbbfc1bfe34": 1793386807.873696,
     "1bf475f111695597": 1793386682.245318,
-    "97f53e110c004332": 1793386682.2365015,
-    "e25abef1fb551503": 1793386557.3520203,
-    "e7a1954a2083dc5d": 1793386490.2738128
+    "97f53e110c004332": 1793386682.2365015
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Pierce Manufacturing",
       "ts": "2026-11-01T16:47:47+00:00",
       "cluster": "c4b394a1c4e"
-    },
-    {
-      "t": "Jack Della Maddalena Interested in Fighting Mike Malott",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-01T16:22:10+00:00",
-      "cluster": "cedbbf8df70"
     },
     {
       "t": "Dana White celebrates Halloween by sharing gruesome pictures of cut fighter after UFC Vegas 123",
@@ -4321,6 +4315,12 @@
       "source": "MMANews.com",
       "ts": "2026-11-03T16:04:06+00:00",
       "cluster": "c856e47108e"
+    },
+    {
+      "t": "“He Chickened Out”: Carlos Prates Fires Warning at Islam Makhachev With Brutal Threat",
+      "source": "EssentiallySports",
+      "ts": "2026-11-03T16:15:00+00:00",
+      "cluster": "ccba14dcd71"
     }
   ],
   "digest_items": [],
