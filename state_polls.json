@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 32,
+  "cursor": 33,
   "staged_at": [
-    "2026-10-31T20:05:24.159750+00:00",
     "2026-11-01T16:07:23.217127+00:00",
     "2026-11-01T20:36:09.740049+00:00",
-    "2026-11-02T19:35:39.986834+00:00"
+    "2026-11-02T19:35:39.986834+00:00",
+    "2026-11-03T17:09:26.032734+00:00"
   ],
   "asked": [
-    "Who is the most overrated fighter in the UFC right now?",
     "Who is the most overprotected champion in UFC history?",
     "What is the most disrespectful thing a UFC fighter has ever said about another fighter?",
     "What is the most ridiculous fine a UFC fighter has ever received?",
@@ -47,33 +46,34 @@
     "Who is the greatest double champion in UFC history?",
     "What is the worst referee mistake in UFC history?",
     "Who is number one pound for pound right now?",
-    "Which early stoppage was the worst in UFC history?"
+    "Which early stoppage was the worst in UFC history?",
+    "Which broadcast team calls fights the best?"
   ],
   "last_entry": {
-    "q": "Which early stoppage was the worst in UFC history?",
+    "q": "Which broadcast team calls fights the best?",
     "type": "poll",
     "options": [
       {
-        "label": "Moicano vs Nolan",
-        "emoji": "🛑",
-        "art": "Referee stepping between two tired fighters mid-swing, arena lights glaring down"
-      },
-      {
-        "label": "Askren vs Masvidal",
-        "emoji": "🦵",
+        "label": "Rogan and DC",
+        "emoji": "🎙️",
         "art": ""
       },
       {
-        "label": "Weidman vs Mousasi",
-        "emoji": "🩹",
+        "label": "Anik and Felder",
+        "emoji": "🎧",
         "art": ""
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "🔔",
+        "label": "Anik and Cruz",
+        "emoji": "🧠",
+        "art": ""
+      },
+      {
+        "label": "Goldie and Rogan",
+        "emoji": "📼",
         "art": ""
       }
     ],
-    "gag": "A referee blowing his whistle in a crowded elevator before anyone throws a punch"
+    "gag": "a goat in sunglasses and a gold chain at a press conference podium full of microphones"
   }
 }
