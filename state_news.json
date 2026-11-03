@@ -1,5 +1,6 @@
 {
   "seen": {
+    "49d49870d5fcc33a": 1793667221.2051013,
     "9590a7a6d77dd814": 1793667194.9014792,
     "cc2b0dcfe7aa3a1f": 1793667169.0839264,
     "4c75986bf728dc82": 1793667169.0490224,
@@ -2498,8 +2499,7 @@
     "5abd6ca8c971ea46": 1793372645.7732465,
     "7a06f8e0b2eb1790": 1793372598.8737738,
     "bd01a9f220330a25": 1793372573.7249696,
-    "5e11f69bf935135a": 1793371592.826107,
-    "b797481814cf4062": 1793371592.8258429
+    "5e11f69bf935135a": 1793371592.826107
   },
   "initialized": true,
   "v": 4,
@@ -4681,6 +4681,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-02T20:00:00+00:00",
       "cluster": "c68dd268432"
+    },
+    {
+      "t": "‘Big’ John McCarthy on referee Dan Miragliotta’s controversial stand-up at UFC Vegas 123: ‘That’s not your job’",
+      "source": "MMA Fighting",
+      "ts": "2026-11-02T20:02:28+00:00",
+      "cluster": "c6c19ee36f9"
     }
   ],
   "digest_items": [],
