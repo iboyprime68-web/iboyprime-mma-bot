@@ -1,5 +1,6 @@
 {
   "seen": {
+    "596b3546a83665f4": 1793831641.687444,
     "303db32171520736": 1793831614.893929,
     "30530f066e5b5ad5": 1793831588.8281329,
     "01b5c6906c3a114e": 1793831564.048061,
@@ -2498,8 +2499,7 @@
     "95fd0d84dffd6cb4": 1793430989.048801,
     "709f3d96ab20af61": 1793430864.1535065,
     "097172e17e8142c4": 1793430798.4153323,
-    "8a4e49a8bcd60b23": 1793430611.567455,
-    "a42941e3819db7f0": 1793430548.374461
+    "8a4e49a8bcd60b23": 1793430611.567455
   },
   "initialized": true,
   "v": 4,
@@ -3703,6 +3703,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-04T18:26:13+00:00",
       "cluster": "c17af08a123"
+    },
+    {
+      "t": "Legendary ref John McCarthy claims Dana White grudge has kept him away from the UFC since 2017",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-04T22:00:00+00:00",
+      "cluster": "cdb9c2fde68"
     }
   ],
   "digest_items": [],
