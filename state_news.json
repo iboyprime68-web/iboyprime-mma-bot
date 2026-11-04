@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e4c32ccc2d4e58c1": 1793833954.1831362,
     "4ce311dacb60804b": 1793833885.8808792,
     "651a972f6b640707": 1793833885.8749259,
     "25a3128dd6beb5c4": 1793833885.860866,
@@ -2498,8 +2499,7 @@
     "d09830c092644119": 1793448110.5724843,
     "ed5111aff609c75d": 1793448110.5721245,
     "b9b691750620b894": 1793448110.5712647,
-    "7b7e4812f6098b38": 1793448110.571018,
-    "eba7497daf7995e2": 1793448110.5706468
+    "7b7e4812f6098b38": 1793448110.571018
   },
   "initialized": true,
   "v": 4,
@@ -3877,6 +3877,12 @@
       "source": "Benzinga",
       "ts": "2026-11-04T23:06:33+00:00",
       "cluster": "c04fc6584ae"
+    },
+    {
+      "t": "Mark Shapiro States That TKO Fully Anticipates That WWE & UFC Events In Middle East Will Proceed As Planned",
+      "source": "Fightful",
+      "ts": "2026-11-04T23:09:26+00:00",
+      "cluster": "c942708feaf"
     }
   ],
   "digest_items": [],
