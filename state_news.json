@@ -1,5 +1,7 @@
 {
   "seen": {
+    "76fe4898ca221c46": 1793832903.689519,
+    "5b3e768d47de5952": 1793832903.6733506,
     "e7e3754a6a72016b": 1793832837.2956595,
     "3658d31c9a98411f": 1793832771.3410025,
     "bf92acdda34c930b": 1793832771.3258142,
@@ -2497,9 +2499,7 @@
     "2374f1db47e0e96a": 1793441103.4148011,
     "f9847b0fe42c36bc": 1793441038.8310778,
     "161ceee905c19ecb": 1793441038.8291311,
-    "b2f862152963eec3": 1793440971.8644807,
-    "8ec181195ee9fefe": 1793440971.8259459,
-    "b98c7b1248d418f5": 1793440971.8238297
+    "b2f862152963eec3": 1793440971.8644807
   },
   "initialized": true,
   "v": 4,
@@ -3835,6 +3835,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-04T22:34:56+00:00",
       "cluster": "c83dd953316"
+    },
+    {
+      "t": "Billy Elekana: 'I'm Trying To Be The Charles Oliveira Of Light Heavyweight' | UFC Fight Night: Cortes Acosta vs Walker",
+      "source": "UFC.com",
+      "ts": "2026-11-04T22:36:30+00:00",
+      "cluster": "c9a5da969c0"
     }
   ],
   "digest_items": [],
