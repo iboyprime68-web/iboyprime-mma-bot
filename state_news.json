@@ -1,5 +1,7 @@
 {
   "seen": {
+    "de55f864497eac35": 1793833632.880681,
+    "1ca9f5686562b59a": 1793833632.874307,
     "56cfeccc50f1e88b": 1793833566.591446,
     "8073a1b10ad6bc9b": 1793833566.5740628,
     "1b8c11e416a1d3fa": 1793833543.6330507,
@@ -2497,9 +2499,7 @@
     "f448e0a4d3013576": 1793448064.07936,
     "40ca5c437c350f33": 1793448064.0404043,
     "627670e5694dcf3a": 1793448039.3204772,
-    "f46c8744346cdb7d": 1793448039.305874,
-    "9a0636029b4ad71c": 1793448039.3021996,
-    "910f4ea0dad56bdb": 1793444039.2742205
+    "f46c8744346cdb7d": 1793448039.305874
   },
   "initialized": true,
   "v": 4,
@@ -3865,6 +3865,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-04T23:00:15+00:00",
       "cluster": "c325e40359a"
+    },
+    {
+      "t": "TKO upgrades 2026 guidance after strong quarter from the UFC, WWE experiences live event decline",
+      "source": "POST Wrestling",
+      "ts": "2026-11-04T23:02:37+00:00",
+      "cluster": "cd58d805a28"
     }
   ],
   "digest_items": [],
