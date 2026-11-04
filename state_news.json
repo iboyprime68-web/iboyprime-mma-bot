@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d4eb2ea7e9cd8c8c": 1793831513.7477942,
     "fb9d8f3ffa42a406": 1793831488.6369534,
     "380dbaab51d1506d": 1793831463.4936647,
     "1f6cc048fcb7ce32": 1793831411.808578,
@@ -2498,8 +2499,7 @@
     "9d2f369117dd212f": 1793430483.0250418,
     "dc23c3266f1da404": 1793430047.6299229,
     "0e3f5d72f1d8c046": 1793429735.180958,
-    "b89f25a9cfb6a108": 1793429207.8301752,
-    "6e206bebbba0a615": 1793428634.800486
+    "b89f25a9cfb6a108": 1793429207.8301752
   },
   "initialized": true,
   "v": 4,
@@ -3673,6 +3673,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-04T20:03:20+00:00",
       "cluster": "cd4cd1392ed"
+    },
+    {
+      "t": "26-fight UFC veteran reveals precarious contract situation as UFC future hangs in the balance",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-04T21:00:00+00:00",
+      "cluster": "c6638b9e1ac"
     }
   ],
   "digest_items": [],
