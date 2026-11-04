@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cbe7154e599e00aa": 1793812970.1576524,
     "60993b49e1075c3b": 1793812902.8513937,
     "c9e70434bcce069e": 1793812696.115077,
     "a32b02a601a5c017": 1793812672.349117,
@@ -2498,8 +2499,7 @@
     "b001bf644a9773a0": 1793423024.3483245,
     "9b3e0b64f0fca73d": 1793422898.2815585,
     "12c38f045ebf8068": 1793422835.028758,
-    "59c74d16c13138f0": 1793422835.0282924,
-    "44837721d488a0bc": 1793422835.0261407
+    "59c74d16c13138f0": 1793422835.0282924
   },
   "initialized": true,
   "v": 4,
@@ -3883,6 +3883,12 @@
       "source": "MMA Junkie",
       "ts": "2026-11-04T17:10:00+00:00",
       "cluster": "cdf3c5ddd0b"
+    },
+    {
+      "t": "The UFC has signed Fury FC featherweight champion Carlos Calderon. He will take on Austin Bashi this weekend in Las Vegas.",
+      "source": "@BigMarcel24",
+      "ts": "2026-11-04T02:42:38.148000+00:00",
+      "cluster": "c48c5b2ea82"
     }
   ],
   "digest_items": [],
