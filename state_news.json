@@ -1,5 +1,6 @@
 {
   "seen": {
+    "01b5c6906c3a114e": 1793831564.048061,
     "500fe81939a00a56": 1793831539.3979073,
     "d4eb2ea7e9cd8c8c": 1793831513.7477942,
     "fb9d8f3ffa42a406": 1793831488.6369534,
@@ -2498,8 +2499,7 @@
     "8a4e49a8bcd60b23": 1793430611.567455,
     "a42941e3819db7f0": 1793430548.374461,
     "9d2f369117dd212f": 1793430483.0250418,
-    "dc23c3266f1da404": 1793430047.6299229,
-    "0e3f5d72f1d8c046": 1793429735.180958
+    "dc23c3266f1da404": 1793430047.6299229
   },
   "initialized": true,
   "v": 4,
@@ -3685,6 +3685,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-04T18:00:30+00:00",
       "cluster": "c5a579ae740"
+    },
+    {
+      "t": "BKFC president David Feldman teases next move for Darren Till after Jake Paul fight rumors",
+      "source": "MMA Fighting",
+      "ts": "2026-11-04T20:26:26+00:00",
+      "cluster": "cb5ec8b2b5e"
     }
   ],
   "digest_items": [],
