@@ -1,5 +1,7 @@
 {
   "seen": {
+    "6e220dbfbd24bb35": 1793811586.0923748,
+    "1c81f60b7a231cff": 1793811586.0785882,
     "4de0d4ef23d8169b": 1793811558.014158,
     "c001fc60563115ca": 1793811558.001754,
     "b689cdc08c2da432": 1793811530.7668047,
@@ -2497,9 +2499,7 @@
     "e65d5c1c75cb8f94": 1793413306.87824,
     "9a8eabc6dca46dd4": 1793413181.5983567,
     "0e2da1f1dc43e566": 1793412995.0518568,
-    "eef8ed4d68d61946": 1793412995.0501812,
-    "cd3d9a9e59beb574": 1793412807.682572,
-    "a53915d42859e295": 1793412807.6654372
+    "eef8ed4d68d61946": 1793412995.0501812
   },
   "initialized": true,
   "v": 4,
@@ -3817,6 +3817,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-04T14:16:07+00:00",
       "cluster": "c356108081e"
+    },
+    {
+      "t": "Common opponent predicts Quillan Salkilld vs. Benoit Saint Denis at UFC Sydney",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-04T14:40:20+00:00",
+      "cluster": "cd3a7bc86bd"
     }
   ],
   "digest_items": [],
