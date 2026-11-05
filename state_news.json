@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cdf1b44c6ab41c13": 1793880307.7932653,
     "9f401d3efe4bb634": 1793880267.4027307,
     "721e8d8683f3ebd6": 1793880188.044868,
     "ed3f92bb11333b5d": 1793880188.0189884,
@@ -2498,8 +2499,7 @@
     "c36f84205129ed5e": 1793455221.8985262,
     "b73a9c05691dc004": 1793455221.8980849,
     "e75ea0525f24a829": 1793455221.897574,
-    "d1ef9286ff78d5be": 1793455221.8971837,
-    "0066b903ff4a0aab": 1793455221.8970335
+    "d1ef9286ff78d5be": 1793455221.8971837
   },
   "initialized": true,
   "v": 4,
@@ -3865,6 +3865,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-05T08:00:00+00:00",
       "cluster": "c9b201110fe"
+    },
+    {
+      "t": "Midnight Mania! Robert Whittaker wants to welcome Alex Pereira back to light heavyweight — ‘It would be fun’",
+      "source": "MMA Mania",
+      "ts": "2026-11-04T23:52:51+00:00",
+      "cluster": "c4a567662a8"
     }
   ],
   "digest_items": [],
