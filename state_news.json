@@ -1,5 +1,6 @@
 {
   "seen": {
+    "13523a7f3503c9a0": 1793908137.6951208,
     "e779f7256a5830fe": 1793908094.2967234,
     "9037bbf8869e5d6a": 1793908094.2820666,
     "6d573017281cad88": 1793908094.2792923,
@@ -2498,8 +2499,7 @@
     "bebf0308fe891e21": 1793458855.4033,
     "d4cc6d9d854b63e2": 1793458833.2249324,
     "d71c492ab40d5247": 1793458151.8213542,
-    "4d9bd3d1f3fae446": 1793457710.4678164,
-    "2da2d47c6208fabc": 1793457458.4858818
+    "4d9bd3d1f3fae446": 1793457710.4678164
   },
   "initialized": true,
   "v": 4,
@@ -3781,6 +3781,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-05T17:00:00+00:00",
       "cluster": "c08c0d8a2ea"
+    },
+    {
+      "t": "UFC CEO Dana White Stays Consistent After Latest Islam Makhachev Update",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-05T14:13:49+00:00",
+      "cluster": "c5a60e32e88"
     }
   ],
   "digest_items": [],
