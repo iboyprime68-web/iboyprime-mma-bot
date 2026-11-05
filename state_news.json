@@ -3874,7 +3874,6 @@
     0
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Arman-Tsarukyan-vs-Anthony-Pettis-to-headline-RAF-15-title-match-203398",
     "CBMilAFBVV95cUxQZFQzV2hxSENWcVE4STUwQ3BLNkVoOHg3NVNZUmZmaXZJbWdvZTM0ZkgyOE41WEU0dDFqU0tYVnpHakJSOFYtLVRCd3BVXzF3TTkyWHZtNmNudmtzOHpTeW5GYUtDM1ZLbzd6V0JLZUM5V1lUVldvUmx5dUNVMDVLaDNWd1c0d1htb2JhVlFQTHBSSmR2",
     "CBMiugFBVV95cUxQWlh3QXVzVEU3SS1ZY1dUUWdJR084TEVoY05rZ01mQ1RTMjhqdUlaUlRrRjdjZXRtWUhrQVlXeEVMMDExMUJHQ2ZSQUtUczBMVHBKY3dFVUdKT2Uxak1tVFZrcEs2cThPNTVhaUY5N1VrLVhhUEx2UFdqS3hZb2txbEktcG4xb3FaZDIxVEJjejFGdDBjc0JqZDh1bm1mZTFtb2huVVhPMjI0UGY1dGxuTk4yMnJUMWdkQmc",
     "CBMimwFBVV95cUxOTE8yakJCdUtleWVpcEFPdl9hNFBfRTR1T2ZZTFkwLVV0eGRPZThKS3dKMGNsU2tZMUl3cmtuUWtMckhQYmFfZ2ZYM1J4OXdTRUhJM0Q3VC1GV3NvYVRqNk9TOWxXZC1KMXJQLVdSR1htakRkQk51NzBZWkVBaWs3WFh2UTdyc05rOVYwa09NRjZfeENYT3JrbXBaTQ",
@@ -5373,25 +5372,17 @@
     "https://bloodyelbow.com/?p=340473",
     "227330d3-c6e1-3dec-a963-c8ecd4bcd592",
     "48c591d1-c87c-355d-b51d-0c24289ce4a0",
-    "674e1e7f-ac24-36f1-8635-1469f7d9e031"
+    "674e1e7f-ac24-36f1-8635-1469f7d9e031",
+    "4c049977-4f53-3444-930b-6118ce4f010d"
   ],
   "daily": {
     "d": "2026-11-05",
-    "ai": 40,
+    "ai": 42,
     "staged": 1,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-26T20:00:52.010606+00:00",
-      "t": "UFC Vegas 121 star happy to finally get her hands on bitter rival ‘without getting arrested’",
-      "names": [
-        "dumont",
-        "perez"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-26T20:28:09.280863+00:00",
       "t": "‘My Brain Is the Concern’: Justin Gaethje Opens Up on Retirement and Taking More Damage",
@@ -6709,6 +6700,16 @@
         "conor"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-05T12:04:28.905854+00:00",
+      "t": "‘It Backs Up The Division’",
+      "names": [
+        "backs",
+        "makhachev",
+        "prates"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -6835,16 +6836,15 @@
     "b6f500e11f99991c": 1793188483.3733988,
     "b8b5a6bb183f57a1": 1793389496.4054317,
     "f241bd224ada661b": 1793721847.7263806,
-    "9a8d4ef117b39268": 1793813462.4073784
+    "9a8d4ef117b39268": 1793813462.4073784,
+    "9f401d3efe4bb634": 1793880280.5785177
   },
   "pinged_titles": [
     [
-      "Joaquin Buckley calls out Dustin Poirier, Sean Strickland for use of racial slur, Poirier and Strickland respond",
-      1793813462.4073784,
+      "‘It Backs Up The Division’",
+      1793880280.5785177,
       [
-        "buckley",
-        "poirier",
-        "strickland"
+        "backs"
       ]
     ]
   ]
