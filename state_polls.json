@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 33,
   "staged_at": [
-    "2026-11-01T20:36:09.740049+00:00",
     "2026-11-02T19:35:39.986834+00:00",
     "2026-11-03T17:09:26.032734+00:00",
-    "2026-11-04T17:21:24.435943+00:00"
+    "2026-11-04T17:21:24.435943+00:00",
+    "2026-11-05T17:28:35.629028+00:00"
   ],
   "asked": [
-    "What is the most disrespectful thing a UFC fighter has ever said about another fighter?",
     "What is the most ridiculous fine a UFC fighter has ever received?",
     "What is the most cursed UFC title shot that never happened?",
     "What is the most ridiculous UFC title shot someone has ever skipped the line for?",
@@ -47,33 +46,34 @@
     "Who is number one pound for pound right now?",
     "Which early stoppage was the worst in UFC history?",
     "Which broadcast team calls fights the best?",
-    "Who is the most overrated talker in the UFC right now?"
+    "Who is the most overrated talker in the UFC right now?",
+    "What is the worst UFC title fight the fans never got to see?"
   ],
   "last_entry": {
-    "q": "Who is the most overrated talker in the UFC right now?",
+    "q": "What is the worst UFC title fight the fans never got to see?",
     "type": "poll",
     "options": [
       {
-        "label": "Josh Hokit",
-        "emoji": "🗣️",
+        "label": "Khabib vs Tony",
+        "emoji": "🛑",
         "art": ""
       },
       {
-        "label": "Darren Till",
-        "emoji": "📢",
+        "label": "Jones vs Ngannou",
+        "emoji": "💥",
         "art": ""
       },
       {
-        "label": "Artem Lobov",
-        "emoji": "🔨",
+        "label": "GSP vs Silva",
+        "emoji": "🐐",
         "art": ""
       },
       {
         "label": "Other (comment below)",
-        "emoji": "🤐",
+        "emoji": "🤷",
         "art": ""
       }
     ],
-    "gag": "A blowhard parrot in a tiny octagon cage yelling into a microphone nobody holds"
+    "gag": "Two empty stools facing each other in a dark arena, a single spotlight between them"
   }
 }
