@@ -1,5 +1,6 @@
 {
   "seen": {
+    "17a8332a2185be13": 1793908245.7854857,
     "a5da8202814b7b7b": 1793908218.9128137,
     "b97ae5471eb3b6b4": 1793908218.8972266,
     "9103d035496e1d12": 1793908191.6496084,
@@ -2498,8 +2499,7 @@
     "b42f4dbd2b038e25": 1793459117.4785583,
     "c0248d1dfe3ed217": 1793459117.4772515,
     "43699eb641c50bea": 1793458990.3539886,
-    "a3f466d600e5cfe8": 1793458990.35231,
-    "d745f5ca698d6355": 1793458926.2479398
+    "a3f466d600e5cfe8": 1793458990.35231
   },
   "initialized": true,
   "v": 4,
@@ -3805,6 +3805,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-05T15:30:37+00:00",
       "cluster": "c1aec3048ff"
+    },
+    {
+      "t": "Henry Cejudo, Kamaru Usman roast Colby Covington for embarrassing 43-second loss: ‘He’s supposed to beat Khamzat Chimaev?‘",
+      "source": "MMA Fighting",
+      "ts": "2026-11-05T18:22:50+00:00",
+      "cluster": "ce37bd9eec1"
     }
   ],
   "digest_items": [],
