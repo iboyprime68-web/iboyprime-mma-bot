@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3ccd1da1c64313a2": 1793907904.2646627,
     "14f4a455583a8eed": 1793907878.2328537,
     "21d1c30425c3bda7": 1793883178.9774823,
     "dc3764cebd311332": 1793883049.7201135,
@@ -2498,8 +2499,7 @@
     "2aaabf36dd419294": 1793456304.8732386,
     "7d0f3be8e2617795": 1793456237.7870474,
     "40e6c6ec30ab3387": 1793456237.7801898,
-    "e60e5e03901ef50d": 1793456237.779658,
-    "ce91c9f3b5ed397e": 1793456237.774264
+    "e60e5e03901ef50d": 1793456237.779658
   },
   "initialized": true,
   "v": 4,
@@ -3739,6 +3739,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-04T21:22:41+00:00",
       "cluster": "ca209d787d9"
+    },
+    {
+      "t": "Morning Report &#124; Conor McGregor targeting switch to bare knuckle after final UFC fight: ‘Teeth come and go!’",
+      "source": "MMA Fighting",
+      "ts": "2026-11-05T04:24:54+00:00",
+      "cluster": "cff4324e2b7"
     }
   ],
   "digest_items": [],
