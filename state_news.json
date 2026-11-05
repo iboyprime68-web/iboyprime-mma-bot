@@ -1,5 +1,6 @@
 {
   "seen": {
+    "32fcb0329da06dba": 1793907931.246907,
     "3ccd1da1c64313a2": 1793907904.2646627,
     "14f4a455583a8eed": 1793907878.2328537,
     "21d1c30425c3bda7": 1793883178.9774823,
@@ -2498,8 +2499,7 @@
     "0dd63c223e186d0c": 1793456304.8995748,
     "2aaabf36dd419294": 1793456304.8732386,
     "7d0f3be8e2617795": 1793456237.7870474,
-    "40e6c6ec30ab3387": 1793456237.7801898,
-    "e60e5e03901ef50d": 1793456237.779658
+    "40e6c6ec30ab3387": 1793456237.7801898
   },
   "initialized": true,
   "v": 4,
@@ -3745,6 +3745,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-05T04:24:54+00:00",
       "cluster": "cff4324e2b7"
+    },
+    {
+      "t": "Conor McGregor will ‘lay down’ his gloves but not retire after final UFC fight in 2027",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-05T13:00:00+00:00",
+      "cluster": "c70bd868f9d"
     }
   ],
   "digest_items": [],
