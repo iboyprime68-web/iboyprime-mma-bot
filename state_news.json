@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0224086c911f65ca": 1794001139.6441286,
     "5326d3f3baf957a4": 1794001072.4723184,
     "7fc700532dbf9b7b": 1794001072.4548283,
     "0aee07509feb5b78": 1794001072.4534137,
@@ -2498,8 +2499,7 @@
     "5c03f29d6b4850f0": 1793480973.8050525,
     "323c03fe0380a521": 1793480973.7850947,
     "0fe22b5eb0666715": 1793480973.7793899,
-    "45f06537f0291e97": 1793480973.759974,
-    "813c6d317c88b2d2": 1793480905.6718898
+    "45f06537f0291e97": 1793480973.759974
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-04T22:00:00+00:00",
       "cluster": "cdb9c2fde68"
-    },
-    {
-      "t": "UFC’s Event Sellout Spree Powers TKO Q3 Earnings",
-      "source": "Variety",
-      "ts": "2026-11-04T21:38:00+00:00",
-      "cluster": "c80b81185ff"
     },
     {
       "t": "UFC’s Explosive Growth Contrasts With WWE’s Stagnant Quarter",
@@ -3871,6 +3865,12 @@
       "source": "UFC.com",
       "ts": "2026-11-06T21:17:11+00:00",
       "cluster": "c9af220e017"
+    },
+    {
+      "t": "UFC Vegas 124 final face-offs",
+      "source": "MMAWeekly.com",
+      "ts": "2026-11-06T21:17:42+00:00",
+      "cluster": "c5b518d99cd"
     }
   ],
   "digest_items": [],
