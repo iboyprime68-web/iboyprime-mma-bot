@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1a25586f5d739cbe": 1794002340.9860866,
     "e7618d3ac8b39325": 1794001844.16349,
     "a0c849f3a2b79d35": 1794001844.1631277,
     "76f04ab1c18190a2": 1794001759.7812831,
@@ -2498,8 +2499,7 @@
     "066d169e34257d91": 1793481356.455063,
     "bc6582721d92ab6f": 1793481356.4353795,
     "2b45d2276fa96d03": 1793481356.430013,
-    "69200a33f7ac749f": 1793481356.424642,
-    "93fdd0715d8f9043": 1793481356.419591
+    "69200a33f7ac749f": 1793481356.424642
   },
   "initialized": true,
   "v": 4,
@@ -2509,18 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-04T22:00:00+00:00",
       "cluster": "cdb9c2fde68"
-    },
-    {
-      "t": "UFC’s Explosive Growth Contrasts With WWE’s Stagnant Quarter",
-      "source": "Slam Wrestling",
-      "ts": "2026-11-04T21:55:57+00:00",
-      "cluster": "c1bb9bb4077"
-    },
-    {
-      "t": "Dana White on Dan Miragliotta's controversial UFC Vegas 123 stand up",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-04T21:57:07+00:00",
-      "cluster": "cbd16241370"
     },
     {
       "t": "UFC Revenue Rises 60% To $519.2 Million In TKO’s Third-Quarter Results",
@@ -3883,6 +3871,12 @@
       "source": "BJPenn.com",
       "ts": "2026-11-06T21:43:31+00:00",
       "cluster": "cc38b31f3a0"
+    },
+    {
+      "t": "Keiichiro Nakamura",
+      "source": "UFC.com",
+      "ts": "2026-11-06T21:19:22+00:00",
+      "cluster": "c5db113008f"
     }
   ],
   "digest_items": [],
