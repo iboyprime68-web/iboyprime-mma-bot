@@ -3868,7 +3868,6 @@
     0
   ],
   "yt_eval": [
-    "CBMi4gFBVV95cUxPQlB1NzUyYkRpMXlyLUhZV0FueHdYVmlvQk5WMTVoWmFmR2FJdnM5X1g2UjFITTk3LXRMMVdqX1BkVEQ5S2NFdU05SzFoNWlMZEt2SV9KejlPeE9RaFM0UTJjTktqNnR0azNuXzMxa01vQk0wY09xLUZ4SEpvaXpLeU9sT1RnaExZSTI5MWM2RzFGWUhXT2tNYTVEOWctczVocmVNN0tmeF95akx0WC1Cb3RFaUdHT19lVVFiSk1hSDZqSG42SjVFcWNYQzhVR0ZfcWNiWVZRNmN3TXlkUlVaSXBB",
     "CBMi6AFBVV95cUxON0QzNEhjeDdBaUhid20wREstUkRXZy0wUU9TNFVDWlotU19kN0ZodG41aTJ3ajR5SWlKc0RfeUVMSkFjaGNIelhwZ3ZlRUZ6bjMtRWRLMUV4NkNESG1SQ1NtV1pocXZSQ29PX240cFVNSzUzZXJtS0tSYkpKMVdCUEwxeFllX2g3WjczUTllZGdZcEg2SE9CaWJMaVU3N2lSNzgzazZ1YXRpUEhmRGs2Zzl5eThhQ0NfY05SLWw1cm45Q3NhdEhVcEY3LXJRdzA2VHRhZkp6RXR6XzdjWk9hRFZkbDFvbk9O",
     "CBMipgFBVV95cUxQVXNKeG81RnloeUhCUW5LcGdwQUNUWVpVczAzVk1HQmZFb2JrTkpKeU0wTThIb2dfMU5GTHpOZjNKVnluVG95Z3lrRXBpZ2lnX0FhYkN3NWpkVlBZaE9kZzdUZWxhaDhJWlliR05XMFNCTE01dGYzVTBkOEEydVlYcWhoeWRkSGFhOWtNQnV0ZTg1aHd5NWpTTkdfSjZoR20xQjc3Y1J3",
     "f19dae46-9e4c-326d-a712-a4675653da93",
@@ -5367,25 +5366,17 @@
     "https://www.mmafighting.com/?p=519686",
     "2986dd0b-7cc9-39e3-b4f0-5767b104089b",
     "https://bloodyelbow.com/?p=340755",
-    "https://www.mmamania.com/?p=484043"
+    "https://www.mmamania.com/?p=484043",
+    "3624be49-cb35-391c-9ce8-09a4465a0182"
   ],
   "daily": {
     "d": "2026-11-06",
-    "ai": 78,
+    "ai": 80,
     "staged": 2,
-    "prio": 1,
+    "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-27T07:58:21.249365+00:00",
-      "t": "UFC Main Event Results In Fighter Being Hospitalized",
-      "names": [
-        "results",
-        "hospitalized"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-27T13:55:02.198801+00:00",
       "t": "UFC issues worrying health update after fighter goes limp and collapses unconscious during fight",
@@ -6702,6 +6693,16 @@
         "lee"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-06T15:52:54.682117+00:00",
+      "t": "Carlos Prates: Makhachev and Khabib booking fights when they want is not the right way",
+      "names": [
+        "prates",
+        "makhachev",
+        "khabib"
+      ],
+      "img": "cutout:carlos-prates"
     }
   ],
   "seed_pending": [],
@@ -6830,24 +6831,17 @@
     "f241bd224ada661b": 1793721847.7263806,
     "9a8d4ef117b39268": 1793813462.4073784,
     "9f401d3efe4bb634": 1793880280.5785177,
-    "96618c59a5a0cf83": 1793880875.614378
+    "96618c59a5a0cf83": 1793880875.614378,
+    "71fe1e5ffd5337a0": 1793980411.7317688
   },
   "pinged_titles": [
     [
-      "‘It Backs Up The Division’",
-      1793880280.5785177,
+      "Carlos Prates: Makhachev and Khabib booking fights when they want is not the right way",
+      1793980411.7317688,
       [
-        "backs"
-      ]
-    ],
-    [
-      "Dana White Hints at Alexander Volkanovski vs Justin Gaethje Title Fight and Ilia Topuria's Return",
-      1793880875.614378,
-      [
-        "gaethje",
-        "topuria",
-        "volkanovski",
-        "white"
+        "khabib",
+        "makhachev",
+        "prates"
       ]
     ]
   ]
