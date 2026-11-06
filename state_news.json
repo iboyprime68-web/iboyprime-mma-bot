@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c3f1dcab3e8f2726": 1793926867.868603,
     "43a0bb55819d810c": 1793926841.9901373,
     "346c7e787e226209": 1793926807.6971653,
     "1d2d9a446789c5c3": 1793926781.735972,
@@ -2498,8 +2499,7 @@
     "969decd6481751ee": 1793466036.642505,
     "1b9b6ac0e5bded96": 1793465573.409316,
     "8752665cee2dbf00": 1793465506.448462,
-    "5535fc512e10fb21": 1793465440.321522,
-    "d057f10f9d2cea96": 1793465440.286725
+    "5535fc512e10fb21": 1793465440.321522
   },
   "initialized": true,
   "v": 4,
@@ -3841,6 +3841,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-05T21:20:36+00:00",
       "cluster": "caf45bb39c0"
+    },
+    {
+      "t": "Josh Hokit responds after Dana White admitted to giving him unfavorable UFC matchups",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-06T01:00:00+00:00",
+      "cluster": "cdfb2e63d7c"
     }
   ],
   "digest_items": [],
