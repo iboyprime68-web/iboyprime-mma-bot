@@ -1,5 +1,8 @@
 {
   "seen": {
+    "5326d3f3baf957a4": 1794001072.4723184,
+    "7fc700532dbf9b7b": 1794001072.4548283,
+    "0aee07509feb5b78": 1794001072.4534137,
     "843de805be6fa59d": 1794001006.1264033,
     "bb224e76931ba445": 1794001006.1084957,
     "65d7fccc2b6df947": 1794000938.3173716,
@@ -2496,10 +2499,7 @@
     "323c03fe0380a521": 1793480973.7850947,
     "0fe22b5eb0666715": 1793480973.7793899,
     "45f06537f0291e97": 1793480973.759974,
-    "813c6d317c88b2d2": 1793480905.6718898,
-    "2c40c93a836757cb": 1793480837.6017663,
-    "a6f33f41e571b7e9": 1793480837.5801249,
-    "03924a92ff140839": 1793480837.5791023
+    "813c6d317c88b2d2": 1793480905.6718898
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-04T22:00:00+00:00",
       "cluster": "cdb9c2fde68"
-    },
-    {
-      "t": "Dana White wants to see Islam Makhachev, other UFC champs be active",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-04T21:37:46+00:00",
-      "cluster": "c70487f9813"
     },
     {
       "t": "UFC’s Event Sellout Spree Powers TKO Q3 Earnings",
@@ -3871,6 +3865,12 @@
       "source": "MMA Sucka",
       "ts": "2026-11-06T21:14:05+00:00",
       "cluster": "ca5d72cc154"
+    },
+    {
+      "t": "Renato Moicano vs Tom Nolan | UFC Journey: Part 2",
+      "source": "UFC.com",
+      "ts": "2026-11-06T21:17:11+00:00",
+      "cluster": "c9af220e017"
     }
   ],
   "digest_items": [],
