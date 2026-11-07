@@ -1,5 +1,7 @@
 {
   "seen": {
+    "60636f9e231d65ac": 1794084723.0002682,
+    "a0213ffc277711f5": 1794084722.9756668,
     "4a475ea3756101a1": 1794084617.6900833,
     "9fac1e5dae12fc2c": 1794084595.8896408,
     "4cd3148f5d64fcd9": 1794084595.8836465,
@@ -2497,9 +2499,7 @@
     "5a6288eb68b4b8ff": 1793503143.4228818,
     "961a7ac4aea430d8": 1793503099.2758012,
     "405e08efdd3ea945": 1793503014.0198736,
-    "b093e6d45d93465b": 1793502883.0401866,
-    "33f2bf942f36f1ba": 1793502883.025156,
-    "ade9e41cc5f98b77": 1793502814.3255372
+    "b093e6d45d93465b": 1793502883.0401866
   },
   "initialized": true,
   "v": 4,
@@ -2575,12 +2575,6 @@
       "source": "MMA Sucka",
       "ts": "2026-11-06T00:09:04+00:00",
       "cluster": "c0e694d1b3e"
-    },
-    {
-      "t": "Colby Covington killed his RAF aura with embarrassing loss to Raul Rosas Jr. — ‘He’s supposed to beat Khamzat?’",
-      "source": "MMA Mania",
-      "ts": "2026-11-05T20:51:51+00:00",
-      "cluster": "cfa151f0d5a"
     },
     {
       "t": "Masvidal vs. Chimaev Sparks Strange UFC Reaction. PPD Match",
@@ -3829,6 +3823,12 @@
       "source": "Fightomic",
       "ts": "2026-11-07T20:02:13+00:00",
       "cluster": "c06020c4333"
+    },
+    {
+      "t": "Trump Offers Dana White White House Press Secretary Job, Cites UFC Fighters: what 32 outlets left out",
+      "source": "NewsCord",
+      "ts": "2026-11-07T20:37:22+00:00",
+      "cluster": "ce84db0a833"
     }
   ],
   "digest_items": [],
