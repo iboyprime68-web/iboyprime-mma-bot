@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ce8597ab68e972e0": 1794081746.316243,
     "f87550e45a3678d4": 1794081721.293672,
     "d6f97cc3f22a55f2": 1794081695.944877,
     "8d1814be46826bf7": 1794081660.2014356,
@@ -2498,8 +2499,7 @@
     "405e4e6e5f1d098d": 1793488024.0482836,
     "41c23db96e96ba8f": 1793488024.0425699,
     "9751d4499c070a8e": 1793487956.2765844,
-    "e403673ecb8cb19c": 1793487888.0966728,
-    "177573ae978b5a78": 1793487888.0889447
+    "e403673ecb8cb19c": 1793487888.0966728
   },
   "initialized": true,
   "v": 4,
@@ -3649,6 +3649,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-07T18:00:00+00:00",
       "cluster": "c104e1df067"
+    },
+    {
+      "t": "UFC 335 down a fight with promotion looking to reschedule Maycee Barber’s return according to report",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-07T18:14:45+00:00",
+      "cluster": "cff81aeec30"
     }
   ],
   "digest_items": [],
