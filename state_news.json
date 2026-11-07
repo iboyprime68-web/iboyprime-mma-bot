@@ -3688,7 +3688,6 @@
     0
   ],
   "yt_eval": [
-    "https://x.com/ChampRDS/status/2115897465022886209",
     "https://www.sherdog.com/news/news/Paddy-Pimblett-vows-to-choke-out-Justin-Gaethje-in-UFC-title-rematch-203413",
     "CBMiugFBVV95cUxOb193d3BTelNlT3F5d04xamYtVm1pclM2b3FfcnFXQXhYeFdZeFBxeWtPT1JldUwwa2dBUm1JeXNZR1A5dWJpaTZ1OXlYaTFiazRTQnhJS29qamlMYTJrRU5OSFlTSTZKdElWaWkzd2V4dlZMSE1uYnZGOEdXbTBWQmcySXVXNEpsTVB5N2tod2lwOExvTUN1b1VEU2FGNnNDOC1XTWhDcXZOYnNqMktNUHQzQkdTcVk0Q3c",
     "012069b5-12ee-3dfc-8ca6-649d94f42bf7",
@@ -5187,25 +5186,17 @@
     "https://bloodyelbow.com/?p=340938",
     "69778199-9aed-31bd-a5fc-476acb37b4eb",
     "https://x.com/ChampRDS/status/2119141691760238744",
-    "https://bloodyelbow.com/?p=340909"
+    "https://bloodyelbow.com/?p=340909",
+    "CBMirgFBVV95cUxON1hSTTVCU2IxaGNSS1h6TFBWNGZKbXlEN3FoQ2F2bHFObF8wWkwxQzQyWUxxNHVZREMxeVk4RHdUNGVQSk5wcG1kaktaOTR1QUdmdllnaXVxVWVIdi1GT0ZKQ0hSUmdYZzY4LWpheFVDajhCWmJPeWNNOFR1WVJmalJnenJ2QlhUTE1ibEVjZ1F0OHcxOGt1VTd4bnRYVnVpcmVBOVprM1l6ejVQckE"
   ],
   "daily": {
     "d": "2026-11-07",
-    "ai": 87,
+    "ai": 89,
     "staged": 2,
-    "prio": 1,
+    "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-28T01:11:41.703132+00:00",
-      "t": "Sean Strickland confirms he will fight Nassourdine Imavov later this year in first title defence",
-      "names": [
-        "strickland",
-        "imavov"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-28T15:08:27.765775+00:00",
       "t": "Raoni Barcelos is able to walk, talk, and eat – but he remains in hospital according to new update",
@@ -6524,6 +6515,15 @@
         "makhachev"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-07T20:04:09.667661+00:00",
+      "t": "Dana White offered White House press secretary job by Trump",
+      "names": [
+        "white",
+        "house"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -6653,16 +6653,17 @@
     "9a8d4ef117b39268": 1793813462.4073784,
     "9f401d3efe4bb634": 1793880280.5785177,
     "96618c59a5a0cf83": 1793880875.614378,
-    "71fe1e5ffd5337a0": 1793980411.7317688
+    "71fe1e5ffd5337a0": 1793980411.7317688,
+    "6edfda0154306512": 1794081857.1813946
   },
   "pinged_titles": [
     [
-      "Carlos Prates: Makhachev and Khabib booking fights when they want is not the right way",
-      1793980411.7317688,
+      "Dana White offered White House press secretary job by Trump",
+      1794081857.1813946,
       [
-        "khabib",
-        "makhachev",
-        "prates"
+        "house",
+        "trump",
+        "white"
       ]
     ]
   ]
