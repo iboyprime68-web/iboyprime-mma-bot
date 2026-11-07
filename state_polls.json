@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 33,
   "staged_at": [
-    "2026-11-03T17:09:26.032734+00:00",
     "2026-11-04T17:21:24.435943+00:00",
     "2026-11-05T17:28:35.629028+00:00",
-    "2026-11-06T16:49:28.669773+00:00"
+    "2026-11-06T16:49:28.669773+00:00",
+    "2026-11-07T15:45:21.887953+00:00"
   ],
   "asked": [
-    "What is the most cursed UFC title shot that never happened?",
     "What is the most ridiculous UFC title shot someone has ever skipped the line for?",
     "What is the most embarrassing thing a UFC fighter has ever done outside the octagon?",
     "What is the biggest taunt a fighter has ever pulled off in UFC history?",
@@ -47,33 +46,34 @@
     "Which broadcast team calls fights the best?",
     "Who is the most overrated talker in the UFC right now?",
     "What is the worst UFC title fight the fans never got to see?",
-    "Which farewell fight deserves the biggest send off in UFC history?"
+    "Which farewell fight deserves the biggest send off in UFC history?",
+    "What is the most out-of-nowhere fight the UFC could actually book right now?"
   ],
   "last_entry": {
-    "q": "Which farewell fight deserves the biggest send off in UFC history?",
+    "q": "What is the most out-of-nowhere fight the UFC could actually book right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Chris Weidman",
-        "emoji": "🗽",
+        "label": "Topuria vs Gaethje",
+        "emoji": "🔥",
         "art": ""
       },
       {
-        "label": "Donald Cerrone",
-        "emoji": "🤠",
-        "art": ""
+        "label": "McGregor cut loose",
+        "emoji": "🚪",
+        "art": "A fighter's contract torn in half on an empty desk, one overhead lamp, dust in the beam"
       },
       {
-        "label": "Robbie Lawler",
-        "emoji": "🥊",
-        "art": ""
+        "label": "Holloway vs gamer",
+        "emoji": "🎮",
+        "art": "A game controller snapped in half on a dark stage floor, spotlight from above"
       },
       {
         "label": "Other (comment below)",
-        "emoji": "🎬",
+        "emoji": "🤷",
         "art": ""
       }
     ],
-    "gag": "An empty octagon at Madison Square Garden with a single folding chair and a farewell banner made of duct tape"
+    "gag": "A rubber chicken in fight shorts tapping out to a referee made of spaghetti"
   }
 }
