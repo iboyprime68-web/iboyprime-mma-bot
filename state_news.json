@@ -1,5 +1,6 @@
 {
   "seen": {
+    "720a9bb74bfceece": 1794016059.7915614,
     "513fc77fac35d47f": 1794015991.4797401,
     "d38e9b2f64b34be0": 1794015991.46538,
     "1cd875bdc17dba30": 1794015944.6675305,
@@ -2498,8 +2499,7 @@
     "b7f6a287d97f14bd": 1793481826.7253041,
     "908a22361671dc4a": 1793481826.7241116,
     "86de296bff35f391": 1793481826.7228734,
-    "a30ce20544dfd852": 1793481826.721592,
-    "fa3f2339c1e44b77": 1793481826.7201903
+    "a30ce20544dfd852": 1793481826.721592
   },
   "initialized": true,
   "v": 4,
@@ -3739,6 +3739,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-06T23:50:33+00:00",
       "cluster": "cc002daebc3"
+    },
+    {
+      "t": "UFC Vegas 124’s Waldo Cortes-Acosta sets sights on smashing all of Josh Hokit’s teeth",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-07T00:00:00+00:00",
+      "cluster": "c0907d32619"
     }
   ],
   "digest_items": [],
