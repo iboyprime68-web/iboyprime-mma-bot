@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c4fbba8eba3be93d": 1794081884.2575762,
     "6edfda0154306512": 1794081848.221712,
     "593dc7f0af5f2b66": 1794081848.2034376,
     "321592c5592fcf68": 1794081848.2011998,
@@ -2498,8 +2499,7 @@
     "1366a9d3e5891099": 1793488538.942185,
     "547987949f6bcc7b": 1793488471.8616927,
     "1050fa1d74576790": 1793488471.853846,
-    "0ac0984b551c41ba": 1793488471.8456686,
-    "35c48128c96cc7cb": 1793488471.8205664
+    "0ac0984b551c41ba": 1793488471.8456686
   },
   "initialized": true,
   "v": 4,
@@ -3679,6 +3679,12 @@
       "source": "The Telegraph",
       "ts": "2026-11-07T19:03:00+00:00",
       "cluster": "c6629f36469"
+    },
+    {
+      "t": "Dana White responds to Donald Trump announcing he’s been offered the US Press Secretary job",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-07T19:21:41+00:00",
+      "cluster": "c09ed9a9ac7"
     }
   ],
   "digest_items": [],
