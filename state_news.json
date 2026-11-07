@@ -1,5 +1,7 @@
 {
   "seen": {
+    "fcd851acb22b8ad9": 1794095031.8107584,
+    "15bab268ecfff308": 1794095031.7887447,
     "f2dfe23cc3700db2": 1794094963.1557994,
     "20abc95ff614a0ae": 1794094963.147456,
     "5732a43bd87e45ab": 1794094895.222412,
@@ -2497,9 +2499,7 @@
     "bf8af044af180644": 1793505404.2002075,
     "22bc0bff49dc6317": 1793505358.0126421,
     "2880db379e36d707": 1793505358.0011146,
-    "fc39cb36e9717beb": 1793505225.9148567,
-    "e4c3ae03cfac1b08": 1793505225.904151,
-    "a330840ce216add7": 1793505225.895971
+    "fc39cb36e9717beb": 1793505225.9148567
   },
   "initialized": true,
   "v": 4,
@@ -3853,6 +3853,12 @@
       "source": "Awful Announcing",
       "ts": "2026-11-07T22:59:47+00:00",
       "cluster": "c9ea8a2d823"
+    },
+    {
+      "t": "UFC Fight Night start time for Waldo Cortes Acosta vs. Johnny Walker: Where to watch live on Paramount+",
+      "source": "CBS Sports",
+      "ts": "2026-11-07T23:00:00+00:00",
+      "cluster": "c14ce382fee"
     }
   ],
   "digest_items": [],
