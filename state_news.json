@@ -1,5 +1,6 @@
 {
   "seen": {
+    "17e5d69b7279d857": 1794161985.1807435,
     "38a2d774101abb5e": 1794161959.384806,
     "1cbaec434ec52d91": 1794161932.4455798,
     "055555d41ea9c169": 1794161906.8143122,
@@ -2498,8 +2499,7 @@
     "bee188aff9eb7478": 1793552134.3553753,
     "73ee362ff7a73fd1": 1793552134.3162954,
     "454d954c53c7c5c5": 1793552134.3099744,
-    "bd4b4198cbd9a337": 1793551719.3216078,
-    "57f204a21d83cfb5": 1793551469.8980536
+    "bd4b4198cbd9a337": 1793551719.3216078
   },
   "initialized": true,
   "v": 4,
@@ -4129,6 +4129,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-08T14:40:30+00:00",
       "cluster": "c7a444af545"
+    },
+    {
+      "t": "UFC commentator Brendan Fitzgerald posts statement after being replaced before main event started",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-08T17:00:00+00:00",
+      "cluster": "c3be5d68f4d"
     }
   ],
   "digest_items": [],
