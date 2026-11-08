@@ -1,5 +1,6 @@
 {
   "seen": {
+    "df14e6d0b3c141ce": 1794118116.695868,
     "24b770e16224728e": 1794118037.4705582,
     "f749043ba3fe76e6": 1794118037.435195,
     "9ff2a8dd11ea16a8": 1794118037.4321966,
@@ -2498,8 +2499,7 @@
     "60c603ce0cc10e2c": 1793543235.6499836,
     "e293de8ddacc8ef4": 1793542984.412326,
     "b383cdc361969a0a": 1793542984.4118505,
-    "fab8994e003a77ad": 1793542857.97804,
-    "aed0d6a30770f53c": 1793542731.6651053
+    "fab8994e003a77ad": 1793542857.97804
   },
   "initialized": true,
   "v": 4,
@@ -4129,6 +4129,12 @@
       "source": "NY Fights",
       "ts": "2026-11-08T05:50:13+00:00",
       "cluster": "cb4c3458685"
+    },
+    {
+      "t": "CNN: Sports promoter Dana White declined to become Trump's press secretary",
+      "source": "LIGA.net",
+      "ts": "2026-11-08T05:29:00+00:00",
+      "cluster": "c14cd66eba1"
     }
   ],
   "digest_items": [],
