@@ -1,5 +1,6 @@
 {
   "seen": {
+    "18a9b51fcdfa95b5": 1794143070.2641253,
     "f34e1a5257723b2a": 1794143024.3455727,
     "405a0c2f0a8431ef": 1794142945.2014234,
     "5b8579d6dde4642f": 1794142899.6962152,
@@ -2498,8 +2499,7 @@
     "34c1519e9f6330fe": 1793545266.52916,
     "9be2f577ca35a86c": 1793545240.0512187,
     "f2c35312416ebcaa": 1793545240.0138025,
-    "d7a6697f49417ae7": 1793545240.0136368,
-    "e51047b3fe03e14a": 1793545240.012738
+    "d7a6697f49417ae7": 1793545240.0136368
   },
   "initialized": true,
   "v": 4,
@@ -4135,6 +4135,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-08T06:32:35+00:00",
       "cluster": "c440f71c0b9"
+    },
+    {
+      "t": "Israel Adesanya vs. Shara Magomedov headlines UFC Saudi Arabia, Garry vs. Amosov co-headlines",
+      "source": "MMA Mania",
+      "ts": "2026-11-08T08:48:08+00:00",
+      "cluster": "c0b7e90f17f"
     }
   ],
   "digest_items": [],
