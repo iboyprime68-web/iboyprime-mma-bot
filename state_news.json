@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8cff69c89c172a5e": 1794178999.89201,
     "e3ab41a08d8b81ed": 1794178935.281093,
     "075794d56a9f92c6": 1794178871.0155256,
     "acacd3b3abc0d28a": 1794178871.014074,
@@ -2498,8 +2499,7 @@
     "d1dc4e93b178f1fb": 1793563287.730782,
     "0d1ad827894117b0": 1793563262.5506954,
     "2b4cddff8c04d357": 1793563236.6178274,
-    "1aefbcb8b1edd539": 1793563236.5870156,
-    "3bd6fe73cf2abfe7": 1793563236.5868402
+    "1aefbcb8b1edd539": 1793563236.5870156
   },
   "initialized": true,
   "v": 4,
@@ -4255,6 +4255,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-08T23:00:00+00:00",
       "cluster": "ce2d373f0b9"
+    },
+    {
+      "t": "UFC Vegas 124 results: Matches to make for ‘Cortes-Acosta vs. Walker’ main card winners",
+      "source": "MMA Mania",
+      "ts": "2026-11-08T21:56:09+00:00",
+      "cluster": "cf13e7d7976"
     }
   ],
   "digest_items": [],
