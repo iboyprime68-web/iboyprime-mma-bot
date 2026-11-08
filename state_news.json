@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4e11a455daca75fa": 1794144175.9028559,
     "f059f826194db9d4": 1794144048.0180671,
     "d71e20d94ef7e98e": 1794144048.0075078,
     "45506fd8645cd9e5": 1794144047.9981515,
@@ -2498,8 +2499,7 @@
     "2b130eb8209e2fdd": 1793549572.9508073,
     "b4eeabe47e8a5dae": 1793549497.5109725,
     "1ad0c12e8f5e298d": 1793549497.459813,
-    "90360856a8ece685": 1793549371.075442,
-    "ceaa814e26e65020": 1793549057.7353303
+    "90360856a8ece685": 1793549371.075442
   },
   "initialized": true,
   "v": 4,
@@ -4225,6 +4225,12 @@
       "source": "Attack of the Fanboy",
       "ts": "2026-11-08T13:15:00+00:00",
       "cluster": "c6031b07515"
+    },
+    {
+      "t": "Josh Hokit bought a Lamborghini and a seven-figure house after just four UFC fights",
+      "source": "Sportskeeda",
+      "ts": "2026-11-08T12:30:00+00:00",
+      "cluster": "cd91d0db430"
     }
   ],
   "digest_items": [],
