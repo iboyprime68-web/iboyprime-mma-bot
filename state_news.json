@@ -4138,7 +4138,6 @@
     0
   ],
   "yt_eval": [
-    "CBMigAFBVV95cUxORGpWaXY4SlV6YmtDZE16VG5ZdndKZ09xVjFDdnAxQW5TUUg0Mk1kWVU5bHZWc1NCUUZha1VHY0s5YXlzakJ4NUJnUEhTSXJTMWZNWGJWZkM0UGtIY0dLTGJsSFlwcTdMc0t5MzFQSUtsMzJyYy00MjNDZFg2cXpLLQ",
     "CBMinwFBVV95cUxPWWppUURydkRhdUNZWkE4cHR1U3BFV0NaVW9FTXFXa3pLSmgtWU5Ub0RGQ0Y4N0xLc2dLOG9IQU5jNThXQ29HRzFfc1lBWHFwVTZsdkF1OHo3ZEF1eTVQU3RJYnR0WTZjeWt4d0tQcm84bFF5MEczd2ZzWGpRbXRMdWVCeDZNVmstaE5hc1FkNkQ5SXlXel9zTHZOdk1fSmM",
     "CBMipgFBVV95cUxOdFdwU1ZIZFdGbkh1aGVRdC1YeWVudi00c0o0OEdLWXRfYXMyZGZjUnpJYlM5RElyd1g5LWJTb0Nvdl9TWW42NENaUGNaU01QUmFHVkhVVDNaYUlxbVVGYnp6VUNuVUVlekNvMEgzQVdNVlJBM0dtazktNXdPQzdDaTZMeGVGZjY1Y00zM0Rzal93Zi1MQV9vNFZCNHByRkFLOVNxbHhR",
     "https://www.mmafighting.com/518283/morning-report-template-dnp",
@@ -5637,25 +5636,17 @@
     "https://www.mmamania.com/484596/ufc-333-results-sooo-about-last-night-volkanovski-vs-evloev",
     "https://bloodyelbow.com/?p=341031",
     "https://bloodyelbow.com/?p=341038",
-    "https://www.mmafighting.com/?p=519891"
+    "https://www.mmafighting.com/?p=519891",
+    "https://bloodyelbow.com/?p=341043"
   ],
   "daily": {
     "d": "2026-11-08",
-    "ai": 89,
+    "ai": 91,
     "staged": 1,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-29T01:37:33.905634+00:00",
-      "t": "Josh Hokit accuses Tom Aspinall of ‘having teammates fart on pillow’ to fake eye injury that required multiple surgeries",
-      "names": [
-        "hokit",
-        "aspinall"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-29T01:38:31.295364+00:00",
       "t": "Justin Gaethje's Coach Shares Huge UFC Verdict on Retirement vs. Title Defense",
@@ -6973,6 +6964,15 @@
         "romero"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-08T13:01:40.925376+00:00",
+      "t": "Justin Gaethje’s manager responds after fans back Ilia Topuria’s pursuit of a rematch",
+      "names": [
+        "gaethje",
+        "topuria"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7103,16 +7103,16 @@
     "9f401d3efe4bb634": 1793880280.5785177,
     "96618c59a5a0cf83": 1793880875.614378,
     "71fe1e5ffd5337a0": 1793980411.7317688,
-    "6edfda0154306512": 1794081857.1813946
+    "6edfda0154306512": 1794081857.1813946,
+    "5b8579d6dde4642f": 1794142917.489338
   },
   "pinged_titles": [
     [
-      "Dana White offered White House press secretary job by Trump",
-      1794081857.1813946,
+      "Justin Gaethje’s manager responds after fans back Ilia Topuria’s pursuit of a rematch",
+      1794142917.489338,
       [
-        "house",
-        "trump",
-        "white"
+        "gaethje",
+        "topuria"
       ]
     ]
   ]
