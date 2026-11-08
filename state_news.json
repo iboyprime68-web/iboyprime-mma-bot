@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1cbaec434ec52d91": 1794161932.4455798,
     "055555d41ea9c169": 1794161906.8143122,
     "3bde7d6781a077c1": 1794161881.6434543,
     "6053ae4f2cac5680": 1794161816.1866324,
@@ -2498,8 +2499,7 @@
     "454d954c53c7c5c5": 1793552134.3099744,
     "bd4b4198cbd9a337": 1793551719.3216078,
     "57f204a21d83cfb5": 1793551469.8980536,
-    "d65ecdea13393cba": 1793551469.8971858,
-    "4147294aab0dad68": 1793551403.3141189
+    "d65ecdea13393cba": 1793551469.8971858
   },
   "initialized": true,
   "v": 4,
@@ -4117,6 +4117,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-08T15:18:32+00:00",
       "cluster": "c7acf6d8922"
+    },
+    {
+      "t": "4-0 UFC star provides update after announcing he’s a free agent in the cage following 60-second KO",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-08T16:00:00+00:00",
+      "cluster": "c14486b7e53"
     }
   ],
   "digest_items": [],
