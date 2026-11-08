@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e36000108a06341c": 1794097391.8859937,
     "30a73374aa02f423": 1794097323.4312437,
     "7fb34707767b791b": 1794097323.422935,
     "2de0678dd9f49ec1": 1794097323.4170308,
@@ -2498,8 +2499,7 @@
     "3733951d0bbd356e": 1793524643.686522,
     "229cc3214694f68c": 1793524330.5458746,
     "ff78e4b3106e4e7e": 1793524202.881184,
-    "480a87922cbb8b7f": 1793524202.8120809,
-    "0c8b4526b3f33eb8": 1793524139.6174984
+    "480a87922cbb8b7f": 1793524202.8120809
   },
   "initialized": true,
   "v": 4,
@@ -3955,6 +3955,12 @@
       "source": "USA Today",
       "ts": "2026-11-08T00:19:53+00:00",
       "cluster": "c229da14bb5"
+    },
+    {
+      "t": "Tommy Robinson and Mo Deen brawl into the crowd causing HSTikkyTokky Unhinged Promotions event cancellation",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-08T00:22:48+00:00",
+      "cluster": "c3cdf0953a4"
     }
   ],
   "digest_items": [],
