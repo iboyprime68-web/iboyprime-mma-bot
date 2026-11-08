@@ -1,5 +1,6 @@
 {
   "seen": {
+    "24b8d68e00ccf001": 1794117696.338372,
     "6993ac4c295691e5": 1794117629.313773,
     "3ec9804479fa6a3a": 1794117629.2780995,
     "c27a7cdd77f22535": 1794117562.0939467,
@@ -2498,8 +2499,7 @@
     "499cb9d403abbff8": 1793541771.0991764,
     "caed06c1817a872a": 1793541771.098888,
     "49818f7d111642b6": 1793541661.2101128,
-    "4657ab2cd4e94b86": 1793541639.0219576,
-    "bb1d1a596baf7b4a": 1793541639.0170975
+    "4657ab2cd4e94b86": 1793541639.0219576
   },
   "initialized": true,
   "v": 4,
@@ -4087,6 +4087,12 @@
       "source": "NDTV",
       "ts": "2026-11-08T05:25:33+00:00",
       "cluster": "cadf5ebea85"
+    },
+    {
+      "t": "Andre Petroski Stops Mantas Kondratavičius In Round 2 At UFC Vegas 124 (Highlights)",
+      "source": "MiddleEasy",
+      "ts": "2026-11-08T05:25:56+00:00",
+      "cluster": "cdb7e29d64d"
     }
   ],
   "digest_items": [],
