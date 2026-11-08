@@ -1,5 +1,6 @@
 {
   "seen": {
+    "27240718ce4f43fb": 1794145300.5534306,
     "9962fd2f0d4261cc": 1794145052.7865407,
     "7354a1a6ac83ef37": 1794144556.8539293,
     "5946fa6061f741f8": 1794144429.269442,
@@ -2498,8 +2499,7 @@
     "d348e50ea79648d8": 1793550266.1739664,
     "0a1d868ca5dc2ede": 1793550137.9462314,
     "c07f49697e882a2b": 1793550011.9828088,
-    "be0681c49fac3430": 1793549886.8917594,
-    "ae166ebc7f26d061": 1793549823.327995
+    "be0681c49fac3430": 1793549886.8917594
   },
   "initialized": true,
   "v": 4,
@@ -4237,6 +4237,12 @@
       "source": "The Daily News | Texas' Oldest Newspaper",
       "ts": "2026-11-08T13:26:01+00:00",
       "cluster": "c54859dd173"
+    },
+    {
+      "t": "Hardly Anyone Believes UFC CEO Dana White Is Actually Trump’s Pick for Press Secretary",
+      "source": "Jezebel",
+      "ts": "2026-11-08T13:39:36+00:00",
+      "cluster": "ceaeae93961"
     }
   ],
   "digest_items": [],
