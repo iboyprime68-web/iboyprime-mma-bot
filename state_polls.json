@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 33,
+  "cursor": 34,
   "staged_at": [
-    "2026-11-05T17:28:35.629028+00:00",
     "2026-11-06T16:49:28.669773+00:00",
     "2026-11-07T15:45:21.887953+00:00",
-    "2026-11-07T20:18:17.668129+00:00"
+    "2026-11-07T20:18:17.668129+00:00",
+    "2026-11-08T16:05:03.212064+00:00"
   ],
   "asked": [
-    "What is the most embarrassing thing a UFC fighter has ever done outside the octagon?",
     "What is the biggest taunt a fighter has ever pulled off in UFC history?",
     "Whose wrestling is the most overrated in UFC history?",
     "What is the greatest single round in MMA history?",
@@ -47,33 +46,34 @@
     "What is the worst UFC title fight the fans never got to see?",
     "Which farewell fight deserves the biggest send off in UFC history?",
     "What is the most out-of-nowhere fight the UFC could actually book right now?",
-    "What is the most absurd non-fight job a UFC figure has been offered?"
+    "What is the most absurd non-fight job a UFC figure has been offered?",
+    "Which prime version beats everyone on the roster today?"
   ],
   "last_entry": {
-    "q": "What is the most absurd non-fight job a UFC figure has been offered?",
+    "q": "Which prime version beats everyone on the roster today?",
     "type": "poll",
     "options": [
       {
-        "label": "Dana White",
-        "emoji": "🎤",
+        "label": "Prime Anderson",
+        "emoji": "🕷️",
         "art": ""
       },
       {
-        "label": "Trump press job",
-        "emoji": "🏛️",
-        "art": "Podium with microphones in a grand White House briefing room, harsh spotlights, empty chair"
+        "label": "Prime GSP",
+        "emoji": "👑",
+        "art": ""
       },
       {
-        "label": "Khabib's message",
-        "emoji": "💌",
-        "art": "A folded handwritten note beside a football boot under a single warm spotlight"
+        "label": "Prime Fedor",
+        "emoji": "🧊",
+        "art": ""
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "🤡",
+        "label": "Prime Jones",
+        "emoji": "🐐",
         "art": ""
       }
     ],
-    "gag": "A confused octagon cage set up in a press briefing room, reporters wearing tiny gloves"
+    "gag": "a banana in a mouthguard flexing on a podium, lit like a hero"
   }
 }
