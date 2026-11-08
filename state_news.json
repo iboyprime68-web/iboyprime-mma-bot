@@ -1,5 +1,7 @@
 {
   "seen": {
+    "dc5e8c384cbb295a": 1794178462.6291142,
+    "4f9ede19de0bef78": 1794178462.6055963,
     "a755a7c0de6ced6b": 1794178396.300971,
     "45e90a4b402b7009": 1794178396.277962,
     "bc083851247c1d39": 1794178328.188864,
@@ -2497,9 +2499,7 @@
     "40bcafc9f72508b6": 1793561865.9296923,
     "50e8a7a30b7e0031": 1793561674.3346753,
     "8199fa393fa7d4ea": 1793561607.0548058,
-    "4dde6ef56b9ba075": 1793561607.017153,
-    "1dc5479cc80e9034": 1793561563.1332526,
-    "ba8cdda70efe0641": 1793561456.5201766
+    "4dde6ef56b9ba075": 1793561607.017153
   },
   "initialized": true,
   "v": 4,
@@ -4225,6 +4225,12 @@
       "source": "The Lufkin Daily News",
       "ts": "2026-11-08T22:10:35+00:00",
       "cluster": "c19e0367f5b"
+    },
+    {
+      "t": "Trump shares cartoon of UFC CEO Dana White as White House press secretary on Truth Social",
+      "source": "WGME",
+      "ts": "2026-11-08T22:12:05+00:00",
+      "cluster": "c1bfdec4dbb"
     }
   ],
   "digest_items": [],
