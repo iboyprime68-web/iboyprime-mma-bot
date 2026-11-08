@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cbb3406fbb1b3611": 1794145865.7998002,
     "4d0fba5398469ef3": 1794145799.1525812,
     "a01643c90db5430a": 1794145799.1420016,
     "5e02df3047b088ed": 1794145674.8249383,
@@ -2498,8 +2499,7 @@
     "ec3056c112615a07": 1793550775.9281337,
     "5d4c934d20a8dbd9": 1793550712.059057,
     "dead323779f26d12": 1793550648.2177277,
-    "cdc282a17e4b7141": 1793550522.790731,
-    "f572eb9ecd4f5e77": 1793550522.7863386
+    "cdc282a17e4b7141": 1793550522.790731
   },
   "initialized": true,
   "v": 4,
@@ -2527,12 +2527,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-06T15:30:00+00:00",
       "cluster": "c3c24feed21"
-    },
-    {
-      "t": "Carlos Prates: Makhachev and Khabib booking fights when they want is not the right way",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-06T13:50:20+00:00",
-      "cluster": "c9e7b9523c6"
     },
     {
       "t": "The Inner Circle 37 Main Event Result: Tye Ruotolo Dethrones Christian Lee In Round One, Crowned Two-Sport King",
@@ -4243,6 +4237,12 @@
       "source": "Newser",
       "ts": "2026-11-08T13:45:00+00:00",
       "cluster": "cea359f81e0"
+    },
+    {
+      "t": "UFC Vegas 124 Bonuses Revealed as Johnny Walker, Cortes-Acosta Pocket Home $100K Each",
+      "source": "EssentiallySports",
+      "ts": "2026-11-08T13:45:00+00:00",
+      "cluster": "cf57f86167e"
     }
   ],
   "digest_items": [],
