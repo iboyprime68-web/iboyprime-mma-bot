@@ -1,5 +1,6 @@
 {
   "seen": {
+    "405a0c2f0a8431ef": 1794142945.2014234,
     "5b8579d6dde4642f": 1794142899.6962152,
     "6aa0729a26a7dbcc": 1794142861.7028394,
     "e612af2009fd4c99": 1794142803.3011305,
@@ -2498,8 +2499,7 @@
     "f2c35312416ebcaa": 1793545240.0138025,
     "d7a6697f49417ae7": 1793545240.0136368,
     "e51047b3fe03e14a": 1793545240.012738,
-    "ae5ed805ee2f0a16": 1793545240.0121536,
-    "d1a1b9d155e00c1a": 1793545240.01162
+    "ae5ed805ee2f0a16": 1793545240.0121536
   },
   "initialized": true,
   "v": 4,
@@ -2521,12 +2521,6 @@
       "source": "MMA Fighting",
       "ts": "2026-11-06T15:20:00+00:00",
       "cluster": "cf841f27011"
-    },
-    {
-      "t": "UFC Fight Night 293 video: Watch Waldo Cortes-Acosta take out Derrick Lewis",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-06T13:01:50+00:00",
-      "cluster": "c882c10dc95"
     },
     {
       "t": "ONE double champion who said he’d ‘dominate’ Islam Makhachev loses title after tapping out in 1 round",
@@ -4129,6 +4123,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-08T13:00:00+00:00",
       "cluster": "c3dc591a227"
+    },
+    {
+      "t": "Israel Adesanya Heads to Saudi Arabia for Main Event Fight",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-08T06:32:29+00:00",
+      "cluster": "c22ed5f0649"
     }
   ],
   "digest_items": [],
