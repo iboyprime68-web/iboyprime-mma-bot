@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6aa0729a26a7dbcc": 1794142861.7028394,
     "e612af2009fd4c99": 1794142803.3011305,
     "b8f0df062ab10308": 1794142778.0884633,
     "ff8d4d4b3652c80f": 1794142753.0141997,
@@ -2498,8 +2499,7 @@
     "e51047b3fe03e14a": 1793545240.012738,
     "ae5ed805ee2f0a16": 1793545240.0121536,
     "d1a1b9d155e00c1a": 1793545240.01162,
-    "6b6d859cdcd34367": 1793545240.0113354,
-    "10e8c49ac7ddab0b": 1793545240.0104117
+    "6b6d859cdcd34367": 1793545240.0113354
   },
   "initialized": true,
   "v": 4,
@@ -4117,6 +4117,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-08T12:00:00+00:00",
       "cluster": "ca61dfe5eb3"
+    },
+    {
+      "t": "Conor McGregor: ‘It has to be Max Holloway’ for final UFC fight, issues profane warning to lower level fighters",
+      "source": "MMA Fighting",
+      "ts": "2026-11-08T02:16:51+00:00",
+      "cluster": "c33dec654a2"
     }
   ],
   "digest_items": [],
