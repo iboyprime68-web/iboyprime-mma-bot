@@ -1,5 +1,6 @@
 {
   "seen": {
+    "80ea44d96ed2d49d": 1794164133.5915067,
     "d1e06453110535d5": 1794164066.1588352,
     "7fa1c89b5e511807": 1794163871.7837195,
     "fdf4baaa6c4b5ded": 1794163744.4195805,
@@ -2498,8 +2499,7 @@
     "41367233d0886c67": 1793559667.4621606,
     "4733805aaf44226e": 1793559640.871639,
     "352b6f5423dbf427": 1793559640.8564181,
-    "84fba40fbfb46f14": 1793558824.2055275,
-    "a0c5818e898a7e94": 1793556655.6711462
+    "84fba40fbfb46f14": 1793558824.2055275
   },
   "initialized": true,
   "v": 4,
@@ -4249,6 +4249,12 @@
       "source": "MMA Junkie",
       "ts": "2026-11-08T18:50:00+00:00",
       "cluster": "c9e84951f30"
+    },
+    {
+      "t": "Trump posts animated video of Dana White’s UFC staffers beating up press corps",
+      "source": "Washington Examiner",
+      "ts": "2026-11-08T18:50:47+00:00",
+      "cluster": "c6fedf60ac0"
     }
   ],
   "digest_items": [],
