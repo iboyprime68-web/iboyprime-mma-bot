@@ -1,5 +1,8 @@
 {
   "seen": {
+    "f56d54a7d2747529": 1794096856.030357,
+    "48b1b9f545b718db": 1794096856.021543,
+    "a76383e79800e505": 1794096856.000436,
     "e2ea668d27bfdb33": 1794096727.8766105,
     "c9c949811e7ae3f9": 1794096727.8705714,
     "f31319561cdc68fe": 1794096599.8034253,
@@ -2496,10 +2499,7 @@
     "b74927f6931b8fa9": 1793520562.4849646,
     "ed23b3d49610509d": 1793520562.4837308,
     "fcc32ca4475d037b": 1793520498.2897432,
-    "589a55745f67798f": 1793520454.4417694,
-    "be12a379834bfe82": 1793520428.8351355,
-    "82329326eef0d32c": 1793520428.7915092,
-    "cd1f02932f2ab20c": 1793520428.7912748
+    "589a55745f67798f": 1793520454.4417694
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-06T01:00:00+00:00",
       "cluster": "cdfb2e63d7c"
-    },
-    {
-      "t": "Masvidal vs. Chimaev Sparks Strange UFC Reaction. PPD Match",
-      "source": "MMA Sucka",
-      "ts": "2026-11-06T00:14:06+00:00",
-      "cluster": "c125a560fbf"
     },
     {
       "t": "UFC Vegas 124 With Electric Main Card Saturday at Apex",
@@ -3943,6 +3937,12 @@
       "source": "MMA Sucka",
       "ts": "2026-11-08T00:08:27+00:00",
       "cluster": "c856b1fdbc0"
+    },
+    {
+      "t": "Trump Appears To Joke About Offering UFC Boss Dana White Press Secretary Job, But Media Takes It Seriously",
+      "source": "VINnews",
+      "ts": "2026-11-08T00:07:40+00:00",
+      "cluster": "c8a63038120"
     }
   ],
   "digest_items": [],
