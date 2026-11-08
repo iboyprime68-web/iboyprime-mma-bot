@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a68a2e3ae56865c8": 1794115703.5461366,
     "e047da87be5d92a0": 1794115677.7173514,
     "333adfa72b734ed9": 1794115631.727507,
     "06faa357dec81991": 1794115565.1788619,
@@ -2498,8 +2499,7 @@
     "ce20d5ed0c6da70c": 1793531052.369329,
     "26a9162eb4d3a303": 1793531052.369064,
     "c28a2bf763dfd3f4": 1793530984.537118,
-    "691ba50478add33d": 1793530984.49603,
-    "0bb74865858e598f": 1793530858.6016731
+    "691ba50478add33d": 1793530984.49603
   },
   "initialized": true,
   "v": 4,
@@ -3901,6 +3901,12 @@
       "source": "MMA Mania",
       "ts": "2026-11-08T00:11:19+00:00",
       "cluster": "c0e00ef13d7"
+    },
+    {
+      "t": "UFC Vegas 124: Johnny Walker stuns Waldo Cortes-Acosta for second straight win at heavyweight",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-08T04:10:35+00:00",
+      "cluster": "c3c3815a8fc"
     }
   ],
   "digest_items": [],
