@@ -1,5 +1,6 @@
 {
   "seen": {
+    "fa5a697ec44b6ce4": 1794164726.7079883,
     "9a4e744a2055b50f": 1794164662.126772,
     "24030bba50e2872c": 1794164662.1058607,
     "b4fc0267c4ae87d4": 1794164594.5522017,
@@ -2498,8 +2499,7 @@
     "0023e298aaf1e8f9": 1793559992.8559926,
     "7d460ecad1694dde": 1793559992.8175697,
     "7dacad292a33e3c4": 1793559924.1642547,
-    "3b0245627f477aee": 1793559856.1822379,
-    "8f7ceeea6a63784b": 1793559856.1700926
+    "3b0245627f477aee": 1793559856.1822379
   },
   "initialized": true,
   "v": 4,
@@ -4267,6 +4267,12 @@
       "source": "Us Weekly",
       "ts": "2026-11-08T18:54:05+00:00",
       "cluster": "c2b06452b73"
+    },
+    {
+      "t": "Donald Trump proposes Dana White, the head of the UFC, for the position of White House press secretary",
+      "source": "Informat.ro",
+      "ts": "2026-11-08T18:59:41+00:00",
+      "cluster": "ca74819d623"
     }
   ],
   "digest_items": [],
