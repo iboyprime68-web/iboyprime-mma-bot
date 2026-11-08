@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c27a7cdd77f22535": 1794117562.0939467,
     "9388ef957395a0cd": 1794117538.8642745,
     "df8dd4a34c781e7c": 1794117491.9328468,
     "0b8c229a4906a2a5": 1794117430.026387,
@@ -2498,8 +2499,7 @@
     "4657ab2cd4e94b86": 1793541639.0219576,
     "bb1d1a596baf7b4a": 1793541639.0170975,
     "a5d0b2a636c47356": 1793541639.0161102,
-    "4ca95e02a69861fa": 1793541639.0158532,
-    "3681c71af9499106": 1793541639.011247
+    "4ca95e02a69861fa": 1793541639.0158532
   },
   "initialized": true,
   "v": 4,
@@ -4081,6 +4081,12 @@
       "source": "Heavy.com",
       "ts": "2026-11-08T05:24:05+00:00",
       "cluster": "cb142d71610"
+    },
+    {
+      "t": "A taste for good food and brutal knockouts: Carlos Prates on India's charm and his UFC title dream",
+      "source": "The Times of India",
+      "ts": "2026-11-08T05:01:00+00:00",
+      "cluster": "c1d735e4ea6"
     }
   ],
   "digest_items": [],
