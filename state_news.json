@@ -1,5 +1,6 @@
 {
   "seen": {
+    "73408bdf819825ae": 1794143982.463884,
     "eeafbe7aeae1b8dc": 1794143916.532365,
     "8d7c806a64c5a446": 1794143916.497419,
     "94fee2abbbd4859c": 1794143916.4956486,
@@ -2498,8 +2499,7 @@
     "dbfebc1af56ca498": 1793548932.7502203,
     "4d64ed939d5c3269": 1793548932.7495651,
     "d046d0c437c985fc": 1793548932.7475007,
-    "9aa4ba7aeb5053ca": 1793548932.7470946,
-    "6fb6e0b37d027bee": 1793548932.7429621
+    "9aa4ba7aeb5053ca": 1793548932.7470946
   },
   "initialized": true,
   "v": 4,
@@ -4213,6 +4213,12 @@
       "source": "boxingnews.com",
       "ts": "2026-11-08T13:00:59+00:00",
       "cluster": "c07f89cc8b6"
+    },
+    {
+      "t": "UFC Fight Night 293 Promotional Guidelines Compliance pay: Two get highest payout of $16,000",
+      "source": "MMA Junkie",
+      "ts": "2026-11-08T13:01:00+00:00",
+      "cluster": "c982f98af9b"
     }
   ],
   "digest_items": [],
