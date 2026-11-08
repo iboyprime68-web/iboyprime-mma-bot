@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b119ef1174032591": 1794115305.836293,
     "4afd8cf07a35014b": 1794115272.1185744,
     "e24e70cd98c0a89a": 1794115272.10768,
     "3f9f9c8ef7dcee11": 1794115246.6103604,
@@ -2498,8 +2499,7 @@
     "1f8ef8c51ea91204": 1793528828.7323172,
     "4f097372877ac16f": 1793528556.1727993,
     "55f2370096821682": 1793528509.9391916,
-    "df5ffeea80ce0b99": 1793528509.9283965,
-    "2331244930a26a05": 1793528509.8900933
+    "df5ffeea80ce0b99": 1793528509.9283965
   },
   "initialized": true,
   "v": 4,
@@ -3835,6 +3835,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-08T03:35:34+00:00",
       "cluster": "cb6bdde9299"
+    },
+    {
+      "t": "UFC Vegas 124 results: Tatiana Suarez grinds her way to decision win over Virna Jandiroba",
+      "source": "MMA Fighting",
+      "ts": "2026-11-08T03:37:16+00:00",
+      "cluster": "ca3bbec2ca1"
     }
   ],
   "digest_items": [],
