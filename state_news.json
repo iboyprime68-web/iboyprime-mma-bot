@@ -1,5 +1,6 @@
 {
   "seen": {
+    "21bafe1837adb7b9": 1794118319.9628072,
     "5b8543dc84375f59": 1794118252.367542,
     "93c68d8e44f060cb": 1794118252.3556118,
     "c605167c175e2fb4": 1794118252.3539684,
@@ -2498,8 +2499,7 @@
     "10e8c49ac7ddab0b": 1793545240.0104117,
     "2464e7f7e0d56a11": 1793545240.0050943,
     "e2ca7cbf6f8f7090": 1793545240.0034897,
-    "3c58cb93e8966f34": 1793544515.1410034,
-    "efbeaffb20b560f2": 1793544451.1200027
+    "3c58cb93e8966f34": 1793544515.1410034
   },
   "initialized": true,
   "v": 4,
@@ -4147,6 +4147,12 @@
       "source": "MMA Sucka",
       "ts": "2026-11-08T06:03:16+00:00",
       "cluster": "cd9604f8465"
+    },
+    {
+      "t": "UFC Fight Night 293 broadcast team set: Four UFC Hall of Famers at work",
+      "source": "Central Oregon Daily",
+      "ts": "2026-11-08T05:12:49+00:00",
+      "cluster": "c6bd4a7d04d"
     }
   ],
   "digest_items": [],
