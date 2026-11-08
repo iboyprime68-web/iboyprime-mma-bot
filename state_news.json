@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5946fa6061f741f8": 1794144429.269442,
     "9a56165a3a635307": 1794144304.8065255,
     "4e11a455daca75fa": 1794144175.9028559,
     "f059f826194db9d4": 1794144048.0180671,
@@ -2498,8 +2499,7 @@
     "be0681c49fac3430": 1793549886.8917594,
     "ae166ebc7f26d061": 1793549823.327995,
     "2b130eb8209e2fdd": 1793549572.9508073,
-    "b4eeabe47e8a5dae": 1793549497.5109725,
-    "1ad0c12e8f5e298d": 1793549497.459813
+    "b4eeabe47e8a5dae": 1793549497.5109725
   },
   "initialized": true,
   "v": 4,
@@ -4231,6 +4231,12 @@
       "source": "Sportskeeda",
       "ts": "2026-11-08T12:30:00+00:00",
       "cluster": "cd91d0db430"
+    },
+    {
+      "t": "Davey Grant, UFC Fight Night 293 official weigh-ins",
+      "source": "The Daily News | Texas' Oldest Newspaper",
+      "ts": "2026-11-08T13:26:01+00:00",
+      "cluster": "c54859dd173"
     }
   ],
   "digest_items": [],
