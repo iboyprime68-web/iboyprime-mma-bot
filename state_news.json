@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d7b6ab42f35238b1": 1794162097.1011038,
     "776c35fa159e6df6": 1794162071.3970172,
     "2d66fa40d2e6033d": 1794162034.1480143,
     "d5500c6a6d963a8b": 1794162010.892323,
@@ -2498,8 +2499,7 @@
     "180fe944019eab76": 1793552465.5669527,
     "3fd3fe3c6eaed59f": 1793552439.0185683,
     "eb93ec1571103d8b": 1793552395.967401,
-    "6765f2c2fcaab6c5": 1793552348.6072564,
-    "bee188aff9eb7478": 1793552134.3553753
+    "6765f2c2fcaab6c5": 1793552348.6072564
   },
   "initialized": true,
   "v": 4,
@@ -4147,6 +4147,12 @@
       "source": "MMA Mania",
       "ts": "2026-11-08T12:21:28+00:00",
       "cluster": "cad88c367ed"
+    },
+    {
+      "t": "Video: Every UFC Fight Night 293 finish, including Walker’s insane ending",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-08T16:28:00+00:00",
+      "cluster": "caef1a13c26"
     }
   ],
   "digest_items": [],
