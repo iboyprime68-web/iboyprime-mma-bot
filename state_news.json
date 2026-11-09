@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2bbee0777b44b177": 1794263069.2079391,
     "0b500ba9cdfbcbf7": 1794263002.6601593,
     "50aff4ae05ef118f": 1794263002.651212,
     "e0dbfcb0fc27059d": 1794263002.6319642,
@@ -2498,8 +2499,7 @@
     "4091a32b4d414ca8": 1793591259.971732,
     "5a9c13bc3be5ee4f": 1793591259.9695008,
     "567f8848a37271a6": 1793591212.848553,
-    "3daab875ed228f45": 1793591190.943965,
-    "d44c5a62e583a877": 1793589346.7241864
+    "3daab875ed228f45": 1793591190.943965
   },
   "initialized": true,
   "v": 4,
@@ -4093,6 +4093,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-09T21:32:18+00:00",
       "cluster": "ca874f0310f"
+    },
+    {
+      "t": "UFC And DCT Abu Dhabi Partner With Local Non-Profit Organizations As Part Of UFC 333 Fight Week",
+      "source": "UFC.com",
+      "ts": "2026-11-09T21:33:49+00:00",
+      "cluster": "c821579a121"
     }
   ],
   "digest_items": [],
