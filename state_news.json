@@ -3970,7 +3970,6 @@
     0
   ],
   "yt_eval": [
-    "0c7ec985-2ec6-3634-afb4-997e2947d2eb",
     "CBMinwFBVV95cUxPSUtrZUI5M1JiaEdmTUtkTWdIODkxVmJZZVdEN0JlNmVaTkR1ZVI3bkIweVhpUEhZazBMaExBdlFVbXY3UTM5b2VwVzYzUjNvRGduOGhha3psQlVWMWN4M2hBMC1rUk1Ma2REcUhUVnZGQW9UYmJMSlhtYUJ4aVU3M1BlWWo5MlIzZVByX3R6Z2hUNkFYSjR3clhNVmFTVVk",
     "CBMinAFBVV95cUxQTTcyX0VoenZkRTdNZDZoZDRtVkFIbFZIYVFxaUEwR0NfM0RkUHlaNUNHeGZWZ3NvMHZ1UmdOdXJTQWZQNFo4Q0JMNm9qSTh1cGNzUzdKbWtkNnJ2N1Q5aWxvSFd4bml3TmpmaFNxYmhJd2tIUVhKRmI1ZUFQQUZ2Zms2dTVoYzI2VFF2UmRzUl9SYzhfSXRJVEU5LTU",
     "CBMilgFBVV95cUxNQTRBSUZydnN1RkdjVUpRdVZIWFgzUnV6Z21OMVIxUk1SbWdoLUpPbWF0VFNiYW5zaFUtNC00aUFwWDlleGJadENUejJJRDV1MEczbGxnNWYwNlR4U1VTUnJWUWtwRERDcFhtc1EyNFVTakx3d2R4U0dCaWw1eS1hVUdNamRaR190NXFhSnJock5UU1BFM1E",
@@ -5469,24 +5468,17 @@
     "https://bloodyelbow.com/?p=341135",
     "https://bloodyelbow.com/?p=341161",
     "a85674f0-02b3-387d-9648-55bed9eff39c",
-    "https://bloodyelbow.com/?p=341137"
+    "https://bloodyelbow.com/?p=341137",
+    "https://bloodyelbow.com/?p=341145"
   ],
   "daily": {
     "d": "2026-11-09",
-    "ai": 61,
-    "staged": 1,
+    "ai": 63,
+    "staged": 2,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-29T15:33:37.506711+00:00",
-      "t": "Khamzat Chimaev books huge title fight that is set to clash with UFC 334",
-      "names": [
-        "chimaev"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-29T15:34:59.655097+00:00",
       "t": "Matt Brown issues warning that Raoni Barcelos’ medical emergency will happen again: ‘The UFC’s worst nightmare’",
@@ -6805,6 +6797,15 @@
         "buckley",
         "holloway",
         "volkov"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-11-09T22:08:18.572349+00:00",
+      "t": "Magomed Ankalaev wants to join Alex Pereira at heavyweight as he says ‘nobody’ at 205 will fight him",
+      "names": [
+        "ankalaev",
+        "pereira"
       ],
       "img": "photo"
     }
