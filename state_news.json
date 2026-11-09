@@ -1,5 +1,6 @@
 {
   "seen": {
+    "afebb0123c28a48d": 1794262145.8914933,
     "651407d9b54ee42c": 1794262096.9934847,
     "a6ffd93fd1575fc2": 1794262071.1474435,
     "a285ea3dc0930db4": 1794262046.0271962,
@@ -2498,8 +2499,7 @@
     "28488a175e70fa65": 1793583736.7915463,
     "2db984d4c58ecabc": 1793583608.3747523,
     "e8d601b8bf3a02bc": 1793583414.4932683,
-    "095624c3ccebbd17": 1793583283.6771147,
-    "7d9c6e916975a83c": 1793583283.6559396
+    "095624c3ccebbd17": 1793583283.6771147
   },
   "initialized": true,
   "v": 4,
@@ -3961,6 +3961,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-09T16:59:00+00:00",
       "cluster": "c890db2e047"
+    },
+    {
+      "t": "Ciryl Gane Makes Bizarre Assessment of UFC Heavyweight Division in 2026",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-09T12:28:38+00:00",
+      "cluster": "c0aea5e6e2d"
     }
   ],
   "digest_items": [],
