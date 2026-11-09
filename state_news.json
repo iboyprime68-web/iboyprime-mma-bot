@@ -1,5 +1,7 @@
 {
   "seen": {
+    "8bc641312b5bf7a7": 1794191563.657765,
+    "ac8faf4ff97f496c": 1794191563.6427093,
     "8851d71dbd873e0a": 1794191495.226036,
     "542d37286b05203f": 1794191427.228479,
     "6457b01a9d8ebb54": 1794191427.2096474,
@@ -2497,9 +2499,7 @@
     "4c47e5c791f80247": 1793567254.199712,
     "ddd30d357c44e275": 1793567065.3279595,
     "9cbc520e504091fe": 1793566939.1085153,
-    "00f50d026b1b8ecc": 1793566850.984134,
-    "afba3d4b73258c61": 1793566825.5318794,
-    "eb68d6f3b6ddbce9": 1793566802.719501
+    "00f50d026b1b8ecc": 1793566850.984134
   },
   "initialized": true,
   "v": 4,
@@ -4171,6 +4171,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-09T00:41:42+00:00",
       "cluster": "c39192a23f0"
+    },
+    {
+      "t": "Is Dana White Joining The White House? Donald Trump’s Surprise Announcement Takes An Unexpected Turn",
+      "source": "NDTV Sports",
+      "ts": "2026-11-09T01:35:47+00:00",
+      "cluster": "c19ef95a434"
     }
   ],
   "digest_items": [],
