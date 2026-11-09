@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5b679eb070f59e68": 1794264052.210769,
     "f0a1add139bf173c": 1794263985.535756,
     "ffc74a579ed7e64e": 1794263985.5136821,
     "529a5f1168638969": 1794263919.0455763,
@@ -2498,8 +2499,7 @@
     "2591d9425209bda1": 1793593838.0636227,
     "57d67b60e85c6026": 1793593586.368233,
     "400b9229915b7c87": 1793593460.6503818,
-    "491dd53f1087ace0": 1793593460.6495104,
-    "5420fcc04186ddca": 1793593373.486343
+    "491dd53f1087ace0": 1793593460.6495104
   },
   "initialized": true,
   "v": 4,
@@ -4171,6 +4171,12 @@
       "source": "boxingnews.com",
       "ts": "2026-11-09T22:01:25+00:00",
       "cluster": "c874af127a0"
+    },
+    {
+      "t": "Trump holds White House briefing with UFC's Dana White, warns reporters he'll 'beat the hell out of you' in wild presser",
+      "source": "New York Post",
+      "ts": "2026-11-09T22:06:00+00:00",
+      "cluster": "ca231ed3a24"
     }
   ],
   "digest_items": [],
