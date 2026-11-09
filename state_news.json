@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8c59d18735774dfd": 1794264597.771984,
     "f57317099748fbfb": 1794264530.166959,
     "a279a8e23ec9b62f": 1794264484.1212664,
     "b633ada721ed9e26": 1794264484.0946078,
@@ -2498,8 +2499,7 @@
     "f8adc6f960ca99b2": 1793598870.133497,
     "e775663c7edba6dc": 1793598616.9908628,
     "b9a17e86eb539daa": 1793598489.8080497,
-    "b3b5fee32fa1e506": 1793598383.176843,
-    "591f08eeb3f81aa4": 1793598169.015592
+    "b3b5fee32fa1e506": 1793598383.176843
   },
   "initialized": true,
   "v": 4,
@@ -4207,6 +4207,12 @@
       "source": "Yahoo News UK",
       "ts": "2026-11-09T22:25:08+00:00",
       "cluster": "c1d890cc351"
+    },
+    {
+      "t": "Video Trump discusses Iran war, Dana White",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "ts": "2026-11-09T22:25:46+00:00",
+      "cluster": "c24c1e4ef2e"
     }
   ],
   "digest_items": [],
