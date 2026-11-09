@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3b2630c18288b3c9": 1794223343.9113052,
     "7bd9fcb808126863": 1794223236.4092884,
     "8e816435d50395f5": 1794223173.4611404,
     "5fd4a25745debf9a": 1794223173.440686,
@@ -2498,8 +2499,7 @@
     "38540ce8857e4779": 1793578097.4429219,
     "66f3890bd6ec2c7e": 1793578097.4111016,
     "8a129fb1b441535a": 1793578031.0998821,
-    "d6d39057994dd930": 1793578005.7652726,
-    "6f1ed7ddf5e8df69": 1793577959.7906435
+    "d6d39057994dd930": 1793578005.7652726
   },
   "initialized": true,
   "v": 4,
@@ -4243,6 +4243,12 @@
       "source": "SBS 뉴스",
       "ts": "2026-11-09T11:16:07+00:00",
       "cluster": "c25ea62d8ef"
+    },
+    {
+      "t": "ONE Championship will stage ONE 174 in Shanghai on December 12, marking its first flagship event in China in seven years.",
+      "source": "@nickatkinone",
+      "ts": "2026-11-09T04:32:33.854000+00:00",
+      "cluster": "cbce2e14483"
     }
   ],
   "digest_items": [],
