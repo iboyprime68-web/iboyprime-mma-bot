@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a6ffd93fd1575fc2": 1794262071.1474435,
     "a285ea3dc0930db4": 1794262046.0271962,
     "275a3f23da270e10": 1794262019.857218,
     "9531db6e1ba5755b": 1794262019.834279,
@@ -2498,8 +2499,7 @@
     "e8d601b8bf3a02bc": 1793583414.4932683,
     "095624c3ccebbd17": 1793583283.6771147,
     "7d9c6e916975a83c": 1793583283.6559396,
-    "715e46625ee041f9": 1793583089.942538,
-    "59d2be3c1e7c6c8c": 1793583089.922003
+    "715e46625ee041f9": 1793583089.942538
   },
   "initialized": true,
   "v": 4,
@@ -3949,6 +3949,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-09T12:00:07+00:00",
       "cluster": "cf1c9ce818a"
+    },
+    {
+      "t": "Why Josh Hokit takes confidence from Jon Jones submitting Ciryl Gane in 124 seconds",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-09T16:00:00+00:00",
+      "cluster": "c2f05984b52"
     }
   ],
   "digest_items": [],
