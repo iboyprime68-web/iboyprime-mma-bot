@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8851d71dbd873e0a": 1794191495.226036,
     "542d37286b05203f": 1794191427.228479,
     "6457b01a9d8ebb54": 1794191427.2096474,
     "c8aa6da988aeec9f": 1794191427.207236,
@@ -2498,8 +2499,7 @@
     "9cbc520e504091fe": 1793566939.1085153,
     "00f50d026b1b8ecc": 1793566850.984134,
     "afba3d4b73258c61": 1793566825.5318794,
-    "eb68d6f3b6ddbce9": 1793566802.719501,
-    "629f11d00ea7d0ad": 1793566802.717359
+    "eb68d6f3b6ddbce9": 1793566802.719501
   },
   "initialized": true,
   "v": 4,
@@ -4165,6 +4165,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-09T00:40:24+00:00",
       "cluster": "cfcebf7ad64"
+    },
+    {
+      "t": "Johnny Walker Open to UFC 334 Backup Spot for Title Fight",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-09T00:41:42+00:00",
+      "cluster": "c39192a23f0"
     }
   ],
   "digest_items": [],
