@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1af3da506ec2d22b": 1794317789.112332,
     "cee644c52c6ca4e1": 1794317722.345295,
     "0cdac0667c44b100": 1794317653.8567762,
     "b261798d01628828": 1794317653.8473945,
@@ -2498,8 +2499,7 @@
     "f4d5433537d1f75d": 1793621697.7882714,
     "2894ecdf115011f1": 1793621571.6266737,
     "d8f7b7ffa0058336": 1793621380.7947302,
-    "cbbe9b4d439d0ab8": 1793621357.8853083,
-    "46b67cefe4910b50": 1793621314.9450674
+    "cbbe9b4d439d0ab8": 1793621357.8853083
   },
   "initialized": true,
   "v": 4,
@@ -3943,6 +3943,12 @@
       "source": "MMA Sucka",
       "ts": "2026-11-10T13:08:13+00:00",
       "cluster": "ce3bb94bb33"
+    },
+    {
+      "t": "UFC President & CEO Dana White officially squashes Trump press secretary question",
+      "source": "Sports Business Journal",
+      "ts": "2026-11-10T13:09:32+00:00",
+      "cluster": "c8d96a7c150"
     }
   ],
   "digest_items": [],
