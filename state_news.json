@@ -1,5 +1,8 @@
 {
   "seen": {
+    "a9792f692ed72601": 1794287570.0434105,
+    "738430dbcecee278": 1794287570.0259674,
+    "4104d514207595de": 1794287570.0252898,
     "6a9a5b54aaeeae68": 1794287296.1524863,
     "9e03d7a8632e2da7": 1794287296.1473482,
     "68f1ee7a3aadb9d4": 1794287296.1463184,
@@ -2496,10 +2499,7 @@
     "e450cf237bda7533": 1793620317.274304,
     "8acbc3c09917d3ac": 1793620251.0566165,
     "6ca92c9bdba7307c": 1793620184.3559139,
-    "788181c4c27e146d": 1793620184.3143542,
-    "2044e95128a05420": 1793620184.3126402,
-    "d124278bd54a3012": 1793620184.3123176,
-    "d6be27fa80e763a6": 1793620116.8771746
+    "788181c4c27e146d": 1793620184.3143542
   },
   "initialized": true,
   "v": 4,
@@ -2511,28 +2511,10 @@
       "cluster": "cc73b04cd12"
     },
     {
-      "t": "Johnny Walker def. Waldo Cortes Acosta, Fight Night 293: Best photos",
-      "source": "MMA Junkie",
-      "ts": "2026-11-08T05:11:00+00:00",
-      "cluster": "c2a84613031"
-    },
-    {
-      "t": "Did Trump confuse Dana White with Dana W. White? Internet abuzz over Trump’s press secretary offer",
-      "source": "Firstpost",
-      "ts": "2026-11-08T05:11:24+00:00",
-      "cluster": "ca60f7298b6"
-    },
-    {
       "t": "Bonuses! Elijah Smith banks $100K after becoming first fighter to knock out Davey Grant &#124; UFC Vegas 124",
       "source": "MMA Mania",
       "ts": "2026-11-08T05:17:27+00:00",
       "cluster": "c56e4724764"
-    },
-    {
-      "t": "UFC chief Dana declines Trump’s unconventional White House offer",
-      "source": "samaa tv",
-      "ts": "2026-11-08T05:12:13+00:00",
-      "cluster": "ce2f1130fcd"
     },
     {
       "t": "Main Card Results | UFC Fight Night: Cortes Acosta vs Walker",
@@ -4099,6 +4081,12 @@
       "source": "Sherdog",
       "ts": "2026-11-10T02:33:08+00:00",
       "cluster": "c883651e49c"
+    },
+    {
+      "t": "Robert Whittaker wasn't a Josh Hokit fan until one bizarre stunt",
+      "source": "Sherdog",
+      "ts": "2026-11-10T02:59:45+00:00",
+      "cluster": "c511c12b0c9"
     }
   ],
   "digest_items": [],
