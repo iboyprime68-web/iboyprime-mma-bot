@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6b449f6319b135b9": 1794316851.7606475,
     "b44d5dbd43d73f1b": 1794316826.1280446,
     "d82ece9c8e802b4e": 1794316784.4785783,
     "2def59a402057b61": 1794316758.236944,
@@ -2498,8 +2499,7 @@
     "c13f97f52da7ebd8": 1793620597.1546383,
     "ed37d7270ea8c95f": 1793620597.1213675,
     "391985505a623112": 1793620519.8986845,
-    "f2c95b5abf715eaf": 1793620519.8653765,
-    "226def41203fafc7": 1793620519.8632827
+    "f2c95b5abf715eaf": 1793620519.8653765
   },
   "initialized": true,
   "v": 4,
@@ -3853,6 +3853,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-10T05:44:56+00:00",
       "cluster": "cac5408b781"
+    },
+    {
+      "t": "Morning Report &#124; Sean O’Malley is rooting for Josh Hokit at UFC 334 so he can continue to be ‘an absolute menace to the UFC’",
+      "source": "MMA Fighting",
+      "ts": "2026-11-10T13:03:12+00:00",
+      "cluster": "c603c0a68fa"
     }
   ],
   "digest_items": [],
