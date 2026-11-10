@@ -3856,7 +3856,6 @@
     0
   ],
   "yt_eval": [
-    "CBMinwNBVV95cUxOMUxST2g4VUplbjJGSmVtZUlCMHdvMkgzYVU4OXAxX19aV1BBSkZRMWZpZnpSWlFPT0IxYlBQQnpKUzB4WVVZaFlCQ3JVdVhzdHBnSGFBWGNzS2JwVzhSR2tNNTRqZ0U0T3Q4ZFNQeDlnYWF4SUN5XzM4ZlB5YXFMWE5aa0lJeVRvVVg0WDRBZ3JnRnJIMWpSbmNnZFAySjN2Tk8tWEQ5aUEwQUZXLTZacERILUlyZmt6RU53a0JfcWw4c24wR1BuYlRMYzZxdzRvWDd3YWsxWl9wMUZIZFpLZHJ5UjZzRE1lbVVOUnRCRi1EY3UxMjRzMEUySlZSelFfamlIaldLLS05QXdZQ0I1elpLLXBCaFFwc2ZsRUhHbi1fU2ZUWXVIQkotZ2M1dGZrNkYxTy1EaFlhcW1mbUgxRFk5WW1XSW5DODg3cG8tYXlMb1VDc1llWDBGN2hDQ0RsMExTWlN2TGVKM21id1BmZGhHNUcwb0J2cWZQSm43a1gyUGctNS1fOExMZU5aSUFoTnpGanBjNi0xVVA0RllB",
     "https://www.mmafighting.com/?p=518092",
     "https://bloodyelbow.com/?p=339780",
     "CBMipANBVV95cUxQVXR2UXFHWWRlUXltVDdRRVlXaWx6VzZpOHF0V3B1eG1wckFQU3V3djgtQWdTcFZVLUlLSVBMR2pLUGg1RjNKNFdlY1BCZW9xMFVaR0xackdFYUhVM0lyejJFbFFOUm1pWVBnX1lNai1jdkJ6ZWJDQ2phNVBUajZKUklHNFhkTnpCM0hqb2xteXREek1OamN0M29YYkZOWDRXSHp5VTR2LTZsQVFETkM5dFlBVmpDUnZwbDduR2t1UXhUN0ZKSTZOVktmRDNBNDhkc0pZSjlQV1VPY3ExVGc2ZjBUd1VneFJVRFFUSXZ3VEhZNmdacWFpRmMxaEk0MXpBblJ1OUNaSTJWSUdHaXRQWlpBMkNNd1VPaFhwVG9UV3FKaUhBLU5SZDRRYkVBMTdCX2xkWTNZc2x4X1loVGFjelprV0tFN3pBcVZBQWRiS29PVFZPUEEwZDRDcnNkZXVMR2FXa2NVb3ZlUW01ZjJfQlBNRmFMMW5ZeURtX04yeG1GQWhBckpsMjRmLVE5RGJhRkdKdXYyQ0ROX213VDJDVXcyNm0",
@@ -5355,25 +5354,17 @@
     "https://bloodyelbow.com/?p=341244",
     "https://www.sherdog.com/news/news/Sean-Strickland-lets-Amazon-driver-ride-his-dirt-bike-and-it-goes-wrong-203570",
     "https://www.sherdog.com/news/news/Johnny-Walker-says-his-brothers-jokes-hurt-his-wife-and-mother-203571",
-    "https://bloodyelbow.com/?p=341249"
+    "https://bloodyelbow.com/?p=341249",
+    "https://bloodyelbow.com/?p=341268"
   ],
   "daily": {
     "d": "2026-11-10",
-    "ai": 43,
+    "ai": 45,
     "staged": 0,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-29T15:35:29.369280+00:00",
-      "t": "Jiri Prochazka’s return vs 11-0 contender to headline stacked UFC Qatar card",
-      "names": [
-        "prochazka",
-        "qatar"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-29T15:47:27.103797+00:00",
       "t": "The Painful Plight of Tom Aspinall as Brit Officially Vacates UFC Heavyweight Title",
@@ -6694,6 +6685,17 @@
         "hearn"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-10T13:19:45.958412+00:00",
+      "t": "Mackenzie Dern’s next UFC title defense in the works as 13-3 contender picked over Tatiana Suarez",
+      "names": [
+        "dern",
+        "tatiana",
+        "suarez",
+        "gomes"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -6825,15 +6827,16 @@
     "96618c59a5a0cf83": 1793880875.614378,
     "71fe1e5ffd5337a0": 1793980411.7317688,
     "6edfda0154306512": 1794081857.1813946,
-    "5b8579d6dde4642f": 1794142917.489338
+    "5b8579d6dde4642f": 1794142917.489338,
+    "d82ece9c8e802b4e": 1794316798.325707
   },
   "pinged_titles": [
     [
-      "Justin Gaethje’s manager responds after fans back Ilia Topuria’s pursuit of a rematch",
-      1794142917.489338,
+      "Mackenzie Dern’s next UFC title defense in the works as 13-3 contender picked over Tatiana Suarez",
+      1794316798.325707,
       [
-        "gaethje",
-        "topuria"
+        "dern",
+        "suarez"
       ]
     ]
   ]
