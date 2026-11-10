@@ -1,5 +1,7 @@
 {
   "seen": {
+    "15880a26ef064daa": 1794286819.5597079,
+    "3808ede899584b07": 1794286819.5424683,
     "0df8e8f5c2c13a67": 1794286751.7064824,
     "b4ee7b9fd5bf6ed6": 1794286751.7009394,
     "447f7315455c8e8d": 1794286751.6969595,
@@ -2497,9 +2499,7 @@
     "dda7c9925d0de7b3": 1793611517.5422144,
     "8ffca9e128356c5a": 1793611454.931484,
     "5047d835946ed23b": 1793611269.2829247,
-    "2d4ff15317206572": 1793611202.8556497,
-    "69ceba668dd5eddc": 1793611014.5278463,
-    "b580619e261dbf97": 1793610948.5978184
+    "2d4ff15317206572": 1793611202.8556497
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-08T05:28:11+00:00",
       "cluster": "cc73b04cd12"
-    },
-    {
-      "t": "Elijah Smith speaks to UFC brass after final fight on contract",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-08T05:00:00+00:00",
-      "cluster": "c04ba15c431"
     },
     {
       "t": "Adesanya Faces Magomedov At UFC Saudi Arabia",
@@ -4087,12 +4081,18 @@
       "source": "Sherdog",
       "ts": "2026-11-10T04:51:22+00:00",
       "cluster": "c8a8285303f"
+    },
+    {
+      "t": "White House reporters got a two-minute warning. Then Dana White walked in",
+      "source": "SMH.com.au",
+      "ts": "2026-11-10T04:51:53+00:00",
+      "cluster": "c4054fe7e88"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-11-10T04",
+    "2026-11-10T05",
     0
   ],
   "yt_eval": [
