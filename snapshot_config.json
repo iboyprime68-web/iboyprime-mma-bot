@@ -861,6 +861,17 @@
           "deny": "0"
         }
       ]
+    },
+    {
+      "id": "1569465878205169768",
+      "name": "server-hub",
+      "type": 20,
+      "parent_id": null,
+      "position": 0,
+      "topic": null,
+      "rate_limit_per_user": 0,
+      "nsfw": false,
+      "overwrites": []
     }
   ],
   "roles": [
