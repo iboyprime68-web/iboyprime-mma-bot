@@ -1,5 +1,6 @@
 {
   "seen": {
+    "87b2a6ba9bb4f108": 1794343538.2818859,
     "3af5f8516aa74728": 1794343513.1323886,
     "815972961798e3de": 1794343485.2667582,
     "45ebda5a7db296c6": 1794343459.0327694,
@@ -2498,8 +2499,7 @@
     "a9658d385c4da625": 1793627274.897995,
     "99c9df8fb1323246": 1793627148.8837655,
     "3a7b5830aeaefa0c": 1793626838.591146,
-    "7c193982371687b0": 1793626688.3752604,
-    "50d6c3c03af80c08": 1793626521.9331245
+    "7c193982371687b0": 1793626688.3752604
   },
   "initialized": true,
   "v": 4,
@@ -3817,6 +3817,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-10T14:40:17+00:00",
       "cluster": "c99ec1eddc9"
+    },
+    {
+      "t": "Former MMA double champion who wants to fight Alexander Volkanovski breaks into the UFC rankings",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-10T16:30:00+00:00",
+      "cluster": "c9eece75fb7"
     }
   ],
   "digest_items": [],
