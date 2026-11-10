@@ -1,5 +1,8 @@
 {
   "seen": {
+    "9da0fb35a81ad07e": 1794345684.0216663,
+    "2fe57541c45d0e5c": 1794345684.0131428,
+    "5909f3f70eb1602f": 1794345683.9924326,
     "bde621af9a846edf": 1794345615.840152,
     "4a68fe382be5bb25": 1794345547.2984312,
     "adc3205b136fae89": 1794345547.2772818,
@@ -2496,10 +2499,7 @@
     "9df9b3cecf1c51fe": 1793635003.857365,
     "b8d7d2496b860528": 1793635003.8284066,
     "3b601201d606668f": 1793634808.585126,
-    "9ad827a449a7407c": 1793634808.561314,
-    "318b14f36321b276": 1793634808.5598266,
-    "e1c582325d113b8a": 1793634740.0580137,
-    "ee74fcb088c7cbcb": 1793634740.0350158
+    "9ad827a449a7407c": 1793634808.561314
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-08T22:00:00+00:00",
       "cluster": "ccb2c853665"
-    },
-    {
-      "t": "Elijah Smith positive after finishing UFC contract with KO win: 'We're on to something'",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-08T21:20:26+00:00",
-      "cluster": "c02c4b49fac"
     },
     {
       "t": "Johnny Walker Ready To Save UFC Heavyweight Title Fight If Needed",
@@ -4051,6 +4045,12 @@
       "source": "MMA Sucka",
       "ts": "2026-11-10T21:18:25+00:00",
       "cluster": "c37e06bd94a"
+    },
+    {
+      "t": "Ex-Champ Bets 200K on Josh Hokit vs Ciryl Gane at UFC 334",
+      "source": "MMA Sucka",
+      "ts": "2026-11-10T21:18:27+00:00",
+      "cluster": "c8317772fbe"
     }
   ],
   "digest_items": [],
