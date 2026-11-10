@@ -1,5 +1,6 @@
 {
   "seen": {
+    "09991a977097563b": 1794317519.5641127,
     "ce8e20e9dbbd7b07": 1794317452.2319832,
     "0b00a30d5e3b750f": 1794317425.969899,
     "3c7a08080c26cca3": 1794317380.6890788,
@@ -2498,8 +2499,7 @@
     "447f3030a9ac8a1c": 1793621185.4398303,
     "93b72a8a81d08c1c": 1793621185.4084334,
     "d459a2ea3b9f9b86": 1793621185.4061837,
-    "005e5d9b8be037fd": 1793621185.405709,
-    "2aea7e47ec0e4d17": 1793621124.5129719
+    "005e5d9b8be037fd": 1793621185.405709
   },
   "initialized": true,
   "v": 4,
@@ -3919,6 +3919,12 @@
       "source": "Yahoo",
       "ts": "2026-11-10T12:56:57+00:00",
       "cluster": "c615d3c841f"
+    },
+    {
+      "t": "Chris Weidman opens up about his imminent clash with Khamzat Chimaev at RAF Abu Dhabi",
+      "source": "MMA Sucka",
+      "ts": "2026-11-10T12:58:21+00:00",
+      "cluster": "c6de3078477"
     }
   ],
   "digest_items": [],
