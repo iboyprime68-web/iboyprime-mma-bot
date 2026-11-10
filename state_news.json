@@ -1,5 +1,6 @@
 {
   "seen": {
+    "318af654ab1630c7": 1794344373.1588085,
     "7d4bc762decae320": 1794344305.2155833,
     "c6d3c7d836fa8a34": 1794344237.0803561,
     "4672d3b5b51200b4": 1794344169.6376593,
@@ -2498,8 +2499,7 @@
     "84574aed92e41a18": 1793629583.1261191,
     "ecf501efcac13fc3": 1793629270.3572774,
     "95e3b6ddcc43def0": 1793629082.6645985,
-    "32bab9f166bd163b": 1793629082.6638966,
-    "ffca498c78885389": 1793628957.432152
+    "32bab9f166bd163b": 1793629082.6638966
   },
   "initialized": true,
   "v": 4,
@@ -3931,6 +3931,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-10T20:18:52+00:00",
       "cluster": "cc8d6eef042"
+    },
+    {
+      "t": "Latest UFC Saudi Arabia fight card, Paramount+ start time, date and location &#124; Adesanya vs. Shara Bullet",
+      "source": "MMA Mania",
+      "ts": "2026-11-10T17:32:05+00:00",
+      "cluster": "c185a11241c"
     }
   ],
   "digest_items": [],
