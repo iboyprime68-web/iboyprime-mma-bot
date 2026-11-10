@@ -3838,7 +3838,6 @@
     0
   ],
   "yt_eval": [
-    "CBMihAFBVV95cUxOSHkzTms4cjFNOGxPRmY3eW55TnhWTGxNbVRoYmVvd2ZWMW5feU5oNUNENXZHUVpmdTA0THlVclVUMmJKMHFhUE00aXA2MEdpU2gxTTlMMDdKRGRPV29PUGdwWGJ0SVB2YkF5Y3hRZldhVTM4WHduLS11dHJFRWhoSTBtb00",
     "https://www.mmafighting.com/?p=518435",
     "https://bloodyelbow.com/?p=339803",
     "CBMiowFBVV95cUxOd0lOZjNUOEY2dnF0Vzl3Mm4taWRZVFNCVzkwOUFkMDVaNmQwUjJvSmFnVWpPUmNwQWhzVUdDLVNySWZjRDlMaE5nYTZKc1RZeHhLZUJ4N3dEOUVhMmpxWUxfTWtJbV8xdzN3bExhRWw5UWV5QTVyN3pQMU9mSTNPLUV5QkswWm1peTZ5dUJQSm54RXQxcnV5aXlqdjVJLUUwZWxN",
@@ -5337,24 +5336,17 @@
     "https://bloodyelbow.com/?p=341278",
     "https://www.mmafighting.com/?p=520312",
     "60f5190c-f393-3636-9ae8-3ff84bc3f89f",
-    "https://bloodyelbow.com/?p=341300"
+    "https://bloodyelbow.com/?p=341300",
+    "https://bloodyelbow.com/?p=341335"
   ],
   "daily": {
     "d": "2026-11-10",
-    "ai": 80,
+    "ai": 82,
     "staged": 1,
-    "prio": 1,
+    "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-29T20:33:56.434405+00:00",
-      "t": "UFC 334 takes big hit as Khamzat Chimaev’s undefeated teammate withdraws from event",
-      "names": [
-        "chimaev"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-30T00:10:36.476078+00:00",
       "t": "Josh Hokit has been ‘blocked’ on everything by UFC heavyweight who does not like him one bit",
@@ -6677,6 +6669,18 @@
         "gane"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-10T20:46:06.883717+00:00",
+      "t": "Jake Paul mocks Paris ‘burning down’ in fiery first meeting with Cedric Doumbe",
+      "names": [
+        "paul",
+        "cedric",
+        "doumbe",
+        "christmas",
+        "eve"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -6809,15 +6813,16 @@
     "71fe1e5ffd5337a0": 1793980411.7317688,
     "6edfda0154306512": 1794081857.1813946,
     "5b8579d6dde4642f": 1794142917.489338,
-    "d82ece9c8e802b4e": 1794316798.325707
+    "d82ece9c8e802b4e": 1794316798.325707,
+    "5d9258aea9151462": 1794343577.1593542
   },
   "pinged_titles": [
     [
-      "Mackenzie Dern’s next UFC title defense in the works as 13-3 contender picked over Tatiana Suarez",
-      1794316798.325707,
+      "Jake Paul mocks Paris ‘burning down’ in fiery first meeting with Cedric Doumbe",
+      1794343577.1593542,
       [
-        "dern",
-        "suarez"
+        "doumbe",
+        "paul"
       ]
     ]
   ]
