@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0b00a30d5e3b750f": 1794317425.969899,
     "3c7a08080c26cca3": 1794317380.6890788,
     "6813cf30345b08c0": 1794317380.660991,
     "267e3ba8d4b93dc2": 1794317311.5853343,
@@ -2498,8 +2499,7 @@
     "d459a2ea3b9f9b86": 1793621185.4061837,
     "005e5d9b8be037fd": 1793621185.405709,
     "2aea7e47ec0e4d17": 1793621124.5129719,
-    "2346ab2146a622c6": 1793621058.0678174,
-    "20740d1c5c8e3fea": 1793621058.0315542
+    "2346ab2146a622c6": 1793621058.0678174
   },
   "initialized": true,
   "v": 4,
@@ -3907,6 +3907,12 @@
       "source": "journal.com.ph",
       "ts": "2026-11-10T12:51:50+00:00",
       "cluster": "c763a7395ce"
+    },
+    {
+      "t": "Khabib Nurmagomedov’s cousin pulls out of first MMA fight since his UFC release three years ago",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-10T13:30:00+00:00",
+      "cluster": "cedd4d4290f"
     }
   ],
   "digest_items": [],
