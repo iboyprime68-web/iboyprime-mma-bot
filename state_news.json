@@ -1,5 +1,6 @@
 {
   "seen": {
+    "607d53f9aa7e18f8": 1794286259.838387,
     "db0e10a9dcbb8236": 1794286191.9852555,
     "711213dd1432248d": 1794286124.1313508,
     "bc43f99679b3cb75": 1794286056.7388887,
@@ -2498,8 +2499,7 @@
     "0ee5510e48927dac": 1793607056.3991764,
     "a6d6f9d958cde3b5": 1793606803.2194211,
     "43acb8188d831059": 1793606676.1536348,
-    "7dbc569b204cf5d9": 1793606548.821343,
-    "41e44639a2bc37c8": 1793606484.4327002
+    "7dbc569b204cf5d9": 1793606548.821343
   },
   "initialized": true,
   "v": 4,
@@ -4057,6 +4057,12 @@
       "source": "The Singju Post",
       "ts": "2026-11-10T04:06:36+00:00",
       "cluster": "c9c89536d3e"
+    },
+    {
+      "t": "'I have zero political ambitions’: UFC CEO Dana White participates in White House press briefing",
+      "source": "The Economic Times",
+      "ts": "2026-11-10T04:10:00+00:00",
+      "cluster": "c72ee0e56c4"
     }
   ],
   "digest_items": [],
