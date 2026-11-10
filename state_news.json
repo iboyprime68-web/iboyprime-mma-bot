@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e1908a6375d640a5": 1794286464.1442943,
     "c189bdd5633e3f65": 1794286396.5216446,
     "ef1d444d4e836545": 1794286328.5758433,
     "607d53f9aa7e18f8": 1794286259.838387,
@@ -2498,8 +2499,7 @@
     "2b6531648323beb0": 1793607941.9741125,
     "59dae99f8656aaaa": 1793607499.8449948,
     "79b8a5e538c8a699": 1793607373.1315033,
-    "0ee5510e48927dac": 1793607056.3991764,
-    "a6d6f9d958cde3b5": 1793606803.2194211
+    "0ee5510e48927dac": 1793607056.3991764
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-08T05:28:11+00:00",
       "cluster": "cc73b04cd12"
-    },
-    {
-      "t": "UFC Fight Night 293 bonuses: Walker winds up, worms way to wicked $100K",
-      "source": "MMA Junkie",
-      "ts": "2026-11-08T04:54:00+00:00",
-      "cluster": "c3504f5769a"
     },
     {
       "t": "Johnny Walker: Entrevista Octágono",
@@ -2593,12 +2587,6 @@
       "source": "Mahoning Matters",
       "ts": "2026-11-08T05:15:08+00:00",
       "cluster": "c89edfb7df9"
-    },
-    {
-      "t": "Ian Machado Garry to Co-Headline UFC Saudi Arabia as Israel Adesanya Takes on Shara Magomedov in the Main Event",
-      "source": "Yardbarker",
-      "ts": "2026-11-08T04:53:56+00:00",
-      "cluster": "cc352710061"
     },
     {
       "t": "UFC CEO Dana White in talks to become White House press sec",
@@ -4075,6 +4063,12 @@
       "source": "NY Fights",
       "ts": "2026-11-10T04:10:43+00:00",
       "cluster": "c45910b7411"
+    },
+    {
+      "t": "Dana White Walked Into the White House Briefing Room, Opened With His UFC Line, Then Turned Down the President",
+      "source": "Yardbarker",
+      "ts": "2026-11-10T04:11:24+00:00",
+      "cluster": "c2c7f771e33"
     }
   ],
   "digest_items": [],
