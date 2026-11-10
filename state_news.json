@@ -1,5 +1,7 @@
 {
   "seen": {
+    "0448a722f2d2f90c": 1794285984.8372982,
+    "e99acbcabb2df600": 1794285984.8312016,
     "5c68f78146cb8bce": 1794285917.0198874,
     "f0a965ad5011e121": 1794285850.055364,
     "8a2549a4fa85d580": 1794285782.9757185,
@@ -2497,9 +2499,7 @@
     "f9aadf595ef18423": 1793606484.4223619,
     "5c3c37d6299c66b5": 1793606484.4204364,
     "4344a87c73138423": 1793606484.4195838,
-    "33dddd9ee455e1a9": 1793606484.4180598,
-    "56feae87ad54a44b": 1793606415.557217,
-    "e06fef5007dafd2b": 1793606415.522432
+    "33dddd9ee455e1a9": 1793606484.4180598
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-08T05:28:11+00:00",
       "cluster": "cc73b04cd12"
-    },
-    {
-      "t": "Israel Adesanya vs. Sharabutdin Magomedov set to headline UFC Riyadh",
-      "source": "Sherdog",
-      "ts": "2026-11-08T04:45:23+00:00",
-      "cluster": "c7411bb27c8"
     },
     {
       "t": "UFC Fight Night 293 bonuses: Walker winds up, worms way to wicked $100K",
@@ -4033,6 +4027,12 @@
       "source": "The National Herald",
       "ts": "2026-11-10T03:52:36+00:00",
       "cluster": "cee2865cdb8"
+    },
+    {
+      "t": "Chris Weidman replaces Colby Covington to face Khamzat Chimaev at RAF Abu Dhabi",
+      "source": "Gulf News",
+      "ts": "2026-11-10T03:54:26+00:00",
+      "cluster": "cf61f0ab0f4"
     }
   ],
   "digest_items": [],
