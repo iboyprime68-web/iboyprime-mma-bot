@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e3dd6f874582b406": 1794439966.098774,
     "7932f4cbc0af2ceb": 1794439940.0512605,
     "f7c567b15a2b9236": 1794439893.7829475,
     "b9f77fab5258833a": 1794439868.5939426,
@@ -2498,8 +2499,7 @@
     "a22cd9fbc638d2a5": 1793693064.6766074,
     "a3f202ad245ef73d": 1793693064.6751935,
     "3e29d2dd6fc707c7": 1793692754.094007,
-    "94ea58b66a99bbda": 1793692688.2433224,
-    "28073c286ba721f4": 1793692625.5547037
+    "94ea58b66a99bbda": 1793692688.2433224
   },
   "initialized": true,
   "v": 4,
@@ -4003,6 +4003,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-11T18:20:00+00:00",
       "cluster": "c9d83525560"
+    },
+    {
+      "t": "Islam Makhachev defends Usman Nurmagomedov, condemns Merab Dvalishvili’s past behavior",
+      "source": "MMA Fighting",
+      "ts": "2026-11-11T22:16:11+00:00",
+      "cluster": "cb00bfb43f7"
     }
   ],
   "digest_items": [],
