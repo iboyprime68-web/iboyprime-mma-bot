@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d2790b1a522a2793": 1794440297.7824094,
     "89e864371e13e31d": 1794440229.593923,
     "2b59fa4d94712b6c": 1794440161.4211185,
     "bad5211ecdaafc1c": 1794440113.8455665,
@@ -2498,8 +2499,7 @@
     "022b1c5e363a5dda": 1793693383.4477048,
     "44a949ca3bba015e": 1793693383.4466937,
     "299e40a21faffe2f": 1793693259.355714,
-    "bd60872ee9b92beb": 1793693259.355149,
-    "277211dc81ede40e": 1793693196.6554983
+    "bd60872ee9b92beb": 1793693259.355149
   },
   "initialized": true,
   "v": 4,
@@ -4039,6 +4039,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-11T19:40:16+00:00",
       "cluster": "ce1293fefc3"
+    },
+    {
+      "t": "UFC 334 full card predictions: Is Josh Hokit really the next heavyweight champ?",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-11T19:48:19+00:00",
+      "cluster": "cdadd56cded"
     }
   ],
   "digest_items": [],
