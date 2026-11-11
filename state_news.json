@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d88d2bd8d1fc0e86": 1794419192.0393946,
     "1de878d00cfa5ff0": 1794419127.229189,
     "866ba6a58f7da5f1": 1794419059.2262022,
     "51d3609051c6915b": 1794418990.5350006,
@@ -2498,8 +2499,7 @@
     "f5cdd52564964412": 1793691918.3640988,
     "fc15316b7cb8700e": 1793691893.730314,
     "2f07a372e5fd802f": 1793691851.1587102,
-    "fe917ff72f5c1aa8": 1793691826.1429846,
-    "45a29f04f69cbc72": 1793691826.117725
+    "fe917ff72f5c1aa8": 1793691826.1429846
   },
   "initialized": true,
   "v": 4,
@@ -4213,6 +4213,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-11T17:30:49+00:00",
       "cluster": "c4e3614a3ee"
+    },
+    {
+      "t": "Video shows Merab Dvalishvili attacked by Usman Nurmagomedov and others at RAF event in Abu Dhabi",
+      "source": "CBS Sports",
+      "ts": "2026-11-11T17:39:00+00:00",
+      "cluster": "caa0333e163"
     }
   ],
   "digest_items": [],
