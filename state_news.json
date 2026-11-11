@@ -1,5 +1,6 @@
 {
   "seen": {
+    "25e612db3371a326": 1794440433.1721473,
     "881f56bf33fe067b": 1794440364.817344,
     "d2790b1a522a2793": 1794440297.7824094,
     "89e864371e13e31d": 1794440229.593923,
@@ -2498,8 +2499,7 @@
     "3bdf0385a68b2950": 1793693450.6923058,
     "0b6b1c87372ba64f": 1793693383.4700153,
     "022b1c5e363a5dda": 1793693383.4477048,
-    "44a949ca3bba015e": 1793693383.4466937,
-    "299e40a21faffe2f": 1793693259.355714
+    "44a949ca3bba015e": 1793693383.4466937
   },
   "initialized": true,
   "v": 4,
@@ -4051,6 +4051,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-11T20:15:08+00:00",
       "cluster": "c50fc9414cb"
+    },
+    {
+      "t": "Report: Yair Rodriguez nears UFC return against Steve Garcia after long layoff",
+      "source": "Sherdog",
+      "ts": "2026-11-11T20:14:08+00:00",
+      "cluster": "cc7c3d9b71e"
     }
   ],
   "digest_items": [],
