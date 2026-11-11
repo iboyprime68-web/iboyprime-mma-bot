@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e735d4ff889f66ee": 1794416930.8127148,
     "11240f980d8a2a2e": 1794416905.2730875,
     "97ce14ca201310c7": 1794416905.2557893,
     "dcffc8938d3c229f": 1794416877.8438907,
@@ -2498,8 +2499,7 @@
     "6f86382b43619036": 1793667491.869173,
     "aa44cef4eb512090": 1793667444.7740488,
     "ef8f2d6d2ccef7aa": 1793667418.2574089,
-    "2d142053339b75df": 1793667390.802771,
-    "2d202ada72d4960f": 1793667390.7689543
+    "2d142053339b75df": 1793667390.802771
   },
   "initialized": true,
   "v": 4,
@@ -4033,6 +4033,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-11T13:00:55+00:00",
       "cluster": "c40f91f5f8c"
+    },
+    {
+      "t": "Uncrowned (@uncrownedcombat): Merab Dvalishvili reveals he was jumped by Usman Nurmagomedov and multiple other people in Abu Dhabi 😳",
+      "source": "@uncrownedcombat",
+      "ts": "2026-11-11T16:12:03.679000+00:00",
+      "cluster": "cc4d0b72db4"
     }
   ],
   "digest_items": [],
