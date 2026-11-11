@@ -1,5 +1,7 @@
 {
   "seen": {
+    "d33a985edd64f91c": 1794390547.8721738,
+    "250fecc48c260d8a": 1794390547.8480635,
     "a08ad9029682cb06": 1794390420.712553,
     "40cee77ef626c3fb": 1794390420.7110868,
     "38fbc342182b26cf": 1794390167.7835925,
@@ -2497,9 +2499,7 @@
     "d1f23270c969c6d7": 1793667088.9379065,
     "2ec897f0ea0f6c9c": 1793648917.2309105,
     "e6dfb6c830a289bc": 1793648602.095693,
-    "da9c4fdfdc4acc89": 1793648559.056856,
-    "49d530a4de144569": 1793648284.2152195,
-    "ff56c097c1e56d55": 1793648284.1802163
+    "da9c4fdfdc4acc89": 1793648559.056856
   },
   "initialized": true,
   "v": 4,
@@ -4129,6 +4129,12 @@
       "source": "boxingnews.com",
       "ts": "2026-11-11T09:40:35+00:00",
       "cluster": "c96ba9837bf"
+    },
+    {
+      "t": "UFC 334 Pre-Event Facts: Elite Heavyweight Strikers Collide for Gold This Saturday",
+      "source": "MMA Sucka",
+      "ts": "2026-11-11T09:48:22+00:00",
+      "cluster": "cfe4b06867c"
     }
   ],
   "digest_items": [],
