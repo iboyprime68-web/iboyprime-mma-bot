@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0fa5f76af231ab51": 1794440087.1558473,
     "06e3c6b7bd48e519": 1794440018.6638336,
     "46fba0e264bfbf71": 1794439992.435293,
     "e3dd6f874582b406": 1794439966.098774,
@@ -2498,8 +2499,7 @@
     "658bea51f5112335": 1793693196.6543753,
     "a5b678e1dfdcdc39": 1793693130.4542837,
     "39b0b01b127723f8": 1793693064.7000155,
-    "a22cd9fbc638d2a5": 1793693064.6766074,
-    "a3f202ad245ef73d": 1793693064.6751935
+    "a22cd9fbc638d2a5": 1793693064.6766074
   },
   "initialized": true,
   "v": 4,
@@ -4021,6 +4021,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-11T18:50:29+00:00",
       "cluster": "c0bcd495080"
+    },
+    {
+      "t": "Josh Hokit copies Conor McGregor, steals UFC belts from Amanda Nunes at UFC 334 media day",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-11T18:50:48+00:00",
+      "cluster": "c2f11d99aff"
     }
   ],
   "digest_items": [],
