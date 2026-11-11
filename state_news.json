@@ -1,5 +1,6 @@
 {
   "seen": {
+    "88308dd1c288cdeb": 1794418115.790348,
     "58c724396bfa4138": 1794418048.057355,
     "2948e4e45f666916": 1794418048.0423284,
     "c70ce4df6fce4b4c": 1794418048.0279467,
@@ -2498,8 +2499,7 @@
     "b9c6eb90eefddb6b": 1793668591.9379156,
     "321d6ce0d7df45e1": 1793668460.433494,
     "44c0808a6d34fddb": 1793668395.24495,
-    "857dda80a17e8f8d": 1793668395.2429993,
-    "89112769b94d92c2": 1793668395.2416947
+    "857dda80a17e8f8d": 1793668395.2429993
   },
   "initialized": true,
   "v": 4,
@@ -4171,6 +4171,12 @@
       "source": "SPORTbible",
       "ts": "2026-11-11T16:40:22+00:00",
       "cluster": "c8028deb893"
+    },
+    {
+      "t": "Jorge Masvidal puts $200,000 on the line in wild UFC gamble that could pay him $1 million",
+      "source": "https://latination.com/",
+      "ts": "2026-11-11T16:41:24+00:00",
+      "cluster": "c10e8a1e4d5"
     }
   ],
   "digest_items": [],
