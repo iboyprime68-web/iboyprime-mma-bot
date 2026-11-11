@@ -1,5 +1,6 @@
 {
   "seen": {
+    "02f607a0465114bf": 1794359470.6487663,
     "716aaf7f414d6c6c": 1794359404.1914966,
     "4a2b82a57135f9e9": 1794359337.5136642,
     "1f106836b1a0c954": 1794359337.4931855,
@@ -2498,8 +2499,7 @@
     "f8a9fdfc9e18c1ae": 1793636373.704811,
     "cbb55a8e49068328": 1793636261.0985062,
     "5ea528b59ad551f8": 1793636234.3448205,
-    "9db7eb2bf5abd4a9": 1793636234.32136,
-    "9dd68294c2bf0793": 1793636043.5205407
+    "9db7eb2bf5abd4a9": 1793636234.32136
   },
   "initialized": true,
   "v": 4,
@@ -3949,6 +3949,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-10T22:10:24+00:00",
       "cluster": "c1c17aebacb"
+    },
+    {
+      "t": "UFC 334 faceoff: Ciryl Gane, Josh Hokit exchange words at Times Square",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-10T22:59:15+00:00",
+      "cluster": "caf56b3232e"
     }
   ],
   "digest_items": [],
