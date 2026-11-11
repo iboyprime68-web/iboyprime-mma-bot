@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2b59fa4d94712b6c": 1794440161.4211185,
     "bad5211ecdaafc1c": 1794440113.8455665,
     "5de1923668cbaebf": 1794440113.8104002,
     "0fa5f76af231ab51": 1794440087.1558473,
@@ -2498,8 +2499,7 @@
     "299e40a21faffe2f": 1793693259.355714,
     "bd60872ee9b92beb": 1793693259.355149,
     "277211dc81ede40e": 1793693196.6554983,
-    "658bea51f5112335": 1793693196.6543753,
-    "a5b678e1dfdcdc39": 1793693130.4542837
+    "658bea51f5112335": 1793693196.6543753
   },
   "initialized": true,
   "v": 4,
@@ -4033,6 +4033,12 @@
       "source": "Sherdog",
       "ts": "2026-11-11T20:12:08+00:00",
       "cluster": "c5349b820d2"
+    },
+    {
+      "t": "UFC fighter Josh Hokit has no regrets about Michelle Obama verbal attack",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-11T18:54:58+00:00",
+      "cluster": "c4f6bc3dbd8"
     }
   ],
   "digest_items": [],
