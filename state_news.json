@@ -1,5 +1,7 @@
 {
   "seen": {
+    "db37534fbbb3fb8a": 1794439616.687907,
+    "847c89cd5f38faeb": 1794439616.6605453,
     "c9e8d04901bf0384": 1794439591.3277943,
     "3ce2843d13692cb5": 1794439542.1022477,
     "c66effe0997890bf": 1794439516.2995799,
@@ -2497,9 +2499,7 @@
     "be910d35385029e1": 1793692235.182094,
     "a969fbc103c2eaf5": 1793692235.1809893,
     "e2976fd0bab27b00": 1793692169.6311622,
-    "9ba7f270027c6112": 1793692169.6091907,
-    "496c4341f544cb9b": 1793692169.6069968,
-    "ebf64035c5841f6a": 1793692124.8579507
+    "9ba7f270027c6112": 1793692169.6091907
   },
   "initialized": true,
   "v": 4,
@@ -3937,6 +3937,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-11T14:46:21+00:00",
       "cluster": "c4f6afdf5f2"
+    },
+    {
+      "t": "Ilia Topuria claims Usman Nurmagomedov has been detained for attacking Merab Dvalishvili",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-11T19:21:51+00:00",
+      "cluster": "cecd2eccc32"
     }
   ],
   "digest_items": [],
