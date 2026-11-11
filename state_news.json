@@ -4048,7 +4048,6 @@
     0
   ],
   "yt_eval": [
-    "CBMikAFBVV95cUxOOFZOdmJTQ0RkUG9rZnR2R2RnTmF0NHVGd0xoeHFoVTVFNHdWZHdQSm1EZ21FMjRySXFUWkhvRVU5Q1ZKMW1TaFdTd0NLSmMtUEpKR0VjZHBlemZfdzN0ZGQ0Sm5xWnN0UXFyRW9HRHVGRC1uMHh5N0ZwalZ6R0RiLVZFSWJLQjBhdWlUMm4yNk0",
     "CBMiU0FVX3lxTE1GWVV1VjBIbTNObHk5VlNFRjVDOXhXOGxUSXA1RFk1c01vNVBtc0laTWROTnpadTUwajFLQWRNaDZWLWp4UFpONWt3TXI2ekpMcUJN",
     "CBMiqgFBVV95cUxNZktkZjRFTkVYeW90R2lMSzhUVEtCWEZhanlLR1NmTTg1RWMtYzItMTRDSkZaWE00eTFmdjhuVHlYRlFPVVI4VFNnVVNuN2g1c2s3Qnp1dGlsVDR1dGVjYzdxWkpxSHlrRlhJb0hRaWNuak9QMlBjSnVXUHcxWkUzNUpLLTdVVlQzNXN0ZXJQSTV3Y2ZCR2VDUmFqZjNVenJoTGh1YTNkd2tEUQ",
     "CBMiR0FVX3lxTE5SNi1RTU5SamZUZFB6dUdUTVZEeTN3LTNTM2QzVHRrTnpoalVKdHNkVjN5NU13akk2ZVdmTnRZT3p2bFZfQ2tZ",
@@ -5547,25 +5546,17 @@
     "21b6fdfe-48b3-36b3-b399-27434640a65b",
     "https://bloodyelbow.com/?p=341374",
     "https://x.com/MerabDvalishvil/status/2120548582487134666",
-    "6bdcb49b-8bc9-3135-a94e-f697d5ef7d1b"
+    "6bdcb49b-8bc9-3135-a94e-f697d5ef7d1b",
+    "https://x.com/uncrownedcombat/status/2120550130478883113"
   ],
   "daily": {
     "d": "2026-11-11",
-    "ai": 84,
+    "ai": 86,
     "staged": 0,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-30T00:10:36.476078+00:00",
-      "t": "Josh Hokit has been ‘blocked’ on everything by UFC heavyweight who does not like him one bit",
-      "names": [
-        "hokit",
-        "gane"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-30T01:01:17.465852+00:00",
       "t": "Aleksandre Topuria’s UFC Qatar return officially announced",
@@ -6891,6 +6882,16 @@
         "eve"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-11T17:08:52.361364+00:00",
+      "t": "Uncrowned (@uncrownedcombat): Merab Dvalishvili reveals he was jumped by Usman Nurmagomedov and multiple other people in Abu Dhabi 😳",
+      "names": [
+        "uncrowned",
+        "dvalishvili",
+        "nurmagomedov"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7024,15 +7025,17 @@
     "6edfda0154306512": 1794081857.1813946,
     "5b8579d6dde4642f": 1794142917.489338,
     "d82ece9c8e802b4e": 1794316798.325707,
-    "5d9258aea9151462": 1794343577.1593542
+    "5d9258aea9151462": 1794343577.1593542,
+    "e735d4ff889f66ee": 1794416943.7373343
   },
   "pinged_titles": [
     [
-      "Jake Paul mocks Paris ‘burning down’ in fiery first meeting with Cedric Doumbe",
-      1794343577.1593542,
+      "Uncrowned (@uncrownedcombat): Merab Dvalishvili reveals he was jumped by Usman Nurmagomedov and multiple other people in Abu Dhabi 😳",
+      1794416943.7373343,
       [
-        "doumbe",
-        "paul"
+        "dvalishvili",
+        "nurmagomedov",
+        "uncrowned"
       ]
     ]
   ]
