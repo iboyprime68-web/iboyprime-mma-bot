@@ -3952,7 +3952,6 @@
     0
   ],
   "yt_eval": [
-    "CBMizwFBVV95cUxQcThqNWYzbjIySmtVTW9HSm9JU3VZbUlaMXRuRE01NlVwXzhSRmdTN3RLdlNwd20wRXFwdjFJUDYwdUU3UGN4T2ZhUVhRZ3UyQW1zdGRyTzBEWnhCZno4dTNDUGFqN3YyVmFMNllKMFluS1FWLUJzWk9lOUpXQkJhWWQ5b3ctbWtTaXRsRVdwUHp4ZFk0TnpmVUI1U3g3TE5KOU5FLW5vLUdVSWR0RkdlV203MTlyaUpmendDbDgxdGo5bjNmcFktblRKeE1mTnc",
     "CBMiwgFBVV95cUxNODRJRnBjbGM3LWNpWDlIb1JnSk03ekhTNTgtSXBZSGNBbEdhSG90cnVDbTdlYjRwS1VrZzdjdkFRRWtzNlE4VkFzX0xacGNRaDgyZW1XVFVfR0JPMXRKV2xDTnFZbU01VHR2ZjRuNlAwYXJjMmhjRHhlLUg4VXB6OXRGU0Q0RHJ1bEZYVXNnWWR6Z0FVRGZmQlpQZ0dhcTZveWVSY3NOVGh1MTJKeVVxNUhoc2RfTm16b0tIUFJuQWh1Zw",
     "CBMijAFBVV95cUxQNVJ4ZTIxVWpkc1dVblo4TklxY0FST1BENXpUUkwxU2t4UmhiRHhKb3RBVGdpNU9Zb3hUYVdDN2R6cVdVdjZ2NkV4R09LcjZObjFDemhFTWg5djdGSG1IMFo0TWJxaDYyQmtBbGRwM2pndTZZQ2RCZGVJc2Z3X2lFUlY2RUI1X0R3ME9VTA",
     "CBMiX0FVX3lxTE12dlJHVkFtWUgyUzRXeTFWOXZFelZGQzRMLTZ4cm52U2VGd0pDcG5zYXp5RnNOYmJuN296ejltWVVvRGxCblY4RjJ1Rnh3M1JOaXlJUU92NmN2aVlGSk5R",
@@ -5451,25 +5450,17 @@
     "f1e09440-1014-38cf-911b-9189c5ed7438",
     "https://bloodyelbow.com/?p=341438",
     "https://bloodyelbow.com/?p=341397",
-    "61d0977c-b217-3910-97c5-38b502094873"
+    "61d0977c-b217-3910-97c5-38b502094873",
+    "https://bloodyelbow.com/?p=341500"
   ],
   "daily": {
     "d": "2026-11-11",
-    "ai": 126,
-    "staged": 0,
+    "ai": 128,
+    "staged": 1,
     "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-09-30T06:52:24.181717+00:00",
-      "t": "UFC 334 gets new middleweight matchup after Baisangur Susurkaev withdraws",
-      "names": [
-        "susurkaev",
-        "johnson"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-09-30T14:14:29.076506+00:00",
       "t": "Couple who lied to cover for Conor McGregor in sexual assault case arrested, charged with perjury",
@@ -6794,6 +6785,18 @@
       "names": [
         "ngannou",
         "gane"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-11-11T23:26:58.574738+00:00",
+      "t": "Ilia Topuria claims Usman Nurmagomedov has been detained for attacking Merab Dvalishvili",
+      "names": [
+        "topuria",
+        "nurmagomedov",
+        "merab",
+        "dvalishvili",
+        "usman"
       ],
       "img": "photo"
     }
