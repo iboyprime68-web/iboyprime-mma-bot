@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9d8a5466c7e6f799": 1794416612.06231,
     "4d9a83cd44a3fbe1": 1794416586.9023442,
     "932335373590475b": 1794416560.3030229,
     "22ebc93b1d388bbe": 1794416534.517764,
@@ -2498,8 +2499,7 @@
     "9590a7a6d77dd814": 1793667194.9014792,
     "cc2b0dcfe7aa3a1f": 1793667169.0839264,
     "4c75986bf728dc82": 1793667169.0490224,
-    "df50e5f8b3e22144": 1793667141.667864,
-    "7879cf0d821f7f6a": 1793667115.6306944
+    "df50e5f8b3e22144": 1793667141.667864
   },
   "initialized": true,
   "v": 4,
@@ -3961,6 +3961,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-11T12:11:00+00:00",
       "cluster": "cdb81e9d29b"
+    },
+    {
+      "t": "UFC Manchester update: New signing apologizes for spreading false rumor",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-11T13:00:00+00:00",
+      "cluster": "ced164ef20c"
     }
   ],
   "digest_items": [],
