@@ -1,5 +1,6 @@
 {
   "seen": {
+    "59d2fb3c5f1572e6": 1794389085.9129026,
     "48b131f79b6fbd44": 1794389017.4502647,
     "0a31e253ed7c98a9": 1794388949.3483202,
     "f81832b9d69cfce0": 1794388949.3230476,
@@ -2498,8 +2499,7 @@
     "a3d924be9cddb110": 1793647775.2020338,
     "b943fc51dd51bb1b": 1793647274.175984,
     "8a2bbdfa746654db": 1793647205.6242177,
-    "324ac149f84d641d": 1793647137.856304,
-    "66ceb57bfca20902": 1793647068.3107777
+    "324ac149f84d641d": 1793647137.856304
   },
   "initialized": true,
   "v": 4,
@@ -4111,6 +4111,12 @@
       "source": "شبكة تواصل الإخبارية",
       "ts": "2026-11-11T09:16:55+00:00",
       "cluster": "c8f2ddad1d8"
+    },
+    {
+      "t": "Cris Cyborg reveals prediction for Josh Hokit vs. Ciryl Gane, cites her own experience with MMA gym",
+      "source": "MMA Sucka",
+      "ts": "2026-11-11T09:18:15+00:00",
+      "cluster": "cb57f6978bd"
     }
   ],
   "digest_items": [],
