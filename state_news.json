@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f6297ed33ab03f4d": 1794417085.7358527,
     "f9becb2e97ff12b6": 1794417059.6130466,
     "7eaeef3fc6d10fb2": 1794417032.6669095,
     "f2b3f834604621bb": 1794417006.4848735,
@@ -2498,8 +2499,7 @@
     "ee347eb916a326b1": 1793667491.9397569,
     "128a31ef159f8358": 1793667491.9081428,
     "d5366471b78e82f5": 1793667491.9046385,
-    "17e2ef04394a4ce7": 1793667491.9010682,
-    "75bc9e9a727497e2": 1793667491.8998199
+    "17e2ef04394a4ce7": 1793667491.9010682
   },
   "initialized": true,
   "v": 4,
@@ -4057,6 +4057,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-11T13:47:50+00:00",
       "cluster": "c724f8c01ee"
+    },
+    {
+      "t": "Fan favorite UFC commentator signs new long-term contract ahead of leading the UFC 334 broadcast",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-11T17:00:00+00:00",
+      "cluster": "cc367a311d0"
     }
   ],
   "digest_items": [],
