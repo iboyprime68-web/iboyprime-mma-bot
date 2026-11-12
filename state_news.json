@@ -1,5 +1,6 @@
 {
   "seen": {
+    "35eab6f37376898d": 1794499638.0000477,
     "7e22a9b878324055": 1794499589.1717532,
     "8fe47497ffc39c2b": 1794499520.2152383,
     "69ba9c8a090b34b6": 1794499450.8909261,
@@ -2498,8 +2499,7 @@
     "fe0d1ed1d46b093b": 1793758168.3623106,
     "7c9bdb1978c764aa": 1793758168.3611903,
     "8fbaa419bc62f13c": 1793758168.3419738,
-    "c879be01299f661d": 1793758101.510945,
-    "91b632cbb670948d": 1793758101.4894152
+    "c879be01299f661d": 1793758101.510945
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-10T18:00:00+00:00",
       "cluster": "c0d3ec89ad0"
-    },
-    {
-      "t": "Jim Miller at UFC 334: Only Fighter at UFC 100, 200 and 300",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-10T16:07:00+00:00",
-      "cluster": "c3fd7684ce4"
     },
     {
       "t": "Jake Paul responds to loud ‘F*ck you’ chants from French fans ahead of Cedric Doumbe fight",
@@ -4177,6 +4171,12 @@
       "source": "The Irish Sun",
       "ts": "2026-11-12T15:05:35+00:00",
       "cluster": "c65fbec3b85"
+    },
+    {
+      "t": "RIZIN 55’s Sho Sekihara fighting for life in hospital after brutal slam knockout",
+      "source": "MMA Mania",
+      "ts": "2026-11-12T12:14:25+00:00",
+      "cluster": "c1c4e97ab30"
     }
   ],
   "digest_items": [],
