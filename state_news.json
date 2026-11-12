@@ -1,5 +1,6 @@
 {
   "seen": {
+    "064d47c52746b452": 1794467085.7233057,
     "c852d689bdd4ecac": 1794467019.519465,
     "07210cc866969ed0": 1794466952.8767774,
     "eba5c1738cef2d43": 1794466705.1502118,
@@ -2498,8 +2499,7 @@
     "8ab9e67e830779c1": 1793743501.7450135,
     "764addbdb6cb2792": 1793743466.8827353,
     "34d0e1d988bccb49": 1793743392.631377,
-    "c1baf94da92d0e93": 1793743392.6105895,
-    "5f0c9e6dc1cb4492": 1793743322.6366122
+    "c1baf94da92d0e93": 1793743392.6105895
   },
   "initialized": true,
   "v": 4,
@@ -4213,6 +4213,12 @@
       "source": "boxingnews.com",
       "ts": "2026-11-12T07:00:59+00:00",
       "cluster": "c740c2c99aa"
+    },
+    {
+      "t": "WATCH: Nasty Fight Erupts Between Usman Nurmagomedov’s Team And Merab Dvalishvili At Hotel",
+      "source": "The Daily Jagran",
+      "ts": "2026-11-12T06:44:00+00:00",
+      "cluster": "cd0b1639689"
     }
   ],
   "digest_items": [],
