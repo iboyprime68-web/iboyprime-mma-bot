@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bd7897ec8d3e2298": 1794522529.7232559,
     "f91b5c9cb3a20b16": 1794522483.5367253,
     "0cc4fb1ef7314c05": 1794522483.5253487,
     "595c20ac8be8cc96": 1794522483.5237586,
@@ -2498,8 +2499,7 @@
     "e7f4f127634cf191": 1793811767.202253,
     "82a63d9b84c7d4be": 1793811767.190313,
     "b154a40f32d7ba54": 1793811767.1901796,
-    "aaa6b2bd5ff56154": 1793811767.1900463,
-    "c8528ceaa748502f": 1793811767.189894
+    "aaa6b2bd5ff56154": 1793811767.1900463
   },
   "initialized": true,
   "v": 4,
@@ -4261,6 +4261,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-12T21:58:56+00:00",
       "cluster": "cd389e4c452"
+    },
+    {
+      "t": "Rousimar Palhares predicts different result in Andre Galvao rematch",
+      "source": "Sherdog",
+      "ts": "2026-11-12T18:58:28+00:00",
+      "cluster": "cd8747dde02"
     }
   ],
   "digest_items": [],
