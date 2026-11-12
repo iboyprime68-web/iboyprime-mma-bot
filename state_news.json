@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0785f0c928bd465b": 1794465501.0740457,
     "7dd6cd3bcba82464": 1794465434.5773442,
     "fbc0c403bd198bb5": 1794465434.5693073,
     "c6b792586b3438a4": 1794465388.8320622,
@@ -2498,8 +2499,7 @@
     "edbdba259158bad5": 1793742602.6039393,
     "d3f55ee881fb08ac": 1793742602.5836825,
     "03b7a8007d84a950": 1793742559.9802513,
-    "91c9fc4e906e5330": 1793742559.9612665,
-    "cc917690bf21d322": 1793742501.1615477
+    "91c9fc4e906e5330": 1793742559.9612665
   },
   "initialized": true,
   "v": 4,
@@ -4081,6 +4081,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-12T03:00:32+00:00",
       "cluster": "cdd7c22e1cb"
+    },
+    {
+      "t": "How Alex Pereira's striking and Glover Teixeira's wrestling are helping Yousri Belgaroui",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-12T03:52:11+00:00",
+      "cluster": "ce62f8136b0"
     }
   ],
   "digest_items": [],
