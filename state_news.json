@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a77b7002705b39d6": 1794521387.5558784,
     "a02092213e862b54": 1794521361.7749078,
     "9a2fdfeeb6ec3ac0": 1794521361.760621,
     "77f900de0fa815d7": 1794521361.7305338,
@@ -2498,8 +2499,7 @@
     "e90d2b96ad36dd66": 1793783659.8907857,
     "4da9dbc5a3b53866": 1793783596.0778153,
     "6dbbb84595e5bc2a": 1793783570.1851223,
-    "57e66e258edf47c6": 1793783570.1584113,
-    "1ea3a3f7c8e154d7": 1793783570.1566975
+    "57e66e258edf47c6": 1793783570.1584113
   },
   "initialized": true,
   "v": 4,
@@ -4111,6 +4111,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-12T17:00:00+00:00",
       "cluster": "cabf51fbc3e"
+    },
+    {
+      "t": "Abu Dhabi Police release statement after Usman Nurmagomedov attacked Merab Dvalishvili at RAF",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-12T17:25:07+00:00",
+      "cluster": "c1e55dd07e3"
     }
   ],
   "digest_items": [],
