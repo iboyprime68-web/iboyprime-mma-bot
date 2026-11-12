@@ -1,5 +1,7 @@
 {
   "seen": {
+    "a10faeb6cfe9c194": 1794521426.9160233,
+    "584d31f4484a94c2": 1794521426.8833582,
     "a77b7002705b39d6": 1794521387.5558784,
     "a02092213e862b54": 1794521361.7749078,
     "9a2fdfeeb6ec3ac0": 1794521361.760621,
@@ -2497,9 +2499,7 @@
     "5fa3be0047b50030": 1793783857.705045,
     "53b01e33e2962bde": 1793783727.9492595,
     "e90d2b96ad36dd66": 1793783659.8907857,
-    "4da9dbc5a3b53866": 1793783596.0778153,
-    "6dbbb84595e5bc2a": 1793783570.1851223,
-    "57e66e258edf47c6": 1793783570.1584113
+    "4da9dbc5a3b53866": 1793783596.0778153
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "@MMAJunkie",
       "ts": "2026-11-10T23:09:11.579000+00:00",
       "cluster": "cba6d8baad9"
-    },
-    {
-      "t": "Seokhyeon Ko calls out UFC welterweight gatekeeper Neil Magny after grinding win",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-10T22:10:24+00:00",
-      "cluster": "c1c17aebacb"
     },
     {
       "t": "UFC 334 faceoff: Ciryl Gane, Josh Hokit exchange words at Times Square",
@@ -4117,6 +4111,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-12T17:25:07+00:00",
       "cluster": "c1e55dd07e3"
+    },
+    {
+      "t": "Kayla Harrison vs. Amanda Nunes: Bloody Elbow staff predict the UFC 334 co-main event",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-12T18:00:00+00:00",
+      "cluster": "cfc43f274c5"
     }
   ],
   "digest_items": [],
