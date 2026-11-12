@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3f73ce2c50fb497d": 1794521477.2540958,
     "f166febfa9230a89": 1794521451.579776,
     "a10faeb6cfe9c194": 1794521426.9160233,
     "584d31f4484a94c2": 1794521426.8833582,
@@ -2498,8 +2499,7 @@
     "3f7ef8e1bba7f12e": 1793783926.6376529,
     "5d01228cf91d8865": 1793783880.0826974,
     "5fa3be0047b50030": 1793783857.705045,
-    "53b01e33e2962bde": 1793783727.9492595,
-    "e90d2b96ad36dd66": 1793783659.8907857
+    "53b01e33e2962bde": 1793783727.9492595
   },
   "initialized": true,
   "v": 4,
@@ -4123,6 +4123,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-12T18:41:02+00:00",
       "cluster": "ca5c8046d0f"
+    },
+    {
+      "t": "UFC star Tommy McMillen rushed to hospital after being found unresponsive in nightclub bathroom",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-12T18:45:15+00:00",
+      "cluster": "c334be3701f"
     }
   ],
   "digest_items": [],
