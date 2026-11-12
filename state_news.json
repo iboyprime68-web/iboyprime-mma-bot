@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1e82904e669ba8f0": 1794499021.8738573,
     "499e5573f70ec1e1": 1794498952.2618003,
     "371c84e6295d20f7": 1794498952.2250726,
     "651a41762a75bb30": 1794498952.223908,
@@ -2498,8 +2499,7 @@
     "18cab0988f734f63": 1793757708.8560696,
     "134bd46508c8a997": 1793757708.834406,
     "8dfa17dbcc93c829": 1793757683.3010228,
-    "5d4d8e1ec9ebfe0d": 1793744884.797619,
-    "7d7a2683f3f2b81c": 1793744806.584224
+    "5d4d8e1ec9ebfe0d": 1793744884.797619
   },
   "initialized": true,
   "v": 4,
@@ -4111,6 +4111,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-12T09:13:34+00:00",
       "cluster": "c4e7cb97858"
+    },
+    {
+      "t": "Live: Watch Jake Paul vs. Cedric Doumbe press conference video (part deux) from Dubai",
+      "source": "MMA Mania",
+      "ts": "2026-11-12T04:54:27+00:00",
+      "cluster": "c6dcf008558"
     }
   ],
   "digest_items": [],
