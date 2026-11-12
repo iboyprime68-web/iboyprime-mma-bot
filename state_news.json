@@ -1,5 +1,7 @@
 {
   "seen": {
+    "a3c89263df98de63": 1794522013.5370605,
+    "014728303fa60067": 1794522013.5098906,
     "be11c4a593ac7b6f": 1794521947.7255664,
     "8f0fa207160aceae": 1794521947.6993403,
     "f7bddf411dcdabd1": 1794521902.0568466,
@@ -2497,9 +2499,7 @@
     "d7b02ad99d6272ad": 1793811613.4149868,
     "6e220dbfbd24bb35": 1793811586.0923748,
     "1c81f60b7a231cff": 1793811586.0785882,
-    "4de0d4ef23d8169b": 1793811558.014158,
-    "c001fc60563115ca": 1793811558.001754,
-    "b689cdc08c2da432": 1793811530.7668047
+    "4de0d4ef23d8169b": 1793811558.014158
   },
   "initialized": true,
   "v": 4,
@@ -4207,6 +4207,12 @@
       "source": "Parade Magazine",
       "ts": "2026-11-12T21:21:35+00:00",
       "cluster": "c8e463dd40c"
+    },
+    {
+      "t": "Daniel Cormier scolds Usman Nurmagomedov after ‘dangerous’ Merab Dvalishvili brawl",
+      "source": "BJPenn.com",
+      "ts": "2026-11-12T21:29:23+00:00",
+      "cluster": "c9ed2397674"
     }
   ],
   "digest_items": [],
