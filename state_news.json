@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d3039e58df366e04": 1794523091.0582156,
     "f6c7dd85b65d0049": 1794523025.1355622,
     "bf9517c95305cdef": 1794523025.1069005,
     "cda9199efc947a4a": 1794523025.106102,
@@ -2498,8 +2499,7 @@
     "3fed7ef1d24bf975": 1793812366.054835,
     "4587015c96c8de87": 1793812366.0399451,
     "8a97ed291c7199b7": 1793812333.891873,
-    "4c480d0c6595c10d": 1793812333.8791785,
-    "b8580e717f74cec7": 1793812262.2992947
+    "4c480d0c6595c10d": 1793812333.8791785
   },
   "initialized": true,
   "v": 4,
@@ -4321,6 +4321,12 @@
       "source": "Heavy.com",
       "ts": "2026-11-12T22:13:49+00:00",
       "cluster": "ca18dc515fd"
+    },
+    {
+      "t": "Ciryl Gane says 'everybody wants to see' Tom Aspinall UFC heavyweight title bout after initial fight ruled no contest",
+      "source": "TNT Sports",
+      "ts": "2026-11-12T22:13:55+00:00",
+      "cluster": "c2238101b0d"
     }
   ],
   "digest_items": [],
