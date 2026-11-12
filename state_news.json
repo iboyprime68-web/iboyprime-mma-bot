@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a08ce8f9d8e3bfb4": 1794465766.780557,
     "d3c4afa2cf8110ef": 1794465700.3666832,
     "4207e516e54cf9d9": 1794465633.3418396,
     "c5460d8157d1dfde": 1794465633.322255,
@@ -2498,8 +2499,7 @@
     "879128bd8970cd35": 1793742742.913436,
     "0ada7de50261eb34": 1793742742.9063654,
     "2fcb7fe20f642be1": 1793742742.9042132,
-    "4ff329d1b23e9ffa": 1793742742.9025733,
-    "e890aecccc28422a": 1793742673.252852
+    "4ff329d1b23e9ffa": 1793742742.9025733
   },
   "initialized": true,
   "v": 4,
@@ -4105,6 +4105,12 @@
       "source": "Sherdog",
       "ts": "2026-11-12T01:14:44+00:00",
       "cluster": "c3a3f3ac53d"
+    },
+    {
+      "t": "\"Hope the UFC bans Usman Nurmagomedov\" - Nina-Marie Daniele wants strict punishment handed out after attack on Merab Dvalishvili",
+      "source": "Sportskeeda",
+      "ts": "2026-11-12T05:55:00+00:00",
+      "cluster": "cd8d65a4e4b"
     }
   ],
   "digest_items": [],
