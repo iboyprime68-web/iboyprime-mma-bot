@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8b3da5f5539b4db0": 1794441822.0150254,
     "f4cc6b17f3b5b17b": 1794441744.4408,
     "bb0d72369991c97e": 1794441744.4109104,
     "8313706e63c0ef88": 1794441744.4105291,
@@ -2498,8 +2499,7 @@
     "69629b4aee939b15": 1793722496.6782424,
     "56afdfce29ea4c4d": 1793722496.6779516,
     "c47aa43419cda34f": 1793722428.1460707,
-    "08d2406fe7613f5d": 1793722358.7579339,
-    "392ddacebc2911ae": 1793722289.809967
+    "08d2406fe7613f5d": 1793722358.7579339
   },
   "initialized": true,
   "v": 4,
@@ -4165,6 +4165,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-11T23:33:47+00:00",
       "cluster": "c709f8e3a40"
+    },
+    {
+      "t": "Will the UFC still sign Usman Nurmagomedov after the Merab Dvalishvili incident?",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-11T23:38:50+00:00",
+      "cluster": "ca7d3b57e68"
     }
   ],
   "digest_items": [],
