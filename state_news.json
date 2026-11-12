@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1389124b43e59f20": 1794521697.910251,
     "8fffbb762461ddd5": 1794521673.1685312,
     "4f5aec5e4a5a7537": 1794521647.9418747,
     "e0bacc3f33a1d2b7": 1794521623.0946949,
@@ -2498,8 +2499,7 @@
     "2158698c2d4111fc": 1793784945.715025,
     "7480e31b9a92b0d8": 1793784945.7146156,
     "6e1827d864aba302": 1793784881.8952394,
-    "75d208e02c1c712d": 1793784624.650274,
-    "70e792060ebb1422": 1793784624.6233783
+    "75d208e02c1c712d": 1793784624.650274
   },
   "initialized": true,
   "v": 4,
@@ -4171,6 +4171,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-12T18:50:27+00:00",
       "cluster": "cd3d1393007"
+    },
+    {
+      "t": "Daniel Cormier condemns Usman Nurmagomedov for Merab Dvalishvili attack: ‘Should never happen’",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-12T22:00:00+00:00",
+      "cluster": "cb421a460f1"
     }
   ],
   "digest_items": [],
