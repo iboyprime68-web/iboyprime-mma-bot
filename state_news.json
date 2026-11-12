@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b3becb9a493a2657": 1794498742.531869,
     "d3cec4350fee58c0": 1794498714.104247,
     "9384d38488f925f2": 1794498714.0464077,
     "ef2c9424d5355ca8": 1794468352.4634235,
@@ -2498,8 +2499,7 @@
     "069837791f5d1acd": 1793744096.2764664,
     "a63a95fb63f47537": 1793744096.2563655,
     "0594cd6b13004060": 1793743961.9770331,
-    "90e1d2a4da8e6dc8": 1793743824.3922665,
-    "79837af13c61c630": 1793743824.371318
+    "90e1d2a4da8e6dc8": 1793743824.3922665
   },
   "initialized": true,
   "v": 4,
@@ -2581,12 +2581,6 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-10T19:08:52+00:00",
       "cluster": "c72106e4de2"
-    },
-    {
-      "t": "Live: Jake Paul vs. Cedric Doumbe kickoff press conference video from Paris",
-      "source": "MMA Mania",
-      "ts": "2026-11-10T15:52:01+00:00",
-      "cluster": "cf580d08791"
     },
     {
       "t": "Karine Silva eyes rematches after snapping skid at UFC Fight Night 293",
@@ -4069,6 +4063,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-12T02:28:32+00:00",
       "cluster": "c1c35d092f2"
+    },
+    {
+      "t": "Sean O’Malley shares fight breakdown after Merab Dvalishvili vs Usman Nurmagomedov brawl",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-12T12:00:00+00:00",
+      "cluster": "c5d1f2e2697"
     }
   ],
   "digest_items": [],
