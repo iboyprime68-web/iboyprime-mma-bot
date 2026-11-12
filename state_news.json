@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ad14dc9bf93609fc": 1794465099.7160115,
     "93358edb92aa3594": 1794465074.3867836,
     "c5213851a8e568ac": 1794442758.636397,
     "d694ddd3c28ed4f8": 1794442758.6088893,
@@ -2498,8 +2499,7 @@
     "e02404ce46ba9d0e": 1793741960.004286,
     "a755eb73096f43e2": 1793741959.9799044,
     "4013ba0ad8029715": 1793741916.5010526,
-    "971601904ef846ab": 1793741871.1981394,
-    "b30cb2fcdd2183ef": 1793724544.6765063
+    "971601904ef846ab": 1793741871.1981394
   },
   "initialized": true,
   "v": 4,
@@ -4009,6 +4009,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-11T20:44:23+00:00",
       "cluster": "cdfbb159bb7"
+    },
+    {
+      "t": "ONE books flyweight finishers for potential title eliminator in December",
+      "source": "MMA Fighting",
+      "ts": "2026-11-12T00:29:31+00:00",
+      "cluster": "c5faa8a6672"
     }
   ],
   "digest_items": [],
