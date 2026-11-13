@@ -1,5 +1,7 @@
 {
   "seen": {
+    "960b144f78719f25": 1794572877.7300203,
+    "d3feb69c890d2a1d": 1794572877.7049067,
     "32bd06c565929969": 1794572855.6138678,
     "3156d4e4e4e9ddd9": 1794572622.7606077,
     "60a318708d17cffb": 1794572556.104308,
@@ -2497,9 +2499,7 @@
     "d6ed27c39affff7a": 1793849740.6267726,
     "d2f9a93405d6cf40": 1793849740.620356,
     "34f13410ba881106": 1793849740.6157873,
-    "f09b3d9bc996ac57": 1793849693.1140344,
-    "57ab4db8fc6eebc8": 1793849693.0966969,
-    "f75613c71d12005b": 1793849666.9178412
+    "f09b3d9bc996ac57": 1793849693.1140344
   },
   "initialized": true,
   "v": 4,
@@ -4375,6 +4375,12 @@
       "source": "Sports Illustrated",
       "ts": "2026-11-13T12:07:50+00:00",
       "cluster": "c20044d7d42"
+    },
+    {
+      "t": "Dana White brands Usman Nurmagomedov-Merab Dvalishvili brawl ‘f***ing idiotic’ as 10 arrested and jailed",
+      "source": "The Times of India",
+      "ts": "2026-11-13T12:20:00+00:00",
+      "cluster": "c99d794c8cd"
     }
   ],
   "digest_items": [],
