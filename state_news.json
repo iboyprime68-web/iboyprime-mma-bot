@@ -1,5 +1,8 @@
 {
   "seen": {
+    "bd028bcb1f0c668e": 1794599749.7098694,
+    "e0c0d4344696f4b5": 1794599749.68915,
+    "7ca403e67e4a4820": 1794599749.6864429,
     "caad1c58a7d7d7d2": 1794599682.182614,
     "b9b874330bad8264": 1794599682.1748545,
     "8aac1fcc2d70b9cf": 1794599682.1740766,
@@ -2496,10 +2499,7 @@
     "03fba69413c06cbb": 1793908324.7207773,
     "03390c10b7d9143f": 1793908298.5280523,
     "11f9a6201ae11bb9": 1793908298.5140514,
-    "e95e1da2a3cdbd61": 1793908271.8736856,
-    "17a8332a2185be13": 1793908245.7854857,
-    "a5da8202814b7b7b": 1793908218.9128137,
-    "b97ae5471eb3b6b4": 1793908218.8972266
+    "e95e1da2a3cdbd61": 1793908271.8736856
   },
   "initialized": true,
   "v": 4,
@@ -4309,6 +4309,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-13T19:13:42+00:00",
       "cluster": "c5bba8baec4"
+    },
+    {
+      "t": "UFC 334 weigh-in results: 2 fighters fail on scale, Gane vs. Hokit and Harrison vs. Nunes title fight official",
+      "source": "BJPenn.com",
+      "ts": "2026-11-13T19:14:22+00:00",
+      "cluster": "cc07e35f9eb"
     }
   ],
   "digest_items": [],
