@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7b9cfc7eaf165f08": 1794540131.081516,
     "c11b6a08ce74906e": 1794540104.277003,
     "b78e7fe72a3c7b03": 1794540104.2674959,
     "0885ed1b954e1271": 1794540057.0661693,
@@ -2498,8 +2499,7 @@
     "fb9d8f3ffa42a406": 1793831488.6369534,
     "380dbaab51d1506d": 1793831463.4936647,
     "1f6cc048fcb7ce32": 1793831411.808578,
-    "d3e1bf5264b11691": 1793831411.7922363,
-    "e0dd5e20e909666b": 1793831386.4366229
+    "d3e1bf5264b11691": 1793831411.7922363
   },
   "initialized": true,
   "v": 4,
@@ -4243,6 +4243,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-13T00:03:47+00:00",
       "cluster": "c1e553b50e2"
+    },
+    {
+      "t": "‘How’s your mom doing?’: Josh Hokit takes aim at Ciryl Gane, flips off Alex Pereira ahead of UFC 334",
+      "source": "MMA Fighting",
+      "ts": "2026-11-13T00:52:08+00:00",
+      "cluster": "cd74b9f25bd"
     }
   ],
   "digest_items": [],
