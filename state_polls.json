@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 35,
   "staged_at": [
-    "2026-11-09T19:54:30.424843+00:00",
     "2026-11-10T17:08:16.501692+00:00",
     "2026-11-11T17:15:36.184929+00:00",
-    "2026-11-12T17:38:37.771940+00:00"
+    "2026-11-12T17:38:37.771940+00:00",
+    "2026-11-13T17:16:10.089909+00:00"
   ],
   "asked": [
-    "Who is the toughest stylistic matchup for Dricus Du Plessis in the middleweight division right now?",
     "Who is the biggest threat to Alexander Volkanovski at featherweight right now?",
     "Who is the most dangerous threat to the UFC heavyweight title right now?",
     "Who is the most dangerous threat to Alexander Volkanovski at featherweight right now?",
@@ -47,33 +46,34 @@
     "What is the biggest fumble in MMA history?",
     "Who is the biggest threat to Ciryl Gane in the heavyweight division right now?",
     "What is the most cowardly act in UFC history?",
-    "What is the most out-of-line thing a fighter has ever done outside the cage?"
+    "What is the most out-of-line thing a fighter has ever done outside the cage?",
+    "What is the most out of line thing a fighter has done outside the cage?"
   ],
   "last_entry": {
-    "q": "What is the most out-of-line thing a fighter has ever done outside the cage?",
+    "q": "What is the most out of line thing a fighter has done outside the cage?",
     "type": "poll",
     "options": [
       {
-        "label": "Hotel lobby brawl",
-        "emoji": "🏨",
-        "art": "Shattered hotel lobby furniture under harsh chandelier light, overturned chairs and a cracked mirror"
+        "label": "Abu Dhabi brawl",
+        "emoji": "🚔",
+        "art": "Shattered hotel lobby, scattered chairs and phones on marble, flashing police lights through glass doors"
       },
       {
-        "label": "Nurmagomedov team chaos",
-        "emoji": "🥊",
-        "art": "Empty arena tunnel after a brawl, scattered security barricades and one fallen cap under a spotlight"
+        "label": "Conor bus attack",
+        "emoji": "🚌",
+        "art": "Dolly smashed through a bus window, glass shards flying, loading dock lights at night"
       },
       {
-        "label": "Cage-side sucker punch",
-        "emoji": "😤",
-        "art": "A lone fist striking across a darkened cage apron, blurred crowd behind, harsh red overhead light"
+        "label": "Jones hit and run",
+        "emoji": "🚗",
+        "art": "Crumpled rental car front end, broken streetlight, empty road at 3am"
       },
       {
         "label": "Other (comment below)",
         "emoji": "🍿",
-        "art": "A raccoon in a tiny blazer flipping over a snack table in a hotel lobby at night"
+        "art": "A raccoon in tiny handcuffs being escorted out of a hotel by two pigeons"
       }
     ],
-    "gag": "A raccoon in a tiny blazer flipping over a snack table in a hotel lobby at night"
+    "gag": "A raccoon in tiny handcuffs being escorted out of a hotel lobby by two pigeons"
   }
 }
