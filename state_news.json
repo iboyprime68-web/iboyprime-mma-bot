@@ -4084,7 +4084,6 @@
     0
   ],
   "yt_eval": [
-    "CBMisgFBVV95cUxPMm9QUW9ISjI5WVQwa3pqellDTkZ0ZzVMNXZmbFBuY2I3T0UzQjVSX2hfR0RlejJHRmpsc3Q2RWJFN1hqdEpKSTZXVkY5cGxGVHV5blNtMVc3Z0lFVkxpRnpoODhfWTNyOV9wUk9PR203Tmh1SVFmSVFWR0dqdTllWUxDLWs0aFJYZnVna01aWlJkdkJsZGpNM2oyY2RlYkFGYWlyREJJdmZCN01JNkQtX3Rn",
     "CBMiwAFBVV95cUxQUFlFRVdQV081MFRwbE9hX2VKWnhza3YwYXd4Z3QzbzhmendLS1dTMjZJLW8zaGtpTE5PNm9HLXU2VFp3MWhLdkNzYVNBZWxfdHpVQkdrQmp0VVlPd3hKckdpMkNsbmJDcDBjUmphMzIyellFeEZkOC00a2ZEZVotNjFUTUlLa25iTVVza0RzZUszbkpEQl9NRC14NTh2UHpIQTB3SDBjblZjMWZ1UEF3TFQ5QXJRN203WDV6TDUzWmc",
     "2b8694d6-5c58-3e00-964b-ad79588d11b2",
     "118405fd-af6a-3dd0-82a0-adcc743e0232",
@@ -5583,25 +5582,17 @@
     "6c3f3440-ef24-34d9-8822-4d05d744ab3e",
     "CBMi0AFBVV95cUxOUHprUi16MmRmcVE1cHFKZnZxeHFPVTdvNkNENkt0NnpYMUNBN3UtR1Myc1M3b0NDb0k5Q19qZ1FGSGFORzd3dUhCSWVTaXdzckVWTUw2YmpnN1E5X19TVDB5cUFhczhib0hjc193M0x6eFdSRGZvMXpOLVg4MmQyRUhSN0RUNThtYVFZSWJ2STNYV2dBOXU0Mm9Dd2wxR1lWenVIY1BrSUV5TlVWc0M0RkVJbjMtVUVHalN1cHBBZ1otamI1ZWVXblVkYm5kamRU",
     "CBMisgFBVV95cUxNbTYybzBKZ1VKU3V1YlpYZlRFN000YXpRUng1bGIxS3c1STlPTG1rdVVDbU1WUHQ2TlN0X0thLUhRS0dZc055Y3RpOHhUNjNCT0ZlN3l2OC1VMTJzWTBuRk81T044bzNzSzhldkpiZGN6Um44VkwzdkY3bVZMMlBaR2pVOHF0dmlYSUk0RWVOem9tUDV2ZGlmajZWcFJwVlFXOGZjY2NFY00tb2JLNnU5UFZB",
-    "a3ebfca4-7fc0-371d-8eec-dace3752ad20"
+    "a3ebfca4-7fc0-371d-8eec-dace3752ad20",
+    "https://www.mmafighting.com/?p=520831"
   ],
   "daily": {
     "d": "2026-11-13",
-    "ai": 73,
+    "ai": 75,
     "staged": 2,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-10-01T08:36:51.242778+00:00",
-      "t": "Dana White confirms he’ll announce Alex Pereira’s next fight during UFC 332 KICK stream",
-      "names": [
-        "white",
-        "pereira"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-10-01T09:13:36.659421+00:00",
       "t": "Usman Nurmagomedov reveals hidden truth about Khabib Nurmagomedov’s fight camps despite UFC retirement",
@@ -6934,6 +6925,16 @@
         "dvalishvili"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-13T19:24:55.384655+00:00",
+      "t": "Usman Nurmagomedov, 7 others reportedly sentenced to 6 months in jail for attack on Merab Dvalishvili",
+      "names": [
+        "nurmagomedov",
+        "merab",
+        "dvalishvili"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7069,12 +7070,13 @@
     "d82ece9c8e802b4e": 1794316798.325707,
     "5d9258aea9151462": 1794343577.1593542,
     "e735d4ff889f66ee": 1794416943.7373343,
-    "399a954f20789120": 1794499959.3678932
+    "399a954f20789120": 1794499959.3678932,
+    "d1085da78fff1b84": 1794597906.0071611
   },
   "pinged_titles": [
     [
-      "Merab Dvalishvili still in Abu Dhabi jail after getting jumped by Usman Nurmagomedov",
-      1794499959.3678932,
+      "Usman Nurmagomedov, 7 others reportedly sentenced to 6 months in jail for attack on Merab Dvalishvili",
+      1794597906.0071611,
       [
         "dvalishvili",
         "nurmagomedov"
