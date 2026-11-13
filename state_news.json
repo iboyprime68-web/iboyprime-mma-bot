@@ -1,5 +1,7 @@
 {
   "seen": {
+    "c1c42216c011fadf": 1794598485.750599,
+    "6ff55a6330fffe85": 1794598485.7282085,
     "a20b824fcb7f8e09": 1794598460.5175674,
     "2941affbb296cee4": 1794598424.6225917,
     "c4ca1880e7b40790": 1794598424.6045604,
@@ -2497,9 +2499,7 @@
     "bfdc422c388fbc3c": 1793880798.8146374,
     "084845059298c81d": 1793880732.5493102,
     "0a6aa09b639ea7b3": 1793880732.540084,
-    "c75289f52785ccf8": 1793880666.2757442,
-    "ba6f66697f932995": 1793880623.628785,
-    "c82e2045ef2cf703": 1793880623.6042955
+    "c75289f52785ccf8": 1793880666.2757442
   },
   "initialized": true,
   "v": 4,
@@ -4201,6 +4201,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-13T15:53:33+00:00",
       "cluster": "cf3ff753752"
+    },
+    {
+      "t": "High-profile UFC/MMA free agent, Usman Nurmagomedov, sentenced to six months in prison over Abu Dhabi attack",
+      "source": "MMA Mania",
+      "ts": "2026-11-13T14:56:48+00:00",
+      "cluster": "c0f3d543a82"
     }
   ],
   "digest_items": [],
