@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f720dac25b202c9f": 1794539890.850849,
     "8d118814d61fb4db": 1794539864.7467582,
     "816b119ce2cd8a50": 1794539838.2810621,
     "83fd1ecb6cef627a": 1794539838.2527893,
@@ -2498,8 +2499,7 @@
     "d5cd2b6e038648c2": 1793814556.0533805,
     "b655b8dd2fedfe0d": 1793814507.3859403,
     "dcdfa906dab25fd3": 1793814442.113319,
-    "489536db21d8b4ed": 1793814372.709321,
-    "07411d7c0ddc7961": 1793814302.6073003
+    "489536db21d8b4ed": 1793814372.709321
   },
   "initialized": true,
   "v": 4,
@@ -4201,6 +4201,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-12T23:07:55+00:00",
       "cluster": "c820aa6e5ea"
+    },
+    {
+      "t": "Dana White reacts to recent brawl involving Merab Dvalishvili and Usman Nurmagomedov",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-12T23:40:58+00:00",
+      "cluster": "cf368f62c18"
     }
   ],
   "digest_items": [],
