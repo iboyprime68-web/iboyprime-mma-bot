@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9d7606fa8e082d6c": 1794600896.0715816,
     "21b0e0d7d0892746": 1794600829.319496,
     "d8220d108f05ad48": 1794600829.2954228,
     "7ca0ef019ed9f278": 1794600762.8904126,
@@ -2498,8 +2499,7 @@
     "f789ab61c88ec9cf": 1793909189.8802044,
     "41b68df623effb19": 1793909189.8679967,
     "615d5176b2c007c0": 1793909189.8678055,
-    "12f3ff80fbfa02dd": 1793909189.8676066,
-    "fe11a6a2e91277fe": 1793909120.3807766
+    "12f3ff80fbfa02dd": 1793909189.8676066
   },
   "initialized": true,
   "v": 4,
@@ -2539,12 +2539,6 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-11T20:15:08+00:00",
       "cluster": "c50fc9414cb"
-    },
-    {
-      "t": "Report: Yair Rodriguez nears UFC return against Steve Garcia after long layoff",
-      "source": "Sherdog",
-      "ts": "2026-11-11T20:14:08+00:00",
-      "cluster": "cc7c3d9b71e"
     },
     {
       "t": "Ciryl Gane says Josh Hokit privately claimed he'd beat him in 2 sports",
@@ -4411,6 +4405,12 @@
       "source": "NY Fights",
       "ts": "2026-11-13T19:51:14+00:00",
       "cluster": "c6d1a2a8697"
+    },
+    {
+      "t": "Josh Hokit weighs for UFC Freedom 250 in June in Washington.",
+      "source": "Sandusky Register",
+      "ts": "2026-11-13T19:52:35+00:00",
+      "cluster": "cba742eaaff"
     }
   ],
   "digest_items": [],
