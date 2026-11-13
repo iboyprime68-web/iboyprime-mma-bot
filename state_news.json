@@ -1,5 +1,7 @@
 {
   "seen": {
+    "a3df581c1b786afe": 1794601095.9796922,
+    "db5fae7ae6526dd9": 1794601095.9712229,
     "3a0b1c122dac42a0": 1794601029.388155,
     "a2f4746b11796498": 1794601029.361042,
     "70522f5c57b2c5f8": 1794601029.359961,
@@ -2497,9 +2499,7 @@
     "9fbe0a1cf479adac": 1793909326.8740723,
     "e87c16d9d5edd8b1": 1793909326.873528,
     "bfbce7ac032c6ed7": 1793909258.3096907,
-    "7a75d336aa16da9b": 1793909258.3044312,
-    "d5ccad4632e3be49": 1793909258.3031466,
-    "71844700cf69dae8": 1793909258.2986398
+    "7a75d336aa16da9b": 1793909258.3044312
   },
   "initialized": true,
   "v": 4,
@@ -4411,6 +4411,12 @@
       "source": "The Daily News | Texas' Oldest Newspaper",
       "ts": "2026-11-13T20:05:22+00:00",
       "cluster": "c28c21157c6"
+    },
+    {
+      "t": "Josh Hokit Steals the Show at UFC 334 Press Conference With His Wild Antics",
+      "source": "Last Word On Sports",
+      "ts": "2026-11-13T20:11:39+00:00",
+      "cluster": "ce616568d32"
     }
   ],
   "digest_items": [],
