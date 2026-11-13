@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1f38a54058601bbb": 1794572043.0832233,
     "83492a330add9320": 1794572017.6417718,
     "e54ca2c2038f34b5": 1794572017.6177242,
     "b0c45fbedd9a6cba": 1794571941.2558923,
@@ -2498,8 +2499,7 @@
     "2ec633a1c87e01a4": 1793849393.836353,
     "7cee0ee00dcaf0f9": 1793849393.8350394,
     "e90163a7cc973173": 1793849314.778318,
-    "35098d6ae13d09db": 1793849314.761202,
-    "cee86fffd0b3f404": 1793849314.7610176
+    "35098d6ae13d09db": 1793849314.761202
   },
   "initialized": true,
   "v": 4,
@@ -4327,6 +4327,12 @@
       "source": "UA.NEWS",
       "ts": "2026-11-13T11:49:11+00:00",
       "cluster": "cdf7f32f138"
+    },
+    {
+      "t": "UFC fighter Tommy McMillen makes statement after scary nightclub overdose",
+      "source": "MMA Mania",
+      "ts": "2026-11-13T11:54:41+00:00",
+      "cluster": "c00463a781d"
     }
   ],
   "digest_items": [],
