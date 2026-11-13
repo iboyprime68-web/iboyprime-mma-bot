@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b633af421650f380": 1794573007.7155523,
     "960b144f78719f25": 1794572877.7300203,
     "d3feb69c890d2a1d": 1794572877.7049067,
     "32bd06c565929969": 1794572855.6138678,
@@ -2498,8 +2499,7 @@
     "bcfdb5172b0e2f3c": 1793849809.0135436,
     "d6ed27c39affff7a": 1793849740.6267726,
     "d2f9a93405d6cf40": 1793849740.620356,
-    "34f13410ba881106": 1793849740.6157873,
-    "f09b3d9bc996ac57": 1793849693.1140344
+    "34f13410ba881106": 1793849740.6157873
   },
   "initialized": true,
   "v": 4,
@@ -4381,6 +4381,12 @@
       "source": "The Times of India",
       "ts": "2026-11-13T12:20:00+00:00",
       "cluster": "c99d794c8cd"
+    },
+    {
+      "t": "Dana White Heckled at UFC 334 Presser as Fighter Pay Controversy Refuses to Fade",
+      "source": "EssentiallySports",
+      "ts": "2026-11-13T12:25:00+00:00",
+      "cluster": "c5c1cd57a23"
     }
   ],
   "digest_items": [],
