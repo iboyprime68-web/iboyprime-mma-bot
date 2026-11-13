@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0fd10b0b8c1c9434": 1794540327.1659007,
     "00e9821851b0f4ff": 1794540258.9106395,
     "e1f0be358717e598": 1794540211.4407053,
     "f575d37cad793c5e": 1794540211.417081,
@@ -2498,8 +2499,7 @@
     "ffb464a4e660a5e9": 1793831759.3344011,
     "ed1e868977d7edcf": 1793831759.3315828,
     "b51bc157f03a74dc": 1793831759.3253553,
-    "feac70ce1327bbf9": 1793831759.3225296,
-    "a55676c7eb85d4fd": 1793831759.307055
+    "feac70ce1327bbf9": 1793831759.3225296
   },
   "initialized": true,
   "v": 4,
@@ -4273,6 +4273,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-13T01:56:01+00:00",
       "cluster": "c4fc9d08ab5"
+    },
+    {
+      "t": "Dana White warns fighters after Usman Nurmagomedov-Merab Dvalishvili brawl",
+      "source": "Sherdog",
+      "ts": "2026-11-13T02:28:17+00:00",
+      "cluster": "c8a20e9f096"
     }
   ],
   "digest_items": [],
