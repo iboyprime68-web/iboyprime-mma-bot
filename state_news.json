@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b980d9c0cc1d09aa": 1794598601.502777,
     "d7bee24b8e58946a": 1794598534.110564,
     "bf61a250d76b1979": 1794598534.0887818,
     "9aef32ac027e9709": 1794598511.3116832,
@@ -2498,8 +2499,7 @@
     "401c216fdaef7a98": 1793881011.3095357,
     "ee6f64038d64bfd6": 1793881011.307799,
     "071215675eb5c85d": 1793880944.8273103,
-    "96618c59a5a0cf83": 1793880865.2040915,
-    "bfdc422c388fbc3c": 1793880798.8146374
+    "96618c59a5a0cf83": 1793880865.2040915
   },
   "initialized": true,
   "v": 4,
@@ -4213,6 +4213,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-13T16:35:22+00:00",
       "cluster": "cc6ba5f3bc2"
+    },
+    {
+      "t": "Merab Dvalishvili Cleared to Face Marlon Moraes as Saba Lazishvili Replaces Umar Nurmagomedov at RAF Abu Dhabi",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-13T16:44:19+00:00",
+      "cluster": "c755b1a1f35"
     }
   ],
   "digest_items": [],
