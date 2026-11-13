@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3156d4e4e4e9ddd9": 1794572622.7606077,
     "60a318708d17cffb": 1794572556.104308,
     "1a92eac29045bbd6": 1794572489.5862346,
     "debceb52c57d0738": 1794572489.5617788,
@@ -2498,8 +2499,7 @@
     "f09b3d9bc996ac57": 1793849693.1140344,
     "57ab4db8fc6eebc8": 1793849693.0966969,
     "f75613c71d12005b": 1793849666.9178412,
-    "ffe2c209da50f4fd": 1793849666.9009829,
-    "f545c691704fe3f2": 1793849598.9943151
+    "ffe2c209da50f4fd": 1793849666.9009829
   },
   "initialized": true,
   "v": 4,
@@ -4375,6 +4375,12 @@
       "source": "The Independent",
       "ts": "2026-11-13T12:05:00+00:00",
       "cluster": "c480cc1001a"
+    },
+    {
+      "t": "UFC 334 Morning Weigh-In Show Live Stream & Results for Ciryl Gane vs. Josh Hokit",
+      "source": "Sports Illustrated",
+      "ts": "2026-11-13T12:07:50+00:00",
+      "cluster": "c20044d7d42"
     }
   ],
   "digest_items": [],
