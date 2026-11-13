@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9fc828eea3a18c2f": 1794598118.2303293,
     "ea7d2994b9444dd3": 1794598093.3954973,
     "15b589a6c2f77fa9": 1794598067.488783,
     "8e21e238ded51648": 1794598039.4134336,
@@ -2498,8 +2499,7 @@
     "aa22a131081270c2": 1793880188.0145915,
     "339696506dbc69d3": 1793880120.8828375,
     "afb2c2b919fabf8c": 1793880120.8560133,
-    "7ba508349aee8faf": 1793880053.5079048,
-    "f481b12ca1219538": 1793880053.479682
+    "7ba508349aee8faf": 1793880053.5079048
   },
   "initialized": true,
   "v": 4,
@@ -4117,6 +4117,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-13T13:50:40+00:00",
       "cluster": "c43cfdd2154"
+    },
+    {
+      "t": "[Hickey] Latest update from UFC anti doping went live today. Mike Perry is back in the UFC.",
+      "source": "@andyhickeymma",
+      "ts": "2026-11-13T16:07:08.866000+00:00",
+      "cluster": "c180bf0d3b6"
     }
   ],
   "digest_items": [],
