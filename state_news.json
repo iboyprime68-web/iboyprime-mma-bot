@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ed757f771b41b871": 1794600495.253507,
     "690e8226afe47896": 1794600428.2427483,
     "aedcfd0527a71d0b": 1794600428.220045,
     "aac1efd4f6633c74": 1794600385.156179,
@@ -2498,8 +2499,7 @@
     "cdb1f67b9b8a76ab": 1793908981.2482946,
     "5d00dd074c3067e4": 1793908981.2362156,
     "4ff235ee3b94e496": 1793908981.2351513,
-    "6ef13be5e87b3caf": 1793908913.2281609,
-    "4f78eb2a9f31e53c": 1793908913.2236137
+    "6ef13be5e87b3caf": 1793908913.2281609
   },
   "initialized": true,
   "v": 4,
@@ -4381,6 +4381,12 @@
       "source": "SPORTbible",
       "ts": "2026-11-13T19:35:39+00:00",
       "cluster": "c054d5e4da5"
+    },
+    {
+      "t": "Dana White harshly criticized Nurmagomedov and Dvalishvili: \"What foolish people they are!\"",
+      "source": "Medianews.az",
+      "ts": "2026-11-13T19:29:22+00:00",
+      "cluster": "c439db58d7a"
     }
   ],
   "digest_items": [],
