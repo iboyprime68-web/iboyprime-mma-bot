@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3bb645cfa9f12bfb": 1794688043.1911192,
     "4a6bb29b33a6b9c7": 1794687976.9296777,
     "0972c0327d95b45d": 1794687910.6748981,
     "cbff7e3ecba3abb5": 1794687910.6661253,
@@ -2498,8 +2499,7 @@
     "c31475afff52ba04": 1794018557.2594097,
     "b5f5672e46ebae50": 1794017923.631309,
     "0d0bdb6827d8cd1c": 1794017856.746616,
-    "3de67b315925e4bd": 1794017856.7350273,
-    "da707addc1b63ad3": 1794017856.7339041
+    "3de67b315925e4bd": 1794017856.7350273
   },
   "initialized": true,
   "v": 4,
@@ -4411,6 +4411,12 @@
       "source": "日本取引所グループ",
       "ts": "2026-11-14T19:53:52+00:00",
       "cluster": "c831d4b9e9f"
+    },
+    {
+      "t": "Press secretary by accident? UFC boss Dana White reveals that Trump “tricked” him at the White House",
+      "source": "MARCA",
+      "ts": "2026-11-14T19:55:32+00:00",
+      "cluster": "c70555f9a23"
     }
   ],
   "digest_items": [],
