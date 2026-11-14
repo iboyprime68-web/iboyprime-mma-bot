@@ -1,5 +1,6 @@
 {
   "seen": {
+    "633805f5b9d9ad57": 1794668139.1490388,
     "f7f6fd46ee847d01": 1794668114.7417045,
     "ff4453ec0fab8172": 1794668089.1511786,
     "921e7d40d67bf188": 1794668063.7608354,
@@ -2498,8 +2499,7 @@
     "a971d27e978311f2": 1793980645.307799,
     "022eba27d3765ae8": 1793980645.2970293,
     "c000ac163f12d44a": 1793980577.697557,
-    "08966ce725c14d07": 1793980577.6849272,
-    "288fc94495ed4512": 1793980577.6835456
+    "08966ce725c14d07": 1793980577.6849272
   },
   "initialized": true,
   "v": 4,
@@ -4273,6 +4273,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-14T13:00:00+00:00",
       "cluster": "c775998bfe5"
+    },
+    {
+      "t": "Mike Perry reveals he re-signed to the UFC the day before suffering TKO loss and teases next opponent",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-14T14:00:00+00:00",
+      "cluster": "cb9f99b4493"
     }
   ],
   "digest_items": [],
