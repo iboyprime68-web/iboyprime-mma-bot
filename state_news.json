@@ -1,5 +1,7 @@
 {
   "seen": {
+    "7748408fe827b1c0": 1794642844.432446,
+    "6e7318d8a38eea5b": 1794642844.4265208,
     "aa9c41088e99c6e4": 1794642797.929181,
     "a6ad40d99e922824": 1794642542.0088067,
     "f9898ef8b707e240": 1794642474.5350332,
@@ -2497,9 +2499,7 @@
     "b85ee2e3a134dde9": 1793954175.241945,
     "6f59da06dc67f596": 1793954175.2404854,
     "878326e212b93330": 1793954108.1130068,
-    "f92502c6589fb6f1": 1793954108.094335,
-    "35fdfdc6964d71a8": 1793953482.0330665,
-    "420b12d3ede6ce65": 1793953228.7660427
+    "f92502c6589fb6f1": 1793954108.094335
   },
   "initialized": true,
   "v": 4,
@@ -2527,12 +2527,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-12T14:56:16+00:00",
       "cluster": "c6cd8d68bc3"
-    },
-    {
-      "t": "Michael Page Delivers Blunt Take on His UFC Departure",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-12T07:54:00+00:00",
-      "cluster": "cb32cb162bc"
     },
     {
       "t": "Anything but Fighting: Stephen Thompson loves anime",
@@ -4291,6 +4285,12 @@
       "source": "Khel Now",
       "ts": "2026-11-14T07:30:00+00:00",
       "cluster": "ce0c1776d63"
+    },
+    {
+      "t": "PFL Dubai ‘Nemkov vs. Bilostenniy’ play-by-play, results & round scoring",
+      "source": "Sherdog",
+      "ts": "2026-11-14T07:54:04.245700+00:00",
+      "cluster": "cf5b2e68a87"
     }
   ],
   "digest_items": [],
