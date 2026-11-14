@@ -1,5 +1,7 @@
 {
   "seen": {
+    "058f5b1324cf962c": 1794670450.4392974,
+    "5001e376e835456b": 1794670450.4163535,
     "ed00e253f70850d4": 1794670324.657408,
     "1e5c827720a254cf": 1794670260.894087,
     "7eb28409c60147f6": 1794670260.8934925,
@@ -2497,9 +2499,7 @@
     "1e61b704f391bcdf": 1793983097.25352,
     "62d571e637cd82b8": 1793983097.241145,
     "6fad233acfd138ff": 1793983097.2406797,
-    "9531fda893d4f0fb": 1793982970.0431914,
-    "f98cef7d70eaf843": 1793982842.4277086,
-    "c025dcc3a81d4ff1": 1793982714.5083117
+    "9531fda893d4f0fb": 1793982970.0431914
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-12T16:00:00+00:00",
       "cluster": "cbc787a5b6a"
-    },
-    {
-      "t": "Merab Dvalishvili and Usman Nurmagomedov still in police custody 24 hours after brawl as update provided",
-      "source": "talkSPORT",
-      "ts": "2026-11-12T15:33:29+00:00",
-      "cluster": "cab8eea12f0"
     },
     {
       "t": "\"I Hate The Acting\" - Paddy Pimblett Doesn't Hold Back On Josh Hokit And Colby Covington",
@@ -4327,6 +4321,12 @@
       "source": "MMA Mania",
       "ts": "2026-11-14T15:28:14+00:00",
       "cluster": "cc0bb3582b2"
+    },
+    {
+      "t": "UFC 334 'Embedded,' No. 6: Josh Hokit's one-liner provides weight cut laughs",
+      "source": "MMA Junkie",
+      "ts": "2026-11-14T15:29:00+00:00",
+      "cluster": "c501b27a2dd"
     }
   ],
   "digest_items": [],
