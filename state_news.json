@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1854edfb3baff1bc": 1794641458.0364718,
     "89713860e6c6d02f": 1794641432.9425552,
     "dfbf435df6802586": 1794641432.9252641,
     "ab1adc55e38e61aa": 1794641406.5624716,
@@ -2498,8 +2499,7 @@
     "88d6bf77f3432ae7": 1793929542.3577843,
     "0532b50733d24468": 1793929228.2797186,
     "48f4011a2b2f7038": 1793929101.846656,
-    "3347926bc7110039": 1793928972.6772017,
-    "842c4a3bda2dffd7": 1793928972.6707428
+    "3347926bc7110039": 1793928972.6772017
   },
   "initialized": true,
   "v": 4,
@@ -4171,6 +4171,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-14T02:49:59+00:00",
       "cluster": "c629bad5fec"
+    },
+    {
+      "t": "Dana White says Ciryl Gane’s fouls were not why he beat Alex Pereira: ‘He had already done damage’",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-14T06:00:00+00:00",
+      "cluster": "c98723e0629"
     }
   ],
   "digest_items": [],
