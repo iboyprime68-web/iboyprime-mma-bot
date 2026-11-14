@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6d6cde35db6a8a36": 1794686983.914371,
     "8e13eb7c225dd084": 1794686917.1057785,
     "2fb8d28d22b840c1": 1794686917.084422,
     "7cacfb6e501c9a5c": 1794686917.07922,
@@ -2498,8 +2499,7 @@
     "11a262a500cfeb8b": 1794015919.457003,
     "b000d819c6368778": 1794015894.0794249,
     "1e75a2c4bfabea19": 1794015894.0655723,
-    "60418ae57216f1de": 1794015836.091045,
-    "5f89be7fd9c92cf4": 1794015811.4073834
+    "60418ae57216f1de": 1794015836.091045
   },
   "initialized": true,
   "v": 4,
@@ -4315,6 +4315,12 @@
       "source": "FightBook MMA",
       "ts": "2026-11-14T19:13:13+00:00",
       "cluster": "c7eb95538a1"
+    },
+    {
+      "t": "Gane Defends Heavyweight Title Against Hokit at UFC 334 in New York",
+      "source": "JournalArta",
+      "ts": "2026-11-14T19:13:30+00:00",
+      "cluster": "c9d1180b15d"
     }
   ],
   "digest_items": [],
