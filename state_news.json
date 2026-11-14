@@ -1,5 +1,6 @@
 {
   "seen": {
+    "90a616aac545d682": 1794687246.0376744,
     "916c38b1e5f06644": 1794687179.6839094,
     "7f73e3d5fb0ba7d5": 1794687179.6760354,
     "9be1fd229bfa9b7d": 1794687179.6705031,
@@ -2498,8 +2499,7 @@
     "4d5350b29cacd95c": 1794016403.811273,
     "7e27a7a191611caf": 1794016403.799918,
     "a82400dd25a454b1": 1794016335.78768,
-    "1d91280af03e0acc": 1794016335.7765844,
-    "b0f55dd9ec09b7c1": 1794016335.7755558
+    "1d91280af03e0acc": 1794016335.7765844
   },
   "initialized": true,
   "v": 4,
@@ -4339,6 +4339,12 @@
       "source": "日本取引所グループ",
       "ts": "2026-11-14T19:12:30+00:00",
       "cluster": "c41b9090a1c"
+    },
+    {
+      "t": "UFC 334 live results: Gane vs. Hokit updates, round-by-round scoring for tonight's title doubleheader",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-14T19:15:00+00:00",
+      "cluster": "c92cfe54fda"
     }
   ],
   "digest_items": [],
