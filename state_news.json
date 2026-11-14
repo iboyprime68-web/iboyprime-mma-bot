@@ -1,5 +1,6 @@
 {
   "seen": {
+    "921e7d40d67bf188": 1794668063.7608354,
     "bcc9cacbc9165354": 1794668038.2978787,
     "373ed7898e239f07": 1794667990.6229277,
     "cfe5891ff6ab7b9a": 1794667990.5831125,
@@ -2498,8 +2499,7 @@
     "08966ce725c14d07": 1793980577.6849272,
     "288fc94495ed4512": 1793980577.6835456,
     "e4e8266fa5dad3f2": 1793980508.36554,
-    "1336f8226a5c88c7": 1793980508.360969,
-    "a66082913dabada5": 1793980508.3480802
+    "1336f8226a5c88c7": 1793980508.360969
   },
   "initialized": true,
   "v": 4,
@@ -4255,6 +4255,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-14T11:00:00+00:00",
       "cluster": "c73aa82c8ab"
+    },
+    {
+      "t": "Dana White includes Jon Jones vs Tom Aspinall, Josh Hokit and Paddy Pimblett on his dream UFC card",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-14T12:00:00+00:00",
+      "cluster": "c8987a9a470"
     }
   ],
   "digest_items": [],
