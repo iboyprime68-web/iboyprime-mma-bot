@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 35,
   "staged_at": [
-    "2026-11-10T17:08:16.501692+00:00",
     "2026-11-11T17:15:36.184929+00:00",
     "2026-11-12T17:38:37.771940+00:00",
-    "2026-11-13T17:16:10.089909+00:00"
+    "2026-11-13T17:16:10.089909+00:00",
+    "2026-11-14T15:52:48.305686+00:00"
   ],
   "asked": [
-    "Who is the biggest threat to Alexander Volkanovski at featherweight right now?",
     "Who is the most dangerous threat to the UFC heavyweight title right now?",
     "Who is the most dangerous threat to Alexander Volkanovski at featherweight right now?",
     "Who is the most boring fighter to watch in the UFC right now?",
@@ -47,33 +46,34 @@
     "Who is the biggest threat to Ciryl Gane in the heavyweight division right now?",
     "What is the most cowardly act in UFC history?",
     "What is the most out-of-line thing a fighter has ever done outside the cage?",
-    "What is the most out of line thing a fighter has done outside the cage?"
+    "What is the most out of line thing a fighter has done outside the cage?",
+    "What is the most absurd side job a UFC figure has actually taken?"
   ],
   "last_entry": {
-    "q": "What is the most out of line thing a fighter has done outside the cage?",
+    "q": "What is the most absurd side job a UFC figure has actually taken?",
     "type": "poll",
     "options": [
       {
-        "label": "Abu Dhabi brawl",
-        "emoji": "🚔",
-        "art": "Shattered hotel lobby, scattered chairs and phones on marble, flashing police lights through glass doors"
+        "label": "Buffer's steakhouse",
+        "emoji": "🥩",
+        "art": "empty steakhouse booth lit by one spotlight, microphone resting on the table, no people"
       },
       {
-        "label": "Conor bus attack",
-        "emoji": "🚌",
-        "art": "Dolly smashed through a bus window, glass shards flying, loading dock lights at night"
+        "label": "Dana's press room",
+        "emoji": "🎤",
+        "art": "empty White House briefing podium with a fight promo banner behind it, harsh overhead lighting"
       },
       {
-        "label": "Jones hit and run",
-        "emoji": "🚗",
-        "art": "Crumpled rental car front end, broken streetlight, empty road at 3am"
+        "label": "Hokit's one-liners",
+        "emoji": "🎙️",
+        "art": "empty weigh-in scale room, towel draped over the scale, single spotlight from above"
       },
       {
         "label": "Other (comment below)",
-        "emoji": "🍿",
-        "art": "A raccoon in tiny handcuffs being escorted out of a hotel by two pigeons"
+        "emoji": "🤡",
+        "art": ""
       }
     ],
-    "gag": "A raccoon in tiny handcuffs being escorted out of a hotel lobby by two pigeons"
+    "gag": "clown in a suit standing behind a tiny press podium, oversized microphone, flashing cameras, no text"
   }
 }
