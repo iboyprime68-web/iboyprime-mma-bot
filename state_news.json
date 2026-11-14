@@ -1,5 +1,6 @@
 {
   "seen": {
+    "80cc4294d827a546": 1794670001.997361,
     "8e49129bf4185240": 1794669937.8060524,
     "f6774efbf8750620": 1794669252.4392235,
     "d9f8b8ce14d9f1af": 1794669209.4143596,
@@ -2498,8 +2499,7 @@
     "f1a37680bf8b164d": 1793982580.6617727,
     "429abdcd8e0ca7f8": 1793982452.9315784,
     "b3e6cf02da0ebd14": 1793982321.4204726,
-    "22d08ae573726da7": 1793982321.4076633,
-    "39525f30f22f18e2": 1793982256.946486
+    "22d08ae573726da7": 1793982321.4076633
   },
   "initialized": true,
   "v": 4,
@@ -4339,6 +4339,12 @@
       "source": "boxingnews.com",
       "ts": "2026-11-14T15:00:52+00:00",
       "cluster": "cf56002d3c3"
+    },
+    {
+      "t": "Why Bruce Buffer Traded the Octagon for the Steakhouse in New Bud Light Campaign",
+      "source": "The Hollywood Reporter",
+      "ts": "2026-11-14T15:25:00+00:00",
+      "cluster": "cd41cfcbf2d"
     }
   ],
   "digest_items": [],
