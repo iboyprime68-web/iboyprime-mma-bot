@@ -1,14 +1,13 @@
 {
   "v": 2,
-  "cursor": 35,
+  "cursor": 36,
   "staged_at": [
-    "2026-11-11T17:15:36.184929+00:00",
     "2026-11-12T17:38:37.771940+00:00",
     "2026-11-13T17:16:10.089909+00:00",
-    "2026-11-14T15:52:48.305686+00:00"
+    "2026-11-14T15:52:48.305686+00:00",
+    "2026-11-14T20:47:22.285641+00:00"
   ],
   "asked": [
-    "Who is the most dangerous threat to the UFC heavyweight title right now?",
     "Who is the most dangerous threat to Alexander Volkanovski at featherweight right now?",
     "Who is the most boring fighter to watch in the UFC right now?",
     "Who wins the UFC 333 trilogy, Merab Dvalishvili or Petr Yan?",
@@ -47,33 +46,34 @@
     "What is the most cowardly act in UFC history?",
     "What is the most out-of-line thing a fighter has ever done outside the cage?",
     "What is the most out of line thing a fighter has done outside the cage?",
-    "What is the most absurd side job a UFC figure has actually taken?"
+    "What is the most absurd side job a UFC figure has actually taken?",
+    "Who has the nastiest submissions in the game today?"
   ],
   "last_entry": {
-    "q": "What is the most absurd side job a UFC figure has actually taken?",
+    "q": "Who has the nastiest submissions in the game today?",
     "type": "poll",
     "options": [
       {
-        "label": "Buffer's steakhouse",
-        "emoji": "🥩",
-        "art": "empty steakhouse booth lit by one spotlight, microphone resting on the table, no people"
+        "label": "Charles Oliveira",
+        "emoji": "🕸️",
+        "art": ""
       },
       {
-        "label": "Dana's press room",
-        "emoji": "🎤",
-        "art": "empty White House briefing podium with a fight promo banner behind it, harsh overhead lighting"
+        "label": "Islam Makhachev",
+        "emoji": "🐍",
+        "art": ""
       },
       {
-        "label": "Hokit's one-liners",
-        "emoji": "🎙️",
-        "art": "empty weigh-in scale room, towel draped over the scale, single spotlight from above"
+        "label": "Jailton Almeida",
+        "emoji": "🐊",
+        "art": ""
       },
       {
-        "label": "Other (comment below)",
-        "emoji": "🤡",
+        "label": "Alexandre Pantoja",
+        "emoji": "🦂",
         "art": ""
       }
     ],
-    "gag": "clown in a suit standing behind a tiny press podium, oversized microphone, flashing cameras, no text"
+    "gag": "a pigeon standing on a championship belt, looking deeply unimpressed"
   }
 }
