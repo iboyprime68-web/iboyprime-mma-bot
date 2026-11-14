@@ -4162,7 +4162,6 @@
     0
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=483617",
     "CBMilgFBVV95cUxQRFhiOURmM3F1MXVjalREQ1REMzhlQUZhVWR5SjlMVzVtUDdEZjdVelBaeW0xTnhxYkZvM0tpaTdSTEFCZm9lN2FUNUFUbDhSYmN1ZHJoTXF1LUIwSkdBdUxfS2FYTTQxbnp1WF9YOGxreXI5RzduNUU0QzFYb1hGV1FxQkJGUVg5ZE93TWdNMC15cTJwM0E",
     "CBMihAFBVV95cUxQelZFZm80Rzl6MncxVmZZNEw4SWxxWWRZcEVYdHVJQVFfc0Y1eXFnYXRNaTFScjEtUklzVFphWkJMcENqLVYtdlhDNzQ0YUliWnBueVVRdUxyQVVUTGtUZTE5ZUVzTHNOM0FZQ0VDTVI4NHBZMjFKMkExSjZhczd2bTVmMlI",
     "CBMihwFBVV95cUxQZmdrYjZvSkM5YkozZmcyMlVoYTFrUG9mTDV5R2c0MGRSb19lUWJLUzh6UDBhSGVKSXZKQWhRQW9vVEJDa2Vvck9ienYwQUxMcVRxWFZxUlZrUVRONkUyaWdjOW9XRjNxeFA4N1ZYdFdMY044LVR6eVhsWmtxejRkbzdhR0E3bmM",
@@ -5661,26 +5660,17 @@
     "https://www.mmafighting.com/?p=521028",
     "7ed4afa3-90b0-454a-aa35-a9a17dadb7d7",
     "https://bloodyelbow.com/?p=341952",
-    "b79ab333-ee7e-3a9d-a7ff-84f41760e66c"
+    "b79ab333-ee7e-3a9d-a7ff-84f41760e66c",
+    "https://bloodyelbow.com/?p=341956"
   ],
   "daily": {
     "d": "2026-11-14",
-    "ai": 121,
-    "staged": 1,
+    "ai": 123,
+    "staged": 2,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-10-01T16:12:59.265793+00:00",
-      "t": "Natalia Silva unfazed by UFC 332 critics, calls Wang Cong her 'toughest fight'",
-      "names": [
-        "silva",
-        "cong",
-        "wang"
-      ],
-      "img": "cutout:wang-cong"
-    },
     {
       "ts": "2026-10-01T21:40:46.038144+00:00",
       "t": "Ex-UFC Champion Alex Pereira Teases Next Fight News in Huge Update",
@@ -7008,6 +6998,15 @@
     {
       "ts": "2026-11-14T14:53:12.081966+00:00",
       "t": "Merab Dvalishvili doesn’t want to press charges against Usman Nurmagomedov, wants to help him get out of prison",
+      "names": [
+        "dvalishvili",
+        "nurmagomedov"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-11-14T19:51:41.159005+00:00",
+      "t": "Merab Dvalishvili claims Umar Nurmagomedov is in custody for involvement in brawl that led to arrests",
       "names": [
         "dvalishvili",
         "nurmagomedov"
