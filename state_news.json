@@ -1,5 +1,6 @@
 {
   "seen": {
+    "71b065821cf9483d": 1794751334.6054308,
     "1d8aa1f1a70fc3a2": 1794751267.7241895,
     "67129a83c9e5636b": 1794751225.9886966,
     "fddb2525fc5dfb5d": 1794751199.8361073,
@@ -2498,8 +2499,7 @@
     "16bcd550dbee831b": 1794097460.0040536,
     "c2441a514a9e1a77": 1794097459.9948156,
     "4bb66cd9966f25cd": 1794097459.9921968,
-    "3e6a0bed17aaab59": 1794097459.9901388,
-    "bdc45faf5092425f": 1794097459.983774
+    "3e6a0bed17aaab59": 1794097459.9901388
   },
   "initialized": true,
   "v": 4,
@@ -4783,6 +4783,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-15T08:07:23+00:00",
       "cluster": "cbb73f5e1e9"
+    },
+    {
+      "t": "Dana White Shares His Scorecard for Ciryl Gane vs. Josh Hokit",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-15T09:44:55+00:00",
+      "cluster": "c25bc6283ca"
     }
   ],
   "digest_items": [],
