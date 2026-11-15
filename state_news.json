@@ -4708,7 +4708,6 @@
     0
   ],
   "yt_eval": [
-    "CBMiiAFBVV95cUxOd3VOV2R1bENiWkQxTUFVQVJoOU9uR19Vb1hLN0tvRVR3WkhiU1UzYzRtTExuWVVTQmRjY2EtYVRMYjl6cFY1WjVRanA3UHVjaW9GMktFeWpfc2ZycnFfek1xa3VSYXZ4cU9VVzdhbl93YzNHWWdYVC1uWDJiNy1tUDY5Tks2ckVF",
     "CBMiugFBVV95cUxQUkhQdi1OalpjZUZBOHJuemxiNTlJdk56SkVkcUoxVDk3c0YtVjdmZ0hLZ05jR2pMS25lT3plb05BLTJRNFVQMUgyaUx2cFhxNzNmZEpjUlRhWWk3UFZDNGxBTF9OSE5wXzBJbzcwbzlRNUJPV0RKQzRzOVV1N281V1NIM210Q0t5VXEwemdKUllueERxNkpBQ1l0ZFBIQlI1MzFvMlN0eGsyLW5Lb3dwZ3l3aTRYMC01M2c",
     "CBMijAFBVV95cUxNenktZnh5dHJ6aVVuZWp4cDFyRXRkM3J1TjlWV3AtWHFIR2MtWUdpWGpuNjlMWmROaWJxeFdNZTBiS0NEMUw4NkZLNXlFcFpnc2RQcmthdjVGYTBqMWRJQ1BBWTFUZnR1Wk5mbTVULTFfbm5BTXNaOTdNTjZSZzY3VzhYdUxRUkU1Qm5Fbw",
     "6fd24ff9-bfb9-3e00-99d0-37a6eff7ff15",
@@ -6207,25 +6206,17 @@
     "8df9bb6d-0183-3d46-958f-f8e148a48dd2",
     "https://bloodyelbow.com/?p=342151",
     "41cb9ae9-09b1-38e9-b0e5-78d4e861cc38",
-    "https://www.mmafighting.com/?p=521582"
+    "https://www.mmafighting.com/?p=521582",
+    "https://bloodyelbow.com/?p=342171"
   ],
   "daily": {
     "d": "2026-11-15",
-    "ai": 126,
+    "ai": 128,
     "staged": 3,
-    "prio": 1,
+    "prio": 2,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-10-02T15:36:15.812992+00:00",
-      "t": "Amanda Nunes told she can make or break ‘historic moment’ involving two UFC stars with Kayla Harrison fight",
-      "names": [
-        "nunes",
-        "harrison"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-10-02T15:48:14.336699+00:00",
       "t": "Natalia Silva on weigh at 125 lbs ⚖️✅ The #UFC332 main event is now official. 👑",
@@ -7567,6 +7558,15 @@
         "white"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-15T13:46:03.635744+00:00",
+      "t": "Josh Hokit claims he was ‘seeing triple all fight’ as he accuses Ciryl Gane of fouling him at UFC 334",
+      "names": [
+        "hokit",
+        "gane"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7703,15 +7703,16 @@
     "5d9258aea9151462": 1794343577.1593542,
     "e735d4ff889f66ee": 1794416943.7373343,
     "399a954f20789120": 1794499959.3678932,
-    "d1085da78fff1b84": 1794597906.0071611
+    "d1085da78fff1b84": 1794597906.0071611,
+    "d3b4a4dd7c7f14d9": 1794750391.3527882
   },
   "pinged_titles": [
     [
-      "Usman Nurmagomedov, 7 others reportedly sentenced to 6 months in jail for attack on Merab Dvalishvili",
-      1794597906.0071611,
+      "Josh Hokit claims he was ‘seeing triple all fight’ as he accuses Ciryl Gane of fouling him at UFC 334",
+      1794750391.3527882,
       [
-        "dvalishvili",
-        "nurmagomedov"
+        "gane",
+        "hokit"
       ]
     ]
   ]
