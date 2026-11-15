@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0f46fe04d998f459": 1794771581.0341358,
     "ba0d833d35de6b5b": 1794771556.2360995,
     "4a9a592cfa953762": 1794771556.1993725,
     "9a6d32cf2db8129a": 1794771556.1652405,
@@ -2498,8 +2499,7 @@
     "6450880afebb2158": 1794116333.8327951,
     "2f68319093bae08e": 1794116333.8230326,
     "ef771f028656ae49": 1794116333.8155978,
-    "d03a8d186390490c": 1794116333.8079407,
-    "02497387a3b771ba": 1794116333.8007145
+    "d03a8d186390490c": 1794116333.8079407
   },
   "initialized": true,
   "v": 4,
@@ -4705,6 +4705,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-15T15:00:00+00:00",
       "cluster": "c4b639a2a56"
+    },
+    {
+      "t": "Bruce Buffer was talked out of planned response to Josh Hokit flipping him off during UFC 334 intro",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-15T16:00:00+00:00",
+      "cluster": "c3ab4df77c2"
     }
   ],
   "digest_items": [],
