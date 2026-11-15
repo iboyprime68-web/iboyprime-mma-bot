@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f05f515340e896ce": 1794787166.2971065,
     "8b54d1b632993c50": 1794787100.351637,
     "2dacc02fdabe87bb": 1794787034.463537,
     "7dca2b7afbef9a1d": 1794787034.4342277,
@@ -2498,8 +2499,7 @@
     "280a60168f056fce": 1794143506.9581668,
     "dde7cf5f570430a3": 1794143506.947032,
     "55a53c7f7f4d4470": 1794143506.939105,
-    "d2656b5d68dd9f69": 1794143506.9299376,
-    "0da784dc896b6721": 1794143506.899162
+    "d2656b5d68dd9f69": 1794143506.9299376
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-14T00:05:35+00:00",
       "cluster": "c3810374ff7"
-    },
-    {
-      "t": "UFC, Ram Donate $750,000 to Folds of Honor After Dana White’s $1.5 Million Truck Purchase",
-      "source": "Combat Press",
-      "ts": "2026-11-13T23:59:00+00:00",
-      "cluster": "cf311f72188"
     },
     {
       "t": "McKinney vs. Miller Under 1.5 Is UFC 334’s Weekend Lock",
@@ -4873,6 +4867,12 @@
       "source": "Heavy.com",
       "ts": "2026-11-15T23:04:12+00:00",
       "cluster": "c6b464b40d3"
+    },
+    {
+      "t": "Amanda Nunes Issues Statement After UFC 334 Loss",
+      "source": "Heavy.com",
+      "ts": "2026-11-15T23:13:49+00:00",
+      "cluster": "c289d6ad0c1"
     }
   ],
   "digest_items": [],
