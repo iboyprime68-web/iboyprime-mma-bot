@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c4ed1df0abf7aa2c": 1794773597.9963434,
     "38e7e1b7bdec1726": 1794773531.820332,
     "5c4f9625707ca293": 1794773466.5361865,
     "f54eb552b32afcd5": 1794773399.8538146,
@@ -2498,8 +2499,7 @@
     "f9652abe800e2e1d": 1794117969.6460538,
     "07ac882d2e3ce2f0": 1794117969.6370265,
     "c56c5181a67e0d5a": 1794117969.6284127,
-    "b56f9f1bf4868d0a": 1794117902.6911206,
-    "014ad6b946864bf8": 1794117902.6798406
+    "b56f9f1bf4868d0a": 1794117902.6911206
   },
   "initialized": true,
   "v": 4,
@@ -4867,6 +4867,12 @@
       "source": "La Sueur",
       "ts": "2026-11-15T19:24:05+00:00",
       "cluster": "c0cbdd1427e"
+    },
+    {
+      "t": "Josh Hokit won over Dana White with his UFC 334 performance after their ‘issues’",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-15T19:30:00+00:00",
+      "cluster": "c1ed46bc834"
     }
   ],
   "digest_items": [],
