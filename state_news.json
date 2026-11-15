@@ -4900,7 +4900,6 @@
     0
   ],
   "yt_eval": [
-    "66b6a03d-4aff-317f-a221-f7ba67f69873",
     "CBMijwFBVV95cUxOLXAxbnEycV9PaFdsUTZDQjRhVlRSSE1NMlBGUzNXeVQwRE0xcTJYVzc5ZW9xckVOZTdoN3g0c1E3eUZ1anZjWGxQUWpDVXF3SnR0bHczYmJhWlY5bVRLZ2VpM1EzRVFWakxvcWVmMmdvbXVRRTY0eHFaQlZ3ZDNqUG9OMXNSbFBKRldiX25mWQ",
     "https://www.mmamania.com/?p=484184",
     "CBMixgFBVV95cUxNZjhlaDMxX3EzSkZzU2d5UzRlQ1JBQVg5LU13MWtQYXhocEpTZC04eGhfZWdNRk5NWUxMYnF2TUdHa1dTaktVQXgyZWpEOEVZbk9vVkZwZ284MUluVHpKLTBPMllLUFRhN0wybzZqR0pBNW12aGZ0elJ0Ti14dEFYTjF1bmQ3V1Y2Yjg2QWhLM0U4M1JIRVdyYk1Uek1HUGNhTUhPSHlyWlNudlU3bDYtdVVYRllrM0g1eWxhenFvOXBIVkotQ3c",
@@ -6399,24 +6398,17 @@
     "https://www.mmamania.com/?p=486893",
     "CBMiZkFVX3lxTE9LSDhCY0ZBYWptRzAxdzdGTHIxSm4wZ0tTUFN4VHZhbk5zeWxXTmhhR211bXRwN01ONHRKa1BXUzlVNXpRTTJJbnJjSUxFYm5hZHF5WlROWVNxa0EzVWZyV0NKaFhxQQ",
     "CBMipwFBVV95cUxQWG5jMm0tYXk0WS1IYi1yRHBOODJTNXkxRzVlekZXRVk0Vl83V3cyT1AwYkZydE9mZFZycmd0VkZSYk9uUGYzLUMyZEFHZ1d0MGFBRkpXVlBCT2xSUVFQUFdKRDBieXZobzgyUjRFdXpHODJMMEVCNnZnUFdmbGNSWk5USUZVbjhnNFMxbWkwRlRhUzRPTU1ObjZYeTgxVS1lVHpSTUk2VQ",
-    "CBMiigFBVV95cUxQUDhvWlBhaEV3ZmJRVDJZckFWSjEtMUtDdm5NTDRNcUhRUk04VUJpeDJrY0ZkYkhiRnZ6RlY0c1BDdkVsVGpoQzJuWmdzaGN6dUo1M0owcDhwekZSd1F2SlNyTGRZZ0kxUnZaeGlBeG1oUkRrY0I0cHRNaHBoMG9WQnB6Qmg1Q2x1eWc"
+    "CBMiigFBVV95cUxQUDhvWlBhaEV3ZmJRVDJZckFWSjEtMUtDdm5NTDRNcUhRUk04VUJpeDJrY0ZkYkhiRnZ6RlY0c1BDdkVsVGpoQzJuWmdzaGN6dUo1M0owcDhwekZSd1F2SlNyTGRZZ0kxUnZaeGlBeG1oUkRrY0I0cHRNaHBoMG9WQnB6Qmg1Q2x1eWc",
+    "CBMiakFVX3lxTE54TDRHaHNCamlLMkRqWUk3MTNaNmxSNTh2VjFPMEoyN0hFWEJhY2Rod0ZQWW9QeXNwTjVNTTJzdHdIdWthU0NrS19jNUc5MlM1VXM1elJpYW5nZkZ6bGE2RVhlNXRsRk5NLVE"
   ],
   "daily": {
     "d": "2026-11-15",
-    "ai": 237,
+    "ai": 239,
     "staged": 4,
-    "prio": 4,
+    "prio": 5,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-10-03T00:19:52.256111+00:00",
-      "t": "Ilia Topuria offered comeback fight by popular lightweight contender: ‘He needs an easy fight’",
-      "names": [
-        "topuria"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-10-03T06:17:49.276451+00:00",
       "t": "\"Full disability\" - Sean Strickland jokes about surprising career plans once he retires from MMA",
@@ -7755,6 +7747,15 @@
         "white"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-15T20:17:49.567501+00:00",
+      "t": "Josh Hokit Blasts Jon Jones After UFC 334 Criticism",
+      "names": [
+        "hokit",
+        "jones"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7894,31 +7895,23 @@
     "d1085da78fff1b84": 1794597906.0071611,
     "d3b4a4dd7c7f14d9": 1794750391.3527882,
     "67129a83c9e5636b": 1794751240.2752066,
-    "f67117ae02aaaeed": 1794752979.0512264
+    "f67117ae02aaaeed": 1794752979.0512264,
+    "fae7d6123ce719b7": 1794773892.7058773
   },
   "pinged_titles": [
-    [
-      "Josh Hokit claims he was ‘seeing triple all fight’ as he accuses Ciryl Gane of fouling him at UFC 334",
-      1794750391.3527882,
-      [
-        "gane",
-        "hokit"
-      ]
-    ],
-    [
-      "Kayla Harrison shuts down fight against teammate next as she calls out Ronda Rousey: ‘Free money’",
-      1794751240.2752066,
-      [
-        "free",
-        "harrison",
-        "rousey"
-      ]
-    ],
     [
       "UFC 334 winner vows to KO ‘old man’ Conor McGregor after being called ‘scum’",
       1794752979.0512264,
       [
         "conor"
+      ]
+    ],
+    [
+      "Josh Hokit Blasts Jon Jones After UFC 334 Criticism",
+      1794773892.7058773,
+      [
+        "hokit",
+        "jones"
       ]
     ]
   ]
