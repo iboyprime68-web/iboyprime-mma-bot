@@ -1,5 +1,6 @@
 {
   "seen": {
+    "fddb2525fc5dfb5d": 1794751199.8361073,
     "f14d7c9661e2f52b": 1794751132.3802357,
     "15818008cf2f4a56": 1794751065.2973692,
     "dba5124b3468ebc9": 1794751038.9317079,
@@ -2498,8 +2499,7 @@
     "3e6a0bed17aaab59": 1794097459.9901388,
     "bdc45faf5092425f": 1794097459.983774,
     "9608669fd849fd8c": 1794097459.9770405,
-    "e36000108a06341c": 1794097391.8859937,
-    "30a73374aa02f423": 1794097323.4312437
+    "e36000108a06341c": 1794097391.8859937
   },
   "initialized": true,
   "v": 4,
@@ -4771,6 +4771,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-15T09:30:46+00:00",
       "cluster": "cd186029117"
+    },
+    {
+      "t": "Dana White hopes Tommy McMillen's hospitalization was 'a huge wake-up call' for young UFC star",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-15T09:39:06+00:00",
+      "cluster": "cb973a2afdd"
     }
   ],
   "digest_items": [],
