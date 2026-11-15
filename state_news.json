@@ -1,5 +1,7 @@
 {
   "seen": {
+    "dace1594bc496248": 1794772602.2670472,
+    "2b9e3c5ac1b933a0": 1794772602.2341564,
     "e902b44dc8be6b22": 1794772534.9884062,
     "c7758609e5f92a08": 1794772469.3128414,
     "6791b04b87804abf": 1794772402.822998,
@@ -2497,9 +2499,7 @@
     "1a84b39f72d3e26a": 1794117227.7977316,
     "409aa05836033053": 1794117159.658325,
     "8a1d48495754e1a6": 1794117089.7935152,
-    "0380585eaba93ead": 1794117022.717831,
-    "342b83d0c6ed0d3f": 1794117022.6864724,
-    "07824b1219baa4ef": 1794116955.7096767
+    "0380585eaba93ead": 1794117022.717831
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "MMA Fighting",
       "ts": "2026-11-13T20:02:19+00:00",
       "cluster": "c66608de89a"
-    },
-    {
-      "t": "Usman Nurmagomedov's attack in Abu Dhabi defended by Dagestani wrestler who was struck by Merab Dvalishvili",
-      "source": "BJPenn.com",
-      "ts": "2026-11-13T19:56:06+00:00",
-      "cluster": "c9270c6f0d6"
     },
     {
       "t": "Harrison-Nunes UFC 334 breakdown cover",
@@ -4795,6 +4789,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-15T18:53:32+00:00",
       "cluster": "cf5fbb650cc"
+    },
+    {
+      "t": "Kaya Harrison is a winner, a UFC champion, and has a major career decision ahead after beating Nunes",
+      "source": "Baltimore Sun",
+      "ts": "2026-11-15T18:59:52+00:00",
+      "cluster": "caf9a98fee6"
     }
   ],
   "digest_items": [],
