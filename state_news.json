@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4552e9f1fdc6a4a4": 1794751877.7159061,
     "2b204d2caf219c7b": 1794751810.0677116,
     "07ab9e3a53c9fc30": 1794751742.3807154,
     "5515573fd0d87f1b": 1794751672.0897026,
@@ -2498,8 +2499,7 @@
     "46df3aa27eb80627": 1794115221.6206453,
     "38f2f6a2465850c3": 1794115195.795095,
     "3798cd301afb18db": 1794115111.5930963,
-    "b7544e6044204f00": 1794115111.5640256,
-    "a12bfc6f001783da": 1794115085.8713849
+    "b7544e6044204f00": 1794115111.5640256
   },
   "initialized": true,
   "v": 4,
@@ -4831,6 +4831,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-15T12:40:21+00:00",
       "cluster": "c2aa6f10be5"
+    },
+    {
+      "t": "UFC 334 Promotional Guidelines Compliance pay: Ciryl Gane, Kayla Harrison lead charge",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-15T13:01:16+00:00",
+      "cluster": "ce38ae6b862"
     }
   ],
   "digest_items": [],
