@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3d72bc6aaa70f47a": 1794772066.9107554,
     "f5b383b08586cf2f": 1794772000.7921224,
     "f2aec9ea768fd3b2": 1794772000.7597184,
     "d464bc611cd727dd": 1794771933.9494324,
@@ -2498,8 +2499,7 @@
     "1cedbbc68e6134e9": 1794116681.061308,
     "72bf93d35a8f747e": 1794116603.496093,
     "dc64f6f58f8e9243": 1794116603.486916,
-    "b46547d815db3731": 1794116603.47905,
-    "e0c08a77cc830a11": 1794116603.449064
+    "b46547d815db3731": 1794116603.47905
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "MMA Fighting",
       "ts": "2026-11-13T20:02:19+00:00",
       "cluster": "c66608de89a"
-    },
-    {
-      "t": "MMA Fighters' Hotel Brawl Lands Eight Men In Prison, Including Two Men Who Only Recorded Viral Fight Video To Post On Social Media",
-      "source": "The Shadow League",
-      "ts": "2026-11-13T19:47:00+00:00",
-      "cluster": "c3a6c2ad77b"
     },
     {
       "t": "Arman Tsarukyan Says Merab Dvalishvili Attack Was Inevitable, Predicts UFC Could Capitalize With Usman Nurmagomedov vs. Ilia Topuria",
@@ -4759,6 +4753,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-15T17:15:52+00:00",
       "cluster": "c2d1f4527d2"
+    },
+    {
+      "t": "UFC 334 Fighter Hints at Retirement Following Event",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-15T17:49:09+00:00",
+      "cluster": "c0d6953046f"
     }
   ],
   "digest_items": [],
