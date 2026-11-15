@@ -4678,7 +4678,6 @@
     0
   ],
   "yt_eval": [
-    "4f6fa8ce-397d-330b-86b2-e31073d4f89b",
     "https://www.sherdog.com/news/news/Dana-White-defends-Dan-Miragliotta-over-standup-in-Moicano-vs-Nolan-bout-203496",
     "146e84ae-144e-3646-9803-dc87b212fdc2",
     "f0ac37a7-4fcc-3dc1-bf51-0bfdbea90f20",
@@ -6177,25 +6176,17 @@
     "f59b73df-f1db-3dd1-8522-6f90b98b3781",
     "https://bloodyelbow.com/?p=342140",
     "https://bloodyelbow.com/?p=342143",
-    "e8338b43-c7da-39fb-80c4-1cafd6928cdb"
+    "e8338b43-c7da-39fb-80c4-1cafd6928cdb",
+    "https://bloodyelbow.com/?p=342155"
   ],
   "daily": {
     "d": "2026-11-15",
-    "ai": 119,
-    "staged": 2,
+    "ai": 121,
+    "staged": 3,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-10-02T08:15:24.509272+00:00",
-      "t": "Joe Rogan Stunned as Sean Sharaf Considers Retirement After CT Scan Reveals “All Types of Injuries” Amid $600K Debt",
-      "names": [
-        "rogan",
-        "sharaf"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-10-02T15:36:15.812992+00:00",
       "t": "Amanda Nunes told she can make or break ‘historic moment’ involving two UFC stars with Kayla Harrison fight",
@@ -7536,6 +7527,14 @@
         "ciryl",
         "gane",
         "hokit"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-11-15T13:43:20.457248+00:00",
+      "t": "‘I’m embarrassed’… Dana White rages about UFC 334 robbery",
+      "names": [
+        "white"
       ],
       "img": "photo"
     }
