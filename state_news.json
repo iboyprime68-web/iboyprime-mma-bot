@@ -1,5 +1,6 @@
 {
   "seen": {
+    "17f3e642e9693da0": 1794721544.8282309,
     "673b314308a4946d": 1794721520.788928,
     "8ce927a3a9a03b67": 1794721520.779737,
     "635928c4eb64ff7e": 1794721495.836057,
@@ -2498,8 +2499,7 @@
     "b710315022be9fa8": 1794082980.5970175,
     "b57b068a3c9b763d": 1794082914.8804064,
     "bde5b7544be78bd9": 1794082914.8724892,
-    "c7c99b94f5fd1e34": 1794082914.8705394,
-    "ba5030efb9513d10": 1794082914.8647342
+    "c7c99b94f5fd1e34": 1794082914.8705394
   },
   "initialized": true,
   "v": 4,
@@ -4555,6 +4555,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-15T01:03:06+00:00",
       "cluster": "c9a3e3099d4"
+    },
+    {
+      "t": "UFC 334 results: Caio Borralho outgrapples Yousri Belgaroui to score decision win",
+      "source": "MMA Fighting",
+      "ts": "2026-11-15T04:17:32+00:00",
+      "cluster": "c9ee5a9d621"
     }
   ],
   "digest_items": [],
