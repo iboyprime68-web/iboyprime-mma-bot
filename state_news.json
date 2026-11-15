@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4519c780eebbbb60": 1794752559.9808187,
     "a467146b160f8f07": 1794752493.3330166,
     "20e20424b035932f": 1794752425.8683674,
     "09f0a66ef49a34d7": 1794752358.471024,
@@ -2498,8 +2499,7 @@
     "714eb8498a67ef5e": 1794115542.540677,
     "9c429b8380e9e171": 1794115516.9956994,
     "3052484c3490f29a": 1794115516.9835443,
-    "7a3cdfc0e808b012": 1794115491.9428954,
-    "29e2a45f8af265f0": 1794115466.4206865
+    "7a3cdfc0e808b012": 1794115491.9428954
   },
   "initialized": true,
   "v": 4,
@@ -4897,6 +4897,12 @@
       "source": "The Big Lead",
       "ts": "2026-11-15T13:30:00+00:00",
       "cluster": "cba379e823d"
+    },
+    {
+      "t": "Kayla Harrison crowns herself the ‘greatest female fighter’ of all time after beating Amanda Nunes",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-15T13:30:00+00:00",
+      "cluster": "c2fec72bdd2"
     }
   ],
   "digest_items": [],
