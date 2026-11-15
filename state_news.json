@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5826a86766669447": 1794721668.3173892,
     "2782ed36f9e7db7e": 1794721642.4927614,
     "a1e29184a78a37fc": 1794721642.4825733,
     "9a3afbb8e587a85a": 1794721642.4756064,
@@ -2498,8 +2499,7 @@
     "9e363d95fc6e4d02": 1794082980.6740878,
     "2755ad2a9e7c375a": 1794082980.654183,
     "df630ccaaa800eee": 1794082980.6533985,
-    "cf0e5d90e66b9cea": 1794082980.6466103,
-    "7dc0b9e679c823a2": 1794082980.6365757
+    "cf0e5d90e66b9cea": 1794082980.6466103
   },
   "initialized": true,
   "v": 4,
@@ -4579,6 +4579,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-15T05:13:54+00:00",
       "cluster": "ca3c72be8f0"
+    },
+    {
+      "t": "UFC 334 video: Stephen Thompson retires on poetic head-kick knockout",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-15T02:11:22+00:00",
+      "cluster": "ce773e7af37"
     }
   ],
   "digest_items": [],
