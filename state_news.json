@@ -1,5 +1,6 @@
 {
   "seen": {
+    "eaa38284bda71ee0": 1794750542.3969057,
     "f76db3983af43b37": 1794750517.2573328,
     "63d48657a84e6aaa": 1794750517.2294524,
     "6351e5fb0dce13aa": 1794750464.351057,
@@ -2498,8 +2499,7 @@
     "e60d2f2d957f4486": 1794097127.3843858,
     "e1b799696260bf64": 1794097127.3787947,
     "bd2289a693b71714": 1794097127.356586,
-    "6839afeb900bd35a": 1794097062.5243046,
-    "e5c1f41ceb8befc3": 1794097062.523335
+    "6839afeb900bd35a": 1794097062.5243046
   },
   "initialized": true,
   "v": 4,
@@ -4717,6 +4717,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-15T06:45:20+00:00",
       "cluster": "cffe98271f8"
+    },
+    {
+      "t": "Alex Pereira claims Josh Hokit ‘was robbed’ in assessment of UFC 334 main event",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-15T13:00:00+00:00",
+      "cluster": "c1e379139ad"
     }
   ],
   "digest_items": [],
