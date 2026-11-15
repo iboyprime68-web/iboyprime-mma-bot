@@ -1,5 +1,6 @@
 {
   "seen": {
+    "4058a0513edb6ed2": 1794723363.487146,
     "8f35af69e9e7c89a": 1794723297.8659453,
     "74e734a846068f39": 1794723297.8568115,
     "33402e0364086089": 1794723297.855505,
@@ -2498,8 +2499,7 @@
     "742bfc5c016ba0f4": 1794094548.6742098,
     "fe487b902ab99b34": 1794094548.6630826,
     "7073bc0fd33caf44": 1794094521.3050094,
-    "a6c8c030db0d5d28": 1794094494.9280868,
-    "801e73806e44ee60": 1794094469.0880868
+    "a6c8c030db0d5d28": 1794094494.9280868
   },
   "initialized": true,
   "v": 4,
@@ -4759,6 +4759,12 @@
       "source": "USA Today",
       "ts": "2026-11-15T05:30:55+00:00",
       "cluster": "c3e1c6e30a0"
+    },
+    {
+      "t": "US Olympic hero Kayla Harrison chokes out Amanda Nunes in fourth round to retain UFC title",
+      "source": "The Guardian",
+      "ts": "2026-11-15T05:31:00+00:00",
+      "cluster": "c3c826b170a"
     }
   ],
   "digest_items": [],
