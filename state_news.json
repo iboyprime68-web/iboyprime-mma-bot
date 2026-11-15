@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5515573fd0d87f1b": 1794751672.0897026,
     "c59945c521a42fb2": 1794751604.26349,
     "01131c7a4759b02d": 1794751536.9247575,
     "74de8d9cbb280fd1": 1794751469.963211,
@@ -2498,8 +2499,7 @@
     "b7544e6044204f00": 1794115111.5640256,
     "a12bfc6f001783da": 1794115085.8713849,
     "0afb2fde87560d45": 1794115060.526132,
-    "9e44d34de9dfcb78": 1794097588.9087996,
-    "c38de5ffb351920d": 1794097588.90283
+    "9e44d34de9dfcb78": 1794097588.9087996
   },
   "initialized": true,
   "v": 4,
@@ -4813,6 +4813,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-15T12:04:48+00:00",
       "cluster": "c6bc35f51dc"
+    },
+    {
+      "t": "Dana White reacts to ‘insane’ Kevin Holland-Uros Medic scorecards — ‘There’s no way he lost that fight’",
+      "source": "MMA Mania",
+      "ts": "2026-11-15T09:17:53+00:00",
+      "cluster": "cb637f3995a"
     }
   ],
   "digest_items": [],
