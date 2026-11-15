@@ -1,5 +1,7 @@
 {
   "seen": {
+    "1eeb170f728d6af9": 1794773964.8102303,
+    "3d09d6c33b2f38b0": 1794773964.7758226,
     "e3b8a0289a545b44": 1794773940.3934474,
     "fae7d6123ce719b7": 1794773868.2867982,
     "0ccc59a4ab334aa2": 1794773868.2768118,
@@ -2497,9 +2499,7 @@
     "ff8d4d4b3652c80f": 1794142753.0141997,
     "21bafe1837adb7b9": 1794118319.9628072,
     "5b8543dc84375f59": 1794118252.367542,
-    "93c68d8e44f060cb": 1794118252.3556118,
-    "c605167c175e2fb4": 1794118252.3539684,
-    "29e9e528810c3e4a": 1794118252.3521492
+    "93c68d8e44f060cb": 1794118252.3556118
   },
   "initialized": true,
   "v": 4,
@@ -2719,12 +2719,6 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-13T21:31:34+00:00",
       "cluster": "cacbc216837"
-    },
-    {
-      "t": "Kayla Harrison did ‘a lot of soul-searching’ before deciding to return from neck surgery and fight Amanda Nunes at UFC 334",
-      "source": "MMA Fighting",
-      "ts": "2026-11-13T20:19:05+00:00",
-      "cluster": "c89ec590dde"
     },
     {
       "t": "Caio Borralho reveals conversation he had with Alex Pereira after booking UFC 334 fight with Pereira teammate Yousri Belgaroui",
@@ -4897,6 +4891,12 @@
       "source": "Universitat de Barcelona",
       "ts": "2026-11-15T20:08:41+00:00",
       "cluster": "c9e741298b7"
+    },
+    {
+      "t": "BKB 61 results: Lee Selby edges Ollie Sentance, Matty Askin KOs champion",
+      "source": "Sherdog",
+      "ts": "2026-11-15T19:38:27+00:00",
+      "cluster": "c8d07461885"
     }
   ],
   "digest_items": [],
