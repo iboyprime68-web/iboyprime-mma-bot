@@ -4912,7 +4912,6 @@
     0
   ],
   "yt_eval": [
-    "https://bloodyelbow.com/?p=340510",
     "https://www.mmafighting.com/?p=519423",
     "https://bloodyelbow.com/?p=340516",
     "https://www.mmafighting.com/?p=519501",
@@ -6411,31 +6410,17 @@
     "CBMibEFVX3lxTE43bTZEd1VRNTRGLXNISlJ4VmNuYTFYZ1N1RzBCTGRkMzRDb05mNENnODNxMk8taGFqcmtmU3YxcnZSbjFYdDl2N3lneVVUeW9sdUxEOHV2XzRGYXU0VzBSSERaMHZZb2I5ZXQzUg",
     "CBMirAFBVV95cUxNZV9YSnBNSEtEd1RZUllmSU5IYlRvWTFxaHVxMUI0eE1VRnhfdXlZdGlCeXZudmdOdnhJUHI3NWwzTWZhdGtza3hwZF9kU1VkejZpdEtPWlh1cW5tYXB3VENScjdIeWRTQ3BjVFdXR2ExUTN5S2wzTFZ2V1Z1QzB1aEtvQnQ5RGxOcnlsUWFJY21oZE03ZVUtRWF6SUJjeUV3RkxGOW1YZXdjRDhC",
     "CBMimwFBVV95cUxOQ0hPdlV2REdUTGw5QmpqWHNnYS0yd1FCZ3UyVGxuU1Uzdk15eUVJYTNRbDlxaDV3RjdyaENXclZOYWJMRFdRald4ZzQ5SXFTbGg5dzJhTjJBYkpkak9Fd0V6TVFacFd3SFpXLVdzVlV6Ynp1anZkWnFkNENWaEJIZ2R1bkxRb1JITE9idUJYR1huRkdqbk9ndWw1UQ",
-    "CBMid0FVX3lxTE15YXBjcHVEclNDR0J2SWhCVFpMOEhIYUllblREd0hlblpPMlVHRDFhQmxWZk5MLXFHTDk1MzJ4NHc4dlczWjRDUU90cHRtcF91d3ZLRjVPUkd4c0drdUo1RVlxUl82R1g3d0Q2aVI3by0tZ0dicWdz"
+    "CBMid0FVX3lxTE15YXBjcHVEclNDR0J2SWhCVFpMOEhIYUllblREd0hlblpPMlVHRDFhQmxWZk5MLXFHTDk1MzJ4NHc4dlczWjRDUU90cHRtcF91d3ZLRjVPUkd4c0drdUo1RVlxUl82R1g3d0Q2aVI3by0tZ0dicWdz",
+    "CBMimgFBVV95cUxOS0hqMXM4RzlXTFFMMDc1MnZ6T3dWNml4bXZwVkxFSXFWUmdhY3RPN0Mwd0pvY202dEREbXNSWGM5Tjdkbktjc1g0TmF6ZHctcnB2ZERfSGVaMWYtWmx5QTFieWxrNHhRMnpMaEJtRFRianNGYnNXRGlIZnhLeFJjaHg0NHlpRjFrbHFnS2lGLXE3M29IV2QzZ053"
   ],
   "daily": {
     "d": "2026-11-15",
-    "ai": 176,
+    "ai": 178,
     "staged": 3,
-    "prio": 3,
+    "prio": 4,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-10-02T20:37:59.928344+00:00",
-      "t": "Dana White Shows He Doesn’t Know UFC Fighter He Gave Title Fight To With Bogus Rundown of Her Resume",
-      "names": [
-        "dana",
-        "white",
-        "shows",
-        "doesn",
-        "know",
-        "gave",
-        "rundown",
-        "wang"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-10-03T00:16:53.453210+00:00",
       "t": "Valentina Shevchenko’s legendary title reign ends with a whimper at UFC 332",
@@ -7773,6 +7758,15 @@
         "free"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-15T14:29:21.658007+00:00",
+      "t": "UFC 334 winner vows to KO ‘old man’ Conor McGregor after being called ‘scum’",
+      "names": [
+        "conor",
+        "perry"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7911,7 +7905,8 @@
     "399a954f20789120": 1794499959.3678932,
     "d1085da78fff1b84": 1794597906.0071611,
     "d3b4a4dd7c7f14d9": 1794750391.3527882,
-    "67129a83c9e5636b": 1794751240.2752066
+    "67129a83c9e5636b": 1794751240.2752066,
+    "f67117ae02aaaeed": 1794752979.0512264
   },
   "pinged_titles": [
     [
@@ -7929,6 +7924,13 @@
         "free",
         "harrison",
         "rousey"
+      ]
+    ],
+    [
+      "UFC 334 winner vows to KO ‘old man’ Conor McGregor after being called ‘scum’",
+      1794752979.0512264,
+      [
+        "conor"
       ]
     ]
   ]
