@@ -1,5 +1,7 @@
 {
   "seen": {
+    "d885c30bb80ee1d0": 1794772336.2943606,
+    "be5c4f9a7f5807cd": 1794772336.2814703,
     "4713204d23a13c76": 1794772270.7997353,
     "f0997ac976bea66b": 1794772204.2675064,
     "2cfae4560d216b29": 1794772204.2541137,
@@ -2497,9 +2499,7 @@
     "07824b1219baa4ef": 1794116955.7096767,
     "8d1cd02363af9e98": 1794116909.304204,
     "fbc788006aa30e1f": 1794116883.1026137,
-    "2af18b57af053c15": 1794116816.325382,
-    "a181d1d76561e2f4": 1794116749.0482693,
-    "c31e5e962eeeb30c": 1794116749.0159626
+    "2af18b57af053c15": 1794116816.325382
   },
   "initialized": true,
   "v": 4,
@@ -2515,12 +2515,6 @@
       "source": "MMA Fighting",
       "ts": "2026-11-13T20:02:19+00:00",
       "cluster": "c66608de89a"
-    },
-    {
-      "t": "Arman Tsarukyan Says Merab Dvalishvili Attack Was Inevitable, Predicts UFC Could Capitalize With Usman Nurmagomedov vs. Ilia Topuria",
-      "source": "NY Fights",
-      "ts": "2026-11-13T19:51:14+00:00",
-      "cluster": "c6d1a2a8697"
     },
     {
       "t": "Josh Hokit weighs for UFC Freedom 250 in June in Washington.",
@@ -4783,6 +4777,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-15T18:18:03+00:00",
       "cluster": "ceec52529c1"
+    },
+    {
+      "t": "UFC 334 Fallout: 5 Ciryl Gane Next Fight Ideas, Including a Josh Hokit Rematch",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-15T18:28:40+00:00",
+      "cluster": "c982becbd70"
     }
   ],
   "digest_items": [],
