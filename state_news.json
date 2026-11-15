@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9e077ab6a5404e25": 1794721330.0176795,
     "2fa98131cebbf407": 1794721305.3972485,
     "a0add26aa308ee44": 1794721265.1560009,
     "943d21633977aca7": 1794721241.2707222,
@@ -2498,8 +2499,7 @@
     "6db29fd13c128e7a": 1794082848.5246227,
     "c3ca1813ea1a73bc": 1794082848.5184503,
     "042818aa6688631b": 1794082848.5121994,
-    "57be81d362c1d301": 1794082848.5059645,
-    "5e9091ba0da2c285": 1794082848.499051
+    "57be81d362c1d301": 1794082848.5059645
   },
   "initialized": true,
   "v": 4,
@@ -4507,6 +4507,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-15T00:07:46+00:00",
       "cluster": "cd1781722c2"
+    },
+    {
+      "t": "UFC 334 results: Luis Gurule pulls off huge upset with split decision win over Bilal Hasan",
+      "source": "MMA Fighting",
+      "ts": "2026-11-15T02:58:34+00:00",
+      "cluster": "cfb0daee60b"
     }
   ],
   "digest_items": [],
