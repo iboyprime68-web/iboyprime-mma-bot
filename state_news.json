@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bdd6bc90eda41e91": 1794750925.04153,
     "10644cf6f820b903": 1794750857.4280453,
     "50ef4fefbee2226e": 1794750790.6843174,
     "c8d2f127cae30d7a": 1794750790.674191,
@@ -2498,8 +2499,7 @@
     "a1ba72ccaebf5a17": 1794097195.078577,
     "ae95c7d85fde9d8f": 1794097195.0724566,
     "f13123fc17fe6574": 1794097195.0665774,
-    "448f3673f9693bfa": 1794097195.0600827,
-    "8e8e20864eb898b1": 1794097127.4099066
+    "448f3673f9693bfa": 1794097195.0600827
   },
   "initialized": true,
   "v": 4,
@@ -2551,12 +2551,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-13T16:57:14+00:00",
       "cluster": "ce9794b54ee"
-    },
-    {
-      "t": "LIVE! UFC 334 Early Weigh Ins Results!",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-13T13:55:00+00:00",
-      "cluster": "c1125f23889"
     },
     {
       "t": "Jake Paul vs. Cedric Doumbe co-main event revealed",
@@ -4747,6 +4741,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-15T08:16:13+00:00",
       "cluster": "cbc92f1e1bf"
+    },
+    {
+      "t": "Dana White admits he was wrong about Josh Hokit after UFC 334: 'Stock went up with me'",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-15T08:42:05+00:00",
+      "cluster": "ca603fa6dc1"
     }
   ],
   "digest_items": [],
