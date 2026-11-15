@@ -1,5 +1,6 @@
 {
   "seen": {
+    "439194b588292a00": 1794722092.0083876,
     "75c081f4f1e208d1": 1794722067.2360077,
     "300306aace62e556": 1794722067.2094429,
     "d9a38881dbab1225": 1794722044.9278283,
@@ -2498,8 +2499,7 @@
     "9f7ced8d858dc945": 1794083112.7056592,
     "0ad253c7fff6eab8": 1794083112.699594,
     "0040e8e27f40c91f": 1794083112.6930966,
-    "2b7bedd5dae6483c": 1794083112.6730585,
-    "bf792147e2ff316a": 1794083112.6666358
+    "2b7bedd5dae6483c": 1794083112.6730585
   },
   "initialized": true,
   "v": 4,
@@ -4621,6 +4621,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-15T04:31:56+00:00",
       "cluster": "c400de8d6b6"
+    },
+    {
+      "t": "Ciryl Gane vs Josh Hokit UFC 334 result: Heavyweight title finally has a home after Madison Square Garden slugfest",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-15T05:54:24+00:00",
+      "cluster": "ca47a331cb2"
     }
   ],
   "digest_items": [],
