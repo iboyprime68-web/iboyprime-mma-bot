@@ -4786,7 +4786,6 @@
     0
   ],
   "yt_eval": [
-    "https://www.mmamania.com/?p=483956",
     "https://bloodyelbow.com/?p=340473",
     "227330d3-c6e1-3dec-a963-c8ecd4bcd592",
     "48c591d1-c87c-355d-b51d-0c24289ce4a0",
@@ -6285,24 +6284,17 @@
     "https://www.mmamania.com/?p=486373",
     "9e43d178-a444-3838-9d56-386a7232addc",
     "2a90832e-cb2e-3b97-ad35-cce3a7ed10cc",
-    "b4d88494-4ad4-4c31-9680-57b075c0d7fb"
+    "b4d88494-4ad4-4c31-9680-57b075c0d7fb",
+    "https://bloodyelbow.com/?p=342205"
   ],
   "daily": {
     "d": "2026-11-15",
-    "ai": 145,
+    "ai": 147,
     "staged": 3,
-    "prio": 2,
+    "prio": 3,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-10-02T15:48:14.336699+00:00",
-      "t": "Natalia Silva on weigh at 125 lbs ⚖️✅ The #UFC332 main event is now official. 👑",
-      "names": [
-        "silva"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-10-02T20:37:59.928344+00:00",
       "t": "Dana White Shows He Doesn’t Know UFC Fighter He Gave Title Fight To With Bogus Rundown of Her Resume",
@@ -7645,6 +7637,16 @@
         "gane"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-15T14:00:27.439305+00:00",
+      "t": "Kayla Harrison shuts down fight against teammate next as she calls out Ronda Rousey: ‘Free money’",
+      "names": [
+        "harrison",
+        "rousey",
+        "free"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
@@ -7782,7 +7784,8 @@
     "e735d4ff889f66ee": 1794416943.7373343,
     "399a954f20789120": 1794499959.3678932,
     "d1085da78fff1b84": 1794597906.0071611,
-    "d3b4a4dd7c7f14d9": 1794750391.3527882
+    "d3b4a4dd7c7f14d9": 1794750391.3527882,
+    "67129a83c9e5636b": 1794751240.2752066
   },
   "pinged_titles": [
     [
@@ -7791,6 +7794,15 @@
       [
         "gane",
         "hokit"
+      ]
+    ],
+    [
+      "Kayla Harrison shuts down fight against teammate next as she calls out Ronda Rousey: ‘Free money’",
+      1794751240.2752066,
+      [
+        "free",
+        "harrison",
+        "rousey"
       ]
     ]
   ]
