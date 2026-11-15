@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6351e5fb0dce13aa": 1794750464.351057,
     "f9ad91f597ed2732": 1794750420.892131,
     "351b25b5be2f3603": 1794750420.8818648,
     "d3b4a4dd7c7f14d9": 1794750362.171087,
@@ -2498,8 +2499,7 @@
     "6839afeb900bd35a": 1794097062.5243046,
     "e5c1f41ceb8befc3": 1794097062.523335,
     "ad891090a02d5016": 1794096995.169778,
-    "4a6c56450a6016bd": 1794096995.145562,
-    "950be7c08096822f": 1794096926.7875144
+    "4a6c56450a6016bd": 1794096995.145562
   },
   "initialized": true,
   "v": 4,
@@ -4705,6 +4705,12 @@
       "source": "MMA Mania",
       "ts": "2026-11-15T06:44:34+00:00",
       "cluster": "c012130ea5f"
+    },
+    {
+      "t": "Dana White open to Kayla Harrison vs. Amanda Nunes rematch following UFC 334",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-15T12:00:00+00:00",
+      "cluster": "cdab394ed6a"
     }
   ],
   "digest_items": [],
