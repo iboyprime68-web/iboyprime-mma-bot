@@ -1,5 +1,6 @@
 {
   "seen": {
+    "73f64788de78aa32": 1794723962.7475023,
     "6287c93f26dd1ecf": 1794723897.7461414,
     "d9844fb38d0de714": 1794723897.7375925,
     "d455fbb8f7c60268": 1794723897.7315574,
@@ -2498,8 +2499,7 @@
     "fdae89495c134207": 1794095441.8786352,
     "ad88d63dbd33d4c8": 1794095441.8588142,
     "4c97c97e25f4849d": 1794095374.4887187,
-    "2e6c6024ef30623c": 1794095374.467407,
-    "c121369d3d3d219e": 1794095374.4669213
+    "2e6c6024ef30623c": 1794095374.467407
   },
   "initialized": true,
   "v": 4,
@@ -4825,6 +4825,12 @@
       "source": "Northern Ontario Business",
       "ts": "2026-11-15T05:47:57+00:00",
       "cluster": "c336d3ffe8e"
+    },
+    {
+      "t": "14-Year UFC Veteran Retires at UFC 334 Following Stunning Knockout Win",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-15T02:13:35+00:00",
+      "cluster": "cdb7fb81d5b"
     }
   ],
   "digest_items": [],
