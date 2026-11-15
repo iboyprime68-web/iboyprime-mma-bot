@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ee13d83e126f20a9": 1794773643.8519995,
     "c4ed1df0abf7aa2c": 1794773597.9963434,
     "38e7e1b7bdec1726": 1794773531.820332,
     "5c4f9625707ca293": 1794773466.5361865,
@@ -2498,8 +2499,7 @@
     "ff0889a318265afb": 1794117969.657512,
     "f9652abe800e2e1d": 1794117969.6460538,
     "07ac882d2e3ce2f0": 1794117969.6370265,
-    "c56c5181a67e0d5a": 1794117969.6284127,
-    "b56f9f1bf4868d0a": 1794117902.6911206
+    "c56c5181a67e0d5a": 1794117969.6284127
   },
   "initialized": true,
   "v": 4,
@@ -4873,6 +4873,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-15T19:30:00+00:00",
       "cluster": "c1ed46bc834"
+    },
+    {
+      "t": "Dana White believes Democrats are going to come after UFC over Trump support: 'I expect it'",
+      "source": "MMA Mania",
+      "ts": "2026-11-15T19:24:50+00:00",
+      "cluster": "cebe32f25b8"
     }
   ],
   "digest_items": [],
