@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1bb54540cbb80b5b": 1794721355.0492597,
     "9e077ab6a5404e25": 1794721330.0176795,
     "2fa98131cebbf407": 1794721305.3972485,
     "a0add26aa308ee44": 1794721265.1560009,
@@ -2498,8 +2499,7 @@
     "f84cd540eccee357": 1794082848.5334032,
     "6db29fd13c128e7a": 1794082848.5246227,
     "c3ca1813ea1a73bc": 1794082848.5184503,
-    "042818aa6688631b": 1794082848.5121994,
-    "57be81d362c1d301": 1794082848.5059645
+    "042818aa6688631b": 1794082848.5121994
   },
   "initialized": true,
   "v": 4,
@@ -4513,6 +4513,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-15T02:58:34+00:00",
       "cluster": "cfb0daee60b"
+    },
+    {
+      "t": "UFC 334 results: Kevin Holland and Uros Medic ends in confusing majority draw after 3 rounds",
+      "source": "MMA Fighting",
+      "ts": "2026-11-15T03:43:29+00:00",
+      "cluster": "c8199187a26"
     }
   ],
   "digest_items": [],
