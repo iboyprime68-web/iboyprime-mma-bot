@@ -1,5 +1,6 @@
 {
   "seen": {
+    "10644cf6f820b903": 1794750857.4280453,
     "50ef4fefbee2226e": 1794750790.6843174,
     "c8d2f127cae30d7a": 1794750790.674191,
     "cfafa475f29d15cc": 1794750723.429477,
@@ -2498,8 +2499,7 @@
     "ae95c7d85fde9d8f": 1794097195.0724566,
     "f13123fc17fe6574": 1794097195.0665774,
     "448f3673f9693bfa": 1794097195.0600827,
-    "8e8e20864eb898b1": 1794097127.4099066,
-    "493e92f5decf88a5": 1794097127.402147
+    "8e8e20864eb898b1": 1794097127.4099066
   },
   "initialized": true,
   "v": 4,
@@ -4741,6 +4741,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-15T08:13:56+00:00",
       "cluster": "c57fc87632b"
+    },
+    {
+      "t": "UFC 334 post-fight show: Reaction to Ciryl Gane’s gutsy win over Josh Hokit in wild brawl",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-15T08:16:13+00:00",
+      "cluster": "cbc92f1e1bf"
     }
   ],
   "digest_items": [],
