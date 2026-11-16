@@ -1,5 +1,8 @@
 {
   "seen": {
+    "7d8a4c3bea2a7a3f": 1794842176.1189337,
+    "d5eba1aaea656c9c": 1794842176.0821192,
+    "9d04c396887c1bb1": 1794842176.0257688,
     "b6dc256f14d42321": 1794810770.9864402,
     "4dceb2c05e57b576": 1794810457.4445179,
     "21a66bb78bd2c6ff": 1794810394.1750224,
@@ -2496,20 +2499,11 @@
     "f075016894c95d62": 1794178530.5418632,
     "dc5e8c384cbb295a": 1794178462.6291142,
     "4f9ede19de0bef78": 1794178462.6055963,
-    "a755a7c0de6ced6b": 1794178396.300971,
-    "45e90a4b402b7009": 1794178396.277962,
-    "bc083851247c1d39": 1794178328.188864,
-    "c0c164bcef033207": 1794178260.4695437
+    "a755a7c0de6ced6b": 1794178396.300971
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC 334 Fight Day: Fans Debate Promotion's Roster Strategy",
-      "source": "boxingnews.com",
-      "ts": "2026-11-14T15:00:52+00:00",
-      "cluster": "cf56002d3c3"
-    },
     {
       "t": "Why Bruce Buffer Traded the Octagon for the Steakhouse in New Bud Light Campaign",
       "source": "The Hollywood Reporter",
@@ -2557,12 +2551,6 @@
       "source": "MMA Fighting",
       "ts": "2026-11-14T16:16:53+00:00",
       "cluster": "c0ac1be174a"
-    },
-    {
-      "t": "RAF Abu Dhabi results: Khamzat Chimaev crushes Chris Weidman; Merab Dvalishvili wins in 90 seconds after chaotic week",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-14T13:00:00+00:00",
-      "cluster": "c89ae06a404"
     },
     {
       "t": "Zabit Magomedsharipov’s brother loses undefeated record in upset despite ‘top five in the UFC’ claim",
@@ -4903,12 +4891,18 @@
       "source": "Inquirer.net",
       "ts": "2026-11-16T06:09:00+00:00",
       "cluster": "c7e46e3160d"
+    },
+    {
+      "t": "Amanda Nunes breaks her silence on UFC 334 loss to Kayla Harrison: ‘Back in the game’",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-16T10:47:01+00:00",
+      "cluster": "c4ac679eeb0"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-11-16T06",
+    "2026-11-16T15",
     0
   ],
   "yt_eval": [
