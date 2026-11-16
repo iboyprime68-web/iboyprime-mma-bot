@@ -1,5 +1,6 @@
 {
   "seen": {
+    "431c64f033d1db25": 1794842201.4815218,
     "7d8a4c3bea2a7a3f": 1794842176.1189337,
     "d5eba1aaea656c9c": 1794842176.0821192,
     "9d04c396887c1bb1": 1794842176.0257688,
@@ -2498,8 +2499,7 @@
     "a820e9040f69134b": 1794178599.0187762,
     "f075016894c95d62": 1794178530.5418632,
     "dc5e8c384cbb295a": 1794178462.6291142,
-    "4f9ede19de0bef78": 1794178462.6055963,
-    "a755a7c0de6ced6b": 1794178396.300971
+    "4f9ede19de0bef78": 1794178462.6055963
   },
   "initialized": true,
   "v": 4,
@@ -4897,6 +4897,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-16T10:47:01+00:00",
       "cluster": "c4ac679eeb0"
+    },
+    {
+      "t": "Jon Jones vs Josh Hokit war of words escalates after UFC 334",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-16T12:00:00+00:00",
+      "cluster": "c70e4cfad7d"
     }
   ],
   "digest_items": [],
