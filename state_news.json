@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5840a2b3eecd5d7e": 1794938811.2867203,
     "a0a8588875620f12": 1794938740.5836172,
     "bfd080445c2f3e16": 1794938609.6527677,
     "ff1c7bd79e3dc7d5": 1794938609.6512346,
@@ -2498,8 +2499,7 @@
     "dc5c5a2e356f2dd9": 1794265204.466901,
     "4adb98be3da9c2c0": 1794265204.44482,
     "897b861839c163d7": 1794265138.037569,
-    "697be423910d210a": 1794265112.7312598,
-    "c0e142499fea9f84": 1794265066.842685
+    "697be423910d210a": 1794265112.7312598
   },
   "initialized": true,
   "v": 4,
@@ -4387,6 +4387,12 @@
       "source": "MMA Junkie",
       "ts": "2026-11-17T18:00:00+00:00",
       "cluster": "cb159ddecd1"
+    },
+    {
+      "t": "Michal Oleksiejczuk Reacts to Shara Magomedov’s $1.2M Fight-Fixing Bribe Allegation",
+      "source": "MMA Sucka",
+      "ts": "2026-11-17T18:04:31+00:00",
+      "cluster": "cd322bcfadf"
     }
   ],
   "digest_items": [],
