@@ -1,5 +1,7 @@
 {
   "seen": {
+    "1adbfff69dbe7da9": 1794901675.4393034,
+    "8e39a1dfdf187927": 1794901675.4206438,
     "e89d390a97f91ca7": 1794901639.8973587,
     "cab73fc790bcc400": 1794901615.0658565,
     "095fb3901f7ba0c3": 1794901584.3119068,
@@ -2497,9 +2499,7 @@
     "ee30e9b6e3dd8dfa": 1794224195.1671212,
     "35eff6bd1dcba042": 1794224070.3757782,
     "8dee50dafe74eac3": 1794224003.1083686,
-    "7a46b8113cfede8d": 1794223811.6988668,
-    "7678e7e53f61c7a4": 1794223686.6762228,
-    "7faff5929f4c557a": 1794223660.1249342
+    "7a46b8113cfede8d": 1794223811.6988668
   },
   "initialized": true,
   "v": 4,
@@ -4315,6 +4315,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-17T01:55:47+00:00",
       "cluster": "c74b2c5cd10"
+    },
+    {
+      "t": "Jim Miller regrets accepting Terrance McKinney fight after weight miss",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-17T02:14:56+00:00",
+      "cluster": "c9d9239ef5f"
     }
   ],
   "digest_items": [],
