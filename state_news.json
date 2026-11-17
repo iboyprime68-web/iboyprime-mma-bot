@@ -1,5 +1,6 @@
 {
   "seen": {
+    "498981f5558c06ab": 1794936963.0641446,
     "9242306c1949601e": 1794936918.5108654,
     "11521d6cf5b8b677": 1794936891.8243487,
     "7f72ef0a6ecac12c": 1794936891.7964213,
@@ -2498,8 +2499,7 @@
     "fb9346fca08589a9": 1794263831.3412554,
     "ec78f7b73a74ae28": 1794263806.6150217,
     "c00387e091192c5e": 1794263740.1138284,
-    "dc7cdf0a49abf103": 1794263740.0907865,
-    "5f93002a9ab45f81": 1794263672.9666228
+    "dc7cdf0a49abf103": 1794263740.0907865
   },
   "initialized": true,
   "v": 4,
@@ -4273,6 +4273,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-17T16:10:38+00:00",
       "cluster": "cfa00a6ea80"
+    },
+    {
+      "t": "MMA Pound-for-Pound Rankings: Kayla Harrison conquers Amanda Nunes, closes in on Valentina Shevchenko",
+      "source": "MMA Fighting",
+      "ts": "2026-11-17T16:16:53+00:00",
+      "cluster": "ce257994ab5"
     }
   ],
   "digest_items": [],
