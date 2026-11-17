@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1f4f5510c2c1d965": 1794875648.379025,
     "fd645a6cb3bb0f94": 1794875580.1350236,
     "4ff2008d2592ae33": 1794875512.088789,
     "697d39d510bf072f": 1794875438.2494621,
@@ -2498,8 +2499,7 @@
     "67c3b84da96463c4": 1794194317.2610967,
     "f1d58639696a53c3": 1794194249.2138398,
     "996a58c7bff62b21": 1794193823.7069046,
-    "901dfcf266f33de6": 1794193801.025413,
-    "7a756d875c8ce3c9": 1794193610.3691707
+    "901dfcf266f33de6": 1794193801.025413
   },
   "initialized": true,
   "v": 4,
@@ -2533,12 +2533,6 @@
       "source": "MMA Fighting",
       "ts": "2026-11-15T03:43:29+00:00",
       "cluster": "c8199187a26"
-    },
-    {
-      "t": "UFC 334 video: Cesar Almeida upsets Donte Johnson with early TKO",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-15T00:33:46+00:00",
-      "cluster": "c09fb0021c7"
     },
     {
       "t": "UFC 334 live blog: Uros Medic vs. Kevin Holland",
@@ -4609,6 +4603,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-16T20:27:50+00:00",
       "cluster": "c521357ea26"
+    },
+    {
+      "t": "Alexander Volkov Trashes Ciryl Gane’s Performance at UFC 334",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-16T23:16:34+00:00",
+      "cluster": "c5bf0c7e05b"
     }
   ],
   "digest_items": [],
