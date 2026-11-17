@@ -1,5 +1,6 @@
 {
   "seen": {
+    "bc7e4264d4ebbea0": 1794875025.9167783,
     "8ae5c293397d4e32": 1794874957.7791915,
     "ab74538dde2ef1ad": 1794874957.7610297,
     "37f31b3519d81471": 1794874888.890857,
@@ -2498,8 +2499,7 @@
     "4422346cda7cb9dc": 1794192956.1007812,
     "045e4e7b8c307dff": 1794192956.0998425,
     "ff1c91173cc2f054": 1794192956.0860245,
-    "ca9afbc14f96b9c1": 1794192829.021842,
-    "8a33a7808382ed30": 1794192635.8116944
+    "ca9afbc14f96b9c1": 1794192829.021842
   },
   "initialized": true,
   "v": 4,
@@ -4537,6 +4537,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-16T21:00:00+00:00",
       "cluster": "c5717069a68"
+    },
+    {
+      "t": "Amanda Nunes responds to Kayla Harrison's UFC title rematch proposal",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-16T21:12:21+00:00",
+      "cluster": "c6fb2b7c0dc"
     }
   ],
   "digest_items": [],
