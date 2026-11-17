@@ -1,5 +1,6 @@
 {
   "seen": {
+    "81aa6bebe460b582": 1794874203.4053538,
     "5c6050ae90e7bde4": 1794874177.5664713,
     "e8091a86619ea452": 1794874177.552262,
     "48c0d0764b7785e8": 1794874151.9844708,
@@ -2498,8 +2499,7 @@
     "83365ebafedb656a": 1794191978.5159664,
     "51d1cc9043252698": 1794191909.284375,
     "f84156d0390fe87d": 1794191909.2790802,
-    "b353a65bf762edc2": 1794191909.2748735,
-    "6f728450232996e5": 1794191841.2024508
+    "b353a65bf762edc2": 1794191909.2748735
   },
   "initialized": true,
   "v": 4,
@@ -4441,6 +4441,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-16T21:41:53+00:00",
       "cluster": "cee38b79d4a"
+    },
+    {
+      "t": "UFC Saudi Arabia: Several new bouts added to Israel Adesanya vs. Shara Magomedov fight card",
+      "source": "MMA Fighting",
+      "ts": "2026-11-16T21:42:17+00:00",
+      "cluster": "ce4616aebeb"
     }
   ],
   "digest_items": [],
