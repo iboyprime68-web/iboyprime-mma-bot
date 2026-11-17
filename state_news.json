@@ -1,5 +1,6 @@
 {
   "seen": {
+    "683c7e1237896dc1": 1794901700.4377584,
     "1adbfff69dbe7da9": 1794901675.4393034,
     "8e39a1dfdf187927": 1794901675.4206438,
     "e89d390a97f91ca7": 1794901639.8973587,
@@ -2498,8 +2499,7 @@
     "730cd9f5c8ba9bbc": 1794224320.1391137,
     "ee30e9b6e3dd8dfa": 1794224195.1671212,
     "35eff6bd1dcba042": 1794224070.3757782,
-    "8dee50dafe74eac3": 1794224003.1083686,
-    "7a46b8113cfede8d": 1794223811.6988668
+    "8dee50dafe74eac3": 1794224003.1083686
   },
   "initialized": true,
   "v": 4,
@@ -4321,6 +4321,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-17T02:14:56+00:00",
       "cluster": "c9d9239ef5f"
+    },
+    {
+      "t": "Mike Perry reacts to his return to UFC, teases interest in Jorge Masvidal for first fight back",
+      "source": "MMA Fighting",
+      "ts": "2026-11-17T02:51:03+00:00",
+      "cluster": "c2190be8e77"
     }
   ],
   "digest_items": [],
