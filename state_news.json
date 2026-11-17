@@ -4444,7 +4444,6 @@
     0
   ],
   "yt_eval": [
-    "CBMingFBVV95cUxOU1RuUUg5dU9sbmRpYXJJOU5WVFVwamw3eklWMmNmZktBLVZrd0ZTbzFpWjJVWVRuYWxiWElENkNHdzFBUk1RV1ZvSkJJQ0h3djdVWUFYbmZLLXJmR2VMbzNBaW5jNGVxQzIwdDNHLXJmQVN2cERQdXY1YjFXZzctdDctZndsT0VoaHZUZ1BjRE1UMDRaR1lyalQycG9pQQ",
     "CBMiyAFBVV95cUxOc1hQZ2Q4RDJFcDJEVHBoRnF6N0pORXZEaWJCa0hQR3VDVWNKY1pSdTNVLXJSV1VKNkwwblBvMkl6bFV1c3J5NmpNT1NXREhpYlFraTB4YXlPZVRvNnZMeVo4bmtVREZDa196emFtenpNUVlTcGdVdGdwd0ppdWxQcHNwOUd6MEhaTU9OSkI3dnV1SVE0TGRwOExvVTBpRzc4emdkRFdIU0pHM2tKb29EQVkwQ24zSGRwVjFMR3dYckJhTGp2STBWNQ",
     "CBMiR0FVX3lxTFBDTjU1dGtXY05mdW11UURuNENIMjZ0amVHSDA3ZUlMTEUzNTlXS1k5eFpkSWlsU1ZxNVdBeERsbmdGMEo3LVpv",
     "CBMitwFBVV95cUxPUzB5eGVFbEhzenBFLTd6SFhwc1pzMWtuT3JXM0Mzc3BmdWo2d0ZzSmF1a3FhLUpWeXJ0N2dqZmV2alRadEJmNVM3Y2RyQjh4N2JnMUpPdnJjM1RiSnZOTEYxZFB5T3Y1ZXVTMjBNSUdSMFdDeUNmS2hyV205X090VzRPMlpfRmRMV2hNZ3lCOEN0QkNEaExCUWp1cS1TaTh0bFJmMW10bl9mN085UDlxYWZISnluR28",
@@ -5943,25 +5942,17 @@
     "CBMiswFBVV95cUxNTWdDY2lqLV81TjJoM2NMMVFkc0o2UEhVVHhUYjM2cGM1U19LaGMxUm1sVk1CWTdXRTZSS0xyTWZFVVFIQU1TSzV1MTU4N0h2YVNITHVFU0xpdUlkeG9mNWtiQ2c5amFEX1lvcDNHZ1lISjJWTXhPTHJLNHB5Mldva2lZa2NYSW9HekdxSjdDaTZGRlFmUW0tdmFOcEpzQzlGbWh3aU9RNzVsQ1hZamsyYUI1VQ",
     "CBMijAFBVV95cUxQbS1nVVhwT1dkN0FKNFNuNU5vTWFLLTBnOHEtWmI5X00zVE9OblBZTHhJZ08zYy1IeXB3cEt6N3BtTV9oVS1Eb2xJVXpzMUdlY3RHaWdHUDRRWC1qclBHZ2pDR0YxdmRVQlQ1S3g0cVlWSDYwN2ZoZy1GQ3A0QWdjSUs3VmwtbXpYT0N3LQ",
     "CBMiiAFBVV95cUxQTjRXYjFuWW1YeXZVYWd4LWZSNzFteWNDa09Xd2p0QU83YVpjYnl1NGFUT3Vab21BQmt2dlZZX0FMbzhTdm90RWlST0dsbVNic0Q5aXpWaWJ1b1R4a1NEaXRqWW94UUlyVTZhREw1MHdqaDlMZlJ1Y1A3a3V4WHl4bVdnN2FkR21i",
-    "https://www.sherdog.com/news/news/Ilia-Topuria-makes-unexpected-admission-about-UFC-rival-Paddy-Pimblett-203662"
+    "https://www.sherdog.com/news/news/Ilia-Topuria-makes-unexpected-admission-about-UFC-rival-Paddy-Pimblett-203662",
+    "CBMiakFVX3lxTE1jQ1NHQTdMdUJaYkNoeVFWWGRMUHJQLU9ldjBua3VTYlgteVI5bnd4MzY3NE5TVDQyVC1PX3pEVW92ckR4aTdUVDM3QWREeDRHenVSanJqUHI0UkhZRnNmWEotUnRXbkhlM0E"
   ],
   "daily": {
     "d": "2026-11-17",
-    "ai": 103,
-    "staged": 1,
+    "ai": 105,
+    "staged": 2,
     "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-10-04T01:46:21.994818+00:00",
-      "t": "Charles Oliveira defends ‘BMF’ title against Diego Lopes in UFC 335 main event",
-      "names": [
-        "oliveira",
-        "lopes"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-10-04T02:05:57.081421+00:00",
       "t": "Payton Talbott demolishes Deiveson Figueiredo in 129 seconds, calls out Sean O’Malley at UFC 332",
@@ -7298,6 +7289,15 @@
         "magomedov"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-17T08:01:18.156734+00:00",
+      "t": "Pereira Calls Out Gane After UFC 334 Decision",
+      "names": [
+        "pereira",
+        "gane"
+      ],
+      "img": "cutout:alex-pereira"
     }
   ],
   "seed_pending": [],
