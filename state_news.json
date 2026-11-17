@@ -1,5 +1,7 @@
 {
   "seen": {
+    "e97756af68ea7526": 1794873888.1151211,
+    "0ebaf099278fabff": 1794873888.0963287,
     "975fc33646feb060": 1794873862.497185,
     "a55afb6b4fe50e83": 1794873862.4811938,
     "248dc0b1e000b6c0": 1794873835.8284144,
@@ -2497,9 +2499,7 @@
     "155cf4249f95804c": 1794191705.374043,
     "a65aae463096dfc8": 1794191705.3700354,
     "57ee1372c9db5650": 1794191705.3688285,
-    "7521aca15657019e": 1794191705.3566167,
-    "c2cda8c2ab5c964d": 1794191705.3443937,
-    "e080f73d941929af": 1794191705.3317022
+    "7521aca15657019e": 1794191705.3566167
   },
   "initialized": true,
   "v": 4,
@@ -4393,6 +4393,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-16T17:05:10+00:00",
       "cluster": "cff41a6b671"
+    },
+    {
+      "t": "Dana White recounts ‘crazy’ and ‘unique’ experience being nominated as press secretary for President Donald Trump",
+      "source": "MMA Fighting",
+      "ts": "2026-11-16T17:42:21+00:00",
+      "cluster": "c90ae88be03"
     }
   ],
   "digest_items": [],
