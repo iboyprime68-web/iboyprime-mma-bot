@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e331cb6d24bfedda": 1794936614.756687,
     "9c11ad346de759c0": 1794936588.1889722,
     "ed8e44a6d109e425": 1794936542.337972,
     "d1faf17e89866bd5": 1794936515.982521,
@@ -2498,8 +2499,7 @@
     "9fdafde3374f00bf": 1794263135.5431414,
     "2bbee0777b44b177": 1794263069.2079391,
     "0b500ba9cdfbcbf7": 1794263002.6601593,
-    "50aff4ae05ef118f": 1794263002.651212,
-    "e0dbfcb0fc27059d": 1794263002.6319642
+    "50aff4ae05ef118f": 1794263002.651212
   },
   "initialized": true,
   "v": 4,
@@ -4201,6 +4201,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-17T10:39:22+00:00",
       "cluster": "c41e01210bc"
+    },
+    {
+      "t": "Ciryl Gane provides health update in first post since being hospitalized following UFC 334",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-17T12:00:00+00:00",
+      "cluster": "c1032166767"
     }
   ],
   "digest_items": [],
