@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e7789341374cb6f5": 1794901559.2975395,
     "ee30606d7c309694": 1794901534.9195628,
     "a6303cbb69759d6c": 1794877095.717106,
     "139d9d48abfd3cfa": 1794877027.9999568,
@@ -2498,8 +2499,7 @@
     "7faff5929f4c557a": 1794223660.1249342,
     "8af02fa9f62da472": 1794223556.4559813,
     "09068ca9058f0a3b": 1794223369.566461,
-    "3b2630c18288b3c9": 1794223343.9113052,
-    "7bd9fcb808126863": 1794223236.4092884
+    "3b2630c18288b3c9": 1794223343.9113052
   },
   "initialized": true,
   "v": 4,
@@ -4291,6 +4291,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-16T21:06:43+00:00",
       "cluster": "cf9c8fb225a"
+    },
+    {
+      "t": "Boxer Lee Reeves passes away at age 31 months after vicious knockout in final fight",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-17T00:45:00+00:00",
+      "cluster": "ccb3bd321b6"
     }
   ],
   "digest_items": [],
