@@ -1,5 +1,7 @@
 {
   "seen": {
+    "5f88325b662daf04": 1794937319.273536,
+    "b863f14efd46017e": 1794937319.2475774,
     "546102aeccc9f58b": 1794937249.5657895,
     "a366ba74da2d15ac": 1794937180.6943383,
     "e68294d288e8e380": 1794937180.6693745,
@@ -2497,9 +2499,7 @@
     "d7be7a6fb1d06068": 1794264190.1991756,
     "558123a30ab00d49": 1794264190.1752408,
     "6a0235a56b548c2c": 1794264164.7381878,
-    "ffb9ae6bb407b877": 1794264164.7121131,
-    "151a1108b20845fb": 1794264118.7718742,
-    "bc28bd04ca87e395": 1794264118.747956
+    "ffb9ae6bb407b877": 1794264164.7121131
   },
   "initialized": true,
   "v": 4,
@@ -4315,6 +4315,12 @@
       "source": "Times News Group",
       "ts": "2026-11-17T17:02:06+00:00",
       "cluster": "c89dba12481"
+    },
+    {
+      "t": "UFC's Bruce Buffer fuels speculation about another Conor McGregor comeback: 'Fighter mentality'",
+      "source": "Fox News",
+      "ts": "2026-11-17T17:03:06+00:00",
+      "cluster": "ccef9e039e9"
     }
   ],
   "digest_items": [],
