@@ -1,5 +1,6 @@
 {
   "seen": {
+    "789b4a52380e30a1": 1794937106.817197,
     "fdf08c2a8ec93214": 1794937038.2222524,
     "fff0033e9f7ee792": 1794937038.1975915,
     "eb022e1e2995980e": 1794936989.7595065,
@@ -2498,8 +2499,7 @@
     "ffc74a579ed7e64e": 1794263985.5136821,
     "529a5f1168638969": 1794263919.0455763,
     "a1b5f30f1af81402": 1794263919.0211885,
-    "c6f2f0898cd29900": 1794263853.411322,
-    "fb9346fca08589a9": 1794263831.3412554
+    "c6f2f0898cd29900": 1794263853.411322
   },
   "initialized": true,
   "v": 4,
@@ -4291,6 +4291,12 @@
       "source": "SPORTbible",
       "ts": "2026-11-17T16:52:27+00:00",
       "cluster": "ca6a8be0e14"
+    },
+    {
+      "t": "UFC Fight Night 292 broadcast team set: Laura Sanko returns to booth after DWCS",
+      "source": "Central Oregon Daily",
+      "ts": "2026-11-17T16:54:53+00:00",
+      "cluster": "c3655bfae9c"
     }
   ],
   "digest_items": [],
