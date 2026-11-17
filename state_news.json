@@ -1,5 +1,7 @@
 {
   "seen": {
+    "01b904dcbac8c453": 1794939010.3936071,
+    "c56c3a361b809a91": 1794939010.367355,
     "10406e7781eb4c5d": 1794938881.3534482,
     "5840a2b3eecd5d7e": 1794938811.2867203,
     "a0a8588875620f12": 1794938740.5836172,
@@ -2497,9 +2499,7 @@
     "3208983446afde79": 1794285082.7533102,
     "1e4c03fb7813c035": 1794265230.6940994,
     "cf0dc29c6a86712d": 1794265204.4825628,
-    "dc5c5a2e356f2dd9": 1794265204.466901,
-    "4adb98be3da9c2c0": 1794265204.44482,
-    "897b861839c163d7": 1794265138.037569
+    "dc5c5a2e356f2dd9": 1794265204.466901
   },
   "initialized": true,
   "v": 4,
@@ -2521,12 +2521,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-15T19:32:17+00:00",
       "cluster": "ca3dbb8a1a7"
-    },
-    {
-      "t": "Ciryl Gane can't escape controversy, but UFC 334 proved his worth as heavyweight champion",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-15T18:10:07+00:00",
-      "cluster": "c42f5ec2c30"
     },
     {
       "t": "Six years later, Dana White still holds a grudge against Barclays Center",
@@ -4399,6 +4393,12 @@
       "source": "MiddleEasy",
       "ts": "2026-11-17T18:06:50+00:00",
       "cluster": "ccdf2643e0c"
+    },
+    {
+      "t": "Conor McGregor’s Manager On His Potential New UFC Contract",
+      "source": "MMA Sucka",
+      "ts": "2026-11-17T18:09:30+00:00",
+      "cluster": "cd297fe0d1c"
     }
   ],
   "digest_items": [],
