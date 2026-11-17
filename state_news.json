@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1ae5ef90fc062fa8": 1794936758.2635698,
     "378b07ae02d7f033": 1794936732.6353345,
     "90886be04f7d9d7a": 1794936705.2079318,
     "ea53ef22e82c808c": 1794936667.6918447,
@@ -2498,8 +2499,7 @@
     "a80822c9c7a0df78": 1794263274.3122387,
     "c345d071fd3d193d": 1794263227.8177207,
     "651ef3b24f911492": 1794263227.794292,
-    "4d017e8eeeba6c78": 1794263202.7102098,
-    "c89d05ab29f06e93": 1794263202.7019696
+    "4d017e8eeeba6c78": 1794263202.7102098
   },
   "initialized": true,
   "v": 4,
@@ -4231,6 +4231,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-17T13:39:13+00:00",
       "cluster": "cb0135a5f6f"
+    },
+    {
+      "t": "Josh Hokit’s partially blind coach slams referee for missing eye poke at UFC 334",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-17T14:00:00+00:00",
+      "cluster": "c9703613cbc"
     }
   ],
   "digest_items": [],
