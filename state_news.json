@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0066712f6cd75892": 1794963020.703358,
     "b9a5f67b2ae7ad03": 1794962994.1494827,
     "f58acd9c5aa50b94": 1794962969.129526,
     "0bf2ad5eed909f3e": 1794962943.7837267,
@@ -2498,8 +2499,7 @@
     "a82fe1fd2ac41141": 1794286056.7239246,
     "2caeec83cd2aa740": 1794286010.433184,
     "128f5c8279defea8": 1794286010.4148824,
-    "0448a722f2d2f90c": 1794285984.8372982,
-    "e99acbcabb2df600": 1794285984.8312016
+    "0448a722f2d2f90c": 1794285984.8372982
   },
   "initialized": true,
   "v": 4,
@@ -4027,6 +4027,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-17T22:00:00+00:00",
       "cluster": "ca77ce4ceb3"
+    },
+    {
+      "t": "Abu Dhabi court replaces jail terms in Nurmagomedov-Dvalishvili brawl",
+      "source": "Sherdog",
+      "ts": "2026-11-17T18:41:51+00:00",
+      "cluster": "cbd17d0e7d2"
     }
   ],
   "digest_items": [],
