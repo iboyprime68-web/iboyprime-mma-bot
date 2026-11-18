@@ -1,5 +1,6 @@
 {
   "seen": {
+    "67ea634e5785b2ee": 1795024780.5737464,
     "9bc8efc1eab1127b": 1795024720.6216724,
     "ead02002fb205008": 1795024692.9380043,
     "5cea1ccf64c56291": 1795024661.4717596,
@@ -2498,8 +2499,7 @@
     "309288b29ec40ba4": 1794344169.6197624,
     "e03bcee7ba38721f": 1794344169.6034236,
     "9f4663511bbff965": 1794344169.6031396,
-    "dfbf38dbfbf812c1": 1794344101.410762,
-    "7aed8f9a38b1dc0d": 1794344052.9034734
+    "dfbf38dbfbf812c1": 1794344101.410762
   },
   "initialized": true,
   "v": 4,
@@ -3961,6 +3961,12 @@
       "source": "MMA Mania",
       "ts": "2026-11-18T12:36:07+00:00",
       "cluster": "c1ad28051c5"
+    },
+    {
+      "t": "This Date in MMA History: Georges St-Pierre vs. Matt Hughes, UFC 65",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-18T13:02:06+00:00",
+      "cluster": "ce8e3350a65"
     }
   ],
   "digest_items": [],
