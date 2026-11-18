@@ -1,5 +1,6 @@
 {
   "seen": {
+    "84c46e2cfb8c0420": 1794963713.2123702,
     "4c8673ca042c0e9d": 1794963666.8661957,
     "c5371b4cd2d3312e": 1794963640.563539,
     "4b5e8af42f7f3ec9": 1794963614.033438,
@@ -2498,8 +2499,7 @@
     "b102e28e30eb52d4": 1794286611.013598,
     "8638b8d6786a5714": 1794286611.0092974,
     "90bf89becb5835f7": 1794286611.0049882,
-    "cfb0e4293af40909": 1794286610.9902582,
-    "ace645e8ea71ea9e": 1794286542.9312675
+    "cfb0e4293af40909": 1794286610.9902582
   },
   "initialized": true,
   "v": 4,
@@ -4111,6 +4111,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-18T01:00:00+00:00",
       "cluster": "c1c82bb1301"
+    },
+    {
+      "t": "UFC Fighter Tommy McMillen Says He Is Not Sure He Will Stop Partying After Near-Fatal Overdose",
+      "source": "Yardbarker",
+      "ts": "2026-11-18T00:04:27+00:00",
+      "cluster": "c6026d53e4c"
     }
   ],
   "digest_items": [],
