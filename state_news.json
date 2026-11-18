@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e138ecda5b64f456": 1795024833.7690754,
     "fc070eb3e09f223b": 1795024806.2606342,
     "67ea634e5785b2ee": 1795024780.5737464,
     "9bc8efc1eab1127b": 1795024720.6216724,
@@ -2498,8 +2499,7 @@
     "c6d3c7d836fa8a34": 1794344237.0803561,
     "4672d3b5b51200b4": 1794344169.6376593,
     "309288b29ec40ba4": 1794344169.6197624,
-    "e03bcee7ba38721f": 1794344169.6034236,
-    "9f4663511bbff965": 1794344169.6031396
+    "e03bcee7ba38721f": 1794344169.6034236
   },
   "initialized": true,
   "v": 4,
@@ -2539,12 +2539,6 @@
       "source": "MMA Fighting",
       "ts": "2026-11-16T21:42:17+00:00",
       "cluster": "ce4616aebeb"
-    },
-    {
-      "t": "Alex Pereira thought Josh Hokit was robbed vs. Ciryl Gane at UFC 334",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-16T18:00:29+00:00",
-      "cluster": "c97a53dc661"
     },
     {
       "t": "Amanda Nunes calls for featherweight rematch with Kayla Harrison: ‘Accepted’",
@@ -3973,6 +3967,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-18T16:00:00+00:00",
       "cluster": "c511e011011"
+    },
+    {
+      "t": "Aljamain Sterling details Umar Nurmagomedov’s alleged role in Merab Dvalishvili attack",
+      "source": "MMA Fighting",
+      "ts": "2026-11-18T16:32:30+00:00",
+      "cluster": "cf0d5d2306d"
     }
   ],
   "digest_items": [],
