@@ -1,5 +1,10 @@
 {
   "seen": {
+    "fd6ac515a0765cc7": 1794965488.6615984,
+    "8de56ddb896aafcf": 1794965488.6493616,
+    "239a7709f335032a": 1794965488.623689,
+    "a84e2a37b45772d3": 1794965488.598125,
+    "a3a1c2704ddcf29d": 1794965488.5938692,
     "88a7205ae01eaf64": 1794965299.0468652,
     "c4c03bd04752274e": 1794965232.0569265,
     "64c1e97736eb1c38": 1794965185.2222044,
@@ -2494,12 +2499,7 @@
     "7a0e94c1eea7b353": 1794316967.1416318,
     "03ad582fd99c5fa7": 1794316899.053838,
     "6b449f6319b135b9": 1794316851.7606475,
-    "b44d5dbd43d73f1b": 1794316826.1280446,
-    "d82ece9c8e802b4e": 1794316784.4785783,
-    "2def59a402057b61": 1794316758.236944,
-    "217e3a51e8c885a6": 1794288194.4660406,
-    "5b30133d647e852b": 1794287941.4563522,
-    "7e01bc8f19461bbc": 1794287941.4550848
+    "b44d5dbd43d73f1b": 1794316826.1280446
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-16T02:00:00+00:00",
       "cluster": "c1bfff1b419"
-    },
-    {
-      "t": "UFC early 2027 schedule revealed",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-16T01:30:38+00:00",
-      "cluster": "c382b1796ea"
     },
     {
       "t": "UFC returns to Cleveland with Bo Nickal headliner",
@@ -4243,6 +4237,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-18T01:24:00+00:00",
       "cluster": "ca19ab539be"
+    },
+    {
+      "t": "Khamzat Chimaev vs. Rashad Evans headlines RAF 16 in Long Island",
+      "source": "MMA Mania",
+      "ts": "2026-11-18T01:12:31+00:00",
+      "cluster": "c06a6cbbcc7"
     }
   ],
   "digest_items": [],
