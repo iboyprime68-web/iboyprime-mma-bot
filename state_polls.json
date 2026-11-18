@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 36,
   "staged_at": [
-    "2026-11-14T20:47:22.285641+00:00",
     "2026-11-15T16:27:07.726870+00:00",
     "2026-11-16T19:41:44.720638+00:00",
-    "2026-11-17T18:39:09.514840+00:00"
+    "2026-11-17T18:39:09.514840+00:00",
+    "2026-11-18T18:11:55.055473+00:00"
   ],
   "asked": [
-    "Who is the most overrated contender in the UFC right now?",
     "Who is the most entertaining trash talker in the UFC right now?",
     "What is the most overrated knockout artist in UFC history?",
     "What is the most dangerous superfight the UFC could actually book right now?",
@@ -47,33 +46,34 @@
     "Who has the nastiest submissions in the game today?",
     "Kayla Harrison says she is the greatest female fighter of all time. Is she right?",
     "What is the funniest meltdown in UFC history?",
-    "What is the biggest judging robbery in UFC history?"
+    "What is the biggest judging robbery in UFC history?",
+    "Kevin Holland admits he intentionally fouled an opponent. What is the most cowardly act in UFC history?"
   ],
   "last_entry": {
-    "q": "What is the biggest judging robbery in UFC history?",
+    "q": "Kevin Holland admits he intentionally fouled an opponent. What is the most cowardly act in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Jones vs Reyes",
-        "emoji": "🏆",
-        "art": ""
+        "label": "Holland's foul",
+        "emoji": "🪤",
+        "art": "A gloved hand slyly tugging a rival's shorts in a dim cage, referee turned away"
       },
       {
-        "label": "GSP vs Hendricks",
-        "emoji": "🇨🇦",
-        "art": ""
+        "label": "Eye poke",
+        "emoji": "👁️",
+        "art": "Two fingers thrust toward a squinting opponent's eye under harsh cage spotlight"
       },
       {
-        "label": "Hokit at UFC 334",
-        "emoji": "📋",
-        "art": "Lone judge's scorecard on a dim table, pen resting beside it, spotlight from above"
+        "label": "Faking injury",
+        "emoji": "🤕",
+        "art": "A fighter clutching his knee mid-round while peeking at the referee through one eye"
       },
       {
         "label": "Other (comment below)",
-        "emoji": "🤡",
-        "art": ""
+        "emoji": "🐍",
+        "art": "A sneaky snake in tiny fighting gloves hiding a folding chair behind its back in a cage"
       }
     ],
-    "gag": "A blindfolded judge in a suit pressing a buzzer at a fight night desk"
+    "gag": "A cartoon weasel in MMA shorts quietly untying a rival's shoelaces behind the referee's back"
   }
 }
