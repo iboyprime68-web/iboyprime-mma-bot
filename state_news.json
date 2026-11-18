@@ -1,5 +1,7 @@
 {
   "seen": {
+    "597541dac37e1f21": 1794962822.4210603,
+    "ac56dae38b4fbacc": 1794962822.4080238,
     "de0e1d985822ad32": 1794962797.110881,
     "014f4fbea31aada0": 1794962772.1099799,
     "b34ce396a06ab43f": 1794962712.1540127,
@@ -2497,9 +2499,7 @@
     "ff24641813d979ca": 1794285715.5576844,
     "b988203e7d65915d": 1794285687.957196,
     "f3b07fae97828202": 1794285641.5424006,
-    "b7f443dab236c4de": 1794285573.6048625,
-    "b5c7bd7c6c7afd75": 1794285573.5977044,
-    "80a95521d678371d": 1794285500.2740579
+    "b7f443dab236c4de": 1794285573.6048625
   },
   "initialized": true,
   "v": 4,
@@ -3985,6 +3985,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-17T19:10:01+00:00",
       "cluster": "c3d133d076d"
+    },
+    {
+      "t": "RAF exec: Dana White’s criticism about security protocols ‘unfair’ after Usman Nurmagomedov’s attack on Merab Dvalishvili",
+      "source": "MMA Fighting",
+      "ts": "2026-11-17T20:11:03+00:00",
+      "cluster": "c2836f9136c"
     }
   ],
   "digest_items": [],
