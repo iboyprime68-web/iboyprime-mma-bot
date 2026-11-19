@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6c27ef7c707e87d7": 1795108761.9868188,
     "3adb188b3e59c0c0": 1795108737.5891833,
     "fe62f004c623a3aa": 1795108710.1082711,
     "95e88109c4932a96": 1795108684.9246073,
@@ -2498,8 +2499,7 @@
     "f9becb2e97ff12b6": 1794417059.6130466,
     "7eaeef3fc6d10fb2": 1794417032.6669095,
     "f2b3f834604621bb": 1794417006.4848735,
-    "4f922c1762dc31c3": 1794416980.19765,
-    "e735d4ff889f66ee": 1794416930.8127148
+    "4f922c1762dc31c3": 1794416980.19765
   },
   "initialized": true,
   "v": 4,
@@ -3883,6 +3883,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-19T14:40:19+00:00",
       "cluster": "ca7fec540f1"
+    },
+    {
+      "t": "‘John Pork’ Magomed Zaynukov gets rebooked after missing UFC Qatar in list of new UFC Dallas bouts",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-19T16:52:45+00:00",
+      "cluster": "ccd893f1d5d"
     }
   ],
   "digest_items": [],
