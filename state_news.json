@@ -1,5 +1,6 @@
 {
   "seen": {
+    "6148655265096914": 1795047676.6910741,
     "e6fb73a911b634ba": 1795047607.6604042,
     "407a9f87226f5ead": 1795047540.1085062,
     "10f6df9a28a56481": 1795047540.083588,
@@ -2498,8 +2499,7 @@
     "9aad45b0386ba7b0": 1794361257.7814844,
     "057b5fccbbe48e1e": 1794361194.5582204,
     "5529d79d8e228cc8": 1794361194.5579667,
-    "f16f8a123cedf300": 1794360942.599259,
-    "dcd891835566960a": 1794360817.0877342
+    "f16f8a123cedf300": 1794360942.599259
   },
   "initialized": true,
   "v": 4,
@@ -4015,6 +4015,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-18T22:10:54+00:00",
       "cluster": "c1fa4d2a43c"
+    },
+    {
+      "t": "UFC analyst explains why Aljamain Sterling could face 'very difficult night' vs. Kevin Vallejos",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-18T23:01:00+00:00",
+      "cluster": "ce5cb8ba493"
     }
   ],
   "digest_items": [],
