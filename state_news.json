@@ -1,5 +1,6 @@
 {
   "seen": {
+    "99ae2f62ce140780": 1795109344.4813836,
     "9f3c4b9595355d7a": 1795109278.0998516,
     "bada41eea1aedf18": 1795109212.243104,
     "b14015a4e77cd721": 1795109145.4581783,
@@ -2498,18 +2499,11 @@
     "97564ef751af076f": 1794417492.245085,
     "793a1b5b39da0a8a": 1794417464.6860173,
     "36bb543381d16f84": 1794417439.2288673,
-    "4d97bfa90cc9976c": 1794417412.0653903,
-    "c04d00f81ba52239": 1794417412.0477822
+    "4d97bfa90cc9976c": 1794417412.0653903
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "UFC Qatar Full Fights",
-      "source": "UFC.com.br",
-      "ts": "2026-11-17T17:28:49+00:00",
-      "cluster": "cb21077c3b3"
-    },
     {
       "t": "Mike Winkeljohn foresees Josh Hokit becoming MMA GOAT despite recent UFC setback",
       "source": "MMA Sucka",
@@ -3931,6 +3925,12 @@
       "source": "Cageside Press",
       "ts": "2026-11-19T16:41:31+00:00",
       "cluster": "cca138931cb"
+    },
+    {
+      "t": "UFC Returning To Dallas For UFC Fight Night: Rodriguez vs. Garcia",
+      "source": "bodyslam.net",
+      "ts": "2026-11-19T16:42:47+00:00",
+      "cluster": "ccadd10a58a"
     }
   ],
   "digest_items": [],
