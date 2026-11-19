@@ -1,5 +1,6 @@
 {
   "seen": {
+    "9be3bddbf98aa55f": 1795046984.0612624,
     "b5e91bc11aaf92f0": 1795046958.1479516,
     "9bb4dae083631812": 1795046958.1201031,
     "fa8c04eee0f2fb00": 1795046931.4898973,
@@ -2498,8 +2499,7 @@
     "27342ae0a89fbd96": 1794360273.807681,
     "63f5993d35792795": 1794360273.7905414,
     "e41fa11ba2ddcf47": 1794360207.9367187,
-    "a77e0c958ef3b62a": 1794360207.9170015,
-    "2af35ed06dce7d5b": 1794360141.3591864
+    "a77e0c958ef3b62a": 1794360207.9170015
   },
   "initialized": true,
   "v": 4,
@@ -3943,6 +3943,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-18T19:27:17+00:00",
       "cluster": "c993bbbbdff"
+    },
+    {
+      "t": "Opinion: Where does UFC 334 rank among the 10 Madison Square Garden UFC cards?",
+      "source": "MMA Fighting",
+      "ts": "2026-11-18T20:51:55+00:00",
+      "cluster": "ca8b7ac1cb8"
     }
   ],
   "digest_items": [],
