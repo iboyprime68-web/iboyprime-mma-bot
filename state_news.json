@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3d3f206eaca43cdb": 1795110920.012267,
     "3fdb9c61cc5b9d8d": 1795110791.9346478,
     "c3c6ee8ad3411a5a": 1795110663.5580702,
     "034570e49a9b8b00": 1795110663.552356,
@@ -2498,8 +2499,7 @@
     "ba71410d44273a51": 1794418323.9949107,
     "2a6917c0ff024267": 1794418323.9947221,
     "7ab0a044ff455871": 1794418252.5241947,
-    "5c3afacbc140549a": 1794418252.5073733,
-    "12b5d11458ea7751": 1794418252.5062063
+    "5c3afacbc140549a": 1794418252.5073733
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-17T17:58:49+00:00",
       "cluster": "cf08051babe"
-    },
-    {
-      "t": "UFC Star Claims Company Has Already 'Made a Decision' About Signing Umar Nurmagomedov",
-      "source": "GiveMeSport",
-      "ts": "2026-11-17T17:53:32+00:00",
-      "cluster": "c3779f86d14"
     },
     {
       "t": "'Platinum' Mike Perry Talks UFC return and comback opponent.",
@@ -4015,6 +4009,12 @@
       "source": "BJPenn.com",
       "ts": "2026-11-19T17:49:41+00:00",
       "cluster": "c19bf436eac"
+    },
+    {
+      "t": "UFC Announces Full Fight Card for Year-Opening UFC Dallas Event",
+      "source": "Sports Illustrated",
+      "ts": "2026-11-19T17:52:36+00:00",
+      "cluster": "c1cf745bd6a"
     }
   ],
   "digest_items": [],
