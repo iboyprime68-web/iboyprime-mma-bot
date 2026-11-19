@@ -1,5 +1,6 @@
 {
   "seen": {
+    "df7370d577dcffc8": 1795072373.7399843,
     "bdaebaad7831123f": 1795072348.7357442,
     "5c4b835ffab7afee": 1795072323.3313513,
     "942399a7a875725c": 1795072323.2892377,
@@ -2498,8 +2499,7 @@
     "ab6f600e929bbdd9": 1794388054.4027174,
     "487cef73b253ecc9": 1794388054.3794422,
     "3a0f6199584c8f48": 1794388007.105094,
-    "c52eb6914626fed6": 1794387980.9218874,
-    "69d96a7c021a4ace": 1794387980.8992298
+    "c52eb6914626fed6": 1794387980.9218874
   },
   "initialized": true,
   "v": 4,
@@ -3949,6 +3949,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-19T02:00:00+00:00",
       "cluster": "c176c860f5b"
+    },
+    {
+      "t": "New UFC signing suspended two months after his 98-second knockout in front of Dana White",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-19T04:00:00+00:00",
+      "cluster": "c529d67a7de"
     }
   ],
   "digest_items": [],
