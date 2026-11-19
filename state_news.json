@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c4e1d26a98d45e8b": 1795047061.3629503,
     "397d918351f45af5": 1795047035.6117918,
     "ddfe4a1a99db94b3": 1795047008.9871397,
     "9be3bddbf98aa55f": 1795046984.0612624,
@@ -2498,8 +2499,7 @@
     "7ab02d6350cdc515": 1794360407.2543588,
     "66e4c3c1e9aea1c6": 1794360340.6384785,
     "452bb381ea005a8f": 1794360273.8151467,
-    "27342ae0a89fbd96": 1794360273.807681,
-    "63f5993d35792795": 1794360273.7905414
+    "27342ae0a89fbd96": 1794360273.807681
   },
   "initialized": true,
   "v": 4,
@@ -3961,6 +3961,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-18T19:38:17+00:00",
       "cluster": "c726245882e"
+    },
+    {
+      "t": "Former Ilia Topuria opponent who went 5-1 in the UFC gets removed from the roster",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-18T22:00:00+00:00",
+      "cluster": "c16a0c88ad8"
     }
   ],
   "digest_items": [],
