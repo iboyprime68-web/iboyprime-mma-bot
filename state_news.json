@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8e930c02379e36a8": 1795072424.5555716,
     "17392938a7bf11ab": 1795072398.9710743,
     "df7370d577dcffc8": 1795072373.7399843,
     "bdaebaad7831123f": 1795072348.7357442,
@@ -2498,8 +2499,7 @@
     "34785f99957f801a": 1794388121.6462169,
     "5ed464b2ff8546c6": 1794388121.6227453,
     "ab6f600e929bbdd9": 1794388054.4027174,
-    "487cef73b253ecc9": 1794388054.3794422,
-    "3a0f6199584c8f48": 1794388007.105094
+    "487cef73b253ecc9": 1794388054.3794422
   },
   "initialized": true,
   "v": 4,
@@ -3961,6 +3961,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-19T01:30:37+00:00",
       "cluster": "c5cc0c3f0fd"
+    },
+    {
+      "t": "Islam Makhachev makes his pick for potential MMA fight between Jake Paul and Nate Diaz",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-19T06:00:00+00:00",
+      "cluster": "c44669e1873"
     }
   ],
   "digest_items": [],
