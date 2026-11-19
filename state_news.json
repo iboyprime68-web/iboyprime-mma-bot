@@ -1,5 +1,6 @@
 {
   "seen": {
+    "fd51baa36fbf15bb": 1795108506.6536841,
     "eec30902261bd40d": 1795108480.8886256,
     "fd3b9d26550f2afc": 1795108427.4746528,
     "19efecbd64d0e093": 1795108347.1434002,
@@ -2498,8 +2499,7 @@
     "0e6f7b6d793fbe07": 1794416820.68876,
     "0d24fb6565235e5a": 1794416793.729989,
     "ee772ca9a236229f": 1794416768.087766,
-    "5e12b1c7c126b8eb": 1794416742.410635,
-    "ec38958c6cf107dc": 1794416715.2232494
+    "5e12b1c7c126b8eb": 1794416742.410635
   },
   "initialized": true,
   "v": 4,
@@ -3829,6 +3829,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-19T13:55:53+00:00",
       "cluster": "c3a676f2a34"
+    },
+    {
+      "t": "UFC analyst considers Navajo Stirling 'a tough task' for Jiri Prochazka",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-19T13:50:23+00:00",
+      "cluster": "ca1a3a7fe36"
     }
   ],
   "digest_items": [],
