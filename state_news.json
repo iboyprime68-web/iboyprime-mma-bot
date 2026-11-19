@@ -1,5 +1,6 @@
 {
   "seen": {
+    "17392938a7bf11ab": 1795072398.9710743,
     "df7370d577dcffc8": 1795072373.7399843,
     "bdaebaad7831123f": 1795072348.7357442,
     "5c4b835ffab7afee": 1795072323.3313513,
@@ -2498,8 +2499,7 @@
     "5ed464b2ff8546c6": 1794388121.6227453,
     "ab6f600e929bbdd9": 1794388054.4027174,
     "487cef73b253ecc9": 1794388054.3794422,
-    "3a0f6199584c8f48": 1794388007.105094,
-    "c52eb6914626fed6": 1794387980.9218874
+    "3a0f6199584c8f48": 1794388007.105094
   },
   "initialized": true,
   "v": 4,
@@ -3955,6 +3955,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-19T04:00:00+00:00",
       "cluster": "c529d67a7de"
+    },
+    {
+      "t": "Dan Hooker desperate for win at UFC Fight Night 294: 'The ship is sinking'",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-19T01:30:37+00:00",
+      "cluster": "c5cc0c3f0fd"
     }
   ],
   "digest_items": [],
