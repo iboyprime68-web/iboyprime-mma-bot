@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7d42969a1e01ec77": 1795163058.3028133,
     "d19c8df9827429b7": 1795162991.0092468,
     "36be5edf4ac3e638": 1795162928.7347224,
     "b4fec6bc1eed6a88": 1795162928.7254713,
@@ -2498,8 +2499,7 @@
     "d3c4afa2cf8110ef": 1794465700.3666832,
     "4207e516e54cf9d9": 1794465633.3418396,
     "c5460d8157d1dfde": 1794465633.322255,
-    "8247c37bacdb4e91": 1794465567.1658697,
-    "c9c9c9943162696b": 1794465567.1473606
+    "8247c37bacdb4e91": 1794465567.1658697
   },
   "initialized": true,
   "v": 4,
@@ -3859,6 +3859,12 @@
       "source": "The Nation Newspaper",
       "ts": "2026-11-20T07:51:06+00:00",
       "cluster": "c62373c1812"
+    },
+    {
+      "t": "Alexandre Topuria weighs in on Ilia Topuria’s damaged eye: ‘I would have stopped it in the first’",
+      "source": "MMA Mania",
+      "ts": "2026-11-20T02:34:28+00:00",
+      "cluster": "c523f39e10a"
     }
   ],
   "digest_items": [],
