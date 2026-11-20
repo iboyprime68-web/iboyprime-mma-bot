@@ -1,5 +1,6 @@
 {
   "seen": {
+    "148c08266f8dca97": 1795135415.6372254,
     "460ffedf471a9a95": 1795135347.8339689,
     "f4f64718ce6abc6a": 1795135347.8171983,
     "69a51ad68eed16fc": 1795135300.5870805,
@@ -2498,8 +2499,7 @@
     "5aeea734f6f30781": 1794440848.1000273,
     "4ee3e065f7ca16f4": 1794440848.0923645,
     "c69410a76e104ffa": 1794440779.5519826,
-    "b70eba845767b86b": 1794440733.1049733,
-    "66d0cbf071639fa7": 1794440733.077594
+    "b70eba845767b86b": 1794440733.1049733
   },
   "initialized": true,
   "v": 4,
@@ -3901,6 +3901,12 @@
       "source": "FightBook MMA",
       "ts": "2026-11-19T23:55:44+00:00",
       "cluster": "ca50eba2436"
+    },
+    {
+      "t": "Navajo Stirling's sends clear message to Jiri Prochazka before fight | UFC Qatar",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-19T23:56:26+00:00",
+      "cluster": "cacf5350855"
     }
   ],
   "digest_items": [],
