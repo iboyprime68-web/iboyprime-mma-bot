@@ -1,5 +1,6 @@
 {
   "seen": {
+    "09ca72bb00132a18": 1795196753.138548,
     "6f1f1da0c6322d53": 1795196728.2154253,
     "b91df1d308368667": 1795196702.4320843,
     "c992a03c275dffdf": 1795196658.2265468,
@@ -2498,8 +2499,7 @@
     "2084396b237205c8": 1794499091.7798927,
     "1e82904e669ba8f0": 1794499021.8738573,
     "499e5573f70ec1e1": 1794498952.2618003,
-    "371c84e6295d20f7": 1794498952.2250726,
-    "651a41762a75bb30": 1794498952.223908
+    "371c84e6295d20f7": 1794498952.2250726
   },
   "initialized": true,
   "v": 4,
@@ -3787,6 +3787,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-20T13:50:22+00:00",
       "cluster": "c43caf1218d"
+    },
+    {
+      "t": "‘There will be no excuses, and no mercy’: Jiri Prochazka and Navajo Stirling have intense final faceoff before UFC Qatar",
+      "source": "MMA Fighting",
+      "ts": "2026-11-20T15:41:03+00:00",
+      "cluster": "cd8dd3ba592"
     }
   ],
   "digest_items": [],
