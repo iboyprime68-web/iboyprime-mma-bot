@@ -3838,7 +3838,6 @@
     0
   ],
   "yt_eval": [
-    "https://www.sherdog.com/news/news/Marvin-Vettori-warns-Joaquin-Buckley-over-sparring-dispute-203565",
     "CBMivAFBVV95cUxNMkpjU0EzbFo5Z0c1RERfRFZUcmt1bzh0cjJPbnQwaENTNkVsUnVzbHF1UjBXU2F2SkY1V0drbUZiYnUwQXNld1lXRVIxNWxZRl9QNjh0bmlGZXpTcXV6dGRreTlnM0dYS1JXRHRONDQ5MHRFN2g5QVhrSnZSWklFM25KTlZnOU8wNHRkR1AwZFVpVmV3ZlNiVVh1dGFEMFlrYkkwZTBuNzg5eGY0Y1ppM2NpbXVleU5mYVliSA",
     "CBMirgFBVV95cUxNbWowM1VmQ0lCZmhmOVUxdVEyU0JqX3AzQWlZenBZeERjMjZsTjVNS1NBbHNCeU1sTkUxWE51TFBzRHFjZ2oyNkM0YWhSR1BiV2pwU09WQjJod3plVUJHUU44VWtpZk1qYW5WNnZTWENuY1pKeGdDTE5ONFZVbjRfOUEyRUV4UERWM21ldkJ5djNJeGM2bm0tdUFmNDRIMUJ6SmVIamlvWngwZkdQOVHSAbMBQVVfeXFMTVVuOTZ1WFk0WUQ5VUloMzNpaEdhSWlWLWJ3VGhyZ3pqRGRONmtXb3VFV2p4N05HLUVUUW1iM2M3cDRCVmdxRlFBUkt3MkpURDBtcU5ZYzJEOWJCTm9IOWNDV0VyQnR4V05ZT1BoNGdvWFFXcDZCWlkzU0JVUVQwOXR6M3dvREZ3ejYtc3FTa19JX3ROeWlib3ViR2NVUl8yQzBPRFdqZ0ZnMU9SVjM0NXptRTA",
     "CBMi0gFBVV95cUxON0VBby1NZ2xsT0VIRS00bmNMeUVNUWxkVmRyMnlrU2RrZ1lqOFlZZ1NMMmZzcnJRRDRQMkFPQVRaRW0yTHFtd3hsdzMxdVJrWFk4WG5XbzNtOHlIZ25iajF5Y2hoLTFUc2tJT0VaOG1heW4zaEktSG1URjV6c2tONXU5c1AyR3VtY0RMazRvWXBzWnduWU9ya2ZjbHJmNVV4SzdOUlNTcjZEVnZkY2UwaVd0WXZlLXRCVy14OUJrTkZWbFB5UTVRUTlOdTA4a2Zla3c",
@@ -5337,24 +5336,17 @@
     "02686f91-208d-3802-b55b-acd27c75279a",
     "https://www.mmafighting.com/?p=522440",
     "https://bloodyelbow.com/?p=342800",
-    "f931c65b-13ca-492a-8a9f-70f10050d8a6"
+    "f931c65b-13ca-492a-8a9f-70f10050d8a6",
+    "https://bloodyelbow.com/?p=342809"
   ],
   "daily": {
     "d": "2026-11-20",
-    "ai": 11,
-    "staged": 0,
+    "ai": 13,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-10-06T18:06:10.040604+00:00",
-      "t": "Details Emerge of Huge Pay Cut Sean Strickland Was Asked to Take Before He Refused UFC 335 Fight",
-      "names": [
-        "strickland"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-10-06T18:44:42.964618+00:00",
       "t": "Michael Morales vs Ian Machado Garry sparks ‘excuses’ row as UFC welterweight title picture heats up",
@@ -6691,6 +6683,15 @@
       "names": [
         "morales",
         "prates"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-11-20T00:30:33.823496+00:00",
+      "t": "Jon Jones insists Josh Hokit will never become champion in the ‘stacked’ UFC heavyweight division",
+      "names": [
+        "jones",
+        "hokit"
       ],
       "img": "photo"
     }
