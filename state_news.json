@@ -1,5 +1,6 @@
 {
   "seen": {
+    "cef7e396cd589b77": 1795164674.268886,
     "89356c8bc0f4a930": 1795164424.6763132,
     "2d9fed888793ba3e": 1795164358.5443304,
     "91dbd2ce183834d9": 1795164227.722935,
@@ -2498,8 +2499,7 @@
     "bf514f9566560d9f": 1794466705.1449142,
     "90c59d0c35bc1f2f": 1794466638.2245126,
     "c2ae4978d3be9902": 1794466638.2171369,
-    "acfe537143e9a50b": 1794466638.194206,
-    "9a8c3433a9203f21": 1794466572.3227289
+    "acfe537143e9a50b": 1794466638.194206
   },
   "initialized": true,
   "v": 4,
@@ -3883,6 +3883,12 @@
       "source": "boxingnews.com",
       "ts": "2026-11-20T08:40:32+00:00",
       "cluster": "cc1cecef54d"
+    },
+    {
+      "t": "UFC Qatar weigh-ins: Jiri Prochazka, Navajo Stirling set for main event",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-20T07:58:43+00:00",
+      "cluster": "cf6d23e4d68"
     }
   ],
   "digest_items": [],
