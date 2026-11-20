@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d127f884ec5c5a3b": 1795218646.0126767,
     "163e07a05909e9ed": 1795218620.6437366,
     "eff2f766dbc5c10d": 1795218594.270671,
     "8c7cd6100cb363bb": 1795218568.5150087,
@@ -2498,8 +2499,7 @@
     "8da62837a64a12f9": 1794501729.6490955,
     "286c7506772b7e23": 1794501729.6191542,
     "7019057db9a376a3": 1794501729.6188626,
-    "65b13d28195e242b": 1794501729.616934,
-    "868efb77512cd5d5": 1794501661.407646
+    "65b13d28195e242b": 1794501729.616934
   },
   "initialized": true,
   "v": 4,
@@ -3781,6 +3781,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-20T16:44:30+00:00",
       "cluster": "c4d4d25d006"
+    },
+    {
+      "t": "BKFC announces new host city and venue for KnuckleMania after two years in Philadelphia",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-20T19:01:19+00:00",
+      "cluster": "c9550112bd3"
     }
   ],
   "digest_items": [],
