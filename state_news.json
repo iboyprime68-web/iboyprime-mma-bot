@@ -1,5 +1,7 @@
 {
   "seen": {
+    "f3a2a0f9829cf744": 1795198043.0158188,
+    "77cd3ebded65753c": 1795198043.0013645,
     "edf80b7b5156f7e0": 1795197976.4575624,
     "99903d023e213a7c": 1795197909.615628,
     "e26b6ced0d68d982": 1795197841.5209634,
@@ -2497,9 +2499,7 @@
     "b573d92d08b1b327": 1794500711.6179085,
     "19b62306cbc1af5a": 1794500711.6152983,
     "4ec881d3593066c1": 1794500642.813379,
-    "a7befdd983c83d8f": 1794500574.2842135,
-    "bd1dc57021c8670b": 1794500574.25527,
-    "5f32ceaf03ec4ee4": 1794500574.2531083
+    "a7befdd983c83d8f": 1794500574.2842135
   },
   "initialized": true,
   "v": 4,
@@ -3895,6 +3895,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-20T17:50:24+00:00",
       "cluster": "ca9b67bc8c4"
+    },
+    {
+      "t": "Suspended UFC contender shares statement from coach who gave her contaminated supplements",
+      "source": "www.hitc.com",
+      "ts": "2026-11-20T17:55:07+00:00",
+      "cluster": "ce917229b1c"
     }
   ],
   "digest_items": [],
