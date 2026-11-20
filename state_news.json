@@ -1,5 +1,6 @@
 {
   "seen": {
+    "d3de7521f9006eeb": 1795196376.0600498,
     "00174f69565fa292": 1795196351.1188424,
     "dcade66b0332a744": 1795165569.2273207,
     "f94645bc38b03db0": 1795165569.2049809,
@@ -2498,8 +2499,7 @@
     "5a0de17e3cc28a1f": 1794468224.5022879,
     "fb22e0204bcea144": 1794468099.6169872,
     "911b804df869580c": 1794467664.3318222,
-    "3fd0d069e6a972b2": 1794467664.3251896,
-    "f9c6ca53e4568ff5": 1794467580.4122207
+    "3fd0d069e6a972b2": 1794467664.3251896
   },
   "initialized": true,
   "v": 4,
@@ -3709,6 +3709,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-19T15:12:50+00:00",
       "cluster": "ce8ce2d4a4f"
+    },
+    {
+      "t": "UFC Qatar fighter fined after missing weight for matchup with 24-fight Octagon veteran",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-20T09:19:35+00:00",
+      "cluster": "c776eb3937f"
     }
   ],
   "digest_items": [],
