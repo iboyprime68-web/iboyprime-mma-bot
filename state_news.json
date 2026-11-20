@@ -1,5 +1,7 @@
 {
   "seen": {
+    "460ffedf471a9a95": 1795135347.8339689,
+    "f4f64718ce6abc6a": 1795135347.8171983,
     "69a51ad68eed16fc": 1795135300.5870805,
     "805c53abf8f84f6f": 1795135300.5677722,
     "de04700c3c50093e": 1795135273.53823,
@@ -2497,9 +2499,7 @@
     "4ee3e065f7ca16f4": 1794440848.0923645,
     "c69410a76e104ffa": 1794440779.5519826,
     "b70eba845767b86b": 1794440733.1049733,
-    "66d0cbf071639fa7": 1794440733.077594,
-    "e9c790e4516ff500": 1794440706.469128,
-    "d8273bb8b15138a7": 1794440706.4412653
+    "66d0cbf071639fa7": 1794440733.077594
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-18T01:00:00+00:00",
       "cluster": "c1c82bb1301"
-    },
-    {
-      "t": "Kayla Harrison admits UFC 334 win may be her final MMA fight, plans to 'do some soul-searching'",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-18T00:42:00+00:00",
-      "cluster": "cf1c10211e5"
     },
     {
       "t": "Ciryl Gane Favorably Compared to Muhammad Ali by Jon Jones",
@@ -3901,6 +3895,12 @@
       "source": "Sherdog",
       "ts": "2026-11-19T19:30:34+00:00",
       "cluster": "c9b8eb6a454"
+    },
+    {
+      "t": "OKTAGON 98 Full Fight Card: Legierski vs. Buchinger Headlines Třinec Return",
+      "source": "FightBook MMA",
+      "ts": "2026-11-19T23:55:44+00:00",
+      "cluster": "ca50eba2436"
     }
   ],
   "digest_items": [],
