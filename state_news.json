@@ -1,5 +1,6 @@
 {
   "seen": {
+    "326f1f0361a23a54": 1795218873.7533498,
     "f41332131cc0c0c0": 1795218848.7372084,
     "4e0c9c0181542ac1": 1795218848.7197025,
     "7eecebe0f22a5f6b": 1795218822.2033353,
@@ -2498,8 +2499,7 @@
     "77f900de0fa815d7": 1794521361.7305338,
     "216c2e1959574f90": 1794521361.7273796,
     "d793effc90d9774b": 1794521361.7236514,
-    "4a85314bdf3e9ce8": 1794521335.649482,
-    "4dc32fa9993aa882": 1794521310.6423934
+    "4a85314bdf3e9ce8": 1794521335.649482
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-19T00:00:00+00:00",
       "cluster": "cf2999aeb53"
-    },
-    {
-      "t": "Daniel Cormier’s UFC 334 Commentary Riles Up Bryce Mitchell",
-      "source": "MMA Sucka",
-      "ts": "2026-11-18T23:54:24+00:00",
-      "cluster": "c994e86759f"
     },
     {
       "t": "UFC cuts 'surprised' Virna Jandiroba, recent title challenger and No. 3-ranked strawweight",
@@ -3835,6 +3829,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-20T19:17:25+00:00",
       "cluster": "cb08839a913"
+    },
+    {
+      "t": "Josh Hokit returns to training under a week after first-ever loss as he suggests title fight rule change",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-20T22:00:00+00:00",
+      "cluster": "c3fa46b11dc"
     }
   ],
   "digest_items": [],
