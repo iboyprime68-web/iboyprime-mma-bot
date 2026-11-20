@@ -1,5 +1,7 @@
 {
   "seen": {
+    "2bd38607e5cc7e30": 1795196503.366193,
+    "00eb99a5147d6174": 1795196503.360031,
     "353ee7acfac2ce83": 1795196477.0253294,
     "84540088148ca98c": 1795196451.5010748,
     "c4d88bdfd5dc0e66": 1795196426.3046246,
@@ -2497,9 +2499,7 @@
     "7d139a66a69ef8d9": 1794498769.696245,
     "ff51ff54e055dc51": 1794498769.669725,
     "b3becb9a493a2657": 1794498742.531869,
-    "d3cec4350fee58c0": 1794498714.104247,
-    "9384d38488f925f2": 1794498714.0464077,
-    "ef2c9424d5355ca8": 1794468352.4634235
+    "d3cec4350fee58c0": 1794498714.104247
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-18T18:00:00+00:00",
       "cluster": "c5868023b2d"
-    },
-    {
-      "t": "Joe Rogan Questions Marc Goddard’s Decision After Ciryl Gane Escapes Another Eye-Poke Punishment at UFC 334",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-18T17:41:32+00:00",
-      "cluster": "cefc4e434e6"
     },
     {
       "t": "Conor McGregor gives Josh Hokit highest of praise as UFC star",
@@ -3739,6 +3733,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-20T13:00:00+00:00",
       "cluster": "c5837b9b059"
+    },
+    {
+      "t": "Where does this Jiri Prochazka KO rank in UFC's all-time comebacks?",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-20T13:00:21+00:00",
+      "cluster": "ce3f699cf49"
     }
   ],
   "digest_items": [],
