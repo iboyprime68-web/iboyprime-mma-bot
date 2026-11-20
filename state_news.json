@@ -1,5 +1,6 @@
 {
   "seen": {
+    "82d0653e7056c67c": 1795162729.0745275,
     "d5ba1d304428bf51": 1795162662.0832806,
     "6a1932ccf7f6953e": 1795162619.0415657,
     "8a09f976c257bf0e": 1795162594.7618244,
@@ -2498,8 +2499,7 @@
     "42ce14334aa85dff": 1794465176.2367008,
     "4c6f4d8791621683": 1794465151.0195484,
     "842c7a6694ac3f37": 1794465151.0005774,
-    "3d30f3edfac97153": 1794465125.4400406,
-    "ad14dc9bf93609fc": 1794465099.7160115
+    "3d30f3edfac97153": 1794465125.4400406
   },
   "initialized": true,
   "v": 4,
@@ -2563,12 +2563,6 @@
       "source": "NDTV Sports",
       "ts": "2026-11-18T08:32:32+00:00",
       "cluster": "c1266cb5386"
-    },
-    {
-      "t": "‘The Cage’ Season 2: December 2026 Netflix Release Confirmed For French MMA Drama",
-      "source": "What's on Netflix",
-      "ts": "2026-11-18T08:17:53+00:00",
-      "cluster": "cef82f82e0e"
     },
     {
       "t": "John Mitchell: UFC Fighter Profile, MMA Record and Bio",
@@ -3835,6 +3829,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-20T03:08:35+00:00",
       "cluster": "c94d79351f4"
+    },
+    {
+      "t": "UFC Fight Night 294 official weigh-in results: One fighter misses mark",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-20T05:47:46+00:00",
+      "cluster": "ce2311c6643"
     }
   ],
   "digest_items": [],
