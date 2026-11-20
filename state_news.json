@@ -1,5 +1,6 @@
 {
   "seen": {
+    "350e4c5a6dca4975": 1795134606.0510352,
     "c0b364553952d876": 1795134579.0494332,
     "bd6dd11b7434053d": 1795134553.7580147,
     "055a1cc213b2eafe": 1795134528.4393182,
@@ -2498,8 +2499,7 @@
     "ac22098dc2d76249": 1794439778.4686308,
     "90a133349d1af0f5": 1794439752.5072594,
     "5295c6d720cfbf6b": 1794439726.740991,
-    "11ec40de571061ce": 1794439726.713062,
-    "5915973feb0a2d45": 1794439700.3952513
+    "11ec40de571061ce": 1794439726.713062
   },
   "initialized": true,
   "v": 4,
@@ -3817,6 +3817,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-19T20:00:00+00:00",
       "cluster": "ce6f7e38a7d"
+    },
+    {
+      "t": "After the UFC 334 headliner, we need to talk about the difference between a good fight and a fun fight",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-19T18:43:02+00:00",
+      "cluster": "c6455730a35"
     }
   ],
   "digest_items": [],
