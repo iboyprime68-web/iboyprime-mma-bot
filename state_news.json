@@ -3916,7 +3916,6 @@
     0
   ],
   "yt_eval": [
-    "https://www.mmafighting.com/?p=520413",
     "6e68f8d3-31d8-3cdd-8daa-48b23c99ed2a",
     "a3d25699-8806-3a08-bf67-a19a74301e8c",
     "129388e4-14e6-3d69-9fb6-6a107fc7f32c",
@@ -5415,24 +5414,17 @@
     "CBMid0FVX3lxTE1FWEkzYXVOZ1IzamFhRjVqOEJRZVhLR19iXzJqQTJUMS10UDc3TmZ5QlU0WmRyU1lZMWdCY1JhRW1yRkpnV1I2THdHWFBiN0lISEFDX1QxMVNKcWJROC12M3ZjZ3dSNUtGTUZSVEpyX2JnLUR6ZmZ3",
     "CBMijAFBVV95cUxOek90Qkxud3ZNNHBMRF9ocElpMjRSTzA3eHEteS1wQ0hhRkxNMU9GOGdTM0p6ZHNQenFHOVBuMFJxSW5TQkpJc2dTU1BSZXN4bGhtcjFLNlhoSVROUFZsaVFKRmR1MXkyUjlQRF9DejhOOXBwSmtEaDNRaHBVWEdYS3hxYWJaMmpVZkgxOQ",
     "CBMib0FVX3lxTE9jTFNjYjJSTDB0Y2Y2Zlk4bURGbGVhYWFfaXNiQUkzejdxZlViczAxYzRtdUttSzc4ZUNjQkxpWTdWU0JCdVFFcFJTbi1JY083R0tyWTJtckNtT19Mc3RLbVpCN1NCbHBGY2VmX3VOQQ",
-    "CBMiuwFBVV95cUxON2xCZGNKd0oxZXh6LVNlR0EyNnZoTDJHdHF5Yk9QMmYxMURxdV9icVROS2lpMTJGRmdJWThZY01ReDB2bE5Cd0RIakkzV3FBZ0FaVS11aU43dk5BMmRqZ0x0VV8xV05jT1dWRzFONl8zd255cjNta09XTWt5dGtSbm14QzUyUnNiUDdEajJldXJLTU5TV0l3dGdLT0t4TEw0c0t4MjJ2aEtLMlpjU0ZBNEpOU2FobDZCQ040"
+    "CBMiuwFBVV95cUxON2xCZGNKd0oxZXh6LVNlR0EyNnZoTDJHdHF5Yk9QMmYxMURxdV9icVROS2lpMTJGRmdJWThZY01ReDB2bE5Cd0RIakkzV3FBZ0FaVS11aU43dk5BMmRqZ0x0VV8xV05jT1dWRzFONl8zd255cjNta09XTWt5dGtSbm14QzUyUnNiUDdEajJldXJLTU5TV0l3dGdLT0t4TEw0c0t4MjJ2aEtLMlpjU0ZBNEpOU2FobDZCQ040",
+    "CBMihwFBVV95cUxOLWV4VE1lVEc4YUV1VzJnc3UtS3k1bXItRDc3QjJpU1dHZzBtbFdSU0pNN3FDSEF3WFZVaWpod08tRDNySnZPNUJtb1pnVFlPbzZJWXE0OTB2dGExVVctU2R2NExSMmxXV3BJTVlUeDNvSXN2bEFtTEdVa19Kc29JLU84bl81Vmc"
   ],
   "daily": {
     "d": "2026-11-20",
-    "ai": 75,
+    "ai": 77,
     "staged": 2,
-    "prio": 0,
+    "prio": 1,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-10-07T01:29:02.706954+00:00",
-      "t": "Dana White Wants $10 Billion for UFC’s Next TV Deal After $7.7 Billion Paramount Pact",
-      "names": [
-        "white"
-      ],
-      "img": "wash"
-    },
     {
       "ts": "2026-10-07T03:20:08.350782+00:00",
       "t": "MMA Junkie rankings, Oct. 6: Natalia Silva, Payton Talbott make big moves",
@@ -6769,6 +6761,16 @@
         "fiorot"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-20T09:00:57.484150+00:00",
+      "t": "Kayla Harrison Beats Amanda Nunes, Calls Out Ronda Rousey",
+      "names": [
+        "harrison",
+        "nunes",
+        "rousey"
+      ],
+      "img": "cutout:kayla-harrison"
     }
   ],
   "seed_pending": [],
@@ -6909,22 +6911,17 @@
     "d3b4a4dd7c7f14d9": 1794750391.3527882,
     "67129a83c9e5636b": 1794751240.2752066,
     "f67117ae02aaaeed": 1794752979.0512264,
-    "fae7d6123ce719b7": 1794773892.7058773
+    "fae7d6123ce719b7": 1794773892.7058773,
+    "af77459792fda184": 1795165269.1791365
   },
   "pinged_titles": [
     [
-      "UFC 334 winner vows to KO ‘old man’ Conor McGregor after being called ‘scum’",
-      1794752979.0512264,
+      "Kayla Harrison Beats Amanda Nunes, Calls Out Ronda Rousey",
+      1795165269.1791365,
       [
-        "conor"
-      ]
-    ],
-    [
-      "Josh Hokit Blasts Jon Jones After UFC 334 Criticism",
-      1794773892.7058773,
-      [
-        "hokit",
-        "jones"
+        "harrison",
+        "nunes",
+        "rousey"
       ]
     ]
   ]
