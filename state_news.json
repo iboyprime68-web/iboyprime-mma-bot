@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c93320df847b4062": 1795197153.6186042,
     "a11fed0446c2bddf": 1795197085.6416574,
     "76047ae8d01304bd": 1795197085.6273625,
     "09e08ec4e87aea29": 1795197085.6245668,
@@ -2498,8 +2499,7 @@
     "35eab6f37376898d": 1794499638.0000477,
     "7e22a9b878324055": 1794499589.1717532,
     "8fe47497ffc39c2b": 1794499520.2152383,
-    "69ba9c8a090b34b6": 1794499450.8909261,
-    "0c43d393e4c45f87": 1794499381.2942898
+    "69ba9c8a090b34b6": 1794499450.8909261
   },
   "initialized": true,
   "v": 4,
@@ -3841,6 +3841,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-20T16:45:18+00:00",
       "cluster": "c1971690ed0"
+    },
+    {
+      "t": "The Rise of Fighter-Owned Media: How MMA Athletes Are Taking Control of Their Own Stories",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-20T14:47:24+00:00",
+      "cluster": "cff1e0da47c"
     }
   ],
   "digest_items": [],
