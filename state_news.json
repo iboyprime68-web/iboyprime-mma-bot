@@ -1,5 +1,7 @@
 {
   "seen": {
+    "83ab66afab05531f": 1795242058.7373307,
+    "0a7a0f597d2c5732": 1795242058.7103517,
     "a536e14560d07f04": 1795242033.9440815,
     "ec519c4dbf7aecc4": 1795221533.903923,
     "dd006badc8c22953": 1795221466.8314283,
@@ -2497,9 +2499,7 @@
     "b19a0d7a210c435d": 1794523158.2804966,
     "db45caca28169c39": 1794523158.2535613,
     "99d08af511d50012": 1794523158.2247255,
-    "3f7ead40d55be233": 1794523158.1951554,
-    "d3039e58df366e04": 1794523091.0582156,
-    "f6c7dd85b65d0049": 1794523025.1355622
+    "3f7ead40d55be233": 1794523158.1951554
   },
   "initialized": true,
   "v": 4,
@@ -3889,6 +3889,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-20T20:42:36+00:00",
       "cluster": "c373e8981c7"
+    },
+    {
+      "t": "UFC legend mocks Jake Paul over big money offer for Khabib Nurmagomedov comeback fight",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-21T04:00:00+00:00",
+      "cluster": "cff90ae6baf"
     }
   ],
   "digest_items": [],
