@@ -3964,7 +3964,6 @@
     0
   ],
   "yt_eval": [
-    "6bdcb49b-8bc9-3135-a94e-f697d5ef7d1b",
     "https://x.com/uncrownedcombat/status/2120550130478883113",
     "eb4141e0-af8c-3c31-84b8-b141c5fd6b7d",
     "https://bloodyelbow.com/?p=341417",
@@ -5463,27 +5462,17 @@
     "CBMi8wFBVV95cUxPeThlQVlBSm1oUEl0ejJ6UXVSVm9zM0pNZUNsb2dsdjVFZ0trNk1sYUsyZEJGS0lxUDJ2Nzlxb2JybF81Wncxb1QzMU03NVZObkRUZ0l0VVcyVjlnekxfZ3FqWG5TZU50NnI4aTNjNmdaTnM2bmgxWGNiWE1GcVlTdDR4dVRzM2ZNM3V6b2lFZEJmcFFTUEhrRktVLU5sRWxqZVRVQVBxMWJRNnR5WmlOV3Ixd3BieVJSWU5EbFMyb0VlNENGOVEtUEMxT3pZWU8tamtMbGlwalRaTGZWaXZmOW8yVkJJSEJBR04zb0Y4LTBpWGM",
     "CBMi2AFBVV95cUxPVndGR0pRN1JKeElrbnZ6Q0FCWmMwU1g1N29sZUl2ZzdPRzlwVjk1SkVwbmxRRU5kRjVSMVJjTTFEYW00QmZONGlOUXVsbTBMUTFWOTE2RVFYT285YVZVUDdmWFhrTnNqTWN5YnFMczN1MXZNYjVRLUpQWGp2Yld5QTdkZGd6VnRRNFpGX1VFR1dNMHZmMzRvb1R0X0pQTko0VllMcUVxSHNBWFpiLWFWY2RhLXhoWC05bnM4VXFyNnNvRzNUbURYSjJrN1BMakx3bnZ1U3JpY00",
     "CBMi_gFBVV95cUxNQmY5TE93eldkeU9KeGhrdXZNNUZVVDJhUTFxU25XRHY1MHZyRnk0TDJyVS1fU3l0cjYzU2RaNng1ZC1XRDl2YkZpNlA1MEVINjNMX1FxUnhIS2VOYWZLejgxVmZPSjVKUU9xNmZHNXNwM3BrMExRTHlHUVpGSlVSZjVjVGZyYjFEM0xrZGdzdHpqMV9KNHpRYy1rb2FRRHYxWFpTNFhUbGNFYkZSdklHT25Ka3hsZkgzTDJCRG5oVlJqWlJJOWpEUEtyRUNBU3NVMUJUVUMzdHVuT1NEYnhYNGR6WnZuRVBaMXVxQ3FiazhKNTI4RmdoRWg1ZUFOQQ",
-    "CBMidkFVX3lxTFAyMmlBMUs2WmZBM0gydzRkOWF4bEhSUFZSd2FkNEJhYVlWUkpwMzlDSlZ3RzBUcUYwVkZ1WFY1NGZhWGs5SXBqM0FnM1QyU2VXOGR0S0dzSHMtaEl0aktmQ2g4M19qVUxsVGdkZXRVX1VGUXYydFE"
+    "CBMidkFVX3lxTFAyMmlBMUs2WmZBM0gydzRkOWF4bEhSUFZSd2FkNEJhYVlWUkpwMzlDSlZ3RzBUcUYwVkZ1WFY1NGZhWGs5SXBqM0FnM1QyU2VXOGR0S0dzSHMtaEl0aktmQ2g4M19qVUxsVGdkZXRVX1VGUXYydFE",
+    "CBMieEFVX3lxTE40Wm1vb2dTbXc0TVl4M0JKbkRrNzNzMllwaWlZNVo2YTBtT1dMdXdpMlNsaGYyaGltLTJwQm9MUlBGclBLSTE4MElsM29BandGSWJpVGcwZ1pYSF9tVTA4OG9qY3Mxb05XWHU3ZHN3eDdnNlFlNUlOdA"
   ],
   "daily": {
     "d": "2026-11-21",
-    "ai": 40,
-    "staged": 0,
+    "ai": 42,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-10-07T03:20:08.350782+00:00",
-      "t": "MMA Junkie rankings, Oct. 6: Natalia Silva, Payton Talbott make big moves",
-      "names": [
-        "junkie",
-        "oct",
-        "silva",
-        "talbott"
-      ],
-      "img": "cutout:natalia-silva"
-    },
     {
       "ts": "2026-10-07T06:14:38.145269+00:00",
       "t": "Michael Bisping Snubs Khamzat Chimaev From His Top 10 Middleweights of All Time List",
@@ -6819,6 +6808,16 @@
         "rousey"
       ],
       "img": "cutout:kayla-harrison"
+    },
+    {
+      "ts": "2026-11-21T06:30:44.095160+00:00",
+      "t": "Gane Maintains UFC Belt But Aspinall Holds Top Ranking",
+      "names": [
+        "maintains",
+        "aspinall",
+        "gane"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
