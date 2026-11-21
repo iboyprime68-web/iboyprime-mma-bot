@@ -4066,7 +4066,6 @@
     0
   ],
   "yt_eval": [
-    "c1103d66-1639-3205-91c1-94d9166d06a6",
     "https://bloodyelbow.com/?p=341511",
     "d37396e1-4709-36a6-8867-a1fc668dc92a",
     "https://bloodyelbow.com/?p=341550",
@@ -5565,27 +5564,17 @@
     "CBMifkFVX3lxTE9vXzNwWFo0S2pvUWdUOEMzd1JwVnVwWVk4eldPZ29ENHc5TUxXekM2WWczNV9EQUpHT2dOSUtSemNxWmVLdGVkc2IwcHl2bjBxRmF2ZDVoaWplSzN0WXI2S0hpYU1iT2hna1F5MFhkb1dEVUJybTV0dlc3MDR4Zw",
     "https://bloodyelbow.com/?p=343095",
     "CBMiU0FVX3lxTE9GMTJ1WFlWNk5VUHZia3BaYXhZeUZfeG0wbmU3UmY3Z3FrMklHd1BOVTBha20xSUstZlozOGN6VlRMb2JCNUhqTVdZSlRtUDdBWGd3",
-    "CBMikwFBVV95cUxPOEQ4LVR4MzBfRE9BcHlod0FZU0lRemdQZ012dVY5bGhGUXZFN3FXTFMyNkNvbEM4c21QSTYzSUlIakY5T1AtZHUwVkwzUzg3RlZRcU1fY2tvb3k5YURDcEFQem1oUjVzUTluUFVwYlgzVERKTWswREVkTV9TWnZKQlZ5SElURlhySlpXTG8tYWJzTUk"
+    "CBMikwFBVV95cUxPOEQ4LVR4MzBfRE9BcHlod0FZU0lRemdQZ012dVY5bGhGUXZFN3FXTFMyNkNvbEM4c21QSTYzSUlIakY5T1AtZHUwVkwzUzg3RlZRcU1fY2tvb3k5YURDcEFQem1oUjVzUTluUFVwYlgzVERKTWswREVkTV9TWnZKQlZ5SElURlhySlpXTG8tYWJzTUk",
+    "CBMihAFBVV95cUxNNy1sSk9WX3h5T05Xd3hkcWVYTm9KSDRxZWU5SlZUVllOR2VKeTFFT0Y1bDdpU25xc09vM2l1TTI1bWl2NmM2dnNLUWNYejgzSUNKLVNvTEJVcHNOQl84NkdHanJnX1dCZWRLMU5nSU4wTS1xalduV2M3dVB6N1lENTUwbUk"
   ],
   "daily": {
     "d": "2026-11-21",
-    "ai": 161,
-    "staged": 3,
+    "ai": 163,
+    "staged": 4,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-10-07T15:05:23.166480+00:00",
-      "t": "Valentina Shevchenko Plans Return to Reclaim UFC Flyweight Title from Natalia Silva",
-      "names": [
-        "shevchenko",
-        "reclaim",
-        "natalia",
-        "silva"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-10-07T18:16:28.700964+00:00",
       "t": "'A good one' - Dana White gives green light for Paddy Pimblett's biggest-ever UFC fight as potential grudge match looms",
@@ -6921,6 +6910,15 @@
         "oliveira"
       ],
       "img": "photo"
+    },
+    {
+      "ts": "2026-11-21T22:03:30.039903+00:00",
+      "t": "Navajo Stirling Knocks Out Jiri Prochazka to Extend Undefeated Record to 12-0",
+      "names": [
+        "stirling",
+        "prochazka"
+      ],
+      "img": "wash"
     }
   ],
   "seed_pending": [],
