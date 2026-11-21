@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7d0432501d1d1196": 1795296743.5222785,
     "6bedb720a4542ad7": 1795296718.81009,
     "1fde5c980916e8b8": 1795296694.0703444,
     "94a10ecd76f5f93a": 1795296668.9820013,
@@ -2498,8 +2499,7 @@
     "df08834abdd57409": 1794572289.5640118,
     "b65dbc8acdda484f": 1794572222.8127449,
     "62918fa0e56c356f": 1794572156.2207136,
-    "b07ed6eeabb90dc0": 1794572089.485398,
-    "f34db5b3939a4482": 1794572089.4606175
+    "b07ed6eeabb90dc0": 1794572089.485398
   },
   "initialized": true,
   "v": 4,
@@ -3841,6 +3841,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-21T18:15:40+00:00",
       "cluster": "c440aa4d4c5"
+    },
+    {
+      "t": "UFC Qatar results: Kyoji Horiguchi apologizes after winning ‘boring fight’ against Asu Almabayev",
+      "source": "MMA Fighting",
+      "ts": "2026-11-21T19:19:47+00:00",
+      "cluster": "cbb0cf39df9"
     }
   ],
   "digest_items": [],
