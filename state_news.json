@@ -1,5 +1,6 @@
 {
   "seen": {
+    "84c1e3db96d7acd0": 1795221139.0621276,
     "986b4966c635ce09": 1795221011.504762,
     "a725c03c429800b1": 1795220886.0757716,
     "9c9c1fb9b57d87cf": 1795220886.0583105,
@@ -2498,8 +2499,7 @@
     "602ce2b1570cdb89": 1794522958.2929246,
     "fdb2aec4eacd142e": 1794522958.2643225,
     "2f78d4c765acb65c": 1794522891.7530856,
-    "2c17641a4679f514": 1794522845.5940967,
-    "6fe6f722eb3651a8": 1794522845.5616214
+    "2c17641a4679f514": 1794522845.5940967
   },
   "initialized": true,
   "v": 4,
@@ -3949,6 +3949,12 @@
       "source": "MMA Sucka",
       "ts": "2026-11-21T00:25:31+00:00",
       "cluster": "cf8ef0e8db3"
+    },
+    {
+      "t": "Trump, UFC President Gift Half-Million Dollars to Marine Corps Band",
+      "source": "U.S. Department of War (.gov)",
+      "ts": "2026-11-21T00:03:19+00:00",
+      "cluster": "ccb9816f41d"
     }
   ],
   "digest_items": [],
