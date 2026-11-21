@@ -1,5 +1,7 @@
 {
   "seen": {
+    "48191e79442a41a7": 1795298960.4908862,
+    "441a83406f2c337d": 1795298960.4731789,
     "27c3cda508ca1eaa": 1795298935.892084,
     "a62ac6581bdd5c65": 1795298935.887593,
     "cc3c76e7239c81c8": 1795298935.875564,
@@ -2497,9 +2499,7 @@
     "e7eb7eacf8f5fef9": 1794599208.640459,
     "7239a8d5d5ded83d": 1794599208.6327982,
     "4322e71fe5891665": 1794599208.6315343,
-    "18305bb4a2ba9339": 1794599208.6150603,
-    "761c2e8c171e7ffb": 1794599208.613437,
-    "db7e3af14b4a3d75": 1794599208.6127453
+    "18305bb4a2ba9339": 1794599208.6150603
   },
   "initialized": true,
   "v": 4,
@@ -4087,6 +4087,12 @@
       "source": "Heavy.com",
       "ts": "2026-11-21T21:18:38+00:00",
       "cluster": "c8036a2f6d6"
+    },
+    {
+      "t": "UFC Qatar results: Ikram Aliskerov puts on suffocating grappling performance to beat Jared Cannonier",
+      "source": "MMA Fighting",
+      "ts": "2026-11-21T18:53:44+00:00",
+      "cluster": "cf9f3ebffef"
     }
   ],
   "digest_items": [],
