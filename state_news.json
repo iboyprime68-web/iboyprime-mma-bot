@@ -1,5 +1,7 @@
 {
   "seen": {
+    "3d02a2a46100624e": 1795299615.4828162,
+    "8e76ab14dcea5095": 1795299615.477355,
     "13129cb063069b87": 1795299549.3109717,
     "f415d5e418ba064b": 1795299549.3061106,
     "51d83bd99486ec8d": 1795299549.3026829,
@@ -2497,9 +2499,7 @@
     "caad1c58a7d7d7d2": 1794599682.182614,
     "b9b874330bad8264": 1794599682.1748545,
     "8aac1fcc2d70b9cf": 1794599682.1740766,
-    "1ff2de3b7977358c": 1794599682.1726286,
-    "15b5c684c93a3f8b": 1794599682.172273,
-    "e2cec7603dddd9c0": 1794599682.1657555
+    "1ff2de3b7977358c": 1794599682.1726286
   },
   "initialized": true,
   "v": 4,
@@ -4147,6 +4147,12 @@
       "source": "1News",
       "ts": "2026-11-21T21:35:51+00:00",
       "cluster": "cc93077750a"
+    },
+    {
+      "t": "UFC Fight Night takeaways: Navajo Stirling emerging as a star, Kevin Vallejos closing in on title shot",
+      "source": "CBS Sports",
+      "ts": "2026-11-21T21:39:01+00:00",
+      "cluster": "cda89cd1068"
     }
   ],
   "digest_items": [],
