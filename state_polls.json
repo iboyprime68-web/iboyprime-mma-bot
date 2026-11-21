@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 36,
   "staged_at": [
-    "2026-11-17T18:39:09.514840+00:00",
     "2026-11-18T18:11:55.055473+00:00",
     "2026-11-19T18:23:16.870902+00:00",
-    "2026-11-20T17:53:34.076668+00:00"
+    "2026-11-20T17:53:34.076668+00:00",
+    "2026-11-21T16:50:42.499271+00:00"
   ],
   "asked": [
-    "What is the most dangerous superfight the UFC could actually book right now?",
     "Who is the most biased UFC commentator right now?",
     "You get one tag team partner in a two on two cage match. Who?",
     "Who should get the next heavyweight title shot?",
@@ -47,33 +46,34 @@
     "What is the biggest judging robbery in UFC history?",
     "Kevin Holland admits he intentionally fouled an opponent. What is the most cowardly act in UFC history?",
     "Kayla Harrison just took the pound for pound top spot. Who is the most dangerous fighter in the UFC right now?",
-    "What is the worst commentary bias moment in UFC history?"
+    "What is the worst commentary bias moment in UFC history?",
+    "UFC Qatar had no ring girls. What is the most overrated part of a UFC broadcast?"
   ],
   "last_entry": {
-    "q": "What is the worst commentary bias moment in UFC history?",
+    "q": "UFC Qatar had no ring girls. What is the most overrated part of a UFC broadcast?",
     "type": "poll",
     "options": [
       {
-        "label": "Cormier on Hokit",
-        "emoji": "🎙️",
-        "art": ""
+        "label": "Ring girls",
+        "emoji": "💃",
+        "art": "Empty octagon-side walkway with a spotlight on a bare patch of canvas, dramatic lighting"
       },
       {
-        "label": "Rogan on Ronda",
-        "emoji": "🥇",
-        "art": "Commentary desk mic lit hot, silhouette of a headset draped over a chair, arena lights behind"
+        "label": "Walkout music",
+        "emoji": "🎵",
+        "art": "Lone speaker stack in a dark arena tunnel, harsh spotlight, smoke drifting"
       },
       {
-        "label": "Anik on Conor",
-        "emoji": "🗣️",
-        "art": "Empty broadcast booth, one glowing monitor replaying a walkout, dark arena behind glass"
+        "label": "Tale of the tape",
+        "emoji": "📊",
+        "art": "Two shadowy figures facing off on a dim stage with a glowing screen between them"
       },
       {
         "label": "Other (comment below)",
-        "emoji": "📞",
+        "emoji": "🤔",
         "art": ""
       }
     ],
-    "gag": "A frazzled commentator in a headset taking a phone call from a rubber chicken at the desk"
+    "gag": "A lone microphone stand in an empty broadcast booth, one confused pigeon perched on it under a spotlight"
   }
 }
