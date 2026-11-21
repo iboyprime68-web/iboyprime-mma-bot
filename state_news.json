@@ -1,5 +1,6 @@
 {
   "seen": {
+    "350ae0a8e065cfbc": 1795242512.0489633,
     "14b4f8041794221f": 1795242445.1162424,
     "936dbd9075031662": 1795242445.0912893,
     "6a6a4a18be42168f": 1795242378.6100016,
@@ -2498,8 +2499,7 @@
     "2085f7e5b391d6bd": 1794524496.7446089,
     "abee723eb805c305": 1794524368.2789538,
     "c9d17afe7b03a47c": 1794524368.2483132,
-    "46bb9606645dd782": 1794524368.2467017,
-    "8d352bcc21cbeb42": 1794524302.3479798
+    "46bb9606645dd782": 1794524368.2467017
   },
   "initialized": true,
   "v": 4,
@@ -3937,6 +3937,12 @@
       "source": "Aledo Times Record",
       "ts": "2026-11-21T05:53:00+00:00",
       "cluster": "cafe5d96498"
+    },
+    {
+      "t": "Las Vegas, Nevada, USA; Aljamain Sterling during UFC 300 at T-Mobile Arena.",
+      "source": "The Lufkin Daily News",
+      "ts": "2026-11-21T05:53:39+00:00",
+      "cluster": "cbeca190c0b"
     }
   ],
   "digest_items": [],
