@@ -1,5 +1,6 @@
 {
   "seen": {
+    "107e59a312ede634": 1795297917.0219893,
     "86726c986dcde5a1": 1795297871.392258,
     "ad74e65e87b6e747": 1795297871.3875813,
     "5ee8eeec5972b5ca": 1795297846.8097582,
@@ -2498,8 +2499,7 @@
     "562202d960e2734f": 1794598221.0596137,
     "37f1f4d902ed47c8": 1794598195.8388326,
     "8fb0b86961ac655d": 1794598170.857008,
-    "8e0efab821c03476": 1794598144.600143,
-    "7db4fd0c8031ab56": 1794598144.57928
+    "8e0efab821c03476": 1794598144.600143
   },
   "initialized": true,
   "v": 4,
@@ -4003,6 +4003,12 @@
       "source": "Sherdog",
       "ts": "2026-11-21T21:51:11.277816+00:00",
       "cluster": "c6eb3372388"
+    },
+    {
+      "t": "UFC Fight Night: Jiri vs. Stirling Results (11/21) - Fightful | WWE News, AEW News, Pro Wrestling Backstage News",
+      "source": "Fightful",
+      "ts": "2026-11-21T20:54:55+00:00",
+      "cluster": "ce4f07100a5"
     }
   ],
   "digest_items": [],
