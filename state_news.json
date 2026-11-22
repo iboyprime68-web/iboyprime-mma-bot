@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f12357e0762be031": 1795315571.6096501,
     "3578ec5555fdce36": 1795315405.083039,
     "602652d3ac842b76": 1795315279.9923632,
     "6ffdf2330503e25b": 1795315154.719321,
@@ -2498,8 +2499,7 @@
     "1eee354b58f43274": 1794617598.5774596,
     "bc1dec79d4d7b5ac": 1794617598.5572147,
     "30020b8d94862ecd": 1794617573.0688956,
-    "8b52623df128ef30": 1794617548.879879,
-    "b22cb21ab3db7adf": 1794617524.1191509
+    "8b52623df128ef30": 1794617548.879879
   },
   "initialized": true,
   "v": 4,
@@ -4183,6 +4183,12 @@
       "source": "Colorado Springs Gazette",
       "ts": "2026-11-22T02:30:00+00:00",
       "cluster": "c0391090b0a"
+    },
+    {
+      "t": "Marc Goddard reveals horrific message that led him to make social media pages private",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-22T01:00:00+00:00",
+      "cluster": "ca85aa8318c"
     }
   ],
   "digest_items": [],
