@@ -1,5 +1,6 @@
 {
   "seen": {
+    "165869621c4752a6": 1795370184.7546427,
     "d95adfd70f510bb5": 1795370107.3508394,
     "3cdcfba3afdba8a4": 1795370039.4954097,
     "29888ca614b622b7": 1795369972.4335666,
@@ -2498,8 +2499,7 @@
     "4ab57e1107727666": 1794641783.327454,
     "fd66435c5eb792ae": 1794641712.830295,
     "0a2d5b54deb88f0f": 1794641712.8244195,
-    "075218fd83a6e57f": 1794641712.807339,
-    "4c42eba002d15d5a": 1794641645.4468613
+    "075218fd83a6e57f": 1794641712.807339
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-20T18:00:00+00:00",
       "cluster": "c0fa8f2b83a"
-    },
-    {
-      "t": "Suspended UFC contender shares statement from coach who gave her contaminated supplements",
-      "source": "www.hitc.com",
-      "ts": "2026-11-20T17:55:07+00:00",
-      "cluster": "ce917229b1c"
     },
     {
       "t": "Amanda Nunes scoffs at Kayla Harrison entertaining Valentina Shevchenko fight over rematch",
@@ -4009,6 +4003,12 @@
       "source": "MMA Sucka",
       "ts": "2026-11-22T17:27:47+00:00",
       "cluster": "cf0f692c078"
+    },
+    {
+      "t": "Jon Jones seemingly teases UFC comeback in deleted post following Josh Hokit feud",
+      "source": "HITC",
+      "ts": "2026-11-22T17:30:01+00:00",
+      "cluster": "ce2b3904d50"
     }
   ],
   "digest_items": [],
