@@ -4162,7 +4162,6 @@
     0
   ],
   "yt_eval": [
-    "CBMiggFBVV95cUxPMEFBendXUUFvaUNWRmJMNzBuUjV4c3lrMkVaYWxnS3UwMlRUTEdyVEZJZkZmODU4SVhtTmZXZGc1UEFJRzJMelNIY2pPSTBMUFItei1rNW9qZjVwV2FjQml6X2ltNzhsNlhBUUx2NFBrTjBqandYY3BVcGcwc1Z3eFZB",
     "CBMic0FVX3lxTFBnQU5VeU83Y3pvMHpKakRqOFUwbjdXeDY2Ykx3VE5sQ0FpU3hxVklZd0R4Y2dTa095eF8zVjc0QzZMRTFNbm5xVlVVdjNzNWx1UmtfVVNsZFQ1ZWhmVjdudXdMRl96cVZkUGduY3U5MEU2eFk",
     "https://www.mmafighting.com/520485/morning-report-template-dnp",
     "https://bloodyelbow.com/?p=341561",
@@ -5661,25 +5660,17 @@
     "CBMigwFBVV95cUxOcHdPZ1lsNmxTMDByV0lLb0NvSUFVYlBOUGlwMUJEZ0xHYTJQWFBIOFVfdU41QjEtSVlLZW91eTFUYVVkaEk2bE9wNmF2Yml2WjJjWVhZTVYtbnZDcFo5aENhaFVqci12UDI0cVozNWExNzM1S0xpd2Y2M0VHTlZYUHhjNA",
     "CBMiYkFVX3lxTE5fdjFJNzdRby1yZGlHelU3TDZSUHcybkVFeXFLdm1laktJaXAtVk5wQlpkSVZNa1E4emRGUDN0aVJuRmxxN3RpLXMyUGMyUzRCOHNrZWxPaUtoUS00bUtOOVl3",
     "CBMibEFVX3lxTE9jdVFEQnQzWU14Q1V6ZUZBNmxKSGhyd3BpRk9CSFNzV2xCTUIwOUtjMXFvbWwzNjNJaFhYOUhPMlF6anlLd2FBaW1naC1NMDhXQ0JYc0dIUmF1Z1FUbDh0OVlibFU4NFhITGZVdg",
-    "CBMilwFBVV95cUxQSlpqWFI5Qjl4dFdmZ0N2MFF0aVZ4TjBGZ2xqYUpWTlI3RzdvRUNtMFFaYllaT3F3Nmh2Z0VEbUd1ZHVuYXFXTEI0QXVrejFveXVyWEFucjBrUDk4aGdlYndVdk9tcnhSTmhFNHlsXzFFZ3ZmRVpReEh5MnBLRXotUG1xZEh0QUUwdWlqV0FhZDJVU2wyVmx3"
+    "CBMilwFBVV95cUxQSlpqWFI5Qjl4dFdmZ0N2MFF0aVZ4TjBGZ2xqYUpWTlI3RzdvRUNtMFFaYllaT3F3Nmh2Z0VEbUd1ZHVuYXFXTEI0QXVrejFveXVyWEFucjBrUDk4aGdlYndVdk9tcnhSTmhFNHlsXzFFZ3ZmRVpReEh5MnBLRXotUG1xZEh0QUUwdWlqV0FhZDJVU2wyVmx3",
+    "CBMi2gFBVV95cUxNb3lMWHVpUDNxOTlDWjFVYUxfYVU1Zm1iQmkzVHROWm9JU1E3bDBiVDE0d2FnLU9TMnktZWQ0X1dxV1ptdVJwc1pTT2Y2dm1rTVgzd0VhR3RxaG9wNFZKTEgtak9rVVBoLUpCMXJhTmxSYktrOFhZQ2VTMjZvaFYyTFZONXhPeVBJcnNhd2tTSEZUR0JycFBWc3hBME1ZOFpUQkJ4UE1abWpWdFQ3RG1rYzZuTnVYTm83cDd4TS1CMlcyNUpDdlBld295ZDdUb2RMOXhaMERSWDhKZw"
   ],
   "daily": {
     "d": "2026-11-22",
-    "ai": 18,
-    "staged": 0,
+    "ai": 20,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-10-07T18:16:28.700964+00:00",
-      "t": "'A good one' - Dana White gives green light for Paddy Pimblett's biggest-ever UFC fight as potential grudge match looms",
-      "names": [
-        "white",
-        "pimblett"
-      ],
-      "img": "photo"
-    },
     {
       "ts": "2026-10-07T22:03:51.570609+00:00",
       "t": "Sean Strickland debating not re-signing with UFC over pay dispute: ‘I’m kinda over it’",
@@ -7015,6 +7006,18 @@
         "prochazka"
       ],
       "img": "wash"
+    },
+    {
+      "ts": "2026-11-22T02:11:44.212929+00:00",
+      "t": "Conor McGregor’s MMA Business Reportedly Faces Cash Crisis After $14M Loss",
+      "names": [
+        "conor",
+        "business",
+        "faces",
+        "cash",
+        "crisis"
+      ],
+      "img": "photo"
     }
   ],
   "seed_pending": [],
