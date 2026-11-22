@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 36,
   "staged_at": [
-    "2026-11-18T18:11:55.055473+00:00",
     "2026-11-19T18:23:16.870902+00:00",
     "2026-11-20T17:53:34.076668+00:00",
-    "2026-11-21T16:50:42.499271+00:00"
+    "2026-11-21T16:50:42.499271+00:00",
+    "2026-11-22T17:13:53.022899+00:00"
   ],
   "asked": [
-    "Who is the most biased UFC commentator right now?",
     "You get one tag team partner in a two on two cage match. Who?",
     "Who should get the next heavyweight title shot?",
     "Whose next loss ends the aura for good?",
@@ -47,33 +46,34 @@
     "Kevin Holland admits he intentionally fouled an opponent. What is the most cowardly act in UFC history?",
     "Kayla Harrison just took the pound for pound top spot. Who is the most dangerous fighter in the UFC right now?",
     "What is the worst commentary bias moment in UFC history?",
-    "UFC Qatar had no ring girls. What is the most overrated part of a UFC broadcast?"
+    "UFC Qatar had no ring girls. What is the most overrated part of a UFC broadcast?",
+    "What is the most brutal injury stoppage in UFC history?"
   ],
   "last_entry": {
-    "q": "UFC Qatar had no ring girls. What is the most overrated part of a UFC broadcast?",
+    "q": "What is the most brutal injury stoppage in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Ring girls",
-        "emoji": "💃",
-        "art": "Empty octagon-side walkway with a spotlight on a bare patch of canvas, dramatic lighting"
+        "label": "Silva leg break",
+        "emoji": "💥",
+        "art": "A snapped lower leg folding at a weird angle against the cage, harsh arena light, no text"
       },
       {
-        "label": "Walkout music",
-        "emoji": "🎵",
-        "art": "Lone speaker stack in a dark arena tunnel, harsh spotlight, smoke drifting"
+        "label": "McGregor leg break",
+        "emoji": "🦴",
+        "art": "A shin bone cracking mid kick, foot dangling, dramatic spotlight on the canvas, no text"
       },
       {
-        "label": "Tale of the tape",
-        "emoji": "📊",
-        "art": "Two shadowy figures facing off on a dim stage with a glowing screen between them"
+        "label": "Bigfoot cut",
+        "emoji": "🩸",
+        "art": "A fighter's face split open with a deep gash, blood streaming, harsh overhead light, no text"
       },
       {
         "label": "Other (comment below)",
-        "emoji": "🤔",
-        "art": ""
+        "emoji": "🚑",
+        "art": "A fighter's whole leg popping off like a cartoon doll part, stretcher waiting, dark arena, no text"
       }
     ],
-    "gag": "A lone microphone stand in an empty broadcast booth, one confused pigeon perched on it under a spotlight"
+    "gag": "a sloth lying flat on the octagon canvas, completely unbothered, spotlight on it"
   }
 }
