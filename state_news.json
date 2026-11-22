@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ea3068711c0006e1": 1795340093.093323,
     "3113a5f7bbe6088b": 1795340027.4714913,
     "0c8763b4db68ca42": 1795339986.4346814,
     "bfc682e07ce3a7dc": 1795339961.9126997,
@@ -2498,8 +2499,7 @@
     "3f173a41b0d2e208": 1794617992.7488923,
     "204ec3651ee23769": 1794617927.0406654,
     "5d38b99a38a679a5": 1794617861.8951688,
-    "0d824130c9f3674b": 1794617861.875207,
-    "0042894ca21fd980": 1794617861.8750203
+    "0d824130c9f3674b": 1794617861.875207
   },
   "initialized": true,
   "v": 4,
@@ -4063,6 +4063,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-22T04:05:40+00:00",
       "cluster": "cf3a2ebb1cc"
+    },
+    {
+      "t": "Two fighters transported to hospital after UFC Qatar, including former champion’s brother",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-22T05:19:12+00:00",
+      "cluster": "c549ac45fb7"
     }
   ],
   "digest_items": [],
