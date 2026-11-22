@@ -1,5 +1,6 @@
 {
   "seen": {
+    "70b40d99ee755fa4": 1795369590.3270786,
     "e2585b57113d815d": 1795369564.2471623,
     "143993b308d59df6": 1795369538.2716794,
     "6c3b2bb6f87e9eab": 1795369512.6894045,
@@ -2498,8 +2499,7 @@
     "1854edfb3baff1bc": 1794641458.0364718,
     "89713860e6c6d02f": 1794641432.9425552,
     "dfbf435df6802586": 1794641432.9252641,
-    "ab1adc55e38e61aa": 1794641406.5624716,
-    "f3c3dae0355b8286": 1794641382.1119518
+    "ab1adc55e38e61aa": 1794641406.5624716
   },
   "initialized": true,
   "v": 4,
@@ -3967,6 +3967,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-22T16:30:00+00:00",
       "cluster": "c0def3475ac"
+    },
+    {
+      "t": "UFC Qatar, The Morning After: Navajo Stirling’s star-making Jiri Prochazka KO comes at worst possible time",
+      "source": "MMA Mania",
+      "ts": "2026-11-22T03:04:41+00:00",
+      "cluster": "c5ce678e5f9"
     }
   ],
   "digest_items": [],
