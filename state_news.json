@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b84a6adebf5f2fa7": 1795369411.7549922,
     "e4ac98ecaec9a004": 1795369368.0967867,
     "4928c914d4e78e1d": 1795369343.2112958,
     "48e27ccda7b29465": 1795369317.448386,
@@ -2498,8 +2499,7 @@
     "b198e26c921ff2a0": 1794641304.5911326,
     "5dfed045c55b3452": 1794641279.2029276,
     "dfcdd5ab2435014f": 1794620433.7145813,
-    "aba2977200e49900": 1794620299.4784515,
-    "cacc6ee03da10461": 1794620174.8985753
+    "aba2977200e49900": 1794620299.4784515
   },
   "initialized": true,
   "v": 4,
@@ -3937,6 +3937,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-22T13:00:00+00:00",
       "cluster": "c4c1493a77d"
+    },
+    {
+      "t": "UFC Fight Night 294 Promotional Guidelines Compliance pay: Program total passes $48 million",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-22T13:01:27+00:00",
+      "cluster": "ce2e06d43cc"
     }
   ],
   "digest_items": [],
