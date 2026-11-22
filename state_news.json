@@ -1,5 +1,7 @@
 {
   "seen": {
+    "8ee8b3eeb707e52a": 1795314205.4557974,
+    "a7cfc188c86710d5": 1795314205.425824,
     "28a8423638c7412c": 1795314139.0628724,
     "b25f8f7d55f4cad4": 1795314072.055853,
     "1dd7c970551e5741": 1795314006.1172419,
@@ -2497,9 +2499,7 @@
     "4f8344e7bfc76cb0": 1794617399.6412592,
     "df5ada8912facb29": 1794617399.619476,
     "8c16a86495830c3f": 1794617399.6130996,
-    "11afeec6335e6e3f": 1794617375.3514457,
-    "49eb427db648213c": 1794617375.3312886,
-    "c4e1a41c0cac313d": 1794617350.7078156
+    "11afeec6335e6e3f": 1794617375.3514457
   },
   "initialized": true,
   "v": 4,
@@ -4171,6 +4171,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-22T01:38:00+00:00",
       "cluster": "ced32baa76b"
+    },
+    {
+      "t": "UFC Qatar 2026 Results: Navajo Stirling Knocks Out Jiri Prochazka, Kevin Vallejos Beats Aljamain Sterling; Dan Hooker Wins",
+      "source": "The Sunday Guardian",
+      "ts": "2026-11-22T02:18:55+00:00",
+      "cluster": "c4d8ecde382"
     }
   ],
   "digest_items": [],
