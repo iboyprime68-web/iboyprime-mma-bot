@@ -1,5 +1,6 @@
 {
   "seen": {
+    "845c06a3549bda02": 1795370324.0368056,
     "a16bd4b1d5659c71": 1795370256.8230195,
     "42751c2c95f365fa": 1795370210.100911,
     "165869621c4752a6": 1795370184.7546427,
@@ -2498,8 +2499,7 @@
     "c6f81a5097de8638": 1794641850.3225057,
     "f6005f1102d1a9f5": 1794641850.3047214,
     "f98b08b91339b51d": 1794641850.3045998,
-    "4ab57e1107727666": 1794641783.327454,
-    "fd66435c5eb792ae": 1794641712.830295
+    "4ab57e1107727666": 1794641783.327454
   },
   "initialized": true,
   "v": 4,
@@ -2527,12 +2527,6 @@
       "source": "MMA Mania",
       "ts": "2026-11-20T18:05:00+00:00",
       "cluster": "ccfc19869bf"
-    },
-    {
-      "t": "Dan Hooker vs. Brian Ortega Under 2.5 Rounds",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-20T17:57:37+00:00",
-      "cluster": "c1b06e77c26"
     },
     {
       "t": "GTA 6’s Hand-to-Hand Combat System Is an MMA Fan’s Arcade Dream",
@@ -4021,6 +4015,12 @@
       "source": "MMA Sucka",
       "ts": "2026-11-22T17:30:41+00:00",
       "cluster": "c28ff6d06d5"
+    },
+    {
+      "t": "Navajo Stirling Wants to Knock Out Two More Former UFC Champions",
+      "source": "MMA Sucka",
+      "ts": "2026-11-22T17:42:48+00:00",
+      "cluster": "cb4400be88b"
     }
   ],
   "digest_items": [],
