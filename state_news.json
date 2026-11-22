@@ -1,5 +1,6 @@
 {
   "seen": {
+    "7e260c33ca3833ae": 1795390024.1823127,
     "fe0e785ee9d40007": 1795389998.5193598,
     "15fe71e7f7061886": 1795389944.2397656,
     "37d46b902519b89b": 1795389918.4403489,
@@ -2498,8 +2499,7 @@
     "331b26dbe28b2623": 1794668176.114854,
     "633805f5b9d9ad57": 1794668139.1490388,
     "f7f6fd46ee847d01": 1794668114.7417045,
-    "ff4453ec0fab8172": 1794668089.1511786,
-    "921e7d40d67bf188": 1794668063.7608354
+    "ff4453ec0fab8172": 1794668089.1511786
   },
   "initialized": true,
   "v": 4,
@@ -3919,6 +3919,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-22T15:13:28+00:00",
       "cluster": "c99a9e41d4c"
+    },
+    {
+      "t": "Video: Chris Leben eats soccer kick from Yoshihiro Akiyama, wins split decision in return to MMA",
+      "source": "MMA Fighting",
+      "ts": "2026-11-22T15:58:19+00:00",
+      "cluster": "c2f6581f677"
     }
   ],
   "digest_items": [],
