@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1e94b4b596433d15": 1795461172.7914908,
     "3062382e5241d6ea": 1795461146.7405,
     "42292f1d2a3e5307": 1795461121.1762087,
     "a6279346e5ad8161": 1795461094.9000387,
@@ -2498,8 +2499,7 @@
     "72181e311a8ddb86": 1794686917.0740907,
     "6ea5626da7ff5e97": 1794686917.068849,
     "3db5c90e7a85b058": 1794686917.063573,
-    "deb41df25f5740d2": 1794686850.5631223,
-    "45aa35493ef57285": 1794686784.7912548
+    "deb41df25f5740d2": 1794686850.5631223
   },
   "initialized": true,
   "v": 4,
@@ -3835,6 +3835,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-23T16:59:00+00:00",
       "cluster": "cb392d126b6"
+    },
+    {
+      "t": "Joaquin Buckley urges Navajo Stirling to fight teammate Carlos Ulberg for UFC title",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-23T15:45:29+00:00",
+      "cluster": "ce9fa85cc67"
     }
   ],
   "digest_items": [],
