@@ -1,5 +1,6 @@
 {
   "seen": {
+    "a6279346e5ad8161": 1795461094.9000387,
     "4f9b4aa35854c9fa": 1795461069.1624577,
     "2bf7d351c703d380": 1795461035.7441132,
     "cf066cb13e320cd9": 1795461010.238428,
@@ -2498,8 +2499,7 @@
     "deb41df25f5740d2": 1794686850.5631223,
     "45aa35493ef57285": 1794686784.7912548,
     "1fc2bc833241a0d6": 1794686718.6350684,
-    "5513b3b6ea6396ad": 1794686672.578238,
-    "8926db1dc941c995": 1794686646.4874918
+    "5513b3b6ea6396ad": 1794686672.578238
   },
   "initialized": true,
   "v": 4,
@@ -3817,6 +3817,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-23T15:55:37+00:00",
       "cluster": "cfd9e0a0d75"
+    },
+    {
+      "t": "Santiago Luna invited Aleksandre Topuria to train in Mexico after UFC Qatar upset",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-23T14:53:33+00:00",
+      "cluster": "c928df8131f"
     }
   ],
   "digest_items": [],
