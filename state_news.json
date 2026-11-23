@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2bf7d351c703d380": 1795461035.7441132,
     "cf066cb13e320cd9": 1795461010.238428,
     "8ef3e58e67a3b49a": 1795460984.7178714,
     "e1ac47b2d9427b27": 1795460958.9627242,
@@ -2498,8 +2499,7 @@
     "1fc2bc833241a0d6": 1794686718.6350684,
     "5513b3b6ea6396ad": 1794686672.578238,
     "8926db1dc941c995": 1794686646.4874918,
-    "6c2fd67d4de83c43": 1794686646.466603,
-    "b495ec2c69f932f4": 1794686579.925882
+    "6c2fd67d4de83c43": 1794686646.466603
   },
   "initialized": true,
   "v": 4,
@@ -3805,6 +3805,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-23T14:42:45+00:00",
       "cluster": "c48c3606fa2"
+    },
+    {
+      "t": "Video: Kevin Holland calls for Mike Perry fight with creative GTA 6 scene",
+      "source": "MMA Fighting",
+      "ts": "2026-11-23T15:54:17+00:00",
+      "cluster": "c066fee75dd"
     }
   ],
   "digest_items": [],
