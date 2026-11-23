@@ -1,5 +1,6 @@
 {
   "seen": {
+    "42292f1d2a3e5307": 1795461121.1762087,
     "a6279346e5ad8161": 1795461094.9000387,
     "4f9b4aa35854c9fa": 1795461069.1624577,
     "2bf7d351c703d380": 1795461035.7441132,
@@ -2498,8 +2499,7 @@
     "3db5c90e7a85b058": 1794686917.063573,
     "deb41df25f5740d2": 1794686850.5631223,
     "45aa35493ef57285": 1794686784.7912548,
-    "1fc2bc833241a0d6": 1794686718.6350684,
-    "5513b3b6ea6396ad": 1794686672.578238
+    "1fc2bc833241a0d6": 1794686718.6350684
   },
   "initialized": true,
   "v": 4,
@@ -3823,6 +3823,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-23T14:53:33+00:00",
       "cluster": "c928df8131f"
+    },
+    {
+      "t": "UFC should strip Islam Makhachev of welterweight title after Carlos Prates snub, says former champion",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-23T16:00:00+00:00",
+      "cluster": "c8436c4f504"
     }
   ],
   "digest_items": [],
