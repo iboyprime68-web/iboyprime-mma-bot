@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 36,
   "staged_at": [
-    "2026-11-19T18:23:16.870902+00:00",
     "2026-11-20T17:53:34.076668+00:00",
     "2026-11-21T16:50:42.499271+00:00",
-    "2026-11-22T17:13:53.022899+00:00"
+    "2026-11-22T17:13:53.022899+00:00",
+    "2026-11-23T21:31:48.472036+00:00"
   ],
   "asked": [
-    "You get one tag team partner in a two on two cage match. Who?",
     "Who should get the next heavyweight title shot?",
     "Whose next loss ends the aura for good?",
     "Which fight do you rewatch the most?",
@@ -47,33 +46,34 @@
     "Kayla Harrison just took the pound for pound top spot. Who is the most dangerous fighter in the UFC right now?",
     "What is the worst commentary bias moment in UFC history?",
     "UFC Qatar had no ring girls. What is the most overrated part of a UFC broadcast?",
-    "What is the most brutal injury stoppage in UFC history?"
+    "What is the most brutal injury stoppage in UFC history?",
+    "Makhachev says his team did nothing wrong in the Merab hotel brawl. Who is most in the wrong here?"
   ],
   "last_entry": {
-    "q": "What is the most brutal injury stoppage in UFC history?",
+    "q": "Makhachev says his team did nothing wrong in the Merab hotel brawl. Who is most in the wrong here?",
     "type": "poll",
     "options": [
       {
-        "label": "Silva leg break",
-        "emoji": "💥",
-        "art": "A snapped lower leg folding at a weird angle against the cage, harsh arena light, no text"
+        "label": "Makhachev's team",
+        "emoji": "👥",
+        "art": "Crowd of men in a hotel lobby at night, one figure lunging, blurred motion, harsh overhead light"
       },
       {
-        "label": "McGregor leg break",
-        "emoji": "🦴",
-        "art": "A shin bone cracking mid kick, foot dangling, dramatic spotlight on the canvas, no text"
+        "label": "Merab Dvalishvili",
+        "emoji": "🐝",
+        "art": ""
       },
       {
-        "label": "Bigfoot cut",
-        "emoji": "🩸",
-        "art": "A fighter's face split open with a deep gash, blood streaming, harsh overhead light, no text"
+        "label": "Islam Makhachev",
+        "emoji": "🦅",
+        "art": ""
       },
       {
         "label": "Other (comment below)",
-        "emoji": "🚑",
-        "art": "A fighter's whole leg popping off like a cartoon doll part, stretcher waiting, dark arena, no text"
+        "emoji": "🍿",
+        "art": ""
       }
     ],
-    "gag": "a sloth lying flat on the octagon canvas, completely unbothered, spotlight on it"
+    "gag": "A hotel concierge calmly handing out tiny boxing gloves to a lobby full of arguing guests"
   }
 }
