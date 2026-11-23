@@ -1,5 +1,7 @@
 {
   "seen": {
+    "ad4e967b8e3e0a10": 1795416684.519811,
+    "56dcded636047ce1": 1795416684.501584,
     "28fcff728b9eacde": 1795416616.3837676,
     "13e7b616c90a1b72": 1795416548.3349807,
     "08d7c3cc10e4fdec": 1795416480.0385065,
@@ -2497,9 +2499,7 @@
     "d492dc5ad3d96333": 1794685941.0577903,
     "2b7de0b60fc12e77": 1794685941.056782,
     "4c9adbb906e4ed54": 1794685941.0350845,
-    "7385b477614407bd": 1794685899.742817,
-    "50cbcd8592eeee78": 1794685874.6619432,
-    "7fcd1c9df52e377d": 1794685874.641312
+    "7385b477614407bd": 1794685899.742817
   },
   "initialized": true,
   "v": 4,
@@ -3979,6 +3979,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-23T06:06:00+00:00",
       "cluster": "c4a68ed3423"
+    },
+    {
+      "t": "Suspended UFC Female Fighter’s Nutritionist Blames Supplement Brand and Warns About Legal Proceedings After Failed Drug Test",
+      "source": "EssentiallySports",
+      "ts": "2026-11-23T06:18:00+00:00",
+      "cluster": "c90a767d7a8"
     }
   ],
   "digest_items": [],
