@@ -1,5 +1,6 @@
 {
   "seen": {
+    "235e27a704efbecc": 1795460880.7459505,
     "6d0905f97610836c": 1795460854.5515063,
     "37b31e1e3f3263f4": 1795460854.535649,
     "66e23233f8b828ef": 1795460829.4049625,
@@ -2498,8 +2499,7 @@
     "69492b1e2c1c0b3a": 1794686579.9025643,
     "30001a83ed0fd3cd": 1794686552.8707464,
     "96227eacc6308522": 1794686526.9408255,
-    "58abaee525a23cbd": 1794686501.862617,
-    "af75c60340be72fe": 1794686476.4287796
+    "58abaee525a23cbd": 1794686501.862617
   },
   "initialized": true,
   "v": 4,
@@ -3769,6 +3769,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-23T13:01:05+00:00",
       "cluster": "c6f23af6f38"
+    },
+    {
+      "t": "UFC Dallas update: Yair Rodriguez card complete with 13 fights confirmed",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-23T14:00:00+00:00",
+      "cluster": "c906cfdaa01"
     }
   ],
   "digest_items": [],
