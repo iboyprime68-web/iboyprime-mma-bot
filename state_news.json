@@ -1,5 +1,6 @@
 {
   "seen": {
+    "2a8f574f221019cc": 1795461367.2707193,
     "594bbd2343e4f48a": 1795461331.7050962,
     "0e5abba7a81e3c4d": 1795461304.8635752,
     "d1b945321d5895dd": 1795461263.9049873,
@@ -2498,8 +2499,7 @@
     "6bb53067fa933f87": 1794687050.6438441,
     "6d6cde35db6a8a36": 1794686983.914371,
     "8e13eb7c225dd084": 1794686917.1057785,
-    "2fb8d28d22b840c1": 1794686917.084422,
-    "7cacfb6e501c9a5c": 1794686917.07922
+    "2fb8d28d22b840c1": 1794686917.084422
   },
   "initialized": true,
   "v": 4,
@@ -3865,6 +3865,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-23T17:35:03+00:00",
       "cluster": "c5b09ee1c34"
+    },
+    {
+      "t": "Ilia Topuria pitches UFC super card with Conor McGregor on the prelims",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-23T18:22:10+00:00",
+      "cluster": "cf24466ff1a"
     }
   ],
   "digest_items": [],
