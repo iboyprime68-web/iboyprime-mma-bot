@@ -1,5 +1,6 @@
 {
   "seen": {
+    "efe07b8e3b09872b": 1795460906.6589265,
     "235e27a704efbecc": 1795460880.7459505,
     "6d0905f97610836c": 1795460854.5515063,
     "37b31e1e3f3263f4": 1795460854.535649,
@@ -2498,8 +2499,7 @@
     "ecdcf3dfaf39185c": 1794686579.9038506,
     "69492b1e2c1c0b3a": 1794686579.9025643,
     "30001a83ed0fd3cd": 1794686552.8707464,
-    "96227eacc6308522": 1794686526.9408255,
-    "58abaee525a23cbd": 1794686501.862617
+    "96227eacc6308522": 1794686526.9408255
   },
   "initialized": true,
   "v": 4,
@@ -3775,6 +3775,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-23T14:00:00+00:00",
       "cluster": "c906cfdaa01"
+    },
+    {
+      "t": "Dana White reveals Deontay Wilder’s new opponent for fight on Fury vs Joshua card",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-23T14:24:45+00:00",
+      "cluster": "c85c9a3debb"
     }
   ],
   "digest_items": [],
