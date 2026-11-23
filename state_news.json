@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8019c6e964a46445": 1795392011.5560422,
     "9c171fcf8f53d824": 1795391863.2073631,
     "20f2352ce4bf0aab": 1795391764.387157,
     "9fe43102de6c52a8": 1795391531.7659826,
@@ -2498,24 +2499,11 @@
     "cc5db1efd9144132": 1794668991.822411,
     "be132eb3328d220f": 1794668991.8209012,
     "b2c321f2f7cc1f56": 1794668991.8180747,
-    "8e031233c61bf1c7": 1794668924.6779308,
-    "369905bfef1bb9c7": 1794668898.773738
+    "8e031233c61bf1c7": 1794668924.6779308
   },
   "initialized": true,
   "v": 4,
   "recent": [
-    {
-      "t": "Ciryl Gane sets goal to break heavyweight record set by the division’s greatest champion",
-      "source": "Bloody Elbow",
-      "ts": "2026-11-21T00:00:00+00:00",
-      "cluster": "c55715507ca"
-    },
-    {
-      "t": "Hokit Sends Message To UFC Brass Following Title Fight Loss To Gane",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-21T00:00:00+00:00",
-      "cluster": "c0750d12ac7"
-    },
     {
       "t": "Brendan Schaub Blasts Marc Goddard After UFC 334",
       "source": "boxingnews.com",
@@ -4045,12 +4033,18 @@
       "source": "Sherdog",
       "ts": "2026-11-22T15:40:43+00:00",
       "cluster": "c55567564d4"
+    },
+    {
+      "t": "Umar Nurmagomedov returns to the gym after alleged involvement in Merab Dvalishvili brawl",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-23T00:00:00+00:00",
+      "cluster": "c6abbe24fc7"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-11-22T23",
+    "2026-11-23T00",
     0
   ],
   "yt_eval": [
