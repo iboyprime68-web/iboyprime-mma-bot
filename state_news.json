@@ -1,5 +1,6 @@
 {
   "seen": {
+    "04e167f9be1368a4": 1795534772.0841362,
     "f56a504dcfd79d86": 1795534746.7483115,
     "3f84128c5a312dde": 1795534746.7285447,
     "f36b680c2ba28576": 1795534719.8998916,
@@ -2498,8 +2499,7 @@
     "a18293659853320a": 1794700122.6566536,
     "d22298e467808689": 1794700122.6230378,
     "37f0819da3db38f3": 1794700122.5922995,
-    "9fe85b90276951aa": 1794700122.5917768,
-    "7e82295ed4d211e3": 1794700055.9652486
+    "9fe85b90276951aa": 1794700122.5917768
   },
   "initialized": true,
   "v": 4,
@@ -3601,6 +3601,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-24T11:43:25+00:00",
       "cluster": "c15f8cfe86d"
+    },
+    {
+      "t": "Morning Report: Drew Dober recounts wild story of second-ever MMA fight against ‘Sawed Off’ after no-show opponent",
+      "source": "MMA Fighting",
+      "ts": "2026-11-24T12:59:08+00:00",
+      "cluster": "cea8d729082"
     }
   ],
   "digest_items": [],
