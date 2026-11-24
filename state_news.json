@@ -1,5 +1,6 @@
 {
   "seen": {
+    "5a33bfed4d005218": 1795495366.520625,
     "18380000ad0c57a3": 1795495313.039739,
     "7f0651989fa3f69a": 1795495313.0251446,
     "b3e5e056168b1e9f": 1795495313.020458,
@@ -2498,8 +2499,7 @@
     "d3e0e903a0215b25": 1794688109.793896,
     "9285dbe8e553e015": 1794688109.79328,
     "f033f81f07fcdfd4": 1794688109.79285,
-    "3bb645cfa9f12bfb": 1794688043.1911192,
-    "4a6bb29b33a6b9c7": 1794687976.9296777
+    "3bb645cfa9f12bfb": 1794688043.1911192
   },
   "initialized": true,
   "v": 4,
@@ -3469,6 +3469,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-23T20:00:00+00:00",
       "cluster": "c72123da00a"
+    },
+    {
+      "t": "UFC Fan Favorite Looks to Avoid Record-Setting Loss in Reported UFC Sydney Fight",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-23T17:05:53+00:00",
+      "cluster": "cd38051e039"
     }
   ],
   "digest_items": [],
