@@ -1,5 +1,7 @@
 {
   "seen": {
+    "68f24e0c20b30b3e": 1795535118.145769,
+    "1c8d4bdcb2fa7132": 1795535118.1281753,
     "f5cf15739d1f7b39": 1795535051.6139643,
     "106376e69c48212c": 1795534983.790021,
     "9765ef4031a64f84": 1795534957.6290853,
@@ -2497,9 +2499,7 @@
     "2e32227c1ee9a1fd": 1794700457.7789803,
     "22905c2f486e40ef": 1794700457.7707736,
     "558215959caff2ca": 1794700457.7628107,
-    "a85a9a326938be1c": 1794700457.7546058,
-    "8f1f8dac467038f3": 1794700457.745569,
-    "76c147f70d8ab382": 1794700391.5714421
+    "a85a9a326938be1c": 1794700457.7546058
   },
   "initialized": true,
   "v": 4,
@@ -2821,12 +2821,6 @@
       "source": "MMA Fighting",
       "ts": "2026-11-22T17:39:56+00:00",
       "cluster": "c49fc7b0023"
-    },
-    {
-      "t": "Navajo Stirling knocks out Jiri Prochazka, then questions his rituals",
-      "source": "Sherdog",
-      "ts": "2026-11-22T15:45:00+00:00",
-      "cluster": "c9951f7bfd4"
     },
     {
       "t": "Dan Hooker wants ‘scumbag’ Charles Oliveira stripped of the BMF title",
@@ -3649,6 +3643,12 @@
       "source": "MMA Mania",
       "ts": "2026-11-24T14:47:35+00:00",
       "cluster": "c698477e88c"
+    },
+    {
+      "t": "Daniel Cormier questions Navajo Stirling's refusal to acknowledge he's No. 1 contender",
+      "source": "MMA Junkie",
+      "ts": "2026-11-24T14:50:00+00:00",
+      "cluster": "c19ae222bb4"
     }
   ],
   "digest_items": [],
