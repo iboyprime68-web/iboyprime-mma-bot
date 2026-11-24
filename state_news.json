@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e1b23f0eeb07d17a": 1795496735.4670312,
     "b1b84fcc4bc37262": 1795496667.3981876,
     "878bec9ab403a818": 1795496600.1974254,
     "f1bb0a6391f5c322": 1795496531.700615,
@@ -2498,8 +2499,7 @@
     "e1f92963822c69cf": 1794688637.3888514,
     "9095a1bb3e9cf77f": 1794688637.388286,
     "f84dce6d1c4e683e": 1794688637.3827333,
-    "9ec6dcf2b78f47fe": 1794688637.3771615,
-    "bf39cfc73779347f": 1794688637.371492
+    "9ec6dcf2b78f47fe": 1794688637.3771615
   },
   "initialized": true,
   "v": 4,
@@ -3625,6 +3625,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-24T02:45:18+00:00",
       "cluster": "cb0019ec780"
+    },
+    {
+      "t": "The Thrill and Agony: UFC Fight Night 294 winner and loser reactions",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-24T03:00:23+00:00",
+      "cluster": "c3ea466ad26"
     }
   ],
   "digest_items": [],
