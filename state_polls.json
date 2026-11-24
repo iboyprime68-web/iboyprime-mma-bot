@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 36,
   "staged_at": [
-    "2026-11-20T17:53:34.076668+00:00",
     "2026-11-21T16:50:42.499271+00:00",
     "2026-11-22T17:13:53.022899+00:00",
-    "2026-11-23T21:31:48.472036+00:00"
+    "2026-11-23T21:31:48.472036+00:00",
+    "2026-11-24T20:13:44.732035+00:00"
   ],
   "asked": [
-    "Who should get the next heavyweight title shot?",
     "Whose next loss ends the aura for good?",
     "Which fight do you rewatch the most?",
     "Who is the greatest women's fighter of all time?",
@@ -47,33 +46,34 @@
     "What is the worst commentary bias moment in UFC history?",
     "UFC Qatar had no ring girls. What is the most overrated part of a UFC broadcast?",
     "What is the most brutal injury stoppage in UFC history?",
-    "Makhachev says his team did nothing wrong in the Merab hotel brawl. Who is most in the wrong here?"
+    "Makhachev says his team did nothing wrong in the Merab hotel brawl. Who is most in the wrong here?",
+    "What is the most cursed fight the UFC could book right now?"
   ],
   "last_entry": {
-    "q": "Makhachev says his team did nothing wrong in the Merab hotel brawl. Who is most in the wrong here?",
+    "q": "What is the most cursed fight the UFC could book right now?",
     "type": "poll",
     "options": [
       {
-        "label": "Makhachev's team",
-        "emoji": "👥",
-        "art": "Crowd of men in a hotel lobby at night, one figure lunging, blurred motion, harsh overhead light"
-      },
-      {
-        "label": "Merab Dvalishvili",
-        "emoji": "🐝",
+        "label": "Prochazka vs Blachowicz",
+        "emoji": "⚔️",
         "art": ""
       },
       {
-        "label": "Islam Makhachev",
-        "emoji": "🦅",
+        "label": "McGregor return fight",
+        "emoji": "🍀",
+        "art": ""
+      },
+      {
+        "label": "Hokit vs Gane 2",
+        "emoji": "👁️",
         "art": ""
       },
       {
         "label": "Other (comment below)",
-        "emoji": "🍿",
+        "emoji": "🎪",
         "art": ""
       }
     ],
-    "gag": "A hotel concierge calmly handing out tiny boxing gloves to a lobby full of arguing guests"
+    "gag": "A circus tent octagon with a clown referee holding a tiny whistle under one spotlight"
   }
 }
