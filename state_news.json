@@ -1,5 +1,6 @@
 {
   "seen": {
+    "70d9e6809dd7640b": 1795534900.6475327,
     "e03c6d7fb9fdb4e5": 1795534874.6394649,
     "65983ef4a731b1da": 1795534874.6206503,
     "21539f4123d5b3e7": 1795534847.7784195,
@@ -2498,8 +2499,7 @@
     "c99a25ab3b9a25fe": 1794700391.559335,
     "1c831119f22454e9": 1794700391.551047,
     "dc876cea723c0856": 1794700326.0152476,
-    "7a888db93bc504d6": 1794700259.9451306,
-    "ccae1e43537702fc": 1794700214.1638908
+    "7a888db93bc504d6": 1794700259.9451306
   },
   "initialized": true,
   "v": 4,
@@ -3619,6 +3619,12 @@
       "source": "MMA Fighting",
       "ts": "2026-11-24T14:33:53+00:00",
       "cluster": "c8cf13558e4"
+    },
+    {
+      "t": "Tallison Teixeira wants to sync schedule with Valter Walker after UFC Qatar",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-24T13:55:36+00:00",
+      "cluster": "c03ea4dc653"
     }
   ],
   "digest_items": [],
