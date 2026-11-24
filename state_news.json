@@ -1,5 +1,7 @@
 {
   "seen": {
+    "69c792b5d22bbec4": 1795535716.333947,
+    "30112b7cdfc7653e": 1795535716.3179343,
     "46d3416b61bb1a3d": 1795535652.7052667,
     "88fb4fa0a3a0a5eb": 1795535652.7022479,
     "bb77200bed01f789": 1795535609.6231873,
@@ -2497,9 +2499,7 @@
     "ed084e852ae0cfc6": 1794700722.2170866,
     "c8cda32456d6c169": 1794700722.2047389,
     "c2d4aa0e410c0fde": 1794700722.1960263,
-    "497713fca7d478bd": 1794700722.1876318,
-    "8d309ef1cfe51852": 1794700722.1791291,
-    "7e2d14ac16a11756": 1794700722.1492424
+    "497713fca7d478bd": 1794700722.1876318
   },
   "initialized": true,
   "v": 4,
@@ -2833,12 +2833,6 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-22T23:45:55+00:00",
       "cluster": "c9879db5671"
-    },
-    {
-      "t": "Alex Pereira emerges as a potential target for unbeaten Navajo Stirling",
-      "source": "Sherdog",
-      "ts": "2026-11-22T15:55:14+00:00",
-      "cluster": "c22c7023d3c"
     },
     {
       "t": "Josh Hokit fans go after referee's kids following UFC 334: 'Scared of being called out?'",
@@ -3673,6 +3667,12 @@
       "source": "BJJDOC",
       "ts": "2026-11-24T15:20:43+00:00",
       "cluster": "cc7241e4dd5"
+    },
+    {
+      "t": "Ex-UFC Champion Ilia Topuria Proposes Star-Studded Card for UFC Return Fight",
+      "source": "Sports Illustrated",
+      "ts": "2026-11-24T15:52:36+00:00",
+      "cluster": "c2c6cd64f72"
     }
   ],
   "digest_items": [],
