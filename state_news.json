@@ -1,5 +1,6 @@
 {
   "seen": {
+    "878bec9ab403a818": 1795496600.1974254,
     "f1bb0a6391f5c322": 1795496531.700615,
     "17b8db7ab13632ca": 1795496484.4522445,
     "9e23e2195aa52ede": 1795496457.5911813,
@@ -2498,8 +2499,7 @@
     "f84dce6d1c4e683e": 1794688637.3827333,
     "9ec6dcf2b78f47fe": 1794688637.3771615,
     "bf39cfc73779347f": 1794688637.371492,
-    "25ddd20fae1b0108": 1794688637.365892,
-    "13a1e149f43bcdbc": 1794688637.3602
+    "25ddd20fae1b0108": 1794688637.365892
   },
   "initialized": true,
   "v": 4,
@@ -3613,6 +3613,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-24T00:55:22+00:00",
       "cluster": "cf34bb9cc5c"
+    },
+    {
+      "t": "MMA Junkie Radio #3722: UFC Qatar results, Ortega retires, Ethyn Ewing interview",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-24T01:50:27+00:00",
+      "cluster": "c3e3f7f4550"
     }
   ],
   "digest_items": [],
