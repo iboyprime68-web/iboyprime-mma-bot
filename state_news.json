@@ -3514,7 +3514,6 @@
     0
   ],
   "yt_eval": [
-    "d9dee478-ed10-31db-a6f0-5b2984f38713",
     "https://www.mmafighting.com/?p=520904",
     "https://www.mmafighting.com/?p=520723",
     "6983cf16-4f2c-34ff-aea3-c794d632b01f",
@@ -5013,28 +5012,17 @@
     "https://bloodyelbow.com/?p=343331",
     "https://bloodyelbow.com/?p=343350",
     "70f75a9b-5ce7-3a56-ba47-7fc4946e0e6a",
-    "https://bloodyelbow.com/?p=343366"
+    "https://bloodyelbow.com/?p=343366",
+    "https://bloodyelbow.com/?p=343383"
   ],
   "daily": {
     "d": "2026-11-24",
-    "ai": 11,
-    "staged": 0,
+    "ai": 13,
+    "staged": 1,
     "prio": 0,
     "lost": 0
   },
   "staged_hist": [
-    {
-      "ts": "2026-10-08T05:04:44.281637+00:00",
-      "t": "\"Make it happen\" - Jake Paul shares list of future opponents that includes Conor McGregor, Sean Strickland and Tom Aspinall",
-      "names": [
-        "paul",
-        "conor",
-        "strickland",
-        "tom",
-        "aspinall"
-      ],
-      "img": "cutout:tom-aspinall"
-    },
     {
       "ts": "2026-10-08T23:03:42.776518+00:00",
       "t": "Sean Strickland threatens UFC amid pay dispute: ‘I’ll boo with you’",
@@ -6372,6 +6360,15 @@
         "topuria",
         "conor",
         "pimblett"
+      ],
+      "img": "photo"
+    },
+    {
+      "ts": "2026-11-24T04:44:59.343685+00:00",
+      "t": "Josh Hokit teases diss-track he is working on for Jon Jones following their bitter feud",
+      "names": [
+        "hokit",
+        "jones"
       ],
       "img": "photo"
     }
