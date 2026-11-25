@@ -1,5 +1,6 @@
 {
   "seen": {
+    "15232ccf22f1420f": 1795568140.7299802,
     "f36604f10befa5b6": 1795568073.9101496,
     "4c0e9f33c1674ae1": 1795568031.5772395,
     "089aa6c7f951c8e2": 1795567984.4412909,
@@ -2498,8 +2499,7 @@
     "a09f56a8c151e036": 1794702550.2430346,
     "4e347a2dac122288": 1794702483.91388,
     "684953268d7370c7": 1794702483.902415,
-    "84158bc5d1fdcdf1": 1794702483.8921895,
-    "4ffc867d1a4cdae2": 1794702483.8830516
+    "84158bc5d1fdcdf1": 1794702483.8921895
   },
   "initialized": true,
   "v": 4,
@@ -3601,6 +3601,12 @@
       "source": "MMA Sucka",
       "ts": "2026-11-25T00:27:48+00:00",
       "cluster": "ce525d1bad1"
+    },
+    {
+      "t": "Nine fights added to UFC Vegas 125, including the all-time Welterweight wins leader",
+      "source": "MMA Mania",
+      "ts": "2026-11-25T00:29:00+00:00",
+      "cluster": "c128e0eafbe"
     }
   ],
   "digest_items": [],
