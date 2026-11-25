@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 36,
   "staged_at": [
-    "2026-11-21T16:50:42.499271+00:00",
     "2026-11-22T17:13:53.022899+00:00",
     "2026-11-23T21:31:48.472036+00:00",
-    "2026-11-24T20:13:44.732035+00:00"
+    "2026-11-24T20:13:44.732035+00:00",
+    "2026-11-25T19:25:36.015643+00:00"
   ],
   "asked": [
-    "Whose next loss ends the aura for good?",
     "Which fight do you rewatch the most?",
     "Who is the greatest women's fighter of all time?",
     "Who is the most annoying callout artist in the UFC right now?",
@@ -47,33 +46,34 @@
     "UFC Qatar had no ring girls. What is the most overrated part of a UFC broadcast?",
     "What is the most brutal injury stoppage in UFC history?",
     "Makhachev says his team did nothing wrong in the Merab hotel brawl. Who is most in the wrong here?",
-    "What is the most cursed fight the UFC could book right now?"
+    "What is the most cursed fight the UFC could book right now?",
+    "What is the most overrated part of a UFC broadcast?"
   ],
   "last_entry": {
-    "q": "What is the most cursed fight the UFC could book right now?",
+    "q": "What is the most overrated part of a UFC broadcast?",
     "type": "poll",
     "options": [
       {
-        "label": "Prochazka vs Blachowicz",
-        "emoji": "⚔️",
+        "label": "Bruce Buffer intros",
+        "emoji": "🎤",
+        "art": "an announcer silhouette with arms wide under a single spotlight in a dark arena, dramatic gold light"
+      },
+      {
+        "label": "Rogan's commentary",
+        "emoji": "🗣️",
         "art": ""
       },
       {
-        "label": "McGregor return fight",
-        "emoji": "🍀",
-        "art": ""
+        "label": "Tale of the tape",
+        "emoji": "📊",
+        "art": "two fighter silhouettes side by side with glowing stat bars between them, dramatic blue light"
       },
       {
-        "label": "Hokit vs Gane 2",
-        "emoji": "👁️",
-        "art": ""
-      },
-      {
-        "label": "Other (comment below)",
-        "emoji": "🎪",
-        "art": ""
+        "label": "Walkout music",
+        "emoji": "🎵",
+        "art": "a lone figure walking down a dark tunnel toward blinding white arena light, speakers glowing"
       }
     ],
-    "gag": "A circus tent octagon with a clown referee holding a tiny whistle under one spotlight"
+    "gag": "a giant inflatable octagon bouncing over a broadcast desk while a tiny microphone screams"
   }
 }
