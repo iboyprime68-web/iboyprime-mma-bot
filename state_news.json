@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1e423612dc814d5b": 1795636939.645517,
     "422581b94ef93756": 1795636872.3463092,
     "cab333c8ecf73b0b": 1795636837.8954868,
     "76eedf98636b3b6d": 1795636809.0031397,
@@ -2498,8 +2499,7 @@
     "d0baa18369a898bc": 1794723231.8853993,
     "038d3e207707642a": 1794723231.8787088,
     "afd64230599861a0": 1794723166.4327483,
-    "6f0ff10b6418f1ce": 1794723166.4236572,
-    "0baa46e56e42d88d": 1794723166.4149327
+    "6f0ff10b6418f1ce": 1794723166.4236572
   },
   "initialized": true,
   "v": 4,
@@ -3547,6 +3547,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-25T18:01:15+00:00",
       "cluster": "ce7bad03be6"
+    },
+    {
+      "t": "Daniel Cormier predicts Alex Pereira will get a title fight even if he loses at UFC 335",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-25T18:41:45+00:00",
+      "cluster": "cce18839faa"
     }
   ],
   "digest_items": [],
