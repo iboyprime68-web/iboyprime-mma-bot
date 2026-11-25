@@ -1,5 +1,6 @@
 {
   "seen": {
+    "05e451ae9d7b1609": 1795566857.1400611,
     "b38693e286c9ce0a": 1795566831.590512,
     "f6e2ee5d0171ac99": 1795566774.402922,
     "ccb01918b21b077a": 1795566748.2575457,
@@ -2498,8 +2499,7 @@
     "c59b958faa5c388c": 1794701479.9334664,
     "defab5fc0416f440": 1794701479.9249198,
     "53eaa5a877a4d90e": 1794701479.9245787,
-    "b678e7488078f7e5": 1794701479.887514,
-    "2790e209e1ad125b": 1794701454.145286
+    "b678e7488078f7e5": 1794701479.887514
   },
   "initialized": true,
   "v": 4,
@@ -3451,6 +3451,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-24T19:09:42+00:00",
       "cluster": "c6f97f74e2d"
+    },
+    {
+      "t": "Usman Nurmagomedov returns to Russia after being released from Abu Dhabi prison",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-24T21:00:00+00:00",
+      "cluster": "cdc79cd65ae"
     }
   ],
   "digest_items": [],
