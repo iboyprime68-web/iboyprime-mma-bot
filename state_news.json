@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1908a136fcf2ec17": 1795566950.435381,
     "608486ec31e8386f": 1795566924.2606797,
     "05e451ae9d7b1609": 1795566857.1400611,
     "b38693e286c9ce0a": 1795566831.590512,
@@ -2498,8 +2499,7 @@
     "3c9804c001d47e89": 1794701545.6093166,
     "f0d8d0e139063c65": 1794701479.9452186,
     "c59b958faa5c388c": 1794701479.9334664,
-    "defab5fc0416f440": 1794701479.9249198,
-    "53eaa5a877a4d90e": 1794701479.9245787
+    "defab5fc0416f440": 1794701479.9249198
   },
   "initialized": true,
   "v": 4,
@@ -3463,6 +3463,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-24T19:25:31+00:00",
       "cluster": "ce25243ca0a"
+    },
+    {
+      "t": "Dana White reveals potentially record-breaking idea involving Conor McGregor and Khabib Nurmagomedov",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-24T22:00:00+00:00",
+      "cluster": "cf0722abf3a"
     }
   ],
   "digest_items": [],
