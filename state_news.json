@@ -1,5 +1,6 @@
 {
   "seen": {
+    "ccb01918b21b077a": 1795566748.2575457,
     "659da831ab66bbc2": 1795566721.3715868,
     "1782b48fac5d24b5": 1795566721.3517854,
     "64c0fdce10fdb97d": 1795566721.3472939,
@@ -2498,8 +2499,7 @@
     "b678e7488078f7e5": 1794701479.887514,
     "2790e209e1ad125b": 1794701454.145286,
     "d8fd13dc433a6900": 1794701408.8964393,
-    "a898e3a43e29ad3d": 1794701408.8831644,
-    "40cb2e342ab21e4e": 1794701408.8748345
+    "a898e3a43e29ad3d": 1794701408.8831644
   },
   "initialized": true,
   "v": 4,
@@ -3433,6 +3433,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-24T18:30:19+00:00",
       "cluster": "c094fd39806"
+    },
+    {
+      "t": "Sean Strickland and Bryce Mitchell lose ‘whites v blacks’ basketball game featuring fellow UFC stars",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-24T20:30:00+00:00",
+      "cluster": "c4ee80a89e9"
     }
   ],
   "digest_items": [],
