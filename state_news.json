@@ -1,5 +1,6 @@
 {
   "seen": {
+    "1cfae9e4a26cd6ae": 1795567715.2196956,
     "5831768137411bff": 1795567647.5207508,
     "aed61f4f99f3f569": 1795567647.5008752,
     "8cd69535d2bda536": 1795567580.0584018,
@@ -2498,8 +2499,7 @@
     "6d87b4f2a0c072f9": 1794702280.4469583,
     "896061588e7bb803": 1794702213.6490402,
     "5e86907f99f8504a": 1794702213.6369288,
-    "5ac70dce17c39e4e": 1794702213.6047175,
-    "1b86f2947bc41ed3": 1794702213.6028962
+    "5ac70dce17c39e4e": 1794702213.6047175
   },
   "initialized": true,
   "v": 4,
@@ -3559,6 +3559,12 @@
       "source": "MMA Junkie",
       "ts": "2026-11-25T00:01:00+00:00",
       "cluster": "cd5d3da14b6"
+    },
+    {
+      "t": "John Lineker vs. Diego Brandao headlines Jon Jones-hosted bare knuckle card in Miami",
+      "source": "MMA Mania",
+      "ts": "2026-11-24T22:22:26+00:00",
+      "cluster": "ca9f5ad6b8d"
     }
   ],
   "digest_items": [],
