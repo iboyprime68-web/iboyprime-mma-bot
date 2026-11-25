@@ -1,5 +1,6 @@
 {
   "seen": {
+    "b9d5834f05de6f39": 1795636580.0070667,
     "b9bf45e485e5aabc": 1795636554.2661512,
     "c4d53f1fb90ba3d0": 1795636529.3461957,
     "6cd163472b6bc87a": 1795636503.6543558,
@@ -2498,8 +2499,7 @@
     "9d9605aff3000715": 1794723075.8777535,
     "fa2016018a2a809d": 1794723030.7854345,
     "2ee72da78d7422da": 1794723030.776298,
-    "adb299db909b001f": 1794723030.7688572,
-    "e9e17cadac82b1e0": 1794723030.7620308
+    "adb299db909b001f": 1794723030.7688572
   },
   "initialized": true,
   "v": 4,
@@ -3511,6 +3511,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-25T19:00:00+00:00",
       "cluster": "c26185f1a4a"
+    },
+    {
+      "t": "Dustin Poirier joins the protests against rumoured ban on controversial MMA move",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-25T15:14:11+00:00",
+      "cluster": "c397241dc90"
     }
   ],
   "digest_items": [],
