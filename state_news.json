@@ -1,5 +1,6 @@
 {
   "seen": {
+    "3f827f8ac12275ea": 1795567145.950024,
     "dc78b259a1336740": 1795567119.4656138,
     "dcc009be167d9514": 1795567119.4473162,
     "0eee54615a125332": 1795567119.4444299,
@@ -2498,8 +2499,7 @@
     "b72c73203d354775": 1794701948.9936738,
     "f455ea05c7ab6a36": 1794701948.9579048,
     "3860d7fdbfce6a52": 1794701882.391621,
-    "f85bfd1baaf136e5": 1794701815.909239,
-    "270c4760a208749d": 1794701769.8274696
+    "f85bfd1baaf136e5": 1794701815.909239
   },
   "initialized": true,
   "v": 4,
@@ -3499,6 +3499,12 @@
       "source": "Fight News Australia",
       "ts": "2026-11-24T23:56:05+00:00",
       "cluster": "c4142c5c375"
+    },
+    {
+      "t": "Val Woodburn hopes ongoing regional roll earns second UFC shot in Orlando",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-24T20:20:17+00:00",
+      "cluster": "cf902136b3e"
     }
   ],
   "digest_items": [],
