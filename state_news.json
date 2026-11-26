@@ -1,5 +1,6 @@
 {
   "seen": {
+    "371502a8f8afa0b5": 1795728404.6289835,
     "0bc5ec4d4c88f9da": 1795728379.8550112,
     "861193266f5a5dad": 1795728379.839805,
     "e463e0eb344f217b": 1795728379.8257072,
@@ -2498,8 +2499,7 @@
     "d46411518576c39a": 1794752757.5779521,
     "ae0590dcd78c77cc": 1794752757.5533442,
     "788bec248a68ae84": 1794752689.8185456,
-    "62be3b4c27d0b61e": 1794752689.7919111,
-    "30552aecd902e942": 1794752622.2994037
+    "62be3b4c27d0b61e": 1794752689.7919111
   },
   "initialized": true,
   "v": 4,
@@ -3469,6 +3469,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-26T14:02:53+00:00",
       "cluster": "c6969115c80"
+    },
+    {
+      "t": "UFC champion Carlos Ulberg and Navajo Stirling’s coach rules out teammates ever fighting",
+      "source": "MMA Fighting",
+      "ts": "2026-11-26T15:06:18+00:00",
+      "cluster": "c0bc7ce1fd5"
     }
   ],
   "digest_items": [],
