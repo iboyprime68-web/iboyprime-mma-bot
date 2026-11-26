@@ -2,13 +2,12 @@
   "v": 2,
   "cursor": 36,
   "staged_at": [
-    "2026-11-22T17:13:53.022899+00:00",
     "2026-11-23T21:31:48.472036+00:00",
     "2026-11-24T20:13:44.732035+00:00",
-    "2026-11-25T19:25:36.015643+00:00"
+    "2026-11-25T19:25:36.015643+00:00",
+    "2026-11-26T19:08:37.988206+00:00"
   ],
   "asked": [
-    "Which fight do you rewatch the most?",
     "Who is the greatest women's fighter of all time?",
     "Who is the most annoying callout artist in the UFC right now?",
     "Who retires undefeated like Khabib did?",
@@ -47,33 +46,34 @@
     "What is the most brutal injury stoppage in UFC history?",
     "Makhachev says his team did nothing wrong in the Merab hotel brawl. Who is most in the wrong here?",
     "What is the most cursed fight the UFC could book right now?",
-    "What is the most overrated part of a UFC broadcast?"
+    "What is the most overrated part of a UFC broadcast?",
+    "Which team split hurts a fighter the most in UFC history?"
   ],
   "last_entry": {
-    "q": "What is the most overrated part of a UFC broadcast?",
+    "q": "Which team split hurts a fighter the most in UFC history?",
     "type": "poll",
     "options": [
       {
-        "label": "Bruce Buffer intros",
-        "emoji": "🎤",
-        "art": "an announcer silhouette with arms wide under a single spotlight in a dark arena, dramatic gold light"
+        "label": "Adesanya and CKB",
+        "emoji": "🥝",
+        "art": "Empty gym corner stool under a single hanging light, taped gloves left behind on the canvas"
       },
       {
-        "label": "Rogan's commentary",
-        "emoji": "🗣️",
+        "label": "Jones and Jackson",
+        "emoji": "🐺",
         "art": ""
       },
       {
-        "label": "Tale of the tape",
-        "emoji": "📊",
-        "art": "two fighter silhouettes side by side with glowing stat bars between them, dramatic blue light"
+        "label": "Conor and SBG",
+        "emoji": "🍀",
+        "art": ""
       },
       {
-        "label": "Walkout music",
-        "emoji": "🎵",
-        "art": "a lone figure walking down a dark tunnel toward blinding white arena light, speakers glowing"
+        "label": "Other (comment below)",
+        "emoji": "🧳",
+        "art": ""
       }
     ],
-    "gag": "a giant inflatable octagon bouncing over a broadcast desk while a tiny microphone screams"
+    "gag": "A split gym bag on the curb, one glove inside, the other glove waving goodbye from a taxi window"
   }
 }
