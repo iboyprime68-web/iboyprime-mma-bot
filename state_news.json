@@ -1,5 +1,7 @@
 {
   "seen": {
+    "2a5e839752201f17": 1795661134.8696094,
+    "dad2b2d06af93f46": 1795661134.8551188,
     "bfcb2cfed5c15e46": 1795661109.086236,
     "332eba16f519420d": 1795661109.0710075,
     "22ebfa0fe1c9387e": 1795661109.0572307,
@@ -2497,9 +2499,7 @@
     "d455fbb8f7c60268": 1794723897.7315574,
     "9695a7a9d671b9d3": 1794723897.725486,
     "dfc97634cf4aeaca": 1794723897.7193937,
-    "cb06f0cba7d3c43c": 1794723897.7132823,
-    "ceff449f342c8057": 1794723897.7061794,
-    "7abe391a3518304d": 1794723897.7001462
+    "cb06f0cba7d3c43c": 1794723897.7132823
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-24T05:00:00+00:00",
       "cluster": "cdc481a9d18"
-    },
-    {
-      "t": "Don’t fence in Amir Albazi after UFC Qatar comeback submission",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-24T02:45:18+00:00",
-      "cluster": "cb0019ec780"
     },
     {
       "t": "The Thrill and Agony: UFC Fight Night 294 winner and loser reactions",
@@ -3601,6 +3595,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-26T00:00:00+00:00",
       "cluster": "c039ab74e42"
+    },
+    {
+      "t": "Floyd Mayweather vs. Ryan Garcia blocked with warm-up fight also in jeopardy",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-26T02:00:00+00:00",
+      "cluster": "cc961aa58c6"
     }
   ],
   "digest_items": [],
