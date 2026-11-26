@@ -1,5 +1,6 @@
 {
   "seen": {
+    "f386d0830c93d2eb": 1795662088.305288,
     "f68007bc8c9cbd60": 1795661837.8918629,
     "ca78455bf1308787": 1795661711.418527,
     "bd01870458fceaca": 1795661522.6647851,
@@ -2498,8 +2499,7 @@
     "e2a71844648c6fe4": 1794724096.0516424,
     "564da1a2f7b52448": 1794724096.04296,
     "7c683f826ff2be3c": 1794724096.0342486,
-    "52832de74d13f863": 1794724096.0251973,
-    "e6f14d36b0f20c58": 1794724096.0166001
+    "52832de74d13f863": 1794724096.0251973
   },
   "initialized": true,
   "v": 4,
@@ -2509,12 +2509,6 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-24T05:00:00+00:00",
       "cluster": "cdc481a9d18"
-    },
-    {
-      "t": "The Thrill and Agony: UFC Fight Night 294 winner and loser reactions",
-      "source": "Yahoo Sports",
-      "ts": "2026-11-24T03:00:23+00:00",
-      "cluster": "c3ea466ad26"
     },
     {
       "t": "Can Gable Steveson Rebound At UFC 336?",
@@ -3631,12 +3625,18 @@
       "source": "UFC.com",
       "ts": "2026-11-26T01:52:30+00:00",
       "cluster": "cda803ff98e"
+    },
+    {
+      "t": "'Ripped the Band-Aid off': Israel Adesanya opens up on bitter CKB breakup",
+      "source": "RNZ",
+      "ts": "2026-11-26T02:33:18+00:00",
+      "cluster": "cc422c074d6"
     }
   ],
   "digest_items": [],
   "digest_last": "2026-09-02 21:30",
   "hour": [
-    "2026-11-26T02",
+    "2026-11-26T03",
     0
   ],
   "yt_eval": [
