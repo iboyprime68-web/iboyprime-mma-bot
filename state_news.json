@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e38e699e402b702e": 1795661061.9604762,
     "ab1e0775813c5a95": 1795661036.7119625,
     "9921a56be52059c0": 1795661010.9617407,
     "32831ba0e0ef0714": 1795661010.9449344,
@@ -2498,8 +2499,7 @@
     "f131a40f2c89af14": 1794723897.6938634,
     "8aa36d12d2f2e483": 1794723897.6877537,
     "b528cc5e7c1327a8": 1794723897.6803293,
-    "ea10724f18a90a7b": 1794723897.67431,
-    "e000eed8944de918": 1794723897.6682577
+    "ea10724f18a90a7b": 1794723897.67431
   },
   "initialized": true,
   "v": 4,
@@ -3589,6 +3589,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-25T23:00:00+00:00",
       "cluster": "c46ae2a25f9"
+    },
+    {
+      "t": "Charges dismissed against Anthony Smith after July arrest; Smith releases statement",
+      "source": "MMA Fighting",
+      "ts": "2026-11-25T23:56:07+00:00",
+      "cluster": "cf5c000fde7"
     }
   ],
   "digest_items": [],
