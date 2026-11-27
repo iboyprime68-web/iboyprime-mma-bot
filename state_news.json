@@ -1,5 +1,6 @@
 {
   "seen": {
+    "e01cca0e1ef934ba": 1795752443.966224,
     "610bcf6a439c1f65": 1795752376.550137,
     "18e385e8b65b55d8": 1795752376.5285852,
     "2707eefdaee05a20": 1795752309.8407357,
@@ -2498,8 +2499,7 @@
     "3319e6be7fc7182c": 1794773801.6549218,
     "e987fdb2f42065e0": 1794773801.64463,
     "469aadb63658bd31": 1794773801.6351564,
-    "9a769fef5fdd90c4": 1794773801.6067288,
-    "f80ba794931d406d": 1794773801.6052587
+    "9a769fef5fdd90c4": 1794773801.6067288
   },
   "initialized": true,
   "v": 4,
@@ -3553,6 +3553,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-27T01:30:27+00:00",
       "cluster": "c9bac041794"
+    },
+    {
+      "t": "Opinion: MMA fans have plenty of reasons to be thankful for the UFC",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-27T02:47:32+00:00",
+      "cluster": "cf034cf4ee2"
     }
   ],
   "digest_items": [],
