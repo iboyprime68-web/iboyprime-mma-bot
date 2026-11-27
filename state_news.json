@@ -1,5 +1,6 @@
 {
   "seen": {
+    "643fd49cbf7f7f25": 1795752860.6177351,
     "0822442db452ff24": 1795752792.6129975,
     "3922861f4085db1c": 1795752717.4914448,
     "e96a5dbf5bb4bf18": 1795752717.4693463,
@@ -2498,8 +2499,7 @@
     "6fbfc8e0d9fa1ba9": 1794774450.8394663,
     "46dafb42b937a38c": 1794774323.4470422,
     "a873b792431f39d2": 1794774010.2582922,
-    "1eeb170f728d6af9": 1794773964.8102303,
-    "3d09d6c33b2f38b0": 1794773964.7758226
+    "1eeb170f728d6af9": 1794773964.8102303
   },
   "initialized": true,
   "v": 4,
@@ -3595,6 +3595,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-27T03:35:00+00:00",
       "cluster": "cccf1cf3c16"
+    },
+    {
+      "t": "BJJ world champ and AOJ kids coach arrested for sex crimes with underage student",
+      "source": "MMA Mania",
+      "ts": "2026-11-27T00:01:32+00:00",
+      "cluster": "cf39247d3f6"
     }
   ],
   "digest_items": [],
