@@ -1,5 +1,6 @@
 {
   "seen": {
+    "8c9f3b8024d4aa9d": 1795819604.3468244,
     "9e5dcd6dfe6e7715": 1795819539.5557108,
     "3514781b20db71e6": 1795819539.5433524,
     "d63cd648abc0f24c": 1795819474.2460566,
@@ -2498,8 +2499,7 @@
     "d7a774c9505cd7ee": 1794809875.3893461,
     "4342983448c71e3e": 1794809809.3723319,
     "60a3f93dceb00056": 1794809742.4855049,
-    "1f09d2c72a906e2f": 1794809675.3657384,
-    "bd4fda8881ecdc35": 1794809609.487937
+    "1f09d2c72a906e2f": 1794809675.3657384
   },
   "initialized": true,
   "v": 4,
@@ -3511,6 +3511,12 @@
       "source": "Yahoo Sports",
       "ts": "2026-11-27T18:00:51+00:00",
       "cluster": "cda1057ab76"
+    },
+    {
+      "t": "UFC Newcomer Booked to Fight on Less Than 2 Weeks' Notice at UFC Saudi Arabia",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-27T18:23:00+00:00",
+      "cluster": "ca93132af6f"
     }
   ],
   "digest_items": [],
