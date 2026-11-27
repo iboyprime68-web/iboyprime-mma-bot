@@ -1,5 +1,6 @@
 {
   "seen": {
+    "0611418b66d82c50": 1795752138.5359876,
     "62ee2d683a6aa5cc": 1795752113.3137844,
     "77b6f5f6cd77ac2e": 1795752086.8609126,
     "37814b6cc80c7a46": 1795752057.8820074,
@@ -2498,8 +2499,7 @@
     "ee13d83e126f20a9": 1794773643.8519995,
     "c4ed1df0abf7aa2c": 1794773597.9963434,
     "38e7e1b7bdec1726": 1794773531.820332,
-    "5c4f9625707ca293": 1794773466.5361865,
-    "f54eb552b32afcd5": 1794773399.8538146
+    "5c4f9625707ca293": 1794773466.5361865
   },
   "initialized": true,
   "v": 4,
@@ -3511,6 +3511,12 @@
       "source": "Bloody Elbow",
       "ts": "2026-11-27T00:00:00+00:00",
       "cluster": "cc4d521ea9b"
+    },
+    {
+      "t": "Jon Jones and Josh Hokit’s teammate releases statement on ‘false stories’ brought up in UFC feud",
+      "source": "Bloody Elbow",
+      "ts": "2026-11-27T01:00:00+00:00",
+      "cluster": "ce2109414e4"
     }
   ],
   "digest_items": [],
