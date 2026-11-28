@@ -1,5 +1,6 @@
 {
   "seen": {
+    "c6d4cdecdc82d5d9": 1795840979.0172234,
     "c37607b0df050caf": 1795840934.135527,
     "58d02e0b712bde97": 1795840934.1231067,
     "4cb89ed9302268c4": 1795840903.385156,
@@ -2498,8 +2499,7 @@
     "700743d2d643f461": 1794844387.6095817,
     "d6eccfc0f41c01d6": 1794844318.969043,
     "07ceb064246d0638": 1794844251.8529923,
-    "1d6ea6ae5aae73e8": 1794844184.6772225,
-    "5db90c2b02bf298d": 1794843928.3683236
+    "1d6ea6ae5aae73e8": 1794844184.6772225
   },
   "initialized": true,
   "v": 4,
@@ -3511,6 +3511,12 @@
       "source": "Sherdog",
       "ts": "2026-11-28T00:58:15+00:00",
       "cluster": "cf13c383584"
+    },
+    {
+      "t": "Video! Valter Walker Nearly Incites Brawl After Being Pelted With Fruit",
+      "source": "Yahoo Sports",
+      "ts": "2026-11-28T03:00:00+00:00",
+      "cluster": "c9e4871f5ac"
     }
   ],
   "digest_items": [],
